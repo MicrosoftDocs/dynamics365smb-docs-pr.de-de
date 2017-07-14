@@ -16,11 +16,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 7c900b87a5b0fd703ff0bdbaa5e2ac41f2939c3d
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension-to-dynamics-365-for-financials"></a>Die Bank Envestnet Yodlee enthält Erweiterungen zu Dynamics 365 for Financials
+# Die Bank Envestnet Yodlee enthält Erweiterungen zu Dynamics 365 for Financials
+<a id="the-envestnet-yodlee-bank-feeds-extension-to-dynamics-365-for-financials" class="xliff"></a>
 Um die Zahlungen schnell abzustimmen, die an Ihre Bankkonten getätigt werden, kann die Bank-Feed-Service Envestnet Yodlee Ihre Systembankkonten mit Ihrem Online Bankkonto verknüpfen. Das bedeutet, dass der letzte Bankkontoauszug automatisch oder manuell in Ihr Abstimmungsbuch.-Blatt gespeist wird und stellt sicher, dass immer die aktuelle Zahlungen mit minimalem Fehlerrisiko verarbeitet werden.
 
 Der Bank-Feed-Service Envestnet Yodlee stellt die folgenden Vorteile bereit:
@@ -34,8 +35,9 @@ Der Bank-Feed-Service Envestnet Yodlee stellt die folgenden Vorteile bereit:
 
 Für weitere Informationen, siehe [So gehts: Einrichten des Envestnet Yodlee Bank-Feed-Service](bank-how-setup-bank-statement-service.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe der Erweiterungen] (ui-extensions.md)    
 [Automatische Zahlungen anwenden und Abstimmen von Bankkonten] (receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

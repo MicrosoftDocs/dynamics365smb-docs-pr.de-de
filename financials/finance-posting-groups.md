@@ -16,11 +16,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 79018546484ff3bb8965089a3554d69bec219304
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="posting-group-setups"></a>Einrichten von Gruppenbuchungen
+# Einrichten von Gruppenbuchungen
+<a id="posting-group-setups" class="xliff"></a>
 Buchungsgruppenzuordnungseinheiten nach Debitoren, Kreditoren, Artikel, Ressourcen und Einkaufs- und Verkaufsbelegen mit Sachkonten. Sie sparen Zeit und helfen, Fehler zu vermeiden, wenn Sie Transaktionen buchen. Die Umsatzwerte wechseln zu den Konten, die in der Buchungsgruppe für diese bestimmte Einheit angegeben werden. Die einzige Anforderung ist, dass Sie einen Kontenplan haben. Weitere Informationen finden Sie unter [Einrichten des Kontenplans](finance-setup-chart-accounts.md).  
 
 Buchungsgruppen werden unter drei Schlüsseln abgedeckt:  
@@ -34,7 +35,7 @@ Die folgenden Tabellen beschreiben die Buchungsgruppen nach den Schlüsseln.
 | Allgemeine Buchungsgruppen | Beschreibung |
 | --- | --- |
 | Allgemeine Geschäftsbuchungsgruppen |Weisen Sie diese Gruppen den Debitoren und Kreditoren zu, um anzugeben, von wem Sie kaufen und an wen Sie verkaufen. Richten Sie dies im Fenster **Geschäftsbuchungsgruppen erstellen** ein Wenn Sie dies tun, überlegen Sie, in wie viele Gruppen die Verkäufe und Einkäufe aufgeschlüsselt werden müssen. Beispielsweise Gruppendebitoren und Kreditoren nach bestimmten Feld oder nach Art des Geschäfts. |
-| Allgemeine Produktbuchungsgruppen |Weisen Sie diese Gruppe Artikeln und Ressourcen zu, um festzulegen, was Sie verkaufen und was Sie kaufen. Richten Sie dies im Fenster **Geschäftsbuchungsgruppen erstellen** ein Wenn Sie dies tun, berücksichtigen Sie die Gruppen, in die Sie Verkäufe nach Produkt (Artikel und Ressourcen) und Verkäufe nach Artikeln aufschlüsseln müssen. Beispielsweise  teilen Sie diese Gruppen nach Rohmaterial, Einzelhandel, Ressourcen, Kapazität, usw. auf. |
+| Allgemeine Produktbuchungsgruppen |Weisen Sie diese Gruppe Artikeln und Ressourcen zu, um festzulegen, was Sie verkaufen und was Sie kaufen. Richten Sie dies im Fenster **Geschäftsbuchungsgruppen erstellen** ein Wenn Sie dies tun, berücksichtigen Sie die Gruppen, in die Sie Verkäufe nach Produkt (Artikel und Ressourcen) und Verkäufe nach Artikeln aufschlüsseln müssen. Beispielsweise teilen Sie diese Gruppen nach Rohmaterial, Einzelhandel, Ressourcen, Kapazität, usw. auf. |
 | Buchungsmatrix Einrichtung |Kombinieren von Geschäfts- und Produktbuchungsgruppen, und aktivieren Sie die Konten, um zu buchen. Jeder Kombination aus Geschäfts- und Produktbuchungsgruppen können Sie einen anderen Satz von Sachkonten zuweisen. So können Sie beispielsweise den Verkauf eines Artikels in der Finanzbuchhaltung auf unterschiedliche Verkaufskonten buchen, indem den Debitoren verschiedene Geschäftsbuchungsgruppen zugewiesen werden. Richten Sie das Fenster **Buchungsmatrix Einrichtung** |
 
 | Spezielle Buchungsgruppen | Beschreibung |
@@ -48,10 +49,11 @@ Die folgenden Tabellen beschreiben die Buchungsgruppen nach den Schlüsseln.
 | Steuerbuchungsgruppe | Beschreibung |
 | --- | --- |
 | Geschäftssteuerbuchungsgruppen |Bestimmen, wie Verkaufssteuer für Debitoren und Kreditoren berechnet und gebucht werden. Richten Sie dies im Fenster **Geschäftssteuerbuchungsgruppen** ein Wenn Sie dies tun, überlegen Sie, wieviele Gruppen Sie benötigen. Dies ist von verschiedenen Faktoren wie der hiesigen Gesetzgebung ab und ob Sie sowohl im Inland als auch im Ausland Handel treiben. |
-| Steuerproduktbuchungsgruppen |Geben Sie die Steuerberechnungen an, die für die Arten von  Artikeln oder Ressourcen erforderlich ist, die Sie kaufen oder verkaufen. |
+| Steuerproduktbuchungsgruppen |Geben Sie die Steuerberechnungen an, die für die Arten von Artikeln oder Ressourcen erforderlich ist, die Sie kaufen oder verkaufen. |
 | Steuerbuchung einrichten |Zeigt Kombinationen aus MwSt.-Geschäftsbuchungsgruppen und MwSt.-Produktbuchungsgruppen an. Wenn Sie eine Buch.-Blattzeile, eine Einkaufszeile bzw. Verkaufszeile ausfüllen, schauen wir die Kombination an, um die zu verwendenden Konten zu identifizieren. |
 
-## <a name="example-of-linking-posting-groups"></a>Beispiel für die Verknüpfung von Buchungsgruppen
+## Beispiel für die Verknüpfung von Buchungsgruppen
+<a id="example-of-linking-posting-groups" class="xliff"></a>
 Hier ist ein Szenario.  
 
 Diese Buchungsgruppen werden auf der Debitorenkarte aktiviert:  
@@ -73,11 +75,13 @@ Wenn ein Verkaufsbeleg erstellt wird, werden die Informationen auf der Debitoren
 
 Ihre Einrichtung legt fest, wann die Buchung erfolgt. Beispielsweise wird die zeitliche Steuerung tangiert, wenn Sie "Periodische Aktivitäten" durchführen, wie Buchungslagerkosten oder Anpassung von Kostenfaktorposten.
 
-## <a name="copying-posting-setup-lines"></a>Kopieren von Buchungsmatrix-Einrichtungszeilen
+## Kopieren von Buchungsmatrix-Einrichtungszeilen
+<a id="copying-posting-setup-lines" class="xliff"></a>
 Je mehr Produkt- und Geschäftsbuchungsgruppen vorhanden sind, um so mehr Zeilen werden im Fenster Buchungsmatrix Einrichtung angezeigt. Für die Einrichtung der Buchungsmatrix des Unternehmens kann daher unter Umständen eine umfangreiche Dateneingabe erforderlich sein. Während unter Umständen viele verschiedene Kombinationen von Geschäfts- und Produktbuchungsgruppen vorhanden sind, buchen möglicherweise unterschiedliche Kombinationen weiterhin auf dieselben Sachkonten. Um den Umfang der erforderlichen manuellen Dateneingabe einzuschränken, kopieren Sie die Sachkonten aus einer vorhandenen Zeile in das Fenster **Buchungsmatrix Einrichtung.**
 
-## <a name="see-also"></a>Siehe auch 
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Finance einrichten](finance-setup-finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

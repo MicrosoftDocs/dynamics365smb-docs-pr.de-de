@@ -16,11 +16,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 2979ac7aa3013b3c7ee70a557db0cc581d546624
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="preparing-closing-statements"></a>Abschlussberichrte vorbereiten
+# Abschlussberichrte vorbereiten
+<a id="preparing-closing-statements" class="xliff"></a>
 Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.
 
 Die folgende Tabelle enthält Beschreibungen zu einigen hilfreichen Berichten sowie Links zu den entsprechenden Themen, in denen diese Berichte erläutert werden.
@@ -37,7 +38,8 @@ Die folgende Tabelle enthält Beschreibungen zu einigen hilfreichen Berichten so
 
 Um Berichte anzuzeigen, wählen Sie in der oberen rechter Ecke das Symbol **Nach Seite oder Bericht suchen aus** ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht Suchen-Symbol") und geben den Namen ein, wie er in der Tabelle erscheint. Wählen Sie dann den entsprechenden Link aus.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

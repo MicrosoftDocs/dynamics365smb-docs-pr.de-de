@@ -16,12 +16,13 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 87b4f85333fdf1660493f2a77009f0c763f03d59
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="setting-up-finance"></a>Finance einrichten
-Damit Sie sich rasch zurechtfinden, enthält [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]  Standardkonfigurationen für die meisten Finanzprozesse. Wenn Sie die Konfiguration ändern müssen, um Ihrem Geschäft zu entsprechen, tun Sie es. Sei können vom Startbildschirm auf eine unterstützte Einrichtung zugreifen, die Sie bespielsweise dabei unterstützt, Verkaufssteuer abhängig von Ihrem Standort einzurichten.  
+# Finance einrichten
+<a id="setting-up-finance" class="xliff"></a>
+Damit Sie sich rasch zurechtfinden, enthält [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Standardkonfigurationen für die meisten Finanzprozesse. Wenn Sie die Konfiguration ändern müssen, um Ihrem Geschäft zu entsprechen, tun Sie es. Sei können vom Startbildschirm auf eine unterstützte Einrichtung zugreifen, die Sie bespielsweise dabei unterstützt, Verkaufssteuer abhängig von Ihrem Standort einzurichten.  
 
 Es gibt jedoch mehrere Elemente, die Sie selber einrichten müssen. Wenn Sie Dimensionen als Grundlage für Business Intelligence verwenden möchten.  
 
@@ -37,11 +38,12 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Fügen Sie dem bestehenden Kontenplan neue Konten hinzu. |[Einrichten eines Kontenplans](finance-setup-chart-accounts.md) |
 | Einrichten Business Intelligence (BI)- Diagrammen, um Cashflow zu analysieren. |[Aufstellungs-Cashflow-Analyse](finance-setup-cash-flow-analyses.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Verwalten von Bankkonten](bank-manage-bank-accounts.md)  
 [Dimensionen](finance-dimensions.md)  
 [Geschäftsdaten aus anderen Finanzsystemen migrieren](upload-data.md)  
 [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

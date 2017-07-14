@@ -16,11 +16,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: c5493fe0702a0b7032bfdb4724d7a865113636d1
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="finance"></a>Finanzen
+# Finanzen
+<a id="finance" class="xliff"></a>
 [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
 
 Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter gestalten.  
@@ -43,14 +44,15 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 | Überwachen Sie den Ablauf des Bargeldes für Ihr Unternehmen. |[Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md) |
 | Kanada: Einrichten und Verwenden von GIFI-Codes für das Finanzberichtswesen. |[So gehts: Arbeiten mit GIFI-Codes in Kanada](ca-finance-work-gifi-codes.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Finance einrichten](finance-setup-finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Schließen des Finanzzeitraums](year-close-years-periods.md)  
 [Projekte verwalten](projects-manage-projects.md)    
 [Aus anderen Finanzsystemen importieren](upload-data.md)  
-[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)A  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -16,26 +16,29 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 38ea48e8a948df0fc3894e91d8393d2d14b2fd5a
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="how-to-create-incoming-document-records"></a>Vorgehensweise: Erstellen von Eingangsbelegen
+# Vorgehensweise: Erstellen von Eingangsbelegen
+<a id="how-to-create-incoming-document-records" class="xliff"></a>
 Im Fenster **Eingehende Dokumente** können Sie verschiedene Funktionen zum Überprüfen von Ausgabenbelegen, Verwalten von OCR-Aufgaben und Konvertieren eingehender Belege, manuell oder automatisch, in den entsprechenden Belegen oder Buch.-Blattzeilen verwenden. Die externen Dateien können jeder Prozessphase zugeordnet werden, auch gebuchten Belegen und den resultierenden Kreditoren-, Debitoren- und Sachposten.
 
 Um einen externen Beleg in [!INCLUDE[d365fin](includes/d365fin_md.md)] aufzuzeichnen, müssen Sie zuerst einen Datensatz des Eingangsbeleges anlegen oder ausfüllen. Dies kann manuell erfolgen, oder Sie können ein Foto des externen Belegs machen und einen Eingangsbelegsdatensatz mit der angehängten Bilddatei erstellen.
 
 Bevor Sie die Funktion für Eingangsbelege verwenden können, müssen Sie sie entsprechend einrichten. Weitere Informationen finden Sie unter [So gehts: Einrichten von eingehenden Belegen](across-how-setup-income-documents.md).
 
-## <a name="to-approve-or-reject-an-incoming-document"></a>So können Sie einen eingehenden Beleg genehmigen oder ablehnen
+## So können Sie einen eingehenden Beleg genehmigen oder ablehnen
+<a id="to-approve-or-reject-an-incoming-document" class="xliff"></a>
 Wenn Sie wünschen, dass Benutzer Rechnungen oder Hauptjournalzeilen aus Eingangsbelegen nur dann erstellen dürfen, wenn diese genehmigt sind, können Sie Genehmiger einrichten, die alle Belege genehmigen müssen, bevor sie verarbeitet werden können.
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen **aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen.") Geben Sie **Eingehende Dokumente** ein und wählen Sie dann den entsprechenden Link aus.
+1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen"). Geben Sie **Eingehende Dokumente** ein und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie die Zeile mit dem Beleg, den Sie genehmigen oder ablehnen möchten, und wählen Sie dann die Aktion **Genehmigen** oder **Ablehnen** aus.
 
 Das Kontrollkästchen **Freigegeben** in der Zeile für den Eingangsbeleg ist aktiviert, wenn dieser genehmigt wurde. Der jeweilige Benutzer, beispielsweise der für das Erstellen von Einkaufsrechnungen zuständige, kann dann fortfahren, den Datensatz zu verarbeiten.
 
-## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>So erstellen Sie Eingangsbelegdatensätze indem Sie ein Foto machen
+## So erstellen Sie Eingangsbelegdatensätze indem Sie ein Foto machen
+<a id="to-create-an-incoming-document-record-by-taking-a-photo" class="xliff"></a>
 **Hinweis**: Der folgende Vorgang gilt nur für [!INCLUDE[d365fin](includes/d365fin_md.md)] -Tablet- und Smarpthone-Clients.
 
 1. Wählen Sie auf der App-Leiste die Kachel **Erstellen von eingehendem Beleg von Kamera**, und wechseln Sie dann zu Schritt 4.
@@ -45,7 +48,8 @@ Das Kontrollkästchen **Freigegeben** in der Zeile für den Eingangsbeleg ist ak
 
 Ein neuer Datensatz für den eingehenden Beleg wird erstellt und das Bild wird angehängt.
 
-## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>So hängen Sie ein Bild an ein Eingangsbelegdatensatz an, indem Sie ein Foto machen
+## So hängen Sie ein Bild an ein Eingangsbelegdatensatz an, indem Sie ein Foto machen
+<a id="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo" class="xliff"></a>
 **Hinweis**: Der folgende Vorgang gilt nur für [!INCLUDE[d365fin](includes/d365fin_md.md)] -Tablet- und Smarpthone-Clients.
 
 1. Wählen Sie auf der App-Leiste die Optionsschaltfläche aus, wählen Sie **Eingehende Belege** und wählen Sie dann **Alle** aus.
@@ -55,8 +59,9 @@ Ein neuer Datensatz für den eingehenden Beleg wird erstellt und das Bild wird a
 
 Das Bild wurde dem Datensatz des eingehenden Beleges angehängt.
 
-## <a name="to-create-an-incoming-document-record-manually"></a>Eingangsbelege manuell erstellen
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen **aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen.") Geben Sie **Eingehende Dokumente** ein und wählen Sie dann den entsprechenden Link aus.
+## Eingangsbelege manuell erstellen
+<a id="to-create-an-incoming-document-record-manually" class="xliff"></a>
+1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen"). Geben Sie **Eingehende Dokumente** ein und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie die Aktion **Aus Datei erstellen** aus.  
 3. Wählen Sie im Fenster **Datei einfügen** eine Datei aus und wählen Sie dann **Offen** aus.
 
@@ -66,9 +71,10 @@ Das Bild wurde dem Datensatz des eingehenden Beleges angehängt.
 6. Im **Datei einfügen**-Fenster wählen Sie die Datei, die den jeweiligen Eingangsbeleg darstellt, und wählen Sie die Schaltfläche **Öffnen**.
 7. Füllen Sie im Fenster **Eingehende Belege** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Eingehende Dokumente verarbeiten](across-process-income-documents.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

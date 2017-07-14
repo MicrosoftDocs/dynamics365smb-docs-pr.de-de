@@ -15,11 +15,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 9726f7c0002e2de42fba76e5923158577c607ddf
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="allocating-costs-and-income"></a>Kosten und Einkünfte zuteilen
+# Kosten und Einkünfte zuteilen
+<a id="allocating-costs-and-income" class="xliff"></a>
 Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen. Für die Verteilung stehen drei unterschiedliche Methoden zur Verfügung:
 
 * Menge
@@ -36,8 +37,9 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 | Ausfüllen eines wiederkehrenden Fibu Buch.-Blatts und Angeben von Verteilungsmenge, -prozentsatz oder -betrag für die entsprechenden Konten oder Dimensionen |[Vorgehensweise: Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern](ui-how-use-allocation-keys-general-journals.md) |
 | Ändern eines bereits eingerichteten Verteilungsschlüssels |[Verteilungsschlüssel ändern](ui-how-use-allocation-keys-general-journals.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

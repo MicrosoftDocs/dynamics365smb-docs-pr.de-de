@@ -15,11 +15,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 3673b32320f2fc2b092afff7d0e8ba2c48edb0f9
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="preparing-pre-closing-reports"></a>Vorabschlussberichte vorbereiten
+# Vorabschlussberichte vorbereiten
+<a id="preparing-pre-closing-reports" class="xliff"></a>
 Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden. So können Sie sich beispielsweise mithilfe des Berichts **Debitor - Saldenliste** vergewissern, dass an einem bestimmten Datum der Saldo einer Debitorenbuchungsgruppe dem Saldo des zugehörigen Sachkontos entspricht.
 
 Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Prozess zusammen mit dem Berichtnamen hilfreich sein können.
@@ -38,8 +39,9 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 
 Um Berichte anzuzeigen, wählen Sie in der oberen rechter Ecke das Symbol **Nach Seite oder Bericht suchen aus** ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht Suchen-Symbol") und geben den Namen ein, wie er in der Tabelle erscheint. Wählen Sie dann den entsprechenden Link aus.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

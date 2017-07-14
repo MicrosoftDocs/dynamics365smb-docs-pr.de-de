@@ -1,6 +1,6 @@
 ---
 title: "Geschäftsfunktionalität | Microsoft Docs"
-description: "Stellt eine Übersicht über alle Abteilungen und Geschäftsfunktionen bereit, die durch Anwendungsbereichen wie z. B.  Finanzen, Lager und Projektmanagement unterstützt werden"
+description: "Stellt eine Übersicht über alle Abteilungen und Geschäftsfunktionen bereit, die durch Anwendungsbereichen wie z. B. Finanzen, Lager und Projektmanagement unterstützt werden"
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,16 +16,17 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 71d24177b074fcccb719077d0c83236ba54cc7e0
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="business-functionality"></a>Geschäftsfunktionen
+# Geschäftsfunktionen
+<a id="business-functionality" class="xliff"></a>
 [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen.
 
 Der Anwendungsbereich, Verkauf, Einkauf und Bestandunterstützt allgemeine Lieferkettenvorgänge, obwohl sie auf die Anforderungen von Großhandel- und Verteilungsmandanten ohne verwaltete Lagerdurchlaufzeit begrenzt sind. Weitere Informationen finden Sie unter [Lieferketten](madeira-supply-chain.md)
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrer Homepage aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrer Homepage aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
@@ -40,8 +41,9 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Organisieren Sie Ihre Anlagen, stellen Sie die korrekten periodischen Abschreibungen sicher und Verwalten Sie Wartungskosten. |[Anlagen](fa-manage.md) |
 | Führen Sie ausführliche Datensätze über Ihre Mitarbeiter und erfassen Sie Abwesenheiten zu Analysezwecken. |[Personalwesen](hr-manage-human-resources.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

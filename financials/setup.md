@@ -16,18 +16,19 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 5be24b9017b105adc6c857655c8de63d67b6aa29
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="setting-up-dynamics-365-for-financials"></a>Dynamics 365 for Financials einrichten
-[!INCLUDE[d365fin](includes/d365fin_md.md)]umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen.
+# Dynamics 365 for Financials einrichten
+<a id="setting-up-dynamics-365-for-financials" class="xliff"></a>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen.
 
 Wir haben einige Firmendaten für Sie erstellt, beispielsweise Ihren Kontenplan mit Kontensummen vorausgefüllt, die zur Verwendung bereit sind. Sie können den Kontenplan selbstverständlich ändern und Ihren persönlichen Anforderungen anzupassen. Weitere Informationen finden Sie unter [Finanzen](finance.md).
 
 Von Ihrer Homepage aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsfenster zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).
 
-Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvorgänge können zusätzlich zur unterstützten Einrichtung auch manuell eingerichtet werden. Nachfolgend finden Sie eine Liste von  Funktionalität, die Sie manuell einrichten können.
+Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvorgänge können zusätzlich zur unterstützten Einrichtung auch manuell eingerichtet werden. Nachfolgend finden Sie eine Liste von Funktionalität, die Sie manuell einrichten können.
 
 | Aufgabe | Siehe |
 | --- | --- |
@@ -41,11 +42,12 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 | Richtet eindeutige Identifizierungscodes für Datensätze, wie Karten, Belege und Buch.-Blattzeilen ein, um sie im System zu verfolgen. |[Erstellen von Nummernkreisen](ui-create-number-series.md) |
 | Richtet das Fenster **SMTP-Mail-Einrichtung** ein, um E-Mails von Dokumenten innerhalb von zu [!INCLUDE[d365fin](includes/d365fin_md.md)]senden und zu erhalten. |[Gewusst wie: Einrichten von E-Mails](madeira-how-setup-email.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Finanzen](finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

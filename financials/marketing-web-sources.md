@@ -16,17 +16,19 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 8a452619aeeee907cf61fd5d1a8fce409ad2e42d
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="setting-up-web-sources-for-contact-companies"></a>Einrichten von Internetfavoriten für Kontaktunternehmen
+# Einrichten von Internetfavoriten für Kontaktunternehmen
+<a id="setting-up-web-sources-for-contact-companies" class="xliff"></a>
 Sie können Ihren Kontakten Internetfavoriten (z. B. Suchmaschinen und Websites) zuordnen, um anzuzeigen, wo Sie im Internet nach Informationen über die Kontakte suchen möchten. Wenn Sie Internetfavoriten zuordnen, legen Sie fest, welche Suchmaschine und welchen Suchbegriff die Anwendung bei der Suche nach der gewünschten Information verwendet.
 
 Die Nutzung von Internetfavoriten zu Kontakten ist ein zwei Schritte umfassender Prozess. Zuerst definieren Sie den Internetfavoritencode. Sie müssen diesen Schritt nur einmal für jeden Internetfavoriten ausführen. Sobald Sie einen Internetfavoritencode haben, können Sie den Code zu den Kontaktpersonen zuweisen.
 
-## <a name="to-define-a-web-source-code"></a>um einen Internetfavoritencode zu definieren
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Internetressourcen** ein und wählen Sie dann den entsprechenden Link aus.
+## um einen Internetfavoritencode zu definieren
+<a id="to-define-a-web-source-code" class="xliff"></a>
+1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **Internetressourcen** ein und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder **Code**, **Beschreibung** und **URL** aus.
 
@@ -34,7 +36,8 @@ Die Nutzung von Internetfavoriten zu Kontakten ist ein zwei Schritte umfassender
 
 Wiederholen Sie diese Schritte, um weitere Internetfavoriten einzurichten.
 
-## <a name="to-assign-web-sources-to-a-contact-company"></a>um Internetfavoriten zu einem Kontaktunternehmen zuzuordnen
+## um Internetfavoriten zu einem Kontaktunternehmen zuzuordnen
+<a id="to-assign-web-sources-to-a-contact-company" class="xliff"></a>
 Wenn Sie Internetfavoriten zuordnen, legen Sie fest, welche Suchmaschine und welchen Suchbegriff die Anwendung bei der Suche nach der gewünschten Information verwendet.
 
 1. Öffnen Sie den Kontakt.
@@ -46,7 +49,8 @@ Wiederholen Sie diese Schritte, um weitere Internetfavoriten zuzuordnen.
 
 Außerdem können Sie Internetfavoriten auf die gleiche Art in dem Fenster **Kontaktübersicht** zuordnen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Kontaktunternehmenerstellen](marketing-create-contact-companies.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

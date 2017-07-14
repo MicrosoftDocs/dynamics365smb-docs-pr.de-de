@@ -16,11 +16,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: a7f388db2d00b9916160d19edead92714f6eacc1
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="how-to-export-payments-to-a-bank-file"></a>Vorgehensweise: Zahlungen in eine Bankdatei exportieren
+# Vorgehensweise: Zahlungen in eine Bankdatei exportieren
+<a id="how-to-export-payments-to-a-bank-file" class="xliff"></a>
 Wenn Sie bereit sind, Zahlungen an Ihre Kreditoren mit dem Fenster **Zahlung Buch.-Blatt** vorzunehmen, können Sie eine Datei mit den Zahlungsinformationen auf den Buch.-Blattzeilen exportieren. Sie können die Datei dann zu Ihrer elektronischen Bank hochladen, um die entsprechenden Geldüberweisungen zu verarbeiten.
 
 In der generischen Version von [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]  wird ein globaler Diensteanbieter eingerichtet und verbunden, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt. In den nordamerikanischen Versionen kann derselbe Service verwendet werden, um Zahlungsdateien als elektronischer Geldtransfer (EFT) zu buchen, mit einem leicht anderen Prozess. Siehe Schritt 6 im Bereich "Zahlungen in eine Bankdatei exportieren".    
@@ -29,8 +30,9 @@ In der generischen Version von [!INCLUDE[d365fin_long](includes/d365fin_long_md.
 
 Sie verwenden das Fenster **Kreditübertragungsjournale**, um die Zahlungsdateien anzuzeigen, die aus dem Zahlungsausgangs Buch.-Blatt exportiert wurden. Von diesem Fenster aus können Sie Zahlungsdateien auch erneut exportieren (im Fall von technischen Fehlern oder Dateiänderungen). Beachten Sie, dass die exportierten EFT-Dateien nicht in diesem Fenster angezeigt werden und nicht wieder exportiert werden können.  
 
-## <a name="to-export-payments-to-a-bank-file"></a>Zahlungen in eine Bankdatei exportieren
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus**![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen.") Geben Sie **Zahlungsjournal** ein und wählen Sie dann den entsprechenden Link aus.
+## Zahlungen in eine Bankdatei exportieren
+<a id="to-export-payments-to-a-bank-file" class="xliff"></a>
+1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **Zahlungsjournal** ein und wählen Sie dann den entsprechenden Link aus.
 2. Füllen Sie die Buch.-Blattzeilen z. B. mit der Funktion **Zahlungsvorschlag** aus. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen von Zahlungsvorschlägen für Kreditoren](payables-how-suggest-vendor-payments.md).
 3. Füllen Sie die Felder in den Buch.-Blattzeilen wie notwendig aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -56,15 +58,17 @@ Sie verwenden das Fenster **Kreditübertragungsjournale**, um die Zahlungsdateie
 
 Die Bankzahlungsdatei wird in den Speicherort exportiert, den Sie festlegen, und Sie können fortfahren, sie in das elektronische Bankkonto hochzuladen und die tatsächlichen Zahlungen zu leisten. Dann können Sie die Buch.-Blattzeilen der exportierten Zahlung buchen.
 
-## <a name="to-export-payments-that-represent-customer-refunds"></a>So exportieren Sie Zahlungen, die Debitorenerstattungen darstellen
+## So exportieren Sie Zahlungen, die Debitorenerstattungen darstellen
+<a id="to-export-payments-that-represent-customer-refunds" class="xliff"></a>
 Nachfolgend wird eine Vorgehensweise zum Exportieren von elektronischen Erstattungszahlungen erläutert.
 
 **Vorsicht**: Die resultierenden Buch.-Blattzeilen können nicht gebucht, gelöscht oder storniert werden.
-1. Kunden als Kreditor einrichten. Nennen wir ihn beispielsweise  "Debitor X für Erstattungen". Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Kreditoren](purchasing-how-register-new-vendors.md).
+1. Kunden als Kreditor einrichten. Nennen wir ihn beispielsweise "Debitor X für Erstattungen". Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Kreditoren](purchasing-how-register-new-vendors.md).
 2. Auf der Zahlungsbuch.-Blattzeile für den Debitor setzen Sie das Feld **Kontoart** auf **Debitor** und das Feld **Belegart** auf **Erstattung** fest.
-3. Führen Sie die normalen Schritte für Zahlungsexporte aus, die im Abschnitt "Zahlungen in eine Bankdatei exportieren"  erläutert sind.
+3. Führen Sie die normalen Schritte für Zahlungsexporte aus, die im Abschnitt "Zahlungen in eine Bankdatei exportieren" erläutert sind.
 
-## <a name="to-plan-when-to-post-exported-payments"></a>Um die Buchung von exportierten Zahlungen zu planen
+## Um die Buchung von exportierten Zahlungen zu planen
+<a id="to-plan-when-to-post-exported-payments" class="xliff"></a>
 Wenn Sie keine Buch.-Blattzeile für eine exportierte Zahlung buchen möchten, weil Sie beispielsweise eine Bestätigung erwarten, dass die Transaktion von der Bank verarbeitet wurde, können Sie die Buch.-Blattzeile einfach löschen. Falls Sie später eine Buch.-Blattzeile, um den Restbetrag der gebuchten Rechnung zu bezahlen, zeigt das **Exportierter Betrag gesamt**-Feld, wie viel des Zahlungsbetrags bereits exportiert wurde. Detaillierte Informationen über die exportierte Summe können Sie auch finden, indem Sie die Schaltfläche **Posten im Kreditübertragungsjournal** auswählen, um Einzelheiten zu Dateien der exportierten Zahlung anzuzeigen.
 
 Wenn Sie ein Vorgang folgen, bei dem Sie keine Zahlungen buchen bis Sie die Bestätigung haben, dass sie in der Bank verarbeitet wurden, können Sie dieses auf zwei Arten steuern.
@@ -74,17 +78,19 @@ Wenn Sie ein Vorgang folgen, bei dem Sie keine Zahlungen buchen bis Sie die Best
 
 Um Informationen über exportierte Zahlungen anzuzeigen, wählen Sie die Aktion **Zahlungs-Export-Verlauf**.
 
-## <a name="to-re-export-payments-to-a-bank-file"></a>Um Zahlungen erneut in eine Bankdatei zu exportieren
+## Um Zahlungen erneut in eine Bankdatei zu exportieren
+<a id="to-re-export-payments-to-a-bank-file" class="xliff"></a>
 Sie können Zahlungsdateien aus dem **Kreditübertragungsjournale**-Fenster exportieren. Bevor Sie Zahlungsausgangs Buch.-Blattzeilen löschen oder buchen, können Sie die Zahlungsdatei aus dem **Zahlung Buch.-Blatt**-Fenster auch erneut exportieren, indem Sie es einfach wieder exportieren. Wenn Sie ein Zahlungsausgangs-Buch.-Blatt gelöscht oder gebucht haben, nachdem Sie es exportiert haben, können Sie dieselbe Zahlungsdatei nur aus dem **Kreditübertragungsjournale**-Fenster erneut exportieren. Wählen Sie die Zeile für den Stapelauftrag für Gutschriftübertragungen aus, die Sie erneut exportieren möchten, und verwenden Sie dann die Aktion **Zahlungen erneut in Datei exportieren**.
 
-**Hinweis**Beachten Sie, dass die exportierten EFT-Dateien nicht im Fenster **Kreditübertragungsjournale**angezeigt werden und nicht wieder exportiert werden können.
+**Hinweis**Beachten Sie, dass die exportierten EFT-Dateien nicht im Fenster **Kreditübertragungsjournale** angezeigt werden und nicht wieder exportiert werden können.
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus! ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und **Kreditübertragungsjournale** eingeben und den entsprechenden Link auswählen.„”
+1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und **Kreditübertragungsjournale** eingeben und den entsprechenden Link auswählen.
 2. Wählen Sie einen Zahlungsexport, den Sie erneut exportieren möchten, und wählen die Aktion **Erneuter Zahlungsexport in Datei** aus.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Verbindlichkeiten](payables-manage-payables.md)  
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

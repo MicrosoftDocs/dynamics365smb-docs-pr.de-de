@@ -15,11 +15,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 582e006291e51e19d80304d24ae055ce6ac8d698
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="how-to-register-new-items"></a>Vorgehensweise: Einen neuen Artikel registrieren
+# Vorgehensweise: Einen neuen Artikel registrieren
+<a id="how-to-register-new-items" class="xliff"></a>
 Produkte sind die Basis Ihres Unternehmens, die Waren oder Dienstleistungen, mit denen Sie handeln. Jedes Produkt muss als Artikelkarte registriert werden.
 
 Artikelkarten verwahren die Informationen, die benötigt werden, um Produkte einzukaufen, einzulagern, zu liefern und zu berechnen.
@@ -30,7 +31,8 @@ Ein Artikel kann als übergeordneter Artikel mit zugrunde liegenden untergeordne
 
 **Hinweis**: Wenn für verschiedene Artikelarten Artikelvorlagen existieren, öffnet sich ein Fenster, aus dem Sie eine entsprechende Artikelvorlage auswählen können, sobald eine neue Artikelkarte erstellt wird . Wenn nur eine Artikelvorlage vorhanden ist, verwenden neue Artikelkarten immer diese Vorlage.
 
-## <a name="to-create-a-new-item-card"></a>So erstellen Sie eine neue Artikelkarte
+## So erstellen Sie eine neue Artikelkarte
+<a id="to-create-a-new-item-card" class="xliff"></a>
 1. Wählen Sie auf der Startseite die Aktion **Artikel**, um die Liste der vorhandenen Artikel zu öffnen.  
 2. Wählen Sie im Fenster **Artikel** die Aktion **Neu** aus.
 
@@ -45,7 +47,8 @@ Der Artikel ist nun erfasst und die Debitorenkarte ist bereit, in Einkaufs- und 
 
 Wenn Sie diese Artikelkarte als Vorlage zum Erstellen neuer Artikelkarten verwenden möchten, können Sie sie als Vorlage speichern. Weitere Informationen finden Sie im folgenden Abschnitt.
 
-## <a name="to-save-the-item-card-as-a-template"></a>So speichern Sie die Artikelkarte als Vorlage
+## So speichern Sie die Artikelkarte als Vorlage
+<a id="to-save-the-item-card-as-a-template" class="xliff"></a>
 1. Wählen Sie im Fenster **Artikelkarte** die Aktion **Als Vorlage speichern** aus. Das Fenster **Arikelvorlage** wird geöffnet und zeigt die Artikelkarte als Vorlage.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Um Dimensionen in den Vorlagen wiederzuverwenden, wählen Sie die Aktion **Dimensionen**. Das Fenster **Dimensionen Vorlagenübersicht** wird geöffnet und zeigt alle Dimensionscodes, die für den Artikel eingerichtet werden.
@@ -54,10 +57,11 @@ Wenn Sie diese Artikelkarte als Vorlage zum Erstellen neuer Artikelkarten verwen
 
 Die Artikelvorlage wird der Liste von Artikelvorlagen hinzugefügt, damit Sie diese verwenden können, um neue Debitorenkarten zu erstellen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
   [Lagerbesttand](inventory-manage-inventory.md)  
   [Einkauf](purchasing-manage-purchasing.md)  
   [Verkauf](sales-manage-sales.md)  
-  [Arbeitend mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md]
+  [Arbeitend mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

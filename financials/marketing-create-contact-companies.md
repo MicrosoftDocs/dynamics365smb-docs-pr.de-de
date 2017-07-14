@@ -16,11 +16,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 9f1bd42ec4da43a16e9ba3f2519385bf914c8307
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="create-contact-companies"></a>Erstellen von Kontaktunternehmen
+# Erstellen von Kontaktunternehmen
+<a id="create-contact-companies" class="xliff"></a>
 Ihr Unternehmen trifft regelmäßig mit anderen interessierten Unternehmen zusammen. Aus diesen Zusammentreffen ergeben sich in der Regel neue Geschäftsbeziehungen. Wird ein neuer Kontakt geknüpft, muss diese Information erfasst werden, um eine weitere Kommunikation zu ermöglichen.
 
 Für eine effiziente Kommunikation empfiehlt es sich, einem bestimmten Unternehmen möglichst viele Daten zuzuordnen. So wird beispielsweise durch Zuordnen der jeweiligen Branche sichergestellt, dass bestimmte Unternehmen in für sie relevante Kommunikation einbezogen werden.
@@ -39,7 +40,8 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 | Einrichten einer alternativen Adresse für einen Kontakt |[Gewusst wie: Zuordnen von alternativen Adressen zu einem Kontakt](marketing-how-assign-alternate-address.md) |
 | Zuordnen von Internetfavoriten (Suchmaschinen und Websites) zu Kontakten, um anzugeben, wo im Internet nach Informationen zu den Kontakten gesucht werden soll |[Internetfavoriten für Kontakte einrichten](marketing-web-sources.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Kontaktpersonenerstellen](marketing-create-contact-persons.md)   
 [Arbeiten mit Financials](ui-work-product.md)
 

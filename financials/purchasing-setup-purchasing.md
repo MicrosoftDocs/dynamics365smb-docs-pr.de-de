@@ -16,11 +16,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: dbefd446d58395ce6aeb85bbb0e29be343acba0b
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="setting-up-purchasing"></a>Einkauf einrichten
+# Einkauf einrichten
+<a id="setting-up-purchasing" class="xliff"></a>
 Bevor Sie Einkaufsprozesse verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Einkaufsrichtlinien des Mandanten definieren.
 
 Definieren Sie zunächst die allgemeinen Einstellungen wie die erforderlichen Belege und die gewünschte Buchung der entsprechenden Werte. Diese allgemeine Einrichtung erfolgt in der Regel einmal bei der anfänglichen Implementierung.
@@ -37,7 +38,8 @@ Einrichten von finanzbezogenen Einkäufen wie Zahlungsformen und Währungen werd
 | Kreditoren priorisieren |[Vorgehensweise: Priorisieren von Kreditoren](purchasing-how-prioritize-vendors.md) |
 | Einkäufer einrichten |[Vorgehensweise: Einrichten von Einkäufern](purchasing-how-setup-purchasers.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

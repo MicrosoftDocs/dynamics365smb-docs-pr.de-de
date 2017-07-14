@@ -1,5 +1,5 @@
 ---
-title: "Angeben der Druckerauswahl für Berichte  Microsoft Docs"
+title: "Angeben der Druckerauswahl für Berichte | Microsoft Docs"
 description: "Angeben der Drucker für Berichte."
 services: project-madeira
 documentationcenter: 
@@ -16,11 +16,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: e0b13ff745cddf6173b7a6dacda05e915eff41ff
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="specify-printer-selection-for-reports"></a>Angeben der Druckerauswahl für Berichte
+# Angeben der Druckerauswahl für Berichte
+<a id="specify-printer-selection-for-reports" class="xliff"></a>
 Diese Seite ist leer, da Sie bestimmte Drucker für bestimmte Berichte noch nicht einrichten können. Wir arbeiten an der Lösung des Problems.
 
 Wenn Sie einen Bericht drucken möchten, müssen Sie den Bericht als PDF-Dokument zuerst herunterladen, indem Sie die Schaltfläche **Senden an** auswählen. Dann wählen Sie die Art der Datei aus, um den Bericht herunterzuladen und wählen Sie **PDF-Dokument** aus. Jetzt können Sie entweder das PDF-Dokument sofort öffnen und es drucken, oder speichern Sie es, um später zu drucken.
@@ -46,8 +47,9 @@ The following table describes the combination of values to specify when you set 
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 -->
 
-## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+## Siehe auch
+<a id="see-also" class="xliff"></a>
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vorgehensweise: Ausführen von Stapelverarbeitungen](ui-how-run-batch-jobs.md)  
 [Gewusst wie: Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 

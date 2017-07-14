@@ -16,14 +16,16 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 1a94e2ead59a40081920a0b11ed545a895d89910
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="entering-criteria-in-filters"></a>Eingeben von Kriterien in Filtern
+# Eingeben von Kriterien in Filtern
+<a id="entering-criteria-in-filters" class="xliff"></a>
 Wenn Sie nach Daten, wie Debitorennamen, Adressen oder Produktgruppen suchen möchten, geben Sie Kriterien ein. Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet werden, die auch normalerweise im Feld zulässig sind. Zudem können Sie Sonderzeichen verwenden, um eine zusätzliche Filterung der Ergebnisse zu erreichen.
 
-## <a name="searching-using-the-quick-filter"></a>Suchen mithilfe des Schnellfilters
+## Suchen mithilfe des Schnellfilters
+<a id="searching-using-the-quick-filter" class="xliff"></a>
 Sie können allen Seiten Filter hinzufügen, indem Sie Schnellfilter oder erweiterte Filter verwenden. Der Schnellfilter wird aktiviert, indem Sie das Lupensymbol in der oberen rechten Ecke einer Seite auswählen. Diese Filterart wird für die schnelle Eingabe von Kriterien verwendet.
 
 **Wichtig**: Der Schnellfilter bietet einen einfachen Zugriff auf Filterdaten durch die Eingabe reinen Texts, bietet aber auch zahlreiche Optionen für Suchkriterien. Abhängig davon, ob Sie Freitext oder Text mit Symbolen eingeben, verhält sich der Schnellfilter unterschiedlich.  
@@ -31,7 +33,8 @@ Sie können allen Seiten Filter hinzufügen, indem Sie Schnellfilter oder erweit
 * Wenn Sie Freitextangaben in den Suchkriterien eingeben, werden die Suchkriterien als die Groß-/Kleinschreibung nicht beachtend angesehen.  
 * Wenn Sie Text mit Symbolen in den Suchkriterien eingeben, werden die Suchkriterien genau wie angegeben interpretiert, und die Groß-/Kleinschreibung wird berücksichtigt.
 
-### <a name="quick-filter-criteria"></a>Schnelle Filterkriterien
+### Schnelle Filterkriterien
+<a id="quick-filter-criteria" class="xliff"></a>
 <!-- html syntax because symbols conflict with MarkDown syntax -->
 <TABLE>
   <TR>
@@ -73,6 +76,7 @@ Sie können allen Seiten Filter hinzufügen, indem Sie Schnellfilter oder erweit
 
 **Hinweis**: Sie können keinen Platzhalter beim Filtern in Aufzählungsfeldern, wie das Feld **Status** in Verkaufsaufträgen verwenden. Wenn Sie einen Filter für diese Art von Feld eingeben möchten, können Sie den numerischen Wert als Filterparameter eingeben. Beispielsweise im Feld **Status** in einem Verkaufsauftrag, der die Werte **Offen**, **Freigegeben**, **Genehmigung ausstehend** und **Vorauszahlung ausstehend** hat, verwenden Sie die Werte **0**, **1**, **2** und **3**, um für diese Optionen zu filtern.  
 
-## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+## Siehe auch
+<a id="see-also" class="xliff"></a>
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

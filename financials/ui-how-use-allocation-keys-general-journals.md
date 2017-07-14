@@ -16,15 +16,17 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 47209e29f8baea497a3a9267d37f270a92950dcb
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="how-to-use-allocation-keys-in-general-journals"></a>Vorgehensweise: Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern
+# Vorgehensweise: Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern
+<a id="how-to-use-allocation-keys-in-general-journals" class="xliff"></a>
 Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.
 
-## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Wiederkehrendes Journal** ein und wählen Sie dann den entsprechenden Link aus.
+## Einrichten von Verteilungsschlüsseln
+<a id="to-set-up-allocation-keys" class="xliff"></a>
+1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **Wiederkehrendes Journal** ein und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie im Fenster **Fibu Buch.-Blattnamen** den **Buch.-Blattnamen**.
 3. Sie können entweder Zuordnungen in einer vorhandene Charge in der Liste ändern oder eine neue Charge mit Zuordnungen erstellen.
    * Um eine neue Chargennummer zu erstellen, wählen Sie die Aktion **Neu** und gehen Sie zum nächsten Schritt.
@@ -38,14 +40,16 @@ Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts 
 10. Nachdem Sie die Zuteilungszeilen eingegeben haben, wählen Sie **OK** aus, um zum Fenster **Wiederk. Fibu Buch.-Blätter** zurückzukehren. Das Feld **Zugewiesener Betrag (USD)** ist ausgefüllt und entspricht dem Feld **Betrag**.
 11. Buchen Sie das Buch.-Blatt.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Ändern eines bereits eingerichteten Verteilungsschlüssels
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Wiederkehrendes Journal** ein und wählen Sie dann den entsprechenden Link aus.
+## Ändern eines bereits eingerichteten Verteilungsschlüssels
+<a id="to-change-an-allocation-key-that-has-already-been-set-up" class="xliff"></a>
+1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **Wiederkehrendes Journal** ein und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie im Fenster **Wiederk. Fibu Buch.-Blatt** das Buch.-Blatt mit der Verteilung aus.
 3. Wählen Sie die Zeile mit der Verteilung, und wählen Sie dann die Aktion **Zuweisungen** aus.
 4. Ändern Sie die relevanten Felder und wählen Sie dann die Schaltfläche **OK** aus.
 
-## <a name="see-also"></a>Siehe auch
-[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)A  
+## Siehe auch
+<a id="see-also" class="xliff"></a>
+[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Journale und Dokumente buchen](ui-post-documents-journals.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

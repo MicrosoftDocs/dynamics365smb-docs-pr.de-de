@@ -16,11 +16,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 00b5ac40bd0d3df346618b57173df67daba6c7fc
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="how-to-adjust-item-costs-manually"></a>So regulieren Sie Artikelpreise manuell
+# So regulieren Sie Artikelpreise manuell
+<a id="how-to-adjust-item-costs-manually" class="xliff"></a>
 Die Kosten eines Artikels (Lagerwert), den Sie ein- und später verkaufen, ändert sich im Laufe der Nutzungsdauer, weil beispielsweise Frachtkosten dem Kaufpreis hinzugefügt werden, nachdem Sie den Artikel verkauft haben. Dies ist insbesondere dann wichtig, wenn Sie Waren verkaufen, bevor der Kauf dieser Waren in Rechnung gestellt wurde. Um immer den richtigen Lagerwert zu kennen, müssen Artikelkosten daher regelmäßig reguliert werden. Dadurch ist sichergestellt, dass die Verkaufs- und Gewinnstatistiken auf dem neuesten Stand sind und die finanziellen Kennziffern korrekt sind.
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], werden Artikelkosten automatisch jedes Mal reguliert, wenn eine Lagertransaktion auftritt, beispielsweise, wenn Sie eine Einkaufsrechnung für einen Artikel buchen.
@@ -33,15 +34,17 @@ Die Kostenregulierungsfunktion verarbeitet nur Wertposten, die noch nicht reguli
 
 Änderungen im Lagerwert vom Handel werden automatisch mit den Finanzbüchern Artikeltransaktionen ausgeglichen, wenn Sie buchen. Weitere Informationen finden Sie unter [Erweiterte Lagerabstimmung](advanced-inventory-reconciliation.md).
 
-## <a name="to-adjust-item-costs-manually"></a>So regulieren Sie Artikelpreise manuell
-1. In der oberen rechter Ecke wählen Sie das **Symbol Nach Seite oder Bericht suchen **aus ![Nach Seite oder Bericht suchen ](media/ui-search/search_small.png "") Symbol nach Seite oder Bericht suchen. Geben Sie **Kostenartikeleingaben anpassen** ein und wählen Sie dann den entsprechenden Link aus.
+## So regulieren Sie Artikelpreise manuell
+<a id="to-adjust-item-costs-manually" class="xliff"></a>
+1. In der oberen rechter Ecke wählen Sie das **Symbol Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **Kostenartikeleingaben anpassen** ein und wählen Sie dann den entsprechenden Link aus.
 2. Im Fenster **Lagerreg. fakt. Einst. Preise** geben Sie an, für welche Artikel die Kosten anzupassen sind.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Erweiterte: Bestandabgleich](advanced-inventory-reconciliation.md)  
 [Lagerbesttand](inventory-manage-inventory.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

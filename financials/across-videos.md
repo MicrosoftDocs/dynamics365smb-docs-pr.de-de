@@ -15,13 +15,15 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 871d26d7ace0b5758c33620c33a0b986c23bccbd
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="how-do-i"></a>Gewusst wie
+# Gewusst wie
+<a id="how-do-i" class="xliff"></a>
 Auf dieser Seite bieten wir Ihnen Zugang zu Erste Schritte-Videos, die veranschaulichen, wie häufige Aufgaben ausgeführt werden. Die Seite wird im Lauf der Zeit aktualisiert.  
 
-## <a name="see-also"></a>Siehe auch
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
+## Siehe auch
+<a id="see-also" class="xliff"></a>
+[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
 

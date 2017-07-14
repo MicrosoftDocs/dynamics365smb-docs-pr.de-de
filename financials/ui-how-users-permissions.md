@@ -1,6 +1,6 @@
 ---
 title: 'Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen| Microsoft Docs'
-description: "Verwalten von Berechtigungssätzen  für Benutzer, nachdem Sie Benutzer in Office 365 erstellt haben."
+description: "Verwalten von Berechtigungssätzen für Benutzer, nachdem Sie Benutzer in Office 365 erstellt haben."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -20,7 +20,8 @@ ms.lasthandoff: 05/04/2017
 
 
 ---
-# <a name="how-to-manage-users-and-permissions"></a>Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen| Microsoft Docs
+# Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen| Microsoft Docs
+<a id="how-to-manage-users-and-permissions" class="xliff"></a>
 Um Benutzer in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen, muss der Office 365-Administrator Ihres Unternehmens zuerst einen Benutzer im Office 365-Admin Center erstellen. Weitere Informationen sind hier verfügbar [Benutzer zu Office 365 for Business hinzufügen](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 Sobald der Benutzer im Office 365 erzeugt wurde, können sie in das Fensters **Benutzer** importiert werden, und zwar mithilfe der Aktion **Benutzer von Office 365 abrufen**. Benutzer werden Berechtigungssätze abhängig vom Plan, der dem Benutzer in Office 365 zugewiesen wird zugeordnet.
@@ -33,16 +34,18 @@ Ein Zugriffsrechtsatz ist eine Sammlung von Berechtigungen für bestimmte Objekt
 
 Sie können Benutzer Benutzergruppen hinzufügen. Damit ist es leichter, dieselben Berechtigungssätze mehreren Benutzern zuzuordnen.
 
-**Hinweis**: Diese Funktionen erfordert, dass die Benutzeroberfläche in Suite festgelegt wird. Weitere Informationen finden Sie unter] [Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] (ui-experiences.md) anpassen.
+**Hinweis**: Diese Funktionen erfordert, dass die Benutzeroberfläche in Suite festgelegt wird. Weitere Informationen finden Sie unter [Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] (ui-experiences.md) anpassen].
 
-## <a name="to-assign-permissions-to-a-user"></a>So ordnen Sie einem Benutzer ein Berechtigung zu
+## So ordnen Sie einem Benutzer ein Berechtigung zu
+<a id="to-assign-permissions-to-a-user" class="xliff"></a>
 1. Wählen Sie in der rechten oberen Ecke das Symbol Nach Seite oder Bericht suchen aus und geben Sie **Benutzer**. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie den Benutzer aus, den Sie dem Debitor zuordnen möchten.
 Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich **Benutzerzugriffsrechtsätze** angezeigt.
-3. Wählen Sie im Fenster **Eingehende Dokumente** das Fenster**Benutzerkarten** aus.
+3. Wählen Sie im Fenster **Eingehende Dokumente** das Fenster **Benutzerkarten** aus.
 4. Füllen Sie im Inforegister **Benutzer-Berechtigungssatz** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-group-users-in-user-groups"></a>Um Benutzer in Benutzergruppen zu ordnen
+## Um Benutzer in Benutzergruppen zu ordnen
+<a id="to-group-users-in-user-groups" class="xliff"></a>
 Sie können Benutzergruppen einrichten, um Ihnen zu helfen, Berechtigungssätze für Benutzergruppen in Ihrem Unternehmen zu verwalten. Sie können eine Funktion verwenden, um alle Berechtigungssätze einer vorhandenen Benutzergruppe der neuen Benutzergruppe zu kopieren. Benutzergruppenelemente werden nicht kopiert.
 
 1. Wählen Sie in der rechten oberen Ecke das Symbol Nach Seite oder Bericht suchen aus und geben Sie **Benutzergruppen** ein. Wählen Sie dann den zugehörigen Link aus.
@@ -56,10 +59,12 @@ Sie können Benutzergruppen einrichten, um Ihnen zu helfen, Berechtigungssätze 
 7. Um neue oder zusätzliche Benutzer im Fenster **Benutzergruppe** hinzuzufügen, wählen Sie die **Benutzergruppenmitglieder** Aktion aus.
 8. Im Fenster **Benutzergruppenmitglieder** in einer neuen Zeile, füllen Sie die Felder wie notwendig aus bestehenden Berechtigungssätzen auswählen.
 
-## <a name="to-create-or-modify-permission-sets"></a>Um Berechtigungssätze zu erstellen oder zu ändern
+## Um Berechtigungssätze zu erstellen oder zu ändern
+<a id="to-create-or-modify-permission-sets" class="xliff"></a>
 Wenn die Standardberechtigungssätze, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] zur Verfügung gestellt wurden, nicht ausreichen oder für Ihre Organisation nicht geeignet sind, können Sie neue Berechtigungssätze erstellen. Wenn die einzelne Objektberechtigungen, die einen Berechtigungssatz definieren, nicht angemessen sind, dann können Sie einen Berechtigungssatz bearbeiten. Sie können einen Berechtigungssatz manuell erstellen, oder Sie können eine Aufzeichnungsfunktion verwenden, die Ihre Aktionen erfasst, während Sie durch ein Szenario navigieren und dann den benötigten Berechtigungssatz generieren.
 
-### <a name="to-create-or-modify-permission-sets-manually"></a>Um Berechtigungssätze manuell zu erstellen oder zu ändern
+### Um Berechtigungssätze manuell zu erstellen oder zu ändern
+<a id="to-create-or-modify-permission-sets-manually" class="xliff"></a>
 1. Wählen Sie in der rechten oberen Ecke das Symbol Nach Seite oder Bericht suchen aus und geben Sie **Benutzer**. Wählen Sie dann den zugehörigen Link aus.
 2. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Berechtigungssatz** aus.
 3. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Neu** aus.
@@ -81,7 +86,8 @@ Wenn die Standardberechtigungssätze, die in [!INCLUDE[d365fin](includes/d365fin
     Wenn Sie beispielsweise einen Sicherheitsfilter erstellen möchten, damit ein Benutzer nur Verkäufe mit einem bestimmten Verkäufercode anzeigen kann, wählen Sie die Feldnummer für das Feld **Verkäufercode** aus. Im Feld **Feldfilter** geben Sie dann den Wert ein, den Sie verwenden möchten, um den Zugriff zu begrenzen. Beispielsweise um Benutzern den Zugriff nur auf Annette Hills Verkäufe zu gewähren, geben Sie AH ein.
 9. Wiederholen Sie die Schritte 7 und 8 und fügen Sie Berechtigungen für zusätzliche Objekte dem Berechtigungssatz hinzu.
 
-### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Um Berechtigungssätze durch die Erfassung Ihrer Aktionen zu erstellen oder zu ändern
+### Um Berechtigungssätze durch die Erfassung Ihrer Aktionen zu erstellen oder zu ändern
+<a id="to-create-or-modify-permission-sets-by-recording-your-actions" class="xliff"></a>
 1. Wählen Sie in der rechten oberen Ecke das Symbol Nach Seite oder Bericht suchen aus und geben Sie **Benutzer**. Wählen Sie dann den zugehörigen Link aus.
 2. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Berechtigungssatz** aus.
 3. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Neu** aus.
@@ -95,14 +101,16 @@ Wenn die Standardberechtigungssätze, die in [!INCLUDE[d365fin](includes/d365fin
 9. Wählen Sie die Schaltfläche **Ja**, um die erfassten Berechtigungen dem neuen Berechtigungssatz zuzuordnen.
 10. Für jedes Objekt in der erfassten Liste geben Sie an, ob Benutzer in der Lage sind, Datensätze in den erfassen Tabellen einzufügen, zu ändern oder zu löschen. Siehe Schritt 7 im Abschnitt "Berechtigungssätze manuell zu erstellen oder zu verändern".
 
-### <a name="example---indirect-permission"></a>Beispiel - Indirekte Berechtigungen
+### Beispiel - Indirekte Berechtigungen
+<a id="example---indirect-permission" class="xliff"></a>
 Sie können indirekte Berechtigungen zuweisen, um ein Objekt nur über ein anderes Objekt zu verwenden.
-Beispielsweise kann ein Benutzer die Berechtigung haben, Codeunit 80 **Verkaufsbuchung** auszuführen. Die **Verkaufsbuchung** Codeunit führt viele Aufgaben aus, einschließlich der Bearbeitung von Tabelle 37 **Verkaufsposition** aus. Wenn der Benutzer ein Verkaufsdokument in der Codeunit **Verkaufsbuchung** buch, überprüft [!INCLUDE[d365fin](includes/d365fin_md.md)],  ob der Benutzer über die Berechtigung zum Bearbeiten der Tabelle **Einkaufszeile** verfügt. Wenn nicht, kann die Codeunit ihre Aufgaben nicht ausführen und der Benutzer erhält eine Fehlermeldung. In diesem Fall wird die Codeunit erfolgreich ausgeführt.
+Beispielsweise kann ein Benutzer die Berechtigung haben, Codeunit 80 **Verkaufsbuchung** auszuführen. Die **Verkaufsbuchung** Codeunit führt viele Aufgaben aus, einschließlich der Bearbeitung von Tabelle 37 **Verkaufsposition** aus. Wenn der Benutzer ein Verkaufsdokument in der Codeunit **Verkaufsbuchung** buch, überprüft [!INCLUDE[d365fin](includes/d365fin_md.md)], ob der Benutzer über die Berechtigung zum Bearbeiten der Tabelle **Einkaufszeile** verfügt. Wenn nicht, kann die Codeunit ihre Aufgaben nicht ausführen und der Benutzer erhält eine Fehlermeldung. In diesem Fall wird die Codeunit erfolgreich ausgeführt.
 
-Jedoch muss der Anwender keinen vollen Zugriff auf die Tabelle **Verkaufszeile** haben, um Codeunit auszuführen. Wenn der Benutzer über indirekte Berechtigungen für die Tabelle **Verkaufszeile** verfügt, wird die Codeunit **Verkaufseinheit** erfolgreich ausgeführt. Wenn ein Benutzer über indirekte Berechtigungen verfügt, kann dieser Benutzer die Tabelle **Verkaufszeile** nur ändern, indem die **Verkaufsbuchung** Codeunit oder ein anderes Objekt ausgeführt wird, das die Berechtigung zum ändern der Tabelle ** Verkaufsposition**hat. Der Benutzer kann die Tabelle **Verkaufsposition** nur von unterstützten Anwendungsbereichen aus ändern. Der Benutzer kann die Funktion mit anderen Methoden nicht unbeabsichtigt oder böswillig ausführen.
+Jedoch muss der Anwender keinen vollen Zugriff auf die Tabelle **Verkaufszeile** haben, um Codeunit auszuführen. Wenn der Benutzer über indirekte Berechtigungen für die Tabelle **Verkaufszeile** verfügt, wird die Codeunit **Verkaufseinheit** erfolgreich ausgeführt. Wenn ein Benutzer über indirekte Berechtigungen verfügt, kann dieser Benutzer die Tabelle **Verkaufszeile** nur ändern, indem die **Verkaufsbuchung** Codeunit oder ein anderes Objekt ausgeführt wird, das die Berechtigung zum ändern der Tabelle **Verkaufsposition** hat. Der Benutzer kann die Tabelle **Verkaufsposition** nur von unterstützten Anwendungsbereichen aus ändern. Der Benutzer kann die Funktion mit anderen Methoden nicht unbeabsichtigt oder böswillig ausführen.
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

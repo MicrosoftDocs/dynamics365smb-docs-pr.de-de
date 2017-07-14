@@ -16,7 +16,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 3b3013ab2a23b182638196acdabf4feb588a245f
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
@@ -30,7 +30,8 @@ Diese Liste enthält die Erweiterung durch andere Mandanten, die zur Zeit verfü
 * **Datenmigration - Opera**
 * **Datenmigrationseinrichtung - Sage**
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe der Erweiterungen] (ui-extensions.md)  
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

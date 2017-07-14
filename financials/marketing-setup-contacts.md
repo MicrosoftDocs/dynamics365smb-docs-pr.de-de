@@ -16,11 +16,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 399fc41da9ff8168eea8aabd593ffd6123d8d501
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="preparing-for-setting-up-contacts"></a>Vorbereitung für das Einrichten von Kontakten
+# Vorbereitung für das Einrichten von Kontakten
+<a id="preparing-for-setting-up-contacts" class="xliff"></a>
 Beim Erstellen von Kontakten können Sie spezifische Informationen wie die Branche, der die Kontaktunternehmen angehören, oder die Geschäftsbeziehung, die mit den Kontakten besteht, eingeben.
 
 Vor dem Erstellen von Kontakten und dem Erfassen von Details zur jeweiligen Geschäftsbeziehung müssen unterschiedliche Codes eingerichtet werden, mit deren Hilfe die Informationen den Kontaktunternehmen und -personen zugeordnet werden. Codes können für Verteiler, Branchen, Geschäftsbeziehungen, Internetfavoriten, Positionen und Verantwortlichkeiten eingerichtet werden.
@@ -38,8 +39,9 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 | Einrichten der gewünschten Positionen für Kontaktpersonen |[Positionen für Kontakte auf Unternehmensstufen einrichten](marketing-organizational-levels.md) |
 | Einrichten von Internetfavoriten (Suchmaschinen und Websites), die für die Internetrecherche von Kontaktinformationen verwendet werden können |[Internetfavoriten für Kontakte einrichten](marketing-web-sources.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Kontakte verwalten](marketing-contacts.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -16,11 +16,12 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: c4f2abbe400e0fa7150a912e1cb267b5fbf52d8e
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="setting-up-inventory"></a>Bestand einrichten
+# Bestand einrichten
+<a id="setting-up-inventory" class="xliff"></a>
 Bevor Sie Lageraktivitäten und Lagerbewertung verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Lagerbestandsrichtlinien des Unternehmens definieren.
 
 Sie können einen besseren Kundenservice bieten und Ihre Lieferkette optimieren, indem Sie Ihren Lagerbestand an verschiedenen Adressen organisieren. Sie können dann Artikel an unterschiedlichen Lagerorten kaufen, lagern und verkaufen sowie Lagerbestände zwischen ihnen umlagern.
@@ -34,11 +35,12 @@ Wenn Sie Ihr Lager so eingerichtet haben, können Sie verschiedene Lagervorgäng
 | Erstellen Sie Artikelkarten für Lagerartikel, mit denen Sie handeln. |[Vorgehensweise: Einen neuen Artikel registrieren](inventory-how-register-new-items.md) |
 | Artikel den Kategorien zuweisen und ihnen Attribute zuweisen, damit Sie und die Kunden die Artikel finden. |[So geht's: Artikel kategorisieren](inventory-how-categorize-items.md) |
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Käufe verwalten](purchasing-manage-purchasing.md)  
 [Verkäufe verwalten](sales-manage-sales.md)    
 [Lieferkette](madeira-supply-chain.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

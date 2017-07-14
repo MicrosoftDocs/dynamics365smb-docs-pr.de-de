@@ -16,15 +16,17 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 2b251406c07881f8df502d67c0184a21d3e1f241
 ms.contentlocale: de-de
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/26/2017
 
 
 ---
-# <a name="how-to-create-segments"></a>Gewusst wie: Erstellen von Segmenten
+# Gewusst wie: Erstellen von Segmenten
+<a id="how-to-create-segments" class="xliff"></a>
 Sie können Segmente zur Auswahl einer Gruppe von Kontakten erstellen, z. B. wenn Sie eine Aktivität mit mehreren Kontakten erstellen möchten (z. B. Direktmail).
 
-## <a name="to-create-a-segment"></a>So erstellen Sie ein Segment
-1. Auf der Startseite wählen Sie **Aktive Segmente** aus. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Segmente** ein und wählen Sie dann den entsprechenden Link aus.
+## So erstellen Sie ein Segment
+<a id="to-create-a-segment" class="xliff"></a>
+1. Auf der Startseite wählen Sie **Aktive Segmente** aus. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **Segmente** ein und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Geben Sie im Abschnitt **Allgemein** im Feld **Nr.** eine Nummer für das Segment ein.
 
@@ -33,8 +35,9 @@ Sie können Segmente zur Auswahl einer Gruppe von Kontakten erstellen, z. B. wen
 
 Jetzt können Sie Kontakte zum Segment hinzufügen. Weitere Informationen finden Sie unter [Vorgehensweise: Hinzufügen von Kontakten zu Segmenten](marketing-add-contact-segment.md).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
+<a id="see-also" class="xliff"></a>
 [Verwalten von Segmenten](marketing-segments.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
