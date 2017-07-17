@@ -6,7 +6,7 @@
       "docset_name": "financialssmb",
       "build_source_folder": "financials",
       "build_output_subfolder": "financialssmb",
-      "locale": "de-de",
+      "locale": "de-DE",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -15,48 +15,30 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "docset_name": "financialssmbfull",
-      "build_source_folder": "FullExperience",
-      "build_output_subfolder": "financialssmbfull",
-      "locale": "de-de",
-      "monikers": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    }
+      "template_folder": "_themes",
+      "version": 0
+    }    
   ],
   "notification_subscribers": [
     "edupont@microsoft.com",
-    "solsen@microsoft.com",
-    "sgroespe@microsoft.com"
+    "dgoldsch@microsoft.com"
   ],
   "branches_to_filter": [],
-  "skip_source_output_uploading": false,
+      "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.de-de",
+      "url": "https://github.com/Microsoft/templates.docs.msft.de-DE",
       "branch": "master",
       "branch_mapping": {}
-    },
-    {
-      "path_to_root": "_repo.en-us",
-      "url": "https://github.com/MicrosoftDocs/dynamics365smb-docs-pr",
-      "branch": "live",
-      "branch_mapping": {
-        "live": "live",
-        "master": "master"
-      }
     }
   ],
+  "branch_target_mapping": {
+    "live": [
+      "Publish",
+      "Pdf"
+    ]
+  },
   "need_generate_pdf_url_template": false
 }
