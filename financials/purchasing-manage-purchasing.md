@@ -1,6 +1,6 @@
 ---
-title: Kaufen| Microsoft Docs
-description: "Beschreibt, wie Kaufaktivitäten verwaltet werden"
+title: "Überblick der Aufgaben zum Verwalten von Einkauf | Microsoft Docs"
+description: "Zeigt die Aufgaben zum Verwalten der Einkaufs- oder Beschaffungsvorgänge, einschließlich das Vorgehen bei Einkaufsrechnungen und Bestellungen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,15 +13,14 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ba8ea773fa4024cfcaccd00b80bdbbfe81be8b7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Einkauf
-<a id="purchasing" class="xliff"></a>
+# <a name="purchasing"></a>Einkauf
 Sie erstellen eine Einkaufsrechnung oder Einkaufsbestellung, um die Kosten der Einkäufe zu erfassen und Kreditoren zu verfolgen. Wenn Sie einen Bestand steuern müssen, werden Einkaufsrechnungen auch verwendet, um Lagerbestände dynamisch zu aktualisieren, sodass Sie Ihre Lagerbestandskosten minimieren und besseren Kundenservice bereitstellen können. Die Einkaufskosten, einschließlich Servicekosten und Bestandswerte, die aus der Buchung von Einkaufsrechnungen resultieren, tragen zu den Gewinnzahlen und anderen finanziellen Kennziffern auf Ihrer Startseite bei.
 
 Sie müssen Einkaufsbestellungen verwenden, wenn es für den Einkaufsprozess erforderlich ist, Teillieferungen einer Bestellmenge zu erfassen, weil beispielsweise die vollständige Menge beim Kreditor nicht sofort verfügbar ist. Wenn Sie Artikel als Direktlieferung verkaufen, indem Sie direkt von Ihrem Kreditor an Ihren Debitor versenden, müssen Sie ebenfalls Einkaufsbestellungen verwenden. Weitere Informationen finden Sie unter [So geht's: Direktlieferungen erstellen](sales-how-drop-shipment.md) In allen anderen Aspekten ist das Vorgehen bei Einkaufsbestellungen genau wie bei Einkaufsrechnungen.
@@ -42,8 +41,7 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 | Erstellen Sie eine Einkaufsgutschrift, um eine bestimmte gebuchte Einkaufsrechnung wiederherzustellen, um anzugeben, welche Produkte Sie an den Kreditor zurückliefern und welchen Zahlungsbetrag Sie eintreiben. |[Vorgehensweise: Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen](purchasing-how-register-new-vendors.md) |
 | Erstellen Sie eine Kreditorenkarte für jeden Kreditor, von dem Sie einkaufen. |[Vorgehensweise: Einen neuen Kreditor registrieren](purchasing-how-register-new-vendors.md) |
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Verwalten von Verbindlichkeiten|](payables-manage-payables.md)  
 [Projekte verwalten](projects-manage-projects.md)    

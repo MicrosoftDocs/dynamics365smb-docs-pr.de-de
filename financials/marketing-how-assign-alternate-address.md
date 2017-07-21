@@ -1,6 +1,6 @@
 ---
-title: "So geht's: Alternative Adressen für Kontakte einrichten | Microsoft Docs"
-description: "Beschreibt, wie Sie alternative Adressen für Kontakte in Financials einrichten"
+title: Eine andere Kontaktadresse zuweisen| Microsoft Docs
+description: "Beschreibt, wie Sie eine alternative Adresse für Ihre Kontakte zuweisen, an die Sie manchmal Informationen senden."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,22 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0ce913952b98058759215160ce4a42ce25f8fe55
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: d7c73b353a2f4dc00dd648ae312a7b8adfb7fcc2
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# So geht's: Alternative Adressen für Kontakte einrichten
-<a id="how-to-set-up-alternative-addresses-for-contacts" class="xliff"></a>
+# <a name="how-to-set-up-alternative-addresses-for-contacts"></a>So geht's: Alternative Adressen für Kontakte einrichten
 Sie können Ihren Kontakten alternative Adressen zuordnen, an die Sie manchmal Post und Informationen senden, zum Beispiel an die Urlaubsadresse. Sie können jeder alternativen Adresse einen oder mehrere Datumsbereiche zuordnen, um festzulegen, wann diese Adresse gültig ist.
 
-## So ordnen Sie eine alternative Adresse zu
-<a id="to-assign-an-alternate-address" class="xliff"></a>
+## <a name="to-assign-an-alternate-address"></a>So ordnen Sie eine alternative Adresse zu
 1. Öffnen Sie den Kontakt.
 2. Wählen Sie die **Alternative Adresse**-Aktion aus, und wählen Sie dann **Karte**. Das Fenster **Alt. Kontaktadressenübersicht** wird geöffnet.
 3. Geben Sie eine neue alternative Adresse ein, und füllen Sie die restlichen Felder im Fenster **Alt. Kontaktadressenübersicht** aus.
@@ -34,8 +32,7 @@ Wiederholen Sie diese Schritte, um weitere alternative Adressen einzurichten. F�
 
 Außerdem können Sie alternative Adressen auf die gleiche Art in dem Fenster Kontaktübersicht zuweisen.
 
-## Um alternative Adressgültigkeiten zuzuordnen
-<a id="to-assign-an-alternate-address-date-range" class="xliff"></a>
+## <a name="to-assign-an-alternate-address-date-range"></a>Um alternative Adressgültigkeiten zuzuordnen
 1. Öffnen Sie den Kontakt.
 2. Wählen Sie die **Alternative Adresse**-Aktion aus, und wählen Sie dann **Datumsbereich**. Das Fenster **Alt. Kontaktadr.-Gültigkeiten** wird geöffnet.
 3. Wählen Sie die Aktion **Neu** aus.
@@ -43,8 +40,7 @@ Außerdem können Sie alternative Adressen auf die gleiche Art in dem Fenster Ko
 
 Wiederholen Sie diese Schritte, um beliebig viele Gültigkeiten einzurichten.
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Erstellen von Kontaktunternehmen](marketing-create-contact-companies.md)  
 [Arbeiten mit Financials](ui-work-product.md)
 

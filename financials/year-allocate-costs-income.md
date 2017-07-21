@@ -1,26 +1,25 @@
 ---
-title: Zuordnung von Kosten und Umsatz von | Microsoft Docs
-description: "Erklärt, wie Kosten und Einnahmen zugewiesen werden."
+title: "Überblick zu Aufgaben, um Kosten und Umsatz zuzuordnen | Microsoft Docs"
+description: Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen.
 services: project-madeira
 documentationcenter: 
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
-ms.author: jswymer
+ms.date: 06/07/2017
+ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9726f7c0002e2de42fba76e5923158577c607ddf
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1620e69ce8018256780dcba108c31312c02166cb
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Kosten und Einkünfte zuteilen
-<a id="allocating-costs-and-income" class="xliff"></a>
+# <a name="how-to-allocate-costs-and-income"></a>Erklärt, wie Kosten und Einnahmen zugewiesen werden.
 Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen. Für die Verteilung stehen drei unterschiedliche Methoden zur Verfügung:
 
 * Menge
@@ -30,16 +29,33 @@ Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts 
 Die Verteilungsfeatures können sowohl in wiederkehrenden Buch.-Blättern als auch in Buch.-Blättern für Anlagen verwendet werden.
 <!--You can also distribute the cost or revenue of a line to an intercompany partner when you post a sales or purchase document. When you post the document, a line will be posted in your general journal, and a corresponding line will be created in the intercompany outbox.-->
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. Die Aufgaben sind in der Reihenfolge aufgeführt, in der sie in der Regel ausgeführt werden.
+Die folgenden Verfahren beschreiben, was bereitgestellt werden muss, um Kosten in einem wiederkehrenden Buch.-Blatt zuzuordnen, indem Verteilungsschlüssel eingerichtet werden. Wenn Verteilungsschlüssel definiert werden, beenden und buchen Sie das Buch.-Blatt wie alle anderen wiederkehrenden Fibu Buch.-Blätter. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
 
-| Aufgabe | Siehe |
-| --- | --- |
-| Ausfüllen eines wiederkehrenden Fibu Buch.-Blatts und Angeben von Verteilungsmenge, -prozentsatz oder -betrag für die entsprechenden Konten oder Dimensionen |[Vorgehensweise: Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern](ui-how-use-allocation-keys-general-journals.md) |
-| Ändern eines bereits eingerichteten Verteilungsschlüssels |[Verteilungsschlüssel ändern](ui-how-use-allocation-keys-general-journals.md) |
+## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln
+Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Wiederkehrendes Buch-Blatt** ein. Wählen Sie dann den zugehörigen Link aus.
+2. Wählen Sie im Fenster **Fibu Buch.-Blattnamen** den **Buch.-Blattnamen**.
+3. Sie können entweder Zuordnungen in einer vorhandene Charge in der Liste ändern oder eine neue Charge mit Zuordnungen erstellen.
+   * Um eine neue Chargennummer zu erstellen, wählen Sie die Aktion **Neu** und gehen Sie zum nächsten Schritt.
+   * Um die Zuordnungen eines vorhandenen Buch.-Blattes zu ändern, wählen Sie das Buch.-Blatt und gehen Sie zum Schritt 7.    
+4. Geben Sie im Feld **Name** einen Namen für das Buch.-Blatt ein, wie beispielsweise REINIGUNG. Geben Sie im Feld **Beschreibung** eine Beschreibung ein, wie z. B. Reinigungsausgaben Buch.-Blatt.
+5. Wenn Sie fertig sind, schließen Sie das Fenster. Ein neues, leeres wiederkehrendes Buchungsblatt wird geöffnet.
+6. Füllen Sie die Felder in der Zeile aus.
+7. Wählen Sie die Aktion **Verteilung** aus.
+8. Erstellen Sie für jede Verteilung eine Zeile. Sie müssen entweder das Feld **Verteilung %**, **Anzahl Verteilungen** oder **Betrag** ausfüllen. Sie müssen auch das Feld **Kontonr.**ausfüllen, wenn Sie auf globale Dimensionen verteilen, auch die Felder "globale Dimensionen".
+9. Wenn Sie in einer Zeile einen Prozentsatz eingeben, wird der Betrag im Feld **Betrag** automatisch berechnet. Diese Beträge haben das gegenteilige Vorzeichen wie der Gesamtbetrag im Feld **Betrag** des wiederkehrenden Buch.-Blattes.
+10. Nachdem Sie die Zuteilungszeilen eingegeben haben, wählen Sie **OK** aus, um zum Fenster **Wiederk. Fibu Buch.-Blätter** zurückzukehren. Das Feld **Zugewiesener Betrag (USD)** ist ausgefüllt und entspricht dem Feld **Betrag**.
+11. Buchen Sie die Buch.-Blattzeile.
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Ändern eines bereits eingerichteten Verteilungsschlüssels
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Wiederkehrendes Buch-Blatt** ein. Wählen Sie dann den zugehörigen Link aus.
+2. Wählen Sie im Fenster **Wiederk. Fibu Buch.-Blatt** das Buch.-Blatt mit der Verteilung aus.
+3. Wählen Sie die Zeile mit der Verteilung, und wählen Sie dann die Aktion **Zuweisungen** aus.
+4. Ändern Sie die relevanten Felder und wählen Sie dann die Schaltfläche **OK** aus.
+
+## <a name="see-also"></a>Siehe auch
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
+[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)    
+[Journale und Dokumente buchen](ui-post-documents-journals.md)    
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

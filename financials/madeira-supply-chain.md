@@ -1,6 +1,6 @@
 ---
-title: Lieferkette| Microsoft Docs
-description: "Erfahren Sie mehr über Lieferkonzepte und Prozesse"
+title: "Lieferketten-Funktionen unterstützt durch Finanzverhältnisse| Microsoft Docs"
+description: "Verschaffen Sie sich eine Produktübersicht erfahren Sie Schlüssellieferkettenbegriffe und -Vorgänge, die Teil der ERP-Lösung sind."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ed8437f5d1b7628f256bb435de8ba13bd64a8f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3bae84075dc505aa9318590b1fac06e4844ffafe
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Lieferkette
-<a id="supply-chain" class="xliff"></a>
+# <a name="overview-of-supply-chain-functionality"></a>Überblick über Lieferketten-Funktionalität
 [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt allgemeine Lieferkettenvorgänge, obwohl sie auf die Anforderungen von Großhandel- und Verteilungsmandanten ohne verwaltete Lagerdurchlaufzeit begrenzt sind.
 
 Zusätzlich zu den Verkaufsrechnungsbelegen können Sie Ihre Auftragserfüllung mit Verkaufsaufträgen verwalten, wodurch Sie Teile einer Bestellmenge senden können, beispielsweise weil die vollständige Menge nicht auf einmal verfügbar ist. Sie können Artikel direkt von einem Kreditor an einen Debitor versenden lassen, indem Sie den Verkaufsauftrag mit der zugehörigen Bestellung verknüpfen.
@@ -40,8 +39,7 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 | Erfassen Sie neuen Kreditoren, Einkaufsprodukte zu Aufträgen oder Rechnungen, beispielsweise aus einer Verkaufsrechnung veranlasst, und verwalten Sie Einkaufsreklamationen. |[Einkauf](purchasing-manage-purchasing.md) |
 | Erfassen Sie neue physische Produkte oder Dienstleistungsprodukte, passen Sie Lagermengen an und verwalten Sie den Lagerwert, indem Sie angepasste Kosten auf das Sachkonto buchen. |[Lagerbesttand](inventory-manage-inventory.md) |
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)     
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  

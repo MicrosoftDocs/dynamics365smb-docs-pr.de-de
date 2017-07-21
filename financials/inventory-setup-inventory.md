@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Bestand | Microsoft Docs
-description: "Beschreibt, wie Lagervorgänge und Lagerorte, wie Umlagerungsrouten eingerichtet werden."
+description: "Beschreibt, wie Lagervorgänge und Lagerorte eingerichtet werden, einschließlich Umlagerungsrouten und Standorte wie Lagerorte."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c4f2abbe400e0fa7150a912e1cb267b5fbf52d8e
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 8fd3ff9518613c9d01f8e9503a568a0bdf079819
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Bestand einrichten
-<a id="setting-up-inventory" class="xliff"></a>
+# <a name="setting-up-inventory"></a>Bestand einrichten
 Bevor Sie Lageraktivitäten und Lagerbewertung verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Lagerbestandsrichtlinien des Unternehmens definieren.
 
 Sie können einen besseren Kundenservice bieten und Ihre Lieferkette optimieren, indem Sie Ihren Lagerbestand an verschiedenen Adressen organisieren. Sie können dann Artikel an unterschiedlichen Lagerorten kaufen, lagern und verkaufen sowie Lagerbestände zwischen ihnen umlagern.
@@ -35,8 +34,7 @@ Wenn Sie Ihr Lager so eingerichtet haben, können Sie verschiedene Lagervorgäng
 | Erstellen Sie Artikelkarten für Lagerartikel, mit denen Sie handeln. |[Vorgehensweise: Einen neuen Artikel registrieren](inventory-how-register-new-items.md) |
 | Artikel den Kategorien zuweisen und ihnen Attribute zuweisen, damit Sie und die Kunden die Artikel finden. |[So geht's: Artikel kategorisieren](inventory-how-categorize-items.md) |
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Käufe verwalten](purchasing-manage-purchasing.md)  
 [Verkäufe verwalten](sales-manage-sales.md)    

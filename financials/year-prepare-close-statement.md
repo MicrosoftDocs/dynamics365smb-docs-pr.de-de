@@ -1,6 +1,6 @@
 ---
-title: Vorbereiten von Abschluss-Berichten| Microsoft Docs
-description: "Stellt eine Übersicht der Berichte bereit, die ggf. sinnvoll sind, wenn das Jahr abgeschlossen wird."
+title: "Übersicht der Berichte um Abschlussrechnungen vorzubereiten _=_ Microsoft Ausgleich."
+description: "Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2979ac7aa3013b3c7ee70a557db0cc581d546624
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Abschlussberichrte vorbereiten
-<a id="preparing-closing-statements" class="xliff"></a>
+# <a name="preparing-closing-statements"></a>Abschlussberichrte vorbereiten
 Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.
 
 Die folgende Tabelle enthält Beschreibungen zu einigen hilfreichen Berichten sowie Links zu den entsprechenden Themen, in denen diese Berichte erläutert werden.
@@ -36,10 +35,10 @@ Die folgende Tabelle enthält Beschreibungen zu einigen hilfreichen Berichten so
 | Drucken eines Kontenschemas zum Analysieren der Werte auf Sachkonten oder zum Vergleichen tatsächlicher Sachposten mit Finanzbudgetposten |Kontenschema |
 | Überprüfen, ob Debitoren- und Kreditorenposten mit den entsprechenden Sachposten ausgeglichen sind |Kunde abstimmen und Verkäufer, Zugriff |
 
-Um Berichte anzuzeigen, wählen Sie in der oberen rechter Ecke das Symbol **Nach Seite oder Bericht suchen aus** ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht Suchen-Symbol") und geben den Namen ein, wie er in der Tabelle erscheint. Wählen Sie dann den entsprechenden Link aus.
+Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Suche für Seite oder Bericht] (media/ui-search/search_small.png "Suche nach Seite oder Bericht")und geben Sie den Namen wie er in der Tabelle erscheint ein, und wählen Sie dann den zugehörigen Link aus.
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Business Intelligence](bi.md)
 

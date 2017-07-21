@@ -1,6 +1,6 @@
 ---
-title: Vorbereiten von Vorabschluss-Berichten| Microsoft Docs
-description: "Stellt eine Übersicht der Berichte bereit, die ggf. sinnvoll sind, wenn das Jahr abgeschlossen wird."
+title: "Übersicht der Vor-Abschlussberichte, um die Konten-Genauigkeit sicherzustellen| Microsoft Docs"
+description: "Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -9,18 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3673b32320f2fc2b092afff7d0e8ba2c48edb0f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Vorabschlussberichte vorbereiten
-<a id="preparing-pre-closing-reports" class="xliff"></a>
+# <a name="using-pre-closing-reports"></a>Vorabschlussberichte verwenden
 Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden. So können Sie sich beispielsweise mithilfe des Berichts **Debitor - Saldenliste** vergewissern, dass an einem bestimmten Datum der Saldo einer Debitorenbuchungsgruppe dem Saldo des zugehörigen Sachkontos entspricht.
 
 Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Prozess zusammen mit dem Berichtnamen hilfreich sein können.
@@ -37,10 +36,9 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 | Drucken eines Rohbilanzberichts mit Salden und Bewegungen für Sachkonten |Rohbilanz |
 | Drucken einer Rohbilanz für einen konsolidierten Mandanten |Konsolidierung Rohbilanz |
 
-Um Berichte anzuzeigen, wählen Sie in der oberen rechter Ecke das Symbol **Nach Seite oder Bericht suchen aus** ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht Suchen-Symbol") und geben den Namen ein, wie er in der Tabelle erscheint. Wählen Sie dann den entsprechenden Link aus.
+Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Suche für Seite oder Bericht] (media/ui-search/search_small.png "Suche nach Seite oder Bericht")und geben Sie den Namen wie er in der Tabelle erscheint ein, und wählen Sie dann den zugehörigen Link aus.
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

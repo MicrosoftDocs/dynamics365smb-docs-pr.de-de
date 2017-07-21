@@ -1,6 +1,6 @@
 ---
-title: Verarbeiten von eingehenden Belegen| Microsoft Docs
-description: Eingehende Dokumente verwalten
+title: Arbeiten mit eingehenden Belegen| Microsoft Docs
+description: "Sie können Eingehende externe Unternehmensbelege, wie Zahlungseingänge oder PDF-Dateien verwalten, OCR-Aufgaben verwalten und Dateien in elektronische Belege umwandeln und in Financials aufzeichnen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 01/16/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8fe06d78320970c667f638341da4abc28fa1e4ac
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 8c15fded4b70ee0fce8ad43f90b915a33523fc77
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Eingehende Belege
-<a id="incoming-documents" class="xliff"></a>
+# <a name="incoming-documents"></a>Eingehende Belege
 Einige Geschäftstransaktionen werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] nicht von Anfang an erfasst. Stattdessen geht ein externes Geschäftsdokument in Ihrem Unternehmen als E-Mail-Anhang oder Papierkopie ein, die Sie in eine Datei scannen. Dieses ist typisch für Einkäufe, wo solche Eingangsbelege Zahlungseingänge für Aufwendungen oder kleine Einkäufe darstellen.
 
 Mithilfe eines externen OCR-Dienstes (optische Zeichenerkennung) können Sie aus PDF- oder Bilddateien, die die Eingangsbelege darstellen, elektronische Belege generieren, die dann in Project '[!INCLUDE[d365fin](includes/d365fin_md.md)]' in Belegdatensätze konvertiert werden können.
@@ -46,8 +45,7 @@ Die Verarbeitung von Eingangsbelegen kann aus den folgenden Hauptaktivitäten be
 | Richten Sie die Funktion für Eingangsbelege und den OCR-Dienst ein. |[Gewusst wie: Eingehende Dokumente einrichten](across-how-setup-income-documents.md) |
 | Erstellen Sie eingehende Belegdatensätze, fügen Sie Dateien hinzu, nutzen Sie OCR, um PDF-Dateien in elektronische Belege umzuwandeln, konvertieren Sie elektronische Belege in Belegdatensätze, überwachen Sie eingehende Belegdatensätze aus gebuchten Verkaufs- und Einkaufsbelegen. |[Eingehende Dokumente verarbeiten](across-process-income-documents.md) |
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

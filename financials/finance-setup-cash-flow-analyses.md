@@ -1,6 +1,6 @@
 ---
 title: Cashflow-Analyse einrichten | Microsoft Docs
-description: "Beschreibt, wie die Geldumlauf-, Einnahmen und Ausgaben, Cash Flow und Cashflow-Prognosediagramme verwendet werden, um vergangene und künftige Bargeldbewegungen im Unternehmen zu analysieren."
+description: "Einrichten der Diagramme im Feld Konto-Rollencenter, die Ihnen helfen, die Richtung des Geldes in Ihrem Unternehmen, einschließlich Ausgaben und Umsatz, Liquidität und Zahlungseingänge minus der Barzahlungen zu analysieren."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e07f32dcc3a50e07c5dea48600f7e3dbcd6088a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Aufstellung Cashflow-Analyse
-<a id="setting-up-cash-flow-analysis" class="xliff"></a>
+# <a name="setting-up-cash-flow-analysis"></a>Aufstellung Cashflow-Analyse
 Wenn Sie etwas Unterstützung benötigen, was Sie mit Ihrem Barkonto zu tun sollen, schauen Sie sich das Diagramm im Buchhalter-Rollencenter an:  
 
 * **Bargeldumlauf**  
@@ -31,8 +30,7 @@ Wenn Sie etwas Unterstützung benötigen, was Sie mit Ihrem Barkonto zu tun soll
 
 Dieses Thema beschreibt, wo die Daten in den Diagrammen herkommen und was zu tun ist, um die Diagramme zu nutzen.  
 
-## Diagramme Geldumlauf und Einnahmen und Ausgaben
-<a id="the-cash-cycle-and-income--expense-charts" class="xliff"></a>
+## <a name="the-cash-cycle-and-income--expense-charts"></a>Diagramme Geldumlauf und Einnahmen und Ausgaben
 Die Diagramme **Bargeldumlauf** und **Einnahmen und Ausgaben** stehen für die Nutzung bereit, basierend auf dem Kontenplan und dem Kontenschemata. Die Konten sind dort, wo die Daten herkommen und die Kontenschemata berechnen die Beziehung zwischen Verkauf und Debitoren. Einige Konten und Kontenschemata werden bereitgestellt. Sie können sie verwenden, um sie zu ändern und neue hinzufügen. Wenn Sie z. B. Sachkonten Ihrem Kontenplan hinzufügen indem Sie sie aus QuickBooks importieren, müssen Sie die Konten auf der Seite **Kontenschemata** folgenden Kontenschemanamen zuweisen:  
 
 | Kontenschemaname | Wo sie verwendet werden |
@@ -48,8 +46,7 @@ Geben Sie im Feld **Zusammenzählung** das Feld **Umsätze, gesamt**, **Forderun
 
 **Tipp** Überprüfen Sie die Zuordnung, indem Sie die Aktion **Übersicht** auswählen.  
 
-## Richtet den Cashflow-Kontenplan ein.
-<a id="set-up-the-cash-flow-chart" class="xliff"></a>
+## <a name="set-up-the-cash-flow-chart"></a>Richtet den Cashflow-Kontenplan ein.
 Das Cashflow-Diagramm basiert auf Folgendem:  
 
 * Einem Diagramm von Cashflow-Konten.
@@ -59,13 +56,13 @@ Einige Konten und Cashfloweinrichtung sind bereits bereitgestellt. Sie können d
 
 Um diese einzurichten, suchen Sie für nach **Cashflowkonten**, wählen Sie den Link aus, und füllen Sie die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Wiederholen Sie diese Schritte für **Cashfloweinrichtung**.  
 
-## Richtet Cashflowplanungen ein
-<a id="set-up-cash-flow-forecasts" class="xliff"></a>
+## <a name="set-up-cash-flow-forecasts"></a>Richtet Cashflowplanungen ein
 Das Diagramm **Cashflowplanung** verwendet Cashflowkonten, Cashfloweinrichtung und Cashflowplanungen. Einige werden bereitgestellt, aber Sie können eigene einrichten, indem Sie die unterstützte Einrichtung verwenden. Die unterstützte Einrichtung definiert u.a., wie oft die Planung aktualisiert werden soll, die Konten, die darauf basieren sollen, Informationen darüber, wann Sie Steuern bezahlen und ob [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) verwendet werden soll.  
 
 Cashflowplanungen können Cortana Intelligence verwenden, um Dokumente mit einem Fälligkeitsdatum in der Zukunft zu berücksichtigen. Das Ergebnis ist eine umfassendere Voraussage. Die Verknüpfung zu Cortana Intelligence ist bereits eingerichtet. Sie müssen sie nur aktivieren. Wenn Sie sich bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] anmelden, wird eine Benachrichtigung in einer blauen Leiste angezeigt mit einem Link zur Standardcashfloweinrichtung. Die Mitteilung wird jeweils nur einmal angezeigt. Wenn Sie sie schließen, sich aber dazu entscheiden, Cortana Intelligence zu aktivieren, können Sie die unterstützte Einrichtung oder den manuellen Vorgang nutzen.  
 
-**Hinweis:** Alternativ können Sie Ihren eigenen vorbestimmten Webdienst verwenden. Weitere Informationen finden Sie unter [Erstellen und verwenden von eigenen vorbestimmten Webdiensten für Cashflowplanungen](#AnchorText).  
+> [!NOTE]  
+>   Alternativ können Sie Ihren eigenen vorbestimmten Webdienst verwenden. Weitere Informationen finden Sie unter [Erstellen und verwenden von eigenen vorbestimmten Webdiensten für Cashflowplanungen](#AnchorText).  
 
 Um die unterstützte Einrichtung zu verwenden:  
 
@@ -79,7 +76,8 @@ Um einen manuellen Vorgang zu verwenden:
 2. Erweitern Sie das Inforegister **Cortana Intelligence** und aktivieren Sie dann das Kontrollkästchen **Cortana Intelligence aktiviert**.  
 3. Auf der Homepage wählen Sie **Cashflowplanung** über dem Diagramm und dann **Planung berechnen** aus.  
 
-**Tip:** Beachten Sie die Länge der Perioden, die der Service in den Berechnungen verwendet. Je mehr Daten Sie liefern, umso genauer wird die Vorhersage sein. Halten Sie auch nach umfangreichen Abweichungen in Perioden Ausschau. Sie werden ebenfalls Auswirkungen auf die Vorhersagen haben. Wenn Cortana-Intelligenz nicht genügend Daten findet oder die Daten stark abweichen, wird der Service keine Vorhersage machen.  
+> [!TIP]  
+>   Beachten Sie die Länge der Perioden, die der Service in den Berechnungen verwendet. Je mehr Daten Sie liefern, umso genauer wird die Vorhersage sein. Halten Sie auch nach umfangreichen Abweichungen in Perioden Ausschau. Sie werden ebenfalls Auswirkungen auf die Vorhersagen haben. Wenn Cortana-Intelligenz nicht genügend Daten findet oder die Daten stark abweichen, wird der Service keine Vorhersage machen.  
 
 ## <a name="AnchorText"> </a>erstellt und verwendet Ihren eigenen vorhersagenden Webdienst für Cashflowplanungen.
 Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem **Prognosemodell für Microsoft Dynamics 365 for Financials**. Dieses vorhersagende Modell ist online im Cortana Intelligence Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermaßen vor:  
@@ -89,11 +87,10 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 3. Verwenden Sie das Microsoft-Konto, um sich für einen Arbeitsbereich anzumelden und kopieren Sie dann das Muster.  
 4. Führen Sie die Vorlage aus und veröffentlichen Sie dieses als Webdienst.  
 5. Notieren Sie den API URL und den API Schlüssel. Sie verwenden diese Anmeldeinformationen für die Cashfloweinrichtung.  
-6. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **Cashflow einrichten** ein und wählen Sie dann den entsprechenden Link aus.  
+6. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus. Geben Sie **Cashflow einrichten** ein und wählen Sie dann den entsprechenden Link aus.  
 7. Erweitern Sie das Inforegister **Cortana Intelligence** und füllen Sie die Felder wie notwendig aus.  
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)  
 [Finance einrichten](finance-setup-finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

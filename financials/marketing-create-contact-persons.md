@@ -1,6 +1,6 @@
 ---
-title: Kontaktpersonen| Microsoft Docs
-description: "Sie können Kontaktpersonen auf der Grundlage vorhandener Kontaktunternehmen oder auch unabhängige Kontaktpersonen in Financials erstellen."
+title: Erstellen von Kontaktpersonen| Microsoft Docs
+description: "Gliedert die Aufgaben, eine Kontaktkarte für eine Person, z. B. einen Interessenten oder einen Lieferanten zu erstellen und hilft, die Beziehung zu definieren und Kommunikationen anzupassen."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bfc992a09bfe3b93d682dd5c38cdab6c7dc1617b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Kontaktpersonen
-<a id="contact-persons" class="xliff"></a>
+# <a name="creating-contact-persons"></a>Kontaktpersonen erstellen
 Ein Kontakt wird durch Einrichten einer Kontaktkarte für die Person erstellt. Sie können Kontaktpersonen auf der Grundlage vorhandener Kontaktunternehmen oder auch unabhängige Kontaktpersonen erstellen.
 
 Beispiel: Nach einem Treffen mit einem interessierten Unternehmen treffen Sie sich mit dem Einkäufer. Sie haben nun die Möglichkeit zum Erstellen einer Kontaktkarte für diese Person, um eine besser zugeschnittene Kommunikation zu ermöglichen.
@@ -36,12 +35,11 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 | --- | --- |
 | Bereitstellen von Informationen zu einer Kontaktperson |[Gewusst wie: Anlegen neuer Kontaktpersonen](marketing-how-create-contact-persons.md) |
 | Einrichten einer alternativen Adresse für einen Kontakt |[Gewusst wie: Zuordnen von alternativen Adressen](marketing-how-assign-alternate-address.md) |
-| Beschreiben der Geschäftsbeziehung eines Unternehmenskontakts |[Einrichten von Job-Verantwortlichkeiten für Kontakte](marketing-job-responsibilities.md) |
-| Beschreibt die Position Ihrer Kontakte. |[Einrichten von Position für Kontaktpersonen](marketing-organizational-levels.md) |
+| Beschreiben der Geschäftsbeziehung eines Unternehmenskontakts |[Vorgehensweise: Einrichten von Verantwortlichkeiten für Kontakte](marketing-job-responsibilities.md) |
+| Beschreibt die Position Ihrer Kontakte. |[Vorgehensweise: Einrichten von Position für Kontaktpersonen](marketing-organizational-levels.md) |
 | Zuordnen von Verteilern zu Kontakten |[Versandgruppen einem Kontakt zuweisen](marketing-mailing-groups.md) |
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Kontaktunternehmenerstellen](marketing-create-contact-companies.md)  
 [Erstellen und Verwalten von Kontakten](marketing-create-contact-persons.md)  
 [Arbeiten mit Financials](ui-work-product.md)

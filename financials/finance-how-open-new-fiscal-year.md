@@ -1,6 +1,6 @@
 ---
-title: "So geht's: Ein neues Geschäftsjahr eröffnen| Microsoft Docs"
-description: "Beschreibt, wie Finanzzeiträume eröffnet werden."
+title: "Ein neues Geschäftsjahr eröffnen| Microsoft Docs"
+description: "Bevor Sie in einem Geschäftsjahr buchen können, müssen Sie das Geschäftsjahr eröffnen und dessen Buchhaltungsperioden bestimmen."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,23 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 02bd101bca987d30730766531687738f8e5f7d81
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c653a43329f95c817560c5888fb282e64b57ba24
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# So geht's: Ein neues Geschäftsjahr eröffnen
-<a id="how-to-open-a-new-fiscal-year" class="xliff"></a>
+# <a name="how-to-open-a-new-fiscal-year"></a>So geht's: Ein neues Geschäftsjahr eröffnen
 Bevor Sie in einem Geschäftsjahr buchen können, müssen Sie das Geschäftsjahr eröffnen und dessen Buchhaltungsperioden bestimmen.
 
-## Ein neues Geschäftsjahres eröffnen:
-<a id="to-open-a-new-fiscal-year" class="xliff"></a>
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen"). Geben Sie **Buchungsperioden** ein und wählen Sie dann den entsprechenden Link aus.
+## <a name="to-open-a-new-fiscal-year"></a>Ein neues Geschäftsjahres eröffnen:
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Buchungsperioden** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Im Fenster **Buchhaltungsperioden** wählen Sie die Aktion **Jahr erstellen**.
 3. Füllen Sie die Felder aus, um die Struktur des Geschäftsjahrs anzugeben.
 
@@ -35,8 +33,7 @@ Bevor Sie in einem Geschäftsjahr buchen können, müssen Sie das Geschäftsjahr
 
 Die Buchhaltungsperioden werden der Seite hinzugefügt. Die Felder **Startdatum** und **Name** werden ausgefüllt. Das Feld **Name** verwendet den Namen des Monat im Startdatum. Nach der letzten Periode des Geschäftsjahres, wird eine Buchhaltungsperiode eingefügt, und das Kontrollkästchen **Neues Geschäftsjahr** wird ausgewählt.
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [So geht's: Buchhaltungsperioden festlegen](finance-how-specify-posting-periods.md)  
 [Vorgehensweise: Buchen des Jahresabschlusspostens](year-how-post-year-end-close-entry.md)  
 [Finanzen](finance.md)  

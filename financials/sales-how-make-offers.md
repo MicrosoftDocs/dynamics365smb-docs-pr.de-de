@@ -1,6 +1,6 @@
 ---
-title: 'So geht''s: Angebote erstellen| Microsoft Docs'
-description: 'Vorgehensweise: Machen Sie ein Angebot'
+title: Verkaufsangebote erstellen| Microsoft Docs
+description: Beschreibt, wie Verkaufsangebote oder eine Anforderung erstellt wird, um Ihr Angebot zu erfassen, um unter bestimmten Bedingungen einem Kunden zu verkaufen.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,23 +12,21 @@ ms.search.keywords: rfq
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e04af16b9fcd08217e2a3efc60288805a4db26f2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Vorgehensweise: Machen Sie ein Angebot
-<a id="how-to-make-offers" class="xliff"></a>
+# <a name="how-to-make-offers"></a>Vorgehensweise: Machen Sie ein Angebot
 Sie erstellen eine Angebotsrechnung, um Ihr Angebot für den Debitor zu erfassen, um bestimmte Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu verkaufen. Sie können das Verkaufsangebot an den Debitor senden, um das Angebot mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung des Angebots vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Vorgehensweise: Senden von Belegen per E-Mail](ui-how-send-documents-email.md).
 
 Während Sie mit dem Debitor verhandeln, können Sie das Verkaufsangebot ändern wie benötigt und erneut versenden. Wenn der Kunde das Angebot annimmt, wandeln Sie das Verkaufsangebot in eine Verkaufsrechnung, in der Sie den Verkauf verarbeiten. Weitere Informationen finden Sie unter [Vorgehensweise: Fakturieren von Verkäufen](sales-how-invoice-sales.md) und [Vorgehensweise: Neue Produkte verkaufen](sales-how-sell-products.md).
 
 Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist oder nicht. Siehe Schritt 2 und 3 im folgenden Verfahren.
 
-## So erstellen Sie Verkaufsangebote:
-<a id="to-create-a-sales-quote" class="xliff"></a>
+## <a name="to-create-a-sales-quote"></a>So erstellen Sie Verkaufsangebote:
 Auf der Seite Homepage wählen Sie die Aktion **Verkaufsangebote** aus.  
 2. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 
@@ -53,7 +51,8 @@ Wenn Sie wiederkehrende Verkaufszeilen für den Debitor wie einen Monatsersatzau
 
 11. Geben Sie im Feld **Menge** ein, wie viele Einheiten des Produkts, der Kosten oder der Transaktion, in der Zeile des Debitors gespeichert werden soll.
 
-    **Hinweis:** Für Artikel des Typs **Artikel - Service** oder **Ressource** ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Einheit des Messcodes** der Zeile angegeben.  
+    > [!NOTE]  
+>   Für Artikel des Typs **Artikel - Service** oder **Ressource** ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Einheit des Messcodes** der Zeile angegeben.  
 
     Der Wert im Feld **Zeilenbetrag** Feld wird als *VK-Preis* x *Menge* berechnet.  
 
@@ -73,8 +72,7 @@ Wenn Sie wiederkehrende Verkaufszeilen für den Debitor wie einen Monatsersatzau
 
 Das Verkaufsangebot wird aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen im Verkaufsangebot erstellt, in dem Sie den Verkauf verarbeiten können. Im Feld **Angebotnummer** auf der erstellten Verkaufsrechnung oder im Verkaufsauftrag sehen Sie die Anzahl der Verkaufsangebote, aus dem sie erstellt wurde. Weitere Informationen finden Sie unter [Vorgehensweise: Fakturieren von Verkäufen](sales-how-invoice-sales.md) und [Vorgehensweise: Neue Produkte verkaufen](sales-how-sell-products.md).
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Gewusst wie: Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  

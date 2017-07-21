@@ -1,6 +1,6 @@
 ---
 title: "So gehts: Ändern des Rollencenters| Microsoft Docs"
-description: "Beschreibt, wie Sie das aktuelle Rollencenter ändern können."
+description: "Sie können ein anderes Profil in Financials auswählen, um zu ändern, was Sie auf Ihrer Homepage sehen."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,31 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Profile
-ms.date: 03/23/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70215bcbf8166f84dfa37e722aed3d7d9c7626e6
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 769eb1b41f65c8b6832f7cde7e536e8c3981289e
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# So gehts: Ändern des Rollencenters
-<a id="how-to-change-the-role-center" class="xliff"></a>
+# <a name="how-to-change-the-role-center"></a>So gehts: Ändern des Rollencenters
 Die Startseite bildet den Hauptzugang zu [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dort erhalten Sie einen Überblick über die täglichen Aufgaben und ihren Status. Der Zugriff auf die Aufgaben, die Sie ausführen, erfolgt häufig über die Kacheln im Inhaltsbereich, den Navigationsbereich links und über Aktionen im Menüband.
 
 Der Inhalt der Startseite basiert auf dem ausgewählten Rollencenter. Das Standardrollencenter für [!INCLUDE[d365fin](includes/d365fin_md.md)] ist **Geschäftsführer**. Sie können dies aber ändern und zwischen einer Reihe von Rollencentern auswählen.
 
-## So ändern Sie ein Rollencenter
-<a id="to-change-role-center" class="xliff"></a>
+## <a name="to-change-role-center"></a>So ändern Sie ein Rollencenter
 1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") und dann **Meine Einstellungen**.
 2. Wählen Sie im Fenster **Meine Einstellungen** im Feld **Rollencenter** das Rollencenter aus, das Sie als Standard festlegen möchten. Wählen Sie beispielsweise **Buchhalter/in** aus.
 3. Wählen Sie die Schaltfläche **OK** aus.
 4. Melden Sie sich von [!INCLUDE[d365fin](includes/d365fin_md.md)] ab und anschließend wieder an, um die Änderungen zu übernehmen.
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

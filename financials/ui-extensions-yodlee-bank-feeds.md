@@ -1,6 +1,6 @@
 ---
-title: Bank-Feeds Envestnet Yodlee| Microsoft Docs
-description: "Enthält Informationen über die Bank-Feederweiterung Envestnet Yodlee bereit"
+title: Zahlungs-Abstimmung mit der Bank Envestnet Yodlee Erweiterung | Microsoft Docs
+description: "Beschreibt die Bank-Feederweiterung Envestnet, Yodlee den Verknüpfungen für Bankkonten sodass Sie schnell und Zahlungen zu entschädigen können."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,15 +13,14 @@ ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7c900b87a5b0fd703ff0bdbaa5e2ac41f2939c3d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 060eec95e12800d048c41c142478c2a18e27b3fb
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Die Bank Envestnet Yodlee enthält Erweiterungen zu Dynamics 365 for Financials
-<a id="the-envestnet-yodlee-bank-feeds-extension-to-dynamics-365-for-financials" class="xliff"></a>
+# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Die Envestnet Yodlee Bank-Erweiterung
 Um die Zahlungen schnell abzustimmen, die an Ihre Bankkonten getätigt werden, kann die Bank-Feed-Service Envestnet Yodlee Ihre Systembankkonten mit Ihrem Online Bankkonto verknüpfen. Das bedeutet, dass der letzte Bankkontoauszug automatisch oder manuell in Ihr Abstimmungsbuch.-Blatt gespeist wird und stellt sicher, dass immer die aktuelle Zahlungen mit minimalem Fehlerrisiko verarbeitet werden.
 
 Der Bank-Feed-Service Envestnet Yodlee stellt die folgenden Vorteile bereit:
@@ -35,9 +34,8 @@ Der Bank-Feed-Service Envestnet Yodlee stellt die folgenden Vorteile bereit:
 
 Für weitere Informationen, siehe [So gehts: Einrichten des Envestnet Yodlee Bank-Feed-Service](bank-how-setup-bank-statement-service.md).
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
-[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe der Erweiterungen] (ui-extensions.md)    
-[Automatische Zahlungen anwenden und Abstimmen von Bankkonten] (receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+## <a name="see-also"></a>Siehe auch
+[Anpassen[!INCLUDE[d365fin](includes/d365fin_md.md)]Erweiterungen nutzen ](ui-extensions.md)    
+[Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

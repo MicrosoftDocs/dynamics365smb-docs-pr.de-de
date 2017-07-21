@@ -1,6 +1,6 @@
 ---
 title: Anlagen einrichten | Microsoft Docs
-description: "Beschreibt wiue Anlagen-Funktionalitäten eingerichtet werden."
+description: "Kennenlernen der die Abfolge von Aufgaben, die Sie ausführen müssen, um Anlagen einzurichten, wie Arbeitsplätze oder Gebäude."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8cf5df0cb9e555f700e2f578a25e102cefe8baff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Anlagen einrichten
-<a id="setting-up-fixed-assets" class="xliff"></a>
+# <a name="setting-up-fixed-assets"></a>Anlagen einrichten
 Um mit Anlagen arbeiten können, müssen Sie einige Elemente festlegen:  
 
 * Wie Sie Anlagen versichern, verwalten und abschreiben.  
@@ -29,11 +28,12 @@ Um mit Anlagen arbeiten können, müssen Sie einige Elemente festlegen:
 
 Die folgende Tabelle enthält Verknüpfungen für weitere Informationen. Nachdem Sie diese Dinge festgelegt haben, können Sie die verschiedene Aktivitäten beginnen. Weitere Informationen finden Siue unter [Anlagen](fa-manage.md).  
 
-**Hinweis:** Sie können Anlagentransaktionen im Fenster **Anlagen Fibu Buch.-Blatt** oder im Fenster **Anlagen Buch - Blatt** erfassen, abhängig davon, ob die Transaktionen für Finanzberichte oder zur internen Verwaltung bestimmt sind. Die Hilfe zu den Anlagen beschreibt lediglich, wie das Fenster **Anlagen Fibu Buch.-Blatt** verwendet wird.  
+> [!NOTE]  
+>   Sie können Anlagentransaktionen im Fenster **Anlagen Fibu Buch.-Blatt** oder im Fenster **Anlagen Buch-Blatt** erfassen, abhängig davon, ob die Transaktionen für Finanzberichte oder zur internen Verwaltung bestimmt sind. Die Hilfe zu den Anlagen beschreibt lediglich, wie das Fenster **Anlagen Fibu Buch.-Blatt** verwendet wird.  
 
 Wenn Sie das Kontrollkästchen für eine Anlagenaktivität im Abschnitt **Fibu-Integration** im Fenster **AfA-Buch-Karte** aktiveren, wird das **Anlagen Fibu Buch.-Blatt** Fenster verwendet, um Transaktionen für die fragliche Aktivität zu buchen.
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
+Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.  
 
 | Aufgabe | Siehe |
 | --- | --- |
@@ -43,8 +43,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Aktivieren Sie die Wartung von Anlagen, richten allgemeine Wartungsinformationen und Wartungs-Buchungskonten ein, und definieren Sie Arten von Wartungsarbeiten. |[So geht's: Einrichten der Anlagenwartung](fa-how-setup-maintenance.md) |
 | Informieren Sie sich über verschiedene Anlagen-AfA-Methoden. |[Abschreibungsmethoden](fa-depreciation-methods.md) |
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Anlagen](fa-manage.md)  
 [Finanzen](finance.md)  
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

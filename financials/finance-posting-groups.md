@@ -1,6 +1,6 @@
 ---
 title: Buchungsgruppen-Einrichtung| Microsoft Docs
-description: "Stellt eine Übersicht über Buchungsgruppen bereit"
+description: "Übersicht der Buchungsgruppen, die Sie verwenden können, um die Zeit zu sparen und Fehler zu vermeiden, wenn Sie Transaktionen buchen."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 79018546484ff3bb8965089a3554d69bec219304
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: add78070e838dcf8b0eb24dcc8b642d621a400b9
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Einrichten von Gruppenbuchungen
-<a id="posting-group-setups" class="xliff"></a>
+# <a name="setting-up-posting-groups"></a>Buchungsgruppen einrichten
 Buchungsgruppenzuordnungseinheiten nach Debitoren, Kreditoren, Artikel, Ressourcen und Einkaufs- und Verkaufsbelegen mit Sachkonten. Sie sparen Zeit und helfen, Fehler zu vermeiden, wenn Sie Transaktionen buchen. Die Umsatzwerte wechseln zu den Konten, die in der Buchungsgruppe für diese bestimmte Einheit angegeben werden. Die einzige Anforderung ist, dass Sie einen Kontenplan haben. Weitere Informationen finden Sie unter [Einrichten des Kontenplans](finance-setup-chart-accounts.md).  
 
 Buchungsgruppen werden unter drei Schlüsseln abgedeckt:  
@@ -52,8 +51,7 @@ Die folgenden Tabellen beschreiben die Buchungsgruppen nach den Schlüsseln.
 | Steuerproduktbuchungsgruppen |Geben Sie die Steuerberechnungen an, die für die Arten von Artikeln oder Ressourcen erforderlich ist, die Sie kaufen oder verkaufen. |
 | Steuerbuchung einrichten |Zeigt Kombinationen aus MwSt.-Geschäftsbuchungsgruppen und MwSt.-Produktbuchungsgruppen an. Wenn Sie eine Buch.-Blattzeile, eine Einkaufszeile bzw. Verkaufszeile ausfüllen, schauen wir die Kombination an, um die zu verwendenden Konten zu identifizieren. |
 
-## Beispiel für die Verknüpfung von Buchungsgruppen
-<a id="example-of-linking-posting-groups" class="xliff"></a>
+## <a name="example-of-linking-posting-groups"></a>Beispiel für die Verknüpfung von Buchungsgruppen
 Hier ist ein Szenario.  
 
 Diese Buchungsgruppen werden auf der Debitorenkarte aktiviert:  
@@ -75,12 +73,10 @@ Wenn ein Verkaufsbeleg erstellt wird, werden die Informationen auf der Debitoren
 
 Ihre Einrichtung legt fest, wann die Buchung erfolgt. Beispielsweise wird die zeitliche Steuerung tangiert, wenn Sie "Periodische Aktivitäten" durchführen, wie Buchungslagerkosten oder Anpassung von Kostenfaktorposten.
 
-## Kopieren von Buchungsmatrix-Einrichtungszeilen
-<a id="copying-posting-setup-lines" class="xliff"></a>
+## <a name="copying-posting-setup-lines"></a>Kopieren von Buchungsmatrix-Einrichtungszeilen
 Je mehr Produkt- und Geschäftsbuchungsgruppen vorhanden sind, um so mehr Zeilen werden im Fenster Buchungsmatrix Einrichtung angezeigt. Für die Einrichtung der Buchungsmatrix des Unternehmens kann daher unter Umständen eine umfangreiche Dateneingabe erforderlich sein. Während unter Umständen viele verschiedene Kombinationen von Geschäfts- und Produktbuchungsgruppen vorhanden sind, buchen möglicherweise unterschiedliche Kombinationen weiterhin auf dieselben Sachkonten. Um den Umfang der erforderlichen manuellen Dateneingabe einzuschränken, kopieren Sie die Sachkonten aus einer vorhandenen Zeile in das Fenster **Buchungsmatrix Einrichtung.**
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Finance einrichten](finance-setup-finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

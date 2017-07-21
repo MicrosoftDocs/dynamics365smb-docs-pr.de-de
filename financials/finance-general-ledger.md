@@ -1,5 +1,5 @@
 ---
-title: Die Finanzbuchhaltung und der Kontenplan| Microsoft Docs
+title: Erhalten von Informationen zu Finanzbuchhaltung und COA| Microsoft Docs
 description: Beschreibt die Finanzbuchhaltung, den Kontenplan und die Kontokategorien.
 services: project-madeira
 documentationcenter: 
@@ -10,22 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 02/14/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 04b94fa9f737765edbb1c93c506b444179b86fcf
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Die Finanzbuchhaltung und der Kontenplan
-<a id="the-general-ledger-and-the-chart-of-accounts" class="xliff"></a>
+# <a name="understanding-the-general-ledger-and-the-coa"></a>Verständnis der Fibu und des COA
 Die Finanzbuchhaltung speichert Ihre Finanzdaten, und der Kontenplan zeigt die Konten, auf die alle Sachposten gebucht werden, an. [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 
-## Finanzbuchhaltung Einrichtung und Buchungsmatrix Einrichtung
-<a id="general-ledger-setup-and-general-posting-setup" class="xliff"></a>
+## <a name="general-ledger-setup-and-general-posting-setup"></a>Finanzbuchhaltung Einrichtung und Buchungsmatrix Einrichtung
 Die Einrichtung der Finanzbuchhaltung ist das Kernstück der Finanzvorgängen, da sie definieren, wie Sie Daten buchen.  
 
 Im Fenster **Finanzbuchhaltung einrichten** geben Sie an, wie bestimmte finanzbuchhalterische Sachverhalte in Ihrem Unternehmen gehandhabt werden sollen, wie beispielsweise:  
@@ -36,8 +34,7 @@ Im Fenster **Finanzbuchhaltung einrichten** geben Sie an, wie bestimmte finanzbu
 
 Ebenso geben Sie im Fenster **Buchungsmatrix Einrichtung** an, wie Sie Kombinationen aus Geschäftsbuchungsgruppen und Produktbuchungsgruppen einrichten wollen. Buchungsgruppenzuordnungseinheiten nach Debitoren, Kreditoren, Artikel, Ressourcen und Einkaufs- und Verkaufsbelegen mit Sachkonten. Für jede Kombination aus Geschäftsbuchungsgruppe und Produktbuchungsgruppe geben Sie eine Zeile ein. Weitere Informationen finden Sie unter [Einrichten von Gruppenbuchungen](finance-posting-groups.md)  
 
-## Kontenplan
-<a id="the-chart-of-accounts" class="xliff"></a>
+## <a name="the-chart-of-accounts"></a>Kontenplan
 Der Kontenplan zeigt alle Sachkonten an. Vom Kontenplan aus können Sie Dinge tun wie:  
 
 * Berichte ansehen, die die Sachkonteneinträge und -Salden zeigen.  
@@ -47,8 +44,7 @@ Der Kontenplan zeigt alle Sachkonten an. Vom Kontenplan aus können Sie Dinge tu
 
 Sie können Sachkonten hinzufügen, ändern oder löschen. Um jedoch Differenzen zu verhindern, können Sie ein Sachkonto nicht löschen, wenn Daten im Kontenplan verwendet werden.  
 
-## Kontokategorien
-<a id="account-categories" class="xliff"></a>
+## <a name="account-categories"></a>Kontokategorien
 Sie können die Struktur der Finanzberichte personalisieren, indem Sie Sachkonten den Kontenkategorien hinzufügen.  
 
 Das Fenster **Sachkontokategorien** zeigt Ihre vorhandenen Haupt- und Unterkategorien und die Sachkonten an, die Sie jeder Kategorie zugeordnet haben. Sie können neue Unterkategorien erstellen und diese bestehenden Konten zuweisen.  
@@ -65,9 +61,8 @@ Beispielsweise gibt es in der Standardsaldoabrechnung eine einzige Unterkategori
 
 Wenn Sie das nächste Mal ein Kontenschemata auf Grundlage Ihre Änderungen erstellt haben, wird die nächste Saldoabrechnung ein Gesamtsaldo für Zahlungen und zwei Zeilen mit Salden für Handgeld und das Girokonto anzeigen.  
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
 [Einrichten oder Ändern des Kontenplans](finance-setup-chart-accounts.md)  
-[Kontenschemata](finance-account-schedule.md)  
+[Business Intelligence](bi.md)  
 

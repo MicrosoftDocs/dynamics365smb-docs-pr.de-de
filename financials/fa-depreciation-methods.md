@@ -1,6 +1,6 @@
 ---
 title: Abschreibungsmethoden| Microsoft Docs
-description: Beschreibt die sieben Methoden, mit denen Sie Anlagen abschreiben.
+description: Erhalten von Informationen zu den unterschiedlichen Methoden, um Anlagen abzuschreiben.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a5a43c6d53bdff7c30133d88c66e33996476f580
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Abschreibungsmethoden
-<a id="depreciation-methods" class="xliff"></a>
+# <a name="depreciation-methods"></a>Abschreibungsmethoden
 Es gibt acht verfügbare AfA-Methoden:  
 
 * Linear  
@@ -32,13 +31,14 @@ Es gibt acht verfügbare AfA-Methoden:
 * Tabelle  
 * Manuell  
 
-  **Hinweis:** Sie können diese Methode für Anlagen verwenden, die nicht abgeschrieben werden z. B. Land. Sie müssen die Beschreibung im Anlagen Fibu Buch.-Blatt eingeben. Die Stapelverarbeitung **Abschreibung berechnen** berücksichtigt keine Anlagen mit dieser Abschreibungs-Methode.  
+  > [!NOTE]  
+>   Sie können diese Methode für Anlagen verwenden, die nicht abgeschrieben werden z. B. Land. Sie müssen die Beschreibung im Anlagen Fibu Buch.-Blatt eingeben. Die Stapelverarbeitung **Abschreibung berechnen** berücksichtigt keine Anlagen mit dieser Abschreibungs-Methode.  
 * US-Halbjahresregel  
 
-  **Hinweis:** Wenn diese Methode verwendet wird, wird eine Anlage jedes Jahr mit dem gleichen Betrag abgeschrieben.  
+  > [!NOTE]  
+>    Wenn diese Methode verwendet wird, wird eine Anlage jedes Jahr mit dem gleichen Betrag abgeschrieben.  
 
-## Lineare Abschreibung
-<a id="straight-line-depreciation" class="xliff"></a>
+## <a name="straight-line-depreciation"></a>Lineare Abschreibung
 Wenn Sie die Methode "Linear" verwenden, müssen Sie eine der folgenden Optionen im Anlagen-AfA-Buch angeben:  
 
 * Die Nutzungsdauer (in Jahren oder Monaten) oder das Enddatum der Nutzungsdauer.  
@@ -46,8 +46,7 @@ Wenn Sie die Methode "Linear" verwenden, müssen Sie eine der folgenden Optionen
 * Einen festen jährlichen Betrag  
 * AfA Periode  
 
-### AfA Periode
-<a id="depreciation-period" class="xliff"></a>
+### <a name="depreciation-period"></a>AfA Periode
 Falls Sie eine AfA Periode angeben (Anzahl der AfA Jahre, Anzahl der AfA Monate oder das Enddatum der Nutzungsdauer), verwendet die Anwendung die folgende Formel, um den AfA Betrag zu berechnen:  
 
 *AfA Betrag = ((Buchwert – Restwert) x Anzahl AfA Tage) / Verbleibende AfA Tage*  
@@ -56,20 +55,17 @@ Die verbleibenden AfA-Tage werden als die Gesamtzahl der AfA-Tage minus der Anza
 
 Der Buchwert kann durch die Buchung von Zuschreibungen, erhöhter AfA, Sonder-AfA oder benutzerdefinierter AfA verringert werden; dies hängt davon ab, ob das Feld **In AfA-Berechnung enthalten** deaktiviert ist und ob das Feld **Teil d. Buchwerts** im Fenster **Anlagenbuchungsart Einr.** aktiviert ist. Diese Berechnung stellt sicher, dass die Anlage zum angegebenen Enddatum vollständig abgeschrieben ist.  
 
-### Fester jährlicher Prozentsatz
-<a id="fixed-yearly-percentage" class="xliff"></a>
+### <a name="fixed-yearly-percentage"></a>Fester jährlicher Prozentsatz
 Wenn Sie einen festen jährlichen Prozentsatz angeben, verwendet die Anwendung die folgende Formel, um den AfA Betrag zu berechnen:  
 
 AfA Betrag = (Linear % x AfA Basis x Anzahl AfA Tage) / (100 x 360)  
 
-### Fester jährlicher Betrag
-<a id="fixed-yearly-amount" class="xliff"></a>
+### <a name="fixed-yearly-amount"></a>Fester jährlicher Betrag
 Wenn Sie einen festen jährlichen Betrag angeben, verwendet die Anwendung die folgende Formel, um den AfA Betrag zu berechnen:  
 
 AfA Betrag = (Fester AfA-Betrag x Anzahl AfA Tage) / 360  
 
-### Beispiel – Lineare Abschreibung
-<a id="example---straight-line-depreciation" class="xliff"></a>
+### <a name="example---straight-line-depreciation"></a>Beispiel – Lineare Abschreibung
 Eine Anlage hat Anschaffungskosten von MW 100.000. Die erwartete Lebensdauer ist 8 Jahre. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
 Für dieses Beispiel sieht der Anlagenposten folgendermaßen aus:  
@@ -86,8 +82,7 @@ Für dieses Beispiel sieht der Anlagenposten folgendermaßen aus:
 
 * Startdatum Normal-AfA  
 
-## Abschreibungsmethode "1 % degressiv"
-<a id="declining-balance-1-depreciation" class="xliff"></a>
+## <a name="declining-balance-1-depreciation"></a>Abschreibungsmethode "1 % degressiv"
 Hierbei handelt es sich um eine beschleunigte Abschreibungsmethode, bei der der größte Teil der Kosten einer Anlage in den ersten Jahren der Nutzungsdauer abgeschrieben wird. Wenn Sie diese Methode verwenden, müssen Sie einen festen jährlichen Prozentsatz eingeben.  
 
 Die folgende Formel zur Berechnung des AfA-Betrages ist:  
@@ -98,8 +93,7 @@ Die AfA Basis wird als der Buchwert minus der gebuchten AfA seit dem Startdatum 
 
 Der gebuchte AfA-Betrag kann Posten mit verschiedenen Buchungsarten enthalten (erhöhte AfA, Sonder-AfA und benutzerdefinierte AfA), die seit dem Startdatum des aktuellen Geschäftsjahrs gebucht worden sind. Diese Buchungsarten sind in dem gebuchten AfA Betrag enthalten, wenn Häkchen in den Feldern **AfA-Art** und **Teil d. Buchwerts** im Fenster **Anlagenbuchungsart Einr.** gesetzt sind.  
 
-### Beispiel – Abschreibungsmethode "1 % degressiv"
-<a id="example---declining-balance-1-depreciation" class="xliff"></a>
+### <a name="example---declining-balance-1-depreciation"></a>Beispiel – Abschreibungsmethode "1 % degressiv"
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das Feld **Degressive AfA %** hat den Wert 25. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
 Die nachstehende Tabelle zeigt, wie die Anlagenposten-Einträge aussehen.  
@@ -130,12 +124,10 @@ Die nachstehende Tabelle zeigt, wie die Anlagenposten-Einträge aussehen.
 
     Die Berechnung erfolgt bis der Buchwert gleich dem endgültigen Rundungsbetrag oder dem von Ihnen angegebenen Restwert ist.   
 
-## Abschreibungsmethode "2 % degressiv"
-<a id="declining-balance-2-depreciation" class="xliff"></a>
+## <a name="declining-balance-2-depreciation"></a>Abschreibungsmethode "2 % degressiv"
 Die Methoden Degressiv 1 und Degressiv 2 berechnen den gleichen Gesamt AfA-Betrag für jedes Jahr. Falls Sie die Stapelverarbeitung **AfA berechnen** mehr als einmal jährlich ausführen, resultiert die Methode "Degressiv 1" in gleichen AfA Beträgen für die einzelnen Perioden. Die Methode "Degressiv 2" hat in diesem Fall fallende Beträge in den einzelnen Perioden zur Folge.  
 
-### Beispiel – Abschreibungsmethode "2 % degressiv"
-<a id="example---declining-balance-2-depreciation" class="xliff"></a>
+### <a name="example---declining-balance-2-depreciation"></a>Beispiel – Abschreibungsmethode "2 % degressiv"
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das Feld **Degressive AfA %** hat den Wert 25. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt. Die Anlagenposten sehen folgendermaßen aus:  
 
 | Datum | Anlagenbuchungsart | Tage | Betrag | Buchwert |
@@ -169,8 +161,7 @@ Die Abschreibungswerte lauten:
 | 30.06.11 |AB = 75.000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10.048,09 |
 | 31.12.11 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8.701,91 |
 
-## Degressiv/Lineare AfA 1
-<a id="db1sl-depreciation" class="xliff"></a>
+## <a name="db1sl-depreciation"></a>Degressiv/Lineare AfA 1
 "Degr1/Linear" ist eine abgekürzte Kombination von "Degressiv 1" und "Linear". Die Berechnung erfolgt bis der Buchwert gleich dem endgültigen Rundungsbetrag oder dem von Ihnen angegebenen Restwert ist.  
 
 Die Stapelverarbeitung **AfA berechnen** berechnet einen linearen Betrag und einen degressiven Betrag. Nur der größere dieser beiden Beträge wird in das Buch.-Blatt übertragen.  
@@ -179,8 +170,7 @@ Die Anwendung kann die degressiven Berechnungen unter der Verwendung von verschi
 
 Wenn Sie diese Methode verwenden, müssen Sie die geschätzte Nutzungsdauer und einen degressiven Prozentsatz in dem Fenster **Anlagen-AfA-Bücher** eingeben.  
 
-### Beispiel – Degressiv-Lineare AfA 1
-<a id="example---db1-sl-depreciation" class="xliff"></a>
+### <a name="example---db1-sl-depreciation"></a>Beispiel – Degressiv-Lineare AfA 1
 Eine Anlage hat Anschaffungskosten von MW 100.000. Im Fenster **Anlagen-AfA-Bücher** enthält das Feld **Degressive AfA %** den Wert 25 und das Feld **Nutzungsdauer i. Jahren** den Wert 8. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
 Die Anlagenposten sehen folgendermaßen aus:  
@@ -215,7 +205,7 @@ Jahr:
 
 *Degressiv Betrag: 25% von 100.000 = 25.000=12.500+12.500*  
 
-*Linear Betrag = 100.000/8=12.500=6.250+6.250*  
+*Linearer Betrag = 100.000/8=12.500=6.250+6.250*  
 
 Es wird der degressive Betrag verwendet, da es sich um den größeren Betrag handelt.  
 
@@ -227,30 +217,26 @@ Jahr (2015):
 
 Es wird der lineare Betrag verwendet, da es sich um den größeren Betrag handelt.  
 
-## Benutzerdefinierte AfA
-<a id="user-defined-depreciation" class="xliff"></a>
+## <a name="user-defined-depreciation"></a>Benutzerdefinierte AfA
 Die Anwendung verfügt über Funktionen, mit denen Sie benutzerdefinierte AfA-Methoden definieren können.  
 
 Mit einer benutzerdefinierten Methode können Sie das Fenster **AfA-Tabellen** verwenden, in dem Sie einen AfA-Prozentsatz für jede Periode angeben müssen (Monat, Quartal, Jahr oder Buchhaltungsperiode).  
 
 Die Formel zur Berechnung des AfA-Betrages ist:  
 
-AfA Betrag = (AfA % x Anzahl AfA Tage x AfA) / (100 x 360)  
+AfA Betrag = (AfA % x Anzahl AfA Tage x AfA / (100 x 360)  
 
-### Abschreibung basierend auf der Stückzahl
-<a id="depreciation-based-on-number-of-units" class="xliff"></a>
+### <a name="depreciation-based-on-number-of-units"></a>Abschreibung basierend auf der Stückzahl
 Diese benutzerdefinierte Methode kann auch verwendet werden, um eine Abschreibung nach der produzierten Stückzahl durchzuführen, zum Beispiel für Produktionsmaschinen, die eine von der Stückzahl abhängige Lebensdauer haben. Im Fenster **AfA-Tabellen** können Sie die Stückzahl eingeben, die innerhalb einer Periode (Monat, Quartal, Jahr oder Buchhaltungsperiode) produziert werden kann.  
 
-### So richten Sie benutzerdefinierte AfA-Methoden ein
-<a id="to-set-up-user-defined-depreciation-methods" class="xliff"></a>
+### <a name="to-set-up-user-defined-depreciation-methods"></a>So richten Sie benutzerdefinierte AfA-Methoden ein
 Im Fenster **Abschreibungstabelle** können Sie benutzerdefinierte AfA-Methoden einrichten. Beispielsweise können Sie die Abschreibung basierend auf der Stückzahl einrichten.  
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus** ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **Abschreibungstabelle** ein und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite und Bericht suchen")und geben **AfA-Tabellen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Im Feld **AfA-Tabelle Übersicht** wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie im Fenster **AfA-Tabelle - Karte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-### Beispiel - Benutzerdefinierte AfA
-<a id="example---user-defined-depreciation" class="xliff"></a>
+### <a name="example---user-defined-depreciation"></a>Beispiel - Benutzerdefinierte AfA
 Sie verwenden eine Abschreibungsmethode, die es Ihnen erlaubt, Anlagen für steuerliche Zwecke schneller abzuschreiben.  
 
 Sie könnten für steuerliche Zwecke die folgenden Sätze für eine Anlage mit einer Lebensdauer von drei Jahren verwenden:  
@@ -287,8 +273,7 @@ Im vorherigen Beispiel enthalten die Felder **Startdatum Benutzerdef. AfA** und 
 
 * Startdatum Normal-AfA  
 
-## AfA 1 unter Verwendung der US-Halbjahresregel
-<a id="half-year-convention-depreciation" class="xliff"></a>
+## <a name="half-year-convention-depreciation"></a>AfA 1 unter Verwendung der US-Halbjahresregel
 Die US-Halbjahresregel wird nur dann angewendet, wenn Sie ein Häkchen im Feld **US-Halbjahresregel verwenden** im **Anlagen-AfA-Buch** gesetzt haben.  
 
 Diese AfA-Methode kann im Zusammenhang mit den folgenden AfA-Methoden in der Anwendung verwendet werden:  
@@ -299,10 +284,10 @@ Diese AfA-Methode kann im Zusammenhang mit den folgenden AfA-Methoden in der Anw
 
 Wenn die Halbjahresregel angewendet wird, hat eine Anlage sechs AfA Monate in dem ersten Geschäftsjahr der Abschreibung, unabhängig vom Inhalt des Feldes **Abschreibungsdatum**.  
 
-**Hinweis** Die Nutzungsdauer einer Anlage, die nach dem ersten Geschäftsjahr verbleibt, enthält immer ein halbes Jahr, wenn die Halbjahresregel verwendet wird. Damit die Halbjahresregel korrekt angewendet wird, muss dass Feld **Enddatum d. Nutzungsdauer** im Fenster **Anlagen-AfA-Buch** immer ein Datum enthalten, das genau sechs Monate vor dem Enddatum des Geschäftsjahres liegt, in dem die Anlage vollständig abgeschrieben ist.  
+> [!NOTE]  
+>   Die Nutzungsdauer einer Anlage, die nach dem ersten Geschäftsjahr verbleibt, enthält immer ein halbes Jahr, wenn die US-Halbjahresregel verwendet wird. Damit die Halbjahresregel korrekt angewendet wird, muss dass Feld **Enddatum d. Nutzungsdauer** im Fenster **Anlagen-AfA-Buch** immer ein Datum enthalten, das genau sechs Monate vor dem Enddatum des Geschäftsjahres liegt, in dem die Anlage vollständig abgeschrieben ist.  
 
-### Beispiel – AfA 1 unter Verwendung der US-Halbjahresregel
-<a id="example---half-year-convention-depreciation" class="xliff"></a>
+### <a name="example---half-year-convention-depreciation"></a>Beispiel – AfA 1 unter Verwendung der US-Halbjahresregel
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das **Startdatum Normal-AfA** ist der 01.03.10. Die erwartete Lebensdauer ist fünf Jahre, daher muss das Feld **Enddatum d. Nutzungsdauer** den Wert 30.06.15 enthalten. Die Stapelverarbeitung **AfA berechnen** wird jährlich ausgeführt. Dieses Beispiel basiert auf einem Kalenderjahr als Geschäftsjahr.  
 
 Die Anlagenposten sehen folgendermaßen aus:  
@@ -319,8 +304,7 @@ Die Anlagenposten sehen folgendermaßen aus:
 
 * Startdatum Normal-AfA  
 
-## Beispiel – Degressiv/Lineare AfA 1 unter Verwendung der US-Halbjahresregel
-<a id="example---db1sl-depreciation-using-half-year-convention" class="xliff"></a>
+## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Beispiel – Degressiv/Lineare AfA 1 unter Verwendung der US-Halbjahresregel
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das **Startdatum Normal-AfA** ist der 01.11.10. Die erwartete Lebensdauer ist fünf Jahre, daher muss das Feld **Enddatum d. Nutzungsdauer** den Wert 30.06.15 enthalten. Im Fenster **Anlagen-AfA-Bücher** enthält das Feld **Degressive AfA %** den Wert 40. Die Stapelverarbeitung **AfA berechnen** wird jährlich ausgeführt. Dieses Beispiel basiert auf einem Kalenderjahr als Geschäftsjahr.  
 
 Die Anlagenposten sehen folgendermaßen aus:  
@@ -357,18 +341,18 @@ Jahr (2004):
 
 Es wird der lineare Betrag verwendet, da es sich um den größeren Betrag handelt.  
 
-## Kopieren von Posten in weitere AfA-Bücher
-<a id="duplicating-entries-to-more-depreciation-books" class="xliff"></a>
+## <a name="duplicating-entries-to-more-depreciation-books"></a>Kopieren von Posten in weitere AfA-Bücher
 Falls Sie über 3 AfA-Bücher B1, B2 und B3 verfügen und Sie Posten aus B1 in B2 und B3 kopieren möchten, können Sie ein Häkchen in dem Feld **Kopien ermöglichen** in der AfA-Buchkarte von B2 und B3 setzen. Dies kann hilfreich sein, wenn das AfA-Buch B1 in die Finanzbuchhaltung integriert ist und das Anlagen-Fibu Buch.-Blatt verwendet, während die AfA-Bücher B2 und B3 nicht in der Finanzbuchhaltung integriert sind und das Anlagen Buch.-Blatt verwenden.  
 
 Wenn Sie einen Posten in B1 im Anlagen-Fibu Buch.-Blatt erstellen und ein Häkchen in dem Feld **Kopiervorgang aktivieren** gesetzt haben, kopiert die Anwendung den Posten in die Bücher B2 und B3 im Anlagen Buch.-Blatt, wenn Sie den Posten buchen.  
 
-**Hinweis:** Es ist nicht möglich in dem gleichen Buch.-Blatt und der gleichen Buch.-Blattvorlage zu kopieren, aus der Sie kopieren. Wenn Sie Posten im Fibu Buch.-Blatt buchen, können Sie diese über eine weitere Stapelverarbeitung in ein Anlagen Buch.-Blatt oder ein Anlagen Fibu Buch.-Blatt kopieren.  
+> [!NOTE]  
+>   Es ist nicht möglich in dem gleichen Buch.-Blatt und der gleichen Buch.-Blattvorlage zu kopieren, aus der Sie kopieren. Wenn Sie Posten im Fibu Buch.-Blatt buchen, können Sie diese über eine weitere Stapelverarbeitung in ein Anlagen Buch.-Blatt oder ein Anlagen Fibu Buch.-Blatt kopieren.  
 
-**Hinweis**: Es ist nicht möglich, im Anlagen Fibu Buch.-Blatt und im Anlagen Buch-Blatt dieselbe Nummernserie zu verwenden. Wenn Sie Posten im Anlagen Fibu Buch.-Blatt buchen, müssen Sie das Feld **Belegnr.** leer lassen. Wenn Sie in das Feld eine Nummer eingeben, wird die Nummer im Anlagen Buch.-Blatt dupliziert. Sie müssen die Belegnummer manuell ändern, bevor Sie das Buch.-Blatt buchen können.  
+> [!NOTE]  
+>   Es ist nicht möglich, im Anlagen Fibu Buch.-Blatt und im Anlagen Buch-Blatt dieselbe Nummernserie zu verwenden. Wenn Sie Posten im Anlagen Fibu Buch.-Blatt buchen, müssen Sie das Feld **Belegnr.** leer lassen. Wenn Sie in das Feld eine Nummer eingeben, wird die Nummer im Anlagen Buch.-Blatt dupliziert. Sie müssen die Belegnummer manuell ändern, bevor Sie das Buch.-Blatt buchen können.  
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Anlagen](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
 [Finanzen](finance.md)  

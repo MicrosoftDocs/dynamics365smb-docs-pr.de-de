@@ -1,6 +1,6 @@
 ---
-title: "Erfahren Sie, wie Sie Dynamics 365 for Financials erweitern können| Microsoft Docs"
-description: "Dynamics 365 for Financials Erweiterungen bauen, anzeigen und fördern"
+title: Dynamics 365 for Financials anpassen | Microsoft Docs
+description: "Dynamics 365 for Financials Erweiterungen bauen, anzeigen und fördern."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 110216a4466733b5e5b9f31eb5b73e428c74da91
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] verlängern
-<a id="extend-included365finlongincludesd365finlongmdmd" class="xliff"></a>
+# <a name="extending-included365finlongincludesd365finlongmdmd"></a>Erweitern [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Es gibt viele Vorteile, [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] als Plattform für das Bauen von Apps zu nutzen:
 
 * [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]ergänzt die bewährte Microsoft Online Lösung mit Ihren Kenntnissen  
@@ -30,8 +29,7 @@ Es gibt viele Vorteile, [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] al
 * Erzielen Sie mehr mit eine Plattform, die eine moderne Benutzeroberfläche und eine Angebotsskala bietet  
 * Sie bündeln Sie mit intelligenten Geschäfts-Apps wie PowerApps, Flow, Power BI und Cortana-Intelligence und vielen mehr  
 
-## Um Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] in AppSource zu transferieren:
-<a id="to-bring-your-included365finincludesd365finmdmd-app-into-appsource" class="xliff"></a>
+## <a name="to-bring-your-included365finincludesd365finmdmd-app-into-appsource"></a>Um Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] in AppSource zu transferieren:
 + Erstellen Sie Ihre Konten  
 Wir möchten, dass Sie Zugriff auf alle erforderlichen Tools haben! Sie müssen eine Microsoft-Partners-Netzwerk ID, ein Entwicklerkonto und ein PSBC-Konto haben.
 Weitere Informationen darüber, wie Sie die Konten an einem Ort zusammenfassen, finden Sie im Dokument [Create your accounts.pdf](https://go.microsoft.com/fwlink/?linkid=841514) im Download Center.
@@ -51,8 +49,7 @@ Die Funktionen und die Funktionalität Ihrer App reicht nicht, mögliche Käufer
 Bevor wir veröffentlichen, arbeiten wir mit Ihnen zusammen, um sicherzustellen, dass Ihre App auf Microsoft AppSource und in Ihrer persönlichen Zugangsseite steht! Wir müssen Ihre App prüfen, um sicherzustellen, dass sei gut vermarktet, vertrauenswürdig und auf dem neuesten Stand ist.
 Weitere Informationen über den Prüfungsprozess und wie Ihre App publiziert wird finden Sie im Dokument [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) im Download Center.
 
-## Benötigen Sie Hilfe?
-<a id="need-help" class="xliff"></a>
+## <a name="need-help"></a>Benötigen Sie Hilfe?
 Wenn Sie etwas Unterstützung möchten, können Sie einen App-Experten aus der folgenden Liste kontaktieren:
 
 * Cloud Ready Software, [http://cloud-ready-software.com](http://cloud-ready-software.com/)  
@@ -66,21 +63,18 @@ Partner auf der Liste:
 
 Wenn Sie glauben, Sie müssten als App-Dienstpartner aufgeführt sein, zögern Sie nicht, [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com) zu kontaktieren.
 
-## Fragen?
-<a id="questions" class="xliff"></a>
+## <a name="questions"></a>Fragen?
 Diese [FAQ](https://go.microsoft.com/fwlink/?linkid=841520) antworten auf der die meisten allgemeinen Fragen, die Sie möglicherweise zu Apps haben [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Wenn Sie weitere Fragen haben, zögern Sie nicht, Ihren lokalen Microsoft-Vertreter zu kontaktieren, bei dem sich der Serviceartikel befindet oder eine E-Mail zu senden an [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).
 
-## Weitere Ressourcen
-<a id="further-resources" class="xliff"></a>
+## <a name="further-resources"></a>Weitere Ressourcen
 Auf der [DLP-Themenseite](https://mbspartner.microsoft.com/BFI/Topic/76) DLP-Themenseite finden Sie weitere Ressourcen für die App-Entwicklung. Einige wählten jene, die unten verfügbar sind:
 -   [Benutzer-Registrierung und daraus folgende Fakturierung](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
 
 
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe der Erweiterungen] (ui-extensions.md)  
+[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

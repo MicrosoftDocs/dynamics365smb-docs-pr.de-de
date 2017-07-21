@@ -1,340 +1,189 @@
 # [Erste Schritte](index.md)
-
-## [Systemanforderungen](financials-requirements.md)
-
+## [Mindestanforderungen](financials-requirements.md)
 ## [Häufig gestellte Fragen](across-faq.md)
-
 ## [Problembehandlungs-Selbstbedienungs-Registrierung](ui-troubleshoot-self-signup.md)
-
 ## [Geschäftsdaten aus anderen Finanzsystemen migrieren](upload-data.md)
-
 ## [Abrufen von Finanzverhältnissen auf meinem mobilen Gerät](install-mobile-app.md)
-
 ## [Nutzen Sie des Unternehmenspostfach in Outlook](madeira-outlook.md)
-
 ## [Verwenden von Financials ohne Outlook](madeira-no-outlook.md)
-
 ## [Führen Ihrer Geschäftsdaten für Power BI](madeira-powerbi.md)
-
+## [Financials in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)
+## [Financials als Power BI Datenquelle nutzen](across-how-use-financials-data-source-powerbi.md)
+## [Verknüpfung an Ihre Finanzdaten, um eine Geschäfts-App mithilfe PowerApps zu erstellen](across-how-use-financials-data-source-powerapps.md)
+## [Massenrechnungen für Microsoft-Anmeldungen](finance-bookings.md)
 ## [Anpassen von Financials mithilfe der Erweiterungen](ui-extensions.md)
 
-
 # Tipps und Tricks
-
 ## [Arbeiten mit Financials](ui-work-product.md)
-
-## [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)
-
 ## [Seite oder Bericht suchen verwenden](ui-search.md)
-
 ## [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)
-
 ## [So gehts: Ändern des Rollencenters](change-role.md)
-
 ## [Anpassen von Financials Experience](ui-experiences.md)
-
 ## [Angeben der Druckerauswahl für Berichte](ui-specify-printer-selection-reports.md)
-
 ## [Videos in häufigen Aufgaben](across-videos.md)
-
+## [Überblick über Geschäfts-Funktionalität](madeira-business-functionality.md)
+## [Überblick über Lieferketten-Funktionalität](madeira-supply-chain.md)
 
 # [Financials einrichten](setup.md)
-
 ## [Finance einrichten](finance-setup-finance.md)
-
-### [Zahlungsformen](finance-payment-methods.md)
-
+### [Zahlungsformen definieren](finance-payment-methods.md)
+### [Buchungsgruppen einrichten](finance-posting-groups.md)
 ### [So geht's: Ein neues Geschäftsjahr eröffnen](finance-how-open-new-fiscal-year.md)
-
-### [Vorgehensweise: Regulieren von Währungswechselkursen](finance-how-update-currencies.md)
-
-### [Einrichtung von Dimensionen](finance-setup-dimensions.md)
-
+### [Mehrwertsteuer einrichten](finance-how-report-vat.md)
+### [Vorgehensweise: Aktualisieren von Währungswechselkursen](finance-how-update-currencies.md)
 ### [Einrichten des Kontenplans](finance-setup-chart-accounts.md)
-
 ### [Aufstellungs-Cashflow-Analyse](finance-setup-cash-flow-analyses.md)
-
 ## [Einrichten von Banken](bank-setup-banking.md)
-
 ### [So geht's: Bankkonten einrichten](bank-how-setup-bank-accounts.md)
-
 ### [Gewusst wie: Einrichten des Envestnet Yodlee Bank-Feed-Service](bank-how-setup-bank-statement-service.md)
-
 ### [Gewusst wie: Einrichten des Bankdatenkonvertierungsservice](bank-how-setup-bank-data-conversion-service.md)
-
 ## [Einrichten von Verkäufen](sales-setup-sales.md)
-
 ### [Vorgehensweise: Einen neuen Debitor registrieren](sales-how-register-new-customers.md)
-
 ### [Gewusst wie: Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
-
 ### [Gewusst wie: Besondere Verkaufspreise und Rabatte aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md)
-
-### [Erweitert: Beste Preiskalkulation](advanced-best-price-calculation.md)
-
 ### [Gewusst wie: Verkäufer einrichten](sales-how-setup-salespeople.md)
-
 ### [Vorgehensweise: Einrichten von Belegsendeprofilen](sales-how-setup-document-send-profiles.md)
-
 ### [Gewusst wie: Senden von Belegen über E-Mail](ui-how-send-documents-email.md)
-
 ## [Einkaufeinrichten](purchasing-setup-purchasing.md)
-
 ### [Vorgehensweise: Einen neuen Kreditor registrieren](purchasing-how-register-new-vendors.md)
-
 ### [Gewusst wie: Besondere Verkaufspreise und Rabatte aufzeichnen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
-
-### [Erweitert: Beste Preiskalkulation](advanced-best-price-calculation.md)
-
 ### [Vorgehensweise: Priorisieren von Kreditoren](purchasing-how-prioritize-vendors.md)
-
 ### [Vorgehensweise: Einrichten von Einkäufern](purchasing-how-setup-purchasers.md)
-
 ## [Bestand einrichten](inventory-setup-inventory.md)
-
 ### [So geht's: Allgemeine Lagerbestandsinformationen einrichten](inventory-how-setup-general.md)
-
 ### [So wird's gemacht: Standorte einrichten](inventory-how-setup-locations.md)
-
-### [Vorgehensweise: Ein neues Produkt registrieren](inventory-how-register-new-items.md)
-
+### [Vorgehensweise: Einen neuen Artikel registrieren](inventory-how-register-new-items.md)
 ### [So geht's: Artikel kategorisieren](inventory-how-categorize-items.md)
-
 ## [Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)
-
 ### [Vorgehensweise: Ressourcen einrichten](projects-how-setup-resources.md)
-
 ### [Gewusst wie: Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md)
-
 ### [So wird's gemacht: Projekte einrichten](projects-how-setup-jobs.md)
-
 ## [Anlagen einrichten](fa-setup.md)
-
 ### [So geht's: Allgemeine Anlagen-Informationen einrichten](fa-how-setup-general.md)
-
 ### [So geht's: Einrichten der Anlagen-AfA](fa-how-setup-depreciation.md)
-
 ### [So geht's: Einrichten der Anlagenversicherung](fa-how-setup-insurance.md)
-
 ### [So geht's: Einrichten der Anlagenwartung](fa-how-setup-maintenance.md)
-
 ### [Abschreibungsmethoden](fa-depreciation-methods.md)
-
 ## [Gewusst wie: Einrichten von E-Mails](madeira-how-setup-email.md)
-
 ## [Erstellen von Nummernkreisen](ui-create-number-series.md)
-
 ## [So wird's gemacht: Textbausteine anlegen](ui-how-define-ext-text.md)
-
 ## [Mehrwertsteuer einrichten](finance-setup-vat.md)
 
-
 # [Finanzen](finance.md)
-
 ## [Verwalten von Forderungen](receivables-manage-receivables.md)
-
 ###[Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
 ### [Gewusst wie: Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-
-### [Vorgehensweise: Manuelle Abstimmung vom Zahlungen](receivables-how-apply-sales-transactions-manually.md)
-  
+### [Vorgehensweise: Manuelle Abstimmung vom Zahlungen](receivables-how-apply-sales-transactions-manually.md)  
 ### [Vorgehensweise: Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)
-
+### [Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md)
 ## [Verwalten von Verbindlichkeiten|](payables-manage-payables.md)
-
 ### [Zahlungen vornehmen](payables-make-payments.md)
-
 ### [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
 ### [Vorgehensweise: Manuelle Abstimmung von Debitorenzahlungen](payables-how-apply-purchase-transactions-manually.md)
-
+### [Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md)
 ## [Verwalten von Bankkonten](bank-manage-bank-accounts.md)
-
 ### [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-### [Gewusst wie: Bankkonten separat abstimmen](bank-how-reconcile-bank-accounts-separately.md)
-  
+### [Gewusst wie: Bankkonten separat abstimmen](bank-how-reconcile-bank-accounts-separately.md)  
 ### [Gewusst wie: Bank-Geldmittel überweisen](bank-how-transfer-bank-funds.md)
-
+## [Buchhalter-Erfahrung in ](finance-accounting.md)
+### [Externen Buchhalter einladen zu Ihrem ](finance-invite-external-accountant.md)  
+### [Buchhaltungsportalerweiterung](ui-extensions-accountant-portal.md)  
+## [Verständnis der Fibu und des COA](finance-general-ledger.md)
+## [Arbeiten mit Dimensionen](finance-dimensions.md)
+## [So wird's gemacht: neue Budgets erzeugen](finance-how-create-budgets.md)
+## [Vorgehensweise: Transaktionen direkt in die Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md)
+## [So geht's: Buch.-Blatt-Buchungen stornieren](finance-how-reverse-journal-posting.md)
+## [Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md)
+## [Gewusst wie: Einnahmen und Ausgaben zurückstellen](finance-how-defer-revenue-expenses.md)
+## [Vorgehensweise: Lohntransaktion importieren](finance-how-import-payroll-transactions.md)
+## [So gehts: Melden von MwSt. an die Steuerbehörden](finance-how-report-vat.md)
+## [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)
 ## [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)
-
 ### [So geht's: Buchhaltungsperioden festlegen](finance-how-specify-posting-periods.md)
-
 ### [Schließen der Perioden](year-how-complete-period-end-processes.md)
-
 ### [Vorgehensweise: Aktualisieren von Währungswechselkursen](finance-how-update-currencies.md)
-
-### [Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)
-
+### [Erklärt, wie Kosten und Einnahmen zugewiesen werden.](year-allocate-costs-income.md)
+### [So gehts: Melden von MwSt. an die Steuerbehörden](finance-how-report-vat.md)
 ### [Vorabschlussberichte vorbereiten](year-prepare-preclose-reports.md)
-
 ### [Schließen der Bücher](year-close-books.md)
-
 ### [Abschlussberichte vorbereiten](year-prepare-close-statement.md)
 
-## [Arbeiten mit Dimensionen](finance-dimensions.md)
-
-## [Arbeiten mit Kontenschemata](finance-account-schedule.md)
-
-## [1099-Transaktionen in den USA melden](us-finance-tax-1099.md)
-
-## [Finance einrichten](us-finance-sales-tax.md)
-
-## [Verkaufssteuer sowie Steuern auf Waren und Dienstleistungen in Kanada](ca-finance-tax.md)
-
-## [So gehts: Arbeiten mit GIFI-Codes in Kanada](ca-finance-work-gifi-codes.md)
-
+# [Business Intelligence](bi.md)
+## [Vorgehensweise: Tatsächlichen Beträge mit den budgetierten Beträgen analysieren](bi-how-analyze-actual-versus-budget.md)
+## [Vorgehensweise: Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)
+## [Vorgehensweise: Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)
+## [Vorgehensweise. Erstellen neuer Vertriebsanalyseberichte](bi-how-create-analysis-views-reports.md)
 
 # [Verkauf](sales-manage-sales.md)
-
 ## [Vorgehensweise: Machen Sie ein Angebot](sales-how-make-offers.md)
-
 ## [Vorgehensweise: Fakturieren](sales-how-invoice-sales.md)
-
 ## [Gewusst wie: Produkte verkaufen](sales-how-sell-products.md)
-
+## [Vorgehensweise: Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md)
 ## [So geht's: Direktlieferungen erstellen](sales-how-drop-shipment.md)
-
 ## [Vorgehensweise: Ändern oder Löschen einer unbezahlten Verkaufsrechnung](sales-how-correct-cancel-sales-invoice.md)
-
-## [Vorgehensweise: Ändern oder Löschen von unbezahlten Verkaufsrechnungen](sales-how-correct-cancel-sales-invoice.md)
-
 ## [Vorgehensweise: Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen](sales-how-process-sales-returns-cancellations.md)
-
 ## [Vorgehensweise: Einen neuen Debitor registrieren](sales-how-register-new-customers.md)
 
-
 # [Einkauf](purchasing-manage-purchasing.md)
-
 ## [Vorgehensweise: Erfassen eines Einkaufs](purchasing-how-record-purchases.md)
-
 ## [Vorgehensweise: Einkauf von Produkten für einen Verkauf](purchasing-how-purchase-products-sale.md)
-
 ## [Vorgehensweise: Ändern oder Löschen einer unbezahlten Einkaufsrechnung](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
-
 ## [Vorgehensweise: Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen](purchasing-how-process-purchase-returns-cancellations.md)
-
 ## [Vorgehensweise: Einen neuen Kreditor registrieren](purchasing-how-register-new-vendors.md)
 
-
 # [Lagerbesttand](inventory-manage-inventory.md)
-
 ## [Vorgehensweise: Einen neuen Artikel registrieren](inventory-how-register-new-items.md)
-
 ## [Vorgehensweise: Arbeiten mit Stücklisten](inventory-how-work-BOMs.md)
-
 ## [So geht's: Artikel kategorisieren](inventory-how-categorize-items.md)
-
 ## [Gewusst wie: Arbeiten mit Artikelattributen](inventory-how-work-item-attributes.md)
-
 ## [So geht's: Arbeiten mit Katalogartikeln](inventory-how-work-nonstock-items.md)
-
-## [Vorgehensweise: Anpassen des Bestands](inventory-how-adjust-inventory.md)
-
-## [Vorgehensweise: Verschaffen Sie sich einen Überblick über die Verfügbarkeit](inventory-how-availability-overview.md)
-
+## [Vorgehensweise. Erfassen, Regulieren und Umbuchen von Lagerbestand](inventory-how-count-adjust-reclassify.md)
+## [Vorgehensweise: Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
 ## [So geht's: Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)
-
 ## [Vorgehensweise: Neubewerten von Lagerbestand](inventory-how-revalue-inventory.md)
-
 ## [Gewusst wie: Artikelpreise anpassen](inventory-how-adjust-item-costs.md)
 
-## [Erweiterte: Bestandabgleich](advanced-inventory-reconciliation.md)
-
-
 # [Relationship Management](marketing-relationship-management.md)
-
 ## [Marketing & Vertrieb einrichten](marketing-setup-marketing.md)
-
 ## [Kontakte verwalten](marketing-contacts.md)
-
 ## [Verwalten von Segmenten](marketing-segments.md)
-
 ## [Aktivitäten aufzeichnen](marketing-interactions.md)
-
 ## [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)
-
 ## [Verwalten Ihrer Debitoren-Verhältnisse mithilfe von Dynamics 365 for Sales in Financials](marketing-integrate-dynamicscrm.md)
 
-
 # [Projektmanagement](projects-manage-projects.md)
-
 ## [So wird's gemacht: Projekt erstellen](projects-how-create-jobs.md)
-
 ## [Gewusst wie: Verwenden von Ressourcen für Projekte](projects-how-use-resources.md)
-
 ## [Gewusst wie: Verwenden von Arbeitszeittabellen für Projekte](projects-how-use-time-sheets.md)
-
 ## [Vorgehensweise: Verwalten von Projektbudgets](projects-how-manage-budgets.md)
-
 ## [Vorgehensweise: Verbrauch bei Projekten aufzeichnen](projects-how-record-job-usage.md)
-
 ## [Vorgehensweise: Verwalten von Projektlieferungen](projects-how-manage-project-supplies.md)
-
 ## [Verständnis - WIP-Methoden](projects-understanding-wip.md)
-
 ## [Vorgehensweise: Überwachen des Projektfortschritts und der Leistung](projects-how-monitor-progress-performance.md)
-
 ## [Vorgehensweise: Fakturieren](projects-how-invoice-jobs.md)
 
-
 # [Anlagen](fa-manage.md)
-
 ## [So geht's: Beschaffen von Anlagen](fa-how-acquire.md)
-
 ## [So geht's: Anlagen aktualisieren](fa-how-maintain.md)
-
 ## [So geht's: Versichern von Anlagen](fa-how-insure.md)
-
 ## [So geht's: Übertragen, Teilen oder Kombinieren von Anlagen.](fa-how-trans-split-combine.md)
-
 ## [So geht's: Anlagen neu bewerten](fa-how-revalue.md)
-
 ## [So geht's: Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md)
-
 ## [So geht's: Anlagen entsorgen oder außer Dienst stellen](fa-how-dispose-retire.md)
-
 ## [So geht's: Budgets für Anlagen verwalten](fa-how-manage-budgets.md)
 
-
 # [Personalwesen](hr-manage-human-resources.md)
-
 ## [Vorgehensweise: Mitarbeiter erfassen](hr-how-register-employees.md)
 
-
 # Allgemeine Geschäftsfunktionen
-
 ## [Gewusst wie: Senden von Belegen über E-Mail](ui-how-send-documents-email.md)
-
 ## [Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)
-
 ## [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
-
-## [Vorgehensweise: Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern](ui-how-use-allocation-keys-general-journals.md)
-
 ## [Planen der Ausführung eines Berichts](ui-schedule-report.md)
-
 ## [Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen](ui-how-users-permissions.md)
-
 ## [Protokollieren von Änderungen in Financials](across-log-changes.md)
-
-## [Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen](ui-how-users-permissions.md)
-
 ## [Erstellen von Nummernkreisen](ui-create-number-series.md)
-
 ## [Gewusst wie. Genehmigungsworkflow verwenden](across-how-use-approval-workflows.md)
-
 ## [Eingehende Belege](across-income-documents.md)
-
 ### [Gewusst wie: Eingehende Dokumente einrichten](across-how-setup-income-documents.md)
-
 ### [Eingehende Dokumente verarbeiten](across-process-income-documents.md)
-
-
-# Erweiterte - Weitere Informationen
-
-## [Erweitert: Beste Preiskalkulation](advanced-best-price-calculation.md)
-
-## [Erweiterte: Bestandabgleich](advanced-inventory-reconciliation.md)
-

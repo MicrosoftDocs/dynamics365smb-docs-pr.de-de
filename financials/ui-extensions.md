@@ -1,7 +1,6 @@
 ---
-title: Anpassen Ihres Dynamics 365 for Financials Benutzererweiterung| Microsoft Docs
-description: Anpassen Ihres Dynamics 365 for Financials Benutzererweiterung
-services: project-madeira
+title: Erweiterungen installieren um Dynamics 365 for Financials anzupassen | Microsoft Docs
+description: "Informationen zum Hinzufügen von Funktionalität und Anpassungen für Dynamics 365 for Financials erhalten durch die Installation von Erweiterungen."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,19 +8,18 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/24/2017
+ms.search.keywords: app, add-in, manifest, customize
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1de01d9944489f862dfc6db145c1542c3d0dd2e3
+ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
+ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Anpassen Ihres Dynamics 365 for Financials Benutzererweiterung
-<a id="customizing-dynamics-365-for-financials-using-extensions" class="xliff"></a>
+# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Anpassen Ihres Dynamics 365 for Financials Benutzererweiterung
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] ändern, indem Sie beispielsweise Erweiterungen installieren, die Funktionalität hinzufügen, das Verhalten ändern oder Zugriff auf die neuen Onlinediensten geben.
 Wenn Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)] zuerst starten, werden bestimmte Erweiterungen bereits eingerichtet. Im Zeitverlauf werden mehr Erweiterungen für Sie zugänglich und Sie können auswählen, ob Sie die Erweiterung verwenden möchten oder nicht.
 
@@ -30,14 +28,15 @@ Wenn aber keine andere Erweiterung bereitgestellt wird, die die Integration mit 
 
 Sie verwalten die Erweiterung des **Erweiterungs-Verwaltungs**-Fenster. Sie können vom Startbildschirm auf dieses Fenster zugreifen. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **Erweiterung** ein und wählen Sie dann den entsprechenden Link aus.  
 
-**Hinweis**: Wenn Sie der Meinung sind, Sie sollten Zugriff zu einer Erweiterung haben, können die Funktionalität aber nicht finden, überprüfen Sie das Fenster **Erweiterungsverwaltung**, wenn die Erweiterung dort nicht aufgeführt wird, können Sie sie einrichten, wie im folgenden Abschnitt erläutert.  
+> [!NOTE]  
+>   Wenn Sie der Meinung sind, Sie sollten Zugriff zu einer Erweiterung haben, können die Funktionalität aber nicht finden, überprüfen Sie das Fenster **Erweiterungsverwaltung**, wenn die Erweiterung dort nicht aufgeführt wird, können Sie sie einrichten, wie im folgenden Abschnitt erläutert.  
 
-## Eine Erweiterung wird installiert
-<a id="installing-an-extension" class="xliff"></a>
-Sie können neue Erweiterungen vom Marketplace auf [AppSource.microsoft.com](https://appsource.microsoft.com/) abrufen. Hier können Sie alle verfügbaren Erweiterungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] anzeigen und Apps, Erweiterungen und Inhaltspakete für andere Microsoft-Produkte abrufen. Legen Sie die gewünschten Filter fest, werfen Sie einen Blick auf die Informationen für jede Erweiterung, und rufen Sie eine Erweiterung für Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] ab.  
-**Hinweis:** Melden Sie sich auf [AppSource.microsoft.com](https://appsource.microsoft.com/) über Ihr E-Mail- Konto an, das Sie für [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden. Verwenden Sie dasselbe E-Mail-Konto für andere Produkte und Dienste für eine reibungslose Nutzung.  
+## <a name="installing-an-extension"></a>Eine Erweiterung wird installiert
+Sie können neue Erweiterungen vom Marketplace auf [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) abrufen. Hier können Sie alle verfügbaren Erweiterungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] anzeigen und Apps, Erweiterungen und Inhaltspakete für andere Microsoft-Produkte abrufen. Legen Sie die gewünschten Filter fest, werfen Sie einen Blick auf die Informationen für jede Erweiterung, und rufen Sie eine Erweiterung für Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] ab.  
+> [!NOTE]  
+>   Melden Sie sich auf [AppSource.microsoft.com](https://appsource.microsoft.com/)über Ihr E-Mail- Konto an, das Sie für [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden. Verwenden Sie dasselbe E-Mail-Konto für andere Produkte und Dienste für eine reibungslose Nutzung.  
 
-Sie können auch auf den Marketplace aus [!INCLUDE[d365fin](includes/d365fin_md.md)]zugreifen. Im Fenster **Erweiterungsverwaltung** können Sie die Erweiterungen sehen, die zur Zeit installiert sind, und Sie können die Seite **Marketplace für Erweiterungen** öffnen, die die [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen anzeigen, die aktuell über die AppSource verfügbar sind. Wenn Sie den Link *Weitere Apps* auswählen, werden Sie auf [AppSource.microsoft.com](https://appsource.microsoft.com/) weitergeleitet.  
+Sie können auch auf den Marketplace aus [!INCLUDE[d365fin](includes/d365fin_md.md)]zugreifen. Im Fenster **Erweiterungsverwaltung** können Sie die Erweiterungen sehen, die zur Zeit installiert sind, und Sie können die Seite **Marketplace für Erweiterungen** öffnen, die die [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen anzeigen, die aktuell über die AppSource verfügbar sind. Wenn Sie den Link *Weitere Apps* auswählen, werden Sie auf [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) weitergeleitet.  
 
 Wenn Sie eine Erweiterung auswählen, können Sie erfahren, was die Erweiterung ausführt, und auf die Hilfe für die Erweiterung zugreifen, um mehr darüber zu erfahren. Wenn Sie eine Erweiterung erhalten möchten, müssen Sie die Nutzungsbedingungen zustimmen. Wenn Sie Erweiterungen von der AppSource-Website abrufen, werden Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] angemeldet, um die Installation abzuschließen.  
 
@@ -59,14 +58,20 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 * [Import von QuickBooks-Lohndatei](ui-extensions-quickbooks-payroll.md)  
 * [WorldPay Zahlungsstandard](ui-extensions-worldpay-payments-standard.md)
 * [GetAddress.io Postleitzahlen Großbritannien](ui-extensions-getaddressio.md)
+* [QuickBooks Onlin Datenmigration](ui-extensions-quickbooks-online-data-migration.md)
+* [Buchhaltungsportal](ui-extensions-accountant-portal.md)  
+* [Schliffbildanalysator](ui-extensions-image-analyzer.md)
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+> [!NOTE]  
+>  Neue Erweiterungen sind nicht in AppSource verfügbar, sofort nachdem wird ein ankündigen aktualisieren. Sie können die Erweiterung [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) im Auge behalten.
+
+## <a name="see-also"></a>Siehe auch
 [Gewusst wie: Einrichten des Envestnet Yodlee Bank-Feed-Service](bank-how-setup-bank-statement-service.md)  
 [Gewusst wie: Aktivieren von Debitoren-Zahlungen durch Paypal](sales-how-enable-payment-service-extensions.md)  
 [Geschäftsdaten aus anderen Finanzsystemen migrieren](upload-data.md)  
 [Einrichten der britischen Postleitzahlerweiterung GetAddress.io](uk-setup-postal-code-service.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen durch andere Anbieter] (ui-extensions-other.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]Erweiterungen für andere Anbieter](ui-extensions-other.md)E  
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -1,6 +1,6 @@
 ---
-title: Einrichten von Financials | Microsoft Docs
-description: Financials einrichten
+title: "Überblick der Aufgaben zum Einrichten von Dynamics 365 for Financials | Microsoft Docs"
+description: Definiert Aufgaben zum, initialisieren und konfigurieren in Dynamics 365 for Financials, um Ihren Anforderungen zu entsprechen.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5be24b9017b105adc6c857655c8de63d67b6aa29
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Dynamics 365 for Financials einrichten
-<a id="setting-up-dynamics-365-for-financials" class="xliff"></a>
+# <a name="setting-up-dynamics-365-for-financials"></a>Dynamics 365 for Financials einrichten
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen.
 
 Wir haben einige Firmendaten für Sie erstellt, beispielsweise Ihren Kontenplan mit Kontensummen vorausgefüllt, die zur Verwendung bereit sind. Sie können den Kontenplan selbstverständlich ändern und Ihren persönlichen Anforderungen anzupassen. Weitere Informationen finden Sie unter [Finanzen](finance.md).
@@ -41,9 +40,9 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 | Konfiguriert, wie Anlagen versichert, verwaltet und abgeschrieben werden und wie Sie die Kosten aus Anlagen in Ihren Mandantenbüchern erfassen. |[Anlagen einrichten](fa-setup.md) |
 | Richtet eindeutige Identifizierungscodes für Datensätze, wie Karten, Belege und Buch.-Blattzeilen ein, um sie im System zu verfolgen. |[Erstellen von Nummernkreisen](ui-create-number-series.md) |
 | Richtet das Fenster **SMTP-Mail-Einrichtung** ein, um E-Mails von Dokumenten innerhalb von zu [!INCLUDE[d365fin](includes/d365fin_md.md)]senden und zu erhalten. |[Gewusst wie: Einrichten von E-Mails](madeira-how-setup-email.md) |
+| Richten Sie eindeutige Identifizierungscodes ein. |[Erstellen von Nummernkreisen](ui-create-number-series.md) |
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

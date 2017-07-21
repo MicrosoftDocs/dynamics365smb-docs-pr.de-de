@@ -20,15 +20,14 @@ ms.lasthandoff: 06/26/2017
 
 
 ---
-# Projektmanagement
-<a id="project-management" class="xliff"></a>
+# <a name="project-management"></a>Projektmanagement
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie allgemeine Projektmanagement-Verwaltungsaufgaben ausführen, wie Konfigurieren eines Projekts und Planen einer Ressource sowie Bereitstellung der Informationen, die benötigt werden, um Budgets zu verwalten und den Status zu überwachen. Sie können Computer- und Mitarbeiterstunden für das Projekt verfolgen, indem Sie Arbeitszeittabellen verwenden. Als Projektmanager haben Sie einen guten Überblick, nicht nur über einzelnen Projekte, sondern auch über die Verteilung der Mitarbeiter, der Maschinen und anderer Ressourcen, die in allen Projekten verwendet werden.
 
 Bevor Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten. Weitere Informationen finden Sie unter [Projektmanagement einrichten](projects-setup-projects.md).  
 
-**Hinweis**: Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] (ui-experiences.md) anpassen].
+**Hinweis**: Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
+Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
 
 | Aktion | Siehe |
 | --- | --- |
@@ -42,10 +41,9 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Buchen Sie den Materialverbrauch, Ressourcen und andere Aufwendungen im Umlaufbestand (WIP), um den Finanzwert zu überwachen und die richtige Finanzauswertungen beizubehalten, wenn Sie Projektausgaben buchen. |[Vorgehensweise: Überwachen des Projektfortschritts und der Leistung](projects-how-monitor-progress-performance.md) |
 | Erfassen von Projektkosten für den Ressourcenverbrauch, Material oder projektbezogene Einkäufe auf laufender Basis und Rechnungsstellung an den Kunden, entweder wenn das Projekt beendet ist oder entsprechend dem Fakturierungsplan. |[Vorgehensweise: Fakturieren](projects-how-invoice-jobs.md) |
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)  
-[Die Benutzeroberfläche [!INCLUDE[d365fin](includes/d365fin_md.md)] anpassen](ui-experiences.md)      
+[Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)      
 [Einkauf](purchasing-manage-purchasing.md)         
 [Verkauf](sales-manage-sales.md)    
 [Finanzen](finance.md)  

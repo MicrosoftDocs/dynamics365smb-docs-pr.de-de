@@ -1,6 +1,6 @@
 ---
 title: "Erstellen eines Kreditors, Debitors oder Bankkontos über einen Kontakt | Microsoft Docs"
-description: "Beschreibt das Erstellen eines Kreditors, Debitors oder Bankkontos über einen Kontakt in Financials"
+description: "Sie können einen bestehenden Kontakt als Debitor, Kreditor oder Bankkonto mithilfe der vorhandenen Daten und angeben Geschäftsbeziehung erfassen."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,33 +10,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 02/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6ecbc24e447917e6316b0579fa8c3ee046e73915
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 142c1649438ad31b604767d6b6f35a1caeb3f9e4
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Erstellen eines Kreditors, Debitors oder Bankkontos über einen Kontakt
-<a id="create-a-customer-vendor-or-bank-account-from-a-contact" class="xliff"></a>
+# <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a>Vorgehensweise: So erstellen Sie einen Kontakt aus einem Debitor, Kreditor oder Bankkonto
 Sie können vorhandene Kontakte als Debitoren, Kreditoren oder als Bankkonten erfassen. Beim Erstellen eines Kreditors, Debitors oder Bankkontos aus einem Kontakt können Sie vorhandene Daten verwenden. Wenn Sie einen Debitor, Kreditor oder ein Bankkonto auf diese Weise erstellen, wird es mit dem Kontakt synchronisiert Die Synchronisierung macht Informationen, die zwischen Kontakten und Debitoren, Kreditoren oder Bankkonto gleich sind, identisch.
 
 **Hinweis**: Bevor Sie auf diese Weise ein erfassen können, müssen Sie einen Geschäftsbeziehungscode für Debitoren, Kreditoren und Bankkonten im Fenster Marketingeinrichtung angeben. Wenn Sie Kontakte als Bankkonten erfassen, müssen Sie Nummernserie für Bankkonten im **Finanzbuchhaltungseinrichtung**-Fenster angeben.
 
-## So erstellen Sie einen Kontakt als Debitor, Kreditor oder Bankkonto
-<a id="to-create-a-contact-as-a-customer-vendor-or-bank-account" class="xliff"></a>
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link aus.
+## <a name="to-create-a-contact-as-a-customer-vendor-or-bank-account"></a>So erstellen Sie einen Kontakt als Debitor, Kreditor oder Bankkonto
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie den Kontakt aus, den Sie als Debitor, Kreditor oder Bankkonto erstellen möchten.
 3. Wählen Sie die Aktionen **Erstellen als**, und wählen Sie denn entweder **Debitor**, **Kreditor** oder **Bank**.
 4. Bestätigen Sie die nachfolgende Meldung.
 
 Die Kontaktinformationen werden von der Karte **Kontakt** auf die Karte **Bankkonto**, die Karte **Debitor** oder die Karte **Kreditor** übertragen. Sie können den einzelnen Karten spezifische Informationen, wie Fakturierungs- und Zahlungsdetails hinzufügen.
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Gewusst wie: Erstellen von neuen Kontaktunternehmen](marketing-create-contact-companies.md)  
 [Gewusst wie: Anlegen von Kontaktpersonen](marketing-create-contact-persons.md)  
 [Marketing & Vertrieb einrichten](marketing-setup-marketing.md)  

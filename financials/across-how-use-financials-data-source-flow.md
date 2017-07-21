@@ -1,6 +1,6 @@
 ---
-title: Nutzung Ihres Dynamics 365 for Financials in Microsoft Flow | Microsoft Docs
-description: "Sie können die Finanzdaten als Datenquelle in PowerApps bereitstellen."
+title: Daten mithilfe von Flow verbinden| Microsoft Docs
+description: "Sie können Ihre Finanzdaten als Datenquelle zur Verfügung stellen und eine OData-URL Ihrer Webdienste festlegen, um eine Geschäfts-App mithilfe einem automatisierten Workflow erstellen."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,24 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 03/15/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 76d24ed80adb08083c6167040be8cc6a4bcc3167
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 277dda7c954380138af1ecabc02d77121f35aac7
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Nutzung Ihres Dynamics 365 for Financials in Microsoft Flow
-<a id="using-dynamics-365-for-financials-in-microsoft-flow" class="xliff"></a>
+# <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in einem automatisierten Workflow nutzen
 Sie können die Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Teil eines Workflows in Microsoft-Flow verwenden.  
 
-**Hinweis**: Sie müssen ein gültiges Konto mit [!INCLUDE[d365fin](includes/d365fin_md.md)] und Flow haben.  
+> [!NOTE]  
+>   Sie müssen ein gültiges Konto mit [!INCLUDE[d365fin](includes/d365fin_md.md)] und Flow haben.  
 
-## Um [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquelle in Flow hinzufügen
-<a id="to-add-included365finincludesd365finmdmd-as-a-data-source-in-flow" class="xliff"></a>
+## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-flow"></a>Um [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquelle in Flow hinzufügen
 1. In Ihrem Browser navigieren Sie zu [flow.microsoft.com](https://flow.microsoft.com/en-us/) und melden sich dann an.
 2. Wählen Sie **My Flows** im Menüband oben auf der Seite.
 3. Im Fenster **My Flows** wählen Sie die Option **Aus Leer erstellen** aus.
@@ -47,11 +46,10 @@ Sie können die Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Teil ei
 
 Zu diesem Zeitpunkt haben Sie erfolgreich Ihre Dynamics 365 Daten verbunden und sind bereit, Ihren Flow zu bauen. Weitere Informationen finden Sie in der [Flow Dokumentation](https://flow.microsoft.com/documentation/getting-started/).
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Geschäftsdaten aus anderen Finanzsystemen importieren](upload-data.md)  
+[Geschäftsdaten aus anderen Finanzsystemen migrieren](upload-data.md)  
 [Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen](ui-how-users-permissions.md)    
-[Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzen](finance.md)  
 

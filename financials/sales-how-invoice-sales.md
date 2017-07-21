@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Verkaufsrechnungen erstellen| Microsoft Docs'
-description: Beschreibt, wie Verkaufsrechnungen verwendet werden.
+title: Verkaufsangebote erstellen| Microsoft Docs
+description: Beschreibt, wie Sie einen Verkaufsauftrag erstellen, einen Vertrag mit einem Kunden erfassen, Produkte unter bestimmten Bedingungen verkaufen oder kaufen.
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,22 +8,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale
+ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e9fbf7b6599c4136a4077f199feb8f2f00d3a959
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Vorgehensweise: Fakturieren
-<a id="how-to-invoice-sales" class="xliff"></a>
+# <a name="how-to-invoice-sales"></a>Vorgehensweise: Fakturieren
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Kunden zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.  
 
-**Hinweis:** Es gibt mehrere Szenarien, in dem Sie einen Verkaufsauftrag anstelle einer Verkaufsrechnung verwenden müssen:  
+> [!NOTE]  
+>   Es gibt mehrere Szenarien, in dem Sie einen Verkaufsauftrag anstelle einer Verkaufsrechnung verwenden müssen:  
 
 * Wenn Sie nur einen Teil einer Bestellmenge liefern müssen, da z. B. die gesamte Menge nicht verfügbar ist.  
 * Wenn Sie Artikel verkaufen, die Ihr Kreditor direkt an den Debitor liefert, d. h. bei einer sogenannten Direktlieferung. Weitere Informationen finden Sie unter [So geht's: Direktlieferungen erstellen](sales-how-drop-shipment.md)  
@@ -42,8 +42,7 @@ Artikel können Artikel und Dienstleistungen sein, gekennzeichnet als **Artikel 
 
 Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist. Siehe Schritt 2 und 3 im folgenden Verfahren.
 
-## So erstellen Sie eine Verkaufsrechnung
-<a id="to-create-a-sales-invoice" class="xliff"></a>
+## <a name="to-create-a-sales-invoice"></a>So erstellen Sie eine Verkaufsrechnung
 1. Auf der Seite Homepage wählen Sie die Aktion **Verkaufsrechung** aus.  
 2. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 
@@ -68,7 +67,8 @@ Wenn Sie wiederkehrende Verkaufszeilen für den Debitor wie einen Monatsersatzau
 
 11. Geben Sie im Feld **Menge** ein, wie viele Einheiten des Produkts, der Kosten oder der Transaktion, in der Zeile des Debitors gespeichert werden soll.  
 
-    **Hinweis**: Für Artikel des Typs **Artikel - Service** oder **Ressource** ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Einheit des Messcodes** der Zeile angegeben.  
+    > [!NOTE]  
+>   Für Artikel des Typs **Artikel - Service** oder **Ressource** ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Einheit des Messcodes** der Zeile angegeben.  
 
     Der Wert im Feld **Zeilenbetrag** Feld wird als *VK-Preis* x *Menge* berechnet.  
 
@@ -88,11 +88,11 @@ Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode
 
 Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst erstellt, und die Verkaufsrechnung wird als PDF-Dokument ausgegeben. Die Verkaufsrechnung wird in der Liste der gebuchten Verkaufsrechnungen entfernt und durch einen neuen Beleg in der Liste der gebuchten Verkaufsrechnungen ersetzt.
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Lagerbesttand](inventory-manage-inventory.md)  
+[Lagerbest](inventory-manage-inventory.md)  
 [Gewusst wie: Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
+[Massenrechnungsstellung von Microsoft-Bookings in Dynamics 365 for Financials](finance-bookings.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

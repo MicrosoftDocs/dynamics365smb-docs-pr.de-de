@@ -1,8 +1,6 @@
 ---
-title: Dynamics 365 for Financials als Power BI Datenquelle nutzen | Microsoft Docs
+title: Eine Power BI Datenquelle mit Financials erstellen| Microsoft Docs
 description: "Sie können Ihre Finanzverhältnisdaten zur Verfügung stellen als Datenquelle in Power BI und leistungsstarke Berichte über den Zustand des Geschäftes erstellen."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,24 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 12/02/2016
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5213b515dfdf1f0e538a6d003cf921781ca6b3ff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 53fb2ae7bbbaf3215ca2549e207512f7c06838b4
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# Dynamics 365 for Financials als Power BI Datenquelle nutzen
-<a id="using-dynamics-365-for-financials-as-a-power-bi-data-source" class="xliff"></a>
+# <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI Datenquelle nutzen
 Sie können Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zur Verfügung stellen als Datenquelle in Power BI und leistungsstarke Berichte über den Zustand des Geschäftes erstellen.  
 
-**Hinweis**: Sie müssen ein gültiges Konto mit [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen.  
+> [!NOTE]  
+>   Sie müssen ein gültiges Konto mit  [!INCLUDE[d365fin](includes/d365fin_md.md)]mit Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen.  
 
-## Um [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquelle in Power BI Desktop hinzufügen
-<a id="to-add-included365finincludesd365finmdmd-as-a-data-source-in-power-bi-desktop" class="xliff"></a>
+## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-power-bi-desktop"></a>Um [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquelle in Power BI Desktop hinzufügen
 1. In Power BI Desktop im linken Navigationsbereich, wählen Sie **Daten abrufen** aus.
 2. Im Fenster **Daten abrufen** wählen Sie **Onlinedienste** aus, wählen Sie **Dynamics 365 for Financials** und dann die Schaltfläche **Verbinden** aus.
 
@@ -38,7 +35,8 @@ Sie können Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zur Verfügun
    Für den *Unternehmensname* verwenden Sie den Namen, der im Feld **Name** im Fenster **Firmendaten** in [!INCLUDE[d365fin](includes/d365fin_md.md)] angezeigt wird. Wenn Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] mehrere Unternehmen enthält, wählen Sie den entsprechenden Namen aus der Liste im Fenster **Unternehmen** aus. In beiden Fällen prüfen Sie, ob dem Namen, den Sie im Power BI Assistenten angeben, genau dem Text entspricht, der angezeigt wird in [!INCLUDE[d365fin](includes/d365fin_md.md)], wie z. B. `My Company`
 3. Nachdem Sie die Informationen eingegeben haben, wählen Sie die Schaltfläche OK. Der nächste Schritt im Assistenten ist es, den Benutzernamen und das Kennwort einzugeben.
 
-   **Hinweis**: Wenn es andere Authentifizierungsoptionen gibt, die in der linken Handnavigation verfügbar sind, wählen Sie *Standard* aus.
+   > [!NOTE]  
+>    Wenn es andere Authentifizierungsoptionen gibt, die in der linken Handnavigation verfügbar sind, wählen Sie *Standard* aus.
 4. Geben Sie den Benutzernamen und da Kennwort an. Sie finden diese Informationen im Fenster **Benutzer** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Verwenden Sie **Internet-Tastenkombination** als Ihr Kennwort.
 
    Beispielsweise ist der Benutzername *ADMINISTRATOR* und die Webdiensttastenkombination, die als Passwort dient *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
@@ -48,14 +46,14 @@ Sie können Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zur Verfügun
 6. Geben Sie die Daten an, die Sie Ihrem Datenmodell hinzufügen möchten, und wählen Sie dann die Schaltfläche **Laden** aus.
 7. Wiederholen Sie die vorherigen Schritte, um zusätzliche [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten Ihrem Power BI Datenmodell hinzuzufügen.
 
-   **Hinweis**: Sobald Sie sich erfolgreich verbunden haben mit [!INCLUDE[d365fin](includes/d365fin_md.md)], werden Sie nicht erneut nach OData URL, Benutzername oder Kennwort gefragt.
+   > [!NOTE]  
+>    Sobald Sie sich erfolgreich verbunden haben mit [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Sie nicht erneut nach OData URL, Benutzername oder Kennwort gefragt.
 
 Sobald die Daten geladen sind, erscheinen Sie in der rechten Navigation auf der Seite. Zu diesem Zeitpunkt haben Sie erfolgreich Ihre Dynamics 365 Daten verbunden und sind bereit, Ihren Power BI Bericht zu erstellen. Weitere Informationen finden Sie in der [Power BI Dokumentation](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
-## Siehe auch
-<a id="see-also" class="xliff"></a>
+## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Geschäftsdaten aus anderen Finanzsystemen importieren](upload-data.md)  
-[Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Geschäftsdaten aus anderen Finanzsystemen migrieren](upload-data.md)  
+[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzen](finance.md)  
 
