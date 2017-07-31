@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/14/2017
+ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ec1f03555db4e370bf19da41bcb33e9b1d286f82
 ms.contentlocale: de-de
 ms.lasthandoff: 07/07/2017
-
 
 ---
 #  <a name="how-to-create-analysis-reports"></a>Vorgehensweise. Erstellen neuer Vertriebsanalyseberichte
