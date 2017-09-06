@@ -18,7 +18,6 @@ ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
 ms.contentlocale: de-de
 ms.lasthandoff: 07/07/2017
 
-
 ---
 # <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Vorgehensweise: Ändern, welches Layout zur Zeit in einem Bericht verwendet wird
 Ein Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf ausgewechselt werden können.
@@ -34,8 +33,9 @@ Abhängig von den Layouts, die für einen Bericht verfügbar sind, können Sie e
    * Word (integriert) verwendet im Bericht das integrierte Word-Berichtlayout.
    * Benutzerdefiniert, verwendet ein kundenspezifisches Layout im Bericht.  
      Sie können sehen, welche benutzerdefinierten Layouts für den Bericht in der Infobox verfügbar sind. Falls es keine benutzerdefinierten Layouts für den Bericht gibt, müssen Sie zunächst welche erstellen. Wenn Sie diese Option auswählen, gehen Sie zum folgenden Verfahren, um das benutzerdefinierte Layout anzugeben, die Sie verwenden möchten.
-     > [!NOTE]  
->   Wenn Sie **RDLC (integriert)** oder **Word (integriert)** auswählen und Sie eine Fehlermeldung erhalten, dass der Bericht kein Layout der angegebenen Art hat, müssen Sie eine andere Darstellungsoption auswählen oder ein kundenspezifisches Berichtlayout der Art erstellen, die Sie verwenden möchten.
+
+    > [!NOTE]  
+    >   Wenn Sie **RDLC (integriert)** oder **Word (integriert)** auswählen und Sie eine Fehlermeldung erhalten, dass der Bericht kein Layout der angegebenen Art hat, müssen Sie eine andere Darstellungsoption auswählen oder ein kundenspezifisches Berichtlayout der Art erstellen, die Sie verwenden möchten.
 
 Wenn Sie ein inztegriertes RDLC- oder Word-Berichtslayout ausgewählt haben, ist keine weitere Aktionen erforderlich, und das Layout wird verwendet, wenn der Bericht zum nächsten Mal ausgeführt wird.
 
