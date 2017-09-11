@@ -1,1 +1,1 @@
-Starten Sie eine [kostenlose Testversion!](https://go.microsoft.com/fwlink/?linkid=847861)
+<span data-ttu-id="bdcc7-101">Starten Sie eine [kostenlose Testversion!](https://go.microsoft.com/fwlink/?linkid=847861)</span><span class="sxs-lookup"><span data-stu-id="bdcc7-101">Start a [free trial!](https://go.microsoft.com/fwlink/?linkid=847861)</span></span>

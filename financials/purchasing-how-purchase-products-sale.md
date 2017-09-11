@@ -16,60 +16,59 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2d7eb238395a0b1060668996fbbc3e13d9dd8a94
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-purchase-items-for-a-sale"></a>Vorgehensweise: Einkauf von Produkten für einen Verkauf
-Bei Verkaufsaufträgen aus der Verkaufsrechnungen können Sie Funktionen verwenden, um für Einkaufsbelege Mengen des fehlenden Stücks schneller zu erstellen, die im Verkauf benötigt werden. Sie können zwei verschiedene Funktionen nutzen, abhängig von der Belegart, die verwendet wird.
-|Funktion|Description|
+# <a name="how-to-purchase-items-for-a-sale"></a><span data-ttu-id="52170-103">Vorgehensweise: Einkauf von Produkten für einen Verkauf</span><span class="sxs-lookup"><span data-stu-id="52170-103">How to: Purchase Items for a Sale</span></span>
+<span data-ttu-id="52170-104">Bei Verkaufsaufträgen aus der Verkaufsrechnungen können Sie Funktionen verwenden, um für Einkaufsbelege Mengen des fehlenden Stücks schneller zu erstellen, die im Verkauf benötigt werden.</span><span class="sxs-lookup"><span data-stu-id="52170-104">From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale.</span></span> <span data-ttu-id="52170-105">Sie können zwei verschiedene Funktionen nutzen, abhängig von der Belegart, die verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="52170-105">You can use two different functions depending on the document type.</span></span>
+|<span data-ttu-id="52170-106">Funktion</span><span class="sxs-lookup"><span data-stu-id="52170-106">Function</span></span>|<span data-ttu-id="52170-107">Description</span><span class="sxs-lookup"><span data-stu-id="52170-107">Description</span></span>|
 |--------|-----------|
-|**Einkaufsbestellungen erstellen**|Bei einem Verkaufsauftrag erstellt diese Funktion eine Einkaufsbestellung für jeden Kreditor aus Artikeln des Verkaufsauftrags. Sie können die Abnahmemenge bearbeiten, bevor Sie die Bestellungen erstellen. Nur nicht verfügbare Verkaufsmengen werden vorgeschlagen.
-|**Einkaufsrechnung erstellen**|Bei einem Verkaufsauftrag und einer Verkaufsrechnung, erstellt diese Funktion eine Einkaufsrechnung für einen ausgewählten Kreditor für alle Zeilen oder nur ausgewählte Zeilen des Verkaufsbelegs. Die verfügbare Verkaufsmenge wird vorgeschlagen.|
+|<span data-ttu-id="52170-108">**Einkaufsbestellungen erstellen**</span><span class="sxs-lookup"><span data-stu-id="52170-108">**Create Purchase Orders**</span></span>|<span data-ttu-id="52170-109">Bei einem Verkaufsauftrag erstellt diese Funktion eine Einkaufsbestellung für jeden Kreditor aus Artikeln des Verkaufsauftrags.</span><span class="sxs-lookup"><span data-stu-id="52170-109">From a sales order, this function creates a purchase order for each vendor of items on the sales order.</span></span> <span data-ttu-id="52170-110">Sie können die Abnahmemenge bearbeiten, bevor Sie die Bestellungen erstellen.</span><span class="sxs-lookup"><span data-stu-id="52170-110">You can edit the purchase quantity before you create the purchase orders.</span></span> <span data-ttu-id="52170-111">Nur nicht verfügbare Verkaufsmengen werden vorgeschlagen.</span><span class="sxs-lookup"><span data-stu-id="52170-111">Only unavailable sales quantities are suggested.</span></span>
+|<span data-ttu-id="52170-112">**Einkaufsrechnung erstellen**</span><span class="sxs-lookup"><span data-stu-id="52170-112">**Create Purchase Invoice**</span></span>|<span data-ttu-id="52170-113">Bei einem Verkaufsauftrag und einer Verkaufsrechnung, erstellt diese Funktion eine Einkaufsrechnung für einen ausgewählten Kreditor für alle Zeilen oder nur ausgewählte Zeilen des Verkaufsbelegs.</span><span class="sxs-lookup"><span data-stu-id="52170-113">From a sales order and from a sales invoice, this function creates a purchase invoice for a selected vendor for all lines or selected lines on the sales document.</span></span> <span data-ttu-id="52170-114">Die verfügbare Verkaufsmenge wird vorgeschlagen.</span><span class="sxs-lookup"><span data-stu-id="52170-114">The full sales quantity is suggested.</span></span>|
 
-## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Um eine oder mehrere Einkaufsbestellungen aus Verkaufsaufträgen zu erstellen
-Um eine Bestellung für jede Artikelmenge von nichtverfügbaren Artikeln im Verkaufsauftrag zu erstellen, verwenden Sie die Funktion **Einkaufsbestellungen**. 
+## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a><span data-ttu-id="52170-115">Um eine oder mehrere Einkaufsbestellungen aus Verkaufsaufträgen zu erstellen</span><span class="sxs-lookup"><span data-stu-id="52170-115">To create one or more purchase orders from a sales order</span></span>
+<span data-ttu-id="52170-116">Um eine Bestellung für jede Artikelmenge von nichtverfügbaren Artikeln im Verkaufsauftrag zu erstellen, verwenden Sie die Funktion **Einkaufsbestellungen**.</span><span class="sxs-lookup"><span data-stu-id="52170-116">To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function.</span></span> 
 
 > [!NOTE]  
->   Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.
+>   <span data-ttu-id="52170-117">Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird.</span><span class="sxs-lookup"><span data-stu-id="52170-117">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="52170-118">Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.</span><span class="sxs-lookup"><span data-stu-id="52170-118">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-1. Auf der Seite Startseite wählen Sie die den Titel **Laufende Verkaufsaufträge** aus.
-2. Öffnen Sie einen Verkaufsauftrag für Artikel, die Sie kaufen möchten.
-3. Wählen Sie die Aktion **Einkaufsbestellung erstellen**.
+1. <span data-ttu-id="52170-119">Auf der Seite Startseite wählen Sie die den Titel **Laufende Verkaufsaufträge** aus.</span><span class="sxs-lookup"><span data-stu-id="52170-119">On the Home page, choose the **Ongoing Sales Orders** tile.</span></span>
+2. <span data-ttu-id="52170-120">Öffnen Sie einen Verkaufsauftrag für Artikel, die Sie kaufen möchten.</span><span class="sxs-lookup"><span data-stu-id="52170-120">Open a sales order that you want to purchase items for.</span></span>
+3. <span data-ttu-id="52170-121">Wählen Sie die Aktion **Einkaufsbestellung erstellen**.</span><span class="sxs-lookup"><span data-stu-id="52170-121">Choose the **Create Purchase Orders** action.</span></span>
 
-    Das Fenster **Einkaufsbestellungen** wird geöffnet und zeigt eine Zeile für jeden anderen Artikel im Verkaufsauftrag. Zeilen für verfügbare und nicht verfügbare (abgeblendet) Verkaufsmengen werden standardmäßig angezeigt. Sie können die Funktionen **Anzeigen nicht verfügbar** Aktion auswählen, um Zeilen für nicht verfügbare Verkaufsmengen nur anzuzeigen.
+    <span data-ttu-id="52170-122">Das Fenster **Einkaufsbestellungen** wird geöffnet und zeigt eine Zeile für jeden anderen Artikel im Verkaufsauftrag.</span><span class="sxs-lookup"><span data-stu-id="52170-122">The **Create Purchase Orders** window opens showing a line for each different item on the sales order.</span></span> <span data-ttu-id="52170-123">Zeilen für verfügbare und nicht verfügbare (abgeblendet) Verkaufsmengen werden standardmäßig angezeigt.</span><span class="sxs-lookup"><span data-stu-id="52170-123">Lines for both fully available sales quantities and unavailable sales quantities (grayed) are shown by default.</span></span> <span data-ttu-id="52170-124">Sie können die Funktionen **Anzeigen nicht verfügbar** Aktion auswählen, um Zeilen für nicht verfügbare Verkaufsmengen nur anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="52170-124">You can choose the **Show Unavailable** action to only see lines for unavailable sales quantities.</span></span>
 
-    Das Feld **Einzukaufen Menge** enthält standardmäßig die nichtverfügbare Verkaufsmenge.
-4. Um eine andere Menge als die nichtverfügbare Verkaufsmenge einzukaufen, ändern Sie den Wert im Feld **Einzukaufende Menge**.
+    <span data-ttu-id="52170-125">Das Feld **Einzukaufen Menge** enthält standardmäßig die nichtverfügbare Verkaufsmenge.</span><span class="sxs-lookup"><span data-stu-id="52170-125">The **Quantity to Purchase** field contains the unavailable sales quantity by default.</span></span>
+4. <span data-ttu-id="52170-126">Um eine andere Menge als die nichtverfügbare Verkaufsmenge einzukaufen, ändern Sie den Wert im Feld **Einzukaufende Menge**.</span><span class="sxs-lookup"><span data-stu-id="52170-126">To purchase another quantity than the unavailable sales quantity, edit the value in the **Quantity to Purchase** field.</span></span>
 
     > [!NOTE]  
->   Sie können das Feld **Einzukaufen Menge** in abgeblendeten Zeilen auch ändern, obwohl sie vollständig verfügbare Verkaufsmengen darstellen.
-5. Wählen Sie die Schaltfläche **OK** aus. 
+>   <span data-ttu-id="52170-127">Sie können das Feld **Einzukaufen Menge** in abgeblendeten Zeilen auch ändern, obwohl sie vollständig verfügbare Verkaufsmengen darstellen.</span><span class="sxs-lookup"><span data-stu-id="52170-127">You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.</span></span>
+5. <span data-ttu-id="52170-128">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="52170-128">Choose the **OK** button.</span></span> 
     
-    Eine Bestellung ist für jeden Kreditor der Artikel im Verkaufsauftrag, einschließlich alle Mengenänderungen erstellt, die Sie im **Einkaufsbestellungen** durchgeführt haben.
-7. Fahren Sie fort, die Einkaufsbestellungen zu verarbeiten, indem Sie beispielsweise Einkaufsbestellungszeilen bearbeiten oder hinzufügen. Weitere Informationen finden Sie unter [So gehts: Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
+    <span data-ttu-id="52170-129">Eine Bestellung ist für jeden Kreditor der Artikel im Verkaufsauftrag, einschließlich alle Mengenänderungen erstellt, die Sie im **Einkaufsbestellungen** durchgeführt haben.</span><span class="sxs-lookup"><span data-stu-id="52170-129">A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.</span></span>
+7. <span data-ttu-id="52170-130">Fahren Sie fort, die Einkaufsbestellungen zu verarbeiten, indem Sie beispielsweise Einkaufsbestellungszeilen bearbeiten oder hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="52170-130">Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines.</span></span> <span data-ttu-id="52170-131">Weitere Informationen finden Sie unter [So gehts: Erfassen eines Einkaufs](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="52170-131">For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
 
-## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Eine Einkaufsrechnung aus einer Verkaufsbestellung erstellen
-Eine einzelne Einkaufsrechnung für eine oder mehrere Zeilen in einem Verkaufsbeleg erstellen, indem Sie zuerst auswählen, von welchem Kreditor Sie die Funktion **Einkaufsr""echnung erstellen** verwenden. 
+## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a><span data-ttu-id="52170-132">Eine Einkaufsrechnung aus einer Verkaufsbestellung erstellen</span><span class="sxs-lookup"><span data-stu-id="52170-132">To create a purchase invoice from a sales order or sales invoice</span></span>
+<span data-ttu-id="52170-133">Eine einzelne Einkaufsrechnung für eine oder mehrere Zeilen in einem Verkaufsbeleg erstellen, indem Sie zuerst auswählen, von welchem Kreditor Sie die Funktion **Einkaufsr""echnung erstellen** verwenden.</span><span class="sxs-lookup"><span data-stu-id="52170-133">To create a single purchase invoice for one or more lines on a sales document by first selecting which vendor to buy from, you use the **Create Purchase Invoice** function.</span></span> 
 
 > [!NOTE]  
->   Diese Funktion erstellt eine Einkaufsrechnung für die exakte Artikelmenge audf dem ausgewählten Verkaufsbeleg. Um die Abnahmemenge zu ändern, müssen Sie die Einkaufsrechnung bearbeiten nachdem sie erstellt wurde.  
+>   <span data-ttu-id="52170-134">Diese Funktion erstellt eine Einkaufsrechnung für die exakte Artikelmenge audf dem ausgewählten Verkaufsbeleg.</span><span class="sxs-lookup"><span data-stu-id="52170-134">This function creates a purchase invoice for the exact item quantity on the selected sales document.</span></span> <span data-ttu-id="52170-135">Um die Abnahmemenge zu ändern, müssen Sie die Einkaufsrechnung bearbeiten nachdem sie erstellt wurde.</span><span class="sxs-lookup"><span data-stu-id="52170-135">To change the purchase quantity, you must edit the purchase invoice after it is created.</span></span>  
 
-1. Auf der Seite Startseite wählen Sie die den Titel **Laufende Verkaufsrechnungen** aus.
-2. Öffnen Sie einen Verkaufsrechnunung für Artikel, die Sie kaufen möchten.
-3. Wählen Sie eine oder mehrere Rechnungszeilen aus, die Sie auf der Einkaufsrechnung verwenden möchten. Um alle Verkaufsrechnungszeilen zu verwenden, wählen Sie entweder alle oder keine Zeilen aus.
-4. Wählen Sie die Aktion **Einkaufsrechnung erstellen**.
-5. Wählen Sie entweder **Alle Posten** oder **Ausgewählte Posten**, und wählen Sie die **OK**-Schaltfläche.  
-6. In der Kreditorenliste, die erscheint, wählen Sie den Kreditor, der die Artikel oder Dienstleistung liefert, und wählen Sie die Schaltfläche **OK**.
+1. <span data-ttu-id="52170-136">Auf der Seite Startseite wählen Sie die den Titel **Laufende Verkaufsrechnungen** aus.</span><span class="sxs-lookup"><span data-stu-id="52170-136">On the Home page, choose the **Ongoing Sales Invoices** tile.</span></span>
+2. <span data-ttu-id="52170-137">Öffnen Sie einen Verkaufsrechnunung für Artikel, die Sie kaufen möchten.</span><span class="sxs-lookup"><span data-stu-id="52170-137">Open a sales invoice that you want to purchase items for.</span></span>
+3. <span data-ttu-id="52170-138">Wählen Sie eine oder mehrere Rechnungszeilen aus, die Sie auf der Einkaufsrechnung verwenden möchten.</span><span class="sxs-lookup"><span data-stu-id="52170-138">Select one or more sales invoice lines that you want to use on the purchase invoice.</span></span> <span data-ttu-id="52170-139">Um alle Verkaufsrechnungszeilen zu verwenden, wählen Sie entweder alle oder keine Zeilen aus.</span><span class="sxs-lookup"><span data-stu-id="52170-139">To use all the sales invoice lines, select either all of them or do not select any lines.</span></span>
+4. <span data-ttu-id="52170-140">Wählen Sie die Aktion **Einkaufsrechnung erstellen**.</span><span class="sxs-lookup"><span data-stu-id="52170-140">Choose the **Create Purchase Invoice** action.</span></span>
+5. <span data-ttu-id="52170-141">Wählen Sie entweder **Alle Posten** oder **Ausgewählte Posten**, und wählen Sie die **OK**-Schaltfläche.</span><span class="sxs-lookup"><span data-stu-id="52170-141">Select either **All Lines** or **Selected Lines**, and then choose the **OK** button.</span></span>  
+6. <span data-ttu-id="52170-142">In der Kreditorenliste, die erscheint, wählen Sie den Kreditor, der die Artikel oder Dienstleistung liefert, und wählen Sie die Schaltfläche **OK**.</span><span class="sxs-lookup"><span data-stu-id="52170-142">In the list of vendors that appears, select the vendor that you want to buy all the items from, and then choose the **OK** button.</span></span>
 
-    Eine Einkaufsrechnung wird erstellt, die eine, mehrere oder alle Zeilen auf der Verkaufsrechnung enthält.
-7. Fahren Sie fort, die Einkaufsrechnung zu verarbeiten, indem Sie beispielsweise Einkaufsrechnungszeilen bearbeiten oder hinzufügen. Weitere Informationen finden Sie unter [So gehts: Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
+    <span data-ttu-id="52170-143">Eine Einkaufsrechnung wird erstellt, die eine, mehrere oder alle Zeilen auf der Verkaufsrechnung enthält.</span><span class="sxs-lookup"><span data-stu-id="52170-143">A purchase invoice is created that contains one, more, or all the lines on the sales invoice.</span></span>
+7. <span data-ttu-id="52170-144">Fahren Sie fort, die Einkaufsrechnung zu verarbeiten, indem Sie beispielsweise Einkaufsrechnungszeilen bearbeiten oder hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="52170-144">Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines.</span></span> <span data-ttu-id="52170-145">Weitere Informationen finden Sie unter [So gehts: Erfassen eines Einkaufs](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="52170-145">For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
-## <a name="see-also"></a>Siehe auch
-[Einkauf](purchasing-manage-purchasing.md)  
-[Vorgehensweise: Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
-[Vorgehensweise: Fakturieren](sales-how-invoice-sales.md)  
-[Vorgehensweise: Einen neuen Kreditor registrieren](purchasing-how-register-new-vendors.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="52170-146">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="52170-146">See Also</span></span>
+[<span data-ttu-id="52170-147">Einkauf</span><span class="sxs-lookup"><span data-stu-id="52170-147">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="52170-148">Vorgehensweise: Erfassen eines Einkaufs</span><span class="sxs-lookup"><span data-stu-id="52170-148">How to: Record Purchases</span></span>](purchasing-how-record-purchases.md)  
+[<span data-ttu-id="52170-149">Vorgehensweise: Fakturieren</span><span class="sxs-lookup"><span data-stu-id="52170-149">How to: Invoice Sales</span></span>](sales-how-invoice-sales.md)  
+[<span data-ttu-id="52170-150">Vorgehensweise: Einen neuen Kreditor registrieren</span><span class="sxs-lookup"><span data-stu-id="52170-150">How to: Register New Vendors</span></span>](purchasing-how-register-new-vendors.md)  
+<span data-ttu-id="52170-151">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="52170-151">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
