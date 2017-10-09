@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b11c6ea21b507024e6024b180205e02a60fe9465
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysieren von Cashflow in Ihren Mandanten
@@ -30,7 +29,6 @@ Wie man sagt, Bargeld ist der König. Die Diagramme im Feld Rollencenter Buchhal
 | Sind die Zahlen für eine Periode außerhalb des Musters?</br> Sollte ich dies überprüfen? |Einnahmen und Ausgaben |
 | Wann könnte ein Bargeldüberschuss oder ein Bargelddefizit auftreten?</br> Sollten ich die Schuld abzahlen oder Geld ausleihen, um bevorstehende Ausgaben zu bezahlen? |Cashflowplanungen |
 
-## <a name="dig-into-the-numbers"></a>Die Zahlen untersuchen
 Im Feld Rollencenter Buchhalte unter **Finanzleistung** geben die Diagramme **Bargeldumlauf**, **Cashflow** und **Einnahmen und Ausgaben** verschiedene Möglichkeiten, den Cashflow zu analysieren:  
 
 * Sehen Sie sich die Zahlen für eine Periode an, indem Sie den Zeitachsenschieberegler verwenden.  
@@ -38,7 +36,7 @@ Im Feld Rollencenter Buchhalte unter **Finanzleistung** geben die Diagramme **Ba
 * Ändern Sie die Länge der Periode oder gehen Sie zur vorherigen oder nächsten Periode, indem Sie die Optionen **Finanzleistung** auswählen.  
 * Anzeigen der Posten, indem Sie einen Artikel im Diagramm auswählen. Beispielsweise ein Punkt auf der Zeitachse oder einem Spaltensegment. Wenn die Zahlen nicht korrekt erscheinen, können Sie hier Anpassungen vornehmen.  
 
-Obwohl dies separat ist, ist das Fenster **Cashflowplanung** gleich. Sie zeigen Details, filtern Ergebnisse und ändern, was auf die gleichen Weise angezeigt wird. Wenn Sie eine Einstellung ändern, kann die Planung mithilfe von **Cashflowplanung** und **Planung neu berechnen** aktualisiert werden.
+Obwohl dies separat ist, ist das Fenster **Cashflowplanung** gleich. Um Details anzuzeigen Filtern Sie die Ergebnisse und ändern, was gleich angezeigt wird. Wenn Sie eine Einstellung ändern, kann die Planung mithilfe von **Cashflowplanung** und **Planung neu berechnen** aktualisiert werden.
 
 Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, können Sie den Cashflowvorschlag auch berücksichtigen. Beispielsweise wird angezeigt, wie die Planungs:
 
@@ -46,7 +44,7 @@ Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, 
 * Subtrahiert Verbindlichkeiten und fügt Forderungen hinzu.  
 * Überspringt duplizierte Verkaufsaufträge und Bestellungen.  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>Cashflowvorschlagszeile anzeigen
+## <a name="to-view-a-cash-flow-worksheet"></a>Cashflowvorschlagszeile anzeigen
 1. Suchen Sie nach **Cashflow-Planungen** und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie eine Cashflowplanung, und wählen die **Cashflowvorschlag** Aktion aus.  
 3. Auf der Seite **Cashflow Arbeitsblatt** wählen Sie die Aktion **Vorgeschlagene Arbeitsblattpositionen** aus.  

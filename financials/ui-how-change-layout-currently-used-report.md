@@ -3,7 +3,7 @@ title: "Ändern Sie die Art, wie Berichte dargestellt werden, indem Sie ein ande
 description: "Sie können unterschiedliche Layouts für einen Bericht auswählen und zwischen Layouts wechseln, um das Aussehen des Berichts zu ändern."
 services: project-madeira
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: jswymer
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
-ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 677b7319baff476671c4c8ade4afed843f936c36
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Vorgehensweise: Ändern, welches Layout zur Zeit in einem Bericht verwendet wird
@@ -25,7 +25,7 @@ Ein Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf
 Abhängig von den Layouts, die für einen Bericht verfügbar sind, können Sie ein integriertes RDLC-Berichtlayout, ein integriertes Word-Berichtlayout oder ein kundenspezifisches Layout verwenden. Weitere Informationen zu RDLC- und Word-Berichtlayouts, integrierten und benutzerdefinierten Layouts und mehr finden Sie unter [Manage Report Layouts](ui-manage-report-layouts.md).
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Um das Layout ändern, das in einem Bericht verwendet wird
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Search for Page or Report icon") und geben **Layout-Berichtsauswahl** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Berichtauswahl** ein. Wählen Sie dann den zugehörigen Link aus.  
    In dem Fenster sind alle Berichte aufgelistet, die für das Unternehmen verfügbar sind, das im Fenster **Bericht-Layout-Auswahl** oben verfügbar ist. Das ausgewählte Layout-Feld gibt das Layout an, das momentan in dem Bericht verwendet wird.
 2. Legen Sie das Feld **Unternehmen** oben im Fenster auf das Unternehmen fest, das den Bericht umfasst.
 3. Um das Layout, das von einem Bericht verwendet wird, zu ändern, wählen Sie die Zeile für den Bericht aus der Liste, und legen Sie dann das Feld **Ausgewähltes Layout** auf eine der folgenden Optionen fest:

@@ -1,8 +1,6 @@
 ---
-title: Willkommen bei Dynamics 365 for Financials | Microsoft Docs
-description: "Dynamics 365 for Financials ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Eine Registrierung ist einfach und Sie können vorhandene Unternehmensdaten von Ihrem bestehenden System migrieren."
-services: project-madeira
-documentationcenter: 
+title: Dynamics 365 for Financials treffen | Microsoft Docs
+description: "Erhalten von Informationen über Funktionen und Bearbeiten von Szenarien in Dynamics 365 for Financials, einer Unternehmensverwaltungslösung für kleine und mittelständische Organisationen."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -30,8 +27,8 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Ihnen einige Elemente vert
 Um einige einfache Tipps kennenzulernen, gehen Sie zu:  
 
 * [Elemente suchen](ui-search.md)  
-* [Filter setzen](ui-enter-criteria-filters.md)  
-* [Sortieren von Daten in Listen](ui-sorting.md)  
+* [Ermitteln, filternd und Sortieren von Listen](ui-enter-criteria-filters.md)  
+* [Eingeben von Daten](ui-enter-data.md)  
 
 Weitere Informationen finden Sie unter [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
@@ -60,16 +57,19 @@ Im Fenster **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung **
 | Berichterstellung einrichten |Datensets einrichten, die Sie verwenden können, um leistungsstarke Berichte mithilfe von Excel oder Power Bl zu erstellen. |
 | Artikelgenehmigungsworkflow einrichten |Richtet die Möglichkeit ein, eine Benachrichtigung an einen Genehmiger zu senden, wenn ein Benutzer einen Artikel ändert oder erstellt. |
 | Zahlungsgenehmigungsworkflow einrichten |Sie können einen Genehmigungsworkflow erstellen, der einen Genehmiger benachrichtigt, wenn ein Benutzer Zahlungs-Buch.-Blattzeilen sendet. |
-| Dynamics CRM-Verbindung einrichten |Richtet eine Verbindung mit Dynamics CRM ein, die es Ihnen erlaubt, Daten wie Kontakte und Verkaufsauftragsinformationen zu synchronisieren. |
+| Dynamics 365 Connector einrichten |Richtet eine Verbindung mit Dynamics 365 for Sales ein, die es Ihnen erlaubt, Daten wie Kontakte und Verkaufsauftragsinformationen zu synchronisieren. |
 | Verkaufssteuer einrichten |Lässt Sie mit Standard-Steuergruppen beginnen und Steuergebietscodes zuweisen, die Sie den Debitoren und Kreditoren zuordnen können, damit die Verkaufssteuer in Verkaufs- oder Einkaufsbelegen automatisch berechnet wird. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Testen Sie es in Ihrem eigenen Unternehmen
-Denken Sie an ein Abonnement? Sie können Demomandanten einfach ändern und erstellen und arbeiten in einem Ihrer eigenen Unternehmen. Dieses ist eine tolle Art, in Richtung Abonnement hinzuarbeiten. Einrichtung für Finanzen wird bereitgestellt; Sie müssen nur die Artikel, Debitoren und Kreditoren einrichten oder importieren. Danach sind Sie bereit, Rechnungen zu buchen und intelligente Geschäfts-Tools zu verwenden, um Ihr Geschäft zu analysieren. Sie können Ihr Unternehmen während einer 30 tägigen Probezeit verwenden. Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] in dieser Zeit abonnieren, steht bereits alles zur Verfügung. Sie können mit der Arbeit fortfahren, die Sie während der Testphase erledigten.  
+Denken Sie an ein Abonnement? Sie können Demomandanten einfach ändern und erstellen und arbeiten in einem Ihrer eigenen Unternehmen. Dieses ist eine tolle Art, in Richtung Abonnement hinzuarbeiten. Einrichtung für Finanzen wird bereitgestellt; Sie müssen nur die Artikel, Debitoren und Kreditoren und die Produkte oder Services, die Sie verkaufen einrichten oder importieren. Danach sind Sie bereit, Rechnungen zu buchen und intelligente Geschäfts-Tools zu verwenden, um Ihr Geschäft zu analysieren. Sie können Ihr Unternehmen während einer 30 tägigen Probezeit verwenden. Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] in dieser Zeit abonnieren, steht bereits alles zur Verfügung. Sie können mit der Arbeit fortfahren, die Sie während der Testphase erledigten.  
 
 Um einen Mandanten zu erstellen und Dinge zu testen, gehen Sie zum Menü **Meine Einstellungen** in der oberen rechter Ecke und ändern Sie den Mandanten auf **Mein Unternehmen**. Melden Sie sich von [!INCLUDE[d365fin](includes/d365fin_md.md)] ab und anschließend wieder an, um die Änderungen zu übernehmen. Eine unterstützte Einrichtung gibt Ihnen die grundlegenden Informationen zu Ihrem Unternehmen. Wenn das getan wird, entdecken Sie die Homepage und suchen Sie die Aktion **Unterstützte Einrichtung**.  
 
 ## <a name="ready-to-subscribe"></a>Bereit für ein Abonnement?
-Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich für ein Abonnement entscheiden, verwenden Sie den Link in der Benachrichtigung, um Microsoft zu kontaktieren. Sie können ebenfalls navigieren zu [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707).
+Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich für ein Abonnement entscheiden, verwenden Sie den Link in der Benachrichtigung, um Microsoft zu kontaktieren. Sie können ach das [!INCLUDE[d365fin](includes/d365fin_md.md)] Vertriebsteam unter [Microsoft Dynamics 365 for Financials ](https://go.microsoft.com/fwlink/?linkid=828707) kontaktieren.  
+
+## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365 Apps
+Navigieren Sie zu Inhalten von anderen Dynamics 365 Apps werden, indem Sie den Link [Dynamics 365](https://docs.microsoft.com/dynamics365) im blauen Banner im oberen Bereich dieser Seite auswählen. Sie können mehr erfahren unter der[Dynamics 365 Website](https://www.microsoft.com/en-us/dynamics365/).
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +80,7 @@ Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachr
 [Abrufen [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)  
 [Microsoft Dynamics 365 Dokumentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

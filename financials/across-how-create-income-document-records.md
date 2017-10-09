@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c6e4b4dd5535848bba257fc422436c43b827d95a
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-incoming-document-records"></a>Vorgehensweise: Erstellen von Eingangsbelegen
@@ -44,7 +43,7 @@ Das Kontrollkästchen **Freigegeben** in der Zeile für den Eingangsbeleg ist ak
 3. Verwenden Sie im Fenster **Eingehende Belege** die Auslassungspunkt-Schaltfläche, und wählen Sie dann **Von Kamera erstellen** aus. Die Kamera im Tablet oder dem Smartphone wird aktiviert.
 4. Nehmen Sie ein Foto eines Belegs, wie einer Einkaufsquittung, die Sie als eingehender Beleg bearbeiten wollen, und wählen Sie dann die Schaltfläche **OK**.
 
-Ein neuer Datensatz für den eingehenden Beleg wird erstellt und das Bild wird angehängt.
+    Ein neuer Datensatz für den eingehenden Beleg wird erstellt und das Bild wird angehängt.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>So hängen Sie ein Bild an ein Eingangsbelegdatensatz an, indem Sie ein Foto machen
 > [!NOTE]  
@@ -55,14 +54,12 @@ Ein neuer Datensatz für den eingehenden Beleg wird erstellt und das Bild wird a
 3. Verwenden Sie im Fenster **Eingehende Belege** die Auslassungspunkt-Schaltfläche, und wählen Sie dann **Bild von Kamera anhängen** aus. Die Kamera im Tablet oder dem Smartphone wird aktiviert.
 4. Nehmen Sie ein Foto eines Belegs, wie einer Einkaufsquittung, die Sie als eingehender Beleg bearbeiten wollen, und wählen Sie dann die Schaltfläche **OK**.
 
-Das Bild wurde dem Datensatz des eingehenden Beleges angehängt.
+    Das Bild wurde dem Datensatz des eingehenden Beleges angehängt.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Eingangsbelege manuell erstellen
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Einkaufsrechnungen** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Aus Datei erstellen** aus.  
-3. Wählen Sie im Fenster **Datei einfügen** eine Datei aus und wählen Sie dann **Offen** aus.
-
-    Die Datei wird automatisch angehängt.
+3. Wählen Sie im Fenster **Datei einfügen** eine Datei aus und wählen Sie dann **Offen** aus. Die Datei wird automatisch angehängt.
 4. Wählen Sie alternativ die Aktion **Neu** aus.
 5. Um eine Datei hinzuzufügen, wählen Sie die Aktion **Datei anhängen**.
 6. Im **Datei einfügen**-Fenster wählen Sie die Datei, die den jeweiligen Eingangsbeleg darstellt, und wählen Sie die Schaltfläche **Öffnen**.

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e78a86ba3d29948b07777d0a346c1ef58d088e6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b81deefcdf79a93cc988d216f80b08794efb8ab6
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-web-sources-for-contact-companies"></a>Vorgehensweise: Einrichten von Internetfavoriten für Kontaktunternehmen
@@ -34,7 +33,7 @@ Die Nutzung von Internetfavoriten zu Kontakten ist ein zwei Schritte umfassender
 
 Wiederholen Sie diese Schritte, um weitere Internetfavoriten einzurichten.
 
-## <a name="to-assign-web-sources-to-a-contact-company"></a>um Internetfavoriten zu einem Kontaktunternehmen zuzuordnen
+## <a name="to-assign-web-sources-to-a-contact-company"></a>Um Internetfavoriten zu einem Kontaktunternehmen zuzuordnen
 Wenn Sie Internetfavoriten zuordnen, legen Sie fest, welche Suchmaschine und welchen Suchbegriff die Anwendung bei der Suche nach der gewünschten Information verwendet.
 
 1. Öffnen Sie den Kontakt.

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="depreciation-methods"></a>Abschreibungsmethoden
@@ -205,7 +204,7 @@ Jahr:
 
 *Degressiv Betrag: 25% von 100.000 = 25.000=12.500+12.500*  
 
-*Linearer Betrag = 100.000/8=12.500=6.250+6.250*  
+*Linear Betrag = 100.000/8=12.500=6.250+6.250*  
 
 Es wird der degressive Betrag verwendet, da es sich um den größeren Betrag handelt.  
 
@@ -224,7 +223,7 @@ Mit einer benutzerdefinierten Methode können Sie das Fenster **AfA-Tabellen** v
 
 Die Formel zur Berechnung des AfA-Betrages ist:  
 
-AfA Betrag = (AfA % x Anzahl AfA Tage x AfA / (100 x 360)  
+AfA Betrag = (AfA % x Anzahl AfA Tage x AfA Basis) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Abschreibung basierend auf der Stückzahl
 Diese benutzerdefinierte Methode kann auch verwendet werden, um eine Abschreibung nach der produzierten Stückzahl durchzuführen, zum Beispiel für Produktionsmaschinen, die eine von der Stückzahl abhängige Lebensdauer haben. Im Fenster **AfA-Tabellen** können Sie die Stückzahl eingeben, die innerhalb einer Periode (Monat, Quartal, Jahr oder Buchhaltungsperiode) produziert werden kann.  
@@ -350,7 +349,7 @@ Wenn Sie einen Posten in B1 im Anlagen-Fibu Buch.-Blatt erstellen und ein Häkch
 >   Es ist nicht möglich in dem gleichen Buch.-Blatt und der gleichen Buch.-Blattvorlage zu kopieren, aus der Sie kopieren. Wenn Sie Posten im Fibu Buch.-Blatt buchen, können Sie diese über eine weitere Stapelverarbeitung in ein Anlagen Buch.-Blatt oder ein Anlagen Fibu Buch.-Blatt kopieren.  
 
 > [!NOTE]  
->   Es ist nicht möglich, im Anlagen Fibu Buch.-Blatt und im Anlagen Buch-Blatt dieselbe Nummernserie zu verwenden. Wenn Sie Posten im Anlagen Fibu Buch.-Blatt buchen, müssen Sie das Feld **Belegnr.** leer lassen. Wenn Sie in das Feld eine Nummer eingeben, wird die Nummer im Anlagen Buch.-Blatt dupliziert. Sie müssen die Belegnummer manuell ändern, bevor Sie das Buch.-Blatt buchen können.  
+>   Es ist nicht möglich, im Anlagen Fibu Buch.-Blatt und im Anlagen Buch-Blatt dieselbe Nummernserie zu verwenden. Wenn Sie im Anlagen Fibu Buch.-Blatt Posten buchen, müssen Sie das Feld **Belegnr.** leer lasssen. Wenn Sie in das Feld eine Nummer eingeben, wird die Nummer im Anlagen Buch.-Blatt dupliziert. Sie müssen die Belegnummer manuell ändern, bevor Sie das Buch.-Blatt buchen können.  
 
 ## <a name="see-also"></a>Siehe auch
 [Anlagen](fa-manage.md)  

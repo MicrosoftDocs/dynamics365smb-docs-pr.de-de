@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2016
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d840981dcceb54c74ac70ed0ddd05b3d3fa9bfc8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4256c563edc79ebfbe1bbe9337cf1e8a7e9d9991
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-many-incoming-document-records"></a>So gehts: Mehrere eingehende Belegdatensätze verwalten
@@ -35,7 +34,7 @@ Das Kontrollkästchen **Verarbeitet** ist automatisch bei eingehenden Belegdaten
 1. Im Fenster **Eingehende Dokumente** wählen Sie eine oder mehrere Zeilen für eingehende Datensätze, die Sie von der Standardansicht entfernen möchten.
 2. Wählen Sie die Aktion **Auf "Verarbeitet" setzen** aus.
 
-Die eingehenden Belegdatensätze werden aus der Standardansicht entfernt, und das Kontrollkästchen **Verarbeitet** wird in den Zeilen aktiviert.
+    Die eingehenden Belegdatensätze werden aus der Standardansicht entfernt, und das Kontrollkästchen **Verarbeitet** wird in den Zeilen aktiviert.
 
 > [!NOTE]  
 >   Sie können diese Aktion für einzelne Datensätze im Fenster **Eingehende Belegkarte** durchführen.

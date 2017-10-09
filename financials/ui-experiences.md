@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Suite, Basic, user interface, application area
-ms.date: 03/29/2017
+ms.date: 08/22/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6add50f8d24d75e58abd12d110c881628d1fa6d9
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: f2336dbb8381c1ed1961ed97ab4dd782ef846a10
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-your-dynamics-365-for-financials-experience"></a>Anpassen Ihres Dynamics 365 for Financials Experience
@@ -34,8 +33,8 @@ Die verfügbaren Optionen werden in der folgenden Tabelle beschrieben.
 
 | Erfahrung | Auswirkungen auf Benutzeroberfläche |
 | --- | --- |
-| Standard |Zeigt nur zentrale Aktionen und Felder für Kerngeschäftsbereiche, wie Einkauf, Verkauf, und Verkaufschanceverwaltung. |
-| Suite |Zeigt Aktionen und mehr Felder für Kerngeschäftsbereiche und in andere Regionen, z. B. Projektmanagement, Anlagenbuchhaltung und Analyse nach Dimensionen an. |
+| Standard |Zeigt nur Kernaktionen und Felder innerhalb der häufigsten Geschäftsfunktionalität, wie Verkauf, Einkauf, Lagerbestand und Finanzen, an. |
+| Suite |Zeigt alle Aktionen und Felder für alle verfügbaren Geschäftsfunktionalitäten an.|
 
 ## <a name="see-also"></a>Siehe auch
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
@@ -43,3 +42,4 @@ Die verfügbaren Optionen werden in der folgenden Tabelle beschrieben.
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

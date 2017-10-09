@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 98b9dfce0b0a9723992fe3de77a1130ca2b05e7a
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-purchasers"></a>Vorgehensweise: Einrichten von Einkäufern
 Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese in einem Fenster einrichten und jedem einen Code zuweisen. Diese Codes können Sie dann für statistische Auswertungen und als Filter in Berichten verwenden
 
 ## <a name="to-set-up-purchasers"></a>So richten Sie Einkäufer ein
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Einkäufer/Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Einkäufer/Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie im Fenster **Verkäufer/Einkäufer** die Aktion **Neu** aus.
 3. Füllen Sie im Fenster **Verkäufer-/Einkäuferkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

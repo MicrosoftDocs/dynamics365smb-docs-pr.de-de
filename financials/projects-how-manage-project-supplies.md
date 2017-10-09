@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 46cae53022ba5d65a370694c9818f52a7bf45525
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-job-supplies"></a>Vorgehensweise: Verwalten von Projektlieferungen
@@ -30,7 +29,7 @@ Der folgende Ablauf zeigt, wie eine Einkaufsrechnung zum Kauf von Produkten für
 
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Einkaufsrechnungen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus. Weitere Informationen finden Sie unter [So gehts: Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
-3. Im Feld **Projektnummer** und Feld **Projektaufgabennummer** wählen Sie die Informationen des Projektes aus, für das Sie Artikel oder Services kaufen möchten. Verwenden Sie die Funktion **Spalten auswählen**, wenn das Feld nicht sichtbar ist. Weitere Informationen finden Sie unter [Benutzer-Personalisierung](ui-user-personalization.md).
+3. In den Feldern **Projektnr.** und**Projektaufgabennr.**wählen Sie die Informationen des Projektes aus, für das Sie Artikel oder Services kaufen möchten. Verwenden Sie die Funktion **Spalten auswählen**, wenn das Feld nicht sichtbar ist. Weitere Informationen finden Sie unter [Benutzer-Personalisierung](ui-user-personalization.md).
 
     Den Wert, den Sie im Feld **Projektzeilenart** auswählen, definiert, ob eine Planungszeile erstellt wird, wenn Sie den Verbrauch eines Artikels buchen. Wenn das Feld **Fakturierbar** enthält, dann werden die Projektzeilen erstellt, die bereit sind, um dem Kunden in Rechnung zu stellen. Weitere Informationen finden Sie unter [Gewusst wie: Projekte fakturieren](projects-how-invoice-jobs.md).
 4. Wählen Sie die Aktion **Buchen** aus.
@@ -47,8 +46,8 @@ Der folgende Ablauf zeigt, wie eine Einkaufsrechnung zum Kauf von Produkten für
 ## <a name="to-post-a-job-related-expense"></a>Projektbezogene Aufwendung buchen
 Wenn Sie die außerordentlichen oder einmalige Projektausgaben verursachen, können Sie das Fenster **Projekt Buch.-Blatt** verwenden, um diese direkt auf das Konto des entsprechenden Projekts zu buchen.
 
-1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Projekt G/L-Buchblatt** ein und wählen den zugehörenden Link aus.  
-2. Erstellen Sie eine neue Zeile, und geben Sie Informationen zur Aufwendung einschließlich Informationen zur **Projektnummer.** und zur **Projektaufgabennummer** ein.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Projekt G/L-Buchblatt** ein und wählen den zugehörenden Link aus.  
+2. Erstellen Sie eine neue Zeile, und geben Sie Informationen zur Aufwendung einschließlich  **Projektnr.** und **Projektaufgabennr.** ein.  
 3. Wenn der Verkaufsauftrag ausgeführt wurde, wählen Sie die Aktion **Buchen** aus.
 
 ## <a name="see-also"></a>Siehe auch

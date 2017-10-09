@@ -12,16 +12,15 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 69d4a8d4482999ed9d622d73654c3d8a4c3d8394
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
-Der Kontenplan zeigt die Sachkonten an, die Ihre Finanzdaten speichern. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
+Der Kontenplan zeigt die Sachkonten an, die Financials speichern. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.  
 
 ## <a name="adding-or-changing-accounts"></a>Konten hinzufügen oder ändern
@@ -41,7 +40,7 @@ Im Kontenplan können Sie jedes Sachkonto öffnen und Einstellungen hinzufügen 
 [Verwalten von Bankkonten](bank-manage-bank-accounts.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Aus anderen Finanzsystemen importieren](upload-data.md)  
-[So gehts: Arbeiten mit GIFI-Codes in Kanada](ca-finance-work-gifi-codes.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bac6c541a07f5da6c42fa076627e174249f708b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-relationship-management"></a>Marketing & Vertrieb einrichten
@@ -54,13 +53,10 @@ Weitere Informationen finden Sie unter [Synchronisieren von Kontakten mit Debito
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Zuweisen von Nummernserien zu Kontakten und Verkaufschancen
 Sie können Nummernserien für Kontakte und Verkaufschancen einrichten. Wenn Sie eine Nummernserie für Kontakte eingerichtet haben, drücken Sie beim Erstellen eines Kontakts im Feld Nummer der Kontaktkarte EINGABE und die Anwendung fügt die nächste verfügbare Kontaktnummern ein.
 
-Weitere Informationen über Nummernserien finden Sie unter [Erstellen von Nummernserien](ui-create-number-series.md)
+Weitere Informationen über Nummernserien finden Sie unter [Vorgehensweise: Erstellen von Nummernserien](ui-create-number-series.md)
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Suche nach Kontaktdubletten, wenn Kontakte erstellt werden
 Sie können einrichten, dass jedes Mal, wenn Sie ein Kontaktunternehmen erstellen, nach Dubletten gesucht wird oder Sie können dies manuell vornehmen, nachdem Sie Kontakte erstellt haben. Sie können auch einstellen, dass bei jeder Veränderung der Informationen über den Kontakt oder bei seiner Erstellung automatisch die Suchtexte aktualisiert werden. Sie können den Prozentsatz der Übereinstimmung festlegen, d. h., den Prozentsatz der Suchtexte, der zwischen den beiden Kontakten identisch sein muss, damit sie von der Anwendung als Dubletten erkannt werden.
-
-## <a name="setting-up-email-logging"></a>E-Mail-Protokollierung einrichten
-Sie können mit Ihren Kontakten, Debitoren, Kreditoren usw. E-Mails austauschen. Sie können E-Mails in der Anwendung oder in Outlook versenden und erhalten. Bevor Sie auf diese Weise E-Mails austauschen können und sie im System speichern und in die Warteschlangeeinreihen können, müssen Sie einige Parameter einstellen, wie beispielsweise das Zeitintervall, in dem Anwendung prüft, ob E-Mails zur Verarbeitung anstehen, E-Mail-Protokollierungs-Profilname usw.
 
 ## <a name="see-also"></a>Siehe auch
 [Kontakte verwalten](marketing-contacts.md)  

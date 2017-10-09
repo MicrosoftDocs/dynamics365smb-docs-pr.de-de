@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="changing-basic-settings"></a>Ändern von grundlegenden Einstellungen
@@ -49,11 +48,14 @@ Standardmäßig wird das aktuelle Datum (Systemdatum) verwendet. Um Aufgaben wie
 > [!IMPORTANT]  
 >   Das Arbeitsdatum wird nur geändert, bis Sie den Mandanten schließen, oder bis das Datum sich ändert. Wenn Sie am nächsten Tag einen anderen oder denselben Mandanten öffnen und ein anderes Arbeitsdatum verwenden müssen, dann müssen Sie das Arbeitsdatum erneut einstellen.
 
-## <a name="confirmation-dialogs"></a>Bestätigungsdialogfelder
-Verwenden Sie die Optionen in diesem Bereich, wenn Sie einige zusätzliche Prüfungen für Buchungsnachweise festlegen möchten. Diese Optionen werden als Standard überprüft, aber Sie können die Kontrollkästchen deaktivieren, um bestimmte Nachrichten oder Warnungen zu vermeiden.
+## <a name="region"></a>Region
+Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.   
+
+## <a name="change-when-i-receive-notifications"></a>Ändern, wenn ich Benachrichtigungen erhalte.
+Wählen Sie diesen Link, um Benachrichtigungen zu ändern oder anzuzeigen, die Sie zu bestimmten Ereignissen oder Veränderungen im Status erhalten, wie wenn Sie einen Kunden fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Weitere Informationen finden Sie unter [Intelligente Benachrichtigungen](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [So gehts: Ändern des Rollencenters](change-role.md)  
-[Anpassen der[!INCLUDE[d365fin](includes/d365fin_md.md)]Erfahrung](ui-experiences.md)  
+[Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)  
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8226961d467dee7b03c22632c6dab008ceecad44
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Aktivitäten mit Kontakten automatisch aufzeichnen
@@ -30,7 +29,7 @@ Sie können Anwendung für die Automatische Aufzeichnung von Aktivitäten für V
 * Rufen Sie Ihre Kontakte an, wenn Sie ein TAPI-fähiges Telefon und die entsprechende Installation haben.
 
 Um die automatische Aufzeichnung dieser Aktivitäten einzurichten, geben Sie Aktivitätenvorlagen für diese Dokumente und Aktionen Aktivitätenvorlagen an, indem Sie das Fenster **Aktivitätenvorlage eingerichtet** verwenden.  
-Um das **Aktivitätenvorlage einrichten**-Fenster zu öffnen, wählen Sie in der oberen rechten Ecke das ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Search for Page or Report icon") Symbol, geben Sie **Aktivitätenvorlage einrichten** ein, und wählen Sie dann den zugehörigen Link.
+Um das Fenster **Interaktionsvorlage einrichten** zu öffnen wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben **Interaktionsvorlage einrichten** ein und wählen den entsprechenden Link aus.
 
 ## <a name="see-also"></a>Siehe auch
 [Aufzeichnen von Aktivitäten mit Kontakten](marketing-interactions.md)  

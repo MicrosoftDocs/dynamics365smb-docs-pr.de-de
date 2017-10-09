@@ -12,16 +12,15 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 63d414f4c81a9e20b4bb81b632edd9c91fb34a87
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Verständnis der Fibu und des COA
-Die Finanzbuchhaltung speichert Ihre Finanzdaten, und der Kontenplan zeigt die Konten, auf die alle Sachposten gebucht werden, an. [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
+Die Finanzbuchhaltung speichert Financials, und der Kontenplan zeigt die Konten, auf die alle Sachposten gebucht werden, an. [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Finanzbuchhaltung Einrichtung und Buchungsmatrix Einrichtung
 Die Einrichtung der Finanzbuchhaltung ist das Kernstück der Finanzvorgängen, da sie definieren, wie Sie Daten buchen.  
@@ -40,7 +39,8 @@ Der Kontenplan zeigt alle Sachkonten an. Vom Kontenplan aus können Sie Dinge tu
 * Berichte ansehen, die die Sachkonteneinträge und -Salden zeigen.  
 * GuV-Kontennullstellung.  
 * Öffnen der Sachkontokarte, um Einstellungen hinzuzufügen oder zu ändern.  
-* Sie können außerdem eine Liste von Buchungsgruppen anzeigen, die auf dieses Konto buchen.  
+* Sie können außerdem eine Liste von Buchungsgruppen anzeigen, die auf dieses Konto buchen.
+* Ansicht der Soll- und Habensalden von einzelnen Sachkonten  
 
 Sie können Sachkonten hinzufügen, ändern oder löschen. Um jedoch Differenzen zu verhindern, können Sie ein Sachkonto nicht löschen, wenn Daten im Kontenplan verwendet werden.  
 

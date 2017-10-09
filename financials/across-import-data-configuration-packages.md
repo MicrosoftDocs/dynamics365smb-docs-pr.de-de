@@ -10,12 +10,11 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 07/05/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
 ms.openlocfilehash: 8cf36afea60b089afac8f1c27d126cd19b88ce94
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="importing-data-from-legacy-accounting-software-using-a-configuration-package"></a>Importieren von Daten aus der Vorgänger-Buchhaltungs-Software unter Verwendung eines Konfigurations-Pakets.
@@ -53,7 +52,7 @@ Das Standardkonfigurationspaket unterstützt die folgenden Tabellen:
 -   Debitorenbuchungsgruppe
 -   Kreditorenbuchungsgruppe
 -   Lagerbuchungsgruppe
--   Einheit
+-   Maßeinheit
 -   Geschäftsbuchungsgrp.
 -   Produktbuchungsgrp.
 -   Buchungsmatrix Einrichtung
@@ -66,7 +65,7 @@ Das Standardkonfigurationspaket unterstützt die folgenden Tabellen:
 Nachdem die Debitorendaten in die Excel-Dateien für die Datenmigration eingegeben wurden, importieren Sie die Dateien in [!INCLUDE[d365fin](includes/d365fin_md.md)] Im Fenster **Konfigurationspakete** importieren Sie die Excel-Datei aus den Daten, und Sie können prüfen, ob die Daten mit [!INCLUDE[d365fin](includes/d365fin_md.md)] übereinstimmen, bevor Sie das Paket anwenden.
 
 ## <a name="see-also"></a>Siehe auch
-[Geschäftsdaten aus anderen Finanzsystemen migrieren](upload-data.md)  
+[Geschäftsdaten aus anderen Finanzsystemen importieren](upload-data.md)  
 [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)  
 

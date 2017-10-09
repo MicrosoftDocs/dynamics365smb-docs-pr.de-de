@@ -1,8 +1,6 @@
 ---
 title: "Überblick der Aufgaben zum Einrichten von Dynamics 365 for Financials | Microsoft Docs"
 description: Definiert Aufgaben zum, initialisieren und konfigurieren in Dynamics 365 for Financials, um Ihren Anforderungen zu entsprechen.
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 06/07/2017
+ms.date: 09/01/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-dynamics-365-for-financials"></a>Dynamics 365 for Financials einrichten
@@ -38,15 +35,28 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 | Konfigurieren der Regeln und Werte, die die Unternehmensrichtlinien für Lager definieren, Standorte einrichten, wenn Sie Ihren Lagerbestand in mehreren Lager führen und Ihre Artikel kategorisieren, um die Suche und das Sortieren zu verbessern. |[Bestand einrichten](inventory-setup-inventory.md) |
 | Ressourcen, Arbeitszeittabellen und Aufgaben einrichten, um Projekte zu verwalten. |[Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md) |
 | Konfiguriert, wie Anlagen versichert, verwaltet und abgeschrieben werden und wie Sie die Kosten aus Anlagen in Ihren Mandantenbüchern erfassen. |[Anlagen einrichten](fa-setup.md) |
+|Definieren Sie die allgemeinen Regeln und Werte für Lagerprozesse und die spezifische Bearbeitung an jedem Lagerort.|[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)|
+|Bereiten Sie Fertigungsstücklisten und Arbeitspläne vor, um zu definieren, wie Endartikel produkziert werden und bereiten Sie Arbeitsplätze oder Arbeitsplatzgruppen vor, um die notwendigen Arbeitsgänge auszuführen.|[Produktion einrichten](production-configure-production-processes.md)|
 | Richtet eindeutige Identifizierungscodes für Datensätze, wie Karten, Belege und Buch.-Blattzeilen ein, um sie im System zu verfolgen. |[Erstellen von Nummernkreisen](ui-create-number-series.md) |
 | Richtet das Fenster **SMTP-Mail-Einrichtung** ein, um E-Mails von Dokumenten innerhalb von zu [!INCLUDE[d365fin](includes/d365fin_md.md)]senden und zu erhalten. |[Gewusst wie: Einrichten von E-Mails](madeira-how-setup-email.md) |
 | Richten Sie eindeutige Identifizierungscodes ein. |[Erstellen von Nummernkreisen](ui-create-number-series.md) |
 
+Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)] sind. Weitere Informationen finden Sie unter [Verwaltung in Dynamics 365 for Financials einrichten](admin-setup-and-administration.md).  
+
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
-[Verkauf](sales-manage-sales.md)  
+[Verkauf](sales-manage-sales.md)
 [Einkauf](purchasing-manage-purchasing.md)  
+[Lagerbest](inventory-manage-inventory.md)    
+[Project Management](projects-manage-projects.md)
+[Anlagen](fa-manage.md)    
+[Montageverwaltung](assembly-assemble-items.md)  
+[Produktion](production-manage-manufacturing.md)  
+[Logistik](warehouse-manage-warehouse.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Willkommen bei [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
+[Verwaltung in Dynamics 365 for Financials einrichten](admin-setup-and-administration.md)  
+[Neue Unternehmen anlegen in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
+[Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: Marketingkampagnen in Financials einrichten | Microsoft Docs
-description: "Beschreibt, wie Sie Marketingkampagnen in Dynamics 365 for Financials einrichten und durchführen können"
+description: "Beschreibt, wie Sie Marketingkampagnen in Dynamics 365 for Financials einrichten und ausführen, um potenzielle Kunden zu identifizieren und Kunden zu behalten."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 05/20/2017
-ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 92c5fb75f4f3d3180ba67b89481beed2e58c3dbe
-ms.openlocfilehash: 68359d2dd2c2e07463babda91d86d47998f0912a
+ms.date: 06/06/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
 ms.contentlocale: de-de
-ms.lasthandoff: 06/26/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Verwaltung von Marketingkampagnen
@@ -39,7 +38,9 @@ Nachdem Sie Ihre Kampagne eingerichtet haben, entschieden haben, welche Segmente
 
  Nachdem Sie die Verkaufspreise/Zeilenrabatte sowie die Segmente auf der Kampagnenkarte eingerichtet haben, müssen Sie sie aktivieren, so dass die Kampagnenpreise/Rabatte in den Zeilen wiedergegeben werden.
 
-**Hinweis**: Um die Verkaufspreise/Zeilenrabatte zu aktivieren, müssen Sie das gesamte Segment oder nur einzelne Kontakte für die Kampagne markieren. Wenn die Verkaufspreise/Zeilenrabatte für alle Kontakte des Segments gelten sollen, wählen Sie im Fenster **Segment** auf dem Inforegister **Kampagne** das Feld **Kampagnenziel** aus.
+> [!NOTE]  
+>   Um die Verkaufspreise/Zeilenrabatte zu aktivieren, müssen Sie das gesamte Segment oder nur einzelne Kontakte für die Kampagne markieren. Wenn die Verkaufspreise/Zeilenrabatte für alle Kontakte des Segments gelten sollen, wählen Sie im Fenster **Segment** auf dem Inforegister **Kampagne** das Feld **Kampagnenziel** aus.
+
 Wenn die Verkaufspreise/Zeilenrabatte nicht für alle Kontakte des Segments gelten sollen, können Sie das Feld **Kampagnenziel** für die relevanten Kontakte. Wenn Sie dieses Feld nicht sehen, können Sie es zur Ansicht hinzuzufügen. Weitere Informationen finden Sie unter [Benutzer-Personalisierung](ui-user-personalization.md).
 
 ## <a name="conducting-campaigns"></a>Kampagnen durchführen

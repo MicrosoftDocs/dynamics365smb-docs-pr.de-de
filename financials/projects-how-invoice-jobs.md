@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2fdc8f99fa81a0eecd55438bba33b1a93335a416
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 9367dc5875b687b95076efffb3b0df2019332651
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-invoice-jobs"></a>Vorgehensweise: Fakturieren

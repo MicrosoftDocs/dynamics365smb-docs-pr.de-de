@@ -9,14 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2017
+ms.date: 08/17/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="smart-notifications"></a>Intelligente Benachrichtigungen
@@ -27,8 +26,10 @@ Wenn Sie das Anzeigen der Benachrichtigungsdetails auswählen, können Sie Maßn
 Die Benachrichtigungen helfen dem ungeübten Nutzer dabei, nicht vertraute Aufgaben abzuschließen und reduzieren nicht die Produktivität des geschulten Benutzer.  
 
 ## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Schaltet Benachrichtigungen ein und aus und steuert, wann diese gesendet werden
-Wenn Sie zuerst mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Benachrichtigungen beginnen, werden alle ausgeführt, Sie können diese aber ein- oder ausschalten, beispielsweise, wenn Sie an einem bestimmten Ereignis oder an einen Status nicht interessiert sind.   
+Wenn Sie zuerst mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Benachrichtigungen beginnen, werden alle ausgeführt, Sie können diese aber ein- oder ausschalten, beispielsweise, wenn Sie an einem bestimmten Ereignis oder an einen Status nicht interessiert sind.  
+  
 Darüber hinaus lassen gewisse Benachrichtigungen Sie die Bedingungen angeben, mit denen sie gesendet werden sollen. Wenn Sie beispielsweise benachrichtigt werden möchten, wenn der Lagerbestand niedrig ist, aber dies nur für Artikel, die Sie von einem bestimmten Lieferanten kaufen.  
+  
 Aktivieren oder deaktivieren Sie bestimmte Benachrichtigungen, die auf Sie interessieren.  
 
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Meine Benachrichtigungen** ein und wählen Sie dann den entsprechenden Link aus.

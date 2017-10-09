@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-closing-statements"></a>Abschlussberichrte vorbereiten
@@ -33,7 +32,7 @@ Die folgende Tabelle enthält Beschreibungen zu einigen hilfreichen Berichten so
 | Vergleichen der Rohbilanz mit einem Budget |Rohbilanz/Budget |
 | Drucken eines Rohbilanzberichts mit Salden und Bewegungen für Sachkonten – berechnet für eine Serie von Perioden |Rohbilanz nach Periode |
 | Drucken eines Kontenschemas zum Analysieren der Werte auf Sachkonten oder zum Vergleichen tatsächlicher Sachposten mit Finanzbudgetposten |Kontenschema |
-| Überprüfen, ob Debitoren- und Kreditorenposten mit den entsprechenden Sachposten ausgeglichen sind |Kunde abstimmen und Verkäufer, Zugriff |
+| Überprüfen, ob Debitoren- und Kreditorenposten mit den entsprechenden Sachposten ausgeglichen sind |Deb.- & Kred.-Konten abstimmen |
 
 Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Suche für Seite oder Bericht] (media/ui-search/search_small.png "Suche nach Seite oder Bericht")und geben Sie den Namen wie er in der Tabelle erscheint ein, und wählen Sie dann den zugehörigen Link aus.
 

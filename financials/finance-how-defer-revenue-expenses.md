@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 40db0f3018bcf9575f80aa858bd9febd7bf0846a
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-defer-revenues-and-expenses"></a>Gewusst wie: Einnahmen und Ausgaben zurückstellen
@@ -37,7 +36,7 @@ Um Einnahmen oder Ausgaben in den betroffenen Buchhaltungsperioden einzubeziehen
 Für beide Arten Aufschub, wählen Sie im Feld **Art** **Bilanz** aus und benennen Sie die Konten entsprechend, wie "Nicht verdiente Erträge" für zurückgestellte Einnahmen und "nicht bezahlte Ausgaben" für abgegrenzte Ausgaben.
 
 ## <a name="to-set-up-a-deferral-template"></a>So richten Sie eine Aufschubvorlage ein
-1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Abgrenzungsvorlage** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Abgrenzungsvorlage** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus.
 4. Geben Sie Feld **Berechnungsmethode** an, wie das Feld **Betrag** für jede Periode im Fenster **Abrechnungsplan** berechnet wird. Sie haben die Wahl zwischen den folgenden Optionen:
@@ -46,7 +45,7 @@ Für beide Arten Aufschub, wählen Sie im Feld **Art** **Bilanz** aus und benenn
    * **Gleich pro Periode**: Die regelmäßigen Abgrenzungsbeträge werden entsprechend der Anzahl der Perioden berechnet, gleichmäßig nach Perioden verteilt.
    * **Tage pro Periode**: Die regelmäßigen Abgrenzungsbeträge werden entsprechend der Anzahl der Tage in der Periode berechnet.
    * **Benutzerdefiniert**: Die regelmäßig Abgrenzungsbeträge werden nicht berechnet. Sie müssen das Feld **Betrag** für jede Periode im Abgrenzungsplanfenster manuell ausfüllen. Weitere Informationen finden Sie im Abschnitt „So ändern Sie einen Aufschubzeitplan aus einer Verkaufsrechnung”.
-5. In der **Periodenbeschr.** Feld geben Sie eine Beschreibung an, die bei Einträgen für die Abgrenzungsbuchung angezeigt wird. Sie können die folgenden Platzhaltercodes für typische Werte eingeben, die automatisch eingefügt werden, wenn die Periodenbeschreibung angezeigt wird.
+5. Im Feld **Periodenbeschr.** geben Sie eine Beschreibung an, die bei Einträgen für die Abgrenzungsbuchung angezeigt wird. Sie können die folgenden Platzhaltercodes für typische Werte eingeben, die automatisch eingefügt werden, wenn die Periodenbeschreibung angezeigt wird.
 
    * %1 = Die Tagesnummer des Periodenbuchungsdatums
    * %2 = Die Wochennummer des Periodenbuchungsdatums
@@ -58,7 +57,7 @@ Für beide Arten Aufschub, wählen Sie im Feld **Art** **Bilanz** aus und benenn
 Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie "Abgrenzungsausgabe für %4 %6" eingeben, ist die angezeigte Beschreibung "Abgrenzungsausgaben für Februar 2016".
 
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>So weisen Sie einem Artikel eine Aufschubvorlage zu
-1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Abgrenzungsvorlage** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Abgrenzungsvorlage** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie die Karte für den Artikel, für den Ausgaben oder Einnahmen zu den Buchungsperioden abgegrenzt werden müssen, wenn der Artikel gekauft oder verkauft wurde.
 3. Im Feld **Standard-Abgrenzungsvorlage** wählen Sie die entsprechende Abgrenzungsvorlage aus.
 
@@ -66,7 +65,7 @@ Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie "Abgrenzungsausgabe für %4
 > [!NOTE]  
 >   Die Schritte in diesem Ablauf sind identisch, wie wenn Sie einen Abgrenzungsplan für Ausgaben aus einer Kaufrechnung ändern.
 
-1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsrechnung** ein und wählen den zugehörenden Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsrechnung** ein und wählen den zugehörenden Link aus.
 2. Erstellen Sie eine Verkaufsrechnung für einen Artikel, der einer Abgrenzungsvorlage zugewiesen ist. Weitere Informationen finden Sie unter [Gewusst wie: Rechnungsverkäufe](sales-how-invoice-sales.md).
 
     Beachten Sie Folgendes: Sobald Sie den Artikel (oder Ressource oder Sachkonto) in der Rechnungszeile eingeben, wird das Feld **Abgrenzungscode** mit dem Code der zugewiesenen Abgrenzungsvorlage ausgefüllt.
@@ -82,7 +81,7 @@ Beispiel: Das Buchungsdatum ist 02.06.2016. Wenn Sie "Abgrenzungsausgabe für %4
 1. Im Fenster **Gebuchte Verkaufsrechnung** wählen Sie die Aktion **Buchung ansehen** aus.
 2. Wählen Sie im Fenster **Buchungsvorschau** die Option **Sachkonteneintrag** aus und wählen Sie dann **Zugehörige Einträge anzeigen** aus.
 
-Sachkonteneinträge, die im entsprechenden Abgrenzungskonto gebucht werden müssen, wie beispielsweise "Nicht verdiente Erträge" werden durch die Beschreibung bezeichnet, die Sie unter **Perioden Beschr.** eingegeben haben. Feld in der Abgrenzungsvorlage beispielsweise "Ausgaben abgegrenzt für Februar 2016".
+Zu einem bestimmten Aufschubkonto zu buchende Sachkonteneinträge, beispielsweise „Nicht verdiente Erträge”, werden von der Beschreibung bezeichnet, die Sie im Feld **Periodenbeschreibung** in der Aufschubvorlage eingegeben haben, beispielsweise Einnahmeaufschub für Februar 2016.
 
 ## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>So überprüfen Sie gebuchte Aufschübe im Bericht „Verkaufsaufschubzusammenfassung” .
 > [!NOTE]  

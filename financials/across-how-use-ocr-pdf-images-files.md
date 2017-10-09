@@ -1,6 +1,6 @@
 ---
 title: Verwenden Sie OCR, um PDF-Dateien zu E-Rechnungen umzuwandeln| Microsoft Docs
-description: "Beschreibt, wie Sie einen OCRDienst verwenden können, um PDF-Dateien oder Bilddateien zu elektronischen Belegen in den Finanzverhältnissen umzuwandeln."
+description: "Beschreibt, wie Sie einen OCRDienst verwenden können, um PDF-Dateien oder Bilddateien zu elektronischen Belegen in den Financials umzuwandeln."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Gewusst wie: Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln
@@ -56,7 +55,7 @@ Wenn Sie keine Aufgabenwarteschlange verwenden oder Sie einen fertigen OCR-Beleg
 > [!NOTE]  
 >   Wenn der OCR-Dienst für die manuelle Überprüfung der verarbeiteten Belegen eingerichtet wird, dann enthält das **OCR-Status**-Feld den Wert **Wartet auf Verifizierung**. In diesem Fall führen Sie die folgenden Schritte aus, um sich an der OCR-Dienst-Website anzumelden, um einen OCR-Beleg manuell zu überprüfen.
 
-1. Im Feld **OCR-Status**-Feld wählen Sie den Link **Wartet auf Verifizierung** aus. Alternativ wählen Sie die **Wartet auf Verifizierung**-Kachel auf der Homepage aus.
+1. Im Feld **OCR-Status**-Feld wählen Sie den Link **Wartet auf Verifizierung** aus. Wählen Sie die **Wartet auf Verifizierung**-Kachel auf der Homepage aus.
 2. Melden Sie sich auf der OCR-Dienst-Website mit den Anmeldeinformationen des OCR-Service-Kontos an. Das sind die Anmeldeinformationen, die Sie beim Einrichten des Dienstes verwendet haben. Weitere Informationen finden Sie im Abschnitt"So richten Sie einen OCR-Service ein"in [Gewusst wie: Eingehende Dokumente einrichten](across-how-setup-income-documents.md).
 
     Wenn Sie auf die Website über das Feld **OCR Status** zugreifen, wird der entsprechende Beleg sofort nach Ihrem Anmelden gezeigt. Wenn Sie auf die Website zugreifen, indem Sie die Kachel auf der Startseite auswählen, müssen Sie auf der ersten OCR-Dienst-Seite die **Start**-Schaltfläche auf der Registerkarte **Prüfen** auswählen, oder in den Beleg, den Sie prüfen möchten doppelklicken.

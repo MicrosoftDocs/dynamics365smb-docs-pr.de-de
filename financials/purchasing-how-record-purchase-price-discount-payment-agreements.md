@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 07/03/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
 ms.openlocfilehash: 8f2d66064a2ab62cc8a0303b70cd1ae74517f8eb
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-special-purchase-prices-and-discounts"></a>Gewusst wie: Besondere Verkaufspreise und Rabatte aufzeichnen

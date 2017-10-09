@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6844d5fe3efba5349eef166161c5956116bc7fc0
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-run-batch-jobs"></a>Vorgehensweise: Ausführen von Stapelverarbeitungen

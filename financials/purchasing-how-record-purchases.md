@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-purchases"></a>Vorgehensweise: Erfassen eines Einkaufs
@@ -58,7 +57,7 @@ Sie können die oberen Infoboxen des Einkaufsangebotes auf zwei Arten ausfüllen
 
     > [!NOTE]  
 >   Wenn Sie wiederkehrende Einkaufszeilen für den Debitor, wie einen monatlichen Ersatzauftrag, eingerichtet haben, können Sie diese Zeilen auf der Rechnung durch Auswählen der Aktion **Wiederkehrende Einkaufszeilen** abrufen einfügen.
-10. Geben Sie auf dem Inforegister **Zeilen** im Feld **Artikelnummer** die Nummer eines Lagerartikels oder Dienstes ein.
+10. Geben Sie im Inforegister **Zeilen** im Feld **Artikelnr.** die Nummer eines Lagerartikels ein oder Service ein.
 11. Geben Sie in dem Feld **Menge** die Anzahl des Artikels an, der eingekauft wird.
 
     > [!NOTE]  
@@ -78,6 +77,7 @@ Der Einkauf ist nun im Bestand und in den Finanzdatensätzen reflektiert, und di
 ## <a name="see-also"></a>Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
+[Gewusst wie: Angebote anfragen](purchasing-how-request-quotes.md)  
 [Vorgehensweise: Einkauf von Produkten für einen Verkauf](purchasing-how-purchase-products-sale.md)  
 [Vorgehensweise: Einen neuen Kreditor registrieren](purchasing-how-register-new-vendors.md)  
 [So geht's: Direktlieferungen vorbereiten](sales-how-drop-shipment.md)  

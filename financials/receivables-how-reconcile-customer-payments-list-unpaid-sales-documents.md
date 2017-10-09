@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 06/16/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8ea27f21b2e4acc25b4acc6b5ba15580ca5a1997
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Gewusst wie: Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
@@ -34,7 +33,7 @@ Da Sie verschiedene Zahlungsarten auf verschiedene Gegenkonten buchen können, m
 
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Einrichtung der Zahlungserfassung** ein. Wählen Sie dann den zugehörigen Link aus.
 
-    Alternativ wählen Sie im Fenster **Zahlungserfassung** die Aktion **Einrichten** aus.    
+    Wählen Sie im Fenster **Zahlungserfassung** die Aktion **Einrichten** aus.    
 2. Füllen Sie die Felder im Fenster **Zahlungserfassungseinrichtung** aus. Wählen Sie ein Feld aus, um eine kurze Beschreibung des Feldes zu lesen oder einen Link für weitere Informationen zu öffnen.  
 
 ## <a name="to-reconcile-payments-individually"></a>Manuelles Abstimmen von Zahlungen
@@ -74,7 +73,7 @@ Zahlungsposten werden in der Finanzbuchhaltung, Bank und in Debitorenkonten gebu
 
 Zahlungseingänge werden in Finanzbuchhaltung, Bank und in Debitorenkonten gebucht. Jede Zahlung wird für den entsprechenden gebuchten Verkaufsbeleg angewandt.  
 
-Wenn eine Zahlung in der Bank nicht durch Zeile im Fenster **Zahlungserfassung** angegeben wird, kann dies sein, da der zugehörige Beleg noch nicht gebucht wurde. In diesem Fall können Sie eine Suchfunktion verwenden, um den Beleg zu buchen und schnell zu suchen, um die Zahlung zu verarbeiten. Weitere Informationen finden Sie unter Vorgehensweise: Suchen Sie unbezahlte Belege während des manuellen Debitoren-Zahlungs-Abstimmungsabschnitts.  
+Wenn eine Zahlung in der Bank nicht durch Zeile im Fenster **Zahlungserfassung** angegeben wird, kann dies sein, da der zugehörige Beleg noch nicht gebucht wurde. In diesem Fall können Sie eine Suchfunktion verwenden, um den Beleg zu buchen und schnell zu suchen, um die Zahlung zu verarbeiten. Weitere Informationen finden unter "Bestimmte Verkaufsbeleg finden, die nicht vollständig fakturiertet sind".  
 
 Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus dem Fenster **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung gelöst wurde. Weitere Informationen finden Sie unter "Zahlung ohne einen zugehörigen Belegabschnitt zu erfassen oder zu buchen."  
 
@@ -138,7 +137,7 @@ Der zugehörige Beleg bleibt offen.
 Der zugehörige Beleg ist abgeschlossen, und dem Debitor wird der Überzahlungsbetrag gutgeschrieben.  
 
 ## <a name="to-find-a-specific-sales-document-that-is-not-fully-invoiced"></a>Bestimmten Verkaufsbeleg suchen, der nicht vollständig fakturiert wurde
-Das Fenster **Zahlungserfassung** unterstützt Sie bei Aufgaben, die interne Konten mit tatsächlichen Bargeldabbildungen ausgleichen müssen, um die effektive Sammlung von Debitoren und fällige Zahlung an Kreditoren sicher zu stellen. Es zeigt ausstehende eingehende Zahlungen als Zeilen an, welche Verkaufsbelege darstellen, in denen ein Betrag zur Zahlung fällig ist.  
+Das **Zahlungserfassungs**-Fenster unterstützt Sie bei Aufgaben, die interne Konten mit tatsächlichen Bargeldabbildungen ausgleichen müssen, um die effektive Sammlung von Debitoren und fällige Zahlung an Kreditoren sicher zu stellen. Es zeigt ausstehende eingehende Zahlungen als Zeilen an, welche Verkaufsbelege darstellen, in denen ein Betrag zur Zahlung fällig ist.  
 
 Wenn eine Zahlung erfolgt ist, auf der Bank oder anderweitig verzeichnet wurde, wird normalerweise der zugehörige Verkaufs- oder Einkaufsbeleg als Zeile im Fenster **Zahlungserfassung** dargestellt, da für den betreffenden Beleg die Zahlung noch für den ausstehenden Betrag gebucht werden muss. Manchmal wird jedoch eine Zahlung, die geleistet wurde, nicht durch eine Zeile im Fenster **Zahlungserfassung** dargestellt, da der jeweilige Beleg üblicherweise nicht vollständig fakturiert wurde.
 
@@ -151,7 +150,7 @@ Nachfolgend wird erklärt, wie man einen bestimmten Beleg findet, indem man beid
 
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Zahlungs-Anmeldung** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Zeigen Sie mit dem Mauszeiger auf eine beliebige Zeile und wählen Sie **Dokument suchen**.
-3. Im Fenster **Dokumentsuche** geben Sie einen Suchwert im Feld **Dokumentennummer** ein. Feld  
+3. Im Fenster **Dokumentsuche** geben Sie einen Suchwert im Feld **Dokumentennummer** ein.  
 
     > [!NOTE]  
 >   Der Wert, den Sie hier eingeben, ist in den ausgeblendeten Platzhalterzeichen enthalten. Das bedeutet, dass die Funktion in allen Belegnummern sucht, die den eingegebenen Wert enthalten.    

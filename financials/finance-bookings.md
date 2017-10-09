@@ -1,6 +1,6 @@
 ---
 title: Fakturieren von Anmeldungen in Dynamics 365 | Microsoft Docs
-description: "Erfahren Sie, wie Sie Massenrechnungsstellung von Microsoft-Anmeldungen in Dynamics 365 für Financials vornehmen können."
+description: "Erfahren Sie, wie Sie Massenrechnungsstellung von Microsoft Bookings in Dynamics 365 for Financials vornehmen können."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1f1a1645ba27a3b42d67c11f7472c283ca44dbd1
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Massenrechnungen für Microsoft-Anmeldungen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Massenrechnungen für Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Wenn Ihr Unternehmen die Anmeldungs-App in Office 365 verwendet, können Sie Massenrechnungsstellung für Termine vornehmen. Die Seite **Nicht in Rechnung gestellte Anmeldungen** in [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt eine Liste der abgeschlossenen Anmeldungen des Mandanten bereit. Auf dieser Seite können Sie schnell die Termine auswählen, die Sie verrechnen wollen und Entwurfsrechnungen für die erbrachten Services erstellen.  
 
 ## <a name="connect-to-bookings"></a>Mit Anmeldungen verbinden
@@ -35,5 +34,5 @@ Die Unterstützung für die Fakturierung von Terminen von Anmeldungen ist schnel
 [Finanzen](finance.md)  
 [Vorgehensweise: Fakturieren](sales-how-invoice-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Microsoft-Anmeldungen](https://products.office.com/en-us/business/scheduling-and-booking-app)  
+[Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bbde977ff87049625295fab798445539b23f23dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-companies"></a>Kontaktunternehmenerstellen
@@ -27,9 +26,9 @@ Für eine effiziente Kommunikation empfiehlt es sich, einem bestimmten Unternehm
 
 Darüber hinaus können Sie definieren, welche Geschäftsbeziehung mit einem Kontakt besteht. So kann es sich bei einem Kontakt beispielsweise um einen Interessenten, um eine Bank oder um einen Vertragsnehmer handeln.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. Die Aufgaben sind in der Reihenfolge aufgeführt, in der sie in der Regel ausgeführt werden.
+Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. 
 
-| Aufgabe | Siehe |
+| An | Siehe |
 | --- | --- |
 | Richten Sie einen Kontakt für ein neues Unternehmen ein, entweder von Grund auf oder über einen Debitor, Kreditor oder Bankkonto. |[Gewusst wie: Erstellen von neuen Kontaktunternehmen](marketing-how-create-contact-companies.md) |
 | Synchronisieren von Informationen in den Kontakten mit allgemeinen Informationen in den Debitoren, in Kreditoren und in Bankkonten. |[Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |

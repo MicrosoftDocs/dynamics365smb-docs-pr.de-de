@@ -1,8 +1,6 @@
 ---
 title: "Kunden für überfälligen Zahlungen erinnern oder mit einem Zuschlag belegen| Microsoft Docs"
 description: "Beschreibt, wie eine Mahnung zu einem Debitoren zu einer Zahlung, welche und Gebühren hinzuzufügen fällig ist, oder Gebühren mit der Zahlung aufgrund von Verzögerung sendet."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f64ad8c9170af52d7650324029a259b267f166b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-collect-outstanding-balances"></a>Vorgehensweise: Einziehen von Restbeträgen
@@ -49,7 +46,7 @@ Erstellte Zinsrechnungen können geändert werden. Der Text, der am Anfang und a
 Nach dem Erstellen von Zinsrechnungen und dem Vornehmen von möglicherweise erforderlichen Änderungen können Sie entweder Testberichte drucken oder die Zinsrechnungen versenden, in der Regel als E-Mail.  
 
 ## <a name="to-send-the-customer-statement-report"></a>Um den Kontoauszugsbericht zu senden
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Kundenauszug** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Kundenauszug** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Unter **Ausgabeoptionen** wählen Sie aus, wie der Bericht an den Kunden gesendet wird.
 
@@ -59,7 +56,7 @@ Nach dem Erstellen von Zinsrechnungen und dem Vornehmen von möglicherweise erfo
 ## <a name="to-set-up-reminder-terms"></a>So richten Sie Mahnmethoden ein:
 Bei Debitoren mit überfälligen Zahlungen muss entschieden werden, wann und auf welche Weise eine Mahnung gesendet wird. Darüber hinaus können ggf. Gebühren oder Zinsen erhoben werden. Sie können eine beliebige Anzahl an Lieferanmahnungsmethoden einrichten. Für jeden Lieferanmahnungsmethodencode können beliebig viele Lieferanmahnungsstufen definiert werden.
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnungsbestimmungen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnungsbestimmungen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus.  
 3. Um mehr als eine Kombination von Mahnmethoden zu verwenden, richten Sie einen Code für jede ein.
 
@@ -68,7 +65,7 @@ Bei der ersten Erstellung einer Mahnung für einen Debitor werden die Einstellun
 
 Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die Bedingungen der höchsten Stufe verwendet. Die Anzahl der erstellbaren Mahnungen wird in den Mahnmethoden durch das Feld **Max. Anzahl Mahnungen** begrenzt.
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnungsbestimmungen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnungsbestimmungen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Klicken Sie im Fenster **Mahnmethoden** in die Zeile mit der Methode, für die Sie Stufen anlegen möchten, und wählen Sie dann Aktione **Stufen**.  
 3. Füllen Sie die Felder je nach Bedarf aus.  
 
@@ -99,14 +96,14 @@ Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die 
 |%11|Der Unternehmensname.|  
 |%12|Inhalt des Felds **Zusatzgebühr pro Zeile** des Mahnungskopfs|  
 
-Wenn Sie beispielsweise schreiben **%7 %9 fällig 9 am 2%**, dann enthält die Mahnung den folgenden Text: **Sie schulden 1,200, 50 MW, fällig am 02\-02\-2014**.
+Wenn Sie beispielsweise schreiben **%9 %7 fällig am %2.**, dann enthält die Mahnung den folgenden Text: **Sie schulden 1,200,50 MW, fällig am 02-02-2014.**
 
 Geben Sie nach der Einrichtung der Mahnmethoden (mit zusätzlichen Stufen und Text) auf jeder Debitorenkarte einen der Codes ein. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Debitoren](sales-how-register-new-customers.md).
 
 ## <a name="to-create-a-reminder-automatically"></a>So erstellen Sie Mahnungen automatisch:
 Eine Mahnung ähnelt einer Rechnung. Beim Erstellen einer Lieferanmahnung müssen sowohl der Lieferanmahnungskopf als auch eine oder mehrere Lieferanmahnungszeilen ausgefüllt werden. Sie können eine Funktion verwenden, um Mahnungen für alle Debitoren automatisch zu erstellen.
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnung** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnung** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Klicken Sie im Fenster **Mahnung** auf die Aktion **Mahnung erstellen**.
 3. Im Fenster **Mahnungen erstellen** füllen Sie die Felder aus, um festzulegen wie und an Mahnungen erstellt werden.
 4. Wählen Sie die Schaltfläche **OK** aus.
@@ -114,7 +111,7 @@ Eine Mahnung ähnelt einer Rechnung. Beim Erstellen einer Lieferanmahnung müsse
 ## <a name="to-create-a-reminder-manually"></a>So werden Mahnungen manuell erstellt:
 Im Fenster **Mahnung** können Sie das Inforegister **Allgemein** manuell ausfüllen und dann die Zeilen automatisch ausfüllen dann lassen.
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnung** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnung** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie im Inforegister **Allgemein** die notwendigen Felder aus.
 4. Wählen Sie die Aktion **Mahnungszeile vorschlagen**.
@@ -129,7 +126,7 @@ Im Fenster **Mahnung** können Sie das Inforegister **Allgemein** manuell ausfü
 ## <a name="to-replace-reminder-texts"></a>So ersetzen Sie Mahnungstexte:  
 Es gibt verschiedene Arten, wie Sie den Text, der auf der ausgedruckten Mahnung erscheinen soll, festlegen können. In manchen Fällen möchten Sie möglicherweise die Vor- und Nachtexte, die für die aktuelle Stufe festgelegt wurden, durch die einer anderen Stufe ersetzen.
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnung** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnung** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie die relevante Mahnung, und wählen Sie die Aktion **Mahnungstext aktualisieren** aus.
 3. Geben Sie im Fenster **Mahnungstext aktualisieren** im Feld **Mahnstufe** die gewünschte Stufe ein.
 3. Wählen Sie die Schaltfläche **OK**, um den Vortext und den Nachtext zu aktualisieren.
@@ -151,7 +148,7 @@ Wenn das Kontrollkästchen **Zins buchen** oder **Zusätzliche Gebühren buchen*
 
 Zusätzlich kann das Registrieren der Mahnung zu MwSt.-Posten führen.
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnung** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnung** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die entsprechenden Mahung aus und wählen Sie die Aktion **Ausgeben** aus.
 3. Füllen Sie im Fenster **Mahnungen ausgeben** die Felder nach Bedarf aus.
 4. Wählen Sie die Schaltfläche **OK** aus.
@@ -163,15 +160,17 @@ Sie müssen für jede Zinskondition einen eigenen Code einrichten. Danach könne
 
 Zinsen können entweder auf der Grundlage des Tagessaldos oder des fälligen Saldos berechnet werden.
 
-Bei der Methode "Fälliger Saldo" stellt der Zins einfach einen Prozentsatz des überfälligen Betrags dar.
-**Methode fälliger Saldo** - Zins = Überfälliger Betrag x (Zinssatz/100)
+Bei der Methode "Fälliger Saldo" stellt der Zins einfach einen Prozentsatz des überfälligen Betrags dar:  
 
-Mit der durchschnittlichen "Tagessaldomethode" wird berücksichtigt, seit wie vielen Tagen die Zahlung überfällig ist:
-**Durchschnittlicher Tagessaldo**methode = Überfälliger Betrag * (Tage Überfällig / Zinsperiode) * (Zinssatz / 100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+Mit der durchschnittlichen "Tagessaldomethode" wird berücksichtigt, seit wie vielen Tagen die Zahlung überfällig ist:  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 Zusätzlich ist jeder Code in der Tabelle "Zinskondition" mit einer Untertabelle, der Tabelle Zinsrechnungstext verbunden. Für jeden Zinskonditionencode kann hier ein Vor- und/oder Nachtext hinterlegt werden, der dann auf dem Zinsrechnungsbeleg erscheint.
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnungsbestimmungen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mahnungsbestimmungen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus.  
 3. Um mehr als eine Kombination von Mahnmethoden zu verwenden, richten Sie einen Code für jede ein.
 
@@ -201,18 +200,16 @@ Zusätzlich ist jeder Code in der Tabelle "Zinskondition" mit einer Untertabelle
 ## <a name="to-create-a-finance-charge-memo-manually"></a>So erstellen Sie eine Zinsrechnung manuell  
 Eine Zinsrechnung ist ähnlich wie eine Rechnung. Sie können den Kopf manuell ausfüllen und die Zeilen ausfüllen lassen, oder Sie können Zinsrechnungen für alle Debitoren automatisch erstellen lassen.
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Zinsgebührmemo** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Zinsgebührmemo** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus.  
 3. Wählen Sie **Zinsgebührmemo-Zeilen** vorschlagen.
-4. In der ** Gebühr vorschlagen Zinsrechnungszeilen  
-6.  Setzen Sie auf dem Inforegister **Debitorenposten** einen Filter, wenn Sie nur für bestimmte Posten Zinsrechnungen erstellen möchten.  
-
-7.  Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.  
+4. Im Fenster **Zinsrechnungszeile vorschlagen**Setzen Sie auf dem Inforegister **Debitorenposten** einen Filter, wenn Sie nur für bestimmte Posten Zinsrechnungen erstellen möchten.  
+5.  Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>So aktualisieren Sie Zinsrechnungstexte:  
 In manchen Fällen möchten Sie möglicherweise den Vor- und Nachtext ändern, den Sie für die Zinskonditionen eingerichtet haben. Wenn Sie dies zu einem Zeitpunkt tun, an dem Sie Zinsrechnungen angelegt, aber noch nicht registriert haben, können Sie die Anwendung dazu veranlassen, die Zinsrechnungen mit den geänderten Texten zu aktualisieren.
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Zinsgebührmemo** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Zinsgebührmemo** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Öffnen Sie das Fenster, in dem Sie Text ändern möchten und wählen Sie die **Zinsrech. Text aktualisieren** Aktion aus.
 3. Auf dem Inforegister **Zinsrechnungskopf aktualisieren** können Sie einen Filter festlegen, wenn Sie mehrere Zinsrechnungen aktualisieren möchten.
 4. Wählen Sie die Schaltfläche **OK**, um den Vortext und den Nachtext zu aktualisieren.  
@@ -232,7 +229,7 @@ Wenn das Kontrollkästchen **Zins buchen** oder **Zusätzliche Gebühren buchen*
 
 Zusätzlich kann das Registrieren der Mahnung zu MwSt.-Posten führen.
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Zinsgebührmemo** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Zinsgebührmemo** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie das entsprechenden Memo aus und wählen Sie die Aktion **Ausgeben** aus.
 3. Füllen Sie im Fenster **Zinsgebührmemo ausgeben** die Felder nach Bedarf aus.
 4. Wählen Sie die Schaltfläche **OK** aus.
@@ -241,7 +238,7 @@ Das Zinsgebührenmemo wird entweder gedruckt oder an eine festgelegte E-Mail als
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>So zeigen Sie Mahnungs- und Zinsrechnungsposten an:  
 Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debitorenposten enthält, ein Mahnungsposten in der Tabelle **Mahnung/Zinsrechnung Posten** erstellt. Sie können sich einen Überblick über die erstellten Mahnungsposten für einen bestimmten Debitor anzeigen lassen.    
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kunden** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kunden** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Öffnen Sie die entsprechende Debitorenkarte und klicken dann auf **Buchblatteinträge**.
 3. Klicken Sie in die Zeile **Buch-Blatteinträge** und wählen Sie die Zeilen, die Sie anzeigen möchten, und klicken Sie dann auf  **Posten,  Mahnungs-/Zinsrechnungseinträge**.
 

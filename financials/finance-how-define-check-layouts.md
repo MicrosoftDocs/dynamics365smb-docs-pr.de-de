@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-define-check-layouts"></a>Gewusst wie: Definieren von Scheck-Layouts
@@ -27,7 +26,7 @@ Schecks können sowohl im USA- als auch im Kanada-Schecklayout, entweder im Sche
 
 ## <a name="to-define-check-layouts"></a>So definieren Sie Schecklayouts
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "") Nach Seite oder Bericht suchen und geben **Berichtsauswahl Bankkonto** ein. Wählen Sie dann den zugehörigen Link aus.
-2. Wählen Sie im Fenster **Berichtsauswahl - Bankkonto** im Feld **Verwendung** **Scheck**aus.
+2. Im Fenster **Berichts-Auswahl - Bankkonto** unter **Verwendung** wählen Sie **Scheck**.
 3. Wählen Sie eine der folgenden Berichts-IDs:
 
 | Berichts-ID | Berichtsname | Beschreibung |

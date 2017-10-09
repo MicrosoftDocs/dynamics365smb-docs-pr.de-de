@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 for Financials mit Outlook nutzen| Microsoft Docs
-description: "Dynamics 365 for Financials hat eine starke Integration mit Office 365 und macht es möglich, dass Sie Ihree Geschäftsaktivitäten und E-Mails mit Debitoren und Kreditoren direkt in Outlook zu verwalten können."
+description: "Dynamics 365 for Financials hat eine starke Integration mit Office 365 und macht es möglich, dass Sie Ihre Geschäftsaktivitäten und E-Mails mit Debitoren und Kreditoren direkt in Outlook zu verwalten können."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -12,23 +12,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-as-your-business-inbox-in-outlook"></a>Dynamics 365 for Financials als Geschäfts-Eingang in Outlook verwenden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt die Möglichkeit vor, Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. Mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, sowie Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.  
 
 ## <a name="get-the-add-in"></a>Laden Sie das Add-In herunter
-Einer der Schritte der unterstützten Konfiguration für "Erste Schritte" in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist das Fenster **Führen Sie Ihr Unternehmen in Office 365**. Wenn Sie in diesem Fenster die Schaltfläche **In Outlook einrichten** anklicken, müssen Sie Ihren Office 365-Benutzernamen und -Kennwort angeben. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt.  
+Einer der Schritte der unterstützten Konfiguration für "Erste Schritte" in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist das Fenster **Führen Sie Ihr Unternehmen in Office 365**. Wenn Sie in diesem Fenster die Schaltfläche **In Outlook einrichten** anklicken, müssen Sie Ihren Office 365 Benutzernamen und -Kennwort angeben. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt.  
 
-Wenn Sie Outlook öffnen, sehen Sie eine E-Mail vom Financials-Administrator. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können es im Add-In-Menüband, unmittelbar über dem Text der E-Mail sehen. Das Add-In selbst wird regelmäßig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
+Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht von Financials Admin. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können es im Add-In-Menüband, unmittelbar über dem Text der E-Mail sehen. Das Add-In selbst wird regelmäßig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
 
-Einige Unternehmen, die Office 365 verwenden, schränken die Berechtigungen der Benutzer ein, um Add-Ins bereitzustellen. Daher müssen Sie sicherstellen, dass Sie ein Office 365-Abonnement haben, das E-Mail umfasst und es Ihnen erlaubt, Add-Ins bereitzustellen. Wenn Sie das Add-In testen möchten, können Sie dies unter [Office 365 kostenlos testen](https://products.office.com/try) tun.  
+Einige Unternehmen, die Office 365 verwenden, grenzen die Berechtigungen der Benutzer ein, Add-Ins bereitzustellen. Daher müssen Sie sicherstellen, ob Sie ein Office 365-Abonnement haben, die E-Mail enthält und Ihnen ermöglicht, Add-Ins bereitzustellen. Wenn Sie das Add-In testen möchten, können Sie es in  Ve [Office 365 kostenlos testen](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Nutzung des Contact Insights Add-In
 Angenommen Sie erhalten eine E-Mail von einem Debitor, der für einige Artikel ein Angebot möchte. Sie können direkt in Outlook das Financials Add-In öffnen, das den Sender als Kunde identifiziert und die Debitorenkarte für das Unternehmen öffnet. Auf diesem Dashboard können Sie Übersichtsinformationen zum Debitor sehen, sowie weitere Details zu bestimmten Belegen anzeigen. Sie können sich auch die Verkaufshistorie für den Debitor anzeigen lassen. Wenn es ein neuer Debitor ist, können Sie ihn als neuen Debitor in Outlook erstellen, [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outlook zu verlassen.  
@@ -53,11 +52,11 @@ Im Dokumentenverknüpfungs-Add-In können Sie genauso Vorgänge für den Beleg a
 ## <a name="adding-the-add-ins-manually"></a>Das Add-In manuell hinzufügen
 In einigen Fällen werden die Add-Ins nicht automatisch hinzugefügt zu Outlook. Selbst wenn Sie oder ein Kollege die unterstützte Einrichtung im Auftrag des Unternehmens ausführen, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise nicht in Outlook angezeigt. Wenn Sie dieses Problem haben, können Sie die Add-Ins in [!INCLUDE[d365fin](includes/d365fin_md.md)] manuell hinzufügen.  
 
-Zuerst müssen Sie sicherstellen, dass Sie Zugriff auf die Add-Ins in Ihrem Office 365-Konto haben. Öffnen Sie einfach Ihren Outlook Web Access in einem Browser und fügen Sie dann `/owa/#path=/options/manageapps` der URL in der Adressleiste hinzu. Dadurch öffnet sich die Seite **Verwalten von Add-Ins**. Dort können Sie Finanzverhältnisse für Ihr Outlook aktivieren. Wenn Sie dann wieder zurück zu Outlook navigieren, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar sein.  
+Zuerst müssen Sie sicherstellen, dass Sie Zugriff auf die Add-Ins in Ihrem Office 365 Konto haben. Öffnen Sie einfach Ihren Outlook Web Access in einem Browser und fügen Sie dann `/owa/#path=/options/manageapps` der URL in der Adressleiste hinzu. Dadurch öffnet sich die Seite **Verwalten von Add-Ins**. Dort können Sie Financials für Ihr Outlook aktivieren. Wenn Sie dann wieder zurück zu Outlook navigieren, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar sein.  
 
 Analog ist es im Outlook-Desktopclient. Sie können überprüfen, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] im Fenster **Add-Ins verwalten** aufgeführt ist.  
 
-In beiden Fällen müssen Sie, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] immer noch nicht verfügbar sein, die Add-in-Manifest-Datei abrufen. Für weitere Informationen wenden Sie bitte an Ihren Office 365-Administrator.
+In beiden Fällen müssen Sie, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] immer noch nicht verfügbar sein, die Add-in-Manifest-Datei abrufen. Für weitere Informationen wenden Sie bitte an Ihren Office 365 Administrator.
 
 ## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

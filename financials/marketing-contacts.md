@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Erstellen und Verwalten von Kontakten
@@ -27,9 +26,9 @@ Es empfiehlt sich, alle externen Entitäten, mit denen Sie geschäftlich zu tun 
 
 Die Erfassung der Informationen kann entweder auf der Grundlage eines Unternehmens oder auf der Grundlage einer Person in diesem Unternehmen erfolgen. Für Personen, die nicht für ein bestimmtes Unternehmen arbeiten oder freiberuflich tätig sind, können Sie zudem unabhängige Kontaktpersonen erstellen.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. Die Aufgaben sind in der Reihenfolge aufgeführt, in der sie in der Regel ausgeführt werden.
+Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. 
 
-| Aufgabe | Siehe |
+| An | Siehe |
 | --- | --- |
 | Richten Sie die Kontaktverwaltung vor dem Hinzufügen von Kontakten ein. |[Vorbereiten, Kontakte einzurichten](marketing-setup-contacts.md) |
 | Erstellen einer Kontaktkarte für jedes neue Unternehmen, mit dem Sie in Kontakt treten – beispielsweise für einen Debitor oder Kreditor |[Kontaktunternehmenerstellen](marketing-create-contact-companies.md) |

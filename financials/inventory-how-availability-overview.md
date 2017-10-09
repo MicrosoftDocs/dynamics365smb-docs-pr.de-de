@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 83af1b6b3a234f67ccc26ee9bba7f5e3e6ff6d77
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Vorgehensweise: Artikelverfügbarkeit anzeigen
@@ -41,7 +40,7 @@ In [Mithilfe [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Verfügbarkeitsz
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Um die Verfügbarkeit eines Artikels anzuzeigen gemäß dem, wann er erhalten oder gesendet wird
 Sie zeigen die Verfügbarkeit eines Artikels gemäß geplanter Artikeltransaktionen im Fenster **Verfügbarkeit nach Ereignis** an.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie die Karte eines Artikels, für den Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Ereignis** aus.
 
@@ -51,7 +50,7 @@ Sie zeigen die Verfügbarkeit eines Artikels gemäß geplanter Artikeltransaktio
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>So zeigen Sie die Verfügbarkeit eines Artikels in verschiedenen Perioden an
 Sie zeigen die Verfügbarkeit eines Artikels im Zeitverlauf für angegebene Zeitperioden im Fenster **Artikelverfügbarkeit nach Perioden** an.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie die Karte eines Artikels, für den Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Periode** aus.
 
@@ -61,7 +60,7 @@ Sie zeigen die Verfügbarkeit eines Artikels im Zeitverlauf für angegebene Zeit
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>So zeigen Sie die Verfügbarkeit eines Artikels an den Lagerplätzen an, wo er gelagert wird
 Sie zeigen im Fenster **Artikelverfügbarkeit nach Lagerort** die Verfügbarkeit eines Artikels an verschiedenen Stellen an, wo er gelagert wird.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie die Karte eines Artikels, für den Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Lagerplatz** aus.
 
@@ -72,16 +71,16 @@ Sie zeigen im Fenster **Artikelverfügbarkeit nach Lagerort** die Verfügbarkeit
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>So zeigen Sie die Verfügbarkeit aller Artikel nach Lagerplatz an, wo sie gelagert werden
 Sie zeigen die Verfügbarkeit aller Ihrer Artikel über alle Lagerplätze hinweg im Fenster **Artikel nach Lagerort** an.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Artikel nach Lagerort** aus.
 
     Das Fenster **Artikel nach Lagerort** zeigt für alle Ihre Artikel an, wie viele an jedem Lagerplatz verfügbar sind.
 3. Wählen Sie den Wert im Feld **Verfügbarkeitssaldo**, um die Artikelposten anzuzeigen, aus denen sich der Wert zusammensetzt.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-boms"></a>Um die Verfügbarkeit eines Artikels nach dessen Verwendung in den Montagestücklisten anzuzeigen
-Wenn ein Artikel in den Montagestücklisten, entweder als übergeordneter Artikel oder als Komponente vorhanden ist, dann können Sie anzeigen, wie viele Einheiten davon im Fenster **Artikelverfügbarkeit nach Stücklistenebene** erforderlich sind. Das Fenster zeigt Verfügbarkeitszahlen für Stücklistenartikel an, die angeben, wie viele Einheiten eines übergeordneten Elements Sie auf Basis der Verfügbarkeit untergeordneter Elemente erstellen können. Jeder Artikel, der eine Montagestückliste hat, wird in dem Fenster als reduzierbare Zeile angezeigt. Sie können diese Zeile erweitern, um die zugrunde liegenden Komponenten und Unterbaugruppen auf niedrigeren Ebenen mit ihren eigenen Stücklisten anzuzeigen.
+## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Um die Verfügbarkeit eines Artikels nach dessen Verwendung in den Montage- oder Produktionsstücklisten anzuzeigen
+Wenn ein Artikel in den Montage- oder Produktionsstücklisten, entweder als übergeordneter Artikel oder als Komponente vorhanden ist, dann können Sie anzeigen, wie viele Einheiten davon im Fenster **Artikelverfügbarkeit nach Stücklistenebene** erforderlich sind. Das Fenster zeigt Verfügbarkeitszahlen für Stücklistenartikel an, die angeben, wie viele Einheiten eines übergeordneten Elements Sie auf Basis der Verfügbarkeit untergeordneter Elemente erstellen können. Jeder Artikel, der eine Montage- oder Produktionsstückliste hat, wird in dem Fenster als reduzierbare Zeile angezeigt. Sie können diese Zeile erweitern, um die zugrunde liegenden Komponenten und Unterbaugruppen auf niedrigeren Ebenen mit ihren eigenen Stücklisten anzuzeigen.
 
-Sie können das Fenster verwenden, um zu ermitteln, ob Sie einen Verkaufsauftrag für einen Artikel an einem bestimmten Datum ausführen können, indem Sie seine aktuelle Verfügbarkeit und die Mengen anzeigen, die von den Komponenten geliefert werden können. Sie können das Fenster auch verwenden, um Engpässe in verknüpften Montagestücklisten zu identifizieren.
+Sie können das Fenster verwenden, um zu ermitteln, ob Sie einen Verkaufsauftrag für einen Artikel an einem bestimmten Datum ausführen können, indem Sie seine aktuelle Verfügbarkeit und die Mengen anzeigen, die von den Komponenten geliefert werden können. Sie können das Fenster auch verwenden, um Engpässe in verknüpften Stücklisten zu identifizieren.
 
 In jeder Zeile im Fenster für übergeordnete und untergeordnete Elemente, geben folgende Schlüsselfelder die Verfügbarkeitszahlen an. Sie können diese Zahlen für Zusagen im Hinblick darauf verwenden, wie viele Einheiten eines übergeordneten Artikels Sie liefern können, wenn Sie mit der betreffenden Montage oder Fertigung beginnen.
 
@@ -90,6 +89,7 @@ In jeder Zeile im Fenster für übergeordnete und untergeordnete Elemente, geben
 |**Festlegen als übergeord. Element möglich**|Zeigt, wie viele Einheiten einer beliebigen Unterbaugruppe im obersten Artikel Sie herstellen können. Das Feld gibt an, wie viele unmittelbare übergeordnete Einheiten Sie montieren oder fertigen können. Der Wert basiert auf der Verfügbarkeit des Artikels in der Zeile.|
 |**Festlegen als übergeord. Artikel möglich**|Zeigt, wie viele Einheiten des obersten Artikels Sie herstellen können. Das Feld gibt an, wie viele Einheiten des Stücklistenartikels in der ersten Zeile Sie montieren bzw. fertigen können. Der Wert basiert auf der Verfügbarkeit des Artikels in der Zeile.|
 
+### <a name="item-availability-by-bom-level-window"></a>Artikelverfügbarkeit nach Stücklistenebene
 Das Fenster **Artikelverfügbarkeit nach Stücklistenebene** zeigt Informationen für den Artikel in der Karte oder der Belegzeile an, für die das Fenster geöffnet wird. Der Artikel wird immer in der ersten Zeile angezeigt. Sie können Informationen für andere Artikel oder für alle Artikel anzeigen, indem Sie den Wert im Feld **Artikelfilter** ändern.
 
 > [!NOTE]  
@@ -97,13 +97,28 @@ Das Fenster **Artikelverfügbarkeit nach Stücklistenebene** zeigt Informationen
 
 Das Feld **Engpass** gibt an, welcher Artikel in der Stücklistenstruktur verhindert, dass eine größere Menge als die im Feld **Festlegen als übergeord. Artikel möglich** angezeigte Menge hergestellt werden kann. Beispielsweise kann der Engpass-Artikel eine eingekaufte Komponente mit einem erwarteten Lieferdatum sein, die aber zu spät eintrifft, um zusätzliche Einheiten des Artikels bis zu dem Datum im Feld **Erforderlich bis Datum** herzustellen.
 
+## <a name="assembly-availability-window"></a>Montageverfügbarkeitsfenster
+Das Fenster **Montageverfügbarkeit** zeigt detaillierte Verfügbarkeitsinformationen für den Montageartikel an. Es wird geöffnet:
+
+- Automatisch aus einer Verkaufsauftragszeile in Auftragsmontageszenarien, wenn Sie eine Menge eingeben, die ein Komponentenverfügbarkeitsproblem verursacht.
+- Automatisch aus einem Montagesauftragskopf, wenn Sie im Feld Menge einen Wert eingeben, der ein Komponentenverfügbarkeitsproblem verursacht.
+- Manuell, wenn aus einem Montageauftrag geöffnet. Klicken Sie auf der Registerkarte Aktionen in der Gruppe Funktion auf Verfügbarkeit anzeigen.
+
+Die Registerkarte **Details** zeigt detaillierte Verfügbarkeitsinformationen für den Montageartikel an, einschließlich wie viel der Montageauftragsmenge bis zum Fälligkeitsdatum auf der Grundlage der Verfügbarkeit der benötigten Komponenten montiert werden kann. Dies wird im Feld Montage möglich im Inforegister Details angezeigt.
+
+Der Wert im Feld **Montage möglich** wird in roten Schrift angezeigt, wenn die Menge geringer ist, als die Menge im Feld **Restmenge**, was anzeigt, dass es nicht genügend verfügbare Komponenten gibt, um die gesamte Liefermenge zu montieren.
+
+Die Registerkarte **Positionen** zeigt detaillierte Verfügbarkeitsinformationen für die Montagekomponenten an.
+
+Wenn eine oder mehrere Montagekomponenten nicht verfügbar sind, wird dies im Feld **Montage möglich** der jeweiligen Zeile angezeigt, dessen Menge kleiner ist als die Menge im Feld **Restmenge** im Inforegister **Details**.
+
 ## <a name="see-also"></a>Siehe auch
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
-[Vorgehensweise: Arbeiten mit Stücklisten](inventory-how-work-BOMs.md)    
+[Montageverwaltung](assembly-assemble-items.md)  
+[Vorgehensweise: Mit Stücklisten arbeiten](inventory-how-work-BOMs.md)    
 [So wird's gemacht: Standorte einrichten](inventory-how-setup-locations.md)  
 [So geht's: Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)  
 [Gewusst wie: Produkte verkaufen](sales-how-sell-products.md)      
-[Lieferkette](madeira-supply-chain.md)  
 [Arbeiten mit Financials](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

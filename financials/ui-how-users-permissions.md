@@ -1,8 +1,6 @@
 ---
 title: "Weisen Sie Berechtigungen zu und Erstellen oder ändern Sie Berechtigungssätze | Microsoft Docs"
 description: "Beschreibt, wie Office 365 Benutzern Financials hinzugefügt wird und vergibt dann Berechtigungen, Zugriffsrechte und Sicherheitseinstellungen."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,12 +10,11 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/27/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen| Microsoft Docs
@@ -47,7 +44,7 @@ Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich
 Sie können Benutzergruppen einrichten, um Ihnen zu helfen, Berechtigungssätze für Benutzergruppen in Ihrem Unternehmen zu verwalten. Sie können eine Funktion verwenden, um alle Berechtigungssätze einer vorhandenen Benutzergruppe der neuen Benutzergruppe zu kopieren. Benutzergruppenelemente werden nicht kopiert.
 
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png " Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.
-2. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Benutzergruppen** aus.
+2. Wählen Sie im Fenster **Benutzer** die Aktion **Benutzergruppen** aus.
 3. Im Fenster **Benutzergruppen** wählen Sie eine vorhandene Benutzergruppe aus, die Sie kopieren möchten, und wählen die Aktion **Benutzergruppe kopieren** aus.
 4. In Feld **Neuer Benutzergruppencode** geben Sie den Namen der neuen Benutzergruppe an, und wählen Sie dann die Schaltfläche **OK** aus.
 
@@ -62,8 +59,8 @@ Wenn die Standardberechtigungssätze, die in [!INCLUDE[d365fin](includes/d365fin
 
 ### <a name="to-create-or-modify-permission-sets-manually"></a>Um Berechtigungssätze manuell zu erstellen oder zu ändern
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png " Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.
-2. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Berechtigungssatz** aus.
-3. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Neu** aus.
+2. Wählen Sie im Fenster **Benutzer** die Aktion **Berechtigungssatz** aus.
+3. Wählen Sie im Fenster **Benutzer** die Aktion **Neu** aus.
 4. Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus.
 5. Wählen Sie die Aktion **Berechtigungen** aus.
 6. Füllen Sie im Fenster **Berechtigungen** die Felder im Kopf nach Bedarf aus.
@@ -84,11 +81,11 @@ Wenn die Standardberechtigungssätze, die in [!INCLUDE[d365fin](includes/d365fin
 
 ### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Um Berechtigungssätze durch die Erfassung Ihrer Aktionen zu erstellen oder zu ändern
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png " Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.
-2. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Berechtigungssatz** aus.
-3. Alternativ wählen Sie im Fenster **Benutzer** die Aktion **Neu** aus.
+2. Wählen Sie im Fenster **Benutzer** die Aktion **Berechtigungssatz** aus.
+3. Wählen Sie im Fenster **Benutzer** die Aktion **Neu** aus.
 4. Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus.
 5. Wählen Sie die Aktion **Berechtigungen** aus.
-6. Alternativ wählen Sie im Fenster **Berechtigung** die Aktion **Start** aus.
+6. Wählen Sie im Fenster **Berechtigung** die Aktion **Start** aus.
 
     Ein Aufnahmeprozesses beginnt, alle Ihre Aktionen in der Benutzeroberfläche zu erfassen.
 7. Wechseln Sie zu den verschiedenen Möglichkeiten und Aktivitäten in [!INCLUDE[d365fin](includes/d365fin_md.md)] für die Benutzer mit diesem Berechtigungssatz, die darauf zugreifen sollen. Sie müssen die Aufgaben ausführen, für die Sie Berechtigungen erfassen möchten.
@@ -112,6 +109,7 @@ Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definie
 
 ## <a name="see-also"></a>Siehe auch
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
+[Verwaltung in Dynamics 365 for Financials einrichten](admin-setup-and-administration.md)  
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

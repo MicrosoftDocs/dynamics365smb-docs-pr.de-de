@@ -12,11 +12,11 @@ ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/20/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 5bc3961cd97f0a19ab4d6d3be0ef0e12ee732a26
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6e638045d826caa20aba29ade4dac0a677eb20eb
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 
@@ -36,5 +36,5 @@ Die britische Postleitzahlerweiterung GetAddress.io kann Zeit sparen und hilft F
 
 
 ## <a name="see-also"></a>Siehe auch
-[Einrichten der britischen Postleitzahlerweiterung GetAddress.io](uk-setup-postal-code-service.md)
+[Einrichten der britischen Postleitzahlerweiterung GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 

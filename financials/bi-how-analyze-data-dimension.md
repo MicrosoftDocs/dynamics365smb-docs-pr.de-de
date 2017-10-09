@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/13/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 463dcad5d918e9655cd92991403d00a76aca7d69
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: aebeb7a0e3a5fa83ba329bf222c50492f9cb003a
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-analyze-data-by-dimensions"></a>Vorgehensweise: Analysieren von Daten nach Dimensionen
@@ -25,13 +24,16 @@ Bei den Dimensionen der Finanzanalyse handelt es sich um Daten, die Sie einem Po
 
 Die dimensionsgestützte Analyse von Daten ermöglicht einen tieferen Einblick in das Unternehmen sowie eine bessere Bewertung von Informationen: Wie gut funktioniert der operative Bereich des Unternehmens? Wo liegen Stärken, wo Schwächen? Welche Bereiche benötigen mehr Ressourcen?
 
+> [!TIP]
+> Als schnelle Möglichkeit, Transaktionsdaten nach Dimensionen zu analysieren, können Sie Summen im Kostenplan und Posten in allen **Posten**-Fenstern nach Dimensionen filtern. Suchen Sie nach der Aktion **Dimensionsfilter festlegen**.
+
 > [!NOTE]  
 >   Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.
 
 ## <a name="to-set-up-an-analysis-view"></a>So richten Sie eine Analyseansicht ein  
 Eine Analyse nach Dimensionen zeigt eine ausgewählte Kombination von Dimensionen an. Sie können jede Analyseansicht, die Sie eingerichtet haben, speichern und wieder aufrufen. Die Informationen zum Einrichten einer Analyse werden auf einer **Analyseansichtskarte** gespeichert, um künftige Analysen zu vereinfachen.  
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Analyseansicht** ein und wählen den zugehörenden Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Analyseansicht** ein und wählen den zugehörenden Link aus.  
 2. Wählen Sie im Fenster **Analyseansichtsliste** die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Um den vier Dimensionscodes im Inforegister **Dimensionen** weitere Dimensionscodes hinzuzufügen. Füllen Sie die **Filter** aus, und klicken Sie anschließend auf **OK**  
@@ -43,7 +45,7 @@ In der Matrix **Verkaufsanalyse nach Dim.** können Sie die Beträge in der Fina
 - Die Spalten auf der linken Seite enthalten Informationen, die auf Ihrer Auswahl im Feld **Zeilenansicht** im Kopf basieren.  
 - Die Spalten auf der rechten Seite enthalten Informationen, die auf Ihrer Auswahl im Feld **Spaltenansicht** im Kopf basieren.  
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Analyse nach Dimension** ein und wählen den zugehörenden Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Analyse nach Dimension** ein und wählen den zugehörenden Link aus.  
 2. Wählen Sie die entsprechende Analyseansicht aus, und klicken Sie auf **Analyseansicht bearbeiten**.
 3. Im Fenster **Verkaufsanalyse nach Dim.** füllen Sie die Felder aus, um die Analyseansicht zu definieren.
 4. 5. Um die Spezifikation eines Betrags im Matrixfenster anzuzeigen, wählen Sie den Betrag aus.  
@@ -62,7 +64,7 @@ Die Beträge, die im Fenster **Analyse nach Dimensionen** angezeigt werden, gebe
 
 Der folgende Ablauf bezieht sich auf die Aktualisierung einer Analyseansicht im Fenster **Analyse nach Dimensionen** . Die Schritte sind **Analyseansichtskartenansicht** und **Artikelanalyseansichtenübersicht** ähnlich.  
 
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Analyse nach Dimension** ein und wählen den zugehörenden Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Analyse nach Dimension** ein und wählen den zugehörenden Link aus.  
 2. Im Fenster **Analyse nach Dimensionen** wählen Sie das Feld **Analyseansichtscode**, um die Optionen anzuzeigen aus.  
 3. Wählen Sie die Zeile mit der relevanten Analyseansicht aus.  
 4. Wählen Sie die Aktion **Kapazität aktualisieren** aus.  
@@ -78,5 +80,6 @@ Der folgende Ablauf bezieht sich auf die Aktualisierung einer Analyseansicht im 
 [Finanzen](finance.md)  
 [Finance einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
+[Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

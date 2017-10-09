@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 328b522107b58029687dd9e3263ff53b10ede9a9
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 79c1d376358cc6b2a622bc589627968c1197df03
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-general-inventory-information"></a>So geht's: Allgemeine Lagerbestandsinformationen einrichten
@@ -27,11 +26,12 @@ Sie geben Ihre allgemeine Lagerbestandseinrichtung im Fenster **Lager Einrichtun
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagereinrichtung** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Füllen Sie im Fenster **Lager Einrichtung** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+Wenn Sie möchten, dass die Anwendung die Lagerdurchlaufzeit bei der Berechnung der Lieferterminzusage in der Einkaufszeile berücksichtigt, können Sie sie als Vorgabewert für das Lager und für Ihren Lagerort im **Lager einrichten** einrichten. Weitere Informationen finden Sie unter [Gewusst wie: Berechnen von Lieferterminzusagen](sales-how-to-calculate-order-promising-dates.md).  
+
 ## <a name="see-also"></a>Siehe auch
 [Lager einrichten](inventory-setup-inventory.md)  
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
-[Lieferkette](madeira-supply-chain.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Anpassen der[!INCLUDE[d365fin](includes/d365fin_md.md)]Erfahrung](ui-experiences.md)  
+[Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

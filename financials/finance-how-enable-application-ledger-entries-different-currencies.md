@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 035f4c0e98e3b7ba308319c2017568de832e26c5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6379aea58ab7943b117e5b19b22f71193290c2cb
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-enable-application-of-ledger-entries-in-different-currencies"></a>So gehts: Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren
@@ -39,6 +38,17 @@ Im Folgenden wird beschrieben, wie dies für Kreditorenposten im Fenster **Kredi
 | Keine |Ausgleich zwischen Währungen ist nicht zugelassen. |
 | EWU |Ausgleich zwischen EWU-Währungen ist zugelassen. |
 | Alle |Ausgleich zwischen allen Währungen ist zugelassen. |
+
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>So richten Sie Sachkonten für Rundungsdifferenzen beim Währungsausgleich ein  
+Wenn Sie Posten in unterschiedlichen Währungen ausgleichen, müssen Sie die Sachkonten einrichten, auf die Sie die Rundungsdifferenzen buchen möchten.  
+  
+> [!NOTE]  
+>  Sie müssen die Sachkonten einrichten, bevor Sie die Aufgabe abschließen. Weitere Informationen finden Sie unter [Die Finanzbuchhaltung und der Kontenplan verstehen](finance-general-ledger.md). 
+  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Debitorenbuchungsgruppen** ein und wählen dann den zugehörigen Link aus.  
+2. Geben Sie in die Felder **Währungsausgl. Rund.-Sollkto.** und **Währungsausgl. Rund.-Habenkto.** die entsprechenden Sachkonten ein, um Rundungsdifferenzen zu buchen.  
+3. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Kreditorenbuchungsgruppen** ein und wählen dann den zugehörigen Link aus.  
+4. Geben Sie in die Felder **Währungsausgl. Rund.-Sollkto.** und **Währungsausgl. Rund.-Habenkto.** die entsprechenden Sachkonten ein, um Rundungsdifferenzen zu buchen.  
 
 ## <a name="see-also"></a>Siehe auch
 [Verwalten von Verbindlichkeiten|](payables-manage-payables.md)  

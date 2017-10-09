@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 11de49ec0ffc1ff847839a913fbe538930145221
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Verkaufschancen verwalten
@@ -25,9 +24,9 @@ Alle eingehenden Informationen zu potenziellen Kunden können als Verkaufschance
 
 Damit die Verkaufschancenverwaltung verwendet werden kann, müssen zunächst Verkaufsprozesse sowie Verkaufsprozess-Stufen eingerichtet werden. Beim Erstellen von Verkaufschancen empfiehlt es sich, neben Informationen zum Kontakt, zum Verkäufer und zum Verkaufsprozess auch Datumswerte sowie eine Schätzung des Verkaufswerts der Verkaufschance und eine Schätzung der Erfolgschancen anzugeben.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. Die Aufgaben sind in der Reihenfolge aufgeführt, in der sie in der Regel ausgeführt werden.
+Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. 
 
-| Aufgabe | Siehe |
+| An | Siehe |
 | --- | --- |
 | Richten Sie die Verkaufsprozesse ein, nach denen Sie normalerweise vorgehen und die Stufen in den Verkaufsprozessen ein. |[Vorgehensweise: Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Erstellen der von den Kontakten stammenden Verkaufschancen |[Gewusst wie: Erstellen von Verkaufschancen](marketing-how-create-opportunities.md) |

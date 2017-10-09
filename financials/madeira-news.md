@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Änderungen in Dynamics 365 for Financials
@@ -91,7 +90,7 @@ Dieses Update fügt Aktionen zum Kreditorendashboard im Outlook-Add-In hinzu, so
 Das Outlook-Add-In erweitert sich nun mit Outlook-Kalender. Von einem Kalendertermin können Sie das Add-In öffnen [!INCLUDE[d365fin](includes/d365fin_md.md)] und eine Übersicht für den Debitor abrufen, der mit den Terminen verknüpft ist. Dann können Sie eine Rechnung für die Services, die für die Besprechung im Meeting bereitgestellt werden erstellen und senden - alle dies passiert direkt im Outlook-Kalender. Weitere Informationen finden Sie unter[ Nutzen Sie[!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-outlook.md)  als Ihr Unternehmenspostfach in Outlook.  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource Markptlatz für Erweiterungen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen sind jetzt im AppSource-Marktplatz verfügbar unter [AppSource.microsoft.com](https://appsource.microsoft.com/). Sie können Erweiterungen im Marktplatz suchen und finden. Sie können Informationen, einschließlich Marketings-Material, Screenshots, Videos und Links zu den zusätzlichen Informationen anzuzeigen. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-extensions.md) mithilfe der Erweiterungen .  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterung sind jetzt im AppSource-Markt verfügbar unter [AppSource.microsoft.com](https://appsource.microsoft.com/). Sie können Verbesserungen in der Erweiterungen im Marktplatz suchen und finden. Sie können Informationen, einschließlich Marketings-Material, Screenshots, Videos und Links zu den zusätzlichen Informationen anzuzeigen. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-extensions.md) mithilfe der Erweiterungen .  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Zusteller und Artikelattribute
 Sie können Ihren Attribute Lagerartikeln hinzufügen. Damit wird es sehr einfach, das entsprechende Produkt zu suchen, das Ihr Kunde wünscht. Weitere Informationen finden Sie unter [So geht's: Arbeiten mit Artikelattributen](inventory-how-work-item-attributes.md).  
@@ -100,8 +99,8 @@ Sie können Ihren Attribute Lagerartikeln hinzufügen. Damit wird es sehr einfac
 Mit diesem Update können Sie noch mehr Erweiterungen im Fenster **Erweiterungsverwaltung** auswählen.
 Weitere Informationen finden Sie unter [[!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterung durch andere Anbieter](ui-extensions-other.md).  
 
-### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Verwalten Sie Ihre Debitoren-Verhältnisse mit Microsoft Dynamics CRMs über [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Wir haben einen neue unterstütze Einrichtung für die Geschäftsführerhomepage hinzugefügt, die Sie durch den Einrichtungsprozess führt, um die Verbindung zu Dynamics CRM herzustellen. Sobald Sie das getan haben, wird eine nahtlose Kopplung der Dynamics CRM Datensätze mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen bereitgestellt. Weitere Informationen finden Sie unter [Kundenbeziehung mithilfe von Microsoft Dynamics CRM verwalten[!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)
+### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Verwalten Ihrer Debitoren-Verhältnisse mithilfe von Microsoft Dynamics 365 for Sales in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Wir haben einen neue unterstütze Einrichtung für die Geschäftsführerhomepage hinzugefügt, die Sie durch den Einrichtungsprozess führt, um die Verbindung zu Dynamics 365 for Sales herzustellen. Sobald Sie das getan wird, haben Sie eine nahtlose Kopplung der Dynamics 365 for Sales Datensätze mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen. Weitere Informationen finden Sie unter [Kundenbeziehung mithilfe von Microsoft Dynamics 365 for Sales verwalten[!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)
 
 ## <a name="may-2016-update"></a>Mai 2016 Aktualisierung
 Diese Aktualisierung von [!INCLUDE[d365fin](includes/d365fin_md.md)] hat neue Funktionen hinzugefügt wie im [Blog angekündigt](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

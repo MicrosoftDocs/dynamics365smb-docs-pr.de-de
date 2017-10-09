@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
 ms.contentlocale: de-de
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Vorbereiten, Kontakte einzurichten
@@ -27,9 +26,9 @@ Vor dem Erstellen von Kontakten und dem Erfassen von Details zur jeweiligen Gesc
 
 Sind diese Informationen eingerichtet, gestaltet sich das Erstellen von Kontakten wesentlich organisierter. Dank der Möglichkeit, alle Kontakte auf der Grundlage einer Gruppe zu suchen, wird die Arbeit deutlich effizienter. Die Informationen stehen allen Gruppen innerhalb des Unternehmens zur Verfügung, was eine erfolgreichere Kommunikation mit den Kontakten ermöglicht.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. Die Aufgaben sind in der Reihenfolge aufgeführt, in der sie in der Regel ausgeführt werden.
+Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. 
 
-| Aufgabe | Siehe |
+| An | Siehe |
 | --- | --- |
 | Einrichten der Geschäftsbeziehung zu Kontakten – beispielsweise Interessent, Bank, Berater oder Dienstleister |[Einrichten von Geschäftsbeziehungen für Kontaktunternehmen](marketing-business-relations.md) |
 | Einrichten der Branche, zu der die Kontakte gehören – beispielsweise Einzelhandelsbranche oder Automobilbranche |[Vorgehensweise: Einrichten von Branchen für Kontaktunternehmen](marketing-industry-groups.md) |
