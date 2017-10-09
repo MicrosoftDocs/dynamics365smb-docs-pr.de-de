@@ -1,0 +1,69 @@
+---
+title: 'Gewusst wie: Vorauszahlungsrechnungen erstellen | Microsoft Docs'
+description: Erfahren Sie, wie Sie Situationen bearbeiten, in denen Vorauszahlung gefordert wird, oder Ihr Kreditor dies fordert.
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 08/07/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 04d7703df0c1b5e4da8996f00b5f1eed293cbf56
+ms.contentlocale: de-de
+ms.lasthandoff: 09/22/2017
+
+---
+# <a name="how-to-create-prepayment-invoices"></a><span data-ttu-id="a52d3-103">Vorgehensweise: Erstellen von Vorauszahlungsrechnungen</span><span class="sxs-lookup"><span data-stu-id="a52d3-103">How to: Create Prepayment Invoices</span></span>
+<span data-ttu-id="a52d3-104">Wenn Sie von Ihren Kunden erwarten, dass diese vor der Lieferung eines Auftrags eine Vorauszahlung leisten oder wenn der Lieferant von Ihnen eine Vorauszahlung vor Lieferung erwartet, können Sie die Funktion "Vorauszahlung" verwenden.</span><span class="sxs-lookup"><span data-stu-id="a52d3-104">If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the prepayment functionality.</span></span>  
+
+<span data-ttu-id="a52d3-105">Nachdem Sie einen Auftrag oder eine Bestellung angelegt haben, können Sie eine Vorauszahlungsrechnung erstellen.</span><span class="sxs-lookup"><span data-stu-id="a52d3-105">After you create a sales or purchase order, you can create a prepayment invoice.</span></span> <span data-ttu-id="a52d3-106">Sie können für Verkaufs- oder Einkaufszeile die Standardprozentsätze verwenden, oder Sie können den Betrag den Anforderungen entsprechend anpassen.</span><span class="sxs-lookup"><span data-stu-id="a52d3-106">You can use the default percentages for each sales or purchase line, or you can adjust the amount as necessary.</span></span> <span data-ttu-id="a52d3-107">So können Sie beispielsweise den Gesamtbetrag für den gesamten Auftrag angeben.</span><span class="sxs-lookup"><span data-stu-id="a52d3-107">For example, you can specify a total amount for the entire order.</span></span>  
+
+<span data-ttu-id="a52d3-108">Im Folgenden wird beschrieben, wie eine Vorauszahlung für einen Auftrag fakturiert wird.</span><span class="sxs-lookup"><span data-stu-id="a52d3-108">The following procedure describes how to invoice a prepayment for a sales orders.</span></span> <span data-ttu-id="a52d3-109">Die Schritte sind für eine Bestellung ähnlich.</span><span class="sxs-lookup"><span data-stu-id="a52d3-109">The steps are similar for purchase orders.</span></span>  
+
+## <a name="to-create-a-prepayment-invoice"></a><span data-ttu-id="a52d3-110">So erstellen Sie eine Vorauszahlungsrechnung</span><span class="sxs-lookup"><span data-stu-id="a52d3-110">To create a prepayment invoice</span></span>  
+1. <span data-ttu-id="a52d3-111">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Verkaufsaufträge** ein und wählen dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="a52d3-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="a52d3-112">Erstellen Sie einen neuen Verkaufsauftrag.</span><span class="sxs-lookup"><span data-stu-id="a52d3-112">Create a new sales order.</span></span> <span data-ttu-id="a52d3-113">Weitere Informationen finden Sie unter [So geht's: Produkte verkaufen](sales-how-sell-products.md)</span><span class="sxs-lookup"><span data-stu-id="a52d3-113">For more information, see [How to: sell Products](sales-how-sell-products.md).</span></span>  
+
+    <span data-ttu-id="a52d3-114">Im Inforegister **Vorauszahlung** wird das Feld **Vorauszahlung %** automatisch ausgefüllt, wenn auf der Debitorenkarte ein standardmäßiger Vorauszahlungsprozentsatz angegeben ist.</span><span class="sxs-lookup"><span data-stu-id="a52d3-114">On the **Prepayment** FastTab, the **Prepayment %** field will be filled in automatically if there is a default prepayment percentage on the customer card.</span></span> <span data-ttu-id="a52d3-115">Sie können den Inhalt des Felds ändern.</span><span class="sxs-lookup"><span data-stu-id="a52d3-115">You can change the contents of the field.</span></span> <span data-ttu-id="a52d3-116">Der Vorauszahlungsprozentsatz wird aus dem Kopf nur in die Zeilen kopiert, in die nicht der standardmäßige Vorauszahlungsprozentsatz des Artikels kopiert wird.</span><span class="sxs-lookup"><span data-stu-id="a52d3-116">The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.</span></span>  
+
+    <span data-ttu-id="a52d3-117">Ein Häkchen im Feld **Vorauszahlung komprimieren** bedeutet, dass die Zeilen auf der Rechnung zusammengefasst werden, wenn folgende Bedingungen zutreffen:</span><span class="sxs-lookup"><span data-stu-id="a52d3-117">If the **Compress Prepayment** field is selected, lines will be combined on the invoice if:</span></span>  
+    - <span data-ttu-id="a52d3-118">Es wird das gleiche Sachkonto für Vorauszahlungen verwendet, wie unter "Buchungsmatrix Einrichtung" festgelegt.</span><span class="sxs-lookup"><span data-stu-id="a52d3-118">They have the same general ledger account for prepayments as determined by the general posting setup.</span></span>  
+    - <span data-ttu-id="a52d3-119">Es werden die gleichen Dimensionen verwendet.</span><span class="sxs-lookup"><span data-stu-id="a52d3-119">They have the same dimensions.</span></span>  
+
+    <span data-ttu-id="a52d3-120">Lassen Sie das Feld leer, wenn Sie eine Vorauszahlungsrechnung angeben möchten, die für jede Auftragszeile mit einem Vorauszahlungsprozentsatz eine Zeile enthält.</span><span class="sxs-lookup"><span data-stu-id="a52d3-120">Leave the field blank if you want to specify a prepayment invoice with one line for each sales order line that has a prepayment percentage.</span></span>  
+
+3. <span data-ttu-id="a52d3-121">Füllen Sie die Verkaufszeilen aus.</span><span class="sxs-lookup"><span data-stu-id="a52d3-121">Fill in the sales lines.</span></span>  
+
+    <span data-ttu-id="a52d3-122">Wenn für Artikel Vorauszahlungsprozentsätze eingerichtet wurden, wird der Standard automatisch in das Feld  der Zeile **Vorauszahlung %** kopiert.</span><span class="sxs-lookup"><span data-stu-id="a52d3-122">If default prepayment percentages have been set up for your items, they are automatically copied to the **Prepayment %** field on the line.</span></span> <span data-ttu-id="a52d3-123">Andernfalls wird der Vorauszahlungsprozentsatz aus dem Kopf kopiert.</span><span class="sxs-lookup"><span data-stu-id="a52d3-123">Otherwise, the prepayment percentage is copied from the header.</span></span> <span data-ttu-id="a52d3-124">Sie können den Inhalt des Felds  in der Zeile **Vorauszahlung %** ändern.</span><span class="sxs-lookup"><span data-stu-id="a52d3-124">You can change the contents of the **Prepayment %** field on the line.</span></span>  
+4. <span data-ttu-id="a52d3-125">Wenn Sie einen Vorauszahlungsprozentsatz für den gesamten Auftrag verwenden möchten, ändern Sie den Wert im Feld **Vorauszahlung** im Auftragskopf, nachdem die Zeilen ausgefüllt wurden.</span><span class="sxs-lookup"><span data-stu-id="a52d3-125">If you want to apply one prepayment percentage to the entire order, change the **Prepayment %** field on the header after filling in the lines.</span></span>  
+5. <span data-ttu-id="a52d3-126">Um den gesamten Vorauszahlungsbetrag anzuzeigen, wählen Sie die Aktion **Statistik**.</span><span class="sxs-lookup"><span data-stu-id="a52d3-126">To view the total prepayment amount, choose the **Statistics** action.</span></span>
+
+    <span data-ttu-id="a52d3-127">Wenn Sie den gesamten Vorauszahlungsbetrag für den Auftrag anpassen möchten, können Sie den Inhalt des Feldes **Vorauszahlungsbetrag** im Fenster **Verkaufsauftragsstatistik** ändern.</span><span class="sxs-lookup"><span data-stu-id="a52d3-127">If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field in the **Sales Order Statistics** window.</span></span>  
+
+    <span data-ttu-id="a52d3-128">Wenn das Feld **Preise inkl. MwSt** aktiviert ist, kann das Feld **Vorauszahlungsbetrag einschl. MwSt**. geändert werden.</span><span class="sxs-lookup"><span data-stu-id="a52d3-128">If the **Prices Including VAT** field is selected, the **Prepayment Amount Incl. VAT** field is editable.</span></span>  
+
+    <span data-ttu-id="a52d3-129">Wenn Sie den Inhalt des Felds **Vorauszahlungsbetrag** ändern, wird der Betrag proportional auf alle Zeilen aufgeteilt, mit Ausnahme der Felder, bei denen im Feld **Vorauszahlung** der Wert **0** angegeben ist.</span><span class="sxs-lookup"><span data-stu-id="a52d3-129">If you change the contents of the **Prepayment Amount** field, the amount will be distributed proportionately between all lines, except those that have **0** in the **Prepayment %** field.</span></span>  
+6. <span data-ttu-id="a52d3-130">Wählen Sie zum Drucken eines Testberichtes vor der Buchung der Vorauszahlungsrechnung die Aktion **Vorauszahlung** und dann die Aktion **Vorauszahlungstestbericht**.</span><span class="sxs-lookup"><span data-stu-id="a52d3-130">To print a test report before posting the prepayment invoice, choose the **Prepayment** action, and then choose the **Prepayment Test Report** action.</span></span>  
+7. <span data-ttu-id="a52d3-131">Wählen Sie zum Buchen der Vorauszahlungsrechnung die Aktion **Vorauszahlung**, und dann die Aktion **Vorauszahlungsrechnung**.</span><span class="sxs-lookup"><span data-stu-id="a52d3-131">To post the prepayment invoice, choose the **Prepayment** action, and then choose the **Post Prepayment Invoice** action.</span></span>  
+
+    <span data-ttu-id="a52d3-132">Klicken Sie zum Buchen und Drucken der Vorauszahlungsrechnung die Aktion **Vorauszahlungsrechnung buchen und drucken**.</span><span class="sxs-lookup"><span data-stu-id="a52d3-132">To post and print the prepayment invoice, choose the **Post and Print Prepmt. Invoice** action.</span></span>  
+
+<span data-ttu-id="a52d3-133">Es können weitere Vorauszahlungsrechnungen für den Auftrag ausgegeben werden.</span><span class="sxs-lookup"><span data-stu-id="a52d3-133">You can issue additional prepayment invoices for the order.</span></span> <span data-ttu-id="a52d3-134">Erhöhen Sie hierzu den Vorauszahlungsbetrag für eine oder mehrere Zeilen, passen Sie im Bedarfsfall das Belegdatum an, und buchen Sie die Vorauszahlungsrechnung.</span><span class="sxs-lookup"><span data-stu-id="a52d3-134">To do this, increase the prepayment amount on one or more lines, adjust the document date if necessary, and post the prepayment invoice.</span></span> <span data-ttu-id="a52d3-135">Für die Differenz zwischen den bisher fakturierten Vorauszahlungsbeträgen und dem neuen Vorauszahlungsbetrag wird eine neue Rechnung erstellt.</span><span class="sxs-lookup"><span data-stu-id="a52d3-135">A new invoice will be created for the difference between the prepayment amounts invoiced so far and the new prepayment amount.</span></span>  
+
+> [!NOTE]  
+>  <span data-ttu-id="a52d3-136">Wenn Sie in Nordamerika sind, können Sie den Prozentsatz nicht ändern, nachdem die Vorauszahlungsrechnung gebucht wurde.</span><span class="sxs-lookup"><span data-stu-id="a52d3-136">If you are located in North America, you cannot change the prepayment percentage after the prepayment invoice has been posted.</span></span> <span data-ttu-id="a52d3-137">Dieses wird in der nordamerikanischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] verhindert, da die Berechnung der Verkaufssteuer ansonsten falsch ist.</span><span class="sxs-lookup"><span data-stu-id="a52d3-137">This is prevented in the North American version of [!INCLUDE[d365fin](includes/d365fin_md.md)] because the calculation of sales tax will otherwise be incorrect.</span></span>  
+
+ <span data-ttu-id="a52d3-138">Wenn Sie bereit zum Buchen des verbleibenden Rechnungsbetrags sind, buchen Sie diesen auf die gleiche Weise, wie Sie jede andere Rechnung buchen. Der Vorauszahlungsbetrag wird automatisch vom fälligen Betrag abgezogen.</span><span class="sxs-lookup"><span data-stu-id="a52d3-138">When you are ready to post the rest of the invoice, post it as you would post any invoice, and the prepayment amount will automatically be deducted from the amount due.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="a52d3-139">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="a52d3-139">See Also</span></span>  
+[<span data-ttu-id="a52d3-140">Fakturieren von Vorauszahlungen</span><span class="sxs-lookup"><span data-stu-id="a52d3-140">Invoicing Prepayments</span></span>](finance-invoice-prepayments.md)  
+[<span data-ttu-id="a52d3-141">Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen</span><span class="sxs-lookup"><span data-stu-id="a52d3-141">Walkthrough: Setting Up and Invoicing Sales Prepayments</span></span>](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[<span data-ttu-id="a52d3-142">Finanzen</span><span class="sxs-lookup"><span data-stu-id="a52d3-142">Finance</span></span>](finance.md)  
+<span data-ttu-id="a52d3-143">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a52d3-143">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+

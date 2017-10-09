@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b51c163dc8eafc462a1fd489d498d44eaeafd24a
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
 ms.contentlocale: de-de
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # So geht's: Arbeiten mit Katalogartikeln
@@ -50,7 +50,7 @@ Um die Konvertierung einer Katalogartikelkarte in eine normale Artikelkarte zu a
 Eine neue Artikelkarte, die mit Informationen des Katalogartikels und einer Vorlage des entsprechenden Artikels ausgefüllt ist, wird erstellt. Sie können dann die Felder in der neuen Artikelkarte nach Bedarf ausfüllen oder ändern. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Artikel](inventory-how-register-new-items.md).
 
 ## So verkaufen Sie einen Katalogartikel und konvertieren ihn in einen normalen Artikel
-1. Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus. Füllen Sie die Felder auf dem Inforegister **Allgemein** für alle Verkaufsaufträge aus. Weitere Informationen finden Sie unter [So geht's: Produkte verkaufen](sales-how-sell-products.md)
 3. Auf einer neuen Verkaufszeile im Feld **Typ** wählen Sie **Artikel** und ignorieren die **Nr.**. leer lassen.
 4. Wählen Sie die Aktion **Position** und dann die Aktion **Artikel nicht an Lager auswählen**.
@@ -65,7 +65,8 @@ Sie können dann die Felder in der neuen Artikelkarte nach Bedarf ausfüllen ode
 >   Für den Kreditor des Artikels wird automatisch ein Artikelreferenzdatensatz zwischen der Artikelnummer des Kreditors und Ihrer neuen Artikelnummer erstellt.
 
 ## Siehe auch
-[Vorgehensweise: Einen neuen Artikel registrieren](inventory-how-register-new-items.md)  
+[Vorgehensweise: Neue Artikel registrieren](inventory-how-register-new-items.md)  
+[Vorgehensweise: Spezialaufträge erstellen](sales-how-to-create-special-orders.md)|  
 [Lagerbest](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
