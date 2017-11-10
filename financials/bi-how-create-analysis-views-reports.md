@@ -50,13 +50,12 @@ Dann können Sie beispielsweise folgende Spalten erstellen:
 
 Das Programm fasst, basierend auf den eingerichteten Zeilen und Spalten, die Ergebnisse des Berichts im Fenster **Analysebericht** zusammen. Es verwendet dazu in etwa folgende Matrix:  
 
-|||||  
+| |Verkäufe aktueller Monat|Verkäufe letzter Monat|Verkäufe letzter Monat %|  
 |-|-|-|-|  
-||Verkäufe aktueller Monat|Verkäufe letzter Monat|Verkäufe letzter Monat %|  
-|Computer||||  
-|Bildschirme||||  
-|Ersatzteile||||  
-|Gesamt||||  
+|Computer| | | |  
+|Bildschirme| | | |  
+|Ersatzteile| | | |  
+|Gesamt| | | |  
 
  Sie können beispielsweise eine Gruppe von Zeilen und verschiedene Gruppen von Spaltenlayouts einrichten, um monatliche bzw. Jahresberichte anzuzeigen.
 

@@ -67,7 +67,6 @@ Um die Beschaffungsplanänderungen zu übernehmen, müssen Sie den resultierende
  |Grüner Kreis mit einem Diskettensymbol mit einem roten Kreuz|Vorgeschlagener Beschaffungsauftrag mit Ereignismeldung *Abbrechen*.<br /><br /> -   Kann nicht geändert werden.<br />-   Sichtbar, wenn das Feld **Planungsvorschläge einschließen** ausgewählt wird (grünes Diagramm).|  
  |Grüner Kreis mit einem Diskettensymbol mit einem Stern|Vorgeschlagene Beschaffungsaufträge mit Ereignismeldung *Neu*.<br /><br /> -   Kann geändert werden.<br />-   Sichtbar, wenn das Feld **Planungsvorschläge einschließen** ausgewählt wird (grünes Diagramm).|  
  |Grüner Kreis mit einem Diskettensymbol mit einem oder zwei Pfeilen|Vorgeschlagene Beschaffungsaufträge mit Ereignismeldung *Neu berechnen*, *Menge ändern* oder *Neu ber. und Mge. änd.*<br /><br /> -   Kann geändert werden.<br />-   Sichtbar, wenn das Feld **Planungsvorschläge einschließen** ausgewählt wird (grünes Diagramm).<br /><br /> Die Pfeile geben die Richtung des Planungsvorschlags an. Beispielsweise spiegelt ein Linkspfeil zusammen mit einem Nach-oben-Pfeil eine *Neu berechnen Menge ändern*-Ereignismeldung wider, die aus einer rückwärts ausgeführten Neuplanung und einer Mengenerhöhung besteht.|  
- ||  
 
 Wenn Sie das Dropdownmenü für das Inforegister **Zeitachse** zugreifen, sehen, die folgenden Funktionen, abhängig von dem, was Sie gewählt haben  
 
