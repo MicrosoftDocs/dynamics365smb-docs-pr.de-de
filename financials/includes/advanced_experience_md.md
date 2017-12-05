@@ -1,1 +1,1 @@
-<blockquote STYLE="background: #81BEF7;border-left:None"><b>ERWEITERT</b><br />Diese Funktion ist nur mit der erweiterten Erfahrung verfügbar. Weitere Informationen finden Sie unter [Anpassen von Ihrem Dynamics 365 for Financials Experience.](../ui-experiences.md) </blockquote>
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>ERWEITERT</b><br />Diese Funktion ist nur mit der erweiterten Erfahrung verfügbar. Weitere Informationen finden Sie unter [Anpassen von Ihrem Dynamics 365 Business edition Experience.](../ui-experiences.md) </blockquote>

@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d8863ba9037f6470232372dedd4536664fd3404
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-finance"></a>Finance einrichten
@@ -26,7 +26,7 @@ Es gibt jedoch mehrere Elemente, die Sie selber einrichten müssen. Wenn Sie Dim
 
 Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
 
-| An | Siehe |
+| Aufgabe | Siehe |
 | --- | --- |
 | Wählen Sie aus, wie Sie Ihre Kreditoren bezahlen. |[Zahlungsformen definieren](finance-payment-methods.md) |
 | Buchungsgruppenzuordnungseinheiten nach Debitoren, Kreditoren, Artikel, Ressourcen und Einkaufs- und Verkaufsbelegen mit Sachkonten. |[Buchungsgruppen einrichten](finance-posting-groups.md)|
@@ -40,7 +40,7 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 | Einrichtung von Intrastat-Berichten und Übermitteln des Berichts an eine Behörde | [Gewusst wie: Einrichten von Intrastat-Berichten](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Siehe auch
-[Finanzen](finance.md)]  
+[Finanzen](finance.md)  
 [Verwalten von Bankkonten](bank-manage-bank-accounts.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](upload-data.md)  

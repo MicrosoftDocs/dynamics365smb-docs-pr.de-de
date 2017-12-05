@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials treffen | Microsoft Docs
-description: "Erhalten von Informationen über Funktionen und Bearbeiten von Szenarien in Dynamics 365 for Financials, einer Unternehmensverwaltungslösung für kleine und mittelständische Organisationen."
+title: Dynamics 365 Business edition treffen | Microsoft Docs
+description: "Erhalten von Informationen über Funktionen und Bearbeiten von Szenarien in Dynamics 365 Business edition, einer Unternehmensverwaltungslösung für kleine und mittelständische Organisationen."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 08/23/2017
+ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -40,7 +40,7 @@ Homepages verwenden ein Rollen orientiertes Design, damit Sie rasch auf Geschäf
 Jede Homepage bietet eine Schaltfläche **Einrichtung und Erweiterungen**. Hier haben Sie Zugriff auf eine Liste der unterstützten Einrichtung, die Ihnen dabei helfen kann, ausgewählte Bereiche rasch aufzusetzen. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung** aus, um auf das Einrichtungsfenster zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 
 > [!NOTE]  
->   Die Liste der Einrichtungshilfen, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Suite**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.  
+>   Die Liste der Einrichtungshilfen, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Suite**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
 
 Im Fenster **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung **Suite**:
 
@@ -66,10 +66,12 @@ Denken Sie an ein Abonnement? Sie können Demomandanten einfach ändern und erst
 Um einen Mandanten zu erstellen und Dinge zu testen, gehen Sie zum Menü **Meine Einstellungen** in der oberen rechter Ecke und ändern Sie den Mandanten auf **Mein Unternehmen**. Melden Sie sich von [!INCLUDE[d365fin](includes/d365fin_md.md)] ab und anschließend wieder an, um die Änderungen zu übernehmen. Eine unterstützte Einrichtung gibt Ihnen die grundlegenden Informationen zu Ihrem Unternehmen. Wenn das getan wird, entdecken Sie die Homepage und suchen Sie die Aktion **Unterstützte Einrichtung**.  
 
 ## <a name="ready-to-subscribe"></a>Bereit für ein Abonnement?
-Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich für ein Abonnement entscheiden, verwenden Sie den Link in der Benachrichtigung, um Microsoft zu kontaktieren. Sie können ach das [!INCLUDE[d365fin](includes/d365fin_md.md)] Vertriebsteam unter [Microsoft Dynamics 365 for Financials ](https://go.microsoft.com/fwlink/?linkid=828707) kontaktieren.  
+Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich für ein Abonnement entscheiden, verwenden Sie den Link in der Benachrichtigung, um Microsoft zu kontaktieren. Sie können ach das [!INCLUDE[d365fin](includes/d365fin_md.md)] Vertriebsteam unter [Microsoft Dynamics 365 Business edition](https://go.microsoft.com/fwlink/?linkid=828707) kontaktieren.  
 
 ## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365 Apps
-Navigieren Sie zu Inhalten von anderen Dynamics 365 Apps werden, indem Sie den Link [Dynamics 365](https://docs.microsoft.com/dynamics365) im blauen Banner im oberen Bereich dieser Seite auswählen. Sie können mehr erfahren unter der[Dynamics 365 Website](https://www.microsoft.com/en-us/dynamics365/).
+Navigieren Sie zu Inhalten von anderen Dynamics 365 Apps werden, indem Sie den Link [Dynamics 365](https://docs.microsoft.com/dynamics365) im blauen Banner im oberen Bereich dieser Seite auswählen. Sie können mehr erfahren unter der [Dynamics 365 Website](https://www.microsoft.com/en-us/dynamics365/).  
+
+Wenn Sie ein Buchhalter sind, können Sie sich für [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] registrieren und erhalten mit [!INCLUDE[d365fin](includes/d365fin_md.md)] nahtlose Integration. Weitere Informationen finden Sie unter [Willkommen bei Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +82,7 @@ Navigieren Sie zu Inhalten von anderen Dynamics 365 Apps werden, indem Sie den L
 [Abrufen [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)  
 [Microsoft Dynamics 365 Dokumentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

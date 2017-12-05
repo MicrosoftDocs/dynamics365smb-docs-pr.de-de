@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ba5203013af329f1d59432a5e5800fe486658cc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 957c8889d943ed412af7555271897b52c0759969
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetails: Interner Lagerfluss
@@ -46,7 +46,7 @@ An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerpl�
 
  Die folgenden Montageflüsse sind vorhanden.  
 
-|Workflow|Description|  
+|Workflow|Beschreibung|  
 |----------|---------------------------------------|  
 |Lagermontage|Die Komponenten werden auf einem Montageauftrag benötigt, bei dem die Ausgabe im Lager gespeichert wird.<br /><br /> Der Warenfluss der Logistik wird im Fenster **Lagerbestandsumlagerung** verwaltet. Eine Entnahmezeile gibt an, wo die Komponenten entnommen werden sollen. Eine Einlagerungszeile gibt an, wo die Komponenten platziert werden sollen.|  
 |Programmfertigung|Die Komponenten werden auf einem Montageauftrag benötigt, der mit einem Verkaufsauftrag verbunden ist, der geliefert wird, wenn der verkaufte Artikel montiert wird.|  
@@ -87,12 +87,12 @@ An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerpl�
  Die Felder **Mont.-Bereitst.-Lagerplatzcode** und **Montage-Ausgangslagerplatzcode** auf der Lagerortkarte legen Standardströme nach und von Montagebereichen fest.  
 
 ### <a name="ad-hoc-movements"></a>Ad-hoc-Lagerplatzumlagerungen  
- In erweiterten Lagerfunktionen werden die Artikelbewegungen von Lagerplatz zu Lagerplatz ohne Beziehung zu Herkunftsbelegen im Fenster **Lagerplatzumlagerungsarbeitsblatt** verwaltet und im Fenster  Lagerplatzumlagerungsvorschlag registriert.  
+ In erweiterten Lagerfunktionen werden die Artikelbewegungen von Lagerplatz zu Lagerplatz ohne Beziehung zu Herkunftsbelegen im Fenster **Lagerplatzumlagerungsarbeitsblatt** verwaltet und im Fenster Lagerplatzumlagerungsvorschlag registriert.  
 
 ## <a name="flushing-production-components-in-the-warehouse"></a>Buchungen von Produktionskomponenten in Lager  
  Wenn auf der Artikelkarte eingerichtet, werden Komponenten, die mit Kommissionierungen kommissioniert werden, als durch den Fertigungsauftrag verbraucht gebucht, wenn die Kommissionierung registriert wird. Bei Verwendung der **Kommiss. + Vorwärts**-Methode und der **Kommiss. + Rückwärts**-Buchungsmethode löst die Kommissionierungsregistrierung die zugehörige Verbrauchsbuchung aus, wenn die erste Operation beginnt oder die letzte Operation endet.  
 
- Bedenken Sie das folgende Szenario basierend auf der [!INCLUDE[d365fin](includes/d365fin_md.md)]Demodatenbank, WHITE-Standort.  
+ Bedenken Sie das folgende Szenario basierend auf der [!INCLUDE[d365fin](includes/d365fin_md.md)] Demodatenbank, WHITE-Standort.  
 
  Ein Fertigungsauftrag für 15 STÜCK des Artikels LS-100 ist vorhanden. Einige der Artikel auf der Komponentenliste müssen manuell in ein FA-Verbrauchs Buch.-Blatt gebucht werden, und andere Artikel auf der Liste können mithilfe der **Kommiss. + Rückwärts**-Buchungsmethode automatisch kommissioniert und gebucht werden.  
 
@@ -104,7 +104,7 @@ An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerpl�
 1.  Der Fertigungsbereichsvorgesetzte gibt den Fertigungsauftrag frei. Artikel mit der Buchungsmethode **Vorwärts** und keinem Verbindungscode werden vom Off. Fert.-Ber.-Lagerplatz. abgezogen.  
 2.  Der Fertigungsbereichsvorgesetzte wählt die Schaltfläche **Kommissionierung erstellen** auf dem Fertigungsauftrag aus. Ein Lager-Kommissionierbeleg wird für die Kommissionierung von Artikel mit den Buchungsmethoden **Manuell**, **Kommiss. + Rückwärts** und **Kommiss. + Vorwärts** erstellt. Diese Artikel werden in den Fert.-Bereitst.-Lagerplatzcode aufgeführt.  
 3.  Der Lagermanager weist einem Lagermitarbeiter die Kommissionierungen zu.  
-4.  Der Lagermitarbeiter kommissioniert die Artikel aus den jeweiligen Lagerplätzen und platziert sie im Fert.-Bereitst.-Lagerplatzcode oder in dem Lagerplatz, der in der Kommissionierung angegeben ist, d. h. einem Arbeitsplatz oder einer Arbeitsplatzgruppe).  
+4.  Der Lagermitarbeiter kommissioniert die Artikel aus den jeweiligen Lagerplätzen und platziert sie im Fert.-Bereitst.-Lagerplatzcode oder in dem Lagerplatz, der in der Kommissionierung angegeben ist.  
 5.  Der Lagermitarbeiter registriert die Kommissionierung. Die Menge wird von den Kommissionierlagerplätzen abgezogen und dem Verbrauchslagerplatz hinzugefügt. Das Feld **Menge kommissioniert** auf der Komponentenliste für alle kommissionierten Artikel wird aktualisiert.  
 
     > [!NOTE]  

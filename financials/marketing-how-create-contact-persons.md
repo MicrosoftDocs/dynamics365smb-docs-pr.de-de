@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a4558787532b1e4713a2a0681bb8acf910519504
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 208c49d0f86ae0a3c8ef4db8008fa2995f77e674
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-contact-persons"></a>Gewusst wie: Anlegen neuer Kontaktpersonen
@@ -26,7 +26,7 @@ Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unterne
 >   Bevor Sie einen Kontakt anlegen, sollten Sie die Einstellungen unter **Übernahme** im Fenster **Marketing & Vertrieb Einr.** überprüfen. Die Einrichtung der Übernahme ermöglicht das automatischer Kopieren von gleichen Informationen zu Kontaktunternehmen und Kontaktpersonen (z. B. Adressdaten) vom Kontaktunternehmen zur Kontaktperson beim Erstellen einer Kontaktperson für ein erfasstes Kontaktunternehmen.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>So erstellen Sie eine Kontaktkarte für eine Person
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Geben Sie im Feld **Nr.** eine Nummer für den Kontakt ein.
 
@@ -43,5 +43,5 @@ Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unterne
 [Vorgehensweise: Einrichten von Verantwortlichkeiten für Kontakte](marketing-job-responsibilities.md)  
 [Vorgehensweise: Einrichten von Position für Kontaktpersonen](marketing-organizational-levels.md)  
 [Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Arbeiten mit Financials](ui-work-product.md)  
+[Arbeiten mit Dynamics 365](ui-work-product.md)  
 

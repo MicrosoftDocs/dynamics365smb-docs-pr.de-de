@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5a02126430e698d7624dfbae41390cdfb2ea2e0b
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: af4f55a85b0269832c6afba791f2499aebf0979c
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-electronic-document-sending-and-receiving"></a>Gewusst wie: Einrichten des Senden und Empfangen von elektronischen Belegen
@@ -47,7 +47,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 1. Geben Sie im Feld **Suchen** **Firmendaten** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identifizieren Sie Ihren Mandanten.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **EndPointID**-Element unter dem **AccountingSupplierParty**-Knoten zu füllen. Die Nummer basiert auf dem GS1-Standard, der mit ISO 6523 konform ist.|  
     |**USt-ID**|Geben Sie die USt-IdNr. des Mandanten an.|  
@@ -57,7 +57,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 1. Geben Sie im Feld **Suchen** einen Wert für **MwSt.-Buchungsmatrix Einr.**, und wählen Sie dann den zugehörigen Link aus.  
 2. Für jede MwSt.-Buchungsmatrixzeile, die Sie für elektronische Belege verwenden, müssen Sie das Feld wie in der folgenden Tabelle beschrieben ausfüllen.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Steuerkategorie**|Geben Sie die MwSt.-Kategorie an.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **TaxApplied**-Element unter dem **AccountingSupplierParty**-Knoten zu füllen. Die Nummer basiert auf dem UNCL5305-Standard.|  
 
@@ -65,7 +65,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 1. Geben Sie im Feld **Suchen** die Option **Länder/Regionen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Für alle Länder/Regionen, mit denen Sie elektronische Belege austauschen, müssen Sie das Feld wie in der folgenden Tabelle beschrieben ausfüllen.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**MwSt.-Schema**|Identifizieren Sie die nationale Behörde, die die MwSt-IdNr. für die Länder\/Regionen ausgibt, an die elektronische Beleg gesendet werden.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **SchemeID**-Attribut für das **EndPointID**-Element unter den Knoten **AccountingSupplierParty** und **AccountingCustomerParty** in der Datei zu füllen.<br /><br /> Das Feld **MwSt-Schema** wird nur verwendet, wenn das Feld **GLN** im Fenster **Unternehmen** nicht ausgefüllt ist. **Hinweis:**Der Wert im Feld **Code** im Fenster**Länder\/Regionen** muss dem Standard ISO 3166\-1:Alpha2 entsprechen.|  
 
@@ -73,7 +73,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 1. Geben Sie im Feld **Suchen** **Artikel** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Für jeden Artikel, den Sie unter Verwendung von elektronischen Belegen kaufen oder verkaufen, müssen Sie das Feld wie in der folgenden Tabelle beschrieben ausfüllen.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**GTIN**|Identifiziert das Element in Verbindung mit dem elektronischen Senden und Empfangen von Dokumenten. Für das PEPPOL-Format wird das Feld wie folgt verwendet:<br /><br /> Wenn für das Element **StandardItemIdentification\/ID** das Attribut **SchemeID** auf den Wert **GTIN** festgelegt ist, wird das Element dem Feld **GTIN** auf der Artikelkarte zugeordnet.|  
 
@@ -81,7 +81,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 1. Geben Sie im Feld **Suchen** die Option **Einheiten** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Für jede Maßeinheit, die Sie für Artikel auf elektronischen Belegen verwenden, müssen Sie das Feld wie in der folgenden Tabelle beschrieben ausfüllen.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Internationaler Standardcode**|Geben Sie den Einheitencode an, der gemäß dem Standard UNECERec20 in Verbindung mit dem Senden von elektronischen Belegen verwendet wird.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **unitCode**-Attribut für das **InvoicedQuantity**-Element unter dem **InvoiceLine**-Knoten zu füllen. **Hinweis:**Wenn das Feld **Maßeinheit** in der Verkaufszeile leer ist, wird der UNECERe20-Standardwert für „Stück“ \(H87\) standardmäßig eingefügt. Weitere Informationen und eine Liste von gültigen Maßeinheitscodes finden Sie unter [Empfehlungen Nr. 20\-Verwendete Maßeinheiten im internationalen Handel](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
@@ -89,7 +89,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 1. Geben Sie im Feld **Suchen** **Debitoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Für jeden Debitor, an den Sie elektronische Belege senden, müssen Sie die Felder in der folgenden Tabelle ausfüllen.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identifizieren Sie den Debitor.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **EndPointID**-Element unter dem **AccountingCustomerParty**-Knoten zu füllen. Die Nummer basiert auf dem GS1-Standard, der mit ISO 6523 konform ist.<br /><br /> Wenn das Feld **GLN**leer ist, wird der Wert im **MwSt Registrationsnr.**-Feld verwendet.|  
     |**USt-ID**|Geben Sie die Umsatzsteuer-Identifikationsnummer des Debitors an. **Hinweis:**Wählen Sie die DrillDown-Schaltfläche aus, um den Webdienst zu verwenden, der prüft, ob die Nummer im Handelsregister des jeweiligen Landes vorhanden ist.|  
@@ -114,7 +114,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 1. Geben Sie im Feld **Suchen** **Kreditoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Für jeden Kreditor, von dem Sie elektronische Belege empfangen, müssen Sie die Felder wie in der folgenden Tabelle beschrieben ausfüllen.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Identifizieren Sie den Kreditor.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format emfpangen, wird der Wert in diesem Feld verwendet, um das **EndPointID**-Element unter dem **AccountingSupplierParty**-Knoten zu füllen. Die Nummer basiert auf dem GS1-Standard, der mit ISO 6523 konform ist.<br /><br /> Wenn das Feld **GLN**leer ist, wird der Wert im **MwSt Registrationsnr.**-Feld verwendet.|  
     |**USt-ID**|Geben Sie die Umsatzsteuer-Identifikationsnummer des Kreditors an. **Hinweis:**Wählen Sie die DrillDown-Schaltfläche aus, um den Webdienst zu verwenden, der prüft, ob die Nummer im Handelsregister des jeweiligen Landes vorhanden ist.|  
@@ -132,12 +132,12 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 1. Geben Sie im Feld **Suchen** **Kreditoren & Einkauf** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie im Inforegister **Datenaustausch** das Feld gemäß der Beschreibung in der folgenden Tabelle aus.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Standardsollkonto für Nicht-Artikel-Positionen**|Gibt das Sachkonto an, das automatisch in Verkaufszeilen eingefügt wird, die aus elektronischen Dokumenten erstellt werden, wenn die Eingangsbelegszeile keinen identifizierbaren Artikel enthält. Irgendeine Zeile des eingehenden Beleges, die kein GTIN hat, oder die Artikelnummer des Kreditors auf eine Einkaufszeile des Typs **Sachkonto** und **Nr.** Feld der Einkaufsbestellzeile enthält das Konto, das Sie in dem Feld **Sachkonto für Nicht-Artikel-Zeilen** auswählen.<br /><br /> Wenn Sie das **Sachkonteo für Nicht-Artikel-Positionen**-Feld leer lassen und der Eingangsbeleg Zeilen ohne identifizierbare Artikel hat, wird der Einkaufsbeleg nicht erstellt. Eine Fehlermeldung weist Sie an, das **Sachkonto Nicht-Artikel-Zeilen**-Feld auszufüllen, bevor Sie die Aufgabe ausführen können.|  
 
 ## <a name="see-also"></a>Siehe auch  
-[Datenaustausch als Elektronische Dokumente ](across-data-exchange.md)   
+[Daten elektronisch austauschen](across-data-exchange.md)   
 [Vorgehensweise: Fakturieren](sales-how-invoice-sales.md)   
 [Vorgehensweise: Erfassen eines Einkaufs](purchasing-how-record-purchases.md)
 

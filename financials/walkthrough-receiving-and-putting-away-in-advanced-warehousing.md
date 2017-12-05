@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 87e9b0f2e4d8925ff9583c17c66fa2d49ad2b4b5
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1c78223608d7cf2c977adfca87e45f35aeee856a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
@@ -70,7 +70,7 @@ Das Einrichten des Fensters **Standortkarte** definiert die Warenflüsse des Unt
 
 ### <a name="to-review-the-location-setup"></a>So prüfen Sie die Lagerorteinrichtung  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Öffnen Sie die WHITE Lagerortkarte.  
 3.  Beachten Sie im Inforegister **Lager**, dass das Kontrollkästchen **Gesteuerte Einlag. u. Kommiss.** ausgewählt ist.  
 
@@ -126,7 +126,7 @@ Im Fenster **Wareneingang** können Sie mehrere eingehende Aufträge für Herkun
 8.  Wählen Sie im Inforegister **Einkauf** im Feld **Eink. von Kred.-Nr. Filter**, geben Sie **10000&#124; 20000** ein.  
 9. Wählen Sie die Aktion **Ausführen** aus. Der Wareneingang wird mit vier Zeilen gefüllt, die Einkaufszeilen für die angegebenen Kreditoren darstellen. Das Feld **Eingehende Menge** wird ausgefüllt, da Sie das Kontrollkästchen **Bewegungsmenge nicht ausfüllen** im Fenster **Filter um Herkunftsdokument abzurufen** nicht markiert haben.  
 10. Wenn Sie einen Filter verwenden möchten, wie zuvor in diesem Abschnitt beschrieben, können Sie optional auf der Registerkarte Aktionen in der Gruppe Funktionen **Herkunftsbeleg holen** auswählen, und dann Einkaufsbestellungen aus den entsprechenden Kreditoren auswählen.  
-11. Wählen Sie die Aktion **Beleg buchen**ausn und wählen Sie dann die Schaltfläche **Ja** aus.  
+11. Wählen Sie die Aktion **Beleg buchen** ausn und wählen Sie dann die Schaltfläche **Ja** aus.  
 
     Die positiven Artikelposten spiegeln die gebuchten Zubehör-Einkaufslieferungen der Kreditoren 10000 und 20000 wieder, und die Artikel können im Lager aus dem Wareneingangslagerplatz eingelagert werden.  
 
@@ -148,7 +148,7 @@ Im Fenster **Lagereinlagerung** können Sie Einlagerungen für einen spezifische
 
     Fahren Sie fort mit dem Registrieren der Einlagerung.  
 
-7.  Wählen Sie die Aktion **Beleg buchen**aus und wählen Sie dann die Schaltfläche **Ja** aus.  
+7.  Wählen Sie die Aktion **Beleg buchen** aus und wählen Sie dann die Schaltfläche **Ja** aus.  
 
     Das erhaltene Zubehör wird jetzt in den Standardlagerplätzen der Artikel eingelagert, und 40 Scharniere werden in die Montageabteilung gebracht. Die eingegangenen Artikel sind jetzt für die Kommissionierung zum internen Bedarf, wie etwa für Montageaufträge, oder zum externen Bedarf, wie etwa für Verkaufslieferungen, verfügbar.  
 

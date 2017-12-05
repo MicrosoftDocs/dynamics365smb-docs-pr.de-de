@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6cdd86fb96e89e99ea2378221d2991bd640f887e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Vorgehensweise: Ändern von Planungsvorschlägen in einer grafischen Ansicht
@@ -47,7 +47,7 @@ Der folgende Ablauf zeigt, wie Vorratsvorschläge mit Drag & Drop geändert werd
 5.  Drücken Sie die Maustaste und halten Sie sie gedrückt, während Sie den Zeiger nach oben oder unten ziehen, um die Menge zu ändern. Drücken Sie die Maustaste und halten Sie sie gedrückt, während Sie den Zeiger nach links oder rechts ziehen, um das Fälligkeitsdatum zu ändern.  
 6.  Außer dem Bewegen von Elementen mit Drag & Drop können Sie auch Planungsvorschläge ändern, indem Sie einige Rechtsklick-Funktionen verwenden. Klicken Sie mit der rechten Maustaste auf den grünen Kreis eines vorgeschlagenen Vorratselements, und wählen Sie eine der folgenden Funktionen aus.  
 
-    |Funktion|Description|  
+    |Funktion|Beschreibung|  
     |--------------|---------------------------------------|  
     |**Neuen Vorrat erstellen**|Erstellt an der Stelle, auf die Sie rechtsklicken, ein neues Element, das einen neuen vorgeschlagenen Beschaffungsauftrag darstellt. Dies wird zu einer neuen Zeile im Planungsvorschlag, wenn Sie **Änderungen speichern** auswählen.<br /><br /> **HINWEIS:** Wenn die Felder **Standortfilter** oder **Varianten-Filter** im Inforegister **Optionen** leer sind oder mehr als einen Filterwert enthalten, wird der neue Vorrat erstellt und später im Planungs- oder Bestellvorschlag mit den folgenden Codes gespeichert:<br /><br /> * Wenn das Feld "Filter" leer ist, wird der neue Vorrat ohne Lagerort oder Variantencode erstellt.<br /><br /> * «»Wenn mehr als ein Filterwert definiert ist, wird der neue Vorrat für den ersten Filterwert gemäß der Sortiermethode erstellt.<br /><br /> Wenn Sie eine andere Variante oder einen anderen Lagerortcode verwenden möchten, müssen Sie diese in der neuen Planungszeile manuell ändern.|  
     |**Vorrat automatisch anpassen**|Optimiert einen neuen Vorrat, den Sie im Diagramm erstellt haben, indem Sie sicherstellen, dass sich vor dem nächsten Vorrat ein Lagerbestand von null ergibt.|  
@@ -59,7 +59,7 @@ Der folgende Ablauf zeigt, wie Vorratsvorschläge mit Drag & Drop geändert werd
 Um die Beschaffungsplanänderungen zu übernehmen, müssen Sie den resultierenden Ereignismeldungen aus dem Planungs- oder Bestellvorschlag folgen. Weitere Informationen finden Sie unter Carry Out Action Msg.Plan..
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symbole und Bildsymbole im Inforegister "Zeitachse"
- |Symbol/Bildsymbol|Description|  
+ |Symbol/Bildsymbol|Beschreibung|  
  |------------------|---------------------------------------|  
  |Schwarzes Kreuz|Aufträge (Vorrat und Bedarf).<br /><br /> -   Kann nicht geändert werden.<br />-   Sichtbar, wenn das Feld **Voraussichtlichen Lagerbestand anzeigen** ausgewählt wird (orangefarbenes Diagramm).|  
  |Roter Kreis|Vorhandene Beschaffungsaufträge, die nicht in den Planungsvorschlägen enthalten sind.<br /><br /> -   Kann nicht geändert werden.<br />-   Sichtbar, wenn das Feld **Voraussichtlichen Lagerbestand anzeigen** ausgewählt wird (orangefarbenes Diagramm).|  
@@ -70,7 +70,7 @@ Um die Beschaffungsplanänderungen zu übernehmen, müssen Sie den resultierende
 
 Wenn Sie das Dropdownmenü für das Inforegister **Zeitachse** zugreifen, sehen, die folgenden Funktionen, abhängig von dem, was Sie gewählt haben  
 
- |Funktion|Description|  
+ |Funktion|Beschreibung|  
  |--------------|---------------------------------------|  
  |**Neuen Vorrat erstellen**|Erstellt an der Stelle, auf die Sie rechtsklicken, ein neues Element, das einen neuen vorgeschlagenen Beschaffungsauftrag darstellt. Dies wird zu einer neuen Zeile im Planungsvorschlag, wenn Sie **Änderungen speichern** auf der Registerkarte **Vorgang** auswählen.<br /><br /> Alle Filterwerte, die in den Feldern **Standortfilter** oder **Variantenfilter** im Inforegister **Optionen** definiert werden, werden auf den neuen Beschaffungsauftrag angewendet. **Hinweis:**  Wenn die Filterfelder leer sind oder mehr als einen Filterwert enthalten, wird der neue Beschaffungsauftrag erstellt, indem die folgenden Codes verwendet werden: <ul><li>Wenn das Feld "Filter" leer ist, wird der neue Vorrat ohne Lagerort oder Variantencode erstellt.</li><li>Wenn mehr als ein Filterwert definiert ist, wird der neue Vorrat erstellt, indem der erste Filterwert gemäß der Sortierreihenfolge verwendet wird.</li></ul> Wenn Sie einen anderen Varianten- oder Lagerortcode in dem neuen Beschaffungsauftrag verwenden möchten, müssen Sie ihn in der neuen Planungszeile manuell ändern.|  
  |**Vorrat automatisch anpassen**|Optimiert einen neuen Vorrat, den Sie in dem Plan erstellt haben, indem Sie sicherstellen, dass vor dem nächsten Vorrat ein Lagerbestand von null erstellt wird.|  
@@ -82,7 +82,7 @@ Wenn Sie das Dropdownmenü für das Inforegister **Zeitachse** zugreifen, sehen,
 
 Zusätzlich zu den Tastaturaktionen, die zuvor erwähnt wurden, können Sie im Inforegister **Zeitachse** auch die folgenden Tastaturaktionen verwenden.  
 
- |Tastaturaktion|Description|  
+ |Tastaturaktion|Beschreibung|  
  |---------------------|---------------------------------------|  
  |STRG+ Mausrad bewegen|Ändert die Skala der x-Achse.|  
  |Wählen Sie ein Element aus, und drücken Sie dann UMSCHALT+PFEILTASTE.|Verschiebt das Element in Richtung der Pfeilspitze.|  

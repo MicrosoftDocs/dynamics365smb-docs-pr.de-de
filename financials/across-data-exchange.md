@@ -1,5 +1,5 @@
 ---
-title: Elektronische Dokumente in Dynamics 365 for Financials  | Microsoft Docs
+title: Elektronische Dokumente in Dynamics 365 Business edition  | Microsoft Docs
 description: "Einführung zum Senden und Empfangen von elektronischen Belegen in [!INCLUDE[d365fin](includes/d365fin_md.md)]."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,17 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c0ca1b5da823d31bba4961e8724dfb98e842317
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4397c5b935afccc666fac91c73c04c59958fd8eb
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-## <a name="exchanging-data-as-electronic-documents"></a>Datenaustausch als Elektronische Dokumente  
-Als Alternative zu E-Mail-Dateianhängen können Sie Belege elektronisch versenden und empfangen. Mit elektronischem Beleg ist eine normgerechte Datei gemeint, die ein Geschäftsdokument darstellt, zum Beispiel eine Rechnung von einem Kreditor, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] empfangen und in eine Einkaufsrechnung konvertieren können. Der Austausch von elektronischen Belegen zwischen zwei Handelspartnern erfolgt über einen externen Anbieter eines Belegaustauschdiensts. Die allgemeine Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt das Senden und Empfangen von elektronischen Rechnungen und Gutschriften im PEPPOL-Format, das von den größten Anbietern von Belegaustauschdiensten unterstützt wird. Ein wichtiger Anbieter eines Belegaustauschdienstes ist vorkonfiguriert und kann für Ihren Mandanten eingerichtet werden. Um Unterstützung für andere elektronische Belegformate zu bieten, müssen Sie mithilfe des Datenaustauschframework neue Datenaustauschdefinitionen erstellen.  
+
+# <a name="exchanging-data-electronically"></a>Daten elektronisch austauschen
+Sie können das Datenaustauschframework verwenden, um Geschäftsbelege, Bankdateien, Währungswechselkurse und andere Datendateien mit Ihren Geschäftspartnern auszutauschen.
+
+## <a name="electronic-documents"></a>Elektronische Belege
+Als Alternative zu E-Mail-Dateianhängen können Sie Geschäftsbelegen elektronisch versenden und empfangen. Mit elektronischem Beleg ist eine normgerechte Datei gemeint, die ein Geschäftsdokument darstellt, zum Beispiel eine Rechnung von einem Kreditor, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] empfangen und in eine Einkaufsrechnung konvertieren können. Der Austausch von elektronischen Belegen zwischen zwei Handelspartnern erfolgt über einen externen Anbieter eines Belegaustauschdiensts. Die allgemeine Version von [!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt das Senden und Empfangen von elektronischen Rechnungen und Gutschriften im PEPPOL-Format, das von den größten Anbietern von Belegaustauschdiensten unterstützt wird. Ein wichtiger Anbieter eines Belegaustauschdienstes ist vorkonfiguriert und kann für Ihren Mandanten eingerichtet werden. Um Unterstützung für andere elektronische Belegformate zu bieten, müssen Sie mithilfe des Datenaustauschframework neue Datenaustauschdefinitionen erstellen.  
 
 Mithilfe eines externen OCR-Dienstes (optische Zeichenerkennung) können Sie aus PDF- oder Bilddateien, die die Eingangsbelege darstellen, elektronische Belege erstellen, die Sie dann in [!INCLUDE[d365fin](includes/d365fin_md.md)] in Belegdatensätze konvertieren können, wie Sie es für elektronische PEPPOL-Belege tun. Wenn Sie beispielsweise eine Rechnung in PDF-Format von Ihrem Kreditor erhalten, können Sie diese über das Fenster **Eingehende Belege** zum OCR-Dienst senden. Nach einigen Sekunden erhalten Sie die Datei als elektronische Rechnung zurück, die zu einer Einkaufsrechnung für den Kreditor umgewandelt werden kann. Wenn Sie die Datei per E-Mail an den OCR-Service senden, wird automatisch ein neuer Datensatz für einen eingehenden elektronischen Beleg erstellt, wenn Sie den elektronischen Belegs zurückerhalten.  
 
@@ -29,9 +33,9 @@ Um beispielsweise eine Rechnung von einem Kreditor in Form eines elektronischen 
  Um zum Beispiel eine Rechnung als elektronischer OCR-Beleg zu empfangen, verarbeiten Sie diese genauso wie beim Empfang eines elektronischen PEPPOL-Belegs. Der Empfang und die Konvertierung von elektronischen Belegen von OCR wird über das Datenaustauschframework durchgeführt, das durch die Datenaustauschdefinition **OCR - Rechnung** dargestellt wird.  
 
 ## <a name="bank-files"></a>Bankdateien  
- Die Formate der Dateien für den Austausch von Bankdaten mit ERP-Systemen variieren abhängig vom Lieferanten der Datei und vom jeweiligen Land oder der Region. Die allgemeine Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt den Import und Export von SEPA-Bankdateien (Single Euro Payments Area; einheitlicher Euro-Zahlungsverkehrsraum) und einen Bankdaten-Konvertierungsdienst, der vom externen Anbieter AMC Consult bereitgestellt wird. Um Unterstützung für andere elektronische Belegformate zu bieten, verwenden Sie das Datenaustauschframework.  
+ Die Formate der Dateien für den Austausch von Bankdaten mit ERP-Systemen variieren abhängig vom Lieferanten der Datei und vom jeweiligen Land oder der Region. Die allgemeine Version von [!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt den Import und Export von SEPA-Bankdateien (Single Euro Payments Area; einheitlicher Euro-Zahlungsverkehrsraum) und einen Bankdaten-Konvertierungsdienst, der vom externen Anbieter AMC Consult bereitgestellt wird. Um Unterstützung für andere elektronische Belegformate zu bieten, verwenden Sie das Datenaustauschframework.  
 
-Um SEPA-Gutschriftübertragungen zu exportieren, wählen Sie die Schaltfläche**Zahlungen in Datei exportieren** im Fenster **Zahlungs-Buch-Blatt.** aus und laden die Datei dann hoch, um die Zahlungen bei Ihrer Bank in Auftrag zu geben. Zuerst müssen Sie verschiedene Stammdaten einrichten, wie Bankkonto, Kreditoren und Zahlungsformen. Die Datenkonvertierung und der Export von SEPA-Bankdaten werden durch dedizierte Codeunits und XMLports ausgeführt, die durch das Bankexport-/-importsetup **SEPA Kreditübertragung** dargestellt werden. Alternativ können Sie den Bankdaten-Konvertierungsdienst so einrichten, dass er den Export ausführt. Dies wird durch die Datenaustauschdefinition **Bankdaten-Konvertierungsdienst - Kreditübertragung** dargestellt.  
+Um SEPA-Gutschriftübertragungen zu exportieren, wählen Sie die Schaltfläche **Zahlungen in Datei exportieren** im Fenster **Zahlungs-Buch-Blatt.** aus und laden die Datei dann hoch, um die Zahlungen bei Ihrer Bank in Auftrag zu geben. Zuerst müssen Sie verschiedene Stammdaten einrichten, wie Bankkonto, Kreditoren und Zahlungsformen. Die Datenkonvertierung und der Export von SEPA-Bankdaten werden durch dedizierte Codeunits und XMLports ausgeführt, die durch das Bankexport-/-importsetup **SEPA Kreditübertragung** dargestellt werden. Alternativ können Sie den Bankdaten-Konvertierungsdienst so einrichten, dass er den Export ausführt. Dies wird durch die Datenaustauschdefinition **Bankdaten-Konvertierungsdienst - Kreditübertragung** dargestellt.  
 
 Um SEPA-Lastschriften zu exportieren, wählen Sie die Schaltfläche **Lastschriftdatei exportieren** im Fenster **Lastschrift** aus und senden die Datei dann zu Ihrer Bank, damit die entsprechenden Debitorenzahlungen automatisch erfasst werden. Zuerst müssen Sie Bankkonten, Debitoren, Lastschrift-Mandage und Zahlungsformen einrichten. Die Datenkonvertierung und der Export von SEPA-Bankdaten werden durch dedizierte Codeunits und XMLports ausgeführt, die durch das **SEPA-Lastschrift** Bankexport-/-importsetup dargestellt werden.  
 
@@ -42,21 +46,21 @@ Um SEPA-Bankauszüge zu importieren, wählen Sie die Schaltfläche "Bankauszug i
 ## <a name="currency-exchange-rates"></a>Währungswechselkurse  
 Sie können einen externen Service einrichten, um Ihre Währungswechselkurses auf dem neuesten Stand zu halten. Der Service, der aktualisierte Währungswechselkurses bereitstellt, wird durch eine Datenaustauschdefinition aktiviert. Entsprechend wird das **Wechselkursaktualisierungskarte einrichten** Fenster eine verkürzte Darstellungsform des Fensters **Datenaustauschdefinition** für die entsprechenden Datenaustauschdefinition.  
 
-Für den gesamten Austausch von Daten in XML-Dateien können Sie die Einrichtung des Datenaustausches vorbereiten, indem Sie die zugehörige**XML-Schemadatei** im Fenster  laden. Hier wählen Sie die Datenelemente aus, die Sie mit [!INCLUDE[d365fin](includes/d365fin_md.md)] austauschen möchten, und dann initialisieren Sie entweder eine Datenaustauschdefinition oder generieren einen XMLport.  
+Für den gesamten Austausch von Daten in XML-Dateien können Sie die Einrichtung des Datenaustausches vorbereiten, indem Sie die zugehörige **XML-Schemadatei** im Fenster laden. Hier wählen Sie die Datenelemente aus, die Sie mit [!INCLUDE[d365fin](includes/d365fin_md.md)] austauschen möchten, und dann initialisieren Sie entweder eine Datenaustauschdefinition oder generieren einen XMLport.  
 
 Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.  
 
-|An|Siehe|  
+|Aufgabe|Siehe|  
 |--------|---------|  
 |Erfahren Sie, wie das Daten-Exchange-Framework arbeitet.|[Über das Datenaustauschframework](across-about-the-data-exchange-framework.md)|  
 |Bereiten Sie den Datenaustausch per Datei vor, indem Sie das XML-Schema der Datei verwenden. Richten Sie Datenaustauschdefinitionen ein. Richten Sie Stammdaten für das Senden von elektronischen Belegen ein. Richten Sie verschiedene Felder für den Bankimport und -export ein.|[Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)|  
-|Auf der Grundlage von Datenaustauschdefinitionen senden und empfangen Sie PEPPOL-Rechnungen, importieren Bankauszüge und exportieren Bankzahlungsdateien.|[Austauschdaten](across-exchange-data.md)|  
+|Auf der Grundlage von Datenaustauschdefinitionen senden und empfangen Sie PEPPOL-Rechnungen, importieren Bankauszüge und exportieren Bankzahlungsdateien.|[Austausch von Daten](across-exchange-data.md)|  
 
 ## <a name="see-also"></a>Siehe auch  
 [Über das Datenaustauschframework](across-about-the-data-exchange-framework.md)  
 [Gewusst wie: Verwenden von XML-Schemata zur Vorbereitung von Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)  
-[Austauschdaten](across-exchange-data.md)  
+[Austausch von Daten](across-exchange-data.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

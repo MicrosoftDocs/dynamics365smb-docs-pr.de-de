@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a1141c352dd93657d32bb83067ce32077901a47
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-contact-companies"></a>Gewusst wie: Erstellen von neuen Kontaktunternehmen
@@ -27,7 +27,7 @@ Es gibt zwei Möglichkeiten, um einen Kontakt zu erstellen: von Grund auf neu od
 Bevor Sie einen Kontakt anlegen, sollten Sie die Einstellungen im Fenster **Marketing & Vertrieb Einr.** überprüfen. Weitere Informationen finden Sie unter [Einrichten von Relationship Management](marketing-setup-marketing.md)
 
 ## <a name="create-a-company-contact-from-scratch"></a>Neues eines Unternehmenskontakte von Grund auf
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Geben Sie im Feld **Nr.** eine Nummer für den Kontakt ein.
 
@@ -58,6 +58,6 @@ Wenn Sie bereits eine Anzahl von Debitoren, Kreditoren und Bankkonten eingericht
 [Kontakten Geschäftsbeziehungen zuordnen](marketing-business-relations.md#AssignBusRelContact)  
 [Kontakt eine Branche zuordnen](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Zuordnen von Verteiler zu einem Kontakt](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Gewusst wie: Anlegen von Kontaktpersonen](marketing-create-contact-persons.md)  
-[Arbeiten mit Financials](ui-work-product.md)
+[Gewusst wie: Anlegen neuer Kontaktpersonen](marketing-create-contact-persons.md)  
+[Arbeiten mit Dynamics 365](ui-work-product.md)
 

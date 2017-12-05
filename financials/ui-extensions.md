@@ -1,6 +1,6 @@
 ---
-title: Erweiterungen installieren um Dynamics 365 for Financials anzupassen | Microsoft Docs
-description: "Informationen zum Hinzufügen von Funktionalität und Anpassungen für Dynamics 365 for Financials erhalten durch die Installation von Erweiterungen."
+title: Erweiterungen installieren um Dynamics 365 Business edition anzupassen | Microsoft Docs
+description: "Informationen zum Hinzufügen von Funktionalität und Anpassungen für Dynamics 365 Business edition erhalten durch die Installation von Erweiterungen."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2f6bbbc213bce74b31bb4e8c64198559db2d105d
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Anpassen Ihres Dynamics 365 for Financials Benutzererweiterung
+# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Anpassen von Dynamics 365, Business edition mit Erweiterungen
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] ändern, indem Sie beispielsweise Erweiterungen installieren, die Funktionalität hinzufügen, das Verhalten ändern oder Zugriff auf die neuen Onlinediensten geben.
 Wenn Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)] zuerst starten, werden bestimmte Erweiterungen bereits eingerichtet. Im Zeitverlauf werden mehr Erweiterungen für Sie zugänglich und Sie können auswählen, ob Sie die Erweiterung verwenden möchten oder nicht.
 
@@ -61,6 +61,8 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 * [QuickBooks Onlin Datenmigration](ui-extensions-quickbooks-online-data-migration.md)
 * [Buchhaltungsportal](ui-extensions-accountant-portal.md)  
 * [Schliffbildanalysator](ui-extensions-image-analyzer.md)
+* [Zahlungen und gebuchte Abstimmungen (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
+* [C5-Datenmigration](ui-extensions-c5-data-migration.md)
 
 > [!NOTE]  
 >  Neue Erweiterungen sind nicht in AppSource verfügbar, sofort nachdem wird ein ankündigen aktualisieren. Sie können die Erweiterung [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) im Auge behalten.

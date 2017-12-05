@@ -1,6 +1,6 @@
 ---
 title: Verwenden Sie Excel, um Financials Daten zu exportieren | Microsoft Docs
-description: "Sie können Ihre Finanzberichte und Intelligence-Daten von Dynamics 365 for Financials in Excel exportieren, oder Ihre Financials Daten in Excel öffnen."
+description: "Sie können Ihre Finanzberichte und Intelligence-Daten von Dynamics 365 Business edition in Excel exportieren, oder Ihre Financials Daten in Excel öffnen."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 054288659215df61a99564ab856bfb5f72ee7f39
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportieren Ihrer Geschäftsdaten nach Excel
@@ -67,5 +67,5 @@ Es ist empfehlenswert, dass Sie auch erwägen, Daten von den nächsten Seiten zu
 [Geschäftsdaten aus anderen Finanzsystemen importieren](upload-data.md)  
 [Finanzen](finance.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

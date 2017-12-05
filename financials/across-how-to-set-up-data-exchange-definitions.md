@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 111eb2f627f63edd31c6224f0fd664bf68417079
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-data-exchange-definitions"></a>Vorgehensweise: Richten Sie Datenaustauschdefinitionen ein.
-Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] so einrichten, dass Daten in bestimmten Tabelle mit Daten in externen Dateien ausgetauscht werden, zum Beispiel zum Senden und Empfangen elektronischer Belege oder zum Importieren und Exportieren von Bankdaten und anderen Daten, wie Lohnabrechnung, Währungswechselkursen und Artikelkatalogen. Weitere Informationen finden Sie unter [Daten als elektronische Dokumente austauschebn](across-data-exchange.md).  
+Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] so einrichten, dass Daten in bestimmten Tabelle mit Daten in externen Dateien ausgetauscht werden, zum Beispiel zum Senden und Empfangen elektronischer Belege oder zum Importieren und Exportieren von Bankdaten und anderen Daten, wie Lohnabrechnung, Währungswechselkursen und Artikelkatalogen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
 
 Zur Vorbereitung für das Erstellen einer Datenaustauschdefinition für eine Datendatei oder einen Datenstrom können Sie das zugehörige XML-Schema verwenden, um zu definieren, welche Datenelemente im Inforegister **Spaltendefinitionen** berücksichtigt werden sollen. Weitere Informationen finden Sie unter Schritt 6 im Abschnitt „Die Formatierung der Zeilen und Spalten in der Datei beschreiben“. Weitere Informationen finden Sie im Thema [Vorgehensweise: Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinition](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) in der Anwendungshilfe.  
 
@@ -50,7 +50,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     |---------------------------------|---------------------------------------|  
     |**Code**|Geben Sie einen Code zur Identifizierung der Datenaustauschdefinition ein.|  
     |**Name**|Geben Sie einen Namen für die Datenaustauschdefinition ein.|  
-    |**Dateityp**|Geben Sie an, für welche Art von Datei die Datenaustauschdefinition verwendet wird. Sie können zwischen drei Dateitypen auswählen:<br /><br /> -   **XML**: Geschichtete Zeichenfolgen des Inhalts und des Aufschlags, die von Tags, die die Funktion angeben, umgeben sind.<br />-   **Variabler Text**: Datensätze haben eine variable Länge und sind durch ein Zeichen, z. B. ein Komma oder Semikolon geteilt. Auch bekannt als *Datei mit Trennzeichen*.<br />-   **Fester Text**: Datensätze haben dieselbe Länge, unter Verwendung von Auffüllzeichen, und mit jedem Datensatz auf einer separaten Zeile. Auch bekannt als *Datei mit fester Breite*.|  
+    |**Dateityp**|Geben Sie an, für welche Art von Datei die Datenaustauschdefinition verwendet wird. Sie können zwischen drei Dateitypen auswählen:<br /><br /> -   **XML**: Geschichtete Zeichenfolgen des Inhalts und des Aufschlags, die von Tags, die die Funktion angeben, umgeben sind.<br />-   **Variabler Text**: Datensätze haben eine variable Länge und sind durch ein Zeichen, z. B. ein Komma oder \-Semikolon geteilt. Auch bekannt als *Datei mit Trennzeichen*.<br />-   **Fester Text**: Datensätze haben dieselbe Länge, unter Verwendung von Auffüllzeichen, und mit jedem Datensatz auf einer separaten Zeile. Auch bekannt als *Datei mit fester Breite*.|  
     |**Typ**|Geben Sie an, für welche Art von Geschäftstätigkeit die Datenaustauschdefinition verwendet wird, zum Beispiel **Zahlungsexport**.|  
     |**Codeunit zur Datenverarbeitung**|Geben Sie die Codeunit an, die Daten in und aus Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] überträgt.|  
     |**Überprüfungs-Codeunit**|Geben Sie die Codeunit an, die verwendet wird, um Daten gegen vordefinierte Geschäftsregeln zu validieren.|  
@@ -58,9 +58,9 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     |**Lese-/Schreibe-XMLport**|Geben Sie den XMLPort an, über den eine importierte Datendatei oder ein Service vor der Zuordnung eingeht, und durch den exportierte Daten ausgehen, wenn sie nach der Zuordnung in eine Datendatei oder einen Service geschrieben werden.|  
     |**Codeunit zur externen Datenverarbeitung**|Geben Sie die Codeunit an, die externe Daten in und aus dem Daten-Exchange-Framework überträgt.|  
     |**Benutzerfeedback-Codeunit**|Geben Sie die Codeunit an, die nach dem Zuordnen verschiedene Bereinigungen ausführt, wie das Markieren von exportierten Zeilen und das Löschen temporärer Datensätze.|  
-    |**Dateiverschlüsselung**|Geben Sie die Codierung der Datei an. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
+    |**Dateiverschlüsselung**|Geben Sie die Codierung der Datei an. **Hinweis:**  Dieses Feld ist nur für den Import relevant.|  
     |**Spaltentrennzeichen**|Geben Sie an, wie Spalten in der Datendatei getrennt werden, wenn die Datei den Typ **Variabler Text** hat.|  
-    |**Kopfzeilen**|Geben Sie an, wie viele Kopfzeilen in der Datei vorhanden sind.<br /><br /> Dadurch wird sichergestellt, dass die Kopfzeilendaten nicht importiert werden. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
+    |**Kopfzeilen**|Geben Sie an, wie viele Kopfzeilen in der Datei vorhanden sind.<br /><br /> Dadurch wird sichergestellt, dass die Kopfzeilendaten nicht importiert werden. **Hinweis:**  Dieses Feld ist nur für den Import relevant.|  
     |**Kopfzeilentag**|Wenn eine Kopfzeile an verschiedenen Positionen in der Datei vorhanden ist, geben Sie den Text der ersten Spalte in der Kopfzeile ein.<br /><br /> Dadurch wird sichergestellt, dass die Kopfzeilendaten nicht importiert werden. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
     |**Fußzeilentag**|Wenn eine Fußzeile an verschiedenen Positionen in der Datei vorhanden ist, geben Sie den Text der ersten Spalte in der Fußzeile ein.<br /><br /> Dadurch wird sichergestellt, dass die Fußzeilendaten nicht importiert werden. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
 
@@ -71,7 +71,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     >   
     >  Für den Export von Zahlungen können Sie eine Zeile für jede Zahlungsart erstellen, die Sie exportieren möchten. In diesem Fall zeigt das Inforegister **Spaltendefinitionen** verschiedene Spalten für jede Zahlungsart an.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Geben Sie einen Code zur Identifizierung der Zeile in der Datei ein.|  
     |**Name**|Geben Sie einen Namen ein, der die Zeile in der Datei beschreibt.|  
@@ -87,7 +87,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
 7. Wählen Sie im Fenster **Datenstruktur abrufen** die zugehörige Strukturdatei aus, und wählen Sie dann die Schaltfläche **OK** aus. Die Zeilen im Inforegister **Spaltendefinitionen** werden entsprechend der Struktur der Datendatei ausgefüllt.  
 8. Füllen Sie im Inforegister **Spaltendefinitionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus oder bearbeiten Sie sie.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Spaltennr.**|Geben Sie die Nummer an, die die Spaltenposition auf der Zeile in der Datei wiedergibt.<br /><br /> Für XML-Dateien geben Sie die Nummer an, die den Elementtyp in der Datei widergespiegelt, die die Daten enthält.|  
     |**Name**|Geben Sie den Namen der Spalte an.<br /><br /> Für XML-Dateien geben Sie die Markierung an, die die auszutauschenden Daten markiert.|  
@@ -102,7 +102,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
 
 9. Wiederholen Sie Schritt 8 für jede Spalte oder jedes XML-Element in der Datendatei, die/das Daten hat, die Sie mit [!INCLUDE[d365fin](includes/d365fin_md.md)] austauschen möchten.  
 
- Der nächste Schritt bei der Erstellung einer Datenaustauschdefinition besteht darin, zu entscheiden, welche Spalten oder XML-Elemente welchen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet werden sollen].  
+ Der nächste Schritt bei der Erstellung einer Datenaustauschdefinition besteht darin, zu entscheiden, welche Spalten oder XML-Elemente welchen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet werden sollen.  
 
 > [!NOTE]  
 >  Die spezielle Zuordnung hängt vom Geschäftszweck der Datendatei ab, die ausgetauscht werden soll, sowie von lokalen Variationen. Selbst der SEPA-Bankstandard verfügt über lokale Variationen. [!INCLUDE[d365fin](includes/d365fin_md.md)] Stützimport von SEPA Bankkontoauszug CAMT archiviert Out\-of\-the\-Box. Dies wird durch den **SEPA CAMT**-Datenaustausch-Definitionsdatensatzcode im **Datenaustauschdefintion**-Fenster angezeigt. Informationen über die bestimmte Feldzuordnung dieser SEPA CAMT Unterstützung, siehe. [Feld-Zuordnung, wenn sie SEPA CAMT Dateien importieren](across-field-mapping-when-importing-sepa-camt-files.md).  
@@ -111,10 +111,10 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
 1. Wählen Sie im Inforegister **Zeilendefinitionen** die Zeile aus, für die Sie Spalten Feldern zuordnen möchten, und wählen Sie dann **Feldzuordnung** aus. Das Fenster **Datenaustauschzuordnung** wird geöffnet.  
 2. Spezifizieren Sie im Inforegister **Allgemein** die Zuordnungen, indem Sie die Felder gemäß der Beschreibung in der folgenden Tabelle ausfüllen.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Tabellen-ID**|Geben Sie die Tabelle an, die die Felder enthält, zu oder aus denen Daten entsprechend der Zuordnung ausgetauscht werden.|  
-    |**Als Zwischentabelle verwenden**|Gibt an, dass die im Feld **Tabellen-ID** ausgewählte Tabelle eine Zwischentabelle ist, in der die importierten Daten vor der Zuordnung zur Zieltabelle gespeichert werden.<br /><br /> In der Regel verwenden Sie eine vorläufige Tabelle, wenn die Datenaustauschdefinition verwendet wird, um elektronische Belege zu importieren und umwandeln, wie Kreditorenrechnungen in Einkaufsrechnungen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Weitere Informationen finden Sie unter [Daten als elektronische Dokumente austauschebn](across-data-exchange.md).|  
+    |**Als Zwischentabelle verwenden**|Gibt an, dass die im Feld **Tabellen-ID** ausgewählte Tabelle eine Zwischentabelle ist, in der die importierten Daten vor der Zuordnung zur Zieltabelle gespeichert werden.<br /><br /> In der Regel verwenden Sie eine vorläufige Tabelle, wenn die Datenaustauschdefinition verwendet wird, um elektronische Belege zu importieren und umwandeln, wie Kreditorenrechnungen in Einkaufsrechnungen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).|  
     |**Name**|Geben Sie einen Namen für den Zuordnungssetup ein.|  
     |**Vorabzuordnungs-Codeunit**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] und externen Daten vorbereitet.|  
     |**Zuordnungs-Codeunit**|Geben Sie die Codeunit an, die verwendet wird, um die angegebenen Spalten oder XML-Datenelemente den Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zuzuordnen.|  
@@ -122,7 +122,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
 
 3.  Geben Sie im Inforegister **Feldzuordnung** an, welche Spalten welchen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet sind, indem Sie die Felder wie in der folgenden Tabelle beschrieben ausfüllen.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Spaltennr.**|Geben Sie an, für welche Spalte in der Datendatei Sie eine Zuordnung definieren möchten.<br /><br /> Sie können nur Spalten auswählen, die im Inforegister **Spaltendefinitionen** im Fenster **Datenaustauschdefintion** durch Zeilen angezeigt werden.|  
     |**Feld-ID**|Geben Sie an, welchem Feld die Spalte im Feld **Spaltennr.** zugeordnet ist. Feldkarten zu.<br /><br /> Sie können aus den Feldern nur auswählen, die in der Tabelle vorhanden sind, die Sie im Feld **Tabelle** im Inforegister **Allgemein** angegeben haben.|  

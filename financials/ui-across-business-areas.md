@@ -1,6 +1,6 @@
 ---
 title: "Yllgemeinen Funktionen über Geschäftsbereiche hinweg nutzen | Microsoft Docs"
-description: "Weitere Informationen über Funktionalitäten und Funktionen, die über Geschäftsbereiche hinweg in Dynamics 365 for Financials verwendet werden."
+description: "Weitere Informationen über Funktionalitäten und Funktionen, die über Geschäftsbereiche hinweg in Dynamics 365 Business edition verwendet werden."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b33fab6b4aeb3f1f6110d999a69956a76f8defd
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/22/2017
 
 Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu den entsprechenden Themen, in denen die Bereiche beschrieben werden.
 
-| An | Siehe |
+| Aufgabe | Siehe |
 | --- | --- |
 | Einrichten von Standardtextcodes, sodass Standardtext durch Hinzufügen weiterer Zeilen erweitert werden kann, und Einrichten von Bedingungen für die Verwendung der zusätzlichen Zeilen |[So wird's gemacht: Textbausteine anlegen](ui-how-define-ext-text.md) |
 | Informationen zum Arbeiten mit Fibu Buch.-Blättern, die zum Buchen auf Sachkonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten verwendet werden. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md) |
@@ -36,7 +36,7 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 | Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] ändern, indem Sie beispielsweise Erweiterungen installieren, die Funktionalität hinzufügen, das Verhalten ändern oder Zugriff auf die neuen Onlinediensten geben. |[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md) |
 |Konfigurieren und verwenden Sie Workflows, die Aufgaben verbinden, welche von verschiedenen Benutzern oder vom System ausgeführt werden, z. B. die automatische Buchung. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen oder Buchen von Belegen sind typische Workflowschritte.|[Workflow](across-workflow.md)|
 |Erfassen Sie externe Belege in Financials einschließlich Dateianhängen und erstellen Sie dann manuell die zugehörigen Belege oder wandeln Sie die Dateien automatisch in elektronische Belege um.|[Eingehende Belege](across-income-documents.md)|
-| Richten Sie Datenaustauschdefinitionen ein, damit Sie elektronische Belege versenden und erhalten können. |[Datenaustausch als Elektronische Dokumente ](across-data-exchange.md) |
+| Richten Sie Datenaustauschdefinitionen ein, damit Sie elektronische Belege versenden und erhalten können. |[Daten elektronisch austauschen](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

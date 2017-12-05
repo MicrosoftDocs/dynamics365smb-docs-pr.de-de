@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-persons"></a>Kontaktpersonen erstellen
@@ -28,9 +28,9 @@ Nehmen wir weiter an, Sie müssen einige Produktprospekte übersetzen lassen und
 
 Durch Erfassen möglichst umfangreicher Informationen zu einer Kontaktperson wird sichergestellt, dass allen Gruppen innerhalb des Unternehmens die jeweils relevanten Informationen zur Verfügung stehen.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. 
+Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
 
-| An | Siehe |
+| Aufgabe | Siehe |
 | --- | --- |
 | Bereitstellen von Informationen zu einer Kontaktperson |[Gewusst wie: Anlegen neuer Kontaktpersonen](marketing-how-create-contact-persons.md) |
 | Einrichten einer alternativen Adresse für einen Kontakt |[Gewusst wie: Zuordnen von alternativen Adressen](marketing-how-assign-alternate-address.md) |
@@ -41,5 +41,5 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 ## <a name="see-also"></a>Siehe auch
 [Kontaktunternehmenerstellen](marketing-create-contact-companies.md)  
 [Erstellen und Verwalten von Kontakten]()  
-[Arbeiten mit Financials](ui-work-product.md)
+[Arbeiten mit Dynamics 365](ui-work-product.md)
 

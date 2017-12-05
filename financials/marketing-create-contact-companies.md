@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-companies"></a>Kontaktunternehmenerstellen
@@ -26,9 +26,9 @@ Für eine effiziente Kommunikation empfiehlt es sich, einem bestimmten Unternehm
 
 Darüber hinaus können Sie definieren, welche Geschäftsbeziehung mit einem Kontakt besteht. So kann es sich bei einem Kontakt beispielsweise um einen Interessenten, um eine Bank oder um einen Vertragsnehmer handeln.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. 
+Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
 
-| An | Siehe |
+| Aufgabe | Siehe |
 | --- | --- |
 | Richten Sie einen Kontakt für ein neues Unternehmen ein, entweder von Grund auf oder über einen Debitor, Kreditor oder Bankkonto. |[Gewusst wie: Erstellen von neuen Kontaktunternehmen](marketing-how-create-contact-companies.md) |
 | Synchronisieren von Informationen in den Kontakten mit allgemeinen Informationen in den Debitoren, in Kreditoren und in Bankkonten. |[Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
@@ -40,5 +40,5 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 
 ## <a name="see-also"></a>Siehe auch
 [Kontaktpersonenerstellen](marketing-create-contact-persons.md)   
-[Arbeiten mit Financials](ui-work-product.md)
+[Arbeiten mit Dynamics 365](ui-work-product.md)
 

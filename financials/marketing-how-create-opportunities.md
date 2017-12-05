@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Verkaufschancen| Microsoft Docs
-description: Beschreibt die Erstellung von Verkaufschancen oder Kontakten in Financials.
+description: Beschreibt die Erstellung von Verkaufschancen oder Kontakten in Dynamics 365 Business edition.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-sales-opportunities"></a>Vorgehensweise: Erstellen von Verkaufschancen
@@ -35,7 +35,7 @@ Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstel
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>So erstellen Sie ein Angebot für einen Kontakt
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie den Kontakt aus, für den eine Verkaufschance erstellt werden soll.
 3. Führen Sie einen der folgenden Schritte aus:
    * Wählen Sie die Aktion **Verkaufschance erstellen** aus.
@@ -45,5 +45,5 @@ Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstel
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
-[Arbeiten mit Financials](ui-work-product.md)
+[Arbeiten mit Dynamics 365](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Exchange-Daten | Microsoft Docs
-description: "Sie können Daten zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)]  und externen Dateien oder Streams in Bezug auf allgemeine Geschäftsaufgaben (z. B. Senden und Empfangen von elektronischen Belegen und Importieren und Exportieren von Bankdateien) austauschen."
+description: "Sie können Daten zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und externen Dateien oder Streams in Bezug auf allgemeine Geschäftsaufgaben (z. B. Senden und Empfangen von elektronischen Belegen und Importieren und Exportieren von Bankdateien) austauschen."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 81781676adf27a4f1c1d478bb2b4bd8248551468
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: f7ee9914d70474e912414ecd4de9a4cf16fa4e45
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="exchanging-data"></a>Austausch von Daten
@@ -38,7 +38,7 @@ Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren
 
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)  
-[Datenaustausch als Elektronische Dokumente ](across-data-exchange.md)  
+[Daten elektronisch austauschen](across-data-exchange.md)  
 [Vorgehensweise: Fakturieren](sales-how-invoice-sales.md)   
 [Vorgehensweise: Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
 [Eingehende Belege](across-income-documents.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 5c0ac5aca0ac5000dbcf74ec6d3a273cfe95270f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7e49359f29bcb101b2dc16236e9b617962248a67
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-change-the-role-center"></a>So gehts: Ändern des Rollencenters
@@ -30,6 +30,6 @@ Der Inhalt der Startseite basiert auf dem ausgewählten Rollencenter. Das Standa
 3. Wählen Sie die Schaltfläche **OK** aus.
 
 ## <a name="see-also"></a>Siehe auch
-[Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

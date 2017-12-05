@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Gewusst wie: Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln
@@ -70,23 +70,34 @@ Wenn Sie keine Aufgabenwarteschlange verwenden oder Sie einen fertigen OCR-Beleg
 Jetzt können Sie fortfahren, manuelle oder automatisch Belegdatensätze für die eingegangenen elektronische Belege in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erstellen. Weitere Informationen finden Sie im nächsten Verfahren. Sie können außerdem den neuen Eingangsbelegdatensatz mit vorhandenen gebuchten oder nicht gebuchten Belegen verknüpfen, sodass aus [!INCLUDE[d365fin](includes/d365fin_md.md)] einfach auf die Quelldatei zugegriffen werden kann. Weitere Informationen finden Sie unter [Eingehende Dokumente verarbeiten](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Eine Einkaufsrechnung aus einem vom OCR-Dienst erhaltenen elektronischen Beleg erstellen.
-Nachfolgend wird beschrieben, wie ein Einkaufsrechnungsdatensatz von Rechnungsrabatten des Kreditors erstellt, die als elektronischer Beleg vom OCR-Dienst erhalten. Dieser Vorgang ist derselbe, wenn Sie beispielsweise eine Fibu Buch.-Blattzeile von einem Ausgabenenwareneingang erstellen.
+Nachfolgend wird beschrieben, wie ein Einkaufsrechnungsdatensatz von Rechnungsrabatten des Kreditors erstellt, die als elektronischer Beleg vom OCR-Dienst erhalten. Dieser Vorgang ist derselbe, wenn Sie beispielsweise eine Fibu Buch.-Blattzeile von einem Ausgabenenwareneingang oder eine Verkaufsreklamation von einem Kunden erstellen.
 
 > [!NOTE]  
->   Die Felder **Beschreibung** und **Nummer** Felder in den erstellten Belegzeilen werden nur ausgefüllt, wenn Sie zuerst den Text aus dem OCR-Beleg zu den zwei Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet haben. Sie können dies entweder über Artikel-Referenzen, für Belegzeilen vom Typ Artikel oder als Text-zu-Konto-Zuordnungen für Beleg- oder Buch.-Blattzeilen vom Typ Sachkonto machen Weitere Informationen finden Sie in der QuickInfo für die Aktion **Referenzen** auf Artikelkarten und dem zugehörigen Verfahren [Vorgehensweise: Zuordnen von sich wiederholenden Zahlungen an Konten bei der automatischen Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+>   Die Felder **Beschreibung** und **Nummer** Felder in den erstellten Belegzeilen werden nur ausgefüllt, wenn Sie zuerst den Text aus dem OCR-Beleg zu den zwei Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet haben. Sie können diese Zuordnung als Artikel-Referenzen für Belegzeilen vom Typ "Artikel" durchführen. Sie können auch die Text-zu-Kontozuordnungsfunktion verwenden. Weitere Informationen finden Sie im Abschnitt "So ordnen Sie Text auf einem eingehenden Beleg einem bestimmten Kreditor, Sachkonto oder Bankkonto zu".
 
+Um die Artikelnummern im Beleg Ihren Artikelbeschreibungen des Kreditors zuzuordnen, öffnen Sie die Karte eines jeden Artikels, und wählen Sie dann die **Referenzen**-Aktion aus, um Referenzen zwischen Ihren Artikelbeschreibungen und dem des Kreditors einzurichten. Weitere Informationen finden Sie im QuickInfo für die **Referenzen**-Aktion auf Artikelkarten.
+
+1. Wählen Sie die Zeile für den eingehenden Beleg aus, und wählen Sie die **Beleg erstellen**-Aktion aus.
+
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] wird auf der Basis der Informationen im elektronischen Kreditorenbeleg, den Sie vom OCR-Dienst erhalten haben, die Einkaufsrechnung erstellt. Informationen werden in die neue Einkaufsrechnung auf Grundlage der Zuordnung eingefügt, die Sie als Referenz oder als Text-zu-Kontozuordnung definiert haben.
+
+Überprüfungsfehler, die üblicherweise mit falschen oder fehlenden Stammdaten in [!INCLUDE[d365fin](includes/d365fin_md.md)] zusammenhängen, werden im Inforegister **Fehler und Warnungen** angezeigt. Weitere Informationen finden Sie unter "So behandeln Sie Fehler beim Erhalt eines elektronischen Belegs im Fenster „Eingehende Dokumente".
+
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>So ordnen Sie Text auf einem eingehenden Beleg einem bestimmten Kreditorkonto zu
 Für eingehende Belege verwenden **Sie üblicherweise die Aktion**, um zu definieren, das ein gegebener Text in einer Kreditorenrechnung vom OCR-Dienst zu einem bestimmten Kreditorkonto verknüpft ist. Danach wird bei jedem Teil der Dokumentbeschreibung, derals Zuordnungstext vorhanden ist das Feld **Nr.** in Beleg- oder Buch.-Blattzeilen der Art Sachkonto werden mit dem jeweiligen Kreditor gefüllt.
 
 Neben der Zuordnung zu einem Kreditor oder einem anderen Sachkonto können Sie auch ein Bankkonto zuordnen. Dies ist beispielsweise für elektronische Belege für Ausgaben nützlich, die bereits bezahlt wurden, für die Sie jedoch eine Fibu Buch.-Blattzeile erstellen möchten, die auf ein Bankkonto buchen kann.
 
-1. Wählen Sie die Zeile des eingehenden Beleges für elektronischen Kreditorenbeleg aus, der vom OCR-Dienst erhalten wird.
-2. Um Text in dem Beleg dem Kreditorenkonto zuzuordnen, wählen Sie die Aktion **Zu Konto zuordnen** und füllen dann das Fenster **Zuordnung Text zu Konto** mit Informationen aus, die für den Kreditor gelten. Weitere Informationen finden Sie unter [Vorgehensweise: Zuordnen von sich wiederholenden Zahlungen an Konten bei der automatischen Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-3. Um die Artikelnummern im Beleg Ihren Artikelbeschreibungen des Kreditors zuzuordnen, öffnen Sie die Karte eines jeden Artikels, und wählen Sie dann die **Referenzen**-Aktion aus, um Referenzen zwischen Ihren Artikelbeschreibungen und dem des Kreditors einzurichten.
-4. Wählen Sie im Fenster **Einrichtung für eingehende Dokumente** die Aktion **Dokument erstellen** aus.
+1. Wählen Sie die entsprechende Zeile des eingehenden Belegs aus, und wählen die **Text zu Konto zuordnen** Aktion aus. Das Fenster **Text zu Konto zuordnen** öffnet sich.
+3. In dem Feld **Abbildungstext** geben Sie beliebigen Text auf Kreditorenrechnungen ein, für die Sie Einkaufsbelege oder Buch.-Blattzeilen erstellen möchten. Sie können bis zu 50 Zeichen eingeben.
+4. In dem Feld **Kreditorennr.** geben Sie den Kreditor ein, für den der sich daraus ergebende Verkaufsbeleg oder die Buch.-Blattzeile erstellt wird.
+5. Geben Sie im Feld **Sollkontonr.** das Sachkonto vom Solltyp ein, das auf dem sich daraus ergebenden Verkaufsbeleg oder der Buch.-Blattzeile vom Typ "Sachkonto" eingefügt wird.
+6. Geben Sie im Feld **Habenkontonr.** das Kostenart-Sachkonto ein, das auf dem sich daraus ergebenden Verkaufsbeleg oder der Buch.-Blattzeile vom Typ "Sachkonto" eingefügt wird.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wird auf der Basis der Informationen im elektronischen Kreditorenbeleg, den Sie vom OCR-Dienst erhalten haben, die Einkaufsrechnung erstellt.
+    > [!NOTE]
+    > Verwenden Sie die Felder **Herkunftsart Saldo** und **Herkunftsnr. Saldo** nicht in Verbindung mit eingehenden Belegen. Sie werden nur für die automatische Zahlungsabstimmung verwendet. Weitere Informationen finden Sie unter [Vorgehensweise: Zuordnen von sich wiederholenden Zahlungen an Konten bei der automatischen Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
-Überprüfungsfehler, die üblicherweise mit falschen oder fehlenden Stammdaten in [!INCLUDE[d365fin](includes/d365fin_md.md)] zusammenhängen, werden im Inforegister **Fehler und Warnungen** angezeigt. Weitere Informationen finden Sie unter "So behandeln Sie Fehler beim Erhalt eines elektronischen Belegs im Fenster „Eingehende Dokumente".
+7. Wiederholen Sie die Schritte 2 bis 5 für alle Texte auf eingehenden Belegen, für die Sie automatisch Belege erstellen möchten.
 
 ## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Behandeln von Fehlern beim Erhalt von elektronischen Belegen
 1. Im **Eingehende Belege** Fenster wählen Sie die Zeile für ein elektronischer Beleg aus, der vom OCR-Dienst mit Fehlern erhalten wurde. Dies wird durch den Fehlerwert im Feld **OCR Status**-Feld angegeben.

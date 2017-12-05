@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e975732dc7a47a4803d58b92272a24151b4315c6
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 14849dbb74f608f78e0ad8a317307ec1bf649cf8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-receive-and-convert-electronic-documents"></a>Vorgehensweise: Elektronische Belege empfangen und konvertieren
@@ -45,11 +45,11 @@ Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstü
 
 2.  Wählen Sie die Zeile für den Eingangsbeleg aus, der die neue eingehende elektronische Rechnung darstellt, und wählen Sie dann auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Bearbeiten** aus.  
 
-     Im Fenster **Eingehende Dokumentenkarte**  wird die entsprechende XML-Datei angehängt, und die meisten Felder werden mit den Informationen aus der elektronischen Rechnung ausgefüllt. Weitere Informationen finden Sie unter [So gehts: Eingehende Dokumente erstellen](across-how-create-income-document-records.md).  
+     Im Fenster **Eingehende Dokumentenkarte** wird die entsprechende XML-Datei angehängt, und die meisten Felder werden mit den Informationen aus der elektronischen Rechnung ausgefüllt. Weitere Informationen finden Sie unter [So gehts: Eingehende Dokumente erstellen](across-how-create-income-document-records.md).  
 
 3.  Wählen Sie im Feld **Datenaustauschart** die Option **PEPPOL - Rechnung** oder **OCR - Rechnung** aus, je nachdem, woher der elektronische Beleg stammt.  
 
-4.  Um Text in der Kreditorenrechnung einem bestimmten Sollkonto zuzuordnen, wählen Sie auf der Registerkarte **Aktion**  in der Gruppe **Allgemein** die Option **Text zu Konto zuordnen**, und füllen Sie dann das **Kontozurodnungs**fenster aus.  
+4.  Um Text in der Kreditorenrechnung einem bestimmten Sollkonto zuzuordnen, wählen Sie auf der Registerkarte **Aktion** in der Gruppe **Allgemein** die Option **Text zu Konto zuordnen**, und füllen Sie dann das **Kontozurodnungs** fenster aus.  
 
 5.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Allgemein** die Option **Beleg erstellen**.  
 
@@ -61,6 +61,6 @@ Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstü
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Gewusst wie: Einrichten des Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Datenaustausch als Elektronische Dokumente ](across-data-exchange.md)   
+[Daten elektronisch austauschen](across-data-exchange.md)   
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 

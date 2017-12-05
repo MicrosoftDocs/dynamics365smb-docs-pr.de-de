@@ -1,6 +1,6 @@
 ---
 title: "Arbeiten mit Finanzübersichten in Excel | Microsoft Docs"
-description: "Mehr erfahren, wie Sie die Finanzaufstellungen in Microsoft Excel von Dynamics 365 for Financials für eine Analyse öffnen können."
+description: "Mehr erfahren, wie Sie die Finanzaufstellungen in Microsoft Excel von Dynamics 365 Business edition für eine Analyse öffnen können."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e32ece2d472adaca58ad5d4dc3446b407e431b63
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e58d412b9fb182a8a8f640593f78decf0e6aecc1
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysieren von Finanzauswertungen in Microsoft Excel
@@ -45,5 +45,5 @@ Mit dem Add-In können Sie neue Daten abrufen von [!INCLUDE[d365fin](includes/d3
 [Finanzen](finance.md)  
 [Finance einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
-[Arbeiten mit Financials](ui-work-product.md)  
+[Arbeiten mit Dynamics 365](ui-work-product.md)  
 

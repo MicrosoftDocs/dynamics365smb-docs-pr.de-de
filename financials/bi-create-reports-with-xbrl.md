@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9034287316f4d2c3f110182edf7676934453015d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: de7cf91736fd97943604237cee7093017e7c01f9
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="how-to-create-reports-with-xbrl"></a>Vorgehensweise. Erstellen neuer Vertriebsanalyseberichte mit XBRL
+# <a name="how-to-create-reports-with-xbrl"></a>Vorgehensweise. Erstellen von Berichten mit XBRL
 XBRL (eXtensible Business Reporting Language) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben. Die XBRL-Initiative ermöglicht die Erstellung globaler Finanzberichte durch verschiedene ERP-Softwareunternehmen und internationale Buchhaltungsorganisationen. Das Ziel der Initiative ist es, einen Standard für die einheitlichen Berichterstellung der Finanzdaten für Banken, Investoren und Regierungsbehörden bereitzustellen. Solche Geschäftsberichte können Folgendes umfassen:  
 
  • Finanzauswertungen  
@@ -27,7 +27,7 @@ XBRL (eXtensible Business Reporting Language) ist eine XML-basierte Sprache zum 
  • Finanzfremde Informationen  
  • Behördliche Erklärungen, beispielsweise jährlich oder quartalsweise abzugebende Finanzauswertungen  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]Microsoft Dynamics NAV ermöglicht Unternehmen die Implementierung von Daten in XBRL. Die Unternehmen profitieren dadurch von der Flexibilität und Automatisierung, die Ihnen XBRL beim Sammeln und gemeinsamen Nutzen von Daten bietet.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] Microsoft Dynamics NAV ermöglicht Unternehmen die Implementierung von Daten in XBRL. Die Unternehmen profitieren dadurch von der Flexibilität und Automatisierung, die Ihnen XBRL beim Sammeln und gemeinsamen Nutzen von Daten bietet.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) ist eine XML-basierte Sprache für das Finanzberichtswesen. XBRL (eXtensible Business Reporting Language) ist eine XML-basierte Sprache für Finanzberichtswesen. XBRL ist ein Standard für alle Nutzer der Supply-Chain zur einheitlichen Finanzberichterstattung. Dazu können private Unternehmen, das Buchhaltungswesen, Verwaltungen, Analysten, Investmentfirmen, Kapitalmärkte und Kreditgeber als auch Dritte in Schlüsselpositionen wie Softwareentwickler und Datenverwalter gehören.  
@@ -51,7 +51,7 @@ Ein XBRL **Instance Document** ist ein Geschäftsbericht, wie ein Finanzbericht,
 Eine Taxonomie kann aus einer Grundtaxonomie, z .B. US-GAAP oder IAS, und einer oder mehreren Erweiterungen bestehen. Aus diesem Grund bezieht sich eine Taxonomie auf mehrere Schemata (oder ein einzelnes), die alle separate Taxonomien sind. Wenn die zusätzlichen Taxonomien in die Datenbank geladen werden, werden die neuen Elemente einfach an die bestehenden Elemente angehängt.  
 
 ## <a name="linkbases"></a>Linkbases  
- In XBRL Spez. 2 wird die Taxonomie in verschiedenen XML-Dateien beschrieben. Die erste XML-Datei ist die Taxonomieschemadatei selbst (.xsd-Datei), die lediglich eine ungeordnete Liste von Elementen oder Informationen für den Bericht enthält. Zusätzlich sind normalerweise einige Linkbasedateien (.xml) damit verknüpft. Die Linkbasedateien enthalten Daten, die die einfache Taxonomie (.xsd-Datei) vervollständigen. Es gibt sechs Arten von Linkbase-Dateien, von denen vier für  XBRL Produktnamen von Bedeutung sind. Und zwar:  
+ In XBRL Spez. 2 wird die Taxonomie in verschiedenen XML-Dateien beschrieben. Die erste XML-Datei ist die Taxonomieschemadatei selbst (.xsd-Datei), die lediglich eine ungeordnete Liste von Elementen oder Informationen für den Bericht enthält. Zusätzlich sind normalerweise einige Linkbasedateien (.xml) damit verknüpft. Die Linkbasedateien enthalten Daten, die die einfache Taxonomie (.xsd-Datei) vervollständigen. Es gibt sechs Arten von Linkbase-Dateien, von denen vier für XBRL Produktnamen von Bedeutung sind. Und zwar:  
 
 -   Beschriftungslinkbase: Diese Linkbase enthält Beschriftungen oder Namen für die Elemente. Die Datei enthält möglicherweise Beschriftungen in verschiedenen Sprachen, die mit einer XML-Eigenschaft namens "lang" identifiziert werden. Die XML-Sprachen-ID enthalten normalerweise eine zweibuchstabige Abkürzung, und obwohl es einfach sein sollte, zu beurteilen, was die Abkürzung bedeutet, gibt es keine Verbindung zum Windows-Sprachcode oder zu den Sprachcodes, die in den Demodaten definiert werden. Wenn der Benutzer daher die Sprachen nach einer bestimmten Taxonomie durchsucht, sieht er alle Beschriftungen für das erste Element in der Taxonomie, was bedeutet, dass er ein Beispiel jeder Sprache anzeigen kann. Eine Taxonomie kann mehrere Beschriftungslinkbases haben, die damit verknüpft werden, solange diese Linkbases unterschiedliche Sprachen enthalten.  
 
@@ -66,7 +66,7 @@ Nach dem Importieren oder der Aktualisierung der Taxonomie müssen die Zeilen de
 
 Sie richten die XBRL-Zeilen ein, indem Sie die Daten in der Taxonomie Ihren Daten in der Finanzbuchhaltung zuordnen.  
 
-1.  Wählen Sie ![Nach Seite oder Bericht suchen(media/ui-search/search_small.png "Nach Seiten- oder Berichtsymbol suchen")] und geben **XBRL-Taxonomien** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seiten- oder Berichtsymbol suchen") und geben **XBRL-Taxonomien** ein und wählen dann den zugehörigen Link aus.  
 2.  Im Fenster **XBRL-Taxonomies** wählen Sie eine Taxonomie in der Liste aus.  
 3.  Wählen Sie die Aktion **Zeilen** aus.  
 4.  Wählen Sie eine Zeile und füllen Sie die Felder aus.   
@@ -83,7 +83,7 @@ Sie richten die XBRL-Zeilen ein, indem Sie die Daten in der Taxonomie Ihren Date
  ## <a name="to-import-an-xbrl-taxonomy"></a>Importieren von XBRL-Taxonomien  
 Der erste Schritt, um mit der XBRL-Funktionalität arbeiten zu können, ist, die Taxonomie in Ihre Datenbank zu importieren. Eine Taxonomie besteht aus einem oder mehreren Schema/ta und einigen Linkbases. Wenn Sie den Import des/der Schemas/Schemata und Linkbases durchgeführt haben und die Linkbases dem Schema zugewiesen haben, können Sie die Zeilen einrichten und die Sachkonten des Kontenplans den entsprechenden Taxonomiezeilen zuordnen.  
 
-1.  Wählen Sie ![Nach Seite oder Bericht suchen(media/ui-search/search_small.png "Nach Seiten- oder Berichtsymbol suchen")] und geben **XBRL-Taxonomien** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seiten- oder Berichtsymbol suchen") und geben **XBRL-Taxonomien** ein und wählen dann den zugehörigen Link aus.  
 2.  Erstellen Sie im Fenster **XBRL Taxonomie** eine neue Zeile, und geben Sie Name und Beschreibung der Taxonomie ein.  
 3.  Klicken Sie auf **Schemas** und fügen Sie die Beschreibung für das Schema ein.  
 4.  Um das Schema zu importieren, wählen Sie im Fenster **XBRL-Schemata** auf der Registerkarte **Importieren** und wählen Sie dann einen Ordner und eine XSD-Datei aus. Wählen Sie die Schaltfläche **Öffnen** aus.  
@@ -97,7 +97,7 @@ Der erste Schritt, um mit der XBRL-Funktionalität arbeiten zu können, ist, die
 ## <a name="to-update-an-xbrl-taxonomy"></a>Um eine XBRL-Taxonomie zu aktualisieren  
 Wenn sich eine Taxonomie ändert, müssen Sie die aktuelle Taxonomie dementsprechend ändern. Der Grund für die Aktualisierung kann ein verändertes Schema, eine veränderte Linkbase oder eine neue Linkbase sein. Nach Aktualisierung der Taxonomie müssen Sie nur die Zeilen an die geänderten oder neuen Zeilen anpassen.  
 
-1.  Wählen Sie ![Nach Seite oder Bericht suchen(media/ui-search/search_small.png "Nach Seiten- oder Berichtsymbol suchen")] und geben **XBRL-Taxonomien** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seiten- oder Berichtsymbol suchen") und geben **XBRL-Taxonomien** ein und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie im Fenster **XBRL-Taxonomien** die Aktion **Schemas** aus.  
 3.  Wählen Sie zum Aktualisieren des Schemas das zu aktualisierende Schema aus, und klicken Sie auf **Importieren**.  
 4.  Um eine neue Linkbase zu aktualisieren oder hinzuzufügen, wählen Sie **Linkbases** aus.  

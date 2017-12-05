@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bbb38f7d4a4b7d1b63cfceef2640172d7b69e364
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 20ae505bc76b8971c678de9e2664653aa5032d6e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Nemen Sie Zahlungen mit dem Bank-Datenkonvertierungs-Service- oder einer SEPA-Banküberweisung vor
@@ -41,5 +41,5 @@ Im Fenster **Zahlungsjournal** können Sie Zahlungen an Ihre Kreditoren verarbei
 [So wird's gemacht: SEPA-Kreditübertragungen einrichten](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)   
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
-[Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
+[Einziehen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 

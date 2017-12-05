@@ -11,21 +11,21 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3f98a08415a896c37868bf0ed5efd9314d5ab07a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fc942b29859d2607577119fe13292078b872b05e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI Datenquelle nutzen
 Sie können Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zur Verfügung stellen als Datenquelle in Power BI und leistungsstarke Berichte über den Zustand des Geschäftes erstellen.  
 
 > [!NOTE]  
->   Sie müssen ein gültiges Konto mit  [!INCLUDE[d365fin](includes/d365fin_md.md)]mit Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen.  
+>   Sie müssen ein gültiges Konto mit [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen.  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-power-bi-desktop"></a>Um [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquelle in Power BI Desktop hinzufügen
 1. In Power BI Desktop im linken Navigationsbereich, wählen Sie **Daten abrufen** aus.
-2. Im Fenster **Daten abrufen** wählen Sie **Onlinedienste** aus, wählen Sie **Dynamics 365 for Financials** und dann die Schaltfläche **Verbinden** aus.
+2. Im Fenster **Daten abrufen** wählen Sie **Onlineservices** aus, wählen Sie **Dynamics 365 Business edition** und dann die Schaltfläche **Verbinden** aus.
 
    Power Bi zeigt einen Assistenten an, der Sie durch den Verbindungsvorgang führt. Der erste Schritt besteht darin, OData URL und den Mandanten einzugeben, der mit dem Sachkonto [!INCLUDE[d365fin](includes/d365fin_md.md)] verknüpft ist.  
 

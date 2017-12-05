@@ -1,6 +1,6 @@
 ---
 title: Relationship Management | Microsoft Docs
-description: "Die Relationship Management-Funktion in Financials unterstützt Ihr Verkaufsanstrengungen und Sie können damit auf Informationen Ihrer Kontakte und auf Vermögensfunktionen effizient zugreifen."
+description: "Die Relationship Management-Funktion in Dynamics 365 unterstützt Ihr Verkaufsanstrengungen und Sie können damit auf Informationen Ihrer Kontakte und auf Vermögensfunktionen effizient zugreifen."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: contact, prospect, client
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 16ebd2d0525bec312368fba99d829b650b5015b2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: cf1ba18fff8691fd6b197f83ddbe9a983fe1a340
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-relationships"></a>Verwalten von Beziehungen
@@ -35,6 +35,6 @@ Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Marketing & Vertrieb einrichten](marketing-setup-marketing.md)  
-Verwalten Ihrer Debitoren-Verhältnisse mithilfe von Dynamics 365 for Sales in Financials [[!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)  
+[Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten](marketing-integrate-dynamicscrm.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

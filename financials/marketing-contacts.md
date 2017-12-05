@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f6c9b936bdd6e8b1495aaa609f3a6eaac4095ab3
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Erstellen und Verwalten von Kontakten
@@ -26,9 +26,9 @@ Es empfiehlt sich, alle externen Entitäten, mit denen Sie geschäftlich zu tun 
 
 Die Erfassung der Informationen kann entweder auf der Grundlage eines Unternehmens oder auf der Grundlage einer Person in diesem Unternehmen erfolgen. Für Personen, die nicht für ein bestimmtes Unternehmen arbeiten oder freiberuflich tätig sind, können Sie zudem unabhängige Kontaktpersonen erstellen.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. 
+Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
 
-| An | Siehe |
+| Aufgabe | Siehe |
 | --- | --- |
 | Richten Sie die Kontaktverwaltung vor dem Hinzufügen von Kontakten ein. |[Vorbereiten, Kontakte einzurichten](marketing-setup-contacts.md) |
 | Erstellen einer Kontaktkarte für jedes neue Unternehmen, mit dem Sie in Kontakt treten – beispielsweise für einen Debitor oder Kreditor |[Kontaktunternehmenerstellen](marketing-create-contact-companies.md) |
@@ -37,5 +37,5 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 ## <a name="see-also"></a>Siehe auch
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Marketing & Vertrieb einrichten](marketing-setup-marketing.md)  
-[Arbeiten mit Financials](ui-work-product.md)  
+[Arbeiten mit Dynamics 365](ui-work-product.md)  
 

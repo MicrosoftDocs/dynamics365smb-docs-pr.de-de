@@ -1,6 +1,6 @@
 ---
-title: "Financials auf mobilen Geräten nutzen| Microsoft Docs"
-description: "Sie können Financials auf Ihrem Telefon oder Tablet einsehen und bearbeiten."
+title: "Dynamics 365 auf mobilen Geräten nutzen| Microsoft Docs"
+description: "Sie können Dynamics 365 auf Ihrem Telefon oder Tablet einsehen und bearbeiten."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: phone, tablet
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 56f2ef7c7b0c604f0966736020dcb9cff546dddd
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a>Abrufen von Dynamics 365 for Financials auf dem mobilen Gerät
+# <a name="getting-dynamics-365-for-finance-and-operations-on-your-mobile-device"></a>Abrufen von Dynamics 365 for Finance and Operations auf dem mobilen Gerät
 Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[d365fin](includes/d365fin_md.md)] zu. Sie können durch Ihre Unternehmensdaten navigieren, Funktionen verwenden, sowie an Excel oder Office 365 versenden, aktuelle Diagramme und KPIs anzeigen, Verkaufsangebote und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>So wird die App auf mein mobiles Gerät heruntergeladen.

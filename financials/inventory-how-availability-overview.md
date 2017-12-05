@@ -12,10 +12,10 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Vorgehensweise: Artikelverfügbarkeit anzeigen
@@ -26,10 +26,10 @@ Sie können die Verfügbarkeit aller Artikel pro Lagerplatz anzeigen, und Sie k�
 > [!NOTE]  
 >   Die Verfügbarkeitsansichten nach Lagerplatz erfordern, dass Sie den Lagerbestand an mehr als einem Lagerplatz verwalten. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Lagerplätzen](inventory-how-setup-locations.md).
 
-In [Mithilfe [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Verfügbarkeitszahlen in zwei verschiedenen Feldern angezeigt, jedes mit einer anderen Definition:
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Verfügbarkeitszahlen in zwei verschiedenen Feldern angezeigt, jedes mit einer anderen Definition:
 
 * Das Feld **Lagerbestand** zeigt die tatsächliche Menge heute entsprechend den Sachkontoeinträgen für gebuchte Artikel an.
-* Das Feld **Verfügbarkeitssaldo** wird berechnet und zeigt den Lagerbestand sowie geplante Zugänge abzüglich des Bruttobedarfs an. (In [Mithilfe von [!INCLUDE[d365fin](includes/d365fin_md.md)] enthalten geplante Belege Mengen in Bestellungen und eingehenden Umlagerungsaufträgen. Bruttobedarf enthält Mengen der Verkaufsaufträge und ausgehenden Umlagerungsaufträge.)
+* Das Feld **Verfügbarkeitssaldo** wird berechnet und zeigt den Lagerbestand sowie geplante Zugänge abzüglich des Bruttobedarfs an. (In [!INCLUDE[d365fin](includes/d365fin_md.md)] enthalten geplante Belege Mengen in Bestellungen und eingehenden Umlagerungsaufträgen. Bruttobedarf enthält Mengen der Verkaufsaufträge und ausgehenden Umlagerungsaufträge.)
 
 > [!TIP]  
 >   Der Verfügbarkeitssaldo ist insbesondere relevant zum Anzeigen in den Fenstern **Artikelverfügb. nach Perioden** und **Artikelverfügbarkeit nach Ereignis**, da diese die Datumsdimension enthalten.  
@@ -40,7 +40,7 @@ In [Mithilfe [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Verfügbarkeitsz
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Um die Verfügbarkeit eines Artikels anzuzeigen gemäß dem, wann er erhalten oder gesendet wird
 Sie zeigen die Verfügbarkeit eines Artikels gemäß geplanter Artikeltransaktionen im Fenster **Verfügbarkeit nach Ereignis** an.
 
-1. Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie die Karte eines Artikels, für den Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Ereignis** aus.
 
@@ -50,7 +50,7 @@ Sie zeigen die Verfügbarkeit eines Artikels gemäß geplanter Artikeltransaktio
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>So zeigen Sie die Verfügbarkeit eines Artikels in verschiedenen Perioden an
 Sie zeigen die Verfügbarkeit eines Artikels im Zeitverlauf für angegebene Zeitperioden im Fenster **Artikelverfügbarkeit nach Perioden** an.
 
-1. Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie die Karte eines Artikels, für den Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Periode** aus.
 
@@ -71,7 +71,7 @@ Sie zeigen im Fenster **Artikelverfügbarkeit nach Lagerort** die Verfügbarkeit
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>So zeigen Sie die Verfügbarkeit aller Artikel nach Lagerplatz an, wo sie gelagert werden
 Sie zeigen die Verfügbarkeit aller Ihrer Artikel über alle Lagerplätze hinweg im Fenster **Artikel nach Lagerort** an.
 
-1. Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Artikel nach Lagerort** aus.
 
     Das Fenster **Artikel nach Lagerort** zeigt für alle Ihre Artikel an, wie viele an jedem Lagerplatz verfügbar sind.
@@ -119,6 +119,6 @@ Wenn eine oder mehrere Montagekomponenten nicht verfügbar sind, wird dies im Fe
 [So wird's gemacht: Standorte einrichten](inventory-how-setup-locations.md)  
 [So geht's: Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)  
 [Gewusst wie: Produkte verkaufen](sales-how-sell-products.md)      
-[Arbeiten mit Financials](ui-work-product.md)  
+[Arbeiten mit Dynamics 365](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

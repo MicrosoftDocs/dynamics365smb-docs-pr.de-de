@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 74822d77b45f0ba1aaf8b255f611a54d051c1f52
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-sell-items-assembled-to-order"></a>Vorgehensweise: Verkaufen von Auftragsmontageartikeln
-Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels  **Auftragsmontage** anzeigt, wird nicht erwartet, dass der Artikel im Lagerbestand vorhanden ist, und er muss speziell für einen Verkaufsauftrag montiert werden. Wenn Sie den Artikel auf einer Verkaufsauftragszeile eingeben, wird ein Montageauftrag automatisch erstellt und mit dem Verkaufsauftrag verknüpft.  
+Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels **Auftragsmontage** anzeigt, wird nicht erwartet, dass der Artikel im Lagerbestand vorhanden ist, und er muss speziell für einen Verkaufsauftrag montiert werden. Wenn Sie den Artikel auf einer Verkaufsauftragszeile eingeben, wird ein Montageauftrag automatisch erstellt und mit dem Verkaufsauftrag verknüpft.  
 
 > [!NOTE]  
 >  Wenn einige Auftragsmontageartikel bereits im Lager vorhanden sind, dann können Sie die Menge von dem Montageauftrag abziehen und sie aus dem Lager reservieren. Weitere Informationen finden Sie unter [Vorgehensweise: Verkaufen von Lagerartikeln in Programmfertigungs-Flüssen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)  
@@ -50,7 +50,7 @@ Bei diesem Verfahren verarbeiten Sie den verkauf eines Artikels, der gemäß den
     Sie können den Auftrag auch anpassen, indem Sie die Menge eines Standardartikels im Kit erhöhen. Sie können dies tun, indem Sie den Wert im Feld **Komponentenmenge** auf der jeweiligen Montageauftragszeile erhöhen.  
 
     > [!NOTE]  
-    >  Das Fenster **Auftragsmontagezeilen** enthält nur die grundlegenden Felder, die ein Verkäufer für die Anpassung der Komponentenliste, die Hinzufügung von Artikelnachverfolgungsnummern oder zur Lösung von Artikelverfügbarkeitsproblemen benötigt. Wählen Sie zur Anzeige weiterer Auftragsmontageinformationen, wie etwa das Anfangsdatums der Auftragsmontage, auf der Registerkarte **Start**, in der Gruppe **Prozess**, die Option **Belege anzeigen**. Dadurch wird eine vollständige Ansicht des Montageauftrags angezeigt, der mit der Verkaufsauftragszeile verknüpft ist. Sie können die Inhalte der meisten Felder des Auftragsmontagekopfes nicht ändern, und Sie können daraus auch keine Montageausgaben buchen, da Sie dazu die Lieferungsbuchung der Verkaufsauftragszeile verwenden müssen.  
+    >  Das Fenster **Auftragsmontagezeilen** enthält nur die grundlegenden Felder, die ein Verkäufer für die Anpassung der Komponentenliste, die Hinzufügung von Artikelnachverfolgungsnummern oder zur Lösung von Artikelverfügbarkeitsproblemen benötigt. Wählen Sie zur Anzeige weiterer Auftragsmontageinformationen, wie etwa das Anfangsdatums der Auftragsmontage, die Aktion **Belege anzeigen**. Dadurch wird eine vollständige Ansicht des Montageauftrags angezeigt, der mit der Verkaufsauftragszeile verknüpft ist. Sie können die Inhalte der meisten Felder des Auftragsmontagekopfes nicht ändern, und Sie können daraus auch keine Montageausgaben buchen, da Sie dazu die Lieferungsbuchung der Verkaufsauftragszeile verwenden müssen.  
     >   
     >  Im Kopfbereich von verknüpften Montageaufträgen kann nur das Feld **Startdatum** geändert werden, um Montagearbeitern bei Beginn des Prozesses zu ermöglichen, ein Datum anzugeben, das vor dem Fälligkeitsdatum liegt. Alle Felder auf den Zeilen des verknüpften Montageauftrags können geändert werden, so dass die Lagermitarbeiter während des Prozesses Verbrauchsdaten eingeben können.  
 

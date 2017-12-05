@@ -1,6 +1,6 @@
 ---
 title: Verwalten von Kunden, die Dynamics 365 for Sales nutzen| Microsoft Docs
-description: "Sie können Dynamics 365 for Sales aus Dynamics 365 for Financials nutzen, um Daten zu verknüpfen und eine nahtlose Integration und Synchronisation der führenden Prozesse sicherzustellen."
+description: "Sie können Dynamics 365 for Sales aus Dynamics 365 Business edition nutzen, um Daten zu verknüpfen und eine nahtlose Integration und Synchronisation der führenden Prozesse sicherzustellen."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,27 +12,27 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bc0b9c8141c6c2eac78abc9cd3f5c89af3c89fbb
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Verwalten Ihrer Debitoren-Verhältnisse mithilfe von Dynamics 365 for Sales in Dynamics 365 for Financials | Microsoft Docs
+# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten
 Wenn Sie Dynamics 365 for Sales für Debitorenverpflichtung verwenden, können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Prozesse und Finanzen verwenden und eine nahtlose Integration in bargeldlose Prozesse haben.
 
 Wenn Ihre Anwendung für die Integration mit Dynamics 365 for Sales eingerichtet ist, haben Sie Zugriff auf Umsatzdaten von [!INCLUDE[d365fin](includes/d365fin_md.md)] und in einigen Fällen auf umgekehrte Art. Mit dieser Integration können Sie mit Datentypen, die von beiden Diensten verwendet werden, arbeiten und diese synchronisieren. Dazu zählen etwa Debitoren, Kontakte und Verkaufsinformationen. Außerdem können Sie die Daten an beiden Lagerorten auf dem aktuellen Stand halten.  
 
-Beispielsweise kann der Verkäufer in Dynamics 365 for Sales die Preislisten verwenden aus [!INCLUDE[d365fin](includes/d365fin_md.md)] wenn Sie einen Verkaufsauftrag erstellen. Wenn Artikel in der Verkaufsauftragszeile in Dynamics 365 for Sales hinzugefügt werden, sie sind auch in der Lage, den Lagerbestand (Verfügbarkeit) des Artikels anzuzeigen von [!INCLUDE[d365fin](includes/d365fin_md.md)]. Diese Daten dienen als Teil der unterstützten Einrichtung **Dynamics 365 Verbindungseinrichtung**.  
+Beispielsweise kann der Verkäufer in Dynamics 365 for Sales die Preislisten verwenden aus [!INCLUDE[d365fin](includes/d365fin_md.md)] wenn Sie einen Verkaufsauftrag erstellen. Wenn Artikel in der Verkaufsauftragszeile in Dynamics 365 for Sales hinzugefügt werden, sie sind auch in der Lage, den Lagerbestand (Verfügbarkeit) des Artikels anzuzeigen von [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]  
 >   Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.  
 
 ## <a name="setting-up-the-connection"></a>Einrichten der Verbindung
-Von der Startseite können Sie auf die **Dynamics 365-Verbindungseinrichtung** unterstützte Einrichtung zugreifen, der Ihnen hilft, den Link einzurichten. Sobald Sie das getan wird, haben Sie eine nahtlose Kopplung der Dynamics 365 for Sales Datensätze mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen.  
+Von der Startseite können Sie auf den unterstützten Setup für **Dynamics 365 for Sales Verbindungseinrichtung** zugreifen, der Ihnen hilft, den Link einzurichten. Sobald Sie das getan wird, haben Sie eine nahtlose Kopplung der Dynamics 365 for Sales Datensätze mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen.  
 
 > [!NOTE]  
->   Das folgende berücksichtigt die unterstützte Einrichtung, aber Sie können dieselben Aufgaben im Fenster **Dynamics 365 Verbindungseinrichtung** manuell ausführen.
+>   Das folgende berücksichtigt den unterstützten Setup, aber Sie können dieselben Aufgaben im Fenster **Dynamics 365 for Sales Verbindungseinrichtung** manuell ausführen.
 
 Im unterstützten Einrichtungshandbuch können Sie auswählen, welche Daten zwischen den beiden Services zu synchronisieren sind. Sie können auch festlegen, dass Sie die vorhandene Lösung in Microsoft Dynamics 365 for Sales importieren möchten. In diesem Fall müssen Anmeldeinformationen für ein Administratorkonto angeben.
 
@@ -77,7 +77,7 @@ Am Ende der unterstützen Einrichtung können Sie die Aktion **Vollständige Syn
 
 Um den Status aus einzelnen Projekte in einer vollständigen Synchronisierung sicherzustellen, blättern Sie im **Projektwarteschlangenposten-Status** nach unten zum Feld **Um Int. Tabellen-Projekt-Status** oder **Von Int. Tabellen-Projekt-Status** im Fenster **CRM Full Synch. Prüfen**.
 
-Im Fenster **Dynamics 365 Verbindungseinrichtung** können Sie Details über sämtliche Synchronisierungen sehen. Von hier können Sie das **Integrationstabellenzuordnungen** Fenster auch öffnen, um Details über die Tabellen in den Financials und der Dynamics 365 for Sales Lösung finden, die synchronisiert werden müssen.
+Im Fenster **Dynamics 365 Verbindungseinrichtung** können Sie Details über sämtliche Synchronisierungen sehen. Von hier können Sie das Fenster **Integrationstabellenzuordnungen** auch öffnen, um Details über die Tabellen in Dynamics 365 Business edition und der Dynamics 365 for Sales-Lösung finden, die synchronisiert werden müssen.
 
 ## <a name="see-also"></a>Siehe auch
 [Marketing & Vertrieb](marketing-relationship-management.md)  

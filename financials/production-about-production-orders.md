@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 339515e73f65c0f0f37405d52c670f0597811934
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 1ca27811bef8e04fa96ccd920ca9b7327ad4d849
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="about-production-orders"></a>Info zu Fertigungsaufträgen
 Fertigungsaufträge werden dazu verwendet, die Umwandlung von Einkaufsmaterialien in Produktionsartikel zu verwalten. Fertigungsaufträge (Arbeits- oder Werkaufträge) leiten Arbeit durch verschiedene Einrichtungen (Arbeitsplätze oder Arbeitsplatzgruppen) im Fertigungsbereich.  
 
-Bevor sie mit der Produktion fortfahren, führen die meisten Unternehmen eine Beschaffungsplanung aus, in der Regel einmal wöchentlich, um zu berechnen wie viele Fertigungsaufträge und Einkaufsbestellungen auszuführen sind, um den Verkaufsbedarf diese Woche zu erfüllen. Einkaufsbestellungen liefern die Komponenten, die nach der Fertigungsstückliste erforderlich sind, um die Endartikel zu fertigen. 
+Bevor sie mit der Produktion fortfahren, führen die meisten Unternehmen eine Beschaffungsplanung aus, in der Regel einmal wöchentlich, um zu berechnen wie viele Fertigungsaufträge und Einkaufsbestellungen auszuführen sind, um den Verkaufsbedarf diese Woche zu erfüllen. Einkaufsbestellungen liefern die Komponenten, die nach der Fertigungsstückliste erforderlich sind, um die Endartikel zu fertigen.
 
 Fertigungsaufträge sind die zentralen Komponenten der Fertigungsfunktionen der Anwendung. Ein Fertigungsauftrag enthält die folgenden Informationen:  
 
@@ -40,13 +40,12 @@ Fertigungsaufträge sind die Ausgangspunkte für:
 -   Verfolgen der abgeschlossenen Fertigung  
 
 ## <a name="production-order-creation"></a>Fertigungsauftrag erstellen  
-Fertigungsaufträge können auftragsweise manuell aus den Fenstern  **Fertigungsauftrag**,  **Verkaufsauftragsplanung** und/oder  **Auftragsplanung** erstellt werden. Mehrere Aufträge werden aus dem Fenster **Planungsvorschlag** erstellt.  
+Fertigungsaufträge können auftragsweise manuell aus den Fenstern **Fertigungsauftrag**, **Verkaufsauftragsplanung** und/oder **Auftragsplanung** erstellt werden. Mehrere Aufträge werden aus dem Fenster **Planungsvorschlag** erstellt.  
 
 Für die Erstellung eines Fertigungsauftrags werden Informationen aus folgenden Quellen verwendet:  
 
 - Artikel  
 - Fertigungsstücklisten
-- Montagestücklisten
 - Arbeitspläne  
 - Arbeitsplätze  
 - Arbeitsplatzgruppen  
@@ -118,7 +117,7 @@ Diese Informationen können manuell oder über automatische Berichterstellung er
 ### <a name="material-consumption"></a>Materialverbrauch  
 Es gibt mehrere Optionen, wie ein Produktionsbetrieb den Materialverbrauch erfassen kann. Beispielsweise kann es vorteilhaft sein, den Materialverbrauch manuell zu erfassen, weil häufig Komponenten ersetzt werden oder der Ausschuss größer ist als erwartet.  
 
-Der Verbrauch von Materialien kann über das  FA-Verbrauchs Buch.-Blatt verarbeitet, kann aber auch automatisch durch die Anwendung erfasst werden (wird als automatische Berichterstellung bezeichnet). Es gibt folgende Berichterstellungsmethoden:  
+Der Verbrauch von Materialien kann über das FA-Verbrauchs Buch.-Blatt verarbeitet, kann aber auch automatisch durch die Anwendung erfasst werden (wird als automatische Berichterstellung bezeichnet). Es gibt folgende Berichterstellungsmethoden:  
 
 -   Manuell  
 -   Vorwärts  
@@ -188,7 +187,7 @@ Soll ein gesamter Fertigungsauftrag nach der Methode "Rückwärts" gebucht werde
 ### <a name="production-output"></a>Fertig produzierte Artikel (Istmeldungen)  
 Neben dem Erfassen der gefertigten Menge können Sie verfolgen, wie viel Zeit für das Abarbeiten eines Fertigungsauftrags benötigt wurde. Mit diesen Informationen können Sie die Fertigungskosten genauer bestimmen. Außerdem kann es sein, dass Hersteller, die ein standardmäßiges Kostenrechnungssystem verwenden, die tatsächlichen Informationen erfassen möchten, damit sie genauere Standards entwickeln können.  
 
-Die Istmeldungen können über das  FA-Istmeldungs Buch.-Blatt verarbeitet, können aber auch automatisch erfasst werden. Beim Berechnen wird die Buchungsmethode von der Arbeitsplatz- oder Arbeitsplatzgruppenkarte in den FA-Arbeitsplan kopiert. Wie beim Materialverbrauch gibt es auch für Istmeldungen drei Berichterstellungsmethoden:  
+Die Istmeldungen können über das FA-Istmeldungs Buch.-Blatt verarbeitet, können aber auch automatisch erfasst werden. Beim Berechnen wird die Buchungsmethode von der Arbeitsplatz- oder Arbeitsplatzgruppenkarte in den FA-Arbeitsplan kopiert. Wie beim Materialverbrauch gibt es auch für Istmeldungen drei Berichterstellungsmethoden:  
 
 - Manuell  
 - Vorwärts  

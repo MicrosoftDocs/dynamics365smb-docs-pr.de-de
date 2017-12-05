@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7e76ef1d5622486c3d8055f6e0ccbe3564a96701
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
@@ -46,7 +46,7 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 ## <a name="prerequisites"></a>Voraussetzungen  
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
--   Das [!INCLUDE[d365fin](includes/d365fin_md.md)]Unternehmen .  
+-   Das [!INCLUDE[d365fin](includes/d365fin_md.md)] Unternehmen .  
 -   Erstellen Sie später in dies Demonstration anhand der Schritte im Abschnitt "Vorbereiten der Beispieldaten" neue Artikel und verschiedene Geschäftstransaktionen.  
 
 ## <a name="story"></a>Hintergrund  
@@ -71,7 +71,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 ### <a name="to-create-the-items"></a>Serviceartikel anlegen  
 
-1.  Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Geben Sie im Feld **Nr.** Geben Sie im Feld **2000** ein und füllen Sie dann die folgenden Felder aus.  
 
@@ -96,7 +96,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Als Nächstes müssen Sie die Produktionseinrichtung des Artikels definieren.
 
-9. Geben Sie auf der Registerkarte B**eschaffung** **1000** in das Feld **Arbeitsplannr.** ein.  
+9. Geben Sie auf der Registerkarte B **eschaffung** **1000** in das Feld **Arbeitsplannr.** ein.  
 10. Wählen Sie das Feld **Produktion Stückliste** und dann **Erweitert** aus.  
 11. Im Fenster **Fert.-Stücklistenübersicht** wählen Sie die erste Zeile, **1000** aus, und wählen Sie die **Bearbeiten** Aktion aus.  
 12. Ändern Sie im Fenster **Fertigungsstückliste** den Wert im Feld **Status** in **In Entwicklung**.  
@@ -137,13 +137,12 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     Als Nächstes produzieren Sie zwei Rennräder, SN1 und SN2.  
 
 ### <a name="to-produce-end-items"></a>Um Endartikel zu produzieren  
-1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Freigegebene Produktionsaufträge** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Freigegebene Produktionsaufträge** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Gruppe **Neu** aus.  
 3.  Erstellen Sie einen neuen freigegebenen Fertigungsauftrag, indem Sie die folgenden Felder ausfüllen.  
 
-    ||||  
     |-|-|-|  
-    |Herkunftsnr.|Menge|Seriennummer|  
+    |Quellnummer|Menge|Seriennummer|  
     |1002|2|SN1|  
     |1002|2|SN2|  
 
@@ -159,7 +158,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Als Nächstes produzieren Sie zwei weitere Rennräder, SN3 und SN4.  
 
-11. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Freigegebene Produktionsaufträge** ein. Wählen Sie dann den zugehörigen Link aus.  
+11. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Freigegebene Produktionsaufträge** ein. Wählen Sie dann den zugehörigen Link aus.  
 12. Wählen Sie die Aktion **Neu** aus.  
 13. Erstellen Sie einen neuen freigegebenen Fertigungsauftrag, indem Sie die folgenden Felder in der Kopfzeile ausfüllen.  
 
@@ -189,7 +188,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     |Debitor|Artikel|Menge|Seriennummer|  
     |--------------|----------|----------|----------------|  
-    |Blütenhaus GmbH|1002|0|SN1|  
+    |Blütenhaus GmbH|1002|1|SN1|  
 
 3.  Um die Seriennummer einzugeben, wählen Sie die Aktion **Artikelverfolgungszeilen** und dann die Nummer im Feld **Seriennummer** im Fenster **Artikelnachverfolgungszeilen** aus.  
 4.  Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Liefern und fakturieren**, und wählen Sie dann die Schaltfläche **OK** aus.  
@@ -201,7 +200,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     |Debitor|Artikel|Menge|Seriennummer|  
     |--------------|----------|----------|----------------|  
-    |Möbel-Meller KG|1002|0|SN2|  
+    |Möbel-Meller KG|1002|1|SN2|  
 
 7.  Um die Seriennummer einzugeben, wählen Sie die Aktion **Artikelverfolgungszeilen** und dann die Nummer im Feld **Seriennummer** im Fenster **Artikelnachverfolgungszeilen** aus.  
 8.  Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Liefern und fakturieren**, und wählen Sie dann die Schaltfläche **OK** aus.  
@@ -227,8 +226,8 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>So stellen Sie fest, aus welcher Charge und von welchem Lieferanten der fehlerhafte Rahmen stammt  
 1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Artikel-Nachverfolgung** ein und wählen den zugehörenden Link aus.  
-2.  Geben Sie im Fenster **Artikelablaufverfolgung****SN1** in das Feld **Seriennr**. ein, und geben Sie dann **1002** in das Feld **Artikelfilter** ein.  
-3.  Übernehmen Sie die Standardeinstellung **Nur mit Artikelverfolgung** im Feld K**omponenten anzeigen** und die Standardverfolgungsmethode **Verbrauch - Ursprung** im Feld **Nachverfolgungsmethode**  
+2.  Geben Sie im Fenster **Artikelablaufverfolgung** **SN1** in das Feld **Seriennr**. ein, und geben Sie dann **1002** in das Feld **Artikelfilter** ein.  
+3.  Übernehmen Sie die Standardeinstellung **Nur mit Artikelverfolgung** im Feld K **omponenten anzeigen** und die Standardverfolgungsmethode **Verbrauch - Ursprung** im Feld **Nachverfolgungsmethode**  
 4.  Wählen Sie die Aktion **Ablaufverfolgung** aus.  
 
     Beachten Sie, dass ein Verkaufslieferkopf den Suchkriterien entspricht. Vergewissern Sie sich, dass es sich um die Lieferung handelt, in der das fehlerhafte Rennrad an die Blütenhaus GmbH geliefert wurde, bevor Sie mit der Verfolgung fortfahren.  
@@ -272,7 +271,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Gleichzeitig kann er den letzten drei Verfolgungszeilen entnehmen, dass zwei weitere Artikel, SN3 und SN4, mit Rennradrahmen aus CHARGE1 produziert wurden. Er unternimmt die entsprechenden Schritte, um diese Endartikel im Lagerbestand zu sperren.  
 
-    Damit ist die zweite Aufgabe der Defektverwaltung im Fenster  für **Artikelnachverfolgung** abgeschlossen. Da das Fenster **Artikelnachverfolgung** nur auf gebuchten Posten basiert, muss der Qualitätskontrolleur zum Fenster **Navigieren** wechseln, um zu überprüfen, ob CHARGE1 in nicht nicht-gebuchten Belegen verwendet wird.  
+    Damit ist die zweite Aufgabe der Defektverwaltung im Fenster für **Artikelnachverfolgung** abgeschlossen. Da das Fenster **Artikelnachverfolgung** nur auf gebuchten Posten basiert, muss der Qualitätskontrolleur zum Fenster **Navigieren** wechseln, um zu überprüfen, ob CHARGE1 in nicht nicht-gebuchten Belegen verwendet wird.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Alle Datensätze einer Serien-/Chargennummer finden  
  Aus dem Fenster **Artikelnachverfolgung** erfuhr der Qualitätskontrolleur, dass CHARGE1 die fehlerhaften Rennradrahmen enthielt, von welchem Lieferanten sie stammen, und in welcher gebuchten Transaktion sie verwendet wurden. Er muss nun feststellen, ob CHARGE1 in offenen Belegen enthalten ist, indem er die Ergebnisse Nachverfolgung in das Fenster **Navigieren** integriert, wo er eine Suche in allen Datenbankdatensätzen ausführen kann.  

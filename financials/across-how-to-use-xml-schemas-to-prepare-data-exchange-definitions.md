@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4b53c6a87148990102ba9eca235cf139a48396e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Gewusst wie: Verwenden von XML-Schemata zur Vorbereitung von Datenaustauschdefinitionen
@@ -46,7 +46,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
 4.  Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
-    |Feld|[Beschreibung]|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Geben Sie einen Code an, um das XML-Schema zu identifizieren.|  
     |**Beschreibung**|Geben Sie eine Beschreibung des XML-Schemas an.|  
@@ -66,7 +66,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
 2.  Füllen Sie im Kopfbereich die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
     |**XML-Schemacode**|Geben Sie die XML-Schemadatei an, die Sie in Schritt 5 im Abschnitt „Laden der XML-Schemadatei“ geladen haben.|  
     |**Neue New XMLport-Nr.**|Geben Sie die Nummer des XMLPorts an, der von diesem XML-Schema erstellt wird, wenn Sie die Aktion **XMLPort generieren** auswählen.|  
@@ -79,7 +79,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
 4.  Auf der Registerkarte **Start** in der Gruppe **Ansicht** wählen Sie eine der folgenden Aktionen, um die anzuzeigenden Knoten zu ändern.  
 
-    |**Aktion**|Description|  
+    |**Aktion**|Beschreibung|  
     |----------------|---------------------------------------|  
     |**Alle anzeigen**|Alle Knoten werden angezeigt.|  
     |**Nicht notwendige ausblenden**|Nur Knoten, die Elemente darstellen, die entsprechend dem XML-Schema erforderlich sind, werden angezeigt. Diese Knoten werden in der Regel durch eine **1** im -Feld **MinOccurs**angegeben.<br /><br /> Wählen Sie **Alle anzeigen**, um die Ansicht umzukehren.|  
@@ -130,6 +130,6 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 ## <a name="see-also"></a>Siehe auch  
 [Vorgehensweise: Richten Sie Datenaustauschdefinitionen ein.](across-how-to-set-up-data-exchange-definitions.md)   
 [Vorgehensweise: Zahlungen in eine Bankdatei exportieren](payables-how-export-payments-bank-file.md)   
-[Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
+[Einziehen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
 [Über das Datenaustauschframework](across-about-the-data-exchange-framework.md)
 

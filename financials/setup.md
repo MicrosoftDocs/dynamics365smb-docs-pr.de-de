@@ -1,6 +1,6 @@
 ---
-title: "Überblick der Aufgaben zum Einrichten von Dynamics 365 for Financials | Microsoft Docs"
-description: Definiert Aufgaben zum, initialisieren und konfigurieren in Dynamics 365 for Financials, um Ihren Anforderungen zu entsprechen.
+title: "Überblick der Aufgaben zum Einrichten von Dynamics 365 Business edition | Microsoft Docs"
+description: Definiert Aufgaben zum, initialisieren und konfigurieren in Dynamics 365 Business edition, um Ihren Anforderungen zu entsprechen.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 68a4563aab0edc6a0ac5b8cbcc5e053c449f20f8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="setting-up-dynamics-365-for-financials"></a>Dynamics 365 for Financials einrichten
+# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Einrichten von [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen.
 
 Wir haben einige Firmendaten für Sie erstellt, beispielsweise Ihren Kontenplan mit Kontensummen vorausgefüllt, die zur Verwendung bereit sind. Sie können den Kontenplan selbstverständlich ändern und Ihren persönlichen Anforderungen anzupassen. Weitere Informationen finden Sie unter [Finanzen](finance.md).
@@ -41,7 +41,7 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 | Richtet das Fenster **SMTP-Mail-Einrichtung** ein, um E-Mails von Dokumenten innerhalb von zu [!INCLUDE[d365fin](includes/d365fin_md.md)]senden und zu erhalten. |[Gewusst wie: Einrichten von E-Mails](madeira-how-setup-email.md) |
 | Richten Sie eindeutige Identifizierungscodes ein. |[Erstellen von Nummernkreisen](ui-create-number-series.md) |
 
-Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)] sind. Weitere Informationen finden Sie unter [Verwaltung in Dynamics 365 for Financials einrichten](admin-setup-and-administration.md).  
+Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)] sind. Weitere Informationen finden Sie unter [Einrichten und verwalten in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md)  
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
@@ -54,7 +54,7 @@ Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnement [!INCLUDE
 [Produktion](production-manage-manufacturing.md)  
 [Logistik](warehouse-manage-warehouse.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Verwaltung in Dynamics 365 for Financials einrichten](admin-setup-and-administration.md)  
+[Einrichtung und Verwaltung in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [Neue Unternehmen anlegen in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

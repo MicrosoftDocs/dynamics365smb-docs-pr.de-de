@@ -1,6 +1,6 @@
 ---
 title: "Weisen Sie einem Kreditor eine Prioritätsstufe zu| Microsoft Docs"
-description: "Sie können sowohl Zahlen Ihren Kreditoren oder Lieferanten zuweisen, um sie zu priorisieren und Zahlungsvorschläge in Financials zu erleichtern."
+description: "Sie können sowohl Zahlen Ihren Kreditoren oder Lieferanten zuweisen, um sie zu priorisieren und Zahlungsvorschläge in Dynamics 365 zu erleichtern."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d19d0bce7290ce42b37dd1dfbea5213c6580e2da
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-prioritize-vendors"></a>Vorgehensweise: Priorisieren von Kreditoren
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/22/2017
 Zuerst müssen Sie den Kreditoren priorisieren, indem Sie ihm Nummern zuweisen.
 
 ## <a name="to-prioritize-vendors"></a>So priorisieren Sie Kreditoren
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die entsprechende Kreditor, und klicken Sie dann auf **Bearbeiten**.
 3. Geben Sie im Feld **Priorität** eine Zahl ein.
 
@@ -35,6 +35,6 @@ Falls Sie einem Kreditor keine Priorität zuweisen wollen, lassen Sie das Feld *
 
 ## <a name="see-also"></a>Siehe auch
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
-[Verwalten von Verbindlichkeiten|](payables-manage-payables.md)  
+[Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
