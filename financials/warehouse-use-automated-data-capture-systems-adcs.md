@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 56d191c465b611c1764cf3c97e507c4952fe6287
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Vorgehensweise: Aktivieren des mobilen Datenerfassungssystems (ADCS)
@@ -28,7 +28,7 @@ Auf der Basis der Anforderungen Ihres Lagers legen Sie in der Miniform-Einrichtu
 - Textinformation.  
 - Nachrichten, die Bestätigungen oder Fehler für Aktivitäten anzeigen, die der Endgerätebenutzer ausgeführt und registriert hat.
 
-Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Datenerfassungssystems](https://msdn.microsoft.com/en-us/library/dd338742.aspx) auf der MSDN-Website.
+Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Datenerfassungssystems](/dynamics-nav/Configuring-Automated-Data-Capture-System) im Entwickler und in der IT-Pro-Hilfe.
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>So richten Sie ein Lager für die Verwendung von MDE ein:  
 Um MDE nutzen zu können, müssen Sie festlegen, welche Lagerorte die Technologie verwenden.  
@@ -36,14 +36,14 @@ Um MDE nutzen zu können, müssen Sie festlegen, welche Lagerorte die Technologi
 > [!NOTE]  
 >  Es ist empfehlenswert, dass Sie ein Lager nicht für die Verwendung von MDE einrichten, wenn das Lager auch eine Lagerplatzkapazitätsprüfung hat.
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.
 2.  Wählen Sie ein Lager aus der Liste aus, für das Sie MDE aktivieren möchten, und wählen die **Bearbeiten** Aktion aus.
 3. Im Fenster **Lagerortkarte** wählen Sie das Kontrollkästchen **MDE verwenden** aus.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>So geben Sie einen Artikel für die Verwendung von MDE an  
 Jedem Logistik Artikel, den Sie mit MDE verwenden möchten, muss ein Barcode zugeordnet werden, um ihn mit der Artikelnummer zu verknüpfen. Beispielsweise können Sie den Barcode des Artikels als Identifzierungscode verwenden. Ein Artikel kann also mehrere Barcodes haben. Dies kann hilfreich sein, wenn ein Artikel in verschiedenen Maßeinheiten verfügbar ist, wie als Stück und als Palette. In diesem Fall weisen Sie jeder Einheit einen Barcode zu.    
 
-1.  Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie einen Artikel aus der Liste aus, der Teil der MDE-Lösung ist, und wählen die **Bearbeiten** Aktion aus.
 3. Wählen Sie im Fenster **Artikelkarte** die Aktion **Kennzeichner** aus.
 4. Wählen Sie im Fenster **Artikelbarcodes** die Aktion **Neu** aus.
@@ -61,7 +61,7 @@ Sie können einen beliebigen Benutzer als Benutzer eines automatisierten Datener
 1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie Benutzer. Wählen Sie dann **MDE-Benutzer**und den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3.  Geben Sie im Feld **Namen** einen Namen für den Benutzer ein. Der Name darf einschließlich Leerzeichen maximal 20 Zeichen lang sein.  
-4.  Geben Sie im **Kennwort**Feld ein Kennwort ein. Das Kennwort wird maskiert.  
+4.  Geben Sie im **Kennwort** Feld ein Kennwort ein. Das Kennwort wird maskiert.  
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>So geben Sie an, dass ein Lagermitarbeiter ein MDE-Benutzer ist  
 1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Lagerhaus-Mitarbeiter** ein. Wählen Sie dann den zugehörigen Link aus.  
@@ -107,7 +107,7 @@ Wenn Sie ein Miniform erstellt haben, sind die nächsten Schritte das Erstellen 
 
 Bearbeiten Sie in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Entwicklungsumgebung den Code für das Feld **Codeunit verwalten**, um Codes zu erstellen oder zu ändern, die die erforderliche Aktion oder Antwort ausführen.
 
-Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Datenerfassungssystems](https://msdn.microsoft.com/en-us/library/dd338742.aspx) auf der MSDN-Website.
+Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Datenerfassungssystems](/dynamics-nav/Configuring-Automated-Data-Capture-System) im Entwickler und in der IT-Pro-Hilfe.
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  

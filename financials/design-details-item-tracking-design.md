@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Artikelverfolgungsdesign | Microsoft Docs'
-description: Dieses Thema beschreibt den Entwurf hinter der Artikelverfolgung in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-services: project-madeira
-documentationcenter: 
+description: Dieses Thema beschreibt den Entwurf hinter der Artikelverfolgung in Dynamics 365.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1d47b646b1908987648ebe13f53693f6782f6cdf
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 20d04536d670e0c830ed3b92df8d570e6408fab4
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-design"></a>Designdetails: Artikelverfolgungsdesign
@@ -38,7 +36,7 @@ Das zentrale Buchungsobjekt wird überarbeitet, um die besondere Subklassifikati
 
 Codeunit 22, **Artikelposten – Zeile buchen** teilt jetzt die Buchung nach Artikelverfolgungsnummern, die auf der Belegzeile angegebenen sind. Jede einzelne Artikelverfolgungsnummer auf der Zeile erstellt ihren eigenen Artikelposten für den Artikel. Dies bedeutet, dass die Verknüpfung von der gebuchten Belegzeile zu den entsprechenden Artikelposten jetzt eine Relation von einem zu mehreren ist. Diese Verknüpfung wird von den folgenden Artikelnachverfolgungs-Beziehungstabellen verarbeitet.  
 
-|Feld|Description|  
+|Feld|Beschreibung|  
 |---------------|---------------------------------------|  
 |**Artikelpostenverbindung** (T6507)|Inbezugsetzen gelieferter oder erhaltener Zeilen zu Artikelposten|  
 |**Wertpostenverbindung** (T6508)|Inbezugsetzen fakturierter Zeilen zu Wertposten|  

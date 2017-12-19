@@ -1,8 +1,6 @@
 ---
 title: Designdetails - Lagerhaus Einrichten | Microsoft Docs
-description: "Lagerfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist."
-services: project-madeira
-documentationcenter: 
+description: "Lagerfunktionen in Dynamics 365 enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c6d60ad75a8bf4f758a5e2fbc0ffa10b8929899
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetails: Lagereinrichtung
@@ -35,13 +33,13 @@ Die folgenden lagerbezogenen Elemente sind verfügbar:
 -   Mobile Datenerfassung (4640)  
 -   Lagerplatz-Setup (4660)  
 
-Weitere Informationen über jedes Element finden Sie unter[[!INCLUDE[d365fin](includes/d365fin_md.md)] Preisübersichten](http://go.microsoft.com/fwlink/?LinkId=238341) (PartnerSource-Konto erforderlich).  
+Weitere Informationen über jedes Element finden Sie unter [[!INCLUDE[d365fin](includes/d365fin_md.md)] Preisübersichten](http://go.microsoft.com/fwlink/?LinkId=238341) (PartnerSource-Konto erforderlich).  
 
 Die nachstehende Tabelle zeigt, welche Elemente benötigt werden, um verschiedene Lagerkomplexitätsebenen zu definieren, welche UI-Dokumente die einzelnen Ebenen unterstützen und welche Lagerortcodes diese Ebenen in der [!INCLUDE[d365fin](includes/d365fin_md.md)] Demodatenbank widerspiegeln.  
 
-|Komplexitätsebene|Description|UI-Dokument|CRONUS Lagerort|Minimale Elementanforderung|  
+|Komplexitätsebene|Beschreibung|UI-Dokument|CRONUS Lagerort|Minimale Elementanforderung|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
-|0|Keine dedizierte Lageraktivität.<br /><br /> Eingangs-/Lieferungsbuchung aus Aufträgen.|Bestellung|BLAU|Grundlegender Lagerbestand|  
+|1|Keine dedizierte Lageraktivität.<br /><br /> Eingangs-/Lieferungsbuchung aus Aufträgen.|Bestellung|BLAU|Grundlegender Lagerbestand|  
 |2|Keine dedizierte Lageraktivität.<br /><br /> Eingangs-/Lieferungsbuchung aus Aufträgen.<br /><br /> Lagerplatzcode ist erforderlich.|Auftrag, mit Lagerplatzcode|SILBER|Grundlegender Lagerbestand/Lagerplatz|  
 |3 <br /><br /> **Hinweis**: Obwohl die Einstellungen **Kommissionierung erforderlich** und **Einlagerung erforderlich** genannt werden, können Sie weiterhin Wareneingänge und Lieferungen direkt aus den Quellgeschäftsunterlagen an Lagerorten, in denen Sie diese Kontrollkästchen aktivieren.|Grundlegende Lageraktivität, Auftrag für Auftrag.<br /><br /> Eingangs-/Lieferungsbuchung aus Lagereinlagerungs-/Kommissionierbelegen. <br /><br /> Lagerplatzcode ist erforderlich.|Einlagerung/Lagerbestandsumlagerung/Kommissionierung, mit Lagerplatzcode|(SILBER + Einlagerung erfordern oder Einlagerung erfordern)|Grundlegender Lagerbestand/Lagerplatz/Einlagerung/Kommissionierung|  
 |4|Erweiterte Lageraktivität, für mehrere Aufträge.<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissioniervorschlag|GRÜN|Grundlegender Lagerbestand/Wareneingang/Einlagerung/Kommissionierung/Lagerlieferung|  
@@ -69,14 +67,14 @@ Es kann nur einen Vorgabelagerplatz pro Artikel pro Lagerort geben.
 ## <a name="bin-type"></a>Lagerplatzart  
 In WMS-Installationen können Sie die Lageraktivitäten einschränken, die für einen Lagerplatz möglich sind, indem Sie einen Lagerplatztyp zuweisen. Die folgenden Lagerplatzarten sind verfügbar:  
 
-|Lagerplatzart|Description|  
+|Lagerplatzart|Beschreibung|  
 |------------------|---------------------------------------|  
 |EING|Die Artikel werden als erhalten registriert, aber noch nicht eingelagert.|  
 |AUSG|Die Artikel wurden für Warenausgangszeilen kommissioniert, der Warenausgang wurde jedoch noch nicht gebucht.|  
 |EINLAG|Normalerweise werden hier Artikel in großen Einheiten eingelagert, die jedoch nicht für die Kommissionierung verwendet werden soll. Da die Lagerplätze nicht zum kommissionieren verwendet werden, weder für Fertigungsaufträge noch für Warenausgänge, kann Ihre Nutzung von Lagerplätzen der Art "Einlagerung" begrenzt sein, diese Lagerplatzart kann jedoch sinnvoll sein, wenn Sie eine große Menge an Artikeln eingekauft haben. Lagerplätze dieser Art sollten immer eine niedrige Lagerplatzpriorität haben, so dass beim Einlagern von angenommenen Artikeln diese zuerst in die Lagerplätze der Art EINLAGKOMM mit höherer Priorität einlagert werden, die als Standard für diesen Artikel definiert wurden. Wenn Sie diese Art von Lagerplatz nutzen, müssen Sie regelmäßig eine Lagerplatzauffüllung durchführen, so dass die Artikel, die in diesen Lagerplätzen gelagert werden, auch in Lagerplätzen der Art EINLAGKOMM oder KOMMISS verfügbar sind.|  
 |KOMMISS|Nur für Kommissionierung zu verwendende Artikel. Die Auffüllung dieser Lagerplätze kann nur durch Umlagerungen, nicht durch Einlagerungen, durchgeführt werden.|  
 |EINLAGKOMM|Artikel an Lagerplätzen, die für Einlagerungs- und Kommissionierungsfunktionen vorgeschlagen werden. Lagerplätze dieser Art haben wahrscheinlich unterschiedliche Lagerplatzprioritäten. Sie können Ihre Palettenlagerplätze mit dieser Lagerplatzart und mit Prioritäten einrichten, die niedriger sind als die Ihrer normalen Kommissionierungslagerplätze oder der besonders bevorzugten Kommissionierungslagerplätze.|  
-|QK|Dieser Lagerplatz wird für einen Ausgleich von Lagerbestand verwendet, wenn Sie diesen Lagerplatz auf der Lagerortkarte im Feld **Ausgleichlagerplatzcode** angeben. Sie können Lagerplätze dieser Art auch für beschädigte Artikel und Artikel, die für Qualitätskontrollen verwendet werden, einrichten. Sie können Artikel in diese Art von Lagerplätzen umlagern, wenn Sie möchten, dass diese für den normalen Warenfluss nicht zugänglich sein sollen. **HINWEIS:** Anders als alle anderen Lagerplatzarten hat die Lagerplatzart **QK** keine standardmäßig aktivierten Kontrollkästchen für die Behandlung. Dies bedeutet, dass jeder Inhalt, den Sie an einem QC-Lagerplatz platzieren, aus den Artikelströmen ausgeschlossen ist.|  
+|QK|Dieser Lagerplatz wird für einen Ausgleich von Lagerbestand verwendet, wenn Sie diesen Lagerplatz auf der Lagerortkarte im Feld **Ausgleichlagerplatzcode** angeben. Sie können Lagerplätze dieser Art auch für beschädigte Artikel und Artikel, die für Qualitätskontrollen verwendet werden, einrichten. Sie können Artikel in diese Art von Lagerplätzen umlagern, wenn Sie möchten, dass diese für den normalen Warenfluss nicht zugänglich sein sollen. **HINWEIS:**  Anders als alle anderen Lagerplatzarten hat die Lagerplatzart **QK** keine standardmäßig aktivierten Kontrollkästchen für die Behandlung. Dies bedeutet, dass jeder Inhalt, den Sie an einem QC-Lagerplatz platzieren, aus den Artikelströmen ausgeschlossen ist.|  
 
 Für alle Lagerplatzarten, außer PICK, PUTPICK und PUTAWAY, ist keine andere Aktivität für den Lagerplatz erlaubt als die, die durch ihre Lagerplatzart definiert ist. Beispielsweise kann ein Lagerplatz Art **Eingang** nur verwendet werden, um Artikel zu erhalten oder Artikel zu kommissionieren.  
 

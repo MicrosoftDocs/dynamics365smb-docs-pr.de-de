@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2f1e4016df9932b0441d664e203be947e1fa643e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: eb261f0b5b2aae94cebd79c6b23b0a21cb9451ae
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -77,7 +77,7 @@ Um MwSt an eine Steuerbehörden zu übermitteln, müssen Sie den [!INCLUDE[d365f
 4. Um einen Bericht für die Übermittlung zu überprüfen und vorzubereiten, wählen Sie die **Freigabe**-Aktion.  
 
     >  [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)] prüft, ob der Bericht korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **Fehler und Warnungen**  angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Wenn die Meldung zu einer fehlenden Einstellung in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfolgt, können Sie auf die Nachricht klicken, um die Seite zu öffnen, die die Informationen zur Korrektur enthält.  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)] prüft, ob der Bericht korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **Fehler und Warnungen** angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Wenn die Meldung zu einer fehlenden Einstellung in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfolgt, können Sie auf die Nachricht klicken, um die Seite zu öffnen, die die Informationen zur Korrektur enthält.  
 5. Um den Bericht zu buchen, wählen Sie die **Übermitteln** Aktion.  
 
 Nachdem Sie den Bericht gesendet haben, überwacht [!INCLUDE[d365fin](includes/d365fin_md.md)] den Service und bewahrt einen Datensatz Ihrer Kommunikation auf. Das Feld **Status** gibt an, wo der Bericht in Bearbeitung ist. Beispielsweise wenn die Behörden Ihren Bericht verarbeiten, ändert sich der Status des Berichts auf **Erfolgreich**. Wenn die Steuerbehörde Fehler im Bericht finden, erhält der Bericht den Status **Fehler**. Sie können die Fehler unter **Fehler und Warnungen** anzeigen, korrigieren und den Bericht erneut senden. Um eine Liste Ihrer EU-Verkaufsübersichts-Berichte anzuzeigen, wechseln Sie zur Seite **EU-Verkaufsübersichts-Berichte**.  
@@ -110,11 +110,11 @@ Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen m�
 |Abbrechen | Senden Sie eine Stornierung eines MwSt-Berichts, der zuvor zu Ihrer Steuerbehörden gesendet wurde. |
 
 > [!NOTE]  
->   Wenn Sie Codeunits für den Bericht erstellen, passen Sie auf den Wert im Feld **MwSt Berichts-Version** auf. Dieses Feld muss der Version des Berichts entsprechen, der von der Steuerbehörde verlangt wurde oder verlangt wird. Beispielsweise können Sie**2017** in dieses Feld eingeben, um anzugeben, dass der Bericht der Anforderungen entspricht, die im letzten Jahr verlangt wurden. Um die aktuellen Version zu finden, setzen Sie sich mit den Steuerbehörden in Verbindung.  
+>   Wenn Sie Codeunits für den Bericht erstellen, passen Sie auf den Wert im Feld **MwSt Berichts-Version** auf. Dieses Feld muss der Version des Berichts entsprechen, der von der Steuerbehörde verlangt wurde oder verlangt wird. Beispielsweise können Sie **2017** in dieses Feld eingeben, um anzugeben, dass der Bericht der Anforderungen entspricht, die im letzten Jahr verlangt wurden. Um die aktuellen Version zu finden, setzen Sie sich mit den Steuerbehörden in Verbindung.  
 
 ## <a name="see-also"></a>Siehe auch
 [Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten](finance-setup-vat.md)  
 [So gehts: Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
-[Verkauf einrichten](sales-setup-sales.md)  
+[Einrichten von Verkäufen](sales-setup-sales.md)  
 [Vorgehensweise: Fakturieren](sales-setup-sales.md)  
 

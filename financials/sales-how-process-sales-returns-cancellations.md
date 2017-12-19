@@ -11,16 +11,16 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 46908fb1ae2e0281e730a03e2bcad6e79704d22e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Vorgehensweise: Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
 Wenn Ihr Debitor Artikel zurückschicken oder Dienstleistungen löschen will, die Sie verkauft haben, können Sie eine Einkaufsgutschrift erstellen und buchen, die die angeforderte Änderung im Hinblick auf die ursprünglichen Einkaufsrechnung angibt. Um korrekte Verkaufsrechnungsinformationen einzuschließen, können Sie die Verkaufsgutschrift direkt aus der gebuchten Verkaufsrechnung erstellen oder neue Verkaufsgutschrift mit der Rechnungsinformationen erstellen.
 
-Wenn Sie mehr Kontrolle für den Rücklieferungsvorgang, die Logistikbelege oder die Artikelbehandlung  benötigen, wenn Sie Artikel von mehreren Verkaufsbelegen mit einer Rücklieferung bearbeiten, dann können Sie Verkaufsrückgabeaufträge erstellen. Eine Verkaufsreklamation löst automatisch die zugehörige Verkaufsgutschrift sowie andere Dokumente wie Verkaufsauftrag für Ersatzlieferungen aus, sofern erforderlich. Weitere Informationen finden Sie unter "eine Verkaufsreklamation auf einem oder mehreren gebuchten Verkaufsbelegen erstellen".
+Wenn Sie mehr Kontrolle für den Rücklieferungsvorgang, die Logistikbelege oder die Artikelbehandlung benötigen, wenn Sie Artikel von mehreren Verkaufsbelegen mit einer Rücklieferung bearbeiten, dann können Sie Verkaufsrückgabeaufträge erstellen. Eine Verkaufsreklamation löst automatisch die zugehörige Verkaufsgutschrift sowie andere Dokumente wie Verkaufsauftrag für Ersatzlieferungen aus, sofern erforderlich. Weitere Informationen finden Sie unter "eine Verkaufsreklamation auf einem oder mehreren gebuchten Verkaufsbelegen erstellen".
 
 > [!NOTE]  
 >   Wenn eine gebuchte Verkaufsrechnung noch nicht bezahlt wurde, können Sie die Funktionen **Korrigieren** oder **Abbrechen** auf der gebuchten Verkaufsrechnung verwenden, um die entsprechenden Transaktionen automatisch zu stornieren. Diese Funktionen gehen nur für nicht geleistete Rechnungen, und sie unterstützen nicht Teil-Reklamationen oder Stornierungen. Weitere Informationen finden Sie unter [Vorgehensweise: Ändern oder löschen von unbezahlten Verkaufsrechnungen](sales-how-correct-cancel-sales-invoice.md).
@@ -38,7 +38,7 @@ Um die korrekte Lagerbewertung beizubehalten, möchten Sie üblicherweise zurüc
 
 Zwei Funktionen sind vorhanden, um die Einstandspreisrückverfolgung automatisch zuzuweisen.   
 
-|Funktion|Description|  
+|Funktion|Beschreibung|  
 |------------------|---------------------------------------|  
 |Funktion **Zu stornierende gebuchte Belegzeilen abrufen** im Fenster **Verkaufsreklamation**|Kopiert Zeilen einer oder mehrerer gebuchter Verkaufsbelegzeilen, um den ursprünglichen Auftrag zu stornieren. Weitere Informationen finden Sie im Abschnitt Rechnungen unter "eine Verkaufsreklamation auf einem oder mehreren gebuchten Verkaufsbelegen erstellen".|  
 |Funktion **Beleg kopieren** in den Fenstern **Verkaufsgutschrift** und **Verkaufsreklamation**|Kopiert den Kopf und die Zeilen aus einem gebuchten Beleg, der storniert werden soll.<br /><br /> Erfordert, dass das Kontrollkästchen **Einst.-Pr.-Rückverfolg. notw.** im Fenster **Debitoren und Verkauf Einr.** ausgewählt ist.|
@@ -86,11 +86,11 @@ Die gebuchten Verkaufsdokumente für die entsprechende Gutschrift werden nun sto
 3. Füllen Sie im Inforegister **Allgemein** die notwendigen Felder aus.
 4. Im Inforegister **Zeilen** können Sie die Zeilen manuell ausfüllen, oder kopieren Sie Informationen aus anderen Belegen, um die Zeilen automatisch auszufüllen:
 
-    - Die Funktion  **Zu stornierende gebuchte Belegzeilen abrufen** können Sie verwenden, um eine oder mehrere gebuchte Belegzeilen aus einem oder mehreren gebuchten Belegen zu kopieren. Diese Funktion ermöglicht Ihnen die exakte Stornierung der Einstandspreise aus der gebuchten Belegzeile. Dies wird in den folgenden Verfahren beschrieben.    
-    - Mithilfe der Stapelverarbeitung  **Beleg kopieren** können Sie einen vorhandenen Beleg in die Reklamation kopieren. Verwenden Sie diese Funktion zum Kopieren des gesamten Belegs. Dies kann entweder ein bereits gebuchter oder ein noch nicht gebuchter Beleg sein. Diese Funktion ermöglicht die Einstandspreisrückverfolgung nur dann, wenn die **Einstandspreisrückverfolgung als obligatorisch** unter **Debitoren & Verkauf Einr.** eingerichtet ist.  
+    - Die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** können Sie verwenden, um eine oder mehrere gebuchte Belegzeilen aus einem oder mehreren gebuchten Belegen zu kopieren. Diese Funktion ermöglicht Ihnen die exakte Stornierung der Einstandspreise aus der gebuchten Belegzeile. Dies wird in den folgenden Verfahren beschrieben.    
+    - Mithilfe der Stapelverarbeitung **Beleg kopieren** können Sie einen vorhandenen Beleg in die Reklamation kopieren. Verwenden Sie diese Funktion zum Kopieren des gesamten Belegs. Dies kann entweder ein bereits gebuchter oder ein noch nicht gebuchter Beleg sein. Diese Funktion ermöglicht die Einstandspreisrückverfolgung nur dann, wenn die **Einstandspreisrückverfolgung als obligatorisch** unter **Debitoren & Verkauf Einr.** eingerichtet ist.  
 
 5. So verwenden Sie die Funktion **Zu stornierende Belegzeilen** abrufen
-6. Wählen Sie oben im Fenster **Gebuchte Verkaufsdokumentzeilen**das Feld **Nur stornierbare Zeilen anzeigen aus,** wenn Sie nur Zeilen mit Mengen anzeigen möchten, die noch nicht zurückgesendet oder, im Falle von Einkaufszeilen, verkauft oder verbraucht wurden. Wenn eine gebuchte Verkaufsrechnungsmenge beispielsweise bereits zurückgesendet wurde, möchten Sie diese Menge möglicherweise nicht mit einem neuen Verkaufsreklamationsbeleg zurücksenden.
+6. Wählen Sie oben im Fenster **Gebuchte Verkaufsdokumentzeilen** das Feld **Nur stornierbare Zeilen anzeigen aus,** wenn Sie nur Zeilen mit Mengen anzeigen möchten, die noch nicht zurückgesendet oder, im Falle von Einkaufszeilen, verkauft oder verbraucht wurden. Wenn eine gebuchte Verkaufsrechnungsmenge beispielsweise bereits zurückgesendet wurde, möchten Sie diese Menge möglicherweise nicht mit einem neuen Verkaufsreklamationsbeleg zurücksenden.
 
     > [!NOTE]  
     >  Das Feld bezieht sich nur auf gebuchte Liefer- und Rechnungszeilen, nicht auf gebuchte Rücklieferungs- oder Gutschriftzeilen.
@@ -142,7 +142,7 @@ Lassen Sie alle relevanten Verkaufsreklamationsbelege automatisch erstellen, z. 
 
 1. Im Fenster **Verkaufsreklamation** für einen aktiven Rückgabevorgang wählen Sie die Aktion **Reklamationsbez. Belege erstellen** aus.
 2. Geben Sie im **Kreditorennr.** Feld die Nummer des Kreditors ein, wenn Sie Kreditorenbelege automatisch erstellen möchten.
-3. Wenn ein Artikel an den Kreditor zurückgeliefert werden muss, aktivieren Sie das Kontrollkästchen  **Eink.-Reklamation erstellen**.
+3. Wenn ein Artikel an den Kreditor zurückgeliefert werden muss, aktivieren Sie das Kontrollkästchen **Eink.-Reklamation erstellen**.
 4. Wenn ein Artikel beim Kreditor bestellt werden muss, aktivieren Sie das Kontrollkästchen **Bestellung erstellen**.
 5. Wenn ein Auftrag für eine Ersatzlieferung erstellt werden muss, aktivieren Sie das Kontrollkästchen **Verkaufsauftrag erstellen**.
 
@@ -153,7 +153,7 @@ Sie können diesen herabgesetzten Preis als Zu-/Abschlag (Artikel) in einer Guts
 
 1. Öffnen Sie das **Verkaufsreklamation** Fenster für einen aktiven Rückgabevorgang.
 2. Geben Sie eine neue Zeile ein, und wählen Sie **Zu-/Abschlag (Artikel)** im Feld **Art**.  
-3. Füllen Sie die Felder für jede mögliche Artikelzuschlagszeile aus. Weitere Informationen finden Sie untert[Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md).  
+3. Füllen Sie die Felder für jede mögliche Artikelzuschlagszeile aus. Weitere Informationen finden Sie untert [Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md).  
 
 Wenn Sie die Verkaufsreklamation buchen, wird die Wiedereinlagerungsgebühr zu dem entsprechenden Betrag des Verkaufspostens addiert. Auf diese Art können Sie genaue Bestandbewertung führen.  
 
@@ -167,9 +167,9 @@ Sie können diesen herabgesetzten Preis als Zu-/Abschlag (Artikel) in einer Guts
 4. Wählen Sie auf dem Inforegister **Zeilen** im Feld **Art** die Option **Zu-/Abschlag (Artikel)**.  
 5.  Geben Sie im Feld **Nr.** den entsprechenden Chargenwert ein.  
      Vielleicht möchten Sie eine spezielle Artikel Zu-/Abschlagsnummer erstellen, um Verkaufsrabatte abzudecken.  
-6.  Geben Sie in dem Feld **Menge****1** ein.  
+6.  Geben Sie in dem Feld **Menge** **1** ein.  
 7.  Geben Sie im Feld **VK-Preis** den Betrag des Verkaufsrabattes ein.  
-8.  Den Verkaufsrabatt können Sie als Zu-/Abschlag (Artikel) den Artikeln in der gebuchten Lieferung  zuweisen. Weitere Informationen finden Sie untert[Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md). Wenn Sie die Zuweisungen zugewiesen haben, kehren Sie zum Fenster **Gutschrift** zurück.  
+8.  Den Verkaufsrabatt können Sie als Zu-/Abschlag (Artikel) den Artikeln in der gebuchten Lieferung zuweisen. Weitere Informationen finden Sie untert [Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md). Wenn Sie die Zuweisungen zugewiesen haben, kehren Sie zum Fenster **Gutschrift** zurück.  
 
 Wenn Sie die Verkaufsreklamation buchen, wird die Wiedereinlagerungsgebühr zu dem entsprechenden Betrag des Verkaufspostens addiert. Auf diese Art können Sie genaue Bestandbewertung führen.
 

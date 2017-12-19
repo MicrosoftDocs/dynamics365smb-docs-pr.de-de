@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]

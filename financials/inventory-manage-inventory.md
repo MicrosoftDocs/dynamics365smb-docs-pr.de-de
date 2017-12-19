@@ -12,10 +12,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c3cfae3d52cbb25882c5986ad4aedaef7939a8b6
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 1aa1a7c2ec56c3f123bde67a9870be4efd99bdb5
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -50,6 +50,7 @@ Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist
 |Verwalten von Geschäften in den Verkaufsbüros, in den Einkaufsabteilungen oder in den Fabrikplanungsbüros von mehreren Standorten.|[So geht's: Mit Zuständigkeitseinheiten arbeiten](inventory-responsibility-centers.md)|
 
 ## <a name="see-also"></a>Siehe auch  
+[Logistik](warehouse-manage-warehouse.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)    
 [Arbeiten mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  

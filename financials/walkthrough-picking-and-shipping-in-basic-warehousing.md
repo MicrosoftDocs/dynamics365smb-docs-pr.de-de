@@ -1,8 +1,6 @@
 ---
 title: 'Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen | Microsoft Docs'
-description: "In  [!INCLUDE[d365fin](includes/d365fin_md.md)]  können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden."
-services: project-madeira
-documentationcenter: 
+description: "In Dynamics 365 können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 993d3f092db9f423aba9a67d58f53895df0d5c2f
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
@@ -69,10 +67,10 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 
         |Postentyp|Artikelnummer|Lagerortcode|Lagerplatzcode|Menge|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Zugang|LS-81|SILBER|S-01-0001 **Hinweis:**  Der Standardlagerplatz des Artikels in CRONUS .|2.0|  
-        |Zugang|LS-81|SILBER|S-01-0002|2.0|  
+        |Zugang|LS-81|SILBER|S-01-0001 **Hinweis:**  Der Standardlagerplatz des Artikels in CRONUS .|20|  
+        |Zugang|LS-81|SILBER|S-01-0002|20|  
 
-    3.  Wählen Sie die Aktion **Beleg buchen**aus und wählen Sie dann die Schaltfläche **Ja** aus.  
+    3.  Wählen Sie die Aktion **Beleg buchen** aus und wählen Sie dann die Schaltfläche **Ja** aus.  
 
 ## <a name="story"></a>Hintergrund  
 Ellen, die Lagermanagerin bei CRONUS, richtet das SILBER-Lager für grundlegende Komissionierungshandlung ein, in dem Lagermitarbeiter ausgehende Aufträge einzeln verarbeiten. Martha, die Verkaufsauftragsbearbeiterin, erstellt einen Verkaufsauftrag für 30 Einheiten des Artikels LS-81, die dem Debitor 10000 aus dem SILBERNEN Lager geliefert werden. John, der Lagermitarbeiter muss sicherstellen, dass die Lieferung an den Debitor vorbereitet und geliefert wird. John verwaltet alle beteiligten Aufgaben in Fenster **Lagerkommissionierung**, das automatisch auf die Lagerplätze verweist, in denen LS-81 gespeichert wird.  
@@ -81,7 +79,7 @@ Ellen, die Lagermanagerin bei CRONUS, richtet das SILBER-Lager für grundlegende
 Das Einrichten des Fensters **Standortkarte** definiert die Warenflüsse des Unternehmens.  
 
 ### <a name="to-set-up-the-location"></a>So richten Sie den Lagerort ein  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Öffnen Sie die SILBERNE Lagerortkarte.  
 3.  Aktivieren Sie das Kontrollkästchen **Kommissionierung erforderlich**  
 
@@ -107,7 +105,7 @@ Verkaufsaufträge sind die häufigste Art des ausgehenden Herkunftsbelegs.
 Im Fenster **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivitäten für einen bestimmten Herkunftsbeleg, wie einen Verkauf, verwalten.  
 
 ### <a name="to-pick-and-ship-items"></a>So kommissionieren Sie Artikel und liefern diese aus  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerkommissionierung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerkommissionierung** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Wählen Sie das Feld **Quellendokument** , und wählen Sie **Verkaufsauftrag** aus.  
 4.  Wählen Sie das Feld **Herkunftsnr.** aus, wählen Sie die Zeile für den Verkauf an Debitor 10000 aus, und wählen Sie dann die Schaltfläche **OK**.  
@@ -115,7 +113,7 @@ Im Fenster **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivitä
     Alternativ auf der Registerkarte Aktionen, in der Gruppe Funktion, wählen Sie **Herkunftsbeleg holen** und wählen Sie die Auftrag aus.  
 5.  Wählen Sie die **Die zu verarbeitende Menge automatisch ausfüllen** Aktion aus.  
 
-    Alternativ im Feld **Menge zu verarbeiten**geben Sie 10 und 30 jeweils auf den zwei Lagerkommissionierzeilen ein.  
+    Alternativ im Feld **Menge zu verarbeiten** geben Sie 10 und 30 jeweils auf den zwei Lagerkommissionierzeilen ein.  
 6.  Wählen Sie die Aktion **Buchen** und **Versand** und klicken Sie anschließend auf die Schaltfläche **OK**.  
 
     Die 30 Lautsprecher werden nun erfasst, wie von den Lagerplätzen S-01-0001 und S-01-0002 kommissioniert, und ein negativer Artikelposten wird, die gebuchte Verkaufslieferung reflektierend, erstellt.  

@@ -1,6 +1,6 @@
 ---
 title: Elektronische Dokumente in Dynamics 365 Business edition  | Microsoft Docs
-description: "Einführung zum Senden und Empfangen von elektronischen Belegen in [!INCLUDE[d365fin](includes/d365fin_md.md)]."
+description: "Einführung zum Senden und Empfang von elektronischen Dokumenten in Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4397c5b935afccc666fac91c73c04c59958fd8eb
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: dca451d2555641dc1c1fc134b19380b3ede2690b
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 

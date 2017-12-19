@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 09d48e230291524e7771d4b4305c4290bd567eb9
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows
@@ -58,10 +58,10 @@ Sie müssen einen neuen Benutzer auf dem lokalen Computer und in [!INCLUDE[d365f
 7.  Schließen Sie das **Lokale Benutzer und Gruppen**-Fenster.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>So fügen Sie Alicia als Benutzer in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzu  
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png " Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.  
+1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.  
 2.  Klicken Sie im Fenster **Windows Benutzher** auf der Registerkarte **Start** in der Gruppe **Neu** auf **Neu**.  
 3.  Im Fenster **Benutzerkarte** im Feld **Benutzername**, geben Sie Alicia ein.  
-4.  Wählen Sie im Feld **Windows Benutzername** die Schaltfläche AssistEdit, um das Fenster  zu öffnen.  
+4.  Wählen Sie im Feld **Windows Benutzername** die Schaltfläche AssistEdit, um das Fenster zu öffnen.  
 5.  Geben Sie im Fels **Auszuwählenden Objektnamen eingeben** im Fenster **Benutzer oder Gruppen auswählen** "Christine" ein und wählen Sie dann die Schaltfläche **Namen prüfen** aus.  
 6.  Wenn [COMPUTERNAMW]\ALICIA im Feld erscheint, wählen Sie die Schaltfläche **OK**.  
 7.  Geben Sie auf dem **Benutzerberechtigungssätze** Inforegister im Feld **Berechtigungssätze** die Option **SUPER** aus.  
@@ -92,8 +92,8 @@ Geben Sie an, wie und wann Sie über Genehmigungsanforderungen benachrichtigt we
 1.  Im Fenster **Genehmigungsbenutzereinrichtung** wählen Sie die Zeile für sich aus, und wählen Sie anschließend auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Benachrichtigungseinrichtung** aus.  
 2.  Im Fenster **Benachrichtigungseinrichtung** im Feld **Benachrichtigungstyp**, geben Sie **Genehmigung** ein.  
 3.  Wählen Sie im **Benachrichtigungsvorlagen-Code**-Feld und wählen Sie dann **Erweitert** aus.  
-4.  Wählen Sie im Fenster **Benachrichtigungsvorlage** auf der Registerkarte **Start**in der Gruppe **Verwalten** die Option **Liste bearbeiten** aus.  
-5.  Geben Sie in der Zeile für die Genehmigungsvorlage im **Benachrichtigungsmethode-**Feld **Notiz** ein.  
+4.  Wählen Sie im Fenster **Benachrichtigungsvorlage** auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Liste bearbeiten** aus.  
+5.  Geben Sie in der Zeile für die Genehmigungsvorlage im **Benachrichtigungsmethode-** Feld **Notiz** ein.  
 6.  Wählen Sie die Schaltfläche **OK** aus.  
 7.  Wählen Sie im Fenster **Benachrichtigung einrichten** auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Benachrichtungsplan** aus.  
 8.  Wählen Sie im **Benachrichtigungsplan**-Fenster im Feld **Vorkommen** die Option **Sofort** aus.  
@@ -115,7 +115,7 @@ Geben Sie an, wie und wann Sie über Genehmigungsanforderungen benachrichtigt we
 Stellen Sie sicher, dass die Aufgabenwarteschlange in Ihrer Installation so eingerichtet wurde, dass Workflowbenachrichtigungen verarbeitet werden.  
 
 ### <a name="to-start-the-notify-job-queue"></a>So starten Sie die Aufgabenwarteschlange für Benachrichtungen  
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projektwarteschlange** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Projektwarteschlange** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Im Fenster **Projektwarteschlange** wählen Sie die Zeile für die Aufgabenwarteschlange BENACHR. aus, und wählen anschließend auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Aufgabenwarteschlange** starten aus.  
 
 ## <a name="using-the-approval-workflow"></a>Nutzung des Genehmigungsworkflows  
@@ -135,11 +135,11 @@ Um sich in [!INCLUDE[d365fin](includes/d365fin_md.md)] als anderer Benutzer anzu
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Aufträge** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Zeile zum öffnen der Einkaufsbestellung 104001 aus. Wählen Sie dann auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Bearbeiten** aus.  
-3.  Wählen Sie im **Kaufauftrag**Fenster  auf der Registerkarte **Aktionen** in der Gruppe **Genehmigung** die **Genehmigungsanforderung senden-Option** aus.  
+3.  Wählen Sie im **Kaufauftrag** Fenster auf der Registerkarte **Aktionen** in der Gruppe **Genehmigung** die **Genehmigungsanforderung senden-Option** aus.  
 
     Beachten Sie, dass sich der Wert im Feld **Status** zu **Genehmigung ausstehend** ändert.  
 
-4.  Schließen[!INCLUDE[d365fin](includes/d365fin_md.md)].  
+4.  Schließen [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ### <a name="to-approve-the-purchase-order-as-sean"></a>So genehmigen Sie die Einkaufsbestellung als Stephan  
 
@@ -149,8 +149,8 @@ Um sich in [!INCLUDE[d365fin](includes/d365fin_md.md)] als anderer Benutzer anzu
     > [!NOTE]  
     >  Obwohl die Benachrichtigungswiederholung auf **Sofort** definiert ist, kommt die Notiz erst ungefähr eine Minute nachdem Christine sie gesendet hat an. Dieses liegt an der Standard-Wiederholungsfrequenz der Aufgabenwarteschlange.  
 
-3.  Wenn die Notiz im Fenster **Meine Benachrichtigungen** erscheint, wählen Sie den Wert **Genehmigungseintrag: XX, XX** Wert im Feld **Seite** aus. Das -Fenster **Genehmigung anfordern**wird geöffnet und Alicias Anforderung für die Einkaufsbestellung wird hervorgehoben.  
-4.  Wählen Sie im Fenster **Genehmigung anfordern** auf der Registerkarte **Start**in der Gruppe **Vorgang** die Option **Genehmigen** aus.  
+3.  Wenn die Notiz im Fenster **Meine Benachrichtigungen** erscheint, wählen Sie den Wert **Genehmigungseintrag: XX, XX** Wert im Feld **Seite** aus. Das -Fenster **Genehmigung anfordern** wird geöffnet und Alicias Anforderung für die Einkaufsbestellung wird hervorgehoben.  
+4.  Wählen Sie im Fenster **Genehmigung anfordern** auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Genehmigen** aus.  
 
     Der Wert im Feld **Status** auf von Christines Einkaufsbestellung ändert sich zu **Freigegeben**.  
 
@@ -160,7 +160,7 @@ Die Basisversion von [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst mehrere
 
 Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen über vordefinierte vom Anwendungscode unterstützten Listen mit Ereignissen und Reaktionen ausfüllen. Weitere Informationen finden Sie unter [Gewusst wie: Workflows erstellen](across-how-to-create-workflows.md).  
 
-Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Anwendungscode anpasst. Weitere Informationen finden Sie unter [Exemplarische Vorgehensweise: Implementieren von neuen Workflowereignissen und von Kampagnenreaktionen](https://msdn.microsoft.com/en-us/library/mt574349.aspx) in MSDN  
+Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Anwendungscode anpasst. Weitere Informationen finden Sie unter [Exemplarische Vorgehensweise: Implementieren von neuen Workflowereignissen und von Kampagnenreaktionen](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) in der Entwickler- und IT-Pro-Hilfe.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Gewusst wie: Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md)   

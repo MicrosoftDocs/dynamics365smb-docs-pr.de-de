@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Planungsparameter | Microsoft Docs'
-description: "Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden können."
-services: project-madeira
-documentationcenter: 
+description: "Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in Dynamics 365 verwenden können."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d1b9d86d53076c2373f4f08316192eda29592c5
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
@@ -46,7 +44,7 @@ Das Feld **Zeitrahmen** wird von Minimalbestandrichtlinien verwendet (**Feste Be
 
 Die Standardsicherheitsbeschaffungszeit im Feld **Herstellung einrichten** sollte mindestens auf einen Tag gesetzt werden. Das Fälligkeitsdatum des Bedarfs ist möglicherweise bekannt, nicht jedoch die Fälligkeitsuhrzeit. Die Planung plant rückwärts, um den Bruttobedarf zu decken, und, wenn kein Sicherheitszuschlag zur Beschaffungszeit definiert ist, können die Waren zu spät eintreffen, um den Bedarf zu decken.  
 
-Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode****Loskumulierungsperiode** und  **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
+Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode**, **Loskumulierungsperiode** und **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
 
 ## <a name="define-how-much-to-reorder"></a>Definieren Sie, wie viel neu bestellt werden soll  
 Wenn das Planungssystem die Notwendigkeit einer Neubestellung erkennt, wird das ausgewählte Wiederbeschaffungsverfahren verwendet, um zu ermitteln, wann und wie viel bestellt werden soll.  
@@ -59,12 +57,12 @@ Unabhängige vom Wiederbeschaffungsverfahrens folgt das Planungssystem normalerw
 4. Wenn mehr Grobbedarf vor dem Fälligkeitsdatum des vorwärts geplanten Auftragsvorschlag besteht und dieser Bedarf den derzeit geplanten voraussichtlich verfügbaren Lagerbestand unter den Sicherheitsbestand bringt, wird die Auftragsmenge entsprechend erhöht. Die vorgeschlagene Beschaffungsauftrag wird dann vom Fälligkeitsdatum dieses Grobbedarfs, der den Sicherheitsbestand unterschritten hätte, rückwärts geplant.  
 5. Wenn das Feld **Zeitrahmen** nicht ausgefüllt ist, wird nur der Bruttobedarf am gleichen Fälligkeitsdatum hinzugefügt.  
 
-     Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode****Loskumulierungsperiode** und  **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
+     Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode**, **Loskumulierungsperiode** und **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
 
 ### <a name="reordering-policies"></a>Wiederbeschaffungsverfahren  
 Die folgenden Wiederbeschaffungsrichtlinien beeinflussen die Menge, die nachbestellt wird.  
 
-|Wiederbeschaffungsverfahren|Description|  
+|Wiederbeschaffungsverfahren|Beschreibung|  
 |-----------------------|---------------------------------------|  
 |**Feste Bestellmenge**|Mindestens ist die Bestellmenge gleich der Nachbestellmenge. Kann erhöht werden, um den Bedarf oder die gewünschte Lagerebene zu erfüllen. Dieses Wiederbeschaffungsverfahren wird normalerweise mit einem Minimalbestand verwendet.|  
 |**Auffüllen auf Maximalbestand**|Die Auftragsmenge wird so berechnet, das sie den Maximalbestand erfüllt. Wenn Mengenmodifizierer verwendet werden, kann der Maximalbestand verletzt werden. Es ist nicht empfehlenswert, den Zeitrahmen zusammen mit maximaler Menge zu verwenden. Das Zeitrahmen wird normalerweise überschrieben. Dieses Wiederbeschaffungsverfahren wird normalerweise mit einem Minimalbestand verwendet.|  
@@ -74,7 +72,7 @@ Die folgenden Wiederbeschaffungsrichtlinien beeinflussen die Menge, die nachbest
 ##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimieren des Zeitpunktes und der Menge bei einer Neubestellung  
 Um einen rationalen Beschaffungsplan zu erhalten, kann ein Planer Planungsparameter genau abstimmen, um Neuplanungsvorschläge einzuschränken, Bedarf zu akkumulieren (dynamische Nachbestellmenge), oder um unwichtige Planungsaktionen zu vermeiden. Die folgenden Nachbestellungsperiodenfelder helfen bei der Optimierung, wann und wie viel nachzubestellen ist.  
 
-|Feld|Description|  
+|Feld|Beschreibung|  
 |---------------------------------|---------------------------------------|  
 |**Neuplanungsperiode**|Dieses Feld wird verwendet, um zu ermitteln, ob die Ereignismeldung einen bestehenden Auftrags neu planen oder diesen stornieren und einen neuen Auftrag erstellen soll. Der bestehende Auftrag wird innerhalb einer Neuplanungsperiode vor dem aktuellen Vorrat und bis zu einer Neuplanungsperiode nach dem aktuellen Vorrat neu geplant.|  
 |**Loskumulierungsperiode**|Mit dem Wiederbeschaffungsverfahren Los-für-Los wird dieses Feld verwendet, um mehrere Bedarfsposten in einem Beschaffungsauftrag zusammenzufassen. Ab dem ersten geplanten Vorrat werden alle Bedarfsposten in der folgenden Loskumulierungsperiode in einen Beschaffungsauftrag zusammengefasst, der am Tag des ersten Bedarfs aufgeben wird. Ein Bedarfsposten, der außerhalb der Loskumulierungsperiode liegt, wird nicht durch den Beschaffungsauftrag abgedeckt.|  
@@ -82,7 +80,7 @@ Um einen rationalen Beschaffungsplan zu erhalten, kann ein Planer Planungsparame
 
 Die Terminierung für die Neuplanungsperiode, die Toleranzperiode und die Loskumulierungsperiode basiert auf einem Lieferdatum. Das Zeitrahmen basiert auf dem Planungsstartdatum, wie in der folgenden Abbildung gezeigt.  
 
-![Zeitrahmen-Elemente] (media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
+![Zeitrahmen-Elemente](media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
 
 In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (aufwärts) und Bedarf dar (abwärts). Rote, grüne und orange Pfeile sind Planungsvorschläge.  
 

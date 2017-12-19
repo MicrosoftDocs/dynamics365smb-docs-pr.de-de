@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="changing-basic-settings"></a>Ändern von grundlegenden Einstellungen
@@ -51,7 +51,7 @@ Standardmäßig wird das aktuelle Datum (Systemdatum) verwendet. Um Aufgaben wie
 ## <a name="region"></a>Region
 Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.   
 
-## <a name="change-when-i-receive-notifications"></a>Ändern, wenn ich Benachrichtigungen erhalte.
+## <a name="changing-when-i-receive-notifications"></a>Ändern, wann I Benachrichtigungen erhalten.
 Wählen Sie diesen Link, um Benachrichtigungen zu ändern oder anzuzeigen, die Sie zu bestimmten Ereignissen oder Veränderungen im Status erhalten, wie wenn Sie einen Kunden fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Weitere Informationen finden Sie unter [Intelligente Benachrichtigungen](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Siehe auch

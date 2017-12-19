@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b64a17e69e5112ec0ff822bbacc8ec2772a21231
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Protokollieren von Änderungen in Dynamics 365 Business edition 
+# <a name="logging-changes-in-dynamics-365-business-edition"></a>Protokollieren von Änderungen in Dynamics 365, Business edition 
 Sie können die Änderungsanmeldung aktivieren, sodass [!INCLUDE[d365fin](includes/d365fin_md.md)] Sie den Verlauf der Aktivitäten sehen. Das Protokoll basiert auf Änderungen, die an den Daten in den von Ihnen verfolgten Tabellen vorgenommen werden. Im Änderungsprotokoll sind Posten chronologisch bestellt und zeigt Änderungen an, die in den Feldern der angegebenen Tabellen vorgenommen wurden. Das Änderungsprotokoll erfasst alle Änderungen, die auf der Tabelle vorgenommen wurden.  
 
 ## <a name="working-with-the-change-log"></a>Arbeiten mit dem Änderungsprotokoll

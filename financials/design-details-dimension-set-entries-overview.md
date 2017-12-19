@@ -1,8 +1,6 @@
 ---
 title: "Dimensionssatzposten Übersicht | Microsoft Docs"
-description: In diesem Thema wird beschrieben, wie Dimensionssatzposten in  [!INCLUDE[d365fin](includes/d365fin_md.md)].gespeichert und gebucht werden.
-services: project-madeira
-documentationcenter: 
+description: In diesem Thema wird beschrieben, wie Dimensionssatzposten in Dynamics 365 gespeichert und gebucht werden.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: dimension
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 53c85ecbb42db92e95921203d24781bcb82f942d
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 78e98bcbc88ffb38d5da3f5089d124d915585d91
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensionssatz-Eintrags-Übersicht

@@ -1,8 +1,6 @@
 ---
 title: "Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne | Microsoft Docs"
-description: "Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten."
-services: project-madeira
-documentationcenter: 
+description: "Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in Dynamics 365 mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e9eb96fb0f9669a9ddac5e4ea6e973fd64388b87
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 492976f9ab0553b67b73317040878c825eaa1808
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne
@@ -64,7 +62,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
 ### <a name="to-set-up-a-campaign"></a>So richten Sie eine Kampagne ein  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Kampagnen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kampagnen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die **Neu** Aktion aus, um eine neue Kampagne zu erstellen. Klicken Sie auf die Kampagnenkarte, drücken Sie die Eingabetaste, um eine Kampagnennummer automatisch einfügen zu lassen.  
 3.  Geben Sie im Feld **Beschreibung** eine Beschreibung für die Kampagne ein, z. B. **FUTURUS-Messe**.  
 4.  Wählen Sie das Feld **Statuscode** und wählen Sie im Fenster **Kampagnenstatus** einen Statuscode aus der List aus, die sich öffnet, aus.  
@@ -94,7 +92,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
     >  Sie können die Segmentierungskriterien zur Wiederverwendung speichern.
 
     1.  Im Fenster **Segment** wählen Sie die **Segment** Aktion aus, und wählen Sie die **Speicherkriterien** Aktion aus.  
-    2.  Geben Sie im Fenster **Segmentkriterien speichern** einen Code für das Segment ein. Geben Sie im Feld **Beschreibung** eine  der Segmentkriterien ein.
+    2.  Geben Sie im Fenster **Segmentkriterien speichern** einen Code für das Segment ein. Geben Sie im Feld **Beschreibung** eine der Segmentkriterien ein.
     3.  Wählen Sie die Schaltfläche **OK** aus.  
 
 ## <a name="mining-the-data"></a>Data Mining  
@@ -187,7 +185,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 6.  Wählen Sie diese Aktivitätenvorlage im Feld **Aktivitätenvorlagencode** aus, und bestätigen Sie die Meldung, in der Sie gefragt werden, ob die Segmentszeilen mit diesem Aktivitätenvorlagencode aktualisiert werden sollen.  
 
      Geben Sie nun an, dass diese Kontakte auf die Kampagne reagiert haben:  
-7.  Geben Sie auf im Inforegister **Beschaffung** im **Arbeitsplannr.**  Feld, wählen Sie Ihre Kampagne aus.  
+7.  Geben Sie auf im Inforegister **Beschaffung** im **Arbeitsplannr.** Feld, wählen Sie Ihre Kampagne aus.  
 8.  Lassen Sie **Kampagnen.Nr.** Verlassen Sie das Feld Kampagnennr. und bestätigen Sie die Meldung, in der Sie gefragt werden, ob die Segmentszeilen mit diesem Aktivitätenvorlagencode aktualisiert werden sollen.  
 9. Wählen Sie das Feld **Kampagnenreaktion** aus, und bestätigen Sie die nachfolgende Meldung.  
 

@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Finanzen
@@ -29,7 +29,7 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 | Aufgabe | Siehe |
 | --- | --- |
 | Ordnen Sie eingehende Zahlungen zu, stimmen Bankkonten während des Zahlungsausgleichs ab und erfassen Sie offene Salden. |[Verwalten von Forderungen](receivables-manage-receivables.md) |
-| Verarbeiten Sie Zahlungen, ordnen Sie ausgehende Zahlungen zu und bearbeiten Sie Schecks. |[Verwalten von Verbindlichkeiten|](payables-manage-payables.md) |
+| Verarbeiten Sie Zahlungen, ordnen Sie ausgehende Zahlungen zu und bearbeiten Sie Schecks. |[Verwalten von Verbindlichkeiten](payables-manage-payables.md) |
 |Lassen Sie Ihre Debitoren zahlen, bevor Sie liefern, oder machen Sie die Zahlung an Ihre Kreditoren, bevor diese an Sie liefern.|[Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)|
 | Stimmen Sie Bankkonten ab und transferieren Sie Beträge zwischen Bankkonten. |[Verwalten von Bankkonten](bank-manage-bank-accounts.md) |
 |Einrichten von Intercompanypartner und verarbeiten von Transaktionen, manuzell oder automatisch, zwischen juristischen Personen innerhalb derselben Mandanten.|[Intercompanytransaktionen verwalten](intercompany-manage.md)|
@@ -37,7 +37,7 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 |Verwalten von Lager- und Fertigungskosten, Melden von Kosten und Abstimmen von Kosten mit der Finanzbuchhaltung|[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)|
 | Entwickeln Sie ein Verständnis für die Finanzbuchhaltung und den Kontenplan |[Verständnis der Fibu und des COA](finance-general-ledger.md) |
 | Fügen Sie Dimensionen für umfangreichere Business Intelligence hinzu. |[Arbeiten mit Dimensionen](finance-dimensions.md) |
-| Erstellen Sie Budgets, um verschiedene Finanzaktivitäten zu prognostizieren und Dimensionen zu den einzelnen Intelligence-Zwecken zuzuordnen. |[So wird's gemacht: neue Budgets erzeugen](finance-how-create-budgets.md) |
+| Erstellen Sie Sachkonto-Budgets, um verschiedene Finanzaktivitäten zu prognostizieren und Dimensionen zu den einzelnen Intelligence-Zwecken zuzuordnen. |[So wird's gemacht: neue Sachkonten-Budgets erzeugen](finance-how-create-budgets.md) |
 |Erfassen von Umsatz oder Ausgaben direkt in der Finanzbuchhaltung, ohne dedizierte Unternehmensbelege zu buchen.|[Vorgehensweise: Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)|
 |Buchen Sie das Stornieren von Posten, um wertmäßige Buchungen im Fibu Buch.-Blatt oder Warenausgänge in einem Einkaufs- oder Verkaufsbeleg zu stornieren. |[So geht's: Buchungen stornieren](finance-how-reverse-journal-posting.md)|
 |Verteilen eines Postens in einem wiederkehrenden Buch.-Blatt auf mehrere Konten beim Buchen des Buch.-Blatts |[Erklärt, wie Kosten und Einnahmen zugewiesen werden.](year-allocate-costs-income.md) |

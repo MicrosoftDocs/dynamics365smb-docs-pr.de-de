@@ -13,10 +13,10 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 79851c90a2a2fd8ac2e744173a04b7eda50b98e8
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 9a51b767006911a26e4e3a7abd55fbbeda05e0bc
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -27,7 +27,7 @@ Wenn Sie Einnahmen- und Ausgabenrechnungs-Methoden ausgleichen, können Sie in [
 Sie können festlegen, dass MwSt.-Beträge beim Buchen einer Rechnung berechnet und auf ein temporäres Sachkonto gebucht werden und dass die Beträge erst dann auf das korrekte Sachkonto gebucht und in die MwSt.-Abrechnungen einbezogen werden sollen, wenn die eigentliche Zahlung der Rechnung gebucht wird. Bevor Sie dies tun können, müssen Sie die MwSt.-Buchungsmatrix ausfüllen.
 
 Um die Konten für unrealisierte MwSt. zu verwenden, führen Sie diese Schritte aus:
-1. Wählen Sie ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und **Finanzbuchhaltung einrichen** eingeben. 
+1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und **Finanzbuchhaltung einrichten** eingeben. 
 2. Auf der Seite **Finanzbuchhaltung Einrichtung** im Inforegister **Allgemein**, wählen Sie **Mehr anzeigen** und wählen Sie dann das Kontrollkästchen **Unrealisierte MwSt.** aus.
 3. Schließen Sie die Seite.
 4. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **MwSt Buchung einrichten** ein und wählen Sie dann den entsprechenden Link aus. 
@@ -47,10 +47,10 @@ Um die Konten für unrealisierte MwSt. zu verwenden, führen Sie diese Schritte 
 
     > [!NOTE]  
 >   Der MwSt-Betrag wird auf dieses Steuerkonto gebucht, wo er verbleibt, bis die Zahlung des Debitors gebucht wird. Der Betrag wird dann auf das Sachkonto für Umsatzsteuer transferiert.
-7. Geben Sie im Feld **Unreal. Vorsteuerkonto** die entsprechende Sachkontonummer für unrealisierte MwSt-Käufe ein.
+7. Geben Sie im Feld **Unreal. Vorsteuerkonto** die entsprechende Sachkontonummer ein.
 
     > [!NOTE]  
->   Der MwSt-Betrag wird auf dieses Steuerkonto gebucht, wo er verbleibt, bis die Zahlung des Debitors gebucht wird. Der Betrag wird dann auf das Sachkonto für Umsatzsteuer transferiert.
+>   Der MwSt-Betrag wird auf dieses Steuerkonto gebucht, wo er verbleibt, bis die Zahlung des Debitors gebucht wird. Der Betrag wird dann auf das Sachkonto für Mehrwertsteuerkäufe transferiert.
 
 ## <a name="see-also"></a>Siehe auch
 [Mehrwertsteuer einrichten](finance-setup-vat.md)

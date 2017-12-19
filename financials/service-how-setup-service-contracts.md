@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3eea1854139de9bdfd5dc992159dbc060c79509d
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 203f6ef7f156bdccaa491fdac761711fd32c317e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -37,8 +37,8 @@ Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten:
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Servicevertragsgruppe** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Erstellen Sie eine neue Servicevertragskontengruppe.   
 3. Füllen Sie die Felder **Code** und **Beschreibung** aus. Diese Felder beschreiben die Servicekontengruppe.  
-4. Füllen Sie das Feld  **Nicht vorausbez. Vertragskonto** aus. Dieses Feld enthält die Sachkontennummer des Kontos, auf das nicht vorausbezahlte Beträge gebucht werden.  
-5. Füllen Sie das Feld  **Nicht vorausbez. Vertragskonto** aus. Dieses Feld enthält die Sachkontennummer des Kontos, auf das nicht vorausbezahlte Beträge gebucht werden.  
+4. Füllen Sie das Feld **Nicht vorausbez. Vertragskonto** aus. Dieses Feld enthält die Sachkontennummer des Kontos, auf das nicht vorausbezahlte Beträge gebucht werden.  
+5. Füllen Sie das Feld **Nicht vorausbez. Vertragskonto** aus. Dieses Feld enthält die Sachkontennummer des Kontos, auf das nicht vorausbezahlte Beträge gebucht werden.  
 
 ## <a name="to-set-up-a-contract-template"></a>So richten Sie Vertragsvorlagen ein  
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Servicevertragsgruppe** ein. Wählen Sie dann den zugehörigen Link aus.  
@@ -55,7 +55,7 @@ Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten:
 2. Erstellen Sie eine neue Debitorenvorlagenkarte.  
 3. Geben Sie auf dem Inforegister **Allgemein** der Debitorenvorlagenkarte im Feld **Code** einen Code und im Feld **Beschreibung** eine Beschreibung für die Debitorenvorlage ein. 
 4. Die anderen Felder, z. B. **Länder-/Regionscode**, **Gebietscode** und **Sprachcode**, werden als Suchkriterien verwendet und können ausgefüllt werden.  
-5. Die Felder  **Geschäftsbuchungsgruppe** und  **Debitorenbuchungsgruppe** müssen ausgefüllt werden.  
+5. Die Felder **Geschäftsbuchungsgruppe** und **Debitorenbuchungsgruppe** müssen ausgefüllt werden.  
 
 ## <a name="see-also"></a>Siehe auch
 [Einrichten der Serviceverwaltung](service-setup-service.md)

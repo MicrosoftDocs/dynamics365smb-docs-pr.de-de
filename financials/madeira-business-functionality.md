@@ -1,5 +1,5 @@
 ---
-title: "Von Dynamics 365 Business edition unterstützte Geschäftsfunktionen | Microsoft Docs"
+title: "Von Dynamics 365, Business edition unterstützte Geschäftsfunktionen | Microsoft Docs"
 Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
@@ -13,16 +13,16 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f71c19abdc225b92a76a98992a2e3d78769b6dc5
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 3b68f53f2ca2f1553b0d19a617ae58b25f29acdb
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="overview-of-business-functionality-in-dynamics-365-for-finance-and-operations-business-edition"></a>Überblick über Geschäftsfunktionen in Dynamics 365 for Finance and Operations, Business edition
-[!INCLUDE[d365fin](includes/d365fin_md.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen.
+# <a name="business-functionality"></a>Geschäftsfunktionen
+[!INCLUDE[d365fin](includes/d365fin_md.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrer Homepage aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Weitere Informationen finden Sie unter [Einrichten[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrer Homepage aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
 Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 08/16/2017
+ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 031affc5d872fd989515a2561155353446dfde60
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-count-adjust-and-reclassify-inventory"></a>Vorgehensweise. Erfassen, Regulieren und Umbuchen von Lagerbestand
@@ -26,7 +26,7 @@ Obwohl Sie alle Artikel am Lager mindestens einmal im Jahr zählen, haben Sie si
 
 Falls Sie erfasste Lagerbestandsmengen im Zusammenhang mit einer Inventur oder zu anderen Zwecken anpassen müssen, können Sie ein Artikel Buch.-Blatt verwenden, um die Inventurposten direkt ohne Buchen von Geschäftstransaktionen zu ändern. Alternativ können Sie einen einzelnen Artikel der Artikelkarte anpassen.
 
-Wenn Sie Attribute und Mengen im Artikelposten ändern müssen, können Sie das Artikel Umlag. Buch.-Blatt verwenden. Typische Attribute für die Umbuchung sind Serien-/Chargennummern, Ablaufdaten und Dimensionen.
+Wenn Sie Attribute und Mengen im Artikelposten ändern müssen, können Sie das Artikel Umlag. Buch.-Blatt verwenden. Typische Attribute zur Reklassifizierung umfassen Dimensionen und Verkaufskampagnecodes. Sie führen aber auch "Systemübertragungen" durch, indem Lagerplatz und Lagerortcodes umgebucht werden. Spezielle Schritte treffen zu, wenn Sie Serien- oder Chargennummern und deren Ablaufdatum umbuchen möchten. Weitere Informationen finden Sie unter [Vorgehensweise: Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md)..
 
 > [!NOTE]
 > In erweiterten Lagerkonfigurationen werden Artikel in Lagerplätzen als Lagerplatzposten, nicht als Artikelposten erfasst. Daher führen Sie die Zählmengen aus und buchen in bestimmten Logistik Buch.-Blättern, um die Lagerplätze zu unterstützen. Dann verwenden Sie spezielle Funktionen, um die neuen oder geänderten Lagerplatzposten mit den entsprechenden Artikelposten zu synchronisieren, um die Änderungen in den Lagerbestandsmengen in den Werten zu aktualisieren. Dies wird in einem spezifischen Verfahren unten beschrieben, wo dies relevant ist.
@@ -70,7 +70,7 @@ Sie können eine physische Inventur, abhängig von Ihren Lagereinstellungen, nac
 
      Wenn Sie nur Zeit haben, den Artikel in einigen Lagerplätzen zu zählen und in anderen nicht, können Sie Differenzen feststellen, diese registrieren und sie später mit der Funktion **Ausgleich berechnen** berechnen.  
 8.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Physische Inventur durchführen** ein. Wählen Sie dann den zugehörigen Link aus.  
-9.  Öffnen Sie die Berichtsanforderungsseite   und drucken Sie die Listen, in denen Mitarbeiter die Menge an Artikeln erfassen können, die an jedem Lagerplatz gezählt wird.  
+9.  Öffnen Sie die Berichtsanforderungsseite und drucken Sie die Listen, in denen Mitarbeiter die Menge an Artikeln erfassen können, die an jedem Lagerplatz gezählt wird.  
 10. Wenn die Zählung abgeschlossen ist, geben Sie die gezählten Mengen in das Feld **Inventurmenge** des Logistik Inventur Buch.-Blattes ein.  
 
     > [!NOTE]  
@@ -94,7 +94,7 @@ Wenn Sie die Logistik Inventur registrieren, erzeugen Sie keine Artikelposten, I
 Mitarbeiter können nun mit dem Zählen des Lagerbestands fortfahren und alle Abweichungen in dem gedruckten Bericht erfassen.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Um den tatsächlichen gezählten Lagerbestands in den Basislagerkonfigurationen einzugeben und zu buchen
-1. In jeder Zeile im Fenster **Physischer Lagerbestant**in der der tatsächliche verfügbare Lagerbestand, wie durch die physische Zählung ermittelt, von der berechneten Menge abweicht, geben Sie den tatsächlichen verfügbaren **Lagerbestand** im Feld Inventurmenge ein.
+1. In jeder Zeile im Fenster **Physischer Lagerbestant** in der der tatsächliche verfügbare Lagerbestand, wie durch die physische Zählung ermittelt, von der berechneten Menge abweicht, geben Sie den tatsächlichen verfügbaren **Lagerbestand** im Feld Inventurmenge ein.
 
     Die verknüpften Felder werden entsprechend aktualisiert.
 
@@ -105,7 +105,7 @@ Mitarbeiter können nun mit dem Zählen des Lagerbestands fortfahren und alle Ab
 
     Sowohl Artikelposten als auch Inventurposten werden erstellt. Öffnen Sie die Artikelkarte, um die resultierenden Inventurposten anzuzeigen.
 
-3. Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
+3. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
 4. Öffnen Sie die betreffende Artikelkarte, und wählen Sie dann auf der Registerkarte Navigieren in der Gruppe Artikel die Option **Inventurposten** aus.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>Um den tatsächlichen gezählten Lagerbestands in den erweiterten Lagerkonfigurationen einzugeben und zu buchen
@@ -137,7 +137,7 @@ Sie richten die Inventurhäufigkeiten ein, die Sie verwenden möchten, und ordne
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>Um einem Artikel oder Lagerhaltungsdaten eine Inventurhäufigkeit zuzuordnen:  
-1. Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie den Artikel aus, dem Sie eine Inventurhäufigkeit zuweisen möchten.  
 3. Geben Sie im Feld **Inventurhäufigkeitscode** die passende Inventurhäufigkeit aus.  
 4. Wählen Sie die Schaltfläche **Ja** aus, um den Code zu ändern und das erste Inventurdatum für den Artikel zu berechnen. Wenn Sie das nächste Mal die Berechnung einer Inventurhäufigkeit im Logistik Inventur Buch.-Blatt auswählen, erscheint der Artikel als Zeile im Fenster **Inventurartikelauswahl**. Sie können jetzt beginnen, den Artikel in regelmäßigen Abständen zu zählen.
@@ -162,7 +162,7 @@ Sie richten die Inventurhäufigkeiten ein, die Sie verwenden möchten, und ordne
 ## <a name="to-adjust-the-inventory-of-one-item"></a>Um die Lager von einem Artikel zu korrigieren
 Nachdem Sie eine Inventur eines Artikels in Ihrem Lagerbereich vorgenommen haben, können Sie die Funktion **Lager regulieren** verwenden, um die Menge des aktuellen Lagerstatus zu erfassen.
 
-1. Wählen Sie ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie den Artikel, für den Sie den Lagerbestand anpassen möchten, und wählen Sie dann die Aktion **Lager regulieren** aus.
 3. Geben Sie im Feld **Neuer Bestand** die Bestandsmenge ein, die Sie für den Artikel übernehmen möchten.
 4. Wählen Sie die Schaltfläche **OK** aus.
@@ -193,7 +193,7 @@ Im Unterschied zum Buchen der Anpassungen im Artikel Buch.-Blatt bietet die Verw
 
 1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Lagerort Buchblatt** ein und wählen den zugehörenden Link aus.  
 2.  Tragen Sie die erforderlichen Informationen in den Kopf ein.  
-3.  Füllen Sie das Feld **Artikelnr.**in der Zeile aus.  
+3.  Füllen Sie das Feld **Artikelnr.** in der Zeile aus.  
 4.  Geben Sie den Lagerplatz ein, in den Sie die zusätzlichen Artikel einlagern möchten oder in dem Sie festgestellt haben, dass Artikel fehlen.  
 5.  Geben Sie die Menge, die Sie als Differenz festgestellt haben, in das Feld **Menge** ein. Wenn Sie zusätzliche Artikel gefunden haben, geben Sie eine positive Menge ein. Wenn Artikel fehlen, geben Sie eine negative Menge ein.  
 6.  Wählen Sie die Aktion **Registrieren** aus.
@@ -209,13 +209,19 @@ Sie müssen in geeigneten Intervallen, die von der Firmenpolitik bestimmt werden
 6.  Buchen Sie die Buch.-Blattzeilen, um die Mengenabweichungen als Artikelposten zu buchen. Der Lagerbestand in den Lagerplätzen entspricht jetzt genau dem Lagerbestand in den Artikelposten.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Um die Chargennummer des Artikels neu zu klassieren
+Wenn Sie Attribute und Mengen im Artikelposten ändern müssen, können Sie das Artikel Umlag. Buch.-Blatt verwenden. Typische Attribute zur Reklassifizierung umfassen Dimensionen und Verkaufskampagnecodes. Sie führen aber auch "Systemübertragungen" durch, indem Lagerplatz und Lagerortcodes umgebucht werden.
+
+Spezielle Schritte treffen zu, wenn Sie Serien- oder Chargennummern und deren Ablaufdatum umbuchen möchten. Weitere Informationen finden Sie unter [Vorgehensweise: Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md)..
+
+Das folgende Beispiel basiert auf einen Lagerortcode. Die Schritte sind für andere Arten von Artikelattribute gleich.
+
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Artikel Buchblatt neu klassieren** ein und wählen den zugehörenden Link aus.
 2. Füllen Sie im Fenster **Umlagerungs Buch.-Blatt** die notwendigen Felder aus.
-3. Geben Sie in dem Feld **Chargennr.** die Chargennummer des Artikels an, der angeboten werden soll.
-4. Geben Sie in dem Feld **Neue Chargennr.** die neue Chargennummer des Artikels an, der angeboten werden soll.
+3. Geben Sie im **Lagerortcode** Feld den aktuellen Lagerortcode des Artikels ein.
+4. Geben Sie im **Neuer Lagerortcode** Feld den neuen Lagerortcode des Artikels ein.
 5. Wählen Sie die Aktion **Buchen** aus.
 
-Spezielle Schritte treffen zu, um Serien- oder Chargennummern umzubuchen. Weitere Informationen finden Sie unter [Vorgehensweise: Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md)..
+Weitere Informationen zum Übertragen von Artikeln mit Kontrolle der gelieferten und eingegangenen Mengen, siehe [Vorgehensweise: Übertragen Sie Lagerbestand zwischen Lagerorten](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Bestands](inventory-manage-inventory.md)

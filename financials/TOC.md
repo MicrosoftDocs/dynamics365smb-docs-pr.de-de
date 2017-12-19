@@ -24,6 +24,7 @@
 ## [Dynamics 365 Werte vorschlagen lassen](ui-let-system-suggest-values.md)
 ## [Berichte drucken](ui-work-report.md#PrintReport)
 ## [Videos in häufigen Aufgaben](across-videos.md)
+## [Eingabehilfe und Tastenkombinationen](ui-accessibility.md)
 ## [Sprache und Gebiet](about-locale-language.md)  
 ## [Sprachen der Dokumente](about-languages.md)
 
@@ -173,7 +174,7 @@
 ### [Externen Buchhalter einladen zu Ihrem Dynamics 365](finance-invite-external-accountant.md)  
 ## [Verständnis der Fibu und des COA](finance-general-ledger.md)
 ## [Arbeiten mit Dimensionen](finance-dimensions.md)
-## [So wird's gemacht: neue Budgets erzeugen](finance-how-create-budgets.md)
+## [So wird's gemacht: neue Sachkonten-Budgets erzeugen](finance-how-create-budgets.md)
 ## [Vorgehensweise: Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)
 ## [So geht's: Buchungen stornieren](finance-how-reverse-journal-posting.md)
 ## [Erklärt, wie Kosten und Einnahmen zugewiesen werden.](year-allocate-costs-income.md)

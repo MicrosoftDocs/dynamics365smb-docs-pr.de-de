@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 59805de35ca1ebe01255eafeb4fff12efacde934
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 6beb70ad41fa32043e9b8afea67d390929533007
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setting-up-workflows"></a>Einrichten von Workflows
@@ -26,7 +26,7 @@ Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben vo
 
  Im Fenster **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden.  
 
- Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Anwendungscode anpasst. Weitere Informationen finden Sie unter [Exemplarische Vorgehensweise: Implementieren von neuen Workflowereignissen und von Kampagnenreaktionen](https://msdn.microsoft.com/en-us/library/mt574349.aspx) in MSDN
+ Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Anwendungscode anpasst. Weitere Informationen finden Sie unter [Exemplarische Vorgehensweise: Implementieren von neuen Workflowereignissen und von Kampagnenreaktionen](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) in der Entwickler- und IT-Pro-Hilfe.
 
  Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.  
 
@@ -42,7 +42,7 @@ Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben vo
 |Verwenden Sie Workflowvorlagen, um neue Workflows zu erstellen.|[Vorgehensweise: Workflows von Workflowvorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md)|  
 |Teilen Sie Workflows mit anderen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbanken.|[Vorgehensweise: Exportieren und Importieren von Workflows](across-how-to-export-and-import-workflows.md)|  
 |Erfahren Sie anhand eines vollständigen Ablaufs, wie Sie einen Workflow zur Genehmigung von Verkaufsunterlagen einrichten.|[Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Fügen Sie Unterstützung für ein Geschäftsszenario hinzu, das neue Workflowereignisse oder Reaktionen benötigt, indem Sie den Anwendungscode anpassen.|[Exemplarische Vorgehensweise: Implementieren neuer Workflow-Ereignisse und -Antworten](https://msdn.microsoft.com/en-us/library/mt574349.aspx) in MSDN.|  
+|Fügen Sie Unterstützung für ein Geschäftsszenario hinzu, das neue Workflowereignisse oder Reaktionen benötigt, indem Sie den Anwendungscode anpassen.|[Exemplarische Vorgehensweise: Implementieren neuer Workflow-Ereignisse und -Antworten](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 
 ## <a name="see-also"></a>Siehe auch  
  [Verwenden von Workflows](across-use-workflows.md)   

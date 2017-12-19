@@ -13,10 +13,10 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Vorgehensweise: Einrichten von Verantwortlichkeiten von Kontaktpersonen
@@ -27,7 +27,7 @@ Die Verwendung von Verantwortlichkeiten zu Kontakten ist ein zwei Schritte umfas
 ## <a name="to-define-a-job-responsibility-code"></a>um einen Verantwortlichkeitscode zu definieren
 Der Verantwortlichkeitscode definiert die Art oder die Kategorie des Projekts (z. B. MARKETING oder EINKAUFS). Sie können mehrere Verantwortlichkeitscodes haben. Um die Verantwortlichkeit zu definieren, verwenden Sie das **Verantwortlichkeiten**-Fenster.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Verantwortlichkeiten** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verantwortlichkeiten** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus, und geben Sie einen Code und eine Beschreibung ein. Der Code kann maximal 11 Zeichen, sowohl Ziffern als auch Buchstaben, umfassen.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Kontaktpersonen Verantwortlichkeiten zuordnen

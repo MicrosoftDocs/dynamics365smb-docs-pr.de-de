@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2f62bbae71eac1c0d63df5e352601c0885274066
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>So geht's: Konvertieren von Serviceverträgen, die MwSt.-Beträge enthalten
@@ -23,7 +23,7 @@ Da das Werkzeug zum Ändern des MwSt.-Satzes keine Serviceverträge konvertieren
 > [!NOTE]  
 >  Dieses Thema stellt einen High-Level-Workflow bereit.  
 
- Nachfolgend wird beschrieben, wie eine Rechnung für einen vorausbezahlten Service-Kontakt korrigiert wird, die ein Jahr im Voraus erstellt wurde.  
+ Nachfolgend wird beschrieben, wie eine Rechnung für einen vorausbezahlten Service-Vertrag korrigiert wird, die ein Jahr im Voraus erstellt wurde.  
 
 > [!NOTE]  
 >  Für dieses Beispiel müssen Sie Ihr Arbeitsdatum in 01.01.2017 ändern.  

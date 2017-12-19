@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Exportieren und Importieren von Workflows | Microsoft Docs'
-description: "Um Workflows auf andere  [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbanken zu übertragen, beispielsweise um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Workflows exportiert und importiert werden."
-services: project-madeira
-documentationcenter: 
+description: "Um Workflows auf andere Dynamics 365-Datenbanken zu übertragen, beispielsweise um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Workflows exportiert und importiert werden."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8126d3850103819e885d9d131ca3074f1b7cfda1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 520c81b9c550b4ef29b077685541a2e7ea30d4d7
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-export-and-import-workflows"></a>Vorgehensweise: Exportieren und Importieren von Workflows
