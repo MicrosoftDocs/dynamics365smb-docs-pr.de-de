@@ -4,24 +4,48 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 # dynamics365smb-docs-pr
-Welcome to the repository for user assistance content for Dynamics 365 for Financials! Financials is aimed at small and midsized businesses, and the repo is private while we work on pre-release content.
-If you have any questions, please contact us through the navua alias.
+Welcome to the repository for user assistance content for Dynamics 365 for Financials! Financials is aimed at small and midsized businesses, and the repo is private. The public repo is here: https://github.com/MicrosoftDocs/dynamics365smb-docs.
+If you have any questions, please contact us through the navua alias.  
+
 
 ======================================
-Getting started with Open Publishing
+## Getting started with Open Publishing
 
-Quick Start
------------
+Start contributing to the repo docs using the following steps:
 
-Start contributing to Open Publishing docs using the following steps:
+## Set up your account
+1. Get a GitHub account
+2. Link it to your work account at https://repos.opensource.microsoft.com/
+3. Join the MicrosoftDocs org at https://repos.opensource.microsoft.com/MicrosoftDocs
+4. Join the Everyone team here: https://repos.opensource.microsoft.com/microsoftdocs/teams/everyone
 
-1. Clone the repo:
-   ```
-   git clone https://github.com/Microsoft/dynamics365smb-docs-pr.git
-   ```
+For more information, see [Open Source at Microsoft docs](https://docs.opensource.microsoft.com/github/).
 
-2. Edit the Markdown files using your favorite Markdown editor.
-3. Commit and push your changes:
+### Contributing
+Unless you are an UA writer, you do not have write access to the master repo MicrosoftDocs/dynamics365smb-docs-pr. Any changes that you make must go through UA first. This means that to make changes, you must commit the changes, and then create a pull request to include the changes. A writer (UA) will then review the pull request and pull the content into the master repo.
+
+There are a few ways to work with the repo:
+- You can edit directly in the MicrosoftDocs/dynamics365smb-docs-pr repo on GitHub.com.
+
+    This is the quickest way and is good for tech-review and small edits.
+- You can fork the repo and then work in the fork.
+
+    When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed. This method is good for making changes to existing articles or creating new articles when you cannot get your changes done right away and you want to save them as a work in progress.
+- Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/).
+
+    This lets you clone the repo on your machine. You can then make changes, sync with the master repo on GitHub, and create a Pull Request. This is useful for working on new content that stretches over a few sessions. This is how UA works.
+
+The general flow is as follows:
+
+1. Make changes to an existing file or add a new one.
+2. Commit proposed changes.
+3. Create Pull Request to have the changes included in the master repo.
+
+### Working in a fork
+
+1. Fork the repo using a browser window or Git Shell. Here is the address of the repo: https://github.com/MicrosoftDocs/dynamics365smb-docs-pr
+2. Clone your fork so you have a local copy, and then edit the Markdown files using your favorite Markdown editor, such as Atom.io or Visual Studio Code.
+3. Commit and push your changes using GitHub Desktop or Git Shell. Here is the command for Git Shell:
    ```
    git add -u
    git commit -m "update doc"
@@ -31,49 +55,47 @@ Start contributing to Open Publishing docs using the following steps:
 4. Wait for a moment and your changes will be automatically published to staging.
 > If you don't have the permission to push to this repo, fork it to your own account and use pull request to submit your changes back.
 
-Validation and Preview
-----------------------
+## Validation and Preview
 
 You can build and preview your content in local to discover and fix problems early, before pushing your changes to the GitHub repo:
 
-1. To validate your changes, just run `.\.openpublishing.build.ps1` under the root of the repo.
+1. To validate your changes, just run `..openpublishing.build.ps1` under the root of the repo.
 2. To preview your changes:
-   * Run `.\.openpublishing.build.ps1 -parameters:targets=serve` under the root of the repo.
+   * Run `..openpublishing.build.ps1 -parameters:targets=serve` under the root of the repo.
    * Open `http://localhost:8080` in your browser.
 
 
-Best Practices
-----------------------
+## Authoring in Markdown
+The content is styled using a Markdown syntax as described below. You don't have to worry too much about the Markdown syntax, because it will go through UA.
+
+### General info:
+[Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+
+### Authoring tools:
+If you want to work locally, you can edit using any text editor. Just save the file as a .md type. Here are a couple good tools that provide you with some nice features, such as Preview.  
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Atom](https://atom.io/) (this has spell check and is good for managing many files)
 
 ### Properties and tags
 All topics must start with a YAML header with the following set of attributes.
 
-For Financials:
-
 ```
 ---
-title: "How to: Change the Role Center"
+title: 'Short title with a couple of buzzwords for the feature. Not the same as your heading for the topic. | Microsoft Docs'
+description: 'A longer description that identifies the topic in search results.'
 author: MyGitHubAccount
 ms.author: MyDomainAccount
-ms.custom: na
-ms.date: MM/DD/YYYY
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms-service: dynamics365-financials
 ms.topic: article
-ms-service: "project-madeira"
+ms.search.keywords:keyword1, keyword2
+ms.date: MM/DD/YYYY
+
 ---
 ```
 
 The author attribute is used for the GitHub association, while the ms.author attribute is used in OPS and SkyEye. Remember to specify your own accounts...
 
-The ms.date tag must be updated according to this schedule:  
-- Topic created
-    - Set ms.date to the date when the topic will be published the first time (typically the 12th of the subsequent month)  
-- Topic updated with bug fix or user feedback
-    - Set ms.date to the current date
-- Topic revised due to feature development
-    - Set ms.date to the date when the topic will be published the next time (typically the 12th of the subsequent month)
+The ms.date tag must be updated to the date when you make the change. The ms.date property must follow the US date format of MM/DD/YYYY.
 
 Some articles will have a different value for the ms.topic tag. For more information, see https://opsdocs.azurewebsites.net/en-us/opsdocs/partnerdocs/metadata?branch=master.
 
@@ -105,7 +127,7 @@ The following options are available:
 Use numbers for ordered lists. No space between the lines, we'll let the template take care of that.
 
 ```
-1. In the **Search** box, enter **Payment Journal**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journal**, and then choose the related link.
 2. In the **Payment Journal** window, on the first journal line, enter the relevant information about the payment entry.
 3. To apply a single vendor ledger entry:
 4. In the **Applies-to Doc. No.** field, choose the field to open the **Apply Vendor Entries** window.
@@ -199,12 +221,6 @@ target-heading is the text of the heading that you want to link to, except it is
 For example, to link to the heading "How Autoscaling Works" in the article Autoscaling.md", add the following code:
 ```[link text](Autoscaling.md#how-autoscaling-works)```
 
-### Link to MSDN
-Omit the brackets with the NAV version info. Markdown mistakes that bracket for its own link indication.
-Example:  
-MSDN URL: ```https://msdn.microsoft.com/en-us/library/hh173988(v=nav.80).aspx```  
-Entered in markdown: ```https://msdn.microsoft.com/en-us/library/hh173988.aspx```
-
 ### Line breaks (soft return)
 In the editor, add two blank spaces at the end of the sentence and hit return. This is used in the See Also list. (See Also must be heading 2.)
 
@@ -223,7 +239,7 @@ The TOC structure of the TOC file is as follows:
 ```
 
 ### Standard Phrases
-All fields in Dynamics NAV have tooltips. Therefore, do not document fields in Help. To refer readers to the tooltips, use this standard phrase where relevant:    
+All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] have tooltips. Therefore, do not document fields in Help. To refer readers to the tooltips, use this standard phrase where relevant:    
 "Choose a field to read a short description of the field or link to more information."
 
 ### File naming
@@ -265,5 +281,3 @@ To give readers the impression that the content library is truly country-specifi
 - Link to country-specific content from generic content whenever relevant. The more you link to and from country-specific content, the more integrated it will feel. As for all other links, the link name must be the same as the title of the target article.
 - In navigation tables; the To/See tables in top-level topics, create rows for country-specific references at the bottom of the table. Prefix the text in the **To** column with ```<country>:``` Example: "Canada: How to: Work With GIFI Codes in Canada".
 - Do not create TOC entries for country-specific content. TOC entries will make the content library appear less country-specific.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.

@@ -1,5 +1,6 @@
 {
   "need_generate_pdf": true,
+  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "financialssmb",
@@ -7,6 +8,7 @@
       "build_output_subfolder": "financialssmb",
       "locale": "de-de",
       "monikers": [],
+      "moniker_groups": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -15,7 +17,6 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-      "moniker_groups": [],
       "version": 0
     },
     {
@@ -24,6 +25,7 @@
       "build_output_subfolder": "d365accountant",
       "locale": "de-de",
       "monikers": [],
+      "moniker_groups": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -32,25 +34,21 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-      "moniker_groups": [],
       "version": 0
     }
   ],
   "notification_subscribers": [
-    "edupont@microsoft.com",
-    "solsen@microsoft.com",
-    "sgroespe@microsoft"
+    "navualocbld@microsoft.com"
   ],
-  "branches_to_filter": [
-    "live-sxs"
-  ],
-  "continue_with_document_error": true,
+  "branches_to_filter": [],
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics365smb-docs",
+  "git_repository_branch_open_to_public_contributors": "live",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.de-de",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
     },
@@ -58,29 +56,22 @@
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master"
-    },
-    {
-      "path_to_root": "_repo.en-us",
-      "url": "https://github.com/MicrosoftDocs/dynamics365smb-docs-pr",
-      "branch": "live",
-      "branch_mapping": {
-        "live": "live",
-        "master": "master"
-      }
     }
   ],
   "branch_target_mapping": {
     "live": [
       "Publish",
       "Pdf"
+    ],
+    "master": [
+      "Publish",
+      "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": false,
-  "need_generate_intellisense": false,
+  "need_generate_pdf_url_template": true,
   "Targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
     }
-  },
-  "need_generate_pdf": false
+  }
 }
