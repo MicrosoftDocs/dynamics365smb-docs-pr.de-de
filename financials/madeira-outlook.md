@@ -13,10 +13,10 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
 ms.openlocfilehash: 473c21085c54c7f97f34404eeb18683cf4479e41
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a><span data-ttu-id="5b57c-103">Dynamics 365 for Finance and Operations, Business edition als Ihr Unternehmensposteingang mit Outlook verwenden</span><span class="sxs-lookup"><span data-stu-id="5b57c-103">Using Dynamics 365 for Finance and Operations, Business edition as your Business Inbox in Outlook</span></span>

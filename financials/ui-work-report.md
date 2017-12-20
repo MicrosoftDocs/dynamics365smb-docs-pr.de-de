@@ -13,10 +13,10 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
 ms.openlocfilehash: 16c9c8c896e3517f08a7326eef88ebc646834b1a
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="working-with-reports"></a><span data-ttu-id="593c0-103">Arbeiten mit Berichten</span><span class="sxs-lookup"><span data-stu-id="593c0-103">Working with Reports</span></span>
