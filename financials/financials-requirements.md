@@ -11,10 +11,10 @@ ms.search.keywords: version
 ms.date: 09/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
 ms.openlocfilehash: fb17aada5494bb700edc005599ff8cbc764abe83
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="minimum-requirements-for-using-dynamics-365-business-edition"></a>Mindestanforderungen für die Nutzung von Dynamics 365 Business edition

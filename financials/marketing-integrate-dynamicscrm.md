@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
 ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten
