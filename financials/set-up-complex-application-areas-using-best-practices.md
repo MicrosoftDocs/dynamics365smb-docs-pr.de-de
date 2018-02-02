@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 508b45bab8b2ea98ae868c67e7e28c1e0a528040
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a7d4742c8bfda128ca073358da07545d6a0ebd4a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a><span data-ttu-id="d9871-103">Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein</span><span class="sxs-lookup"><span data-stu-id="d9871-103">Set Up Complex Application Areas Using Best Practices</span></span>
@@ -31,7 +31,10 @@ ms.lasthandoff: 09/22/2017
 -   [<span data-ttu-id="d9871-108">Bewährte Einrichtungsmethoden: Lagerabgangsmethode</span><span class="sxs-lookup"><span data-stu-id="d9871-108">Setup Best Practices: Costing Method</span></span>](setup-best-practices-costing-method.md)  
 
 ## <a name="see-also"></a><span data-ttu-id="d9871-109">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="d9871-109">See Also</span></span>  
- <span data-ttu-id="d9871-110">[Designdetails: Vorratsplanung](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="d9871-110">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
- [<span data-ttu-id="d9871-111">Designdetails: Kostenberechnungsmethoden</span><span class="sxs-lookup"><span data-stu-id="d9871-111">Design Details: Costing Methods</span></span>](design-details-costing-methods.md)  
- <span data-ttu-id="d9871-112">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d9871-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+<span data-ttu-id="d9871-110">[Designdetails: Vorratsplanung](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="d9871-110">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
+[<span data-ttu-id="d9871-111">Designdetails: Kostenberechnungsmethoden</span><span class="sxs-lookup"><span data-stu-id="d9871-111">Design Details: Costing Methods</span></span>](design-details-costing-methods.md)  
+<span data-ttu-id="d9871-112">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d9871-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

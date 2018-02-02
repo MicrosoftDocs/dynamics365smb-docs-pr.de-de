@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cea9b7bfe3d0dc0f4e698bc7f933c21affcc0c51
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 429dab626d71c42fe99d84c64ae59365e37c6c54
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="business-process-walkthroughs"></a><span data-ttu-id="9d06f-106">Exemplarische Vorgehensweisen für Geschäftsprozesse</span><span class="sxs-lookup"><span data-stu-id="9d06f-106">Business Process Walkthroughs</span></span>
@@ -43,4 +43,7 @@ ms.lasthandoff: 09/22/2017
 
 ## <a name="see-also"></a><span data-ttu-id="9d06f-140">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="9d06f-140">See Also</span></span>
 <span data-ttu-id="9d06f-141">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9d06f-141">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 
