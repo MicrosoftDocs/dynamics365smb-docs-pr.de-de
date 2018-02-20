@@ -13,36 +13,36 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e5ac1c791b10c26a3cecd20711e7899bb7eaee3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bc323e4dac1b62802e999e2780352634e25e482d
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# So wird's gemacht: Lagerhaltungsdaten einrichten
-Sie können Lagerhaltungsdaten verwenden, um Informationen über Ihre Artikel für einen bestimmten Lagerortcode und/oder einen bestimmten Variantencode zu speichern.  
+# <a name="set-up-stockkeeping-units"></a><span data-ttu-id="f524e-103">Lagerhaltungsdaten einrichten</span><span class="sxs-lookup"><span data-stu-id="f524e-103">Set Up Stockkeeping Units</span></span>
+<span data-ttu-id="f524e-104">Sie können Lagerhaltungsdaten verwenden, um Informationen über Ihre Artikel für einen bestimmten Lagerortcode und/oder einen bestimmten Variantencode zu speichern.</span><span class="sxs-lookup"><span data-stu-id="f524e-104">You can use stockkeeping units to record information about your items for a specific location or a specific variant code.</span></span>  
 
- Lagerhaltungsdaten sind eine Ergänzung zu Artikelkarten. Sie ersetzen sie nicht, obwohl sie mit ihnen verknüpft sind. Lagerhaltungsdaten ermöglichen Ihnen, Informationen über Artikel nach Lagerorten (wie z. B. Lagerhäuser und Vertriebsstellen) oder Varianten (wie z. B. unterschiedliche Regalnummern oder Informationen zur Wiederbestellung) zu unterscheiden.  
+ <span data-ttu-id="f524e-105">Lagerhaltungsdaten sind eine Ergänzung zu Artikelkarten.</span><span class="sxs-lookup"><span data-stu-id="f524e-105">Stockkeeping units are a supplement to item cards.</span></span> <span data-ttu-id="f524e-106">Sie ersetzen sie nicht, obwohl sie mit ihnen verknüpft sind.</span><span class="sxs-lookup"><span data-stu-id="f524e-106">They do not replace them, although they are related to them.</span></span> <span data-ttu-id="f524e-107">Lagerhaltungsdaten ermöglichen Ihnen, Informationen über Artikel nach Lagerorten (wie z. B. Lagerhäuser und Vertriebsstellen) oder Varianten (wie z. B. unterschiedliche Regalnummern oder Informationen zur Wiederbestellung) zu unterscheiden.</span><span class="sxs-lookup"><span data-stu-id="f524e-107">Stockkeeping units allow you to differentiate information about an item for a specific location, such as a warehouse or distribution center, or a specific variant, such as different shelf numbers and different replenishment information, for the same item.</span></span>  
 
-## Lagerhaltungsdaten einrichten:  
+## <a name="to-set-up-a-stockkeeping-unit"></a><span data-ttu-id="f524e-108">Lagerhaltungsdaten einrichten:</span><span class="sxs-lookup"><span data-stu-id="f524e-108">To set up a stockkeeping unit</span></span>  
 
-1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Lagerhaltungsdaten** ein und wählen Sie den zugehörigen Link aus.  
-2.  Wählen Sie die Aktion **Neu** aus.  
-3.  Füllen Sie die Felder der Karte aus. Die folgenden Felder sind obligatorisch: **Artikelnr.**, **Lagerortcode** und/oder **Variantencode**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1.  <span data-ttu-id="f524e-109">Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Lagerhaltungsdaten** ein und wählen Sie den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="f524e-109">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Units**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="f524e-110">Wählen Sie die Aktion **Neu** aus.</span><span class="sxs-lookup"><span data-stu-id="f524e-110">Choose the **New** action.</span></span>  
+3.  <span data-ttu-id="f524e-111">Füllen Sie die Felder der Karte aus.</span><span class="sxs-lookup"><span data-stu-id="f524e-111">Fill in the fields on the card.</span></span> <span data-ttu-id="f524e-112">Die folgenden Felder sind obligatorisch: **Artikelnr.**, **Lagerortcode** und/oder **Variantencode**.</span><span class="sxs-lookup"><span data-stu-id="f524e-112">The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-Nachdem Sie die ersten Lagerhaltungsdaten für einen Artikel eingerichtet haben, ist das Feld **Lagerhaltungsdaten vorhanden** auf der **Artikel**-Karte ausgewählt.  
+<span data-ttu-id="f524e-113">Nachdem Sie die ersten Lagerhaltungsdaten für einen Artikel eingerichtet haben, ist das Feld **Lagerhaltungsdaten vorhanden** auf der **Artikel**-Karte ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="f524e-113">When you have set up the first stockkeeping unit for an item, the **Stockkeeping Unit Exists** check box on the **Item** card is selected.</span></span>  
 
-Um mehrere Lagerhaltungsdaten für einen Artikel anzulegen, verwenden Sie die Stapelverarbeitung **Lagerhaltungsdaten erstellen**.  
+<span data-ttu-id="f524e-114">Um mehrere Lagerhaltungsdaten für einen Artikel anzulegen, verwenden Sie die Stapelverarbeitung **Lagerhaltungsdaten erstellen**.</span><span class="sxs-lookup"><span data-stu-id="f524e-114">To create several stockkeeping units for an item, use the **Create Stockkeeping Unit** batch job.</span></span>  
 
 > [!NOTE]  
->  Die Informationen auf der **Lagerhaltungsdatenkarte** haben eine höhere Priorität als die auf der **Artikelkarte**.  
+>  <span data-ttu-id="f524e-115">Die Informationen auf der **Lagerhaltungsdatenkarte** haben eine höhere Priorität als die auf der **Artikelkarte**.</span><span class="sxs-lookup"><span data-stu-id="f524e-115">The information on the **Stockkeeping Unit** card has priority over the **Item** card.</span></span>  
 
-## Siehe auch  
-[Vorgehensweise: Neue Artikel registrieren](inventory-how-register-new-items.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
-[Logistik](warehouse-manage-warehouse.md)  
-[Lagerbest](inventory-manage-inventory.md)  
-[Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="f524e-116">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f524e-116">See Also</span></span>  
+[<span data-ttu-id="f524e-117">Neue Artikel registrieren</span><span class="sxs-lookup"><span data-stu-id="f524e-117">Register New Items</span></span>](inventory-how-register-new-items.md)  
+[<span data-ttu-id="f524e-118">Lagerortverwaltung einrichten</span><span class="sxs-lookup"><span data-stu-id="f524e-118">Setting Up Warehouse Management</span></span>](warehouse-setup-warehouse.md)  
+[<span data-ttu-id="f524e-119">Logistik</span><span class="sxs-lookup"><span data-stu-id="f524e-119">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  
+[<span data-ttu-id="f524e-120">Lagerbest</span><span class="sxs-lookup"><span data-stu-id="f524e-120">Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="f524e-121">[Montageverwaltung](assembly-assemble-items.md)  </span><span class="sxs-lookup"><span data-stu-id="f524e-121">[Assembly Management](assembly-assemble-items.md)  </span></span>  
+[<span data-ttu-id="f524e-122">Designdetails: Logistik</span><span class="sxs-lookup"><span data-stu-id="f524e-122">Design Details: Warehouse Management</span></span>](design-details-warehouse-management.md)  
+<span data-ttu-id="f524e-123">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f524e-123">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

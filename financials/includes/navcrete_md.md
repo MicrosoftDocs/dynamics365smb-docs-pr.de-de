@@ -28,7 +28,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: d23e500c07e9c94960f94b93020789e2c0377a86
 ms.openlocfilehash: 714ef38fca8135bbd02a08eaf6cfbe7a5e258ef7
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-<span data-ttu-id="b8f0c-101">Microsoft Dynamics NAV 2015</span><span class="sxs-lookup"><span data-stu-id="b8f0c-101">Microsoft Dynamics NAV 2015</span></span>
+<span data-ttu-id="cf5b7-101">Microsoft Dynamics NAV 2015</span><span class="sxs-lookup"><span data-stu-id="cf5b7-101">Microsoft Dynamics NAV 2015</span></span>
