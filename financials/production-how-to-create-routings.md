@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f941625052bea17e524e7150f1a3a957d2916d54
 ms.contentlocale: de-de
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-routings"></a>So wird's gemacht: neue Arbeitspläne erzeugen
+# <a name="create-routings"></a>Routings erstellen
 Produktionsbetriebe verwenden Arbeitspläne, um den Produktionsablauf zu definieren.
 
 Der Arbeitsplan ist auch die Basis für die Prozessplanung, Kapazitätsplanung und zur Dokumentation der Fertigung.  
@@ -28,8 +28,8 @@ Was Fertigungsstücklisten für die Arbeitspläne sind, sind Artikel beim Fertig
 
 Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:  
 
-- Artikelkarten wurden für übergeordnete Artikel erstellt, die an der Fertigung teilnehmen. Weitere Informationen finden Sie unter [Vorgehensweise: Neue Artikel registrieren](inventory-how-register-new-items.md).
-- Die Ressourcen sind eingerichtet. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Arbeitsplatzgruppen und Arbeitsplätzen](production-how-to-set-up-work-and-machine-centers.md)
+- Artikelkarten wurden für übergeordnete Artikel erstellt, die an der Fertigung teilnehmen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
+- Die Ressourcen sind eingerichtet. Weitere Informationen finden Sie unter [Einrichten von Arbeitsplatzgruppen und Arbeitsplätzen](production-how-to-set-up-work-and-machine-centers.md)
 
 ## <a name="to-create-a-routing"></a>So erstellen Sie ein Routing  
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Arbeitspläne** ein. Wählen Sie dann den zugehörigen Link aus.  
@@ -53,13 +53,13 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 12.  Füllen Sie weitere Zeilen für alle Arbeitsgänge aus, die für die Fertigung des betreffenden Artikels erforderlich sind.  
 13.  Wenn Sie aus einem vorhandenen Arbeitsplan kopieren möchten, klicken Sie auf **Arbeitsplan kopieren**, um vorhandene Zeilen auszuwählen.  
 14. Zertifizieren Sie den Arbeitsplan.  
-15. Sie können den neuen Arbeitsplan an die Karte des betreffenden Fertigungsartikels anhängen, indem das Feld **Arbeitsplan-Nr.** ausgefüllt wird. Weitere Informationen finden Sie unter [Vorgehensweise: Neue Artikel registrieren](inventory-how-register-new-items.md).  
+15. Sie können den neuen Arbeitsplan an die Karte des betreffenden Fertigungsartikels anhängen, indem das Feld **Arbeitsplan-Nr.** ausgefüllt wird. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Denken Sie auch daran, den Einstandspreis für den Artikel über die Registerkarte **Artikel** neu zu berechnen: Wählen Sie auf der Registerkarte Navigieren in der Gruppe Artikel die Option **Fertigung** und legen Sie dann Stückl. **Einst.-Preis berechnen** auf **Alle Ebenen** fest.  
 
 ## <a name="to-create-routing-links"></a>So erstellen Sie einen Arbeitsplanlink
-Sie können Arbeitsplanverbindungen von Komponenten mit speziellen Vorgängen erstellen, um deren Zuordnung auch dann beizubehalten, wenn die Fertigungsstückliste oder der Arbeitsplan geändert werden. Außerdem werden Buchungen von Komponenten zeitlich optimiert, und zwar zu Beginn des spezifischen verknüpften Arbeitsgangs und nicht bei Freigabe des Gesamtauftrags. Weitere Informationen finden Sie unter [Vorgehensweise: Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren](production-how-to-flush-components-according-to-operation-output.md).  
+Sie können Arbeitsplanverbindungen von Komponenten mit speziellen Vorgängen erstellen, um deren Zuordnung auch dann beizubehalten, wenn die Fertigungsstückliste oder der Arbeitsplan geändert werden. Außerdem werden Buchungen von Komponenten zeitlich optimiert, und zwar zu Beginn des spezifischen verknüpften Arbeitsgangs und nicht bei Freigabe des Gesamtauftrags. Weitere Informationen finden Sie unter [Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren](production-how-to-flush-components-according-to-operation-output.md).  
 
 Ein weiterer wichtiger Vorteil besteht darin, dass verknüpfte Komponenten und Arbeitsgänge in einer logischen Vorgangsstruktur angezeigt werden, wenn Sie das Fenster **Produktionsprotokoll** für Istmeldungen und Verbrauchsbuchungen verwenden.  
 
@@ -80,14 +80,14 @@ Ein weiterer wichtiger Vorteil besteht darin, dass verknüpfte Komponenten und A
 
     Verbindungscodes werden nun Arbeitsplänen zugeordnet. Als Nächstes müssen Sie die tatsächliche Verbindung erstellen, indem Sie die gleichen Codes spezifischen Komponenten in der entsprechenden Fertigungsstückliste zuordnen.  
 
-6.  Öffnen Sie die **Fertigungsstückliste** mit den Komponenten, die Sie mit den obigen Arbeitsgängen verbinden möchten. Weitere Informationen finden Sie unter [Gewusst wie: Erstellen von Montagestücklisten](production-how-to-create-production-boms.md).
+6.  Öffnen Sie die **Fertigungsstückliste** mit den Komponenten, die Sie mit den obigen Arbeitsgängen verbinden möchten. Weitere Informationen finden Sie unter [Erstellen von Montagestücklisten](production-how-to-create-production-boms.md).
 7.  Stellen Sie sicher, dass der Status der Stückliste **In Entwicklung** ist.  
 8.  Klicken Sie auf der entsprechenden Zeile der Fertigungsstückliste in das Feld **Verbindungscode**, und wählen Sie den Code, den Sie gerade dem entsprechenden Arbeitsgang zugeordnet haben.  
 9. Fahren Sie mit dem Hinzufügen von Verbindungscodes zu anderen Komponenten fort. Dies muss den eindeutigen Arbeitsgängen und deren Verwendung entsprechen.  
 10. Setzen Sie den Status der Fertigungsstückliste auf **Zertifiziert**.  
 
     > [!NOTE]  
-    >  Einen vorhandenen Fertigungsauftrag müssen Sie zuerst aktualisieren, um die Verbindungen aktivieren zu können. Weitere Informationen finden Sie unter [Gewusst wie: Erstellen von Montageaufträgen](production-how-to-create-production-orders.md).  
+    >  Einen vorhandenen Fertigungsauftrag müssen Sie zuerst aktualisieren, um die Verbindungen aktivieren zu können. Weitere Informationen finden Sie unter [Erstellen von Montageaufträgen](production-how-to-create-production-orders.md).  
 
 Die ausgewählten Komponenten werden nun mit den ausgewählten Arbeitsgängen verknüpft, wenn ein Fertigungsauftrag anhand der betreffenden Fertigungsstückliste und des betreffenden Arbeitsplans erstellt oder aktualisiert wird. Dies wird im Fenster **Herstellungsauftragskomponenten** unter im Herstellungsauftrag sichtbar, und von dort können Sie definierte Verbindungscodes jederzeit entfernen und hinzufügen.
 
@@ -119,7 +119,7 @@ Das Versionsprinzip ermöglicht Ihnen, mehrere Versionen eines Arbeitsplans zu v
 Die zeitliche Gültigkeit der Version wird durch das **Startdatum** bestimmt.  
 
 ## <a name="see-also"></a>Siehe auch  
-[So wird's gemacht: Neue Fertigungsstücklisten erzeugen](production-how-to-create-production-boms.md)  
+[Fertigungsauftrag erstellen](production-how-to-create-production-boms.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planung](production-planning.md)   

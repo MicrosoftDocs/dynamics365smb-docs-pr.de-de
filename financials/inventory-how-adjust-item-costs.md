@@ -13,13 +13,13 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 988a13b7e558a50fdf41c4ba97b9fa09ed04828a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-adjust-item-costs"></a>Gewusst wie: Artikelpreise anpassen
+# <a name="adjust-item-costs"></a>Artikelpreise justieren
 Die Kosten eines Artikels (Lagerwert), den Sie ein- und später verkaufen, ändert sich im Laufe der Nutzungsdauer, weil beispielsweise Frachtkosten dem Kaufpreis hinzugefügt werden, nachdem Sie den Artikel verkauft haben. Dies ist insbesondere dann wichtig, wenn Sie Waren verkaufen, bevor der Kauf dieser Waren in Rechnung gestellt wurde. Um immer den richtigen Lagerwert zu kennen, müssen Artikelkosten daher regelmäßig reguliert werden. Dadurch ist sichergestellt, dass die Verkaufs- und Gewinnstatistiken auf dem neuesten Stand sind und die finanziellen Kennziffern korrekt sind. Weitere Informationen finden Sie unter [Designdetails: Kostenanpassung](design-details-cost-adjustment.md)
 
 Als Grundregel gilt, dass der Wert im Feld **Einstandspreis** auf der Artikelkarte für Artikel mit der Lagerabgangsmethode "Standard" auf dem festen Einstandspreis basiert. Für Artikel mit anderen Lagerabgangsmethoden basiert er auf der Berechnung des verfügbaren Lagerbestands (fakturierte und Soll-Kosten), dividiert durch den gezählten Lagerbestand. Weitere Informationen finden Sie im Feld "Lagerwert pro Einheit verstehen".
@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], werden Artikelkosten automatisch
 
 Sie können eine Funktion verwenden, um die Kosten einer oder mehrerer Artikel manuell anzupassen. Dies ist beispielsweise dann nützlich, wenn Sie wissen, dass Sie die Artikelpreise aufgrund anderer Ursachen als Artikeltransaktionen geändert haben.
 
-Artikelkosten werden durch die FIFO- oder die Durchschnittskostenmethode, abhängig von Ihrer Auswahl im unterstützten Setup in **Mein Unternehmen** oder im Feld **Kostenmethode** auf der Artikelkarte unterstützt. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Artikel](inventory-how-register-new-items.md).  
+Artikelkosten werden durch die FIFO- oder die Durchschnittskostenmethode, abhängig von Ihrer Auswahl im unterstützten Setup in **Mein Unternehmen** oder im Feld **Kostenmethode** auf der Artikelkarte unterstützt. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).  
 
 Wenn Sie die FIFO-Kostenmethode verwenden, dass ist der Einstandspreis eines Artikels der tatsächliche Wert jedes Eingangs des Artikels. Bestand wird mit der Annahme bewertet, dass dess erste Artikel im Lager zuerst verkauft wird.
 

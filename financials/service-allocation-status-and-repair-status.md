@@ -13,10 +13,10 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: dcfd5bc10bfd4474b795e9f45c7e219b9936a790
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4020910008e47fdf5a7e4626aa84e0f64cf0905f
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Zuordnungsstatus und Reparaturstatus von Serviceartikeln
@@ -69,7 +69,7 @@ Wenn Sie einen Serviceartikel neu zuordnen, der in einem Zuordnungsposten mit de
 Ein neuer Zuordnungsposten mit dem Zuordnungsstatus **Aktiv** wird erstellt, der die neue Ressource enthält.  
   
 ## <a name="see-also"></a>Siehe auch  
-[Vorgehensweise: Einrichten von Ressourcenzuordnung](service-how-setup-resource-allocation.md)  
-[Gewusst wie<. Ressourcen zuweisen](service-how-to-allocate-resources.md)  
+[Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)  
+[Ressourcen zuordnen](service-how-to-allocate-resources.md)  
 
 

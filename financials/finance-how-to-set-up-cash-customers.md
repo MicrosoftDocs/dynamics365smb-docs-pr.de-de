@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6826c574bf63de70d76a29b45968c68c0b2e2d1f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a72e6ff0a710f2d555c805e4fa28896683a819e9
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cash-customers"></a>Vorgehensweise: Barkunden einrichten
+# <a name="set-up-cash-customers"></a>Barkunden einrichten
 Sie können keine Rechnung ohne Debitorennummer erstellen. Dies trifft auch zu, wenn Sie einen Barverkauf tätigen und kein Debitorenkonto aktualisieren müssen.  
 
 ## <a name="to-set-up-a-cash-customer"></a>So richten Sie Bargelddebitoren ein:  
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Kunde** ein und wählen dann den zugehörigen Link aus.  
-2.  Erstellen Sie eine neue Karte **Debitor**. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Debitoren](sales-how-register-new-customers.md).
+2.  Erstellen Sie eine neue Karte **Debitor**. Weitere Informationen finden Sie unter [Neue Kunden registrieren](sales-how-register-new-customers.md).
 3.  Geben Sie im Feld **Nr.** Geben Sie beispielsweise **Bar** ein.  
 4.  Geben Sie in dem Feld **Name** z. B. **BARVERKAUF** ein.  
 5.  Füllen Sie auf dem Inforegister **Fakturierung** die Felder **Debitorenbuchungsgruppe** und **Geschäftsbuchungsgruppe** aus.  
@@ -38,7 +38,7 @@ Sie können keine Rechnung ohne Debitorennummer erstellen. Dies trifft auch zu, 
 
 ## <a name="see-also"></a>Siehe auch
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
-[Vorgehensweise: Einen neuen Debitor registrieren](sales-how-register-new-customers.md)    
+[Registriert einen neuen Debitor](sales-how-register-new-customers.md)    
 [Finanzen](finance.md)  
 
 

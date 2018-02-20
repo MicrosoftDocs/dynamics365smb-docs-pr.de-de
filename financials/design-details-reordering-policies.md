@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 4ba3826952809c1fc9ed461030da9f56c0874da4
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="design-details-reordering-policies"></a>Designdetails: Wiederbeschaffungsverfahren
-Wiederbeschaffungsverfahren definieren, wie viel zu bestellen ist, wenn der Artikel aufgefüllt werden muss. Es gibt verschiedene Wiederbeschaffungsverfahren.  
+# <a name="design-details-reordering-policies"></a>Designdetails: Wiederbeschaffungsrichtlinien
+Wiederbeschaffungsrichtlinien definieren, wie viel zu bestellen ist, wenn der Artikel aufgefüllt werden muss. Es gibt verschiedene Wiederbeschaffungsverfahren.  
 
 ## <a name="in-this-section"></a>In diesem Abschnitt  
 [Designdetails: Feste Nachbestellmenge](design-details-fixed-reorder-qty.md)  

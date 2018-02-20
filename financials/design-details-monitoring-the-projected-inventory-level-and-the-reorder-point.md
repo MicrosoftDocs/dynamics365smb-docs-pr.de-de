@@ -16,10 +16,10 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: a0e64d96389739c67a9e9f548958fac12e3aca2a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="design-details-monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Designdetails: Überwachen der Ebene des voraussichtlichen Lagerbestands und des Minimalbestands
+# <a name="design-details-monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Designdetails: Überwachen der voraussichtlichen Lagerebene und des Minimalbestands
 Der Bestand ist eine Art Vorrat, jedoch für Bestandsplanung unterscheidet das Planungssystem zwischen zwei Bestandsebenen:  
 
 * Voraussichtlicher Lagerbestand  

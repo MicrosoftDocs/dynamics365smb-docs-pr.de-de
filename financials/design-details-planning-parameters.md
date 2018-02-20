@@ -1,6 +1,6 @@
 ---
 title: 'Designdetails: Planungsparameter | Microsoft Docs'
-description: "Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in Dynamics 365 verwenden können."
+description: "Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in Finance and Operations, Business edition verwenden können."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 335063984ab5d8ef1cbc9187352aa12287f6ade0
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter

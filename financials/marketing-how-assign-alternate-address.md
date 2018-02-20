@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8149c89e2031a7fd44f9942d7aba213158700dc9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e7bac54306953628e8aab21ffab66badf9a1c8fe
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-alternative-addresses-for-contacts"></a>So geht's: Alternative Adressen für Kontakte einrichten
+# <a name="set-up-alternative-addresses-for-contacts"></a>Einrichten einer alternativen Adresse für einen Kontakt
 Sie können Ihren Kontakten alternative Adressen zuordnen, an die Sie manchmal Post und Informationen senden, zum Beispiel an die Urlaubsadresse. Sie können jeder alternativen Adresse einen oder mehrere Datumsbereiche zuordnen, um festzulegen, wann diese Adresse gültig ist.
 
 ## <a name="to-assign-an-alternate-address"></a>So ordnen Sie eine alternative Adresse zu
@@ -41,5 +41,5 @@ Wiederholen Sie diese Schritte, um beliebig viele Gültigkeiten einzurichten.
 
 ## <a name="see-also"></a>Siehe auch
 [Erstellen von Kontaktunternehmen](marketing-create-contact-companies.md)  
-[Arbeiten mit Dynamics 365](ui-work-product.md)
+[Arbeiten mit Finance and Operations, Business edition](ui-work-product.md)
 

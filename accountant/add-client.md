@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 6543eb4210a64802660189e5060975a327d71099
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="add-clients-to-your-dashboard-in-included365acclongincludesd365acclongmdmd"></a>Fügen Sie Ihren Dashboard in [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] Kunden hinzu

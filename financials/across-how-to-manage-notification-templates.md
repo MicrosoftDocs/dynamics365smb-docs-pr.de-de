@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9163bdb48a10d9b36b670e4bc67c696fbade6b37
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67db510085c5a858c88565087683ffeeb4f77bd1
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-notification-templates"></a>Gewusst wie: Verwalten von Benachrichtigungssorlagen
-Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, welche Schritte sie ausführen müssen, oder um sie über den Status von Workflowschritten zu informieren. Sie legen fest, wer wann Benachrichtigungen erhält, indem Sie Genehmigungsbenutzer, einen Benachrichtigungsplan für Benutzer und die entsprechenden Workflowantworten einrichten, um den Benachrichtigungsempfänger zu definieren. Weitere Informationen finden Sie unter  [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md).  
+# <a name="manage-notification-templates"></a>Verwalten von Benachrichtigungsvorlagen
+Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, welche Schritte sie ausführen müssen, oder um sie über den Status von Workflowschritten zu informieren. Sie legen fest, wer wann Benachrichtigungen erhält, indem Sie Genehmigungsbenutzer, einen Benachrichtigungsplan für Benutzer und die entsprechenden Workflowantworten einrichten, um den Benachrichtigungsempfänger zu definieren. Weitere Informationen finden Sie unter [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md).  
 
  Benachrichtigungen basieren auf Vorlagen, die den Inhalt und das Layout der Benachrichtigung definieren. Sie können den Inhalt einer Benachrichtigungsvorlage exportieren, bearbeiten und dann in dieselbe oder eine neue Benachrichtigungsvorlage importieren. Dies wird in den folgenden Verfahren beschrieben.  
 
@@ -76,10 +76,10 @@ Parameterwerte werden entsprechend dem Typ der Benachrichtigungsvorlage automati
 
 ## <a name="see-also"></a>Siehe auch  
  [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)   
- [Gewusst wie: Einrichten von E-Mails](madeira-how-setup-email.md)   
- [So wird's gemacht: Einrichten von Workflowbenutzern](across-how-to-set-up-workflow-users.md)   
- [Gewusst wie: Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md)   
- [So wird's gemacht: Erstellen von Workflows](across-how-to-create-workflows.md)   
+ [E-Mail einrichten](madeira-how-setup-email.md)   
+ [Einrichten von Workflowbenutzern](across-how-to-set-up-workflow-users.md)   
+ [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)   
+ [Erstellen eines Workflows](across-how-to-create-workflows.md)   
  [Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung](admin-job-queues-schedule-tasks.md)   
  [Workflow](across-workflow.md)   
 

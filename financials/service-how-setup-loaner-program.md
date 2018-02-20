@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f57c94523c4a907478dceae182446098cba31dd7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4d2927cb2bc02ecf2c8befde4dcdba141cb371f6
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-loaner-program"></a>Vorgehensweise: Einrichten eines Leihgeräteprogramms
+# <a name="set-up-a-loaner-program"></a>Einrichten eines Leihgeräteprogramms
 Gelegentlich muss einem Debitor ein Leihgerät zur Verfügung gestellt werden, wenn das Kundendienstteam eine Reparatur durchführt. Mithilfe von [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ein Leihgerätprogramm einrichten, Ihren Debitoren Artikel ausleihen, und die Rückgabe der Artikel verfolgen. Darüber hinaus können Sie Bemerkungen über Leihgeräte in einer von zwei Arten hinzuzufügen:  
   
 * Hinweis oder Bemerkung zum Leihgerät selbst eingeben  
@@ -33,7 +33,7 @@ Gelegentlich muss einem Debitor ein Leihgerät zur Verfügung gestellt werden, w
 5. Wählen Sie im Feld **Basiseinheitencode** die relevante Einheit aus.  
   
 ## <a name="see-also"></a>Siehe auch
-[Vorgehensweise: Leihen und Zurücknehmen von Leihgeräten](service-how-to-lend-receive-loaners.md)  
+[Leihen und Zurücknehmen von Leihgeräten](service-how-to-lend-receive-loaners.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Bereitstellen von Service](service-deliver-service.md)  
 

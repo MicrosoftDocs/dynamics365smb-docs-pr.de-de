@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 28ff0073c75136f31153327a70a8f7c0bb9176aa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ccc452db91f7c227e052f60d50f8cc0fdf46fd0
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-warehouse-put-aways"></a>Vorgehensweise: Einlagern von Artikeln mit Lagereinlagerungen
+# <a name="put-items-away-with-warehouse-put-aways"></a>Einlagern von Artikeln mit Lagereinlagerungen
 Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist, verwenden Sie die Funktion Einlagerungsbelege, um die Einlagerung der Artikel zu steuern.  
 
 Wenn Sie eine Einlagerung buchen, werden die Herkunftsbelege, wie Einkaufsbestellung, eingehende Umlagerung oder Verkaufsreklamation aktualisiert, die eingegangene Menge als Artikelposten gebucht und die Zeilen über die eingegangenen Artikel an die Einlagerungsfunktion in der Logistik gesendet. Wenn Sie die interne Einlagerung und Kommissionierung nutzen, kann die interne Einlagerung auch Zeilen zur Einlagerung erzeugen.  
 
-Abhängig von der Logistik-Einrichtung werden die Zeilen entweder im Einlagerungsvorschlag verfügbar gemacht, oder es werden sofort Einlagerungsanweisungen erstellt. Weitere Informationen finden Sie unter [Vorgehensweise: Planen von Einlagerungen in Vorschlägen](warehouse-how-to-plan-put-aways-in-worksheets.md).  
+Abhängig von der Logistik-Einrichtung werden die Zeilen entweder im Einlagerungsvorschlag verfügbar gemacht, oder es werden sofort Einlagerungsanweisungen erstellt. Weitere Informationen finden Sie unter [Kommissionierungen im Vorschlag bearbeiten](warehouse-how-to-plan-put-aways-in-worksheets.md).  
 
 Zusätzlich zu den Standardoptionen für das Erstellen von Lagereinlagerungen, die in diesem Thema beschrieben werden, können Sie die Einlagerung im zugehörigen gebuchten Wareneingang erstellen. Dies ist nützlich, wenn Sie die Einlagerungszeilen gelöscht haben, oder wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden und sich entschieden haben, den Einlagerungsvorschlag nicht zu verwenden, da Sie Einlagerungsanweisungen aus gebuchte Wareneingangszeilen folgendermaßen erstellen oder wiedererstellen können.  
 
@@ -56,7 +56,7 @@ Zusätzlich zu den Standardoptionen für das Erstellen von Lagereinlagerungen, d
 
 An Lagerorten, die für die Verwendung der gesteuerten Einlagerung und Kommissionierung eingerichtet sind, sind die folgenden Einstellungen Voraussetzungen für das obige Verfahren:  
 
-- So richten Sie eine Einlagerungsmethode ein: Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Einlagerungsvorlagen](warehouse-how-to-set-up-put-away-templates.md).  
+- So richten Sie eine Einlagerungsmethode ein: Weitere Informationen finden Sie unter [Einrichten von Aktivitätvorlagen](warehouse-how-to-set-up-put-away-templates.md).  
 - Das Gewicht, Volumen und spezielle Lagerungsanforderungen des Artikels oder der Lagerhaltungsdaten werden festgelegt. Weitere Informationen finden Sie unter Bruttogewicht  
 - Die Kapazität, die Lagerplatzart und die Lagerplatzpriorität. Weitere Informationen finden Sie unter Lagerplatzpriorität.  
 

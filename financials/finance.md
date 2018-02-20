@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="finance"></a>Finanzen
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
 
 Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter gestalten.  
 
@@ -37,19 +37,19 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 |Verwalten von Lager- und Fertigungskosten, Melden von Kosten und Abstimmen von Kosten mit der Finanzbuchhaltung|[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)|
 | Entwickeln Sie ein Verständnis für die Finanzbuchhaltung und den Kontenplan |[Verständnis der Fibu und des COA](finance-general-ledger.md) |
 | Fügen Sie Dimensionen für umfangreichere Business Intelligence hinzu. |[Arbeiten mit Dimensionen](finance-dimensions.md) |
-| Erstellen Sie Sachkonto-Budgets, um verschiedene Finanzaktivitäten zu prognostizieren und Dimensionen zu den einzelnen Intelligence-Zwecken zuzuordnen. |[So wird's gemacht: neue Sachkonten-Budgets erzeugen](finance-how-create-budgets.md) |
-|Erfassen von Umsatz oder Ausgaben direkt in der Finanzbuchhaltung, ohne dedizierte Unternehmensbelege zu buchen.|[Vorgehensweise: Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)|
-|Buchen Sie das Stornieren von Posten, um wertmäßige Buchungen im Fibu Buch.-Blatt oder Warenausgänge in einem Einkaufs- oder Verkaufsbeleg zu stornieren. |[So geht's: Buchungen stornieren](finance-how-reverse-journal-posting.md)|
-|Verteilen eines Postens in einem wiederkehrenden Buch.-Blatt auf mehrere Konten beim Buchen des Buch.-Blatts |[Erklärt, wie Kosten und Einnahmen zugewiesen werden.](year-allocate-costs-income.md) |
-| Weisen Sie zusätzliche Kosten, wie Fracht und Bewegung, die Sie im Zuge des Handels verursachen, mit den einbezogenen Artikel an, für die Kosten in der Lagerbewertung widergespiegelt werden. |[Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md) |
-|Erstatten Sie Mitarbeitern persönliche Ausgaben für die Geschäftsaktivitäten zurück, indem Sie Zahlung zu dem Bankkonto vornehmen.|[Vorgehensweise: Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen](finance-how-record-reimburse-employee-expenses.md)|
-| Erkennen Sie Einnahmen und Ausgaben in anderen Perioden die Transaktionen gebucht wurden. |[Gewusst wie: Einnahmen und Ausgaben zurückstellen](finance-how-defer-revenue-expenses.md)|
-|Erfahren Sie, wie Sie zusätzliche Währungen verwenden und Wechselkurse automatisch aktualisieren. |[Vorgehensweise: Aktualisieren von Währungswechselkursen](finance-how-update-currencies.md)|
-| Importieren Sie Gehaltstransaktionen von Ihrem Gehaltsabrechnungsanbieter in die Finanzbuchhaltung. |[Vorgehensweise: Lohntransaktion importieren](finance-how-import-payroll-transactions.md)|
+| Erstellen Sie Sachkonto-Budgets, um verschiedene Finanzaktivitäten zu prognostizieren und Dimensionen zu den einzelnen Intelligence-Zwecken zuzuordnen. |[Sachkontenbudgets erstellen](finance-how-create-budgets.md) |
+|Erfassen von Umsatz oder Ausgaben direkt in der Finanzbuchhaltung, ohne dedizierte Unternehmensbelege zu buchen.|[Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)|
+|Buchen Sie das Stornieren von Posten, um wertmäßige Buchungen im Fibu Buch.-Blatt oder Warenausgänge in einem Einkaufs- oder Verkaufsbeleg zu stornieren. |[Buchungen stornieren](finance-how-reverse-journal-posting.md)|
+|Verteilen eines Postens in einem wiederkehrenden Buch.-Blatt auf mehrere Konten beim Buchen des Buch.-Blatts |[Kosten und Einkünfte zuteilen](year-allocate-costs-income.md) |
+| Weisen Sie zusätzliche Kosten, wie Fracht und Bewegung, die Sie im Zuge des Handels verursachen, mit den einbezogenen Artikel an, für die Kosten in der Lagerbewertung widergespiegelt werden. |[Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md) |
+|Erstatten Sie Mitarbeitern persönliche Ausgaben für die Geschäftsaktivitäten zurück, indem Sie Zahlung zu dem Bankkonto vornehmen.|[Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen](finance-how-record-reimburse-employee-expenses.md)|
+| Erkennen Sie Einnahmen und Ausgaben in anderen Perioden die Transaktionen gebucht wurden. |[Einnahmen und Ausgaben zurückstellen](finance-how-defer-revenue-expenses.md)|
+|Erfahren Sie, wie Sie zusätzliche Währungen verwenden und Wechselkurse automatisch aktualisieren. |[Währungswechselkurse aktualisieren](finance-how-update-currencies.md)|
+| Importieren Sie Gehaltstransaktionen von Ihrem Gehaltsabrechnungsanbieter in die Finanzbuchhaltung. |[Lohntransaktionen importieren](finance-how-import-payroll-transactions.md)|
 | Überwachen Sie den Ablauf des Bargeldes für Ihr Unternehmen. |[Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md) |
 | Arbeiten mit Finanzberichten und -übersichten in Excel. |[Analysieren von Finanzauswertungen in Excel](finance-analyze-excel.md) |
 | Bereiten Sie den Abschluß eines Geschäftsjahres oder eines -zeitraums vor. |[Beenden von Jahresabschluss und Perioden](year-close-years-periods.md) |
-|Erfahren Sie, wie Sie einen Bericht erstellen, der die MwSt aus Verkäufen in einer Zeilenliste in einer Periode darstellt, und übermitteln Sie den Bericht an die Behörden in der EU. | [So gehts: Melden von MwSt. an die Steuerbehörden](finance-how-report-vat.md)|
+|Erfahren Sie, wie Sie einen Bericht erstellen, der die MwSt aus Verkäufen in einer Zeilenliste in einer Periode darstellt, und übermitteln Sie den Bericht an die Behörden in der EU. | [Melden von MwSt. an die Steuerbehörden](finance-how-report-vat.md)|
 
 ## <a name="see-also"></a>Siehe auch
 [Finance einrichten](finance-setup-finance.md)  
@@ -61,5 +61,6 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

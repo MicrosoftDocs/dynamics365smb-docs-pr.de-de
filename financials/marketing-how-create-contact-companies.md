@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed0f75f1e0ee8a282b58458e4fed3b4eef7c46fb
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-companies"></a>Gewusst wie: Erstellen von neuen Kontaktunternehmen
+# <a name="create-contact-companies"></a>Erstellen von Kontaktunternehmen
 Sie können für jedes neue Unternehmen, mit dem Sie Geschäfte machen, eine Kontaktkarte anlegen. Das können z. B. Debitoren, Kreditoren, Interessenten, Banken, Rechtsanwälte, Berater usw. sein.
 
 Es gibt zwei Möglichkeiten, um einen Kontakt zu erstellen: von Grund auf neu oder aus einem bestehenden Debitor, Kreditor oder Bankkonto.
@@ -58,6 +58,6 @@ Wenn Sie bereits eine Anzahl von Debitoren, Kreditoren und Bankkonten eingericht
 [Kontakten Geschäftsbeziehungen zuordnen](marketing-business-relations.md#AssignBusRelContact)  
 [Kontakt eine Branche zuordnen](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Zuordnen von Verteiler zu einem Kontakt](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Gewusst wie: Anlegen neuer Kontaktpersonen](marketing-create-contact-persons.md)  
-[Arbeiten mit Dynamics 365](ui-work-product.md)
+[Anlegen von Kontaktpersonen](marketing-create-contact-persons.md)  
+[Arbeiten mit Finance and Operations, Business edition](ui-work-product.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 08/23/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 338fc294813487438073391495035d40635f9202
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ad29dddb5a3dac2063e06fd973f1e41dc51d08a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Erfüllen von Serviceverträgen 
@@ -29,12 +29,12 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
 |Einen Serviceartikel unter verschiedenen Verträgen berücksichtigen. | [Mehrere Verträge](service-multiple-contracts.md)|  
-|Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot.| [Vorgehensweise: Erstellen von Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
-|Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder Vertragsangebots ändern, um den jährlich fakturierten Betrag zu korrigieren.|[Vorgehensweise: Ändern des Betrags "Zu fakturieren (Jahr)" von Serviceverträgen oder Vertragsangeboten](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
+|Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot.| [Erstellen von Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
+|Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder Vertragsangebots ändern, um den jährlich fakturierten Betrag zu korrigieren.|[Ändern des jährlihchen Betrags für Serviceverträgen oder Vertragsangebote](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
 
 ## <a name="see-also"></a>Siehe auch
 [Planungsservice](service-plan-service.md)  
 [Bereitstellen von Service](service-deliver-service.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
-[Vorgehensweise: Erstellen von Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Erstellen von Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 

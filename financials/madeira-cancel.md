@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business edition stornieren | Microsoft Docs
-description: Beschreibt, wie Ihr Dynamics 365 Business edition for Financials storniert werden kann.
+title: Finance and Operations, Business edition  | Microsoft Docs stornieren
+description: Beschreibt, wie Ihr Finance and Operations, Business edition storniert werden kann.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 384131512a815743db7ae654542b0e7ee70bf64a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4527b40a22ccd12f3fbbeb78c03c8109a8dd0707
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="unsubscribe-remove-or-reset-included365finlongincludesd365finlongmdmd"></a>Sie kündigen, entfernen, oder setzen [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] zurück
+# <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Sie kündigen, entfernen, oder setzen [!INCLUDE[d365fin](includes/d365fin_md.md)] zurück
 Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] registriert haben, können Sie Ihr Abonnement jederzeit beenden. Ebenso können Sie Unternehmen zurückzusetzen, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden. Für eine schnelle Übersicht [[!INCLUDE[d365fin](includes/d365fin_md.md)] Blog](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Entfernen von [!INCLUDE[d365fin](includes/d365fin_md.md)] aus Ihrer Office 365 Umgebung

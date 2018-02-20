@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard, accountant
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 021ca5cebb5de3357a36c802a725d806c592e40f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 419c13f4d7b35f66fae04d71d269208d9c172613
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="welcome-to-included365acclongincludesd365acclongmdmd"></a>Willkommen bei [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
@@ -26,7 +26,7 @@ Wenn Sie ein Buchhalter mit mehreren Clients sind, können Sie das [!INCLUDE[d36
 
 Sie können Zugriff auf [!INCLUDE[d365acc](includes/d365acc_md.md)] erhalten, indem Sie sich aus [Dynamics 365 – Accountant Hub auf Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) heraus registrieren. Es ist kostenlos, der Anfang ist schnell gemacht und Ihre Kunden werden dem Dashboard schnell hinzugefügt. Weitere Informationen finden Sie unter [Erste Schritte mit Accountant Hub](get-started.md).  
 
-In der aktuellen Version von [!INCLUDE[d365acc](includes/d365acc_md.md)] können Sie Kunden hinzufügen, die für ihre Geschäfte [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] verwenden.  
+In der aktuellen Version von [!INCLUDE[d365acc](includes/d365acc_md.md)] können Sie Kunden hinzufügen, die für ihre Geschäfte [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verwenden.  
 
 ## <a name="see-also"></a>Siehe auch
 [Microsoft Dynamics 365 Dokumentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  

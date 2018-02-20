@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 701282909208c36b0ba546c1a15ca27afdbf447c
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Vorbereiten, Kontakte einzurichten
@@ -31,11 +31,11 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 | An | Siehe |
 | --- | --- |
 | Einrichten der Geschäftsbeziehung zu Kontakten – beispielsweise Interessent, Bank, Berater oder Dienstleister |[Einrichten von Geschäftsbeziehungen für Kontaktunternehmen](marketing-business-relations.md) |
-| Einrichten der Branche, zu der die Kontakte gehören – beispielsweise Einzelhandelsbranche oder Automobilbranche |[Vorgehensweise: Einrichten von Branchen für Kontaktunternehmen](marketing-industry-groups.md) |
-| Einrichten von Verteilern zum Identifizieren von Kontaktgruppen, denen die gleichen Informationen zugehen sollen |[Vorgehensweise: Einrichten von Versandgruppen für Kontaktunternehmen](marketing-mailing-groups.md) |
+| Einrichten der Branche, zu der die Kontakte gehören – beispielsweise Einzelhandelsbranche oder Automobilbranche |[Einrichten von Branchen für Kontaktunternehmen](marketing-industry-groups.md) |
+| Einrichten von Verteilern zum Identifizieren von Kontaktgruppen, denen die gleichen Informationen zugehen sollen |[Einrichten von Verteilern für Kontaktunternehmen](marketing-mailing-groups.md) |
 | Einrichten der Verantwortlichkeiten von Kontaktpersonen |[Einrichten von Verantwortlichkeiten für Kontakte](marketing-job-responsibilities.md) |
-| Einrichten der gewünschten Positionen für Kontaktpersonen |[Vorgehensweise: Positionen für Kontakte einrichten](marketing-organizational-levels.md) |
-| Einrichten von Internetfavoriten (Suchmaschinen und Websites), die für die Internetrecherche von Kontaktinformationen verwendet werden können |[Vorgehensweise: Internetquellen für Kontakte einrichten](marketing-web-sources.md) |
+| Einrichten der gewünschten Positionen für Kontaktpersonen |[Positionen für Kontakte einrichten](marketing-organizational-levels.md) |
+| Einrichten von Internetfavoriten (Suchmaschinen und Websites), die für die Internetrecherche von Kontaktinformationen verwendet werden können |[Internetfavoriten für Kontakte einrichten](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Kontakte verwalten](marketing-contacts.md)  

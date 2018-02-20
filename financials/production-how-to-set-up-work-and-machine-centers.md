@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Vorgehensweise: Arbeitsplätze und Arbeitsplatzgruppen einrichten
+# <a name="set-up-work-centers-and-machine-centers"></a>Arbeitsplätze und Arbeitsplatzgruppen einrichten
 Die Anwendung unterscheidet zwischen drei verschiedenen Arten von Kapazitätseinheiten. Diese sind hierarchisch angeordnet. Jede Ebene enthält die untergeordneten Ebenen.  
 
 Die oberste Ebene ist die Abteilung. Arbeitsplatzgruppen werden den Abteilungen zugeordnet. Jede Arbeitsplatzgruppe gehört zu einer Abteilung.
@@ -28,7 +28,7 @@ Sie können unterschiedliche Arbeitsplätze zu einer Arbeitsplatzgruppe zusammen
 
 Die geplante Kapazität einer Arbeitsplatzgruppe besteht aus der Verfügbarkeit der entsprechenden Arbeitsplätze und der zusätzlichen geplanten Verfügbarkeit der Arbeitsplatzgruppe. Die geplante Verfügbarkeit der Abteilung ist die Summe aller Verfügbarkeiten der entsprechenden Arbeitsplätze und Arbeitsplatzgruppen.  
 
-Die Verfügbarkeit wird in Kalenderposten gespeichert. Bevor Sie anfangen oder Arbeitsplätze einrichten, müssen Sie Betriebskalender einrichten. Weitere Informationen finden Sie unter [Gewusst wie: Erstellen von Betriebskalendern](production-how-to-create-work-center-calendars.md).  
+Die Verfügbarkeit wird in Kalenderposten gespeichert. Bevor Sie anfangen oder Arbeitsplätze einrichten, müssen Sie Betriebskalender einrichten. Weitere Informationen finden Sie unter [Erstellen von Betriebskalendern](production-how-to-create-work-center-calendars.md).  
 
 ## <a name="to-set-up-a-work-center"></a>Um Arbeitsplatzgruppen einzurichten:
 Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerichtet wird. Die Schritte, um ein Arbeitsplatzkalenders einzurichten außer für das **Arbeitsplatz-Einrichtung** Inforegister.  
@@ -37,7 +37,7 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 2.  Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Wählen Sie im Feld **Abteilung** die übergeordnete Ebene, unter der sich die Arbeitsplatzgruppe befindet, sofern relevant. Wählen Sie aus der Dropdown-Liste die Aktion **Neu** aus.  
-5.  Wählen Sie das Feld **Gesperrt** aus, wenn Sie verhindern möchten, dass die Arbeitsplatzgruppe bei einer Verarbeitung verwendet wird. Das bedeutet, dass die Ausgabe für einen Artikel nicht gebucht werden kann, der für die Arbeitsplatzgruppe gefertigt wird. Weitere Informationen finden Sie unter [Gewusst wie: Erstellen von Montagestücklisten](production-how-to-post-output-quantity.md).
+5.  Wählen Sie das Feld **Gesperrt** aus, wenn Sie verhindern möchten, dass die Arbeitsplatzgruppe bei einer Verarbeitung verwendet wird. Das bedeutet, dass die Ausgabe für einen Artikel nicht gebucht werden kann, der für die Arbeitsplatzgruppe gefertigt wird. Weitere Informationen finden Sie unter [Erstellen von Montagestücklisten](production-how-to-post-output-quantity.md).
 6.  Geben Sie im Feld **EK-Preis** die Kosten der Fertigung einer Einheit in dieser Arbeitsplatzgruppe ein, ausschließlich aller anderen Kostenelemente. Diese Kosten werden häufig als *direkte Arbeitskosten* bezeichnet.  
 7.  Geben Sie im Feld **Kosten %** die Gesamtkosten des Einsatzes der Arbeitsplatzgruppe als Prozentsatz des EK-Preises ein. Dieser prozentuale Betrag wird in der Berechnung des Einstandspreises zum EK-Preis addiert.  
 8.  Geben Sie im Feld **Gemeinkostensatz** die nicht mit dem eigentlichen Betrieb verbundenen Kosten für die Arbeitsplatzgruppe (z. B. Wartungsausgaben) als absoluten Betrag ein.  
@@ -68,7 +68,7 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 13.  Geben Sie im Feld **Kapazität** an, ob in der Arbeitsplatzgruppe mehrere Personen bzw. Maschinen gleichzeitig eingesetzt werden. Wenn in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Installation das Element "Arbeitsplatz" nicht enthalten ist, muss in diesem Feld der Wert **1** festgelegt sein.  
 14.  Geben Sie im Feld **Effektivität** an, wie hoch die tatsächliche Effektivität der Arbeitsplatzgruppe prozentual hinsichtlich der erwarteten Standardeffektivität ist. Wenn Sie **100** eingeben, bedeutet dies, dass die Isteffektivität der Arbeitsplatzgruppe mit der Standardeffektivität übereinstimmt.  
 15. Wählen Sie das Kontrollkästchen **Konsolidierter Kalender**, wenn Sie auch Arbeitsplätze verwenden. Dadurch ist sichergestellt, dass Kalenderposten oben aus den Arbeitsplatzkalendern ermittelt werden.  
-16.  Wählen Sie im Feld **Betriebskalender** einen Einkaufskalender. Weitere Informationen finden Sie unter [Gewusst wie: Erstellen von Betriebskalendern](production-how-to-create-work-center-calendars.md).  
+16.  Wählen Sie im Feld **Betriebskalender** einen Einkaufskalender. Weitere Informationen finden Sie unter [Erstellen von Betriebskalendern](production-how-to-create-work-center-calendars.md).  
 17.  Geben Sie im Feld **Warteschlangenzeit** eine feste Zeitspanne an, die ablaufen muss, bevor die zugewiesenen Arbeiten in dieser Arbeitsplatzgruppe begonnen werden können. Beachten Sie, dass die Warteschlangenzeit auf die anderen nicht fertigungsbezogenen Zeitelemente wie Wartezeit und Transportzeit aufgeschlagen wird, die sie für Arbeitsgänge in dieser Arbeitsplatzgruppe definieren können.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Beispiel - unterschiedliche Arbeitsplätze, die einer Arbeitsplatzgruppe zugewiesen sind
@@ -83,7 +83,7 @@ Wenn die Kapazität von Arbeitsplätzen keinen Beitrag zur Gesamtkapazität leis
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>So wird ein in der Kapazität eingeschränkter Arbeitsplatz oder Arbeitsplatzgruppe eingerichtet
 Sie müssen die Produktionsressourcen einrichten, die Sie als kritisch betrachten, damit diese nur eine Auslastung bis zu einer Kapazitätsgrenze annimmt, anstelle der Standardeinstellung ohne Kapazitätsgrenze, die andere Produktionsressourcen annehmen. Eine Ressource mit eingeschränkter Kapazität kann eine Arbeitsplatzgruppe oder ein Arbeitsplatz sein, den Sie als Flaschenhals erkannt haben und dessen Auslastung Sie deshalb begrenzen möchten.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt keine ausführliche Fertigungsbereichssteuerung. Planung einer durchführbaren Nutzung von Ressourcen durch Bereitstellung eines Rohschnittzeitplans, jedoch keine automatische Erstellung und Verwaltung von detaillierten Plänen, die auf Prioritäten oder Optimierungsregeln basieren.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt keine ausführliche Fertigungsbereichssteuerung. Planung einer durchführbaren Nutzung von Ressourcen durch Bereitstellung eines Rohschnittzeitplans, jedoch keine automatische Erstellung und Verwaltung von detaillierten Plänen, die auf Prioritäten oder Optimierungsregeln basieren.
 
 Im Fenster **Ressourcen mit eingeschränkter Kapazität** können Sie ein Setup vornehmen, das eine Überladung bestimmter Ressourcen verhindert und sicherstellt, dass keine Kapazität unzugewiesen bleibt, wenn dies die Durchlaufzeit eines Fertigungsauftrags erhöhen könnte. Im Feld **Toleranz (% der gesamten Kapazität)** können Sie eine Toleranzperiode zu Ressourcen hinzufügen, um die Aufspaltung von Arbeitsgängen zu minimieren. Dies ermöglicht dem System, Auslastung am letzten möglichen Tag zu planen, indem es den kritischen Auslastungsprozentsatz etwas überschreitet, wenn dies die Anzahl der Arbeitsgänge verringern kann, die aufgeteilt werden.
 
@@ -99,7 +99,7 @@ Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, das
 > Im Falle der Teilung des Arbeitsgangs wird die Rüstzeit nur einmal zugeordnet, da davon ausgegangen wird, dass einige manuelle Ausgleiche vorgenommen werden, um den Plan zu optimieren.
 
 ## <a name="see-also"></a>Siehe auch  
-[So wird's gemacht: Einkaufskalender einrichten](production-how-to-create-work-center-calendars.md)  
+[Einkaufskalender einrichten](production-how-to-create-work-center-calendars.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planung](production-planning.md)   

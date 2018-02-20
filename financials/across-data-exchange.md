@@ -1,6 +1,6 @@
 ---
-title: Elektronische Dokumente in Dynamics 365 Business edition  | Microsoft Docs
-description: "Einführung zum Senden und Empfang von elektronischen Dokumenten in Dynamics 365."
+title: Elektronishce Dokumente in Finance and Operations, Business edition  | Microsoft Docs
+description: "Einführung zum Senden und Empfanglen von elektronischen Belegen in Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: dca451d2555641dc1c1fc134b19380b3ede2690b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2ebc2e716080bde51646cb136dca904e6fd43c43
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -58,7 +58,7 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 
 ## <a name="see-also"></a>Siehe auch  
 [Über das Datenaustauschframework](across-about-the-data-exchange-framework.md)  
-[Gewusst wie: Verwenden von XML-Schemata zur Vorbereitung von Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)  
 [Austausch von Daten](across-exchange-data.md)  
 [Eingehende Belege](across-income-documents.md)  

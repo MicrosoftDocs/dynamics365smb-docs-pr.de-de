@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 208c49d0f86ae0a3c8ef4db8008fa2995f77e674
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2bb49ed17db6a4b6f7eafef76c9109e2652fa76b
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-persons"></a>Gewusst wie: Anlegen neuer Kontaktpersonen
+# <a name="create-contact-persons"></a>Anlegen von Kontaktpersonen
 Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unternehmen arbeitet, mit dem Sie Geschäfte machen. Für jedes Kontaktunternehmen können Sie beliebig viele Kontaktpersonen eingeben. Außerdem können Sie Kontaktkarten für die Personen erstellen, die Sie als unabhängig speichern möchten.
 
 > [!TIP]  
@@ -40,8 +40,8 @@ Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unterne
 ## <a name="see-also"></a>Siehe auch
 [Marketing & Vertrieb einrichten](marketing-setup-marketing.md)  
 [Versandgruppen einem Kontakt zuweisen](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Vorgehensweise: Einrichten von Verantwortlichkeiten für Kontakte](marketing-job-responsibilities.md)  
-[Vorgehensweise: Einrichten von Position für Kontaktpersonen](marketing-organizational-levels.md)  
+[Einrichten von Verantwortlichkeiten für Kontakte](marketing-job-responsibilities.md)  
+[Einrichten von Position für Kontaktpersonen](marketing-organizational-levels.md)  
 [Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Arbeiten mit Dynamics 365](ui-work-product.md)  
+[Arbeiten mit Finance and Operations, Business edition](ui-work-product.md)  
 

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
 ms.openlocfilehash: cdfb96475c46d56f32e5f0133efc7852a10ae446
 ms.contentlocale: de-de
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-availability"></a>Designdetails: Artikelverfolgungsverfügbarkeit

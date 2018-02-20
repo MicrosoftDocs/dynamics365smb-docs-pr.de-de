@@ -11,15 +11,15 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d7bcb866d5f69e77e5a175d0b73e8ac03cf09d98
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3ee160e2c38107aea1342b51d729aa172bbbc3e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# <a name="how-to-create-a-sandbox-environment"></a>Vorgehensweise: Erstellen Sie eine Sandkastenumgebung.
+# <a name="create-a-sandbox-environment"></a>Erstellen Sie eine Sandkastenumgebung
 Eine Sandboxumgebung (Vorschau) ist eine Nichtvorlegungsinstanz von[!INCLUDE[d365fin](includes/d365fin_md.md)]. Isoliert von der Produktion ist eine Sandboxumgebung der Ort, um den Dienst sicher zu untersuchen, erfahren, testen und entwickeln, ohne das Risiko des Beeinflussens der Daten und Einstellungen Ihrer Fertigungsumgebungen zur riskieren.
 
 ## <a name="to-create-a-sandbox-environment"></a>Erstellen Sie eine Sandkastenumgebung
@@ -44,7 +44,7 @@ In der Sandboxumgebung wurde ein neuer Tenant erstellt. Dieser Tenant wird mit V
 > [!NOTE]  
 >  Das Zurücksetzen der Sandkastenmgebung, wird sie komplett entfernen und dann wieder erstellt mit den Vorgabe-Demodaten.  
 
-8.  Um zwischen Produktions- und Sandkastenumgebung zu wechseln, können Sie das App-Startprogramm Dynamics 365 verwenden.
+8.  Um zwischen Produktions- und Sandkastenumgebung zu wechseln, können Sie das App-Startprogramm Finance and Operations, Business edition verwenden.
 ![Sandkasten Dynamics365 Menü](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.  Es ist für einen Administrator oder einen anderen Benutzer möglich, den Zugriff für mehrere Benutzer auf der Sandkastenumgebung herzustellen oder zu sperren. Dies kann geschehen, indem die Standardsicherheitsfunktionen des Produkts, wie die Benutzerkarte, der Benutzergruppen und die Zugriffsrechtsätze verwendet wird.

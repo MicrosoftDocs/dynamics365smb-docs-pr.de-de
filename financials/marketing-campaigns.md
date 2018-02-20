@@ -1,6 +1,6 @@
 ---
-title: Marketingkampagnen in Dynamics 365 einrichten | Microsoft Docs
-description: "Beschreibt, wie Sie Marketingkampagnen in Dynamics 365 einrichten und ausführen, um potenzielle Kunden zu identifizieren und Kunden zu behalten."
+title: E-Mail in Marketing Campaigns in Finance and Operations, Business edition  | Microsoft Docs einrichten
+description: "Beschreibt, wie Sie Marketingkampagnen in Finance and Operations, Business edition einrichten und ausführen, um potenzielle Kunden zu identifizieren und Kunden zu behalten."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4ca4fc6eee45c69be3de746ce1d799a481d7ea48
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Verwaltung von Marketingkampagnen
 Der Einsatz eines fundierten Marketingplans ermöglicht das Erkennen, Gewinnen und Binden von Debitoren. Ein Marketingplan setzt sich aus mehreren Kampagnen und anderen Aktivitäten rund um Ihre Verkaufs- und Marketingaktivitäten zusammen. Beim Planen einer Kampagne müssen Sie entscheiden, welche Kontakte Sie ansprechen möchten, welche Art von Kampagne (beispielsweise Messe oder Direktwerbung) Sie erstellen möchten und welche Verkäufer die einzelnen Aufgaben ausführen sollen.
 
-Jede Kampagne besteht aus unterschiedlichen Aktionen oder Aufgaben. Sie können mehrere Aufgabe, zum Beispiel Tätigkeiten kombinieren, die jede einen Schritt darstellen in den Aktivitäten. Alle Schritte innerhalb einer Aktion sind durch ein Datenformular miteinander verbunden. Optionen können nur einzelnen Verkäufern zugewiesen werden. Aktivitäten können Verkaufschancen, Verkäufer, Gruppen von Vertriebsmitarbeitern und den Kontakten zugeordnet werden. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Jede Kampagne besteht aus unterschiedlichen Aktionen oder Aufgaben. Sie können mehrere Aufgabe, zum Beispiel Tätigkeiten kombinieren, die jede einen Schritt darstellen in den Aktivitäten. Alle Schritte innerhalb einer Aktion sind durch ein Datenformular miteinander verbunden. Optionen können nur einzelnen Verkäufern zugewiesen werden. Aktivitäten können Verkaufschancen, Verkäufer, Gruppen von Vertriebsmitarbeitern und den Kontakten zugeordnet werden. Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Einzelkampagne definieren
 Damit eine Kampagne erstellt werden kann, müssen *Codes für den Kampagnenstatus* eingerichtet werden. Diese Codes vereinfachen das Verwalten der Kampagnen, indem der Kampagne ein Status zugeordnet wird. So können Sie den aktuellen Status der Kampagne sowie den nächsten Schritt der Kampagne ablesen, während die einzelnen Phasen einer Kampagne durchlaufen werden. Sie können Kampagnenstatuscodes im Fenster **Kampagnenstatus** einrichten.
@@ -39,16 +39,16 @@ Nachdem Sie Ihre Kampagne eingerichtet haben, entschieden haben, welche Segmente
 > [!NOTE]  
 >   Um die Verkaufspreise/Zeilenrabatte zu aktivieren, müssen Sie das gesamte Segment oder nur einzelne Kontakte für die Kampagne markieren. Wenn die Verkaufspreise/Zeilenrabatte für alle Kontakte des Segments gelten sollen, wählen Sie im Fenster **Segment** auf dem Inforegister **Kampagne** das Feld **Kampagnenziel** aus.
 
-Wenn die Verkaufspreise/Zeilenrabatte nicht für alle Kontakte des Segments gelten sollen, können Sie das Feld **Kampagnenziel** für die relevanten Kontakte. Wenn Sie dieses Feld nicht sehen, können Sie es zur Ansicht hinzuzufügen. Weitere Informationen finden Sie unter [Benutzer-Personalisierung](ui-user-personalization.md).
+Wenn die Verkaufspreise/Zeilenrabatte nicht für alle Kontakte des Segments gelten sollen, können Sie das Feld **Kampagnenziel** für die relevanten Kontakte. Wenn Sie dieses Feld nicht sehen, können Sie es zur Ansicht hinzuzufügen. Weitere Informationen finden Sie unter [Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Kampagnen durchführen
 Während der gesamten Laufzeit der Kampagne werden alle Interaktionen mit den Kontakten bzw. mit dem Segment erfasst. Dadurch können Sie oder andere Gruppen eine Kampagne anzeigen und statistische oder andere Informationen zu Kosten und Erfolgsraten der Kampagne abrufen.
 
-Kampagnen werden vom Verkäufer geleitet werden, und Sie müssen Aktivitäten erstellen, um jede Aufgabem anzuzeigen und dem entsprechende Verkäufer zuzuordnen. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Kampagnen werden vom Verkäufer geleitet werden, und Sie müssen Aktivitäten erstellen, um jede Aufgabem anzuzeigen und dem entsprechende Verkäufer zuzuordnen. Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Kontakte verwalten](marketing-contacts.md)  
 [Verwalten von Segmenten](marketing-segments.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
-[Arbeiten mit Dynamics 365](ui-work-product.md)  
+[Arbeiten mit Finance and Operations, Business edition](ui-work-product.md)  
 

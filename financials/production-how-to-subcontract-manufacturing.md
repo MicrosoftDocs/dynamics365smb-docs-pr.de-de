@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6f8094545431468bd12e231364987e70bda429bb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2796da1b41569c8c950dc844fc31eaf4f0179efa
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-subcontract-manufacturing"></a>Vorgehensweise: Nebenvertrag-Fertigung
+# <a name="subcontract-manufacturing"></a>Fertigung durch Fremdarbeitsvertrag
 Ausgewählte Arbeitsgänge an Kreditoren weiter zu vergeben, ist in vielen Fertigungsunternehmen üblich. Fremdarbeit kann ein seltener Vorgang oder integraler Bestandteil aller Fertigungsschritte sein.
 
 Es gibt mehrere Werkzeuge für das Verwalten von Fremdarbeit:  
@@ -41,19 +41,19 @@ Arbeitsplatzgruppen für Fremdarbeit können für Arbeitsgänge in Arbeitspläne
 
 Sie können einen Arbeitsplan erstellen, für den eine externe Arbeitsplatzgruppe als standardmäßiger Fertigungsschritt verwendet wird. Alternativ können Sie den Arbeitsplan für einen bestimmten Fertigungsauftrag so ändern, dass er einen externen Arbeitsgang enthält. Dies kann in einer Notsituation, z. B. wenn ein Server nicht ordnungsgemäß funktioniert, oder in einer Zeitspanne mit höherem Bedarf erforderlich sein, in der Arbeiten, die in der Regel innerbetrieblich ausgeführt werden, an einen Subunternehmer vergeben werden müssen.  
 
-Weitere Informationen finden Sie unter [Gewusst wie: Arbeitspläne erstellen](production-how-to-create-routings.md).  
+Weitere Informationen finden Sie unter [Arbeitspläne erstellen](production-how-to-create-routings.md).  
 
 ## <a name="subcontracting-worksheet"></a>Fremdarbeitenvorschlag  
 Sobald Sie den  Fremdarbeitenvorschlag berechnet haben, wird der entsprechende Beleg (in diesem Fall eine Einkaufsbestellung) erstellt.  
 
-# <a name="how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Vorgehensweise: Fremdarbeitenvorschläge berechnen und Fremdarbeitsbestellung erstellen
+# <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Fremdarbeitenvorschläge berechnen und Fremdarbeitsbestellung erstellen
 Die Fenster **Fremdarbeitenvorschlag** funktioniert wie die  **Planungsvorschlag**indem es den erforderlichen Vorrat berechnet, in diesem Fall Bestellungen, die Sie im Vorschlag überprüfen und dann mit der Funktion **Ereignismeldung durchführen** erstellen.  
 
 > [!NOTE]  
 >  Ein Fertigungsauftrag muss den Status **Freigegeben** haben, damit aus einem Fremdarbeitenvorschlag auf ihn zugegriffen und er dort verwendet werden kann.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Fremdarbeitenvorschlag berechnen  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Arbeitsblatt Fremdarbeit** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Arbeitsblatt Fremdarbeit** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Damit der Vorschlag berechnet wird, klicken Sie auf  Aktionen **Fremdarbeit berechnen**.  
 3.  Definieren Sie im Fenster **Fremdarbeit berechnen** den Filter für an Subunternehmer vergebene Arbeitsgänge oder die Arbeitsplatzgruppen, in der sie ausgeführt werden, um nur die relevanten Fertigungsaufträge zu berechnen.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
@@ -61,7 +61,7 @@ Die Fenster **Fremdarbeitenvorschlag** funktioniert wie die  **Planungsvorschlag
     Sehen Sie sich die Zeilen im **Fremdarbeitenvorschlag** an. Die Informationen in diesem Vorschlag stammen aus dem Fertigungsauftrag und den FA-Arbeitsgängen und werden in die Einkaufsbestellung übernommen, wenn dieser Beleg erstellt wird. Wie bei den anderen Vorschlägen auch können Sie eine Zeile aus dem Vorschlag löschen, ohne dass sich dies auf die ursprünglichen Informationen auswirkt. Die Informationen werden wieder angezeigt, wenn Sie die Funktion **Fremdarbeit berechnen** das nächste Mal ausführen.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Einkaufsbestellung für Fremdarbeit generieren  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Arbeitsblatt Fremdarbeit** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Arbeitsblatt Fremdarbeit** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Vorgang** die Option **Ereignismeldung durchführen** aus.  
 3.  Wählen Sie das Feld **Bestellungen/Aufträge drucken**, um die Einkaufsbestellung zu drucken, wenn diese erstellt wird.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  

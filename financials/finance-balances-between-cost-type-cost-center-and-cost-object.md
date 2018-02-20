@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 3c33d5f5cdc4ac131d7c85221d16f60b2f9c6c00
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Salden zwischen Kostenart, Kostenstelle und Kostenträger

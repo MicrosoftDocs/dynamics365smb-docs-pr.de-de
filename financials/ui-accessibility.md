@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 60bd652d7a07841601bede9cff77c5b252000347
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Eingabehilfe und Tastenkombinationen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -31,7 +31,7 @@ Dieses Thema enthält Informationen zu den Funktionen, die [!INCLUDE[d365fin](in
 -   Unterstützung für allgemeine assistive Technologien  
 
 ##  <a name="Keyboard"></a> Tastenkombinationen im Browser
- [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt die Tastenkombinationen, die von den meisten Webbrowsern unterstützt werden. Die in diesem Hilfethema beschriebenen Tastenkombinationen beziehen sich auf das US-Tastaturlayout. Möglicherweise entsprechen die Tasten anderer Tastaturlayouts nicht exakt den Tasten auf der US-Tastatur.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt die Tastenkombinationen, die von den meisten Webbrowsern unterstützt werden. Die in diesem Hilfethema beschriebenen Tastenkombinationen beziehen sich auf das US-Tastaturlayout. Möglicherweise entsprechen die Tasten anderer Tastaturlayouts nicht exakt den Tasten auf der US-Tastatur.  
 
 |Vorgehensweise|Drücken|  
 |----------------|-----------|  
@@ -55,13 +55,13 @@ Dieses Thema enthält Informationen zu den Funktionen, die [!INCLUDE[d365fin](in
  Ein Text für Bilder wird mit dem ALT-Attribut innerhalb des IMG-Tags festgelegt. Ein beschreibender Text für Hyperlinks wird mit dem Titelattribut innerhalb des A-Tags festgelegt.  
 
 ##  <a name="AssistiveTech"></a> Assistive Technologien  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt verschiedene assistive Technologien, wie kontrastreiches, Sprachausgaben und Spracherkennungs-Software. Einige assistive Technologien funktionieren möglicherweise nicht mit bestimmten Elementen«» [!INCLUDE[d365fin](includes/d365fin_md.md)] in Seiten.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt verschiedene assistive Technologien, wie kontrastreiches, Sprachausgaben und Spracherkennungs-Software. Einige assistive Technologien funktionieren möglicherweise nicht mit bestimmten Elementen«» [!INCLUDE[d365fin](includes/d365fin_md.md)] in Seiten.  
 
 ## <a name="for-more-accessibility-information"></a>Weitere Zugriffsinformationen  
 Sie können zusätzliche Informationen über Eingabehilfen mit Microsoft-Produkten und assistiven Technologien der Site [Microsoft-Eingabehilfe](http://go.microsoft.com/fwlink/?LinkId=262160) finden.
 
 ## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbeiten mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.md)  
 

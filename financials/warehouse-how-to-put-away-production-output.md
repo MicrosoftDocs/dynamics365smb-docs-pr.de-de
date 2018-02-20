@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9555f2810e82711c9cac98cfe002cb99289ce474
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 38a37195932d1f00928c10e86fa19425eb228f5f
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-away-production-or-assembly-output"></a>Vorgehensweise: Einlagerung der fertiggestellten Produktion oder Montage
+# <a name="put-away-production-or-assembly-output"></a>Einlagerung der fertiggestellten Produktion oder Montage
 Wie Sie Ihre Fertigprodukte aus der Produktion einlagern, hängt davon ab, wie Ihr Lagerort eingerichtet wurde. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
 
 Bei Basis-Lagerkonfigurationen, bei denen für den Lagerort die Bearbeitung der Einlagerung erforderlich ist, jedoch nicht die des Wareneingangs, verwenden Sie den Beleg **Lagereinlagerung**, um die Einlagerung der Fertigprodukte zu organisieren und zu erfassen.  
@@ -33,16 +33,16 @@ Der erste Schritt zum Erstellen der Einlagerung ist das Erstellen der Lagereinla
 2.  Wählen Sie im Fertigungsauftrag, der für die Einlagerungen bereitsteht, die Aktion **Eingehende Lageranf. erstellen** aus.  
 
 > [!NOTE]  
->  Sie können die Einlagerungsanforderung auch erstellen, indem Sie das Kontrollkästchen **Lagereinlag.-Anford. erstellen** aktivieren, wenn Sie den Fertigungsauftrag aktualisieren. Weitere Informationen finden Sie unter [Vorgehensweise:Aktualisieren oder ersetzen von Produktionsaufträgen.](production-how-to-replan-refresh-production-orders.md)  
+>  Sie können die Einlagerungsanforderung auch erstellen, indem Sie das Kontrollkästchen **Lagereinlag.-Anford. erstellen** aktivieren, wenn Sie den Fertigungsauftrag aktualisieren. Weitere Informationen finden Sie unter [Aktualisieren oder ersetzen von Produktionsaufträgen.](production-how-to-replan-refresh-production-orders.md)  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>So lagern Sie Ausstoß mit einer Lagereinlagerung ein:  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Einlagerung** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Erstellen Sie eine neue Lagereinlagerung. Weitere Informationen finden Sie unter [So wird's gemacht: Artikel mit Lagereinlagerungen einlagern](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Einlagerung** ein. Wählen Sie dann den zugehörigen Link aus.  
+2.  Erstellen Sie eine neue Lagereinlagerung. Weitere Informationen finden Sie unter [Artikel mit Lagereinlagerungen einlagern](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Um zu den Fertigungsaufträgen zu gelangen, wählen Sie die Aktion **Herkunftsbeleg holen** aus, und wählen Sie den freigegebenen Fertigungsauftrag aus.  
 4.  Füllen Sie die Einlagerungszeilen entsprechend aus.
 5.  Wenn die Zeilen zum Buchen bereit sind, wählen Sie die Aktion **Buchen** aus. Das Buchen erzeugt die erforderlichen Lagerplatzposten und bucht die Istmeldung der Artikel.  
 
-Sie können eine **Lagereinlagerung** auch direkt aus dem freigegebenen Fertigungsauftrag erstellen. Weitere Informationen finden Sie unter [So wird's gemacht: Artikel mit Lagereinlagerungen einlagern](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
+Sie können eine **Lagereinlagerung** auch direkt aus dem freigegebenen Fertigungsauftrag erstellen. Weitere Informationen finden Sie unter [Artikel mit Lagereinlagerungen einlagern](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Wenn Sie eine Lagereinlagerung buchen, wird davon ausgegangen, dass alle Arbeitsgänge entsprechend dem Standardarbeitsplan gebucht werden, dies bedeutet, dass die fertiggestellte Menge gemäß des letzten Arbeitsgangs gebucht wird. Sie können das FA-Istmeldungs Buch verwenden, um Abweichungen der fertiggestellten Menge zu buchen und Einstellungen der Bearbeitungszeiten vorzunehmen. Wenn es notwendig ist, Teilbuchungen vorzunehmen, nachdem Sie die Lagereinlagerung erstellt haben, ist dies für Rüstzeiten und Mengen für alle Arbeitsgänge mit Ausnahme des letzten Arbeitsgangs möglich. In diesem Fall wird der letzten Arbeitsgang durch die Lagereinlagerung gesteuert.  
 
@@ -64,7 +64,7 @@ Wenn Sie nur die Bereitstellungszeit oder die Prozesszeit für den letzten Arbei
 >  Wenn Ihr Lagerort so eingerichtet wurde, dass er die gesteuerte Einlagerung und Kommissionierung verwendet, ist das Lager über die Vorgabelagerplätze der Produktion mit der Produktionsstätte verbunden: die Lagerplätze für die Fertigungsbereitstellung, den Fertigungsausgang sowie die offene Fertigungsbereitstellung, die Sie auf der Lagerortkarte im Inforegister **Lagerplätze** festlegen. Wenn Sie die Istmeldung eines Fertigungsauftrags buchen, werden die Fertigerzeugnisse automatisch in den **Fertigungsausgangslagerplatz** eingelagert. Sie gehen genauso vor, wie oben beschrieben, um die Fertigerzeugnisse einzulagern, außer dass Sie, anstatt den Vorgabelagerplatz des Artikels zu verwenden, die Artikel aus dem **Fertigungsausgangslagerplatz** in den Vorgabelagerplatz des Artikels umlagern oder einlagern.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Um manuell einen Lagerplatz festzulegen, in dem fertiggestellte Artikel aus der Produktion eingelagert werden sollen  
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen] Symbol (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplatzumlagerungsvorschlag** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplatzumlagerungsvorschlag** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Füllen Sie den Kopf aus, und erstellen Sie eine Zeile für jeden Artikel, den Sie im Lager einlagern möchten.  
 3.  Füllen Sie die beiden Felder **Von Lagerplatzcode** und **Nach Lagerplatzcode** aus und geben Sie die Menge in das Feld **Menge** ein.  
 4.  Um die Vorschlagszeilen mit dem gesamten oder dem gefilterten Lagerplatzinhalt der Lagerplätze des Lagerorts zu füllen, wählen Sie die Aktion **Lagerplatzinhalt abrufen** aus.  

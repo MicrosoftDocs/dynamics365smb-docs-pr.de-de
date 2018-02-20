@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 446ed1f08c7ee5f1060dc2add65826c1a8db674f
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="adding-and-viewing-notes-on-records"></a>Notizen zu Datensätzen hinzufügen und enthalten

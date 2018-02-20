@@ -13,13 +13,13 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 68017b8b031ee4bd368936b6fb4de157328d7030
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 78039e9387866ce17ff3be5a2ff509545e8439d2
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-the-year-end-closing-entry"></a>Vorgehensweise: Buchen des Jahresabschlusspostens
+# <a name="post-the-year-end-closing-entry"></a>So buchen Sie den Jahresabschlussposten
 Nachdem Sie die Stapelverarbeitung **GuV-Konten Nullstellung** ausgeführt haben, um den bzw. die Ultimoposten für den Jahresabschluss zu generieren, müssen Sie das in der Stapelverarbeitung angegebene Buchungsblatt öffnen und die Posten überprüfen und buchen.
 
 ## <a name="to-post-the-year-end-closing-entry"></a>So buchen Sie den Jahresabschlussposten
@@ -32,7 +32,7 @@ Nachdem Sie die Stapelverarbeitung **GuV-Konten Nullstellung** ausgeführt haben
 >   Wenn ein Fehler erkannt wird, wird eine Fehlermeldung angezeigt. Wurde die Buchung ordnungsgemäß durchgeführt, werden die gebuchten Posten aus dem Buch.-Blatt entfernt. Nachdem die Buchung abgeschlossen ist, wird ein Posten auf jedes GuV-Konto gebucht, sodass der Saldo des Kontos Null ist und das Jahresergebnis in die Bilanz übertragen wird.
 
 ## <a name="see-also"></a>Siehe auch
-[So geht's: Buchhaltungsperioden schließen](year-close-account-periods.md)  
+[Schließen von Buchhaltungsperioden](year-close-account-periods.md)  
 [Schließen der Bücher](year-close-books.md)  
 [GuV-Konten Nullstellung](year-close-income-statement.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

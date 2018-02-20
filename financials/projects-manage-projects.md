@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e823f58ac796b22a488ab6fd54ed6dc00e262c87
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67410d7d1f6c71e977b5da7c2c81f7bd18746e3f
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="project-management"></a>Projektmanagement
@@ -24,22 +24,19 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie allgemeine Projektman
 
 Bevor Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten. Weitere Informationen finden Sie unter [Projektmanagement einrichten](projects-setup-projects.md).  
 
-> [!NOTE]  
->   Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.
-
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
+Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden
 
 | Aktion | Siehe |
 | --- | --- |
-| Erstellen Sie Projekte, weisen Sie Projektaufgaben zu und bereiten Sie Projektplanungszeilen vor. |[So wird's gemacht: Projekt erstellen](projects-how-create-jobs.md) |
-| Zuordnen von Ressourcen zu Projekten und verwalten von Ressourcenpreisen. |[Gewusst wie: Verwenden von Ressourcen für Projekte](projects-how-use-resources.md) |
-| Erstellen von Arbeitszeittabellen mit integriertem Projektaufgabe und Planungszeilen und buchen von Arbeitszeittabellenzeilen in einem Projekt Buch.-Blatt. |[Gewusst wie: Verwenden von Arbeitszeittabellen für Projekte](projects-how-use-time-sheets.md) |
-| Budget für Ressourcen, die in Projekten verwendet werden und Vergleichen der aktuellen Artikel und des Ressourcenverbrauchs, um die Nutzung zu planen und die Qualität und die Kosteneffizienz für künftige Projekte zu verbessern. |[Vorgehensweise: Verwalten von Projektbudgets](projects-how-manage-budgets.md) |
-| Den Verbrauch für verschiedene Teile des Projekts überprüfen und erfassen; dieser wird automatisch aktualisiert, wenn Sie Informationen zu Projekten und Projektbuchungsblättern oder Projektrechnungen ändern und übertragen. |[Vorgehensweise: Verbrauch bei Projekten aufzeichnen](projects-how-record-job-usage.md) |
-| Mittel für ein Projekt kaufen, entweder mithilfe von Bestellanforderungen oder Rechnungen und Artikel und Bearbeitungszeit erfassen. |[Vorgehensweise: Verwalten von Projektlieferungen](projects-how-manage-project-supplies.md) |
+| Erstellen Sie Projekte, weisen Sie Projektaufgaben zu und bereiten Sie Projektplanungszeilen vor. |[Projekt erstellen](projects-how-create-jobs.md) |
+| Zuordnen von Ressourcen zu Projekten und verwalten von Ressourcenpreisen. |[Verwenden von Ressourcen für Projekte](projects-how-use-resources.md) |
+| Erstellen von Arbeitszeittabellen mit integriertem Projektaufgabe und Planungszeilen und buchen von Arbeitszeittabellenzeilen in einem Projekt Buch.-Blatt. |[Verwenden von Arbeitszeittabellen für Projekte](projects-how-use-time-sheets.md) |
+| Budget für Ressourcen, die in Projekten verwendet werden und Vergleichen der aktuellen Artikel und des Ressourcenverbrauchs, um die Nutzung zu planen und die Qualität und die Kosteneffizienz für künftige Projekte zu verbessern. |[Verwalten von Anlagenbudgets](projects-how-manage-budgets.md) |
+| Den Verbrauch für verschiedene Teile des Projekts überprüfen und erfassen; dieser wird automatisch aktualisiert, wenn Sie Informationen zu Projekten und Projektbuchungsblättern oder Projektrechnungen ändern und übertragen. |[Verbrauch bei Projekten aufzeichnen](projects-how-record-job-usage.md) |
+| Mittel für ein Projekt kaufen, entweder mithilfe von Bestellanforderungen oder Rechnungen und Artikel und Bearbeitungszeit erfassen. |[Verwalten von Projektlieferungen](projects-how-manage-project-supplies.md) |
 | Mehr über WIP (Umlaufbestand) erfahren, eine Funktion, die korrekte Finanzauswertungen sicherstellt und es Ihnen ermöglicht, den Finanzwert von laufenden Projekten zu schätzen. |[Verständnis - WIP-Methoden](projects-understanding-wip.md) |
-| Buchen Sie den Materialverbrauch, Ressourcen und andere Aufwendungen im Umlaufbestand (WIP), um den Finanzwert zu überwachen und die richtige Finanzauswertungen beizubehalten, wenn Sie Projektausgaben buchen. |[Vorgehensweise: Überwachen des Projektfortschritts und der Leistung](projects-how-monitor-progress-performance.md) |
-| Erfassen von Projektkosten für den Ressourcenverbrauch, Material oder projektbezogene Einkäufe auf laufender Basis und Rechnungsstellung an den Kunden, entweder wenn das Projekt beendet ist oder entsprechend dem Fakturierungsplan. |[Vorgehensweise: Fakturieren](projects-how-invoice-jobs.md) |
+| Buchen Sie den Materialverbrauch, Ressourcen und andere Aufwendungen im Umlaufbestand (WIP), um den Finanzwert zu überwachen und die richtige Finanzauswertungen beizubehalten, wenn Sie Projektausgaben buchen. |[Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md) |
+| Erfassen von Projektkosten für den Ressourcenverbrauch, Material oder projektbezogene Einkäufe auf laufender Basis und Rechnungsstellung an den Kunden, entweder wenn das Projekt beendet ist oder entsprechend dem Fakturierungsplan. |[Fakturieren von Projekten](projects-how-invoice-jobs.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)  
@@ -48,4 +45,7 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 [Verkauf](sales-manage-sales.md)    
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

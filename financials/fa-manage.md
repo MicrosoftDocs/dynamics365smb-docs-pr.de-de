@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 069f621101023a3c57b7add4d4e3ffcbc2664845
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fixed-assets"></a>Anlagen
@@ -31,10 +31,7 @@ Für jede Anlage können Sie die Wartungskosten und das nächste Servicedatum er
 Jede Anlage kann mit Versicherungspolicen verknüpft werden. Daher haben Sie die Möglichkeit zu überprüfen, ob die Deckungsbeiträge in den Versicherungspolicen mit dem Wert der Anlagen übereinstimmen. Damit ist auch die Möglichkeit gegeben, die jährlichen Versicherungsprämien zu prüfen.
 
 > [!NOTE]  
->   Hinweis: Sie können Anlagentransaktionen im Fenster **Anlagen Fibu Buch.-Blatt** oder im Fenster **Anlagen Buch - Blatt** erfassen, abhängig davon, ob die Transaktionen für Finanzberichte oder zur internen Verwaltung bestimmt sind. Die Hilfe zu den Anlagen beschreibt lediglich, wie das Fenster **Anlagen Fibu Buch.-Blatt** verwendet wird. Weitere Informationen finden Sie unter [So geht's: Anlagen-AfA-Bücher automatisch einrichten](fa-how-setup-depreciation.md).
-
-> [!NOTE]  
->   Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)Experience.
+>   Hinweis: Sie können Anlagentransaktionen im Fenster **Anlagen Fibu Buch.-Blatt** oder im Fenster **Anlagen Buch - Blatt** erfassen, abhängig davon, ob die Transaktionen für Finanzberichte oder zur internen Verwaltung bestimmt sind. Die Hilfe zu den Anlagen beschreibt lediglich, wie das Fenster **Anlagen Fibu Buch.-Blatt** verwendet wird. Weitere Informationen finden Sie unter [Anlagen-AfA-Bücher automatisch einrichten](fa-how-setup-depreciation.md).
 
 Bevor Sie mit dem Verwalten von Anlagen beginnen können, müssen Sie Standardwerte, Anlagenbuchungen, Buchungsgruppen, Verteilungsschlüsseln, Buch.-Blätter und Buchungsarten einrichten. Weitere Informationen finden Sie unter [Einrichten von Anlagen](fa-setup.md).
 
@@ -42,14 +39,14 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 
 | Aufgabe | Siehe |
 | --- | --- |
-| Erstellen von Anlagen, Zuordnen von AfA-Methoden, Buchen von Anschaffungen und Restwerten sowie Drucken von Anlagenübersichten |[So geht's: Beschaffen von Anlagen](fa-how-acquire.md) |
-| Erfassen von Servicebesuchen, Buchen und Überwachen von Wartungskosten. |[So geht's: Anlagen aktualisieren](fa-how-maintain.md) |
-| Aktualisieren von Versicherungsinformationen, Buchen von Anschaffungskosten auf Versicherungspolicen, Anpassen der Versicherungsdeckung, Anzeigen der Versicherungsstatistik und Auflisten von Versicherungspolicen |[So geht's: Versichern von Anlagen](fa-how-insure.md) |
-| Umbuchen von Anlagen, Transferieren von Anlagen an verschiedene Standorte sowie Aufteilen oder Zusammenfassen von Anlagen |[So geht's: Übertragen, Teilen oder Kombinieren von Anlagen.](fa-how-trans-split-combine.md) |
-| Anpassen der Werte von Anlagen, Buchen von Zuschreibungen und Buchen von erhöhten AfA-Transaktionen |[So geht's: Anlagen neu bewerten](fa-how-revalue.md) |
-| Berechnen und Buchen der AfA und Analysieren der AfA in Anlagenberichten. |[So geht's: Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md) |
-| Buchen von Verkaufstransaktionen, Anzeigen von Verkaufsposten und Buchen von Teilverkäufen |[So geht's: Anlagen entsorgen oder außer Dienst stellen](fa-how-dispose-retire.md) |
-| Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der AfA. |[So geht's: Budgets für Anlagen verwalten](fa-how-manage-budgets.md) |
+| Erstellen von Anlagen, Zuordnen von AfA-Methoden, Buchen von Anschaffungen und Restwerten sowie Drucken von Anlagenübersichten |[Erworbene Anlagen](fa-how-acquire.md) |
+| Erfassen von Servicebesuchen, Buchen und Überwachen von Wartungskosten. |[Anlagen verwalten](fa-how-maintain.md) |
+| Aktualisieren von Versicherungsinformationen, Buchen von Anschaffungskosten auf Versicherungspolicen, Anpassen der Versicherungsdeckung, Anzeigen der Versicherungsstatistik und Auflisten von Versicherungspolicen |[Versichern von Anlagen](fa-how-insure.md) |
+| Umbuchen von Anlagen, Transferieren von Anlagen an verschiedene Standorte sowie Aufteilen oder Zusammenfassen von Anlagen |[Übertragen, Teilen oder Kombinieren von Anlagen.](fa-how-trans-split-combine.md) |
+| Anpassen der Werte von Anlagen, Buchen von Zuschreibungen und Buchen von erhöhten AfA-Transaktionen |[Anlagen neu bewerten](fa-how-revalue.md) |
+| Berechnen und Buchen der AfA und Analysieren der AfA in Anlagenberichten. |[Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md) |
+| Buchen von Verkaufstransaktionen, Anzeigen von Verkaufsposten und Buchen von Teilverkäufen |[Anlagen entsorgen oder außer Dienst stellen](fa-how-dispose-retire.md) |
+| Verwalten von Anlagenbudgets, Budgetieren von Anschaffungskosten, Budgetieren von Anlagenverkäufen und Budgetieren der AfA. |[Budgets für Anlagen verwalten.](fa-how-manage-budgets.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Anlagen einrichten](fa-setup.md)  
@@ -58,4 +55,6 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+

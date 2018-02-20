@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
 ms.openlocfilehash: 5f95efb5cad24db9848752035172bc7bb76db716
 ms.contentlocale: de-de
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="entering-data"></a>Eingeben von Daten

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 6df3619f0b458c3215ed5032dd24aabcfe7fe4a6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c5da0214548d1bcc2584db681a1974ada8d265ee
 ms.contentlocale: de-de
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>Über das Datenaustauschframework in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,7 +28,7 @@ Das Format von Dateien zum Austausch von Daten in den Bankdateien, die elektroni
 
 ## <a name="see-also"></a>Siehe auch  
 [Daten elektronisch austauschen](across-data-exchange.md)  
-[Gewusst wie: Verwenden von XML-Schemata zur Vorbereitung von Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)  
 [Austausch von Daten](across-exchange-data.md)  
 [Eingehende Belege](across-income-documents.md)  

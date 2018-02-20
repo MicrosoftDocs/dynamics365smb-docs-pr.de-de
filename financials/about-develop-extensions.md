@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business edition anpassen | Microsoft Docs
-description: "Dynamics 365 Business edition-Erweiterungen bauen, anzeigen und fördern."
+title: Microsoft Dynamics 365 for Finance and Operations, Business edition | Microsoft Docs
+description: "Dynamics 365 Business edition-Erweiterungen für Finance and Operations, Business edition bauen, anzeigen und fördern."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,17 +13,17 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b0034f678b59f988ed23257f9aa579cc3a8a7628
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8c8f01a97fa215932fff0adc6baff2be13621585
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Erweitern [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Es gibt viele Vorteile, [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] als Plattform für das Bauen von Apps zu nutzen:
 
 * [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]ergänzt die bewährte Microsoft Online Lösung mit Ihren Kenntnissen  
-* Nutzen Sie die Marke Dynamics 365 – eine Marke, dir Millionen von Benutzern kennen und vertrauen  
+* Nutzen Sie die Marke Finance and Operations, Business edition – eine Marke, die Millionen von Benutzern kennen und ihr vertrauen  
 * Erreichen Sie mehr Debitoren für Ihre Geschäfts-Apps mit [Microsoft AppSource](https://appsource.microsoft.com/)  
 * Erzielen Sie mehr mit eine Plattform, die eine moderne Benutzeroberfläche und eine Angebotsskala bietet  
 * Sie bündeln Sie mit intelligenten Geschäfts-Apps wie PowerApps, Flow, Power BI und Cortana-Intelligence und vielen mehr  
@@ -49,7 +49,7 @@ Bevor wir veröffentlichen, arbeiten wir mit Ihnen zusammen, um sicherzustellen,
 Weitere Informationen über den Prüfungsprozess und wie Ihre App publiziert wird finden Sie im Dokument [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) im Download Center.
 
 ## <a name="learn-more-about-extensions-v20"></a>Weitere Informationen über die Erweiterungen v2.0
-Die neuen Entwicklungstools, die Ihnen ermöglichen, die Erweiterungen v2.0 zu nutzen, gibt es bereits als Vorschau. Sie werden bald für den Dynamics 365 Business edition-Service aktiviert. Wenn Sie sich schon mit den neuen Tools vertraut machen oder mehr über die Erweiterungen 2.0 erfahren wollen, lesen Sie nach unter [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+Die neuen Entwicklungstools, die Ihnen ermöglichen, die Erweiterungen v2.0 zu nutzen, gibt es bereits als Vorschau. Sie werden bald für den Finance and Operations, Business edition Service aktiviert. Wenn Sie sich schon mit den neuen Tools vertraut machen oder mehr über die Erweiterungen 2.0 erfahren wollen, lesen Sie nach unter [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Benötigen Sie Hilfe?
 Wenn Sie etwas Unterstützung möchten, können Sie einen App-Experten aus der folgenden Liste kontaktieren:
@@ -70,7 +70,7 @@ Diese [FAQ](https://go.microsoft.com/fwlink/?linkid=841520) antworten auf der di
 
 ## <a name="further-resources"></a>Weitere Ressourcen
 Auf der [DLP-Themenseite](https://mbspartner.microsoft.com/BFI/Topic/76) DLP-Themenseite finden Sie weitere Ressourcen für die App-Entwicklung. Einige wählten jene, die unten verfügbar sind:
--   [Benutzer-Registrierung und daraus folgende Fakturierung](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 Business edition .pdf)
+-   [Benutzer-Registrierung und daraus folgende Fakturierung](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
 
 
 
@@ -79,4 +79,6 @@ Auf der [DLP-Themenseite](https://mbspartner.microsoft.com/BFI/Topic/76) DLP-The
 [Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+

@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: d5d684e00a88ab60e3dedbb57b1c49faf549bf3b
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="accountant-portal-for-dynamics-365-for-finance-and-operations-business-edition"></a>Kontoportal für Dynamics 365 for Finance and Operations, Business edition

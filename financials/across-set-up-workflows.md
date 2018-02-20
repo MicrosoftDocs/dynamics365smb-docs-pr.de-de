@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 6beb70ad41fa32043e9b8afea67d390929533007
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 75571a006ab267cfef268e0ff6b62ffd0ffb936b
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-workflows"></a>Einrichten von Workflows
@@ -30,17 +30,17 @@ Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben vo
 
  Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.  
 
-|**An**|**Siehe**|  
+|**Prozess**|**Siehe**|  
 |------------|-------------|  
-|Einrichten von Workflowbenutzern und Benutzergruppen|[So wird's gemacht: Einrichten von Workflowbenutzern](across-how-to-set-up-workflow-users.md)|  
-|Richten Sie Workflowbenutzer ein, die an den Genehmigungsworkflows teilnehmen.|[Gewusst wie: Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md)|  
+|Einrichten von Workflowbenutzern und Benutzergruppen|[Einrichten von Workflowbenutzern](across-how-to-set-up-workflow-users.md)|  
+|Richten Sie Workflowbenutzer ein, die an den Genehmigungsworkflows teilnehmen.|[Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)|  
 |Geben Sie an, wie Workflowbenutzer über Workflowschritte (einschließlich Genehmigungsanforderungen) benachrichtigt werden.|[Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)|  
-|Geben Sie an, wann Benutzer Benachrichtigungen empfangen und ob Benachrichtigungen innerhalb eines Zeitraums zusammengefasst werden sollen, um die Anzahl von Benachrichtigungen zu minimieren.|[Gewusst wie: Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Richten Sie das Layout und den allgemeinen Inhalt neuer Workflowbenachrichtigungs-E-Mails ein, oder exportieren, ändern und importieren Sie vorhandene Vorlagen.|[Gewusst wie: Verwalten von Benachrichtigungssorlagen](across-how-to-manage-notification-templates.md)|  
-|Richten Sie einen SMTP-Server so ein, dass die E-Mail-Kommunikation mit [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiviert ist.|[Gewusst wie: Einrichten von E-Mails](madeira-how-setup-email.md)|
-|Geben Sie die verschiedenen Schritte eines Workflows mithilfe von Verbindungsworkflowereignissen mit Workflowantworten an.|[So wird's gemacht: Erstellen von Workflows](across-how-to-create-workflows.md)|  
-|Verwenden Sie Workflowvorlagen, um neue Workflows zu erstellen.|[Vorgehensweise: Workflows von Workflowvorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md)|  
-|Teilen Sie Workflows mit anderen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbanken.|[Vorgehensweise: Exportieren und Importieren von Workflows](across-how-to-export-and-import-workflows.md)|  
+|Geben Sie an, wann Benutzer Benachrichtigungen empfangen und ob Benachrichtigungen innerhalb eines Zeitraums zusammengefasst werden sollen, um die Anzahl von Benachrichtigungen zu minimieren.|[Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
+|Richten Sie das Layout und den allgemeinen Inhalt neuer Workflowbenachrichtigungs-E-Mails ein, oder exportieren, ändern und importieren Sie vorhandene Vorlagen.|[Verwalten von Benachrichtigungsvorlagen](across-how-to-manage-notification-templates.md)|  
+|Richten Sie einen SMTP-Server so ein, dass die E-Mail-Kommunikation mit  aktiviert ist. [!INCLUDE[d365fin](includes/d365fin_md.md)]|[E-Mail einrichten](madeira-how-setup-email.md)|
+|Geben Sie die verschiedenen Schritte eines Workflows mithilfe von Verbindungsworkflowereignissen mit Workflowantworten an.|[Erstellen eines Workflows](across-how-to-create-workflows.md)|  
+|Verwenden Sie Workflowvorlagen, um neue Workflows zu erstellen.|[Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)|  
+|Teilen Sie Workflows mit anderen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbanken.|[Exportieren und Importieren von Workflows](across-how-to-export-and-import-workflows.md)|  
 |Erfahren Sie anhand eines vollständigen Ablaufs, wie Sie einen Workflow zur Genehmigung von Verkaufsunterlagen einrichten.|[Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Fügen Sie Unterstützung für ein Geschäftsszenario hinzu, das neue Workflowereignisse oder Reaktionen benötigt, indem Sie den Anwendungscode anpassen.|[Exemplarische Vorgehensweise: Implementieren neuer Workflow-Ereignisse und -Antworten](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 

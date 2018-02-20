@@ -1,6 +1,6 @@
 ---
 title: "Fügen Sie Ihren externen Buchhalter Ihrem Financials hinzu | Microsoft Docs"
-description: "Erfahren Sie, wie Sie den externen Buchhalter zu Ihrem Dynamics 365 Business edition einladen können."
+description: "Erfahren Sie, wie Sie den externen Buchhalter zu Ihrem Finance and Operations, Business edition einladen können."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,22 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 11/10/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fde920f4626079d66f285f366114d10807e7821b
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Externen Buchhalter einladen zu Ihrem [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Wenn Sie eines externen Buchhalter verwenden, um Ihre Buch und Berichte zu verwalten, können Sie sie für Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten.
 
 Sobald Ihr Buchhalter zu den verwendeten [!INCLUDE[d365fin](includes/d365fin_md.md)] Zugriff hat, können sie das Rollencenter **Buchhalter** verwenden, das Zugriff auf den relevantsten Fenstern für ihre Arbeit gibt.  
-
-> [!NOTE]  
->  Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer Dynamics 365 Experience](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Ihren Buchhalter einladen zu Ihrem [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In der neuesten Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] machen wir es Ihnen ganz einfach, Ihren externen Buchhalter einzuladen. Öffnen Sie einfach das Fenster **Benutzer** und wählen Sie im Band die Aktion **Externen Buchhalter einladen**. Es wird eine E-Mail für Sie vorbereitet. Sie tragen einfach nur die E-Mail-Adresse Ihres Buchhalters ein und senden die Einladung ab.  
@@ -45,7 +42,7 @@ Einer der Lizenztypen für [!INCLUDE[d365fin](includes/d365fin_md.md)] ist *Exte
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
-[Vorgehensweise: Richten Sie E-Mail Nachricht manuell oder mit der unterstützten Einrichtung ein](madeira-how-setup-email.md)  
-[Buchhalter-Erfahrung in Dynamics 365 Business edition](finance-accounting.md)  
-[Dynamics 365 for Accounts in Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Richten Sie E-Mail Nachricht manuell oder mit der unterstützten Einrichtung ein](madeira-how-setup-email.md)  
+[Buchhalter Experiences in Finance and Operations, Business edition](finance-accounting.md)  
+[Finance and Operations, Business edition für Buchhalter auf| Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

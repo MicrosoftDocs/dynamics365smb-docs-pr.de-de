@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ae78d21bc4f88788a01620dbd8505d7034857d8f
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-companies"></a>Kontaktunternehmenerstellen
@@ -30,15 +30,15 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 
 | Aufgabe | Siehe |
 | --- | --- |
-| Richten Sie einen Kontakt für ein neues Unternehmen ein, entweder von Grund auf oder über einen Debitor, Kreditor oder Bankkonto. |[Gewusst wie: Erstellen von neuen Kontaktunternehmen](marketing-how-create-contact-companies.md) |
+| Richten Sie einen Kontakt für ein neues Unternehmen ein, entweder von Grund auf oder über einen Debitor, Kreditor oder Bankkonto. |[Erstellen von Kontaktunternehmen](marketing-how-create-contact-companies.md) |
 | Synchronisieren von Informationen in den Kontakten mit allgemeinen Informationen in den Debitoren, in Kreditoren und in Bankkonten. |[Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
 | Beschreiben der Geschäftsbeziehung eines Unternehmenskontakts |[Einrichten von Geschäftsbeziehungen für Kontaktunternehmen](marketing-business-relations.md) |
-| Platzieren eines Kontaktunternehmens in einer geeigneten Branche (beispielsweise Einzelhandel) |[Vorgehensweise: Einrichten von Branchen für Kontaktunternehmen](marketing-industry-groups.md) |
-| Einrichten von Verteilern zum Identifizieren von Kontaktgruppen, denen die gleichen Informationen zugehen sollen |[Vorgehensweise: Einrichten von Versandgruppen für Kontaktunternehmen](marketing-mailing-groups.md) |
-| Einrichten einer alternativen Adresse für einen Kontakt |[Gewusst wie: Zuordnen von alternativen Adressen zu einem Kontakt](marketing-how-assign-alternate-address.md) |
-| Zuordnen von Internetfavoriten (Suchmaschinen und Websites) zu Kontakten, um anzugeben, wo im Internet nach Informationen zu den Kontakten gesucht werden soll |[Vorgehensweise: Internetquellen für Kontakte einrichten](marketing-web-sources.md) |
+| Platzieren eines Kontaktunternehmens in einer geeigneten Branche (beispielsweise Einzelhandel) |[Einrichten von Branchen für Kontaktunternehmen](marketing-industry-groups.md) |
+| Einrichten von Verteilern zum Identifizieren von Kontaktgruppen, denen die gleichen Informationen zugehen sollen |[Einrichten von Verteilern für Kontaktunternehmen](marketing-mailing-groups.md) |
+| Einrichten einer alternativen Adresse für einen Kontakt |[Zuordnen von alternativen Adressen zu einem Kontakt](marketing-how-assign-alternate-address.md) |
+| Zuordnen von Internetfavoriten (Suchmaschinen und Websites) zu Kontakten, um anzugeben, wo im Internet nach Informationen zu den Kontakten gesucht werden soll |[Internetfavoriten für Kontakte einrichten](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Kontaktpersonenerstellen](marketing-create-contact-persons.md)   
-[Arbeiten mit Dynamics 365](ui-work-product.md)
+[Arbeiten mit Finance and Operations, Business edition](ui-work-product.md)
 

@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ded6ef2b93c2ab038472609093ef7e5ad3d88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-service-contracts-and-service-contract-quotes"></a>Vorgehensweise: Arbeiten mit Serviceverträgen und Servicevertragsangeboten
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeiten mit Serviceverträgen und Servicevertragsangeboten
 Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot. Sie können ein Servicevertragsangebot als Vorläufer eines Servicevertrags verwenden, in dem Ihr Unternehmen dem Kunden ein Angebot unterbreitet und die Genehmigung des Kunden erhält, bevor das Angebot in einen Servicevertrag umgewandelt wird. Die Vorgehensweisen zur Erstellung eines Servicevertrags oder eines Servicevertragsangebots sind ähnlich.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>So erstellen Sie einen Servicevertrag oder ein Servicevertragsangebot  
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen-Symbol") aus und geben Sie **Serviceverträge** oder **Servicevertragsangebote**ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen-Symbol") aus und geben Sie **Serviceverträge** oder **Servicevertragsangebote**ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Erstellen Sie einen neuen Servicevertrag oder ein neues Servicevertragsangebot.  
 3. Füllen Sie die **Felder Nr.** Feld Es wird ein Dialogfeld geöffnet, in dem Sie gefragt werden, ob Sie die allgemeinen Daten aus einer Vertragsvorlage verwenden möchten. Wenn Sie einen solchen Servicevertrag oder ein solches Servicevertragsangebot erstellen möchten, klicken Sie auf **Ja**. Das Fenster **Servicevertragsvorl.-Übersicht** wird angezeigt.  
 4. Wählen Sie die entsprechende Vorlage aus, und wählen Sie dann **OK** aus, um den Servicevertrag oder das Servicevertragsangebot mithilfe der Vorlage zu erstellen.  
@@ -199,7 +199,7 @@ Sie müssen u. U. einen Servicevertrag kündigen, wenn dieser Vertrag ausläuft
 Sie können Serviceverträge und Vertragsangebote jederzeit archivieren, um eine Kopie des Vertrags oder des Angebots zu erfassen. [!INCLUDE[d365fin](includes/d365fin_md.md)]Ein Servicevertrag wird automatisch archiviert, wenn Sie ein Vertragsangebot in einen Servicevertrag umwandeln oder einen Servicevertrag kündigen. Sie können selbst einen Vertrag oder Angebot archivieren, indem Sie die **Vertrag archivieren** Aktion auf den Seiten **Serviceverträge** oder **Servicevertragsangebote** auswählen. Wenn Sie Ihre archivierten Verträge der Angebote sehen möchten, indem Sie nach **Archivierte Verträge** suchen.
 
 ## <a name="see-also"></a>Siehe auch  
-[Vorgehensweise: Einrichten von Serviceverträgen](service-how-setup-service-contracts.md)  
+[Serviceverträge einzurichten:](service-how-setup-service-contracts.md)  
 [Service](service-service.md)  
-[So geht's: Konvertieren von Serviceverträgen, die MwSt.-Beträge enthalten](service-how-to-convert-service-contracts.md)  
+[Konvertieren von Serviceverträgen, die MwSt.-Beträge enthalten](service-how-to-convert-service-contracts.md)  
 

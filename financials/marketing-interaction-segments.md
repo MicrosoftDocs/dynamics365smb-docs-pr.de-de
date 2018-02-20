@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 09748a2bc86a945ff26e581738f85bc6d55b777d
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Verwalten von Aktivitäten für Segmente
@@ -45,8 +45,8 @@ Wenn Sie in dem Fenster **Segment** **Protokoll** wählen, werden alle Aktivitä
 Im Fenster **Protokollierte Segmente** können Sie ein Anschluss-Segment mit den gleichen Kontakten wie das protokollierte Segment erstellen.
 
 ## <a name="see-also"></a>Siehe auch
-[Gewusst wie: Erstellen von Segmenten](marketing-how-create-segment.md)  
-[Gewusst wie: Erstellen von Aktivitäten für Segmente](marketing-how-create-interactions.md)  
+[Segmente erstellen](marketing-how-create-segment.md)  
+[Aktivitäten für Segmente erstellen](marketing-how-create-interactions.md)  
 [Verwalten von Segmenten](marketing-segments.md)  
 [Aufzeichnen von Aktivitäten mit Kontakten](marketing-interactions.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  

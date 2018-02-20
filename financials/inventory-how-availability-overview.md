@@ -12,19 +12,19 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dade893e7ff1c14854274565b40a436a5a9b48c8
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-the-availability-of-items"></a>Vorgehensweise: Artikelverfügbarkeit anzeigen
+# <a name="view-the-availability-of-items"></a>Artikelverfügbarkeit anzeigen
 Vom Kontext einer Geschäftsaufgabe können Sie erweiterte Informationen darüber erhalten, wann und wo ein Artikel verfügbar ist, so als ob Sie mit einem Kunden über ein Lieferdatum sprechen.
 
 Sie können die Verfügbarkeit aller Artikel pro Lagerplatz anzeigen, und Sie können die Verfügbarkeit jedes Artikels nach Ereignis, nach Periode oder nach Lagerplatz anzeigen. Ein Ereignis ist jede beliebige geplante Artikeltransaktion, wie beispielsweise eine Verkaufslieferung oder ein eingehender Umlagerungseingang.
 
 > [!NOTE]  
->   Die Verfügbarkeitsansichten nach Lagerplatz erfordern, dass Sie den Lagerbestand an mehr als einem Lagerplatz verwalten. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Lagerplätzen](inventory-how-setup-locations.md).
+>   Die Verfügbarkeitsansichten nach Lagerplatz erfordern, dass Sie den Lagerbestand an mehr als einem Lagerplatz verwalten. Weitere Informationen finden Sie unter [Einrichten von Lagerorten](inventory-how-setup-locations.md).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Verfügbarkeitszahlen in zwei verschiedenen Feldern angezeigt, jedes mit einer anderen Definition:
 
@@ -35,7 +35,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Verfügbarkeitszahlen in z
 >   Der Verfügbarkeitssaldo ist insbesondere relevant zum Anzeigen in den Fenstern **Artikelverfügb. nach Perioden** und **Artikelverfügbarkeit nach Ereignis**, da diese die Datumsdimension enthalten.  
 
 > [!NOTE]  
->   Die folgenden Verfahren beschreiben, wie Sie erweiterte Verfügbarkeitsinformationen von der Artikelliste und Artikelkarte anzeigen können. Sie können auch auf die Informationen von Verkaufsbelegzeilen zugreifen, für den Artikel in der Zeile. Weitere Informationen finden Sie unter [So geht's: Produkte verkaufen](sales-how-sell-products.md)
+>   Die folgenden Verfahren beschreiben, wie Sie erweiterte Verfügbarkeitsinformationen von der Artikelliste und Artikelkarte anzeigen können. Sie können auch auf die Informationen von Verkaufsbelegzeilen zugreifen, für den Artikel in der Zeile. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Um die Verfügbarkeit eines Artikels anzuzeigen gemäß dem, wann er erhalten oder gesendet wird
 Sie zeigen die Verfügbarkeit eines Artikels gemäß geplanter Artikeltransaktionen im Fenster **Verfügbarkeit nach Ereignis** an.
@@ -115,10 +115,10 @@ Wenn eine oder mehrere Montagekomponenten nicht verfügbar sind, wird dies im Fe
 ## <a name="see-also"></a>Siehe auch
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
-[Vorgehensweise: Mit Stücklisten arbeiten](inventory-how-work-BOMs.md)    
-[So wird's gemacht: Standorte einrichten](inventory-how-setup-locations.md)  
-[So geht's: Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)  
-[Gewusst wie: Produkte verkaufen](sales-how-sell-products.md)      
-[Arbeiten mit Dynamics 365](ui-work-product.md)  
+[Mit Fertigungsstücklisten arbeiten ](inventory-how-work-BOMs.md)    
+[Einrichten von Lagerorten](inventory-how-setup-locations.md)  
+[Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)  
+[Produkte verkaufen](sales-how-sell-products.md)      
+[Arbeiten mit Finance and Operations, Business edition](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

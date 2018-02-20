@@ -1,6 +1,6 @@
 ---
 title: Verwenden Sie Excel, um in Financials Stammdaten zu importieren | Microsoft Docs
-description: "Verwenden Sie das Standardkonfigurationspaket, um Debitorendaten in Excel hinzuzufügen und Daten nach Dynamics 365 Business edition zu importieren."
+description: "Verwenden Sie das Standardkonfigurationspaket, um Debitorendaten in Excel hinzuzufügen und Daten nach Finance and Operations, Business edition zu importieren."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: migration, Excel
 ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 433d014c41d2508d155891b5ac4e0437c41b3d9e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 53c32e77be0ec3dad95ca61cefa1f0db6ac4809b
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="importing-data-from-legacy-accounting-software-using-a-configuration-package"></a>Importieren von Daten aus der Vorgänger-Buchhaltungs-Software unter Verwendung eines Konfigurations-Pakets.
@@ -36,7 +36,7 @@ Das Standardkonfigurationspaket unterstützt die folgenden Tabellen:
 
 -   Zahlungsbedingungen
 -   Debitorenpreisgruppe
--   Lieferbedingung
+-   Lieferbedingungsmethode
 -   Verkäufer/Einkäufer
 -   Ort
 -   Gegenkonto
@@ -69,5 +69,6 @@ Nachdem die Debitorendaten in die Excel-Dateien für die Datenmigration eingegeb
 [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

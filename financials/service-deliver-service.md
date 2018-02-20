@@ -13,14 +13,14 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9c60f65b65c7037b4ce26212cfe80e7b7f1b1336
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 34283487641e7b249b556cec834531582c58af7a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="delivering-service"></a>Bereitstellen von Service
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  
   
 Ausstehende Serviceaufträge können auch im Fenster **Serviceaufgaben** geprüft werden. In dieser Ansicht der Serviceverpflichtungen wird angezeigt, an welcher Stelle des Serviceworkflows sich der Auftrag befindet, und der Status kann so geändert werden, dass die Interaktionen mit dem Debitor dargestellt werden.  
   
@@ -34,13 +34,13 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
   
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
-|Erstellen von Angeboten, die Entwürfe von Serviceaufträgen sind, und Angebote in Serviceaufträge umwandeln.|[Vorgehensweise: Erstellen von Serviceangeboten](service-how-to-create-service-quotes.md)|
-|Erstellen Sie Belege, die Informationen über einen Service wie Reparatur und Wartung enthalten, auf Serviceartikel.|[Vorgehensweise: Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)|
-|Planen der Servicebereitstellung mithilfe der **Einsatzplanung**. Zur Unterstützung der Planung können auch Projektmanagementtools in der Projektabteilung verwendet werden.|[Gewusst wie<. Ressourcen zuweisen](service-how-to-allocate-resources.md)|  
-|Dient zum Bereitstellen von Serviceaufgaben für Debitoren|[Vorgehensweise: Bearbeiten von Serviceaufgaben](service-how-to-work-on-service-tasks.md)|  
-|Buchen von Serviceaufträgen vor der Servicebereitstellung, damit die Buchhaltung auf dem neuesten Stand ist.|[Vorgehensweise: Buchen von Serviceaufträgen und Gutschriften](service-how-to-post-service-orders.md)|  
-|Erstellen und buchen Sie Rechnungen für Services, die Sie geliefert haben.|[Gewusst wie: Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.](service-how-create-invoices.md)|  
-|Debitoren zufriedenstellen, indem Sie ihnen ein Artikel verleihen, während Sie an ihren arbeiten.| [Vorgehensweise: Leihen und Zurücknehmen von Leihgeräten](service-how-to-lend-receive-loaners.md)|
+|Erstellen von Angeboten, die Entwürfe von Serviceaufträgen sind, und Angebote in Serviceaufträge umwandeln.|[So erstellen Sie Serviceangebote](service-how-to-create-service-quotes.md)|
+|Erstellen Sie Belege, die Informationen über einen Service wie Reparatur und Wartung enthalten, auf Serviceartikel.|[Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)|
+|Planen der Servicebereitstellung mithilfe der **Einsatzplanung**. Zur Unterstützung der Planung können auch Projektmanagementtools in der Projektabteilung verwendet werden.|[Ressourcen zuordnen](service-how-to-allocate-resources.md)|  
+|Dient zum Bereitstellen von Serviceaufgaben für Debitoren|[Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)|  
+|Buchen von Serviceaufträgen vor der Servicebereitstellung, damit die Buchhaltung auf dem neuesten Stand ist.|[Buchen von Serviceaufträgen und Gutschriften](service-how-to-post-service-orders.md)|  
+|Erstellen und buchen Sie Rechnungen für Services, die Sie geliefert haben.|[Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.](service-how-create-invoices.md)|  
+|Debitoren zufriedenstellen, indem Sie ihnen ein Artikel verleihen, während Sie an ihren arbeiten.| [Leihen und Zurücknehmen von Leihgeräten](service-how-to-lend-receive-loaners.md)|
   
 ## <a name="see-also"></a>Siehe auch  
 [Planungsservice](service-plan-service.md)  

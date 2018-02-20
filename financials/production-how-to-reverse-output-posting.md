@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7ac453ff87d78e6be0567ba93b58c0f8938f4052
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 73d90f585b86785b9bdb1355a52a682612488182
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reverse-output-posting"></a>Vorgehensweise: Eine Ausgangsbuchung stornieren
+# <a name="reverse-output-posting"></a>Gebuchte fertig gestellte Menge stornieren
 Es kann vorkommen, dass die Buchung einer fertig gestellten Menge storniert werden muss. Dies ist z. B. der Fall, wenn eine fehlerhafte Dateneingabe passiert ist und eine falsche fertiggestellte Menge in einem Fertigungsauftrag gebucht wurde.  
 
 ## <a name="to-reverse-an-output-posting"></a>Eine Ausgangsbuchung stornieren  
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Ausgabe-Buchblatt** ein und wählen den zugehörenden Link aus. Wählen Sie Ihren Stapel aus.  
-2. Füllen Sie die Felder je nach Bedarf aus. Weitere Informationen finden Sie unter [Vorgehensweise: Produktionsausgabe und Laufzeiten über Stapelverarbeitung buchen](production-how-to-post-output-quantity.md)
+2. Füllen Sie die Felder je nach Bedarf aus. Weitere Informationen finden Sie unter [Produktionsausgabe und Laufzeiten über Stapelverarbeitung buchen](production-how-to-post-output-quantity.md)
 3.  Wählen Sie im Feld **Ausgleich mit Lfd. Nr.** den zugeordneten Artikelposten aus. Dadurch werden der Kapazitäts- und der Artikelposten storniert.  
 4. Buchen Sie die Stornierung, indem Sie das Buch.-Blatt buchen.  
 

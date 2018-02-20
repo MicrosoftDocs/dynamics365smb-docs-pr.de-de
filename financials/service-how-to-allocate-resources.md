@@ -11,15 +11,15 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 462400f4a404592ec8f63e6a5e47e45c2158b7ea
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e975a945b878c39dc095e2e129a4ac0c02ee6c29
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-allocate-resources"></a>Gewusst wie<. Ressourcen zuweisen
-Kernstück des Servicemanagements sind die Mitarbeiter, von denen der Service bereitgestellt wird. Sie können einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)], um die geeigneten Mitarbeiter den entsprechenden Projekten zuzuweisen. Zuweisungen können auf Servicebereichen basieren, in denen Mitarbeiter tätig sind, oder in denen der Service stattfindet. Zudem können Ressourcen beim Antworten auf Serviceanforderungen zusammengruppiert werden. Weitere Informationen finden Sie unter [So gehts: Ressourcen zuweisen einrichten](service-how-setup-resource-allocation.md).
+# <a name="allocate-resources"></a>Ressourcen zuordnen
+Kernstück des Servicemanagements sind die Mitarbeiter, von denen der Service bereitgestellt wird. Sie können einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)], um die geeigneten Mitarbeiter den entsprechenden Projekten zuzuweisen. Zuweisungen können auf Servicebereichen basieren, in denen Mitarbeiter tätig sind, oder in denen der Service stattfindet. Zudem können Ressourcen beim Antworten auf Serviceanforderungen zusammengruppiert werden. Weitere Informationen finden Sie unter [Ressourcen zuweisen einrichten](service-how-setup-resource-allocation.md).
 
 Sie können Ressourcen, z B. Techniker zuweisen, indem Sie **Einsatzplanung** oder einen Serviceauftrag verwenden. Sie können Ressourcenverfügbarkeit verwenden, um Ressourcen zuzuordnen, um die Aufgaben in Aufträgen und Angeboten auszuführen.
 
@@ -90,7 +90,7 @@ Sie können Ressourcen direkt von einem Serviceauftrag oder Serviceangebot aus n
 Wenn die der Serviceaufgabe zugewiesene Ressource die Arbeiten nicht zu Ende führen kann, muss die Serviceaufgabe neu zugeordnet werden. Normalerweise ordnen Sie ein Serviceaufgabe mithilfe der **Einsatzplanung** neu zu.  
 
 1. Wählen Sie ![Nach Seite oder Bericht sucheb](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") und geben Sie **Einsatzplanung** ein und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie im Feld **Zuordnungsfilter****Neuzuordnung notwendig**. Das Fenster **Einsatzplanung** zeigt nun nur die Serviceaufträge mit Serviceaufgaben an, die eine Neuzuordnung benötigen.  
+2. Wählen Sie im Feld **Zuordnungsfilter** **Neuzuordnung notwendig**. Das Fenster **Einsatzplanung** zeigt nun nur die Serviceaufträge mit Serviceaufgaben an, die eine Neuzuordnung benötigen.  
 3. Wählen Sie den relevanten Serviceauftrag aus. Wählen Sie auf der Registerkarte **Navigieren** in der Gruppe **Planung** die Option **Ressourcenzuordnungen** aus. Das Fenster **Ressourcenzuordnungen** wird geöffnet.  
 4. Wählen Sie den Zuordnungsposten, dem Sie eine Ressource neu zuordnen wollen.  
 5. Wählen Sie im Feld **Ressourcennr.** die entsprechende Ressource aus. Die bereits im Feld vorhandene Ressourcennummer wird überschrieben.  
@@ -142,6 +142,6 @@ Sie können Ressourcenzuordnungen für Serviceaufgaben stornieren, ohne die Aufg
     > Die Anwendung wählt automatisch die Option **Neuzuordnung notwendig** in dem Feld **Status** aus. Falls der Reparaturstatus des Serviceartikels in dem Posten **Anfang** ist, wird der Reparaturstatus auf **Weitergeleitet** geändert (es wurden keine Servicearbeiten ausgeführt). Steht der Reparaturstatus auf **In Bearbeitung**, ändert sich der Status in **Nicht abgeschlossen** (einige Arbeiten wurden erledigt).
 
 ## <a name="see-also"></a>Siehe auch
-[Vorgehensweise: Einrichten von Ressourcenzuordnung](service-how-setup-resource-allocation.md)  
+[Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)  
 [Zuordnungsstatus und Reparaturstatus](service-allocation-status-and-repair-status.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: 'Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen | Microsoft Docs'
-description: "In Dynamics 365 können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden."
+description: "In Finance and Operations, Business edition können die eingehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 1d5cdff996da2d9886dce0d59d4f38796534972a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 991256bf2737297710d25f5a25854f4803185fc3
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
@@ -151,8 +151,8 @@ Im Fenster **Lagereinlagerung** können Sie Einlagerungen für einen spezifische
     Das erhaltene Zubehör wird jetzt in den Standardlagerplätzen der Artikel eingelagert, und 40 Scharniere werden in die Montageabteilung gebracht. Die eingegangenen Artikel sind jetzt für die Kommissionierung zum internen Bedarf, wie etwa für Montageaufträge, oder zum externen Bedarf, wie etwa für Verkaufslieferungen, verfügbar.  
 
 ## <a name="see-also"></a>Siehe auch  
- [Vorgehensweise: Einlagern von Artikeln mit Lagereinlagerungen](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
- [Vorgehensweise: Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md)   
+ [Einlagern von Artikeln mit Lagereinlagerungen](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
+ [Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Designdetails: Eingehender Lagerfluss](design-details-inbound-warehouse-flow.md)   
  [Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)

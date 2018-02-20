@@ -1,6 +1,6 @@
 ---
 title: 'Designdetails: Artikelverfolgungsdesign | Microsoft Docs'
-description: Dieses Thema beschreibt den Entwurf hinter der Artikelverfolgung in Dynamics 365.
+description: Dieses Thema beschreibt den Entwurf hinter der Artikelverfolgung in Finance and Operations, Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 20d04536d670e0c830ed3b92df8d570e6408fab4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 05a08fff7b3897a528f84dedd6da67cdbd2cd798
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-item-tracking-design"></a>Designdetails: Artikelverfolgungsdesign

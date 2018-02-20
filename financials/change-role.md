@@ -13,13 +13,13 @@ ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7e49359f29bcb101b2dc16236e9b617962248a67
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 454385cf346510396b7ff154164e4495bb784419
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-role-center"></a>So gehts: Ändern des Rollencenters
+# <a name="change-the-role-center"></a>So ändern Sie das Rollencenter
 Die Startseite bildet den Hauptzugang zu [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dort erhalten Sie einen Überblick über die täglichen Aufgaben und ihren Status. Der Zugriff auf die Aufgaben, die Sie ausführen, erfolgt häufig über die Kacheln im Inhaltsbereich, den Navigationsbereich links und über Aktionen im Menüband.
 
 Der Inhalt der Startseite basiert auf dem ausgewählten Rollencenter. Das Standardrollencenter für [!INCLUDE[d365fin](includes/d365fin_md.md)] ist **Geschäftsführer**. Sie können dies aber ändern und zwischen einer Reihe von Rollencentern auswählen.

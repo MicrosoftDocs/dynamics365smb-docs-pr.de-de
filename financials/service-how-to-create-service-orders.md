@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb514fe04fd70836f640d3db4ea592680ab0fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-orders"></a>Vorgehensweise: Erstellen von Serviceaufträgen
+# <a name="create-service-orders"></a>Erstellen von Serviceaufträgen
 Im Fenster **Serviceauftrag** können Sie Belege erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Kundenanfrage eingeben.  
   
 Wenn Sie einen Serviceauftrag erstellen, müssen Sie nur einige wenige Felder ausfüllen. Einige Felder sind optional und viele werden automatisch ausgefüllt, wenn Sie die damit verknüpften Felder ausfüllen.  
@@ -106,8 +106,8 @@ Serviceaufträge werden aber nicht automatisch gelöscht, wenn die Gesamtmenge d
 
 ## <a name="see-also"></a>Siehe auch  
 [Servicebuchung](service-service-posting.md)  
-[Vorgehensweise: Buchen von Serviceaufträgen](service-how-to-post-service-orders.md)  
+[Serviceauftrag buchen](service-how-to-post-service-orders.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
-[Vorgehensweise: Bearbeiten von Serviceaufgaben](service-how-to-work-on-service-tasks.md)  
-[Gewusst wie<. Ressourcen zuweisen](service-how-to-allocate-resources.md)  
+[Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)  
+[Ressourcen zuordnen](service-how-to-allocate-resources.md)  
 

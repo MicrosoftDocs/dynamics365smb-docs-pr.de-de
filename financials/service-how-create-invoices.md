@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7ee0dc8f0f44e9bb62fc87caf85eaf92d438abe6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fb65a8b978a0f87b27cc48a634c4ec64d230221d
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-invoices-or-credit-memos"></a>Gewusst wie: Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.
+# <a name="create-service-invoices-or-credit-memos"></a>Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.
 Die einfache Fakturierung von Serviceaufträgen ist ein zentrales Feature von [!INCLUDE[d365fin](includes/d365fin_md.md)] Sie können Debitoren jederzeit eine Rechnung schicken oder in regelmäßigen Abständen Rechnungen erstellen.  
   
 Eine direkte Erstellung von Rechnungen ist im Fenster **Servicevertrag** möglich. Das System kann auch so eingerichtet werden, dass ein Servicetechniker im Feld eine Rechnung für den Service erstellen kann, der nicht mit einem Vertrag oder Auftrag verbunden ist.  
@@ -99,7 +99,7 @@ Eine Servicegutschrift wird normalerweise verwendet, wenn ein Debitor einen Arti
 4. Geben Sie in die Gutschriftszeilen Informationen über die Artikel ein, die zurückgeschickt oder entfernt wurden, oder die Entschädigung, die Sie dem Debitor gewähren möchten.  
 
 ## <a name="see-also"></a>Siehe auch
-[Vorgehensweise: So buchen Sie Servicerechnungen](service-how-to-post-service-orders.md)  
+[So buchen Sie Servicerechnungen](service-how-to-post-service-orders.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Servicebuchung](service-service-posting.md)  
 

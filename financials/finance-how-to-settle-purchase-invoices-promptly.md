@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab72dbc70405323e5dcf7aafb1120f63bd15246c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 19e9e6e226ceca061be03d48526f258309095e0a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-settle-purchase-invoices-promptly"></a>Vorgehensweise: Sofortiges Ausgleichen von Einkaufsrechnungen
+# <a name="settle-purchase-invoices-promptly"></a>Einkaufsrechnungen sofort ausgleichen
 Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen Buchungen gleichzeitig bei der Buchung der Rechnung vornehmen.  
   
 ### <a name="to-settle-purchase-invoices-promptly"></a>So gleichen Sie Einkaufsrechnungen sofort aus  
@@ -34,6 +34,6 @@ Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen 
 >  Wenn Sie häufiger Rechnungen bar bezahlen, ist es sinnvoll, sich eine spezielle Zahlungsmethode mit einem Gegenkonto einzurichten und diese Methode in dem Feld **Zahlungsmethode** auf der Kreditorenkarte anzugeben. Die entsprechende Gegenkontonummer wird automatisch auf dem Rechnungskopf eingefügt, wenn Sie eine neue Rechnung erstellen.  
   
 ## <a name="see-also"></a>Siehe auch  
-[Verwalten von Verbindlichkeiten|](payables-manage-payables.md)  
+[Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

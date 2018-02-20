@@ -1,6 +1,6 @@
 ---
 title: Verwaltung von Verkaufschancen und Leads | Microsoft Docs
-description: "Beschreibt, wie sämtliche eingehenden Leads oder Verkaufschancen in Dynamics 365 verwaltet werden und verknüpft die Verkaufschance mit einem Vertriebsmitarbeiter, um die potenziellen Verkäufe nachverfolgen zu können."
+description: "Beschreibt, wie eingehende Leads oder Verkaufschancen in Finance and Operations, Business edition verwaltet werden und verknüpft sie mit einem Verkäufer, um die potenziellen Verkäufe nachverfolgen zu können."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67e385b6c3f533ab5c63259b9df7e775f2155897
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-sales-opportunities"></a>Verkaufschancen verwalten
@@ -28,8 +28,8 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 
 | Aufgabe | Siehe |
 | --- | --- |
-| Richten Sie die Verkaufsprozesse ein, nach denen Sie normalerweise vorgehen und die Stufen in den Verkaufsprozessen ein. |[Vorgehensweise: Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md) |
-| Erstellen der von den Kontakten stammenden Verkaufschancen |[Gewusst wie: Erstellen von Verkaufschancen](marketing-how-create-opportunities.md) |
+| Richten Sie die Verkaufsprozesse ein, nach denen Sie normalerweise vorgehen und die Stufen in den Verkaufsprozessen ein. |[Einrichten von Verkaufsprozessen für Verkaufschancen und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md) |
+| Erstellen der von den Kontakten stammenden Verkaufschancen |[Verkaufschancen erstellen](marketing-how-create-opportunities.md) |
 | Verschieben einer Verkaufschance durch den Verkaufsprozess bis zum Abschluss. |[Verarbeiten von Verkaufschancen](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Siehe auch

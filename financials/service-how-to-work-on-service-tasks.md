@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 32cbc23b24a8a04a62a246dd50eac8d8a721e2e7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e6db49370a1fc2d9a2bb99e55d00ed69908d703
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-on-service-tasks"></a>Vorgehensweise: Bearbeiten von Serviceaufgaben
+# <a name="work-on-service-tasks"></a>Mit Serviceaufgaben arbeiten
 Nachdem Sie Serviceaufträge und Angebote angelegt, Serviceartikelzeilen erfasst und den Serviceartikeln im Auftrag oder Angebot Ressourcen zugeordnet haben, können Sie mit der Reparatur und Wartung der Serviceartikel beginnen.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über ein Fenster **Serviceaufgaben**, in dem Sie einen Überblick über alle Serviceartikel erhalten, die zu beachten sind. Betrachten Sie das Fenster als Serviceeinsatzplanung - Sie erfahren, welche Aufträge ausstehen, können nach Ersatzteilen suchen und diese erfassen und den Lagerbestand auf dem aktuellen Stand halten.  
@@ -89,7 +89,7 @@ Wenn Sie einen Serviceartikel warten, der sich aus Komponenten zusammensetzt, k�
 ## <a name="to-change-the-response-time-for-a-service-item-line"></a>So ändern Sie die Reaktionszeit für eine Serviceartikelzeile  
 Wenn Sie eine Serviceartikelzeile in einem Serviceauftrag oder -angebot registrieren, wird die Reaktionszeit in Stunden automatisch eingegeben und das Reaktionsdatum wird entsprechend berechnet, je nach dem, ob der Serviceartikel zu einem Servicevertrag gehört. Die Reaktionszeit in Stunden und "Reagieren bis (Datum)" können geändert werden.  
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen-Symbol") aus und geben Sie **Serviceaufträge** oder **Serviceangebote**ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen-Symbol") aus und geben Sie **Serviceaufträge** oder **Serviceangebote**ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie den Serviceauftrag oder die -anfrage aus, um die Karte zu öffnen.  
 3. Geben Sie auf der Serviceartikelzeile, für die Sie die Reaktionszeit ändern möchten, entweder im Feld **Reaktionszeit (Std.)** oder in die Felder **Reagieren bis (Datum)** und **Reagieren bis (Uhrzeit)** die neuen Daten ein.  
 
@@ -106,7 +106,7 @@ Nachdem ein Serviceartikel repariert wurde, können Sie sowohl den Problemcode a
 4. Füllen Sie die Zeile aus. Wählen Sie die richtige Kombination von Problem- und Lösungscodes, und wählen Sie dann die Schaltfläche **OK**, um diese auf den Serviceartikel zu kopieren. Wenn keine geeignete Kombination gefunden wird, können Sie eine neue Kombination im Fenster erstellen.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Vorgehensweise: Einrichten der Fehlerberichte](service-how-setup-fault-reporting.md)
+[Einrichten der Fehlerberichte](service-how-setup-fault-reporting.md)
 [Zuordnungsstatus und Reparaturstatus](service-allocation-status-and-repair-status.md)  
 [Servicebuchung](service-service-posting.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: Importieren Sie Ihre Stammdaten in Dynamics 365 | Microsoft Docs
-description: "Sie können Daten für Debitoren, Kreditoren und Lager zum Beispiel aus Excel oder QuickBooks Dynamics GP, in Dynamics 365 migrieren."
+title: "Importieren Ihrer vorhandenen Geschäftsdaten in Finance and Operations, Business edition | Microsoft Docs"
+description: "Sie können Daten für Debitoren, Kreditoren und Lager zum Beispiel aus Excel oder QuickBooks oder Dynamics GP in Finance and Operations, Business edition migrieren."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: QuickBooks, transfer, import, migrate, initialize, implement
 ms.date: 09/25/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3f1df4bf771586c5e3e4d79d23c26051bf19c763
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f1339468507efc474c709f35fa04d61ca7e5b9a2
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Geschäftsdaten aus anderen Finanzsystemen importieren
@@ -22,7 +22,7 @@ Wenn Sie sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden, können 
 
 Vom Startbildschirm aus können Sie eine unterstützte Einrichtung vornehmen, mit der Sie die Daten einer Exceldatei oder aus anderen Formaten übertragen können. Die Art der Dateien, die Sie hochladen können, hängt von den Erweiterungen ab, die verfügbar sind. Beispielsweise können Sie Daten aus QuickBooks hochladen, da [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Erweiterung umfasst, die die Umwandlung von QuickBooks behandelt. Wenn Sie Daten aus anderen Finanzlösungen migrieren möchten, müssen Sie überprüfen, ob eine Erweiterung für diese Lösung verfügbar ist oder sie aus Excel importieren.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Vorlagen für Debitoren, Kreditoren und Lagerartikel, die Sie zum Anwenden wählen können, wenn Sie Ihre Daten importieren.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  umfasst Vorlagen für Debitoren, Kreditoren und Lagerartikel, die Sie zum Anwenden wählen können, wenn Sie Ihre Daten importieren.  
 
 ## <a name="importing-data-from-quickbooks-desktop-quickbooks-online-or-dynamics-gp"></a>Daten aus QuickBooks Desktop, QuickBooks Online oder Dynamics GP importieren
 Wenn Ihr Geschäft heute QuickBooks oder Dynamics GP verwendet, können Sie die relevanten Daten in eine Datei exportieren. Sie können dann die unterstütze Einrichtung öffnen, um die Daten zu übertragen.
@@ -33,7 +33,7 @@ Die unterstützte Einrichtung umfasst eine Option, die Vorgabe Konfiguration der
 Weitere Informationen finden Sie unter [QuickBooks Desktop Datenmigration](ui-extensions-quickbooks-data-migration.md), [QuickBooks Online Datenmigration](ui-extensions-quickbooks-online-data-migration.md) oder [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md).  
 
 ## <a name="importing-data-from-configuration-packages"></a>Importieren von Daten aus den Konfigurations-Paketen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst ein Konfigurationspaket, das Sie dann in Excel exportieren und dort die Daten einrichten können. Anschließend können die wieder von Excel importiert werden. Das Paket besteht aus 27 Tabellen, einschließlich Masterdaten wie Debitoren, Kreditoren, Artikel und Konten, andere grundsätzliche Einrichtungstabellen wie Versandarten und Transaktionstabellen wie Versandkopf und Zeilen.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  umfasst ein Konfigurationspaket, das Sie dann in Excel exportieren und dort die Daten einrichten können. Anschließend können die wieder von Excel importiert werden. Das Paket besteht aus 27 Tabellen, einschließlich Masterdaten wie Debitoren, Kreditoren, Artikel und Konten, andere grundsätzliche Einrichtungstabellen wie Versandarten und Transaktionstabellen wie Versandkopf und Zeilen.  
 
 > [!NOTE]  
 >   Das Arbeiten mit Konfigurationspaketen ist eine erweiterte Funktionalität und wir empfehlen, dass Sie sich an Ihren Administrator wenden. [Importieren von Daten aus der Vorgänger-Buchhaltungs-Software unter Verwendung eines Konfigurations-Pakets](across-import-data-configuration-packages.md)  
@@ -47,5 +47,6 @@ Weitere Informationen finden Sie unter [QuickBooks Desktop Datenmigration](ui-ex
 [Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)   
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

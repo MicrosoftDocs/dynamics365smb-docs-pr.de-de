@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4c6285b1e394e5953fd76953ed2ab45e9b40ec3d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 626cd19b6d4ed553d740964f1530b581e22b45a6
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-purchasing"></a>Einkauf einrichten
@@ -30,10 +30,10 @@ Einrichten von finanzbezogenen Einkäufen wie Zahlungsformen und Währungen werd
 
 | Aufgabe | Siehe |
 | --- | --- |
-| Erstellen Sie eine Kreditorenkarte für jeden Kreditor, von dem Sie einkaufen.|[Vorgehensweise: Einen neuen Kreditor registrieren](purchasing-how-register-new-vendors.md) |
+| Erstellen Sie eine Kreditorenkarte für jeden Kreditor, von dem Sie einkaufen.|[Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md) |
 | Eingeben der unterschiedlichen Rabatte und alternativen Preise, die vom Kreditor in Abhängigkeit des Artikels, der Menge und/oder des Datums gewährt werden |[Erfassen von Einkaufspreisen, Skonti und Zahlungsvereinbarungen](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| Kreditoren priorisieren |[Vorgehensweise: Priorisieren von Kreditoren](purchasing-how-prioritize-vendors.md) |
-| Einkäufer einrichten |[Vorgehensweise: Einrichten von Einkäufern](purchasing-how-setup-purchasers.md) |
+| Kreditoren priorisieren |[Kreditoren priorisieren](purchasing-how-prioritize-vendors.md) |
+| Einkäufer einrichten |[Einkäufer einrichten](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  

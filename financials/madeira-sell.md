@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business edition verkaufen | Microsoft Docs
-description: "Herausfinden, wie Sie Ihre Geschäftschancen erweitern und ein Microsoft Partner und Dynamics 365 Business edition-Wiederverkäufer werden."
+title: Finance and Operations, Business edition  | Microsoft Docs verkaufen
+description: "Herausfinden, wie Sie Ihre Geschäftschancen erweitern und ein Microsoft Partner und D Finance and Operations, Business edition Wiederverkäufer werden."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,18 +13,18 @@ ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 582d000456c6802131c69fc5c0b391905a9b4ddf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6766559f314c6fd9031f9599f414dae0eff984f8
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Werden ein Wiederverkäufer von [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Erweitern Sie Ihre Geschäftschance mit [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-Wenn Sie in den Cloudlösungen, in Office 365 in SharePoint, in den Branchenlösungen, in der Analytik, in ERP, in CRM, in der Buchhaltungs-Software und/oder in der Geschäftsvorgangsoptimierungs-Software/in den Services spezialisieren, ist Dynamics 365 eine neue Verkaufschance.   
+Wenn Sie in den Cloudlösungen, in Office 365 in SharePoint, in den Branchenlösungen, in der Analytik, in ERP, in CRM, in der Buchhaltungs-Software und/oder in der Geschäftsvorgangsoptimierungs-Software/in den Services spezialisieren, ist Finance and Operations, Business edition eine neue Verkaufschance.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt Sie dabei, Kundenbeziehungen zu differenzieren und zu vertiefen, indem es Ihnen die Möglichkeit gibt, die Unternehmensverwaltungslösung unmittelbar abzustimmen und Personen und Arbeitsgänge miteinander zu verbinden, und zwar eingebettet in die Microsoft Office-Tools, die kleine und mittlere Unternehmen jeden Tag verwenden.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt Sie dabei, Kundenbeziehungen zu differenzieren und zu vertiefen, indem es Ihnen die Möglichkeit gibt, die Unternehmensverwaltungslösung unmittelbar abzustimmen und Personen und Arbeitsgänge miteinander zu verbinden, und zwar eingebettet in die Microsoft Office-Tools, die kleine und mittlere Unternehmen jeden Tag verwenden.  
 
 ## <a name="get-started"></a>Erste Schritte
 Melden Sie sich an bei [!INCLUDE[d365fin](includes/d365fin_md.md)] Vorschau unter [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  

@@ -12,20 +12,20 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-new-items"></a>Vorgehensweise: Neue Artikel registrieren
+# <a name="register-new-items"></a>Neue Artikel registrieren
 Produkte sind die Basis Ihres Unternehmens, die Waren oder Dienstleistungen, mit denen Sie handeln. Jedes Produkt muss als Artikelkarte registriert werden.
 
 Artikelkarten verwahren die Informationen, die benötigt werden, um Produkte einzukaufen, einzulagern, zu liefern und zu berechnen.
 
-Die Artikelkarte kann den Typ **Bestand** oder **Service** haben, um anzuzeigen, ob das Produkt eine physische Einheit oder eine Arbeitszeiteinheit ist. Neben einiger Felder, die sich mit den physischen Aspekten eines Artikels verknüpfen, arbeiten alle Felder auf einer Artikelkarte auf die gleiche Weise für Lagerartikel und Dienstleistungen. Weitere Informationen über den Verkauf von Artikeln finden Sie unter [So gehts: Produkte verkaufen](sales-how-sell-products.md) oder [So gehts: Fakturieren](sales-how-invoice-sales.md).
+Die Artikelkarte kann den Typ **Bestand** oder **Service** haben, um anzuzeigen, ob das Produkt eine physische Einheit oder eine Arbeitszeiteinheit ist. Neben einiger Felder, die sich mit den physischen Aspekten eines Artikels verknüpfen, arbeiten alle Felder auf einer Artikelkarte auf die gleiche Weise für Lagerartikel und Dienstleistungen. Weitere Informationen über den Verkauf von Artikeln finden Sie unter [Produkte verkaufen](sales-how-sell-products.md) oder [Fakturieren](sales-how-invoice-sales.md).
 
-Ein Artikel kann als übergeordneter Artikel mit zugrunde liegenden untergeordneten Elementen in Stücklisten (BOM) strukturiert werden. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kann eine Stückliste entweder eine Montagestückliste oder eine Fertigungsstückliste sein, abhängig von dessen Verwendung. Weitere Informationen finden Sie unter [Vorgehensweise: Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).
+Ein Artikel kann als übergeordneter Artikel mit zugrunde liegenden untergeordneten Elementen in Stücklisten (BOM) strukturiert werden. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kann eine Stückliste entweder eine Montagestückliste oder eine Fertigungsstückliste sein, abhängig von dessen Verwendung. Weitere Informationen finden Sie unter [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   Wenn für verschiedene Artikelarten Artikelvorlagen existieren, öffnet sich ein Fenster, aus dem Sie eine entsprechende Artikelvorlage auswählen können, sobald eine neue Artikelkarte erstellt wird . Wenn nur eine Artikelvorlage vorhanden ist, verwenden neue Artikelkarten immer diese Vorlage.
@@ -77,7 +77,5 @@ Die Kreditoren erscheinen dann im Fenster **Artikel/Lieferanten Katalog**, damit
   [Lagerbest](inventory-manage-inventory.md)  
   [Einkauf](purchasing-manage-purchasing.md)  
   [Verkauf](sales-manage-sales.md)  
-  [Arbeiten mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

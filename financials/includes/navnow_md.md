@@ -1,1 +1,1 @@
-Dynamics 365 (On-Premises)
+Microsoft Dynamics 365 for Finance and Operations, Business edition (lokal)

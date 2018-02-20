@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 6b45f26f4e9ef63d0bdb6cfe755c0e7a45142483
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetails: Abgleich mit der Finanzbuchhaltung
@@ -84,16 +84,16 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
     1. Die Interimskonten werden gelöscht. (Verkauf)  
     2. Kosten der verkauften Waren (COGS) werden gebucht. (Verkauf)  
 
-        ![Ergebnisse der Veräußerung beim Buchen auf G&#47; L-Konten] (media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Ergebnisse der Veräußerung beim Buchen auf G&#47; L-Konten](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
 5. Der Benutzer bucht einen Verbrauch von 150 Gliedern, der die Anzahl der Links ist, die verwendet werden, um eine Kette herzustellen. (Materialverbrauch)  
 
-    ![Ergebnisse des Materials beim Buchen auf G&#47; L-Konten] (media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_sales")  
+    ![Ergebnisse des Materials beim Buchen auf G&#47; L-Konten](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_sales")  
 6. Diese Arbeitsplatzgruppe brauchte 60 Minuten, um die Kette herzustellen. Der Benutzer bucht die Verarbeitungskosten. (Verbrauch, Kapazität)  
 
     1. Die direkten Kosten werden gebucht. (Verbrauch, Kapazität)  
     2. Die indirekten Kosten werden berechnet und gebucht. (Verbrauch, Kapazität)  
 
-        ![Ergebnisse der Kapazität beim Buchen auf G&#47; L-Konten] (media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Ergebnisse der Kapazität beim Buchen auf G&#47; L-Konten](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_sales")  
 7. Der Benutzer bucht die Soll-Kosten einer Kette. (Istmeldung)  
 8. Der Benutzer beendet den Fertigungsauftrag und führt die Stapelverarbeitung **Kostenanpassung Artikeleinträge** aus. (Istmeldung)  
 
@@ -115,7 +115,7 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
 
 9. Der Benutzer bewertet die Kette um von MW 150,00 auf MW 140,00. (Regulierung/Neubewertung/Rundung/Umlagerung)  
 
-    ![Ergebnisse der Anpassung beim Buchen auf G&#47; L-Konten] (media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
+    ![Ergebnisse der Anpassung beim Buchen auf G&#47; L-Konten](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
 
 Weitere Informationen über das Verhältnis zwischen den Kontotypen und den verschiedenen Arten von Wertposten finden Sie unter [Designdetails. Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)  
 

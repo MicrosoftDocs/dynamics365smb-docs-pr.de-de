@@ -13,13 +13,13 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ceea5fba1b2daeab3c517d87e3e31e29d53441c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 484d21ad14991d663de3e9c5491455fe60494a06
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-employees"></a>Vorgehensweise: Mitarbeiter erfassen
+# <a name="register-employees"></a>Erfassen eines Mitarbeiters
 Um die Personalwesenfunktionalität zu verwenden, müssen Sie jeden Mitarbeiter zuerst erfassen, indem Sie eine Karte mit allen wesentlichen und zugehörigen Informationen erstellen.
 
 Die Mitarbeiterinformationen können jederzeit geändert werden. Sind die Mitarbeiterdatensätze auf dem neuesten Stand, vereinfacht dies personalbezogene Aufgaben. Ändert sich beispielsweise die Adresse eines Mitarbeiters, kann diese Information auf der entsprechenden Mitarbeiterkarte erfasst werden.
@@ -27,7 +27,7 @@ Die Mitarbeiterinformationen können jederzeit geändert werden. Sind die Mitarb
 Die folgenden Prozeduren beschreiben, wie eine ursprüngliche Mitarbeiterkarte erstellt wird und wie einem Mitarbeiter zwei Arten von Mitarbeiterdetails zugewiesen werden. Darüber hinaus können Sie verschiedene andere zugehörige Informationen zuweisen, wie Qualifikationen und Gründe für Inaktivität. Sie weisen Mitarbeiterinformationen entweder zu, indem Sie ein Feld oder eine Aktion in einem Fenster **Mitarbeiterkarte** auswählen.
 
 > [!NOTE]  
-> Sie können einem Mitarbeiter seine Ausgaben während Geschäftsaktivitäten erstatten. Dazu müssen Sie die Felder auf dem Inforegister **Zahlungen** im Fenster **Mitarbeiterkarte** ausfüllen. Weitere Informationen finden Sie unter [Vorgehensweise: Erstatten Sie die Ausgaben der Mitarbeiter zurück](finance-how-record-reimburse-employee-expenses.md).
+> Sie können einem Mitarbeiter seine Ausgaben während Geschäftsaktivitäten erstatten. Dazu müssen Sie die Felder auf dem Inforegister **Zahlungen** im Fenster **Mitarbeiterkarte** ausfüllen. Weitere Informationen finden Sie unter [Erstatten Sie die Ausgaben der Mitarbeiter zurück](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Einen Mitarbeiter einrichten:
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mitarbeiter** ein. Wählen Sie dann den zugehörigen Link aus.
@@ -57,8 +57,8 @@ Sie können alternative Adressen verwenden, um die Aufenthaltsorte Ihrer Mitarbe
 5. Wiederholen Sie Schritt 4 für jede alternative Adresse.
 
 ## <a name="see-also"></a>Siehe auch
-[Vorgehensweise: Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen](finance-how-record-reimburse-employee-expenses.md)  
+[Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen](finance-how-record-reimburse-employee-expenses.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Anpassen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)
+[Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)
 

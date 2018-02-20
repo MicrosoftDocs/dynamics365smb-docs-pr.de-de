@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a193d1ac19a0474b4a541165ef9f06d21ac7fb7d
 ms.contentlocale: de-de
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-boms"></a>So wird's gemacht: Neue Fertigungsstücklisten erzeugen
+# <a name="create-production-boms"></a>Fertigungsauftrag erstellen
 In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponenten und Unterbaugruppen beschrieben werden, die bei der Fertigung eines übergeordneten Artikels verwendet werden. Sobald ein Fertigungsauftrag für diesen übergeordneten Artikel erstellt wurde, wird über die entsprechende Fertigungsstückliste die Berechnung des Materialbedarfs gesteuert, die im Fenster **Prod. Bestellkomponenten** dargestellt wird.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt auch Montagestücklisten. Montageaufträge werden für die Produktion von Endartikeln aus Komponenten in einem einfachen Prozess verwendet, der mit einer oder mehreren grundlegenden Ressourcen, die keine Maschinen oder Arbeitsplatzgruppen sind, oder ganz ohne Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und einen Sack Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken. Weitere Informationen finden Sie im Abschnitt "Montagestücklisten- oder Fertigungsstückliste" im Abschnitt [Vorgehensweise: Mit Stücklisten arbeiten](inventory-how-work-BOMs.md)  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]   unterstützt auch Montagestücklisten. Montageaufträge werden für die Produktion von Endartikeln aus Komponenten in einem einfachen Prozess verwendet, der mit einer oder mehreren grundlegenden Ressourcen, die keine Maschinen oder Arbeitsplatzgruppen sind, oder ganz ohne Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und einen Sack Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken. Weitere Informationen finden Sie im Abschnitt "Montagestücklisten- oder Fertigungsstückliste" im Abschnitt [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md)  
 
 Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:  
 
-- Artikelkarten wurden für übergeordnete Artikel erstellt, die an der Fertigung teilnehmen. Weitere Informationen finden Sie unter [Vorgehensweise: Neue Artikel registrieren](inventory-how-register-new-items.md).
-- Die Ressourcen sind eingerichtet. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Arbeitsplatzgruppen und Arbeitsplätzen](production-how-to-set-up-work-and-machine-centers.md)
+- Artikelkarten wurden für übergeordnete Artikel erstellt, die an der Fertigung teilnehmen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
+- Die Ressourcen sind eingerichtet. Weitere Informationen finden Sie unter [Einrichten von Arbeitsplatzgruppen und Arbeitsplätzen](production-how-to-set-up-work-and-machine-centers.md)
 
 ## <a name="to-create-a-production-bom"></a>Erstellen Sie eine neue Fertigungsstückliste.  
 1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Fertigungsstücklisten** ein. Wählen Sie dann den zugehörigen Link aus.  
@@ -39,15 +39,15 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 5. Wählen Sie im Feld **Art** aus, ob es sich bei dem Artikel in der Fertigungsstücklistenzeile um einen normalen Artikel oder um eine Fertigungsstückliste handelt. In diesem Fall muss die Fertigungsstückliste bereits als zertifizierte Fertigungsstückliste vorhanden sein.  
 6.  Geben Sie im Feld **Nr.** den zu verwendenden Artikel bzw. die zu verwendende Fertigungsstückliste, und wählen Sie sie aus (bzw. geben Sie sie im Feld ein).  
 7.  Geben Sie im Feld **Komponentenmenge** ein, wie viele Einheiten des Artikels zum übergeordneten Artikel gehören, z. B. 4 Räder für 1 Auto.  
-8.  Im Feld **Ausschuss %** können Sie einen festen Prozentsatz für die Komponenten eingeben, die im Fertigungsvorgang voraussichtlich als Ausschuss anfallen. Sobald die Komponenten in einem freigegebenen Fertigungsauftrag verbraucht werden können, wird dieser Prozentsatz auf einem Produktionsprotokoll im Feld **Verbrauchsmenge** zur erwarteten Menge addiert. Weitere Informationen finden Sie unter [Vorgehensweise: Verbrauch und Ausgabe](production-how-to-register-consumption-and-output.md).  
+8.  Im Feld **Ausschuss %** können Sie einen festen Prozentsatz für die Komponenten eingeben, die im Fertigungsvorgang voraussichtlich als Ausschuss anfallen. Sobald die Komponenten in einem freigegebenen Fertigungsauftrag verbraucht werden können, wird dieser Prozentsatz auf einem Produktionsprotokoll im Feld **Verbrauchsmenge** zur erwarteten Menge addiert. Weitere Informationen finden Sie unter [Verbrauch und Ausgabe](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  Der Ausschussprozentsatz steht für Komponenten, die während der Fertigung bei der Kommissionierung aus dem Lagerbestand als Ausschuss anfallen, wohingegen der Ausschussprozentsatz in Arbeitsgängen für die als Ausschuss anfallende Istmenge vor der Lageraufnahme steht.  
 
-9.  Geben Sie im Feld **Verbindungscode** einen Code für die Verbindung der Komponente mit einem bestimmten Arbeitsgang ein. Weitere Informationen finden Sie im Abschnitt "Verbindungslinks erstellen im Abschnitt [Vorgehensweise: Routings erstellen](production-how-to-create-routings.md)
+9.  Geben Sie im Feld **Verbindungscode** einen Code für die Verbindung der Komponente mit einem bestimmten Arbeitsgang ein. Weitere Informationen finden Sie im Abschnitt "Verbindungslinks erstellen im Abschnitt [Routings erstellen](production-how-to-create-routings.md)
 10. Wenn Sie aus einer vorhandenen Fertigungsstückliste Zeilen kopieren möchten, klicken Sie auf Aktionen, Funktion, **Fertigungsstückliste kopieren**, um vorhandene Zeilen auszuwählen.  
 11.  Überprüfen Sie die Fertigungsstückliste.  
-12.  Sie können die neue Fertigungsstückliste an die Karte des betreffenden übergeordneten Artikels anhängen. Weitere Informationen finden Sie unter [Vorgehensweise: Neue Artikel registrieren](inventory-how-register-new-items.md).  
+12.  Sie können die neue Fertigungsstückliste an die Karte des betreffenden übergeordneten Artikels anhängen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Um den Einstandspreis für den Artikel über die Artikelkarte neu zu berechnen, wählen Sie die Aktion **Produktion** und wählen Sie dann **Stückl. Einst.-Preis berechnen** aus.  
@@ -92,7 +92,7 @@ Die Beziehung der einzelnen Komponenten wird durch die Formel festgelegt. Folgen
 In einer Fertigungsstückliste werden siebzig Metallteile mit den Abmessungen Länge = 0,20 m und Breite = 0,15 m benötigt. Die Werte werden folgendermaßen eingegeben: Formel = Länge * Breite, Länge = 20, Breite = 15, Komponentenmenge = 70. Die Menge ergibt sich aus: Komponentenmenge pro Länge x Breite, dies ergibt, Menge = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
 ## <a name="see-also"></a>Siehe auch  
-[So wird's gemacht: neue Arbeitspläne erzeugen](production-how-to-create-routings.md)   
+[Routings erstellen](production-how-to-create-routings.md)   
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planung](production-planning.md)   

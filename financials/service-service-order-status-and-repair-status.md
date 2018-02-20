@@ -1,6 +1,6 @@
 ---
 title: Serviceauftragsstatus und Reparaturstatus | Microsoft Docs
-description: Das Feld **Status** im Fenster **Serviceauftrag** und das Feld **Reparaturstatuscode** (der Serviceartikelreparaturstatus) im Fenster **Serviceauftrag stellen** im Service eine bestimmte Beziehung zueinander dar. Der Serviceauftragsstatus spiegelt den Reparaturstatus aller Serviceartikel des Serviceauftrags wider.
+description: Das Feld **Status** im Fenster **Serviceauftrag** und das Feld **Reparaturstatuscode** (der Serviceartikelreparaturstatus) im Fenster **Serviceauftrag** stellen im Service eine bestimmte Beziehung zueinander dar. Der Serviceauftragsstatus spiegelt den Reparaturstatus aller Serviceartikel des Serviceauftrags wider.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a1d2177ab417eb932110ea610474b969acf7a26b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 21f4a6fc048688858cad77fb3d306fb39bd5620c
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-order-status-and-repair-status"></a>Serviceauftragsstatus und Reparaturstatus
@@ -63,6 +63,6 @@ Eine typische Zuordnung von Prioritätsstufen könnte folgendermaßen aussehen:
 Wenn ein Serviceartikel z. B. den Status **Anfang** hat (verbunden mit dem Serviceauftragsstatus **Warten**), einer den Reparaturstatus **In Bearbeitung** (verbunden mit dem Serviceauftragsstatus **In Bearbeitung**) und ein dritter den Reparaturstatus **Ersatzteil bestellt** (verbunden mit dem Serviceauftragsstatus **Warten**), ist der Auftragsstatus dann **In Bearbeitung**, weil er die höchste Priorität hat.  
   
 ## <a name="see-also"></a>Siehe auch  
-[Vorgehensweise: Einrichten von Status für Serviceaufträge und Reparaturen](service-order-repair-status.md)  
+[Einrichten von Status für Serviceaufträge und Reparaturen](service-order-repair-status.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bd80d0a7a701256dfdae3346e899b84eeb990a40
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f4796d9796788d2fbbf5706688aec75a4ed9a6d8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="automatic-transfer-and-combined-entries"></a>Automatische Übertragung und kombinierte Posten
@@ -32,7 +32,7 @@ In der Kostenrechnung können Sie Sachposten in eine Kostenart transferieren, in
 >  Wenn Sie das Kontrollkästchen **Automatischer Übertrag vom Buch-Blatt** im Fenster **Kostenrechnung einrichten** aktiviert haben, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] die Kostenrechnung nach jeder Buchung in der Finanzbuchhaltung aktualisiert. Kombinierte Posten sind nicht möglich.  
 
 ## <a name="see-also"></a>Siehe auch  
- [Vorgehensweise: Übertragen von Sachposten in Kostenposten](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+ [So übertragen Sie Sachposten in Kostenposten](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
  [Kriterien für die Übertragung von Sachposten in Kostenposten](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
  [Ergebnisse der Übertragung](finance-results-of-the-transfer.md)   
  [Übertragung und Buchung von Kostenzuteilungen](finance-transfer-and-post-cost-entries.md)  

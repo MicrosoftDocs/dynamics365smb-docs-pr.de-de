@@ -13,24 +13,24 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1b075d164e18a52fbda56cced8d88fabc77bec3f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7dafbb96b4ce4f5ad525ab299edd8549c7aa600e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-manufacturing-batch-units-of-measure"></a>Vorgehensweise: Verwenden der Stapel-Fertigungsloseinheit
+# <a name="work-with-manufacturing-batch-units-of-measure"></a>Verwenden der Fertigungsloseinheit
 Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einheit gefertigt wird, wird ein Fertigungsauftrag erstellt, für den eine Fertigungsloseinheit verwendet wird, um in der Stapelverarbeitung **Herstellungsantrag erneuern** die richtige Menge der Komponenten zu berechnen. Ein Beispiel für eine Berechnung über eine Fertigungsloseinheit ergibt sich, wenn ein Produktionsartikel am Lager in Einheiten geführt, aber in Tonnen gefertigt wird.  
 
 ## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Eine Fertigungsstückliste mit eine Fertigungsloseinheit erstellen  
 1.  Die Fertigungsloseinheit wird für den zu fertigenden Artikel im Fenster **Artikeleinheiten** als alternative Einheit eingerichtet. Die Fertigungsloseinheit ersetzt nicht die Basiseinheit für den Artikel.  
-2.  Erstellen Sie eine Fertigungsstückliste für den Artikel, die mit der Fertigungsloseinheit eingerichtet wird. Weitere Informationen finden Sie unter [Gewusst wie: Erstellen von Montagestücklisten](production-how-to-create-production-boms.md).  
+2.  Erstellen Sie eine Fertigungsstückliste für den Artikel, die mit der Fertigungsloseinheit eingerichtet wird. Weitere Informationen finden Sie unter [Erstellen von Montagestücklisten](production-how-to-create-production-boms.md).  
 3.  Wählen Sie im Feld **Basiseinheitencode** die Fertigungsloseinheit aus.  
 4.  Geben Sie für jede Zeile der Fertigungsstückliste in das Feld **Komponentenmenge** die Menge dieses Komponentenartikels ein, die zum Erstellen dieser Fertigungsloseinheit erforderlich ist.  
 5.  Öffnen Sie die  **Artikelkarte** des zugehörigen Artikels.  
 
     Wählen Sie im Inforegister **Beschaffung** im Feld **Fert.-Stücklistennr.** die oben erstellte Fertigungsstückliste aus.  
-6.  Erstellen Sie einen Fertigungsauftragskopf mit dem Artikel, der mit der Fertigungsloseinheit eingerichtet wurde. Weitere Informationen finden Sie unter [Gewusst wie: Erstellen von Montageaufträgen](production-how-to-create-production-orders.md).  
+6.  Erstellen Sie einen Fertigungsauftragskopf mit dem Artikel, der mit der Fertigungsloseinheit eingerichtet wurde. Weitere Informationen finden Sie unter [Erstellen von Montageaufträgen](production-how-to-create-production-orders.md).  
 7.  Wählen Sie die Schaltfläche **Aktualisieren**, und wählen Sie dann die Schaltfläche **OK**.  
 
 Wählen Sie im Inforegister **Zeilen** **Aktionen**, und wählen Sie Zeile, und dann **Komponenten**, um das Ergebnis anzuzeigen. Das Programm berechnet die richtige Menge der Komponenten, die für die Fertigungsstückliste gemäß der Fertigungsloseinheit erforderlich ist.  
@@ -46,8 +46,8 @@ Wählen Sie im Inforegister **Zeilen** **Aktionen**, und wählen Sie Zeile, und 
 8.  Wählen Sie im Inforegister **Zeilen** **Aktionen**, und wählen Sie Zeile, und dann **Komponenten**, um das Ergebnis anzuzeigen. Die richtige Menge der Komponenten, die für die Fertigungsstückliste gemäß der Fertigungsloseinheit erforderlich ist, wird berechnet.  
 
 ## <a name="see-also"></a>Siehe auch  
-[So wird's gemacht: neue Arbeitspläne erzeugen](production-how-to-create-routings.md)  
-[So wird's gemacht: Neue Fertigungsstücklisten erzeugen](production-how-to-create-production-boms.md)     
+[Routings erstellen](production-how-to-create-routings.md)  
+[Fertigungsauftrag erstellen](production-how-to-create-production-boms.md)     
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planung](production-planning.md)   

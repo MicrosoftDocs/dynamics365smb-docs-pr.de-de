@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2e47adde6da02252ee1dd15abb8cbd905579420b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Informationen zur Berechnung von festen Einstandspreisen
@@ -52,7 +52,7 @@ Die folgenden wesentlichen Kostenelemente bilden die direkten Kosten eines ferti
 -   Direkte Materialkosten entsprechen dem in Rechnung gestellten Betrag für gekauftes Rohmaterial oder den Produktionskosten bei Halbfabrikaten.  
 -   Indirekte Materialkosten (oder *Gemeinkosten*) entsprechen beispielsweise den Logistikkosten für den produzierten fertigen Artikel.  
 
-Das Konfigurieren der Materialkosten für Einkaufsartikel hinsichtlich der direkten und der indirekten Kosten hängt von der Lagerabgangsmethode ab, die für den fraglichen Artikel ausgewählt ist. Die Kosteninformationen für jede Lagerabgangsmethode auf der Artikelkarte. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten neuer Artikel](inventory-how-register-new-items.md).
+Das Konfigurieren der Materialkosten für Einkaufsartikel hinsichtlich der direkten und der indirekten Kosten hängt von der Lagerabgangsmethode ab, die für den fraglichen Artikel ausgewählt ist. Die Kosteninformationen für jede Lagerabgangsmethode auf der Artikelkarte. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
 Ausschusskosten (nur Fertigung) sind ein zusätzlicher Faktor, der bei der Berechnung der Gesamtmaterialkosten zu berücksichtigen ist. Wenn bei der Montage oder Herstellung eines Artikels eine bestimmte Menge Rohmaterial als Ausschuss anfällt, hat dies zur Folge, dass mehr Komponenten benötigt werden, um den Artikel zu produzieren. Dadurch erhöhen sich auch dadurch die Materialkosten für die Komponenten, die beim Produzieren eines übergeordneten Artikels verbraucht werden. Ausschusskosten für Materialien können entweder auf der Fertigungsstückliste oder auf dem Arbeitsplan eingerichtet werden.  
 
@@ -98,13 +98,13 @@ Um den festen Einstandspreis von Montageartikeln zu aktualisieren oder zu berech
 Die Aktualisierung oder Berechnung von festen Einstandspreisen umfasst üblicherweise die folgenden Aufgaben:  
 
 1.  Aktualisieren von Kosten auf der Komponenten- und Kapazitätsebene. Weitere Informationen finden Sie unter Stapelverarbeitungen **Artikel Einst.-Preis vorschlagen** und **Einstandspreis für Kapazität vorschlagen**.  
-2.  Konsolidieren und mehrstufiges Berechnen der Komponenten- und Kapazitätskosten, um die Gesamtproduktionskosten der Artikel zu berechnen. Weitere Informationen finden Sie unter "Einstandspreis eines Montageartikels berechnen unter  [Vorgehensweise: Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).  
+2.  Konsolidieren und mehrstufiges Berechnen der Komponenten- und Kapazitätskosten, um die Gesamtproduktionskosten der Artikel zu berechnen. Weitere Informationen finden Sie unter "Einstandspreis eines Montageartikels berechnen unter  [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).  
 3.  Implementieren der festen Einstandspreise, die bei der Ausführung der vorherigen Batchaufträge eingegeben werden. Die festen Einstandspreise treten erst in Kraft, wenn Sie implementiert werden. Weitere Informationen finden Sie unter dem Stapelverarbeitungsauftrag **Artikel Einst.-Preis implementieren**.  
-4.  Implementieren der Änderungen, um das Feld **Einstandspreis** auf der Artikelkarte zu aktualisieren und eine Lagerneubewertung durchzuführen. Weitere Informationen finden Sie unter [So geht's: Bestand anpassen](inventory-how-revalue-inventory.md).
+4.  Implementieren der Änderungen, um das Feld **Einstandspreis** auf der Artikelkarte zu aktualisieren und eine Lagerneubewertung durchzuführen. Weitere Informationen finden Sie unter [Neubewerten von Lagerbestand](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)   
- [Vorgehensweise: Mit Stücklisten arbeiten](inventory-how-work-BOMs.md)   
- [Vorgehensweise: Aktualisieren von festen Einstandspreisen](finance-how-to-update-standard-costs.md)   
+ [Mit Fertigungsstücklisten arbeiten ](inventory-how-work-BOMs.md)   
+ [Standardkosten aktualisieren](finance-how-to-update-standard-costs.md)   
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)
 

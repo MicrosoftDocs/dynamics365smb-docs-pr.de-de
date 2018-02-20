@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 11d7ef56e980ba263dba6328b2f2f08b86410242
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="searching-filtering-and-sorting-data"></a>Ermitteln, filternd und Sortieren von Daten
@@ -88,7 +88,7 @@ Sie können allen Seiten Filter hinzufügen, indem Sie Schnellfilter oder erweit
 Sie können einen Filter für einen oder mehreren Spalten aus einer Liste hinzufügen. Das Filtern in Spalten ist flexibel und erhöht als den Schnellfilter. 
 
 ### <a name="to-add-a-filter-on-a-column"></a>Um einen Filter für eine Spalte hinzufügen
-1.  Bevor Sie Filter hinzufügen, wählen Sie ![Anzeigen als Liste] (media/ui_show_as_list_icon.png "Anzeigen als linken Listenpfeil"), um die Listenansicht zu ändern.
+1.  Bevor Sie Filter hinzufügen, wählen Sie ![Anzeigen als Liste](media/ui_show_as_list_icon.png "Anzeigen als linken Listenpfeil"), um die Listenansicht zu ändern.
 2. Wählen Sie den Abwärts-Pfeil in die Spaltenüberschrift, und wählen Sie dann **Filter**.
 3. Führen Sie einen der folgenden Schritte aus: 
   -  Wählen Sie *...* neben dem Feld, um einen Wert aus einer Liste auszuwählen.

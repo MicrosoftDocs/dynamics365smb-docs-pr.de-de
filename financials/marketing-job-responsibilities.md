@@ -13,13 +13,13 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 673c7a118c5f589319bd967bfaea3bedef84f9ff
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Vorgehensweise: Einrichten von Verantwortlichkeiten von Kontaktpersonen
+# <a name="set-up-job-responsibilities-for-contact-persons"></a>Einrichten von Verantwortlichkeiten von Kontaktpersonen
 Sie können Informationen zu den Verantwortlichkeiten von Kontaktpersonen hinzufügen, um anzuzeigen, wofür eine Kontaktperson innerhalb ihres Unternehmens zuständig ist z. B. IT, Management oder Produktion. Sie können diese Informationen nutzen, wenn Sie Informationen über Ihre Kontakte eingeben.
 
 Die Verwendung von Verantwortlichkeiten zu Kontakten ist ein zwei Schritte umfassender Prozess. Zuerst definieren Sie den Verantwortlichkeitscode. Sie müssen diesen Schritt nur einmal für jede Verantwortlichkeit ausführen. Sobald Sie einen Verantwortlichkeitscode haben, können Sie den Code zu den Kontaktpersonen zuweisen.
@@ -41,7 +41,7 @@ Wiederholen Sie diese Schritte, um beliebig viele Verantwortlichkeiten zuzuordne
 
 Die Anzahl der Verantwortlichkeiten, die Sie dem Kontakt zugeordnet haben, wird im Feld **Anzahl Verantwortlichkeit** im Inforegister **Segmentierung** im Fenster **Kontakt** angezeigt.
 
-Sobald Sie Ihren Kontakten Verantwortlichkeiten zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Vorgehensweise: Hinzufügen von Kontakten zu Segmenten](marketing-add-contact-segment.md).
+Sobald Sie Ihren Kontakten Verantwortlichkeiten zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Hinzufügen von Kontakten zu Segmenten](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Kontaktpersonen erstellen](marketing-create-contact-persons.md)  

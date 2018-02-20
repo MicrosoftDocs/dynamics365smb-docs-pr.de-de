@@ -13,10 +13,10 @@ ms.search.keywords: personalization
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 35a075d5c77dfacb4f817446ebdfd0f137a19a1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f3ba7676ec2312c78b9d3cc7883f79db936cb2d7
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="displaying-lists-in-different-ways"></a>Anzeigen von Listen in verschiedenen Ansichten
@@ -28,6 +28,6 @@ Bilder in der Artikelliste ermöglichen Ihnen einen schnellen Überblick darübe
 Sie können ein Bild für einen bestimmten Artikel importieren, indem Sie die **Artikel** karte aufrufen und rechts **Bild** und dann **Importieren** wählen. Entsprechend können Sie ein Bild in eine Datei exportieren oder das Bild für diesen Artikel löschen.  
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
-[Vorgehensweise: Neue Artikel registrieren](inventory-how-register-new-items.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Neue Artikel registrieren](inventory-how-register-new-items.md)  
 

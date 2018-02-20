@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3a257ba6434f8689a78e975811a0c5897b3836f8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9564da28e9850e30e42ea2824043e25041f5adaa
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-import-and-export-a-report-or-document-layout"></a>Vorgehensweise: Importieren und Exportieren von einem benutzerdefinierten Bericht
+# <a name="import-and-export-a-report-or-document-layout"></a>Importieren und Exportieren von einem benutzerdefinierten Bericht
 Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem Speicherort auf dem Computer oder im Netzwerk speichern und exportieren sowie von dort aus wieder importieren. Beispielsweise können Sie ein Berichtlayout exportieren und dann die Datei an eine andere Person senden, die diese dann ändern kann. Diese Person kann die Änderungen am Layout vornehmen und Ihnen die Datei zurücksenden, damit Sie sie zurückimportieren können.  
   
 > [!IMPORTANT]  
@@ -27,7 +27,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
   
 ### <a name="to-export-a-report-layout-to-a-file"></a>So exportieren Sie ein Berichtslayout in eine Datei.  
   
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Berichtauswahl** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Berichtauswahl** ein. Wählen Sie dann den zugehörigen Link aus.  
   
 2.  Wählen Sie die Zeile für den Bericht, der das benutzerdefinierte Berichtslayout enthält, das Sie exportieren möchten, und wählen Sie dann auf der Registerkarte **Start** in der gruppe **Prozess** **Benutzerdefinierte Layouts**.  
   
@@ -41,7 +41,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
   
      Eine Word-Berichtslayoutdatei muss die Erweiterung .docx haben. eine RDLC-Layoutdatei muss die die Erweiterung .rdlc oder .rdl haben.  
   
-2.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Berichtauswahl** ein. Wählen Sie dann den zugehörigen Link aus.  
+2.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Berichtauswahl** ein. Wählen Sie dann den zugehörigen Link aus.  
   
 3.  Wählen Sie die Zeile für den Bericht, in den Sie das Berichtslayout importieren möchten, und wählen Sie dann auf der Registerkarte **Start** in der Gruppe **Prozess** **Benutzerdefinierte Layouts**.  
   
@@ -52,6 +52,6 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
  Das ursprüngliche benutzerdefinierte Berichtslayout wird durch das importierte Berichtslayout ersetzt.  
   
 ## <a name="see-also"></a>Siehe auch  
- [Vorgehensweise: Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
+ [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
  [Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)  
  [Arbeiten mit Berichten](ui-work-report.md)    

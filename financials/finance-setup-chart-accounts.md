@@ -13,14 +13,14 @@ ms.search.keywords: COA, cha of acc
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 69d4a8d4482999ed9d622d73654c3d8a4c3d8394
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1d0130dde256706460e58e5efc445bc5f4d5c595
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
-Der Kontenplan zeigt die Sachkonten an, die Financials speichern. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
+Der Kontenplan zeigt die Sachkonten an, die Financials speichern. [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.  
 
 ## <a name="adding-or-changing-accounts"></a>Konten hinzufügen oder ändern
@@ -33,7 +33,7 @@ Im Kontenplan können Sie jedes Sachkonto öffnen und Einstellungen hinzufügen 
 * Das Feld **Löschen v. Sachkonten zul. vor** im Fenster **Finanzbuchhaltung Einrichtung** muss ausgefüllt sein, und das Konto darf keine Posten an oder nach diesem Datum enthalten.  
 * Ist das Feld **Sachkontoverwendung prüfen** im Fenster **Finanzbuchhaltung Einrichtung** ausgewählt, darf dieses Konto nicht in Buchungsgruppen oder der Buchungsmatrix Einrichtung verwendet werden.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] verhindert, dass Sie ein Sachkonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  verhindert, dass Sie ein Sachkonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.  
 
 ## <a name="see-also"></a>Siehe auch
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  

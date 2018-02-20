@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a057da05d6b63ee60e29de70900ffae917d0fee3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3c1771ecc9c63afc0fab335d37684fc4263cc993
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-workflows"></a>So wird's gemacht: Erstellen von Workflows
+# <a name="create-workflows"></a>Erstellen eines Workflows
 Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
 
 Im Fenster **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer Workflowantwort mit Antwortoptionen. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden.  
 
-Wenn Sie Workflows erstellen, können Sie die Schritte aus bestehenden Workflows oder aus Workflowvorlagen kopieren. Workflowvorlagen sind nicht-bearbeitbare Workflows, die Sie in der generischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] finden. Dem Code für von Microsoft hinzugefügte Workflowvorlagen ist „MS“ vorangestellt, z. B. „MS-PIW“. Weitere Informationen finden Sie unter [Gewusst wie: Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
+Wenn Sie Workflows erstellen, können Sie die Schritte aus bestehenden Workflows oder aus Workflowvorlagen kopieren. Workflowvorlagen sind nicht-bearbeitbare Workflows, die Sie in der generischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] finden. Dem Code für von Microsoft hinzugefügte Workflowvorlagen ist „MS“ vorangestellt, z. B. „MS-PIW“. Weitere Informationen finden Sie unter [Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unterstützt werden, muss ein Microsoft-Partner diese implementieren, indem er den Anwendungscode anpasst.  
   
@@ -35,7 +35,7 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Workflows** ein und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus. Das Fenster **Workflow** wird geöffnet.  
 3. Geben Sie im Feld **Code** maximal 20 Zeichen ein, um den Workflow zu identifizieren.  
-4. Um den Workflow von einer Workflowvorlage zu erstellen, wählen Sie im Fenster **Workflows** die Aktion **Workflow von Vorlage erstellen**. Weitere Informationen finden Sie unter [Gewusst wie: Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md)  
+4. Um den Workflow von einer Workflowvorlage zu erstellen, wählen Sie im Fenster **Workflows** die Aktion **Workflow von Vorlage erstellen**. Weitere Informationen finden Sie unter [Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Beschreiben Sie den Workflow im Feld **Beschreibung**.  
 6. Im Feld **Kategorie** legen Sie fest, in welche Kategorie der Workflow gehört.  
 7. Geben Sie im Feld **Wenn Ereignis** das Ereignis an, das auftreten muss, um den Workflowschritt zu starten.  
@@ -67,7 +67,7 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
         |----------------------------------|---------------------------------------|  
         |**Fälligkeitsdatumsformel**|Geben Sie an, in wievielen Tagen eine die Genehmigungsanforderung ab dem Datum, an dem sie gesendet wurde, abgeschlossen werden muss.|  
         |**Delegieren nach**|Geben Sie an, ob und wann eine Anforderung für fällige Genehmigung automatisch an den relevanten Stellvertreter delegiert wird. Sie können eine automatische Delegierung ein, zwei oder fünf Tage nach der Anforderung der Genehmigung auswählen.|  
-        |**Genehmigertyp**|Geben Sie an, wer gemäß der Einrichtung von Genehmigungsbenutzern und von Workflowbenutzern der Genehmiger ist.<br /><br /> Folgende Optionen sind verfügbar:<br /><br /> -   **Verkäufer/Einkäufer** bedeutet, dass der Benutzer, der im Feld **Verkäufer-/Einkäufercode** im Fenster **Genehmigungsbenutzereinrichtung** definiert wurde, den Genehmiger bestimmt. Es werden dann entsprechend des Werts im Feld **Einschränkungsart Genehmiger** Genehmigungsanforderungsposten erstellt.<br />     [Weitere Informationen finden Sie unter Vorgehensweise: Einrichten von Genehmigungsbenutzern.](across-how-to-set-up-workflow-users.md)|  
+        |**Genehmigertyp**|Geben Sie an, wer gemäß der Einrichtung von Genehmigungsbenutzern und von Workflowbenutzern der Genehmiger ist.<br /><br /> Folgende Optionen sind verfügbar:<br /><br /> -   **Verkäufer/Einkäufer** bedeutet, dass der Benutzer, der im Feld **Verkäufer-/Einkäufercode** im Fenster **Genehmigungsbenutzereinrichtung** definiert wurde, den Genehmiger bestimmt. Es werden dann entsprechend des Werts im Feld **Einschränkungsart Genehmiger** Genehmigungsanforderungsposten erstellt.<br />     Weitere Informationen finden Sie unter [Einrichten von Genehmigungsbenutzern.](across-how-to-set-up-workflow-users.md)|  
         |**Bestätigungsmeldung anzeigen**|Geben Sie an, ob Benutzern eine Bestätigungsmeldung angezeigt wird, nachdem sie eine Genehmigung angefordert haben.|  
         |**Einschränkungsart Genehmiger**|Gibt an, welchen Einfluss die Genehmigungsgrenzwerte des Genehmigers haben, wenn Genehmigungsanforderungsposten für sie erstellt werden. Ein qualifizierter Genehmiger ist ein Genehmiger, dessen Genehmigungsgrenzwert über dem Wert der Genehmigungsanforderung liegt.<br /><br /> Folgende Optionen sind verfügbar:<br /><br /> 1.  **Genehmigerkette** gibt an, dass Genehmigungsanforderungsposten für alle Genehmiger des Anforderers bis einschließlich dem ersten qualifizierten Genehmiger erstellt werden.<br />2.  **Direkter Genehmiger** gibt an, dass ein Genehmigungsanforderungsposten nur für den direkten Genehmiger des Anforderers erstellt wird, unabhängig vom Genehmigungsgrenzwert des Genehmigers.<br />3.  **Erster qualifizierter Genehmiger** gibt an, dass ein Genehmigungsanforderungsposten nur für den ersten qualifizierten Genehmiger des Anforderers erstellt wird.<br />|  
     3.  Um Optionen für eine Workflowantwort inkl. des Erstellens von Buch.-Blattzeilen festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
@@ -94,11 +94,11 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
 >  Um Beziehungen zwischen Tabellen anzuzeigen, die in Workflows verwendet werden, wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Workflow – Tabellenrelationen** ein.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Vorgehensweise: Workflows von Workflowvorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md)   
-[Gewusst wie: Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md)   
+[Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)   
+[Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)   
 [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)   
-[Gewusst wie: Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)   
-[So wird's gemacht: Löschen von Workflows](across-how-to-delete-workflows.md)   
+[Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)   
+[Löschen eines Workflows](across-how-to-delete-workflows.md)   
 [Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Einrichten von Workflows](across-set-up-workflows.md)   
 [Verwenden von Workflows](across-use-workflows.md)   

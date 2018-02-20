@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8c15fded4b70ee0fce8ad43f90b915a33523fc77
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d38f1ed77ac3fac7c9283af6ea0f92479adbf89f
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="incoming-documents"></a>Eingehende Belege
@@ -41,7 +41,7 @@ Die Verarbeitung von Eingangsbelegen kann aus den folgenden Hauptaktivitäten be
 
 | Aufgabe | Siehe |
 | --- | --- |
-| Richten Sie die Funktion für Eingangsbelege und den OCR-Dienst ein. |[Gewusst wie: Eingehende Dokumente einrichten](across-how-setup-income-documents.md) |
+| Richten Sie die Funktion für Eingangsbelege und den OCR-Dienst ein. |[Einrichten von eingehenden Belegen](across-how-setup-income-documents.md) |
 | Erstellen Sie eingehende Belegdatensätze, fügen Sie Dateien hinzu, nutzen Sie OCR, um PDF-Dateien in elektronische Belege umzuwandeln, konvertieren Sie elektronische Belege in Belegdatensätze, überwachen Sie eingehende Belegdatensätze aus gebuchten Verkaufs- und Einkaufsbelegen. |[Eingehende Dokumente verarbeiten](across-process-income-documents.md) |
 
 ## <a name="see-also"></a>Siehe auch

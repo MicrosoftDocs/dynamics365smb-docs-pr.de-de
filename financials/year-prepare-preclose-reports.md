@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="using-pre-closing-reports"></a>Vorabschlussberichte verwenden
@@ -35,7 +35,7 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 | Drucken eines Rohbilanzberichts mit Salden und Bewegungen für Sachkonten |Rohbilanz |
 | Drucken einer Rohbilanz für einen konsolidierten Mandanten |Konsolidierung Rohbilanz |
 
-Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Suche für Seite oder Bericht] (media/ui-search/search_small.png "Suche nach Seite oder Bericht")und geben Sie den Namen wie er in der Tabelle erscheint ein, und wählen Sie dann den zugehörigen Link aus.
+Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Suche für Seite oder Bericht](media/ui-search/search_small.png "Suche nach Seite oder Bericht") und geben Sie den Namen wie er in der Tabelle erscheint ein, und wählen Sie dann den zugehörigen Link aus.
 
 ## <a name="see-also"></a>Siehe auch
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  

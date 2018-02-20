@@ -1,6 +1,6 @@
 ---
 title: Financials | Microsoft Docs
-description: "Erhalten von Informationen zum Accountant Hub für Dynamics 365 Business edition und die das Buchhalter-Rollencenter, das interne und externe Buchhalter im Kundenunternehmen unterstützt."
+description: "Erhalten von Informationen zum Accountant Hub für Finance and Operations, Business edition und die das Buchhalter-Rollencenter, das interne und externe Buchhalter im Kundenunternehmen unterstützt."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f28bb6f02438dcc8dd00bf87fa2ccd9f02859641
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 594c4cca94ee23904eaadc913f0e29ef0590f3f8
 ms.contentlocale: de-de
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Buchhalter-Erfahrung in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -24,9 +24,6 @@ Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen. Ei
 Das Rollencenter bildet ein Dashboard mit Aktivitätskacheln, die Ihnen Echtzeitkennzahlen anzeigen und Ihnen Zugriff auf die Daten geben. Im oberen Fensterbereich im Menüband haben Sie Zugriff auf weitere Aktionen wie das Öffnen der häufig verwendeten Finanberichte und Kontoauszüge in Excel. Im Navigationsbereich links können Sie schnell zwischen den Listen wechseln, die Sie häufig verwenden. Wenn Sie das **Start**menü im Navigationsbereich erweitern, finden Sie weitere Bereiche, wie **Gebuchte Belege** mit den verschiedenen Belegarten, die der Mandant gebucht hat.  
 
 Wenn Sie neu sind bei [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie eine Liste der Videos starten direkt von Ihrer Homepage aus. Sie können auch **Erste Schritte** starten, die die Schlüsselbereiche unterstreichen.  
-
-> [!NOTE]  
->  Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer Dynamics 365 Experience](ui-experiences.md).  
 
 ## <a name="accountant-hub"></a>Accountant Hub
 Wenn Sie ein Buchhalter mit mehreren Kunden sind, können Sie das [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] für einen besseren Überblick über Ihre Kundens verwenden. Von hier können Sie auf den Tenant jedes Clients zugreifen [!INCLUDE[d365fin](includes/d365fin_md.md)] und das Buchhalter-Rollencenter verwenden, wie oben beschrieben. Weitere Informationen finden Sie unter [Willkommen bei [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
@@ -42,5 +39,5 @@ Wenn Sie ein Buchhalter mit mehreren Kunden sind, können Sie das [!INCLUDE[d365
 [Einrichten der Cashflowanalyse](finance-setup-cash-flow-analyses.md)  
 [Externen Buchhalter einladen zu Ihrem [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
 [Willkommen bei [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
-[Financials for Accounts in Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

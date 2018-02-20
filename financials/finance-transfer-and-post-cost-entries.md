@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f7420a54a15616252ac4977c0c036a6096723af7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cb536c2d5f36385cacb91371cf1562c322e766f6
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Übertragung und Buchung von Kostenzuteilungen
@@ -30,7 +30,7 @@ Bevor Sie Kostenzuteilungen definieren, müssen Sie verstehen, wie Kostenposten 
 |**Prozess**|**Siehe**|  
 |------------|-------------|  
 |Verstehen Sie Kriterien für die Übertragung von Kostenposten aus dem Sachkonto.|[Kriterien für die Übertragung von Sachposten in Kostenposten](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)|  
-|Übertragen Sie Sachposten mit einem Batchauftrag in Kostenposten.|[Vorgehensweise: Übertragen von Sachposten in Kostenposten](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)|  
+|Übertragen Sie Sachposten mit einem Batchauftrag in Kostenposten.|[So übertragen Sie Sachposten in Kostenposten](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)|  
 |Sehen Sie sich die Ergebnisse der Übertragung an.|[Ergebnisse der Übertragung](finance-results-of-the-transfer.md)|  
 
 ## <a name="see-also"></a>Siehe auch  

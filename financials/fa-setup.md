@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 08/15/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ca21ece631fdd07cb95ffdaaa350506b4a8c9e1
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Anlagen einrichten
@@ -31,17 +31,14 @@ Die folgende Tabelle enthält Verknüpfungen für weitere Informationen. Nachdem
 
 Wenn Sie das Kontrollkästchen für eine Anlagenaktivität im Abschnitt **Fibu-Integration** im Fenster **AfA-Buch-Karte** aktiveren, wird das **Anlagen Fibu Buch.-Blatt** Fenster verwendet, um Transaktionen für die fragliche Aktivität zu buchen.
 
-> [!NOTE]  
->  Diese Funktionen erfordert, dass die Benutzeroberfläche in **Suite** festgelegt wird. Weitere Informationen finden Sie unter [Anpassen Ihrer Financials Experience](ui-experiences.md).  
-
 Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.  
 
 | Aufgabe | Siehe |
 | --- | --- |
-| Richten Sie Standardsachkonten, Verteilungsschlüssel, Buch.-Blattvorlagen und - namen für Anlagebuchungen ein und erstellen feste Anlageklassen und Unterklassen, wie beispielsweise materielle und immaterielle. |[So geht's: Allgemeine Anlagen-Informationen einrichten](fa-how-setup-general.md) |
-| Erstellen Sie AfA-Bücher, definieren verschiedene AfA-Methoden, integrieren in die Finanzbuchhaltung und aktiveren das Kopieren der Posten in mehrere AfA-Bücher. |[So geht's: Einrichten der Anlagen-AfA](fa-how-setup-depreciation.md) |
-| Aktivieren Sie Versicherungen von Anlagen, richten allgemeine Versicherungsinformationen und eine Versicherungskarte pro Versicherung ein und bereiten Buch.-Blätter vor, um Versicherungskosten zu buchen. |[So geht's: Einrichten der Anlagenversicherung](fa-how-setup-insurance.md) |
-| Aktivieren Sie die Wartung von Anlagen, richten allgemeine Wartungsinformationen und Wartungs-Buchungskonten ein, und definieren Sie Arten von Wartungsarbeiten. |[So geht's: Einrichten der Anlagenwartung](fa-how-setup-maintenance.md) |
+| Richten Sie Standardsachkonten, Verteilungsschlüssel, Buch.-Blattvorlagen und - namen für Anlagebuchungen ein und erstellen feste Anlageklassen und Unterklassen, wie beispielsweise materielle und immaterielle. |[Allgemeine Anlagen-Informationen einrichten](fa-how-setup-general.md) |
+| Erstellen Sie AfA-Bücher, definieren verschiedene AfA-Methoden, integrieren in die Finanzbuchhaltung und aktiveren das Kopieren der Posten in mehrere AfA-Bücher. |[Richten Sie eine neue Anlagenkarte ein.](fa-how-setup-depreciation.md) |
+| Aktivieren Sie Versicherungen von Anlagen, richten allgemeine Versicherungsinformationen und eine Versicherungskarte pro Versicherung ein und bereiten Buch.-Blätter vor, um Versicherungskosten zu buchen. |[Um Anlagenversicherung einzurichten:](fa-how-setup-insurance.md) |
+| Aktivieren Sie die Wartung von Anlagen, richten allgemeine Wartungsinformationen und Wartungs-Buchungskonten ein, und definieren Sie Arten von Wartungsarbeiten. |[Um Anlagenwartung einzurichten:](fa-how-setup-maintenance.md) |
 | Informieren Sie sich über verschiedene Anlagen-AfA-Methoden. |[Abschreibungsmethoden](fa-depreciation-methods.md) |
 
 ## <a name="see-also"></a>Siehe auch

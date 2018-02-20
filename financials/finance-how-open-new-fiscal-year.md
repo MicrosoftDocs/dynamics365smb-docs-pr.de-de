@@ -11,13 +11,13 @@ ms.search.keywords: accounting year, fiscal period
 ms.date: 07/17/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1ae20c24b4a75a897a1bc7bc7f34898539a75449
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da22c77f35c1a893d3ee80fb6468553670977686
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-open-a-new-fiscal-year-and-create-accounting-periods"></a>Vorgehensweise: Öffnen Sie ein neues Geschäftsjahr und erstellen Sie Buchhaltungsperioden
+# <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Öffnen Sie ein neues Geschäftsjahr und erstellen Sie Buchhaltungsperioden
 Bevor Sie in einem Geschäftsjahr buchen können, müssen Sie das Geschäftsjahr eröffnen und dessen Buchhaltungsperioden bestimmen.  
 
 Für viele Unternehmen stimmt das Geschäftsjahr nicht mit dem Kalenderjahr überein. Abrechnungszeiträume können in anderen Einheiten, z. B. Monaten oder Quartalen erfasst werden. Sie können das Fenster **Geschäftsjahr eröffnen** verwenden, um die Buchhaltungsperioden einzurichten, die Ihren Geschäftsanforderungen entsprechen. Jedoch,   
@@ -34,8 +34,8 @@ Die Buchhaltungsperioden werden an die Seite mit den Feldern **Startdatum** und 
 
 
 ## <a name="see-also"></a>Siehe auch
-[So geht's: Buchhaltungsperioden festlegen](finance-how-specify-posting-periods.md)  
-[Vorgehensweise: Buchen des Jahresabschlusspostens](year-how-post-year-end-close-entry.md)  
+[Festlegen von Buchhaltungsperioden:](finance-how-specify-posting-periods.md)  
+[So buchen Sie den Jahresabschlussposten](year-how-post-year-end-close-entry.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Designdetails - Runden | Microsoft Docs
-description: "Rundungsreste können auftreten, wenn Sie die Kosten einer Bestandsminderung bewerten, die in einer anderen Menge als die entsprechende Bestandszunahme registriert wurde. Rundungsreste werden für alle Kostenberechnungsmethoden berechnet, wenn Sie die **Kosten anpassen - Artikeleintrag** -Stapelverarbeitung ausführen."
+description: "Rundungsreste können auftreten, wenn Sie die Kosten einer Bestandsminderung bewerten, die in einer anderen Menge als die entsprechende Bestandszunahme registriert wurde. Rundungsreste werden für alle Kostenberechnungsmethoden berechnet, wenn Sie die **Kosten anpassen - Artikeleintrag**-Stapelverarbeitung ausführen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 39d4bdc430fc74452e7f089c38b28b3214304725
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-rounding"></a>Designdetails: Rundung
@@ -59,7 +59,7 @@ Rundungsreste können auftreten, wenn Sie die Kosten einer Bestandsminderung bew
 |02-01-20|-1|-3.33|2|2|  
 |03-01-20|-1|-3.33|3|3|  
 |04-01-20|-1|-3.33|4|4|  
-|01-01-20|0|-0.01|0|5|  
+|01-01-20|0|-0.01|1|5|  
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   

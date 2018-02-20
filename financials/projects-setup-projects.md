@@ -13,10 +13,10 @@ ms.search.keywords: projects
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cd42389cdebe3ce480603e07e01cc063f6d1f8bf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4334dd85d5dff1989e7435814e552fabad04a6ca
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-project-management"></a>Richten Sie Ihr Projektmanagement ein.
@@ -28,9 +28,9 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 
 | Aktion | Siehe |
 | --- | --- |
-| Legen Sie Ihre Ressourcen und die verwandten Kosten und Preise fest, entweder für einzelne Ressourcen, für Ressourcengruppen oder für alle verfügbaren Ressourcen des Unternehmens. |[Vorgehensweise: Ressourcen einrichten](projects-how-setup-resources.md) |
-| Mit Arbeitszeittabellen kann eine Ressource den Zeitverbrauch für eine Mitarbeiter oder einen Arbeitsplatz einfach melden, und ein Manager kann den Verbrauch und die Verteilung einfach überprüfen. |[Gewusst wie: Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md) |
-| Erstellen Sie Projektkarten und bereiten Sie Projektaufgaben vor. Richten Sie Preise für Projektartikel und Projektressourcen ein und definieren Sie Projektbuchungsgruppen. |[So wird's gemacht: Projekte einrichten](projects-how-setup-jobs.md) |
+| Legen Sie Ihre Ressourcen und die verwandten Kosten und Preise fest, entweder für einzelne Ressourcen, für Ressourcengruppen oder für alle verfügbaren Ressourcen des Unternehmens. |[Ressourcen einrichten](projects-how-setup-resources.md) |
+| Mit Arbeitszeittabellen kann eine Ressource den Zeitverbrauch für eine Mitarbeiter oder einen Arbeitsplatz einfach melden, und ein Manager kann den Verbrauch und die Verteilung einfach überprüfen. |[Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md) |
+| Erstellen Sie Projektkarten und bereiten Sie Projektaufgaben vor. Richten Sie Preise für Projektartikel und Projektressourcen ein und definieren Sie Projektbuchungsgruppen. |[Einrichten von Projekten](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Projekte verwalten](projects-manage-projects.md)  

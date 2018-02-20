@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c66fc5da322ddb1d217b61da0b563faab27b344e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata
@@ -34,7 +34,7 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 ### <a name="prerequisites"></a>Voraussetzungen  
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] installiert.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)]  installiert.  
 - Die Cashflowvorschlagszeilen werden erfasst.  
 
 ## <a name="roles"></a>Rollen  
@@ -88,7 +88,7 @@ Ken kann das Spaltenlayout jetzt dem Kontenschemanamen zuweisen.
 3.  Wählen Sie die Aktion **Drucken** aus, um die Cashflowplanung zu drucken.  
 
 ## <a name="see-also"></a>Siehe auch  
- [Vorgehensweise: Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)   
+ [Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)   
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

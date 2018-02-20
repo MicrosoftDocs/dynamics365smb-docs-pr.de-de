@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2a6829c5a67f1121ecc135e1183af78b0e602f8f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5cafcc32874187ae787279c20256c11cadaff6a1
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-and-put-away-without-a-source-document"></a>Vorgehensweise: Wählen und setzen Sie die Einlagerung verwendet ohne Herkunftsbeleg
+# <a name="pick-and-put-away-without-a-source-document"></a>Wählen und setzen Sie die Einlagerung ohne Herkunftsbeleg
 Nachdem Artikel eingelagert wurden und bevor sie kommissioniert werden, um einen Fertigungsauftrag oder einen Warenausgang zu bedienen, sind sie im Lager ein Teil des verfügbaren Lagerbestands.  
 
 In manchen Situationen müssen Artikel vorübergehend aus den Kommissionierlagerplätzen entnommen werden, um z. B. als Vorführartikel in einer Verkaufspräsentation zu dienen. Diese Artikel gehören immer noch dem Unternehmen und sind Teil des Lagerbestands, sind allerdings nicht für die Kommissionierung verfügbar. Sie werden an einem Lagerplatz für spezielle Zweckes erfasst, den Sie für diesen Zweck erstellen. Technisch sind die Artikel im Lager, aber nicht physisch, weil sie sich z. B. in einem Konferenz- oder Präsentationsraum befinden.  

@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 34a25ed48ff16971120b272421560bf1416af60f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 86a6451bdb02571480f775debd6c7286f0d8eb67
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Verwaltung von Berichts- und Beleg-Layouts
@@ -32,7 +32,7 @@ Insbesondere richtet ein Berichtlayout Folgendes ein:
 * Das Firmenlogo und seine Position.
 * Allgemeine Seiteneinstellungen, wie Seitenränder und Hintergrundbilder.
 
-Ein [!INCLUDE[d365fin](includes/d365fin_md.md)]-Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf ausgewechselt werden können. Sie können ggf. einen der integrierten Berichtlayouts verwenden, oder Sie können angepasste Berichtlayouts erstellen und sie Ihren Berichten nach Bedarf zuordnen. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen Sie eines benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-create-custom-report-layout.md).
+Ein [!INCLUDE[d365fin](includes/d365fin_md.md)]-Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf ausgewechselt werden können. Sie können ggf. einen der integrierten Berichtlayouts verwenden, oder Sie können angepasste Berichtlayouts erstellen und sie Ihren Berichten nach Bedarf zuordnen. Weitere Informationen finden Sie unter [Erstellen Sie eines benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-create-custom-report-layout.md).
 
 Es gibt zwei Arten Berichtlayouts, die Sie in Berichten verwenden können, Word und RDLC.
 
@@ -45,7 +45,7 @@ Ein Word-Berichtlayout basiert auf einem Word-Dokument (DOCX-Datei-Typ). Word-Be
 RDLC-Layouts basieren auf Client-Berichtsdefinitionslayouts (.rdlc- oder .rdl-Dateitypen). Diese Layouts werden erstellt und geändert, indem Sie SQL Server-Bericht-Generator verwenden. Das Entwurfskonzept für RDLC-Layouts ist ähnlich den Word-Layouts, in denen das Layout das Muster des Berichts definiert und die Felder der Dataset bestimmt, die enthalten sein sollen. RDLC-Layouts bieten, verglichen mit Word-Layouts, eine größere Fülle an Funktionen und Gestaltungsmöglichkeiten. Weitere Informationen finden sie unter [RDLC-Berichtslayouts entwwerfen](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Integrierte und benutzerdefinierte Berichtslayouts
-[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst mehrere integrierte Layouts. Integrierte Layouts sind vordefinierte Layouts, die für bestimmte Berichte vorgesehen sind. [!INCLUDE[d365fin](includes/d365fin_md.md)]-Berichte haben ein integriertes Layout entweder als RDLC-Berichtslayout, Word-Berichtslayout oder in einigen Fällen beides. Sie können ein integriertes Berichtslayout aus dem [!INCLUDE[d365fin](includes/d365fin_md.md)] nicht ändern, Sie können sie jedoch als Ausgangspunkt für das Erstellen Ihrer eigenen benutzerdefinierten Berichtslayouts verwenden.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  umfasst mehrere integrierte Layouts. Integrierte Layouts sind vordefinierte Layouts, die für bestimmte Berichte vorgesehen sind. [!INCLUDE[d365fin](includes/d365fin_md.md)]-Berichte haben ein integriertes Layout entweder als RDLC-Berichtslayout, Word-Berichtslayout oder in einigen Fällen beides. Sie können ein integriertes Berichtslayout aus dem [!INCLUDE[d365fin](includes/d365fin_md.md)] nicht ändern, Sie können sie jedoch als Ausgangspunkt für das Erstellen Ihrer eigenen benutzerdefinierten Berichtslayouts verwenden.
 
 Kundenspezifische Layouts sind Berichtslayouts, die Sie erstellen, um zdie Darstellung eines Berichts zu ändern. Sie erstellen normalerweise ein benutzerdefiniertes Layout basierend auf einem integrierten Layout, aber Sie können es von einer Kopie eines vorhandenen benutzerdefinierten Layouts von Grund auf neu erstellen. Benutzerdefinierete Layouts ermöglichen Ihnen, mehrere Layouts für den gleichen Bericht einzurichten, zwischen denen Sie nach Bedarf wechseln können. Beispielsweise können Sie verschiedene Layouts für jedes [!INCLUDE[d365fin](includes/d365fin_md.md)]-Unternehmen haben, oder Sie können verschiedene Layouts für das gleiche Unternehmen für bestimmte gelegenheiten oder Ereignisse verwenden, wie eine spezielle Kampagne oder eine Feiertagssaison haben.
 
@@ -56,13 +56,13 @@ Die allgemeinen Entwurfskonzepte für Word- und RDLC-Layouts sind sehr ähnlich.
 
 Der Prozess für die Einrichtung von Word-Berichtslayouts und RDLC-Berichtslayouts in Berichten ist derselbe. Der wichtigste Unterschied besteht in der Art, wie die Sie die Layouts ändern. Word-Berichtslayouts sind in der Regel einfacher als RDLC-Berichtslayouts zu erstellen und zu ändern, da Sie Word bereits kennen. RDLC-Berichtslayouts werden geändert, indem Sie den SQL Server-Bericht-Generator verwenden, der für fortgeschrittene Benutzer entwickelt wurde.
 
-Weitere Informationen darüber, wie das Layout, das verwendet wird, geändert werden kann, finden Sie unter [Vorgehensweise: Ändern, welches Layout zur Zeit in einem Bericht verwendet wird](ui-how-change-layout-currently-used-report.md).
+Weitere Informationen darüber, wie das Layout, das verwendet wird, geändert werden kann, finden Sie unter [Ändern, welches Layout zur Zeit in einem Bericht verwendet wird](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Verwaltung von Berichts- und Beleg-Layouts](ui-update-report-layouts.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Vorgehensweise: Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)  
-[Vorgehensweise: Importieren und Exportieren von einem benutzerdefinierten Bericht](ui-how-import-and-export-report-layout.md)  
-[Gewusst wie: Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
+[Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)  
+[Importieren und Exportieren von einem benutzerdefinierten Bericht](ui-how-import-and-export-report-layout.md)  
+[Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Arbeiten mit Berichten](ui-work-report.md)  
 

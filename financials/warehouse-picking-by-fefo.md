@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 34d6e46146f3072da49cd28e4b4bf1b0f00d1369
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cc45bf06ab5d12cf393d48b7b1c295db28f56b3b
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-enable-picking-items-by-fefo"></a>Vorgehensweise: Aktiveren der Kommissionierung von Artikeln nach FEFO
+# <a name="enable-picking-items-by-fefo"></a>Aktiveren der Kommissionierung von Artikeln nach FEFO
 FEFO (First-Expired-First-Out) ist eine Sortiermethode, durch die sichergestellt ist, dass die ältesten Artikel mit den frühesten Ablaufdatumsangaben zuerst kommissioniert werden.  
 
  Diese Funktionen arbeiten nur, wenn die folgenden Kriterien erfüllt sein:  
@@ -45,8 +45,8 @@ FEFO (First-Expired-First-Out) ist eine Sortiermethode, durch die sichergestellt
 
 ## <a name="see-also"></a>Siehe auch  
 [Kommissionieren von Artikeln](warehouse-pick-items.md)   
-[Vorgehensweise: Kommissionieren von Artikeln für den Warenausgang](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
-[So wird's gemacht: Artikel mit der Lagerkommissionierung kommissionieren](warehouse-how-to-pick-items-with-inventory-picks.md)   
+[Um Artikel für den Warenausgang zu kommissionieren](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+[Artikel mit der Lagerkommissionierung kommissionieren](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Designdetails: Logistik](design-details-warehouse-management.md)  
 [Lagerbest](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 06/02/2017
-ms.author: edupont
+ms.date: 01/25/2018
+ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 277dda7c954380138af1ecabc02d77121f35aac7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in einem automatisierten Workflow nutzen
@@ -28,27 +28,31 @@ Sie können die Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Teil ei
 1. In Ihrem Browser navigieren Sie zu [flow.microsoft.com](https://flow.microsoft.com/en-us/) und melden sich dann an.
 2. Wählen Sie **My Flows** im Menüband oben auf der Seite.
 3. Im Fenster **My Flows** wählen Sie die Option **Aus Leer erstellen** aus.
-4. Wählen Sie aus der Liste der verfügbaren Triggern eine der beiden [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbaren Trigger aus: *Wenn ein Datensatz erstellt wird* oder *Wenn ein Datensatz geändert wird*.
-5. Flow zeigt eine Verbindungsseite an, die Sie zur Eingabe der Informationen auffordert, die benötigt werden, um sich mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zu verbinden. Zum Verbinden müssen Sie eine OData URL, Benutzername, Mandantenname und Kennwort angeben.
+4. Aus der Liste der verfügbaren Triggern, wählen Sie einen der [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbaren Trigger aus:  
+    ,*Wenn ein Datensatz erstellt wird*  
+    ,*Wenn ein Datensatz gelöscht wird*  
+    ,*Wenn ein Datensatz geändert wird*  
+    *Die Genehmigung für einen Debitor wird angefordert*,  
+    *Genehmigung von Fibu Buch.-Blattname wird angefordert*,  
+    *Genehmigung von Fibu Buch.-Blattzeile wird angefordert*,  
+    *Die Genehmigung für einen Artikel wird angefordert*,  
+    *Die Genehmigung für einen Einkaufsbeleg wird angefordert*,  
+    *Die Genehmigung für einen Verkaufsbeleg wird angefordert* oder  
+    *Die Genehmigung für einen Kreditor wird angefordert*.
+5. Flow fordert Sie zur Eingabe der Informationen auf, die benötigt werden, um sich mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zu verbinden. Wenn Sie eine der folgenden Trigger gewählt haben: *Wenn ein Datensatz erstellt wird*, *Wenn ein Datensatz geändert wird* oder *Wenn ein Datensatz gelöscht wird*, müssen Sie einen Namen und einen Tabellennamen auswählen. Mit jedem anderen Trigger wird nur der Name der Unternehmung benötigt, um zu verbinden.
 
-   Für *OData-URL* können Sie das OData V4 URL eines der Web Services, der in **Webdienste** auf der Seite angezeigt wird in [!INCLUDE[d365fin](includes/d365fin_md.md)] kopieren, beispielsweise `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
-
-   Für den *Unternehmensname* verwenden Sie den Namen, der im Feld **Name** im Fenster **Firmendaten** in [!INCLUDE[d365fin](includes/d365fin_md.md)] angezeigt wird. Wenn Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] mehrere Unternehmen enthält, wählen Sie den entsprechenden Namen aus der Liste im Fenster **Unternehmen** aus. In beiden Fällen prüfen Sie, ob dem Namen, den Sie im PowerApps Assistenten angeben haben genau dem Text entspricht, der angezeigt wird in [!INCLUDE[d365fin](includes/d365fin_md.md)], wie z. B. `My Company`
-
-   Für den Benutzernamen und das Kennwort verwenden Sie die Felder Name und Webdiensttastenkombination, die für Ihr Konto im **Benutzer** in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben werden. Beispielsweise ist der Benutzername *ADMINISTRATOR* und die Webdiensttastenkombination, die als Passwort dient *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*. Weitere Informationen finden Sie unter [So geht's: Verwalten von Benutzern und Berechtigungen](ui-how-users-permissions.md).
-6. Wählen Sie die Schaltfläche **Erstellen** im unteren Bereich der Seite, um den Vorgang fortzusetzen.
-
-   Flow zeigt eine Liste der Tabellen, die in [!INCLUDE[d365fin](includes/d365fin_md.md)]verfügbar sind. Diese Tabellen oder Endpunkte stehen für alle Webdienste, die Sie von [!INCLUDE[d365fin](includes/d365fin_md.md)] veröffentlicht haben.
+   Flow zeigt eine Liste der Unternehmungen und Tabellen an, die in [!INCLUDE[d365fin](includes/d365fin_md.md)]verfügbar sind. Diese Tabellen oder Endpunkte stehen für alle Webdienste, die Sie von [!INCLUDE[d365fin](includes/d365fin_md.md)] veröffentlicht haben.
 
    Sie können einen neuen Webdienst URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen, indem Sie die **Erstellen Dataset** Aktion der Seite **Webdienste** nutzen, indem Sie die unterstütze Hilfe **Bericht einrichten** verwenden oder die Aktion **Bearbeiten in Excel** in einer beliebigen Liste wählen.
-7. Wählen Sie die Daten aus, die Sie in Flow nutzen möchten.
 
-Zu diesem Zeitpunkt haben Sie erfolgreich Ihre Dynamics 365 Daten verbunden und sind bereit, Ihren Flow zu bauen. Weitere Informationen finden Sie in der [Flow Dokumentation](https://flow.microsoft.com/documentation/getting-started/).
+Zu diesem Zeitpunkt haben Sie erfolgreich Ihre Finance and Operations, Business edition-Daten verbunden und sind bereit, Ihren Flow zu erstellen. Weitere Informationen finden Sie in der [Flow Dokumentation](https://flow.microsoft.com/documentation/getting-started/).
+
+Bei Problemen mit Microsoft Flow siehe [Problembehandlung Integration mit Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](upload-data.md)  
-[Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen](ui-how-users-permissions.md)    
+[Benutzer und ihre Berechtigungen verwalten.](ui-how-users-permissions.md)    
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzen](finance.md)  
 

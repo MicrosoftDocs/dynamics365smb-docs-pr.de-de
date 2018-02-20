@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d82961b41266f645f87b79555171891cd2ce828f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1a95163c861cf9691c5f82e4815df6d87a135ed6
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-posting"></a>Servicebuchung
@@ -23,7 +23,7 @@ Mit der Funktion "Servicebuchung" können Sie Belege effizient verarbeiten und d
 > [!NOTE]  
 >  Nachfolgend wird die Servicebuchung erläutert, unabhängig davon, wie Artikel physisch im Lager bearbeitet werden.  
 >   
->  An einem Standort, der nicht so eingerichtet wurde, dass ein Lagerdurchlauf erforderlich ist, führen Sie die Buchungsaktionen direkt im Fenster **Servicezeilen**  aus. An Standorten, die Lagerdurchlaufzeiten vorsehen, buchen Sie die beschriebenen Aktionen, außer "Liefern" und "Verbrauchen", indirekt durch je nach Einrichtung verschiedene Lagerlieferfunktionen. Weitere Informationen finden Sie unter [Vorgehensweise: Entnahme von Artikeln mit Lagerkommissionierungen](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  An einem Standort, der nicht so eingerichtet wurde, dass ein Lagerdurchlauf erforderlich ist, führen Sie die Buchungsaktionen direkt im Fenster **Servicezeilen**  aus. An Standorten, die Lagerdurchlaufzeiten vorsehen, buchen Sie die beschriebenen Aktionen, außer "Liefern" und "Verbrauchen", indirekt durch je nach Einrichtung verschiedene Lagerlieferfunktionen. Weitere Informationen finden Sie unter [Entnahme von Artikeln mit Kommissionierungen](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Lieferung  
 Mit der Option "Liefern" können Sie die relevanten Artikel und Zeiten erfassen, die nach Abschluss des Service in den Zeilen eines Serviceauftrags eingegeben wurden. Eine gebuchte Lieferung wird erstellt, und das Lagermodul sowie weitere Module in [!INCLUDE[d365fin](includes/d365fin_md.md)] werden aktualisiert, um die Artikel zu erfassen, die aus dem Lager entnommen und an den Kunden gesendet wurden. Im Einzelnen werden Artikelposten, Wertposten, Serviceposten und Garantieposten erstellt.  
@@ -56,6 +56,6 @@ Die folgende Vorgehensweise verwendet eine gebuchte Servicerechnung als Beispiel
     Das Fenster **Serviceauftragsstatistik** wird geöffnet. In dem jeweiligen Fenster werden Informationen wie Menge, Betrag, MwSt., Kosten, Deckungsbeitrag und Kreditlimit des Debitors für den gebuchten Beleg angezeigt.
 
 ## <a name="see-also"></a>Siehe auch  
-[Vorgehensweise: Buchen von Serviceaufträgen](service-how-to-post-service-orders.md)   
-[Vorgehensweise: Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)
+[Buchen von Serviceaufträgen](service-how-to-post-service-orders.md)   
+[Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)
 

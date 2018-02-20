@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-revaluation"></a>Designdetails: Neubewertung
@@ -76,7 +76,7 @@ Das Bewertungsdatum wird auf das Datum der Verbrauchsbuchung (02-01-20) als rege
 
 |Buchungsdatum|Artikel|Postentyp|Menge|Postennr.|  
 |------------------|----------|----------------|--------------|---------------|  
-|02-15-20|Kette|Istmeldung|0|3|  
+|02-15-20|Kette|Istmeldung|1|3|  
 
 **3V**: Der Benutzer führt die **Kosten anpassen - Artikeleingabe**-Stapelverarbeitung aus, die die Kette als fakturiert bucht, um anzugeben, dass aller Materialverbrauch vollständig fakturiert wurde. Aus finanziellen Gesichtspunkten sind die Links nicht mehr Teil des WIP-Bestands, wenn die Ausgabe vollständig fakturiert und angepasst ist. Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
 

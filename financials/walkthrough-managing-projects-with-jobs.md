@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b6a61a9c5d2b8c7b3d197780c580c8bcf957560e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2df47e6f5bcd7b02282e45757d94bd6fc0f0981d
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Exemplarische Vorgehensweise: Verwalten von Projekten
@@ -99,7 +99,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 
 ### <a name="to-create-a-job-journal-batch"></a>So erstellen Sie einen Projekt Buch.-Blattnamen  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie im Fenster **Projekt Buch.-Blatt** das Feld **Buch.-Blattname** aus. Das Fenster **Projekt Buch.-Blattnamen** wird geöffnet.  
 3.  Wählen Sie auf der Registerkarte Start die Option **Neu** aus, um eine neue Zeile mit folgender Information zu erstellen.  
 
@@ -235,7 +235,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 
 ### <a name="to-calculate-remaining-usage"></a>So berechnen Sie den Restverbrauch  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Öffnen Sie im Fenster **Projekt Buch.-Blatt** im Feld **Buch.-Blattname** die Liste **Projekt Buch.-Blattnamen**. Wählen Sie den Projekt-Buchungsblattnamen **Katrin** aus.  
 3.  Wächlen Sie im Aktionsbereich **Restverbrauch**.  
 4.  Wählen Sie im Fenster **Restverbrauch für Projekt berechnen** im Inforegister **Projektaufgabe** das Feld **Projektnr.** aus, und wählen die Jobnummer des entsprechenden Projekts, üblicherweise Projekt J00010.  
@@ -306,7 +306,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>So erfassen Sie Stunden im Projektbuchhaltungsblatt  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Projektbuch** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Geben Sie in einer neuen Zeile die folgenden Informationen ein:  
 
     -   **Zeilenart**: **(leer)**  
@@ -425,7 +425,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 
     |Zeile|Projektaufgabennr.|Description|Projektaufgabenart|  
     |----------|------------------|---------------------------------------|-------------------|  
-    |0|1000|Zahlung - Anzahlung|Buchen|  
+    |1|1000|Zahlung - Anzahlung|Buchen|  
     |2|2000|Verbrauch|Buchen|  
     |3|3000|Zahlung - Hälfte|Buchen|  
     |4|4000|Zahlung - Abschluss|Buchen|  
@@ -481,8 +481,8 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 ## <a name="see-also"></a>Siehe auch  
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)   
  [Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)   
- [Verwendung von Ressourcen](projects-how-use-resources.md)   
- [So gehts: Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)   
- [Vorgehensweise: Fakturieren](projects-how-invoice-jobs.md)  
+ [Ressourceneinsatz](projects-how-use-resources.md)   
+ [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)   
+ [Fakturieren von Projekten](projects-how-invoice-jobs.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

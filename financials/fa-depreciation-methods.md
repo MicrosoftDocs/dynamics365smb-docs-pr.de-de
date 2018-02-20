@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="depreciation-methods"></a>Abschreibungsmethoden
@@ -212,7 +212,7 @@ Jahr (2015):
 
 *Degressiv Betrag: 25% von 23,730.46 = 4,943.85=2,471.92+2,471.92*  
 
-*Linearer Betrag = 23,730.46/3 = 7,910.15 = 3,995.07 + 3,995.08*  
+*Linear Betrag = 23.730,46/3 = 7.910,15=3.995,07+3.995,08*  
 
 Es wird der lineare Betrag verwendet, da es sich um den größeren Betrag handelt.  
 
@@ -231,7 +231,7 @@ Diese benutzerdefinierte Methode kann auch verwendet werden, um eine Abschreibun
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>So richten Sie benutzerdefinierte AfA-Methoden ein
 Im Fenster **Abschreibungstabelle** können Sie benutzerdefinierte AfA-Methoden einrichten. Beispielsweise können Sie die Abschreibung basierend auf der Stückzahl einrichten.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite und Bericht suchen")und geben **AfA-Tabellen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite und Bericht suchen") und geben **AfA-Tabellen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Im Feld **AfA-Tabelle Übersicht** wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie im Fenster **AfA-Tabelle - Karte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

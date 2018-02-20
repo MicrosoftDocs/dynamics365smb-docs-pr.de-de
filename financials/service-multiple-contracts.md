@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4abfbcb3bc182fa14c44c427bc41ebd9d67f6cf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1f3f30673f8235377a581b398e1281fba92501e5
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="multiple-contracts"></a>Mehrere Verträge
@@ -35,7 +35,7 @@ Wenn Sie einen Serviceartikel in mehreren Serviceverträgen berücksichtigen, k�
 Die folgenden Beispiele zeigen den Verwendungszweck der Funktionalität "Mehrere Verträge".  
   
 ## <a name="creating-multiple-contracts-per-service-item"></a>Erstellen von mehreren Verträgen pro Serviceartikel  
-Sie können manuell einen Servicevertrag oder ein Servicevertragsangebot für Serviceartikel erstellen, die bereits in ungekündigten Verträgen mit demselben Kunden enthalten sind. Wenden Sie dazu die Standardvorgehensweise zur Erstellung eines Servicevertrags oder eines Servicevertragsangebots an. Weitere Informationen finden Sie unter [Vorgehensweise: Arbeiten mit Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
+Sie können manuell einen Servicevertrag oder ein Servicevertragsangebot für Serviceartikel erstellen, die bereits in ungekündigten Verträgen mit demselben Kunden enthalten sind. Wenden Sie dazu die Standardvorgehensweise zur Erstellung eines Servicevertrags oder eines Servicevertragsangebots an. Weitere Informationen finden Sie unter [Arbeiten mit Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
   
 Wenn Sie einen Serviceartikel einer Vertragszeile hinzufügen, der bereits in einem anderen Servicevertrag oder einem anderen Servicevertragsangebot enthalten ist, erscheint eine Warnung, dass der Serviceartikel bereits zu einem oder mehreren Serviceverträgen oder Vertragsangeboten gehört. Wenn Sie diese Warnung bestätigen, werden alle entsprechenden Serviceartikeldaten in eine neue Servicevertragszeile kopiert.  
   
@@ -47,5 +47,5 @@ Sie können manuell einen Serviceauftrag für einen Serviceartikel, der in mehre
   
 ## <a name="see-also"></a>Siehe auch  
 [Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)  
-[Vorgehensweise: Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)  
+[Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)  
 

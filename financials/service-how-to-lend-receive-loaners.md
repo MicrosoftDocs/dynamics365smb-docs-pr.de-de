@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ac8e4cdfda63ed797415fcd183b410feea6bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 06b697ee8335f5c24b61414e9d7aebc5add2c5b0
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-lend-and-receive-loaners"></a>Vorgehensweise: Leihen und Zurücknehmen von Leihgeräten
+# <a name="lend-and-receive-loaners"></a>Leihen und Zurücknehmen von Leihgeräten
 Sie können einem Debitor vorübergehend ein Leihgerät für einen Serviceartikel zur Verfügung stellen, der sich bei Ihnen im Service befindet.  
   
 ## <a name="to-lend-a-loaner-item"></a>So verleihen Sie Leihartikel    
@@ -47,5 +47,5 @@ Sie können das Fenster **Allgemein Servicebemerkungen** verwenden, um Bemerkung
 5. Geben Sie in das Feld **Bemerkung** eine Bemerkung ein. Sie können bis zu 80 Ziffern und Buchstaben eingeben. Wenn Sie mehr Text eingeben müssen, wechseln Sie in die nächste Zeile. Sie können so viele Zeilen wie notwendig ausfüllen.  
   
 ## <a name="see-also"></a>Siehe auch  
-[Vorgehensweise: Einrichten eines Leihgeräteprogramms](service-how-setup-loaner-program.md)   
+[Einrichten eines Leihgeräteprogramms](service-how-setup-loaner-program.md)   
 

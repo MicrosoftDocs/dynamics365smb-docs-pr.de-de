@@ -13,13 +13,13 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 708569e88d443f1dc4f1d17d8015da98cf186e6d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 87a18af2c88955d4d0b78eb37fea161e3332c4b3
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-configure-service-processes"></a>Vorgehensweise: Konfigurieren von Serviceprozessen
+# <a name="configure-service-processes"></a>Konfigurieren von Serviceprozessen
 Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anwenden können:  
   
 * Einige allgemeine Einstellungen für mehrere Vorgänge, wie Warnungen, Berechnung des nächsten Service für Serviceartikel, die zu ermittelnde Grundgebühr, die zu verwendende Ebene des Problemberichtswesens und so weiter.  
@@ -33,10 +33,10 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Siehe auch  
-[Gewusst wie: Einrichten von Problem-Berichtswesen](service-how-setup-fault-reporting.md)  
-[Vorgehensweise: Einrichten von Ressourcenzuordnung](service-how-setup-resource-allocation.md)  
-[Vorgehensweise: Einrichten von Codes für Standardservices](service-how-setup-service-coding.md)  
-[Vorgehensweise: Einrichten zusätzlicher Kosten für Services](service-how-setup-service-costs-pricing.md)  
-[Vorgehensweise: Um Lösungsanleitungen einzurichten:](service-how-setup-troubleshooting.md)  
+[Fehlerberichte einrichten](service-how-setup-fault-reporting.md)  
+[Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)  
+[Einrichten von Codes für Standardservices](service-how-setup-service-coding.md)  
+[Einrichten zusätzlicher Kosten für Services](service-how-setup-service-costs-pricing.md)  
+[Lösungsanleitung Einrichtung](service-how-setup-troubleshooting.md)  
 [Service](service-service.md)  
 

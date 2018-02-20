@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c3a02aa2251b9b6b18576e9f274d018a617b179
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45afc7249e921b483d9fcb6860401528746f554a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Melden von Kosten und Abstimmen mit der Finanzbuchhaltung
@@ -30,9 +30,9 @@ Am Ende von (monatlichen, jährlichen oder anderen) Buchhaltungsperioden muss ei
 |Anzeigen des Lagerwerts ausgewählter Fertigungsaufträge in "Aktiviert Lager", beispielsweise der Mengen und Werte für Verbrauch, Kapazitätsauslastung und Ausgabe in laufenden Fertigungsaufträgen|Bericht **Lagerbewertung - Aktiviert**|  
 |Anzeigen des Lagerwerts ausgewählter Artikel, einschließlich der tatsächlichen Kosten und der Soll-Kosten zum angegebenen Datum|Bericht **Lagerbew.-Einst.-Pr.-Ermittl.**|  
 |Verwenden eines Berichts zum Analysieren der Ursachen für Kostenschwankungen oder zum Verschaffen eines Überblicks über den Kostenanteil verkaufter Artikel (Lagerverbrauch)|Bericht **Kostenanteilsanalyse**|  
-|Periodisches Buchen der Wertposten von Artikeltransaktionen aus den Lagerposten auf die entsprechenden Sachkonten, um die beiden Bücher abzustimmen|[Vorgehensweise: Abstimmen der Lagerregulierung mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Verwenden eines Fensters zum Überprüfen der Abstimmung zwischen den Lagerposten und der Finanzbuchhaltung|[Vorgehensweise: Abstimmen der Lagerregulierung mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Bestimmen des WIP-Betrags, der im Rahmen der Berichterstellung am Periodenende auf Bilanzkonten gebucht werden muss|[Vorgehensweise: Überwachen des Projektfortschritts und der Leistung](projects-how-monitor-progress-performance.md)|
+|Periodisches Buchen der Wertposten von Artikeltransaktionen aus den Lagerposten auf die entsprechenden Sachkonten, um die beiden Bücher abzustimmen|[Abstimmen der Lagerregulierung mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Verwenden eines Fensters zum Überprüfen der Abstimmung zwischen den Lagerposten und der Finanzbuchhaltung|[Abstimmen der Lagerregulierung mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Bestimmen des WIP-Betrags, der im Rahmen der Berichterstellung am Periodenende auf Bilanzkonten gebucht werden muss|[Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten der Lagerwertberechnung und der Kostenrechnung](finance-set-up-inventory-valuation-and-costing.md)  
