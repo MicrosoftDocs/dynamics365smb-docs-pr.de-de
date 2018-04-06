@@ -8,6 +8,11 @@
       "locale": "de-de",
       "monikers": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "moniker_groups": [],
@@ -21,6 +26,11 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     },
@@ -31,6 +41,11 @@
       "locale": "de-de",
       "monikers": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "moniker_groups": [],
@@ -38,16 +53,12 @@
     }
   ],
   "notification_subscribers": [
-    "edupont@microsoft.com",
-    "solsen@microsoft.com",
-    "sgroespe@microsoft"
+    "navualocbld@microsoft.com"
   ],
-  "branches_to_filter": [
-    "live-sxs"
-  ],
+  "branches_to_filter": ["live-sxs"],
+  "continue_with_document_error": true,
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics365smb-docs",
   "git_repository_branch_open_to_public_contributors": "live",
-  "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
   "dependent_repositories": [
@@ -62,15 +73,6 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master",
       "branch_mapping": {}
-    },
-    {
-      "path_to_root": "_repo.en-us",
-      "url": "https://github.com/MicrosoftDocs/dynamics365smb-docs-pr",
-      "branch": "live",
-      "branch_mapping": {
-        "live": "live",
-        "master": "master"
-      }
     }
   ],
   "branch_target_mapping": {
@@ -84,10 +86,15 @@
     ]
   },
   "need_generate_pdf_url_template": true,
-  "targets": {
+  "need_generate_intellisense": false,
+  "Targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
     }
-  },
-  "need_generate_intellisense": false
+  }
 }
+
+
+
+
+
