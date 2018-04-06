@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cea9b7bfe3d0dc0f4e698bc7f933c21affcc0c51
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 429dab626d71c42fe99d84c64ae59365e37c6c54
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="business-process-walkthroughs"></a>Exemplarische Vorgehensweisen für Geschäftsprozesse

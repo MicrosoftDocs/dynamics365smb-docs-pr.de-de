@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 14e0aea700bbb46a612d8e462ace22b10faac7e2
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="the-quickbooks-data-migration-extension-for-finance-and-operations-business-edition"></a>Die QuickBooks Online-Datenmigrations-Erweiterung für Finance and Operations, Business edition

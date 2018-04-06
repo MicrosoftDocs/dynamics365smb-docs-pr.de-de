@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f2d95dbb6d0336286f0fb657028970ce8a04cfda
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Produktion einrichten
@@ -26,7 +26,7 @@ Maschinisten und Maschinen werden im System als Arbeitsplätze dargestellt, die 
 
 Wenn Sie Produktion eingerichtet haben, können Sie Fertigungsaufträge berechnen und ausfüllen. Weitere Informationen finden Sie unter [Planung](production-planning.md) und [Produktion](production-manage-manufacturing.md).  
 
- Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.   
+ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

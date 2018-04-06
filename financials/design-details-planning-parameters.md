@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 335063984ab5d8ef1cbc9187352aa12287f6ade0
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter

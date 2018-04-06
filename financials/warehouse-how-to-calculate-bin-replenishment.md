@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: e667ca56aa22fafc7fe6d0a4880c419a4272db26
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a>Lagerplatzauffüllung berechnen

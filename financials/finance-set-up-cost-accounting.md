@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 7b652ca286f7b93c82fa5941449be96729a1e95f
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-cost-accounting"></a>Einrichten der Kostenrechnung
 Bevor Sie die Arbeit mit der Kostenrechnung beginnen können, müssen Sie Einrichtungsaufgaben ausführen.  
 
- Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
+ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
 |An|Siehe|  
 |--------|---------|  

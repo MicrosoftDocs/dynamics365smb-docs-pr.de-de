@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 132408d095edbfa1a60577cdd19022920088670b
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="pick-items"></a>Entnahme von Artikeln
@@ -31,7 +31,7 @@ Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Kommissionieru
 
 Wenn Ihr Lagerort so eingerichtet ist, dass die Bearbeitung der Kommissionierung und des Warenausgangs erforderlich ist, Sie also Häkchen im Feld **Kommissionierung erforderlich** und **Warenausgang erforderlich** auf der Lagerortkarte gesetzt haben, verwenden Sie das Fenster **Kommissionierung** für die Abwicklung der Kommissionierung. Die Kommissionierfunktionen sind ähnlich wie die Lagerkommissionierung, außer dass Sie anstatt die Kommissionierinformationen zu buchen, die Kommissionierung registrieren. Dieser Registrierungsprozess bucht nicht den Warenausgang, sondern stellt lediglich die Artikel für den Warenausgang zur Verfügung. Als Lagerbestandsmanager können Sie Kommissionierungsvorschläge verwenden, um Kommissionierungsinformationen zu organisieren, bevor Sie die individuellen Kommissionierungsanweisungen erstellen.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.   
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 |**Aufgabe**|**Siehe**|
 |------------|-------------|  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 77f377d6858294aeb54e30fcb178fc9757ac3938
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Hinzufügen von Feldern zu einem Word-Berichtlayout

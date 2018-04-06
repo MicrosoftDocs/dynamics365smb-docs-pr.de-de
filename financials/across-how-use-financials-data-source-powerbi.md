@@ -11,10 +11,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 12/21/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 056761b398737bd052b68488756198051f0cdb9a
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 73dc6048f7184054c853f9b9187cbb1a8d5131ff
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Power BI als Datenquelle für das Erstellen von Berichten nutzen

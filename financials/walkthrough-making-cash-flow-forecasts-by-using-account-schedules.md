@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata
@@ -34,7 +34,7 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 ### <a name="prerequisites"></a>Voraussetzungen  
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)]  installiert.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)] installiert.  
 - Die Cashflowvorschlagszeilen werden erfasst.  
 
 ## <a name="roles"></a>Rollen  

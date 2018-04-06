@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
@@ -36,7 +36,7 @@ Montageartikel sind durch ihre Beschaffungsmethode und die Montagestückliste ch
 -   Erstellen einer Montagestückliste, die die Montagekomponenten und die Ressource auflistet, die zu dem Montageartikel gehören.  
 
 ### <a name="selling-customized-assembly-items"></a>Verkauf von benutzerdefinierten Montageartikeln  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  bietet die Flexibilität, eine Lagermenge und eine Programmfertigungsmenge in einer Verkaufsauftragszeile einzugeben. Dieser Abschnitt behandelt die folgenden Aufgaben:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet die Flexibilität, eine Lagermenge und eine Programmfertigungsmenge in einer Verkaufsauftragszeile einzugeben. Dieser Abschnitt behandelt die folgenden Aufgaben:  
 
 -   Erstellen einer reinen ATO-Verkaufsauftragszeile, in der die gesamte Menge nicht verfügbar ist und vor dem Warenausgang montiert werden muss.  
 -   Anpassen von ATO-Artikeln.  
@@ -140,8 +140,8 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     |**Artikelnr.**|**Zonencode**|**Lagerplatzcode**|**Menge**|  
     |-----------------------------------|---------------------------------------|--------------------------------------|------------------------------------|  
-    |80001|KOMMISS|W-01-0001|2.0|  
-    |80005|KOMMISS|W-01-0001|2.0|  
+    |80001|KOMMISS|W-01-0001|20|  
+    |80005|KOMMISS|W-01-0001|210|  
     |80011|KOMMISS|W-01-0001|20|  
     |80014|KOMMISS|W-01-0001|20|  
     |80203|KOMMISS|W-01-0001|20|  

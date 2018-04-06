@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/11/2017
+ms.date: 03/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9c48b1258a5000f3ef994a02fe98387de50c8ac1
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 4f180f280415584d7bb216ee5be997f266d38ab2
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="invoice-sales"></a>Verkaufsrechnung
@@ -34,6 +34,10 @@ Wenn der Debitor entscheidet zu kaufen, senden Sie die Verkaufsrechnung, um die 
 
 Im betrieblichen Umfeld, in dem der Debitor bezahlen muss, bevor Produkte, wie in der Einzelhandelsbranche, geliefert werden, müssen Sie den Zahlungseingang für die Produkte abwarten, bevor Sie die Produkte liefern. In den meisten Fällen verarbeiten Sie eingehende Zahlungen einige Wochen nach Lieferung, indem Sie die Zahlungen in ihre entsprechenden gebuchten, unbezahlten Verkaufsrechnungen übernehmen. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
+Im betrieblichen Umfeld, wo der Debitor sofort bezahlt, beispielsweise in Paypal oder bar oder mit Kreditkarte, können Sie die gewünschte Methode im Feld **Zahlungsformcode** Feld der Verkaufsrechnung auswählen. Zahlung wird sofort auf der gebuchten Rechnung erfasst. Für Zahlungsservices müssen Sie das Feld **Zahlungsverkehr** ausfüllen. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
+
+Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch erstellen, indem Sie eine "eine Bargelddebitoren" Karte einrichten, auf der Sie auf der Verkaufsrechnung hinweisen. Weitere Informationen finden Sie unter [Einrichten von Bargeldkunden](finance-how-to-set-up-cash-customers.md).)  
+
 Sie können eine gebuchte Verkaufsrechnung einfach korrigieren oder stornieren, bevor sie bezahlt wird. Dies ist nützlich, wenn Sie einen Tippfehler korrigieren möchten, oder wenn der Debitor eine Änderung früh im Bestellvorgang anfordert. Weitere Informationen finden Sie unter [Ändern oder löschen von unbezahlten Verkaufsrechnungen](sales-how-correct-cancel-sales-invoice.md). Wenn die gebuchte Verkaufsrechnung bezahlt ist, müssen Sie eine Verkaufsgutschrift erstellen, um den Verkauf zu stornieren. Weitere Informationen finden Sie unter [Retouren verarbeiten oder Stornieren](sales-how-process-sales-returns-cancellations.md).
 
 Artikel können Lagerartikel und Dienstleistungen sein, gekennzeichnet als **Lager**- und **Service**-Typen auf der Artikelkarte. Der Verkaufsrechnungsprozess ist derselbe für beide Artikeltypen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
@@ -41,7 +45,7 @@ Artikel können Lagerartikel und Dienstleistungen sein, gekennzeichnet als **Lag
 Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist. Siehe Schritt 2 und 3 im folgenden Verfahren.
 
 ## <a name="to-create-a-sales-invoice"></a>So erstellen Sie eine Verkaufsrechnung
-1. Auf der Seite Homepage wählen Sie die Aktion **Verkaufsrechung** aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsrechnung** ein und wählen den zugehörenden Link aus.  
 2. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 
    Andere Felder im Fenster **Verkaufsrechnung** werden nun mit den Standardinformationen vom ausgewählten Debitor ausgefüllt. Wenn der Debitor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:
@@ -60,8 +64,8 @@ Wenn Sie wiederkehrende Verkaufszeilen für den Debitor wie einen Monatsersatzau
 9. Wählen Sie im Inforegister **Zeilen** im Feld **Art** aus, welche Art des Produkts, der Kosten oder der Transaktion Sie für den Debitor mit der Verkaufszeile buchen werden.
 10. Geben Sie im Feld **Nr.** Feld, einen Datensatz auswählen, um entsprechend dem Wert im Feld **Art** zu buchen.
 
- Sie lassen das **Nr.** Feld leer in folgenden Fällen: - Wenn die Zeile für eine Bemerkung ist. Die Bemerkung im Feld **Beschreibung** enthalten ist.
- - Wenn die Zeile für einen Katalogartikel ist. Wählen Sie die Aktion **Nicht-Katalogartikel auswählen**. Weitere Informationen finden Sie unter [Arbeiten mit nicht im Bestand vorhandenen Artikeln](inventory-how-work-nonstock-items.md).
+    Sie lassen das **Nr.** Feld leer in folgenden Fällen: - Wenn die Zeile für eine Bemerkung ist. Die Bemerkung im Feld **Beschreibung** enthalten ist.
+        - Wenn die Zeile für einen Katalogartikel ist. Wählen Sie die Aktion **Nicht-Katalogartikel auswählen**. Weitere Informationen finden Sie unter [Arbeiten mit nicht im Bestand vorhandenen Artikeln](inventory-how-work-nonstock-items.md).
 
 11. Geben Sie im Feld **Menge** ein, wie viele Einheiten des Produkts, der Kosten oder der Transaktion, in der Zeile des Debitors gespeichert werden soll.  
 

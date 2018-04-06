@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Buchen von Serviceaufträgen und Gutschriften
@@ -99,7 +99,7 @@ Der folgende Ablauf zeigt, wie man Lieferung der Servicezeilenartikel in Lagerpl
   
 4. Wählen Sie **Aktionen**, **Buchen** und dann nochmals **Buchen** aus. Wählen Sie im daraufhin angezeigten Fenster die Option **Lieferung** aus.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Die Anwendung erstellt die Posten (Garantieposten, Artikelposten, Serviceposten oder Sachposten), erzeugt den gebuchten Servicelieferungsbeleg und aktualisiert die entsprechenden Felder in den Serviceauftragszeilen.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]Die Anwendung erstellt die Posten (Garantieposten, Artikelposten, Serviceposten oder Sachposten), erzeugt den gebuchten Servicelieferungsbeleg und aktualisiert die entsprechenden Felder in den Serviceauftragszeilen.  
   
 Wenn der Lagerort so eingerichtet wurde, dass ein Lagerdurchlauf erforderlich ist, dann erfolgt die Lieferung und Umlagerung der Servicezeilenartikel auf die gleichen Weise wie für andere Herkunftsbelege. Der einzige Unterschied besteht darin, dass Servicezeilenartikel extern oder intern verbraucht werden können und daher zwei unterschiedliche Freigabefunktionen benötigen.  
   

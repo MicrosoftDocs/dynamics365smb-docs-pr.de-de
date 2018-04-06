@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 07/14/2017
+ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 10fb70ded1407c95034db6fcf974c37c6e119099
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Neue Unternehmen anlegen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,14 +25,15 @@ Wenn Sie sich entscheiden, einen Mandanten Ihrem [!INCLUDE[d365fin](includes/d36
 
 Der Setup-Assistent bietet drei Vorlagen an:
 
--   **Suiten-Auswertung**  
+-   **Bewertung - Beispieldatei**  
     Dies erstellt einen Mandanten, der gleich ist wie das Demounternehmen mit Beispieldaten und Einrichtungsdaten.  
--   **Suiten-Produktion**  
-    Dies erstellt einen Mandanten, der gleich ist wie **Mein Unternehmen** mit Einrichtungsdaten aber ohne Beispieldaten.  
--   **Neu**  
+-   **Produktion - nur Einrichtungsdaten**  
+    Dies erstellt einen Mandanten, der gleich ist wie **Mein Unternehmen** mit Einrichtungsdaten aber ohne Beispieldaten.
+-   **Erweiterte Auswertung - vollständiger Beispieldaten** Erstellt einen Mandanten mit Einrichtungsdaten und vollständigen Beispieldaten für alle Funktionen, einschließlich Produktion und Dienstleistungs-Verwaltung.
+-   **Neue Chargennr. erstellen**  
     Dies erstellt einen leeren Mandanten ohne Einrichtungsdaten.  
 
-Wenn Sie mit einem neuen Mandanten einfach anfangen möchten, wählen Sie **Suiten-Produktion** und importieren dann Ihre eigenen Geschäftsdaten, beispielsweise Debitoren, Kreditoren und Artikel. Wählen Sie die Vorlage aus **Neu**, wenn Sie etwas von Grund auf neu einrichten möchten. In diesem Fall können Sie den unterstützten Einrichtungs-Assistent **Unternehmenseinrichtung** verwenden, um Ihnen zu helfen, mit wesentlichen Einrichtungsdaten anzufangen.  
+Wenn Sie mit einem neuen Mandanten einfach anfangen möchten, wählen Sie **Produktion - nur Daten einrichten** und importieren dann Ihre eigenen Geschäftsdaten, beispielsweise Debitoren, Kreditoren und Artikel. Wählen Sie die Vorlage aus **Neu**, wenn Sie etwas von Grund auf neu einrichten möchten. In diesem Fall können Sie den unterstützten Einrichtungs-Assistent **Unternehmenseinrichtung** verwenden, um Ihnen zu helfen, mit wesentlichen Einrichtungsdaten anzufangen.  
 
 > [!NOTE]  
 >   Wenn Sie einen neuen Mandanten erstellen, dauert es mehrere Minuten, bevor Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)]zugreifen können. Der Einrichtungsstatus im **Unternehmen** zeigt an, ob das neue Unternehmen für Sie bereit ist. Dann können Sie zum neuen Mandanten wechseln, indem Sie **Meine Einstellungen** verwenden.  
@@ -44,10 +45,11 @@ Wenn Sie sich in einem neuen Mandanten annmelden, wird der Assistent **Unternehm
 
 Beispielsweise wird Ihre Mandantenadresse in Rechnungen und in anderen Belegen enthalten, werden Ihre Bankinformationen in den Zahlungen verwendet, die Lagerabgangsmethode und wird verwendet, um Preise zu berechnen und auf Lager Bewertung.  
 
-Sobald Sie die Grundlagen bereit haben, können Sie die übrigen Kernbereiche einrichten. Anschließend sind Sie bereit, Geschäftsdaten, beispielsweise Debitoren und Kreditoren einzugeben. Weitere Informationen finden Sie unter [Finance and Operations, Business edition einrichten](setup.md).  
+Sobald Sie die Grundlagen bereit haben, können Sie die übrigen Kernbereiche einrichten. Anschließend sind Sie bereit, Geschäftsdaten, beispielsweise Debitoren und Kreditoren einzugeben. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 
 ## <a name="see-also"></a>Siehe auch
-[Finance and Operations, Business edition einrichten ](setup.md)  
+[Finance and Operations, Business edition anpassen](ui-customizing-overview.md)  
+[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](upload-data.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

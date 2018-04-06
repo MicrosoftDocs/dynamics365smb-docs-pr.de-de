@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 19e9e6e226ceca061be03d48526f258309095e0a
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Einkaufsrechnungen sofort ausgleichen

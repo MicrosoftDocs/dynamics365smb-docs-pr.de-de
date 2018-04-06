@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 04416ae3b9433ccc3bf1295f006df0f4c72f27b5
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: d59c00f7a00854639250ae587805dece50fd1d78
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-payables"></a>Verwalten von Verbindlichkeiten

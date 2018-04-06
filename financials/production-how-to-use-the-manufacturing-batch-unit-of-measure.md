@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 7dafbb96b4ce4f5ad525ab299edd8549c7aa600e
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Verwenden der Fertigungsloseinheit

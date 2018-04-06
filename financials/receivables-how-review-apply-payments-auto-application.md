@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 745766657fe7e993aaa689f0074c4f4a41e0090c
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung.

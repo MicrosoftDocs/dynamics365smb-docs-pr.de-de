@@ -13,10 +13,10 @@ ms.search.keywords: trade
 ms.date: 01/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 6e18df20a5bef5aae44f476755eede73c99668da
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: b396908f9c63b63eb8eb0a3e9fd84d20cd1c6c32
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="sell-products"></a>Produkte verkaufen
@@ -40,7 +40,7 @@ Artikel können Artikel und Dienstleistungen sein, gekennzeichnet als **Artikel 
 Sie können die Debitorenfelder des Verkaufsangebotes auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist oder nicht. Siehe Schritt 2 und 3 im folgenden Verfahren.
 
 ## <a name="to-create-a-sales-order"></a>So erstellen Sie einen Verkaufsauftrag
-1. Auf der Startseite wählen Sie die Aktion **Verkaufsauftrag** aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein, und wählen Sie dann den zugehörigen Link aus. 
 2. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 
     Andere Felder im Fenster **Verkaufsangebot** werden nun mit den Standardinformationen vom ausgewählten Debitor ausgefüllt. Wenn der Debitor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:

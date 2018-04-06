@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9cbe892644646fa0ff5704dea500aead0f9dcc2f
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: ae77d44b0c04f7f190e94f07d2e94a2e06eb3921
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,22 +25,29 @@ Sie können beispielsweise die Größe und die Position von Fenstern anpassen, d
 
 Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den entsprechenden Themen, in denen die Abteilungen beschrieben werden.
 
-| Aufgabe | Siehe |
+| An | Siehe |
 | --- | --- |
-| Mehr über das Einschließen von Symbolen und Sonderzeichen bei der Suche nach Daten. |[Eingeben von Kriterien in Filtern](ui-enter-criteria-filters.md) |
-| Diese Felder müssen ausgefüllt werden. |[Pflichtfelder](ui-mandatory-fields.md) |
-| Verwenden Sie die Suche, um nach einer bestimmten Seite oder nach einem Bericht zu suchen. |[Seite oder Bericht suchen verwenden](ui-search.md) |
-| Mehr über das Sortieren von Daten erfahren. |[Sortieren](ui-sorting.md) |
+| Grundeinstellungen wie Unternehmen, Arbeitsdaten und Rollencenter ändern. |[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md) |
+| Finden Sie eine bestimmte Seite oder Bericht. |[Seite oder Bericht suchen verwenden](ui-search.md) |
+| Filtern von Daten in den Ansichten, in Berichten oder in den Funktionen, indem Sie Sonderzeichen und Zeichen verwenden. |[Eingeben von Kriterien in Filtern](ui-enter-criteria-filters.md) |
+| Mehr über das Sortieren von Daten erfahren. |[Sortieren von Daten](ui-sorting.md) |
+| Anzeigen oder bearbeiten Sie Daten in bestimmten Zeiträumen. |[Datenbereiche eingeben](ui-enter-date-ranges.md) |
+| Diese Felder müssen ausgefüllt werden. |[Pflichtfelder erkennen](ui-mandatory-fields.md) |
+| Ändern Sie, welche Felder und Aktionen in der Benutzeroberfläche angezeigt werden, um den Geschäftsprozessen des Unternehmens zu entsprechen. |[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 | Ändern Sie die Ansicht von Listen, beispielsweise Debitoren, Kreditoren oder Artikeln angezeigt. |[Anzeigen von Listen in verschiedenen Ansichten](across-display-lists-different-views.md) |
 | Ändern der farbigen Indikatoren auf Stapeln. |[Einrichten eines farbigen Indikators auf Stapeln des Rollencenters](ui-how-setup-colored-indicator-cues.md) |
-| Ändern der grundlegenden Einstellungen wie Unternehmen oder Arbeitsdatum. |[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md) |
-| Ändern Sie das Rollencenter und die dazugehörige Homepage, um Ihre Rolle anzupassen. |[So ändern Sie das Rollencenter](change-role.md) |
-| Ändern Sie, welche Felder und Aktionen in der Benutzeroberfläche angezeigt werden, um den Geschäftsprozessen des Unternehmens zu entsprechen. |[Anpassen der[!INCLUDE[d365fin](includes/d365fin_md.md)]Erfahrung](ui-experiences.md) |
-| Berichte abrufen, um Daten aus einem bestimmten Zeitraum anzuzeigen. |[Änderungen von Datenbereichen in Finance and Operations, Business edition](ui-enter-date-ranges.md) |
+|Vorschau, Ausgabe oder Abwehrberichte.|[Arbeiten mit Berichten](ui-work-report.md)|
+| Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. |[Planen der Ausführung eines Berichts](ui-work-report.md#ScheduleReport) |
+| Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr.|[Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md) |
+| Informationen zum Arbeiten mit Fibu Buch.-Blättern, die zum Buchen auf Sachkonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten verwendet werden. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md) |
+|Verstehen Sie, wie das Computergebietsschema die Benutzeroberfläche und die Hilfesite erfasst und die Sprache geändert wird.|[Sprache und Gebiet ändern](about-locale-language.md)|
+|Erhalten von Informationen über Funktionen und Funktionen, die einfach [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar sind für  Personen mit Behinderungen.|[Eingabehilfe und Tastenkombinationen](ui-accessibility.md)|
+|Überwachungsvideos der ausgewählten Funktionalität, um einfacher zu beginnen.|[Videos in häufigen Aufgaben](across-videos.md)|  
 
 ## <a name="see-also"></a>Siehe auch
+[Erste Schritte](index.md)  
+[Finance and Operations, Business edition einrichten ](setup.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
-[Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: a193d1ac19a0474b4a541165ef9f06d21ac7fb7d
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-production-boms"></a>Fertigungsauftrag erstellen
 In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponenten und Unterbaugruppen beschrieben werden, die bei der Fertigung eines übergeordneten Artikels verwendet werden. Sobald ein Fertigungsauftrag für diesen übergeordneten Artikel erstellt wurde, wird über die entsprechende Fertigungsstückliste die Berechnung des Materialbedarfs gesteuert, die im Fenster **Prod. Bestellkomponenten** dargestellt wird.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]   unterstützt auch Montagestücklisten. Montageaufträge werden für die Produktion von Endartikeln aus Komponenten in einem einfachen Prozess verwendet, der mit einer oder mehreren grundlegenden Ressourcen, die keine Maschinen oder Arbeitsplatzgruppen sind, oder ganz ohne Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und einen Sack Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken. Weitere Informationen finden Sie im Abschnitt "Montagestücklisten- oder Fertigungsstückliste" im Abschnitt [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md)  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt auch Montagestücklisten. Montageaufträge werden für die Produktion von Endartikeln aus Komponenten in einem einfachen Prozess verwendet, der mit einer oder mehreren grundlegenden Ressourcen, die keine Maschinen oder Arbeitsplatzgruppen sind, oder ganz ohne Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und einen Sack Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken. Weitere Informationen finden Sie im Abschnitt "Montagestücklisten- oder Fertigungsstückliste" im Abschnitt [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md)  
 
 Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:  
 

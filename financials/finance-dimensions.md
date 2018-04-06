@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f9a6d577138fcffa338ce51f0abaa45c63c520f7
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-dimensions"></a>Arbeiten mit Dimensionen
@@ -128,7 +128,7 @@ Für **BEREICH** fügen Sie die folgenden Dimensionswerte hinzu:
 | Code | Name | Dimensionswertart |
 | --- | --- | --- |
 | 10 |Amerika |Von-Summe |
-| 2.0 |Nordamerika |Standard |
+| 20 |Nordamerika |Standard |
 | 30 |Pazifik |Standard |
 | 40 |Südamerika |Standard |
 | 50 |Amerika, gesamt |Bis-Summe |
@@ -149,7 +149,7 @@ Für **ABTEILUNG** fügen Sie die folgenden Dimensionswerte hinzu:
 | PROD |Produktion |Standard |
 | VERKAUF |Verkauf |Standard |
 
-Mit dieser Einrichtung fügen Sie dann Ihre zwei Dimensionen als zwei globalen Dimensionen im Fenster **Finanzbuchhaltung Einrichtung** hinzu. Das bedeutet, dass globale Dimensionen als Filter für Sachposten in allen Berichten, Kontenschemata und Stapelverarbeitungen benutzt werden können. Beide globalen Dimensionen stehen auch als Shortcutdimensionen in Buch.-Blattzeilen und Belegköpfen zur Verfügung.  
+Mit dieser Einrichtung fügen Sie dann Ihre zwei Dimensionen als zwei globalen Dimensionen im Fenster **Finanzbuchhaltungs-Einrichtung:** hinzu. Das bedeutet, dass globale Dimensionen als Filter für Sachposten in allen Berichten, Kontenschemata und Stapelverarbeitungen benutzt werden können. Beide globalen Dimensionen stehen auch als Shortcutdimensionen in Buch.-Blattzeilen und Belegköpfen zur Verfügung.  
 
 ## <a name="using-dimensions"></a>Dimensionen verwenden
 In einem Beleg, z. B. einem Verkaufsauftrag, können Sie Dimensionsinformationen sowohl für eine einzelne Belegzeile als auch für den Beleg selbst hinzufügen. Sie können beispielsweise im Fenster **Verkaufsauftrag** Dimensionswerte für die ersten beiden Shortcutdimensionen direkt in den Beleg eingeben und weitere Dimensionsinformationen hinzufügen, wenn Sie auf die Schaltfläche **Dimensionen** klicken.  
@@ -159,7 +159,7 @@ Wenn Sie stattdessen in einem Buch.-Blatt arbeiten, können Sie auf dieselbe Art
 Sie können Standarddimensionen für Konten oder Kontenarten festlegen, sodass Dimensionen und Dimensionswerte automatisch ausgefüllt werden.
 
 ## <a name="to-view-global-dimensions-in-ledger-entry-windows"></a>Globale Dimensionen in Postenfenstern anzeigen:  
-Beachten Sie, dass globale Dimensionen immer vom Unternehmen \- definiert und benannt werden. Um die globalen Dimensionen für das Unternehmen anzuzeigen, öffnen Sie das Fenster  **Finanzbuchhaltung Einrichtung**.  
+Beachten Sie, dass globale Dimensionen immer vom Unternehmen \- definiert und benannt werden. Um die globalen Dimensionen für das Unternehmen anzuzeigen, öffnen Sie das Fenster  **Finanzbuchhaltungs-Einrichtung:**.  
 
 In einem Postenfenster können Sie sehen, ob für Posten globale Dimensionen vorhanden sind. Die beiden globalen Dimensionen unterscheiden sich von den anderen Dimensionen dadurch, dass Sie diese beiden Dimensionen überall in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Filter verwenden können.  
 

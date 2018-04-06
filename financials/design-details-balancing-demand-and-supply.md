@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: af9569114cfbe2d48be3a7514cc5c2bb48bd48ca
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetails: Ausgleich von Bedarf und Vorrat

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 439776669b9978ab622131aac770679ed08900ea
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 85b5583d18042b05aea264d59ed9484dddeb4d12
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning"></a>Planung
@@ -25,13 +25,13 @@ Die Produktionsschritte, die ausgeführt werden müssen, um das Ausgangsmaterial
 > [!NOTE]
 > Dieses Thema beschreibt die Planung für Unternehmen, die mit der Fertigung oder Montageverwaltung zu tun haben, wenn die resultierenden Beschaffungsaufträge entweder Produktion, Montage, Umlagerung oder Einkaufsbestellungen sein können. Die Hauptschnittstelle für diese Planungsarbeiten ist das Fenster **Planungsvorschlag**
 
-> [!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt auch Beschaffungsplanung für Großhandelsmandanten, in denen Beschaffungsaufträge und die resultierende Umlagerung nur Einkaufsbestellungen sein können. Die für diese Hauptschnittstelle Planungsarbeiten ist das **Bestellvorschlag** Fenster, die indirekt in diesem Thema beschrieben wird, während die meisten Planungsfunktionalität auf beide Vorschläge gehört.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt auch Beschaffungsplanung für Großhandelsmandanten, in denen Beschaffungsaufträge und die resultierende Umlagerung nur Einkaufsbestellungen sein können. Die für diese Hauptschnittstelle Planungsarbeiten ist das **Bestellvorschlag** Fenster, die indirekt in diesem Thema beschrieben wird, während die meisten Planungsfunktionalität auf beide Vorschläge gehört.
 
 Bevor Sie Produktionsaufträge planen und ausführen können, müssen Sie die Fertigungskapazitäten konfigurieren, wie Erstellung von Betriebskalendern, Arbeitsplänen, Produktionsstücklisten und Maschinencentren. Weitere Informationen finden Sie unter [Einrichten von Produktion](production-configure-production-processes.md).
 
 Planung kann als die Vorbereitung der erforderlichen Beschaffungsaufträge in den Montage- oder Fertigungsabteilungen zur Erfüllung des Bedarfs angesehen werden. Weitere Informationen finden Sie unter [Montageverwaltung](assembly-assemble-items.md) und [Produktion](production-manage-manufacturing.md).
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.   
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

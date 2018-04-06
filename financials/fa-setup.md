@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 6ca21ece631fdd07cb95ffdaaa350506b4a8c9e1
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Anlagen einrichten
@@ -31,7 +31,7 @@ Die folgende Tabelle enthält Verknüpfungen für weitere Informationen. Nachdem
 
 Wenn Sie das Kontrollkästchen für eine Anlagenaktivität im Abschnitt **Fibu-Integration** im Fenster **AfA-Buch-Karte** aktiveren, wird das **Anlagen Fibu Buch.-Blatt** Fenster verwendet, um Transaktionen für die fragliche Aktivität zu buchen.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.  
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
 
 | Aufgabe | Siehe |
 | --- | --- |

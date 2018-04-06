@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: ee5737fc44282d2f2217a50e5f9ffffc808dd4f8
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein

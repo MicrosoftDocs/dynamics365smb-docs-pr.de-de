@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeiten mit Serviceverträgen und Servicevertragsangeboten

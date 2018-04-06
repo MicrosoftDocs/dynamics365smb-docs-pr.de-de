@@ -13,10 +13,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8c8f01a97fa215932fff0adc6baff2be13621585
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 72e0a33326eaff03250b448275fa10715eb56e95
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Erweitern [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -54,8 +54,8 @@ Die neuen Entwicklungstools, die Ihnen ermöglichen, die Erweiterungen v2.0 zu n
 ## <a name="need-help"></a>Benötigen Sie Hilfe?
 Wenn Sie etwas Unterstützung möchten, können Sie einen App-Experten aus der folgenden Liste kontaktieren:
 
-* Cloud Ready Software, [http://cloud-ready-software.com](http://cloud-ready-software.com/)  
-* Dynamics App Alliance, [http://dynamicsappalliance.com](http://dynamicsappalliance.com/)
+* Cloud-betriebsbereite Software, [http://cloud-ready-software.com](http://cloud-ready-software.com/)  
+* Dynamics-App Alliance, [http://dynamicsappalliance.com](http://dynamicsappalliance.com/)
 
 Partner auf der Liste:
 

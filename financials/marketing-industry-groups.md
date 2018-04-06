@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: c7a8549a5c6528cafb5e2959a3391fb323fe92ca
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-industry-groups-for-contact-companies"></a>Einrichten von Branchen für Kontaktunternehmen

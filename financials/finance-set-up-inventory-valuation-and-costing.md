@@ -1,6 +1,6 @@
 ---
 title: Einrichten der Lagerwertberechnung und der Kostenrechnung | Microsoft Docs
-description: "Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden."
+description: "In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f6d1d0da42bbc6bf186845648552eb639731759f
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Einrichten der Lagerwertberechnung und der Kostenrechnung
 Um sicherzustellen, dass Lagerregulierungen ordnungsgemäß aufgezeichnet werden, müssen Sie verschiedene Felder und Fenster einrichten, bevor Sie Artikeltransaktionen durchführen können.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

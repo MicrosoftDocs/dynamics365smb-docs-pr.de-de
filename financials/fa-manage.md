@@ -13,10 +13,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 069f621101023a3c57b7add4d4e3ffcbc2664845
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 1398c8d44b035ce9e84c7268def8740f8876404d
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="fixed-assets"></a>Anlagen
@@ -35,7 +35,7 @@ Jede Anlage kann mit Versicherungspolicen verknüpft werden. Daher haben Sie die
 
 Bevor Sie mit dem Verwalten von Anlagen beginnen können, müssen Sie Standardwerte, Anlagenbuchungen, Buchungsgruppen, Verteilungsschlüsseln, Buch.-Blätter und Buchungsarten einrichten. Weitere Informationen finden Sie unter [Einrichten von Anlagen](fa-setup.md).
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
 | Aufgabe | Siehe |
 | --- | --- |

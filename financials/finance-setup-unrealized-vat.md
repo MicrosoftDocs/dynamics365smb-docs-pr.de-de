@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b8bbfac583e1e7ec7eedae9e412b4fd3ac956d0f
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -28,7 +28,7 @@ Sie können festlegen, dass MwSt.-Beträge beim Buchen einer Rechnung berechnet 
 
 Um die Konten für unrealisierte MwSt. zu verwenden, führen Sie diese Schritte aus:
 1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und **Finanzbuchhaltung einrichten** eingeben.
-2. Auf der Seite **Finanzbuchhaltung Einrichtung** im Inforegister **Allgemein**, wählen Sie **Mehr anzeigen** und wählen Sie dann das Kontrollkästchen **Unrealisierte MwSt.** aus.
+2. Auf der Seite **Finanzbuchhaltungs-Einrichtung:** im Inforegister **Allgemein**, wählen Sie **Mehr anzeigen** und wählen Sie dann das Kontrollkästchen **Unrealisierte MwSt.** aus.
 3. Schließen Sie die Seite.
 4. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen** aus ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen"). Geben Sie **MwSt Buchung einrichten** ein und wählen Sie dann den entsprechenden Link aus.
 5. Auf der Seite **MwSt.-Buchung einrichten** wählen Sie die MwSt.-Buchungsgruppe aus, und wählen Sie dann **Bearbeiten** aus.

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
 ms.openlocfilehash: 75f126b9b39e9d262bdc5f3b783c2e322b9ed801
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: cee6dcc0c0f4f596b3f63dbafec344875edb4e33
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -27,7 +27,7 @@ Beim Einrichten des Servicemanagements muss festgelegt werden, welche Services D
   
 Beim Definieren eines Service kann dieser den Qualifikationen zugeordnet werden, die zur Ausführung des Services erforderlich sind. Damit die Servicemitarbeiter effizient arbeiten, können auch Richtlinien für Lösungsanleitungen in Echtzeit eingerichtet und typische Anfangskosten, wie Reisekosten oder andere Gebühren, zugeordnet werden.  
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.  
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
   
 | An | Siehe |
 | --- | --- |

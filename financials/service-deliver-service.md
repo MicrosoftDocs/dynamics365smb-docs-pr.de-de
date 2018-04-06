@@ -16,21 +16,21 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 34283487641e7b249b556cec834531582c58af7a
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="delivering-service"></a>Bereitstellen von Service
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  
   
 Ausstehende Serviceaufträge können auch im Fenster **Serviceaufgaben** geprüft werden. In dieser Ansicht der Serviceverpflichtungen wird angezeigt, an welcher Stelle des Serviceworkflows sich der Auftrag befindet, und der Status kann so geändert werden, dass die Interaktionen mit dem Debitor dargestellt werden.  
   
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.   
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 Eine Servicemanagementanwendung benötigt eine Schnittstelle mit einer Serviceanforderung durch einen Debitor. Diese Serviceanforderung wird normalerweise in einen Serviceauftrag umgewandelt. [!INCLUDE[d365fin](includes/d365fin_md.md)]bietet Tools zum Erstellen eines Auftrags, und zwar entweder als direkte Reaktion auf eine Debitorenanforderung oder als Teil des Vertragsprozesses, falls die Anwendung entsprechend eingerichtet wurde.  
   
 Gegebenenfalls können Sie ein Leihgerätprogramm für Debitoren verwalten. Zudem besteht die Möglichkeit, die Preisstruktur zu bestimmen, Servicepreisangebote in logischen Gruppen zu platzieren und Preiskorrekturen zu erstellen.  
   
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.   
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
   
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

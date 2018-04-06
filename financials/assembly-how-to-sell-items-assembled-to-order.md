@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: ca8cf74ca844b2ec0119497e79ccfc7cc7df5026
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="sell-items-assembled-to-order"></a>Verkaufen von Auftragsmontageartikeln

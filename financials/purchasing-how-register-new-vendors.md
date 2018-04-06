@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 73d23013c97189caf5c75f561896b965dfb64837
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7cb6c75fa8c232c017e662ee8f324a8639c44a16
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-vendors"></a>Registriert einen neuen Kreditor
@@ -30,7 +30,7 @@ Kreditorenkarten verwahren die Informationen, die benötigt werden, um Produkte 
 >   Wenn es Kreditorenvorlagen für verschiedene Kreditorenarten gibt, dann erscheint ein Fenster automatisch, wenn Sie eine neue Kreditorenkarte erstellen, von der aus Sie eine entsprechende Kreditorenvorlage auswählen können. Wenn nur eine Kreditorenvorlage vorhanden ist, verwenden neue Kreditorenkarten immer diese Vorlage.
 
 ## <a name="to-create-a-new-vendor-card"></a>Erstellen einer neue Kreditorenkarte
-1. Auf der Startseite wählen Sie **Kreditoren**, um die Liste der Bestandskreditoren zu öffnen.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Im **Kreditoren**-Fenster wählen Sie **Neu**.
 
     Wenn mehr als eine Kreditorenvorlage vorhanden ist, dann öffnet sich ein Fenster mit verfügbaren Kreditorenvorlagen automatisch. In diesem Fall, folgen Sie den nächsten zwei Schritten.

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 7b8c24469a087c16c2e351b456b015e8fdd65f82
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
@@ -51,7 +51,7 @@ Um diese Toleranz einzurichten, müssen Sie verschiedene Toleranzkonten einricht
 5. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Kreditorenbuchung Einrichtung** ein und wählen dann den zugehörigen Link aus.  
 6. Richten Sie im Fenster **Kreditorenbuchungsgruppen** ein Haben- und ein Soll-Zahlungstoleranzkonto ein.  
 7. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Finanzbuchhaltung einrichten** ein. Wählen Sie dann den zugehörigen Link aus.  
-8. Öffnen Sie das Fenster **Finanzbuchhaltung Einrichtung**.  
+8. Öffnen Sie das Fenster **Finanzbuchhaltungs-Einrichtung:**.  
 9. Füllen Sie auf dem Inforegister **Ausgleich** die Felder **Skontotoleranzbuchung**, **Skontotoleranzperiode** und **Zahlungstoleranzbuchung** aus.   
 10. Wählen Sie die Aktion **Zahlungstoleranz ändern** aus.
 11. Füllen Sie im Fenster **Zahlungstoleranz ändern** die Felder **Zahlungstoleranz %** und **Max- Zahlungstoleranzbetrag** und bestätigen Sie dann mit **OK**.
@@ -68,7 +68,7 @@ Um diese Toleranz einzurichten, müssen Sie verschiedene Toleranzkonten einricht
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>So aktivieren oder deaktivieren Sie die Zahlungstoleranzwarnungen
 Die Zahlungstoleranzwarnung erscheint, wenn Sie einen Ausgleich mit einem Saldo innerhalb der erlaubten Toleranz buchen. Sie können dann wählen, wie Sie den Saldo buchen und dokumentieren wollen.    
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Finanzbuchhaltung Einrichtung** ein und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Finanzbuchhaltungs-Einrichtung:** ein und wählen dann den zugehörigen Link aus.  
 2. Versehen Sie im Fenster **Finanzbuchhaltung einrichten** im Inforegister **Anwendung** das Feld **Zahlungstoleranzwarnung** mit einem Häkchen, um die Warnung zu aktivieren. Um die Warnung zu deaktivieren, entfernen Sie das Häkchen.  
 
 > [!NOTE]  

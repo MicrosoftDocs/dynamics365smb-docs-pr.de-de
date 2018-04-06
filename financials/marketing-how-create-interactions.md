@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 61ee0eaccea5bfb3511537d825b2a0cb8948dee8
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Erstellen von Aktivitäten zu Kontakten und Segmenten
@@ -38,7 +38,7 @@ Bevor Sie Aktivitäten erstellen, müssen Sie Aktivitätenvorlagen einrichten. W
 3. Wählen Sie die fertig zu stellende Aktivität aus, und klicken Sie anschließend auf die Aktion **Fortsetzen**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>So erstellen Sie eine Aktivität für ein Segment
-1. Wählen Sie auf der Startseite **Aktive Segmente**, oder wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Segmente** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Oder wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Segmente** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Füllen Sie im Fenster **Segment** die Felder im Abschnitt **Aktivität** aus, um zu anzugeben, welche Aktivität Sie dem Segment zuordnen möchten.
 
     Nachdem Sie dem Segment eine Aktivität zugeordnet haben, können Sie die Aktivität für jeden einzelnen Kontakt personalisieren z. B., indem Sie eine andere Aktivitätenvorlage in den Zeilen des Fensters **Segment** auswählen.  

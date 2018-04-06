@@ -18,7 +18,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 86114cd184a7a9f10ae28fbb28fb3049e8e8f2d2
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="specify-posting-periods"></a>Festlegen von Buchhaltungsperioden:
@@ -26,7 +26,7 @@ Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Finanzbuchha
 
 ## <a name="to-specify-posting-periods"></a>Buchhaltungsperioden festlegen:
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Finanzbuchhaltung einrichten** ein. Wählen Sie dann den zugehörigen Link aus.  
-2. Im Fenster **Finanzbuchhaltung Einrichtung** legen Sie die Periode fest, indem Sie Daten in den Feldern **Buchungen zugel. ab** und **Buchungen zugel. bis** eingeben.  
+2. Im Fenster **Finanzbuchhaltungs-Einrichtung:** legen Sie die Periode fest, indem Sie Daten in den Feldern **Buchungen zugel. ab** und **Buchungen zugel. bis** eingeben.  
 
 > [!NOTE]  
 >   Diese Buchungszeiträume gelten für den Mandanten und alle Anwender. Wenn Sie für verschiedene Benutzer verschiedene Buchungszeiträume definieren möchten, können Sie diese im Fenster **Benutzer einrichten** Diese Buchungszeiträume haben Vorrang vor jenen, die im Fenster **Finanzbuchhaltung einrichten** angegeben werden. Weitere Informationen finden Sie im Abschnitt "Benutzerzeit-Einschränkungen einrichten in [Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md).

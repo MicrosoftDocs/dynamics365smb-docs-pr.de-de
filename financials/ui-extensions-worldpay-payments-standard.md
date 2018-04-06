@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 58a1207696245b8f6ea6ad2c55793ad60101d75f
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="the-worldpay-payments-standard-extension-to-included365finincludesd365finlongmdmd"></a>Die WorldPay-Zahlungs-Standarderweiterung für [!INCLUDE[d365fin](includes/d365fin_long_md.md)]

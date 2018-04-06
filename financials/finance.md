@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/28/2017
+ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 655c2248d10b357fd6ac5f3dba5cf71d7fd2c77b
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="finance"></a>Finanzen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
 
 Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter gestalten.  
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.  
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
 
 | Aufgabe | Siehe |
 | --- | --- |
@@ -33,6 +33,7 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 |Lassen Sie Ihre Debitoren zahlen, bevor Sie liefern, oder machen Sie die Zahlung an Ihre Kreditoren, bevor diese an Sie liefern.|[Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)|
 | Stimmen Sie Bankkonten ab und transferieren Sie Beträge zwischen Bankkonten. |[Verwalten von Bankkonten](bank-manage-bank-accounts.md) |
 |Einrichten von Intercompanypartner und verarbeiten von Transaktionen, manuzell oder automatisch, zwischen juristischen Personen innerhalb derselben Mandanten.|[Intercompanytransaktionen verwalten](intercompany-manage.md)|
+|Kombiniert Sachposten aus mehreren Mandanten in einem konsolidierten virtuellen "Mandanten" für Finanzanalyse.|[Konsolidieren von Finanzdaten aus mehreren Unternehmen](finance-consolidated-company-reporting.md)|
 |Analysieren der laufenden Geschäftskosten durch das Zuordnen der tatsächlichen und budgetierten Kosten für Arbeitsgänge, Abteilungen, Produkte und Projekte zur Analyse der Rentabilität Ihres Unternehmens|[Kostenrechnung](finance-manage-cost-accounting.md)|
 |Verwalten von Lager- und Fertigungskosten, Melden von Kosten und Abstimmen von Kosten mit der Finanzbuchhaltung|[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)|
 | Entwickeln Sie ein Verständnis für die Finanzbuchhaltung und den Kontenplan |[Verständnis der Fibu und des COA](finance-general-ledger.md) |

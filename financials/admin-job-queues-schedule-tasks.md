@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 712f0de68476a73871672c399bc5be72d511d9c1
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung
@@ -25,7 +25,7 @@ Im Fenster **Projektwarteschlangeneinträge** sind alle aktuellen Aufgabenwartes
 
 Optional im Feld **Kategorienfilter für Aufgabenwarteschlange** Feld, Sie wählen einen Filter, der gelten soll. Aufgabenwarteschlangenkategorien können verwendet werden, um Projekte in der Liste zu gruppieren.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  automatisch aktiviert die Projekte entsprechend den angegebenen Plänen für jeden Aufgabenwarteschlangenposten. Sie können einen Projektwarteschlangenposten auch manuell beginnen, beenden und aktivieren.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch aktiviert die Projekte entsprechend den angegebenen Plänen für jeden Aufgabenwarteschlangenposten. Sie können einen Projektwarteschlangenposten auch manuell beginnen, beenden und aktivieren.
 
 ### <a name="log-files"></a>Transaktionsprotokoll
 Die Fehler werden im Fenster **Aufgabenwarteschlangen-Protokolleinträge** aufgeführt, das Sie im Menüband zugreifen können. Sie können auch Aufgabenwarteschlangenfehler beheben. Die Daten, die beim Ausführen einer Aufgabenwarteschlange generiert werden, werden an der Datenbank gespeichert.  
@@ -35,7 +35,7 @@ Aufgabenwarteschlangen sind ein effektives Werkzeug, um die Ausführung von Gesc
 
  Alternativ können Sie Buchungen zu bestimmten Betriebszeiten planen, wenn es für Ihre Organisation hilfreich ist. Beispielsweise kann es in Ihrem Unternehmen sinnvoll sein, bestimmte Routinen dann auszuführen, wenn ein Großteil der Dateneingaben für einen Arbeitstag abgeschlossen wurde. Sie können dieses erreichen, indem Sie die oben Aufgabenwarteschlange auf Batch-Beitragsberichte des Ausführens verschiedene, wie **Aufträge stapelbuchen** **Verk. Rechnungen stapelbuchen** die **Verk.Gutschriften stapelbuchen** festlegen.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt die Hintergrundbuchung für die folgenden Belegarten:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt die Hintergrundbuchung für die folgenden Belegarten:  
 
 -   Vertrieb: Verkaufsauftrag, Verkaufsreklamation, Gutschrift, Rechnung  
 
@@ -52,7 +52,7 @@ Sie richten diese mithilfe der Projektwarteschlange im Fenster **Debitoren & Ver
 >  Wenn Sie einen Beleg an einen Drucker senden und der Drucker ein Dialogfeld anzeigt, wie eine Anforderung für Anmeldeinformationen oder eine Warnung über geringe Druckertinte, wird der Beleg gebucht, aber nicht gedruckt. Die entsprechenden Aufgabenwarteschlangenposten überschreiten letztendlich die Zeit und das Feld **Status** ist auf **Fehler** festgelegt. Entsprechend empfiehlt es sich, dass Sie kein Druckersetup verwenden, das Aktivität mit der Anzeige von Druckerdialogfeldern in Verbindung mit Hintergrundbuchung benötigt.  
 
 ## <a name="use-the-my-job-queue-part"></a>Nutzen Sie den Teil Meine Aufgabenwarteschange
-Der **Meine Aufgabenwarteschlange**-Teil zeigt die Aufgabenwarteschlangenposten an, die ein Benutzer gestartet hat, die jedoch noch nicht abgeschlossen sind. Standardmäßig ist dieser Teil nicht sichtbar, Sie müssen ihn also Ihrem Rollencenter hinzufügen. Weitere Informationen finden Sie unter [Rollencenter ändern](change-role.md).  
+Der **Meine Aufgabenwarteschlange**-Teil zeigt die Aufgabenwarteschlangenposten an, die ein Benutzer gestartet hat, die jedoch noch nicht abgeschlossen sind. Standardmäßig ist dieser Teil nicht sichtbar, Sie müssen ihn also Ihrem Rollencenter hinzufügen. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md).  
 
 In diesem Teil können Sie die Dokumente einsehen, die verarbeitet oder in die Warteschlange eingereiht werden und für die Ihre ID im Feld **Zugewiesene Benutzer-ID** angegeben ist. Dieser Teil hilft Ihnen bei der Nachverfolgung aller Projektwarteschlangenposten, einschließlich derer, die sich auf die Hintergrundbuchung beziehen. Dieser Teil informiert Sie auf einen Blick darüber, ob bei der Buchung eines Belegs ein Fehler aufgetreten ist, oder ob ein Projektwarteschlangenposten einen Fehler enthält. Mit diesem Teil können Sie auch eine Buchung stornieren, wenn diese nicht ausgeführt wird.  
 

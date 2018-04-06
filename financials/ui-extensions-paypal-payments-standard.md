@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 64d1a76c4d35a87ab7af85e3325b786156f5a62f
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="the-paypal-payments-standard-extension-to-finance-and-operations-business-edition"></a>Die PayPal Zahlungsstandard- Erweiterung für Finance and Operations, Business Edition 

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 592f42f53593735526ccbd3ddaa69bb0778de0ac
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="transfer-general-ledger-entries-to-cost-entries"></a>So übertragen Sie Sachposten in Kostenposten

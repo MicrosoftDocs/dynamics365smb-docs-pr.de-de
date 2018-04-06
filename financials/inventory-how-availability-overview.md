@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: dade893e7ff1c14854274565b40a436a5a9b48c8
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="view-the-availability-of-items"></a>Artikelverfügbarkeit anzeigen

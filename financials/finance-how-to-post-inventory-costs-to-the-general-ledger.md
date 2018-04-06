@@ -12,10 +12,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 07/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b71ca658374679860fae487c60d52502ce8eb243
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 4cd7eb78c803c8c1e13931f1184daaa3b4c51cdd
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerregulierung mit der Finanzbuchhaltung

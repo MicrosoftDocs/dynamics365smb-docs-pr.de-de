@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändern von Planungsvorschlägen in einer grafischen Ansicht

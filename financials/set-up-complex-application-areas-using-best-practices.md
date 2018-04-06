@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 508b45bab8b2ea98ae868c67e7e28c1e0a528040
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a7d4742c8bfda128ca073358da07545d6a0ebd4a
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein

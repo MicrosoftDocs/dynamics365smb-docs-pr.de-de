@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9b839b26814f730febc384ae1bca432a7c26852f
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen

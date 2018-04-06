@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: ab5be6e74e9dd90b07a765692d1ff9192fe42688
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="preview-posting-results"></a>Vorschau-Buchungs-Ergebnisse

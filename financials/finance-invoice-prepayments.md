@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 045cabbaab1b7978402524f408caee87ce8e53e2
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="invoicing-prepayments"></a>Fakturieren von Vorauszahlungen
@@ -24,7 +24,7 @@ Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und 
 
  Die Vorauszahlungsanforderungen können für einen Debitor, einen Kreditor, für alle Artikel oder für ausgewählte Artikel definiert werden. Nach dem Festlegen der erforderlichen Einstellungen können Vorauszahlungsrechnungen für den berechneten Vorauszahlungsbetrag auf der Grundlage von Aufträgen und Bestellungen generiert werden. Die Standardbeträge auf der Rechnung können je nach Anforderung geändert werden. So können Sie beispielsweise einen Gesamtbetrag für den gesamten Auftrag angeben. Sie haben auch die Möglichkeit zum Senden weiterer Vorauszahlungsrechnungen – beispielsweise für den Fall, dass dem Auftrag weitere Artikel hinzugefügt wurden. Sie können die Mengen erhöhen oder einem Auftrag neue Zeilen hinzufügen, nachdem eine Vorauszahlung geleistet wurde, und anschließend eine weitere Vorauszahlungsrechnung buchen. Soll eine Zeile gelöscht werden, für die bereits eine Vorauszahlung fakturiert wurde, muss eine Vorauszahlungsgutschrift erstellt werden, damit die Zeile gelöscht werden kann.  
 
- Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
+ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

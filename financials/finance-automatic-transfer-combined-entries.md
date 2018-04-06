@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f4796d9796788d2fbbf5706688aec75a4ed9a6d8
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="automatic-transfer-and-combined-entries"></a>Automatische Übertragung und kombinierte Posten

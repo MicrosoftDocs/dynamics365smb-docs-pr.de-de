@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: bfd3ca3e28b6eb3efa2a16cc131b508db6bd1590
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="the-dynamics-gp-data-migration-extension-for-finance-and-operations-business-edition"></a>Die Dynamics GP-Datenmigrations-Erweiterung für Finance and Operations, Business edition 

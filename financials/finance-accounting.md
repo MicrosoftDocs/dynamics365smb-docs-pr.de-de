@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 594c4cca94ee23904eaadc913f0e29ef0590f3f8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 8e28d3b8e245c014e6494cee341b49132242ac9f
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Buchhalter-Erfahrung in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -23,7 +23,7 @@ Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen. Ei
 ## <a name="accountant-role-center"></a>Buchhalter-Rollencenter
 Das Rollencenter bildet ein Dashboard mit Aktivitätskacheln, die Ihnen Echtzeitkennzahlen anzeigen und Ihnen Zugriff auf die Daten geben. Im oberen Fensterbereich im Menüband haben Sie Zugriff auf weitere Aktionen wie das Öffnen der häufig verwendeten Finanberichte und Kontoauszüge in Excel. Im Navigationsbereich links können Sie schnell zwischen den Listen wechseln, die Sie häufig verwenden. Wenn Sie das **Start**menü im Navigationsbereich erweitern, finden Sie weitere Bereiche, wie **Gebuchte Belege** mit den verschiedenen Belegarten, die der Mandant gebucht hat.  
 
-Wenn Sie neu sind bei [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie eine Liste der Videos starten direkt von Ihrer Homepage aus. Sie können auch **Erste Schritte** starten, die die Schlüsselbereiche unterstreichen.  
+Wenn Sie neu sind bei [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie eine Liste der Videos starten direkt von Ihrem Rollencenter aus. Sie können auch **Erste Schritte** starten, die die Schlüsselbereiche unterstreichen.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
 Wenn Sie ein Buchhalter mit mehreren Kunden sind, können Sie das [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] für einen besseren Überblick über Ihre Kundens verwenden. Von hier können Sie auf den Tenant jedes Clients zugreifen [!INCLUDE[d365fin](includes/d365fin_md.md)] und das Buchhalter-Rollencenter verwenden, wie oben beschrieben. Weitere Informationen finden Sie unter [Willkommen bei [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  

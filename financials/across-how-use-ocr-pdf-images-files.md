@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c3a9abd47e6d9f0a2b7fcd87aa83f2eaef3702a9
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln
@@ -55,16 +55,12 @@ Wenn Sie keine Aufgabenwarteschlange verwenden oder Sie einen fertigen OCR-Beleg
 > [!NOTE]  
 >   Wenn der OCR-Dienst für die manuelle Überprüfung der verarbeiteten Belegen eingerichtet wird, dann enthält das **OCR-Status**-Feld den Wert **Wartet auf Verifizierung**. In diesem Fall führen Sie die folgenden Schritte aus, um sich an der OCR-Dienst-Website anzumelden, um einen OCR-Beleg manuell zu überprüfen.
 
-1. Im Feld **OCR-Status**-Feld wählen Sie den Link **Wartet auf Verifizierung** aus. Wählen Sie die **Wartet auf Verifizierung**-Kachel auf der Homepage aus.
+1. Im Feld **OCR-Status**-Feld wählen Sie den Link **Wartet auf Verifizierung** aus.
 2. Melden Sie sich auf der OCR-Dienst-Website mit den Anmeldeinformationen des OCR-Service-Kontos an. Das sind die Anmeldeinformationen, die Sie beim Einrichten des Dienstes verwendet haben. Weitere Informationen finden Sie im Abschnitt"So richten Sie einen OCR-Service ein"in [Gewusst wie: Eingehende Dokumente einrichten](across-how-setup-income-documents.md).
-
-    Wenn Sie auf die Website über das Feld **OCR Status** zugreifen, wird der entsprechende Beleg sofort nach Ihrem Anmelden gezeigt. Wenn Sie auf die Website zugreifen, indem Sie die Kachel auf der Startseite auswählen, müssen Sie auf der ersten OCR-Dienst-Seite die **Start**-Schaltfläche auf der Registerkarte **Prüfen** auswählen, oder in den Beleg, den Sie prüfen möchten doppelklicken.
 
     Die Daten für den OCR-Beleg werden angezeigt und zeigen den Quellinhalt der PDF-Datei oder der Bilddatei und der resultierenden OCR-Feldwerte an.
 3. Prüfen Sie die verschiedenen Feldwerte und bearbeiten Sie sie manuell geben Sie Werte in die Felder ein, die der OCR-Dienst als unsicher markiert hat.
 4. Wählen Sie die Schaltfläche **OK** aus. Der OCR-Vorgang ist abgeschlossen und das resultierende elektronische Dokument wird an das **Eingehender Belege**-Fenster in [!INCLUDE[d365fin](includes/d365fin_md.md)] entsprechend dem Aufgabenwarteschlangenplan gesendet.
-
-    Wenn Sie auf die Website zugreifen, indem Sie die Kachel der Startseite auswählen, wird jeder andere zu überprüfende OCR-Beleg automatisch auf der Website angezeigt.
 5. Wiederholen Sie Schritt 4 für jeden anderen zu überprüfenden OCR-Beleg.
 
 Jetzt können Sie fortfahren, manuelle oder automatisch Belegdatensätze für die eingegangenen elektronische Belege in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erstellen. Weitere Informationen finden Sie im nächsten Verfahren. Sie können außerdem den neuen Eingangsbelegdatensatz mit vorhandenen gebuchten oder nicht gebuchten Belegen verknüpfen, sodass aus [!INCLUDE[d365fin](includes/d365fin_md.md)] einfach auf die Quelldatei zugegriffen werden kann. Weitere Informationen finden Sie unter [Eingehende Dokumente verarbeiten](across-process-income-documents.md).

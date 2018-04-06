@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 43cb04b4852e305926550b55af8d10ccbf71bd4e
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht

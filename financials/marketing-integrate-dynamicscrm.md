@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5626472de338f23df287699d65901645b84b49b3
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: cc1ad2ef812c073e570835e4018ce077b3b45494
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten
@@ -76,12 +76,19 @@ Am Ende der unterstützen Einrichtung können Sie die Aktion **Vollständige Syn
 
 Um den Status aus einzelnen Projekte in einer vollständigen Synchronisierung sicherzustellen, blättern Sie im **Projektwarteschlangenposten-Status** nach unten zum Feld **Um Int. Tabellen-Projekt-Status** oder **Von Int. Tabellen-Projekt-Status** im Fenster **CRM Full Synch. Prüfen**.
 
-Im Fenster **Dynamics 365 for Sales Verbindungseinrichtung** können Sie Details über sämtliche Synchronisierungen sehen. Von hier können Sie das Fenster **Integrationstabellenzuordnungen** auch öffnen, um Details über die Tabellen in Finance and Operations, Business edition und Dynamics 365 for Sales Lösungen finden, die synchronisiert werden müssen.
+Im Fenster **Dynamics 365 for Sales Verbindungseinrichtung** können Sie Details über sämtliche Synchronisierungen sehen. Von hier können Sie das Fenster **Integrationstabellenzuordnungen** auch öffnen, um Details über die Tabellen in Finance and Operations, Business edition und Dynamics 365 for Sales Lösungen finden, die synchronisiert werden müssen.  
+
+## <a name="handling-special-sales-order-data"></a>Auflösen von bestimmten Verkaufsauftrags-Daten
+Verkaufsaufträge in Dynamics 365 for Sales werden automatisch übertragen in [!INCLUDE[d365fin](includes/d365fin_md.md)], wenn Sie das Kontrollkästchen **Automatisches Erstellen von Verkaufsaufträgen** im Fenster **Microsoft Dynamics 365 for Sales Verbindungseinrichtung** auswählen. In solchen Verkaufsaufträgen wird das **Name** Feld im ursprünglichen Auftrag dem Feld **Externe Belegnummer** im Verkaufsauftrag in [!INCLUDE[d365fin](includes/d365fin_md.md)] übertragen und zugeordnet.
+
+Dies kann auch gehen, wenn der ursprüngliche Verkaufsaufttag geschriebene Produkte enthält, d.h. Artikel oder Ressourcen sind nicht in beiden Produkten erfasst worden. In diesem Fall müssen Sie die Felder**Geschriebenen Produkttyp** und die **Geschriebene Produktnummer** ausfüllen im Fenster **Debitoren & Verkauf Einr.**, damit solche nicht-registrierte Produktverkäufe in einem angegebenen Artikel/einer Ressourcennummer für Finanzanalyse zugeordnet werden.
+
+Wenn die Artikelbeschreibung des ursprünglichen Verkaufsauftrag sehr lang ist, wird eine zusätzliche Verkaufsauftragszeile der Art Bemerkung erstellt, um den Text in dem Verkaufsauftrag festzuhalten[!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Siehe auch
 [Marketing & Vertrieb](marketing-relationship-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Anpassen der[!INCLUDE[d365fin](includes/d365fin_md.md)]Erfahrung](ui-experiences.md)  
+[Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)  
 [Benutzer und ihre Berechtigungen verwalten.](ui-how-users-permissions.md)    
 [Führen Sie Ihre Organisation und Benutzer und für Finance and Operations, Business edition (online) ein](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 

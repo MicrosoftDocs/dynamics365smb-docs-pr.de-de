@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 552fbf283a9149c430ea1ed94bcea4bd22e43fea
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66a78ebc362d0e01c0e6df4bd4a2d74568845159
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="make-offers"></a>Aufträge erstellen
@@ -26,7 +26,7 @@ Während Sie mit dem Debitor verhandeln, können Sie das Verkaufsangebot ändern
 Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist oder nicht. Siehe Schritt 2 und 3 im folgenden Verfahren.
 
 ## <a name="to-create-a-sales-quote"></a>So erstellen Sie Verkaufsangebote:
-Auf der Seite Homepage wählen Sie die Aktion **Verkaufsangebote** aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Verkaufsangebote** ein und wählen dann den zugehörigen Link aus.
 2. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 
    Andere Felder im Fenster **Verkaufsangebot** werden nun mit den Standardinformationen vom ausgewählten Debitor ausgefüllt. Wenn der Debitor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:

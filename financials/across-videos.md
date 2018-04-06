@@ -16,18 +16,18 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 747a3f83d5e0387a557eebaf9ad5d2ef5dcd0673
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="visit-our-video-library"></a>Besuchen Sie unsere Videobibliothek
 Damit Sie sich rasch zurechtfinden, haben wir eine Reihe von Beispielvideos gemacht, die zeigen, wie verschiedene Vorgänge abgeschlossen werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] Um einige Beispiele zu erwähnen, die Bibliothek enthält Videos, , die anzeigen, wie:  
 
-* Geschäftsdaten aus anderen Finanzsystemen importieren  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Geschäftsdaten aus anderen Finanzsystemen importieren [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Richten Sie Dimensionen ein, damit Sie unterschiedliche Einheiten und Belege verfolgen und analysieren können
 * [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Microsoft Dynamics 365 for Sales verbinden
 * Genehmigungsworkflows einrichten  
-* Power BI mit  nutzen [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* E-Mail-Protokollierung einrichten und Belegen direkt aus  buchen [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Power BI mit [!INCLUDE[d365fin](includes/d365fin_md.md)] nutzen  
+* E-Mail-Protokollierung einrichten und Belegen direkt aus [!INCLUDE[d365fin](includes/d365fin_md.md)] buchen  
 
 Sie können die Videos auf verschiedene Arten aufrufen. Wenn Sie bereits arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)], gibt es zwei Möglichkeiten, zur Bibliothek zu gelangen:
 

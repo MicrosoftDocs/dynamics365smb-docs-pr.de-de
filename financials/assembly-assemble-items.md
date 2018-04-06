@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b12d6ddfad05c8a22eba0a45be28471a891dadf2
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: ec283da70c957d1575d8059d1833bf886ee359be
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="assembly-management"></a>Montageverwaltung
@@ -32,7 +32,7 @@ Für Unternehmen, die Produkte für ihre Debitoren herstellen, indem sie Kompone
 
  Es sind spezielle Funktionen vorhanden, um den Versand von Auftragsmontagemengen zu steuern. Sobald eine Auftragsmontagemenge für die Lieferung bereitsteht, bucht der zuständige Lagermitarbeiter für die betroffenen Verkaufsauftragszeilen eine Lagerkommissionierung. Dieses wiederum erstellt eine Lagerbestandsumlagerung für die Komponenten, bucht den Montageausstoß und die Verkaufsauftragslieferung. Weitere Informationen finden Sie im Abschnitt "Verwenden von Auftragsmontageartikeln in [Artikel mit Lagerkommissionierungen auswählen](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.   
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

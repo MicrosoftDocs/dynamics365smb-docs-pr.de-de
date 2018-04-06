@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 4020910008e47fdf5a7e4626aa84e0f64cf0905f
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Zuordnungsstatus und Reparaturstatus von Serviceartikeln

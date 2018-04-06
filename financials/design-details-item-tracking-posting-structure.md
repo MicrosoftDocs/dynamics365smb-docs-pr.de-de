@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 72de5863bf2e7c64078a9ca5421202f00f439250
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Designdetails: Artikelverfolgungs-Buchungsstruktur

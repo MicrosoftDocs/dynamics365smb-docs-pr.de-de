@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Kostenanpassung | Microsoft Docs'
 description: "Der vorrangige Zweck der Kostenregulierung besteht darin, Kostenänderungen von Kostenquellen zu Kostenempfängern weiterzuleiten, abhängig von der Kostenbewertungsmethode eines Artikels, um eine korrekte Lagerbewertung zu gewährleisten."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 23/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: d0733c7d96f10969a7d266031e5d1d0d7f83519f
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetails: Kostenregulierung
@@ -171,13 +169,20 @@ Wenn Sie die automatische Kostenregulierung so eingerichtet haben, dass Buchunge
 Wenn Sie die automatische Kostenregulierung so eingerichtet haben, dass Buchungen angewendet werden, die innerhalb eines Tages oder einer Woche ab dem aktuellen Arbeitstag angewendet werden, wird die automatische Kostenregulierung nicht ausgeführt, und die Kosten des Einkaufs werden nicht an den Verkauf weitergeleitet, bis Sie die Stapelverarbeitung **Kosten anpassen Artikeleinträge**ausführen.  
 
 ## <a name="see-also"></a>Siehe auch
+<<<<<<< KOPF [Artikelpreise justieren](inventory-how-adjust-item-costs.md)  
+[Designdetails: Buchungsdatum auf Ausgleichs-Wertposten](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)  
+[Designdetails: Abgleich mit der Finanzbuchhaltung](design-details-reconciliation-with-the-general-ledger.md)  
+[Designdetails: Bestandsbuchung](design-details-inventory-posting.md)  
+[Designdetails: Abweichung](design-details-variance.md)  
+=======
 [Artikelpreise justieren](inventory-how-adjust-item-costs.md)   
 [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
 [Designdetails: Abgleich mit der Finanzbuchhaltung](design-details-reconciliation-with-the-general-ledger.md)   
 [Designdetails: Bestandsbuchung](design-details-inventory-posting.md)   
 [Designdetails: Abweichung](design-details-variance.md)   
-[Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)   
-[Designdetails: Fertigungsauftrags-Buchung](design-details-production-order-posting.md)
+>>>>>>> refs/Remoten/Ursprung/Update13 [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)   
+[Designdetails: Fertigungsauftragsbuchung](design-details-production-order-posting.md)  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

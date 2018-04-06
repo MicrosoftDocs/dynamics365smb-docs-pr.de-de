@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 673c7a118c5f589319bd967bfaea3bedef84f9ff
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Einrichten von Verantwortlichkeiten von Kontaktpersonen

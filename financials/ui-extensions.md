@@ -12,10 +12,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5deba7ee0f88c47738f3f964b9da912c730a1bd4
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 1bcb4bd3cbc32397423430f07b3849be5047ec00
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="customizing-finance-and-operations-business-edition-using-extensions"></a>Finance and Operations, Business edition  mithilfe von Erweiterung anpassen

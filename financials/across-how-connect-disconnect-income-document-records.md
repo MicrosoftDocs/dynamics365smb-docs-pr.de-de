@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9e27853a9e767fb3b566ffc354242703ec762ad9
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Erstellen und Verknüpfen von Eingangsbelegen aus Dokumenten und Posten

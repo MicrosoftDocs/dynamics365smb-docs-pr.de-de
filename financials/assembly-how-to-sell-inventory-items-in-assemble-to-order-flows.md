@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 8d7c726cda285100a64a11beffdc7e0f492b93a9
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen

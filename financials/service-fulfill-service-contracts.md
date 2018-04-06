@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 6ad29dddb5a3dac2063e06fd973f1e41dc51d08a
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Erfüllen von Serviceverträgen 
@@ -24,7 +24,7 @@ Eine Möglichkeit zum Einrichten eines Servicemanagementgeschäfts besteht darin
   
 Nach dem Einrichten der Vorlage kann der daraufhin erstellbare Vertrag so angepasst werden, dass Servicezeiten oder andere Artikel, die sich abhängig vom Debitor unterscheiden, erfasst werden. Überdies kann ein Vertrag manuell anhand eines Servicevertragsangebots eingerichtet werden. Abschließend können die Servicepreise so angepasst werden, dass Rabatte nachverfolgt werden, für die ein bestimmter Debitor berechtigt ist. Dabei wird der Rabattbetrag im Fenster **Servicevertrag** angegeben.  
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.   
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
   
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

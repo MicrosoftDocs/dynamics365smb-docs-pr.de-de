@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 7d4b2c86174386faa86ab6c09faa463d26d3d2ac
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Konvertieren vorhandener Lagerorte in Lagerorte des Lagers

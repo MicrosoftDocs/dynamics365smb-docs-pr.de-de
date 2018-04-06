@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5e9e0d0d7850d6f66a16bfe46363e57292d88fb6
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="exchanging-data"></a>Austausch von Daten
@@ -22,7 +22,7 @@ Sie können Daten zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und exter
 
 Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren und exportieren können, müssen Sie das Datenaustauschframework einrichten, um die entsprechenden Dateien oder Streams zu verarbeiten. Darüber hinaus müssen Sie zugehörige Bereiche einrichten. Dazu gehören Stammdaten für Debitoren, an die Sie elektronische Rechnungen senden, und der Bankdaten-Konvertierungsdienst, falls Sie Bankdateikonvertierungen an einen externen Dienstleister vergeben. Weitere Informationen finden Sie unter [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 
- Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.  
+ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
 
 |**Aufgabe**|**Informationen**|  
 |------------|-------------|  

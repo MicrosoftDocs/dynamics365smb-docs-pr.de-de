@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9643e71c29adf4b4be1d9d474832e3e29f2c21d8
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-items"></a>Neue Artikel registrieren
@@ -33,7 +33,7 @@ Ein Artikel kann als übergeordneter Artikel mit zugrunde liegenden untergeordne
 Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, können Sie die Kreditoren mit der Artikelkarte anschließen. Die Kreditoren erscheinen dann im Fenster **Artikel/Lieferanten Katalog**, damit Sie einen alternativen Kreditor einfach auswählen können.
 
 ## <a name="to-create-a-new-item-card"></a>So erstellen Sie eine neue Artikelkarte
-1. Wählen Sie auf der Startseite die Aktion **Artikel**, um die Liste der vorhandenen Artikel zu öffnen.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie im Fenster **Artikel** die Aktion **Neu** aus.
 
     Wenn nur eine Artikelvorlage vorhanden ist, öffnet sich eine neue Artikelkarte bei der einige Felder mit Informationen aus der Vorlage ausgefüllt sind.

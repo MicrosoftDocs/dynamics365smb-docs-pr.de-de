@@ -1,0 +1,1 @@
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>ERWEITERT</b><br />Diese Funktion ist nur mit der erweiterten Erfahrung verfügbar. Weitere Informationen finden Sie unter [Anpassen von Ihrer Business Central Experience.](../ui-experiences.md) </blockquote>

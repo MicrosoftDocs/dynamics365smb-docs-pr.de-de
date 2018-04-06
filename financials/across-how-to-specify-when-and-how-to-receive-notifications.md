@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 1c514178ef65b78ad74256834b962e7018ac3864
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen

@@ -13,10 +13,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 67e76ea76267c001277be3203c28103c3acb3214
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: bb89654d7bc48ad9746265b15cf0b6270fec2f7c
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Einkauf von Produkten für einen Verkauf
@@ -29,7 +29,7 @@ Bei Verkaufsaufträgen aus der Verkaufsrechnungen können Sie Funktionen verwend
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Um eine oder mehrere Einkaufsbestellungen aus Verkaufsaufträgen zu erstellen
 Um eine Bestellung für jede Artikelmenge von nichtverfügbaren Artikeln im Verkaufsauftrag zu erstellen, verwenden Sie die Funktion **Einkaufsbestellungen**.
 
-1. Auf der Seite Startseite wählen Sie die den Titel **Laufende Verkaufsaufträge** aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein, und wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie einen Verkaufsauftrag für Artikel, die Sie kaufen möchten.
 3. Wählen Sie die Aktion **Einkaufsbestellung erstellen**.
 
@@ -52,7 +52,7 @@ Eine einzelne Einkaufsrechnung für eine oder mehrere Zeilen in einem Verkaufsbe
 > [!NOTE]  
 >   Diese Funktion erstellt eine Einkaufsrechnung für die exakte Artikelmenge audf dem ausgewählten Verkaufsbeleg. Um die Abnahmemenge zu ändern, müssen Sie die Einkaufsrechnung bearbeiten nachdem sie erstellt wurde.  
 
-1. Auf der Seite Startseite wählen Sie die den Titel **Laufende Verkaufsrechnungen** aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein, und wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie einen Verkaufsrechnunung für Artikel, die Sie kaufen möchten.
 3. Wählen Sie eine oder mehrere Rechnungszeilen aus, die Sie auf der Einkaufsrechnung verwenden möchten. Um alle Verkaufsrechnungszeilen zu verwenden, wählen Sie entweder alle oder keine Zeilen aus.
 4. Wählen Sie die Aktion **Einkaufsrechnung erstellen**.

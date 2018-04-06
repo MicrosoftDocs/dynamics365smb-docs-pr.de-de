@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9a859bf8fe418e54c793fdc97d45cddc2d737638
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Die Envestnet Yodlee Bank-Erweiterung

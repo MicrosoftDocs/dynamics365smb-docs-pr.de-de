@@ -13,10 +13,10 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: c1accaa517efa3fb9958316d2586b06fa8cadb80
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f29ae6b0a87f24a5201dd05b1d631adcc69b116d
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-reports"></a>Arbeiten mit Berichten
@@ -51,7 +51,7 @@ Verwenden der Menüleiste:
 Sie können einen Bericht in ein PDF-Dokument, Microsoft Word Dokument oder Microsoft Excel-Dokument speichern, indem Sie **Senden an** auswählen, und anschließend Ihre Auswahl treffen.
 
 ## <a name="ScheduleReport"></a> Planen der Ausführung eines Berichts
-Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. Geplante Berichte werden in der Projektwarteschlange eingegeben und zu der geplanten Zeit verarbeitet, wie vergleichbare andere Aufträge auch. Sie können auswählen, ob Sie den verarbeiteten Bericht speichern möchten, beispielsweise als Excel-, Word- oder PDF-Datei, ihn auf einem ausgewählten Drucker auszugeben, oder ihn nur zu verarbeiten. Wenn Sie wählen, den Bericht in eine Datei zu speichern, wird der verarbeitete Bericht an den **Berichts-Eingang** auf Ihrer Startseite gesendet, wo Sie ihn anzeigen können.
+Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. Geplante Berichte werden in der Projektwarteschlange eingegeben und zu der geplanten Zeit verarbeitet, wie vergleichbare andere Aufträge auch. Sie können auswählen, ob Sie den verarbeiteten Bericht speichern möchten, beispielsweise als Excel-, Word- oder PDF-Datei, ihn auf einem ausgewählten Drucker auszugeben, oder ihn nur zu verarbeiten. Wenn Sie wählen, den Bericht in eine Datei zu speichern, wird der verarbeitete Bericht an den **Berichts-Eingang** an Ihr Rollencenter gesendet, wo Sie ihn anzeigen können.
 
 Sie können einen Bericht planen, wenn Sie einen Bericht öffnen. Sie wählen **Plan** aus und Sie geben die Informationen wie Drucker und Zeit und Datum ein. Der Bericht wird der Aufgabenwarteschlange hinzugefügt und zum angegebenen Zeitpunkt ausgeführt. Wenn der Bericht verarbeitet ist, wird das Element aus der Aufgabenwarteschlange entfernt. Wenn Sie den verarbeiteten Bericht in einer Datei gespeichert haben, ist er im **Berichts-Eingang** verfügbar.
 

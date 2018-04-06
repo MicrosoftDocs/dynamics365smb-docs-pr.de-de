@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 4056d901739ba5cb4eaf1eb38f5cb4089012c941
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="manage-human-resources"></a>Personalwesen verwalten
@@ -26,7 +26,7 @@ Sie können auch Fehlzeiten von Mitarbeitern erfassen, was die Analyse der erfas
 
 Zum Verwenden der Funktionalität „Personalwesen” müssen zunächst Mitarbeiter und andere Basisdaten eingerichtet werden. Dann lassen sich einem Mitarbeiter verschiedene Codes zuordnen, anhand derer Informationen für bestimmte Mitarbeiter gefiltert werden können.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
 | Aktion | Siehe |
 | --- | --- |

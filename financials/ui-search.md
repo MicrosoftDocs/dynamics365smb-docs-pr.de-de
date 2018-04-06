@@ -13,10 +13,10 @@ ms.search.keywords: find
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5447914141d3a2a40af2438e854ef7ed3159405b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 8c337a507b1d6c6cfce65c068070f4e4dbccd953
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="searching-for-a-page-or-report"></a>Nach einer Seite oder einem Bericht suchen
@@ -27,7 +27,7 @@ Mithilfe des Symbols **Nach Seite oder Bericht Suchen** in der oberen rechten Ec
 «»Bei Eingabe der ersten Zeichen im Suchfeld werden in einer Dropdownliste Seitennamen angezeigt, die die eingegebenen Zeichen enthalten. Die Anzeige der Dropdownliste ändert sich bei Eingabe weiterer Zeichen, und Sie können die gewünschte Seite in der Liste auswählen, wenn diese angezeigt wird. Die zweite Spalte in der Dropdownliste enthält die Navigationsspfade zu den gefundenen Seiten. Es gibt zudem einen Link, der es Ihnen ermöglicht, die Hilfe nach den eingegebenen Zeichen zu durchsuchen.
 
 > [!NOTE]  
->   Die verfügbaren Seiten und die Berichte hängen von der Benutzerumgebung ab, die Sie für Ihren Mandanten auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Suite**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter [Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+>   Die verfügbaren Seiten und die Berichte hängen von der Benutzerumgebung ab, die Sie für Ihren Mandanten auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Essential**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter [Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 > [!NOTE]  
 >   Die Funktion **Suche nach Seite oder Bericht** sucht nicht nach Daten wie Debitorennamen, Adressen oder Transaktionen. Stattdessen können Sie nach Daten in den Listenseiten suchen, indem Sie das Lupensymbol in der rechten Ecke des Listenkopfes auswählen. Die Suche trifft nur auf die Liste zu, die Sie anzeigen. Informationen erhalten Sie unter [Eingeben von Kriterien in Filter](ui-enter-criteria-filters.md)

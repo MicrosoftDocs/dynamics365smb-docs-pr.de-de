@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 066a2857532f062c6dcfe6deccc27423c1431b74
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: eb04273e3e4f28d33e4fe99627ed4fbc44942aa0
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="service-management"></a>Service
@@ -33,7 +33,7 @@ Zudem können Sie Codierung standardisieren, Verträge einrichten, eine Rabattri
 
 Im Allgemeinen sind beim Servicemanagement zwei Aspekte zu beachten: Konfigurieren und Einrichten des Systems und seine Verwendung für Preisgestaltung, Verträge, Aufträge, Einsatz des Servicepersonals und Projektplaner.  
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.   
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

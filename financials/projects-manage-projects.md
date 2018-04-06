@@ -13,10 +13,10 @@ ms.search.keywords: projects
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 67410d7d1f6c71e977b5da7c2c81f7bd18746e3f
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 5e6701da2c728c092fafccdff772e0058ef9f6f0
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="project-management"></a>Projektmanagement

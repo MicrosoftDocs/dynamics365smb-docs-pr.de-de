@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4b4fde6f005c992b63856ec4afadbb689532ac16
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: f4facb8a56a89520797a650c686d7e2249886b81
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Gewusst wie: Einrichten von Intrastat-Berichten

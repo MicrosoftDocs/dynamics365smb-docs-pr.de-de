@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9b58c3889196cba3a6ddbeb50249a6ae962c4ea1
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Szenario-Beispiel: Definieren von statischen Verteilungen basierend auf dem Verteilungsverh채ltnis
@@ -56,7 +56,7 @@ In diesem Thema wird beschrieben, wie drei neue Verteilungsziel-Kostentr채ger f�
 15. Geben Sie in der dritten Zeile im Feld **Aktie** das Verteilungsverh채ltnis **4**ein.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet automatisch das Feld **Prozent** unter Verwendung eines Prozentsatzes, der von allen drei Zuteilungsverh채ltnissen abh채ngt, die im Feld **Aktie** f체r alle drei Zeilen eingegeben werden.  
+>  [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet automatisch das Feld  unter Verwendung eines **Prozentsatzes**, der von allen drei Zuteilungsverh채ltnissen abh채ngt, die im Feld **Aktie** f체r alle drei Zeilen eingegeben werden.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Richten Sie die Zuteilungsquelle und Ziele ein](finance-how-to-set-up-allocation-source-and-targets.md)   

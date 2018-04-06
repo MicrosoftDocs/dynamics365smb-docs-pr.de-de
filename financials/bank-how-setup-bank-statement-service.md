@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: fa5c0c39dbbce40b59d639f810522c66da1a09ab
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Einrichten des Envestnet Yodlee Bank-Feed-Service

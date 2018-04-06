@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2c17f14809ecfe9a335c3f8e6bb7ddeb4e26e1e9
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-segments"></a>Verwalten von Segmenten
@@ -27,7 +27,7 @@ Die Segmenterstellung setzt sich aus zwei Hauptschritten zusammen:
 * Eingeben allgemeiner Informationen zum Segment Damit die Kontakte innerhalb des Segments ausgewählt werden können, muss zunächst das Segment erstellt werden.
 * Auswählen der Kontakte, die in das Segment einbezogen werden sollen
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. 
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert. 
 
 | An | Siehe |
 | --- | --- |

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 569501a38bb12468400ca53a5014e7c6491ac012
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
@@ -77,7 +77,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     |Beschreibung|Basiseinheiten|Produktbuchungsgruppe|MwSt.-Produktbuchungsgruppe|Lagerbuchungsgruppe|Artikelverfolgungscode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
-    |Rennradrahmen|STÜCK|ROHMAT|MWST16|ROHMAT|CHARGEALLE|  
+    |Rennradrahmen|STÜCK|ROHMAT|MWST25|ROHMAT|CHARGEALLE|  
 
     > [!NOTE]  
     >  Um die Basismaßeinheit einzugeben, wählen Sie die Schaltfläche **Neu**, und wählen Sie dann **PSC** im Fenster **Artikeleinheiten** aus.  
@@ -89,7 +89,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     |Beschreibung|Basiseinheiten|Produktbuchungsgruppe|MwSt.-Produktbuchungsgruppe|Lagerbuchungsgruppe|Beschaffungsmethode|Artikelverfolgungscode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
-    |Rennrad|STÜCK|HANDEL|MWST16|FERTIG|Fertigungsauftrag|SNALLE|  
+    |Rennrad|STÜCK|HANDEL|MWST25|FERTIG|Fertigungsauftrag|SNALLE|  
 
     > [!NOTE]  
     >  Um die Basismaßeinheit einzugeben, wählen Sie die Schaltfläche **Neu**, und wählen Sie dann **PSC** im Fenster **Artikeleinheiten** aus.  

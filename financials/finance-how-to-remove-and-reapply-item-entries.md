@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 12bde7fc508bb29e56ad63d76b526a80b5073f03
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Entfernen und erneutes Ausgleichen von Artikelposten

@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3d9a803f16ebe5f88a659d3e9e6dab35efe1eed9
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -52,7 +52,7 @@ Für die Mehrwertsteuerrückgabe können Sie die Posten angeben, die berücksich
 * Buchen Sie nur Posten aus den angegebenen Zeiträumen, oder aktualisieren Sie auch Posten aus den vorherigen Perioden. Dies dient zum Aktualisieren der Mehrwertsteuerrückgabe, die Sie bereits gebucht haben, wenn zum Beispiel ein Kreditor eine verspätete Rechnung sendet.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Um sich mit der Webdienst Ihrer Steuerbehörde zu verbinden
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  stellt die Dienst-Verbindungen für Steuerbehördenwebsites bereit. Wenn Sie beispielsweise in Großbritannien sind, können Sie die **GovTalk**-Dienst-Verbindung ausführen, um die EU-Verkaufsübersicht und MwSt.-Rückgabeberichte elektronisch zu senden. Wenn Sie den Bericht manuell buchen möchten, indem Sie z. b. die Daten auf der Website der Steuerbehörden eingeben, ist dies nicht erforderlich.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)] stellt die Dienst-Verbindungen für Steuerbehördenwebsites bereit. Wenn Sie beispielsweise in Großbritannien sind, können Sie die **GovTalk**-Dienst-Verbindung ausführen, um die EU-Verkaufsübersicht und MwSt.-Rückgabeberichte elektronisch zu senden. Wenn Sie den Bericht manuell buchen möchten, indem Sie z. b. die Daten auf der Website der Steuerbehörden eingeben, ist dies nicht erforderlich.   
 
 Um MwSt an eine Steuerbehörden zu übermitteln, müssen Sie den [!INCLUDE[d365fin](includes/d365fin_md.md)] mit der Steuerbehörde verbinden. Dazu ist es erforderlich, dass Sie ein Konto mit Ihrer Steuerbehörden einrichten. Wenn Sie ein Konto haben, können Sie eine Dienst-Verbindung ausführen, die wir in [!INCLUDE[d365fin](includes/d365fin_md.md)] voraussetzen.
 
@@ -77,7 +77,7 @@ Um MwSt an eine Steuerbehörden zu übermitteln, müssen Sie den [!INCLUDE[d365f
 4. Um einen Bericht für die Übermittlung zu überprüfen und vorzubereiten, wählen Sie die **Freigabe**-Aktion.  
 
     >  [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)]  prüft, ob der Bericht korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **Fehler und Warnungen** angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Wenn die Meldung zu einer fehlenden Einstellung in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfolgt, können Sie auf die Nachricht klicken, um die Seite zu öffnen, die die Informationen zur Korrektur enthält.  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)] prüft, ob der Bericht korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **Fehler und Warnungen** angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Wenn die Meldung zu einer fehlenden Einstellung in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfolgt, können Sie auf die Nachricht klicken, um die Seite zu öffnen, die die Informationen zur Korrektur enthält.  
 5. Um den Bericht zu buchen, wählen Sie die **Übermitteln** Aktion.  
 
 Nachdem Sie den Bericht gesendet haben, überwacht [!INCLUDE[d365fin](includes/d365fin_md.md)] den Service und bewahrt einen Datensatz Ihrer Kommunikation auf. Das Feld **Status** gibt an, wo der Bericht in Bearbeitung ist. Beispielsweise wenn die Behörden Ihren Bericht verarbeiten, ändert sich der Status des Berichts auf **Erfolgreich**. Wenn die Steuerbehörde Fehler im Bericht finden, erhält der Bericht den Status **Fehler**. Sie können die Fehler unter **Fehler und Warnungen** anzeigen, korrigieren und den Bericht erneut senden. Um eine Liste Ihrer EU-Verkaufsübersichts-Berichte anzuzeigen, wechseln Sie zur Seite **EU-Verkaufsübersichts-Berichte**.  

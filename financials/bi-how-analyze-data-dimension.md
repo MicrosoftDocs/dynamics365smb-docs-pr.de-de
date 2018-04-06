@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: ec3210e019da3369971d3aef6a4e38f4dcf1f530
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysieren von Daten nach Dimensionen

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 6ccc452db91f7c227e052f60d50f8cc0fdf46fd0
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Einlagern von Artikeln mit Lagereinlagerungen

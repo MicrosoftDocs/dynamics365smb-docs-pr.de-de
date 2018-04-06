@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: a87fb83e2fad2c99de9938f87ef6f83db9c64dc4
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-the-concept-of-balancing-in-brief"></a>Designdetails: Das Ausgleichskonzept in Kürze

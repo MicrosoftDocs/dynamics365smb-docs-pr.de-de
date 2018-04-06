@@ -13,10 +13,10 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: db8f59a71b8a6afa26e878e189f8cb2ef85685e5
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 3a1a2243c0da6c077cd12388cd38621a6d24b4fb
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a>Zahlungen in eine Bankdatei exportieren

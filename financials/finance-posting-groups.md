@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: add78070e838dcf8b0eb24dcc8b642d621a400b9
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-posting-groups"></a>Buchungsgruppen einrichten

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 6f82017a0e5178e39b5c06e4d52c6e35ec84d848
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportieren Ihrer Geschäftsdaten nach Excel

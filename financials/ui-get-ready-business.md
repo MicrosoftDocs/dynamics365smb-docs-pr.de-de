@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 03/21/2017
+ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f3ec96ef0f9c69c4942e85e7438f80bc70e6f37d
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
@@ -23,10 +23,10 @@ Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[d365fin](in
 
 Für Unterstützung zum Tätigen vom Geschäften erhalten, können Sie das Fenster **Geschäfts-Hilfe** aufsuchen. Dort können Sie die unterstützte Hilfe starten oder Hilfethemen für ausgewählte Einrichtungsaufgaben aufrufen. Sie rufen das Fenster aus dem Diagramm im Rollencenter zu **Geschäftsführer** auf, indem Sie das Steuerelement **Geschäfts-Hilfe** auswählen, und dann die Aktion **Einrichtungs- und Hilfe-Ressourcen anzeigen** auswählen. Wenn Sie die Seite aktualisieren, wird das Diagramm der Einrichtungs- und Hilferessourcen ersetzt.
 
-Auf der Homepage am unteren Rand des Navigationsbereichs finden Sie das Menü **Einrichtung und Erweiterungen**. Erweitern Sie die Schaltfläche **Startseite**, um den Navigationsbereich anzuzeigen. Hier sehen Sie eine Übersicht der unterstützten Einrichtung , die Ihnen bei den ersten Schritten helfen kann. Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie in Betracht ziehen, ob die unterstützte Einrichtung Ihnen helfen kann. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung** aus, um auf das Einrichtungsfenster zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+Im Rollencenter am unteren Rand des Navigationsbereichs finden Sie das Menü **Einrichtung und Erweiterungen**. Erweitern Sie die Schaltfläche **Startseite**, um den Navigationsbereich anzuzeigen. Hier sehen Sie eine Übersicht der unterstützten Einrichtung , die Ihnen bei den ersten Schritten helfen kann. Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie in Betracht ziehen, ob die unterstützte Einrichtung Ihnen helfen kann. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung** aus, um auf das Einrichtungsfenster zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
 > [!NOTE]  
->   Die Liste der Einrichtungshilfen, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Suite**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter [Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+>   Die Liste der Einrichtungshilfen, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Essential**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter [Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 Im Fenster **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung **Basic**:
 
@@ -62,4 +62,7 @@ Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkä
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

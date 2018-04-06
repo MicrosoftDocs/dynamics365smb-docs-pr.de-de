@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/02/2017
+ms.date: 02/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: b567b57755df5d887bc20ca8cebfb6d3d4383c37
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-general-journals"></a>Arbeiten mit Fibu Buch.-Blättern
@@ -42,7 +42,54 @@ Wurden auf der Seite **Fibu Buch.-Blätter** Standardgegenkonten für die Buch.-
 >   Die MwSt. für Haupt- und Gegenkonto wird getrennt berechnet, damit für die Konten unterschiedliche MwSt.-Prozentsätze verwendet werden können.
 
 ## <a name="working-with-recurring-journals"></a>Arbeiten mit wiederkehrenden Buchblättern
-Bei einem wiederkehrenden Buch.-Blatt handelt es sich um ein Fibu Buch.-Blatt mit speziellen Feldern für die Verwaltung von Transaktionen, die häufig mit geringen oder keinen Änderungen gebucht werden. Mithilfe dieser speziellen Felder für wiederkehrende Transaktionen können Sie feste und variable Beträge buchen. Sie können auch ein automatisches Storno für den Tag nach dem Buchungsdatum festlegen und wiederkehrende Posten zusammen mit Verteilungsschlüsseln verwenden.
+Bei einem wiederkehrenden Buch.-Blatt handelt es sich um ein Fibu Buch.-Blatt mit speziellen Feldern für die Verwaltung von Transaktionen, die häufig und ohne oder und mit geringen Änderungen gebucht werden. Mithilfe dieser speziellen Felder für wiederkehrende Transaktionen können Sie feste und variable Beträge buchen. Sie können auch ein automatisches Storno für den Tag nach dem Buchungsdatum festlegen und wiederkehrende Posten zusammen mit Verteilungsschlüsseln verwenden. Sie können auch Verteilungsschlüssel verwenden, um wiederkehrende Posten mit einem einzigen Vorgang zwischen verschiedenen Konten aufteilen zu können. Weitere Informationen finden Sie im Abschnitt "Beträge des wiederkehrenden Buch.-Blatts auf mehrere Konten Zuweisent".
+
+Mit einem wiederkehrenden Buchungsblatt müssen Posten, die regelmäßig gebucht werden, nur einmal eingetippt werden. Das bedeutet, dass Einträge wie Konten, Dimensionen oder Dimensionswerte nach der Buchung im Buchungsblatt verbleiben. Werden Anpassungen notwendig, können Sie diese mit jeder Buchung durchführen.
+
+### <a name="recurring-method-field"></a>Feld Wiederholungsmethode
+Dieses Feld legt fest, wie der in der Buch.-Blattzeile angegebene Betrag nach der Buchung bearbeitet werden soll. Wenn Sie z. B. bei jeder Buchung der Zeile den gleichen Betrag verwenden, können Sie den Betrag unverändert lassen. Wenn Sie dagegen immer den Betrag ändern, jedoch Konto und Text unverändert lassen, können Sie den Betrag nach der Buchung löschen lassen.
+
+| An | Siehe |
+| --- | --- |
+|Fixiert|Der Betrag in der Buch.-Blattzeile wird nach der Buchung nicht geändert.|
+|Variabel|Der Betrag wird nach dem Buchen aus der Buch.-Blattzeile gelöscht.|
+|Saldo|Der gebuchte Betrag des Kontos in der Zeile wird Konten zugewiesen, die für die Zeile in der Tabelle  angegeben werden. Der Saldo auf dem Konto wird daher auf Null festgelegt. Denken Sie daran, das Feld **Verteilung %** im Fenster **Verteilungsübersicht** auszufüllen. Weitere Informationen finden Sie im Abschnitt "Beträge des wiederkehrenden Buch.-Blatts auf mehrere Konten Zuweisent".|
+|Umgekehrt fix|Der Betrag in der Buch.-Blattzeile bleibt nach der Buchung erhalten und für den folgenden Tag wird ein Gegenposten gebucht.|
+|Umgekehrt variabel|Der Betrag in der Buch.-Blattzeile wird nach der Buchung gelöscht und für den folgenden Tag wird ein Gegenposten gebucht.|
+|Umgekehrt Ausgleich|Der gebuchte Betrag des Kontos in der Zeile wird Konten zugewiesen, die für die Zeile im Fenster **Zuweisungen** angegeben werden. Der Saldo auf dem Konto wird auf Null gesetzt, und ein Gegenposten wird am folgenden Tag gebucht.|
+
+> [!NOTE]  
+>  Die MwSt.-Felder können entweder in der Wiederk. Buch.-Blattzeile oder in der Verteilungs Buch.-Blattzeile ausgefüllt werden, aber nicht in beiden. Das heißt, sie können im Fenster **Zuweisungen** nur passende Zeilen eintragen, wenn die entsprechenden Zeilen nicht im wiederkehrenden Buch.-Blatt eingetragen werden.
+
+### <a name="recurring-frequency-field"></a>Feld Wiederholungsrate
+Das Feld legt fest, wie oft der Posten in der Buch.-Blattzeile gebucht wird. Das ist ein Datumsformelfeld, und es muss für andere Zeilen des wiederkehrenden Buch.-Blatts ausgefüllt werden. Weitere Informationen finden Sie unter dem Abschnitt Verwenden von Datumsformeln unter [Daten eingeben](ui-enter-data.md).
+
+#### <a name="examples"></a>Beispiele
+Wenn das Buch.-Blatt z. B. monatlich gebucht werden soll, geben Sie "1M" ein. Nach jeder Buchung wird dann das Datum im Feld **Buchungsdatum** auf dasselbe Datum im nächsten Monat aktualisiert.
+
+Wenn Sie immer am Letzten des Monats buchen möchten, können Sie nach einem der folgenden Beispiele vorgehen:
+
+- Sie können die erste Buchung am letzten Tag eines Monats buchen und die Wiederholungsrate 1T + 1M – 1T (1 Tag + 1 Monat –1 Tag) eingeben. Mit dieser Formel wird immer das richtige Datum berechnet, unabhängig davon, wie viele Tage der Monat hat.
+
+- Sie können die erste Buchung an einem beliebigen Tag eines Monats buchen und dann die Formel eingeben: 1M+CM. Diese Formel addiert einen ganzen Monat plus die verbleibenden Tage bis zum Letzten des Monats.
+
+### <a name="expiration-date-field"></a>Ablaufdatumsfeld
+Das Feld bestimmt das Datum, an dem die Zeile letztmalig gebucht werden soll. Nach dem im Feld angegebenen Datum wird die Zeile nicht mehr gebucht.
+
+Dieses Feld bietet den Vorteil, dass die Zeile nicht sofort aus dem Buch.-Blatt gelöscht wird und Sie jederzeit das Ablaufdatum durch ein späteres Datum ersetzen können, so dass Sie die Zeile noch länger verwenden können.
+
+Wenn das Feld leer ist, wird die Zeile bei jeder Buchung mitgebucht, bis sie aus dem Buch.-Blatt gelöscht wird.
+
+### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Zuordnung von Beträgen des wiederkehrenden Buch.-Blatts auf mehrere Konten
+Im Fenster **Wiederk. Fibu Buch.-Blatt** können Sie die **Verteilungen** Aktion auswählen, anzeigen oder verwalten und bestimmen, wie Beträge der Zeile des wiederkehrenden Buch.-Blatts auf mehrere Konten und Dimensionen zugeordnet werden. Das heißt, die Verteilung ist eine Gegenkontozeile für die Zeile des wiederkehrenden Buch.-Blattes.
+
+Genau wie in einem wiederkehrenden Buch.-Blatt müssen Sie eine Verteilung nur einmal eingeben. Die Verteilung bleibt nach dem Buchen im Verteilungsbuch, sodass Sie nicht jedes Mal, wenn Sie die Zeile des wiederkehrenden Buch.-Blattes buchen, Beträge und Verteilungen eingeben müssen.
+
+Wenn die Wiederholungsart im Wiederk. Buch.-Blatt auf **Ausgleich** oder **Umgekehrt Ausgleich** gesetzt ist, werden keine Dimensionswertcodes im Wiederk. Buch.-Blatt berücksichtigt, wenn das Konto auf Null gesetzt ist. Anders ausgedrückt, wenn Sie im Verteilungsbuch eine wiederkehrende Zeile auf die verschiedenen Dimensionswerte **verteilen**, wird nur eine Umkehrbuchung erstellt. Wenn Sie also im Verteilungsbuch eine Zeile des wiederkehrenden Buch.-Blattes zuordnen, die einen Wertcode der Dimension enthält, dürfen Sie denselben Code nicht im Fenster **Verteilung** eingeben. Andernfalls sind die Zahlen für die Dimensionswerte falsch.
+
+####<a name="example-allocating-rent-payments-to-different-departments"></a>Beispiel: Zuordnen von Mietzahlungen auf verschiedene Abteilungen
+Sie zahlen jeden Monat Miete, daher haben Sie den Vertragsrabattbetrag auf das Kassenkonto in einer Zeile des wiederkehrenden Buch.-Blattes eingegeben. Im Fenster **Verteilung** können Sie die Kosten auf die Kostenstellen entsprechend der jeweils belegten Quadratmeterzahlen aufteilen. Die Berechnung erfolgt aufgrund der Verteilungsprozente für jede Verteilungs-Buch.-Blattzeile. Sie können verschiedene Konten für jede Zeile des Buch.-Blattes Verteilungen eingeben (wenn die Miete auch auf verschiedene Konten aufgeteilt werden soll) oder Sie können dasselbe Konto mit verschiedenen Dimensionswertcodes für die Dimension "Kostenstelle" auf jeder Zeile eingeben.
+
 
 ## <a name="working-with-standard-journals"></a>Arbeiten mit Standard-Buchblättern
 Wenn Sie Buch.-Blattzeilen erstellt haben, die Sie wahrscheinlich zu einem späteren Zeitpunkt erneut erstellen werden, können Sie sich entscheiden, diese als Standard Buch.-Blatt zu speichern, bevor Sie das Buch.-Blatt buchen. Diese Funktionalität wird in Artikel Buch.-Blätter und Buch.-Blätter angewendet.

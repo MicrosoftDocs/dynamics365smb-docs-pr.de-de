@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2389c97c37a2b35da01c846b32a81a1c7bbf2bad
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Richten Sie E-Mail Nachricht manuell oder mit der unterstützten Einrichtung ein

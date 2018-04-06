@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
 ms.openlocfilehash: 78e98bcbc88ffb38d5da3f5089d124d915585d91
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensionssatz-Eintrags-Übersicht

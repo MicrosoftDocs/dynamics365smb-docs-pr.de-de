@@ -11,16 +11,18 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a9e622dbf9b9edf5e74386dd5c651d7b585d3b46
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Eingabehilfe und Tastenkombinationen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dieses Thema enthält Informationen zu den Funktionen, die [!INCLUDE[d365fin](includes/d365fin_md.md)] einfach verfügbar machen für die Personen mit Behinderungen. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt die folgenden Funktionen:  
 
--   Tastenkombinationen  
+-   Tastenkombinationen
+
+    Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md)
 
 -   Navigation  
 
@@ -30,18 +32,21 @@ Dieses Thema enthält Informationen zu den Funktionen, die [!INCLUDE[d365fin](in
 
 -   Unterstützung für allgemeine assistive Technologien  
 
-##  <a name="Keyboard"></a> Tastenkombinationen im Browser
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt die Tastenkombinationen, die von den meisten Webbrowsern unterstützt werden. Die in diesem Hilfethema beschriebenen Tastenkombinationen beziehen sich auf das US-Tastaturlayout. Möglicherweise entsprechen die Tasten anderer Tastaturlayouts nicht exakt den Tasten auf der US-Tastatur.  
+<!-- moved to separate article
+##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
-|Vorgehensweise|Drücken|  
+|To do this|Press|  
 |----------------|-----------|  
-|Um denn Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite zu verschieben, wie Schaltflächen, Felder oder Artikel in einer Liste.|TAB, UMSCHALT+TAB|  
-|Um das Element zu aktivieren oder darauf zugreifen oder zu steuern, das im Fokus liegt.|Eingabe|  
-|Um Artikel in einer Liste auf und ab zu blättern.|NACH-OBEN-TASTE oder NACH-UNTEN-TASTE|  
-|Sie Spalten eines Artikels links und rechts in einer Liste scrollen.|NACH-RECHTS-TASTE und NACH-LINKS-TASTE|  
-|Um eine Dropdownlistezu öffnen oder einen Wert für ein Feld suchen.|ALT + NACH-UNTEN-TASTE|  
-|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.|Ctrl+Enter|  
-|Um die Transaktionen zu sehen, die einen Wert in einem berechneten Feld resultieren.|Alt+Nach-rechts-Taste|  
+|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
+|To enable or access the element or control that is in focus.|Enter|  
+|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
+|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
+|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
+|To move focus to the next element outside the list.|Ctrl + Enter|  
+|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+
+-->
 
 ##  <a name="Navigation"></a> Navigation  
  Sie können zwischen den Registerkarten sowie den Aktionen im Menüband, den Elementen im Navigationsbereich und anderen Steuerelementen auf Seiten [!INCLUDE[d365fin](includes/d365fin_md.md)] und Berichte anhand der Tastatur navigieren. Um den Fokus einer Registerkarte, einer Aktion oder Steuerung zu verschieben, klicken Sie die TAB-TASTE um Vorwärts zu verschieben. Drücken Sie UMSCHALT+TAB zum zurückgehen.  
@@ -55,7 +60,7 @@ Dieses Thema enthält Informationen zu den Funktionen, die [!INCLUDE[d365fin](in
  Ein Text für Bilder wird mit dem ALT-Attribut innerhalb des IMG-Tags festgelegt. Ein beschreibender Text für Hyperlinks wird mit dem Titelattribut innerhalb des A-Tags festgelegt.  
 
 ##  <a name="AssistiveTech"></a> Assistive Technologien  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt verschiedene assistive Technologien, wie kontrastreiches, Sprachausgaben und Spracherkennungs-Software. Einige assistive Technologien funktionieren möglicherweise nicht mit bestimmten Elementen«» [!INCLUDE[d365fin](includes/d365fin_md.md)] in Seiten.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt verschiedene assistive Technologien, wie kontrastreiches, Sprachausgaben und Spracherkennungs-Software. Einige assistive Technologien funktionieren möglicherweise nicht mit bestimmten Elementen«» [!INCLUDE[d365fin](includes/d365fin_md.md)] in Seiten.  
 
 ## <a name="for-more-accessibility-information"></a>Weitere Zugriffsinformationen  
 Sie können zusätzliche Informationen über Eingabehilfen mit Microsoft-Produkten und assistiven Technologien der Site [Microsoft-Eingabehilfe](http://go.microsoft.com/fwlink/?LinkId=262160) finden.

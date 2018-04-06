@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: ed9cc92aee8a11a6094456ad24a07ab6c4d47952
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-workflows"></a>Verwenden von Workflows
@@ -27,7 +27,7 @@ Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben vo
 > [!NOTE]  
 >  Typische Workflowschritte drehen sich um Benutzer, die Genehmigungen für Aufgaben anfordern, und Genehmiger, die Genehmigungsanforderungen annehmen oder ablehen. Daher beschäftigen sich viele Themen in Bezug auf die Verwendung von Workflows mit Genehmigungen.  
 
- Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.  
+ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
 
 |**Aufgabe**|**Informationen**|  
 |------------|-------------|  

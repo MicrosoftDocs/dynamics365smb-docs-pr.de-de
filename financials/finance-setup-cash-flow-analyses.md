@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 1f6b31663aad5c777d16b82742bf11c7dce05264
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Aufstellung Cashflow-Analyse
@@ -67,13 +67,15 @@ Um die unterstützte Einrichtung zu verwenden:
 
 1. Im Buchhalterrollencenter unter **Cashflow-Planung** wählen Sie die Aktion **Unterstütze Einrichtung** aus.  
 2. Füllen Sie die Felder soweit erforderlich für jeden Schritt aus.  
-3. Auf der Homepage wählen Sie **Cashflowplanung** über dem Diagramm und dann **Planung berechnen** aus.  
+3. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus. Geben Sie **Cashflow Planung einrichten** ein und wählen Sie dann den entsprechenden Link aus.
+4. Im Fenster **Cashflowplanung** wählen Sie die **Berechnen Sie Planung nach** Aktion aus.  
 
 Um einen manuellen Vorgang zu verwenden:  
 
 1. Im Feld Buchhalter-Rollencenter suchen Sie nach **Cashfloweinrichtung** und wählen Sie dann den zugehörigen Link aus.  
 2. Erweitern Sie das Inforegister **Cortana Intelligence** und aktivieren Sie dann das Kontrollkästchen **Cortana Intelligence aktiviert**.  
-3. Auf der Homepage wählen Sie **Cashflowplanung** über dem Diagramm und dann **Planung berechnen** aus.  
+3. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus. Geben Sie **Cashflow Planung einrichten** ein und wählen Sie dann den entsprechenden Link aus.
+4. Im Fenster **Cashflowplanung** wählen Sie die **Berechnen Sie Planung nach** Aktion aus.  
 
 > [!TIP]  
 >   Beachten Sie die Länge der Perioden, die der Service in den Berechnungen verwendet. Je mehr Daten Sie liefern, umso genauer wird die Vorhersage sein. Halten Sie auch nach umfangreichen Abweichungen in Perioden Ausschau. Sie werden ebenfalls Auswirkungen auf die Vorhersagen haben. Wenn Cortana-Intelligenz nicht genügend Daten findet oder die Daten stark abweichen, wird der Service keine Vorhersage machen.  

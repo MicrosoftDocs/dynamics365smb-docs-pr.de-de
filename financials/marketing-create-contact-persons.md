@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 473cf43c227793e4e606c893154caf28466fdff7
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="creating-contact-persons"></a>Kontaktpersonen erstellen
@@ -28,7 +28,7 @@ Nehmen wir weiter an, Sie müssen einige Produktprospekte übersetzen lassen und
 
 Durch Erfassen möglichst umfangreicher Informationen zu einer Kontaktperson wird sichergestellt, dass allen Gruppen innerhalb des Unternehmens die jeweils relevanten Informationen zur Verfügung stehen.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
 | An | Siehe |
 | --- | --- |

@@ -1,0 +1,1 @@
+Die Isabel-Funktionen sind nur für Bereitstellungen lokal verfügbar.

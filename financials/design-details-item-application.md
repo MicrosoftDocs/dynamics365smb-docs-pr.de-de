@@ -1,8 +1,6 @@
 ---
 title: Designdetailsl- Artikelausgleich | Microsoft Docs
 description: Dieses Thema beschreibt, woher Lagermenge und Wert erfasst werden, wenn Sie eine Lagertransaktion buchen.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a70d1c31d867f3e005f51af0fc1b6352cb23ce91
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
@@ -242,11 +240,12 @@ Wegen der Art, in der Einstandspreise berechnet werden, kann ein fehlerhafter Ar
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bietet eine Funktion zum Analysieren und Korrigieren der Artikelausgleiche. Dieser Vorgang wird im Fenster **Arbeitsblatt anwenden** ausgeführt.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
-[Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)   
+[Designdetails: Bekannte Artikelanwendungsprobleme](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)  
+[Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 [Designdetails: Durchschnittskosten](design-details-average-cost.md)   
-[Designdetails: Kostenregulierung](design-details-cost-adjustment.md)
+[Designdetails: Kostenregulierung](design-details-cost-adjustment.md)  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

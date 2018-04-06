@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 67e385b6c3f533ab5c63259b9df7e775f2155897
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-sales-opportunities"></a>Verkaufschancen verwalten
@@ -24,7 +24,7 @@ Alle eingehenden Informationen zu potenziellen Kunden können als Verkaufschance
 
 Damit die Verkaufschancenverwaltung verwendet werden kann, müssen zunächst Verkaufsprozesse sowie Verkaufsprozess-Stufen eingerichtet werden. Beim Erstellen von Verkaufschancen empfiehlt es sich, neben Informationen zum Kontakt, zum Verkäufer und zum Verkaufsprozess auch Datumswerte sowie eine Schätzung des Verkaufswerts der Verkaufschance und eine Schätzung der Erfolgschancen anzugeben.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
 | Aufgabe | Siehe |
 | --- | --- |

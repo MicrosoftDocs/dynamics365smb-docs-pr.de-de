@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7c9dec3bcb000be958acec3f0d88abbab9946bf8
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ändern von grundlegenden Einstellungen
@@ -29,7 +29,11 @@ Im Mittelpunkt finden Sie die Kacheln "Aktivitäten". Aktivitäten zeigen Sie ak
 
 Sie können eine Liste von Lieblingsdebitoren der Homepage auch für Konten einrichten, mit denen Sie häufig Geschäfte tätigen oder besondere Aufmerksamkeit geben müssen. Verwenden Sie die Pfeile, um einen Teil der Seite zu verkleinern und mehr Platz hinzuzufügen, um bestimmte Daten anzuzeigen. Bei der Hierarchie der Homepage finden Sie alle Aktionen, die dem aktuellen Inhalt hinzugefügt werden können. Diese kann auch reduziert werden und Sie müssen nur innerhalb des reduzierten Bereichs klicken oder tippen, um den Inhalt wieder anzuzeigen.
 
-Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können ein anderes Rollencenter auswählen, das mit den Anforderungen besser übereinstimmt. Weitere Informationen finden Sie unter [Rollencenter ändern](change-role.md).
+### <a name="to-change-role-center"></a>So ändern Sie ein Rollencenter
+Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können ein anderes Rollencenter auswählen, das mit den Anforderungen besser übereinstimmt.
+1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") und dann **Meine Einstellungen**.
+2. Wählen Sie im Fenster **Meine Einstellungen** im Feld **Rollencenter** das Rollencenter aus, das Sie als Standard festlegen möchten. Wählen Sie beispielsweise **Buchhalter/in** aus.
+3. Wählen Sie die Schaltfläche **OK** aus.
 
 ## <a name="company"></a>Unternehmen
 Ein Unternehmen dient als Container für Daten im Project [!INCLUDE[d365fin](includes/d365fin_md.md)] Es kann mehrere Unternehmen in einer Datenbank geben, aber nur eine kann gleichzeitig ausgewählt werden.
@@ -56,6 +60,5 @@ Wählen Sie diesen Link, um Benachrichtigungen zu ändern oder anzuzeigen, die S
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[So ändern Sie das Rollencenter](change-role.md)  
-[Anpassen der[!INCLUDE[d365fin](includes/d365fin_md.md)]Erfahrung](ui-experiences.md)  
+[Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)  
 

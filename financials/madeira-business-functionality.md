@@ -13,18 +13,18 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d764a759095e6cdf4e1157bc7b1f850800de3217
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 98064d9500f47035f1c73aaa0c87a2e96fd876cd
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="business-functionality"></a>Geschäftsfunktionen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrer Homepage aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
 | Aufgabe | Siehe |
 | --- | --- |
@@ -48,6 +48,7 @@ Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsp
 
 
 ## <a name="see-also"></a>Siehe auch
+[Verwaltung](admin-setup-and-administration.md)  
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

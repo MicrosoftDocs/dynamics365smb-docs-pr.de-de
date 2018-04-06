@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 1d0130dde256706460e58e5efc445bc5f4d5c595
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
@@ -30,10 +30,10 @@ Im Kontenplan können Sie jedes Sachkonto öffnen und Einstellungen hinzufügen 
 >   Sie können ein Sachkonto löschen. Bevor es gelöscht wird, müssen allerdings folgende Bedingungen erfüllt sein:  
 
 * Der Saldo des Kontos muss Null betragen.  
-* Das Feld **Löschen v. Sachkonten zul. vor** im Fenster **Finanzbuchhaltung Einrichtung** muss ausgefüllt sein, und das Konto darf keine Posten an oder nach diesem Datum enthalten.  
-* Ist das Feld **Sachkontoverwendung prüfen** im Fenster **Finanzbuchhaltung Einrichtung** ausgewählt, darf dieses Konto nicht in Buchungsgruppen oder der Buchungsmatrix Einrichtung verwendet werden.  
+* Das Feld **Löschen v. Sachkonten zul. vor** im Fenster **Finanzbuchhaltungs-Einrichtung:** muss ausgefüllt sein, und das Konto darf keine Posten an oder nach diesem Datum enthalten.  
+* Ist das Feld **Sachkontoverwendung prüfen** im Fenster **Finanzbuchhaltungs-Einrichtung:** ausgewählt, darf dieses Konto nicht in Buchungsgruppen oder der Buchungsmatrix Einrichtung verwendet werden.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  verhindert, dass Sie ein Sachkonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] verhindert, dass Sie ein Sachkonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.  
 
 ## <a name="see-also"></a>Siehe auch
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  

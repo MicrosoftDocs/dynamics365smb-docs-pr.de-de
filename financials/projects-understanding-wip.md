@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
 ms.openlocfilehash: a0472a85be4911adacf3033c2feb6bd1513af925
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="understanding-wip-methods"></a>Verständnis - WIP-Methoden

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 31b28811529cb4e5296a04c18f1f41d9f452a9be
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeiten mit MwSt im Verkauf und Einkauf
@@ -53,10 +53,10 @@ An  gebuchten MwSt.-Posten können Korrekturen durchgeführt werden. Auf diese W
 
 Auch wenn Sie möglicherweise bereits eine oder mehrere Kombinationen für die Verarbeitung der Einfuhrumsatzsteuer eingerichtet haben, müssen Sie mindestens einen MwSt.-Produktbuchungsgruppencode einrichten. Beispielsweise können Sie den Namen **RICHTIG** für Korrekturen angeben, es sei denn, Sie können dasselbe Sachkonto im Feld **Vorsteuerkonto** in der MwSt.-Buchungsmatrixzeile verwenden. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md).
 
-Wenn Skonto auf der Basis einer Rechnung inklusive MwSt. berechnet wurde, haben Sie die Möglichkeit, den Skontoanteil des MwSt.-Betrages zu berichtigen, wenn Skonto gewährt wird. Beachten Sie, dass Sie das Feld **Skonto berichtigen** sowohl in der Finanzbuchhaltung Einrichtung allgemein als auch in der MwSt.-Buchungsmatrix Einrichtung für bestimmte Kombinationen von MwSt.-Geschäftsbuchungsgruppe und MwSt.-Produktbuchungsgruppe aktivieren müssen.  
+Wenn Skonto auf der Basis einer Rechnung inklusive MwSt. berechnet wurde, haben Sie die Möglichkeit, den Skontoanteil des MwSt.-Betrages zu berichtigen, wenn Skonto gewährt wird. Beachten Sie, dass Sie das Feld **Skonto berichtigen** sowohl in der Finanzbuchhaltungs-Einrichtung: allgemein als auch in der MwSt.-Buchungsmatrix Einrichtung für bestimmte Kombinationen von MwSt.-Geschäftsbuchungsgruppe und MwSt.-Produktbuchungsgruppe aktivieren müssen.  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>So geben Sie die MwSt. in Verkaufsbelegen manuell ein  
-1. Geben Sie im Fenster  **Finanzbuchhaltung Einrichtung** eine  **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
+1. Geben Sie im Fenster  **Finanzbuchhaltungs-Einrichtung:** eine  **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
 2. Versehen Sie im Fenster **Debitoren & Verkauf Einr.** das Feld **MwSt.-Differenz zulassen** mit einem Häkchen.  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Die MwSt. für einen Verkaufsbeleg anpassen:  
@@ -71,7 +71,7 @@ Wenn Skonto auf der Basis einer Rechnung inklusive MwSt. berechnet wurde, haben 
 Sie können MwSt.-Beträge auch in den Buch.-Blättern Allgemein, Verkauf und Einkauf anpassen. Dies ist unter Umständen dann erforderlich, wenn Sie eine Kreditorenrechnung in das Buch.-Blatt eingeben und zwischen der von der [!INCLUDE[d365fin](includes/d365fin_md.md)] Anwendung berechneten MwSt. und dem MwSt.-Betrag auf der erhaltenen Kreditorenrechnung eine Differenz besteht.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Bevor Sie MwSt.-Beträge manuell in einem Fibu-Buch.-Blatt eingeben  
-1. Geben Sie im Fenster  **Finanzbuchhaltung Einrichtung** eine  **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
+1. Geben Sie im Fenster  **Finanzbuchhaltungs-Einrichtung:** eine  **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
 2. Wählen Sie auf der Seite  **Allgemeine Buch.-Blatt Vorlage** das Kontrollkästchen **MwSt-Differenz zulassen** mit einem Häkchen.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Bevor Sie MwSt.-Beträge manuell in Verkaufs- und Einkaufs-Buch.-Blättern eingeben  

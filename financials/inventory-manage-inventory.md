@@ -12,10 +12,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 956cb38eee9ba81e20ee90cfa3d87c72b0ec2910
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: e63470dae92fb4594a03d8f607a83e6ce284b4c9
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 

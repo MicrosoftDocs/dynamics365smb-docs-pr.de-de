@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 86a6451bdb02571480f775debd6c7286f0d8eb67
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Verwaltung von Berichts- und Beleg-Layouts
@@ -45,7 +45,7 @@ Ein Word-Berichtlayout basiert auf einem Word-Dokument (DOCX-Datei-Typ). Word-Be
 RDLC-Layouts basieren auf Client-Berichtsdefinitionslayouts (.rdlc- oder .rdl-Dateitypen). Diese Layouts werden erstellt und geändert, indem Sie SQL Server-Bericht-Generator verwenden. Das Entwurfskonzept für RDLC-Layouts ist ähnlich den Word-Layouts, in denen das Layout das Muster des Berichts definiert und die Felder der Dataset bestimmt, die enthalten sein sollen. RDLC-Layouts bieten, verglichen mit Word-Layouts, eine größere Fülle an Funktionen und Gestaltungsmöglichkeiten. Weitere Informationen finden sie unter [RDLC-Berichtslayouts entwwerfen](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Integrierte und benutzerdefinierte Berichtslayouts
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  umfasst mehrere integrierte Layouts. Integrierte Layouts sind vordefinierte Layouts, die für bestimmte Berichte vorgesehen sind. [!INCLUDE[d365fin](includes/d365fin_md.md)]-Berichte haben ein integriertes Layout entweder als RDLC-Berichtslayout, Word-Berichtslayout oder in einigen Fällen beides. Sie können ein integriertes Berichtslayout aus dem [!INCLUDE[d365fin](includes/d365fin_md.md)] nicht ändern, Sie können sie jedoch als Ausgangspunkt für das Erstellen Ihrer eigenen benutzerdefinierten Berichtslayouts verwenden.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst mehrere integrierte Layouts. Integrierte Layouts sind vordefinierte Layouts, die für bestimmte Berichte vorgesehen sind. [!INCLUDE[d365fin](includes/d365fin_md.md)]-Berichte haben ein integriertes Layout entweder als RDLC-Berichtslayout, Word-Berichtslayout oder in einigen Fällen beides. Sie können ein integriertes Berichtslayout aus dem [!INCLUDE[d365fin](includes/d365fin_md.md)] nicht ändern, Sie können sie jedoch als Ausgangspunkt für das Erstellen Ihrer eigenen benutzerdefinierten Berichtslayouts verwenden.
 
 Kundenspezifische Layouts sind Berichtslayouts, die Sie erstellen, um zdie Darstellung eines Berichts zu ändern. Sie erstellen normalerweise ein benutzerdefiniertes Layout basierend auf einem integrierten Layout, aber Sie können es von einer Kopie eines vorhandenen benutzerdefinierten Layouts von Grund auf neu erstellen. Benutzerdefinierete Layouts ermöglichen Ihnen, mehrere Layouts für den gleichen Bericht einzurichten, zwischen denen Sie nach Bedarf wechseln können. Beispielsweise können Sie verschiedene Layouts für jedes [!INCLUDE[d365fin](includes/d365fin_md.md)]-Unternehmen haben, oder Sie können verschiedene Layouts für das gleiche Unternehmen für bestimmte gelegenheiten oder Ereignisse verwenden, wie eine spezielle Kampagne oder eine Feiertagssaison haben.
 

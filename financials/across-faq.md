@@ -11,17 +11,17 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b14df6dbf21e405464431600eb5e743b528edbee
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c94729445defcd88f7ac20e258f71b3c9da2142b
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 Dieser Abschnitt enthält Antworten auf häufig gestellte Fragen zur Anmeldung und der Verwendung von [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Welche E-Mail-Adresse kann ich mit [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schließt outlook.com, hotmail.com, gmail.com und andere ein.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schließt outlook.com, hotmail.com, gmail.com und andere ein.  
 
 Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erhalten Sie eine Meldung die angibt, eine Arbeits- oder Schul-E-mail-Adresse zu verwenden. Weitere Informationen finden Sie unter [Problembehandlung zur Self-Service-Registrierung](ui-troubleshoot-self-signup.md).  
 
@@ -29,7 +29,7 @@ Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erha
 Nr. Wenn Sie allerdings möchten, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] vollständig in Office 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion von Office 365 [hier](https://products.office.com/try) anmelden.  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Worum gehts bei der Integration mit Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist vollständig in Office 365 integriert, sodass Sie mithilfe des Office 365 App-Startfelds und [!INCLUDE[d365fin](includes/d365fin_md.md)] unabhängig zwischen  Anwendungen navigieren können. Im [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten in Outlook arbeiten. Weitere Informationen finden Sie unter [Nutzen Sie [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] als Ihr Unternehmenspostfach in Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist vollständig in Office 365 integriert, sodass Sie mithilfe des Office 365 App-Startfelds unabhängig zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] Anwendungen navigieren können. Im [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten in Outlook arbeiten. Weitere Informationen finden Sie unter [Nutzen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kann ich mein Abonnement beenden?
 Ja, aber abhängig davon, wie Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] registriert haben, können Ihre Daten gelöscht oder beibehalten werden. Weitere Informationen finden Sie unter [Stornierung [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
@@ -50,6 +50,9 @@ Haben Sie vor kurzem über eine neue Funktion in der Roadmap oder in unserem Blo
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](madeira-outlook.md)  
 [Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outlook](madeira-no-outlook.md)  
-[So ändern Sie das Rollencenter](change-role.md)  
+[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

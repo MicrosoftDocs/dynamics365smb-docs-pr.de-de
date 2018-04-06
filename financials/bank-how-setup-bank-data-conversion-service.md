@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: cdbe4f8680dad6dcf605dd98f88bc7750ed8077f
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Einrichten des Bankdaten-Konvertierungsdienst

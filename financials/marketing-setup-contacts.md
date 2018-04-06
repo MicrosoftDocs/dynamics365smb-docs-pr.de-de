@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 701282909208c36b0ba546c1a15ca27afdbf447c
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Vorbereiten, Kontakte einzurichten
@@ -26,7 +26,7 @@ Vor dem Erstellen von Kontakten und dem Erfassen von Details zur jeweiligen Gesc
 
 Sind diese Informationen eingerichtet, gestaltet sich das Erstellen von Kontakten wesentlich organisierter. Dank der Möglichkeit, alle Kontakte auf der Grundlage einer Gruppe zu suchen, wird die Arbeit deutlich effizienter. Die Informationen stehen allen Gruppen innerhalb des Unternehmens zur Verfügung, was eine erfolgreichere Kommunikation mit den Kontakten ermöglicht.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden. 
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert. 
 
 | An | Siehe |
 | --- | --- |

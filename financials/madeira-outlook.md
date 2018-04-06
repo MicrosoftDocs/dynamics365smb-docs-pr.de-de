@@ -14,11 +14,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Finance and Operations, Business edition als Ihr Unternehmensposteingang mit Outlook verwenden
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  stellt die Möglichkeit vor, Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. Mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, sowie Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] stellt die Möglichkeit vor, Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. Mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, sowie Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.  
 
 ## <a name="getting-the-add-in"></a>Das Add-in abrufen
 Einer der Schritte der unterstützten Konfiguration für "Erste Schritte" in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist das Fenster **Führen Sie Ihr Unternehmen in Office 365**. Wenn Sie in diesem Fenster die Schaltfläche **In Outlook einrichten** anklicken, müssen Sie Ihren Office 365 Benutzernamen und -Kennwort angeben. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt.  

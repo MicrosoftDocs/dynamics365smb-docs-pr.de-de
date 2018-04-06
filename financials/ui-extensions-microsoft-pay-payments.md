@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: e92ac00e08008e8de6a60ec46e0d71500bb03eaa
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>Die Microsoft Pay Erweiterung zu [!INCLUDE[d365fin](includes/d365fin_long_md.md)]

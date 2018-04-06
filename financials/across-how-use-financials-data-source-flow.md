@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: dde99e50c6984a7ec162b4047e8640e6affb3f25
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in einem automatisierten Workflow nutzen
@@ -29,9 +29,6 @@ Sie können die Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Teil ei
 2. Wählen Sie **My Flows** im Menüband oben auf der Seite.
 3. Im Fenster **My Flows** wählen Sie die Option **Aus Leer erstellen** aus.
 4. Aus der Liste der verfügbaren Triggern, wählen Sie einen der [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbaren Trigger aus:  
-    ,*Wenn ein Datensatz erstellt wird*  
-    ,*Wenn ein Datensatz gelöscht wird*  
-    ,*Wenn ein Datensatz geändert wird*  
     *Die Genehmigung für einen Debitor wird angefordert*,  
     *Genehmigung von Fibu Buch.-Blattname wird angefordert*,  
     *Genehmigung von Fibu Buch.-Blattzeile wird angefordert*,  
@@ -39,11 +36,7 @@ Sie können die Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Teil ei
     *Die Genehmigung für einen Einkaufsbeleg wird angefordert*,  
     *Die Genehmigung für einen Verkaufsbeleg wird angefordert* oder  
     *Die Genehmigung für einen Kreditor wird angefordert*.
-5. Flow fordert Sie zur Eingabe der Informationen auf, die benötigt werden, um sich mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zu verbinden. Wenn Sie eine der folgenden Trigger gewählt haben: *Wenn ein Datensatz erstellt wird*, *Wenn ein Datensatz geändert wird* oder *Wenn ein Datensatz gelöscht wird*, müssen Sie einen Namen und einen Tabellennamen auswählen. Mit jedem anderen Trigger wird nur der Name der Unternehmung benötigt, um zu verbinden.
-
-   Flow zeigt eine Liste der Unternehmungen und Tabellen an, die in [!INCLUDE[d365fin](includes/d365fin_md.md)]verfügbar sind. Diese Tabellen oder Endpunkte stehen für alle Webdienste, die Sie von [!INCLUDE[d365fin](includes/d365fin_md.md)] veröffentlicht haben.
-
-   Sie können einen neuen Webdienst URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen, indem Sie die **Erstellen Dataset** Aktion der Seite **Webdienste** nutzen, indem Sie die unterstütze Hilfe **Bericht einrichten** verwenden oder die Aktion **Bearbeiten in Excel** in einer beliebigen Liste wählen.
+5. Flow fordert Sie auf, den Mandanten innerhalb Ihres Tenants [!INCLUDE[d365fin](includes/d365fin_md.md)] auszuwählen. Da jede Schritt im Flow unabhängig vom darauffolgenden ist, werden Sie möglicherweise aufgefordert, den Mandanten mehrmals zu definieren, wenn Sie eine Vorlage [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden.
 
 Zu diesem Zeitpunkt haben Sie erfolgreich Ihre Finance and Operations, Business edition-Daten verbunden und sind bereit, Ihren Flow zu erstellen. Weitere Informationen finden Sie in der [Flow Dokumentation](https://flow.microsoft.com/documentation/getting-started/).
 

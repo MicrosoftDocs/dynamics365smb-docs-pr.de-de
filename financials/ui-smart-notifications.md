@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
 ms.openlocfilehash: bb8b1ecf0f5e8f91598bf96c85ec70f0d385267e
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="smart-notifications"></a>Intelligente Benachrichtigungen

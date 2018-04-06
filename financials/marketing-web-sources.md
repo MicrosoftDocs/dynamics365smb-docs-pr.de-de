@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b80edfbbad575cfcaa15b2c1b79a4feacb077371
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Einrichten von Internetfavoriten für Kontaktunternehmen

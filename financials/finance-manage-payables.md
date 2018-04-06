@@ -18,11 +18,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 654c34bc09967247617bda7be070a9c0ec6f635d
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-payables"></a>Verwalten von Verbindlichkeiten
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  hat alles, was Sie brauchen, um Ihre Verbindlichkeiten effektiv zu verwalten.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] hat alles, was Sie brauchen, um Ihre Verbindlichkeiten effektiv zu verwalten.  
 
 ## <a name="payments"></a>Zahlungen
 Es ist einfach, Zahlungen zu priorisieren, Gebühren für überfällige Zahlungen zu bezahlen und Skonto für frühzeitige Zahlungen zu berücksichtigen.
@@ -32,10 +32,10 @@ Sie können Zahlungen in einem Fibu Buch.-Blatt erfassen und anschließend druck
 Eine Zahlung kann mit der entsprechenden Rechnung beim Buchen der Zahlung oder auch erst nach dem Buchen der Zahlung ausgeglichen werden. Mit dem Feld **Ausgleichsmethode** für den Kreditor (auf der **Kreditorenkarte**) wird festgelegt, ob ein manueller Ausgleich erforderlich ist oder ob der Ausgleich automatisch vorgenommen wird. Die Verwendung des manuellen Ausgleichs von Transaktionen ist immer möglich. Ist jedoch als Ausgleichsmethode für den Kreditor die Option **Saldomethode** festgelegt, und es wird kein Beleg für den Zahlungsausgleich angegeben, wird die Zahlung mit dem ältesten offenen Posten für den Kreditor ausgeglichen.
 
 ## <a name="suggest-vendor-payments"></a>Zahlungsvorschlag
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kann verschiedene Zahlungen an Kreditoren vorschlagen, wie Zahlungen, die in Kürze fällig sind, oder Zahlungen, bei denen ein Rabatt verfügbar ist. Der Zahlungsvorschlag kann einen bestimmten Betrag berücksichtigen, der für Zahlungen zur Verfügung steht und die Möglichkeit, einen Rabatt für fristgerechte Zahlung zu erhalten.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kann verschiedene Zahlungen an Kreditoren vorschlagen, wie Zahlungen, die in Kürze fällig sind, oder Zahlungen, bei denen ein Rabatt verfügbar ist. Der Zahlungsvorschlag kann einen bestimmten Betrag berücksichtigen, der für Zahlungen zur Verfügung steht und die Möglichkeit, einen Rabatt für fristgerechte Zahlung zu erhalten.
 
 ## <a name="issue-checks"></a>Schecks ausstellen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  können Sie Schecks an Kreditoren manuell und elektronisch erstellen. Sie machen beides im Fenster **Zlg.-Ausg. Buch.-Blätter**, in dem Sie auch Schecks annullieren und Scheckposteneinträge anzeigen können.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie Schecks an Kreditoren manuell und elektronisch erstellen. Sie machen beides im Fenster **Zlg.-Ausg. Buch.-Blätter**, in dem Sie auch Schecks annullieren und Scheckposteneinträge anzeigen können.
 
 ## <a name="export-payments-to-a-bank-file"></a>Zahlungen in eine Bankdatei exportieren
 Wenn Sie bereit sind, Zahlungen an Ihre Kreditoren im Fenster **Zahlung Buch.-Blatt** vorzunehmen, können Sie eine Datei mit den Zahlungsinformationen aus den Buch.-Blattzeilen exportieren. Sie können die Datei dann zu Ihrer elektronischen Bank hochladen, um die entsprechenden Geldüberweisungen zu verarbeiten.

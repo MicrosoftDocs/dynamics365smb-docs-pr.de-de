@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Versichern von Anlagen
@@ -70,7 +70,7 @@ Sie können die Stapelverarbeitung **Indexiere Versicherung** verwenden, um den 
 5. Öffnen Sie das relevante Versicherungs Buch.-Blatt, prüfen Sie die erstellten Posten und buchen Sie diese dann auf die Versicherungsposten.  
 
 ## <a name="to-monitor-insurance-coverage"></a>So überwachen Sie die Versicherungsdeckung
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  bietet dedizierte Berichte und Statistikfenster, die dazu verwendet werden können, Versicherungspolicen zu analysieren und zu überprüfen, ob Ihre Anlagen über- oder unterversichert sind.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet dedizierte Berichte und Statistikfenster, die dazu verwendet werden können, Versicherungspolicen zu analysieren und zu überprüfen, ob Ihre Anlagen über- oder unterversichert sind.  
 
 ### <a name="overview-of-insurance-policies"></a>Übersicht der Versicherungspolicen
 Gibt einen Überblicks über die Versicherungspolicen durch Drucken des Berichts **Versicherung-Liste**. Der Bericht zeigt die einzelnen Policen und die wichtigsten Felder der Versicherungskarten an.  

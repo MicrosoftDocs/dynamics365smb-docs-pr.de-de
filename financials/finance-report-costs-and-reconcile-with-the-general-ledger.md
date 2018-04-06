@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 45afc7249e921b483d9fcb6860401528746f554a
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Melden von Kosten und Abstimmen mit der Finanzbuchhaltung
 Am Ende von (monatlichen, jährlichen oder anderen) Buchhaltungsperioden muss eine Reihe von Kostenkontroll- und Prüfungsaufgaben ausgeführt werden, um der Finanzabteilung einen korrekten und ausgewogenen Lagerwert mitteilen zu können. Neben der Buchungsroutine, durch die die einzelnen Artikelwertposten auf dedizierte Sachkonten gebucht werden, stehen dem Prüfer oder Controller, der mit dieser bedeutenden Aufgabe betraut ist, verschiedene Berichte, Nachverfolgungsfunktionen sowie ein spezielles Abstimmungstool zur Verfügung.  
 
- Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.   
+ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

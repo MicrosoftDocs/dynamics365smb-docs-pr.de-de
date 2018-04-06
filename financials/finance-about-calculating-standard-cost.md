@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Informationen zur Berechnung von festen Einstandspreisen

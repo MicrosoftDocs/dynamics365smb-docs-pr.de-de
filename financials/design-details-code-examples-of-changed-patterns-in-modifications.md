@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: f682e2fdaa5be20ae8e6f3ff6ee2ff4769b48545
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-closing-demand-and-supply"></a>Designdetails: Abschluss von Bedarf und Vorrat

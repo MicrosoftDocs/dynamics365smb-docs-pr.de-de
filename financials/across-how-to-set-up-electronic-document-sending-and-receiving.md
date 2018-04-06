@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f597ce7dc0d4cda526da00d9aac5b1178c5e7a14
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Einrichten des Senden und Empfangen von elektronischen Belegen
@@ -104,7 +104,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 4. Wählen Sie im Feld **Elektronisches Do,ument** die Option **Ja (über Belegaustauschdienst)** aus.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  erkennt automatisch, ob es sich bei dem Beleg um eine Rechnung oder eine Gutschrift handelt, und passt das PEPPOL-Format entsprechend an.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] erkennt automatisch, ob es sich bei dem Beleg um eine Rechnung oder eine Gutschrift handelt, und passt das PEPPOL-Format entsprechend an.  
 
 5. Damit dieses Belegsendeprofil auf alle Kunden angewendet wird, aktivieren Sie das Kontrollkästchen **Standard** im Inforegister **Allgemein**. Damit das Profil nur für bestimmte Kunden gilt, füllen Sie das Feld **Belegsendeprofil** auf den jeweiligen Kundenkarten aus. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).  
 

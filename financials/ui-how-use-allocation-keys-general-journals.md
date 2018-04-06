@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 6ee3e0f325623666eb720e3cc2656cfd1f6332eb
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern

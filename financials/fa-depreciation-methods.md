@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="depreciation-methods"></a>Abschreibungsmethoden
@@ -86,7 +86,7 @@ Hierbei handelt es sich um eine beschleunigte Abschreibungsmethode, bei der der 
 
 Die folgende Formel zur Berechnung des AfA-Betrages ist:  
 
-*AfA Betrag = (Degressive AfA % * Anzahl AfA Tage * AfA Basis) / (100 *360)*  
+*AfA Betrag = (Degressive AfA % * Anzahl AfA Tage * AfA Basis) / (100 * 360)*  
 
 Die AfA Basis wird als der Buchwert minus der gebuchten AfA seit dem Startdatum des aktuellen Geschäftsjahres berechnet.  
 

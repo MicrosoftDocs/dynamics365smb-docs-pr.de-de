@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Arbeitsplätze und Arbeitsplatzgruppen einrichten
@@ -83,7 +83,7 @@ Wenn die Kapazität von Arbeitsplätzen keinen Beitrag zur Gesamtkapazität leis
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>So wird ein in der Kapazität eingeschränkter Arbeitsplatz oder Arbeitsplatzgruppe eingerichtet
 Sie müssen die Produktionsressourcen einrichten, die Sie als kritisch betrachten, damit diese nur eine Auslastung bis zu einer Kapazitätsgrenze annimmt, anstelle der Standardeinstellung ohne Kapazitätsgrenze, die andere Produktionsressourcen annehmen. Eine Ressource mit eingeschränkter Kapazität kann eine Arbeitsplatzgruppe oder ein Arbeitsplatz sein, den Sie als Flaschenhals erkannt haben und dessen Auslastung Sie deshalb begrenzen möchten.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt keine ausführliche Fertigungsbereichssteuerung. Planung einer durchführbaren Nutzung von Ressourcen durch Bereitstellung eines Rohschnittzeitplans, jedoch keine automatische Erstellung und Verwaltung von detaillierten Plänen, die auf Prioritäten oder Optimierungsregeln basieren.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt keine ausführliche Fertigungsbereichssteuerung. Planung einer durchführbaren Nutzung von Ressourcen durch Bereitstellung eines Rohschnittzeitplans, jedoch keine automatische Erstellung und Verwaltung von detaillierten Plänen, die auf Prioritäten oder Optimierungsregeln basieren.
 
 Im Fenster **Ressourcen mit eingeschränkter Kapazität** können Sie ein Setup vornehmen, das eine Überladung bestimmter Ressourcen verhindert und sicherstellt, dass keine Kapazität unzugewiesen bleibt, wenn dies die Durchlaufzeit eines Fertigungsauftrags erhöhen könnte. Im Feld **Toleranz (% der gesamten Kapazität)** können Sie eine Toleranzperiode zu Ressourcen hinzufügen, um die Aufspaltung von Arbeitsgängen zu minimieren. Dies ermöglicht dem System, Auslastung am letzten möglichen Tag zu planen, indem es den kritischen Auslastungsprozentsatz etwas überschreitet, wenn dies die Anzahl der Arbeitsgänge verringern kann, die aufgeteilt werden.
 

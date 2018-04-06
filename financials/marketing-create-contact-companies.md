@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: ae78d21bc4f88788a01620dbd8505d7034857d8f
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="creating-contact-companies"></a>Kontaktunternehmenerstellen
@@ -26,7 +26,7 @@ Für eine effiziente Kommunikation empfiehlt es sich, einem bestimmten Unternehm
 
 Darüber hinaus können Sie definieren, welche Geschäftsbeziehung mit einem Kontakt besteht. So kann es sich bei einem Kontakt beispielsweise um einen Interessenten, um eine Bank oder um einen Vertragsnehmer handeln.
 
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
 | Aufgabe | Siehe |
 | --- | --- |

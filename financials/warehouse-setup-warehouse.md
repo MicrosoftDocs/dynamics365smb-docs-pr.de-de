@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: e39f84abe2fe1a4e49c615de10dc36599cc9ecc4
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Lagerortverwaltung einrichten
 Die Logistikstrategie eines Mandanten spiegelt sich in der Konfiguration seiner Lagerprozesse wider. Dazu gehört die Definition der Bearbeitung unterschiedlicher Artikel an verschiedenen Lagerorten, wie z. B. der Grad der Lagerplatzkontrolle und das Ausmaß des erforderlichen Workflows zwischen Lageraktivitäten.  
 
- Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.   
+ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

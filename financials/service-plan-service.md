@@ -16,15 +16,15 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2d02977377f0d88229fdbfd4c2df96d88cd82f2e
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning-services"></a>Planungsservices
 Mit [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie die Standardaufgaben für die Erfüllung der Kundenserviceanforderungen einrichten. Dazu muss bestimmt werden, welche Serviceangebote von der Serviceorganisation unterstützt werden und zu welchem Preis.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  stellt auch mehrere Statistiktools her, die Sie verwenden können, um zu bestimmen wie diese Elemente laufen und um zu bestimmen welche Bereiche Sie verbessern können.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] stellt auch mehrere Statistiktools her, die Sie verwenden können, um zu bestimmen wie diese Elemente laufen und um zu bestimmen welche Bereiche Sie verbessern können.
   
-Die folgende Tabelle enthält eine Abfolge von Aufgaben sowie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.   
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
   
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

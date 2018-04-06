@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 09/14/2017
+ms.date: 01/31/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9ffe72d64d8cb9a3db426ad299af8c2025ec31f5
 ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Eine Registrierung ist einfach und Sie können vorhandene Unternehmensdaten von Ihrem bestehenden System migrieren.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Eine Registrierung ist einfach und Sie können vorhandene Unternehmensdaten von Ihrem bestehenden System migrieren.
 Wenn Sie sich für die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Vorschau registriert haben, haben Sie Zugriff auf ein Demonstrationsunternehmen. Das Demonstrationsunternehmen enthält Beispieldaten, aber Sie können z. B. auch eigene Verkaufsbelege erzeugen oder ein Bankkonto einrichten.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Lernen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] kennen
@@ -35,16 +35,16 @@ Weitere Informationen finden Sie unter [Arbeiten mit [!INCLUDE[d365fin](includes
 Wenn Sie bereit sind, etwas tiefer hineinzublicken und einige der Geschäftsprozesse berücksichtigen möchten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, gehen Sie zu [Geschäfts-Funktionalität](madeira-business-functionality.md). Eine Übersicht über aktuelle und geplante Funktionen finden Sie in der Roadmap unter [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Die Startseiten
-Homepages verwenden ein Rollen orientiertes Design, damit Sie rasch auf Geschäftsvorgangs- und Intelligenztools zugreifen können, die Sie für Ihre Arbeit benötigen. Beispielsweise kann ein Buchhalter Zahlungen und Genehmigungen überwachen und Finanzdienstleistungsdiagramme anzeigen. Prüfen Sie die verschiedenen Homepages, indem Sie das Symbol **Einstellungen** auswählen ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") in der oberen rechter Ecke, wählen Sie **Meine Einstellungen** und dann das entsprechende Rollencenter. Melden Sie sich erneut, um die Änderung zu übernehmen. Weitere Informationen finden Sie unter [Rollencenter ändern](change-role.md).  
+Homepages verwenden ein Rollen orientiertes Design, damit Sie rasch auf Geschäftsvorgangs- und Intelligenztools zugreifen können, die Sie für Ihre Arbeit benötigen. Beispielsweise kann ein Buchhalter Zahlungen und Genehmigungen überwachen und Finanzdienstleistungsdiagramme anzeigen. Prüfen Sie die verschiedenen Homepages, indem Sie das Symbol **Einstellungen** auswählen ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") in der oberen rechter Ecke, wählen Sie **Meine Einstellungen** und dann das entsprechende Rollencenter. Melden Sie sich erneut, um die Änderung zu übernehmen. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md).  
 
 Jede Homepage bietet eine Schaltfläche **Einrichtung und Erweiterungen**. Hier haben Sie Zugriff auf eine Liste der unterstützten Einrichtung, die Ihnen dabei helfen kann, ausgewählte Bereiche rasch aufzusetzen. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung** aus, um auf das Einrichtungsfenster zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 
 > [!NOTE]  
->   Die Liste der Einrichtungshilfen, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Suite**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter [Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
+>   Die Liste der Einrichtungshilfen, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Essential**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter [Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
 
-Im Fenster **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung **Suite**:
+Im Fenster **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung **Essential**:
 
-| Unterstützte Einrichtung | Beschreibung |
+| Unterstütztes Setup | Description |
 | --- | --- |
 | Geschäftsdaten migrieren |Lässt Sie Ihre vorhandenen Firmendaten wie Debitoren, Kreditoren und Artikel aus Excel oder aus Quickbooks importieren. |
 | Meine Unternehmen einrichten |Erstellt ein neues Testunternehmen, für das Sie Daten eingeben und mit dem Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] testen können. Wenn Sie die Erste-Schritte-Tour durchlaufen haben, ist dieses möglicherweise bereits **Abgeschlossen**. |
@@ -53,7 +53,7 @@ Im Fenster **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung **
 | Debitorengenehmigungsworkflow einrichten |Sie können Genehmigungsworkflows so erstellen, dass sie einen Genehmiger automatisch benachrichtigen, wenn ein Benutzer versucht, eine Debitorenkarte zu erstellen oder zu ändern. |
 | E-Mail einrichten |Zeigt Ihnen, wie Sie E-Mails beispielsweise direkt aus Verkaufsaufträgen oder Kontakten im [!INCLUDE[d365fin](includes/d365fin_md.md)] versenden. |
 | E-Mail-Protokollierung einr. |Richtet die Funktion ein, um E-Mail-Korrespondenz in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu protokollieren, um Aktivitäten zu verfolgen. |
-| Outlook einrichten für  [!INCLUDE[d365fin](includes/d365fin_md.md)] |Richtet die Möglichkeit ein, [!INCLUDE[d365fin](includes/d365fin_md.md)] direkt über Outlook zu verwenden und zu starten. |
+| Outlook einrichten für [!INCLUDE[d365fin](includes/d365fin_md.md)] |Richtet die Möglichkeit ein, [!INCLUDE[d365fin](includes/d365fin_md.md)] direkt über Outlook zu verwenden und zu starten. |
 | Berichterstellung einrichten |Datensets einrichten, die Sie verwenden können, um leistungsstarke Berichte mithilfe von Excel oder Power Bl zu erstellen. |
 | Artikelgenehmigungsworkflow einrichten |Richtet die Möglichkeit ein, eine Benachrichtigung an einen Genehmiger zu senden, wenn ein Benutzer einen Artikel ändert oder erstellt. |
 | Zahlungsgenehmigungsworkflow einrichten |Sie können einen Genehmigungsworkflow erstellen, der einen Genehmiger benachrichtigt, wenn ein Benutzer Zahlungs-Buch.-Blattzeilen sendet. |
@@ -66,7 +66,7 @@ Denken Sie an ein Abonnement? Sie können Demomandanten einfach ändern und erst
 Um einen Mandanten zu erstellen und Dinge zu testen, gehen Sie zum Menü **Meine Einstellungen** in der oberen rechter Ecke und ändern Sie den Mandanten auf **Mein Unternehmen**. Melden Sie sich von [!INCLUDE[d365fin](includes/d365fin_md.md)] ab und anschließend wieder an, um die Änderungen zu übernehmen. Eine unterstützte Einrichtung gibt Ihnen die grundlegenden Informationen zu Ihrem Unternehmen. Wenn das getan wird, entdecken Sie die Homepage und suchen Sie die Aktion **Unterstützte Einrichtung**.  
 
 ## <a name="ready-to-subscribe"></a>Bereit für ein Abonnement?
-Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich für ein Abonnement entscheiden, verwenden Sie den Link in der Benachrichtigung, um Microsoft zu kontaktieren. Sie können das Vertriebsteam auch kontaktieren unter [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
+Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich für ein Abonnement entscheiden, verwenden Sie den Link in der Benachrichtigung, um Microsoft zu kontaktieren. Sie können sich auch an das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Vertriebsteam](https://go.microsoft.com/fwlink/?linkid=828707)  wenden.  
 
 ## <a name="other-finance-and-operations-business-edition-apps"></a>Andere Finance and Operations, Business edition Apps
 Navigieren Sie über die anderen Finance and Operations, Business edition Apps zu Inhalten, indem Sie den Link [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) im blauen Banner im oberen Bereich dieser Seite auswählen. Sie können mehr erfahren unter [Dynamics 365 for Finance and Operations, Business edition](https://www.microsoft.com/en-us/dynamics365/).  
@@ -83,5 +83,6 @@ Wenn Sie ein Buchhalter sind, können Sie sich für [!INCLUDE[d365acc_long](incl
 [Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 
