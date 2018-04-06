@@ -1,0 +1,89 @@
+---
+title: 'Gewusst wie: Ressourcen zuweisen einrichten | Microsoft Docs'
+description: "Erfahren Sie, wie das System helfen kann, sicherzustellen, die Sie einer Person zuweisen, welches die Qualifikationen benötigen können, um eine Service bereitstellen."
+services: project-madeira
+documentationcenter: 
+author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: resource, skill, service, zones
+ms.date: 08/22/2017
+ms.author: bholtorf
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 6dc4a059cb3bca46910a4a4be43a5940a5652c8f
+ms.contentlocale: de-de
+ms.lasthandoff: 03/22/2018
+
+---
+
+# <a name="set-up-resource-allocation"></a><span data-ttu-id="590b8-103">Um Ressourcenzuweisung einzurichten:</span><span class="sxs-lookup"><span data-stu-id="590b8-103">Set Up Resource Allocation</span></span>
+<span data-ttu-id="590b8-104">Um sicherzustellen dass eine Serviceaufgabe gut ausgeführt wird, ist es wichtig, eine Ressource zu finden die qualifiziert ist, die Arbeit zu tun.</span><span class="sxs-lookup"><span data-stu-id="590b8-104">To ensure that a service task is performed well, it's important to find a resource who is qualified to do the work.</span></span> <span data-ttu-id="590b8-105">Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] einrichten, sodass es einfach is, Person zuzuordnen, die die rechten Qualifikationen für das Projekt haben.</span><span class="sxs-lookup"><span data-stu-id="590b8-105">You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] so that it's easy to allocate someone who has the right skills for the job.</span></span> <span data-ttu-id="590b8-106">In [!INCLUDE[d365fin](includes/d365fin_md.md)] zeigen wir die _Ressourcenzuordnung_.</span><span class="sxs-lookup"><span data-stu-id="590b8-106">In [!INCLUDE[d365fin](includes/d365fin_md.md)], we call this _resource allocation_.</span></span> <span data-ttu-id="590b8-107">Sie können Ressourcen anhand ihrer Qualifikation, Verfügbarkiet oder ob sie sich in demselben Servicegebiet befindet wie der Debitor zuordnen.</span><span class="sxs-lookup"><span data-stu-id="590b8-107">You can allocate resources based on their skill, availability, or whether they are in the same service zone as the customer.</span></span> 
+
+<span data-ttu-id="590b8-108">Um die Ressourcenzuordnungen zu aktivieren, müssen Sie einrichten:</span><span class="sxs-lookup"><span data-stu-id="590b8-108">To use resource allocation, you must set up:</span></span>  
+  
+* <span data-ttu-id="590b8-109">Die Qualifikationen, die erforderlich sind, um Serviceartikel zu reparieren und zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="590b8-109">The skills required to repair and maintain service items.</span></span> <span data-ttu-id="590b8-110">Produktbuchungsgruppen werden Artikeln und Ressourcen zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="590b8-110">You assign these to service items and resources.</span></span>  
+* <span data-ttu-id="590b8-111">Die geografischen Regionen, die Zonen, die Sie für Ihren Markt definieren.</span><span class="sxs-lookup"><span data-stu-id="590b8-111">Geographic regions, called zones, that you define for your market.</span></span> <span data-ttu-id="590b8-112">Zum Beispiel Ost, West, Mitte usw.</span><span class="sxs-lookup"><span data-stu-id="590b8-112">For example, East, West, Central, and so on.</span></span> <span data-ttu-id="590b8-113">Diese werden Debitoren und Ressourcen zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="590b8-113">You assign these to customers and resources.</span></span>  
+* <span data-ttu-id="590b8-114">Ob Qualifikationen oder Zonen anzeigt werde und ob eine Warnung angezeigt wird, wenn jemand eine unqualifizierte Ressource ausgewählt hat oder eine Ressource, die sich nicht in der Nähe des Debitors befindet.</span><span class="sxs-lookup"><span data-stu-id="590b8-114">Whether to display resource skills and zones, and whether to display a warning if someone chooses unqualified resource, or a resource that is not in the customer zone.</span></span>  
+
+## <a name="to-set-up-skills"></a><span data-ttu-id="590b8-115">So richten Sie Qualifikationen ein:</span><span class="sxs-lookup"><span data-stu-id="590b8-115">To set up skills</span></span>
+1. <span data-ttu-id="590b8-116">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Qualifikationen** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Skills**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="590b8-117">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-117">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+## <a name="to-assign-skills-to-service-items-and-resources"></a><span data-ttu-id="590b8-118">Produktbuchungsgruppen werden Artikeln und Ressourcen zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="590b8-118">To assign skills to service items and resources</span></span>
+1. <span data-ttu-id="590b8-119">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Artikel** oder **Ressource** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-119">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items** or **Resources**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="590b8-120">Öffnen Sie die Karte für den Serviceartikel oder die Ressource, und wählen Sie anschließend eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="590b8-120">Open the card for the service item or resource, and then choose one of the following:</span></span>  
+  
+    * <span data-ttu-id="590b8-121">Für Serviceartikel wählen Sie **Ressourcenqualifikationen** aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-121">For service items, choose **Resource Skills**.</span></span>  
+    * <span data-ttu-id="590b8-122">Für Ressourcen wählen Sie **Qualifikationen** aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-122">For resources, choose **Skills**.</span></span>  
+
+## <a name="to-set-up-zones"></a><span data-ttu-id="590b8-123">Um Servicegebiete einzurichten:</span><span class="sxs-lookup"><span data-stu-id="590b8-123">To set up zones</span></span>
+1. <span data-ttu-id="590b8-124">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Zonen** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Zones**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="590b8-125">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-125">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+## <a name="to-assign-zones-to-customers-and-resources"></a><span data-ttu-id="590b8-126">Um Ressourcen und Kunden Servicegebieten zuzuordnen:</span><span class="sxs-lookup"><span data-stu-id="590b8-126">To assign zones to customers and resources</span></span> 
+1. <span data-ttu-id="590b8-127">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Kunden** oder **Ressourcen** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-127">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers** or **Resources**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="590b8-128">Öffnen Sie die Karte für den Serviceartikel oder die Ressource, und wählen Sie anschließend eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="590b8-128">Open the card for the service item or resource, and then choose one of the following:</span></span>  
+  
+    * <span data-ttu-id="590b8-129">Für Debitoren wählen Sie eine Zone in dem Feld **Servicegebietscode** aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-129">For customers, choose a zone in the **Service Zone Code** field.</span></span>  
+    * <span data-ttu-id="590b8-130">Für Ressourcen wählen Sie die **Servicegebiete** Aktion aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-130">For resources, choose the **Service Zones** action.</span></span>  
+
+## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a><span data-ttu-id="590b8-131">Um anzugeben, was dargestellt werden soll, wenn eine Ressource ausgewählt wird</span><span class="sxs-lookup"><span data-stu-id="590b8-131">To specify what to show when a resource is chosen</span></span>
+1. <span data-ttu-id="590b8-132">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Dienst einrichten** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Setup**, and then choose the related link.</span></span> 
+2. <span data-ttu-id="590b8-133">Wählen Sie im Feld **Ressourcenqualifikationsoption** eine der Optionen aus, die in der folgenden Tabelle beschrieben werden.</span><span class="sxs-lookup"><span data-stu-id="590b8-133">In the **Resource Skills Option** field, choose one of the options described in the following table.</span></span>  
+  
+    |<span data-ttu-id="590b8-134">**Option**</span><span class="sxs-lookup"><span data-stu-id="590b8-134">**Option**</span></span>|<span data-ttu-id="590b8-135">**Beschreibung**</span><span class="sxs-lookup"><span data-stu-id="590b8-135">**Description**</span></span>|  
+    |------------|-------------|  
+    |<span data-ttu-id="590b8-136">Code anzeigen</span><span class="sxs-lookup"><span data-stu-id="590b8-136">Code Shown</span></span> | <span data-ttu-id="590b8-137">Zeigt nur den Code an.</span><span class="sxs-lookup"><span data-stu-id="590b8-137">Displays the code only.</span></span>|  
+    |<span data-ttu-id="590b8-138">Warnung anzeigen</span><span class="sxs-lookup"><span data-stu-id="590b8-138">Warning Displayed</span></span> | <span data-ttu-id="590b8-139">Zeigt die Daten an und zeigt eine Warnmeldung an, wenn Sie eine Ressource auswählen, die nicht qualifiziert ist.</span><span class="sxs-lookup"><span data-stu-id="590b8-139">Shows the information and displays a warning if you choose a resource that is not qualified.</span></span>|  
+    |<span data-ttu-id="590b8-140">Keine Verwendung</span><span class="sxs-lookup"><span data-stu-id="590b8-140">Not Used</span></span> | <span data-ttu-id="590b8-141">Zeigt nicht diese Information an.</span><span class="sxs-lookup"><span data-stu-id="590b8-141">Does not show this information.</span></span>|  
+
+## <a name="to-update-resource-capacity"></a><span data-ttu-id="590b8-142">Um die Ressourcenkapazität zu erweitern</span><span class="sxs-lookup"><span data-stu-id="590b8-142">To update resource capacity</span></span>  
+<span data-ttu-id="590b8-143">Sie können die Kapazität von Ressourcen ändern.</span><span class="sxs-lookup"><span data-stu-id="590b8-143">You may need to change the capacity of resources.</span></span>  
+  
+1. <span data-ttu-id="590b8-144">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Ressourcen-Kapazität** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-144">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resource Capacity**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="590b8-145">Wählen Sie die Ressource und wählen Sie die Aktion **Ressourcen zuweisen** aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-145">Choose the resource, and then choose the **Set Capacity** action.</span></span>  
+3. <span data-ttu-id="590b8-146">Nehmen Sie die Änderungen vor, und wählen Sie dann **Kapazität aktualisieren** aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-146">Make the changes, and then choose **Update Capacity**.</span></span>  
+
+## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a><span data-ttu-id="590b8-147">Um Qualifikationen für Artikel, Serviceartikel oder Serviceartikelgruppen zu aktualisieren</span><span class="sxs-lookup"><span data-stu-id="590b8-147">To update skills for items, service items, or service item groups</span></span>
+<span data-ttu-id="590b8-148">Wenn Sie die Qualifikationscodes ändern möchten, die Artikeln zugeordnet sind, beispielsweise **PC** auf **PCS**, können Sie dies entweder für den Artikel, für alle Artikel oder Serviceartikel in einer Serviceartikelgruppe tun.</span><span class="sxs-lookup"><span data-stu-id="590b8-148">If you want to change the skill codes assigned to items, for example from **PC** to **PCS**, you can do so either for an item, service item, or for all items in a service item group.</span></span>  
+  
+1. <span data-ttu-id="590b8-149">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen-Symbol ") aus und geben Sie **Artikel** oder **Serviceartikel** oder **Serviceartikelgruppe** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-149">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items** or **Service Item**, or **Service Item Group**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="590b8-150">Öffnen Sie die Entität, die Sie aktualisieren möchten und wählen Sie die **Ressourcenqualifikationen** Aktion aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-150">Choose the entity to update, and then choose the **Resource Skills** action.</span></span>  
+3. <span data-ttu-id="590b8-151">Wählen Sie in der Zeile mit dem zu ändernden Qualifikationscode im Feld **Qualifikationscode** den relevanten Qualifikationscode aus.</span><span class="sxs-lookup"><span data-stu-id="590b8-151">On the line with the code to be changed, in the **Skill Code** field, choose the relevant skill code.</span></span>  
+4.  <span data-ttu-id="590b8-152">Wenn der Artikel über zugeordnete Serviceartikel verfügt, wird ein Dialogfeld mit den folgenden zwei Optionen geöffnet:</span><span class="sxs-lookup"><span data-stu-id="590b8-152">If the item has associated service items, a dialog box opens with the following two options:</span></span>  
+  
+    * <span data-ttu-id="590b8-153">Ändern Sie die Qualifikationen in den ausgewählten Wert: Wählen Sie diese Option aus, wenn Sie bei allen verknüpften Serviceartikeln den alten Qualifikationscode durch den neuen ersetzen möchten.</span><span class="sxs-lookup"><span data-stu-id="590b8-153">Change the skill codes to the selected value: Select this option if you want to replace the old skill code with the new one on all the related service items.</span></span>  
+    * <span data-ttu-id="590b8-154">Löschen Sie die Qualifikationen, oder aktualisieren Sie ihre Beziehung zueinander: Wählen Sie diese Option aus, wenn Sie den Qualifikationscode nur für diesen Artikel ändern möchten.</span><span class="sxs-lookup"><span data-stu-id="590b8-154">Delete the skill codes or update their relation: Select this option if you want to change the skill code on this item only.</span></span> <span data-ttu-id="590b8-155">Der Qualifikationscode für die verknüpften Serviceartikel wird neu zugeordnet, d. h., das Feld **Zugewiesen von** wird aktualisiert.</span><span class="sxs-lookup"><span data-stu-id="590b8-155">The skill code on the related service items will be reassigned, that is, the **Assigned From** field will be updated.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="590b8-156">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="590b8-156">See Also</span></span>
+[<span data-ttu-id="590b8-157">Ressourcen zuordnen</span><span class="sxs-lookup"><span data-stu-id="590b8-157">Allocate Resources</span></span>](service-how-to-allocate-resources.md)  
+[<span data-ttu-id="590b8-158">Einrichten von Arbeits- und Servicezeiten</span><span class="sxs-lookup"><span data-stu-id="590b8-158">Set Up Work Hours and Service Hours</span></span>](service-how-setup-work-service-hours.md)  
+[<span data-ttu-id="590b8-159">Fehlerberichte einrichten</span><span class="sxs-lookup"><span data-stu-id="590b8-159">Set Up Fault Reporting</span></span>](service-how-setup-fault-reporting.md)  
+[<span data-ttu-id="590b8-160">Einrichten von Codes für Standardservices</span><span class="sxs-lookup"><span data-stu-id="590b8-160">Set Up Codes for Standard Services</span></span>](service-how-setup-service-coding.md)  
+ 
+
+

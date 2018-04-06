@@ -1,0 +1,61 @@
+---
+title: "Einrichten von Serviceverträgen | Microsoft Docs"
+description: "Vorgehensweise: Einrichten von Serviceverträgen."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: service, cost, service order
+ms.date: 08/22/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 954438a19ed4b7aadc707cbb5e646f1752aa37a0
+ms.contentlocale: de-de
+ms.lasthandoff: 03/22/2018
+
+---
+
+# <a name="set-up-service-contracts"></a><span data-ttu-id="f9cac-103">Serviceverträge einrichten</span><span class="sxs-lookup"><span data-stu-id="f9cac-103">Set Up Service Contracts</span></span>
+<span data-ttu-id="f9cac-104">Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten:</span><span class="sxs-lookup"><span data-stu-id="f9cac-104">Before you can work with contracts, you must set up the following:</span></span> 
+
+* <span data-ttu-id="f9cac-105">Die Tabelle **Servicevertragsgruppe** enthält eine Gruppe von Serviceverträgen, die miteinander in Verbindung stehen.</span><span class="sxs-lookup"><span data-stu-id="f9cac-105">**Service contract groups**, which gather service contracts that are related in some way.</span></span>
+* <span data-ttu-id="f9cac-106">Sie können **Servicevertragskontengruppen** verwenden, um Serviceverträge zu gruppieren. Diese Gruppen können dann für die Servicerechnungen von Serviceverträgen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="f9cac-106">**Service contract account groups**, which are used to group the service contract accounts together for service invoices created for service contracts.</span></span> <span data-ttu-id="f9cac-107">Sie können diese Gruppen anschließend Ihren Serviceverträgen zuordnen.</span><span class="sxs-lookup"><span data-stu-id="f9cac-107">You assign these groups to service contracts.</span></span>  
+* <span data-ttu-id="f9cac-108">Sie können **Vertragsvorlagen** als eine vordefinierte Grundlage für Serviceverträge verwenden, die die gängigsten Servicevertragsdetails enthält.</span><span class="sxs-lookup"><span data-stu-id="f9cac-108">**Contract templates** that define contract layouts of contracts that include the most commonly used service contract details.</span></span> <span data-ttu-id="f9cac-109">Wenn Sie Servicevertragsangebote erstellen, können Sie diese unter Verwendung dieser Vorlagen erstellen.</span><span class="sxs-lookup"><span data-stu-id="f9cac-109">When you create service contract quotes, you can create them by using templates.</span></span> <span data-ttu-id="f9cac-110">Wenn Sie ein neues Vertragsangebot erstellen, enthalten die Felder automatisch den Inhalt der Vorlagenfelder.</span><span class="sxs-lookup"><span data-stu-id="f9cac-110">When you create a contract quote, the fields automatically contain the contents of the template fields.</span></span>
+* <span data-ttu-id="f9cac-111">**Debitorenvorlagen** , mit denen Sie Angebote für Kontakte oder potenzielle Kunden erstellen können, die nicht als Debitoren in [!INCLUDE[d365fin](includes/d365fin_md.md)]registriert sind.</span><span class="sxs-lookup"><span data-stu-id="f9cac-111">**Customer templates** that let you create quotes for contacts or potential customers who are not registered as customers in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+
+## <a name="to-set-up-a-service-contract-group"></a><span data-ttu-id="f9cac-112">So richten Sie Servicevertragsgruppen ein</span><span class="sxs-lookup"><span data-stu-id="f9cac-112">To set up a service contract group</span></span>  
+1. <span data-ttu-id="f9cac-113">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Servicevertragsgruppe** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="f9cac-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Groups**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="f9cac-114">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="f9cac-114">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="f9cac-115">Aktivieren Sie das Feld **Rabatt nur auf Vertr.-Aufträge**, wenn Vertrags- oder Servicerabatte nur für Vertragsaufträge, wie z. B. Wartung, gültig sein sollen.</span><span class="sxs-lookup"><span data-stu-id="f9cac-115">Choose the **Disc. on Contr. Orders Only** check box if you want contract or service discounts to be valid only for contract service orders, such as maintenance.</span></span>  
+
+## <a name="to-set-up-a-service-contract-account-group"></a><span data-ttu-id="f9cac-116">So richten Sie eine Servicevertragskontengruppe ein</span><span class="sxs-lookup"><span data-stu-id="f9cac-116">To set up a service contract account group</span></span>  
+1. <span data-ttu-id="f9cac-117">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Servicevertragsgruppe** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="f9cac-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Serv. Contract Account Groups**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="f9cac-118">Erstellen Sie eine neue Servicevertragskontengruppe.</span><span class="sxs-lookup"><span data-stu-id="f9cac-118">Create a new service contract account group.</span></span>   
+3. <span data-ttu-id="f9cac-119">Füllen Sie die Felder **Code** und **Beschreibung** aus.</span><span class="sxs-lookup"><span data-stu-id="f9cac-119">Fill in the **Code** and **Description** fields.</span></span> <span data-ttu-id="f9cac-120">Diese Felder beschreiben die Servicekontengruppe.</span><span class="sxs-lookup"><span data-stu-id="f9cac-120">These fields describe the service account group.</span></span>  
+4. <span data-ttu-id="f9cac-121">Füllen Sie das Feld **Nicht vorausbez. Vertragskonto** aus. Dieses Feld enthält die Sachkontennummer des Kontos, auf das nicht vorausbezahlte Beträge gebucht werden.</span><span class="sxs-lookup"><span data-stu-id="f9cac-121">Fill in the **Non-Prepaid Contract Acc.** field, choose general ledger account number for the non-prepaid account.</span></span>  
+5. <span data-ttu-id="f9cac-122">Füllen Sie das Feld **Nicht vorausbez. Vertragskonto** aus. Dieses Feld enthält die Sachkontennummer des Kontos, auf das nicht vorausbezahlte Beträge gebucht werden.</span><span class="sxs-lookup"><span data-stu-id="f9cac-122">In the **Prepaid Contract Acc.** field, choose the general ledger account number for the prepaid account.</span></span>  
+
+## <a name="to-set-up-a-contract-template"></a><span data-ttu-id="f9cac-123">So richten Sie Vertragsvorlagen ein</span><span class="sxs-lookup"><span data-stu-id="f9cac-123">To set up a contract template</span></span>  
+1. <span data-ttu-id="f9cac-124">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Servicevertragsgruppe** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="f9cac-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Templates**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="f9cac-125">Erstellen Sie eine neue Servicevertragsvorlage.</span><span class="sxs-lookup"><span data-stu-id="f9cac-125">Create a new service contract template.</span></span>  
+3. <span data-ttu-id="f9cac-126">Geben Sie im Feld **Nr.**</span><span class="sxs-lookup"><span data-stu-id="f9cac-126">In the **No.**</span></span> <span data-ttu-id="f9cac-127">eine Nummer für die Vertagsvorlage ein.</span><span class="sxs-lookup"><span data-stu-id="f9cac-127">field, enter a number for the contract template.</span></span>  
+  
+     <span data-ttu-id="f9cac-128">Wenn Sie Nummernserien für Vertragsvorlagen im Fenster **Service Einrichtung** definiert haben, drücken Sie die EINGABETASTE, damit die nächste verfügbare Vertragsvorlagennummer eingefügt wird.</span><span class="sxs-lookup"><span data-stu-id="f9cac-128">Alternatively, if you have set up number series for contract templates in the **Service Mgt. Setup** window, you can press the Enter key to enter the next available contract template number.</span></span> <span data-ttu-id="f9cac-129">Füllen Sie die anderen Felder aus, falls diese benötigt werden.</span><span class="sxs-lookup"><span data-stu-id="f9cac-129">Fill in the other fields if appropriate.</span></span>  
+  
+4. <span data-ttu-id="f9cac-130">Füllen Sie im Inforegister **Rechnung** das Feld **Servicevertragskonto-Gruppencode** aus und geben Sie das **Fakturierungsintervall** usw. an.</span><span class="sxs-lookup"><span data-stu-id="f9cac-130">On the **Invoice** FastTab, fill in the **Serv. Contract Acc. Group Code** field, the **Invoice Period**, and so on.</span></span> <span data-ttu-id="f9cac-131">Füllen Sie die anderen Felder aus, falls diese benötigt werden.</span><span class="sxs-lookup"><span data-stu-id="f9cac-131">Fill in the other fields if appropriate.</span></span>  
+5. <span data-ttu-id="f9cac-132">Wählen Sie die **Servicerabatte** Aktion aus, um Vertragsrabatte hinzuzufügen.</span><span class="sxs-lookup"><span data-stu-id="f9cac-132">Choose the **Service Discounts** action to add contract discounts.</span></span>  
+
+## <a name="to-set-up-a-customer-template"></a><span data-ttu-id="f9cac-133">So richten Sie Debitorenvorlagen ein</span><span class="sxs-lookup"><span data-stu-id="f9cac-133">To set up a customer template</span></span>  
+1. <span data-ttu-id="f9cac-134">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Kundenvorlage** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="f9cac-134">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Templates**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="f9cac-135">Erstellen Sie eine neue Debitorenvorlagenkarte.</span><span class="sxs-lookup"><span data-stu-id="f9cac-135">Create a new customer template card.</span></span>  
+3. <span data-ttu-id="f9cac-136">Geben Sie auf dem Inforegister **Allgemein** der Debitorenvorlagenkarte im Feld **Code** einen Code und im Feld **Beschreibung** eine Beschreibung für die Debitorenvorlage ein.</span><span class="sxs-lookup"><span data-stu-id="f9cac-136">On the **General** FastTab, enter a code and a description for the customer template in the **Code** and **Description** fields respectively.</span></span> 
+4. <span data-ttu-id="f9cac-137">Die anderen Felder, z. B. **Länder-/Regionscode**, **Gebietscode** und **Sprachcode**, werden als Suchkriterien verwendet und können ausgefüllt werden.</span><span class="sxs-lookup"><span data-stu-id="f9cac-137">To define search criteria, fill in the other fields, such as **Country/Region Code**, **Territory Code**, and **Language Code**.</span></span>  
+5. <span data-ttu-id="f9cac-138">Die Felder **Geschäftsbuchungsgruppe** und **Debitorenbuchungsgruppe** müssen ausgefüllt werden.</span><span class="sxs-lookup"><span data-stu-id="f9cac-138">Fill in the **Gen. Bus. Posting Group** and **Customer Posting Group** fields.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="f9cac-139">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f9cac-139">See Also</span></span>
+[<span data-ttu-id="f9cac-140">Einrichten der Serviceverwaltung</span><span class="sxs-lookup"><span data-stu-id="f9cac-140">Setting Up Service Management</span></span>](service-setup-service.md)

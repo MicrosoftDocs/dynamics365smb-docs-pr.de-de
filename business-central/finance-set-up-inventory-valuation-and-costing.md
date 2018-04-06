@@ -1,0 +1,44 @@
+---
+title: Einrichten der Lagerwertberechnung und der Kostenrechnung | Microsoft Docs
+description: "In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/06/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: af4c256b59739abce9ec22bce254fe8e2dff4e29
+ms.contentlocale: de-de
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="setting-up-inventory-valuation-and-costing"></a><span data-ttu-id="cb7b4-103">Einrichten der Lagerwertberechnung und der Kostenrechnung</span><span class="sxs-lookup"><span data-stu-id="cb7b4-103">Setting Up Inventory Valuation and Costing</span></span>
+<span data-ttu-id="cb7b4-104">Um sicherzustellen, dass Lagerregulierungen ordnungsgemäß aufgezeichnet werden, müssen Sie verschiedene Felder und Fenster einrichten, bevor Sie Artikeltransaktionen durchführen können.</span><span class="sxs-lookup"><span data-stu-id="cb7b4-104">To make sure that inventory costs are recorded correctly, you must set up various fields and windows before you begin to make item transactions.</span></span>
+
+<span data-ttu-id="cb7b4-105">In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.</span><span class="sxs-lookup"><span data-stu-id="cb7b4-105">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+
+|<span data-ttu-id="cb7b4-106">**Aufgabe**</span><span class="sxs-lookup"><span data-stu-id="cb7b4-106">**To**</span></span>|<span data-ttu-id="cb7b4-107">**Siehe**</span><span class="sxs-lookup"><span data-stu-id="cb7b4-107">**See**</span></span>|  
+|------------|-------------|  
+|<span data-ttu-id="cb7b4-108">Festlegen einer Lagerabgangsmethode für jeden Artikel, um zu steuern, wie dessen eingehende Kosten zum Ermitteln des Lagerwerts und der Kosten für verkaufte Waren verwendet werden sollen</span><span class="sxs-lookup"><span data-stu-id="cb7b4-108">Set a costing method for each item to govern how its incoming cost is used to assess inventory value and the cost of goods sold.</span></span>|[<span data-ttu-id="cb7b4-109">Neue Artikel registrieren</span><span class="sxs-lookup"><span data-stu-id="cb7b4-109">Register New Items</span></span>](inventory-how-register-new-items.md)|  
+|<span data-ttu-id="cb7b4-110">Sicherstellen, dass Kosten beim Buchen einer Lagertransaktion automatisch in die Finanzbuchhaltung gebucht werden</span><span class="sxs-lookup"><span data-stu-id="cb7b4-110">Ensure that the cost is automatically posted to the general ledger whenever an inventory transaction is posted.</span></span>|<span data-ttu-id="cb7b4-111">Wählen Sie im Fenster **Lagereinrichtung** das Feld **Automatische Lagerbuchung**.</span><span class="sxs-lookup"><span data-stu-id="cb7b4-111">**Automatic Cost Posting** field in the **Inventory Setup** page</span></span>|  
+|<span data-ttu-id="cb7b4-112">Sicherstellen, dass die Soll-Kosten in die Finanzbuchhaltung gebucht werden, um in den Interimssachkonten vor der eigentlichen Buchung eine Schätzung der fälligen Beträge und der Kosten der gehandelten Waren anzuzeigen</span><span class="sxs-lookup"><span data-stu-id="cb7b4-112">Ensure that expected costs are posted to the general ledger to see from the interim G/L accounts an estimate of the amounts due and the cost of the traded items before they are actually invoiced.</span></span>|<span data-ttu-id="cb7b4-113">Wählen Sie im Fenster **Lagereinrichtung** das Feld **Soll-Kosten buchen**.</span><span class="sxs-lookup"><span data-stu-id="cb7b4-113">**Expected Cost Posting to G/L** field in the **Inventory Setup** page</span></span>|  
+|<span data-ttu-id="cb7b4-114">Einrichten der automatischen Regulierung von Kostenänderungen beim Buchen von Lagertransaktionen</span><span class="sxs-lookup"><span data-stu-id="cb7b4-114">Set the system up to adjust for any cost changes automatically every time you post inventory transactions.</span></span>|[<span data-ttu-id="cb7b4-115">Artikelpreise justieren</span><span class="sxs-lookup"><span data-stu-id="cb7b4-115">Adjust Item Costs</span></span>](inventory-how-adjust-item-costs.md)|  
+|<span data-ttu-id="cb7b4-116">Festlegen, ob der durchschnittliche Einstandspreis nur pro Artikel oder pro Artikel für alle Lagerhaltungsdaten sowie für jede Variante des Artikels berechnet werden soll</span><span class="sxs-lookup"><span data-stu-id="cb7b4-116">Define if the average cost is to be calculated per item only or per item for each stockkeping unit and for each variant of the item.</span></span>|<span data-ttu-id="cb7b4-117">Wählen Sie im Fenster **Lagereinrichtung** das Feld **Einst.-Pr.(durchschn.)Ber.-Art**.</span><span class="sxs-lookup"><span data-stu-id="cb7b4-117">**Average Cost Calc. Type** field in the **Inventory Setup** page</span></span>|  
+|<span data-ttu-id="cb7b4-118">Auswählen des gewünschten Zeitraums für die Berechnung der gewichteten Durchschnittskosten von Artikeln, für die die Durchschnittskostenmethode verwendet wird</span><span class="sxs-lookup"><span data-stu-id="cb7b4-118">Select the period of time you would like the program to use for calculating the weighted average cost of items that use the average costing method.</span></span>|<span data-ttu-id="cb7b4-119">Wählen Sie im Fenster **Lagereinrichtung** das Feld **Durchschnittskostenperiode**.</span><span class="sxs-lookup"><span data-stu-id="cb7b4-119">**Average Cost Period** field in the **Inventory Setup** page</span></span>|  
+|<span data-ttu-id="cb7b4-120">Definieren der Lagerbuchungsperioden zum Steuern des Lagerwerts im Zeitverlauf durch Sperren der Buchung von Transaktionen in geschlossenen Lagerbuchungsperioden</span><span class="sxs-lookup"><span data-stu-id="cb7b4-120">Define inventory periods to control inventory value over time by disallowing transaction posting in closed inventory periods.</span></span>|[<span data-ttu-id="cb7b4-121">Arbeiten mit Lagerbuchungsperioden</span><span class="sxs-lookup"><span data-stu-id="cb7b4-121">Work with Inventory Periods</span></span>](finance-how-to-work-with-inventory-periods.md)|  
+|<span data-ttu-id="cb7b4-122">Sicherstellen, dass Verkaufsreklamationen mit der ursprünglichen ausgehenden Transaktion ausgeglichen werden, um den Lagerwert zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="cb7b4-122">Ensure that sales returns are applied to the original outbound transaction to preserve inventory value.</span></span>|<span data-ttu-id="cb7b4-123">Das Feld **Einst.-Pr.-Rückverfolg. notw.** im Fenster **Debitoren & Verkauf**</span><span class="sxs-lookup"><span data-stu-id="cb7b4-123">**Exact Cost Reversing Mandatory** field in the **Sales & Receivables** page</span></span>|  
+|<span data-ttu-id="cb7b4-124">Sicherstellen, dass Einkaufsreklamationen mit der ursprünglichen eingehenden Transaktion ausgeglichen werden, um den Lagerwert zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="cb7b4-124">Ensure that purchase returns are applied to the original inbound transaction to preserve inventory value.</span></span>|<span data-ttu-id="cb7b4-125">Das Feld **Einst.-Pr.-Rückverfolg. notw.** im Fenster **Kreditoren & Einkauf**</span><span class="sxs-lookup"><span data-stu-id="cb7b4-125">**Exact Cost Reversing Mandatory** field in the **´Purchases & Payables** page</span></span>|
+|<span data-ttu-id="cb7b4-126">Einrichten der Rundungsregeln, die beim Regulieren oder Vorschlagen von Artikelpreisen sowie beim Regulieren oder Vorschlagen von Einstandspreisen angewendet werden</span><span class="sxs-lookup"><span data-stu-id="cb7b4-126">Set up the rounding rules to apply when adjusting or suggesting item prices and when adjusting or suggesting standard costs.</span></span>|<span data-ttu-id="cb7b4-127">**Rundungsmethode**</span><span class="sxs-lookup"><span data-stu-id="cb7b4-127">**Rounding Method** page</span></span>|  
+
+## <a name="see-also"></a><span data-ttu-id="cb7b4-128">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="cb7b4-128">See Also</span></span>  
+[<span data-ttu-id="cb7b4-129">Verwalten der Lagerregulierung</span><span class="sxs-lookup"><span data-stu-id="cb7b4-129">Managing Inventory Costs</span></span>](finance-manage-inventory-costs.md)  
+[<span data-ttu-id="cb7b4-130">Arbeiten mit  Business Central</span><span class="sxs-lookup"><span data-stu-id="cb7b4-130">Working with Business Central</span></span>](ui-work-product.md)  
+[<span data-ttu-id="cb7b4-131">Finanzen</span><span class="sxs-lookup"><span data-stu-id="cb7b4-131">Finance</span></span>](finance.md)  
+

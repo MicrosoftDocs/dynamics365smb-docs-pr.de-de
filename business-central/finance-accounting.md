@@ -1,0 +1,43 @@
+---
+title: Financials | Microsoft Docs
+description: "Erhalten Sie Informationen über das Buchhalterportal für  Business Central. und das Buchhalterrollencenter, das interne und externe Buchhalter im Kundenunternehmen unterstützt."
+author: edupont04
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: accountant, accounting, financial report
+ms.date: 09/14/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f679a00043cb38072aeb3bc2ce4316791e32136d
+ms.contentlocale: de-de
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a><span data-ttu-id="d06f2-103">Buchhalter-Erfahrung in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="d06f2-103">Accountant Experiences in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]</span></span>
+<span data-ttu-id="d06f2-104">Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen.</span><span class="sxs-lookup"><span data-stu-id="d06f2-104">Any business must do its books and sign off on the accounting.</span></span> <span data-ttu-id="d06f2-105">Einige Unternehmen verwenden einen externen Buchhalter, und andere haben einen Buchhalter als Mitarbeiter.</span><span class="sxs-lookup"><span data-stu-id="d06f2-105">Some businesses employ an external accountant, and others have an accountant on staff.</span></span> <span data-ttu-id="d06f2-106">Unabhängig von der Art des Buchhalters, den Sie sind, können sie das **Buchhalter**-Rollencenter als Startbildschirm in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden.</span><span class="sxs-lookup"><span data-stu-id="d06f2-106">No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="d06f2-107">Von hier können Sie auf alle Fenster zugreifen, die Sie in Ihrer Arbeit benötigen.</span><span class="sxs-lookup"><span data-stu-id="d06f2-107">From here, you can access all windows that you need in your work.</span></span>  
+
+## <a name="accountant-role-center"></a><span data-ttu-id="d06f2-108">Buchhalter-Rollencenter</span><span class="sxs-lookup"><span data-stu-id="d06f2-108">Accountant Role Center</span></span>
+<span data-ttu-id="d06f2-109">Das Rollencenter bildet ein Dashboard mit Aktivitätskacheln, die Ihnen Echtzeitkennzahlen anzeigen und Ihnen Zugriff auf die Daten geben.</span><span class="sxs-lookup"><span data-stu-id="d06f2-109">The Role Center is a dashboard with activity tiles that show you real-time key figures and give you quick access to data.</span></span> <span data-ttu-id="d06f2-110">Im oberen Fensterbereich im Menüband haben Sie Zugriff auf weitere Aktionen wie das Öffnen der häufig verwendeten Finanberichte und Kontoauszüge in Excel.</span><span class="sxs-lookup"><span data-stu-id="d06f2-110">In the ribbon at the top of the window, you have access to more actions, such as opening the most commonly used financial reports and statements in Excel.</span></span> <span data-ttu-id="d06f2-111">Im Navigationsbereich links können Sie schnell zwischen den Listen wechseln, die Sie häufig verwenden.</span><span class="sxs-lookup"><span data-stu-id="d06f2-111">In the navigation bar at the top, you can quickly switch between the lists you use most often.</span></span> <span data-ttu-id="d06f2-112">Hier finden Sie weitere Bereiche, wie **Gebuchte Belege** mit den verschiedenen Belegarten, die der Mandant gebucht hat.</span><span class="sxs-lookup"><span data-stu-id="d06f2-112">Here, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.</span></span>  
+
+<span data-ttu-id="d06f2-113">Wenn Sie neu sind bei [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie eine Liste der Videos starten direkt von Ihrem Rollencenter aus.</span><span class="sxs-lookup"><span data-stu-id="d06f2-113">If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Role Center.</span></span> <span data-ttu-id="d06f2-114">Sie können auch **Erste Schritte** starten, die die Schlüsselbereiche unterstreichen.</span><span class="sxs-lookup"><span data-stu-id="d06f2-114">You can also launch a **Getting Started** tour that points out key areas.</span></span>  
+
+## <a name="accountant-hub"></a><span data-ttu-id="d06f2-115">Accountant Hub</span><span class="sxs-lookup"><span data-stu-id="d06f2-115">Accountant Hub</span></span>
+<span data-ttu-id="d06f2-116">Wenn Sie ein Buchhalter mit mehreren Kunden sind, können Sie das [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] für einen besseren Überblick über Ihre Kundens verwenden.</span><span class="sxs-lookup"><span data-stu-id="d06f2-116">If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients.</span></span> <span data-ttu-id="d06f2-117">Von hier können Sie auf den Tenant jedes Clients zugreifen [!INCLUDE[d365fin](includes/d365fin_md.md)] und das Buchhalter-Rollencenter verwenden, wie oben beschrieben.</span><span class="sxs-lookup"><span data-stu-id="d06f2-117">From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above.</span></span> <span data-ttu-id="d06f2-118">Weitere Informationen finden Sie unter [Willkommen bei [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)</span><span class="sxs-lookup"><span data-stu-id="d06f2-118">For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="d06f2-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="d06f2-119">See Also</span></span>
+[<span data-ttu-id="d06f2-120">Finanzen</span><span class="sxs-lookup"><span data-stu-id="d06f2-120">Finance</span></span>](finance.md)  
+[<span data-ttu-id="d06f2-121">Finance einrichten</span><span class="sxs-lookup"><span data-stu-id="d06f2-121">Setting Up Finance</span></span>](finance-setup-finance.md)  
+[<span data-ttu-id="d06f2-122">Die Finanzbuchhaltung und der Kontenplan</span><span class="sxs-lookup"><span data-stu-id="d06f2-122">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
+[<span data-ttu-id="d06f2-123">Beenden von Jahresabschluss und Perioden</span><span class="sxs-lookup"><span data-stu-id="d06f2-123">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+[<span data-ttu-id="d06f2-124">Arbeiten mit Dimensionen</span><span class="sxs-lookup"><span data-stu-id="d06f2-124">Working with Dimensions</span></span>](finance-dimensions.md)  
+[<span data-ttu-id="d06f2-125">Analysieren von Finanzauswertungen in Excel</span><span class="sxs-lookup"><span data-stu-id="d06f2-125">Analyzing Financial Statements in Excel</span></span>](finance-analyze-excel.md)  
+<span data-ttu-id="d06f2-126">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d06f2-126">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="d06f2-127">Einrichten der Cashflowanalyse</span><span class="sxs-lookup"><span data-stu-id="d06f2-127">Setting Up Cash Flow Analysis</span></span>](finance-setup-cash-flow-analyses.md)  
+<span data-ttu-id="d06f2-128">[Externen Buchhalter einladen zu Ihrem [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)</span><span class="sxs-lookup"><span data-stu-id="d06f2-128">[Invite Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)</span></span>  
+<span data-ttu-id="d06f2-129">[Willkommen bei [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)</span><span class="sxs-lookup"><span data-stu-id="d06f2-129">[Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)</span></span>  
+[<span data-ttu-id="d06f2-130">Dynamics 365 — Accountant Hub on Microsoft.com</span><span class="sxs-lookup"><span data-stu-id="d06f2-130">Dynamics 365 - Accountant Hub on Microsoft.com</span></span>](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+
