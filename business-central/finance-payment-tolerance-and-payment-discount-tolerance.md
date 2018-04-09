@@ -95,7 +95,6 @@ Szenarien mit Alternative A oder B bedeuten Folgendes:
 - **A** – In diesem Fall wurde die Skontotoleranzwarnung ausgeschaltet ODER der Benutzer hat die Warnung aktiviert und sich entschieden, den verspäteten Skonto zu erlauben (d. h. den Saldo als Zahlungstoleranz zu buchen).  
 - **B** – In diesem Fall hat der Benutzer die Warnung aktiviert und sich entschieden, den überzogenen Skonto nicht zu erlauben (d. h. den Saldo als Restbetrag zu belassen).  
 
-[!div class="mx-tdBreakAll"]  
 |—|Inv.|Skonto|Max. Zahl.-Tol.|Skontodatum|Skontotol. Datum|Zahlungsdatum|Zahl.-|Toleranzart|Alle Posten geschlossen|Skontotol. Skontotoleranz|Zahl.-Tol. G/L|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1.000|20|5|15.01.2003|01/20/03|<=15.01.03|985|Zahl.-Tol.|Ja|0|-5|  
@@ -166,8 +165,6 @@ Szenarien mit Alternative A, B, C oder D bedeuten Folgendes:
 - **B** – In diesem Fall hat der Benutzer die Warnung aktiviert und sich entschieden, den verspäteten Skonto in keiner Rechnung zu erlauben.  
 - **C** – In diesem Fall hat der Benutzer die Warnung aktiviert und sich entschieden, den verspäteten Skonto in der ersten Rechnung zu erlauben, in der zweiten jedoch nicht.  
 - **D** – In diesem Fall hat der Benutzer die Warnung aktiviert und sich entschieden, den verspäteten Skonto in der ersten Rechnung nicht zu erlauben, jedoch in der zweiten.  
-
-[!div class="mx-tdBreakAll"]  
 
 |—|Inv.|Skonto|Max. Zahl.-Tol.|Skontodatum|Skontotol. Datum|Zahlungsdatum|Zahl.-|Toleranzart|Alle Posten geschlossen|Skontotol. Skontotoleranz|Zahl.-Tol. G/L|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  

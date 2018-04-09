@@ -38,7 +38,7 @@ Der Microsoft Pay, Paypal-Zahlungs-Standard und die WorldPay-Zahlungsstandarderw
 3. Geben Sie im Feld **Zahlungsverkehr** den Zahlungsservice ein.  
 
     > [!NOTE]  
-    >   Das Feld **Zahlungsverkehr** ist verfügbar, wenn Sie den Zahlungsservice aktiviert haben.  
+    > Das Feld **Zahlungsverkehr** ist verfügbar, wenn Sie den Zahlungsservice aktiviert haben.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
