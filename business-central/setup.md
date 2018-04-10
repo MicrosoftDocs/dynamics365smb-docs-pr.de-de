@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 03/12/2018
+ms.date: 03/22/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7d41317f1f5e071c70dfd5ae265b046b3bea4825
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ Wir haben einige Firmendaten für Sie erstellt, beispielsweise Ihren Kontenplan 
 Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsfenster zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).
 
 > [!NOTE]
-> Sie können in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit RapidStart Services einen neuen Mandanten einrichten, einem Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen. Weitere Informationen finden Sie unter ## [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Sie können in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit RapidStart Services einen neuen Mandanten einrichten, einem Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen. Weitere Informationen finden Sie unter [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvorgänge können zusätzlich zur unterstützten Einrichtung auch manuell eingerichtet werden. Nachfolgend finden Sie eine Liste von Funktionalität, die Sie manuell einrichten können.
 
@@ -59,9 +59,9 @@ Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnement [!INCLUDE
 [Produktion](production-manage-manufacturing.md)  
 [Logistik](warehouse-manage-warehouse.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Einrichtung und Verwaltung in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
+[Verwaltung](admin-setup-and-administration.md)  
 [Neue Unternehmen anlegen in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
-[Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Erste Schritte](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

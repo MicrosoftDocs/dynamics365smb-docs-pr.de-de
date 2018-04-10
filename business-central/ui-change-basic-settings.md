@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -23,11 +23,11 @@ ms.lasthandoff: 03/22/2018
 Im Fenster **Meine Einstellungen** können Sie grundlegende Einstellungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] ansehen und ändern.  
 
 ## <a name="role-center"></a>Rollencenter
-Das Rollencenter erstellt die Homepage, eine Startseite, die für die Anforderungen der Rolle entworfen wurde. Das Rollencenter bietet Ihnen eine Übersicht des Unternehmen und spiegelt die Informationen, Aufgaben und Prioritäten der Rolle. 
+Das Rollencenter stellt die Startseite dar und wurde für die Anforderungen der Rolle entworfen. Das Rollencenter bietet Ihnen eine Übersicht des Unternehmen und spiegelt die Informationen, Aufgaben und Prioritäten der Rolle.
 
 Entlang der Bereich des Rollencenters, sehen Sie eine Navigationsleiste, die Ihnen Zugriff auf typischen Einheiten für die Rolle, z Debitoren, Kreditoren, Artikel usw., gibt.
 
-Was im Hauptinhaltsbeeich erscheint, hängt vom jeweiligen Rollencenter ab. Beispielsweise können Sie in den meisten in Rollencentern die Aktivitätskacheln suchen, die aktuelle Daten anzeigen und für einen einfachen Zugriff auf den ausgewählten Beleg geklickt werden oder getippt werden. Die zentralen Leistungs-Indikatoren können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Einige Rollencenter aktivieren Sie, um eine Liste der Lieblingseinheiten, beispielsweise Debitoren und Kreditoren zu erstellen oder zeigen den Berichtseingang an.
+Was im Hauptinhaltsbereich erscheint, hängt vom jeweiligen Rollencenter ab. Beispielsweise können Sie in den meisten in Rollencentern die Aktivitätskacheln suchen, die aktuelle Daten anzeigen und für einen einfachen Zugriff auf den ausgewählten Beleg geklickt werden oder getippt werden. Die zentralen Leistungs-Indikatoren können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Einige Rollencenter aktivieren Sie, um eine Liste der Lieblingseinheiten, beispielsweise Debitoren und Kreditoren zu erstellen oder zeigen den Berichtseingang an.
 
 ### <a name="to-change-role-center"></a>So ändern Sie ein Rollencenter
 Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können ein anderes Rollencenter auswählen, das mit den Anforderungen besser übereinstimmt.

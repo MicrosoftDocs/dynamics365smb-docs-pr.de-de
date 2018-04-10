@@ -11,8 +11,8 @@ ms.search.keywords: project management, capacity, staff, resource
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ff8dca4c676935438d42636f0fd7d62b49e3f7b
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: b70a73edda008994f3c7a4dc09ca9e875a020f6e
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

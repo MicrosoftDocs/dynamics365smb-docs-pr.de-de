@@ -13,8 +13,8 @@ ms.search.keywords: video, library, how to
 ms.date: 02/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 692af89238aae46d5ef98f1081f2b7545f8a1306
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: b9f8ba9113cdac79dfd8b20d99c194e834578a8e
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -40,7 +40,7 @@ Sie können unser Anleitungsvideo und andere Inhalte auf dem YouTube-Kanal sehen
 ## <a name="content-that-is-coming-soon"></a>Inhalt, der in Kürze verfügbar ist
 Um einige Beispiele zu erwähnen, die Bibliothek von Videos, die wir anzeigen, sind "so geht's" Videos:  
 
-* Geschäftsdaten aus anderen Finanzsystemen importieren [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Geschäftsdaten aus anderen Finanzsystemen migrieren [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Richten Sie Dimensionen ein, damit Sie unterschiedliche Einheiten und Belege verfolgen und analysieren können
 * [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Microsoft Dynamics 365 for Sales verbinden
 * Genehmigungsworkflows einrichten  
@@ -48,5 +48,5 @@ Um einige Beispiele zu erwähnen, die Bibliothek von Videos, die wir anzeigen, s
 * E-Mail-Protokollierung einrichten und Belegen direkt aus [!INCLUDE[d365fin](includes/d365fin_md.md)] buchen  
 
 ## <a name="see-also"></a>Siehe auch
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
+[Erste Schritte](product-get-started.md)
 

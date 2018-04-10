@@ -11,8 +11,8 @@ ms.search.keywords: online payment
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0154f7fc231023542cc5f389ea6c8a3e99c7fffc
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 5853080ef39196e95c293415e9b81502ff03d5ed
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

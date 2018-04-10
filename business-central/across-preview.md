@@ -11,8 +11,8 @@ ms.search.keywords: preview, trial, sandbox
 ms.date: 01/05/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fa7d084f69765a0b274dc9d4e1f6c1a38752f3b5
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Weitere Informationen erhalten Sie unter [Designer verwenden](https://docs.micro
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt Werkzeuge bereit, die Sie verwenden können, um Ihr eigenes Add-On und eingebettete Funktionen zu übernehmen, um neue branchenspezifische, End-zu-End-Erfahrungen oder Integration von Lösungen von Drittanbietern hinzuzufügen. Sie können beispielsweise eine API verwenden, um eine verbundene App für den Datenaustausche zwische [!INCLUDE[d365fin](includes/d365fin_md.md)] und der Gehaltsabrechnungs-App zu erstellen. Verbindungs-Apps kann auch Erweiterungen nutzen, um Seiten zu erstellen, die für die Einrichtung, Konfiguration oder zur Unterstützung App-spezifischer Funktionen verwendet wird. Weitere Informationen finden Sie unter [Apps entwickeln für [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
 ##<a name="see-also"></a>Siehe auch
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

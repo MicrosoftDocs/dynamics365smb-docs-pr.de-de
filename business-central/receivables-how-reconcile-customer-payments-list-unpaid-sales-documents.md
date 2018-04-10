@@ -12,8 +12,8 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e5e462444d68c46feb6948f763aec36b9fd9c569
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: cd2496fef564004cabebc4c3010c0d3164fd28dc
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

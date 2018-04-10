@@ -11,8 +11,8 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72fdb96907c4feeb21cdc40b4b781e75e4f1119c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -40,14 +40,14 @@ Wenn Sie Fragen zum [!INCLUDE[d365fin](includes/d365fin_md.md)] haben, und keine
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Ist es möglich, meine Probezeit für 30 Tage "Neues Unternehmen" zu verlängern?
 Ja. Wenn Sie Ihre Testphase verlängern möchten, können Sie Microsoft 1-888-477-7989 (USA) oder 1-800-741-9206 kontaktieren (Kanada). HINWEIS: Es kann bis zu 2 Arbeitstage dauern, um die Testphase zu verlängern.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Der Administrator hat mich auf einen anderen Plan gelegt und mir eine andere Rolle zugewiesen, aber ich sehe in [!INCLUDE[d365fin](includes/d365fin_md.md)] immer noch die gleiche Startseite?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Der Administrator hat mich auf einen anderen Plan gelegt und mir eine andere Rolle zugewiesen, aber ich sehe in [!INCLUDE[d365fin](includes/d365fin_md.md)] immer noch das gleiche Rollencenter?
 Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator im Rollencenter nichts geändert hat und Benutzergruppen zugeordnet hat, die mit der neuen Lizenz übereinstimmen. Im Wesentlichen wird Ihr System [!INCLUDE[d365fin](includes/d365fin_md.md)] vom Plantyp (Lizenz) bestimmt, den Sie haben - dieser legt Ihre Zugriffsrechte und Standard-Rollencenter fest. Sie können Ihr Rollencenter in "Meine Einstellungen" manuell ändern, wenn Sie aber auf einen Plan anderen wechseln, und vom Unternehmensplan auf einen Team-Members-Plan wechseln, könnten Sie die alte Startseite sehen, weil Ihre Berechtigungen nicht geändert wurden.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Warum finde ich diese Funktion nicht in meinem [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Haben Sie vor kurzem über eine neue Funktion in der Roadmap oder in unserem Blog gelesen? In diesem Fall wurde Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise noch nicht auf die neueste Version aktualisiert. Wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt es eine Verzögerung zwischen der angekündigten Erweiterung und ihrer Verfügbarkeit in AppSource.
 
 ## <a name="see-also"></a>Siehe auch
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Erste Schritte](product-get-started.md)  
 [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outlook](admin-no-outlook.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  

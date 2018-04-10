@@ -11,8 +11,8 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b88b714e380155f1da089c3549d9533ceea0624e
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 975703333b1a675ae78b70d99b1394d370490e9d
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

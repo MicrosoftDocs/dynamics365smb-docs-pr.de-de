@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 86e50b0fc2e07dd8598fe19883103b4a54c611a5
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 4354e28522d359cf9fa6178c4a1919831dcc52db
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

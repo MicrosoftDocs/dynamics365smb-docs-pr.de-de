@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5dd885d32c0ca08bdf51770669ee569c3a7a98ed
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1127c2d485ae72cc3cb27860a6189f7657756e06
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -34,7 +34,7 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
 4. Wählen Sie die Aktion **Anlagengegenkonto einfügen**. Eine zweite Buch.-Blattzeile wird für das Gegenkonto erstellt, das für die Buchung von Zuschreibungen eingerichtet wird.
 
     > [!NOTE]  
->   Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Im Fenster **Anlagenbuchungsgruppenkarte** der Buchungsgruppe der Anlage enthält das Feld **Abschreibungskonto** das Sollkonto im Sachkonto und das Feld **Gegenkto. Abschreibung** enthält das Sachkonto, auf das die Gegenposten für Zuschreibungen gebucht werden sollen. Weitere Informationen finden Sie im Abschnitt "So richten Sie Anlagenbuchungsgruppen ein" in [ Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).  
+    >   Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Im Fenster **Anlagenbuchungsgruppenkarte** der Buchungsgruppe der Anlage enthält das Feld **Abschreibungskonto** das Sollkonto im Sachkonto und das Feld **Gegenkto. Abschreibung** enthält das Sachkonto, auf das die Gegenposten für Zuschreibungen gebucht werden sollen. Weitere Informationen finden Sie im Abschnitt "So richten Sie Anlagenbuchungsgruppen ein" in [ Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).  
 5. Wählen Sie die Aktion **Buchen** aus.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>So buchen Sie eine erhöhte AfA aus dem Anlagen Fibu Buch.-Blatt
@@ -44,7 +44,7 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
 4. Wählen Sie die Aktion **Anlagengegenkonto einfügen**. Eine zweite Buch.-Blattzeile wird für das Gegenkonto erstellt, das für die Buchung einer erhöhten AfA eingerichtet wird.
 
     > [!NOTE]  
->   Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Im Fenster **Anlagenbuchungsgruppenkarte** der Buchungsgruppe der Anlage enthält das Feld **Abschreibungskonto** das Habenkonto im Sachkonto und das Feld **Ausgaben-Abschreibungskonto** das Sollkonto im Sachkonto, auf das die Gegenposten für erhöhte AfA gebucht werden sollen. Weitere Informationen finden Sie im Abschnitt "So richten Sie Anlagenbuchungsgruppen ein" in [ Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).
+    >   Schritt 4 funktioniert nur, wenn Sie Folgendes eingerichtet haben: Im Fenster **Anlagenbuchungsgruppenkarte** der Buchungsgruppe der Anlage enthält das Feld **Abschreibungskonto** das Habenkonto im Sachkonto und das Feld **Ausgaben-Abschreibungskonto** das Sollkonto im Sachkonto, auf das die Gegenposten für erhöhte AfA gebucht werden sollen. Weitere Informationen finden Sie im Abschnitt "So richten Sie Anlagenbuchungsgruppen ein" in [ Allgemeine Anlageninformationen einrichten](fa-how-setup-general.md).
 5. Wählen Sie die Aktion **Buchen** aus.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>So führen Sie allgemeine Neubewertungen von Anlagen aus
@@ -60,10 +60,10 @@ Die Indexierung wird verwendet, um mehrere zu versichernde Summen, wie beispiels
 6. Prüfen Sie die erstellten Posten und wählen Sie dann die Aktion **Buchen** aus, um das Buch.-Blatt zu buchen.
 
     > [!TIP]  
->   Falls die Indexzahlen nur für die Simulation verwendet werden, können Sie ein spezielles AfA-Buch dafür erstellen. Dann haben diese Posten keinen Einfluss auf andere AfA-Bücher.
+    >   Falls die Indexzahlen nur für die Simulation verwendet werden, können Sie ein spezielles AfA-Buch dafür erstellen. Dann haben diese Posten keinen Einfluss auf andere AfA-Bücher.
 
-   ## <a name="to-post-additional-acquisition-costs"></a>So buchen Sie zusätzliche Anschaffungskosten
-   Sie können zusätzliche Anschaffungskosten einer Anlage auf die gleiche Art buchen, auf die Sie die ursprünglichen Anschaffungskosten gebucht haben: aus einer Einkaufsrechnung oder aus einem Anlagen Buch.-Blatt. Weitere Informationen finden Sie unter [Anschaffen von Anlagen](fa-how-acquire.md).  
+## <a name="to-post-additional-acquisition-costs"></a>So buchen Sie zusätzliche Anschaffungskosten
+Sie können zusätzliche Anschaffungskosten einer Anlage auf die gleiche Art buchen, auf die Sie die ursprünglichen Anschaffungskosten gebucht haben: aus einer Einkaufsrechnung oder aus einem Anlagen Buch.-Blatt. Weitere Informationen finden Sie unter [Anschaffen von Anlagen](fa-how-acquire.md).  
 
 Falls bereits AfA für die Anlage berechnet wurde, aktivieren Sie das Kontrollkästchen **Rückw. AfA-Korr. b. Anschaff.**, damit die zusätzlichen Anschaffungskosten abzüglich des Restwertes proportional zu dem Betrag abgeschrieben werden, der für angeschaffte Anlage bereits abgeschrieben worden ist. Dies stellt sicher, dass die AfA Periode nicht geändert wird.  
 
@@ -120,6 +120,6 @@ Falls Sie das Kontrollkästchen **AfA bis Anlagedatum** aktiviert haben, würde 
 [Anlagen](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
 [Finanzen](finance.md)  
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 198bd85853ac0cfb4501c412237e9192c55dbc30
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7fd6588adb1a7d2dff268d0a8e73c168ca24ff1d
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

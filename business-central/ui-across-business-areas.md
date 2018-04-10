@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/02/2018
+ms.date: 03/20/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eb0b77de0be1ac9d86750bf406f0ef2a6e9770df
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fe75b81e2eae2520c6952cf1751ee4259eb3fb68
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -28,6 +28,7 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 
 | An | Siehe |
 | --- | --- |
+|Laufende, gebuchte oder archivierte Belege anzeigen, die sich auf Verkäufe und Bestellzeilen beziehen.|[Nachverfolgen von Belegzeilen](across-how-to-track-document-lines.md)|
 | Teilen Sie die Inhalte von Geschäftsbelegen schnell mit Ihren Geschäftspartnern, wie Zahlungsinformationen über Verkaufsbelege an Debitoren. |[Senden von Belegen als E-Mail](ui-how-send-documents-email.md) |
 | Einrichten von Standardtextcodes, sodass Standardtext durch Hinzufügen weiterer Zeilen erweitert werden kann, und Einrichten von Bedingungen für die Verwendung der zusätzlichen Zeilen |[Erweiterte Textbausteine definieren](ui-how-define-ext-text.md) |
 |Sie können Aufgaben erstellen, die Sie an Arbeit erinnern, die durchgeführt werden muss. Sie können Aufgaben für sich selbst erstellen, aber Sie können auch Aufgaben an Andere zuweisen oder Ihnen kann von jemand anderem in Ihrer Organisation eine Aufgabe zugewiesen werden.|[Benutzeraufgaben definieren](across-user-tasks.md)|

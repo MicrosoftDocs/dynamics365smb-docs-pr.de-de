@@ -11,8 +11,8 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 82447508b12c4f158cb3fc5e257576e14ef284b4
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d5ae63043a6f296de22f71c401a5686f970ad3a0
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

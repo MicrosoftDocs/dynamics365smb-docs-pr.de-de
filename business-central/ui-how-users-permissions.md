@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/08/2018
+ms.date: 03/16/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 602c429733104a792a49f4a7f38e2a3090420c9d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 6d350a064f134c4c29938005fea966dec7cca142
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich
 4. Füllen Sie im Inforegister **Benutzer-Berechtigungssatz** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-group-users-in-user-groups"></a>Um Benutzer in Benutzergruppen zu ordnen
-Sie können Benutzergruppen einrichten, um Ihnen zu helfen, Berechtigungssätze für Benutzergruppen in Ihrem Unternehmen zu verwalten. Sie können eine Funktion verwenden, um alle Berechtigungssätze einer vorhandenen Benutzergruppe der neuen Benutzergruppe zu kopieren. Benutzergruppenelemente werden nicht kopiert.
+Sie können Benutzergruppen einrichten, um Ihnen zu helfen, Berechtigungssätze für Benutzergruppen in Ihrem Unternehmen zu verwalten.
 
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.
 2. Wählen Sie im Fenster **Benutzer** die Aktion **Benutzergruppen** aus.
@@ -44,6 +44,17 @@ Sie können Benutzergruppen einrichten, um Ihnen zu helfen, Berechtigungssätze 
 6. Wählen Sie im Fenster **Benutzergruppenmitglieder** die Aktion **Benutzer hinzufügen** aus.
 7. Um neue oder zusätzliche Benutzer im Fenster **Benutzergruppe** hinzuzufügen, wählen Sie die **Benutzergruppenmitglieder** Aktion aus.
 8. Im Fenster **Benutzergruppenmitglieder** in einer neuen Zeile, füllen Sie die Felder wie notwendig aus bestehenden Berechtigungssätzen auswählen.
+
+## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>So kopieren Sie eine Benutzergruppe und all seine Zugriffsrechtsätze
+Zur schnellen Definition einer neuen Benutzergruppe können Sie eine Funktion verwenden, um alle Berechtigungssätze einer vorhandenen Benutzergruppe zur neuen Benutzergruppe zu kopieren.
+
+Die Mitglieder der Benutzergruppe werden nicht in die neue Benutzergruppe kopiert. Sie müssen sie hinterher manuell hinzufügen.
+
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.
+2. Wählen Sie die Benutzergruppe aus, die Sie kopieren möchten, und wählen Sie **Benutzergruppe kopieren** aus.
+3. Im Feld **Neuer Benutzergruppencode** geben Sie einen Namen für die Gruppe an. Wählen Sie dann die Schaltfläche **OK** aus.
+
+Die neue Benutzergruppe wird dem Fenster **Benutzergruppen** hinzugefügt. Fahren Sie fort, um Benutzer hinzuzufügen. Weitere Informationen finden Sie im Abschnitt „So ordnen Sie Benutzer in Benutzergruppen“.
 
 ## <a name="to-set-up-user-time-constraints"></a>So richten Sie Zeiteinschränkungen ein
 Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definieren, in denen die angegebenen Benutzer Buchungen durchführen können. Außerdem können sie angeben, ob die Zeitdauer erfasst, während der angegebene Benutzer angemeldet sind. Administratoren können Benutzern Zuständigkeitseinheiten zuordnen. Weitere Informationen finden Sie unter [Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md).
@@ -55,7 +66,7 @@ Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definie
 
 ## <a name="see-also"></a>Siehe auch
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
-[Einrichtung und Verwaltung in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Verwaltung](admin-setup-and-administration.md)  
+[Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

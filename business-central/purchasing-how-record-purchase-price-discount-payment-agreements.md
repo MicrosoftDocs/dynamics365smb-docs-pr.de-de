@@ -11,8 +11,8 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 07/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825eeda4c7f22c74b7c914fda16b2f79f3672700
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 021eac95fe22cfb37a6eaf851a5da11fd3ce9d30
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

@@ -11,8 +11,8 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d83cf02ebfdb45479343b65cd777b8918fc5097d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 98d7215b4d8ae476fbc550ea0057e6f71a00a5fd
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

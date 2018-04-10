@@ -11,8 +11,8 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 06/16/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b2ee62429f215792f7cf8a651e4a2ce3c1c60a4d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 52ed67b2f2e08cbb2f4104c2b0c26f662212a9f4
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

@@ -13,8 +13,8 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 00629240e565da65ccc7d213d0e24cfebf33fac6
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 49957527ab1b0217dab151463ccf983c5eeac7a1
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -72,8 +72,8 @@ Dieser Abschnitt bietet eine Problemumgehung für die typischsten Probleme, die 
 Vergewissern Sie sich, dass die Berichtsgröße auf 325 Pixel x 310 Pixel festgelegt wird. Speichern Sie den Bericht, und aktualisieren Sie anschließend die Seite.  
 
 ## <a name="see-also"></a>Siehe auch
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] Financials als Power BI Datenquelle nutzen](across-how-use-financials-data-source-powerbi.md)  
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)    
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-use-financials-data-source-powerbi.md)Financials als Power BI Datenquelle nutzen  
+[Erste Schritte](product-get-started.md)    
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Finanzen](finance.md)  
 

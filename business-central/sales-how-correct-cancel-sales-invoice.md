@@ -11,8 +11,8 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9397574b6f39092550f6ba097783e3ffa15b8992
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 2843f17350eeb09b594f68590bf61fbf812fa644
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

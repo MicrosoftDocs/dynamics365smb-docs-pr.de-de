@@ -11,8 +11,8 @@ ms.search.keywords: move, warehouse
 ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bb5f0f546340230aa65f5ba73496994471dd49aa
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 6f83607606d79d894cbe8f154566b9fe7a65a94c
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

@@ -11,8 +11,8 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b72de70da67a7401bad90bd55d1a31a1ae6d880
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -101,7 +101,7 @@ Wenn Sie einen Anmeldung fehlgeschlagen-Fehler erhalten, wenn Sie mit Ihren [!IN
 * Die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Instanz mit der Sie eine Verbindung herstellen wollen hat kein gültiges SSL-Zertifikat. In diesem Fall wir eine detailliertere Fehlermeldung angezeigt ("Vertrauenswürdiges SSL-Beziehung kann nicht erstellt werden").
 
     > [!NOTE]  
->   Selbstsignierte Zertifikate werden nicht unterstützt.  
+    >   Selbstsignierte Zertifikate werden nicht unterstützt.  
 
 **"Oops"**  
 Wenn Sie ein Oops "-Fehlerdialogfeld" erhalten, nachdem Sie das Authentifizierungsdialogfeld abgeschlossen haben, wird dieses am häufigsten durch ein Problem mit der Verbindung zu den Daten für das Inhaltspaket verursacht.
@@ -118,7 +118,7 @@ Wenn Sie ein Oops "-Fehlerdialogfeld" erhalten, nachdem Sie das Authentifizierun
 
 ## <a name="see-also"></a>Siehe auch
 [Business Intelligence](bi.md)  
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Erste Schritte](product-get-started.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](upload-data.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-use-financials-data-source-powerbi.md)Financials als Power BI Datenquelle nutzen  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-use-financials-data-source-powerapps.md)Financials als Power BI Datenquelle nutzen  

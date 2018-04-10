@@ -12,8 +12,8 @@ ms.search.keywords: procurement
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c977747432a2fd919d74aae8f70b151e62da0fab
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 4823bcb9468630a19b274708d4309331242392f8
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

@@ -11,8 +11,8 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 09759cc8538e0870c0801df73e9c869a0cab4b34
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 5e21330cd7adc97da9023da7b18944a9f0450b8e
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

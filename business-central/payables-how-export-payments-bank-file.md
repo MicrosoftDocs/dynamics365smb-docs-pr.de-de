@@ -11,8 +11,8 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 706ebc016feae6ec5db40c0efc006a6e6e771c4c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 88406936af640a2ec31f099fcae8bf039b64ecf3
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

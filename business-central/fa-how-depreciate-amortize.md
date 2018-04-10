@@ -11,8 +11,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8d2d583ca649488f9a506362386a511743ed661b
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7521ded4e0857090cfa85c30d0f48af5ee36233
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

@@ -11,8 +11,8 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 08f1e6c446e60d7b0ff6876f568f31278ed23287
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

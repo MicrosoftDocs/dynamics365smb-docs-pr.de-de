@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 11/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3b2e2dcd7e52aaf9d347f5d20210bc4cf18cd864
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d22de15b3e91897a209a31d03a63fb7d927d2f96
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -63,5 +63,5 @@ https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'
 ```  
 
 ## <a name="see-also"></a>Siehe auch  
-[Einrichtung und Verwaltung](admin-setup-and-administration.md)  
+[Verwaltung](admin-setup-and-administration.md)  
 

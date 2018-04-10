@@ -12,8 +12,8 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dec2aada89de747f9f95245f0217fb50da370840
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 60ee3c2226e45bb904d91243c861a2d747447abc
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 

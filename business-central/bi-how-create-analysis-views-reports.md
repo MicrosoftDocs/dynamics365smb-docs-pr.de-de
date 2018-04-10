@@ -1,8 +1,6 @@
 ---
 title: Erstellen Sie Analyseberichte| Microsoft Docs
 description: "Beschreibt, wie neue Analyseberichte für Verkauf, Einkauf und Lager erstellt und Analysevorlagen eingerichtet werden."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 622323cd0df894c2cb8a55c6fdfe29a81934af05
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -69,9 +67,8 @@ Eine Vorlage enthält eine Gruppe von Zeilen, wobei jede Zeile eine Analysespalt
 4. Füllen Sie die Felder im Fenster **Analysespalten** aus, um die Spalten zu bestimmen, die der Analysebericht enthalten soll.  
 
     > [!NOTE]  
->   Um eine Spalte zu definieren, müssen Sie das Feld **Analysenartcode** für alle Spaltentypen außer **Formel** ausfüllen. Sie richten die Analysetypcodes im Fenster **Analysearten** ein.  
-
-    **Hinweis**. Wenn Sie im Feld **Postenart** die Option **Artikelposten** auswählen, werden die aktuellen Zahlen aus dem Artikelposten kopiert. Wenn Sie **Artikelbudgetposten** auswählen, werden die budgetierten Zahlen aus dem Budget kopiert.  
+    >   Um eine Spalte zu definieren, müssen Sie das Feld **Analysenartcode** für alle Spaltentypen außer **Formel** ausfüllen. Sie richten die Analysetypcodes im Fenster **Analysearten** ein.  
+    Wenn Sie zudem im Feld **Postenart** die Option **Artikelposten** auswählen, werden die aktuellen Zahlen aus dem Artikelposten kopiert. Wenn Sie **Artikelbudgetposten** auswählen, werden die budgetierten Zahlen aus dem Budget kopiert.  
 5.  Klicken Sie auf die Schaltfläche **OK**, um die Änderungen zu speichern.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Analysenzeilenvorlagen einrichten:  

@@ -11,8 +11,8 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 07/12/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 49ecd7944fafd11644cf0665ab86e3490390f125
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fe2ebe89310465f11561fbb1d0baed23b8241639
 ms.contentlocale: de-de
 ms.lasthandoff: 03/22/2018
 
@@ -96,7 +96,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 
 ## <a name="see-also"></a>Siehe auch
 [Assistive Funktionen](ui-accessibility.md)  
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.md)  
 
