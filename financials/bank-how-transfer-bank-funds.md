@@ -13,10 +13,10 @@ ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d3bd448ef67f742794e3a162bd828e38366775bb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f19fbdd0f0059e62080d0076bdc419712560d4f2
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="transfer-bank-funds"></a><span data-ttu-id="f4846-103">Bank-Geldmittel überweisen</span><span class="sxs-lookup"><span data-stu-id="f4846-103">Transfer Bank Funds</span></span>
@@ -49,7 +49,7 @@ ms.lasthandoff: 03/22/2018
 12. <span data-ttu-id="f4846-133">Im Feld **Gegenkontonr.** wählen Sie das Bankkonto aus, von dem Sie die Beträge überweisen möchten.</span><span class="sxs-lookup"><span data-stu-id="f4846-133">In the **Bal. Account No.** field, select the bank account from which you want to transfer the funds.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="f4846-134">Wenn die im Buch.-Blatt verwendeten Wechselkurse von den Wechselkursen im Fenster **Währungswechselkurse** abweichen, geben Sie eine dritte Zeile für den Wechselkursgewinn oder -verlust ein.</span><span class="sxs-lookup"><span data-stu-id="f4846-134">If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss.</span></span> <span data-ttu-id="f4846-135">Geben Sie **Sachkonto** im Feld **Kontoart** ein.</span><span class="sxs-lookup"><span data-stu-id="f4846-135">Enter **G/L Account** in the **Account Type** field.</span></span> <span data-ttu-id="f4846-136">Geben Sie die Sachkontonummer für Wechselkursgewinn oder -verlust im Feld **Kontonr.** ein.</span><span class="sxs-lookup"><span data-stu-id="f4846-136">Enter the G/L account number for exchange rate gain or loss in the **Account No.** field.</span></span> <span data-ttu-id="f4846-137">Geben Sie den Wechselkursgewinn oder - verlust im Feld **Amount** mit oder ohne Minuszeichen jeweils für Soll- und Habenbeträge ein.</span><span class="sxs-lookup"><span data-stu-id="f4846-137">Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.</span></span>
+    >   <span data-ttu-id="f4846-134">Wenn die im Buch.-Blatt verwendeten Wechselkurse von den Wechselkursen im Fenster **Währungswechselkurse** abweichen, geben Sie eine dritte Zeile für den Wechselkursgewinn oder -verlust ein.</span><span class="sxs-lookup"><span data-stu-id="f4846-134">If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss.</span></span> <span data-ttu-id="f4846-135">Geben Sie **Sachkonto** im Feld **Kontoart** ein.</span><span class="sxs-lookup"><span data-stu-id="f4846-135">Enter **G/L Account** in the **Account Type** field.</span></span> <span data-ttu-id="f4846-136">Geben Sie die Sachkontonummer für Wechselkursgewinn oder -verlust im Feld **Kontonr.** ein.</span><span class="sxs-lookup"><span data-stu-id="f4846-136">Enter the G/L account number for exchange rate gain or loss in the **Account No.** field.</span></span> <span data-ttu-id="f4846-137">Geben Sie den Wechselkursgewinn oder - verlust im Feld **Amount** mit oder ohne Minuszeichen jeweils für Soll- und Habenbeträge ein.</span><span class="sxs-lookup"><span data-stu-id="f4846-137">Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.</span></span>
 13. <span data-ttu-id="f4846-138">Buchen Sie die Buch.-Blattzeile.</span><span class="sxs-lookup"><span data-stu-id="f4846-138">Post the journal.</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="f4846-139">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f4846-139">See Also</span></span>

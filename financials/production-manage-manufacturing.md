@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: e358e505977e2229ad7f7338fb22e0d8075b0aa9
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: aeef0cf47c6f83278313ccdb44aa94d4f1017b43
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="manufacturing"></a><span data-ttu-id="38c1a-103">Produktion</span><span class="sxs-lookup"><span data-stu-id="38c1a-103">Manufacturing</span></span>
@@ -50,6 +50,6 @@ ms.lasthandoff: 03/22/2018
 [<span data-ttu-id="38c1a-139">Einkauf</span><span class="sxs-lookup"><span data-stu-id="38c1a-139">Purchasing</span></span>](purchasing-manage-purchasing.md)  
 <span data-ttu-id="38c1a-140">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="38c1a-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

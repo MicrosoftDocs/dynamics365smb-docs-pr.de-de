@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7cb6c75fa8c232c017e662ee8f324a8639c44a16
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 2db5100b933c0c94a8fae15c33c2ba24aad2fcf9
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="register-new-vendors"></a><span data-ttu-id="43371-103">Registriert einen neuen Kreditor</span><span class="sxs-lookup"><span data-stu-id="43371-103">Register New Vendors</span></span>
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/22/2018
     <span data-ttu-id="43371-117">Wenn mehr als eine Kreditorenvorlage vorhanden ist, dann öffnet sich ein Fenster mit verfügbaren Kreditorenvorlagen automatisch.</span><span class="sxs-lookup"><span data-stu-id="43371-117">If more than one vendor template exists, then a window opens from which you can select a vendor template.</span></span> <span data-ttu-id="43371-118">In diesem Fall, folgen Sie den nächsten zwei Schritten.</span><span class="sxs-lookup"><span data-stu-id="43371-118">In that case, follow the next two steps.</span></span>
 3. <span data-ttu-id="43371-119">Wählen Sie im Fenster **Vorlage für neuen Kreditor auswählen** die Vorlage, die Sie für die neue Kreditorenkarte verwenden möchten.</span><span class="sxs-lookup"><span data-stu-id="43371-119">In the **Select a template for a new vendor** window, choose the template that you want to use for the new vendor card.</span></span>
 4. <span data-ttu-id="43371-120">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="43371-120">Choose the **OK** button.</span></span> <span data-ttu-id="43371-121">Eine neue Kreditorenkarte wird geöffnet mit einigen Feldern, die mit Daten aus der Vorlage ausgefüllt werden.</span><span class="sxs-lookup"><span data-stu-id="43371-121">A new vendor card opens with some fields filled with information from the template.</span></span>
-5. <span data-ttu-id="43371-122">Wenn nötig, fahren Sie mit dem Ausfüllen oder Ändern der Felder auf der Kreditorenkarte fort.</span><span class="sxs-lookup"><span data-stu-id="43371-122">Proceed to fill or change fields on the vendor card as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. <span data-ttu-id="43371-122">Wenn nötig, fahren Sie mit dem Ausfüllen oder Ändern der Felder auf der Kreditorenkarte fort.</span><span class="sxs-lookup"><span data-stu-id="43371-122">Proceed to fill or change fields on the vendor card as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   <span data-ttu-id="43371-123">Falls Sie nicht im Voraus wissen, ob eine bestimmte Rechnungsadresse für jede Rechnung eines Kreditoren verwendet wird, füllen Sie das Feld **Zahlung an Kred.-Nr.** auf der Kreditorenkarte nicht aus.</span><span class="sxs-lookup"><span data-stu-id="43371-123">If you do not know the invoicing address that will be used for every invoice from a vendor, do not fill in the **Pay-to** field.</span></span> <span data-ttu-id="43371-124">Geben Sie stattdessen die Zahlung-an Kred.-Nr. später ein, wenn Sie eine Einkaufsanfrage, -bestellung oder -rechnung erstellen.</span><span class="sxs-lookup"><span data-stu-id="43371-124">Instead, choose the pay-to vendor number after you have set up a purchase quote, order, or invoice header.</span></span>
@@ -47,7 +47,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a><span data-ttu-id="43371-128">So speichern Sie die Kreditorenkarte als Vorlage</span><span class="sxs-lookup"><span data-stu-id="43371-128">To save the vendor card as a template</span></span>
 1. <span data-ttu-id="43371-129">Wählen Sie im Fenster **Kreditorenkarte** die Aktion **Als Vorlage speichern** aus.</span><span class="sxs-lookup"><span data-stu-id="43371-129">In the **Vendor Card** window, choose the **Save as Template** action.</span></span> <span data-ttu-id="43371-130">Das Fenster **Kreditorenvorlage** wird geöffnet und zeigt die Kreditorenkarte als Vorlage.</span><span class="sxs-lookup"><span data-stu-id="43371-130">The **Vendor Template** window opens showing the vendor card as a template.</span></span>
-2. <span data-ttu-id="43371-131">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="43371-131">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="43371-131">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="43371-131">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="43371-132">Um Dimensionen in den Vorlagen wiederzuverwenden, wählen Sie die Aktion **Dimensionen**.</span><span class="sxs-lookup"><span data-stu-id="43371-132">To reuse dimensions in templates, choose the **Dimensions** action.</span></span> <span data-ttu-id="43371-133">Das Fenster **Dimensionen Vorlagenübersicht** wird geöffnet und zeigt alle Dimensionscodes, die für den Kreditor eingerichtet werden.</span><span class="sxs-lookup"><span data-stu-id="43371-133">The **Dimension Templates** window opens showing any dimension codes that are set up for the vendor.</span></span>
 4. <span data-ttu-id="43371-134">Bearbeiten Sie oder geben Sie Dimensionscodes ein, die für die neuen Kreditorenkarten gelten, die mit der Vorlage erstellt wurden.</span><span class="sxs-lookup"><span data-stu-id="43371-134">Edit or enter dimension codes that will apply to new vendor cards created by using the template.</span></span>
 5. <span data-ttu-id="43371-135">Wenn Sie die neue Kreditorvorlage abgeschlossen haben, klicken Sie auf die Schaltfläche **OK**.</span><span class="sxs-lookup"><span data-stu-id="43371-135">When you have completed the new vendor template, choose the **OK** button.</span></span>  

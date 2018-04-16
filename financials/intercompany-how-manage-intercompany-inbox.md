@@ -13,10 +13,10 @@ ms.search.keywords: incoming document
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: abeb3ee24434ca3549e7ed88ecfae54cc395002d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 446357ae219555e402fd30962071ec23c08b552d
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a><span data-ttu-id="79a31-103">Intercompany-Ein- und -Ausgangstransaktionen verwalten</span><span class="sxs-lookup"><span data-stu-id="79a31-103">Manage the Intercompany Inbox and Outbox</span></span>
@@ -69,7 +69,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="79a31-142">Wählen Sie in der rechten oberen Ecke ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Intercompany-Eingangstransaktionen** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="79a31-142">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="79a31-143">Wählen Sie im Fenster **Intercompany-Eingangstransaktionen** eine Zeile aus, und wählen Sie anschließend eine Aktion, wie **Akzeptieren** aus, um die Zeile zu verarbeiten.</span><span class="sxs-lookup"><span data-stu-id="79a31-143">In the **Intercompany Inbox Transactions** window, select a line, and then choose an action, such as **Accept**, to process the line.</span></span>
-3. <span data-ttu-id="79a31-144">Füllen Sie im Fenster **IC-Eingangsvorgang abschl.** die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="79a31-144">In the **Complete IC Inbox Action** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="79a31-144">Füllen Sie im Fenster **IC-Eingangsvorgang abschl.** die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="79a31-144">In the **Complete IC Inbox Action** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="79a31-145">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="79a31-145">Choose the **OK** button.</span></span>  
 
 <span data-ttu-id="79a31-146">Für Zeilen, die bei der Aktion **Akzeptieren** verarbeitet wurden, werden Beleg- oder Buch.-Blattzeilen in Ihrem Unternehmen erstellt.</span><span class="sxs-lookup"><span data-stu-id="79a31-146">For lines that you processed with the **Accept** action, document or journal lines will be created in your company.</span></span> <span data-ttu-id="79a31-147">Öffnen Sie die Belege oder Buch.-Blätter, nehmen Sie die erforderlichen Änderungen vor, und buchen Sie sie anschließend.</span><span class="sxs-lookup"><span data-stu-id="79a31-147">Open each document or journal, make any necessary changes, and then post them.</span></span>  

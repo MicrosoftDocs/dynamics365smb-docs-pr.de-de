@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7c5820db4d8aa65ddeddfd5ee27f0a7e89100abf
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ecb4bdc57f538a17a0149513cef1be318d131a9b
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a><span data-ttu-id="07ff8-103">Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen</span><span class="sxs-lookup"><span data-stu-id="07ff8-103">Create Recurring Sales and Purchase Lines</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-set-up-standard-sales-lines"></a><span data-ttu-id="07ff8-107">So richten Sie eine Standard-Verkaufszeile ein</span><span class="sxs-lookup"><span data-stu-id="07ff8-107">To set up standard sales lines</span></span>  
 1. <span data-ttu-id="07ff8-108">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Standardverkaufscode** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="07ff8-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Sales Codes**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="07ff8-109">Wählen Sie im Fenster **Standardverkaufszeile** die Aktion **Neu** aus.</span><span class="sxs-lookup"><span data-stu-id="07ff8-109">In the **Standard Sales Lines** window, choose the **New** action.</span></span>  
-3. <span data-ttu-id="07ff8-110">Füllen Sie im Inforegister **Allgemein** die notwendigen Felder aus.</span><span class="sxs-lookup"><span data-stu-id="07ff8-110">On the **General** FastTab, fill the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="07ff8-110">Füllen Sie im Inforegister **Allgemein** die notwendigen Felder aus.</span><span class="sxs-lookup"><span data-stu-id="07ff8-110">On the **General** FastTab, fill the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. <span data-ttu-id="07ff8-111">Im Inforegister **Zeilen** können Sie Informationen in die Felder eingeben, um Verkaufszeilen vorzubereiten, die die Standardzeilen widerspiegeln, von der Sie erwarten, wiederkehrende Zeilen in Einkaufsbelegen zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="07ff8-111">On the **Lines** FastTab, enter information in the fields to prepare sales lines that reflect the standard lines that you expect to use as recurring lines on sales documents.</span></span>  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a><span data-ttu-id="07ff8-112">Um auf einer Verkaufsrechnung Standardverkaufszeilen einfügen</span><span class="sxs-lookup"><span data-stu-id="07ff8-112">To insert standard sales lines on a sales invoice</span></span>

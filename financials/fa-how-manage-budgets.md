@@ -13,10 +13,10 @@ ms.search.keywords: forecast
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: aba6d1c433d20c5d2da1234df06503ca97cac061
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0c798fca44d9c57e38e5bb3f930e773d12b69636
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="manage-budgets-for-fixed-assets"></a><span data-ttu-id="ecb4e-103">Budgets für Anlagen verwalten</span><span class="sxs-lookup"><span data-stu-id="ecb4e-103">Manage Budgets for Fixed Assets</span></span>
@@ -39,7 +39,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="ecb4e-122">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Anlagen** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="ecb4e-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
 2. <span data-ttu-id="ecb4e-123">Wählen Sie die Anlage aus, die verkauft werden soll, und wählen Sie dann die Aktion **AfA-Bücher** aus.</span><span class="sxs-lookup"><span data-stu-id="ecb4e-123">Select the fixed asset to be disposed of, and then choose the **Depreciation Books** action.</span></span>
-3. <span data-ttu-id="ecb4e-124">Füllen Sie im Fenster **Anlagen-AfA-Bücher** die Felder **Erwartetes Abgangsdatum** und **Erwarteter Verkaufspreis** aus.</span><span class="sxs-lookup"><span data-stu-id="ecb4e-124">In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="ecb4e-124">Füllen Sie im Fenster **Anlagen-AfA-Bücher** die Felder **Erwartetes Abgangsdatum** und **Erwarteter Verkaufspreis** aus.</span><span class="sxs-lookup"><span data-stu-id="ecb4e-124">In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a><span data-ttu-id="ecb4e-125">So zeigen Sie geschätzte Verkaufswerte an</span><span class="sxs-lookup"><span data-stu-id="ecb4e-125">To view projected disposal values</span></span>
 <span data-ttu-id="ecb4e-126">Um sich die geschätzten Verkaufswerte anzeigen zu lassen und den entstehenden Gewinn oder Verlust zu berechnen, können Sie den Bericht **Anlagenvorschau** verwenden.</span><span class="sxs-lookup"><span data-stu-id="ecb4e-126">To see the projected disposal values and have the gain and loss calculated, you can use the **FA Projected Value** report.</span></span>

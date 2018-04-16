@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: c8d4ee33395c18cb7755fd1877b2af813fb9da43
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 7540467cdb958f82a64ca0097b365b09b2d1e947
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="warehouse-management"></a><span data-ttu-id="2897b-103">Logistik</span><span class="sxs-lookup"><span data-stu-id="2897b-103">Warehouse Management</span></span>
@@ -46,6 +46,6 @@ ms.lasthandoff: 03/22/2018
 [<span data-ttu-id="2897b-132">Designdetails: Logistik</span><span class="sxs-lookup"><span data-stu-id="2897b-132">Design Details: Warehouse Management</span></span>](design-details-warehouse-management.md)  
 <span data-ttu-id="2897b-133">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2897b-133">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

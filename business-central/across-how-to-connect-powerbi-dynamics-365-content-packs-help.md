@@ -10,11 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/03/2018
 ms.author: solsen
+redirect_url: admin-powerbi
 ms.translationtype: HT
-ms.sourcegitcommit: 9cad9c7e2b54506e60af7d38d42f413599a44d01
-ms.openlocfilehash: 7b9140611a47b8b823274763731cf000258c681e
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 1250408c181639475881ba7b59be11f55a99726e
 ms.contentlocale: de-de
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a><span data-ttu-id="fd977-103">Power BI mit den Dynamics 365 Business Central-Inhaltspaketen verbinden</span><span class="sxs-lookup"><span data-stu-id="fd977-103">Connecting Power BI to Dynamics 365 Business Central Content Packs</span></span>

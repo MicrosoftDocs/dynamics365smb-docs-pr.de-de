@@ -13,10 +13,10 @@ ms.search.keywords: email, PDF, electronic document
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 974e0567b1207eb3dd2204f1d90e9b65061cbc54
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f61203ba83b804257ba2cefad786534b83bb44f0
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-document-sending-profiles"></a><span data-ttu-id="6272e-103">Belegsendeprofile einrichten</span><span class="sxs-lookup"><span data-stu-id="6272e-103">Set Up Document Sending Profiles</span></span>
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-set-up-a-document-sending-profile"></a><span data-ttu-id="6272e-110">Einrichten von Belegsendeprofilen</span><span class="sxs-lookup"><span data-stu-id="6272e-110">To set up a document sending profile</span></span>
 1. <span data-ttu-id="6272e-111">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Dokumentsendeprofil** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="6272e-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Document Sending Profiles**, and then choose the related link.</span></span>
 2. <span data-ttu-id="6272e-112">Im Feld **Dokumentsendeprofile** wählen Sie die Aktion **Neu** aus.</span><span class="sxs-lookup"><span data-stu-id="6272e-112">In the **Document Sending Profiles** window, choose the **New** action.</span></span>
-3. <span data-ttu-id="6272e-113">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="6272e-113">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="6272e-113">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="6272e-113">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a><span data-ttu-id="6272e-114">Sendeprofil für eine Debitorenkarte festlegen</span><span class="sxs-lookup"><span data-stu-id="6272e-114">To specify a sending profile on a customer card</span></span>
 1. <span data-ttu-id="6272e-115">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kunden** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="6272e-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.</span></span>

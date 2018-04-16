@@ -13,10 +13,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 41f82da76989cd0e9367b4f19b69546304c6de6d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f7d9b5ef0192f0d66d50d4ba51f6e2c4d12a89f5
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a><span data-ttu-id="bdcca-103">Ändern oder Löschen einer unbezahlten Einkaufsrechnung</span><span class="sxs-lookup"><span data-stu-id="bdcca-103">Correct or Cancel Unpaid Purchase Invoices</span></span>
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="bdcca-115">Wählen Sie die gebuchte Einkaufsrechnung, die Sie korrigieren möchten.</span><span class="sxs-lookup"><span data-stu-id="bdcca-115">Select the posted purchase invoice that you want to correct.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="bdcca-116">Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.</span><span class="sxs-lookup"><span data-stu-id="bdcca-116">If the **Canceled** check box is selected, then you cannot correct the posted purchase invoice because it has already been corrected or canceled.</span></span>
+   >   <span data-ttu-id="bdcca-116">Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.</span><span class="sxs-lookup"><span data-stu-id="bdcca-116">If the **Canceled** check box is selected, then you cannot correct the posted purchase invoice because it has already been corrected or canceled.</span></span>
 3. <span data-ttu-id="bdcca-117">Im Fenster **Gebuchte Einkaufsrechnung** wählen Sie **Korrekt** aus.</span><span class="sxs-lookup"><span data-stu-id="bdcca-117">In the **Posted Purchase Invoice** window, choose **Correct**.</span></span>
 
     <span data-ttu-id="bdcca-118">Eine neue Verkaufsrechnung mit den gleichen Informationen wird erstellt, auf dem Sie die Korrektur machen können.</span><span class="sxs-lookup"><span data-stu-id="bdcca-118">A new purchase invoice with the same information is created where you can make the correction.</span></span> <span data-ttu-id="bdcca-119">Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="bdcca-119">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span> <span data-ttu-id="bdcca-120">Das Feld **Storniert** am Anfang gebuchten Einkaufsrechnung wird auf **Ja** geändert.</span><span class="sxs-lookup"><span data-stu-id="bdcca-120">The **Canceled** field on the initial posted purchase invoice is changed to **Yes**.</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="bdcca-125">Wählen Sie die gebuchte Einkaufsrechnung, die Sie stornieren möchten.</span><span class="sxs-lookup"><span data-stu-id="bdcca-125">Select the posted purchase invoice that you want to cancel.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="bdcca-126">Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.</span><span class="sxs-lookup"><span data-stu-id="bdcca-126">If the **Canceled** check box is selected, then you cannot cancel the posted purchase invoice because it has already been canceled or corrected.</span></span>
+   >   <span data-ttu-id="bdcca-126">Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.</span><span class="sxs-lookup"><span data-stu-id="bdcca-126">If the **Canceled** check box is selected, then you cannot cancel the posted purchase invoice because it has already been canceled or corrected.</span></span>
 3. <span data-ttu-id="bdcca-127">Im Fenster **Gebuchte Einkaufsrechnung** wählen Sie **Stornieren** aus.</span><span class="sxs-lookup"><span data-stu-id="bdcca-127">In the **Posted Purchase Invoice** window, choose **Cancel**.</span></span>
 
     <span data-ttu-id="bdcca-128">Eine Korrekturverkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren.</span><span class="sxs-lookup"><span data-stu-id="bdcca-128">A purchase credit memo is automatically created and posted to void the initial posted purchase invoice.</span></span> <span data-ttu-id="bdcca-129">Das Feld **Storniert** am Anfang gebuchten Einkaufsrechnung wird auf **Ja** geändert.</span><span class="sxs-lookup"><span data-stu-id="bdcca-129">The **Canceled** field on the initial posted purchase invoice is changed to **Yes**.</span></span>

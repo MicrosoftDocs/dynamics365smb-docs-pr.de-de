@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0e79dcc4b9015a0b2ec37262048c2c98c192df5e
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="depreciation-methods"></a><span data-ttu-id="32f71-103">Abschreibungsmethoden</span><span class="sxs-lookup"><span data-stu-id="32f71-103">Depreciation Methods</span></span>
@@ -31,11 +31,11 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="32f71-111">Manuell</span><span class="sxs-lookup"><span data-stu-id="32f71-111">Manual</span></span>  
 
   > [!NOTE]  
->   <span data-ttu-id="32f71-112">Sie können diese Methode für Anlagen verwenden, die nicht abgeschrieben werden z. B. Land.</span><span class="sxs-lookup"><span data-stu-id="32f71-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="32f71-113">Sie müssen die Beschreibung im Anlagen Fibu Buch.-Blatt eingeben.</span><span class="sxs-lookup"><span data-stu-id="32f71-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="32f71-114">Die Stapelverarbeitung **Abschreibung berechnen** berücksichtigt keine Anlagen mit dieser Abschreibungs-Methode.</span><span class="sxs-lookup"><span data-stu-id="32f71-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
+  >   <span data-ttu-id="32f71-112">Sie können diese Methode für Anlagen verwenden, die nicht abgeschrieben werden z. B. Land.</span><span class="sxs-lookup"><span data-stu-id="32f71-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="32f71-113">Sie müssen die Beschreibung im Anlagen Fibu Buch.-Blatt eingeben.</span><span class="sxs-lookup"><span data-stu-id="32f71-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="32f71-114">Die Stapelverarbeitung **Abschreibung berechnen** berücksichtigt keine Anlagen mit dieser Abschreibungs-Methode.</span><span class="sxs-lookup"><span data-stu-id="32f71-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
 * <span data-ttu-id="32f71-115">US-Halbjahresregel</span><span class="sxs-lookup"><span data-stu-id="32f71-115">Half-Year Convention</span></span>  
 
   > [!NOTE]  
->    <span data-ttu-id="32f71-116">Wenn diese Methode verwendet wird, wird eine Anlage jedes Jahr mit dem gleichen Betrag abgeschrieben.</span><span class="sxs-lookup"><span data-stu-id="32f71-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
+  >    <span data-ttu-id="32f71-116">Wenn diese Methode verwendet wird, wird eine Anlage jedes Jahr mit dem gleichen Betrag abgeschrieben.</span><span class="sxs-lookup"><span data-stu-id="32f71-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
 
 ## <a name="straight-line-depreciation"></a><span data-ttu-id="32f71-117">Lineare Abschreibung</span><span class="sxs-lookup"><span data-stu-id="32f71-117">Straight-Line Depreciation</span></span>
 <span data-ttu-id="32f71-118">Wenn Sie die Methode "Linear" verwenden, müssen Sie eine der folgenden Optionen im Anlagen-AfA-Buch angeben:</span><span class="sxs-lookup"><span data-stu-id="32f71-118">When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:</span></span>  
@@ -233,7 +233,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="32f71-438">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite und Bericht suchen") und geben **AfA-Tabellen** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="32f71-438">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="32f71-439">Im Feld **AfA-Tabelle Übersicht** wählen Sie die Aktion **Neu** aus.</span><span class="sxs-lookup"><span data-stu-id="32f71-439">In the **Depreciation Table List** window, choose the **New** action.</span></span>  
-3. <span data-ttu-id="32f71-440">Füllen Sie im Fenster **AfA-Tabelle - Karte** die Felder wie benötigt aus.</span><span class="sxs-lookup"><span data-stu-id="32f71-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="32f71-440">Füllen Sie im Fenster **AfA-Tabelle - Karte** die Felder wie benötigt aus.</span><span class="sxs-lookup"><span data-stu-id="32f71-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a><span data-ttu-id="32f71-441">Beispiel - Benutzerdefinierte AfA</span><span class="sxs-lookup"><span data-stu-id="32f71-441">Example - User-defined Depreciation</span></span>
 <span data-ttu-id="32f71-442">Sie verwenden eine Abschreibungsmethode, die es Ihnen erlaubt, Anlagen für steuerliche Zwecke schneller abzuschreiben.</span><span class="sxs-lookup"><span data-stu-id="32f71-442">You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.</span></span>  

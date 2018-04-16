@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: d59c00f7a00854639250ae587805dece50fd1d78
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 4a529d426fbc8da5aab75d308434ba58e5800186
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="managing-payables"></a><span data-ttu-id="4d95b-103">Verwalten von Verbindlichkeiten</span><span class="sxs-lookup"><span data-stu-id="4d95b-103">Managing Payables</span></span>
@@ -42,6 +42,6 @@ ms.lasthandoff: 03/22/2018
 [<span data-ttu-id="4d95b-130">Allgemeine Geschäftsfunktionen</span><span class="sxs-lookup"><span data-stu-id="4d95b-130">General Business Functionality</span></span>](ui-across-business-areas.md)  
 <span data-ttu-id="4d95b-131">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4d95b-131">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

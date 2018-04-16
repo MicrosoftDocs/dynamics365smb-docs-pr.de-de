@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c60084194191f958c3eac501141a52c6b32595b1
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-sales-opportunities"></a><span data-ttu-id="f5883-103">Verkaufschancen erstellen</span><span class="sxs-lookup"><span data-stu-id="f5883-103">Create Sales Opportunities</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 1. <span data-ttu-id="f5883-111">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="f5883-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.</span></span>
 2. <span data-ttu-id="f5883-112">Wählen Sie den Verkäufer aus, für den eine Verkaufschance erstellt werden soll.</span><span class="sxs-lookup"><span data-stu-id="f5883-112">Select the salesperson from the list for whom you want to create an opportunity.</span></span>
 3. <span data-ttu-id="f5883-113">Wählen Sie die **Verkaufschancen**-Aktion aus, und wählen Sie dann **Übersicht**.</span><span class="sxs-lookup"><span data-stu-id="f5883-113">Choose the **Opportunities** action, and then choose **List**.</span></span>
-4. <span data-ttu-id="f5883-114">Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus.</span><span class="sxs-lookup"><span data-stu-id="f5883-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. <span data-ttu-id="f5883-114">Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus.</span><span class="sxs-lookup"><span data-stu-id="f5883-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 21f4a6fc048688858cad77fb3d306fb39bd5620c
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 3852ca5399a932705216fe6089644838aa56d26b
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="service-order-status-and-repair-status"></a><span data-ttu-id="10662-104">Serviceauftragsstatus und Reparaturstatus</span><span class="sxs-lookup"><span data-stu-id="10662-104">Service Order Status and Repair Status</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="10662-110">Den Serviceauftragsstatus, mit dem jeder Reparaturstatus verknüpft ist.</span><span class="sxs-lookup"><span data-stu-id="10662-110">The service order status that each repair status is linked to.</span></span> <span data-ttu-id="10662-111">Weitere Informationen finden Sie unter Serviceauftrag einrichten.</span><span class="sxs-lookup"><span data-stu-id="10662-111">For more information, see Service Order Status.</span></span>  
 * <span data-ttu-id="10662-112">Die Prioritätsstufe jeder Serviceauftragsstatus Option.</span><span class="sxs-lookup"><span data-stu-id="10662-112">The level of priority of each service order status option.</span></span> <span data-ttu-id="10662-113">Weitere Informationen finden Sie unter Priorität</span><span class="sxs-lookup"><span data-stu-id="10662-113">For more information, see Priority.</span></span>  
   
- <span data-ttu-id="10662-114">Wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln, wird der Reparaturstatus der einzelnen Serviceartikel in dem Serviceauftrag in **Anfang** und der Serviceauftragsstatus in **Offen** geändert.</span><span class="sxs-lookup"><span data-stu-id="10662-114">When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.</span></span>  
+  <span data-ttu-id="10662-114">Wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln, wird der Reparaturstatus der einzelnen Serviceartikel in dem Serviceauftrag in **Anfang** und der Serviceauftragsstatus in **Offen** geändert.</span><span class="sxs-lookup"><span data-stu-id="10662-114">When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.</span></span>  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a><span data-ttu-id="10662-115">Serviceauftragsstatus für Reparaturstatusoptionen festlegen</span><span class="sxs-lookup"><span data-stu-id="10662-115">Specifying Service Order Status for Repair Status</span></span>  
 <span data-ttu-id="10662-116">Jeder Reparaturstatus ist mit einem bestimmten Serviceauftragsstatus verknüpft.</span><span class="sxs-lookup"><span data-stu-id="10662-116">Each repair status is linked to a particular service order status.</span></span> <span data-ttu-id="10662-117">Die Optionen für den Serviceauftragsstatus sind **Offen**, **In Bearbeitung**, **Warten** und **Erledigt**.</span><span class="sxs-lookup"><span data-stu-id="10662-117">The options for the service order status are as follows: **Pending**, **In Process**, **On Hold**, and **Finished**.</span></span> <span data-ttu-id="10662-118">Die Optionen für den Reparaturstatus sind **Anfangsstatus**, **Angebot erstellt**, **Ersatzteil bestellt**, **Ersatzteil erhalten**, **Service ist erledigt**, **Service in Bearbeitung**, **Unvollständig bearbeitet**, **Warten auf Debitor** und **Weitergeleitet**.</span><span class="sxs-lookup"><span data-stu-id="10662-118">The repair status options are as follows: **Initial**, **In Process**, **Referred**, **Partly Serviced**, **Quote Finished**, **Waiting for Customer**, **Spare Part Ordered**, **Spare Part Received**, and **Finished**.</span></span>  

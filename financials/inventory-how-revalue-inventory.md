@@ -13,10 +13,10 @@ ms.search.keywords: costing, inventory cost, value entries
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8460dac8478fa101a255d93110578fa9ea20516f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 6307db87dd8c637f45697735fb223c4db5e073a2
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="revalue-inventory"></a><span data-ttu-id="bcb57-103">Neubewerten von Lagerbestand</span><span class="sxs-lookup"><span data-stu-id="bcb57-103">Revalue Inventory</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-revalue-inventory"></a><span data-ttu-id="bcb57-105">Neubewerten von Lagerbestand</span><span class="sxs-lookup"><span data-stu-id="bcb57-105">To revalue inventory</span></span>
 1. <span data-ttu-id="bcb57-106">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Neubewertung Buch.-Blatt** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="bcb57-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Revaluation Journal**, and then choose the related link.</span></span>
 2. <span data-ttu-id="bcb57-107">Wählen Sie die Aktion **Lagerwert berechnen** aus.</span><span class="sxs-lookup"><span data-stu-id="bcb57-107">Choose the **Calculate Inventory Value** action.</span></span>
-3. <span data-ttu-id="bcb57-108">Füllen Sie im Fenster **Lagerwert berechnen** die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="bcb57-108">In the **Calculate Inventory Value** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="bcb57-108">Füllen Sie im Fenster **Lagerwert berechnen** die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="bcb57-108">In the **Calculate Inventory Value** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="bcb57-109">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="bcb57-109">Choose the **OK** button.</span></span>
 5. <span data-ttu-id="bcb57-110">In jeder Zeile im Fenster **Neubewertungs-Blatt-Blatt** im Feld **Einheitskosten (neu bewertet)** geben Sie den neuen Einstandspreis ein.</span><span class="sxs-lookup"><span data-stu-id="bcb57-110">On each line in the **Revaluation Journal** window, in the **Unit Cost (Revalued)** field, enter the new unit cost.</span></span> <span data-ttu-id="bcb57-111">Oder geben Sie den Gesamtbetrag im Feld **Lagerwert (neu bewertet)** ein.</span><span class="sxs-lookup"><span data-stu-id="bcb57-111">Alternatively, enter the new total amount in the **Inventory Value (Revalued)** field.</span></span>
 

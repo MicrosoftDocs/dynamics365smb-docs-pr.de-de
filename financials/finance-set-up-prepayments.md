@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 15/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 66c5d81fd7c3517b42930f53b81e06a3583aeb3d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c0cf2dd3e7b8dc4830dc333a5d0f5550bb22a51b
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-prepayments"></a><span data-ttu-id="7495c-106">Vorauszahlungen einrichten</span><span class="sxs-lookup"><span data-stu-id="7495c-106">Set Up Prepayments</span></span>
@@ -59,7 +59,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="7495c-138">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="7495c-138">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>
 2. <span data-ttu-id="7495c-139">Wählen Sie eien Artikel aus und wählen Sie dann die Aktion **Vorauszahlungsprozentsätze** aus.</span><span class="sxs-lookup"><span data-stu-id="7495c-139">Select an item, and then choose the **Prepayment Percentages** action.</span></span>  
-3. <span data-ttu-id="7495c-140">Füllen Sie im Fenster **Verkaufsvorauszahlungs-Prozentsätze** die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="7495c-140">In the **Sales Prepayment Percentages** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="7495c-140">Füllen Sie im Fenster **Verkaufsvorauszahlungs-Prozentsätze** die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="7495c-140">In the **Sales Prepayment Percentages** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 <span data-ttu-id="7495c-141">Für einen Debitor oder Kreditor können Sie einen standardmäßigen Vorauszahlungsprozentsatz für alle Artikel und alle Arten von Verkaufszeilen einrichten.</span><span class="sxs-lookup"><span data-stu-id="7495c-141">For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines.</span></span> <span data-ttu-id="7495c-142">Dies geben Sie auf der Debitoren- oder Kreditorenkarte ein.</span><span class="sxs-lookup"><span data-stu-id="7495c-142">You enter this on the customer or vendor card.</span></span>
 

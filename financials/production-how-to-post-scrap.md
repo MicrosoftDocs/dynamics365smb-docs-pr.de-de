@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8c506afa1f476de9413e2cf422991710dd981b0d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 8593eb5e4986a99176efb70652c754460387f185
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="post-scrap-manually"></a><span data-ttu-id="8711f-104">Ausschuss manuell buchen</span><span class="sxs-lookup"><span data-stu-id="8711f-104">Post Scrap Manually</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-post-scrap-manually"></a><span data-ttu-id="8711f-107">Ausschuss manuell buchen</span><span class="sxs-lookup"><span data-stu-id="8711f-107">To post scrap manually</span></span>  
 1. <span data-ttu-id="8711f-108">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Ausgabe-Buchblatt** ein und wählen den zugehörenden Link aus.</span><span class="sxs-lookup"><span data-stu-id="8711f-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Output Journal**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="8711f-109">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="8711f-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. <span data-ttu-id="8711f-109">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="8711f-109">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. <span data-ttu-id="8711f-110">Geben Sie im Feld **Ausschussmenge** die Ausschussmenge ein.</span><span class="sxs-lookup"><span data-stu-id="8711f-110">In the **Scrapped Quantity** field, enter the scrap quantity.</span></span>  
 4. <span data-ttu-id="8711f-111">Geben Sie im Feld **Ausschusscode** den Ausschusscode ein.</span><span class="sxs-lookup"><span data-stu-id="8711f-111">In the **Scrap Code** field, enter the scrap code.</span></span>  
 5. <span data-ttu-id="8711f-112">Wählen Sie die **Buchen** Aktion aus, um die Zeit zu buchen, die je Arbeitsgang aufgewendet wurde.</span><span class="sxs-lookup"><span data-stu-id="8711f-112">Choose the **Post** action to post the specified scrap per operation.</span></span>  

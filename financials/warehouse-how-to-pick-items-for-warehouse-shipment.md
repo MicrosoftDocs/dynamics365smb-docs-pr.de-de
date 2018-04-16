@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5b73ac2ca4f1aa3bbb8c6514a8aafa39b3c76f99
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: acace21db7db675c2f7fb3362da49cca3ceb1fde
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a><span data-ttu-id="d8a98-103">Um Artikel für den Warenausgang zu kommissionieren</span><span class="sxs-lookup"><span data-stu-id="d8a98-103">Pick Items for Warehouse Shipment</span></span>
@@ -72,7 +72,7 @@ ms.lasthandoff: 03/22/2018
 
 > [!NOTE]
 > <span data-ttu-id="d8a98-145">In Kombinationsszenarien, in denen ein Teil der Menge zunächst montiert und ein anderer aus dem Lager geliefert werden muss, werden mindestens zwei Warenausgangszeilen erstellt.</span><span class="sxs-lookup"><span data-stu-id="d8a98-145">In combination scenarios, in which a part of the quantity must first be assembled and another must be shipped from inventory, two warehouse shipment lines are created.</span></span> <span data-ttu-id="d8a98-146">Eine für die Auftragsmontagemenge, und eine für die Lagermenge.</span><span class="sxs-lookup"><span data-stu-id="d8a98-146">One is for the assemble-to-order quantity, and one is for the inventory quantity.</span></span>
-
+> 
 > <span data-ttu-id="d8a98-147">In diesem Fall wird die Auftragsmontagemenge wie in diesem Thema beschrieben behandelt, und die Lagermenge wird wie jede andere reguläre Warenausgangszeile verarbeitet.</span><span class="sxs-lookup"><span data-stu-id="d8a98-147">In that case, the assemble-to-order quantity is handled as described in this topic, and the inventory quantity is handled as any other regular warehouse shipment line.</span></span> <span data-ttu-id="d8a98-148">Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).</span><span class="sxs-lookup"><span data-stu-id="d8a98-148">For more information about combination scenarios, see [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="d8a98-149">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="d8a98-149">See Also</span></span>  

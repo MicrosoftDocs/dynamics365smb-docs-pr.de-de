@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 26e144490fb5b33449643fe67bede8a96bc6079c
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="e1303-104">Ändern von Planungsvorschlägen in einer grafischen Ansicht</span><span class="sxs-lookup"><span data-stu-id="e1303-104">Modify Planning Suggestions in a Graphical View</span></span>
@@ -59,6 +59,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="e1303-148">Um die Beschaffungsplanänderungen zu übernehmen, müssen Sie den resultierenden Ereignismeldungen aus dem Planungs- oder Bestellvorschlag folgen.</span><span class="sxs-lookup"><span data-stu-id="e1303-148">To implement the supply plan changes, you must follow the resulting action messages from the planning or requisition worksheet.</span></span> <span data-ttu-id="e1303-149">Weitere Informationen finden Sie unter Carry Out Action Msg.Plan..</span><span class="sxs-lookup"><span data-stu-id="e1303-149">For more information, see Carry Out Action Msg.-Plan..</span></span>
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a><span data-ttu-id="e1303-150">Symbole und Bildsymbole im Inforegister "Zeitachse"</span><span class="sxs-lookup"><span data-stu-id="e1303-150">Symbols and Icons on the Timeline FastTab</span></span>
+
  |<span data-ttu-id="e1303-151">Symbol/Bildsymbol</span><span class="sxs-lookup"><span data-stu-id="e1303-151">Symbol/Icon</span></span>|<span data-ttu-id="e1303-152">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="e1303-152">Description</span></span>|  
  |------------------|---------------------------------------|  
  |<span data-ttu-id="e1303-153">Schwarzes Kreuz</span><span class="sxs-lookup"><span data-stu-id="e1303-153">Black cross</span></span>|<span data-ttu-id="e1303-154">Aufträge (Vorrat und Bedarf).</span><span class="sxs-lookup"><span data-stu-id="e1303-154">Orders (both supply and demand).</span></span><br /><br /> <span data-ttu-id="e1303-155">-   Kann nicht geändert werden.</span><span class="sxs-lookup"><span data-stu-id="e1303-155">-   Cannot be modified.</span></span><br /><span data-ttu-id="e1303-156">-   Sichtbar, wenn das Feld **Voraussichtlichen Lagerbestand anzeigen** ausgewählt wird (orangefarbenes Diagramm).</span><span class="sxs-lookup"><span data-stu-id="e1303-156">-   Visible when the **Show Projected Inventory** field is selected (orange graph).</span></span>|  

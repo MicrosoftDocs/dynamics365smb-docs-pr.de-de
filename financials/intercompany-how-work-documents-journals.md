@@ -13,10 +13,10 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 98e0d9012dfdd998431aaed8dade02f592af47c8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f7ae482ebc1d89bb925457ad5cbc3592d245933f
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a><span data-ttu-id="42a67-103">Arbeiten mit Intercompany-Belegen und Buch.-Blättern</span><span class="sxs-lookup"><span data-stu-id="42a67-103">Work with Intercompany Documents and Journals</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="42a67-115">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="42a67-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="42a67-116">Um neue Verkaufsaufträge zu erstellen, wählen Sie **Neu**.</span><span class="sxs-lookup"><span data-stu-id="42a67-116">Choose **New** to create a new sales order.</span></span> <span data-ttu-id="42a67-117">Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)</span><span class="sxs-lookup"><span data-stu-id="42a67-117">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>  
-3. <span data-ttu-id="42a67-118">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="42a67-118">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="42a67-118">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="42a67-118">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="42a67-119">Stellt sicher, dass er Kunde ein Intercompany-Partner ist.</span><span class="sxs-lookup"><span data-stu-id="42a67-119">Make sure the customer is an intercompany partner.</span></span>
 5. <span data-ttu-id="42a67-120">Um den Verkaufsauftrag zu senden, bevor Sie ihn buchen, wählen Sie die **IC Verkaufsauftrag senden** Aktion aus.</span><span class="sxs-lookup"><span data-stu-id="42a67-120">To send the sales order before you post it, choose the **Send IC Sales Order** action.</span></span>
 

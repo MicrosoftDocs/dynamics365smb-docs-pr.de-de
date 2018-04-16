@@ -13,10 +13,10 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 484d21ad14991d663de3e9c5491455fe60494a06
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 4569dd4f685d953c811cfc67ca34c7e00d42ba27
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="register-employees"></a><span data-ttu-id="80211-103">Erfassen eines Mitarbeiters</span><span class="sxs-lookup"><span data-stu-id="80211-103">Register Employees</span></span>
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-set-up-an-employee"></a><span data-ttu-id="80211-114">Einen Mitarbeiter einrichten:</span><span class="sxs-lookup"><span data-stu-id="80211-114">To set up an employee</span></span>
 1. <span data-ttu-id="80211-115">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mitarbeiter** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="80211-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.</span></span>
 2. <span data-ttu-id="80211-116">Wählen Sie die Aktion **Neu** aus.</span><span class="sxs-lookup"><span data-stu-id="80211-116">Choose the **New** action.</span></span>
-3. <span data-ttu-id="80211-117">Füllen Sie im Fenster **Mitarbeiterkarte** die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="80211-117">In the **Employee Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="80211-117">Füllen Sie im Fenster **Mitarbeiterkarte** die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="80211-117">In the **Employee Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a><span data-ttu-id="80211-118">Das Bild eines Mitarbeiters einfügen:</span><span class="sxs-lookup"><span data-stu-id="80211-118">To insert a picture of an employee</span></span>
 <span data-ttu-id="80211-119">Falls Ihnen ein Bild eines Mitarbeiters im .bmp Format vorliegt, können Sie dieses auf der Anlagenkarte einfügen.</span><span class="sxs-lookup"><span data-stu-id="80211-119">If you have a picture of an employee in .bmp format, you can insert it on the employee card.</span></span>

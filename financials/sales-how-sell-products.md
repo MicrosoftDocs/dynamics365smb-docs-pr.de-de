@@ -13,10 +13,10 @@ ms.search.keywords: trade
 ms.date: 03/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 7d1e9196e4fa4e24eb01f6a7f6b824e0c4f857ca
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 214edd3973930abf82f0fdf41347efa5f99f7f24
 ms.contentlocale: de-de
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="sell-products"></a><span data-ttu-id="b9bc6-103">Produkte verkaufen</span><span class="sxs-lookup"><span data-stu-id="b9bc6-103">Sell Products</span></span>
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/28/2018
 7. <span data-ttu-id="b9bc6-146">Wenn Sie die Debitorenkarte abgeschlossen haben, wählen Sie die Schaltfläche **OK**, um zum Fenster **Verkaufsangebot** zurückzugehen.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-146">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
     <span data-ttu-id="b9bc6-147">Felder im Verkaufsangebot werden mit den Informationen, die Sie festgelegt haben, in der neuen Debitorenkarte ausgefüllt.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-147">Several fields on the sales order are now filled with information that you specified on the new customer card.</span></span>
-8. <span data-ttu-id="b9bc6-148">Füllen Sie im Fenster **Verkaufsangebot** die Felder wie benötigt aus.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. <span data-ttu-id="b9bc6-148">Füllen Sie im Fenster **Verkaufsangebot** die Felder wie benötigt aus.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="b9bc6-149">Sie sind nun bereit, die Verkaufsangebotszeilen mit Lagerartikeln oder Services auszufüllen, die Sie an den Kunden verkaufen möchten.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-149">You are now ready to fill in the sales order lines with inventory items or services that you want to sell to the customer.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 03/28/2018
 10. <span data-ttu-id="b9bc6-152">Geben Sie in dem Feld **Menge** die Anzahl des Artikels an, der verkauft werden soll.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-152">In the **Quantity** field, enter the number of items to be sold.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="b9bc6-153">Für Artikel des Typs Service ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Einheit des Messcodes** der Zeile angegeben.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
+    >   <span data-ttu-id="b9bc6-153">Für Artikel des Typs Service ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Einheit des Messcodes** der Zeile angegeben.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
 
     <span data-ttu-id="b9bc6-154">Das Feld **Zeilenmenge** wird aktualisiert, um den Wert im Feld **Einheitspreis** multipliziert ist mit dem Wert im Feld **Menge** anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-154">The **Line Amount** field is updated to show the value in the **Unit Price** field multiplied by the value in the **Quantity** field.</span></span>
 
@@ -79,12 +79,12 @@ ms.lasthandoff: 03/28/2018
 14. <span data-ttu-id="b9bc6-163">Eine neue Debitorenkarte wird geöffnet, vorausgefüllt mit Informationen auf der ausgewählten Debitorenvorlage.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-163">A new customer card displays the information on the selected customer template.</span></span> <span data-ttu-id="b9bc6-164">Füllen Sie die restlichen Felder aus.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-164">Fill in the remaining fields.</span></span> <span data-ttu-id="b9bc6-165">Weitere Informationen finden Sie unter [Neue Kunden registrieren](sales-how-register-new-customers.md).</span><span class="sxs-lookup"><span data-stu-id="b9bc6-165">For more information, see [Register New Customers](sales-how-register-new-customers.md).</span></span>  
 15. <span data-ttu-id="b9bc6-166">Wenn Sie die Debitorenkarte abgeschlossen haben, wählen Sie die Schaltfläche **OK**, um zum Fenster **Verkaufsangebot** zurückzugehen.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-166">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
-   <span data-ttu-id="b9bc6-167">Felder im Verkaufsauftrag werden mit den Informationen, die Sie festgelegt haben, in der neuen Debitorenkarte ausgefüllt.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
-16. <span data-ttu-id="b9bc6-168">Füllen Sie im Fenster **Verkaufsangebot** die Felder wie benötigt aus.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    <span data-ttu-id="b9bc6-167">Felder im Verkaufsauftrag werden mit den Informationen, die Sie festgelegt haben, in der neuen Debitorenkarte ausgefüllt.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
+16. <span data-ttu-id="b9bc6-168">Füllen Sie im Fenster **Verkaufsangebot** die Felder wie benötigt aus.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   <span data-ttu-id="b9bc6-169">Sie können nun die Verkaufsauftragszeilen für Produkte füllen, die Sie an den Kunden oder für jede mögliche Transaktion mit dem Kunden verkaufen, den Sie im Sachkonto buchen möchten.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
+    <span data-ttu-id="b9bc6-169">Sie können nun die Verkaufsauftragszeilen für Produkte füllen, die Sie an den Kunden oder für jede mögliche Transaktion mit dem Kunden verkaufen, den Sie im Sachkonto buchen möchten.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
 
-   <span data-ttu-id="b9bc6-170">Wenn Sie wiederkehrende Verkaufszeilen für den Debitor wie einen Monatsersatzauftrag, eingerichtet haben, können Sie diese Zeilen auf der Rechnung durch Auswählen der Schaltfläche **Wiederkehrende Verkaufszeilen holen** einfügen.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
+    <span data-ttu-id="b9bc6-170">Wenn Sie wiederkehrende Verkaufszeilen für den Debitor wie einen Monatsersatzauftrag, eingerichtet haben, können Sie diese Zeilen auf der Rechnung durch Auswählen der Schaltfläche **Wiederkehrende Verkaufszeilen holen** einfügen.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
 17. <span data-ttu-id="b9bc6-171">Wählen Sie im Inforegister **Zeilen** im Feld **Art** aus, welche Art des Produkts, der Kosten oder der Transaktion Sie für den Debitor mit der Verkaufszeile buchen werden.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-171">On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.</span></span>
 18. <span data-ttu-id="b9bc6-172">Geben Sie im Feld **Nr.**</span><span class="sxs-lookup"><span data-stu-id="b9bc6-172">In the **No.**</span></span> <span data-ttu-id="b9bc6-173">Feld, einen Datensatz auswählen, um entsprechend dem Wert im Feld **Art** zu buchen.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-173">field, select a record to post according to the value in the **Type** field.</span></span>
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 03/28/2018
 19. <span data-ttu-id="b9bc6-180">Geben Sie im Feld **Menge** ein, wie viele Einheiten des Produkts, der Kosten oder der Transaktion, in der Zeile des Debitors gespeichert werden soll.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-180">In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="b9bc6-181">Für Artikel des Typs **Artikel - Service** oder **Ressource** ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Einheit des Messcodes** der Zeile angegeben.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="b9bc6-182">Weitere Informationen finden Sie unter [Einrichten von Einheiten](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="b9bc6-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
+    >   <span data-ttu-id="b9bc6-181">Für Artikel des Typs **Artikel - Service** oder **Ressource** ist die Menge eine Zeiteinheit wie Stunden, wie im Feld **Einheit des Messcodes** der Zeile angegeben.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="b9bc6-182">Weitere Informationen finden Sie unter [Einrichten von Einheiten](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="b9bc6-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
 
     <span data-ttu-id="b9bc6-183">Der Wert im Feld **Zeilenbetrag** Feld wird als *VK-Preis* x *Menge* berechnet.</span><span class="sxs-lookup"><span data-stu-id="b9bc6-183">The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.</span></span>  
 

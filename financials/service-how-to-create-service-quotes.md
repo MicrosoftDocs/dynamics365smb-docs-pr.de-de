@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c736ad945453d0723581b9926e2dc50f7805a53f
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-service-quotes"></a><span data-ttu-id="853a4-104">Serviceangebote erstellen</span><span class="sxs-lookup"><span data-stu-id="853a4-104">Create Service Quotes</span></span>
@@ -30,8 +30,8 @@ ms.lasthandoff: 03/22/2018
 3. <span data-ttu-id="853a4-112">Geben Sie im Feld **Nr.**</span><span class="sxs-lookup"><span data-stu-id="853a4-112">In the **No.**</span></span> <span data-ttu-id="853a4-113">eine Nummer für das Serviceangebot ein.</span><span class="sxs-lookup"><span data-stu-id="853a4-113">field, enter a number for the service quote.</span></span> <span data-ttu-id="853a4-114">Wenn Sie Nummernserien für Serviceangebote im Fenster **Service Einrichtung** definiert haben, drücken Sie die Eingabetaste, um die nächste verfügbare Serviceangebotsnummer auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="853a4-114">Alternatively, if you have set up a number series for service quotes in the **Service Mgt. Setup** window, you can press Enter to select the next available service quote number.</span></span>  
 4. <span data-ttu-id="853a4-115">Klicken Sie im Feld **Debitorennr.**</span><span class="sxs-lookup"><span data-stu-id="853a4-115">In the **Customer No.**</span></span>  <span data-ttu-id="853a4-116">Feld wählen Sie den relevanten Debitoren aus der Liste.</span><span class="sxs-lookup"><span data-stu-id="853a4-116">field, select the relevant customer from the list.</span></span>  
 
-  > [!Note]  
-  >  <span data-ttu-id="853a4-117">Die Debitorenfelder werden automatisch mit Informationen aus der Karte **Debitor** gefüllt.</span><span class="sxs-lookup"><span data-stu-id="853a4-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="853a4-118">Wenn keine **Debitor**-Karte für den Debitor vorhanden ist und Sie eine Debitorenvorlage eingerichtet haben, können Sie aus dem Serviceangebot heraus einen Debitor erstellen.</span><span class="sxs-lookup"><span data-stu-id="853a4-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="853a4-119">Füllen Sie die relevanten Felder aus, und wählen Sie dann die Schaltfläche **Kunde erstellen** aus.</span><span class="sxs-lookup"><span data-stu-id="853a4-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
+   > [!Note]  
+   >  <span data-ttu-id="853a4-117">Die Debitorenfelder werden automatisch mit Informationen aus der Karte **Debitor** gefüllt.</span><span class="sxs-lookup"><span data-stu-id="853a4-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="853a4-118">Wenn keine **Debitor**-Karte für den Debitor vorhanden ist und Sie eine Debitorenvorlage eingerichtet haben, können Sie aus dem Serviceangebot heraus einen Debitor erstellen.</span><span class="sxs-lookup"><span data-stu-id="853a4-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="853a4-119">Füllen Sie die relevanten Felder aus, und wählen Sie dann die Schaltfläche **Kunde erstellen** aus.</span><span class="sxs-lookup"><span data-stu-id="853a4-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
   
 5. <span data-ttu-id="853a4-120">Abhängig von den Einstellungen auf dem Inforegister **Pflichtfelder** im Fenster  **Service Einrichtung** muss das Feld **Serviceauftragsart** auf dem Inforegister **Verkäufercode** ausgefüllt werden.</span><span class="sxs-lookup"><span data-stu-id="853a4-120">Depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.</span></span>  
 6. <span data-ttu-id="853a4-121">Füllen Sie die Serviceartikelzeilen aus.</span><span class="sxs-lookup"><span data-stu-id="853a4-121">Fill in the service item lines.</span></span>  

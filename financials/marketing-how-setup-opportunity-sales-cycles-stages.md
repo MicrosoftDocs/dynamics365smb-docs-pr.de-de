@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ecff2e9e0705055a514f1726b3223f8196300cb6
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 337c76b92b579f4f7a69f5fe895cc589df7e94cc
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a><span data-ttu-id="ab67b-103">Einrichten von Verkaufsprozessen für Verkaufschancen und Prozess-Stufen</span><span class="sxs-lookup"><span data-stu-id="ab67b-103">Set Up Opportunity Sales Cycles and Cycle Stages</span></span>
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a><span data-ttu-id="ab67b-113">Um Verkaufschancen-Zykluscodes einzurichten:</span><span class="sxs-lookup"><span data-stu-id="ab67b-113">To set up opportunity sales cycle codes</span></span>
 1. <span data-ttu-id="ab67b-114">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufzyklus** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="ab67b-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Cycles**, and then choose the related link.</span></span> <span data-ttu-id="ab67b-115">Das **Verkaufsprozesse**-Fenster wird geöffnet und führt alle vorhandenen Verkaufsprozesse auf.</span><span class="sxs-lookup"><span data-stu-id="ab67b-115">The **Sales Cycles** window opens, and lists all the existing sales cycles.</span></span>
-2. <span data-ttu-id="ab67b-116">Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="ab67b-116">Choose the **New** action, and fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="ab67b-116">Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="ab67b-116">Choose the **New** action, and fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 <span data-ttu-id="ab67b-117">Wiederholen Sie diese Schritte, um weitere Verkaufsprozesse einzurichten.</span><span class="sxs-lookup"><span data-stu-id="ab67b-117">Repeat these steps to set up as many sales cycles as you want.</span></span> <span data-ttu-id="ab67b-118">Nachdem Sie Verkaufsprozesse für Verkaufschancen eingerichtet haben, können Sie die verschiedenen Stufen innerhalb jedes Prozesses einrichten.</span><span class="sxs-lookup"><span data-stu-id="ab67b-118">After you have set up opportunity sales cycles, you may want to set up the different stages within each cycle.</span></span>
 

@@ -13,10 +13,10 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: 0537940a323ff102552551a95d99cc9da8c6da52
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 4ac8156e90396fad797638c6b950034da606c8c6
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="managing-intercompany-transactions"></a><span data-ttu-id="1a9ba-103">Intercompanytransaktionen verwalten</span><span class="sxs-lookup"><span data-stu-id="1a9ba-103">Managing Intercompany Transactions</span></span>
@@ -49,6 +49,6 @@ ms.lasthandoff: 03/22/2018
 [<span data-ttu-id="1a9ba-135">Arbeiten mit Fibu Buch.-Blättern</span><span class="sxs-lookup"><span data-stu-id="1a9ba-135">Working with General Journals</span></span>](ui-work-general-journals.md)  
 <span data-ttu-id="1a9ba-136">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1a9ba-136">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

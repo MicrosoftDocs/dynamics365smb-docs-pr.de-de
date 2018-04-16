@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 000785b2d3592f600be5c231f088431ba2769b18
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a><span data-ttu-id="75d9c-103">Verwenden von Artikelzuschlägen für zusätzliche Kosten</span><span class="sxs-lookup"><span data-stu-id="75d9c-103">Use Item Charges to Account for Additional Trade Costs</span></span>
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="75d9c-123">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Artikel-Gebühren** ein und wählen den zugehörenden Link aus.</span><span class="sxs-lookup"><span data-stu-id="75d9c-123">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.</span></span>
 2. <span data-ttu-id="75d9c-124">Wählen Sie im Fenster **Artikel-Gebühren** die Aktion **Neu** aus, um eine neue Zeile für eine zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="75d9c-124">In the **Item Charges** window, choose the **New** action to create a new line.</span></span>
-3. <span data-ttu-id="75d9c-125">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="75d9c-125">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="75d9c-125">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="75d9c-125">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a><span data-ttu-id="75d9c-126">Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen</span><span class="sxs-lookup"><span data-stu-id="75d9c-126">To assign an item charge directly to the purchase invoice for the item</span></span>
 <span data-ttu-id="75d9c-127">Wenn Sie den Artikel-Zu-/Abschlag kennen, und den Zeitpunkt Sie eine Einkaufsrechnung für den Artikel betreffen, gehen Sie folgendermaßen vor.</span><span class="sxs-lookup"><span data-stu-id="75d9c-127">If you know the item charge at the time when you post a purchase invoice for the item, follow this procedure.</span></span>
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="75d9c-132">Geben Sie eine neue Zeile ein, und wählen Sie **Zu-/Abschlag (Artikel)** im Feld **Art**.</span><span class="sxs-lookup"><span data-stu-id="75d9c-132">On a new line, in the **Type** field, select **Charge (Item)**.</span></span>
 5. <span data-ttu-id="75d9c-133">Geben Sie in dem Feld **Menge** die Anzahl der Einheiten dieses Artikel Zu-/Abschlages ein, für die Sie eine Rechnung erhalten haben.</span><span class="sxs-lookup"><span data-stu-id="75d9c-133">In the **Quantity** field, enter the units of the item charge that you have been invoiced for.</span></span>
 6. <span data-ttu-id="75d9c-134">Geben Sie in dem Feld **EK-Preis** den Betrag der Artikelgebühr an.</span><span class="sxs-lookup"><span data-stu-id="75d9c-134">In the **Direct Unit Cost** field, enter the amount of the item charge.</span></span>
-7. <span data-ttu-id="75d9c-135">Füllen Sie die verbleibenden Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="75d9c-135">Fill in the remaining fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. <span data-ttu-id="75d9c-135">Füllen Sie die verbleibenden Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="75d9c-135">Fill in the remaining fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="75d9c-136">In den folgenden Schritten führen Sie die aktuelle Zuordnung aus.</span><span class="sxs-lookup"><span data-stu-id="75d9c-136">In the following steps, you will perform the actual assignment.</span></span> <span data-ttu-id="75d9c-137">Bis die Artikelgebühr vollständig zugewiesen wird, wird der Wert im Feld **Menge zuordnen** in roter Schrift angezeigt..</span><span class="sxs-lookup"><span data-stu-id="75d9c-137">Until the item charge is fully assigned, the value in the **Qty. to Assign** field is in red font.</span></span>
 8. <span data-ttu-id="75d9c-138">Klicken Sie auf dem Inforegister **Zeilen** auf  Aktionen **Artikelgebühr-Zuweisung**.</span><span class="sxs-lookup"><span data-stu-id="75d9c-138">On the **Lines** tab, choose the **Item Charge Assignment** action.</span></span>

@@ -12,10 +12,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: e63470dae92fb4594a03d8f607a83e6ce284b4c9
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: fc8c357fa5b65b05bab3969ae663c898d18a2bb3
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 
@@ -56,6 +56,6 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="47fff-152">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="47fff-152">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 [<span data-ttu-id="47fff-153">Allgemeine Geschäftsfunktionen</span><span class="sxs-lookup"><span data-stu-id="47fff-153">General Business Functionality</span></span>](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

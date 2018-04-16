@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: 2c1969cc342ac1c8e9397261b51eb082fbfd0086
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: a21588b4566295b06b343f1dcea7078890b4af7f
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-a-physical-inventory-recording"></a><span data-ttu-id="ce010-103">So erstellen Sie eine physische Inventurerfassung</span><span class="sxs-lookup"><span data-stu-id="ce010-103">Create a Physical Inventory Recording</span></span>
@@ -57,19 +57,19 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-complete-a-physical-inventory-recording"></a><span data-ttu-id="ce010-137">So schließen Sie eine Inventurerfassung ab</span><span class="sxs-lookup"><span data-stu-id="ce010-137">To complete a physical inventory recording</span></span>  
 
-1.  <span data-ttu-id="ce010-138">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Physische Inventur durchführen** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="ce010-138">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Recording**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="ce010-139">Wählen Sie den Inventurauftrag aus, den Sie fertig stellen möchten und klicken Sie auf **Bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="ce010-139">Select the physical inventory recording that you want to complete, and then choose the **Edit** action.</span></span>  
-3.  <span data-ttu-id="ce010-140">Geben Sie im Fenster **Inventurerfassung** im Inforegister **Zeilen** im Feld **Menge** für jede Zeile die tatsächliche Artikelmenge ein.</span><span class="sxs-lookup"><span data-stu-id="ce010-140">In the **Phys. Invt. Recording** window, on the **Lines** FastTab, in the **Quantity** field for each line, enter the actual item quantity.</span></span>  
-4.  <span data-ttu-id="ce010-141">Aktivieren Sie für jede Zeile das Kontrollkästchen **Erfasst**.</span><span class="sxs-lookup"><span data-stu-id="ce010-141">Select the **Recorded** check box for each line.</span></span>  
-5.  <span data-ttu-id="ce010-142">Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.</span><span class="sxs-lookup"><span data-stu-id="ce010-142">On the **General** FastTab, fill in the fields as described in the following table.</span></span>  
+1. <span data-ttu-id="ce010-138">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Physische Inventur durchführen** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="ce010-138">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Recording**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="ce010-139">Wählen Sie den Inventurauftrag aus, den Sie fertig stellen möchten und klicken Sie auf **Bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="ce010-139">Select the physical inventory recording that you want to complete, and then choose the **Edit** action.</span></span>  
+3. <span data-ttu-id="ce010-140">Geben Sie im Fenster **Inventurerfassung** im Inforegister **Zeilen** im Feld **Menge** für jede Zeile die tatsächliche Artikelmenge ein.</span><span class="sxs-lookup"><span data-stu-id="ce010-140">In the **Phys. Invt. Recording** window, on the **Lines** FastTab, in the **Quantity** field for each line, enter the actual item quantity.</span></span>  
+4. <span data-ttu-id="ce010-141">Aktivieren Sie für jede Zeile das Kontrollkästchen **Erfasst**.</span><span class="sxs-lookup"><span data-stu-id="ce010-141">Select the **Recorded** check box for each line.</span></span>  
+5. <span data-ttu-id="ce010-142">Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.</span><span class="sxs-lookup"><span data-stu-id="ce010-142">On the **General** FastTab, fill in the fields as described in the following table.</span></span>  
 
-    |<span data-ttu-id="ce010-143">Feld</span><span class="sxs-lookup"><span data-stu-id="ce010-143">Field</span></span>|<span data-ttu-id="ce010-144">Description</span><span class="sxs-lookup"><span data-stu-id="ce010-144">Description</span></span>|  
-    |---------------------------------|---------------------------------------|  
-    |<span data-ttu-id="ce010-145">**Erfasst von**</span><span class="sxs-lookup"><span data-stu-id="ce010-145">**Person Recorded**</span></span>|<span data-ttu-id="ce010-146">Die Person, von der der Lagerbestand erfasst wurde.</span><span class="sxs-lookup"><span data-stu-id="ce010-146">The person who recorded the inventory.</span></span>|  
-    |<span data-ttu-id="ce010-147">**Erfassungsdatum**</span><span class="sxs-lookup"><span data-stu-id="ce010-147">**Date Recorded**</span></span>|<span data-ttu-id="ce010-148">Das Datum, an dem die Inventur erfasst wurde.</span><span class="sxs-lookup"><span data-stu-id="ce010-148">The date on which the physical inventory was recorded.</span></span>|  
-    |<span data-ttu-id="ce010-149">**Erfassungszeit**</span><span class="sxs-lookup"><span data-stu-id="ce010-149">**Time Recorded**</span></span>|<span data-ttu-id="ce010-150">Die Zeit, zu der die Inventur erfasst wurde.</span><span class="sxs-lookup"><span data-stu-id="ce010-150">The time at which the physical inventory was recorded.</span></span>|  
+   |<span data-ttu-id="ce010-143">Feld</span><span class="sxs-lookup"><span data-stu-id="ce010-143">Field</span></span>|<span data-ttu-id="ce010-144">Description</span><span class="sxs-lookup"><span data-stu-id="ce010-144">Description</span></span>|  
+   |---------------------------------|---------------------------------------|  
+   |<span data-ttu-id="ce010-145">**Erfasst von**</span><span class="sxs-lookup"><span data-stu-id="ce010-145">**Person Recorded**</span></span>|<span data-ttu-id="ce010-146">Die Person, von der der Lagerbestand erfasst wurde.</span><span class="sxs-lookup"><span data-stu-id="ce010-146">The person who recorded the inventory.</span></span>|  
+   |<span data-ttu-id="ce010-147">**Erfassungsdatum**</span><span class="sxs-lookup"><span data-stu-id="ce010-147">**Date Recorded**</span></span>|<span data-ttu-id="ce010-148">Das Datum, an dem die Inventur erfasst wurde.</span><span class="sxs-lookup"><span data-stu-id="ce010-148">The date on which the physical inventory was recorded.</span></span>|  
+   |<span data-ttu-id="ce010-149">**Erfassungszeit**</span><span class="sxs-lookup"><span data-stu-id="ce010-149">**Time Recorded**</span></span>|<span data-ttu-id="ce010-150">Die Zeit, zu der die Inventur erfasst wurde.</span><span class="sxs-lookup"><span data-stu-id="ce010-150">The time at which the physical inventory was recorded.</span></span>|  
 
- <span data-ttu-id="ce010-151">Sie können die Inventur jetzt beenden.</span><span class="sxs-lookup"><span data-stu-id="ce010-151">You can now finish the physical inventory recording.</span></span> <span data-ttu-id="ce010-152">Weitere Informationen finden Sie unter [Führen Sie physische Inventuren aus](how-to-finish-a-physical-inventory-recording.md).</span><span class="sxs-lookup"><span data-stu-id="ce010-152">For more information, see [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md).</span></span>  
+   <span data-ttu-id="ce010-151">Sie können die Inventur jetzt beenden.</span><span class="sxs-lookup"><span data-stu-id="ce010-151">You can now finish the physical inventory recording.</span></span> <span data-ttu-id="ce010-152">Weitere Informationen finden Sie unter [Führen Sie physische Inventuren aus](how-to-finish-a-physical-inventory-recording.md).</span><span class="sxs-lookup"><span data-stu-id="ce010-152">For more information, see [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md).</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="ce010-153">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="ce010-153">See Also</span></span>  
  <span data-ttu-id="ce010-154">[Inventurerfassung – Inventurzählung](physical-inventory-recording-counting-physical-inventory.md) </span><span class="sxs-lookup"><span data-stu-id="ce010-154">[Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md) </span></span>  

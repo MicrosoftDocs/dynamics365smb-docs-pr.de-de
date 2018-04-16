@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/07/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: b6f098a46338cb28d21a0ad7b12d1af4f15a8dea
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 937b470fb5f3837b415a81b4d3924cbd5530a52a
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="closing-years-and-periods"></a><span data-ttu-id="4710a-103">Beenden von Jahresabschluss und Perioden</span><span class="sxs-lookup"><span data-stu-id="4710a-103">Closing Years and Periods</span></span>
@@ -39,6 +39,6 @@ ms.lasthandoff: 03/22/2018
 [<span data-ttu-id="4710a-127">Ein neues Geschäftsjahres eröffnen</span><span class="sxs-lookup"><span data-stu-id="4710a-127">Open a New Fiscal Year</span></span>](finance-how-open-new-fiscal-year.md)  
 <span data-ttu-id="4710a-128">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4710a-128">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

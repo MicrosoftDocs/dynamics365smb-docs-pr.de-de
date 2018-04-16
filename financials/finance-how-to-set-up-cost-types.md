@@ -13,10 +13,10 @@ ms.search.keywords: cost types, general ledger, accounts
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 945a60af52eec7fb4f00842acdac42472d735a12
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c89170fd159428d771df105ca16a1d91d29651e4
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-cost-types"></a><span data-ttu-id="6ca57-103">Einrichten von Kostenträgern</span><span class="sxs-lookup"><span data-stu-id="6ca57-103">Set Up Cost Types</span></span>
@@ -35,17 +35,17 @@ ms.lasthandoff: 03/22/2018
     >  <span data-ttu-id="6ca57-119">Die **Kostenarten in Kontenplan registrieren**-Funktion aktualisiert das Verhältnis zwischen dem Kontenplan und dem Kostenartenplan.</span><span class="sxs-lookup"><span data-stu-id="6ca57-119">The **Register Cost Types in Chart of Accounts** function updates the relationship between the chart of accounts and the chart of cost types.</span></span> <span data-ttu-id="6ca57-120">Das **Nr.**</span><span class="sxs-lookup"><span data-stu-id="6ca57-120">The **No.**</span></span> <span data-ttu-id="6ca57-121">Das Feld  wird ausgefüllt und geprüft, um sicherzustellen, dass jedes Sachkonto mit nur einer Kostenart verknüpft ist.</span><span class="sxs-lookup"><span data-stu-id="6ca57-121">field is filled and verified to make sure that each general ledger account is related to only one cost type.</span></span> <span data-ttu-id="6ca57-122">Die Funktion wird automatisch ausgeführt, bevor Sie Sachposten in die Kostenrechnung übertragen.</span><span class="sxs-lookup"><span data-stu-id="6ca57-122">The function runs automatically before transferring general ledger entries to cost accounting.</span></span>  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a><span data-ttu-id="6ca57-123">So richten Sie im Fenster "Liquiditätskontenplan" neue Liquiditätskonten ein</span><span class="sxs-lookup"><span data-stu-id="6ca57-123">To set up new cost types in the Chart of Cost Types window</span></span>  
-1.  <span data-ttu-id="6ca57-124">Öffnen Sie das Fenster **Kontenplan-Arten** im Bearbeitungsmodus.</span><span class="sxs-lookup"><span data-stu-id="6ca57-124">Open the **Chart of Cost Types** window in edit mode.</span></span>  
-2.  <span data-ttu-id="6ca57-125">Füllen Sie je nach Bedarf die Felder aus.</span><span class="sxs-lookup"><span data-stu-id="6ca57-125">Fill in the fields as described as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. <span data-ttu-id="6ca57-124">Öffnen Sie das Fenster **Kontenplan-Arten** im Bearbeitungsmodus.</span><span class="sxs-lookup"><span data-stu-id="6ca57-124">Open the **Chart of Cost Types** window in edit mode.</span></span>  
+2. <span data-ttu-id="6ca57-125">Füllen Sie je nach Bedarf die Felder aus.</span><span class="sxs-lookup"><span data-stu-id="6ca57-125">Fill in the fields as described as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  <span data-ttu-id="6ca57-126">Sie können Kostenarten im Fenster **Kostenartkarte** oder im Fenster **Kostenartenplan** einrichten und verwalten.</span><span class="sxs-lookup"><span data-stu-id="6ca57-126">You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window.</span></span> <span data-ttu-id="6ca57-127">So richten Sie im Fenster **Liquiditätskontenplan** neue Liquiditätskonten ein.</span><span class="sxs-lookup"><span data-stu-id="6ca57-127">In this procedure, you set up cost types in the **Chart of Cost Types** window.</span></span>
+   > [!NOTE]  
+   >  <span data-ttu-id="6ca57-126">Sie können Kostenarten im Fenster **Kostenartkarte** oder im Fenster **Kostenartenplan** einrichten und verwalten.</span><span class="sxs-lookup"><span data-stu-id="6ca57-126">You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window.</span></span> <span data-ttu-id="6ca57-127">So richten Sie im Fenster **Liquiditätskontenplan** neue Liquiditätskonten ein.</span><span class="sxs-lookup"><span data-stu-id="6ca57-127">In this procedure, you set up cost types in the **Chart of Cost Types** window.</span></span>
 
-3.  <span data-ttu-id="6ca57-128">Nachdem Sie alle Kostenarten erstellt haben, wählen Sie die Aktion **Kostenarten einrücken** aus.</span><span class="sxs-lookup"><span data-stu-id="6ca57-128">After you have created all cost types, choose the **Indent Cost Types** action.</span></span> <span data-ttu-id="6ca57-129">Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**.</span><span class="sxs-lookup"><span data-stu-id="6ca57-129">In the dialog box, choose the **Yes** button.</span></span>  
-4.  <span data-ttu-id="6ca57-130">Verknüpfen Sie die neue Kostenart mit dem entsprechenden Sachkonto.</span><span class="sxs-lookup"><span data-stu-id="6ca57-130">Link the new cost type to the corresponding general ledger account.</span></span>  
+3. <span data-ttu-id="6ca57-128">Nachdem Sie alle Kostenarten erstellt haben, wählen Sie die Aktion **Kostenarten einrücken** aus.</span><span class="sxs-lookup"><span data-stu-id="6ca57-128">After you have created all cost types, choose the **Indent Cost Types** action.</span></span> <span data-ttu-id="6ca57-129">Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**.</span><span class="sxs-lookup"><span data-stu-id="6ca57-129">In the dialog box, choose the **Yes** button.</span></span>  
+4. <span data-ttu-id="6ca57-130">Verknüpfen Sie die neue Kostenart mit dem entsprechenden Sachkonto.</span><span class="sxs-lookup"><span data-stu-id="6ca57-130">Link the new cost type to the corresponding general ledger account.</span></span>  
 
-    > [!IMPORTANT]  
-    >  <span data-ttu-id="6ca57-131">Wenn Sie in den Feldern **Zusammenzählung** Definitionen für die Zeilenart **Bis-Summe** eingetragen haben, bevor Sie die Funktion **Kostenarten einrücken** ausgeführt haben, müssen Sie diese Eintragungen wiederholen, da die Funktion die Werte in allen **Bis-Summe**-Feldern überschreibt.</span><span class="sxs-lookup"><span data-stu-id="6ca57-131">If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.</span></span>  
+   > [!IMPORTANT]  
+   >  <span data-ttu-id="6ca57-131">Wenn Sie in den Feldern **Zusammenzählung** Definitionen für die Zeilenart **Bis-Summe** eingetragen haben, bevor Sie die Funktion **Kostenarten einrücken** ausgeführt haben, müssen Sie diese Eintragungen wiederholen, da die Funktion die Werte in allen **Bis-Summe**-Feldern überschreibt.</span><span class="sxs-lookup"><span data-stu-id="6ca57-131">If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.</span></span>  
 
 ## <a name="to-update-cost-types"></a><span data-ttu-id="6ca57-132">So aktualisieren Sie Kostenarten</span><span class="sxs-lookup"><span data-stu-id="6ca57-132">To update cost types</span></span>  
 1.  <span data-ttu-id="6ca57-133">Im Fenster **Kostenrechnung einrichten**  wählen Sie aus, ob der Kostenartenplan automatisch aktualisiert werden soll, wenn der Kontenplan geändert wird.</span><span class="sxs-lookup"><span data-stu-id="6ca57-133">In the **Cost Accounting Setup** window, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.</span></span>  

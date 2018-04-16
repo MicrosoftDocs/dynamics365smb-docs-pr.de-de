@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 384bc05b8f775859c9ca6d6ea4241efb63a9e69d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: af35aa77bfe288fb810dd2b9b06be6026e012da7
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="suggest-vendor-payments"></a><span data-ttu-id="52c3a-103">Zahlungsvorschlag</span><span class="sxs-lookup"><span data-stu-id="52c3a-103">Suggest Vendor Payments</span></span>
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-use-the-suggest-vendor-payments-function"></a><span data-ttu-id="52c3a-113">Die Zahlungsvorschlagfunktion verwenden</span><span class="sxs-lookup"><span data-stu-id="52c3a-113">To use the Suggest Vendor Payments function</span></span>
 1. <span data-ttu-id="52c3a-114">Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Zahlungs-Buchblatt** ein und wählen den zugehörenden Link aus.</span><span class="sxs-lookup"><span data-stu-id="52c3a-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="52c3a-115">Öffnen Sie das relevante Buch.-Blatt, und klicken Sie dann auf die Aktion **Zahlungsvorschlag**.</span><span class="sxs-lookup"><span data-stu-id="52c3a-115">Open the relevant journal, and then choose the **Suggest Vendor Payments** action.</span></span>  
-3. <span data-ttu-id="52c3a-116">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="52c3a-116">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="52c3a-116">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="52c3a-116">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. <span data-ttu-id="52c3a-117">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="52c3a-117">Choose the **OK** button.</span></span>  
 
 ## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a><span data-ttu-id="52c3a-118">Einfügen des Fälligkeitsdatum als Buchungsdatum auf Zahlungsausgangs Buch.-Blattzeilen</span><span class="sxs-lookup"><span data-stu-id="52c3a-118">To insert the due date as posting date on payment journal lines</span></span>
