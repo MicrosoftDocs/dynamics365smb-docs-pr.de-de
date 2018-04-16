@@ -38,14 +38,14 @@ Wenn Sie Ihre Palettenlagerplätze mit einer Lagerplatzart definiert haben, die 
 
 Wenn Sie das nächste Mal eine Lagerplatzauffüllung berechnen lassen, werden Ihnen wieder die Zeilen vorgeschlagen, die Sie gelöscht haben, wenn diese dann immer noch gültig sind.  
 
-> [!NOTE]  
+> [!NOTE]
 >  Angenommen, die folgenden Bedingungen werden für einen Artikel erfüllt:  
->   
->  -   Der Artikel weist ein Ablaufdatum auf, und  
-> -   Das Feld **Gemäß FEFO kommissionieren** ist auf der Lagerortkarte aktiviert, und  
-> -   Sie verwenden die Funktionalität **Lagerplatzauffüllung berechnen**.  
->   
->  In diesem Fall bleiben die Felder **Von Zone** und **Von Lagerplatz** leer, da der Algorithmus zur Berechnung des Ausgangsortes der Umlagerung nur ausgelöst wird, wenn Sie die Funktion **Lagerplatzumlagerung erstellen** aktivieren.  
+> 
+> - Der Artikel weist ein Ablaufdatum auf, und  
+>   -   Das Feld **Gemäß FEFO kommissionieren** ist auf der Lagerortkarte aktiviert, und  
+>   -   Sie verwenden die Funktionalität **Lagerplatzauffüllung berechnen**.  
+> 
+>   In diesem Fall bleiben die Felder **Von Zone** und **Von Lagerplatz** leer, da der Algorithmus zur Berechnung des Ausgangsortes der Umlagerung nur ausgelöst wird, wenn Sie die Funktion **Lagerplatzumlagerung erstellen** aktivieren.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  

@@ -24,15 +24,15 @@ Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kred
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Kreditorenzahlung einrichten** ein und wählen dann den zugehörigen Link aus.  
-2.  Füllen Sie im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Kreditorenzahlung einrichten** ein und wählen dann den zugehörigen Link aus.  
+2. Füllen Sie im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
-    |Feld|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Sortieren**|Gibt den sortierten Auftrag an. Sie können chronologisch oder nach Kreditor sortieren. Wenn Sie nach Kreditor sortieren, finden Sie eine Zwischensumme für jeden Kreditor. Wenn Sie chronologisch sortieren, finden Sie keine Zwischensummen.|  
-    |**Layout**|Gibt die Nummer des Berichtslayouts an.<br /><br /> Die Ergebnisse können in den folgenden Layouts angezeigt werden:<br /><br /> **Standard**<br /> Zeigt die Kreditorennummer und den Kreditorennamen, zusammen mit den Buchungsdetails wie Dokumentennummer und den Betrag in lokaler Währung an.<br /><br /> **FCY-Beträge**<br /> Zeigt die Kreditorennummer, Kreditorennamen, Belegnummer, Zahlungsstatus (O für den Wert Offen, PP. für Teilzahlung und C für geschlossene) an.<br /><br /> **Buchungsinfo**<br /> Zeigt die Kreditorennummer, den Kreditorennamen, die Kostenstelle, das Kostenobjekt, die Benutzer-ID und den Zahlungsbetrag an.|  
+   |Feld|Description|  
+   |---------------------------------|---------------------------------------|  
+   |**Sortieren**|Gibt den sortierten Auftrag an. Sie können chronologisch oder nach Kreditor sortieren. Wenn Sie nach Kreditor sortieren, finden Sie eine Zwischensumme für jeden Kreditor. Wenn Sie chronologisch sortieren, finden Sie keine Zwischensummen.|  
+   |**Layout**|Gibt die Nummer des Berichtslayouts an.<br /><br /> Die Ergebnisse können in den folgenden Layouts angezeigt werden:<br /><br /> **Standard**<br /> Zeigt die Kreditorennummer und den Kreditorennamen, zusammen mit den Buchungsdetails wie Dokumentennummer und den Betrag in lokaler Währung an.<br /><br /> **FCY-Beträge**<br /> Zeigt die Kreditorennummer, Kreditorennamen, Belegnummer, Zahlungsstatus (O für den Wert Offen, PP. für Teilzahlung und C für geschlossene) an.<br /><br /> **Buchungsinfo**<br /> Zeigt die Kreditorennummer, den Kreditorennamen, die Kostenstelle, das Kostenobjekt, die Benutzer-ID und den Zahlungsbetrag an.|  
 
- Am Ende des Berichts wir die Anzahl der verarbeiteten Zahlungen angezeigt.  
+   Am Ende des Berichts wir die Anzahl der verarbeiteten Zahlungen angezeigt.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Zahlungen vornehmen](../../payables-make-payments.md)

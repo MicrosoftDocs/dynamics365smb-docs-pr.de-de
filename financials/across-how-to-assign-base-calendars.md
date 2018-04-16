@@ -106,12 +106,12 @@ Basiskalender werden Ihrer eigenen Firma, Debitoren, Kreditoren, Lagerorten und 
 2.  Öffnen Sie die **Kundenkarte**, für der Sie einen Basiskalender zuordnen möchten.  
 3.  Wählen Sie im Inforegister **Lieferung** im Feld **Basiskalendercode** den Basiskalender aus, den Sie zuordnen möchten.  
 
-> [!IMPORTANT]  
->  -   Wenn Sie einem Unternehmen keinen Basiskalender zuordnen, werden alle Tage als Arbeitstage berechnet.  
-> -   Wenn Sie den Lagerort "Leer" in einer Auftragszeile eingeben, werden alle Tage als Arbeitstage berechnet.  
-> -   Alle Basiskalender, die für den Kreditor oder Lagerort definiert wurden, wirken sich darauf aus, wie die Daten in Arbeitstage berechnet und gerundet werden.
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - Wenn Sie einem Unternehmen keinen Basiskalender zuordnen, werden alle Tage als Arbeitstage berechnet.  
+>   -   Wenn Sie den Lagerort "Leer" in einer Auftragszeile eingeben, werden alle Tage als Arbeitstage berechnet.  
+>   -   Alle Basiskalender, die für den Kreditor oder Lagerort definiert wurden, wirken sich darauf aus, wie die Daten in Arbeitstage berechnet und gerundet werden.
+> 
+> [!NOTE]
 >  Bevor Sie einen spezifischen Kalender anlegen können, müssen Sie zuerst der Firma einen Basiskalender zuordnen.  
 
 ## <a name="see-also"></a>Siehe auch

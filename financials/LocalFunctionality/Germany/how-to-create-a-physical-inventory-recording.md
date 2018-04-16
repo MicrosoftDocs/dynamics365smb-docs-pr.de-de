@@ -57,19 +57,19 @@ Damit ersichtlich ist, dass die Inventurerfassung abgeschlossen wurde, muss der 
 
 ## <a name="to-complete-a-physical-inventory-recording"></a>So schließen Sie eine Inventurerfassung ab  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Physische Inventur durchführen** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Wählen Sie den Inventurauftrag aus, den Sie fertig stellen möchten und klicken Sie auf **Bearbeiten**.  
-3.  Geben Sie im Fenster **Inventurerfassung** im Inforegister **Zeilen** im Feld **Menge** für jede Zeile die tatsächliche Artikelmenge ein.  
-4.  Aktivieren Sie für jede Zeile das Kontrollkästchen **Erfasst**.  
-5.  Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Physische Inventur durchführen** ein. Wählen Sie dann den zugehörigen Link aus.  
+2. Wählen Sie den Inventurauftrag aus, den Sie fertig stellen möchten und klicken Sie auf **Bearbeiten**.  
+3. Geben Sie im Fenster **Inventurerfassung** im Inforegister **Zeilen** im Feld **Menge** für jede Zeile die tatsächliche Artikelmenge ein.  
+4. Aktivieren Sie für jede Zeile das Kontrollkästchen **Erfasst**.  
+5. Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
-    |Feld|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Erfasst von**|Die Person, von der der Lagerbestand erfasst wurde.|  
-    |**Erfassungsdatum**|Das Datum, an dem die Inventur erfasst wurde.|  
-    |**Erfassungszeit**|Die Zeit, zu der die Inventur erfasst wurde.|  
+   |Feld|Description|  
+   |---------------------------------|---------------------------------------|  
+   |**Erfasst von**|Die Person, von der der Lagerbestand erfasst wurde.|  
+   |**Erfassungsdatum**|Das Datum, an dem die Inventur erfasst wurde.|  
+   |**Erfassungszeit**|Die Zeit, zu der die Inventur erfasst wurde.|  
 
- Sie können die Inventur jetzt beenden. Weitere Informationen finden Sie unter [Führen Sie physische Inventuren aus](how-to-finish-a-physical-inventory-recording.md).  
+   Sie können die Inventur jetzt beenden. Weitere Informationen finden Sie unter [Führen Sie physische Inventuren aus](how-to-finish-a-physical-inventory-recording.md).  
 
 ## <a name="see-also"></a>Siehe auch  
  [Inventurerfassung – Inventurzählung](physical-inventory-recording-counting-physical-inventory.md)   

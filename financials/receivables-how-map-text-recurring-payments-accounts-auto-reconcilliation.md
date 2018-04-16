@@ -38,7 +38,7 @@ In einer Zahlungsabstimmungsbuch.-Blattzeile, in der die Zahlung entsprechend de
 4. Geben Sie im Feld **Text zuordnen** einen beliebigen Text ein, der in Zahlungen auftritt, die Sie an die angegebenen Konten ohne Anwendung auf einen offenen Posten buchen möchten. Sie können bis zu 50 Zeichen eingeben.
 
     > [!NOTE]  
->   Wenn keine anderen Zahlungsbelege mit dem jeweiligen Zuordnungstext vorhanden sind, dann erfolgt die Text-Konto-Zuordnung auch, wenn nur ein Teil des Texts auf den Zahlungsbeleg als Zuordnungstext vorhanden ist.
+   >   Wenn keine anderen Zahlungsbelege mit dem jeweiligen Zuordnungstext vorhanden sind, dann erfolgt die Text-Konto-Zuordnung auch, wenn nur ein Teil des Texts auf den Zahlungsbeleg als Zuordnungstext vorhanden ist.
 5. In dem Feld **Kreditorennr.** geben Sie den Kreditor ein, bei dem die Zahlungen gebucht werden.
 6. Geben Sie im Feld **Herkunftsart Saldo** an, ob die Zahlung auf ein Sachkonto oder auf ein Debitoren- oder Kreditorenkonto gebucht wird.
 7. Im Feld **Saldoquellen-Nr.**definieren Sie das Konto, auf das die Zahlung gebucht wird, abhängig von Ihrer Wahl im Feld **Herkunftsart Saldo**.
@@ -57,7 +57,7 @@ Um die Brennstoffausgaben an Shell-Tankstellen immer in das Sachkonto für Benzi
 | --- | --- | --- | --- | --- |
 | Shell |LEER |8510 |Sachkonto |LEER |
 
-> [!TIP]  
+> [!TIP]
 >   Weitere Informationen darüber, wie mit Feldern und Spalten gearbeitet wird, finden Sie unter [Arbeit mit[!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md) Weitere Informationen zur Suche nach spezifischen Seiten finden Sie unter [Suche](ui-search.md).
 
 ## <a name="see-also"></a>Siehe auch

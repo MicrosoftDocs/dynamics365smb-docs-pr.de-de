@@ -151,7 +151,7 @@
 
 # [Finanzen](finance.md)
 ## [Verwalten von Forderungen](receivables-manage-receivables.md)
-###[Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Debitoren-Zahlungen manuell aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Verarbeiten von Debitoren-Zahlungen manuell](receivables-how-apply-sales-transactions-manually.md)  
 ### [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)

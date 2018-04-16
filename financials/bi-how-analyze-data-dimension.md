@@ -32,7 +32,7 @@ Eine Analyse nach Dimensionen zeigt eine ausgewählte Kombination von Dimensione
 
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Analyseansicht** ein und wählen den zugehörenden Link aus.  
 2. Wählen Sie im Fenster **Analyseansichtsliste** die Aktion **Neu** aus.
-3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Um den vier Dimensionscodes im Inforegister **Dimensionen** weitere Dimensionscodes hinzuzufügen. Füllen Sie die **Filter** aus, und klicken Sie anschließend auf **OK**  
 5. Um die Ansicht zu aktualisieren, wählen Sie die **Aktualisieren** Aktion.
 

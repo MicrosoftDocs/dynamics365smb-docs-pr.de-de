@@ -23,13 +23,13 @@ ms.lasthandoff: 03/22/2018
 Sie können keine Rechnung ohne Debitorennummer erstellen. Dies trifft auch zu, wenn Sie einen Barverkauf tätigen und kein Debitorenkonto aktualisieren müssen.  
 
 ## <a name="to-set-up-a-cash-customer"></a>So richten Sie Bargelddebitoren ein:  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Kunde** ein und wählen dann den zugehörigen Link aus.  
-2.  Erstellen Sie eine neue Karte **Debitor**. Weitere Informationen finden Sie unter [Neue Kunden registrieren](sales-how-register-new-customers.md).
-3.  Geben Sie im Feld **Nr.** Geben Sie beispielsweise **Bar** ein.  
-4.  Geben Sie in dem Feld **Name** z. B. **BARVERKAUF** ein.  
-5.  Füllen Sie auf dem Inforegister **Fakturierung** die Felder **Debitorenbuchungsgruppe** und **Geschäftsbuchungsgruppe** aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Kunde** ein und wählen dann den zugehörigen Link aus.  
+2. Erstellen Sie eine neue Karte **Debitor**. Weitere Informationen finden Sie unter [Neue Kunden registrieren](sales-how-register-new-customers.md).
+3. Geben Sie im Feld **Nr.** Geben Sie beispielsweise **Bar** ein.  
+4. Geben Sie in dem Feld **Name** z. B. **BARVERKAUF** ein.  
+5. Füllen Sie auf dem Inforegister **Fakturierung** die Felder **Debitorenbuchungsgruppe** und **Geschäftsbuchungsgruppe** aus.  
 
- Sie haben jetzt einen neuen Debitor und die notwendigen Informationen für die Fakturierung eingerichtet.  
+   Sie haben jetzt einen neuen Debitor und die notwendigen Informationen für die Fakturierung eingerichtet.  
 
 > [!NOTE]  
 >  Es kann sein, dass Sie eine Buchungsgruppe gewählt haben, die auch für inländische Kreditverkäufe verwendet wird. Falls Sie gesonderte Daten für Barverkäufe benötigen, z. B. mit einem Verkaufs- oder Sammelkonto, können Sie zu diesem Zweck eine gesonderte Buchungsgruppe einrichten.  

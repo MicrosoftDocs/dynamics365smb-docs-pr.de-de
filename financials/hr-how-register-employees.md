@@ -32,7 +32,7 @@ Die folgenden Prozeduren beschreiben, wie eine ursprüngliche Mitarbeiterkarte e
 ## <a name="to-set-up-an-employee"></a>Einen Mitarbeiter einrichten:
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Mitarbeiter** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
-3. Füllen Sie im Fenster **Mitarbeiterkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Füllen Sie im Fenster **Mitarbeiterkarte** die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Das Bild eines Mitarbeiters einfügen:
 Falls Ihnen ein Bild eines Mitarbeiters im .bmp Format vorliegt, können Sie dieses auf der Anlagenkarte einfügen.

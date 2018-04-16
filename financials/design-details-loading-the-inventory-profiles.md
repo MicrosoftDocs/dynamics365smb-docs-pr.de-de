@@ -28,15 +28,15 @@ Um die vielen Quellen von Nachfrage und Angebot zu sortieren, organisiert das Pl
 
  Im Allgemeinen berücksichtigt das Planungssystem alle Beschaffungsaufträge nach dem Startdatum als änderbar, um den Bedarf zu erfüllen. Sobald eine Menge von einem Beschaffungsauftrag gebucht wurde, kann sie jedoch vom Planungssystem nicht mehr geändert werden. Entsprechend können die folgenden verschiedenen Aufträge nicht neu geplant werden:  
 
--   Freigegebene Fertigungsaufträge, bei denen Verbrauch oder Ausgabe gebucht wurde.  
+- Freigegebene Fertigungsaufträge, bei denen Verbrauch oder Ausgabe gebucht wurde.  
 
--   Montageaufträge, bei denen Verbrauch oder Ausgabe gebucht wurde.  
+- Montageaufträge, bei denen Verbrauch oder Ausgabe gebucht wurde.  
 
--   Umlagerungsaufträge, in denen Lieferung gebucht wurde.  
+- Umlagerungsaufträge, in denen Lieferung gebucht wurde.  
 
--   Einkaufsbestellungen, in denen der Wareneingang gebucht wurde.  
+- Einkaufsbestellungen, in denen der Wareneingang gebucht wurde.  
 
- Abgesehen vom Laden von Bedarf- und Vorrattypen werden bestimmte Typen im Hinblick auf besondere Regeln und Abhängigkeiten geladen, die nachfolgend beschrieben werden.  
+  Abgesehen vom Laden von Bedarf- und Vorrattypen werden bestimmte Typen im Hinblick auf besondere Regeln und Abhängigkeiten geladen, die nachfolgend beschrieben werden.  
 
 ## <a name="item-dimensions-are-separated"></a>Artikeldimensionen sind aufgeteilt  
  Der Beschaffungsplan muss pro Kombination der Artikeldimensionen, wie Variante und Lagerort berechnet werden. Es gibt jedoch keinen Grund, eine theoretische Kombination zu berechnen. Nur jene Kombinationen, die einen Bedarf ausführen und/oder Bedarfsposten müssen berechnet werden.  

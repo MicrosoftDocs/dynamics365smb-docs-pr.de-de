@@ -30,7 +30,7 @@ Wenn ein Debitor den Preis eines Projekts erfahren möchte, das auf Grundlage de
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Projekt** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Ein relevantes Projekt öffnen.
 3. Wählen Sie eine Aufgabenzeile unter Buchung aus und wählen Sie dann die Aktion **Projektplanungszeile**
-4. Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
+4. Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
 Für das Feld **Linienart** geben Sie die folgenden Informationen in die Felder ein:  
 

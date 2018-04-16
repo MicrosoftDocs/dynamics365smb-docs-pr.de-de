@@ -41,7 +41,7 @@ Sie können eine WIP-Methode für das Projekt erstellen, die den Bedarf Ihrer Or
 > Nachdem Sie Ihre neue Methode verwendet haben, um WIP-Posten zu erstellen, können Sie die Methode nicht löschen oder ändern.  
 
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") und geben **Projekt-WIP-Methoden** ein. Wählen Sie dann den zugehörigen Link aus.  
-2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Schließen Sie das Fenster.   
 4. Um diese neue Methode als Standard zu definieren, wählen Sie in der rechten oberen Ecke ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen")aus und geben Sie **Projekteinrichtung** ein. Wählen Sie dann den zugehörigen Link aus.  
 5. Wählen Sie im Feld **WIP-Standardmethode** die Methode aus der Liste aus.

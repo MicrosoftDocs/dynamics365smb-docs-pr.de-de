@@ -27,7 +27,7 @@ Um Artikel nach Eigenschaften zu finden, können Sie Artikelattribute Artikeln u
 ## <a name="to-create-an-item-category"></a>So erstellen Sie eine Artikelkategorie
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Artikelkategorien** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie im Fenster **Artikelkategorie** die Aktion **Neu** aus.
-3. Füllen Sie im Fenster **Artikelkategorienkarte** im Inforegister **Allgemein** die notwendigen Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Füllen Sie im Fenster **Artikelkategorienkarte** im Inforegister **Allgemein** die notwendigen Felder aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Geben Sie im Inforegister **Attribute** alle Artikelattribute für die Artikelkategorie an. Weitere Informationen finden Sie im Abschnitt "So weisen Sie Artikelattribute Artikelkategorien zu" in [Arbeiten mit Artikelattributen](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

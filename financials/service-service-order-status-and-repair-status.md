@@ -30,7 +30,7 @@ Das Feld **Status** im Fenster **Serviceauftrag** und das Feld **Reparaturstatus
 * Den Serviceauftragsstatus, mit dem jeder Reparaturstatus verknüpft ist. Weitere Informationen finden Sie unter Serviceauftrag einrichten.  
 * Die Prioritätsstufe jeder Serviceauftragsstatus Option. Weitere Informationen finden Sie unter Priorität  
   
- Wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln, wird der Reparaturstatus der einzelnen Serviceartikel in dem Serviceauftrag in **Anfang** und der Serviceauftragsstatus in **Offen** geändert.  
+  Wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln, wird der Reparaturstatus der einzelnen Serviceartikel in dem Serviceauftrag in **Anfang** und der Serviceauftragsstatus in **Offen** geändert.  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a>Serviceauftragsstatus für Reparaturstatusoptionen festlegen  
 Jeder Reparaturstatus ist mit einem bestimmten Serviceauftragsstatus verknüpft. Die Optionen für den Serviceauftragsstatus sind **Offen**, **In Bearbeitung**, **Warten** und **Erledigt**. Die Optionen für den Reparaturstatus sind **Anfangsstatus**, **Angebot erstellt**, **Ersatzteil bestellt**, **Ersatzteil erhalten**, **Service ist erledigt**, **Service in Bearbeitung**, **Unvollständig bearbeitet**, **Warten auf Debitor** und **Weitergeleitet**.  

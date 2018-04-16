@@ -59,6 +59,7 @@ Der folgende Ablauf zeigt, wie Vorratsvorschläge mit Drag & Drop geändert werd
 Um die Beschaffungsplanänderungen zu übernehmen, müssen Sie den resultierenden Ereignismeldungen aus dem Planungs- oder Bestellvorschlag folgen. Weitere Informationen finden Sie unter Carry Out Action Msg.Plan..
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symbole und Bildsymbole im Inforegister "Zeitachse"
+
  |Symbol/Bildsymbol|Beschreibung|  
  |------------------|---------------------------------------|  
  |Schwarzes Kreuz|Aufträge (Vorrat und Bedarf).<br /><br /> -   Kann nicht geändert werden.<br />-   Sichtbar, wenn das Feld **Voraussichtlichen Lagerbestand anzeigen** ausgewählt wird (orangefarbenes Diagramm).|  

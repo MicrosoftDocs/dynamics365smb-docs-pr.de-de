@@ -30,7 +30,7 @@ Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstel
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie den Verkäufer aus, für den eine Verkaufschance erstellt werden soll.
 3. Wählen Sie die **Verkaufschancen**-Aktion aus, und wählen Sie dann **Übersicht**.
-4. Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 

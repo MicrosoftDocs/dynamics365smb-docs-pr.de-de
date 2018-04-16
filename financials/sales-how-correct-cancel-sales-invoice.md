@@ -39,7 +39,7 @@ Wenn Sie eine gebuchte Verkaufsrechnung korrigieren oder stornieren, wird sie in
 2. Wählen Sie die gebuchte Verkaufsrechnung, die Sie korrigieren möchten.
 
     > [!NOTE]  
->   Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.
+   >   Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.
 3. Im Fenster **Gebuchte Verkaufsrechnung** wählen Sie **Korrekt** aus.  
 4. Eine neue Verkaufsrechnung mit den gleichen Informationen wird erstellt, auf dem Sie die Korrektur machen können. Das Feld **Storniert** am Anfang gebuchten Verkaufsrechnung wird auf **Ja** geändert.
 
@@ -51,7 +51,7 @@ Wenn Sie eine gebuchte Verkaufsrechnung korrigieren oder stornieren, wird sie in
 2. Wählen Sie die gebuchte Verkaufsrechnung, die Sie stornieren möchten.
 
     > [!NOTE]  
->   Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.
+   >   Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.
 3. Im Fenster **Gebuchte Verkaufsrechnung** wählen Sie **Stornieren** aus.
 
     Eine Verkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren. Das Feld **Storniert** am Anfang gebuchten Verkaufsrechnung wird auf **Ja** geändert.

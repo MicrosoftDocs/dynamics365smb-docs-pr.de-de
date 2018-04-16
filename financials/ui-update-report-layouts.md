@@ -38,22 +38,22 @@ Wenn keine Fehler auftreten, wird die Aktualisierung für die Berichtslayouts ü
 
 ## <a name="to-test-custom-report-layout-updates"></a>Updates zu benutzerdefinierten Berichtslayouts testen  
   
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Berichtauswahl** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Berichtauswahl** ein. Wählen Sie dann den zugehörigen Link aus.  
   
-2.  Im Fenster **Auswahl des Berichtslayouts** wählen Sie die **Testlayout-Aktualisierungen** Aktion aus.  
+2. Im Fenster **Auswahl des Berichtslayouts** wählen Sie die **Testlayout-Aktualisierungen** Aktion aus.  
   
- Änderungen der Berichtslayouts werden getestet, jedoch nicht angewendet mit den tatsächlich Berichtslayouts. Ein **Aktualisierungsprotokoll Berichtlayout**-Fenster wird angezeigt, das den Status potenzieller Aktualisierungen für jedes Berichtslayout bereitstellt. Gibt es Fehler für ein Berichtslayout, können Sie auf das Berichtslayout zwecks Bearbeitung direkt aus der Meldung zugreifen, um sämtliche Probleme zu beheben. Weitere Informationen finden Sie unter [Beheben von Fehlern](ui-update-report-layouts.md#FixErrors).  
+   Änderungen der Berichtslayouts werden getestet, jedoch nicht angewendet mit den tatsächlich Berichtslayouts. Ein **Aktualisierungsprotokoll Berichtlayout**-Fenster wird angezeigt, das den Status potenzieller Aktualisierungen für jedes Berichtslayout bereitstellt. Gibt es Fehler für ein Berichtslayout, können Sie auf das Berichtslayout zwecks Bearbeitung direkt aus der Meldung zugreifen, um sämtliche Probleme zu beheben. Weitere Informationen finden Sie unter [Beheben von Fehlern](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Einschränkungen des Updates des benutzerdefinierten Berichtslayouts  
  Es gibt verschiedene Arten von Änderungen, die die automatische Aktualisieren für benutzerdefinierte Berichtslayouts übernehmen kann, zum Beispiel ein Feld, das im Layout verwendet wird, das aus dem Berichtsdataset entfernt wurde. Jedoch kann das automatische Aktualisieren die folgenden Änderungen an einem Berichtsdataset nicht verarbeiten.  
   
-1.  Gelöschte Felder, Beschriftungen oder Datenelemente.  
+1. Gelöschte Felder, Beschriftungen oder Datenelemente.  
   
-2.  Kopieren von Feldnamen im Berichtslayout, nachdem ein Feld im Dataset umbenannt wurde. Dieses sollte als Designfehler behandelt werden.  
+2. Kopieren von Feldnamen im Berichtslayout, nachdem ein Feld im Dataset umbenannt wurde. Dieses sollte als Designfehler behandelt werden.  
   
-3.  Aktualisieren von Szenarien, in denen es noch mehrere Iterationen eines Berichtslayouts gibt, das mehrere Umbenennungsaktionen bei denselben Feldern, Beschriftungen oder Datenelementen verursacht.  
+3. Aktualisieren von Szenarien, in denen es noch mehrere Iterationen eines Berichtslayouts gibt, das mehrere Umbenennungsaktionen bei denselben Feldern, Beschriftungen oder Datenelementen verursacht.  
   
- Wenn der Aktualisierungsvorgang eines dieser Probleme erkennt, kann die Aktualisierung nicht angewendet werden. Sie müssen die Probleme manuell korrigieren, indem Sie beispielsweise das Berichtslayout in Word bearbeiten, oder programmgesteuert, indem Sie Upgrade-Codeunits verwenden.  
+   Wenn der Aktualisierungsvorgang eines dieser Probleme erkennt, kann die Aktualisierung nicht angewendet werden. Sie müssen die Probleme manuell korrigieren, indem Sie beispielsweise das Berichtslayout in Word bearbeiten, oder programmgesteuert, indem Sie Upgrade-Codeunits verwenden.  
   
 ##  <a name="FixErrors"></a> Beheben von Fehlern  
  Wenn Sie eine Fehlermeldung bei der Aktualisierung oder dem Testen von Berichtslayoutupdates erhalten, dann müssen Sie wahrscheinlich das Berichtlayout ändern, um das Problem zu korrigieren. Lesen sie die Fehlermeldung, um den Grund des Problems zu ermitteln.  

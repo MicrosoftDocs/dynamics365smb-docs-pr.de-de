@@ -30,7 +30,7 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>So geben Sie allgemeine und obligatorische Einstellungen ein
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Dienst einrichten** ein. Wählen Sie dann den zugehörigen Link aus.
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Siehe auch  
 [Fehlerberichte einrichten](service-how-setup-fault-reporting.md)  

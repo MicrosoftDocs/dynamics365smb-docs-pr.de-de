@@ -32,26 +32,26 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 - Die Ressourcen sind eingerichtet. Weitere Informationen finden Sie unter [Einrichten von Arbeitsplatzgruppen und Arbeitsplätzen](production-how-to-set-up-work-and-machine-centers.md)
 
 ## <a name="to-create-a-routing"></a>So erstellen Sie ein Routing  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Arbeitspläne** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Wählen Sie die Aktion **Neu** aus.  
-3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Wählen Sie im Feld **Art** die Option **Serien**, um die Fertigungsarbeitsgänge abhängig vom Eintrag im Feld **Arbeitsgangnr.** zu berechnen. Feld   
-    Wählen Sie die Option **Parallel**, um die Arbeitsgänge abhängig vom Eintrag im Feld **Nächste Arbeitsgangnr.** zu berechnen. Feld  
-5.  Wenn Sie den Arbeitsplan bearbeiten möchten, setzen Sie das Feld **Status** auf **Neu** oder **In Entwicklung**. Um den Arbeitsplan zu aktivieren, setzen Sie das Feld **Status** auf **Zertifiziert**.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Arbeitspläne** ein. Wählen Sie dann den zugehörigen Link aus.  
+2. Wählen Sie die Aktion **Neu** aus.  
+3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Wählen Sie im Feld **Art** die Option **Serien**, um die Fertigungsarbeitsgänge abhängig vom Eintrag im Feld **Arbeitsgangnr.** zu berechnen. Feld   
+   Wählen Sie die Option **Parallel**, um die Arbeitsgänge abhängig vom Eintrag im Feld **Nächste Arbeitsgangnr.** zu berechnen. Feld  
+5. Wenn Sie den Arbeitsplan bearbeiten möchten, setzen Sie das Feld **Status** auf **Neu** oder **In Entwicklung**. Um den Arbeitsplan zu aktivieren, setzen Sie das Feld **Status** auf **Zertifiziert**.  
 
-    So füllen Sie die Arbeitsplanzeilen aus
-6.  Im Feld **Vorherige Arbeitsgangnr.** geben Sie die Nummer des ersten Arbeitsgangs ein, z. B. **10**.  
-7.  Geben Sie im Feld **Art** die verwendete Ressourcenart an, z. B. **Arbeitsplatzgruppe**.  
-8.  Geben Sie im Feld **Nr.** die zu verwendende Ressource oder geben Sie sie im Feld ein.  
-9.  Geben Sie im Feld **Verbindungscode** einen Code für die Verbindung der Komponente mit einem bestimmten Arbeitsgang ein. Weitere Informationen finden Sie unter "Gewusst wie: Arbeitspläne erstellen".
-10.  Geben Sie in den Feldern **Bearbeitungszeit** und **Rüstzeit** die benötigte Dauer zum Ausführen des Arbeitsgangs ein.  
+   So füllen Sie die Arbeitsplanzeilen aus
+6. Im Feld **Vorherige Arbeitsgangnr.** geben Sie die Nummer des ersten Arbeitsgangs ein, z. B. **10**.  
+7. Geben Sie im Feld **Art** die verwendete Ressourcenart an, z. B. **Arbeitsplatzgruppe**.  
+8. Geben Sie im Feld **Nr.** die zu verwendende Ressource oder geben Sie sie im Feld ein.  
+9. Geben Sie im Feld **Verbindungscode** einen Code für die Verbindung der Komponente mit einem bestimmten Arbeitsgang ein. Weitere Informationen finden Sie unter "Gewusst wie: Arbeitspläne erstellen".
+10. Geben Sie in den Feldern **Bearbeitungszeit** und **Rüstzeit** die benötigte Dauer zum Ausführen des Arbeitsgangs ein.  
 
     > [!NOTE]  
     >  Die Rüstzeit wird pro Fertigungsauftrag berechnet, wobei die Bearbeitungszeit pro Fertigungsartikel berechnet wird.  
 
-11.  Geben Sie im Feld **Gleichzeitig zu belasten** an, wie viele Einheiten der ausgewählten Ressource verwendet werden, um den Vorgang auszuführen. Beispielsweise halbiert sich die Bearbeitungszeit, wenn zwei Personen einem Verpackungsarbeitsgang zugeordnet werden.  
-12.  Füllen Sie weitere Zeilen für alle Arbeitsgänge aus, die für die Fertigung des betreffenden Artikels erforderlich sind.  
-13.  Wenn Sie aus einem vorhandenen Arbeitsplan kopieren möchten, klicken Sie auf **Arbeitsplan kopieren**, um vorhandene Zeilen auszuwählen.  
+11. Geben Sie im Feld **Gleichzeitig zu belasten** an, wie viele Einheiten der ausgewählten Ressource verwendet werden, um den Vorgang auszuführen. Beispielsweise halbiert sich die Bearbeitungszeit, wenn zwei Personen einem Verpackungsarbeitsgang zugeordnet werden.  
+12. Füllen Sie weitere Zeilen für alle Arbeitsgänge aus, die für die Fertigung des betreffenden Artikels erforderlich sind.  
+13. Wenn Sie aus einem vorhandenen Arbeitsplan kopieren möchten, klicken Sie auf **Arbeitsplan kopieren**, um vorhandene Zeilen auszuwählen.  
 14. Zertifizieren Sie den Arbeitsplan.  
 15. Sie können den neuen Arbeitsplan an die Karte des betreffenden Fertigungsartikels anhängen, indem das Feld **Arbeitsplan-Nr.** ausgefüllt wird. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).  
 

@@ -27,7 +27,7 @@ Wenn während der Produktion Ausschuss angefallen ist, dann kann dieser im FA-Is
 
 ## <a name="to-post-scrap-manually"></a>Ausschuss manuell buchen  
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Ausgabe-Buchblatt** ein und wählen den zugehörenden Link aus.  
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Geben Sie im Feld **Ausschussmenge** die Ausschussmenge ein.  
 4. Geben Sie im Feld **Ausschusscode** den Ausschusscode ein.  
 5. Wählen Sie die **Buchen** Aktion aus, um die Zeit zu buchen, die je Arbeitsgang aufgewendet wurde.  

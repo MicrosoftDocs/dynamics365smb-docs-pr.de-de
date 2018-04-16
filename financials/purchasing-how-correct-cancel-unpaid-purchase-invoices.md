@@ -31,7 +31,7 @@ Im Fenster **Geb. Einkaufsrechnung** können Sie die Schaltfläche **Korrigieren
 2. Wählen Sie die gebuchte Einkaufsrechnung, die Sie korrigieren möchten.  
 
     > [!NOTE]  
->   Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.
+   >   Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.
 3. Im Fenster **Gebuchte Einkaufsrechnung** wählen Sie **Korrekt** aus.
 
     Eine neue Verkaufsrechnung mit den gleichen Informationen wird erstellt, auf dem Sie die Korrektur machen können. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md). Das Feld **Storniert** am Anfang gebuchten Einkaufsrechnung wird auf **Ja** geändert.
@@ -44,7 +44,7 @@ Im Fenster **Geb. Einkaufsrechnung** können Sie die Schaltfläche **Korrigieren
 2. Wählen Sie die gebuchte Einkaufsrechnung, die Sie stornieren möchten.
 
     > [!NOTE]  
->   Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.
+   >   Wenn Sie das Kontrollkästchen **Storniert** auswählen, dann können Sie die gebuchte Einkaufsrechnung nicht korrigieren, da sie bereits korrigiert wurde oder storniert wurde.
 3. Im Fenster **Gebuchte Einkaufsrechnung** wählen Sie **Stornieren** aus.
 
     Eine Korrekturverkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren. Das Feld **Storniert** am Anfang gebuchten Einkaufsrechnung wird auf **Ja** geändert.

@@ -80,8 +80,8 @@ Zum Berechnen der Standardkapazitätskosten müssen Sie die Standardzeitlöhne f
 
 Sie können die Sätze für diese Zeitarten für jeden Arbeitsplatz bzw. jede Arbeitsplatzgruppe in einem eigenen Arbeitsplan einrichten.  
 
-> [!NOTE]  
-    >  Während Bearbeitungszeitsätze pro produziertem Artikel gelten, gelten Rüstzeitsätze pro Los. Daher muss die Arbeitsplanrüstzeit für jeden Arbeitsgang entsprechend der Losgröße umgelegt werden. Die Losgröße wird im entsprechenden Feld auf der Artikelkarte auf dem Inforegister **Bestellung** angegeben.  
+> [!NOTE]
+>  Während Bearbeitungszeitsätze pro produziertem Artikel gelten, gelten Rüstzeitsätze pro Los. Daher muss die Arbeitsplanrüstzeit für jeden Arbeitsgang entsprechend der Losgröße umgelegt werden. Die Losgröße wird im entsprechenden Feld auf der Artikelkarte auf dem Inforegister **Bestellung** angegeben.  
 
 Um Rüstzeiten im Arbeitsgang für die Planung anzugeben, jedoch nicht bei der Einstandspreisberechnung zu berücksichtigen, leeren Sie das Feld **Kosten inkl. Rüsten**  im Fenster **Produktion Einrichtung**.  
 

@@ -25,7 +25,7 @@ Um zu erkennen wie das Planungssystem funktioniert, ist es notwendig, die priori
 - Jeder Bedarf wird durch ausreichenden Vorrat abgedeckt.  
 - Jeder Vorrat dient einem Zweck.  
 
- Im Allgemeinen werden diese Ziele durch den Augleich von Bedarf und Vorrat erzielt.  
+  Im Allgemeinen werden diese Ziele durch den Augleich von Bedarf und Vorrat erzielt.  
 
 ## <a name="in-this-section"></a>In diesem Abschnitt  
 [Designdetails: Bedarf und Vorrat](design-details-demand-and-supply.md)  

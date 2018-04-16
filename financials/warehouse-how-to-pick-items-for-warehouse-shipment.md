@@ -72,7 +72,7 @@ Nachdem der Warenausgang gebucht ist, werden verschiedene Felder in der Verkaufs
 
 > [!NOTE]
 > In Kombinationsszenarien, in denen ein Teil der Menge zunächst montiert und ein anderer aus dem Lager geliefert werden muss, werden mindestens zwei Warenausgangszeilen erstellt. Eine für die Auftragsmontagemenge, und eine für die Lagermenge.
-
+> 
 > In diesem Fall wird die Auftragsmontagemenge wie in diesem Thema beschrieben behandelt, und die Lagermenge wird wie jede andere reguläre Warenausgangszeile verarbeitet. Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Siehe auch  

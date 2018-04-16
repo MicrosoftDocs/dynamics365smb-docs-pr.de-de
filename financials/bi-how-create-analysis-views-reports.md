@@ -69,10 +69,10 @@ Eine Vorlage enthält eine Gruppe von Zeilen, wobei jede Zeile eine Analysespalt
 4. Füllen Sie die Felder im Fenster **Analysespalten** aus, um die Spalten zu bestimmen, die der Analysebericht enthalten soll.  
 
     > [!NOTE]  
->   Um eine Spalte zu definieren, müssen Sie das Feld **Analysenartcode** für alle Spaltentypen außer **Formel** ausfüllen. Sie richten die Analysetypcodes im Fenster **Analysearten** ein.  
+   >   Um eine Spalte zu definieren, müssen Sie das Feld **Analysenartcode** für alle Spaltentypen außer **Formel** ausfüllen. Sie richten die Analysetypcodes im Fenster **Analysearten** ein.  
 
     **Hinweis**. Wenn Sie im Feld **Postenart** die Option **Artikelposten** auswählen, werden die aktuellen Zahlen aus dem Artikelposten kopiert. Wenn Sie **Artikelbudgetposten** auswählen, werden die budgetierten Zahlen aus dem Budget kopiert.  
-5.  Klicken Sie auf die Schaltfläche **OK**, um die Änderungen zu speichern.  
+5. Klicken Sie auf die Schaltfläche **OK**, um die Änderungen zu speichern.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Analysenzeilenvorlagen einrichten:  
 Das folgende Verfahren basiert auf Analyseberichten für Aufträge. Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.
@@ -96,7 +96,7 @@ Verwenden Sie Analyseberichte, um die Entwicklung der Verkäufe anhand der ausge
 
 1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsanalysebericht** ein und wählen den zugehörenden Link aus.  
 2. Wählen Sie im Fenster **Analyseberichtsverkauf** die Aktion **Neu** aus.
-3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die **Analysebericht bearbeiten** Aktion aus.
 5. Wählen Sie im Fenster **Analyseansichtsliste** die Aktion **Matrix anzeigen** aus.  
 

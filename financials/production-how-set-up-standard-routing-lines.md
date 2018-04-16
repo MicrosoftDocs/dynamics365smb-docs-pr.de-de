@@ -25,7 +25,7 @@ Die Verwendung von Standardkatalogen vereinfacht das Erstellen und Pflegen von A
 ## <a name="to-set-up-a-standard-task"></a>So richten Sie Standardaufgaben ein
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Standardaufgabe** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
-3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie **Werkzeuge**, **Personal**, **Beschreibung** oder die **Werkzeuge** Aktion aus.
 5. Im Fenster, das geöffnet wird, beschreiben Sie die jeweilige Standardaufgabe in der Frage.
 

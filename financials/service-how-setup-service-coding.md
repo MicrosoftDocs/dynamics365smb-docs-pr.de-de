@@ -28,12 +28,12 @@ Bei der Durchführung eines normalen Service müssen häufig Servicebelege erste
   
 ## <a name="to-set-up-a-standard-service-code"></a>So richten Sie einen Standardservicecode ein    
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Standardservicecode** ein. Wählen Sie dann den zugehörigen Link aus.  
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Füllen Sie die Servicezeilen aus, die mit diesem Servicecode verknüpft sind.  
+2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Füllen Sie die Servicezeilen aus, die mit diesem Servicecode verknüpft sind.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>So weisen Sie einer Serviceartikelgruppe einen Standardservicecode zu
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Serviceartikelgruppen** ein. Wählen Sie dann den zugehörigen Link aus.  
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Füllen Sie die Servicezeilen aus, die mit diesem Servicecode verknüpft sind.  
 
 ## <a name="see-also"></a>Siehe auch

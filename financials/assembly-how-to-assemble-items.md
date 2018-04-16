@@ -43,29 +43,29 @@ Diese Einrichtungsoptionen sind Standardeinstellungen, die verwalten, wie Verkau
 In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Artikel, die für das Lager montiert werden, d. h. ohne einen verknüpften Verkaufsauftrag. Die Schritte enthalten das Initiieren des Montageauftrags, die Behandlung potenzieller Komponentenverfügbarkeitsprobleme und die Teilbuchung des Montageartikelausstoßes.
 
 ## <a name="to-assemble-an-item"></a>Um einen Artikel zu montieren  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Montageaufträge** ein und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie die Aktion **Neu** aus. Das Fenster **Neuer Montageauftrag** wird geöffnet.  
-3.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Wählen Sie im Feld **Artikelnr.** den Montageartikel aus, den Sie verarbeiten möchten. Das Feld wird gefiltert, um nur Artikel angezeigt, die für die Montage eingerichtet sind, d.h., denen Montagestücklisten zugeordnet sind.  
-5.  Geben Sie im Feld **Menge** ein wie viele Einheiten des Artikels Sie montieren möchten.  
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Montageaufträge** ein und wählen dann den zugehörigen Link aus.  
+2. Wählen Sie die Aktion **Neu** aus. Das Fenster **Neuer Montageauftrag** wird geöffnet.  
+3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Wählen Sie im Feld **Artikelnr.** den Montageartikel aus, den Sie verarbeiten möchten. Das Feld wird gefiltert, um nur Artikel angezeigt, die für die Montage eingerichtet sind, d.h., denen Montagestücklisten zugeordnet sind.  
+5. Geben Sie im Feld **Menge** ein wie viele Einheiten des Artikels Sie montieren möchten.  
 
-    > [!NOTE]  
-    >  Wenn eine oder mehrere Komponenten nicht verfügbar sind, um die eingegebene Menge des Montageartikels zum definierten Fälligkeitsdatum herzustellen, dann wird automatisch das Fenster **Montageverfügbarkeit** geöffnet, um detaillierte Informationen darüber anzuzeigen, wie viele Montageartikel basierend auf der Komponentenverfügbarkeit montiert werden können. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md)  Wenn Sie das Fenster schließen, wird der Montageauftrag mit Verfügbarkeitswarnungen in den betroffenen Komponentenzeilen erstellt.  
+   > [!NOTE]  
+   >  Wenn eine oder mehrere Komponenten nicht verfügbar sind, um die eingegebene Menge des Montageartikels zum definierten Fälligkeitsdatum herzustellen, dann wird automatisch das Fenster **Montageverfügbarkeit** geöffnet, um detaillierte Informationen darüber anzuzeigen, wie viele Montageartikel basierend auf der Komponentenverfügbarkeit montiert werden können. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md)  Wenn Sie das Fenster schließen, wird der Montageauftrag mit Verfügbarkeitswarnungen in den betroffenen Komponentenzeilen erstellt.  
 
-    Die Montageauftragszeilen werden automatisch mit dem Inhalt der Montagestückliste und mit Zeilenmengen entsprechend dem Montageauftragskopf gefüllt.  
+   Die Montageauftragszeilen werden automatisch mit dem Inhalt der Montagestückliste und mit Zeilenmengen entsprechend dem Montageauftragskopf gefüllt.  
 
-    > [!NOTE]  
-    >  Wenn das Fenster **Montageverfügbarkeit** beim Ausfüllen des Montageauftragskopfs geöffnet wurde, dann enthalten alle betroffenen Montageauftragszeilen **Ja** im Feld **Verfügbarkeitswarnung** und eine Verknüpfung zu den detaillierten Verfügbarkeitsinformationen. Weitere Informationen finden Sie unter Verfügbarkeit prüfen. Sie können ein Komponentenverfügbarkeitsproblem lösen, indem Sie das Startdatum verschieben, die Komponente durch einen anderen Artikel ersetzen oder einen verfügbaren Ersatzartikel auswählen, sofern ein solcher definiert ist.  
+   > [!NOTE]  
+   >  Wenn das Fenster **Montageverfügbarkeit** beim Ausfüllen des Montageauftragskopfs geöffnet wurde, dann enthalten alle betroffenen Montageauftragszeilen **Ja** im Feld **Verfügbarkeitswarnung** und eine Verknüpfung zu den detaillierten Verfügbarkeitsinformationen. Weitere Informationen finden Sie unter Verfügbarkeit prüfen. Sie können ein Komponentenverfügbarkeitsproblem lösen, indem Sie das Startdatum verschieben, die Komponente durch einen anderen Artikel ersetzen oder einen verfügbaren Ersatzartikel auswählen, sofern ein solcher definiert ist.  
 
-6.  Geben Sie im Feld **Menge für Montage** ein, wie viele Einheiten des Montageartikels Sie als Ausstoß buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen. Diese Menge kann unter dem Wert im Feld **Menge** liegen, um eine Teilbuchung anzuzeigen.  
+6. Geben Sie im Feld **Menge für Montage** ein, wie viele Einheiten des Montageartikels Sie als Ausstoß buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen. Diese Menge kann unter dem Wert im Feld **Menge** liegen, um eine Teilbuchung anzuzeigen.  
 
-    > [!NOTE]  
-    >  Um sicherzustellen, dass die Buchung des Komponentenverbrauchs der Istmeldungsbuchung des Montageartikels entspricht, werden die Mengenfelder in den Montageauftragszeilen automatisch an den Wert angepasst, den Sie im Feld **Menge für Montage** eingeben.  
-7.  Geben Sie in Montageauftragszeilen vom Typ **Artikel** oder **Ressource** im Feld **Verbrauchsmenge** ein, wie viele Einheiten Sie als Verbrauch buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen. Standardmäßig werden die nach der Montagestückliste für den Verbrauch erwartete Menge und die Menge im Montageauftragskopf eingefügt. Sie können diese jedoch erhöhen oder verringern, um einen Überbedarf der Komponenten oder die Verwendung zusätzlicher Ressourcen anzuzeigen.  
-8.  Wenn Sie bereit sind, die Teil- oder die vollständige Buchung durchzuführen, wählen Sie die Aktion **Buchen**.  
+   > [!NOTE]  
+   >  Um sicherzustellen, dass die Buchung des Komponentenverbrauchs der Istmeldungsbuchung des Montageartikels entspricht, werden die Mengenfelder in den Montageauftragszeilen automatisch an den Wert angepasst, den Sie im Feld **Menge für Montage** eingeben.  
+7. Geben Sie in Montageauftragszeilen vom Typ **Artikel** oder **Ressource** im Feld **Verbrauchsmenge** ein, wie viele Einheiten Sie als Verbrauch buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen. Standardmäßig werden die nach der Montagestückliste für den Verbrauch erwartete Menge und die Menge im Montageauftragskopf eingefügt. Sie können diese jedoch erhöhen oder verringern, um einen Überbedarf der Komponenten oder die Verwendung zusätzlicher Ressourcen anzuzeigen.  
+8. Wenn Sie bereit sind, die Teil- oder die vollständige Buchung durchzuführen, wählen Sie die Aktion **Buchen**.  
 
-    > [!NOTE]  
-    >  Falls in den einzelnen Montageauftragszeilen noch Warnungen vorhanden sind, wird die Buchungen gesperrt. Eine Meldung über die Komponenten, die nicht im Lager sind, wird angezeigt.  
+   > [!NOTE]  
+   >  Falls in den einzelnen Montageauftragszeilen noch Warnungen vorhanden sind, wird die Buchungen gesperrt. Eine Meldung über die Komponenten, die nicht im Lager sind, wird angezeigt.  
 
 Nach erfolgreicher Buchung wird der Montageartikel als Ausstoß für den Lagerortcode und den potenziellen Lagerplatzcode gebucht, die im Montageauftrag definiert sind. Für manuell erstellte Montageaufträge wird der Lagerplatz möglicherweise aus dem Einrichtungsfeld **Standardlagerort für Aufträge** kopiert. Für Auftragsmontageflüsse wird der Lagerortcode möglicherweise aus der Verkaufsauftragszeile kopiert.  
 

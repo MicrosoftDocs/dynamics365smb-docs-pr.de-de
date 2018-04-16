@@ -39,29 +39,29 @@ Abhängig von der Art der Seite und was sie umfasst, können Sie:
 
     ![Modus personalisieren](media/ui_personalize_mode_small.png "Modus personalisieren")
 
-2.  Öffnen Sie die Seite, die Sie personalisieren möchten.
+2. Öffnen Sie die Seite, die Sie personalisieren möchten.
 
-    Wenn Sie ein Schlosssymbol im Banner sehen, siehe [Warum die Seite gesperrt ist](ui-personalization-locked.md) für weitere Informationen.
+   Wenn Sie ein Schlosssymbol im Banner sehen, siehe [Warum die Seite gesperrt ist](ui-personalization-locked.md) für weitere Informationen.
 
-3.  Zeigen Sie auf einen Bereich, den Sie anpassen möchten, beispielsweise ein Feld oder ein Spaltenüberschrift in einer Liste. Alles, was Sie anpassen können, wird gleichzeitig mit einem Pfeil oder einem Rahmen hervorgehoben.
-<!--
-    -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
-    -   If the component is a part, the extent of the part is indicated by a border.
-    -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
-    -->
+3. Zeigen Sie auf einen Bereich, den Sie anpassen möchten, beispielsweise ein Feld oder ein Spaltenüberschrift in einer Liste. Alles, was Sie anpassen können, wird gleichzeitig mit einem Pfeil oder einem Rahmen hervorgehoben.
+   <!--
+   -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
+   -   If the component is a part, the extent of the part is indicated by a border.
+   -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
+   -->
 
-4.  Verwenden Sie diese Tabelle, die Ihnen hilft, Änderungen vorzunehmen:     <table>
-        <tr><th>Was möchten Sie tun</td><th>So geht es</th></tr>
-        <tr><td>Etwas verschieben, wie ein Feld, eine Spalte in der Liste, eine Kachel oder ein Teil</td><td> Zeigen Sie auf eine beliebige Stelle in, was Sie befördern möchten, und ziehen Sie sie im neuen Lagerort. Der Lagerort wird entweder mit einer horizontalen oder einer vertikalen Zeile angegeben.</td></tr>
-        <tr><td>Entfernen Sie etwas</td><td>Auswählen der Pfeilspitze und wählen Sie <b>auf Entfernen</b> aus. </td></tr>
-        <tr><td>Hinzufügen eines Felds oder einer Spalte</td><td>Im Banner<b>Personalisieren</b> wählen Sie <b>mehr</b> und wählen Sie das <b>Feld</b> aus.<br /></br>Der Berecih <b>Feld oder Seite hinzufügen</b> wird geöffnet auf der rechten Seite. Es führt die Felder auf, die Sie auf der Seite hinzufügen können. Die Felder, die als <b>Platziert</b> gekennzeichnet werden, sind bereits auf der Seite. Die Felder, die als <b>Bereit</b> gekennzeichnet werden, sind nocht nicht auf der Seite.<br /></br>Um ein Feld hinzuzufügen, ziehen Sie es aus dem Bereich an den gewünschten Ort. Der Lagerort wird entweder mit einer horizontalen oder einer vertikalen Zeile angegeben.</td></tr>
-        <tr><td>Ändern Sie die Fixierung von Spalten in der Liste.</td><td>Wählen Sie die Spalte der Pfeilspitze, die Sie als letzte Spalte der Fixierung möchten, und wählen Sie dann <b>Fixierung einstellen</b> aus.<br /><br/>Wenn Sie die Fixierung wieder am ursprünglichen Ort wünschen, wählen Sie die Pfeilspitze für die aktuelle Fixierung und wählen Sie <b>Fixierung löschebn</b> aus. Hinweis: Sie können die ursprüngliche Fixierung nicht entfernen.</td></tr>
-      </table>
+4. Verwenden Sie diese Tabelle, die Ihnen hilft, Änderungen vorzunehmen:     <table>
+       <tr><th>Was möchten Sie tun</td><th>So geht es</th></tr>
+       <tr><td>Etwas verschieben, wie ein Feld, eine Spalte in der Liste, eine Kachel oder ein Teil</td><td> Zeigen Sie auf eine beliebige Stelle in, was Sie befördern möchten, und ziehen Sie sie im neuen Lagerort. Der Lagerort wird entweder mit einer horizontalen oder einer vertikalen Zeile angegeben.</td></tr>
+       <tr><td>Entfernen Sie etwas</td><td>Auswählen der Pfeilspitze und wählen Sie <b>auf Entfernen</b> aus. </td></tr>
+       <tr><td>Hinzufügen eines Felds oder einer Spalte</td><td>Im Banner<b>Personalisieren</b> wählen Sie <b>mehr</b> und wählen Sie das <b>Feld</b> aus.<br /></br>Der Berecih <b>Feld oder Seite hinzufügen</b> wird geöffnet auf der rechten Seite. Es führt die Felder auf, die Sie auf der Seite hinzufügen können. Die Felder, die als <b>Platziert</b> gekennzeichnet werden, sind bereits auf der Seite. Die Felder, die als <b>Bereit</b> gekennzeichnet werden, sind nocht nicht auf der Seite.<br /></br>Um ein Feld hinzuzufügen, ziehen Sie es aus dem Bereich an den gewünschten Ort. Der Lagerort wird entweder mit einer horizontalen oder einer vertikalen Zeile angegeben.</td></tr>
+       <tr><td>Ändern Sie die Fixierung von Spalten in der Liste.</td><td>Wählen Sie die Spalte der Pfeilspitze, die Sie als letzte Spalte der Fixierung möchten, und wählen Sie dann <b>Fixierung einstellen</b> aus.<br /><br/>Wenn Sie die Fixierung wieder am ursprünglichen Ort wünschen, wählen Sie die Pfeilspitze für die aktuelle Fixierung und wählen Sie <b>Fixierung löschebn</b> aus. Hinweis: Sie können die ursprüngliche Fixierung nicht entfernen.</td></tr>
+     </table>
 
-    > [!IMPORTANT]  
-    >   Sie können Änderungen an einer Übersicht nicht ändern, wenn die Liste als Kacheln angezeigt wird. Sie müssen zuerst die Seite wechseln und zur Listenansicht gehen, indem Sie ![Als Liste anzeigen](media/ui_show_as_list_icon.png "Anzeigen als Listenpfeil") auswählen.
+   > [!IMPORTANT]  
+   >   Sie können Änderungen an einer Übersicht nicht ändern, wenn die Liste als Kacheln angezeigt wird. Sie müssen zuerst die Seite wechseln und zur Listenansicht gehen, indem Sie ![Als Liste anzeigen](media/ui_show_as_list_icon.png "Anzeigen als Listenpfeil") auswählen.
 
-5.  Sie können fortfahren, um Änderungen auf derselben Seite vorzunehmen oder auf eine andere Seite zu verschieben. Ihre Änderungen werden automatisch gespeichert, während Sie diese erstellen. Wenn Sie im Fenster **Personalisieren** Banner fertig sind, wählen Sie **Erledigt** aus.
+5. Sie können fortfahren, um Änderungen auf derselben Seite vorzunehmen oder auf eine andere Seite zu verschieben. Ihre Änderungen werden automatisch gespeichert, während Sie diese erstellen. Wenn Sie im Fenster **Personalisieren** Banner fertig sind, wählen Sie **Erledigt** aus.
 
 ## <a name="clear-personalization-to-change-a-page-back-to-its-original-layout"></a>Löschen Sie die Personalisierung, um eine Seite oder im ursprünglichen Layout zu ändern
 Deaktivieren Sie alle an dieser Seite im Lauf der Zeit vorgenommenen Personalisierungsänderungen, sodass die Seite wieder wie vorher aussieht Um dies zu tun, wählen Sie **Personalisieren** und **Mehr** und dann **Personalisierung löschen**.

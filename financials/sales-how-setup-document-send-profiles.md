@@ -29,7 +29,7 @@ Wenn Sie die Schaltfläche **Buchen und senden** für einen Verkaufsbeleg auswä
 ## <a name="to-set-up-a-document-sending-profile"></a>Einrichten von Belegsendeprofilen
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Dokumentsendeprofil** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Im Feld **Dokumentsendeprofile** wählen Sie die Aktion **Neu** aus.
-3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Sendeprofil für eine Debitorenkarte festlegen
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kunden** ein. Wählen Sie dann den zugehörigen Link aus.

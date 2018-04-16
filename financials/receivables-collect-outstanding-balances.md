@@ -47,7 +47,7 @@ Nach dem Erstellen von Zinsrechnungen und dem Vornehmen von möglicherweise erfo
 
 ## <a name="to-send-the-customer-statement-report"></a>Um den Kontoauszugsbericht zu senden
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Kundenauszug** ein. Wählen Sie dann den zugehörigen Link aus.
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Unter **Ausgabeoptionen** wählen Sie aus, wie der Bericht an den Kunden gesendet wird.
 
 > [!NOTE]  

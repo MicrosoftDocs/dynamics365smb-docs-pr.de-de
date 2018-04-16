@@ -26,7 +26,7 @@ In den einzelnen Projektkarten müssen Sie Preise für Projektressourcen Projekt
 
 ## <a name="to-set-general-information-for-jobs"></a>Um allgemeine Informationen für Projekte einzurichten:
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Projekt einrichten** ein. Wählen Sie dann den zugehörigen Link aus.
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Das Kontrollkästchen **Verbrauchslink anwenden** ist sehr umfangreich und wird deshalb im folgenden Abschnitt erläutert.

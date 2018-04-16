@@ -25,7 +25,7 @@ Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese in 
 ## <a name="to-set-up-purchasers"></a>So richten Sie Einkäufer ein
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Einkäufer/Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie im Fenster **Verkäufer/Einkäufer** die Aktion **Neu** aus.
-3. Füllen Sie im Fenster **Verkäufer-/Einkäuferkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Füllen Sie im Fenster **Verkäufer-/Einkäuferkarte** die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Einkäufer Kreditoren zuweisen
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.

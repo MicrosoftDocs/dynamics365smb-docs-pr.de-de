@@ -25,7 +25,7 @@ Sie können Lösungsanleitungen einrichten, die den Technikern helfen, Probleme 
 
 ## <a name="to-set-up-troubleshooting-guidelines"></a>So richten Sie Lösungsanleitungen ein
 1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Problemlösung** ein. Wählen Sie dann den zugehörigen Link aus.  
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-troubleshooting-guidelines-to-items-service-items-or-service-item-groups"></a>In diesem Fenster können Sie Lösungsanleitungen Serviceartikelgruppen, Artikeln oder Serviceartikeln zuordnen.
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen-Symbol ") aus und geben Sie **Artikel** oder **Serviceartikel** oder **Serviceartikelgruppe** ein. Wählen Sie dann den zugehörigen Link aus.  

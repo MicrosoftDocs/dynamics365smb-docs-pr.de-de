@@ -31,11 +31,11 @@ Es gibt acht verfügbare AfA-Methoden:
 * Manuell  
 
   > [!NOTE]  
->   Sie können diese Methode für Anlagen verwenden, die nicht abgeschrieben werden z. B. Land. Sie müssen die Beschreibung im Anlagen Fibu Buch.-Blatt eingeben. Die Stapelverarbeitung **Abschreibung berechnen** berücksichtigt keine Anlagen mit dieser Abschreibungs-Methode.  
+  >   Sie können diese Methode für Anlagen verwenden, die nicht abgeschrieben werden z. B. Land. Sie müssen die Beschreibung im Anlagen Fibu Buch.-Blatt eingeben. Die Stapelverarbeitung **Abschreibung berechnen** berücksichtigt keine Anlagen mit dieser Abschreibungs-Methode.  
 * US-Halbjahresregel  
 
   > [!NOTE]  
->    Wenn diese Methode verwendet wird, wird eine Anlage jedes Jahr mit dem gleichen Betrag abgeschrieben.  
+  >    Wenn diese Methode verwendet wird, wird eine Anlage jedes Jahr mit dem gleichen Betrag abgeschrieben.  
 
 ## <a name="straight-line-depreciation"></a>Lineare Abschreibung
 Wenn Sie die Methode "Linear" verwenden, müssen Sie eine der folgenden Optionen im Anlagen-AfA-Buch angeben:  
@@ -233,7 +233,7 @@ Im Fenster **Abschreibungstabelle** können Sie benutzerdefinierte AfA-Methoden 
 
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite und Bericht suchen") und geben **AfA-Tabellen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Im Feld **AfA-Tabelle Übersicht** wählen Sie die Aktion **Neu** aus.  
-3. Füllen Sie im Fenster **AfA-Tabelle - Karte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Füllen Sie im Fenster **AfA-Tabelle - Karte** die Felder wie benötigt aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Beispiel - Benutzerdefinierte AfA
 Sie verwenden eine Abschreibungsmethode, die es Ihnen erlaubt, Anlagen für steuerliche Zwecke schneller abzuschreiben.  

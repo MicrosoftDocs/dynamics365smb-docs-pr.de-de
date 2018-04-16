@@ -27,7 +27,7 @@ Der folgende Ablauf zeigt, wie man Standardverkaufszeilen einrichtet. Es geht au
 ## <a name="to-set-up-standard-sales-lines"></a>So richten Sie eine Standard-Verkaufszeile ein  
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Standardverkaufscode** ein. Wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie im Fenster **Standardverkaufszeile** die Aktion **Neu** aus.  
-3. Füllen Sie im Inforegister **Allgemein** die notwendigen Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Füllen Sie im Inforegister **Allgemein** die notwendigen Felder aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Im Inforegister **Zeilen** können Sie Informationen in die Felder eingeben, um Verkaufszeilen vorzubereiten, die die Standardzeilen widerspiegeln, von der Sie erwarten, wiederkehrende Zeilen in Einkaufsbelegen zu verwenden.  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a>Um auf einer Verkaufsrechnung Standardverkaufszeilen einfügen

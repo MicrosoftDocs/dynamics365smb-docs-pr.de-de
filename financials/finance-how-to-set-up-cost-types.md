@@ -35,17 +35,17 @@ Kostenartenpläne ähneln Kontenpläne im Sachkonto. Sie können den Kostenarten
     >  Die **Kostenarten in Kontenplan registrieren**-Funktion aktualisiert das Verhältnis zwischen dem Kontenplan und dem Kostenartenplan. Das **Nr.** Das Feld  wird ausgefüllt und geprüft, um sicherzustellen, dass jedes Sachkonto mit nur einer Kostenart verknüpft ist. Die Funktion wird automatisch ausgeführt, bevor Sie Sachposten in die Kostenrechnung übertragen.  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>So richten Sie im Fenster "Liquiditätskontenplan" neue Liquiditätskonten ein  
-1.  Öffnen Sie das Fenster **Kontenplan-Arten** im Bearbeitungsmodus.  
-2.  Füllen Sie je nach Bedarf die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Öffnen Sie das Fenster **Kontenplan-Arten** im Bearbeitungsmodus.  
+2. Füllen Sie je nach Bedarf die Felder aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  Sie können Kostenarten im Fenster **Kostenartkarte** oder im Fenster **Kostenartenplan** einrichten und verwalten. So richten Sie im Fenster **Liquiditätskontenplan** neue Liquiditätskonten ein.
+   > [!NOTE]  
+   >  Sie können Kostenarten im Fenster **Kostenartkarte** oder im Fenster **Kostenartenplan** einrichten und verwalten. So richten Sie im Fenster **Liquiditätskontenplan** neue Liquiditätskonten ein.
 
-3.  Nachdem Sie alle Kostenarten erstellt haben, wählen Sie die Aktion **Kostenarten einrücken** aus. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**.  
-4.  Verknüpfen Sie die neue Kostenart mit dem entsprechenden Sachkonto.  
+3. Nachdem Sie alle Kostenarten erstellt haben, wählen Sie die Aktion **Kostenarten einrücken** aus. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**.  
+4. Verknüpfen Sie die neue Kostenart mit dem entsprechenden Sachkonto.  
 
-    > [!IMPORTANT]  
-    >  Wenn Sie in den Feldern **Zusammenzählung** Definitionen für die Zeilenart **Bis-Summe** eingetragen haben, bevor Sie die Funktion **Kostenarten einrücken** ausgeführt haben, müssen Sie diese Eintragungen wiederholen, da die Funktion die Werte in allen **Bis-Summe**-Feldern überschreibt.  
+   > [!IMPORTANT]  
+   >  Wenn Sie in den Feldern **Zusammenzählung** Definitionen für die Zeilenart **Bis-Summe** eingetragen haben, bevor Sie die Funktion **Kostenarten einrücken** ausgeführt haben, müssen Sie diese Eintragungen wiederholen, da die Funktion die Werte in allen **Bis-Summe**-Feldern überschreibt.  
 
 ## <a name="to-update-cost-types"></a>So aktualisieren Sie Kostenarten  
 1.  Im Fenster **Kostenrechnung einrichten**  wählen Sie aus, ob der Kostenartenplan automatisch aktualisiert werden soll, wenn der Kontenplan geändert wird.  

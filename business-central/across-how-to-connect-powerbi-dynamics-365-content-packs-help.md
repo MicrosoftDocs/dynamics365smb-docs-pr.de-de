@@ -10,6 +10,7 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/03/2018
 ms.author: solsen
+redirect_url: admin-powerbi
 ms.translationtype: HT
 ms.sourcegitcommit: 9cad9c7e2b54506e60af7d38d42f413599a44d01
 ms.openlocfilehash: 7b9140611a47b8b823274763731cf000258c681e

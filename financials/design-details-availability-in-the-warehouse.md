@@ -51,16 +51,16 @@ Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager a
 
  Eine Reservierung aller Artikel im Lager sollte mögich sein außer bei jenen, deren ausgehende Verabeitung bereits begonnen hat. Entsprechend wird die Menge, die reservierbar ist, als die Menge auf allen Belegen und an allen Lagerplatzarten definiert, ausgenommen die folgenden ausgehenden Mengen:  
 
--   Menge für nicht registrierte Kommissionierbelege  
--   Menge der in Lieferung enthaltenen Lagerplätze  
--   Menge in Fert.-Bereitst.-Lagerplatzcodes  
--   Menge in Off. Fert.-Ber.-Lagerpl.  
--   Menge in Mont.-Bereitst.-Lagerplätzen  
--   Menge in Ausgleichslagerplätzen  
+- Menge für nicht registrierte Kommissionierbelege  
+- Menge der in Lieferung enthaltenen Lagerplätze  
+- Menge in Fert.-Bereitst.-Lagerplatzcodes  
+- Menge in Off. Fert.-Ber.-Lagerpl.  
+- Menge in Mont.-Bereitst.-Lagerplätzen  
+- Menge in Ausgleichslagerplätzen  
 
- Das Ergebnis wird im Feld **Verfügbare Gesamtmenge** im Fenster **Reservierungen** angezeigt.  
+  Das Ergebnis wird im Feld **Verfügbare Gesamtmenge** im Fenster **Reservierungen** angezeigt.  
 
- In einer Reservierungszeile wird die Menge, die nicht reserviert werden kann, da sie im Lager zugeordnet wird, im Feld **Zugewiesene Menge im Lager** im Fenster **Reservierungen** angezeigt.  
+  In einer Reservierungszeile wird die Menge, die nicht reserviert werden kann, da sie im Lager zugeordnet wird, im Feld **Zugewiesene Menge im Lager** im Fenster **Reservierungen** angezeigt.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Berechnen der zur Reservierung verfügbaren Menge  
  Die zur Reservierung verfügbare Menge wird wie folgt berechnet:  

@@ -25,7 +25,7 @@ Wenn Sie den Lagerwert eines Artikels oder den eines bestimmten Artikelpostens n
 ## <a name="to-revalue-inventory"></a>Neubewerten von Lagerbestand
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Neubewertung Buch.-Blatt** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Lagerwert berechnen** aus.
-3. Füllen Sie im Fenster **Lagerwert berechnen** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Füllen Sie im Fenster **Lagerwert berechnen** die Felder nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die Schaltfläche **OK** aus.
 5. In jeder Zeile im Fenster **Neubewertungs-Blatt-Blatt** im Feld **Einheitskosten (neu bewertet)** geben Sie den neuen Einstandspreis ein. Oder geben Sie den Gesamtbetrag im Feld **Lagerwert (neu bewertet)** ein.
 
