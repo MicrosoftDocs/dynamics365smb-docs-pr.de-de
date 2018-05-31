@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: kit, kitting
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b03cc5a21ca49f85fa859736b074bd72cb5c6499
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: 84f60fbe7700967825b1e7086c5cc095ba47d66e
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="sell-items-assembled-to-order"></a><span data-ttu-id="0d214-104">Verkaufen von Auftragsmontageartikeln</span><span class="sxs-lookup"><span data-stu-id="0d214-104">Sell Items Assembled to Order</span></span>

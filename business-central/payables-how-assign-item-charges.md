@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: transportation, added cost
+ms.search.keywords: transportation, added cost, landed cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 717090789c380bee19f12882fc4fc6ade76c8420
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: 4a4ac8a2e5e718c587f3b6fa80aa94c313a5fd77
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a><span data-ttu-id="7acb6-103">Verwenden von Artikelzuschlägen für zusätzliche Kosten</span><span class="sxs-lookup"><span data-stu-id="7acb6-103">Use Item Charges to Account for Additional Trade Costs</span></span>

@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: kit, kitting
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c5e23bdd507cd4b08cede911fa8572458b91eb94
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: 8a018917b5aba7b37696b296a741c1a0e989ac7f
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="assemble-items"></a><span data-ttu-id="a0c62-103">Artikel montieren</span><span class="sxs-lookup"><span data-stu-id="a0c62-103">Assemble Items</span></span>

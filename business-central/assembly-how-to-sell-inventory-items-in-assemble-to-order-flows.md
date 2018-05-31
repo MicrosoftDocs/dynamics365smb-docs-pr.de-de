@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: kit, kitting
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97b79683ba6c770912349c772f1f7adb443b94ed
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: dc4b8c7005936341d23788363da4d0c996f7428b
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a><span data-ttu-id="6407e-104">So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen</span><span class="sxs-lookup"><span data-stu-id="6407e-104">Sell Inventory Items in Assemble-to-Order Flows</span></span>

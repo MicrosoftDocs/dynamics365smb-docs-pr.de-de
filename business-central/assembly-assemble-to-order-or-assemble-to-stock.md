@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: kit, kitting
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e09bc15f21acbcdf55908064b9867728a7870fb4
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: 3e24dd898bf427ab386c5c052b035d1192f84e9f
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a><span data-ttu-id="1b1f6-103">Auftragsmontage und Lagermontage verstehen</span><span class="sxs-lookup"><span data-stu-id="1b1f6-103">Understanding Assemble to Order and Assemble to Stock</span></span>

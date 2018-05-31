@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: kit, kitting
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2a4fbc87be6f6c78feabe04ca0461ee1725c16e0
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: 7f52503e9e39496a8693ce4aaae73142be597e83
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="undo-assembly-posting"></a><span data-ttu-id="85c2d-103">Montagesbuchungen rückgängig machen</span><span class="sxs-lookup"><span data-stu-id="85c2d-103">Undo Assembly Posting</span></span>
