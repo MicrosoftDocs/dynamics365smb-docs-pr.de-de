@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6054136dc0722be673b5a7593a371cbec2948e6c
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 78d97c11662f2e05e17e15213406076ae5bba7a6
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Bewährte Einrichtungsmethoden: Planungsparameter
@@ -26,8 +26,7 @@ Das Inforegister **Planung** auf der Artikelkarte ist Mittelpunkt der gesamten L
 |-----------------|-------------------|-------------|  
 |Wiederbeschaffungsverfahren||Weitere Informationen finden Sie unter [Bewährte Einrichtungsmethoden: Wiederbeschaffungsverfahren](setup-best-practices-reordering-policies.md).|  
 |Reservieren|Wählen Sie **Nie** aus, wenn der Artikel unter Verwendung eines Minimalbestands geplant wird.<br /><br /> Wählen Sie in der Fertigung **Nie** aus, um es dem Planungssystem zu gestatten, alle Bedarfsposten abzudecken.<br /><br /> Wählen Sie **Optional** für Artikel aus, die Sie für Debitoren mit höchster Priorität reservieren wollen.<br /><br /> Wählen Sie **Immer** für nicht eindeutige Artikel aus, wie beispielsweise Artikel des Typs "Sonstiges", die für bestimmte Bedarfsposten eingehend sind.|Reservierungen wirken im Allgemeinen dem Zweck der Planung entgegen, nämlich einem Ausgleich zwischen Bedarf und Vorrat. Daher sollten Artikel, die für die Planung eingerichtet wurden, im Allgemeinen nicht reserviert werden.<br /><br /> Wenn der Benutzer eine Lagerbestandsmenge für zukünftigen Bedarf reserviert, wird die Planungsgrundlage gestört, und der Minimalbestand funktioniert möglicherweise nicht ordnungsgemäß. Selbst wenn der voraussichtliche Lagerbestand im Hinblick auf den Minimalbestand akzeptabel ist, stehen die Mengen möglicherweise aufgrund der Reservierung nicht zur Verfügung.|  
-|Toleranzperiode|Legen Sie dies im Hinblick auf die Flexibilität des Lieferanten fest.|Wenn der Lieferant Änderungen in letzter Minute an den Aufträgen akzeptiert, verwenden Sie eine längere Periode. Wenn für den Lieferanten eine feste Planung erforderlich ist, dann halten Sie die Periode so kurz wie möglich.<br /><br /> Informationen zur globalen Einrichtung, siehe [Designdetails: Planungsparameter](design-details-planning-parameters.md).|  
-|Toleranzmenge||Informationen zur globalen Einrichtung, siehe [Designdetails: Planungsparameter](design-details-planning-parameters.md).|  
+|Toleranzperiode|Legen Sie dies im Hinblick auf die Flexibilität des Lieferanten fest.<br /><br /> Eine längere Periode gibt Ihnen die Möglichkeit, besseren Kundenservice bereitzustellen, aber erfordert auch mehr Aktivitäten.|Wenn für den Lieferanten eine letzte Änderungen zu den Aufträgen akzeptiert wird, verwenden Sie eine längere Periode für neu zu planende Aktionen. Wenn für den Lieferanten eine feste Planung erforderlich ist, dann halten Sie die Periode so kurz wie möglich.<br /><br /> Informationen zur globalen Einrichtung, siehe **Toleranzperiode** under [Designdetails: Parameter Planen](design-details-planning-parameters.md)|  
 |Lagerbestand berücksichtigen|Wählen Sie dies immer aus, wenn Sie das Los-für-Los-Wiederbeschaffungsverfahren verwenden.|Wählen Sie dies nur in bestimmten Fällen nicht aus, beispielsweise wenn keine Lagerartikel verkäuflich sind.|  
 |Sicherh.-Zuschl. Beschaff.-Zt.|Die Einstellung muss zwischen 1D und 6D. liegen.<br /><br /> Legen Sie einen Sicherheitszuschlag zur Beschaffungszeit von mindestens einem Tag fest, um sicherzustellen, dass die Lieferungen an dem Tag verfügbar sind, an dem sie benötigt werden.<br /><br /> Wenn Sie einen neuen Lieferanten verwenden, legen Sie einen längeren Zeitraum fest, bis dessen Liefertreue bekannt ist.<br /><br /> In der Herstellung definieren Sie längere Sicherheitszuschläge zur Beschaffungszeit für wichtige Komponenten.|Vom System geplante Lieferungen, um zu vermeiden, dass am gleichen Tag, an dem Bestand nicht lieferbar ist, Bestand nicht lieferbar ist. Dies kann sich möglicherweise als mehrere Stunden zu spät erweisen, wenn beispielsweise der Bedarf morgens erforderlich ist und die Lieferung am Nachmittag eingeht. **Hinweis:** Das Feld **Sicherh.-Zuschl.-Zt.** verwendet den Basiskalender. Daher bedeutet 14T nicht notwendigerweise zwei Wochen.|  
 |Sicherheitsbestand|Verwendung für Artikel mit großen Nachfrageschwankungen.<br /><br /> In der Produktion, Verwendung für wichtige Komponenten.<br /><br /> Verwendung für Artikel, die Servicevereinbarungen unterliegen.|Wenn das Feld **Minimalbestant** nicht ausgefüllt ist, dann dient der Sicherheitsbestand auch als Minimalbestand.|  

@@ -13,21 +13,21 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ändern von grundlegenden Einstellungen
-Im Fenster **Meine Einstellungen** können Sie grundlegende Einstellungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] ansehen und ändern.  
+Im Fenster **Meine Einstellungen** können Sie grundlegende Einstellungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] ansehen und ändern. Änderungen, die Sie durchführen, betreffen nur den Arbeitsbereich; nicht die Arbeitsbereiche anderer Benutzer.  
 
 ## <a name="role-center"></a>Rollencenter
-Das Rollencenter stellt die Startseite dar und wurde für die Anforderungen der Rolle entworfen. Das Rollencenter bietet Ihnen eine Übersicht des Unternehmen und spiegelt die Informationen, Aufgaben und Prioritäten der Rolle.
+Das Rollencenter erstellt die Homepage, eine Startseite, die für die Anforderungen der Rolle entworfen wurde. Abhängig von der Rolle gibt das Rollencenter Ihnen einen Überblick über das Unternehmen, Ihre Abteilung oder Ihre persönlichen Aufgaben. Es hilft Ihnen auch, zu Ihren Tagewerken zu navigieren und Arbeit zu finden, die Ihnen zugeordnet wird.
 
-Entlang der Bereich des Rollencenters, sehen Sie eine Navigationsleiste, die Ihnen Zugriff auf typischen Einheiten für die Rolle, z Debitoren, Kreditoren, Artikel usw., gibt.
+-   Oben erlaubt es Ihnen die Navigation, zwischen Debitoren, Kreditoren, Artikeln sowie anderen wichtigen Listen von Informationen zu wechseln. Ebenso können Sie Aufgaben einleiten, wie eine neue Verkaufsrechnung direkt im Rollencenter zu erstellen.
 
-Was im Hauptinhaltsbereich erscheint, hängt vom jeweiligen Rollencenter ab. Beispielsweise können Sie in den meisten in Rollencentern die Aktivitätskacheln suchen, die aktuelle Daten anzeigen und für einen einfachen Zugriff auf den ausgewählten Beleg geklickt werden oder getippt werden. Die zentralen Leistungs-Indikatoren können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Einige Rollencenter aktivieren Sie, um eine Liste der Lieblingseinheiten, beispielsweise Debitoren und Kreditoren zu erstellen oder zeigen den Berichtseingang an.
+-   Im Mittelpunkt finden Sie die Kacheln **Aktivitäten**. Aktivitäten zeigen aktuelle Daten an und können geklickt werden oder getippt werden, um detailliertere Informationen anzuzeigen. Die zentralen Leistungs-Indikatoren können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Sie können eine Liste von Lieblingsdebitoren auf der Homepage auch für Konten einrichten, mit denen Sie häufig Geschäfte tätigen oder besondere Aufmerksamkeit geben müssen.
 
 ### <a name="to-change-role-center"></a>So ändern Sie ein Rollencenter
 Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können ein anderes Rollencenter auswählen, das mit den Anforderungen besser übereinstimmt.
@@ -55,10 +55,16 @@ Standardmäßig wird das aktuelle Datum (Systemdatum) verwendet. Um Aufgaben wie
 ## <a name="region"></a>Region
 Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.   
 
+
+## <a name="language"></a>Sprache
+Ändert die Anzeigensprache. Dieses Feld erscheint nur, wenn es mehr als einer Sprache, gibt zum Auswählen. 
+
+Die ursprüngliche Sprache wird entweder vom Administrator oder durch die Browsereinstellungen bestimmt, wenn Sie sich anmelden bei [!INCLUDE[d365fin](includes/d365fin_md.md)]. Die Sprache, die Sie festlegen, wird in allen Geräten verwendet werden, bei denen Sie sich anmelden wie Telefon oder Tablet. 
+
 ## <a name="changing-when-i-receive-notifications"></a>Ändern, wann I Benachrichtigungen erhalten.
 Wählen Sie diesen Link, um Benachrichtigungen zu ändern oder anzuzeigen, die Sie zu bestimmten Ereignissen oder Veränderungen im Status erhalten, wie wenn Sie einen Kunden fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Weitere Informationen finden Sie unter [Intelligente Benachrichtigungen](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)  
+[Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)  
 

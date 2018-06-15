@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 09/05/2017
+ms.date: 04/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: c7359c5246ebbc588673409740fdfbad01685308
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivieren Sie Ihre Geschäftsdaten für Power BI
 Einblicke in Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)]-Daten zu erhalten ist mit Power BI und dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Financials-Inhaltspaket sehr einfach. Power BI ruft die Daten ab und dann erstellt ein Standarddashboard und Berichte auf Grundlage der Daten.  
+
+Sie müssen ein gültiges Konto mit Dynamics 365 und Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen, wenn Sie Ihre eigenen Power BI-Berichte erstellen möchten. Power BI Inhaltpakete benötigen Berechtigungen für die Tabellen, aus denen Daten abgerufen werden. Weitere Einzelheiten auf den Anforderungen werden im Folgenden beschrieben.  
 
 Microsoft hat folgende Inhaltspakete veröffentlicht:
 
@@ -41,85 +43,128 @@ Das Inhaltspaket ist vorkonfiguriert, um mit Umsatzdaten und Finanzdaten aus dem
 > [!NOTE]  
 >   Sie können eigene Berichte und Dashboards in Power BI auf Grundlage Ihrer Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen. Weitere Informationen finden Sie unter [Verbindung von Geschäftsdaten an Power BI](across-how-use-financials-data-source-powerbi.md).  
 
-## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Auf [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI zugreifen
-Um Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)]-Daten in Power BI anzuzeigen, müssen Sie Folgendes haben:  
+## <a name="how-to-connect"></a>So stellen Sie die Verbindung her
+1. Wählen Sie **Daten abrufen** am unteren Rand des linken Navigationsbereich aus.  
+![Navigieren, um die Daten zu erhalten](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-* Zugriff auf [!INCLUDE[d365fin](includes/d365fin_md.md)] Weitere Informationen finden Sie unter [Business Central](http://go.microsoft.com/fwlink/?LinkID=759714).  
-* Zugriff auf Power BI Weitere Informationen finden Sie unter [Power BI](https://powerbi.microsoft.com).
+Sie können auch aus Dynamics 365 Business Edition heraus beginnen. Im Rollencenter navigieren Sie zu **Berichtsauswahl** im Power BI-Rollencenterteil. Wählen Sie entweder **Service** oder **Mein Unternehmen** im Menüband aus. Wenn eine dieser Aktionen ausgewählt wird, gelangen Sie zu der jeweiligen Dienstgalerie in Power BI oder zu der Dienstbibliothek in Power BI, die zudem so gefiltert ist, dass nur Inhaltspakete zu [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] angezeigt werden.
 
-Auf der Power BI-Website finden Sie zusätzliche Informationen zum [Verbinden mit den Services mit Inhaltspaketen für Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
+2. Im Feld **Dienste** wählen Sie **Abrufen** aus. Dadurch wird ein Fenster mit **AppSource** und **Apps für Power BI Apps** geöffnet.  
+![Wählen Sie Inhaltspakete von Onlinediensten aus](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
+3. Wählen Sie **Apps** auf der Registerkarte **Apps für Power BI Apps**, wählen Sie das Feld **Microsoft Dynamics 365 Business Central** Inhaltspakete, die Sie verwenden möchten, und wählen Sie dann **jetzt abrufen**.  
+![Wählen Sie Dynamics 365 Business Central und wählen Sie "Jetzt abrufen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
+4. Wenn Sie dazu aufgefordert werden, geben Sie in [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] den Namen des *Unternehmens* ein. Dies ist nicht der Anzeigename. Der Name des Unternehmens kann auf der Seite „Unternehmen“ innerhalb Ihrer [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]- Instanz gefunden werden.  
+![Wählen Sie Dynamics 365 Business Central und wählen Sie jetzt abrufen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+5. Sobald verbunden, werden ein Dashboard, ein Bericht und ein Datensatz automatisch in Ihren Power BI Arbeitsbereich geladen. Wenn abgeschlossen, werden die Kacheln die Daten aus Ihrem [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-Unternehmen aktualisieren.
+![Wählen Sie Dynamics 365 Business Central und wählen Sie jetzt abrufen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-Um auf die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI auf der Verbindungsseite zuzugreifen, müssen Sie die folgenden Informationen angeben:
+## <a name="what-now"></a>Was jetzt?
 
-| Feld | Beschreibung |
-| --- | --- |
-| **OData-Feed-URL** |Die OData URL, damit Power BI auf Daten von Ihrem Mandanten zugreifen kann, wie https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
-| **Authentifizierungsmethode** |Wählen Sie **Standard** aus. |
-| **Benutzername** |Ihr Name, wie er in Ihrem Konto in [!INCLUDE[d365fin](includes/d365fin_md.md)] angezeigt wird wie *John Smith*. |
-| **Kennwort** |Dies ist der Webdienst-Zugriffsschlüssel für Ihr Benutzerkonto in [!INCLUDE[d365fin](includes/d365fin_md.md)] |
+- Versuchen Sie im [Erstellen eine Frage im Q&A-Feld](https://docs.microsoft.com/en-us/power-bi/service-q-and-a) im oberen Bereich des Dashboards.
+- [Ändern Sie die Kacheln](https://docs.microsoft.com/en-us/power-bi/service-dashboard-edit-tile) im Dashboard.  
+- [Wählen Sie eine Kachel aus](https://docs.microsoft.com/en-us/power-bi/service-dashboard-tiles), um den zu Grunde liegenden Bericht zu öffnen.  
+- Während Ihr Dataset täglich aktualisiert wird, können Sie den Aktualisierungsplan ändern oder ihn mithilfe von **jetzt aktualisieren** bei Bedarf aktualisieren.
 
-Das bedeutet, dass Sie drei Informationen aus [!INCLUDE[d365fin](includes/d365fin_md.md)] benötigen: die *OData-URL* und den *Webdienst-Zugriffsschlüssel* für Ihr Benutzerkonto.  
+## <a name="system-requirements"></a>Systemanforderungen
+Um die Daten [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Power BI zu importieren, müssen Sie Berechtigungen für den Webdiensten haben, um die Daten abzurufen. Die Web Services, die für jedes Inhaltspakete erforderlich sind:
 
-### <a name="getting-the-url"></a>Abrufen der URL
-Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] zu Power BI hinzufügen, müssen Sie eine URL angeben, über die Power BI Daten von Ihrem Mandanten abrufen kann. Auf der Verbindungsseite wird die URL als **OData-Feed URL** bezeichnet und muss folgendes Format aufweisen:
+## <a name="role-center-reports"></a>Rollencenterberichte
 
-         https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-In diesem Beispiel ist *mybusiness* der Name des [!INCLUDE[d365fin](includes/d365fin_md.md)]-Dienstes und *CRONUS US* ist der Name des Demounternehmens, wobei *%20* das Leerzeichen im Namen darstellt.   
-Um die URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] abzurufen, suchen Sie das Fenster **Webdienste** und öffnen es. Dieses Fenster führt die Webdienste auf, die aktuell verfügbar sind, und Sie können den Link aus dem **OData URL**-Feld für einen der OData-Webdienste kopieren.  
+**Microsoft Dynamics 365 Business Central – CRM**
+- Verkaufschancen
+- Excel-Vorlage zur Unternehmensansicht
+- Power BI-Berichtsbeschrifungen
 
-### <a name="getting-the-user-name-and-the-web-service-access-key"></a>Ermitteln des Benutzernamens und der Webdiensttastenkombination
-Um Daten aus [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI zu nutzen, müssen Sie im Fenster **Mit Financials verbinden** einen Benutzernamen und ein Kennwort angeben. Der Benutzername ist Ihr Name wie er für Ihr Konto in [!INCLUDE[d365fin](includes/d365fin_md.md)] angezeigt wird, sodass Power BI sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden kann. Das Kennwort ist der Webdienst-Zugriffsschlüssel, den Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] für Ihr Benutzerkonto angelegt haben.  
+**Microsoft Dynamics 365 Business Central – Finance**
+- PowerBIFinance
+- Excel-Vorlage zur Unternehmensansicht
+- Power BI-Berichtsbeschrifungen
 
-Um diese Informationen in [!INCLUDE[d365fin](includes/d365fin_md.md)]zu finden, suchen Sie nach dem Fenster **Benutzer** und öffnen Sie die Karte für Ihr Benutzerkonto. Im Feld Inforegister **Allgemein** kopieren Sie den Inhalt des Feldes **Benutzername** und im Inforegister **Webdienstzugriff** kopieren Sie den Inhalt des Felds **Webdienst-Zugriffsschlüssel**. Wenn das Feld **Webdienstzugriffsschlüssel** leer ist, wählen Sie im Menüband **Webdienst-Zugriffsschlüssel ändern**, wählen Sie **Schlüssel läuft nie ab** und klicken Sie anschließend auf die Schaltfläche OK. Anschließend können Sie den Schlüssel kopieren.  
+**Microsoft Dynamics 365 Business Central – Jobs**
+- Projektübersicht
+- Projektplanzeilen
+- Projektaufgabenzeilen
+- Power BI-Berichtsbeschrifungen
+- Excel-Vorlage zur Unternehmensansicht
 
-## <a name="getting-data-from-included365finincludesd365finmdmd"></a>Abrufen von Daten aus [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Dashboard zeigt die Berichte an, die Sie normalerweise verwenden, um Ihr Geschäft zu verfolgen. Die Daten werden von Ihrem [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten über Webdienste zum Lesen von Livedaten abgerufen. In [!INCLUDE[d365fin](includes/d365fin_md.md)], listet das **Webdienste** Fenster die Webdienste an, die eingerichtet wurden.
+**Microsoft Dynamics 365 Business Central – Sales**
+- Verkaufsdashboard
+- Excel-Vorlage zur Unternehmensansicht
+- Power BI-Berichtsbeschrifungen
 
-> [!NOTE]  
->   Wenn Sie den Namen dieser Webdienste ändern, werden die Daten nicht in Power BI angezeigt.  
-Wenn Sie weitere Daten in Power BI verwenden möchten, müssen Sie die Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] suchen, sie als Webdienste verfügbar machen und diese dann dem Inhaltspaket hinzufügen. Dies ist ein erweitertes Szenario. Wir empfehlen, dass Sie mit den Daten beginnen, die bereits in Power BI verfügbar sind.  
+## <a name="list-page-reports"></a>Berichte für Listenseite
+
+**Microsoft Dynamics 365 Business Central – Customers List**
+- Artikel-Statistik nach Debitor
+- Power BI - Artikeleinkaufsübersicht
+- Power BI - Artikelverkaufsübersicht
+- Verkaufsdashboard
+- Power BI - Debitorenübersicht
+- ExcelTemplateViewCompany
+- Power BI-Berichtsbeschrifungen
+
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
+- Power BI - Betrag im Hauptbuch - Übersicht
+- Power BI - Hauptbuch - Budgetierter Betrag
+- ExcelTemplateViewCompany
+- Power BI-Berichtsbeschrifungen
+
+**Microsoft Dynamics 365 Business Central – Items List**
+- Artikel-Statistik nach Debitor
+- Power BI - Artikeleinkaufsübersicht
+- Power BI - Artikelverkaufsübersicht
+- Verkaufsdashboard
+- ExcelTemplateViewCompany
+- Power BI-Berichtsbeschrifungen
+
+**Microsoft Dynamics 365 Business Central – Jobs List**
+- Power BI - Projektübersicht
+- ExcelTemplateViewCompany
+- Power BI-Berichtsbeschrifungen
+
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
+- Power BI - Einkaufsübersicht
+- ExcelTemplateViewCompany
+- Power BI-Berichtsbeschrifungen
+
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
+- Power BI - Verkaufsübersicht
+- ExcelTemplateViewCompany
+- Power BI-Berichtsbeschrifungen
+
+
+**Microsoft Dynamics 365 Business Central – Vendors List**
+- Power BI - Artikeleinkaufsübersicht
+- Power BI - Artikelverkaufsübersicht
+- Power BI - Kreditorenübersicht
+- ExcelTemplateViewCompany
+- Power BI-Berichtsbeschrifungen
+
+## <a name="web-services"></a>Webdienste
+Eine einfache Methode, die Webdienste zu finden ist, in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] nach Webdiensten zu suchen. In der Übersicht stellen Sie sicher, dass das Veröffentlichungsfeld für die oben aufgeführten Webdienste markiert wird.
 
 ## <a name="troubleshooting"></a>Problembehebung
-Das Power BI-Dashboard beruht auf den veröffentlichten Webdiensten, die oben erwähnten werden. Es enthält Daten vom Demomandanten oder von Ihrem eigenen Unternehmen wenn Sie Daten aus der aktuellen Finanzlösung importieren. Wenn etwas schief geht, stellt dieser Abschnitt eine Problemumgehung für die häufigsten Probleme bereit.  
+Das Power BI-Dashboard beruht auf den veröffentlichten Webdiensten, die oben erwähnten werden. Es enthält Daten vom Demomandanten oder von Ihrem eigenen Unternehmen wenn Sie Daten aus der aktuellen Finanzlösung importieren. Wenn etwas schief geht, stellt dieser Abschnitt eine Problemumgehung für die häufigsten Probleme bereit.
 
-**Parameterprüfung fehlgeschlagen. Prüfen Sie, ob alle Parameter gültig sind**  
-Wenn Sie diesen Fehler erhalten nachdem Sie die [!INCLUDE[d365fin](includes/d365fin_md.md)]-URL eingegeben, vergewissern Sie sich, dass die folgenden Anforderungen erfüllt sind:  
+### <a name="incorrect-company-name"></a>Ungültiger Unternehmensnamen  
+Ein häufiger Fehler ist, den Unternehmensanzeigenamen anstelle des Unternehmensnamens einzugeben. Unternehmensnamensuche für **Unternehmen** zu suchen. Verwenden Sie das Feld **Name**, wenn Sie den Unternehmensnamen eingeben.
 
-* Die URL folgt diesem Muster:
+### <a name="incorrect-user-name-and-password"></a>Falscher Benutzername und Kennwort  
+Der Benutzername und das Kennwort, die zum Verbinden verwendet werden, sind dieselben, die verwendet werden, um die Verbindung mit Ihrem  Microsoft Office 365 Konto herzustellen.  
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-* Löschen Sie den Text nach Mandantennamen in den Klammern  
-* Stellen Sie sicher, dass am Ende der URL kein Schrägstrich steht.  
-* Stellen Sie sicher, dass es sich um eine sichere Verbindung handelt (URL beginnt mit *https*).  
+Die Inhaltspakete erfordern, dass Sie ein Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Konto haben. Nachdem Sie Ihre Anmeldeinformationen eingeben haben, erkennen wir sämtliche Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Tenants, auf die Sie Zugriff haben. Wenn Sie kein lizenziertes oder Probe-Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Konto haben, erhalten Sie eine Fehlermeldung.
 
-**"Anmeldung fehlgeschlagen"**  
-Wenn Sie einen Anmeldung fehlgeschlagen-Fehler erhalten, wenn Sie mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)]-Anmeldedaten am Dashboard angemeldet sind, kann dies durch eines der folgenden Probleme verursacht werden:
-
-* Das Konto, das Sie verwenden, hat keine Berechtigungen, um die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Daten aus Ihrem Konto zu lesen.
-
-    Prüfen Sie Ihr Benutzerkonto in [!INCLUDE[d365fin](includes/d365fin_md.md)] und vergewissern Sie sich, ob Sie den richtigen Webdienst-Zugriffsschlüssel und das passende Kennwort verwendet haben, und Versuchen Sie es dann erneut.  
-* Die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Instanz mit der Sie eine Verbindung herstellen wollen hat kein gültiges SSL-Zertifikat. In diesem Fall wir eine detailliertere Fehlermeldung angezeigt ("Vertrauenswürdiges SSL-Beziehung kann nicht erstellt werden").
-
-    > [!NOTE]  
-    >   Selbstsignierte Zertifikate werden nicht unterstützt.  
-
-**"Oops"**  
-Wenn Sie ein Oops "-Fehlerdialogfeld" erhalten, nachdem Sie das Authentifizierungsdialogfeld abgeschlossen haben, wird dieses am häufigsten durch ein Problem mit der Verbindung zu den Daten für das Inhaltspaket verursacht.
-
-* Vergewissern Sie sich, dass die URL dem Muster folgt, das oben angegeben wurde:
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')`  
-* Ein häufiger Fehler ist, das gesamte URL für einen bestimmten Webdienst angegeben wird:
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance`
-* Oder Sie vergessen den Unternehmensnamen anzugeben:
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/`
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Der Schlüssel glich keinen Zeilen in der Tabelle
+Wenn Sie einen nicht gültigen Unternehmensnamen während des Verbindungsvorgangs eingeben, erhalten Sie möglicherweise die Fehlermeldung, "der Schlüssel entsprach keinen Zeilen in der Tabelle". Geben Sie den korrekten Unternehmensnamen an und versuchen Sie die Verbindung erneut.
 
 ## <a name="see-also"></a>Siehe auch
+[Erste Schritte mit Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
+[Power BI - Grundmodelle](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Business Intelligence](bi.md)  
 [Erste Schritte](product-get-started.md)  
-[Geschäftsdaten aus anderen Finanzsystemen importieren](upload-data.md)  
+[Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
+[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-use-financials-data-source-powerbi.md)Financials als Power BI Datenquelle nutzen  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-use-financials-data-source-powerapps.md)Financials als Power BI Datenquelle nutzen  
 [Anwendung [!INCLUDE[d365fin](includes/d365fin_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)   

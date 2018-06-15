@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 07/12/2017
+ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fe2ebe89310465f11561fbb1d0baed23b8241639
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 
@@ -28,27 +28,27 @@ Die Tastenkombinationen werden von den meisten Webbrowsern unterstützt; jedoch 
 
 Die in diesem Hilfethema beschriebenen Tastenkombinationen beziehen sich auf das US-Tastaturlayout. Möglicherweise entsprechen die Tasten anderer Tastaturlayouts nicht exakt den Tasten auf der US-Tastatur.
 
+Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder Mac Os ist; es gibt eine Reihe von Verknüpfungen, die für Mac als Os Windows abweichen. Diese werden in Klammern in Tabellen in den Abschnitten angegeben, die folgen.
+
 ##  <a name="Keyboard"></a> Allgemeine Tastenkombinationen
-Die folgende Tabelle beschreibt Tastenkombinationen für das zusätzliche Navigieren und Aufrufen von verschiedenen Elementen einer Seite, wie Aktionen, Dropdownlisten Anzeige, und mehr. Details über die Tastenkombinationen zum Navigieren von Datensätzen, wenn Sie innerhalb einer Liste abrufen, finden Sie im nächsten Abschnitt. 
+Die folgende Tabelle beschreibt Tastenkombinationen für das zusätzliche Navigieren und Aufrufen von verschiedenen Elementen einer Seite, wie Aktionen, Dropdownlisten Anzeige, und mehr. Details über die Tastenkombinationen zum Navigieren von Datensätzen, wenn Sie innerhalb einer Liste abrufen, finden Sie im nächsten Abschnitt.
 
 |Drücken Sie diese Tasten|Vorgehensweise|  
 |----------------|-----------|  
-|Tab|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite  wie Schaltflächen, Felder oder Artikel in einer Liste.| 
+|Tab|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite  wie Schaltflächen, Felder oder Artikel in einer Liste.|
 |UMSCHALT+TAB|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite  wie Schaltflächen, Felder oder Artikel in einer Liste.|   
 |EINGABE|Das Element aktivieren oder darauf zugreifen oder steuern, das im Fokus liegt.|   
 |ALT + NACH-UNTEN-TASTE|Öffnen einer Dropdownliste, um einen Wert für ein Feld suchen.|    
 |Alt+Nach-rechts-Taste|Um die Transaktionen zu sehen, die einen Wert in einem berechneten Feld resultieren.|  
+|Esc|Schließen Sie die aktuelle Seite oder den Dropdownpfeil.|
 
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tastenkombinationen in der Liste
 
 Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseite verwenden können. Die Verknüpfungsaktion ist abhängig davon, ob die Seite in der Listenansicht oder der Ansicht mit nebeneinander angeordnet Fenstern angezeigt wird.
 
-Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder Mac Os ist; es gibt eine Reihe von Verknüpfungen, die für Mac als Os Windows abweichen. Diese werden in Klammern der Tabelle auch angegeben.
-
->[!Note]
->In der Tabelle, die folgt, berücksichtigt der Ausdruck *bearbeitbares Feld* ein Feld, an dem Sie das tun können, z. B.  Änderung von einem Wert oder einem Link zu einer anderen Seite. Grundsätzlich überspringen die Verknüpfungen Felder, die Informationen anzeigen, die Sie auf der Liste nicht ändern können (d.h.  Felder, die schreibgeschützt sind).
-
+> [!Note]
+> In der Tabelle, die folgt, berücksichtigt der Ausdruck *bearbeitbares Feld* ein Feld, an dem Sie das tun können, z. B.  Änderung von einem Wert oder einem Link zu einer anderen Seite. Grundsätzlich überspringen die Verknüpfungen Felder, die Informationen anzeigen, die Sie auf der Liste nicht ändern können (d.h.  Felder, die schreibgeschützt sind).
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht tun |Um dies in einer Listenansicht tun |Bemerkungen|
 |-----------------|-------|-------|-------|
@@ -75,8 +75,25 @@ Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem
 |Umschalttaste +Seite nach Unten<br />(Umschalttaste +FN + Pfeil nach unten)|Erweitern Sie die Auswahl von Zeilen, um alle sichtbaren Zeilen unter der aktuellen Auswahl von Zeilen zu berücksichtigen.|Nicht anwendbar||
 |Ctrl+Enter|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.||
 
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a>Tastenkombinationen im Kalender (Datumsauswahl)
+Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeben oder festlegen oder einen Kalender (Datumsauswahl) öffnen, in dem Sie das Datum auswählen können Sie, das Sie möchten. Die folgende Tabelle beschreibt die Tastenkombinationen für den Kalender.
+
+|Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
+|-----------------|-------|
+|Seite nach oben|Navigieren zum vorherigen Monat.|  
+|Seite nach unten|Navigieren zum nächsten Monat.|
+|Strg+Pos1|Öffnen Sie den gewünschten Kalender, wenn geschlossen.|
+|Strg+Pos1<br />(Cmd+Home)|Navigieren zum laufenden Monat, laufender Tag.|
+|STRG+NACH-LINKS-TASTE<br />(ALT+NACH-LINKS-TASTE)|Navigieren zum vorherigen Tag.|
+|STRG+NACH-RECHTS-TASTE<br />(NACH-RECHTS-TASTE)|Navigieren zum nächsten Tag.|
+|STRG+NACH-OBEN-TASTE<br />(STRG+NACH-OBEN-TASTE)|Navigieren zur Woche, derselbe Wochentag.|
+|STRG+NACH-UNTEN-TASTE<br />(STRG+NACH-UNTEN-TASTE)|Navigieren zur nächsten Woche, derselbe Wochentag.|
+|EINGABE|Wählen Sie das fokussierte Datum aus.|
+|Strg+Ende<br />(Cmd+End)|Schließen Sie den Kalender oder löschen Sie die aktuellen Datum.|
+|Esc|Schließen Sie den Kalender ohne eine Auswahl, geben Sie ein aktuelles Datum ein.|
+
 <!--
-## Keyboard shortcuts in list (shown as tiles) 
+## Keyboard shortcuts in list (shown as tiles)
 
 The following table describes the keyboard shortcuts that you can use in a list page when the page is shown as a tiles.
 
@@ -84,8 +101,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Keyboard Shortcut<br />(shortcut in osX)| Action|Remarks|
 |-----------------|-------|-------|
 |Up Arrow|Move to the tile above in the same column|  |   
-|Down Arrow|Move to the tile below in the same column|  | 
-|Right Arrow|Move to the next tile in the same row| | 
+|Down Arrow|Move to the tile below in the same column|  |
+|Right Arrow|Move to the next tile in the same row| |
 |Left Arrow|Move to the previous tile in the same row | |
 |Home<br />(Fn+left Arrow)|Move to the first tile in the row|
 |End<br />Fn+right Arrow)|Move to the last tile in the row|

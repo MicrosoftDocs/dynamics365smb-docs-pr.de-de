@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 
@@ -48,7 +48,9 @@ Um MwSt-Nr. einzurichten, gehen Sie folgendermaßen vor:
 2. Wählen Sie das Land bzw. die Region, und wählen die **MwSt Reg. Nr. Formaten** Aktion aus.
 3. Im Feld **Formate** definieren Sie das Format, indem Sie einen oder mehrere der folgenden Zeichen eingeben:  
 
-    |----|----| | # | Erfordert eine einstellige Nummer. | | @ | Erfordert einen Buchstaben. Die Groß-/Kleinschreibung muss für den Text nicht beachtet werden. | | ? | Erlaubt jegliches Zeichen. |
+* # <a name="--requires-a-single-digit-number"></a>- Erfordert eine einstellige Nummer.
+* @ - Erfordert einen Buchstaben. Die Groß-/Kleinschreibung muss für den Text nicht beachtet werden.
+* ? - Erlaubt jegliches Zeichen.
 
     > [!Tip]
     > Sie können andere Zeichen verwenden, sofern sie immer im Land- oder Bereichsformat vorkommen. Wenn Sie beispielsweise eine Periode oder einen Bindestrich zwischen und Nummern einfügen möchten,  enkönnen Sie ##.####.### r ##.####.### oder @@- definieren.  

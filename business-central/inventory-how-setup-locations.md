@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, distribution center
 ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a44fccc118d5a52877309f1bf5e635e0f76068c9
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 45943ef97eee9d6bf24fd679e5dbbab96f5177f8
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="set-up-locations"></a>Einrichten von Lagerorten
@@ -45,6 +45,6 @@ Sie können jetzt die Lagerartikel zwischen zwei Lagerplätzen umlagern. Weitere
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)    
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Anpassen der[!INCLUDE[d365fin](includes/d365fin_md.md)]Erfahrung](ui-experiences.md)  
+[Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

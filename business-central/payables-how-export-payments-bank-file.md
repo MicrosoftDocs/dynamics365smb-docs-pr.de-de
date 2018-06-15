@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/28/2017
+ms.date: 04/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 88406936af640a2ec31f099fcae8bf039b64ecf3
+ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
+ms.openlocfilehash: 68a35c3bbedd0d0f09a9e43269260e98dfa02a59
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a>Zahlungen in eine Bankdatei exportieren
@@ -28,41 +28,33 @@ In der generischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)]  wird
 Sie verwenden das Fenster **Kreditübertragungsjournale**, um die Zahlungsdateien anzuzeigen, die aus dem Zahlungsausgangs Buch.-Blatt exportiert wurden. Von diesem Fenster aus können Sie Zahlungsdateien auch erneut exportieren (im Fall von technischen Fehlern oder Dateiänderungen). Beachten Sie, dass die exportierten EFT-Dateien nicht in diesem Fenster angezeigt werden und nicht wieder exportiert werden können.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Zahlungen in eine Bankdatei exportieren
+Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Schritte sind ähnlich, wie wenn sie Ihren Kunden Scheck zurückerstatten.
+
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Zahlungs-Buchblatt** ein und wählen den zugehörenden Link aus.
-2. Füllen Sie die Buch.-Blattzeilen z. B. mit der Funktion **Zahlungsvorschlag** aus. Weitere Informationen finden Sie unter [Erstellen von Zahlungsvorschlägen für Kreditoren](payables-how-suggest-vendor-payments.md).
-3. Füllen Sie die Felder in den Buch.-Blattzeilen wie notwendig aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Füllen Sie die Zalungszeilen ein. Weitere Informationen finden Sie unter [Zahlungen und Rückerstattungen aufzeichnen](payables-how-post-payments-refunds.md)
 
 > [!NOTE]  
 >   Wenn Sie EFT verwenden, müssen Sie entweder **Elektronische Zahlung** oder **Elektronische Zahlung-IAT** im Feld **Bankkontozahlungsart** auswählen. Verschiedene Dateiexportdienstleistungen und deren Formaten benötigen verschiedene Einrichtungswerte im Fenster **Bankkontokarte** und **Kreditor-Bankkontokarte**. Sie werden über die falschen oder fehlende Einrichtungswerte informiert, wenn Sie versuchen, die Datei zu exportieren.
 
-4. Wenn Sie alle Zahlungsausgangs Buch.-Blattzeilen abgeschlossen haben, wählen Sie die Aktion **Export** aus.
-5. Füllen Sie im Fenster **Elektronische Zahlungen exportieren** die Felder nach Bedarf aus.
+3. Wenn Sie alle Zahlungsausgangs Buch.-Blattzeilen abgeschlossen haben, wählen Sie die Aktion **Export** aus.
+4. Füllen Sie im Fenster **Elektronische Zahlungen exportieren** die Felder nach Bedarf aus.
 
     Vorhandene Fehlermeldungen werden in der **Fehler Zahlungsdatei**-Infobox angezeigt, in der Sie eine Fehlermeldung festlegen können, um ausführliche Informationen anzuzeigen. Sie müssen alle Fehler lösen, bevor die Zahlungsdatei exportiert werden kann.
 
     > [!TIP]  
     >   Wenn Sie den Bankdaten-Konvertierungsdienst verwenden, meldet eine häufige Fehlermeldung, dass die Bankkontonummer nicht die Länge hat, die Ihre Bank benötigt. Um den Fehler zu vermeiden oder zu beheben, müssen Sie den Wert im **IBAN**-Feld im **Bank**-Fenster entfernen, und dann im **Kontokarten**-Feld eine Bankkontonummer in dem Format eingeben, das Ihre Bank erfordert.
 
-6. Geben Sie im Fenster **Speichern unter** den Speicherort an, zu dem die Datei exportiert werden soll, und wählen Sie dann **Speichern**.
+5. Geben Sie im Fenster **Speichern unter** den Speicherort an, zu dem die Datei exportiert werden soll, und wählen Sie dann **Speichern**.
 
     > [!NOTE]  
     >   Wenn Sie EFT verwenden, speichern Sie die resultierenden Kreditorenüberweisungsformulare als Word-Dokument ab oder wählen Sie aus, diese direkt per E-Mail an den Kreditor zu senden. Die Zahlungen werden jetzt in das Fenster **EFT-Datei generieren** hinzugefügt, aus der Sie mehrere Zahlungsaufträge erstellen können, um Übertragungskosten zu sparen. Weitere Informationen finden Sie unter den folgenden Themen:
-7. Im Fenster **Zahlungsausgangs Buch.-Blatt** wählen Sie die Aktion **EFT-Datei generieren** aus.
+6. Im Fenster **Zahlungsausgangs Buch.-Blatt** wählen Sie die Aktion **EFT-Datei generieren** aus.
 
     Im Fenster **EFT-Datei generieren** werden alle Zahlungen, die für EFT eingerichtet werden, die Sie aus dem Zahlungsausgangs Buch.-Blatt für ein angegebenes Bankkonto exportiert aber noch nicht erstellt haben, im Inforegister **Zeilen** angezeigt.
-8. Wählen Sie die **EFT-Datei generieren** Aktion aus, um eine Datei für alle EFT-Zahlungen zu exportieren.
-9. Geben Sie im Fenster **Speichern unter** den Speicherort an, zu dem die Datei exportiert werden soll, und wählen Sie dann **Speichern**.
+7. Wählen Sie die **EFT-Datei generieren** Aktion aus, um eine Datei für alle EFT-Zahlungen zu exportieren.
+8. Geben Sie im Fenster **Speichern unter** den Speicherort an, zu dem die Datei exportiert werden soll, und wählen Sie dann **Speichern**.
 
 Die Bankzahlungsdatei wird in den Speicherort exportiert, den Sie festlegen, und Sie können fortfahren, sie in das elektronische Bankkonto hochzuladen und die tatsächlichen Zahlungen zu leisten. Dann können Sie die Buch.-Blattzeilen der exportierten Zahlung buchen.
-
-## <a name="to-export-payments-that-represent-customer-refunds"></a>So exportieren Sie Zahlungen, die Debitorenerstattungen darstellen
-Nachfolgend wird eine Vorgehensweise zum Exportieren von elektronischen Erstattungszahlungen erläutert.
-
-> [!CAUTION]  
->   Die resultierenden Buch.-Blattzeilen können nicht gebucht, gelöscht oder storniert werden.
-1. Kunden als Kreditor einrichten. Nennen wir ihn beispielsweise "Debitor X für Erstattungen". Weitere Informationen finden Sie unter [Neue Kunden registrieren](purchasing-how-register-new-vendors.md).
-2. Auf der Zahlungsbuch.-Blattzeile für den Debitor setzen Sie das Feld **Kontoart** auf **Debitor** und das Feld **Belegart** auf **Erstattung** fest.
-3. Führen Sie die normalen Schritte für Zahlungsexporte aus, die im Abschnitt "Zahlungen in eine Bankdatei exportieren" erläutert sind.
 
 ## <a name="to-plan-when-to-post-exported-payments"></a>Um die Buchung von exportierten Zahlungen zu planen
 Wenn Sie keine Buch.-Blattzeile für eine exportierte Zahlung buchen möchten, weil Sie beispielsweise eine Bestätigung erwarten, dass die Transaktion von der Bank verarbeitet wurde, können Sie die Buch.-Blattzeile einfach löschen. Falls Sie später eine Buch.-Blattzeile, um den Restbetrag der gebuchten Rechnung zu bezahlen, zeigt das **Exportierter Betrag gesamt**-Feld, wie viel des Zahlungsbetrags bereits exportiert wurde. Detaillierte Informationen über die exportierte Summe können Sie auch finden, indem Sie die Schaltfläche **Posten im Kreditübertragungsjournal** auswählen, um Einzelheiten zu Dateien der exportierten Zahlung anzuzeigen.
@@ -84,6 +76,7 @@ Sie können Zahlungsdateien aus dem **Kreditübertragungsjournale**-Fenster expo
 2. Wählen Sie einen Zahlungsexport, den Sie erneut exportieren möchten, und wählen die Aktion **Erneuter Zahlungsexport in Datei** aus.
 
 ## <a name="see-also"></a>Siehe auch
+[Zahlungen vornehmen](payables-make-payments.md)  
 [Verbindlichkeiten](payables-manage-payables.md)  
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

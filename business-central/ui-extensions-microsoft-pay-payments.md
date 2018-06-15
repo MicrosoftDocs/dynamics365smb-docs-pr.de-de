@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/07/2017
+ms.date: 04/09/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3cb26758401d1f1b25b204ce53abcb89970c3ba
+ms.sourcegitcommit: a1ab45cb40669beb901da59469a02bd58b86d3ac
+ms.openlocfilehash: 8782fae0935a609cb991fe869907d9cd8fceccd9
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>Die Microsoft Pay Erweiterung zu [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
@@ -27,7 +27,7 @@ Die Microsoft Pay Erweiterung stellt die folgenden Vorteile:
 - Debitorenzahlungen sind schneller auf Ihrem Bankkonto.
 - Debitoren haben mehr Arten, Rechnungen zu bezahlen.
 - Microsoft Pay bietet einen vertrauenswürdigen Zahlungsservice an, den Debitoren gegenüber der Eingabe von Kreditkarteninformationen auf der Websites bevorzugen.
-- Microsoft Pay bietet mehrere Arten zur Zahlungsabwicklung an, einschließlich Kreditkartenverarbeitung, WePay, Paypal-Konten und andere Quellen.
+- Microsoft Pay bietet mehrere Arten zur Zahlungsabwicklung an, einschließlich Kreditkartenverarbeitung, wie Paypal-Konten und andere Quellen.
 - Der Microsoft Pay Link kann jedem Rechnungsbeleg oder vom Benutzer automatisch eingebettet werden.
 - Da diese Funktionalität als Erweiterung aufgebaut ist, gibt sie Ihnen Kontrolle, um sie zu aktivieren und wenn die Geschäftsvorgänge sie benötigen.
 

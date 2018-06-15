@@ -8,41 +8,48 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2017
+ms.date: 04/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 0c1b37616b4aafc9535f2d3fbf60b915c490dd0b
+ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
+ms.openlocfilehash: 39b48fbd34b29db56b39712fbd2cbf5dc91fefc6
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 
 ---
-# <a name="work-with-checks"></a>Arbeiten mit Checks
+# <a name="make-check-payments"></a>Zahlung per Scheck machen
 Sie können elektronischerund und manuelle Schecks ausgeben in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Bei beiden Verfahren erfolgt die Ausstellung von Schecks an Kreditoren über das Zahlungsausgangs-Buch.-Blatt. Sie können auch Schecks annullieren und Scheckposten anzeigen.
 
-Bei dem Verfahren zum Ausstellen von Schecks werden Zahlungsvorschläge gemacht, Scheckposten erstellt und die Computerschecks gedruckt.
+Der folgende Ablauf zeigt, wie ein Kreditor mit Computer-Schecks bezahlt wird, indem die Zahlung für die zu bezahlende Rechnung erfolgt, der Scheck gedruckt und die Zahlung als bezahlt gebucht wird. Dadurch ergibt sich positiver Kreditorenposten, der auf einen negativen Bankpostens angewendet wurd und der physische Check von der Bank verarbeitet wird.
+
+Sie können mit zwei Arten von Schecks bezahlen Für beide Arten müssen **Bal. Kontoart** oder **Kontoart** das Feld **Bankkonto** enthalten.
+
+- **Computer Scheck**: Wählen Sie diese Option, wenn Sie einen Scheck über den in der Buch.-Blattzeile angezeigten Betrag drucken wollen. Sie müssen die Schecks drucken, bevor Sie die Buch.-Blattzeilen buchen können. Sie können nur **Computer Scheck** wenn
+- **Manueller Scheck**: Wählen Sie diese Option, wenn Sie einen Scheck manuell ausstellen und einen entsprechenden Scheckposten über diesen Betrag anlegen möchten. Mit dieser Option ist das automatische Drucken von Schecks nicht möglich.
 
 > [!NOTE]  
->   Um sicherzustellen, dass Ihre Bank nur Schecks und Beträge freigibt, können Sie ihr eine Datei senden, die die Daten für Kreditoren, Schecks und Zahlungsinformationen enthält. Weitere Informationen finden Sie unter [Datei Positive Pay exportieren](finance-how-positive-pay.md).
+> Um sicherzustellen, dass Ihre Bank nur Schecks und Beträge freigibt, können Sie ihr eine Datei senden, die die Daten für Kreditoren, Schecks und Zahlungsinformationen enthält. Weitere Informationen finden Sie unter [Datei Positive Pay exportieren](finance-how-positive-pay.md).
 
 Der Drucker muss für den Ausdruck von Scheckformularen eingerichtet werden, und Sie müssen festlegen welches Layout verwendet werden soll. Weitere Informationen zum Definieren von Attributen finden Sie unter [Definieren von Scheck-Layouts](finance-how-define-check-layouts.md).
 
-## <a name="to-issue-checks"></a>Um Schecks auszustellen
+## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Um Kreditorenrechnungen mit einem Computer Scheck zu bezahlen
+Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Schritte sind ähnlich, wie wenn sie Ihren Kunden Scheck zurückerstatten.
+
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Zahlungs-Buchblatt** ein und wählen den zugehörenden Link aus.
-2. Füllen Sie das Buch.-Blatt mit den entsprechenden Zahlungen aus, z. B. indem Sie die Zahlungsvorschläge verwenden. Weitere Informationen finden Sie unter [Erstellen von Zahlungsvorschlägen für Kreditoren](payables-how-suggest-vendor-payments.md).
-3. Im Feld **Bankkontozahlungsart** der Buch.-Blattzeilen zur Zahlung, die Sie mit Schecks vornehmen möchten, wählen Sie eine der folgenden Optionen:
+2. Füllen Sie die Zalungszeilen ein. Weitere Informationen finden Sie unter [Zahlungen und Rückerstattungen aufzeichnen](payables-how-post-payments-refunds.md)
+3. Wählen Sie im Feld die **Zahlungsmethode** aus und wählen Sie **Check**.
+4. Wählen Sie im Feld **Bankkontozahlungsart** die Option **Computer Scheck** aus.
+5. Wählen Sie die Aktion **Check Drucken** aus.
+6. Füllen Sie im Fenster **Check** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Wählen Sie die Schaltfläche **Senden an** aus, wählen Sie die Option **PDF-Dokument**, und wählen Sie dann die Schaltfläche **OK** aus.
 
-   * **Computer Scheck**: Wählen Sie diese Option, wenn Sie einen Scheck über den in der Buch.-Blattzeile angezeigten Betrag drucken wollen. Sie müssen die Schecks drucken, bevor Sie die Buch.-Blattzeilen buchen können. Sie können **Computer Scheck** nur auswählen, wenn **Gegenkontoart** oder **Kontoart** den Wert **Bankkonto** hat.
-   * **Manueller Scheck**: Wählen Sie diese Option, wenn Sie einen Scheck manuell ausstellen und einen entsprechenden Scheckposten über diesen Betrag anlegen möchten. Mit dieser Option ist das automatische Drucken von Schecks in [!INCLUDE[d365fin](includes/d365fin_md.md)]nicht möglich. Sie können **Manueller Scheck** nur auswählen, wenn **Gegenkontoart** oder **Kontoart** den Wert **Bankkonto** hat.
+    Die Warenkontrollen können jetzt bereitgestellt werden für die Bank für die Bearbeitung. Fahren Sie fort, um die Zahlung für den Kreditor und im System als bezahlt zu buchen.
+8. Wählen Sie die Aktion **Buchen** aus.
 
-     > [!NOTE]  
-     >   Sie müssen die Computer Schecks drucken, bevor Sie die entsprechenden Buch.-Blattzeilen buchen können.
-4. Im Falle von Computer Schecks wählen Sie **Scheck drucken** aus.
-5. Füllen Sie im Fenster **Check** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-6. Wählen Sie die Schaltfläche **Drucken** aus.
+Völlig ausgeglichene Kreditorenposten und Bankposten werden erstellt.
 
 > [!NOTE]  
->   Wenn Sie Schecks in mehreren Währungen von mehreren Bankkonten aus ausdrucken möchten, muss der Batchauftrag **Scheck drucken** für jede einzelne Währung ausgeführt und das entsprechende Bankkonto angegeben werden.
+> Wenn Sie Schecks in mehreren Währungen von mehreren Bankkonten aus ausdrucken und bezahlen möchten, muss die Stapelverarbeitung **Scheck drucken** für jede einzelne Währung ausgeführt und das entsprechende Bankkonto muss angegeben werden.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Um gedruckte Scheck die nicht gebucht wurden zu stornieren
 Sie können nicht gebuchte Schecks stornieren, nachdem sie gedruckt wurden, indem Sie die Aktion **Scheck annullieren** im Fenster **Zahlungsausgangs Buch.-Blatt** verwenden.
@@ -58,7 +65,13 @@ Wenn Scheckzahlung gebucht wurden, können Sie Schecks aus den resultierenden Ba
 4. Wählen das Kontrollkästchen **Scheck nur annullieren**.
 5. Wählen Sie die Schaltfläche **OK** aus.
 
+## <a name="to-view-a-summary-of-posted-checks"></a>Um eine Zusammenfassung der gebuchten Schecks anzuzeigen
+Wenn Sie gebuchte Schecks überprüfen möchten, zum Beispiel, um Mehrfachverbindungsschecks für einen Kreditor zu überprüfen, können Sie **Bankkonto - Scheckdetails** verwenden.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Checkdetails Bankkonto** ein und wählen den zugehörenden Link aus.
+2. Legen Sie Filter fest und wählen Sie dann die Schaltfläche **Vorschau** aus.
+
 ## <a name="see-also"></a>Siehe auch
+[Zahlungen vornehmen](payables-make-payments.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Einrichten von Banken](bank-setup-banking.md)  
 [Um eine Positive Pay-Datei zu exportieren](finance-how-positive-pay.md)  

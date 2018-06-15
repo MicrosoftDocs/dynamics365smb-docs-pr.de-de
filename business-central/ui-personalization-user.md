@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 07/26/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 64a41b5fbb3452c158c8f77b2f73b661b714522f
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 246e6fa65de1d638715d16ee76c0c60a88c44cec
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="personalizing-your-workspace"></a>Personalisieren Ihres Arbeitsbereichs
@@ -79,5 +79,5 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 [Verwalten der Personalisierung](ui-personalization-manage.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)  
+[Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)  
 

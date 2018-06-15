@@ -1,6 +1,6 @@
 ---
 title: C5-Datenmigrations-Erweiterung verwenden | Microsoft Docs
-description: Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu Financials zu migrieren.
+description: Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu  Business Central zu migrieren.
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 11/21/2017
+ms.date: 04/09/208
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fe6393ad43dbad032512b2d6d45cc8ee0392236
+ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
+ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/11/2018
 
 ---
 
@@ -26,7 +26,7 @@ Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonte
 > [!Note]
 > Der Mandant darf in [!INCLUDE[d365fin](includes/d365fin_md.md)] keine Daten in enthalten. Nachdem Sie mit der Migration begonnen haben, erstellen Sie keine Debitoren, Kreditoren, Artikel oder Konten, bis die Migration beendet wurde.
 
-##<a name="what-data-is-migrated"></a>Welche Daten migriert?
+## <a name="what-data-is-migrated"></a>Welche Daten migriert?
 Die folgenden Daten werden für jede Einheit migriert:
 
 **Debitoren**
@@ -86,6 +86,13 @@ Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 > [!Note]
 > Wenn es offene Transaktionen gibt, die Fremdwährungen verwenden, werden die Wechselkurse für alle Währungen auch migriert. Andere Wechselkurse werden nicht migriert.
 
+**Kontenplan**  
+* Standard-Dimensionen (Abteilung, Kostenträger, Kostenstelle)  
+* Historische Transaktionen  
+
+> [!Note]
+> Historische Transaktionen werden so gut unterschiedlich behandelt. Wenn Sie Daten migrieren, setzen Sie einen **Aktuelle Periode** Parameter. Dieser Parameter gibt an, wie Ihre Transaktionen verarbeitet werden. Transaktionen nach diesem Datum werden einzeln migriert. Transaktionen vor diesem Zeitpunkt werden pro Konto aggregiert und migriert als einzelner Betrag. Nehmen wir an, es gibt Transaktionen 2015, 2016, 2017 und 2018 und Sie definieren 1. Januar 2017 im aktuellen Periodenfeld. Für jedes Konto sind Beträge für Transaktionen an oder vor dem 31. Dezember 2106, in einer eigenen Fibu Buch.-Blattzeile für jedes Sachkonto aggregiert. Transaktionen nach diesem Datum werden einzeln migriert.
+
 ## <a name="to-migrate-data"></a>Um Daten zu migrieren
 Es gibt nur einige wenige Schritte, um die Daten aus C5 zu exportieren und sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu importieren:  
 
@@ -101,6 +108,13 @@ Verwenden Sie die Seite **Datenmigrations-Übersicht**, um den Erfolg der Migrat
 
 > [!Note]
 > Während Sie auf die Ergebnisse der Migration warten, müssen Sie die Seite aktualisieren, um die Ergebnisse anzuzeigen.
+
+## <a name="how-to-avoid-double-posting"></a>Wie Sie Doppel-Buchung vermeiden
+Um Doppelbuchungen in der Finanzbuchhaltung zu vermeiden, werden folgende Gegenkonten für offene Transaktionen verwendet:  
+  
+* Für Kreditoren verwenden wir das A-/P-Konto in der Kreditorenbuchungsgruppe.  
+* Für Kreditoren verwenden wir das A-/P-Konto in der Kreditorenbuchungsgruppe.  
+* Für Artikel erstellen wir eine Buchungsmatrix, bei der im Korrekturkonto das Konto jenes ist, das als Lagerkonto in der Lagerbuchungseinrichtung angegeben ist.  
 
 ## <a name="correcting-errors"></a>Nachbesserung
 Falls etwas schief geht und ein Fehler auftritt, wird das **Status** Feld **Abgeschlossen mit Fehlern** angezeigt und das Feld **Fehlerzahl** zeigt an, wie viele es sind. Um eine Liste der Fehler anzuzeigen, können Sie die Seite öffnen indem Sie **Datenmigrations-Fehler** auswählen:  
@@ -119,13 +133,12 @@ Um auf der Seite **Datenmigrations-Fehler** einen Fehler zu korrigieren, können
 ## <a name="verifying-data-after-migrating"></a>Prüfen von Daten nach dem Migrieren
 Wenn Sie sicherstellen möchten, dass Ihre Daten ordnungsgemäß migriert werden, können Sie die nächste Seiten in C5 und in [!INCLUDE[d365fin](includes/d365fin_md.md)]anzeigen.
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]|
-|-----|-----|
-|Debitoreneinträge| Fibu Buch.-Blätter|
-|Kreditoreneinträge| Fibu Buch.-Blätter|
-|Artikelposten| Artikel Buch.-Blätter|
-
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], wird der Stapel für die migrierten Daten **C5MIGRATE** genannt.
+|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Zu verwendender Batchauftrag |
+|-----|-----|-----|
+|Debitoreneinträge| Fibu Buch.-Blätter| CUSTMIGR |
+|Kreditoreneinträge| Fibu Buch.-Blätter| VENDMIGR|
+|Artikelposten| Artikel Buch.-Blätter| ITEMMIGR |
+|Sachposten| Fibu Buch.-Blätter| GLACMIGR |
 
 ## <a name="stopping-data-migration"></a>Datenmigration anhalten
 Sie können Datenmigration unterbrechen, indem Sie **Automatisches Beenden alle Migrationen** auswählen. Wenn Sie dies tun, werden alle offenen Migrationen beendet.

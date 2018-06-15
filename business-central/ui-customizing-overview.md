@@ -12,10 +12,10 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 03/19/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 940f5380e57e6af22958854d12a5bd2006b861e3
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 7adad8c33771d478125c7f6ecb8256f5109f5f02
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="customizing-business-central"></a>Business Central anpassen
@@ -25,7 +25,7 @@ Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kol
 | Was können Sie tun    |  Description  |  Wer sieht die Änderungen  |  Weitere Informationen  |
 |-----|---------------|---------|-------|
 |Erweiterung installieren|Erweiterung sind wie kleine Anwendungen, die Funktionalität hinzufügen, Verhalten ändern, Zugriff auf neuen Onlinediensten bereitstellen und vieles mehr. Beispielsweise bietet Microsoft eine Erweiterung an, die die Integration mit PayPal Payments Standard ermöglicht.|Alle Benutzer in allen Mandanten.|[Erweiterungen nutzen anpassen](ui-extensions.md)|
-|Die Erfahrung ändern|Die Einstellung **Erfahrung** bestimmt, wie viel der Funktionen der Benutzeroberfläche angezeigt wird. Wählen Sie zwischen Standard, Basis und Premium aus.|Alle Benutzer in einem bestimmten Unternehmen.|[Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Erfahrung](ui-experiences.md)|
+|Ändern, welche Benutzeroberflächenelementen sichtbar sind.|Die Einstellung **Erfahrung** bestimmt, wie viel der Funktionen der Benutzeroberfläche angezeigt wird. Wählen Sie zwischen Standard, Basis und Premium aus.|Alle Benutzer in einem bestimmten Unternehmen.|[Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)|
 |Personalisieren Ihres Arbeitsbereichs|Anpassen des Layouts und den Inhalt der Seiten.|Nur Sie.|[Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md)|
 
 ## <a name="see-also"></a>Siehe auch

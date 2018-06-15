@@ -10,20 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 06/02/2017
+ms.date: 05/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b14f779a34f44bc8c41bb13b42ec06bea359c9b7
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 32f5b2b19dc74d3849a313e3d93fdb70146cdb23
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Bankkonten separat abstimmen
-Um Bankkonten im [!INCLUDE[d365fin](includes/d365fin_md.md)] mit den Kontoauszügen abzustimmen, die Sie von der Bank erhalten haben, müssen Sie die Zeilen im Fenster **Bankkontoabstimmung** ausfüllen.
+Um Bankkonten mit den Abrechnungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] abzustimmen, die Sie von Ihrer Bank erhalten werden, beginnen Sie indem Sie im Bereich links im Fenster **Bankkonto Abstimmen** mit Bankkontoauszugsinformationen ausfüllen die Sie anschließend mit den Bankposten im rechten Fensterbereich abstimmen. Eine intelligente Art, Bankkontoauszugszeilen auszufüllen ist es, Bankkontoauszugsdateien Feeds  zu importieren.
 
 > [!NOTE]  
->   Sie können Bankkonten auch im Fenster **Zahlungsabstimmungsbuch.-Blatt** abstimmen. Alle offnen Bankposten, die sich auf ausgeglichene Debitoren- oder Kreditorenposten beziehen, werden geschlossen, wenn Sie die Aktion **Zahlungen buchen und Bankkonto abstimmen** auswählen. Dies bedeutet, dass das Bankkonto mit Zahlungen abgestimmt wird, die Sie mit dem Buch.-Blatt buchen. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
+> In den nordamerikanischen Versionen können Sie im Fenster **Bank Rec. Vorschlag** durchführen, das besser für Schecks und Einzahlungen-Vorgänge geeignet ist, jedoch keine Bankkontoauszugsdateien bietet. Um dieses Fenster **Bankkonto Abstimmen** anstelle des Fensters zu verwenden, wählen Sie das Feld **Bank Recon. mit Auto. Entsprechung** im Fenster **Finanzbuchhaltung Einrichtung**. Weitere Informationen finden Sie im Abschnitt "Bankkonten abstimmen" unter der der lokalen USA-Funktionalität.
+
+> [!TIP]  
+> Sie können Bankkonten auch im Fenster **Zahlungsabstimmungsbuch.-Blatt** abstimmen. Alle offnen Bankposten, die sich auf ausgeglichene Debitoren- oder Kreditorenposten beziehen, werden geschlossen, wenn Sie die Aktion **Zahlungen buchen und Bankkonto abstimmen** auswählen. Dies bedeutet, dass das Bankkonto mit Zahlungen abgestimmt wird, die Sie mit dem Buch.-Blatt buchen. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
 Um den Import von Bankkontoauszügen als Bankfeed zu aktivieren, müssen Sie den Bankfeeddienst Envestnet Yodlee einrichten und aktivieren und dann Ihr Bankkonto mit den entsprechenden Onlinebankkonten verbinden. Für weitere Informationen, siehe [Einrichten des Envestnet Yodlee Bank-Feed-Service](bank-how-setup-bank-statement-service.md).
 
@@ -58,6 +61,8 @@ Wenn der Wert im Feld **Gesamtsaldo** im Bereich **Bankauszugspositionen** dem W
 5. Wählen Sie die Schaltfläche **OK** aus.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>So gleichen Sie Bankkontoauszugszeilen mit Bankposten automatisch ab
+Das Fenster bietet automatisch entsprechende Funktionen an, die für Zahlungen in ihre entsprechenden offenen Postens darstellte eine Zuordnung des Textes in einer Bankkontoauszugszeile (linker Bereich) mit Text auf einer oder mehreren offenen Posten (rechter Bereich) ausgeglichen werden soll. Beachten Sie, dass die vorgeschlagenen automatischen Anwendungen überschrieben können, und Sie können wählen, dass die Anwendung nicht automatisch verwendet wird. Weitere Informationen finden Sie im nächsten Verfahren.
+
 1. Wählen Sie im Fenster **Bankkontoabstimmung** die Aktion **Automatisch abgleichen** aus. Das Fenster **Bankposten abstimmen** wird geöffnet.
 2. Geben Sie im Feld **Toleranz Buchungsdaten in Tagen** die Anzahl der Tage vor und nach dem Bankpostenbuchungsdatum an, innerhalb dessen die Funktion nach entsprechenden Transaktionsdaten im Bankkontoauszug sucht.
 
@@ -84,6 +89,7 @@ Manchmal enthält ein Bankkontoauszug einen Betrag für berechnete Zinsen oder G
 
     Das Fenster **Fibu Buch.-Blatt** wird geöffnet und enthält neue Buch.-Blattzeilen für sämtliche Bankauszugspositionen mit fehlende Posten.
 3. Vervollständigen Sie die Buch.-Blattzeile mit entsprechenden Informationen, wie z. B. dem Gegenkonto ab. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
+4. Um das Ergebnis der Buchung erneut durchzuführen bevor Sie buchen, wählen Sie die **Bericht testen** Aktion. Der Bericht **Bankkontoauszug** wird geöffnet und zeigt die gleichen Felder wie der Kopf des Fensters **Bankkonto Abstimmen** anzeigt.
 4. Wählen Sie die Aktion **Buchen** aus.
 
     Nachdem der Posten gebucht ist, können Sie ihn mit der Banktransaktion abgleichen.

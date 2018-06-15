@@ -1,8 +1,6 @@
 ---
 title: Erstellen von Kontaktpersonen| Microsoft Docs
 description: "Beschreibt, wie einer Kontaktkarte für jede neue Person oder potentielle neuen Kunden erstellt wird, mit dem Sie eine Geschäftsbeziehung haben."
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 05/09/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5a5f1bc0157309c18f92253803b27ccc29263e84
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 38f42e4d44dd38fe70816035711e00561fd9e777
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="create-contact-persons"></a>Anlegen von Kontaktpersonen
@@ -43,5 +41,6 @@ Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unterne
 [Einrichten von Verantwortlichkeiten für Kontakte](marketing-job-responsibilities.md)  
 [Einrichten von Position für Kontaktpersonen](marketing-organizational-levels.md)  
 [Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
+[Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren](marketing-create-contact-profile-questionnaire.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
 

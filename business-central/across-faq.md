@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/27/2017
+ms.date: 04/19/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: 24b6001df4937df491be8a90fee806cd0f074830
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
@@ -45,6 +45,15 @@ Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Warum finde ich diese Funktion nicht in meinem [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Haben Sie vor kurzem über eine neue Funktion in der Roadmap oder in unserem Blog gelesen? In diesem Fall wurde Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise noch nicht auf die neueste Version aktualisiert. Wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt es eine Verzögerung zwischen der angekündigten Erweiterung und ihrer Verfügbarkeit in AppSource.
+
+## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Warum sind einige Benutzeroberflächenelemente, die ich nutzte in Dynamics NAV nicht sichtbar in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] aktivieren das Anwendungsbereichssystem und die Erfahrungsoptionen, die wichtige Teile des Produkts entsprechend dem eingekauften Plan (Basis oder Premium) und entsprechend den Unternehmensanforderungen darstellen.
+
+Diese Funktionen wurden verwendet, um die Benutzeroberfläche in der Standardeinstellung von  [!INCLUDE[d365fin](includes/d365fin_md.md)] zu vereinfachen. Beispielsweise werden Felder, die in der Regel nicht genutzt werden wie **Faxnr.** häufig entfernt und auf Menübändern von Listen und Karten werden doppelte Aktionen entfernt und die meistverwendeten Aktionen gefördert. Einige vollständige Funktionen wie Bemerkungen werden nur für den Webclienten optimiert und sind deshalb nicht in [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar.
+
+Entsprechend sind bestimmte Benutzeroberflächenelemente, die in Standardeinstellung von Dynamics NAV sichtbar sind, nicht in [!INCLUDE[d365fin](includes/d365fin_md.md)] sichtbar. Die fraglichen Steuerelemente haben das #Advanced Anwendungsbereichstag. 
+
+Wenn Sie möchten, das Ihre Lösung [!INCLUDE[d365fin](includes/d365fin_md.md)] dieselben Benutzeroberflächenelemente wie Ihre Lösung Dynamics NAV enthalten, brauchen Sie mehrere Schritte in der Entwicklungsumgebung um die #Advanced Steuerelemente durch Erweiterung zu nehmen. Weitere Informationen über den Anwendungsbereich finden Sie unter [Anwendungsbereich erweitern](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
 
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  

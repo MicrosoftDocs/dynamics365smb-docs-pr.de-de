@@ -1,22 +1,20 @@
 ---
-title: "Arbeiten mit Kontenplänen | Microsoft Docs"
+title: Finanzberichte mithilfe von Kontenschemata bauen
 description: "Beschreibt, wie Filter verwendet werden, um unterschiedliche Ansichten und Berichte zum Analysieren von Finanzverhältnisleistungsdaten zu erstellen."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
-ms.author: sgroespe
+ms.date: 04/16/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d01bd220571b7b87d9e631c8a4d75bef951c7433
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="work-with-account-schedules"></a>Arbeiten mit Kontenschemata
@@ -72,7 +70,98 @@ Sie können eine Kontenschema zum Erstellen eines Vergleichs der in der Finanzbu
 8. Im Inforegister **Dimensionsfilter** legen Sie den gewünschten Budgetfilter fest.  
 9. Wählen Sie die Schaltfläche **OK** aus.  
 
-Die Budgetaufstellung kann nun kopiert und in ein Arbeitsblatt eingefügt werden.
+Die Budgetaufstellung kann nun kopiert und in ein Arbeitsblatt eingefügt werden.  
+
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Vergleichen von Buchhaltungsperioden mithilfe der Periodenformulare
+Ihr Kontenschema kann sich die Ergebnisse von verschiedenen Buchhaltungsperioden, wie diesen Monat mit jenem des Vorjahresmonat vergleichen. Um das zu tun, fügen Sie eine Spalte mit dem Feld **Vergleichsperiodendatumsformel** hinzu und legen Sie dann dieses Feld auf eine Periodenformel fest.  
+
+Eine Buchhaltungsperiode muss nicht dem Kalender entsprechen, aber jedes Geschäftsjahr muss dieselbe Anzahl von Buchhaltungsperioden haben, selbst wenn jede Periode eine andere Länge haben kann.   
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet diese Periodenformel, um den Betrag der Vergleichsperiode in Bezug auf die Periode zu berechnen, die Sie im Datumsfilter des Anforderungsfensters im Bericht angegeben haben. Die Vergleichsperiode basiert auf der Periode des Startdatums des Datumsfilters. Für Periodenspezifikationen stehen folgende Abkürzungen zur Verfügung:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Abkürzung</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>P</p></td>
+<td><p>Periode</p></td>
+</tr>
+<tr class="even">
+<td><p>EP</p></td>
+<td><p>Endperiode eines Geschäftsjahres, eines Halbjahres oder eines Vierteljahres.</p></td>
+</tr>
+<tr class="odd">
+<td><p>LP</p></td>
+<td><p>Laufende Periode eines Geschäftsjahres, eines Halbjahres oder eines Vierteljahres.</p></td>
+</tr>
+<tr class="even">
+<td><p>GJ</p></td>
+<td><p>Geschäftsjahr. GJ[1..3] bezeichnet beispielsweise das erste Quartal des laufenden Geschäftsjahres.</p></td>
+</tr>
+</tbody>
+</table>
+
+Beispiele für Formeln:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Formel</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>&lt;"Leer"&gt;</p></td>
+<td><p>Laufende Periode</p></td>
+</tr>
+<tr class="even">
+<td><p>-1P</p></td>
+<td><p>Vorperiode</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1GJ[1..EP]</p></td>
+<td><p>Das gesamte vorige Geschäftsjahr</p></td>
+</tr>
+<tr class="even">
+<td><p>-1GJ</p></td>
+<td><p>Laufende Periode des vorigen Geschäftsjahrs</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1GJ[1..3]</p></td>
+<td><p>Das erste Quartal des vorigen Geschäftsjahres</p></td>
+</tr>
+<tr class="even">
+<td><p>-1GJ[1..LP]</p></td>
+<td><p>Vom Anfang des vorigen Geschäftsjahres bis zur laufenden Periode des vorigen Geschäftsjahres einschließlich.</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1GJ[LP..EP]</p></td>
+<td><p>Von der laufenden Periode des vorigen Geschäftsjahres bis zur Endperiode des vorigen Geschäftsjahres einschließlich.</p></td>
+</tr>
+</tbody>
+</table>
+
+Wenn die Berechnung gemäß regulärer Zeitperioden erfolgen soll, muss eine Formel in das Feld **Vergleichsdatumsformel** eingegeben werden.
+
+> [!NOTE]
+> Es ist jedoch nicht immer transparent, welche Perioden Sie vergleichen, da Sie einen Datumsfilter in einem Bericht festlegen können, die verschiedene Daten als die Buchhaltungsperioden umfasst, die Daten im Kontenplan angezeigt werden. Beispielsweise können Sie ein Kontenschema erstellen, in dem Sie diese Periode mit derselben Periode des Vorjahrs vergleichen möchten, damit Sie den **Vergleichs-Datums-Perioden-Filter** im Feld *1GJ* festlegen. Dann führen Sie den Bericht am 28. Februar aus und legen die Datumsfilter des Januar und Februar fest. Deshalb vergleicht das Kontenschema Januar und Februar dieses Jahr mit dem Januar des Vorjahrs, die die einzige abgeschlossene Buchhaltungsperiode der zwei für das Vorjahr ist.  
+
 
 ## <a name="see-also"></a>Siehe auch
 [Business Intelligence](bi.md)  
