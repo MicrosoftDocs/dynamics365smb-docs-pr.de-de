@@ -45,5 +45,5 @@ Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise, End-to-End-Ges
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
