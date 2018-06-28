@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 06/057/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: 6a4fd8b042561753b7db7f2959ef3b35638e4a84
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 8e81af5f59da577d157f6fd36ea7da34bf142463
 ms.contentlocale: de-de
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a><span data-ttu-id="1c3e1-103">Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="1c3e1-103">Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
@@ -49,5 +49,5 @@ ms.lasthandoff: 06/11/2018
 [<span data-ttu-id="1c3e1-145">Allgemeine Geschäftsfunktionen</span><span class="sxs-lookup"><span data-stu-id="1c3e1-145">General Business Functionality</span></span>](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -13,10 +13,10 @@ ms.search.keywords: contact, prospect, client
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0e4eb532a5e4cb54d45740343a62cbd69fd742eb
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 6cc658e5031db7bf227d2839120e7bfddcb32037
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-relationships"></a><span data-ttu-id="fe104-103">Verwalten von Beziehungen</span><span class="sxs-lookup"><span data-stu-id="fe104-103">Managing Relationships</span></span>
@@ -39,5 +39,5 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="fe104-118">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="fe104-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: c14d066e12ae1c35db99f0f7031830cfc937aaf1
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 069d97f8d8e84f3d908353d772c8d5282971c06c
 ms.contentlocale: de-de
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="assembly-management"></a><span data-ttu-id="2c2b7-103">Montageverwaltung</span><span class="sxs-lookup"><span data-stu-id="2c2b7-103">Assembly Management</span></span>
@@ -54,5 +54,5 @@ ms.lasthandoff: 05/31/2018
 <span data-ttu-id="2c2b7-147">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2c2b7-147">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

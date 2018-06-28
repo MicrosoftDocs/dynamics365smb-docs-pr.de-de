@@ -13,10 +13,10 @@ ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 01a195130a6834256b30efea8c06841c88af354d
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: b53bd7b78744d61cdb783d1e973be8c730117d57
 ms.contentlocale: de-de
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-receivables"></a><span data-ttu-id="3f840-103">Debitoren verwalten</span><span class="sxs-lookup"><span data-stu-id="3f840-103">Managing Receivables</span></span>
@@ -51,5 +51,5 @@ ms.lasthandoff: 05/15/2018
 [<span data-ttu-id="3f840-145">Allgemeine Geschäftsfunktionen</span><span class="sxs-lookup"><span data-stu-id="3f840-145">General Business Functionality</span></span>](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -11,10 +11,10 @@ ms.search.keywords: configure, initialize
 ms.date: 03/22/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: d03d1a6c5d37d24b189f0963e50b8879661c9e52
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a><span data-ttu-id="4b40a-103">Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="4b40a-103">Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
@@ -64,5 +64,5 @@ ms.lasthandoff: 03/22/2018
 [<span data-ttu-id="4b40a-159">Erste Schritte</span><span class="sxs-lookup"><span data-stu-id="4b40a-159">Getting Started</span></span>](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

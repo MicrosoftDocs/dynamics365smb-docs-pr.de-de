@@ -13,10 +13,10 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c68e4bd69c854ecd99cfb833c941066d9a805da
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 2ed5694236bc1f4b6c0ab0d077ae57b08ecff8b1
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-intercompany-transactions"></a><span data-ttu-id="a17ea-103">Intercompanytransaktionen verwalten</span><span class="sxs-lookup"><span data-stu-id="a17ea-103">Managing Intercompany Transactions</span></span>
@@ -50,5 +50,5 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="a17ea-136">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a17ea-136">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

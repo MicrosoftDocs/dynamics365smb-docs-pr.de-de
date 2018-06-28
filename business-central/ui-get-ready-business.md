@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 5508b9336b0e6bffcc47632b95eac3691ab3891c
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: ea2f4195352c7d339236002d26dffa92e8d68d25
 ms.contentlocale: de-de
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a><span data-ttu-id="cc427-103">Vorbereitungen zum Tätigen von Geschäften</span><span class="sxs-lookup"><span data-stu-id="cc427-103">Getting Ready for Doing Business</span></span>
@@ -68,5 +68,5 @@ ms.lasthandoff: 04/18/2018
 [<span data-ttu-id="cc427-170">Benutzer und ihre Berechtigungen verwalten</span><span class="sxs-lookup"><span data-stu-id="cc427-170">Manage Users and Permissions</span></span>](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

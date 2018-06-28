@@ -12,10 +12,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f5b69dce5426f828572fa57e73c03ac35332e101
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 501ac028c34b1e298ad5988a20d46f5b1d2918d5
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 
@@ -57,5 +57,5 @@ ms.lasthandoff: 03/22/2018
 [<span data-ttu-id="a0991-153">Allgemeine Geschäftsfunktionen</span><span class="sxs-lookup"><span data-stu-id="a0991-153">General Business Functionality</span></span>](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -13,10 +13,10 @@ ms.search.keywords: projects
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 545c09e5b462dd712dffa68a27341b1acde17071
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 59ef16857ea8bde770d584eae31d6a009cc3bad5
 ms.contentlocale: de-de
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="project-management"></a><span data-ttu-id="9f3f2-103">Projektmanagement</span><span class="sxs-lookup"><span data-stu-id="9f3f2-103">Project Management</span></span>
@@ -47,5 +47,5 @@ ms.lasthandoff: 04/18/2018
 <span data-ttu-id="9f3f2-136">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9f3f2-136">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

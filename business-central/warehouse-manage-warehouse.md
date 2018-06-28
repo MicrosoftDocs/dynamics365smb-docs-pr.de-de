@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 604f7e55067efaebed412683ed51ce8717562688
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: ddc2e9bdf131a68fb5ea280011971b8a8f7220f0
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="warehouse-management"></a><span data-ttu-id="1618b-103">Logistik</span><span class="sxs-lookup"><span data-stu-id="1618b-103">Warehouse Management</span></span>
@@ -47,5 +47,5 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="1618b-133">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1618b-133">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

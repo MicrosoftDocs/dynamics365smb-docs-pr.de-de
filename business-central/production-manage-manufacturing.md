@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c97cdafceb5fbf8df403309dddda0faeac7a26b6
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: be5ff3f6c17381a78d104e8b6d6b986ddfcc68db
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="manufacturing"></a><span data-ttu-id="71ac2-103">Produktion</span><span class="sxs-lookup"><span data-stu-id="71ac2-103">Manufacturing</span></span>
@@ -51,5 +51,5 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="71ac2-140">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="71ac2-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

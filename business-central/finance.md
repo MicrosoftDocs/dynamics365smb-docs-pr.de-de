@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e4cda1f4770117065d1650a0c51dbd46fdf8baac
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 37c1f1b29dd60024c2601f313105aadc6215c77d
 ms.contentlocale: de-de
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="finance"></a><span data-ttu-id="74193-103">Finanzen</span><span class="sxs-lookup"><span data-stu-id="74193-103">Finance</span></span>
@@ -63,5 +63,5 @@ ms.lasthandoff: 05/17/2018
 <span data-ttu-id="74193-164">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="74193-164">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

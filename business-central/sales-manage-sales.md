@@ -11,10 +11,10 @@ ms.search.keywords: trade, sell
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ef18d7cedac26894d4053fbe72dc3254e328c3dd
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 1f8afabbe828b1f37cfd317277af9b9f03c4140f
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="sales"></a><span data-ttu-id="54269-103">Verkauf</span><span class="sxs-lookup"><span data-stu-id="54269-103">Sales</span></span>
@@ -61,5 +61,5 @@ ms.lasthandoff: 03/22/2018
 [<span data-ttu-id="54269-159">Allgemeine Geschäftsfunktionen</span><span class="sxs-lookup"><span data-stu-id="54269-159">General Business Functionality</span></span>](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

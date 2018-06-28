@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 04/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: c7359c5246ebbc588673409740fdfbad01685308
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 83ec2f9614d9c4997568b2a818734843e3ef41b6
 ms.contentlocale: de-de
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a><span data-ttu-id="ca35a-103">Aktivieren Sie Ihre Geschäftsdaten für Power BI</span><span class="sxs-lookup"><span data-stu-id="ca35a-103">Enabling Your Business Data for Power BI</span></span>
@@ -170,5 +170,5 @@ ms.lasthandoff: 05/17/2018
 <span data-ttu-id="ca35a-244">[Anwendung [!INCLUDE[d365fin](includes/d365fin_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)</span><span class="sxs-lookup"><span data-stu-id="ca35a-244">[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)</span></span>   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

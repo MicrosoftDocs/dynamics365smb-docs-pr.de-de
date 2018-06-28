@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 11f8ab8463270723c1974791a6ff295fd1ca31aa
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 8397edc9454adcd8e619d8f43cd81b6a2c058d99
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="design-details"></a><span data-ttu-id="c31e2-103">Designdetails</span><span class="sxs-lookup"><span data-stu-id="c31e2-103">Design Details</span></span>
@@ -40,5 +40,5 @@ ms.lasthandoff: 03/22/2018
  <span data-ttu-id="c31e2-125">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c31e2-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- ## [!INCLUDE[d365fin](includes/training_link_md.md)]
+  
 

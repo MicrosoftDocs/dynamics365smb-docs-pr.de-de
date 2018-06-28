@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: a4ff35d8339326a0cc4a42014c82e081fb940a61
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: b3252ae3838d3ac6dc3923289e7f46fd60034fe1
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="service-management"></a><span data-ttu-id="362aa-103">Service</span><span class="sxs-lookup"><span data-stu-id="362aa-103">Service Management</span></span>
@@ -46,5 +46,5 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="362aa-128">[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="362aa-128">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)</span></span>
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
