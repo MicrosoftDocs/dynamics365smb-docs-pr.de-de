@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8451e456d03c9429ff2e04f4e0664ae240f872c2
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -31,7 +31,7 @@ Sie müssen ein Abonnement haben, um [!INCLUDE[d365fin](includes/d365fin_md.md)]
 3. Wählen Sie **Erstellen** aus.  
   Eine andere Registerkarte in Ihrem Browser wird geöffnet für das Abschließen der Einrichtung der Sandkastenumgebung.
 > [!NOTE]  
->  Wenn Sie Popupblocker aktiviert haben in Ihrem Browser, bearbeiten sie diese, um URLs der *.financials.dynamics.com-Adresse zu ermöglichen.   
+>  Wenn Sie Popupblocker aktiviert haben in Ihrem Browser, bearbeiten sie diese, um URLs der *.businesscentral.dynamics.com-Adresse zu ermöglichen.   
 
 4. Wenn die Sandkastenumgebung bereitsteht, werden Sie zum Begrüßung-Assistenten der Sandkastenumgebung umgeleitet.
 ![Sandkasten-Begrüßung-Assistent](./media/across-sandbox/sandbox-wizard.png)

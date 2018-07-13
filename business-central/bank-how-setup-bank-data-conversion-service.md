@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 98d7215b4d8ae476fbc550ea0057e6f71a00a5fd
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 5bf6e0c961e35b2fdb23eb1ba470da0f5c098d81
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Einrichten des Bankdaten-Konvertierungsdienst
@@ -44,11 +44,8 @@ Um Bankdateien zu importieren oder zu exportieren, müssen Sie Ihre eigenen Bank
 5. Im Fenster **Einrichtung Bankdaten-Konvertierungsservice** geben Sie im Feld **Benutzername** den gleichen Wert ein, den Sie als Benutzername auf der Seite des Dienstanbieters in Schritt 4 eingegeben haben.
 6. Geben Sie im Feld **Kennwort** denselben Wert ein, den Sie im Feld **Kennwort** auf der Seite des Dienstanbieters in Schritt 4 angegeben haben.
 
-## <a name="to-encrypt-your-login-information"></a>So verschlüsseln Sie Ihre Anmeldeinformationen
-Es wird empfohlen, dass Sie die Anmeldeinformationen, die Sie im Fenster **Einrichtung Bankdaten-Konvertierungsservice** eingeben, schützen. Sie können Daten auf dem [!INCLUDE[d365fin](includes/d365fin_md.md)]-Server verschlüsseln, indem Sie neue Verschlüsselungsschlüssel erstellen oder vorhandene importieren, die Sie auf der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Serverinstanz aktivieren, die mit der Datenbank verknüpft ist.
-
-1. Wählen Sie im Fenster **Einrichtung Bankdaten-Konvertierungsservice** die Aktion **Verschlüsselungsverwaltung**.
-2. Aktivieren Sie im Fenster **Datenverschlüsselungsverwaltung** die Verschlüsselung der Daten.
+> [!NOTE]  
+> Sie informieren Daten werden verschlüsselt automatisch an.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Um die Liste der gerade unterstützten Bankdatenformate anzeigen oder zu aktualisieren
 1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Bankdaten-Konvertierungsservice einrichten** ein. Wählen Sie dann den zugehörigen Link aus.

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/09/2018
+ms.date: 05/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 8901216a843440e922ae4df9d7508b543a6c1322
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: bb700a7c65721efb7c1322420a4929eb7adc4433
 ms.contentlocale: de-de
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Erste Schritte mit [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -25,7 +25,7 @@ Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen. Ei
 Sie erhalten Zugriff auf [!INCLUDE [d365acc](includes/d365acc_md.md)], indem Sie sich von [Dynamics 365 — Accountant Hub auf Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) anmelden  
 
 > [!TIP]
->  Wenn Sie sich für das [!INCLUDE [d365acc](includes/d365acc_md.md)] anmelden, müssen Sie Ihre Arbeits-E-Mail-Adresse angeben, beispielsweise <em>me@accountant.com</em>. Wir empfehlen, dass Sie die gleiche E-Mail-Adresse verwenden, wie wenn Sie in Ihren Clients [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] arbeiten , sodass zwischen Clients einfach gewechselt werden kann. Die E-Mail-Adresse muss eine Arbeitsadresse sein, die auf Active Directory basiert.
+>  Wenn Sich sich beim [!INCLUDE [d365acc](includes/d365acc_md.md)] anmelden, müssen Sie Ihre E-Mail-Adresse der Unternehmung angeben wie <em>me@accountant.com</em>. Es wird empfohlen, die gleiche E-Mail-Adresse zu verwenden, wenn Sie in Ihren Clients arbeiten [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)], sodass zwischen Clients einfach gewechselt werden kann. Die E-Mail-Adresse muss eine Arbeitsadresse sein, die auf Active Directory basiert.
 
 ## <a name="working-with-individual-clients"></a>Arbeiten mit einzelnen Clients
 Das Dashboard zeigt die wichtigsten Informationen über jeden Clients an.  

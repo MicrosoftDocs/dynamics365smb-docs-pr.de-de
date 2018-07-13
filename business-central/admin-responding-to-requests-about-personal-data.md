@@ -11,10 +11,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: 400b4710bd4e9a26db3b392646581f5225a2d245
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
 ms.contentlocale: de-de
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 
@@ -47,6 +47,11 @@ Wenn Sie bei [!INCLUDE[d365fin](includes/d365fin_md.md)] angemeldet sind für [T
 In der Arbeits- und Schuldatenschutzseite können Sie Ihr Konto schließen. Es empfiehlt sich, dass Sie sicherstellen, dass Sie zuerste alle Daten exportiert und gelöscht haben, wenn Sie Ihr Konto löschen und bedeutet, dass Sie auf [!INCLUDE[d365fin](includes/d365fin_md.md)] zugreifen.  
 
 Sie können Personal immer noch sperren aufgrund des Datenschutzes und Transaktionen wie in diesem Artikel erklärt bearbeiten oder löschen.  
+
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Daten aus Tabellen exportieren, die nicht nach Datenensubjekten klassifiziert sind
+Wenn Sie eine Situation haben, in der Sie Daten exportieren müssen, die nicht auf eine Weise klassifiziert werden, so dass sie automatisch exportiert werden, wie Daten aus den Profil-Antworten Tabelle, müssen Sie wie folgt vorgehen: 
+-   Berücksichtigen Sie, dass wenn Sie tatsächlich diese ergänzenden Daten exportieren möchten oder müssen, die nicht mit dem Kontakt verknüpft ist, setzt dies voraus, dass er kein direktes Verhältnis dazu hat. 
+-   Fügen Sie diese Tabelle und Verbindung manuell mit dem Rapid Start Paket hinzu und exportieren Sie es direkt aus dem Rapid Start Paket - daher erstellen wir ein Anfangspaket einfach für Sie, so dass Sie dieses in Situationen wie dieser ändern können.
 
 ## <a name="handling-data-about-minors"></a>Behandlung von Daten Minderjähriger
 Wenn das Alter der Kontaktperson tiefer ist als das Alter der Volljährigkeit entsprechend dem Gesetz Ihres Landes, können Sie das mithilfe des Kontrollkästchens **Minderjährig** auf der Karte **Kontakt** aktivieren. Wenn Sie dies tun, wird das Kontrollkästchen **Datenschutz gesperrt** automatisch ausgewählt. Wenn Sie die Zustimmung des Feld von den Eltern oder dem Erziehungsberechtigten der minderjährigen Person erhalten, können Sie das Kontrollkästchen **Elterliche Einwilligung erhalten** aktivieren, um die Blockierung des Kontakts aufzuheben. Auch wenn Sie Personendaten für Minderjährige bearbeiten können, können Sie die Profilerstellungsfunktionalität in Microsoft Dynamics 365 for Sales nicht verwenden.

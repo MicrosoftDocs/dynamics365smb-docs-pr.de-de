@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 975703333b1a675ae78b70d99b1394d370490e9d
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -76,7 +76,7 @@ Um MwSt an eine Steuerbehörden zu übermitteln, müssen Sie den [!INCLUDE[d365f
     >   Für den EU-Verkaufsübersicht-Bericht können Sie Transaktionen überprüfen, die in den Berichtszeilen enthalten sind, bevor Sie den Bericht senden. Wählen Sie die Zeile mit der Verteilung, und wählen Sie dann die Aktion **MwSt-Einträge anzeigen** aus.  
 4. Um einen Bericht für die Übermittlung zu überprüfen und vorzubereiten, wählen Sie die **Freigabe**-Aktion.  
 
-    >  [!NOTE]  
+    > [!NOTE]  
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] prüft, ob der Bericht korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **Fehler und Warnungen** angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Wenn die Meldung zu einer fehlenden Einstellung in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfolgt, können Sie auf die Nachricht klicken, um die Seite zu öffnen, die die Informationen zur Korrektur enthält.  
 5. Um den Bericht zu buchen, wählen Sie die **Übermitteln** Aktion.  
 
@@ -91,10 +91,10 @@ Wenn Sie eine andere Methode verwenden, um den Bericht zu buchen, indem Sie beis
 ## <a name="vat-settlement"></a>MwSt.-Abrechnung
 Die Netto-MwSt. muss in regelmäßigen Abständen an die Steuerbehörden überwiesen werden. Bei häufigen MwSt.-Abrechnungen können Sie die Stapelverarbeitung **MwSt. abrechnen und buchen** ausführen, um die offenen MwSt.-Posten abzuschließen und die MwSt.-Beträge für Einkäufe und Verkäufe an das MwSt.-Abrechnungskonto zu übertragen.
 
-Die Übertragung von MwSt.-Beträgen auf Abrechnungskonten bedeutet, dass das Vorsteuerkonto im Haben und das Umsatzsteuerkonto im Soll mit den für die angegebene Abrechnungsperiode berechneten Beträge bebucht wird. Der Nettobetrag wird als Haben auf das MwSt.-Ausgleichskonto gebucht (oder als Soll, wenn der Einkaufs-MwSt.-Betrag größer ist). Sie können die Abrechnung unmittelbar buchen oder erst einen Testbericht ausdrucken.
+Die Übertragung von MwSt.-Beträgen auf Abrechnungskonten bedeutet, dass das Vorsteuerkonto im Haben und das Umsatzsteuerkonto im Soll mit den für die angegebene Abrechnungsperiode berechneten Beträge bebucht wird. Der Nettobetrag wird als Haben auf das MwSt.-Ausgleichskonto gebucht (oder als Soll, wenn der Einkaufs-MwSt.-Betrag größer ist). Sie können die Abrechnung unmittelbar buchen oder erst einen Testbericht ausdrucken.  
 
->    [!NOTE]  
->    Wenn Sie die Stapelverarbeitung **MwSt. abrechnen und buchen** verwenden und keine **MwSt.-Geschäftsbuchungsgruppe** und **MwSt.-Produktbuchungsgruppe** angeben, werden Posten mit den Geschäftsbuchungsgruppen und Produktbuchungsgruppencodes einbezogen.
+> [!Note]
+> Wenn Sie die Stapelverarbeitung **MwSt. abrechnen und buchen** verwenden und keine **MwSt.-Geschäftsbuchungsgruppe** und **MwSt.-Produktbuchungsgruppe** angeben, werden Posten mit den Geschäftsbuchungsgruppen und Produktbuchungsgruppencodes einbezogen.
 
 ## <a name="configuring-your-own-vat-reports"></a>MwSt-Bericht konfigurieren
 Sie können den EU-Verkaufsübersichts-Berichtsstandard verwenden, aber Sie können auch eigene Berichte erstellen. Dazu ist es erforderlich, dass Sie mehrere Codeunits erstellen. Wenn Sie Hilfe benötigen, kontaktieren Sie einen Microsoft Partner.  
@@ -107,14 +107,14 @@ Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen m�
 |Inhalt | Kontollieren Sie das Format des Berichts. Beispielsweise ob es XML oder JSON ist. Das Format, das zu verwenden ist, hängt von den Anforderungen des Webdiensts Ihrer Steuerbehörden ab. |
 |Übermittlung | Steuern Sie, wie und wann Sie den Bericht basierend auf den Anforderungen Ihrer Steuerbehörden senden. |
 |Antwort-Handler | Bearbeit die Antwort der Steuerbehörden. Beispielsweise sendet sie eine E-Mail an die Kontaktperson Ihres Mandanten. |
-|Abbrechen | Senden Sie eine Stornierung eines MwSt-Berichts, der zuvor zu Ihrer Steuerbehörden gesendet wurde. |
+|Abbrechen | Senden Sie eine Stornierung eines MwSt-Berichts, der zuvor zu Ihrer Steuerbehörden gesendet wurde. |  
 
-> [!NOTE]  
->   Wenn Sie Codeunits für den Bericht erstellen, passen Sie auf den Wert im Feld **MwSt Berichts-Version** auf. Dieses Feld muss der Version des Berichts entsprechen, der von der Steuerbehörde verlangt wurde oder verlangt wird. Beispielsweise können Sie **2017** in dieses Feld eingeben, um anzugeben, dass der Bericht der Anforderungen entspricht, die im letzten Jahr verlangt wurden. Um die aktuellen Version zu finden, setzen Sie sich mit den Steuerbehörden in Verbindung.  
-
+> [!Note]
+> Wenn Sie Codeunits für den Bericht erstellen, passen Sie auf den Wert im Feld **MwSt Berichts-Version** auf. Dieses Feld muss der Version des Berichts entsprechen, der von der Steuerbehörde verlangt wurde oder verlangt wird. Beispielsweise können Sie **2017** in dieses Feld eingeben, um anzugeben, dass der Bericht der Anforderungen entspricht, die im letzten Jahr verlangt wurden. Um die aktuellen Version zu finden, setzen Sie sich mit den Steuerbehörden in Verbindung.
+ 
 ## <a name="see-also"></a>Siehe auch
 [Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten](finance-setup-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Verkaufsrechnung](sales-setup-sales.md)  
+[Verkaufsrechnung](sales-how-invoice-sales.md)  
 

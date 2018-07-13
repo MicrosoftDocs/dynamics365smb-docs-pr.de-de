@@ -10,10 +10,10 @@ ms.workload: na
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f1d432ae73696e9e81bdc96c939051b676008e54
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 62bb5421667ad53d619d0529d04cf8803890a6aa
 ms.contentlocale: de-de
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Problembehandlungs-Selbstbedienungs-Registrierung
@@ -41,7 +41,8 @@ In vielen Fällen kann das Registrieren für [!INCLUDE[d365fin](includes/d365fin
 
 | Europa | Nordamerika |
 | --- | --- |
-| Österreich | Kanada |
+| Australien | Kanada |
+| Österreich | |
 | Belgien | Vereinigte Staaten |
 | Dänemark | |
 | Deutschland | |
@@ -49,6 +50,7 @@ In vielen Fällen kann das Registrieren für [!INCLUDE[d365fin](includes/d365fin
 | Frankreich | |
 | Italien | |
 | Niederlande | |
+| Neuseeland | |
 | Spanien | |
 | Schweden | |
 | Schweiz | |

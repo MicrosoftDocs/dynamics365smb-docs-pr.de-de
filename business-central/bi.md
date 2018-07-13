@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 05/31/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: b7e0ad1c632b21a26be01e68178388512d6dbbea
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: baaa62e11f9abfac900d5fe6abb14cec9fafdacf
 ms.contentlocale: de-de
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="business-intelligence"></a>Business Intelligence
@@ -32,7 +32,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | An | Siehe |
 | --- | --- |
 |Anzeigen von Budgets und Anzeigen eines Vergleichs von tatsächlichen Beträgen und budgetierten Beträgen für alle Konten sowie für mehrere Perioden|[Tatsächlichen Beträge mit den budgetierten Beträgen analysieren](bi-how-analyze-actual-versus-budget.md)|
-|Erstellen neuer Kontenschemata, um deren Finanzauswertungen für das Berichtswesen oder für Anzeige als Grafik zu definieren.|[Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)|
+|Erstellen neuer Kontenschemata, um deren Finanzauswertungen für das Berichtswesen oder für Anzeige als Grafik zu definieren.|[Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor](bi-how-work-account-schedule.md)|
 |Analysieren Sie Ihre Finanzleistung, indem Sie KPIs auf Basis von Kontenschemata einrichten, die Sie dann als Webdienste veröffentlichen. Die veröffentlichten Kontenschema-KPIs können auf einer Website angezeigt werden oder mithilfe von OData-Webdiensten zu Microsoft Excel importiert werden.|[Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Kontenschemata](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Richten Sie Analyseansichten ein, um Daten mithilfe von Dimensionen zu analysieren.|[Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)|
 |Erstellen neuer Analyseberichte für Verkauf, Einkauf und Lager sowie Einrichten von Analysevorlagen|[Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)|
@@ -40,11 +40,11 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)    
-[Financials als Power BI Datenquelle nutzen](across-how-use-financials-data-source-powerbi.md)  
+[Business Central als Power BI Datenquelle nutzen](across-how-use-financials-data-source-powerbi.md)  
 [Schließen des Finanzzeitraums](year-close-years-periods.md)  
 [Importieren von Daten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

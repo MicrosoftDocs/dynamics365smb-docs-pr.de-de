@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 897a26ae2037aabe4aaaea17c504c711a32d1632
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Verwalten von Aktivitäten für Segmente
@@ -51,5 +51,5 @@ Im Fenster **Protokollierte Segmente** können Sie ein Anschluss-Segment mit den
 [Aufzeichnen von Aktivitäten mit Kontakten](marketing-interactions.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
-[Arbeiten mit Financials](ui-work-product.md)
+[Arbeiten mit  Business Central](ui-work-product.md)
 

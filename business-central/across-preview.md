@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 01/05/2018
+ms.date: 06/28/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Rufen Sie [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Vorschau auf
@@ -43,7 +43,7 @@ Weitere Informationen erhalten Sie unter [Designer verwenden](https://docs.micro
 3.  Wählen Sie **Erstellen** aus. Eine Registerkarte wird geöffnet, in der Sie Ihre Sandbox fertig einrichten können.
 
     > [!Note]
-    > Wenn Sie Popupblocker aktiviert haben in Ihrem Browser, bearbeiten sie diese, um URLs der *.financials.dynamics.com*-Adresse zu ermöglichen.  
+    > Wenn Sie Popupblocker aktiviert haben in Ihrem Browser, bearbeiten sie diese, um URLs der *.businesscentral.dynamics.com*-Adresse zu ermöglichen.  
 
 4.  Wenn die Sandbox bereitsteht, zeigt das eine Willkommensseite an.  
 5.  Wenn Sie über Szenarien lesen möchten, die Sie in einer Sandbox testen können, wie beispielsweise die Entwicklung von Erweiterungen, wählen Sie den Link **Weitere Informationen** aus. Oder, wählen Sie **Schließen**, um zum Rollencenter Ihrer Sandkastenumgebung[!INCLUDE[d365fin](includes/d365fin_md.md)] zu gehen.  
@@ -67,7 +67,7 @@ Weitere Informationen erhalten Sie unter [Designer verwenden](https://docs.micro
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt Werkzeuge bereit, die Sie verwenden können, um Ihr eigenes Add-On und eingebettete Funktionen zu übernehmen, um neue branchenspezifische, End-zu-End-Erfahrungen oder Integration von Lösungen von Drittanbietern hinzuzufügen. Sie können beispielsweise eine API verwenden, um eine verbundene App für den Datenaustausche zwische [!INCLUDE[d365fin](includes/d365fin_md.md)] und der Gehaltsabrechnungs-App zu erstellen. Verbindungs-Apps kann auch Erweiterungen nutzen, um Seiten zu erstellen, die für die Einrichtung, Konfiguration oder zur Unterstützung App-spezifischer Funktionen verwendet wird. Weitere Informationen finden Sie unter [Apps entwickeln für [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
-##<a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

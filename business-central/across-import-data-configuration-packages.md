@@ -1,5 +1,5 @@
 ---
-title: Verwenden Sie Excel, um in Financials Stammdaten zu importieren | Microsoft Docs
+title: Verwenden Sie Excel, um in Business Central Daten zu importieren | Microsoft Docs
 description: "Verwenden Sie das Standardkonfigurationspaket, um Debitorendaten in Excel hinzuzufügen und Daten nach Business Central zu importieren."
 author: edupont04
 ms.service: dynamics365-business-central
@@ -11,10 +11,10 @@ ms.search.keywords: migration, Excel
 ms.date: 05/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 379cfd2731bba2df6f5e31d2b8de2d72e2064ebb
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 45a236dfeb7a5ce489cf8917d6a08a92ca5c4e8b
 ms.contentlocale: de-de
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Geschäftsdaten aus anderen Finanzsystemen importieren
@@ -80,5 +80,5 @@ Das Standardkonfigurationspaket unterstützt die folgenden Tabellen:
 [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

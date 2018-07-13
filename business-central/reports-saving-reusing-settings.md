@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fcfbf5d9c66df986e34e68d98888042d83a53481
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gespeicherte Einstellungen in Berichtenn verwalten
@@ -22,7 +22,7 @@ Abhängig vom Bericht, der bearbeitet wird, erhalten Sie möglicherweise eine Se
 
 Sie können die gespeicherten Einstellungen sehen, die Ihnen für einen Bericht zur Verfügung stehen im Abschnitt **Gespeicherte Einstellungen** auf der Berichtsanforderungsseite.  
 
-## <a name="to-apply-saved-settings-to-a-report"></a>Um gespeicherte Einstellungen auf einen Bericht anzuwenden
+## <a name="apply-saved-settings-to-a-report"></a>Gespeicherte Einstellungen auf einen Bericht anzuwenden
 1. Den Bericht öffnen.
 
    Die Berichtanforderungsseite wird angezeigt.    
@@ -30,7 +30,7 @@ Sie können die gespeicherten Einstellungen sehen, die Ihnen für einen Bericht 
 
    Der Abschnitt **Gespeicherte Einstellungen** wird nur angezeigt, wenn der Bericht zuvor ausgeführt wurde, oder wenn es vorhandene gespeicherte Einstellungseinträge gibt. Der gespeicherte Einstellungseintrag mit der Bezeichnung **Zuletzt verwendete Optionen und Filter** ist immer verfügbar. Diese Einstellungen sind die die Option und die Filterwerte, die bei der letzten Berichterstellung verwendet wurden.
 
-## <a name="administer-saved-report-settings-for-users"></a>Verwalten von gespeicherten Berichtseinstellungen für Benutzer
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Erstellen und Ändern gespeicherter Einstellungen für alle Benutzer
 Wenn Sie die richtigen Berechtigungen haben, können Sie die gespeicherten Einstellungen für alle Berichte für alle Benutzer im Unternehmen anzeigen, erstellen und bearbeiten. Sie können gespeicherte Einstellungen für einen Bericht den einzelnen Benutzern oder allen Benutzern im Unternehmen zuweisen.
 
 Sie können gespeicherte Einstellungen der Seite 1506 **Berichteinstellungen** verwalten. Um diese Seite zu öffnen, wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Berichtseinstellungen** ein. Wählen Sie dann den zugehörigen Link aus.

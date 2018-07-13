@@ -1,29 +1,29 @@
 ---
 title: Erste Schritte | Microsoft Docs
 description: "Erhalten Sie Informationen über Funktionen und Arbeitsszenarien in Business Central, einer Unternehmensverwaltungslösung für kleine und mittelständische Organisationen."
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 03/21/2018
-ms.author: solsen
+ms.date: 06/20/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 7dda76b03bb4bff5bb75be38710f2c851b106823
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 655f67778ed52794df893cec8965eec990f41b3f
 ms.contentlocale: de-de
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Erste Schritte mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Eine Registrierung ist einfach und Sie können vorhandene Unternehmensdaten von Ihrem bestehenden System migrieren.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Eine Registrierung ist einfach und Sie können vorhandene Unternehmensdaten von Ihrem bestehenden System migrieren. Um Ihnen mit Ihrem Abonnement zu helfen, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner [hier](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Wenn Sie sich für die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Vorschau registriert haben, haben Sie Zugriff auf ein Demonstrationsunternehmen. Das Demonstrationsunternehmen enthält Beispieldaten, aber Sie können z. B. auch eigene Verkaufsbelege erzeugen oder ein Bankkonto einrichten.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Lernen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] kennen
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Ihnen einige Elemente vertraut sein und andere nicht. Im Testunternehmen erklären visuelle Leitfäden die Kernfunktionalität und helfen Ihnen, die täglichen Aufgaben wie das Erstellen einer Verkaufsrechnung und das Anzeigen eines Berichts auszuprobieren. Wenn Sie beispielsweise ein Handbuch haben, um [!INCLUDE[d365fin](includes/d365fin_md.md)] selber zu untersuchen, aber dahin zurückkehren möchten, gehen Sie im Rollencenter und starten Sie die Reihe Erste Schritte.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Ihnen einige Elemente vertraut sein und andere nicht. Im Testunternehmen erklären visuelle Leitfäden die Kernfunktionalität und helfen Ihnen, die täglichen Aufgaben wie das Erstellen einer Verkaufsrechnung und das Anzeigen eines Berichts auszuprobieren. Wenn Sie beispielsweise ein Handbuch haben, um [!INCLUDE[d365fin](includes/d365fin_md.md)] selber zu untersuchen, aber dahin zurückkehren möchten, gehen Sie im Rollencenter und starten Sie die Reihe Erste Schritte. Wenn Sie mehr Hilfe möchten, können Sie einen Partner [!INCLUDE[d365fin](includes/d365fin_md.md)] finden [hier](https://www.microsoft.com/en-us/solution-providers/search).  
 
 > [!TIP]  
 > Sie können zurück zum Rollencenter gelangen, indem Sie den Unternehmensnamen in der linken Teil des Fensters auswählen.
@@ -71,8 +71,10 @@ Denken Sie an ein Abonnement? Sie können Demomandanten einfach ändern und erst
 
 Um einen Mandanten zu erstellen und Dinge zu testen, gehen Sie zum Menü **Meine Einstellungen** in der oberen rechter Ecke und ändern Sie den Mandanten auf **Mein Unternehmen**. Melden Sie sich von [!INCLUDE[d365fin](includes/d365fin_md.md)] ab und anschließend wieder an, um die Änderungen zu übernehmen. Eine unterstützte Einrichtung gibt Ihnen die grundlegenden Informationen zu Ihrem Unternehmen. Wenn das getan wird, entdecken Sie das Rollencenter und suchen Sie die Aktion **Unterstützte Einrichtung**.  
 
+Alternativ finden Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner [hier](https://www.microsoft.com/en-us/solution-providers/search).
+
 ## <a name="ready-to-subscribe"></a>Bereit für ein Abonnement?
-Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich für ein Abonnement entscheiden, verwenden Sie den Link in der Benachrichtigung, um Microsoft zu kontaktieren. Sie können sich auch an das [[!INCLUDE[d365fin](includes/d365fin_md.md)]Vertreiebsteam](https://go.microsoft.com/fwlink/?linkid=828707) wenden.  
+Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner [hier](https://www.microsoft.com/en-us/solution-providers/search). Sie können sich auch an das [[!INCLUDE[d365fin](includes/d365fin_md.md)]Vertreiebsteam](https://go.microsoft.com/fwlink/?linkid=828707) wenden.  
 
 ## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365 Apps
 Navigieren Sie zu Inhalten von anderen Dynamics 365 Apps werden, indem Sie den Link [Dynamics 365](https://docs.microsoft.com/dynamics365) im blauen Banner im oberen Bereich dieser Seite auswählen. Sie können mehr erfahren unter der [Dynamics 365 Business Central Website](https://dynamics.microsoft.com/en-us/business-central/overview/).  
@@ -90,5 +92,5 @@ Wenn Sie ein Buchhalter sind, können Sie sich für [!INCLUDE[d365acc_long](incl
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

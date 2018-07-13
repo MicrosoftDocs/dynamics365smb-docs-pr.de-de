@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 03/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8a3bbfa0033df816a09c45fdf7461aefb6991aff
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 36574d3374b0f9bd495bcf8d314a298f82157f4b
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
@@ -37,10 +37,11 @@ Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deut
   [So drucken Sie im Verlauf von Stapelbuchungen Verkaufsaufträge und Bestellungen](how-to-print-sales-and-purchase-orders-during-batch-posting.md)  
   [Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen](how-to-print-vendor-payments-list-reports.md)  
   [Zusammenfassende Meldung in Deutschland](eu-sales-list-in-germany.md)  
+  [Zertifizierung von Business Central für deutschen Zielmarkt (Beleg ist in Deutsch)](https://go.microsoft.com/fwlink/?linkid=875256) 
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+ 
 

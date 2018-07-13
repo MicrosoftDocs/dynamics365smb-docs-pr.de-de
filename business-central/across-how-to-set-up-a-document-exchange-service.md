@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 043034d281eb4b58fab8ab4344987d5d3ca5f494
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 0e57f02f1689de12e75595a26c489eeda68a4b89
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-a-document-exchange-service"></a>So richten Sie einen Belegaustauschdienst ein
@@ -37,12 +37,8 @@ Sie verwenden einen externen Anbieter zum Austausch elektronischer Belege mit Ih
     |**Token**|Geben Sie den dreiteiligen OAuth-Schlüssel für das Token ein. Dieser wird vom Anbieter des Belegaustauschdienstes bereitgestellt.|  
     |**Tokengeheimschlüssel**|Geben Sie das Geheimnis ein, das das Token schützt. Dieser wird vom Anbieter des Belegaustauschdienstes bereitgestellt.|  
 
-> [!NOTE]  
->  Es wird empfohlen, dass Sie die Anmeldeinformationen, die Sie im Fenster **VAN-Dienst einrichten** eingeben, schützen. Sie können Daten auf dem Server verschlüsseln, indem Sie neue Verschlüsselungsschlüssel erstellen oder vorhandene importieren, die Sie auf der Serverinstanz aktivieren, die mit der Datenbank verknüpft ist. Dies wird im folgender Verfahren beschrieben.  
-
-## <a name="to-encrypt-your-logon-information"></a>So verschlüsseln Sie Ihre Anmeldeinformationen  
-1. Wählen Sie im Fenster **VAN-Dienst einrichten** die Aktion **Verschlüsselungsverwaltung**.  
-2. Aktivieren Sie im Fenster **Datenverschlüsselungsverwaltung** die Verschlüsselung der Daten. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
+    > [!NOTE]  
+    > Sie informieren Daten werden verschlüsselt automatisch an.
 
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)  

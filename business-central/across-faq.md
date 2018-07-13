@@ -1,6 +1,6 @@
 ---
-title: FAQ zur Nutzung von Financials | Microsoft Docs
-description: "Beantwortet allgemeine Fragen darüber, wie man sich bei Financials anmeldet, und was es zu Beginn zu tun gibt."
+title: FAQ zum Anpassen von Business Central | Microsoft Docs
+description: "Beantwortet allgemeine Fragen darüber, wie man sich bei Business Central anmeldet, und was es zu Beginn zu tun gibt."
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 04/19/2018
+ms.date: 06/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
-ms.openlocfilehash: 24b6001df4937df491be8a90fee806cd0f074830
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 9284476557de94e57680bbaa68dfd62ed6d50afc
 ms.contentlocale: de-de
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
@@ -38,22 +38,27 @@ Ja, aber abhängig davon, wie Sie sich für [!INCLUDE[d365fin](includes/d365fin_
 Wenn Sie Fragen zum [!INCLUDE[d365fin](includes/d365fin_md.md)] haben, und keine Antwort in dieser Dokumentation finden, können Sie die  Business Central-Community fragen. Weitere Informationen finden Sie unter [Dynamics 365 Business Central-Community](https://community.dynamics.com/business) Auch unser Support-Team veröffentlicht Tips und Tricks. Weitere Informationen finden Sie unter [Dynamics 365 Business Central Support-Blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Ist es möglich, meine Probezeit für 30 Tage "Neues Unternehmen" zu verlängern?
-Ja. Wenn Sie Ihre Testphase verlängern möchten, können Sie Microsoft 1-888-477-7989 (USA) oder 1-800-741-9206 kontaktieren (Kanada). HINWEIS: Es kann bis zu 2 Arbeitstage dauern, um die Testphase zu verlängern.  
+Ja. Wenn Sie Ihr Probeabonnement verlängern möchten, können Sie Microsoft 1-800-865-9408 kontaktieren. HINWEIS: Es kann bis zu 2 Arbeitstage dauern, um die Testphase zu verlängern.  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Der Administrator hat mich auf einen anderen Plan gelegt und mir eine andere Rolle zugewiesen, aber ich sehe in [!INCLUDE[d365fin](includes/d365fin_md.md)] immer noch das gleiche Rollencenter?
 Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator im Rollencenter nichts geändert hat und Benutzergruppen zugeordnet hat, die mit der neuen Lizenz übereinstimmen. Im Wesentlichen wird Ihr System [!INCLUDE[d365fin](includes/d365fin_md.md)] vom Plantyp (Lizenz) bestimmt, den Sie haben - dieser legt Ihre Zugriffsrechte und Standard-Rollencenter fest. Sie können Ihr Rollencenter in "Meine Einstellungen" manuell ändern, wenn Sie aber auf einen Plan anderen wechseln, und vom Unternehmensplan auf einen Team-Members-Plan wechseln, könnten Sie die alte Startseite sehen, weil Ihre Berechtigungen nicht geändert wurden.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Warum finde ich diese Funktion nicht in meinem [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Haben Sie vor kurzem über eine neue Funktion in der Roadmap oder in unserem Blog gelesen? In diesem Fall wurde Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise noch nicht auf die neueste Version aktualisiert. Wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt es eine Verzögerung zwischen der angekündigten Erweiterung und ihrer Verfügbarkeit in AppSource.
+Haben Sie vor kurzem über eine neue Funktion in der Roadmap oder in unserem Blog gelesen? In diesem Fall wurde Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise noch nicht auf die neueste Version aktualisiert. Wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt es eine Verzögerung zwischen der angekündigten Erweiterung und ihrer Verfügbarkeit in AppSource.  
+
+## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Kann ich unter [!INCLUDE[d365fin](includes/d365fin_md.md)] das Training aufrufen?
+Ja, das können Sie. Aber Sie müssen aktuell Ihren Wiederverkaufspartner fragen. Wenn Sie ihn nicht kennen, suchen Sie einen Business Central Partner [hier](https://www.microsoft.com/en-us/solution-providers/search).  
+
+Wenn Sie Zugriff auf Microsoft CustomerSource haben, können Sie mit eLearning-Material auf die Bild-Academy-Seite zugreifen. Weitere Informationen darüber, wie Sie Zugriff erhalten, finden Sie auf der Seite [Microsoft Dynamics 365 Training](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Warum sind einige Benutzeroberflächenelemente, die ich nutzte in Dynamics NAV nicht sichtbar in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] aktivieren das Anwendungsbereichssystem und die Erfahrungsoptionen, die wichtige Teile des Produkts entsprechend dem eingekauften Plan (Basis oder Premium) und entsprechend den Unternehmensanforderungen darstellen.
 
 Diese Funktionen wurden verwendet, um die Benutzeroberfläche in der Standardeinstellung von  [!INCLUDE[d365fin](includes/d365fin_md.md)] zu vereinfachen. Beispielsweise werden Felder, die in der Regel nicht genutzt werden wie **Faxnr.** häufig entfernt und auf Menübändern von Listen und Karten werden doppelte Aktionen entfernt und die meistverwendeten Aktionen gefördert. Einige vollständige Funktionen wie Bemerkungen werden nur für den Webclienten optimiert und sind deshalb nicht in [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar.
 
-Entsprechend sind bestimmte Benutzeroberflächenelemente, die in Standardeinstellung von Dynamics NAV sichtbar sind, nicht in [!INCLUDE[d365fin](includes/d365fin_md.md)] sichtbar. Die fraglichen Steuerelemente haben das #Advanced Anwendungsbereichstag. 
+Entsprechend sind bestimmte Benutzeroberflächenelemente, die in Standardeinstellung von Dynamics NAV sichtbar sind, nicht in [!INCLUDE[d365fin](includes/d365fin_md.md)] sichtbar. Die fraglichen Steuerelemente haben das #Advanced Anwendungsbereichstag.
 
-Wenn Sie möchten, das Ihre Lösung [!INCLUDE[d365fin](includes/d365fin_md.md)] dieselben Benutzeroberflächenelemente wie Ihre Lösung Dynamics NAV enthalten, brauchen Sie mehrere Schritte in der Entwicklungsumgebung um die #Advanced Steuerelemente durch Erweiterung zu nehmen. Weitere Informationen über den Anwendungsbereich finden Sie unter [Anwendungsbereich erweitern](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
+Wenn Sie möchten, das Ihre Lösung [!INCLUDE[d365fin](includes/d365fin_md.md)] dieselben Benutzeroberflächenelemente wie Ihre Lösung Dynamics NAV enthalten, brauchen Sie mehrere Schritte in der Entwicklungsumgebung um die #Advanced Steuerelemente durch Erweiterung zu nehmen. Weitere Informationen über den Anwendungsbereich finden Sie unter [Anwendungsbereich erweitern](/dynamics365/dev-itpro/developer/devenv-extending-application-areas).
 
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
@@ -63,5 +68,4 @@ Wenn Sie möchten, das Ihre Lösung [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
 
