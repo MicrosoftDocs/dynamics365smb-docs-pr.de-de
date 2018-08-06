@@ -8,8 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/18/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
+redirect_url: warehouse-manage-warehouse
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
 ms.openlocfilehash: 4b7b4cf17020a122af3d7d9fd9d43fe507a071a1
@@ -94,7 +95,6 @@ Wenn Sie ein Miniform erstellt haben, sind die nächsten Schritte das Erstellen 
     <xsl:template match="Function[.='F6']">  
       <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
     </xsl:template>  
-
     ```  
 2.  Öffnen Sie in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Entwicklungsumgebung die Tabelle 7702 und fügen Sie einen Code für den neuen Schlüssel hinzu. In diesem Beispiel erstellen Sie einen Schlüssel namens **F6**.  
 3.  Fügen Sie für die Funktionstaste C/AL-Code der entsprechenden Funktion zu der Miniform-spezifischen Codeunit hinzu.  
