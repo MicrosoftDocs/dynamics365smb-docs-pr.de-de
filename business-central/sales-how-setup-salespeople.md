@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 09/08/2017
+ms.date: 07/18/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0b11362f3440f030e960e6576d771bff62343ba0
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: d7da3f54cfa3e5b7f3d012248ccfe1166604f2e8
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 # <a name="set-up-salespeople"></a>Verkäufer einrichten
 Viele Unternehmen möchten die Leistungen der einzelnen Angestellten bei der Berechnung von Verkaufsprovisionen oder Prämien berücksichtigen. Sehen Sie beispielsweise den **Verkäufer-Kommissionsbericht**. Ein Unternehmen möchte möglicherweise auch jeder Kontaktperson einen Verkäufer zuordnen.
 
-Wenn Sie einen Verkäufer im Fenster **Verkäufer** eingerichtet haben, können Sie im Feld **Verkäufercode** aus allen relevanten Datensätze, wie Sachkonto, Debitoren, Kreditoren, Kontaktpersonen und Kampagnenkarten auswählen. Wenn Sie Rechnungen buchen oder einrichten, werden Gutschriften, Buch.-Blattzeilen, Zinsrechnungsaktivitäten usw. mit dem Verkäufercode in die resultierenden Posten übertragen.
+Wenn Sie im Fenster **Verkäufer** einen Verkäufer eingerichtet haben, können Sie ihn im Feld **Vertriebsverkäufercode** für alle relevanten Datensätze, wie Sachkonto, Debitor, Kreditor, Kontakte und Kampagnenkarte, auswählen. Wenn Sie Rechnungen buchen oder einrichten, werden Gutschriften, Buch.-Blattzeilen, Zinsrechnungsaktivitäten usw. mit dem Verkäufercode in die resultierenden Posten übertragen.
 
 ## <a name="to-set-up-a-salesperson-code"></a>So richten Sie einen Verkäufercode ein
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.

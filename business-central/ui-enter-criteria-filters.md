@@ -52,7 +52,7 @@ Sie können allen Seiten Filter hinzufügen, indem Sie Schnellfilter oder erweit
   <TR>
     <TD>man</TD>
     <TD>@&#42;man&#42;</TD>
-    <TD>Alle Datensätze, die den Text <b>Mann</b> enthalten und die Groß-/Kleinschreibung nicht beachten.</TD>
+    <TD>Alle Datensätze, die den Text <b>man</b> enthalten und die Groß-/Kleinschreibung nicht beachten.</TD>
   </TR>
   <TR>
     <TD>se</TD>
@@ -62,22 +62,22 @@ Sie können allen Seiten Filter hinzufügen, indem Sie Schnellfilter oder erweit
   <TR>
     <TD>Man&#42;</TD>
     <TD>Beginnt mit <b>Man</b> und Groß-/Kleinschreibung beachten</TD>
-    <TD>Alle Datensätze, die mit dem Text <b>Mann</b> beginnen.</TD>
+    <TD>Alle Datensätze, die mit dem Text <b>Man</b> beginnen.</TD>
   </TR>
   <TR>
     <TD>'man'</TD>
     <TD>Exakter Text unter Berücksichtigung der Groß-/Kleinschreibung</TD>
-    <TD>Alle Datensätze, die mit <b>Mann</b> genau übereinstimmen.</TD>
+    <TD>Alle Datensätze, die mit <b>man</b> genau übereinstimmen.</TD>
   </TR>
   <TR>
     <TD>@man* </TD>
     <TD>Beginnt mit, Groß-/Kleinschreibung beachtet</TD>
-    <TD>Alle Datensätze, die mit <b>Mann</b> beginnen.</TD>
+    <TD>Alle Datensätze, die mit <b>man</b> beginnen.</TD>
   </TR>
     <TR>
     <TD>@&#42;man</TD>
     <TD>Endet mit, Groß-/Kleinschreibung beachtet</TD>
-    <TD>Alle Datensätze, die mit <b>mann</b> enden.</TD>
+    <TD>Alle Datensätze, die mit <b>man</b> enden.</TD>
   </TR>
 </TABLE>
 
@@ -159,13 +159,13 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
   
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
-|'man'|Text, der genau übereinstimmt und die Groß-/Kleinschreibung berücksichtigt.|  
+|'man'|Text, der genau mit „man“ übereinstimmt und die Groß-/Kleinschreibung berücksichtigt.|  
   
 ### <a name="-case-insensitive"></a>(@) Groß-/Kleinschreibung beachten  
   
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
-|@man*|Text, der mit „Man“ beginnt und die Groß-/Kleinschreibung beachtet.|  
+|@man*|Text, der mit „man“ beginnt und die Groß-/Kleinschreibung beachtet.|  
   
 ### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Beliebig viele unbekannte Zeichen  
   

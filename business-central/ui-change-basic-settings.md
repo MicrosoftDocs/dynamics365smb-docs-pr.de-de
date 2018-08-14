@@ -47,7 +47,7 @@ Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält.
 Standardmäßig wird das aktuelle Datum (Systemdatum) verwendet. Um Aufgaben wie das Abschließen von Transaktionen für ein Datum auszuführen, das nicht das aktuelle Datum ist, müssen Sie möglicherweise vorübergehend das Arbeitsdatum ändern.
 
 > [!TIP]  
->   Tippen Sie **W** um rasch das Arbeitsdatum in ein Datumsfeld einzugeben. Schreiben Sie **T**, um rasch das aktuelle Datum in ein Datumsfeld einzugeben.
+>   Tippen Sie **a**, um rasch das Arbeitsdatum in ein Datumsfeld einzugeben. Schreiben Sie **h**, um rasch das aktuelle Datum in das Datumsfeld einzugeben.
 
 > [!IMPORTANT]  
 >   Das Arbeitsdatum wird nur geändert, bis Sie den Mandanten schließen, oder bis das Datum sich ändert. Wenn Sie am nächsten Tag einen anderen oder denselben Mandanten öffnen und ein anderes Arbeitsdatum verwenden müssen, dann müssen Sie das Arbeitsdatum erneut einstellen.

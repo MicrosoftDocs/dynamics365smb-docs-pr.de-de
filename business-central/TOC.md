@@ -266,6 +266,7 @@
 ## [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)
 ## [Artikel reservieren](inventory-how-to-reserve-items.md)
 ## [Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)
+## [Artikel sperren](inventory-how-block-items.md)
 ## [Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)
 
 # [Projektmanagement](projects-manage-projects.md)
@@ -390,7 +391,7 @@
 ## [Designdetails: Artikelnachverfolgung](design-details-item-tracking.md)
 ## [Designdetails: Fibu Buch.-Blatt-Beitrags-Zeile](design-details-general-journal-post-line.md)
 
-# Lokale Funktionalität
+# [Lokale Funktionalität](about-localization.md)
 ## [Australien](LocalFunctionality/Australia/australia-local-functionality.md)  
 ## [Österreich](LocalFunctionality/Austria/austria-local-functionality.md)
 ## [Belgien](LocalFunctionality/Belgium/belgium-local-functionality.md)

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 09/08/2017
+ms.date: 07/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f5b69dce5426f828572fa57e73c03ac35332e101
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 745da790218ee57e4fb44b8c0bab2bce504eda3b
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 
@@ -47,6 +47,7 @@ Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist
 |Reservieren Sie Lager oder eingehenden Artikel für Verkaufsaufträge, Bestellungen, Serviceaufträge, Montageaufträge oder Fertigungsaufträge.|[Artikel reservieren](inventory-how-to-reserve-items.md)|
 |Serien- oder Chargennummern zu den einzelnen ausgehenden oder eingehende Belege oder Buch.-Blattzeile, beispielsweise um Artikel im Fall von Rückrufen nachzuverfolgen.|[Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)|
 |Suchen Sie, wo eine Serien- oder Chargennummer in der gesamten Lieferkette verwendet wurde, z. B. in Rückrufsituationen.|[Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)|
+|Artikel sperren, damit Sie nicht auf Verkaufs- oder Einkaufszeilen eingetragen oder in einer Transaktion gebucht werden können.|[Artikel sperren](inventory-how-block-items.md)|
 |Verwalten von Geschäften in den Verkaufsbüros, in den Einkaufsabteilungen oder in den Fabrikplanungsbüros von mehreren Standorten.|[Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)|
 
 ## <a name="see-also"></a>Siehe auch  
@@ -57,5 +58,4 @@ Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

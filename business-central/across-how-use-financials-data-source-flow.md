@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4dd987ee51cd2b5d8575d6d97ad21d00ec85739a
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: b8c9f05335c76884ba0d61451b0730d64bd1bfce
 ms.contentlocale: de-de
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in einem automatisierten Workflow nutzen
@@ -60,7 +60,7 @@ Zu diesem Zeitpunkt haben Sie erfolgreich Ihre Business Central Daten verbunden 
 11. Flow fordert Sie auf, den Mandanten innerhalb Ihres Tenants [!INCLUDE[d365fin_md](includes/d365fin_md.md)] auszuwählen. Da jede Schritt im Flow unabhängig vom darauffolgenden ist, werden Sie möglicherweise aufgefordert, den Mandanten mehrmals zu definieren, wenn Sie eine Vorlage [!INCLUDE[d365fin_md](includes/d365fin_md.md)] verwenden.
 
 > [!NOTE]  
-> Die Microsoft [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-Vorlage integriert mit dem Kernworkflowmodul in Microsoft[!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Das bedeutet, wenn Sie eine dieser Vorlagen verwenden, um den Flow zu erstellen, wird ein entsprechender Workflow in Microsoft erstellt [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Weitere Informationen finden Sie unter [Workflow](across-workflow.md)
+> Die Microsoft [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-Vorlage integriert mit dem Kernworkflowmodul in Microsoft[!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Das bedeutet, wenn Sie eine dieser Vorlagen verwenden, um den Flow zu erstellen, wird ein entsprechender Workflow in Microsoft erstellt [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Außerdem muss die Person, die den Flow erstellt, als ein Genehmiger im Leitfaden für die unterstützte Einrichtung eingerichtet sein. Weitere Informationen finden Sie unter [Workflow](across-workflow.md)
 
 Weitere Informationen finden Sie in der [Flow-Dokumentation](https://docs.microsoft.com/en-us/flow/getting-started).
 

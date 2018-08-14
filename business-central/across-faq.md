@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/28/2018
+ms.date: 07/20/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 9284476557de94e57680bbaa68dfd62ed6d50afc
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
@@ -50,6 +50,10 @@ Haben Sie vor kurzem über eine neue Funktion in der Roadmap oder in unserem Blo
 Ja, das können Sie. Aber Sie müssen aktuell Ihren Wiederverkaufspartner fragen. Wenn Sie ihn nicht kennen, suchen Sie einen Business Central Partner [hier](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Wenn Sie Zugriff auf Microsoft CustomerSource haben, können Sie mit eLearning-Material auf die Bild-Academy-Seite zugreifen. Weitere Informationen darüber, wie Sie Zugriff erhalten, finden Sie auf der Seite [Microsoft Dynamics 365 Training](/dynamics365/get-started/training/index#dynamics-365-customers).  
+
+## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>Ist [!INCLUDE[d365fin](includes/d365fin_md.md)] in meinem Land verfügbar?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist in einer begrenzten Anzahl von Märkten verfügbar. Neue Länder werden über eine von Microsoft geführte Lokalisation oder durch partnergeführte Lokalisation quartalsweise hinzugefügt. Weitere Informationen finden Sie unter [Unterstützte Länder und Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Warum sind einige Benutzeroberflächenelemente, die ich nutzte in Dynamics NAV nicht sichtbar in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] aktivieren das Anwendungsbereichssystem und die Erfahrungsoptionen, die wichtige Teile des Produkts entsprechend dem eingekauften Plan (Basis oder Premium) und entsprechend den Unternehmensanforderungen darstellen.

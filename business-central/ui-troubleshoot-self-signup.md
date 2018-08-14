@@ -10,10 +10,10 @@ ms.workload: na
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 62bb5421667ad53d619d0529d04cf8803890a6aa
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: de07dac85b9e24f50eb60570630feb6199089ec4
 ms.contentlocale: de-de
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Problembehandlungs-Selbstbedienungs-Registrierung
@@ -37,26 +37,30 @@ In vielen Fällen kann das Registrieren für [!INCLUDE[d365fin](includes/d365fin
 | Wenn Ihr Office 365 Konto bei einem unterstützten Land erfasst ist und Sie sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden, während Sie in einem anderen Land sind, erhalten Sie eine Meldung wie die Folgendes während der Anmeldung:<br /><br />**Das funktioniert nicht, wir unterstützen Ihr Land oder Region nicht.**| Das Office 365 Abonnement Ihrer Organisation ist mit einem bestimmten Land im Verwaltungsportal Office 365 erfasst. Die Anmeldeerfahrung für [!INCLUDE[d365fin](includes/d365fin_md.md)] nutzt die Sprache und das Gebietsschema, die Ihr aktueller Browser verwendet und infolgedessen, können Sie die Fehlermeldung erhalten, obwohl Sie in einem unterstützten Land sind. Fragen Sie Ihren IT-Administrator, das Land zu überprüfen, das im Organisationsprofil im [Office 365 Verwaltungsportal](https://portal.office.com/adminportal/home#/companyprofile) angegeben ist. Sie müssen möglicherweise ein anderes Konto verwenden für [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## <a name="regional-availability"></a>Regionale Verfügbarkeit
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist in den folgenden Märkten verfügbar:
+Eine Liste der derzeit unterstützten Märkte finden Sie im Deck [Internationale Verfügbarkeit von Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) und der Landing Page [Lokale Funktionalität](about-localization.md).
 
-| Europa | Nordamerika |
+<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+
+| Europe | North America |
 | --- | --- |
-| Australien | Kanada |
-| Österreich | |
-| Belgien | Vereinigte Staaten |
-| Dänemark | |
-| Deutschland | |
-| Finnland | |
-| Frankreich | |
-| Italien | |
-| Niederlande | |
-| Neuseeland | |
-| Spanien | |
-| Schweden | |
-| Schweiz | |
-| Großbritannien | |
+| Australia | Canada |
+| Austria | |
+| Belgium | United States |
+| Denmark | |
+| Germany | |
+| Finland | |
+| France | |
+| Italy | |
+| Netherlands | |
+| New Zealand | |
+| Spain | |
+| Sweden | |
+| Switzerland | |
+| United Kingdom | |
+-->
 
 ## <a name="see-also"></a>Siehe auch
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Lokale Funktionalität](about-localization.md)  
 

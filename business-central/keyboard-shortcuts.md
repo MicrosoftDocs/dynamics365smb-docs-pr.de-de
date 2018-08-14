@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
 ms.contentlocale: de-de
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 
@@ -91,6 +91,22 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |EINGABE|Wählen Sie das fokussierte Datum aus.|
 |Strg+Ende<br />(Cmd+End)|Schließen Sie den Kalender oder löschen Sie die aktuellen Datum.|
 |Esc|Schließen Sie den Kalender ohne eine Auswahl, geben Sie ein aktuelles Datum ein.|
+
+
+## <a name="keyboard-shortcuts-in-the-report-preview"></a>Tastenkombinationen in der Berichtsvorschau
+
+|Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
+|-----------------|-------|
+|NACH-UNTEN-TASTE|Führen Sie einen Bildlauf zum Ende der Seite durch|  
+|NACH-OBEN-TASTE|Führen Sie einen Bildlauf zum Anfang der Seite durch|
+|NACH-RECHTS-TASTE|Führen Sie einen Bildlauf nach rechts durch, wenn die Seite vergrößert ist, sodass sie nicht vollständig angezeigt wird. |
+|NACH-LINKS-TASTE|Führen Sie einen Bildlauf nach links durch, wenn die Seite vergrößert ist, sodass sie nicht vollständig angezeigt wird. |
+|STRG+0 (null)<br />(Cmd+0)|Passt die gesamte Seite an das Fenster an. |
+|Strg+Pos1<br />(Cmd+Home)|Zur ersten Seite des Berichts wechseln.|
+|Strg+Ende<br />(Cmd+Home)|Zur letzten Seite des Berichts wechseln.|
+|Seite nach unten<br />(NACH-UNTEN-TASTE)|Zur nächsten Seite des Berichts wechseln.|
+|Seite hochbr />(FN+NACH-OBEN-TASTE)|Zur vorherigen Seite des Berichts wechseln.|
+
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles)

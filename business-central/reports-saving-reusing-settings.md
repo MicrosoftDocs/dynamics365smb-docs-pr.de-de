@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: adc15d5f80f4d7ab2a1ca5a8247588ec0aa9779a
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gespeicherte Einstellungen in Berichtenn verwalten
@@ -33,7 +33,7 @@ Sie können die gespeicherten Einstellungen sehen, die Ihnen für einen Bericht 
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Erstellen und Ändern gespeicherter Einstellungen für alle Benutzer
 Wenn Sie die richtigen Berechtigungen haben, können Sie die gespeicherten Einstellungen für alle Berichte für alle Benutzer im Unternehmen anzeigen, erstellen und bearbeiten. Sie können gespeicherte Einstellungen für einen Bericht den einzelnen Benutzern oder allen Benutzern im Unternehmen zuweisen.
 
-Sie können gespeicherte Einstellungen der Seite 1506 **Berichteinstellungen** verwalten. Um diese Seite zu öffnen, wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Berichtseinstellungen** ein. Wählen Sie dann den zugehörigen Link aus.
+Sie können gespeicherte Einstellungen der Seite 1560 **Berichteinstellungen** verwalten. Um diese Seite zu öffnen, wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Berichtseinstellungen** ein. Wählen Sie dann den zugehörigen Link aus.
 
 Von der Seite **Berichteinstellungen** können Sie neue Einstellungen von Grund auf erstellen oder Sie können bestehende Einstellungen kopieren oder bearbeiten. Um die Optionen und Filter für Einstellungen zu ändern, wählen Sie die Aktion **Bearbeiten**.
 

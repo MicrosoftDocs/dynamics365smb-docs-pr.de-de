@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 07/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1d48a4cd8d805870527249c414285867c83a6de9
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Einrichten von Workflowbenachrichtigungen
@@ -26,7 +26,7 @@ Mit vielen Workflowantworten werden Benutzer darüber benachrichtigt, dass ein E
 >  Die allgemeine Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt Benachrichtigungen in Form von E-Mails und internen Notizen.  
 
 > [!IMPORTANT]  
->  Alle Workflowbenachrichtigungen werden über eine Projektwarteschlange gesendet. Stellen Sie sicher, dass die Projektwarteschlange in Ihrer Lösung eingerichtet ist. Weitere Informationen finden Sie unter [Vorgehensweise: Projektwarteschlangen nutzen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md)
+>  Alle Workflowbenachrichtigungen werden über eine Projektwarteschlange gesendet. Stellen Sie sicher, dass die Auftragswarteschlange in Ihrer Installation so eingerichtet ist, dass Workfolw-Benachrichtigungen behandelt werden können und dass das Kontrollkästchen **Automatisch vom Server starten** aktiviert ist. Weitere Informationen finden Sie unter [Vorgehensweise: Projektwarteschlangen nutzen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md)
 
 In den folgenden Bereichen richten Sie verschiedene Aspekte von Workflowbenachrichtigungen ein:  
 
