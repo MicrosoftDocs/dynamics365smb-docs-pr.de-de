@@ -7,8 +7,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/20/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
+ms.date: 08/15/2018
 ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
@@ -56,6 +56,7 @@ Wenn Sie Zugriff auf Microsoft CustomerSource haben, können Sie mit eLearning-M
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist in einer begrenzten Anzahl von Märkten verfügbar. Neue Länder werden über eine von Microsoft geführte Lokalisation oder durch partnergeführte Lokalisation quartalsweise hinzugefügt. Weitere Informationen finden Sie unter [Unterstützte Länder und Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Warum sind einige Benutzeroberflächenelemente, die ich nutzte in Dynamics NAV nicht sichtbar in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] aktivieren das Anwendungsbereichssystem und die Erfahrungsoptionen, die wichtige Teile des Produkts entsprechend dem eingekauften Plan (Basis oder Premium) und entsprechend den Unternehmensanforderungen darstellen.
 
 Diese Funktionen wurden verwendet, um die Benutzeroberfläche in der Standardeinstellung von  [!INCLUDE[d365fin](includes/d365fin_md.md)] zu vereinfachen. Beispielsweise werden Felder, die in der Regel nicht genutzt werden wie **Faxnr.** häufig entfernt und auf Menübändern von Listen und Karten werden doppelte Aktionen entfernt und die meistverwendeten Aktionen gefördert. Einige vollständige Funktionen wie Bemerkungen werden nur für den Webclienten optimiert und sind deshalb nicht in [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar.
