@@ -8,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2018
+ms.date: 08/22/2018
 ms.author: sgroespe
-redirect_url: warehouse-manage-warehouse
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 584c5d24bcf7843d8f1c478fac44148da1f4e1e4
+ms.sourcegitcommit: ac8746e90309cc9ac34ee37239b62ffb96d300b5
+ms.openlocfilehash: b642907d0a2dee5594044cb988f0b074170a30a8
 ms.contentlocale: de-de
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/03/2018
 
 ---
 # <a name="enable-automated-data-capture-systems-adcs"></a><span data-ttu-id="54793-103">Aktivieren des mobilen Datenerfassungssystems (ADCS)</span><span class="sxs-lookup"><span data-stu-id="54793-103">Enable Automated Data Capture Systems (ADCS)</span></span>
