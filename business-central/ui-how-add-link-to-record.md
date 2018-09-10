@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a513f6e62c4ef8dcf9e484d0211feb3e857dc0f7
+ms.sourcegitcommit: b4434823839f23656b01038e56c4a09bf709981c
+ms.openlocfilehash: 6ff88e79c8b88c5c14faeff423960bf39aed54f1
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/10/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a><span data-ttu-id="3a460-103">Hinzufügen von Links zu Websites, Belegen oder Programmen auf Datensätze</span><span class="sxs-lookup"><span data-stu-id="3a460-103">Adding Links to Websites, Documents, or Programs on Records</span></span>
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/22/2018
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a><span data-ttu-id="3a460-132">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3a460-132">See Also</span></span>  
 <span data-ttu-id="3a460-133">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="3a460-133">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
