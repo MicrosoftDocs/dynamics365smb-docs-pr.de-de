@@ -51,7 +51,7 @@ Wenn Sie einen einzelnen Datensatz (z. B. eine Verkaufszeile, einen Verkaufsauft
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Siehe auch  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
