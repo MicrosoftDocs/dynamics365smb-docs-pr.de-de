@@ -29,10 +29,9 @@ Um aus vorgeschlagenen Zeilen voll zu profitieren, müssen Sie zuerst die Kredit
 
 > [!IMPORTANT]  
 >   Wenn Sie Skonti nutzen möchten und einen verfügbaren Betrag eingegeben haben, wird der Rechnungsrabatt verwendet für:  
-
-* Priorisierte überfällige Kreditorenposten nach der Priorität.  
-* Überfällige Kreditorenposten, die nicht berücksichtigt werden.  
-* Öffnen Sie die Kreditorenposten, die sich für Rabatte qualifizieren, angeordnet nach Kreditorennummer.  
+    * Priorisierte überfällige Kreditorenposten nach der Priorität.   
+    * Überfällige Kreditorenposten, die nicht berücksichtigt werden.  
+    * Öffnen Sie die Kreditorenposten, die sich für Rabatte qualifizieren, angeordnet nach Kreditorennummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Die Zahlungsvorschlagfunktion verwenden
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Zahlungs-Buchblatt** ein und wählen den zugehörenden Link aus.  
