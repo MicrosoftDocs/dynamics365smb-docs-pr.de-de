@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d57e87363830c521a90f00b552146dd09654f68
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Lagerortverwaltung einrichten
@@ -40,8 +40,8 @@ Die Logistikstrategie eines Mandanten spiegelt sich in der Konfiguration seiner 
 |Definieren Sie Zeitpunkt und Art der Zählung von Artikeln an Lagerorten zu Zwecken der Verwaltung oder für Finanzberichte.|[Erfassen, Regulieren und Umbuchen von Lagerbestand](inventory-how-count-adjust-reclassify.md)|
 |Ermöglichen Sie es Lagermitarbeitern, eine größere Einheit in kleinere Einheiten aufzubrechen, um die Anforderungen von Herkunftsbelegen zu erfüllen.|[Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung aktivieren](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Richten Sie ein, dass das Lager automatisch Artikel für die Kommissionierung vorschlägt, die zuerst ablaufen.|[Aktiveren der Kommissionierung nach FEFO](warehouse-picking-by-fefo.md)|
-|Integrieren Sie Barcodeleser in Ihrer Logistiklösung.|[Automatisierte Datenerfassung (MDE) verwenden](warehouse-use-automated-data-capture-systems-adcs.md)|  
-|Sie erhalten Tipps zur Neuorganisation von Lagerorten, Lagerplätzen oder Zonen, um weitere effiziente Lageraktivitäten zu erhalten.|[Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)|  
+|Sie erhalten Tipps zur Neuorganisation von Lagerorten, Lagerplätzen oder Zonen, um weitere effiziente Lageraktivitäten zu erhalten.|[Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)|
+<!-- |Integrieren Sie Barcodeleser in Ihrer Logistiklösung.|[Automatisierte Datenerfassung (MDE) verwenden](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  

@@ -1,8 +1,6 @@
 ---
 title: Verwenden Sie Excel, um Business Central Daten zu exportieren | Microsoft Docs
 description: "Sie können Ihre Finanzberichte und Intelligence-Daten von Business Central in Excel exportieren, oder Ihre Financials Daten in Excel öffnen."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 06/02/2017
+ms.date: 08/13/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 3bd7442582fe13809ea04d1f298b7aecbf9b45ed
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: 0407e0c34578e6487b37f4254f6a600fe99e967a
 ms.contentlocale: de-de
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportieren Ihrer Geschäftsdaten nach Excel
@@ -26,6 +24,9 @@ Wenn Sie mit Ihren Daten von [!INCLUDE[d365fin](includes/d365fin_md.md)] in Exce
 Sie können Daten aus jeder Liste, jedem Arbeitsblatt oder jedem Eintrag in Excel öffnen. Sie öffnen einfach die Seite, die Sie anzeigen möchten, und wählen dann **In Excel öffnen**. Beispielsweise öffnen Sie die Liste der Debitoren (nach **Debitoren** suchen) und wählen Sie dann **In Excel öffnen** aus. Ihr Browser fordert Sie auf, die generierte Excel-Arbeitsmappe zu öffnen oder zu speichern.  
 
 Jede Liste enthält mehrere Spalten und der Export in Excel enthält sämtliche Spalten, die in Ihrer aktuellen Ansicht enthalten sind. Wenn Sie Spalten hinzufügen oder entfernen möchten, bevor Sie die Liste in Excel öffnen, öffnen Sie das Shortcutmenü für jede mögliche Spalte und geben dann die Spalten an, die angezeigt werden sollen. Diese Liste der Spalten ist für die meisten Listen anders und sie zeigt die Struktur der Datenbank, in der Ihre Daten gespeichert sind. Wenn Sie nicht sicher sind, welche Art der Daten eine bestimmte Spalte enthält, können Sie diese zur Ansicht hinzuzufügen und anschließend entscheiden, ob Sie diese wieder entfernen möchten.  
+
+### <a name="edit-data-in-excel"></a>Daten in Excel bearbeiten
+Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzeroberfläche wird das Add-In für Excel integrieren, sodass Sie Daten in Excel bearbeiten können. Weitere Informationen finden Sie unter [Finanzauswertungen analysieren Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Daten in andere Finanzsysteme exportieren
 Wenn Sie Ihre Abonnement für [!INCLUDE[d365fin](includes/d365fin_md.md)] stornieren möchten, können Sie die Daten in Excel exportieren, damit Sie in Ihrem nächsten Finanzsystem bereitstehen.  
@@ -65,6 +66,7 @@ Es ist empfehlenswert, dass Sie auch erwägen, Daten von den nächsten Seiten zu
 ## <a name="see-also"></a>Siehe auch
 [Abbrechen des Abonnements für [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
+[Finanzauswertungen analysieren in Microsoft Excel](finance-analyze-excel.md)  
 [Finanzen](finance.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
