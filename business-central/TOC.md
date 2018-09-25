@@ -110,7 +110,6 @@
 ### [Erfassen, Regulieren und Umbuchen von Lagerbestand](inventory-how-count-adjust-reclassify.md)
 ### [Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung aktivieren](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 ### [Aktiveren der Kommissionierung nach FEFO](warehouse-picking-by-fefo.md)
-### [Aktivieren des mobilen Datenerfassungssystems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)
 ## [Produktion einrichten](production-configure-production-processes.md)
 ### [Arbeitsplatzgruppenkalender erstellen](production-how-to-create-work-center-calendars.md)
