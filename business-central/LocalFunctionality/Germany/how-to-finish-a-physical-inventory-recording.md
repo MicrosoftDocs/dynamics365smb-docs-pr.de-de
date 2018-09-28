@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 27f661828151d5dcdcac4ce0dbb46f9b24ccef27
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82f198372969db8a0d962ade1f352f0256daa4e4
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="finish-a-physical-inventory-recording"></a><span data-ttu-id="05765-103">So schließen Sie eine Inventurerfassung ab</span><span class="sxs-lookup"><span data-stu-id="05765-103">Finish a Physical Inventory Recording</span></span>

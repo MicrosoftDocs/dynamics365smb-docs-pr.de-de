@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ee163532fbc7588e45b0fba76a3c578f129d4fe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2d7fd2c9d1387575254a7014c8a6f18c61c568d3
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="planning-services"></a><span data-ttu-id="81a86-103">Planungsservices</span><span class="sxs-lookup"><span data-stu-id="81a86-103">Planning Services</span></span>
 <span data-ttu-id="81a86-104">Mit [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie die Standardaufgaben für die Erfüllung der Kundenserviceanforderungen einrichten.</span><span class="sxs-lookup"><span data-stu-id="81a86-104">With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements.</span></span> <span data-ttu-id="81a86-105">Dazu muss bestimmt werden, welche Serviceangebote von der Serviceorganisation unterstützt werden und zu welchem Preis.</span><span class="sxs-lookup"><span data-stu-id="81a86-105">To do this, you must determine what service items and offerings your service organization supports, and at what price.</span></span>   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="81a86-106"> stellt auch mehrere Statistiktools her, die Sie verwenden können, um zu bestimmen wie diese Elemente laufen und um zu bestimmen welche Bereiche Sie verbessern können.</span><span class="sxs-lookup"><span data-stu-id="81a86-106"> also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="81a86-106">stellt auch mehrere Statistiktools her, die Sie verwenden können, um zu bestimmen wie diese Elemente laufen und um zu bestimmen welche Bereiche Sie verbessern können.</span><span class="sxs-lookup"><span data-stu-id="81a86-106"> also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.</span></span>
   
 <span data-ttu-id="81a86-107">In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.</span><span class="sxs-lookup"><span data-stu-id="81a86-107">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
   

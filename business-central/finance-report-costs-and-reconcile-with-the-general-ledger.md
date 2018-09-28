@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8072a9e21349f3a8e8f9d21f5b011bae72a69e0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b56b068431f094562b75d8c4bdb7316e3404ad14
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a><span data-ttu-id="8ef29-104">Melden von Kosten und Abstimmen mit der Finanzbuchhaltung</span><span class="sxs-lookup"><span data-stu-id="8ef29-104">Reporting Costs and Reconciling with the General Ledger</span></span>

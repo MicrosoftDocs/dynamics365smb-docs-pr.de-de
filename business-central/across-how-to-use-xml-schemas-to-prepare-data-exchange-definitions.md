@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 860de16a7cf5f608b6b1739eb8a4900ebe6c8e11
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b0e4af3fb0f886727163cc36ba7df8234d5e2a19
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a><span data-ttu-id="a532b-103">Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen</span><span class="sxs-lookup"><span data-stu-id="a532b-103">Use XML Schemas to Prepare Data Exchange Definitions</span></span>
@@ -58,7 +58,7 @@ ms.lasthandoff: 03/22/2018
      <span data-ttu-id="a532b-130">Wenn die Datei geladen wird, werden die restlichen Felder auf der Zeile mit Informationen aus der Datei ausgefüllt, und das Kontrollkästchen **Schema ist geladen** ist aktiviert.</span><span class="sxs-lookup"><span data-stu-id="a532b-130">When the file is loaded, the rest of the fields on the line are filled with information from the file, and the **Schema is Loaded** check box is selected.</span></span>  
 
     > [!NOTE]  
-    >  <span data-ttu-id="a532b-131">Die Struktur des geladenen XML-Schemas wird standardmäßig reduziert angezeigt.</span><span class="sxs-lookup"><span data-stu-id="a532b-131">The tree of the loaded XML schema is collapsed by default.</span></span> <span data-ttu-id="a532b-132">Sie erweitern die einzelnen Knoten über die Schaltfläche **+**für den Knoten.</span><span class="sxs-lookup"><span data-stu-id="a532b-132">You expand each node by choosing the **+** button on the node.</span></span> <span data-ttu-id="a532b-133">Um alle Knoten zu erweitern, wählen Sie **Alle aufklappen** auf dem Menüband aus.</span><span class="sxs-lookup"><span data-stu-id="a532b-133">To expand all nodes, choose **Expand All** on the ribbon.</span></span>  
+    >  <span data-ttu-id="a532b-131">Die Struktur des geladenen XML-Schemas wird standardmäßig reduziert angezeigt.</span><span class="sxs-lookup"><span data-stu-id="a532b-131">The tree of the loaded XML schema is collapsed by default.</span></span> <span data-ttu-id="a532b-132">Sie erweitern die einzelnen Knoten über die Schaltfläche **+** für den Knoten.</span><span class="sxs-lookup"><span data-stu-id="a532b-132">You expand each node by choosing the **+** button on the node.</span></span> <span data-ttu-id="a532b-133">Um alle Knoten zu erweitern, wählen Sie **Alle aufklappen** auf dem Menüband aus.</span><span class="sxs-lookup"><span data-stu-id="a532b-133">To expand all nodes, choose **Expand All** on the ribbon.</span></span>  
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a><span data-ttu-id="a532b-134">So wählen oder löschen Sie Knoten in XML-Schema</span><span class="sxs-lookup"><span data-stu-id="a532b-134">To select or clear nodes in an XML schema</span></span>  
 

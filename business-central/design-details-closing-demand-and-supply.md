@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, planning, example, closing, supply
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6cacf967295944ba720c20203700db30d9ec45c4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6940f0608913e14580673a37f71da2d2e0dcf04e
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-closing-demand-and-supply"></a><span data-ttu-id="f57b7-103">Designdetails: Abschluss von Bedarf und Vorrat</span><span class="sxs-lookup"><span data-stu-id="f57b7-103">Design Details: Closing Demand and Supply</span></span>

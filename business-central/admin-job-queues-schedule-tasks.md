@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8f274fe153cb93c31148269aae994218bd0da497
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a><span data-ttu-id="70c0c-105">Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung</span><span class="sxs-lookup"><span data-stu-id="70c0c-105">Use Job Queues to Schedule Tasks</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="70c0c-115">Optional im Feld **Kategorienfilter für Aufgabenwarteschlange** Feld, Sie wählen einen Filter, der gelten soll.</span><span class="sxs-lookup"><span data-stu-id="70c0c-115">Optionally, you can set a filter in the **Job Queue Category Filter** field.</span></span> <span data-ttu-id="70c0c-116">Aufgabenwarteschlangenkategorien können verwendet werden, um Projekte in der Liste zu gruppieren.</span><span class="sxs-lookup"><span data-stu-id="70c0c-116">Job queue categories can be used to group jobs in the list.</span></span>
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="70c0c-117"> automatisch aktiviert die Projekte entsprechend den angegebenen Plänen für jeden Aufgabenwarteschlangenposten.</span><span class="sxs-lookup"><span data-stu-id="70c0c-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="70c0c-118">Sie können einen Projektwarteschlangenposten auch manuell beginnen, beenden und aktivieren.</span><span class="sxs-lookup"><span data-stu-id="70c0c-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="70c0c-117">automatisch aktiviert die Projekte entsprechend den angegebenen Plänen für jeden Aufgabenwarteschlangenposten.</span><span class="sxs-lookup"><span data-stu-id="70c0c-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="70c0c-118">Sie können einen Projektwarteschlangenposten auch manuell beginnen, beenden und aktivieren.</span><span class="sxs-lookup"><span data-stu-id="70c0c-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
 
 ### <a name="log-files"></a><span data-ttu-id="70c0c-119">Transaktionsprotokoll</span><span class="sxs-lookup"><span data-stu-id="70c0c-119">Log Files</span></span>
 <span data-ttu-id="70c0c-120">Die Fehler werden im Fenster **Aufgabenwarteschlangen-Protokolleinträge** aufgeführt, das Sie im Menüband zugreifen können.</span><span class="sxs-lookup"><span data-stu-id="70c0c-120">Errors are listed in the **Job Queue Log Entries** window that you can access from the ribbon.</span></span> <span data-ttu-id="70c0c-121">Sie können auch Aufgabenwarteschlangenfehler beheben.</span><span class="sxs-lookup"><span data-stu-id="70c0c-121">You can also troubleshoot job queue errors.</span></span> <span data-ttu-id="70c0c-122">Die Daten, die beim Ausführen einer Aufgabenwarteschlange generiert werden, werden an der Datenbank gespeichert.</span><span class="sxs-lookup"><span data-stu-id="70c0c-122">Data that is generated when a job queue is run is stored in the database.</span></span>  
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="70c0c-127">Alternativ können Sie Buchungen zu bestimmten Betriebszeiten planen, wenn es für Ihre Organisation hilfreich ist.</span><span class="sxs-lookup"><span data-stu-id="70c0c-127">Alternatively, you may want to schedule postings for hours when it is convenient for your organization.</span></span> <span data-ttu-id="70c0c-128">Beispielsweise kann es in Ihrem Unternehmen sinnvoll sein, bestimmte Routinen dann auszuführen, wenn ein Großteil der Dateneingaben für einen Arbeitstag abgeschlossen wurde.</span><span class="sxs-lookup"><span data-stu-id="70c0c-128">For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.</span></span> <span data-ttu-id="70c0c-129">Sie können dieses erreichen, indem Sie die oben Aufgabenwarteschlange auf Batch-Beitragsberichte des Ausführens verschiedene, wie **Aufträge stapelbuchen** **Verk. Rechnungen stapelbuchen** die **Verk.Gutschriften stapelbuchen** festlegen.</span><span class="sxs-lookup"><span data-stu-id="70c0c-129">You can achieve this by setting the job queue up to run various batch post reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports.</span></span>  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="70c0c-130"> unterstützt die Hintergrundbuchung für die folgenden Belegarten:</span><span class="sxs-lookup"><span data-stu-id="70c0c-130"> supports background posting for the following document types:</span></span>  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="70c0c-130">unterstützt die Hintergrundbuchung für die folgenden Belegarten:</span><span class="sxs-lookup"><span data-stu-id="70c0c-130"> supports background posting for the following document types:</span></span>  
 
 -   <span data-ttu-id="70c0c-131">Vertrieb: Verkaufsauftrag, Verkaufsreklamation, Gutschrift, Rechnung</span><span class="sxs-lookup"><span data-stu-id="70c0c-131">Sales: sales order, return order, credit memo, invoice</span></span>  
 

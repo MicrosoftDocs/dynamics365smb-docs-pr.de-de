@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 533b3c31f95adf5c7f0359c63ee1a064972255de
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1448de151642581ba8f1aaac5eab074e3857afa0
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors"></a><span data-ttu-id="11807-103">So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen</span><span class="sxs-lookup"><span data-stu-id="11807-103">Assign Delivery Reminder Codes to Vendors</span></span>

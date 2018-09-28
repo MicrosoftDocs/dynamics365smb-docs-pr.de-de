@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 8397edc9454adcd8e619d8f43cd81b6a2c058d99
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f374daae5d7135324ef4fc3da4845a992aa0ccb5
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details"></a><span data-ttu-id="c31e2-103">Designdetails</span><span class="sxs-lookup"><span data-stu-id="c31e2-103">Design Details</span></span>

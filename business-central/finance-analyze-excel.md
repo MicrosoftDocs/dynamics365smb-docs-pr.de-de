@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ef371dda59142f38aa50159ecf305880d34529b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a><span data-ttu-id="3261b-103">Analysieren von Finanzauswertungen in Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="3261b-103">Analyzing Financial Statements in Microsoft Excel</span></span>

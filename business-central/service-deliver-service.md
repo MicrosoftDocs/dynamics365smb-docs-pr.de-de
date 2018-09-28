@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d8250f4e80af08c7500e495ac539d0c035636895
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="delivering-service"></a><span data-ttu-id="02f17-103">Bereitstellen von Service</span><span class="sxs-lookup"><span data-stu-id="02f17-103">Delivering Service</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="02f17-104"> bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen.</span><span class="sxs-lookup"><span data-stu-id="02f17-104"> provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling.</span></span> <span data-ttu-id="02f17-105">Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen.</span><span class="sxs-lookup"><span data-stu-id="02f17-105">Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**.</span></span> <span data-ttu-id="02f17-106">Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.</span><span class="sxs-lookup"><span data-stu-id="02f17-106">At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="02f17-104">bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen.</span><span class="sxs-lookup"><span data-stu-id="02f17-104"> provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling.</span></span> <span data-ttu-id="02f17-105">Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen.</span><span class="sxs-lookup"><span data-stu-id="02f17-105">Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**.</span></span> <span data-ttu-id="02f17-106">Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.</span><span class="sxs-lookup"><span data-stu-id="02f17-106">At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.</span></span>  
   
 <span data-ttu-id="02f17-107">Ausstehende Serviceaufträge können auch im Fenster **Serviceaufgaben** geprüft werden.</span><span class="sxs-lookup"><span data-stu-id="02f17-107">Another way to review pending service orders is to use the **Service Tasks** window.</span></span> <span data-ttu-id="02f17-108">In dieser Ansicht der Serviceverpflichtungen wird angezeigt, an welcher Stelle des Serviceworkflows sich der Auftrag befindet, und der Status kann so geändert werden, dass die Interaktionen mit dem Debitor dargestellt werden.</span><span class="sxs-lookup"><span data-stu-id="02f17-108">In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.</span></span>  
   

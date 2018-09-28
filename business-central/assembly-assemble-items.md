@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 09/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 069d97f8d8e84f3d908353d772c8d5282971c06c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b175e963acb513d70eecdf6deffc31e544685f91
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="assembly-management"></a><span data-ttu-id="2c2b7-103">Montageverwaltung</span><span class="sxs-lookup"><span data-stu-id="2c2b7-103">Assembly Management</span></span>

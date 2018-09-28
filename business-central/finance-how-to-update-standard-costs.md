@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/09/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c59977f847a020fbcda490893dbe15ed88ac1e5a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e692c53d98760ac3ad71a6a56f3597ce3bc42fe0
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="update-standard-costs"></a><span data-ttu-id="f2008-103">Standardkosten aktualisieren</span><span class="sxs-lookup"><span data-stu-id="f2008-103">Update Standard Costs</span></span>

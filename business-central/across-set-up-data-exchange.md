@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fa9147c218b3fad101501bec164c8e3b4dc3e3ec
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 08245d807107a40320794b29a1c2da2b38f2ff88
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-data-exchange"></a><span data-ttu-id="fbb26-103">Einrichten eines Datenaustauschs</span><span class="sxs-lookup"><span data-stu-id="fbb26-103">Setting Up Data Exchange</span></span>

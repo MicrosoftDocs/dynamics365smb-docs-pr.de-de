@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 05/15/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 319faa64adc93c9e54cf792325daeb6a5a8e0b80
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f3733c3ec0048171294aae51dcfac0c2ecdc9e72
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-bank-accounts"></a><span data-ttu-id="fe359-103">Verwalten von Bankkonten</span><span class="sxs-lookup"><span data-stu-id="fe359-103">Managing Bank Accounts</span></span>

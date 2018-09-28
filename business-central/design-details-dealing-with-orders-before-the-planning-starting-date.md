@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, frozen, design serial, lot
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4fc4afa14f9f2a989fae0b1ca8ee0e61fe24fd21
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 18b5a1dc9d45c91c1d50e675659e39b81b7c5fb6
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a><span data-ttu-id="7da0a-103">Designdetails: Umgang mit Aufträgen vor dem Planungs-Startdatum</span><span class="sxs-lookup"><span data-stu-id="7da0a-103">Design Details: Dealing with Orders Before the Planning Starting Date</span></span>

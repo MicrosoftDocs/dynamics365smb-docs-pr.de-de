@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/09/2018
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 341cd12db4ca130539a2ba2838c3aa95a96cb6ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 99aabff5980ce7d0156786772ef2448a64f3044a
 ms.contentlocale: de-de
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="creating-contact-persons"></a><span data-ttu-id="dd0e9-103">Kontaktpersonen erstellen</span><span class="sxs-lookup"><span data-stu-id="dd0e9-103">Creating Contact Persons</span></span>

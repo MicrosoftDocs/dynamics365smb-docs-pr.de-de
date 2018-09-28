@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e4f0bad058bd928f65214f04f978bf3b387cbb8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 58e92211695ea3a8d8c4137c699794f935c1bc69
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="multiple-contracts"></a><span data-ttu-id="d7dc1-103">Mehrere Verträge</span><span class="sxs-lookup"><span data-stu-id="d7dc1-103">Multiple Contracts</span></span>

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 857bb571566f6c20faa5074ef0c81d4ca1f6033b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 04f41fa7b075692fef8243e24cff1ef3a5ebaf65
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inventory-costing"></a><span data-ttu-id="2bcde-103">Designdetails: Lagerkostenberechnung</span><span class="sxs-lookup"><span data-stu-id="2bcde-103">Design Details: Inventory Costing</span></span>

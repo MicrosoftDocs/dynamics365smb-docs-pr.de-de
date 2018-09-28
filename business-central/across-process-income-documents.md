@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b6de34be2f16cf0b9130bc88495f27536a9d5080
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 88ba93f66c30ffd94648d86c3488f07cd8420c7e
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="processing-incoming-documents"></a><span data-ttu-id="7e69a-103">Eingehende Dokumente verarbeiten</span><span class="sxs-lookup"><span data-stu-id="7e69a-103">Processing Incoming Documents</span></span>

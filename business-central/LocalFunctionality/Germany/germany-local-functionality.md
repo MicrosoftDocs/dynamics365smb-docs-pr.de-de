@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/02/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 36574d3374b0f9bd495bcf8d314a298f82157f4b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a3e7ac17e2915704bc67998a8579de335dc69e09
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="germany-local-functionality"></a><span data-ttu-id="a46a8-103">Lokale Funktion (Deutschland)</span><span class="sxs-lookup"><span data-stu-id="a46a8-103">Germany Local Functionality</span></span>

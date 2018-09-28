@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 06/07/2018
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: 7c1625cbb79b5be52a0208c2c5555df02f798799
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 484006fcc4133d79381910411cab23e6deed7487
 ms.contentlocale: de-de
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-and-view-notes-on-records"></a><span data-ttu-id="a98a7-104">Notizen zu Datensätzen hinzufügen und anzeigen</span><span class="sxs-lookup"><span data-stu-id="a98a7-104">Add and View Notes on Records</span></span>

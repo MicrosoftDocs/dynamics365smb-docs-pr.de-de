@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 09866f6774af5b2d9644015e986772052146d901
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: aca8e9f5767c44f3c17e0be067d2a6a0df893c34
 ms.contentlocale: de-de
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-employee-absence"></a><span data-ttu-id="394f2-103">Analysiert die Fehlzeiten der Mitarbeiter.</span><span class="sxs-lookup"><span data-stu-id="394f2-103">Manage Employee Absence</span></span>

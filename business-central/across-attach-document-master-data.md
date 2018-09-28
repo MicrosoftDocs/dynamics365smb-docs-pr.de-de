@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/17/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12955b6c85544147dd003241e658b9ef08a4b8b5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8f23bfb14e982cc38af67c091d9fc8e9ca2cc8ee
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="attaching-documents-to-master-data"></a><span data-ttu-id="af396-103">Anfügen der Belege an Stammdaten</span><span class="sxs-lookup"><span data-stu-id="af396-103">Attaching Documents to Master Data</span></span>

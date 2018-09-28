@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d9b6d697ef48951fc656fc30ad94b128cd64ccea
 ms.contentlocale: de-de
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a><span data-ttu-id="2f949-103">Verwalten von Aktivitäten für Segmente</span><span class="sxs-lookup"><span data-stu-id="2f949-103">Managing Interactions for Segments</span></span>

@@ -4,16 +4,16 @@ description: "Sie müssen festlegen, welche Art von Daten Sie über Mitarbeiter 
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
-ms.date: 03/09/2018
+ms.date: 10/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05d9630075ed533759f8225810e4e4a95c141b16
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6195a6a6f1d712c7bcd33e5b8aafed6fddb6598d
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 

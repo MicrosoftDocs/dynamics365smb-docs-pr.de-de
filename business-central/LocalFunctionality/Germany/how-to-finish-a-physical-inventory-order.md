@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 63e6fde45dabd6b327b6736c30523a653165b625
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 37583e02c0b2e43ca1273edc8a2b422f8326a92a
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="finish-a-physical-inventory-order"></a><span data-ttu-id="9f7bc-103">So schließen Sie einen Inventurauftrag ab</span><span class="sxs-lookup"><span data-stu-id="9f7bc-103">Finish a Physical Inventory Order</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 - <span data-ttu-id="9f7bc-106">Alle zugehörigen Inventurerfassungen müssen den **Status** "Beendet" aufweisen.</span><span class="sxs-lookup"><span data-stu-id="9f7bc-106">For all related physical inventory recordings, the Status field is set to **Finished**.</span></span>  
 - <span data-ttu-id="9f7bc-107">In allen Inventurauftragszeilen wurde die erwartete Menge berechnet.</span><span class="sxs-lookup"><span data-stu-id="9f7bc-107">In all physical inventory order lines, the quantity expected has been calculated.</span></span>  
 
-    [!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="9f7bc-108"> zeigt dies durch Aktivierung des Kontrollkästchens **Erwartete Menge berechnen** der  jeweilige Inventurauftragszeile an.</span><span class="sxs-lookup"><span data-stu-id="9f7bc-108"> shows this by setting a check mark in the field **Qty. Exp. Calculated** of the physical inventory order line.</span></span>  
+    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="9f7bc-108">zeigt dies durch Aktivierung des Kontrollkästchens **Erwartete Menge berechnen** der  jeweilige Inventurauftragszeile an.</span><span class="sxs-lookup"><span data-stu-id="9f7bc-108"> shows this by setting a check mark in the field *\*Qty. Exp. Calculated** of the physical inventory order line.</span></span>  
 
 - <span data-ttu-id="9f7bc-109">Jede Inventurauftragszeile wurde mit mindestens einer Inventurerfassungszeile gezählt.</span><span class="sxs-lookup"><span data-stu-id="9f7bc-109">Every physical inventory order line has been counted by at least one inventory recording line.</span></span>  
 

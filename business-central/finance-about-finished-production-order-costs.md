@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ea69f3c8af84e92f09f4b2046530c9b935905ebe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f906be41274fa8c6f7be4a3db87cc0bc4ba7cdd0
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="about-finished-production-order-costs"></a><span data-ttu-id="f3cf9-104">Info zu Kosten des beendeten FA</span><span class="sxs-lookup"><span data-stu-id="f3cf9-104">About Finished Production Order Costs</span></span>

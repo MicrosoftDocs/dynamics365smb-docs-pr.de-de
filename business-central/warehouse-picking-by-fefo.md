@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: e63179eb2d791a84141bdf46a632e4b7df6c554e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7e494ebc118b7c75ab565ae57259030987bbeee7
 ms.contentlocale: de-de
-ms.lasthandoff: 07/30/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="enable-picking-items-by-fefo"></a><span data-ttu-id="d1ed5-103">Aktiveren der Kommissionierung von Artikeln nach FEFO</span><span class="sxs-lookup"><span data-stu-id="d1ed5-103">Enable Picking Items by FEFO</span></span>

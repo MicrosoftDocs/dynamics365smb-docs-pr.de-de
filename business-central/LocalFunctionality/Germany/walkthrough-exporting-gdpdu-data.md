@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 02/23/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 28b1d4969141b8d6fbcc69ffee7380353a307a0d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 21f031b18a82681b80f544f946eeff14958fce5a
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-exporting-data-for-a-digital-audit"></a><span data-ttu-id="83a41-104">Wie Sie Daten für eine Digital-Überwachung exportieren</span><span class="sxs-lookup"><span data-stu-id="83a41-104">Walkthrough: Exporting Data for a Digital Audit</span></span>
@@ -166,7 +166,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-add-a-period-filter-to-a-table-in-a-data-export-source"></a><span data-ttu-id="83a41-241">Um einen Periodenfilter einer Tabelle in einer Datenexportquelle hinzuzufügen</span><span class="sxs-lookup"><span data-stu-id="83a41-241">To add a period filter to a table in a data export source</span></span>  
 
-1.  <span data-ttu-id="83a41-242">Im Fenster **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto**und dann auf der Registerkarte Felder wählen Sie **Periodenfeld-Nr.**aus.</span><span class="sxs-lookup"><span data-stu-id="83a41-242">In the **Data Export Record Source** window, select the line for the **G/L Entry** table, and then choose the **Period Field No.** field.</span></span>  
+1.  <span data-ttu-id="83a41-242">Im Fenster **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto**und dann auf der Registerkarte Felder wählen Sie **Periodenfeld-Nr.** aus.</span><span class="sxs-lookup"><span data-stu-id="83a41-242">In the **Data Export Record Source** window, select the line for the **G/L Entry** table, and then choose the **Period Field No.** field.</span></span>  
 2.  <span data-ttu-id="83a41-243">Im Fenster **Datenexport Felderübersicht** wählen Sie das Feld **Buchungsdatum**, und wählen Sie dann die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="83a41-243">In the **Data Exp. Field List** window, choose the **Posting Date** field, and then choose the **OK** button.</span></span>  
 
     <span data-ttu-id="83a41-244">Das Fenster **Datenexport-Felderübersicht** wird gefiltert, um nur die Datumsfelder anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="83a41-244">The **Data Exp. Field List** window is filtered to show only the date fields.</span></span>  

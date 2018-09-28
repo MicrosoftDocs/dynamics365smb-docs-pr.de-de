@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: abda752ed574245c6d38adb6ee1441bb2b2c80fc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4cdd5414cad35eb3bd3bb297eafa034318afda65
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a><span data-ttu-id="06a01-103">Feld-Zuordnung beim Importieren von SEPA CAMT-Dateien</span><span class="sxs-lookup"><span data-stu-id="06a01-103">Field Mapping When Importing SEPA CAMT Files</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="06a01-104"> unterstützt den regionalen SEPA-Standard (Single Euro Payments Area) für das Importieren von SEPA-Bankkontoauszügen (CAMT-Format).</span><span class="sxs-lookup"><span data-stu-id="06a01-104"> supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format).</span></span> <span data-ttu-id="06a01-105">Für weitere Informationen, siehe [Einrichten des Bankdaten-Konvertierungsdienst](bank-how-setup-bank-data-conversion-service.md).</span><span class="sxs-lookup"><span data-stu-id="06a01-105">For more information, see [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="06a01-104">unterstützt den regionalen SEPA-Standard (Single Euro Payments Area) für das Importieren von SEPA-Bankkontoauszügen (CAMT-Format).</span><span class="sxs-lookup"><span data-stu-id="06a01-104"> supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format).</span></span> <span data-ttu-id="06a01-105">Für weitere Informationen, siehe [Einrichten des Bankdaten-Konvertierungsdienst](bank-how-setup-bank-data-conversion-service.md).</span><span class="sxs-lookup"><span data-stu-id="06a01-105">For more information, see [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).</span></span>  
 
  <span data-ttu-id="06a01-106">Der SEPA CAMT-Standard selbst verfügt über lokale Variationen.</span><span class="sxs-lookup"><span data-stu-id="06a01-106">The SEPA CAMT standard itself has local variations.</span></span> <span data-ttu-id="06a01-107">Daher müssen Sie möglicherweise die generische Datenaustauschdefinition ändern (angezeigt durch den **SEPA CAMT-Code** im Fenster **Exchange-Definitionen** ändern), um ihn einer lokalen Variation des Standards anzupassen.</span><span class="sxs-lookup"><span data-stu-id="06a01-107">Therefore, you may have to modify the generic data exchange definition (represented by the **SEPA CAMT** code in the **Posting Exchange Definitions** window) to adapt it to a local variation of the standard.</span></span> <span data-ttu-id="06a01-108">Die folgenden Tabellen zeigen die Element-zu-Feld-Zuordnung für die Tabellen 81, 273 und 274 in der SEPA CAMT-Implementierung in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="06a01-108">The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
 

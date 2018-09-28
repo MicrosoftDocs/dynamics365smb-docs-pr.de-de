@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9470234588ef72e13226e98de4a4904d8135b5c9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0323ff9fa4aad31e2630a8683064201205b04bf2
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-vat-reports"></a><span data-ttu-id="acd80-104">Richten Sie die MwSt.-Berichte ein.</span><span class="sxs-lookup"><span data-stu-id="acd80-104">Set Up VAT Reports</span></span>

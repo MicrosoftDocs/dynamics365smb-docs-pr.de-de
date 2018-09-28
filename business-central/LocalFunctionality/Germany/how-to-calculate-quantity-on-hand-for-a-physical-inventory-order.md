@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fc809d397131c09efbeb80bf3c5553283de7065f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2021f6465f0e52ad6662376568c448a9cc986bc6
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="calculate-quantity-on-hand-for-a-physical-inventory-order"></a><span data-ttu-id="27b65-103">Berechnen der verfügbaren Menge für einen Inventurauftrag</span><span class="sxs-lookup"><span data-stu-id="27b65-103">Calculate Quantity On Hand for a Physical Inventory Order</span></span>

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f074b25225853c1fc43248bc038e97239964fdc3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5fd0376e3ce8160b4baa967a425d1a7f9f0197c8
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-a-negative-entry"></a><span data-ttu-id="da03d-105">So buchen Sie einen negativen Posten</span><span class="sxs-lookup"><span data-stu-id="da03d-105">Post a Negative Entry</span></span>

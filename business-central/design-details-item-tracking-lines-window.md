@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9ea25a93ccee505a4575d82afc355796ab0c1915
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bbd255e4884eb1bacacc90892b920cc057459734
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-tracking-lines-window"></a><span data-ttu-id="0c781-103">Designdetails: Artikelverfolgungszeilenfenster</span><span class="sxs-lookup"><span data-stu-id="0c781-103">Design Details: Item Tracking Lines Window</span></span>

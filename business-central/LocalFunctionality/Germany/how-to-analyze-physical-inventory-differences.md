@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9d97adcd9a93d2eaefafe43974b8f7d1614380c7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c0eb094deb7a3ef6893c55c73cb01832f438471d
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="analyze-physical-inventory-differences"></a><span data-ttu-id="5e341-103">Vorgehensweise beim Analysieren von Inventurdifferenzen</span><span class="sxs-lookup"><span data-stu-id="5e341-103">Analyze Physical Inventory Differences</span></span>

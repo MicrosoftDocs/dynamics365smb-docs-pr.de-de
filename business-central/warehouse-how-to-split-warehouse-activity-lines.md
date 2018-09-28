@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dfb633ef874b77a3cf6060311f0bcbbf66e05102
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 821d3bed8e90d7221fe343156b46663cdf601dcf
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="split-warehouse-activity-lines"></a><span data-ttu-id="2ea49-105">Lageraktivitätszeilen aufzuteilen</span><span class="sxs-lookup"><span data-stu-id="2ea49-105">Split Warehouse Activity Lines</span></span>

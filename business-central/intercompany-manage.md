@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/20/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 2ed5694236bc1f4b6c0ab0d077ae57b08ecff8b1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 20fc08907a6cbe62a102c680d3087409af42db7a
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-intercompany-transactions"></a><span data-ttu-id="a17ea-103">Intercompanytransaktionen verwalten</span><span class="sxs-lookup"><span data-stu-id="a17ea-103">Managing Intercompany Transactions</span></span>

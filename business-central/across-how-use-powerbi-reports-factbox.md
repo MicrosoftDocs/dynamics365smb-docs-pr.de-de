@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2be3a29ad88c46f8b96b9f4bed34602da35fbcb7
 ms.contentlocale: de-de
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a><span data-ttu-id="bb121-103">Anzeigen von Listendaten in Power BI-Berichten in Business Central</span><span class="sxs-lookup"><span data-stu-id="bb121-103">Viewing List Data in Power BI Reports in Business Central</span></span> 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="bb121-104"> enthält einen Infoboxregler in mehreren Schlüssellistenseiten, die zusätzliche Einblick in die Daten in dieser Liste bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="bb121-104"> includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list.</span></span> <span data-ttu-id="bb121-105">Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert.</span><span class="sxs-lookup"><span data-stu-id="bb121-105">As you move between rows in the list, the report is updated and filtered for the selected entry.</span></span> <span data-ttu-id="bb121-106">Sie können benutzerdefinierte Berichte erstellen, aber es gibt einige Regeln, die Sie beim Erstellen der Berichte befolgen müssen, um sicherzustellen, dass das gewünschte Verhalten geliefert wird.</span><span class="sxs-lookup"><span data-stu-id="bb121-106">You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behavior.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="bb121-104">enthält einen Infoboxregler in mehreren Schlüssellistenseiten, die zusätzliche Einblick in die Daten in dieser Liste bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="bb121-104"> includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list.</span></span> <span data-ttu-id="bb121-105">Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert.</span><span class="sxs-lookup"><span data-stu-id="bb121-105">As you move between rows in the list, the report is updated and filtered for the selected entry.</span></span> <span data-ttu-id="bb121-106">Sie können benutzerdefinierte Berichte erstellen, aber es gibt einige Regeln, die Sie beim Erstellen der Berichte befolgen müssen, um sicherzustellen, dass das gewünschte Verhalten geliefert wird.</span><span class="sxs-lookup"><span data-stu-id="bb121-106">You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behavior.</span></span>  
 
 > [!NOTE]  
 >   <span data-ttu-id="bb121-107">Sie müssen ein gültiges Konto mit [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Power BI haben.</span><span class="sxs-lookup"><span data-stu-id="bb121-107">You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Power BI.</span></span> <span data-ttu-id="bb121-108">Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen.</span><span class="sxs-lookup"><span data-stu-id="bb121-108">Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).</span></span> <span data-ttu-id="bb121-109">Weitere Informationen finden Sie unter [Anwendung [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI Datenquelle](across-how-use-financials-data-source-powerbi.md).</span><span class="sxs-lookup"><span data-stu-id="bb121-109">For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).</span></span>  

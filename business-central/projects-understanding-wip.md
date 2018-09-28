@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 85724fd6f43c684007dd22b34665438bf22bf99a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 114acef8ed55bf60d7b96733e321440633037b42
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="understanding-wip-methods"></a><span data-ttu-id="41315-103">Verständnis - WIP-Methoden</span><span class="sxs-lookup"><span data-stu-id="41315-103">Understanding WIP Methods</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="41315-104"> unterstützt die folgenden Methoden zum Berechnen der Inventur und der Wert der unfertigen Arbeit.</span><span class="sxs-lookup"><span data-stu-id="41315-104"> supports the following methods of calculating and recording the value of work in process.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="41315-104">unterstützt die folgenden Methoden zum Berechnen der Inventur und der Wert der unfertigen Arbeit.</span><span class="sxs-lookup"><span data-stu-id="41315-104"> supports the following methods of calculating and recording the value of work in process.</span></span>
 
 | <span data-ttu-id="41315-105">WIP-Methode</span><span class="sxs-lookup"><span data-stu-id="41315-105">WIP Method</span></span> | <span data-ttu-id="41315-106">Formel</span><span class="sxs-lookup"><span data-stu-id="41315-106">Calculation Formula</span></span> | <span data-ttu-id="41315-107">Berechnungsbeschreibung</span><span class="sxs-lookup"><span data-stu-id="41315-107">Calculation Description</span></span> |
 | --- | --- | --- |

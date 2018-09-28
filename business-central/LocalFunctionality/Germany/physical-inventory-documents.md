@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9f8ada84559a5e0b4fb003165b7824b0b955a74c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ab8643fda6d733558e1cfd45031987b3693a55fc
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="physical-inventory-documents"></a><span data-ttu-id="5fbb0-103">Inventurbelege</span><span class="sxs-lookup"><span data-stu-id="5fbb0-103">Physical Inventory Documents</span></span>

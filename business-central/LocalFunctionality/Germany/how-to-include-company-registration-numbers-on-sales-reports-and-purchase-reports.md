@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3644d34595dae3cb8950d65a352e5db0d26aa9a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ffc9bebf9da2ddbf6f6a732ba10dca4a8b565045
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="include-company-registration-numbers-on-sales-reports-and-purchase-reports"></a><span data-ttu-id="fab17-103">Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte</span><span class="sxs-lookup"><span data-stu-id="fab17-103">Include Company Registration Numbers on Sales Reports and Purchase Reports</span></span>
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-print-company-registration-numbers-on-sales-reports"></a><span data-ttu-id="fab17-105">So drucken Sie Steuernummern für Unternehmen in Verkaufsberichten</span><span class="sxs-lookup"><span data-stu-id="fab17-105">To print company registration numbers on sales reports</span></span>  
 
-1.  <span data-ttu-id="fab17-106">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol "Nach Seite oder Bericht suchen"") aus, geben Sie **Unternehmensdaten** ein, und wählen Sie dann den verknüpften Link aus.</span><span class="sxs-lookup"><span data-stu-id="fab17-106">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.</span></span>  
+1.  <span data-ttu-id="fab17-106">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol \"Nach Seite oder Bericht suchen\"") aus, geben Sie **Unternehmensdaten** ein, und wählen Sie dann den verknüpften Link aus.</span><span class="sxs-lookup"><span data-stu-id="fab17-106">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.</span></span>  
 2.  <span data-ttu-id="fab17-107">Geben Sie im Inforegister **Steuerbehörde** im Feld **Steuernummer** die Steuernummer des Unternehmens ein.</span><span class="sxs-lookup"><span data-stu-id="fab17-107">On the **Tax Office** FastTab, in the **Registration No.** field, enter the registration number of the company.</span></span>  
 3.  <span data-ttu-id="fab17-108">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="fab17-108">Choose the **OK** button.</span></span>  
 

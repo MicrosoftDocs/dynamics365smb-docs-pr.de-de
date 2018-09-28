@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 04/16/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 9f84af8bb4ac3be9132ab621906c463cfc9b91ff
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fd943924120667256809fac0300be1c30cfeb493
 ms.contentlocale: de-de
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="41416-103">Einrichten oder Ändern des Kontenplans</span><span class="sxs-lookup"><span data-stu-id="41416-103">Setting Up or Changing the Chart of Accounts</span></span>
-<span data-ttu-id="41416-104">Der Kontenplan zeigt die Sachkonten an, die Financials speichern.</span><span class="sxs-lookup"><span data-stu-id="41416-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="41416-105"> umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.</span><span class="sxs-lookup"><span data-stu-id="41416-105"> includes a standard chart of accounts that is ready to support your business.</span></span>
+<span data-ttu-id="41416-104">Der Kontenplan zeigt die Sachkonten an, die Financials speichern.</span><span class="sxs-lookup"><span data-stu-id="41416-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="41416-105">umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.</span><span class="sxs-lookup"><span data-stu-id="41416-105"> includes a standard chart of accounts that is ready to support your business.</span></span>
 <span data-ttu-id="41416-106">Sie können jedoch die Standardkonten ändern und neue Konten hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="41416-106">However, you can change the default accounts, and you can add new accounts.</span></span>  
 
 ## <a name="adding-or-changing-accounts"></a><span data-ttu-id="41416-107">Konten hinzufügen oder ändern</span><span class="sxs-lookup"><span data-stu-id="41416-107">Adding or Changing Accounts</span></span>
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/17/2018
 * <span data-ttu-id="41416-112">Das Feld **Löschen v. Sachkonten zul. vor** im Fenster **Finanzbuchhaltungs-Einrichtung:** muss ausgefüllt sein, und das Konto darf keine Posten an oder nach diesem Datum enthalten.</span><span class="sxs-lookup"><span data-stu-id="41416-112">The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.</span></span>  
 * <span data-ttu-id="41416-113">Ist das Feld **Sachkontoverwendung prüfen** im Fenster **Finanzbuchhaltungs-Einrichtung:** ausgewählt, darf dieses Konto nicht in Buchungsgruppen oder der Buchungsmatrix Einrichtung verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="41416-113">If the **Check G/L Account Usage** field in the **General Ledger Setup** window is selected, then the account must not be used in any posting groups or posting setup.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="41416-114"> verhindert, dass Sie ein Sachkonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.</span><span class="sxs-lookup"><span data-stu-id="41416-114"> will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="41416-114">verhindert, dass Sie ein Sachkonto löschen, in dem Daten gespeichert werden, die im Kontenplan erforderlich sind.</span><span class="sxs-lookup"><span data-stu-id="41416-114"> will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="41416-115">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="41416-115">See Also</span></span>
 [<span data-ttu-id="41416-116">Die Finanzbuchhaltung und der Kontenplan</span><span class="sxs-lookup"><span data-stu-id="41416-116">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  

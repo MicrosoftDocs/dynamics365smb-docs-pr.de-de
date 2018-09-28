@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dc3c8da6c884a17efab7933645c514abfe33304b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72ea68668f98b26559cc51a8032fd0a0120ba43f
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-vat-reports"></a><span data-ttu-id="01d2a-104">Erstellen von MwsT-Berichten.</span><span class="sxs-lookup"><span data-stu-id="01d2a-104">Create VAT Reports</span></span>
@@ -61,7 +61,7 @@ ms.lasthandoff: 03/22/2018
 1.  <span data-ttu-id="01d2a-159">Wählen Sie im Fenster **MwSt-Bericht** die Aktion **Freigabe** aus.</span><span class="sxs-lookup"><span data-stu-id="01d2a-159">In the **VAT Report** window, choose the **Release** action.</span></span>  
 2.  <span data-ttu-id="01d2a-160">Bestätigen Sie, dass Sie den Bericht freigeben möchten.</span><span class="sxs-lookup"><span data-stu-id="01d2a-160">Confirm that you want to release the report.</span></span>  
 
-    [!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="01d2a-161"> prüft, ob die MwSt.-Erklärung korrekt eingerichtet ist.</span><span class="sxs-lookup"><span data-stu-id="01d2a-161"> validates that the VAT report is set up correctly.</span></span> <span data-ttu-id="01d2a-162">Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **MwSt-Bericht Fehlerprotokoll** angezeigt, sodass Sie entsprechende Änderungen vornehmen können.</span><span class="sxs-lookup"><span data-stu-id="01d2a-162">If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes.</span></span> <span data-ttu-id="01d2a-163">Beispielsweise wird ein Fehler angezeigt, wenn Sie versuchen, eine Standard-MwSt.-Erklärung freizugeben, aber Sie der Erklärung noch keine Zeilen hinzugefügt haben.</span><span class="sxs-lookup"><span data-stu-id="01d2a-163">For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.</span></span>  
+    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="01d2a-161">prüft, ob die MwSt.-Erklärung korrekt eingerichtet ist.</span><span class="sxs-lookup"><span data-stu-id="01d2a-161"> validates that the VAT report is set up correctly.</span></span> <span data-ttu-id="01d2a-162">Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **MwSt-Bericht Fehlerprotokoll** angezeigt, sodass Sie entsprechende Änderungen vornehmen können.</span><span class="sxs-lookup"><span data-stu-id="01d2a-162">If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes.</span></span> <span data-ttu-id="01d2a-163">Beispielsweise wird ein Fehler angezeigt, wenn Sie versuchen, eine Standard-MwSt.-Erklärung freizugeben, aber Sie der Erklärung noch keine Zeilen hinzugefügt haben.</span><span class="sxs-lookup"><span data-stu-id="01d2a-163">For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.</span></span>  
 
     <span data-ttu-id="01d2a-164">Wenn Sie eine MwSt.-Erklärung als freigegeben kennzeichnen, ist sie nicht mehr editierbar.</span><span class="sxs-lookup"><span data-stu-id="01d2a-164">When you mark a VAT report as released, it becomes non-editable.</span></span> <span data-ttu-id="01d2a-165">Wenn Sie die Erklärung ändern müssen, nachdem Sie sie als freigegeben gekennzeichnet haben, müssen Sie sie zuerst erneut öffnen.</span><span class="sxs-lookup"><span data-stu-id="01d2a-165">If you must change the report after marking it as released, you must first reopen it.</span></span>  
 

@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 02/28/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 37c1f1b29dd60024c2601f313105aadc6215c77d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4ac052f6a757c60dbe1a87f511c37910616f6206
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="finance"></a><span data-ttu-id="74193-103">Finanzen</span><span class="sxs-lookup"><span data-stu-id="74193-103">Finance</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="74193-104"> umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen.</span><span class="sxs-lookup"><span data-stu-id="74193-104"> includes a standard configuration of most financial processes, but you can change the configuration to suit your business.</span></span> <span data-ttu-id="74193-105">Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).</span><span class="sxs-lookup"><span data-stu-id="74193-105">For more information, see [Setting Up Finance](finance-setup-finance.md).</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="74193-104">umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen.</span><span class="sxs-lookup"><span data-stu-id="74193-104"> includes a standard configuration of most financial processes, but you can change the configuration to suit your business.</span></span> <span data-ttu-id="74193-105">Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).</span><span class="sxs-lookup"><span data-stu-id="74193-105">For more information, see [Setting Up Finance](finance-setup-finance.md).</span></span>
 
 <span data-ttu-id="74193-106">Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter gestalten.</span><span class="sxs-lookup"><span data-stu-id="74193-106">The default configuration includes a chart of accounts and standard posting groups that make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.</span></span>  
 

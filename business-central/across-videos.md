@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 02/28/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: b9f8ba9113cdac79dfd8b20d99c194e834578a8e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 71e92f587ac5697b96aca937e6a6d4b00dc41902
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="visit-our-video-library"></a><span data-ttu-id="2157f-103">Besuchen Sie unsere Videobibliothek</span><span class="sxs-lookup"><span data-stu-id="2157f-103">Visit Our Video Library</span></span>

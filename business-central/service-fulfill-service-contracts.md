@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5abf0941b90df29bf5175886fbce5782857b5888
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3867d954c65353557fd9e15f4c671f6671e80e18
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a><span data-ttu-id="77f76-103">Erfüllen von Serviceverträgen</span><span class="sxs-lookup"><span data-stu-id="77f76-103">Fulfilling Service Contracts</span></span> 

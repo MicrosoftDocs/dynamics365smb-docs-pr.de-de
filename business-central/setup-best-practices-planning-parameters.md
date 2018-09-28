@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 05/04/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 78d97c11662f2e05e17e15213406076ae5bba7a6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5324f6dbec497acdf8eef1aff40d83b436bb75c1
 ms.contentlocale: de-de
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setup-best-practices-planning-parameters"></a><span data-ttu-id="8b0dd-104">Bewährte Einrichtungsmethoden: Planungsparameter</span><span class="sxs-lookup"><span data-stu-id="8b0dd-104">Setup Best Practices: Planning Parameters</span></span>

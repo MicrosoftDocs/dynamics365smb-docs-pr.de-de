@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Office 365
-ms.date: 04/09/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: b535255be4b751744ae8c459bdc3d87cd1271dee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ef58b87146d84dc46ba9ad7a96ce0e57cbfe51c6
 ms.contentlocale: de-de
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a><span data-ttu-id="a0fb0-103">Synchronisieren Sie Kontakte in Business Central mit Kontakten in Microsoft Outlook</span><span class="sxs-lookup"><span data-stu-id="a0fb0-103">Synchronize Contacts in Business Central with Contacts in Microsoft Outlook</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/11/2018
 
   <span data-ttu-id="a0fb0-131">Diese Aktion synchronisiert alle Kontakte in beide Richtungen unabhängig vom letzten Synchronisierungsdatum und der letzten Änderung.</span><span class="sxs-lookup"><span data-stu-id="a0fb0-131">This action synchronizes all contacts in both directions regardless of the last sync date and last modified date.</span></span>  
 
-<span data-ttu-id="a0fb0-132">In beiden Fällen werden nur Kontakte von Outlook synchronisiert, wenn die erforderlichen Felder ausgefüllt sind.</span><span class="sxs-lookup"><span data-stu-id="a0fb0-132">In both cases, contacts are only synchronized from Outlook if they have the required fields filled in.</span></span> <span data-ttu-id="a0fb0-133">Die erforderlichen Felder zur Synchronisieren in Office 365 sind **Name**, **E-Mail-Adresse** und sie müssen vom Typ Person sein.</span><span class="sxs-lookup"><span data-stu-id="a0fb0-133">The required fields to synchronize to Office 365 are **Name**, **Email address** and they must be of type Person.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="a0fb0-134"> ist die Mastertabelle der Kontaktinformationen, sodass [!INCLUDE[d365fin](includes/d365fin_md.md)] die Kontaktinformationen im Fall der Dubletten gespeichert.</span><span class="sxs-lookup"><span data-stu-id="a0fb0-134"> is the master of the contact information, so the [!INCLUDE[d365fin](includes/d365fin_md.md)] contact information will be saved in the event of duplicates.</span></span>  
+<span data-ttu-id="a0fb0-132">In beiden Fällen werden nur Kontakte von Outlook synchronisiert, wenn die erforderlichen Felder ausgefüllt sind.</span><span class="sxs-lookup"><span data-stu-id="a0fb0-132">In both cases, contacts are only synchronized from Outlook if they have the required fields filled in.</span></span> <span data-ttu-id="a0fb0-133">Die erforderlichen Felder zur Synchronisieren in Office 365 sind **Name**, **E-Mail-Adresse** und sie müssen vom Typ Person sein.</span><span class="sxs-lookup"><span data-stu-id="a0fb0-133">The required fields to synchronize to Office 365 are **Name**, **Email address** and they must be of type Person.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="a0fb0-134">ist die Mastertabelle der Kontaktinformationen, sodass [!INCLUDE[d365fin](includes/d365fin_md.md)] die Kontaktinformationen im Fall der Dubletten gespeichert.</span><span class="sxs-lookup"><span data-stu-id="a0fb0-134"> is the master of the contact information, so the [!INCLUDE[d365fin](includes/d365fin_md.md)] contact information will be saved in the event of duplicates.</span></span>  
 
 <span data-ttu-id="a0fb0-135">In Outlook werden die Kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)] in einem Ordner unter **Andere Kontakte** in der Ansicht **Personen** angezeigt.</span><span class="sxs-lookup"><span data-stu-id="a0fb0-135">In Outlook, the contacts from [!INCLUDE[d365fin](includes/d365fin_md.md)] are shown in a folder under **Other contacts** in the **People**  view.</span></span> <span data-ttu-id="a0fb0-136">Wenn Sie nicht mit den Personen-Ansicht in Outlook vertraut sind, können Sie diese von den Navigationsoptionen in der unteren linken Ecke von Outlook erhalten.</span><span class="sxs-lookup"><span data-stu-id="a0fb0-136">If you are not familiar with the People view in Outlook, then you can get to it from the navigation options in the bottom left corner of Outlook.</span></span>  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/13/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
-ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
 ms.contentlocale: de-de
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="d5217-104">Designdetails: Codebeispiele von geänderten Mustern in Änderungen</span><span class="sxs-lookup"><span data-stu-id="d5217-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>

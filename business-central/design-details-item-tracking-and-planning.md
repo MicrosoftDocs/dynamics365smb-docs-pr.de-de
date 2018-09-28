@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f496530fcf4f0321b71941cdfdaa5fe100e15ee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 71c327dd10816934d202643644cc5864f190bb78
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-application"></a><span data-ttu-id="ef1b3-103">Designdetails: Artikelausgleich</span><span class="sxs-lookup"><span data-stu-id="ef1b3-103">Design Details: Item Application</span></span>
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/22/2018
   
 <span data-ttu-id="ef1b3-106">Darüber hinaus wird ein Artikelausgleich erstellt, um den Kostenempfänger mit seiner Kostenquelle zu verknüpfen, damit eine Kostenweiterleitung entsprechend der Kostenmethode erfolgen kann.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-106">In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method.</span></span> <span data-ttu-id="ef1b3-107">Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden".](design-details-costing-methods.md)</span><span class="sxs-lookup"><span data-stu-id="ef1b3-107">For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).</span></span>  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="ef1b3-108"> nimmt zwei Arten von Artikelausgleich vor.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-108"> makes two types of item application.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="ef1b3-108">nimmt zwei Arten von Artikelausgleich vor.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-108"> makes two types of item application.</span></span>  
   
 |<span data-ttu-id="ef1b3-109">Anwendungstyp</span><span class="sxs-lookup"><span data-stu-id="ef1b3-109">Application type</span></span>|<span data-ttu-id="ef1b3-110">Description</span><span class="sxs-lookup"><span data-stu-id="ef1b3-110">Description</span></span>|  
 |----------------------|---------------------------------------|  
@@ -121,7 +121,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="ef1b3-256">Das folgende Beispiel, das die Auswirkungen des festen Ausgleichs einer Einkaufsreklamation, basiert auf dem folgenden Szenario eines Artikels mit der Durchschnittskostenbewertungsmethode:</span><span class="sxs-lookup"><span data-stu-id="ef1b3-256">The following example, which illustrates the effect of fixed application, is based on the following scenario for an item that uses the Average costing method:</span></span>  
   
 1. <span data-ttu-id="ef1b3-257">In Postennummer 1 und 2 bucht der Benutzer zwei Einkaufsrechnungen.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-257">In entry numbers 1 and 2, the user posts two purchase invoices.</span></span> <span data-ttu-id="ef1b3-258">Die zweite Rechnung hat den falschen EK-Preis von MW 1000,00.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-258">The second invoice has the incorrect direct unit cost of LCY 1000.00.</span></span>  
-2. <span data-ttu-id="ef1b3-259">In Postennummer3 bucht der Benutzer eine Einkaufsgutschrift mit einem festen Ausgleich für den Einkaufsposten mit den falschen direkten Einheitskosten.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-259">In entry number 3, the user posts a purchase credit memo, with a fixed application applied to the purchase entry with the wrong direct unit cost.</span></span> <span data-ttu-id="ef1b3-260">Die Summe des Feldes **Kostenbetrag (Ist)**für die zwei fest ausgeglichenen Wertposten wird 0,00</span><span class="sxs-lookup"><span data-stu-id="ef1b3-260">The sum of the **Cost Amount (Actual)** field for the two fixed applied value entries becomes 0.00</span></span>  
+2. <span data-ttu-id="ef1b3-259">In Postennummer3 bucht der Benutzer eine Einkaufsgutschrift mit einem festen Ausgleich für den Einkaufsposten mit den falschen direkten Einheitskosten.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-259">In entry number 3, the user posts a purchase credit memo, with a fixed application applied to the purchase entry with the wrong direct unit cost.</span></span> <span data-ttu-id="ef1b3-260">Die Summe des Feldes **Kostenbetrag (Ist)** für die zwei fest ausgeglichenen Wertposten wird 0,00</span><span class="sxs-lookup"><span data-stu-id="ef1b3-260">The sum of the **Cost Amount (Actual)** field for the two fixed applied value entries becomes 0.00</span></span>  
 3. <span data-ttu-id="ef1b3-261">In Postennummer 4 bucht der Benutzer eine andere Einkaufsrechnung mit dem korrekten Direkteinheitspreis von MW 100,00</span><span class="sxs-lookup"><span data-stu-id="ef1b3-261">In entry number 4, the user posts another purchase invoice with the correct direct unit cost of LCY 100.00</span></span>  
 4. <span data-ttu-id="ef1b3-262">In Postennummer 5 bucht der Benutzer eine Verkaufsrechnung.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-262">In entry number 5, the user posts a sales invoice.</span></span>  
 5. <span data-ttu-id="ef1b3-263">Die Bestandsmenge ist 0, und der Bestandwert ist ebenfalls 0,00.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-263">The inventory quantity is 0, and the inventory value is also 0.00</span></span>  
@@ -239,7 +239,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="ef1b3-524">Sie möchten die erstellte Anwendung automatisch beim Buchen überschreiben, entsprechend der Lagerabgangsmethode des Artikels.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-524">You want to overrule the application created automatically when posting, according to the item’s costing method.</span></span>  
 * <span data-ttu-id="ef1b3-525">Sie müssen einen Artikel zurückliefern, für den bereits ein Verkauf manuell angewendet wurde, ohne die Funktion **Zu stornierende Belegzeilen abrufen** zu verwenden und daher die Anwendung annullieren.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-525">You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.</span></span>  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="ef1b3-526"> bietet eine Funktion zum Analysieren und Korrigieren der Artikelausgleiche.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="ef1b3-527">Dieser Vorgang wird im Fenster **Arbeitsblatt anwenden** ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-527">This work is performed in the **Application Worksheet** window.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="ef1b3-526">bietet eine Funktion zum Analysieren und Korrigieren der Artikelausgleiche.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="ef1b3-527">Dieser Vorgang wird im Fenster **Arbeitsblatt anwenden** ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="ef1b3-527">This work is performed in the **Application Worksheet** window.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="ef1b3-528">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="ef1b3-528">See Also</span></span>  
 [<span data-ttu-id="ef1b3-529">Designdetails: Lagerkostenberechnung</span><span class="sxs-lookup"><span data-stu-id="ef1b3-529">Design Details: Inventory Costing</span></span>](design-details-inventory-costing.md)  

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 03/22/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: d03d1a6c5d37d24b189f0963e50b8879661c9e52
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bd296c0e37e047963c9b990de3c358a3cf3ca9dd
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a><span data-ttu-id="4b40a-103">Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="4b40a-103">Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="4b40a-104"> umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen.</span><span class="sxs-lookup"><span data-stu-id="4b40a-104"> includes standard configurations for most business processes, but you can change the configuration to suit the needs of company.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="4b40a-104">umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen.</span><span class="sxs-lookup"><span data-stu-id="4b40a-104"> includes standard configurations for most business processes, but you can change the configuration to suit the needs of company.</span></span>
 
 <span data-ttu-id="4b40a-105">Wir haben einige Firmendaten für Sie erstellt, beispielsweise Ihren Kontenplan mit Kontensummen vorausgefüllt, die zur Verwendung bereit sind.</span><span class="sxs-lookup"><span data-stu-id="4b40a-105">For example, your chart of accounts is prefilled with a number of posting accounts ready for use.</span></span> <span data-ttu-id="4b40a-106">Sie können den Kontenplan selbstverständlich ändern und Ihren persönlichen Anforderungen anzupassen.</span><span class="sxs-lookup"><span data-stu-id="4b40a-106">You can, of course, change the chart of accounts to suit your needs.</span></span> <span data-ttu-id="4b40a-107">Weitere Informationen finden Sie unter [Finanzen](finance.md).</span><span class="sxs-lookup"><span data-stu-id="4b40a-107">For more information, see [Finance](finance.md).</span></span>
 

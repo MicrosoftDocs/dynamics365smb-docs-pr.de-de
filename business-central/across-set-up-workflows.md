@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 02/20/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1c98e4473a1c19aac846927e2eab56493f9a0a08
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: eac1693df99c00bfe3df3aefc94737cde987945c
 ms.contentlocale: de-de
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-workflows"></a><span data-ttu-id="19180-105">Einrichten von Workflows</span><span class="sxs-lookup"><span data-stu-id="19180-105">Setting Up Workflows</span></span>

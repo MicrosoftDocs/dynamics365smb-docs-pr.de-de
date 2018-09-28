@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cd521aba15885a0433090608ecbad70f02acfa7e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5dbf5f5a9e45ea962eaa6c024cb43be923eafc97
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="preparing-to-set-up-contacts"></a><span data-ttu-id="498b3-103">Vorbereiten, Kontakte einzurichten</span><span class="sxs-lookup"><span data-stu-id="498b3-103">Preparing to Set Up Contacts</span></span>

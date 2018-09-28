@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 08/28/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 014ede5232017bb090fa6cd33816064a6c4b99b8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dfcd6f81d2f209136ccfed00f849a45575d590af
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a><span data-ttu-id="e7865-103">Zuordnungsstatus und Reparaturstatus von Serviceartikeln</span><span class="sxs-lookup"><span data-stu-id="e7865-103">Allocation Status and Repair Status of Service Items</span></span>

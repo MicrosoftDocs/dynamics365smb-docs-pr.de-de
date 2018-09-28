@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1658e8914e661a82608f82bfdc6e6959bf2bdc85
 ms.contentlocale: de-de
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a><span data-ttu-id="4ac87-106">Einrichten von Workflowbenachrichtigungen</span><span class="sxs-lookup"><span data-stu-id="4ac87-106">Setting Up Workflow Notifications</span></span>

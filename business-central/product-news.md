@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 05/11/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: d5ec4a7b95fb0287bf0063809c98e675a43fa568
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 205cb582c77216114985143c4ebe8e95154c26ca
 ms.contentlocale: de-de
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a><span data-ttu-id="13584-103">E-Mail in Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="13584-103">What's New in Dynamics 365 Business Central</span></span>

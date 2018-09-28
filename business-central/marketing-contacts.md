@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d8cf979c87b01324b04f753f9f0a58d3e433e116
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ef8a1e584119c9fdbe42d4e1853403db44d66d3f
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="creating-and-managing-contacts"></a><span data-ttu-id="df0ea-103">Erstellen und Verwalten von Kontakten</span><span class="sxs-lookup"><span data-stu-id="df0ea-103">Creating and Managing Contacts</span></span>

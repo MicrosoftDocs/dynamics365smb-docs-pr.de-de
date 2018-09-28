@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 10/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 00e83452109c6fa31c3eb56d5631f972e5239314
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 445b2c8ad3b5d4989324bae3d27423163d6808b5
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-sales"></a><span data-ttu-id="5cd0e-103">Einrichten von Verkäufen</span><span class="sxs-lookup"><span data-stu-id="5cd0e-103">Setting Up Sales</span></span>

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4f9dfd8b4e3fe6052ef8cd0d4fcbadba67c7517b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ced9f43571a4760451e184071a2a00bb47b3ae7c
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-tracking-availability"></a><span data-ttu-id="5d0c5-103">Designdetails: Artikelverfolgungsverfügbarkeit</span><span class="sxs-lookup"><span data-stu-id="5d0c5-103">Design Details: Item Tracking Availability</span></span>

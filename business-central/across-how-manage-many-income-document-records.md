@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/02/2016
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 121483c36152da6a96979d13417b0d88c938cecb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 445f215b4ac5ef977a29418771beddbf41000de6
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-many-incoming-document-records"></a><span data-ttu-id="5edfb-103">Mehrere eingehende Belegdatensätze verwalten</span><span class="sxs-lookup"><span data-stu-id="5edfb-103">Manage Many Incoming Document Records</span></span>

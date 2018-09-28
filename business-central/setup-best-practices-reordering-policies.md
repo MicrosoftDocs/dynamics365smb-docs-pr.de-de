@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cb0658a768276835fba44ab1e88e6fac05df5397
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 69c8dcf1e9c83d209341c717d4e41e74d8108949
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setup-best-practices-reordering-policies"></a><span data-ttu-id="3e2df-103">Bewährte Einrichtungsmethoden: Wiederbeschaffungsverfahren</span><span class="sxs-lookup"><span data-stu-id="3e2df-103">Setup Best Practices: Reordering Policies</span></span>

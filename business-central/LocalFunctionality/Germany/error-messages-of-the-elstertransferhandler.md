@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 759cf4b9601608bea49e412028e355a01375c265
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75bf1c115e416a3504da40d34e8353877ae762ae
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="error-messages-of-the-elstertransferhandler"></a><span data-ttu-id="d3e03-103">Fehlermeldungen des ElsterTransferHandler</span><span class="sxs-lookup"><span data-stu-id="d3e03-103">Error Messages of the ElsterTransferHandler</span></span>

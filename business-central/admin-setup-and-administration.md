@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 0/07/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: c1675921c82ddf00f6a00f94bb38bd594a9a0089
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d03fc2fb97f9abd85b42566616d8aa7f39ee29bb
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="administration"></a><span data-ttu-id="fd5c1-104">Verwaltung</span><span class="sxs-lookup"><span data-stu-id="fd5c1-104">Administration</span></span>
 <span data-ttu-id="fd5c1-105">Zentrale Verwaltungsaufgaben werden in der Regel von einer Rolle im Unternehmen ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="fd5c1-105">Central administration tasks are usually performed by one role in the company.</span></span> <span data-ttu-id="fd5c1-106">Der Bereich dieser Aufgaben kann von der Größe des Unternehmens und der Verantwortlichkeiten des Administrators abhängig sein.</span><span class="sxs-lookup"><span data-stu-id="fd5c1-106">The scope of these tasks can depend on the company's size and the administrator's job responsibilities.</span></span> <span data-ttu-id="fd5c1-107">Diese Aufgaben können die Verwaltung von Datenbanksynchronisierung von Projekt- und E-Mail-Warteschlangen, das Einrichten von Benutzern, das Anpassen der Benutzeroberfläche und Verwalten von Verschlüsselungsschlüsseln enthalten.</span><span class="sxs-lookup"><span data-stu-id="fd5c1-107">These tasks can include managing database synchronization of job and email queues, setting up users, and customizing the user interface.</span></span>  
 
-<span data-ttu-id="fd5c1-108">Die Eingabe der richtigen Einrichtungswerte ist entscheidend für den Erfolg jeder neuen Geschäftssoftware.</span><span class="sxs-lookup"><span data-stu-id="fd5c1-108">Entering the correct setup values from the start is important to the success of any new business software.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="fd5c1-109"> enthält mehrere Einrichtungshandbücher, die Ihnen dabei helfen, Kerndaten einzurichten.</span><span class="sxs-lookup"><span data-stu-id="fd5c1-109"> includes a number of setup guides that help you set up core data.</span></span> <span data-ttu-id="fd5c1-110">Weitere Informationen finden Sie unter [Business Central einrichten](setup.md).</span><span class="sxs-lookup"><span data-stu-id="fd5c1-110">For more information, see [Setting Up Business Central](setup.md).</span></span>
+<span data-ttu-id="fd5c1-108">Die Eingabe der richtigen Einrichtungswerte ist entscheidend für den Erfolg jeder neuen Geschäftssoftware.</span><span class="sxs-lookup"><span data-stu-id="fd5c1-108">Entering the correct setup values from the start is important to the success of any new business software.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="fd5c1-109">enthält mehrere Einrichtungshandbücher, die Ihnen dabei helfen, Kerndaten einzurichten.</span><span class="sxs-lookup"><span data-stu-id="fd5c1-109"> includes a number of setup guides that help you set up core data.</span></span> <span data-ttu-id="fd5c1-110">Weitere Informationen finden Sie unter [Business Central einrichten](setup.md).</span><span class="sxs-lookup"><span data-stu-id="fd5c1-110">For more information, see [Setting Up Business Central](setup.md).</span></span>
 
 <span data-ttu-id="fd5c1-111">Ob Sie RapidStart Services verwenden, um Einrichtungswerte zu implementieren, oder diese manuell im neuen Mandanten eingeben, Sie können Ihre Einrichtungsentscheidungen mit allgemeinen Empfehlungen für ausgewählte Einrichtungsfelder unterstützen, von denen bekannt ist, dass Sie die Lösung möglicherweise dazu veranlassen, ineffizient zu arbeiten, wenn sie falsch definiert werden.</span><span class="sxs-lookup"><span data-stu-id="fd5c1-111">Whether you use RapidStart Services to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.</span></span>  
 
@@ -52,5 +52,4 @@ ms.lasthandoff: 06/28/2018
 [<span data-ttu-id="fd5c1-144">Erste Schritte</span><span class="sxs-lookup"><span data-stu-id="fd5c1-144">Getting Started</span></span>](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d72d7cf8899928e1515b29b49b1642e299679e4a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6089fa6ceb5198d280fa0c2240967c5728a2a3a9
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-project-management"></a><span data-ttu-id="14df5-103">Richten Sie Ihr Projektmanagement ein.</span><span class="sxs-lookup"><span data-stu-id="14df5-103">Setting Up Project Management</span></span>

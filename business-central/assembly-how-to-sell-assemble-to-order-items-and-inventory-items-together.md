@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: fc1a4063ecf8a43fb879e61fb4aeef3e3ec974ad
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6f4c59efc56873a895c2b4105a128332f2747b6b
 ms.contentlocale: de-de
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a><span data-ttu-id="68113-104">So verkaufen Sie Auftragsmontageartikel und Lagerartikel zusammen</span><span class="sxs-lookup"><span data-stu-id="68113-104">Sell Assemble-to-Order Items and Inventory Items Together</span></span>
