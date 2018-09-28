@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 02/23/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
@@ -166,7 +166,7 @@ Sean hat das Feld **Buchungsdatum** aus der Tabelle **Sachposten** hinzugefügt,
 
 ### <a name="to-add-a-period-filter-to-a-table-in-a-data-export-source"></a>Um einen Periodenfilter einer Tabelle in einer Datenexportquelle hinzuzufügen  
 
-1.  Im Fenster **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto**und dann auf der Registerkarte Felder wählen Sie **Periodenfeld-Nr.**aus.  
+1.  Im Fenster **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto**und dann auf der Registerkarte Felder wählen Sie **Periodenfeld-Nr.** aus.  
 2.  Im Fenster **Datenexport Felderübersicht** wählen Sie das Feld **Buchungsdatum**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     Das Fenster **Datenexport-Felderübersicht** wird gefiltert, um nur die Datumsfelder anzuzeigen.  

@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
@@ -24,7 +24,7 @@ Beim Generieren von bestimmten Verkaufs- und Einkaufsberichten können Steuernum
 
 ## <a name="to-print-company-registration-numbers-on-sales-reports"></a>So drucken Sie Steuernummern für Unternehmen in Verkaufsberichten  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol "Nach Seite oder Bericht suchen"") aus, geben Sie **Unternehmensdaten** ein, und wählen Sie dann den verknüpften Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol \"Nach Seite oder Bericht suchen\"") aus, geben Sie **Unternehmensdaten** ein, und wählen Sie dann den verknüpften Link aus.  
 2.  Geben Sie im Inforegister **Steuerbehörde** im Feld **Steuernummer** die Steuernummer des Unternehmens ein.  
 3.  Wählen Sie die Schaltfläche **OK** aus.  
 

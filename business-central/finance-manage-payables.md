@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/01/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
 ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe

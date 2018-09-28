@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
@@ -119,7 +119,7 @@ Der Einstandsbetrag wird dann LCY 20.00, richtig mit der Einkaufsreklamation ver
 Das folgende Beispiel, das die Auswirkungen des festen Ausgleichs einer Einkaufsreklamation, basiert auf dem folgenden Szenario eines Artikels mit der Durchschnittskostenbewertungsmethode:  
 
 1. In Postennummer 1 und 2 bucht der Benutzer zwei Einkaufsrechnungen. Die zweite Rechnung hat den falschen EK-Preis von MW 1000,00.  
-2. In Postennummer3 bucht der Benutzer eine Einkaufsgutschrift mit einem festen Ausgleich für den Einkaufsposten mit den falschen direkten Einheitskosten. Die Summe des Feldes **Kostenbetrag (Ist)**für die zwei fest ausgeglichenen Wertposten wird 0,00  
+2. In Postennummer3 bucht der Benutzer eine Einkaufsgutschrift mit einem festen Ausgleich für den Einkaufsposten mit den falschen direkten Einheitskosten. Die Summe des Feldes **Kostenbetrag (Ist)** für die zwei fest ausgeglichenen Wertposten wird 0,00  
 3. In Postennummer 4 bucht der Benutzer eine andere Einkaufsrechnung mit dem korrekten Direkteinheitspreis von MW 100,00  
 4. In Postennummer 5 bucht der Benutzer eine Verkaufsrechnung.  
 5. Die Bestandsmenge ist 0, und der Bestandwert ist ebenfalls 0,00.  
