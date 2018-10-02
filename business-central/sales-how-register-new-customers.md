@@ -1,5 +1,5 @@
 ---
-title: Eine Kreditorenkarte erstellen, um einen neuen Kreditor zu erfassen | Microsoft Docs
+title: Eine Debitorenkarte erstellen, um neue Debitoren zu erfassen | Microsoft Docs
 description: Beschreibt, wie eine Debitorenkarte erstellt wird, um Informationen zu jedem neuen Debitor oder Clients zu erfassen, an die Sie verkaufen.
 services: project-madeira
 documentationcenter: 
@@ -19,8 +19,8 @@ ms.contentlocale: de-de
 ms.lasthandoff: 03/28/2018
 
 ---
-# <a name="register-new-customers"></a>Registriert einen neuen Debitor
-Debitoren sind die Herkunft des Erträge. Jeder Debitor, an den Sie verkaufen, muss als Debitorenkarte erfasst werden. Debitorenkarten verwahren die Informationen, die benötigt werden, um dem Debitoren Produkte zu verkaufen. Weitere Informationen finden Sie unter [Fakturieren eines Einkaufs](sales-how-invoice-sales.md) und [Neue Produkte erfassen](inventory-how-register-new-items.md).  
+# <a name="register-new-customers"></a>Neue Debitoren registrieren
+Debitoren sind die Herkunft Ihres Einkommens. Sie müssen jeden Debitor, an den Sie verkaufen, als Debitorenkarte anlegen. Debitorenkarten enthalten die Informationen, die für den Verkauf von Produkten an Debitoren erforderlich sind. Weitere Informationen finden Sie unter [Fakturieren eines Einkaufs](sales-how-invoice-sales.md) und [Neue Produkte erfassen](inventory-how-register-new-items.md).  
 
 Bevor Sie neue Debitoren erfassen können, müssen Sie verschiedene Verkaufscodes einrichten, aus denen Sie auswählen können, wenn Sie Debitorenkarten ausfüllen. Weitere Informationen finden Sie unter [Einrichten von Verkäufen](sales-setup-sales.md).
 
