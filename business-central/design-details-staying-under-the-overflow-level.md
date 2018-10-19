@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2fc2ef2528a1edc85c0a7694c1afc5bec7a0065a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Designdetails: Unter dem Überlauflevel bleiben
@@ -24,7 +24,7 @@ Wenn die Funktionen Auffüllen auf Maximalbestand Feste Bestellmenge verwendet w
 
 *Achtung: Der voraussichtliche Lagerbestand [xx] ist höher als das Überlauflevel [xx] am Fälligkeitsdatum [xx].*  
 
-![Lagerüberlauflevel](media/supplyplanning_2_overflow1_new.png "supplyplanning_2_overflow1_new")  
+![Lagerüberlauflevel](media/supplyplanning_2_overflow1_new.png "Lagerüberlauflevel")  
 
 ##  <a name="calculating-the-overflow-level"></a>Berechnung des Überlauflevels  
 Das Überlauflevel wird auf verschiedene Arten abhängig vom Planungssetup berechnet.  
@@ -68,7 +68,7 @@ Im Falle eines Überlaufs zeigt das Fenster  **Planungselement ohne Nachverfolgu
 Beispiel: "Der voraussichtliche Lagerbestand 120 übersteigt das Überlauflevel 60 am 28.01.11"  
 
 ## <a name="scenario"></a>Szenario  
-In diesem Szenario ändert ein Kunde einen Verkaufsauftrag von 70 zu 40 Stück zwischen zwei Planungen. Die Überlauffunktion reduziert den Einkauf, der für die anfängliche Verkaufsmenge vorgeschlagen worden war.  
+In diesem Szenario ändert ein Debitor einen Verkaufsauftrag von 70 zu 40 Stück zwischen zwei Planungen. Die Überlauffunktion reduziert den Einkauf, der für die anfängliche Verkaufsmenge vorgeschlagen worden war.  
 
 ### <a name="item-setup"></a>Artikeleinrichtung  
 
@@ -100,7 +100,7 @@ In diesem Szenario ändert ein Kunde einen Verkaufsauftrag von 70 zu 40 Stück z
 ### <a name="resulting-planning-lines"></a>Planzeilen erstellen  
  Eine Planungszeile (Warnen) wird erstellt, um den Einkauf mit 30 von 90 auf 60 zu verringern, um den voraussichtlichen Lagerstatus auf 100 entsprechend dem Überlauflevel festzuhalten.  
 
-![Planung entsprechend Überlauflevel](media/nav_app_supply_planning_2_overflow2.png "nav_app_supply_planning_2_overflow2")  
+![Planung entsprechender Überlauflevel](media/nav_app_supply_planning_2_overflow2.png "Planung entsprechender Überlauflevel")  
 
 > [!NOTE]  
 >  Ohne die Sammelfunktion werden keine Warnmeldungen erstellt, wenn der voraussichtliche Lagerbestand über Maximalbestand ist. Dies kann einen überflüssigen Vorrat von 30 verursachen.  

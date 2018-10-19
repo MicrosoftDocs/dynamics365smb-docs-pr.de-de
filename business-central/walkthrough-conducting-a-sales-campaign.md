@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c9dbffe821389fd237823acd110dd7e0c1ed908f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne
 Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten.  
 
- Mit den entsprechenden Funktionen in "Verkauf und Marketing" können Sie Ihre Marketingaktivitäten sorgfältig planen und die Aktivitäten mit Kontakten und Kunden verwalten. Sie können Kampagnen erstellen und Segmente Ihrer Kontakte für Verteiler und andere Formen der Interaktion mit Kunden und Interessenten einrichten.  
+ Mit den entsprechenden Funktionen in "Verkauf und Marketing" können Sie Ihre Marketingaktivitäten sorgfältig planen und die Aktivitäten mit Kontakten und Debitoren verwalten. Sie können Kampagnen erstellen und Segmente Ihrer Kontakte für Verteiler und andere Formen der Interaktion mit Debitoren und Interessenten einrichten.  
 
- Die Kampagnen- und Segmentfunktionen enthalten automatisierte Prozesse zum Planen, Organisieren und Verfolgen der Marketingaktivitäten. Mit diesen Funktionen verbessern Sie Ihre Chancen, neue Kunden zu gewinnen und bestehende Kunden zu halten.  
+ Die Kampagnen- und Segmentfunktionen enthalten automatisierte Prozesse zum Planen, Organisieren und Verfolgen der Marketingaktivitäten. Mit diesen Funktionen verbessern Sie Ihre Chancen, neue Debitoren zu gewinnen und bestehende Debitoren zu halten.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
  In dieser exemplarischen Vorgehensweise wird die Nachbereitung einer Messe und die Ausrichtung einer Folgekampagne auf Interessenten (Kontakte) erläutert.  
@@ -49,7 +49,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
  Der Marketingmitarbeiter in der Marketingabteilung ist für die Herstellung, Verteilung und Platzierung von Marketingmaterial zuständig.  
 
- Das Unternehmen hat gerade ein neues Produkt namens Millennium Server auf den Markt gebracht. Das Produkt wurde kürzlich auf einer Messe vorgestellt, der Computer Futurus. Viele Kunden haben großes Interesse am Produkt bekundet, und im Rahmen der Werbeinitiative wurde Kunden, die Millennium Server während des Kampagnenzeitraums erworben haben, ein spezieller Kampagnenpreis angeboten.  
+ Das Unternehmen hat gerade ein neues Produkt namens Millennium Server auf den Markt gebracht. Das Produkt wurde kürzlich auf einer Messe vorgestellt, der Computer Futurus. Viele Debitoren haben großes Interesse am Produkt beDebitort, und im Rahmen der Werbeinitiative wurde Debitoren, die Millennium Server während des Kampagnenzeitraums erworben haben, ein spezieller Kampagnenpreis angeboten.  
 
  Eine der Aufgaben des Marketingmitarbeiters nach der Messe ist die Erfassung aller Interessenten als Kontakte im System.  
 
@@ -62,7 +62,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
 ### <a name="to-set-up-a-campaign"></a>So richten Sie eine Kampagne ein  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kampagnen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kampagnen** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die **Neu** Aktion aus, um eine neue Kampagne zu erstellen. Klicken Sie auf die Kampagnenkarte, drücken Sie die Eingabetaste, um eine Kampagnennummer automatisch einfügen zu lassen.  
 3.  Geben Sie im Feld **Beschreibung** eine Beschreibung für die Kampagne ein, z. B. **FUTURUS-Messe**.  
 4.  Wählen Sie das Feld **Statuscode** und wählen Sie im Fenster **Kampagnenstatus** einen Statuscode aus der List aus, die sich öffnet, aus.  
@@ -79,7 +79,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
      Nach der Eingabe der allgemeinen Informationen zum Segment wählen Sie die gewünschten Kontakte für das Segment aus.  
 
-     Sie können zum Auswählen der Kontakte verschiedene Kriterien verwenden, z. B. Kontaktpersonen an einem (potenziellen) Kundenstandort, die im Unternehmen für den Einkauf zuständig sind.  
+     Sie können zum Auswählen der Kontakte verschiedene Kriterien verwenden, z. B. Kontaktpersonen an einem (potenziellen) Debitorenstandort, die im Unternehmen für den Einkauf zuständig sind.  
 
      Sie verwenden Filter, um Kontakte nach den Kriterien hinzuzufügen, die für Ihre Zwecke am besten geeignet sind. Mithilfe von Filtern können Sie Kontakte z. B. nach der Verantwortlichkeit der Kontaktperson oder der Geschäftsbeziehung oder Branche des Unternehmens hinzufügen. In dieser Demonstration verwenden Sie den Filter **Verantwortlichkeit** zum Auswählen von Kontakten.  
 
@@ -148,11 +148,11 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
 9. Die Dateianhänge werden gesendet. Wenn der Vorgang abgeschlossen ist, wählen Sie die Schaltfläche **OK** für die Meldung aus, die angibt, dass das Segment protokolliert wurde.  
 
-     Die Briefe werden automatisch gedruckt, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in die Liste der protokollierten Segmente verschoben. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Protokollierte Segmente** ein. Wählen Sie dann den zugehörigen Link aus.  
+     Die Briefe werden automatisch gedruckt, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in die Liste der protokollierten Segmente verschoben. Wenn Sie diese Liste anzeigen möchten, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Protokollierte Segmente** ein, und wählen dann den zugehörigen Link aus.  
 
 10. Nachdem das Segment protokolliert ist, wird jeder Brief, der versendet wurde, als Aktivität gespeichert, die Sie im Protokoll einsehen können.  
 
-     Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Interaktion Protokolleinträge** ein. Wählen Sie dann den zugehörigen Link aus. Es gibt jeweils einen Posten für jeden gesendeten Brief.  
+     Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aktivitätenprotokollposten** ein, und wählen dann den zugehörigen Link aus. Es gibt jeweils einen Posten für jeden gesendeten Brief.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>So senden Sie eine E-Mail-Nachricht an einen Kontakt  
 
@@ -165,7 +165,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 7.  Wählen Sie das Kontrollkästchen **Anschluss-Segment erstellen**.  
 8.  Wählen Sie die Schaltfläche **OK** aus.  
 
-     Die Briefe werden automatisch per E-Mail gesendet, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in der Liste der protokollierten Segmente gespeichert. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Protokollierte Segmente** ein. Wählen Sie dann den zugehörigen Link aus.  
+     Die Briefe werden automatisch per E-Mail gesendet, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in der Liste der protokollierten Segmente gespeichert. Wenn Sie diese Liste anzeigen möchten, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Protokollierte Segmente** ein, und wählen dann den zugehörigen Link aus.  
 
 ## <a name="registering-campaign-responses"></a>Erfassen von Kampagnenreaktionen  
  Im Laufe der nächsten Wochen antworten die Interessenten auf den Brief. Der Marketingmanager möchte die Reaktionen verfolgen und diese Interaktionen erfassen.  

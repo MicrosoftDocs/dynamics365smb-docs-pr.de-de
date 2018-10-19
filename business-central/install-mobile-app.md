@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 03/21/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f907a0d2aa0e4fcbd0b9d5d9530823033fac2bb8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4f38251e53e40d57829f7b00592d8b2920e2dea1
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -23,8 +23,8 @@ Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[d365fin](includes/d365fin_md.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>So wird die App auf mein mobiles Gerät heruntergeladen.
 1. Installieren Sie die [!INCLUDE[d365fin](includes/d365fin_md.md)]-App auf Ihrem mobilen Gerät, indem Sie die App aus dem Windows Store, App Store oder aus Google Play herunterladen.  
-[![Windows Store](./media/install-mobile-app/windowsstore.png)](http://go.microsoft.com/fwlink/?LinkId=734848)
-[![App Store](./media/install-mobile-app/appstore.png)](http://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](http://go.microsoft.com/fwlink/?LinkId=734849)  
+[![Windows Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
+[![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
 2. Starten Sie die App von Ihrem mobilen Gerät.
 3. Geben Sie Ihren Namen und Ihr Passwort ein, das Sie während der Anmeldung für [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt haben und folgen Sie den Anweisungen auf dem Bildschirm.
 

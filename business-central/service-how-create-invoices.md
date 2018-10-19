@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 24d9c111bd88cb6aa780a46a565da78e05d1ca13
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bdb2f5d98d22f861ce3fed0d8c72ae7992a80fdb
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.
@@ -25,7 +25,7 @@ Die einfache Fakturierung von Serviceaufträgen ist ein zentrales Feature von [!
 Eine direkte Erstellung von Rechnungen ist im Fenster **Servicevertrag** möglich. Das System kann auch so eingerichtet werden, dass ein Servicetechniker im Feld eine Rechnung für den Service erstellen kann, der nicht mit einem Vertrag oder Auftrag verbunden ist.  
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>So fakturieren Sie einen Servicevertrag aus der Seite "Servicevertrag"   
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Servicevertrags-Rechnungen erstellen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicevertragvertragsrechnungen erstellen** ein, und wählen dann den zugehörigen Link aus.  
 2. Geben Sie die anzuwendenden Filter ein.  
 3. Geben Sie hier das **Buchungsdatum**, das als Buchungsdatum in der erstellten Servicerechnung verwendet werden soll.  
 4. Geben Sie im Feld **Fakturierung bis Datum** das Datum ein, bis zu dem Sie Verträge fakturieren möchten. Die Stapelverarbeitung wird Verträge mit den nächsten Rechnungsdaten bis zu diesem Datum berücksichtigen.  
@@ -38,7 +38,7 @@ Eine direkte Erstellung von Rechnungen ist im Fenster **Servicevertrag** möglic
 ## <a name="to-post-an-invoice-from-a-service-order"></a>So buchen Sie eine Rechnung von einem Serviceauftrag  
 Das folgende Verfahren beschreibt, wie der Teil des Service festgelegt wird, der dem Debitor in Rechnung gestellt werden soll.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Serviceaufträge** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceaufträge** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie den Serviceauftrag, den Sie öffnen möchten, und öffnen Sie die Auftragskarte.  
 3. Wählen Sie die Aktion **Servicezeilen**.  
 4. Suchen Sie im nach den entsprechenden Posten, und geben Sie im Feld  **Zu fakturieren** die Mengen an, die Sie dem Debitor in Rechnung stellen möchten.  
@@ -57,14 +57,14 @@ Das folgende Verfahren beschreibt, wie der Teil des Service festgelegt wird, der
 ## <a name="to-create-a-service-invoice-manually"></a>So erstellen Sie eine Servicerechnung manuell  
 Wenn Sie einen Serviceauftrag mit der Option **Rechnung** oder **Liefern und fakturieren** buchen, wird automatisch eine Servicerechnung gebucht. Es kann jedoch erforderlich sein, eine Rechnung zu erstellen, die weder mit einem Servicevertrag noch mit einem Serviceauftrag verknüpft ist. In diesem Verfahren wird beschrieben, wie eine Rechnung zu dem Zeitpunkt erstellt wird, zu dem der Debitor den Service erhält.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Servicerechnung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicerechnungen** ein, und wählen dann den zugehörigen Link aus.  
 2. Erstellen Sie eine neue Servicerechnung.  
 3. Füllen Sie die **Felder Nr.** Feld  
   
     > [!NOTE]  
     >  Wenn Sie Nummernserien für Servicerechnungen im Fenster **Service Einrichtung** eingerichtet haben, drücken Sie die Eingabetaste, um die nächste verfügbare Servicerechnungsnummer auszuwählen.  
   
-4. Klicken Sie im Feld **Debitorennr.** Feld geben Sie die Kundennummer ein. Wählen Sie den relevanten Debitoren aus der Liste.  
+4. Klicken Sie im Feld **Debitorennr.** Feld geben Sie die Debitorennummer ein. Wählen Sie den relevanten Debitoren aus der Liste.  
   
     Die Debitorenfelder werden mit Informationen aus der Karte **Debitor** gefüllt.  
   
@@ -75,7 +75,7 @@ Wenn Sie einen Serviceauftrag mit der Option **Rechnung** oder **Liefern und fak
 ## <a name="to-invoice-posted-shipment-lines"></a>So fakturieren Sie gebuchte Lieferzeilen  
 Es kann der Fall sein, dass Sie eine Servicerechnung für einen Service erstellen müssen, der bereits aus einem oder aus mehreren Serviceaufträgen geliefert, aber noch nicht fakturiert oder verbraucht wurde. Sie können die Rechnungszeilen anhand der ausgewählten gebuchten Lieferungszeilen für einen bestimmten Debitor automatisch ausfüllen.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Servicerechnung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicerechnungen** ein, und wählen dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 3. Erstellen Sie Zeilen für gelieferte, aber noch nicht fakturierte Services. Alternativ können Sie die **Lieferzeilen abrufen** Aktion verwenden, um gebuchte Lieferungszeilen der Rechnung hinzuzufügen.  
 4. Buchen Sie die Servicerechnung.  
@@ -85,7 +85,7 @@ Es kann der Fall sein, dass Sie eine Servicerechnung für einen Service erstelle
 ## <a name="to-create-a-combined-invoice"></a>So erstellen Sie Sammelrechnungen  
 Mithilfe dieses Verfahrens können Sie dem Debitor die in verschiedenen Serviceaufträgen enthaltenen Services in Rechnung stellen. Rechnungszeilen werden für Artikel, Ressourcenzeiten oder Kosten, die bereits aus verschiedenen Serviceaufträgen geliefert, aber noch nicht fakturiert wurden, erstellt.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Servicerechnung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicerechnungen** ein, und wählen dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Wählen Sie die **Versandzeilen abrufen** Aktion aus. Im Fenster **Servicelieferungszeilen abrufen** werden alle gelieferten, aber noch nicht fakturierten Zeilen für den angegebenen Debitor angezeigt.  
 4. Wählen Sie die Zeilen aus, für die der Service fakturiert wird, und Sie dann **OK**, um die Servicelieferungszeilen der Rechnung hinzuzufügen.  
@@ -93,7 +93,7 @@ Mithilfe dieses Verfahrens können Sie dem Debitor die in verschiedenen Servicea
 ## <a name="to-create-a-service-credit-memo"></a>So erstellen Sie eine Servicegutschrift  
 Eine Servicegutschrift wird normalerweise verwendet, wenn ein Debitor einen Artikel zurücksendet. Sie kann aber auch als Entschädigung für einen Debitor und als Korrektur einer fehlerhaften Rechnung verwendet werden.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Servicevertragsgutschriften** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicegutschriftsmemos** ein, und wählen dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Die Felder **Buchungsdatum** und **Belegdatum** zeigen ein Arbeitsdatum an. Bei Bedarf können Sie dieses ändern.    
 4. Geben Sie in die Gutschriftszeilen Informationen über die Artikel ein, die zurückgeschickt oder entfernt wurden, oder die Entschädigung, die Sie dem Debitor gewähren möchten.  

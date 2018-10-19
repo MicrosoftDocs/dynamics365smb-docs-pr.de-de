@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75f6883961f62b82ec751306693dd29a031b409c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetails: Eingehender Lagerfluss
@@ -53,7 +53,7 @@ In den Methoden werden A, B und C werden die Aktionen des Eingangs und der Einla
 ## <a name="basic-warehouse-configurations"></a>Grundlegende Lagerhauskonfigurationen  
 Das folgende Diagramm zeigt die eingehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
-![Eingehender Fluss in der grundlegenden Lagerfunktion](media/design_details_warehouse_management_inbound_basic_flow.png "design_details_warehouse_management_inbound_basic_flow")  
+![Eingehender Fluss in der grundlegenden Lagerfunktion](media/design_details_warehouse_management_inbound_basic_flow.png "Eingehender Fluss in der grundlegenden Lagerfunktion")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1. Freigeben des Herkunftsbelegs/Einlagerung erstellen  
 Wenn Artikel im Lager erhalten werden, gibt der Benutzer, der für die Lieferung verantwortlich ist, den Herkunftsbeleg frei, etwa eine Bestellung oder einen eingehender Umlagerungsauftrag, um dem Lagerpersonal zu signalisieren, dass die eingegangenen Artikel im Lager eingelagert werden können. Oder der Benutzer erstellt Einlagerungsbelege für einzelne Auftragszeilen, im Push-Verfahren, basierend auf angegebenen Lagerplätzen und Mengen, die verarbeitet werden sollen.  
@@ -69,10 +69,10 @@ In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es t
 
 Positive Bestandskommissionierungen sowie Lagerposten werden erstellt, und die Einlagerungsanforderung wird gelöscht, wenn sie vollständig bearbeitet ist. Beispielsweise wird das Feld **Menge empfangen**auf der Zeile des eingehenden Herkunftsbelegs aktualisiert. Ein Beleg des gebuchten Wareneingangs wird erstellt, der beispielsweise die Einkaufsbestellung und die eingegangenen Artikel angezeigt.  
 
-## <a name="advanced-warehouse-configurations"></a>erweiterte Lagerhauskonfigurationen  
+## <a name="advanced-warehouse-configurations"></a>Erweiterte Lagerhauskonfigurationen  
 Das folgende Diagramm zeigt die eingehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
-![Eingehender Fluss in der erweiterten Lagerfunktion](media/design_details_warehouse_management_inbound_advanced_flow.png "design_details_warehouse_management_inbound_advanced_flow")  
+![Eingehender Fluss in der erweiterten Lagerfunktion](media/design_details_warehouse_management_inbound_advanced_flow.png "Eingehender Fluss in der erweiterten Lagerfunktion")  
 
 ### <a name="1-release-source-document"></a>1: Freigeben des Herkunftsbelegs  
 Wenn Artikel im Lager erhalten werden, gibt der Benutzer, der für die Lieferung verantwortlich ist, den Herkunftsbeleg frei, etwa eine Bestellung oder einen eingehender Umlagerungsauftrag, um dem Lagerpersonal zu signalisieren, dass die eingegangenen Artikel im Lager eingelagert werden können.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4828da068f1e17d031300948e930c9685a2f274d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
@@ -61,8 +61,8 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     |**Dateiverschlüsselung**|Geben Sie die Codierung der Datei an. **Hinweis:**  Dieses Feld ist nur für den Import relevant.|  
     |**Spaltentrennzeichen**|Geben Sie an, wie Spalten in der Datendatei getrennt werden, wenn die Datei den Typ **Variabler Text** hat.|  
     |**Kopfzeilen**|Geben Sie an, wie viele Kopfzeilen in der Datei vorhanden sind.<br /><br /> Dadurch wird sichergestellt, dass die Kopfzeilendaten nicht importiert werden. **Hinweis:**  Dieses Feld ist nur für den Import relevant.|  
-    |**Kopfzeilentag**|Wenn eine Kopfzeile an verschiedenen Positionen in der Datei vorhanden ist, geben Sie den Text der ersten Spalte in der Kopfzeile ein.<br /><br /> Dadurch wird sichergestellt, dass die Kopfzeilendaten nicht importiert werden. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
-    |**Fußzeilentag**|Wenn eine Fußzeile an verschiedenen Positionen in der Datei vorhanden ist, geben Sie den Text der ersten Spalte in der Fußzeile ein.<br /><br /> Dadurch wird sichergestellt, dass die Fußzeilendaten nicht importiert werden. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
+    |**Kopfzeilentag**|Wenn eine Kopfzeile an verschiedenen Positionen in der Datei vorhanden ist, geben Sie den Text der ersten Spalte in der Kopfzeile ein.<br /><br /> Dadurch wird sichergestellt, dass die Kopfzeilendaten nicht importiert werden. **Hinweis:** Dieses Feld ist nur für den Import relevant.|  
+    |**Fußzeilentag**|Wenn eine Fußzeile an verschiedenen Positionen in der Datei vorhanden ist, geben Sie den Text der ersten Spalte in der Fußzeile ein.<br /><br /> Dadurch wird sichergestellt, dass die Fußzeilendaten nicht importiert werden. **Hinweis:** Dieses Feld ist nur für den Import relevant.|  
 
 4. Im Inforegister **Zeilendefinitionen** beschreiben Sie das Formatieren der Zeilen in der Datendatei, indem Sie die Felder wie in der folgenden Tabelle beschrieben ausfüllen.  
 
@@ -75,8 +75,8 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     |---------------------------------|---------------------------------------|  
     |**Code**|Geben Sie einen Code zur Identifizierung der Zeile in der Datei ein.|  
     |**Name**|Geben Sie einen Namen ein, der die Zeile in der Datei beschreibt.|  
-    |**Anzahl Spalten**|Geben Sie an, wie viele Spalten die Zeile in der Datendatei hat. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
-    |**Datenzeilen-Tag**|Geben Sie die Position im entsprechenden XML-Schema des Elements an, die den Hauptposten der Datendatei darstellt. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
+    |**Anzahl Spalten**|Geben Sie an, wie viele Spalten die Zeile in der Datendatei hat. **Hinweis:** Dieses Feld ist nur für den Import relevant.|  
+    |**Datenzeilen-Tag**|Geben Sie die Position im entsprechenden XML-Schema des Elements an, die den Hauptposten der Datendatei darstellt. **Hinweis:** Dieses Feld ist nur für den Import relevant.|  
     |**Namespace**|Geben Sie den Namespace an, der in der Datei erwartet wird, um die Namespaceprüfung zu aktivieren. Sie können dieses Kontrollkästchen leer lassen, wenn Sie Namespaceprüfung nicht aktivieren möchten.|  
 
 5. Wiederholen Sie Schritt 4, um eine Zeile für jede Dateidatenart zu erstellen, die Sie exportieren möchten.  
@@ -92,13 +92,13 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     |**Spaltennr.**|Geben Sie die Nummer an, die die Spaltenposition auf der Zeile in der Datei wiedergibt.<br /><br /> Für XML-Dateien geben Sie die Nummer an, die den Elementtyp in der Datei widergespiegelt, die die Daten enthält.|  
     |**Name**|Geben Sie den Namen der Spalte an.<br /><br /> Für XML-Dateien geben Sie die Markierung an, die die auszutauschenden Daten markiert.|  
     |**Datentyp**|Geben Sie an, ob die auszutauschenden Daten den Typ **Text**, **Datum** oder **Dezimal** haben.|  
-    |**Datenformat**|Geben Sie das Format der Daten an, sofern vorhanden. Beispielsweise **MM-tt-jjjj**, wenn der Datentyp **Datum** ist. **Hinweis:**Für den Export geben Sie das Datenformat entsprechend [!INCLUDE[d365fin](includes/d365fin_md.md)] an. Für den Import geben Sie das Datenformat entsprechend .Net Framework an. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](http://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Datenformatierungskultur**|Geben Sie die Kultur des Datenformats an, sofern vorhanden. Beispielsweise **en-US**, wenn der Datentyp **Dezimal** ist, um sicherzustellen, dass ein Komma als Dezimaltrennzeichen verwendet wird, entsprechend dem US-Format. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](http://go.microsoft.com/fwlink/?LinkID=323466). **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
+    |**Datenformat**|Geben Sie das Format der Daten an, sofern vorhanden. Beispielsweise **MM-tt-jjjj**, wenn der Datentyp **Datum** ist. **Hinweis:** Für den Export geben Sie das Datenformat entsprechend [!INCLUDE[d365fin](includes/d365fin_md.md)] an. Für den Import geben Sie das Datenformat entsprechend .Net Framework an. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](https://go.microsoft.com/fwlink/?LinkID=323466).|  
+    |**Datenformatierungskultur**|Geben Sie die Kultur des Datenformats an, sofern vorhanden. Beispielsweise **en-US**, wenn der Datentyp **Dezimal** ist, um sicherzustellen, dass ein Komma als Dezimaltrennzeichen verwendet wird, entsprechend dem US-Format. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](https://go.microsoft.com/fwlink/?LinkID=323466). **Hinweis:** Dieses Feld ist nur für den Import relevant.|  
     |**Länge**|Geben Sie die Länge der Zeile mit fester Breite an, die diese Spalte enthält, wenn die Datendatei den Typ **Fester Text** hat.|  
     |**Beschreibung**|Geben Sie eine Beschreibung der Spalte zur Information ein.|  
     |**Pfad**|Geben Sie die Position des Elements im zugehörigen XML-Schema an.|  
-    |**Kennzeichen mit negativem Zeichen**|Geben Sie den Wert ein, der in der Datendatei verwendet wird, um negative Beträge in Datendateien zu identifizieren, die keine negativen Vorzeichen enthalten können. Diese Identifikationsnummer wird verwendet, um die identifizierten Beträge während des Imports auf negative Vorzeichen zurückzusetzen. **Hinweis:**Dieses Feld ist nur für den Import relevant.|  
-    |**Konstanten**|Geben Sie alle Daten an, die Sie in dieser Spalte exportieren möchten, wie etwa zusätzliche Informationen über die Zahlungsart. **Hinweis:**Dieses Feld ist nur für den Export relevant.|  
+    |**Kennzeichen mit negativem Zeichen**|Geben Sie den Wert ein, der in der Datendatei verwendet wird, um negative Beträge in Datendateien zu identifizieren, die keine negativen Vorzeichen enthalten können. Diese Identifikationsnummer wird verwendet, um die identifizierten Beträge während des Imports auf negative Vorzeichen zurückzusetzen. **Hinweis:** Dieses Feld ist nur für den Import relevant.|  
+    |**Konstanten**|Geben Sie alle Daten an, die Sie in dieser Spalte exportieren möchten, wie etwa zusätzliche Informationen über die Zahlungsart. **Hinweis:** Dieses Feld ist nur für den Export relevant.|  
 
 9. Wiederholen Sie Schritt 8 für jede Spalte oder jedes XML-Element in der Datendatei, die/das Daten hat, die Sie mit [!INCLUDE[d365fin](includes/d365fin_md.md)] austauschen möchten.  
 
@@ -118,7 +118,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     |**Name**|Geben Sie einen Namen für den Zuordnungssetup ein.|  
     |**Vorabzuordnungs-Codeunit**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] und externen Daten vorbereitet.|  
     |**Zuordnungs-Codeunit**|Geben Sie die Codeunit an, die verwendet wird, um die angegebenen Spalten oder XML-Datenelemente den Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zuzuordnen.|  
-    |**Codeunit für die Zuordnung im Nachhinein**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] und externen Daten vervollständigt. **Hinweis:**Bei Verwendung des Bank-Datenkonvertierungs-Dienstleistungsmerkmals wandelt Codeunit exportierte Daten aus [!INCLUDE[d365fin](includes/d365fin_md.md)] in ein für den Export bereitstehendes generisches Format um. Für den Import konvertiert die Codeunit externe Daten zu einem für den Import zu [!INCLUDE[d365fin](includes/d365fin_md.md)] geeigneten Format.|  
+    |**Codeunit für die Zuordnung im Nachhinein**|Geben Sie die Codeunit an, die die Zuordnung zwischen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] und externen Daten vervollständigt. **Hinweis:** Bei Verwendung des Bank-Datenkonvertierungs-Dienstleistungsmerkmals wandelt Codeunit exportierte Daten aus [!INCLUDE[d365fin](includes/d365fin_md.md)] in ein für den Export bereitstehendes generisches Format um. Für den Import konvertiert die Codeunit externe Daten zu einem für den Import zu [!INCLUDE[d365fin](includes/d365fin_md.md)] geeigneten Format.|  
 
 3.  Geben Sie im Inforegister **Feldzuordnung** an, welche Spalten welchen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet sind, indem Sie die Felder wie in der folgenden Tabelle beschrieben ausfüllen.  
 
@@ -126,7 +126,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     |---------------------------------|---------------------------------------|  
     |**Spaltennr.**|Geben Sie an, für welche Spalte in der Datendatei Sie eine Zuordnung definieren möchten.<br /><br /> Sie können nur Spalten auswählen, die im Inforegister **Spaltendefinitionen** im Fenster **Datenaustauschdefintion** durch Zeilen angezeigt werden.|  
     |**Feld-ID**|Geben Sie an, welchem Feld die Spalte im Feld **Spaltennr.** zugeordnet ist. Feldkarten zu.<br /><br /> Sie können aus den Feldern nur auswählen, die in der Tabelle vorhanden sind, die Sie im Feld **Tabelle** im Inforegister **Allgemein** angegeben haben.|  
-    |**Optional**|Geben Sie an, dass die Zuordnung übersprungen wird, wenn das Feld leer ist. **Hinweis:**Wenn Sie dieses Kontrollkästchen nicht aktivieren, tritt ein Exportfehler auf, wenn das Feld leer ist. **Hinweis:**Dieses Feld ist nur für den Export relevant.|  
+    |**Optional**|Geben Sie an, dass die Zuordnung übersprungen wird, wenn das Feld leer ist. **Hinweis:** Wenn Sie dieses Kontrollkästchen nicht aktivieren, tritt ein Exportfehler auf, wenn das Feld leer ist. **Hinweis:** Dieses Feld ist nur für den Export relevant.|  
     |**Zieltabellen-ID**|Nur sichtbar, wenn das Kontrollkästchen **Als Zwischentabelle verwenden** aktiviert ist.<br /><br /> Gibt die Tabelle an, der der Wert im Feld **Spaltenbezeichnung** zugeordnet wird, wenn eine Zwischentabelle für den Datenimport verwendet wird.|  
     |**Zieltabellenbeschriftung**|Nur sichtbar, wenn das Kontrollkästchen **Als Zwischentabelle verwenden** aktiviert ist.<br /><br /> Gibt den Namen der Tabelle im Feld **Zieltabellen-ID** an, die die Tabelle ist, der der Wert im Feld **Spaltenbezeichnung** zugeordnet wird, wenn eine Zwischentabelle für den Datenimport verwendet wird.|  
     |**Zielfeld-ID**|Nur sichtbar, wenn das Kontrollkästchen **Als Zwischentabelle verwenden** aktiviert ist.<br /><br /> Gibt das Feld in der Zieltabelle an, der der Wert im Feld **Spaltenbezeichnung** zugeordnet wird, wenn eine Zwischentabelle für den Datenimport verwendet wird.|  

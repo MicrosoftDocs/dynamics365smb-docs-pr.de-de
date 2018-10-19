@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 02/23/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b9475eed54b576f3d0f9d45512607ffa5402f8e7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 15090160e2a6de5e7fea1723a2c7d3a0e2155f22
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="process-for-digital-audits-gobdgdpdu"></a>Prozess für Digital-Überwachung (/GoBD GDPdU)
@@ -25,7 +25,7 @@ Sie können Daten aus [!INCLUDE[d365fin](../../includes/d365fin_md.md)] exportie
 ## <a name="overview"></a>Matrix  
 Nach §146 und 147 des deutschen Steuercodes (Abgabenordnung, AO) ist es der Finanzverwaltung möglich, die Daten von elektronischen Buchführungssystemen „digital“ zu prüfen. Sie können dies über ein Datenspeichergerät oder direkt oder indirekt über Zugriff auf das System tun. Für die Datenträgerüberlassung ist es notwendig, dass die Daten vom steuerpflichtigen Unternehmen (oder dem beauftragten Steuerberater, buchführenden (Sub-)Unternehmen, etc.) in „maschinell auswertbarer Form“ auf geeigneten Datenträgern bereitgestellt werden. Unter dem Begriff „maschineller Auswertbarkeit“ versteht die Finanzverwaltung den wahlfreien Zugriff auf alle gespeicherten Daten einschließlich der Stammdaten und Verknüpfungen mit Sortier- und Filterfunktionen. Um eine solche Auswertbarkeit oder Verwertbarkeit zu erreichen, ist es notwendig, dass die Dateiformate für die Datenträgerüberlassung definiert und standardisiert werden.  
 
-Steuerbehörden in Deutschland verwenden Analysesoftware mit der Bezeichnung IDEA, mit der Daten aus ASCII-Dateien importiert werden. Die IDEA-Software kann Daten mit festem oder variablem Längenformat importieren. Dazu wird eine XML-Datei, index.xml benötigt, die die Struktur der Datendateien beschreibt. Weitere Informationen finden Sie unter [Audicon-Website für GDPdU](http://go.microsoft.com/fwlink/?LinkId=245841).  
+Steuerbehörden in Deutschland verwenden Analysesoftware mit der Bezeichnung IDEA, mit der Daten aus ASCII-Dateien importiert werden. Die IDEA-Software kann Daten mit festem oder variablem Längenformat importieren. Dazu wird eine XML-Datei, index.xml benötigt, die die Struktur der Datendateien beschreibt. Weitere Informationen finden Sie unter [Audicon-Website für GDPdU](https://go.microsoft.com/fwlink/?LinkId=245841).  
 
 ## <a name="defining-gdpdu-export-data"></a>Gewusst wie: Exportieren von GDPdU-Daten  
 Sie können [!INCLUDE[d365fin](../../includes/d365fin_md.md)] konfigurieren, ums GDPdU-Daten zu exportieren, um Ihren Anforderungen zu entsprechen. Sie können große Datenbestände exportieren, und kleine Datenbestände exportieren. Sie können Daten aus einer einzelnen Tabelle oder aus einer Tabelle und den verknüpften Tabellen exportieren.  

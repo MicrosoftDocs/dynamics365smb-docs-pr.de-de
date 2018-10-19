@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Analyseberichte erstellen
@@ -24,7 +24,7 @@ Sie können Analyseberichte verwenden, um spezifische Berichte basierend auf den
 
 Sie können Ihren personalisierten Bericht erstellen, der sich auf Ihre Hauptkonten hinsichtlich des Gesamtumsatzes konzentriert, und zwar sowohl bei Beträgen als auch bei verkauften Mengen, Bruttogewinn sowie dem Prozentsatz des Bruttogewinns bezogen auf den aktuellen Monat. Sie können diese Zahlen mit den Ergebnissen vergangener Monate oder dem gleichen Vorjahresmonat vergleichen und Abweichungen berechnen. All dies können Sie in einer einzigen Ansicht vornehmen, und Sie haben die Möglichkeit, zur Ursache eines identifizierten Problemfeldes zu navigieren, indem Sie auf den AssistButton klicken, um auf Details auf der Ebene der individuellen Transaktionen zuzugreifen.  
 
-Der Analysebericht besteht aus den Objekten, die Sie analysieren möchten (beispielsweise Kunden, Kundengruppen, Verkäufer usw.), die als Zeilen dargestellt werden, und den Analyseparametern, d. h. die Art und Weise, in der Sie das Objekt analysieren möchten. Diese Parameter werden als Spalten dargestellt (z. B. Gewinnberechnungen, periodische Vergleiche von Verkaufsbeträgen und -volumen bzw. periodische Vergleiche von tatsächlichen und budgetierten Zahlen).
+Der Analysebericht besteht aus den Objekten, die Sie analysieren möchten (beispielsweise Debitoren, Debitorengruppen, Verkäufer usw.), die als Zeilen dargestellt werden, und den Analyseparametern, d. h. die Art und Weise, in der Sie das Objekt analysieren möchten. Diese Parameter werden als Spalten dargestellt (z. B. Gewinnberechnungen, periodische Vergleiche von Verkaufsbeträgen und -volumen bzw. periodische Vergleiche von tatsächlichen und budgetierten Zahlen).
 
 Zusätzlich zu Analyseberichten können Sie ähnliche Informationen in den Analyseansichten erstellen und anzeigen, die auf Dimensionen basieren. Weitere Informationen finden Sie unter [Daten nach Dimensionen analysieren](bi-how-analyze-data-dimension.md).
 
@@ -61,7 +61,7 @@ In einem Analysebericht werden die Analyseparameter als Spalten angezeigt. Sie k
 
 Eine Vorlage enthält eine Gruppe von Zeilen, wobei jede Zeile eine Analysespalte darstellt, die Sie im Analysebericht sehen. Um eine Spalte zu definieren, müssen Sie einer Zeile einen Analysetypcode zuweisen. Dieser Analysetypcode bestimmt den Quelldatentyp in den Artikelposten, auf denen die Analyse basiert. Quelldaten enthalten Kosten, Verkaufsbetrag oder Menge sowie die dazugehörigen Wertposten. Sie können beliebig viele Spaltenvorlagen einrichten und zur Erstellung neuer Analyseberichte verwenden.    
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsspaltenvorlage** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufsspalten-Vorlage** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die erste leere Linie und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie die Aktion **Spalten** aus.  
 4. Füllen Sie die Felder im Fenster **Analysespalten** aus, um die Spalten zu bestimmen, die der Analysebericht enthalten soll.  
@@ -78,7 +78,7 @@ In einem Analysebericht werden die Analyseobjekte in den Zeilen angezeigt. Sie k
 
 Eine Vorlage enthält eine Gruppe von Zeilen, die die im Bericht angezeigten Analysezeilen darstellen. Eine Zeile kann für einen oder mehrere Artikel, Debitoren, Kreditoren oder Gruppen stehen. Sie können in einer Zeile auch eine Formel erzeugen, mit der die anderen Zeilen zusammengezählt werden. Sie können beliebig viele Zeilenvorlagen erstellen und diese dann zur Generierung neuer Analyseberichte verwenden.    
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsspaltenvorlage** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufszeilen-Vorlage** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die erste leere Linie und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie die Aktion **Zeilen** aus.  
 4. Erstellen Sie im Fenster **Analysezeilen** Zeilen für die Artikel, Debitoren, Kreditioren oder Verkäufer, für die Sie Zahlen im Analysebericht anzeigen möchten. Sie müssen das Feld **Art**, das Feld **Bereich** und das Feld **Beschreibung** ausfüllen.  
@@ -91,7 +91,7 @@ Das folgende Verfahren basiert auf Analyseberichten für Aufträge. Die Schritte
 
 Verwenden Sie Analyseberichte, um die Entwicklung der Verkäufe anhand der ausgewählten Schlüsselindikatoren für die Verkaufsperformance zu analysieren, beispielsweise den Verkaufsumsatz in Beträgen und Mengen, die Beitragsspanne oder den Status der aktuellen Verkäufe gegenüber dem Budget. Sie können den Bericht auch verwenden, um durchschnittliche VK-Preise zu analysieren und die Verkaufsperformance der Verkaufsabteilung zu bewerten.  
 
-1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsanalysebericht** ein und wählen den zugehörenden Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufsanalyse-Bericht** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie im Fenster **Analyseberichtsverkauf** die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die **Analysebericht bearbeiten** Aktion aus.

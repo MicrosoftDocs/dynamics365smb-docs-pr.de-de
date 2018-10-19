@@ -1,5 +1,5 @@
 ---
-title: Eine Debitorenkarte erstellen, um neue Debitoren zu erfassen | Microsoft Docs
+title: Eine Debitorenkarte erstellen, um einen neuen Debitor zu erfassen | Microsoft Docs
 description: Beschreibt, wie eine Debitorenkarte erstellt wird, um Informationen zu jedem neuen Debitor oder Clients zu erfassen, an die Sie verkaufen.
 services: project-madeira
 documentationcenter: 
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 6ca938a5bcd0fd160c98358d89740e4dfd756e79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c249e186395df580e55a806fe7446f4d13c7b786
 ms.contentlocale: de-de
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
-Debitoren sind die Herkunft Ihres Einkommens. Sie müssen jeden Debitor, an den Sie verkaufen, als Debitorenkarte anlegen. Debitorenkarten enthalten die Informationen, die für den Verkauf von Produkten an Debitoren erforderlich sind. Weitere Informationen finden Sie unter [Fakturieren eines Einkaufs](sales-how-invoice-sales.md) und [Neue Produkte erfassen](inventory-how-register-new-items.md).  
+Debitoren sind die Herkunft Ihres Einkommens. Sie müssen jeden Debitor, an den Sie verkaufen, als Debitorenkarte anlegen. Debitorenkarten enthalten die Informationen, die für den Verkauf von Produkten an Debitoren erforderlich sind." Weitere Informationen finden Sie unter [Fakturieren eines Einkaufs](sales-how-invoice-sales.md) und [Neue Produkte erfassen](inventory-how-register-new-items.md).  
 
 Bevor Sie neue Debitoren erfassen können, müssen Sie verschiedene Verkaufscodes einrichten, aus denen Sie auswählen können, wenn Sie Debitorenkarten ausfüllen. Weitere Informationen finden Sie unter [Einrichten von Verkäufen](sales-setup-sales.md).
 
@@ -28,13 +28,13 @@ Bevor Sie neue Debitoren erfassen können, müssen Sie verschiedene Verkaufscode
 >   Wenn es Debitorenvorlagen für verschiedene Debitorenarten gibt, dann erscheint ein Fenster automatisch, wenn Sie eine neue Debitorenkarte erstellen, von der aus Sie eine entsprechende Debitorenvorlage auswählen können. Wenn nur eine Debitorenvorlage vorhanden ist, verwenden neue Debitorenkarten immer diese Vorlage.
 
 ## <a name="to-create-a-new-customer-card"></a>Erstellen Sie eine neue Debitorenkarte
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kunden** ein. Wählen Sie dann den zugehörigen Link aus.  
-2. Wählen Sie im Fenster **Kunden** die Aktion **Neu** aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitor** ein, und wählen dann den zugehörigen Link aus.  
+2. Wählen Sie im Fenster **Debitoren** die Aktion **Neu** aus.
 
     Wenn nur eine Debitorenvorlage vorhanden ist, dann öffnet sich eine neue Debitorenkarte mit den Feldern, die mit Daten aus der Vorlage ausgefüllt werden.
 
     Wenn mehr als eine Debitorenvorlage vorhanden ist, dann öffnet sich ein Fenster mit verfügbaren Debitorenvorlagen automatisch. In diesem Fall, folgen Sie den nächsten zwei Schritten.
-3. Im Fenster **Vorlage für neuen Kunden wählen** wählen Sie die Vorlage, die Sie für die neue Debitorenkarte verwenden möchten.
+3. Im Fenster **Vorlage für neuen Debitoren wählen** wählen Sie die Vorlage, die Sie für die neue Debitorenkarte verwenden möchten.
 4. Wählen Sie die Schaltfläche **OK** aus. Eine neue Debitorenkarte wird geöffnet mit den Feldern, die mit Daten aus der Vorlage ausgefüllt werden.  
 5. Fahren Sie fort, um Felder auf der Debitorenkarte bei Bedarf auszufüllen und zu ändern. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

@@ -8,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/057/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,7 +28,7 @@ Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den
 | --- | --- |
 | Grundeinstellungen wie Unternehmen, Arbeitsdaten und Rollencenter ändern. |[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md) |
 | Finden Sie eine bestimmte Seite oder Bericht. |[Seite oder Bericht suchen verwenden](ui-search.md) |
-| Filtern von Daten in den Ansichten, in Berichten oder in den Funktionen, indem Sie Sonderzeichen und Zeichen verwenden. |[Eingeben von Kriterien in Filtern](ui-enter-criteria-filters.md) |
+| Filtern von Daten in den Ansichten, in Berichten oder in den Funktionen, indem Sie Sonderzeichen und Zeichen verwenden. |[Ermitteln, Filtern und Sortieren von Daten](ui-enter-criteria-filters.md) |
 | Mehr über das Sortieren von Daten erfahren. |[Sortieren von Daten](ui-sorting.md) |
 | Anzeigen oder bearbeiten Sie Daten in bestimmten Zeiträumen. |[Datenbereiche eingeben](ui-enter-date-ranges.md) |
 | Diese Felder müssen ausgefüllt werden. |[Pflichtfelder erkennen](ui-mandatory-fields.md) |
@@ -43,11 +43,15 @@ Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den
 |Erhalten von Informationen über Funktionen und Funktionen, die einfach [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar sind für  Personen mit Behinderungen.|[Eingabehilfe und Tastenkombinationen](ui-accessibility.md)|
 |Überwachungsvideos der ausgewählten Funktionalität, um einfacher zu beginnen.|[Videos in häufigen Aufgaben](across-videos.md)|  
 
+## <a name="getting-around-in-business-central"></a>Navigation in Business Central
+Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
+
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
 [Einrichten von Business Central](setup.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

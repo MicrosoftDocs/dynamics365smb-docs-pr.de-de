@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f84b46027aa04b50de2a8d4573ce4633fd59fcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetails: Ausgehender Lagerfluss
@@ -47,8 +47,6 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 |L|Buchen Sie die Kommissionierung und den Warenausgang aus einem Warenausgangsbeleg|||X|4/5/6|  
 |T|Buchen Sie die Kommissionierung von einem Kommissionierbeleg und buchen Sie den Warenausgang aus einem Warenausgangsbeleg||X|X|4/5/6|  
 
- Weitere Informationen finden Sie unter [Designdetails: Ausgehender Lagerfluss]().  
-
  Die Auswahl eines Ansatzes hängt von den akzeptierten Methoden des Unternehmens und seiner Komplexität ab. In einer Auftrag-für-Auftrag-Umgebung mit einfachen Prozessen und einfacher Lagerplatzstruktur eignet sich Methode A, Kommissionierung und Versand von der Auftragszeile. In anderen Auftrag-für-Auftrag-Unternehmen,, in denen Artikel für einen Auftrag aus mehr als einem Lagerplatz stammen können, oder wo Lagerarbeiter nicht mit Auftragsbelegen arbeiten können, ist die Verwendung separater Kommissionierbelege sinnvoll, Methode B. Wenn der Kommissionier- und Lieferungsprozess eines Unternehmens mehrere Auftragsprozesse und daher mehr Kontrolle erfordert, könnte sich das Unternehmen entscheiden, ein Lagerlieferungsdokument und ein Lagerkommissionierdokument zu verwenden, um die Kommissionierung und die Lieferung voneinander zu trennen, Methoden C und D.  
 
  In den Methoden werden A, B und C werden die Aktionen der Kommissionierung und der Lieferung in einem Schritt zusammengefasst, wenn der entsprechende Beleg als geliefert gebucht wird. In Methode D wird zuerst die Kommissionierung erfasst, dann wird die Lieferung zu einem späteren Zeitpunkt aus einem anderen Beleg gebucht.  
@@ -56,7 +54,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 ## <a name="basic-warehouse-configurations"></a>Grundlegende Lagerhauskonfigurationen  
  Das folgende Diagramm zeigt die ausgehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
- ![Ausgehender Fluss in der grundlegenden Lagerfunktion](media/design_details_warehouse_management_outbound_basic_flow.png "design_details_warehouse_management_outbound_basic_flow")  
+ ![Ausgehender Fluss in der grundlegenden Lagerfunktion](media/design_details_warehouse_management_outbound_basic_flow.png "Ausgehender Fluss in der grundlegenden Lagerfunktion")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Freigeben des Herkunftsbelegs:/Kommissionierung oder Umlagerung erstellen  
  Wenn ein Benutzer, der für Herkunftsbelege zuständig ist, etwa einen Verkaufsauftragsbearbeiter oder ein Produktionsplaner, für die ausgehende Lageraktivität bereit ist, gibt er den Herkunftsbeleg frei, um den Lagermitarbeitern zu signalisieren, dass verkaufte Artikel oder Komponenten kommissioniert und in die angegebenen Lagerplätze eingelagert werden können. Alternativ erstellt der Benutzer im Push-Verfahren Lagerkommissionierungs- oder Umlagerungsdokumente für die einzelnen Auftragszeilen, basierend auf angegebenen Lagerplätzen und zu verarbeitenden Mengen.  
@@ -78,10 +76,10 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 ## <a name="advanced-warehouse-configurations"></a>erweiterte Lagerhauskonfigurationen  
  Das folgende Diagramm zeigt die ausgehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
- ![Ausgehender Fluss in der erweiterten Lagerfunktion](media/design_details_warehouse_management_outbound_advanced_flow.png "design_details_warehouse_management_outbound_advanced_flow")  
+ ![Ausgehender Fluss in der erweiterten Lagerfunktion](media/design_details_warehouse_management_outbound_advanced_flow.png "Ausgehender Fluss in der erweiterten Lagerfunktion")  
 
 ### <a name="1-release-source-document"></a>1: Freigeben des Herkunftsbelegs  
- Wenn ein Benutzer, der für Herkunftsbelege verantwortlich ist, etwa ein Verkaufsauftragsbearbeiter oder ein Produktionsplaner, für eine ausgehende Lageraktivität bereit ist, gibt er den Herkunftsbeleg frei, um den Lagermitarbeitern zu signalisieren, das verkaufte Artikel oder Komponenten kommissioniert und in die angegebenen Lagerplätze eingelagert werden können.  
+ Wenn ein Benutzer, der für Herkunftsbelege verantwortlich ist, etwa ein Verkaufsauftragsbearbeiter oder ein Produktionsplaner, für eine ausgehende Lageraktivität bereit ist, gibt er den Herkunftsbeleg frei, um den Lagermitarbeitern zu signalisieren, das verkaufte Artikel oder Komponenten kommissiooniert und in die angegebenen Lagerplätze eingelagert werden können.  
 
 ### <a name="2-create-outbound-request"></a>2: Eingehende erwartete Lagerbewegung erstellen  
  Wenn der eingehende Herkunftsbeleg freigegeben wird, wird eine ausgehende erwartete Lagerbewegung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden.  

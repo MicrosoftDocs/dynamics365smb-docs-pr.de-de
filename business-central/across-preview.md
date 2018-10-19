@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 06/28/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 50d1429a58b878766c76ed97f65936db78191ee0
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Rufen Sie [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Vorschau auf
@@ -39,7 +39,7 @@ Weitere Informationen erhalten Sie unter [Designer verwenden](https://docs.micro
 
 ### <a name="to-create-a-sandbox-environment"></a>Erstellen Sie eine Sandkastenumgebung
 1.  Melden Sie sich in Ihrer Produktions- oder Vorschauinstanz des [!INCLUDE[d365fin](includes/d365fin_md.md)] an.  
-2.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seiten- oder Berichtsymbol suchen") und geben **Sandkasten-Umgebung** ein und wählen dann den zugehörigen Link aus.
+2.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Sandkasten-Umgebung** ein, und wählen dann den zugehörigen Link aus.
 3.  Wählen Sie **Erstellen** aus. Eine Registerkarte wird geöffnet, in der Sie Ihre Sandbox fertig einrichten können.
 
     > [!Note]

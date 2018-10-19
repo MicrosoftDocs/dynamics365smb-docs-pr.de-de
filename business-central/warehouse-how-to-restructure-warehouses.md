@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1f84075772f4862d762c9bf2179614f357fd4ca0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="restructure-warehouses"></a>Lager umstrukturieren
@@ -29,11 +29,11 @@ Es kann sein, dass Sie Ihr Lager neu strukturieren und dabei neue Lagerplatzcode
 Wenn Ihr Lager so eingerichtet wurde, dass es Lagerplätze verwendet, aber keine gesteuerte Einlagerung und Kommissionierung, strukturieren Sie Ihr Lager neu, indem Sie die neuen Lagerplätze erstellen, die Sie zukünftig verwenden möchten.  
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Um ein Basislager neu zu strukturieren, das nur Lagerplätze verwendet  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
 2.  Setzen Sie im Inforegister **Logistik** das Feld **Vorg.-Lagerplatzauswahl** auf **Zuletzt verwendeter Lagerplatz**.  
 3.  Lagern Sie alle Inhalte Ihrer aktuellen Lagerplätze in die neuen Lagerplätze um, die Sie gerade angelegt haben.  
 
-    1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Artikel Umlag. Buch.-Blatt bearbeiten** ein und wählen den zugehörenden Link aus.  
+    1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Artikel Umlag. Buch.-Blatt** ein, und wählen dann den zugehörigen Link aus.  
     2.  Wählen Sie eine Buch.-Blattzeile aus, und wählen Sie die **Lagerplatzinhalt holen** Aktion aus.  
     3.  Legen Sie im Inforegister **Lagerplatzinhalt** in den Feldern **Lagerortcode**, **Lagerplatzcode** und **Artikelnr.** Filter fest, um den Inhalt anzugeben, den Sie umlagern möchten.  
     4.  Klicken Sie auf die Schaltfläche **OK**, um eine Buch.-Blattzeile zu füllen.  
@@ -48,13 +48,13 @@ Sie haben jetzt die Lagerplätze geleert, an denen die Artikel bisher gelagert w
 1.  Legen Sie die neuen Lagerplätze an, die Sie in Zukunft verwenden möchten. Weitere Informationen finden Sie unter  [Lagerplätze erstellen](warehouse-how-to-create-individual-bins.md).  
 2.  Lagern Sie alle Inhalte Ihrer aktuellen Lagerplätze in die neuen Lagerplätze um, die Sie gerade angelegt haben.  
 
-    1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Logistik Umlagerungs Buch.-Blatt** ein und wählen den zugehörenden Link aus.  
+    1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Umlagerungs Buch.-Blatt** ein, und wählen dann den zugehörigen Link aus.  
     2.  Für die Lagerplätze, bei denen keine tatsächliche Artikelumlagerung stattfindet, erstellen Sie eine Zeile für jeden der aktuellen Lagerplätze im **Logistik Umlagerungs Buch.-Blatt** mit dem alten Lagerplatzcode (**Von Lagerplatzcode**) und dem neuen Lagerplatzcode (**Nach Lagerplatzcode)**.  
     3.  Wenn einige der Umlagerungen tatsächliche physische Umlagerungen beinhalten, die die Lagermitarbeiter durchführen sollen, verwenden Sie den **Lagerplatzumlagerungsvorschlag**, um die Umlagerungsanweisungen vorzubereiten, anstatt das Umlagerungs Buch.-Blatt zu verwenden. Weitere Informationen finden Sie unter [Umlagern von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Wenn die alten Lagerplätze geleert sind, buchen Sie diese als Lagerplätze vom Typ **QK** um, um sicherzustellen, dass sie nicht in den Artikelströmen enthalten sind.  
 
-    1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
+    1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
     2.  Wählen Sie die Zeile mit dem Lagerort aus und wählen Sie dann Aktion **Lagerplätze** aus.  
     3.  Geben Sie im Fenster **Lagerplätze** im Feld **Lagerplatzartencode** für jeden der alten Lagerplätze, die Sie in Schritt 3 des vorherigen Verfahrens geleert haben, **QC** ein.  
 
@@ -62,7 +62,7 @@ Sie haben die Lagerplätze jetzt aus dem Warenfluss entfernt und sie als QC-Lage
 
 ## <a name="to-delete-a-bin"></a>So löschen Sie einen Lagerplatz:  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie den Lagerort aus, an dem Sie Lagerplätze löschen möchten. Wählen Sie die **Lagerplätze** Aktion aus.  
 3.  Wählen Sie die Zeilen für die zu löschenden Lagerplätze aus.  
 4.  Wählen Sie die Aktion **Löschen** aus.  
@@ -73,7 +73,7 @@ Wenn Sie einen Lagerplatz umbenennen möchten, so dass alle Datensätze zu diese
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>So benennen Sie einen Lagerplatz um und ändern den Lagerplatzcode in allen Datensätzen:  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie den Lagerort aus, an dem Sie einen Lagerplatz umbenennen oder für den Sie den Lagerplatzcode ändern möchten, und wählen Sie dann die Aktion **Lagerplätze** aus.  
 3.  Wählen Sie den Lagerplatz aus, den Sie ändern möchten, und geben Sie im Feld **Code** einen neuen Code für den Lagerort ein.  
 4.  Wählen Sie die Schaltfläche **Ja** aus.  

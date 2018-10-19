@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 37d592516807f23d301e78742557e922f41cfb1c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 197a5805d55546bbbff1cffc9a12d7cc91017fcd
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-loaner-program"></a>Einrichten eines Leihgeräteprogramms
-Gelegentlich muss einem Debitor ein Leihgerät zur Verfügung gestellt werden, wenn das Kundendienstteam eine Reparatur durchführt. Mithilfe von [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ein Leihgerätprogramm einrichten, Ihren Debitoren Artikel ausleihen, und die Rückgabe der Artikel verfolgen. Darüber hinaus können Sie Bemerkungen über Leihgeräte in einer von zwei Arten hinzuzufügen:  
+Gelegentlich muss einem Debitor ein Leihgerät zur Verfügung gestellt werden, wenn das Debitorendienstteam eine Reparatur durchführt. Mithilfe von [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ein Leihgerätprogramm einrichten, Ihren Debitoren Artikel ausleihen, und die Rückgabe der Artikel verfolgen. Darüber hinaus können Sie Bemerkungen über Leihgeräte in einer von zwei Arten hinzuzufügen:  
   
 * Hinweis oder Bemerkung zum Leihgerät selbst eingeben  
 * Hinweis zu einem Serviceartikel bezüglich des Bedarfs an einem Leihgerät eingeben  
 
 ## <a name="to-set-up-a-loaner"></a>So richten Sie einen Leihgerät ein  
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Leihgeräte** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus.  
 2. Erstellen Sie eine neue Leihgerätekarte. 
 3. Geben Sie im Feld **Nr.** Feld,  geben Sie eine Nummer für das Leihgerät ein. Wenn Sie Nummernserien für Leihgeräte im Fenster **Service Einrichtung** definiert haben, drücken Sie die EINGABETASTE, damit die nächste verfügbare Leihgerätenummer eingefügt wird.  
 4. Füllen Sie die Felder **Beschreibung**, **Beschreibung 2** und **Seriennr.** aus.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 813af57a2e1de62ce038990116f9cf92f741a78d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetails: Abgleich mit der Finanzbuchhaltung
@@ -84,16 +84,16 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
     1. Die Interimskonten werden gelöscht. (Verkauf)  
     2. Kosten der verkauften Waren (COGS) werden gebucht. (Verkauf)  
 
-        ![Ergebnisse der Veräußerung beim Buchen auf G&#47; L-Konten](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Ergebnisse aus den Verkäufen, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_sales.png "Ergebnisse aus den Verkäufen, die zu GL-Konten gebucht werden")  
 5. Der Benutzer bucht einen Verbrauch von 150 Gliedern, der die Anzahl der Links ist, die verwendet werden, um eine Kette herzustellen. (Materialverbrauch)  
 
-    ![Ergebnisse des Materials beim Buchen auf G&#47; L-Konten](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_sales")  
+    ![Ergebnisse aus den Materialien, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_material.png "Ergebnisse aus den Materialien, die zu GL-Konten gebucht werden")  
 6. Diese Arbeitsplatzgruppe brauchte 60 Minuten, um die Kette herzustellen. Der Benutzer bucht die Verarbeitungskosten. (Verbrauch, Kapazität)  
 
     1. Die direkten Kosten werden gebucht. (Verbrauch, Kapazität)  
     2. Die indirekten Kosten werden berechnet und gebucht. (Verbrauch, Kapazität)  
 
-        ![Ergebnisse der Kapazität beim Buchen auf G&#47; L-Konten](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Ergebnisse aus den Kapazitäten, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_capacity.png "Ergebnisse aus den Kapazitäten, die zu GL-Konten gebucht werden")  
 7. Der Benutzer bucht die Soll-Kosten einer Kette. (Istmeldung)  
 8. Der Benutzer beendet den Fertigungsauftrag und führt die Stapelverarbeitung **Kostenanpassung Artikeleinträge** aus. (Istmeldung)  
 
@@ -102,7 +102,7 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
     3. Die indirekten Kosten (Gemeinkosten) werden vom Konto für indirekte Kosten zum Bestandskonto übertragen. (Istmeldung)  
     4. Dadurch ergibt sich ein Abweichungsbetrag von MW 157,00. Abweichungen werden nur für Standardkosntenartikel berechnet. (Istmeldung)  
 
-        ![Ergebnisse der Ausgabet beim Buchen auf G&#47; L-Konten](media/design_details_inventory_costing_3_gl_posting_output.png "design_details_inventory_costing_3_GL_posting_output")  
+        ![Ergebnisse aus den Ergebnissen, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_output.png "Ergebnisse aus den Ergebnissen, die zu GL-Konten gebucht werden")  
 
         > [!NOTE]  
         >  Der Einfachheit halber wird nur ein Abweichungskonto angezeigt. Real existieren fünf verschiedene Konten:  
@@ -115,7 +115,7 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
 
 9. Der Benutzer bewertet die Kette um von MW 150,00 auf MW 140,00. (Regulierung/Neubewertung/Rundung/Umlagerung)  
 
-    ![Ergebnisse der Anpassung beim Buchen auf G&#47; L-Konten](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
+    ![Ergebnisse aus den Anpassungen, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Ergebnisse aus den Anpassungen, die zu GL-Konten gebucht werden")  
 
 Weitere Informationen über das Verhältnis zwischen den Kontotypen und den verschiedenen Arten von Wertposten finden Sie unter [Designdetails. Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4598d059d40e231de0230b43fe7863759005db70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>So kopieren Sie Daten in neue Mandanten.
@@ -24,7 +24,7 @@ Sie können häufig verwendete Werte aus einem vorhandenen Mandanten in einen ne
 
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>So kopieren Sie mit RapidStart Services Daten in einen neuen Mandanten.  
 1. Öffnen des neuen Mandanten  
-2. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Konfigurations-Arbeitsblatt** ein. Wählen Sie dann den zugehörigen Link aus.  
+2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
 3. Wählen Sie **Daten von Mandanten kopieren**.  
 4. Wählen Sie im Fenster **Mandantendaten kopieren** einen Mandanten aus, um aus dem Feld **Kopieren von** zu kopieren und wählen Sie dann die Schaltfläche **OK** aus.  
 5. Wählen Sie eine Tabelle in einem der Konfigurationspakete aus, die Sie importiert haben, und wählen Sie in der Registerkarte Start in der Gruppe Vorgang die Option **Daten kopieren** aus.

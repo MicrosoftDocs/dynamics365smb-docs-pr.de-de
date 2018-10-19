@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a7918a962f3349c68cd7245e9b12f83975aee5ac
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9092100816c58fe2882c61214a5008e27591d4f5
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-away-production-or-assembly-output"></a>Einlagerung der fertiggestellten Produktion oder Montage
@@ -29,14 +29,14 @@ Wenn für Ihren Lagerort in den Basis-Lagerkonfigurationen die Bearbeitung der E
 Der erste Schritt zum Erstellen der Einlagerung ist das Erstellen der Lagereinlagerungsanforderung. Diese Anforderung informiert das Lager, dass die Fertigprodukte aus der Produktion oder der Montage des Fertigungsauftrags zur Einlagerung bereit sind.
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>So erstellen Sie die Lagereinlagerungsanforderung:  
-1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Freigegebener FA** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Freigegebener FA** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie im Fertigungsauftrag, der für die Einlagerungen bereitsteht, die Aktion **Eingehende Lageranf. erstellen** aus.  
 
 > [!NOTE]  
 >  Sie können die Einlagerungsanforderung auch erstellen, indem Sie das Kontrollkästchen **Lagereinlag.-Anford. erstellen** aktivieren, wenn Sie den Fertigungsauftrag aktualisieren. Weitere Informationen finden Sie unter [Aktualisieren oder ersetzen von Produktionsaufträgen.](production-how-to-replan-refresh-production-orders.md)  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>So lagern Sie Ausstoß mit einer Lagereinlagerung ein:  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Einlagerung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagereinlagerung** ein, und wählen dann den zugehörigen Link aus.  
 2.  Erstellen Sie eine neue Lagereinlagerung. Weitere Informationen finden Sie unter [Artikel mit Lagereinlagerungen einlagern](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Um zu den Fertigungsaufträgen zu gelangen, wählen Sie die Aktion **Herkunftsbeleg holen** aus, und wählen Sie den freigegebenen Fertigungsauftrag aus.  
 4.  Füllen Sie die Einlagerungszeilen entsprechend aus.
@@ -49,7 +49,7 @@ Wenn Sie eine Lagereinlagerung buchen, wird davon ausgegangen, dass alle Arbeits
 Wenn Sie nur die Bereitstellungszeit oder die Prozesszeit für den letzten Arbeitsgang buchen, dann legen Sie die fertig gestellte Menge für den letzten Arbeitsgang auf 0. Alternativ können Sie auswählen, die letzte Zeile auch gar nicht zu buchen, indem Sie sie einfach löschen  
 
 ## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>So lagern Sie Fertigerzeugnisse mithilfe der internen Einlagerungsanforderung ein:
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Interne Kommiss.-Anforderung** ein und wählen den zugehörenden Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Interne Einlag.-Anforderung** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie den Kopfbereich einer neuen internen Einlagerungsanforderung mindestens mit dem **Lagerortcode** aus.  
 4. Tragen Sie für jeden Artikel, den Sie ins Lager einlagern möchten, eine Zeile ein. Sie müssen nur die Felder **Artikelnr.** und **Menge** ausfüllen.  
@@ -64,7 +64,7 @@ Wenn Sie nur die Bereitstellungszeit oder die Prozesszeit für den letzten Arbei
 >  Wenn Ihr Lagerort so eingerichtet wurde, dass er die gesteuerte Einlagerung und Kommissionierung verwendet, ist das Lager über die Vorgabelagerplätze der Produktion mit der Produktionsstätte verbunden: die Lagerplätze für die Fertigungsbereitstellung, den Fertigungsausgang sowie die offene Fertigungsbereitstellung, die Sie auf der Lagerortkarte im Inforegister **Lagerplätze** festlegen. Wenn Sie die Istmeldung eines Fertigungsauftrags buchen, werden die Fertigerzeugnisse automatisch in den **Fertigungsausgangslagerplatz** eingelagert. Sie gehen genauso vor, wie oben beschrieben, um die Fertigerzeugnisse einzulagern, außer dass Sie, anstatt den Vorgabelagerplatz des Artikels zu verwenden, die Artikel aus dem **Fertigungsausgangslagerplatz** in den Vorgabelagerplatz des Artikels umlagern oder einlagern.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Um manuell einen Lagerplatz festzulegen, in dem fertiggestellte Artikel aus der Produktion eingelagert werden sollen  
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplatzumlagerungsvorschlag** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagerplatzumlagerungsvorschlag** ein, und wählen dann den zugehörigen Link aus.  
 2.  Füllen Sie den Kopf aus, und erstellen Sie eine Zeile für jeden Artikel, den Sie im Lager einlagern möchten.  
 3.  Füllen Sie die beiden Felder **Von Lagerplatzcode** und **Nach Lagerplatzcode** aus und geben Sie die Menge in das Feld **Menge** ein.  
 4.  Um die Vorschlagszeilen mit dem gesamten oder dem gefilterten Lagerplatzinhalt der Lagerplätze des Lagerorts zu füllen, wählen Sie die Aktion **Lagerplatzinhalt abrufen** aus.  

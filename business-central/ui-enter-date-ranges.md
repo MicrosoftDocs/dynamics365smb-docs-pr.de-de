@@ -1,6 +1,6 @@
 ---
-title: "Einstellungsgültigkeiten in Business Central  | Microsoft Docs"
-description: "Erhalten von Informationen zum Anzeigen von Daten aus bestimmten Zeiträumen mithilfe von Business Central"
+title: Eingeben von Datumsangaben und Uhrzeiten in Business Central  | Microsoft Docs
+description: "Erfahren Sie, wie Sie Datumsangaben und Uhrzeiten einschließlich verschiedener Produktivitätstipps wie Stenografie, Ausdrücke und Bereiche eingegeben. Filtern Sie Listen oder Berichte bis zu einem bestimmten Datum oder zu Zeiträumen."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,101 +8,347 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: dates, reporting, filter
-ms.date: 07/05/2018
-ms.author: edupont
+ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
+ms.date: 10/01/2018
+ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: ff63ae71a78f956dddb7b5247ee66f9416cf7cf1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8717d60a8449ca300eaf9c1a5c4b137ea1a1a247
 ms.contentlocale: de-de
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="entering-date-ranges"></a>Datenbereiche eingeben
-Sie können Filter mit einem Start- und Enddatum setzen, sodass lediglich die Daten angezeigt werden, die innerhalb eines bestimmten Datumsbereichs oder Zeitintervalls liegen. Für das Festlegen von Datumsbereichen gelten besondere Regeln. Als Beispiel nehmen wir die **Top 10 Debitoren**.
 
-![Einen Datumsbereich auf der Anforderungsseite der Top 10 Debitorenliste festlegen](./media/ui-enter-date-ranges/customer-top10-list.png)
+# <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
+[!INCLUDE[d365fin](includes/d365fin_long_md.md)] bietet mehrere Möglichkeiten, Datumsangaben und Uhrzeiten einzugeben, einschließlich leistungsstarker Funktionen, die die Dateneingabe beschleunigen oder Ihnen helfen, komplexe Kalenderausdrücke zu schreiben. Es gibt verschiedene Bereiche in der Anwendung, in denen Sie Daten und Uhrzeiten in die Felder eingeben können. So können Sie beispielsweise das Warenausgangsdatum für einen Auftrag festlegen. Wenn Sie Listen oder Berichtsdaten filtern, können Sie Datumswerten und Uhrzeiten eingeben, um genau die Daten zu finden, an denen Sie interessiert sind.
 
-Hier können Sie den Bericht auf eine Gültigkeit wie den letzten 2 Wochen oder insgesamt 6 Wochen oder einen beliebigen Bereich einschränken. Um eine Gültigkeit festzulegen, geben Sie Daten ein und verwenden anschließend **..** oder **|**, um den Bereich zu ändern. Im vorliegenden Beispiel müssen Sie, um die ersten zwei Wochen des Mai für die Top 10 Debitoren anzuzeigen, den Datumsfilter auf *05 01 17..05 14 17* setzen.
-Hier finden Sie einige andere Beispiele:
+## <a name="check-your-region-and-language-settings"></a>Überprüfen Ihrer Bereichs- und Spracheneinstellungen
+Die Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Direkt zur Benutzereinstellungsseite in Business Central zurückkehren") gibt die **Region** und die **Sprache** an, die Sie in der Anwendung verwenden. Diese Einstellungen beeinflussen, wie Sie Datumswerte und Uhrzeiten eingeben. 
 
-| Bedeutung | Beispiel | Enthaltene Posten |
-|---|---|---|
-|Ist gleich| 12 15 16 |Nur jene, die am 15. Deuzember 2016 gebucht wurden.|
-|Intervall| 12 15 16..01 15 17<br /><br />..12 15 16|Jene, die zwischen dem 15. Dezember 2016 und dem 15. Januar 2017 (einschließlich) gebucht wurden.<br /><br />Jene, die bis zum 15. Dezember 2016 oder früher gebucht wurden.|
-|Entweder/oder|12 15 16&#124;12 16 16|Entweder am 15. Dezember oder am 16. Dezember 2016 gebucht. Falls es Posten gibt, die an einem der beiden Tage gebucht wurden, werden diese angezeigt.|
+-   Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.
 
-Sie können auch die verschiedenen Formattypen miteinander kombinieren.
-
-| Beispiel | Enthaltene Posten |
-|---|---|
-|12 15 16&#124;12 01 16..05 31 17 | Posten, die am 15. Dezember 2016 oder zwischen dem 01. Dezember 2016 und 31. Mai 2017 (einschließlich) gebucht wurden. |
-|..12 14 16&#124;12 30 16.. | Posten, die bis einschließlich zum 14. Dezember oder am bzw. nach dem 30. Dezember gebucht wurden. Mit diesem Filter können Sie alle Posten ausschließen, die zwischen den beiden angegebenen Tagen gebucht wurden. |
-
-Beachten Sie, dass wir das US-Datumsformat MMDDYY hier verwendet haben. [!INCLUDE[d365fin](includes/d365fin_md.md)] wird verfügbar in anderen Märkten, Sie haben die Möglichkeit, die Formaten zu verwenden, die möchten.
-
-## <a name="using-date-formulas"></a>Verwenden von Datumsformeln
-Bei einer Datumsformel handelt es sich um eine verkürzte Kombination aus Buchstaben und Zahlen, die zum Berechnen von Datumswerten verwendet wird. Datumsformeln können in verschiedenen Datumsberechnungsfeldern sowie in Felder vom Typ "Wiederholungsrate" (in wiederkehrenden Buch.-Blättern) eingeben werden.
+-   Bei Datumsmustern, die Begriffe enthalten, muss die Sprache der Begriffe, die Sie verwenden, der **Sprache**-Einstellung entsprechen.
 
 > [!NOTE]
->  In allen Formelfeldern wird automatisch ein Tag aufgenommen, um den heutigen Tag als den Tag abzudecken, an dem die Periode beginnt. Wenn Sie beispielsweise **1W** eingeben, ist der Zeitraum tatsächlich acht Tage, da der aktuelle Tag (heute) eingeschlossen ist. Wenn Sie einen Zeitraum von sieben Tagen (genau eine Woche) angeben möchten, in der das Startdatum eingeschlossen ist, müssen Sie **6D** oder **1W\-1D** eingeben.
+> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verwendet das gregorianische Kalendersystem.
+
+<!-- 
+The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
+-->
+## <a name="entering-dates"></a>Eingeben von Datumswerten
+In einem Datumsfeld können Sie unter Verwendung des Standardformats ein Datum für Ihre Bereichseinstellung eingeben. Verschiedene Regionen können verschiedene Trennzeichen zwischen Tagen, Monaten und Jahren verwenden. Beispielsweise werden in einigen Regionen Bindestriche verwendet (mm-tt-jjjj) und in anderen werden Schrägstriche verwenden (mm/tt/jjjj). Sie können allerdings sämtliche Trennzeichen verwenden, sogar einen Leerzeichen, und das Datum wird automatisch zu den Trennzeichen geändert, die Ihrer Region entsprechen.
+
+Beachten Sie, dass, das Format, in dem Datumswerte in gedruckten Berichten oder per E-Mail gesendeten Dokumenten von Ihrer persönlichen Regionseinstellung nicht beeinflusst wird.
+
+Um produktiver mit Datumswerten und Uhrzeiten zu arbeiten, können Sie alle Methoden oder Formate verwenden, die in den folgenden Abschnitten beschrieben werden. 
+
+### <a name="picking-dates-from-the-calendar"></a>Datumsangaben aus dem Kalender auswählen
+Alle Felder, die ein Kalendersymbol anzeigen, können mithilfe der Kalendertagauswahl festgelegt werden. Um die Kalendertagauswahl anzuzeigen, aktivieren Sie das Kalendersymbol oder drücken Sie die Tastenkombination STRG+POS1 im Feld.
+
+![Datumsfelder](media/ui-date-field.png "Beispiel eines Datumsfeldes")
+
+Weitere Informationen unter [Tastenkombinationen in der Kalenderdatumsauswahl](keyboard-shortcuts.md#calendarshortcuts)
+
+### <a name="today"></a>Heute
+Geben Sie das Wort für `today` in der Sprache ein, die von der **Sprach**-Einstellung festgelegt wird. Dadurch wird das Datum auf das aktuelle Datum festgelegt. Anstatt den gesamten Begriff einzugeben, können Sie einen Teil des Begriffs eingeben. Beginnen Sie mit `t` oder `tod`, sofern dies nicht auch der Beginn eines anderen Begriffs ist.
+
+### <a name="day-week-year-pattern"></a>Tag\-Woche\-Jahr-Muster
+Sie können ein Datum als Wochentag gefolgt von einer Wochennummer und optional einem Jahr eingeben. Beispielsweise bedeutet `Mon25` oder `mon25` Montag in der 25. Woche Wenn Sie kein Jahr eingeben, wird das Jahr des Arbeitsdatums verwendet.
+
+Anstatt das gesamte Wort für den Wochentag einzugeben, können Sie vom Anfang an einen Teil des Begriffs eingeben. Bei Konflikten (wie bei `s` für Samstag oder Sonntag) werden die Tage entsprechend der Bereichseinstellung ausgewertet. Die Eingabe wird zuerst nach `workdate` auch `today` ausgewertet, beachten Sie dies bei der Abkürzung. Beispielsweise bedeutet `t` heute, daher kann es nicht "Dienstag" oder "Donnerstag" bedeuten.
+
+Das Kalenderwocheschema folgt immer ISO 8601. Dabei ist Woche 1, in die der 4. Januar fällt, oder die Woche mit dem ersten Donnerstag des Jahres.
+
+### <a name="digit-patterns"></a>Ziffernmuster
+In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingegeben werden:
+
+-   Wenn Sie nur zwei Ziffern eingeben, wird dies als Tagesangabe interpretiert, es gilt also der Monat und das Jahr des Arbeitsdatums.
+
+-   Wenn Sie vier Ziffern eingeben, wird dies als Tages- und Monatsangabe interpretiert, es gilt also das Jahr des Arbeitsdatums. Die Reihenfolge von Tag und Monat wird durch Ihre Regionseinstellungen bestimmt. Selbst wenn Ihre Regionseinstellungen das Jahr vor den Tag und Monat stellen, werden vier Ziffern als Tag und Monat interpretiert.
+
+-   Wenn Sie ein Datum zwischen dem 01.01.1930 und dem 31.12.2029 eingeben wollen, können Sie das Jahr zweistellig eingeben; ansonsten muss das Jahr vierstellig angegeben werden.
+
+### <a name="current-work-date"></a>Aktuelles Arbeitsdatum
+Die Arbeitsdatumsfunktion ermöglicht es Ihnen Übergänge mithilfe eines Datums aufzuzeichnen, das sich vom aktuellen Datum unterscheidet.
+
+Das für Wort "Arbeitsdatum" in der Sprache, die in der **Spracheinstellung** festgelegt ist, legt das Datum auf das aktuell festgelegte Arbeitsdatum fest, das auf der Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Direkt zur Benutzereinstellungsseite in Business Central") angegeben ist. Anstatt das gesamte Wort einzugeben, können Sie vom Anfang an einen Teil des Begriffs eingeben, z. B. 'A' oder 'Arbeit'.
+
+Wenn Sie kein Arbeitsdatum definiert haben, wird das aktuelle Datum als Arbeitsdatum verwendet. Die Verwendung des Arbeitsdatums ist hilfreich, wenn eine Vielzahl von Transaktionen zu einem Datum ausgeführt werden müssen, das vom Systemdatum abweicht.
+
+Weitere Informationen finden Sie unter [Ändern von grundlegenden Einstellungen, wie dem Arbeitsdatum](ui-change-basic-settings.md#work-date).
+
+### <a name="closing-date"></a>Ultimodatum
+Wenn Sie ein Geschäftsjahr abschließen, können Sie mithilfe des Ultimodatums angeben, dass es sich bei einem Posten um einen Abschlussposten handelt. Technisch gesehen liegt ein Ultimodatum zwischen zwei Datumswerten, beispielsweise zwischen dem 31. Dezember und dem 1. Januar.
+
+Setzen Sie ein `C` vor eine Datumsangabe, um anzugeben, dass es sich bei diesem Datum um ein Ultimodatum handelt, z. B. `C123101`. Dies kann in Verbindung mit allen Datumsmustern verwendet werden.
+
+### <a name="examples"></a>Beispiele
+Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Formate verwenden. Es nimmt Regionseinstellungen an, die Datumsangaben laut **year.month.day.** festlegen; eine Woche, die mit Montag beginnt und die englische Sprache.
+
+|**Eingabe**      |**Interpretation**      |
+|---------------|------------------------|
+|`2018.12.31.`|2018.12.31.|
+|`181231`|2018.12.31.|
+|`18.12.31.`|2018.12.31.|
+|`18.12.31.`|2018.12.31.|
+|`20181231`|2018.12.31.|
+|`18/12,31`|2018.12.31.|
+|`11`|Arbeitsdatum Jahr.Arbeitsdatum Monat.11|
+|`1112`|Arbeitsdatum Jahr.11.12.|
+|`t` oder `today`|heutiges Datum|
+|`w` oder `workdate`|das Arbeitsdatum|
+|`m` oder `Monday`|Montag der Woche des Arbeitsdatums|
+|`tu` oder `Tuesday`|Dienstag der Woche des Arbeitsdatums|
+|`sa` oder `Saturday`|Samstag der Woche des Arbeitsdatums|
+|`s` oder `Sunday`|Sonntag der Woche des Arbeitsdatums|
+|`t23`|Dienstag von Woche 23 des Arbeitsjahres|
+|`t 23`|Dienstag von Woche 23 des Arbeitsjahres|
+|`t-1`|Dienstag von Woche 1 des Arbeitsjahres|
+
+##  <a name="BKMK_SettingDateRanges"></a> Festlegen von Breichen
+In Listen, Summen und Berichten können Sie Filter für Datumsangaben, Uhrzeiten, Datums-/Uhrzeitangaben einrichten, die einen Startwert und optional einen Endwert haben, um nur die Datumsangaben anzuzeigen, die in diesem Bereich enthalten sind. Die Standardregeln gelten für die Methode, auf die Sie Datumsbereiche festlegen.
+
+|**Bedeutung**|**Beispielausdruck (Datum)**|**Im Filter enthaltene Daten**|
+|-----------|---------------------|--------------------|
+|Intervall|`12 15 00..01 15 01`  \n`..12 15 00`|Datensätze mit Datumsangaben zwischen und einschließlich dem 15.12.00 und dem 15.01.01.  \nDatensätze mit Datumsangaben vom 12 15 00 oder früher.|
+|Entweder/oder|`12 15 00|12 16 00`|Datensätze mit den Datumsangaben 12 15 00 oder 12 16 00. Wenn es sowohl Datensätze mit Datumsangaben für beide Tage gibt, werden alle angezeigt.|
+|Kombination|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Datensätze mit Datumsangaben vom 15.12.00 oder zwischen dem 01.12.00 und dem 10.12.00 einschließlich.  \nDatensätze mit einem Datum von 14.12.00 oder früher, oder mit einem Datum von 30.12.00 und später, d. h. alle Datensätze außer solchen mit Datumsangaben zwischen dem 15.12.00 und dem 29.12.00 (jeweils einschließlich).|
+
+Sie können jedes der gültigen Formate in den Datumsbereichsfiltern verwenden. Beispielsweise ergibt `mon14 3..t 4p` bei einem Datums-/Zeitangabenfeld einen Filter von 3 Uhr morgens am Montag in der Woche 14 des Jahr des aktuellen Arbeitsdatums bis heute um 4 Uhr nachmittags.
+
+
+## <a name="using-date-formulas"></a>Verwenden von Datumsformeln
+Bei einer Datumsformel handelt es sich um eine verkürzte Kombination aus Buchstaben und Zahlen, die zum Berechnen von Datumswerten verwendet wird. Sie können Datumsformeln in verschiedenen Datumsberechnungsfeldern oder -filtern eingeben.
+
+> [!NOTE]
+>  In allen Formelfeldern wird automatisch ein Tag aufgenommen, um den heutigen Tag als den Tag abzudecken, an dem die Periode beginnt. Wenn Sie beispielsweise `1W` eingeben, ist der Zeitraum tatsächlich acht Tage, da der aktuelle Tag (heute) eingeschlossen ist. Um eine Periode von sieben Tagen \(tatsächlich eine Woche\) einschließlich des Periodenstartdatums anzugeben, müssen Sie `6D` oder `1W-1D` eingeben.
 
 Nachfolgend finden Sie einige Verwendungsbeispiele für Datumsformeln:
 
 -   In wiederkehrenden Buch.-Blättern wird anhand der Datumsformel im Feld "Wiederholungsrate" bestimmt, wie oft der Posten in der Buch.-Blattzeile gebucht werden soll.
 
--   Das Datumsformat im Feld **Frist** für eine bestimmte Erinnerungsstufe bestimmt den Zeitraum, der ab dem Fälligkeitsdatum (oder dem Fälligkeitsdatum der vorherigen Erinnerung) verstreichen muss, bevor eine Erinnerung erstellt wird.
+-   Anhand der Datumsformel im Feld **Toleranzperiode** für eine Mahnstufe wird die Zeit bestimmt, die vom Fälligkeitsdatum \(oder vom Datum der letzten Mahnung\) an vergehen muss, bevor eine Mahnung erstellt wird.
 
 -   Das Datumsformat im Feld **Berechnung des Fälligkeitsdatums** bestimmt, wie das Fälligkeitsdatum auf der Erinnerung berechnet wird.
 
-Die Datumsberechnungsformel kann maximal 20 Zeichen (Buchstaben und Zahlen) enthalten. Für die Berechnungszeiträume können die folgenden Abkürzungen verwendet werden.
+Die Datumsformel kann maximal 20 Zeichen (Buchstaben und Zahlen) enthalten. Für die Kalendereinheiten können die folgenden Abkürzungen verwendet werden:
 
-|  Brief  |  Zeitspezifikationen  |
+|  Brief  |  Bedeutung  |
 |----------|----------------------|
-|U|Aktuell|
-|T|Tag\(e\)|
-|W|Woche\(n\)|
-|M|Monat\(e\)|
-|Q|Quartal\(e\)|
-|J|Jahr\(e\)|
+|`C`|Aktuell|
+|`D`|Tag\(e\)|
+|`W`|Woche\(n\)|
+|`M`|Monat\(e\)|
+|`Q`|Quartal\(e\)|
+|`Y`|Jahr\(e\)|
 
 Datumsformeln können auf drei Arten erstellt werden.
 
-Im folgenden Beispiel wird veranschaulicht, wie Sie **C**, für aktuell und eine Zeiteinheit verwenden.
+Im folgenden Beispiel wird veranschaulicht, wie Sie `C`, für aktuell und eine Zeiteinheit verwenden.
 
 |  Ausdruck  |  Bedeutung  |
 |--------------|-----------|
-|LW|Laufende Woche|
-|LM|Laufender Monat|
+|`CW`|Laufende Woche|
+|`CM`|Laufender Monat|
 
 Im folgenden Beispiel wird veranschaulicht, wie Sie eine Zahl und eine Zeiteinheit verwenden. Eine Zahl darf nicht größer sein als 9999.
 
 |  Ausdruck  |  Bedeutung  |
 |--------------|-----------|
-|10T|10 Tage ab heute|
-|2W|2 Wochen ab heute|
+|`10D`|10 Tage ab heute|
+|`2W`|2 Wochen ab heute|
 
 Im folgenden Beispiel wird veranschaulicht, wie Sie eine Zeiteinheit und eine Zahl verwenden.
 
 |  Ausdruck  |  Bedeutung  |
 |--------------|-----------|
-|T10|Der nächste 10. eines Monats|
-|WT4|Der nächste 4. einer Woche \(Donnerstag\)|
+|`D10`|Der nächste 10. eines Monats|
+|`WD4`|Der nächste 4. einer Woche \(Donnerstag\)|
 
 Das folgende Beispiel zeigt, wie Sie diese drei Formulare nach Bedarf kombinieren können.
 
 |  Ausdruck  |  Bedeutung  |
 |--------------|-----------|
-|CM\+10D|Aktueller Monat\+ 10 Tage|
+|`CM+10D`|Aktueller Monat\+ 10 Tage|
 
 Das folgende Beispiel zeigt, wie Sie ein Minuszeichen verwenden können, um anzugeben, dass es sich um ein Datum in der Vergangenheit handelt.
 
 |  Ausdruck  |  Bedeutung  |
 |--------------|-----------|
-|-1J|Heute vor einem Jahr|
+|`-1Y`|Heute vor einem Jahr|
 
 > [!IMPORTANT]
->  Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit**, entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht **1W** sieben Arbeitstagen.
+>  Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit**, entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht `1W` sieben Arbeitstagen.
+<!--
+# Entering Date Ranges
+You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
+
+![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+
+Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
+Here are a couple of other examples:
+
+| Meaning | Example | Entries included |
+|---|---|---|
+|Equal to| 12 15 16 |Only those posted on December 15 2016.|
+|Interval| 12 15 16..01 15 17<br /><br />..12 15 16|Those posted on dates between and including December 15 2016 and January 15 2017.<br /><br />Those posted on December 15 2016 or earlier.|
+|Either/or|12 15 16&#124;12 16 16|Those posted on either December 15 or December 16 2016. If there are entries posted on both days, they will all be displayed.|
+
+You can also combine the various format types.
+
+| Example | Entries included |
+|---|---|
+|12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
+|..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
+
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+
+## Using Date Formulas
+A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
+
+> [!NOTE]
+>  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
+
+Here are some examples of how date formulas can be used:
+
+-   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
+
+-   The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
+
+-   The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
+
+The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.
+
+|  Letter  |  Time specification  |
+|----------|----------------------|
+|C|Current|
+|D|Day\(s\)|
+|W|Week\(s\)|
+|M|Month\(s\)|
+|Q|Quarter\(s\)|
+|Y|Year\(s\)|
+
+You can construct a date formula in three ways.
+
+The following example shows how to use **C**, for current, and a time unit.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|CW|Current week|
+|CM|Current month|
+
+The following example shows how to use a number and a time unit. A number cannot be larger than 9999.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|10D|10 days from today|
+|2W|2 weeks from today|
+
+The following example shows how to use a time unit and a number.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|D10|The next 10th day of a month|
+|WD4|The next 4th day of a week \(Thursday\)|
+
+The following example shows how you can combine these three forms as needed.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|CM\+10D|Current month \+ 10 days|
+
+The following example shows how you can use a minus sign to indicate a date in the past.
+
+|  Expression  |  Meaning  |
+|--------------|-----------|
+|-1Y|1 year ago from today|
+
+> [!IMPORTANT]
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
+
+-->
+
+## <a name="entering-times"></a>Eingeben von Uhrzeiten
+Beim der Eingabe von Uhrzeiten können Sie alle Trennzeichen außer Leerzeichen einfügen, die zwischen den Einheiten angegeben werden sollen. Bei der Verwendung von zweistelligen Zahlen für jede Einheit bis zu MilliseDebitoren ist dies nicht erforderlich.
+
+Sie müssen lediglich die größten Einheiten schreiben, die Sie benötigen; der Rest wird auf null gesetzt. Sie können auch alle Tageszeitangaben (AM/PM) auslassen.
+
+In der folgenden Tabelle finden Sie eine Übersicht über die Möglichkeiten zum Angeben von Uhrzeiten sowie die Interpretation der jeweiligen Angabe. Es werden Regionseinstellungen angenommen, mit der die Uhrzeit wie folgt formatiert wird: **Stunden:Minuten: SeDebitoren:MilliseDebitoren.** und verwenden die jeweiligen Tageszeitangaben (AM/PM).
+
+|**Eingabe**      |**Interpretation**      |
+|---------------|------------------------|
+|`05:23:17`|05:23:17|
+|`5`|05:00:00|
+|`5AM`|05:00:00|
+|`5P`|17:00:00|
+|`12`|12:00:00|
+|`12A`|00:00:00|
+|`12P`|12:00:00|
+|`17`|17:00:00|
+|`5:30`|05:30:00|
+|`0530`|05:30:00|
+|`5:30:5`|05:30:05|
+|`053005`|05:30:05|
+|`5:30:5,50`|05:30:05,5|
+|`053005050`|05:30:05.05|
+
+Beachten Sie, dass MilliseDebitoren in Dezimalnotation angegeben werden. `3`, `30` und `300` bedeuten beispielsweise alle 300 MilliseDebitoren, während `03` `30` und `003` zum 3 MilliseDebitoren bedeuten.
+
+Sie können `24:00` nicht verwenden, um Mitternacht anzugeben oder einen Wert angeben, der größer als 24:00 ist.
+
+Das für Wort für "Zeit" in der Sprache, die von [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verwendet wird, wird in die aktuelle Uhrzeit auf Ihrem Computer oder mobilen Gerät umgerechnet. Sie können vom Anfang einem Teil des Begriffs eingeben, z. B. `t` oder `TIM`.
+
+## <a name="entering-combined-dates-and-times"></a>Eingeben kombinierter Datums- und Zeitangaben
+Wenn Sie Datums-/Uhrzeitangaben eingeben, die aus einem kombinierten Datum und einer Uhrzeit in einem Feld bestehen, müssen Sie ein Leerzeichen zwischen dem Datum und der Uhrzeit eingeben. Der Datumsteil kann nur Stellen in Form von den offiziellen Datumstrennzeichen Ihrer Regionseinstellung enthalten. Die Uhrzeit kann Stellen um die AM/AM-Angabe enthalten.
+
+Sie können auch nur ein Datum in einem Datums-/Uhrzeitangabefeld eingeben, aber Sie können nicht bloß eine Uhrzeit angeben.
+
+Die folgende Tabelle führt einige Beispiele von Datum-/Uhrzeitkombinationen auf. Die Regionseinstellungen in den Beispielen zeigen Datumsangaben im Tag\-Monat\-Jahr-Format mit den AM/PM-Angaben, der englischen Sprache und Sonntag als Start der Woche an.
+
+|**Eingabe**      |**Interpretation**      |
+|---------------|------------------------|
+|`08-01-2016 05:48:12 PM`|08\-01\-2016 05:48:12 PM|
+|`131202 132455`|13\-12\-2002 13:24:55|
+|`1-12-02 10`|01\-12\-2002 10:00:00|
+|`1.12.02 5`|01\-12\-2002 05:00:00|
+|`1.12.02`|01\-12\-2002 00:00:00|
+|`11 12`|11\-Arbeitsdatum Monat\-Arbeitsdatum Jahr 12:00:00|
+|`1112 12`|11\-12\-Arbeitsdatum Jahr 12:00:00|
+|`t` oder `today`|heutiges Datum 00:00:00|
+|`t 10:30`|heutiges Datum 10:30:00|
+|`t 3:3:3`|heutiges Datum 03:03:03|
+|`w` oder `workdate`|das Arbeitsdatum 00:00:00|
+|`m` oder `Monday`|Montag der Woche des Arbeitsdatums 00:00:00|
+|`tu` oder `Tuesday`|Dienstag der Woche des Arbeitsdatums 00:00:00|
+|`sa` oder `Saturday`|Samstag der Woche des Arbeitsdatums 00:00:00|
+|`s` oder `Sunday`|Sonntag der Woche des Arbeitsdatums 00:00:00|
+|`tu 10:30`|Dienstag der Woche des Arbeitsdatums 10:30:00|
+|`tu 3:3:3`|Dienstag der Woche des Arbeitsdatums 03:03:03|
+|`t23 t`|Dienstag der Woche 23 des Jahres des Arbeitsdatums, aktuelle Uhrzeit|
+|`t23`|Dienstag von Woche 23 des Arbeitsjahres|
+|`t 23`|Heute 23:00:00|
+|`t-1`|Dienstag von Woche 1 des Arbeitsjahres|
+
+## <a name="entering-duration"></a>Eingeben von Terminen
+Einige Felder in der Anwendung stellen eine Dauer oder Betrag der verstrichenen Uhrzeit, anstatt einer bestimmten Datums- oder Uhrzeitangabe dar. Zeiträume können als Zahl gefolgt von der entsprechenden Einheit eingegeben werden.
+
+Hier folgen einige Beispiele.
+
+|**Termine**|**Einheit**|
+|------------|-------------------|
+|`2h`|2 Stunden|
+|`6h 30 m`|6 Stunden 30 Minuten|
+|`6.5h`|6 Stunden 30 Minuten|
+|`90m`|1 Stunde 30 Minuten|
+|`2d 6h 30m`|2 Tage 6 Stunden 30 Minuten|
+|`2d 6h 30m 56s 600ms`|2 Tage 6 Stunden 30 Minuten 56 SeDebitoren 600 MilliseDebitoren|
+
+Sie haben auch die Möglichkeit, eine Zahl einzugeben, die automatisch in einen Zeitraum umgewandelt wird. Die eingegebene Zahl wird entsprechend der Standardeinheit konvertiert, die im Feld "Dauer" definiert ist.
+
+Geben Sie zum Ermitteln der Einheit, die für ein Feld vom Typ "Dauer" verwendet wird, eine Zahl ein. Am Ergebnis können Sie ablesen, in welche Einheit diese konvertiert wird.
+
+Wenn die Maßeinheit beispielsweise Stunden ist, wird die Zahl `5` in 5 h konvertiert.
+
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  

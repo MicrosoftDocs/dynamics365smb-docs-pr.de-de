@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f005baaeed8a3469258db5f2cde594291b384ba2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändern von Planungsvorschlägen in einer grafischen Ansicht
@@ -37,7 +37,7 @@ Wenn Sie **Änderungen speichern** im Fenster **Artikelverfügbarkeit nach Zeita
 Der folgende Ablauf zeigt, wie Vorratsvorschläge mit Drag & Drop geändert werden können. Alternativ können Sie die Felder **Fälligkeitsdatum** und **Menge** im Inforegister **Ereignisänderungen** ändern und die Änderungen im Inforegister **Zeitachse** im Fenster **Planung** sofort grafisch anzeigen.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>So ändern Sie vorgeschlagene Beschaffungsaufträge in der grafischen Ansicht  
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Artikelverfügbarkeit nach Zeitachse** ein und wählen den zugehörenden Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Artikel Verfügbarkeit auf Zeitachse** ein, und wählen dann den zugehörigen Link aus.  
 
     Das Fenster **Artikelverfügbarkeit nach Zeitachse** wird geöffnet, mit Artikelnummer, Lagerplatz und Variante des Artikels in der ausgewählten Planungszeile, die in den Feldern des Inforegisters **Optionen** vorab ausgefüllt wurde. Das Inforegister **Zeitachse** zeigt die grafische Darstellung des voraussichtlichen Lagerbestands des Artikels, einschließlich Planungsvorschläge.  
 
@@ -51,7 +51,7 @@ Der folgende Ablauf zeigt, wie Vorratsvorschläge mit Drag & Drop geändert werd
     |--------------|---------------------------------------|  
     |**Neuen Vorrat erstellen**|Erstellt an der Stelle, auf die Sie rechtsklicken, ein neues Element, das einen neuen vorgeschlagenen Beschaffungsauftrag darstellt. Dies wird zu einer neuen Zeile im Planungsvorschlag, wenn Sie **Änderungen speichern** auswählen.<br /><br /> **HINWEIS:** Wenn die Felder **Standortfilter** oder **Varianten-Filter** im Inforegister **Optionen** leer sind oder mehr als einen Filterwert enthalten, wird der neue Vorrat erstellt und später im Planungs- oder Bestellvorschlag mit den folgenden Codes gespeichert:<br /><br /> * Wenn das Feld "Filter" leer ist, wird der neue Vorrat ohne Lagerort oder Variantencode erstellt.<br /><br /> * «»Wenn mehr als ein Filterwert definiert ist, wird der neue Vorrat für den ersten Filterwert gemäß der Sortiermethode erstellt.<br /><br /> Wenn Sie eine andere Variante oder einen anderen Lagerortcode verwenden möchten, müssen Sie diese in der neuen Planungszeile manuell ändern.|  
     |**Vorrat automatisch anpassen**|Optimiert einen neuen Vorrat, den Sie im Diagramm erstellt haben, indem Sie sicherstellen, dass sich vor dem nächsten Vorrat ein Lagerbestand von null ergibt.|  
-    |**Vorrat löschen**|Löscht das Element im Inforegister **Zeitachse** und löscht die Planungszeile, wenn Sie **Änderungen speichern** auswählen. Das Symbol wird als Diskette mit einem roten Kreuz angezeigt, wenn der Vorrat gelöscht wurde.<br /><br /> **HINWEIS:**Sie können nur einen Vorrat mit dem Ereignismeldungstyp **Neu** löschen. Nachdem Sie **Änderungen speichern** ausgewählt haben, müssen Sie die betreffende Planungszeile im Planungs- oder Bestellvorschlag manuell löschen.|  
+    |**Vorrat löschen**|Löscht das Element im Inforegister **Zeitachse** und löscht die Planungszeile, wenn Sie **Änderungen speichern** auswählen. Das Symbol wird als Diskette mit einem roten Kreuz angezeigt, wenn der Vorrat gelöscht wurde.<br /><br /> **HINWEIS:** Sie können nur einen Vorrat mit dem Ereignismeldungstyp **Neu** löschen. Nachdem Sie **Änderungen speichern** ausgewählt haben, müssen Sie die betreffende Planungszeile im Planungs- oder Bestellvorschlag manuell löschen.|  
 
 7.  Wählen Sie auf der Registerkarte Aktionen in der Gruppe Allgemein die Option **Neu laden** aus, wenn Sie alle Änderungen zurücksetzen möchten, die Sie durchgeführt haben, nachdem Sie zuletzt das Fenster Artikel-**Verfügbarkeit nach Zeitachse**geöffnet oder **Neu laden** ausgewählt haben.  
 8. Wenn die Elemente an der gewünschten Stelle im Diagramm positioniert sind, aktivieren Sie **Änderungen speichern**, um Mengen- und Datumsänderungen in die Planungs- oder Bestellvorschlagszeilen zu kopieren, die die grafischen Elemente darstellen.  

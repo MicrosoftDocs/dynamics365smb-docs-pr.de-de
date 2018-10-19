@@ -1,6 +1,6 @@
 ---
-title: "So geht es: Fertigungsstècklisten herstellen | Microsoft Docs"
-description: "Verkaufs- und Absatzplanungen können im Fenster **Absatzplanung** vorgenommen werden."
+title: 'So geht es: Nachfrageplanung erstellen | Microsoft Docs'
+description: "Verkaufs- und Absatzplanungen können im Fenster **Nachfrageplanung** vorgenommen werden."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce71f1a0bd744cfdf62bb71f59829ec09155af32
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d0f4d314a33c86d169d6e2dae0b859b879702e5d
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="create-a-production-forecast"></a>Produktionsplanung erstellen
-Verkaufs- und Absatzplanungen können im Fenster **Absatzplanung** vorgenommen werden.  
+# <a name="create-a-demand-forecast"></a>Bedarfsplanung erstellen
+Verkaufs- und Absatzplanungen können im Fenster **Nachfrageplanung** vorgenommen werden.  
 
 Die Absatzplanungsfunktionen werden verwendet, um voraussichtlichen Bedarf zu erstellen; der tatsächliche Bedarf wird aus Verkaufs- und Fertigungsaufträgen erstellt. Beim Erstellen des Produktionsplans (Master Production Schedule, MPS) wird die Planung gegen die Verkaufs- und Fertigungsaufträge aufgerechnet. Mit der Absatzplanungsoption *Komponente* wird festgelegt, welche Anforderungen bei einem Saldierungsvorgang berücksichtigt werden sollen. Gilt die Absatzplanung für einen Verkaufsartikel, werden nur Verkaufsaufträge gegen die Absatzplanung saldiert. Wenn sie für Komponenten gilt, wird nur der abhängige Bedarf aus Fertigungsauftragskomponenten gegen die Absatzplanung saldiert.  
 
-Absatzplanung ermöglicht es Ihnen, "Was-wenn"-Szenarien zu erstellen sowie effizient und Kosten sparend für den Bedarf zu planen und diesen zu befriedigen. Eine genaue Absatzplanung kann den entscheidenden Unterschied bei der Kundenzufriedenheit hinsichtlich Lieferterminzusagen und termingerechter Lieferung ausmachen.  
+Absatzplanung ermöglicht es Ihnen, "Was-wenn"-Szenarien zu erstellen sowie effizient und Kosten sparend für den Bedarf zu planen und diesen zu befriedigen. Eine genaue Absatzplanung kann den entscheidenden Unterschied bei der Debitorenzufriedenheit hinsichtlich Lieferterminzusagen und termingerechter Lieferung ausmachen.  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Absatzplanungen und Fertigungsplanungen  
 Die von der Anwendung bereitgestellten Absatzplanungsfunktionen können dazu verwendet werden, Absatz- oder Fertigungsplanungen zusammen oder voneinander unabhängig zu erstellen. Beispielsweise haben die meisten Auftragsfertigungsunternehmen keine fertigen Waren auf Lager, weil jeder Artikel erst nach der Bestellung gefertigt wird. Das Vorhersagen von Aufträgen (Absatzplanung) ist entscheidend für eine angemessene Verweilzeit der Halbwaren (Fertigungsplanung). So können z. B. Komponententeile mit langen Lieferzeiten, wenn sie nicht bestellt oder auf Lager sind, zu einer Fertigungsverzögerung führen.  
@@ -34,7 +34,7 @@ Die von der Anwendung bereitgestellten Absatzplanungsfunktionen können dazu ver
 
 In den meisten Fällen ändert der Fertigungsplaner die Absatzplanung dann entsprechend den Gegebenheiten der Fertigung, wobei die Absatzplanung dennoch weiterhin erfüllt wird.  
 
-Das Erstellen von Absatzplanungen erfolgt manuell mit der **Absatzplanung**. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Art unterschieden werden. Eine Absatzplanung kann je nach Bedarf kopiert und bearbeitet werden. Für Planungszwecke ist aber immer nur jeweils eine Absatzplanung zulässig.  
+Das Erstellen von Absatzplanungen erfolgt manuell mit der **Nachfrageplanung**. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Art unterschieden werden. Eine Absatzplanung kann je nach Bedarf kopiert und bearbeitet werden. Für Planungszwecke ist aber immer nur jeweils eine Absatzplanung zulässig.  
 
 Eine Absatzplanung besteht aus einer Reihe von Datensätzen, wobei in jedem Datensatz die Artikelnummer, das Planungsdatum und die Planungsmenge angegeben sind. Die Absatzplanung eines Artikels erstreckt sich über eine Periode, die durch das Planungsdatum des aktuellen sowie das Planungsdatum des nächsten (späteren) Planungsdatensatzes definiert ist. Aus Planungssicht sollte die Planungsmenge zu Beginn der Bedarfsperiode verfügbar sein.  
 
@@ -49,16 +49,16 @@ Da die Komponentenabsatzplanung dazu verwendet wird, Optionen für einen überge
  Die Planungsperiode erstreckt sich von ihrem Startdatum bis zu dem Datum, an dem die nächste Absatzplanung beginnt. Im Fenster für Zeitintervalle haben Sie mehrere Auswahlmöglichkeiten, um den Bedarf für ein bestimmtes Datum einer Periode einzufügen. Es empfiehlt sich daher, den Bereich einer Planungsperiode nicht zu ändern, es sei denn, sie möchten alle Planungsposten auf das Startdatum dieser Periode verschieben.  
 
 ## <a name="forecast-by-locations"></a>Absatzplanung nach Lagerorten  
-In der Produktionseinrichtung kann festgelegt werden wenn. Beachten Sie aber , dass die Gesamtabsatzplanung möglicherweise nicht repräsentativ ist, wenn auf dem Lagerort basierende Absatzplanungen isoliert angezeigt werden.
+In der Produktionseinrichtung kann festgelegt werden, wenn Sie Filter nach Lagerorten zu prognostizieren soll, wenn Sie einen Plan berechnen. Beachten Sie aber , dass die Gesamtabsatzplanung möglicherweise nicht repräsentativ ist, wenn auf dem Lagerort basierende Absatzplanungen isoliert angezeigt werden.
 
-## <a name="to-create-a-production-forecast"></a>Produktionsplanung erstellen
+## <a name="to-create-a-demand-forecast"></a>So erstellen Sie eine Absatzplanung
 
-1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Produktionsplanung** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Wählen Sie im Inforegister **Allgemein** im Feld **Absatzplanungsname** eine Planung aus. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Absatzplanungsart unterschieden werden.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Nachfrageplanung** ein, und wählen dann den zugehörigen Link aus.  
+2.  Wählen Sie im Inforegister **Allgemein** im Feld **Nachfragelanungsname** eine Planung aus. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Absatzplanungsart unterschieden werden.  
 3.  Im Feld **Lagerortfilter** müssen Sie den Lagerort auswählen, für den die Planung gelten soll.  
 4.  Wählen Sie im Feld **Planungsart** eine Option aus: **Verkaufsartikel**, **Komponente** oder **Beides**. Wenn Sie **Verkaufsartikel** oder **Komponente** ausgewählt haben, können Sie die Menge pro Periode bearbeiten. Wenn Sie **Beides** ausgewählt haben, können Sie die Menge zwar nicht bearbeiten, Sie haben jedoch die Möglichkeit, sie im Dropdown-Menü auszuwählen und die Absatzplanungsposten anzuzeigen.  
 5.  Geben Sie einen **Datumsfilter** an, wenn Sie den Umfang der angezeigten Daten beschränken möchten.  
-6.  Geben Sie im Inforegister **Absatzplanungsmatrix** für die verschiedenen Perioden die geplanten Mengen der Planung für **Verkaufsartikel** oder **Komponente** ein.  
+6.  Geben Sie im Inforegister **Nachfrageplanungsmatrix** für die verschiedenen Perioden die geplanten Mengen der Planung für **Verkaufsartikel** oder **Komponente** ein.  
 7.  Legen Sie im Inforegister **Matrixoptionen** im Feld **Anzeigen nach** das Zeitintervall fest, um die Periode zu ändern, die in den einzelnen Spalten angezeigt wird. Folgende Intervalle stehen zu Auswahl: **Tag**, **Woche**, **Monat**, **Quartal**, **Jahr** oder **Buchhaltungsperiode**, gemäß Einrichtung im Finanzmanagement.  
 
     > [!NOTE]  
@@ -67,7 +67,7 @@ In der Produktionseinrichtung kann festgelegt werden wenn. Beachten Sie aber , d
 8.  Wählen Sie im Feld **Anzeigen als** aus, wie die Planungsmengen für das Zeitintervall dargestellt werden sollen. Bei Auswahl von **Bewegung** wird die Bewegung im Saldo für das Zeitintervall angezeigt. Bei Auswahl von **Saldo bis Datum** wird der Saldo zum letzten Tag des Zeitintervalls angezeigt.  
 
 > [!NOTE]  
->  Sie haben auch die Möglichkeit zum Bearbeiten einer bestehenden Absatzplanung. Klicken Sie im Fenster **Absatzplanungsmatrix** auf **Aktionen, Absatzplanung kopieren**, und füllen Sie das Fenster **Absatzplanung** mit einer vorhandenen Planung aus. Die Mengen können anschließend gemäß den Anforderungen bearbeitet werden.  
+>  Sie haben auch die Möglichkeit zum Bearbeiten einer bestehenden Absatzplanung. Klicken Sie im Fenster **Nachfrageplanungsmatrix** auf **Aktionen, Absatzplanung kopieren**, und füllen Sie das Fenster **Absatzplanung** mit einer vorhandenen Planung aus. Die Mengen können anschließend gemäß den Anforderungen bearbeitet werden.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Produktion einrichten](production-configure-production-processes.md)  

@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 07/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ceccc02c841044803337ac53f378451d8f315484
 ms.contentlocale: de-de
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-reports"></a>Arbeiten mit Berichten
-Ein Bericht stellt Informationen auf Basis eines bestimmten Satz an Kriterien zusammen und unterteilt die Informationen in ein einfach zu lesendes, druckbares Format. Es gibt viele Berichte, auf die Sie im Zuge der Anwendung zugreifen können. Die Berichte stellen in der Regel Informationen proportional zu dem Kontext der Seite bereit, auf der Sie sich befinden. Beispielsweise der **Debitor** für die Seite Berichte Top 10 Debitoren und die Verkaufsstatistik und mehr.
+Ein Bericht stellt Informationen auf Basis eines bestimmten Satz an Kriterien zusammen und unterteilt die Informationen in ein einfach zu lesendes, druckbares Format. Es gibt viele Berichte, auf die Sie im Zuge der Anwendung zugreifen können. Die Berichte stellen in der Regel Informationen proportional zu dem Kontext der Seite bereit, auf der Sie sich befinden. Beispielsweise enthält das Fenster **Debitor** Berichte der Top 10-Debitoren und die Verkaufsstatistik und mehr.
 
-Sie können Berichte auf der Registerkarte **Berichte** über ausgewählte Seiten finden, oder Sie können die Suche verwenden ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Symbol für Seite oder Bericht suchen "), um den Bericht nach Namen zu finden.
+Auf der Registerkarte **Berichte** finden Sie Berichte über ausgewählte Seiten, oder Sie können die Suche ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "„Wie möchten Sie weiter verfahren“") verwenden, um Berichte nach Name zu suchen.
 
 
 ## <a name="specifying-the-data-to-include-in-the-report"></a>Angeben der Daten, die im Bericht integriert werden sollen

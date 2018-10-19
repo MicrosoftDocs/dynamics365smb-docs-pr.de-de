@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 05/04/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
 ms.contentlocale: de-de
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
@@ -80,25 +80,25 @@ Um einen rationalen Beschaffungsplan zu erhalten, kann ein Planer Planungsparame
 
 Die Terminierung für die Neuplanungsperiode, die Toleranzperiode und die Loskumulierungsperiode basiert auf einem Lieferdatum. Das Zeitrahmen basiert auf dem Planungsstartdatum, wie in der folgenden Abbildung gezeigt.  
 
-![Zeitrahmen-Elemente](media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
+![Zeitrahmenelemente](media/supply_planning_5_time_bucket_elements.png "Zeitrahmenelemente")  
 
 In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (aufwärts) und Bedarf dar (abwärts). Rote, grüne und orange Pfeile sind Planungsvorschläge.  
 
 **Beispiel 1**: Das geänderte Datum liegt außerhalb der Neuplanungsperiode, wodurch der bestehende Vorrat storniert wird. Ein neuer Vorrat wird vorgeschlagen, um den Bedarf in der Loskumulierungsperiode zu decken.  
 
-![Neuplanungsperiode, Loskumulierungsperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "supply_planning_5_recheduling_period_lot_accumulation_period")  
+![Neuplanungsperiode und Loskumulierungsperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Neuplanungsperiode und Loskumulierungsperiode")  
 
 **Beispiel 2**: Das geänderte Datum liegt innerhalb der Neuplanungsperiode, wodurch der bestehende Vorrat neu geplant wird. Ein neuer Vorrat wird vorgeschlagen, um den Bedarf außerhalb der Loskumulierungsperiode zu decken.  
 
-![Neuplanungsperiode, Loskumulierungsperiode, Neuplanung](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply_planning_5_recheduling_period_lot_accumulation_period")  
+![Neuplanungsperiode und Loskumulierungsperiode und Neuplanung](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Neuplanungsperiode und Loskumulierungsperiode und Neuplanung")  
 
 **Beispiel 3**: Es gibt einen Bedarf in der Toleranzperiode, und die Vorratsmenge in der Loskumulierungsperiode entspricht der Vorratsmenge. Der nächste Bedarf wird aufgedeckt, und ein neuer Vorrat wird vorgeschlagen.  
 
-![Neuplanungsperiode, Loskumulierungsperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "supply_planning_5_recheduling_period_lot_accumulation_period")  
+![Toleranzperiode und Loskumulierungsperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Toleranzperiode und Loskumulierungsperiode")  
 
 **Beispiel 4**: Es gibt einen Bedarf in der Toleranzperiode, und der Vorrat bleibt auf dem selben Datum. Die derzeitige Vorratsmenge reicht jedoch nicht aus, um den Bedarf in der Loskumulierungsperiode zu decken; daher wird eine Mengenänderungsaktion für den vorhandenen Beschaffungsauftrag empfohlen.  
 
-![Toleranzperiode, Loskumulierungsperiode, Menge ändern](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply_planning_5_recheduling_period_lot_accumulation_period")  
+![Toleranzperiode, Loskumulierungsperiode und Mengenänderung](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Toleranzperiode, Loskumulierungsperiode und Mengenänderung")  
 
 **Vorgabewerte**: Der Vorgabewert des **Zeitrahmen**-Feldes und der drei Nachbestellungsperiodenfelder ist leer. Für alle Felder mit Ausnahme des Felds **Toleranzperiode** bedeutet dies 0D (Null Tage). Wenn das Feld **Toleranzperiode** leer ist, wird der Wert im Feld **Standardtoleranzperiode** im Fenster **Produktion Einrichtung** verwendet.  
 

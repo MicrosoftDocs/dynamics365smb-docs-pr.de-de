@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce50ff8213e85a8343a93eb80bbbc381eaa8e350
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="migrate-customer-data"></a>Migrieren von Debitorendaten
@@ -40,7 +40,7 @@ Bevor Sie beginnen, vergewissern Sie sich, dass Sie sich auf der RapidStart Serv
 > Tabellen mit unterschiedlichen Primärschlüsseln und Felder mit unterschiedlichen Datentypen werden ebenfalls nicht erfolgreich importiert. Wenn das Konfigurationspaket beispielsweise die Tabelle **Debitor 50000** mit dem Primärschlüssel **Code20** enthält und die Datenbank, in die Sie das Paket importieren die Tabelle **Debitor Bankkonto 50000** mit dem Primärschlüssel **Code20 + Code 20** enthält, werden diese Daten nicht importiert.  
 
 1. Öffnen des neuen Mandanten  
-2. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Konfigurationspaket** ein. Wählen Sie dann den zugehörigen Link aus.  
+2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationspaket** ein, und wählen dann den zugehörigen Link aus.  
 3. Wählen Sie die **Paket importieren**-Aktion aus. Navigieren Sie zur .rapidstart-Paketdatei, die Sie importieren möchten, und wählen Sie die **Öffnen** Aktion aus. Während des Imports werden die Paketinhalte dekomprimiert und der Paketdatensatz wird erstellt.  
 
     Nach Abschluss des Imports können Sie die Anzahl der Konfigurationstabellen, die importiert wurden, im Feld **Anzahl Tabellen** sehen.  
@@ -57,7 +57,7 @@ Wenn die Auswahl der Tabellen für die Datenmigration Ihre Anforderungen nicht e
 ## <a name="to-create-a-data-migration-file"></a>So erstellen Sie eine Datenmigrationsdatei
 Sie können neue Datenmigrationsdateien erstellen und diese anpassen, sodass sie Ihr Geschäft zu unterstützen. Jedoch kann eine Datei nur verwendet werden, um ein Feld zu migrieren, das den **FieldClass**-Eigenschaftensatz **Normal** hat.  
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Konfigurationspaket** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationspaket** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie und öffnen Sie ein Paket, das Sie verwenden möchten, um Daten zu migrieren, und wählen Sie die **Tabellen abrufen** Aktion aus. Das Fenster **Pakettabelle abrufen** wird geöffnet.  
 3. Geben Sie im Feld **Tabellen-ID** eine Tabellennummer ein oder wählen Sie eine Tabelle aus der Liste, zum Beispiel Tabelle 18, **Debitor**. Das Feld **Tabellennamen** wird automatisch ausgefüllt.  
 4. Wählen Sie die neue Migrationstabelle aus, und dann, auf der Registerkarte **Tabellen** aus, wählen Sie die **Felder** Aktion aus. Das Fenster **Migrationsfeld** wird geöffnet.  
@@ -73,7 +73,7 @@ Eine neue Migrationstabelle wird erstellt.
 ## <a name="to-export-data-migration-files"></a>So exportieren Sie Datenmigrationsdateien
 Nachdem Sie die Tabellen festgelegt haben, für die Sie Debitorendaten übertragen möchten, exportieren Sie die Dateien.  
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Konfigurationspaket** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationspaket** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie das Paket aus, das Sie für den Export verwenden möchten, und öffnen Sie es.
 3. Wählen Sie die Tabelle oder die Tabellen, die Sie exportieren möchten, und wählen die **In Excel exportieren** Aktion aus.
 4. Speichern Sie die exportierte Excel-Datei.  
@@ -94,12 +94,12 @@ Wenn Sie Daten anwenden, die Sie aus Excel oder von einem RapidStart-Paket impor
 
 In den Verfahren, die folgen, sollten Sie im Voraus überprüfen, welche Werte Sie während des Migrationsvorgangs beibehalten möchten. Um die folgenden Verfahren auszuführen, benötigen Sie die Datenmigrationsdateien (.xls), die Sie aus [!INCLUDE[d365fin](includes/d365fin_md.md)] exportiert haben. Weitere Informationen zum Erstellen einer Vorlage finden Sie unter "Migrationsdatendateien exportieren".
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Konfigurationspaket** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationspaket** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie das betreffende Konfigurationspaket.  
 3. Wählen Sie die Tabelle, für die Sie Werte zuordnen möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Felder** aus.  
 4. Für jedes Feld, das Sie zuordnen möchten, wählen Sie die **Zuordnung** Aktion aus.  
 5. Geben Sie im Feld **Alter Wert** den Wert ein, den Sie ändern wollen. Geben Sie im Feld **Neuer Wert** den Wert ein, auf den Sie den alten Wert ändern wollen. Wählen Sie die Schaltfläche **OK** aus.  
-6. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter "Kundendaten importieren".
+6. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter "Debitorendaten importieren".
 7. Prüfen Sie im Feld **Anzahl der Paketfehler**, ob Fehler gemeldet wurden. Ist dies der Fall, führen Sie Drilldown einen durch, um die Fehler anzuzeigen. Das Fenster **Paketdatensätze konfig.** wird geöffnet.
 8. Wählen Sie die Aktion **Fehler anzeigen** aus. Sie erhalten den folgenden Fehler: **<option> ist keine gültige Option. Gültige Optionen sind <valid option list>**. Wählen Sie die Schaltfläche **OK** aus.  
 9. Um die Karte zu übernehmen die Sie eingerichtet haben, aktivieren Sie die **Daten übernehmen** Aktion.  
@@ -107,15 +107,15 @@ In den Verfahren, die folgen, sollten Sie im Voraus überprüfen, welche Werte S
 ### <a name="mapping-example"></a>Zuordnungs-Beispiel  
 Im folgenden Beispiel wird veranschaulicht, wie [!INCLUDE[d365fin](includes/d365fin_md.md)] Zuordnungsdefinitionen implementiert.  
 
-1. Eine Konfigurationstabelle erstellen, die eine **Salesperson/Purchaser**-Tabelle hat. Definieren Sie eine Karte für das Feld **Code**.  
-2. Fügen Sie zusätzliche Tabellen dem Paket hinzu, zum Beispiel **Debitor** und **Kreditor**. Diese beiden Tabellen referenzieren zur Tabelle **Salesperson/Purchaser** über die Felder **Einkäufercode** und **Verkäufercode**.  
-3. Wenn Sie Daten ausgleichen, wird die Zuordnung, die Sie für das Feld **Code** in der Tabelle **Salesperson/Purchaser** bereitgestellt haben, auch während der Verarbeitung der Felder **Verkäufercode** und **Einkäufercode** berücksichtigt.
+1. Eine Konfigurationstabelle erstellen, die eine **Verkäufer/Käufer**-Tabelle hat. Definieren Sie eine Karte für das Feld **Code**.  
+2. Fügen Sie zusätzliche Tabellen dem Paket hinzu, zum Beispiel **Debitor** und **Kreditor**. Diese beiden Tabellen referenzieren zur Tabelle **Verkäufer/Käufer** über die Felder **Einkäufercode** und **Verkäufercode**.  
+3. Wenn Sie Daten ausgleichen, wird die Zuordnung, die Sie für das Feld **Code** in der Tabelle **Verkäufer/Käufer** bereitgestellt haben, auch während der Verarbeitung der Felder **Verkäufercode** und **Einkäufercode** berücksichtigt.
 
 ## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Um [!INCLUDE[d365fin](includes/d365fin_md.md)] weitere Werte hinzufügen  
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Konfigurationspaket** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationspaket** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die Tabelle, für die Sie zusätzliche Werte zuordnen möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Felder** aus.  
 3. Für die Felder, für die Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] während der Migration zusätzliche Werte ermöglichen möchten, wählen Sie das **Fehlende Codes erstellen**-Kontrollkästchen.  
-4. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter "Kundendaten importieren".
+4. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter "Debitorendaten importieren".
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>So werden Daten bereinigt und verarbeitet, bevor Daten angewendet werden
 In einigen Fällen möchten Sie möglicherweise Debitorendaten bereinigen und sie verarbeiten, bevor Sie sie auf die Datenbank anwenden. Um das zu tun, können Sie die **Config. Paket - Prozess** Stapelverarbeitung verwenden, um  Probleme zu reparieren, beispielsweise:  

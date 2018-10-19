@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
-ms.date: 04/20/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 1b3bf0abcf6ccb19c9c399849a03cee5c470ade8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: de76d937535fcad44538fcea557233263fa049fd
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-getaddressio-uk-postcodes-extension-to-microsoft-business-central"></a>Einrichten der britischen Postleitzahlerweiterung in Microsoft Business Central
+# <a name="the-getaddressio-uk-postcodes-extension"></a>Die britische Postleitzahlenerweiterung GetAddress.io
 Die britische Postleitzahlerweiterung GetAddress.io kann Zeit sparen und hilft Fehler zu verhindern, wenn Sie Adressen für Entitäten wie Debitoren, Kreditoren, Bankkonten und Mitarbeiter eingeben. Wenn Sie beispielsweise einen Debitor erstellen, müssen Sie nur eine Postleitzahl wählen und [!INCLUDE[d365fin](includes/d365fin_md.md)] zeigt eine Übersicht der Adressen. Wählen Sie die Adresse aus, die Sie anzeigen möchten, und die Adressfelder werden ausgefüllt.  
 
 ##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>Um die britische Postleitzahlerweiterung GetAddress.io zu verwenden, wenn Sie eine Adresse eingeben

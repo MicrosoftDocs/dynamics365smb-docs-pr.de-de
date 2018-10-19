@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 698404dab1b3888d073eb3c23268d3b009a4f577
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetails: Verfügbarkeit im Lager
@@ -44,7 +44,7 @@ Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager a
 
  Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung an.  
 
- ![Verfügbar, mit Reservierungsüberschneidung auswählen](media/design_details_warehouse_management_availability_2.png "design_details_warehouse_management_availability_2")  
+ ![Verfügbar mit Reservierungsüberschneidung](media/design_details_warehouse_management_availability_2.png "Verfügbar mit Reservierungsüberschneidung")  
 
 ## <a name="quantity-available-to-reserve"></a>&Menge Verfügbar für Reservierung  
  Da die Konzepte des Lagerplatzinhaltes und der Reservierung gleichzeitig existieren, muss die Menge der Artikel, die zur Reservierung verfügbar sind, an die Zuordnung zu ausgehenden Lagerbelegen angepasst sein.  
@@ -69,7 +69,7 @@ Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager a
 
  Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung an.  
 
- ![Für Reservierung pro Lagerhauszuweisung verfügbar](media/design_details_warehouse_management_availability_3.png "design_details_warehouse_management_availability_3")  
+ ![Verfügbar pro Lagerzuordnung](media/design_details_warehouse_management_availability_3.png "Verfügbar pro Lagerzuordnung")  
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Logistik](design-details-warehouse-management.md)

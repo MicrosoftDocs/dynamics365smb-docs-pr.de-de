@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f6e3a1ccda36947c80fead68f9e97ee8ff1286bf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Nutzen Sie das RapidStart Services-Implementierer Rollencenter
@@ -27,7 +27,7 @@ Während Sie mit der Arbeit fortfahren, können Sie jeder Tabelle den Status zuo
 Wenn Sie eine Tabelle dem Konfigurationsarbeitsblatt hinzufügen, wird der Status standardmäßig auf leer festgelegt. Das bedeutet, dass die Konfiguration der Tabelle noch nicht begonnen wurde. Dies wird in der Option **Nicht gestartet**-Anzahl im Stapel **Aktivitäten** wiedergegeben.  
 
 ## <a name="to-update-the-status-of-a-configuration-table"></a>So aktualisieren Sie den Status eines Angebots.  
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Konfigurations-Arbeitsblatt** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Liste bearbeiten** aus.  
 3.  Wählen Sie eine Tabelle aus, und wählen Sie im Feld **Status** den betreffenden Status aus.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  

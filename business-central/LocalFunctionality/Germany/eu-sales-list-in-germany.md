@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/02/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 96476fe73262bc3a268dbaf57f76d6ea45ab3f8b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ecac4f95c3e9a33630bdd1352f1b5d1f417d6da3
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -24,7 +24,7 @@ In Deutschland wird die deutsche zusammenfassende Meldung an das „Bundeszentra
 Um die Sicherheit zu erhöhen, müssen alle Arten von Steuern und Steuererklärungen unter einer Authentifizierungsmethode übermittelt werden. Seit 1. Januar 2013 ist es obligatorisch, dass Sie Übermittlungen mit Authentifizierung vornehmen. Dazu melden Sie sich mit Ihrer BZSt-Nummer und Ihrem privaten Schlüssel an, indem Sie Ihre Passphrase im ELMA5-Kommunikationsserver verwenden. ELMA5 ist dafür ausgelegt, die Übermittlung großer Datasets von mehr als 1000 Datensätzen zu handhaben. Nach erfolgreicher Anmeldung können Sie die Datenübertragung in interaktiver Weise hochladen. Sie können die Übertragung auf automatisch einrichten.  
 
 ## <a name="see-also"></a>Siehe auch  
-[BZSt-Onlineportal](http://www.bzst.de)   
+[BZSt-Onlineportal](https://www.bzst.de)   
 [Erstellen von MwsT-Berichten.](how-to-create-vat-reports.md)  
 [Vorgehensweise: Einrichten von MwSt.-VIES-Berichten](how-to-set-up-vat-reports.md)  
 [Gewusst wie: MwSt.-VIES Berichte erstellen](how-to-create-vat-reports.md)  

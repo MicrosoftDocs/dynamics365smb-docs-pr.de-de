@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
 ms.contentlocale: de-de
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Gespeicherte Einstellungen in Berichtenn verwalten
@@ -35,7 +35,7 @@ Wenn Sie die richtigen Berechtigungen haben, können Sie die gespeicherten Einst
 
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Erstellen und Ändern gespeicherter Einstellungen für alle Benutzer
 Sie können gespeicherte Einstellungen der Seite **1560 Berichteinstellungen** verwalten. Es gibt zwei Möglichkeiten, dies Seite zu öffnen:
--   Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Berichtseinstellungen** ein. Wählen Sie dann den zugehörigen Link aus.
+-   Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Berichtseinstellungen** ein, und wählen dann den zugehörigen Link aus.
 -   Öffnen Sie einen Bericht, wählen die Suche neben dem Feld **Verwendete Standardwerte aus:** aus, wählen Sie **Aus vollständiger Liste auswählen** aus.
 
 Die Seitendarstellungen zeigt alle vorhandenen Abwehreinstellungsposten für alle Anwender an. Wenn es einen Benutzernamen in der Spalte **Zugewiesen zu** hat, kann nur der Benutzer die gespeicherten Einstellungen für den entsprechenden Bericht verwenden. Wenn sich ein Häkchen im Feld **Anteil mit allen Benutzern** befindet, können alle Benutzer die  gespeicherten Einstellungen für den Bericht verwenden.

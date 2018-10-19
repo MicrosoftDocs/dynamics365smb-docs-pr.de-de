@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 07/14/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9309868cbcee8fb969c318acfb6ce8844e78b687
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -55,7 +55,7 @@ Wenn Sie erweitertere Einstellungen für die Konsolidierung benötigen, können 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] Mithilfe der Konsolidierungsfunktionen der Anwendung können Sie eine Liste der zu konsolidierenden Mandanten erstellen, die Buchhaltungsdaten vor der Konsolidierung überprüfen, Daten aus Dateien und Datenbanken importieren und die Konsolidierungsberichte generieren.  
 
 1. Melden Sie sich im Konsolidierungsmandanten an.
-2. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Geschäftseinheit** ein und wählen Sie den zugehörigen Link aus.  
+2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Businesseinheiten** ein, und wählen dann den zugehörigen Link aus.  
 3. Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus.  
 
 Wenn der Konzernmandant eine Fremdwährung verwendet, müssen Sie den Wechselkurs angeben, der in der Konsolidierung verwendet werden soll. Sie müssen auch Konsolidierungdaten über die Sachkonten der Konzernmandanten angeben. In den folgenden Abschnitten werden diese Prozesse erläutert.
@@ -63,7 +63,7 @@ Wenn der Konzernmandant eine Fremdwährung verwendet, müssen Sie den Wechselkur
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Um die Finanzbuchhaltung manuell für die Konsolidierung vorzubereiten
 Wenn der Kontenplan des Konzernmandanten aus dem Konsolidierungsmandanten abweicht, müssen Sie die Sachkonten vorbereiten für die Konsolidierung. Sie können Konten definieren, um Soll- und Habenposten zu buchen und die Methode festlegen, die verwendet wird, um Währungen im Konsolidierungsmandanten zu übersetzen. Dies ist beispielsweise dann nützlich, wenn Sie häufig den Bericht ausführen.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Kontenplan** ein und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie die Karte für das Konto, und füllen Sie dann die Felder im Inforegister **Konsolidierung** aus.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Wechselkurse für Konsolidierungen angeben:
@@ -82,8 +82,8 @@ Die folgende Tabelle beschreibt die Wechselkursmethoden, die Sie für Konten ver
 
 Um Wechselkurse für Konzernmandanten anzugeben, gehen Sie folgendermaßen vor:
 
-1. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Geschäftseinheit** ein und wählen Sie den zugehörigen Link aus.  
-2. Auf der Seite **Konzernmandantenübersicht** wählen Sie die Konzernmandanten aus, und wählen Sie die **Durchschnittskurs (manuell)** Aktion aus.   
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Businesseinheiten** ein, und wählen dann den zugehörigen Link aus.  
+2. Im Fenster **Konzernmandantenübersicht** wählen Sie die Konzernmandanten aus, und wählen Sie die **Durchschnittskurs (manuell)** Aktion aus.   
 3. Der Inhalt des Felds **Bezug auf Wechselkursbetrag** (im Fenster **Wechselkurs ändern**) wurde aus der Tabelle **Währungswechselkurs** kopiert, kann jedoch geändert werden. Schließen Sie die Seite.  
 4. Wählen Sie die **Ultimokurs**-Aktion aus.  
 5. In dem Feld **Relationaler Wechselkursbetrag** geben Sie den Wechselkurs ein.
@@ -108,7 +108,7 @@ Wenn Sie nur einen Teil des Unternehmen anlegen, können Sie einen Prozentsatz j
 Sie können Ihre Daten testen, bevor Sie sie an den Konsolidierungsmandanten übertragen. [!INCLUDE[d365fin](includes/d365fin_md.md)] So überprüfen Sie Unterschiede zwischen den Informationen in den Konzernmandanten und dem Konsolidierungsmandanten Beispielsweise ob Kontonummern oder Dimensionscodes abweichen. Sie müssen Fehler korrigieren, bevor Sie den Bericht ausführen können. Sie können prüfen, die Datenbank oder, wenn Sie Daten einer XML-Datei importiert, können Sie testen die Datei.   
 
 1. Öffnen Sie den Konsolidierungsmandanten.  
-2. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Geschäftseinheit** ein und wählen Sie den zugehörigen Link aus.  
+2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Businesseinheiten** ein, und wählen dann den zugehörigen Link aus.  
 3. Führen Sie einen der folgenden Schritte aus:  
 
     * Um eine Datei zu testen, wählen Sie die **Datei prüfen** Aktion, geben Sie den Namen der Datei an zum Testen ein, und wählen Sie dann **Drucken** aus.  

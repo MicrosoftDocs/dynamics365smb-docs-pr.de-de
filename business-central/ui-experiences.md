@@ -1,6 +1,6 @@
 ---
 title: "Die Benutzerfreundlichkeit auswählen, um erweiterte Funktionen ein- oder auszublenden| Microsoft Docs"
-description: "Erfahren Sie, was die normale und essentielle Suitebenutzerfreundlichkeit für die Benutzerschnittstelle,  Anwendungsbereiche und Ihr Unternehmen bedeutet."
+description: "Erfahren Sie, was die Essential- und Premium-Stufen der Benutzerfreundlichkeit für die Benutzerschnittstelle, Anwendungsbereiche und Ihr Unternehmen bedeutet."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 07/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
 ms.contentlocale: de-de
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Sie können auswählen, welche Funktionen angezeigt werden
@@ -31,8 +31,7 @@ Die verfügbaren Optionen werden in der folgenden Tabelle beschrieben.
 
 | Erfahrung | Auswirkungen auf Benutzeroberfläche |
 | --- | --- |
-| **Standard** |Zeigt nur Kernaktionen und Felder innerhalb der häufigsten Geschäftsfunktionalität, wie Verkauf, Einkauf, Lagerbestand und Finanzen, an. |
-| **Wesentlich** |Zeigt alle Aktionen und Felder für alle verfügbaren Geschäftsfunktionalitäten an.|
+| **Essential** |Zeigt alle Aktionen und Felder für alle verfügbaren Geschäftsfunktionalitäten an.|
 | **Premium** |Zeigt alle Aktionen und Felder für alle Geschäftsfunktionalität einschließlich, Produktion und Dienstleistungs-Verwaltung an.|
 
 > [!NOTE]  
@@ -50,15 +49,18 @@ Sie können dann, definieren das spezielle Funktionen und Fenster in der Benutze
 Wenn Sie eine Änderung in den Benutzerplänen in Office 365 Admin Center gemacht haben, wie mehr Benutzer dem Premium Plan hinzuzufügen, muss die Änderung in [!INCLUDE[d365fin](includes/d365fin_md.md)] vorgenommen werden.
 
 1. Als Administrator anmelden.
-2. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.
+2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benutzer** ein, und wählen dann den zugehörigen Link aus.
 3. Wählen Sie im Fenster **Benutzer** die Aktion **Alle Benutzergruppen aktualisieren** aus.
 
 Alle neuen Informationen über die Schemata der Benutzer zusammen mit den zugeordneten Benutzergruppen werden jetzt entsprechend den Planänderungen aktualisiert.
 
 ### <a name="to-select-the-premium-experience"></a>Die Premium-Umgebung auswählen
 Sie können jetzt fortfahren, die neuen Benutzeroberfläche auszuwählen.
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol \"Nach Seite oder Bericht suchen\"") aus, geben Sie **Unternehmensdaten** ein, und wählen Sie dann den verknüpften Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Unternehmungsinformation** ein, und wählen dann den zugehörigen Link aus.
 2. Im Fenster **Unternehmensinformation** können Sie die **Benutzerfreundlichkeit** für Ihren Mandanten im Feld **Inforegister** festlegen.
+
+## <a name="help-assumes-premium-experience"></a>Die Hilfe geht von der Premium-Umgebung aus
+Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[d365fin](includes/d365fin_md.md)] die **Premium**-Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab. Ein Texthinweis wird in den allgemeinen Hilfethemen der Funktionsbereiche "Fertigung" und "Servicemanagement" eingefügt, der angibt, das die **Premium**-Umgebung erforderlich ist.
 
 ## <a name="see-also"></a>Siehe auch
 [Neue Unternehmen anlegen](about-new-company.md)  

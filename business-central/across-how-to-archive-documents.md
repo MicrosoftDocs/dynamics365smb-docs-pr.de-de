@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 74460bfcff36d293006229f4a89719f8c05c2631
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="archive-documents"></a>Beleg archivieren
@@ -26,7 +26,7 @@ Sie können auch Aufträge oder Bestellungen, Angebote, Reklamationen und Rahmen
 Sie können die automatische Archivierung von Verkaufs- und Einkaufsbelegen einrichten – beispielsweise Angebote, Rahmenbestellungen und Aufträge – bevor Sie Belege löschen.
 
 Nachfolgend wird beschrieben, wie die automatische Archivierung von Verkaufsbelegen eingerichtet wird. Die Schritte sind für eine Einkaufsdokumente ähnlich.
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Debit&oren && Verkauf Einr.** ein und wählen dann den zugehörigen Link aus.
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitoren & Verkauf einrichten** ein, und wählen dann den zugehörigen Link aus.
 2. Füllen Sie im Feld **Debitoren & Verkauf Einr.** die folgenden Felder aus:
 
 |Feld|Description|
@@ -38,7 +38,7 @@ Nachfolgend wird beschrieben, wie die automatische Archivierung von Verkaufsbele
 ## <a name="to-archive-a-sales-order"></a>Verkaufsauftrag archivieren
 Nachfolgend wird beschrieben, wie Sie einen Auftrag archivieren Die Schritte für Einkaufsreklamationen, Serviceaufträge und ausgehende Umlagerungsaufträge sind ähnlich.
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie einen Verkaufsauftrag für Artikel, die Sie archivierne möchten.  
 3.  Wählen Sie die **Beleg archivieren**-Aktion aus.
 
@@ -47,7 +47,7 @@ Der Auftrag ist archiviert. Sie können sie im Fenster **Archivierte Aufträge**
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>Einen Auftrag aus Posten neu erstellen
 Nachfolgend wird beschrieben, wie Sie einen Auftrag neu erstellen. Die Schritte für Einkaufsreklamationen, Serviceaufträge und ausgehende Umlagerungsaufträge sind ähnlich.
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Auftrag archivieren** ein. Wählen Sie dann den zugehörigen Link aus.
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Archivierte Verkaufsaufträge** ein, und wählen dann den zugehörigen Link aus.
 2.  Wählen Sie den zu archivierenden Verkaufsauftrag aus, klicken Sie auf Aktionen und anschließend auf **Wiederherstellen**.  
 
 Der Verkaufsauftrag wird im  **Verkaufsaufträge** Fenster erstellt und hinzugefügt.
@@ -55,7 +55,7 @@ Der Verkaufsauftrag wird im  **Verkaufsaufträge** Fenster erstellt und hinzugef
 ## <a name="to-delete-archived-sales-orders"></a>Archivierte Auftragsversionen löschen
 Nachfolgend wird beschrieben, wie Sie einen archivierten Auftrag löschen. Die Schritte sind für alle anderen archivierten Einkaufs- und Verkaufsbelege ähnlich.
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Archivierte Rahmenbestellungen löschen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Archivierte Verkaufsauftragsversionen löschen** ein, und wählen dann den zugehörigen Link aus.  
 2.  Im Fenster **Archivierte Auftragsversionen löschen** wählen Sie den entsprechenden Filter aus.  
 3.  Wählen Sie die Schaltfläche **OK** aus.
 

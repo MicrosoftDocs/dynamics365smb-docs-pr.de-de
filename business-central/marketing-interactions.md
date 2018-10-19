@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: dd1651c6df11f99c010c1a9725b2cb5069b929e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
 ms.contentlocale: de-de
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Verwaltung von Aktivitäten mit Kontakten
@@ -30,7 +30,9 @@ Der Bereich "Marketing & Vertrieb" ermöglicht Ihnen, alle Aktivitäten, die Sie
 
 ##  <a name="setting-up-interaction-templates"></a>Einrichten von Aktivitätenvorlagen
 Bevor Sie Aktivitäten erstellen und speichern können, müssen Sie Aktivitätenvorlagen einrichten. Wenn Sie Aktivitäten erstellen, müssen Sie die Aktivitätenvorlagen angeben, auf denen diese basieren. Eine Aktivitätsvorlage ist eine Vorlage, die die grundlegenden Charakteristiken einer Aktivität bestimmt.
-Sie richten Aktivitätenvorlagen im Fenster **Aktivitätenvorlagen** ein.  
+Sie richten Aktivitätenvorlagen im Fenster **Aktivitätenvorlagen** ein.
+
+Nachdem Sie die Informationen über die Aktivitätenvorlage eingegeben haben, können Sie einen Dateianhang erstellen, z. B. ein Microsoft Word-Dokument. Wiederholen Sie diese Schritte, um weitere Aktivitätenvorlagen einzurichten.  
 
 ## <a name="creating-interactions"></a>Aktivitäten erstellen
 Es gibt zwei verschiedene Arten, Aktivitäten zu speichern.
@@ -50,7 +52,7 @@ In diesem Fenster können Sie die folgenden Aufgaben durchführen:
 * Anzeigen des Status von Aktivitäten.
 * Aktivitäten als storniert markieren.
 
-Sie können Aktivitätenprotokollposten löschen, die storniert wurden. Um Aktivitätenprotokollposten zu löschen, wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus, geben **Stornierte Aktivitätenprotokollposten löschen** ein, und wählen Sie den zugehörigen Link aus und geben dann die Informationen ein.
+Sie können Aktivitätenprotokollposten löschen, die storniert wurden. Um Aktivitätenprotokollposten zu löschen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“](media/ui-search/search_small.png "Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren") aus, geben **Stornierte Aktivitätenprotokollposten löschen** ein, und wählen Sie den zugehörigen Link aus und geben dann die Informationen ein.
 
 ## <a name="see-also"></a>Siehe auch
 [Kontakte verwalten](marketing-contacts.md)  

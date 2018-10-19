@@ -1,5 +1,5 @@
 ---
-title: Kundendatenmigration vorbereiten | Microsoft Docs
+title: Debitorendatenmigration vorbereiten | Microsoft Docs
 description: "Nachdem Sie die Einrichtungsdaten in die neue Datenbank importiert und dort angewendet haben, können Sie mit dem Migrieren der vorhandenen Stammdaten des Debitors beginnen, beispielsweise Artikel- und Debitorennummern sowie Namen. Um sicherzustellen, dass diese Daten schnell und genau im neuen Mandanten erstellt werden, sollten Sie Vorlagen verwenden, um die Daten zu strukturieren."
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3cfc53c1ea3c8d30f65b2d475a8dab052519e81e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Vorgehensweise: Migrieren von Debitorendaten
@@ -44,7 +44,7 @@ Wenn Sie eine vorhandene Datenvorlage auswählen, müssen Sie bewerten, ob die V
 > [!TIP]  
 >  Datenvorlagen ermöglichen jedoch auch das schnelle Erstellen neuer Datensätze. Verwenden Sie diese für eine schnellere und genauere Erstellung von Daten. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Vorlage konfiguriern** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsvorlage** ein, und wählen dann den zugehörigen Link aus.  
 2. Im Fenster **Config. Vorlagen-Liste** wählen Sie aus der Liste eine Datenvorlage, und wählen die **Bearbeiten** Aktion aus.  
 
 Wenn die Standardvorlagen nicht Ihren Anforderungen entsprechen, können Sie neue Vorlagen erstellen oder einer vorhandenen Vorlage Felder hinzufügen. Wenn die Standardvorlagen ausreichen, können Sie sie zum Erstellen von Datensätzen verwenden, die auf Stammdatenvorlagen basieren.
@@ -75,13 +75,13 @@ Jede Vorlage besteht aus einem Kopf und aus Zeilen. Wenn Sie eine Vorlage erstel
 ## <a name="to-export-to-a-template-in-excel"></a>Exportieren einer Vorlage in Excel
 Sie können schnell eine Excel-Arbeitsmappe erstellen, die als Vorlage dient und auf der Struktur einer vorhandenen Datenbanktabelle basiert. Sie können die Vorlage dann verwenden, um Debitorendaten in einem konsistenten Format für den späteren Import in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erfassen.
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Konfigurations-Arbeitsblatt** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.
 2. Fügen Sie der Liste eine Tabelle hinzu, oder wählen Sie eine vorhandene Tabelle aus. Weitere Informationen finden Sie unter [Verwalten von Mandanten-Konfiguration in einem Arbeitsblatt](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Definieren Sie die Felder aus der Tabelle, die in der Vorlage enthalten sein sollen.
 4. Wählen Sie die Aktion **Vorlageninhalt exportieren** aus.
 5. Benennen und speichern Sie die .xlsx-Datei. Die Excel-Arbeitsmappe wird automatisch geöffnet.
 
-Sie können jetzt in die Excel-Arbeitsmappe Kundendaten eingeben. Wenn Sie mehrere Tabellen exportiert haben, befindet sich jede Tabelle in einem eigenen Arbeitsblatt. Speichern Sie die Arbeitsmappe, bevor Sie mit der folgenden Vorgehensweise fortfahren.
+Sie können jetzt in die Excel-Arbeitsmappe Debitorendaten eingeben. Wenn Sie mehrere Tabellen exportiert haben, befindet sich jede Tabelle in einem eigenen Arbeitsblatt. Speichern Sie die Arbeitsmappe, bevor Sie mit der folgenden Vorgehensweise fortfahren.
 
 > [!NOTE]  
 > Wenn Sie eine englischsprachige Version von Excel nutzen, Ihre regionalen Einstellungen aber für eine andere Sprache konfiguriert haben, kann der folgende Fehler auftreten: "Old format or invalid type library." Um diesen Fehler zu beheben, prüfen Sie, ob das Language Pack für die andere Sprache installiert ist.
@@ -100,11 +100,11 @@ Sie können die Struktur der Daten verwenden, die in den Datenvorlagen enthalten
 
 Die folgenden Schritte veranschaulichen, wie eine Artikelkarte aus einer Artikeldatenvorlage erstellt wird. Mit demselben Verfahren können Sie einen Datensatz aus jeder beliebigen Datenvorlage erstellen.  
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Vorlage konfiguriern** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsvorlage** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die entsprechende **Element**-Vorlage und wählen Sie dann die Aktion **Bearbeiten** aus. Weitere Informationen zum Erstellen einer Vorlage finden Sie unter Vorgehensweise: Eine Datenvorlage erstellen.
 3. Wählen Sie die Aktion **Instanz erstellen** aus. Eine Artikelkarte wird erstellt.  
 4. Wählen Sie die Schaltfläche **OK** aus.  
-5. Um das neue Kartenelement zu überprüfen, wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+5. Um die neue Einheitenkarte zu prüfen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Einheiten** ein, und wählen dann den zugehörigen Link aus.  
 6. Öffnen Sie eine neue Artikelkarte.  
 7. Erweitern Sie verschiedene Inforegister und vergewissern Sie sich, dass die Informationen korrekt in ihnen erstellt wurden.  
 
@@ -116,7 +116,7 @@ Sie können eine Datenvorlage bei jedem beliebigen Datensatz anwenden, der in [!
 
 Das folgende Verfahren basiert auf einer Debitorenkarte.  
 
-1. einen Kunden erstellen. Weitere Informationen finden Sie unter [Neue Kunden registrieren](sales-how-register-new-customers.md).
+1. einen Debitoren erstellen. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).
 2. Im Fenster **Debitorenkarte** wählen Sie die Aktion **Vorlage anwenden** aus.  
 3. Im Fenster **Debitorenvorlagen** wählen Sie eine der Vorlagen aus, und wählen Sie dann die Schaltfläche **OK** aus.  
 
@@ -125,5 +125,5 @@ Die Standardwerte aus der ausgewählten Debitorenvorlage werden in die Debitoren
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)  
-[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)
+[Neue Debitoren registrieren.](sales-how-register-new-customers.md)
 

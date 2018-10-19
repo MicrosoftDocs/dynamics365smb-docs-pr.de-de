@@ -9,23 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 07/19/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: 9e50d9da53077f2baa136ca614734adbd332c1be
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7fa51c4c5bc5370df07e6277c7c7e6403d71f5e2
 ms.contentlocale: de-de
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="track-packages"></a>Pakete verfolgen
 Eine Anzahl von Zustellern bietet einen Service im Internet, der es Ihnen erlaubt, Pakete zu verfolgen, die Sie ihm übergeben haben. Wenn Sie einen oder mehrere dieser Zusteller verwenden, können Sie bestimmte Basisinformationen hinterlegen und die Funktionalität der automatischen Paketverfolgung von gebuchten Lieferungen aus nutzen. Weitere Informationen finden Sie unter [Versand-Agenten](sales-how-to-set-up-shipping-agents.md).  
 
-> [!NOTE]
-> Dies Funktion ist derzeit nicht in [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar. Weitere Informationen finden Sie in den häufig gestellten Fragen unter [Warum werden einige UI-Elemente aus Dynamics NAV in Business Central nicht angezeigt?](https://docs.microsoft.com/en-us/dynamics365/business-central/across-faq#why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-).
-
 ## <a name="to-track-a-package"></a>So verfolgen Sie ein Paket:
-1. Wählen Sie das Symbol ![Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol zum Suchen der Seite oder des Berichts"), geben Sie **Gebuchter Vertriebsversand** ein und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Gebuchte Warenversände** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die relevante Verkaufslieferung.
 3. In der **Paketverfolgungsnr.** Feld geben Sie die Paketnummer ein, die Sie vom Zusteller erhalten haben.
 4. Wählen Sie die **Paketverfolgung**-Aktion aus.

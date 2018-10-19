@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 41a8ba231eb6fb9eaebe2168294ded0b0378fd81
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Führen Sie eine vollständige Planung, Prod.-Programmplanung oder Nettobedarf aus
@@ -47,13 +47,13 @@ Bei jeder Planungsmethode generiert [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 >  Die Funktion "Ereignismeldungen abrufen" kann zwischen dem Ausführen einer Änderungsplanung und einer Neuplanung ausgeführt werden, um sofort sehen zu können, wie sich Planänderungen auswirken, ist aber nicht dazu vorgesehen, die Änderungsplanung oder Neuplanung zu ersetzen.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Planungsvorschlag berechnen  
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") aus und geben Sie **Arbeitszeitplanung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Planungsvorschlag** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus, um das Fenster **Planung berechnen** zu öffnen.  
 3.  Füllen Sie im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
-    |**MPS**|Wählen Sie diese Option aus, um die Berechnung eines Produktionsplans zu initiieren. Artikel, für die es offene Verkaufsaufträge oder Absatzplanungen gibt, werden in diesem Lauf berücksichtigt.|  
+    |**MPS**|Wählen Sie diese Option aus, um die Berechnung eines Produktionsplans zu initiieren. Artikel, für die es offene Verkaufsaufträge und/oder Absatzplanungen gibt, werden in diesem Lauf berücksichtigt.|  
     |**MRP**|Wählen Sie diese Option aus, um die Berechnung der Materialbedarfsplanung zur initiieren. Artikel mit abhängigem Bedarf werden in diesem Lauf berücksichtigt. Normalerweise werden die Prod.-Programmplanung und der Nettobedarf gleichzeitig ausgeführt. Damit Prod.-Programmplanung und Nettobedarf gleichzeitig ausgeführt werden können, muss das Kontrollkästchen **Prod.-Prog.Pl./Nettobed. komb.** im Inforegister **Planung** im Fenster **Produktion Einrichtung** aktiviert sein.|  
     |**Startdatum**|Über dieses Datum wird die Lagerverfügbarkeit bewertet. Wenn die für einen Artikel verfügbare Menge unter dem Minimalbestand liegt (am Auftragsdatum), wird ab diesem Datum ein Beschaffungsauftrag vorausgeplant. Ist die Menge eines Artikels kleiner als dessen Sicherheitsbestand (am Auftragsdatum), wird ein Beschaffungsauftrag rückgesetzt, der am Auftragsstartdatum fällig ist.|  
     |**Enddatum**|Dies ist das Enddatum des Planungszeitraums. Nach diesem Datum wird weder Bedarf noch Vorrat berücksichtigt. Erstreckt sich der Bestellzyklus eines Artikels über das Enddatum hinaus, ist sich der effektive Planungszeitraum für diesen Artikel gleich Auftragsdatum + Bestellzyklus.<br /><br /> Der Planungszeitraum (-horizont) ist die Zeitspanne, über die sich der Plan erstreckt. Ist dieser Zeitraum zu kurz, werden Artikel mit längerer Beschaffungszeit nicht rechtzeitig bestellt. Ist dieser Zeitraum zu lang, wird zu viel Zeit mit dem Auswerten und Verarbeiten von Informationen verbracht, die sich wahrscheinlich geändert haben, bevor sie benötigt werden. Es ist möglich, einen Planungszeitraum für die Fertigung und einen längeren Planungszeitraum für Einkäufe festzulegen (dies ist aber nicht erforderlich). Ein Planungszeitraum für Einkäufe und Fertigung sollte so festgelegt sein, dass er die kumulierte Beschaffungszeit für Komponenten abdeckt.|  

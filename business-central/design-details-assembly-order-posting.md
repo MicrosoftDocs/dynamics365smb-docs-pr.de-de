@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7f90612764872875077de1dbe250b3d59582372f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetails: Montageauftragsbuchung
@@ -33,14 +33,14 @@ Die folgenden Buch.-Blattbuchungen treten während der Montageauftragsbuchung au
 
 Das folgende Diagramm zeigt die Struktur von Artikel- und Ressourcenposten, die aus der Montageauftragsbuchung resultieren.  
 
-![Ressource und Kapazitätskosten](media/design_details_assembly_posting_1.png "design_details_assembly_posting_1")  
+![Artikel, Ressource und Kapazitätsposten, die sich aus der Montageauftragsbuchung ergeben](media/design_details_assembly_posting_1.png "Artikel, Ressource und Kapazitätsposten, die sich aus der Montageauftragsbuchung ergeben")  
 
 > [!NOTE]  
 >  Arbeitsplätze und Arbeitsplatzgruppen sind enthalten, um zu veranschaulichen, dass Kapazitätsposten aus der Produktion sowie aus der Montage erstellt werden.  
 
 Die folgenden Diagramm zeigt, wie Montagedaten bei der Buchung in Buchungsposten eingehen.  
 
-![Datenfluss beim Buchen](media/design_details_assembly_posting_2.png "design_details_assembly_posting_2")  
+![Montage-verknüpfter Postenfluss bei der Buchung](media/design_details_assembly_posting_2.png "Montage-verknüpfter Postenfluss bei der Buchung")  
 
 ## <a name="posting-sequence"></a>Buchen der Sequenz  
 Die Buchung eines Montageauftrags erfolgt in der folgenden Reihenfolge:  
@@ -71,7 +71,7 @@ Die Entdeckungsfunktion auf Auftragsebene wird in Konvertierungsszenarien, der P
 
 Die folgende Grafik zeigt die Regulierungspostenstruktur und die Regulierung der Montagekosten.  
 
-![Berichtigungseintragstruktur](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Montage-verknüpfter Postenfluss bei der Kostenanpassung](media/design_details_assembly_posting_3.png "Montage-verknüpfter Postenfluss bei der Kostenanpassung")  
 
 ### <a name="performing-the-adjustment"></a>Preiskorrektur durchführen  
 Die Verteilung erkannter Regulierungen von Material- und Ressourcenkosten zu den Montageausgabeposten geschieht durch die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise**. Enthält die Funktion „Mehrstufiger Ausgleich“, die aus den folgenden zwei Elementen besteht:  
@@ -79,7 +79,7 @@ Die Verteilung erkannter Regulierungen von Material- und Ressourcenkosten zu den
 -   Nehmen Sie einen Montageauftrags-Ausgleich vor, welcher die Kosten aus dem Material- und Ressourcenverbrauch an den Montageausgangsposten weiterleitet. Zeilen 5 und 6 im nachstehenden Algorithmus sind dafür zuständig.  
 -   Nehmen Sie Ein-Niveau-Anpassungen vor, welche die Kosten für einzelne Artikel mithilfe ihrer Lagerabgangsmethode weiterleiten. Rubriken 9 und 10 im nachstehenden Algorithmus sind für dafür zuständig.  
 
-![Montage-Ausgleichsalgorithmus](media/design_details_assembly_posting_4.jpg "design_details_assembly_posting_4")  
+![Zusammenfassung des Kostenanpassungsregulierungsalgorithmus für Montagebuchung](media/design_details_assembly_posting_4.jpg "Zusammenfassung des Kostenanpassungsregulierungsalgorithmus für Montagebuchung")  
 
 > [!NOTE]  
 >  Das Element „WIP-Regulierungen“ auf den Zeilen 7 und 8 ist für die Weiterleitung von Produktionsmaterial und Kapazitätsnutzung an die Ausgabe nicht abgeschlossener Fertigungsaufträge verantwortlich. Dies wird nicht verwendet, wenn Montageauftragskosten reguliert werden, da der Begriff WIP nicht auf Montage angewendet wird.  

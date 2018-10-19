@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b31922d927b775e9aa90cf2a493e2f647663470c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4db6d9ca8a0a1db6363ace2e7fe4ce7d5daa26ba
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-sales-vat-advance-notifications-for-elster"></a>Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für ELSTER
@@ -27,11 +27,11 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] müssen Sie zuerst Folgende
 - Die Benutzerauthentifizierung für die Steuerbehörden.  
 - MwSt.-Abrechnung  
 
-Sie müssen Komponenten auch vom ELSTER-Portal herunterladen. Weitere Informationen finden Sie unter [ELSTER-Onlineportal](http://go.microsoft.com/fwlink/?LinkId=155998).  
+Sie müssen Komponenten auch vom ELSTER-Portal herunterladen. Weitere Informationen finden Sie unter [ELSTER-Onlineportal](https://go.microsoft.com/fwlink/?LinkId=155998).  
 
 ## <a name="to-set-up-company-information"></a>Um Unternehmensinformationen einzurichten:  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol "Nach Seite oder Bericht suchen"") aus, geben Sie **Unternehmensdaten** ein, und wählen Sie dann den verknüpften Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol \"Nach Seite oder Bericht suchen\"") aus, geben Sie **Unternehmensdaten** ein, und wählen Sie dann den verknüpften Link aus.  
 2.  Im Fenster **Firmendaten** im Inforegister **Allgemein**, im Feld **MwSt-Vertreter**, geben Sie die Kontaktperson für MwSt-bezogene Informationen ein.  
 3.  Füllen Sie im Inforegister **Steuerdienst** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -45,16 +45,16 @@ Sie müssen Komponenten auch vom ELSTER-Portal herunterladen. Weitere Informatio
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
-    |**HTTP-Server-URL 1**|Gibt eine kurze Beschreibung des Servers der Oberfinanzdirektion (OFD) an, wie **http://datenannahme1.elster.de/Elster2/EMS**.|  
-    |**HTTP-Server-URL 2**|Gibt eine kurze Beschreibung des Servers der Oberfinanzdirektion (OFD) an, wie **http://datenannahme2.elster.de/Elster2/EMS**.|  
-    |**HTTP-Server-URL 3**|Gibt eine kurze Beschreibung des Servers der Oberfinanzdirektion (OFD) an, wie **http://datenannahme3.elster.de/Elster2/EMS**.|  
-    |**HTTP-Server-URL 4**|Gibt eine kurze Beschreibung des Servers der Oberfinanzdirektion (OFD) an, wie **http://datenannahme4.elster.de/Elster2/EMS**.|  
+    |**HTTP-Server-URL 1**|Gibt eine kurze Beschreibung des Servers der Oberfinanzdirektion (OFD) an, wie **https://datenannahme1.elster.de/Elster2/EMS**.|  
+    |**HTTP-Server-URL 2**|Gibt eine kurze Beschreibung des Servers der Oberfinanzdirektion (OFD) an, wie **https://datenannahme2.elster.de/Elster2/EMS**.|  
+    |**HTTP-Server-URL 3**|Gibt eine kurze Beschreibung des Servers der Oberfinanzdirektion (OFD) an, wie **https://datenannahme3.elster.de/Elster2/EMS**.|  
+    |**HTTP-Server-URL 4**|Gibt eine kurze Beschreibung des Servers der Oberfinanzdirektion (OFD) an, wie **https://datenannahme4.elster.de/Elster2/EMS**.|  
 
     Jetzt müssen Sie die Benutzer angeben, die Belege an das ELSTER-Portal übermitteln können.  
 
 5.  Wählen Sie die **Zertifikate** Aktion aus.  
 
-    Weitere Informationen über ELSTER-Zertifikate finden Sie unter [ELSTER-Onlineportal](http://go.microsoft.com/fwlink/?LinkId=155998).  
+    Weitere Informationen über ELSTER-Zertifikate finden Sie unter [ELSTER-Onlineportal](https://go.microsoft.com/fwlink/?LinkId=155998).  
 
     1.  Im Fenster **Zertifikate** im Feld **Benutzer-ID**, geben Sie den Benutzer an, dem Sie die Berechtigung erteilen möchten, Dokumente an ELSTER zu senden.  
     2.  Wählen Sie die **Elster-Zertifikat hochladen** Aktion aus, und geben Sie die Zertifikatsdatei, z Coala2019.pem.cer an.  

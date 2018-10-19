@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1edc95588e9515d9ef4165e5e6b791bce03a1d4f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 32962687b1f1ba9e49ae89e295f1e665fe05f871
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-archived-workflow-step-instances"></a>Anzeigen von archivierten Workflowschritt-Instanzen
@@ -25,12 +25,12 @@ Alle abgeschlossenen Workflowschritt-Instanzen werden im Fenster **Archivierte W
  Im Fenster **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden. Weitere Informationen finden Sie unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
 ## <a name="to-view-archived-workflow-step-instances"></a>Anzeigen von archivierten Workflowschritt-Instanzen  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Workflows** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Workflows** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie den Workflow, für den Sie alle archivierten Workflowschritt-Instanzen anzeigen möchten.  
 3.  Wählen Sie im Fenster **Workflow** die Aktion **Archivierte Workflowschritt-Instanzen** aus.  
 
     Das Fenster **Archivierte Workflowschritt-Instanzen** wird geöffnet und zeigt der archivierten Workflowschritt-Instanzen des ausgewählten Workflows.  
-4.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Archivierte Workflowschritt-Instanzen** ein und wählen dann den zugehörigen Link aus.  
+4.  Alternativ wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ ](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **archivierte Workflowschritt-Instanzen** ein, und wählen dann den zugehörigen Link aus.  
 
 Alle abgeschlossenen Workflowschritt-Instanzen werden im Fenster**Archivierte Workflowinstanzen** gespeichert. Im **Worflwofcode**-Feld können Sie sehen, zu welchem Workflow die archivierte Workflowschrittinstanz gehörte.  
 

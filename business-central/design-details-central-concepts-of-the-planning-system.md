@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8eca3562639c864cb514b71c070d0fca4128d79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
 Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsvorschlag oder Bestellvorschlag.  
 
-![Planungsblatt](media/NAV_APP_supply_planning_1_planning_worksheet.png "NAV_APP_supply_planning_1_planning_worksheet")  
+![Fenster Inhalt des Planungsvorschlags](media/NAV_APP_supply_planning_1_planning_worksheet.png "Fenster Inhalt des Planungsvorschlags")  
 
 Der Planer eines Unternehmens, wie etwa ein Einkäufer oder ein Produktionsplaner, ist wahrscheinlich der Benutzer des Planungssystems. Das Planungssystem hilft dem Benutzer durch die Ausführung der umfangreichen aber insgesamt recht einfachen Berechnungen eines Plans. Der Benutzer kann sich dann auf die Lösung der komplizierteren Probleme konzentrieren, wenn keine Standardfälle vorliegen.  
 
-Das Planungssystem wird durch den erwarteten und den tatsächlichen Kundenbedarf gesteuert, etwa durch Planung und Verkaufsaufträge. Ein Ausführen der Planungsberechnung bewirkt, dass dem Benutzer bestimmte vorzunehmende Aktionen vorgeschlagen werden, die sich auf mögliche Beschaffungen von Kreditoren, auf die Montage oder Produktion oder auf Umlagerungen zu anderen Lagern beziehen. Diese vorgeschlagenen Aktionen sind etwa, neue Beschaffungsaufträge, wie Einkaufsbestellung oder Fertigungsaufträge zu erstellen. Wenn es bereits Beschaffungsaufträge gibt, könnten die vorgeschlagenen Aktionen so aussehen, dass die Aufträge vergrößert oder schneller erteilt werden sollen, damit den Bedarfsänderungen Rechnung getragen wird.  
+Das Planungssystem wird durch den erwarteten und den tatsächlichen Debitorenbedarf gesteuert, etwa durch Planung und Verkaufsaufträge. Ein Ausführen der Planungsberechnung bewirkt, dass dem Benutzer bestimmte vorzunehmende Aktionen vorgeschlagen werden, die sich auf mögliche Beschaffungen von Kreditoren, auf die Montage oder Produktion oder auf Umlagerungen zu anderen Lagern beziehen. Diese vorgeschlagenen Aktionen sind etwa, neue Beschaffungsaufträge, wie Einkaufsbestellung oder Fertigungsaufträge zu erstellen. Wenn es bereits Beschaffungsaufträge gibt, könnten die vorgeschlagenen Aktionen so aussehen, dass die Aufträge vergrößert oder schneller erteilt werden sollen, damit den Bedarfsänderungen Rechnung getragen wird.  
 
 Außerdem hat das Planungssystem die Aufgabe sicherzustellen, dass der Lagerbestand nicht unnötig wächst. Im Fall eines abnehmenden Bedarfs wird das Planungssystem vorschlagen, dass vorhandene Ersatzaufträge zurückgestellt, mengenmäßig verringert oder storniert werden sollten.  
 
@@ -57,7 +57,7 @@ Wenn beispielsweise der Benutzer einen Verkaufsauftrag eingibt oder ändert, suc
 
 Entsprechend kann die dynamische Auftragsnachverfolgung als Tool betrachtet werden, das dem Benutzer hilft, festzulegen, ob Beschaffungsauftragsvorschläge akzeptiert werden sollen. Aus Vorratssicht kann ein Benutzer sehen, welcher Bedarf den Vorrat erstellt hat, und aus Bedarfssicht, welcher Vorrat den Bedarf abdecken soll.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "NAV_APP_supply_planning_1_dynamic_order_tracking")  
+![Beispiel des dynamischen Bedarfsverursachers](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Beispiel des dynamischen Bedarfsverursachers")  
 
 Weiter Informationen finden Sie unter [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
 
@@ -70,11 +70,11 @@ Das Planungssystem behandelt das gesamte Vorrats- und Bedarfsmuster eines bestim
 
 Die dynamische Auftragsnachverfolgung richtet Verknüpfungen zwischen Bedarf und Vorrat ein, wenn Daten eingegeben werden, und zwar jeweils nach der ersten Eingabe. Dieses kann zu Störung in den Prioritäten führen. Beispielsweise kann ein zuerst mit einem Fälligkeitsdatum im nächsten Monat eingegebener Verkaufsauftrag mit dem Vorrat im Bestand verknüpft sein, während der nächste, morgen fällige, Verkaufsauftrag eine Aktionsmeldung auslöst, die besagt, dass zur Abdeckung ein neuer Einkaufsauftrag erstellt werden muss, wie nachfolgend illustriert.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "NAV_APP_supply_planning_1_dynamic_order_tracking_graph")  
+![Beispiel des Bedarfsverursachers in die Beschaffungsplanung 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Beispiel des Bedarfsverursachers in die Beschaffungsplanung 1")  
 
 Demgegenüber befasst sich das Planungssystem mit allen Bedarfen und Vorräten für einen bestimmten Artikel, in priorisierter Reihenfolge gemäß Fälligkeitsdaten und Auftragsarten, d.h. auf der Grundlage des Prinzips des ersten Bedarfs. Löscht alle Auftragsnachverfolgungslinks, die dynamisch erstellt wurden und stellt diese gemäß der Fälligkeitsdatumspriorität wieder her. Wenn das Planungssystem ausgeführt wurde, hat es alle gestörten Gleichgewichte zwischen Bedarf und Vorrat gelöst, wie unten für dieselben Daten angezeigt.  
 
-![](media/NAV_APP_supply_planning_1_planning_graph.png "NAV_APP_supply_planning_1_planning_graph")  
+![Beispiel der Auftragsnachverfolgung in die Beschaffungsplanung 2](media/NAV_APP_supply_planning_1_planning_graph.png "Beispiel der Auftragsnachverfolgung in die Beschaffungsplanung 2")  
 
 Nach der Planung bleiben keine Ereignismeldungen in der Ereignismeldungstabelle, da sie durch die vorgeschlagenen Aktionen im Planungsvorschlag ersetzt wurden  
 
@@ -88,7 +88,7 @@ Das Planungssystem in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist bedarfsges
 ### <a name="item-priority--low-level-code"></a>Artikelpriorität Stücklistenebene  
 In einer Produktionsumgebung wird der Bedarf für einen fertigen, verkäuflichen Artikel zu einem abgeleiteten Bedarf für Komponenten, die den produzierten fertigen Artikel enthalten, führen. Die Stücklistenstruktur steuert die Komponentenstruktur und kann mehrere Ebenen von halbfertigen Artikel enthalten. Die Absatzplanung eines Artikels in einer Ebene verursacht abgeleiteten Bedarf für Komponenten auf der nächsten Stufe, und so weiter. Schließlich führt dies zu abgeleitetem Bedarf für Einkaufsartikel. Deshalb plant das Planungssystem für Artikel nach ihrer Rangfolge in der gesamten Stücklistenhierarchie, beginnend mit den fertig gestellten absatzfähigen Artikeln oben und dann abwärts durch die Produktstruktur bis zu den Artikeln unterer Ebenen (nach dem Low-level-Code).  
 
-![](media/NAV_APP_supply_planning_1_BOM_planning.png "NAV_APP_supply_planning_1_BOM_planning")  
+![Planung für Stücklisten](media/NAV_APP_supply_planning_1_BOM_planning.png "Planung für Stücklisten")  
 
 Die Abbildungen illustrieren, in welcher Reihenfolge das System Vorschläge für Beschaffungsaufträge auf der obersten Ebene macht und, wenn der Benutzer diese Vorschläge akzeptiert, auch für Artikel auf unteren Ebenen.  
 
@@ -101,7 +101,7 @@ Dies wird durch die Verwendung von Lagerhaltungsdaten unterstützt, in denen ein
 
 Generell kann jeder Artikel an einem Lagerort bearbeitet werden, der Ansatz der Anwendung zum Lagerortkonzept ist jedoch sehr streng. Beispielsweise kann ein Verkaufsauftrag an einem Lagerort nicht durch eine vorrätige Menge an einem anderen Lagerort erfüllt werden. Die Menge im Lager muss dem zuerst zu dem Lagerort übertragen werden, der auf dem Verkaufsauftrag angegeben ist.  
 
-![](media/NAV_APP_supply_planning_1_SKU_planning.png "NAV_APP_supply_planning_1_SKU_planning")  
+![Planung für Lagerhaltungsdaten](media/NAV_APP_supply_planning_1_SKU_planning.png "Planung für Lagerhaltungsdaten")  
 
 Weitere Informationen finden Sie unter [Designdetails: Übertragung in der Planung](design-details-transfers-in-planning.md)  
 
@@ -110,10 +110,10 @@ In bestimmten Lagerhaltungsdaten zeigt das angeforderte oder verfügbare Datum d
 
 Weitere Informationen finden Sie unter [Designdetails: Aufträge priorisieren](design-details-prioritizing-orders.md).  
 
-## <a name="production-forecasts-and-blanket-orders"></a>Absatzplanungen und Rahmenaufträge  
-Planungen und Absatzplanungen stellen den voraussichtlichen Bedarf dar. Der Rahmenauftrag, der die geplanten Einkäufe eines Kunden über einen bestimmten Zeitraum hinweg umfasst, dient dazu, die Unsicherheiten des allgemeinen Plans zu reduzieren. Der Rahmenauftrag ist eine benutzerdefinierte Planung , zusätzlich zur nicht-spezifischen Planung, wie nachfolgend erläutert.  
+## <a name="demand-forecasts-and-blanket-orders"></a>Absatzplanungen und Rahmenaufträge Nachfrage  
+Planungen und Absatzplanungen stellen den voraussichtlichen Bedarf dar. Der Rahmenauftrag, der die geplanten Einkäufe eines Debitoren über einen bestimmten Zeitraum hinweg umfasst, dient dazu, die Unsicherheiten des allgemeinen Plans zu reduzieren. Der Rahmenauftrag ist eine benutzerdefinierte Planung , zusätzlich zur nicht-spezifischen Planung, wie nachfolgend erläutert.  
 
-![](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "NAV_APP_supply_planning_1_forecast_and_blanket")  
+![Planung mir Planung](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planung mir Planung")  
 
 Weitere Informationen finden Sie unter "Voraussichtlicher Bedarf nach Verkaufsaufträgen" unter [Designdetails: Auslastung der Lager-Profile](design-details-loading-the-inventory-profiles.md).  
 
@@ -202,7 +202,7 @@ Das Planungssystem schließt dennoch reservierte Mengen im Profil des voraussich
 
 Die folgende Abbildung zeigt, wie Reservierungen den optimalen Plan behindern können.  
 
-![](media/NAV_APP_supply_planning_1_reservations.png "NAV_APP_supply_planning_1_reservations")  
+![Planung mit Reservierungen](media/NAV_APP_supply_planning_1_reservations.png "Planung mit Reservierungen")  
 
 Weiter Informationen finden Sie unter [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
 
@@ -217,7 +217,7 @@ Die Warnungsinformationen werden im Fenster **Planungselemente ohne Bedarfsverur
 -   Ausnahme  
 -   Achtung  
 
-![](media/NAV_APP_supply_planning_1_warnings.png "NAV_APP_supply_planning_1_warnings")  
+![Warnungen im Planungsvorschlag](media/NAV_APP_supply_planning_1_warnings.png "Warnungen im Planungsvorschlag")  
 
 ### <a name="emergency"></a>Notfall  
 Die Warnung für einen Notfall wird in zwei Situationen angezeigt:  
@@ -254,7 +254,7 @@ Auf der Anforderungsseite „Plan berechnen“ kann der Benutzer das Feld **Abbr
 
 Wenn das Feld nicht aktiviert ist, wird die Stapelverarbeitung „Planung berechnen“ fortgesetzt, bis sie abgeschlossen ist. Fehler unterbrechen die Stapelverarbeitung nicht. Sind Fehler vorhanden, wird nach Beendigung der Stapelverarbeitung eine Meldung angezeigt, die mitteilt, wie viele Artikel betroffen sind. Danach wird das Fenster **Planungsfehlerprotokoll** geöffnet, in dem weitere Informationen zu den Fehlern sowie den Verknüpfungen für die betroffenen Dokumente oder Setupkarten bereitgestellt werden.  
 
-![](media/NAV_APP_supply_planning_1_error_log.png "NAV_APP_supply_planning_1_error_log")  
+![Fehlermeldungen im Planungsvorschlag](media/NAV_APP_supply_planning_1_error_log.png "Fehlermeldungen im Planungsvorschlag")  
 
 ## <a name="planning-flexibility"></a>Planungsflexibilität  
 Es ist jedoch nicht immer nützlich, einen vorhandenen Beschaffungsauftrag zu planen, z.B. wenn die Produktion gestartet hat oder zusätzliche Personen an einem bestimmten Tag zur Ausführung der Arbeit abgestellt werden. Um anzugeben ob ein bestehender Auftrag vom Planungssystem geändert werden kann, verfügen alle Beschaffungsauftragszeilen über ein Feld mit zwei Optionen: Unbegrenzt oder Keine. Wenn das Feld auf Keine festgelegt wurde, versucht das Planungssystem nicht, die Beschaffungsauftragszeile zu ändern.  

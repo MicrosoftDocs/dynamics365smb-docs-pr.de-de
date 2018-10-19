@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/02/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 62a03a5ed1f3e286c203afca84614513e3634f5e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: eeb73ec964441da0f655b2900e2cb22a1ea492e5
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="adding-extended-item-text"></a>Textbausteine hinzufügen
+# <a name="add-extended-item-text"></a>Hinzufügen von Textbausteinen
 Sie können einen Standardtext für Artikel durch Hinzufügen weiterer Zeilen erweitern, und Sie können Bedingungen für die Verwendung der zusätzlichen Zeilen vorgeben. Sie können dies von Ihrem Artikelkarten aus tun.
 
 ## <a name="to-define-extended-text-for-an-item-description"></a>Textbausteine für eine Artikelbeschreibung definieren

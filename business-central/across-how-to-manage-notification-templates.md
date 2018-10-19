@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d6c7637527c9a93024ee62dbdd32ba63d665661d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-notification-templates"></a>Verwalten von Benachrichtigungsvorlagen
@@ -27,7 +27,7 @@ Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, we
  Die allgemeine Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält drei Benachrichtigungsvorlagen: eine für die Benachrichtigung über Genehmigungsanforderungen, eine für die Benachrichtigung über neue Datensätze und eine für die Benachrichtigung über fällige Genehmigungsanforderungen. Die drei vordefinierten Benachrichtigungsvorlagen unterstützen **E-Mail** und **Notizen** als Benachrichtigungsmethode. Informationen zum Anzeigen des Inhalts der drei Benachrichtigungsvorlagen finden Sie im Abschnitt „ Inhalt der Benachrichtigungsvorlagen“ in diesem Thema.
 
 ## <a name="to-create-a-new-notification-template"></a>So erstellen Sie eine neue Benachrichtigungsvorlage.  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Benachrichtigungsvorlagen** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benachrichtigungs-Vorlage** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie im Fenster **Benachrichtigungsvorlagen** die Aktion **Neu** aus.  
 3.  Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -40,7 +40,7 @@ Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, we
     |**Standard**|Geben Sie an, ob die Benachrichtigungsvorlage standardmäßig verwendet werden soll.|  
 
 ## <a name="to-modify-a-notification-template"></a>So ändern Sie eine Benachrichtigungsvorlage  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Benachrichtigungsvorlagen** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benachrichtigungs-Vorlage** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie im Fenster **Benachrichtigungsvorlagen** die Benachrichtigungsvorlage aus, die Sie bearbeiten möchten.  
 3.  Wählen Sie die Aktion **Vorlageninhalt exportieren** aus.  
 4.  Klicken Sie im Fenster **Datei exportieren** auf die Schaltfläche **Speichern**, wählen Sie dann einen Namen für die HTML-Datei aus, und speichern Sie die Datei am gewünschten Speicherort.  

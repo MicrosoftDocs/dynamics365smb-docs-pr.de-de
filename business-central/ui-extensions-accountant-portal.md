@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: cb4933268be7f0a571622e6d8eccec6bd9ee2d09
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 26b911718a9741cd070af131aef3d258fd85e1eb
 ms.contentlocale: de-de
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="accountant-portal-for-business-central"></a>Buchhalter Portal für  Business Central
+# <a name="the-accountant-portal-for-business-central-extension"></a>Das Buchhalterportal für die Business Central-Erweiterung
 Diese Anwendung bietet ein Portal mit Zusammenfassungsdaten für jeden Client eines Buchhalters. Das Portal zeigt Finanz-KPIs sowie eine direkte Verknüpfung der Finanz-Anwendung des Clients an.  
 
 Das Portal umfasst ein spezialisiertes Rollencenter, das als Dashboard für einen besseren Überblick über Ihre Clients dient.  

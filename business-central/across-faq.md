@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
-ms.date: 08/15/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 55e1dd3f9f7a85867f5609190c4766839326ca7a
 ms.contentlocale: de-de
-ms.lasthandoff: 07/30/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
@@ -26,7 +26,7 @@ Dieser Abschnitt enthält Antworten auf häufig gestellte Fragen zur Anmeldung u
 Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erhalten Sie eine Meldung die angibt, eine Arbeits- oder Schul-E-mail-Adresse zu verwenden. Weitere Informationen finden Sie unter [Problembehandlung zur Self-Service-Registrierung](ui-troubleshoot-self-signup.md).  
 
 ## <a name="do-i-have-to-buy-office-365"></a>Muss ich Office 365 kaufen?
-Nr. Wenn Sie allerdings möchten, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] vollständig in Office 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion von Office 365 [hier](https://products.office.com/try) anmelden.  
+Nein. Wenn Sie allerdings möchten, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] vollständig in Office 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion von Office 365 [hier](https://products.office.com/try) anmelden.  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Worum gehts bei der Integration mit Office 365?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist vollständig in Office 365 integriert, sodass Sie mithilfe des Office 365 App-Startfelds unabhängig zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] Anwendungen navigieren können. Im [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten in Outlook arbeiten. Weitere Informationen finden Sie unter [Nutzen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md).  
@@ -55,15 +55,8 @@ Wenn Sie Zugriff auf Microsoft CustomerSource haben, können Sie mit eLearning-M
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist in einer begrenzten Anzahl von Märkten verfügbar. Neue Länder werden über eine von Microsoft geführte Lokalisation oder durch partnergeführte Lokalisation quartalsweise hinzugefügt. Weitere Informationen finden Sie unter [Unterstützte Länder und Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Warum sind einige Benutzeroberflächenelemente, die ich nutzte in Dynamics NAV nicht sichtbar in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] aktivieren das Anwendungsbereichssystem und die Erfahrungsoptionen, die wichtige Teile des Produkts entsprechend dem eingekauften Plan (Basis oder Premium) und entsprechend den Unternehmensanforderungen darstellen.
-
-Diese Funktionen wurden verwendet, um die Benutzeroberfläche in der Standardeinstellung von  [!INCLUDE[d365fin](includes/d365fin_md.md)] zu vereinfachen. Beispielsweise werden Felder, die in der Regel nicht genutzt werden wie **Faxnr.** häufig entfernt und auf Menübändern von Listen und Karten werden doppelte Aktionen entfernt und die meistverwendeten Aktionen gefördert. Einige vollständige Funktionen wie Bemerkungen werden nur für den Webclienten optimiert und sind deshalb nicht in [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar.
-
-Entsprechend sind bestimmte Benutzeroberflächenelemente, die in Standardeinstellung von Dynamics NAV sichtbar sind, nicht in [!INCLUDE[d365fin](includes/d365fin_md.md)] sichtbar. Die fraglichen Steuerelemente haben das #Advanced Anwendungsbereichstag.
-
-Wenn Sie möchten, das Ihre Lösung [!INCLUDE[d365fin](includes/d365fin_md.md)] dieselben Benutzeroberflächenelemente wie Ihre Lösung Dynamics NAV enthalten, brauchen Sie mehrere Schritte in der Entwicklungsumgebung um die #Advanced Steuerelemente durch Erweiterung zu nehmen. Weitere Informationen über den Anwendungsbereich finden Sie unter [Anwendungsbereich erweitern](/dynamics365/dev-itpro/developer/devenv-extending-application-areas).
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Warum beschreibt Hilfe Funktionalität, auf die ich nicht zugreifen kann?
+Wenn Ihre Benutzeroberfläche, die im Fenster **Firmendaten** festgelegt, auf **Wesentlich** festgelegt ist, dann sind Benutzeroberflächenelemente für die Fertigung und Dienstleistungs-Verwaltungsfunktionen für Sie nicht sichtbar, da sie die Benutzeroberfläche **Premium** erfordern. Ein Text-Hinweis wird in den obersten Hilfethemenebenen für diese Funktionsbereiche eingefügt. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).    
 
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  

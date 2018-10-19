@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5f66e2f3a40bb3ac680838f1e74416d3876f3979
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importieren und Exportieren von einem benutzerdefinierten Bericht
@@ -27,7 +27,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
   
 ### <a name="to-export-a-report-layout-to-a-file"></a>So exportieren Sie ein Berichtslayout in eine Datei.  
   
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Berichtauswahl** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Berichtslayout-Auswahl** ein, und wählen dann den zugehörigen Link aus.  
   
 2.  Wählen Sie die Zeile für den Bericht, der das benutzerdefinierte Berichtslayout enthält, das Sie exportieren möchten, und wählen Sie dann auf der Registerkarte **Start** in der gruppe **Prozess** **Benutzerdefinierte Layouts**.  
   
@@ -41,7 +41,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
   
      Eine Word-Berichtslayoutdatei muss die Erweiterung .docx haben. eine RDLC-Layoutdatei muss die die Erweiterung .rdlc oder .rdl haben.  
   
-2.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Berichtauswahl** ein. Wählen Sie dann den zugehörigen Link aus.  
+2.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Berichtslayout-Auswahl** ein, und wählen dann den zugehörigen Link aus.  
   
 3.  Wählen Sie die Zeile für den Bericht, in den Sie das Berichtslayout importieren möchten, und wählen Sie dann auf der Registerkarte **Start** in der Gruppe **Prozess** **Benutzerdefinierte Layouts**.  
   

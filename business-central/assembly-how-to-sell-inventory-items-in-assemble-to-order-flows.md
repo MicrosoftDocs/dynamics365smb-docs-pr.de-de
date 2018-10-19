@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97b79683ba6c770912349c772f1f7adb443b94ed
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen
@@ -35,7 +35,7 @@ Dieses Szenario ist selten, da Auftragsmontageartikel normalerweise immer indivi
 Bei diesem Verfahren ersetzen Sie Auftragsmontagemengen durch Lagerbestandsmengen auf einer Verkaufsauftragszeile. Zu den Schritten gehören das Erkennen dieser Verfügbarkeit, das Abziehen dieser Menge von dem verknüpften Montageauftrag und dann die Reservierung der Lagermenge, um sicherzustellen, dass sie für den Auftrag kommissioniert und geliefert wird.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus, geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
 2.  Erstellen Sie einen Auftrag. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)  
 3.  Geben Sie auf einer Verkaufsauftragszeile für einen Auftragsmontageartikel im Feld **Menge** die verlangte Menge ein.  
 4.  Sehen Sie in der Infobox **VK-Zeilendetails** nach, ob die gesamte oder ein Teil der verlangten Menge verfügbar ist.  

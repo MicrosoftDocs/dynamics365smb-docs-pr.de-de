@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Kunden, die Dynamics 365 for Sales nutzen| Microsoft Docs
+title: Verwalten von Debitoren, die Dynamics 365 for Sales nutzen| Microsoft Docs
 description: "Sie können Dynamics 365 for Sales aus  Business Central. nutzen, um Daten zu verknüpfen und eine nahtlose Integration und Synchronisation der führenden Prozesse sicherzustellen."
 documentationcenter: 
 author: edupont04
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 07/02/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 33987f37c170af9982b86baf20f0c3e0682de2cd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 057db7c39834c7be0fb93589e4fc58d740dd259c
 ms.contentlocale: de-de
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten
@@ -38,8 +38,8 @@ In der folgenden Tabelle sind die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Da
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|Verkauf|Synchronisierungsrichtung|Standardfilter|
 |-------------------------------------------|-----|-------------------------|--------------|
 |Verkäufer/Einkäufer|Benutzer|Sales -> Business Central|Vertriebskontaktfilter: **Status** ist **Nein**, **Benutzer lizenziert** **Ja** ist, Integrationsbenutzer Modus ist **Nein**|
-|Debitor|Konto|Business Central -> Sales and Sales -> Business Central|Sales-Kontenfilter: **Verhältnisart** ist **Kunde** und **Status** ist **Aktiv**.|
-|Kontakt|Kontakt|Business Central -> Sales and Sales -> Business Central|Business Central Kontaktfilter: **Art** ist **Person** und der Kontakt wird einem Unternehmen zugewiesen. Sales Kontaktfilter: Kontakt wird einem Unternehmen zugeordnet und die übergeordnete Kundenart ist **Konto**.|
+|Debitor|Konto|Business Central -> Sales and Sales -> Business Central|Sales-Kontenfilter: **Verhältnisart** ist **Debitor** und **Status** ist **Aktiv**.|
+|Kontakt|Kontakt|Business Central -> Sales and Sales -> Business Central|Business Central Kontaktfilter: **Art** ist **Person** und der Kontakt wird einem Unternehmen zugewiesen. Sales Kontaktfilter: Kontakt wird einem Unternehmen zugeordnet und die übergeordnete Debitorenart ist **Konto**.|
 |Währung|Transaktionswährung|Business Central -> Sales| |
 |Maßeinheit|Einheiten-Gruppe|Business Central -> Sales| |
 |Option|Produkt|Business Central -> Sales and Sales -> Business Central|Vertriebskontaktfilter: **Produkt-Typ** ist **Verkaufs-Lager**|
@@ -73,7 +73,7 @@ Die folgende Tabelle beschreibt Regeln, die die Synchronisierung zwischen Busine
 
 |Tisch|Regel|
 |-----|----|
-|Debitoren|Bevor ein Kunde mit einem Konto synchronisiert werden kann, muss der Vertriebsmitarbeiter, der dem Kunde zugewiesen ist, mit einem Benutzer in Sales gekoppelt werden. Wenn Sie das Kunden Dynamics 365 for Sales Synchronisierungsprojekt ausführen und wenn Sie es so einrichten, dass neue Datensätze erstellt werden, achten Sie darauf, dass Sie Vertriebsmitarbeiter mit Sales-Benutzern synchronisieren, bevor Sie Kunden mit Sales-Konten synchronisieren. <br /> <br />Das Kunden - Dynamics 365 for Sales Synchronisierungsprojekt synchronisiert nur Sales-Konten, die die Verhältnisart Kunde haben.|
+|Debitoren|Bevor ein Debitor mit einem Konto synchronisiert werden kann, muss der Verkäufer, der dem Debitor zugewiesen ist, mit einem Benutzer in Sales gekoppelt werden. Wenn Sie das Debitoren Dynamics 365 for Sales Synchronisierungsprojekt ausführen und wenn Sie es so einrichten, dass neue Datensätze erstellt werden, achten Sie darauf, dass Sie Verkäufer mit Sales-Benutzern synchronisieren, bevor Sie Debitoren mit Sales-Konten synchronisieren. <br /> <br />Das Debitoren - Dynamics 365 for Sales Synchronisierungsprojekt synchronisiert nur Sales-Konten, die die Verhältnisart Debitor haben.|
 |Kontakte|Nur Kontakte in Sales, die mit einem Konto verknüpft sind, werden in Business Central erstellt. Der Verkäufer-Codewert definiert den Besitzer der gekoppelten Einheit im Verkauf.|
 |Währungen|Währungen werden an Transaktionswährungen in Sales basierend auf ISO-Codes gekoppelt. Nur Währungen, die einen Standard-ISO-Code haben, werden mit Transaktionswährungen gekoppelt und synchronisiert.|
 |Einheiten|Maßeinheiten werden mit Einheitengruppen in Sales synchronisiert. Es kann nur eine Einheit in der Einheitengruppe definiert sein.|
@@ -99,7 +99,7 @@ Um eine vorhandene Sales-Lösung zu importieren, verwendet das Einrichtungshandb
 * Systemadministrator  
 * Lösungsanpasser  
 
-Weitere Informationen finden Sie unter [Benutzer erstellen und Microsoft Dynamics 365 (online) Sicherheitsrollen zuweisen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) u[Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md).  
+Weitere Informationen finden Sie unter [Benutzer erstellen und Microsoft Dynamics 365 (online) Sicherheitsrollen zuweisen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) und [Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md).  
 
 Dieses Konto wird nur bei der Einrichtung verwendet. Sobald die Lösung in [!INCLUDE[d365fin](includes/d365fin_md.md)] importiert wurde, wird das Konto nicht mehr erforderlich.
 
@@ -117,12 +117,12 @@ Wenn Sie Konten in Sales als Debitor in [!INCLUDE[d365fin](includes/d365fin_md.m
 
 In bestimmten Bereichen beruht die Funktionalität auf Sie bestimmten Datensätze vor anderen Datensätzen, wie in der folgenden Liste angezeigt:
 
-* Kunden und Konten  
+* Debitoren und Konten  
   * Koppelt Verkäufer mit Sales Benutzern zuerst  
 * Artikel und Ressourcen  
   * Koppelt Maßeinheiten mit Sales Einheitengruppe zuerst  
 * Artikel und Ressourcenpreise  
-  * Koppelt Kundenpreisgruppen mit Sales-Preisen zuerst  
+  * Koppelt Debitorenpreisgruppen mit Sales-Preisen zuerst  
 
 > [!NOTE]  
 >   Wenn Sie Verkaufspreise in Fremdwährungen verwenden, stellen Sie sicher, dass Sie Währungen mit Sales-Transaktionswährungen koppeln.
@@ -147,7 +147,7 @@ Wenn die Artikelbeschreibung des ursprünglichen Verkaufsauftrag sehr lang ist, 
 [Marketing & Vertrieb](marketing-relationship-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)  
-[Benutzer und ihre Berechtigungen verwalten.](ui-how-users-permissions.md)    
+[Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)    
 [Holen Sie Ihre Organisation und Benutzer zu Dynamics 365 (Online) an Bord](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

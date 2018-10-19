@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 368fa149736392431a9756d416a1711d95130780
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b2d32111fe1b5510f7c1dc2412627d5df9e7ccc3
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
@@ -81,14 +81,14 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 -   Installieren von [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 -   Machen Sie sich anhand der nachfolgenden Schritte selbst zu einem Lagermitarbeiter am Standort WHITE:  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Lagerhaus-Mitarbeiter** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagermitarbeiter** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto im Fenster **Benutzer** aus.  
 3.  Geben Sie im Feld **Lagerortcode** WHITE ein.  
 4.  Wählen Sie das Feld **Standard** aus.  
 
 Bereiten Sie den Lagerort WHITE folgendermaßen für die Montageverarbeitung vor:  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Lagerplätze** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie die Lagerortkarte für den Lagerort WHITE.  
 3.  Im Inforegister **Lagerplätze** geben Sie **W-10-0001** im Feld **Mont.-Bereitst.-Lagerplatzcode** ein.  
 
@@ -100,7 +100,7 @@ Bereiten Sie den Lagerort WHITE folgendermaßen für die Montageverarbeitung vor
 
 Entfernen Sie die Standard-Beschaffungszeit für interne Vorgänge, indem Sie die folgenden Schritte befolgen:  
 
-1.  Um das Fenster Marketing einzurichten, wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben **Herstellung einrichten** ein und wählen den entsprechenden Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Produktion Einrichtung** ein, und wählen dann den zugehörigen Link aus.  
 2.  Im Fenster **Produktion Einrichtung** im Inforegister **Planung**, löschen Sie den Wert im Feld **Vorg. Sich.-Zuschl. Besch.-Zt.** Feld.  
 
 Erstellen Sie Bestand für Montagekomponenten, indem Sie die Anweisungen im Abschnitt "Vorbereiten von Beispieldaten" in dieser Anleitung befolgen.  
@@ -108,7 +108,7 @@ Erstellen Sie Bestand für Montagekomponenten, indem Sie die Anweisungen im Absc
 ## <a name="story"></a>Hintergrund  
 Am 23. Januar akzeptiert Martha, die Verkaufsauftragsverarbeiterin, einen Auftrag von The Device Shop für drei Einheiten von Kit B, wobei es sich um einen ATO-Artikel handelt. Alle drei Einheiten werden individuell angepasst und müssen eine leistungsstarke Grafikkarte und einen zusätzlichen RAM-Block enthalten. Die Laufwerke werden auf DWD aktualisiert, da die CD-Laufwerke nicht verfügbar sind. Martha weiß, dass die Einheiten sofort montiert werden können, sie lässt daher das vorgeschlagene Lieferdatum vom 23. Januar unverändert.  
 
-Gleichzeitig bestellt der Kunde fünfzehn Einheiten von Kit A mit der speziellen Anforderung, dass fünf Einheiten mit der leistungsstarken Grafikkarte ausgerüstet werden. Obwohl Kit A typischerweise ein Bestandsfertigungsartikel ist, kombiniert die Auftragsbearbeiterin die Verkaufszeilenmengen, um zehn Einheiten aus dem Lagerbestand zu verkaufen und fünf Einheiten gemäß diesem Auftrag zu montieren. Die zehn Einheiten von Kit A sind nicht verfügbar und müssen gemäß der Montagerichtlinie des Artikels zuerst durch einen Montageauftrag in den Bestand eingefügt werden. Martha erfährt aus der Montageabteilung, dass Einheiten von Kit A in der laufenden Woche nicht fertiggestellt werden können. Sie setzt das Lieferdatum der zweiten Verkaufsauftragszeile, für die gemischte ATO- und Bestandsmenge, auf den 27. Januar fest und informiert den Kunden, dass die 15 Einheiten von Kit A vier Tage später geliefert wurden, als die drei Einheiten von Kit B. Um der Versandabteilung mitzuteilen, dass dieser Verkaufsauftrag Montageverarbeitung erfordert, erstellt sie den Warenausgangsbeleg aus dem Verkaufsauftrag.  
+Gleichzeitig bestellt der Debitor fünfzehn Einheiten von Kit A mit der speziellen Anforderung, dass fünf Einheiten mit der leistungsstarken Grafikkarte ausgerüstet werden. Obwohl Kit A typischerweise ein Bestandsfertigungsartikel ist, kombiniert die Auftragsbearbeiterin die Verkaufszeilenmengen, um zehn Einheiten aus dem Lagerbestand zu verkaufen und fünf Einheiten gemäß diesem Auftrag zu montieren. Die zehn Einheiten von Kit A sind nicht verfügbar und müssen gemäß der Montagerichtlinie des Artikels zuerst durch einen Montageauftrag in den Bestand eingefügt werden. Martha erfährt aus der Montageabteilung, dass Einheiten von Kit A in der laufenden Woche nicht fertiggestellt werden können. Sie setzt das Lieferdatum der zweiten Verkaufsauftragszeile, für die gemischte ATO- und Bestandsmenge, auf den 27. Januar fest und informiert den Debitoren, dass die 15 Einheiten von Kit A vier Tage später geliefert wurden, als die drei Einheiten von Kit B. Um der Versandabteilung mitzuteilen, dass dieser Verkaufsauftrag Montageverarbeitung erfordert, erstellt sie den Warenausgangsbeleg aus dem Verkaufsauftrag.  
 
 Jürgen, der Planer, führt das Planungsarbeitsblatt und erstellt einen Montageauftrag für zehn Standardeinheiten aus Kit A mit einem internen Fälligkeitsdatum am 27. Januar.  
 
@@ -134,7 +134,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 ## <a name="setting-up-the-sample-data"></a>Einrichten der Beispieldaten  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Fibu Buchblatt** ein und wählen den zugehörenden Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Artikel Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie das Feld **Buch.-Blattname**, und wählen Sie anschließend das Standardjournal aus.  
 3.  Erstellen Sie positive Lagerregulierungen am Lagerort WHITE am Arbeitsdatum 23. Januar, indem Sie die folgenden Informationen eingeben.  
 
@@ -151,14 +151,14 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Synchronisieren Sie anschließend die neuen Lagereinträge mit dem Bestand.  
 
-5.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Fibu Buchblatt** ein und wählen den zugehörenden Link aus. Das Fenster  **Artikel Buch.-Blatt** wird geöffnet.  
+5.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Artikel Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus. Das Fenster  **Artikel Buch.-Blatt** wird geöffnet.  
 6.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Ausgleich berechnen** aus.  
 7.  Um die Funktion **Ausgleich berechnen** auszuführen, wählen Sie die Schaltfläche **OK** aus.  
 8.  Wählen Sie im Fenster **Artikeljournal** auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Buchen**, und klicken Sie dann auf die Schaltfläche **Ja**  
 
 ### <a name="creating-the-assembly-items"></a>Erstellen der Montageartikel  
 
-1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Neu** aus.  
 3.  Erstellen Sie den ersten Montageartikel auf der Grundlage der folgenden Informationen.  
 
@@ -205,11 +205,11 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     |Artikel|80005|1|  
     |Artikel|80014|1|  
     |Artikel|80210|1|  
-    |Ressource|Linda|1|  
+    |Ressource|Laura|1|  
 
 ### <a name="selling-the-assembly-items"></a>Verlaufen der Montageartikel  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus, geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Neu** aus.  
 3.  Erstellen Sie zwei Verkaufsauftragszeilen für Debitor 62000, The Device Shop, am Arbeitsdatum mit den folgenden Informationen.  
 
@@ -262,7 +262,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planen für die nicht verfügbaren ATS-Artikel  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") aus und geben Sie **Arbeitszeitplanung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Planungsvorschlag** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie auf der Registerkarte **Aktion** in der Gruppe **Funktionen** die Option **Neuplanung berechnen** aus.  
 3.  Stellen Sie im Fenster **Planung berechnen** die folgenden Filter ein.  
 
@@ -280,7 +280,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montieren und Versenden der ersten ATO-Menge  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Fibu Buchblatt** ein und wählen den zugehörenden Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Neuer Warenausgang** ein, und wählen dann den zugehörigen Link aus.  
 
     > [!NOTE]  
     >  In diesem Abschnitt ist die Person, die für die Lieferung verantwortlich ist, für die Registrierung der abgeschlossenen ATO-Montagearbeit auf der Warenausgangszeile zuständig. Dieser Workflow kann in Umgebungen vorkommen, in denen die Montagearbeit von der Person, die für die Lieferung verantwortlich ist, bzw. von Montagearbeitern im Auslieferungsbereich durchgeführt wird.  
@@ -299,7 +299,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Führen Sie dann die Aufgaben des Komissionierers aus.  
 
-4.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Auswahl** ein und wählen dann den zugehörigen Link aus.  
+4.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus.  
 5.  Öffnen Sie den Kommissionierbeleg, den Sie in Schritt 3 in diesem Abschnitt erstellt haben.  
 
     Beachten Sie den Wert im Feld **Quelldokument** und dass alle Kommissionierzeilen für Montagekomponenten gelten.  
@@ -340,7 +340,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Montieren und erfassen der zweiten ATO-Menge  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Montageaufträge** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Montageauftrag** ein, und wählen dann den zugehörigen Link aus.  
 
     Beachten Sie, dass das der ATO-Auftrag für gelieferte Einheiten von Kit B noch in der Liste ist, obwohl **Verbleibende Menge** leer ist. Dies liegt daran, dass der verknüpfte Verkaufsauftrag noch nicht vollständig fakturiert ist.  
 
@@ -364,7 +364,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 ### <a name="assembling-the-ats-quantity"></a>Montieren der ATS-Menge  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Montageaufträge** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Montageauftrag** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie den Montageauftrag für zehn Einheiten des Kit A.  
 
     Beachten Sie, dass das Feld **Montagemenge** mit der erwarteten Menge ausgefüllt wird.  
@@ -376,7 +376,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Führen Sie dann die Aufgaben des Komissionierers aus.  
 
-5.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Auswahl** ein und wählen dann den zugehörigen Link aus.  
+5.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus.  
 6.  Öffnen Sie den Kommissionierbeleg, den Sie in Schritt 4 in diesem Abschnitt erstellt haben.  
 
      Registrieren Sie dann die Kommissionierung, ohne die Standardinformationen zu ändern.  
@@ -392,7 +392,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Lieferung der übrigen Artikel, teilweise aus dem Lagerbestand und teilweise nach Auftrag montiert  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Fibu Buchblatt** ein und wählen den zugehörenden Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Neuer Warenausgang** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie den neuesten Warenausgang, der am Lagerort WHITE erstellt wurde.  
 
     Beachten Sie, dass in der Zeile für zehn Einheiten von Kit A das Feld **Versandmenge** und **Ausgewählte Menge** leer ist.  
@@ -403,7 +403,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Führen Sie dann die letzte Aufgabe der Auswahl für diesen Warenausgang aus.  
 
-4.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Auswahl** ein und wählen dann den zugehörigen Link aus.  
+4.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus.  
 5.  Öffnen Sie den Kommissionierbeleg, den Sie in Schritt 3 in diesem Abschnitt erstellt haben.  
 
     Beachten Sie, dass dieser Kommissionierbeleg für Montageartikel gilt, nicht für Montagekomponenten.  
@@ -423,7 +423,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Das Warenausgangdokument wird entfernt, was angibt, dass die entsprechenden Lageraktivitäten ausgeführt wurden. Als Nächstes überprüfen Sie, dass der Verkaufsauftrag verarbeitet wurde.  
 
-10. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus, geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link aus.  
+10. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
 11. Öffnen Sie den Verkaufsauftrag für The Device Shop.  
 
     Beachten Sie, dass das Feld **Versandte Menge** die gesamte Menge in beiden Zeilen enthält.  

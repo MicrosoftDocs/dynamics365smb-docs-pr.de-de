@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 264788142ab4f2a84df3e1c9da6e39503a7e820f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 27b50b9471c8dccb7da8750bbd57e34774ff6115
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten.
@@ -41,7 +41,7 @@ Im folgenden Verfahren haben Sie dem Debitor das Konfigurationspaket bereitgeste
     >  Ändern Sie das Rollencenter erst, nachdem Sie die Konfiguration des Mandanten abgeschlossen haben. Wenn Sie weitere Einrichtungsdetails zu berücksichtigen haben, verwenden Sie erst das Konfigurationsarbeitsblatt, um mit Ihrer Arbeit fortzufahren. Kehren Sie dann zu dem Assistenten zurück, um Ihr Rollencenterprofil zu aktualisieren, oder wählen Sie auf der Registerkarte Start die Option **Vollständiges Setup** aus.
 
 7. Wählen Sie die Schaltfläche **OK** aus.  
-8. Um sicherzustellen, dass die Konfigurationsinformationen für den neuen Mandanten übernommen wurden, geben Sie im Feld ![Suchen nach Firmendaten oder Berichten](media/ui-search/search_small.png "Suchen nach Firmendaten oder Berichten") ein, wählen **Unternehmensinformation**und wählen Sie dann den zugehörigen Link aus.
+8. Um sicherzustellen, dass die Konfigurationsinformationen für den neuen Mandanten übernommen wurden, geben Sie im Feld ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") ein, wählen **Unternehmensinformation**und wählen Sie dann den zugehörigen Link aus.
 
 Das Fenster **Firmendaten** enthält Informationen, die Sie festgelegt haben.   
 

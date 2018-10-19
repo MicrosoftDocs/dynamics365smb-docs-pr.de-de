@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3da91acf2cb852cd570f4be0222ffcb6b2fc0248
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b3e2177a70bbe8b027566cf9a9d992240f5a862c
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="elster-transmission-overview"></a>ELSTER-Übermittlung – Übersicht
@@ -37,19 +37,19 @@ Wenn ein Benutzer eine Umsatzsteuervoranmeldung von [!INCLUDE[d365fin](../../inc
 Die Microsoft.Dynamics.ElsterTransferHandler-Assembly ist für die Aufbereitung vor der Übermittlung an die OFD sowie die Verarbeitung des Antwortdokuments vor der Rückgabe an das Programm zuständig.  
 
 ## <a name="compression"></a>Komprimierung  
-Das verwendete Komprimierungsverfahren ist GZIP. Eine Komprimierungsmethode, die Datenintegrität anhand einer Redundanzprüfung gewährleistet. Weitere Informationen finden Sie unter [System.IO.Compression.GZipStream](http://go.microsoft.com/fwlink/?LinkId=200710) in MSDN-Bibliothek. Bestimmte Teile der Dokumente werden mithilfe des GZIP-Verfahrens komprimiert.  
+Das verwendete Komprimierungsverfahren ist GZIP. Eine Komprimierungsmethode, die Datenintegrität anhand einer Redundanzprüfung gewährleistet. Weitere Informationen finden Sie unter [System.IO.Compression.GZipStream](https://go.microsoft.com/fwlink/?LinkId=200710) in MSDN-Bibliothek. Bestimmte Teile der Dokumente werden mithilfe des GZIP-Verfahrens komprimiert.  
 
 Das Antwortdokument wird ebenfalls mithilfe dieses Verfahrens komprimiert. Der Handler muss die Daten vor der Rückgabe an die Anwendung dekomprimieren.  
 
 ## <a name="encryption"></a>Verschlüsselung  
-Der Standard, der für Verschlüsselung verwendet wird, lautet PKCS#7v1.5. Weitere Informationen finden Sie unter [System.Security.Cryptography.Pkcs.EnvelopedCms](http://go.microsoft.com/fwlink/?LinkId=200708) in der MSDN-Bibliothek. Mit diesem Verfahren werden nicht nur die Daten, sondern auch Empfängerinformationen in Form eines Zertifikats von der OFD verschlüsselt. Diese Verschlüsselung basiert auf einer asymmetrischen Methode, durch das sichergestellt ist, dass die Daten nur vom Empfänger entschlüsselt werden können. Die Daten werden mit einem Teil des Zertifikats verschlüsselt, der öffentlich zugänglich ist (PublicKey), und können ausschließlich mit dem nicht öffentlichen Teil des Zertifikats (PrivateKey) entschlüsselt werden. Darüber hinaus müssen die Empfängerinformationen aus der Verschlüsselung dem Empfängerzertifikat entsprechen. Dadurch ist sichergestellt, dass die Daten nur von der OFD entschlüsselt werden können.  
+Der Standard, der für Verschlüsselung verwendet wird, lautet PKCS#7v1.5. Weitere Informationen finden Sie unter [System.Security.Cryptography.Pkcs.EnvelopedCms](https://go.microsoft.com/fwlink/?LinkId=200708) in der MSDN-Bibliothek. Mit diesem Verfahren werden nicht nur die Daten, sondern auch Empfängerinformationen in Form eines Zertifikats von der OFD verschlüsselt. Diese Verschlüsselung basiert auf einer asymmetrischen Methode, durch das sichergestellt ist, dass die Daten nur vom Empfänger entschlüsselt werden können. Die Daten werden mit einem Teil des Zertifikats verschlüsselt, der öffentlich zugänglich ist (PublicKey), und können ausschließlich mit dem nicht öffentlichen Teil des Zertifikats (PrivateKey) entschlüsselt werden. Darüber hinaus müssen die Empfängerinformationen aus der Verschlüsselung dem Empfängerzertifikat entsprechen. Dadurch ist sichergestellt, dass die Daten nur von der OFD entschlüsselt werden können.  
 
 Bei der Antwort wird dasselbe Verfahren verwendet. Zusammen mit den übertragenen Daten empfängt die OFD den öffentlichen Teil des Benutzerzertifikats, der zum Verschlüsseln des Antwortdokuments verwendet wird. Dadurch ist sichergestellt, dass das Antwortdokument nur vom Empfänger entschlüsselt werden kann.  
 
 Um die verschlüsselten Daten in einer textbasierten XML-Datei zu übertragen, müssen sie Base64-codiert werden. Mit dieser Methode werden binäre Daten in Textform dargestellt.  
 
 ## <a name="signature"></a>Unterschrift  
-Für die Signatur der Daten wird eine Methode gemäß der standardmäßigen XML-DSig verwendet. Weitere Informationen finden Sie unter [System.Security.Cryptography.Xml.SignedXml](http://go.microsoft.com/fwlink/?LinkId=200709) in der MSDN-Bibliothek. Bei diesem Verfahren wird eine Signatur auf das gesamte Dokument oder einen Teil des Dokuments angewendet, der mit einem Zertifikat verschlüsselt wird. Bei Verwendung dieser Verschlüsselung (auch mit einer asymmetrischen Methode) ist die Zuordnung zu einem bestimmten registrierten Benutzer durch die OFD möglich. Auf diese Weise kann die Datenintegrität sichergestellt und die Identität des Absenders anhand der Signatur ermittelt werden.  
+Für die Signatur der Daten wird eine Methode gemäß der standardmäßigen XML-DSig verwendet. Weitere Informationen finden Sie unter [System.Security.Cryptography.Xml.SignedXml](https://go.microsoft.com/fwlink/?LinkId=200709) in der MSDN-Bibliothek. Bei diesem Verfahren wird eine Signatur auf das gesamte Dokument oder einen Teil des Dokuments angewendet, der mit einem Zertifikat verschlüsselt wird. Bei Verwendung dieser Verschlüsselung (auch mit einer asymmetrischen Methode) ist die Zuordnung zu einem bestimmten registrierten Benutzer durch die OFD möglich. Auf diese Weise kann die Datenintegrität sichergestellt und die Identität des Absenders anhand der Signatur ermittelt werden.  
 
 Die Integrität ist dadurch sichergestellt, dass bei einer Änderung des Dokuments nach dem Signieren die Signatur ungültig wird und die Daten von der OFD zurückgewiesen werden.  
 

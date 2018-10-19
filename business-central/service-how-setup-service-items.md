@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 050456758a2bf4f3489ed382103d5fed99e8fada
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e946bab348aeee1b65b85165b2d9d553736813ba
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Richten Sie Serviceartikel und Serviceartikelkomponenten ein.
@@ -30,7 +30,7 @@ Sie können Artikelgruppen einrichten, die bezüglich Reparatur und Wartung mite
 
 Sie verbinden die Serviceartikelgruppen mit **Artikeln** auf der Artikelkarte und mit Serviceartikeln auf der **Serviceartikel**karte.  
 
-1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Serviceartikelgruppen** ein. Wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceartikelgruppen** ein, und wählen dann den zugehörigen Link aus.  
 2. Erstellen Sie eine neue Serviceartikelgruppe.  
 3. Füllen Sie die Felder **Code** und **Beschreibung** aus.  
 4. Im Feld **Vorg.-Vertragsrabatt %** geben Sie den Vertragsrabattprozentsatz ein, der als Standardwert für Serviceartikel in dieser Gruppe angewendet werden soll.  
@@ -41,7 +41,7 @@ Sie verbinden die Serviceartikelgruppen mit **Artikeln** auf der Artikelkarte un
 ## <a name="to-set-up-service-item-components"></a>So richten Sie Serviceartikelkomponenten ein
 Ein Serviceartikel kann aus mehreren Komponenten bestehen, die mit Ersatzteilen ersetzt werden können, wenn ein Service durchgeführt wird. Diese Komponenten werden in dem Fenster **Serviceartikelkomponenten** eingerichtet. Wenn Sie Komponenten für Serviceartikel einrichten wollen, die Stücklisten sind, können die Stücklistenartikel als Serviceartikelkomponenten angelegt werden.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Serivceartikel** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceartikel** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie den Serviceartikel, für den Sie Komponenten einrichten möchten.  
 3. Wählen Sie die Aktion **Komponenten** aus. Das Fenster **Serviceartikelkomponenten** wird geöffnet.  
 4. Fügen Sie eine neue Komponente hinzu.  
@@ -49,7 +49,7 @@ Ein Serviceartikel kann aus mehreren Komponenten bestehen, die mit Ersatzteilen 
 6. Geben Sie im Feld **Nr.** Wählen Sie im Feld Nr. den Artikel oder Serviceartikel aus, der eine Komponente des Serviceartikels ist.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>So richten Sie Serviceartikelkomponenten aus Stücklisten ein
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Serivceartikel** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceartikel** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie den Serviceartikel, für den Sie Komponenten aus Stücklisten einrichten möchten.  
 3. Wählen Sie die Aktion **Komponenten** aus. Das Fenster **Serviceartikelkomponenten** wird geöffnet.  
 4. Wählen Sie im Fenster **Kopiere von Stückliste**  
@@ -59,7 +59,7 @@ Ein Serviceartikel kann aus mehreren Komponenten bestehen, die mit Ersatzteilen 
 ## <a name="to-set-up-a-service-shelf"></a>So richten Sie ein Servicelagerfach ein
 Sie können Servicelagerfächer einrichten, die identifizieren, wo Sie Serviceartikel speichern. Servicelagerfächer werden im Fenster **Serviceauftrag** und im Fenster **Servicearbeitsschein** mit Serviceartikeln verbunden.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Servicelagerfächer** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceangebote** ein, und wählen dann den zugehörigen Link aus.
 2. Füllen Sie die Felder je nach Bedarf aus.
 
 ## <a name="see-also"></a>Siehe auch

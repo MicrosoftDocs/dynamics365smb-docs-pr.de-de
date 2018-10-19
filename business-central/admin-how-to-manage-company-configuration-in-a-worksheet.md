@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc2c7d5ecbff5d7cd0109c56e3c76ca137564d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt
@@ -30,7 +30,7 @@ Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration
 
 ## <a name="to-open-the-configuration-worksheet"></a>So öffnen Sie das Konfigurationsarbeitsblatt  
 1.  Öffnen Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] den Mandanten, der die Grundlage für die Konfiguration ist, und öffnen Sie dann sein RapidStart Services-Implementierer Rollencenter.  
-2.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Konfigurations-Arbeitsblatt** ein. Wählen Sie dann den zugehörigen Link aus.  
+2.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>So fügen Sie dem Arbeitsblatt eine Tabelle hinzu  
 1.  Im Fenster **Config. Arbeitsblatt** wählen Sie die **Liste bearbeiten** Aktion aus.  
@@ -43,7 +43,7 @@ Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration
     > [!NOTE]  
     > Zugehörige Tabellen werden nicht mit der Aktion **Zugehörige Tabellen abrufen** hinzugefügt, wenn Folgendes zutrifft:
     > - Die Beziehung ist bedingt.  
-    > Beispiel: Wenn Sie zugehörige Tabellen für Tabelle **Debitor** erhalten, dann wird die Tabelle **Lagerort** nicht hinzugefügt, da sie nur bedingt mit der Tabelle **Kunde** verknüpft ist, und zwar, wenn das Feld **Lagerortcode** in Tabelle **Kunde** ausgefüllt ist.  
+    > Beispiel: Wenn Sie zugehörige Tabellen für Tabelle **Debitor** erhalten, dann wird die Tabelle **Lagerort** nicht hinzugefügt, da sie nur bedingt mit der Tabelle **Debitor** verknüpft ist, und zwar, wenn das Feld **Lagerortcode** in Tabelle **Debitor** ausgefüllt ist.  
     > - Die verknüpfte Tabelle wird gefiltert.  
     > Beispiel: Ein Feld in der zugehörigen Tabelle hat eine WHERE-Klausel. Der Grund dafür ist, dass die entsprechenden Beziehungsinformationen in der Systemtabelle **Feld** gespeichert werden, die nicht vollständig für die Anwendung zugänglich ist.  
     > Sie müssen solche Areten von Tabellen manuell hinzufügen, indem Sie Schritt 4 in diesem Verfahren befolgen.  
@@ -71,14 +71,14 @@ Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration
     > [!NOTE]  
     > Zugehörige Tabellen werden nicht mit der Aktion **Zugehörige Tabellen abrufen** hinzugefügt, wenn Folgendes zutrifft:
     > - Die Beziehung ist bedingt.  
-    > Beispiel: Wenn Sie zugehörige Tabellen für Tabelle **Debitor** erhalten, dann wird die Tabelle **Lagerort** nicht hinzugefügt, da sie nur bedingt mit der Tabelle **Kunde** verknüpft ist, und zwar, wenn das Feld **Lagerortcode** in Tabelle **Kunde** ausgefüllt ist.  
+    > Beispiel: Wenn Sie zugehörige Tabellen für Tabelle **Debitor** erhalten, dann wird die Tabelle **Lagerort** nicht hinzugefügt, da sie nur bedingt mit der Tabelle **Debitor** verknüpft ist, und zwar, wenn das Feld **Lagerortcode** in Tabelle **Debitor** ausgefüllt ist.  
     > - Die verknüpfte Tabelle wird gefiltert.  
     > Beispiel: Ein Feld in der zugehörigen Tabelle hat eine WHERE-Klausel. Der Grund dafür ist, dass die entsprechenden Beziehungsinformationen in der virtuellen Tabelle **Feld** gespeichert werden und nicht in Fenstern wie dem Konfigurationsarbeitsblatt für Leistungsgründe verfügbar ist.  
     > Sie müssen Tabellen mit solchen komplexen Relationen manuell hinzufügen, indem Sie Schritt 4 im Abschnitt "So fügen Sie dem Arbeitsblatt eine Tabelle hinzu" befolgen.
 
 7. Um die resultierende Liste von Tabellen zu ändern, wählen Sie eine Tabelle aus, die Sie entfernen möchten, und wählen Sie auf der Registerkarte Start die Option **Löschen** aus.  
 
-Verwenden Sie folgende Vorgehensweise, um die zu berücksichtigenden Felder anzugeben. Nachdem Sie diese Angaben gemacht haben, können Sie die Tabelle nach Excel exportieren und die Tabellenstruktur als Vorlage für das Sammeln von Debitorendaten verwenden. Weitere Informationen finden Sie unter [Gewusst wie: Kundendaten zusammenführen](admin-use-templates-to-prepare-customer-data-for-migration.md).  
+Verwenden Sie folgende Vorgehensweise, um die zu berücksichtigenden Felder anzugeben. Nachdem Sie diese Angaben gemacht haben, können Sie die Tabelle nach Excel exportieren und die Tabellenstruktur als Vorlage für das Sammeln von Debitorendaten verwenden. Weitere Informationen finden Sie unter [Gewusst wie: Debitorendaten zusammenführen](admin-use-templates-to-prepare-customer-data-for-migration.md).  
 
 ## <a name="to-specify-a-set-of-fields-and-records-for-a-configuration-table"></a>So legen Sie einen Satz von Feldern und Datensätzen für eine Konfigurationstabelle fest.  
 1. Wählen Sie eine Konfigurationstabelle aus der Liste und wählen Sie **Liste bearbeiten** aus.  
@@ -99,7 +99,7 @@ Nachfolgend wird beschrieben, wie Sie Bereichs- und Gruppenbezeichnungen addiere
 4. Wählen Sie im Feld **Zeilenart** die Option **Gruppe** aus. Geben Sie im Feld **Namen** einen Namen für das Gebiet ein. Der Gruppenname wird automatisch eingerückt.  
 5. Um Tabellen in die entsprechende Kategorie zu verschieben, wählen Sie die Aktion **Nach Oben** oder **Nach Unten** verschieben. Alternativ können Sie eine Arbeitsblattzeile löschen und die Tabelle an der erforderlichen Stelle erneut einfügen.  
 
-Einige [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen sind Standard und die Daten darin ändern sich wahrscheinlich von Implementierung zu Implementierung nicht. Zur Verbesserung Ihrer Kundenorientierung können Sie diese Tabellen aus dem Arbeitsblatt entfernen, nachdem Sie sie in das Konfigurationspaket eingeschlossen haben. Einmal hinzugefügt, bleiben die Tabellen Teil des Konfigurationspakets.  
+Einige [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen sind Standard und die Daten darin ändern sich wahrscheinlich von Implementierung zu Implementierung nicht. Zur Verbesserung Ihrer Debitorenorientierung können Sie diese Tabellen aus dem Arbeitsblatt entfernen, nachdem Sie sie in das Konfigurationspaket eingeschlossen haben. Einmal hinzugefügt, bleiben die Tabellen Teil des Konfigurationspakets.  
 
 ## <a name="to-remove-a-standard-table-in-the-worksheet"></a>So entfernen Sie eine Standardtabelle aus dem Arbeitsblatt.  
 Nachdem Sie einem Konfigurationspaket alle erforderlichen Tabellen hinzugefügt haben, legen Sie fest, welche Tabellen keine Debitoraufmerksamkeit erfordern.  

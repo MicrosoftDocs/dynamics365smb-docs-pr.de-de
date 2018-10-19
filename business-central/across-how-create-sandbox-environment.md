@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
 ms.contentlocale: de-de
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -26,7 +26,7 @@ Eine Sandboxumgebung (Vorschau) ist eine Nichtvorlegungsinstanz von[!INCLUDE[d36
 Sie müssen ein Abonnement haben, um [!INCLUDE[d365fin](includes/d365fin_md.md)] in der zu Lage sein, eine Sandboxumgebung zu erstellen. Es kann nur eine Sandboxumgebung pro Abonnement geben.
 
 1. Melden Sie sich in Ihrer Produktionsinstanz des [!INCLUDE[d365fin](includes/d365fin_md.md)] Services an.
-2. Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seiten- oder Berichtsymbol suchen") und geben **Sandkasten-Umgebung** ein und wählen dann den zugehörigen Link aus.
+2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Sandkasten-Umgebung** ein, und wählen dann den zugehörigen Link aus.
 ![Sandkastenumgebung einrichten.](./media/across-sandbox/sandbox-environment-setup.png)
 3. Wählen Sie **Erstellen** aus.  
   Eine andere Registerkarte in Ihrem Browser wird geöffnet für das Abschließen der Einrichtung der Sandkastenumgebung.
@@ -40,7 +40,7 @@ Sie müssen ein Abonnement haben, um [!INCLUDE[d365fin](includes/d365fin_md.md)]
 6. Oben im Rollencenters wird eine Benachrichtigung angezeigt, die bestätigt, dass dies eine Sandkastenumgebung ist. Der Typ dieser Umgebung wird in der Titelleiste des Clients anzeigen.
 ![Sandkasten-Rollencenter-Benachrichtigung](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 In der Sandboxumgebung wurde ein neuer Tenant erstellt. Dieser Tenant wird mit Vorgabe-Demodaten für den CRONUS-Mandanten geladen. Keine Daten werden kopiert oder anderswie von der Fertigungsumgebungen während der Sandkastenerstellung transferiert.
-7.  Jederzeit können Sie zur Seite **Sandkastenumgebung** zurückkehren und die Sandkastenumgebung zurücksetzen.
+7.  Jederzeit können Sie zum Fenster **Sandkastenumgebung** zurückkehren und die Sandkastenumgebung zurücksetzen.
 > [!NOTE]  
 >  Das Zurücksetzen der Sandkastenmgebung, wird sie komplett entfernen und dann wieder erstellt mit den Vorgabe-Demodaten.  
 
@@ -58,7 +58,7 @@ In einer Sandkastenumgebung finden Sie die In-Client Designerfunktion aktiviert,
 ![In-Client Designer](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Aktivieren Sie die erweiterte Benutzererfahrung
-Es ist möglich, die erweiterte (vollständige) Funktion eines Sandkastentenants in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu aktivieren,  indem Sie das Feld **Erfahrung** auf der Seite**Firmendaten** einrichten.
+Es ist möglich, die erweiterte (vollständige) Funktion eines Sandkastentenants in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu aktivieren,  indem Sie das Feld **Erfahrung** im Fenster**Firmendaten** einrichten.
 
 ![Erweiterte Sandkastenumgebung](./media/across-sandbox/sandbox-advanced.png)
 

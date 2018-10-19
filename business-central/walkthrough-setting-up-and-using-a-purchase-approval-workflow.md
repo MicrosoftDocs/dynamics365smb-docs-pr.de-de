@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825e901b4126dc1ba317527862eb459559ecb538
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows
@@ -58,7 +58,7 @@ Sie müssen einen neuen Benutzer auf dem lokalen Computer und in [!INCLUDE[d365f
 7.  Schließen Sie das **Lokale Benutzer und Gruppen**-Fenster.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>So fügen Sie Alicia als Benutzer in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzu  
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Bericht suche") aus und geben Sie Benutzer. Wählen Sie dann **Benutzer**und den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benutzer** ein, und wählen dann den zugehörigen Link aus.  
 2.  Klicken Sie im Fenster **Windows Benutzher** auf der Registerkarte **Start** in der Gruppe **Neu** auf **Neu**.  
 3.  Im Fenster **Benutzerkarte** im Feld **Benutzername**, geben Sie Alicia ein.  
 4.  Wählen Sie im Feld **Windows Benutzername** die Schaltfläche AssistEdit, um das Fenster zu öffnen.  
@@ -72,7 +72,7 @@ Sie müssen einen neuen Benutzer auf dem lokalen Computer und in [!INCLUDE[d365f
 Nutzen Sie den soeben erstellten Windows-Benutzer, um Christine als Genehmigungsbenutzer einzurichten, dessen Genehmiger Sie selbst sind. Richten Sie Ihre Genehmigungsrechte ein, und geben Sie an, wie und wann Sie über Genehmigungsanforderungen benachrichtigt werden.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>So richten Sie sich selbst und Christine als Genehmigungsbenutzer ein  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Genehmigungsbenutzereinrichtung** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Genehmigungsbenutzer Einrichtung** ein, und wählen dann den zugehörigen Link aus.  
 2.  Klicken Sie im Fenster **Genehmigungsbenutzereinrichtung** auf der Registerkarte **Start** in der Gruppe **Neu** auf **Neu**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Geben Sie an, wie und wann Sie über Genehmigungsanforderungen benachrichtigt we
  Erstellen Sie den Einkaufsbestellungs-Genehmigungsworkflow, indem Sie die Schritte aus der Vorlage Einkaufsbestellungs-Genehmigungsworkflow kopieren. Lassen Sie die vorhandenen Workflowschritte unverändert, und aktivieren Sie dann den Workflow.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>So erstellen und aktivieren Sie einen Einkaufsbestellungs-Genehmigungsworkflow  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen"), geben **Workflows** ein und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Workflows** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie im Fenster **Workflow** auf der Registerkarte **Aktionen** in der Gruppe **Allgemein** die Option **Workflow aus Vorlage** erstellen aus.  
 3.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Allgemein** die Option **Workflow aus Vorlage erstellen** aus. Das Fenster **Workflowvorlagen** wird geöffnet.  
 4.  Wählen Sie die Zeile für die Workflow-Vorlage "Einkaufsbestellung-Genehmigungsworkflow" aus, und wählen Sie dann die Schaltfläche **OK**.  
@@ -115,7 +115,7 @@ Geben Sie an, wie und wann Sie über Genehmigungsanforderungen benachrichtigt we
 Stellen Sie sicher, dass die Aufgabenwarteschlange in Ihrer Installation so eingerichtet wurde, dass Workflowbenachrichtigungen verarbeitet werden.  
 
 ### <a name="to-start-the-notify-job-queue"></a>So starten Sie die Aufgabenwarteschlange für Benachrichtungen  
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Projektwarteschlange** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Projektwarteschlangen** ein, und wählen dann den zugehörigen Link aus.  
 2.  Im Fenster **Projektwarteschlange** wählen Sie die Zeile für die Aufgabenwarteschlange BENACHR. aus, und wählen anschließend auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Aufgabenwarteschlange** starten aus.  
 
 ## <a name="using-the-approval-workflow"></a>Nutzung des Genehmigungsworkflows  
@@ -133,7 +133,7 @@ Um sich in [!INCLUDE[d365fin](includes/d365fin_md.md)] als anderer Benutzer anzu
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>So genehmigen Sie eine Einkaufsbestellung als Christine  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Aufträge** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kaufaufträge** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die Zeile zum öffnen der Einkaufsbestellung 104001 aus. Wählen Sie dann auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Bearbeiten** aus.  
 3.  Wählen Sie im **Kaufauftrag** Fenster auf der Registerkarte **Aktionen** in der Gruppe **Genehmigung** die **Genehmigungsanforderung senden-Option** aus.  
 

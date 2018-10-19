@@ -9,19 +9,19 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/09/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a1ab45cb40669beb901da59469a02bd58b86d3ac
-ms.openlocfilehash: 8782fae0935a609cb991fe869907d9cd8fceccd9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 79e532dd8cba1daf34362f7050d320778b23c85f
 ms.contentlocale: de-de
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>Die Microsoft Pay Erweiterung zu [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
-Debitoren erfordern regelmäßig höheren Kundenservice, sowohl in Bezug auf Produktqualität wie auch in Bezug auf Lieferungs- und Zahlungsverkehr. Mit Microsoft Pay Service erhöhen Sie Ihren Kundenservice.
+# <a name="the-microsoft-pay-extension"></a>Die Microsoft Pay Erweiterung
+Debitoren erfordern regelmäßig höheren Debitorenservice, sowohl in Bezug auf Produktqualität wie auch in Bezug auf Lieferungs- und Zahlungsverkehr. Mit Microsoft Pay Service erhöhen Sie Ihren Debitorenservice.
 
-Die Microsoft-Pay Erweiterung fügt einen Microsoft-Geldbörsenlink den Verkaufsbelegen hinzu, sodass Debitoren mithilfe Microsoft Pay einfach bezahlen. Dann können Sie die Dokumente per E-Mail versenden, um besseren Kundenservice bereitzustellen und die Zeit zu verkürzen, die benötigt wird, damit die Zahlungsausgleichsposten der Debitoren auf dem Bankkonto ankommen.
+Die Microsoft-Pay Erweiterung fügt einen Microsoft-Geldbörsenlink den Verkaufsbelegen hinzu, sodass Debitoren mithilfe Microsoft Pay einfach bezahlen. Dann können Sie die Dokumente per E-Mail versenden, um besseren Debitorenservice bereitzustellen und die Zeit zu verkürzen, die benötigt wird, damit die Zahlungsausgleichsposten der Debitoren auf dem Bankkonto ankommen.
 
 Die Microsoft Pay Erweiterung stellt die folgenden Vorteile:
 - Debitorenzahlungen sind schneller auf Ihrem Bankkonto.

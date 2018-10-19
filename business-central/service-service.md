@@ -8,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: a4ff35d8339326a0cc4a42014c82e081fb940a61
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 06f2f8d56d16ef1177bf49e30795cf41af69b8bd
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="service-management"></a>Service
-Kunden einen zuverlässigen Service zu bieten, ist ein wesentlicher Bestandteil der Arbeit jedes Unternehmens und eine Grundlage für Kundenzufriedenheit und Loyalität, zusätzlich zu den Einnahmen. Die Planung und Steuerung des Service ist jedoch nicht immer einfach. Daher bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Reihe von Tools zur Vereinfachung dieser Maßnahmen. Diese Tools dienen zur Unterstützung der Abläufe in Werkstatt und Außendienst und können in Geschäftsszenarien wie komplexen Kundendienst- vertriebssystemen, Industrieserviceumgebungen mit Stücklisten und beim umfassenden Einsatz von Servicetechnikern mit Anforderungen für Ersatzteilmanagement verwendet werden.  
+> [!NOTE]
+> Die Funktionalität, die in diesem Thema und in Vorthemen beschrieben, handelt in der Benutzeroberfläche nur angezeigt, wenn Sie die **Premium** haben. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
+
+Debitoren einen zuverlässigen Service zu bieten, ist ein wesentlicher Bestandteil der Arbeit jedes Unternehmens und eine Grundlage für Debitorenzufriedenheit und Loyalität, zusätzlich zu den Einnahmen. Die Planung und Steuerung des Service ist jedoch nicht immer einfach. Daher bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Reihe von Tools zur Vereinfachung dieser Maßnahmen. Diese Tools dienen zur Unterstützung der Abläufe in Werkstatt und Außendienst und können in Geschäftsszenarien wie komplexen Debitorendienst- vertriebssystemen, Industrieserviceumgebungen mit Stücklisten und beim umfassenden Einsatz von Servicetechnikern mit Anforderungen für Ersatzteilmanagement verwendet werden.  
 
  Mit diesen Tools können Sie Folgendes durchführen:  
 
@@ -46,5 +49,4 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e25721b0c79a87f4201314a0f3556f969a110e18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetails: Bekannte Artikelanwendungsprobleme
@@ -36,8 +36,6 @@ Der Artikel beginnt, indem die typischen Symptomen des Problems aufgeführt werd
      |333|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|-1|-10|-1|-1|Ja|  
      |334|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|1|10|1|1|Ja|  
 
-<!--![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")-->
-
 ## <a name="basics-of-item-application"></a>Vorgaben des Artikelausgleichs  
  Es wird ein Artikelausgleichsposten für jede Lagertransaktion erstellt, um den Empfänger mit Kosten auf seine Herkunftsbelege mit Kosten zu verknüpfen, sodass die Kosten gemäß der Lagerabgangsmethode weitergeleitet werden können. [Weitere Informationen finden Sie unter "Designdetails: Artikelverfolgung".](design-details-item-application.md)  
 
@@ -56,7 +54,7 @@ Der Artikel beginnt, indem die typischen Symptomen des Problems aufgeführt werd
 
  Das folgende Diagramm zeigt, wie Mengenanträge gemacht werden.  
 
-![Warum der Lagerbestand Null 2 ist](media/helene/TechArticleInventoryZero2.png "Whyisinventoryzero\_2")
+![Fluss der Kostenregulierung von Einkauf zu Verkauf](media/helene/TechArticleInventoryZero2.png "Fluss der Kostenregulierung von Einkauf zu Verkauf")
 
  Beachten Sie weiter, dass Artikelposten 1 (Einkauf) sowohl Lieferant des Artikels und die Kostenquelle für den ausgeglichenen Artikelposten, Artikelposten 2 (Verkauf) ist.  
 
@@ -72,7 +70,6 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
 |333|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|-1|-10|-1|-1|Ja|  
 |334|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|1|10|1|1|Ja|  
-<!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  Beachten Sie darüber hinaus, dass eingehender Artikelposten 3 (Rücklieferung) ein Kostenempfänger für den ursprünglichen ausgehenden Artikelposten 2 (Verkauf) ist.  
 
@@ -81,7 +78,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 
  Das folgende Diagramm zeigt den Kostenfluss.  
 
-![Warum der Lagerbestand Null 4 ist](media/helene/TechArticleInventoryZero4.png "Whyisinventoryzero\_4")
+![Fluss der Kostenregulierung von Einkaufs- zu Verkaufserträge](media/helene/TechArticleInventoryZero4.png "Fluss der Kostenregulierung von Einkaufs- zu Verkaufserträge")
 
  Beachten Sie darüber hinaus, dass die Kosten an Artikelposten 2 (Verkauf), dann an Artikelposten 3 (Rücklieferung) und zum Schluss an Artikelposten 4 weitergeleitet werden (Verkauf 2).  
 
@@ -94,7 +91,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 
  Das folgende Diagramm zeigt, wie Artikelausgleiche in beiden Szenarien gemacht werden.  
 
-![Warum der Lagerbestand Null 6 ist](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
+![Fluss der Kostenregulierung geht in beide Richtungen](media/helene/TechArticleInventoryZero6.png "Fluss der Kostenregulierung geht in beide Richtungen")  
 
  Beachten Sie darüber hinaus, dass ein Ausgleich mit Kosten (angezeigt durch die blauen Pfeile) sicherstellt, dass Artikelposten 2 (Rücklieferung) die gleichen Einstandspreis wie der Artikelposten hat, den er storniert, d.h. Artikelposten 1 zugeordnet ist (Verkauf 1). Es wird jedoch kein Mengenantrag (angezeigt durch die roten Pfeile) vorgenommen.  
 
@@ -115,7 +112,6 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|-1|-10|-1|-1|Ja|Nr.|  
 |334|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|1|10|1|1|Ja|**Ja**|  
-<!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   Im **Geb. Verkaufsgutschrift** suchen Sie im Feld **Ausgleich.vom Artikelposten**, um festzulegen, ob das Feld ausgefüllt ist, und in diesem Fall auf welche Artikelposten die Rücksendung angewendet wird.  
 
