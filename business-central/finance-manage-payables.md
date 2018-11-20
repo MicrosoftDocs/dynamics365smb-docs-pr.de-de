@@ -14,6 +14,7 @@ ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: bholtorf
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
 ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
 ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d

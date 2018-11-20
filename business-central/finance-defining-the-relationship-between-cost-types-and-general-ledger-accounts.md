@@ -10,8 +10,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-transfer-and-post-cost-entries
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
 ms.openlocfilehash: 7709edb214804f52ee9b495c43b5302e2a23bd6b
