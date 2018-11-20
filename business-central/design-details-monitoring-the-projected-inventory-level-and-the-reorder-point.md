@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: design, supply, inventory, planning
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 336b5c300cf3640d7356313d2d627f6b4008c7b4
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: d26790c1c48eff8af150a72f5d5d697eb7b9dc2a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="design-details-monitoring-the-projected-inventory-level-and-the-reorder-point"></a><span data-ttu-id="89b2d-103">Designdetails: Überwachen der voraussichtlichen Lagerebene und des Minimalbestands</span><span class="sxs-lookup"><span data-stu-id="89b2d-103">Design Details: Monitoring the Projected Inventory Level and the Reorder Point</span></span>

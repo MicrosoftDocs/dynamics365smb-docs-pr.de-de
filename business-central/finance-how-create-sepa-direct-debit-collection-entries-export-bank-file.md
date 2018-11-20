@@ -10,11 +10,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d05a12251046b0c911387cda1d5a7a7c9a026d6b
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: ee300ab7f91b2fa91f9576a63195eacff22e7f69
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a><span data-ttu-id="dd2ab-103">SEPA-Lastschrifteinzugsposten erstellen und in eine Bankdatei exportieren</span><span class="sxs-lookup"><span data-stu-id="dd2ab-103">Create SEPA Direct Debit Collection Entries and Export to a Bank File</span></span>

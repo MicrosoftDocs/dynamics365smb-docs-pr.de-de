@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0b13318f4f089cba366a3638683c9722b76beda4
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: d223bdc490c2ac45353d0e7f8aff6816c1ce5f51
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a><span data-ttu-id="fd0fd-105">Salden zwischen Kostenart, Kostenstelle und Kostenträger</span><span class="sxs-lookup"><span data-stu-id="fd0fd-105">Balances Between Cost Type, Cost Center, and Cost Object</span></span>

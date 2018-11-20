@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1fc57dd3ac3f0726510311aca49a219e23c90300
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: b6f32221dabb67cb5213c18d75555fccb4ef3f79
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="design-details-fixed-reorder-qty"></a><span data-ttu-id="d486f-104">Designdetails: Feste Nachbestellmenge</span><span class="sxs-lookup"><span data-stu-id="d486f-104">Design Details: Fixed Reorder Qty.</span></span>
