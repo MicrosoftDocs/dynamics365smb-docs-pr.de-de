@@ -63,7 +63,7 @@ Sie können so viele Zeilen kopieren, wie auf dem Bildschirm angezeigt werden. W
 ## <a name="must-i-have-the-exact-same-number-of-columns-when-pasting-rows"></a>Muss ich die exakte Anzahl an Spalten haben, wenn ich Zeilen einfüge?
 Ja. Egal, ob Sie aus [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel oder aus einer anderen Tabellenquelle kopieren, die Zeilen, die Sie einfügen, müssen genau die entsprechenden Spalten haben, nicht mehr, nicht weniger.
 
-## <a name="why-do-i-get-errors-when-pasting-rows"></a>Warum erhalte ich Fehler, wenn ich Zeilen einfüge? 
+## <a name="why-do-i-get-errors-when-pasting-rows"></a>Warum erhalte ich Fehler, wenn ich Zeilen einfüge?
 Beim Einfügen in [!INCLUDE[d365fin](includes/d365fin_md.md)] wird jede Zeile geprüft, um sicherzustellen, dass die Werte in jeder Spalte gültig sind. Wenn eine Spalte einen ungültigen Wert enthält, wird das Einfügen beendet, und eine Fehlermeldung wird angezeigt. Um dies zu verhindern, überprüfen Sie, dass die Spalten über gültige Werte verfügen, bevor Sie sie einfügen.
 
 
