@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c7ebb7b8119b68f04023de5298e1150d6b028a90
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: ae6b02e7ce73d4a13cdc7dd42858ac791d4bf1c2
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a><span data-ttu-id="20aa1-103">Synchronisation von Kontakten mit Debitoren, Kreditoren und Bankkonten.</span><span class="sxs-lookup"><span data-stu-id="20aa1-103">Link Contacts With Customers, Vendors, and Bank Accounts</span></span>
