@@ -12,6 +12,7 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
 ms.openlocfilehash: 2613e32873c91fe24c4734456338bb1f7e18849d
