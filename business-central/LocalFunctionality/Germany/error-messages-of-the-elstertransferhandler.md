@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
+redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75bf1c115e416a3504da40d34e8353877ae762ae
+ms.sourcegitcommit: 5e8dfa9572b84360bfcc5087bc3b0b9b9ed9182f
+ms.openlocfilehash: a505ef57614b69cb78bece88959de877fab5fbdd
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 # <a name="error-messages-of-the-elstertransferhandler"></a><span data-ttu-id="d3e03-103">Fehlermeldungen des ElsterTransferHandler</span><span class="sxs-lookup"><span data-stu-id="d3e03-103">Error Messages of the ElsterTransferHandler</span></span>
