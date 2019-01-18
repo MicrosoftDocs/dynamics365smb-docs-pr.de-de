@@ -1,5 +1,5 @@
 ---
-title: Cloud-Kopie Ihre Daten | Microsoft Docs
+title: Intelligente Cloud-Erweiterung von Business Central | Microsoft Docs
 description: Verwenden Sie die Datenreplikationserweiterung, um eine Cloud-Kopie Ihrer Daten zu erstellen, sodass Sie mit der intelligente Cloud verbunden sind.
 author: edupont04
 manager: edupont
@@ -9,24 +9,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c01e1c4fe4cd67e8ef474e174f0a9797b60de329
+ms.sourcegitcommit: 7b5f8cb6a126bdd99ab5fb7a82f981eab1c484a1
+ms.openlocfilehash: 1d4bea462879d49f02c6fa6d8b4a83365d5149a3
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
-# <a name="business-central-data-replication-extension"></a><span data-ttu-id="6ccd7-103">Datenreplikationserweiterung für Business Central\*\*</span><span class="sxs-lookup"><span data-stu-id="6ccd7-103">Business Central Data Replication Extension\*\*</span></span>
+# <a name="business-central-intelligent-cloud-extensions"></a><span data-ttu-id="40e3c-103">Intelligente Cloud-Erweiterungen von Business Central</span><span class="sxs-lookup"><span data-stu-id="40e3c-103">Business Central Intelligent Cloud Extensions</span></span>
 
-<span data-ttu-id="6ccd7-104">Diese Erweiterung führt Sie durch den Vorgang, um Ihre intelligente Cloud-Umgebung zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="6ccd7-104">This extension will take you through the process to configure your Intelligent Cloud environment.</span></span>  <span data-ttu-id="6ccd7-105">Sobald die intelligente Cloud-Umgebung konfiguriert wird, haben Sie die Möglichkeit, Daten von Ihrer [!INCLUDE[prodshort](includes/prodshort.md)] lokalen Lösung zu Ihrem [!INCLUDE[prodshort](includes/prodshort.md)] Cloudtenant zu replizieren.</span><span class="sxs-lookup"><span data-stu-id="6ccd7-105">Once your Intelligent Cloud environment is configured, you will be able to replicate data from your [!INCLUDE[prodshort](includes/prodshort.md)] on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span>  <span data-ttu-id="6ccd7-106">Dadurch können Sie die Möglichkeiten, die die Cloud Ihrem Unternehmen zu bieten hat, in vollen Umfang nutzen, z. B. , erhöhte Einblicke in Ihr Unternehmen, künstliche Intelligenz mehrfacher Gerätzugriff und Zugriff überall und jederzeit.</span><span class="sxs-lookup"><span data-stu-id="6ccd7-106">This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.</span></span>
+<span data-ttu-id="40e3c-104">Wenn Sie eines der unterstützten lokalen Produkte verwenden, können Sie Ihre intelligente Cloud-Umgebung auf Basis einer produktspezifische Erweiterung konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="40e3c-104">If you are using one of the supported on-premises products, you can configure your intelligent cloud environment based on a product-specific extension.</span></span> <span data-ttu-id="40e3c-105">Sobald die intelligente Cloud-Umgebung konfiguriert wird, haben Sie die Möglichkeit, Daten von Ihrer lokalen Lösung zu Ihrem [!INCLUDE[prodshort](includes/prodshort.md)]-Cloud-Tenant zu replizieren.</span><span class="sxs-lookup"><span data-stu-id="40e3c-105">Once your intelligent cloud environment is configured, you will be able to replicate data from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="40e3c-106">Dadurch können Sie die Möglichkeiten, die die Cloud Ihrem Unternehmen zu bieten hat, in vollen Umfang nutzen, z. B. , erhöhte Einblicke in Ihr Unternehmen, künstliche Intelligenz mehrfacher Gerätzugriff und Zugriff überall und jederzeit.</span><span class="sxs-lookup"><span data-stu-id="40e3c-106">This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.</span></span>  
 
-<span data-ttu-id="6ccd7-107">Diese Erweiterung muss in Verbindung mit der **Business Central Intelligent** Cloud-Erweiterung verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="6ccd7-107">This extension must be used in conjunction with the **Business Central Intelligent** cloud extension.</span></span>
+## <a name="business-central-on-premises"></a><span data-ttu-id="40e3c-107">Lokales Business Central</span><span class="sxs-lookup"><span data-stu-id="40e3c-107">Business Central on-premises</span></span>
+<span data-ttu-id="40e3c-108">Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prodshort](includes/prodshort.md)] verwenden, holen Sie sich die **Intelligente Cloud-Base**-Erweiterung und die **Intelligente Cloud-Erweiterung von Business Central**, und führen Sie den Anleitungen von beiden durch.</span><span class="sxs-lookup"><span data-stu-id="40e3c-108">If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and follow the guides in both.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="6ccd7-108">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="6ccd7-108">See Also</span></span>
+## <a name="dynamics-gp"></a><span data-ttu-id="40e3c-109">Dynamics GP</span><span class="sxs-lookup"><span data-stu-id="40e3c-109">Dynamics GP</span></span>
+<span data-ttu-id="40e3c-110">Wenn Sie Dynamics GP verwenden, holen Sie sich die **intelligente Cloud Base-Erweiterung**-Erweiterung, die  **Dynamics GP-Datenmigration**-Erweiterung und die **intelligente Dynamics GP-Cloud** und befolgen Sie die Anleitungen aller drei.</span><span class="sxs-lookup"><span data-stu-id="40e3c-110">If you are using Dynamics GP, get the **Intelligent Cloud Base Extension** extension, the **Dynamics GP Data Migration** extension, and the **Dynamics GP Intelligent Cloud**, and follow the guides in all three.</span></span>  
 
-[<span data-ttu-id="6ccd7-109">Ihr Zugang zur intelligenten Cloud</span><span class="sxs-lookup"><span data-stu-id="6ccd7-109">Your Access to the Intelligent Cloud</span></span>](about-intelligent-cloud.md)  
-[<span data-ttu-id="6ccd7-110">Intelligente Cloud-Erweiterung von Business Central</span><span class="sxs-lookup"><span data-stu-id="6ccd7-110">Business Central Intelligent Cloud extension</span></span>](ui-extensions-intelligent-cloud.md)  
+## <a name="see-also"></a><span data-ttu-id="40e3c-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="40e3c-111">See Also</span></span>
+
+[<span data-ttu-id="40e3c-112">Ihr Zugang zur intelligenten Cloud</span><span class="sxs-lookup"><span data-stu-id="40e3c-112">Your Access to the Intelligent Cloud</span></span>](about-intelligent-cloud.md)  
+[<span data-ttu-id="40e3c-113">Intelligente Cloud Base-Erweiterung</span><span class="sxs-lookup"><span data-stu-id="40e3c-113">Intelligent Cloud Base Extension</span></span>](ui-extensions-intelligent-cloud.md)  
 
