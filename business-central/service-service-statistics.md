@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,10 +26,10 @@ Sie können Statistiken nutzen, um Belege zu analysieren und zu bestimmen, wie S
 ## <a name="viewing-statistics-for-service-orders"></a>So zeigen Sie die Serviceauftragsstatistik an
 Die Funktion "Serviceauftragsstatistik" bietet Ihnen einen schnellen Überblick über den Inhalt des gesamten Serviceauftrags, über die Details zu bestimmten Servicezeilen und über Informationen zur Fakturierung, Lieferung und dem Verbrauch sowie über den Saldo des Debitors.  
 
-Die statistischen Daten eines Serviceauftrags werden im Fenster **Serviceauftragsstatistik** des jeweiligen Auftrags angezeigt. Sie können das entsprechende Statistikfenster aus einem Serviceauftrag öffnen. Das Fenster **Serviceauftrag** wählen Sie **Statisitk**. Auf den Inforegistern in diesem Fenster werden u. a. die Menge, der Betrag, der MwSt.-Betrag, der Einstandspreis, der Deckungsbeitrag und das Kreditlimit des Debitors angezeigt. Die Beträge im Fenster werden – sofern nichts anderes angegeben wird – in der Währung des Serviceauftrags angezeigt.  
+Die statistischen Daten eines Serviceauftrags werden auf der Seite **Serviceauftragsstatistik** des jeweiligen Auftrags angezeigt. Sie können die entsprechende Statistikseite aus einem Serviceauftrag öffnen. Die Seite **Serviceauftrag** wählen Sie **Statisitk**. Auf den Inforegistern auf dieser Seite werden u. a. die Menge, der Betrag, der MwSt.-Betrag, der Einstandspreis, der Deckungsbeitrag und das Kreditlimit des Debitors angezeigt. Die Beträge auf der Seite werden – sofern nichts anderes angegeben wird – in der Währung des Serviceauftrags angezeigt.  
 
 ### <a name="view-totals-for-a-service-order"></a>Anzeigen von Summen für einen Auftrag  
-Die Daten umfassen den Gesamtbetrag der Servicezeilen (mit und ohne MwSt.), MwSt.-Anteil, Einstandspreis sowie DB der Servicezeilen. Das Fenster zeigt auch die artikelspezifischen Informationen, wie Gewicht, Volumen und Menge an Paketen.  
+Die Daten umfassen den Gesamtbetrag der Servicezeilen (mit und ohne MwSt.), MwSt.-Anteil, Einstandspreis sowie DB der Servicezeilen. Die Seite zeigt auch die artikelspezifischen Informationen, wie Gewicht, Volumen und Menge an Paketen.  
 
 ### <a name="view-shipping-information"></a>Ansichtsversandinformationen  
 Auf diesem Inforegister werden die Informationen über die zu liefernden Artikel, Ressourcen und/oder Kosten angezeigt. Die Anwendung verwendet die im Feld **Zu liefern** für die einzelnen Servicezeilen angegebenen Werte, um die Informationen bereitzustellen.  
@@ -54,7 +54,7 @@ Sie können die Informationen nach den Arten von Servicezeilen analysieren, die 
 Dieses Inforegister enthält den Saldo des Debitorenkontos sowie das maximale Kreditlimit, das dem Debitor gewährt werden kann, für den Sie den Servicebeleg erstellt haben.
 
 ## <a name="viewing-service-item-statistics"></a>So zeigen Sie die Servicestatistik an
-In dem Fenster **Serviceartikelstatistik** sind aktuelle Informationen über den Verbrauch, fakturierte Beträge und Deckungsbetrag eines bestimmten Artikels ersichtlich.  
+Auf dieser Seite **Serviceartikelstatistik** sind aktuelle Informationen über den Verbrauch, fakturierte Beträge und Deckungsbetrag eines bestimmten Artikels ersichtlich.  
 
 * Ressourcen  
 * Artikel  
@@ -67,7 +67,7 @@ Für jede Postenart sind der fakturierte Betrag, der Verbrauchsbetrag, der Einst
 * (Fakturierter Betrag - Verbrauch (Kosten)) x 100 / Fakturierter Betrag  
 
 ## <a name="using-trendscapes"></a>Trendscapes nutzen
-Um Serviceartikel und Serviceverträgen stellt die Fenster **Serviceartikel-Trendscape** oder **Servicevertrags-Trendscape** eine Zusammenfassung der Serviceposten in einem Zeitraum für einen bestimmten Serviceartikel oder einen Vertrag. Um das Trendscape anzuzeigen, öffnen Sie den Serviceartikel oder den Servicevertrag, wählen Sie die **Statistik** Aktion aus, und wählen Sie dann **Trendscape** aus.
+Um Serviceartikel und Serviceverträgen stellen die Seiten **Serviceartikel-Trendscape** oder **Servicevertrags-Trendscape** eine Zusammenfassung der Serviceposten in einem Zeitraum für einen bestimmten Serviceartikel oder einen Vertrag. Um das Trendscape anzuzeigen, öffnen Sie den Serviceartikel oder den Servicevertrag, wählen Sie die **Statistik** Aktion aus, und wählen Sie dann **Trendscape** aus.
 
 Wenn Sie mit den Bildlaufleisten den sichtbaren Fensterausschnitt verschieben, werden automatisch die Beträge für das gewählte Intervall berechnet. Alle Beträge aus den Serviceposten werden berechnet. Dabei handelt es sich um Posten, die beim Buchen von Serviceaufträgen oder Servicerechnungen erzeugt wurden.
 
@@ -88,25 +88,25 @@ Die Anwendung erstellt automatisch einen Gewinn- oder Verlustposten, wenn Vertra
 |**Vertrag Gew./Verl. (Zust.Ein.)**|Um den Vertragsgewinn/-verlust nach Zuständigkeitseinheit anzuzeigen.|  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie den Namen der anzuzeigenden Seite ein, und wählen dann den zugehörigen Link aus.  
-2. Füllen Sie die Filterkriterien aus, die Sie anwenden möchten. Wählen Sie beispielsweise im Fenster **Vertrag Gew./Verl. (Ursachen)** einen Wert für **Ursachencodefilter** aus.  
+2. Füllen Sie die Filterkriterien aus, die Sie anwenden möchten. Wählen Sie beispielsweise auf der Seite **Vertrag Gew./Verl. (Ursachen)** einen Wert für **Ursachencodefilter** aus.  
 3. Wählen Sie die Aktion **Matrix anzeigen** aus.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Servicestatistik für gebuchte Service-Belege anzeigen
 Mit der Funktion "Servicestatistik" erhalten Sie eine statistische Übersicht über den Inhalt von gebuchten Servicebelegen, wie gebuchte Lieferungen, Rechnungen und Gutschriften.  
 
-Die statistischen Daten werden im Fenster "Servicestatistik" für den gebuchten Service angezeigt. Sie können das entsprechende Statistikfenster aus der gebuchten Servicelieferung, aus der gebuchten Servicerechnung oder den gebuchten Servicegutschriftbelegen öffnen. Für jede der Belegarten wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** **Statistik** aus. Um es zum Beispiel aus dem Fenster **Gebuchte Servicerechnungen** heraus zu öffnen, wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Statistik** aus.  
+Die statistischen Daten werden auf der Seite "Servicestatistik" für den gebuchten Service angezeigt. Sie können die entsprechende Statistikseite aus der gebuchten Servicelieferung, aus der gebuchten Servicerechnung oder den gebuchten Servicegutschriftbelegen öffnen. Für jede der Belegarten wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** **Statistik** aus. Um es zum Beispiel aus der Seite **Gebuchte Servicerechnungen** heraus zu öffnen, wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Statistik** aus.  
 
 ### <a name="posted-service-shipment-statistics"></a>Geb. Servicelieferungsstatistik  
-Das Fenster **Servicelieferungsstatistik** bietet Ihnen eine Übersicht über die gebuchte Servicelieferung. Das Fenster umfasst das Inforegister "Allgemein", auf dem Informationen zum physischen Inhalt der Lieferung angezeigt werden, z. B. die Menge der gelieferten Artikel, die Ressourcenstunden oder die Einstandspreise und das Gewicht sowie das Volumen der gelieferten Artikel.  
+Die Seite **Servicelieferungsstatistik** bietet Ihnen eine Übersicht über die gebuchte Servicelieferung. Das Fenster umfasst das Inforegister "Allgemein", auf dem Informationen zum physischen Inhalt der Lieferung angezeigt werden, z. B. die Menge der gelieferten Artikel, die Ressourcenstunden oder die Einstandspreise und das Gewicht sowie das Volumen der gelieferten Artikel.  
 
 ### <a name="posted-service-invoice-statistics"></a>Geb. Servicerechnungsstatistik  
-Im Fenster **Servicerechnungsstatistik** wird eine statistische Zusammenfassung der gebuchten Servicerechnung angezeigt. Sie können die Summen der gebuchten Servicerechnung angezeigt. Die Daten umfassen den Gesamtbetrag der Servicezeilen (mit und ohne MwSt.), die als fakturiert gebucht wurden, MwSt.-Anteil, Einstandspreis sowie DB der gebuchten Rechnung. Die Spalten im Fenster zeigen darüber hinaus die folgenden Informationen an:  
+Auf der Seite **Servicerechnungsstatistik** wird eine statistische Zusammenfassung der gebuchten Servicerechnung angezeigt. Sie können die Summen der gebuchten Servicerechnung angezeigt. Die Daten umfassen den Gesamtbetrag der Servicezeilen (mit und ohne MwSt.), die als fakturiert gebucht wurden, MwSt.-Anteil, Einstandspreis sowie DB der gebuchten Rechnung. Die Spalten auf der Seite zeigen darüber hinaus die folgenden Informationen an:  
 
 * Die Artikel in den Servicerechnungszeilen, wie Gewicht, Volumen und Menge an Paketen.  
 * Der Saldo des Debitorenkontos und der maximale Kredit, den Sie für den Debitor erweitern können.  
 
 ### <a name="posted-service-credit-memo-statistics"></a>Statistik zu gebuchten Servicegutschriften  
-Im Fenster **Servicegutschriftstatistik** erhalten Sie eine Übersicht über die Zeilen in einer gebuchten Servicegutschrift. Die Übersicht kann gehören:
+Auf der Seite **Servicegutschriftstatistik** erhalten Sie eine Übersicht über die Zeilen in einer gebuchten Servicegutschrift. Die Übersicht kann gehören:
 
 * Auf dem Inforegister "Allgemein" werden die Gesamtbeträge der gebuchten Gutschrift sowie Informationen wie Menge, Betrag, MwSt., Einstandspreis und DB angezeigt. Das Inforegister enthält zudem spezifische Informationen über die Artikel in den Servicezeilen der gebuchten Gutschrift wie Menge, Gewicht und Volumen.  
 * Das Inforegister "Debitor" enthält allgemeine Informationen zum Debitor, z. B. Kreditlimit und Kontosaldo.  

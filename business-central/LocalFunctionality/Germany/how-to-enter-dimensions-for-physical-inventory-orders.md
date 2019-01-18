@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e4d3837531f129bacb210e0eeceba5bfcd51caf0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8bbeca4612872c089ec78ac660b2f53f41dce087
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enter-dimensions-for-physical-inventory-orders"></a>So geben Sie Dimensionen für den physischen Inventurauftrag ein
@@ -31,10 +31,10 @@ Aus diesem Grund sollten die Inventurauftragszeilen erst erstellt werden, nachde
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol „Nach Seite oder Bericht suchen”"), geben Sie **Bestandsauftrag** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie den Inventurauftrag aus, für den Sie eine Inventurerfassung erstellen möchten, klicken Sie auf Aktionen und anschließend auf **Bearbeiten**.  
 3.  Wählen Sie die Aktion **Dimensionen** aus.  
-4.  Im Fenster **Dimensionssatzposten bearbeiten** geben Sie die Dimensionen im Inventurauftragskopf ein.  
+4.  Auf der Seite **Dimensionssatzposten bearbeiten** geben Sie die Dimensionen im Inventurauftragskopf ein.  
 5.  Erstellen Sie eine neue Inventurauftragszeile, und geben Sie die Artikelnummer ein.  
 6.  Wählen Sie die Aktion **Position** und dann die Aktion **Dimensionen**.  
-7.  Im Fenster **Dimensionssatzposten bearbeiten** geben Sie die Dimensionen im Inventurauftragskopf ein.  
+7.  Auf der Seite **Dimensionssatzposten bearbeiten** geben Sie die Dimensionen im Inventurauftragskopf ein.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Physische Inventuraufträge eingeben](how-to-enter-physical-inventory-orders.md)   

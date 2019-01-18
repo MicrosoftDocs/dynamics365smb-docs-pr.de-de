@@ -11,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4c3f0f612c13d9fe84cffc4862641301795bcebd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Verwaltung von Marketingkampagnen
@@ -23,7 +23,7 @@ Der Einsatz eines fundierten Marketingplans ermöglicht das Erkennen, Gewinnen u
 Jede Kampagne besteht aus unterschiedlichen Aktionen oder Aufgaben. Sie können mehrere Aufgabe, zum Beispiel Tätigkeiten kombinieren, die jede einen Schritt darstellen in den Aktivitäten. Alle Schritte innerhalb einer Aktion sind durch ein Datenformular miteinander verbunden. Optionen können nur einzelnen Verkäufern zugewiesen werden. Aktivitäten können Verkaufschancen, Verkäufer, Gruppen von Vertriebsmitarbeitern und den Kontakten zugeordnet werden. Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Einzelkampagne definieren
-Damit eine Kampagne erstellt werden kann, müssen *Codes für den Kampagnenstatus* eingerichtet werden. Diese Codes vereinfachen das Verwalten der Kampagnen, indem der Kampagne ein Status zugeordnet wird. So können Sie den aktuellen Status der Kampagne sowie den nächsten Schritt der Kampagne ablesen, während die einzelnen Phasen einer Kampagne durchlaufen werden. Sie können Kampagnenstatuscodes im Fenster **Kampagnenstatus** einrichten.
+Damit eine Kampagne erstellt werden kann, müssen *Codes für den Kampagnenstatus* eingerichtet werden. Diese Codes vereinfachen das Verwalten der Kampagnen, indem der Kampagne ein Status zugeordnet wird. So können Sie den aktuellen Status der Kampagne sowie den nächsten Schritt der Kampagne ablesen, während die einzelnen Phasen einer Kampagne durchlaufen werden. Sie können Kampagnenstatuscodes auf der Seite **Kampagnenstatus** einrichten.
 
 Für jede Kampagne, die Sie nachverfolgen möchten, kann eine Kampagnenkarte erstellt werden. Auf diesen Kampagnenkarten finden Sie auch allgemeine Informationen zu den Kampagnen.
 Sie können Kampagnenposten löschen, z. B. wenn der Posten eine Aktion speichert, die storniert wurde. Es können nur stornierte Kampagnenposten gelöscht werden.
@@ -32,7 +32,7 @@ Sie können Kampagnenposten löschen, z. B. wenn der Posten eine Aktion speicher
 Nachdem eine Kampagne erstellt wurde, können Sie mit dem Erstellen von Segmenten für die Kampagnen beginnen und das Zielsegment festlegen. Weitere Informationen finden Sie unter [Segmente verwalten](marketing-segments.md).
 
 ### <a name="registering-discount-percentages"></a>Erfassen von Rabattprozentsätzen
-Nachdem Sie Ihre Kampagne eingerichtet haben, entschieden haben, welche Segmente die Kampagne umfassen soll, und das Start- und Enddatum festgelegt haben, erfassen Sie den Rabattprozentsatz, den der Debitor auf die einzelnen Artikel in den Zeilen des Fensters **Verkaufszeilenrabatt** erhält. Sie können die Verkaufspreise der einzelnen Artikel in den Zeilen im Fenster **Verkaufspreise** auch erfassen. Sie können auf beide Fenster von der Kampagnenkarte zugreifen.
+Nachdem Sie Ihre Kampagne eingerichtet haben, entschieden haben, welche Segmente die Kampagne umfassen soll, und das Start- und Enddatum festgelegt haben, erfassen Sie den Rabattprozentsatz, den der Debitor auf die einzelnen Artikel in den Zeilen der Seite **Verkaufszeilenrabatt** erhält. Sie können die Verkaufspreise der einzelnen Artikel in den Zeilen auf der Seite **Verkaufspreise** auch erfassen. Sie können auf beide Seiten von der Kampagnenkarte zugreifen.
 
  Nachdem Sie die Verkaufspreise/Zeilenrabatte sowie die Segmente auf der Kampagnenkarte eingerichtet haben, müssen Sie sie aktivieren, so dass die Kampagnenpreise/Rabatte in den Zeilen wiedergegeben werden.
 

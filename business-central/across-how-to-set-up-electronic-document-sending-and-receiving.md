@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Einrichten des Senden und Empfangen von elektronischen Belegen
 Als Alternative zu E-Mail-Dateianhängen können Sie Geschäftsbelegen elektronisch versenden und empfangen. Ein elektronischer Beleg ist eine normgerechte \-, die ein Geschäftsdokument darstellt (zum Beispiel eine Rechnung von einem Kreditor), die empfangen und in [!INCLUDE[d365fin](includes/d365fin_md.md)] in eine Einkaufsrechnung konvertieren kann. Der Austausch von elektronischen Belegen zwischen zwei Handelspartnern erfolgt über einen externen Anbieter eines Belegaustauschdiensts. Die allgemeine Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt das Senden und Empfangen von elektronischen Rechnungen und Gutschriften im PEPPOL-Format, das von den größten Anbietern von Belegaustauschdiensten unterstützt wird. Ein wichtiger Anbieter eines Belegaustauschdienstes ist vorkonfiguriert und kann für Ihren Mandanten eingerichtet werden.  
 
-Mithilfe eines externen OCR-Dienstes (optische Zeichenerkennung) können Sie aus PDF- oder Bilddateien, die die Eingangsbelege darstellen, elektronische Belege erstellen, die Sie dann in [!INCLUDE[d365fin](includes/d365fin_md.md)] in Belegdatensätze konvertieren können, wie Sie es für elektronische PEPPOL-Belege tun. Wenn Sie beispielsweise eine Rechnung in PDF-Format von Ihrem Kreditor erhalten, können Sie diese über das Fenster **Eingehende Belege** zum OCR-Dienst senden. Nach einigen SeDebitoren erhalten Sie die Datei als elektronische Rechnung zurück, die zu einer Einkaufsrechnung für den Kreditor umgewandelt werden kann. Wenn Sie die Datei per E-Mail an den OCR-Service senden, wird automatisch ein neuer Datensatz für einen eingehenden elektronischen Beleg erstellt, wenn Sie den elektronischen Belegs zurückerhalten.  
+Mithilfe eines externen OCR-Dienstes (optische Zeichenerkennung) können Sie aus PDF- oder Bilddateien, die die Eingangsbelege darstellen, elektronische Belege erstellen, die Sie dann in [!INCLUDE[d365fin](includes/d365fin_md.md)] in Belegdatensätze konvertieren können, wie Sie es für elektronische PEPPOL-Belege tun. Wenn Sie beispielsweise eine Rechnung in PDF-Format von Ihrem Kreditor erhalten, können Sie diese über die Seiter **Eingehende Belege** zum OCR-Dienst senden. Nach einigen Sekunden erhalten Sie die Datei als elektronische Rechnung zurück, die zu einer Einkaufsrechnung für den Kreditor umgewandelt werden kann. Wenn Sie die Datei per E-Mail an den OCR-Service senden, wird automatisch ein neuer Datensatz für einen eingehenden elektronischen Beleg erstellt, wenn Sie den elektronischen Belegs zurückerhalten.  
 
-Das elektronische Belegformat **PEPPOL** ist vorkonfiguriert, sodass Sie elektronische Rechnungen und Gutschriften im PEPPOL-Format senden können. Zuerst müssen Sie verschiedene Stammdaten einrichten, zum Beispiel Mandantendaten, Debitoren, Artikel und Maßeinheiten. Diese werden verwendet, um Geschäftspartner und Artikel zu identifizieren, wenn Daten in Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] in Elemente in der ausgehenden Dokumentdatei konvertiert werden. Abschließend müssen Sie im Fenster **Elektronisches Dokumentenformat** das Format für jeden Debitor auswählen, an den Sie elektronische PEPPOL-Belege senden. Weitere Informationen finden Sie unter [Senden von elektronischen Dokumenten](sales-how-to-send-electronic-documents.md).  
+Das elektronische Belegformat **PEPPOL** ist vorkonfiguriert, sodass Sie elektronische Rechnungen und Gutschriften im PEPPOL-Format senden können. Zuerst müssen Sie verschiedene Stammdaten einrichten, zum Beispiel Mandantendaten, Debitoren, Artikel und Maßeinheiten. Diese werden verwendet, um Geschäftspartner und Artikel zu identifizieren, wenn Daten in Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] in Elemente in der ausgehenden Dokumentdatei konvertiert werden. Abschließend müssen Sie auf der Seite **Elektronisches Dokumentenformat** das Format für jeden Debitor auswählen, an den Sie elektronische PEPPOL-Belege senden. Weitere Informationen finden Sie unter [Senden von elektronischen Dokumenten](sales-how-to-send-electronic-documents.md).  
 
-Die Datenaustauschdefinition **PEPPOL - Rechnung** und **PEPPOL – Gutschrift** sind vorkonfiguriert, sodass Sie elektronische Rechnungen und Gutschriften im PEPPOL-Format empfangen können. Zuerst müssen Sie verschiedene Stammdaten einrichten, zum Beispiel Mandantendaten, Kreditoren, Artikel und Maßeinheiten. Diese werden verwendet, um Geschäftspartner und Artikel zu identifizieren, wenn Daten in Elementen im Eingangsbeleg zu Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] konvertiert werden. Abschließend müssen Sie im Fenster **Eingehende Dokumente** die Datenaustauschdefinition für jeden eingehenden elektronischen Beleg auswählen, der in einen Einkaufsbeleg in [!INCLUDE[d365fin](includes/d365fin_md.md)] umgewandelt werden soll.  
+Die Datenaustauschdefinition **PEPPOL - Rechnung** und **PEPPOL – Gutschrift** sind vorkonfiguriert, sodass Sie elektronische Rechnungen und Gutschriften im PEPPOL-Format empfangen können. Zuerst müssen Sie verschiedene Stammdaten einrichten, zum Beispiel Mandantendaten, Kreditoren, Artikel und Maßeinheiten. Diese werden verwendet, um Geschäftspartner und Artikel zu identifizieren, wenn Daten in Elementen im Eingangsbeleg zu Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] konvertiert werden. Abschließend müssen Sie auf der Seite **Eingehende Belege** die Datenaustauschdefinition für jeden eingehenden elektronischen Beleg auswählen, der in einen Einkaufsbeleg in [!INCLUDE[d365fin](includes/d365fin_md.md)] umgewandelt werden soll.  
 
 Die **OCR - Rechnung**-Datenaustauschdefinition ist vorkonfiguriert. Sie ermöglicht Ihnen dem Empfang von um elektronischen Belege die vom OCR-Service generiert werden. Um zum Beispiel eine Rechnung als elektronischen OCR-Beleg zu empfangen, richten Sie das Masterdatum ein und verarbeitet den Beleg dann so wie einen elektronischen PEPPOL-Beleg. Weitere Informationen finden Sie unter [Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln](across-how-use-ocr-pdf-images-files.md).  
 
@@ -67,7 +67,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
-    |**MwSt.-Schema**|Identifizieren Sie die nationale Behörde, die die MwSt-IdNr. für die Länder\/Regionen ausgibt, an die elektronische Beleg gesendet werden.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **SchemeID**-Attribut für das **EndPointID**-Element unter den Knoten **AccountingSupplierParty** und **AccountingCustomerParty** in der Datei zu füllen.<br /><br /> Das Feld **MwSt-Schema** wird nur verwendet, wenn das Feld **GLN** im Fenster **Unternehmen** nicht ausgefüllt ist. **Hinweis:** Der Wert im Feld **Code** im Fenster**Länder\/Regionen** muss dem Standard ISO 3166\-1:Alpha2 entsprechen.|  
+    |**MwSt.-Schema**|Identifizieren Sie die nationale Behörde, die die MwSt-IdNr. für die Länder\/Regionen ausgibt, an die elektronische Beleg gesendet werden.<br /><br /> Wenn Sie beispielsweise elektronische Rechnungen im PEPPOL-Format senden, wird der Wert in diesem Feld verwendet, um das **SchemeID**-Attribut für das **EndPointID**-Element unter den Knoten **AccountingSupplierParty** und **AccountingCustomerParty** in der Datei zu füllen.<br /><br /> Das Feld **MwSt-Schema** wird nur verwendet, wenn das Feld **GLN** auf der Seite **Unternehmen** nicht ausgefüllt ist. **Hinweis:** Der Wert im Feld **Code** auf der Seite **Länder\/Regionen** muss dem Standard ISO 3166\-1:Alpha2 entsprechen.|  
 
 ### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Einrichten von Artikeln zum Senden und Empfangen von elektronischen Belegen  
 1. Geben Sie im Feld **Suchen** **Artikel** ein, und wählen Sie dann den zugehörigen Link aus.  
@@ -100,7 +100,7 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 ### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>Auswählen des elektronischen Belegformats PEPPOL zum Senden von elektronischen Belegen  
 1. Geben Sie im Feld **Suchen** den Text **Belegsendeprofile** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Öffnen Sie ein vorhandenes Sendeprofil für Belege, oder erstellen Sie ein neues. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).  
-3. Das Fenster **Belegsendeprofil** kann jetzt im **Elektronisches Format**-Feld in der Zeile für PEPPOL ausgewählt werden. Wählen Sie dann die Schaltfläche **OK**.  
+3. Die Seite **Belegsendeprofil** kann jetzt im **Elektronisches Format**-Feld in der Zeile für PEPPOL ausgewählt werden. Wählen Sie dann die Schaltfläche **OK**.  
 4. Wählen Sie im Feld **Elektronisches Do,ument** die Option **Ja (über Belegaustauschdienst)** aus.  
 
     > [!NOTE]  
@@ -121,16 +121,16 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
     |**Zuständigkeitseinheitencode**|Wenn Ihr Unternehmen mit einer Zuständigkeitseinheit eingerichtet ist, dann stellen Sie sicher, dass das Feld **Land-/Regionencode** ausgefüllt ist.|  
 
 ### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>Auswählen der Datenaustauschdefinition „PEPPOL - Rechnung“ für den Empfang von elektronischen Belegen  
-1. Geben Sie im Feld **Suchen** einen Wert für **Eingehende Dokumente** ein, und wählen Sie dann den zugehörigen Link aus.  
+1. Geben Sie im Feld **Suchen** einen Wert für **Eingehende Belege** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie in der Zeile für den elektronischen Beleg, der empfangen und konvertiert werden soll, das Feld **Datenaustasuchtyp** und dann **PEPPOL-Rechnung** aus.  
 
      Wenn der zu empfangen Beleg eine Gutschrift ist, wählen Sie **PEPPOLCREDITMEMO** aus.  
 
-    Nun können Sie den elektronischen Beleg empfangen, indem Sie den Datenkonvertierungsprozess im Fenster**Eingehende Dokumente** starten. Weitere Informationen finden Sie unter [Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md).  
+    Nun können Sie den elektronischen Beleg empfangen, indem Sie den Datenkonvertierungsprozess auf der Seite **Eingehende Belege** starten. Weitere Informationen finden Sie unter [Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
 ### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Einrichten des Sachkontos zur Verwendung bei neuen Einkaufsrechnungszeilen für nicht identifizierbare Artikel und Nicht-Artikel  
-1. Geben Sie im Feld **Suchen** **Kreditoren & Einkauf** ein, und wählen Sie dann den zugehörigen Link aus.  
-2. Füllen Sie im Inforegister **Datenaustausch** das Feld gemäß der Beschreibung in der folgenden Tabelle aus.  
+1. Geben Sie im Feld **Suchen** **Kreditoren & Einkauf einrichten** ein, und wählen Sie dann den zugehörigen Link aus.  
+2. Füllen Sie im Inforegister **Kontenschemata** das Feld gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
@@ -138,6 +138,6 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 
 ## <a name="see-also"></a>Siehe auch  
 [Daten elektronisch austauschen](across-data-exchange.md)   
-[Verkaufsrechnung](sales-how-invoice-sales.md)   
+[Fakturieren eines Verkaufs](sales-how-invoice-sales.md)   
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)
 

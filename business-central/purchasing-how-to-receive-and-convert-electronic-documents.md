@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2cbddbfe4d184468b778455d4b75f49b0f23b67
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Vorgehensweise: Elektronische Belege empfangen und konvertieren
-Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt das Empfangen von elektronischen Rechnungen und Gutschriften im PEPPOL-Format, das von den wichtigsten Anbietern von Belegaustauschdiensten unterstützt wird. Um beispielsweise eine Rechnung von einem Kreditor in Form eines elektronischen PEPPOL-Belegs zu erhalten, verarbeiten Sie den Beleg im Fenster Eingehende Dokumente, um diesen in eine Einkaufsrechnung oder Fibu Buch.-Blattzeile in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu konvertieren.
+Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt das Empfangen von elektronischen Rechnungen und Gutschriften im PEPPOL-Format, das von den wichtigsten Anbietern von Belegaustauschdiensten unterstützt wird. Um beispielsweise eine Rechnung von einem Kreditor in Form eines elektronischen PEPPOL-Belegs zu erhalten, verarbeiten Sie den Beleg auf der Seite Eingehende Belege, um diesen in eine Einkaufsrechnung oder Fibu Buch.-Blattzeile in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu konvertieren.
 
  Zusätzlich zur Empfangen von elektronischen Dokumenten direkt von Handelspartnern können Sie elektronische Belege von einem OCR-Dienst erhalten, der Ihre PDF- oder Bilddateien in elektronische Belege umgewandelt hat.  
 
  Bevor Sie elektronische Belege durch den Belegaustauschdienst empfangen können, müssen Sie verschiedene Stammdaten (wie Firmendaten, Kreditoren, Artikel und Einheiten) einrichten. Diese werden verwendet, um Geschäftspartner und Artikel zu identifizieren, wenn Daten in Elementen im Eingangsbeleg zu Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] konvertiert werden. Weitere Informationen finden Sie unter [Belegaustausch-Dienst](across-how-to-set-up-a-document-exchange-service.md).  
 
- Bevor Sie elektronische Belege vom OCR-Dienst empfangen können, müssen Sie die vorkonfigurierte Serviceverbindung einrichten und aktivieren. Weitere Informationen finden Sie unter [Eingehende Dokumente einrichten](across-how-setup-income-documents.md).  
+ Bevor Sie elektronische Belege vom OCR-Dienst empfangen können, müssen Sie die vorkonfigurierte Serviceverbindung einrichten und aktivieren. Weitere Informationen finden Sie unter [Eingehende Belege einrichten](across-how-setup-income-documents.md).  
 
  Der Verkehr von elektronischen Belegen in und aus [!INCLUDE[d365fin](includes/d365fin_md.md)] wird durch die Funktion Aufgabenwarteschlange verwaltet. Bevor Sie elektronische Belege empfangen können, muss die betreffende Projektwarteschlange gestartet werden.  
 
@@ -33,7 +33,7 @@ Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstü
 > [!NOTE]  
 >  Wenn Sie die aus dem OCR-Service erhalten elektronischen Belege in die Belege oder Buch.-Blattzeilen in [!INCLUDE[d365fin](includes/d365fin_md.md)] umwandeln, dann werden mehrere Zeilen im Herkunftsbeleg in einer Zeile summiert. Die einzelne Zeile hat den Typ "Sachkonto" und die Felder **Beschreibung** und Sachkonto **Nr.** sind leer. Felder sind leer. Der Wert im Feld **Betrag** entspricht dem Gesamtbetrag ohne MwSt. aller Zeilen im Herkunftsbeleg.  
 >   
->  Um sicherzustellen dass **Beschreibung** und **Nr.** Felder ausgefüllt sind, können Sie die Schaltfläche **Text zu Konto zuordnen** im Fenster **Eingehende Dokumente** auswählen. Hiermit legen Sie fest, dass ein bestimmter Rechnungstext immer einem bestimmten Soll- oder Habenkonto in der Finanzbuchhaltung zugeordnet wird. Dadurch wird das Feld **Beschreibung** in Belegen oder Buch.-Blattzeilen, die aus einem elektronischen Beleg für diesen Kreditor oder Debitor erstellt werden, mit dem entsprechenden Text ausgefüllt, und das Feld Sachkonto **Nr.** Feld mit dem fraglichen Konto ergänzt.  
+>  Um sicherzustellen dass **Beschreibung** und **Nr.** Felder ausgefüllt sind, können Sie die Schaltfläche **Text zu Konto zuordnen** auf der Seite **Eingehende Belege** auswählen. Hiermit legen Sie fest, dass ein bestimmter Rechnungstext immer einem bestimmten Soll- oder Habenkonto in der Finanzbuchhaltung zugeordnet wird. Dadurch wird das Feld **Beschreibung** in Belegen oder Buch.-Blattzeilen, die aus einem elektronischen Beleg für diesen Kreditor oder Debitor erstellt werden, mit dem entsprechenden Text ausgefüllt, und das Feld Sachkonto **Nr.** Feld mit dem fraglichen Konto ergänzt.  
 >   
 >  Anstelle der Zuordnung zu einem Sachkonto können Sie auch ein Bankkonto zuordnen. Dies ist beispielsweise für elektronische Belege für Ausgaben nützlich, die bereits bezahlt wurden, für die Sie jedoch eine Fibu Buch.-Blattzeile erstellen möchten, die auf ein Bankkonto buchen kann.  
 
@@ -41,15 +41,15 @@ Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstü
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>So empfangen Sie eine elektronische Rechnung und konvertieren sie in eine Einkaufsrechnung:  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Eingehende Dokumente** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Eingehende Belege** ein, und wählen dann den zugehörigen Link aus.  
 
 2.  Wählen Sie die Zeile für den Eingangsbeleg aus, der die neue eingehende elektronische Rechnung darstellt, und wählen Sie dann auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Bearbeiten** aus.  
 
-     Im Fenster **Eingehende Dokumentenkarte** wird die entsprechende XML-Datei angehängt, und die meisten Felder werden mit den Informationen aus der elektronischen Rechnung ausgefüllt. Weitere Informationen finden Sie unter [So gehts: Eingehende Dokumente erstellen](across-how-create-income-document-records.md).  
+     Auf der Seite **Eingehende Belegkarte** wird die entsprechende XML-Datei angehängt, und die meisten Felder werden mit den Informationen aus der elektronischen Rechnung ausgefüllt. Weitere Informationen finden Sie unter [So geht's: Eingehende Belege erstellen](across-how-create-income-document-records.md).  
 
 3.  Wählen Sie im Feld **Datenaustauschart** die Option **PEPPOL - Rechnung** oder **OCR - Rechnung** aus, je nachdem, woher der elektronische Beleg stammt.  
 
-4.  Um Text in der Kreditorenrechnung einem bestimmten Sollkonto zuzuordnen, wählen Sie auf der Registerkarte **Aktion** in der Gruppe **Allgemein** die Option **Text zu Konto zuordnen**, und füllen Sie dann das **Kontozurodnungs** fenster aus.  
+4.  Um Text in der Kreditorenrechnung einem bestimmten Sollkonto zuzuordnen, wählen Sie auf der Registerkarte **Aktion** in der Gruppe **Allgemein** die Option **Text zu Konto zuordnen**, und füllen Sie dann die Seite **Kontozurodnungs** aus.  
 
 5.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Allgemein** die Option **Beleg erstellen**.  
 

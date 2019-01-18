@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Verwaltung von Aktivitäten mit Kontakten
@@ -30,7 +30,7 @@ Der Bereich "Marketing & Vertrieb" ermöglicht Ihnen, alle Aktivitäten, die Sie
 
 ##  <a name="setting-up-interaction-templates"></a>Einrichten von Aktivitätenvorlagen
 Bevor Sie Aktivitäten erstellen und speichern können, müssen Sie Aktivitätenvorlagen einrichten. Wenn Sie Aktivitäten erstellen, müssen Sie die Aktivitätenvorlagen angeben, auf denen diese basieren. Eine Aktivitätsvorlage ist eine Vorlage, die die grundlegenden Charakteristiken einer Aktivität bestimmt.
-Sie richten Aktivitätenvorlagen im Fenster **Aktivitätenvorlagen** ein.
+Sie richten Aktivitätenvorlagen auf der Seite **Aktivitätenvorlagen** ein.
 
 Nachdem Sie die Informationen über die Aktivitätenvorlage eingegeben haben, können Sie einen Dateianhang erstellen, z. B. ein Microsoft Word-Dokument. Wiederholen Sie diese Schritte, um weitere Aktivitätenvorlagen einzurichten.  
 
@@ -41,13 +41,13 @@ Es gibt zwei verschiedene Arten, Aktivitäten zu speichern.
 * Die Anwendung kann Aktivitäten automatisch speichern, wenn Sie Aktionen in der Anwendung durchführen, z. B., wenn Sie eine Rechnung oder ein Angebot drucken. Weitere Informationen finden Sie unter [Aktivitäten mit Kontakten automatisch aufzeichnen](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Anzeigen und Verwalten von aufgezeichneten Aktivitäten
-In dem Fenster **Aktivitätenprotokollposten** können Sie alle gespeicherten Aktivitäten sehen, die nicht gelöscht wurden. Sie können dieses Fenster folgendermaßen öffnen:
+Auf der Seite **Aktivitätenprotokollposten** können Sie alle gespeicherten Aktivitäten sehen, die nicht gelöscht wurden. Sie können diese Seite folgendermaßen öffnen:
 
 * Mithilfe des Symbols **Nach Seite oder Bericht suchen** zur suche in **Aktivitätenprotokollposten**.
 * Auswählen der **Aktivitätenprotokollposten** -Aktion für einen Kontakt oder ein Segment.
-  Das Fenster **Aktivitätenprotokollposten** enthält die Aktivitäten, die Sie manuell erstellen und die automatisch von der Anwendung aufgezeichnet werden.
+  Die Seite **Aktivitätenprotokollposten** enthält die Aktivitäten, die Sie manuell erstellen und die automatisch von der Anwendung aufgezeichnet werden.
 
-In diesem Fenster können Sie die folgenden Aufgaben durchführen:
+Auf dieser Seite können Sie folgende Aktivitäten durchführen:
 
 * Anzeigen des Status von Aktivitäten.
 * Aktivitäten als storniert markieren.

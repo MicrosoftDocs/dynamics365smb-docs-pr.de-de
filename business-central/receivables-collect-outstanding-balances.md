@@ -11,10 +11,10 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4696fa95b82a0deb0ba9642ef796160f25a57afc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Einziehen von Restbeträgen
@@ -23,7 +23,7 @@ Im Rahmen der Debitorenverwaltung muss auch geprüft werden, ob fällige Beträg
 Mithilfe von Mahnungen können Debitoren auf überfällige Beträge aufmerksam gemacht werden. Darüber hinaus können Mahnungen zum Berechnen von Zinsen oder Zuschlägen verwendet werden, die dann in die Mahnung aufgenommen werden. Verwenden Sie Zinsrechnungen, wenn Sie Debitoren Zinsen oder Zuschläge berechnen möchten, ohne die überfälligen Beträge anzumahnen.
 
 ## <a name="reminders"></a>Mahnungen
-Bevor Sie Mahnungen erstellen können, müssen zunächst Mahnmethoden eingerichtet und den Debitoren zugeordnet werden. Jeder Mahnmethodencode enthält vordefinierte Mahnstufen. Jede Mahnstufe enthält Regeln darüber, wann die Mahnung ausgegeben wird, zum Beispiel wie viele Tage nach der Fälligkeit der Rechnung oder nach der vorherigen Mahnung. Die Inhalte des Fensters **Zinskonditionen** legen fest, ob auf der Mahnung Zinsen berechnet werden.  
+Bevor Sie Mahnungen erstellen können, müssen zunächst Mahnmethoden eingerichtet und den Debitoren zugeordnet werden. Jeder Mahnmethodencode enthält vordefinierte Mahnstufen. Jede Mahnstufe enthält Regeln darüber, wann die Mahnung ausgegeben wird, zum Beispiel wie viele Tage nach der Fälligkeit der Rechnung oder nach der vorherigen Mahnung. Die Inhalte der Seite **Zinskonditionen** legen fest, ob auf der Mahnung Zinsen berechnet werden.  
 
 Der Batchauftrag **Mahnungen erstellen** kann in regelmäßigen Abständen ausgeführt werden, um Mahnungen für alle Debitoren mit überfälligem Saldo zu erstellen. Alternativ können Sie eine Mahnung für einen bestimmten Debitor manuell erstellen und die Zeilen automatisch berechnen und ausfüllen lassen.  
 
@@ -46,7 +46,7 @@ Erstellte Zinsrechnungen können geändert werden. Der Text, der am Anfang und a
 Nach dem Erstellen von Zinsrechnungen und dem Vornehmen von möglicherweise erforderlichen Änderungen können Sie entweder Testberichte drucken oder die Zinsrechnungen versenden, in der Regel als E-Mail.
 
 ## <a name="multiple-interest-rates"></a>Verschiedene Zinssätze
-Wenn Sie Zinskonditionen und Mahnmethoden für verspätete Zahlungen einrichten, können Sie mehrere Zinssätzen angeben, damit die Strafgebühr aus verschiedenen Zinssätzen in verschiedenen Perioden berechnet wird. Sind mehrere Zinssätze nicht eingerichtet, dann wird der Zinssatz und die Periode, die in den Fenstern **Zinskonditionen** und **Mahnmethode** für der gesamten Periode der Berechnung definiert ist, verwendet. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten verschiedener Zinssätze](finance-how-to-set-up-multiple-interest-rates.md).  
+Wenn Sie Zinskonditionen und Mahnmethoden für verspätete Zahlungen einrichten, können Sie mehrere Zinssätzen angeben, damit die Strafgebühr aus verschiedenen Zinssätzen in verschiedenen Perioden berechnet wird. Sind mehrere Zinssätze nicht eingerichtet, dann wird der Zinssatz und die Periode, die auf den Seiten **Zinskonditionen** und **Mahnmethode** für der gesamten Periode der Berechnung definiert ist, verwendet. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten verschiedener Zinssätze](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="to-send-the-customer-statement-report"></a>Um den Kontoauszugsbericht zu senden
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitorenbericht** ein, und wählen dann den zugehörigen Link aus.
@@ -69,19 +69,19 @@ Bei der ersten Erstellung einer Mahnung für einen Debitor werden die Einstellun
 Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die Bedingungen der höchsten Stufe verwendet. Die Anzahl der erstellbaren Mahnungen wird in den Mahnmethoden durch das Feld **Max. Anzahl Mahnungen** begrenzt.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Erinnerungsbestimmungen** ein, und wählen dann den zugehörigen Link aus.  
-2. Klicken Sie im Fenster **Mahnmethoden** in die Zeile mit der Methode, für die Sie Stufen anlegen möchten, und wählen Sie dann Aktione **Stufen**.  
+2. Klicken Sie auf der Seite **Mahnmethoden** in die Zeile mit der Methode, für die Sie Stufen anlegen möchten, und wählen Sie dann die Aktion **Stufen**.  
 3. Füllen Sie die Felder je nach Bedarf aus.  
 
-    Für jede Mahnstufe können Sie individuelle Bedingungen angeben, die zusätzliche Gebühren in Landes- oder Fremdwährung enthalten können. Sie können mehrere Gebühren in Fremdwährungen für jeden Code im Fenster **Mahnstufen** einrichten.
+    Für jede Mahnstufe können Sie individuelle Bedingungen angeben, die zusätzliche Gebühren in Landes- oder Fremdwährung enthalten können. Sie können mehrere Gebühren in Fremdwährungen für jeden Code auf der Seite **Mahnstufen** einrichten.
 4. Wählen Sie die Aktion **Währungen** aus.
-5. Im Fenstert **Währungen für Mahnstufen festlegen** können Sie für jeden Mahnstufencode und die dazugehörende Mahnstufe Fremdwährungsinformationen hinterlegen, die aus einem Währungscode und einer Gebühr bestehen.
+5. Auf der Seite **Währungen für Mahnstufen festlegen** können Sie für jeden Mahnstufencode und die dazugehörende Mahnstufe Fremdwährungsinformationen hinterlegen, die aus einem Währungscode und einer Gebühr bestehen.
 
     > [!NOTE]  
-    > Wenn Sie Mahnungen in Fremdwährungen erstellen, verwendet die Anwendung die Bedingungen für Fremdwährungen, die Sie in dieser Tabelle eingerichtet haben, um  Mahnungen zu erstellen. Falls keine Mahnkonditionen für Fremdwährungen eingerichtet wurden, verwendet die Anwendung die Mahnkonditionen für die Mandantenwährung in der Tabelle **Mahnstufe** und rechnet diese in die entsprechende Währung um.
+    > Wenn Sie Mahnungen in Fremdwährungen erstellen, verwendet die Anwendung die Bedingungen für Fremdwährungen, die Sie in dieser Tabelle eingerichtet haben, um  Mahnungen zu erstellen. Falls keine Mahnkonditionen für Fremdwährungen eingerichtet wurden, verwendet die Anwendung die Mahnkonditionen für die Mandantenwährung auf der Seite **Mahnstufe** und rechnet diese in die entsprechende Währung um.
 
     Jede Mahnstufe kann mit Text versehen werden, der entweder vor ( **Vortext**) oder nach ( **Nachtext**) den Mahnposten gedruckt wird.
 
-6. Wählen Sie die Aktionen **Vortext** oder **Nachtext** entsprechend aus und füllen Sie das Fenster **Mahntext** aus.
+6. Wählen Sie die Aktionen **Vortext** oder **Nachtext** entsprechend aus und füllen Sie die Seite **Mahntext** aus.
 7. Um zugehörige Werte in das resultierende Mahntext automatisch einzusetzen, geben -Sie die folgenden Platzhaltern im Feld **Text** Feld ein.  
 
 |Platzhalter|Wert|  
@@ -110,12 +110,12 @@ Geben Sie nach der Einrichtung der Mahnmethoden (mit zusätzlichen Stufen und Te
 Eine Mahnung ähnelt einer Rechnung. Beim Erstellen einer Lieferanmahnung müssen sowohl der Lieferanmahnungskopf als auch eine oder mehrere Lieferanmahnungszeilen ausgefüllt werden. Sie können eine Funktion verwenden, um Mahnungen für alle Debitoren automatisch zu erstellen.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Erinnerung** ein, und wählen dann den zugehörigen Link aus.
-2. Klicken Sie im Fenster **Mahnung** auf die Aktion **Mahnung erstellen**.
-3. Im Fenster **Mahnungen erstellen** füllen Sie die Felder aus, um festzulegen wie und an Mahnungen erstellt werden.
+2. Klicken Sie auf der Seite **Mahnung** auf die Aktion **Mahnung erstellen**.
+3. Auf der Seite **Mahnungen erstellen** füllen Sie die Felder aus, um festzulegen wie und an Mahnungen erstellt werden.
 4. Wählen Sie die Schaltfläche **OK** aus.
 
 ## <a name="to-create-a-reminder-manually"></a>So werden Mahnungen manuell erstellt:
-Im Fenster **Mahnung** können Sie das Inforegister **Allgemein** manuell ausfüllen und dann die Zeilen automatisch ausfüllen dann lassen.
+Auf der Seite **Mahnung** können Sie das Inforegister **Allgemein** manuell ausfüllen und dann die Zeilen automatisch ausfüllen dann lassen.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Erinnerung** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
@@ -134,21 +134,21 @@ Es gibt verschiedene Arten, wie Sie den Text, der auf der ausgedruckten Mahnung 
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Erinnerung** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die relevante Mahnung, und wählen Sie die Aktion **Mahnungstext aktualisieren** aus.
-3. Geben Sie im Fenster **Mahnungstext aktualisieren** im Feld **Mahnstufe** die gewünschte Stufe ein.
+3. Geben Sie auf der Seite **Mahnungstext aktualisieren** im Feld **Mahnstufe** die gewünschte Stufe ein.
 3. Wählen Sie die Schaltfläche **OK**, um den Vortext und den Nachtext zu aktualisieren.
 
 ## <a name="to-issue-a-reminder"></a>Um eine Mahnung auszugeben
 Nach dem Erstellen von Mahnungen und dem Vornehmen von möglicherweise erforderlichen Änderungen können Sie entweder Testberichte drucken oder die Mahnungen registrieren.
 
-Durch Registrieren einer Mahnung werden die Daten in einem separaten Fenster für registrierte Mahnungen übertragen. Gleichzeitig werden die Mahnungsposten gebucht. Wurden Zinsen oder Gebühren berechnet, werden zudem Debitorenposten sowie Fibu-Posten gebucht.
+Durch Registrieren einer Mahnung werden die Daten auf eine separate Seite für registrierte Mahnungen übertragen. Gleichzeitig werden die Mahnungsposten gebucht. Wurden Zinsen oder Gebühren berechnet, werden zudem Debitorenposten sowie Fibu-Posten gebucht.
 
-Wenn eine Mahnung registriert wird, werden die Posten entsprechend Ihren Angaben in der Tabelle **Mahnmethode** gebucht.. Diese Spezifikation legt fest, ob Zinsen und/oder Gebühren für den Debitor und in die Finanzbuchhaltung gebucht werden sollen. Das Fenster **Debitorenbuchungsgruppen** bestimmt, auf welche Konten gebucht wird.
+Wenn eine Mahnung registriert wird, werden die Posten entsprechend Ihren Angaben auf der Seite **Mahnmethode** gebucht.. Diese Spezifikation legt fest, ob Zinsen und/oder Gebühren für den Debitor und in die Finanzbuchhaltung gebucht werden sollen. Die Seite **Debitorenbuchungsgruppen** bestimmt, auf welche Konten gebucht wird.
 
-Für jeden Debitorenposten in der Zinsrechnung wird ein Posten in der Tabelle **Mahnungs-/Zinsrechnungsposten** erzeugt.
+Für jeden Debitorenposten in der Zinsrechnung wird ein Posten auf der Seite **Mahnungs-/Zinsrechnungsposten** erzeugt.
 
-Wenn das Kontrollkästchen **Zins buchen** oder **Zusätzliche Gebühren buchen** im Fenster **Mahnungsbedingungen** aktiviert ist, werden außerdem die folgenden Posten erstellt:
+Wenn das Kontrollkästchen **Zins buchen** oder **Zusätzliche Gebühren buchen** auf der Seite **Mahnungsbedingungen** aktiviert ist, werden außerdem die folgenden Posten erstellt:
 
-- Ein Posten im Fenster **Debitorenposten**
+- Ein Posten auf der Seite **Debitorenposten**
 - Ein Forderungsposten auf dem jeweiligen Sachkonto
 - Ein Zins- und/oder Gebührenposten auf dem jeweiligen Sachkonto
 
@@ -156,7 +156,7 @@ Zusätzlich kann das Registrieren der Mahnung zu MwSt.-Posten führen.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Erinnerung** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die entsprechenden Mahung aus und wählen Sie die Aktion **Ausgeben** aus.
-3. Füllen Sie im Fenster **Mahnungen ausgeben** die Felder nach Bedarf aus.
+3. Füllen Sie auf der Seite **Mahnungen ausgeben** die Felder nach Bedarf aus.
 4. Wählen Sie die Schaltfläche **OK** aus.
 
 Die Mahnung wird entweder gedruckt oder an eine festgelegte E-Mail als PDF-Dateianhang gesendet.
@@ -182,15 +182,15 @@ Zusätzlich ist jeder Code in der Tabelle "Zinskondition" mit einer Untertabelle
 2. Füllen Sie die Felder je nach Bedarf aus.  
 3. Um mehr als eine Kombination von Mahnmethoden zu verwenden, richten Sie einen Code für jede ein.
 
-    Für jede Mahnstufe können Sie individuelle Bedingungen angeben, die zusätzliche Gebühren in Landes- oder Fremdwährung enthalten können. Sie können mehrere Gebühren in Fremdwährungen für jeden Code im Fenster **Zinskonditionen** einrichten.
+    Für jede Mahnstufe können Sie individuelle Bedingungen angeben, die zusätzliche Gebühren in Landes- oder Fremdwährung enthalten können. Sie können mehrere Gebühren in Fremdwährungen für jeden Code auf der Seite **Zinskonditionen** einrichten.
 4. Wählen Sie die Aktion **Währungen** aus.
-5. Im Fenster **Währungen für Zinskonditionen** können Sie für jeden Begriff einen Währungscode und Gebühren definieren.
+5. Auf der Seite **Währungen für Zinskonditionen** können Sie für jeden Begriff einen Währungscode und Gebühren definieren.
 
     > [!NOTE]  
-    > Wenn Sie Zinsrechnungen in Fremdwährungen erstellen, verwendet die Anwendung die Bedingungen für Fremdwährungen, die Sie in dieser Tabelle eingerichtet haben, um  Zinsrechnungen zu erstellen. Falls es keine Zinskonditionen für Fremdwährungen gibt, verwendet die Anwendung die Zinskonditionen für die Mandantenwährung in der Tabelle **Zinskondition** und rechnet diese in die entsprechende Währung um.
+    > Wenn Sie Zinsrechnungen in Fremdwährungen erstellen, verwendet die Anwendung die Bedingungen für Fremdwährungen, die Sie in dieser Tabelle eingerichtet haben, um  Zinsrechnungen zu erstellen. Falls es keine Zinskonditionen für Fremdwährungen gibt, verwendet die Anwendung die Zinskonditionen für die Mandantenwährung auf der Seite **Zinskondition** und rechnet diese in die entsprechende Währung um.
 
     Für jeden Zinskonditionencode können Sie Texte festlegen, die vor (**Vortext**) oder nach (**Nachtext)** den Posten in der Zinsrechnung ausgedruckt werden sollen.  
-6. Wählen Sie die Aktionen **Vortext** oder **Nachtext** entsprechend aus und füllen Sie das Fenster **Zinsgebühr** aus.
+6. Wählen Sie die Aktionen **Vortext** oder **Nachtext** entsprechend aus und füllen Sie die Seite **Zinsgebühr** aus.
 7. Um zugehörige Werte in das resultierende Zinsgebühr automatisch einzusetzen, geben -Sie die folgenden Platzhaltern im Feld **Text** Feld ein.
 
 |Platzhalter|Wert|  
@@ -211,7 +211,7 @@ Eine Zinsrechnung ist ähnlich wie eine Rechnung. Sie können den Kopf manuell a
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Finanzen Belastungen Memos** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus.  
 3. Wählen Sie **Zinsgebührmemo-Zeilen** vorschlagen.
-4. Im Fenster **Zinsrechnungszeile vorschlagen**Setzen Sie auf dem Inforegister **Debitorenposten** einen Filter, wenn Sie nur für bestimmte Posten Zinsrechnungen erstellen möchten.  
+4. Auf der Seite **Zinsrechnungszeile vorschlagen** setzen Sie auf dem Inforegister **Debitorenposten** einen Filter, wenn Sie nur für bestimmte Posten Zinsrechnungen erstellen möchten.  
 5.  Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>So aktualisieren Sie Zinsrechnungstexte:  
@@ -219,19 +219,19 @@ In manchen Fällen möchten Sie möglicherweise den Vor- und Nachtext ändern, d
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Finanzen Belastungen Memos** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie das Fenster, in dem Sie Text ändern möchten und wählen Sie die **Zinsrech. Text aktualisieren** Aktion aus.
-3. Auf dem Inforegister **Zinsrechnungskopf aktualisieren** können Sie einen Filter festlegen, wenn Sie mehrere Zinsrechnungen aktualisieren möchten.
+3. Auf der Seite**Zinsrechnungskopf aktualisieren** können Sie einen Filter festlegen, wenn Sie mehrere Zinsrechnungen aktualisieren möchten.
 4. Wählen Sie die Schaltfläche **OK**, um den Vortext und den Nachtext zu aktualisieren.  
 
 ## <a name="to-issue-finance-charge-memos"></a>Um Zinsrechnungen zu registrieren
 Nach dem Erstellen von Zinsrechnungen und dem Vornehmen von möglicherweise erforderlichen Änderungen können Sie entweder Testberichte drucken oder die Zinsrechnungen registrieren.
 
-Wenn eine Mahnung registriert wird, werden die Posten entsprechend Ihren Angaben in der Tabelle **Zinsgebühr** gebucht. Diese Spezifikation legt fest, ob Zinsen und/oder Gebühren für den Debitor und in die Finanzbuchhaltung gebucht werden sollen. Das Fenster **Debitorenbuchungsgruppen** bestimmt, auf welche Konten gebucht wird.
+Wenn eine Mahnung registriert wird, werden die Posten entsprechend Ihren Angaben auf der Seite **Zinsgebühr** gebucht. Diese Spezifikation legt fest, ob Zinsen und/oder Gebühren für den Debitor und in die Finanzbuchhaltung gebucht werden sollen. Die Seite **Debitorenbuchungsgruppen** bestimmt, auf welche Konten gebucht wird.
 
-Für jeden Debitorenposten in der Zinsrechnung wird ein Posten in der Tabelle **Mahnungs-/Zinsrechnungsposten** erzeugt.
+Für jeden Debitorenposten in der Zinsrechnung wird ein Posten auf der Seite **Mahnungs-/Zinsrechnungsposten** erzeugt.
 
-Wenn das Kontrollkästchen **Zins buchen** oder **Zusätzliche Gebühren buchen** im Fenster **Zinsgebührbedingungen** aktiviert ist, werden außerdem die folgenden Posten erstellt:
+Wenn das Kontrollkästchen **Zins buchen** oder **Zusätzliche Gebühren buchen** auf der Seite **Zinsgebührbedingungen** aktiviert ist, werden außerdem die folgenden Posten erstellt:
 
-- Ein Posten im Fenster **Debitorenposten**
+- Ein Posten auf der Seite **Debitorenposten**
 - Ein Forderungsposten auf dem jeweiligen Sachkonto
 - Ein Zins- und/oder Gebührenposten auf dem jeweiligen Sachkonto
 
@@ -239,16 +239,16 @@ Zusätzlich kann das Registrieren der Mahnung zu MwSt.-Posten führen.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Finanzen Belastungen Memos** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie das entsprechenden Memo aus und wählen Sie die Aktion **Ausgeben** aus.
-3. Füllen Sie im Fenster **Zinsgebührmemo ausgeben** die Felder nach Bedarf aus.
+3. Füllen Sie auf der Seite **Zinsgebührmemo ausgeben** die Felder nach Bedarf aus.
 4. Wählen Sie die Schaltfläche **OK** aus.
 
 Das Zinsgebührenmemo wird entweder gedruckt oder an eine festgelegte E-Mail als PDF-Dateianhang gesendet.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>So zeigen Sie Mahnungs- und Zinsrechnungsposten an:  
-Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debitorenposten enthält, ein Mahnungsposten in der Tabelle **Mahnung/Zinsrechnung Posten** erstellt. Sie können sich einen Überblick über die erstellten Mahnungsposten für einen bestimmten Debitor anzeigen lassen.    
+Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debitorenposten enthält, ein Mahnungsposten auf der Seite **Mahnung/Zinsrechnung Posten** erstellt. Sie können sich einen Überblick über die erstellten Mahnungsposten für einen bestimmten Debitor anzeigen lassen.    
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitor** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie die entsprechende Debitorenkarte und klicken dann auf **Buchblatteinträge**.
-3. Klicken Sie in die Zeile **Buch-Blatteinträge** und wählen Sie die Zeilen, die Sie anzeigen möchten, und klicken Sie dann auf  **Posten,  Mahnungs-/Zinsrechnungseinträge**.
+3. Klicken Sie auf die Seite auf **Buch-Blatteinträge** und wählen Sie die Zeilen, die Sie anzeigen möchten, und klicken Sie dann auf  **Posten, Mahnungs-/Zinsrechnungseinträge**.
 
 ## <a name="see-also"></a>Siehe auch
 [Verwalten von Forderungen](receivables-manage-receivables.md)  

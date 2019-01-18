@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetails: Bekannte Artikelanwendungsprobleme
@@ -102,7 +102,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 
  Für Szenario 1, können Sie das jeweilige Problem wie folgt erkennen:  
 
--   Im **Geb. Verkaufsgutschrift** oder **Gebuchte Rücksendung** Fenster suchen Sie im Feld **Ausgleich.\-vom Artikelposten**, um festzulegen, ob das Feld ausgefüllt ist, und in diesem Fall auf welche Artikelposten die Rücksendung angewendet wird.  
+-   Auf der Seite **Geb. Verkaufsgutschrift** oder **Gebuchte Rücksendung** suchen Sie im Feld **Ausgleich.\-vom Artikelposten**, um festzulegen, ob das Feld ausgefüllt ist, und in diesem Fall auf welche Artikelposten die Rücksendung angewendet wird.  
 
  Für Szenario 2 können Sie das jeweilige Problem in einer der folgenden Arten erkennen:  
 
@@ -110,13 +110,13 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 
 |Postennr.|Buchungsdatum|Postenart |Belegtyp|Belegnummer|Artikelnummer|Lagerortcode|Menge|Einstandsbetrag (tatsächl.)|Fakturierte Menge|Restmenge|Öffnen|Storno|  
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
-|333|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|-1|-10|-1|-1|Ja|Nr.|  
+|333|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|-1|-10|-1|-1|Ja|Nein|  
 |334|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|1|10|1|1|Ja|**Ja**|  
 
--   Im **Geb. Verkaufsgutschrift** suchen Sie im Feld **Ausgleich.vom Artikelposten**, um festzulegen, ob das Feld ausgefüllt ist, und in diesem Fall auf welche Artikelposten die Rücksendung angewendet wird.  
+-   Auf der Seite **Geb. Verkaufsgutschrift** suchen Sie im Feld **Ausgleich.vom Artikelposten**, um festzulegen, ob das Feld ausgefüllt ist, und in diesem Fall auf welche Artikelposten die Rücksendung angewendet wird.  
 
 > [!NOTE]  
->  Anwendungen mit Kosten können nicht im Fenster **Ausgeglichene Artikelposten** identifiziert werden, da dieses Fenster nur Mengen-Anwendungen anzeigt.  
+>  Anwendungen mit Kosten können nicht auf der Seite **Ausgeglichene Artikelposten** identifiziert werden, da dieses Fenster nur Mengen-Anwendungen anzeigt.  
 
  Für beide Szenarien können Sie die beteiligte Anwendung mit Kosten, wie folgt erkennen:  
 
@@ -138,7 +138,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
  Beachten Sie darüber hinaus, dass der eingehende Artikelposten 334 auf den ausgehenden Artikelposten 333 angewendet wird.  
 
 ## <a name="workaround-for-the-issue"></a>Gründe für das Problem  
- Im Fenster **Artikel Buch.-Blatt** buchen Sie die folgenden Zeilen für den fraglichen Artikel:  
+ Auf der Seite **Artikel Buch.-Blatt** buchen Sie die folgenden Zeilen für den fraglichen Artikel:  
 
 -   Ein positiver Zugang, um den offenen ausgehenden Artikelpostens zu schließen.  
 

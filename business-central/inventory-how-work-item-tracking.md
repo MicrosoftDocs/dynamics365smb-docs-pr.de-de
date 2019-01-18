@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31619fd1d76be71af9408f1c20be35846cef114
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7200b074670f9c4541b0b7ae1d2f4e1159a7ff27
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbeiten mit Chargennummern und Seriennummern
-Sie können Serien-/Chargennummern zu beliebigen ausgehenden oder eingehenden Belegen zuweisen, und die gebuchte Artikelverfolgung wird in den entsprechenden Buchungsposten angezeigt. Sie führen die Arbeit im Fenster **Artikelverfolgungszeilen** aus.
+Sie können Serien-/Chargennummern zu beliebigen ausgehenden oder eingehenden Belegen zuweisen, und die gebuchte Artikelverfolgung wird in den entsprechenden Buchungsposten angezeigt. Sie führen die Arbeit auf der Seite **Artikelverfolgungszeilen** aus.
 
-Die Matrix der Mengenfelder im Kopf des Fensters **Artikelnachverfolgungszeile** zeigt dynamisch die Mengen und die Summen der Artikelverfolgungsnummern an, die Sie auf den Zeilen des Fensters eingegeben werden. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine 0 in den Feldern **Undefiniert** angezeigt wird.
+Die Matrix der Mengenfelder im Kopf der Seite **Artikelnachverfolgungszeile** zeigt dynamisch die Mengen und die Summen der Artikelverfolgungsnummern an, die Sie auf den Zeilen des Fensters eingegeben werden. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine 0 in den Feldern **Undefiniert** angezeigt wird.
 
-Aus Leistungsgründen werden die Verfügbarkeitsinformationen, die im Fenster  **Artikelverfolgungszeilen** angezeigt werden, nur ein Mal zusammengestellt, wenn Sie das Fenster öffnen. Das heißt, dass die Verfügbarkeitsinformationen während der Zeit, in der das Fenster geöffnet ist, nicht geändert werden, und zwar auch dann nicht, wenn in dieser Zeit Änderungen am Lagerbestand oder an anderen Belegen vorgenommen werden.
+Aus Leistungsgründen werden die Verfügbarkeitsinformationen, die auf der Seite **Artikelverfolgungszeilen** angezeigt werden, nur ein Mal zusammengestellt, wenn Sie die Seite öffnen. Das heißt, dass die Verfügbarkeitsinformationen während der Zeit, in der die Seite geöffnet ist, nicht geändert werden, und zwar auch dann nicht, wenn in dieser Zeit Änderungen am Lagerbestand oder an anderen Belegen vorgenommen werden.
 
 Gibt gebuchte Serien-/Chargennummern an, die in einer Lieferkette vorwärts oder rückwärts verfolgt werden können. Dies ist für allgemeine Maßnahmen für die Qualitätssicherung und für Rückrufe eines fehlerhaften Produktes nützlich. Weitere Informationen finden Sie unter [Nachverfolgte Artikel reservieren](inventory-how-to-trace-item-tracked-items.md).
 
@@ -33,14 +33,14 @@ In anderen Prozessen haben die Lagerartikel keine Serien- oder Chargennummern un
 
 In den einfachen Prozessen haben die Lagerartikel bereits Serien- oder Chargennummern, die beispielsweise während der Einlagerung zugewiesen wurden. Diese Nummern werden ohne Aktivität der Lagermitarbeiter automatisch auf alle ausgehenden Lageraktivitäten übertragen.
 
-In den bestimmten Fällen werden für Serien- oder Charge-numeriertes Lager, bestimmte Serien- oder Chargennummern im Herkunftsbeleg, wie einem Verkaufsauftrag definiert, den der Lagermitarbeiter während der Ausgangsaktivitäten berücksichtigen muss. Dies kann beispielsweise den Grund haben, dass der Debitor während des Bestellvorgangs eine bestimmte Charge fordert. Wenn der Lagerkommissionierungs- oder Kommissionierungsbeleg aus einem ausgehenden Herkunftsbeleg erstellt wird, in dem bereits Artikelverfolgungsnummern definiert sind, sind im Fenster **Artikelnachverfolgungszeilen** alle Felder unter der Lagerkommissionierung schreibgeschützt, ausgenommen das **Feld Bewegungsmenge**. Die Lagerkommissionierzeilen legen die Artikelverfolgungsnummern der individuellen Zeilen für Lagerentnahme/Einlagerung fest. Die Menge wurde bereits in einzelne Serien- oder Chargennummer-Kombinationen aufgeteilt, da der Verkaufsauftrag die zu liefernden Artikelverfolgungsnummern enthalten hat.  
+In den bestimmten Fällen werden für Serien- oder Charge-numeriertes Lager, bestimmte Serien- oder Chargennummern im Herkunftsbeleg, wie einem Verkaufsauftrag definiert, den der Lagermitarbeiter während der Ausgangsaktivitäten berücksichtigen muss. Dies kann beispielsweise den Grund haben, dass der Debitor während des Bestellvorgangs eine bestimmte Charge fordert. Wenn der Lagerkommissionierungs- oder Kommissionierungsbeleg aus einem ausgehenden Herkunftsbeleg erstellt wird, in dem bereits Artikelverfolgungsnummern definiert sind, sind auf der Seite **Artikelnachverfolgungszeilen** alle Felder unter der Lagerkommissionierung schreibgeschützt, ausgenommen das **Feld Bewegungsmenge**. Die Lagerkommissionierzeilen legen die Artikelverfolgungsnummern der individuellen Zeilen für Lagerentnahme/Einlagerung fest. Die Menge wurde bereits in einzelne Serien- oder Chargennummer-Kombinationen aufgeteilt, da der Verkaufsauftrag die zu liefernden Artikelverfolgungsnummern enthalten hat.  
 
 ## <a name="item-tracking-availability"></a>Verfügbarkeit der Artikelverfolgung
-Wenn Sie mit Chargen- oder Seriennummern arbeiten, berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] die Verfügbarkeitsinformationen für Chargen- und Seriennummern und zeigt sie in den verschiedenen Artikelverfolgungsfenstern an. Dadurch können Sie erkennen, welche Chargen- oder Seriennummer derzeit auf anderen Belegen verwendet wird. Dadurch werden Fehler und Unsicherheiten aufgrund von Doppelzuordnungen verringert.
+Wenn Sie mit Chargen- oder Seriennummern arbeiten, berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] die Verfügbarkeitsinformationen für Chargen- und Seriennummern und zeigt sie in den verschiedenen Artikelverfolgungsseiten an. Dadurch können Sie erkennen, welche Chargen- oder Seriennummer derzeit auf anderen Belegen verwendet wird. Dadurch werden Fehler und Unsicherheiten aufgrund von Doppelzuordnungen verringert.
 
-Im Fenster **Artikelverfolgungszeilen** wird in den Feldern **Verfügbarkeit, Chargennr.** oder **Verfügbarkeit, Seriennr.** ein Warnsymbol angezeigt, wenn die gesamte Menge oder Teile der Menge, die Sie ausgewählt haben, bereits auf anderen Belegen verwendet wurden oder wenn die Chargen- oder Seriennummer nicht verfügbar ist.
+Auf der Seite **Artikelverfolgungszeilen** wird in den Feldern **Verfügbarkeit, Chargennr.** oder **Verfügbarkeit, Seriennr.** ein Warnsymbol angezeigt, wenn die gesamte Menge oder Teile der Menge, die Sie ausgewählt haben, bereits auf anderen Belegen verwendet wurden oder wenn die Chargen- oder Seriennummer nicht verfügbar ist.
 
-Im Fenster **Chargennr./Seriennr.-Informationsliste**, im Fenster **Chargennr./Seriennr. Verfügbarkeit** und im Fenster **Artikelverfolgung – Posten auswählen** werden Informationen darüber angezeigt, welche Menge eines Artikels verwendet wird. Dies enthält die folgenden Informationen.
+Auf der Seite **Chargennr./Seriennr.-Informationsliste**, auf der Seite **Chargennr./Seriennr. Verfügbarkeit** und auf der Seite **Artikelverfolgung – Posten auswählen** werden Informationen darüber angezeigt, welche Menge eines Artikels verwendet wird. Dies enthält die folgenden Informationen.
 
 |Feld|Description|
 |-----|-----------|  
@@ -50,7 +50,7 @@ Im Fenster **Chargennr./Seriennr.-Informationsliste**, im Fenster **Chargennr./S
 |**Aktuell angeforderte Menge**|Die Anzahl der angeforderten Artikel, die auf dem aktuellen Beleg verwendet wird|
 |**Total verfügbare Menge**|Die Gesamtanzahl des Artikels im Lagerbestand minus der Menge des Artikels, die zur Verwendung auf diesem sowie auf anderen Belegen angefordert ist (Total angeforderte Menge) und minus der Menge, die für diesen Beleg angefordert ist, aber noch nicht in die Datenbank übertragen wurde (Aktuell angeforderte Menge)|
 
-Wenn Sie längere Zeit im Fenster  **Artikelverfolgungszeilen** arbeiten und wenn es viele Aktivitäten für den Artikel gibt, mit dem Sie arbeiten, können Sie die Verfügbarkeitsinformationen durch Klicken auf  Funktion,  **Verfügbarkeit aktualisieren** aktualisieren. Wenn Sie das Fenster schließen, wird die Verfügbarkeit des Artikels automatisch neu überprüft, um zu bestätigen, dass es keine Verfügbarkeitsprobleme gibt.
+Wenn Sie längere Zeit auf der Seite  **Artikelverfolgungszeilen** arbeiten und wenn es viele Aktivitäten für den Artikel gibt, mit dem Sie arbeiten, können Sie die Verfügbarkeitsinformationen durch Klicken auf  Funktion,  **Verfügbarkeit aktualisieren** aktualisieren. Wenn Sie die Seite schließen, wird die Verfügbarkeit des Artikels automatisch neu überprüft, um zu bestätigen, dass es keine Verfügbarkeitsprobleme gibt.
 
 ## <a name="to-set-up-item-tracking-codes"></a>Um Artikelverfolgungscodes einzurichten
 Ein Artikelverfolgungscode spiegelt die unterschiedlichen Betrachtungen wider, die ein Unternehmen bezüglich der Verwendung von Serien- und Chargennummern von Artikeln anstellt, die sich durch das Lager bewegen.  
@@ -92,7 +92,7 @@ Für einige Artikel möchten Sie möglicherweise spezielle Garantievereinbarunge
 Falls Sie spezielle Informationen mit einer bestimmten Artikelverfolgungsnummer verknüpfen müssen, z. B. für die Qualitätssicherung, können Sie dies in einer Serien- oder Chargennummer-Informationskarte vornehmen.
 
 1. Öffnen eines Belegs, der die Serien- oder Chargennummern ist, die zugeordnet werden.
-2. Öffnen Sie das Fenster **Artikelverfolgungszeilen** für den Beleg.
+2. Öffnen Sie die Seite **Artikelverfolgungszeilen** für den Beleg.
 3. Wählen Sie z. B. die **Seriennr.-Informationskarte** Aktion aus.  
 
     Die Felder **Seriennr.** und **Chargennr.** werden aus der Artikelverfolgungszeile vorab ausgefüllt.  
@@ -103,8 +103,8 @@ Falls Sie spezielle Informationen mit einer bestimmten Artikelverfolgungsnummer 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Bestehende Serien- oder Chargennummerinformationen ändern  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie einen Artikel, der einen Artikelverfolgungscode hat und Serien- oder Chargennummerinformationen hat.
-3. Im Fenster **Artikelkarte** wählen Sie die **Posten** Aktion aus, und wählen Sie dann **Posten** aus.
-4. Wählen Sie das Feld **Chargennr.** oder **Seriennr.** aus. Wenn es für die Artikelverfolgungsnummer Informationen gibt, dann wird das Fenster **Chargennr.-Informationsliste** oder **Seriennr.-Informationsliste** geöffnet.  
+3. Auf der Seite **Artikelkarte** wählen Sie die **Posten** Aktion aus, und wählen Sie dann **Posten** aus.
+4. Wählen Sie das Feld **Chargennr.** oder **Seriennr.** aus. Wenn es für die Artikelverfolgungsnummer Informationen gibt, dann wird die Seite **Chargennr.-Informationsliste** oder **Seriennr.-Informationsliste** geöffnet.  
 5. Wählen Sie eine Karte aus, und wählen Sie die **Chargennr./Seriennummer Informationskarte** Aktion aus.  
 6. Ändern Sie den Kurzbeschreibungstext, den Bemerkungsdatensatz oder das Feld **Gesperrt**.  
 
@@ -113,7 +113,7 @@ Sie können die Serien- oder Chargennummern und auch die Mengen nicht ändern. U
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Serien- oder Chargennummern während einer eingehenden Transaktion zuzuordnen:  
 Unternehmen möchten eventuell ihre Artikel von dem Moment an verfolgen, an dem diese das Unternehmen erreichen. In dieser Situation ist die Einkaufsbestellung oft der zentrale Beleg, obwohl die Artikelverfolgung von jedem beliebigen eingehenden Beleg aus gesteuert werden kann und die gebuchten Posten in den entsprechenden Artikelposten angezeigt werden können.  
 
-Die genauen Regeln zur unternehmensweiten Verarbeitung von Artikelverfolgungsnummern werden durch die Einstellungen in der Tabelle **Artikelverfolgungscodekarte** gesteuert.  
+Die genauen Regeln zur unternehmensweiten Verarbeitung von Artikelverfolgungsnummern werden durch die Einstellungen in der Tabelle **Artikelverfolgung** gesteuert.  
 
 > [!NOTE]  
 >  Um Artikelverfolgungsnummern in Lageraktivitäten zu verwenden, müssen die **Chargennr.-Verf. Lager**  und **Seriennr.-Verf. Lager** ausgewählt werden, da sie die speziellen Regeln der Handhabung von Serien- und Chargennummern in Lageraktivitäten definieren.  
@@ -139,7 +139,7 @@ Die genauen Regeln zur unternehmensweiten Verarbeitung von Artikelverfolgungsnum
 
 Es wird eine Chargennummer mit einzelnen Seriennummern erstellt gemäß der Artikelmenge der Belegzeile, beginnend mit **S/N-Kred0001**.  
 
-Die Matrix der Mengenfelder im Kopf zeigt dynamisch die Mengen und die Summen der Artikelverfolgungsnummern an, die Sie im Fenster einrichten. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine 0 in den Feldern **Undefiniert** angezeigt wird.  
+Die Matrix der Mengenfelder im Kopf des Fensters zeigt dynamisch die Mengen und die Summen der Artikelverfolgungsnummern an, die Sie auf der Seite einrichten. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine 0 in den Feldern **Undefiniert** angezeigt wird.  
 
 Wenn der Beleg gebucht wird, werden die Artikelverfolgungsposten mit den entsprechenden Artikelposten verknüpft.
 
@@ -149,7 +149,7 @@ Es gibt zwei Möglichkeiten, um ausgehenden Transaktionen Serien- und Chargennum
 -   Aus bestehenden Serien- oder Chargennummern auswählen. Dies trifft zu, wenn Artikelverfolgungsnummern bereits bei einem eingehenden Vorgang zugeordnet wurden. Weitere Informationen finden Sie unter "So wird's gemacht: Aus bestehenden Serien- und Chargennummern auswählen".
 -   Neue Serien- oder Chargennummern bei ausgehenden Vorgängen zuordnen. Dies trifft zu, wenn Artikelverfolgungsnummern Artikeln erst zugewiesen werden, wenn diese verkauft und lieferbereit sind.  
 
-Die unterschiedlichen Regeln für Artikelverfolgungsnummern werden im Fenster **Artikelnachverfolgungscodekarte** eingerichtet.  
+Die unterschiedlichen Regeln für Artikelverfolgungsnummern werden auf der Seiter **Artikelnachverfolgungscodekarte** eingerichtet.  
 
 > [!NOTE]  
 >  Um Artikelverfolgungsnummern bei Lageraktivitäten zuzuordnen, müssen die Kontrollkästchen **Seriennr.-Verf. Lager** und **Chargennr.-Verf. Lager** auf der Karte des Artikels ausgewählt werden.    
@@ -167,7 +167,7 @@ Die unterschiedlichen Regeln für Artikelverfolgungsnummern werden im Fenster **
 3.  Wählen Sie das Feld **Neue Chargennr. erstellen**, um der neuen Seriennummern eine eigene Chargennummer zuzuteilen.  
 4.  Wählen Sie die Schaltfläche **OK**, um eine Chargennummer und neue individuelle Seriennummern entsprechend der Menge in der Belegzeile zu erzeugen.  
 
-Die Matrix der Mengenfelder im Kopf des Fensters zeigt dynamisch die Mengen und die Summen der Artikelverfolgungsnummern an, die Sie in dem Fenster einrichten. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine **0** in den Feldern **Undefiniert** angezeigt wird.  
+Die Matrix der Mengenfelder im Kopf des Fensters zeigt dynamisch die Mengen und die Summen der Artikelverfolgungsnummern an, die Sie auf der Seite einrichten. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine **0** in den Feldern **Undefiniert** angezeigt wird.  
 
 Wenn der Beleg gebucht wird, werden die Artikelverfolgungsposten mit den entsprechenden Artikelposten verknüpft.  
 
@@ -181,34 +181,34 @@ Wenn Sie mit Artikeln arbeiten, für die Artikelverfolgung erforderlich ist, und
 
 1.  Wählen Sie in einem beliebigen ausgehenden Beleg die Zeile aus, für die Sie Serien- oder Chargennummern auswählen möchten.  
 2.  Wählen Sie im Inforegister **Zeilen** in **Aktionen** entweder **Zeilen** oder **Artikel** und dann wählen Sie **Artikelverfolgungszeilen**.  
-3.  Im Fenster **Artikelverfolgungszeilen** gibt es drei Möglichkeiten zum Angeben der Chargen- oder Seriennummer:  
+3.  Auf der Seite **Artikelverfolgungszeilen** gibt es drei Möglichkeiten zum Angeben der Chargen- oder Seriennummer:  
 
     -   Wählen Sie in den Feldern **Chargennr.** oder **Seriennr.** auf und eine Nummer im Fenster **Artikelverf.-Zusammenfassung** aus.  
-    -   Wählen Sie die Aktion **Posten** aus. Im Fenster **Einträge auswählen** werden alle Chargen- oder Seriennummern sowie die Verfügbarkeitsinformationen angezeigt.
+    -   Wählen Sie die Aktion **Posten** aus. Auf der Seite **Einträge auswählen** werden alle Chargen- oder Seriennummern sowie die Verfügbarkeitsinformationen angezeigt.
 
 4. Geben Sie in das Feld **Ausgewählte Menge** für jede Chargen- oder Seriennummer die gewünschte Menge ein.   
-5. Wählen Sie die Schaltfläche **OK** und die ausgewählten Artikelverfolgungsinformationen werden in das Fenster **Artikelverfolgungszeilen** übertragen.  
+5. Wählen Sie die Schaltfläche **OK** und die ausgewählten Artikelverfolgungsinformationen werden auf der Seite **Artikelverfolgungszeilen** übertragen.  
 6. Geben oder lesen Sie die Artikelverfolgungsnummer ein.
 
-Die Matrix der Mengenfelder im Kopf zeigt dynamisch die Mengen und die Summen der Artikelverfolgungsnummern an, die Sie im Fenster einrichten. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine **0** in den Feldern **Undefiniert** angezeigt wird.  
+Die Matrix der Mengenfelder im Kopf auf der Seite zeigt dynamisch die Mengen und die Summen der Artikelverfolgungsnummern an, die Sie auf der Seite einrichten. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine **0** in den Feldern **Undefiniert** angezeigt wird.  
 
  Wenn die Belegzeile gebucht wird, werden die Artikelverfolgungsinformationen auf die zugehörigen Artikelposten übertragen.
 
 ## <a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a>Um Serien-/Chargennummern in Umlagerungsaufträgen zu verarbeiten:  
 Die Vorgehensweise zur Verarbeitung von Serien- und Chargennummern, die zwischen Lagerorten umgelagert werden, ist ähnlich der beim Einkauf und Verkauf von Artikeln.  
 
-Der Umlagerungsauftrag ist allerdings insofern etwas Besonderes, als der Warenausgang und der Eingang von derselben Umlagerungszeile aus erfolgen und sie daher die gleiche Instanz des Fensters **Artikelverfolgungszeilen** verwenden. Das bedeutetet, dass die Artikelverfolgungsnummern, die von dem einen Lagerort ausgeliefert werden, unverändert an dem anderen Ort ankommen müssen.  
+Der Umlagerungsauftrag ist allerdings insofern etwas Besonderes, als der Warenausgang und der Eingang von derselben Umlagerungszeile aus erfolgen und sie daher die gleiche Instanz der Seite **Artikelverfolgungszeilen** verwenden. Das bedeutetet, dass die Artikelverfolgungsnummern, die von dem einen Lagerort ausgeliefert werden, unverändert an dem anderen Ort ankommen müssen.  
 
  Die genauen Regeln zur unternehmensweiten Verarbeitung von Artikelverfolgungsnummern werden durch die Einstellungen in der Tabelle  **Artikelverfolgung** gesteuert.    
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Transferaufträge** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie den Umlagerungsauftrag, die Sie bearbeiten möchten. Wählen Sie im Inforegister **Zeilen** in Aktionen entweder **Zeilen**oder **Artikel** und dann wählen Sie **Artikelverfolgungszeilen**.  
-3.  Im Fenster **Artikelverfolgungszeilen** weisen Sie Serien-/Chargennummer zu oder wählen sie aus, wie für jede andere ausgehende Artikeltransaktion.  
+3.  Auf der Seite **Artikelverfolgungszeilen** weisen Sie eine Serien-/Chargennummer zu oder wählen eine aus, wie für jede andere ausgehende Artikeltransaktion.  
 
     Wenn Sie Serien-/Chargennummern für Umlagerungsartikel verarbeiten, sind diesen Artikeln normalerweise bereits Nummern zugeordnet. Daher besteht der Vorgang normalerweise darin, aus bestehenden Serien-/Chargennummern auszuwählen.  
 
 4.  Buchen Sie den Umlagerungsauftrag (zuerst Warenausgang und dann Wareneingang), um festzuhalten, dass die Artikel mit ihren jeweiligen Artikelverfolgungsposten umgelagert werden.  
 
-Während der Umlagerung bleibt das Fenster **Artikelverfolgungszeilen** für Schreibvorgänge gesperrt.  
+Während der Umlagerung bleibt die Seite **Artikelverfolgungszeilen** für Schreibvorgänge gesperrt.  
 
 ## <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>So verwenden Sie Serien- und Chargennummern beim Abrufen von Einkaufslieferzielen aus einer Einkaufsrechnung  
 Wenn Sie Funktionen verwenden, um gebuchte Einkaufslieferzeilen oder Lieferzeilen aus den zugehörigen Rechnungen oder Gutschriften abzurufen, werden alle Artikelverfolgungszeilen in den Logistikbelegen automatisch übertragen, jedoch auf spezielle Art verarbeitet.
@@ -221,12 +221,12 @@ Die Funktionen unterstützen die folgenden ausgehenden Prozesse:
 -   **Lieferzeilen holen** – von einer Verkaufsrechnung oder einem kombinierten Versand aus.  
 -   **Rücksendungszeilen holen** – von einer Verkaufsgutschrift aus.  
 
-In diesen Situationen werden die existierenden Artikelverfolgungszeilen automatisch in die Rechnung oder Gutschrift kopiert, das Fenster **Artikelverfolgungszeilen** lässt allerdings keine Änderung der Serien- oder Chargennummer zu. Nur die Mengen können geändert werden.  
+In diesen Situationen werden die existierenden Artikelverfolgungszeilen automatisch in die Rechnung oder Gutschrift kopiert, die Seite **Artikelverfolgungszeilen** lässt allerdings keine Änderung der Serien- oder Chargennummer zu. Nur die Mengen können geändert werden.  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kaufrechnung** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie eine Einkaufsrechnung für Artikel, die mit Serien- oder Chargennummern eingekauft werden.  
 3.  Wählen Sie in der Einkaufsrechnungszeile im Inforegister **Zeilen** die Option Funktion aus, und wählen Sie dann **Wareneingangszeilen holen** aus.  
-4.  Wählen Sie im Fenster **Wareneingangszeilen holen** eine Wareneingangszeile aus, die Artikelverfolgungszeilen hat, und klicken Sie anschließend auf **OK**.  
+4.  Wählen Sie auf der Seite **Wareneingangszeilen holen** eine Wareneingangszeile aus, die Artikelverfolgungszeilen hat, und klicken Sie anschließend auf **OK**.  
 
     Der Herkunftsbeleg wird in die Bestellrechnung als neue Zeile kopiert und dessen Artikelverfolgungszeilen werden in das darunter liegende Fenster **Artikelverfolgungszeilen** kopiert.  
 
@@ -254,16 +254,16 @@ Ein Umbuchen der Artikelverfolgung für einen Artikel bedeutet, dass eine Charge
 
 6.  Wenn Sie Informationen zu der alten Serien- oder Chargennummer haben, können Sie diese Informationen für die neue Serien- oder Chargennummer kopieren.  
 
-    1.  Klicken Sie im Fenster  **Artikelverfolgungszeilen** auf **Neue Seriennummerinformation** oder **Neuze Chargennummerninformation**  
+    1.  Klicken Sie auf der Seite  **Artikelverfolgungszeilen** auf **Neue Seriennummerinformation** oder **Neuze Chargennummerninformation**  
     2.  Wenn Sie Informationen aus der alten Chargen- oder Seriennummer kopieren möchten, klicken Sie auf **Info kopieren**.  
-    3.  Wählen Sie im Fenster "Informationsliste" die Chargen- oder Seriennummer aus, von der Sie kopieren möchten, und wählen Sie **OK**.  
+    3.  Wählen Sie auf der Seite "Informationsliste" die Chargen- oder Seriennummer aus, von der Sie kopieren möchten, und wählen Sie **OK**.  
 
 7.  Wenn Sie die vorhandenen Informationen für eine Chargen- oder Seriennummer ändern möchten, können Sie die Chargen- oder Serieninformationen aufzeichnen.  
 8.  Buchen Sie das Buch.-Blatt, um die neuen Artikelverfolgungsnummern oder Ablaufdatumsangaben mit den entsprechenden Artikelposten zu verknüpfen.
 
 ## <a name="see-also"></a>Siehe auch
 [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)   
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Unter Designdetails: Artikelverfolgung](design-details-item-tracking.md)
 [Unter Designdetails - Artikelverfolgung und  Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Artikel reservieren](inventory-how-to-reserve-items.md)  

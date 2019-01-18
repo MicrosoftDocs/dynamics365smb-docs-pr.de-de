@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d7738991133baac735586fd7e25b0d9866a3a42f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8c14b4614f88cea932a69c00422c8e3a12bc644b
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Verknüpfung mit Business Central, um eine Geschäfts-App mithilfe PowerApps zu erstellen
@@ -35,11 +35,11 @@ Sie können die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquell
 5. In der Liste der verfügbaren Verbindungscodes, wählen Sie **Dynamics 365 Business Central** aus.
 6. PowerApps zeigt eine Verbindungsseite an, die Sie zur Eingabe der Informationen auffordert, die benötigt werden, um sich mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zu verbinden. Zum Verbinden, müssen Sie eine OData URL, Benutzername, Mandantenname und Kennwort angeben.
 
-   Für *OData-URL* können Sie das OData V4 URL eines der Web Services, der in **Webdienste** im Fenster angezeigt wird in [!INCLUDE[d365fin](includes/d365fin_md.md)] kopieren, beispielsweise `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
+   Für *OData-URL* können Sie das OData V4 URL eines der Web Services, der in **Webdienste** auf der Seite angezeigt wird in [!INCLUDE[d365fin](includes/d365fin_md.md)] kopieren, beispielsweise `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
 
-   Für den *Unternehmensname* verwenden Sie den Namen, der im Feld **Name** im Fenster **Firmendaten** in [!INCLUDE[d365fin](includes/d365fin_md.md)] angezeigt wird. Wenn Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] mehrere Unternehmen enthält, wählen Sie den entsprechenden Namen aus der Liste im Fenster **Unternehmen** aus. In beiden Fällen prüfen Sie, ob dem Namen, den Sie im PowerApps Assistenten angeben haben genau dem Text entspricht, der angezeigt wird in [!INCLUDE[d365fin](includes/d365fin_md.md)], wie z. B. `My Company`
+   Für den *Unternehmensname* verwenden Sie den Namen, der im Feld **Name** auf der Seite **Firmendaten** in [!INCLUDE[d365fin](includes/d365fin_md.md)] angezeigt wird. Wenn Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] mehrere Unternehmen enthält, wählen Sie den entsprechenden Namen aus der Liste auf der Seite **Unternehmen** aus. In beiden Fällen prüfen Sie, ob dem Namen, den Sie im PowerApps Assistenten angeben haben genau dem Text entspricht, der angezeigt wird in [!INCLUDE[d365fin](includes/d365fin_md.md)], wie z. B. `My Company`
 
-   Für den Benutzernamen und das Kennwort verwenden Sie die Felder Name und Webdiensttastenkombination, die für Ihr Konto im **Benutzer** in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben werden. Beispielsweise ist der Benutzername *ADMINISTRATOR* und die Webdiensttastenkombination, die als Passwort dient *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
+   Für den Benutzernamen und das Kennwort verwenden Sie die Felder Name und Webdiensttastenkombination, die für Ihr Konto auf der Seite **Benutzer** in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben werden. Beispielsweise ist der Benutzername *ADMINISTRATOR* und die Webdiensttastenkombination, die als Passwort dient *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
 7. Klicken Sie auf die Schaltfläche **Verbinden** zum Fortfahren. PowerApps zeigt ein Standarddataset an für [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wählen Sie den Datensatz **Standard** aus.
 
    PowerApps wird eine Liste der Tabellen anzeigen, die in [!INCLUDE[d365fin](includes/d365fin_md.md)]verfügbar sind. Diese Tabellen oder Endpunkte stehen für alle Webdienste, die Sie von [!INCLUDE[d365fin](includes/d365fin_md.md)] veröffentlicht haben.

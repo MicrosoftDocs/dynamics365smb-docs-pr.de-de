@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bbe6103638e1c942295238e9fbde38f714d3bf47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ff0b8bbe2da2dcfaf766c8094f8bf59f377693c5
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-data-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung exportieren
@@ -28,7 +28,7 @@ Falls es keine Daten zum Exportieren gibt, erstellt [!INCLUDE[d365fin](../../inc
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Geschäftsdaten exportieren** ein. Wählen Sie dann den zugehörigen Link aus.  
 
-2.  Füllen Sie im Stapelverarbeitungsauftrag **Datenexport** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+2.  Füllen Sie auf der Seite **Geschäftsdaten exportieren** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Option|Description|  
     |----------------------------------|---------------------------------------|  
@@ -43,7 +43,7 @@ Falls es keine Daten zum Exportieren gibt, erstellt [!INCLUDE[d365fin](../../inc
     > [!WARNING]  
     >  Während des Exports werden alle vorhandenen Dateien, einschließlich der Protokolldatei, überschrieben. Wenn Sie identische Daten mehrfach exportieren, werden die Dateien aus dem ersten Export überschrieben  
 
- Sie werden informiert, wenn der Export abgeschlossen ist. Wenn Sie den Export abbrechen oder das Fenster schließen, werden Sie informiert, dass der Export abgeschlossen ist, aber der Protokollordner bleibt leer. Abhängig von Ihrer Konfiguration, wurden eventuell einige Dateien exportiert, aber der Export ist möglicherweise noch nicht abgeschlossen.  
+ Sie werden informiert, wenn der Export abgeschlossen ist. Wenn Sie den Export abbrechen oder die Seite schließen, werden Sie informiert, dass der Export abgeschlossen ist, aber der Protokollordner bleibt leer. Abhängig von Ihrer Konfiguration, wurden eventuell einige Dateien exportiert, aber der Export ist möglicherweise noch nicht abgeschlossen.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Prozess für Digital-Überwachung (/GoBD GDPdU)](process-for-digital-audits.md)

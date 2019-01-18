@@ -1,5 +1,5 @@
 ---
-title: 'So gehts: Artikeleinheiten einrichten| Microsoft Docs'
+title: 'So geht''s: Artikeleinheiten einrichten| Microsoft Docs'
 description: "Sie können mehrere Einheiten für einen Artikel einrichten, sodass Sie für Einheiten den Artikeln zuweisen können."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: UOM
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b920a3edfab41409cd8d7cf3f5e463f66268e953
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-item-units-of-measure"></a>Artikeleinheiten einrichten
@@ -30,7 +30,7 @@ Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einhe
 ## <a name="to-set-up-a-unit-of-measure"></a>So richten Sie eine Maßeinheit ein
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die Karte des Artikels, für die Sie alternative Einheiten einrichten möchten.
-3. Wählen Sie die **Einheiten** Aktion aus. Das Fenster **Artikeleinheiten** wird geöffnet.
+3. Wählen Sie die **Einheiten** Aktion aus. Die Seite **Artikeleinheiten** wird geöffnet.
 4. Wenn das Feld **Basismaßeinheit** auf der Artikelkarte ausgefüllt wird, ist diese Maßeinheit bereits eingerichtet.
 5. Wählen Sie die Aktion **Neu** aus. Eine neue leere Zeile wird eingefügt.
 6. Geben Sie im Feld **Code** den Namen des Einheitencodes ein. Alternativ aktivieren Sie das Feld, um in den Einheitencodes auszuwählen, die in der Datenbank sind.
@@ -49,12 +49,12 @@ Wenn Sie Artikel an ausländische Debitoren verkaufen, möchten Sie möglicherwe
 5. Wiederholen Sie die Schritte 2 bis 4 für die Einheitencodes und die Sprachen, für die Sie Übersetzungen eingeben möchten.
 
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Um einen Vorgabe-Einheitencode für Einkaufs- und Verkaufstransaktionen einzugeben
-Wenn Sie normalerweise in Einheiten kaufen und verkaufen, die von der Basiseinheit abweichen, können Sie für Einkäufe und Verkäufe eigene Einheiten festlegen. Dazu müssen die Einheiten im Fenster **Artikeleinheiten** eingerichtet sein.
+Wenn Sie normalerweise in Einheiten kaufen und verkaufen, die von der Basiseinheit abweichen, können Sie für Einkäufe und Verkäufe eigene Einheiten festlegen. Dazu müssen die  Einheiten auf der Seite **Artikeleinheiten** eingerichtet worden sein.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die entsprechende Artikelkarte, für die Sie einen Vorgabe-Einheitencode für Einkaufs- oder Verkaufsvorgänge festlegen möchten.
-3. Öffnen Sie im Inforegister **Fakturierung** im Feld **Verkaufseinheitencode** das Fenster **Artikeleinheiten**.
-4. Öffnen Sie im Inforegister **Beschaffung** im Feld **Einkaufseinheitencode** das Fenster **Artikeleinheiten**.
+3. Öffnen Sie im Inforegister **Fakturierung** im Feld **Verkaufseinheitencode** die Seite **Artikeleinheiten**.
+4. Öffnen Sie im Inforegister **Beschaffung** im Feld **Einkaufseinheitencode** die Seite **Artikeleinheiten**.
 5. Wählen Sie den Code, den Sie als Standardeinheit für Verkäufe oder Einkäufe entsprechend einrichten möchten, und wählen Sie dann die Schaltfläche **OK** aus.
 
 ## <a name="see-also"></a>Siehe auch

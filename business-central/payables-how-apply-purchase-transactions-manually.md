@@ -13,10 +13,10 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7e67357a0ba5e4a57a98d74831b2b3a392cff7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cb62661da68e1fd5255e285288de5089e8547b64
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-vendor-payments-manually"></a>Manuelle Abstimmung von Debitorenzahlungen
@@ -27,32 +27,32 @@ Wenn Sie eine Zahlung an einen Kreditor senden oder eine Erstattung von einem Kr
 
 Sie können Kreditorenposten auf drei verschiedene Arten übernehmen:
 
-* Durch die Eingabe von Informationen in speziellen Fenstern, wie das **Zahlungsausgangs Buch.-Blatt** und das Fenster **Zahlungsabstimmungsbuch.-Blatt**.
+* Durch die Eingabe von Informationen auf speziellen Seiten, wie die Seite **Zahlungsausgangs Buch.-Blatt** und die Seite **Zahlungsabstimmungsbuch.-Blatt**.
 * Aus Einkaufsgutschriften.
 * Kreditorposten nach Einkaufsbelegen werden gebucht aber nicht angewendet.
 
 > [!NOTE]  
 >   Wenn das Feld **Ausgleichsmethode** auf der Kreditorenkarte **Auf älteste anwenden** enthält, dann wird die Zahlung automatisch mit der ältesten offenen Rechnung abgeglichen, wenn Sie nicht explizit angeben, auf welchen Habenposten sie sich bezieht. Ist die Ausgleichsmethode eines Debitors auf **Manuell** festgelegt, müssen die Posten manuell ausgeglichen werden.
 
-Sie können Kreditorenzahlungen manuell auf die entsprechenden Einkaufsbelege anwenden, wenn Sie die Zahlungen im **Zahlung Buch.-Blatt**-Fenster buchen. Informationen zum Ausfüllen des Zahlungsausgangs Buch.-Blattes, finden Sie in [Vorgehensweise: Anwenden von Zahlungen](payables-make-payments.md).
+Sie können Kreditorenzahlungen manuell auf die entsprechenden Einkaufsbelege anwenden, wenn Sie die Zahlungen auf der **Zahlung Buch.-Blatt**-Seite buchen. Informationen zum Ausfüllen des Zahlungsausgangs Buch.-Blattes, finden Sie in [Vorgehensweise: Anwenden von Zahlungen](payables-make-payments.md).
 
-Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahlungen als negative Banktransaktionen in Ihrer Bank erscheinen. Im **Zahlungs-Abstimmungs-Buch.-Blatt**-Fenster können Sie Funktionen für den Bankkontoauszugsimport, die automatische Anwendung und die Bankkontoabstimmung verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
+Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahlungen als negative Banktransaktionen in Ihrer Bank erscheinen. Auf der **Zahlungs-Abstimmungs-Buch.-Blatt**-Seite können Sie Funktionen für den Bankkontoauszugsimport, die automatische Anwendung und die Bankkontoabstimmung verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>So gleichen Sie eine Zahlung mit einem einzelnen Kreditorenposten aus
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zahlungs-Buch.-Blatt** ein, und wählen dann den zugehörigen Link aus.
-2. Geben Sie im Fenster **Zahlung Buch.-Blatt** in der ersten Buchungsblattzeile die entsprechenden Informationen zu dem Zahlungsposten ein.
+2. Geben Sie auf der Seite **Zahlung Buch.-Blatt** in der ersten Buchungsblattzeile die entsprechenden Informationen zu dem Zahlungsposten ein.
 3. So gleichen Sie gebuchte Kreditorenposten aus:
-   1. Im  Feld **Gilf für Dok.Nur** wählen Sie Feld, um das Fenster **Auf Verkäufer anwenden** zu öffnen.
-   2. Wählen Sie im Fenster **Debitorenpostenausgleich** die Zeilen mit den Posten aus, die Sie mit der Zahlung ausgleichen möchten.
+   1. Im Feld **Ausgleich mit Belegnr.** wählen Sie das Feld aus, um die Seite **Kreditorenpostenausgleich** zu öffnen.
+   2. Wählen Sie auf der Seite **Kreditorenpostenausgleich** die Zeilen mit den Posten aus, die Sie mit der Zahlung ausgleichen möchten.
    3. Geben Sie in jeder Zeile im Feld **Ausgleichsbetrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten.
 4. Oder gleichen Sie gebuchte Kreditorenposten aus:
 
    1. Wählen Sie die Aktion **Posten ausgleichen...** aus.
-   2. Wählen Sie im Fenster **Kreditorenpostenausgleich** die Zeilen mit den Posten aus, die Sie mit der Zahlung ausgleichen möchten.
+   2. Wählen Sie auf der Seite **Kreditorenpostenausgleich** die Zeilen mit den Posten aus, die Sie mit der Zahlung ausgleichen möchten.
    3. Wählen Sie die Aktion **Ausgleichs-ID setzen** aus.  
    4. Geben Sie in jeder Zeile im Feld **Ausgleichsbetrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten.
 
-      Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen. Am unteren Rand des Fensters **Kreditorenpostenausgleich** sehen Sie einen Betrag im Feld Ausgleichsbetrag. Sie sehen, ob die Buchung ausgeglichen ist.
+      Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen. Am unteren Rand der Seite **Kreditorenpostenausgleich** sehen Sie einen Betrag im Feld Ausgleichsbetrag. Sie sehen, ob die Buchung ausgeglichen ist.
 5. Wählen Sie die Schaltfläche **OK** aus.
 6. Wählen Sie die Aktion **Buchen**, um das Buch.-Blatt zu buchen.
 
@@ -68,32 +68,32 @@ Sie können Kreditorenzahlungen und Debitorenzahlungen anwenden nachdem die Zahl
    3. Wählen Sie die Aktion **Ausgleichs-ID setzen** aus.  
    4. Geben Sie in jeder Zeile im Feld **Ausgleichsbetrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten.
 
-       Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen. Am unteren Rand des Fensters **Kreditorenpostenausgleich** sehen Sie einen Betrag im Feld **Ausgleichsbetrag**. Sie sehen, ob die Buchung ausgeglichen ist.
+       Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen. Am unteren Rand der Seite **Kreditorenpostenausgleich** sehen Sie einen Betrag im Feld **Ausgleichsbetrag**. Sie sehen, ob die Buchung ausgeglichen ist.
 6. Wählen Sie die Schaltfläche **OK** aus.  
-   Das Fenster **Einkaufsgutschrift** zeigt den im Feld **Auf Dokumenttyp anwenden** und auf **Dokumenttyp anwenden** ausgewählten Eintrag an. Das Fenster zeigt auch den Betrag der zu buchenden Gutschrift an, wobei gegebenenfalls Skonti berücksichtigt werden.
+   Die Seite **Einkaufsgutschrift** zeigt den im Feld **Auf Dokumenttyp anwenden** und auf **Ausgleich mit Belegart** ausgewählten Eintrag an. Die Seite zeigt auch den Betrag der zu buchenden Gutschrift an, wobei gegebenenfalls Skonti berücksichtigt werden.
 7. Wählen Sie die Schaltfläche **Buchen**, um die Gutschrift zu buchen.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>So gleichen Sie gebuchte Kreditorenposten aus
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kreditoren** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie den relevanten Kreditor mit bereits gebuchten Posten.
 3. Wählen Sie die **Posten**-Aktion aus, und wählen Sie dann die **Posten ausgleichen**-Aktion aus.
-4. Im Fenster **Kreditorenpostenausgleich** werden die offenen Posten des Kreditors angezeigt.
+4. Auf der Seite **Kreditorenpostenausgleich** werden die offenen Posten des Kreditors angezeigt.
 5. Wählen Sie die Zeile mit dem Posten, den Sie ausgleichen möchten.
 6. Wählen Sie die Aktion **Ausgleichs-ID setzen** aus.
 
     Das Feld **Ausgleichs-ID** zeigt drei Sternchen (***), wenn Sie in einem Einbenutzersystem arbeiten, oder Ihre Benutzer-ID, wenn Sie in einem Mehrbenutzersystem arbeiten.  
 7. Geben Sie in jeder Zeile im Feld **Ausgleichsbetrag** den Betrag ein, mit dem Sie den entsprechenden Posten ausgleichen möchten.
 
-    Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen. Am unteren Rand des Fensters **Kreditorenpostenausgleich** sehen Sie den Betrag im Feld **Ausgleichsbetrag**.
+    Wenn Sie keinen Betrag eingeben, wird automatisch mit dem Höchstbetrag ausgeglichen. Am unteren Rand der Seite **Kreditorenpostenausgleich** sehen Sie den Betrag im Feld **Ausgleichsbetrag**.
 8. Wählen Sie die Aktion **Ausgleich buchen** aus.  
 
-    Das Fenster **Ausgleich buchen** wird mit der Belegnummer des Ausgleichspostens und dem Buchungsdatum des Postens geöffnet, der das aktuellste Buchungsdatum aufweist.
+    Die Seite **Ausgleich buchen** wird mit der Belegnummer des Ausgleichspostens und dem Buchungsdatum des Postens geöffnet, der das aktuellste Buchungsdatum aufweist.
 9. Klicken Sie auf die Schaltfläche **OK**, um den Ausgleich zu buchen.
 
 ## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>So wenden Sie Kreditorenposten in unterschiedlichen Währungen aufeinander an
 Falls Sie Käufe von einem Kreditor in einer Währung tätigen und die Zahlung in einer anderen Währung leisten, können Sie die Zahlung mit der Rechnung ausgleichen.
 
-Wenn Sie einen Posten (Posten 2) in einer Währung mit einem Posten (Posten 1) in einer anderen Währung ausgleichen, wird das Buchungsdatum von Posten 1 verwendet, um den entsprechenden Wechselkurs zur Umrechnung der Beträge von Posten 2 zu ermitteln. Den Wechselkurs finden Sie im Fenster **Währungswechselkurse**. In diesem Fall müssen Sie die Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren. Weitere Informationen finden Sie unter [Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren](finance-how-enable-application-ledger-entries-different-currencies.md)
+Wenn Sie einen Posten (Posten 2) in einer Währung mit einem Posten (Posten 1) in einer anderen Währung ausgleichen, wird das Buchungsdatum von Posten 1 verwendet, um den entsprechenden Wechselkurs zur Umrechnung der Beträge von Posten 2 zu ermitteln. Den Wechselkurs finden Sie auf der Seite **Währungswechselkurse**. In diesem Fall müssen Sie die Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren. Weitere Informationen finden Sie unter [Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren](finance-how-enable-application-ledger-entries-different-currencies.md)
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zahlungs-Buch.-Blatt** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie das gewünschte Buch.-Blatt, und füllen Sie unter Verwendung eines Währungscodes die erste Zeile aus.
@@ -103,12 +103,12 @@ Wenn Sie einen Posten (Posten 2) in einer Währung mit einem Posten (Posten 1)
 6. Buchen Sie das Zahlungsausgangs Buch.-Blatt.
 
 > [!IMPORTANT]  
->   Wenn Sie Posten in verschiedenen Währungen miteinander ausgleichen, rechnet die Anwendung die Beträge in USD um. Selbst wenn der Wechselkurs fest ist, z. B. zwischen USD und EUR, kann es zu Rundungsdifferenzen kommen, wenn diese Fremdwährungsbeträge in EUR umgerechnet werden. Diese Rundungsdifferenzen werden als Gewinne und Verluste auf die Konten gebucht, die in den Feldern **Kursgewinn realisiert** oder **Kursverlust realisiert** des Fensters **Währungen** angegeben sind. Außerdem werden die Beträge im Feld **Betrag (EUR)** der entsprechenden Kreditorenposten angepasst.
+>   Wenn Sie Posten in verschiedenen Währungen miteinander ausgleichen, rechnet die Anwendung die Beträge in USD um. Selbst wenn der Wechselkurs fest ist, z. B. zwischen USD und EUR, kann es zu Rundungsdifferenzen kommen, wenn diese Fremdwährungsbeträge in EUR umgerechnet werden. Diese Rundungsdifferenzen werden als Gewinne und Verluste auf die Konten gebucht, die in den Feldern **Kursgewinn realisiert** oder **Kursverlust realisiert** der Seite **Währungen** angegeben sind. Außerdem werden die Beträge im Feld **Betrag (EUR)** der entsprechenden Kreditorenposten angepasst.
 
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>So heben Sie den Ausgleich von Kreditorenposten auf
 Wenn Sie einen fehlerhaften Ausgleich aufheben, wird ein Korrekturposten (ein Posten, der mit dem ursprünglichen Posten identisch ist, im Betragsfeld allerdings ein umgekehrtes Vorzeichen aufweist) für alle Posten erstellt und gebucht, einschließlich aller aus dem Ausgleich abgeleiteten Fibu-Buchungen, z. B. Skonto und Währungsgewinne/-verluste. Die von der Anwendung geschlossenen Posten werden erneut geöffnet.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kreditoren** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die relevante Kreditorenkarte.
 3. Wählen Sie die Aktion **Posten** aus.
 4. Wählen Sie den entsprechenden Posten aus, und wählen Sie die Aktionen **Ausgleich aufheben**.

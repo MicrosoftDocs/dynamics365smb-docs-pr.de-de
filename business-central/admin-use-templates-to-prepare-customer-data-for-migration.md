@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Vorgehensweise: Migrieren von Debitorendaten
@@ -45,32 +45,46 @@ Wenn Sie eine vorhandene Datenvorlage auswählen, müssen Sie bewerten, ob die V
 >  Datenvorlagen ermöglichen jedoch auch das schnelle Erstellen neuer Datensätze. Verwenden Sie diese für eine schnellere und genauere Erstellung von Daten. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsvorlage** ein, und wählen dann den zugehörigen Link aus.  
-2. Im Fenster **Config. Vorlagen-Liste** wählen Sie aus der Liste eine Datenvorlage, und wählen die **Bearbeiten** Aktion aus.  
+2. Auf der Seite **Config. Vorlagen** wählen Sie aus der Liste eine Datenvorlage, und wählen die **Bearbeiten** Aktion aus.  
 
 Wenn die Standardvorlagen nicht Ihren Anforderungen entsprechen, können Sie neue Vorlagen erstellen oder einer vorhandenen Vorlage Felder hinzufügen. Wenn die Standardvorlagen ausreichen, können Sie sie zum Erstellen von Datensätzen verwenden, die auf Stammdatenvorlagen basieren.
 
-## <a name="to-create-a-data-template"></a>Erstellen Sie eine Datenvorlage
+## <a name="to-create-a-new-data-template"></a>Erstellen Sie eine neue Datenvorlage.
 Sie können eine neue Datendatensatzvorlage erstellen, wenn die Standardvorlagen nicht den Anforderungen des neuen Mandanten entsprechen. Wenn Sie mehr als eine Vorlage erstellen, ist es nützlich, für das Feld **Code** eine Benennungskonvention zu verwenden.
 
 Jede Vorlage besteht aus einem Kopf und aus Zeilen. Wenn Sie eine Vorlage erstellen, können Sie angeben, welche Felder immer Daten eines bestimmten Typs anwenden sollen. Beispielsweise können Sie Vorlagen eines anderen Debitors erstellen, um auf Arten eines anderen Debitors angewendet wird. Wenn Sie den Debitor mithilfe einer Vorlage erstellen, können Sie die Daten der Vorlage verwenden, um bestimmte Felder vorab auszufüllen.
 
-### <a name="to-create-a-data-template-header"></a>So erstellen Sie einen Datenvorlagenkopf
-1. Öffnen Sie das Fenster **Vorlagenliste**.
+### <a name="to-copy-an-existing-data-template"></a>Kopieren Sie eine vorhandene Datenvorlage.
+Sie können eine neue Datenvorlage schnell erstellen, indem Sie Informationen aus einer vorhandenen Datenvorlage kopieren, die Sie dann bearbeiten.
+
+1. Öffnen Sie die Seite **Konfigurationsvorlage**.
 2. Wählen Sie die Aktion **Neu** aus.
+3. Füllen Sie das Feld **Code** aus.
+4. Wählen Sie die Aktion **Von Konfigurationsvorlage kopieren** aus.
+5. Auf der Seite **Konfiguration-Vorlagen** wählen Sie eine vorhandene Vorlage aus, um sie zu kopieren und wählen Sie dann die Schaltfläche **OK** aus.
+
+Die Tabellen-ID, der Tabellenname und die vorhandenen Datenvorlage werden in die neue Vorlage eingefügt.
+
+### <a name="to-create-a-data-template-header-manually"></a>So erstellen Sie einen Datenvorlagenkopf manuell
+1. Öffnen Sie die Seite **Konfigurationsvorlage**.
+2. Wählen Sie die Aktion **Neu** aus.
+3. Füllen Sie das Feld **Code** aus.
 3. Geben Sie im Feld **Tabellen-ID** die Tabelle ein, zu der diese Vorlage gehört. Das Feld wird nach der Eingabe im Feld **Tabellenname** automatisch ausgefüllt, wenn das Feld **Tabellen-Id** festgelegt ist.
 
-### <a name="to-create-a-data-template-line"></a>So erstellen Sie einen Datenvorlagenzeile:
-1. Wählen Sie in der ersten Zeile im Feld den **Feldnamen** aus. Das Fenster **Feldliste** zeigt die Liste der Felder in der Tabelle an.
+### <a name="to-create-a-data-template-line-manually"></a>So erstellen Sie einen Datenvorlagenzeile manuell
+1. Wählen Sie in der ersten Zeile im Feld den **Feldnamen** aus. Die Seite **Feldliste** zeigt die Liste der Felder in der Tabelle an.
 2. Wählen Sie ein Feld aus, und wählen Sie dann die Schaltfläche **OK**. Das Feld **Felderfassun g** wird mit dem Feldnamen ausgefüllt.
 3. Geben Sie im Feld **Standardwert** einen geeigneten Wert ein. In einigen Fällen möchten Sie möglicherweise einen Wert verwenden, der nicht einem in der Datenbank vorhandenen Wert entspricht. In diesem Fall können Sie das Kontrollkästchen **Relationenprüfung überspringen** aktivieren, um zu ermöglichen, Daten ohne Fehler zu verwenden.
 
     > [!TIP]  
     > Da das Feld **Standardwert** keinen Lookup zu den entsprechenden [!INCLUDE[d365fin](includes/d365fin_md.md)]-Feldoptionen hat, kopieren Sie den gewünschten Wert von der entsprechenden Seite in die Vorlage.
 
-    > Aktivieren Sie das Kontrollkästchen ‌**Zwingend**. Das Kontrollkästchen dient nur zur Information. Es gibt an, dass der Benutzer Informationen in das Feld eingeben muss, es wird jedoch keine Geschäftslogik erzwungen. So können Sie beispielsweise einen Auftrag erst fakturieren und buchen, wenn Buchungsgruppen eingerichtet wurden. Da Buchungsgruppen erforderlich sind, können Sie das Kontrollkästchen **Notwendig** für diese Felder markieren.
+4. Wählen Sie das Kontrollkästchen **Notwendig**, wenn Benutzer das jeweilige Feld ausfüllen müssen.
 
-3. Geben Sie im Feld **Referenz** nach Bedarf Informationen zu dem Feld ein.
-4. Wählen Sie die Schaltfläche **OK** aus.
+    > [!NOTE]
+    > Das Kontrollkästchen dient nur zur Information. Keine Geschäftslogik wird erzwungen. So können Sie beispielsweise einen Auftrag erst fakturieren und buchen, wenn Buchungsgruppen eingerichtet wurden. Sie können das Kontrollkästchen **Notwendig** auswählen, sodass diese Felder den Benutzer diese ausfüllen und dadurch einen Buchungsfehler später vermeiden lassen.
+5. Geben Sie im Feld **Referenz** nach Bedarf Informationen zu dem Feld ein.
+6. Wählen Sie die Schaltfläche **OK** aus.
 
 ## <a name="to-export-to-a-template-in-excel"></a>Exportieren einer Vorlage in Excel
 Sie können schnell eine Excel-Arbeitsmappe erstellen, die als Vorlage dient und auf der Struktur einer vorhandenen Datenbanktabelle basiert. Sie können die Vorlage dann verwenden, um Debitorendaten in einem konsistenten Format für den späteren Import in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erfassen.
@@ -87,7 +101,7 @@ Sie können jetzt in die Excel-Arbeitsmappe Debitorendaten eingeben. Wenn Sie me
 > Wenn Sie eine englischsprachige Version von Excel nutzen, Ihre regionalen Einstellungen aber für eine andere Sprache konfiguriert haben, kann der folgende Fehler auftreten: "Old format or invalid type library." Um diesen Fehler zu beheben, prüfen Sie, ob das Language Pack für die andere Sprache installiert ist.
 
 ## <a name="to-import-from-a-template-in-excel"></a>So importieren Sie aus einer Vorlage in Excel
-1. Im Fenster **Config. Arbeitsblatt** wählen Sie die **Aus Vorlage importieren** Aktion aus.
+1. Auf der Seite **Config. Arbeitsblatt** wählen Sie die **Aus Vorlage importieren** Aktion aus.
 3. Navigieren Sie zum Vorlagenvorschlag, den Sie erstellt haben, und wählen Sie die Aktion **Öffnen**.
 4. Um der gesammelten Debitorendaten der Datenbank hinzuzufügen, wählen Sie die **Daten übernehmen** Aktion.
 
@@ -117,8 +131,8 @@ Sie können eine Datenvorlage bei jedem beliebigen Datensatz anwenden, der in [!
 Das folgende Verfahren basiert auf einer Debitorenkarte.  
 
 1. einen Debitoren erstellen. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).
-2. Im Fenster **Debitorenkarte** wählen Sie die Aktion **Vorlage anwenden** aus.  
-3. Im Fenster **Debitorenvorlagen** wählen Sie eine der Vorlagen aus, und wählen Sie dann die Schaltfläche **OK** aus.  
+2. Wählen Sie auf der Seite **Debitorenkarte** die Aktion **Vorlage anwenden** aus.  
+3. Auf der Seite **Debitorenvorlagen** wählen Sie eine der Vorlagen aus, und wählen Sie dann die Schaltfläche **OK** aus.  
 
 Die Standardwerte aus der ausgewählten Debitorenvorlage werden in die Debitorenkarte eingefügt.
 

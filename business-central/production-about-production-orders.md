@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7172c271d2bd25d79294a637dec83a8a0fb834dc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-production-orders"></a>Info zu Fertigungsaufträgen
@@ -40,7 +40,7 @@ Fertigungsaufträge sind die Ausgangspunkte für:
 -   Verfolgen der abgeschlossenen Fertigung  
 
 ## <a name="production-order-creation"></a>Fertigungsauftrag erstellen  
-Fertigungsaufträge können auftragsweise manuell aus den Fenstern **Fertigungsauftrag**, **Verkaufsauftragsplanung** und/oder **Auftragsplanung** erstellt werden. Mehrere Aufträge werden aus dem Fenster **Planungsvorschlag** erstellt.  
+Fertigungsaufträge können auftragsweise manuell aus den Seiten **Fertigungsauftrag**, **Verkaufsauftragsplanung** und/oder **Auftragsplanung** erstellt werden. Mehrere Aufträge werden aus der Seite **Planungsvorschlag** erstellt.  
 
 Für die Erstellung eines Fertigungsauftrags werden Informationen aus folgenden Quellen verwendet:  
 
@@ -54,8 +54,8 @@ Für die Erstellung eines Fertigungsauftrags werden Informationen aus folgenden 
 Ein Fertigungsauftrag wird automatisch reserviert und zu seinem Ursprung verfolgt, wenn:  
 
 -   Er aus dem **Planungsvorschlag** erstellt wurde  
--   Er mit der Auftragsfunktion im Fenster **Verkaufsauftragsplanung** erstellt wurde  
--   Er aus dem Fenster **Auftragsplanung** erstellt wurde  
+-   Wurde mit der Auftragsfunktion auf der Seite **Verkaufsauftragsplanung** erstellt  
+-   Wurde aus der Seite **Auftragsplanung** erstellt  
 -   Die Funktion **Neu planen** für Fertigungsaufträge verwendet wird  
 
 Weitere Informationen finden Sie unter [Titel-Beziehungen zwischen Bedarf und Vorrat nachverfolgen](production-how-track-demand-supply.md).
@@ -63,7 +63,7 @@ Weitere Informationen finden Sie unter [Titel-Beziehungen zwischen Bedarf und Vo
 Fertigungsaufträge, die auf andere Weise erstellt wurden, werden nicht automatisch reserviert und verfolgt.   
 
 ## <a name="production-order-status"></a>Fertigungsauftragsstatus (FA-Status)  
-Über den Fertigungsauftragsstatus wird gesteuert, wie sich der Fertigungsauftrag in der Anwendung verhält. Form und Inhalt der Produktion werden durch den Status des Auftrags festgelegt. Je nach Status werden die Fertigungsaufträge in verschiedenen Fenstern angezeigt. Sie können den Status eines Fertigungsauftrags nicht manuell ändern; Sie müssen die Funktion **Status ändern** verwenden.  
+Über den Fertigungsauftragsstatus wird gesteuert, wie sich der Fertigungsauftrag in der Anwendung verhält. Form und Inhalt der Produktion werden durch den Status des Auftrags festgelegt. Je nach Status werden die Fertigungsaufträge auf verschiedenen Seiten angezeigt. Sie können den Status eines Fertigungsauftrags nicht manuell ändern; Sie müssen die Funktion **Status ändern** verwenden.  
 
 ### <a name="simulated-production-order"></a>Simulierter Fertigungsauftrag  
 Ein simulierter Fertigungsauftrag zeichnet sich durch folgende Eigenschaften aus:  
@@ -234,7 +234,7 @@ Im Produktions Buch.-Blatt werden Verbrauchsmengen als negative Artikelposten, f
 [Produktion](production-manage-manufacturing.md)    
 [Produktion einrichten](production-configure-production-processes.md)  
 [Planung](production-planning.md)      
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

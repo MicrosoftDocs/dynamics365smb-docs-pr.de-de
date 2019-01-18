@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4eddb7fb118f7e410448cebf4497857532f936db
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 651ec85ead0859b5be34e624c47331292958e4db
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
@@ -32,7 +32,7 @@ Weitere Informationen finden Sie unter [Designdetails: Eingehender Lagerfluss](d
 In der folgenden Vorgehensweise wird Methode D in der vorhergegangenen Tabelle beschrieben.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
-In der erweiterten Lagerkonfiguration verwenden Sie dann, wenn Ihr Standort so eingerichtet ist, dass er Eingangs- und Einlagerungsverarbeitung durchführen muss, das Fenster **Lagerort-Eingang** zur Aufzeichnung und Buchung des Eingangs von Artikeln zu mehreren eingehenden Aufträgen. Wenn der Wareneingang gebucht wird, wird mindestens ein Einlagerungsbeleg erstellt, um Lagermitarbeiter anzuweisen, den erhaltenden Artikel zu entnehmen und an festgelegte Orte gemäß der Lagerplatzeinrichtung oder an andere Lagerplätze zu bringen. Die spezifische Position der Artikel wird erfasst, wenn die Einlagerung registriert wird. Der eingehende Herkunftsbeleg kann eine Einkaufsbestellung, eine Verkaufsreklamation, ein eingehender Umlagerungsauftrag oder Montage oder ein Fertigungsauftrag sein, dessen Endprodukt zur Einlagerung bereitsteht. Wenn der Wareneingang aus einem eingehenden Auftrag erstellt wird, kann mehr als ein eingehender Herkunftsbeleg für den Wareneingang abgerufen werden. Wenn Sie diese Methode verwenden, können Sie viele Artikel erfassen, die von unterschiedlichen eingehenden Bestellungen mit einem Wareneingang ankommen.  
+In der erweiterten Lagerkonfiguration verwenden Sie dann, wenn Ihr Standort so eingerichtet ist, dass er Eingangs- und Einlagerungsverarbeitung durchführen muss, die Seite **Lagerort-Eingang** zur Aufzeichnung und Buchung des Eingangs von Artikeln zu mehreren eingehenden Aufträgen. Wenn der Wareneingang gebucht wird, wird mindestens ein Einlagerungsbeleg erstellt, um Lagermitarbeiter anzuweisen, den erhaltenden Artikel zu entnehmen und an festgelegte Orte gemäß der Lagerplatzeinrichtung oder an andere Lagerplätze zu bringen. Die spezifische Position der Artikel wird erfasst, wenn die Einlagerung registriert wird. Der eingehende Herkunftsbeleg kann eine Einkaufsbestellung, eine Verkaufsreklamation, ein eingehender Umlagerungsauftrag oder Montage oder ein Fertigungsauftrag sein, dessen Endprodukt zur Einlagerung bereitsteht. Wenn der Wareneingang aus einem eingehenden Auftrag erstellt wird, kann mehr als ein eingehender Herkunftsbeleg für den Wareneingang abgerufen werden. Wenn Sie diese Methode verwenden, können Sie viele Artikel erfassen, die von unterschiedlichen eingehenden Bestellungen mit einem Wareneingang ankommen.  
 
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert.  
 
@@ -56,7 +56,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 -   So machen Sie sich anhand der nachfolgenden Schritte selbst zu einem Lagermitarbeiter am Standort WHITE:  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagermitarbeiter** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto im Fenster **Benutzer** aus.  
+2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
 3.  Geben Sie im Feld **Lagerortcode** WHITE ein.  
 4.  Wählen Sie das Feld **Standard** aus.  
 
@@ -64,7 +64,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 Ellen, die Einkäuferin bei CRONUS International Ltd. ist, erstellt zwei Bestellungen für Zubehörartikel von den Kreditoren 10000 und 20000, die zum WEISS-Lagerhaus geliefert werden sollen. Wenn die Lieferungen im Lagerankommen, verwendet, Sammy, der für das Empfangen von Artikeln der Kreditoren 10000 und 20000 zuständig ist, einen Filter, um Wareneingangszeilen für die Bestellungen zu erstellen, die von den beiden Kreditoren ankommen. Sammy bucht die Artikel als in den Lagerbestand im Wareneingang eingegangen und stellt die Artikel für Verkauf oder anderen Bedarf bereit. John, der Lagermitarbeiter, nimmt die Artikel vom Wareneingangslagerplatz und lagert sie ein. Er lagert alle Einheiten in ihren Standardlagerplätze ein, mit Ausnahme von 40 der 100 eingegangenen Scharniere, die er in der Montageabteilung einlagert, indem er die Einlagerungsanforderungszeile aufteilt. Wenn John die Einlagerung registriert, werden die Lagerplatzinhalte aktualisiert, und die Artikel werden für die Kommissionierung aus dem Lager bereitgestellt.  
 
 ## <a name="reviewing-the-white-location-setup"></a>Überprüfung des Setup des WEISSEN Lagerorts  
-Das Einrichten des Fensters **Standortkarte** definiert die Warenflüsse des Unternehmens.  
+Das Einrichten der Seite **Standortkarte** definiert die Warenflüsse des Unternehmens.  
 
 ### <a name="to-review-the-location-setup"></a>So prüfen Sie die Lagerorteinrichtung  
 
@@ -111,7 +111,7 @@ Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.
     Die Lieferungen von Artikeln der Kreditoren 10000 und 20000 sind im WHITE-Lager eingegangen, und Sammy beginnt mit der Verarbeitung der Einkaufslieferungen.  
 
 ## <a name="receiving-the-items"></a>Eingang der Artikel  
-Im Fenster **Wareneingang** können Sie mehrere eingehende Aufträge für Herkunftsbelege, wie eine Bestellung, verwalten.  
+Auf der Seite **Wareneingang** können Sie mehrere eingehende Aufträge für Herkunftsbelege, wie eine Bestellung, verwalten.  
 
 ### <a name="to-receive-the-items"></a>So erhalten Sie die Artikel  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Wareneingänge** ein, und wählen dann den zugehörigen Link aus.  
@@ -122,14 +122,14 @@ Im Fenster **Wareneingang** können Sie mehrere eingehende Aufträge für Herkun
 6.  Geben Sie im Feld **Beschreibung** **Kreditoren 10000 und 20000** ein.  
 7.  Wählen Sie die Aktion **Bearbeiten** aus.  
 8.  Wählen Sie im Inforegister **Einkauf** im Feld **Eink. von Kred.-Nr. Filter**, geben Sie **10000&#124; 20000** ein.  
-9. Wählen Sie die Aktion **Ausführen** aus. Der Wareneingang wird mit vier Zeilen gefüllt, die Einkaufszeilen für die angegebenen Kreditoren darstellen. Das Feld **Eingehende Menge** wird ausgefüllt, da Sie das Kontrollkästchen **Bewegungsmenge nicht ausfüllen** im Fenster **Filter um Herkunftsdokument abzurufen** nicht markiert haben.  
+9. Wählen Sie die Aktion **Ausführen** aus. Der Wareneingang wird mit vier Zeilen gefüllt, die Einkaufszeilen für die angegebenen Kreditoren darstellen. Das Feld **Eingehende Menge** wird ausgefüllt, da Sie das Kontrollkästchen **Bewegungsmenge nicht ausfüllen** auf der Seite **Filter um Herkunftsdokument abzurufen** nicht markiert haben.  
 10. Wenn Sie einen Filter verwenden möchten, wie zuvor in diesem Abschnitt beschrieben, können Sie optional auf der Registerkarte Aktionen in der Gruppe Funktionen **Herkunftsbeleg holen** auswählen, und dann Einkaufsbestellungen aus den entsprechenden Kreditoren auswählen.  
 11. Wählen Sie die Aktion **Beleg buchen** ausn und wählen Sie dann die Schaltfläche **Ja** aus.  
 
     Die positiven Artikelposten spiegeln die gebuchten Zubehör-Einkaufslieferungen der Kreditoren 10000 und 20000 wieder, und die Artikel können im Lager aus dem Wareneingangslagerplatz eingelagert werden.  
 
 ## <a name="putting-the-items-away"></a>Einlagerung von den Artikeln  
-Im Fenster **Lagereinlagerung** können Sie Einlagerungen für einen spezifischen Wareneingangsbeleg, der sich auf mehrere Herkunftsbelege bezieht, verwalten. Wie alle Lageraktivitätsbelege wird jeder Artikel in der Einlagerung durch eine Entnahme- und eine Einlagerungszeile dargestellt. Im folgenden Verfahren ist der Lagerplatzcode in den Entnahmezeilen der Standardplatz für Wareneingänge am WEISSEN Lagerort, W-08-0001.  
+Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifischen Wareneingangsbeleg, der sich auf mehrere Herkunftsbelege bezieht, verwalten. Wie alle Lageraktivitätsbelege wird jeder Artikel in der Einlagerung durch eine Entnahme- und eine Einlagerungszeile dargestellt. Im folgenden Verfahren ist der Lagerplatzcode in den Entnahmezeilen der Standardplatz für Wareneingänge am WEISSEN Lagerort, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>So lagern Sie die Artikel ein  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Einlagerungen** ein, und wählen dann den zugehörigen Link aus.  
@@ -139,7 +139,7 @@ Im Fenster **Lagereinlagerung** können Sie Einlagerungen für einen spezifische
 
     Der Lagermitarbeiter erhält die Information, dass in der Montageabteilung 40 Scharniere benötigt werden; er teilt die einzelne Place-Zeile so, dass eine zweite Place-Zeile für Lagerplatz W-02-0001 in der Montageabteilung entsteht und platziert diesen Teil der eingegangenen Scharniere dort.  
 
-3.  Wählen Sie die zweite Zeile im Fenster **Lagereinlagerung** aus, die Einlagerungszeile für Artikel 70200.  
+3.  Wählen Sie die zweite Zeile auf der Seite **Lagereinlagerung** aus, die Einlagerungszeile für Artikel 70200.  
 4.  Ändern Sie den Wert im Feld **Zu verarbeitende Menge** von 100 zu 60.  
 5.  Wählen Sie auf dem Inforegister **Zeilen** die Option **Funktionen**, und klicken Sie dann auf **Zeile aufteilen**. Eine neue Zeile wird für Artikel 70200 mit 40 in Feld **Zu verarbeitende Menge** eingefügt.  
 6.  Geben Sie im Feld **Lagerplatzcode** W-02-0001 ein. Das Feld **Gebietscode** wird automatisch ausgefüllt.  

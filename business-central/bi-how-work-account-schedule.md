@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e63e507411f41c67caa94834f4d99861bd1ae77
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor
@@ -26,34 +26,58 @@ Sie rufen diese beiden Berichte beispielsweise mit der Aktion **Finanzverhältni
 
 Das Einrichten von Kontenschemata erfordert ein Verständnis für die Finanzdaten im Kontenplan. Sie können beispielsweise die Sachposten als prozentualen Anteil der Budgetposten sehen. Dazu ist es erforderlich, dass Budgets erstellt werden. Weitere Informationen finden Sie unter [Sachkonto-Budgets erstellen](finance-how-create-budgets.md).
 
-## <a name="account-categories-and-account-schedules"></a>Kontengruppen und Kontenschemata
-Sie können Kontengruppen dazu verwenden, das Layout Ihrer Finanzberichte zu ändern. Wenn Sie Ihre Kontengruppen im Fenster **Sachkontokategorien** eingerichtet haben und die Aktion **Kontenschemata generieren** auswählen, werden die zugrunde liegenden Kontenschemata für die Kernfinanzberichte aktualisiert. Wenn Sie das nächste Mal einen dieser Berichte wie die Saldoabrechnung ausführen, werden neue Summen und Untereinträge basierend auf Ihren Änderungen hinzugefügt. Weitere Informationen finden Sie unter "Buchhaltungskategorien" unter [Die Finanzbuchhaltung und der Kontenplan verstehen](finance-general-ledger.md).  
+## <a name="account-schedules"></a>Kontenschemata
+Kontenschemata dienen dazu, die Konten aus dem Kontenplan auf informative Weise anzuordnen. Durch die Möglichkeit zum Einrichten mehrerer Layouts können Sie die Informationen definieren, die Sie dem Kontenplan entnehmen möchten. Eine der Hauptfunktionen eines Kontenschemas besteht in der Bereitstellung eines Orts für Berechnungen, die nicht direkt im Kontenplan vorgenommen werden können – beispielsweise zur Erstellung von Zwischensummen für Kontengruppen, die in neue Summen einbezogen und anschließend in anderen Summen verwendet werden können. So können Benutzer beispielsweise Kontenschemata zur Berechnung von Gewinnmargen für Dimensionen (beispielsweise Abteilungen oder Debitorengruppen) erstellen. Darüber hinaus besteht die Möglichkeit zum Filtern von Sachposten und Finanzbudgetposten – beispielsweise nach Bewegung oder Sollbetrag.
 
-## <a name="to-create-new-account-schedules"></a>Neue Kontenschemata erstellen:  
- Sie benutzen Kontenschemata zum Analysieren der Werte auf Sachkonten oder zum Vergleichen von Sachposten mit Finanzbudgetposten. Sie können beispielsweise die Sachposten als prozentualen Anteil der Finanzbudgetposten sehen.
+Auch können mehrere Kontenschemata und Spaltenlayouts mithilfe von Formeln verglichen werden. Diese Art des Vergleichs ermöglicht Folgendes:
+
+* Erstellen benutzerdefinierter Finanzberichte
+* Erstellen einer beliebigen Anzahl von Kontenschemata, jeweils mit eindeutigem Namen
+* Einrichten unterschiedlicher Berichtslayouts und Drucken der Berichte mit den aktuellen Werten
+
+## <a name="account-categories"></a>Kontokategorien
+Sie können Kontengruppen dazu verwenden, das Layout Ihrer Finanzberichte zu ändern. Wenn Sie Ihre Kontengruppen auf der Seite **Sachkontokategorien** eingerichtet haben und die Aktion **Kontenschemata generieren** auswählen, werden die zugrunde liegenden Kontenschemata für die Kernfinanzberichte aktualisiert. Wenn Sie das nächste Mal einen dieser Berichte wie die Saldoabrechnung ausführen, werden neue Summen und Untereinträge basierend auf Ihren Änderungen hinzugefügt. Weitere Informationen finden Sie unter "Buchhaltungskategorien" unter [Verständis der Fibu und des Kontoplans](finance-general-ledger.md).  
+
+## <a name="to-create-a-new-account-schedule"></a>So erstellen Sie neue Kontenschemata  
+Sie benutzen Kontenschemata zum Analysieren der Werte auf Sachkonten oder zum Vergleichen von Sachposten mit Finanzbudgetposten. Sie können beispielsweise die Sachposten als prozentualen Anteil der Finanzbudgetposten sehen.
+
+Die Kontenschemata in der Standardeinstellung sind [!INCLUDE[d365fin](includes/d365fin_md.md)] die Basis der Standardfinanzberichte, die möglicherweise nicht den Anforderungen Ihres Unternehmens entsprechen. Um Ihre eigenen Finanzberichte schnell erstellen zu können, beginnen Sie, indem Sie ein vorhandenes Kontenschema kopieren. Siehe dazu auch Schritt 3 unten.
+
+Die Seite **Kontenschema. Planen Überblick** ist jene, auf der Sie Finanzbericht in der Vorschau sehen, die das Kontenschema definiert. Im Weiteren ist es wichtig zu verstehen, dass, was Sie einrichten, während Kontenschemazeilen und Spalten auf der Seite **Kontenschema. "Kontenschemamatrix** angezeigt werden und überprüft werden können, das Sie von einem Fenster öffnen, indem Sie die Aktion **Matrix** auswählen. Die Seite **Kontenschema** selbst ist nur ein Aufsetzbereich.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie im Fenster **Kontoschemaname** auf der Registerkarte **Neu** die Option Neu aus, um einen neuen Kontenschemanamen zu erstellen.
-3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Wählen Sie die **Kontenschema bearbeiten** Aktion aus.
-5. Füllen Sie die Felder im Fenster **Kontenschema** aus.  
+2. Wählen Sie im Fenster **Kontoschema** auf der Registerkarte **Neu** die Option Neu aus, um einen neuen Kontenschemanamen zu erstellen.
+3. Im Fenster **Kontenplan kopieren** geben Sie die zwei Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
+4. Füllen Sie die Felder je nach Bedarf aus. Im **Standard Spaltenlayout** Feld wählen Sie ein existierendes Layout aus. Sie können diese bei Bedarf später bearbeiten.
 
-    Nachdem Sie ein neues Kontenschema erstellt haben und neue Zeilen in Ihrem Kontenschema eingerichtet haben, müssen Sie die Spalten einrichten. Sie können diese entweder manuell einrichten oder Ihrem Kontenschema ein vordefiniertes Spaltenlayout zuweisen.
-6. Wählen Sie die **Spaltenlayouteinrichtung bearbeiten** Aktion aus.
-7. Füllen Sie die Felder im Fenster **Spaltenlayout** aus.
+    Sie nutzen Spaltenlayouts, um Spalten für verschiedene Parameter festzulegen, durch die die Finanzdaten in den Zeilen angezeigt werden. Zum Beispiel können Sie ein Spalten-Layout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres mit vier Spalten vergleicht. Weitere Informationen finden Sie im Abschnitt "Erstellen von Spaltenlayout".
 
-> [!NOTE]  
-> Wurde dem Kontenschema kein Standardspaltenlayout zugeordnet, müssen Sie die Spalten manuell einrichten.
+5. Wählen Sie die **Kontenschema bearbeiten** Aktion aus.
+6. Erstellen Sie eine Zeile für jedes Finanzelement, dass im Bericht, wie eine Zeile für Umlaufvermögen und eine weitere Zeile für Anlagen erscheinen sollen. Für Inspiration finden Sie im CRONUS-Demomandanten vorhandene Kontenschemata.
+7. Wählen Sie die **Übersicht** Aktion aus,  um den resultierenden Finanzbericht anzuzeigen.
+8. Auf der Seite **Kontenschema-Überblick** im Feld **Spaltenlayoutname** wählen Sie ein anderes Spaltenlayout aus, um die Finanzdaten durch andere Einstellungen anzuzeigen.
+9. Wählen Sie die Schaltfläche **OK** aus.
 
-### <a name="to-copy-an-existing-account-schedule"></a>So kopieren Sie ein Kontenschema
-Die Kontenschemata in der Standardeinstellung sind [!INCLUDE[d365fin](includes/d365fin_md.md)] die Basis der Standardfinanzberichte, die möglicherweise nicht den Anforderungen Ihres Unternehmens entsprechen. Um Ihre eigenen Finanzberichte schnell erstellen zu können, beginnen Sie, indem Sie ein vorhandenes Kontenschema kopieren.
-1. Im Fenster **Kontenschemata** können Sie ein Kontenschema wählen und dann die **Kontenschema kopieren** Aktion auswählen.
-2. Im Fenster **Kontenplan kopieren** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
+Sie haben jetzt die Grundlage des Kontenschemas, die Zeilen von Finanzdaten, die angezeigt werden sollen und ein bestehendes Layout der Spalten definiert, um die Daten in den Zeilen für verschiedene Einstellungen anzuzeigen. Wenn Standard-Spaltenlayout, das Sie in Schritt 4 ausgewählt haben, nicht Ihrem Zweck entspricht, gehen Sie folgendermaßen vor.
+
+### <a name="to-edit-a-column-layout"></a>Um ein Spaltenlayout zu bearbeiten
+Sie verwenden Spaltenlayouts, um festzulegen, welche Spalten in dem Bericht erscheinen sollen. Zum Beispiel können Sie ein Layout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres vergleicht.
+
+> [!NOTE]
+> Beachten Sie, dass in einer gedruckten Version eines Kontenschemas höchstens fünf Spalten angezeigt werden können. Wenn das Kontenschema ausschließlich zur Analyse der Seite **Kontenschema. Planen Überblick** dient, können Sie so viele Spalten erstellen, wie Sie möchten.
+
+1. Auf der Seite **Kontenschemata** wählen Sie das relevante Kontenschema, und wählen die **Spaltenlayouteinrichtung bearbeiten** Aktion aus.
+2. Auf der Seite **Spaltenlayouts** erstellen Sie eine Zeile für jede Spalte, für die Finanzdaten in dem Finanzbericht angezeigt werden. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Wählen Sie die Schaltfläche **OK** aus.
+4. Öffnen Sie die Seite **Kontenschema. Planen Überblick** gelegentlich, um sicherzustellen, dass das neue Spaltenlayouts wie vorgesehen arbeitet.
+
+> [!NOTE]
+> Die Spalten, die Sie in jeder Zeile definieren, zeigt drei Spalten auf der Seite **Kontenschema. Planen Überblick**. Die ersten beiden Spalten, **Zeilennr.** und **Beschreibung**, sind fest.  
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Eine Spalte zur Berechnung von Prozentsätzen erstellen:  
 Manchmal möchten Sie möglicherweise eine Spalte in ein Kontenschema einfügen, in der Prozentsätze einer Summe berechnet werden. Wenn beispielsweise mehrere Zeilen vorhanden sind, in denen die Verkäufe nach Dimension aufgeschlüsselt sind, empfiehlt sich die Einrichtung einer Spalte, in der für jede Zeile der prozentuale Anteil an den Gesamtverkäufen angegeben ist.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion Wie möchten Sie weiter verfahren geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie im Fenster **Kontenschemanamen** ein Kontenschema aus.  
 3. Klicken Sie auf der Registerkarte **Kontoschema bearbeiten** in der Gruppe Prozess auf Kontenschema bearbeiten, um eine Kontenschemazeile einzurichten, um die Gesamtsumme zu berechnen, auf denen die Prozentsätze basieren.  
 4. Fügen Sie eine Zeile unmittelbar über der ersten Zeile ein, für die Sie einen Prozentsatz anzeigen möchten.  
@@ -65,16 +89,16 @@ Manchmal möchten Sie möglicherweise eine Spalte in ein Kontenschema einfügen,
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Kontenschemata mit Matrizen einrichten:  
 Sie können eine Kontenschema zum Erstellen eines Vergleichs der in der Finanzbuchhaltung gebuchten Werte mit den Finanzbudgetwerten benutzen.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion Wie möchten Sie weiter verfahren geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie im Fenster **Kontenschemanamen** ein Kontenschema aus.  
 3. Wählen Sie die **Kontenschema bearbeiten** Aktion aus.  
-4. Wählen Sie im Fenster **Kontenplan** den gewünschten Kontenschemanamen im Feld **Name** aus.
+4. Auf der Seite **Kontenplan** im Feld **Name** wählen Sie den Standard-Kontenplan aus.
 5. Wählen Sie die **Konten einfügen** Aktion aus.  
 6. Wählen Sie die Konten, die Sie in Ihrer Aufstellung berücksichtigen möchten, und wählen Sie dann **OK**.
 
     Die Konten sind damit in Ihr Kontenschema eingefügt. Wenn Sie möchten, können Sie auch das Spaltenlayout ändern.  
 7. Wählen Sie die Aktion **Übersicht** aus.  
-8. Im Inforegister **Dimensionsfilter** legen Sie den gewünschten Budgetfilter fest.  
+8. Auf der Seite **Kontoschema-Übersicht** im Inforegister **Dimensionenfilter**legen Sie den gewünschten Budgetfilter fest.  
 9. Wählen Sie die Schaltfläche **OK** aus.  
 
 Die Budgetaufstellung kann nun kopiert und in ein Arbeitsblatt eingefügt werden.  
@@ -85,7 +109,6 @@ Ihr Kontenschema kann sich die Ergebnisse von verschiedenen Buchhaltungsperioden
 Eine Buchhaltungsperiode muss nicht dem Kalender entsprechen, aber jedes Geschäftsjahr muss dieselbe Anzahl von Buchhaltungsperioden haben, selbst wenn jede Periode eine andere Länge haben kann.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet diese Periodenformel, um den Betrag der Vergleichsperiode in Bezug auf die Periode zu berechnen, die Sie im Datumsfilter des Anforderungsfensters im Bericht angegeben haben. Die Vergleichsperiode basiert auf der Periode des Startdatums des Datumsfilters. Für Periodenspezifikationen stehen folgende Abkürzungen zur Verfügung:
-
 
 <table>
 <colgroup>
@@ -173,7 +196,7 @@ Wenn die Berechnung gemäß regulärer Zeitperioden erfolgen soll, muss eine For
 ## <a name="see-also"></a>Siehe auch
 [Business Intelligence](bi.md)  
 [Finanzen](finance.md)  
-[Finance einrichten](finance-setup-finance.md)  
+[Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

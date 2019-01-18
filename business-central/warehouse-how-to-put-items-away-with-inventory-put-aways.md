@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Artikel mit Lagereinlagerungen einlagern
@@ -24,7 +24,7 @@ Wenn Ihr Lagerort so eingerichtet wurde, dass er Einlagerung erfordert, jedoch k
 
 Sie können eine Lagereinlagerung auf drei Arten erstellen:  
 
-- Erstellen Sie die Einlagerung in zwei Schritten, indem Sie zuerst vom Herkunftsbeleg aus eine Erwartete Lagerbewegung erstellen, die für die Logistik als ein Signal dient, dass der Herkunftsbeleg zum Einlagern bereitsteht. Die Lagereinlagerung kann dann vom Fenster **Lagereinlagerung** aus erstellt werden, die auf dem Herkunftsbeleg basiert.  
+- Erstellen Sie die Einlagerung in zwei Schritten, indem Sie zuerst vom Herkunftsbeleg aus eine Erwartete Lagerbewegung erstellen, die für die Logistik als ein Signal dient, dass der Herkunftsbeleg zum Einlagern bereitsteht. Die Lagereinlagerung kann dann von der Seite **Lagereinlagerung** aus erstellt werden, die auf dem Herkunftsbeleg basiert.  
 - Erstellen Sie die Lagereinlagerung direkt vom Herkunftsbeleg aus.  
 - Erstellen Sie Lagereinlagerungen für mehrere Herkunftsbelege gleichzeitig, indem Sie eine Stapelverarbeitung verwenden.  
 
@@ -59,13 +59,13 @@ Nachdem die Anforderung erstellt wurde, kann der Lagermitarbeiter eine neue Lage
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>So erstellen Sie mehrere Lagereinlagerungen mit einer Stapelverarbeitung  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagerbelege erstellen** ein, und wählen dann den zugehörigen Link aus.  
-2.  Im Inforegister **Erwartete Lagerbewegung** des Anforderungsfensters können Sie die Felder **Herkunftsbeleg** und **Herkunftsnr.** verwenden, um Filter auf bestimmte Arten von Belegen oder auf Bereiche von Belegnummern zu setzen.  
+2.  Im Inforegister **Erwartete Lagerbewegung** der Anforderungsseite können Sie die Felder **Herkunftsbeleg** und **Herkunftsnr.** verwenden, um Filter auf bestimmte Arten von Belegen oder auf Bereiche von Belegnummern zu setzen.  
 3.  Aktivieren Sie im Inforegister **Optionen** das Kontrollkästchen **Lagereinlag. erst.** aus.
 4.  Wählen Sie die Schaltfläche **OK** aus. Die angegebenen Lagereinlagerungen werden erstellt.
 
 ## <a name="to-record-the-inventory-put-away"></a>So erfassen Sie die Lagereinlagerung  
-1. Öffnen Sie einen zuvor erstellten Einlagerungsbeleg, indem Sie diesen im Fenster **Lagereinlagerungen** auswählen.  
-2. Geben Sie im Feld **Lagerplatzcode** auf den Einlagerungszeilen wird der Lagerplatz entsprechend des Standardlagerplatzes des Artikels vorgeschlagen. Sie können – falls erforderlich – in diesem Fenster den Lagerplatz ändern.  
+1. Öffnen Sie einen zuvor erstellten Einlagerungsbeleg, indem Sie diesen auf der Seite **Lagereinlagerungen** auswählen.  
+2. Geben Sie im Feld **Lagerplatzcode** auf den Einlagerungszeilen wird der Lagerplatz entsprechend des Standardlagerplatzes des Artikels vorgeschlagen. Sie können – falls erforderlich – auf dieser Seite den Lagerplatz ändern.  
 3. Führen Sie die Einlagerung durch und geben Sie die Informationen über die tatsächlich eingelagerte Menge in das Feld **Bewegungsmenge** ein.
 
     Wenn es erforderlich ist, die Artikel einer Zeile in mehr als einem Lagerplatz einzulagern, beispielsweise, da der freie Lagerplatz voll ist, verwenden Sie die Funktion **Zeile aufteilen** im Inforegister **Zeilen**. Weitere Informationen über das Aufteilen von Zeilen finden Sie unter [Aufteilen von Lageraktivitätszeilen](warehouse-how-to-split-warehouse-activity-lines.md).  
@@ -75,7 +75,7 @@ Der Buchungsprozess bucht den Wareneingang, oder für Fertigungsaufträge die Is
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  

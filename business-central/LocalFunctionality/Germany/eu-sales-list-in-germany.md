@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ecac4f95c3e9a33630bdd1352f1b5d1f417d6da3
+ms.sourcegitcommit: 78c689aafe31cdec7be1e1740422f781352bbd3c
+ms.openlocfilehash: 362a9e8c146050d1f3a839894e04c6466d8b62d5
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
@@ -26,8 +26,8 @@ Um die Sicherheit zu erhöhen, müssen alle Arten von Steuern und Steuererkläru
 ## <a name="see-also"></a>Siehe auch  
 [BZSt-Onlineportal](https://www.bzst.de)   
 [Erstellen von MwsT-Berichten.](how-to-create-vat-reports.md)  
-[Vorgehensweise: Einrichten von MwSt.-VIES-Berichten](how-to-set-up-vat-reports.md)  
-[Gewusst wie: MwSt.-VIES Berichte erstellen](how-to-create-vat-reports.md)  
-[Vorgehensweise beim Korrigieren von MwSt.-VIES Berichten](how-to-correct-vat-reports.md)  
+[Richten Sie die MwSt.-Berichte ein](how-to-set-up-vat-reports.md)  
+[Erstellen von MwSt-Berichten.](how-to-create-vat-reports.md)  
+[Zu korrigierender MwSt.-Bericht](how-to-correct-vat-reports.md)  
 [MwSt-VIES-Steuer angeben](how-to-declare-vat-vies-tax.md)  
 

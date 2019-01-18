@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ad0f99509ff1a191c62dd1c3a6d569c9884ea851
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung
@@ -28,7 +28,7 @@ Optional im Feld **Kategorienfilter für Aufgabenwarteschlange** Feld, Sie wähl
 [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch aktiviert die Projekte entsprechend den angegebenen Plänen für jeden Aufgabenwarteschlangenposten. Sie können einen Projektwarteschlangenposten auch manuell beginnen, beenden und aktivieren.
 
 ### <a name="log-files"></a>Transaktionsprotokoll
-Die Fehler werden im Fenster **Aufgabenwarteschlangen-Protokolleinträge** aufgeführt, das Sie im Menüband zugreifen können. Sie können auch Aufgabenwarteschlangenfehler beheben. Die Daten, die beim Ausführen einer Aufgabenwarteschlange generiert werden, werden an der Datenbank gespeichert.  
+Die Fehler werden auf der Seite **Aufgabenwarteschlangen-Protokolleinträge** aufgeführt, auf das Sie im Menüband zugreifen können. Sie können auch Aufgabenwarteschlangenfehler beheben. Die Daten, die beim Ausführen einer Aufgabenwarteschlange generiert werden, werden an der Datenbank gespeichert.  
 
 ### <a name="background-posting-with-job-queues"></a>Buchen im Hintergrund mit Aufgabenwarteschlangen
 Aufgabenwarteschlangen sind ein effektives Werkzeug, um die Ausführung von Geschäftsprozessen im Hintergrund zu planen. Ein Beispiel hierfür ist eine Instanz, in der mehrere Benutzer versuchen, Verkaufsaufträge gleichzeitig zu buchen, aber nur ein Auftrag gleichzeitig verarbeitet werden kann. Indem Sie eine Buchungsroutine im Hintergrund erstellen, können Sie die Buchungen in eine Warteschlange zur Bearbeitung im Hintergrund einreihen.  
@@ -46,7 +46,7 @@ Aufgabenwarteschlangen sind ein effektives Werkzeug, um die Ausführung von Gesc
 > [!NOTE]  
 >  Wenn Sie einen Beleg für die Buchung planen und den Buchungsvorgang starten, wird die Buchungsroutine automatisch das Timeout eines Aufgabenwarteschlangenpostens innerhalb von zwei Stunden konfigurieren, wenn die Buchungsroutine, aus beliebigen Grund aufhört zu reagieren.  
 
-Sie richten diese mithilfe der Projektwarteschlange im Fenster **Debitoren & Verkauf Einr.** oder im Fenster **Kreditoren & Einkauf**, fest. Im Inforegister **Hintergrundbuchung** wählen Sie das Kontrollkästchen **Beitrags-Belege über Aufgabenwarteschlange** und füllen Sie die entsprechenden Informationen ein. Hier können Sie das Feld **Aufgabenwarteschlange - Kategoriencode** verwenden, um die Aufgabenwarteschlangenposten mit diesem Code auszuführen. Wenn Sie diese Kategorie auswählen, können Sie die **Verkauf buchen** Kategorie nutzen, die alle Aufträge filtert, die mit einer Projektwarteschlange übereinstimmen, die denselben Kategoriencode hat.  
+Sie richten diese mithilfe der Projektwarteschlange auf der Seite **Debitoren & Verkauf Einr.** oder auf der Seite **Kreditoren & Einkauf**, fest. Im Inforegister **Hintergrundbuchung** wählen Sie das Kontrollkästchen **Beitrags-Belege über Aufgabenwarteschlange** und füllen Sie die entsprechenden Informationen ein. Hier können Sie das Feld **Aufgabenwarteschlange - Kategoriencode** verwenden, um die Aufgabenwarteschlangenposten mit diesem Code auszuführen. Wenn Sie diese Kategorie auswählen, können Sie die **Verkauf buchen** Kategorie nutzen, die alle Aufträge filtert, die mit einer Projektwarteschlange übereinstimmen, die denselben Kategoriencode hat.  
 
 > [!IMPORTANT]  
 >  Wenn Sie einen Beleg an einen Drucker senden und der Drucker ein Dialogfeld anzeigt, wie eine Anforderung für Anmeldeinformationen oder eine Warnung über geringe Druckertinte, wird der Beleg gebucht, aber nicht gedruckt. Die entsprechenden Aufgabenwarteschlangenposten überschreiten letztendlich die Zeit und das Feld **Status** ist auf **Fehler** festgelegt. Entsprechend empfiehlt es sich, dass Sie kein Druckersetup verwenden, das Aktivität mit der Anzeige von Druckerdialogfeldern in Verbindung mit Hintergrundbuchung benötigt.  

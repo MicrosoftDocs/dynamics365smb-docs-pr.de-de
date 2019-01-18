@@ -13,16 +13,16 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="delivering-service"></a>Bereitstellen von Service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  
   
-Ausstehende Serviceaufträge können auch im Fenster **Serviceaufgaben** geprüft werden. In dieser Ansicht der Serviceverpflichtungen wird angezeigt, an welcher Stelle des Serviceworkflows sich der Auftrag befindet, und der Status kann so geändert werden, dass die Interaktionen mit dem Debitor dargestellt werden.  
+Ausstehende Serviceaufträge können auch auf der Seite **Serviceaufgaben** geprüft werden. In dieser Ansicht der Serviceverpflichtungen wird angezeigt, an welcher Stelle des Serviceworkflows sich der Auftrag befindet, und der Status kann so geändert werden, dass die Interaktionen mit dem Debitor dargestellt werden.  
   
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 

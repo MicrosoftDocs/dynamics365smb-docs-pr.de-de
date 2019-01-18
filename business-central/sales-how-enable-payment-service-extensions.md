@@ -11,10 +11,10 @@ ms.search.keywords: online payment
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 883eb47f59a060befc67bdb702053810517fb5a2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: eac58a651989fff8b1d2cc6b6dbed2a380ae8ef8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Gewusst wie: Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr
@@ -26,11 +26,11 @@ Der Microsoft Pay, Paypal-Zahlungs-Standard und die WorldPay-Zahlungsstandarderw
 
 ## <a name="to-enable-a-payment-service-in-included365finincludesd365finmdmd"></a>Einen Zahlungsverkehr in [!INCLUDE[d365fin](includes/d365fin_md.md)] aktivieren
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zahlungsverkehr** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie im Fenster **Zahlungsverkehr** die Aktion **Neu** aus.  
-3. Wählen Sie die Zahlungsverkehr aus und schließen Sie dann das Fenster.  
-4. Wählen Sie im Fenster **Zahlungsverkehr** die Aktion **Einrichten** aus.  
+2. Wählen Sie auf der Seite **Zahlungsverkehr** die Aktion **Neu** aus.  
+3. Wählen Sie die Zahlungsverkehr aus und schließen Sie dann die Seite.  
+4. Wählen Sie auf der Seite **Zahlungsverkehr** die Aktion **Einrichten** aus.  
 5. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-6. Schließen Sie das Fenster.  
+6. Schließen Sie die Seite.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Einen Zahlungsverkehr in einer Verkaufsrechnung auswählen
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufsrechnung** ein, und wählen dann den zugehörigen Link aus.  

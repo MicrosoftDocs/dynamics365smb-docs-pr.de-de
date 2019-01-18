@@ -13,16 +13,16 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 95eb483d261ac4e1f55071ff5d33951ad1fa2a3f
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-sales-opportunities"></a>Verkaufschancen erstellen
 Sie können Chancen für die Verkaufschancen erstellen, die Sie bei Ihren Kontakten haben. Alle Verkaufschancen müssen einem Verkäufer oder Einkäufer zugeordnet sein und einen Kontakt haben.
 
-In dem Fenster **Verkaufschancenübersicht** können Sie Verkaufschancen erstellen. Üblicherweise erstellen Sie Verkaufschancen über bestimmte Kontakte oder Verkäufer.
+Auf der Seite **Verkaufschancenübersicht** können Sie Verkaufschancen erstellen. Üblicherweise erstellen Sie Verkaufschancen über bestimmte Kontakte oder Verkäufer.
 
 Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstellen. Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 

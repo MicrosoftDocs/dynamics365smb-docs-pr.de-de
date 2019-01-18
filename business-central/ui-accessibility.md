@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 65f34ae7fe1665bbe8336e6fe959ac109486531e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Eingabehilfe und Tastenkombinationen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -51,7 +51,7 @@ Dieses Thema enthält Informationen zu den Funktionen, die [!INCLUDE[d365fin](in
 ##  <a name="Navigation"></a> Navigation  
  Sie können zwischen den Registerkarten sowie den Aktionen im Menüband, den Elementen im Navigationsbereich und anderen Steuerelementen auf Seiten [!INCLUDE[d365fin](includes/d365fin_md.md)] und Berichte anhand der Tastatur navigieren. Um den Fokus einer Registerkarte, einer Aktion oder Steuerung zu verschieben, klicken Sie die TAB-TASTE um Vorwärts zu verschieben. Drücken Sie UMSCHALT+TAB zum zurückgehen.  
 
- Durch die Verwendung der Aktivierreihenfolge können Sie zwischen den Hauptbrowserfenster und den Dialogfeldern wechseln, die Bestätigung erfordern, beispielsweise das Fenster Anmeldungen.  
+ Durch die Verwendung der Aktivierreihenfolge können Sie zwischen der Hauptbrowserseite und den Dialogfeldern wechseln, die Bestätigung erfordern, beispielsweise die Seite Fenster "Anmeldungen".  
 
 ##  <a name="Headings"></a> Überschrift  
  Die HTML-Quelle für den [!INCLUDE[d365fin](includes/d365fin_md.md)] Inhalt verwendet Tags, um Benutzern der assistive Technologie zu helfen, die Struktur und den Inhalt der Seite zu erkennen. So werden beispielsweise für Listenseiten die Spalten in den Spaltenüberschriften und die Kategorien festgelegt und werden mit TITEL-Aattribut innerhalb des Tags festgelegt. Caption für Elementen wie Felder, Infoboxen und Inforegister sind in den Überschriftstags enthalten (H1, H2, H3 und H4).  

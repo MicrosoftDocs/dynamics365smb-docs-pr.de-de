@@ -13,20 +13,20 @@ ms.search.keywords: API templates, configuring templates
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2dfa62c765a653986de2069ef26e454928d68ee3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7420bd1b8c1c246b608910a35a47ac025eec6b8b
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="configuring-api-templates"></a>API Vorlagen konfigurieren
-Die API-Bibliothek für [!INCLUDE[d365fin_md](includes/d365fin_md.md)] bietet eine vereinfachte Darstellung der zugrunde liegenden Einheiten. Alle Eigenschaften der Anwendung werden nicht durch die zugeordnete API bereitgestellt. Das Fenster **API Setup** ermöglicht Ihnen, Vorlagen festzulegen, die verwendet werden, um auf eine leere Eigenschaften Einheit zu füllen, wenn Sie eine Beitragsaktion durch die API erstellen. 
+Die API-Bibliothek für [!INCLUDE[d365fin_md](includes/d365fin_md.md)] bietet eine vereinfachte Darstellung der zugrunde liegenden Einheiten. Alle Eigenschaften der Anwendung werden nicht durch die zugeordnete API bereitgestellt. Die Seite **API Einrichten** ermöglicht Ihnen, Vorlagen festzulegen, die verwendet werden, um leere Eigenschaften auf eine Einheit zu füllen, wenn Sie eine Beitragsaktion durch die API erstellen. 
 
 Wenn beispielsweise eine Konfigurationsvorlage für die Artikeleinheit definiert ist, wenn ein Datensatz des neuen Artikels um die API Artikel erstellt wird, werden Eigenschaften für den neuen Artikel, die nicht im API-Aufruf definiert sind, aus der ausgewählten Vorlage definiert. Wenn beispielsweise kein Wert für das Feld **Gen. Prod. Buchungsgruppe** durch die API definiert wird, aber ein Wert in der ausgewählten Vorlage definiert ist, wird der Wert, der in der Vorlage festgelegt wird, vom neuen Artikel übernommen. 
 
 ## <a name="setting-up-the-entity-template"></a>Einrichten der Einheiten-Vorlage
-Um Vorlagen mit der API-Bibliothek zu verwenden, müssen Sie verschiedene Eigenschaften für die Vorlagen anlegen und definieren. Sie können diese Vorlagen im Fenster **Konfigurationsvorlagen** einrichten. Weitere Informationen finden Sie unter [Gewusst wie: Debitorendaten zusammenführen](admin-use-templates-to-prepare-customer-data-for-migration.md). 
+Um Vorlagen mit der API-Bibliothek zu verwenden, müssen Sie verschiedene Eigenschaften für die Vorlagen anlegen und definieren. Sie können diese Vorlagen auf der Seite **Konfigurationsvorlagen** einrichten. Weitere Informationen finden Sie unter [Gewusst wie: Debitorendaten zusammenführen](admin-use-templates-to-prepare-customer-data-for-migration.md). 
 
 ## <a name="assign-the-template-to-an-api"></a>Weisen Sie die Vorlage zu einer API zu
 
@@ -39,7 +39,7 @@ Wenn jeder Vorlage übernommen wird, werden die Feldwerte, die in der Vorlage de
 3. Wählen Sie einen **PageID** Wert. aus.  
 Dieses ist die Seite für die API, für die die Vorlage angewendet wird. Die **Seiten-ID**  Suche bietet eine Übersicht aller APIs, die in derselben Bibliothek verfügbar sind.
 4. Wählen Sie im Feld **Vorlagencode** einen Wert aus.  
-Der Vorlagencode ist der Code für die Vorlage, die im **Konfigurationsvorlagen** definiert wurde. Die definierten Vorlagenwerte werden auf die API übernommen. 
+Der Vorlagencode ist der Code für die Vorlage, die auf der Seite **Konfigurationsvorlagen** definiert wurde. Die definierten Vorlagenwerte werden auf die API übernommen. 
 5. In dem Feld **Bedingungen** geben Sie an, welche Vorlage ausgeglichen werden soll.  
 Die definierte Vorlage wird in einen neuen Datensatz angewendet, der durch die API erstellt wird, wenn die Bedingungen, die im **Bedingungen** Feld definiert werden, durch die Werte erfüllt sind, die bereits für die neue Instanz der Einheit definiert werden.
 

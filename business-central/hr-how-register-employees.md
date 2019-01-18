@@ -13,10 +13,10 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 82191dc19a1a40d8823c8292010e5b01e16f9f64
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 74750011c638cf3733e20d7ab996887108bc2159
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-employees"></a>Erfassen eines Mitarbeiters
@@ -24,15 +24,15 @@ Um die Personalwesenfunktionalität zu verwenden, müssen Sie jeden Mitarbeiter 
 
 Die Mitarbeiterinformationen können jederzeit geändert werden. Sind die Mitarbeiterdatensätze auf dem neuesten Stand, vereinfacht dies personalbezogene Aufgaben. Ändert sich beispielsweise die Adresse eines Mitarbeiters, kann diese Information auf der entsprechenden Mitarbeiterkarte erfasst werden.
 
-Die folgenden Prozeduren beschreiben, wie eine ursprüngliche Mitarbeiterkarte erstellt wird und wie einem Mitarbeiter zwei Arten von Mitarbeiterdetails zugewiesen werden. Darüber hinaus können Sie verschiedene andere zugehörige Informationen zuweisen, wie Qualifikationen und Gründe für Inaktivität. Sie weisen Mitarbeiterinformationen entweder zu, indem Sie ein Feld oder eine Aktion in einem Fenster **Mitarbeiterkarte** auswählen.
+Die folgenden Prozeduren beschreiben, wie eine ursprüngliche Mitarbeiterkarte erstellt wird und wie einem Mitarbeiter zwei Arten von Mitarbeiterdetails zugewiesen werden. Darüber hinaus können Sie verschiedene andere zugehörige Informationen zuweisen, wie Qualifikationen und Gründe für Inaktivität. Sie weisen Mitarbeiterinformationen entweder zu, indem Sie ein Feld oder eine Aktion auf einer Seite **Mitarbeiterkarte** auswählen.
 
 > [!NOTE]  
-> Sie können einem Mitarbeiter seine Ausgaben während Geschäftsaktivitäten erstatten. Dazu müssen Sie die Felder auf dem Inforegister **Zahlungen** im Fenster **Mitarbeiterkarte** ausfüllen. Weitere Informationen finden Sie unter [Erstatten Sie die Ausgaben der Mitarbeiter zurück](finance-how-record-reimburse-employee-expenses.md).
+> Sie können einem Mitarbeiter seine Ausgaben während Geschäftsaktivitäten erstatten. Dazu müssen Sie die Felder auf dem Inforegister **Zahlungen** auf der Seite **Mitarbeiterkarte** ausfüllen. Weitere Informationen finden Sie unter [Erstatten Sie die Ausgaben der Mitarbeiter zurück](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Einen Mitarbeiter einrichten:
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Mitarbeiter** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
-3. Füllen Sie im Fenster **Mitarbeiterkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Füllen Sie auf der Seite **Mitarbeiterkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Das Bild eines Mitarbeiters einfügen:
 Falls Ihnen ein Bild eines Mitarbeiters im .bmp Format vorliegt, können Sie dieses auf der Anlagenkarte einfügen.
@@ -40,7 +40,7 @@ Falls Ihnen ein Bild eines Mitarbeiters im .bmp Format vorliegt, können Sie die
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Mitarbeiter** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die entsprechende Mitarbeiterkarte.
 3. In der Infobox **Mitarbeiter Bild** wählen die Dropdownschaltfläche, und wählen Sie dann **Importieren**.
-4. Im Fenster **Ein Bild zum Hochladen auswählen** wählen Sie die Schaltfläche **Auswählen** aus.
+4. Auf der Seite **Ein Bild zum Hochladen auswählen** wählen Sie die Schaltfläche **Auswählen** aus.
 5. Wählen Sie die Datei aus und wählen Sie dann **Öffnen** aus.
 
 Das Bild wurde jetzt in die Inforbox **Mitarbeiter Bild** importiert.
@@ -53,7 +53,7 @@ Sie können alternative Adressen verwenden, um die Aufenthaltsorte Ihrer Mitarbe
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Mitarbeiter** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die entsprechende Mitarbeiterkarte.
 3. Wählen Sie die **Alternativen-Adressen** Aktion aus.
-4. Füllen Sie im Fenster **Alternative Adressliste** die notwendigen Felder aus.
+4. Füllen Sie auf der Seite **Alternative Adressliste** die notwendigen Felder aus.
 5. Wiederholen Sie Schritt 4 für jede alternative Adresse.
 
 ## <a name="see-also"></a>Siehe auch

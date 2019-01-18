@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eeb73ec964441da0f655b2900e2cb22a1ea492e5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f27608342eb0d91dc956f9d7ebb9887c02be07dc
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-extended-item-text"></a>Hinzufügen von Textbausteinen
@@ -25,11 +25,11 @@ Sie können einen Standardtext für Artikel durch Hinzufügen weiterer Zeilen er
 1. Öffnen Sie die Karte eines Artikels, dem Sie den zusätzlichen Text hinzufügen möchten, und wählen Sie dann die Aktion **Textbaustein** aus.
 2. Geben Sie im Feld **Code** den Code und im Feld **Beschreibung** den gewünschten Text ein.
 3. Wählen Sie **Erweiterte Textbausteine** definieren.
-4. Füllen Sie die Zeilen im Fenster **Textbausteine** mit dem zusätzlichen Text aus.
+4. Füllen Sie die Zeilen auf der Seite **Textbausteine** mit dem zusätzlichen Text aus.
 5. Füllen Sie das Feld **Sprachcode** oder das Feld **Alle Sprachcodes** aus, wenn Sie mit Sprachcodes arbeiten.
 6. Füllen Sie die Felder **Startdatum** und/oder **Enddatum** aus, wenn Sie die Verwendung des Textbausteins zeitlich einschränken möchten.
 7. Wählen Sie die entsprechenden Kontrollkästchen für die Belegarten, für die die Textbausteine gedruckt werden sollen.
-8. Schließen Sie das Fenster.
+8. Schließen Sie die Seite.
 
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Einen erweiterten Elementtext in einer Verkaufsauftragszeile hinzufügen
 1. Öffnen Sie einen Verkaufsauftrag mit einer Verkaufszeile für einen Artikel, die den Textbaustein definiert hat. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)

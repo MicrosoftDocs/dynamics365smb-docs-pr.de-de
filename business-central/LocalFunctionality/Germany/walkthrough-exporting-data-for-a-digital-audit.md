@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f7e710c3c183fdb62ee267326b1a3c9cb8a5fcbc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 20250a4cded759e13d7bbc465172eb8efa6b2651
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-exporting-data-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung exportieren
@@ -49,7 +49,7 @@ Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Daten exportieren** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
-3.  Füllen Sie im Fenster **Datenexporte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+3.  Füllen Sie auf der Seite **Datenexporte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -60,9 +60,9 @@ Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie
 
     Als Nächstes fügt Cassie Beschreibungen der Art der Daten hinzu, die sie im Export benötigt.  
 
-4.  Wählen Sie auf der Registerkarte **Datenexport** in der Gruppe Start die Option D**efinitionen aufzeigen** aus.  
-5.  Im Fenster **Datenexport - Datensatzdefinitionen** wählen Sie das Feld **Datensatzcode**, und wählen Sie dann in dem Fenster, das erscheint **Neu** aus.  
-6.  Füllen Sie im Fenster **Datenexport - Berichtsarten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+4.  Wählen Sie auf der Seite **Datenexport** in der Gruppe Start die Option D**efinitionen aufzeigen** aus.  
+5.  Auf der Seite **Datenexport - Datensatzdefinitionen** wählen Sie das Feld **Datensatzcode**, und wählen Sie dann in dem Fenster, das erscheint **Neu** aus.  
+6.  Füllen Sie auf der Seite **Datenexport - Berichtsarten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -70,7 +70,7 @@ Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie
     |**Beschreibung**|Die Beschreibung für den Datensatztyp, **Sach-, Debitor-. verkaufen**.|  
 
 7.  Wählen Sie die Schaltfläche **OK** aus.  
-8.  Füllen Sie im Fenster **Datenexport - Berichtsartendefinition** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+8.  Füllen Sie auf der Seite **Datenexport - Berichtsdefinitonen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -88,8 +88,8 @@ Danach definiert Cassie die Quelle für die zu exportierenden Daten. Sie weiß v
 
 ### <a name="to-specify-requirements-for-the-source-for-the-data-export"></a>Um Anforderungen für die Quelle für den Datenexport festzulegen  
 
-1.  Wählen Sie auf der Registerkarte **Datenexport-Definitionen aufzeichnen** in der Gruppe Start die Option **Quelle aufzeigen** aus.  
-2.  Im **Datenexport - Datensatzherkunft** im Fenster **Tabellennr.** Feld geben Sie **15** ein.  
+1.  Wählen Sie auf der Seite **Datenexport-Definitionen aufzeichnen** in der Gruppe Start die Option **Quelle aufzeigen** aus.  
+2.  Im **Datenexport - Datensatzherkunft** auf der Seite **Tabellennr.** Feld geben Sie **15** ein.  
 
     Der Name der untergeordneten Tabelle wird automatisch im Feld **Tabellenname** mit dem **Finanzbuchhaltungskonto** aktualisiert.  
 
@@ -112,16 +112,16 @@ Zuerst fügt Sean die erforderliche .dtd-Datei der Datensatzdefinition des Daten
 
 ### <a name="to-add-a-dtd-file-to-a-record-definition"></a>So fügen Sie eine .dtd-Datei einer zugehörigen Berichtsdefinirion hinzu  
 
-1.  Im Fenster **Datenexporte** wählen Sie den Datenexport**AUDIT-Q113** und wählen die Aktion **Datensatzdefinitionen**.  
-2.  Im Fenster **Datenexport - Datensatzdefinitionen** wählen Sie die Zeile, in der das Feld **Datenexport - Datensatz-Typcode** auf **GLCUSTVEND** gesetzt ist und wählen dann **Importieren** aus.  
-3.  Wählen Sie im Fenster **Importieren** die DTD-Datei aus, die den Workflow enthält, und wählen Sie dann die Schaltfläche **Öffnen**.  
+1.  Auf der Seite **Datenexporte** wählen Sie den Datenexport**AUDIT-Q113** und wählen die Aktion **Datensatzdefinitionen**.  
+2.  Auf der Seite **Datenexport - Datensatzdefinitionen** wählen Sie die Zeile, in der das Feld **Datenexport - Datensatz-Typcode** auf **GLCUSTVEND** gesetzt ist und wählen dann **Importieren** aus.  
+3.  Wählen Sie auf der Seite **Importieren** die DTD-Datei aus, die den Workflow enthält, und wählen Sie dann die Schaltfläche **Öffnen**.  
 
 Als Nächstes fügt Sean der Quelle die Tabelle **Sachposten** hinzu. Dann fügt er Felder aus dieser Tabelle und aus der Tabelle **Sachkonto** hinzu.  
 
 ### <a name="to-add-the-gl-entry-table-to-the-data-export-record-source"></a>Um die Sachkontotabelle der Datenexportherkunft hinzuzufügen  
 
-1.  Im Fenster **Datenexport - Datensatzdefinitionen** wählen Sie die Zeile, in der das Feld **Datenexport - Datensatz-Typcode** auf **GLCUSTVEND** gesetzt ist und wählen dann **Datenquelle aufzeichnen** aus.  
-2.  Im Fenster **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto** und wählen dann die Aktion **Neu** aus.  
+1.  auf der Seite **Datenexport - Datensatzdefinitionen** wählen Sie die Zeile, in der das Feld **Datenexport - Datensatz-Typcode** auf **GLCUSTVEND** gesetzt ist und wählen dann **Datenquelle aufzeichnen** aus.  
+2.  auf der Seite **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto** und wählen dann die Aktion **Neu** aus.  
 3.  In der **Tabellennummer** Feld geben Sie **17** ein.  
 
     Der Name der untergeordneten Tabelle wird automatisch im Feld **Tabellenname** mit dem **Finanzbuchhaltungskonto** aktualisiert.  
@@ -131,7 +131,7 @@ Als Nächstes fügt Sean der Quelle die Tabelle **Sachposten** hinzu. Dann fügt
     Dieses rückt die Tabelle **Sachposten** unter der Tabelle **Sachkonto** ein. Als Nächstes fügt Sean eine Tabellenbeziehung zwischen den beiden Tabellen hinzu.  
 
 5.  Wählen Sie die Aktion **Beziehung** aus.  
-6.  Füllen Sie im Fenster **Datenexport - Berichtsarten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+6.  Füllen Sie auf der Seite **Datenexport - Berichtsarten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -142,7 +142,7 @@ Als Nächstes fügt Sean der Quelle die Tabelle **Sachposten** hinzu. Dann fügt
 
 ### <a name="to-add-fields-from-the-gl-account-and-gl-entry-tables-to-the-data-export-record-source"></a>So fügen Sie Felder aus den Sachkonten und Sachpostentabellen der Datenexport-Datensatzquelle hinzu.  
 
-1.  Im Fenster **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto** und wählen dann die Aktion **Hinzufügen** aus.  
+1.  Auf der Seite **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto** und wählen dann die Aktion **Hinzufügen** aus.  
 2.  Füllen Sie die relevanten Felder aus, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     |Feldnummer|Name des Felds|  
@@ -153,7 +153,7 @@ Als Nächstes fügt Sean der Quelle die Tabelle **Sachposten** hinzu. Dann fügt
     |31|**Saldo bis Datum**|  
     |32|**Bewegung**|  
 
-3.  Im Fenster **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto** und dann auf der Registerkarte **Felder** wählen Sie **Hinzufügen** aus.  
+3.  Auf der Seite **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto** und dann auf der Registerkarte **Felder** wählen Sie **Hinzufügen** aus.  
 4.  Füllen Sie die relevanten Felder aus, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     |Feldnummer|Name des Felds|  
@@ -166,10 +166,10 @@ Sean hat das Feld **Buchungsdatum** aus der Tabelle **Sachposten** hinzugefügt,
 
 ### <a name="to-add-a-period-filter-to-a-table-in-a-data-export-source"></a>Um einen Periodenfilter einer Tabelle in einer Datenexportquelle hinzuzufügen  
 
-1.  Im Fenster **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto**und dann auf der Registerkarte Felder wählen Sie **Periodenfeld-Nr.** aus.  
-2.  Im Fenster **Datenexport Felderübersicht** wählen Sie das Feld **Buchungsdatum**, und wählen Sie dann die Schaltfläche **OK** aus.  
+1.  Auf der Seite **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto**und dann auf der Registerkarte Felder wählen Sie **Periodenfeld-Nr.** aus.  
+2.  Auf der Seite **Datenexport Felderübersicht** wählen Sie das Feld **Buchungsdatum**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
-    Das Fenster **Datenexport-Felderübersicht** wird gefiltert, um nur die Datumsfelder anzuzeigen.  
+    Die Seite **Datenexport-Felderübersicht** wird gefiltert, um nur die Datumsfelder anzuzeigen.  
 
 Das bedeutet, dass, wenn Cassie die Daten exportiert und dem Startdatum und dem Enddatum der Periode anzeigt, welche die Auditoren möchten, dass der Export Posten enthält, in denen das Feld **Buchungsdatum** auf dem festgelegten Startdatum und Enddatum ist.  
 
@@ -177,7 +177,7 @@ Als Nächstes fügt Sean die Tabellen **Debitor** und **Kreditor** hinzu.
 
 ### <a name="to-add-the-customer-table"></a>Um die Kundentabelle hinzuzufügen  
 
-1.  Füllen Sie im Fenster **Datenexport - Berichtsquelle** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+1.  Füllen Sie auf der Seite **Datenexport - Berichtsquelle** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -219,7 +219,7 @@ Sean hat die Tabelle **Debitor** der Datenexportquelle hinzugefügt. Nun fügt e
 
 ### <a name="to-add-the-vendor-table"></a>Um die Kundentabelle hinzuzufügen  
 
-1.  Füllen Sie im Fenster **Datenexport - Berichtsquelle** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+1.  Füllen Sie auf der Seite **Datenexport - Berichtsquelle** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -254,7 +254,7 @@ Cassie möchte Daten exportieren, die sie anschließend den Steuerprüfern sende
 ### <a name="to-export-data"></a>Daten exportieren  
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Geschäftsdaten exportieren** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Füllen Sie im Stapelverarbeitungsauftrag **Datenexport** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+2.  Füllen Sie auf der Seite **Geschäftsdaten exportieren** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  

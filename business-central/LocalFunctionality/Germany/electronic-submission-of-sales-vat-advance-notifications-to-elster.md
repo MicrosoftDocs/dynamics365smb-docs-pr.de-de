@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b28ffd93f97c959af351724f431a0411149c36f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae9f4f6b8879b01b6b54aeef4b855b6ad9eb2e23
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="electronic-submission-of-sales-vat-advance-notifications-to-elster"></a>Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER
@@ -45,9 +45,9 @@ ELSTER benötigt Zertifikate, um das Unternehmen und die Person zu identifiziere
 - Das öffentliche Zertifikat der Finanzämter.  
 - Ein persönliches PFX-Zertifikat für diesen Benutzer.  
 
-Sie müssen dann die Benutzer und die Anzeigenamen der Zertifikate im Fenster **Zertifikate** aufführen. Weitere Informationen darüber, wie ein Zertifikat installiert wird und wie Sie den Anzeigenamen suchen, finden Sie in der Hilfe zum Betriebssystem.  
+Sie müssen dann die Benutzer und die Anzeigenamen der Zertifikate auf der Seite **Zertifikate** aufführen. Weitere Informationen darüber, wie ein Zertifikat installiert wird und wie Sie den Anzeigenamen suchen, finden Sie in der Hilfe zum Betriebssystem.  
 
-Wenn Sie einen Proxyserver verwenden, um die ELSTER-Dokumente zu senden, müssen Sie die Einstellungen im Fenster **Elektronische Umsatzsteuererklärung – Einrichtung** angeben.  
+Wenn Sie einen Proxyserver verwenden, um die ELSTER-Dokumente zu senden, müssen Sie die Einstellungen auf der Seite **Elektronische Umsatzsteuererklärung – Einrichtung** angeben.  
 
 Weitere Informationen finden Sie unter [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
 
@@ -59,18 +59,18 @@ Ihr Unternehmen muss sich im ELSTER-Onlineportal registrieren, sodass Sie die er
 
 Nachdem Sie sich im ELSTER-Onlineportal registriert haben, müssen Sie ein persönliches Zertifikat erwerben. Sie müssen auch das öffentliche Zertifikat der Finanzämter und die Formatvorlagen herunterladen, die für die Datenübermittlungen benötigt werden. Wenn Sie das persönliche Zertifikat auf dem Computer des Benutzers installieren, werden Sie aufgefordert, ein Kennwort anzugeben.  
 
-Das öffentliche Zertifikat der Finanzämter steht zum Download vom ELSTER-Onlineportal zur Verfügung. Der aktuelle Dateiname ist Coala2019.pem.cer.  
+Das öffentliche Zertifikat der Finanzämter steht zum Download vom ELSTER-Onlineportal zur Verfügung. Der aktuelle Dateiname ist Kontoplanla2019.pem.cer.  
 
 Das persönliche PFX-Zertifikat wird benötigt, um den Benutzer deutlich zu identifizieren, der die Belege an das Finanzamt übermittelt. Das persönliche Zertifikat enthält eine digitale Signatur, die in den übermittelten XML-Dateien enthalten ist. Der Name des Benutzers, der die Dateien übermittelt hat, ist auch enthalten.  
 
-Sie müssen alle relevanten Formatvorlagen herunterladen, die die Finanzämter zur Verfügung stellen. Dazu gehört die Formatvorlage ustva.xsl, die Sie im Fenster **MwSt.-Voranmeldungskarte** angeben müssen, aber die Finanzämter benötigen möglicherweise zusätzliche Formatvorlagen, die sich im selben Ordner, wie die Formatvorlage ustva.xsl befinden müssen.  
+Sie müssen alle relevanten Formatvorlagen herunterladen, die die Finanzämter zur Verfügung stellen. Dazu gehört die Formatvorlage ustva.xsl, die Sie auf der Seite **MwSt.-Voranmeldungskarte** angeben müssen, aber die Finanzämter benötigen möglicherweise zusätzliche Formatvorlagen, die sich im selben Ordner, wie die Formatvorlage ustva.xsl befinden müssen.  
 
 Weitere Informationen finden Sie unter [ELSTER-Onlineportal](https://go.microsoft.com/fwlink/?LinkId=155998)  
 
 ## <a name="transmissions"></a>Übermittlungen  
-Im Fenster **MwSt-Voranmeldungsübersicht**” können Sie Mehrwertsteuerrvoranmeldungen erstellen und senden. Wenn Sie ein Dokument erstellen, können Sie dieses in der Vorschau anzeigen, bevor Sie es an das ELSTER-Portal senden. Die Dokumente, die erstellt werden, basieren auf den XML-Formatvorlagen, die im ELSTER-Portal veröffentlicht werden, und auf dem Zertifikat und anderen Informationen, die Sie in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eingerichtet haben .  
+Auf der Seite **MwSt-Voranmeldungsübersicht**” können Sie Mehrwertsteuerrvoranmeldungen erstellen und senden. Wenn Sie ein Dokument erstellen, können Sie dieses in der Vorschau anzeigen, bevor Sie es an das ELSTER-Portal senden. Die Dokumente, die erstellt werden, basieren auf den XML-Formatvorlagen, die im ELSTER-Portal veröffentlicht werden, und auf dem Zertifikat und anderen Informationen, die Sie in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eingerichtet haben .  
 
-Nachdem Sie ein Dokument an ELSTER gesendet haben, wird ein Eintrag im Fenster **MwSt.-Übertragungsprotokollposten** vorgenommen. Wenn das ELSTER-Onlineportal das übertragene Dokument verarbeitet hat, können Fehler auftreten und  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zeigt eine Fehlermeldung an, die auf dem Fehlercode aus ELSTER basiert. In den meisten Fällen wird der Fehler durch Probleme mit dem benutzerspezifischen Zertifikat oder der Netzwerkkonnektivität verursacht. Weitere Informationen finden Sie unter [Fehlermeldungen des ElsterTransferHandler und ELSTER-Übertragungsüberblick](error-messages-of-the-elstertransferhandler.md).
+Nachdem Sie ein Dokument an ELSTER gesendet haben, wird ein Eintrag auf der Seite **MwSt.-Übertragungsprotokollposten** vorgenommen. Wenn das ELSTER-Onlineportal das übertragene Dokument verarbeitet hat, können Fehler auftreten und  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zeigt eine Fehlermeldung an, die auf dem Fehlercode aus ELSTER basiert. In den meisten Fällen wird der Fehler durch Probleme mit dem benutzerspezifischen Zertifikat oder der Netzwerkkonnektivität verursacht. Weitere Informationen finden Sie unter [Fehlermeldungen des ElsterTransferHandler und ELSTER-Übertragungsüberblick](error-messages-of-the-elstertransferhandler.md).
 
 ## <a name="see-also"></a>Siehe auch  
  [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)   

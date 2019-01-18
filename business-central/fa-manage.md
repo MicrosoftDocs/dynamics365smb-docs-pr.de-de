@@ -13,10 +13,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 37e71ef201b771b13fc4393f9a6c3ffab91de163
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
 ms.contentlocale: de-de
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fixed-assets"></a>Anlagen
@@ -31,7 +31,7 @@ Für jede Anlage können Sie die Wartungskosten und das nächste Servicedatum er
 Jede Anlage kann mit Versicherungspolicen verknüpft werden. Daher haben Sie die Möglichkeit zu überprüfen, ob die Deckungsbeiträge in den Versicherungspolicen mit dem Wert der Anlagen übereinstimmen. Damit ist auch die Möglichkeit gegeben, die jährlichen Versicherungsprämien zu prüfen.
 
 > [!NOTE]  
->   Hinweis: Sie können Anlagentransaktionen im Fenster **Anlagen Fibu Buch.-Blatt** oder im Fenster **Anlagen Buch - Blatt** erfassen, abhängig davon, ob die Transaktionen für Finanzberichte oder zur internen Verwaltung bestimmt sind. Die Hilfe zu den Anlagen beschreibt lediglich, wie das Fenster **Anlagen Fibu Buch.-Blatt** verwendet wird. Weitere Informationen finden Sie unter [Anlagen-AfA-Bücher automatisch einrichten](fa-how-setup-depreciation.md).
+>   Hinweis: Sie können Anlagentransaktionen auf der Seite **Anlagen Fibu Buch.-Blatt** oder auf der Seite **Anlagen Buch - Blatt** erfassen, abhängig davon, ob die Transaktionen für Finanzberichte oder zur internen Verwaltung bestimmt sind. Die Hilfe zu den Anlagen beschreibt lediglich, wie das Fenster **Anlagen Fibu Buch.-Blatt** verwendet wird. Weitere Informationen finden Sie unter [Anlagenabschreibung einrichten](fa-how-setup-depreciation.md).
 
 Bevor Sie mit dem Verwalten von Anlagen beginnen können, müssen Sie Standardwerte, Anlagenbuchungen, Buchungsgruppen, Verteilungsschlüsseln, Buch.-Blätter und Buchungsarten einrichten. Weitere Informationen finden Sie unter [Einrichten von Anlagen](fa-setup.md).
 

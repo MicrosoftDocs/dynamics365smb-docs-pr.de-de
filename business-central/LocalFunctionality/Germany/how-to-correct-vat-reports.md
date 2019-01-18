@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f5215a1e52765093c83ba20495f42d454618c387
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a3b674d28136fea9062b3c6bb74caa8874bf00c5
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="correct-vat-reports"></a>Zu korrigierender MwSt.-Bericht
@@ -33,7 +33,7 @@ Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechn
     > [!NOTE]  
     >  Wenn Sie den Betrag für einen Debitor oder Keditor manuell geändert haben, wird dieser Betrag überschrieben, wenn zusätzliche MwSt-Posten gebucht werden. Aktualisieren Sie den Betrag entsprechend.  
 
-2.  Wenn Sie den Betrag einer Berichtszeile ändern möchten, die bereits übermittelt wurde und keine neuen MwSt-Posten gebucht werden, wählen Sie **Zeilen korrigieren** in der Gruppe Verarbeiten aus. Wählen Sie im Fenster **MwST-Berichtszeilen** die zu korrigierenden Lieferzeilen aus, und klicken Sie auf **OK**.  
+2.  Wenn Sie den Betrag einer Berichtszeile ändern möchten, die bereits übermittelt wurde und keine neuen MwSt-Posten gebucht werden, wählen Sie **Zeilen korrigieren** in der Gruppe Verarbeiten aus. Wählen Sie auf der Seite **MwST-Berichtszeilen** die zu korrigierenden Lieferzeilen aus, und klicken Sie auf **OK**.  
 
     Für jeden Posten werden zwei Zeilen angezeigt: Stornierung oder Korrektur. Sie können jetzt den Betrag der Korrekturzeile ändern.  
 

@@ -1,6 +1,6 @@
 ---
 title: "Vorgehensweise: Erstellen von Serviceaufträgen | Microsoft Docs"
-description: "Im Fenster **Serviceauftrag** können Sie Belege erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben."
+description: "Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 92cfc39fffeb616e69dcd4b32a83b44197c6fa27
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: feef01ffa2afa33a91b5db26c94842699c215dab
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-orders"></a>Erstellen von Serviceaufträgen
-Im Fenster **Serviceauftrag** können Sie Belege erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben.  
+Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben.  
 
 Wenn Sie einen Serviceauftrag erstellen, müssen Sie nur einige wenige Felder ausfüllen. Einige Felder sind optional und viele werden automatisch ausgefüllt, wenn Sie die damit verknüpften Felder ausfüllen.  
 
@@ -29,11 +29,11 @@ Wenn Sie einen Serviceauftrag erstellen, müssen Sie nur einige wenige Felder au
 2. Erstellen Sie einen neuen Serviceauftrag.  
 3. Geben Sie im Feld **Nr.** eine Nummer für den Serviceauftrag ein.  
 
-     Wenn Sie im Fenster **Service Einrichtung** Nummernserien für Serviceaufträge definiert haben, drücken Sie EINGABE, um die nächste verfügbare Serviceauftragsnummer auszuwählen.  
+     Wenn Sie auf der Seite **Service Einrichtung** Nummernserien für Serviceaufträge definiert haben, drücken Sie EINGABE, um die nächste verfügbare Serviceauftragsnummer auszuwählen.  
 
 4. Klicken Sie im Feld **Debitorennr.** Feld wählen Sie den relevanten Debitoren aus der Liste. Die für den Debitor relevanten Felder werden mit den Informationen aus der Tabelle **Debitor** ausgefüllt.  
 
-5. Abhängig von den Einstellungen auf dem Inforegister **Pflichtfelder** im Fenster  **Service Einrichtung** muss das Feld **Serviceauftragsart** auf dem Inforegister **Verkäufercode** ausgefüllt werden.  
+5. Abhängig von den Einstellungen auf dem Inforegister **Pflichtfelder** auf der Seite **Service Einrichtung** muss das Feld **Serviceauftragsart** auf dem Inforegister **Verkäufercode** ausgefüllt werden.  
 6. Optional können Sie die restlichen Felder ausfüllen.  
 7. Erfassen Sie die Serviceartikelzeilen.  
 
@@ -45,7 +45,7 @@ Serviceaufträge können für die Wartung von Serviceartikeln aus Verträgen ang
 3. Füllen Sie auf dem Inforegister **Optionen** die Felder **Startdatum** und **Enddatum** mit dem Startdatum und dem Enddatum der Periode aus, für die Sie Serviceaufträge erstellen möchten. Die Stapelverarbeitung erzeugt Serviceaufträge mit Serviceartikeln aus Serviceverträgen mit einem Datum des Typs "Nächster geplanter Service am" innerhalb dieser Periode.  
 
     > [!NOTE]  
-    >  Die Anzahl der Tage, die Sie als Zeitraum für diese Stapelverarbeitung verwenden können, ist eingeschränkt. Sie können diese Begrenzung im Feld **Serviceaufträge max. Tage** im Fenster **Service Einrichtung** festlegen.  
+    >  Die Anzahl der Tage, die Sie als Zeitraum für diese Stapelverarbeitung verwenden können, ist eingeschränkt. Sie können diese Begrenzung im Feld **Serviceaufträge max. Tage** auf der Seite **Service Einrichtung** festlegen.  
 
 4. Wählen Sie im Feld **Aktion** den Eintrag **Serviceauftrag erstellen** aus.  
 
@@ -65,9 +65,9 @@ Sie können überprüfen, ob ein Artikel, den Sie für einen Auftrag benötigen,
 2. Führen Sie einen der folgenden Schritte aus:  
 
     * Für einen bestimmten Auftrag wählen Sie den Auftrag und dann die **Bedarfsübersicht** Aktion aus.  
-    * Für alle Aufträge wählen Sie **Beleg anzeigen** aus. Das Fenster **Serviceauftrag** wird geöffnet.  
+    * Für alle Aufträge wählen Sie **Beleg anzeigen** aus. Die Seite **Serviceauftrag** wird geöffnet.  
 
-3. Erweitern Sie im Fenster **Bedarfsübersicht** die Artikelgruppierung, und zeigen Sie Informationen über die Verfügbarkeit des Artikels an. Beispielsweise wird angezeigt, wie viele Artikel sich im Lager befinden. Sie können auch feststellen, ob und wann ein Artikel verfügbar ist, ob er sich in Rückstand befindet (das heißt, ob die Herkunftsart = Einkauf ist) oder ob er reserviert wurde.
+3. Erweitern Sie auf der Seite **Bedarfsübersicht** die Artikelgruppierung, und zeigen Sie Informationen über die Verfügbarkeit des Artikels an. Beispielsweise wird angezeigt, wie viele Artikel sich im Lager befinden. Sie können auch feststellen, ob und wann ein Artikel verfügbar ist, ob er sich in Rückstand befindet (das heißt, ob die Herkunftsart = Einkauf ist) oder ob er reserviert wurde.
 
 ## <a name="to-reserve-an-item-for-a-service-order"></a>So reservieren Sie einen Artikel für einen Serviceauftrag:
 Wenn Sie sicher sein müssen, dass ein Artikel für einen Serviceauftrag verfügbar ist, können Sie den Artikel reservieren.
@@ -75,8 +75,8 @@ Wenn Sie sicher sein müssen, dass ein Artikel für einen Serviceauftrag verfüg
 1. Geben Sie im Feld **Suchen** **Serviceaufträge** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie das Menü Bestellung, und wählen Sie dann **Bearbeiten**.  
 3. Wählen Sie **Aktionen** , **Auftrag**, und klicken Sie anschließend auf **Servicezeilen**.  
-4. Im Fenster **Servicezeilen** wählen Sie den zu reservierenden Artikel und die **Reservieren** Aktion aus.  
-5. Im Fenster **Reservierung** wählen Sie **Von aktueller Zeile reservieren** aus.
+4. Auf der Seite **Servicezeilen** wählen Sie den zu reservierenden Artikel und die **Reservieren** Aktion aus.  
+5. Auf der Seite **Reservierung** wählen Sie **Von aktueller Zeile reservieren** aus.
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>So fügen Sie Zeilen basierend auf Standardservicecodes ein  
 Wenn Sie Standardservicecodes eingerichtet und Serviceartikelgruppen zugewiesen haben, können Sie die mit den Standardservicecodes verknüpften Standardzeilen in Servicebelege einfügen. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Standardservicecodes](service-how-setup-service-coding.md)   
@@ -85,21 +85,21 @@ Wenn Sie Standardservicecodes eingerichtet und Serviceartikelgruppen zugewiesen 
 2. Erstellen Sie einen neuen Serviceauftrag.  
 3. Füllen Sie die Felder je nach Bedarf aus.  
 4. Geben Sie in die Serviceartikelzeilen die erforderlichen Informationen ein.  
-5. Wählen Sie die Zeile mit dem Serviceartikel, für den Sie Servicezeilen erstellen möchten, und wählen Sie dann **Std.-Servicecodes abrufen** aus. Das Fenster **Std.-Serviceartikelgr.-Codes** mit den Standardcodes für die Serviceartikelgruppe, die der Zeile entspricht, wird geöffnet.  
+5. Wählen Sie die Zeile mit dem Serviceartikel, für den Sie Servicezeilen erstellen möchten, und wählen Sie dann **Std.-Servicecodes abrufen** aus. Die Seite **Std.-Serviceartikelgr.-Codes** mit den Standardcodes für die Serviceartikelgruppe, die der Zeile entspricht, wird geöffnet.  
 6. Wählen Sie den entsprechenden Code aus, und klicken Sie auf **OK**, um Standardservicezeilen einzugeben.  
 
 > [!NOTE]  
->  Wenn das Feld **Serviceartikelgruppencode** in der Serviceartikelzeile des Belegs leer ist, weist dies darauf hin, dass der Serviceartikel nicht zu einer Serviceartikelgruppe gehört. In diesem Fall enthält das Fenster **Std.-Serviceartikelgr.-Codes** eine Liste aller Standardservicecodes. Sie sollten einen Code aus der Liste auswählen, um Standardservicezeilen in den Beleg einzufügen. Sie können auch aus einer Liste von Standardservicecodes wählen, die einer bestimmten Serviceartikelgruppe zugeordnet sind. Um die Liste anzuzeigen, wählen Sie den entsprechenden Code im Feld **Serviceartikelgruppencode** im Fenster **Standard-Serviceartikelgruppen-Codes** aus.  
+>  Wenn das Feld **Serviceartikelgruppencode** in der Serviceartikelzeile des Belegs leer ist, weist dies darauf hin, dass der Serviceartikel nicht zu einer Serviceartikelgruppe gehört. In diesem Fall enthält die Seite **Std.-Serviceartikelgr.-Codes** eine Liste aller Standardservicecodes. Sie sollten einen Code aus der Liste auswählen, um Standardservicezeilen in den Beleg einzufügen. Sie können auch aus einer Liste von Standardservicecodes wählen, die einer bestimmten Serviceartikelgruppe zugeordnet sind. Um die Liste anzuzeigen, wählen Sie den entsprechenden Code im Feld **Serviceartikelgruppencode** auf der Seite **Standard-Serviceartikelgruppen-Codes** aus.  
 
 ## <a name="to-register-internal-or-public-comments"></a>So erfassen Sie interne oder öffentliche Bemerkungen
 Sie können Bemerkungen hinzufügen, die auf Serviceaufträgen und Serviceangeboten gedruckt werden, um zusätzliche Informationen bereitzustellen. Sie können bis zu 80 Zeichen, einschließlich Leerzeichen, hinzufügen. Wenn Sie mehr Text eingeben müssen, wählen Sie eine andere Zeile aus. Um eine Bemerkung zu registrieren, wählen Sie eine Zeile und die **Bemerkungen** Aktion aus.  
 
 ## <a name="to-delete-invoiced-service-orders"></a>So löschen Sie fakturierte Serviceaufträge  
-Aufträge werden automatisch gelöscht, nachdem diese vollständig fakturiert wurden. Beim Buchen einer Rechnung wird ein entsprechender Posten im Fenster **Gebuchte Servicerechnungen** erstellt. Der gebuchte Beleg kann im Fenster **Gebuchte Servicerechnung** angezeigt werden.  
+Aufträge werden automatisch gelöscht, nachdem diese vollständig fakturiert wurden. Beim Buchen einer Rechnung wird ein entsprechender Posten auf der Seite **Gebuchte Servicerechnungen** erstellt. Der gebuchte Beleg kann auf der Seite **Gebuchte Servicerechnung** angezeigt werden.  
 
-Serviceaufträge werden aber nicht automatisch gelöscht, wenn die Gesamtmenge des Auftrags nicht aus dem eigentlichen Serviceauftrag, sondern im Fenster **Servicerechnung** gebucht wurde. In diesem Fall müssen Sie fakturierte Aufträge, die nicht gelöscht wurden, manuell löschen. Dazu führen Sie die Stapelverarbeitung **Fakturierte Serviceaufträge löschen** aus.  
+Serviceaufträge werden aber nicht automatisch gelöscht, wenn die Gesamtmenge des Auftrags nicht aus dem eigentlichen Serviceauftrag, sondern von der Seite **Servicerechnung** gebucht wurde. In diesem Fall müssen Sie fakturierte Aufträge, die nicht gelöscht wurden, manuell löschen. Dazu führen Sie die Stapelverarbeitung **Fakturierte Serviceaufträge löschen** aus.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **In Rechnung gestellte Serviceaufträge löschen** ein, und wählen dann den zugehörigen Link aus. Das Anforderungsfenster des Batchauftrags **Servicebelegprotok. löschen** wird geöffnet.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **In Rechnung gestellte Serviceaufträge löschen** ein, und wählen dann den zugehörigen Link aus. Das Anforderungsfenster des Batchauftragsseite **Servicebelegprotok. löschen** wird geöffnet.  
 2. Um die zu löschenden Aufträge auszuwählen, können Sie Filter in den Feldern **Nr.**, **Debitorennr.** und **Rech. an Deb.-Nr.** festlegen. Felder.  
 3. Wählen Sie **OK** aus.  
 

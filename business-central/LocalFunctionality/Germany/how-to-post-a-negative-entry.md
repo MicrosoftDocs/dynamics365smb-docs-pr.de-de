@@ -1,22 +1,17 @@
 ---
 title: 'Gewusst wie: Buchen eines negativen Postens'
-description: "Im Feld **Storno** kann ein negativer Soll- anstelle eines Habenbetrags oder ein negativer Haben- anstelle eines Sollbetrags in einem Konto gebucht werden. Zur Einhaltung gesetzlicher Vorschriften wird das Feld standardmäßig in allen Buch.-Blättern angezeigt. Die Felder **Sollbetrag** und **Habenbetrag** enthalten jeweils den ursprünglichen und den stornierten Posten."
-services: project-madeira
-documentationcenter: 
+description: "Im Feld Storno kann ein negativer Soll- anstelle eines Habenbetrags oder ein negativer Haben- anstelle eines Sollbetrags in einem Konto gebucht werden. Zur Einhaltung gesetzlicher Vorschriften in Deutschland wird das Feld standardmäßig in allen Buch.-Blättern angezeigt. Die Felder Sollbetrag und Habenbetrag enthalten jeweils den ursprünglichen und den stornierten Posten."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f074b25225853c1fc43248bc038e97239964fdc3
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 88c839ce8008dea7adf7d3442e54bdef5d54dea2
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="post-a-negative-entry"></a>So buchen Sie einen negativen Posten

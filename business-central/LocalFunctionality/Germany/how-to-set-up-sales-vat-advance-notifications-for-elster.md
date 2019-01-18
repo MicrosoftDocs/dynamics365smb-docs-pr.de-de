@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4db6d9ca8a0a1db6363ace2e7fe4ce7d5daa26ba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f709b8527db84c75dad920122aa2876568c6d7b8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sales-vat-advance-notifications-for-elster"></a>Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für ELSTER
@@ -32,7 +32,7 @@ Sie müssen Komponenten auch vom ELSTER-Portal herunterladen. Weitere Informatio
 ## <a name="to-set-up-company-information"></a>Um Unternehmensinformationen einzurichten:  
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol \"Nach Seite oder Bericht suchen\"") aus, geben Sie **Unternehmensdaten** ein, und wählen Sie dann den verknüpften Link aus.  
-2.  Im Fenster **Firmendaten** im Inforegister **Allgemein**, im Feld **MwSt-Vertreter**, geben Sie die Kontaktperson für MwSt-bezogene Informationen ein.  
+2.  Auf der Seite **Firmendaten** im Inforegister **Allgemein**, im Feld **MwSt-Vertreter**, geben Sie die Kontaktperson für MwSt-bezogene Informationen ein.  
 3.  Füllen Sie im Inforegister **Steuerdienst** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
@@ -56,8 +56,8 @@ Sie müssen Komponenten auch vom ELSTER-Portal herunterladen. Weitere Informatio
 
     Weitere Informationen über ELSTER-Zertifikate finden Sie unter [ELSTER-Onlineportal](https://go.microsoft.com/fwlink/?LinkId=155998).  
 
-    1.  Im Fenster **Zertifikate** im Feld **Benutzer-ID**, geben Sie den Benutzer an, dem Sie die Berechtigung erteilen möchten, Dokumente an ELSTER zu senden.  
-    2.  Wählen Sie die **Elster-Zertifikat hochladen** Aktion aus, und geben Sie die Zertifikatsdatei, z Coala2019.pem.cer an.  
+    1.  Auf der Seite **Zertifikate** im Feld **Benutzer-ID**, geben Sie den Benutzer an, dem Sie die Berechtigung erteilen möchten, Dokumente an ELSTER zu senden.  
+    2.  Wählen Sie die **Elster-Zertifikat hochladen** Aktion aus, und geben Sie die Zertifikatsdatei, z Kontoplanla2019.pem.cer an.  
     3.  Wählen Sie **PFX-Datei hochladen** und geben Sie dort die persönlichen Zertifikatsdatei für diesen Benutzer, wie test-soft-pse.pfx an.  
 
         > [!IMPORTANT]  
@@ -71,8 +71,8 @@ Sie müssen Komponenten auch vom ELSTER-Portal herunterladen. Weitere Informatio
 ## <a name="to-set-up-a-vat-statement-for-sales-vat-advance-notifications"></a>Um MwSt-Berichte für Umsatzsteuervoranmeldungs-Benachrichtigungen einzurichten  
 
 1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **MwSt-Bericht** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Wählen Sie im Fenster **MwSt-Bericht** im Feld **Name**, den Drop-Down-Pfeil.  
-3.  Im Fenster **MwSt.-Abrechnungsnamen** in der Zeile für den entsprechenden MwSt.-Abrechnungsnamen wählen Sie das Feld **Verkaufs MwSt-Benachrichtigung** aus.  
+2.  Wählen Sie auf der Seite **MwSt-Bericht** im Feld **Name**, den Drop-Down-Pfeil.  
+3.  Auf der Seite **MwSt.-Abrechnungsnamen** in der Zeile für den entsprechenden MwSt.-Abrechnungsnamen wählen Sie das Feld **Verkaufs MwSt-Benachrichtigung** aus.  
 
     > [!NOTE]  
     >  Nur ein MwSt.-Abrechnungsname für eine Umsatzsteuervoranmeldung kann gleichzeitig ausgewählt werden. Die MwSt.-Abrechnung muss eine MwSt.-Abrechnungszeile für jede Kennzahl aufweisen, die vom Finanzamt, in der **Zeilennr.** gefordert wird Feld enthält die Kennzahl und das Feld **Betragsart** gibt an, ob es sich um eine Bemessungsgrundlage oder um einen Steuerbetrag handelt. Wenden Sie sich an Ihr Finanzamt, wenn Fragen zu den Schlüsselnummern und ihrer Definition bestehen.  

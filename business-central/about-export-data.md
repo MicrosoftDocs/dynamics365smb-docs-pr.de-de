@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 33ccc1dbe9654245129bdbd760896054c10cd2f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportieren Ihrer Geschäftsdaten nach Excel
@@ -22,6 +22,9 @@ Wenn Sie mit Ihren Daten von [!INCLUDE[d365fin](includes/d365fin_md.md)] in Exce
 
 ## <a name="opening-lists-in-excel"></a>Öffnen von Listen in Excel
 Sie können Daten aus jeder Liste, jedem Arbeitsblatt oder jedem Eintrag in Excel öffnen. Sie öffnen einfach die Seite, die Sie anzeigen möchten, und wählen dann **In Excel öffnen**. Beispielsweise öffnen Sie die Liste der Debitoren (nach **Debitoren** suchen) und wählen Sie dann **In Excel öffnen** aus. Ihr Browser fordert Sie auf, die generierte Excel-Arbeitsmappe zu öffnen oder zu speichern.  
+
+> [!NOTE]
+> Verwenden Sie diese Option, wenn Sie keine Änderungen vornehmen und die Änderungen zurück auf [!INCLUDE[d365fin](includes/d365fin_md.md)] veröffentlichen möchten.  
 
 Jede Liste enthält mehrere Spalten und der Export in Excel enthält sämtliche Spalten, die in Ihrer aktuellen Ansicht enthalten sind. Wenn Sie Spalten hinzufügen oder entfernen möchten, bevor Sie die Liste in Excel öffnen, öffnen Sie das Shortcutmenü für jede mögliche Spalte und geben dann die Spalten an, die angezeigt werden sollen. Diese Liste der Spalten ist für die meisten Listen anders und sie zeigt die Struktur der Datenbank, in der Ihre Daten gespeichert sind. Wenn Sie nicht sicher sind, welche Art der Daten eine bestimmte Spalte enthält, können Sie diese zur Ansicht hinzuzufügen und anschließend entscheiden, ob Sie diese wieder entfernen möchten.  
 
@@ -39,7 +42,7 @@ Sie können alle Seiten exportieren, aber möglicherweise benötigen Sie nicht a
 * Banken  
 * Artikel  
 
-Wenn Sie alle Ihre finanzielle Transaktionen verfügbar haben möchten, sind dies sehr viele Daten. Der Export kann deshalb mehrere Minuten dauern. Die Finanztransaktionen werden im Fenster **Sachposten** angezeigt.  
+Wenn Sie alle Ihre finanzielle Transaktionen verfügbar haben möchten, sind dies sehr viele Daten. Der Export kann deshalb mehrere Minuten dauern. Die Finanztransaktionen werden auf der Seite **Sachposten** angezeigt.  
 
 Es ist empfehlenswert, dass Sie auch erwägen, Daten von den nächsten Seiten zu exportieren:  
 

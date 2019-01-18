@@ -11,10 +11,10 @@ ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 981b7bc6cb61753f14de19b9cc68cac20d7374b5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 70d63dcc678a49fa1854b88bc3ca1f9ec8ecc69f
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-time-sheets-for-jobs"></a>Verwenden von Arbeitszeittabellen für Projekte
@@ -30,7 +30,7 @@ Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie Informationen einri
 Sie können die Stapelverarbeitung **Arbeitszeittabellen erstellen** verwenden, um Arbeitszeittabellen für eine bestimmte Anzahl von Perioden oder Wochen einzurichten. Nachdem eine Arbeitszeittabelle erstellt wurde, kann der Arbeitszeittabellenbesitzer sie öffnen und die Zeit aufzeichnen, die für eine Aufgabe benötigte wurde.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zeitblatt** ein, und wählen dann den zugehörigen Link aus.
-2. Im Fenster **Arbeitszeittabellen-Liste** wählen Sie die Aktion **Arbeitszeittabellen erstellen** aus.
+2. Auf der Seite **Arbeitszeittabellen-Liste** wählen Sie die Aktion **Arbeitszeittabellen erstellen** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -38,13 +38,13 @@ Sie können die Stapelverarbeitung **Arbeitszeittabellen erstellen** verwenden, 
 
 1. Wählen Sie die Schaltfläche **OK** aus.  
 
-Im Fenster **Liste Arbeitszeittabelle** können Sie die erstellten Arbeitszeittabellen anzeigen.
+Auf der Seite **Liste Arbeitszeittabelle** können Sie die erstellten Arbeitszeittabellen anzeigen.
 
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>So kopieren Sie Projektplanzeilen in eine Arbeitszeittabelle:
 Die folgende Vorgehensweise beschreibt, wie Projektplanzeilen einer Arbeitszeittabelle enfach hinzugefügt werden können.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zeitblatt** ein, und wählen dann den zugehörigen Link aus.  
-2. Im Fenster **Arbeitszeittabellen-Liste** wählen Sie eine Arbeitszeittabelle für den entsprechenden Zeitraum aus und wählen Sie dann die Aktion **Arbeitszeittabelle bearbeiten** aus.  
+2. Auf der Seite **Arbeitszeittabellen-Liste** wählen Sie eine Arbeitszeittabelle für den entsprechenden Zeitraum aus und wählen Sie dann die Aktion **Arbeitszeittabelle bearbeiten** aus.  
 3. Wählen Sie die Aktion **Zeilen von Projektplanung erstellen** aus. Jegliche Projektplanzeilen im Arbeitszeittabellenzeitraum werden in die Arbeitszeittabelle für die Person oder die Maschine unter **Ressourcennummer** kopiert.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Um Arbeitstypen festzulegen und einer Arbeitszeittabelle hinzufügen
@@ -53,9 +53,9 @@ Sie können den Arbeitstyp für alle Arbeitszeittabellenzeilen für Projekte fes
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zeitblatt** ein, und wählen dann den zugehörigen Link aus.   
 2. Öffnet die entsprechende Arbeitszeittabelle.
 3. Wählen Sie das Feld **Beschreibung**.  
-4. Im Fenster **Arbeitszeittabellenzeilen-Projekt-Detail** wählen Sie das Feld **Arbeitstypencode** und wählen Sie einen Arbeitstyp aus der Liste aus, wie beispielsweise **Meilen**.  
+4. Auf der Seite **Arbeitszeittabellenzeilen-Projekt-Detail** wählen Sie das Feld **Arbeitstypencode** und wählen Sie einen Arbeitstyp aus der Liste aus, wie beispielsweise **Meilen**.  
 5. Wenn keine Arbeitstypen vorhanden sind, wählen Sie die Aktion **Neu** aus.
-6. Im Fenster **Arbeitstypen** füllen Sie die notwendigen Felder aus.
+6. Auf der Seite **Arbeitstypen** füllen Sie die notwendigen Felder aus.
 7. Wiederholen Sie Schritt 4, um den neuen Arbeitstyp in der Arbeitszeittabelle einzugeben.
 
 ## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>So können Sie Arbeitszeittabellenzeilen in anderen Arbeitszeittabellen wiederverwenden
@@ -77,7 +77,7 @@ Die Arbeitszeittabellenregistrierung wird in Stunden verfolgt, der Standard-Basi
     > [!TIP]  
     >   Sie können die Summe der Arbeitszeittabellenstunden überprüfen, die Sie in die Infobox **Tatsächlich/Budgetiert Zusammenfassung** eingegeben haben.  
 4. Wiederholen Sie Schritt 3 für weitere Arbeitstypen, die die Ressource ausführt.
-5. Wählen Sie die Aktion **Übermitteln** aus und wählen Sie dann die Aktion **Alle offenen Zeilen**, um alle Zeilen zu senden oder **Nur ausgewählte Zeilen**, um nur die Zeilen zu übermitteln, die im Fenster **Arbeitszeittabelle** ausgewählt wurden.  
+5. Wählen Sie die Aktion **Übermitteln** aus und wählen Sie dann die Aktion **Alle offenen Zeilen**, um alle Zeilen zu senden oder **Nur ausgewählte Zeilen**, um nur die Zeilen zu übermitteln, die auf der Seite **Arbeitszeittabelle** ausgewählt wurden.  
 
     > [!NOTE]  
     >   ie können nur Arbeitszeitta‎bellenzeilen senden, für die Sie Zeit eingegeben haben.  
@@ -95,7 +95,7 @@ Eine Arbeitszeittabelle muss zur Genehmigung eingereicht werden, bevor Sie verwe
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zeitblatt-Manager** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie eine Arbeitszeittabelle aus der Liste aus.  
-3. Wählen Sie im Fenster **Arbeitszeittabelle** die Aktion **Genehmigen** aus, und wählen Sie die Aktion **Alle übermittelten Zeilen**, um alle Zeilen zu übermitteln oder **Nur ausgewählte Zeilen**, um nur jene Zeilen zu genehmigen, die im Fenster **Arbeitszeittabelle** ausgewählt wurden.
+3. Wählen Sie auf der Seite **Arbeitszeittabelle** die Aktion **Genehmigen** aus, und wählen Sie die Aktion **Alle übermittelten Zeilen**, um alle Zeilen zu übermitteln oder **Nur ausgewählte Zeilen**, um nur jene Zeilen zu genehmigen, die auf der Seite **Arbeitszeittabelle** ausgewählt wurden.
 4. Wählen Sie die Schaltfläche **OK** aus.  
 5. Wählen Sie die Aktion **Ablehnen** und führen Sie die Schritte 4 bis 5 aus.  
 
@@ -110,7 +110,7 @@ Nachdem Sie eine Arbeitszeittabelle genehmigt oder abgelehnt haben, kann sie nic
 
     > [!NOTE]  
     >   Sie können Zeilen nur erneut öffnen, die den Status **Genehmigt** haben. Sie können keine Zeilen erneut öffnen, die den Status **Abgelehnt** haben. Sie können eine Arbeitszeittabelle nicht erneut öffnen, wenn diese gebucht wurde.  
-3. Wählen Sie im Fenster **Arbeitszeittabelle** die Aktion **Erneut öffnen** aus, und wählen Sie die Aktion **Alle übermittelten Zeilen**, um alle Zeilen erneut zu öffnen oder **Nur ausgewählte Zeilen**, um nur jene Zeilen zu öffnen, die im Fenster **Arbeitszeittabelle** ausgewählt wurden.
+3. Wählen Sie auf der Seite **Erneut öffnen** die Aktion **Genehmigen** aus, und wählen Sie die Aktion **Alle übermittelten Zeilen**, um alle Zeilen erneut zu öffnen oder **Nur ausgewählte Zeilen**, um nur jene Zeilen erneut zu öffnen, die auf der Seite **Arbeitszeittabelle** ausgewählt wurden.
 4. Wählen Sie die Schaltfläche **OK** aus. Der Status der Arbeitszeittabellen, Zeile oder Zeilen wechselt auf **Übermittelt**.  
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Buchen von Arbeitszeittabellenzeilen zu einem Ressourcen-Buch.-Blatt
@@ -121,7 +121,7 @@ Nachdem Sie Arbeitszeittabellenposten für eine Ressource genehmigt haben, könn
 3. Füllen Sie die Felder je nach Bedarf aus.  
 4. Wählen Sie die Schaltfläche **OK** aus. Einträge für Verbrauch werden im Ressourcen Buch.-Blatt erstellt, in dem Sie die Informationen ändern können.  
 5. Wählen Sie die Aktion **Buchen** aus.  
-6. Um die Buchung zu überprüfen, wählen Sie die Aktion **Sachposten** aus. Das Fenster **Ressourcen-Buch.-Blatt** öffnet die Anzeige des Ergebnisses der Buchung des Ressourcen Buch.-Blattes.
+6. Um die Buchung zu überprüfen, wählen Sie die Aktion **Sachposten** aus. Die Seite **Ressourcen-Buch.-Blatt** öffnet die Anzeige des Ergebnisses der Buchung des Ressourcen Buch.-Blattes.
 
 ## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Buchen von Arbeitszeittabellenzeilen in einem Ressourcen-Buch.-Blatt
 Nachdem Sie Arbeitszeittabellenposten für ein Projekt genehmigt haben, können Sie sie in das Projektbuchungsblatt des entsprechenden Projekts buchen.
@@ -134,13 +134,13 @@ Nachdem Sie Arbeitszeittabellenposten für ein Projekt genehmigt haben, können 
     > [!NOTE]  
     >   Informationen über den Arbeitstyp und darüber, ob die Arbeit fakturierbar ist, werden aus der Arbeitszeittabellenzeile kopiert. Bei Bedarf können Sie die Anzahl der Stunden reduzieren und eine Teilbuchung durchführen. Wenn Sie die Anzahl reduzieren, dann wird bei der nächsten Auswahl von **Zeilen anhand von Arbeitszeittabellen vorschlagen** eine Zeile mit der Restmenge der Stunden erstellt.  
 5. Wählen Sie die Aktion **Buchen** aus.  
-6. Um die Buchung zu überprüfen, wählen Sie die Aktion **Sachposten** aus. Das Fenster **Projekt-Buch.-Blatt** öffnet die Anzeige des Ergebnisses der Buchung des Ressourcen Buch.-Blattes.
+6. Um die Buchung zu überprüfen, wählen Sie die Aktion **Sachposten** aus. Die Seite **Projekt-Buch.-Blatt** öffnet die Anzeige des Ergebnisses der Buchung des Ressourcen Buch.-Blattes.
 
 ## <a name="to-archive-time-sheets"></a>So archivieren Sie Arbeitszeittabellen
 Nachdem Sie Arbeitszeittabellen gebucht haben, können Sie diese für spätere Bezugnahme archivieren. Alle Arbeitszeittabellenzeilen müssen gebucht werden, bevor eine Arbeitszeittabelle archiviert werden kann.
 
 > [!NOTE]  
->   Wenn Sie eine Arbeitszeittabelle archivieren, wird sie aus der Liste **Arbeitszeittabelle** und aus der Liste **Arbeitszeittabelle für Manager** entfernt.
+>   Wenn Sie eine Arbeitszeittabelle archivieren, wird sie aus der Seite **Arbeitszeittabelle** und aus der Seite **Arbeitszeittabelle für Manager** entfernt.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zeitblatt-Manager** ein, und wählen dann den zugehörigen Link aus.  
 2. Füllen Sie die anderen relevanten Felder wie erforderlich aus, und wählen Sie dann die Schaltfläche **OK** aus.  

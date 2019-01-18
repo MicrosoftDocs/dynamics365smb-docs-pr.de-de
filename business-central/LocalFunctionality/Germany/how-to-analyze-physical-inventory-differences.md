@@ -13,31 +13,31 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9d97adcd9a93d2eaefafe43974b8f7d1614380c7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 59628d2c4b3714a55e833e091cce621a20811a43
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="analyze-physical-inventory-differences"></a>Vorgehensweise beim Analysieren von Inventurdifferenzen
 Nach Abschluss des Inventurauftrags können Sie die Inventurdifferenzen analysieren.  
 
-Sie können die Differenzen im Fenster "Statistik" anzeigen und als Bericht drucken.  
+Sie können die Differenzen auf der Seite "Statistik" anzeigen und als Bericht drucken.  
 
-## <a name="to-view-the-physical-inventory-statistics-window"></a>So zeigen Sie das Fenster „Inventurstatistik” an  
+## <a name="to-view-the-physical-inventory-statistics-page"></a>So zeigen Sie die Seite "Inventurauftragsstatistik" an  
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol „Nach Seite oder Bericht suchen”"), geben Sie **Bestandsauftrag** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Öffnen Sie den Inventurauftrag, dessen Statistiken Sie anzeigen möchten.  
 3.  Wählen Sie die Aktion **Statistik** aus.  
 
-    Das Fenster **Inventurauftragsstatistiken** wird geöffnet.  
+    Die Seite **Inventurauftragsstatistiken** wird geöffnet.  
 
 ## <a name="to-print-the-phys-inventory-order-difference-list"></a>So drucken Sie die Inventurauftrag-Differenz-Liste  
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol „Nach Seite oder Bericht suchen”"), geben Sie **Bestandsauftrag** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Öffnen Sie den Inventurauftrag, dessen Differenzliste Sie drucken möchten.  
 3.  Wählen Sie die Aktion **Drucken** aus.  
-4.  Wählen Sie im Fenster **Inventur Auftrag Diff. Liste** die Schaltfläche **Drucken** aus, um den Bericht auf Papier zu drucken, oder die wählen Sie die Schaltfläche **Vorschau**, um sie auf dem Bildschirm anzuzeigen.  
+4.  Wählen Sie auf der Seite **Inventur Auftrag Diff. Liste** die Schaltfläche **Drucken** aus, um den Bericht auf Papier zu drucken, oder die wählen Sie die Schaltfläche **Vorschau**, um sie auf dem Bildschirm anzuzeigen.  
 
 ## <a name="see-also"></a>Siehe auch  
  [So schließen Sie einen Inventurauftrag ab](how-to-finish-a-physical-inventory-order.md)   

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 023d8d1bb2f55620db0445ecd5792183ac9e56b6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6df8457b1ccb7bed774ac5be02c6839d6c9a8337
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enter-physical-inventory-orders"></a>Physische Inventuraufträge eingeben
@@ -49,8 +49,8 @@ Beide Stapelverarbeitungen prüfen, ob bereits eine Inventurauftragszeile mit de
 
 ## <a name="to-automatically-add-physical-inventory-order-lines-from-inventory"></a>So fügen Sie automatisch Inventurauftragszeilen aus dem Lagerbestand hinzu  
 
-1.  Im Fenster **Inventurverfolg. Inventurauftrag** wählen Sie die **Zeilen berechnen** Aktion aus.  
-2.  Füllen Sie im Fenster **Inventurauftragszeilen berech.** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+1.  Auf der Seite **Inventurverfolg. Inventurauftrag** wählen Sie die **Zeilen berechnen** Aktion aus.  
+2.  Füllen Sie auf der Seite **Inventurauftragszeilen berech.** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -62,8 +62,8 @@ Beide Stapelverarbeitungen prüfen, ob bereits eine Inventurauftragszeile mit de
 
 ## <a name="to-automatically-add-physical-inventory-order-lines-by-copying-documents"></a>So fügen Sie automatisch Inventurauftragszeilen aus dem Lagerbestand hinzu, indem Sie Dokumente kopieren.  
 
-1.  Im Fenster **Physischer Inventurauftrag** wählen Sie die **Dokument kopieren** Aktion aus.  
-2.  Füllen Sie im Fenster **Inventurauftragszeilen kopieren** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+1.  Auf der Seite **Physischer Inventurauftrag** wählen Sie die **Dokument kopieren** Aktion aus.  
+2.  Füllen Sie auf der Seite **Inventurauftragszeilen kopieren** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  

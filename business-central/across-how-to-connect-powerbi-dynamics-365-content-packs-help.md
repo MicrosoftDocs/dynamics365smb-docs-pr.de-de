@@ -12,10 +12,10 @@ ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 0196bff5dedb878884fd3d6e0208022faa968dfd
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
 ms.contentlocale: de-de
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Power BI mit den Dynamics 365 Business Central-Inhaltspaketen verbinden
@@ -29,7 +29,7 @@ Sie müssen ein gültiges Konto mit Dynamics 365 und Power BI haben. Zudem müss
 
 Sie können auch aus Dynamics 365 Business Edition heraus beginnen. Im Rollencenter navigieren Sie zu **Berichtsauswahl** im Power BI-Rollencenterteil. Wählen Sie entweder **Service** oder **Mein Unternehmen** im Menüband aus. Wenn eine dieser Aktionen ausgewählt wird, gelangen Sie zu der jeweiligen Dienstgalerie in Power BI oder zu der Dienstbibliothek in Power BI, die zudem so gefiltert ist, dass nur Inhaltspakete zu [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] angezeigt werden.
 
-2. Im Feld **Dienste** wählen Sie **Abrufen** aus. Dadurch wird ein Fenster mit **AppSource** und **Apps für Power BI Apps** geöffnet.  
+2. Im Feld **Dienste** wählen Sie **Abrufen** aus. Dadurch wird eine Seite mit **AppSource** und **Apps für Power BI Apps** geöffnet.  
 ![Wählen Sie Inhaltspakete von Onlinediensten aus](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Wählen Sie **Apps** auf der Registerkarte **Apps für Power BI Apps**, wählen Sie das Feld **Microsoft Dynamics 365 Business Central** Inhaltspakete, die Sie verwenden möchten, und wählen Sie dann **jetzt abrufen**.  
 ![Wählen Sie Dynamics 365 Business Central und wählen Sie "Jetzt abrufen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
@@ -55,7 +55,7 @@ Um die Daten [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Power B
 - Excel-Vorlage zur Unternehmensansicht
 - Power BI-Berichtsbeschrifungen
 
-**Microsoft Dynamics 365 Business Central – Finance**
+**Microsoft Dynamics 365 Business Central – Finance**
 - PowerBIFinance
 - Excel-Vorlage zur Unternehmensansicht
 - Power BI-Berichtsbeschrifungen

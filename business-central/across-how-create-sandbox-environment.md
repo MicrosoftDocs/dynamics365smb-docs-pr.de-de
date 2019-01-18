@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6a13eca9f8ad83b82e4b281c9564bdfd0c66f4fb
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -40,7 +40,7 @@ Sie müssen ein Abonnement haben, um [!INCLUDE[d365fin](includes/d365fin_md.md)]
 6. Oben im Rollencenters wird eine Benachrichtigung angezeigt, die bestätigt, dass dies eine Sandkastenumgebung ist. Der Typ dieser Umgebung wird in der Titelleiste des Clients anzeigen.
 ![Sandkasten-Rollencenter-Benachrichtigung](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 In der Sandboxumgebung wurde ein neuer Tenant erstellt. Dieser Tenant wird mit Vorgabe-Demodaten für den CRONUS-Mandanten geladen. Keine Daten werden kopiert oder anderswie von der Fertigungsumgebungen während der Sandkastenerstellung transferiert.
-7.  Jederzeit können Sie zum Fenster **Sandkastenumgebung** zurückkehren und die Sandkastenumgebung zurücksetzen.
+7.  Jederzeit können Sie zur Seite **Sandkastenumgebung** zurückkehren und die Sandkastenumgebung zurücksetzen.
 > [!NOTE]  
 >  Das Zurücksetzen der Sandkastenmgebung, wird sie komplett entfernen und dann wieder erstellt mit den Vorgabe-Demodaten.  
 
@@ -58,7 +58,7 @@ In einer Sandkastenumgebung finden Sie die In-Client Designerfunktion aktiviert,
 ![In-Client Designer](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Aktivieren Sie die erweiterte Benutzererfahrung
-Es ist möglich, die erweiterte (vollständige) Funktion eines Sandkastentenants in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu aktivieren,  indem Sie das Feld **Erfahrung** im Fenster**Firmendaten** einrichten.
+Es ist möglich, die erweiterte (vollständige) Funktion eines Sandkastentenants in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu aktivieren,  indem Sie das Feld **Erfahrung** auf der Seite**Firmendaten** einrichten.
 
 ![Erweiterte Sandkastenumgebung](./media/across-sandbox/sandbox-advanced.png)
 

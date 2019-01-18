@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b5c8a02a6e55e5c7618e9892c4788d88253997b6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cccc2da8158defc9308a3b29b939e9ed7b7080c5
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-physical-inventory-orders"></a>So buchen Sie Inventuraufträge
@@ -35,7 +35,7 @@ Nach dem Buchen des Auftrags können die gebuchten Inventuraufträge angezeigt w
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol „Nach Seite oder Bericht suchen”"), geben Sie **Bestandsauftrag** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie den Inventurauftrag aus, den Sie fertig stellen möchten, klicken Sie auf **Bearbeiten**.  
 
-    Im Fenster **Inventurauftrag** kann die Menge angezeigt werden, die nach Ausführung der Inventur im Feld **Erfasste Menge (Basis)** erfasst wurde.  
+    Auf der Seite **Inventurauftrag** kann die Menge angezeigt werden, die nach Ausführung der Inventur im Feld **Erfasste Menge (Basis)** erfasst wurde.  
 
 3.  Wählen Sie die Schaltfläche **Fertigstellung** aus.  
 4.  Wählen Sie die Schaltfläche **Ja** aus. Der Wert im Feld **Status** wird in **Beendet** geändert.  
@@ -48,12 +48,12 @@ Nach dem Buchen des Auftrags können die gebuchten Inventuraufträge angezeigt w
 ## <a name="to-view-posted-physical-inventory-orders"></a>So zeigen Sie gebuchte Inventuraufträge an  
 
 1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Physische Inventur durchführen** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Wählen Sie im Fenster **Gebuchter Inventurauftrag** den gebuchten Inventurauftrag aus, den Sie anzeigen möchten, klicken Sie auf Aktionen und anschließend auf **Ansicht**.  
+2.  Wählen Sie auf der Seite **Gebuchter Inventurauftrag** den gebuchten Inventurauftrag aus, den Sie anzeigen möchten, klicken Sie auf Aktionen und anschließend auf **Ansicht**.  
 3.  Um einer Liste zugehörige Inventurerfassungen anzuzeigen, wählen Sie die Aktion **Erfassungen** aus.  
 
     Sie können auch einen Bericht ausführen, in dem die Differenz zwischen der erwarteten Menge und der erfassten Menge zurückgegeben wird.  
 
-4.  Schließen Sie das Fenster.  
+4.  Schließen Sie die Seite.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Inventurbelege](physical-inventory-documents.md)   

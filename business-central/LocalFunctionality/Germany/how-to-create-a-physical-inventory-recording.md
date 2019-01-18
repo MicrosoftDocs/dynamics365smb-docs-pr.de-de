@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5bf118b58009e4046c6fba5751d466f4a2798b36
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bfe6bfd24626599ef58eef9912198f8bdc229dcb
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-a-physical-inventory-recording"></a>So erstellen Sie eine physische Inventurerfassung
@@ -31,7 +31,7 @@ In den meisten Fällen verwenden Sie jedoch einen Batchauftrag, um Lagerbestand 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol „Nach Seite oder Bericht suchen”"), geben Sie **Bestandsauftrag** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie den Inventurauftrag aus, für den Sie eine Inventurerfassung erstellen möchten, klicken Sie auf Aktionen und anschließend auf **Bearbeiten**.  
 3.  Um eine Inventurerfassung zu erstellen, wählen Sie die Aktion **Neue Erfassung erstellen** aus.  
-4.  Füllen Sie im Fenster **Neue Inventurerfassung erst.** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+4.  Füllen Sie auf der Seite **Neue Inventurerfassung erst.** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -39,17 +39,17 @@ In den meisten Fällen verwenden Sie jedoch einen Batchauftrag, um Lagerbestand 
     |**Erfassung ohne Auftrag erlaubt**|Wählen Sie diese Option aus, um eine neue Inventurerfassungszeile zu generieren.|  
 
 5.  Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.  
-6.  Wählen Sie die Aktion **Aufzeichnung** aus. Das Fenster "Inventurerfassung" wird angezeigt. Wählen Sie die neu erstellte Inventurerfassung aus.  
+6.  Wählen Sie die Aktion **Aufzeichnung** aus. Die Seite "Inventurerfassung" wird angezeigt. Wählen Sie die neu erstellte Inventurerfassung aus.  
 
     Sie können nun die Inventurliste basierend auf den Daten der aktuellen Inventurerfassung drucken.  
 
 7.  So weisen Sie die **Inventurerfassungsaufzeichnung** zu.  
-8.  Im Fenster **Phys. Invt. Erfassung** legen Sie die entsprechenden Filter fest, und wählen Sie die Schaltfläche **Drucken** aus oder wählen Sie die Schaltfläche **Vorschau** aus.  
+8.  Auf der Seite **Phys. Invt. Erfassung** legen Sie die entsprechenden Filter fest, und wählen Sie die Schaltfläche **Drucken** aus oder wählen Sie die Schaltfläche **Vorschau** aus.  
 
     Optional können Sie die Funktion Physische Stabelverarbeitungs-Inventur verwenden, um die Serien- oder Chargennummern zu erfassen.  
 
-9. Im Fenster **Physische Inventurerfassung** wählen Sie die Inventurerfassungszeile aus, wählen Sie **Funktionen** und dann **Zeile kopieren**.  
-10. Im Fenster **Physische Inventurerfassung kopieren** geben Sie die Anzahl der Kopien an, die von der ausgewählten Zeile erstellt werden sollen, und wählen Sie dann die Schaltfläche **OK** aus.  
+9. Auf der Seite **Physische Inventurerfassung** wählen Sie die Inventurerfassungszeile aus, wählen Sie **Funktionen** und dann **Zeile kopieren**.  
+10. Auf der Seite **Physische Inventurerfassung kopieren** geben Sie die Anzahl der Kopien an, die von der ausgewählten Zeile erstellt werden sollen, und wählen Sie dann die Schaltfläche **OK** aus.  
 
 Sie können die gedruckte physische Inventurerfassung verwenden, um die tatsächliche Menge des am angegebenen Lagerort verfügbaren Artikels zu aktualisieren. Zum Abschließen des Erfassungsprozesses muss das Kontrollkästchen **Erfasst** für alle Inventurerfassungszeilen aktiviert werden.  
 
@@ -59,7 +59,7 @@ Damit ersichtlich ist, dass die Inventurerfassung abgeschlossen wurde, muss der 
 
 1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Physische Inventur durchführen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie den Inventurauftrag aus, den Sie fertig stellen möchten und klicken Sie auf **Bearbeiten**.  
-3.  Geben Sie im Fenster **Inventurerfassung** im Inforegister **Zeilen** im Feld **Menge** für jede Zeile die tatsächliche Artikelmenge ein.  
+3.  Geben Sie auf der Seite **Inventurerfassung** im Inforegister **Zeilen** im Feld **Menge** für jede Zeile die tatsächliche Artikelmenge ein.  
 4.  Aktivieren Sie für jede Zeile das Kontrollkästchen **Erfasst**.  
 5.  Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 

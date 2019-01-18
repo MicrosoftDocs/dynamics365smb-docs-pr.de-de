@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetails: Eingehender Lagerfluss
@@ -62,7 +62,7 @@ Wenn Artikel im Lager erhalten werden, gibt der Benutzer, der für die Lieferung
 Wenn der eingehende Herkunftsbeleg freigegeben wird, wird eine Einlagerungsanforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden.  
 
 ### <a name="3-create-inventory-put-away"></a>3: Erstellen Sie eine neue Lagereinlagerung  
-Im Fenster **Lagereinlagerung** erhält der Lagermitarbeiter im Pull-Verfahren die offenen Herkunftsbelegzeilen basierend auf den eingehenden Lageranfragen. Oder die Einlagerungszeilen wurden bereits, im Push-Verfahren, von dem Benutzer erstellt, der für den Herkunftsbeleg verantwortlich ist.  
+Auf der Seite **Lagereinlagerung** erhält der Lagermitarbeiter im Pull-Verfahren die offenen Herkunftsbelegzeilen basierend auf den eingehenden Lageranfragen. Oder die Einlagerungszeilen wurden bereits, im Push-Verfahren, von dem Benutzer erstellt, der für den Herkunftsbeleg verantwortlich ist.  
 
 ### <a name="4-post-inventory-put-away"></a>4: Lagereinlagerungsübersicht  
 In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** aus und bucht dann die Lagereinlagerung. Herkunftsbelege, die mit der Einlagerung verknüpft sind, werden als eingegangen gebucht.  
@@ -81,7 +81,7 @@ Wenn Artikel im Lager erhalten werden, gibt der Benutzer, der für die Lieferung
 Wenn der eingehende Herkunftsbeleg freigegeben wird, wird eine Einlagerungsanforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden.  
 
 ### <a name="3-create-warehouse-receipt"></a>3: Wareneingang erstellen  
-Im Fenster **Wareneingang** erhält der Benutzer, der für den Wareneingang der Artikel verantwortlich ist, die offenen Herkunftsbelegzeilen basierend auf der eingehenden Lageranfrage. Einige Herkunftsbelegzeilen können zu einem Wareneingangsbeleg zusammengefasst werden.  
+Auf der Seite **Wareneingang** erhält der Benutzer, der für den Wareneingang der Artikel verantwortlich ist, die offenen Herkunftsbelegzeilen basierend auf der eingehenden Lageranfrage. Einige Herkunftsbelegzeilen können zu einem Wareneingangsbeleg zusammengefasst werden.  
 
 Der Benutzer füllt das Feld **Verarbeitungsmenge** aus und wählt die empfangende Zone und den Lagerplatz nach Bedarf aus.  
 
@@ -106,7 +106,7 @@ Wenn alle Einlagerungen geplant und den Lagermitarbeitern zugeteilt sind, erstel
 Der Lagermitarbeiter, der Einlagerungen ausführt, erstellt im Pull-Verfahren einen Einlagerungsbeleg auf Grundlages des gebuchten Wareneingangs. Oder der Einlagerungsbeleg wird erstellt und dem Lagermitarbeiter im Push-Verfahren zugeteilt.  
 
 ### <a name="9-register-warehouse-put-away"></a>9: Wareneingangsverzeichnis  
-In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** im Fenster **Kommissioniervorschlag** aus und erfasst dann die Lagerbestandsumlagerung.  
+In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** auf der Seite **Kommissioniervorschlag** aus und erfasst dann die Lagerbestandsumlagerung.  
 
 Lagerplatzposten werden erstellt, und die Einlagerungszeilen werden gelöscht, wenn sie vollständig bearbeitet sind. Der Einlagerungsbeleg bleibt offen, bis die gesamte Menge des zugehörigen gebuchten Warenzugangs erfasst ist. Das Feld **Menge eingelagert** auf den Wareneingangsauftragszeilen wird aktualisiert.  
 

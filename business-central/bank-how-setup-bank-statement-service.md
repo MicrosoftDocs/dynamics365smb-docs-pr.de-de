@@ -13,14 +13,14 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e3d739a31c2e5a17c6ba3cc4ff1b9f158642051c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 30c0e6ebface6ccfd65cab6bd2ce97a09044ff42
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Einrichten des Envestnet Yodlee Bank-Feed-Service
-Sie können elektronische Bankauszüge von Ihrer Bank importieren, um das Fenster **Zahlungsabstimmungsbuch.-Blatt** schnell auszufüllen und so Zahlungen zu begleichen und das Bankkonto auszugleichen. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Sie können elektronische Bankauszüge von Ihrer Bank importieren, um die Seite **Zahlungsabstimmungsbuch.-Blatt** schnell auszufüllen und so Zahlungen zu begleichen und das Bankkonto auszugleichen. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Der Bankfeeddienst Envestnet Yodlee wird als eine Erweiterung zum [!INCLUDE[d365fin](includes/d365fin_md.md)] eingerichtet und steht zur Aktivierung bereit. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-extensions.md) mithilfe der Erweiterungen .
 
@@ -34,7 +34,7 @@ Wenn Sie den Bankfeeddienst aktiviert haben, müssen Sie das beteiligte Bankkont
 * Bei einem verknüpften Bankkonto muss die Verknüpfung entfernt werden, da Sie den Bankfeeddienst für dieses Konto beenden möchten.
 * Die Onlinebankkonten haben geändert und Sie möchten die Informationen zu den Bankkonten in [!INCLUDE[d365fin](includes/d365fin_md.md)] aktualisieren.
 
-Wenn der Bankfeeddienst aktiviert ist, können Sie ein Bankkonto so einrichten, dass automatisch alle zwei Stunden neue Bankauszüge in das Fenster **Zahlungsabstimmungsbuch.-Blatt** importiert werden. Transaktionen für Zahlungen, die bereits als ausgeführt und/oder abgestimmt im Fenster **Zahlungsabstimmungsbuch.-Blatt** gebucht wurden, werden nicht importiert. Weitere Informationen finden Sie im Abschnitt “So aktivieren Sie das automatische Importieren von Bankauszügen”.
+Wenn der Bankfeeddienst aktiviert ist, können Sie ein Bankkonto so einrichten, dass automatisch alle zwei Stunden neue Bankauszüge in die Seite **Zahlungsabstimmungsbuch.-Blatt** importiert werden. Transaktionen für Zahlungen, die bereits als ausgeführt und/oder abgestimmt auf der Seite **Zahlungsabstimmungsbuch.-Blatt** gebucht wurden, werden nicht importiert. Weitere Informationen finden Sie im Abschnitt “So aktivieren Sie das automatische Importieren von Bankauszügen”.
 
 > [!NOTE]  
 > Wenn Sie die unterstützte Einrichtung über "Unternehmen einrichten" verwenden, werden einige der folgenden Schritte automatisch beim Einrichten von Unternehmensbankkonten ausgeführt. Weitere Informationen finden Sie unter [Erste Schritte](product-get-started.md).
@@ -42,17 +42,17 @@ Wenn der Bankfeeddienst aktiviert ist, können Sie ein Bankkonto so einrichten, 
 ## <a name="to-enable-the-bank-feed-service"></a>So aktivieren Sie den Bankfeeddienst
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Bankkonten** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie das Bankkonto, das Sie für den Bankfeeddienst verwenden werden.
-3. Wählen Sie im Fenster **Bankkonto** im Feld **Format Bankauszugimport** YODLEEBANKFEED aus.  
+3. Wählen Sie auf der Seite **Bankkonto** im Feld **Format Bankauszugimport** YODLEEBANKFEED aus.  
 
 Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen Onlinebankkonto verknüpfen. Siehe das folgende Verfahren.  
 
 ## <a name="to-create-a-new-linked-bank-account"></a>So erstellen Sie ein neues verknüpftes Bankkonto
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Bankkonten** ein, und wählen dann den zugehörigen Link aus.
-2. Wählen Sie das entsprechende Bankkonto aus, und wählen Sie dann **Neues verknüpftes Bankkonto erstellen**. Das Fenster **Bankkontenverknüpfung** wird nach wenigen Augenblicken geöffnet.
+2. Wählen Sie das entsprechende Bankkonto aus, und wählen Sie dann **Neues verknüpftes Bankkonto erstellen**. auf der Seite **Bankkontenverknüpfung** wird nach wenigen Augenblicken geöffnet.
 
     > [!NOTE]  
-    > Dieses Fenster zeigt die tatsächliche Webseite des Bankfeeddienstes Envestnet Yodlee an. Die Terminologie und die Funktionen im Fenster weichen möglicherweise von den Anweisungen ab, die in diesem Thema bereitgestellt werden.  
-3. Verwenden Sie die Suchfunktion im Fenster **Onlinebankkonto-Verknüpfung** im Bereich **Konto verknüpfen**, um die Bank zu suchen, bei der Sie ein oder mehrere Onlinebankkonten haben.
+    > Diese Seite zeigt die tatsächliche Webseite des Bankfeeddienstes Envestnet Yodlee an. Die Terminologie und die Funktionen auf der Seite weichen möglicherweise von den Anweisungen ab, die in diesem Thema bereitgestellt werden.  
+3. Verwenden Sie die Suchfunktion auf der Seite **Onlinebankkonto-Verknüpfung** im Bereich **Konto verknüpfen**, um die Bank zu suchen, bei der Sie ein oder mehrere Onlinebankkonten haben.
 4. Wählen Sie den Banknamen aus. Der Bereich **Anmeldung** wird geöffnet.
 5. Geben Sie den Benutzernamen und das Kennwort, das Sie für die Ameldung bei der Onlinebank verwenden, an, und wählen Sie dann die Schaltfläche **Weiter** .  
 6. Der Bankfeeddienst bereitet die Verknüpfung des ersten Onlinebankkontos der angegebenen Bank mit einem neuen Bankkonto in [!INCLUDE[d365fin](includes/d365fin_md.md)] vor.
@@ -63,20 +63,20 @@ Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen
     Nachdem der Vorgang abgeschlossen ist, erscheint die Bankadresse im Bereich **Meine Konten** auf der Registerkarte **Verknüpft** . Die Nummer in Klammern gibt an, wie viele der Online Bankkonten verknüpft wurden.  
 7. Wählen Sie die Schaltfläche **OK** aus.
 
-    Wenn Sie nur Online ein Bankkonto verknüpfen, wird das Fenster **Bankkontokarte** geöffnet und zeigt den Namen des Online Bankkontos an. In diesem Fall ist die Bankkontoverknüpfung abgeschlossen. Jetzt müssen Sie nur noch das Bankkonto einrichten. Weitere Informationen finden Sie unter [So gehts: Einrichten von Bankkonten](bank-how-setup-bank-accounts.md).
+    Wenn Sie nur Online ein Bankkonto verknüpfen, wird die Seite **Bankkontokarte** geöffnet und zeigt den Namen des Online Bankkontos an. In diesem Fall ist die Bankkontoverknüpfung abgeschlossen. Jetzt müssen Sie nur noch das Bankkonto einrichten. Weitere Informationen finden Sie unter [So geht's: Einrichten von Bankkonten](bank-how-setup-bank-accounts.md).
 
-    Wenn mehr als ein Onlinebankkonto verknüpft wurde, öffnet sich das Fenster **Bankkontenverknüpfung** und die zusätzlichen Onlinebankkonten, die nicht mit den Bankkonten in [!INCLUDE[d365fin](includes/d365fin_md.md)] verknüpft sind, werden aufgelistet. In diesem Fall, folgen Sie dem nächsten Schritt.  
-8. Wählen Sie im Fenster **Bankkontenverknüpfung** die Zeile für ein Onlinebankkonto aus, und wählen Sie dann die Aktion **Mit neuem Onlinebankkonto verknüpfen**.  
+    Wenn mehr als ein Onlinebankkonto verknüpft wurde, öffnet sich die Seite **Bankkontenverknüpfung** und die zusätzlichen Onlinebankkonten, die nicht mit den Bankkonten in [!INCLUDE[d365fin](includes/d365fin_md.md)] verknüpft sind, werden aufgelistet. In diesem Fall, folgen Sie dem nächsten Schritt.  
+8. Wählen Sie die Seite **Bankkontenverknüpfung** die Zeile für ein Onlinebankkonto aus, und wählen Sie dann die Aktion **Mit neuem Onlinebankkonto verknüpfen**.  
 
-    Das Fenster **Bankkontokarte** wird für ein neues Bankkonto geöffnet und der Name des Onlinebankkontos wird angezeigt.
+    Die Seite **Bankkontokarte** wird für ein neues Bankkonto geöffnet und der Name des Onlinebankkontos wird angezeigt.
 
     Wenn in [!INCLUDE[d365fin](includes/d365fin_md.md)] bereits ein Bankkonto vorhanden ist, mit dem Sie das zusätzliche Onlinebankkonto verknüpfen möchten, folgen Sie dem nächsten Schritt.  
-9. Wählen Sie im Fenster **Bankkontenverknüpfung** die Zeile für ein Onlinebankkonto aus, und wählen Sie dann die Aktion **Mit vorhandenem Onlinebankkonto verknüpfen**.
-10. Wählen Sie im Fenster **Bankkontenübersicht** das Bankkonto aus, mit dem Sie eine Verknüpfung erstellen möchten, und klicken Sie anschließend auf **OK**.
+9. Wählen Sie die Seite **Bankkontenverknüpfung** die Zeile für ein Onlinebankkonto aus, und wählen Sie dann die Aktion **Mit bestehendem Onlinebankkonto verknüpfen**.
+10. Wählen Sie auf der Seite **Bankkontenübersicht** das Bankkonto aus, mit dem Sie eine Verknüpfung erstellen möchten, und klicken Sie anschließend auf **OK**.
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>So verknüpfen Sie ein Bankkonto mit einem Onlinebankkonto
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Bankkonten** ein, und wählen dann den zugehörigen Link aus.
-2. Wählen Sie die Zeile des Bankkontos aus, das nicht mit einem Onlinebankkonto verknüpft ist, und wählen Sie dann die Aktion **Verknüpfen mit Onlinebankkonto** . Das Fenster **Onlinebankkonto-Verknüpfung** wird für ein neues Bankkonto geöffnet und der Name des Onlinebankkontos ist bereits im Bereich **Konto verknüpfen** eingefügt.
+2. Wählen Sie die Zeile des Bankkontos aus, das nicht mit einem Onlinebankkonto verknüpft ist, und wählen Sie dann die Aktion **Verknüpfen mit Onlinebankkonto** . Die Seite **Onlinebankkonto-Verknüpfung** wird für ein neues Bankkonto geöffnet und der Name des Onlinebankkontos ist bereits im Bereich **Konto verknüpfen** eingefügt.
 3. Wählen Sie den Banknamen aus. Der Bereich **Anmeldung** wird geöffnet.
 4. Geben Sie den Benutzernamen und das Kennwort, das Sie für die Ameldung bei der Onlinebank verwenden, an, und wählen Sie dann die Schaltfläche **Weiter** .  
 
@@ -85,7 +85,7 @@ Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen
     Wenn der Prozess erfolgreich abgeschlossen ist, erscheint die Bankadresse im Bereich **Meine Konten** auf der Registerkarte **Verknüpft** . Wenn die Bank mehr als ein Bankkonto hat, wird lediglich das Bankkonto, das Sie in Schritt 2 auswählten, verknüpft.  
 5. Wählen Sie die Schaltfläche **OK** aus.
 
-Im Fenster **Bankkontenübersicht** ist das Kontrollkästchen **Verknüpft** aktiviert.
+Auf der Seite **Bankkontenübersicht** ist das Kontrollkästchen **Verknüpft** aktiviert.
 
 ## <a name="to-unlink-a-bank-account"></a>So heben Sie die Verknüpfung mit dem Bankkonto auf
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Bankkonten** ein, und wählen dann den zugehörigen Link aus.  
@@ -98,21 +98,21 @@ Im Fenster **Bankkontenübersicht** ist das Kontrollkästchen **Verknüpft** akt
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Bankkonten** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie das entsprechende Bankkonto aus, und wählen Sie dann die Aktion **Bankkontoverknüpfung aktualisieren**.
 
-Wenn Probleme für ein oder mehrere der verknüpften Bankkonten im Fenster **Bankkontenübersicht** vorhanden sind, wird das Fenster **Bankkontenverknüpfung** geöffnet und zeigt an, welche der Bankkonten Probleme haben. Probleme werden am besten gelöst, indem sie die Verknüpfung mit dem Onlinebankkonto entfernen und dann die Verknüpfung neu erstellen. Weitere Informationen finden Sie im Abschnitt “So verknüpfen Sie ein Bankkonto mit einem Onlinebankkonto“.
+Wenn Probleme für ein oder mehrere der verknüpften Bankkonten auf der Seite **Bankkontenübersicht** vorhanden sind, wird das Fenster **Bankkontenverknüpfung** geöffnet und zeigt an, welche der Bankkonten Probleme haben. Probleme werden am besten gelöst, indem sie die Verknüpfung mit dem Onlinebankkonto entfernen und dann die Verknüpfung neu erstellen. Weitere Informationen finden Sie im Abschnitt “So verknüpfen Sie ein Bankkonto mit einem Onlinebankkonto“.
 
 ## <a name="to-enable-automatic-import-of-bank-statements"></a>So aktivieren Sie das automatische Importieren von Bankauszügen
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Bankkonten** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die Zeile für ein verknüpftes Bankkonto aus, und wählen Sie dann die Aktion **Setup für automatischen Bankauszugsimport** aus.
-3. Geben Sie im Fenster **Setup für automatischen Bankauszugsimport** im Feld **Anzahl der inbegriffenen Tage** an, für wie weit zurück Sie neue Banktransaktionen erhalten.
+3. Geben Sie auf der Seite **Setup für automatischen Bankauszugsimport** im Feld **Anzahl der inbegriffenen Tage** an, für wie weit zurück Sie neue Banktransaktionen erhalten.
 
     > [!NOTE]  
     > Es wird empfohlen diesen Wert auf 7 Tage oder mehr festzulegen.  
 4. Aktivieren Sie das Kontrollkästchen **Aktiviert**.  
 
-Jede Stunde wird das Fenster **Zahlungsabstimmungsbuch.-Blatt** mit allen neuen Zahlungen ausgefüllt, die auf dem Onlinebankkonto getätigt wurden.
+Jede Stunde wird die Seite **Zahlungsabstimmungsbuch.-Blatt** mit allen neuen Zahlungen ausgefüllt, die auf dem Onlinebankkonto getätigt wurden.
 
 > [!NOTE]  
-> Transaktionen für Zahlungen, die bereits als ausgeführt und/oder abgestimmt im Fenster **Zahlungsabstimmungsbuch.-Blatt** gebucht wurden, werden nicht importiert.
+> Transaktionen für Zahlungen, die bereits als ausgeführt und/oder abgestimmt auf der Seite **Zahlungsabstimmungsbuch.-Blatt** gebucht wurden, werden nicht importiert.
 
 ## <a name="see-also"></a>Siehe auch
 [Einrichten von Banken](bank-setup-banking.md)  

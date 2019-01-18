@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b0c576386a88db335a932da9c0bc1141289c57d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>So verschieben Sie Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen
@@ -25,39 +25,39 @@ Wenn die Arbeitsgänge, die den Artikel verarbeiten, an Ihrem Lagerort stattfind
 > [!NOTE]  
 >  Weitere Informationen zum Umlagern von Artikeln ohne Herkunftsbelege finden Sie unter Interne Umlagerung.  
 
-In erweiterten Lagerkonfigurationen, in denen Lagerplätze das Einrichtungsfeld **Gesteuerte Einlag. u. Kommiss.** verwenden, können Sie das Fenster **Lagerplatzumlagerungsvorschlag** verwenden, um die Artikel zwischen Lagerplätzen umzulagern. Weitere Informationen finden Sie unter [Vorgehensweise: Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+In erweiterten Lagerkonfigurationen, in denen Lagerplätze das Einrichtungsfeld **Gesteuerte Einlag. u. Kommiss.** verwenden, können Sie die Seite **Lagerplatzumlagerungsvorschlag** verwenden, um die Artikel zwischen Lagerplätzen umzulagern. Weitere Informationen finden Sie unter [Vorgehensweise: Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 In den Basislagerkonfigurationen, in denen Lagerplätze das Einrichtungsfeld **Lagerplatz notwendig** und das Einrichtungsfeld **Kommissionierung erforderlich** verwenden , können Umlagerungen von Artikeln an interne Vorgangsbereiche basierend auf internen Herkunftsbelegen auf die folgenden Arten gebucht werden:  
 
--   Im Fenster **Lagerbestandsumlagerung**.  
--   Mit dem Fenster **Lagerkommissionierung**.  
+-   Auf der Seite **Lagerbestandsumlagerung**.  
+-   Mit der Seite **Lagerkommissionierung**.  
 
 > [!NOTE]  
->  Lagerkommissionierungen buchen auch negative Artikelposten als Verbrauch und werden nur für Produktionskomponenten unterstützt. Weitere Informationen finden Sie im Fenster Arbeitsblatt Auslieferung.  
+>  Lagerkommissionierungen buchen auch negative Artikelposten als Verbrauch und werden nur für Produktionskomponenten unterstützt. Weitere Informationen finden Sie auf der Seite Arbeitsblatt Auslieferung.  
 
-Ausführliche Informationen zu Lagerbestandsumlagerungen finden Sie im Fenster Lagerbestandsumlagerung  
+Ausführliche Informationen zu Lagerbestandsumlagerungen finden Sie auf der Seite Lagerbestandsumlagerung  
 
 Zwei verschiedene Rollen können die erste Lagerbestandsumlagerung erstellen. Ein Montagearbeiter kann diese beispielsweise aus einem freigegebenen Montageauftrag erstellen, sodass diese in der Liste der offenen Arbeiten des Lagermitarbeiters angezeigt wird. Um eine Lagerbestandsumlagerung für Montageauftragszeilen zu erstellen, die bereit sind, dass Komponenten in ihre festgelegten Lagerplätze umgelagert werden, verwendet der Montagearbeiter die Funktion **Lagerbestandsumlagerung erstellen**.  
 
 Alternativ kann ein Lagermitarbeiter diese erstellen, indem er auf den freigegebenen Montageauftrag verweist. Dies wird im folgender Verfahren beschrieben.  
 
 > [!NOTE]  
->  Wenn die Umlagerung für einen Montageauftrag erfolgt, in dem der Artikel für einen Auftrag montiert wird, dann können Sie festlegen, dass der Lagerbestandsumlagerungsbeleg automatische erstellt wird, wenn Sie den Lagerkommissionierungsbeleg für den fertigen Montageartikel erstellen, der die Lieferung bucht. Um dies einzurichten, wählen Sie das Feld **Umlagerungen automatisch erstellen** im Fenster **Montageeinrichtung** aus  
+>  Wenn die Umlagerung für einen Montageauftrag erfolgt, in dem der Artikel für einen Auftrag montiert wird, dann können Sie festlegen, dass der Lagerbestandsumlagerungsbeleg automatische erstellt wird, wenn Sie den Lagerkommissionierungsbeleg für den fertigen Montageartikel erstellen, der die Lieferung bucht. Um dies einzurichten, wählen Sie das Feld **Umlagerungen automatisch erstellen** auf der Seite **Montageeinrichtung** aus  
 >   
 >  Weitere Informationen zu Montageaufträgen und Basis-Lagerkonfigurationen, finden Sie unter [Vorgehensweise: Verarbeiten von Auftragsmontageartikeln Lagerkommissionierungen](warehouse-how-to-pick-for-production.md).  
 
-Im folgenden Verfahren wird beschrieben, wie eine Lagerbestandsumlagerung aus dem Fenster **Lagerbestandsumlagerung** durch das Verweisen auf einen freigegebenen Montageauftrag als Herkunftsbeleg erstellt wird. Dieser Vorgang ist derselbe, wenn Sie Komponenten für Fertigungsaufträge und Serviceaufträge umlagern.  
+Im folgenden Verfahren wird beschrieben, wie eine Lagerbestandsumlagerung aus der Seite **Lagerbestandsumlagerung** durch das Verweisen auf einen freigegebenen Montageauftrag als Herkunftsbeleg erstellt wird. Dieser Vorgang ist derselbe, wenn Sie Komponenten für Fertigungsaufträge und Serviceaufträge umlagern.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>So lagern Sie Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen um  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagerbestandsumlagerung** ein, und wählen dann den relevanten Link aus.  
 2.  Füllen Sie auf dem Inforegister **Allgemein** das Feld **Nr.** aus. Feld Sie können die EINGABETASTE betätigen, um in den Nummernserien eine Auswahl zu treffen.  
 3.  Geben Sie im Feld **Lagerortcode** den Lagerort ein, an dem die Umlagerung stattfindet.  
 4.  Wählen Sie die **Herkunftsbelege holen** Aktion aus. Füllen Sie alternativ das Feld **Herkunftsbeleg** aus, und klicken Sie anschließend auf die Schaltfläche **AssistEdit** im Feld **Herkunftsnr.**.  
-5.  Wählen Sie im Fenster **Herkunftsbelege** den Montageauftrag aus, für den Sie Komponenten umlagern möchten, und klicken Sie anschließend auf die Schaltfläche **OK**.  
+5.  Wählen Sie auf der Seite **Herkunftsbelege** den Montageauftrag aus, für den Sie Komponenten umlagern möchten, und klicken Sie anschließend auf die Schaltfläche **OK**.  
 
-    Für alle erforderlichen Komponenten, die umgelagert werden können, werden im Fenster **Lagerbestandsumlagerungen** eine Entnahme- und eine Einlagerungszeile generiert. Alle Felder mit Ausnahme des Felds **Bewegungsmenge** werden entsprechend den Herkunftsbelegzeilen vorbelegt. Das Feld **Bewegungsmenge** weist Null aus, bis Sie die Menge angeben, die Sie tatsächlich umgelagert haben.  
+    Für alle erforderlichen Komponenten, die umgelagert werden können, werden auf der Seite **Lagerbestandsumlagerungen** eine Entnahme- und eine Einlagerungszeile generiert. Alle Felder mit Ausnahme des Felds **Bewegungsmenge** werden entsprechend den Herkunftsbelegzeilen vorbelegt. Das Feld **Bewegungsmenge** weist Null aus, bis Sie die Menge angeben, die Sie tatsächlich umgelagert haben.  
 
-    Sie können den Lagerplatzcode in einer Entnahmezeile aber nur entsprechend der Verfügbarkeit ändern. Wenn Sie in einer Entnahmezeile die Schaltfläche **AssistEdit** im Feld **Lagerplatzcode** auswählen, wird das Fenster **Lagerplatzinhalt** geöffnet und zeigt nur Lagerplätze an, an denen die Komponente verfügbar ist.  
+    Sie können den Lagerplatzcode in einer Entnahmezeile aber nur entsprechend der Verfügbarkeit ändern. Wenn Sie in einer Entnahmezeile die Schaltfläche **AssistEdit** im Feld **Lagerplatzcode** auswählen, wird die Seite **Lagerplatzinhalt** geöffnet und zeigt nur Lagerplätze an, an denen die Komponente verfügbar ist.  
 
     Sie können den Lagerplatzcode in einer Einlagerungszeile nicht ändern. Nur der Lagerplatzcode, der in der Komponentenzeile des Herkunftsbelegs definiert ist, wird angenommen. Dies unterstützt das Prinzip, dass die Rolle, die eine Komponente anfordert, hier ein Montagearbeiter, weiß, wo die Komponente platziert werden muss. Wenn Sie die Komponenten an einem anderen Lagerplatz einlagern möchten, müssen Sie zuerst den Lagerplatzcode in der Komponentenzeile ändern und die Lagerbestandsumlagerungszeilen dann neu erstellen.  
 6.  Geben Sie im Feld **Bewegungsmenge** die vollständige oder einen Teil der Menge ein, die Sie tatsächlich umgelagert haben. Die Werte in den Zeilen "Entnahme" und "Einlagerung" müssen gleich sein. Andernfalls kann die Lagerplatzumlagerung nicht gebucht werden.  
@@ -74,7 +74,7 @@ Im folgenden Verfahren wird beschrieben, wie eine Lagerbestandsumlagerung aus de
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  

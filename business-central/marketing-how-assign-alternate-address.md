@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3b6ed1ffe162f0bdb4d1af1dd84c34c6f0de91bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Einrichten einer alternativen Adresse für einen Kontakt
@@ -24,16 +25,16 @@ Sie können Ihren Kontakten alternative Adressen zuordnen, an die Sie manchmal P
 
 ## <a name="to-assign-an-alternate-address"></a>So ordnen Sie eine alternative Adresse zu
 1. Öffnen Sie den Kontakt.
-2. Wählen Sie die **Alternative Adresse**-Aktion aus, und wählen Sie dann **Karte**. Das Fenster **Alt. Kontaktadressenübersicht** wird geöffnet.
-3. Geben Sie eine neue alternative Adresse ein, und füllen Sie die restlichen Felder im Fenster **Alt. Kontaktadressenübersicht** aus.
+2. Wählen Sie die **Alternative Adresse**-Aktion aus, und wählen Sie dann **Karte**. Die Seite **Alt. Kontaktadressenübersicht** wird geöffnet.
+3. Geben Sie eine neue alternative Adresse ein, und füllen Sie die restlichen Felder der Seite **Kontakt alternative Adresse** aus.
 
 Wiederholen Sie diese Schritte, um weitere alternative Adressen einzurichten. Für jede alternative Adresse können Sie eine oder mehrere Gültigkeiten einrichten.
 
-Außerdem können Sie alternative Adressen auf die gleiche Art in dem Fenster Kontaktübersicht zuweisen.
+Außerdem können Sie alternative Adressen auf die gleiche Art auf der Seite Kontaktliste zuweisen.
 
 ## <a name="to-assign-an-alternate-address-date-range"></a>Um alternative Adressgültigkeiten zuzuordnen
 1. Öffnen Sie den Kontakt.
-2. Wählen Sie die **Alternative Adresse**-Aktion aus, und wählen Sie dann **Datumsbereich**. Das Fenster **Alt. Kontaktadr.-Gültigkeiten** wird geöffnet.
+2. Wählen Sie die **Alternative Adresse**-Aktion aus, und wählen Sie dann **Datumsbereich**. Die Seite **Alt. Kontaktadr.-Gültigkeiten** wird geöffnet.
 3. Wählen Sie die Aktion **Neu** aus.
 4. Im **Alt. Kontaktadresscode**-Feld wählen Sie eine alternative Adresse für diesen Kontakt aus und füllen dann **Startdatum** und **Enddatum** aus.
 

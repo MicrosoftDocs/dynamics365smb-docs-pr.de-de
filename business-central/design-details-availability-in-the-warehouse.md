@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5fd4bedcef6fcec79b1b2c8744c7c08d8170d97e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetails: Verfügbarkeit im Lager
@@ -32,7 +32,7 @@ Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager a
 ## <a name="quantity-available-to-pick"></a>Verfügbare Menge für Kommissionierung  
  Wenn, zum Beispiel, der Entnahmealgorithmus nicht Artikelmengen berücksichtigt, die für eine offene Verkaufsauftragslieferung reserviert sind, dann werden diejenigen Artikel für einen anderen Verkaufsauftrag kommissioniert, der zuvor ausgeliefert wurde, wodurch der erste Verkauf verhindert wird. Um diese Situation zu vermeiden, zieht der Entnahmealgorithmus Mengen, die für andere ausgehende Belege reserviert sind, Mengen auf bestehenden Kommissionierbelegen und Mengen, die kommissioniert, aber noch nicht geliefert oder verbraucht wurden, ab.  
 
- Das Ergebnis wird im Feld **Verfügbare Menge** im Fenster **Kommissioniervorschlag** angezeigt, in dem das Feld dynamisch berechnet wird. Der Wert wird auch berechnet, wenn Benutzer Kommissionierungen direkt für ausgehende Belege erstellen. Solche ausgehenden Belege können Verkaufsaufträge, Fertigungsverbrauch oder ausgehende Umlagerungen sein, bei denen das Ergebnis in den entsprechenden Mengenfeldern reflektiert wird, wie etwa **Verfügbare Menge.**  
+ Das Ergebnis wird im Feld **Verfügbare Menge** auf der Seite **Kommissioniervorschlag** angezeigt, in dem das Feld dynamisch berechnet wird. Der Wert wird auch berechnet, wenn Benutzer Kommissionierungen direkt für ausgehende Belege erstellen. Solche ausgehenden Belege können Verkaufsaufträge, Fertigungsverbrauch oder ausgehende Umlagerungen sein, bei denen das Ergebnis in den entsprechenden Mengenfeldern reflektiert wird, wie etwa **Verfügbare Menge.**  
 
 > [!NOTE]  
 >  Hinsichtlich der Priorität von Reservierungen wird die zu reserviere Menge von der Menge abgezogen, die für die Kommissionierung verfügbar ist. Wenn beispielsweise die Menge, die an den Kommissionierlagerplätzen verfügbar ist, 5 Einheiten ist,sich jedoch 100 Einheiten an Einlagerungslagerplätzen befinden, wird, wenn Sie versuchen, mehr als 5 Einheiten für einen anderen Auftrag zu reservieren, eine Fehlermeldung angezeigt, da die zusätzliche Menge an den Kommissionierlagerplätzen verfügbar sein muss.  
@@ -58,9 +58,9 @@ Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager a
 -   Menge in Mont.-Bereitst.-Lagerplätzen  
 -   Menge in Ausgleichslagerplätzen  
 
- Das Ergebnis wird im Feld **Verfügbare Gesamtmenge** im Fenster **Reservierungen** angezeigt.  
+ Das Ergebnis wird im Feld **Verfügbare Gesamtmenge** auf der Seite **Reservierungen** angezeigt.  
 
- In einer Reservierungszeile wird die Menge, die nicht reserviert werden kann, da sie im Lager zugeordnet wird, im Feld **Zugewiesene Menge im Lager** im Fenster **Reservierungen** angezeigt.  
+ In einer Reservierungszeile wird die Menge, die nicht reserviert werden kann, da sie im Lager zugeordnet wird, im Feld **Zugewiesene Menge im Lager** auf der Seite **Reservierungen** angezeigt.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Berechnen der zur Reservierung verfügbaren Menge  
  Die zur Reservierung verfügbare Menge wird wie folgt berechnet:  

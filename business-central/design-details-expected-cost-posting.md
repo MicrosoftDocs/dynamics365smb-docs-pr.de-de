@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 50ac9cbb946fedc687eb5ea1373c99d68f3d322b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetails: Soll-Kosten-Buchen
@@ -27,12 +27,12 @@ Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten ein
 > [!NOTE]  
 >  Soll-Kosten werden nur für Artikeltransaktionen verwaltet. Soll-Kosten sind nicht für immaterielle Transaktionstypen, wie etwa Kapazität und Artikel Zu-/Abschläge.  
 
- Wenn nur der Mengenteil eine Bestandserhöhung gebucht wurde, dann ändert sich der Lagerwert in der Finanzbuchhaltung nicht, es sei denn, Sie haben das Kontrollkästchen E**rwartete Soll-Kosten buchen** im Fenster **Bestand einrichten** ausgewählt. In diesem Fall werden die Soll-Kosten auf Interimskonten zum Zeitpunkt des Wareneingangs gebucht. Nachdem der Wareneingang vollständig fakturiert wurde, werden die Interimskonten ausgeglichen und die Ist-Kosten werden im Lagerkonto gebucht.  
+ Wenn nur der Mengenteil eine Bestandserhöhung gebucht wurde, dann ändert sich der Lagerwert in der Finanzbuchhaltung nicht, es sei denn, Sie haben das Kontrollkästchen E**rwartete Soll-Kosten buchen** auf der Seite **Bestand einrichten** ausgewählt. In diesem Fall werden die Soll-Kosten auf Interimskonten zum Zeitpunkt des Wareneingangs gebucht. Nachdem der Wareneingang vollständig fakturiert wurde, werden die Interimskonten ausgeglichen und die Ist-Kosten werden im Lagerkonto gebucht.  
 
  Um Abstimmung und Verfolgbarkeit zu unterstützen, zeigt der fakturierte Wertposten den Soll-Kostenbetrag, der zum Ausgleichen der Interimskonten gebucht wurde.  
 
 ## <a name="example"></a>Beispiel  
- Das folgende Beispiel zeigt erwartete Kosten an, wenn das Kontrollkästchen **Automatische Lagerbuchung** und das Kontrollkästchen **Erwartete Kostenbuchung** im Fenster **Lager Einrichtung** ausgewählt werden.  
+ Das folgende Beispiel zeigt erwartete Kosten an, wenn das Kontrollkästchen **Automatische Lagerbuchung** und das Kontrollkästchen **Erwartete Kostenbuchung** auf der Seite **Lager Einrichtung** ausgewählt werden.  
 
  Sie buchen eine Einkaufsbestellung als erhalten. Die erwarteten Kosten sind MW 95,00.  
 

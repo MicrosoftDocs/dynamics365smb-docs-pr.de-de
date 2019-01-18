@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Buchen von Serviceaufträgen und Gutschriften
@@ -91,13 +91,13 @@ Nachdem Sie die Details eines Service angegeben haben, können Sie die Mengen f�
   
 Der folgende Ablauf zeigt, wie man Lieferung der Servicezeilenartikel in Lagerplätzen bucht, die nicht so eingerichtet wurden, dass ein Lagerdurchlauf erforderlich ist.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceauftrag** ein, und wählen dann den zugehörigen Link aus. 2. Wählen Sie im Fenster für den ausgewählten Serviceauftrag **Aktionen**, **Auftrag**, **Servicezeilen** aus.  
-3. Suchen Sie im Fenster **Servicezeilen** nach den entsprechenden Posten, und geben Sie die zu buchende Menge in das Feld **Zu liefern** ein.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceauftrag** ein, und wählen dann den zugehörigen Link aus. 2. Wählen Sie auf der Seite für den ausgewählten Serviceauftrag **Aktionen**, **Auftrag**, **Servicezeilen** aus.  
+3. Suchen Sie auf der Seite **Servicezeilen** nach den entsprechenden Posten, und geben Sie die zu buchende Menge in das Feld **Zu liefern** ein.  
   
    > [!NOTE]  
    >  Der Wert für die zu liefernde Menge hängt davon ab, ob Sie die Lieferung teilweise oder insgesamt buchen möchten. Bei einer Gesamtlieferung muss der Wert im Feld **Zu liefern** dem Wert im Feld **Menge** entsprechen. Wenn Sie eine teilweise Lieferung buchen, müssen Sie die anfänglich zu liefernde Menge angeben. Wenn bereits ein Teil des Service auf dem Auftrag geliefert wurde, geben Sie diesen Wert im Feld **Menge geliefert** an. Die maximale Menge, die Sie in das Feld **Zu liefern** eingeben können, ist die Anzahl der Einheiten, die noch nicht geliefert wurden.  
   
-4. Wählen Sie **Aktionen**, **Buchen** und dann nochmals **Buchen** aus. Wählen Sie im daraufhin angezeigten Fenster die Option **Lieferung** aus.  
+4. Wählen Sie **Aktionen**, **Buchen** und dann nochmals **Buchen** aus. Wählen Sie auf der daraufhin angezeigten Seite die Option **Lieferung** aus.  
   
 [!INCLUDE[d365fin](includes/d365fin_md.md)]Die Anwendung erstellt die Posten (Garantieposten, Artikelposten, Serviceposten oder Sachposten), erzeugt den gebuchten Servicelieferungsbeleg und aktualisiert die entsprechenden Felder in den Serviceauftragszeilen.  
   

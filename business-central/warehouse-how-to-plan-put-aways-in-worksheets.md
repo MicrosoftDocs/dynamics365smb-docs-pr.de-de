@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planen von Einlagerungen in Arbeitsblättern
@@ -29,12 +29,12 @@ Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch Einlagerun
 > [!NOTE]  
 >  Unabhängig vom Status des Feldes **Einlagerungsvorschl. verwenden** auf der Lagerortkarte können Sie immer Einlagerungsanweisungszeilen, d. h. gebuchte Wareneingangszeilen, in den Einlagerungsvorschlag holen, indem Sie Folgendes tun:  
 >   
->  1.  Drücken Sie im Fenster **Einlagerung** die Tastenkombination Strg+D, um die gesamte Einlagerungsanweisung zu löschen oder wählen Sie die Zeilen, die Sie im Vorschlag bearbeiten möchten, und löschen Sie sie.  
+>  1.  Drücken Sie auf der Seite **Einlagerung** die Tastenkombination Strg+D, um die gesamte Einlagerungsanweisung zu löschen oder wählen Sie die Zeilen, die Sie im Vorschlag bearbeiten möchten, und löschen Sie sie.  
 > 2.  Setzen Sie dieses Vorgehen in so vielen Einlagerungen fort, wie Sie möchten, bis Sie die Zeilen gelöscht haben, die Sie im Vorschlag bearbeiten möchten. Wählen Sie jetzt **Einlagerungsvorschläge** und setzen Sie die Planung fort.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>So planen Sie Anweisungen im Einlagerungsvorschlag:  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Einlagerungsvorschlag** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie die **Logistikbeleg holen** Aktion aus. Das Fenster **Einlagerungsauswahl** wird geöffnet.  
+2.  Wählen Sie die **Logistikbeleg holen** Aktion aus. Die Seite **Einlagerungsauswahl** wird geöffnet.  
 
     Sie sehen alle gebuchten Wareneingänge und registrierten internen Einlagerungen, die zur Einlagerungsfunktion weitergeleitet wurden, einschließlich derer, für die bereits Einlagerungsanweisungen erstellt wurden. Belege mit Einlagerungszeilen, die bereits vollständig eingelagert und registriert wurden, werden in dieser Übersicht nicht angezeigt.  
 
@@ -54,7 +54,7 @@ Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch Einlagerun
     > [!NOTE]  
     >  Gelöschte Zeilen werden nur aus diesem Vorschlag gelöscht, nicht aus der Einlagerungsauswahlliste.  
 
-7.  Wählen Sie die Aktion **Einlagerung erstellen** aus. Im Fenster **Beleg erstellen**, das sich jetzt öffnet, können Sie weitere Informationen zu der Einlagerung hinzufügen, die Sie erstellen, wie folgt:  
+7.  Wählen Sie die Aktion **Einlagerung erstellen** aus. Auf der Seite **Beleg erstellen**, das sich jetzt öffnet, können Sie weitere Informationen zu der Einlagerung hinzufügen, die Sie erstellen, wie folgt:  
 
     -   Sie können die Einlagerung einem bestimmten Mitarbeiter zuordnen.  
     -   Sie können die Einlagerungsanweisungszeilen so sortieren, wie Sie es im Vorschlag getan haben oder nach Lagerplatzpriorität. Wenn Sie nach der Lagerplatzpriorität sortieren, erscheinen zuerst die Zeilen der Art "Entnahme", da die meisten Wareneingangslagerplätze eine Lagerplatzpriorität 0 haben, und als Letztes erscheinen die Zeilen der Art "Einlagerung", beginnend mit den Lagerplätzen mit der niedrigsten Lagerplatzpriorität. Wenn Sie Ihr Lager so strukturiert haben, dass sich Lagerplätze von ähnlicher Lagerplatzpriorität nebeneinander befinden, verkürzt eine auf diese Art durchgeführte Sortierung die Wege, die die Lagermitarbeiter zurücklegen müssen.  
@@ -66,7 +66,7 @@ Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch Einlagerun
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d3710472fb897fa65eed3d66da209642b763b0a0
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 7a83576df2bc09aa864e0c133106bd9f3a83e3af
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="currency-exchange-rates"></a>Währungswechselkurse
@@ -33,7 +33,7 @@ In der folgenden Tabelle werden die Bewertungsmethoden näher erläutert.
 |Niedrigster Wert|Wechselkurse werden unter Verwendung des niedrigsten Wertes der beiden Wechselkurse reguliert. Währungsverluste werden immer berechnet und gebucht. Währungsgewinne werden nur bis zum ursprünglichen Landeswährungswert der Transaktion berechnet und gebucht.<br /><br /> Dadurch wird sichergestellt, dass Forderungen nicht höher als ihre ursprünglichen Buchungsbeträge bewertet werden und dass Verbindlichkeiten nicht niedriger als ihre ursprünglichen Buchungsbeträge bewertet werden.|  
 |Standard|Wechselkurse werden entsprechend den Standardbewertungsprinzipien reguliert. Volle unrealisierte Gewinne und Verluste werden berechnet und gebucht. Wenn die Transaktion teilweise angewendet wird, wird nur der Restbetrag in die Regulierung einbezogen. Weitere Informationen finden Sie unter „Wechselkurse regulieren”.|  
 
-Deutsche Unternehmen müssen die Option **BilMoG (Deutschland)** verwenden, wenn sie den Batchauftrag **Wechselkurse regulieren** ausführen. Dadurch ist sichergestellt, dass jede Transaktion mithilfe der entsprechenden Bewertungsmethode wie in Deutschland erforderlich reguliert wird. Dadurch werden außerdem zwei Felder im Anforderungsfenster aktiviert, in denen Sie die zwei Datumswerte angeben können, die verwendet werden müssen, um die Regulierung zu berechnen. Die Felder werden in der folgenden Tabelle beschrieben.  
+Deutsche Unternehmen müssen die Option **BilMoG (Deutschland)** verwenden, wenn sie den Batchauftrag **Wechselkurse regulieren** ausführen. Dadurch ist sichergestellt, dass jede Transaktion mithilfe der entsprechenden Bewertungsmethode wie in Deutschland erforderlich reguliert wird. Dadurch werden außerdem zwei Felder auf der Anforderungsseite aktiviert, in denen Sie die zwei Datumswerte angeben können, die verwendet werden müssen, um die Regulierung zu berechnen. Die Felder werden in der folgenden Tabelle beschrieben.  
 
 |Feld|Description|  
 |---------------------------------|---------------------------------------|  

@@ -13,10 +13,10 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adjust-item-costs"></a>Artikelpreise justieren
@@ -34,15 +34,15 @@ Wenn Sie die FIFO-Kostenmethode verwenden, dass ist der Einstandspreis eines Art
 
 Wenn Sie die Durchschnittskostenmethode verwenden, dass werden die Einstandskosten als Durchschnittskosten nach dem Kauf berechnet. Bestand wird mit der Annahme bewertet, dass aller Bestand gleichzeitig verkauft wird. Für Artikel, die die Lagerabgangsmethode verwenden, können Sie das Feld **Einstandspreis** auf der Artikelkarte wählen, um die Historie von Transaktionen anzuzeigen, denen der durchschnittliche Einstandspreis berechnet wird
 
-Die Kostenregulierungsfunktion verarbeitet nur Wertposten, die noch nicht reguliert wurden. Liegt eine Situation vor, in der geänderte eingehende Kosten an zugehörige ausgehende Posten weitergeleitet werden müssen, werden dafür neue Regulierungswertposten erstellt, die zwar auf den Informationen der ursprünglichen Wertposten basieren, aber den Regulierungsbetrag enthalten. Die Kostenregulierungsfunktion verwendet das Buchungsdatum des ursprünglichen Wertpostens in den Regulierungsposten, es sei denn, das Datum befindet sich in einer geschlossenen Lagerbuchungsperiode. In diesem Fall wird das Startdatum der nächsten offenen Lagerbuchungsperiode verwendet. Werden keine Lagerbuchungsperioden verwendet, definiert das Datum im Feld **Buchungen zugel. ab** im Fenster **Finanzbuchhaltungs-Einrichtung:**, wann der Regulierungsposten gebucht wird.
+Die Kostenregulierungsfunktion verarbeitet nur Wertposten, die noch nicht reguliert wurden. Liegt eine Situation vor, in der geänderte eingehende Kosten an zugehörige ausgehende Posten weitergeleitet werden müssen, werden dafür neue Regulierungswertposten erstellt, die zwar auf den Informationen der ursprünglichen Wertposten basieren, aber den Regulierungsbetrag enthalten. Die Kostenregulierungsfunktion verwendet das Buchungsdatum des ursprünglichen Wertpostens in den Regulierungsposten, es sei denn, das Datum befindet sich in einer geschlossenen Lagerbuchungsperiode. In diesem Fall wird das Startdatum der nächsten offenen Lagerbuchungsperiode verwendet. Werden keine Lagerbuchungsperioden verwendet, definiert das Datum im Feld **Buchungen zugel. ab** auf der Seite **Finanzbuchhaltungs-Einrichtung:**, wann der Regulierungsposten gebucht wird.
 
 ## <a name="to-adjust-item-costs-manually"></a>So regulieren Sie Artikelpreise manuell
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kosteneinträge anpassen** ein, und wählen dann den zugehörigen Link aus.
-2. Im Fenster **Lagerreg. fakt. Einst. Preise** geben Sie an, für welche Artikel die Kosten anzupassen sind.
+2. Auf der Seite **Lagerreg. fakt. Einst. Preise** geben Sie an, für welche Artikel die Kosten anzupassen sind.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
 ## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Um allgemeine Änderungen in den direkten Einheitskosten durchzuführen:
-Wenn Sie die direkten Einheitspreise für mehrere Artikel ändern müssen, können Sie die Stapelverarbeitung **Artikelpreise anpassen**verwenden.  
+Wenn Sie die direkten VK-Preise für mehrere Artikel ändern müssen, können Sie die Stapelverarbeitung **Artikelpreise anpassen**verwenden.  
 
  Der Batchauftrag ändert den Inhalt des Felds **VK-Preis** auf der Artikelkarte. Die Stapelverarbeitung ändert den Inhalt des Felds auf die gleiche Weise für alle Artikel oder ausgewählten Artikel. Hierzu wird der Wert im Feld mit einem von Ihnen angegebenen Korrekturfaktor multipliziert.  
 
@@ -82,7 +82,7 @@ Als Grundregel gilt, dass der Wert im Feld **Einstandspreis** auf der Artikelkar
 
 ## <a name="see-also"></a>Siehe auch
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

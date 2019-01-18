@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 9dfe8a2b30a2a11969d8d7937998611613602ae7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Informationen zur Berechnung von festen Einstandspreisen
@@ -81,7 +81,7 @@ Sie können die Sätze für diese Zeitarten für jeden Arbeitsplatz bzw. jede Ar
 > [!NOTE]  
 >  Während Bearbeitungszeitsätze pro produziertem Artikel gelten, gelten Rüstzeitsätze pro Los. Daher muss die Arbeitsplanrüstzeit für jeden Arbeitsgang entsprechend der Losgröße umgelegt werden. Die Losgröße wird im entsprechenden Feld auf der Artikelkarte auf dem Inforegister **Bestellung** angegeben.  
 
-Um Rüstzeiten im Arbeitsgang für die Planung anzugeben, jedoch nicht bei der Einstandspreisberechnung zu berücksichtigen, leeren Sie das Feld **Kosten inkl. Rüsten**  im Fenster **Produktion Einrichtung**.  
+Um Rüstzeiten im Arbeitsgang für die Planung anzugeben, jedoch nicht bei der Einstandspreisberechnung zu berücksichtigen, leeren Sie das Feld **Kosten inkl. Rüsten**  auf der Seite **Produktion Einrichtung**.  
 
 Auf einer einstufigen Grundlage sind dies die Bearbeitungskosten, die erforderlich sind, um den fertigen Produktionsartikel herzustellen, und die im Arbeitsplan des Produktionsartikels angegeben werden. Auf einer mehrstufigen Grundlage, sind dies die Kapazitätskosten, die für jeden einzeln gefertigten Artikel, der in der Stückliste des übergeordneten Artikels enthalten ist, angegeben werden.  
 

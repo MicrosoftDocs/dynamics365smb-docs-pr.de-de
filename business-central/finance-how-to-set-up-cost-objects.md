@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Einrichten von Kostenträgern
@@ -27,7 +27,7 @@ Kostenträger sind Projekte, Produkte oder Services eines Unternehmens. Der Kost
 * Erstellen Sie einen neuen Kostenträgerplan, der unabhängig vom Sachkonto ist, oder fügen Sie einem vorhandenen Kostenträgerplan einen neuen Kostenträger hinzu. Sie müssen jeden Kostenträger einzeln erstellen.  
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>So transferieren Sie Dimensionswerte aus dem Sachkonto zum Kostenträgerplan  
-1.  Legen Sie eine Dimension als Kostenträgerdimension im Fenster **Kostenträger-Dimensionen aktualisieren** fest. Nur die Werte aus dieser Dimension werden übertragen.  
+1.  Legen Sie eine Dimension als Kostenträgerdimension auf der Seite **Kostenträger-Dimensionen aktualisieren** fest. Nur die Werte aus dieser Dimension werden übertragen.  
 2.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan Kostenobjekte** ein, und wählen dann den zugehörigen Link aus.  
 3.  Wählen Sie die Aktion **Kostenträger aus Dimension abrufen**, um Dimensionswerte zum Kostenträgerplan zu übertragen. Die Funktion überträgt die Dimensionswerte, die Sie in Schritt 1 definiert haben.  
 
@@ -36,10 +36,10 @@ Kostenträger sind Projekte, Produkte oder Services eines Unternehmens. Der Kost
 
 Der Kostenträgerplan enthält jetzt alle angegebenen Dimensionswerte aus dem Sachkonto und umfasst Titel und Zwischensummen.  
 
-## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-window"></a>So richten Sie im Fenster Kostenstellenträger neue Kostenträger ein  
-Sie können Kostenkarten im Fenster **Kostenträger** oder im Fenster **Kostenträgerkarte** einrichten und verwalten. So richten Sie im Fenster **Kostenträger** neue Kostenstellenträger ein.  
+## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>So richten Sie auf der Seite Kostenstellenträger neue Kostenträger ein  
+Sie können Kostenkarten auf der Seite **Kostenträger** oder im Fenster **Kostenträgerkarte** einrichten und verwalten. So richten Sie auf der Seite **Kostenträger** neue Kostenstellenträger ein.  
 
-1.  Öffnen Sie das Fenster **Kostenstellenträger** im Bearbeitungsmodus.  
+1.  Öffnen Sie die Seite **Kontenplan-Objekte** im Bearbeitungsmodus.  
 2.  Geben Sie im Feld **Code** den Kostenträgercode ein. Alle Kostenträger müssen einen Code aufweisen.  
 3.  Geben Sie im Feld **Namen** den Kostenträgernamen ein.  
 4.  Wählen Sie den Dropdownpfeil im Feld **Positionstyp** aus, um den Zweck des Kostenträgers anzugeben.  

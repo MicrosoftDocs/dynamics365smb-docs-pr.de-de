@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Sammeln von Einrichtungswerten für Debitoren
@@ -32,11 +32,11 @@ Wenn Ihr Debitor den Fragebogen ausgefüllt hat, importieren Sie die Datei in de
 ## <a name="to-create-a-configuration-questionnaire"></a>So erstellen Sie einen benutzerdefinierten Konfigurationsfragebogen
 Sie können einen Fragebogen verwenden, um den Umfang und die Anforderungen der Konfiguration zu bestimmen. Sie können eine neue Befragung erstellen oder ändern eine bestehende Befragung ändern, indem Sie auch neue Fragen oder Fragenbereiche hinzufügen.  
 
- Sie können Fragebögen nur für Setup-Typ-Tabellen erstellen. Beispielsweise können Sie das Werkzeug verwenden, um Informationen zu den folgenden Fenstern bereitzustellen:  
+ Sie können Fragebögen nur für Setup-Typ-Tabellen erstellen. Beispielsweise können Sie das Werkzeug verwenden, um Informationen auf den folgenden Seiten bereitzustellen:  
 
 -   Unternehmensdaten  
 -   Anlageneinrichtung  
--   Finanzbuchhaltungs-Einrichtung:  
+-   Finanzbuchhaltung Einrichtung  
 -   Lagereinrichtung  
 -   Montageeinrichtung
 -   Produktion Einrichtung  
@@ -50,9 +50,9 @@ Sie können einen Fragebogen verwenden, um den Umfang und die Anforderungen der 
 >  Um eine vollständige Liste von Tabellen-Einrichtungen zu sehen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion Wie möchten Sie weiter verfahren geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") und geben Sie **Einrichtung** ein und wählen dann den zugehörigen Link aus. Um den Umfang der Migration von Daten zu ermitteln, verwenden Sie Migrationsfunktionen. Weitere Informationen finden Sie unter [Gewusst wie: Debitorendaten zusammenführen](admin-migrate-customer-data.md).  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Frageboen-Konfiguration** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie die Aktion **Neu** aus. Das Fenster **Profilbefragung konfigurieren** wird geöffnet.  
-3. Wählen Sie die **Fragen-Bereiche** Aktion aus. Das Fenster **Fragenbereiche** wird geöffnet.  
-4. Wählen Sie die Aktion **Neu** aus. Das Fenster **Fragenbereiche konfigurieren** wird geöffnet.  
+2. Wählen Sie die Aktion **Neu** aus. Die Seite **Profilbefragung konfigurieren** wird geöffnet.  
+3. Wählen Sie die **Fragen-Bereiche** Aktion aus. Die Seite **Fragenbereiche** wird geöffnet.  
+4. Wählen Sie die Aktion **Neu** aus. Die Seite **Fragenbereiche konfigurieren** wird geöffnet.  
 5. Wählen Sie im Feld **Tabellen-ID** die ID der Tabelle aus, für die Sie Daten erfassen möchten. Das Feld **Tabellennamen** wird automatisch ausgefüllt.  
 6. Wählen Sie die **Fragen aktualisieren** Aktion aus. Jedes Feld in der Tabelle wird der Befragung mit einem Fragezeichen hinter seiner Beschriftung hinzugefügt.
 
@@ -94,10 +94,10 @@ Ein typischer Validierungsvorgang ist die Prüfung, ob keine Textzeichenfolgen i
 > [!NOTE]  
 >  Im Allgemeinen ist die Konfiguration des Einrichtungsfragebogens nur ein manueller Prozess. Es gibt jedoch Prüfungen für regionale Formatierungsinkonsistenzen. Darüber hinaus erhalten Sie Fehler, wenn die Struktur Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbank nicht der Struktur der Migrationsdatenbank entspricht.  
 
-1. Im Fenster **Konfigurationsfragebogen** wählen Sie den gewünschten Fragebogen aus, und wählen Sie die **Fragenbereiche** Aktion aus.  
+1. Auf der Seite **Konfigurationsfragebogen** wählen Sie den gewünschten Fragebogen aus, und wählen Sie die **Fragenbereiche** Aktion aus.  
 2. Öffnen Sie den relevanten Fragebogenbereich aus.  
 3. Prüfen Sie für jede Frage, dass der Wert im Feld **Antwort** dem Format entspricht, das im Feld **Antwortoptionen** bereitgestellt wird. Prüfen Sie etwa, dass die Adresse eines Mandanten im Textformat ist.  
-4. Wenn Sie Fehler finden, können Sie Korrekturen in Excel vornehmen; dazu exportieren Sie den Fragebogen und importieren ihn anschließend wieder. Alternativ können Sie Fehler auch direkt in [!INCLUDE[d365fin](includes/d365fin_md.md)] korrigieren, während Sie die Antworten im Fenster **Fragenbereich konfigurieren** prüfen.  
+4. Wenn Sie Fehler finden, können Sie Korrekturen in Excel vornehmen; dazu exportieren Sie den Fragebogen und importieren ihn anschließend wieder. Alternativ können Sie Fehler auch direkt in [!INCLUDE[d365fin](includes/d365fin_md.md)] korrigieren, während Sie die Antworten auf der Seite **Fragenbereich konfigurieren** prüfen.  
 5. Wiederholen Sie diese Schritte für jeden Fragenbereich.  
 
 Nachdem Sie Ihre Prüfung abgeschlossen haben, sind die Daten bereit, um zur Datenbank ausgeglichen werden.  
@@ -105,7 +105,7 @@ Nachdem Sie Ihre Prüfung abgeschlossen haben, sind die Daten bereit, um zur Dat
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Anwenden von Antworten aus dem Konfigurationsfragebogen
 Nachdem Sie und Informationen aus einem Konfigurationsfragebogen importiert und validiert haben, können Sie die Einrichtungsdaten übertragen, oder Sie auf die entsprechenden Tabellen in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbank anwenden.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Frageboen-Konfiguration** ein, und wählen dann den zugehörigen Link aus. Das Fenster **Profilbefragung konfigurieren** wird geöffnet.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Frageboen-Konfiguration** ein, und wählen dann den zugehörigen Link aus. Die Seite **Profilbefragung konfigurieren** wird geöffnet.  
 2. Wählen Sie einen Konfigurationsfragebogen aus der Liste und wählen Sie **Liste bearbeiten** aus.  
 3. Sie können Antworten auf eine von zwei Arten anwenden.  
 
@@ -113,7 +113,7 @@ Nachdem Sie und Informationen aus einem Konfigurationsfragebogen importiert und 
 - Um Antworten aus einem bestimmten **Fragenbereich** anzuwenden, aktivieren Sie **Fragebereiche**, wählen Sie einen **Fragenbereich** aus der Liste, und wählen Sie anschließend auf der Registerkarte Start die Option **Antworten anwenden** aus.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>So überprüfen Sie, ob Antworten erfolgreich angewendet wurden  
-1. Prüfen Sie die Einrichtungsfenster für die verschiedenen Funktionsbereiche aus [!INCLUDE[d365fin](includes/d365fin_md.md)]. Um das Fenster zu suche, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie den Namen des Einrichtungsfensters ein, und wählen dann den zugehörigen Link aus.  
+1. Prüfen Sie die Einrichtungsseiten für die verschiedenen Funktionsbereiche aus [!INCLUDE[d365fin](includes/d365fin_md.md)]. Um die Seite zu suchen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie den Namen des Einrichtungsfensters ein, und wählen dann den zugehörigen Link aus.  
 2. Vergewissern Sie sich, dass die Felder mit den richtigen Daten aus den verschiedenen Fragebereichen im Kofigurationsfragebogen gefüllt wurden.  
 
 Sie haben nun die Einrichtung mit den Geschäftsinformationen und den Regeln des Debitors konfiguriert.

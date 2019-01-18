@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9010858c33b7b58b3b4d7f2523785e846e307ff0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65a28156827551d19b8a4b23f6773c4a957e7895
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="lend-and-receive-loaners"></a>Leihen und Zurücknehmen von Leihgeräten
@@ -30,7 +30,7 @@ Sie können einem Debitor vorübergehend ein Leihgerät für einen Serviceartike
 5. Klicken Sie zum Bestätigen der Ausleihe auf die Schaltfläche **Ja**.  
 
 ## <a name="to-receive-a-loaner"></a>So nehmen Sie ein Leihgerät zurück  
-Wenn Sie ein Leihgerät von einem Debitor zurückerhalten, müssen Sie den Empfang bestätigen. Sie können dies in den Fenstern **Serviceauftrag**, **Gebuchte Servicelieferung** und **Leihgerätekarte** durchführen. Im folgenden Verfahren wird beschrieben, wie Leihgeräte im Fenster **Serviceauftrag** zurückgenommen werden.  
+Wenn Sie ein Leihgerät von einem Debitor zurückerhalten, müssen Sie den Empfang bestätigen. Sie können dies auf den Seiten **Serviceauftrag**, **Gebuchte Servicelieferung** und **Leihgerätekarte** durchführen. Im folgenden Verfahren wird beschrieben, wie Leihgeräte auf der Seite **Serviceauftrag** zurückgenommen werden.  
   
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceaufträge** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie den relevanten Serviceauftrag.  
@@ -38,11 +38,11 @@ Wenn Sie ein Leihgerät von einem Debitor zurückerhalten, müssen Sie den Empfa
 4. Wählen Sie **Aktionen**, wählen Sie **Funktionen**, und wählen Sie dann **Leihgerät zurücknehmen** aus.  
 
 ## <a name="to-register-loaner-comments"></a>So erfassen Sie Bemerkungen zu Leihgeräten  
-Sie können das Fenster **Allgemein Servicebemerkungen** verwenden, um Bemerkungen zu Leihgeräten zu erfassen.  
+Sie können die Seite **Allgemein Servicebemerkungen** verwenden, um Bemerkungen zu Leihgeräten zu erfassen.  
   
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie die relevante Leihgerätekarte.  
-3. Wählen Sie die Aktion **Kommentare** aus. Das Fenster **Allgemeine Servicebemerkungen** wird geöffnet.  
+3. Wählen Sie die Aktion **Kommentare** aus. Die Seite **Allgemeine Servicebemerkungen** wird geöffnet.  
 4. Geben Sie in das Feld **Datum** ein Datum ein.  
 5. Geben Sie in das Feld **Bemerkung** eine Bemerkung ein. Sie können bis zu 80 Ziffern und Buchstaben eingeben. Wenn Sie mehr Text eingeben müssen, wechseln Sie in die nächste Zeile. Sie können so viele Zeilen wie notwendig ausfüllen.  
   

@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3103583c9781c283479c5f66e90f0e875faf46cc
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Szenario-Beispiel: Definieren von dynamischen Zuteilungen auf der Basis der verkauften Artikel
@@ -28,7 +29,7 @@ Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>So definieren Sie dynamische Zuteilungen auf der Basis der im Vorjahr verkauften Artikel  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kostenzuteilung** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie im Fenster **Kostenzuteilung** die Aktion **Neu** aus.  
+2.  Wählen Sie auf der Seite **Kostenzuteilung** die Aktion **Neu** aus.  
 3.  Drücken Sie im Feld **ID** die EINGABETASTE, oder geben Sie eine ID ein.  
 4.  Geben Sie in dem Feld **Menge** **1** ein.  
 5.  In den Feldern **Gültigkeit ab** und **Gültig bis** geben Sie passende Datumsangaben ein.  
@@ -46,9 +47,7 @@ Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der
     >  [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet die Verkaufszahlen der Vorjahre, um einen Anteil von 1596,50 MW mit 100 Prozent für die COMPUTERAUSSTATTUNG-Pakete zu berechnen. Das bedeutet, dass alle Artikel, die letztes Jahr verkauft wurden, dem Kostenträger COMPUTERAUSSTATTUNG zugeordnet werden.  
 
 ## <a name="see-also"></a>Siehe auch  
- [Setzen von Filtern für dynamische Zuteilungsgrundlagen](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Richten Sie die Zuteilungsquelle und Ziele ein](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)   
- [Terminologie der Kostenrechnung](finance-terminology-in-cost-accounting.md)   
- [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)
+[Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)  
+[Terminologie der Kostenrechnung](finance-terminology-in-cost-accounting.md)   
+[Informationen zur Kostenrechnung](finance-about-cost-accounting.md)
 

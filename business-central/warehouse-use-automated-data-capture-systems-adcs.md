@@ -8,16 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="enable-automated-data-capture-systems-adcs"></a>Aktivieren des mobilen Datenerfassungssystems (ADCS)
+# <a name="use-automated-data-capture-systems-adcs"></a>Automatisierte Datenerfassung (MDE) verwenden
+
+> [!NOTE]
+> In der Standardversion von [!INCLUDE[d365fin](includes/d365fin_md.md)] arbeitet ADCS nur in den lokalen Bereitstellungen. Jedoch kann ein Microsoft-Partner sie in Online Bereitstellungen funktionsfähig machen, indem er PowerApps oder Ähnliches verwendet.
+
 Sie verwenden die mobile Datenerfassung (MDE), um die Artikelbewegungen im Lager und die Aktivitäten im Buch.-Blatt zu erfassen, wie Mengenanpassungen im Logistik Artikel Buch.-Blatt und Inventuren.  
 
 Um MDE nutzen zu können, müssen Sie für jeden im Lager vorhandenen Artikel einen Artikelbezeichner angeben. Sie müssen außerdem Miniforms, Endgerätfunktionen, Datenaustausch einrichten und Einstellungen für Felder vornehmen, die MDE steuern. Sie legen fest, ob MDE auf der Lagerortkarte des Lagers verwendet wird.
@@ -38,22 +42,22 @@ Um MDE nutzen zu können, müssen Sie festlegen, welche Lagerorte die Technologi
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagerorte** ein, und wählen dann den zugehörigen Link aus.
 2.  Wählen Sie ein Lager aus der Liste aus, für das Sie MDE aktivieren möchten, und wählen die **Bearbeiten** Aktion aus.
-3. Im Fenster **Lagerortkarte** wählen Sie das Kontrollkästchen **MDE verwenden** aus.  
+3. Auf der Seite **Lagerortkarte** wählen Sie das Kontrollkästchen **MDE verwenden** aus.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>So geben Sie einen Artikel für die Verwendung von MDE an  
 Jedem Logistik Artikel, den Sie mit MDE verwenden möchten, muss ein Barcode zugeordnet werden, um ihn mit der Artikelnummer zu verknüpfen. Beispielsweise können Sie den Barcode des Artikels als Identifzierungscode verwenden. Ein Artikel kann also mehrere Barcodes haben. Dies kann hilfreich sein, wenn ein Artikel in verschiedenen Maßeinheiten verfügbar ist, wie als Stück und als Palette. In diesem Fall weisen Sie jeder Einheit einen Barcode zu.    
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie einen Artikel aus der Liste aus, der Teil der MDE-Lösung ist, und wählen die **Bearbeiten** Aktion aus.
-3. Wählen Sie im Fenster **Artikelkarte** die Aktion **Kennzeichner** aus.
-4. Wählen Sie im Fenster **Artikelbarcodes** die Aktion **Neu** aus.
+3. Wählen Sie auf der Seite **Artikelkarte** die Aktion **Kennzeichner** aus.
+4. Wählen Sie auf der Seite **Artikelbarcodes** die Aktion **Neu** aus.
 5. Geben Sie im Feld **Code** die Kennzeichner für den Artikel an. Beispielsweise können Sie den Barcode des Artikels als Kennzeichner verwenden.  
 
     Sie können auch einen **Variantencode** und einen Code für die **Einheit** eingeben.  
 
 6. Bei Bedarf können Sie mehrere Codes für jeden Artikel eingeben.
 7. Wählen Sie die Schaltfläche **OK** aus.  
-8.  Um die Informationen zu prüfen, wählen Sie das Feld **Artikelbarcode** aus, um das Fenster **Artikelbarcodes** zu öffnen.
+8.  Um die Informationen zu prüfen, wählen Sie das Feld **Artikelbarcode** aus, um die Seite **Artikelbarcodes** zu öffnen.
 
 ## <a name="to-add-an-adcs-user"></a>Um einen MDE-Benutzer hinzufügen  
 Sie können einen beliebigen Benutzer als Benutzer eines automatisierten Datenerfassungssystems hinzufügen (ADCS). Wenn Sie dies tun, muss der Benutzer außerdem ein Kennwort eingeben. Optional können Sie auch eine Verbindung angeben, die den MDE-Benutzer als Lagermitarbeiter identifiziert. Das MDE-Benutzerkennwort kann sich vom Windows-Anmeldungskennwort des Benutzers unterscheiden. Weitere Informationen finden Sie unter [Verwalten von Benutzern und Berechtigungen](ui-how-users-permissions.md).
@@ -110,7 +114,7 @@ Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Date
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  

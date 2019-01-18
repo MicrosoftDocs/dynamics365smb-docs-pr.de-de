@@ -11,17 +11,17 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a268ec469f7781e77d7e4438a3b18c95e9304d4d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b766f4d11b66a88f1884f8315b5856021190b34
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="purchase-items-for-a-sale"></a>Einkauf von Produkten für einen Verkauf
+# <a name="purchase-items-for-a-sale"></a>Einkauf von Artikeln für einen Verkauf
 Bei Verkaufsaufträgen aus der Verkaufsrechnungen können Sie Funktionen verwenden, um für Einkaufsbelege Mengen des fehlenden Stücks schneller zu erstellen, die im Verkauf benötigt werden. Sie können zwei verschiedene Funktionen nutzen, abhängig von der Belegart, die verwendet wird.
 
 > [!Note]
-> Diese Funktionalität ist für das Füllen der Planung in Ihren eigenen Lager. Um Artikel für den Direktversand von Ihrem Lieferanten an Ihren Debitor zu kaufen, müssen Sie eine Direktlieferung erzeugen. Weitere Informationen finden Sie unter [Direktlieferungen erstellen](sales-how-drop-shipment.md)   
+> Diese Funktionalität ist für das Füllen der Planung in Ihren eigenen Lager. Um Artikel für den Direktversand von Ihrem Kreditoren an Ihren Debitor zu kaufen, müssen Sie eine Direktlieferung erzeugen. Weitere Informationen finden Sie unter [Direktlieferungen erstellen](sales-how-drop-shipment.md)   
 
 |Funktion|Description|
 |--------|-----------|
@@ -35,7 +35,7 @@ Um eine Bestellung für jede Artikelmenge von nichtverfügbaren Artikeln im Verk
 2. Öffnen Sie einen Verkaufsauftrag für Artikel, die Sie kaufen möchten.
 3. Wählen Sie die Aktion **Einkaufsbestellung erstellen**.
 
-    Das Fenster **Einkaufsbestellungen** wird geöffnet und zeigt eine Zeile für jeden anderen Artikel im Verkaufsauftrag. Zeilen für verfügbare und nicht verfügbare (abgeblendet) Verkaufsmengen werden standardmäßig angezeigt. Sie können die Funktionen **Anzeigen nicht verfügbar** Aktion auswählen, um Zeilen für nicht verfügbare Verkaufsmengen nur anzuzeigen.
+    Die Seite **Einkaufsbestellungen** wird geöffnet und zeigt eine Zeile für jeden anderen Artikel im Verkaufsauftrag. Zeilen für verfügbare und nicht verfügbare (abgeblendet) Verkaufsmengen werden standardmäßig angezeigt. Sie können die Funktionen **Anzeigen nicht verfügbar** Aktion auswählen, um Zeilen für nicht verfügbare Verkaufsmengen nur anzuzeigen.
 
     Das Feld **Einzukaufen Menge** enthält standardmäßig die nichtverfügbare Verkaufsmenge.
 4. Um eine andere Menge als die nichtverfügbare Verkaufsmenge einzukaufen, ändern Sie den Wert im Feld **Einzukaufende Menge**.
@@ -44,7 +44,7 @@ Um eine Bestellung für jede Artikelmenge von nichtverfügbaren Artikeln im Verk
     >   Sie können das Feld **Einzukaufen Menge** in abgeblendeten Zeilen auch ändern, obwohl sie vollständig verfügbare Verkaufsmengen darstellen.
 5. Wählen Sie die Schaltfläche **OK** aus.
 
-    Eine Bestellung ist für jeden Kreditor der Artikel im Verkaufsauftrag, einschließlich alle Mengenänderungen erstellt, die Sie im **Einkaufsbestellungen** durchgeführt haben.
+    Ein Auftrag ist für jeden Kreditor der Artikel im Verkaufsauftrag, einschließlich alle Mengenänderungen erstellt, die Sie auf der Seite **Einkaufsbestellungen erstellen** durchgeführt haben.
 7. Fahren Sie fort, die Einkaufsbestellungen zu verarbeiten, indem Sie beispielsweise Einkaufsbestellungszeilen bearbeiten oder hinzufügen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 
 
@@ -67,7 +67,7 @@ Eine einzelne Einkaufsrechnung für eine oder mehrere Zeilen in einem Verkaufsbe
 ## <a name="see-also"></a>Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
-[Verkaufsrechnung](sales-how-invoice-sales.md)  
+[Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

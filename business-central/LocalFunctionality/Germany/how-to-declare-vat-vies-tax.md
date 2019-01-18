@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: cb3a0e6f608a6a20edac90e238751650fabff8f2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 856dc7cfc8fda9190bbadd61c42b8924fd979242
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="declare-vat-vies-tax"></a>MwSt-VIES-Steuer angeben
@@ -29,7 +29,7 @@ Der Bericht basiert auf Daten in der Tabelle "MwSt.-Posten".
 ## <a name="to-declare-vat-vies-tax"></a>So erstellen Sie eine zusammenfassende Meldung  
 
 1.  Wählen Sie ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") und geben **Zusammenf. Meldung - Formular** ein und wählen dann den zugehörigen Link aus.  
-2.  Füllen Sie im Fenster **Zusammenf. Meldung MwSt-Vies-Formular** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+2.  Füllen Sie auf der Seite **Zusammenf. Meldung MwSt-Vies-Formular** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  

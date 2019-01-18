@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e946bab348aeee1b65b85165b2d9d553736813ba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e82aa86668da5999117eea636ee29d8fde2cc09e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Richten Sie Serviceartikel und Serviceartikelkomponenten ein.
@@ -43,7 +43,7 @@ Ein Serviceartikel kann aus mehreren Komponenten bestehen, die mit Ersatzteilen 
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceartikel** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie den Serviceartikel, für den Sie Komponenten einrichten möchten.  
-3. Wählen Sie die Aktion **Komponenten** aus. Das Fenster **Serviceartikelkomponenten** wird geöffnet.  
+3. Wählen Sie die Aktion **Komponenten** aus. Die Seite **Serviceartikelkomponenten** wird geöffnet.  
 4. Fügen Sie eine neue Komponente hinzu.  
 5. Wählen Sie im Feld **Art** den Eintrag **Serviceartikel**, falls die Komponente selbst ein Serviceartikel ist. Oder wählen Sie **Artikel** aus.  
 6. Geben Sie im Feld **Nr.** Wählen Sie im Feld Nr. den Artikel oder Serviceartikel aus, der eine Komponente des Serviceartikels ist.  
@@ -51,7 +51,7 @@ Ein Serviceartikel kann aus mehreren Komponenten bestehen, die mit Ersatzteilen 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>So richten Sie Serviceartikelkomponenten aus Stücklisten ein
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceartikel** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie den Serviceartikel, für den Sie Komponenten aus Stücklisten einrichten möchten.  
-3. Wählen Sie die Aktion **Komponenten** aus. Das Fenster **Serviceartikelkomponenten** wird geöffnet.  
+3. Wählen Sie die Aktion **Komponenten** aus. Die Seite **Serviceartikelkomponenten** wird geöffnet.  
 4. Wählen Sie im Fenster **Kopiere von Stückliste**  
 
     Ist der mit dem Serviceartikel verbundene Artikel eine Stückliste, werden für alle Artikel in der Stückliste automatisch Komponenten erstellt.  

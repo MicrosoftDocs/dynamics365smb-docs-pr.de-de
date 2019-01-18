@@ -12,10 +12,10 @@ ms.search.keywords: non-inventoriable
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-catalog-items"></a>Arbeiten mit Katalogartikeln
@@ -25,8 +25,8 @@ Sie können Ihren Debitoren bestimmte Artikel als Dienstleistung anbieten, die S
 * Wählen Sie aus einer Auftragsposition des Typs **Artikel** mit einem leeren ***Nummern*** Katalog-Feld einen Artikel, der nicht an Lager ist. Eine Artikelkarte wird automatisch für den Katalog-Artikel erstellt.
 
 > [!NOTE]  
-> Sie können im Fenster Katalogartikel keine **Verkaufsrechungen**auswählen.<br /><br />
-> Sie können Katalogartikel im Fenster **Verkaufschance** auswählen, aber der Katalogartikel wird nicht in einen normalen Artikel konvertiert, wenn Sie die Funktion **Auftrag erstellen** verwenden.
+> Sie können auf der Seite Katalogartikel keine **Verkaufsrechungen**auswählen.<br /><br />
+> Sie können Katalogartikel auf der Seite **Verkaufschance** auswählen, aber der Katalogartikel wird nicht in einen normalen Artikel konvertiert, wenn Sie die Funktion **Auftrag erstellen** verwenden.
 
 Ein Katalogartikel besitzt üblicherweise die Artikelnummer des Kreditoren, der diesen bereitstellt. Um die Konvertierung einer Katalogartikelkarte in eine normale Artikelkarte zu aktivieren, muß zunächst eingerichtet werden, wie die Kreditorenartikelnummerierung in Ihre eigene Artikelnummerierung umgewandelt wird.   
 
@@ -49,7 +49,7 @@ Um die Konvertierung einer Katalogartikelkarte in eine normale Artikelkarte zu a
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>So konvertieren Sie einen Katalogartikel in einen normalen Artikel
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die Karte für einen Katalogartikel, den Sie in einen normalen Artikel umwandeln wollen.
-3. Wählen Sie im Fenster **Katalogartikelkarte** die Aktion **Artikel erstellen** aus.
+3. Wählen Sie auf der Seite **Katalogartikelkarte** die Aktion **Artikel erstellen** aus.
 
 Eine neue Artikelkarte, die mit Informationen des Katalogartikels und einer Vorlage des entsprechenden Artikels ausgefüllt ist, wird erstellt. Sie können dann die Felder in der neuen Artikelkarte nach Bedarf ausfüllen oder ändern. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
@@ -60,7 +60,7 @@ Eine neue Artikelkarte, die mit Informationen des Katalogartikels und einer Vorl
 4. Wählen Sie die Aktion **Position** und dann die Aktion **Artikel nicht an Lager auswählen**.
 
     Der Katalogartikel ist nun in einen normalen Artikel umgewandelt. Eine neue Artikelkarte, die mit Informationen des Katalogartikels und einer Vorlage des entsprechenden Artikels ausgefüllt ist, wird erstellt.
-5. Wählen Sie im Fenster **Katalogartikel** den Katalogartikel aus, den Sie verkaufen möchten, und klicken Sie anschließend auf **OK**.
+5. Wählen Sie auf der Seite **Katalogartikel** den Katalogartikel aus, den Sie verkaufen möchten, und klicken Sie anschließend auf **OK**.
 6. Wenn der Verkaufsauftrag ausgeführt wurde, wählen Sie die Aktion **Buchen** aus.
 
 Sie können dann die Felder in der neuen Artikelkarte nach Bedarf ausfüllen oder ändern. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
@@ -71,6 +71,6 @@ Sie können dann die Felder in der neuen Artikelkarte nach Bedarf ausfüllen ode
 ## <a name="see-also"></a>Siehe auch
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Spezialaufträge erstellen](sales-how-to-create-special-orders.md)|  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

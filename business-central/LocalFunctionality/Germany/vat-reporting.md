@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4298ea3680efcc50e048d0669ded1c765f485fdd
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 28a7dcdde6919016948ab4f0515df1c26813a603
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="vat-reporting"></a>MwSt.-Abrechnung
@@ -28,7 +28,7 @@ Folgende lokale MwSt.-Erklärungen können gedruckt werden:
 |------------|---------------------------------------|  
 |**MwSt.-Abrechnung Meldung**|Eine einfache MwSt.-Erklärung. Die MwSt.-Abrechnung erfolgt mithilfe der ELSTER-Funktion. Die Beträge werden nach steuerpflichtiger Basis und steuerpflichtigem Betrag aufgeteilt.<br /><br /> Dient als Basis für die MwSt.-Erfassung für einen ausgewählten Zeitraum und wird gemäß der MwSt.-Abrechnung in der Tabelle MwSt.-Abrechnungszeile gedruckt.<br /><br /> Verwenden Sie diese Erklärung in Verbindung mit der MwSt.-Korrektur.|  
 |**UVA Kontennachweis**|Bestätigt, dass Posten im MwSt.-Abrechnungsformular auch in Finanzbuchhaltungskonten gebucht werden.<br /><br /> Wählen Sie zur Überprüfung der MwSt. im Fenster Umsatzsteuervoranmeldung für das MwSt.-Abrechnungsformular und die Umsatzsteuervoranmeldung die gleichen Einstellungen aus.|  
-|**MwSt.-Abrechnung Schema**|Diese Erklärung kann im Formular **MwSt.-Abrechnung** abgerufen werden.<br /><br /> Druckt die Einstellungen in der MwSt.-Abrechnung. Druckt die Einstellungen in der MwSt.-Abrechnung. Mithilfe des Berichts können die Merkmale von **MwSt Kontennachweis** gedruckt werden.|  
+|**MwSt.-Abrechnung Schema**|Diese Erklärung kann auf der Seite **MwSt.-Abrechnung** abgerufen werden.<br /><br /> Druckt die Einstellungen in der MwSt.-Abrechnung. Druckt die Einstellungen in der MwSt.-Abrechnung. Mithilfe des Berichts können die Merkmale von **MwSt Kontennachweis** gedruckt werden.|  
 
 ## <a name="see-also"></a>Siehe auch  
 [So gehts: Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  

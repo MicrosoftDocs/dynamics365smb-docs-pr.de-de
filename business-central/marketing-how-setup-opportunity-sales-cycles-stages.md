@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 34262b070ea19b5f109c9194d6a91ef048132e6b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Einrichten von Verkaufsprozessen für Verkaufschancen und Prozess-Stufen
@@ -25,13 +25,13 @@ Das Implementieren des Verkaufsprozesses für Verkaufschancen umfasst das Einric
 Dieses Thema beschreibt auch Entscheidungsträgern als Einrichtungsaufgaben und die Aktivitäten und wie Aufgaben zu den Aktionen zugewiesen werden. Weitere Informationen finden Sie unter "Aktivitäten mit Aufgaben" einrichten.
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Um Verkaufschancen-Zykluscodes einzurichten:
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufszyklen** ein, und wählen dann den zugehörigen Link aus. Das **Verkaufsprozesse**-Fenster wird geöffnet und führt alle vorhandenen Verkaufsprozesse auf.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufszyklen** ein, und wählen dann den zugehörigen Link aus. Die Seite **Verkaufsprozesse** wird geöffnet und führt alle vorhandenen Verkaufsprozesse auf.
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Wiederholen Sie diese Schritte, um weitere Verkaufsprozesse einzurichten. Nachdem Sie Verkaufsprozesse für Verkaufschancen eingerichtet haben, können Sie die verschiedenen Stufen innerhalb jedes Prozesses einrichten.
 
 ## <a name="to-define-opportunity-sales-cycle-stages"></a>Verkaufsprozessstufe der Verkaufschance definieren
-1. Wählen Sie im Fenster **Verkaufsprozesse** den Verkaufsprozess für Verkaufschancen aus, für den Sie Stufen einrichten möchten, und wählen Sie dann die Aktion **Stufen**. Das Fenster **Verkaufsprozess-Stufen** wird geöffnet.
+1. Wählen Sie auf der Seite **Verkaufsprozesse** den Verkaufsprozess für Verkaufschancen aus, für den Sie Stufen einrichten möchten, und wählen Sie dann die Aktion **Stufen**. Die Seite **Verkaufsprozess-Stufen** wird geöffnet.
 2. Klicken Sie auf **Neu**, um eine neue Stufe für den Verkaufsprozess einzugeben.
 
 Wiederholen Sie diese Schritte, um beliebig viele Stufen innerhalb des Verkaufsprozesses einzurichten.
@@ -54,13 +54,13 @@ Wenn Sie eine Aufgabe eingerichtet haben, können Sie sie in einer Verkaufschanc
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Chancen** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie eine Chance und wählen Sie dann die Aktion **Aufgaben** aus.
-3. Wählen Sie im Fenster **Aufgabenliste** die Aktion **Aufgabe erstellen**.
-4.  Füllen Sie im Fenster **Aufgabe erstellen** die Felder wie benötigt aus.
+3. Wählen Sie auf der Seite **Aufgabenliste** die Aktion **Aufgabe erstellen**.
+4.  Füllen Sie auf der Seite **Aufgabe erstellen** die Felder wie benötigt aus.
 
     Beachten Sie im Feld **Verkaufschance**, dass es automatisch der Verkaufschance zugewiesen wird.
 5. Wählen Sie die Schaltfläche **OK** aus.
-6. Im **Aufgabenlisten**-Fenster wählen Sie die Verkaufschance und dann die **Aktivität zuweisen**-Aktion aus.
-7. Im Fenster **Aktivität zuweisen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
+6. Auf der Seite **Aufgabenlisten** wählen Sie die Verkaufschance und dann die **Aktivität zuweisen**-Aktion aus.
+7. Auf der Seite **Aktivität zuweisen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
 
 ## <a name="see-also"></a>Siehe auch
 [Verarbeiten von Verkaufschancen](marketing-processing-sales-opportunities.md)  

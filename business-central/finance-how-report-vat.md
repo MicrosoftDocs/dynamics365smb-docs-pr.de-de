@@ -11,14 +11,14 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c75b9eef5716379f6545494c20cbe6c7b34c1edd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
-# <a name="how-to-report-vat-to-a-tax-authority"></a>So gehts: Melden von MwSt. an eine Steuerbehörde
+# <a name="how-to-report-vat-to-a-tax-authority"></a>So geht's: Melden von MwSt. an eine Steuerbehörde
 Dieses Thema beschreibt die Berichte in [!INCLUDE[d365fin](includes/d365fin_md.md)], die Sie verwenden können, um MwSt.-Informationen über Einkäufe und Verkäufe an die Steuerbehörden in Ihrer Region zu senden.
 
 Es können folgende Berichte verwendet werden:
@@ -116,5 +116,5 @@ Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen m�
 [Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten](finance-setup-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Verkaufsrechnung](sales-how-invoice-sales.md)  
+[Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2e70ad534a28cf5062e9e54a2dfbd3af6afaa39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Hinzufügen von Links zu Websites, Belegen oder Programmen auf Datensätze
@@ -26,7 +26,7 @@ Ein anderes Beispiel könnte sein, wenn Sie gedruckte Rechnungen von Kreditoren 
 
 1.  Öffnen Sie den Datensatz, dem Sie den Link zuordnen möchten (beispielsweise Debitorenkarte oder Verkaufsauftrag). Wenn Sie den Link einer bestimmten Zeile (beispielsweise eine Buch.-Blattzeile) zuordnen möchten, wählen Sie die Zeile aus.  
 
-2.  Wählen Sie die **Links** Aktion aus, die **Links** Fenster öffnen, die alle aktuellen und Links anzeigt, die dem Datensatz hinzugefügt werden.
+2.  Wählen Sie die **Links** Aktion aus, um die **Links** Seiten zu öffnen, die alle aktuellen und Links anzeigt, die dem Datensatz hinzugefügt werden.
 
 3. Um neue Benutzer zu erstellen, wählen Sie **+Neu**.
 
@@ -43,7 +43,7 @@ Ein anderes Beispiel könnte sein, wenn Sie gedruckte Rechnungen von Kreditoren 
 
 ## <a name="to-delete-a-link-from-a-record"></a>So entfernen Sie einen Link aus einem Datensatz:  
 
-Um einen Link im Fenster **Links** zu deaktivieren, können Sie auf **…** und anschließend **Löschen** auswählen.
+Um einen Link auf der Seite **Links** zu deaktivieren, können Sie auf **…** und anschließend **Löschen** auswählen.
 
 Wenn Sie einen einzelnen Datensatz (z. B. eine Verkaufszeile, einen Verkaufsauftrag oder eine Debitorenkarte) löschen, werden alle Links gelöscht, die dem Datensatz zugeordnet sind. Wenn Datensätze dagegen mit einer Stapelverarbeitung gelöscht werden wie **Verrechnter Verkaufsauftrag löschen** Stapelverarbeitung, dann wird der Link in der Datenbank gespeichert. Wenn Sie diese Links aus der Datenbank löschen möchten, führen Sie die Codeunit **Nicht verbundene Datensatzverknüpfungen löschen** aus. Wählen Sie dazu das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben **Nicht verbundene Datensatzverknüpfungen löschen** ein, und wählen dann den zugehörigen Link aus.   
 
@@ -51,7 +51,7 @@ Wenn Sie einen einzelnen Datensatz (z. B. eine Verkaufszeile, einen Verkaufsauft
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Siehe auch  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 001923d52ca7f04a338814d6636c3005277a5d02
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -44,7 +44,7 @@ Um die Einrichtung des Problemberichtwesens abzuschließen, kann auch angegeben 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Fehler-/Lösungscode-Beziehung** ein, und wählen dann den zugehörigen Link aus.  
 2. Geben Sie die daten ein, um den Zeitraum zu definieren, der von der Stapelverarbeitung berücksichtigt werden soll.  
 3. Aktivieren Sie das Feld **Zuordnung basierend auf Serviceartikelgruppe**, wenn die Zuordnungen nach Serviceartikelgruppen sortiert werden sollen.  
-4. Aktivieren Sie das Feld **Problem-/Lösungszuordnungscodebeziehungen** und wählen Sie das Kontrollkästchen **Manuell eingefügte Datensätze behalten** aus.  
+4. Um bereits manuell auf der Seite **Problem-/Lösungszuordnungscodebeziehungen** eingefügte Datensätze zu behalten, aktivieren Sie das Kontrollkästchen **Manuell eingefügte Datensätze behalten**.  
 
 ## <a name="see-also"></a>Siehe auch
 [Einrichten der Serviceverwaltung](service-setup-service.md)  

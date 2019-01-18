@@ -1,6 +1,6 @@
 ---
 title: Willkommen| Microsoft Docs
-description: "Gliedert die unterstützten Einrichtungshandbücher, Videos, Hilfethemen, Seiten und Fenster, die sie verwenden, um Business Central zu nutzen."
+description: "Gliedert die unterstützten Einrichtungshandbücher, Videos, Hilfethemen, Seiten, die sie verwenden, um Business Central zu nutzen."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
@@ -12,23 +12,23 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ddffef784a80227ea28b193779b4aead7c3b691a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 44d81c85b1519c3c916a4e6509121afda5b4d5a2
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)]  eingerichtet.
 
-Für Unterstützung zum Tätigen vom Geschäften erhalten, können Sie das Fenster **Geschäfts-Hilfe** aufsuchen. Dort können Sie die unterstützte Hilfe starten oder Hilfethemen für ausgewählte Einrichtungsaufgaben aufrufen. Sie rufen das Fenster aus dem Diagramm im Rollencenter zu **Geschäftsführer** auf, indem Sie das Steuerelement **Geschäfts-Hilfe** auswählen, und dann die Aktion **Einrichtungs- und Hilfe-Ressourcen anzeigen** auswählen. Wenn Sie die Seite aktualisieren, wird das Diagramm der Einrichtungs- und Hilferessourcen ersetzt.
+Für Unterstützung zum Tätigen vom Geschäften erhalten, können Sie die Seite **Geschäfts-Hilfe** aufsuchen. Dort können Sie die unterstützte Hilfe starten oder Hilfethemen für ausgewählte Einrichtungsaufgaben aufrufen. Sie rufen die Seite aus dem Diagramm im Rollencenter zu **Geschäftsführer** auf, indem Sie das Steuerelement **Geschäfts-Hilfe** auswählen, und dann die Aktion **Einrichtungs- und Hilfe-Ressourcen anzeigen** auswählen. Wenn Sie die Seite aktualisieren, wird das Diagramm der Einrichtungs- und Hilferessourcen ersetzt.
 
-Im Rollencenter am unteren Rand des Navigationsbereichs finden Sie das Menü **Einrichtung und Erweiterungen**. Hier sehen Sie eine Übersicht der unterstützten Einrichtung , die Ihnen bei den ersten Schritten helfen kann. Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie in Betracht ziehen, ob die unterstützte Einrichtung Ihnen helfen kann. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung** aus, um auf das Einrichtungsfenster zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+Im Rollencenter am unteren Rand des Navigationsbereichs finden Sie das Menü **Einrichtung und Erweiterungen**. Hier sehen Sie eine Übersicht der unterstützten Einrichtung , die Ihnen bei den ersten Schritten helfen kann. Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie in Betracht ziehen, ob die unterstützte Einrichtung Ihnen helfen kann. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung** aus, um auf die Einrichtungsseiten zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
 > [!NOTE]  
 >   Die Liste der Einrichtungshilfen, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Premium**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
 
-Im Fenster **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung **Essential**:
+Auf der Seite **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung **Essential**:
 
 | Unterstütztes Setup | Description |
 | --- | --- |
@@ -51,16 +51,16 @@ Verwenden Sie die Pfeile, um einen Teil der Seite zu verkleinern und mehr Platz 
 > Sie können zurück zum Rollencenter gelangen, indem Sie den Unternehmensnamen in der linken Teil des Fensters auswählen.
 
 ## <a name="company-information"></a>Unternehmensdaten
-Unter **Mandanten-Einstellungen** können Sie Informationen über den aktuellen Mandanten anzeigen und einrichten. Vieles davon wurde bereits beim **Einrichten des Mandanten** ausgefüllt bei der Anmeldung zu Pro [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wenn Sie das Firmenlogo, die Kontaktinformation, die Bankeinstellungen oder die Steuerdaten ändern möchten, können Sie dies in diesem Fenster tun.    
+Unter **Mandanten-Einstellungen** können Sie Informationen über den aktuellen Mandanten anzeigen und einrichten. Vieles davon wurde bereits beim **Einrichten des Mandanten** ausgefüllt bei der Anmeldung zu Pro [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wenn Sie das Firmenlogo, die Kontaktinformation, die Bankeinstellungen oder die Steuerdaten ändern möchten, können Sie dies auf der Seite tun.    
 
 ## <a name="adding-users-and-permissions"></a>Hinzufügen von Benutzern und von Berechtigungen
-Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Office 365 Admin Center durchgeführt. Weitere Informationen sind hier verfügbar [Benutzer zu Office 365 for Business hinzufügen](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Sobald der Benutzer im Office 365 erzeugt wurde, können sie in das Fensters **Benutzer** importiert werden, und zwar mithilfe der Aktion **Benutzer von Office 365 abrufen**. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Verwalten von Benutzern und Berechtigungen](ui-how-users-permissions.md).  
+Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Office 365 Admin Center durchgeführt. Weitere Informationen sind hier verfügbar [Benutzer zu Office 365 for Business hinzufügen](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Sobald der Benutzer im Office 365 erzeugt wurde, können sie auf die Seite **Benutzer** importiert werden, und zwar mithilfe der Aktion **Benutzer von Office 365 abrufen**. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Verwalten von Benutzern und Berechtigungen](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Abrufen von Hilfe
 Im [!INCLUDE[d365fin](includes/d365fin_md.md)] finden Sie die Hilfethemen, die Sie durch die einzelnen Geschäftsvorgänge führen. In jeder QuickInfo finden Sie einen Link **Mehr erfahren**, der Sie zum Hilfethema führt. Das Fragezeichen in der rechten oberen Ecke bringt Sie ebenfalls zum Hilfethema.
 
 ## <a name="next-steps"></a>Nächste Schritte
-Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Mein Unternehmen** im Fesnter **Start**, um rasch ein neues Verkaufsangebot, eine Verkaufsrechnung, ein Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen.
+Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Mein Unternehmen** im Abschnitt **Startseite**, um rasch ein neues Verkaufsangebot, eine Verkaufsrechnung, ein Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen.
 
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  

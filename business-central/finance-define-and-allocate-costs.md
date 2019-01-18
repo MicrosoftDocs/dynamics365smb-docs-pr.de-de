@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7bdddcadf3fb7dceb762354e8fa527158782b676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d67329ce09b40019d9568abee47cef33e3b60e85
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defining-and-allocating-costs"></a>Definieren und Zuweisen von Kosten
@@ -36,12 +36,108 @@ Für jedes Zuteilungsziel definieren Sie eine Zuteilungsgrundlage. Die Zuteilung
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 
-|An|Siehe|  
-|--------|---------|  
-|Richten Sie die Zuteilungsquelle und ihre Ziele ein.|[Richten Sie die Zuteilungsquelle und Ziele ein](finance-how-to-set-up-allocation-source-and-targets.md)|  
-|Richten Sie verschiedene Filter für dynamische Zuteilungsgrundlagen ein.|[Setzen von Filtern für dynamische Zuteilungsgrundlagen](finance-setting-filters-for-dynamic-allocation-bases.md)|  
-|Sehen Sie sich ein Beispiel für das Definieren einer statischen Verteilung an.|[Szenario-Beispiel: Definieren von statischen Verteilungen basierend auf dem Verteilungsverhältnis](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
-|Sehen Sie sich ein Beispiel für das Definieren einer dynamischen Zuteilung an.|[Szenario-Beispiel: Definieren von dynamischen Zuteilungen auf der Basis der verkauften Artikel](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  
+## <a name="setting-up-allocation-source-and-targets"></a>Richten Sie die Zuteilungsquelle und Ziele ein
+Jede Zuordnung besteht aus einer Zuordnungsquelle und einer oder mehreren Zuordnungszielen. Die Zuordnungsquelle definiert, welche Kosten zugeordnet werden. Die Zuordnungsziele bestimmen, wie die Kosten zugeordnet werden.  
+
+### <a name="to-set-up-cost-allocations"></a>So richten Sie Kostenzuordnungen ein  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kostenzuteilung** ein, und wählen dann den zugehörigen Link aus.  
+2.  Wählen Sie auf der Seite **Kostenzuteilung** die Aktion **Bearbeiten** aus.  
+3.  Geben Sie eine ID für die Zuordnungsquelle in das Feld **ID** ein.  
+4.  Definieren Sie eine **Ebene** als Zahl zwischen 1 und 99 im Feld . Die Verteilungsbuchung richtet sich nach der Reihenfolge der Stufen.  
+5.  Geben Sie eine Kostenart ein, um festzulegen, welche Kostenarten im Feld **Kostenartbereich** zugeordnet werden. Wenn alle Kosten für eine Kostenart zugeordnet werden, wird kein Bereich definiert.  
+6.  Geben Sie eine Kostenstelle zusammen mit den zuzuordnenden Kosten im Feld **Kostenstellencode** ein.  
+7.  Geben Sie eine Kostenstelle zusammen mit den zuzuordnenden Kosten im Feld **Kostenstellencode** ein. Am häufigsten bleibt das Feld leer, da Kostenobjekte selten anderen Kostenträgern zugeordnet werden.  
+8.  Geben Sie im Feld **Für Kostenart gutschreiben** eine Kostenart ein. Die Kosten, die zugeteilt werden, werden der ursprünglichen Kostenart gutgeschrieben. Die Kreditbuchung wird auf Kostenart gebucht, die hier angegeben ist.  
+9. Definieren Sie im Inforegister **Zeilen** die Verteilungsziele. Geben Sie auf der ersten Zeile unter **Zielkostenart** eine Kostenart ein. So definieren Sie, unter welcher Kostenart die Zuordnung gebucht wird.  
+10. Geben Sie in der ersten Zeile das erste Zuordnungsziel in das Feld **Zielkostenstelle** oder **Zielkostenobjekt** ein. Diese beiden Felder definieren, auf welche Kostenstelle oder welchen Kostenträger die Zuordnung gebucht wird. Sie können eines dieses Felder ausfüllen, aber nicht beide.  
+11. Wiederholen Sie dieselben Schritte in der zweiten Zeile, um zusätzliche Zuordnungsziele einzurichten.  
+12. Nach dem Einrichten der Zuordnungsziele und -quellen wählen Sie auf der Registerkarte Start in der Gruppe Prozess die Aktion **Verteilungsschlüssel berechnen** aus, um die gesamten Aktienwerte zu berechnen.  
+
+> [!NOTE]  
+>  Aktivieren Sie das Kontrollkästchen **Gesperrt**, um die Verteilungseinrichtung zu deaktivieren.
+
+## <a name="setting-filters-for-dynamic-allocation-bases"></a>Setzen von Filtern für dynamische Zuteilungsgrundlagen
+Die Methode der dynamischen Zuteilung basiert auf veränderbaren Werten. Zum Beispiel die Anzahl der Mitarbeiter in einer Kostenstelle oder die Artikel eines Kostenträgers, die in einem bestimmten Zeitraum verkauft wurden. Es gibt neun vordefinierte Zuteilungsgrundlagen und zwölf dynamische Datumsbereiche. Die verschiedenen Filter werden basierend auf der Zuteilungsgrundlage eingestellt.  
+
+### <a name="setting-filters-for-dynamic-allocation-bases"></a>Setzen von Filtern für dynamische Zuteilungsgrundlagen  
+ Die nachstehende Tabelle zeigt, welche Filter für verschiedene Zuteilungsgrundlagen möglich sind und welche Werte in den Feldern **Filter-Nr.** und **Gruppenfilter** gültig sind. Drücken Sie F1 im Feld **Datenfiltercode**, um detaillierte Beschreibungen zu lesen.  
+
+|**Bemessungsgrundlage**|**Nr. Filter**|**Datumsfiltercode**|**Kostenstellenfilter**|**Kostenträgerfilter**|**Gruppenfilter**|  
+|--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
+|Sachposten|Sachkonto|Ja|Ja|Ja|N/Z|  
+|Finanzbudgetposten|Sachkonto|Ja|Ja|Ja|Finanzbudgetname|  
+|Kostenartposten|Einstandspreisberechnung|Ja|Ja|Ja|N/Z|  
+|Kostenbudgetposten|Einstandspreisberechnung|Ja|Ja|Ja|Budgetname|  
+|Anzahl Mitarbeiter|N/Z|Ja|Ja|Ja|N/Z|  
+|Verkaufte Artikel (Menge)|Artikelnr.|Ja|Ja|Ja|Lagerbuchungsgruppe|  
+|Erworbene Artikel (Menge)|Artikelnr.|Ja|Ja|Ja|Lagerbuchungsgruppe|  
+|Verkaufte Artikel (Betrag)|Artikelnr.|Ja|Ja|Ja|Lagerbuchungsgruppe|  
+|Erworbene Artikel (Betrag)|Artikelnummer|Ja|Ja|Ja|Lagerbuchungsgruppe|
+
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Szenario 1: Definieren von statischen Verteilungen basierend auf dem Verteilungsverhältnis
+Die statische Verteilungsmethode basiert auf einem definierten Wert, zum Beispiel die verwendeten Quadratmeter oder ein eingerichtetes Verteilungsverhältnis, wie 5:2:4.  
+
+In diesem Thema wird beschrieben, wie drei neue Verteilungsziel-Kostenträger für die Kostenstelle der Verteilungsquelle PROD mithilfe des eingerichteten Verteilungsverhältnisses 5:2:4 definiert wird. Die drei Zielkostenträger sind ZUBEHÖR, FARBE und EINRICHTUNG.  
+
+> [!NOTE]  
+>  Das Beispiel verwendet die Demodaten in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+
+### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>So definieren die die Kostenstelle der Verteilungsquelle PROD auf dem Inforegister "Allgemein"  
+
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kostenzuteilung** ein, und wählen dann den zugehörigen Link aus.  
+2.  Wählen Sie auf der Seite **Kostenzuteilung** die Aktion **Neu** aus.  
+3.  Drücken Sie im Feld **ID** die EINGABETASTE, oder geben Sie eine ID ein.  
+4.  Geben Sie in dem Feld **Menge** **1** ein.  
+5.  In den Feldern **Gültigkeit ab** und **Gültig bis** geben Sie passende Datumsangaben ein.  
+6.  Geben Sie im Feld **Kostenstellencode** **PROD** ein.  
+7.  Geben Sie im Feld **Für Kostenart gutschreiben** die Kostenart **9903** ein.  
+
+### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>So definieren Sie die Verteilungsziel-Kostenträger auf dem Inforegister "Zeilen"  
+
+1.  Wählen Sie in der ersten Rechnungszeile in dem Feld **Zielkostenart** **9903** ein.  
+2.  Wählen Sie in der ersten Rechnungszeile in dem Feld **Zielkosteobjekt** **ACCESSO**.  
+3.  Wählen Sie in der ersten Zeile im Feld **Zielart zuweisen** die Option **Alle Kosten** aus, um festzulegen, wie alle anfallenden Kosten zugeordnet werden.  
+4.  Wählen Sie in der ersten Zeile im Feld **Basis** die Option **Statisch** aus, um die Methode der statischen Verteilung zu verwenden.  
+5.  Geben Sie in der ersten Zeile im Feld **Aktie** das Verteilungsverhältnis **5**ein.  
+6.  Wählen Sie in der zweiten Rechnungszeile in dem Feld **Zielkostenart** **9903**.  
+7.  Wählen Sie in der zweiten Rechnungszeile in dem Feld **Zielkosteobjekt** **PAINT.**  
+8.  Wählen Sie in der zweiten Zeile im Feld **Zielart zuweisen** die Option **Alle Kosten** aus, um festzulegen, wie alle anfallenden Kosten zugeordnet werden.  
+9. Wählen Sie in der zweiten Zeile im Feld **Basis** die Option **Statisch** aus, um die Methode der statischen Verteilung zu verwenden.  
+10. Geben Sie in der zweiten Zeile im Feld **Aktie** das Verteilungsverhältnis **2**ein.  
+11. Wählen Sie in der dritten Rechnungszeile in dem Feld **Zielkostenart** **9903** ein.  
+12. Wählen Sie in der dritten Rechnungszeile in dem Feld **Zielkosteobjekt** **ACCESSO**.  
+13. Wählen Sie in der dritten Zeile im Feld **Zielart zuweisen** die Option **Alle Kosten** aus, um festzulegen, wie alle anfallenden Kosten zugeordnet werden.  
+14. Wählen Sie in der dritten Zeile im Feld **Basis** die Option **Statisch** aus, um die Methode der statischen Verteilung zu verwenden.  
+15. Geben Sie in der dritten Zeile im Feld **Aktie** das Verteilungsverhältnis **4**ein.  
+
+> [!IMPORTANT]  
+>  [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet automatisch das Feld  unter Verwendung eines **Prozentsatzes**, der von allen drei Zuteilungsverhältnissen abhängt, die im Feld **Aktie** für alle drei Zeilen eingegeben werden.
+
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Szenario 2: Definieren von dynamischen Zuteilungen auf der Basis der verkauften Artikel
+Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der Methode der dynamischen Verteilung. In dem Beispiel ändern Sie die dynamische Verteilung der Kosten für die VERKAUF-Kostenstelle, sodass der neue Kostenträger COMPUTERAUSSTATTUNG unterstützt wird. COMPUTERAUSSTATTUNG-Pakete haben Artikelnummern im Bereich von 8904-W bis 8924-W. Sie verwenden die Verkaufszahlen des Vorjahres, um den Anteil zu berechnen. Die Verteilung wird auf die helfende Kostenart 9903 gebucht.  
+
+> [!NOTE]  
+>  Das Beispiel verwendet die Demodaten in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+
+### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>So definieren Sie dynamische Zuteilungen auf der Basis der im Vorjahr verkauften Artikel  
+
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kostenzuteilung** ein, und wählen dann den zugehörigen Link aus.  
+2.  Wählen Sie auf der Seite **Kostenzuteilung** die Aktion **Neu** aus.  
+3.  Drücken Sie im Feld **ID** die EINGABETASTE, oder geben Sie eine ID ein.  
+4.  Geben Sie in dem Feld **Menge** **1** ein.  
+5.  In den Feldern **Gültigkeit ab** und **Gültig bis** geben Sie passende Datumsangaben ein.  
+6.  Geben Sie im Feld **Kostenstellencode** **VERKAUF** ein.  
+7.  Geben Sie im Feld **Für Kostenart gutschreiben** die Kostenart **9903** ein.  
+8.  Geben Sie im Feld **Für Kostenart gutschreiben** die Kostenart **9903** ein.  
+9. Wählen Sie im Feld **Zielkostenobjekt** die Option **Neu** aus, um einen neuen Kostenträger COMPUTERAUSSTATTUNG zu erstellen, und füllen Sie ggf. Felder aus. Wählen Sie **COMPUTERAUSSTATTUNG** aus. Lassen Sie das Feld **Zielkostenstelle** leer.  
+10. Wählen Sie in der dritten Zeile im Feld **Zielart zuweisen** die Option **Alle Kosten** aus, um festzulegen, wie alle anfallenden Kosten zugeordnet werden.  
+11. Wählen Sie im Feld **Basis** die Verteilungsgrundlage **Verkaufte Artikel (Betrag)** aus.  
+12. Geben Sie im Feld **Nummernfilter** den Wert **8904-W..8924-W** ein.  
+13. In dem Feld **Datumsfiltercode** geben Sie **Vorjahr** ein.  
+14. Damit der Vorschlag berechnet wird, klicken Sie auf Aktionen **Fremdarbeit berechnen**.  
+
+> [!IMPORTANT]  
+>  [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet die Verkaufszahlen der Vorjahre, um einen Anteil von 1596,50 MW mit 100 Prozent für die COMPUTERAUSSTATTUNG-Pakete zu berechnen. Das bedeutet, dass alle Artikel, die letztes Jahr verkauft wurden, dem Kostenträger COMPUTERAUSSTATTUNG zugeordnet werden.
 
 ## <a name="see-also"></a>Siehe auch  
  [Einrichten der Kostenrechnung](finance-set-up-cost-accounting.md)   

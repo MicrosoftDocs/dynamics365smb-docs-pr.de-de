@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bdb9d8c0d47fe53e9e5ea310a83854e69f545d9e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Fertigung durch Fremdarbeitsvertrag
@@ -46,7 +46,7 @@ Weitere Informationen finden Sie unter [Arbeitspläne erstellen](production-how-
 ## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Fremdarbeitenvorschläge berechnen und Fremdarbeitsbestellung erstellen  
 Sobald Sie den  Fremdarbeitenvorschlag berechnet haben, wird der entsprechende Beleg (in diesem Fall eine Einkaufsbestellung) erstellt.  
 
-Die Fenster **Fremdarbeitenvorschlag** funktioniert wie die  **Planungsvorschlag**indem es den erforderlichen Vorrat berechnet, in diesem Fall Bestellungen, die Sie im Vorschlag überprüfen und dann mit der Funktion **Ereignismeldung durchführen** erstellen.  
+Die Seiten **Fremdarbeitenvorschlag** funktioniert wie die **Planungsvorschlag**indem es den erforderlichen Vorrat berechnet, in diesem Fall Aufträge, die Sie im Vorschlag überprüfen und dann mit der Funktion **Ereignismeldung durchführen** erstellen.  
 
 > [!NOTE]  
 >  Ein Fertigungsauftrag muss den Status **Freigegeben** haben, damit aus einem Fremdarbeitenvorschlag auf ihn zugegriffen und er dort verwendet werden kann.  
@@ -54,10 +54,10 @@ Die Fenster **Fremdarbeitenvorschlag** funktioniert wie die  **Planungsvorschlag
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Fremdarbeitenvorschlag berechnen  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Unterauftrags-Arbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
 2.  Damit der Vorschlag berechnet wird, klicken Sie auf  Aktionen **Fremdarbeit berechnen**.  
-3.  Definieren Sie im Fenster **Fremdarbeit berechnen** den Filter für an Subunternehmer vergebene Arbeitsgänge oder die Arbeitsplatzgruppen, in der sie ausgeführt werden, um nur die relevanten Fertigungsaufträge zu berechnen.  
+3.  Definieren Sie auf der Seite **Fremdarbeit berechnen** den Filter für an Subunternehmer vergebene Arbeitsgänge oder die Arbeitsplatzgruppen, in der sie ausgeführt werden, um nur die relevanten Fertigungsaufträge zu berechnen.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
 
-    Sehen Sie sich die Zeilen im **Fremdarbeitenvorschlag** an. Die Informationen in diesem Vorschlag stammen aus dem Fertigungsauftrag und den FA-Arbeitsgängen und werden in die Einkaufsbestellung übernommen, wenn dieser Beleg erstellt wird. Wie bei den anderen Vorschlägen auch können Sie eine Zeile aus dem Vorschlag löschen, ohne dass sich dies auf die ursprünglichen Informationen auswirkt. Die Informationen werden wieder angezeigt, wenn Sie die Funktion **Fremdarbeit berechnen** das nächste Mal ausführen.  
+    Sehen Sie sich die Zeilen auf der Seite **Fremdarbeitenvorschlag** an. Die Informationen in diesem Vorschlag stammen aus dem Fertigungsauftrag und den FA-Arbeitsgängen und werden in die Einkaufsbestellung übernommen, wenn dieser Beleg erstellt wird. Wie bei den anderen Vorschlägen auch können Sie eine Zeile aus dem Vorschlag löschen, ohne dass sich dies auf die ursprünglichen Informationen auswirkt. Die Informationen werden wieder angezeigt, wenn Sie die Funktion **Fremdarbeit berechnen** das nächste Mal ausführen.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Einkaufsbestellung für Fremdarbeit generieren  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Unterauftrags-Arbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
@@ -100,7 +100,7 @@ Wenn die Einkaufsbestellung als fakturiert gebucht wird, wird der EK-Preis der E
 [Produktion](production-manage-manufacturing.md)    
 [Produktion einrichten](production-configure-production-processes.md)  
 [Planung](production-planning.md)      
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

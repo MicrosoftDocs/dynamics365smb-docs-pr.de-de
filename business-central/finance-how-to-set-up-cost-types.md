@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Einrichten von Kostenträgern
@@ -32,14 +33,14 @@ Kostenartenpläne ähneln Kontenpläne im Sachkonto. Sie können den Kostenarten
     Der Kostenartenplan enthält jetzt alle GuV-Konten im Sachkonto und umfasst Überschriften und Zwischensummen. Sie können den Kostenartenplan ändern, falls erforderlich. Beispielsweise können Sie doppelt vorhandene Kostenarten löschen.  
 
     > [!IMPORTANT]  
-    >  Die **Kostenarten in Kontenplan registrieren**-Funktion aktualisiert das Verhältnis zwischen dem Kontenplan und dem Kostenartenplan. Das **Nr.** Das Feld  wird ausgefüllt und geprüft, um sicherzustellen, dass jedes Sachkonto mit nur einer Kostenart verknüpft ist. Die Funktion wird automatisch ausgeführt, bevor Sie Sachposten in die Kostenrechnung übertragen.  
+    >  Die **Kostenarten in Kontenplan registrieren**-Funktion aktualisiert das Verhältnis zwischen dem Kontenplan und dem Kostenartenplan. Das Feld **Nr.** wird ausgefüllt und geprüft, um sicherzustellen, dass jedes Sachkonto mit nur einer Kostenart verknüpft ist. Die Funktion wird automatisch ausgeführt, bevor Sie Sachposten in die Kostenrechnung übertragen.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>So richten Sie im Fenster "Liquiditätskontenplan" neue Liquiditätskonten ein  
-1.  Öffnen Sie das Fenster **Kontenplan-Arten** im Bearbeitungsmodus.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>So richten Sie auf der Seite "Liquiditätskontenplan" neue Liquiditätskonten ein  
+1.  Öffnen Sie die Seite **Kontenplan-Arten** im Bearbeitungsmodus.  
 2.  Füllen Sie je nach Bedarf die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  Sie können Kostenarten im Fenster **Kostenartkarte** oder im Fenster **Kostenartenplan** einrichten und verwalten. So richten Sie im Fenster **Liquiditätskontenplan** neue Liquiditätskonten ein.
+    >  Sie können Kostenarten auf der Seite **Kostenartkarte** oder auf der Seite **Kostenartenplan** einrichten und verwalten. So richten Sie auf der Seite **Liquiditätskontenplan** neue Liquiditätskonten ein.
 
 3.  Nachdem Sie alle Kostenarten erstellt haben, wählen Sie die Aktion **Kostenarten einrücken** aus. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**.  
 4.  Verknüpfen Sie die neue Kostenart mit dem entsprechenden Sachkonto.  
@@ -48,7 +49,7 @@ Kostenartenpläne ähneln Kontenpläne im Sachkonto. Sie können den Kostenarten
     >  Wenn Sie in den Feldern **Zusammenzählung** Definitionen für die Zeilenart **Bis-Summe** eingetragen haben, bevor Sie die Funktion **Kostenarten einrücken** ausgeführt haben, müssen Sie diese Eintragungen wiederholen, da die Funktion die Werte in allen **Bis-Summe**-Feldern überschreibt.  
 
 ## <a name="to-update-cost-types"></a>So aktualisieren Sie Kostenarten  
-1.  Im Fenster **Kostenrechnung einrichten**  wählen Sie aus, ob der Kostenartenplan automatisch aktualisiert werden soll, wenn der Kontenplan geändert wird.  
+1.  Auf der Seite **Kostenrechnung einrichten**  wählen Sie aus, ob der Kostenartenplan automatisch aktualisiert werden soll, wenn der Kontenplan geändert wird.  
 2.  Die folgenden Optionen stehen im Feld **Sachkonto ausrichten** zur Auswahl.  
 
 - **Keine Ausrichtung** - Es gibt keine entsprechende Änderung im Kostenartenplan, wenn Sie den Kontenplan ändern.  
@@ -57,7 +58,6 @@ Kostenartenpläne ähneln Kontenpläne im Sachkonto. Sie können den Kostenarten
 
 ## <a name="see-also"></a>Siehe auch  
 [Kostenrechnung](finance-manage-cost-accounting.md)  
-[Definieren der Beziehung zwischen Kostenarten und Sachkonten](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Definieren von Kostenstellen und Kostenträgern für Kontenpläne](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Salden zwischen Kostenart, Kostenstelle und Kostenträger](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Einrichten der Kostenrechnung](finance-set-up-cost-accounting.md)   

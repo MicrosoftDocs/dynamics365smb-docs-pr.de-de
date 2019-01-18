@@ -1,5 +1,5 @@
 ---
-title: Cloud-Kopie Ihre Daten | Microsoft Docs
+title: Intelligente Cloud-Erweiterung von Business Central | Microsoft Docs
 description: Verwenden Sie die Datenreplikationserweiterung, um eine Cloud-Kopie Ihrer Daten zu erstellen, sodass Sie mit der intelligente Cloud verbunden sind.
 author: edupont04
 manager: edupont
@@ -9,24 +9,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c01e1c4fe4cd67e8ef474e174f0a9797b60de329
+ms.sourcegitcommit: 7b5f8cb6a126bdd99ab5fb7a82f981eab1c484a1
+ms.openlocfilehash: 1d4bea462879d49f02c6fa6d8b4a83365d5149a3
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
-# <a name="business-central-data-replication-extension"></a>Datenreplikationserweiterung für Business Central**
+# <a name="business-central-intelligent-cloud-extensions"></a>Intelligente Cloud-Erweiterungen von Business Central
 
-Diese Erweiterung führt Sie durch den Vorgang, um Ihre intelligente Cloud-Umgebung zu konfigurieren.  Sobald die intelligente Cloud-Umgebung konfiguriert wird, haben Sie die Möglichkeit, Daten von Ihrer [!INCLUDE[prodshort](includes/prodshort.md)] lokalen Lösung zu Ihrem [!INCLUDE[prodshort](includes/prodshort.md)] Cloudtenant zu replizieren.  Dadurch können Sie die Möglichkeiten, die die Cloud Ihrem Unternehmen zu bieten hat, in vollen Umfang nutzen, z. B. , erhöhte Einblicke in Ihr Unternehmen, künstliche Intelligenz mehrfacher Gerätzugriff und Zugriff überall und jederzeit.
+Wenn Sie eines der unterstützten lokalen Produkte verwenden, können Sie Ihre intelligente Cloud-Umgebung auf Basis einer produktspezifische Erweiterung konfigurieren. Sobald die intelligente Cloud-Umgebung konfiguriert wird, haben Sie die Möglichkeit, Daten von Ihrer lokalen Lösung zu Ihrem [!INCLUDE[prodshort](includes/prodshort.md)]-Cloud-Tenant zu replizieren. Dadurch können Sie die Möglichkeiten, die die Cloud Ihrem Unternehmen zu bieten hat, in vollen Umfang nutzen, z. B. , erhöhte Einblicke in Ihr Unternehmen, künstliche Intelligenz mehrfacher Gerätzugriff und Zugriff überall und jederzeit.  
 
-Diese Erweiterung muss in Verbindung mit der **Business Central Intelligent** Cloud-Erweiterung verwendet werden.
+## <a name="business-central-on-premises"></a>Lokales Business Central
+Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prodshort](includes/prodshort.md)] verwenden, holen Sie sich die **Intelligente Cloud-Base**-Erweiterung und die **Intelligente Cloud-Erweiterung von Business Central**, und führen Sie den Anleitungen von beiden durch.  
+
+## <a name="dynamics-gp"></a>Dynamics GP
+Wenn Sie Dynamics GP verwenden, holen Sie sich die **intelligente Cloud Base-Erweiterung**-Erweiterung, die  **Dynamics GP-Datenmigration**-Erweiterung und die **intelligente Dynamics GP-Cloud** und befolgen Sie die Anleitungen aller drei.  
 
 ## <a name="see-also"></a>Siehe auch
 
 [Ihr Zugang zur intelligenten Cloud](about-intelligent-cloud.md)  
-[Intelligente Cloud-Erweiterung von Business Central](ui-extensions-intelligent-cloud.md)  
+[Intelligente Cloud Base-Erweiterung](ui-extensions-intelligent-cloud.md)  
 

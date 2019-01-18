@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="assemble-items"></a>Artikel montieren
@@ -44,18 +44,18 @@ In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Arti
 
 ## <a name="to-assemble-an-item"></a>Um einen Artikel zu montieren  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Montageauftrag** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie die Aktion **Neu** aus. Das Fenster **Neuer Montageauftrag** wird geöffnet.  
+2.  Wählen Sie die Aktion **Neu** aus. Die Seite **Neuer Montageauftrag** wird geöffnet.  
 3.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Wählen Sie im Feld **Artikelnr.** den Montageartikel aus, den Sie verarbeiten möchten. Das Feld wird gefiltert, um nur Artikel angezeigt, die für die Montage eingerichtet sind, d.h., denen Montagestücklisten zugeordnet sind.  
 5.  Geben Sie im Feld **Menge** ein wie viele Einheiten des Artikels Sie montieren möchten.  
 
     > [!NOTE]  
-    >  Wenn eine oder mehrere Komponenten nicht verfügbar sind, um die eingegebene Menge des Montageartikels zum definierten Fälligkeitsdatum herzustellen, dann wird automatisch das Fenster **Montageverfügbarkeit** geöffnet, um detaillierte Informationen darüber anzuzeigen, wie viele Montageartikel basierend auf der Komponentenverfügbarkeit montiert werden können. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md)  Wenn Sie das Fenster schließen, wird der Montageauftrag mit Verfügbarkeitswarnungen in den betroffenen Komponentenzeilen erstellt.  
+    >  Wenn eine oder mehrere Komponenten nicht verfügbar sind, um die eingegebene Menge des Montageartikels zum definierten Fälligkeitsdatum herzustellen, dann wird automatisch die Seite **Montageverfügbarkeit** geöffnet, um detaillierte Informationen darüber anzuzeigen, wie viele Montageartikel basierend auf der Komponentenverfügbarkeit montiert werden können. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md)  Wenn Sie die Seite schließen, wird der Montageauftrag mit Verfügbarkeitswarnungen in den betroffenen Komponentenzeilen erstellt.  
 
     Die Montageauftragszeilen werden automatisch mit dem Inhalt der Montagestückliste und mit Zeilenmengen entsprechend dem Montageauftragskopf gefüllt.  
 
     > [!NOTE]  
-    >  Wenn das Fenster **Montageverfügbarkeit** beim Ausfüllen des Montageauftragskopfs geöffnet wurde, dann enthalten alle betroffenen Montageauftragszeilen **Ja** im Feld **Verfügbarkeitswarnung** und eine Verknüpfung zu den detaillierten Verfügbarkeitsinformationen. Weitere Informationen finden Sie unter Verfügbarkeit prüfen. Sie können ein Komponentenverfügbarkeitsproblem lösen, indem Sie das Startdatum verschieben, die Komponente durch einen anderen Artikel ersetzen oder einen verfügbaren Ersatzartikel auswählen, sofern ein solcher definiert ist.  
+    >  Wenn die Seite **Montageverfügbarkeit** beim Ausfüllen des Montageauftragskopfs geöffnet wurde, dann enthalten alle betroffenen Montageauftragszeilen **Ja** im Feld **Verfügbarkeitswarnung** und eine Verknüpfung zu den detaillierten Verfügbarkeitsinformationen. Weitere Informationen finden Sie unter Verfügbarkeit prüfen. Sie können ein Komponentenverfügbarkeitsproblem lösen, indem Sie das Startdatum verschieben, die Komponente durch einen anderen Artikel ersetzen oder einen verfügbaren Ersatzartikel auswählen, sofern ein solcher definiert ist.  
 
 6.  Geben Sie im Feld **Menge für Montage** ein, wie viele Einheiten des Montageartikels Sie als Ausstoß buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen. Diese Menge kann unter dem Wert im Feld **Menge** liegen, um eine Teilbuchung anzuzeigen.  
 
@@ -72,7 +72,7 @@ Nach erfolgreicher Buchung wird der Montageartikel als Ausstoß für den Lageror
 ## <a name="see-also"></a>Siehe auch
 [Montageverwaltung](assembly-assemble-items.md)  
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Designdetails: Logistik](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

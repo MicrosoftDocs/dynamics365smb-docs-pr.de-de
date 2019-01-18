@@ -11,10 +11,10 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 065f6cc5dc11af1a9cddf2b3eed2b20e99912960
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 79e5a1e34fbd6c119be52deec60bba494fdd2671
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a>Überwachen des Status und der Leistung
@@ -40,7 +40,7 @@ Sie können eine WIP-Methode für das Projekt erstellen, die den Bedarf Ihrer Or
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Job-WIP-Methode** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Schließen Sie das Fenster.   
+3. Schließen Sie die Seite.   
 4. Um diese neue Methode zum Standard zu machen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Job einrichten** ein, und wählen dann den zugehörigen Link aus.  
 5. Wählen Sie im Feld **WIP-Standardmethode** die Methode aus der Liste aus.
 
@@ -49,14 +49,14 @@ Wenn Sie ein neues Projekt erstellen, müssen Sie auswählen, welche WIP-Methode
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus. Weitere Informationen finden Sie unter  [Projekte erstellen](projects-how-create-jobs.md).  
-3. Wählen Sie im Fenster **Projektkarte** im Feld **WIP-Methode** eine WIP-Methode aus der Liste aus. Wenn eine standardmäßige Methode festgelegt wurde, können Sie sofern erforderlich eine andere Option aktivieren.  
+3. Wählen Sie auf der Seite **Projektkarte** im Feld **WIP-Methode** eine WIP-Methode aus der Liste aus. Wenn eine standardmäßige Methode festgelegt wurde, können Sie sofern erforderlich eine andere Option aktivieren.  
 
 ## <a name="to-calculate-wip"></a>So berechnen Sie die WIP
 Bestimmen den WIP-Betrag, der im Rahmen der Berichterstellung am Periodenende auf Bilanzkonten gebucht werden muss Dazu verwenden Sie die Stapelverarbeitung **WIP berechnen Projekt**.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Job berechnet WIP** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **WIP berechnen** aus.
-3. Geben Sie im Fenster **WIP für Projekt berechnen** die notwendigen Felder ein.
+3. Geben Sie auf der Seite **WIP für Projekt berechnen** die notwendigen Felder ein.
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
 > [!NOTE]  
@@ -66,7 +66,7 @@ Bestimmen den WIP-Betrag, der im Rahmen der Berichterstellung am Periodenende au
 Wenn Sie den WIP berechnet haben, können Sie ihn zur Erstellung von Periodenendberichten auf Bilanzkonten buchen. Dazu verwenden Sie die Stapelverarbeitung **WIP nach Sachposten Projekt**.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Job bucht WIP auf Buch.Blatt** ein, und wählen dann den zugehörigen Link aus.  
-2. Füllen Sie im Fenster **WIP nach Sachkonten Projekt buchen** aus und füllen Sie die Felder wie erforderlich aus.  
+2. Füllen Sie auf der Seite **WIP nach Sachkonten Projekt buchen** aus und füllen Sie die Felder wie erforderlich aus.  
 3. Wählen Sie die Schaltfläche **OK** aus.
 
 ## <a name="to-view-job-usage-estimates-and-post-updates"></a>So zeigen Sie Projektverbrauchschätzungen und Buchungsaktualisierungen an.
@@ -79,7 +79,7 @@ Auf diese Weise können Sie die ursprüngliche Planung mit den tatsächlichen Er
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Job Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie ein Buch.-Blatt des entsprechenden Projekts, und wählen Sie dann die Aktion **Verbleibender Verbrauch berechnen** aus.  
-3. Geben Sie im Fenster **Restverbrauch für Projekt berechnen** die Belegnummer und das Buchungsdatum ein, das in das Buch.-Blatt eingefügt werden soll und wählen Sie dann die Schaltfläche **OK**.  
+3. Geben Sie auf der Seite **Restverbrauch für Projekt berechnen** die Belegnummer und das Buchungsdatum ein, das in das Buch.-Blatt eingefügt werden soll und wählen Sie dann die Schaltfläche **OK**.  
 4. Aktualisieren Sie das Buch.-Blatt mit sämtlichen Änderungen, die möglicherweise erforderlich sind.  
 5. Wählen Sie die Aktion **Buchen** aus.
 
@@ -89,7 +89,7 @@ Alle projektbezogenen Posten werden in Projektjournalen aufgezeichnet und fortla
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Job-Register** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Projektposten** aus.
 
-Im Fenster **Projektposten** können Sie die Posten überprüfen, die einem Projekt zugeordnet sind.  
+Auf der Seite **Projektposten** können Sie die Posten überprüfen, die einem Projekt zugeordnet sind.  
 
 ## <a name="see-also"></a>Siehe auch
 [Verwalten von Projekten](projects-manage-projects.md)

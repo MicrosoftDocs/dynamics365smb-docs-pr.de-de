@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7ae293942318c682202a84f0a54ae8b0516c77b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]in einem automatisierten Workflow nutzen
-Sie können die Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Teil eines Workflows in Microsoft Flow verwenden.  
+Sie können die Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Teil eines Workflows in Microsoft Flow verwenden.
+
+> [!NOTE]
+> Zusätzlich zu Microsoft Flow können Sie die Workflowfunktionalität verwenden in [!INCLUDE[d365fin](includes/d365fin_md.md)] Beachten Sie, dass, obwohl es zwei verschiedene Workflowsysteme sind, eine beliebige von Ihnen erstellte Vorlage mit Microsoft Flow der Liste von Workflow-Vorlagen in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzugefügt wird. Weitere Informationen finden Sie unter [Workflow](across-workflow.md)  
 
 > [!NOTE]  
 >   Sie müssen ein gültiges Konto mit [!INCLUDE[d365fin](includes/d365fin_md.md)] und Flow haben.  
@@ -28,7 +31,7 @@ Sie können die Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Teil ei
 1. In Ihrem Browser navigieren Sie zu [flow.microsoft.com](https://flow.microsoft.com/en-us/) und melden sich dann an.
 2. Wählen Sie **My Flows** im Menüband oben auf der Seite.
 3. Es gibt zwei Möglichkeiten, einen Flow zu erstellen: **Aus Formularvorlage erstellen** und **Ohne Vorlage neu erstellen**. Eine Vorlage ist ein vordefinierter Flow, der für Sie erstellt wurde.  Um eine Vorlage zu verwenden, aktivieren Sie sie einfach und erstellen eine Verbindung für jeden Dienst, den die Vorlage verwendet. Eine leere Vorlage ermöglicht Ihnen, einen neuen Flow von Grund auf neu zu erstellen.
-4. Zum Erstellen aus einer leeren Vorlage wählen Sie im Fenster **Meine Flows** die Option **Ohne Vorlage neu erstellen** aus.
+4. Zum Erstellen aus einer leeren Vorlage wählen Sie auf der Seite **Meine Flows** die Option **Ohne Vorlage neu erstellen** aus.
 5. Suchen Sie nach **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]** Connector.
 6. Aus der Liste der verfügbaren Triggern, wählen Sie einen der [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbaren Trigger aus:  
     *Die Genehmigung für einen Debitor wird angefordert*,  
@@ -58,9 +61,6 @@ Zu diesem Zeitpunkt haben Sie erfolgreich Ihre Business Central Daten verbunden 
     *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Fibu Buch.-Blattname anfordern*,  
     *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Fibu Buch.-Blattzeilen anfordern*.  
 11. Flow fordert Sie auf, den Mandanten innerhalb Ihres Tenants [!INCLUDE[d365fin_md](includes/d365fin_md.md)] auszuwählen. Da jede Schritt im Flow unabhängig vom darauffolgenden ist, werden Sie möglicherweise aufgefordert, den Mandanten mehrmals zu definieren, wenn Sie eine Vorlage [!INCLUDE[d365fin_md](includes/d365fin_md.md)] verwenden.
-
-> [!NOTE]  
-> Die Microsoft [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-Vorlage integriert mit dem Kernworkflowmodul in Microsoft[!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Das bedeutet, wenn Sie eine dieser Vorlagen verwenden, um den Flow zu erstellen, wird ein entsprechender Workflow in Microsoft erstellt [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Außerdem muss die Person, die den Flow erstellt, als ein Genehmiger im Leitfaden für die unterstützte Einrichtung eingerichtet sein. Weitere Informationen finden Sie unter [Workflow](across-workflow.md)
 
 Weitere Informationen finden Sie in der [Flow-Dokumentation](https://docs.microsoft.com/en-us/flow/getting-started).
 

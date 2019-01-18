@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f75dab84229aa08c35eddf057805003b69124481
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,14 +36,14 @@ Sie benötigen u. U. eine Übersicht an Serviceaufträgen oder Serviceangeboten
 6. Wenn Sie eine Übersicht der Belege erhalten möchten, die zu einem bestimmten Vertrag/Debitor/Servicegebiet gehören, füllen Sie die Felder **Vertragsfilter/Debitorenfilter/Servicegebietsfilter** aus und betätigen Sie **Enter**.  
 7. Wählen Sie eine Zeile aus, die einem Serviceauftrag oder einem Serviceangebot entspricht, und wählen die **Beleg anzeigen** Aktion aus.  
 
-    Das Fenster **Serviceauftrag** oder **Serviceangebot** wird geöffnet, und Sie können den Beleg bearbeiten. Um zum Fenster **Einsatzplanung** zurückzukehren, wählen Sie **OK**.
+    Die Seite **Serviceauftrag** oder **Serviceangebot** wird geöffnet, und Sie können den Beleg bearbeiten. Um zu der Seite **Einsatzplanung** zurückzukehren, wählen Sie **OK**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>So weisen Sie eine Ressource anhand der Ressource oder der Ressourcengruppenverfügbarkeit zu    
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird ](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Einsatzplanung** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie den relevanten Serviceauftrag, und wählen Sie die **Ressourcen zuweisen** Aktion aus.  
 3. Wählen Sie den Posten mit der Serviceaufgabe aus, der Sie eine Ressource zuordnen möchten.  
 4. Wählen Sie **Ressourcen verfügbar** oder **Res.Gruppe Verfügbar** Aktion aus.  
-5. Im Fenster **Res. Verfügbarkeit (Service)** wählen Sie **Matrix anzeigen** aus.  
+5. Auf der Seite **Res. Verfügbarkeit (Service)** wählen Sie **Matrix anzeigen** aus.  
 6. Wählen Sie eine Ressource, die Sie zuweisen möchten. Sie können Ihre Auswahl darauf basieren, ob die Ressource für die Aufgabe qualifiziert ist, ob sie sich in der Nähe des Debitors befindet und/oder ob sie von diesem Debitor bevorzugt wird.  
 7. Wählen Sie ein Datum aus, an dem die Ressource genügend verfügbare Zeit zur Erledigung der Aufgabe hat. Außerdem sollte das Datum nahe der Reaktionszeit des Serviceauftrags liegen.  
 8. Geben Sie im Feld **Zuzuordnende Menge** die Anzahl der Stunden ein, die Sie der Ressource für die Serviceaufgabe zuordnen möchten.  
@@ -63,7 +63,7 @@ Nachdem Sie einen Serviceauftrag oder ein Serviceangebot erstellt und ausgefüll
 2. Wählen Sie das Menü Bestellung, und wählen Sie dann **Bearbeiten**.  
 3. Klicken Sie in die Serviceartikelzeile, die der Serviceaufgabe entspricht, der Sie eine Ressource zuordnen möchten.  
 4. Wählen Sie **Ressourcenzuordnungen.**
-5. Wählen Sie im Fenster **Ressourcenzuordnungen** einen inaktiven Zuordnungseintrag mit der Serviceaufgabe, der Sie die Ressource zuordnen möchten. Wenn kein inaktiver Zuordnungseintrag vorhanden ist, können Sie einen **Neuen** erstellen.  
+5. Wählen Sie auf der Seite **Ressourcenzuordnungen** einen inaktiven Zuordnungseintrag mit der Serviceaufgabe, der Sie die Ressource zuordnen möchten. Wenn kein inaktiver Zuordnungseintrag vorhanden ist, können Sie einen **Neuen** erstellen.  
 7. Geben Sie die Serviceaufgabe an, indem Sie im Feld **Serviceartikelnr.** in derselben Zeile ausfüllen.  
 8. Wählen Sie im Feld **Ressourcennr.** die entsprechende Ressource aus. Falls die Ressource Mitglied einer Ressourcengruppe ist, wird die Nummer der Ressourcengruppe automatisch in das Feld **Res.-Gruppennr.** übernommen. Feld  
 9. Füllen Sie die Felder **Zuordnungsdatum** und **Zugeordnete Stunden** aus. Das Feld **Status** wird auf **Aktiv** gesetzt. Damit ist die Ressource der Serviceaufgabe zugeordnet.  
@@ -82,7 +82,7 @@ Sie können Ressourcen direkt von einem Serviceauftrag oder Serviceangebot aus n
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceaufträge** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie den relevanten Serviceauftrag.  
 3. Wählen Sie die Serviceartikelzeile aus, die der Serviceaufgabe entspricht, der Sie eine Ressource zuordnen möchten.  Wählen Sie **Aktionen**, **Zeile** und dann **Ressourcenzuordnungen**.  
-4. Wählen Sie im Fenster **Ressourcenzuordnungen** einen Zuordnungsposten mit der Serviceaufgabe aus, der Sie die Ressource zuordnen möchten. Wählen Sie im Feld **Ressourcennr.** die entsprechende Ressource aus. Die bereits im Feld vorhandene Ressourcennummer wird überschrieben.  
+4. Wählen Sie auf der Seite **Ressourcenzuordnungen** einen Zuordnungsposten mit der Serviceaufgabe aus, der Sie die Ressource zuordnen möchten. Wählen Sie im Feld **Ressourcennr.** die entsprechende Ressource aus. Die bereits im Feld vorhandene Ressourcennummer wird überschrieben.  
 5. Drücken Sie die EINGABETASTE. Es wird ein Dialogfeld geöffnet, in dem Sie gefragt werden, ob Sie diesen Posten neu zuordnen möchten. Füllen Sie bei Bedarf das Feld **Ursachencode** aus, und klicken Sie zum Bestätigen auf **Ja**.  
 6. Füllen Sie die Felder **Zuordnungsdatum** und **Zugeordnete Stunden** aus. Der Posten enthält jetzt die neue Ressource und der Status ist **Aktiv**.
 
@@ -90,8 +90,8 @@ Sie können Ressourcen direkt von einem Serviceauftrag oder Serviceangebot aus n
 Wenn die der Serviceaufgabe zugewiesene Ressource die Arbeiten nicht zu Ende führen kann, muss die Serviceaufgabe neu zugeordnet werden. Normalerweise ordnen Sie ein Serviceaufgabe mithilfe der **Einsatzplanung** neu zu.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Einsatzplanung** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie im Feld **Zuordnungsfilter** **Neuzuordnung notwendig**. Das Fenster **Einsatzplanung** zeigt nun nur die Serviceaufträge mit Serviceaufgaben an, die eine Neuzuordnung benötigen.  
-3. Wählen Sie den relevanten Serviceauftrag aus. Wählen Sie auf der Registerkarte **Navigieren** in der Gruppe **Planung** die Option **Ressourcenzuordnungen** aus. Das Fenster **Ressourcenzuordnungen** wird geöffnet.  
+2. Wählen Sie im Feld **Zuordnungsfilter** **Neuzuordnung notwendig**. Die Seite **Einsatzplanung** zeigt nun nur die Serviceaufträge mit Serviceaufgaben an, die eine Neuzuordnung benötigen.  
+3. Wählen Sie den relevanten Serviceauftrag aus. Wählen Sie auf der Registerkarte **Navigieren** in der Gruppe **Planung** die Option **Ressourcenzuordnungen** aus. Die Seite **Ressourcenzuordnungen** wird geöffnet.  
 4. Wählen Sie den Zuordnungsposten, dem Sie eine Ressource neu zuordnen wollen.  
 5. Wählen Sie im Feld **Ressourcennr.** die entsprechende Ressource aus. Die bereits im Feld vorhandene Ressourcennummer wird überschrieben.  
 6. Drücken Sie die Eingabetaste. Das Dialogfeld **Eintragsneuzuordnungsgründe** wird geöffnet und Sie werden gefragt, ob Sie diesen Posten neu zuordnen möchten. Füllen Sie bei Bedarf das Feld **Ursachencode** aus, und klicken Sie zum Bestätigen auf **Ja**.  
@@ -105,9 +105,9 @@ Wenn die der Serviceaufgabe zugewiesene Ressource die Arbeiten nicht zu Ende fü
     > * Wenn Sie einen Serviceauftrag zuordnen, den Sie aus einem Angebot erstellt haben, ändert sich der Status der Zuordnungsposten in dem Angebot beim Zuordnen der Serviceartikel in dem Serviceauftrag immer in **Erledigt**.  
 
 ## <a name="to-register-resource-hours"></a>So erfassen Sie Ressourcenzeiten  
-Wenn Sie in Serviceaufträgen mit Serviceartikeln arbeiten, müssen Sie die Ressourcenzeiten, die im Service verwendet werden, erfassen. Der folgende Ablauf zeigt, wie Ressourcenzeiten im Fenster **Servicearbeitsschein** erfasst werden können.  
+Wenn Sie in Serviceaufträgen mit Serviceartikeln arbeiten, müssen Sie die Ressourcenzeiten, die im Service verwendet werden, erfassen. Der folgende Ablauf zeigt, wie Ressourcenzeiten auf der Seite **Servicearbeitsschein** erfasst werden können.  
 
-Sie können dieselbe Vorgehensweise verwenden, um die Stunden im Fenster **Servicezeilen** zu erfassen, das Sie im Fenster "Serviceauftrag" öffnen können. Öffnen Sie den entsprechenden Servicekarte, und wählen Sie **Aktionen**, dann **Auftrag**, und klicken Sie anschließend auf **Servicezeilen**.  
+Sie können dieselbe Vorgehensweise verwenden, um die Stunden im Fenster **Servicezeilen** zu erfassen, das Sie auf der Seite "Serviceauftrag" öffnen können. Öffnen Sie den entsprechenden Servicekarte, und wählen Sie **Aktionen**, dann **Auftrag**, und klicken Sie anschließend auf **Servicezeilen**.  
 
 Wenn dieselbe Ressource an allen Serviceartikeln im Serviceauftrag arbeitet, erfassen Sie die gesamte Ressourcenzeit nur für einen Serviceartikel und teilen die Ressourcenzeile auf, um die Ressourcenzeiten den anderen Serviceartikeln zuzuordnen.
 
@@ -118,11 +118,11 @@ Wenn dieselbe Ressource an allen Serviceartikeln im Serviceauftrag arbeitet, erf
 ## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>So ordnen Sie allen Serviceartikeln in einem Serviceauftrag Ressourcen zu
 Wenn dieselbe Ressource an allen Serviceartikeln im Serviceauftrag arbeitet, erfassen Sie die gesamten Ressourcenzeiten nur für einen Serviceartikel und teilen die Ressourcenzeile auf, um die Ressourcenzeiten auf die Ressourcenzeilen der anderen Serviceartikel zu verteilen.  
 
-Der folgende Vorgang zeigt, wie Ressourcenzeilen im Fenster **Servicerechnungszeilen** aufgeteilt werden können.  
+Der folgende Vorgang zeigt, wie Ressourcenzeilen auf der Seite **Servicerechnungszeilen** aufgeteilt werden können.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceaufträge** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie den relevanten Serviceauftrag.  
-3. Wählen Sie im Inforegister **Zeilen** im Bereich **Aktionen** die Option **Bestellung** und dann **Servicezeilen** aus. Das Fenster **Servicezeilen** wird geöffnet.  
+3. Wählen Sie im Inforegister **Zeilen** im Bereich **Aktionen** die Option **Bestellung** und dann **Servicezeilen** aus. Die Seite **Servicezeilen** wird geöffnet.  
 4. Wählen Sie die Ressourcenzeile aus, die Sie aufteilen möchten. Der Inhalt des Feldes **Menge** wird auf alle Serviceartikel im Serviceauftrag aufgeteilt.  
 5. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe Funktionen die Option **Ressourcenzeile aufteilen** aus. Wählen Sie **Ja** aus, um den Vorgang zu bestätigen.  
 

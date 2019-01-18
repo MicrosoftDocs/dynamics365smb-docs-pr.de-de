@@ -13,10 +13,10 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2833a18275e396a04f78b5707d885bfbd5946218
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen
@@ -40,10 +40,10 @@ Um die korrekte Lagerbewertung beizubehalten, möchten Sie üblicherweise zurüc
 
 Zwei Funktionen sind vorhanden, um die Einstandspreisrückverfolgung automatisch zuzuweisen.  
 
-|Funktion|Beschreibung|  
+|Funktion|Description|  
 |------------------|---------------------------------------|  
-|Funktion **Zu stornierende gebuchte Belegzeilen abrufen** im Fenster **Verkaufsreklamation**|Kopiert Zeilen einer oder mehrerer gebuchter Verkaufsbelegzeilen, um den ursprünglichen Auftrag zu stornieren. Weitere Informationen finden Sie im Abschnitt Rechnungen unter "eine Verkaufsreklamation auf einem oder mehreren gebuchten Verkaufsbelegen erstellen".|  
-|Funktion **Beleg kopieren** in den Fenstern **Verkaufsgutschrift** und **Verkaufsreklamation**|Kopiert den Kopf und die Zeilen aus einem gebuchten Beleg, der storniert werden soll.<br /><br /> Erfordert, dass das Kontrollkästchen **Einst.-Pr.-Rückverfolg. notw.** im Fenster **Kreditoren & Einkauf Einr.** ausgewählt ist.|
+|Funktion **Zu stornierende gebuchte Belegzeilen abrufen** auf der Seite **Einkaufsreklamation**|Kopiert Zeilen einer oder mehrerer gebuchter Verkaufsbelegzeilen, um den ursprünglichen Auftrag zu stornieren. Weitere Informationen finden Sie im Abschnitt Rechnungen unter "eine Verkaufsreklamation auf einem oder mehreren gebuchten Verkaufsbelegen erstellen".|  
+|Funktion **Beleg kopieren** auf den Seiten **Verkaufsgutschrift** und **Verkaufsreklamation**|Kopiert den Kopf und die Zeilen aus einem gebuchten Beleg, der storniert werden soll.<br /><br /> Erfordert, dass das Kontrollkästchen **Einst.-Pr.-Rückverfolg. notw.** auf der Seite **Kreditoren & Einkauf Einr.** ausgewählt ist.|
 
 Um exakte Einstandspreisstornierung manuell zuzuordnen, müssen Sie das Feld **Ausgegl. von Artikelposten** für alle Rückholbelegzeile Art wählen und dann die Nummer des ursprünglichen Verkaufspostens. Dies verknüpft die Einkaufsgutschrift oder Einkauzfsreklamation mit dem ursprünglichen Einkaufsposten und stellt sicher, dass der Artikel mit dem ursprünglichen Einstandspreis bewertet wird.
 
@@ -51,21 +51,21 @@ Weitere Informationen finden Sie unter [Designdetails: Lagerkosten](design-detai
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Eine neue Einkaufsgutschrift aus einer gebuchte Einkaufsrechnung erstellen
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Gebuchte Verkaufsrechnungen** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie das Feld **Gebuchte Einkaufsrechnung**, um das Fenster **Korrekturgutschrift erstellen** zu öffnen, und wählen Sie die gebuchte Einkaufsrechnung aus, die Sie stornieren möchten.
+2. Wählen Sie das Feld **Gebuchte Einkaufsrechnung**, um die Seite **Korrekturgutschrift erstellen** zu öffnen, und wählen Sie die gebuchte Einkaufsrechnung aus, die Sie stornieren möchten.
 
     Die meisten Felder im Einkaufsgutschriftskopf werden mit den Informationen aus der gebuchten Einkaufsrechnung ausgefüllt. Sie können alle Felder bearbeiten, zum Beispiel mit neuen Daten, die die Rückholvereinbarung wiedergeben.
 3. Bearbeiten Sie Informationen über die Zeilen entsprechend der Vereinbarung, wie die Anzahl der zurückzuerstattenden Artikel oder der gutzuschreibende Betrag.
 4. Wählen Sie die Aktion **Posten ausgleichen...** aus.
-5. Im Fenster **Kreditorenposten zuweisen** wählen Sie die Zeile mit dem gebuchten Einkaufsbeleg, die Sie der Einkaufsgutschrift zuordnen möchten, und wählen Sie dann **Zuweisungs-ID festlegen** aus. Die Nummer der Einkaufsgutschrift wird im Feld **Zuweisungs-ID** eingefügt.
+5. Auf der Seite **Kreditorenposten zuweisen** wählen Sie die Zeile mit dem gebuchten Einkaufsbeleg, die Sie der Einkaufsgutschrift zuordnen möchten, und wählen Sie dann **Zuweisungs-ID festlegen** aus. Die Nummer der Einkaufsgutschrift wird im Feld **Zuweisungs-ID** eingefügt.
 6. Geben Sie in jeder Zeile im Feld **Anzuwendender Betrag** den Betrag ein, den Sie ausgleichen möchten, wenn dieser kleiner ist als der ursprüngliche Betrag.
 
-    Im unteren Bereich des Fensters **Kreditposten ausgleichen** können Sie den Gesamtbetrag sehen, um alle beteiligten Posten zu stornieren, nämlich wenn der Wert im Feld **Saldo** Null ist.
+    Im unteren Bereich der Seite **Kreditorenposten zuweisen** können Sie den Gesamtbetrag sehen, um alle beteiligten Posten zu stornieren, nämlich wenn der Wert im Feld **Saldo** Null ist.
 7. Wählen Sie die Schaltfläche **OK** aus. Wenn Sie die Einkaufsgutschrift buchen, wird sie für die angegebenen Einkaufsbelege angewandt.
 
     Nachdem Sie die erforderlichen Einkaufsgutschriftszeilen erstellt oder bearbeitet haben, und der Ausgleich einzelner oder mehrerer Posten angegeben wird, können Sie fortfahren, die Einkaufsgutschrift zu buchen.
 8. Wählen Sie die Aktion **Buchen** aus.
 
-Die gebuchten Einkaufsrechnungen, auf die Sie die Gutschrift anzuwenden, werden jetzt umgekehrt. Wenn Sie bereits die ursprüngliche Rechnung bezahlt haben, sollte der Lieferant die Zahlung jetzt an Sie jetzt zurückerstatten. Wenn die Gutschrift nur für einen Teil des Produkts auf der ursprünglichen Rechnung gilt, können Sie nur den Restbetrag auf der Rechnung der ursprünglichen Einkaufsrechnung bezahlen, um sie zu schließen.
+Die gebuchten Einkaufsrechnungen, auf die Sie die Gutschrift anzuwenden, werden jetzt umgekehrt. Wenn Sie bereits die ursprüngliche Rechnung bezahlt haben, sollte der Kreditor die Zahlung jetzt an Sie jetzt zurückerstatten. Wenn die Gutschrift nur für einen Teil des Produkts auf der ursprünglichen Rechnung gilt, können Sie nur den Restbetrag auf der Rechnung der ursprünglichen Einkaufsrechnung bezahlen, um sie zu schließen.
 
 Die Einkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste der gebuchten Einkaufsgutschriften ersetzt.
 
@@ -74,8 +74,8 @@ Die Einkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste de
 2. Wählen Sie **Neu**, um eine neue leere Einkaufsgutschrift zu öffnen.
 3. Geben Sie im Feld **Kreditor** den Namen eines vorhandenen Kreditors ein.
 4. Wählen Sie die **Beleg kopieren**-Aktion aus.
-5. Wählen Sie im Fenster **Einkaufsdokument kopieren** im Feld **Dokumenttyp** **Rechnung buchen** aus.
-6. Wählen Sie das Feld **Belegnr.**, um das Fenster **Geb. Einkaufsrechnungen** zu öffnen, und wählen Sie die gebuchte Einkaufsrechnung aus, die Sie stornieren möchten.
+5. Wählen Sie auf der Seite **Einkaufsbeleg kopieren** im Feld **Dokumenttyp** **Rechnung buchen** aus.
+6. Wählen Sie das Feld **Belegnr.**, um die Seite **Geb. Einkaufsrechnungen** zu öffnen, und wählen Sie die gebuchte Einkaufsrechnung aus, die Sie stornieren möchten.
 7. Wählen Sie das Kontrollkästchen **Zeilen neu berechnen**, wenn die kopierten gebuchten Einkaufsrechnungszeilen, mit einzelnen Änderungen im Artikelpreis und im Einstandspreis, aktualisiert werden sollen, da die Rechnung gebucht wurde.
 8. Wählen Sie die Schaltfläche **OK** aus. Die kopierten Rechnungszeilen werden in die Einkaufsgutschrift eingefügt.
 9. Schließen Sie die Einkaufsgutschrift ab, so wie dies unter "Eine neue Einkaufsgutschrift aus einer gebuchte Einkaufsrechnung erstellen" in diesem Thema erklärt ist.
@@ -87,15 +87,15 @@ Die Einkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste de
 4. Im Inforegister **Zeilen** können Sie die Zeilen manuell ausfüllen, oder kopieren Sie Informationen aus anderen Belegen, um die Zeilen automatisch auszufüllen:
 
     - Die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** können Sie verwenden, um eine oder mehrere gebuchte Belegzeilen aus einem oder mehreren gebuchten Belegen zu kopieren. Diese Funktion ermöglicht Ihnen die exakte Stornierung der Einstandspreise aus der gebuchten Belegzeile. Dies wird in den folgenden Verfahren beschrieben.    
-    - Mithilfe der Stapelverarbeitung **Beleg kopieren** können Sie einen vorhandenen Beleg in die Reklamation kopieren. Verwenden Sie diese Funktion zum Kopieren des gesamten Belegs. Dies kann entweder ein bereits gebuchter oder ein noch nicht gebuchter Beleg sein. Diese Funktion ermöglicht die Einstandspreisrückverfolgung nur dann, wenn die **Einstandspreisrückverfolgung als obligatorisch** unter **Debitoren & Verkauf Einr.** eingerichtet ist.  
+    - Mithilfe der Stapelverarbeitung **Beleg kopieren** können Sie einen vorhandenen Beleg in die Reklamation kopieren. Verwenden Sie diese Funktion zum Kopieren des gesamten Belegs. Dies kann entweder ein bereits gebuchter oder ein noch nicht gebuchter Beleg sein. Diese Funktion ermöglicht die Einstandspreisrückverfolgung nur dann, wenn die **Einstandspreisrückverfolgung als obligatorisch** auf der Seite **Debitoren & Verkauf Einr.** eingerichtet ist.  
 
 4. So verwenden Sie die Funktion **Zu stornierende Belegzeilen** abrufen
-5. Wählen Sie oben im Fenster **Gebuchte Verkaufsdokumentzeilen** das Feld **Nur stornierbare Zeilen anzeigen aus,** wenn Sie nur Zeilen mit Mengen anzeigen möchten, die noch nicht zurückgesendet oder, im Falle von Einkaufszeilen, verkauft oder verbraucht wurden. Wenn eine gebuchte Einkaufsrechnungsmenge beispielsweise bereits zurückgesendet wurde, möchten Sie diese Menge möglicherweise nicht mit einem neuen Einkaufsreklamationsbeleg zurücksenden.
+5. Wählen Sie oben auf der Seite **Gebuchte Einkaufsbelegzeilen** das Feld **Nur stornierbare Zeilen anzeigen aus,** wenn Sie nur Zeilen mit Mengen anzeigen möchten, die noch nicht zurückgesendet oder, im Falle von Einkaufszeilen, verkauft oder verbraucht wurden. Wenn eine gebuchte Einkaufsrechnungsmenge beispielsweise bereits zurückgesendet wurde, möchten Sie diese Menge möglicherweise nicht mit einem neuen Einkaufsreklamationsbeleg zurücksenden.
 
     > [!NOTE]  
     >  Das Feld bezieht sich nur auf gebuchte Liefer- und Rechnungszeilen, nicht auf gebuchte Rücklieferungs- oder Gutschriftzeilen.  
 
-    Klicken Sie auf der linken Fensterseite, die verschiedenen Belegarten werden aufgeführt und die Nummer in Klammern steht für die Anzahl der Belege, die von jeder Belegart verfügbar sind.
+    Klicken Sie links auf der Seite, die verschiedenen Belegarten werden aufgeführt und die Nummer in Klammern steht für die Anzahl der Belege, die von jeder Belegart verfügbar sind.
 
 6. Wählen Sie im Feld **Belegartfilter** die Art der gebuchten Belegzeilen aus, die Sie verwenden möchten.  
 7. Wählen Sie die Zeilen aus, die Sie in den neuen Beleg kopieren möchten.  
@@ -119,21 +119,21 @@ Die Einkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste de
 
     -   Wenn die gebuchte Belegzeile Artikelverfolgungszeilen enthält, wird Feld **Anwendung vom Artikeleintrag** auf der Artikelnachverfolgungszeilen mit den entsprechenden Artikelpostennummern aus den gebuchten Artikelverfolgungszeilen gefüllt.  
 
-     Beim Kopieren aus einer gebuchten Rechnung oder einer gebuchten Gutschrift kopiert die Anwendung alle relevanten Rechnungsrabatte und Zeilenrabatte, die zum Zeitpunkt der Buchung dieses Belegs gelten, aus der gebuchten Belegzeile in die neue Belegzeile. Beachten Sie jedoch, dass, wenn die Option **Rechnungsrab. berechnen** in der **Verkaufs- und Forderungseinrichtung** aktiviert ist, der Rechnungsrabatt neu berechnet wird, wenn Sie die neue Belegzeile buchen. Daher kann es sein, dass der Zeilenbetrag für die neue Zeile sich von dem Zeilenbetrag für die ursprüngliche Belegzeile unterscheidet, je nach der Neuberechnung des Rechnungsrabatts.  
+     Beim Kopieren aus einer gebuchten Rechnung oder einer gebuchten Gutschrift kopiert die Anwendung alle relevanten Rechnungsrabatte und Zeilenrabatte, die zum Zeitpunkt der Buchung dieses Belegs gelten, aus der gebuchten Belegzeile in die neue Belegzeile. Beachten Sie jedoch, dass, wenn die Option **Rechnungsrab. berechnen** auf der Seite **Verkaufs- und Forderungseinrichtung** aktiviert ist, der Rechnungsrabatt neu berechnet wird, wenn Sie die neue Belegzeile buchen. Daher kann es sein, dass der Zeilenbetrag für die neue Zeile sich von dem Zeilenbetrag für die ursprüngliche Belegzeile unterscheidet, je nach der Neuberechnung des Rechnungsrabatts.  
 
     > [!NOTE]  
     >  Wenn ein Teil der Menge der gebuchten Belegzeile bereits zurückgesendet, verkauft oder verbraucht wurde, wird nur für die Menge, die am Lager verbleibt oder die nicht zurückgesendet wurde, eine Zeile erstellt. Wurde die vollständige Menge der gebuchten Belegzeile bereits storniert, wird keine neue Belegzeile erstellt.  
     >   
     >  Wenn der Warenfluss im gebuchten Beleg der gleiche wie der Warenfluss im neuen Beleg ist, wird einfach eine Kopie der ursprünglich gebuchten Belegzeile im neuen Beleg erstellt. Das Feld **Ausgegl. von Artikelposten** wird nicht ausgefüllt, da in diesem Fall eine exakte Einstandspreisstornierung nicht möglich ist. Wenn Sie beispielsweise die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** zum Abrufen einer gebuchten Einkaufsgutschriftzeile für eine neue Einkaufsgutschrift verwenden, wird nur die ursprünglich gebuchte Gutschriftszeile in die neue Gutschrift kopiert.  
 
-8. Im Fenster **Einkaufsreklamation** im Feld **Reklamationsgrundcode** auf jeder Zeile wählen Sie den Grund für die Reklamation aus.
+8. Auf der Seite **EInkaufsreklamation** im Feld **Reklamationsgrundcode** auf jeder Zeile wählen Sie den Grund für die Reklamation aus.
 9. Wählen Sie die Aktion **Buchen** aus.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>So erstellen Sie eine Ersatzbestellung anhand von einer Reklamation
-Möglicherweise einigen Sie sich mit Ihrem Lieferanten darauf, dass Sie für einen – eventuell beschädigten – Artikel, den Sie bei ihm gekauft haben, eine Entschädigung in Form eines Austauschartikels erhalten. Der Austauschartikel kann derselbe Artikel oder ein anderer sein. Diese Situation kann eintreten, wenn der Lieferant versehentlich den falschen Artikel geliefert hat.  
-1.  Im Fenster **Einkaufsreklamation** für einen aktiven Rückgabevorgang in einer leeren Zeile, erzeugen Sie einen negativen Eintrag für den Austauschartikel, indem Sie einen negativen Betrag in das Feld **Menge** eingeben.  
+Möglicherweise einigen Sie sich mit Ihrem Kreditoren darauf, dass Sie für einen – eventuell beschädigten – Artikel, den Sie bei ihm gekauft haben, eine Entschädigung in Form eines Austauschartikels erhalten. Der Austauschartikel kann derselbe Artikel oder ein anderer sein. Diese Situation kann eintreten, wenn der Lieferant versehentlich den falschen Artikel geliefert hat.  
+1.  Auf der Seite **Einkaufsreklamation** für einen aktiven Rückgabevorgang in einer leeren Zeile, erzeugen Sie einen negativen Eintrag für den Austauschartikel, indem Sie einen negativen Betrag in das Feld **Menge** eingeben.  
 2. Wählen Sie die **Negative Zeilen übertragen** Aktion aus.  
-3. Füllen Sie im Fenster **Negative Verkaufszeile verschieben** die Felder nach Bedarf aus.
+3. Füllen Sie auf der Seite **Negative Einkaufszeile verschieben** die Felder nach Bedarf aus.
 4. Wählen Sie die Schaltfläche **OK** aus. Die negative Zeile wird aus der Einkaufsreklamation gelöscht, und eine neue Einkaufsbestellung wird erstellt. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>So erstellen Sie einen Einkaufsnachlass  
@@ -150,7 +150,7 @@ Sie können diesen reduzierten EK-Preis als Zu-/Abschlag für Artikel in einer G
     Sie haben die Möglichkeit, eine spezielle Artikel Zu-/Abschlagsnummer für Einkaufsrabatte einzurichten.  
 6.  Geben Sie in dem Feld **Menge** **1** ein.  
 7.  Geben Sie in dem Feld **EK-Preis** den Betrag des Einkaufsrabattes an.  
-8.  Weisen Sie den Einkaufsrabatt den Artikeln als Artikel Zu-/Abschlag in der gebuchten Einkaufslieferung zu. Weitere Informationen finden Sie untert [Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md). Kehren Sie zum Fenster **Gutschrift** zurück.
+8.  Weisen Sie den Einkaufsrabatt den Artikeln als Artikel Zu-/Abschlag in der gebuchten Einkaufslieferung zu. Weitere Informationen finden Sie untert [Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md). Kehren Sie zur Seite **Gutschrift** zurück.
 
 Wenn Sie die Verkaufsreklamation buchen, wird die Wiedereinlagerungsgebühr zu dem entsprechenden Betrag des Verkaufspostens addiert. Auf diese Art können Sie genaue Bestandbewertung führen.  
 

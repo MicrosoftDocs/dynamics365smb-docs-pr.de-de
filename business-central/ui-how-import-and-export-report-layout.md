@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27818c45c68f37c052a39eeaeaf0fe6c2c871af9
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importieren und Exportieren von einem benutzerdefinierten Bericht
@@ -31,7 +31,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
   
 2.  Wählen Sie die Zeile für den Bericht, der das benutzerdefinierte Berichtslayout enthält, das Sie exportieren möchten, und wählen Sie dann auf der Registerkarte **Start** in der gruppe **Prozess** **Benutzerdefinierte Layouts**.  
   
-3.  Wählen Sie im Fenster das **Berichtslayout**, das Sie in eine Datei exportieren möchten, und wählen Sie dann auf der Registerkarte **Start**, in der Gruppe **Prozess**, **Layout exportieren**.  
+3.  Wählen Sie auf der Seite das **Berichtslayout**, das Sie in eine Datei exportieren möchten, und wählen Sie dann auf der Registerkarte **Start**, in der Gruppe **Prozess**, **Layout exportieren**.  
   
 4.  Im Dialogfeld **Datei exportieren** wählen Sie **Speichern** aus und speichern Sie anschließend die Datei an einen Speicherort auf dem Computer oder im Netzwerk.  
   
@@ -45,7 +45,7 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
   
 3.  Wählen Sie die Zeile für den Bericht, in den Sie das Berichtslayout importieren möchten, und wählen Sie dann auf der Registerkarte **Start** in der Gruppe **Prozess** **Benutzerdefinierte Layouts**.  
   
-4.  Wählen Sie im Fenster das **Berichtslayout**, in das Sie in die Datei importieren möchten, und wählen Sie dann auf der Registerkarte **Start**, in der Gruppe **Prozess**, **Layout importieren**.  
+4.  Wählen Sie auf der Seite das **Berichtslayout**, in das Sie in die Datei importieren möchten, und wählen Sie dann auf der Registerkarte **Start**, in der Gruppe **Prozess**, **Layout importieren**.  
   
 5.  Im **Importieren**-Dialogfeld wählen Sie das Dokument, das das Berichtlayout definiert, und wählen Sie dann **Öffnen**.  
   

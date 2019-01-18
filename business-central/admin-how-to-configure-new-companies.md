@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="configure-new-companies"></a>So konfigurieren Sie einen neuen Mandanten.
@@ -38,7 +38,7 @@ Alle Tabellen, die Sie zum Einschließen in den neuen Mandanten festgelegt haben
 ## <a name="to-apply-package-data"></a>So wenden Sie Paketdaten an  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie eine Tabelle, in das Sie Daten ändern möchten, und wählen die **Daten übernehmen** Aktion aus. Klicken Sie auf die Schaltfläche **Ja**, um die Anwendung zu bestätigen.
-3. Um zu bestätigen dass die Daten nun in der Datenbank sind und dass die Anwendung erfolgreich war, kehren Sie zum Fenster **Arbeitsblatt konfigurieren**zurück und wählen die Aktion **Datenbank** aus.  
+3. Um zu bestätigen dass die Daten nun in der Datenbank sind und dass die Anwendung erfolgreich war, kehren Sie zur Seite **Arbeitsblatt konfigurieren**zurück und wählen die Aktion **Datenbank** aus.  
 
 > [!NOTE]  
 >  Nachdem Sie Daten zugeordnet haben, können Sie diese nur in der Datenbank anzeigen. Sie befinden sich nicht mehr im Paket.  
@@ -46,9 +46,9 @@ Alle Tabellen, die Sie zum Einschließen in den neuen Mandanten festgelegt haben
 ## <a name="to-modify-and-apply-package-data"></a>So können Sie Paketdaten ändern und zuordnen  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie eine Tabelle, in das Sie Daten ändern möchten, und wählen die **Datenpaket** Aktion aus.  
-3. Im Fenster **Config. Paket-Datensätze** führen Sie Ihre Änderungen durch. Beispielsweise können Sie Optionen zu löschen, die nicht zutreffen.  
+3. Auf der Seite **Config. Paket-Datensätze** führen Sie Ihre Änderungen durch. Beispielsweise können Sie Optionen zu löschen, die nicht zutreffen.  
 4. Wählen Sie die Schaltfläche **Daten anwenden** und dann die Schaltfläche **OK** aus.  
-5. Um zu bestätigen dass die Daten nun in der Datenbank sind und dass die Anwendung erfolgreich war, kehren Sie zum Fenster **Arbeitsblatt konfigurieren**zurück und wählen die Aktion **Datenbank** aus.  
+5. Um zu bestätigen dass die Daten nun in der Datenbank sind und dass die Anwendung erfolgreich war, kehren Sie zur Seite **Arbeitsblatt konfigurieren**zurück und wählen die Aktion **Datenbank** aus.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>So lokalisieren und identifizieren Sie einen Konfigurationsfehler  
 Es gibt bestimmte Arten von Fehlern, die auftreten können, wenn Sie Daten auf eine Datenbank anwenden. Der häufigste Fehler ist, nicht alle zugehörigen Tabellen, die erforderlich sind, eingeschlossen waren. Sie korrigieren solche Fehler im Konfigurationsvorschlag.
@@ -58,7 +58,7 @@ Es gibt bestimmte Arten von Fehlern, die auftreten können, wenn Sie Daten auf e
 
     Jede Tabelle, die Fehler enthält, wird hervorgehoben. Die Anzahl der Paketfehlern wird im Feld **Anzahl Paket-Fehlern** wird im Feld angezeigt.  
 
-3. Wählen Sie das Feld **Anzahl Paketfehler**, um das Fenster **Paket-Datensätze konfig.** zu öffnen, die die Liste der Datensätze mit Fehler aufführt.  
+3. Wählen Sie das Feld **Anzahl Paketfehler**, um die Seite **Paket-Datensätze konfig.** zu öffnen, die die Liste der Datensätze mit Fehler aufführt.  
 
 ### <a name="to-fix-an-error"></a>So korrigieren Sie einen Fehler.  
 1. Öffnen Sie den Mandanten, auf dem Sie Ihr Konfigurationspaket basierten.  

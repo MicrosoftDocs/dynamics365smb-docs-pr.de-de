@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e505f1942aba554bfa83a0fb81ace0db209b102
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1a460bed4be049ddd1eff7c33ae43c70e65ab403
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,11 +26,10 @@ Sie können festlegen, dass MwSt.-Beträge beim Buchen einer Rechnung berechnet 
 
 Um die Konten für unrealisierte MwSt. zu verwenden, führen Sie diese Schritte aus:
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Finanzbuchhaltung einrichten** ein, und wählen dann den zugehörigen Link aus.
-2. Auf der Seite **Finanzbuchhaltungs-Einrichtung:** im Inforegister **Allgemein**, wählen Sie **Mehr anzeigen** und wählen Sie dann das Kontrollkästchen **Unrealisierte MwSt.** aus.
-3. Schließen Sie die Seite.
-4. Wählen Sie das Symbol **Nach Seite oder Bericht suchen** ![Glühlampe, mit der die Funktion "Wie möchten Sie weiter verfahren"](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") geöffnet wird und geben Sie **MwSt Buchung** einrichten ein.
-5. Auf der Seite **MwSt.-Buchung einrichten** wählen Sie die MwSt.-Buchungsgruppe aus, und wählen Sie dann **Bearbeiten** aus.
-6. Im Feld **Unrealisierte MwSt-Art** wählen Sie eine Option aus, um zu bestimmen, wie Zahlungen auf dem Rechnungsbetrag (ohne MwSt.) und den MwSt.-Betrag selbst aufgeteilt wird und wie MwSt.-Beträge vom Konto "Unreal. MwSt." auf das realisierte MwSt.-Konto gebucht werden. Die Optionen werden in der folgenden Tabelle beschrieben.
+2. Auf der Seite **Finanzbuchhaltung Einrichtung** wählen Sie das Kontrollkästchen **Unrealisierte MwSt.**.
+3. Wählen Sie das Symbol **Nach Seite oder Bericht suchen** ![Glühlampe, mit der die Funktion "Wie möchten Sie weiter verfahren"](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") geöffnet wird und geben Sie **MwSt Buchung** einrichten ein.
+4. Auf der Seite **MwSt.-Buchung einrichten** wählen Sie die MwSt.-Buchungsgruppe aus, und wählen Sie dann **Bearbeiten** aus.
+5. Im Feld **Unrealisierte MwSt-Art** wählen Sie eine Option aus, um zu bestimmen, wie Zahlungen auf dem Rechnungsbetrag (ohne MwSt.) und den MwSt.-Betrag selbst aufgeteilt wird und wie MwSt.-Beträge vom Konto "Unreal. MwSt." auf das realisierte MwSt.-Konto gebucht werden. Die Optionen werden in der folgenden Tabelle beschrieben.
 
 | Option | Beschreibung |
 | --- | --- |

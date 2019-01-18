@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a107203cf81b149b920944db1fabace6e434221a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4c50c2b6a81eccfe07d41c2527547b7694aca4e7
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Erstellen von Kostenbudgets
@@ -24,14 +24,14 @@ Die Budgetierung in der Kostenrechnung entspricht der Budgetierung im Sachkonto.
 
 Ein Kostenbudget wird für eine bestimmten Zeitraum erstellt, zum Beispiel für ein Geschäftsjahr. Sie können beliebig viele Kostenbudgets erstellen. Sie können ein neues Kostenbudget manuell erstellen, indem Sie ein Kostenbudget importieren oder indem Sie ein vorhandenes Kostenbudget als Budgetbasis kopieren. Weitere Informationen finden Sie unter [Sachkonto-Budgets erstellen](finance-how-create-budgets.md).
 
-Sie verwenden die folgenden Fenster, um Kostenbudgets zu erstellen und zu analysieren. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") um ein Fenster zu finden und lesen Sie für jeden den entsprechenden Hinweis.
+Sie verwenden die folgenden Seiten, um Kostenbudgets zu erstellen und zu analysieren. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") um eine Seite zu finden und lesen Sie für jeden den entsprechenden Hinweis.
 
 |An|Siehe|  
 |--------|---------|  
 |Übertragen Sie Budgets aus dem Sachkonto.|Stapelverarbeitung **Finanzbudget in Kostenrechnung kopieren**|  
 |Kostenbudgets kopieren.|Stapelverarbeitung **Kostenbudget kopieren**|  
-|Budgets zuteilen.|Fenster **Kostenzuteilung**|  
-|Sehen Sie sich die Kostenbudgeterfassungen und Kostenbudgetposten an.|Fenster **Kostenbudgeterfassungen**|  
+|Budgets zuteilen.|**Kostenzuteilung**|  
+|Sehen Sie sich die Kostenbudgeterfassungen und Kostenbudgetposten an.|**<Kostenbudgeterfassungen**|  
 |Drucken Sie Kostenbudgetvergleiche unter Verwendung der verschiedenen Berichte.|Bericht **Kostenrechnungsbilanz/Budget**<br /><br /> Bericht **Kostenrechnungsauszug/Budget**<br /><br /> Bericht **Kostenbudget nach Kostenstelle**<br /><br /> Bericht **Kostenbudget nach Kostenträger**|  
 
 ## <a name="see-also"></a>Siehe auch  

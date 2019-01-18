@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
+redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c1427e13f6a42b4b5ff3a192f91b0c76161cc673
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c693169c2606cb289b6936f7bb6338c1d81c6b5d
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-and-submit-sales-vat-advance-notifications"></a>Gewusst wie: Erstellen und Senden von Umsatzsteuervoranmeldungen
@@ -25,8 +26,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie die Umsatzsteue
 ## <a name="to-create-an-xml-document-for-sales-vat-advance-notification"></a>So erstellen Sie ein XML-Dokument für Umsatzsteuervoranmeldung  
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol „Nach Seite oder Bericht suchen”") aus, und geben Sie **Umsatzsteuervoranmeldungsliste** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Im Fenster **Umsatzsteuervoranmeldungsliste** auf der Registerkarte Aktionen, wählen Sie **Neu** aus.  
-3.  Füllen Sie im Fenster **USt.-Voranmeldungskarte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+2.  Auf der Seite **Umsatzsteuervoranmeldungsliste** auf der Registerkarte Aktionen, wählen Sie **Neu** aus.  
+3.  Füllen Sie auf der Seite **MwSt-Voranmeldungskarte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |------------------------------------|---------------------------------------|  
@@ -40,7 +41,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie die Umsatzsteue
 
 ## <a name="to-submit-an-xml-document-for-sales-vat-advance-notification"></a>So übermitteln Sie ein XML-Dokument für Umsatzsteuervoranmeldung  
 
-1.  Im Fenster **Umsatzsteuervoranmeldungsliste** wählen Sie den Beleg aus, den Sie an ELSTER senden möchten.  
+1.  Auf der Seite **Umsatzsteuervoranmeldungsliste** wählen Sie den Beleg aus, den Sie an ELSTER senden möchten.  
 2.  Wählen Sie die Aktion **XML-Datei übermitteln** aus.  
 
 Die XML-Datei wird an ELSTER übermittelt.  

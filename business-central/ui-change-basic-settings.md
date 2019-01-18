@@ -11,14 +11,14 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ändern von grundlegenden Einstellungen
-Im Fenster [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Rufen Sie direkt die Benutzereinstellungsseite in Business Central auf") können Sie grundlegende Einstellungen anzeigen und ändern.[!INCLUDE[d365fin](includes/d365fin_md.md)] Änderungen, die Sie durchführen, betreffen nur den Arbeitsbereich; nicht die Arbeitsbereiche anderer Benutzer.  
+Auf der Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Rufen Sie direkt die Benutzereinstellungsseite in Business Central auf") können Sie grundlegende Einstellungen anzeigen und ändern.[!INCLUDE[d365fin](includes/d365fin_md.md)] Änderungen, die Sie durchführen, betreffen nur den Arbeitsbereich; nicht die Arbeitsbereiche anderer Benutzer.  
 
 ## <a name="role-center"></a> Rollencenter
 Das Rollencenter erstellt die Homepage, eine Startseite, die für die Anforderungen der Rolle entworfen wurde. Abhängig von der Rolle gibt das Rollencenter Ihnen einen Überblick über das Unternehmen, Ihre Abteilung oder Ihre persönlichen Aufgaben. Es hilft Ihnen auch, zu Ihren Tagewerken zu navigieren und Arbeit zu finden, die Ihnen zugeordnet wird.
@@ -30,7 +30,7 @@ Das Rollencenter erstellt die Homepage, eine Startseite, die für die Anforderun
 ### <a name="to-change-role-center"></a>So ändern Sie ein Rollencenter
 Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können ein anderes Rollencenter auswählen, das mit den Anforderungen besser übereinstimmt.
 1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") und dann **Meine Einstellungen**.
-2. Wählen Sie im Fenster **Meine Einstellungen** im Feld **Rollencenter** das Rollencenter aus, das Sie als Standard festlegen möchten. Wählen Sie beispielsweise **Buchhalter/in** aus.
+2. Wählen Sie auf der Seite **Meine Einstellungen** im Feld **Rollencenter** das Rollencenter aus, das Sie als Standard festlegen möchten. Wählen Sie beispielsweise **Buchhalter/in** aus.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
 ## <a name="company"></a>Unternehmen
@@ -39,7 +39,7 @@ Ein Unternehmen dient als Container für Daten im Project [!INCLUDE[d365fin](inc
 Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält.
 
 > [!TIP]  
->   Wenn Sie einen anderen Namen des Mandanten in der Anwendung anzeigen möchten (z. B. im Rollencenter), legen Sie das Feld **Name** im Fenster **Firmendaten** oder das Feld **Anzeigename** im Fenster **Unternehmen** fest.  
+>   Wenn Sie einen anderen Namen des Mandanten in der Anwendung anzeigen möchten (z. B. im Rollencenter), legen Sie das Feld **Name** auf der Seite **Firmendaten** oder das Feld **Anzeigename** auf der Seite **Unternehmen** fest.  
 
 ## <a name="work-date"></a>Arbeitsdatum
 Standardmäßig wird das aktuelle Datum (Systemdatum) verwendet. Um Aufgaben wie das Abschließen von Transaktionen für ein Datum auszuführen, das nicht das aktuelle Datum ist, müssen Sie möglicherweise vorübergehend das Arbeitsdatum ändern.

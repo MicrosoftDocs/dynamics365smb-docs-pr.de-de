@@ -11,10 +11,10 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572831f99559a65c490dcb93e13fba3bdfc57688
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-check-payments"></a>Zahlung per Scheck machen
@@ -42,7 +42,7 @@ Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Sc
 3. Wählen Sie im Feld die **Zahlungsmethode** aus und wählen Sie **Check**.
 4. Wählen Sie im Feld **Bankkontozahlungsart** die Option **Computer Scheck** aus.
 5. Wählen Sie die Aktion **Check Drucken** aus.
-6. Füllen Sie im Fenster **Check** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Füllen Sie auf der Seite **Scheck** die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Wählen Sie die Schaltfläche **Senden an** aus, wählen Sie die Option **PDF-Dokument**, und wählen Sie dann die Schaltfläche **OK** aus.
 
     Die Warenkontrollen können jetzt bereitgestellt werden für die Bank für die Bearbeitung. Fahren Sie fort, um die Zahlung für den Kreditor und im System als bezahlt zu buchen.
@@ -54,16 +54,16 @@ Völlig ausgeglichene Kreditorenposten und Bankposten werden erstellt.
 > Wenn Sie Schecks in mehreren Währungen von mehreren Bankkonten aus ausdrucken und bezahlen möchten, muss die Stapelverarbeitung **Scheck drucken** für jede einzelne Währung ausgeführt und das entsprechende Bankkonto muss angegeben werden.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Um gedruckte Scheck die nicht gebucht wurden zu stornieren
-Sie können nicht gebuchte Schecks stornieren, nachdem sie gedruckt wurden, indem Sie die Aktion **Scheck annullieren** im Fenster **Zahlungsausgangs Buch.-Blatt** verwenden.
+Sie können nicht gebuchte Schecks stornieren, nachdem sie gedruckt wurden, indem Sie die Aktion **Scheck annullieren** auf der Seite **Zahlungsausgangs Buch.-Blatt** verwenden.
 
-1. Wählen Sie im Fenster **Zahlungsausgangs Buch.-Blatt** **Scheck annullieren** aus, und wählen Sie aus, welche Prüfungen durchgeführt zum stornieren mit den Schecks durchgeführt werden.
+1. Wählen Sie auf der Seite **Zahlungsausgangs Buch.-Blatt** **Scheck annullieren** aus, und wählen Sie aus, welche Prüfungen durchgeführt zum stornieren mit den Schecks durchgeführt werden.
 
 ## <a name="to-void-checks"></a>Annullieren von Schecks
 Wenn Scheckzahlung gebucht wurden, können Sie Schecks aus den resultierenden Bankposten nur stornieren (annulieren).
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Bankkonten** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie das entsprechende Bankkonto aus, wählen Sie die **Bearbeiten**-Aktion aus, und wählen Sie dann die **Scheckposten**-Aktion aus.
-3. Im **Scheckposten**-Fenster wählen Sie die **Scheck annullieren**-Aktion aus.
+3. Auf der Seite **Scheckposten** wählen Sie die **Scheck annullieren**-Aktion aus.
 4. Wählen das Kontrollkästchen **Scheck nur annullieren**.
 5. Wählen Sie die Schaltfläche **OK** aus.
 

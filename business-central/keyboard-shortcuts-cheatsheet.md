@@ -11,39 +11,20 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f5c679a962b8eab2742c5224ea86c7329c4a2a09
+ms.sourcegitcommit: 400865a0e94ea04c534a56fcb25eb8dc039411e1
+ms.openlocfilehash: 39c32033f377654abda42dedff4a0a2edafa6621
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
-# <a name="pc-keyboard-shortcuts-quick-reference"></a>PC-Tastenkombinationskurzübersicht
+# <a name="keyboard-shortcuts-quick-reference"></a>Tastenkombinationskurzübersicht
 
-
-|||||  
-|----------------|-----------|----------------|-----------|    
-|**Allgemein**||**Navigieren Sie und wählen Sie Zeilen aus**||
-|ALT+Q|Öffnen Sie **Wie möchten Sie weiter verfahren?**|Strg+A|Alles auswählen|
-|Tab|Navigieren zum nächsten bearbeitbaren Feld|Start/Ende|Zum ersten/letzten Feld gehen.|
-|UMSCHALT+TAB|Fokus auf das vorherige Steuerelement richten|Strg+Start/Ende|Zur ersten/letzten Zeile.|   
-|ALT + NACH-UNTEN-TASTE|Dropdown oder Lookup für Anzeige|Strg+nach unten/nach oben|Navigieren Sie ohne die Auswahl zu verlieren|
-|Alt+Nach-rechts-Taste|Transaktionen für berechnete Werte anzeigen|STRG+LEERTASTE|Toggle-Zeilen-Auswahl| 
-|Esc|Schließen Sie die aktuelle Seite oder den Dropdownpfeil.|Shift+Strg+Start/Ende|Erweitern Sie zuerst die Auswahl zur ersten/letzten Zeile| 
-|||Ctrl+Enter|Fokussieren Sie auf die Liste|
-|||||
-|**Kopieren und einfügen**||**Suche, Filter und Sortieren**||
-|Strg+A|Alles auswählen|F3|Toggle-Suche|
-|Strg+Start/Ende|Wählen Sie die erste bzw. letzte Zeile in der Liste aus|Shift+F3|Wechselt zwischen Filterbereich; Fokus auf Feldfilter|
-|Start/Ende|Zum ersten/letzten Feld gehen|Ctrl+Shift+F3|Dient um zwischen Gesamtfilter zu wechseln, Fokus auf Gesamtfilter|
-|Ctrl/Shift+Click|Fügen Sie die Summe der Angaben hinzu |Alt+F3|Filtern Sie ausgewählte Zellwerte|
-|Strg+nach unten/nach oben|Bewegen Sie die Fokus auf Zeilenü darüber/darunter|Shift+Alt+F3|Filter auf ausgewählten Felder hinzufügen|
-|STRG+LEERTASTE|Erweitern Sie die Auswahl von Zeilen, um die fokussierte Zeile einzuschließen.|Ctrl+Alt+Shift+F3|Filter zurücksetzen|
-|Strg+nach oben/unten|Fügen Sie Zeilen über/unter der Auswahl hinzu|**Berichtvorschau**||
-|Umschalttaste +Seite nach Unten/Oben|Fügen Sie alle sichtbaren Zeilen über/unter der aktuellen Auswahl hinzu|Auf/Ab|Führen Sie einen Bildlauf zum Ende der Seite durch
-|Strg+C|Zeilen kopieren|Rechts/Links|Blättern Sie nach rechts/links |
-|Strg+V|Zeilen einfügen|STRG+0 (null)|Seite an Fenster anpassen |
-|F8|Kopiere Feld in aktuellen Zeile|Strg+Start/Ende|Zur ersten/letzten Seite.|
-|||Umschalttaste +Seite nach Unten/Oben|Zur vorherigen/nächsten Seite.|
-
+||||  
+|----------------|-----------|----------------| 
+|**Allgemein**|ALT+Q<br />ALT+OBEN<br />Tab<br />UMSCHALT+TAB<br />ALT + NACH-UNTEN-TASTE<br />Alt+Nach-rechts-Taste<br />F5/Ctrl+F5<br />Esc|Öffnen Sie **Mitteilen**<br />Öffnen Sie QuickInfo oder Überprüfungsfehler<br />Navigieren zum nächsten bearbeitbaren Feld<br />Fokus auf das vorherige Steuerelement richten<br />Dropdown oder Lookup für Anzeige<br />Transaktionen für berechnete Werte anzeigen<br />Die Seite aktualisieren/neu laden.<br />Schließen Sie die aktuelle Seite oder den Dropdownpfeil.|
+|**Navigieren Sie und wählen Sie Zeilen aus**| Start/Ende<br />Strg+Start/Ende <br />Strg+nach unten/nach oben<br />Strg+A <br />STRG+LEERTASTE<br />Ctrl/Shift+Click<br />Shift+Strg+Start/Ende<br />Strg+nach oben/unten<br />Umschalttaste +Seite nach Unten/Oben<br />Ctrl+Enter| Zum ersten/letzten Feld gehen.<br />Zur ersten/letzten Zeile.<br />Navigieren Sie ohne die Auswahl zu verlieren<br />Alles auswählen<br />Toggle-Zeilen-Auswahl<br /> Fügen Sie die Zeile/Zeilen der Angaben hinzu<br />Erweitern Sie zuerst die Auswahl zur ersten/letzten Zeile<br />Fügen Sie Zeilen über/unter der Auswahl hinzu<br />Fügen Sie alle sichtbaren Zeilen über/unter der aktuellen Auswahl hinzu<br />Fokussieren Sie auf die Liste|
+|**Kopieren und einfügen**|Strg+C<br />Strg+V<br />F8|Zeilen kopieren<br />Zeilen einfügen<br />Kopiere Feld in aktuellen Zeile|
+|**Suche, Filter und Sortieren**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Toggle-Suche<br />Wechselt zwischen Filterbereich; Fokus auf Feldfilter<br />Wechselt zwischen Filterbereich; Fokus auf Feldfilter<br />Filtern Sie ausgewählte Zellwerte<br />Filter auf ausgewählten Felder hinzufügen<br />Filter zurücksetzen|
+|**Berichtvorschau**|Auf/Ab<br />Rechts/Links<br />Strg+Start/Ende<br />Umschalttaste +Seite nach Unten/Oben|Führen Sie einen Bildlauf zum Ende der Seite durch<br />Blättern Sie nach rechts/links <br />Zur ersten/letzten Seite.<br />Zur vorherigen/nächsten Seite.|
 

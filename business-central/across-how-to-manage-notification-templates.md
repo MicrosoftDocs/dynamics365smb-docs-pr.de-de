@@ -1,6 +1,6 @@
 ---
 title: 'Vorgehensweise: Verwalten von Benachrichtigungsvorlagen | Microsoft Docs'
-description: "Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, welche Schritte sie ausführen müssen, oder um sie über den Status von Workflowschritten zu informieren. Sie legen fest, wer wann Benachrichtigungen erhält, indem Sie Genehmigungsbenutzer, einen Benachrichtigungsplan für Benutzer und die entsprechenden Workflowantworten einrichten, um den Benachrichtigungsempfänger zu definieren. Weitere Informationen finden Sie unter [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)."
+description: "Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, welche Schritte sie ausführen müssen, oder um sie über den Status von Workflowschritten zu informieren. Sie legen fest, wer wann Benachrichtigungen erhält, indem Sie Genehmigungsbenutzer, einen Benachrichtigungsplan für Benutzer und die entsprechenden Workflowantworten einrichten, um den Benachrichtigungsempfänger zu definieren."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
+redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-notification-templates"></a>Verwalten von Benachrichtigungsvorlagen
@@ -28,7 +29,7 @@ Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, we
 
 ## <a name="to-create-a-new-notification-template"></a>So erstellen Sie eine neue Benachrichtigungsvorlage.  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benachrichtigungs-Vorlage** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie im Fenster **Benachrichtigungsvorlagen** die Aktion **Neu** aus.  
+2.  Wählen Sie auf der Seite **Benachrichtigungsvorlagen** **Neu**.  
 3.  Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
@@ -41,9 +42,9 @@ Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, we
 
 ## <a name="to-modify-a-notification-template"></a>So ändern Sie eine Benachrichtigungsvorlage  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benachrichtigungs-Vorlage** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie im Fenster **Benachrichtigungsvorlagen** die Benachrichtigungsvorlage aus, die Sie bearbeiten möchten.  
+2.  Wählen Sie auf der Seite **Benachrichtigungsvorlagen** die Benachrichtigungsvorlage aus, die Sie bearbeiten möchten.  
 3.  Wählen Sie die Aktion **Vorlageninhalt exportieren** aus.  
-4.  Klicken Sie im Fenster **Datei exportieren** auf die Schaltfläche **Speichern**, wählen Sie dann einen Namen für die HTML-Datei aus, und speichern Sie die Datei am gewünschten Speicherort.  
+4.  Klicken Sie auf der Seite **Datei exportieren** auf die Schaltfläche **Speichern**, wählen Sie dann einen Namen für die HTML-Datei aus, und speichern Sie die Datei am gewünschten Speicherort.  
 5.  Klicken Sie mit der rechten Maustaste auf die Datei , wählen Sie **Öffnen mit** aus, und wählen Sie die relevante Anwendung aus.  
 
     > [!NOTE]  
@@ -51,14 +52,14 @@ Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, we
 6.  Bearbeiten Sie den Inhalt der Benachrichtigungsvorlage, indem Sie Parametervariablen hinzufügen, ändern oder entfernen, um den Inhalt nach Wunsch zu gestalten. Speichern Sie die Vorlage dann. Weitere Informationen finden Sie im Abschnitt „Inhalt der Benachrichtigungsvorlagen“.  
 
     Importieren Sie den geänderten Inhalt zurück in dieselbe oder eine neue Benachrichtigungsvorlage.  
-7.  Um die exportierte Benachrichtigungsvorlage zu ändern, wählen Sie im Fenster **Benachrichtigungsvorlagen** die Vorlage aus, die Sie in Schritt 2 angegeben haben.  
+7.  Um die exportierte Benachrichtigungsvorlage zu ändern, wählen Sie auf der Seite **Benachrichtigungsvorlagen** die Vorlage aus, die Sie in Schritt 2 angegeben haben.  
 
     Sie können den geänderten Vorlageninhalt auch in eine neue Benachrichtigungsvorlage importieren, indem Sie das Verfahren „So erstellen Sie eine neue Benachrichtigungsvorlage“ verwenden und dann die neue Benachrichtigungsvorlage auswählen.  
 8.  Wählen Sie die Aktion **Vorlageninhalt importieren** aus.  
 9. Wenn Sie eine vorhandene Benachrichtigungsvorlage ändern, wählen Sie in der Meldung zum Überschreiben der vorhandenen Vorlage die Schaltfläche **Ja** aus.  
-10. Wählen Sie im Fenster **Zu importierende Datei auswählen** die HTML-Datei, die Sie in Schritt 6 geändert haben, und klicken Sie dann auf die Schaltfläche **Öffnen**.  
+10. Wählen Sie auf der Seite **Zu importierende Datei auswählen** die HTML-Datei, die Sie in Schritt 6 geändert haben, und klicken Sie dann auf die Schaltfläche **Öffnen**.  
 
-Die vorhandene oder neue Benachrichtigungsvorlage im Fenster **Benachrichtigungsvorlagen** wurde mit dem geänderten Inhalt aktualisiert.  
+Die vorhandene oder neue Benachrichtigungsvorlage auf der Seite **Benachrichtigungsvorlagen** wurde mit dem geänderten Inhalt aktualisiert.  
 
 ### <a name="content-of-the-notification-templates"></a>Inhalt der Benachrichtigungsvorlagen  
 Die drei Arten von Benachrichtigungsvorlagen (**Neuer Datensatz**, **Genehmigung** und **Überfällig**) haben unterschiedlichen Inhalt.  

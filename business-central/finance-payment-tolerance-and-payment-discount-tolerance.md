@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
@@ -45,16 +45,16 @@ Toleranz auf Tage und Beträge erlaubt Ihnen, eine Rechnung auszugleichen, selbs
 
 Um diese Toleranz einzurichten, müssen Sie verschiedene Toleranzkonten einrichten, das Skontokonto und die Zahlungstoleranzbuchungsmethode spezifizieren und die Stapelverarbeitung **Zahlungstoleranz ändern** laufen lassen.  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Allgemeine Buchungseinrichtung** ein, und wählen dann den zugehörigen Link aus.  
-2. Im Fenster **Buchungsmatrix Einrichtung** richten Sie ein Haben- und ein Soll-Verkaufszahlungstoleranzkonto sowie ein Haben- und ein Soll-Einkaufszahlungstoleranzkonto ein.  
+2. Öffnen Sie die Seite  **Buchungsmatrix Einrichtung**. Richten Sie ein Haben- und ein Soll-Verkaufszahlungstoleranzkonto sowie ein Haben- und ein Soll-Einkaufszahlungstoleranzkonto ein.  
 3. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitorenbuchungsruppen** ein, und wählen dann den zugehörigen Link aus.    
-4. Im Fenster **Debitorenbuchungsgruppen** richten Sie ein Haben- und ein Soll-Zahlungstoleranzkonto ein. Weitere Informationen finden Sie unter [Einrichten von Buchungsgruppen](finance-posting-groups.md).  
+4. Öffnen Sie die Seite  **Debitorenbuchungsgruppen**. Richten Sie ein Haben- und ein Soll-Zahlungstoleranzkonto ein. Weitere Informationen finden Sie unter [Einrichten von Buchungsgruppen](finance-posting-groups.md).  
 5. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer-Buchungseinrichtung** ein, und wählen dann den zugehörigen Link aus.  
-6. Richten Sie im Fenster **Kreditorenbuchungsgruppen** ein Haben- und ein Soll-Zahlungstoleranzkonto ein.  
+6. Öffnen Sie die Seite  **Debitorenbuchungsgruppen**. Richten Sie ein Haben- und ein Soll-Zahlungstoleranzkonto ein.  
 7. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Finanzbuchhaltung einrichten** ein, und wählen dann den zugehörigen Link aus.  
-8. Öffnen Sie das Fenster **Finanzbuchhaltungs-Einrichtung:**.  
+8. Öffnen Sie die Seite **Finanzbuchhaltung Einrichtung**.  
 9. Füllen Sie auf dem Inforegister **Ausgleich** die Felder **Skontotoleranzbuchung**, **Skontotoleranzperiode** und **Zahlungstoleranzbuchung** aus.   
 10. Wählen Sie die Aktion **Zahlungstoleranz ändern** aus.
-11. Füllen Sie im Fenster **Zahlungstoleranz ändern** die Felder **Zahlungstoleranz %** und **Max- Zahlungstoleranzbetrag** und bestätigen Sie dann mit **OK**.
+11. Füllen Sie die Seite **Zahlungstoleranz ändern** die Felder **Zahlungstoleranz %** und **Max- Zahlungstoleranzbetrag** und bestätigen Sie dann mit **OK**.
 
 > [!IMPORTANT]  
 >  Sie haben jetzt nur die Toleranz für die Mandantenwährung eingerichtet. Wenn [!INCLUDE[d365fin](includes/d365fin_md.md)] Toleranzen auf Zahlungen, Gutschriften und Erstattungen in Fremdwährungen gewähren soll, müssen Sie die Stapelverarbeitung **Zahlungstoleranz ändern** mit einem Wert im Feld **Währungscode** aufrufen.  
@@ -69,10 +69,10 @@ Um diese Toleranz einzurichten, müssen Sie verschiedene Toleranzkonten einricht
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>So aktivieren oder deaktivieren Sie die Zahlungstoleranzwarnungen
 Die Zahlungstoleranzwarnung erscheint, wenn Sie einen Ausgleich mit einem Saldo innerhalb der erlaubten Toleranz buchen. Sie können dann wählen, wie Sie den Saldo buchen und dokumentieren wollen.    
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Finanzbuchhaltung einrichten** ein, und wählen dann den zugehörigen Link aus.  
-2. Versehen Sie im Fenster **Finanzbuchhaltung einrichten** im Inforegister **Anwendung** das Feld **Zahlungstoleranzwarnung** mit einem Häkchen, um die Warnung zu aktivieren. Um die Warnung zu deaktivieren, entfernen Sie das Häkchen.  
+2. Versehen Sie auf der Seite **Finanzbuchhaltung einrichten** im Inforegister **Anwendung** das Feld **Zahlungstoleranzwarnung** mit einem Häkchen, um die Warnung zu aktivieren. Um die Warnung zu deaktivieren, entfernen Sie das Häkchen.  
 
 > [!NOTE]  
->  Die Standardoption des Fenster **Zahlungstoleranzwarnung** ist **Restbetrag offen lassen**. Die Standardoption des Fenster **kontotoleranzwarnung** ist **Überzogenes Skonto nicht akzeptieren**.
+>  Die Standardoption der Seite **Zahlungstoleranzwarnung** ist **Restbetrag offen lassen**. Die Standardoption der Seite **Kontotoleranzwarnung** ist **Überzogenes Skonto nicht akzeptieren**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Zahlungstoleranz für Debitoren sperren:  
 Die Standardeinrichtung für die Zahlungstoleranz ist zulässig. Um eine Zahlungstoleranz für einen bestimmten Kreditor oder Debitor zu sperren, müssen Sie auf der entsprechenden Debitoren- oder Kreditorenkarte die Toleranz sperren. Wie dies für einen Debitoren stattfindet, wird im Folgendem beschrieben: Die Schritte sind für einen Kreditor ähnlich.
@@ -86,7 +86,7 @@ Die Standardeinrichtung für die Zahlungstoleranz ist zulässig. Um eine Zahlung
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Beispiel 1 – Toleranzberechnungen für einen einzelnen Beleg
 Im Folgenden wird anhand von Beispielszenarien gezeigt, welche Toleranzberechnungen und Buchungen sich in verschiedenen Situationen ergeben.  
 
-Das Fenster **Sachkontoeinrichtung** enthält die folgende Einrichtung:
+Die Seite **Sachkontoeinrichtung** enthält die folgende Einrichtung:
 - Skontozahlungstoleranzperiode:    5T  
 - Maximale Zahlungstoleranz. 5  
 
@@ -155,7 +155,7 @@ Normale Ausgleichsvorschriften
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Beispiel 2 – Toleranzberechnungen für mehrere Belege
 Im Folgenden wird anhand von Beispielszenarien gezeigt, welche Toleranzberechnungen und Buchungen sich in verschiedenen Situationen ergeben. Die Beispiele beschränken sich auf die Szenarien, die dazu führen, dass alle Posten geschlossen werden.  
 
-Das Fenster **Sachkontoeinrichtung** enthält die folgende Einrichtung:
+Die Seite **Sachkontoeinrichtung** enthält die folgende Einrichtung:
 - Skontotoleranzperiode:     5T  
 - Maximale Zahlungstoleranz                 5  
 
@@ -259,7 +259,7 @@ Normale Ausgleichsvorschriften
 
 ## <a name="see-also"></a>Siehe auch  
 [Finanzen](finance.md)  
-[Finance einrichten](finance-setup-finance.md)  
+[Finanzen einrichten](finance-setup-finance.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

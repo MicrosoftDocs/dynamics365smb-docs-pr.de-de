@@ -12,17 +12,19 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8717d60a8449ca300eaf9c1a5c4b137ea1a1a247
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
+
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] bietet mehrere Möglichkeiten, Datumsangaben und Uhrzeiten einzugeben, einschließlich leistungsstarker Funktionen, die die Dateneingabe beschleunigen oder Ihnen helfen, komplexe Kalenderausdrücke zu schreiben. Es gibt verschiedene Bereiche in der Anwendung, in denen Sie Daten und Uhrzeiten in die Felder eingeben können. So können Sie beispielsweise das Warenausgangsdatum für einen Auftrag festlegen. Wenn Sie Listen oder Berichtsdaten filtern, können Sie Datumswerten und Uhrzeiten eingeben, um genau die Daten zu finden, an denen Sie interessiert sind.
 
 ## <a name="check-your-region-and-language-settings"></a>Überprüfen Ihrer Bereichs- und Spracheneinstellungen
+
 Die Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Direkt zur Benutzereinstellungsseite in Business Central zurückkehren") gibt die **Region** und die **Sprache** an, die Sie in der Anwendung verwenden. Diese Einstellungen beeinflussen, wie Sie Datumswerte und Uhrzeiten eingeben. 
 
 -   Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.
@@ -35,7 +37,9 @@ Die Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=91
 <!-- 
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
+
 ## <a name="entering-dates"></a>Eingeben von Datumswerten
+
 In einem Datumsfeld können Sie unter Verwendung des Standardformats ein Datum für Ihre Bereichseinstellung eingeben. Verschiedene Regionen können verschiedene Trennzeichen zwischen Tagen, Monaten und Jahren verwenden. Beispielsweise werden in einigen Regionen Bindestriche verwendet (mm-tt-jjjj) und in anderen werden Schrägstriche verwenden (mm/tt/jjjj). Sie können allerdings sämtliche Trennzeichen verwenden, sogar einen Leerzeichen, und das Datum wird automatisch zu den Trennzeichen geändert, die Ihrer Region entsprechen.
 
 Beachten Sie, dass, das Format, in dem Datumswerte in gedruckten Berichten oder per E-Mail gesendeten Dokumenten von Ihrer persönlichen Regionseinstellung nicht beeinflusst wird.
@@ -43,16 +47,15 @@ Beachten Sie, dass, das Format, in dem Datumswerte in gedruckten Berichten oder 
 Um produktiver mit Datumswerten und Uhrzeiten zu arbeiten, können Sie alle Methoden oder Formate verwenden, die in den folgenden Abschnitten beschrieben werden. 
 
 ### <a name="picking-dates-from-the-calendar"></a>Datumsangaben aus dem Kalender auswählen
+
 Alle Felder, die ein Kalendersymbol anzeigen, können mithilfe der Kalendertagauswahl festgelegt werden. Um die Kalendertagauswahl anzuzeigen, aktivieren Sie das Kalendersymbol oder drücken Sie die Tastenkombination STRG+POS1 im Feld.
 
 ![Datumsfelder](media/ui-date-field.png "Beispiel eines Datumsfeldes")
 
 Weitere Informationen unter [Tastenkombinationen in der Kalenderdatumsauswahl](keyboard-shortcuts.md#calendarshortcuts)
 
-### <a name="today"></a>Heute
-Geben Sie das Wort für `today` in der Sprache ein, die von der **Sprach**-Einstellung festgelegt wird. Dadurch wird das Datum auf das aktuelle Datum festgelegt. Anstatt den gesamten Begriff einzugeben, können Sie einen Teil des Begriffs eingeben. Beginnen Sie mit `t` oder `tod`, sofern dies nicht auch der Beginn eines anderen Begriffs ist.
-
 ### <a name="day-week-year-pattern"></a>Tag\-Woche\-Jahr-Muster
+
 Sie können ein Datum als Wochentag gefolgt von einer Wochennummer und optional einem Jahr eingeben. Beispielsweise bedeutet `Mon25` oder `mon25` Montag in der 25. Woche Wenn Sie kein Jahr eingeben, wird das Jahr des Arbeitsdatums verwendet.
 
 Anstatt das gesamte Wort für den Wochentag einzugeben, können Sie vom Anfang an einen Teil des Begriffs eingeben. Bei Konflikten (wie bei `s` für Samstag oder Sonntag) werden die Tage entsprechend der Bereichseinstellung ausgewertet. Die Eingabe wird zuerst nach `workdate` auch `today` ausgewertet, beachten Sie dies bei der Abkürzung. Beispielsweise bedeutet `t` heute, daher kann es nicht "Dienstag" oder "Donnerstag" bedeuten.
@@ -60,6 +63,7 @@ Anstatt das gesamte Wort für den Wochentag einzugeben, können Sie vom Anfang a
 Das Kalenderwocheschema folgt immer ISO 8601. Dabei ist Woche 1, in die der 4. Januar fällt, oder die Woche mit dem ersten Donnerstag des Jahres.
 
 ### <a name="digit-patterns"></a>Ziffernmuster
+
 In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingegeben werden:
 
 -   Wenn Sie nur zwei Ziffern eingeben, wird dies als Tagesangabe interpretiert, es gilt also der Monat und das Jahr des Arbeitsdatums.
@@ -68,7 +72,18 @@ In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingege
 
 -   Wenn Sie ein Datum zwischen dem 01.01.1930 und dem 31.12.2029 eingeben wollen, können Sie das Jahr zweistellig eingeben; ansonsten muss das Jahr vierstellig angegeben werden.
 
+### <a name="today"></a>Heute
+
+Geben Sie das Wort für `today` in der Sprache ein, die von der **Sprach**-Einstellung festgelegt wird. Dadurch wird das Datum auf das aktuelle Datum festgelegt. Anstatt den gesamten Begriff einzugeben, können Sie einen Teil des Begriffs eingeben. Beginnen Sie mit `t` oder `tod`, sofern dies nicht auch der Beginn eines anderen Begriffs ist.
+
+### <a name="period"></a>Periode
+
+Wenn Sie eine bestimmte Buchhaltungsperiode filtern möchten, geben Sie in einem Datumsfeld den Buchstaben `p` oder das Wort `period` ein, gefolgt von einer Nummer, der die Buchhaltungsperiode identifiziert, z. B. `p2` oder `period4`. Die Buchhaltungsperiode ist relativ zum Geschäftsjahr des aktuellen Arbeitsdatums, das von Ihrem Rollencenter festgelegt wurde. Wenn beispielsweise das Arbeitsdatum **21/03/20** lautet, dann filtern `p1` oder einfach `p` in der ersten Buchhaltungsperiode des Geschäftsjahres 2020 (wie `01/01/20..01/31/20`). `p15` filtert den Fünfzehnten der Buchhaltungsperiode ab dem Anfang des Geschäftsjahres 2020 (wie `03/01/21..03/31/21`). 
+
+Die Buchhaltungsperioden werden auf der Seite **Buchhaltungsperiode** definiert. Um die Buchhaltungsperioden anzuzeigen oder zu ändern, öffnen Sie [hier](https://businesscentral.dynamics.com/?page=100) die Seite.
+
 ### <a name="current-work-date"></a>Aktuelles Arbeitsdatum
+
 Die Arbeitsdatumsfunktion ermöglicht es Ihnen Übergänge mithilfe eines Datums aufzuzeichnen, das sich vom aktuellen Datum unterscheidet.
 
 Das für Wort "Arbeitsdatum" in der Sprache, die in der **Spracheinstellung** festgelegt ist, legt das Datum auf das aktuell festgelegte Arbeitsdatum fest, das auf der Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Direkt zur Benutzereinstellungsseite in Business Central") angegeben ist. Anstatt das gesamte Wort einzugeben, können Sie vom Anfang an einen Teil des Begriffs eingeben, z. B. 'A' oder 'Arbeit'.
@@ -78,11 +93,13 @@ Wenn Sie kein Arbeitsdatum definiert haben, wird das aktuelle Datum als Arbeitsd
 Weitere Informationen finden Sie unter [Ändern von grundlegenden Einstellungen, wie dem Arbeitsdatum](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Ultimodatum
+
 Wenn Sie ein Geschäftsjahr abschließen, können Sie mithilfe des Ultimodatums angeben, dass es sich bei einem Posten um einen Abschlussposten handelt. Technisch gesehen liegt ein Ultimodatum zwischen zwei Datumswerten, beispielsweise zwischen dem 31. Dezember und dem 1. Januar.
 
 Setzen Sie ein `C` vor eine Datumsangabe, um anzugeben, dass es sich bei diesem Datum um ein Ultimodatum handelt, z. B. `C123101`. Dies kann in Verbindung mit allen Datumsmustern verwendet werden.
 
 ### <a name="examples"></a>Beispiele
+
 Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Formate verwenden. Es nimmt Regionseinstellungen an, die Datumsangaben laut **year.month.day.** festlegen; eine Woche, die mit Montag beginnt und die englische Sprache.
 
 |**Eingabe**      |**Interpretation**      |
@@ -96,6 +113,7 @@ Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Format
 |`11`|Arbeitsdatum Jahr.Arbeitsdatum Monat.11|
 |`1112`|Arbeitsdatum Jahr.11.12.|
 |`t` oder `today`|heutiges Datum|
+|`p4`|Datumsbereich, der die vierte Buchhaltungsperiode enthält, z. B. `04/01/20..04/30/20`|
 |`w` oder `workdate`|das Arbeitsdatum|
 |`m` oder `Monday`|Montag der Woche des Arbeitsdatums|
 |`tu` oder `Tuesday`|Dienstag der Woche des Arbeitsdatums|
@@ -106,16 +124,16 @@ Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Format
 |`t-1`|Dienstag von Woche 1 des Arbeitsjahres|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Festlegen von Breichen
+
 In Listen, Summen und Berichten können Sie Filter für Datumsangaben, Uhrzeiten, Datums-/Uhrzeitangaben einrichten, die einen Startwert und optional einen Endwert haben, um nur die Datumsangaben anzuzeigen, die in diesem Bereich enthalten sind. Die Standardregeln gelten für die Methode, auf die Sie Datumsbereiche festlegen.
 
 |**Bedeutung**|**Beispielausdruck (Datum)**|**Im Filter enthaltene Daten**|
 |-----------|---------------------|--------------------|
-|Intervall|`12 15 00..01 15 01`  \n`..12 15 00`|Datensätze mit Datumsangaben zwischen und einschließlich dem 15.12.00 und dem 15.01.01.  \nDatensätze mit Datumsangaben vom 12 15 00 oder früher.|
+|Intervall|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Datensätze mit Datumsangaben zwischen und einschließlich dem 15.12.00 und dem 15.01.01.<br /><br />Datensätze mit Datumsangaben vom 12 15 00 oder früher.<br /><br />Datumsbereich, der die zweite, dritte und vierte Buchhaltungsperioden enthält, z. B. `01/01/20..04/30/20`.|
 |Entweder/oder|`12 15 00|12 16 00`|Datensätze mit den Datumsangaben 12 15 00 oder 12 16 00. Wenn es sowohl Datensätze mit Datumsangaben für beide Tage gibt, werden alle angezeigt.|
 |Kombination|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Datensätze mit Datumsangaben vom 15.12.00 oder zwischen dem 01.12.00 und dem 10.12.00 einschließlich.  \nDatensätze mit einem Datum von 14.12.00 oder früher, oder mit einem Datum von 30.12.00 und später, d. h. alle Datensätze außer solchen mit Datumsangaben zwischen dem 15.12.00 und dem 29.12.00 (jeweils einschließlich).|
 
 Sie können jedes der gültigen Formate in den Datumsbereichsfiltern verwenden. Beispielsweise ergibt `mon14 3..t 4p` bei einem Datums-/Zeitangabenfeld einen Filter von 3 Uhr morgens am Montag in der Woche 14 des Jahr des aktuellen Arbeitsdatums bis heute um 4 Uhr nachmittags.
-
 
 ## <a name="using-date-formulas"></a>Verwenden von Datumsformeln
 Bei einer Datumsformel handelt es sich um eine verkürzte Kombination aus Buchstaben und Zahlen, die zum Berechnen von Datumswerten verwendet wird. Sie können Datumsformeln in verschiedenen Datumsberechnungsfeldern oder -filtern eingeben.

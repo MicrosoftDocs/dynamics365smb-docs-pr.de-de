@@ -1,5 +1,5 @@
 ---
-title: Cloud-Kopie Ihre Daten | Microsoft Docs
+title: Intelligente Cloud Base | Microsoft Docs
 description: Verwenden Sie die intelligente Cloud-Erweiterung, um eine Cloud-Kopie Ihrer Daten zu erstellen, sodass Sie mit der intelligente Cloud verbunden sind.
 author: edupont04
 manager: edupont
@@ -12,19 +12,19 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ee12e90788a479ca26d6cae5f747f65ad7008306
+ms.sourcegitcommit: 7b5f8cb6a126bdd99ab5fb7a82f981eab1c484a1
+ms.openlocfilehash: ac99a1ba63d2ff4f7d30049c5c1e4e45424da824
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
-# <a name="business-central-intelligent-cloud-extension"></a>Intelligente Cloud-Erweiterung von Business Central
+# <a name="intelligent-cloud-base-extension"></a>Intelligente Cloud Base-Erweiterung
 
 Diese Erweiterung führt Sie durch den Vorgang, um Ihre intelligente Cloud-Umgebung zu konfigurieren und zu verwalten. Sobald die intelligente Cloud-Umgebung konfiguriert wird, haben Sie die Möglichkeit, Datenreplikationen von Ihrer lokalen Lösung zu Ihrem [!INCLUDE[prodshort](includes/prodshort.md)] Cloudtenant zu verwalten. Diese Erweiterung funktioniert in Verbindung mit einer Datenreplikationserweiterung, die für eine bestimmte lokale Lösung verfügbar ist. Weitere Informationen finden Sie unter [Ihr Zugang zur intelligenten Cloud](about-intelligent-cloud.md).  
 
 ## <a name="see-also"></a>Siehe auch
 
 [Ihr Zugang zur intelligenten Cloud](about-intelligent-cloud.md)  
-[Datenreplikations-Erweiterung](ui-extensions-data-replication.md)  
+[Intelligente Cloud-Erweiterung von Business Central](ui-extensions-data-replication.md)  
 

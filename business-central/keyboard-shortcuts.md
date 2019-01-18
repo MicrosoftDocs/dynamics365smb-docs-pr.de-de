@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
-Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn arbeiten [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn arbeiten [!INCLUDE[prodshort](includes/prodshort.md)].
 
-[Druckerfreundliche Tastenkombination-Notizzettel](keyboard-shortcuts-cheatsheet.md)
+[Druckerfreundliche Tastenkombination-Referenz](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Matrix
 Die Tastenkombinationseingabehilfe kann es effizienter und einfacher machen, zu verschiedenen Bereichen und Elementen auf einer Seite zu navigieren.
@@ -30,19 +30,22 @@ Die Tastenkombinationen werden von den meisten Webbrowsern unterstützt; jedoch 
 
 Die in diesem Hilfethema beschriebenen Tastenkombinationen beziehen sich auf das US-Tastaturlayout. Möglicherweise entsprechen die Tasten anderer Tastaturlayouts nicht exakt den Tasten auf der US-Tastatur.
 
-Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder MacOs ist; es gibt eine Reihe von Verknüpfungen, die für MacOs von Windows abweichen. Diese werden in Klammern in Tabellen in den Abschnitten angegeben, die folgen.
+Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder MacOS ist; es gibt eine Reihe von Verknüpfungen, die für Windows oder MacOS abweichen. Diese werden in Klammern in Tabellen in den Abschnitten angegeben, die folgen.
 
 ##  <a name="Keyboard"></a> Allgemeine Tastenkombinationen
 Die folgende Tabelle beschreibt Tastenkombinationen für das zusätzliche Navigieren und Aufrufen von verschiedenen Elementen einer Seite, wie Aktionen, Dropdownlisten Anzeige, und mehr. Details über die Tastenkombinationen zum Navigieren von Datensätzen, wenn Sie innerhalb einer Liste abrufen, finden Sie im nächsten Abschnitt.
 
-|Drücken Sie diese Tasten|Vorgehensweise|  
+|Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|  
 |----------------|-----------|  
-|ALT+Q|Öffnen Sie das **Was möchten Sie tun** Feld, das Ihnen dabei helfen kann, eine Seite, einen Bericht, eine Aktion über die aktuelle Seite oder Artikel in der Dokumentation zu finden.|
+|ALT+Q<br />(Ctrl+Alt+Q)|Öffnen Sie das **Was möchten Sie tun** Feld, das Ihnen dabei helfen kann, eine Seite, einen Bericht, eine Aktion über die aktuelle Seite oder Artikel in der Dokumentation zu finden.|
+|Alt+Nach oben Pfeil|Anzeigen von QuickInfo für ein Feld oder eine Spaltenüberschrift einer Tabelle. Wenn das Feld Überprüfungsfehler hat, drücken Sie "ALT+NACH-OBEN", um den Überprüfungsfehler anzuzeigen. Drücken Sie Esc "" oder "ALT+NACH-OBEN", um die QuickInfo zu schließen.|
 |Tab|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite  wie Schaltflächen, Felder oder Artikel in einer Liste.|
 |UMSCHALT+TAB|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite  wie Schaltflächen, Felder oder Artikel in einer Liste.|   
 |EINGABE|Das Element aktivieren oder darauf zugreifen oder steuern, das im Fokus liegt.|   
 |ALT + NACH-UNTEN-TASTE|Öffnen einer Dropdownliste, um einen Wert für ein Feld suchen.|    
 |Alt+Nach-rechts-Taste|Um die Transaktionen zu sehen, die einen Wert in einem berechneten Feld resultieren.|  
+|F5|Aktualisieren Sie die Daten der aktuellen Seite.|Verwenden Sie diesen, um sicherzustellen, dass sich die Daten aus der Seite mit sämtlichen Änderungen auf dem neuesten Stand befinden, die andere vorgenommen haben, während Sie arbeiten.|
+|Ctrl+F5|[!INCLUDE[prodshort](includes/prodshort.md)] Anwendung neu laden.|Dies ist gleich, wie Browser aktualisieren/neu laden.|
 |Esc|Schließen Sie die aktuelle Seite oder den Dropdownpfeil.|
 
 
@@ -126,7 +129,7 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |NACH-OBEN-TASTE|Führen Sie einen Bildlauf zum Anfang der Seite durch|
 |NACH-RECHTS-TASTE|Führen Sie einen Bildlauf nach rechts durch, wenn die Seite vergrößert ist, sodass sie nicht vollständig angezeigt wird. |
 |NACH-LINKS-TASTE|Führen Sie einen Bildlauf nach links durch, wenn die Seite vergrößert ist, sodass sie nicht vollständig angezeigt wird. |
-|STRG+0 (null)<br />(Cmd+0)|Passt die gesamte Seite an das Fenster an. |
+|STRG+0 (null)<br />(Cmd+0)|Passt die gesamte Seite an die Seite an. |
 |Strg+Pos1<br />(Cmd+Home)|Zur ersten Seite des Berichts wechseln.|
 |Strg+Ende<br />(Cmd+Home)|Zur letzten Seite des Berichts wechseln.|
 |Seite nach unten<br />(NACH-UNTEN-TASTE)|Zur nächsten Seite des Berichts wechseln.|

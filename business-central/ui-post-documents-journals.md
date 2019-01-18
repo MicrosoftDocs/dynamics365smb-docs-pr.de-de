@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1d10605991f215971a5562c9cde54ced59f9107
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 139cc2d43dbebb3c6c2f386b2977ba67bbe438d6
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="post-documents-and-journals"></a>Journale und Dokumente buchen
@@ -30,7 +30,7 @@ Die folgende Tabelle enthält Informationen zu verwandten Aufgaben wie Links zu 
 | Erfahren sie mehr zum Buchen von Kaufbelegen. |[Einkäufe buchen](ui-post-purchases.md) |
 | Erfahren sie mehr zum Buchen von Verkaufsbelegen. |[Verkäufe buchen](ui-post-sales.md) |
 | Erfahren Sie mehr zum Buchen von allgemeinen Vorlagen. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md) |
-| In einem Fenster die Posten in der Vorschau anzeigen, die erstellt werden, wenn Sie buchen. |[Vorschau-Buchungs-Ergebnisse](ui-how-preview-post-results.md) |
+| Auf einer Seite die Posten in der Vorschau anzeigen, die erstellt werden, wenn Sie buchen. |[Vorschau-Buchungs-Ergebnisse](ui-how-preview-post-results.md) |
 | In einem Bericht die Posten in der Vorschau anzeigen, die erstellt werden, wenn Sie buchen. |[Anzeigen von Testberichten vor dem Buchen](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Siehe auch

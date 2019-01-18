@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5176b7c04c09b9357041ec4fed5ed37c385d13ce
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bfb5ce68e4570f4d96a4216ea01f9d1ecc3bc623
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysieren von Daten nach Dimensionen
@@ -25,27 +25,28 @@ Bei den Dimensionen der Finanzanalyse handelt es sich um Daten, die Sie einem Po
 Die dimensionsgestützte Analyse von Daten ermöglicht einen tieferen Einblick in das Unternehmen sowie eine bessere Bewertung von Informationen: Wie gut funktioniert der operative Bereich des Unternehmens? Wo liegen Stärken, wo Schwächen? Welche Bereiche benötigen mehr Ressourcen?
 
 > [!TIP]
-> Als schnelle Möglichkeit, Transaktionsdaten nach Dimensionen zu analysieren, können Sie Summen im Kostenplan und Posten in allen **Posten**-Fenstern nach Dimensionen filtern. Suchen Sie nach der Aktion **Dimensionsfilter festlegen**.
+> Als schnelle Möglichkeit, Transaktionsdaten nach Dimensionen zu analysieren, können Sie Summen im Kostenplan und Posten in allen **Posten**-Seiten nach Dimensionen filtern. Suchen Sie nach der Aktion **Dimensionsfilter festlegen**.
 
 ## <a name="to-set-up-an-analysis-view"></a>So richten Sie eine Analyseansicht ein  
 Eine Analyse nach Dimensionen zeigt eine ausgewählte Kombination von Dimensionen an. Sie können jede Analyseansicht, die Sie eingerichtet haben, speichern und wieder aufrufen. Die Informationen zum Einrichten einer Analyse werden auf einer **Analyseansichtskarte** gespeichert, um künftige Analysen zu vereinfachen.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Analyseansicht** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie im Fenster **Analyseansichtsliste** die Aktion **Neu** aus.
+2. Wählen Sie auf der Seite **Analyseansichtsliste** die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Um den vier Dimensionscodes im Inforegister **Dimensionen** weitere Dimensionscodes hinzuzufügen. Füllen Sie die **Filter** aus, und klicken Sie anschließend auf **OK**  
 5. Um die Ansicht zu aktualisieren, wählen Sie die **Aktualisieren** Aktion.
 
 ## <a name="to-analyze-by-dimensions"></a>Analysieren von Daten nach Dimensionen
-In der Matrix **Verkaufsanalyse nach Dim.** können Sie die Beträge in der Finanzbuchhaltung unter Verwendung der bereits eingerichteten Analyseansichten anzeigen. Füllen Sie das Fenster **Analysen nach Dimensionen** aus, um festzulegen, was in der Matrix angezeigt wird. Wählen Sie dann **Matrix anzeigen** zum Anzeigen der Matrix.  
+In der Matrix **Verkaufsanalyse nach Dim.** können Sie die Beträge in der Finanzbuchhaltung unter Verwendung der bereits eingerichteten Analyseansichten anzeigen. Füllen Sie die Seite **Analysen nach Dimensionen** aus, um festzulegen, was in der Matrix angezeigt wird. Wählen Sie dann **Matrix anzeigen** zum Anzeigen der Matrix.  
+
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Analyseansicht** ein, und wählen dann den zugehörigen Link aus.  
+2. Wählen Sie die entsprechende Analyseansicht aus, und klicken Sie auf **Analyse nach Dimension bearbeiten**.
+3. auf der Seite  **Verkaufsanalyse nach Dimension** füllen Sie die Felder aus, um zu definieren, welche Daten wie angezeigt werden.
+4. Wählen Sie die **Matrix anzeigen** Aktion aus, um die für die jeweilige Matrixseite definierte Analyseansicht zu öffnen.
+5. Um die Spezifikation eines Betrags auf der Matrixseite anzuzeigen, wählen Sie den Betrag aus.  
 
 - Die Spalten auf der linken Seite enthalten Informationen, die auf Ihrer Auswahl im Feld **Zeilenansicht** im Kopf basieren.  
-- Die Spalten auf der rechten Seite enthalten Informationen, die auf Ihrer Auswahl im Feld **Spaltenansicht** im Kopf basieren.  
-
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Analyse nach Dimension** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie die entsprechende Analyseansicht aus, und klicken Sie auf **Analyseansicht bearbeiten**.
-3. Im Fenster **Verkaufsanalyse nach Dim.** füllen Sie die Felder aus, um die Analyseansicht zu definieren.
-4. 5. Um die Spezifikation eines Betrags im Matrixfenster anzuzeigen, wählen Sie den Betrag aus.  
+- Die Spalten auf der rechten Seite enthalten Informationen, die auf Ihrer Auswahl im Feld **Spaltenansicht** im Kopf basieren.
 
 > [!IMPORTANT]  
 >   Die ausgewählte Periodenlänge muss mindestens der Länge der Periode entsprechen, die auf der Karte **Analyseansicht** für die Datumskomprimierung angegeben ist. Die Befehle **Nächster Satz** und **Vorheriger Satz** sind inaktiv, wenn im Feld **Periode** oder im Feld **Als Zeile anzeigen** oder das Feld **Als Spalten anzeigen** gewählt wurde.  
@@ -57,14 +58,15 @@ In der Matrix **Verkaufsanalyse nach Dim.** können Sie die Beträge in der Fina
 >   Sie können die Ansicht auch verändern, indem Sie die Inhalte der Felder **Zeilenansicht** und **Spaltenansicht** verändern. Um eine Ansichtseinstellung auszutauschen, wählen Sie die **Zeilen- und Spaltenansicht vertauschen**.
 
 ## <a name="to-update-an-analysis-view"></a>Eine Analyseansicht analysieren:  
-Die Beträge, die im Fenster **Analyse nach Dimensionen** angezeigt werden, geben Aufschluss über den Zustand des Mandanten zum Zeitpunkt der letzten Aktualisierung. Um einen Eindruck über den aktuellen Zustand zu erhalten, müssen Sie die Analyseansicht mit der Aktualisierungsfunktion aktualisieren.
+Die Beträge, die auf der Seite **Analyse nach Dimensionen** angezeigt werden, geben Aufschluss über den Zustand des Mandanten zum Zeitpunkt der letzten Aktualisierung. Um einen Eindruck über den aktuellen Zustand zu erhalten, müssen Sie die Analyseansicht mit der Aktualisierungsfunktion aktualisieren.
 
-Der folgende Ablauf bezieht sich auf die Aktualisierung einer Analyseansicht im Fenster **Analyse nach Dimensionen** . Die Schritte sind **Analyseansichtskartenansicht** und **Artikelanalyseansichtenübersicht** ähnlich.  
+Der folgende Ablauf bezieht sich auf die Aktualisierung einer Analyseansicht  auf der Seite **Analyse nach Dimensionen** . Die Schritte sind **Analyseansichtskartenansicht** und **Artikelanalyseansichtenübersicht** ähnlich.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Analyse nach Dimension** ein, und wählen dann den zugehörigen Link aus.  
-2. Im Fenster **Analyse nach Dimensionen** wählen Sie das Feld **Analyseansichtscode**, um die Optionen anzuzeigen aus.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Analyseansicht** ein, und wählen dann den zugehörigen Link aus.
+2. Wählen Sie die entsprechende Analyseansicht aus, und klicken Sie auf **Analyse nach Dimension bearbeiten**.
+2. Auf der Seite **Analyse nach Dimensionen** wählen Sie das Feld **Analyseansichtscode**, um die Optionen anzuzeigen aus.  
 3. Wählen Sie die Zeile mit der relevanten Analyseansicht aus.  
-4. Wählen Sie die Aktion **Kapazität aktualisieren** aus.  
+4. Wählen Sie auf der Seite **Analyseansicht** die entsprechende Analyseansicht aus, und klicken Sie auf **Aktualisieren**.  
 
 > [!TIP]  
 >   Wenn Sie das Kontrollkästchen **Bei Buchung aktualisieren** in einer Analyseansichtskarte auswählen, wird die Ansicht aktualisiert, wenn eine beteiligte Transaktion gebucht wird.
@@ -75,7 +77,7 @@ Der folgende Ablauf bezieht sich auf die Aktualisierung einer Analyseansicht im 
 ## <a name="see-also"></a>Siehe auch
 [Business Intelligence](bi.md)  
 [Finanzen](finance.md)  
-[Finance einrichten](finance-setup-finance.md)  
+[Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

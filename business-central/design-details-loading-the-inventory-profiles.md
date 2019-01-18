@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Designdetails: Laden der Bestands-Profile
@@ -45,7 +45,7 @@ Um die vielen Quellen von Nachfrage und Angebot zu sortieren, organisiert das Pl
  Das Planungssystem steuert dies, indem es das Bestandsprofil durchläuft. Wenn eine neue Kombination gefunden wird, erstellt die Anwendung einen internen Steuerdatensatz, der die tatsächlichen Kombinationsinformationen enthält. Das Programm fügt die SKU als Steuerdatensatz oder externe Schleife ein. Als Ergebnis werden die richtigen Planungsparameters entsprechend einer Kombination aus Variante und Lagerort gesetzt, und die Anwendung kann an die inneren Schleife übergehen.  
 
 > [!NOTE]  
->  Das Programm verlangt nicht, dass der Benutzer einen SKU-Datensatz eingibt, wenn ein Bedarf und/oder ein Vorrat für eine bestimmte Kombination von Variante und Lagerort eingegeben wird. Wenn Lagerhaltungsdaten für eine angegebene Kombination nicht vorhanden sind, erstellt die Anwendung einen eigenen temporären Lagerhaltungsdatendatensatz basierend auf den Artikelkartendaten. Wenn „Lagerort erforderlich“ im Bestandseinrichtungsfenster auf „Ja“ gesetzt ist, muss entweder eine SKU erstellt werden, oder „Komponenten am Lagerort“ muss auf „Ja“ gesetzt werden. Weitere Informationen finden Sie unter [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
+>  Das Programm verlangt nicht, dass der Benutzer einen SKU-Datensatz eingibt, wenn ein Bedarf und/oder ein Vorrat für eine bestimmte Kombination von Variante und Lagerort eingegeben wird. Wenn Lagerhaltungsdaten für eine angegebene Kombination nicht vorhanden sind, erstellt die Anwendung einen eigenen temporären Lagerhaltungsdatendatensatz basierend auf den Artikelkartendaten. Wenn „Lagerort erforderlich“ in der Bestandseinrichtungsseite auf „Ja“ gesetzt ist, muss entweder eine SKU erstellt werden, oder „Komponenten am Lagerort“ muss auf „Ja“ gesetzt werden. Weitere Informationen finden Sie unter [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serien-/Chargennummern werden durch die Spezifikations-Ebene geladen  
  Attribute in Form von Serien-/Chargennummern werden in die Bestandsprofile zusammen mit dem Bedarf und dem Vorrat geladen, denen sie zugeordnet sind.  

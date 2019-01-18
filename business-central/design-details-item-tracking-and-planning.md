@@ -13,10 +13,10 @@ ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f496530fcf4f0321b71941cdfdaa5fe100e15ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
@@ -191,7 +191,7 @@ Die folgende Tabelle zeigt die Auswirkung der exakten Kostenumkehrung der Wertpo
 Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge** ausführen, werden die erhöhten Kosten des Einkaufspostens aufgrund des Zu-/Abschlags (Artikelnummer) zum Verkaufsposten weitergeleitet (Postennummer 2). Der Verkaufsposten übergibt dann diese erhöhten Kosten an den Verkaufsgutschriftposten weiter (Postennummer 3). Das Endergebnis ist, dass die Kosten korrekt umgekehrt werden.  
   
 > [!NOTE]  
->  Wenn Sie mit Reklamationen oder Gutschriften arbeiten und im Feld **Einst.-Pr.-Rückverfolg. notw.** entweder das Fenster **Kreditoren und Einkauf Einr** oder in **Debitoren und Verkauf Einr.** entsprechend Ihren Gegebenheiten Einstandspreisrückverfolgung eingerichtet haben, dann werden [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch ausgefüllt, wenn Sie die Funktion **Beleg kopieren** verwenden. Wenn Sie die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** verwenden, werden diese Felder immer automatsich ausgefüllt.  
+>  Wenn Sie mit Reklamationen oder Gutschriften arbeiten und im Feld **Einst.-Pr.-Rückverfolg. notw.** entweder die Seite **Kreditoren und Einkauf Einr** oder in **Debitoren und Verkauf Einr.** entsprechend Ihren Gegebenheiten Einstandspreisrückverfolgung eingerichtet haben, dann werden [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch ausgefüllt, wenn Sie die Funktion **Beleg kopieren** verwenden. Wenn Sie die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** verwenden, werden diese Felder immer automatsich ausgefüllt.  
   
 > [!NOTE]  
 >  Wenn Sie eine Transaktion mit einem festen Ausgleich buchen und der Artikelposten, zu dem Sie verknüpfen, ist geschlossen (d. h. die Restmenge ist gleich 0), wird automatisch der alte Ausgleich zurückgenommen und erneut mit dem Artikelposten ausgeglichen, wobei der von Ihnen angegebene feste Ausgleich verwendet wird.  
@@ -239,7 +239,7 @@ Wegen der Art, in der Einstandspreise berechnet werden, kann ein fehlerhafter Ar
 * Sie möchten die erstellte Anwendung automatisch beim Buchen überschreiben, entsprechend der Lagerabgangsmethode des Artikels.  
 * Sie müssen einen Artikel zurückliefern, für den bereits ein Verkauf manuell angewendet wurde, ohne die Funktion **Zu stornierende Belegzeilen abrufen** zu verwenden und daher die Anwendung annullieren.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet eine Funktion zum Analysieren und Korrigieren der Artikelausgleiche. Dieser Vorgang wird im Fenster **Arbeitsblatt anwenden** ausgeführt.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet eine Funktion zum Analysieren und Korrigieren der Artikelausgleiche. Dieser Vorgang wird auf der Seite **Arbeitsblatt anwenden** ausgeführt.  
   
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)  

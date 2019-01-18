@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetails: Lagereinrichtung
@@ -93,7 +93,7 @@ In erweiterten Lagerorten können Lagerplätze mit Kapazitätswerten, wie Menge,
 
 In jeder Artikelkarte können Sie eine Einheit (UOM) für den Artikel, wie Stück, Paletten, Liter, Gramm oder Felder zuordnen. Sie können eine Grundlage Mengeneinheit für einen Artikel ebenfalls haben und größere Mengeneinheit für einen Artikel, die darauf basieren, angeben. Beispielsweise können Sie eine Palette auf 16 Stück festlegen (die Basismengeneinheit).  
 
-Wenn Sie eine maximale Menge eines bestimmten Artikels für die Speicherung in einem einzelnen Lagerplatz einrichten möchten und für den Artikel mehr als eine Mengeneinheit besteht, müssen Sie die Höchstmenge für jede Mengeneinheit auf der Artikelkarte einrichten. Entsprechend gilt: Wenn ein Artikel so eingerichtet wurde, dass er nach Stück und Paletten bearbeitet wird, muss das **Maximale Menge**-Feld im **Lagerplatz-Inhalt**-Fenster für diesen Artikel ebenfalls nach Stück und Paletten organisiert sein. Andernfalls wird die zulässige Menge für diesen Lagerplatz nicht korrekt berechnet.  
+Wenn Sie eine maximale Menge eines bestimmten Artikels für die Speicherung in einem einzelnen Lagerplatz einrichten möchten und für den Artikel mehr als eine Mengeneinheit besteht, müssen Sie die Höchstmenge für jede Mengeneinheit auf der Artikelkarte einrichten. Entsprechend gilt: Wenn ein Artikel so eingerichtet wurde, dass er nach Stück und Paletten bearbeitet wird, muss das **Maximale Menge**-Feld auf der Seite **Lagerplatz-Inhalt** für diesen Artikel ebenfalls nach Stück und Paletten organisiert sein. Andernfalls wird die zulässige Menge für diesen Lagerplatz nicht korrekt berechnet.  
 
 Bevor Sie Kapazitätseinschränkungen für Lagerplatzinhalte an einem Lagerplatz einrichten, müssen Sie zuerst prüfen, ob die Mengeneinheit und die Dimensionen des Artikels auf der Artikelkarte eingerichtet wurden.  
 

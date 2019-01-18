@@ -13,10 +13,10 @@ ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 28891eb7cef2faba6004cbf97480c438c58df892
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 996bf575d463be365b0bbcdbeef319491065b873
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Aktivitäten mit Kontakten automatisch aufzeichnen
@@ -28,8 +28,8 @@ Sie können Anwendung für die Automatische Aufzeichnung von Aktivitäten für V
 * Senden Sie E-Mails an Ihre Kontakte.
 * Rufen Sie Ihre Kontakte an, wenn Sie ein TAPI-fähiges Telefon und die entsprechende Installation haben.
 
-Um die automatische Aufzeichnung dieser Aktivitäten einzurichten, geben Sie Aktivitätenvorlagen für diese Dokumente und Aktionen Aktivitätenvorlagen an, indem Sie das Fenster **Aktivitätenvorlage eingerichtet** verwenden.  
-Um das Fenster **Interaktionsvorlage einrichten** zu öffnen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion](media/ui-search/search_small.png "Wie möchten Sie weiter verfahre") geöffnet wird. Geben Sie **Interaktionsvorlage einrichten** ein und wählen dann den zugehörigen Link aus.
+Um die automatische Aufzeichnung dieser Aktivitäten einzurichten, geben Sie Aktivitätenvorlagen für diese Dokumente und Aktionen Aktivitätenvorlagen an, indem Sie die Seite **Aktivitätenvorlage eingerichtet** verwenden.  
+Um die Seite **Interaktionsvorlage einrichten** zu öffnen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") geöffnet wird. Geben Sie **Interaktionsvorlage einrichten** ein und wählen dann den zugehörigen Link aus.
 
 ## <a name="see-also"></a>Siehe auch
 [Aufzeichnen von Aktivitäten mit Kontakten](marketing-interactions.md)  

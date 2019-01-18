@@ -13,16 +13,16 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5abf0941b90df29bf5175886fbce5782857b5888
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Erfüllen von Serviceverträgen 
 Eine Möglichkeit zum Einrichten eines Servicemanagementgeschäfts besteht darin, dass standardmäßige vertragliche Vereinbarungen zwischen Ihnen und den Debitoren bestehen, in denen die Qualität des Services und die Erwartungen daran beschrieben werden. Ein derartiges System kann implementiert werden, indem eine Möglichkeit zum einfachen Erstellen von Vertragsvorlagen geboten wird, die erforderliche Informationen, wie Startdatum des Vertrags und Rechnungsperiode, beinhalten.  
   
-Nach dem Einrichten der Vorlage kann der daraufhin erstellbare Vertrag so angepasst werden, dass Servicezeiten oder andere Artikel, die sich abhängig vom Debitor unterscheiden, erfasst werden. Überdies kann ein Vertrag manuell anhand eines Servicevertragsangebots eingerichtet werden. Abschließend können die Servicepreise so angepasst werden, dass Rabatte nachverfolgt werden, für die ein bestimmter Debitor berechtigt ist. Dabei wird der Rabattbetrag im Fenster **Servicevertrag** angegeben.  
+Nach dem Einrichten der Vorlage kann der daraufhin erstellbare Vertrag so angepasst werden, dass Servicezeiten oder andere Artikel, die sich abhängig vom Debitor unterscheiden, erfasst werden. Überdies kann ein Vertrag manuell anhand eines Servicevertragsangebots eingerichtet werden. Abschließend können die Servicepreise so angepasst werden, dass Rabatte nachverfolgt werden, für die ein bestimmter Debitor berechtigt ist. Dabei wird der Rabattbetrag auf der Seite **Servicevertrag** angegeben.  
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
   

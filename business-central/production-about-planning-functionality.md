@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c6f298a12cda4e06aeaa28eb3143b7a22ff12d10
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-planning-functionality"></a>Info zu Planungsfunktionen
@@ -73,7 +73,7 @@ Die folgenden Auftragsmodifikationen sind auf der Artikel- oder Lagerhaltungsdat
 -   Maximale Losgröße  
 -   Losgrößenrundungsfaktor  
 
-Zu den globalen Planungseinrichtungsfeldern im Fenster **Produktion Einrichtung** gehören:  
+Zu den globalen Planungseinrichtungsfeldern auf der Seite **Produktion Einrichtung** gehören:  
 
 -   Dyn. Stückl.-Ebene berechnen  
 -   Aktuelle Bedarfsplanung  
@@ -95,7 +95,7 @@ Gibt an, ob die durch die Fertigungsauftragszeile dargestellte Lieferung bei der
 Enthält das Feld die Option **Unbeschränkt**, wird die Zeile beim Berechnen von Ereignismeldungen berücksichtigt. Wenn das Feld die Option **Keine** enthält, ist die Zeile unveränderlich und wird bei der Berechnung von Aktionsmeldungen nicht berücksichtigt.
 
 ### <a name="warning"></a>Warnung
-Das Feld **Warnung** im **Planungsvorschlag** Fenster informiert Sie über jede mögliche Planungszeile, die für eine ungewöhnliche Situation mit einen Text erstellt wird, den der Benutzer klicken kann, um weitere Informationen anzuzeigen. Folgende Arten von Warnungen sind verfügbar:
+Das Feld **Warnung** auf der **Planungsvorschlag** Seite informiert Sie über jede mögliche Planungszeile, die für eine ungewöhnliche Situation mit einen Text erstellt wird, den der Benutzer klicken kann, um weitere Informationen anzuzeigen. Folgende Arten von Warnungen sind verfügbar:
 
 - Notfall
 - Ausnahme
@@ -135,7 +135,7 @@ Die Achtungswarnung wird in zwei Situationen angezeigt:
 [Planung](production-planning.md)   
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

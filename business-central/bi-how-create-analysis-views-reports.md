@@ -11,10 +11,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ecee2f3b5be33bb12f6ca742c0a28720fee6e427
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Analyseberichte erstellen
@@ -41,9 +41,9 @@ Dann können Sie beispielsweise folgende Spalten erstellen:
 - Verkäufe in Prozent zum letzten Monat  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Einrichten von Zeilen- und Spaltenlayouts  
- Im Fenster **Analysebericht** können Sie unterschiedliche Zeilen- und Spaltenlayouts entsprechend Ihren Einrichtungsparametern anzeigen. Sie erstellen die Zeilen bzw. Zeilenvorlagen im Fenster **Analysezeilenvorlagen**. Sie können in diesem Fenster den Namen des Berichts und die Objekte festlegen, die Sie in den Zeilen des Berichts anzeigen möchten. Sie erstellen die Spalten im Fenster **Analysespaltenvorlagen**. In diesem Fenster können Sie den Namen der Spaltenvorlage und die Analyseparameter, die Sie in dem Bericht als Spalten darstellen möchten, festlegen. Jede Zeile im Fenster **Analysespaltenvorlagen** stellt eine Spalte im Bericht dar. Beachten Sie, dass Analysezeilen und -spalten voneinander unabhängig sind.  
+ Auf der Seite **Analysebericht** können Sie unterschiedliche Zeilen- und Spaltenlayouts entsprechend Ihren Einrichtungsparametern anzeigen. Sie erstellen die Zeilen bzw. Zeilenvorlagen auf der Seite **Analysezeilenvorlagen**. Sie können auf der Seite den Namen des Berichts und die Objekte festlegen, die Sie in den Zeilen des Berichts anzeigen möchten. Sie erstellen die Spalten auf der Seite **Analysespaltenvorlagen**. Auf dieser Seite können Sie den Namen der Spaltenvorlage und die Analyseparameter, die Sie in dem Bericht als Spalten darstellen möchten, festlegen. Jede Zeile auf der Seite **Analysespaltenvorlagen** stellt eine Spalte im Bericht dar. Beachten Sie, dass Analysezeilen und -spalten voneinander unabhängig sind.  
 
-Das Programm fasst, basierend auf den eingerichteten Zeilen und Spalten, die Ergebnisse des Berichts im Fenster **Analysebericht** zusammen. Es verwendet dazu in etwa folgende Matrix:  
+Das Programm fasst, basierend auf den eingerichteten Zeilen und Spalten, die Ergebnisse des Berichts auf der Seite **Analysebericht** zusammen. Es verwendet dazu in etwa folgende Matrix:  
 
 | |Verkäufe aktueller Monat|Verkäufe letzter Monat|Verkäufe letzter Monat %|  
 |-|-|-|-|  
@@ -64,10 +64,10 @@ Eine Vorlage enthält eine Gruppe von Zeilen, wobei jede Zeile eine Analysespalt
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufsspalten-Vorlage** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die erste leere Linie und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie die Aktion **Spalten** aus.  
-4. Füllen Sie die Felder im Fenster **Analysespalten** aus, um die Spalten zu bestimmen, die der Analysebericht enthalten soll.  
+4. Füllen Sie die Felder auf der Seite **Analysespalten** aus, um die Spalten zu bestimmen, die der Analysebericht enthalten soll.  
 
     > [!NOTE]  
-    >   Um eine Spalte zu definieren, müssen Sie das Feld **Analysenartcode** für alle Spaltentypen außer **Formel** ausfüllen. Sie richten die Analysetypcodes im Fenster **Analysearten** ein.  
+    >   Um eine Spalte zu definieren, müssen Sie das Feld **Analysenartcode** für alle Spaltentypen außer **Formel** ausfüllen. Sie richten die Analysetypcodes auf der Seite **Analysearten** ein.  
     Wenn Sie zudem im Feld **Postenart** die Option **Artikelposten** auswählen, werden die aktuellen Zahlen aus dem Artikelposten kopiert. Wenn Sie **Artikelbudgetposten** auswählen, werden die budgetierten Zahlen aus dem Budget kopiert.  
 5.  Klicken Sie auf die Schaltfläche **OK**, um die Änderungen zu speichern.  
 
@@ -81,7 +81,7 @@ Eine Vorlage enthält eine Gruppe von Zeilen, die die im Bericht angezeigten Ana
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufszeilen-Vorlage** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die erste leere Linie und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie die Aktion **Zeilen** aus.  
-4. Erstellen Sie im Fenster **Analysezeilen** Zeilen für die Artikel, Debitoren, Kreditioren oder Verkäufer, für die Sie Zahlen im Analysebericht anzeigen möchten. Sie müssen das Feld **Art**, das Feld **Bereich** und das Feld **Beschreibung** ausfüllen.  
+4. Erstellen Sie auf der Seite **Analysezeilen** Zeilen für die Artikel, Debitoren, Kreditioren oder Verkäufer, für die Sie Zahlen im Analysebericht anzeigen möchten. Sie müssen das Feld **Art**, das Feld **Bereich** und das Feld **Beschreibung** ausfüllen.  
 
 > [!NOTE]  
 >   Möchten Sie alternativ mehrere individuelle Zeilen für jeden Artikel, Debitor usw. erzeugen, wählen Sie die geeignete Einfügeoption aus. Wenn es erforderlich ist, können Sie dann die Zeilen manuell bearbeiten. Um Zeilen einzufügen, wählen Sie auf der Registerkarte Aktionen in der Gruppe Funktionen die Option **Artikel einfügen** oder **Artikelgruppen** einfügen aus.  
@@ -92,18 +92,18 @@ Das folgende Verfahren basiert auf Analyseberichten für Aufträge. Die Schritte
 Verwenden Sie Analyseberichte, um die Entwicklung der Verkäufe anhand der ausgewählten Schlüsselindikatoren für die Verkaufsperformance zu analysieren, beispielsweise den Verkaufsumsatz in Beträgen und Mengen, die Beitragsspanne oder den Status der aktuellen Verkäufe gegenüber dem Budget. Sie können den Bericht auch verwenden, um durchschnittliche VK-Preise zu analysieren und die Verkaufsperformance der Verkaufsabteilung zu bewerten.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkaufsanalyse-Bericht** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie im Fenster **Analyseberichtsverkauf** die Aktion **Neu** aus.
+2. Wählen Sie auf der Seite **Analyseberichtsverkauf** die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die **Analysebericht bearbeiten** Aktion aus.
-5. Wählen Sie im Fenster **Analyseansichtsliste** die Aktion **Matrix anzeigen** aus.  
+5. Wählen Sie auf der Seite **Analyseansichtsliste** die Aktion **Matrix anzeigen** aus.  
 
 > [!NOTE]  
->   Das Einrichten von Kombinationen aus Zeilen- und Spaltenvorlagen für das Erstellen von Berichten und das Zuweisen von eindeutigen Namen zu diesen sind nicht erforderlich. Falls Sie dieses Verfahren verwenden, müssen Sie lediglich einen Berichtsnamen auswählen, so dass Sie im Fenster **Vertriebsanalysebericht** keine Zeilen- und Spaltenvorlagen auswählen müssen. Nach dem Auswählen eines Berichtsnamens können Sie die Zeilen- und Spaltenvorlagen unabhängig voneinander ändern und später den Berichtsnamen erneut auswählen, um die ursprüngliche Kombination wiederherzustellen.
+>   Das Einrichten von Kombinationen aus Zeilen- und Spaltenvorlagen für das Erstellen von Berichten und das Zuweisen von eindeutigen Namen zu diesen sind nicht erforderlich. Falls Sie dieses Verfahren verwenden, müssen Sie lediglich einen Berichtsnamen auswählen, so dass Sie auf der Seite **Vertriebsanalysebericht** keine Zeilen- und Spaltenvorlagen auswählen müssen. Nach dem Auswählen eines Berichtsnamens können Sie die Zeilen- und Spaltenvorlagen unabhängig voneinander ändern und später den Berichtsnamen erneut auswählen, um die ursprüngliche Kombination wiederherzustellen.
 
 ## <a name="see-also"></a>Siehe auch
 [Business Intelligence](bi.md)  
 [Finanzen](finance.md)  
-[Finance einrichten](finance-setup-finance.md)  
+[Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

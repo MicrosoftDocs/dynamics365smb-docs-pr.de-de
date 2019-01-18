@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fbac12ea35916a1ae577341054f4b80522de9df8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Aufstellung Cashflow-Analyse
@@ -68,14 +68,14 @@ Um die unterstützte Einrichtung zu verwenden:
 1. Im Buchhalterrollencenter unter **Cashflow-Planung** wählen Sie die Aktion **Unterstütze Einrichtung** aus.  
 2. Füllen Sie die Felder soweit erforderlich für jeden Schritt aus.  
 3. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Cash Flow Planung** ein, und wählen dann den zugehörigen Link aus.
-4. Im Fenster **Cashflowplanung** wählen Sie die **Berechnen Sie Planung nach** Aktion aus.  
+4. Auf der Seite **Cashflowplanung** wählen Sie die **Berechnen Sie Planung nach** Aktion aus.  
 
 Um einen manuellen Vorgang zu verwenden:  
 
 1. Im Feld Buchhalter-Rollencenter suchen Sie nach **Cashfloweinrichtung** und wählen Sie dann den zugehörigen Link aus.  
 2. Erweitern Sie das Inforegister **Cortana Intelligence** und aktivieren Sie dann das Kontrollkästchen **Cortana Intelligence aktiviert**.  
 3. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Cash Flow Planung** ein, und wählen dann den zugehörigen Link aus.
-4. Im Fenster **Cashflowplanung** wählen Sie die **Berechnen Sie Planung nach** Aktion aus.  
+4. Auf der Seite **Cashflowplanung** wählen Sie die **Berechnen Sie Planung nach** Aktion aus.  
 
 > [!TIP]  
 >   Beachten Sie die Länge der Perioden, die der Service in den Berechnungen verwendet. Je mehr Daten Sie liefern, umso genauer wird die Vorhersage sein. Halten Sie auch nach umfangreichen Abweichungen in Perioden Ausschau. Sie werden ebenfalls Auswirkungen auf die Vorhersagen haben. Wenn Cortana-Intelligenz nicht genügend Daten findet oder die Daten stark abweichen, wird der Service keine Vorhersage machen.  
@@ -93,6 +93,6 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 
 ## <a name="see-also"></a>Siehe auch
 [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)  
-[Finance einrichten](finance-setup-finance.md)  
+[Finanzen einrichten](finance-setup-finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

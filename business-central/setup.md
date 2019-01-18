@@ -11,10 +11,10 @@ ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 Wir haben einige Firmendaten für Sie erstellt, beispielsweise Ihren Kontenplan mit Kontensummen vorausgefüllt, die zur Verwendung bereit sind. Sie können den Kontenplan selbstverständlich ändern und Ihren persönlichen Anforderungen anzupassen. Weitere Informationen finden Sie unter [Finanzen](finance.md).
 
-Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsfenster zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).
+Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsseiten zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).
 
 > [!NOTE]
 > Sie können in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit RapidStart Services einen neuen Mandanten einrichten, einem Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen. Weitere Informationen finden Sie unter [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
@@ -31,7 +31,7 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 
 | Aufgabe | Siehe |
 | --- | --- |
-| Einrichten des Zahlungsmethoden, Währungen und Kontenplänen und definieren von Regeln für die Verwaltung von Finanztransaktionen. |[Finance einrichten](finance-setup-finance.md) |
+| Einrichten des Zahlungsmethoden, Währungen und Kontenplänen und definieren von Regeln für die Verwaltung von Finanztransaktionen. |[Finanzen einrichten](finance-setup-finance.md) |
 | Richten Sie Ihre eigenen Konten und die Kreditorenbankkonten ein und Aktivieren Sie Services für das Importieren und Exportieren von Bankdateien. |[Einrichten von Banken](bank-setup-banking.md) |
 | Konfigurieren der Regeln und Werte, die die Vertriebsrichtlinien des Mandanten, neue Kunden des Journals und Einrichtung festlegen, um mit Kunden zu kommunizieren. |[Einrichten von Verkäufen](sales-setup-sales.md) |
 | Konfigurieren der Regeln und Werte, durch die die Einkaufsrichtlinien des Unternehmens definiert werden, erfassen von neuen Kreditoren und Priorisieren von Kreditoren für Zahlungsverarbeitungen. |[Einkaufeinrichten](purchasing-setup-purchasing.md) |

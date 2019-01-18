@@ -13,14 +13,14 @@ ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-jobs"></a>Einrichten von Projekten
-Im Fenster **Projekteinrichtung** müssen Sie festlegen, wie Sie bestimmte Projektfunktionen verwenden möchten.
+Auf der Seite **Projekteinrichtung** müssen Sie festlegen, wie Sie bestimmte Projektfunktionen verwenden möchten.
 
 In den einzelnen Projektkarten müssen Sie Preise für Projektressourcen Projektartikel, Projekt und Sachkonten einrichten, und müssen Sie Projektbuchungsgruppen einrichten.
 
@@ -48,43 +48,43 @@ Wenn das Kontrollkästchen **Verbrauchslink standardmäßig anwenden** aktiviert
 >   Sie können eine andere Einstellungen aus dem Kontrollkästchen **Verbrauchslink standardmäßig anwenden** in den einzelnen Projektkarten vornehmen. In diesem Argument setzt die Einstellung für dieses Projekt den allgemeinen, oben beschriebenen Standard außer Kraft.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>So richten Sie Verkaufspreise für Projektressourcen ein
-Sie können bestimmte Verkaufspreise für Ressourcen für ein Projekt einrichten. Dazu verwenden Sie das Fenster **Res.-VK-Preise Projekt**.
+Sie können bestimmte Verkaufspreise für Ressourcen für ein Projekt einrichten. Dazu verwenden Sie die Seite **Res.-VK-Preise Projekt**.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Ressource** aus.
-3. Füllen Sie im Fenster **Projektressourcen-Preise** die notwendigen Felder aus.
+3. Füllen Sie auf der Seite **Projektressourcen-Preise** die notwendigen Felder aus.
 
 Die optionalen Informationen in den Feldern **Projektaufgabennr.**, **Arbeitstyp**, **Währungscode**, **Zeilenrabatt %** und **Einstandspreisfaktor** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird.  
 
-Der Wert im Feld **Einheitspreis** für die Ressource wird in den Projektplanungszeilen und Projektbuchungsblättern verwendet, wenn diese Ressource, eine der Ressourcengruppe zugeordnete Ressource bzw. eine beliebige Ressource eingegeben wird.  
+Der Wert im Feld **VK-Preis** für die Ressource wird in den Projektplanungszeilen und Projektbuchungsblättern verwendet, wenn diese Ressource, eine der Ressourcengruppe zugeordnete Ressource bzw. eine beliebige Ressource eingegeben wird.  
 
 > [!NOTE]  
->   Dieser Preis hat immer Vorrang vor allen Preisen, die in vorhandenen Tabellen des Typs **Ressourcen-VK-Preis/Ressourcengruppen-VK-Preis** eingerichtet sind.
+>   Dieser Preis hat immer Vorrang vor allen Preisen, auf der vorhandenen Seite des Typs **Ressourcen-VK-Preis/Ressourcengruppen-VK-Preise** eingerichtet sind.
 
 ## <a name="to-set-up-prices-for-job-items"></a>So richten Sie Preise für Projektartikel ein
-Sie können bestimmte Preise für Artikel für ein Projekt einrichten. Dazu verwenden Sie das Fenster **Projektartikelpreise**.
+Sie können bestimmte Preise für Artikel für ein Projekt einrichten. Dazu verwenden Sie die Seite **Projektartikelpreise**.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Artikel** aus.
-3. Füllen Sie im Fenster **Projektressourcen-Artikel** die notwendigen Felder aus.
+3. Füllen Sie auf der Seite **Projektartikelpreise** die notwendigen Felder aus.
 
 Die optionalen Informationen in den Feldern **Projektaufgabennummer**, **Währungscode** und **Zeilenrabatt %** werden in den Projektplanungszeilen und Projektbuchungsblättern verwendet, wenn dieser Artikel eingegeben wird.  
 
-Dies ist der Wert im Feld **Einheitspreis** der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieser Artikel eingegeben wird.  
+Dies ist der Wert im Feld **VK-Preis** der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieser Artikel eingegeben wird.  
 
 > [!NOTE]  
 >   Dieser Preis hat immer Vorrang vor dem regulären Debitorenpreis (Mechanismus für "bester Preis") für Artikel. Wenn Sie den Mechanismus für den regulären Debitorenpreis verwendet wollen, erstellen Sie keine Projektartikelpreise für das Projekt.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Preise für Projektbuchungskonten einrichten
-Sie können bestimmte Preise für die Aufwandssachposten eines Projekts einrichten. Dazu verwenden Sie das Fenster **Projekt-Sachkontopreise**.
+Sie können bestimmte Preise für die Aufwandssachposten eines Projekts einrichten. Dazu verwenden Sie die Seite **Projekt-Sachkontopreise**.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Sachkonto** aus.  
-3. Füllen Sie im Fenster **Sachkonto-Preise** die notwendigen Felder aus.
+3. Füllen Sie auf der Seite **Sachkonto-Preise** die notwendigen Felder aus.
 
 Die optionalen Informationen in den Feldern **Projektaufgabennr.**, **Währungscode**, **Zeilenrabatt %**, **Einheitskostenfaktor** und **Einheitskosten** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird.  
 
-Füllen Sie das Feld **Einheits-Preis** für das Aufwandssachkonto aus. Dies ist der Verkaufspreis, der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieses Sachkonto eingegeben wird.
+Füllen Sie das Feld **VK-Preis** für das Aufwandssachkonto aus. Dies ist der Verkaufspreis, der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieses Sachkonto eingegeben wird.
 
 ## <a name="to-set-up-job-posting-groups"></a>Projektbuchungsgruppen einrichten
 Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungskonten für die Projektkalkulation verwendet werden. Damit Projekte gebucht werden können, müssen Sie Konten für die Buchung für jede Projektbuchungsgruppe einrichten. Eine Buchungsgruppe stellt eine Verknüpfung zwischen dem Projekt und der Art dar, wie es in der Finanzbuchhaltung zu behandeln ist. Wenn Sie ein Projekt erstellen, geben Sie eine Buchungsgruppe an, und standardmäßig wird jede Aufgabe, die Sie erstellen, dieser Buchungsgruppe zugeordnet. Wenn Sie Aufgaben erstellen, können Sie jedoch die Voreinstellung überschreiben und eine Buchungsgruppe auswählen, die geeigneter ist.  

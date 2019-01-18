@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b51486a1daed9f6896424c1eefb55688aec8d16e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1eae5f8562999f3fca227b6de6778ef1c5374e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Lieferterminzusagen-Daten berechnen
-Ein Mandant muss in der Lage sein, seine Debitoren über Auftragslieferdaten zu informieren. Das Fenster **Lieferzusagenzeilen** ermöglicht Ihnen, dies von einer Verkaufsauftragszeile aus zu tun.  
+Ein Mandant muss in der Lage sein, seine Debitoren über Auftragslieferdaten zu informieren. Die Seite **Lieferzusagenzeilen** ermöglicht Ihnen, dies von einer Verkaufsauftragszeile aus zu tun.  
 
 Auf Grundlage der bekannten und erwarteten Verfügbarkeitstermine eines Artikels berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] sofort die Lieferdaten, die dann dem Debitor zugesagt werden können.  
 
@@ -61,7 +61,7 @@ Wenn [!INCLUDE[d365fin](includes/d365fin_md.md)] das Auslieferungsdatum des Debi
 
 Wenn der Debitor kein bestimmtes Lieferdatum anfragt, wird das Lieferdatum auf das Arbeitsdatum festgelegt, und die Verfügbarkeit basiert dann auf diesem Datum. Wenn der Artikel im Lagerbestand vorhanden ist, berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] den Termin, zu dem der Auftrag geliefert werden kann. Dazu dienen die folgenden Formeln:  
 
-- Warenausg.-Datum + Ausgehende Lagerdurchlaufzeit + Geplanter Warenausgang + Lagerdurchlaufzeit = Datum  
+- Geplantes Warenausgangsdatum + Ausgehende Lagerdurchlaufzeit = Geplantes Warenausg.-Datum  
 - Geplantes Warenausgangsdatum + Transportzeit = Geplantes Lieferdatum  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] überprüft dann, ob das berechnete Lieferdatum realistisch ist; dazu wird zeitlich rückwärts berechnet, wann der Artikel verfügbar sein muss, um den zugesagten Termin einhalten zu können. Dazu dienen die folgenden Formeln:  
@@ -71,11 +71,11 @@ Wenn der Debitor kein bestimmtes Lieferdatum anfragt, wird das Lieferdatum auf d
 
 Das Lieferdatum wird für die Verfügbarkeitsprüfung verwendet. Wenn der Artikel an diesem Datum verfügbar ist, bestätigt [!INCLUDE[d365fin](includes/d365fin_md.md)], dass die angeforderte/zugesagte Lieferung eingehalten werden kann, indem das geplante Lieferdatum auf das angefragte/zugesagte Lieferdatum gesetzt wird. Wenn der Artikel nicht verfügbar ist, wird ein leeres Datum zurückgegeben, und der Auftragsbearbeiter kann die CTP-Funktion verwenden.  
 
-Auf Grundlage neuer Daten und Uhrzeiten werden alle damit verbundenen Daten gemäß den oben aufgeführten Formeln berechnet. Die CTP-Berechnung dauert, gibt jedoch ein präzises Datum an, zu dem der Debitor die Lieferung des Artikels erwarten kann. Die Daten, die per CTP berechnet werden, werden den Fenstern **Geplantes Lieferdatum** und **Frühestmög. Warenausgangsdatum** im Fenster **Lieferterminzusagenzeilen** angegeben.  
+Auf Grundlage neuer Daten und Uhrzeiten werden alle damit verbundenen Daten gemäß den oben aufgeführten Formeln berechnet. Die CTP-Berechnung dauert, gibt jedoch ein präzises Datum an, zu dem der Debitor die Lieferung des Artikels erwarten kann. Die Daten, die per CTP berechnet werden, werden den Fenstern **Geplantes Lieferdatum** und **Frühestmög. Warenausgangsdatum** auf der Seite **Lieferterminzusagenzeilen** angegeben.  
 
 Der Auftragsverarbeiter beendet den CTP-Prozess, indem er die Datumsangaben akzeptiert. Dies bedeutet, dass eine Planungszeile und ein Reservierungsposten für diesen Artikels vor den berechneten Daten erstellt werden, damit sichergestellt ist, dass der Auftrag erfüllt wird.  
 
-Zusätzlich zu den externen Lieferterminzusagen, die Sie im Fenster **Lieferterminzusagenzeilen** durchführen können, können Sie interne oder externe Lieferdaten für Stücklistenrtikel zusagen. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md)
+Zusätzlich zu den externen Lieferterminzusagen, die Sie auf der Seite **Lieferterminzusagenzeilen** durchführen können, können Sie interne oder externe Lieferdaten für Stücklistenrtikel zusagen. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md)
 
 ## <a name="to-set-up-order-promising"></a>Lieferterminzusagen einrichten  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Auftragsversprechen einrichten** ein, und wählen dann den zugehörigen Link aus.  
@@ -90,11 +90,11 @@ Zusätzlich zu den externen Lieferterminzusagen, die Sie im Fenster **Lieferterm
     |**J**|Jahr|  
 
     "3w" bedeutet zum Beispiel, dass die Verschiebung drei Wochen beträgt. Stellen Sie ein "l" vor einen dieser Codes, um die jeweils laufende Zeiteinheit anzugeben. Wenn Sie zum Beispiel als Basis für die Verschiebung den aktuellen Monat verwenden möchten, geben Sie **lm** ein.  
-3. Geben Sie in das Feld **Lieferterminzusagennummern** eine Nummernserie ein, indem Sie eine Zeile aus der Liste im Fenster **Nummernserien** wählen.  
-4. Geben Sie eine Lieferterminzusagenvorlage im Feld **Lieferterminzusagenvorlage** ein, indem Sie eine Zeile im Fenster **Bestellvorschlag Vorl.-Übers.** wählen.  
-5. Geben Sie im Feld **Lieferterminzusagenvorschlag** einen Vorschlag ein, indem Sie eine Zeile im Fenster **Bestellvorschlagsnamen** wählen.
+3. Geben Sie in das Feld **Lieferterminzusagennummern** eine Nummernserie ein, indem Sie eine Zeile aus der Liste auf der Seite **Nummernserien** wählen.  
+4. Geben Sie eine Lieferterminzusagenvorlage im Feld **Lieferterminzusagenvorlage** ein, indem Sie eine Zeile auf der Seite **Bestellvorschlag Vorl.-Übers.** wählen.  
+5. Geben Sie im Feld **Lieferterminzusagenvorschlag** einen Vorschlag ein, indem Sie eine Zeile auf der Seite **Bestellvorschlagsnamen** wählen.
 
-### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Eingehende Lagerdurchlaufzeit im Einrichtungsfenster des Bestands eingeben  
+### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Eingehende Lagerdurchlaufzeit auf der Einrichtungsseite des Bestands eingeben  
 Wenn Sie die Lagerdurchlaufzeit bei der Berechnung der Lieferterminzusage in der Einkaufszeile berücksichtigen wollen, können Sie sie als Vorgabewert für das Lager und für Ihren Lagerort einrichten.    
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagereinrichtung** ein, und wählen dann den zugehörigen Link aus.  
 2. Im Inforegister **Allgemein** im Feld **Eingeh. Lagerdurchlaufzeit** geben Sie die Anzahl Tage ein, die die Anwendung bei der Berechnung der Lieferterminzusage berücksichtigen soll.  
@@ -108,9 +108,9 @@ Wenn Sie die Lagerdurchlaufzeit bei der Berechnung der Lieferterminzusage in der
 3.  Im Inforegister **Lager** im Feld **Eingeh. Lagerdurchlaufzeit** geben Sie die Anzahl Tage ein, die bei der Berechnung der Lieferterminzusage berücksichtigt werden soll.  
 
 > [!NOTE]  
->  Wenn Sie das Feld **Eingeh. Lagerdurchlaufzeit** leer lassen, verwendet die Berechnung den Wert im Fenster **Lager Einrichtung**.
+>  Wenn Sie das Feld **Eingeh. Lagerdurchlaufzeit** leer lassen, verwendet die Berechnung den Wert auf der Seite **Lager Einrichtung**.
 
-### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Ausgehende Lagerdurchlaufzeit im Einrichtungsfenster des Bestands eingeben  
+### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Ausgehende Lagerdurchlaufzeit auf der Einrichtungsseite des Bestands eingeben  
 Wenn Sie eine ausgehende Lagerdurchlaufzeit bei der Berechnung der Lieferterminzusage in der Verkaufszeile berücksichtigen möchten, können Sie diese als Vorgabewert für das Lager eingeben.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagereinrichtung** ein, und wählen dann den zugehörigen Link aus.  
@@ -125,7 +125,7 @@ Wenn Sie eine ausgehende Lagerdurchlaufzeit bei der Berechnung der Lieferterminz
 3.  Im Inforegister **Lager** im Feld **Ausgeh. Lagerdurchlaufzeit** geben Sie die Anzahl Tage ein, die bei der Berechnung der Lieferterminzusage berücksichtigt werden soll.  
 
 > [!NOTE]  
->  Wenn Sie das Feld **Ausgehende Lagerhausbearbeitungszeit** leer lassen, dass verwendet die Kalkulation den Wert im Fenster **Bestandeinrichtung**
+>  Wenn Sie das Feld **Ausgeh. Lagerdurchlaufzeit** leer lassen, verwendet die Berechnung den Wert auf der Seite **Lager Einrichtung**.
 
 ## <a name="to-make-an-item-critical"></a>Einen Artikel als kritisch kennzeichnen  
 Bevor ein Artikel bei der Berechnung der Lieferterminzusage berücksichtigt werden kann, muss er als kritisch markiert werden Diese Einstellungen stellen sicher, dass unkritische Artikel nicht irrelevante Lieferterminzusagen verursachen.   

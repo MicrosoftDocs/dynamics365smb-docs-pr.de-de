@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -45,7 +45,7 @@ Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten:
 2. Erstellen Sie eine neue Servicevertragsvorlage.  
 3. Geben Sie im Feld **Nr.** eine Nummer für die Vertagsvorlage ein.  
   
-     Wenn Sie Nummernserien für Vertragsvorlagen im Fenster **Service Einrichtung** definiert haben, drücken Sie die EINGABETASTE, damit die nächste verfügbare Vertragsvorlagennummer eingefügt wird. Füllen Sie die anderen Felder aus, falls diese benötigt werden.  
+     Wenn Sie Nummernserien für Vertragsvorlagen auf der Seite **Service Einrichtung** definiert haben, drücken Sie die EINGABETASTE, damit die nächste verfügbare Vertragsvorlagennummer eingefügt wird. Füllen Sie die anderen Felder aus, falls diese benötigt werden.  
   
 4. Füllen Sie im Inforegister **Rechnung** das Feld **Servicevertragskonto-Gruppencode** aus und geben Sie das **Fakturierungsintervall** usw. an. Füllen Sie die anderen Felder aus, falls diese benötigt werden.  
 5. Wählen Sie die **Servicerabatte** Aktion aus, um Vertragsrabatte hinzuzufügen.  

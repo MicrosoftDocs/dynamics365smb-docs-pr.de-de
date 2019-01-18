@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Berichten, um auf bestimmte Druckern zu drucken | Microsoft Docs
-description: "Weitere Informationen zum Definieren eines Druckers für eine Bericht und zur Nutzung des Druckerauswahlfensters."
+description: "Weitere Informationen zum Definieren eines Druckers für eine Bericht und zur Nutzung der Druckerauswahlseite."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: online printing
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a07caec88ece9b9e940777976d6d5555839ae581
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bc3a7ab7a61e7a51a58494c3f5892c22b6867333
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="specify-printer-selection-for-reports"></a>Angeben der Druckerauswahl für Berichte
@@ -32,7 +32,7 @@ You can set up reports so that they must be printed on a specific printer. The f
 - You can print reports on different paper sizes.
 - You can print reports on the default printer of a specified employee.
 
-You use the **Printer Selections** window to set different values to obtain different output. If you set a specific printer selection, then it takes precedence over a more general printer selection. For example, you can set a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields. This printer selection takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
+You use the **Printer Selections** page to set different values to obtain different output. If you set a specific printer selection, then it takes precedence over a more general printer selection. For example, you can set a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields. This printer selection takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
 
 The following table describes the combination of values to specify when you set up printer selections for a report.
 

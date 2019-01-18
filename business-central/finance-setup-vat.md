@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -269,6 +269,6 @@ Sie verwenden das MwSt.-Satz-Änderungstool, um Änderungen im Standard-MwSt.-Sa
 
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten von unrealisierter Mehrwertsteuer](finance-setup-unrealized-vat.md)  
-[So gehts: Melden von MwSt. an eine Steuerbehörde](finance-how-report-vat.md)  
+[So geht's: Melden von MwSt. an eine Steuerbehörde](finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b09a740ccd0054418c597285ebe65827827ad9de
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Um Artikel für den Warenausgang zu kommissionieren
@@ -26,9 +26,9 @@ Sie können einen Kommissionierungsbeleg nicht von Grund auf neu erstellen, da e
 
 Sie können Kommissionierungsbelege in einem Abrufverfahren erstellen, indem Sie einen leeren Warenausgangsbeleg öffnen, Herkunftsbelege ermitteln, die für die Lieferung freigegeben wurden, und dann für diese Lieferungen Kommissionierzeilen erstellen. Sie können die Funktionen **Herkunftsbelege holen** oder **Filter zum Holen von Herk.-Belegen verwenden** verwenden, um Herkunftsbelege zu ermitteln, die für den Warenausgang bereit sind.
 
-Alternativ können Sie das Fenster **Kommissioniervorschlag** verwenden, um Kommissionierzeilen im Stapelbetrieb zu holen und zu erstellen. Weitere Informationen finden Sie unter [Kommissionierungen im Vorschlag bearbeiten](warehouse-how-to-plan-picks-in-worksheets.md).  
+Alternativ können Sie die Seite **Kommissioniervorschlag** verwenden, um Kommissionierzeilen im Stapelbetrieb zu holen und zu erstellen. Weitere Informationen finden Sie unter [Kommissionierungen im Vorschlag bearbeiten](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-Sie können Kommissionierungsbelege auch Push-artig im Fenster **Warenausgang** erstellen, indem Sie **Kommissionierung erstellen** auswählen.  
+Sie können Kommissionierungsbelege auch Push-artig im Fenster **Warenausgang** erstellen, indem Sie die Seite **Kommissionierung erstellen** auswählen.  
 
 > [!NOTE]  
 >  Die Kommissionierung für den Warenausgang von Artikeln, die mit dem betreffenden Verkaufsauftrag montiert werden, folgt denselben Schritten wie die reguläre Kommissionierung für den Warenausgang, die in diesem Thema beschrieben ist. Jedoch kann die Anzahl der Kommissionierzeilen pro zu liefernder Menge n:1 sein, da die Kommissionierung für die Komponenten, nicht für den Montageartikel erfolgt.  
@@ -52,7 +52,7 @@ Sie können Kommissionierungsbelege auch Push-artig im Fenster **Warenausgang** 
 
 4.  Wenn Sie die Kommissionierung ausgeführt und die Artikel in den Ausgangsbereich oder den Ausgangslagerplatz eingelagert haben, wählen Sie die Aktionen **Kommissionierung registrieren** aus.  
 
-Die für Lieferung verantwortliche Person kann die Artikel in den Warenausgang bringen und den Warenausgang, einschließlich dem zugehörigen Herkunftsbeleg, im Fenster **Warenausgang** buchen. Weitere Informationen finden Sie unter [Artikel versenden](warehouse-how-ship-items.md).   
+Die für Lieferung verantwortliche Person kann die Artikel in den Warenausgang bringen und den Warenausgang, einschließlich dem zugehörigen Herkunftsbeleg, auf der Seite **Warenausgang** buchen. Weitere Informationen finden Sie unter [Artikel versenden](warehouse-how-ship-items.md).   
 
 Zusätzlich zur Kommissionierung für Herkunftsbelege, die in diesem Thema beschrieben wird, können Sie Artikel ohne Bezug zu Herkunftsbelegen an Lagerorten entnehmen und einlagern. Weitere Informationen finden Sie unter [Kommissionieren und Einlagern ohne Herkunftsbeleg](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -63,7 +63,7 @@ Für andere Warenausgangszeilen ist der Wert im Feld **Zu liefern** von Anfang a
 
 Wenn Arbeiter für montagefertige Teile oder für die gesamte Auftragsmontagemenge zuständig sind, erfassen sie diese im Feld **Vesandmenge** in der Warenausgangszeile und wählen dann die Aktion **Warenausgang buchen**. Das Ergebnis ist, dass der entsprechende Montageausstoß gebucht wird, einschließlich des Komponentenverbrauchs. Eine Verkaufslieferung für die Menge wird für den Verkaufsauftrag gebucht.
 
-Vom Montageauftrag aus können Sie **Warenausgangszeile für Programmfertigung** wählen, um auf die Warenausgangszeile zuzugreifen. Dies ist für Arbeiter hilfreich, die das Fenster **Warenausgang** üblicherweise nicht verwenden.
+Vom Montageauftrag aus können Sie **Warenausgangszeile für Programmfertigung** wählen, um auf die Warenausgangszeile zuzugreifen. Dies ist für Arbeiter hilfreich, die die Seite **Warenausgang** üblicherweise nicht verwenden.
 
 Nachdem der Warenausgang gebucht ist, werden verschiedene Felder in der Verkaufsauftragszeile aktualisiert, um den Status im Lager anzuzeigen. Die folgenden Felder werden auch aktualisiert, um anzuzeigen, wie viele Auftragsmontagemengen noch nicht montiert und geliefert wurden:
 
@@ -77,7 +77,7 @@ Nachdem der Warenausgang gebucht ist, werden verschiedene Felder in der Verkaufs
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  

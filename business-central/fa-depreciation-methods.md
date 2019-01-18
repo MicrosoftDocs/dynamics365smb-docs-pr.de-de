@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciation-methods"></a>Abschreibungsmethoden
@@ -52,7 +52,7 @@ Falls Sie eine AfA Periode angeben (Anzahl der AfA Jahre, Anzahl der AfA Monate 
 
 Die verbleibenden AfA-Tage werden als die Gesamtzahl der AfA-Tage minus der Anzahl der Tage zwischen dem Startdatum Normal-AfA und dem letzten Anlagen-Buchungsdatum berechnet.  
 
-Der Buchwert kann durch die Buchung von Zuschreibungen, erhöhter AfA, Sonder-AfA oder benutzerdefinierter AfA verringert werden; dies hängt davon ab, ob das Feld **In AfA-Berechnung enthalten** deaktiviert ist und ob das Feld **Teil d. Buchwerts** im Fenster **Anlagenbuchungsart Einr.** aktiviert ist. Diese Berechnung stellt sicher, dass die Anlage zum angegebenen Enddatum vollständig abgeschrieben ist.  
+Der Buchwert kann durch gebuchte Zuschreibungen, AfA, benutzerdefinierter Beträge 1 oder 2 reduziert werden; abhängig davon, ob das Feld **In AfA-Berechnung enthalten** deaktiviert ist und ob das Feld **Teil d. Buchwerts** auf der Seite **Anlagenbuchungsart Einr.** aktiviert ist. Diese Berechnung stellt sicher, dass die Anlage zum angegebenen Enddatum vollständig abgeschrieben ist.  
 
 ### <a name="fixed-yearly-percentage"></a>Fester jährlicher Prozentsatz
 Wenn Sie einen festen jährlichen Prozentsatz angeben, verwendet die Anwendung die folgende Formel, um den AfA Betrag zu berechnen:  
@@ -90,7 +90,7 @@ Die folgende Formel zur Berechnung des AfA-Betrages ist:
 
 Die AfA Basis wird als der Buchwert minus der gebuchten AfA seit dem Startdatum des aktuellen Geschäftsjahres berechnet.  
 
-Der gebuchte AfA-Betrag kann Posten mit verschiedenen Buchungsarten enthalten (erhöhte AfA, Sonder-AfA und benutzerdefinierte AfA), die seit dem Startdatum des aktuellen Geschäftsjahrs gebucht worden sind. Diese Buchungsarten sind in dem gebuchten AfA Betrag enthalten, wenn Häkchen in den Feldern **AfA-Art** und **Teil d. Buchwerts** im Fenster **Anlagenbuchungsart Einr.** gesetzt sind.  
+Der gebuchte AfA-Betrag kann Posten mit verschiedenen Buchungsarten enthalten (erhöhte AfA, Sonder-AfA und benutzerdefinierte AfA), die seit dem Startdatum des aktuellen Geschäftsjahrs gebucht worden sind. Diese Buchungsarten sind in dem gebuchten AfA Betrag enthalten, wenn Häkchen in den Feldern **AfA-Art** und **Teil d. Buchwerts** auf der Seite **Anlagenbuchungsart Einr.** gesetzt sind.  
 
 ### <a name="example---declining-balance-1-depreciation"></a>Beispiel – Abschreibungsmethode "1 % degressiv"
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das Feld **Degressive AfA %** hat den Wert 25. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
@@ -167,10 +167,10 @@ Die Stapelverarbeitung **AfA berechnen** berechnet einen linearen Betrag und ein
 
 Die Anwendung kann die degressiven Berechnungen unter der Verwendung von verschiedenen Prozentsätzen durchführen.  
 
-Wenn Sie diese Methode verwenden, müssen Sie die geschätzte Nutzungsdauer und einen degressiven Prozentsatz in dem Fenster **Anlagen-AfA-Bücher** eingeben.  
+Wenn Sie diese Methode verwenden, müssen Sie die geschätzte Nutzungsdauer und einen degressiven Prozentsatz auf der Seite **Anlagen-AfA-Bücher** eingeben.  
 
 ### <a name="example---db1-sl-depreciation"></a>Beispiel – Degressiv-Lineare AfA 1
-Eine Anlage hat Anschaffungskosten von MW 100.000. Im Fenster **Anlagen-AfA-Bücher** enthält das Feld **Degressive AfA %** den Wert 25 und das Feld **Nutzungsdauer i. Jahren** den Wert 8. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
+Eine Anlage hat Anschaffungskosten von MW 100.000. Im Fenster **Anlagen-AfA-Bücher** enthält die Seite **Degressive AfA %** den Wert 25 und das Feld **Nutzungsdauer i. Jahren** den Wert 8. Die Stapelverarbeitung **AfA berechnen** wird zweimal jährlich ausgeführt.  
 
 Die Anlagenposten sehen folgendermaßen aus:  
 
@@ -219,21 +219,21 @@ Es wird der lineare Betrag verwendet, da es sich um den größeren Betrag handel
 ## <a name="user-defined-depreciation"></a>Benutzerdefinierte AfA
 Die Anwendung verfügt über Funktionen, mit denen Sie benutzerdefinierte AfA-Methoden definieren können.  
 
-Mit einer benutzerdefinierten Methode können Sie das Fenster **AfA-Tabellen** verwenden, in dem Sie einen AfA-Prozentsatz für jede Periode angeben müssen (Monat, Quartal, Jahr oder Buchhaltungsperiode).  
+Mit einer benutzerdefinierten Methode können Sie die Seite **AfA-Tabellen** verwenden, in dem Sie einen AfA Prozentsatz für jede Periode angeben müssen (Monat, Quartal, Jahr oder Buchhaltungsperiode).  
 
 Die Formel zur Berechnung des AfA-Betrages ist:  
 
 AfA Betrag = (AfA % x Anzahl AfA Tage x AfA Basis) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Abschreibung basierend auf der Stückzahl
-Diese benutzerdefinierte Methode kann auch verwendet werden, um eine Abschreibung nach der produzierten Stückzahl durchzuführen, zum Beispiel für Produktionsmaschinen, die eine von der Stückzahl abhängige Lebensdauer haben. Im Fenster **AfA-Tabellen** können Sie die Stückzahl eingeben, die innerhalb einer Periode (Monat, Quartal, Jahr oder Buchhaltungsperiode) produziert werden kann.  
+Diese benutzerdefinierte Methode kann auch verwendet werden, um eine Abschreibung nach der produzierten Stückzahl durchzuführen, zum Beispiel für Produktionsmaschinen, die eine von der Stückzahl abhängige Lebensdauer haben. Auf der Seite **AfA-Tabellen** können Sie die Stückzahl eingeben, die innerhalb einer Periode (Monat, Quartal, Jahr oder Buchhaltungsperiode) produziert werden kann.  
 
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>So richten Sie benutzerdefinierte AfA-Methoden ein
-Im Fenster **Abschreibungstabelle** können Sie benutzerdefinierte AfA-Methoden einrichten. Beispielsweise können Sie die Abschreibung basierend auf der Stückzahl einrichten.  
+Auf der Seite **Abschreibungstabelle** können Sie benutzerdefinierte AfA-Methoden einrichten. Beispielsweise können Sie die Abschreibung basierend auf der Stückzahl einrichten.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Abschreibungstabelle** ein, und wählen dann den zugehörigen Link aus.  
-2. Im Feld **AfA-Tabelle Übersicht** wählen Sie die Aktion **Neu** aus.  
-3. Füllen Sie im Fenster **AfA-Tabelle - Karte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Auf der Seite **AfA-Tabelle Übersicht** wählen Sie die Aktion **Neu** aus.  
+3. Füllen Sie auf der Seite **AfA-Tabelle - Karte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Beispiel - Benutzerdefinierte AfA
 Sie verwenden eine Abschreibungsmethode, die es Ihnen erlaubt, Anlagen für steuerliche Zwecke schneller abzuschreiben.  
@@ -257,7 +257,7 @@ Die Anschaffungskosten betragen MW 100.000 und die Lebensdauer für die Abschrei
 
 * Startdatum Normal-AfA  
 
-Wenn Sie eine benutzerdefinierte Methode verwenden, müssen die Felder **Startdatum Benutzerdef. AfA** und **Startdatum Normal-AfA** im Fenster **Anlagen-AfA-Bücher** ausgefüllt werden. Das Feld **Startdatum Benutzerdef. AfA** und der Inhalt des Felds **Periodenlänge** im Fenster **AfA-Tabellen** werden verwendet, um die Zeitintervalle für Abschreibungsberechnungen festzulegen. Damit wird sichergestellt, dass die Anwendung den angegebenen Prozentsatz für alle Anlagen am gleichen Tag verwendet. Das Feld **Startdatum Normal-AfA** wird verwendet, um die Anzahl der AfA-Tage zu berechnen.  
+Wenn Sie eine benutzerdefinierte Methode verwenden, müssen die Seiten **Startdatum Benutzerdef. AfA** und **Startdatum Normal-AfA** im Fenster **Anlagen-AfA-Bücher** ausgefüllt werden. Das Feld **Startdatum Benutzerdef. AfA** und der Inhalt des Felds **Periodenlänge** auf der Seite **AfA-Tabellen** werden verwendet, um die Zeitintervalle für Abschreibungsberechnungen festzulegen. Damit wird sichergestellt, dass die Anwendung den angegebenen Prozentsatz für alle Anlagen am gleichen Tag verwendet. Das Feld **Startdatum Normal-AfA** wird verwendet, um die Anzahl der AfA-Tage zu berechnen.  
 
 Im vorherigen Beispiel enthalten die Felder **Startdatum Benutzerdef. AfA** und **Startdatum Normal-AfA** beide den Wert "01/01/01". Hätte das Feld **Startdatum Benutzerdef. AfA** jedoch den Wert "01/01/10" und das Feld **Startdatum Normal-AfA** den Wert "01/04/11" enthalten, wäre das Ergebnis folgendermaßen ausgefallen:  
 
@@ -273,7 +273,7 @@ Im vorherigen Beispiel enthalten die Felder **Startdatum Benutzerdef. AfA** und 
 * Startdatum Normal-AfA  
 
 ## <a name="half-year-convention-depreciation"></a>AfA 1 unter Verwendung der US-Halbjahresregel
-Die US-Halbjahresregel wird nur dann angewendet, wenn Sie ein Häkchen im Feld **US-Halbjahresregel verwenden** im **Anlagen-AfA-Buch** gesetzt haben.  
+Die US-Halbjahresregel wird nur dann angewendet, wenn Sie ein Häkchen auf der Seite **US-Halbjahresregel verwenden** im **Anlagen-AfA-Buch** gesetzt haben.  
 
 Diese AfA-Methode kann im Zusammenhang mit den folgenden AfA-Methoden in der Anwendung verwendet werden:  
 
@@ -284,7 +284,7 @@ Diese AfA-Methode kann im Zusammenhang mit den folgenden AfA-Methoden in der Anw
 Wenn die Halbjahresregel angewendet wird, hat eine Anlage sechs AfA Monate in dem ersten Geschäftsjahr der Abschreibung, unabhängig vom Inhalt des Feldes **Abschreibungsdatum**.  
 
 > [!NOTE]  
->   Die Nutzungsdauer einer Anlage, die nach dem ersten Geschäftsjahr verbleibt, enthält immer ein halbes Jahr, wenn die US-Halbjahresregel verwendet wird. Damit die Halbjahresregel korrekt angewendet wird, muss dass Feld **Enddatum d. Nutzungsdauer** im Fenster **Anlagen-AfA-Buch** immer ein Datum enthalten, das genau sechs Monate vor dem Enddatum des Geschäftsjahres liegt, in dem die Anlage vollständig abgeschrieben ist.  
+>   Die Nutzungsdauer einer Anlage, die nach dem ersten Geschäftsjahr verbleibt, enthält immer ein halbes Jahr, wenn die US-Halbjahresregel verwendet wird. Damit die Halbjahresregel korrekt angewendet wird, muss dass Feld **Enddatum d. Nutzungsdauer** auf der Seite **Anlagen-AfA-Buch** immer ein Datum enthalten, das genau sechs Monate vor dem Enddatum des Geschäftsjahres liegt, in dem die Anlage vollständig abgeschrieben ist.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Beispiel – AfA 1 unter Verwendung der US-Halbjahresregel
 Eine Anlage hat Anschaffungskosten von MW 100.000. Das **Startdatum Normal-AfA** ist der 01.03.10. Die erwartete Lebensdauer ist fünf Jahre, daher muss das Feld **Enddatum d. Nutzungsdauer** den Wert 30.06.15 enthalten. Die Stapelverarbeitung **AfA berechnen** wird jährlich ausgeführt. Dieses Beispiel basiert auf einem Kalenderjahr als Geschäftsjahr.  
@@ -304,7 +304,7 @@ Die Anlagenposten sehen folgendermaßen aus:
 * Startdatum Normal-AfA  
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Beispiel – Degressiv/Lineare AfA 1 unter Verwendung der US-Halbjahresregel
-Eine Anlage hat Anschaffungskosten von MW 100.000. Das **Startdatum Normal-AfA** ist der 01.11.10. Die erwartete Lebensdauer ist fünf Jahre, daher muss das Feld **Enddatum d. Nutzungsdauer** den Wert 30.06.15 enthalten. Im Fenster **Anlagen-AfA-Bücher** enthält das Feld **Degressive AfA %** den Wert 40. Die Stapelverarbeitung **AfA berechnen** wird jährlich ausgeführt. Dieses Beispiel basiert auf einem Kalenderjahr als Geschäftsjahr.  
+Eine Anlage hat Anschaffungskosten von MW 100.000. Das **Startdatum Normal-AfA** ist der 01.11.10. Die erwartete Lebensdauer ist fünf Jahre, daher muss das Feld **Enddatum d. Nutzungsdauer** den Wert 30.06.15 enthalten. Auf der Seite **Anlagen-AfA-Bücher** enthält das Feld **Degressive AfA %** den Wert 40. Die Stapelverarbeitung **AfA berechnen** wird jährlich ausgeführt. Dieses Beispiel basiert auf einem Kalenderjahr als Geschäftsjahr.  
 
 Die Anlagenposten sehen folgendermaßen aus:  
 

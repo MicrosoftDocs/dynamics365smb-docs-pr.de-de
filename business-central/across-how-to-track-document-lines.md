@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2325aafc22db4ab737e63a261b836076cc3fde20
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-document-lines"></a>Nachverfolgen von Belegzeilen
@@ -28,7 +28,7 @@ Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftragszeile nachverfolgen.
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie einen Verkaufsauftrag, den Sie nachverfolgen möchten.  
 3.  Wählen Sie eine Zeile und wäglen Sie dann die Aktion **Belegzeile nachverfolgen** aus.
-4. Im Fenster **Belegzeilenverfolgung** wählen Sie den Beleg, den Sie anzeigen möchten, und dann, auf der Registerkarte Start, in der Gruppe Verarbeiten wählen Sie **Anzeigen** aus, um die zugehörige Zeile anzuzeigen.
+4. Auf der Seite **Belegzeilenverfolgung** wählen Sie den Beleg, den Sie anzeigen möchten, und dann, auf der Registerkarte Start, in der Gruppe Verarbeiten wählen Sie **Anzeigen** aus, um die zugehörige Zeile anzuzeigen.
 5. Zum Anzeigen des gesamten Belegs für die ausgewählte Belegzeile klicken Sie auf **Beleg anzeigen**.
 
 ## <a name="see-also"></a>Siehe auch

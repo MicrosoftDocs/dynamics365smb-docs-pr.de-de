@@ -12,17 +12,17 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Sie können auswählen, welche Funktionen angezeigt werden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist dafür ausgelegt, Ihnen zu helfen, Ihr Geschäft zu führen, unabhängig vom Geschäftsbereich. Im Kernstück von [!INCLUDE[d365fin](includes/d365fin_md.md)] finden Sie die Finanzberichtserstattung und die Verkaufs- und Einkaufsprozesse. Sie fügen es der entsprechend den Unternehmensanforderungen hinzu, indem Sie aus AppSource Erweiterungen hinzufügen oder die Benutzeroberfläche ändern, die für Ihren Mandanten setzen. Weitere Informationen finden Sie unter[ Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Mittels der Erweiterungen](ui-extensions.md) im Abschnitt oder Benutzererfahrung auswählen.
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Eine Benutzerfreundlichkeit auswählen, um eine Funktion ein-  oder auszublenden
-Die Benutzerfreundlichkeit bestimmt, wie viel der Kernfunktionalität in Fenstern angezeigt wird, mit dem Sie und Ihre Kollegen [!INCLUDE[d365fin](includes/d365fin_md.md)] nutzen. Im Fenster **Unternehmensinformation** können Sie die Benutzerfreundlichkeit für Ihren Mandanten im Feld **Erfahrung** festlegen.
+Die Benutzerfreundlichkeit bestimmt, wie viel der Kernfunktionalität in Fenstern angezeigt wird, mit dem Sie und Ihre Kollegen [!INCLUDE[d365fin](includes/d365fin_md.md)] nutzen. Auf der Seite **Unternehmensinformation** können Sie die Benutzerfreundlichkeit für Ihren Mandanten im Feld **Erfahrung** festlegen.
 
 > [!NOTE]  
 > Diese Einstellung gilt für alle Anwender in Ihrem Unternehmen. Benutzer können ihre eigene Benutzeroberfläche noch weiter anpassen, indem sie Seitenlayouts und Inhalt ändern. Weitere Informationen finden Sie unter [Personalisieren Ihres Arbeitsbereichs und der Seiten](ui-personalization-user.md).  
@@ -35,7 +35,7 @@ Die verfügbaren Optionen werden in der folgenden Tabelle beschrieben.
 | **Premium** |Zeigt alle Aktionen und Felder für alle Geschäftsfunktionalität einschließlich, Produktion und Dienstleistungs-Verwaltung an.|
 
 > [!NOTE]  
-> Die Erfahrung, aus der Sie auswählen können in [!INCLUDE[d365fin](includes/d365fin_md.md)] hängt von Ihrem Lösungslizenz ab, auch als Plan bezeichnet. Informationen zur **Wesentlich** und **Premium** finden Sie unter [Geschäfts-Zentrale](https://go.microsoft.com/fwlink/?linkid=870242) in der Microsoft Dynamics 365 Marketings-Site. Siehe auch [[!INCLUDE[d365fin](includes/d365fin_md.md)] Lizenzierungshandbuch](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> Die Erfahrung, aus der Sie auswählen können in [!INCLUDE[d365fin](includes/d365fin_md.md)] hängt von Ihrem Lösungslizenz ab, auch als Plan bezeichnet. Informationen zur **Wesentlich** und **Premium** finden Sie unter [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) in der Microsoft Dynamics 365 Marketings-Site. Siehe auch [[!INCLUDE[d365fin](includes/d365fin_md.md)] Lizenzierungshandbuch](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
 
 > [!IMPORTANT]  
 > Alle regulären Benutzer in einer Lösung müssen demselben Plan, Basis oder Premium zugewiesen sein, bevor die Erfahrung für das Unternehmen ausgewählt werden kann. Entsprechend kann ein Benutzer auf erstklassige Funktionen zugreifen, wenn eine oder mehrere andere Benutzer nur auf  b wichtige Funktion nur zugreifen können. Dies ist nicht der Fall für reguläre Benutzer der Art Teammitglieder, interner Administrator, externer Buchhalter und delegierter Administrator, dem jeder ein unterschiedlicher Plan als bei anderen Benutzern in der Lösung zugeordnet werden können.
@@ -43,21 +43,21 @@ Die verfügbaren Optionen werden in der folgenden Tabelle beschrieben.
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Erstklassige Funktionen ausführen, nachdem ein Plan aktualisiert wurde
 Benutzer werden Plänen in Office 365 Admin Center in Verbindung mit allgemeiner Arbeit zugewiesen, um Business Central Benutzer zu erstellen. Weitere Informationen sind hier verfügbar [Benutzer zu Office 365 for Business hinzufügen](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
-Sie können dann, definieren das spezielle Funktionen und Fenster in der Benutzeroberfläche diese Benutzer zum Zugriff erlaubt sind, indem Zugriffsrechtsätze zuweist. Weitere Informationen finden Sie unter [Verwalten von Benutzern und Berechtigungen](ui-how-users-permissions.md).
+Sie können dann, definieren das spezielle Funktionen und Seiten in der Benutzeroberfläche diese Benutzer zum Zugriff erlaubt sind, indem Zugriffsrechtsätze zuweist. Weitere Informationen finden Sie unter [Verwalten von Benutzern und Berechtigungen](ui-how-users-permissions.md).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Um Planänderungen der Benutzergruppen zu aktualisieren
 Wenn Sie eine Änderung in den Benutzerplänen in Office 365 Admin Center gemacht haben, wie mehr Benutzer dem Premium Plan hinzuzufügen, muss die Änderung in [!INCLUDE[d365fin](includes/d365fin_md.md)] vorgenommen werden.
 
 1. Als Administrator anmelden.
 2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benutzer** ein, und wählen dann den zugehörigen Link aus.
-3. Wählen Sie im Fenster **Benutzer** die Aktion **Alle Benutzergruppen aktualisieren** aus.
+3. Wählen Sie auf der Seite **Benutzer** die Aktion **Alle Benutzergruppen aktualisieren** aus.
 
 Alle neuen Informationen über die Schemata der Benutzer zusammen mit den zugeordneten Benutzergruppen werden jetzt entsprechend den Planänderungen aktualisiert.
 
 ### <a name="to-select-the-premium-experience"></a>Die Premium-Umgebung auswählen
 Sie können jetzt fortfahren, die neuen Benutzeroberfläche auszuwählen.
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Unternehmungsinformation** ein, und wählen dann den zugehörigen Link aus.
-2. Im Fenster **Unternehmensinformation** können Sie die **Benutzerfreundlichkeit** für Ihren Mandanten im Feld **Inforegister** festlegen.
+2. Auf der Seite **Unternehmensinformation** können Sie die **Benutzerfreundlichkeit** für Ihren Mandanten im Feld **Inforegister** festlegen.
 
 ## <a name="help-assumes-premium-experience"></a>Die Hilfe geht von der Premium-Umgebung aus
 Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[d365fin](includes/d365fin_md.md)] die **Premium**-Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab. Ein Texthinweis wird in den allgemeinen Hilfethemen der Funktionsbereiche "Fertigung" und "Servicemanagement" eingefügt, der angibt, das die **Premium**-Umgebung erforderlich ist.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
@@ -36,10 +36,10 @@ Vergewissern Sie sich, dass Sie sich auf der RapidStart Services-Implementierer-
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die restlichen Felder auf dem Inforegister **Allgemein** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Um die Konfigurationsfragebögen, Konfigurationsvorlagen und Konfigurationsarbeitsblatttabellen aus dem Paket auszuschließen, wählen Sie das Kontrollkästchen **Konfigurationstabellen ausschließen**. Andernfalls werden diese Tabellen automatisch der Liste der Pakettabellen hinzugefügt, wenn Sie das Paket exportieren.  
-5. Wählen Sie die Aktion **Tabellen abrufen** aus. Das Batchauftragsfenster **Tabellenpaket abrufen** wird geöffnet.  
-6. Wählen Sie das Feld **Tabellen auswählen** aus. Das Fenster **Konfigurationsauswahl** wird geöffnet.  
+5. Wählen Sie die Aktion **Tabellen abrufen** aus. Das Batchauftragsseite **Tabellenpaket abrufen** wird geöffnet.  
+6. Wählen Sie das Feld **Tabellen auswählen** aus. Die Seite **Konfigurationsauswahl** wird geöffnet.  
 7. Wählen Sie auf der Registerkarte Start in der Gruppe Vorgang die Option **Alles auswählen**, um alle Tabellen dem Paket hinzuzufügen, oder wählen Sie das Kontrollkästchen **Ausgewählt** für jede Tabelle in der Liste aus, die Sie hinzufügen möchten.
-8. Wählen Sie die Schaltfläche **OK** aus. Die Anzahl der Tabellen, die Sie ausgewählt haben, wird im Feld **Tabellen auswählen** angegeben. Geben Sie die Zusatzfunktionen an und wählen Sie dann die Schaltfläche **OK** aus. [!INCLUDE[d365fin](includes/d365fin_md.md)] Tabellen werden in den Zeilen der Karte **Config. Paket** hinzugefügt.  
+8. Wählen Sie die Schaltfläche **OK** aus. Die Anzahl der Tabellen, die Sie ausgewählt haben, wird im Feld **Tabellen auswählen** angegeben. Geben Sie die Zusatzfunktionen an und wählen Sie dann die Schaltfläche **OK** aus. [!INCLUDE[d365fin](includes/d365fin_md.md)] Tabellen werden in den Zeilen der Seite **Config. Paket** hinzugefügt.  
 
     > [!NOTE]  
     >  Diese Einstellung kann auch im Konfigurationsarbeitsblatt vorgenommen werden. Wählen Sie die Tabellen aus, die Sie in das Paket einschließen möchten, und wählen Sie auf der Registerkarte Aktionen in der Gruppe Funktionen die Option **Paket zuweisen**.
@@ -64,13 +64,13 @@ Nachdem Sie die Liste der Felder, die von einer Tabelle enthalten sein sollen, n
 ### <a name="to-include-a-template-for-application-to-a-table"></a>So schließen Sie eine Vorlage zum Übernehmen für eine Tabelle ein.  
 Bei bestimmten Tabellen etwa eine, die Stammdaten enthält, können Sie eine Vorlage angeben, die auf die Daten angewendet wird. Die Vorlage kann die erforderlichen Felder enthalten, die Sie für alle Stammdaten übernehmen möchten und die niemals variieren sollen. Beispielsweise können Sie eine Vorlage erstellen, die mit Debitorendaten verwendet werden kann. Eine Vorlage kann alle erforderlichen Felder enthalten, die anschließend das konsistente Importieren von standardisierten Informationen ermöglicht. Informationen wie Debitorennamen, die nicht standardisiert werden können, werden dann verarbeitet, wenn Sie einen Importier von Debitorendaten durchführen
 
-1. Wählen Sie im Fenster **Paketkarte konfigurieren** eine Tabelle aus, und wählen Sie das Feld **Datenvorlage** aus. Eine Liste von Vorlagen wird angezeigt, die auf der Tabelle basieren.
+1. Wählen Sie auf der Seite **Paketkarte konfigurieren** eine Tabelle aus, und wählen Sie das Feld **Datenvorlage** aus. Eine Liste von Vorlagen wird angezeigt, die auf der Tabelle basieren.
 2. Wählen Sie eine Vorlage aus, und wählen Sie dann die Schaltfläche **OK**.  
 
 Nachdem das Paket vollständig ist, verwenden Sie den folgenden Vorgang, um das Paket in eine Datei zu speichern. Sie können das Paket einem Debitor oder einem Partnerunternehmen zu Verwendung geben.
 
 ### <a name="to-save-and-export-a-configuration-package"></a>So speichern und exportieren Sie ein Konfigurationspaket.  
-- Im Fenster **Config. Paketkarte** wählen Sie die **Paket exportieren** Aktion aus.  
+- Auf der Seite  **Config. Paketkarte** wählen Sie die **Paket exportieren** Aktion aus.  
 
 Das Paket wird in einer .rapidstart-Datei erstellt werden, die Paketinhalte in einem komprimierten Format bereitstellt. Konfigurationsfragebögen, Konfigurationsvorlagen und das Konfigurationsarbeitsblatt werden dem Paket automatisch hinzugefügt, es sei denn, Sie sich speziell dafür entscheiden, sie auszuschließen.  
 
@@ -121,7 +121,7 @@ Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die ve
     > [!NOTE]  
     >  Stellen Sie sicher, dass jede Tabelle eine Seiten-ID hat, die ihr zugeordnet ist. Für Standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen wird dieser Wert automatisch ausgefüllt. Für benutzerdefinierte Tabellen müssen Sie die ID zur Verfügung stellen
 
-3. Wählen Sie die **Datenbankdaten** Aktion aus. Das Fenster für die zugehörige Seite wird geöffnet.
+3. Wählen Sie die **Datenbankdaten** Aktion aus. Die Seite für die zugehörige Seite wird geöffnet.
 4. Überprüfen Sie die verfügbaren Informationen. Ändern Sie sie bei Bedarf, indem Sie Datensätze löschen, die nicht relevant sind oder indem Sie neue hinzufügen.    
 
 ## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>So kopieren Sie Daten aus der Testumgebung in die Produktionsumgebung  
@@ -130,9 +130,9 @@ Nachdem Sie alle Ihre Setupinformationen untersucht und getestet haben, können 
 1. Öffnen und initialisieren Sie den neuen Mandanten.  
 2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
 3. Wählen Sie **Daten vom Mandanten kopieren**.  
-4. Wählen Sie im Fenster **Mandantendaten kopieren** das Feld **Kopieren von** aus. Das Fenster **Mandanten** wird geöffnet.  
+4. Wählen Sie auf der Seite **Mandantendaten kopieren** das Feld **Kopieren von** aus. Die Seite **Mandanten** wird geöffnet.  
 5. Wählen Sie die Version aus, den Sie kopieren möchten, und wählen Sie die Schaltfläche **OK**. Ein Liste der im Konfigurationsarbeitsblatt ausgewählten Tabellen wird geöffnet. Nur Tabellen, die Datensätze enthalten, sind in dieser Übersicht enthalten.
-6. Wählen Sie die Tabellen aus, aus denen Sie Daten kopieren möchten, und wählen Sie **Daten kopieren**. Wählen Sie im Fenster **Mandantendaten kopieren** die Schaltfläche **OK** aus.  
+6. Wählen Sie die Tabellen aus, aus denen Sie Daten kopieren möchten, und wählen Sie **Daten kopieren**. Wählen Sie auf der Seite **Mandantendaten kopieren** die Schaltfläche **OK** aus.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)  

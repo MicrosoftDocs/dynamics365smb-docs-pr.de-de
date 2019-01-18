@@ -13,21 +13,21 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 014ede5232017bb090fa6cd33816064a6c4b99b8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Zuordnungsstatus und Reparaturstatus von Serviceartikeln
-Der Reparaturstatus der Serviceartikel und der Zuordnungsstatus von Zuordnungen für Serviceartikel stellen unter "Service" eine bestimmte Beziehung zueinander dar. Der Zuordnungsstatus ändert sich, wenn Sie den Reparaturstatus des Serviceartikels auf **Erledigt** oder **Unvollständig bearbeitet** setzen oder wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln. Der Reparaturstatus des Serviceartikels ändert sich, wenn Sie die Serviceartikelzuordnung stornieren oder den Serviceartikel einer anderen Ressource neu zuordnen. Sie können den Reparaturstatus der Serviceartikel im Fenster **Serviceaufgaben** einsehen und ihn im Feld **Reparaturstatuscode** im Fenster **Servicearbeitsschein** aktualisieren. Sie können den Zuordnungsstatus im Feld **Status** des Fensters **Ressourcenzuordnungen** anzeigen.  
+Der Reparaturstatus der Serviceartikel und der Zuordnungsstatus von Zuordnungen für Serviceartikel stellen unter "Service" eine bestimmte Beziehung zueinander dar. Der Zuordnungsstatus ändert sich, wenn Sie den Reparaturstatus des Serviceartikels auf **Erledigt** oder **Unvollständig bearbeitet** setzen oder wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln. Der Reparaturstatus des Serviceartikels ändert sich, wenn Sie die Serviceartikelzuordnung stornieren oder den Serviceartikel einer anderen Ressource neu zuordnen. Sie können den Reparaturstatus der Serviceartikel auf der Seite **Serviceaufgaben** einsehen und ihn im Feld **Reparaturstatuscode** auf der Seite **Servicearbeitsschein** aktualisieren. Sie können den Zuordnungsstatus im Feld **Status** der Seite **Ressourcenzuordnungen** einsehen.  
   
 ## <a name="changing-repair-status"></a>Ändern des Reparaturstatus  
 Wenn Sie den Reparaturstatus eines Serviceartikels in einer Serviceauftragszeile ändern, sucht die Anwendung nach einem entsprechenden Zuordnungseintrag für diesen Serviceartikel, der den Status **Aktiv** hat. Wenn eine solche Zuordnung gefunden wird, wird der Status dieser Zuordnung gemäß einer der folgenden Methoden aktualisiert:  
   
 * Wenn Sie den Reparaturstatus auf **Erledigt** ändern, ändert die Anwendung den Zuordnungsstatus von **Aktiv** auf **Erledigt**.  
 * Wenn Sie den Reparaturstatus auf **Unvollständig bearbeitet** (ein Teil des Services wurde durchgeführt) oder **Weitergeleitet** (es wurde noch kein Service durchgeführt) setzen, ändert die Anwendung den Zuordnungsstatus von **Aktiv** auf **Neuzuordnung notwendig**.  
-* Wenn ein Serviceauftragszuordnung-Posten erstellt wird, der angibt, dass keine Ressourcen zugeordnet wurden, setzt die Anwendung das Feld **Status** im Fenster **Ressourcenzuordnungen** auf **Inaktiv**.  
+* Wenn ein Serviceauftragszuordnung-Posten erstellt wird, der angibt, dass keine Ressourcen zugeordnet wurden, setzt die Anwendung das Feld **Status** auf der Seiten **Ressourcenzuordnungen** auf **Inaktiv**.  
 * Die Anwendung legt den Status des Zuordnungspostens auf **Storniert** fest, wenn Sie den Serviceartikel, auf den im Serviceauftragszuordnungs-Posten verwiesen wird, erneut zuordnen und so angeben, dass die zugeordnete Ressource oder Ressourcengruppe mit der Serviceaufgabe noch nicht begonnen hat.  
   
 Der Zuordnungsstatus gibt also an, wenn der Serviceprozess beendet ist, oder wenn eine andere Ressource nötig ist, um den Service an diesem Serviceartikel zu beenden.  

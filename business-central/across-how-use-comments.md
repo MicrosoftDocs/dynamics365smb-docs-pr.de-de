@@ -8,20 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2018
+ms.date: 10/03/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17a37dd74565266c748439bf4ee5eecfa8e8c7ea
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27a1fcc2bb0efd79e95f10c78dbae54869c59703
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Hinzufügen von Bemerkungen zu Karten und Belegen
 Fügen Sie zusätzlichen Informationen zu Konten, Debitorenkarten oder Verkaufsaufträgen, Verträge, wie eine Sonderpreis- oder Zustellungsmethode, mit anderen Benutzern mitzuteilen hinzu.
-Nahezu alle Karten und Beleg haben eine **Bemerkungen** Aktion, die das Fenster **Bemerkungen** geöffnet, in der Sie Bemerkungen verfassen oder lesen können. In Belege können Sie Bemerkungen einzelnen Zeilen hinzufügen.
+Nahezu alle Karten und Beleg haben eine **Bemerkungen** Aktion, die die Seite **Bemerkungen** öffnen, in der Sie Bemerkungen verfassen oder lesen können. In Belege können Sie Bemerkungen einzelnen Zeilen hinzufügen.
 
 Bemerkungen in laufenden Belegen werden für den entsprechenden gebuchten Beleg übertragen. Beispielsweise wird eine Bemerkung für einen Auftrag mit einer gebuchten, daraus resultierenden Verkaufslieferung übertragen.
+
+Außerdem können Sie definieren, welche Bemerkungen von einer Art Beleg auf eine andere Art Beleg übertragen werden sollen, wie von einem Verkaufsauftrag auf eine Verkaufsrechnung. Sie können dies in **Debitoren & Verkauf** und der Seiten **Kreditoren & Einkauf** festlegen.
 
 > [!NOTE]
 > Bemerkungen werden nicht auf Berichten oder externen Erfassungsbelegen gedruckt.
@@ -32,7 +34,7 @@ Nachfolgend wird erläutert, wie einer Bemerkung einer Artikelkarte hinzugefügt
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die entsprechende Artikelkarte.
 3. Wählen Sie die Aktion **Kommentare** aus.
-4. Im Fenster **Bemerkungen** können Sie beliebigen Text in das Feld eingeben und dann **ok**klicken.
+4. Auf der Seite **Bemerkungen** können Sie beliebigen Text in das Feld eingeben und dann **ok**klicken.
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

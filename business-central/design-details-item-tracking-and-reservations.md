@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40ca8e4a86a74f449a980f06060488cdb117d3c7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetails: Artikelverfolgung und Reservierungen
@@ -44,15 +44,15 @@ Der hauptsächliche Unterschied zwischen spezifischer und unspezifischer Reservi
 |**Ausgewählt**|Serien- oder Chargennummer|Serien- oder Chargennummer|  
 |**Unspezifisch**|Serien- oder Chargennummer|Keine Serien- oder Chargennummer.|  
   
-Wenn Sie reservieren, werden Lagerbestandsmengen aus einem ausgehenden Beleg für einen Artikel, der die zugeordneten Artikelverfolgungsnummern hat und für bestimmte Artikelverfolgung eingerichtet ist, führt Sie das Fenster **Reservierung** durch verschiedene Workflows entsprechend Ihres Bedarfs für eine Serien- oder Chargennummer.  
+Wenn Sie reservieren, werden Lagerbestandsmengen aus einem ausgehenden Beleg für einen Artikel, der die zugeordneten Artikelverfolgungsnummern hat und für bestimmte Artikelverfolgung eingerichtet ist, führt Sie die Seite **Reservierung** durch verschiedene Workflows entsprechend Ihres Bedarfs für eine Serien- oder Chargennummer.  
   
 ## <a name="specific-reservation"></a>Spezifische Reservierung  
-Wenn Sie **Reservieren** aus der Zeile Ausgehender Beleg aktivieren, erscheint ein Dialogfeld, in dem Sie gefragt werden, ob Sie bestimmte Serien- oder Chargennummern reservieren möchten. Wenn Sie **Ja** auswählen, wird eine Liste mit allen Serien- oder Chargennummern angezeigt, die der Belegzeile zugeordnet sind. Das Fenster **Reservierung** wird geöffnet, nachdem Sie eine der Serien- oder Chargennummern auswählen, und Sie können dann unter den ausgewählten Serien- oder Chargennummern in typischer Weise eine Reservierung vornehmen.  
+Wenn Sie **Reservieren** aus der Zeile Ausgehender Beleg aktivieren, erscheint ein Dialogfeld, in dem Sie gefragt werden, ob Sie bestimmte Serien- oder Chargennummern reservieren möchten. Wenn Sie **Ja** auswählen, wird eine Liste mit allen Serien- oder Chargennummern angezeigt, die der Belegzeile zugeordnet sind. Die Seite **Reservierung** wird geöffnet, nachdem Sie eine der Serien- oder Chargennummern auswählen, und Sie können dann unter den ausgewählten Serien- oder Chargennummern in typischer Weise eine Reservierung vornehmen.  
   
-Wenn einige der speziellen Artikelverfolgungsnummern, die Sie zu reservieren versuchen, in den unspezifischen Reservierungen geführt werden, informiert Sie eine Meldung unten im **Reservierungs**-Fenster darüber, wie viel der reservierten Gesamtmenge in nichtspezifischen Reservierungen geführt wird, und ob diese Mengen noch verfügbar sind.  
+Wenn einige der speziellen Artikelverfolgungsnummern, die Sie zu reservieren versuchen, in den unspezifischen Reservierungen geführt werden, informiert Sie eine Meldung unten auf der **Reservierungs**-Seite darüber, wie viel der reservierten Gesamtmenge in nichtspezifischen Reservierungen geführt wird, und ob diese Mengen noch verfügbar sind.  
   
 ## <a name="nonspecific-reservation"></a>Unspezifische Reservierungen  
-Wenn Sie **Nein** im Dialogfeld auswählen, wird das Fenster **Reservierung** geöffnet und ermöglicht Ihnen, unter allen Serien- oder Chargennummern im Bestand zu reservieren.  
+Wenn Sie **Nein** im Dialogfeld auswählen, wird die Seite **Reservierung** geöffnet und ermöglicht Ihnen, unter allen Serien- oder Chargennummern im Bestand zu reservieren.  
   
 Aufgrund der Struktur des Reservierungssystems gilt: Wenn Sie eine nicht-spezifische Reservierung für einen Artikel mit Artikelverfolgung setzen, muss das System bestimmte Artikelposten auswählen, gegen die reserviert werden kann. Da die Artikelposten die Artikelverfolgungsnummern enthalten, reserviert die Reservierung indirekt bestimmte Serien- oder Chargennummern, obwohl dies nicht gewünscht ist. Um diese Situation zu behandeln, versucht das Reservierungssystem, nicht-spezifische Reservierungsposten vor der Buchung umzugruppieren.  
   
@@ -81,7 +81,7 @@ Beispielsweise entsteht die Notwendigkeit, wenn ein Auftragsverarbeiter zuerst e
 ### <a name="reserve-specific-serial-or-lot-numbers"></a>So reservieren Sie eine bestimmte Serien- oder Chargennummer  
 In diesem Szenario stellt die Late Binding-Funktion sicher, dass ein Benutzer, der versucht, eine bestimmte Serien- oder Chargennummer zu reservieren, die derzeit unspezifisch reserviert ist, dies tun kann. Eine nicht-spezifische Reservierung wird zum Zeitpunkt der Reservierung umgruppiert, um die Serien- oder Chargennummer für die spezifische Anfrage freizugeben.  
   
-Die Umgruppierung erfolgt automatisch, aber die eingebettete Hilfe wird unten im Fenster **Reservierung** angezeigt und zeigt den folgenden Text an:  
+Die Umgruppierung erfolgt automatisch, aber die eingebettete Hilfe wird unten auf der Seite **Reservierung** angezeigt und zeigt den folgenden Text an:  
   
 **XX der Gesamten Reservierten Menge sind unspezifisch und möglicherweise verfügbar.**  
   

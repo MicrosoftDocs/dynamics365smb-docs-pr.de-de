@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f49faba7360ccf2e93ab62176752a503335f3f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d8eb48485f0889f4f10931c6642090f8290fe393
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-allocation-source-and-targets"></a>Richten Sie die Zuteilungsquelle und Ziele ein
@@ -25,7 +25,7 @@ Jede Zuordnung besteht aus einer Zuordnungsquelle und einer oder mehreren Zuordn
 
 ## <a name="to-set-up-cost-allocations"></a>So richten Sie Kostenzuordnungen ein  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kostenzuteilung** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie im Fenster **Kostenzuteilung** die Aktion **Bearbeiten** aus.  
+2.  Wählen Sie auf der Seite **Kostenzuteilung** die Aktion **Bearbeiten** aus.  
 3.  Geben Sie eine ID für die Zuordnungsquelle in das Feld **ID** ein.  
 4.  Definieren Sie eine **Ebene** als Zahl zwischen 1 und 99 im Feld . Die Verteilungsbuchung richtet sich nach der Reihenfolge der Stufen.  
 5.  Geben Sie eine Kostenart ein, um festzulegen, welche Kostenarten im Feld **Kostenartbereich** zugeordnet werden. Wenn alle Kosten für eine Kostenart zugeordnet werden, wird kein Bereich definiert.  

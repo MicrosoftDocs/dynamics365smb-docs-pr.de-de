@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6680a5dedcbedc3ed7e430c4290871d5fbaaf9ad
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 44da3ed8f78dd685000e5ec27d43e1bb3a5959ba
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Einrichten von Position für Kontaktpersonen
@@ -25,7 +26,7 @@ Sie können Ihren Kontakten Positionen zuordnen, um zu bestimmen, welche Positio
 Die Nutzung von Positionen zu Kontakten ist ein zwei Schritte umfassender Prozess. Zuerst definieren Sie den Positionscode. Sie müssen diesen Schritt nur einmal für jede Position ausführen. Sobald Sie einen Positionscode haben, können Sie den Code zu den Kontaktpersonen zuweisen.
 
 ## <a name="to-define-an-organizational-level-code"></a>Um einen Organisationsstufencode zu definieren
-Der Positionscode definiert die Art oder die Kategorie der Position (z. B. CEO oder CFO). Sie können mehrere Positionscodes haben. Um die Position zu definieren, verwenden Sie das **Positionen**-Fenster.
+Der Positionscode definiert die Art oder die Kategorie der Position (z. B. CEO oder CFO). Sie können mehrere Positionscodes haben. Um die Position zu definieren, verwenden Sie die **Positionen**-Seite.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Organisationsstufen** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus, und geben Sie einen Code und eine Beschreibung ein. Der Code kann maximal 11 Zeichen, sowohl Ziffern als auch Buchstaben, umfassen.

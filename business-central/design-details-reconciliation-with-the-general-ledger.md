@@ -13,10 +13,10 @@ ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9655a65fe6a5e6f90ba2c0f1a00c6c8f2cc977ad
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetails: Abgleich mit der Finanzbuchhaltung
@@ -35,7 +35,7 @@ Die Buchungsdaten der Sachposten werden auf das Buchungsdatum des entsprechenden
 Während Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, könnten Sie auf Fehler treffen, die ihre Ursache in fehlender Einrichtung oder nicht kompatibler Dimensionseinrichtung haben. Wenn die Stapelverarbeitung auf Fehler in der Dimensionseinrichtung stößt, setzt sie diese Fehler außer Kraft und verwendet die Dimensionen des Wertpostens. Bei anderen Fehlern überspringt die Stapelverarbeitung das Buchen der Wertposten und listet die Fehler am Ende des Berichts im Abschnitt **Übersprungene Artikel**auf. Um diese Artikel buchen zu können, müssen Sie zunächst die Fehler beheben. Wenn Sie eine Liste der Fehler anzeigen möchten, bevor Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, führen Sie den Bericht  Lagereinstandspreise buchen - Test aus. In dem Testbericht werden alle Fehler aufgelistet, die während der Testbuchung aufgetreten sind. Sie können die Fehler dann beheben und die Stapelverarbeitung zum Buchen der Lagerregulierung ausführen, ohne dass Posten übersprungen werden.  
 
 ## <a name="automatic-cost-posting"></a>Automatische Kostenbuchung  
-Um einzurichten, dass Kostenbuchung in der Finanzbuchhaltung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, wählen Sie das **Kosten automatisch buchen**-Kontrollkästchen im **Bestand einrichten**-Fenster aus. Das Buchungsdatum des Sachpostens ist das gleiche wie das Buchungsdatum des Artikelpostens.  
+Um einzurichten, dass Kostenbuchung in der Finanzbuchhaltung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, wählen Sie das **Kosten automatisch buchen**-Kontrollkästchen auf der Seite **Bestand einrichten** aus. Das Buchungsdatum des Sachpostens ist das gleiche wie das Buchungsdatum des Artikelpostens.  
 
 ## <a name="account-types"></a>Kontoarten  
 Während der Abstimmung werden Bestandswerte zum Bestandskonto auf der Bilanz gebucht. Der gleiche Betrag, aber mit umgekehrtem Vorzeichen, wird in das entsprechende Gegenkonto gebucht. Normalerweise ist das Gegenkonto ein GuV-Konto. Wenn Sie direkte Kosten im Zusammenhang mit Verbrauch oder Ausgabe buchen, ist das Gegenkonto jedoch ein Bilanzkonto. Die Art des Artikelpostens und des Wertpostens bestimmt, auf welches Sachkonto gebucht wird.  
@@ -45,7 +45,7 @@ Die Postenart gibt an, in welches Sachkonto die Buchung vorgenommen werden soll.
 ### <a name="example"></a>Beispiel  
 Das folgende Beispiel zeigt eine Fahrradkette, die aus eingekauften Gliedern gefertigt ist. In diesem Beispiel wird gezeigt, wie die verschiedenen Sachkontoarten in einem typischen Szenario verwendet werden.  
 
-Das Kontrollkästchen **Erwartete Soll-Kosten**, die im Fenster **Lager-Einrichtung** ausgewählt ist und die folgenden Einstellungen werden festgelegt.  
+Das Kontrollkästchen **Erwartete Soll-Kosten**, die auf der Seite **Lager-Einrichtung** ausgewählt ist und die folgenden Einstellungen werden festgelegt.  
 
 Die nachstehende Tabelle zeigt, wie das Glied auf der Artikelkarte eingerichtet wird.  
 

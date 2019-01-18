@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertieren von Serviceverträgen, die MwSt.-Beträge enthalten
@@ -49,7 +49,7 @@ Nachfolgend wird beschrieben, wie eine Gutschrift erstellt wird, die nur die MwS
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>So erstellen Sie Vertragsablaufdaten in Vertragszeilen  
 Die folgende Vorgehensweise beschreibt, wie Sie neue Verträge erstellen, indem sie in Servicevertragszeilen mit Kontaktablaufdaten arbeiten.  
 
-1. Im Fenster **Servicevertag** legen Sie das Vertragsablaufdatum auf **30.06.2017** fest.  
+1. Auf der Seite **Servicevertag** legen Sie das Vertragsablaufdatum auf **30.06.2017** fest.  
 2. Wählen Sie die Aktionen **Verkaufsgutschrift erstellen** aus, um automatisch eine Gutschrift für Juli 2017 bis Dezember 2017 zu erstellen.  
 3. Da der Vertrag abgelaufen ist, müssen Sie einen neuen Vertrag für die Periode mit dem neuen Mehrwertsteuersatz für 1. Juli 2017 bis 31. Dezember 2017 erstellen.  
 
@@ -59,7 +59,7 @@ Nachfolgend wird beschrieben, wie eine neue Gutschrift mithilfe des Batchauftrag
 1. Führen Sie das Werkzeug zum Ändern des MwSt.-Satzes am 1. Juli 2017 aus. Die allgemeine Produktbuchungsgruppe oder die MwSt-Produktbuchungsgruppe werden geändert. Weitere Informationen Sie unter [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md).  
 2. Nachdem Sie das Werkzeug zum Ändern des MwSt.-Satzes ausgeführt haben, können Sie ein Vertragsablaufdatum für den Servicevertrag eingeben. Sie können die Servicevertragszeile jetzt löschen und eine neue Zeile erstellen, die mit der alten identisch ist.  
 3. Erstellen Sie eine neue Rechnung für die Periode von Januar 2017 bis Dezember 2012 unter Verwendung des neuen Mehrwertsteuersatzes.  
-4. Um eine andere Gutschrift zu erstellen, wählen Sie im Fenster **Servicegutschriften** die Option **Neu** aus, um eine neue Servicegutschrift zu erstellen.  
+4. Um eine andere Gutschrift zu erstellen, wählen Sie auf der Seite **Servicegutschriften** die Option **Neu** aus, um eine neue Servicegutschrift zu erstellen.  
 5. Wählen Sie die **Vorausbez. Vertragsposten holen** Aktion aus.  
 6. Nachdem die Konvertierung abgeschlossen ist, sind MwSt.- und Serviceposten korrekt.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2d32111fe1b5510f7c1dc2412627d5df9e7ccc3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2bd235844f191c52f3f5d3e34b43c4fdf75fb464
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
@@ -82,7 +82,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 -   Machen Sie sich anhand der nachfolgenden Schritte selbst zu einem Lagermitarbeiter am Standort WHITE:  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagermitarbeiter** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto im Fenster **Benutzer** aus.  
+2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
 3.  Geben Sie im Feld **Lagerortcode** WHITE ein.  
 4.  Wählen Sie das Feld **Standard** aus.  
 
@@ -101,7 +101,7 @@ Bereiten Sie den Lagerort WHITE folgendermaßen für die Montageverarbeitung vor
 Entfernen Sie die Standard-Beschaffungszeit für interne Vorgänge, indem Sie die folgenden Schritte befolgen:  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Produktion Einrichtung** ein, und wählen dann den zugehörigen Link aus.  
-2.  Im Fenster **Produktion Einrichtung** im Inforegister **Planung**, löschen Sie den Wert im Feld **Vorg. Sich.-Zuschl. Besch.-Zt.** Feld.  
+2.  Auf der Seite **Produktion Einrichtung** im Inforegister **Planung**, löschen Sie den Wert im Feld **Vorg. Sich.-Zuschl. Besch.-Zt.** Feld.  
 
 Erstellen Sie Bestand für Montagekomponenten, indem Sie die Anweisungen im Abschnitt "Vorbereiten von Beispieldaten" in dieser Anleitung befolgen.  
 
@@ -151,10 +151,10 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Synchronisieren Sie anschließend die neuen Lagereinträge mit dem Bestand.  
 
-5.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Artikel Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus. Das Fenster  **Artikel Buch.-Blatt** wird geöffnet.  
+5.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Artikel Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus. Die Seite **Artikel Buch.-Blatt** wird geöffnet.  
 6.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Ausgleich berechnen** aus.  
-7.  Um die Funktion **Ausgleich berechnen** auszuführen, wählen Sie die Schaltfläche **OK** aus.  
-8.  Wählen Sie im Fenster **Artikeljournal** auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Buchen**, und klicken Sie dann auf die Schaltfläche **Ja**  
+7.  Auf der Seite **Ausgleich berechnen** auszuführen, wählen Sie die Schaltfläche **OK** aus.  
+8.  Wählen Sie auf der Seite **Artikeljournal** auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Buchen**, und klicken Sie dann auf die Schaltfläche **Ja**  
 
 ### <a name="creating-the-assembly-items"></a>Erstellen der Montageartikel  
 
@@ -221,7 +221,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     > [!NOTE]  
     >  Für die Verkaufsauftragszeile für Kit B besteht das folgende Verfügbarkeitsproblem:  
     >   
-    >  -   Montagekomponente 80210 ist nicht verfügbar. Dies bedeutet, dass die drei angegebenen Einheiten von Kit B nicht montiert werden können, angezeigt durch **0** im Feld **Montage möglich** im Fenster **Montageverfügbarkeit** .  
+    >  -   Montagekomponente 80210 ist nicht verfügbar. Dies bedeutet, dass die drei angegebenen Einheiten von Kit B nicht montiert werden können, angezeigt durch **0** im Feld **Montage möglich** auf der Seite **Montageverfügbarkeit** .  
     >   
     >  Für die Verkaufsauftragszeile für Kit A besteht das folgende Verfügbarkeitsproblem:  
     >   
@@ -231,15 +231,15 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 4.  Wählen Sie die Verkaufsauftragszeile für drei Einheiten von Kit B.  
 5.  Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, wählen Sie **Auftragsmontage**, und klicken Sie anschließend auf **Auftragsmontagezeilen**.  
-6.  Im Fenster **Programmfertigungszeilen** der Montageauftragszeile für Artikel 80014, geben Sie **2** im Feld **Komponentenmenge** ein.  
+6.  Auf der Seite **Programmfertigungszeilen** der Montageauftragszeile für Artikel 80014, geben Sie **2** im Feld **Komponentenmenge** ein.  
 7.  Auf der Montageauftragszeile für Artikel 80210, wählen Sie **Nr.** aus und klicken Sie anschließend auf Artikel 80209.  
 8.  Erstellen Sie eine neue Montageauftragszeile mit den folgenden Informationen.  
 
     |Typ|Nr.|Komponentenmenge|  
     |----------|---------|------------------|  
-    |Artikel|80203|1|  
+    |Option|80203|1|  
 
-9. Schließen Sie das Fenster **Auftragsmontagezeilen**.  
+9. Schließen Sie die Seite **Auftragsmontagezeilen**.  
 
     Aktualisieren Sie dann den VK-Preis von Kit B entsprechend der Anpassung, die Sie gerade durchgeführt haben. Beachten Sie den aktuellen Wert im Feld **VK-Preis ohne MwSt.**.  
 
@@ -247,7 +247,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 11. Wählen Sie die Schaltfläche **Ja** aus. Beachten Sie den höheren Wert im Feld **VK-Preis ohne MwSt.**.  
 12. Wählen Sie die Verkaufsauftragszeile für 15 Einheiten von Kit A.  
 13. Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, wählen Sie **Auftragsmontage**, und klicken Sie anschließend auf **Auftragsmontagezeilen**.  
-14. Erstellen Sie im Fenster **Auftragsmontagezeile** eine neue Montageauftragszeile mit den folgenden Informationen.  
+14. Erstellen Sie auf der Seite **Auftragsmontagezeile** eine neue Montageauftragszeile mit den folgenden Informationen.  
 
     |Typ|Nr.|Komponentenmenge|  
     |----------|---------|------------------|  
@@ -264,7 +264,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Planungsvorschlag** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie auf der Registerkarte **Aktion** in der Gruppe **Funktionen** die Option **Neuplanung berechnen** aus.  
-3.  Stellen Sie im Fenster **Planung berechnen** die folgenden Filter ein.  
+3.  Stellen Sie auf der Seite **Planung berechnen** die folgenden Filter ein.  
 
     |Startdatum|Enddatum|Nr.|  
     |-------------------|-----------------|---------|  
@@ -275,7 +275,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     Eine neue Planungszeile wird für den erforderlichen Montageauftrag über zehn Stück fällig am 27. Januar erstellt. Es muss keine Änderung vorgenommen werden, sodass Sie nun einen Auftrag anlegen können.  
 
 5.  Wählen Sie auf der Registerkarte **Funktionen** in der Gruppe **Vorgang** die Option **Ereignismeldung durchführen** aus.  
-6.  Wählen Sie im Fenster **Ereignismeld. durchf.** das Feld **Montageauftrag** und dann **Montageaufträge erstellen**.  
+6.  Wählen Sie auf der Seite **Ereignismeld. durchf.** das Feld **Montageauftrag** und dann **Montageaufträge erstellen**.  
 7.  Wählen Sie die Schaltfläche **OK** aus.  
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montieren und Versenden der ersten ATO-Menge  
@@ -311,14 +311,14 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Kehren Sie zum Ausführen der Versandaufgaben zurück.  
 
-8.  Öffnen Sie wieder das Fenster **Warenausgangsübersicht**.  
+8.  Öffnen Sie wieder die Seite **Warenausgangsübersicht**.  
 
     Beachten Sie, dass das Feld **Ausgewählte Menge** auf allen Zeilen noch leer ist. Dies liegt daran, dass Sie die zu liefernden Artikel noch nicht kommissioniert haben, sondern nur die Komponenten, die benötigt werden, um die ATO-Mengen zu montieren.  
 
     Fahren Sie fort, um den verknüpften Montageauftrag zu prüfen.  
 
 9. Wählen Sie die Warenausgangszeile für drei Einheiten von Kit B.  
-10. Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, und wählen Sie dann **Auftragsmontage**. Das Fenster **Montageauftrag** wird geöffnet.  
+10. Wählen Sie auf dem Inforegister **Zeilen** **Zeile** aus, und wählen Sie dann **Auftragsmontage**. Die Seite **Montageauftrag** wird geöffnet.  
 
     Beachten Sie, dass einige Felder auf dem Montageauftrag nicht verfügbar sind, da der Auftrag mit einem Verkaufsauftrag verbunden ist.  
 
@@ -330,7 +330,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Das Feld **Montagemenge** ist editierbar, um Situationen zu unterstützen, in denen Sie eine Lagermenge teilweise ausliefern möchten, anstatt mehr Einheiten für den Auftrag zu montieren. Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-12. Schließen Sie das Fenster **Montageauftrag**, um zum Fenster **Warenausgang** zurückzukehren.  
+12. Schließen Sie die Seite **Montageauftrag**, um zur Seite **Warenausgang** zurückzukehren.  
 13. Geben Sie auf der Ausgangszeile für drei Einheiten von Kit B im Feld **Versandmenge**  **3** ein.  
 14. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Buchen** die Option **Warenausgang buchen**, und wählen Sie dann die Schaltfläche **Liefern**.  
 
@@ -356,11 +356,11 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     Buchen Sie dann, dass der Montageauftrag abgeschlossen ist.  
 
 3.  Klicken Sie auf der Registerkarte **Navigate** in der Gruppe **Lager**, wählen Sie **Warenausgangszeile für Programmfertigung** aus.  
-4.  Geben Sie im Fenster **Warenausgangszeile für Programmfertigung**im Feld **Versandmenge** **5** ein und schließen Sie dann das Fenster.  
+4.  Geben Sie auf der Seite **Warenausgangszeile für Programmfertigung**im Feld **Versandmenge** **5** ein und schließen Sie dann die Seite.  
 
-    Beachten Sie im Fenster , dass die Felder **Montageauftrag** und **Montagemenge** jetzt mit den **Verbrauchsmengen** ausgefüllt sind, die mit der Lieferung gebucht werden.  
+    Beachten Sie auf der Seite, dass die Felder **Montageauftrag** und **Montagemenge** jetzt mit den **Verbrauchsmengen** ausgefüllt sind, die mit der Lieferung gebucht werden.  
 
-5.  Schließen Sie das Fenster **Montageauftrag**.  
+5.  Schließen Sie die Seite **Montageauftrag**.  
 
 ### <a name="assembling-the-ats-quantity"></a>Montieren der ATS-Menge  
 
@@ -415,9 +415,9 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Kehren Sie zum Warenausgang zurück, um die letzte Aufgabe auszuführen.  
 
-8.  Öffnen Sie wieder das Fenster **Warenausgangsübersicht**.  
+8.  Öffnen Sie wieder die Seite **Warenausgangsübersicht**.  
 
-    Beachten Sie, dass im Fenster **Lagerahausversand** in der Zeile für zehn Einheiten von Kit A die Felder **Versandmenge**und **Ausgewählte Menge** jetzt **10** enthalten.  
+    Beachten Sie, dass auf der Seite **Lagerahausversand** in der Zeile für zehn Einheiten von Kit A die Felder **Versandmenge**und **Ausgewählte Menge** jetzt **10** enthalten.  
 
 9. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Buchen** die Option **Warenausgang buchen**, und wählen Sie dann die Schaltfläche **Liefern**.  
 

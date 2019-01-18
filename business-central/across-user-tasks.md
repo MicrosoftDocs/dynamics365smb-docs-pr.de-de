@@ -11,17 +11,17 @@ ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a482b27c95cf40a80fb033ddd0d5333014a2064b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-user-tasks"></a>Benutzeraufgaben definieren
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie Aufgaben erstellen, die Sie an Arbeit erinnern, die durchgeführt werden muss. Sie können Aufgaben für sich selbst erstellen, aber Sie können auch Aufgaben an Andere zuweisen oder Ihnen kann von jemand anderem in Ihrer Organisation eine Aufgabe zugewiesen werden.  
 
 ## <a name="managing-user-tasks"></a>Benutzeraufgaben verwalten
-Das Fenster **Benutzeraufgaben** zeigt alle Aufgaben an, und Sie können einfach neue Aufgaben erstellen und zuweisen. Wenn Sie eine Aufgabe erstellen, können Sie das Startdatum und das Fälligkeitsdatum angeben, und Sie können einen Link dem Fenster in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzufügen, wo der Benutzer die Arbeit machen muss.  
+Die Seite **Benutzeraufgaben** zeigt alle Aufgaben an, und Sie können einfach neue Aufgaben erstellen und zuweisen. Wenn Sie eine Aufgabe erstellen, können Sie das Startdatum und das Fälligkeitsdatum angeben, und Sie können einen Link auf der Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzufügen, wo der Benutzer die Arbeit machen muss.  
 
 Beispielsweise können Sie eine Aufgabe für sich selbst erstellen, sodass alle gebuchten Verkaufsrechnungen angezeigt werden. In diesem Fall können Sie die Aufgabe mit Seite 143, „Gebuchte Verkaufsrechnungen”, verknüpfen.  
 
@@ -31,7 +31,7 @@ Beispielsweise können Sie eine Aufgabe für sich selbst erstellen, sodass alle 
 >  Verwenden Sie die Suche im Feld **Seite**, und verwenden Sie dann das Feld **Nach Seite oder Bericht suchen**, um die Seite zu finden, die Sie anzeigen möchten. Weitere Informationen finden Sie unter [Suchen nach einer Seite oder einem Bericht](ui-search.md).  
 
 ### <a name="picking-up-user-tasks"></a>Benutzeraufgaben aufnehmen
-In den Rollencentern Geschäftsführer, Bookkeeper und Buchhalter zeigt eine Kachel ausstehende Aufgaben an, die diesem Benutzer zugewiesen sind. Um eine Aufgabe aufzunehmen, wählen Sie sie einfach aus der Liste der ausstehenden Benutzeraufgaben aus. Im Menüband öffnet der Link **Zu Aufgabenelement wechseln** das Fenster, in dem Sie die Arbeit ausführen können.  
+In den Rollencentern Geschäftsführer, Bookkeeper und Buchhalter zeigt eine Kachel ausstehende Aufgaben an, die diesem Benutzer zugewiesen sind. Um eine Aufgabe aufzunehmen, wählen Sie sie einfach aus der Liste der ausstehenden Benutzeraufgaben aus. Im Menüband öffnet der Link **Zu Aufgabenelement wechseln** die Seite, in dem Sie die Arbeit ausführen können.  
 
 Wenn Sie eine Aufgabe abgeschlossen haben, kennzeichnen Sie sie einfach als abgeschlossen.  
 

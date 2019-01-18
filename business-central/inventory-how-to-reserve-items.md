@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reserve-items"></a>Artikel reservieren
-Reservieren Sie Lager oder eingehenden Artikel für Verkaufsaufträge, Bestellungen, Serviceaufträge, Montageaufträge oder Fertigungsaufträge. Sie können Artikel in Lager oder eingehenden in Zeilen der offenen Belegzeile reservieren. Sie führen die Arbeit im Fenster **Reservierungen** aus.
+Reservieren Sie Lager oder eingehenden Artikel für Verkaufsaufträge, Bestellungen, Serviceaufträge, Montageaufträge oder Fertigungsaufträge. Sie können Artikel in Lager oder eingehenden in Zeilen der offenen Belegzeile reservieren. Sie führen die Arbeit auf der Seite **Reservierungen** aus.
 
 Jede Zeile in **Reservierung**beinhaltet Informationen zu der Art der Zeile (Verkauf, Einkauf, Buchungsblatt) oder der Postenart. Die Zeilen zeigen an, wie viele Artikel von jeder Art von Zeile oder Posten für die Reservierung verfügbar sind.
 
 ## <a name="to-reserve-items-for-sales"></a>So reservieren Sie Artikel für Verkäufe:
 Nachfolgend wird erläutert, wie Entscheidungsträger als Artikel aus einem Verkaufsauftrag reserviert werden. Die Schritte sind gleich für Einkaufs-, Service- und Montageaufträge.  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
-2.  Klicken Sie in einem Verkaufsauftrag auf dem Inforegister **Zeilen** auf **Reservieren**. Das Fenster **Reservierung** wird geöffnet.  
+2.  Klicken Sie in einem Verkaufsauftrag auf dem Inforegister **Zeilen** auf **Reservieren**. Die Seite **Reservierung** wird geöffnet.  
 3. Wählen Sie in die Zeile, aus der Sie Artikel reservieren möchten.  
 4. Wählen Sie eine der folgenden Optionen aus.  
 
@@ -48,7 +48,7 @@ Im weiteren Prozess wird ein fest geplanter Fertigungsauftrag verwendet.
 2. Öffnen Sie den fest geplanten Produktionsauftrag, den Sie für übergeordnete Artikel reservieren möchten.  
 3. Wählen Sie die entsprechende FA-Zeilennummer aus.  
 4. Wählen Sie auf dem Inforegister **Zeilen** das Feld **Reservieren** aus.
-5. Wählen Sie im Fenster **Resevierung**die Zeile **Verkaufszeile, Auftrag**, und klicken Sie dann auf Aktionen in der Gruppe Funktion, und wählen Sie **Von aktueller Zeile reservieren**.  
+5. Wählen Sie auf der Seite **Resevierung**die Zeile **Verkaufszeile, Auftrag**, und klicken Sie dann auf Aktionen in der Gruppe Funktion, und wählen Sie **Von aktueller Zeile reservieren**.  
 
 Die Menge, die Sie im fest geplanten Fertigungsauftrag eingetragen haben, ist reserviert.
 
@@ -62,22 +62,22 @@ Im weiteren Prozess wird ein fest geplanter Fertigungsauftrag verwendet.
 4. Wählen Sie auf dem Inforegister **Zeilen** die Option **Zeile** und dann **Posten** aus.  
 5. Wählen Sie die entsprechende Komponentenzeile aus.  
 6. Wählen Sie auf dem Inforegister **Zeilen** das Feld **Reservieren** aus.  
-7. Wählen Sie im Fenster **Resevierung** eine Zeile und wählen **Aus aktueller Zeile reservieren** aus.  
+7. Wählen Sie auf der Seite **Resevierung** eine Zeile und wählen **Aus aktueller Zeile reservieren** aus.  
 
 Die Menge, die Sie in der fest geplanten Fertigungskomponentenzeile eingetragen haben, ist nun reserviert.
 
 ## <a name="to-change-a-reservation"></a>So ändern Sie eine Reservierung:  
 Gelegentlich kann es erforderlich sein, eine Artikelreservierung zu ändern.   
 1. Von der Belegzeile, aus der Sie im Inforegister **Zeilen** reserviert haben, wählen Sie die **Reservieren** Aktion aus.  
-2. Im Fenster **Reservierung** wählen Sie die **Reservierungsposten** Aktion aus.
-3. Klicken Sie in der Zeile **Reservierungseinträge** auf **Menge** aktualisieren auf der Zeile, die Sie ändern möchten.
+2. Auf der Seite **Reservierung** wählen Sie die **Reservierungsposten** Aktion aus.
+3. Klicken Sie auf der Seite **Reservierungseinträge** auf **Menge** aktualisieren auf der Zeile, die Sie ändern möchten.
 4. Bestätigen Sie die nachfolgende Meldung, indem Sie die Schaltfläche **OK** auswählen.
 
 ## <a name="to-cancel-a-reservation"></a>So stornieren Sie eine Reservierung  
 Gelegentlich kann es erforderlich sein, eine Artikelreservierung zu stornieren.   
 1. Von der Belegzeile, aus der Sie im Inforegister **Zeilen** reserviert haben, wählen Sie die **Reservieren** Aktion aus.  
-2. Im Fenster **Reservierung** wählen Sie die **Reservierungsposten** Aktion aus.  
-3.  Im Fenster **Reservierung** wählen Sie die **Reservierung abbrechen** Aktion aus.  
+2. Auf der Seite **Reservierung** wählen Sie die **Reservierungsposten** Aktion aus.  
+3.  Auf der Seite **Reservierung** wählen Sie die **Reservierungsposten stornieren** Aktion aus.  
 4.  Bestätigen Sie die nachfolgende Meldung, indem Sie die Schaltfläche **OK** auswählen.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>So reservieren Sie eine bestimmte Serien- oder Chargennummer  
@@ -91,12 +91,12 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung.
 3. Weisen Sie dann der Verkaufsauftragszeile Serien- und Chargennummern zu. Weitere Informationen finden Sie unter [Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md).
 4. Auf der Verkaufsauftragszeile wählen Sie die Aktion **Reservieren** aus.  
 5. Wählen Sie die Schaltfläche **Ja**, um bestimmte Serien- oder Chargennummern zu reservieren.  
-6. Wählen Sie im Fenster **Artikelnachverfolgungsliste** die Serien- und Chargennummernkombination aus, die Sie gerade zugewiesen haben.  
-7. Wählen Sie die Schaltfläche **OK**, um das Fenster **Reservationen** zu öffnen, in dem nur der Bedarf angezeigt wird, der mit der angegebenen Artikelverfolgungsnummer verbunden ist. Bei nicht-spezifischen Reservierungen für eine der Artikelverfolgungsnummern, die Sie in dieser Zeile angegeben haben, werden Sie über die Menge informiert, die bereits reserviert wurde.  
+6. Wählen Sie auf der Seite **Artikelnachverfolgungsliste** die Serien- und Chargennummernkombination aus, die Sie gerade zugewiesen haben.  
+7. Wählen Sie die Schaltfläche **OK**, um die Seite **Reservationen** zu öffnen, in dem nur der Bedarf angezeigt wird, der mit der angegebenen Artikelverfolgungsnummer verbunden ist. Bei nicht-spezifischen Reservierungen für eine der Artikelverfolgungsnummern, die Sie in dieser Zeile angegeben haben, werden Sie über die Menge informiert, die bereits reserviert wurde.  
 8. Klicken Sie auf die Aktionen **Automatisch Reservieren**oder **Aus aktueller Zeile reservieren**, um die Reservierung für die speziellen Artikelverfolgungsnummern zu erstellen.
 
 ## <a name="see-also"></a>Siehe auch
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Designdetails: Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  

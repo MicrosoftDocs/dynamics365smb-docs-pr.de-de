@@ -13,10 +13,10 @@ ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fc3f1c3d8a8baab17695c22afb00c35413504ce8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetails: Umlagerungen in der Planung
@@ -33,7 +33,7 @@ Ein Umlagerungsauftrag sieht im Programm fast wie jeder andere Auftrag aus. Hint
 
 Ein grundlegender Aspekt, wodurch sich Umlagerungen beim Planen von Einkaufs- und Produktionsaufträgen unterscheiden, ist der Umstand, dass eine Umlagerungszeile Bedarf und Vorrat gleichzeitig darstellt. Der ausgehende Teil, der vom alten Lagerort geliefert wird, ist Bedarf. Der eingehende Teil, der am neuen Lagerort erhalten werden soll, ist Vorrat an diesem Lagerort.  
 
-![Inhalt des Umlagerungsauftragsfensters](media/nav_app_supply_planning_7_transfers3.png "Inhalt des Umlagerungsauftragsfensters")  
+![Inhalt der Umlagerungsauftragsseite](media/nav_app_supply_planning_7_transfers3.png "Inhalt der Umlagerungsauftragsseite")  
 
 Das bedeutet, dass, wenn das System die Zugangsseite der Übertragung ändert, es eine ähnliche Änderung der Bedarfsseite vornehmen muss.  
 
@@ -64,7 +64,7 @@ Der Umlagerungsebenencode ist ein internes Feld, das automatisch in den Lagerhal
 
 Der Umlagerungsebenencode ist 0 für Lagerhaltungsdaten mit der Beschaffungsmethode"Einkauf" oder "Fertigungsauftrag" und -1 für die erste Umlagerungsebene, -2 für die zweite Umlagerungsebene usw. In der Übergangskette, die oben beschrieben wurde, würden die Ebenen daher -1 für ROT und -2 für GRÜN ein, wie in der folgenden Abbildung angezeigt.  
 
-![Inhalt des SKU-Kartenfensters](media/nav_app_supply_planning_7_transfers6.gif "Inhalt des SKU-Kartenfensters")  
+![Inhalt der SKU-Kartenseite](media/nav_app_supply_planning_7_transfers6.gif "Inhalt der SKU-Kartenseite")  
 
 Bei der Aktualisierung der Lagerhaltungsdaten erkennt das Planungssystem, ob Lagerhaltungsdaten mit der Beschaffungsmethode Transfer mit Zirkelverweisen eingerichtet werden.  
 
@@ -135,7 +135,7 @@ In diesem Beispiel bedeutet dies, dass:
 * Enddatum + Eingehende Lagerdurchlaufzeit = Wareneingangsdatum  
 
 ## <a name="safety-lead-time"></a>Sicherh.-Zuschl. Beschaff.-Zt.  
-Das Feld „Vorg. Sich.-Zuschl. Besch.-Zt.“ im Fenster „Fertigungseinrichtung“ und das zugehörige Feld „Sicherh.-Zuschl. Beschaff.-Zt.“ auf der Artikelkarte werden nicht in der Berechnung eines Umlagerungsauftrags berücksichtigt. Die Sicherheitsbeschaffungszeit beeinflusst jedoch den Gesamtplan wie den Beschaffungsauftrag (Einkauf oder Produktion) am Anfang der Übertragungskette, wenn die Artikel an den Lagerort verbracht werden, von dem aus sie umgelagert werden sollen.  
+Das Feld „Vorg. Sich.-Zuschl. Besch.-Zt.“ auf der Seite „Fertigungseinrichtung“ und das zugehörige Feld „Sicherh.-Zuschl. Beschaff.-Zt.“ auf der Artikelkarte werden nicht in der Berechnung eines Umlagerungsauftrags berücksichtigt. Die Sicherheitsbeschaffungszeit beeinflusst jedoch den Gesamtplan wie den Beschaffungsauftrag (Einkauf oder Produktion) am Anfang der Übertragungskette, wenn die Artikel an den Lagerort verbracht werden, von dem aus sie umgelagert werden sollen.  
 
 ![Elemente des Übergangsfälligkeitsdatums](media/nav_app_supply_planning_7_transfers14.png "Elemente des Übergangsfälligkeitsdatums")  
 

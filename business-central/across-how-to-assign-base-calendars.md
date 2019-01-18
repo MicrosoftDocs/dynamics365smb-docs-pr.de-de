@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Basiskalender einrichten
@@ -27,7 +27,7 @@ Sie können Ihrer Firma sowie Ihren Geschäftspartnern, wie z. B. Debitoren, Kre
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie das Feld **Code** aus.  
 4. Wählen Sie die **Basiskalender pflegen** Aktion aus.
-5. Sie können im Fenster **Basiskalender ändern** das Feld **Wiederkehrendes System** verwenden, um ein bestimmtes Datum als einen wiederkehrenden freien Tag zu kennzeichnen. Sie können das Wiederholungsmuster **Jährlich** oder **Wöchentlich** wählen.  
+5. Sie können auf der Seite **Basiskalender ändern** das Feld **Wiederkehrendes System** verwenden, um ein bestimmtes Datum als einen wiederkehrenden freien Tag zu kennzeichnen. Sie können das Wiederholungsmuster **Jährlich** oder **Wöchentlich** wählen.  
 
     Wenn Sie **Jährlich** wählen, müssen Sie auch das relevante Datum im Feld **Datum** eingeben.  
 
@@ -37,7 +37,7 @@ Wenn Sie einen Eintrag vornehmen, wird das Feld **Frei** ausgewählt. Sie könne
  Wenn Sie zur Basiskalenderkarte zurückkehren, werden Sie feststellen, dass die freien Tage automatisch Ihren Einträgen entsprechend aktualisiert wurden. Diese Daten erscheinen jetzt in Rot, und das Feld **Frei** ist aktiviert.  
 
 > [!NOTE]  
->  Wenn Sie einen neuen Basiskalender einrichten, können Sie in einem bestehenden Kalender Zeilen auswählen und kopieren. Dieser Schritt wird im jeweiligen Fenster **Basiskalenderänderungen** durchgeführt.  
+>  Wenn Sie einen neuen Basiskalender einrichten, können Sie in einem bestehenden Kalender Zeilen auswählen und kopieren. Dieser Schritt wird auf der jeweiligen Seite **Basiskalenderänderungen** durchgeführt.  
 
 > [!IMPORTANT]  
 >  Alle Basiskalender, die für den Kreditor oder Lagerort definiert wurden, wirken sich darauf aus, wie die Daten in Arbeitstage berechnet und gerundet werden.
@@ -57,7 +57,7 @@ Alle Basiskalender, die für den Kreditor oder Lagerort definiert wurden, wirken
 > [!Important]
 > Wenn Ihr Lagerort einen erheblich anderen Kalender als Ihre Kreditoren verwendet, ist es wichtig, dass Sie bestimmte Kalender für die einzelnen Kreditoren einrichten, um optimale Kreditorbeschaffungszeiten zu berechnen. Weitere Informationen darüber, wie Kreditorenkalender eingerichtet werden, finden Sie im Abschnitt "Zuweisen eines Basiskalenders".
 
-Der Inhalt des Felds **Berechung Beschaffungszeit** wird von der Artikelkarte oder der Lagerhaltungsdatenkarte kopiert, wenn die Beschaffungszeit für den Artikel definiert wird, oder im Fenster **Artikel/Lieferanten Katalog**, wenn die Beschaffungszeit für den Kreditor definiert wird.
+Der Inhalt des Felds **Berechung Beschaffungszeit** wird von der Artikelkarte oder der Lagerhaltungsdatenkarte kopiert, wenn die Beschaffungszeit für den Artikel definiert wird, oder auf der Seite **Artikel/Debitoren Katalog**, wenn die Beschaffungszeit für den Kreditor definiert wird.
 
 ## <a name="to-customize-a-calendar"></a>Einen Kalender individuell anpassen
 Die Hauptaufgabe beim Anpassen eines Basiskalenders für Ihre Firma oder einen Ihrer Geschäftspartner ist, alle Änderungen am Status der Daten als freie Tage oder Arbeitstage einzugeben.
@@ -68,7 +68,7 @@ Die folgende Vorgehensweise verwendet den Fall eines Lagerortes als Beispiel. Be
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie den Lagerort, den Sie aktualisieren möchten, und wählen Sie das Feld **Spezifischer Kalender** aus. Beachten Sie, dass ein Kalender im Feld **Basiskalendercode** ausgewählt werden muss.
-3. Im Fenster **Spezifische Kalenderposten** wählen Sie **Spezifische Kalenderänderungen verwalten** Aktion aus.
+3. Auf der Seite **Spezifische Kalenderposten** wählen Sie **Spezifische Kalenderänderungen verwalten** Aktion aus.
 4. In **Spezifische Kalenderänderungen** fügen Sie Zeilen für spezifische Kalenderposten hinzu.
 
     Wenn Sie eine Zeile eingeben, wird das Feld **Frei** ausgewählt. Sie können das Häkchen entfernen, wenn Sie den Status auf den eines Arbeitstags setzen möchten.
@@ -79,7 +79,7 @@ Die folgende Vorgehensweise verwendet den Fall eines Lagerortes als Beispiel. Be
 
 5. Wählen Sie die Schaltfläche **OK** aus.
 
-Im Fenster **Spezifische Kalenderposten** werden Sie feststellen, dass die Datumsangaben Ihren Einträgen entsprechend aktualisiert wurden.
+Auf der Seite **Spezifische Kalenderposten** werden Sie feststellen, dass die Datumsangaben Ihren Einträgen entsprechend aktualisiert wurden.
 
 Auf der Lagerortkarte werden Sie sehen, dass das Feld **Spezifischer Kalender** das Wort **Ja** enthält, wodurch angezeigt wird, dass ein spezifischer Kalender eingerichtet worden ist.
 
@@ -100,7 +100,7 @@ Basiskalender werden Ihrer eigenen Firma, Debitoren, Kreditoren, Lagerorten und 
 -   Auf den Karten **Firmendaten** und **Debitor** wird der Basiskalender im Inforegister **Lieferung** zugewiesen.  
 -   Klicken Sie auf der Karte **Kreditor** wird der Basiskalender im Inforegister **Lieferung** zugewiesen.  
 -   Klicken Sie auf der Karte **Lagerort** wird der Basiskalender im Inforegister **Logistik** zugewiesen.  
--   Im Fenster **Zusteller** wird der Basiskalender im Fenster **Zustellertransportarten** zugeordnet.  
+-   Auf der Seite **Zusteller** wird der Basiskalender im Fenster **Zustellertransportarten** zugeordnet.  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitor** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie die **Debitorenkarte**, für die Sie einen Basiskalender zuordnen möchten.  
@@ -117,6 +117,6 @@ Basiskalender werden Ihrer eigenen Firma, Debitoren, Kreditoren, Lagerorten und 
 ## <a name="see-also"></a>Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  
 [Produktion](production-manage-manufacturing.md)    
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

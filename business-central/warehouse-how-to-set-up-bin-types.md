@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a82ce6867a86dcc5ba09949b7e7611550d744a83
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-bin-types"></a>Lagerplatzarten einrichten
@@ -26,7 +26,7 @@ Es gibt sechs Arten. Sie können Ihr Lager mit allen möglichen sechs Lagerplatz
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>So richten die Lagerplatzarten ein, die Sie verwenden möchten:  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagerplatzarten** ein, und wählen dann den zugehörigen Link aus.  
-2.  Erstellen Sie im Fenster **Lagerplatzarten** einen Code mit 10 Zeichen für eine Lagerplatzart.  
+2.  Erzeugen Sie auf der Seite **Lagerplatzarten** einen Code mit 10 Zeichen für eine Lagerplatzart.  
 3.  Wählen Sie die Aktivitäten aus, die mit den einzelnen Lagerplatzarten durchgeführt werden können.  
 
 > [!NOTE]  
@@ -47,7 +47,7 @@ Die Lagerplatzarten, die Sie erzeugen können, werden weiter unten aufgelistet.
 
 ## <a name="see-also"></a>Siehe auch
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  

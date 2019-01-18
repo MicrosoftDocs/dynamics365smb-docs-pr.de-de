@@ -13,17 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5b57b47d4ceb08a3836140945387e38887553a99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2eab68abd4c02aa6d42daf751640f47a8fb11d23
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-sales-opportunities"></a>Verarbeiten von Verkaufschancen
 Nachdem Sie eine Verkaufschance erstellen haben, gibt es einige Funktionen für die Verwaltung der Verkaufschance und deren Abschluss.
 
 ## <a name="to-view-opportunities"></a>Anzeigen von Verkaufschancen
-Vorhandene Verkaufsverkaufschancen sind im Fenster **Verkaufschancenübersicht** verfügbar. Es gibt unterschiedliche Arten, um auf dieses Fenster für die Verarbeitung von Verkaufschancen zuzugreifen:
+Vorhandene Verkaufsverkaufschancen sind auf der Seite **Verkaufschancenübersicht** verfügbar. Es gibt unterschiedliche Arten, um auf diese Seite für die Verarbeitung von Verkaufschancen zuzugreifen:
 
 | Verkaufschancen anzeigen für | Dann |
 | --- | --- |
@@ -31,12 +31,12 @@ Vorhandene Verkaufsverkaufschancen sind im Fenster **Verkaufschancenübersicht**
 | Ein bestimmter Verkäufer |Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer** ein, und wählen dann den zugehörigen Link aus. Wählen Sie den Verkäufer, wählen sie die Aktion **Verkaufschancen** und dann die Aktion **Übersicht**. |
 | Ein bestimmter Kontakt |Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontakte** ein, und wählen dann den zugehörigen Link aus. Wählen Sie den Kontakt aus der Liste, und wählen sie die Aktion **Verkaufschancen**. |
 
-Jede dieser Aufgaben öffnet das Fenster **Verkaufschancenübersicht**.
+Jede dieser Aufgaben öffnet die Seite **Verkaufschancenübersicht**.
 
 ## <a name="to-close-opportunities"></a>Um Verkaufschancen abzuschließen
 Sie können Verkaufschancen abschließen, wenn die Verhandlungen abgeschlossen sind. Wenn Sie eine Verkaufschance schließen, können Sie angeben, ob sie gewonnen oder verloren wurde und dafür die Gründe festlegen. Um einen Grund anzugeben, müssen Sie Verkaufschancenabschlusscodes einrichten.
 
-1. Im **Verkaufschancenübersicht**-Fenster wählen Sie die Verkaufschance und die **Abschluss**-Aktion aus. Der Fenster **Verkaufschance abschließen** wird geöffnet.
+1. Auf der Seite **Verkaufschancenübersicht** wählen Sie die Verkaufschance und die **Abschluss**-Aktion aus. Die Seite **Verkaufschance abschließen** wird geöffnet.
 2. Füllen Sie die relevanten Felder aus, und wählen Sie dann die Schaltfläche **OK** aus.
 
    Die Felder **Verkaufschancenabschlusscode** und **Abschlussdatum** sind erforderlich und müssen ausgefüllt werden, bevor Sie auf die Schaltfläche **Ok** klicken können.
@@ -46,22 +46,22 @@ Sie können Verkaufschancen abschließen, wenn die Verhandlungen abgeschlossen s
 ## <a name="to-create-quotes-for-opportunities"></a>Um Angebote für Verkaufschancen zu erstellen
 Sie können Verkaufsangebote für Kontakte erstellen, die nicht als Debitoren erfasst werden.
 
-1. Im **Verkaufschancenübersicht**-Fenster wählen Sie die Verkaufschance und dann die **Verkaufsangebot zuweisen**-Aktion aus. Das Fenster **Verkaufsangebot** wird geöffnet.
+1. Auf der Seite **Verkaufschancenübersicht** wählen Sie die Verkaufschance und dann die **Verkaufsangebot zuweisen**-Aktion aus. Die Seite **Verkaufsangebot** wird geöffnet.
 2. Füllen Sie die entsprechenden Felder aus.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Verkaufsaufträge für Verkaufschancen erstellen
 Sie können Verkaufsaufträge aus Verkaufsangeboten erstellen, die Sie für Ihre Verkaufschancen erfasst haben. Bevor Sie Verkaufsaufträge für Ihre Kontakte erstellen können, müssen Sie den Kontakt als Debitor erstellen. Weitere Informationen finden Sie unter [Debitor, Kreditor oder Bankkonto über einen Kontakt erstellen](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 
-1. Suchen Sie im Fenster **Verkaufschancenübersicht** die Verkaufschance, für die Sie ein Verkaufsangebot erstellt haben.
-2. Wählen Sie die Aktion **Verkaufsangebot zuweisen** aus. Das Fenster **Verkaufsangebot** wird geöffnet. Es enthält das Verkaufsangebot, das der Verkaufschance zugewiesen wurde.
+1. Suchen Sie auf der Seite **Verkaufschancenübersicht** die Verkaufschance, für die Sie ein Verkaufsangebot erstellt haben.
+2. Wählen Sie die Aktion **Verkaufsangebot zuweisen** aus. Die Seite **Verkaufsangebot** wird geöffnet. Es enthält das Verkaufsangebot, das der Verkaufschance zugewiesen wurde.
 3. Füllen Sie die weiteren Felder aus, und wählen Sie dann die Aktion **Auftrag erstellen** aus.
 
 Bei der Bearbeitung von Verkaufschancen können Sie ein Angebot für den Kontakt erstellen, mit dem die Verkaufschance verknüpft ist.
 
 ## <a name="to-delete-opportunities"></a>Um Verkaufchancen zu löschen
-Sie können Verkaufschancen z. B. löschen, wenn Sie ein Geschäft abgeschlossen haben. Es können jedoch nur abgeschlossene Verkaufschancen gelöscht werden. Es gibt zwei Möglichkeiten, um abgeschlossene Verkaufschancen zu löschen. Sie können einzelnen abgeschlossene Verkaufschancen über das **Verkaufschancenübersicht**-Fenster löschen, oder Sie können die Stapelverarbeitung **Geschlossene Verkaufschancen löschen...** ausführen, um mehrere Verkaufschancen auf Grundlage von Kriterien zu löschen.
+Sie können Verkaufschancen z. B. löschen, wenn Sie ein Geschäft abgeschlossen haben. Es können jedoch nur abgeschlossene Verkaufschancen gelöscht werden. Es gibt zwei Möglichkeiten, um abgeschlossene Verkaufschancen zu löschen. Sie können einzelnen abgeschlossene Verkaufschancen über die Seite **Verkaufschancenübersicht** löschen, oder Sie können die Stapelverarbeitung **Geschlossene Verkaufschancen löschen...** ausführen, um mehrere Verkaufschancen auf Grundlage von Kriterien zu löschen.
 
-Um abgeschlossene Verkaufschancen aus dem Fenster **Verkaufschancenübersicht** zu löschen, wählen Sie die Verkaufschance, und wählen Sie dann die Aktion **Löschen** aus.
+Um abgeschlossene Verkaufschancen aus der Seite **Verkaufschancenübersicht** zu löschen, wählen Sie die Verkaufschance, und wählen Sie dann die Aktion **Löschen** aus.
 
 Um abgeschlossene Verkaufschancen über die Stapelverarbeitung **Geschlossene Verkaufschancen löschen...** zu löschen verwenden, gehen Sie folgendermaßen vor:
 
@@ -69,12 +69,12 @@ Um abgeschlossene Verkaufschancen über die Stapelverarbeitung **Geschlossene Ve
 2. Im **Verkaufschance**-Abschnitt richten Sie die Filter ein, die die zu löschenden abgeschlossenen Verkaufschancen definieren.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
-Nachdem Sie eine Verkaufschance gelöscht haben, wird sie aus dem Fenster **Verkaufschancenübersicht** entfernt.
+Nachdem Sie eine Verkaufschance gelöscht haben, wird sie aus der Seite **Verkaufschancenübersicht** entfernt.
 
 ## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a>Verschieben einer Verkaufschance über Verkaufsprozessstufen
 Wenn eine Verkaufschance einem Verkaufsprozess folgt, können Sie sie vorwärts oder rückwärts durch die verschiedenen Stufen verschieben oder eine Stufe überspringen.
 
-1. Wählen Sie im Fenster **Verkaufschancenübersicht** die Aktion **Aktualisieren**. Der Assistent **Verkaufschance aktualisieren** wird geöffnet.
+1. Wählen Sie auf der Seite **Verkaufschancenübersicht** die Aktion **Aktualisieren**. Der Assistent **Verkaufschance aktualisieren** wird geöffnet.
 2. Verwenden Sie das **Aktionsart**-Feld, um die Verkaufschance durch die Verkaufsprozessstufen zu verschieben:
    * **Nächste** verschiebt die Verkaufschance eine Stufe weiter.
    * **Überspringen** verschiebt die Verkaufschance eine oder mehrere Stufen im Verkaufsprozess weiter, die Sie im Feld **Präsentation** angeben. Sie können nur Stufen überspringen, die eingerichtet wurden, um das Überspringen zu ermöglichen.

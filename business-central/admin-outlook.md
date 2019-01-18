@@ -11,17 +11,17 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6923414d6e1fb56a48c3715eaa1c2fa3c4ee9f69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6ced619dc9a43f7db0b4d78bf3de08a6dac27653
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt die Möglichkeit vor, Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. Mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, sowie Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.  
 
 ## <a name="getting-the-add-in"></a>Das Add-in abrufen
-Einer der Schritte der unterstützten Konfiguration für "Erste Schritte" in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist das Fenster **Führen Sie Ihr Unternehmen in Office 365**. Wenn Sie in diesem Fenster die Schaltfläche **In Outlook einrichten** anklicken, müssen Sie Ihren Office 365 Benutzernamen und -Kennwort angeben. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt.  
+Einer der Schritte der unterstützten Konfiguration für "Erste Schritte" in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist die Seite **Führen Sie Ihr Unternehmen in Office 365**. Wenn Sie auf dieser Seite die Schaltfläche **In Outlook einrichten** anklicken, müssen Sie Ihren Office 365 Benutzernamen und -Kennwort angeben. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt.  
 
 Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht von Business Central Admin. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können es im Add-In-Menüband, unmittelbar über dem Text der E-Mail sehen. Das Add-In selbst wird regelmäßig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
 
@@ -35,7 +35,7 @@ Sobald Sie die Daten einmal eingeben haben, können Sie das Angebot buchen. Sie 
 
 Möchten Sie eine E-Mail von einem Kreditor erhalten, können Sie das Add-In verwenden, um mit Kreditoren und Einkaufsrechnungen zu arbeiten.  
 
-Manchmal möchten Sie mehr Felder sehen, als im Add-In angezeigt werden, z.B.wenn Sie Zeilen in einer Rechnung ausfüllen möchten. Um Ihnen mehr Platz zum Arbeiten zu geben, können Sie das Add-In in einem separaten Fenster aufklappen. Es ist immer noch ein Teil von Outlook, aber Sie haben mehr Platz. Wenn Sie Daten für das Dokument in der Popup-Ansicht eingeben, werden die Änderungen automatisch gespeichert. Wenn Sie mit dem Eingeben der Daten für den Beleg fertig sind, können Sie die Schaltfläche **OK** wählen. Wenn Sie den Add-In-Frame in Outlook auswählen, wird das Dokument automatisch mit den Änderungen aktualisiert, die Sie in der Popup-Ansicht vorgenommen haben.  
+Manchmal möchten Sie mehr Felder sehen, als im Add-In angezeigt werden, z.B.wenn Sie Zeilen in einer Rechnung ausfüllen möchten. Um Ihnen mehr Platz zum Arbeiten zu geben, können Sie das Add-In in einer separaten Seite aufklappen. Es ist immer noch ein Teil von Outlook, aber Sie haben mehr Platz. Wenn Sie Daten für das Dokument in der Popup-Ansicht eingeben, werden die Änderungen automatisch gespeichert. Wenn Sie mit dem Eingeben der Daten für den Beleg fertig sind, können Sie die Schaltfläche **OK** wählen. Wenn Sie den Add-In-Frame in Outlook auswählen, wird das Dokument automatisch mit den Änderungen aktualisiert, die Sie in der Popup-Ansicht vorgenommen haben.  
 
 ## <a name="creating-invoices-from-your-meeting-appointments"></a>Erstellen Sie Rechnungen von Ihren Besprechungsterminen
 Einige Unternehmen erfassen alle verrechenbaren Termine im Outlook-Kalender. Mit [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie die Rechnung für den Debitor direkt aus dem Kalenderelement heraus erstellen: Öffnen Sie den Termin und Sie können dann das Add-In [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnen, bestehende Informationen prüfen oder eine Verkaufsrechnung oder einen anderen Verkaufsbeleg dort erstellen.  
@@ -50,9 +50,9 @@ Im Dokumentenverknüpfungs-Add-In können Sie genauso Vorgänge für den Beleg a
 ## <a name="adding-the-add-ins-manually"></a>Das Add-In manuell hinzufügen
 In einigen Fällen werden die Add-Ins nicht automatisch hinzugefügt zu Outlook. Selbst wenn Sie oder ein Kollege die unterstützte Einrichtung im Auftrag des Unternehmens ausführen, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise nicht in Outlook angezeigt. Wenn Sie dieses Problem haben, können Sie die Add-Ins in [!INCLUDE[d365fin](includes/d365fin_md.md)] manuell hinzufügen.  
 
-Zuerst müssen Sie sicherstellen, dass Sie Zugriff auf die Add-Ins in Ihrem Office 365 Konto haben. Öffnen Sie einfach Ihren Outlook Web Access in einem Browser und fügen Sie dann `/owa/#path=/options/manageapps` der URL in der Adressleiste hinzu. Dadurch öffnet sich das Fenster **Add-Ins verwalten**. Dort können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Ihr Outlook aktivieren. Wenn Sie dann wieder zurück zu Outlook navigieren, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar sein.  
+Zuerst müssen Sie sicherstellen, dass Sie Zugriff auf die Add-Ins in Ihrem Office 365 Konto haben. Öffnen Sie einfach Ihren Outlook Web Access in einem Browser und fügen Sie dann `/owa/#path=/options/manageapps` der URL in der Adressleiste hinzu. Dadurch öffnet sich die Seite **Add-Ins verwalten**. Dort können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Ihr Outlook aktivieren. Wenn Sie dann wieder zurück zu Outlook navigieren, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar sein.  
 
-Analog ist es im Outlook-Desktopclient. Sie können überprüfen, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] im Fenster **Add-Ins verwalten** aufgeführt ist.  
+Analog ist es im Outlook-Desktopclient. Sie können überprüfen, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] auf der Seite **Add-Ins verwalten** aufgeführt ist.  
 
 In beiden Fällen müssen Sie, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] immer noch nicht verfügbar sein, die Add-in-Manifest-Datei abrufen. Für weitere Informationen wenden Sie bitte an Ihren Office 365 Administrator.
 

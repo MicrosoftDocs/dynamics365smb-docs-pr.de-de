@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5c87d33bbf9d97f53e033c663532052c8aeddee9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-average-cost"></a>Designdetails: Durchschnittskosten
@@ -23,7 +23,7 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
  Das Bewertungsdatum wird automatisch festgelegt.  
 
 ## <a name="setting-up-average-cost-calculation"></a>Einrichten der-Durchschnittskostenberechnung  
- In der folgenden Tabelle werden die beiden Felder im Fenster **Lager einrichten** beschrieben, die ausgefüllt werden müssen, um die Durchschnittskostenberechnung zu aktivieren.  
+ In der folgenden Tabelle werden die beiden Felder auf der Seite **Lager einrichten** beschrieben, die ausgefüllt werden müssen, um die Durchschnittskostenberechnung zu aktivieren.  
 
 |Feld|Beschreibung|  
 |---------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 > [!NOTE]  
 >  Sie können nur eine Durchschnittskostenperiode und eine Berechnungsart für den durchschnittlichen Einstandspreis pro Geschäftsjahr verwenden.  
 >   
->  Das Fenster **-Buchhaltungsperioden** zeigt, welche Durchschnittskostenperiode und welche Berechnungsart für diese Periode für jede Buchhaltungsperiode aktiv ist.  
+>  Die Seite **-Buchhaltungsperioden** zeigt, welche Durchschnittskostenperiode und welche Berechnungsart für diese Periode für jede Buchhaltungsperiode aktiv ist.  
 
 ## <a name="calculating-average-cost"></a>Durchschnittskosten berechnen  
  Wenn Sie eine Transaktion für einen Artikel buchen, für den die Lagerabgangsmethode "Durchschnitt" verwendet wird, erstellt die Anwendung einen Posten in der Tabelle **Einst.-Pr. (durchschn.) Regul. Startzeitpunkt**. Dieser Posten enthält die Artikelnummer, den Variantencode und den Lagerortcode der Transaktion. Darüber hinaus enthält der Posten das **Bewertungsdatum**, das das letzte Datum der Durchschnittskostenperiode ist, in der die Transaktion gebucht wurde.  
@@ -51,7 +51,7 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
  Das Programm wendet diesen durchschnittlichen Einstandspreis dann mit den Buchungsdaten auf die Lagerabgänge für den Artikel (oder Artikel, Lagerort und Variante) an, die es in der Durchschnittskostenperiode gegeben hat. Wenn Bestandszunahmen vorhanden sind, die fest mit Bestandsminderungen in der Durchschnittskostenperiode verknüpft sind, werden die berechneten Durchschnittskosten von der Zunahme zur Minderung übertragen.  
 
 ### <a name="example-average-cost-period--day"></a>Beispiel: Durchschnittskostenperiode = Tag  
- Das folgende Beispiel zeigt die Auswirkungen der Berechnung der Durchschnittskosten auf der Grundlage einer Durchschnittskostenperiode von einem Tag. Das Feld **Durchschnittlicher Kostenberechnungstyp** im Fenster **Lager Einrichtung** ist auf **Artikel** festgelegt.  
+ Das folgende Beispiel zeigt die Auswirkungen der Berechnung der Durchschnittskosten auf der Grundlage einer Durchschnittskostenperiode von einem Tag. Das Feld **Durchschnittlicher Kostenberechnungstyp** auf der Seite **Lager Einrichtung** ist auf **Artikel** festgelegt.  
 
  Die folgende Tabelle zeigt Artikelposten für den Beispiel-Durchschnittkostenartikel, ITEM1, bevor die **Lagerreg. fakt. Einst. Preise**-Stapelverarbeitung ausgeführt wurde.  
 
@@ -88,7 +88,7 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 |02-03-20|Verkauf|-1|-100.00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Beispiel: für eine Durchschnittskostenperiode = Monat  
- Das folgende Beispiel zeigt die Auswirkungen der Berechnung der Durchschnittskosten auf der Grundlage einer Durchschnittskostenperiode von einem Monat. Das Feld **Durchschnittlicher Kostenberechnungstyp** im Fenster **Lager Einrichtung** ist auf **Artikel** festgelegt.  
+ Das folgende Beispiel zeigt die Auswirkungen der Berechnung der Durchschnittskosten auf der Grundlage einer Durchschnittskostenperiode von einem Monat. Das Feld **Durchschnittlicher Kostenberechnungstyp** auf der Seite **Lager Einrichtung** ist auf **Artikel** festgelegt.  
 
  Wenn die Durchschnittskostenperiode ein Monat ist, wird nur ein Posten für jede Kombination von Artikelnummer, Variantencode, Lagerortcode und Bewertungsdatum erstellt.  
 

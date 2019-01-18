@@ -13,10 +13,10 @@ ms.search.keywords: inventory, periods
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e6873ca2e4f4ab082bddad90f1ab59edb34a2a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1aae1d32b86000ea8a5f867f1ee4c07d8bc1ff09
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-inventory-periods"></a>Arbeiten mit Lagerbuchungsperioden
@@ -69,6 +69,6 @@ Nachdem Sie eine Lagerbuchungsperiode geschlossen haben, können Sie diese Perio
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Bestandsperioden](design-details-inventory-periods.md)  
 [Finanzen](finance.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Arbeiten mit Financials](ui-work-product.md)
 

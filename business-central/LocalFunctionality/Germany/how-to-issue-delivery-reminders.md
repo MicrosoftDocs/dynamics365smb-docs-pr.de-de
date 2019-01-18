@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: edc847e73bcc3fe7d98ce68311fd9ebbdbc5308c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: db51c5df27802525ab20be569e8c4fefdeb7642d
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="issue-delivery-reminders"></a>Lieferbenachrichtigung registrieren
 Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren verschicken können. Vor dem Ausstellen von Lieferbenachrichtigungen können Sie einen Testbericht drucken. Weitere Informationen finden Sie unter [Vorgehensweise: Drucken von Testberichten für  Lieferbenachrichtigungen](how-to-print-test-reports-for-delivery-reminders.md).  
 
-Beim Registrieren der Lieferantenbenachrichtigungen erzeugt die Anwendung Lieferantenbenachrichtigungsposten. Die erstellten Posten können Sie dann im Fenster **Registrierten Lieferbenachrichtigungskopfes** anzeigen.  
+Beim Registrieren der Lieferantenbenachrichtigungen erzeugt die Anwendung Lieferantenbenachrichtigungsposten. Die erstellten Posten können Sie dann auf der Seite **Registrierten Lieferbenachrichtigungskopfes** anzeigen.  
 
 ## <a name="to-issue-delivery-reminders"></a>So registrieren Sie Lieferbenachrichtigungen  
 
 1.  Wählen Sie in der rechten oberen Ecke ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") und geben **Lieferbenachrichtigungen** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Im Fenster **Lieferbenachrichtigungen** wählen Sie die Lieferbenachrichtigungen aus, die Sie registrieren möchten, und wählen die **Bearbeiten** Aktion aus.  
+2.  Auf der Seite **Lieferbenachrichtigungen** wählen Sie die Lieferbenachrichtigungen aus, die Sie registrieren möchten, und wählen die **Bearbeiten** Aktion aus.  
 3.  Wählen Sie die Aktion **Ausgeben** aus.  
-4.  Füllen Sie im Fenster **Lieferbenachrichtigung** im Inforegister **Option** die erforderlichen Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+4.  Füllen Sie auf der Seite **Lieferbenachrichtigung** im Inforegister **Option** die erforderlichen Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -44,7 +44,7 @@ Beim Registrieren der Lieferantenbenachrichtigungen erzeugt die Anwendung Liefer
 
 6.  Wählen Sie die Schaltfläche **OK** aus.  
 
-Sie können das Fenster registrierte Mahnungen anzeigen im Fenster **Registrierte Lieferbenachrichtigungen**. Optional können Sie jetzt eine Lieferbenachrichtigung drucken.  
+Sie können das Fenster registrierte Mahnungen anzeigen auf der Seite **Registrierte Lieferbenachrichtigungen**. Optional können Sie jetzt eine Lieferbenachrichtigung drucken.  
 
 ## <a name="to-view-delivery-reminder-ledger-entries"></a>Um sich detaillierte Lieferbenachrichtigungen anzeigen zu lassen:  
 
@@ -52,7 +52,7 @@ Sie können das Fenster registrierte Mahnungen anzeigen im Fenster **Registriert
 2.  Wählen Sie die Bestellung, für die Sie den Mahnungsstatus anzeigen möchten, und wählen die Aktion **Bearbeiten**.  
 3.  Wählen Sie die Aktion **Lieferbenachrichtigungs-Einträge** aus.  
 
-Im registrierten Lieferbenachrichtigungskopf-Fenster, können Sie die Lieferbenachrichtigungsposten der ausgewählten Bestellung anzeigen.  
+Auf der Seite registrierter Lieferbenachrichtigungskopf können Sie die Lieferbenachrichtigungsposten der ausgewählten Bestellung anzeigen.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Lieferbenachrichtigungen](delivery-reminders.md)   

@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9691df30fef92fcd3c459558e14c2fd627e74099
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 01e517daea89c5371f95df963831ab8f8d9bf523
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="mandatory-fields"></a>Pflichtfelder
@@ -24,9 +24,9 @@ Wenn Sie Daten auf Seiten in  [!INCLUDE[d365fin](includes/d365fin_md.md)] eingeb
 Selbst wenn das Feld ein rotes Sternchen enthält, sind Sie nicht gezwungen, das Feld auszufüllen, bevor Sie mit anderen Feldern fortfahren oder die Seite schließen. Das rote Sternchen dient nur als Erinnerung, dass Sie am Beenden eines bestimmten Prozesses gehindert werden.
 
 ## <a name="examples"></a>Beispiele
-Im Fenster **Debitorenkarte** wird im Feld **Name** und in den drei **Buchungsgruppengebieten** das rote Sternchen angezeigt, um anzugeben, dass Sie eine Verkaufstransaktion für den Debitor nur dann buchen können, wenn diese ausgefüllt werden.
+Auf der Seite **Debitorenkarte** wird im Feld **Name** und in den drei **Buchungsgruppengebieten** das rote Sternchen angezeigt, um anzugeben, dass Sie eine Verkaufstransaktion für den Debitor nur dann buchen können, wenn diese ausgefüllt werden.
 
-Im Fenster **Artikelkarte** wird das rote Sternchen auf **Beschreibung** und den Basiseinheitencode Feldern angezeigt, um anzugeben, dass Sie den Artikel in einer Belegzeile (beispielsweise in einem Verkaufsauftrag) nur dann eingeben können, wenn auch diese Felder ausgefüllt werden.
+Auf der Seite **Artikelkarte** wird das rote Sternchen auf **Beschreibung** und den Basiseinheitencode Feldern angezeigt, um anzugeben, dass Sie den Artikel in einer Belegzeile (beispielsweise in einem Verkaufsauftrag) nur dann eingeben können, wenn auch diese Felder ausgefüllt werden.
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f551de570b47057a6f4af6469e51a86fb3d02f32
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 61a89c2dc2fd68ede2a31e0eb7f7ac8c5d6324aa
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="physical-inventory-order-lines-with-item-tracking-lines"></a>Inventurauftragszeilen mit Artikelverfolgungszeilen
@@ -40,19 +40,19 @@ Artikelverfolgungszeilen werden verwendet, um Seriennummern und Chargennummern f
 
  Das Programm umfasst die Berechnung aller Artikelposten, die bis zum Buchungsdatum des Inventurauftragskopfes gebucht worden sind und die in den 4 Feldern Artikelnr., Variantencode,  Lagerortcode und Lagerplatzcode in der Inventurauftragszeile die gleichen Werte aufweisen.  
 
- Sie können die erwarteten Verfolgungszeilen für die aktuelle Inventurauftragszeile anzeigen. Klicken Sie auf **Zeile**, **Artikelverfolgungszeilen**, **Erwartete Verfolgungszeilen**. Das Fenster Erw. Inventurverfolg. Titelliste wird geöffnet.  
+ Sie können die erwarteten Verfolgungszeilen für die aktuelle Inventurauftragszeile anzeigen. Klicken Sie auf **Zeile**, **Artikelverfolgungszeilen**, **Erwartete Verfolgungszeilen**. Die Seite "Erw. Inventurverfolg. Titelliste" wird geöffnet.  
 
  **Seriennummer/Chargennummer in der Inventurerfassungszeile:**  
 
  Wenn bei der Inventurerfassung erfasste Mengen eingegeben wurden, können auch Seriennummern und Chargennummern eingegeben werden. Nach Abschluss der Inventurerfassung weist die Anwendung die Inventurerfassungszeilen mit Seriennummern/Chargennummern Inventurauftragszeilen zu.  
 
- Sie können die erwarteten Verfolgungszeilen für die aktuelle Inventurauftragszeile anzeigen. Klicken Sie auf **Zeile**, **Erfassungszeilen**. Das Fenster " Inventurerfassungszeilen. Erst. Die Erfassung von Zeilen wird geöffnet.  
+ Sie können die erwarteten Verfolgungszeilen für die aktuelle Inventurauftragszeile anzeigen. Klicken Sie auf **Zeile**, **Erfassungszeilen**. Die Seite "Inventurerfassungszeilen. Erst. Die Erfassung von Zeilen" wird geöffnet.  
 
  **Zu buchende Artikelverfolgungszeilen:**  
 
  Beim Abschluss des Inventurauftrags vergleicht die Anwendung die erwartete Menge und die erfasste (gezählte) Menge und berechnet die Abweichung. Beim Abschluss des Inventurauftrags vergleicht die Anwendung die erwartete Menge und die erfasste (gezählte) Menge und berechnet die Abweichung. Wenn die Anwendung auch Artikelverfolgungszeilen berücksichtigen soll (das Kontrollkästchen  Verfolgungszeilen verwenden der Inventurerfassungszeile ist aktiviert), berechnet die Anwendung auch die Differenzen zwischen erwarteten Seriennummern und Chargennummern und erfassten Seriennummern und Chargennummern. Die Liste der berechneten Differenzen wird von der Anwendung beim Buchen des Inventurauftrags verwendet.  
 
- Sie können die erwarteten Verfolgungselemente für die aktuelle Inventurauftragszeile anzeigen. Klicken Sie auf **Zeile**, **Artikelverfolgungszeilen**, **Erwartete Verfolgungszeilen Differenzen**. Das Fenster **Erw. Inventurverfolg. Titelliste** wird geöffnet.  
+ Sie können die erwarteten Verfolgungselemente für die aktuelle Inventurauftragszeile anzeigen. Klicken Sie auf **Zeile**, **Artikelverfolgungszeilen**, **Erwartete Verfolgungszeilen Differenzen**. Die Seite **Erw. Inventurverfolg. Titelliste** wird geöffnet.  
 
  Weitere Informationen finden Sie unter [Beispiel - Inventurauftragszeile mit Nachverfolgungszeilen](example-inventory-order-line-with-tracking-lines.md).  
 

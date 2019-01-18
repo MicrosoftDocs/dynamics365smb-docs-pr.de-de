@@ -1,6 +1,6 @@
 ---
 title: 'Vorgehensweise: Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen | Microsoft Docs'
-description: "Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie in den Fenstern Benachrichtigung einrichten und Benachrichtigungs-Plan angeben, wie und wann jeder Benutzer Benachrichtigungen über Workflowschritte zur Genehmigung erhält. Einzelne Benutzer können ihre Benachrichtigungseinrichtung über die in jeder Benachrichtigung enthaltene Schaltfläche Benachrichtigungseinstellungen ändern auch ändern."
+description: "Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie auf den Seiten Benachrichtigung einrichten und Benachrichtigungs-Plan angeben, wie und wann jeder Benutzer Benachrichtigungen über Workflowschritte zur Genehmigung erhält. Einzelne Benutzer können ihre Benachrichtigungseinrichtung über die in jeder Benachrichtigung enthaltene Schaltfläche Benachrichtigungseinstellungen ändern auch ändern."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 714ebd289407293f2a9fb8f05cad68330c79ad9a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8bb1b2815740e3acfeb984c1b7cbad160dcd1016
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen
-Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie in den Fenstern **Benachrichtigung einrichten** und **Benachrichtigungs-Plan** angeben, wie und wann jeder Benutzer Benachrichtigungen über Workflowschritte zur Genehmigung erhält. Einzelne Benutzer können ihre Benachrichtigungseinrichtung über die in jeder Benachrichtigung enthaltene Schaltfläche **Benachrichtigungseinstellungen ändern** auch ändern.  
+Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie auf den Seiten **Benachrichtigung einrichten** und **Benachrichtigungs-Plan** angeben, wie und wann jeder Benutzer Benachrichtigungen über Workflowschritte zur Genehmigung erhält. Einzelne Benutzer können ihre Benachrichtigungseinrichtung über die in jeder Benachrichtigung enthaltene Schaltfläche **Benachrichtigungseinstellungen ändern** auch ändern.  
 
  Bevor Sie Benachrichtigungseinstellungen für einen Genehmigungsbenutzer einrichten können, müssen Sie den Benutzer als Genehmigungsbenutzer einrichten. Weitere Informationen finden Sie unter [Einrichten von Genehmigungsbenutzern.](across-how-to-set-up-approval-users.md)  
 
- Sie definieren das Layout und den Inhalt von Benachrichtigungen, indem Sie Benachrichtigungsvorlagen einrichten. Weitere Informationen finden Sie unter [Verwalten Benachrichtigungsvorlagen](across-how-to-manage-notification-templates.md).  
+ «»Sie können das Layout von E-Mail-Benachrichtigungen festlegen, indem Sie Bericht 1320, Benachrichtigungs-E-Mail anpassen. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen und bearbeiten Sie ein benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-create-custom-report-layout.md).  
 
  Mit vielen Workflowschritten zur Genehmigung werden Benutzer darüber benachrichtigt, dass ein Ereignis stattgefunden hat, auf das sie reagieren müssen. Bei einem Workflowschritt kann es sich beispielsweise um das Ereignis handeln, dass Benutzer 1 die Genehmigung eines neuen Datensatzes anfordert. Die entsprechende Reaktion ist, dass eine Benachrichtigung an Benutzer 2 (Genehmiger) gesendet wird. Der nächste Workflowschritt kann das Ereignis enthalten, dass Benutzer 2 den Datensatz genehmigt. Die entsprechende Reatkion ist, dass eine Benachrichtigung an Benutzer 3 gesendet wird, damit ein Prozess mit dem genehmigten Datensatz gestartet wird. Für Workflowschritte in Bezug auf Genehmigungen ist jede Benachrichtigung an einen Genehmigungsposten gebunden. Weitere Informationen finden Sie unter [Workflow](across-workflow.md)  
 
@@ -32,18 +32,19 @@ Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie in den Fenste
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Genehmigungsbenutzer Einrichtung** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die Zeile für den Benutzer aus, für den Sie Benachrichtigungseinstellungen festlegen möchten, und wählen Sie dann die Aktion **Benachrichtigungseinrichtung** aus.  
-3.  Füllen Sie im Fenster **Benachrichtigung einrichten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+3.  Füllen Sie auf der Seite **Benachrichtigung einrichten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Benachrichtigungstyp**|Geben Sie an, auf welche Art von Ereignis sich die Benachrichtigung bezieht.<br /><br /> Wählen Sie eine der folgenden Optionen:<br /><br /> -   **Neuer Datensatz** gibt an, dass sich die Benachrichtigung auf einen neuen Datensatz bezieht, zum Beispiel einen Beleg, auf den der Benutzer reagieren muss.<br />-   **Genehmigung** gibt an, dass sich die Benachrichtigung auf eine oder mehrere Genehmigungsanforderungen bezieht.<br />-   **Fällig** gibt an, dass die Benachrichtigung verwendet wird, um Benutzer daran zu erinnern, dass sie bei der Behandlung eines Ereignisses in Verzug sind.|  
-    |**Benachrichtigungsvorlagencode**|Geben Sie den Code der Benachrichtigungsvorlage an, die verwendet wird, um Benachrichtigungen für den Benutzer zu erstellen.|  
-    |**nicht  aggregierte Benachrichtigungen**|Geben Sie an, ob der Benutzer eine Benachrichtigung für jedes Ereignis oder Benachrichtigungszusammenfassungen erhält.<br /><br /> Wenn das Kontrollkästchen **Nicht aggregierte Benachrichtigungen** nicht aktiviert ist, dann erhält der Benutzer Benachrichtigungen mit zusammenfassenden Informationen über Ereignisse, die innerhalb desselben Serienmusters im Benachrichtigungsplan auftreten.|  
+    |**Benachrichtigungsmethode**|Geben Sie an, ob die Benachrichtigung als E-Mail oder als internen Hinweis gesendet wird.|
 
-     Sie haben nun festgelegt, wie der Benutzer Benachrichtigungen erhält. Geben Sie nun an, wann der Benutzer Benachrichtigungen empfängt.  
+    «»Sie können das Layout von E-Mail-Benachrichtigungen festlegen, indem Sie Bericht 1320, Benachrichtigungs-E-Mail anpassen. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen und bearbeiten Sie ein benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-create-custom-report-layout.md).
+
+    Sie haben nun festgelegt, wie der Benutzer Benachrichtigungen erhält. Geben Sie nun an, wann der Benutzer Benachrichtigungen empfängt.  
 
 4.  Wählen Sie die Aktion **Benachrichtigungsplan** aus.  
-5.  Füllen Sie im Fenster **Benachrichtigungsplan** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+5.  Füllen Sie auf der Seite **Benachrichtigungsplan** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -56,11 +57,11 @@ Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie in den Fenste
 
 ## <a name="change-when-and-how-you-receive-notifications"></a>Ändern des Zeitpunkts und der Art des Empfangs von Benachrichtigungen  
 1.  Wählen Sie in einer der Benachrichtigungen, die Sie entweder als E-Mail oder Hinweis erhalten haben, die Schaltfläche **Benachrichtigungseinstellungen ändern** aus.  
-2.  Ändern Sie im Fenster **Benachrichtigungseinstellungen** Ihre Benachrichtigungseinstellungen wie im vorigen Verfahren beschrieben.  
+2.  Ändern Sie auf der Seite **Benachrichtigungseinstellungen** Ihre Benachrichtigungseinstellungen wie im vorigen Verfahren beschrieben.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)   
- [Verwalten von Benachrichtigungsvorlagen](across-how-to-manage-notification-templates.md)   
+ [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
  [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)   
  [Einrichten von Workflows](across-set-up-workflows.md)   
  [Verwenden von Workflows](across-use-workflows.md)

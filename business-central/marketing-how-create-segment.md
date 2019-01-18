@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2c0c5ecf8d99d0d49abdc4056289be00219b07a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 59db444b6ce498d987d4aeb4361e119001acd2a3
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-segments"></a>Segmente erstellen
@@ -27,7 +27,7 @@ Sie können Segmente zur Auswahl einer Gruppe von Kontakten erstellen, z. B. wen
 2. Wählen Sie die Aktion **Neu** aus.
 3. Geben Sie im Abschnitt **Allgemein** im Feld **Nr.** eine Nummer für das Segment ein.
 
-    Wenn Sie im Fenster **Marketing & Vertrieb Einr.** Nummernserien für Segmente eingerichtet haben, können Sie alternativ die nächste verfügbare Segmentnummer einfügen.
+    Wenn Sie auf der Seite **Marketing & Vertrieb Einr.** Nummernserien für Segmente eingerichtet haben, können Sie alternativ die nächste verfügbare Segmentnummer einfügen.
 4. Füllen Sie die anderen Felder im Kopf aus.
 
 Jetzt können Sie Kontakte zum Segment hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen von Kontakten zu Segmenten](marketing-add-contact-segment.md).

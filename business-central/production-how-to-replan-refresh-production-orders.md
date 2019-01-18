@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen
@@ -41,7 +41,7 @@ Sie können die FA-Zeilen entweder manuell eintragen oder Sie verwenden die Funk
 4.  Fügen Sie eine Komponente hinzu, die einen Fertigungsartikel oder eine Unterkomponente darstellt.  
 5.  Klicken Sie im Fertigungsauftrag auf die Aktion **Neu planen**.  
 
-    Definieren Sie im Fenster **FA neu planen**, wie und was neu geplant werden soll.  
+    Definieren Sie auf der Seite **FA neu planen**, wie und was neu geplant werden soll.  
 6.  Wählen Sie im Feld **Planungsrichtung** eine der folgenden Optionen aus.  
 
     |Option|Description|  
@@ -68,7 +68,7 @@ Wenn Sie FA-Zeilen geändert haben, dann müssen Sie die Komponenten des Fertigu
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Fest geplante Produktionsauftrag** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus. Weitere Informationen finden Sie unter [Erstellen von Montageaufträgen](production-how-to-create-production-orders.md).  
 3.  Wählen Sie die Aktion **Aktualisieren** aus.
-4. Im Fenster **Produktionsauftrag aktualisieren** können Sie unter folgenden Optionen wählen:
+4. Auf der Seite **Produktionsauftrag aktualisieren** können Sie unter folgenden Optionen wählen:
 
     |Option|Description|  
     |----------------------------------|---------------|---------------------------------------|  
@@ -88,7 +88,7 @@ Wenn Sie FA-Zeilen geändert haben, dann müssen Sie die Komponenten des Fertigu
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  

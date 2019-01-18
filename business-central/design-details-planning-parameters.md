@@ -11,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
@@ -40,9 +40,9 @@ Nachbestellungsvorschläge werden generell nur freigegeben, wenn die voraussicht
 Das Feld **Zeitrahmen** wird von Minimalbestandrichtlinien verwendet (**Feste Bestellmenge** und **Maximalbestand**), bei denen der bestand nach jedem Zeitrahmen geprüft wird. Der erste Zeitrahmen beginnt am Planungsstartdatum.  
 
 > [!NOTE]  
->  Wenn Zeitrahmen berechnet werden, ignoriert das Planungssystem sämtliche Arbeitskalender, die im Feld **Basiskalendercode** in den Fenstern **Firmendaten** und **Lagerortkarte** festgelegt werden.  
+>  Wenn Zeitrahmen berechnet werden, ignoriert das Planungssystem sämtliche Arbeitskalender, die im Feld **Basiskalendercode** auf den Seiten **Firmendaten** und **Lagerortkarte** festgelegt werden.  
 
-Die Standardsicherheitsbeschaffungszeit im Feld **Herstellung einrichten** sollte mindestens auf einen Tag gesetzt werden. Das Fälligkeitsdatum des Bedarfs ist möglicherweise bekannt, nicht jedoch die Fälligkeitsuhrzeit. Die Planung plant rückwärts, um den Bruttobedarf zu decken, und, wenn kein Sicherheitszuschlag zur Beschaffungszeit definiert ist, können die Waren zu spät eintreffen, um den Bedarf zu decken.  
+Die Standardsicherheitsbeschaffungszeit auf der Seite **Herstellung einrichten** sollte mindestens auf einen Tag gesetzt werden. Das Fälligkeitsdatum des Bedarfs ist möglicherweise bekannt, nicht jedoch die Fälligkeitsuhrzeit. Die Planung plant rückwärts, um den Bruttobedarf zu decken, und, wenn kein Sicherheitszuschlag zur Beschaffungszeit definiert ist, können die Waren zu spät eintreffen, um den Bedarf zu decken.  
 
 Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode**, **Loskumulierungsperiode** und **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
 
@@ -100,7 +100,7 @@ In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (auf
 
 ![Toleranzperiode, Loskumulierungsperiode und Mengenänderung](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Toleranzperiode, Loskumulierungsperiode und Mengenänderung")  
 
-**Vorgabewerte**: Der Vorgabewert des **Zeitrahmen**-Feldes und der drei Nachbestellungsperiodenfelder ist leer. Für alle Felder mit Ausnahme des Felds **Toleranzperiode** bedeutet dies 0D (Null Tage). Wenn das Feld **Toleranzperiode** leer ist, wird der Wert im Feld **Standardtoleranzperiode** im Fenster **Produktion Einrichtung** verwendet.  
+**Vorgabewerte**: Der Vorgabewert des **Zeitrahmen**-Feldes und der drei Nachbestellungsperiodenfelder ist leer. Für alle Felder mit Ausnahme des Felds **Toleranzperiode** bedeutet dies 0D (Null Tage). Wenn das Feld **Toleranzperiode** leer ist, wird der Wert im Feld **Standardtoleranzperiode** auf der Seite **Produktion Einrichtung** verwendet.  
 
 ## <a name="modify-the-supply-orders"></a>Ändern Sie die Beschaffungsaufträge  
 Wenn die Menge des Bestellvorschlags berechnet wurde, können eine oder mehrere der Auftragsmodifikationen ihn anpassen. Beispielsweise ist die maximale Auftragsgröße größer als oder gleich der minimale Auftragsgröße, die größer als oder gleich dem Auftragsvielfachen ist.  

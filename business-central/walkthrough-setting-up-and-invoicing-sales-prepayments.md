@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 81176d2dc4cb5223d20ea553390b591d47bd5a85
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
@@ -65,11 +65,11 @@ In den folgenden Verfahren wird beschrieben, wie Sie Heikes Aufgaben ausführen:
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>So richten Sie Nummernserien für Vorauszahlungen ein  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitoren & Verkauf einrichten** ein, und wählen dann den zugehörigen Link aus.  
-2.  Erweitern Sie im Fenster **Verkauf und Erhalt Einr.** das Inforegister **Nummerierung**.  
+2.  Erweitern Sie auf der Seite **Verkauf und Erhalt Einr.** das Inforegister **Nummerierung**.  
 3.  Vergewissern Sie sich, dass die Nummernserien für gebuchte Vorauszahlungsrechnungen im Feld **Geb. Vorauszahlungs-Rechnungsnr.** und gebuchte Verkaufsrechnungen (**Gebuchte Rechnungsnummern**) sowie die Nummernserien für gebuchte Vorauszahlungsgutschriften (**Geb. Vorauszahlungs-Gutschriftennr.**) und gebuchte Gutschriften (**Gebuchte Gutschriftennr.**) übereinstimmen.  
 
 #### <a name="to-block-shipments-for-unpaid-prepayment"></a>Lieferungen für nicht geleistete Vorauszahlung sperren  
-1.  Aktivieren Sie im Fenster **Debitoren & Verkauf Einr.** auf dem Inforegister **Allgemein** die Option **Vorauszahlung beim Buchen prüfen**.
+1.  Aktivieren Sie auf der Seite **Debitoren & Verkauf Einr.** auf dem Inforegister **Allgemein** die Option **Vorauszahlung beim Buchen prüfen**.
 
     Jetzt können Sie einen Auftrag mit nicht bezahltem Vorauszahlungsbetrag nicht liefern oder in Rechnung stellen.  
 
@@ -85,7 +85,7 @@ Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für
 5.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
 6.  Öffnen Sie die Karte für Debitor 1100.
 7.  Wählen Sie die **Vorauszahlungsprozentsätze** Aktion aus.  
-8.  Füllen Sie im Fenster **Verkaufsvorauszahlungs-Prozentsätze** zwei Zeilen wie folgt aus.  
+8.  Füllen Sie auf der Seite **Verkaufsvorauszahlungs-Prozentsätze** zwei Zeilen wie folgt aus:  
 
     |**Verkaufsart**|**Verkaufscode**|**Artikelnr.**|**Vorauszahlung %**|  
     |--------------------|--------------------|------------------|----------------------|  
@@ -95,12 +95,12 @@ Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für
     > [!IMPORTANT]  
     >  Abhängig von Ihrem Land/Ihrer Region müssen Sie einen Steuergruppencode in dem Inforegister **Fakturierung** für Artikel ebenfalls angeben 1000 und 1100 angeben.  
 
-9. Schließen Sie alle Fenster.  
+9. Schließen Sie alle Seiten.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Ein Konto für Verkaufsvorauszahlung in der allgemeinen Buchungsmatrix angeben  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Allgemeine Buchungseinrichtung** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die Zeile, in der das Feld **Geschäftsbuchungsgruppe** zu **EXPORT** und das Feld **Produktbuchungsgruppe** zu **EINZELHANDEL** festgelegt wurde, und wählen Sie dann auf der Registerkarte Start in der Gruppe Verwalten die Option **Bearbeiten** aus.  
-3.  Geben Sie im Fenster **Buchungsmatrixkarte Einricht.** im Inforegister Verkauf im Feld **Verkaufsvorauszahlungs-Konto**das gewünschte Konto an.  
+3.  Geben Sie auf der Seite **Buchungsmatrixkarte Einricht.** im Inforegister Verkauf im Feld **Verkaufsvorauszahlungs-Konto**das gewünschte Konto an.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
 
 ## <a name="creating-an-order-that-requires-a-prepayment"></a>Erstellen eines Auftrags, der eine Vorauszahlung erfordert  
@@ -126,7 +126,7 @@ Martha erstellt die Vorauszahlungsrechnung und sendet sie an den Debitoren.
 
 7. Vergewissern Sie sich, dass das Feld **Vorauszahlung %** in der Zeile mit dem Artikel **1000** den Wert **30** enthält. Der Standardwert wurde aus dem Verkaufskopf von der Debitorenkarte übernommen.  
 
-    Das Feld **Vorauszahlung %** in der Zeile mit dem Artikel **1100** enthält **40**. Dies ist der Prozentsatz, den Sie im Fenster **Verkaufsvorauszahlungs-Prozentsätze** für den Artikel **1100** und den Debitoren **20000** eingegeben haben.  
+    Das Feld **Vorauszahlung %** in der Zeile mit dem Artikel **1100** enthält **40**. Dies ist der Prozentsatz, den Sie auf der Seite **Verkaufsvorauszahlungs-Prozentsätze** für den Artikel **1100** und den Kunden **20000** eingegeben haben.  
 
     Weitere Informationen finden Sie unter [Einrichten von Vorauszahlungen](finance-set-up-prepayments.md).  
 8. Wählen Sie die Aktion **Statistik** aus.  
@@ -136,33 +136,33 @@ Martha erstellt die Vorauszahlungsrechnung und sendet sie an den Debitoren.
 
     > [!IMPORTANT]  
     >  Abhängig von Ihrem Land/Ihrer Region trifft der nächste Schritt möglicherweise nicht zu.  
-10. Ändern Sie den Betrag im Feld **Vorauszahlungszeilenbetrag ohne MwSt.** in **2000**, und schließen Sie dann das Fenster.  
+10. Ändern Sie den Betrag im Feld **Vorauszahlungszeilenbetrag ohne MwSt.** in **2000**, und schließen Sie dann die Seite.  
 11. Überprüfen Sie das Feld **Vorauszahlung %** in den Verkaufszeilen. Der Wert wurde neu berechnet und lautet nun **40.81625**.  
 
     Die erneute Berechnung beinhaltet alle Zeilen mit einem Vorauszahlungsprozentsatz größer 0.  
 
     Jetzt fragt der Debitor, ob der Vorauszahlungsprozentsatz auf 35 % festgelegt werden kann. Da Marthas Vorgesetzter genehmigt die Änderung.  
 
-12. Erweitern Sie im Fenster **Verkaufsauftrag** das Inforegister **Vorauszahlung** und geben **35** ein.  
+12. Erweitern Sie auf der Seite **Verkaufsauftrag** das Inforegister **Vorauszahlung %** und geben **35** ein.  
 13. In der Warnung, die erscheint, wählen Sie die Schaltfläche **Ja**. Eine Rate von 35 % wird als Vorauszahlungsprozentsatz für den gesamten Auftrag angewendet.  
 14. Überprüfen Sie dann, ob die Zeilen entsprechend aktualisiert wurden.  
 
 ## <a name="creating-a-prepayment-invoice"></a>Erstellen einer Vorauszahlungsrechnung  
-Nachdem sie die korrekten Vorauszahlungswerte im Auftrag eingegeben hat, erstellt Martha die Vorauszahlungsrechnung und sendet sie an den Debitoren.  
+Nachdem sie die korrekten Vorauszahlungswerte im Auftrag eingegeben hat, erstellt Martha die Vorauszahlungsrechnung und sendet sie an den Kunden.  
 
 #### <a name="to-create-a-prepayment-invoice"></a>So erstellen Sie eine Vorauszahlungsrechnung  
 
-1.  Im Fenster **Verkaufsauftrag** wählen Sie die Aktion **Vorauszahlungsrechnung buchen** aus.  
+1.  Auf der Seite **Verkaufsauftrag** wählen Sie die Aktion **Vorauszahlungsrechnung buchen** aus.  
 
 > [!NOTE]  
->  Martha wählt **Vorauszahlungsrechnung buchen und drucken** und sendet die Rechnung an den Debitoren.  
+>  Martha wählt **Vorauszahlungsrechnung buchen und drucken** und sendet die Rechnung an den Kunden.  
 
 ## <a name="creating-an-additional-prepayment-invoice"></a>Erstellen einer weiteren Vorauszahlungsrechnung  
 Am folgenden Tag, ruft der Debitor Martha an, und nimmt Änderungen am Auftrag vor. Der Debitor möchte zwei Exemplare des Artikels 1100. Martha öffnet und aktualisiert die Bestellung, und dann erstellt sie eine zweite Vorauszahlungsrechnung auf dem Auftrag und sendet sie an den Debitoren.  
 
 #### <a name="to-create-an-additional-prepayment-invoice"></a>So erstellen Sie eine weitere Vorauszahlungsrechnung  
 
-1.  Im Fenster **Verkaufsauftrag** wählen Sie die Aktion **Wieder öffnen** aus.  
+1.  Auf der Seite **Verkaufsauftrag** wählen Sie die Aktion **Erneut öffnen** aus.  
 2.  Geben Sie in der Zeile für den Artikel **1100** im Feld **Menge** den Wert **2** ein.  
 
     Rollen Sie, um die Vorauszahlungsfelder anzuzeigen. Das Feld **Vorauszahlungszeilenbetrag ohne. MwSt.** enthält jetzt **630**, und das Feld **Fakt. Vorauszahlungsbetrag ohne MwSt.** enthält **315**. Dieses bedeutet, dass ein zusätzlicher Vorauszahlungsbetrag vorhanden ist, der noch nicht fakturiert wurde.  
@@ -180,9 +180,9 @@ Der Debitor bezahlt den Vorauszahlungsbetrag und Peter, der in der Debitorenabte
     |----------------|-----------|  
     |**Belegart**|**Zahlung**|  
     |**Kontoart**|**Debitor**|  
-    |**Kontonummer**|**20000**|  
+    |**Kontonr.**|**20000**|  
 3. Wählen Sie die Aktion **Posten ausgleichen...** aus.  
-4.  Im Fenster **Debitorenpostenausgleich** wählen Sie die erste Vorauszahlungsrechnung und dann auf der Registerkarte Start in der Gruppe Vorgang die Option **Ausgleichs-ID setzen** aus.  
+4.  Auf der Seite **Debitorenpostenausgleich** wählen Sie die erste Vorauszahlungsrechnung und dann auf der Registerkarte Start in der Gruppe Vorgang die Option **Ausgleichs-ID setzen** aus.  
 5.  Wiederholen Sie den vorherigen Schritt für die zweite Vorauszahlung.  
 6.  Wählen Sie die Schaltfläche **OK** aus.  
 

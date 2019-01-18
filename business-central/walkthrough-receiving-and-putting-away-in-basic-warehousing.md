@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ba61572a237e177b763b7b8a2e13ca7ec93eea4
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen
@@ -32,7 +32,7 @@ Weitere Informationen finden Sie unter [Designdetails: Eingehender Lagerfluss](d
 In der folgenden Vorgehensweise wird Methode B in der vorhergegangenen Tabelle beschrieben.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
-Bei Basis-Lagerkonfigurationen gilt Folgendes: Wenn ein Lagerort so eingerichtet wurde, dass die Bearbeitung der Einlagerung erforderlich ist, die des Wareneingangs jedoch nicht erforderlich ist, verwenden Sie das Fenster **Lagereinlagerung**, um Einlagerungs- und Wareneingangsinformationen für Ihre Herkunftsbelege zu erfassen und zu buchen. Der eingehende Herkunftsbeleg kann eine Einkaufsbestellung, eine Verkaufsreklamation, ein eingehender Umlagerungsauftrag oder ein Fertigungsauftrag sein, dessen Endprodukt zur Einlagerung bereitsteht.
+Bei Basis-Lagerkonfigurationen gilt Folgendes: Wenn ein Lagerort so eingerichtet wurde, dass die Bearbeitung der Einlagerung erforderlich ist, die des Wareneingangs jedoch nicht erforderlich ist, verwenden Sie die Seite **Lagereinlagerung**, um Einlagerungs- und Wareneingangsinformationen für Ihre Herkunftsbelege zu erfassen und zu buchen. Der eingehende Herkunftsbeleg kann eine Einkaufsbestellung, eine Verkaufsreklamation, ein eingehender Umlagerungsauftrag oder ein Fertigungsauftrag sein, dessen Endprodukt zur Einlagerung bereitsteht.
 
 > [!NOTE]
 > Obwohl die Einstellungen **Kommissionierung erforderlich** und **Einlagerung erforderlich** genannt werden, können Sie weiterhin Wareneingänge und Lieferungen direkt aus den Quellgeschäftsunterlagen an Lagerorten, in denen Sie diese Kontrollkästchen aktivieren.  
@@ -63,7 +63,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 -   Machen Sie sich anhand der nachfolgenden Schritte zu einem Lagermitarbeiter am Standort SILVER:  
 
     1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagermitarbeiter** ein, und wählen dann den zugehörigen Link aus.  
-    2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto im Fenster **Benutzer** aus.  
+    2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
     3.  Geben Sie im Feld **Lagerortcode** SILVER ein.  
     4.  Wählen Sie das Feld **Standard** aus.  
 
@@ -71,7 +71,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 Ellen, die Einkäuferin bei CRONUS International Ltd. erstellt eine Bestellung für 10 Einheiten des Artikels LS-75 und 30 Einheiten des Artikels LS-81 von dem Kreditor 10000, um zum SILBER Lagerhaus geliefert zu werden. Wenn die Lieferung im Lager eingeht, lagert John, der Lagermitarbeiter, die Artikel in die Standardlagerplätze ein, die für die Artikel eingerichtet sind. Wenn John Einlagerungen bucht, werden die Artikel gebucht als im Lager erhalten und verfügbar zum Verkauf oder anderen Bedarf.  
 
 ## <a name="setting-up-the-location"></a>Einrichten des Lagerorts  
- Das Einrichten des Fensters **Standortkarte** definiert die Warenflüsse des Unternehmens.  
+ Das Einrichten der Seite **Standortkarte** definiert die Warenflüsse des Unternehmens.  
 
 ### <a name="to-set-up-the-location"></a>So richten Sie den Lagerort ein  
 
@@ -84,7 +84,7 @@ Ellen, die Einkäuferin bei CRONUS International Ltd. erstellt eine Bestellung f
 4.  Wählen Sie die Aktion **Lagerplätze** aus.  
 5.  Wählen Sie die erste Zeile, für den Lagerplatz S-01-0001, und wählen die **Inhalt** Aktion aus.  
 
-    Beachten Sie im Fenster **Lagerplatzinhalt**, dass der Artikel LS-75 bereits als Inhalt im Lagerplatz S-01-0001 eingerichtet wurde.  
+    Beachten Sie auf der Seite **Lagerplatzinhalt**, dass der Artikel LS-75 bereits als Inhalt im Lagerplatz S-01-0001 eingerichtet wurde.  
 
 6.  Wählen Sie die Aktion **Neu** aus.  
 7.  Wählen Sie die Felder **Fest** und **Standard** .  
@@ -111,10 +111,10 @@ Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.
 
 4.  Wählen Sie die Aktion **Freigabe** aus.  
 
-    Der Warenausgang von Lautsprechern vom Lieferanten 10000 ist im SILBERNEN Lager eingetroffen, und John fährt fort, um sie einzulagern.  
+    Der Warenausgang von Lautsprechern vom Kreditoren 10000 ist im SILBERNEN Lager eingetroffen, und John fährt fort, um sie einzulagern.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Erhalten und Einlagern der Artikel  
-Im Fenster **Lagerkommissionierung** können Sie alle eingehenden Lageraktivitäten für einen bestimmten Herkunftsbeleg, wie einen Einkauf, verwalten.  
+Auf der Seite **Lagerkommissionierung** können Sie alle eingehenden Lageraktivitäten für einen bestimmten Herkunftsbeleg, wie einen Einkauf, verwalten.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>Artikel erhalten und einlagern  
 

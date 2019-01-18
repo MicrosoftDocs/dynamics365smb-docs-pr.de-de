@@ -13,30 +13,30 @@ ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: faf013087b29f758cf86ff2a10d407fe74f85f95
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 774d578d6dfe0533bfc900f796dfe39383ad869b
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Versichern von Anlagen
 Eine Versicherungspolice für eine Anlage wird durch eine Versicherungskarte angezeigt. Sie können eine Anlage einer Versicherungspolice oder mehreren Anlagen einer Versicherungspolice zuzuordnen.
 
-Sie ordnen einer Anlage einer Versicherungspolice zu, indem Sie sie im Versicherungsposten im Fenster **Versicherungs Buch.-Blatt** buchen.
+Sie ordnen einer Anlage einer Versicherungspolice zu, indem Sie sie im Versicherungsposten auf der Seite **Versicherungs Buch.-Blatt** buchen.
 
-Zudem können Sie eine Anlage einer Versicherungspolice zuzuordnen und Versicherungsposten erstellen, wenn Sie deren Anschaffungskosten buchen. Sie tun dies, indem Sie Anschaffungskosten aus dem Anlagen Buch.-Blatt buchen und das Feld **Versicherungsnr.** verwenden. Das Kontrollkästchen **Autom. Versicherungsbuchung** im Fenster **Anlageneinrichtung** muss aktiviert sein. Weitere Informationen finden Sie unter "Wie Anlagenanschaffungen mit dem Anlagen Fibu Buch.-Blatt manuell gebucht werden" [Anlagen erwerben](fa-how-acquire.md).
+Zudem können Sie eine Anlage einer Versicherungspolice zuzuordnen und Versicherungsposten erstellen, wenn Sie deren Anschaffungskosten buchen. Sie tun dies, indem Sie Anschaffungskosten aus dem Anlagen Buch.-Blatt buchen und das Feld **Versicherungsnr.** verwenden. Das Kontrollkästchen **Autom. Versicherungsbuchung** auf der Seite **Anlageneinrichtung** muss aktiviert sein. Weitere Informationen finden Sie unter "Wie Anlagenanschaffungen mit dem Anlagen Fibu Buch.-Blatt manuell gebucht werden" [Anlagen erwerben](fa-how-acquire.md).
 
-Wenn das Kontrollkästchen **Autom. Versicherungsbuchung** im Fenster **Anlageneinrichtung** nicht ausgewählt ist, werden beim Buchen von Anschaffungen Zeilen im Fenster **Versicherung Buch.-Blatt** erstellt, die Sie dann manuell buchen müssen.
+Wenn das Kontrollkästchen **Autom. Versicherungsbuchung** auf der Seite **Anlageneinrichtung** nicht ausgewählt ist, werden beim Buchen von Anschaffungen Zeilen im Fenster **Versicherung Buch.-Blatt** erstellt, die Sie dann manuell buchen müssen.
 
 > [!WARNING]  
->   Wenn Sie das Kontrollkästchen **Autom. Versicherungsbuchung** im Fenster **Anlageneinrichtung** auswählen, dann sollte das Versicherungs Buch.-Blatt auf einer Buch.-Blattvorlage ohne Nummernserie basieren. Der Grund dafür ist, dass die eingefügten Belegnummern aus der Buch.-Blattzeile andernfalls einen Konflikt mit der Nummernserie des Versicherungs Buch.-Blattes verursachen. Weitere Informationen über Buch.-Blattvorlagen und Buch.-Blattstapel finden Sie unter [Einrichten allgemeiner Anlagen-Informationen](fa-how-setup-general.md).
+>   Wenn Sie das Kontrollkästchen **Autom. Versicherungsbuchung** auf der Seite **Anlageneinrichtung** auswählen, dann sollte das Versicherungs Buch.-Blatt auf einer Buch.-Blattvorlage ohne Nummernserie basieren. Der Grund dafür ist, dass die eingefügten Belegnummern aus der Buch.-Blattzeile andernfalls einen Konflikt mit der Nummernserie des Versicherungs Buch.-Blattes verursachen. Weitere Informationen über Buch.-Blattvorlagen und Buch.-Blattstapel finden Sie unter [Einrichten allgemeiner Anlagen-Informationen](fa-how-setup-general.md).
 
 Nachdem Sie eine Anlage einer Versicherungspolice zugewiesen haben, wird das Kontrollkästchen **Versichert** auf der Anlagenkarte aktiviert. Wenn Sie die Anlage verkaufen, wird das Kontrollkästchen automatisch deaktiviert.
 
 ## <a name="to-create-or-modify-an-insurance-card"></a>So erstellen oder ändern Sie eine Versicherungskarte
 Eine Versicherungspolice für eine Anlage muß durch eine Versicherungskarte angezeigt werden.
 
-Wenn Sie Informationen über Änderungen der Deckungssumme erhalten, müssen Sie diese im Fenster **Versicherungskarte** aktualisieren, um sicherzustellen, dass Sie die Versicherungsdeckung korrekt analysieren.  
+Wenn Sie Informationen über Änderungen in der Deckungssumme erhalten, müssen Sie diese in der **Versicherungskarte**aktualisieren, um sicherzustellen, dass die Versicherungsdeckung korrekt angezeigt wird.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Versicherung** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus, um eine neue Karte für eine Versicherungspolice zu erstellen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -45,7 +45,7 @@ Wenn Sie Informationen über Änderungen der Deckungssumme erhalten, müssen Sie
 ## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>So verknüpfen Sie eine Anlage mit einer Versicherungspolice durch Buchen aus einem Versicherungs Buch.-Blatt
 Sie verknüpfen eine Anlage mit einer Versicherungspolice, indem Sie sie in den Versicherungsposten buchen.  
 
-Nachfolgend wird beschrieben, wie Sie eine Versicherungs Buch.-Blattzeile manuell erstellen. Wenn das Kontrollkästchen **Autom. Versicherungsbuchung** im Fenster **Anlageneinrichtung** ausgewählt wird, werden Versicherungs Buch.-Blattzeilen automatisch erstellt, wenn Sie Anschaffungskosten buchen. In diesem Fall müssen Sie nur das Buch.-Blatt buchen.  
+Nachfolgend wird beschrieben, wie Sie eine Versicherungs Buch.-Blattzeile manuell erstellen. Wenn das Kontrollkästchen **Autom. Versicherungsbuchung** auf der Seite **Anlageneinrichtung** ausgewählt wird, werden Versicherungs Buch.-Blattzeilen automatisch erstellt, wenn Sie Anschaffungskosten buchen. In diesem Fall müssen Sie nur das Buch.-Blatt buchen.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Versicherungs-Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie das relevante Buch.-Blatt und füllen Sie die Buch.-Blattzeilen nach Bedarf aus.  
@@ -65,12 +65,12 @@ Sie können die Stapelverarbeitung **Indexiere Versicherung** verwenden, um den 
     >   Im Feld **Indexzahl** wird eine Senkung um 5 % beispielsweise als "95" eingegeben, während eine Steigerung von 2 % als "102" eingegeben wird.  
 3. Wählen Sie die Schaltfläche **OK** aus.  
 
-   Die Stapelverarbeitung berechnet den neuen Betrag als Prozentsatz des gesamten versicherten Wertes aus dem Fenster **Versicherungsstatistik** und erstellt dann eine Zeile im Vers. Buch.-Blatt.  
+   Die Stapelverarbeitung berechnet den neuen Betrag als Prozentsatz des gesamten versicherten Wertes auf der Seite **Versicherungsstatistik** und erstellt dann eine Zeile im Vers. Buch.-Blatt.  
 4. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Versicherungs-Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
 5. Öffnen Sie das relevante Versicherungs Buch.-Blatt, prüfen Sie die erstellten Posten und buchen Sie diese dann auf die Versicherungsposten.  
 
 ## <a name="to-monitor-insurance-coverage"></a>So überwachen Sie die Versicherungsdeckung
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet dedizierte Berichte und Statistikfenster, die dazu verwendet werden können, Versicherungspolicen zu analysieren und zu überprüfen, ob Ihre Anlagen über- oder unterversichert sind.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet dedizierte Berichte und Statistikseiten, die dazu verwendet werden können, Versicherungspolicen zu analysieren und zu überprüfen, ob Ihre Anlagen über- oder unterversichert sind.  
 
 ### <a name="overview-of-insurance-policies"></a>Übersicht der Versicherungspolicen
 Gibt einen Überblicks über die Versicherungspolicen durch Drucken des Berichts **Versicherung-Liste**. Der Bericht zeigt die einzelnen Policen und die wichtigsten Felder der Versicherungskarten an.  
@@ -81,8 +81,8 @@ Um zu sehen, welche Versicherungspolicen welche Anlagen in welcher Höhe abdecke
 ### <a name="overunder-coverage"></a>Unter-/Überversicherung
 Folgendermaßen können Sie prüfen, ob Anlagen über- oder unterversichert sind:  
 
-* Das Fenster **Versicherungsstatistik**. Ein positiver Betrag in dem Feld **Über-/Unterversichert** bedeutet, dass die Anlage überversichert ist. Ein negativer Betrag zeigt eine Unterversicherung an.  
-* Das Fenster **Anlagenstatistik**. Wählen Sie das Feld **Versicherte Summe**, um das Fenster **Versicherungsposten** anzuzeigen.  
+* Die Seite **Versicherungsstatistik**. Ein positiver Betrag in dem Feld **Über-/Unterversichert** bedeutet, dass die Anlage überversichert ist. Ein negativer Betrag zeigt eine Unterversicherung an.  
+* Die Seite **Anlagenstatistik**. Wählen Sie das Feld **Versicherte Summe**, um die Seite **Versicherungsposten** anzuzeigen.  
 * Der Bericht **Unter-/Überversicherung**.  
 * Der Bericht **Versicherungsanalyse**.  
 
@@ -96,7 +96,7 @@ Sie können sich die einzelnen Posten anzeigen lassen, die Sie in den Versicheru
 2. Wählen Sie die entsprechende Versicherungspolice aus, und wählen Sie dann die Aktion **Versicherungsposten**.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>So zeigen Sie den gesamten Versicherungswert von Anlagen an:
-Ein dediziertes Matrixfenster zeigt die Versicherungswerte jeder Anlage und jeder Versicherungspolice als Ergebnis der versicherungsbezogenen Beträge an, die von Ihnen gebucht wurden.  
+Eine dedizierte Matrixseite zeigt die Versicherungswerte jeder Anlage und jeder Versicherungspolice als Ergebnis der versicherungsbezogenen Beträge an, die von Ihnen gebucht wurden.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Versicherung** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die entsprechende Versicherungspolice aus, und wählen Sie dann die Aktion **Versicherte Summe pro Anlage**.  

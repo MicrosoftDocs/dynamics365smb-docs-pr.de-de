@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Exemplarische Vorgehensweise: Berechnen des Umlaufbestands für ein Projekt
@@ -45,7 +45,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 ## <a name="calculating-wip"></a>Berechnen der WIP  
  CRONUS hat ein Projekt mit langer Laufzeit übernommen, das sich nun über mehrere Berichtszeiträume erstreckt. Katrin, ein Projektteammitglied, berechnet die unfertige (WIP) Arbeit, um sicherzustellen, dass die Finanzaufstellung des Unternehmens korrekt ist.  
 
- Bei diesem Verfahren wählt Katrin eine bestimmte Gruppe von Aufgaben aus, die in die WIP-Berechnung einbezogen werden. Sie kann diese Zeilen im Fenster **Projektaufgabenzeilen** in der Spalte **WIP-Summe** angeben.  
+ Bei diesem Verfahren wählt Katrin eine bestimmte Gruppe von Aufgaben aus, die in die WIP-Berechnung einbezogen werden. Sie kann diese Zeilen auf der Seite **Projektaufgabenzeilen** in der Spalte **WIP-Summe** angeben.  
 
  Die drei Optionen werden in der folgenden Tabelle beschrieben.  
 
@@ -77,10 +77,10 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
     |1310|Ausschließlich|  
 
 5.  Wählen Sie die **RIF** Aktion aus, und wählen Sie die **WIP berechnen** Aktion aus.  
-6.  Auf der Karte **WIP berechnen Projekt** können Sie das Projekt auswählen, für das die WIP berechnet werden soll. Wählen Sie auf dem Inforegister **Projekt** die Option **Landsberg** im Feld **Nr.** aus. Feld  
+6.  Auf der Seite **WIP berechnen Projekt** können Sie ein Projekt auswählen, für das die WIP berechnet werden soll. Wählen Sie auf dem Inforegister **Projekt** die Option **Landsberg** im Feld **Nr.** aus. Feld  
 7.  Das **Buchungsdatum** liegt nach dem Arbeitsdatum. Bestätigen Sie, dass das Datum korrekt ist.
 8.  Geben Sie im Feld **Belegnr.** den Wert **1** ein. Dieses erstellt ein Dokument, das Sie später für die Verfolgbarkeit verwenden können.  
-9. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten. Eine Meldung wird angezeigt. Klicken Sie zum Fortfahren auf die Schaltfläche **OK**. Schließen Sie das Fenster **Projektaufgabenzeilen**.  
+9. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten. Eine Meldung wird angezeigt. Klicken Sie zum Fortfahren auf die Schaltfläche **OK**. Schließen Sie die Seite **Projektaufgabenzeilen**.  
 
     > [!NOTE]  
     >  Die Benachrichtigung weist darauf hin, dass Warnungen im Zusammenhang mit der WIP-Berechnung vorliegen. Im folgenden Verfahren werden Sie die Warnungen überprüfen.  
@@ -93,7 +93,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **WIP-Cockpit für Projekte** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die entsprechende Projekte **Deerfield**und wählen Sie dann die Aktion **Warnung anzeigen** aus.  
-3.  Überprüfen Sie im Fenster **Job-WIP-Warnungen** die Warnung, die dem Projekt zugeordnet ist.  
+3.  Überprüfen Sie auf der Seite **Job-WIP-Warnungen** die Warnung, die dem Projekt zugeordnet ist.  
 
  Nach dem Ende der Buchhaltungsperiode muss Katrin die WIP erneut berechnen, um die bis zu diesem Zeitpunkt abgeschlossene Arbeit einzubeziehen.  
 
@@ -101,10 +101,10 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 1.  Wählen Sie auf der Karte **Projekt** aktivieren Sie die **WIP-Posten** Aktion aus, die WIP-Berechnung anzuzeigen.  
 
-     Im Fenster **WIP-Projektposten** werden die zuletzt für ein Projekt berechneten WIP-Posten angezeigt. Dies ist auch dann der Fall, wenn die WIP noch nicht auf das Sachkonto gebucht wurde.  
+     Auf der Seite **WIP-Projektposten** werden die zuletzt für ein Projekt berechneten WIP-Posten angezeigt. Dies ist auch dann der Fall, wenn die WIP noch nicht auf das Sachkonto gebucht wurde.  
 
-2.  Sie können zur erneuten Berechnung von WIP den Schritten in dem Verfahren folgen, das erläutert, wie WIP berechnet wird. Bei jeder Berechnung der WIP wird ein Posten im Fenster **WIP-Projektposten** erstellt.  
-3.  Schließen Sie das Fenster.  
+2.  Sie können zur erneuten Berechnung von WIP den Schritten in dem Verfahren folgen, das erläutert, wie WIP berechnet wird. Bei jeder Berechnung der WIP wird ein Posten auf der Seite **WIP-Projektposten** erstellt.  
+3.  Schließen Sie die Seite.  
 
 > [!NOTE]  
 >  Nur WIP und Umsatzrealisierung wird berechnet. Er wird nicht auf das Sachkonto gebucht. Führen Sie nach der Berechnung von "WIP und Umsatzrealisierung" den Stapelverarbeitungsauftrag **WIP auf Sachkonten buchen** aus, um diese Werte zu buchen.
@@ -116,18 +116,18 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 1.  Wählen Sie in der Liste **Projekte** das Projekt **Landsberg** aus.  
 2.  Wählen Sie die **RIF** Aktion aus, und wählen Sie die **WIP auf Sachkonto buchen** Aktion aus.  
-3.  Wählen Sie im Fenster **WIP auf Sachkonten buchen** auf dem Inforegister **Projekt** die Option **Deerfield** im Feld **Nr.** aus. Feld  
+3.  Wählen Sie auf der Seite **WIP auf Sachkonten buchen Projekt** auf dem Inforegister **Projekt** die Option **Landsberg** unter **Nr.** aus. Feld  
 4.  Geben Sie auf dem Inforegister **Optionen** im Feld **Stornobelegnr.** den Wert **1** ein.  
 5.  Wählen Sie die Schaltfläche **OK**, um WIP auf das Sachkonto zu buchen.  
-6.  Klicken Sie auf **OK**, um das Bestätigungsfenster zu schließen.  
+6.  Klicken Sie auf **OK**, um die Bestätigungsseite zu schließen.  
 
-     Nachdem Sie die Buchung abgeschlossen haben, können Sie die Buchungsdaten im Fenster **WIP-Sachposten** anzeigen.  
+     Nachdem Sie die Buchung abgeschlossen haben, können Sie die Buchungsdaten auf der Seite **WIP-Sachposten** anzeigen.  
 
 7.  In der Liste **Projekte** wählen Sie das Projekt **Deerfield** aus, und wählen Sie die **WIP Sachkonto-Eintrag** Aktion aus.  
 
-     Im Fenster **WIP-Projektsachposten** stellen Sie sicher, dass die WIP auf das Sachkonto gebucht wurde.  
+     Auf der Seite **WIP-Projektsachposten** stellen Sie sicher, dass die WIP auf das Sachkonto gebucht wurde.  
 
-8.  Schließen Sie das Fenster.  
+8.  Schließen Sie die Seite.  
 9. Öffnen Sie die Karte **Projekt** für das Projekt **Landsberg**.  
 10. Beachten Sie, dass im Inforegister **WIP und Umsatzrealisierung** in der Spalte **Gebucht** das Feld **Deaktivierter Einstandsbetrag auf Sachkonten** jetzt ausgefüllt ist, was angibt, dass diese WIP in der Finanzbuchhaltung erfolgreich gebucht wurde.  
 11. Wählen Sie die Schaltfläche **OK**, um die Karte zu schließen.  
@@ -139,16 +139,16 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 1.  Wählen Sie in der Liste **Projekte** das Projekt **Landsberg** aus.  
 2.  Wählen Sie die **RIF** Aktion aus, und wählen Sie die **WIP auf Sachkonto buchen** Aktion aus.  
-3.  Wählen Sie im Fenster **WIP auf Sachkonten buchen** auf dem Inforegister **Projekt** die Option **Deerfield** im Feld **Nr.** aus. Feld  
+3.  Wählen Sie auf der Seite **WIP auf Sachkonten buchen Projekt** auf dem Inforegister **Projekt** die Option **Landsberg** unter **Nr.** aus. Feld  
 4.  Geben Sie auf dem Inforegister **Optionen** im Feld **Stornobelegnr.** den Wert **1** ein.  
 5.  Geben Sie in dem Feld **Stornobuchungsdatum** das ursprüngliche Buchungsdatum an. Dies sollte dasselbe Datum sein, das Sie für die erste Berechnung von WIP verwendet haben.  
 6.  Aktivieren Sie das Kontrollkästchen **Nur stornieren**. Dadurch wird die zuvor gebuchte WIP storniert, die neue WIP wird jedoch nicht auf das Sachkonto gebucht.  
-7.  Wählen Sie die Schaltfläche **OK**, um den Stapelauftrag auszuführen, und wählen Sie dann die Schaltfläche **OK**, um das Bestätigungsfenster zu schließen.  
+7.  Wählen Sie die Schaltfläche **OK**, um den Stapelauftrag auszuführen, und wählen Sie dann die Schaltfläche **OK**, um die Bestätigungsseite zu schließen.  
 8.  Öffnen Sie die **Projektkarte** für **Landsberg**.  
 9. Überprüfen Sie im Inforegister **WIP und Umsatzrealisierung**, dass keine gebuchten WIP-Posten vorhanden sind.  
-10. Schließen Sie dieses Fenster.  
+10. Schließen Sie diese Seite.  
 11. Wählen Sie in der Liste **Projekte** das Projekt **Deerfield**, wählen Sie die Registerkarte Navigieren, wählen Sie die Option **WIP** und dann **WIP-Sachposten** aus. In den WIP-Posten ist das Kontrollkästchen **Storniert** aktiviert.  
-12. Schließen Sie dieses Fenster.  
+12. Schließen Sie diese Seite.  
 13. Öffnen Sie **Projektaufgabenzeilen** für das Projekt, schließen Sie die in die WIP-Berechnung einzubeziehenden Teile des Projekts ein, und berechnen und buchen Sie dann den neuen Wert auf das Sachkonto.  
 
     > [!NOTE]  

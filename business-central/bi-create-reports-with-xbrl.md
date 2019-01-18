@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f14191eb0a7b7564f5079a53bd90dfc39f176326
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e187a6d66804066f68af910c75d74f639e852446
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Berichte mit XBRL erstellen
@@ -67,7 +67,7 @@ Nach dem Importieren oder der Aktualisierung der Taxonomie müssen die Zeilen de
 Sie richten die XBRL-Zeilen ein, indem Sie die Daten in der Taxonomie Ihren Daten in der Finanzbuchhaltung zuordnen.  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **XBRL Steuer** ein, und wählen dann den zugehörigen Link aus.  
-2.  Im Fenster **XBRL-Taxonomies** wählen Sie eine Taxonomie in der Liste aus.  
+2.  Auf der Seite **XBRL-Taxonomies** wählen Sie eine Taxonomie in der Liste aus.  
 3.  Wählen Sie die Aktion **Zeilen** aus.  
 4.  Wählen Sie eine Zeile und füllen Sie die Felder aus.   
 5.  Durch Klicken auf die Aktion **Information** können Sie die Detailinformationen lesen.  
@@ -84,10 +84,10 @@ Sie richten die XBRL-Zeilen ein, indem Sie die Daten in der Taxonomie Ihren Date
 Der erste Schritt, um mit der XBRL-Funktionalität arbeiten zu können, ist, die Taxonomie in Ihre Datenbank zu importieren. Eine Taxonomie besteht aus einem oder mehreren Schema/ta und einigen Linkbases. Wenn Sie den Import des/der Schemas/Schemata und Linkbases durchgeführt haben und die Linkbases dem Schema zugewiesen haben, können Sie die Zeilen einrichten und die Sachkonten des Kontenplans den entsprechenden Taxonomiezeilen zuordnen.  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **XBRL Steuer** ein, und wählen dann den zugehörigen Link aus.  
-2.  Erstellen Sie im Fenster **XBRL Taxonomie** eine neue Zeile, und geben Sie Name und Beschreibung der Taxonomie ein.  
+2.  Erstellen Sie auf der Seite **XBRL Taxonomie** eine neue Zeile, und geben Sie Name und Beschreibung der Taxonomie ein.  
 3.  Klicken Sie auf **Schemas** und fügen Sie die Beschreibung für das Schema ein.  
-4.  Um das Schema zu importieren, wählen Sie im Fenster **XBRL-Schemata** auf der Registerkarte **Importieren** und wählen Sie dann einen Ordner und eine XSD-Datei aus. Wählen Sie die Schaltfläche **Öffnen** aus.  
-5.  Um die Linkbase zu importieren, wählen Sie im Fenster **XBRL-Schemata** auf der Registerkarte **Importieren** und wählen Sie dann einen Ordner und eine XML-Datei aus. Wählen Sie die Schaltfläche **Öffnen** aus.  
+4.  Um das Schema zu importieren, wählen Sie auf der Seite **XBRL-Schemata** auf der Registerkarte **Importieren** und wählen Sie dann einen Ordner und eine XSD-Datei aus. Wählen Sie die Schaltfläche **Öffnen** aus.  
+5.  Um die Linkbase zu importieren, wählen Sie auf der Seite **XBRL-Schemata** auf der Registerkarte **Importieren** und wählen Sie dann einen Ordner und eine XML-Datei aus. Wählen Sie die Schaltfläche **Öffnen** aus.  
 6.  Jetzt können Sie die Linkbase auf das Schema anwenden. Wiederholen Sie den Vorgang, bis Sie alle Linkbases importiert haben.  
 7. Wählen Sie die **Auf Taxonomie anwenden** Aktion aus, um die Linkbase auf das Schema anzuwenden.  
 
@@ -98,7 +98,7 @@ Der erste Schritt, um mit der XBRL-Funktionalität arbeiten zu können, ist, die
 Wenn sich eine Taxonomie ändert, müssen Sie die aktuelle Taxonomie dementsprechend ändern. Der Grund für die Aktualisierung kann ein verändertes Schema, eine veränderte Linkbase oder eine neue Linkbase sein. Nach Aktualisierung der Taxonomie müssen Sie nur die Zeilen an die geänderten oder neuen Zeilen anpassen.  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **XBRL Steuer** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie im Fenster **XBRL-Taxonomien** die Aktion **Schemas** aus.  
+2.  Wählen Sie auf der Seite **XBRL-Taxonomien** die Aktion **Schemas** aus.  
 3.  Wählen Sie zum Aktualisieren des Schemas das zu aktualisierende Schema aus, und klicken Sie auf **Importieren**.  
 4.  Um eine neue Linkbase zu aktualisieren oder hinzuzufügen, wählen Sie **Linkbases** aus.  
 5.  Wählen Sie die gewünschte Linkbase aus oder drücken Sie STRG+N, um eine neue Zeile zu erhalten, wählen Sie die Art der Linkbase aus, und fügen Sie dann eine Beschreibung ein.  

@@ -13,10 +13,10 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abbc8f6d7aa80a7a89296568d9a4ecb0ead0f5f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeiten mit MwSt im Verkauf und Einkauf
@@ -28,7 +28,7 @@ Es gibt jedoch Mehrwertsteuer-verknüpfte Aufgaben, die Sie manuell tun können.
 Je nach Debitoren- oder Kreditorenart können MwSt.-Beträge in Verkaufs- und Einkaufsbelegen unterschiedlich berechnet und angezeigt werden. Darüber hinaus kann der von der Anwendung berechnete MwSt.-Betrag außer Kraft gesetzt werden und der von Ihrem Kreditor für ein bestimmtes Geschäft berechnete MwSt.-Betrag verwendet werden.  
 
 ### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Verkaufspreis und Zeilenbetrag inklusive/exklusive MwSt. auf Verkaufsdokumenten  
-Wenn Sie eine  Artikelnummer im **Nr.** Feld in einem Verkaufsbeleg auswählen, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] von der Anwendung auch das Feld **Einheitspreis** ausgefüllt. Der Verkaufspreis wird von der **Artikel**karte übernommen oder anhand der Artikelpreise berechnet, die für den Artikel und den Debitor zulässig sind. [!INCLUDE[d365fin](includes/d365fin_md.md)]berechnet den **Zeilenbetrag** nur dann, wenn Sie eine Menge für die Zeile eingeben.  
+Wenn Sie eine  Artikelnummer im **Nr.** Feld in einem Verkaufsbeleg auswählen, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] von der Anwendung auch das Feld **VK-Preis** ausgefüllt. Der Verkaufspreis wird von der **Artikel**karte übernommen oder anhand der Artikelpreise berechnet, die für den Artikel und den Debitor zulässig sind. [!INCLUDE[d365fin](includes/d365fin_md.md)]berechnet den **Zeilenbetrag** nur dann, wenn Sie eine Menge für die Zeile eingeben.  
 
 Wenn Sie an einen EinzelhandelsDebitoren verkaufen, möchten Sie möglicherweise, dass die Preise in Verkaufsbelegen die Mehrwertsteuer enthalten. Um dies zu tun, aktivieren Sie das Kontrollkästchen **Preise inkl. MwSt.** im Beleg.  
 
@@ -39,7 +39,7 @@ Ist das Feld nicht aktiviert, wird in die Felder **VK-Preis** und **Zeilenbetrag
 
 Sie können die Standardeinstellung der **Preise inkl. MwSt.** für alle Verkaufsbelege eines Debitors im Feld **Preise inkl. MwSt.** auf der **Debitor**-Karte einrichten. Darüber hinaus können Sie auch Artikelpreise inklusive oder exklusive MwSt. einrichten. Normalerweise ist auf der Artikelkarte der Artikelpreis ohne MwSt. angegeben. Die Daten im Feld **VK-Preis inkl. MwSt.** auf der **Artikelkarte** dienen zur Ermittlung des Verkaufspreises für Verkaufsbelege.  
 
-Die folgende Tabelle bietet einen Überblick darüber, wie in der Anwendung Verkaufspreise für einen Verkaufsbeleg berechnet werden, wenn im Fenster **VK-Preise** keine Preise eingerichtet sind:  
+Die folgende Tabelle bietet einen Überblick darüber, wie in der Anwendung Verkaufspreise für einen Verkaufsbeleg berechnet werden, wenn auf der Seite **VK-Preise** keine Preise eingerichtet sind:  
 
 |**Feld "VK-Preis inkl. MwSt." auf Artikelkarte**|**Feld "Preise inkl. MwSt." im Verkaufskopf**|**Durchgeführte Aktion**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -56,7 +56,7 @@ Auch wenn Sie möglicherweise bereits eine oder mehrere Kombinationen für die V
 Wenn Skonto auf der Basis einer Rechnung inklusive MwSt. berechnet wurde, haben Sie die Möglichkeit, den Skontoanteil des MwSt.-Betrages zu berichtigen, wenn Skonto gewährt wird. Beachten Sie, dass Sie das Feld **Skonto berichtigen** sowohl in der Finanzbuchhaltungs-Einrichtung: allgemein als auch in der MwSt.-Buchungsmatrix Einrichtung für bestimmte Kombinationen von MwSt.-Geschäftsbuchungsgruppe und MwSt.-Produktbuchungsgruppe aktivieren müssen.  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>So geben Sie die MwSt. in Verkaufsbelegen manuell ein  
-1. Geben Sie im Fenster **Finanzbuchhaltung Einrichtung** eine **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
+1. Geben Sie im Fenster  **Finanzbuchhaltungs-Einrichtung:** eine  **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
 2. Versehen Sie im Fenster **Debitoren & Verkauf Einr.** das Feld **MwSt.-Differenz zulassen** mit einem Häkchen.  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Die MwSt. für einen Verkaufsbeleg anpassen:  
@@ -71,11 +71,11 @@ Wenn Skonto auf der Basis einer Rechnung inklusive MwSt. berechnet wurde, haben 
 Sie können MwSt.-Beträge auch in den Buch.-Blättern Allgemein, Verkauf und Einkauf anpassen. Dies ist unter Umständen dann erforderlich, wenn Sie eine Kreditorenrechnung in das Buch.-Blatt eingeben und zwischen der von der [!INCLUDE[d365fin](includes/d365fin_md.md)] Anwendung berechneten MwSt. und dem MwSt.-Betrag auf der erhaltenen Kreditorenrechnung eine Differenz besteht.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Bevor Sie MwSt.-Beträge manuell in einem Fibu-Buch.-Blatt eingeben  
-1. Geben Sie im Fenster **Finanzbuchhaltung Einrichtung** eine **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
-2. Wählen Sie im Fenster **Allgemeine Buch.-Blatt Vorlage** das Kontrollkästchen **MwSt-Differenz zulassen** mit einem Häkchen.  
+1. Geben Sie im Fenster  **Finanzbuchhaltungs-Einrichtung:** eine  **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
+2. Wählen Sie auf der Seite  **Allgemeine Buch.-Blatt Vorlage** das Kontrollkästchen **MwSt-Differenz zulassen** mit einem Häkchen.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Bevor Sie MwSt.-Beträge manuell in Verkaufs- und Einkaufs-Buch.-Blättern eingeben  
-1. Im Fenster **Kreditoren & Einkauf Einr.** wählen Sie das Kontrollkästchen **MwSt.-Differenz zulassen**.  
+1. Auf der Seite **Kreditoren & Einkauf Einr.** wählen Sie das Kontrollkästchen **MwSt.-Differenz zulassen**.  
 2. Nachdem Sie die oben beschriebene Einrichtung durchgeführt haben, können Sie den Betrag im Feld **MwSt.-Betrag** in der Fibu-Buch.-Blattzeile oder das Feld **Gegenkonto MwSt.-Betrag** in der Verkaufs- oder Einkaufs-Buch.-Blattzeile an den MwSt.-Betrag der Rechnung anpassen. [!INCLUDE[d365fin](includes/d365fin_md.md)]Die Anwendung prüft, ob die Differenz die festgelegte maximale Differenz übersteigt.  
   
     > [!NOTE]  
@@ -117,7 +117,7 @@ Wenn Sie Waren an einen Debitor in einem anderen EU-Land/einer anderen EU-Region
    Wenn Sie das Feld **Status** von **Erforderlich** in **Empfangen** oder in **Nicht erhalten** aktualisieren, wird ein Zertifikat erstellt.  
   
     > [!TIP]  
-    >  Sie können das **Gelangensbestätigung**-Fenster verwenden, um eine Ansicht des Status aller gebuchten Lieferungen zu erhalten, für die eine Gelangensbestätigung erstellt wurde.  
+    >  Sie können auf der Seite **Gelangensbestätigung** verwenden, um eine Ansicht des Status aller gebuchten Lieferungen zu erhalten, für die eine Gelangensbestätigung erstellt wurde.  
 
 5. Wählen Sie **Gelangensbestätigung drucken**.  
   
@@ -138,7 +138,7 @@ Wenn Sie Waren an einen Debitor in einem anderen EU-Land/einer anderen EU-Region
 7. Wählen Sie im Fenster **Gelangenbestätigung** die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
     > [!Note]  
-    > Das **Gelangenbestätigung**-Feld und das Feld **Gedruckt**werden für die Lieferung im **Gelangensbestätigungen**-Fenster aktualisiert.  
+    > Das **Gelangenbestätigung**-Feld und das Feld **Gedruckt**werden für die Lieferung auf der Seite **Gelangensbestätigungen** aktualisiert.  
 
 8. Sie müssen die gedruckte Gelangensbestätigung zur Unterschrift an den Debitor senden.  
 
@@ -153,7 +153,7 @@ Wenn Sie Waren an einen Debitor in einem anderen EU-Land/einer anderen EU-Region
 
    Wenn der Debitor keine Gelangensbestätigung zurücksendet, wählen Sie **Nicht erhalten** aus. Sie müssen dem Debitor dann eine neue Rechnung mit MwSt. senden, da die ursprüngliche Rechnung vom Finanzamt nicht akzeptiert wird.  
 
-Um eine Gruppe von Zertifikaten anzuzeigen, beginnen Sie im **Gelangensbestätigungen**-Fenster und aktualisieren dann die Informationen über den Status der ausstehenden Zertifikate nach und nach, wenn Sie sie von den Debitoren erhalten. Dies kann nützlich sein, wenn Sie für alle Zertifikate suchen möchten, die einen bestimmten Status haben, beispielsweise **Erforderlich**, um deren Status auf **Nicht erhalten** zu aktualisieren.  
+Um eine Gruppe von Zertifikaten anzuzeigen, beginnen Sie auf der Seite **Gelangensbestätigungen** und aktualisieren dann die Informationen über den Status der ausstehenden Zertifikate nach und nach, wenn Sie sie von den Debitoren erhalten. Dies kann nützlich sein, wenn Sie für alle Zertifikate suchen möchten, die einen bestimmten Status haben, beispielsweise **Erforderlich**, um deren Status auf **Nicht erhalten** zu aktualisieren.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Um den Status einer Gelangensbestätigungsgruppe zu aktualisieren  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Versorgungszertifikate** ein, und wählen dann den zugehörigen Link aus.  
@@ -166,12 +166,12 @@ Um eine Gruppe von Zertifikaten anzuzeigen, beginnen Sie im **Gelangensbestätig
    Sie können das Datum ändern, sodass das Datum angezeigt wird, an dem Sie die unterschriebene Gelangensbestätigung erhalten haben. Sie können mit der Standard-[!INCLUDE[d365fin](includes/d365fin_md.md)]-Verknüpfung einen Link zu dem unterschriebenen Zertifikat hinzufügen.  
 
     > [!NOTE]  
-    >  Sie können keine neue Gelangensbestätigung im Fenster **Gelangensbestätigung** erstellen, indem Sie sie mithilfe dieses Verfahrens öffnen. Um ein Zertifikat für eine Lieferung zu erstellen, die nicht so eingerichtet wurde, dass eines erforderlich ist, öffnen Sie die gebuchte Verkaufslieferung und eine der beiden oben beschriebenen Prozeduren:  
+    >  Sie können keine neue Gelangensbestätigung auf der Seite **Gelangensbestätigung** erstellen, indem Sie sie mithilfe dieses Verfahrens öffnen. Um ein Zertifikat für eine Lieferung zu erstellen, die nicht so eingerichtet wurde, dass eines erforderlich ist, öffnen Sie die gebuchte Verkaufslieferung und eine der beiden oben beschriebenen Prozeduren:  
     >   
     > * So erstellen Sie eine Gelangensbestätigung manuell  
     > * So drucken Sie eine Gelangensbestätigung.
 
 ## <a name="see-also"></a>Siehe auch  
 [Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten](finance-setup-vat.md)   
-[So gehts: Melden von MwSt. an eine Steuerbehörde](finance-how-report-vat.md)   
+[So geht's: Melden von MwSt. an eine Steuerbehörde](finance-how-report-vat.md)   
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 416c8f4c85b48b62d22de46725cbcb92f7f7648b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a4ef4c7b71c02d398df98ca1b2c97777386e9160
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="print-sales-and-purchase-orders-during-batch-posting"></a>So drucken Sie im Verlauf von Stapelbuchungen Verkaufsaufträge und Bestellungen
@@ -26,12 +26,12 @@ Nachfolgend wird beschrieben, wie Verkaufsaufträge gedruckt werden. Diese Schri
 
 ## <a name="to-print-sales-and-purchase-orders-during-batch-posting"></a>So drucken Sie im Verlauf von Stapelbuchungen Verkaufsaufträge und Bestellungen  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Stapelbuchen** aus.  
-3.  Aktivieren Sie im Stapelverarbeitungsauftrag **Aufträge stapelbuchen** im Inforegister **Optionen** das Kontrollkästchen **Drucken**.  
+3.  Aktivieren Sie auf der Seite **Aufträge stapelbuchen** im Inforegister **Optionen** das Kontrollkästchen **Drucken**.  
 4.  Füllen Sie im Inforegister **Optionen** die zusätzlichen Felder aus.  
 5.  Klicken Sie zum Stapelbuchen und Drucken der Verkaufsaufträge auf **OK**.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Verkaufsrechnung](../../sales-how-invoice-sales.md)
+[Fakturieren eines Verkaufs](../../sales-how-invoice-sales.md)
 

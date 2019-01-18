@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restructure-warehouses"></a>Lager umstrukturieren
@@ -24,7 +24,7 @@ Es kann sein, dass Sie Ihr Lager neu strukturieren und dabei neue Lagerplatzcode
 
 - Sie möchten zu Lagerplatzcodes übergehen, die die Verwendung der mobilen Datenerfassung unterstützen, z. B. mit tragbaren Geräten.  
 - Für das Lager wurde ein neues Regalsystem angeschafft, dass Ihnen neue Möglichkeiten der Lagerung bietet.  
-- Das Unternehmen hat sein Produktsortiment geändert und das Lager an einen neuen Ort verlagert, um sich diesen Veränderungen anzupassen.  
+- Das Unternehmen hat sein Artikelsortiment geändert und das Lager an einen neuen Ort verlagert, um sich diesen Veränderungen anzupassen.  
 
 Wenn Ihr Lager so eingerichtet wurde, dass es Lagerplätze verwendet, aber keine gesteuerte Einlagerung und Kommissionierung, strukturieren Sie Ihr Lager neu, indem Sie die neuen Lagerplätze erstellen, die Sie zukünftig verwenden möchten.  
 
@@ -56,9 +56,9 @@ Sie haben jetzt die Lagerplätze geleert, an denen die Artikel bisher gelagert w
 
     1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
     2.  Wählen Sie die Zeile mit dem Lagerort aus und wählen Sie dann Aktion **Lagerplätze** aus.  
-    3.  Geben Sie im Fenster **Lagerplätze** im Feld **Lagerplatzartencode** für jeden der alten Lagerplätze, die Sie in Schritt 3 des vorherigen Verfahrens geleert haben, **QC** ein.  
+    3.  Geben Sie auf der Seite **Lagerplätze** im Feld **Lagerplatzartencode** für jeden der alten Lagerplätze, die Sie in Schritt 3 des vorherigen Verfahrens geleert haben, **QC** ein.  
 
-Sie haben die Lagerplätze jetzt aus dem Warenfluss entfernt und sie als QC-Lagerplätze umgebucht. QC-Lagerplätze haben im Fenster **Lagerplatzarten** keine ausgewählten Aktivitätenprotokollposten und werden daher durch den Warenfluss nicht berücksichtigt. Weitere Informationen finden Sie unter [Einrichten von Lagerplatzarten](warehouse-how-to-set-up-bin-types.md).  
+Sie haben die Lagerplätze jetzt aus dem Warenfluss entfernt und sie als QC-Lagerplätze umgebucht. QC-Lagerplätze haben auf der Seite **Lagerplatzarten** keine ausgewählten Aktivitätenprotokollposten und werden daher durch den Warenfluss nicht berücksichtigt. Weitere Informationen finden Sie unter [Einrichten von Lagerplatzarten](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>So löschen Sie einen Lagerplatz:  
 
@@ -69,7 +69,7 @@ Sie haben die Lagerplätze jetzt aus dem Warenfluss entfernt und sie als QC-Lage
 
 Wenn Sie **Ja** wählen, wird der Lagerplatz für die zukünftige Verwendung gelöscht, der Lagerplatzcode in allen Lagerplatzposten bleibt jedoch derselbe.  
 
-Wenn Sie einen Lagerplatz umbenennen möchten, so dass alle Datensätze zu diesem Lagerplatz ebenfalls umbenannt werden (die Datensätze umfassen Lagerplatzinhalte, Lageraktivitätszeilen, registrierte Lageraktivitätszeilen, Zeilen in Logistikvorschlägen, Wareneingangszeilen, gebuchte Wareneingangszeilen, Warenausgangszeilen, gebuchte Warenausgangszeilen sowie Lagerplatzposten), können Sie dies im Fenster **Lagerplätze** tun.  
+Wenn Sie einen Lagerplatz umbenennen möchten, so dass alle Datensätze zu diesem Lagerplatz ebenfalls umbenannt werden (die Datensätze umfassen Lagerplatzinhalte, Lageraktivitätszeilen, registrierte Lageraktivitätszeilen, Zeilen in Logistikvorschlägen, Wareneingangszeilen, gebuchte Wareneingangszeilen, Warenausgangszeilen, gebuchte Warenausgangszeilen sowie Lagerplatzposten), können Sie dies auf der Seite **Lagerplätze** tun.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>So benennen Sie einen Lagerplatz um und ändern den Lagerplatzcode in allen Datensätzen:  
 
@@ -85,7 +85,7 @@ Wenn Sie einen Lagerplatz umbenennen möchten, so dass alle Datensätze zu diese
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  

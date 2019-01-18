@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändern von Planungsvorschlägen in einer grafischen Ansicht
 Eine typische Planungsaktivität besteht darin, Planungsvorschlagszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen. Eine Alternative zur Durchführung im Planungsvorschlag ist die Verwendung einer grafischen Ansicht.
 
-Im Fenster **Artikelverfügbarkeit nach Zeitachse** können Sie gewisse Beschaffungsaufträge und Planungsvorschläge ändern, indem Sie Elemente entlang der X-Achse ziehen, um die Menge zu ändern oder entlang der Y-Achse, um das Fälligkeitsdatum zu ändern.  
+Auf der Seite **Artikelverfügbarkeit nach Zeitachse** können Sie gewisse Beschaffungsaufträge und Planungsvorschläge ändern, indem Sie Elemente entlang der X-Achse ziehen, um die Menge zu ändern oder entlang der Y-Achse, um das Fälligkeitsdatum zu ändern.  
 
- Im Fenster **Artikelverfügbarkeit nach Zeitachse** und im Fenster **Planungsvorschlag** können Sie folgende Änderungen vornehmen:  
+ Auf der Seite **Artikelverfügbarkeit nach Zeitachse** und auf der Seite **Planungsvorschlag** können Sie folgende Änderungen vornehmen:  
 
 -   Ändern eines vorgeschlagenen Lieferauftrags, der nur als Planungszeile vorhanden ist.  
 -   Ändern eines vorhandenen Beschaffungsauftrags, den das Planungssystem für eine Änderung vorschlägt.  
@@ -32,14 +32,14 @@ Im Fenster **Artikelverfügbarkeit nach Zeitachse** können Sie gewisse Beschaff
 
 Weitere Informationen zu den gezeigten Planungszeilentypen finden Sie im Feld Beschreibung im Inforegister **Ereignisänderungen**.  
 
-Wenn Sie **Änderungen speichern** im Fenster **Artikelverfügbarkeit nach Zeitachse** auswählen, werden die Änderungen, die Sie durchgeführt haben, in den Planungs- oder Bestellvorschlag kopiert. Sie können sie jetzt mithilfe des **Carry Out Action Msg. Plan.** implementieren  
+Wenn Sie **Änderungen speichern** auf der Seite **Artikelverfügbarkeit nach Zeitachse** auswählen, werden die Änderungen, die Sie durchgeführt haben, in den Planungs- oder Bestellvorschlag kopiert. Sie können sie jetzt mithilfe des **Carry Out Action Msg. Plan.** implementieren  
 
-Der folgende Ablauf zeigt, wie Vorratsvorschläge mit Drag & Drop geändert werden können. Alternativ können Sie die Felder **Fälligkeitsdatum** und **Menge** im Inforegister **Ereignisänderungen** ändern und die Änderungen im Inforegister **Zeitachse** im Fenster **Planung** sofort grafisch anzeigen.  
+Der folgende Ablauf zeigt, wie Vorratsvorschläge mit Drag & Drop geändert werden können. Alternativ können Sie die Felder **Fälligkeitsdatum** und **Menge** im Inforegister **Ereignisänderungen** ändern und die Änderungen im Inforegister **Zeitachse** auf der Seite **Planung** sofort grafisch anzeigen.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>So ändern Sie vorgeschlagene Beschaffungsaufträge in der grafischen Ansicht  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Artikel Verfügbarkeit auf Zeitachse** ein, und wählen dann den zugehörigen Link aus.  
 
-    Das Fenster **Artikelverfügbarkeit nach Zeitachse** wird geöffnet, mit Artikelnummer, Lagerplatz und Variante des Artikels in der ausgewählten Planungszeile, die in den Feldern des Inforegisters **Optionen** vorab ausgefüllt wurde. Das Inforegister **Zeitachse** zeigt die grafische Darstellung des voraussichtlichen Lagerbestands des Artikels, einschließlich Planungsvorschläge.  
+    Die Seite **Artikelverfügbarkeit nach Zeitachse** wird geöffnet, mit Artikelnummer, Lagerplatz und Variante des Artikels in der ausgewählten Planungszeile, die in den Feldern des Inforegisters **Optionen** vorab ausgefüllt wurde. Das Inforegister **Zeitachse** zeigt die grafische Darstellung des voraussichtlichen Lagerbestands des Artikels, einschließlich Planungsvorschläge.  
 
 2.  Stellen Sie sicher, dass das Feld **Planungsvorschläge einschließen** ausgewählt ist.  
 3.  Suchen Sie den vorgeschlagenen Beschaffungsauftrag, der bearbeitet werden soll. Sie erkennen änderbare Elemente an dem grünen Kreis und dem Diskettensymbol. Weitere Informationen über die verschiedenen Symbole, finden Sie im Inforegister Zeitachse.  
@@ -53,7 +53,7 @@ Der folgende Ablauf zeigt, wie Vorratsvorschläge mit Drag & Drop geändert werd
     |**Vorrat automatisch anpassen**|Optimiert einen neuen Vorrat, den Sie im Diagramm erstellt haben, indem Sie sicherstellen, dass sich vor dem nächsten Vorrat ein Lagerbestand von null ergibt.|  
     |**Vorrat löschen**|Löscht das Element im Inforegister **Zeitachse** und löscht die Planungszeile, wenn Sie **Änderungen speichern** auswählen. Das Symbol wird als Diskette mit einem roten Kreuz angezeigt, wenn der Vorrat gelöscht wurde.<br /><br /> **HINWEIS:** Sie können nur einen Vorrat mit dem Ereignismeldungstyp **Neu** löschen. Nachdem Sie **Änderungen speichern** ausgewählt haben, müssen Sie die betreffende Planungszeile im Planungs- oder Bestellvorschlag manuell löschen.|  
 
-7.  Wählen Sie auf der Registerkarte Aktionen in der Gruppe Allgemein die Option **Neu laden** aus, wenn Sie alle Änderungen zurücksetzen möchten, die Sie durchgeführt haben, nachdem Sie zuletzt das Fenster Artikel-**Verfügbarkeit nach Zeitachse**geöffnet oder **Neu laden** ausgewählt haben.  
+7.  Wählen Sie auf der Registerkarte Aktionen in der Gruppe Allgemein die Option **Neu laden** aus, wenn Sie alle Änderungen zurücksetzen möchten, die Sie durchgeführt haben, nachdem Sie zuletzt die Seite **Artikel-Verfügbarkeit nach Zeitachse** geöffnet oder **Neu laden** ausgewählt haben.  
 8. Wenn die Elemente an der gewünschten Stelle im Diagramm positioniert sind, aktivieren Sie **Änderungen speichern**, um Mengen- und Datumsänderungen in die Planungs- oder Bestellvorschlagszeilen zu kopieren, die die grafischen Elemente darstellen.  
 
 Um die Beschaffungsplanänderungen zu übernehmen, müssen Sie den resultierenden Ereignismeldungen aus dem Planungs- oder Bestellvorschlag folgen. Weitere Informationen finden Sie unter Carry Out Action Msg.Plan..
@@ -94,7 +94,7 @@ Zusätzlich zu den Tastaturaktionen, die zuvor erwähnt wurden, können Sie im I
 [Planung](production-planning.md)   
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  

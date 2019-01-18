@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b531cfcb024444e098363725a4e0098d4651396b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Einrichten von Verantwortlichkeiten von Kontaktpersonen
@@ -25,7 +26,7 @@ Sie können Informationen zu den Verantwortlichkeiten von Kontaktpersonen hinzuf
 Die Verwendung von Verantwortlichkeiten zu Kontakten ist ein zwei Schritte umfassender Prozess. Zuerst definieren Sie den Verantwortlichkeitscode. Sie müssen diesen Schritt nur einmal für jede Verantwortlichkeit ausführen. Sobald Sie einen Verantwortlichkeitscode haben, können Sie den Code zu den Kontaktpersonen zuweisen.
 
 ## <a name="to-define-a-job-responsibility-code"></a>um einen Verantwortlichkeitscode zu definieren
-Der Verantwortlichkeitscode definiert die Art oder die Kategorie des Projekts (z. B. MARKETING oder EINKAUFS). Sie können mehrere Verantwortlichkeitscodes haben. Um die Verantwortlichkeit zu definieren, verwenden Sie das **Verantwortlichkeiten**-Fenster.
+Der Verantwortlichkeitscode definiert die Art oder die Kategorie des Projekts (z. B. MARKETING oder EINKAUFS). Sie können mehrere Verantwortlichkeitscodes haben. Um die Verantwortlichkeit zu definieren, verwenden Sie die **Verantwortlichkeiten**-Seite.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Auftragsverantwortlichkeiten** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus, und geben Sie einen Code und eine Beschreibung ein. Der Code kann maximal 11 Zeichen, sowohl Ziffern als auch Buchstaben, umfassen.
@@ -34,12 +35,12 @@ Der Verantwortlichkeitscode definiert die Art oder die Kategorie des Projekts (z
 Sie können keine Verantwortlichkeit zu Kontaktunternehmen zuordnen.
 
 1. Öffnen Sie die Kontaktperson.
-2. Wählen Sie die **Person**-Aktion aus, und wählen Sie dann die **Verantwortlichkeiten**-Aktion aus. Das Fenster **Kontakt Verantwortlichkeiten** wird geöffnet.
+2. Wählen Sie die **Person**-Aktion aus, und wählen Sie dann die **Verantwortlichkeiten**-Aktion aus. Die Seite **Kontakt Verantwortlichkeiten** wird geöffnet.
 3. Wählen Sie im Feld **Verantwortlichkeitscode** die Verantwortlichkeit aus, die Sie zuordnen möchten.
 
 Wiederholen Sie diese Schritte, um beliebig viele Verantwortlichkeiten zuzuordnen. Außerdem können Sie Verantwortlichkeiten auf die gleiche Art in der Kontaktübersicht zuordnen.
 
-Die Anzahl der Verantwortlichkeiten, die Sie dem Kontakt zugeordnet haben, wird im Feld **Anzahl Verantwortlichkeit** im Inforegister **Segmentierung** im Fenster **Kontakt** angezeigt.
+Die Anzahl der Verantwortlichkeiten, die Sie dem Kontakt zugeordnet haben, wird im Feld **Anzahl Verantwortlichkeit** im Inforegister **Segmentierung** auf der Seite **Kontakt** angezeigt.
 
 Sobald Sie Ihren Kontakten Verantwortlichkeiten zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Hinzufügen von Kontakten zu Segmenten](marketing-add-contact-segment.md).
 

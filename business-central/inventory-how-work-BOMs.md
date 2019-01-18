@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Mit Fertigungsstücklisten arbeiten
@@ -51,16 +51,16 @@ Es gibt zwei Schritte zum Erstellen einer Montagestückliste:
 1. Richten Sie einen neuen Artikel ein. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
     Fahren Sie fort, um Komponenten oder Ressourcen in der Montagestückliste einzugeben.  
-2. Im Fenster **Artikelkarte** für einen Montageartikel wählen Sie die **Montage** Aktion aus, und wählen Sie die **Montagestückliste** Aktion aus.
-3. Füllen Sie im Fenster **Montagestückliste** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Auf der Seite **Artikelkarte** für einen Montageartikel wählen Sie die **Montage** Aktion aus, und wählen Sie die **Montagestückliste** Aktion aus.
+3. Füllen Sie auf der Seite **Montagestückliste** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Um die Komponenten eines Montageartikels anzuzeigen gemäß der Stücklistenstruktur
-Im Fenster **Montagestückliste** können Sie ein separates Fenster öffnen, in dem die Komponenten sowie jegliche Ressourcen angezeigt werden, die gemäß ihrer Stücklistenposition unter den Montageartikel eingerückt werden.
+Auf der Seite **Montagestückliste** können Sie ein separates Fenster öffnen, in dem die Komponenten sowie jegliche Ressourcen angezeigt werden, die gemäß ihrer Stücklistenposition unter den Montageartikel eingerückt werden.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
-2. Öffnen Sie das Kartenfenster für den Montageartikel. (Das Feld **Montagestückliste** im Fenster **Artikel** enthält **Ja**.)
-3. Im Fenster **Artikelkarte** für einen Montageartikel wählen Sie die **Montage** Aktion aus, und wählen Sie die **Montagestückliste** Aktion aus.
-4. Wählen Sie im Fenster **Montagestückliste** die Aktion **Stückliste anzeigen** aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
+2. Öffnen Sie das Kartenfenster für den Montageartikel. (Das Feld **Montagestückliste** auf der Seite **Artikel** enthält **Ja**.)
+3. Auf der Seite **Artikelkarte** für einen Montageartikel wählen Sie die **Montage** Aktion aus, und wählen Sie die **Montagestückliste** Aktion aus.
+4. Wählen Sie auf der Seite **Montagestückliste** die Aktion **Stückliste anzeigen** aus.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Um den Montageartikel von den Komponenten in Belegzeilen ersetzen
 von beliebigen Verkaufs- und Einkaufsbeleg aus, die einen Montageartikel enthalten, können Sie eine spezielle Funktion verwenden, um die Zeile für den Montageartikel durch neue Zeilen für Komponenten zu ersetzen. Diese Funktion kann beispielsweise dann nützlich sein, wenn Sie die Komponenten als Kit verkaufen möchten, das den Montageartikel darstellt.
@@ -75,19 +75,19 @@ Das folgende Verfahren basiert auf einer Verkaufsrechnung. Die gleichen Schritte
 
 Alle Felder in der Verkaufsrechnungszeile für den Montageartikel werden außer für den **Artikel** **Beschreibung** gelöscht. Vollständige Verkaufsrechnungszeilen werden für die Komponenten und möglichen Ressourcen eingefügt, aus denen der Montageartikel besteht.
 
-**Hinweis**: Die entfaltete Stücklistenfunktion ist im Fenster **Montagestückliste** verfügbar.
+**Hinweis**: Die entfaltete Stücklistenfunktion ist auf der Seite **Montagestückliste** verfügbar.
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>So berechnen Sie den festen Einstandspreis von Montagestücklisten
 Sie berechnen den Einstandspreis eines Montageartikels, indem Sie den Einstandspreis jeder Komponente und Ressource in der Montagestückliste des Artikels ermitteln.
 
-Sie können den Einstandspreis (fest) für eine oder mehrere Artikel im Fenster **Einst.-Preis (fest) Vorschlag** auch berechnen und aktualisieren. Weitere Informationen zum Erstellen von Erfassungen finden Sie unter [Standard-Buch.-Blätter aktualisieren](finance-how-to-update-standard-costs.md).  
+Sie können den Einstandspreis (fest) für eine oder mehrere Artikel auf der Seite **Einst.-Preis (fest) Vorschlag** auch berechnen und aktualisieren. Weitere Informationen zum Erstellen von Erfassungen finden Sie unter [Standard-Buch.-Blätter aktualisieren](finance-how-to-update-standard-costs.md).  
 
 Der Einstandspreis einer Montagestückliste entspricht immer der Summe der Einstandspreise der Komponenten, Artikel und aller Ressourcen.
 
 1. Wählen Sie in der rechten oberen Ecke das Symbol **Nach Seite oder Bericht suchen** aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
-2. Öffnen Sie das Kartenfenster für den Montageartikel. (Das Feld **Montagestückliste** im Fenster **Artikel** enthält **Ja**.)
-3. Im Fenster **Artikelkarte** für einen Montageartikel wählen Sie die **Montage** Aktion aus, und wählen Sie die **Montagestückliste** Aktion aus.
-4. Im Fenster **Montagestückliste** wählen Sie die **Calc. Einstandspreis (fest)** Aktion aus.
+2. Öffnen Sie das Kartenfenster für den Montageartikel. (Das Feld **Montagestückliste** auf der Seite **Artikel** enthält **Ja**.)
+3. Auf der Seite **Artikelkarte** für einen Montageartikel wählen Sie die **Montage** Aktion aus, und wählen Sie die **Montagestückliste** Aktion aus.
+4. Auf der Seite **Montagestückliste** wählen Sie die **Calc. Einstandspreis (fest)** Aktion aus.
 5. Wählen Sie eine der Optionen aus, und klicken Sie auf **OK**.
 
 |Option |Description |
@@ -102,6 +102,6 @@ Die Einstandspreise der Artikel, aus denen die Montagestückliste besteht, werde
 ## <a name="see-also"></a>Siehe auch
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)     
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

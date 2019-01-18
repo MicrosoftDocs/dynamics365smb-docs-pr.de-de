@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a4a35cec571f1a0c7644fe937553d87007a9567e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Designdetails: Unter dem Überlauflevel bleiben
@@ -60,7 +60,7 @@ Planungszeilen-Menge = Netzstrom-Menge - (voraussichtlicher Lagerbestand - Über
 -   Wenn die Planungszeilenmenge gleich oder niedriger als 0 ist, ist die Aktionsmeldung „Stornieren“.  
 
 ### <a name="composing-the-warning-message"></a>Verfassen der Warnmeldung  
-Im Falle eines Überlaufs zeigt das Fenster  **Planungselement ohne Nachverfolgung** eine Warnmeldung mit den folgenden Informationen an:  
+Im Falle eines Überlaufs zeigt die Seite  **Planungselement ohne Nachverfolgung** eine Warnmeldung mit den folgenden Informationen an:  
 
 -   Der voraussichtliche Lagerbestand, der die Warnung ausgelöst hat.  
 -   Der berechnete Überlauflevel  
@@ -77,7 +77,7 @@ In diesem Szenario ändert ein Debitor einen Verkaufsauftrag von 70 zu 40 Stück
 |-----------------------|------------------|  
 |Maximale Losgröße|100|  
 |Minimalbestand|50|  
-|Lager|80|  
+|Lagerbest|80|  
 
 ### <a name="situation-before-sales-decrease"></a>Situation vor Vertriebsabgang  
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne
@@ -65,7 +65,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kampagnen** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie die **Neu** Aktion aus, um eine neue Kampagne zu erstellen. Klicken Sie auf die Kampagnenkarte, drücken Sie die Eingabetaste, um eine Kampagnennummer automatisch einfügen zu lassen.  
 3.  Geben Sie im Feld **Beschreibung** eine Beschreibung für die Kampagne ein, z. B. **FUTURUS-Messe**.  
-4.  Wählen Sie das Feld **Statuscode** und wählen Sie im Fenster **Kampagnenstatus** einen Statuscode aus der List aus, die sich öffnet, aus.  
+4.  Wählen Sie das Feld **Statuscode** und wählen Sie auf der Seite **Kampagnenstatus** einen Statuscode aus der List aus, die sich öffnet, aus.  
 5.  Füllen Sie die Felder **Startdatum** und **Enddatum** der Kampagne aus.  
 
 ## <a name="selecting-the-target-audience"></a>Auswählen der Zielgruppe  
@@ -83,16 +83,16 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
      Sie verwenden Filter, um Kontakte nach den Kriterien hinzuzufügen, die für Ihre Zwecke am besten geeignet sind. Mithilfe von Filtern können Sie Kontakte z. B. nach der Verantwortlichkeit der Kontaktperson oder der Geschäftsbeziehung oder Branche des Unternehmens hinzufügen. In dieser Demonstration verwenden Sie den Filter **Verantwortlichkeit** zum Auswählen von Kontakten.  
 
-4.  Im Fenster **Segment** wählen Sie die **Kontakte hinzufügen** Aktion aus, den Filter **Kontakte hinzufügen** zu öffnen.  
+4.  Auf der Seite **Segment** wählen Sie die **Kontakte hinzufügen** Aktion aus, den Filter **Kontakte hinzufügen** zu öffnen.  
 5.  Wählen Sie auf dem Inforegister **Verantwortlichkeit** den Filter **Einkauf** als **Verantwortlichkeitscode** aus, und wählen Sie dann die Schaltfläche **OK**.  
 
-     Das Fenster **Segment** enthält jetzt eine auf dem eingegebenen Filter beruhende Liste von Kontakten. Im Inforegister **Allgemein** im Feld **Anzahl Zeilen** können Sie auf einen Blick die Anzahl der Kontakte sehen, die diesen Kriterien entsprechen.  
+     Die Seite **Segment** enthält jetzt eine auf dem eingegebenen Filter beruhende Liste von Kontakten. Im Inforegister **Allgemein** im Feld **Anzahl Zeilen** können Sie auf einen Blick die Anzahl der Kontakte sehen, die diesen Kriterien entsprechen.  
 
     > [!NOTE]  
     >  Sie können die Segmentierungskriterien zur Wiederverwendung speichern.
 
-    1.  Im Fenster **Segment** wählen Sie die **Segment** Aktion aus, und wählen Sie die **Speicherkriterien** Aktion aus.  
-    2.  Geben Sie im Fenster **Segmentkriterien speichern** einen Code für das Segment ein. Geben Sie im Feld **Beschreibung** eine der Segmentkriterien ein.
+    1.  Auf der Seite **Segment** wählen Sie die **Segment** Aktion aus, und wählen Sie die **Speicherkriterien** Aktion aus.  
+    2.  Geben Sie auf der Seite **Segmentkriterien speichern** einen Code für das Segment ein. Geben Sie im Feld **Beschreibung** eine  der Segmentkriterien ein.
     3.  Wählen Sie die Schaltfläche **OK** aus.  
 
 ## <a name="mining-the-data"></a>Data Mining  
@@ -100,15 +100,15 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
 ### <a name="to-remove-contacts-from-the-segment"></a>So entfernen Sie Kontakte aus dem Segment  
 
-1.  Klicken Sie im Fenster **Segment** auf Aktionen, zeigen Sie auf Funktionen, klicken Sie auf **Kontakte** und klicken Sie dann auf **Kontakte ausblenden**, um den Filter **Kontakte entfernen - Ausblenden** zu öffnen.  
+1.  Klicken Sie auf der Seite **Segment** auf Aktionen, zeigen Sie auf Funktionen, klicken Sie auf **Kontakte** und klicken Sie dann auf **Kontakte ausblenden**, um die Seite **Kontakte entfernen - Ausblenden** zu öffnen.  
 2.  Wählen Sie auf dem Inforegister **Geschäftsbeziehung** den Filter **INTERESS** als **Geschäftsbeziehungscode** aus, und wählen Sie dann die Schaltfläche **OK**.  
 
-     Das Fenster **Segment** enthält jetzt eine eingeschränkte Liste von Kontakten, und im Feld **Anzahl Zeilen** wird angezeigt, wie viele Kontakte diesen neuen Kriterien entsprechen.  
+     Die Seite **Segment** enthält jetzt eine eingeschränkte Liste von Kontakten, und im Feld **Anzahl Zeilen** wird angezeigt, wie viele Kontakte diesen neuen Kriterien entsprechen.  
 
     > [!NOTE]  
     >  Wenn Sie das Entfernen einer Gruppe von Kontakten rückgängig machen müssen, können Sie dazu die Funktion **Ein Kriterium zurück** verwenden. Anders gesagt, Sie können die letzte Segmentierung rückgängig machen.  
     >   
-    >  Im Fenster **Segment** wählen Sie die **Segment** Aktion aus, und wählen Sie die **Zurück** Aktion aus.  
+    >  Auf der Seite **Segment** wählen Sie die **Segment** Aktion aus, und wählen Sie die **Zurück** Aktion aus.  
     >   
     >  Die Kontakte, die Sie soeben entfernt haben, werden wieder in die Liste der Kontakte eingefügt.  
 
@@ -117,7 +117,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>So verknüpfen Sie ein Segment mit der Kampagne  
 
-1.  Im Fenster **Segment** im Inforegister **Kampagne**, **Kampagnennr.** Feld, um die Kampagne auszuwählen, zu der Sie das Segment zuordnen möchten **KP0001**.  
+1.  Auf der Seite **Segment** im Inforegister **Kampagne**, **Kampagnennr.** Feld, um die Kampagne auszuwählen, zu der Sie das Segment zuordnen möchten **KP0001**.  
 2.  Da dieses Segment die Zielgruppe der Kampagne darstellt, aktivieren Sie das Kästchen **Kampagnenziel**.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Senden von Briefen und E-Mail-Nachrichten an Kontakte  
@@ -132,7 +132,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
     > [!NOTE]  
     >  Diese Vorlage besteht aus mehreren Anlagen, die alle in jeweils unterschiedlicher Sprache verfasst sind. Zu den Beispielsprachen gehören auch Englisch und Dänisch.  
 
-4.  Wählen Sie das Feld **Sprachcode (Standard)**, um das Fenster **Segmentaktivitätensprachen** zu öffnen. Wählen Sie einen Sprachcode aus, und wählen Sie dann die Schaltfläche **OK**.  
+4.  Wählen Sie das Feld **Sprachcode (Standard)**, um die Seite **Segmentaktivitätensprachen** zu öffnen. Wählen Sie einen Sprachcode aus, und wählen Sie dann die Schaltfläche **OK**.  
 5.  Sie können das Dokument in der ausgewählten Sprache anzeigen. Wählen Sie die **Dateianhang** Aktion aus, und wählen Sie die **Öffnen** Aktion aus.  
 
      Um die Nachricht zu beantworten, die nach der Berechtigung zum Starten von Word fragt, wählen Sie die Option **Für diese Clientsitzung zulassen** aus.  
@@ -160,7 +160,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 2.  Geben Sie im Feld **Betreff (Standard)** den folgenden Beispieltext ein: **Vielen Dank für Ihren Besuch auf der Messe**.  
 3.  Wählen Sie im Feld **Korrespondenzart** **E-Mail** aus.  
 4.  Geben Sie Spracheneinstellungen, wie im vorhergegangenen Verfahren, an.  
-5.  Wählen Sie die Aktion **Protokoll** aus. Das Fenster **Segment protokollieren** wird geöffnet.  
+5.  Wählen Sie die Aktion **Protokoll** aus. Die Seite **Segment protokollieren** wird geöffnet.  
 6.  Wählen Sie das Feld **Dateianhänge senden**, um die Dateianhänge per E-Mail zu versenden.  
 7.  Wählen Sie das Kontrollkästchen **Anschluss-Segment erstellen**.  
 8.  Wählen Sie die Schaltfläche **OK** aus.  
@@ -174,12 +174,12 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
 ### <a name="to-register-campaign-responses"></a>So erfassen Sie Kampagnenreaktionen  
 
-1.  Erweitern Sie im Fenster **Segment** das Inforegister **Interaktion**.  
+1.  Erweitern Sie auf der Seite **Segment** das Inforegister **Interaktion**.  
 2.  Wählen Sie das Feld **Aktivitätenvorlagencode** aus.  
 
      Da keine Interaktionsvorlage für die Erfassung von Kampagnenreaktionen verfügbar ist, erstellen Sie eine neue Vorlage. Hierfür erstellen Sie eine neue Word-Dokumentvorlage.  
 
-3.  Wählen Sie im Fenster **Interaktionsvorlagen** **Neu**.  
+3.  Wählen Sie auf der Seite **Interaktionsvorlagen** **Neu**.  
 4.  Geben Sie im Feld **Code** den Code **REAKT** und im Feld **Beschreibung** den Text **Kampagnenreaktionen** ein.  
 5.  Wählen Sie die Schaltfläche **OK** aus.  
 6.  Wählen Sie diese Aktivitätenvorlage im Feld **Aktivitätenvorlagencode** aus, und bestätigen Sie die Meldung, in der Sie gefragt werden, ob die Segmentszeilen mit diesem Aktivitätenvorlagencode aktualisiert werden sollen.  
@@ -190,10 +190,10 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 9. Wählen Sie das Feld **Kampagnenreaktion** aus, und bestätigen Sie die nachfolgende Meldung.  
 
      Protokollieren Sie das Segment, um sicherzustellen, dass die Interaktionen erfasst werden.  
-10. Wählen Sie im Fenster **Segment** **Protokoll** aus.  
-11. Deaktivieren Sie im Fenster **Segment protokollieren** das Kontrollkästchen **Dateianhänge senden**, und wählen Sie dann die Schaltfläche **OK**, und bestätigen Sie die Meldung, die angezeigt wird.  
+10. Wählen Sie auf der Seite **Segment** **Protokoll** aus.  
+11. Deaktivieren Sie auf der Seite **Segment protokollieren** das Kontrollkästchen **Dateianhänge senden**, und wählen Sie dann die Schaltfläche **OK**, und bestätigen Sie die Meldung, die angezeigt wird.  
 
-     Nachdem das Segment protokolliert wurde, wird automatisch ein Eintrag für die Kampagne erstellt, um diese Aktion im Fenster **Kampagnenposten** zu erfassen.  
+     Nachdem das Segment protokolliert wurde, wird automatisch ein Eintrag für die Kampagne erstellt, um diese Aktion auf der Seite **Kampagnenposten** zu erfassen.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Marketing & Vertrieb](marketing-relationship-management.md)  

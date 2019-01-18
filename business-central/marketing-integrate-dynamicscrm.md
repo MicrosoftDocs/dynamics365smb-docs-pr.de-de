@@ -1,6 +1,6 @@
 ---
 title: Verwalten von Debitoren, die Dynamics 365 for Sales nutzen| Microsoft Docs
-description: "Sie können Dynamics 365 for Sales aus  Business Central. nutzen, um Daten zu verknüpfen und eine nahtlose Integration und Synchronisation der führenden Prozesse sicherzustellen."
+description: "Sie können Dynamics 365 for Sales aus Business Central nutzen, um Daten zu verknüpfen und eine nahtlose Integration und Synchronisation der führenden Prozesse sicherzustellen."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 057db7c39834c7be0fb93589e4fc58d740dd259c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65466039efae2b18821fb03b6465f4c8c5e18f68
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten
@@ -45,7 +45,7 @@ In der folgenden Tabelle sind die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Da
 |Option|Produkt|Business Central -> Sales and Sales -> Business Central|Vertriebskontaktfilter: **Produkt-Typ** ist **Verkaufs-Lager**|
 |Ressource|Produkt|Business Central -> Sales and Sales -> Business Central|Vertriebskontaktfilter: **Produkt-Typ** ist **Service**|
 |Debitorenpreisgruppe|VK-Preisliste|Business Central -> Sales| |
-|Verkaufspreis|Produkt-Preisliste|Business Central -> Sales|Zentraler Kontaktfilter des Geschäfts: **Verkaufscode** ist nicht leer ist **Verkaufsart** ist **Debitorenpreisgruppe**|
+|Verkaufspreis|Produkt-Preisliste|Business Central -> Sales|Kontaktfilter von Business Central: **Verkaufscode** ist nicht leer ist **Verkaufsart** ist **Debitorenpreisgruppe**|
 |Verkaufschance|Verkaufschance|Business Central -> Sales and Sales -> Business Central| |
 |Verkaufsrechnungskopf|Fakturieren|Business Central -> Sales| |
 |Verkaufsrechnungszeile|Rechnungsprodukt|Business Central -> Sales| |
@@ -57,7 +57,7 @@ Drei Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] werden den Options-
 
 Die Datensätze in der Tabelle, die sich nicht auf die Optionen beziehen, die in der Tabelle vorhanden sind, werden übersprungen. während der Synchronisierung. Das bedeutet, dass das Feld **Option** in Sales leer ist.
 
-Die folgende Tabelle zeigt Zuordnungen der zentralen Tabellen des Geschäfts für das Feld **Option** **Konto** in der Maßeinheit an.
+Die folgende Tabelle zeigt Zuordnungen der Business Central-Tabellen für das Feld **Option** **Konto** in der Maßeinheit an.
 
 |Tisch|Optionsfeld in der Kontoen-Einheit in Sales|
 |----------------------|-------------------------------------------|
@@ -89,7 +89,7 @@ Die folgende Tabelle beschreibt Regeln, die die Synchronisierung zwischen Busine
 Von der Startseite können Sie auf den unterstützten Setup für **Microsoft Dynamics 365 Verbindungseinrichtung** zugreifen, der Ihnen hilft, den Link einzurichten. Sobald das getan wird, haben Sie eine nahtlose Kopplung Sales-Datensätze mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen.  
 
 > [!NOTE]  
->   Das folgende berücksichtigt die unterstützte Einrichtung, aber Sie können dieselben Aufgaben im Fenster **Sales-Verbindungseinrichtung** manuell ausführen.
+>   Das folgende berücksichtigt die unterstützte Einrichtung, aber Sie können dieselben Aufgaben auf der Seite **Sales-Verbindungseinrichtung** manuell ausführen.
 
 Im unterstützten Einrichtungshandbuch können Sie auswählen, welche Daten zwischen den beiden Services zu synchronisieren sind. Sie können auch festlegen, dass Sie die vorhandene Lösung in die bestehende Sales-Lösung importieren möchten. In diesem Fall müssen Anmeldeinformationen für ein Administratorkonto angeben.
 
@@ -113,7 +113,7 @@ Wenn Sie *Verkaufsauftragsintegration* aktivieren, müssen Sie einen Benutzer fe
 ### <a name="coupling-records"></a>Kopplungsdatensätze
 Im unterstützten Einrichtungshandbuch können Sie auswählen, welche Daten zwischen den beiden Services zu synchronisieren sind. Später können Sie die Synchronisierung für bestimmte Arten von Daten einrichten. Dieses wird als *Koppeln* betrachtet und der entsprechende Abschnitt bietet Empfehlungen für das, was Sie berücksichtigen müssen.
 
-Wenn Sie Konten in Sales als Debitor in [!INCLUDE[d365fin](includes/d365fin_md.md)] anzeigen möchten, müssen Sie die beiden Arten von Datensätzen koppeln. Dies ist nicht sehr kompliziert - öffnen Sie das Fenster **Debitorenübersicht** in [!INCLUDE[d365fin](includes/d365fin_md.md)], es gibt eine Aktion im Menüband, um diese Daten mit Sales zu koppeln. Dann legen Sie fest, welche [!INCLUDE[d365fin](includes/d365fin_md.md)] Debitoren den Konten in Sales entsprechen.
+Wenn Sie Konten in Sales als Debitor in [!INCLUDE[d365fin](includes/d365fin_md.md)] anzeigen möchten, müssen Sie die beiden Arten von Datensätzen koppeln. Dies ist nicht sehr kompliziert - öffnen Sie die Seite **Debitorenübersicht** in [!INCLUDE[d365fin](includes/d365fin_md.md)], es gibt eine Aktion im Menüband, um diese Daten mit Sales zu koppeln. Dann legen Sie fest, welche [!INCLUDE[d365fin](includes/d365fin_md.md)] Debitoren den Konten in Sales entsprechen.
 
 In bestimmten Bereichen beruht die Funktionalität auf Sie bestimmten Datensätze vor anderen Datensätzen, wie in der folgenden Liste angezeigt:
 
@@ -122,7 +122,7 @@ In bestimmten Bereichen beruht die Funktionalität auf Sie bestimmten Datensätz
 * Artikel und Ressourcen  
   * Koppelt Maßeinheiten mit Sales Einheitengruppe zuerst  
 * Artikel und Ressourcenpreise  
-  * Koppelt Debitorenpreisgruppen mit Sales-Preisen zuerst  
+  * Koppelt Debitorenpreisgruppen mit Verkaufspreisen zuerst  
 
 > [!NOTE]  
 >   Wenn Sie Verkaufspreise in Fremdwährungen verwenden, stellen Sie sicher, dass Sie Währungen mit Sales-Transaktionswährungen koppeln.
@@ -130,16 +130,16 @@ In bestimmten Bereichen beruht die Funktionalität auf Sie bestimmten Datensätz
 In Sales hängen Verkaufsaufträge von zusätzlichen Informationen wie Debitoren, Maßeinheiten, Währungen, Debitorenpreisgruppen, Artikeln und/oder Ressourcen ab. Damit Verkaufsaufträg nahtlos arbeiten, müssen Sie Debitoren, Maßeinheiten, Währungen, Debitorenpreisgruppen, Artikel und/oder Ressourcen zuerst koppeln.
 
 ### <a name="synchronizing-records-fully"></a>Datensätze vollständig synchronisieren
-Am Ende der unterstützen Einrichtung können Sie die Aktion **Vollständige Synchronisierung ausführen** auswählen, um die Synchronisierung aller Datensätze mit allen [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen mit allen verknüpften Einträgen in den verbundenen Sales-Lösung zu starten. Im Fenster **Überprüfung vollständige CRM-Synchronisierung** wählen Sie die Aktion **Starten** aus. Die Synchronisierung beginnt dann, Aufgaben entsprechend der Abhängigkeiten auszuführen. Beispielsweise werden Währungsdatensätze vor Debitorendatensätze synchronisiert. Die vollständige Synchronisierung wird möglicherweise viel Zeit in Anspruch nehmen und läuft im Hintergrund, damit Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] weiter arbeiten können.
+Am Ende der unterstützen Einrichtung können Sie die Aktion **Vollständige Synchronisierung ausführen** auswählen, um die Synchronisierung aller Datensätze mit allen [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen mit allen verknüpften Einträgen in den verbundenen Sales-Lösung zu starten. Auf der Seite **Überprüfung vollständige CRM-Synchronisierung** wählen Sie die Aktion **Starten** aus. Die Synchronisierung beginnt dann, Aufgaben entsprechend der Abhängigkeiten auszuführen. Beispielsweise werden Währungsdatensätze vor Debitorendatensätze synchronisiert. Die vollständige Synchronisierung wird möglicherweise viel Zeit in Anspruch nehmen und läuft im Hintergrund, damit Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] weiter arbeiten können.
 
-Um den Status aus einzelnen Projekte in einer vollständigen Synchronisierung sicherzustellen, blättern Sie im **Projektwarteschlangenposten-Status** nach unten zum Feld **Um Int. Tabellen-Projekt-Status** oder **Von Int. Tabellen-Projekt-Status** im Fenster **CRM Full Synch. Prüfen**.
+Um den Status aus einzelnen Projekte in einer vollständigen Synchronisierung sicherzustellen, blättern Sie im **Projektwarteschlangenposten-Status** nach unten zum Feld **Um Int. Tabellen-Projekt-Status** oder **Von Int. Tabellen-Projekt-Status** auf der Seite **CRM Full Synch. Prüfen**.
 
-Im Fenster **Microsoft Dynamics 365 Verbindungseinrichtung** können Sie Details über sämtliche Synchronisierungen sehen. Von hier können Sie das Fenster **Integrationstabellenzuordnungen** auch öffnen, um Details über die Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] und in der Sales-Lösung finden, die synchronisiert werden müssen.
+Auf der Seite **Microsoft Dynamics 365 Verbindungseinrichtung** können Sie Details über sämtliche Synchronisierungen sehen. Von hier können Sie die Seite **Integrationstabellenzuordnungen** auch öffnen, um Details über die Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] und in der Sales-Lösung finden, die synchronisiert werden müssen.
 
 ## <a name="handling-special-sales-order-data"></a>Auflösen von bestimmten Verkaufsauftrags-Daten
-Verkaufsaufträge in Sales werden automatisch übertragen in [!INCLUDE[d365fin](includes/d365fin_md.md)], wenn Sie das Kontrollkästchen **Automatisches Erstellen von Verkaufsaufträgen** im Fenster **Microsoft Dynamics 365 Verbindungseinrichtung** auswählen. In solchen Verkaufsaufträgen wird das **Name** Feld im ursprünglichen Auftrag dem Feld **Externe Belegnummer** im Verkaufsauftrag in [!INCLUDE[d365fin](includes/d365fin_md.md)] übertragen und zugeordnet.
+Verkaufsaufträge in Sales werden automatisch übertragen in [!INCLUDE[d365fin](includes/d365fin_md.md)], wenn Sie das Kontrollkästchen **Automatisches Erstellen von Verkaufsaufträgen** auf der Seite **Microsoft Dynamics 365 Verbindungseinrichtung** auswählen. In solchen Verkaufsaufträgen wird das **Name** Feld im ursprünglichen Auftrag dem Feld **Externe Belegnummer** im Verkaufsauftrag in [!INCLUDE[d365fin](includes/d365fin_md.md)] übertragen und zugeordnet.
 
-Dies kann auch gehen, wenn der ursprüngliche Verkaufsaufttag geschriebene Produkte enthält, d.h. Artikel oder Ressourcen sind nicht in beiden Produkten erfasst worden. In diesem Fall müssen Sie die Felder**Geschriebenen Produkttyp** und die **Geschriebene Produktnummer** ausfüllen im Fenster **Debitoren & Verkauf Einr.**, damit solche nicht-registrierte Produktverkäufe in einem angegebenen Artikel/einer Ressourcennummer für Finanzanalyse zugeordnet werden.
+Dies kann auch gehen, wenn der ursprüngliche Verkaufsaufttag geschriebene Produkte enthält, d.h. Artikel oder Ressourcen sind nicht in beiden Produkten erfasst worden. In diesem Fall müssen Sie die Felder**Geschriebenen Produkttyp** und die **Geschriebene Produktnummer** ausfüllen auf der Seite **Debitoren & Verkauf Einr.**, damit solche nicht-registrierte Produktverkäufe in einem angegebenen Artikel/einer Ressourcennummer für Finanzanalyse zugeordnet werden.
 
 Wenn die Artikelbeschreibung des ursprünglichen Verkaufsauftrag sehr lang ist, wird eine zusätzliche Verkaufsauftragszeile der Art Bemerkung erstellt, um den Text in dem Verkaufsauftrag festzuhalten[!INCLUDE[d365fin](includes/d365fin_md.md)].
 

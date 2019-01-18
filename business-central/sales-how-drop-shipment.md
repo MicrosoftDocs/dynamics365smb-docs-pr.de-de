@@ -13,10 +13,10 @@ ms.search.keywords: direct shipment
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-drop-shipments"></a>Direktlieferungen machen
@@ -36,7 +36,7 @@ Um eine Direktlieferung für den Artikel, der verkauft werden soll, vorzubereite
 1. Erstellen Sie eine Bestellung. Füllen Sie keines dieser Felder in den Zeilen aus. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 2. Wählen Sie im Feld **Verk. an Deb.-Nr.** den Debitor aus, an die Sie verkaufen.
 3. Wählen Sie die Aktion **Direktlieferungen** aus, und dann die Aktion **Auftrag holen**.
-4. Im Fenster **Verkaufsübersicht** wählen Sie den Auftrag, den Sie im Abschnitt "So erstellen Sie einen Verkaufsauftrag für Direktlieferung" vorbereitet haben.
+4. Auf der Seite **Verkaufsübersicht** wählen Sie den Auftrag, den Sie im Abschnitt "So erstellen Sie einen Verkaufsauftrag für Direktlieferung" vorbereitet haben.
 5. Wählen Sie die Schaltfläche **OK** aus.
 
 Die Zeileninformation aus dem Auftrag werden in die Bestellzeile eingetragen.
@@ -57,10 +57,10 @@ Wenn der Kreditor die Artikel geliefert hat, können Sie den Verkaufsauftrag als
 
 ## <a name="see-also"></a>Siehe auch
 [Spezialaufträge erstellen:](sales-how-to-create-special-orders.md)  
-[Einkauf von Produkten für einen Verkauf](purchasing-how-purchase-products-sale.md)  
+[Einkauf von Artikeln für einen Verkauf](purchasing-how-purchase-products-sale.md)  
 [Produkte verkaufen](sales-how-sell-products.md)  
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
 [Verkauf](sales-manage-sales.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

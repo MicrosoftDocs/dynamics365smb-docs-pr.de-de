@@ -11,10 +11,10 @@ ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: b535255be4b751744ae8c459bdc3d87cd1271dee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5e4bd35edea680c46cb0df753b50916b1aeb93be
 ms.contentlocale: de-de
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchronisieren Sie Kontakte in Business Central mit Kontakten in Microsoft Outlook
@@ -23,9 +23,9 @@ Sie können die gleichen Kontakte sehen in [!INCLUDE[d365fin](includes/d365fin_m
 Ein dedizierter Ordner in Outlook macht es einfach, Kontakte zu finden, und Sie können einen Filter setzen, um nur die Kontakte von [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisierenen, die Sie in Outlook anzeigen möchten. Sobald die Kontaktsynchronisierung eingerichtet ist, können Sie die Synchronisierung manuell beginnen oder eine automatische Synchronisierung einrichten, die Kontakte nach einem Zeitplan synchronisiert.  
 
 ## <a name="set-up-synchronization"></a>Synchronisierung einrichten
-Sie geben an, wie Sie die Synchronisierung der Kontakte mit Outlook einrichten möchten im Fenster **Exchange Synchronisierung einrichten** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als Voraussetzung muss Ihr Benutzerprofil [!INCLUDE[d365fin](includes/d365fin_md.md)] Ihr E-Mail-Konto in Office 365 angeben. Sie können dies im Abschnitt **Office 365 Authentifizierung** des Benutzerprofils in der Übersicht **Benutzer** überprüfen.  
+Sie geben an, wie Sie die Synchronisierung der Kontakte mit Outlook einrichten möchten auf der Seite **Exchange Synchronisierung einrichten** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als Voraussetzung muss Ihr Benutzerprofil [!INCLUDE[d365fin](includes/d365fin_md.md)] Ihr E-Mail-Konto in Office 365 angeben. Sie können dies im Abschnitt **Office 365 Authentifizierung** des Benutzerprofils in der Übersicht **Benutzer** überprüfen.  
 
-In dem Fenster **Exchange Synchronisierung einrichten** können Sie die Verbindung mit Exchange überprüfen und die Synchronisierung von Kontakten festlegen. Öffnen Sie das Fenster **Kontaktsynchronisierung einrichten** und starten Sie die Synchronisierung. Optional können Sie einen Filter für die Kontakte setzen, die Sie zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und Outlook synchronisieren möchten. Beispielsweise können Sie einen Filter für Namen, Art, Unternehmen oder ähnlichem festlegen. Sie können den Standardnamen des Ordners auch ändern, der die Kontakte in Outlook synchronisiert. Der Standardname ist *Business Central*.  
+Auf der Seite **Exchange Synchronisierung einrichten** können Sie die Verbindung mit Exchange überprüfen und die Synchronisierung von Kontakten festlegen. Öffnen Sie die Seite **Kontaktsynchronisierung einrichten** und starten Sie die Synchronisierung. Optional können Sie einen Filter für die Kontakte setzen, die Sie zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und Outlook synchronisieren möchten. Beispielsweise können Sie einen Filter für Namen, Art, Unternehmen oder ähnlichem festlegen. Sie können den Standardnamen des Ordners auch ändern, der die Kontakte in Outlook synchronisiert. Der Standardname ist *Business Central*.  
 
 Sobald diese Synchronisierung eingerichtet wurde, werden Änderungen. die Sie an Kontakten entweder in Outlook oder in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen, miteinander synchronisiert.  
 

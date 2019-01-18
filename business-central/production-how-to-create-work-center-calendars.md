@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Betriebskalender einrichten
@@ -39,7 +39,7 @@ Selbst wenn Ihre Arbeitsplatzgruppen nicht in verschiedenen Schichten arbeiten, 
 2.  Geben Sie in einer leeren Zeile eine Zahl im Feld **Code** ein, um den Betriebskalender zu bestimmen.  
 3.  Geben Sie im Feld **Beschreibung** eine Beschreibung für den Betriebskalender ein.  
 4.  Wählen Sie die **Arbeitstage** Aktion aus.
-5.  Im Fenster **Betriebskalenderarbeitstage** bestimmen Sie eine ganze Arbeitswoche mit den Start- und Endzeiten für jeden Tag.  
+5.  Auf der Seite **Betriebskalenderarbeitstage** bestimmen Sie eine ganze Arbeitswoche mit den Start- und Endzeiten für jeden Tag.  
 
     Wählen Sie im Feld **Schichtcode** eine der Schichten aus, die Sie zuvor definierten. Fügen Sie eine Zeile für jeden Arbeitstag und jede Schicht hinzu. Beispiel:  
 
@@ -55,10 +55,10 @@ Selbst wenn Ihre Arbeitsplatzgruppen nicht in verschiedenen Schichten arbeiten, 
 
     Alle Wochentage, die nicht im Betriebskalender definiert sind, z. B. Samstag und Sonntag, werden einfach als Nicht-Werktage betrachtet, und sie weisen im Arbeitsplatzgruppenkalender keine verfügbare Kapazität auf.  
 
-    Wenn alle Arbeitstage einer Woche definiert sind, können Sie das Fenster **Betriebskalenderarbeitstage** schließen und mit der Eingabe von Feiertagen fortfahren.  
+    Wenn alle Arbeitstage einer Woche definiert sind, können Sie die Seite **Betriebskalenderarbeitstage** schließen und mit der Eingabe von Feiertagen fortfahren:  
 
-6.  Im Fenster **Betriebskalender** wählen Sie den Betriebskalender, und wählen die **Feiertage** Aktion aus.
-7. Im Fenster **Betriebskalender-Feiertage**definieren Sie nun die Feiertage des Jahres, indem Sie Anfangsdatum und -uhrzeit sowie Enddatum und -uhrzeit sowie eine Beschreibung des jeweiligen Feiertags in einzelnen Zeilen eingeben. Beispiel. Beispiel:  
+6.  Auf der Seite **Betriebskalender** wählen Sie den Betriebskalender, und wählen die **Feiertage** Aktion aus.
+7. Auf der Seite **Betriebskalender-Feiertage**definieren Sie nun die Feiertage des Jahres, indem Sie Anfangsdatum und -uhrzeit sowie Enddatum und -uhrzeit sowie eine Beschreibung des jeweiligen Feiertags in einzelnen Zeilen eingeben. Beispiel. Beispiel:  
 
     04.07.14 0:00:00 23:59:00 Sommerurlaub  
     05.07.14 0:00:00 23:59:00 Sommerurlaub  
@@ -74,12 +74,12 @@ Der Betriebskalender kann nun einer Arbeitsplatzgruppe zugewiesen werden, um ein
 2. öffnen Sie den Arbeitsplatz, den Sie aktualisieren möchten.  
 3. Wählen Sie im Inforegister Planung im Feld **Betriebskalendercode** den Kalender aus, der in dieser Arbeitsplatzgruppe als Grundlage für einen Arbeitsplatzgruppenkalender verwendet werden soll.  
 4. Wählen Sie die Aktion **Kalender** aus.  
-5. Klicken Sie im Fenster **Arbeitsplatzgruppenkalender** auf **Aktionen, Matrix anzeigen**.  
+5. Klicken Sie auf der Seite **Arbeitsplatzgruppenkalender** auf **Aktionen, Matrix anzeigen**.  
 
-    Links im Matrixfenster werden die eingerichteten Arbeitsplatzgruppen aufgelistet. Rechts befindet sich ein Kalender, in dem die verfügbaren Kapazitäten pro Arbeitstag in der definierten Maßeinheit angegeben werden, z. B. **480** Minuten. Jede Zeile stellt den Kalender einer Arbeitsplatzgruppe dar.  
+    Links auf der Matrixseite werden die eingerichteten Arbeitsplatzgruppen aufgelistet. Rechts befindet sich ein Kalender, in dem die verfügbaren Kapazitäten pro Arbeitstag in der definierten Maßeinheit angegeben werden, z. B. **480** Minuten. Jede Zeile stellt den Kalender einer Arbeitsplatzgruppe dar.  
 
     > [!NOTE]  
-    >  Sie können die Kapazitätswerte auch pro Woche oder Monat anzeigen, indem Sie die Auswahl im Feld **Anzeigen nach** auf dem Inforegister Matrixoptionen im Fenster **Arbeitsplatzgruppenkalender** ändern.  
+    >  Sie können die Kapazitätswerte auch pro Woche oder Monat anzeigen, indem Sie die Auswahl im Feld **Anzeigen nach** auf dem Inforegister Matrixoptionen auf der Seite **Arbeitsplatzgruppenkalender** ändern.  
 
     Um den neuen Betriebskalender als eine Zeile in der ausgewählten Arbeitsgruppe widerzuspiegeln, muss er zunächst berechnet werden.  
 
@@ -97,13 +97,13 @@ Kalenderposten werden nun erstellt bzw. aktualisiert und zeigen die verfügbare 
 Der berechneten Arbeitsplatzgruppenkalender legt jetzt fest, wann und wie viel Kapazität in dieser Arbeitsplatzgruppe verfügbar ist. Dieses steuert die detaillierte Planung von Arbeitsgängen, die in der Arbeitsplatzgruppe ausgeführt werden.  
 
 ## <a name="to-record-work-center-absence"></a>Fehlzeiten für Arbeitsplatzgruppen erfassen  
-1.  Klicken Sie im Fenster **Arbeitsplatzgruppenkalender** auf **Aktionen, Matrix anzeigen**.
-2. Wählen Sie im Fenster **Arbeitsplatzgruppenkalendermatrix** die Arbeitsplatzgruppe und den Kalendertag aus, an dem die Fehlzeit aufgezeichnet werden soll, und klicken Sie anschließend auf **Verknüpfte Informationen, Planung, Fehlzeiten**.  
-3.  Legen Sie im Fenster **Fehlzeiten** die Anfangs- und die Endzeit für die Fehlzeiten an diesem Tag fest, und geben Sie eine Begründung an. Beispiel:  
+1.  Klicken Sie auf der Seite **Arbeitsplatzgruppenkalender** auf **Aktionen, Matrix anzeigen**.
+2. Wählen Sie auf der Seite **Arbeitsplatzgruppenkalendermatrix** die Arbeitsplatzgruppe und den Kalendertag aus, an dem die Fehlzeit aufgezeichnet werden soll, und klicken Sie anschließend auf **Verknüpfte Informationen, Planung, Fehlzeiten**.  
+3.  Legen Sie auf der Seite Fenster **Fehlzeiten** die Anfangs- und die Endzeit für die Fehlzeiten an diesem Tag fest, und geben Sie eine Begründung an. Beispiel:  
 
     25.01.01 08:00 10:00 Wartung  
 
-4.  Wählen Sie die **Aktualisieren** Aktion aus, und schließen Sie dann das Fenster **Fehlzeiten**.  
+4.  Wählen Sie die **Aktualisieren** Aktion aus, und schließen Sie dann die Seite **Fehlzeiten**.  
 
 Die Kapazität des ausgewählten Tages hat sich nun um die aufgezeichnete Fehlzeit verringert.  
 

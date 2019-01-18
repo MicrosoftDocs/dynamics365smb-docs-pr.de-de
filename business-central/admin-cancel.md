@@ -11,10 +11,10 @@ ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 473b2fb8f20b30ce49265e6891a99291b663f6a8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Sie kündigen, entfernen, oder setzen [!INCLUDE[d365fin](includes/d365fin_md.md)] zurück
@@ -38,7 +38,7 @@ Derzeit kontaktieren Sie das Team, indem Sie eine E-Mail an [!INCLUDE[d365fin](i
 Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] unter Verwendung eines Geschäftskontos, das nicht zu Office 365 gehört, registriert haben, haben Sie keinen Office 365 Administrator. Stattdessen müssen Sie kündigen, indem Sie das Stornierungsteam [!INCLUDE[d365fin](includes/d365fin_md.md)] kontaktieren, indem Sie eine E-Mail an cancelbusinesscentra@microsoft.com senden. Sie müssen den Namen Ihres [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten in die Nachricht einfügen, damit wir Sie identifizieren können. Am einfachsten ist es, die URL von Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Homepage zu kopieren.  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Zurücksetzen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Nutzung
-Wenn Sie der [!INCLUDE[d365fin](includes/d365fin_md.md)] Testversion Daten hinzugefügt haben und Sie möchten nochmal von vorn anfangen, können Sie ein neues Unternehmen erstellen und dann das ersten Unternehmen zurücksetzen. Wenn Sie das Fenster **Unternehmen** öffnen, können Sie eine Kopie Ihres aktuellen Unternehmens erstellen, sich abmelden, sich dann mit Ihrem neuen Unternehmen anmelden und dann das ursprüngliche Unternehmen zurücksetzen.  
+Wenn Sie der [!INCLUDE[d365fin](includes/d365fin_md.md)] Testversion Daten hinzugefügt haben und Sie möchten nochmal von vorn anfangen, können Sie ein neues Unternehmen erstellen und dann das ersten Unternehmen zurücksetzen. Wenn Sie die Seite **Unternehmen** öffnen, können Sie eine Kopie Ihres aktuellen Unternehmens erstellen, sich abmelden, sich dann mit Ihrem neuen Unternehmen anmelden und dann das ursprüngliche Unternehmen zurücksetzen.  
 > [!NOTE]  
 >   Wenn Sie ein Unternehmen zurücksetzen wollen, dass Sie mit anderen Personen Ihrer Organisation teilen, müssen Sie sicherstellen, dass andere Personen nicht angemeldet sind, wenn Sie das Unternehmen zurücksetzen.  
 

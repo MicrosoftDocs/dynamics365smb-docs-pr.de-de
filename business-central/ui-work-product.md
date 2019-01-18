@@ -11,16 +11,16 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1924ed56ebf31debbccbc6f94724a6ca93eeb7a6
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.
 
-Sie können beispielsweise die Größe und die Position von Fenstern anpassen, die Breite von Spalten und die Höhe der Spaltenköpfe erweitern und die Sortierung der Daten in Spalten ändern. Wenn Sie auf Seiten arbeiten und zum Anzeigen aller Spalten die horizontale Bildlaufleiste verwenden müssen, kann mit einer vertikalen Fixierung der Bildlauf von einigen Spalten beschränkt werden.
+Sie können beispielsweise die Größe und die Position von Seiten anpassen, die Breite von Spalten und die Höhe der Spaltenköpfe erweitern und die Sortierung der Daten in Spalten ändern. Wenn Sie auf Seiten arbeiten und zum Anzeigen aller Spalten die horizontale Bildlaufleiste verwenden müssen, kann mit einer vertikalen Fixierung der Bildlauf von einigen Spalten beschränkt werden.
 
 Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den entsprechenden Themen, in denen die Abteilungen beschrieben werden.
 

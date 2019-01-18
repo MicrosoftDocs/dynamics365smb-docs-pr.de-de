@@ -1,5 +1,5 @@
 ---
-title: 'So gehts: Buchen der Lagerkosten in die Finanzbuchhaltung| Microsoft Docs'
+title: 'So geht''s: Buchen der Lagerkosten in die Finanzbuchhaltung| Microsoft Docs'
 description: Beschreibt, wie physischen Produkte verwaltet werden, die Sie im Lagerbestand in Ihrem Lager verwalten.
 documentationcenter: 
 author: SorenGP
@@ -12,16 +12,16 @@ ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d6df6884ef5cf8fce96ec1f5bc5ca91bdbd3ede7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerregulierung mit der Finanzbuchhaltung
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte in der Hauptbuchhaltung im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht.
 
-Die automatische Lagerbuchung wird durch das Feld **Automatische Lagerbuchung** im Fenster **Lagereinrichtung** definiert.
+Die automatische Lagerbuchung wird durch das Feld **Automatische Lagerbuchung** auf der Seite **Lagereinrichtung** definiert.
 
 Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist es immer noch notwendig sicherzustellen, dass die Kosten für Waren zur zugehörigen ausgehenden Transaktion weitergeleitet werden, insbesondere in Situationen, in denen Sie Waren verkaufen, bevor Sie den Kauf dieser Waren in Rechnung stellen. Dies wird als Kostenanpassung bezeichnet. Artikelkosten werden automatisch angepasst, wenn Sie Artikeltransaktionen buchen, Sie können jedoch auch Artikelpreise manuell anpassen. Weitere Informationen finden Sie unter [Artikelkosten anpassen](inventory-how-adjust-item-costs.md).
 
@@ -37,7 +37,7 @@ Wenn Sie eine Liste der Fehler anzeigen möchten, bevor Sie den Batchauftrag aus
 Wenn Sie sich nur einen Überblick verschaffen möchten, welche Werte in der Finanzbuchhaltung gebucht werden können, das Buchen selbst aber nicht vornehmen möchten, können Sie die Stapelverarbeitung **Lagerregulierung buchen** ausführen, ohne dass die Werte tatsächlich in der Finanzbuchhaltung gebucht werden. Dazu müssen Sie auf der Anforderungsseite das Häkchen im Feld **Buchen** entfernen. In diesem Fall wird, wenn Sie der Batchauftrag ausführen, nur der Bericht erzeugt, der die Werte enthält, die in der Hauptbuchhaltung bereit stehen, aber nicht gebucht sind.
 
 ## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Überprüfen der Abstimmung zwischen den Lagerposten und der Finanzbuchhaltung
-Das Fenster **Lager – Sachpostenabstimmung** ermöglicht Folgendes:
+Die Seite **Lager – Sachpostenabstimmung** ermöglicht Folgendes:
 
 - Gibt Aufschluss über Abstimmungsdifferenzen. Hierzu werden die in der Finanzbuchhaltung erfassten Werte mit den in den Inventurposten erfassten Werten verglichen.
 - Zeigt nicht abgestimmte Einstandsbeträge in den Wertposten der Inventurposten so an, als seien sie entsprechenden lagerbezogenen Konten in der Finanzbuchhaltung zugeordnet, und vergleicht sie mit den tatsächlich erfassten Summen auf den gleichen Konten in der Finanzbuchhaltung.
@@ -57,11 +57,11 @@ Die Spalte **Fibu gesamt** enthält die (fett formatierten) Beträge für die ei
 
 Die Spalte **Differenz** enthält die Differenz zwischen **Fibu gesamt** und **Gesamt**.
 
-Am oberen Rand des Fensters **Lager - Sachpostenabstimmung** können Sie mithilfe von Filtern beispielsweise die Periode eingrenzen, für die Sie Informationen ermitteln möchten.
+Am oberen Rand der Seite **Lager - Sachpostenabstimmung** können Sie mithilfe von Filtern beispielsweise die Periode eingrenzen, für die Sie Informationen ermitteln möchten.
 
 Wenn Sie ein Häkchen in das Kontrollkästchen **Warnung anzeigen** setzen und wenn es Abweichungen zwischen den Lagerbestandssummen und den Werten in der Fibu gesamt gibt, werden im Feld **Warnung** des Gitters Meldungen angezeigt, in denen die jeweilige Abweichung beschrieben wird. Wenn Sie das Feld "Warnung" auswählen, werden weitere Informationen zum Inhalt der Warnung angezeigt.
 
-Wenn Sie alle entsprechenden Filter eingegeben haben, wählhen Sie die Aktion **Matrix anzeigen**. Die Daten werden berechnet, und das Matrixfenster wird geöffnet.
+Wenn Sie alle entsprechenden Filter eingegeben haben, wählhen Sie die Aktion **Matrix anzeigen**. Die Daten werden berechnet, und die Matrixseite wird geöffnet.
 
 In der äußerst linken Spalte des Gitters werden die verschiedenen Kontoarten der Finanzbuchhaltung angezeigt, die mit dem Lagerbestand verknüpft sind. Für jede dieser Kontoarten werden im Gitter die fakturierten, nicht fakturierten (Interims-) und WIP-Lagerbestandssummen angezeigt. Diese Summen wurden aus den Wertposten berechnet.
 

@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 51555bbfbd7fec6ca46bc1b2e6b02382288a41bc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Designdetails: Ausgleich von Bedarf und Vorrat
@@ -59,7 +59,7 @@ Im Allgemeinen haben alle Vorräte eine Planungsflexibilität, die durch den Zus
 
     -   Es stellt den Lagerbestand dar (immer mit Tag Null).  
     -   Es enthält einen Auftrag-zu-Auftrag-Link zu einem anderen Bedarf.  
-    -   Es liegt außerhalb des durch den Zeitrahmen definierten, neu geplanten Fensters.  
+    -   Es liegt außerhalb der durch den Zeitrahmen definierten, neu geplanten Seite.  
     -   Es gibt einen näheren Bestand, der verwendet werden könnte.  
     -   Andererseits entscheidet sich der Benutzer möglicherweise zu einer Neuplanung, weil  
     -   Der Beschaffungsauftrag wurde bereits an einem früheren Datum mit einem anderen Bedarf verbunden.  
@@ -68,7 +68,7 @@ Im Allgemeinen haben alle Vorräte eine Planungsflexibilität, die durch den Zus
 -   **Neuplanung Ein**: Das Datum eines vorhandenen Beschaffungsauftrags kann eingeplant werden, ausgenommen unter den folgenden Bedingungen:  
 
     -   Es wird direkt mit einem anderen Bedarf verknüpft.  
-    -   Es liegt außerhalb des durch den Zeitrahmen definierten, neu geplanten Fensters.  
+    -   Es liegt außerhalb der durch den Zeitrahmen definierten, neu geplanten Seite.  
 
 > [!NOTE]  
 >  Wenn ein Artikel unter Verwendung eines Minimalbestands geplant wird, kann der Beschaffungsauftrag immer bei Bedarf geplant werden. Dies ist häufig in den vorwärtsgeplanten Beschaffungsaufträgen, die durch einen Minimalbestand gestartet werden.  

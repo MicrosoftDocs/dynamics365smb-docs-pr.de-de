@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 652a151ff50c8492b3dc7df5d17c04ff2d00faad
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata
@@ -50,8 +50,8 @@ Ein Kontenschema besteht aus einem Cashflow-Kontenschemanamen mit einer Reihe vo
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Einen neuen Kontenschemanamen einrichten:  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie im Fenster **Kontoschemaname** auf der Registerkarte **Neu** die Option Neu aus, um einen neuen Cashflow zu erstellen.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion Wie möchten Sie weiter verfahren geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.  
+2.  Wählen Sie auf der Seite **Kontoschemaname** auf der Registerkarte **Neu** die Option Neu aus, um einen neuen Cashflow zu erstellen.  
 3.  Geben Sie im Feld **Namen** **Planung** ein.  
 4.  Geben Sie im Feld **Beschreibung** eine Beschreibung für die **Cashflowplanung** ein.  
 5.  Lassen Sie die Felder **Standard Spaltenlayout** und **Analyseansichtsname** leer.  
@@ -61,8 +61,8 @@ Nachdem ein Kontenschemaname eingerichtet wurde, definiert Ken jede Zeile, die i
 
 ### <a name="to-set-up-account-schedule-lines"></a>So richten Sie Kontenschemazeilen ein  
 
-1.  Wählen Sie im Fenster **Kontoschemaname** den neuen **Planung**-Kontenschemanamen aus, den Sie erstellt haben. Wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Kontenschema bearbeiten** aus.  
-2.  Im Fenster **Kontoplan** geben Sie jede Zeile genau wie in der folgenden Tabelle ein.  
+1.  Wählen Sie auf der Seite **Kontoschemaname** den neuen **Planung**-Kontenschemanamen aus, den Sie erstellt haben. Wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Kontenschema bearbeiten** aus.  
+2.  Auf der Seite **Kontoplan** geben Sie jede Zeile genau wie in der folgenden Tabelle ein.  
 
     > [!NOTE]  
     >  Mithilfe der Funktion **CF-Konten einfügen** können Sie die Cashflowkonten aus dem Kontenplan für Cashflowkontos schnell markieren und sie in Kontenschemazeilen kopieren.  
@@ -79,12 +79,12 @@ Ken kann das Spaltenlayout jetzt dem Kontenschemanamen zuweisen.
 
 ### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>Das Spaltenlayout dem Kontenschemanamen zuweisen:  
 
-1.  Wählen Sie im Fenster **Kontoschemanamen** die **Planung**  im Feld **Name** aus.  
+1.  Wählen Sie auf der Seite **Kontoschemanamen** die **Planung**  im Feld **Name** aus.  
 2.  Wählen Sie im Feld **Standardspaltenlayout** das Spaltenlayout **Cashflow** aus, um es als Standard-Spaltenlayout zuzuordnen.  
 
 ### <a name="to-view-and-print-the-cash-flow-forecast"></a>So können Sie die Cashflowplanung anzeigen und drucken  
-1.  Wählen Sie im Fenster **Kontoschemanamen** auf der Registerkarte **Übersicht** in der Gruppe Prozess die Option Übersicht aus, um die Cashflowplanung anzuzeigen.  
-2.  Im Fenster **Kontoschemaübersicht** können Sie einen Betrag auswählen und die Cashflowplanungs Posten dann anzeigen, aus denen sich der Betrag zusammensetzt. Darüber hinaus können Sie die Formel anzeigen, die verwendet wird, um den Betrag zu berechnen. Sie können die Beträge auch nach Datum und Dimension filtern.  
+1.  Wählen Sie auf der Seite **Kontoschemanamen** auf der Registerkarte **Übersicht** in der Gruppe Prozess die Option Übersicht aus, um die Cashflowplanung anzuzeigen.  
+2.  Auf der Seite **Kontoschemaübersicht** können Sie einen Betrag auswählen und die Cashflowplanungs Posten dann anzeigen, aus denen sich der Betrag zusammensetzt. Darüber hinaus können Sie die Formel anzeigen, die verwendet wird, um den Betrag zu berechnen. Sie können die Beträge auch nach Datum und Dimension filtern.  
 3.  Wählen Sie die Aktion **Drucken** aus, um die Cashflowplanung zu drucken.  
 
 ## <a name="see-also"></a>Siehe auch  

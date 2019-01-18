@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42f4d0f07e23bfc8fd2ab79fdf315df21a90c9b3
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>So verkaufen Sie Auftragsmontageartikel und Lagerartikel zusammen
@@ -31,7 +31,7 @@ Eine ähnliche Flexibilität besteht, wenn Sie nach Auftrag zu montierende Artik
 >  Die folgende Vorgehensweise enthält nicht die Standardverkaufszeilenschritte, die Sie durchführen müssen, bevor Sie einen Montageauftrag für nicht verfügbare Mengen erstellen können.
 
 ## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>So verkaufen Sie Auftragsmontageartikel und Lagerartikel zusammen  
-1.  Geben Sie auf einer Verkaufsauftragszeile für einen Artikel, der im Lager montiert werden soll, im Feld **Menge** eine Menge ein, die den Lagerbestand überschreitet. Das Fenster **Verfügbarkeit prüfen** wird angezeigt. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md)
+1.  Geben Sie auf einer Verkaufsauftragszeile für einen Artikel, der im Lager montiert werden soll, im Feld **Menge** eine Menge ein, die den Lagerbestand überschreitet. Die Seite **Verfügbarkeit prüfen** wird angezeigt. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md)
 2.  Beachten Sie das Feld **Gesamtmenge** (mit negativem Wert), das Sie im nächsten Schritt bearbeiten werden.  
 3.  Geben Sie im Feld **Menge für Auftragsmontage** den Wert aus dem vorherigen Schritt ein.  
 4.  Führen Sie alle Änderungen an den Montagekomponenten aus. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -43,7 +43,7 @@ Eine ähnliche Flexibilität besteht, wenn Sie nach Auftrag zu montierende Artik
 ## <a name="see-also"></a>Siehe auch  
 [Montageverwaltung](assembly-assemble-items.md)  
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Designdetails: Logistik](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

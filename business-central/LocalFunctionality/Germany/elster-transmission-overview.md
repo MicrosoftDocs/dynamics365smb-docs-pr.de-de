@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
+redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b3e2177a70bbe8b027566cf9a9d992240f5a862c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6ba8395526d8c797d59daf626b2ab38e8d5b008e
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="elster-transmission-overview"></a>ELSTER-Übermittlung – Übersicht
@@ -28,10 +29,10 @@ Wenn ein Benutzer eine Umsatzsteuervoranmeldung von [!INCLUDE[d365fin](../../inc
 2.  Nachdem dieses Dokument erfolgreich erstellt wurde, wird es um Konfigurationsinformationen (Proxyserver, Zertifikate usw.) erweitert, die von Microsoft.Dynamics.ElsterTransferHandler benötigt werden.  
 3.  Das vollständige Dokument wird an Microsoft.Dynamics.ElsterTransferHandler übergeben. Die Assembly führt eine weitere Verarbeitung der Daten aus (Verschlüsselung, Komprimierung, Signatur) und sendet diese an einen der Server der OFD.  
 
-    Sie können die Servern der OFD im Fenster **Elektronische Umsatzsteuererklärung – Einrichtung** angeben. Weitere Informationen finden Sie unter [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
+    Sie können die Servern der OFD auf der Seite **Elektronische Umsatzsteuererklärung – Einrichtung** angeben. Weitere Informationen finden Sie unter [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
 
 4.  Die Daten werden vom Server der OFD empfangen und verarbeitet, und ein Antwortdokument wird zurückgesendet.  
-5.  Das Antwortdokument wird von Microsoft.Dynamics.ElsterTransferHandler empfangen, entschlüsselt und dekomprimiert und als XML-Dokument an [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zurückgegeben. Sie können dann die Antworten in dem Fenster **MwSt.-Übertragungsprotokollposten** anzeigen.  
+5.  Das Antwortdokument wird von Microsoft.Dynamics.ElsterTransferHandler empfangen, entschlüsselt und dekomprimiert und als XML-Dokument an [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zurückgegeben. Sie können dann die Antworten auf der Seite **MwSt.-Übertragungsprotokollposten** anzeigen.  
 
 ## <a name="process-details"></a>Verarbeiten von Details  
 Die Microsoft.Dynamics.ElsterTransferHandler-Assembly ist für die Aufbereitung vor der Übermittlung an die OFD sowie die Verarbeitung des Antwortdokuments vor der Rückgabe an das Programm zuständig.  

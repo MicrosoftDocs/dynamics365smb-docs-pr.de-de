@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetails: Ausgehender Lagerfluss
@@ -66,7 +66,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
  Wenn der ausgehende Herkunftsbeleg freigegeben wird, wird eine ausgehende erwartete Lagerbewegung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden.  
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3: Lagerbestandskommissionierung oder Umlagerung erstellen  
- Im Fenster **Lagerkommissionierung** oder **Lagerbestandsumlagerung** erhält der Lagermitarbeiter, im Pull-Verfahren, die offenen Herkunftsbelegzeilen basierend auf den eingehenden Lageranfragen. Oder die Kommissionierzeilen wurden bereits, im Push-Verfahren, von dem Benutzer erstellt, der für den Herkunftsbeleg verantwortlich ist.  
+ Auf der Seite **Lagerkommissionierung** oder **Lagerbestandsumlagerung** erhält der Lagermitarbeiter, im Pull-Verfahren, die offenen Herkunftsbelegzeilen basierend auf den eingehenden Lageranfragen. Oder die Kommissionierzeilen wurden bereits, im Push-Verfahren, von dem Benutzer erstellt, der für den Herkunftsbeleg verantwortlich ist.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Kommissionierung buchen oder Lagerbestandsumlagerung registrieren  
  In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld**Menge** aus und bucht die Lagerkommissionierung oder registriert die Lagerbestandsumlagerung. Herkunftsbelege, die mit der Kommissionierung verknüpft sind, werden als geliefert oder verbraucht gebucht. Herkunftsbelege, die mit Lagerbestandsumlagerungen verknüpft sind, werden nicht gebucht.  
@@ -85,7 +85,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
  Wenn der eingehende Herkunftsbeleg freigegeben wird, wird eine ausgehende erwartete Lagerbewegung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden.  
 
 ### <a name="3-create-warehouse-shipment"></a>3: Erstellen Sie einen neuen Warenausgang  
- Im Fenster **Lagerhaus Versand**erhält der Lieferungsmitarbeiter, der verantwortlich ist, die offenen Herkunftsbelegzeilen basierend auf der ausgehenden Lageranfrage. Einige Herkunftsbelegzeilen können zu einem Lieferungsbeleg zusammengefasst werden.  
+ Auf der Seite **Lagerhaus Versand**erhält der Lieferungsmitarbeiter, der verantwortlich ist, die offenen Herkunftsbelegzeilen basierend auf der ausgehenden Lageranfrage. Einige Herkunftsbelegzeilen können zu einem Lieferungsbeleg zusammengefasst werden.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Lieferung freigeben/Kommissionierung erstellen  
  Der Versandarbeiter, der verantwortlich ist, gibt den Warenausgang frei, so dass die Lagerarbeiter Kommissionierungen für die jeweilige Lieferung erstellen oder koordinieren können.  
@@ -109,7 +109,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
  Der Lagermitarbeiter, der die Kommissionierungen ausführt, erstellt im Pull-Verfahren einen Kommissionierungsbeleg auf Grundlages des freigegebenen Herkunftsbelegs. Oder der Kommissionierbeleg wird erstellt und dem Lagermitarbeiter im Push-Verfahren zugeteilt.  
 
 ### <a name="9-register-warehouse-pick"></a>9: Kommissionierung registrieren  
- In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** im Fenster **Kommissioniervorschlag** aus und erfasst dann die Lagerbestandsumlagerung.  
+ In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** auf der Seite **Kommissioniervorschlag** aus und erfasst dann die Lagerbestandsumlagerung.  
 
  Lagerplatzposten werden erstellt, und die Kommissionierzeilen werden gelöscht, wenn sie vollständig bearbeitet sind. Der Kommissionierbeleg bleibt offen, bis die gesamte Menge des zugehörigen Warenausgangs erfasst ist. Das Feld **Abgerufene Menge** auf den Warenausgangszeilen wird entsprechend aktualisiert.  
 

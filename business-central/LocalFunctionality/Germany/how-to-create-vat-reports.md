@@ -1,6 +1,6 @@
 ---
 title: 'Gewusst wie: MwSt.-Berichte erstellen'
-description: "Verschiedene Arten von MwSt.-Erklärungen können basierend auf Anforderungen konfiguriert werden. Wenn Sie dann eine MwSt buchen müssen, können Sie sie im **MwSt Bericht** Fenster erstellen und dann im elektronischen Format exportieren, das an die Anforderungen des ELMA5 Formats sich anpaßt."
+description: "Verschiedene Arten von MwSt.-Erklärungen können basierend auf Anforderungen konfiguriert werden. Wenn Sie dann eine MwSt buchen müssen, können Sie sie auf der Seite **MwSt Bericht** erstellen und dann im elektronischen Format exportieren, das an die Anforderungen des ELMA5 Formats sich anpaßt."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dc3c8da6c884a17efab7933645c514abfe33304b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a577fb608fd4fd0e3319f07ff0520b923071ad9e
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-vat-reports"></a>Erstellen von MwsT-Berichten.
-Verschiedene Arten von MwSt.-Erklärungen können basierend auf Anforderungen konfiguriert werden. Wenn Sie dann eine MwSt buchen müssen, können Sie sie im **MwSt Bericht** Fenster erstellen und dann im elektronischen Format exportieren, das an die Anforderungen des ELMA5 Formats sich anpaßt.  
+Verschiedene Arten von MwSt.-Erklärungen können basierend auf Anforderungen konfiguriert werden. Wenn Sie dann eine MwSt buchen müssen, können Sie sie auf der Seite **MwSt Bericht** erstellen und dann im elektronischen Format exportieren, das an die Anforderungen des ELMA5 Formats sich anpaßt.  
 
 ## <a name="to-create-a-vat-report"></a>Einen MwSt.-Bericht erstellen:  
 
@@ -52,16 +52,16 @@ Verschiedene Arten von MwSt.-Erklärungen können basierend auf Anforderungen ko
 4.  Jetzt müssen Sie die Mehrwertsteuerposten importieren, die in dieser MwSt.-Erklärung enthalten sein müssen.  
 5. Wählen Sie die Aktion **Mahnungszeile vorschlagen**.  
 
-Dadurch werden dem Fenster MwSt-Einträge hinzugefügt. Sie können optional für jede Zeile im Feld **Betrag** ein Drilldown durchführen, um die Mehrwertsteuerposten anzuzeigen, aus denen die Zeile resultiert.  
+Dadurch werden der Seite MwSt-Einträge hinzugefügt. Sie können optional für jede Zeile im Feld **Betrag** ein Drilldown durchführen, um die Mehrwertsteuerposten anzuzeigen, aus denen die Zeile resultiert.  
 
 Nachdem Sie die MwSt.-Erklärung erstellt haben, müssen Sie sie an die Steuerbehörden übermitteln.  
 
 ## <a name="to-submit-a-vat-report"></a>Einen MwSt.-Bericht übermitteln:  
 
-1.  Wählen Sie im Fenster **MwSt-Bericht** die Aktion **Freigabe** aus.  
+1.  Wählen Sie auf der Seite **MwSt-Bericht** die Aktion **Freigabe** aus.  
 2.  Bestätigen Sie, dass Sie den Bericht freigeben möchten.  
 
-    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] prüft, ob die MwSt.-Erklärung korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler im Fenster **MwSt-Bericht Fehlerprotokoll** angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Beispielsweise wird ein Fehler angezeigt, wenn Sie versuchen, eine Standard-MwSt.-Erklärung freizugeben, aber Sie der Erklärung noch keine Zeilen hinzugefügt haben.  
+    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] prüft, ob die MwSt.-Erklärung korrekt eingerichtet ist. Wenn die Prüfung fehlschlägt, werden die Fehler auf der Seite **MwSt-Bericht Fehlerprotokoll** angezeigt, sodass Sie entsprechende Änderungen vornehmen können. Beispielsweise wird ein Fehler angezeigt, wenn Sie versuchen, eine Standard-MwSt.-Erklärung freizugeben, aber Sie der Erklärung noch keine Zeilen hinzugefügt haben.  
 
     Wenn Sie eine MwSt.-Erklärung als freigegeben kennzeichnen, ist sie nicht mehr editierbar. Wenn Sie die Erklärung ändern müssen, nachdem Sie sie als freigegeben gekennzeichnet haben, müssen Sie sie zuerst erneut öffnen.  
 

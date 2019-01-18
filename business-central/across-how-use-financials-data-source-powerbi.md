@@ -11,10 +11,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0e0ac36bb83709b766d234e34297c2b721daabad
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ca4c27eaa1fe66e9bee678d6ec197fee7b928bdd
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Power BI als Datenquelle für das Erstellen von Berichten nutzen
@@ -24,7 +24,7 @@ Sie müssen ein gültiges Konto mit [!INCLUDE[d365fin_long_md](includes/d365fin_
 
 ## <a name="to-add-included365finlongmdincludesd365finlongmdmd-as-a-data-source-in-power-bi-desktop"></a>Um [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] als Datenquelle in Power BI Desktop hinzufügen
 1. In Power BI Desktop im linken Navigationsbereich, wählen Sie **Daten abrufen** aus.
-2. Im Fenster **Daten abrufen** wählen Sie **Onlineservices** aus, wählen Sie **Microsoft Dynamics 365 Business Central** und dann die Schaltfläche **Verbinden** aus.
+2. Auf der Seite **Daten abrufen** wählen Sie **Onlineservices** aus, wählen Sie **Microsoft Dynamics 365 Business Central** und dann die Schaltfläche **Verbinden** aus.
 3. Power BI zeigt einen Assistenten an, der Sie durch den [Verbindungsvorgang](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md) führt. Sie werden aufgefordert, sich beim Service anzumelden. Wählen Sie **Anmelden** und wählen Sie das Konto aus, bei dem Sie sich anmelden möchten. Dieses sollte das gleiche Konto sein, bei dem Sie sich bei [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] anmelden.
 4. Klicken Sie auf die Schaltfläche **Verbinden** zum Fortfahren. Der Power BI Assistent zeigt eine Liste der Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-Unternehmen und -Datenquellen an. Diese Datenquelle ist für alle Webdienste, die Sie von jedem Unternehmen in Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] veröffentlicht haben.
 5. Sie können einen neuen Webdienst URL in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] erstellen, indem Sie die **Erstellen Dataset** Aktion der Seite **Webdienste** nutzen, indem Sie die unterstütze Hilfe **Bericht einrichten** verwenden oder die Aktion **Bearbeiten in Excel** in einer beliebigen Liste wählen.

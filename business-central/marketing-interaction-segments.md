@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
 ms.contentlocale: de-de
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Verwalten von Aktivitäten für Segmente
-Das Fenster **Segment** ist ein Arbeitsschein, in dem Sie folgende Aufgaben ausführen können:
+Die Seite **Segment** ist ein Arbeitsschein, in dem Sie folgende Aufgaben ausführen können:
 
 * Segmente erstellen
 * Speichern Sie die Segmentierungskriterien, die Sie bei der Auswahl von Kontakten verwendet haben.
@@ -35,14 +35,14 @@ Es gibt verschiedene Arten, Segmente zu erstellen:
 * Sie können gespeicherte Segmentierungskriterien wiederverwenden.
 
 ## <a name="interactions"></a>Aktivitäten
-In dem Fenster **Segment** können Sie Aktivitäten für mehrere Kontakte gleichzeitig erstellen. Sie können z. B. ein Segment mit einem Microsoft Word Dokument verbinden, sodass Sie einen Brief an alle Kontakte in dem Segment verschicken können.
+Auf der Seite **Segment** können Sie Aktivitäten für mehrere Kontakte gleichzeitig erstellen. Sie können z. B. ein Segment mit einem Microsoft Word Dokument verbinden, sodass Sie einen Brief an alle Kontakte in dem Segment verschicken können.
 
 Sie können Informationen über die Aktivität für das Segment im **Segmentkopf** festlegen. Sie können z. B. entscheiden, welche Aktivitätenvorlage Sie für alle Kontakte verwenden möchten, Sie eine Beschreibung oder eine Korrespondenzart festlegen usw. Sie können diese Informationen in der Segmentszeile für jeden einzelnen Kontakt verändern, z. B., indem Sie eine andere Beschreibung eingeben. Wenn Sie ein Segment mit einem Dokument in Microsoft Word verknüpfen, können Sie das Dokument für einen oder mehrere Kontakte des Segments personalisieren, indem Sie dem Dokument z. B. individuelle Kommentare hinzufügen.
 
 ## <a name="logging"></a>Protokollieren
-Wenn Sie in dem Fenster **Segment** **Protokoll** wählen, werden alle Aktivitäten im Fenster **Aktivitätenprotokollposten** gespeichert und das Segment wird protokolliert. Nachdem Sie das Segment protokolliert haben, finden Sie es nur in dem Fenster **Protokollierte Segmente**.
+Wenn Sie auf der Seite **Segment** **Protokoll** wählen, werden alle Aktivitäten auf der Seite **Aktivitätenprotokollposten** gespeichert und das Segment wird protokolliert. Nachdem Sie das Segment protokolliert haben, finden Sie es nur in auf der Seite **Protokollierte Segmente**.
 
-Im Fenster **Protokollierte Segmente** können Sie ein Anschluss-Segment mit den gleichen Kontakten wie das protokollierte Segment erstellen.
+Auf der Seite **Protokollierte Segmente** können Sie ein Anschluss-Segment mit den gleichen Kontakten wie das protokollierte Segment erstellen.
 
 ## <a name="see-also"></a>Siehe auch
 [Segmente erstellen](marketing-how-create-segment.md)  

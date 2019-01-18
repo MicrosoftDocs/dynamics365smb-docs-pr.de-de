@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5084c8a49972ea51600867d90acedc2698609732
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Designdetails: Feste Nachbestellmenge
@@ -37,7 +37,7 @@ Das Richtlinie „Feste Bestellmenge“ bezieht sich auf die Bestandsplanung typ
  Die Auftragsmodifikatoren minimale Auftragsmenge, maximale Auftragsmenge und Auftragsvielfaches sollten keine große Rolle spielen, wenn die feste Nachbestellungsmengenrichtlinie verwendet wird. Das Planungssystem berücksichtigt jedoch diese Modifizierer und vermindert die Menge auf die angegebene Auftragshöchstmenge (und erstellt zwei oder mehr Vorräte, um die Gesamtauftragsmenge zu erreichen), erhöht den Auftrag auf die angegebene Auftragsmindestmenge oder rundet die Auftragsmenge auf, um ein angegebenes Auftragsvielfaches zu erreichen.  
 
 ## <a name="combines-with-calendars"></a>Zusammenfassen mit Kalendern  
- Bevor ein neuer Beschaffungsauftrag vorgeschlagen wird, einen Minimalbestand einzuhalten, überprüft das Planungssystem, ob der Auftrag für einen nicht freien Tag entsprechend dem Kalender geplant ist, die im Feld **Basiskalendercode** in den Feldern **Firmendaten** und **Lagerortkarten** festgelegt werden.  
+ Bevor ein neuer Beschaffungsauftrag vorgeschlagen wird, einen Minimalbestand einzuhalten, überprüft das Planungssystem, ob der Auftrag für einen nicht freien Tag entsprechend dem Kalender geplant ist, die im Feld **Basiskalendercode** auf den Seiten **Firmendaten** und **Lagerortkarten** festgelegt werden.  
 
  Wenn das geplante Datum ein freier Tag ist, verschiebt das Planungssystem die Reihenfolge weiter zum nächsten Arbeitsdatum. Dadurch ergeben sich möglicherweise ein Verkaufsauftrag, der für einen Minimalbestand gilt, aber keinen bestimmten Bedarf abdeckt. Bei solcher Nachfrage ohne Bedarf erstellt das Planungssystem ein zusätzlicher Vorrat.  
 

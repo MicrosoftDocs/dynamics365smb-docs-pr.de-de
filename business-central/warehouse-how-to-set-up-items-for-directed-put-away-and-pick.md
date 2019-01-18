@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Einrichten von Artikeln und Standorten für die gesteuerte Einlagerung und Kommissionierung
@@ -27,9 +27,9 @@ Wenn Sie einen Lagerort für die gesteuerte Einlagerung und Kommissionierung ein
 2.  Öffnen Sie die Karte für den Artikel, den Sie für gesteuerte Einlagerung und Kommissionierung einrichten möchten.
 3. Füllen Sie im Inforegister **Logistik** der Artikelkarte die Felder aus, um festzulegen, wie der Artikel im Lager verarbeitet werden soll.  
 4.  Wählen Sie die **Einheiten** Aktion aus.
-5. Fülle Sie im Fenster **Artikeleinheiten** die Felder zum Definieren der Einheiten aus, in denen der Artikel verarbeitet werden kann, einschließlich Höhe, Breite, Länge, das Volumen und das Gewicht der Einheit.
+5. Fülle Sie auf der Seite **Artikeleinheiten** die Felder zum Definieren der Einheiten aus, in denen der Artikel verarbeitet werden kann, einschließlich Höhe, Breite, Länge, das Volumen und das Gewicht der Einheit.
 6. Wählen Sie die **Lagerplatzinhalte** Aktion aus.
-7. In Fenster **Lagerplatzinhalte** können Sie den Lagerort und den Lagerplatz festlegen, mit denen der Artikel verknüpft sein soll. Das Feld **Vorgabewert** wird nicht verwendet, wenn der Lagerort für die gesteuerte Einlagerung und Kommissionierung eingerichtet wurde.  
+7. Auf der Seite **Lagerplatzinhalte** können Sie den Lagerort und den Lagerplatz festlegen, mit denen der Artikel verknüpft sein soll. Das Feld **Vorgabewert** wird nicht verwendet, wenn der Lagerort für die gesteuerte Einlagerung und Kommissionierung eingerichtet wurde.  
 
 ## <a name="to-activate-directed-put-away-and-pick-functionality"></a>So aktivieren Sie die Funktionalität gesteuerte Einlagerung und Kommissionierung  
 Die gesteuerte Einlagerung und Kommissionierung verschafft Ihnen Zugang zu erweiterten Lagerkonfigurationsfunktionalitäten, die Ihre Effizienz und Datenzuverlässigkeit stark erhöhen können. Um diese Funktionalität nutzen zu können, müssen Sie zuerst eine Reihe von Parametern in Ihrem Lagerort einrichten.  
@@ -53,7 +53,7 @@ Sie können jetzt Zonen einrichten, wenn Sie in Ihrem Lager mit Zonen arbeiten m
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>So richten Sie eine Zone in Ihrem Lager ein:  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie den Lagerort aus, in dem Sie die Zone einrichten möchten, öffnen Sie die Lagerortkarte, und wählen Sie dann die Aktion **Zonen** aus.  
-3.  Füllen Sie im Fenster **Zonen** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  Füllen Sie auf der Seite **Zonen** die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Wenn Sie einen Zonenparameter ändern, werden alle Lagerplätze, die von diesem Zeitpunkt an angelegt werden, die neuen Eigenschaften aufweisen.  
 
@@ -66,7 +66,7 @@ Darüber hinaus müssen Sie Einlagerungsvorlagen und Inventurhäufigkeiten erste
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
-[Lagerbest](inventory-manage-inventory.md)  
+[Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
