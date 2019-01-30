@@ -1,5 +1,4 @@
 {
-  "need_generate_pdf": true,
   "docsets_to_publish": [
     {
       "docset_name": "d365accountant",
@@ -8,6 +7,11 @@
       "locale": "de-de",
       "monikers": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "moniker_groups": [],
@@ -21,6 +25,11 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     },
@@ -32,6 +41,11 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     },
@@ -42,6 +56,11 @@
       "locale": "de-de",
       "monikers": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "moniker_groups": [],
@@ -50,9 +69,9 @@
   ],
   "notification_subscribers": [
     "edupont@microsoft.com",
-    "solsen@microsoft.com",
-    "sgroespe@microsoft"
+    "solsen@microsoft.com"
   ],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
@@ -92,7 +111,7 @@
   },
   "need_generate_pdf_url_template": true,
   "targets": {
-    "Pdf": {
+    "pdf": {
       "template_folder": "_themes.pdf"
     }
   },
