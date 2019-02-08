@@ -1,9 +1,10 @@
 ---
 redirect_url: /dynamics365/financials/process-for-digital-audits/
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e3dbbe2a952a27bd118dc0ecd5c691d7c0f1dfba
+ms.sourcegitcommit: 9389d90852d8ebb15bb1293a7d0ee7d26126fbc9
+ms.openlocfilehash: ba93b88958221d095bbc87752820b3f8bdae0b97
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 02/08/2019
 
 ---
+<!--redirect only, do not translate-->
