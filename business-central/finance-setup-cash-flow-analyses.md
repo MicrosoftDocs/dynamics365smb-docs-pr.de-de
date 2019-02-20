@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 10/01/2018
+ms.date: 01/18/2019
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbac12ea35916a1ae577341054f4b80522de9df8
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: 24fad5d816260764a3eb2c476e5bff86268790a1
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Aufstellung Cashflow-Analyse

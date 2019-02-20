@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6ced619dc9a43f7db0b4d78bf3de08a6dac27653
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a91f2d34cd023994dcd8eb67a9360d50d2cf3747
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt die Möglichkeit vor, Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. Mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, sowie Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.  
 
 ## <a name="getting-the-add-in"></a>Das Add-in abrufen
-Einer der Schritte der unterstützten Konfiguration für "Erste Schritte" in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist die Seite **Führen Sie Ihr Unternehmen in Office 365**. Wenn Sie auf dieser Seite die Schaltfläche **In Outlook einrichten** anklicken, müssen Sie Ihren Office 365 Benutzernamen und -Kennwort angeben. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt.  
+Die ersten Schritte sind einfach mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-In für Outlook. Mit dem unterstützten Setup **Richten Sie Ihren Geschäfts-Eingang in Outlook ein** können Sie die Verbindung für sich oder für Ihre Organisation einrichten. Wenn Ihre Organisation Office 365 verwendet, müssen Sie Ihren Office 365 Benutzernamen und das Kennwort angeben. Wenn Ihre Organisation Office 365 nicht verwendet, müssen Sie die Informationen über dem Exchange-Server definieren, den Sie verwenden. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt.  
 
-Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht von Business Central Admin. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können es im Add-In-Menüband, unmittelbar über dem Text der E-Mail sehen. Das Add-In selbst wird regelmäßig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
+Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht von Dynamics 365 Business Central Admin. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können es im [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-In-Menüband unmittelbar über dem Text der E-Mail sehen. Das Add-In selbst wird regelmäßig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
 
 Einige Unternehmen, die Office 365 verwenden, grenzen die Berechtigungen der Benutzer ein, Add-Ins bereitzustellen. Daher müssen Sie sicherstellen, ob Sie ein Office 365-Abonnement haben, die E-Mail enthält und Ihnen ermöglicht, Add-Ins bereitzustellen. Wenn Sie das Add-In testen möchten, können Sie es in Ve [Office 365 kostenlos testen](https://products.office.com/try).  
 
@@ -57,7 +57,10 @@ Analog ist es im Outlook-Desktopclient. Sie können überprüfen, dass [!INCLUDE
 In beiden Fällen müssen Sie, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] immer noch nicht verfügbar sein, die Add-in-Manifest-Datei abrufen. Für weitere Informationen wenden Sie bitte an Ihren Office 365 Administrator.
 
 ## <a name="see-also"></a>Siehe auch
+
 [Erste Schritte](product-get-started.md)  
+[Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  
+[Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Finanzen](finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

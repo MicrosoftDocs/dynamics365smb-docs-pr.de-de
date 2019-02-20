@@ -8,18 +8,21 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: integration, synchronize, map
-ms.date: 10/01/2018
+ms.search.keywords: integration, synchronize, map, Sales
+ms.date: 01/24/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 65466039efae2b18821fb03b6465f4c8c5e18f68
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/24/2019
 
 ---
-# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten
-Wenn Sie Dynamics 365 for Sales (Sales) für Customer Engagement verwenden, können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Prozesse und Finanzen verwenden und eine nahtlose Integration in bargeldlose Prozesse haben.
+# <a name="integrating-with-dynamics-365-for-sales"></a>Dynamics 365 for Sales Integration
+Wenn Sie Dynamics 365 for Sales für Debitorenverpflichtung verwenden, können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Prozesse und Finanzen verwenden und eine nahtlose Integration in bargeldlose Prozesse haben.
+
+> [!NOTE]
+> In diesem Thema wird davon ausgegangen, dass sowohl [!INCLUDE[d365fin](includes/d365fin_md.md)] und die integrierte Verkaufs-Lösung in der SaaS-Umgebung bereitgestellt werden. Das kombinieren von Online und lokal ist jedoch möglich, erfodert aber besondere Konfiguration. Weitere Informationen finden Sie unter [Vorbereiten der Integration in Dynamics 365 for Sales lokal](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Wenn Ihre Anwendung für die Integration mit Sales eingerichtet ist, haben Sie Zugriff auf Umsatzdaten von [!INCLUDE[d365fin](includes/d365fin_md.md)] und in einigen Fällen auch umgekehrt. Mit dieser Integration können Sie mit Datentypen, die von beiden Diensten verwendet werden, arbeiten und diese synchronisieren. Dazu zählen etwa Debitoren, Kontakte und Verkaufsinformationen. Außerdem können Sie die Daten an beiden Lagerorten auf dem aktuellen Stand halten.  
 
@@ -144,6 +147,7 @@ Dies kann auch gehen, wenn der ursprüngliche Verkaufsaufttag geschriebene Produ
 Wenn die Artikelbeschreibung des ursprünglichen Verkaufsauftrag sehr lang ist, wird eine zusätzliche Verkaufsauftragszeile der Art Bemerkung erstellt, um den Text in dem Verkaufsauftrag festzuhalten[!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Siehe auch
+Weitere Informationen finden Sie unter [Vorbereiten der Integration in Dynamics 365 for Sales lokal](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).  
 [Marketing & Vertrieb](marketing-relationship-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)  

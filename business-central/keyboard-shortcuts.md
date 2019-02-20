@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ Die Tastenkombinationen werden von den meisten Webbrowsern unterstützt; jedoch 
 
 Die in diesem Hilfethema beschriebenen Tastenkombinationen beziehen sich auf das US-Tastaturlayout. Möglicherweise entsprechen die Tasten anderer Tastaturlayouts nicht exakt den Tasten auf der US-Tastatur.
 
-Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder MacOS ist; es gibt eine Reihe von Verknüpfungen, die für Windows oder MacOS abweichen. Diese werden in Klammern in Tabellen in den Abschnitten angegeben, die folgen.
+Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder MacOs ist; es gibt eine Reihe von Verknüpfungen, die für MacOs von Windows abweichen. Diese werden in Klammern in Tabellen in den Abschnitten angegeben, die folgen.
 
 ##  <a name="Keyboard"></a> Allgemeine Tastenkombinationen
 Die folgende Tabelle beschreibt Tastenkombinationen für das zusätzliche Navigieren und Aufrufen von verschiedenen Elementen einer Seite, wie Aktionen, Dropdownlisten Anzeige, und mehr. Details über die Tastenkombinationen zum Navigieren von Datensätzen, wenn Sie innerhalb einer Liste abrufen, finden Sie im nächsten Abschnitt.
@@ -52,7 +52,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen für das zusätzliche Navigi
 ## <a name="keyboard-shortcuts-in-lists"></a>Tastenkombinationen in der Liste
 
 Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseite verwenden können. Die Verknüpfungsaktion ist abhängig davon, ob die Seite in der Listenansicht oder der Ansicht mit nebeneinander angeordnet Fenstern angezeigt wird.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -61,7 +61,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseit
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht tun |Um dies in einer Listenansicht tun |Bemerkungen|
 |-----------------|-------|-------|-------|
-|NACH-OBEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darüber.| Navigieren zur darüberliegenden Kachel in der Zeile darüber.  |  | 
+|NACH-OBEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darüber.| Navigieren zur darüberliegenden Kachel in der Zeile darüber.  |  |
 |NACH-UNTEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darunter. |Navigieren zur darüberliegenden Kachel in der Zeile darunter. | |
 |NACH-RECHTS-TASTE|Navigieren zur gleichen Zeile im nächsten bearbeitbaren Feld rechts.<br /><br />In einer bearbeitbaren Liste bewegen Sie die Rechte im aktuellen Feld.| Navigieren zur gleichen Zeile in der nächsten Kachel rechts. ||
 |NACH-LINKS-TASTE|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. <br /><br />In einer bearbeitbaren Liste bewegen Sie die Linke im aktuellen Feld.| Navigieren zur gleichen Zeile in der vorherigen Kachel links. ||
@@ -71,7 +71,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseit
 |Ende<br />(NACH-RECHTS-TASTE)|Navigieren zum letzten Feld in einer Zeile.|Navigieren zur letzten Kachel in einer Zeile.||
 |Seite nach oben<br />NACH-OBEN-TASTE|Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. |Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. ||
 |Seite nach unten<br />(NACH-UNTEN-TASTE)|Scrollen, um den Zeilensatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|Scrollen, um den Kachelsatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.||
-|EINGABE<br />(NACH-UNTEN-TASTE)|Öffnet den Datensatz, der diesem Feld zugeordnet ist.|Öffnet den Datensatz.| Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|
+|EINGABE|Öffnet den Datensatz, der diesem Feld zugeordnet ist.|Öffnet den Datensatz.| Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|
 |Ctrl+Enter|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.||
 
 ### <a name="CopyRows"></a> Wählen Sie, kopieren und dort einfügen aus
@@ -104,7 +104,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseit
 |Shift+Alt+F3|Öffnet den Filterbereich und fügt einen Filter für die ausgewählte Spalte in der Liste hinzu. Fokus ist auf dem neuen Filterfeld, mit dem Sie die Filterkriterien sofort eingeben können.<br /><br /> Dieses ist identisch mit, **Filter** aus der Spaltenüberschrift. Menü. Zeigt den Filterbereich an, fügt den Filter hinzu, setzt den Fokus darauf, so dass der Nutzer einen Wert eingeben kann zum Filtern.<br /><br />Wenn es bereits einen Filter in diesem Feld gibt, wird ein neuer Filter hinzugefügt. |
 |Ctrl+Shift+Alt+F3|Filter zurücksetzen. Dieses ist identisch mit, **Rücksetzungsfilter** im Filterbereich ", und es trifft auf Feld und Gesamtfilter zu.<br /><br /> Filter kehren zu den Standardfiltern für die geltende Ansicht zurück. Wenn die aktuelle Ansicht **Alle** anzeigt, dann bleibt dieses die Entsprechung dem Verbrauch einer ungefilterten Ansicht mit allen Datensätzen. |
 |Ctrl+Enter|Kehren Sie zu der Liste aus dem Filterbereich zurück.|
- 
+
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tastenkombinationen im Kalender (Datumsauswahl)
 Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeben oder festlegen oder einen Kalender (Datumsauswahl) öffnen, in dem Sie das Datum auswählen können Sie, das Sie möchten. Die folgende Tabelle beschreibt die Tastenkombinationen für den Kalender.
 

@@ -12,14 +12,14 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 357be92799a016b21a123692f7ed612d66005017
+ms.sourcegitcommit: 34a6789780fb3d55c0a97b29408dca659992f781
+ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/30/2019
 
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Die Dynamics GP-Datenmigrations-Erweiterung 
-Diese Erweiterung erleichtert die Verwendung der GP-Datenmigrationserweiterung, um Debitoren, Kreditoren, Lagerartikel, Sachkonten, Transaktionen zu offenen Verbindlichkeiten und Forderungen von Dynamics GP auf [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Wenn Ihr Geschäft Dynamics GP heute verwendet, können Sie die relevanten Daten exportieren und dann eine unterstützte Einrichtungsanleitung öffnen, um die Daten hochzuladen und in [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Weitere Informationen finden Sie unter [Geschäftsdaten aus anderen Finanzsystemen zu importieren](across-import-data-configuration-packages.md).
+Diese Erweiterung erleichtert die Verwendung der GP-Datenmigrationserweiterung, um Debitoren, Kreditoren, Lagerartikel, Sachkonten, Transaktionen zu offenen Verbindlichkeiten und Forderungen von Dynamics GP auf [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Wenn Ihr Geschäft Dynamics GP heute verwendet, können Sie die relevanten Daten exportieren und dann eine unterstützte Einrichtungsanleitung öffnen, um die Daten hochzuladen und in [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Die Migrationserweiterungsarbeiten für alle unterstützten Versionen von Microsoft Dyanmics GP. Weitere Informationen finden Sie unter [Geschäftsdaten aus anderen Finanzsystemen zu importieren](across-import-data-configuration-packages.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Exportieren von Daten aus Dynamics GP
 Sie müssen Ihre bestehenden Debitoren, Kreditoren, Lagerartikel und Sachkonten mit der Datenexportfunktionalität in Dynamics GP exportiert haben. Wenn Sie die Daten zum Export auswählen, können folgende Typen ausgewählt werden:

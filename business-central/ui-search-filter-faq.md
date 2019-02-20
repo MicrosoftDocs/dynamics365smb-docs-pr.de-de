@@ -11,10 +11,10 @@ ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b34acf29e142ef1a892f6c3c5a0ce2b6b8f7cb29
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
 ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 
@@ -24,7 +24,7 @@ In diesem Artikel finden Sie Antworten auf allgemeine Fragen, die Sie möglicher
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Gibt es einen Unterschied zwischen Suchen und Filtern?
 Ja.
 - Die Suche ist einfach und breit gefächert: sie enthält Datensätze, die den Suchtext im sichtbaren Bereich der Seite enthalten. Dabei wird die Groß-/Kleinschreibung beachtet.
-- Filterung ist sehr flexibel und kann auf bestimmte Bereiche angewendet werden, einschließlich derjenigen, die nicht auf der Seite sichtbar sind: sie zeigt Datensätze mit genauen Treffern an, bei denen die Groß-/Kleinschreibung beachtet wird. Sie kann mit leistungsfähigen Suchsymbolen, -token und -formeln angepasst werden. Weitere Informationen zur Nutzung dieser Funktionen finden Sie unter [Sortieren, Suchen und Filtern in Listen](ui-enter-criteria-filters.md)
+- Filterung ist sehr flexibel und kann auf bestimmte Bereiche angewendet werden, einschließlich derjenigen, die nicht auf der Seite sichtbar sind: sie zeigt Datensätze mit genauen Treffern an, bei denen die Groß-/Kleinschreibung beachtet wird. Sie kann mit leistungsfähigen Suchsymbolen, -token und -formeln angepasst werden. Weitere Informationen zur Nutzung dieser Funktionen finden Sie unter [Sortieren, Suchen und Filtern in Listen](ui-enter-criteria-filters.md).
 
 ## <a name="is-there-a-keyboard-experience-for-search-and-filter"></a>Gibt es Tastaturfunktionen für Suche und Filter?
 Suche und Filter wurden für Benutzer optimiert, die eine mausfreie Interaktion bevorzugen, um effizient mit ihren Daten zu arbeiten. Es gibt eine Reihe von Tastenkombinationen, die nacheinander verwendet werden können, um schnell zu arbeiten. Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
@@ -33,8 +33,8 @@ Suche und Filter wurden für Benutzer optimiert, die eine mausfreie Interaktion 
 Der Filterbereich ist in Bildschirmen verfügbar, in denen die Liste der primäre Inhalt der Seite ist, wie Arbeitsblätter und Listenseiten, einschließlich Listen, die von der Navigationsleiste erreichbar sind. Der Filterbereich ist noch nicht für eingebettete Listen, wie Verkaufspositionen in Aufträgen, oder für Listen mit dynamischen Spalten (häufig Matrixseiten genannt) verfügbar. 
 
 ## <a name="how-can-i-save-my-filters"></a>Wie kann ich meine Filter speichern?
-Ihre Filter und Änderungen an vordefinierten Filtern werden während der Sitzung beibehalten (solange Sie angemeldet bleiben), auch wenn Sie die Seite verlassen. Es ist derzeit nicht möglich, Filter permanent zu speichern.
-Anders als bei Filtern, bleibt Suchtext nicht erhalten, wenn Sie die Seite verlassen.
+
+Ihre Filter und Änderungen an vordefinierten Filtern werden während der Sitzung beibehalten (solange Sie angemeldet bleiben), auch wenn Sie die Seite verlassen. Es ist derzeit nicht möglich, Filter permanent zu speichern. Anders als bei Filtern, bleibt Suchtext nicht erhalten, wenn Sie die Seite verlassen.
 
 ## <a name="is-this-the-same-as-advanced-filters-and-limit-totals-in-microsoft-dynamics-nav"></a>Gleicht diese Funktion der erweiterten Filter und "Summenberechnung einschränken" in Microsoft Dynamics NAV?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] baut auf diesen gängigen Funktionen auf und bietet eine moderne und als nutzbare Oberfläche für die Suche und das Analysieren Ihrer Daten. Dank weiterer Tastenkombinationen und der Einführung der Suche [!INCLUDE[d365fin](includes/d365fin_md.md)] übertrifft die Funktionalität, die in Dynamics NAV bereitgestellt wird.

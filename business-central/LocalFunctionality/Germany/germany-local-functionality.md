@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
-ms.openlocfilehash: 6b460e4eb277264ff3b0307e6cb4c08dd7b2b591
+ms.sourcegitcommit: 5e8dfa9572b84360bfcc5087bc3b0b9b9ed9182f
+ms.openlocfilehash: 9fa942e4e46be8e15c169a6abccc73b3b9613ffc
 ms.contentlocale: de-de
-ms.lasthandoff: 10/15/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 # <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
@@ -31,16 +31,12 @@ Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deut
 [Kopieren vorhandener Artikel in neue Artikel](how-to-copy-existing-items-to-new-items.md)  
 [Zu korrigierender MwSt.-Bericht](how-to-correct-vat-reports.md)  
 [So erstellen Sie eine physische Inventurerfassung](how-to-create-a-physical-inventory-recording.md)  
-[Gewusst wie: Erstellen und Senden von Umsatzsteuervoranmeldungen](how-to-create-and-submit-sales-vat-advance-notifications.md)  
 [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)  
 [Erstellen von MwsT-Berichten.](how-to-create-vat-reports.md)  
 [Währungswechselkurse](currency-exchange-rates.md)  
 [MwSt-VIES-Steuer angeben](how-to-declare-vat-vies-tax.md)  
 [Lieferanmahnungen](delivery-reminders.md)  
-[ELSTER-Übermittlung – Übersicht](elster-transmission-overview.md)  
-[Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md)  
 [So geben Sie Dimensionen für den physischen Inventurauftrag ein](how-to-enter-dimensions-for-physical-inventory-orders.md)  
-[Fehlermeldungen des Elster Transfer Handler](error-messages-of-the-elstertransferhandler.md)  
 [Aufträge für physische Inventur eingeben](how-to-enter-physical-inventory-orders.md)  
 [Zusammenfassende Meldung in Deutschland](eu-sales-list-in-germany.md)  
 [Beispiel - Inventurauftragszeile mit Nachverfolgungszeilen](example-inventory-order-line-with-tracking-lines.md)  
@@ -66,7 +62,6 @@ Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deut
 [Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
 [Inventurbelege einrichten](how-to-set-up-physical-inventory-documents.md)  
 [Richten Sie Berichte für MwSt ein.](how-to-set-up-reports-for-vat-and-intrastat.md)  
-[Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für Elster](how-to-set-up-sales-vat-advance-notifications-for-elster.md)  
 [Richten Sie die MwSt.-Berichte ein.](how-to-set-up-vat-reports.md)  
 [Aktualisieren Sie eine .DTD-Definitions-Datei](how-to-upgrade-a-.dtd-definition-file.md)  
 [MwSt.-Abrechnung](vat-reporting.md)  

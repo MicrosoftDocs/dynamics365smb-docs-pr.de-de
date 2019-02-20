@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d0a7088e436def55b3c7ddc3115065c66686b7fb
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: bed38cf158e5372ff9c4e2f23667fba8af93ec74
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung
+
+**Hinweis**: In dieser exemplarischen Vorgehensweise muss in einem Demomandanten mit der Option **Volle Auswertung - vollständige Beispieldaten** ausgeführt werden, die in der Sandboxumgebung verfügbar ist. Weitere Informationen finden Sie unter [Erstellen einer Sandbox-Umgebung](across-how-create-sandbox-environment.md).
+
 In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungsaufträgen zum Erfüllen eines neuen Bedarfs beschrieben. Je nach Bedarfsart können Sie die Beschaffungsplanung in festen Intervallen, z. B. jeden Morgen oder jeden Montag, oder bei einer entsprechenden Benachrichtigung durch den Verkauf oder die Produktion initiieren. In dieser exemplarischen Vorgehensweise verwenden Sie die Seite **Auftragsplanung**, ein einfaches Tool für die Beschaffungsplanung, bei dem Entscheidungen manuell getroffen werden, anstatt die Planung automatisch anhand von Parametern durchzuführen.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
@@ -57,7 +60,7 @@ In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungs
 
 ## <a name="using-the-order-planning-page"></a>Verwenden der Seite "Auftragsplanung"  
 
-<!-- 
+<!--
 The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
 
 -   Manufacturing, Planning  

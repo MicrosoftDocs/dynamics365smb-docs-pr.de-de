@@ -11,10 +11,10 @@ ms.search.keywords: access, right, security
 ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6cbce557e03788f760cb9f73dccf1619aa6a9e8c
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 78e83ee0740531935bd30a5988a72d1421a1fd89
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="managing-users-and-permissions"></a>Benutzer und ihre Berechtigungen verwalten
@@ -64,7 +64,7 @@ Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definie
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benutzer einrichten** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie auf der Seite **Benutzereinrichtung** die Aktion **Neu** aus.
-3. In dem Feld **Benutzer-ID** geben Sie die ID eines Benutzers ein, oder wählen Sie das Feld aus, um alle Nutzer der aktiven Seiten im System anzuzeigen.
+3. In dem Feld **Benutzer-ID** geben Sie die ID eines Benutzers ein, oder wählen Sie das Feld aus, um alle Nutzer der aktiven Fenster im System anzuzeigen.
 4. Füllen Sie die Felder je nach Bedarf aus.
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Um ein Berechtigungssatz zu erstellen oder zu ändern

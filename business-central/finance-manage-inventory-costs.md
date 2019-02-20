@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/15/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: d24998281a7e718c5f4ae648eba1a338512eefcb
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: d5f5885055aa1094e4172d4a4e327ff1e940f799
 ms.contentlocale: de-de
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Verwalten der Lagerregulierung
@@ -29,6 +29,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
 |Lesen verschiedener Konzeptinformationen, um ein Verständnis für die Prinzipien und Definitionen zu entwickeln, auf denen die Lagerkostenbuchungsfunktionalität in [!INCLUDE[d365fin](includes/d365fin_md.md)] beruht|[Info über Lagerkostenberechnung](finance-learn-about-costing.md)|  
+|Erfahren Sie mehr über die Mechanismen im Kostenrechnungssystem.|[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)|
 |Erhalten von Informationen dazu, wie Lagerbuchungsperioden in einem Unternehmen zur kontinuierlichen Steuerung des Lagerwerts beitragen können, indem kürzere Perioden definiert werden, die im Laufe des Geschäftsjahrs abgeschlossen werden können|[Arbeiten mit Lagerbuchungsperioden](finance-how-to-work-with-inventory-periods.md)|
 |Erhalten von Informationen dazu, warum feste Einstandspreise häufig von Fertigungsbetrieben als Bewertungsgrundlage für Komponenten und Endartikel verwendet werden|[Informationen zur Berechnung von festen Einstandspreisen](finance-about-calculating-standard-cost.md)|
 |Einrichten von Lagerbuchungsperioden, Lagerabgangsmethoden und Rundungsmethoden.|[Einrichten der Lagerwertberechnung und der Kostenrechnung](finance-set-up-inventory-valuation-and-costing.md)|
@@ -38,7 +39,6 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Regelmäßige Aktualisierung der festen Einstandspreise von Komponenten in Montage- oder Produktionsstücklisten und Übertragung der neuen Einstandspreise auf den übergeordneten Artikel.|[Standardkosten aktualisieren](finance-how-to-update-standard-costs.md)|
 |Sie können bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.|[Entfernen und erneutes Ausgleichen von Artikelposten](finance-how-to-remove-and-reapply-item-entries.md)|
 |Ausführen von Kontroll- und Berichterstellungsaufgaben am Periodenende – beispielsweise Berechnen des Werts von Lagerbestand und Buchen von Kosten in die Finanzbuchhaltung|[Melden von Kosten und Abstimmen mit der Finanzbuchhaltung](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
-|Erfahren Sie mehr über die Mechanismen im Kostenrechnungssystem.|[Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Siehe auch  
  [Finanzen](finance.md)  

@@ -1,6 +1,6 @@
 ---
 title: "Gewusst wie: So schließen Sie eine Inventurerfassung ab"
-description: "Nachdem alle Daten einer Inventurerfassung vollständig eingegeben wurden, können Sie die Erfassung abschließen, indem Sie das Feld **Status** auf **Beendet** setzen."
+description: "Nachdem alle Daten einer Inventurerfassung vollständig eingegeben wurden, können Sie die Erfassung abschließen, indem Sie das Feld Status auf Beendet setzen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 27f661828151d5dcdcac4ce0dbb46f9b24ccef27
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: fd06fb266f387bbe26c67673017b0515f7f66397
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="finish-a-physical-inventory-recording"></a>So schließen Sie eine Inventurerfassung ab

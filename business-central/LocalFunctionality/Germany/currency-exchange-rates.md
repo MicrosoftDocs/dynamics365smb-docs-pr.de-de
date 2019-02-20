@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 7a83576df2bc09aa864e0c133106bd9f3a83e3af
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 824ccd09d9539def0814faca3c5ed0de9e6a8d96
 ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="currency-exchange-rates"></a>Währungswechselkurse
@@ -41,5 +41,6 @@ Deutsche Unternehmen müssen die Option **BilMoG (Deutschland)** verwenden, wenn
 |**Kurzfristige Verbindlichkeiten bis**|Gibt das Datum an, das kurzfristige Posten von langfristigen Posten trennt. Kurzfristige Posten können ein Fälligkeitsdatum aufweisen, das vor oder an diesem Datum liegt. Der Standardwert ist der Wert des Feldes **Bewertungsreferenzdatum** plus ein Jahr.|  
 
 ## <a name="see-also"></a>Siehe auch  
-[Währungswechselkurse aktualisieren](../../finance-how-update-currencies.md)
+[Währungswechselkurse aktualisieren](../../finance-how-update-currencies.md)  
+[Einrichten einer zusätzlichen Berichtswährung](../../finance-how-setup-additional-currencies.md)
 

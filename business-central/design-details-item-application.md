@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2018
+ms.date: 12/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
@@ -94,7 +94,7 @@ Für einen festen Ausgleich verwenden Sie das Feld **Ausgleich mit Lfd. Nr**. od
 Das folgende Beispiel, das die Auswirkungen des festen Ausgleichs einer Einkaufsreklamation eines Artikels zeigt, der die FIFO-Kostenbewertungsmethode verwendet, basiert auf dem folgenden Szenario:  
 
 1. In Postennummer 1 bucht der Benutzer einen Einkauf zu den Kosten von MW 10,00.  
-2. In Postennummer 2 bucht der Benutzer einen Einkauf an Kosten MW 20,00.  
+2. In Postennummer 2 bucht der Benutzer einen Einkauf zu den Kosten von MW 20,00.  
 3. In Postennummer 3 bucht der Benutzer eine Einkaufsreklamation. Der Benutzer erstellt einen festen Ausgleich für den zweiten Verkauf, indem er die Artikelpostennummer im Feld **Anwendung für Artikeleintrag**in der Reklamationszeile eingibt.  
 
 Die folgende Tabelle zeigt Artikelposten an, die aus dem Szenario resultieren.  
@@ -111,7 +111,7 @@ Die folgende Tabelle zeigt den Artikelausgleichsposten, der aus dem festen Ausgl
 
 |Buchungsdatum|Eingeh. Artikelposten Lfd. Nr.|Ausgeh. Artikelposten Lfd. Nr.|Menge|Artikelposten Lfd. Nr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|1|3|10|3|  
+|01-06-20|2|3|10|3|  
 
 Der Einstandsbetrag wird dann LCY 20.00, richtig mit der Einkaufsreklamation verknüpft.  
 

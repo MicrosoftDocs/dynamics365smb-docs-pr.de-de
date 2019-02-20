@@ -1,6 +1,6 @@
 ---
 title: "Gewusst wie: Buchen von Inventuraufträgen"
-description: "Nach Fertigstellen eines Inventurauftrags und Ändern des Status in **Beendet** kann er gebucht werden."
+description: "Nach Fertigstellen eines Inventurauftrags und Ändern des Status in Beendet kann er gebucht werden."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: cccc2da8158defc9308a3b29b939e9ed7b7080c5
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 9aa3d69d41a4f8667499908d5a8b3a48f7e1cb44
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="post-physical-inventory-orders"></a>So buchen Sie Inventuraufträge
@@ -43,7 +43,7 @@ Nach dem Buchen des Auftrags können die gebuchten Inventuraufträge angezeigt w
     > [!NOTE]  
     >  Eine Änderung des Inventurauftragskopfs oder der Inventurauftragszeilen ist nicht möglich.  
 
-5.  Wählen Sie die zu buchenden Zeilen aus, und wählen Sie dann die Aktion **Buchen** und dann **ok** aus.  
+5.  Wählen Sie die zu buchenden Zeilen aus, und wählen Sie dann die Aktion **Buchen** und dann **OK** aus.  
 
 ## <a name="to-view-posted-physical-inventory-orders"></a>So zeigen Sie gebuchte Inventuraufträge an  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4ce03eb7a3685f53869795ded646ef6917a1730a
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: f40c0b422bfde2d3a186b4458c3780932934d497
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="assembly-management"></a>Montageverwaltung
@@ -43,6 +43,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Verkaufen Sie Montageartikel, die zu dem Zeitpunkt nicht verfügbar sind, indem Sie einen verknüpften Montageauftrag erstellen, um die gesamte oder einen Teil der Verkaufauftragsmenge zu beziehen.|[Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md)|
 |Wenn einige Auftragsmontageartikel bereits im Lager vorhanden sind, dann ziehen Sie die Menge von dem Montageauftrag ab und reservieren sie aus dem Lager.|[So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
 |Wenn Sie Montageartikel aus dem Lagerbestand verkaufen und nicht alle Artikel verfügbar sind, können Sie einen Montageauftrag veranlassen, um einen Teil oder die gesamte Verkaufsauftragsmenge liefern zu können.|[So verkaufen Sie Auftragsmontageartikel und Lagerartikel zusammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
+|Wie für jedem anderen Artikel, können Sie auch Rahmenaufträge für benutzerdefinierte Montageartikel erstellen, bevor Sie die tatsächlichen Verkaufsaufträge in regelmäßigen Abständen entsprechend der Rahmenbestellung erstellen.|[Erstellen von Montagerahmenaufträgen](assembly-how-to-create-blanket-assembly-orders.md)|
 |Rückgängigmachen eines gebuchten Montageauftrags, beispielsweise wenn der Auftrag mit Fehlern gebucht wurde, die korrigiert werden müssen.|[Montagesbuchungen rückgängig machen](assembly-how-to-undo-assembly-posting.md)|
 |Erhalten Sie weitere Informationen zum Unterschied zwischen Montagestücklisten und Fertigungsstücklisten und die entsprechenden Verarbeitungsunterschiede.|[Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)|
 |Erfahren Sie, wie der Verbrauch für die Montage und den Ausstoß behandelt werden, wenn Sie Montageaufträge buchen, und wie der abgeleitete Artikel und die Ressourcenkosten verarbeitet und in die Finanzbuchhaltung übergeben werden.|[Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)|  
@@ -54,5 +55,4 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

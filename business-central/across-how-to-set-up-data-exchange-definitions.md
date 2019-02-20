@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
@@ -50,7 +50,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     |---------------------------------|---------------------------------------|  
     |**Code**|Geben Sie einen Code zur Identifizierung der Datenaustauschdefinition ein.|  
     |**Name**|Geben Sie einen Namen für die Datenaustauschdefinition ein.|  
-    |**Dateityp**|Geben Sie an, für welche Art von Datei die Datenaustauschdefinition verwendet wird. Sie können zwischen drei Dateitypen auswählen:<br /><br /> -   **XML**: Geschichtete Zeichenfolgen des Inhalts und des Aufschlags, die von Tags, die die Funktion angeben, umgeben sind.<br />-   **Variabler Text**: Datensätze haben eine variable Länge und sind durch ein Zeichen, z. B. ein Komma oder \-Semikolon geteilt. Auch bekannt als *Datei mit Trennzeichen*.<br />-   **Fester Text**: Datensätze haben dieselbe Länge, unter Verwendung von Auffüllzeichen, und mit jedem Datensatz auf einer separaten Zeile. Auch bekannt als *Datei mit fester Breite*.|  
+    |**Dateityp**|Geben Sie an, für welche Art von Datei die Datenaustauschdefinition verwendet wird. Sie können zwischen vier Dateitypen auswählen:<br /><br /> -   **XML**: Geschichtete Zeichenfolgen des Inhalts und des Aufschlags, die von Tags, die die Funktion angeben, umgeben sind.<br />-   **Variabler Text**: Datensätze haben eine variable Länge und sind durch ein Zeichen, z. B. ein Komma oder \-Semikolon geteilt. Auch bekannt als *Datei mit Trennzeichen*.<br />-   **Fester Text**: Datensätze haben dieselbe Länge, unter Verwendung von Auffüllzeichen, und mit jedem Datensatz auf einer separaten Zeile. Auch bekannt als *Datei mit fester Breite*.<br />- **Json**: Geschichtete Zeichenfolgen des Inhalts in JavaScript.|  
     |**Typ**|Geben Sie an, für welche Art von Geschäftstätigkeit die Datenaustauschdefinition verwendet wird, zum Beispiel **Zahlungsexport**.|  
     |**Codeunit zur Datenverarbeitung**|Geben Sie die Codeunit an, die Daten in und aus Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] überträgt.|  
     |**Überprüfungs-Codeunit**|Geben Sie die Codeunit an, die verwendet wird, um Daten gegen vordefinierte Geschäftsregeln zu validieren.|  

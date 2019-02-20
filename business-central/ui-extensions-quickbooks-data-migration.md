@@ -11,10 +11,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 30944a42746d9538e245f8970a8cb76423bc9c59
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: e5cb755b6a15070410c42328ccf08b784928f3ca
 ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -45,10 +45,14 @@ Ein wichtiger Teil des Migrationsvorgangs ist es, Konten anzugeben, um Transakti
 - Der Verkauf von Artikeln oder Services an einen Debitoren  
 - Der Kauf von Waren oder Dienste von einem Kreditor  
 - Änderungen in der Finanzbuchhaltung  
-Business Central erfordert, dass Sachkonten die Kontonummern haben, die ihm zugeordnet werden. Überprüfen Sie, ob Sie Kontonummern Ihren Konten in QuickBooks online zugeordnet werden.
-Wenn Transaktionen in QuickBooks online Steuerbeträge haben, müssen Sie eine MwSt einrichten für Ihre Steuerzuständigkeiten in Business Central, bevor Sie Buchungen durchführen können.
 
-Um die Daten aus der QuickBooks Desktop-Anwendung abzurufen, müssen Sie das Microsoft Daten Exporter Tool herunterladen.  Die Anweisungen für das Werkzeug finden Sie im Datenmigrationsassistenten in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Das Tool stellt eine Verbindung mit Ihrer QuickBooks-Anwendung her und exportiert die anwendbaren Daten in eine *.ZIP-Datei.  
+Business Central erfordert, dass Sachkonten die Kontonummern haben, die ihm zugeordnet werden. Überprüfen Sie, ob Sie Kontonummern Ihren Konten in QuickBooks online zugeordnet werden.
+Wenn Transaktionen in QuickBooks Steuerbeträge haben, müssen Sie eine MwSt einrichten für Ihre Steuerzuständigkeiten in Business Central, bevor Sie Buchungen durchführen können.
+
+Um die Daten aus der QuickBooks Desktop-Anwendung abzurufen, müssen Sie das Microsoft Daten Exporter Tool herunterladen.  Die Anweisungen für das Werkzeug finden Sie im Datenmigrationsassistenten in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Das Tool stellt eine Verbindung mit Ihrer QuickBooks-Anwendung her und exportiert die anwendbaren Daten in eine .ZIP-Datei.  
+
+> [!NOTE]
+> Zurzeit arbeitet das Datenenexporteurtool nur mit QuickBooks 2017 und 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Die QuickBooks-Datenmigrations-Erweiterung suchen
 Die QuickBooks-Datenmigrationserweiterung ist eingerichtet und vorbereitet, um als integrierter Teil des unterstützten Setups bei der Datenmigration zu helfen. Wenn Sie bereit sind jetzt anzufangen, und die Daten aus QuickBooks exportiert haben, wählen Sie das Symbol ![Glühbirne, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet werden kann](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren"), geben Sie **Unterstützte Einrichtung** ein, und wählen dann den zugehörigen Link aus. Wählen Sie **Migrieren von Geschäftsdaten** und anschließend führen Sie die Schritte im Handbuch aus.  

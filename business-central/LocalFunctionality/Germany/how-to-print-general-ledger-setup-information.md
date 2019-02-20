@@ -1,6 +1,6 @@
 ---
 title: 'Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen'
-description: "Bevor Sie Business Central im täglichen Geschäft verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben."
+description: "Bevor Sie Business Central im täglichen Geschäft verwenden können, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1cc5b9f3526369ae7ce6bc045cc98cd2a30eb887
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 0ffc1f5c471e0c02beb1b147ede97721402d4456
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="print-general-ledger-setup-information"></a>Drucken von Finanzbuchhaltungs-Setupinformationen

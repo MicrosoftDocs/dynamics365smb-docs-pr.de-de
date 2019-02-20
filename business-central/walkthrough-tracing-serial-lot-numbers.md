@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 13638a1bc96bc61fb2d2b3d925a861f1085fe275
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
+
+**Hinweis**: In dieser exemplarischen Vorgehensweise muss in einem Demomandanten mit der Option **Volle Auswertung - vollständige Beispieldaten** ausgeführt werden, die in der Sandboxumgebung verfügbar ist. Weitere Informationen finden Sie unter [Erstellen einer Sandbox-Umgebung](across-how-create-sandbox-environment.md).
+
 Wenn Produktfehler auftreten, müssen die Fehler identifiziert werden, und es muss verhindert werden, dass die betroffenen Artikel das Unternehmen verlassen. Falls bereits defekte Artikel geliefert wurden, müssen Sie verfolgen, wer diese Artikel erhalten hat, und ggf. muss ein Rückruf eingeleitet werden.  
 
 Als erste Aufgabe bei der Defektverwaltung ermitteln Sie, woher die defekten Artikel stammen und wo Sie verwendet wurden. Diese Untersuchung basiert auf historischen Daten und wird durch Durchsuchen von Artikelverfolgungsposten auf der Seite **Artikelablaufverfolgung** vorgenommen.  

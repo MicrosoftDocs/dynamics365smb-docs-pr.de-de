@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
+redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ae9f4f6b8879b01b6b54aeef4b855b6ad9eb2e23
+ms.sourcegitcommit: 5e8dfa9572b84360bfcc5087bc3b0b9b9ed9182f
+ms.openlocfilehash: 18570e4a0521da27eaf9b0ffa5dd301b07bcfe69
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 # <a name="electronic-submission-of-sales-vat-advance-notifications-to-elster"></a>Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER

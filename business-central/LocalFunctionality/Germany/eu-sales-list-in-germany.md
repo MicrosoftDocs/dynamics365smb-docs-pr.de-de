@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 78c689aafe31cdec7be1e1740422f781352bbd3c
-ms.openlocfilehash: 362a9e8c146050d1f3a839894e04c6466d8b62d5
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 1bcc4c83fd41ca3bd2d77024a369350c483f991a
 ms.contentlocale: de-de
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 

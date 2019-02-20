@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
 ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="pick-items"></a>Entnahme von Artikeln
@@ -38,7 +38,8 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Buchen Sie die Lieferung von Artikeln direkt im Beleg des ausgehenden Auftrags, da keine Lagerfunktionen vorhanden sind. (Funktioniert analog für Verkaufsaufträge, ausgehende Umlagerungsaufträge und Rücklieferungen.)|[Versenden von Artikeln](warehouse-how-ship-items.md)|  
 |Kommissionieren Sie Artikel auftragsweise, und buchen Sie bei einer Basis-Lagerkonfiguration die Lieferung in derselben Aktivität.|[Artikel mit der Lagerkommissionierung kommissionieren](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Kommissionieren Sie Artikel für mehrere Aufträge in einer erweiterten Lagerkonfiguration.|[Artikel mit Kommissionierungen kommissionieren](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Kommissionieren Sie Komponenten für Produktion oder Montage in einer grundlegenden oder erweiterten Lagerkonfiguration.|[Kommissionierung für die Produktion oder Montage](warehouse-how-to-pick-for-production.md)|  
+|Kommissionieren von Komponenten zur Produktion oder Montage in einer Basis-Lagerkonfiguration.|[Kommissionierung für Montage oder Produktion in Grund-Lagerkonfiguration](warehouse-how-to-pick-for-production.md)|
+|Kommissionieren Sie Komponenten zur Produktion oder Montage in einer erweiterten Lagerkonfiguration.|[Kommissionierung für Montage oder Produktion in erweiterter Lagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
 |Planen Sie optimierte Kommissionierungsanweisungen für eine Reihe von Lieferungen, bevor Sie die Lagermitarbeiter die gebuchten Lieferungen direkt bearbeiten lassen.|[Kommissionierungen im Vorschlag bearbeiten](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Kommissionieren Sie Artikel für einen bestimmten Zweck, z. B. eine Produktion benötigt zusätzliche Komponenten. Dies geschieht technisch gesehen so, dass die Artikel das Lager nicht verlassen.|[Wählen und setzen Sie die Einlagerung verwendet ohne Herkunftsbeleg](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Die automatische Kommissionierung von Artikeln entsprechend ihres Ablaufdatums, beispielsweise begrenzt haltbare Lebensmittel, verstehen.|[Kommissionierung nach FEFO](warehouse-picking-by-fefo.md)|

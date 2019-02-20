@@ -9,10 +9,10 @@ ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
 ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -47,8 +47,8 @@ In der Arbeits- und Schuldatenschutzseite können Sie Ihr Konto schließen. Es e
 Sie können Personal immer noch sperren aufgrund des Datenschutzes und Transaktionen wie in diesem Artikel erklärt bearbeiten oder löschen.  
 
 ## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Daten aus Tabellen exportieren, die nicht nach Datenensubjekten klassifiziert sind
-Wenn Sie eine Situation haben, in der Sie Daten exportieren müssen, die nicht auf eine Weise klassifiziert werden, so dass sie automatisch exportiert werden, wie Daten aus den Profil-Antworten Tabelle, müssen Sie wie folgt vorgehen: 
--   Berücksichtigen Sie, dass wenn Sie tatsächlich diese ergänzenden Daten exportieren möchten oder müssen, die nicht mit dem Kontakt verknüpft ist, setzt dies voraus, dass er kein direktes Verhältnis dazu hat. 
+Wenn Sie eine Situation haben, in der Sie Daten exportieren müssen, die nicht auf eine Weise klassifiziert werden, so dass sie automatisch exportiert werden, wie Daten aus den Profil-Antworten Tabelle, müssen Sie wie folgt vorgehen:
+-   Berücksichtigen Sie, dass wenn Sie tatsächlich diese ergänzenden Daten exportieren möchten oder müssen, die nicht mit dem Kontakt verknüpft ist, setzt dies voraus, dass er kein direktes Verhältnis dazu hat.
 -   Fügen Sie diese Tabelle und Verbindung manuell mit dem Rapid Start Paket hinzu und exportieren Sie es direkt aus dem Rapid Start Paket - daher erstellen wir ein Anfangspaket einfach für Sie, so dass Sie dieses in Situationen wie dieser ändern können.
 
 ## <a name="handling-data-about-minors"></a>Behandlung von Daten Minderjähriger

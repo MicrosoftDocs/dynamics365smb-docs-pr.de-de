@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: ac2582e48d03738974d5db51841e1efdf4c0a316
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbeiten mit Rahmenaufträgen
@@ -27,7 +27,7 @@ In einem Rahmenauftrag kann jede einzelne Lieferung als Auftragszeile eingericht
 Rahmenaufträge werden beispielsweise verwendet, wenn ein Debitor anruft und 1000 Einheiten eines Artikels bestellt, die über den kommenden Monat in Mengen von je 250 Stck. pro Woche geliefert werden sollen.
 
 > [!NOTE]
-> Rahmenbestellungen funktionieren auf ähnliche Weise wie Rahmenaufträge. Die Dokumentation enthält keine Rahmenbestellungen.
+> Rahmenbestellungen funktionieren auf ähnliche Weise wie Rahmenaufträge. Die Dokumentation enthält nur Rahmenverkaufsaufträge.
 
 ## <a name="to-create-a-blanket-sales-order"></a>So legen Sie einen Rahmenauftrag an:  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Leere Verkaufsaufträge** ein, und wählen dann den zugehörigen Link aus.  
@@ -38,7 +38,7 @@ Rahmenaufträge werden beispielsweise verwendet, wenn ein Debitor anruft und 100
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>So erstellen Sie einen Auftrag aus einem Rahmenauftrag:  
 
-1.  Um einen Auftrag für eine oder mehrere der Zeilen des Montagerahmenauftrags zu erstellen, entfernen Sie die Menge im Feld **Zu liefern** in allen Zeilen, für die zum aktuellen Zeitpunkt KEINE Lieferung gewünscht wird.  
+1.  Um einen Auftrag für eine oder mehrere der Zeilen des Rahmenauftrags zu erstellen, entfernen Sie die Menge im Feld **Zu liefernde Menge** in allen Zeilen, für die zum aktuellen Zeitpunkt keine Lieferung gewünscht wird.  
 2.  Wenn Sie die Aufträge erstellen möchten, klicken Sie auf **Auftrag erst.** und anschließend auf **Ja**. Sie werden in einer Meldung darüber informiert, dass dem Rahmenauftrag eine Auftragsnummer zugewiesen wurde. Beachten Sie, dass der Rahmenauftrag nicht gelöscht wurde.  
 3.  Wählen Sie die Schaltfläche **OK** aus.  
 4.  Um die Ergebnisse der vorangehenden Schritte anzuzeigen, wählen Sie auf dem Inforegister **Zeilen** die Option **Aktionen**, wählen Sie Zeile, wählen Sie Nicht gebuchte Zeilen, und wählen Sie dann **Aufträge**.  
@@ -55,17 +55,17 @@ Das folgende gilt für Verkaufsaufträge nach der Erstellung von Rahmenaufträge
 - Der fakturierte Rahmenauftrag verbleibt im System, bis er gelöscht wird, und zwar entweder durch Löschen einzelner Rahmenaufträge oder durch Ausführen der Stapelverarbeitung **Erledigte Rahmenauftr. löschen**.  
 - Wenn ein Debitor im Anwendungsbereich "Marketing" auch als Kontakt eingerichtet wurde und Sie einen Aktivitätenvorlagencode für Rahmenaufträge auf der Seite **Marketing & Vertrieb Einr.** angegeben haben, wird eine Aktivität in der Tabelle "Aktivitätenprotokollposten" aufgezeichnet, wenn Sie **Drucken** auswählen, um die Rahmenaufträge zu drucken.
 
-## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>So zeigen Sie den Status einer Rahmenbestellung an  
-Sie können sich den Status einer Rahmenbestellung auf der Seite **Einkaufsstatistik Rahmenbestellung** anzeigen lassen. Dies kann dann von Bedeutung sein, wenn Sie beginnen, die Bestellung zu fakturieren, die aus der Rahmenbestellung erstellt wurde.  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>So zeigen Sie den Status eines Rahmenauftrags an:  
+Sie können sich den Status einer Rahmenbestellung auf der Seite **Auftragssstatistik Rahmenbestellung** anzeigen lassen. Dies kann dann von Bedeutung sein, wenn Sie beginnen, die Bestellung zu fakturieren, die aus der Rahmenverkaufsbestellung erstellt wurde.  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Leere Kaufaufträge** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie eine Rahmenbestellung aus, und wählen Sie die **Statistik** Aktion aus.  
-3.  Auf der Seite **Einkaufsstatistik Rahmenbestellung** finden Sie auf dem Inforegister **Allgemein** zusammengefasste Informationen über den gesamten Auftrag, basierend auf den Gesamtmengen in den verschiedenen **Mengenfeldern** in den Rahmenbestellungszeilen.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Leere Verkaufsaufträge** ein, und wählen dann den zugehörigen Link aus.  
+2.  Wählen Sie einen Rahmenbestellung aus, und wählen Sie die **Statistik** Aktion aus.  
+3.  Auf der Seite **Verkaufsstatistik Rahmenbestellung** finden Sie auf dem Inforegister **Allgemein** zusammengefasste Informationen über die gesamte Bestellung, basierend auf den Gesamtmengen in den verschiedenen **Mengenfeldern** in den Rahmenbestellungszeilen.  
 
-    - Auf dem Inforegister **Fakturierung** finden Sie zusammengefasste Informationen über die Gesamtmenge in den verschiedenen Feldern **Zu fakturieren** in den Einkaufsrahmenbestellungszeilen.  
-    - Auf dem Inforegister **Lieferung** werden zusammengefasste Informationen über die Gesamtmenge in den verschiedenen Feldern **Zu liefern** in den Einkaufsrahmenbestellungszeilen angezeigt.  
-    - Auf dem Inforegister **Vorauszahlung** werden zusammenfassende Informationen zu den vorab bezahlten Beträgen angezeigt.  
-    - Auf dem Inforegister **Kreditor** werden bestimmte grundlegende Informationen über den Kreditor angezeigt.    
+- Auf dem Inforegister **Fakturierung** finden Sie zusammengefasste Informationen über die Gesamtmenge in den verschiedenen Feldern **Zu fakturieren** in den Rahmenverkaufsbestellungszeilen.  
+- Auf dem Inforegister **Lieferung** werden zusammengefasste Informationen über die Gesamtmenge in den verschiedenen Feldern **Zu liefern** in den Rahmenverkaufsbestellungszeilen angezeigt.  
+- Auf dem Inforegister **Vorauszahlung** werden zusammenfassende Informationen zu den vorab bezahlten Beträgen angezeigt.  
+- Auf dem Inforegister **Kreditor** werden bestimmte grundlegende Informationen über den Kreditor angezeigt.    
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Um gebuchte und nicht gebuchte Rahmenbestellungszeilen anzuzeigen   
 Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsauftrag und jeder andere Verkaufsbeleg wird beibehalten, nachdem sie als Liste gebuchter und ungebuchter Verkaufsauftrags- und Rechnungszeilen gebucht wurden.  
@@ -74,56 +74,27 @@ Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsau
 2. Öffnen Sie die Rahmenbestellung, die Sie anzeigen möchten.
 3. Sie können nicht gebuchte Posten anzeigen, indem Sie die entsprechende Zeile markieren und dann auf dem Inforegister  Zeilen auf  Aktionen,  **Zeile**,  **Nicht gebuchte Zeilen** klicken. Wählen Sie eine der folgenden Optionen aus.  
 
-    <table>
-    <tr>
-    <th>Option</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Aufträge**</td>
-    <td>Gibt mit der ausgewählten Zeile verknüpfte offene Aufträge an.</td>
-    </tr>
-    <tr>
-    <td>**Rechnungen**</td>
-    <td>Gibt mit der ausgewählten Zeile verknüpfte offene Rechnungen an. Offene Rechnungen werden durch Eingabe der Nummer des Rahmenauftrags in der Verkaufsrechnungszeile manuell mit einem Rahmenauftrag verknüpft.</td>
-    </tr>
-    <tr>
-    <td>**Reklamationen**</td>
-    <td>Gibt mit der ausgewählten Zeile verknüpfte offene Reklamationen an.</td>
-    </tr>
-    <tr>
-    <td>**Gutschriften**</td>
-    <td>Gibt mit der ausgewählten Zeile verknüpfte offene Gutschriften an.</td>
-    </tr>
-    </table>
-4.Sie können nicht gebuchte Posten anzeigen, indem Sie die entsprechende Zeile markieren und dann auf dem Inforegister  **Zeilen** auf  Aktionen,  Zeile,  **Gebuchte Zeilen** klicken. Wählen Sie eine der folgenden Optionen aus.  
+    |Option|Description|
+    |--|--|
+    |**Aufträge**|Gibt mit der ausgewählten Zeile verknüpfte offene Aufträge an.|
+    |**Rechnungen**|Gibt mit der ausgewählten Zeile verknüpfte offene Rechnungen an. Offene Rechnungen werden durch Eingabe der Nummer des Rahmenauftrags in der Verkaufsrechnungszeile manuell mit einem Rahmenauftrag verknüpft.|
+    |**Reklamationen**|Gibt mit der ausgewählten Zeile verknüpfte offene Reklamationen an.|
+    |**Gutschriften**|Gibt mit der ausgewählten Zeile verknüpfte offene Gutschriften an.|
 
-    <table>
-    <tr>
-    <th>Option</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Lieferungen**</td>
-    <td>Mit der ausgewählten Zeile verknüpfte gebuchte Lieferungen.</td>
-    </tr>
-    <tr>
-    <td>**Rechnungen**</td>
-    <td>Mit der ausgewählten Zeile verknüpfte gebuchte Rechnungen.</td>
-    </tr>
-    <tr>
-    <td>**Rücksendungen**</td>
-    <td>Mit der ausgewählten Zeile verknüpfte gebuchte Rücksendungen.</td>
-    </tr>
-    <tr>
-    <td>**Gutschriften**</td>
-    <td>Mit der ausgewählten Zeile verknüpfte gebuchte Gutschriften.</td>
-    </tr>
-    </table>
-5. Klicken Sie auf der Seite **Verkaufszeile** auf Zeile, **Beleg anzeigen**, um den Posten anzuzeigen.
+4. Sie können nicht gebuchte Posten anzeigen, indem Sie die entsprechende Zeile markieren und dann auf dem Inforegister  Zeilen auf  Aktionen,  **Zeile**,  **Nicht gebuchte Zeilen** klicken. Wählen Sie eine der folgenden Optionen aus.  
+
+    |Option|Description|
+    |---|----|
+    |**Lieferungen**|Mit der ausgewählten Zeile verknüpfte gebuchte Lieferungen.|
+    |**Rechnungen**|Mit der ausgewählten Zeile verknüpfte gebuchte Rechnungen.|
+    |**Rücksendungen**|Mit der ausgewählten Zeile verknüpfte gebuchte Rücksendungen.|
+    |**Gutschriften**|Mit der ausgewählten Zeile verknüpfte gebuchte Gutschriften.|
+
+5.  Klicken Sie auf der Seite **Verkaufszeile** auf Zeile **Beleg anzeigen**, um den Posten anzuzeigen.
 
 ## <a name="see-also"></a>Siehe auch
-[Verkauf](sales-manage-sales.md)  
+[Verkäufe](sales-manage-sales.md)
+[Erstellen von Montagerahmenaufträgen](assembly-how-to-create-blanket-assembly-orders.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

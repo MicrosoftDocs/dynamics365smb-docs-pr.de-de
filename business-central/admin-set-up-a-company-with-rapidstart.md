@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 16f444fa31e3d63a7d61567667184facf2c3a7d6
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: d7476674407dd505fafa8e82f3bfecc3aa5a5fee
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Einrichten von Mandanten mit RapidStart Services
@@ -44,7 +44,8 @@ Sie können die folgenden Komponenten verwenden, um die Einrichtung eines neuen 
 |Stellen Sie das konfigurierte Paket für Ihren Kunden für Implementierung bereit.|[Übernehmen von Konfiguration in neue Mandanten](admin-apply-configuration-to-new-companies.md)|
 |Definieren und prüfen Sie die Einrichtung Ihres Kunden für alle Kernbereiche, z. B. Firmendaten, Finanzbuchhaltung, Lagerbestand, Verkauf oder Fertigung.|[Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)|  
 |Konfigurieren Sie Kern-Stammdatendatensätze, die auf Vorlagen basieren, um die Migrierung vorhandener Debitorendaten vorzubereiten.|[Vorgehensweise: Migrieren von Debitorendaten](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
-|Definieren Sie Tabellen und Felder, prüfen Sie vorhandene Debitorendaten, und migrieren Sie die Daten in die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbank.|[Migrieren von Debitorendaten](admin-migrate-customer-data.md)|  
+|Definieren Sie Tabellen und Felder, prüfen Sie vorhandene Debitorendaten, und migrieren Sie die Daten in die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbank.|[Migrieren von Debitorendaten](admin-migrate-customer-data.md)|
+|Mandantenkonfigurationen vorbereiten, um sie in anderen Mandanten wiederzuverwenden.|[Vorgehensweise: Erstellen benutzerdefinierter Unternehmenskonfigurationspakete](admin-how-to-create-custom-company-configuration-packages.md)|
 |Finden Sie im RapidStart Services-Toolkit Lösungen für bekannte Probleme.|[Tipps und Tricks: RapidStart Servicesen](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Siehe auch  

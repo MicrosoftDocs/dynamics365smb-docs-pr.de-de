@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: ca0648c3c3ccbfb02c910a063e6ac199e7b4b6d4
 ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="create-gl-budgets"></a>Sachkontenbudgets erstellen
@@ -42,9 +42,16 @@ In der Kostenrechnung arbeiten Sie mit Kostenbudgets auf ähnliche Weise. Weiter
 7. Wiederholen Sie die Schritte 5 bis 6, bis alle Budgetbeträge eingegeben sind.  
 
 > [!NOTE]  
->  Im Inforegister **Filter** stehen zwischen vier und acht Filter zur Verfügung, abhängig davon, wie viele Budgetdimensionen für den Budgetnamen eingerichtet wurden.   
+>  Im Inforegister **Filter** stehen zwischen vier und acht Filter zur Verfügung, abhängig davon, wie viele Budgetdimensionen für den Budgetnamen eingerichtet wurden.
+
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Fibu-Budgets mit Excel exportieren und importieren
+Wie bei anderen Seiten können Sie Daten in Budgetseiten in Excel zur weiteren Verarbeitung und Analyse exportieren. Weitere Informationen finden Sie unter [Geschäftsdaten nach Excel exportieren](about-export-data.md).
+
+> [!NOTE]
+> Der Kontenplan, auf dem dieses Finanzbudgets basiert, hat Zeilen der Kontoart Überschrift, die die Summe aller Zeilen unterhalb enthalten. Wenn Sie ein Budget exportieren, werden Daten in allen Zeilen ungeachtet der Kontoart exportiert. Sie können nur Daten auf Zeilen der Kontoart Konto zurück importieren. Entsprechend: <br /><br /> **Wenn Sie ein Budget importieren, werden jegliche Werte, die von den Überschriften vorhanden sind, gelöscht** <br /><br /> Dadurch werden falsche Summen vermieden, nachdem die Daten, die in Excel erstellt oder bearbetet wurden, importiert wurden.<br /><br /> **Szenario**: Sie wissen, dass die neuen geplanten Salärkostenr MW 1.200.000 sein werden. Sie möchten das Gehaltsabteilungsbudget für die drei bestimmten Zeilen (der Buchung nach Typ) für Vollzeitmitarbeiter, Teilzeitbeschäftigte und Temp-Hilfe lassen. Die drei Zeilen werden unter einer Gehaltsüberschrift gruppiert.<br /><br />Sie geben 1.200.000 in der Überschrift ein, exportieren das Budget in Excel und senden es dann in die Gehaltsabteilung und kommunizieren die Mandantenwährung 1.200.000.<br /><br /> Die Gehaltsabteilung verteilt den Betrag in drei Sachkonten. Wenn Sie dann das Finanzbudget wieder importieren, werden diese drei Konten mit den neuen Excel-Daten ausgefüllt und summieren zu MW 1.200.000, und die "Überschrift" ist leer.
 
 ## <a name="see-also"></a>Siehe auch
+[Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)  
 [Finanzen](finance.md)  
 [Business Intelligence](bi.md)  
 [Finanzen einrichten](finance-setup-finance.md)  

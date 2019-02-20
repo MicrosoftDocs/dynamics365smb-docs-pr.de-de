@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2018
+ms.date: 12/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Erste Schritte mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -36,7 +36,7 @@ Um einige einfache Tipps kennenzulernen, gehen Sie zu:
 
 Weitere Informationen finden Sie unter [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-Wenn Sie bereit sind, etwas tiefer hineinzublicken und einige der Geschäftsprozesse berücksichtigen möchten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, gehen Sie zu [Geschäfts-Funktionalität](across-business-functionality.md). Eine Übersicht über aktuelle und geplante Funktionen finden Sie in der Roadmap unter [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Wenn Sie bereit sind, etwas tiefer hineinzublicken und einige der Geschäftsprozesse berücksichtigen möchten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, gehen Sie zu [Geschäfts-Funktionalität](across-business-functionality.md). Eine Übersicht über aktuellen Funktion und was geplant ist finden Sie in der Aktualisierungsnotiz unter [Microsoft Dynamics 365 Business Central Aktualisierungsnotiz](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Die Rollencenter
 Die Rollencenter-Seite basiert auf einem rollenorientierten Design, damit Sie rasch auf Geschäftsvorgangs- und Intelligenztools zugreifen können, die Sie für Ihre Arbeit benötigen. Beispielsweise kann ein Buchhalter Zahlungen und Genehmigungen überwachen und Finanzdienstleistungsdiagramme anzeigen. Prüfen Sie die verschiedenen Rollencenter, indem Sie das Symbol **Einstellungen** auswählen ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") in der oberen rechter Ecke, wählen Sie **Meine Einstellungen** und dann das entsprechende Rollencenter. Melden Sie sich erneut, um die Änderung zu übernehmen. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md).
@@ -69,9 +69,17 @@ Denken Sie an ein Abonnement? Sie können Demomandanten einfach ändern und erst
 
 Um einen Mandanten zu erstellen und Dinge zu testen, gehen Sie zum Menü **Meine Einstellungen** in der oberen rechter Ecke und ändern Sie den Mandanten auf **Mein Unternehmen**. Melden Sie sich von [!INCLUDE[d365fin](includes/d365fin_md.md)] ab und anschließend wieder an, um die Änderungen zu übernehmen. Eine unterstützte Einrichtung gibt Ihnen die grundlegenden Informationen zu Ihrem Unternehmen. Wenn das getan wird, entdecken Sie das Rollencenter und suchen Sie die Aktion **Unterstützte Einrichtung**.  
 
-Alternativ finden Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner [hier](https://www.microsoft.com/en-us/solution-providers/search).
+Alternativ finden Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner [hier](https://www.microsoft.com/en-us/solution-providers/search).  
 
-## <a name="ready-to-subscribe"></a>Bereit für ein Abonnement?
+## <a name="getting-answers-to-questions"></a>Abrufen von Antworten zu den Fragen
+
+Wenn Sie nicht sicher sind, wie man etwas in [!INCLUDE[d365fin](includes/d365fin_md.md)] macht, können Sie die Antwort entweder in den QuickInfo für das Feld finden, zu dem Sie Zweifel haben, oder indem Sie den Inhalt lesen, indem Sie den Link in der Quickinfo öffnen *Weitere Informationen*. Sie können auch zur Dokumentation gelangen, indem Sie den entsprechenden Link im Menü Hilfe auswählen.  
+
+Alle Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] werden in QuickInfo beschrieben. Auf QuickInfo können Sie zugreifen, indem Sie den Feldnamen auswählen. Zum Beispiel in einem Feld wie **Debitorenkarte**, aktivieren Sie einfach den Namen des Felds, um die QuickInfo zu lesen. In einer Liste wie der Liste **Debitoren** oder in den Zeilen in einen Beleg wie einem Verkaufsauftrag, müssen Sie das Dropdownmenü des Namens der Spalte auswählen und das Menüelement **Was ist das?** wählen.  
+
+Wenn Sie zusätzliche Fragen haben, empfiehlt es sich, die Community zu fragen oder Ihren Wiederverkaufspartner zu kontaktieren. Weitere Informationen finden Sie unter [Was mache ich, wenn ich Fragen habe](across-faq.md#where-do-i-go-if-i-have-questions).  
+
+## <a name="ready-to-subscribe"></a>Bereit zum Abonnieren?
 Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner [hier](https://www.microsoft.com/en-us/solution-providers/search). Sie können sich auch an das [[!INCLUDE[d365fin](includes/d365fin_md.md)]Vertreiebsteam](https://go.microsoft.com/fwlink/?linkid=828707) wenden.  
 
 ## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365 Apps
@@ -86,7 +94,7 @@ Wenn Sie ein Buchhalter sind, können Sie sich für [!INCLUDE[d365acc_long](incl
 [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Abrufen [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)  
 [Dynamics 365 Dokumentation](https://docs.microsoft.com/en-us/dynamics365/)  
-[Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Microsoft Dynamics 365 Business Central Aktualisierungshinweis](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

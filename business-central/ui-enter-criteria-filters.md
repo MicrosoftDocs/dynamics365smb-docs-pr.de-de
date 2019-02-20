@@ -11,10 +11,10 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f0cdb045d314a630e795ec744f2f4470d930835a
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortieren, Durchsuchen und Filtern von Listen

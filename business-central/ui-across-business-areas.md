@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 11/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 790af74199922a1ce711b1262f2756f5c7788fb2
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 6a42e8039d4b13deac72caf178f67113e582ed36
 ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
@@ -35,6 +35,7 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 | Einrichten von Standardtextcodes, sodass Standardtext durch Hinzufügen weiterer Zeilen erweitert werden kann, und Einrichten von Bedingungen für die Verwendung der zusätzlichen Zeilen |[Hinzufügen von Textbausteinen](ui-how-define-ext-text.md) |
 |Sie können Aufgaben erstellen, die Sie an Arbeit erinnern, die durchgeführt werden muss. Sie können Aufgaben für sich selbst erstellen, aber Sie können auch Aufgaben an Andere zuweisen oder Ihnen kann von jemand anderem in Ihrer Organisation eine Aufgabe zugewiesen werden.|[Benutzeraufgaben definieren](across-user-tasks.md)|
 |Fügen Sie Bilder, Dokumente und andere Arten von Dateien an alle Karten, wie der Artikelkarte und der Projektkarte, an, und fügen Sie Dateien an alle Arten von Einkaufs- und Verkaufsbelegen an.|[Anfügen von Dateien zu den Karten und den Belegen](across-attach-document-master-data.md)|
+|Arbeiten mit Business Central Daten in Excel.|[Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)| 
 |Das System kann Ihnen dabei helfen, Aufgaben schneller und korrekter zu erledigen, indem es Felder oder Zeilen mit Daten ergänzt, die Sie sonst berechnen und manuell eingeben müssten.|[Business Central Werte vorschlagen lassen](ui-let-system-suggest-values.md)|
 |Erfassen Sie externe Belege, einschließlich Dateianhängen, und erstellen Sie dann manuell die zugehörigen Belege oder wandeln Sie die Dateien automatisch in elektronische Belege um.|[Eingehende Belege](across-income-documents.md)|
 |Konfigurieren und verwenden Sie Workflows, die Aufgaben verbinden, welche von verschiedenen Benutzern oder vom System ausgeführt werden, z. B. die automatische Buchung. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen oder Buchen von Belegen sind typische Workflowschritte.|[Workflow](across-workflow.md)|

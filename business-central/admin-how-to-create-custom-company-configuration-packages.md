@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a51628085e640cc2e5f022272eccb89d5cec38b7
 ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Vorgehensweise: Erstellen benutzerdefinierter Unternehmenskonfigurationspakete
@@ -39,11 +39,10 @@ Ein anderer Ansatz wäre die Erstellung eines Pakets, das die Tabellen enthält,
 -   MwSt.-Buchungsmatrix  
 -   Lagerbuchungseinrichtung  
 
-Um eine vollständige Liste von Tabellen-Einrichtungen zu sehen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion Wie möchten Sie weiter verfahren geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") und geben Sie **Einrichtung** ein und wählen dann den zugehörigen Link aus.  
+Um eine vollständige Liste von Tabellen-Einrichtungen zu sehen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion Wie möchten Sie weiter verfahren geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") und geben Sie **Manuelle Einrichtung** ein und wählen dann den zugehörigen Link aus.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Vorgehensweise: Erstellen benutzerdefinierter Unternehmenskonfigurationspakete  
-1.  Erstellen Sie in der Liste eine neue [!INCLUDE[d365fin](includes/d365fin_md.md)] ***NICHT MÖGLICHER Link, um für das Erstellen eines neuen Tenants" zu helfen***.   
-2.  Erstellen Sie einen neuen Mandanten für die Branchen- oder die Lösungsvorlage. Weitere Informationen zum Erstellen einer Vorlage finden Sie unter [Vorgehensweise: Ein neues Unternehmen  erstellen](admin-how-to-create-a-new-company.md).  
+1.  Erstellen eines neuen Mandanten. Weitere Informationen finden Sie unter  [Neue Mandanten erstellen in Business Central](about-new-company.md).  
 3.  Richten Sie den neuen Mandanten so ein, wie Sie ihn benötigen. Füllen Sie alle erforderlichen Einrichtungstabellen aus.  
 4.  Öffnen des neuen Mandanten
 5. Öffnen Sie das Fenster **Konfigurationsvorschlag**.  

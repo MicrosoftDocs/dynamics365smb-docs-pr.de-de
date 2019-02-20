@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 341cd12db4ca130539a2ba2838c3aa95a96cb6ab
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
 ms.contentlocale: de-de
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="creating-contact-persons"></a>Kontaktpersonen erstellen
@@ -26,15 +26,22 @@ Nehmen wir weiter an, Sie müssen einige Produktprospekte übersetzen lassen und
 
 Durch Erfassen möglichst umfangreicher Informationen zu einer Kontaktperson wird sichergestellt, dass allen Gruppen innerhalb des Unternehmens die jeweils relevanten Informationen zur Verfügung stehen.
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
+Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unternehmen arbeitet, mit dem Sie Geschäfte machen. Für jedes Kontaktunternehmen können Sie beliebig viele Kontaktpersonen eingeben. Außerdem können Sie Kontaktkarten für die Personen erstellen, die Sie als unabhängig speichern möchten.
 
-| An | Siehe |
-| --- | --- |
-| Bereitstellen von Informationen zu einer Kontaktperson |[Anlegen von Kontaktpersonen](marketing-how-create-contact-persons.md) |
-| Einrichten einer alternativen Adresse für einen Kontakt |[Um alternative Adressen zuzuordnen](marketing-how-assign-alternate-address.md) |
-| Beschreiben der Geschäftsbeziehung eines Unternehmenskontakts |[Einrichten von Verantwortlichkeiten für Kontakte](marketing-job-responsibilities.md) |
-| Beschreibt die Position Ihrer Kontakte. |[Einrichten von Position für Kontaktpersonen](marketing-organizational-levels.md) |
-| Zuordnen von Verteilern zu Kontakten |[Versandgruppen einem Kontakt zuweisen](marketing-mailing-groups.md) |
+> [!TIP]  
+>   Bevor Sie einen Kontakt anlegen, können Sie die **Übernahme** Einstellungen auf der Seite **Marketing einrichten** überprüfen. Die Einrichtung der Übernahme ermöglicht das automatischer Kopieren von gleichen Informationen zu Kontaktunternehmen und Kontaktpersonen (z. B. Adressdaten) vom Kontaktunternehmen zur Kontaktperson beim Erstellen einer Kontaktperson für ein erfasstes Kontaktunternehmen.
+
+## <a name="to-create-a-contact-card-for-a-person"></a>So erstellen Sie eine Kontaktkarte für eine Person
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontakte** ein, und wählen dann den zugehörigen Link aus.
+2. Wählen Sie die Aktion **Neu** aus.
+3. Geben Sie im Feld **Nr.** eine Nummer für den Kontakt ein.
+
+    Wenn Sie auf der Seiter **Marketing und Vertrieb einrichten** eine Nummernserie für Kontakte eingegeben haben, können Sie alternativ auch die EINGABETASTE drücken, um die nächste verfügbare Kontaktnummer auszuwählen. Weitere Informationen finden Sie unter [Erstellen von Nummernkreisen](ui-create-number-series.md).
+4. Wählen Sie im Feld **Art** die Option **Person** aus.
+5. Füllen Sie die anderen Felder der Kontaktkarte aus.
+
+> [!NOTE]  
+>   Die Inhalte der Felder, die Sie auf der Seite **Übernahme** im Abschnitt **Marketing & Vertrieb Einr.** ausgewählt haben, werden für die Person aus dem Unternehmen übernommen.
 
 ## <a name="see-also"></a>Siehe auch
 [Kontaktunternehmenerstellen](marketing-create-contact-companies.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt
@@ -107,6 +107,22 @@ Nachdem Sie einem Konfigurationspaket alle erforderlichen Tabellen hinzugefügt 
 
     > [!NOTE]  
     >  Die Tabellen bleiben im Paket, obwohl sie aus dem Vorschlag gelöscht werden.  
+
+## <a name="to-review-and-customize-existing-database-data"></a>So können Sie vorhandene Datenbank-Daten prüfen und anpassen.
+Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die verfügbaren Datenbankdaten anzeigen und anpassen, um Ihren Debitoranforderungen entsprechen. Die Datenbanktabelle muss eine zugeordnete Seite haben.  
+
+## <a name="to-customize-data-in-the-database"></a>So passen Sie Daten in der Datenbank an.  
+
+1.  Identifizieren Sie im **Konfigurationsarbeitsblatt** die Tabellen, deren Daten Sie anzeigen oder anpassen möchten.  
+
+    > [!NOTE]  
+    >  Stellen Sie sicher, dass jede Tabelle eine Seiten-ID hat, die ihr zugeordnet ist. Für Standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen wird dieser Wert automatisch ausgefüllt. Für benutzerdefinierte Tabellen müssen Sie die ID zur Verfügung stellen  
+
+2.  Wählen Sie die **Datenbankdaten** Aktion aus.  
+
+     Das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Fenster für die Seite wird geöffnet.  
+
+3.  Überprüfen Sie die verfügbaren Informationen. Ändern Sie sie bei Bedarf, indem Sie Datensätze löschen, die nicht relevant sind oder indem Sie neue hinzufügen.
 
 ## <a name="see-also"></a>Siehe auch  
 [Richten Sie eine Unternehmenskonfiguration ein.](admin-set-up-company-configuration.md)  

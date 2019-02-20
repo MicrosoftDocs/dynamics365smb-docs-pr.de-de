@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2bd235844f191c52f3f5d3e34b43c4fdf75fb464
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
+
+**Hinweis**: In dieser exemplarischen Vorgehensweise muss in einem Demomandanten mit der Option **Volle Auswertung - vollständige Beispieldaten** ausgeführt werden, die in der Sandboxumgebung verfügbar ist. Weitere Informationen finden Sie unter [Erstellen einer Sandbox-Umgebung](across-how-create-sandbox-environment.md).
+
 Um eine Just-In-Time-Logistik sowie die Möglichkeit, Produkte an Debitorenanfragen anzupassen, zu unterstützen, können Montageaufträge automatisch erstellt und verknüpft werden, sobald die Verkaufsauftragszeile erstellt wird. Der Verknüpfung zwischen dem Verkaufsbedarf und dem Montagezubehör ermöglicht Verkaufsauftragsverarbeitern die Anpassung des Montageartikels und die Zusage von Lieferungsdaten auf der Grundlage der Verfügbarkeit von Komponenten. Darüber hinaus werden der Montageverbrauch und die Ausgabe automatisch mit der Lieferung des verknüpften Verkaufsauftrags gebucht.  
 
 Es sind spezielle Funktionen vorhanden, um die Lieferung von Auftragsmontagemengen zu steuern, sowohl in einfachen als auch in erweiterten Lagerkonfigurationen. Wenn Arbeiter für montagefertige Teile oder für die gesamte Auftragsmontagemenge zuständig sind, erfassen sie diese im Feld **Vesandmenge** in der Warenausgangszeile, in erweiterten Konfigurationen, und wählen dann **Warenausgang buchen**. Das Ergebnis ist, dass der entsprechende Montageausstoß, einschließlich des zugehörigen Komponentenverbrauchs, gebucht wird und eine Verkaufslieferung für die Menge für den verknüpften Verkaufsauftrag gebucht wird. Diese Anleitung illustriert den erweiterten Lagerprozess.  

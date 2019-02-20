@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 1ad174966d8e56eff13d496a7174483fa9f572ee
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
 ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="business-functionality"></a>Geschäftsfunktionen
@@ -22,9 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
-
-| Aufgabe | Siehe |
+| An | Siehe |
 | --- | --- |
 |Erstellen und Einziehen von Zahlungen, Cashflow verwalten, Einnahmen zurückstellen, Vorbereiten des Jahresabschlusses, Verwalten von Anlagen.|[Finanzen](finance.md)|
 |Erhalten Sie Einblick an die Leistung Ihrer Geschäftsaktivitäten, Kontenschemata und Budgets von Analyseansichten.|[Business Intelligence](bi.md)|

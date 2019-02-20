@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2018
+ms.date: 02/04/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
+ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
+ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 02/04/2019
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Sie können auswählen, welche Funktionen angezeigt werden
@@ -35,7 +35,7 @@ Die verfügbaren Optionen werden in der folgenden Tabelle beschrieben.
 | **Premium** |Zeigt alle Aktionen und Felder für alle Geschäftsfunktionalität einschließlich, Produktion und Dienstleistungs-Verwaltung an.|
 
 > [!NOTE]  
-> Die Erfahrung, aus der Sie auswählen können in [!INCLUDE[d365fin](includes/d365fin_md.md)] hängt von Ihrem Lösungslizenz ab, auch als Plan bezeichnet. Informationen zur **Wesentlich** und **Premium** finden Sie unter [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) in der Microsoft Dynamics 365 Marketings-Site. Siehe auch [[!INCLUDE[d365fin](includes/d365fin_md.md)] Lizenzierungshandbuch](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> Die Erfahrung, aus der Sie auswählen können in [!INCLUDE[d365fin](includes/d365fin_md.md)] hängt von Ihrem Lösungslizenz ab, auch als Plan bezeichnet. Informationen zur **Wesentlich** und **Premium** finden Sie unter [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) in der Microsoft Dynamics 365 Marketings-Site. Siehe dazu auch [[!INCLUDE[d365fin](includes/d365fin_md.md)] Lizenzieren des Handbuches](https://go.microsoft.com/fwlink/?linkid=2068931) (benötigt Zugriff auf CustomerSource oder PartnerSource).
 
 > [!IMPORTANT]  
 > Alle regulären Benutzer in einer Lösung müssen demselben Plan, Basis oder Premium zugewiesen sein, bevor die Erfahrung für das Unternehmen ausgewählt werden kann. Entsprechend kann ein Benutzer auf erstklassige Funktionen zugreifen, wenn eine oder mehrere andere Benutzer nur auf  b wichtige Funktion nur zugreifen können. Dies ist nicht der Fall für reguläre Benutzer der Art Teammitglieder, interner Administrator, externer Buchhalter und delegierter Administrator, dem jeder ein unterschiedlicher Plan als bei anderen Benutzern in der Lösung zugeordnet werden können.

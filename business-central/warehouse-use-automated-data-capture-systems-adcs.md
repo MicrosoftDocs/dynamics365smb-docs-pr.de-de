@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: a2b30b3eec747104f3351aed0d0d9787d2fc4e9f
 ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Automatisierte Datenerfassung (MDE) verwenden

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 12/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 10b8021bd688e3f699a73d6a95f511b9a26b8341
 ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="assemble-items"></a>Artikel montieren
@@ -61,7 +61,7 @@ In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Arti
 
     > [!NOTE]  
     >  Um sicherzustellen, dass die Buchung des Komponentenverbrauchs der Istmeldungsbuchung des Montageartikels entspricht, werden die Mengenfelder in den Montageauftragszeilen automatisch an den Wert angepasst, den Sie im Feld **Menge für Montage** eingeben.  
-7.  Geben Sie in Montageauftragszeilen vom Typ **Artikel** oder **Ressource** im Feld **Verbrauchsmenge** ein, wie viele Einheiten Sie als Verbrauch buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen. Standardmäßig werden die nach der Montagestückliste für den Verbrauch erwartete Menge und die Menge im Montageauftragskopf eingefügt. Sie können diese jedoch erhöhen oder verringern, um einen Überbedarf der Komponenten oder die Verwendung zusätzlicher Ressourcen anzuzeigen.  
+7.  Geben Sie in Montageauftragszeilen vom Typ **Artikel** oder **Ressource** im Feld **Verbrauchsmenge** ein, wie viele Einheiten Sie als Verbrauch buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen.
 8.  Wenn Sie bereit sind, die Teil- oder die vollständige Buchung durchzuführen, wählen Sie die Aktion **Buchen**.  
 
     > [!NOTE]  
