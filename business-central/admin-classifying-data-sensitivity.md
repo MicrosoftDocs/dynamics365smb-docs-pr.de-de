@@ -4,11 +4,10 @@ description: "Sie müssen festlegen, welche Art von Daten Sie über Mitarbeiter 
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2018
 ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.service: dynamics365-business-central
 ms.topic: article
+ms.date: 10/01/2018
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
 ms.openlocfilehash: 05d9630075ed533759f8225810e4e4a95c141b16
