@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte | Microsoft Docs
-description: "Erhalten Sie Informationen über Funktionen und Arbeitsszenarien in Business Central, einer Unternehmensverwaltungslösung für kleine und mittelständische Organisationen."
+description: Erhalten Sie Informationen über Funktionen und Arbeitsszenarien in Business Central, einer Unternehmensverwaltungslösung für kleine und mittelständische Organisationen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 12/03/2018
 ms.author: edupont
+ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
-ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
-ms.contentlocale: de-de
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798598"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Erste Schritte mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Eine Registrierung ist einfach und Sie können vorhandene Unternehmensdaten von Ihrem bestehenden System migrieren. Um Ihnen mit Ihrem Abonnement zu helfen, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner [hier](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -36,7 +36,7 @@ Um einige einfache Tipps kennenzulernen, gehen Sie zu:
 
 Weitere Informationen finden Sie unter [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-Wenn Sie bereit sind, etwas tiefer hineinzublicken und einige der Geschäftsprozesse berücksichtigen möchten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, gehen Sie zu [Geschäfts-Funktionalität](across-business-functionality.md). Eine Übersicht über aktuellen Funktion und was geplant ist finden Sie in der Aktualisierungsnotiz unter [Microsoft Dynamics 365 Business Central Aktualisierungsnotiz](https://go.microsoft.com/fwlink/?linkid=2047422).  
+Wenn Sie bereit sind, etwas tiefer hineinzublicken und einige der Geschäftsprozesse berücksichtigen möchten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, gehen Sie zu [Geschäfts-Funktionalität](across-business-functionality.md). Eine Übersicht über die aktuellen und geplanten Funktionen finden Sie in den Versionshinweisen unter [Microsoft Dynamics 365 Business Central Versionhinweise](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Die Rollencenter
 Die Rollencenter-Seite basiert auf einem rollenorientierten Design, damit Sie rasch auf Geschäftsvorgangs- und Intelligenztools zugreifen können, die Sie für Ihre Arbeit benötigen. Beispielsweise kann ein Buchhalter Zahlungen und Genehmigungen überwachen und Finanzdienstleistungsdiagramme anzeigen. Prüfen Sie die verschiedenen Rollencenter, indem Sie das Symbol **Einstellungen** auswählen ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") in der oberen rechter Ecke, wählen Sie **Meine Einstellungen** und dann das entsprechende Rollencenter. Melden Sie sich erneut, um die Änderung zu übernehmen. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md).
@@ -58,7 +58,7 @@ Auf der Seite **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung
 | E-Mail einrichten |Zeigt Ihnen, wie Sie E-Mails beispielsweise direkt aus Verkaufsaufträgen oder Kontakten im [!INCLUDE[d365fin](includes/d365fin_md.md)] versenden. |
 | E-Mail-Protokollierung einr. |Richtet die Funktion ein, um E-Mail-Korrespondenz in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu protokollieren, um Aktivitäten zu verfolgen. |
 | Outlook einrichten für [!INCLUDE[d365fin](includes/d365fin_md.md)] |Richtet die Möglichkeit ein, [!INCLUDE[d365fin](includes/d365fin_md.md)] direkt über Outlook zu verwenden und zu starten. |
-| Berichterstellung einrichten |Datensets einrichten, die Sie verwenden können, um leistungsstarke Berichte mithilfe von Excel oder Power Bl zu erstellen. |
+| Berichterstellung einrichten |Datensets einrichten, die Sie verwenden können, um leistungsstarke Berichte mithilfe von Excel oder Power BI zu erstellen. |
 | Artikelgenehmigungsworkflow einrichten |Richtet die Möglichkeit ein, eine Benachrichtigung an einen Genehmiger zu senden, wenn ein Benutzer einen Artikel ändert oder erstellt. |
 | Zahlungsgenehmigungsworkflow einrichten |Sie können einen Genehmigungsworkflow erstellen, der einen Genehmiger benachrichtigt, wenn ein Benutzer Zahlungs-Buch.-Blattzeilen sendet. |
 | Einrichten von Business Central Connector |Richtet eine Verbindung mit Dynamics 365 for Sales ein, die es Ihnen erlaubt, Daten wie Kontakte und Verkaufsauftragsinformationen zu synchronisieren. |
@@ -83,7 +83,7 @@ Wenn Sie zusätzliche Fragen haben, empfiehlt es sich, die Community zu fragen o
 Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner [hier](https://www.microsoft.com/en-us/solution-providers/search). Sie können sich auch an das [[!INCLUDE[d365fin](includes/d365fin_md.md)]Vertreiebsteam](https://go.microsoft.com/fwlink/?linkid=828707) wenden.  
 
 ## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365 Apps
-Navigieren Sie zu Inhalten von anderen Dynamics 365 Apps werden, indem Sie den Link [Dynamics 365](https://docs.microsoft.com/dynamics365) im blauen Banner im oberen Bereich dieser Seite auswählen. Sie können mehr erfahren unter der [Dynamics 365 Business Central Website](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Navigieren Sie zu Inhalten von anderen Dynamics 365 Apps werden, indem Sie den Link [Dynamics 365](https://docs.microsoft.com/dynamics365) im blauen Banner im oberen Bereich dieser Seite auswählen. Sie können auf der [Dynamics 365 Business Central-Website](https://dynamics.microsoft.com/en-us/business-central/overview/) auch mehr erfahren.  
 
 Wenn Sie ein Buchhalter sind, können Sie sich für [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] registrieren und erhalten mit [!INCLUDE[d365fin](includes/d365fin_md.md)] nahtlose Integration. Weitere Informationen finden Sie unter [Willkommen bei Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
 
@@ -94,9 +94,8 @@ Wenn Sie ein Buchhalter sind, können Sie sich für [!INCLUDE[d365acc_long](incl
 [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Abrufen [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)  
 [Dynamics 365 Dokumentation](https://docs.microsoft.com/en-us/dynamics365/)  
-[Microsoft Dynamics 365 Business Central Aktualisierungshinweis](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Microsoft Dynamics 365 Business Central-Versionshinweise](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

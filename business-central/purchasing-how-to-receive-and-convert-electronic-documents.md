@@ -1,21 +1,21 @@
 ---
 title: 'Vorgehensweise: Elektronische Belege empfangen und konvertieren | Microsoft Docs'
-description: "-Sie können elektronische Belege direkt aus den Handelspartnern oder einem OCR-Dienst erhalten."
+description: -Sie können elektronische Belege direkt aus den Handelspartnern oder einem OCR-Dienst erhalten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798259"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Vorgehensweise: Elektronische Belege empfangen und konvertieren
 Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt das Empfangen von elektronischen Rechnungen und Gutschriften im PEPPOL-Format, das von den wichtigsten Anbietern von Belegaustauschdiensten unterstützt wird. Um beispielsweise eine Rechnung von einem Kreditor in Form eines elektronischen PEPPOL-Belegs zu erhalten, verarbeiten Sie den Beleg auf der Seite Eingehende Belege, um diesen in eine Einkaufsrechnung oder Fibu Buch.-Blattzeile in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu konvertieren.
@@ -63,4 +63,3 @@ Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstü
 [Einrichten des Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)   
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
-

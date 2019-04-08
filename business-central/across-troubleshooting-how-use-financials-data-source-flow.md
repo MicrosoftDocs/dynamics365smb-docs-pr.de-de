@@ -1,7 +1,7 @@
 ---
-title: Problembehandlung Integration mit Microsoft Flow| Microsoft Docs
-description: "Problemlösung beim Bereitstellen von Business Central als Datenquelle und eine OData-URL Ihrer Webdienste festlegen, um eine Geschäfts-App mithilfe einem automatisierten Workflow zu erstellen."
-documentationcenter: 
+title: Problembehandlungsintegration in Microsoft Flow| Microsoft Docs
+description: Problemlösung beim Bereitstellen von Business Central als Datenquelle und eine OData-URL Ihrer Webdienste festlegen, um eine Geschäfts-App mithilfe einem automatisierten Workflow zu erstellen.
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,25 +11,25 @@ ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 0818550021bf17e5a269d3e11f8db54b9ff80dfa
-ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798660"
 ---
-# <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a>Problembehandlung bei der Integration mit Microsoft Flow - angeforderte URL zu lang
-Sie können die Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Teil eines Workflows in Microsoft Flow verwenden.  
+# <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a>Problembehandlungsintegration in Microsoft Flow – angeforderte URL zu lang
+Sie können Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)]-Daten als Teil eines Workflows in Microsoft Flow verwenden.  
 
 > [!NOTE]  
 >   Sie müssen ein gültiges Konto mit [!INCLUDE[d365fin](includes/d365fin_md.md)] und Flow haben.  
 
-Wenn Sie einen Microsoft Flow mithilfe des [!INCLUDE[d365fin](includes/d365fin_md.md)] Connectors erstellen, erhalten Sie möglicherweise eine Fehlermeldung, dass die angeforderte URL zu lang ist, nachdem der Flow erstellt wurde, wie beispielsweise **RequestUriTooLong**.
+Wenn Sie einen Microsoft Flow mithilfe des [!INCLUDE[d365fin](includes/d365fin_md.md)]-Connectors erstellen, erhalten Sie möglicherweise eine Fehlermeldung, dass die angeforderte URL zu lang ist, nachdem der Flow erstellt wurde, wie beispielsweise **RequestUriTooLong**.
 
 ## <a name="cause"></a>Grund
 Um einen Flow auszulösen, sucht er Änderungen in Ihren Daten. Bei der Festlegung, ob sich Ihre Daten verändert haben, vergleichen die Connectors die zwischengespeicherten Daten mit den neuen Daten, die von der Quelle angefordert werden.  
 
-Wenn die Datenenanforderung eine URL erstellt, die zu lang, schlägt sie fehl. Gemeinsame Ursachen können sein:
+Wenn die Datenanforderung eine URL erstellt, die zu lang, schlägt sie fehl. Gemeinsame Ursachen können sein:
 - Grundsätzlich jede Quelltabelle mit über 250 Zeilen
 - Quelltabellen, die mehrere Tausend Datensätze enthalten
 
@@ -52,4 +52,3 @@ Wenn die Tabelle beispielsweise, die Sie als Datenquelle verwenden, 4.000 Datens
 [Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)    
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzen](finance.md)  
-

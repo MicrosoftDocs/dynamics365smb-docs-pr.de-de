@@ -1,8 +1,8 @@
 ---
-title: "Einrichten und Verwenden von Standardzeilen für Wiederverkäufe und -einkäufe| Microsoft Docs"
-description: "Sie können Verkaufszeilen und Einkaufszeilen einrichten, die Sie häufig machen und diese dann in Verkaufs- und Einkaufsbelegen einfügen, um die Zeilen mit Standardinformationen schnell auszufüllen."
+title: Einrichten und Verwenden von Standardzeilen für Wiederverkäufe und -einkäufe| Microsoft Docs
+description: Sie können Verkaufszeilen und Einkaufszeilen einrichten, die Sie häufig machen und diese dann in Verkaufs- und Einkaufsbelegen einfügen, um die Zeilen mit Standardinformationen schnell auszufüllen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/24/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4285603b736cbd585c839a533d325384ba27cd15
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f8c8f96e73f6ba119e4345c8ba12c895dd212da3
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799315"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen
 Wenn Sie häufiger Verkaufs- und Einkaufszeilen mit ähnlichen Daten erstellen müssen, können Sie die Standardzeilen einrichten, die Sie in wiederkehrenden Verkaufs- und Einkaufsbelegen, z. B. für wiederkehrende Ersatzaufträge benötigen.  
@@ -50,7 +50,7 @@ Wenn Sie wiederkehrende Verkaufszeilen für den Debitor vorhanden sind, können 
 4. Auf der Seite **Wiederkehrende Verkaufszeilen** wählen Sie die Suchschaltfläche im Feld **Code**, und wählen einen Satz von Standardverkaufszeilen aus.
 
     > [!NOTE]
-    > Um wiederkehrenden die Verkaufszeilen zu verwenden, die bei der Stapelverarbeitung **Wiederkehrende Verkaufsrechnungen erstellen** festgelegt werden, müssen Sie die Felder **Gültig ab-Datum** und **Gültig bis-Datum** auf der Seite **Wiederkehrende Verkaufszeilen** ausfüllen. Weitere Informationen finden Sie unter Vorgehensweise: Mehrere Verkaufsrechnungen auf der Grundlage von Standardverkaufscodes erstellen
+    > Um wiederkehrenden die Verkaufszeilen zu verwenden, die bei der Stapelverarbeitung **Wiederkehrende Verkaufsrechnungen erstellen** festgelegt werden, müssen Sie die Felder **Gültig ab-Datum** und **Gültig bis-Datum** auf der Seite **Wiederkehrende Verkaufszeilen** ausfüllen. Weitere Informationen finden Sie unter [Vorgehensweise: Mehrere Verkaufsrechnungen auf der Grundlage von Standardverkaufscodes erstellen](sales-how-work-standard-lines.md#to-create-multiple-sales-invoices-based-on-standard-sales-lines)
 
 5. Wählen Sie die Schaltfläche **OK**, um die Standardverkaufszeilen in die Rechnung einzufügen, in die Sie Informationen verwenden ist beim oder bearbeiten können.
 
@@ -70,4 +70,3 @@ Verkaufsrechnungen werden für die Debitoren mit dem angegebenen Standard-Debito
 ## <a name="see-also"></a>Siehe auch  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

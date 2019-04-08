@@ -2,7 +2,7 @@
 title: Definieren der Beziehung zwischen Kostenarten und Sachkonten | Microsoft Docs
 description: Lernen, wie die beiden Felder definiert werden, die die Beziehung zwischen Kostenart und Sachkonto festlegen
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: cost types, general ledger
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
+ms.openlocfilehash: f80e9b6276d26adffb5e3208ffefbf98d7f7ff96
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7709edb214804f52ee9b495c43b5302e2a23bd6b
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798209"
 ---
 # <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Definieren der Beziehung zwischen Kostenarten und Sachkonten
 Das Verbindung zwischen der Kostenart und dem Sachkonto wird in der Kostenart und im Sachkonto erstellt.  
@@ -50,4 +50,3 @@ Eine Kostenart hat möglicherweise keine Beziehung zu Sachkonten, wenn eine der 
 [Einrichten der Kostenrechnung](finance-set-up-cost-accounting.md)   
 [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

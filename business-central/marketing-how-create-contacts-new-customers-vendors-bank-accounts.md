@@ -1,8 +1,8 @@
 ---
-title: "Erstellen eines Kreditors, Debitors oder Bankkontos über einen Kontakt | Microsoft Docs"
-description: "Sie können einen bestehenden Kontakt als Debitor, Kreditor oder Bankkonto mithilfe der vorhandenen Daten und angeben Geschäftsbeziehung erfassen."
+title: Erstellen eines Kreditors, Debitors oder Bankkontos über einen Kontakt | Microsoft Docs
+description: Sie können einen bestehenden Kontakt als Debitor, Kreditor oder Bankkonto mithilfe der vorhandenen Daten und angeben Geschäftsbeziehung erfassen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 5f5e690a8db82c2f95f190d5fac4b6430f900b57
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9125e31ce579b6cda55aee8a79cb299e3c4d75a0
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799230"
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Erstellen eines Kreditors, Debitors oder Bankkontos über einen Kontakt
 Sie können vorhandene Kontakte als Debitoren, Kreditoren oder als Bankkonten erfassen. Beim Erstellen eines Kreditors, Debitors oder Bankkontos aus einem Kontakt können Sie vorhandene Daten verwenden. Wenn Sie einen Debitor, Kreditor oder ein Bankkonto auf diese Weise erstellen, wird es mit dem Kontakt synchronisiert Die Synchronisierung macht Informationen, die zwischen Kontakten und Debitoren, Kreditoren oder Bankkonto gleich sind, identisch.
@@ -36,9 +36,7 @@ Die Kontaktinformationen werden von der Karte **Kontakt** auf die Karte **Bankko
 ## <a name="see-also"></a>Siehe auch
 [Erstellen von Kontaktunternehmen](marketing-create-contact-companies.md)  
 [Anlegen von Kontaktpersonen](marketing-create-contact-persons.md)  
-[Marketing & Vertrieb einrichten](marketing-setup-marketing.md)  
 [Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Kontakte mit vorhandenen Debitoren, Kreditoren und Bankkonten verknüpfen](marketing-how-link-contact.md)  
 [Kontakten Geschäftsbeziehungen zuordnen](marketing-business-relations.md#AssignBusRelContact)  
 [Arbeiten mit  Business Central](ui-work-product.md)
-

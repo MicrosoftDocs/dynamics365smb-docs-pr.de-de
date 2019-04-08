@@ -1,23 +1,23 @@
 ---
 title: So erstellen Sie eine physische Inventurerfassung
-description: "Nachdem Sie einen Inventurauftrag und die zugehörigen Zeilen erstellt haben, können Sie eine neue Inventurauftragserfassung für diese Inventur erstellen."
+description: Nachdem Sie einen Inventurauftrag und die zugehörigen Zeilen erstellt haben, können Sie eine neue Inventurauftragserfassung für diese Inventur erstellen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: bfe6bfd24626599ef58eef9912198f8bdc229dcb
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826722"
 ---
 # <a name="create-a-physical-inventory-recording"></a>So erstellen Sie eine physische Inventurerfassung
 Nachdem Sie einen Inventurauftrag und die zugehörigen Zeilen erstellt haben, können Sie eine neue Inventurauftragserfassung für diese Inventur erstellen.  
@@ -76,4 +76,3 @@ Damit ersichtlich ist, dass die Inventurerfassung abgeschlossen wurde, muss der 
  [Physische Inventuraufträge eingeben](how-to-enter-physical-inventory-orders.md)   
  [Berechnen der verfügbaren Menge für einen Inventurauftrag](how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
  [So schließen Sie eine Inventurerfassung ab](how-to-finish-a-physical-inventory-recording.md)
-

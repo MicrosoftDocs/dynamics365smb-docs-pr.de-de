@@ -1,8 +1,8 @@
 ---
-title: "Planungsservice-Vorgänge | Microsoft Docs"
-description: "Gliedert die Aufgaben, um Regeln und Werte einzurichten, um Ihre Servicerichtlinien und Arbeitsgänge zu definieren."
+title: Planungsservice-Vorgänge | Microsoft Docs
+description: Gliedert die Aufgaben, um Regeln und Werte einzurichten, um Ihre Servicerichtlinien und Arbeitsgänge zu definieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 2d7fd2c9d1387575254a7014c8a6f18c61c568d3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ee163532fbc7588e45b0fba76a3c578f129d4fe
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798426"
 ---
 # <a name="planning-services"></a>Planungsservices
 Mit [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie die Standardaufgaben für die Erfüllung der Kundenserviceanforderungen einrichten. Dazu muss bestimmt werden, welche Serviceangebote von der Serviceorganisation unterstützt werden und zu welchem Preis.   
@@ -41,4 +41,3 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Richten Sie Serviceartikel und Serviceartikelkomponenten ein.](service-how-setup-service-items.md)  
 [Einrichten von Status für Serviceaufträge und Reparaturen](service-order-repair-status.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
-

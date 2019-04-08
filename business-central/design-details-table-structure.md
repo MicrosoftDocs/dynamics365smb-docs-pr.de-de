@@ -2,22 +2,22 @@
 title: Designdetails - Tabellenstruktur | Microsoft Docs
 description: Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickelt wurde, ist es wichtig, die Tabellenstruktur zu kennen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 900605cd276698e3e6146d18e36ed18363b6c99c
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798343"
 ---
 # <a name="design-details-table-structure"></a>Designdetails: Tabellenstruktur
 Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickelt wurde, ist es wichtig, die Tabellenstruktur zu kennen.  
@@ -26,7 +26,7 @@ Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickel
  Drei neue Tabellen wurden dafür entwickelt, Dimensionssatzposten zu verwalten.  
 
 ### <a name="table-480-dimension-set-entry"></a>Tabelle 480 Dimensionssatzposten  
- Tabelle 480 **Dimensionssatzposten** ist eine neue Tabelle. Sie können den Inhalt dieser Tabelle nicht ändern. Nachdem Daten in die Tabelle geschrieben wurden, können Sie sie nicht löschen oder bearbeiten. Das Löschen von Daten erfordert, dass Sie eine Prüfung aller Instanzen der Dimensionssatz-ID in der gesamten Datenbank vornehmen, einschließlich Partnerlösungen.  
+ Sie können den Inhalt dieser Tabelle nicht ändern. Nachdem Daten in die Tabelle geschrieben wurden, können Sie sie nicht löschen oder bearbeiten.
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
 |---------------|----------------|---------------|-------------|  
@@ -37,8 +37,8 @@ Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickel
 |5|**Dimensionsname**|Text 30|CalcField. Lookup zu Tabelle 348.|  
 |6|**Dimensionswertname**|Text 30|CalcField. Lookup zu Tabelle 349.|  
 
-#### <a name="table-481-dimension-set-tree-node"></a>Tabelle 481 Dimensionssatz-Strukturknoten  
- Tabelle 481 **Dimensionssatz-Strukturknoten** ist eine neue Tabelle. Sie können den Inhalt dieser Tabelle nicht ändern. Sie wird verwendet, um nach einen Dimensionssatz zu suchen. Wenn der Dimensionssatz nicht gefunden wird, wird ein neuer Satz erstellt.  
+### <a name="table-481-dimension-set-tree-node"></a>Tabelle 481 Dimensionssatz-Strukturknoten  
+ Sie können den Inhalt dieser Tabelle nicht ändern. Sie wird verwendet, um nach einen Dimensionssatz zu suchen. Wenn der Dimensionssatz nicht gefunden wird, wird ein neuer Satz erstellt.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
 |---------------|----------------|---------------|-------------|  
@@ -47,8 +47,8 @@ Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickel
 |3|**Dimensionssatz-ID**|Ganzzahl|AutoIncrement. Verwendet in Feld 1 in Tabelle 480.|  
 |4|**In Benutzung**|Boolescher Wert|False, wenn nicht verwendet.|  
 
-##### <a name="table-482-reclas-dimension-set-buffer"></a>Tabelle 482 Umlag.-Dimensionssatzpuffer  
- Tabelle 482 **Umlag.-Dimensionssatzpuffer** ist eine neue Tabelle. Diese Tabelle wird verwendet, um eine Dimensionssatz-ID zu ändern Es ist erforderlich, wenn Sie einen Dimensionswertcode und einen neuen Dimensionswertcode, beispielsweise in der Tabelle **Umlagerungs Buch.-Blatt,** bearbeiten.  
+### <a name="table-482-reclas-dimension-set-buffer"></a>Tabelle 482 Umlag.-Dimensionssatzpuffer  
+ Die Tabelle wird verwendet, wenn Sie einen Dimensionswertcode, beispielsweise zu einem Artikeleintrag ändern, indem Sie die Seite **Artikel Umlag. Buch.-Blatt** verwenden.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
 |---------------|----------------|---------------|-------------|  
@@ -71,7 +71,7 @@ Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickel
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensionssatz-ID**|Ganzzahl|Referenzfeld 1 in Tabelle 480.|  
 
-#### <a name="changes-to-table-83-item-journal-line"></a>Änderungen an der Artikel Buch.-Blattzeile der Tabelle-83  
+### <a name="changes-to-table-83-item-journal-line"></a>Änderungen an der Artikel Buch.-Blattzeile der Tabelle-83  
  Zwei neue Felder wurden zu Tabelle 83 **Artikel Buch.-Blattzeile** hinzugefügt.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
@@ -79,14 +79,14 @@ Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickel
 |480|**Dimensionssatz-ID**|Ganzzahl|Referenzfeld 1 in Tabelle 480.|  
 |481|**Neue Dimensionssatz-ID**|Ganzzahl|Referenzfeld 1 in Tabelle 480.|  
 
-##### <a name="changes-to-table-349-dimension-value"></a>Änderungen am Dimensionswert von Tabelle-349  
+### <a name="changes-to-table-349-dimension-value"></a>Änderungen am Dimensionswert von Tabelle-349  
  Ein neues Feld wurde zu Tabelle 349 **Dimensionswert** hinzugefügt.  
 
 |Feldnr.|Feldname|Datentyp|Bemerkung|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensionswert-ID**|Ganzzahl|AutoIncrement. Verwendet als Referenzen in Tabelle 480 und in Tabelle 481.|  
 
-###### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabellen, die das neue Feld 480 Dimensionssatz-ID abrufen  
+### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabellen, die das neue Feld 480 Dimensionssatz-ID abrufen  
  Ein neues Feld, 480 **Dimensionssatz-ID**, wurde den folgenden Tabellen hinzugefügt. Für die Tabellen, die gebuchte Daten speichern, bietet das Feld nur eine nicht-bearbeitbare Anzeige von Dimensionen, die als DrillDown markiert ist. Für die Tabellen, die Arbeitsdokumente speichern, ist das Feld editierbar. Die Puffertabellen, die intern verwendet werden, benötigen keine bearbeitbaren oder nicht-bearbeitbaren Funktionen.  
 
  Das Feld 480 ist in den folgenden Tabellen nicht editierbar.  
@@ -195,4 +195,3 @@ Um zu erkennen, wie die Dimensionsposten-Einlagerungs- und Buchung neu entwickel
  [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   
  [Designdetails: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)   
  [Designdetails: Codebeispiele von geänderten Mustern in Änderungen](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

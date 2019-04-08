@@ -1,23 +1,23 @@
 ---
 title: So leihen Sie Serviceartikel als Ersatzartikel | Microsoft Docs
-description: "Sie können einem Debitor vorübergehend Leihartikel für einen Serviceartikel zur Verfügung stellen, der sich bei Ihnen im Service befindet."
+description: Sie können einem Debitor vorübergehend Leihartikel für einen Serviceartikel zur Verfügung stellen, der sich bei Ihnen im Service befindet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 65a28156827551d19b8a4b23f6773c4a957e7895
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798952"
 ---
 # <a name="lend-and-receive-loaners"></a>Leihen und Zurücknehmen von Leihgeräten
 Sie können einem Debitor vorübergehend ein Leihgerät für einen Serviceartikel zur Verfügung stellen, der sich bei Ihnen im Service befindet.  
@@ -48,4 +48,3 @@ Sie können die Seite **Allgemein Servicebemerkungen** verwenden, um Bemerkungen
   
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten eines Leihgeräteprogramms](service-how-setup-loaner-program.md)   
-

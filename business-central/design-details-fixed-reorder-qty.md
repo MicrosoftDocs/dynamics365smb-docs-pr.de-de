@@ -1,24 +1,24 @@
 ---
 title: Designdetails - Feste Nachbestellmenge | Microsoft Docs
-description: "Das Richtlinie „Feste Bestellmenge“ bezieht sich auf die Bestandsplanung typischer C-Artikel (niedrige Bestandskosten, geringes Veraltungsrisiko und/oder zahlreiche Artikel). Diese Methode wird normalerweise in Verbindung mit einem Minimalbestand verwendet, der den voraussichtlichen Bedarf während der Beschaffungszeit des Artikels angezeigt."
+description: Das Richtlinie „Feste Bestellmenge“ bezieht sich auf die Bestandsplanung typischer C-Artikel (niedrige Bestandskosten, geringes Veraltungsrisiko und/oder zahlreiche Artikel). Diese Methode wird normalerweise in Verbindung mit einem Minimalbestand verwendet, der den voraussichtlichen Bedarf während der Beschaffungszeit des Artikels angezeigt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798826"
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Designdetails: Feste Nachbestellmenge
 Das Richtlinie „Feste Bestellmenge“ bezieht sich auf die Bestandsplanung typischer C-Artikel (niedrige Bestandskosten, geringes Veraltungsrisiko und/oder zahlreiche Artikel). Diese Methode wird normalerweise in Verbindung mit einem Minimalbestand verwendet, der den voraussichtlichen Bedarf während der Beschaffungszeit des Artikels angezeigt.  
@@ -53,4 +53,3 @@ Das Richtlinie „Feste Bestellmenge“ bezieht sich auf die Bestandsplanung typ
  [Designdetails: Planungsparameter](design-details-planning-parameters.md)   
  [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
  [Designdetails: Vorratsplanung](design-details-supply-planning.md)
-

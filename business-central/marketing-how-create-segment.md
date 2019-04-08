@@ -1,8 +1,8 @@
 ---
 title: Erstellen von Segmenten | Microsoft Docs
-description: "Beschreibt, wie Sie ein Segment für eine Gruppe von Kontakten in Business Central erstellen, beispielsweise um mehrere Kontakte mit einer Direktsendung anzusprechen."
+description: Beschreibt, wie Sie ein Segment für eine Gruppe von Kontakten in Business Central erstellen, beispielsweise um mehrere Kontakte mit einer Direktsendung anzusprechen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 59db444b6ce498d987d4aeb4361e119001acd2a3
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798394"
 ---
 # <a name="create-segments"></a>Segmente erstellen
 Sie können Segmente zur Auswahl einer Gruppe von Kontakten erstellen, z. B. wenn Sie eine Aktivität mit mehreren Kontakten erstellen möchten (z. B. Direktmail).
@@ -36,4 +36,3 @@ Jetzt können Sie Kontakte zum Segment hinzufügen. Weitere Informationen finden
 [Verwalten von Segmenten](marketing-segments.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

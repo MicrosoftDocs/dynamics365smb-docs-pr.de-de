@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798160"
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Eingabehilfe und Tastenkombinationen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dieses Thema enthält Informationen zu den Funktionen, die [!INCLUDE[d365fin](includes/d365fin_md.md)] einfach verfügbar machen für die Personen mit Behinderungen. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt die folgenden Funktionen:  
@@ -69,4 +69,3 @@ Sie können zusätzliche Informationen über Eingabehilfen mit Microsoft-Produkt
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.md)  
-

@@ -1,24 +1,24 @@
 ---
-title: "Definieren von statischen Verteilungen basierend auf dem Verteilungsverh채ltnis | Microsoft Docs"
-description: "Die statische Verteilungsmethode basiert auf einem definierten Wert, zum Beispiel die verwendeten Quadratmeter oder ein eingerichtetes Verteilungsverh채ltnis, wie 5:2:4."
+title: Definieren von statischen Verteilungen basierend auf dem Verteilungsverh채ltnis | Microsoft Docs
+description: Die statische Verteilungsmethode basiert auf einem definierten Wert, zum Beispiel die verwendeten Quadratmeter oder ein eingerichtetes Verteilungsverh채ltnis, wie 5:2:4.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d35fd5de7a0583c3864268d0749384322bf947ed
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799251"
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Szenario-Beispiel: Definieren von statischen Verteilungen basierend auf dem Verteilungsverh채ltnis
 Die statische Verteilungsmethode basiert auf einem definierten Wert, zum Beispiel die verwendeten Quadratmeter oder ein eingerichtetes Verteilungsverh채ltnis, wie 5:2:4.  
@@ -40,7 +40,7 @@ In diesem Thema wird beschrieben, wie drei neue Verteilungsziel-Kostentr채ger f�
 
 ## <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>So definieren Sie die Verteilungsziel-Kostentr채ger auf dem Inforegister "Zeilen"  
 
-1.  W채hlen Sie in der ersten Rechnungszeile in dem Feld **Zielkostenart** **9903** ein.  
+1.  Geben Sie in der ersten Rechnungszeile in dem Feld **Zielkostenart** die Zahl **9903** ein.  
 2.  W채hlen Sie in der ersten Rechnungszeile in dem Feld **Zielkosteobjekt** **ACCESSO**.  
 3.  W채hlen Sie in der ersten Zeile im Feld **Zielart zuweisen** die Option **Alle Kosten** aus, um festzulegen, wie alle anfallenden Kosten zugeordnet werden.  
 4.  W채hlen Sie in der ersten Zeile im Feld **Basis** die Option **Statisch** aus, um die Methode der statischen Verteilung zu verwenden.  
@@ -61,4 +61,3 @@ In diesem Thema wird beschrieben, wie drei neue Verteilungsziel-Kostentr채ger f�
 
 ## <a name="see-also"></a>Siehe auch  
 [Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)   
-

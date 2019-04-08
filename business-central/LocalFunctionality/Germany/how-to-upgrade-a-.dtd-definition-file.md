@@ -1,23 +1,23 @@
 ---
 title: Aktualisieren Sie eine .DTD-Definitions-Datei
-description: "Sie können eine .dtd-Datei explizit validieren, nachdem Sie eine importiert haben, um ein Upgradeproblem zu adressieren. Dies ist hilfreich, wenn Sie eine vorhandene Einrichtung haben, die aktualisiert werden muss, um der aktuellen Ausgabe von Business Central zu entsprechen."
+description: Sie können eine .dtd-Datei explizit validieren, nachdem Sie eine importiert haben, um ein Upgradeproblem zu adressieren. Dies ist hilfreich, wenn Sie eine vorhandene Einrichtung haben, die aktualisiert werden muss, um der aktuellen Ausgabe von Business Central zu entsprechen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 7eb26d98f7d639404817fe8ddf2ad45b30ef5952
-ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826751"
 ---
 # <a name="upgrade-a-dtd-definition-file"></a>Aktualisieren Sie eine .DTD-Definitions-Datei
 Sie können eine .dtd-Datei explizit validieren, nachdem Sie eine importiert haben, um ein Upgradeproblem zu adressieren. Dies ist hilfreich, wenn Sie eine vorhandene Einrichtung haben, die aktualisiert werden muss, um der aktuellen Ausgabe von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zu entsprechen.  
@@ -31,4 +31,3 @@ Sie können eine .dtd-Datei explizit validieren, nachdem Sie eine importiert hab
 
 ## <a name="see-also"></a>Siehe auch  
  [Gewusst wie: Einrichten von Datenexporten für GDPdU](how-to-set-up-data-exports-for-gdpdu.md)
-

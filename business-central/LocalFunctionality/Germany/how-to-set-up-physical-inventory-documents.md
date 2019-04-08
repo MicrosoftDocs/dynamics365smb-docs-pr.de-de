@@ -1,23 +1,23 @@
 ---
 title: 'Vorgehensweise: Einrichten von Inventurdokumenten'
-description: "Bevor Sie mit Inventurbelegen und Inventurerfassungen arbeiten können, müssen einige Eigenschaften eingerichtet werden."
+description: Bevor Sie mit Inventurbelegen und Inventurerfassungen arbeiten können, müssen einige Eigenschaften eingerichtet werden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 187917e4e40ca06a9973bb437e9556379509b0f9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: feda76c63561ece852653e2812788df2118b2b8e
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826729"
 ---
 # <a name="set-up-physical-inventory-documents"></a>Inventurbelege einrichten
 Bevor Sie mit Inventurbelegen und Inventurerfassungen arbeiten können, müssen einige Eigenschaften eingerichtet werden.  
@@ -30,4 +30,3 @@ Bevor Sie mit Inventurbelegen und Inventurerfassungen arbeiten können, müssen 
 ## <a name="see-also"></a>Siehe auch  
  [Physische Inventuraufträge eingeben](how-to-enter-physical-inventory-orders.md)   
  [Inventurbelege](physical-inventory-documents.md)
-

@@ -1,25 +1,25 @@
 ---
 title: 'Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern | Microsoft Docs'
-description: "Wenn Produktfehler auftreten, müssen die Fehler identifiziert werden, und es muss verhindert werden, dass die betroffenen Artikel das Unternehmen verlassen. Falls bereits defekte Artikel geliefert wurden, müssen Sie verfolgen, wer diese Artikel erhalten hat, und ggf. muss ein Rückruf eingeleitet werden."
+description: Wenn Produktfehler auftreten, müssen die Fehler identifiziert werden, und es muss verhindert werden, dass die betroffenen Artikel das Unternehmen verlassen. Falls bereits defekte Artikel geliefert wurden, müssen Sie verfolgen, wer diese Artikel erhalten hat, und ggf. muss ein Rückruf eingeleitet werden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: e6354b57e14af89c0c998447ff09d43e3902d0b4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
-ms.contentlocale: de-de
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853163"
 ---
-# <a name="walkthrough-tracing-serial-lot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
 
 **Hinweis**: In dieser exemplarischen Vorgehensweise muss in einem Demomandanten mit der Option **Volle Auswertung - vollständige Beispieldaten** ausgeführt werden, die in der Sandboxumgebung verfügbar ist. Weitere Informationen finden Sie unter [Erstellen einer Sandbox-Umgebung](across-how-create-sandbox-environment.md).
 
@@ -50,7 +50,7 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
 -   Das [!INCLUDE[d365fin](includes/d365fin_md.md)] Unternehmen .  
--   Erstellen Sie später in dies Demonstration anhand der Schritte im Abschnitt "Vorbereiten der Beispieldaten" neue Artikel und verschiedene Geschäftstransaktionen.  
+-   Erstellen Sie anhand der Schritte [Vorbereiten der Beispieldaten](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data) neue Artikel und Geschäftstransaktionen.  
 
 ## <a name="story"></a>Hintergrund  
 Andreas, der Qualitätskontrolleur, bearbeitet eine Verkaufsreklamation für Artikel 1002, Rennrad. Der Debitor, Blütenhaus GmbH, hat sich über gerissene Schweißnähte im Rennradrahmen beschwert. Die Ingenieure der Qualitätskontrolle haben bestätigt, dass der Rahmen des zurückgesendeten Rennrads defekt ist. Der Qualitätskontrolleur muss nun Folgendes feststellen:  
@@ -256,11 +256,11 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 ## <a name="tracing-from-origin-to-usage"></a>Verfolgung vom Verbrauch zum Ursprung  
  Der Qualitätskontrolleur hat festgestellt, dass die fehlerhaften Rennradrahmen aus CHARGE1 stammen. Er muss jetzt alle anderen Rennräder ermitteln, die Rahmen aus der fehlerhaften Charge enthalten, damit Aufträge für diese Räder gestoppt oder zurückgerufen werden können.  
 
- Zum Vorbereiten dieser Aufgabe können Sie auf der Seite **Artikelnachverfolgung** Feld **Lot-Nr.Filter** manuell CHARGE1 und im Feld **Artikelfilter** 2000 eingeben. In dieser exemplarischen Vorgehensweise wird jedoch die Funktion **Trace Opposite - from Line** verwendet.  
+ Zum Vorbereiten dieser Aufgabe können Sie auf der Seite **Artikelnachverfolgung** Feld **Lot-Nr.Filter** manuell CHARGE1 und im Feld **Artikelfilter** 2000 eingeben. In dieser exemplarischen Vorgehensweise wird jedoch die Funktion **Umgekehrte Nachverfolgung - zeilenbasiert** verwendet.  
 
 ### <a name="to-find-all-usage-of-the-faulty-lot"></a>So machen Sie alle Verbrauchsfälle der fehlerhaften Charge ausfindig  
 
-1.  Wählen Sie auf der Seite **Artikelablaufverfolgung** die Zeile der Einkaufslieferung aus (die letzte Verfolgungszeile), und wählen Sie dann **Trace Opposite - from Line** aus.  
+1.  Wählen Sie auf der Seite **Artikelablaufverfolgung** die Zeile der Einkaufslieferung aus (die letzte Verfolgungszeile), und wählen Sie dann **Umgekehrte Nachverfolgung - zeilenbasiert** aus.  
 
     Das Ergebnis der Verfolgung basiert nun auf den Filtern der Verfolgungszeile für die Einkaufslieferung, CHARGE1 und Artikel 2000, und der Verfolgungsmethode **Ursprung - Verbrauch**.  
 
@@ -298,4 +298,3 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 [Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  
 [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)  
 [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
-

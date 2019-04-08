@@ -7,11 +7,11 @@
     <Node Name="" DisplayName="Synchronisieren mit Kontakten in Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
     <Node Name="" DisplayName="Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook" Page="admin-outlook.html"/>
     <Node Name="" DisplayName="Aktivieren Sie Ihre Geschäftsdaten für Power BI" Page="admin-powerbi.html"/>
-    <Node Name="" DisplayName="Business Central als Power BI Datenquelle nutzen" Page="across-how-use-financials-data-source-powerbi.html"/>
-    <Node Name="" DisplayName="Anpassen der Geschäfte mithilfe der Erweiterungen" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Business Central als Power BI-Datenquelle nutzen" Page="across-how-use-financials-data-source-powerbi.html"/>
+    <Node Name="" DisplayName="Anpassen von Business Central mithilfe der Erweiterungen" Page="ui-extensions.html"/>
   </Node>
   <Node Name="" DisplayName="Tipps und Tricks" Page="ui-work-product.html">
-    <Node Name="" DisplayName="Arbeiten mit  Business Central" Page="ui-work-product.html"/>
+    <Node Name="" DisplayName="Arbeiten mit Business Central" Page="ui-work-product.html"/>
     <Node Name="" DisplayName="Seite oder Bericht suchen verwenden" Page="ui-search.html"/>
     <Node Name="" DisplayName="Ändern von grundlegenden Einstellungen" Page="ui-change-basic-settings.html"/>
     <Node Name="" DisplayName="So gehts: Ändern des Rollencenters" Page="change-role.html"/>
@@ -29,7 +29,7 @@
       <Node Name="" DisplayName="Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung" Page="admin-job-queues-schedule-tasks.html"/>
       <Node Name="" DisplayName="Vorgehensweise: Veröffentlichen eines Webdiensts" Page="across-how-publish-web-service.html"/>
     </Node>
-    <Node Name="" DisplayName="Finance einrichten" Page="finance-setup-finance.html">
+    <Node Name="" DisplayName="Finanzen einrichten" Page="finance-setup-finance.html">
       <Node Name="" DisplayName="Zahlungsformen definieren" Page="finance-payment-methods.html"/>
       <Node Name="" DisplayName="Buchungsgruppen einrichten" Page="finance-posting-groups.html"/>
       <Node Name="" DisplayName="Vorgehensweise: Mit Zahlungstoleranzen und Skontotoleranzen arbeiten" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
@@ -339,9 +339,9 @@
     <Node Name="" DisplayName="Gewusst wie: Senden von Belegen über E-Mail" Page="ui-how-send-documents-email.html"/>
     <Node Name="" DisplayName="Arbeiten mit Berichten" Page="ui-work-report.html"/>
     <Node Name="" DisplayName="Verwaltung von Berichts- und Beleg-Layouts" Page="ui-manage-report-layouts.html"/>
-    <Node Name="" DisplayName="Protokollieren von Änderungen in der Geschäfts-Zentrale" Page="across-log-changes.html"/>
+    <Node Name="" DisplayName="Protokollieren von Änderungen in Business Central" Page="across-log-changes.html"/>
     <Node Name="" DisplayName="Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen" Page="ui-how-users-permissions.html"/>
-    <Node Name="" DisplayName="Anpassen der Geschäfte mithilfe der Erweiterungen" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Anpassen von Business Central mithilfe der Erweiterungen" Page="ui-extensions.html"/>
     <Node Name="" DisplayName="Eingehende Belege" Page="across-income-documents.html">
       <Node Name="" DisplayName="Gewusst wie: Eingehende Dokumente einrichten" Page="across-how-setup-income-documents.html"/>
       <Node Name="" DisplayName="Eingehende Dokumente verarbeiten" Page="across-process-income-documents.html"/>

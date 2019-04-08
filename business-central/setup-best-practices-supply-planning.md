@@ -1,23 +1,23 @@
 ---
-title: "Bewährte Vorgehensweisen einrichten - Beschaffungsplanung | Microsoft Docs"
-description: "Die Beschaffungsplanung ist ein wichtiger Geschäftsbereich. Eingerichtet und korrekt eingesetzt hilft die Beschaffungsplanung einem Unternehmen, fehlende Lagerbestände zu vermeiden sowie Bestellungs- und Lagerkosten zu verringern."
+title: Bewährte Vorgehensweisen einrichten - Beschaffungsplanung | Microsoft Docs
+description: Die Beschaffungsplanung ist ein wichtiger Geschäftsbereich. Eingerichtet und korrekt eingesetzt hilft die Beschaffungsplanung einem Unternehmen, fehlende Lagerbestände zu vermeiden sowie Bestellungs- und Lagerkosten zu verringern.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9b3b6dc26c7af1d2104c5509ba98ba75927cbcad
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8858758c6b4b680e13d54f0222201c67a03dafa3
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798321"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Bewährte Einrichtungsmethoden: Beschaffungsplanung
 Die Beschaffungsplanung ist ein wichtiger Geschäftsbereich. Eingerichtet und korrekt eingesetzt hilft die Beschaffungsplanung einem Unternehmen, fehlende Lagerbestände zu vermeiden sowie Bestellungs- und Lagerkosten zu verringern.  
@@ -37,4 +37,3 @@ Die Beschaffungsplanung ist ein wichtiger Geschäftsbereich. Eingerichtet und ko
  [Designdetails: Planungsparameter](design-details-planning-parameters.md)   
  [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

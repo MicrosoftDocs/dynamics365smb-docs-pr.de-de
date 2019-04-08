@@ -1,21 +1,21 @@
 ---
 title: Designdetails - Lagerhaus Einrichten | Microsoft Docs
-description: "Lagerfunktionen in Business Central enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist."
+description: Lagerfunktionen in Business Central enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798798"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetails: Lagereinrichtung
 Lagerfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist. Darüber hinaus steuern die Anwendungsobjekte in der Lizenz, welche UI-Dokumente für die unterstützten Lageraktivitäten zu verwenden sind.  
@@ -37,7 +37,7 @@ Weitere Informationen über jedes Element finden Sie unter [[!INCLUDE[d365fin](i
 
 Die nachstehende Tabelle zeigt, welche Elemente benötigt werden, um verschiedene Lagerkomplexitätsebenen zu definieren, welche UI-Dokumente die einzelnen Ebenen unterstützen und welche Lagerortcodes diese Ebenen in der [!INCLUDE[d365fin](includes/d365fin_md.md)] Demodatenbank widerspiegeln.  
 
-|Komplexitätsebene|Beschreibung|UI-Dokument|CRONUS Lagerort|Minimale Elementanforderung|  
+|Komplexitätsebene|Description|UI-Dokument|CRONUS-Lagerort|Minimale Elementanforderung|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
 |1|Keine dedizierte Lageraktivität.<br /><br /> Eingangs-/Lieferungsbuchung aus Aufträgen.|Bestellung|BLAU|Grundlegender Lagerbestand|  
 |2|Keine dedizierte Lageraktivität.<br /><br /> Eingangs-/Lieferungsbuchung aus Aufträgen.<br /><br /> Lagerplatzcode ist erforderlich.|Auftrag, mit Lagerplatzcode|SILBER|Grundlegender Lagerbestand/Lagerplatz|  
@@ -130,4 +130,3 @@ Die Einlagerungsvorlage kann einem Artikel und einem Lagerort zugewiesen werden.
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Logistik](design-details-warehouse-management.md)   
 [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)
-

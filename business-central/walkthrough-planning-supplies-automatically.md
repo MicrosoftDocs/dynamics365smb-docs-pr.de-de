@@ -1,23 +1,23 @@
 ---
-title: "Walkthrough - Vorräte automatisch planen | Microsoft Docs"
-description: "Die Begriffe \"Planung ausführen\" oder \"Nettobedarf ausführen\" beziehen sich auf die Berechnung der Produktions-Programmplanung und des Materialbedarfsplans anhand des tatsächlichen und geplanten Bedarfs."
+title: Walkthrough - Vorräte automatisch planen | Microsoft Docs
+description: Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich auf die Berechnung der Produktions-Programmplanung und des Materialbedarfsplans anhand des tatsächlichen und geplanten Bedarfs.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: c4239904c17db334cee006d5de08ea8c0e80b750
-ms.contentlocale: de-de
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799290"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Exemplarische Vorgehensweise: Automatische Beschaffungsplanung
 
@@ -33,7 +33,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
  Das Planungsergebnis wird zum Teil aus den Bedarf-Bestand-Sätzen in der Datenbank und zum Teil durch die Einrichtung von Lagerhaltungsdatenkarten oder Artikelkarten, Fertigungsstücklisten und Arbeitsplänen berechnet.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
- In dieser exemplarischen Vorgehensweise wird beschrieben, wie Sie das Beschaffungsplanungssystem verwenden, um alle Bestellungen und Fertigungsaufträge automatisch zu planen, die erforderlich sind, um 15 Tourenräder zu produzieren, die in verschiedenen Verkaufsaufträgen angefordert wurden. Um eine klare und realistische exemplarische Vorgehensweise zu bieten, wurde die Anzahl der Planungszeilen begrenzt, indem alle anderen Bedarfs- und Vorrats-Sätze im Beispielunternehmen CRONUS AG außer dem Verkaufsbedarf am Standort BLAU herausgefiltert wurden.  
+ In dieser exemplarischen Vorgehensweise wird beschrieben, wie Sie das Beschaffungsplanungssystem verwenden, um alle Bestellungen und Fertigungsaufträge automatisch zu planen, die erforderlich sind, um 15 Tourenräder zu produzieren, die in verschiedenen Verkaufsaufträgen angefordert wurden. Um eine klare und realistische exemplarische Vorgehensweise zu bieten, wurde die Anzahl der Planungszeilen begrenzt, indem alle anderen Nachfrage-Angebots-Sätze im Demounternehmen CRONUS AG außer dem Verkaufsbedarf am Standort BLUE herausgefiltert wurden.  
 
  In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
@@ -50,7 +50,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 ## <a name="prerequisites"></a>Voraussetzungen  
  Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
--   Demounternehmen CRONUS International Ltd.  
+-   Das Demounternehmen CRONUS AG.  
 -   Ändern Sie, wie im Abschnitt "Vorbereiten der Beispieldaten" dieser exemplarischen Vorgehensweise beschrieben, verschiedene Artikelkonfigurationswerte.  
 
 ## <a name="story"></a>Hintergrund  
@@ -269,4 +269,3 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)   
  [Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung](walkthrough-planning-supplies-manually.md)   
  [Designdetails: Vorratsplanung](design-details-supply-planning.md)
-

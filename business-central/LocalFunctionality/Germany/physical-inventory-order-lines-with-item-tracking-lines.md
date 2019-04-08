@@ -1,23 +1,23 @@
 ---
 title: Inventurauftragszeilen mit Artikelverfolgungszeilen
-description: "Artikelverfolgungszeilen werden verwendet, um Seriennummern und Chargennummern für Inventurauftragszeilen einzugeben."
+description: Artikelverfolgungszeilen werden verwendet, um Seriennummern und Chargennummern für Inventurauftragszeilen einzugeben.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 61a89c2dc2fd68ede2a31e0eb7f7ac8c5d6324aa
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826777"
 ---
 # <a name="physical-inventory-order-lines-with-item-tracking-lines"></a>Inventurauftragszeilen mit Artikelverfolgungszeilen
 Artikelverfolgungszeilen werden verwendet, um Seriennummern und Chargennummern für Inventurauftragszeilen einzugeben.  
@@ -65,4 +65,3 @@ Artikelverfolgungszeilen werden verwendet, um Seriennummern und Chargennummern f
  [So schließen Sie eine Inventurerfassung ab](how-to-finish-a-physical-inventory-recording.md)   
  [So schließen Sie einen Inventurauftrag ab](how-to-finish-a-physical-inventory-order.md)   
  [Vorgehensweise beim Analysieren von Inventurdifferenzen](how-to-analyze-physical-inventory-differences.md)
-

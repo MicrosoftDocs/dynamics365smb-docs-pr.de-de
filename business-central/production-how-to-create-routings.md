@@ -1,23 +1,23 @@
 ---
 title: 'Vorgehensweise: Routings erstellen | Microsoft Docs'
-description: "Im Arbeitsplan sind Stammdaten enthalten, die die Verarbeitungsanforderungen für bestimmte Fertigungsartikel erfassen. Sobald ein Fertigungsauftrag für diesen Artikel erstellt wurde, steuert dessen Arbeitsplan die Planung der Arbeitsgänge, die auf der Seite **FA-Arbeitsplan** unter dem Fertigungsauftrag dargestellt werden."
+description: Im Arbeitsplan sind Stammdaten enthalten, die die Verarbeitungsanforderungen für bestimmte Fertigungsartikel erfassen. Sobald ein Fertigungsauftrag für diesen Artikel erstellt wurde, steuert dessen Arbeitsplan die Planung der Arbeitsgänge, die auf der Seite **FA-Arbeitsplan** unter dem Fertigungsauftrag dargestellt werden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6eb16bd42357646a9e88c4799a3f110be0e294eb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799202"
 ---
 # <a name="create-routings"></a>Routings erstellen
 Produktionsbetriebe verwenden Arbeitspläne, um den Produktionsablauf zu definieren.
@@ -43,11 +43,11 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 6.  Im Feld **Vorherige Arbeitsgangnr.** geben Sie die Nummer des ersten Arbeitsgangs ein, z. B. **10**.  
 7.  Geben Sie im Feld **Art** die verwendete Ressourcenart an, z. B. **Arbeitsplatzgruppe**.  
 8.  Geben Sie im Feld **Nr.** die zu verwendende Ressource oder geben Sie sie im Feld ein.  
-9.  Geben Sie im Feld **Verbindungscode** einen Code für die Verbindung der Komponente mit einem bestimmten Arbeitsgang ein. Weitere Informationen finden Sie unter "Gewusst wie: Arbeitspläne erstellen".
-10.  Geben Sie in den Feldern **Bearbeitungszeit** und **Rüstzeit** die benötigte Dauer zum Ausführen des Arbeitsgangs ein.  
+9.  Geben Sie im Feld **Verbindungscode** einen Code für die Verbindung der Komponente mit einem bestimmten Arbeitsgang ein. Weitere Informationen finden Sie unter [So erstellen Sie einen Arbeitsplanlink](production-how-to-create-routings.md#to-create-routing-links).
+10.  Geben Sie in den Feldern **Bearbeitungszeit** und **Rüstzeit** die benötigte Dauer zum Ausführen des Arbeitsgangs ein.
 
-    > [!NOTE]  
-    >  Die Rüstzeit wird pro Fertigungsauftrag berechnet, wobei die Bearbeitungszeit pro Fertigungsartikel berechnet wird.  
+    > [!NOTE]
+    > Die Rüstzeit wird pro Fertigungsauftrag berechnet, wobei die Bearbeitungszeit pro Fertigungsartikel berechnet wird.  
 
 11.  Geben Sie im Feld **Gleichzeitig zu belasten** an, wie viele Einheiten der ausgewählten Ressource verwendet werden, um den Vorgang auszuführen. Beispielsweise halbiert sich die Bearbeitungszeit, wenn zwei Personen einem Verpackungsarbeitsgang zugeordnet werden.  
 12.  Füllen Sie weitere Zeilen für alle Arbeitsgänge aus, die für die Fertigung des betreffenden Artikels erforderlich sind.  
@@ -126,4 +126,3 @@ Die zeitliche Gültigkeit der Version wird durch das **Startdatum** bestimmt.
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

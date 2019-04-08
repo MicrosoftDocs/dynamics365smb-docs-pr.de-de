@@ -1,23 +1,23 @@
 ---
 title: 'Exemplarische Vorgehensweise: Verwalten von Projekten | Microsoft Docs'
-description: "In dieser exemplarischen Vorgehensweise erhalten Sie eine Einführung in die Projektmanagementfunktionen in \"Projekte\". Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen und die verschiedenen Kosten im Zusammenhang mit dem Einsatz von Ressourcen für ein bestimmtes Projekt verfolgen. Projekte beinhalten den Verbrauch von Mitarbeiterstunden, Maschinenstunden, Bestandsposten und andere Verbrauchsarten, die während des Projekts verfolgt werden können."
+description: In dieser exemplarischen Vorgehensweise erhalten Sie eine Einführung in die Projektmanagementfunktionen in "Projekte". Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen und die verschiedenen Kosten im Zusammenhang mit dem Einsatz von Ressourcen für ein bestimmtes Projekt verfolgen. Projekte beinhalten den Verbrauch von Mitarbeiterstunden, Maschinenstunden, Bestandsposten und andere Verbrauchsarten, die während des Projekts verfolgt werden können.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1f228296cfa750670e1270a100755e67885c783a
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798147"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Exemplarische Vorgehensweise: Verwalten von Projekten
 In dieser exemplarischen Vorgehensweise erhalten Sie eine Einführung in die Projektmanagementfunktionen in "Projekte". Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen und die verschiedenen Kosten im Zusammenhang mit dem Einsatz von Ressourcen für ein bestimmtes Projekt verfolgen. Projekte beinhalten den Verbrauch von Mitarbeiterstunden, Maschinenstunden, Bestandsposten und andere Verbrauchsarten, die während des Projekts verfolgt werden können.  
@@ -67,7 +67,7 @@ In dieser exemplarischen Vorgehensweise erhalten Sie eine Einführung in die Pro
 -   Erstellen Sie wie im folgenden Abschnitt beschrieben einige Beispieldaten.  
 
 ## <a name="story"></a>Hintergrund  
-Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und Beratungsunternehmen, das neue Infrastrukturen anpasst, wie Konferenzräume mit Möblen, Zubehör und Lagereinheiten. Der Großteil der Arbeiten ist projektorientierter Natur. Prakash ist Projekt-Manager bei Cronus. Er verwendet das Projektmodul, da er sich damit einen Überblick über die einzelnen laufenden Projekte verschaffen kann, die CRONUS gestartet hat, wie auch über die abgeschlossenen Projekte. In der Regel ist er es, der die Geschäfte mit Debitoren einrichtet und die Kerndaten des Projekts, d.h. Aufgaben- und Planungszeilen sowie Preise, in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfasst. Er findet, dass erstellen, verwalten, und Informationen prüfen einfach ist. Auch ist Bernhard schätzt die Art, wie [!INCLUDE[d365fin](includes/d365fin_md.md)] das Kopieren von Projekten sowie von Teilzahlungen ausführt.
+Im Mittelpunkt dieser exemplarischen Vorgehensweise steht die CRONUS AG, ein Design- und Beratungsunternehmen, das neue Infrastrukturen schafft und anpasst, wie Konferenzräume und Büros mit Möbeln, Zubehör und Lagereinheiten. Der Großteil der Arbeiten ist projektorientierter Natur. Bernard ist Projektmanager bei CRONUS. Er verwendet das Projektmodul, da er sich damit einen Überblick über die einzelnen laufenden Projekte verschaffen kann, die CRONUS gestartet hat, wie auch über die abgeschlossenen Projekte. In der Regel ist er es, der die Geschäfte mit Debitoren einrichtet und die Kerndaten des Projekts, d.h. Aufgaben- und Planungszeilen sowie Preise, in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfasst. Er findet, dass erstellen, verwalten, und Informationen prüfen einfach ist. Auch ist Bernhard schätzt die Art, wie [!INCLUDE[d365fin](includes/d365fin_md.md)] das Kopieren von Projekten sowie von Teilzahlungen ausführt.
 
  Katrin, ein Projektteammitglied, das Bernard unterstellt ist, ist für die tägliche Überwachung des Projekts zuständig. Sie gibt ihre eigene Arbeit zusätzlich zu der Arbeit ein, die von Technikern für jede Aufgabe ausgeführt wird. Sie speichert die Artikel, die sie verwendet haben und die Kosten, die sie verursacht haben.  
 
@@ -91,7 +91,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
     -   **Kosten %**: **4**  
     -   **Einstandspreis**: **10**  
     -   **Produktbuchungsgruppe**: **Services**  
-    -   **MwSt.-Produktbuchungsgruppe**: **MWST16**  
+    -   **MwSt.-Produktbuchungsgruppe**: **25 % MwSt.**  
 
 6.  Klicken Sie auf die Schaltfläche **OK**, um die Änderungen zu speichern.  
 
@@ -110,7 +110,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 4.  Wählen Sie die Schaltfläche **OK**, um alle geöffneten Seiten zu schließen.  
 
 ## <a name="setting-up-a-job"></a>Einrichten eines Projekts  
- In diesem Szenario hat CRONUS einen Vertrag mit einem Debitoren, Progressive Home Furnishings, für den Entwurf eines Konferenz- und Speisesaals abgeschlossen. Der Debitor hat seinen Sitz in den USA, und für das Projekt ist spezielle Software erforderlich. Der Projektmanager trifft eine Vereinbarung mit dem Debitoren und erstellt ein Projekt für den Vertrag.  
+ In diesem Szenario hat CRONUS einen Vertrag mit einem Kunden, Progressive Home Furnishings, für den Entwurf eines Konferenz- und Speisesaals abgeschlossen. Der Debitor hat seinen Sitz in den USA, und für das Projekt ist spezielle Software erforderlich. Der Projektmanager trifft eine Vereinbarung mit dem Debitoren und erstellt ein Projekt für den Vertrag.  
 
 ### <a name="to-set-up-a-job"></a>So richten Sie ein Projekt ein  
 
@@ -128,7 +128,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
     -   **WIP-Methode**: **Einstandswert**  
 
 5.  Geben Sie auf dem Inforegister **Dauer** das heutige Datum in die Felder **Startdatum** und **Enddatum** ein. Diese Datumsangaben werden bei der Fakturierung des Projekts zur Währungsumrechnung verwendet.  
-6.  Stellen Sie auf dem Inforegister **Außenhandel** sicher, dass der Währungscode auf **USD** festgelegt ist. Wenn Sie im Feld **Währungscode Rechnung** die Option "USD" auswählen, wird das Projekt in US-Doller fakturiert und nur in der lokalen Währung von Cronus geplant.  
+6.  Stellen Sie auf dem Inforegister **Außenhandel** sicher, dass der Währungscode auf **USD** festgelegt ist. Wenn Sie im Feld **Währungscode Rechnung** die Option "USD" auswählen, wird der Auftrag in US-Dollar fakturiert und nur in der lokalen Währung von CRONUS geplant.  
 
  Sie können die Preise für Debitoren auf Pro-Projekt-Basis je nach den getroffenen Vereinbarungen anpassen. Im folgenden Verfahren gibt der Projekt-Manager Kosten für Katrins Zeit an, setzt den Preis für die benötigte Software fest und fügt in den Reisekosten hinzu, dass der Debitor zugestimmt hat, zu zahlen.  
 
@@ -280,7 +280,7 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
 3.  Wählen Sie die Schaltfläche **Schließen**, um die Seite **Projektstatistik** zu schließen.  
 
 ## <a name="handling-fixed-prices"></a>Verwenden von Festpreisen  
- CRONUS wurde abgeschlossen, um Konferenzräume einzurichten. Als Projekt-Manager benötigt Bernard einen umfassenden Überblick über die erforderlichen Aufgaben für das Projekt sowie die zugehörigen budgetierten und angefallenen Kosten für jede Aufgabe. Zudem möchte er den vertraglich vereinbarten Verkaufsbetrag für das Projekt und den bisher fakturierten Betrag ermitteln. Er hat mit dem Debitoren Festpreise für das Projekt vereinbart.  
+ CRONUS wurde abgeschlossen, um Konferenzräume einrichten. Als Projekt-Manager benötigt Bernard einen umfassenden Überblick über die erforderlichen Aufgaben für das Projekt sowie die zugehörigen budgetierten und angefallenen Kosten für jede Aufgabe. Zudem möchte er den vertraglich vereinbarten Verkaufsbetrag für das Projekt und den bisher fakturierten Betrag ermitteln. Er hat mit dem Debitoren Festpreise für das Projekt vereinbart.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>So verwalten Sie Festpreise in Projekten  
 
@@ -485,4 +485,3 @@ Diese exemplarische Vorgehensweise in CRONUS Internationl Ltd, ein Design- und B
  [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)   
  [Fakturieren von Projekten](projects-how-invoice-jobs.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

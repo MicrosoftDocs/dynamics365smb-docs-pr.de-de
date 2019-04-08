@@ -1,8 +1,8 @@
 ---
 title: Buchungen ansehen, bevor Sie einen Beleg oder ein Buch.-Blatt buchen | Microsoft Docs
-description: "Sie können prüfen, ob Posten für Belege und Buch.-Blätter fehlerfrei sind, bevor sie auf das Sachkonto buchen."
+description: Sie können prüfen, ob Posten für Belege und Buch.-Blätter fehlerfrei sind, bevor sie auf das Sachkonto buchen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799349"
 ---
 # <a name="preview-posting-results"></a>Vorschau-Buchungs-Ergebnisse
 Auf jedem Beleg und Buch.-Blatt, die gebucht werden können, können Sie die Schaltfläche **Vorschau-Buchung** auswählen, um verschiedene Arten von Posten zu überprüfen, die erstellt werden, wenn Sie den Beleg oder das Buch.-Blatt buchen.
@@ -31,5 +31,4 @@ Auf jedem Beleg und Buch.-Blatt, die gebucht werden können, können Sie die Sch
 ## <a name="see-also"></a>Siehe auch
 [Journale und Dokumente buchen](ui-post-documents-journals.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

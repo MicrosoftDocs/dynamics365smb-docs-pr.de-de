@@ -1,7 +1,7 @@
 ---
-title: "Die Benutzerfreundlichkeit auswählen, um erweiterte Funktionen ein- oder auszublenden| Microsoft Docs"
-description: "Erfahren Sie, was die Essential- und Premium-Stufen der Benutzerfreundlichkeit für die Benutzerschnittstelle, Anwendungsbereiche und Ihr Unternehmen bedeutet."
-documentationcenter: 
+title: Die Benutzerfreundlichkeit auswählen, um erweiterte Funktionen ein- oder auszublenden| Microsoft Docs
+description: Erfahren Sie, was die Essential- und Premium-Stufen der Benutzerfreundlichkeit für die Benutzerschnittstelle, Anwendungsbereiche und Ihr Unternehmen bedeutet.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 02/04/2019
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: bec47d64f2ba038e1c3b7288ce466e2f212b2b19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
-ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
-ms.contentlocale: de-de
-ms.lasthandoff: 02/04/2019
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798060"
 ---
 # <a name="changing-which-features-are-displayed"></a>Sie können auswählen, welche Funktionen angezeigt werden
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist dafür ausgelegt, Ihnen zu helfen, Ihr Geschäft zu führen, unabhängig vom Geschäftsbereich. Im Kernstück von [!INCLUDE[d365fin](includes/d365fin_md.md)] finden Sie die Finanzberichtserstattung und die Verkaufs- und Einkaufsprozesse. Sie fügen es der entsprechend den Unternehmensanforderungen hinzu, indem Sie aus AppSource Erweiterungen hinzufügen oder die Benutzeroberfläche ändern, die für Ihren Mandanten setzen. Weitere Informationen finden Sie unter[ Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Mittels der Erweiterungen](ui-extensions.md) im Abschnitt oder Benutzererfahrung auswählen.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist dafür ausgelegt, Ihnen zu helfen, Ihr Geschäft zu führen, unabhängig vom Geschäftsbereich. Im Kernstück von [!INCLUDE[d365fin](includes/d365fin_md.md)] finden Sie die Finanzberichtserstattung und die Verkaufs- und Einkaufsprozesse. Sie fügen Erfahrungen entsprechend den Unternehmensanforderungen hinzu, indem Sie aus AppSource Erweiterungen hinzufügen oder die Einstellung für "Erfahrung" für Ihr Unternehmen ändern. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe von Erweiterungen](ui-extensions.md) oder [Eine Benutzererfahrung auswählen, um eine Funktion ein- oder auszublenden](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Eine Benutzerfreundlichkeit auswählen, um eine Funktion ein-  oder auszublenden
 Die Benutzerfreundlichkeit bestimmt, wie viel der Kernfunktionalität in Fenstern angezeigt wird, mit dem Sie und Ihre Kollegen [!INCLUDE[d365fin](includes/d365fin_md.md)] nutzen. Auf der Seite **Unternehmensinformation** können Sie die Benutzerfreundlichkeit für Ihren Mandanten im Feld **Erfahrung** festlegen.
@@ -35,7 +35,7 @@ Die verfügbaren Optionen werden in der folgenden Tabelle beschrieben.
 | **Premium** |Zeigt alle Aktionen und Felder für alle Geschäftsfunktionalität einschließlich, Produktion und Dienstleistungs-Verwaltung an.|
 
 > [!NOTE]  
-> Die Erfahrung, aus der Sie auswählen können in [!INCLUDE[d365fin](includes/d365fin_md.md)] hängt von Ihrem Lösungslizenz ab, auch als Plan bezeichnet. Informationen zur **Wesentlich** und **Premium** finden Sie unter [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) in der Microsoft Dynamics 365 Marketings-Site. Siehe dazu auch [[!INCLUDE[d365fin](includes/d365fin_md.md)] Lizenzieren des Handbuches](https://go.microsoft.com/fwlink/?linkid=2068931) (benötigt Zugriff auf CustomerSource oder PartnerSource).
+> Die Erfahrung, aus der Sie auswählen können in [!INCLUDE[d365fin](includes/d365fin_md.md)] hängt von Ihrem Lösungslizenz ab, auch als Plan bezeichnet. Informationen zu den **Essential**- und **Premium**-Plänen finden Sie unter [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) auf der Microsoft Dynamics 365-Marketing-Site. Siehe dazu auch [[!INCLUDE[d365fin](includes/d365fin_md.md)]-Lizenzierungshandbuch](https://go.microsoft.com/fwlink/?linkid=2068931) (erfordert Zugriff auf CustomerSource oder PartnerSource).
 
 > [!IMPORTANT]  
 > Alle regulären Benutzer in einer Lösung müssen demselben Plan, Basis oder Premium zugewiesen sein, bevor die Erfahrung für das Unternehmen ausgewählt werden kann. Entsprechend kann ein Benutzer auf erstklassige Funktionen zugreifen, wenn eine oder mehrere andere Benutzer nur auf  b wichtige Funktion nur zugreifen können. Dies ist nicht der Fall für reguläre Benutzer der Art Teammitglieder, interner Administrator, externer Buchhalter und delegierter Administrator, dem jeder ein unterschiedlicher Plan als bei anderen Benutzern in der Lösung zugeordnet werden können.
@@ -71,4 +71,3 @@ Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[d365fin](i
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Lizenzierungshandbuches](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

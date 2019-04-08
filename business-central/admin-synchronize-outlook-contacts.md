@@ -1,6 +1,6 @@
 ---
 title: Teilen Sie Kontakte zwischen Business Central und Outlook| Microsoft Doc
-description: "Der Service hat eine tiefe Integration mit Office 365, damit Sie Kontakten zwischen Outlook und Business Central freigeben können."
+description: Der Service hat eine tiefe Integration mit Office 365, damit Sie Kontakten zwischen Outlook und Business Central freigeben können.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5e4bd35edea680c46cb0df753b50916b1aeb93be
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799264"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchronisieren Sie Kontakte in Business Central mit Kontakten in Microsoft Outlook
-Sie können die gleichen Kontakte sehen in [!INCLUDE[d365fin](includes/d365fin_md.md)] wie in Outlook,  wenn Sie die Kontaktsynchronisierung einrichten. Wenn Sie beispielsweise ein Verkäufer sind, können Sie einige Arbeit in Outlook und einige Arbeit in [!INCLUDE[d365fin](includes/d365fin_md.md)] erledigen. Wenn die Kontakte an beiden Stellen identisch sind, wird die Arbeit einfacher.  
+Sie können die gleichen Kontakte sehen in [!INCLUDE[d365fin](includes/d365fin_md.md)] wie in Outlook, wenn Sie die Kontaktsynchronisierung einrichten. Wenn Sie beispielsweise ein Verkäufer sind, können Sie einige Arbeit in Outlook und einige Arbeit in [!INCLUDE[d365fin](includes/d365fin_md.md)] erledigen. Wenn die Kontakte an beiden Stellen identisch sind, wird die Arbeit einfacher.  
 
 Ein dedizierter Ordner in Outlook macht es einfach, Kontakte zu finden, und Sie können einen Filter setzen, um nur die Kontakte von [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisierenen, die Sie in Outlook anzeigen möchten. Sobald die Kontaktsynchronisierung eingerichtet ist, können Sie die Synchronisierung manuell beginnen oder eine automatische Synchronisierung einrichten, die Kontakte nach einem Zeitplan synchronisiert.  
 
@@ -32,13 +32,13 @@ Sobald diese Synchronisierung eingerichtet wurde, werden Änderungen. die Sie an
 Jeder Ihrer Mitarbeiter kann die eigene Exchange-Synchronisierung einrichten und die eigenen Filder für die Synchronisierung von Kontakten einrichten.  
 
 ## <a name="synchronize-contacts"></a>Kontakte synchronisieren
-Wenn Sie es gewohnt sind, in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Kontakten zu arbeiten, dann werden Sie es einfach finden, die Synchronisierung manuell aus der Liste **Kontakte** zu starten, wenn es für Sie passt. Wählen Sie einfach **Synchronisierung mit Office 365** aus, und entscheiden Sie sich dann, wenn Sie den Filter ändern möchten, den Sie eingerichtet haben. Wenn Sie die Schaltfläche OK auswählen, wird die Synchronisierung sofort gestartet und die  letzten Änderungen werden Ihren Kontakten in Outlook hinzugefügt.  
+Wenn Sie es gewohnt sind, in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Kontakten zu arbeiten, dann werden Sie es einfach finden, die Synchronisierung manuell aus der Liste **Kontakte** zu starten, wenn es für Sie passt. Wählen Sie einfach **Synchronisierung mit Office 365** aus, und entscheiden Sie sich dann, wenn Sie den Filter ändern möchten, den Sie eingerichtet haben. Wenn Sie die Schaltfläche OK auswählen, wird die Synchronisierung sofort gestartet und die letzten Änderungen werden Ihren Kontakten in Outlook hinzugefügt.  
 
 In der Liste **Kontakte** können Sie Kontakte auf zwei Wege synchronisieren:
 
 * **Mit Office 365** synchronisieren
 
-  Diese Aktion synchronisiert alle Änderungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu Office 365  seit der letzten Synchronisierung, basierend auf dem letzten Änderungsdatum. Alle neuen Kontakte von Office 365 werden auch wieder in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisiert. Dies ist typischerweise schneller als eine vollständige Synchronisierung.  
+  Diese Aktion synchronisiert alle Änderungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu Office 365 seit der letzten Synchronisierung, basierend auf dem letzten Änderungsdatum. Alle neuen Kontakte von Office 365 werden auch wieder in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisiert. Dies ist typischerweise schneller als eine vollständige Synchronisierung.  
 
 * **Vollständig synchronisieren mit Office 365**
 
@@ -54,4 +54,3 @@ In Outlook werden die Kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)] in ei
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Mittels der Kontakte (Personen) in Outlook im Netz](https://support.office.com/en-us/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
-

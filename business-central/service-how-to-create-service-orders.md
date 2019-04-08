@@ -1,23 +1,23 @@
 ---
-title: "Vorgehensweise: Erstellen von Serviceaufträgen | Microsoft Docs"
-description: "Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben."
+title: 'Vorgehensweise: Erstellen von Serviceaufträgen | Microsoft Docs'
+description: Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: feef01ffa2afa33a91b5db26c94842699c215dab
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799137"
 ---
 # <a name="create-service-orders"></a>Erstellen von Serviceaufträgen
 Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben.  
@@ -110,4 +110,3 @@ Serviceaufträge werden aber nicht automatisch gelöscht, wenn die Gesamtmenge d
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)  
 [Ressourcen zuordnen](service-how-to-allocate-resources.md)  
-

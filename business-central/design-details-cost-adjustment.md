@@ -1,21 +1,21 @@
 ---
 title: 'Designdetails: Kostenanpassung | Microsoft Docs'
-description: "Der vorrangige Zweck der Kostenregulierung besteht darin, Kostenänderungen von Kostenquellen zu Kostenempfängern weiterzuleiten, abhängig von der Kostenbewertungsmethode eines Artikels, um eine korrekte Lagerbewertung zu gewährleisten."
+description: Der vorrangige Zweck der Kostenregulierung besteht darin, Kostenänderungen von Kostenquellen zu Kostenempfängern weiterzuleiten, abhängig von der Kostenbewertungsmethode eines Artikels, um eine korrekte Lagerbewertung zu gewährleisten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798324"
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetails: Kostenregulierung
 Der vorrangige Zweck der Kostenregulierung besteht darin, Kostenänderungen von Kostenquellen zu Kostenempfängern weiterzuleiten, abhängig von der Kostenbewertungsmethode eines Artikels, um eine korrekte Lagerbewertung zu gewährleisten.  
@@ -79,7 +79,7 @@ Da es wichtig ist, den Einstandspreis eines Artikels auf dem neuesten Stand zu h
 
 Unabhängig davon, ob Sie die Kostenregulierung manuell oder automatisch erstellt wurde, der Regulierungsvorgang und seine Auswirkungen sind identisch. [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet den Wert der eingehenden Transaktion und übergibt diese Kosten an alle ausgehenden Vorgängen, wie Verkaufs- oder Verbrauch, die mit der eingehenden Transaktion ausgeglichen wurden. Die Kostenregulierung erstellt Wertposten, die Ausgleichsbeträge und Beträge enthalten, die die Rundung kompensieren.  
 
-Die neuen Ausgleichs- und Rundungswertposten haben das Buchungsdatum der zugehörigen Rechnung. Ausnahmen sind, wenn die Wertposten in eine geschlossene Buchhaltungsperiode oder Lagerbuchungsperiode fallen, oder wenn das Buchungsdatum vor dem Datum im **Buchen ab zulassen**-Feld auf der Seite **Finanzbuchhaltunge einrichten** liegt. Wenn dies auftritt, weist die Stapelverarbeitung das Buchungsdatum als erstes Datum der nächsten offenen Periode zu.  
+Die neuen Ausgleichs- und Rundungswertposten haben das Buchungsdatum der zugehörigen Rechnung. Ausnahmen sind, wenn die Wertposten in eine geschlossene Buchhaltungsperiode oder Lagerbuchhaltungsperiode fallen, oder wenn das Buchungsdatum vor dem Datum im **Buchen ab zulassen**-Feld auf der Seite **Finanzbuchhaltunge einrichten** liegt. Wenn dies auftritt, weist die Stapelverarbeitung das Buchungsdatum als erstes Datum der nächsten offenen Periode zu.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Lagerreg. fakt. Einst. Preise (Stapelverarbeitung)  
 Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge anpassen**, haben Sie die Möglichkeit, den Batchauftrag für alle Artikel oder nur für bestimmte Artikel oder Kategorien zu aktivieren.  
@@ -179,4 +179,3 @@ Wenn Sie die automatische Kostenregulierung so eingerichtet haben, dass Buchunge
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

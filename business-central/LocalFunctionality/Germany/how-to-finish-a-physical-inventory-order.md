@@ -1,23 +1,23 @@
 ---
-title: "Gewusst wie: Einen Inventurauftrag abschließen"
-description: "Nach Abschluss des Inventurauftrags können Sie die Inventurdifferenzen analysieren."
+title: 'Gewusst wie: Einen Inventurauftrag abschließen'
+description: Nach Abschluss des Inventurauftrags können Sie die Inventurdifferenzen analysieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 37583e02c0b2e43ca1273edc8a2b422f8326a92a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 63e6fde45dabd6b327b6736c30523a653165b625
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826743"
 ---
 # <a name="finish-a-physical-inventory-order"></a>So schließen Sie einen Inventurauftrag ab
 Nach Abschluss des Inventurauftrags können Sie die Inventurdifferenzen analysieren.  
@@ -51,4 +51,3 @@ Sie müssen den Status im Inventurauftragskopf erst auf "Beendet" setzen, bevor 
  [So schließen Sie eine Inventurerfassung ab](how-to-finish-a-physical-inventory-recording.md)   
  [Vorgehensweise beim Analysieren von Inventurdifferenzen](how-to-analyze-physical-inventory-differences.md)   
  [Inventurauftragszeilen mit Artikelverfolgungszeilen](physical-inventory-order-lines-with-item-tracking-lines.md)
-

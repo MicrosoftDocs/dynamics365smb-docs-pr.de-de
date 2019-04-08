@@ -2,22 +2,22 @@
 title: 'Vorgehensweise: Einrichten von Arbeits- und Servicezeiten | Microsoft Docs'
 description: Auf einer **Arbeitsplatzgruppenkarte** sind die konstanten Werte und Anforderungen der jeweiligen Fertigungsressource organisiert, und dadurch werden die Istmengen der Fertigung in dieser Arbeitsplatzgruppe gesteuert.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b2db4a7750a9313cc5970ef480518cdbbdca959
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798339"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Arbeitsplätze und Arbeitsplatzgruppen einrichten
 Die Anwendung unterscheidet zwischen drei verschiedenen Arten von Kapazitätseinheiten. Diese sind hierarchisch angeordnet. Jede Ebene enthält die untergeordneten Ebenen.  
@@ -48,22 +48,22 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 
 9.  Legen Sie im Feld **Einstandspreisberechnung** fest, ob der obigen Berechnung die benötigte Zeitspanne (**Zeit**) oder die Anzahl der gefertigten Einheiten (**Einheiten**) zugrunde gelegt werden soll.  
 10.  Wählen Sie das Feld **Spezieller Einstandspreis** aus, wenn der Einstandspreis in der Arbeitsplatzgruppe im relevanten Arbeitsgang definiert werden soll. Dies kann sich als unerlässlich bei Arbeitsgängen mit wesentlich abweichenden Kapazitätskosten erweisen, die normalerweise in dieser Arbeitsplatzgruppe verarbeitet werden.  
-11.  Wählen Sie im Feld **Buchungsmethode** aus, ob der Ausgabebuchung in dieser Arbeitsplatzgruppe manuell oder automatisch mit einer der folgenden Methoden berechnet und gebucht werden soll, indem eine der folgenden Methoden verwendet wird.  
+11.  Wählen Sie im Feld **Buchungsmethode** aus, ob der Ausgabebuchung in dieser Arbeitsplatzgruppe manuell oder automatisch mit einer der folgenden Methoden berechnet und gebucht werden soll, indem eine der folgenden Methoden verwendet wird.
 
-    |Option|Beschreibung|  
-    |----------------------------------|---------------------------------------|  
-    |**Manuell**|Verbrauch wird manuell im FA-Istmeldungs Buch oder im Produktions-Buch.-Blatt gebucht.|
-    |**Vorwärts**|Verbrauch wird automatisch berechenet und gebucht, wenn der Fertigungsftrag freigegeben ist.|  
-    |**Rückwärts**|Verbrauch wird automatisch berechenet und gebucht, wenn der Fertigungsftrag beendet ist.|  
+|Option|Beschreibung|
+|------|-----------|
+|**Manuell**|Verbrauch wird manuell im FA-Istmeldungs Buch oder im Produktions-Buch.-Blatt gebucht.|
+|**Vorwärts**|Verbrauch wird automatisch berechenet und gebucht, wenn der Fertigungsftrag freigegeben ist.|
+|**Rückwärts**|Verbrauch wird automatisch berechenet und gebucht, wenn der Fertigungsftrag beendet ist.|
 
-    > [!NOTE]  
-    >  Gegebenenfalls kann die hier und auf der **Artikelkarte** ausgewählte Buchungsmethode für einzelne Arbeitsgänge überschrieben werden, indem die Einstellungen für Arbeitsgänge geändert wird.
+> [!NOTE]
+> Gegebenenfalls kann die hier und auf der **Artikelkarte** ausgewählte Buchungsmethode für einzelne Arbeitsgänge überschrieben werden, indem die Einstellungen für Arbeitsgänge geändert wird.
 
 12.  Geben Sie im Feld **Einheitencode** die Zeiteinheit ein, die bei der Kostenberechnung und der Kapazitätsplanung der Arbeitsplatzgruppe zugrunde gelegt werden soll.
     Um regelmäßig den Verbrauch erfassen zu können, müssen Sie zunächst die Buchungsmethode einrichten. Die Einheiten, die Sie eingeben, sind Basiseinheiten. Die Bearbeitungszeit wird z. B. in Stunden und Minuten gemessen.
 
-    > [!NOTE]  
-    > Beachten Sie bei der Verwendung von Tagen, dass 1 Tag 24 Stunden und nicht 8 (Arbeitsstunden) hat.
+> [!NOTE]  
+> Beachten Sie bei der Verwendung von Tagen, dass 1 Tag 24 Stunden und nicht 8 (Arbeitsstunden) hat.
 
 13.  Geben Sie im Feld **Kapazität** an, ob in der Arbeitsplatzgruppe mehrere Personen bzw. Maschinen gleichzeitig eingesetzt werden. Wenn in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Installation das Element "Arbeitsplatz" nicht enthalten ist, muss in diesem Feld der Wert **1** festgelegt sein.  
 14.  Geben Sie im Feld **Effektivität** an, wie hoch die tatsächliche Effektivität der Arbeitsplatzgruppe prozentual hinsichtlich der erwarteten Standardeffektivität ist. Wenn Sie **100** eingeben, bedeutet dies, dass die Isteffektivität der Arbeitsplatzgruppe mit der Standardeffektivität übereinstimmt.  
@@ -106,4 +106,3 @@ Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, das
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
 title: Nutzung von Business Central with Outlook| Microsoft Docs
-description: "Dieser Service hat eine starke Integration mit Office 365 und macht es möglich, dass Sie Ihre Geschäftsaktivitäten und E-Mails mit Debitoren und Kreditoren direkt in Outlook verwalten können."
+description: Dieser Service hat eine starke Integration mit Office 365 und macht es möglich, dass Sie Ihre Geschäftsaktivitäten und E-Mails mit Debitoren und Kreditoren direkt in Outlook verwalten können.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 12/10/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: a91f2d34cd023994dcd8eb67a9360d50d2cf3747
-ms.contentlocale: de-de
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798653"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt die Möglichkeit vor, Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. Mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, sowie Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.  
@@ -23,9 +23,9 @@ ms.lasthandoff: 12/11/2018
 ## <a name="getting-the-add-in"></a>Das Add-in abrufen
 Die ersten Schritte sind einfach mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-In für Outlook. Mit dem unterstützten Setup **Richten Sie Ihren Geschäfts-Eingang in Outlook ein** können Sie die Verbindung für sich oder für Ihre Organisation einrichten. Wenn Ihre Organisation Office 365 verwendet, müssen Sie Ihren Office 365 Benutzernamen und das Kennwort angeben. Wenn Ihre Organisation Office 365 nicht verwendet, müssen Sie die Informationen über dem Exchange-Server definieren, den Sie verwenden. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt.  
 
-Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht von Dynamics 365 Business Central Admin. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können es im [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-In-Menüband unmittelbar über dem Text der E-Mail sehen. Das Add-In selbst wird regelmäßig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
+Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht von Dynamics 365 Business Central Admin. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Add-Ins unmittelbar über oder unter dem Text der E-Mail sehen. Das Add-In selbst wird regelmäßig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
 
-Einige Unternehmen, die Office 365 verwenden, grenzen die Berechtigungen der Benutzer ein, Add-Ins bereitzustellen. Daher müssen Sie sicherstellen, ob Sie ein Office 365-Abonnement haben, die E-Mail enthält und Ihnen ermöglicht, Add-Ins bereitzustellen. Wenn Sie das Add-In testen möchten, können Sie es in Ve [Office 365 kostenlos testen](https://products.office.com/try).  
+Einige Unternehmen, die Office 365 verwenden, grenzen die Berechtigungen der Benutzer ein, Add-Ins bereitzustellen. Daher müssen Sie sicherstellen, ob Sie ein Office 365-Abonnement haben, die E-Mail enthält und Ihnen ermöglicht, Add-Ins bereitzustellen. Wenn Sie das Add-In testen möchten, können Sie es in [Office 365 kostenlos testen](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Nutzung des Contact Insights Add-In
 Angenommen Sie erhalten eine E-Mail von einem Debitor, der für einige Artikel ein Angebot möchte. Sie können direkt in Outlook das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Add-In öffnen, das den Sender als Debitoren identifiziert und die Debitorenkarte für das Unternehmen öffnet. Auf diesem Dashboard können Sie Übersichtsinformationen zum Debitor sehen, sowie weitere Details zu bestimmten Belegen anzeigen. Sie können sich auch die Verkaufshistorie für den Debitor anzeigen lassen. Wenn es ein neuer Debitor ist, können Sie ihn als neuen Debitor in Outlook erstellen, [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outlook zu verlassen.  
@@ -64,4 +64,3 @@ In beiden Fällen müssen Sie, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)
 [Finanzen](finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-

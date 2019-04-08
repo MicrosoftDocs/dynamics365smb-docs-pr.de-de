@@ -1,8 +1,8 @@
 ---
-title: "Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird | Microsoft Docs"
+title: Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird | Microsoft Docs
 description: Erfahren Sie mehr zum Eingeben eines Berichts in eine Aufgabenwarteschlange und das Planen der Verarbeitung an einem bestimmten Datum und Uhrzeit.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,20 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852424"
 ---
-# <a name="working-with-reports"></a>Arbeiten mit Berichten
+# <a name="working-with-reports-and-batch-jobs"></a>Arbeiten mit Berichten und Stapelverarbeitungen
 Ein Bericht stellt Informationen auf Basis eines bestimmten Satz an Kriterien zusammen und unterteilt die Informationen in ein einfach zu lesendes, druckbares Format. Es gibt viele Berichte, auf die Sie im Zuge der Anwendung zugreifen können. Die Berichte stellen in der Regel Informationen proportional zu dem Kontext der Seite bereit, auf der Sie sich befinden. Beispielsweise der **Debitor** für die Seite Berichte Top 10 Debitoren und die Verkaufsstatistik und mehr.
+
+Stapelverarbeitungen machen mehr oder weniger das gleiche wie Berichte, aber mit dem Ziel der Durchführung eines Vorgangs. Die Stapelverarbeitung **Mahnungen erstellen** erstellt beispielsweise Mahnungsbelege für Debitoren mit überfälligen Zahlungen.  
+
+> [!NOTE]
+> Dieses Thema bezieht sich hauptsächlich auf "Bericht", aber die gleichen Informationen gelten für Stapelverarbeitungen.
 
 Auf der Registerkarte **Berichte** finden Sie Berichte über ausgewählte Seiten, oder Sie können die Suche ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "„Wie möchten Sie weiter verfahren“") verwenden, um Berichte nach Name zu suchen.
 
@@ -29,6 +34,10 @@ Auf der Registerkarte **Berichte** finden Sie Berichte über ausgewählte Seiten
 Wenn Sie einen Bericht öffnen, wird in der Regel eine Seite dargestellt, mit der Sie bestimmte Informationen definieren können, die Sie im Bericht integrieren möchten. Diese Seite ist die Berichtanfordearungsseite. Beispielsweise können mit der Seite Bericht anfordern einen Bericht für einen bestimmten Debitor oder eine bestimmte Gültigkeit erstellen oder die Anordnung der Informationen im Bericht sortieren. Hier ist ein Beispiel einer Berichtsanforderungsseite:
 
 ![Berichtsoptionen](media/report_options.png "Berichtsoptionen")
+
+> [!Caution]
+> Der Abschnitt **Ergebnisse anzeigen** auf der Anforderungsseite stellt eine generische Filterungsfunktion für Berichte bereit. Diese Filter sind optional.<br /><br /> Manche Berichte ignorieren solche Filter, was bedeutet, dass, egal welcher Filter im Abschnitt **Ergebnisse anzeigen** festgelegt ist, das Ergebnis des Berichts gleich ist. Es ist nicht möglich, eine Übersicht zu bieten, welche Felder in welchen Berichten ignoriert werden, daher müssen Sie mit den Filtern experimentieren, wenn Sie sie verwenden.<br /><br />
+**Beispiel**: Wenn Sie die Stapelverarbeitung **Mahnungen erstellen** verwenden, wird ein Filter für das Feld **Debitorenposten** aus **Letzte registrierte Mahnstufe** ignoriert, da Filter für diese Stapelverarbeitung fest sind.
 
 ### <a name="SavedSettings"></a>Gespeicherte Einstellungen nutzen
 Bei gewissen Berichten, abhängig davon, wie sie eingerichtet sind, umfasst die Berichtsseite möglicherweise einen Bereich **Gespeicherte Einstellungen**, der ein oder mehrere Posten im Kästchen **Standardwert nutzen** enthält. Die Posten in diesem Feld wird *gespeicherte Einstellungen* genannt. Eine gespeicherte Einstellung ist im Allgemeinen eine vordefinierte Gruppe von Optionen und Filter, die Sie z. B. für Berichte anwenden können, bevor Sie den Bericht auf eine Datei in der Vorschau sehen oder buchen. Der gespeicherte Einstellungseintrag mit der Bezeichnung **Zuletzt verwendete Optionen und Filter** ist immer verfügbar. Dieser Posten setzt den Bericht mit den Optionen und Filtern, die Sie beim letzten Mal verwendet haben, als Sie den Bericht betrachteten.
@@ -47,9 +56,9 @@ Sie können weitere Filter hinzufügen, indem Sie die Felder **Hinzufügen** fes
 
 Abhängig davon, in welchem Feld Sie filtern, können Sie die gewünschten Filterkriterien festlegen, um nach einer exakten Sprachgruppe, einer teilweisen Übereinstimmung, einem Datenbereich und mehr suchen. Informationen zur Einrichtung von Filtern finden Sie unter:
 -   [Filterung](ui-enter-criteria-filters.md#FilterCriteria)
--   [Datenbereiche eingeben](ui-enter-date-ranges.md)
+-   [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md)
 
-## <a name="previewing-a-report"></a>So zeigen Sie eine Berichtvorschau an:
+## <a name="previewing-a-report"></a>Einen Bericht anzeigen
 Wählen Sie **Vorschau**, um den Bericht im Internetbrowser anzuzeigen. Anzeigen auf einem Bereich des Berichts, um ihn auf der Menüleiste anzuzeigen.  
 
 ![Berichtsvorschausymbolleiste](media/report_viewer.png "Berichtsvorschausymbolleiste")
@@ -61,7 +70,7 @@ Verwenden der Menüleiste:
 -   An die Seite anpassen
 -   Text auswählen
 
-    Sie können Text aus einem Bericht kopieren und fügen diesen dann an einem anderen Ort oder in [!INCLUDE[d365fin](includes/d365fin_md.md)] Microsoft Word ein.  Mithilfe einer Maus beispielsweise drücken und halten Sie, wo Sie beginnen möchten, und fahren dann mit der Maus, um einen oder mehrere Begriffe, Sätze oder Absätze auszuwählen. Sie können die rechte Maustaste drücken dann **Kopieren** auswählen. Sie können dann den ausgewählten Text kopieren.
+    Sie können Text aus einem Bericht kopieren und diesen dann woanders einfügen, z. B. eine Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] oder Microsoft Word.  Mithilfe einer Maus beispielsweise drücken und halten Sie, wo Sie beginnen möchten, und fahren dann mit der Maus, um einen oder mehrere Begriffe, Sätze oder Absätze auszuwählen. Sie können die rechte Maustaste drücken dann **Kopieren** auswählen. Sie können dann den ausgewählten Text kopieren.
 -   Beleg verschieben
 
     Sie können den sichtbaren Bereich des Berichts in beliebiger Richtung verschieben, daher können Sie weitere Bereiche oder den Bericht anzeigen. Dies ist hilfreich, wenn Sie gezoomt haben, um Details anzuzeigen.  Mithilfe der Maus beispielsweise drücken und halten Sie die Maustaste an einem beliebigen Ort in der Berichtsvorschau und bewegen Sie dann Ihre Maus.
@@ -71,7 +80,7 @@ Verwenden der Menüleiste:
 
 
 ## <a name="saving-a-report"></a>Speichern des Berichts
-Sie können einen Bericht in ein PDF-Dokument, Microsoft Word Dokument oder Microsoft Excel-Dokument speichern, indem Sie **Senden an** auswählen, und anschließend Ihre Auswahl treffen.
+Sie können einen Bericht in ein PDF-Dokument, Microsoft Word-Dokument oder Microsoft Excel-Dokument speichern, indem Sie **Senden an** auswählen, und anschließend Ihre Auswahl treffen.
 
 ## <a name="ScheduleReport"></a> Planen der Ausführung eines Berichts
 Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. Geplante Berichte werden in der Projektwarteschlange eingegeben und zu der geplanten Zeit verarbeitet, wie vergleichbare andere Aufträge auch. Sie können auswählen, ob Sie den verarbeiteten Bericht speichern möchten, beispielsweise als Excel-, Word- oder PDF-Datei, ihn auf einem ausgewählten Drucker auszugeben, oder ihn nur zu verarbeiten. Wenn Sie wählen, den Bericht in eine Datei zu speichern, wird der verarbeitete Bericht an den **Berichts-Eingang** an Ihr Rollencenter gesendet, wo Sie ihn anzeigen können.
@@ -88,4 +97,3 @@ Ein Berichtslayout steuert, was in einem Bericht angezeigt wird, wie er angeordn
 [Angeben der Druckerauswahl für Berichte](ui-specify-printer-selection-reports.md)  
 [Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

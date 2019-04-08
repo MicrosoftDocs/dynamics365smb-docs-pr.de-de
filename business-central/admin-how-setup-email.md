@@ -1,7 +1,7 @@
 ---
 title: E-Mail in Business Central einrichten | Microsoft Docs
 description: 'Beschreibung: Beschreibt, wie der SMTP-Server des Unternehmens verwendet wird, um in Business Central E-Mail zu senden und zu empfangen und wie die E-Mail-Servereinstellungen verwendet werden, die im Office 365 Abonnement erstellt wurden.'
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798851"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Richten Sie E-Mail Nachricht manuell oder mit der unterstützten Einrichtung ein
 Um E-Mails aus [!INCLUDE[d365fin](includes/d365fin_md.md)] zu senden und zu erhalten, müssen Sie die Felder auf der Seite **SMTP-Mail-Einrichtung** ausfüllen.
@@ -40,4 +40,3 @@ Sie können E-Mails entweder manuell einrichten oder Sie können die unterstütz
 [Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Abrufen von [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)
-

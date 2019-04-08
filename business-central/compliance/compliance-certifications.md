@@ -1,22 +1,22 @@
 ---
 title: Zertifizierung | Microsoft Docs
-description: "Dieser Inhalt enthält Informationen über Zertifizierungen in Bezug auf Business Central."
+description: Dieser Inhalt enthält Informationen über Zertifizierungen in Bezug auf Business Central.
 author: sorenfriisalexandersen
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: a18bf59c9b1cfd5008d99e521109fb7d29efaf48
-ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798427"
 ---
 # <a name="certifications"></a>Bescheinigungen  
 Dieser Inhalt enthält Informationen über Zertifizierungen in Bezug auf [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -40,4 +40,3 @@ Business Central als Clouddienst hat auch eine Zertifizierung wie ISO 27001 und 
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
-

@@ -1,21 +1,21 @@
 ---
 title: 'Gewusst wie: Einrichten des Senden und Empfangen von elektronischen Bele | Microsoft Docsgen'
-description: "Als Alternative zu E-Mail-Dateianhängen können Sie Geschäftsbelegen elektronisch versenden und empfangen."
+description: Als Alternative zu E-Mail-Dateianhängen können Sie Geschäftsbelegen elektronisch versenden und empfangen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/04/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799144"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Einrichten des Senden und Empfangen von elektronischen Belegen
 Als Alternative zu E-Mail-Dateianhängen können Sie Geschäftsbelegen elektronisch versenden und empfangen. Ein elektronischer Beleg ist eine normgerechte \-, die ein Geschäftsdokument darstellt (zum Beispiel eine Rechnung von einem Kreditor), die empfangen und in [!INCLUDE[d365fin](includes/d365fin_md.md)] in eine Einkaufsrechnung konvertieren kann. Der Austausch von elektronischen Belegen zwischen zwei Handelspartnern erfolgt über einen externen Anbieter eines Belegaustauschdiensts. Die allgemeine Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt das Senden und Empfangen von elektronischen Rechnungen und Gutschriften im PEPPOL-Format, das von den größten Anbietern von Belegaustauschdiensten unterstützt wird. Ein wichtiger Anbieter eines Belegaustauschdienstes ist vorkonfiguriert und kann für Ihren Mandanten eingerichtet werden.  
@@ -140,4 +140,3 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 [Daten elektronisch austauschen](across-data-exchange.md)   
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)   
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)
-

@@ -1,24 +1,24 @@
 ---
-title: "Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER"
-description: "In Business Central können Sie Steuerbelege und MwSt.-Abrechnungen, wie die Umsatzsteuervoranmeldung, an das Finanzamt elektronisch übermitteln."
+title: Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER
+description: In Business Central können Sie Steuerbelege und MwSt.-Abrechnungen, wie die Umsatzsteuervoranmeldung, an das Finanzamt elektronisch übermitteln.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5e8dfa9572b84360bfcc5087bc3b0b9b9ed9182f
 ms.openlocfilehash: 18570e4a0521da27eaf9b0ffa5dd301b07bcfe69
-ms.contentlocale: de-de
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826695"
 ---
 # <a name="electronic-submission-of-sales-vat-advance-notifications-to-elster"></a>Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie Steuerbelege und MwSt.-Abrechnungen, wie die Umsatzsteuervoranmeldung, an das Finanzamt elektronisch übermitteln.  
@@ -77,4 +77,3 @@ Nachdem Sie ein Dokument an ELSTER gesendet haben, wird ein Eintrag auf der Seit
  [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
  [Gewusst wie: Erstellen und Senden von Umsatzsteuervoranmeldungen](how-to-create-and-submit-sales-vat-advance-notifications.md)   
  [ELSTER-Onlineportal](https://go.microsoft.com/fwlink/?LinkId=155998)
-

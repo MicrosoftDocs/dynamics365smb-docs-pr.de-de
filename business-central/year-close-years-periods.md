@@ -1,8 +1,8 @@
 ---
-title: "Abschließen der Buchhaltungsperioden für ein Geschäftsjahr | Microsoft Docs"
-description: "Gliedert die Aufgaben, um ein Geschäftsjahr abzuschließen oder Buchhaltungsperiode, beispielsweise der Belege und die Buch.-Blätter sind vergewissernd gebucht überprüfend und Bankguthaben."
+title: Abschließen der Buchhaltungsperioden für ein Geschäftsjahr | Microsoft Docs
+description: Gliedert die Aufgaben, um ein Geschäftsjahr abzuschließen oder Buchhaltungsperiode, beispielsweise der Belege und die Buch.-Blätter sind vergewissernd gebucht überprüfend und Bankguthaben.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798004"
 ---
 # <a name="closing-years-and-periods"></a>Beenden von Jahresabschluss und Perioden
 Am Ende eines Geschäftsjahrs gibt es einige Verwaltungsaufgaben, die Sie ausführen müssen, wie das Sicherstellen, dass alle Belege und Buch.-Blätter gebucht sind und dass alle Währungsdaten aktuell sind, die Bücher abschließen und weiteres. Die tatsächlichen Aufgaben hängen von Ihrem Unternehmen ab.
@@ -42,4 +42,3 @@ Die folgende Tabelle enthält einen Überblick über die Aufgaben, die Sie übli
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

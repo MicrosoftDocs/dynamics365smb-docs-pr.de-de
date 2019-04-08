@@ -1,23 +1,23 @@
 ---
 title: Lieferbenachrichtigungen
-description: "Lieferbenachrichtigung werden verwendet, um überfällige Kreditorenlieferungen zu verfolgen und um  Kreditoren an überfällige Lieferungen zu erinnern."
+description: Lieferbenachrichtigung werden verwendet, um überfällige Kreditorenlieferungen zu verfolgen und um  Kreditoren an überfällige Lieferungen zu erinnern.
 ms.service: dynamics365-business-central
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 services: project-madeira
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 51960d3a3e58f2bbbbfcb0ed6741b80968e2dd7d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4a8a56fb8dd6f9d5f9e8487bd9d64cd4080797fa
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826681"
 ---
 # <a name="delivery-reminders"></a>Lieferbenachrichtigungen
 Lieferbenachrichtigung werden verwendet, um überfällige Kreditorenlieferungen zu verfolgen und um  Kreditoren an überfällige Lieferungen zu erinnern. Um Lieferbenachrichtigung zu erstellen, müssen Sie Folgendes einrichten:  
@@ -57,4 +57,3 @@ Weitere Informationen finden Sie unter [Vorgehensweise: Drucken von Testberichte
  [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)   
  [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)   
  [So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md)
-

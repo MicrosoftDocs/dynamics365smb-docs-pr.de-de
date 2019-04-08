@@ -1,6 +1,6 @@
 ---
-title: "Unternehmens-Funktionen unterstützt durch Business Central| Microsoft Docs"
-description: "Stellt eine Funktion für alle Abteilungen und Geschäftsfunktionen bereit, die durch Anwendungsbereichen wie z. B. Finanzen, Lager und Projektmanagement unterstützt werden."
+title: Unternehmens-Funktionen unterstützt durch Business Central| Microsoft Docs
+description: Stellt eine Funktion für alle Abteilungen und Geschäftsfunktionen bereit, die durch Anwendungsbereichen wie z. B. Finanzen, Lager und Projektmanagement unterstützt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
-ms.contentlocale: de-de
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798428"
 ---
 # <a name="business-functionality"></a>Geschäftsfunktionen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik.
@@ -47,4 +47,3 @@ ms.lasthandoff: 01/22/2019
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

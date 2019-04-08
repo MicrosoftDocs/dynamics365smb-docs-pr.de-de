@@ -1,7 +1,7 @@
 ---
 title: Konsolidieren Sie Daten aus mehreren Unternehmen | Microsoft Docs
-description: "Verschaffen Sie sich die Zusammenfassungsansicht des Finanzstatus über Ihr Unternehmen."
-documentationcenter: 
+description: Verschaffen Sie sich die Zusammenfassungsansicht des Finanzstatus über Ihr Unternehmen.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: bholtorf
+ms.openlocfilehash: feda9d1f681c40746db488027fdd8ae1d06a4d94
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832597"
 ---
-
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidieren von Finanzdaten aus mehreren Unternehmen
 Wenn Sie mehr als einen Mandanten haben [!INCLUDE[d365fin](includes/d365fin_md.md)], kann der konsolidierte Rohbilanz-Bericht im Buchhalter Rollen-Center Ihnen einen Überblick über den Finanzstatus Ihres Gesamtgeschäfts geben.  
 
@@ -56,7 +55,10 @@ Wenn Sie erweitertere Einstellungen für die Konsolidierung benötigen, können 
 
 1. Melden Sie sich im Konsolidierungsmandanten an.
 2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Businesseinheiten** ein, und wählen dann den zugehörigen Link aus.  
-3. Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus.  
+3. Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!IMPORTANT]
+> Wenn Sie die Felder **Startdatum** und **Enddatum** ausfüllen, stellen Sie sicher, in die GAAP-Regeln zu Abrechnungszeiträumen des Konzernmandanten gegenüber der Muttergesellschaft einzuwilligen.
 
 Wenn der Konzernmandant eine Fremdwährung verwendet, müssen Sie den Wechselkurs angeben, der in der Konsolidierung verwendet werden soll. Sie müssen auch Konsolidierungdaten über die Sachkonten der Konzernmandanten angeben. In den folgenden Abschnitten werden diese Prozesse erläutert.
 
@@ -120,7 +122,31 @@ Nachdem Sie Ihre Daten geteste haben, können Sie diese an den Konsolidierungsma
 1. Melden Sie sich im Konsolidierungsmandanten an.  
 2. Im Feld **Buchhalter-Rollencenter** wählen Sie Rollencenter **Konsolidierung ausführen** Aktion aus.  
 3. Füllen Sie die entsprechenden Felder aus.  
-4. Wählen Sie im Feld **Won**, in der Spalte **Unternehmensnamen.** wählen Sie das konsolidierte Unternehmen im Feld **ist** aus.  
+4. Wählen Sie im Feld **Won**, in der Spalte **Unternehmensnamen.** wählen Sie das konsolidierte Unternehmen im Feld **ist** aus.
+
+## <a name="to-eliminate-repeated-transactions"></a>So verhindern Sie wiederholte Transaktionen
+Nachdem sämtliche Mandanten konsolidiert wurden, müssen Sie alle Transaktionen suchen, die in mehreren Mandanten einmal aufgezeichnet wurden, und dann Eliminierungsposten buchen, um sie zu entfernen.
+
+Durchführen der Konsolidierungseliminierungen ist ein manuelles Verfahren. Sie können die folgenden Schritte ausführen:
+1. Suchen Sie Transaktionen, die eventuell korrigiert werden müssen, und geben Sie Fibu Buch.-Blattzeilen ein, um sie zu beseitigen.
+2. Führen Sie den Bericht **Konsolidierungseliminierungen** aus, um Ihnen zu helfen, die Auswirkungen der Fibu Buch.-Blattzeilen zu bewerten, bevor Sie buchen.
+3. Buchen Sie die Regulierungstransaktionen.
+
+Der Bericht **Konsolidierungseliminierungen** enthält eine vorläufige Rohbilanz, d. h., er zeigt eine Simulation der aus der Eliminierung der Posten hervorgegangenen Ergebnisse. Hierzu werden die Posten des Konsolidierungsmandanten mit den Eliminierungen verglichen, die in das Fibu Buch.-Blatt eingegeben wurden, in dem sie nachfolgend gebucht werden.
+
+Bevor ein Konzernmandant in dem Bericht berücksichtigt werden kann, muss er auf der Seite **Konzernmandanten** eingerichtet werden und das Feld **Konsolidieren** muss ausgewählt werden.
+
+Jedes Konto erscheint in einer eigenen Zeile entsprechend der Struktur im Kontenplan. Ein Konto wird nicht angezeigt, wenn alle Beträge in der Zeile Null sind. Folgende Informationen werden für jedes Konto angegeben:
+
+* Kontonummer
+* Kontoname.
+* Wenn Sie im Feld **Konzernmandantencode** auf der Anforderungsseite einen oder mehrere Konzernmandantencodes angegeben haben, wird für den Konsolidierungsmandanten eine Summe angezeigt, in der die gewählten Konzernmandanten und Eliminierungen nicht enthalten sind. Wenn Sie das Feld **Konzernmandantencode** nicht ausgefüllt haben, wird für den Konsolidierungsmandanten eine Summe angezeigt, in der nur die Eliminierungen nicht enthalten sind.
+* Wenn Sie im Feld **Konzernmandantencode** auf der Anforderungsseite einen Konzernmandantencode angegeben haben, wird eine Summe für die importierten Posten des Konzernmandanten angezeigt. Wenn Sie das Feld **Konzernmandantencode** nicht ausgefüllt haben, wird eine Summe der gebuchten Eliminierungen des Konsolidierungsmandanten angezeigt.
+* Die Endsumme für den Konsolidierungsmandanten mit allen Konzernmandanten und allen gebuchten Eliminierungen.
+* Die Eliminierungen, die im Konsolidierungsmandanten durchgeführt werden müssen. Das sind die Posten des Fibu Buch.-Blattes, das auf der Anforderungsseite ausgewählt wurde.
+* Der aus dem Fibu Buch.-Blatt kopierte Buchungstext.
+* Die Endsumme für den Konsolidierungsmandanten nach Durchführung der Eliminierungen, soweit diese gebucht wurden.
+
 
 ## <a name="to-export-and-import-consolidated-data-between-databases"></a>Um konsolidierte Daten zwischen Datenbanken zu exportieren oder importieren
 Wenn sich ein Konzernmandant in einer anderen Datenbank befindet, müssen Sie die Konsolidierungsdaten in eine Datei exportieren, bevor diese konsolidiert werden können. Jeder Mandant muss separat konsolidiert werden. Zu diesem Zweck wird in der Anwendung die Stapelverarbeitung **Konsolidierung exportieren** verwendet.  
@@ -138,4 +164,3 @@ Die exportierten Posten enthalten die folgenden Felder: **Kontonr.**, **Buchungs
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)
-

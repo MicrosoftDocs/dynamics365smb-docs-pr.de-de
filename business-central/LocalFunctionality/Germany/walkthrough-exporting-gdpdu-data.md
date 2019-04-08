@@ -1,23 +1,23 @@
 ---
-title: "Wie Sie Daten für eine Digital-Überwachung exportieren"
-description: "Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel."
+title: Wie Sie Daten für eine Digital-Überwachung exportieren
+description: Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 261ed9a68e627e5887440488329174db79344ec4
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826765"
 ---
 # <a name="walkthrough-exporting-data-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung exportieren
 Sie können Geschäftsdaten für Überwachungszwecke exportieren. Die Einrichtung des Datenexportes unterscheidet sich von anderen Unternehmen und Sie sollten Ihren Steuerberater und den Steuerprüfer um Rat fragen. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.  
@@ -34,13 +34,13 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 ## <a name="prerequisites"></a>Voraussetzungen  
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
-- Die deutschen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] mit dem CRONUS AG Demonstrations-Mandanten.
+- Die deutsche Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] mit dem CRONUS AG-Demounternehmen.
 - Die .DTD-Datei, die gemäß GDPdU erforderlich ist. In diesem Szenario **gdpdu-01-08-2002.dtd**.  
 
 ## <a name="story"></a>Hintergrund  
-Cassie ist Buchhalterin bei CRONUS AG. Sie wurde vom Steuerprüfer des Unternehmens benachrichtigt, dass diese eine Liste der Bestellungs- und Verkaufstransaktionen im ersten Quartal des Kalenderjahres 2013 einsehen wollen. Cassie kennt die Art der Finanzdaten, die der Prüfer möchte, aber sie benötigt die Hilfe von Sean, um den Export einzurichten.  
+Cassie ist Buchhalterin bei der CRONUS AG. Sie wurde vom Steuerprüfer des Unternehmens benachrichtigt, dass diese eine Liste der Bestellungs- und Verkaufstransaktionen im ersten Quartal des Kalenderjahres 2013 einsehen wollen. Cassie kennt die Art der Finanzdaten, die der Prüfer möchte, aber sie benötigt die Hilfe von Sean, um den Export einzurichten.  
 
-Sean ist ein Hauptbenutzer mit CRONUS AG. Er versteht, wie die Daten technisch mit Tabellen und Feldern eingerichtet werden. Daher unterstützt er normalerweise Cassie, die Datenexporte für die Prüfer einzurichten. Von anderen Datenexporten weiß er, dass das Werkzeug, das die Prüfer verwenden, einige Anforderungen hat, was die exportierten Dateien enthalten müssen, aber er braucht die Hilfe von Cassie, um genau festzulegen, welche Daten benötigt werden.  
+Sean ist ein Hauptbenutzer der CRONUS AG. Er versteht, wie die Daten technisch mit Tabellen und Feldern eingerichtet werden. Daher unterstützt er normalerweise Cassie, die Datenexporte für die Prüfer einzurichten. Von anderen Datenexporten weiß er, dass das Werkzeug, das die Prüfer verwenden, einige Anforderungen hat, was die exportierten Dateien enthalten müssen, aber er braucht die Hilfe von Cassie, um genau festzulegen, welche Daten benötigt werden.  
 
 ## <a name="defining-the-requirements"></a>Festlegen der Anforderungen  
 Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie um Einsicht in Transaktionen mit Debitoren und Kreditoren gebeten. Daher weiß sie, dass sie Daten aus der Debitoren-, Kreditoren- und der Finanzbuchhaltung benötigt.  
@@ -282,4 +282,3 @@ Wenn die Steuerprüfer das nächste Mal neue Daten anfordern, können Cassie und
  [Wie Sie Daten für eine Digital-Überwachung einrichten](how-to-set-up-data-exports-for-digital-audits.md)   
  [Wie Sie Daten für eine Digital-Überwachung exportieren](how-to-export-data-for-a-digital-audit.md) 
  
-

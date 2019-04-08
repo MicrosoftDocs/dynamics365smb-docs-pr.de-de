@@ -1,23 +1,23 @@
 ---
-title: "Gewusst wie: Leihgeräte einrichten | Microsoft Docs"
-description: "Sie können Leihgeräte einrichten, die Sie einem Debitor ausleihen können, wenn er Serviceartikel im Service hat."
+title: 'Gewusst wie: Leihgeräte einrichten | Microsoft Docs'
+description: Sie können Leihgeräte einrichten, die Sie einem Debitor ausleihen können, wenn er Serviceartikel im Service hat.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798110"
 ---
 # <a name="set-up-a-loaner-program"></a>Einrichten eines Leihgeräteprogramms
 Gelegentlich muss einem Debitor ein Leihgerät zur Verfügung gestellt werden, wenn das Debitorendienstteam eine Reparatur durchführt. Mithilfe von [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ein Leihgerätprogramm einrichten, Ihren Debitoren Artikel ausleihen, und die Rückgabe der Artikel verfolgen. Darüber hinaus können Sie Bemerkungen über Leihgeräte in einer von zwei Arten hinzuzufügen:  
@@ -36,5 +36,4 @@ Gelegentlich muss einem Debitor ein Leihgerät zur Verfügung gestellt werden, w
 [Leihen und Zurücknehmen von Leihgeräten](service-how-to-lend-receive-loaners.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Bereitstellen von Service](service-deliver-service.md)  
-
 

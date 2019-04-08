@@ -1,7 +1,7 @@
 ---
-title: Verwalten von Debitoren, die Dynamics 365 for Sales nutzen| Microsoft Docs
-description: "Sie können Dynamics 365 for Sales aus Business Central nutzen, um Daten zu verknüpfen und eine nahtlose Integration und Synchronisation der führenden Prozesse sicherzustellen."
-documentationcenter: 
+title: Verwalten von Debitoren mit Dynamics 365 for Sales| Microsoft Docs
+description: Sie können Dynamics 365 for Sales aus Business Central nutzen, um Daten zu verknüpfen und eine nahtlose Integration und Synchronisation der führenden Prozesse sicherzustellen.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 01/24/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
-ms.contentlocale: de-de
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799296"
 ---
-# <a name="integrating-with-dynamics-365-for-sales"></a>Dynamics 365 for Sales Integration
-Wenn Sie Dynamics 365 for Sales für Debitorenverpflichtung verwenden, können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Prozesse und Finanzen verwenden und eine nahtlose Integration in bargeldlose Prozesse haben.
+# <a name="integrating-with-dynamics-365-for-sales"></a>Integrieren in Dynamics 365 for Sales
+Wenn Sie Dynamics 365 for Sales for Customer Engagement verwenden, können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Auftragsverarbeitung und Finanzen verwenden und eine nahtlose Integration in bargeldlose Prozesse haben.
 
 > [!NOTE]
 > In diesem Thema wird davon ausgegangen, dass sowohl [!INCLUDE[d365fin](includes/d365fin_md.md)] und die integrierte Verkaufs-Lösung in der SaaS-Umgebung bereitgestellt werden. Das kombinieren von Online und lokal ist jedoch möglich, erfodert aber besondere Konfiguration. Weitere Informationen finden Sie unter [Vorbereiten der Integration in Dynamics 365 for Sales lokal](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
@@ -31,7 +31,7 @@ Beispielsweise kann der Verkäufer in Sales die Preislisten verwenden aus [!INCL
 Andererseits können Auftragsbearbeiter in [!INCLUDE[d365fin](includes/d365fin_md.md)] die speziellen Eigenschaften aus automatisch oder manuell übertragenen Verkaufsaufträgen von Sales behandeln, wie Verkaufsaufträge für Artikel oder Ressourcen, die in Sales als geschriebene Produkte eingegeben wurden, erstellen und verbuchen. Weitere Informationen finden Sie im Abschnitt "Behandlungs-der speziellen Verkaufsauftrags-Daten".
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] integriert nur mit Dynamics 365 for Sales. Auf andere Anwendungen oder Lösungen in Dynamics 365, die den Standardworkflow oder das Datenmodell in Sales ändern, zum Beispiel, Project Service Automation, können die Integration zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und Sales unterbrechen.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] kann nur in Dynamics 365 for Sales integriert werden. Auf andere Anwendungen oder Lösungen in Dynamics 365, die den Standardworkflow oder das Datenmodell in Sales ändern, zum Beispiel, Project Service Automation, können die Integration zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und Sales unterbrechen.
 
 ## <a name="standard-sales-entity-mapping-for-synchronization"></a>Standard-Sales-Entitätszuordnungen für die Synchronisierung
 Sales-Einheiten, wie beispielsweise Konten, werden mit den entsprechenden [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensatztypen, wie beispielsweise Debitoren, integriert. Um mit -Sales-Daten zu arbeiten, richten Sie Kopplungen zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensätzen und Sales-Einheitendatensätzen ein. Beispielsweise richten Sie eine Kopplung zwischen einem bestimmten Debitor in [!INCLUDE[d365fin](includes/d365fin_md.md)] und einem entsprechenden Konto in Sales ein.
@@ -76,7 +76,7 @@ Die folgende Tabelle beschreibt Regeln, die die Synchronisierung zwischen Busine
 
 |Tisch|Regel|
 |-----|----|
-|Debitoren|Bevor ein Debitor mit einem Konto synchronisiert werden kann, muss der Verkäufer, der dem Debitor zugewiesen ist, mit einem Benutzer in Sales gekoppelt werden. Wenn Sie das Debitoren Dynamics 365 for Sales Synchronisierungsprojekt ausführen und wenn Sie es so einrichten, dass neue Datensätze erstellt werden, achten Sie darauf, dass Sie Verkäufer mit Sales-Benutzern synchronisieren, bevor Sie Debitoren mit Sales-Konten synchronisieren. <br /> <br />Das Debitoren - Dynamics 365 for Sales Synchronisierungsprojekt synchronisiert nur Sales-Konten, die die Verhältnisart Debitor haben.|
+|Debitoren|Bevor ein Debitor mit einem Konto synchronisiert werden kann, muss der Verkäufer, der dem Debitor zugewiesen ist, mit einem Benutzer in Sales gekoppelt werden. Wenn Sie den „DEBITOREN – Dynamics 365 for Sales-Synchronisierungsauftrag“ ausführen und wenn Sie es so einrichten, dass neue Datensätze erstellt werden, achten Sie darauf, dass Sie Verkäufer mit Sales-Benutzern synchronisieren, bevor Sie Debitoren mit Sales-Konten synchronisieren. <br /> <br />Der „DEBITOREN – Dynamics 365 for Sales-Synchronisierungsauftrag“ synchronisiert nur Sales-Konten, die den Beziehungstyp „Debitor“ haben.|
 |Kontakte|Nur Kontakte in Sales, die mit einem Konto verknüpft sind, werden in Business Central erstellt. Der Verkäufer-Codewert definiert den Besitzer der gekoppelten Einheit im Verkauf.|
 |Währungen|Währungen werden an Transaktionswährungen in Sales basierend auf ISO-Codes gekoppelt. Nur Währungen, die einen Standard-ISO-Code haben, werden mit Transaktionswährungen gekoppelt und synchronisiert.|
 |Einheiten|Maßeinheiten werden mit Einheitengruppen in Sales synchronisiert. Es kann nur eine Einheit in der Einheitengruppe definiert sein.|
@@ -89,7 +89,7 @@ Die folgende Tabelle beschreibt Regeln, die die Synchronisierung zwischen Busine
 |Gebuchte Verkaufsrechnungen|Gebuchte Verkaufsrechnungen werden mit Verkaufsrechnungen synchronisiert. Bevor eine Rechnung synchronisiert werden kann, ist es besser, alle anderen Einheiten, die in der Rechnung teilnehmen können, von Verkäufer zu Preislisten zu synchronisieren. Der Verkäufer-Codewert im Rechnungskopf definiert den Besitzer der gekoppelten Einheit im Verkauf.|
 
 ## <a name="setting-up-the-connection"></a>Einrichten der Verbindung
-Von der Startseite können Sie auf den unterstützten Setup für **Microsoft Dynamics 365 Verbindungseinrichtung** zugreifen, der Ihnen hilft, den Link einzurichten. Sobald das getan wird, haben Sie eine nahtlose Kopplung Sales-Datensätze mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen.  
+Von der Startseite können Sie auf die unterstützte **Microsoft Dynamics 365-Verbindungseinrichtung** zugreifen, die Ihnen hilft, den Link einzurichten. Sobald das getan wird, haben Sie eine nahtlose Kopplung Sales-Datensätze mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen.  
 
 > [!NOTE]  
 >   Das folgende berücksichtigt die unterstützte Einrichtung, aber Sie können dieselben Aufgaben auf der Seite **Sales-Verbindungseinrichtung** manuell ausführen.
@@ -102,12 +102,12 @@ Um eine vorhandene Sales-Lösung zu importieren, verwendet das Einrichtungshandb
 * Systemadministrator  
 * Lösungsanpasser  
 
-Weitere Informationen finden Sie unter [Benutzer erstellen und Microsoft Dynamics 365 (online) Sicherheitsrollen zuweisen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) und [Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md).  
+Weitere Informationen finden Sie unter [Benutzer in Microsoft Dynamics 365 (online) erstellen und Sicherheitsrollen zuweisen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) und [Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md).  
 
 Dieses Konto wird nur bei der Einrichtung verwendet. Sobald die Lösung in [!INCLUDE[d365fin](includes/d365fin_md.md)] importiert wurde, wird das Konto nicht mehr erforderlich.
 
 ### <a name="setting-up-the-user-account-for-synchronization"></a>Den Benutzer für die Synchronisierung einrichten
-Die Integration beruht auf einem freigegebenen Benutzerkonto. In Ihrem Office 365 Abonnement müssen Sie einen dedizierten Benutzer erstellen, der für die Synchronisierung zwischen den beiden Services verwendet wird. Dieses Konto muss bereits ein gültiger Benutzer in Sales sein, aber Sie müssen keine Sicherheitsrollen zum Konto zuordnen, da die Einrichtungshilfe dies für Sie konfigurieren wird. Sie müssen dieses Benutzerkonto einmal oder mehrere Male bei der Einrichtung festlegen, abhängig davon, wie viele Synchronisierungen Sie aktivieren möchten. Weitere Informationen finden Sie unter [Benutzer erstellen in Microsoft Dynamics 365 (online) und  Sicherheitsrollen zuweisen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).
+Die Integration beruht auf einem freigegebenen Benutzerkonto. In Ihrem Office 365 Abonnement müssen Sie einen dedizierten Benutzer erstellen, der für die Synchronisierung zwischen den beiden Services verwendet wird. Dieses Konto muss bereits ein gültiger Benutzer in Sales sein, aber Sie müssen keine Sicherheitsrollen zum Konto zuordnen, da die Einrichtungshilfe dies für Sie konfigurieren wird. Sie müssen dieses Benutzerkonto einmal oder mehrere Male bei der Einrichtung festlegen, abhängig davon, wie viele Synchronisierungen Sie aktivieren möchten. Weitere Informationen finden Sie unter [Benutzer in Microsoft Dynamics 365 (online) erstellen und Sicherheitsrollen zuweisen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).
 
 Wenn Sie die *Artikelverfügbarkeit* aktivieren, muss das Integrationsbenutzerkonto einen Webdienst-Zugangsschlüssel haben. Dies basiert auf zwei Schritten auf der [!INCLUDE[d365fin](includes/d365fin_md.md)] Seite für das Benutzerkonto, Sie müssen Sie die Schaltfläche **Webdienstschlüssel ändern** auswählen und bei der Sales-Verbindungseinrichtung müssen Sie den Benutzer als OData-Webdienstbenutzer angeben.
 
@@ -137,17 +137,17 @@ Am Ende der unterstützen Einrichtung können Sie die Aktion **Vollständige Syn
 
 Um den Status aus einzelnen Projekte in einer vollständigen Synchronisierung sicherzustellen, blättern Sie im **Projektwarteschlangenposten-Status** nach unten zum Feld **Um Int. Tabellen-Projekt-Status** oder **Von Int. Tabellen-Projekt-Status** auf der Seite **CRM Full Synch. Prüfen**.
 
-Auf der Seite **Microsoft Dynamics 365 Verbindungseinrichtung** können Sie Details über sämtliche Synchronisierungen sehen. Von hier können Sie die Seite **Integrationstabellenzuordnungen** auch öffnen, um Details über die Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] und in der Sales-Lösung finden, die synchronisiert werden müssen.
+Auf der Seite **Microsoft Dynamics 365-Verbindungseinrichtung** können Sie Details über sämtliche Synchronisierungen sehen. Von hier können Sie die Seite **Integrationstabellenzuordnungen** auch öffnen, um Details über die Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] und in der Sales-Lösung finden, die synchronisiert werden müssen.
 
 ## <a name="handling-special-sales-order-data"></a>Auflösen von bestimmten Verkaufsauftrags-Daten
-Verkaufsaufträge in Sales werden automatisch übertragen in [!INCLUDE[d365fin](includes/d365fin_md.md)], wenn Sie das Kontrollkästchen **Automatisches Erstellen von Verkaufsaufträgen** auf der Seite **Microsoft Dynamics 365 Verbindungseinrichtung** auswählen. In solchen Verkaufsaufträgen wird das **Name** Feld im ursprünglichen Auftrag dem Feld **Externe Belegnummer** im Verkaufsauftrag in [!INCLUDE[d365fin](includes/d365fin_md.md)] übertragen und zugeordnet.
+Verkaufsaufträge in Sales werden automatisch zu [!INCLUDE[d365fin](includes/d365fin_md.md)] übertragen, wenn Sie das Kontrollkästchen **Automatisches Erstellen von Verkaufsaufträgen** auf der Seite **Microsoft Dynamics 365-Verbindungseinrichtung** auswählen. In solchen Verkaufsaufträgen wird das **Name** Feld im ursprünglichen Auftrag dem Feld **Externe Belegnummer** im Verkaufsauftrag in [!INCLUDE[d365fin](includes/d365fin_md.md)] übertragen und zugeordnet.
 
 Dies kann auch gehen, wenn der ursprüngliche Verkaufsaufttag geschriebene Produkte enthält, d.h. Artikel oder Ressourcen sind nicht in beiden Produkten erfasst worden. In diesem Fall müssen Sie die Felder**Geschriebenen Produkttyp** und die **Geschriebene Produktnummer** ausfüllen auf der Seite **Debitoren & Verkauf Einr.**, damit solche nicht-registrierte Produktverkäufe in einem angegebenen Artikel/einer Ressourcennummer für Finanzanalyse zugeordnet werden.
 
 Wenn die Artikelbeschreibung des ursprünglichen Verkaufsauftrag sehr lang ist, wird eine zusätzliche Verkaufsauftragszeile der Art Bemerkung erstellt, um den Text in dem Verkaufsauftrag festzuhalten[!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Siehe auch
-Weitere Informationen finden Sie unter [Vorbereiten der Integration in Dynamics 365 for Sales lokal](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).  
+[Vorbereiten der Integration in Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
 [Marketing & Vertrieb](marketing-relationship-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)  
@@ -155,4 +155,3 @@ Weitere Informationen finden Sie unter [Vorbereiten der Integration in Dynamics 
 [Holen Sie Ihre Organisation und Benutzer zu Dynamics 365 (Online) an Bord](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

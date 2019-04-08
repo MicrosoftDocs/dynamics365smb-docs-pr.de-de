@@ -1,8 +1,8 @@
 ---
 title: Buchungsgruppen-Einrichtung| Microsoft Docs
-description: "Übersicht der Buchungsgruppen, die Sie verwenden können, um die Zeit zu sparen und Fehler zu vermeiden, wenn Sie Transaktionen buchen."
+description: Übersicht der Buchungsgruppen, die Sie verwenden können, um die Zeit zu sparen und Fehler zu vermeiden, wenn Sie Transaktionen buchen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: bholtorf
+ms.openlocfilehash: d62742e7dbee8a4f050d95444b66fa06521b707b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 732b69df44681d3cc63391bc87c0645ed7e5e1a5
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798219"
 ---
 # <a name="setting-up-posting-groups"></a>Buchungsgruppen einrichten
 Buchungsgruppenzuordnungseinheiten nach Debitoren, Kreditoren, Artikel, Ressourcen und Einkaufs- und Verkaufsbelegen mit Sachkonten. Sie sparen Zeit und helfen, Fehler zu vermeiden, wenn Sie Transaktionen buchen. Die Umsatzwerte wechseln zu den Konten, die in der Buchungsgruppe für diese bestimmte Einheit angegeben werden. Die einzige Anforderung ist, dass Sie einen Kontenplan haben. Weitere Informationen finden Sie unter [Einrichten des Kontenplans](finance-setup-chart-accounts.md).  
@@ -38,9 +38,9 @@ Die folgenden Tabellen beschreiben die Buchungsgruppen nach den Schlüsseln.
 
 | Spezielle Buchungsgruppen | Description |
 | --- | --- |
-| Debitorenbuchungsgruppen |Definieren Sie die Konten, die verwendet werden, wenn Sie buchen. Wenn Sie den Lagerbestand in Verbindung mit Debitoren verwenden, bestimmt die Kombination aus Ihren Debitoren zugewiesener allgemeiner Geschäftsbuchungsgruppe und dem Lagerartikel zugewiesener allgemeiner Produktbuchungsgruppe auf welche Konten die Auftragszeilenposten in der Finanzbuchhaltung gebucht werden. Richten Sie dies auf der Seite **Kundenbuchungsgruppen** ein |
+| Debitorenbuchungsgruppen |Definieren Sie die Konten, die verwendet werden, wenn Sie buchen. Wenn Sie den Lagerbestand in Verbindung mit Debitoren verwenden, bestimmt die Kombination aus Ihren Debitoren zugewiesener allgemeiner Geschäftsbuchungsgruppe und dem Lagerartikel zugewiesener allgemeiner Produktbuchungsgruppe auf welche Konten die Auftragszeilenposten in der Finanzbuchhaltung gebucht werden. Siehe auch „Allgemeine Geschäftsbuchungsgruppen“ und „Allgemeine Produktbuchungsgruppen“ unter **Allgemeine Buchungsgruppen** oben. Richten Sie dies auf der Seite **Kundenbuchungsgruppen** ein |
 | Kreditorenbuchungsgruppen |Definieren Sie, wo Transaktionen für Kreditorensammelkonten, Servicegebührenkonten und Skontokonten gebucht werden. Dieses ist gleich wie bei den Debitorenbuchungsgruppen. Richten Sie dies auf der Seite **Kundenbuchungsgruppen** ein |
-| Lagerbuchungsgruppen |Definieren Sie Bilanzlagerkonten. Lagerbuchungsgruppen stellen darüber hinaus eine ideale Möglichkeit dar, das Lager zu organisieren. Beim Generieren von Berichten können Sie Artikel anhand ihrer Lagergruppen voneinander trennen. Richten Sie dies auf der Seite **Bestandbuchungsgruppen** ein |
+| Lagerbuchungsgruppen |Definieren Sie Lagerbuchungsgruppen, die Sie dann mit den entsprechenden Sachkonten auf der Seite **Lagerbuchungseinrichtung** verknüpfen. Wenn Sie dann Posten erzeugen, die einen Artikel betreffen, wird das System auf das Sachkonto buchen, das für die Kombination aus Lagerbuchungsgruppe und Lagerort eingerichtet ist, die mit dem Artikel verknüpft ist. Lagerbuchungsgruppen stellen darüber hinaus eine gute Möglichkeit dar, das Lager zu organisieren, sodass Sie beim Generieren von Berichten Artikel anhand ihrer Lagergruppen voneinander trennen können. Richten Sie dies auf der Seite **Bestandbuchungsgruppen** ein |
 | Bankkontobuchungsgruppen |Definieren von Bankkonten. Beispielsweise kann dies die Vorgänge für die Nachverfolgung von Transaktions- und Ausgleichsbankonten vereinfachen, Richten Sie dies auf der Seite **Bankbuchungsgruppen** ein. |
 | Anlagenbuchungsgruppen |Sie legen die Konten für die Anschaffungskosten, die kumulierten Abschreibungsbeträge, die Anschaffungskosten bei Verkauf, die kumulierte Abschreibung bei Verkauf, den Gewinn bei Verkauf, den Wartungsaufwand und den Abschreibungsaufwand fest. Richten Sie dies auf der Seite **Buchungsgruppen** ein |
 
@@ -79,4 +79,3 @@ Je mehr Produkt- und Geschäftsbuchungsgruppen vorhanden sind, um so mehr Zeilen
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

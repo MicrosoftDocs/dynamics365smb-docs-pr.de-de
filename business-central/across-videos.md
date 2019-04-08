@@ -1,8 +1,8 @@
 ---
 title: Videos machen mit Business Central | Microsoft Docs
-description: "Bietet Zugang zu Erste Schritte-Videos, die veranschaulichen, wie häufige Aufgaben ausgeführt werden."
+description: Bietet Zugang zu Erste Schritte-Videos, die veranschaulichen, wie häufige Aufgaben ausgeführt werden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 71e92f587ac5697b96aca937e6a6d4b00dc41902
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: b9f8ba9113cdac79dfd8b20d99c194e834578a8e
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799224"
 ---
 # <a name="visit-our-video-library"></a>Besuchen Sie unsere Videobibliothek
 Haben Sie Verständnis, während wir unsere Bibliothek von "So gehts" Videos neu erstellen. Eine Nebenwirkung der neuen Verbesserungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist, dass wir unsere Inhalt reproduzieren müssen, damit er genau das Produkt wiedergibt. 
@@ -35,18 +35,17 @@ Sie können die Videos auf verschiedene Arten aufrufen. Wenn Sie zum [!INCLUDE[d
 > [!Tip]  
 > Videos in der Bibliothek werden in einem Rahmen angezeigt, der möglicherweise etwas klein wirkt. Um den Rahmen zu vergrößern, wählen Sie das Pfeilsymbol mit dem doppelten Ende in der oberen rechten Ecke des Rahmens aus. Danach werden Videos in größeren Rahmen wiedergegeben, bis Sie ihn wieder verkleinern.
 
-Sie können unser Anleitungsvideo und andere Inhalte auf dem YouTube-Kanal sehen, der für [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt wurde. Um den Kanal jetzt zu besuchen [klicken Sie hier](https://go.microsoft.com/fwlink/?linkid=851533).
+Sie können auch unsere Anleitungsvideos und viele andere Inhalte auf dem YouTube-Kanal sehen, der für [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt wurde. Um den Kanal jetzt zu besuchen [klicken Sie hier](https://go.microsoft.com/fwlink/?linkid=851533).
 
 ## <a name="content-that-is-coming-soon"></a>Inhalt, der in Kürze verfügbar ist
 Um einige Beispiele zu erwähnen, die Bibliothek von Videos, die wir anzeigen, sind "so geht's" Videos:  
 
 * Geschäftsdaten aus anderen Finanzsystemen migrieren [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Richten Sie Dimensionen ein, damit Sie unterschiedliche Einheiten und Belege verfolgen und analysieren können
-* [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Microsoft Dynamics 365 for Sales verbinden
+* Verbinden von [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Microsoft Dynamics 365 for Sales
 * Genehmigungsworkflows einrichten  
-* Power BI mit [!INCLUDE[d365fin](includes/d365fin_md.md)] nutzen  
+* Verwenden von Power BI mit [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * E-Mail-Protokollierung einrichten und Belegen direkt aus [!INCLUDE[d365fin](includes/d365fin_md.md)] buchen  
 
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)
-

@@ -1,6 +1,6 @@
 ---
 title: Anwenden von Debitorenposten, um Debitoren-Zahlungen manuell abzustimmen | Microsoft Docs
-description: "Beschreibt, wie Debitorenzahlungseingänge oder -Erstattungen mit einem oder mehreren offenen Debitorenposten angewendet und Debitorenzahlungen ausgeglichen werden."
+description: Beschreibt, wie Debitorenzahlungseingänge oder -Erstattungen mit einem oder mehreren offenen Debitorenposten angewendet und Debitorenzahlungen ausgeglichen werden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 10/01/2018
+ms.date: 02/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: f18cbb872d01daec391ca0c078f842a5cf89d74d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5f685ca69d9cf434e04e0c5205626eb24af3b5be
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798932"
 ---
-# <a name="reconcile-customer-payments-manually"></a>Debitoren-Zahlungen manuell abstimmen
+# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten
 Wenn Sie einen Zahlungseingang von einem Debitor erhalten oder eine Barerstattung durchführen, müssen Sie entscheiden, ob die Zahlung oder die Rückerstattung mit einem oder mehreren offenen Soll- oder Habenposten ausgeglichen werden soll. Sie können den Betrag angeben, den Sie anwenden möchten. Beispielsweise können Sie Teilzahlungen für die Debitorenposten übernehmen. Schließende Debitorenposten stellen sicher, dass Informationen wie Debitorenstatistiken, Kontoauszüge und Zinsrechnungen korrekt sind.
 
-> [!NOTE]  
+> [!TIP]  
 >   Auf der Seite **Debitorenposten** bedeutet die rote Schriftart, dass die entsprechende Zahlung nach dem Fälligkeitsdatum liegt. Wenn fällige Zahlungen ein Problem werden, können wir Ihnen dabei helfen, die Häufigkeit zu verringern. Sie können die Funktionen **Zahlungsverzug-Vorhersagen** Erweiterung aktivieren, die ein vorbestimmtes Modell verwendet, das wir in Azure Machine Learning erstellten, um die zeitliche Steuerung der Zahlungen vorauszusagen. Diese Vorhersagen helfen Ihnen, ausstehende Forderungen zu reduzieren und die Sammlungsstrategie abzustimmen. Wenn beispielsweise vorausgesagt wird, dass eine Zahlung zu spät erfolgen wird, können Sie sich entschieden, die Zahlungsfristen oder die Zahlungsform für den Debitor anzupassen. Weitere Informationen finden Sie unter [Vorhersage verspätete Zahlung](ui-extensions-late-payment-prediction.md).  
 
 Sie können Debitorenposten auf mehrere Arten übernehmen:
 
-* Durch die Eingabe von Informationen auf speziellen Seiten, wie das **Zahlungseingangsbuch.-Blatt** und die Seite **Zahlungsabstimmungsbuch.-Blatt**.
-* Aus den Verkaufsgutschriftsbelegen.
-* Debitorenposten nach Verkaufsbelegen werden gebucht aber nicht angewendet.
+* Durch die Eingabe von Informationen über dedizierte Seiten:
+    * Die Seite **Zahlungsabstimmungsbuch.-Blatt**. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+    * Die Seite **Zahlungsregistrierung**. Weitere Informationen finden Sie unter [Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
+    * Das **Zahlungseingangs Buch.-Blatt**. Dies wird nachfolgend beschrieben.
+* Durch das Ausfüllen des Felds **Ausgleich mit Belegnr.** in Verkaufsgutschriftsbelegen. Dies wird nachfolgend beschrieben.
+* Mit der **Ausgleichs-ID setzen**-Aktion in Debitorenposten. Dies wird nachfolgend beschrieben.
 
 > [!NOTE]  
 >   Wenn das Feld **Ausgleichsmethode** auf der Debitorenkarte **Auf älteste anwenden** festgelegt ist, dann wird die Zahlung automatisch mit der ältesten offenen Rechnung abgeglichen, wenn Sie nicht explizit manuell einen Eintrag definieren. Ist die Ausgleichsmethode eines Debitors auf **Manuell** festgelegt, müssen die Posten immer manuell ausgeglichen werden.
 
-Sie können Zahlungen automatisch auf der Seite **Zahlungseingangsbuch.-Blatt** manuell verbuchen. Ein Zahlungseingangs Buch.-Blatt ist eine Art von Fibu Buch.-Blatt. Daher können Sie es verwenden, um Transaktionen auf Sach-, Bank-, Debitoren-, Kreditor- und Anlagenkonten zu buchen. Daher können Sie die Zahlungen beim Buchen auf einen oder mehrere Sollposten anwenden oder die gebuchten Posten später anwenden.
-
-Sie können Debitorenzahlungen und Kreditorenzahlungen, auf der Seite **Zahlungsabstimmungsbuch.-Blatt** mithilfe von Funktionalitäten für den Bankkontoauszugsimport, die automatische Anwendung und die Bankkontoabstimmung verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md). Alternativ können Sie Debitorenzahlungen auf einer Liste der unbezahlten Verkaufsbelegen auf der Seite**Zahlungs-Registrierung** abstimmen. Weitere Informationen finden Sie unter [Abstimmen von Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>So füllen Sie ein Zahlungseingangs Buch.-Blatt aus und buchen dieses
+Ein Zahlungseingangs Buch.-Blatt ist eine Art von Fibu Buch.-Blatt. Daher können Sie es verwenden, um Transaktionen auf Sach-, Bank-, Debitoren-, Kreditor- und Anlagenkonten zu buchen. Daher können Sie die Zahlungen beim Buchen auf einen oder mehrere Sollposten anwenden oder die gebuchten Posten später anwenden.
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Buch.-Blätter für den Zahlungseingang** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Buch.-Blatt bearbeiten** aus.
 3. Wählen Sie im Feld **Buch.-Blattname** das relevante Buch.-Blatt aus.
@@ -159,4 +159,3 @@ Wenn Sie einen fehlerhaften Ausgleich aufheben, wird ein Korrekturposten (ein Po
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Eine andere Kontaktadresse zuweisen| Microsoft Docs
-description: "Beschreibt, wie Sie eine alternative Adresse für Ihre Kontakte zuweisen, an die Sie manchmal Informationen senden."
+description: Beschreibt, wie Sie eine alternative Adresse für Ihre Kontakte zuweisen, an die Sie manchmal Informationen senden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: d069a22603a969220a62e2c7458cb6259cfbc630
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798212"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Einrichten einer alternativen Adresse für einen Kontakt
 Sie können Ihren Kontakten alternative Adressen zuordnen, an die Sie manchmal Post und Informationen senden, zum Beispiel an die Urlaubsadresse. Sie können jeder alternativen Adresse einen oder mehrere Datumsbereiche zuordnen, um festzulegen, wann diese Adresse gültig ist.
@@ -43,4 +43,3 @@ Wiederholen Sie diese Schritte, um beliebig viele Gültigkeiten einzurichten.
 ## <a name="see-also"></a>Siehe auch
 [Erstellen von Kontaktunternehmen](marketing-create-contact-companies.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)
-

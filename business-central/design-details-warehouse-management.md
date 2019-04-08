@@ -1,21 +1,21 @@
 ---
 title: Designdetails - Lagerhausverwaltung | Microsoft Docs
-description: "Diese Dokumentation gibt einen Überblick über Konzepte und Prinzipien, die in den Logistikfunktionen in  Business Central."
+description: Diese Dokumentation gibt einen Überblick über Konzepte und Prinzipien, die in den Logistikfunktionen in  Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 37c432a121c8105fbe982a4f8968094105530e3a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a55be802506d9d8cbaae1cea9801a85c61e7374f
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798360"
 ---
 # <a name="design-details-warehouse-management"></a>Designdetails: Lagerverwaltung
 Diese Dokumentation gibt einen Überblick über Konzepte und Prinzipien, die in den Logistikfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet werden. Erläutert das Design hinter den Zentrallagerfunktionen und wie die Einlagerung mit anderen Lieferkettenfunktionen integriert ist.  
@@ -30,4 +30,3 @@ Um die verschiedenen Komplexitätsniveaus der Lagerhaltung zu unterscheiden, ist
 [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)  
 [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md)  
 [Designdetails: Integration mit dem Lagerbestand](design-details-integration-with-inventory.md)
-

@@ -1,24 +1,24 @@
 ---
-title: "Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für ELSTER"
-description: "In Business Central können Sie die Umsatzsteuervoranmeldungsdatei-Benachrichtigung elektronisch an das ELSTER-Portal übermitteln."
+title: 'Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für ELSTER'
+description: In Business Central können Sie die Umsatzsteuervoranmeldungsdatei-Benachrichtigung elektronisch an das ELSTER-Portal übermitteln.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5e8dfa9572b84360bfcc5087bc3b0b9b9ed9182f
 ms.openlocfilehash: e9c0fcbbc639b0834d5a8ba38ce9ef9acf4de064
-ms.contentlocale: de-de
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826764"
 ---
 # <a name="set-up-sales-vat-advance-notifications-for-elster"></a>Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für ELSTER
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] müssen Sie zuerst Folgendes einrichten, damit Sie gültige Mehrwertsteuervoranmeldungen an das ELSTER-Portal übermitteln können.  
@@ -83,4 +83,3 @@ Sie müssen Komponenten auch vom ELSTER-Portal herunterladen. Weitere Informatio
 ## <a name="see-also"></a>Siehe auch  
  [Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
  [Gewusst wie: Erstellen und Senden von Umsatzsteuervoranmeldungen](how-to-create-and-submit-sales-vat-advance-notifications.md)
-

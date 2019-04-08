@@ -2,24 +2,23 @@
 title: Einrichten von Fehlermeldungsberichten in Service Management | Microsoft Docs
 description: 'Gewusst wie: Einrichten von Problemberichtsprozessen.'
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798546"
 ---
-
 # <a name="set-up-fault-reporting"></a>Fehlerberichte einrichten
 Mit Fehlermeldung können Standards für das Erfassen von Fehlerinformationen für Serviceartikel einrichten. Beispielsweise können Sie festlegen, was das Problem ist, die Symptome, die Sie sehen, die Ursache für das Problem und wie es gelöst werden soll.  
 
@@ -49,4 +48,3 @@ Um die Einrichtung des Problemberichtwesens abzuschließen, kann auch angegeben 
 ## <a name="see-also"></a>Siehe auch
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Service](service-service.md)  
-

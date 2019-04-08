@@ -2,78 +2,67 @@
 title: Erstellen von Kontaktunternehmen| Microsoft Docs
 ddescription: Outlines the tasks to create contact companies, including assigning relevant data about prospects and defining the business relationships you have with companies.
 services: project-madeira
-documentationcenter: 
-author: edupont04
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
-ms.author: edupont
+ms.date: 03/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: aaeb98aa5e3c48a92be71546be33b1494a751cb9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 9699fc2194befcbca0610bb44d2a86d16d183cc6
-ms.contentlocale: de-de
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798030"
 ---
-# <a name="creating-contact-companies"></a>Kontaktunternehmenerstellen
+# <a name="creating-contacts"></a>Kontakte erstellen
 Ihr Unternehmen trifft regelmäßig mit anderen interessierten Unternehmen zusammen. Aus diesen Zusammentreffen ergeben sich in der Regel neue Geschäftsbeziehungen. Wird ein neuer Kontakt geknüpft, muss diese Information erfasst werden, um eine weitere Kommunikation zu ermöglichen.
 
-Für eine effiziente Kommunikation empfiehlt es sich, einem bestimmten Unternehmen möglichst viele Daten zuzuordnen. So wird beispielsweise durch Zuordnen der jeweiligen Branche sichergestellt, dass bestimmte Unternehmen in für sie relevante Kommunikation einbezogen werden.
+Für eine effiziente Kommunikation empfiehlt es sich, einem bestimmten Unternehmen möglichst viele Daten zuzuordnen. So wird beispielsweise durch Zuordnen der jeweiligen Branche sichergestellt, dass bestimmte Unternehmen in für sie relevante Kommunikation einbezogen werden. Darüber hinaus können Sie definieren, welche Geschäftsbeziehung mit einem Kontakt besteht. So kann es sich bei einem Kontakt beispielsweise um einen Interessenten, um eine Bank oder um einen Vertragsnehmer handeln.
 
-Darüber hinaus können Sie definieren, welche Geschäftsbeziehung mit einem Kontakt besteht. So kann es sich bei einem Kontakt beispielsweise um einen Interessenten, um eine Bank oder um einen Vertragsnehmer handeln.
+> [!NOTE]
+> Im Feld **Art** auf der Seite **Kontaktkarte** können Sie einen Kontakt als Person oder ein Unternehmen angeben, je nachdem, ob Sie den Namen der Kontaktperson zum Zeitpunkt der Erstellung kennen. Funktionalität ist für beide Arten gleich, mit Ausnahme einiger zusätzlicher Informationstypen, die zugeordnet werden können. Sie können den Wert dieses Feld später ändern, oder Sie können die Felder im Inforegister **Übernahme** auf der Seite **Marketingeinrichtung** verwenden, um zu steuern, welche Daten zwischen einer Person und dem zugehörigen Unternehmen freigegeben werden.
 
-## <a name="creatinge-contact-companies"></a>Kontaktunternehmen erstellen
-Sie können für jedes neue Unternehmen, mit dem Sie Geschäfte machen, eine Kontaktkarte anlegen. Das können z. B. Debitoren, Kreditoren, Interessenten, Banken, Rechtsanwälte, Berater usw. sein.
+Sie können für jedes neue Unternehmen, mit dem Sie Geschäfte machen, einen Kontakt anlegen. Das können z. B. Debitoren, Kreditoren, Interessenten, Banken, Rechtsanwälte, Berater usw. sein.
 
-Es gibt zwei Möglichkeiten, um einen Kontakt zu erstellen: von Grund auf neu oder aus einem bestehenden Debitor, Kreditor oder Bankkonto.
+Es gibt zwei Wege, einen Kontakt zu erstellen:
+ * Manuell.
+ * Auf der Grundlage eines bestehenden Debitors, Kreditors oder Bankkontos.
 
-Bevor Sie einen Kontakt anlegen, können Sie die Einstellungen auf der Seite  **Marketing einrichten** überprüfen. Weitere Informationen finden Sie unter [Einrichten von Relationship Management](marketing-setup-marketing.md)
-
-### <a name="to-create-a-company-contact-from-scratch"></a>Einen Unternehmenskontakte von Grund auf erstellen
+## <a name="to-create-a-contact-manually"></a>So werden Kontakte manuell erstellt:
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontakte** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Geben Sie im Feld **Nr.** eine Nummer für den Kontakt ein.
 
-    Wenn Sie auf der Seiter **Marketing und Vertrieb einrichten** eine Nummernserie für Kontakte eingegeben haben, können Sie alternativ auch die EINGABETASTE drücken, um die nächste verfügbare Kontaktnummer auszuwählen.  
-4. Legen Sie **Art** auf **Unternehmen** fest.
-5. Füllen Sie die weiteren Felder wie erforderlich aus.
+    Wenn Sie auf der Seiter **Marketing und Vertrieb einrichten** eine Nummernserie für Kontakte eingegeben haben, können Sie alternativ auch die EINGABETASTE drücken, um die nächste verfügbare Kontaktnummer einzufügen.  
+5. Füllen Sie die verbleibenden Felder je nach Bedarf aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="to-create-a-company-contact-from-a-customer-vendor-or-bank-account"></a>Erstellen eines Unternehmenskontakts aus einem Debitor, Kreditor oder Bankkonto
-Wenn Sie bereits eine Anzahl von Debitoren, Kreditoren und Bankkonten eingerichtet haben, können Sie Kontakte auf der Basis von bestehenden Daten erstellen. Wenn Sie einen Kontakt auf diese Weise erstellen, werden die Kontaktinformationen mit dem Debitoren-, Kreditoren- oder den Bankkontoinformationen synchronisiert.
+## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>So erstellen Sie einen Kontakt aus einem Debitor, Kreditor oder Bankkonto
+Wenn Sie Debitoren, Kreditoren und Bankkonten haben, für die Sie Kontaktkarten erstellen möchten, können Sie die Stapelverarbeitungen **Kontakte aus Debitoren/Kreditoren/Bankkonten erstellen** verwenden, um Kontakte auf der Basis von bestehenden Daten zu erstellen. Wenn Sie einen Kontakt auf diese Weise erstellen, werden die Kontaktinformationen anschließend mit den verbundenen Debitoren-, Kreditoren- oder den Bankkontoinformationen synchronisiert. Weitere Informationen finden Sie unter [Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 > [!NOTE]  
->   Bevor Sie auf diese Weise ein Kontaktunternehmen erstellen können, müssen Sie einen Geschäftsbeziehungscode für Debitoren, Kreditoren und Bankkonten auf der Seite **Marketingeinrichtung** angeben. Wenn Sie Kontakte aus Bankkonten erstellen, müssen Sie Nummernserie für Bankkonten auf der Seite **Finanzbuchhaltungseinrichtung** angeben.
+> Bevor Sie Kontakte basierend auf vorhandenen Daten erstellen können, müssen Sie einen Geschäftsbeziehungscode für Debitoren, Kreditoren und Bankkonten auf dem Inforegister **Interkationen** auf der Seite **Marketingeinrichtung** angeben. Weitere Informationen finden Sie unter [Einrichten von Kontakten](marketing-setup-contacts.md).
 
 1. Wählen Sie ![Glühlampe, die die Funktion "Teilen Sie mir mit, was Sie tun wollen"](media/ui-search/search_small.png "\"Teilen Sie mir mit, was Sie tun wollen\"") und Folgendes ein, je nachdem, von wo aus Sie Kontakte erstellen möchten, und wählen Sie dann den zugehörigen Link aus.
    * **Kontakte aus Debitoren erstellen**
    * **Kontakte aus Kreditoren erstellen**
    * **Kontakte aus Bankkonten erstellen**
-2. Legen Sie im Abschnitt **Debitor**, **Kreditor** oder **Bankkonto** der Stapelverarbeitungsseite den Filter fest, wenn Sie Kontakte aus bestimmten Debitoren, Kreditoren oder Bankkonten erstellen möchten.
+2. Legen Sie auf der geöffneten Anforderungsseite in den Abschnitten **Debitor**, **Kreditor** oder **Bankkonto** die Filter fest, wenn Sie Kontakte aus bestimmten Debitoren, Kreditoren oder Bankkonten erstellen möchten.
 3. Klicken Sie auf die Schaltfläche **OK**, um mit dem Erstellen von Kontakten zu beginnen.
 
-    Den neuen Kontakten werden die nächsten Kontaktnummern aus der Nummernserie zugewiesen. Den neu erstellten Kontakten wird automatisch die Geschäftsbeziehung für Kreditoren zugewiesen, die auf der Seite **Marketing & Vertrieb Einr.** festgelegt wurde.
+Den neuen Kontakten werden die nächsten Kontaktnummern aus der Nummernserie zugewiesen. Den neu erstellten Kontakten wird automatisch die Geschäftsbeziehung zugewiesen, die auf der Seite **Marketing & Vertrieb Einr.** festgelegt wurde.
 
 > [!TIP]  
->   Sie können auch einen Debitor, Kreditor oder Bankkonto über einen Kontakt erstellen. Weitere Informationen finden Sie unter [Debitor, Kreditor oder Bankkonto über einen Kontakt erstellen](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+> Sie können dies auch andersherum tun, z. B. indem Sie einen Debitor, einen Kreditor oder ein Bankkonto aus einem Kontakt erstellen. Weitere Informationen finden Sie unter [So erstellen Sie einen Kontakt als Debitor, Kreditor oder Bankkonto](marketing-create-contact-companies.md#to-create-a-contact-as-a-customer-vendor-or-bank-account).
 
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten
-Wenn einige Ihrer Kontakte auch Debitoren, Kreditoren oder Bankkonten sind, können Sie deren Kontaktinformationen mit dem entsprechenden Debitor, Kreditor oder Bankkonto synchronisieren. Die Synchronisierung macht Informationen, die zwischen Kontakten und Debitoren, Kreditoren oder Bankkonto gleich sind, identisch.  
+Wenn einige Ihrer Kontakte auch Debitoren, Kreditoren oder Bankkonten sind, können Sie deren Kontaktinformationen mit dem entsprechenden Debitor, Kreditor oder Bankkonto synchronisieren.
 
-Bevor Sie Ihre Kontakte mit Debitoren, Kreditoren oder Bankkonten synchronisieren, müssen Sie auf der Seite **Marketing & Vertrieb Einr.** einen Geschäftsbeziehungscode für Debitoren, Kreditoren und Bankkonten festlegen. Weitere Informationen finden Sie unter [Einrichten von Relationship Management](marketing-setup-marketing.md)
-
-### <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Unterschiedliche Wege, um Kontakte mit Debitoren, Kreditoren und Bankkonten zu synchronisieren
-Sie können Ihre Kontakte mit Debitoren, Kreditoren oder Bankkonten synchronisieren, indem Sie eine der folgenden drei Methoden verwenden:
-
-* Verknüpfen Sie Kontakte auf der Kontaktkarte mit bestehenden Debitoren, Kreditoren oder Bankkonten. Weitere Informationen finden Sie unter [Kontakte mit Debitoren, Kreditoren und Bankkonten synchronisieren](marketing-how-link-contact.md).
-* Erstellen Sie Debitoren, Kreditoren oder Bankkonten über den Kontakt. Weitere Informationen finden Sie unter [Debitor, Kreditor oder Bankkonto über einen Kontakt erstellen](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
-* Erstellen Sie Kontakte aus Debitoren, Kreditoren oder Bankkonten. Weitere Informationen finden Sie unter [Erstellen eines Unternehmenskontakts aus einem Debitor, Kreditor oder Bankkonto](marketing-how-create-contact-companies.md).
-
-### <a name="consequences-of-synchronization"></a>Ergebnisse der Synchronisierung
-Wenn der Kontakt mit dem Debitor, Kreditor oder Bankkonto synchronisiert ist:
+Die folgenden Vorteile existieren, wenn ein Kontakt mit einem Debitor, Kreditor oder einem Bankkonto synchronisiert wird.
 
 * Sie müssen die Informationen nur an einer Stelle aktualisieren. Wenn Sie z. B. die Telefonnummer auf des Kontakts ändern, wird die Telefonnummer auf des Debitors-, Kreditors oder Bankkontos automatisch mit der gleichen Änderung aktualisiert.
 * Wenn Sie beim Erstellen einer Debitoren-, Kreditoren- oder Bankkontokarte eine Nummernserie für Kontakte angegeben haben, wird automatisch eine Kontaktkarte für den Debitor, den Kreditor bzw. das Bankkonto erstellt.
@@ -83,61 +72,37 @@ Wenn der Kontakt mit dem Debitor, Kreditor oder Bankkonto synchronisiert ist:
 * Wenn Sie einen Debitor, einen Kreditor oder ein Bankkonto löschen, der bzw. das mit einem Kontakt verknüpft ist, bleibt der Kontakt erhalten.
 
 > [!NOTE]  
->   Einige Informationen, wie Fakturierungs- und Buchungsdetails, erscheinen nicht auf der Kontaktkarte. Sie können sie manuell auf der Debitoren-, Kreditoren- und/oder Bankkontenkarte hinzufügen, wenn Sie Kontakte als Debitoren, Kreditoren oder Bankkonten erstellen.
+> Bestimmte Informationen, wie Fakturierungs- und Buchungsdetails, erscheinen nicht auf der Kontaktkarte. Sie können sie manuell auf der Debitoren-, Kreditoren- und/oder Bankkontenkarte hinzufügen, wenn Sie Kontakte als Debitoren, Kreditoren oder Bankkonten erstellen.
 
-## <a name="linking-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronisation von Kontakten mit Debitoren, Kreditoren und Bankkonten.
-Wenn Sie Kontakt und entweder einen Debitor, Kreditor oder ein Bankkonto für das gleiche Unternehmen haben, können Sie die beiden Einheiten verknüpfen. Das Verknüpfen der beiden Einheiten ermöglicht Ihnen gemeinsame Daten zu synchronisieren, sodass diese an beiden Stellen identisch sind.
+Die Synchronisierung von allgemeinen Daten zwischen Kontakten und den entsprechenden Debitoren, Kreditoren oder Bankkonten wird auf drei Arten ausgeführt:
 
-### <a name="to-link-a-contact-to-an-existing-customer-vendor-or-bank-account"></a>Verknüpfen eines Kontakts mit einem vorhanden Debitor, Kreditor oder Konto
+* Wenn Sie Kontakte mit bestehenden Debitoren, Kreditoren und/oder Bankkonten von der Kontaktkarte verknüpfen. Siehe auch [Verknüpfen eines Kontakts mit einem vorhanden Debitor, Kreditor oder Konto](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-or-bank-account).
+* Wenn Sie Debitoren, Kreditoren oder Bankkonten aus Kontakten erstellen. Siehe auch [So erstellen Sie einen Kontakt aus einem Debitor, Kreditor oder Bankkonto](marketing-create-contact-companies.md#to-create-a-contact-from-a-customer-vendor-or-bank-account).
+* Wenn Sie Kontakte als Debitoren, Kreditoren oder Bankkonten erstellen. Siehe auch [So erstellen Sie einen Kontakt als Debitor, Kreditor oder Bankkonto](marketing-create-contact-companies.md#to-create-a-contact-as-a-customer-vendor-or-bank-account).
+
+## <a name="to-link-a-contact-to-an-existing-customer-vendor-or-bank-account"></a>Verknüpfen eines Kontakts mit einem vorhanden Debitor, Kreditor oder Konto
+Wenn Sie einen Kontakt und entweder einen Debitor, Kreditor oder ein Bankkonto für das gleiche Unternehmen haben, können Sie die beiden Einheiten verknüpfen, sodass die allgemeinen Daten synchronisiert werden.
+
 1. Öffnen Sie den Kontakt, den Sie verknüpfen möchten.
-2. Wählen Sie die Aktion **Mit vorhandenem verknüpfen** aus, und wählen Sie dann **Debirot**, **Kreditor** oder **Bank**.
-3. Wählen Sie den Debitor, Kreditor oder das Bankkonto für die Verknüpfung aus.
+2. Wählen Sie die Aktion **Mit vorhandenem verknüpfen** aus, und wählen Sie dann die Aktion **Debitor**, **Kreditor** oder **Bank**.
+3. Wählen Sie auf der geöffneten Seite den Debitor, Kreditor oder das Bankkonto für die Verknüpfung aus.
+4. Legen Sie im Feld **Felder übernehmen von** fest, welche Felder im Konfliktfall Priorität haben sollen. Wenn sich z. B. der Verkäufercode von der Debitorenkarte von dem auf der Kontaktkarte unterscheidet, können Sie entscheiden, dass der von der Kontaktkarte genommen werden soll, indem Sie **Kontakt** auswählen.
+5. Wählen Sie die Schaltfläche **OK** aus.
 
-   Legen Sie im Feld **Felder übernehmen von** fest, welche Felder im Konfliktfall Priorität haben sollen. Wenn sich z. B. der Verkäufercode im Kontakt von dem des Kredtors unterscheidet, können Sie entscheiden, dass die gültige Information aus dem Kontakt übernommen werden soll, indem Sie **Kontakt** auswählen.
-
-## <a name="creating-a-customer-vendor-or-bank-account-from-a-contact"></a>Erstellen eines Kreditors, Debitors oder Bankkontos über einen Kontakt
-   Sie können vorhandene Kontakte als Debitoren, Kreditoren oder als Bankkonten erfassen. Beim Erstellen eines Kreditors, Debitors oder Bankkontos aus einem Kontakt können Sie vorhandene Daten verwenden. Wenn Sie einen Debitor, Kreditor oder ein Bankkonto auf diese Weise erstellen, wird es mit dem Kontakt synchronisiert Die Synchronisierung macht Informationen, die zwischen Kontakten und Debitoren, Kreditoren oder Bankkonto gleich sind, identisch.
-
-   **Hinweis**: Bevor Sie auf diese Weise ein erfassen können, müssen Sie einen Geschäftsbeziehungscode für Debitoren, Kreditoren und Bankkonten auf der Seite Marketingeinrichtung angeben. Wenn Sie Kontakte als Bankkonten erfassen, müssen Sie Nummernserie für Bankkonten auf der Seite **Finanzbuchhaltungseinrichtung** angeben.
-
-### <a name="to-create-a-contact-as-a-customer-vendor-or-bank-account"></a>So erstellen Sie einen Kontakt als Debitor, Kreditor oder Bankkonto
-   1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontakte** ein, und wählen dann den zugehörigen Link aus.
-   2. Wählen Sie den Kontakt aus, den Sie als Debitor, Kreditor oder Bankkonto erstellen möchten.
-   3. Wählen Sie die Aktionen **Erstellen als**, und wählen Sie denn entweder **Debitor**, **Kreditor** oder **Bank**.
-   4. Bestätigen Sie die nachfolgende Meldung.
-
-   Die Kontaktinformationen werden von der Karte **Kontakt** auf die Karte **Bankkonto**, die Karte **Debitor** oder die Karte **Kreditor** übertragen. Sie können den einzelnen Karten spezifische Informationen, wie Fakturierungs- und Zahlungsdetails hinzufügen.
-
-## <a name="setting-up-business-relations-on-contact-companies"></a>Einrichten von Geschäftsbeziehungen für Kontaktunternehmen
-Sie können Geschäftsbeziehungen verwenden, um die Geschäftsbeziehung anzuzeigen, die Sie mit Ihren Kontakten haben wie z. B. Interessent, Bank, Berater und Dienstleister usw. pflegen.
-
-Die Nutzung von Geschäftsbeziehungen zu Kontakten ist ein zwei Schritte umfassender Prozess. Zuerst definieren Sie den Geschäftsbeziehungscode. Sie müssen diesen Schritt nur einmal für jede Geschäftsbeziehung ausführen. Sobald Sie einen Geschäftsbeziehungscode haben, können Sie den Code zu den Kontaktunternehmen zuweisen.
+## <a name="to-create-a-contact-as-a-customer-vendor-or-bank-account"></a>So erstellen Sie einen Kontakt als Debitor, Kreditor oder Bankkonto
+Wenn Sie einen Debitor, Kreditor oder eine Bank für das Unternehmen haben, für das Sie einen Kontakt erstellen möchten, können Sie die Funktion **Erstellen als** verwenden. Wenn Sie einen Kontakt auf diese Weise erstellen, werden die Kontaktinformationen anschließend mit den verbundenen Debitoren-, Kreditoren- oder den Bankkontoinformationen synchronisiert. Weitere Informationen finden Sie unter [Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 > [!NOTE]  
->   Wenn Sie planen, Ihre Kontakte mit Debitoren, Kreditoren oder Bankkonten in anderen Teilen der Anwendung zu synchronisieren, können Sie für sie eine Geschäftsbeziehung erstellen.
+> Bevor Sie Debitoren, Kreditoren oder Bankkonten aus Kontakten erstellen können, müssen Sie einen Geschäftsbeziehungscode für Debitoren, Kreditoren und Bankkonten auf dem Inforegister **Interkationen** auf der Seite **Marketingeinrichtung** angeben. Weitere Informationen finden Sie unter [Einrichten von Kontakten](marketing-setup-contacts.md).
 
-### <a name="to-define-a-business-relation-code"></a>Definieren eines Geschäftsbeziehungscodes
-Der Geschäftsbeziehungscode definiert eine Kategorie oder einen Typ von Geschäftsbeziehung wie BANK oder Gesetz. Sie können mehrere Geschäftsbeziehungscodes haben. Um die Geschäftsbeziehung zu definieren, verwenden Sie die Seite **Geschäftsbeziehungen**.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontakte** ein, und wählen dann den zugehörigen Link aus.
+2. Wählen Sie den Kontakt aus, den Sie als Debitor, Kreditor oder Bankkonto erstellen möchten.
+3. Wählen Sie die Aktionen **Erstellen als**, und wählen Sie denn entweder **Debitor**, **Kreditor** oder **Bank**.
+4. Wählen Sie die Schaltfläche **OK** aus.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Geschäftsbeziehung** ein, und wählen dann den zugehörigen Link aus.
-2. Wählen Sie die Aktion **Neu** aus, und geben Sie einen Code und eine Beschreibung ein. Der Code kann maximal 11 Zeichen, sowohl Ziffern als auch Buchstaben, umfassen.
-
-### <a name="AssignBusRelContact">Um Kontakten Geschäftsbeziehungen zuzuordnen:</a>
-Sie können Geschäftsbeziehungen nicht zu Personen zuordnen – nur zu Unternehmen.
-
-1. Öffnen Sie den Kontakt.
-2. Wählen Sie die Aktion **Unternehmen** und dann die **Geschäftsbeziehungen**-Aktion aus.
-
-    Die Seite **Kontakt Geschäftsbeziehungen** wird angezeigt.
-3. Wählen Sie im Feld **Geschäftsbeziehungscode** die Geschäftsbeziehung aus, die Sie zuordnen möchten.
-
-Wiederholen Sie diese Schritte, um beliebig viele Geschäftsbeziehungen zuzuordnen. Außerdem können Sie Geschäftsbeziehungen auf die gleiche Art in dem Fenster Kontaktübersicht zuordnen.
-
-Die Anzahl der Geschäftsbeziehungen, die Sie dem Kontakt auf der Kontaktkarte zugeordnet haben, wird im Feld **Anzahl Geschäftsbeziehungen** im Abschnitt **Segmentierung** auf der Seite **Kontakt** angezeigt.
-
-Nachdem Sie Ihren Kontakten Geschäftsbeziehungen zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Hinzufügen von Kontakten zu Segmenten](marketing-add-contact-segment.md).
+Die Kontaktinformationen werden von der Kontaktkarte auf eine neue Debitoren-, Kreditoren- oder Bankkontenkarte übertragen. Sie können den einzelnen Karten spezifische Informationen, wie Fakturierungs- und Zahlungsdetails hinzufügen. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).
 
 ## <a name="see-also"></a>Siehe auch
-[Kontaktpersonenerstellen](marketing-create-contact-persons.md)   
+[Kontakte verwalten](marketing-contacts.md)  
+[Kontakte einrichten](marketing-setup-contacts.md)  
 [Arbeiten mit Business Central](ui-work-product.md)
-

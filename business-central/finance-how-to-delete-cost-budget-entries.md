@@ -1,23 +1,23 @@
 ---
 title: "So geht's: Kostenbudgetposten löschen | Microsoft Docs"
-description: "Sie verwenden den Batchauftrag Kostenbudgeteinträge löschen , um Kostenbudgetposten in der Kostenbudgeterfassung zu stornieren."
+description: Sie verwenden den Batchauftrag Kostenbudgeteinträge löschen , um Kostenbudgetposten in der Kostenbudgeterfassung zu stornieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 7a5647bcb5a58cdf0a38ec037994d6cbe7a9504d
-ms.contentlocale: de-de
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798638"
 ---
 # <a name="delete-cost-budget-entries"></a>Kostenbudgetposten löschen
 Sie verwenden den Batchauftrag **Kostenbudgeteinträge löschen** , um Kostenbudgetposten in der Kostenbudgeterfassung zu stornieren.  
@@ -40,4 +40,3 @@ Um keine Lücken in den Kostenbudgetposten und den Kostenjournalposten entstehen
 [Kostenrechnung](finance-manage-cost-accounting.md)
 [Erstellen von Kostenbudgets](finance-create-cost-budgets.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

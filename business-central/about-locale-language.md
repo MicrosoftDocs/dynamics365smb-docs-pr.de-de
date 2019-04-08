@@ -1,6 +1,6 @@
 ---
 title: Mehrsprachig und Lokalisierung| Microsoft Docs
-description: "Erhalten von Informationen, wie Sprache und Gebietsschema die Benutzeroberfläche in Business Central. beeinflussen."
+description: Erhalten von Informationen, wie Sprache und Gebietsschema die Benutzeroberfläche in Business Central. beeinflussen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture
 ms.date: 11/19/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 218b1b825501d64bef9d65640f922e690df3108f
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798825"
 ---
 # <a name="changing-language-and-locale"></a>Sprache und Gebiet ändern
 
@@ -52,4 +52,3 @@ Ganz einfach - einen Bildlauf zum unteren Rand der Browserseite ausführen und d
 ## <a name="see-also"></a>Siehe auch  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Erste Schritte](product-get-started.md)  
-

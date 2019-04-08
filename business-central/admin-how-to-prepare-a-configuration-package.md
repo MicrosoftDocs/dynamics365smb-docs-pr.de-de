@@ -1,28 +1,28 @@
 ---
-title: So bereiten Sie ein  Konfigurations-Paket vor  | Microsoft Docs
-description: "Wenn Sie einen neues Mandant konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind."
+title: So bereiten Sie ein Konfigurations-Paket vor | Microsoft Docs
+description: Wenn Sie einen neues Mandant konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798609"
 ---
 # <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
 Wenn Sie einen neues Mandant konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind.  
 
-Um Ihrem Debitoren zu helfen, das Konfigurationspaket zu verwenden, können Sie dem Paket einen Fragebogen oder einen Satz von Fragebogen hinzufügen. Der Fragebogen kann dem Debitor beim Verständnis der verschiedenen Setupoptionen helfen. Üblicherweise werden Fragebögen für die größten Einrichtungstabellen in  erstellt, wenn ein Debitor weitere Anleitung dazu anfordert, wie eine entsprechende Einstellung wählen soll. Weitere Informationen finden Sie unter [Sammeln von Debitoren-Einrichtungswerte](admin-gather-customer-setup-values.md).
+Um Ihrem Debitoren zu helfen, das Konfigurationspaket zu verwenden, können Sie dem Paket einen Fragebogen oder einen Satz von Fragebogen hinzufügen. Der Fragebogen kann dem Debitor beim Verständnis der verschiedenen Setupoptionen helfen. Üblicherweise werden Fragebögen für die größten Einrichtungstabellen in erstellt, wenn ein Debitor weitere Anleitung dazu anfordert, wie eine entsprechende Einstellung wählen soll. Weitere Informationen finden Sie unter [Sammeln von Debitoren-Einrichtungswerte](admin-gather-customer-setup-values.md).
 
 Vergewissern Sie sich, dass Sie sich auf der RapidStart Services-Implementierer-Rollencenterseite für den Basismandanten befinden. Weitere Informationen finden Sie unter [So verwenden Sie das RapidStart Service Implementer Rollencenter, um den Status zu verfolgen.](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
 
@@ -56,7 +56,7 @@ Geben Sie an, welche Felder im Paket enthalten sind. Standardmäßig sind alle F
 Nachdem Sie die Liste der Felder, die von einer Tabelle enthalten sein sollen, neu definiert haben, können Sie die Ergebnisse in Excel prüfen.  
 
 ### <a name="to-filter-and-review-your-dataset"></a>So filtern und überprüfen Sie Ihr Dataset.  
-1. Um einen bestimmten Satz von Datensätzen zu filtern, um ihn im Konfigurationsarbeitsblatt zu berücksichtigen, wählen Sie auf der Registerkarte **Zeilen** die Option f**Filter** und definieren Sie dann den entsprechenden Filterwert.  
+1. Um einen bestimmten Satz von Datensätzen zu filtern, um ihn im Konfigurationsarbeitsblatt zu berücksichtigen, wählen Sie auf der Registerkarte **Zeilen** die Option **Filter** und definieren Sie dann den entsprechenden Filterwert.  
 2. Wählen Sie auf der Paketkarte auf der Symbolleiste **Zeilen** im Menü Excel die Option **Nach Excel exportieren**.  
 3. Bestätigen Sie die Meldungen, die das Exportieren von Daten nach Excel aktivieren. Die genannte XLSX-Datei wird geöffnet. Überprüfen Sie die Daten, die exportiert wurden.  
 4. Schließen Sie Excel.  
@@ -70,7 +70,7 @@ Bei bestimmten Tabellen etwa eine, die Stammdaten enthält, können Sie eine Vor
 Nachdem das Paket vollständig ist, verwenden Sie den folgenden Vorgang, um das Paket in eine Datei zu speichern. Sie können das Paket einem Debitor oder einem Partnerunternehmen zu Verwendung geben.
 
 ### <a name="to-save-and-export-a-configuration-package"></a>So speichern und exportieren Sie ein Konfigurationspaket.  
-- Auf der Seite  **Config. Paketkarte** wählen Sie die **Paket exportieren** Aktion aus.  
+- Auf der Seite **Config. Paketkarte** wählen Sie die **Paket exportieren** Aktion aus.  
 
 Das Paket wird in einer .rapidstart-Datei erstellt werden, die Paketinhalte in einem komprimierten Format bereitstellt. Konfigurationsfragebögen, Konfigurationsvorlagen und das Konfigurationsarbeitsblatt werden dem Paket automatisch hinzugefügt, es sei denn, Sie sich speziell dafür entscheiden, sie auszuschließen.  
 
@@ -93,7 +93,7 @@ Verwenden Sie das Konfigurationsarbeitsblatt, um Informationen zu sammeln und zu
 3.  Wählen Sie im Feld **Zeilenart** die Option **Gruppe** aus. Geben Sie im Feld **Name** einen beschreibenden Namen ein.  
 4.  Wählen Sie im Feld **Zeilenart** die Option **Tabelle** aus. Geben Sie im Feld **Tabellen-ID** die Tabelle ein, die im Arbeitsblatt berücksichtigt werden soll.  
 
-Jetzt können Sie die Tabellen bestimmten Konfigurationspaketen zuweisen, die Sie erstellt haben oder zu erstellen planen. Weitere Informationen finden Sie unter Vorgehensweise: Zuordnen von Tabellen zu einem Konfigurations-Paket.
+Jetzt können Sie die Tabellen bestimmten Konfigurationspaketen zuweisen, die Sie erstellt haben oder zu erstellen planen. Weitere Informationen finden Sie unter [So weisen Sie einem Konfigurationspaket eine Tabelle zu](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## <a name="to-work-with-promoted-tables"></a>So arbeiten Sie mit heraufgestuften Tabellen.  
 1. Wählen Sie das Kontrollkästchen **Höhergestufte Tabelle**, um eine Tabelle anzugeben, die häufig während des Setupprozesses von einem typischen Debitor verwendet wird, beispielsweise die Tabelle **Sachkonto**. Wenn eine Tabelle diese Bezeichnung hat, kann ein Debitor das Arbeitsblatt leicht filtern, um nur die Liste der höhergestuften Tabellen anzuzeigen, die Aufmerksamkeit erfordern.  
@@ -103,7 +103,7 @@ Jetzt können Sie die Tabellen bestimmten Konfigurationspaketen zuweisen, die Si
 Nachdem Sie die Tabellen festgelegt haben, die Sie als Teil der Konfiguration behanden möchten, können Sie die Tabellen einfach den Konfigurationspaketen zuweisen. Sie können eine Tabelle nur einem Paket zuweisen. Im folgenden Verfahren weisen Sie das Paket aus dem Kontext des Konfigurationsarbeitsblatts zu.  
 
 > [!NOTE]  
->  Sie können ein Paket auch direkt erstellen und ihm Tabellen hinzufügen. Weitere Informationen zum Erstellen einer Vorlage finden Sie unter Vorgehensweise: Ein Konfigurationspaket erstellen.
+>  Sie können ein Paket auch direkt erstellen und ihm Tabellen hinzufügen. Weitere Informationen finden Sie unter [So erstellen Sie ein Konfigurationspaket](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie im Konfigurationsarbeitsblatt eine Zeile oder mehrere Zeilen aus, die Sie einem Konfigurationspaket zuordnen möchten und wählen Sie **Paket zuweisen**.  
@@ -139,4 +139,3 @@ Nachdem Sie alle Ihre Setupinformationen untersucht und getestet haben, können 
 [Richten Sie eine Unternehmenskonfiguration ein.](admin-set-up-company-configuration.md)  
 [Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
-

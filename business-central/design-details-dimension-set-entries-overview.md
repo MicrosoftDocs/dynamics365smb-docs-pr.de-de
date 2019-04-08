@@ -1,5 +1,5 @@
 ---
-title: "Dimensionssatzposten Übersicht | Microsoft Docs"
+title: Dimensionssatzposten Übersicht | Microsoft Docs
 description: In diesem Thema wird beschrieben, wie Dimensionssatzposten in Dynamics 365 gespeichert und gebucht werden.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 927ec8c1379a3f03d5bd377e6cd3d21c66691a00
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798659"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensionssatz-Eintrags-Übersicht
 In diesem Thema wird beschrieben, wie Dimensionssatzposten in [!INCLUDE[d365fin](includes/d365fin_md.md)] gespeichert und gebucht werden.  
@@ -49,4 +49,3 @@ Durch das einmalige Speichern von Dimensionssätzen in der Datenbank wird Datenb
 [Designdetails: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)   
 [Designdetails: Codebeispiele von geänderten Mustern in Änderungen](design-details-code-examples-of-changed-patterns-in-modifications.md)   
 [Designdetails: Dimensionssatzeinträge](design-details-dimension-set-entries.md)   
-

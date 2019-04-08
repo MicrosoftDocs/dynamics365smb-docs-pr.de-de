@@ -1,6 +1,6 @@
 ---
-title: "Arbeiten mit Finanzübersichten in Excel | Microsoft Docs"
-description: "Mehr erfahren, wie Sie die Finanzaufstellungen in Microsoft Excel von  Business Central für eine Analyse öffnen können."
+title: Arbeiten mit Finanzübersichten in Excel | Microsoft Docs
+description: Mehr erfahren, wie Sie die Finanzaufstellungen in Microsoft Excel von  Business Central für eine Analyse öffnen können.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ef371dda59142f38aa50159ecf305880d34529b
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798736"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysieren von Finanzauswertungen in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], können Sie KPIs sehen und Übersichten über die Finanzlage des Unternehmens anzeigen. Sie können ebenfalls Listen in Excel öffnen und die Daten dort analysieren. Sie können jedoch umfangreiche Finanzauswertungen wie die Bilanz oder der GuV in Excel exportieren, die Daten analysieren und Änderungen wieder importieren .  
@@ -43,7 +43,6 @@ Mit dem Add-In können Sie neue Daten abrufen von [!INCLUDE[d365fin](includes/d3
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
-[Finance einrichten](finance-setup-finance.md)  
+[Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
-

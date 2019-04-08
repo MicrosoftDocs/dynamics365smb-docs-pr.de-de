@@ -1,6 +1,6 @@
 ---
 title: Einrichten eines Kontenplans
-description: "Sie können jedoch die Standardkonten im Konenplan ändern und neue Konten hinzufügen"
+description: Sie können jedoch die Standardkonten im Konenplan ändern und neue Konten hinzufügen
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 12/10/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: 962f0b81d39e8e79fb7273ee93417b01be8d9e5a
-ms.contentlocale: de-de
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799364"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Einrichten oder Ändern des Kontenplans
 Der Kontenplan zeigt die Sachkonten an, die Finanzdaten speichern. [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
@@ -37,9 +37,8 @@ Im Kontenplan können Sie jedes Sachkonto öffnen und Einstellungen hinzufügen 
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Verwalten von Bankkonten](bank-manage-bank-accounts.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
-[Importieren von Daten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importieren von Daten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-

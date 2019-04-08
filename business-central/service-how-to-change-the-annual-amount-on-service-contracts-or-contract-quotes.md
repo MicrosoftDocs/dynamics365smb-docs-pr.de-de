@@ -1,21 +1,21 @@
 ---
-title: "Vorgehensweise: Ändern des Betrags \"Zu fakturieren (Jahr)\" von Serviceverträgen oder Vertragsangeboten | Microsoft Docs"
-description: "Gibt den Betrag an, der jährlich für den Servicevertrag oder das Vertragsangebot fakturiert wird."
+title: 'Vorgehensweise: Ändern des Betrags "Zu fakturieren (Jahr)" von Serviceverträgen oder Vertragsangeboten | Microsoft Docs'
+description: Gibt den Betrag an, der jährlich für den Servicevertrag oder das Vertragsangebot fakturiert wird.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
-ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798190"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändern des jährlichen Betrags für Serviceverträgen oder Vertragsangebote
 Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder Vertragsangebots ändern, um den jährlich fakturierten Betrag zu korrigieren.  
@@ -118,7 +118,7 @@ Zum Schluss werden die Vertragszeilen die folgenden Daten enthalten.
 |----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
 |Artikel 1|15.00|17.00|11.41|1.94|15.06|0.06|  
 |Artikel 2|20,00|23.00|8.65|1.99|21.01|1.01|  
-|Artikel 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   Zeilenrabatt % = Zeilenrabattbetrag / Zeilenwert * 100.  
+|Artikel 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   Zeilenrabatt % = Zeilenrabattbetrag / Zeilenwert * 100  
 
 #### <a name="example"></a>Beispiel  
 Das Feld **Nicht ausgegl. Betr. zulassen** ist nicht im Servicevertrag aktiviert, wenn dieser drei Vertragszeilen mit folgenden Daten enthält.  
@@ -188,4 +188,3 @@ Zum Schluss werden die Vertragszeilen die folgenden Daten enthalten.
 ## <a name="see-also"></a>Siehe auch  
 [Erstellen von Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
-

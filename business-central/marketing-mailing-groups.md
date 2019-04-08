@@ -1,8 +1,8 @@
 ---
-title: "Versandgruppen für Kontakte einrichten| Microsoft Docs"
+title: Versandgruppen für Kontakte einrichten| Microsoft Docs
 description: Einrichten von Verteilern zum Identifizieren von Kontaktgruppen, denen die gleichen Informationen zugehen sollen, z. B. Marketingkampagnen oder Promotionen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 6c089b772c139d0c0e9465f383ab39bd3c125dca
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7f40b94cef953b22684ddcc744de0cfbdb8e0f20
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798375"
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Einrichten von Verteilern für Kontakte
 Verteiler werden verwendet, um Kontaktgruppen zu identifizieren, die dieselben Informationen erhalten sollen. Sie können z. B. einen Verteiler für die Kontakte erstellen, denen Sie eine Benachrichtigung über einen Büroumzug schicken möchten.
@@ -43,7 +43,5 @@ Die Anzahl der dem Kontakt zugeordneten Verteiler wird im Feld **Anzahl Verteile
 Sobald Sie Ihren Kontakten Verteiler zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Hinzufügen von Kontakten zu Segmenten](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Siehe auch
-[Kontaktunternehmenerstellen](marketing-create-contact-companies.md)  
-[Kontaktpersonen erstellen](marketing-create-contact-persons.md)  
-[Arbeiten mit  Business Central](ui-work-product.md)
-
+[Kontakte erstellen](marketing-create-contact-companies.md)  
+[Arbeiten mit Business Central](ui-work-product.md)

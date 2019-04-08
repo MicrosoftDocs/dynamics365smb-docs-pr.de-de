@@ -1,6 +1,6 @@
 ---
 title: Finanzberichte mithilfe von Kontenschemata bauen
-description: "Beschreibt, wie Filter verwendet werden, um unterschiedliche Ansichten und Berichte zum Analysieren von Finanzverhältnisleistungsdaten zu erstellen."
+description: Beschreibt, wie Filter verwendet werden, um unterschiedliche Ansichten und Berichte zum Analysieren von Finanzverhältnisleistungsdaten zu erstellen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/16/2018
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: 6c6ffd488dc903c2a1142727ce205975e27091b2
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852516"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor
 Verwenden von Kontenplan, um die Einblicke in die Finanzdaten zu kommen, die in Ihrem Kontenplan gespeichert werden. Verwenden von Kontenschemata zum Analysieren der Werte auf Sachkonten oder zum Vergleichen von Sachposten mit Finanzbudgetposten. Die Ergebnisse werden in den Diagrammen in Ihrem Rollencenter angezeigt, wie der Cashflowplan und Berichten, wie den GuV und den Bilanzberichten.
@@ -36,7 +36,7 @@ Auch können mehrere Kontenschemata und Spaltenlayouts mithilfe von Formeln verg
 * Einrichten unterschiedlicher Berichtslayouts und Drucken der Berichte mit den aktuellen Werten
 
 ## <a name="account-categories"></a>Kontokategorien
-Sie können Kontengruppen dazu verwenden, das Layout Ihrer Finanzberichte zu ändern. Wenn Sie Ihre Kontengruppen auf der Seite **Sachkontokategorien** eingerichtet haben und die Aktion **Kontenschemata generieren** auswählen, werden die zugrunde liegenden Kontenschemata für die Kernfinanzberichte aktualisiert. Wenn Sie das nächste Mal einen dieser Berichte wie die Saldoabrechnung ausführen, werden neue Summen und Untereinträge basierend auf Ihren Änderungen hinzugefügt. Weitere Informationen finden Sie unter "Buchhaltungskategorien" unter [Verständis der Fibu und des Kontoplans](finance-general-ledger.md).  
+Sie können Kontengruppen dazu verwenden, das Layout Ihrer Finanzberichte zu ändern. Wenn Sie Ihre Kontengruppen auf der Seite **Sachkontokategorien** eingerichtet haben und die Aktion **Kontenschemata generieren** auswählen, werden die zugrunde liegenden Kontenschemata für die Kernfinanzberichte aktualisiert. Wenn Sie das nächste Mal einen dieser Berichte wie die Saldoabrechnung ausführen, werden neue Summen und Untereinträge basierend auf Ihren Änderungen hinzugefügt. Weitere Informationen finden Sie unter [Kontokategorien](finance-general-ledger.md#account-categories).  
 
 ## <a name="to-create-a-new-account-schedule"></a>So erstellen Sie neue Kontenschemata  
 Sie benutzen Kontenschemata zum Analysieren der Werte auf Sachkonten oder zum Vergleichen von Sachposten mit Finanzbudgetposten. Sie können beispielsweise die Sachposten als prozentualen Anteil der Finanzbudgetposten sehen.
@@ -50,11 +50,11 @@ Die Seite **Kontenschema. Planen Überblick** ist jene, auf der Sie Finanzberich
 3. Im Fenster **Kontenplan kopieren** geben Sie die zwei Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
 4. Füllen Sie die Felder je nach Bedarf aus. Im **Standard Spaltenlayout** Feld wählen Sie ein existierendes Layout aus. Sie können diese bei Bedarf später bearbeiten.
 
-    Sie nutzen Spaltenlayouts, um Spalten für verschiedene Parameter festzulegen, durch die die Finanzdaten in den Zeilen angezeigt werden. Zum Beispiel können Sie ein Spalten-Layout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres mit vier Spalten vergleicht. Weitere Informationen finden Sie im Abschnitt "Erstellen von Spaltenlayout".
+    Sie nutzen Spaltenlayouts, um Spalten für verschiedene Parameter festzulegen, durch die die Finanzdaten in den Zeilen angezeigt werden. Zum Beispiel können Sie ein Spalten-Layout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres mit vier Spalten vergleicht. Weitere Informationen finden Sie im Abschnitt [So erstellen Sie ein Spaltenlayout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Wählen Sie die **Kontenschema bearbeiten** Aktion aus.
-6. Erstellen Sie eine Zeile für jedes Finanzelement, dass im Bericht, wie eine Zeile für Umlaufvermögen und eine weitere Zeile für Anlagen erscheinen sollen. Für Inspiration finden Sie im CRONUS-Demomandanten vorhandene Kontenschemata.
-7. Wählen Sie die **Übersicht** Aktion aus,  um den resultierenden Finanzbericht anzuzeigen.
+6. Erstellen Sie eine Zeile für jedes Finanzelement, dass im Bericht, wie eine Zeile für Umlaufvermögen und eine weitere Zeile für Anlagen erscheinen sollen. Für Inspiration finden Sie im CRONUS-Demounternehmen vorhandene Kontenschemata.
+7. Wählen Sie die **Übersicht** Aktion aus, um den resultierenden Finanzbericht anzuzeigen.
 8. Auf der Seite **Kontenschema-Überblick** im Feld **Spaltenlayoutname** wählen Sie ein anderes Spaltenlayout aus, um die Finanzdaten durch andere Einstellungen anzuzeigen.
 9. Wählen Sie die Schaltfläche **OK** aus.
 
@@ -98,7 +98,7 @@ Sie können eine Kontenschema zum Erstellen eines Vergleichs der in der Finanzbu
 
     Die Konten sind damit in Ihr Kontenschema eingefügt. Wenn Sie möchten, können Sie auch das Spaltenlayout ändern.  
 7. Wählen Sie die Aktion **Übersicht** aus.  
-8. Auf der Seite **Kontoschema-Übersicht** im Inforegister **Dimensionenfilter**legen Sie den gewünschten Budgetfilter fest.  
+8. Auf der Seite **Kontoschema-Übersicht** im Inforegister **Dimensionenfilter** legen Sie den gewünschten Budgetfilter fest.  
 9. Wählen Sie die Schaltfläche **OK** aus.  
 
 Die Budgetaufstellung kann nun kopiert und in ein Arbeitsblatt eingefügt werden.  
@@ -199,4 +199,3 @@ Wenn die Berechnung gemäß regulärer Zeitperioden erfolgen soll, muss eine For
 [Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

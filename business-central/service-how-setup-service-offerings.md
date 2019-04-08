@@ -2,7 +2,7 @@
 title: Einrichten von Serviceangeboten | Microsoft Docs
 description: Erfahren Sie, wie die Anwendung eingerichtet wird, die Sie Ihren Debitoren anbieten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 93afb98600552e58640d5aa12fa91efd15afebfb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25aea9e2709f0cea32844d60e0dff7ab34c5796b
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798915"
 ---
-
 # <a name="set-up-service-offerings"></a>Um Serviceangebote einzurichten:
 Beim Einrichten des Servicemanagements muss festgelegt werden, welche Services Debitoren angeboten werden und ein entsprechender Zeitplan entworfen werden. Bei einem Service handelt es sich um eine Arbeit, die von mindestens einer Ressource ausgeführt und einem Debitor zur Verfügung gestellt wird. Ein Beispiel für einen Service ist die Reparatur eines Computers. Ein Serviceartikel ist das Gerät oder der Artikel, für den ein Service zu erbringen ist, beispielsweise ein reparaturbedürftiger Computer, der bei einem bestimmten Debitor installiert ist. Sie können Services als Teil einer Gruppe zugehöriger zu reparierender oder zu wartender Artikel einrichten.  
   

@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Kontaktpersonen| Microsoft Docs
-description: "Gliedert die Aufgaben, eine Kontaktkarte für eine Person, z. B. einen Interessenten oder einen Lieferanten zu erstellen und hilft, die Beziehung zu definieren und Kommunikationen anzupassen."
+description: Gliedert die Aufgaben, eine Kontaktkarte für eine Person, z. B. einen Interessenten oder einen Lieferanten zu erstellen und hilft, die Beziehung zu definieren und Kommunikationen anzupassen.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 871e2c2fe75d5c14299651ab278aee9140430d19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
-ms.contentlocale: de-de
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798251"
 ---
 # <a name="creating-contact-persons"></a>Kontaktpersonen erstellen
 Ein Kontakt wird durch Einrichten einer Kontaktkarte für die Person erstellt. Sie können Kontaktpersonen auf der Grundlage vorhandener Kontaktunternehmen oder auch unabhängige Kontaktpersonen erstellen.
@@ -44,8 +45,6 @@ Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unterne
 >   Die Inhalte der Felder, die Sie auf der Seite **Übernahme** im Abschnitt **Marketing & Vertrieb Einr.** ausgewählt haben, werden für die Person aus dem Unternehmen übernommen.
 
 ## <a name="see-also"></a>Siehe auch
-[Kontaktunternehmenerstellen](marketing-create-contact-companies.md)  
-[Kontaktpersonen erstellen](marketing-create-contact-persons.md)  
+[Kontakte erstellen](marketing-create-contact-companies.md)  
 [Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren](marketing-create-contact-profile-questionnaire.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)
-

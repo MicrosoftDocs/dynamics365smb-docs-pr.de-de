@@ -1,8 +1,8 @@
 ---
-title: "Übersicht über das Buchen von Dokumenten und Buch.-Blättern | Microsoft Docs"
-description: "Zeigt Buchungsaktionen und die Art und Weise, wie Sie Dokumente und Buch.-Blätter buchen können."
+title: Übersicht über das Buchen von Dokumenten und Buch.-Blättern | Microsoft Docs
+description: Zeigt Buchungsaktionen und die Art und Weise, wie Sie Dokumente und Buch.-Blätter buchen können.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 139cc2d43dbebb3c6c2f386b2977ba67bbe438d6
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798051"
 ---
 # <a name="post-documents-and-journals"></a>Journale und Dokumente buchen
 Das Buchen stellt die Buchhaltungsaktion vom Aufzeichnen von Geschäftstransaktionen in verschiedenen Mandantensachkontos dar.
@@ -36,5 +36,4 @@ Die folgende Tabelle enthält Informationen zu verwandten Aufgaben wie Links zu 
 ## <a name="see-also"></a>Siehe auch
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

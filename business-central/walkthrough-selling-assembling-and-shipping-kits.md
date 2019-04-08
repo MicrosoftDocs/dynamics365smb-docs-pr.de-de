@@ -1,23 +1,23 @@
 ---
 title: 'Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits | Microsoft Docs'
-description: "Um eine Just-In-Time-Logistik sowie die Möglichkeit, Produkte an Debitorenanfragen anzupassen, zu unterstützen, können Montageaufträge automatisch erstellt und verknüpft werden, sobald die Verkaufsauftragszeile erstellt wird. Der Verknüpfung zwischen dem Verkaufsbedarf und dem Montagezubehör ermöglicht Verkaufsauftragsverarbeitern die Anpassung des Montageartikels und die Zusage von Lieferungsdaten auf der Grundlage der Verfügbarkeit von Komponenten. Darüber hinaus werden der Montageverbrauch und die Ausgabe automatisch mit der Lieferung des verknüpften Verkaufsauftrags gebucht."
+description: Um eine Just-In-Time-Logistik sowie die Möglichkeit, Produkte an Debitorenanfragen anzupassen, zu unterstützen, können Montageaufträge automatisch erstellt und verknüpft werden, sobald die Verkaufsauftragszeile erstellt wird. Der Verknüpfung zwischen dem Verkaufsbedarf und dem Montagezubehör ermöglicht Verkaufsauftragsverarbeitern die Anpassung des Montageartikels und die Zusage von Lieferungsdaten auf der Grundlage der Verfügbarkeit von Komponenten. Darüber hinaus werden der Montageverbrauch und die Ausgabe automatisch mit der Lieferung des verknüpften Verkaufsauftrags gebucht.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
-ms.contentlocale: de-de
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852700"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
 
@@ -27,7 +27,7 @@ Um eine Just-In-Time-Logistik sowie die Möglichkeit, Produkte an Debitorenanfra
 
 Es sind spezielle Funktionen vorhanden, um die Lieferung von Auftragsmontagemengen zu steuern, sowohl in einfachen als auch in erweiterten Lagerkonfigurationen. Wenn Arbeiter für montagefertige Teile oder für die gesamte Auftragsmontagemenge zuständig sind, erfassen sie diese im Feld **Vesandmenge** in der Warenausgangszeile, in erweiterten Konfigurationen, und wählen dann **Warenausgang buchen**. Das Ergebnis ist, dass der entsprechende Montageausstoß, einschließlich des zugehörigen Komponentenverbrauchs, gebucht wird und eine Verkaufslieferung für die Menge für den verknüpften Verkaufsauftrag gebucht wird. Diese Anleitung illustriert den erweiterten Lagerprozess.  
 
-In Basis-Lagerkonfigurationen bucht der zuständige Lagermitarbeiter für die jeweiligen Verkaufsauftragszeilen eine Lagerkommissionierung, wenn eine Auftragsmontagemenge für die Lieferung bereitsteht. Dies erstellt eine Lagerbestandsumlagerung für die Komponenten und bucht den Montageausstoß und die Verkaufsauftragslieferung. Weitere Informationen finden Sie im Abschnitt "Verwenden von Auftragsmontageartikeln in Lagerkommissionierungen" in Lagerkommissionierung  
+In Basis-Lagerkonfigurationen bucht der zuständige Lagermitarbeiter für die jeweiligen Verkaufsauftragszeilen eine Lagerkommissionierung, wenn eine Auftragsmontagemenge für die Lieferung bereitsteht. Dies erstellt eine Lagerbestandsumlagerung für die Komponenten und bucht den Montageausstoß und die Verkaufsauftragslieferung. Weitere Informationen finden Sie unter [Verwenden von Auftragsmontageartikeln in Lagerkommissionierungen](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
@@ -106,7 +106,7 @@ Entfernen Sie die Standard-Beschaffungszeit für interne Vorgänge, indem Sie di
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Produktion Einrichtung** ein, und wählen dann den zugehörigen Link aus.  
 2.  Auf der Seite **Produktion Einrichtung** im Inforegister **Planung**, löschen Sie den Wert im Feld **Vorg. Sich.-Zuschl. Besch.-Zt.** Feld.  
 
-Erstellen Sie Bestand für Montagekomponenten, indem Sie die Anweisungen im Abschnitt "Vorbereiten von Beispieldaten" in dieser Anleitung befolgen.  
+Erstellen Sie Bestand für Montagekomponenten, indem Sie die Anweisungen in [Vorbereiten von Beispieldaten](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data) befolgen.  
 
 ## <a name="story"></a>Hintergrund  
 Am 23. Januar akzeptiert Martha, die Verkaufsauftragsverarbeiterin, einen Auftrag von The Device Shop für drei Einheiten von Kit B, wobei es sich um einen ATO-Artikel handelt. Alle drei Einheiten werden individuell angepasst und müssen eine leistungsstarke Grafikkarte und einen zusätzlichen RAM-Block enthalten. Die Laufwerke werden auf DWD aktualisiert, da die CD-Laufwerke nicht verfügbar sind. Martha weiß, dass die Einheiten sofort montiert werden können, sie lässt daher das vorgeschlagene Lieferdatum vom 23. Januar unverändert.  
@@ -135,7 +135,7 @@ Sammy verpackt die zehn ATS-Einheiten mit den fünf ATO-Einheiten, die Elfriede 
 
 Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Verkaufsauftrag und die verknüpften Montageaufträge entfernt.  
 
-## <a name="setting-up-the-sample-data"></a>Einrichten der Beispieldaten  
+## <a name="prepare-sample-data"></a>Vorbereiten der Beispieldaten  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Artikel Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
 2.  Wählen Sie das Feld **Buch.-Blattname**, und wählen Sie anschließend das Standardjournal aus.  
@@ -443,4 +443,3 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
  [Designdetails: Interner Lagerfluss](design-details-internal-warehouse-flows.md)   
  [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md)   
  [Exemplarische Vorgehensweise: Automatische Beschaffungsplanung](walkthrough-planning-supplies-automatically.md)
-

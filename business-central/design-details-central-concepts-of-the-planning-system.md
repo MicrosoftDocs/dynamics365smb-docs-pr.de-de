@@ -1,23 +1,23 @@
 ---
 title: 'Designdetails: - Zentrale Konzepte des Planungssystems| Microsoft Docs'
-description: "Die Planungsfunktionen sind in der Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode auswählen, um die Planung zu wählen und dann die Aktion dem Anwender vorschlägt, die er treffen muss, basierend auf der Nachfrage-/Bestandsituation und die Artikelplanungsparameter."
+description: Die Planungsfunktionen sind in der Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode auswählen, um die Planung zu wählen und dann die Aktion dem Anwender vorschlägt, die er treffen muss, basierend auf der Nachfrage-/Bestandsituation und die Artikelplanungsparameter.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 06dc378a045f9217cd54a53fef9747fbd9c7ba1b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798971"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
 Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsvorschlag oder Bestellvorschlag.  
@@ -237,7 +237,7 @@ Das Unterschreiten des Sicherheitsbestand gilt als Ausnahme, da dieser Zustand n
 Im Allgemeinen gewährleisten außergewöhnliche Bestellvorschläge, dass der voraussichtlich verfügbare Lagerbestand nicht geringer als die Sicherheitsbestandsebene ist. Das bedeutet, dass die vorgeschlagene Menge gerade ausreicht, den Sicherheitsbestand zu umfassen, ohne Planungsparameter zu berücksichtigen. Jedoch in einigen Szenarien werden Auftragsmodifikationen berücksichtigt.  
 
 > [!NOTE]  
->  Das Planungssystem hat möglicherweise den Sicherheitsbestand absichtlich verbraucht und füllt ihn dann sofort auf. Weitere Informationen finden Sie, im Abschnitt "der Sicherheitsbestand ist möglicherweise verbraucht" unter [Designdetails: Laden des Lager-Profils](design-details-loading-the-inventory-profiles.md).
+>  Das Planungssystem hat möglicherweise den Sicherheitsbestand absichtlich verbraucht und füllt ihn dann sofort auf. Weitere Informationen finden Sie unter [Sicherheitsbestand kann verbraucht werden](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
 
 ### <a name="attention"></a>Achtung  
 Die Achtungswarnung wird in drei Situationen angezeigt:  
@@ -289,4 +289,3 @@ Damit ist die Vorstellung der zentralen Konzept in Bezug auf die Beschaffungspla
 [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)   
 [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)
-

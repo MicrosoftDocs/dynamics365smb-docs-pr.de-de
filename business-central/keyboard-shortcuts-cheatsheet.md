@@ -1,6 +1,6 @@
 ---
-title: "Tastenkombinationskurzübersicht"
-description: "Ein druckerfreundliches Bezugsblatt, das die gängigsten Tastenkombinationen enthält."
+title: Tastenkombinationskurzübersicht
+description: Ein druckerfreundliches Bezugsblatt, das die gängigsten Tastenkombinationen enthält.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
-ms.contentlocale: de-de
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798347"
 ---
-
 # <a name="keyboard-shortcuts-quick-reference"></a>Tastenkombinationskurzübersicht
 
 ||||  
@@ -27,4 +26,3 @@ ms.lasthandoff: 12/04/2018
 |**Kopieren und einfügen**|Strg+C<br />Strg+V<br />F8|Zeilen kopieren<br />Zeilen einfügen<br />Kopiere Feld in aktuellen Zeile|
 |**Suche, Filter und Sortieren**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Toggle-Suche<br />Wechselt zwischen Filterbereich; Fokus auf Feldfilter<br />Wechselt zwischen Filterbereich; Fokus auf Feldfilter<br />Filtern Sie ausgewählte Zellwerte<br />Filter auf ausgewählten Felder hinzufügen<br />Filter zurücksetzen|
 |**Berichtvorschau**|Auf/Ab<br />Rechts/Links<br />Strg+Start/Ende<br />Umschalttaste +Seite nach Unten/Oben|Führen Sie einen Bildlauf zum Ende der Seite durch<br />Blättern Sie nach rechts/links <br />Zur ersten/letzten Seite.<br />Zur vorherigen/nächsten Seite.|
-

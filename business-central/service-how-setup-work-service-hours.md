@@ -1,23 +1,23 @@
 ---
 title: 'Vorgehensweise: Einrichten von Arbeits- und Servicezeiten | Microsoft Docs'
-description: "Sie können die üblichen Arbeitszeiten in Ihrer Firma festlegen. Anhand von diesen Servicezeiten werden die Reaktionszeiten (Datum und Zeit) für Serviceaufträge und -angebote berechnet und Reaktionszeitwarnungen ausgegeben."
+description: Sie können die üblichen Arbeitszeiten in Ihrer Firma festlegen. Anhand von diesen Servicezeiten werden die Reaktionszeiten (Datum und Zeit) für Serviceaufträge und -angebote berechnet und Reaktionszeitwarnungen ausgegeben.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 223d69df17dad2a1309d333fc64be8b208262530
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798978"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Einrichten von Arbeits- und Servicezeiten
 Normalerweise verfolgt ein Servicemanagementsystem Ressourcenstunden und den Serviceauftragsstatus, um die Arbeitsauslastung und Serviceanforderungen zu prognostizieren. [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über integrierte Tools, die so angepasst werden können, dass diese Arten von Informationen erfasst werden.  
@@ -60,4 +60,3 @@ Wenn Sie keine vertragsspezifischen Servicezeiten in Verträgen einrichten, werd
 [Zuordnungsstatus und Reparaturstatus](service-allocation-status-and-repair-status.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Serviceauftrags- und Reparaturstatus](service-order-repair-status.md)  
-

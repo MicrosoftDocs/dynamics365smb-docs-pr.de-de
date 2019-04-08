@@ -1,7 +1,7 @@
 ---
 title: Erstellen und Verwalten von Katalogaritkel | Microsoft Docs
-description: "Beschreibt, wie man den Artikel behandelt, der in der Übersicht der Artikel aber nicht in Ihrer persönlichen Artikelliste ist."
-documentationcenter: 
+description: Beschreibt, wie man den Artikel behandelt, der in der Übersicht der Artikel aber nicht in Ihrer persönlichen Artikelliste ist.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: 780aabb1bcd37cfd912f84da7b956a146a918eef
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836135"
 ---
 # <a name="work-with-catalog-items"></a>Arbeiten mit Katalogartikeln
 Sie können Ihren Debitoren bestimmte Artikel als Dienstleistung anbieten, die Sie nicht im Lager verwalten möchten, bis Sie den Verkauf sie starten. Wenn Sie damit beginnen wollen, solche Artikel im Lager zu verwalten, können Sie sie auf zwei Arten in normale Artikelkarten umwandeln.
@@ -66,11 +66,10 @@ Eine neue Artikelkarte, die mit Informationen des Katalogartikels und einer Vorl
 Sie können dann die Felder in der neuen Artikelkarte nach Bedarf ausfüllen oder ändern. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Für den Kreditor des Artikels wird automatisch ein Artikelreferenzdatensatz zwischen der Artikelnummer des Kreditors und Ihrer neuen Artikelnummer erstellt.
+>   Für den Kreditor des Artikels wird automatisch ein Artikelreferenzdatensatz zwischen der Artikelnummer des Kreditors und Ihrer neuen Artikelnummer erstellt. Weitere Informationen finden Sie unter [Verwenden von Artikelquerverweisen](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Spezialaufträge erstellen](sales-how-to-create-special-orders.md)|  
-[Lagerbestand](inventory-manage-inventory.md)  
+[Lagerbest](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

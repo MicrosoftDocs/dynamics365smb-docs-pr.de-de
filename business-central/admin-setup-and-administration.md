@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/24/2019
 ms.author: edupont
+ms.openlocfilehash: 8a8aa06268a2b90189dee36a7cf2c5954e45b798
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
-ms.openlocfilehash: 9b45c50d2c3e1f1b7eab8cb8269445d61523011b
-ms.contentlocale: de-de
-ms.lasthandoff: 01/24/2019
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852134"
 ---
 # <a name="administration"></a>Verwaltung
 Zentrale Verwaltungsaufgaben werden in der Regel von einer Rolle im Unternehmen ausgeführt. Der Bereich dieser Aufgaben kann von der Größe des Unternehmens und der Verantwortlichkeiten des Administrators abhängig sein. Diese Aufgaben können die Verwaltung von Datenbanksynchronisierung von Projekt- und E-Mail-Warteschlangen, das Einrichten von Benutzern, das Anpassen der Benutzeroberfläche und Verwalten von Verschlüsselungsschlüsseln enthalten.  
@@ -35,17 +35,17 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |------------|-------------|  
 |Fügen Sie Benutzer hinzu, und verwalten Sie Berechtigungen und den Zugriff auf Daten.|[Benutzer, Profile und Rollencenter verstehen](admin-users-profiles-roles.md)|  
 |Zuweisen von Benutzerberechtigungen, ändern von Zugriffsrechtsätzen und Gruppenbenutzerberechtigungen.|[Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)|
-|Klassifizieren Sie Datenenempfindlichkeit für Felder, sodass Sie auf Anforderungen von den Datenenbetreffen reagieren können, die mit ihren Personendaten verknüpft werden.|[Datensensitivität klassieren](admin-classifying-data-sensitivity.md)|
-|Antworten Sie auf Anforderungen von den Datenenbetreffen, die mit Ihren Personendaten verknüpft werden.|[Antworten auf Anforderungen zu Personendaten](admin-responding-to-requests-about-personal-data.md)|
+|Klassifizieren Sie Datenempfindlichkeit für Felder, sodass Sie auf Anforderungen von den Datensubjekten reagieren können, die mit ihren Personendaten verknüpft werden.|[Datensensitivität klassieren](admin-classifying-data-sensitivity.md)|
+|Antworten Sie auf Anforderungen von den Datensubjekten, die mit Ihren Personendaten verknüpft werden.|[Antworten auf Anforderungen zu Personendaten](admin-responding-to-requests-about-personal-data.md)|
 |Einrichten eines neuen Konzernmandanten mithilfe von Vorlagen|[Neue Unternehmen anlegen](about-new-company.md)|
-|Ändern Sie, welche Felder und Aktionen in der Benutzeroberfläche angezeigt werden, um den Geschäftsprozessen des Unternehmens zu entsprechen. |[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 |Verfolgen aller direkten Änderungen, die von Benutzern an den Daten in der Datenbank vorgenommen werden, um die Quelle von Fehlern und Datenänderungen zu identifizieren|[Änderungen protokollieren](across-log-changes.md)|  
 |Eingeben einzelner oder wiederkehrender Anforderungen zum Ausführen von Berichten oder Codeunits|[Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung](admin-job-queues-schedule-tasks.md)|  
 |Verwalten, löschen oder komprimieren von Belegen|[Löschen von Belegen](admin-manage-documents.md)|  
 |Sie können Seiten, Codeunits und Abfragen als Webdienste zur Verfügung stellen.|[Webdienst veröffentlichen](across-how-publish-web-service.md)|
-|Als Teil der Erstellung von Verbindungs-Apps zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und Drittanbieter durch REST APIs. definieren Sie Vorlagen, die verwendet werden, um leere Eigenschaften einer Einheit zu füllen, wenn Sie eine BUCHUNGS-Aktion über ein API erstellen.|[API Vorlagen konfigurieren](admin-configuring-api-template.md)|
+|Als Teil der Erstellung von Verbindungs-Apps zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und Drittanbieterlösungen durch REST APIs definieren Sie Vorlagen, die verwendet werden, um leere Eigenschaften einer Einheit zu füllen, wenn Sie eine BUCHUNGS-Aktion über ein API erstellen.|[API Vorlagen konfigurieren](admin-configuring-api-template.md)|
 |Sie können Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] server verschlüsseln, indem Sie neue Verschlüsselungsschlüssel erstellen oder vorhandene importieren, die Sie auf dem Server ausführen.|[Datenverschlüsselung verwalten](admin-manage-data-encryption.md)|
-|Dynamics 365 for Sales mit [!INCLUDE[d365fin](includes/d365fin_md.md)] verbinden, um nahtlose Integration zwischen Kundschaftsbeziehungen und Auftragsabwicklung zu erhalten.|[Dynamics 365 for Sales Integration](marketing-integrate-dynamicscrm.md)|
+|Verbinden Sie Dynamics 365 for Sales mit [!INCLUDE[d365fin](includes/d365fin_md.md)], um nahtlose Integration zwischen Kundschaftsbeziehungen und Auftragsabwicklung im Interessent-zu-Geld-Prozess zu erhalten.|[Integrieren in Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Ändern Sie, welche Felder und Aktionen in der Benutzeroberfläche angezeigt werden, um den Geschäftsprozessen des Unternehmens zu entsprechen, und erweitern Sie die Lösung mit Apps.|[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## <a name="see-also"></a>Siehe auch
 [Geschäftsfunktionen](across-business-functionality.md)  
@@ -54,4 +54,3 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Erste Schritte](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

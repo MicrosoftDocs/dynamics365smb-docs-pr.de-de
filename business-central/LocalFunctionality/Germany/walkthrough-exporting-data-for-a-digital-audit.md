@@ -1,23 +1,23 @@
 ---
-title: "Wie Sie Daten für eine Digital-Überwachung exportieren"
-description: "Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel."
+title: Wie Sie Daten für eine Digital-Überwachung exportieren
+description: Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 20250a4cded759e13d7bbc465172eb8efa6b2651
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826755"
 ---
 # <a name="walkthrough-exporting-data-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung exportieren
 Sie können Geschäftsdaten für Überwachungszwecke exportieren. Die Einrichtung des Datenexportes unterscheidet sich von anderen Unternehmen und Sie sollten Ihren Steuerberater und den Steuerprüfer um Rat fragen. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.  
@@ -34,13 +34,13 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 ## <a name="prerequisites"></a>Voraussetzungen  
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
-- Die deutschen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] mit dem CRONUS AG Demonstrations-Mandanten.
+- Die deutsche Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] mit dem CRONUS AG-Demounternehmen.
 - Die .DTD-Datei, die gemäß GDPdU erforderlich ist. In diesem Szenario **gdpdu-01-08-2002.dtd**.  
 
 ## <a name="story"></a>Hintergrund  
-Cassie ist Buchhalterin bei CRONUS AG. Sie wurde vom Steuerprüfer des Unternehmens benachrichtigt, dass diese eine Liste der Bestellungs- und Verkaufstransaktionen im ersten Quartal des Kalenderjahres 2013 einsehen wollen. Cassie kennt die Art der Finanzdaten, die der Prüfer möchte, aber sie benötigt die Hilfe von Sean, um den Export einzurichten.  
+Cassie ist Buchhalterin bei der CRONUS AG. Sie wurde vom Steuerprüfer des Unternehmens benachrichtigt, dass diese eine Liste der Bestellungs- und Verkaufstransaktionen im ersten Quartal des Kalenderjahres 2013 einsehen wollen. Cassie kennt die Art der Finanzdaten, die der Prüfer möchte, aber sie benötigt die Hilfe von Sean, um den Export einzurichten.  
 
-Sean ist ein Hauptbenutzer mit CRONUS AG. Er versteht, wie die Daten technisch mit Tabellen und Feldern eingerichtet werden. Daher unterstützt er normalerweise Cassie, die Datenexporte für die Prüfer einzurichten. Von anderen Datenexporten weiß er, dass das Werkzeug, das die Prüfer verwenden, einige Anforderungen hat, was die exportierten Dateien enthalten müssen, aber er braucht die Hilfe von Cassie, um genau festzulegen, welche Daten benötigt werden.  
+Sean ist ein Hauptbenutzer der CRONUS AG. Er versteht, wie die Daten technisch mit Tabellen und Feldern eingerichtet werden. Daher unterstützt er normalerweise Cassie, die Datenexporte für die Prüfer einzurichten. Von anderen Datenexporten weiß er, dass das Werkzeug, das die Prüfer verwenden, einige Anforderungen hat, was die exportierten Dateien enthalten müssen, aber er braucht die Hilfe von Cassie, um genau festzulegen, welche Daten benötigt werden.  
 
 ## <a name="defining-the-requirements"></a>Festlegen der Anforderungen  
 Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie um Einsicht in Transaktionen mit Debitoren und Kreditoren gebeten. Daher weiß sie, dass sie Daten aus der Debitoren-, Kreditoren- und der Finanzbuchhaltung benötigt.  
@@ -108,7 +108,7 @@ Cassie hat die Art der Daten beschrieben, die sie benötigt, und informiert Sean
 ## <a name="setting-up-the-source-for-the-data-export"></a>Einrichten von Quellen für den Datenexport  
 Cassie und Sean haben über die Anforderungen gesprochen. Cassie hat erklärt, was die Bemerkungen bedeuten, die sie für die ersten drei Tabellen in den Datensatzquellen erstellt hat. Am nächsten Tag kann Sean die Einrichtung der Quelle für den Datenexport abschließen.  
 
-Zuerst fügt Sean die erforderliche .dtd-Datei der Datensatzdefinition des Datenexports hinzu.  
+Zuerst fügt Stephan die erforderliche .dtd-Datei der Datensatzdefinition des Datenexports hinzu.  
 
 ### <a name="to-add-a-dtd-file-to-a-record-definition"></a>So fügen Sie eine .dtd-Datei einer zugehörigen Berichtsdefinirion hinzu  
 
@@ -128,7 +128,7 @@ Als Nächstes fügt Sean der Quelle die Tabelle **Sachposten** hinzu. Dann fügt
 
 4.  Wählen Sie die Aktion **Einrücken** aus.  
 
-    Dieses rückt die Tabelle **Sachposten** unter der Tabelle **Sachkonto** ein. Als Nächstes fügt Sean eine Tabellenbeziehung zwischen den beiden Tabellen hinzu.  
+    Dieses rückt die Tabelle **Sachposten** unter der Tabelle **Sachkonto** ein. Als Nächstes fügt Stephan eine Tabellenbeziehung zwischen den beiden Tabellen hinzu.  
 
 5.  Wählen Sie die Aktion **Beziehung** aus.  
 6.  Füllen Sie auf der Seite **Datenexport - Berichtsarten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -162,7 +162,7 @@ Als Nächstes fügt Sean der Quelle die Tabelle **Sachposten** hinzu. Dann fügt
     |5|**Belegart**|  
     |17|**Betrag**|  
 
-Sean hat das Feld **Buchungsdatum** aus der Tabelle **Sachposten** hinzugefügt, da Cassie die Daten anhand dem Buchungsdatum gefiltert benötigt. Jetzt verwendet Sean das Feld, um das Feld in der Tabelle **Sachposten** anzugeben, das verwendet wird, um den Zeitraum für den Datenexport zu berechnen.  
+Sean hat das Feld **Buchungsdatum** aus der Tabelle **Sachposten** hinzugefügt, da Cassie die Daten anhand dem Buchungsdatum gefiltert benötigt. Jetzt verwendet Stephan das Feld, um das Feld in der Tabelle **Sachposten** anzugeben, das verwendet wird, um den Zeitraum für den Datenexport zu berechnen.  
 
 ### <a name="to-add-a-period-filter-to-a-table-in-a-data-export-source"></a>Um einen Periodenfilter einer Tabelle in einer Datenexportquelle hinzuzufügen  
 
@@ -173,7 +173,7 @@ Sean hat das Feld **Buchungsdatum** aus der Tabelle **Sachposten** hinzugefügt,
 
 Das bedeutet, dass, wenn Cassie die Daten exportiert und dem Startdatum und dem Enddatum der Periode anzeigt, welche die Auditoren möchten, dass der Export Posten enthält, in denen das Feld **Buchungsdatum** auf dem festgelegten Startdatum und Enddatum ist.  
 
-Als Nächstes fügt Sean die Tabellen **Debitor** und **Kreditor** hinzu.  
+Als Nächstes fügt Stephan die Tabellen **Debitor** und **Kreditor** hinzu.  
 
 ### <a name="to-add-the-customer-table"></a>Um die Kundentabelle hinzuzufügen  
 
@@ -215,7 +215,7 @@ Als Nächstes fügt Sean die Tabellen **Debitor** und **Kreditor** hinzu.
     > [!TIP]  
     >  Um die Reihenfolge der Felder zu ändern, wählen Sie ein Feld, und dann in der Symbolleiste wählen Sie **Nach oben** oder **Nach unten** aus.  
 
-Sean hat die Tabelle **Debitor** der Datenexportquelle hinzugefügt. Nun fügt er die Tabelle **Kreditor** hinzu.  
+Stephan hat die Tabelle **Debitor** der Datenexportquelle hinzugefügt. Nun fügt er die Tabelle **Kreditor** hinzu.  
 
 ### <a name="to-add-the-vendor-table"></a>Um die Kundentabelle hinzuzufügen  
 
@@ -281,4 +281,3 @@ Wenn die Steuerprüfer das nächste Mal neue Daten anfordern, können Cassie und
  [Prozess für Digital-Überwachung](process-for-digital-audits.md)   
  [Wie Sie Daten für eine Digital-Überwachung einrichten](how-to-set-up-data-exports-for-gdpdu.md)   
  [Wie Sie Daten für eine Digital-Überwachung exportieren](how-to-export-data-for-a-digital-audit.md)
-

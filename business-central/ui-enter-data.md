@@ -1,23 +1,22 @@
 ---
 title: Wie Sie Daten in die Felder ein| Microsoft Docs
-description: "Es gibt eine Vielzahl an allgemeinen Funktionen, die Ihnen dabei helfen, Daten schnell und einfach einzugeben. Die allgemeinen Funktionen für die Eingabe von Daten werden in diesem Thema beschrieben."
+description: Es gibt eine Vielzahl an allgemeinen Funktionen, die Ihnen dabei helfen, Daten schnell und einfach einzugeben. Die allgemeinen Funktionen für die Eingabe von Daten werden in diesem Thema beschrieben.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4354e28522d359cf9fa6178c4a1919831dcc52db
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852493"
 ---
-
 # <a name="entering-data"></a>Eingeben von Daten
 Es gibt eine Vielzahl an allgemeinen Funktionen, die Ihnen dabei helfen, Daten schnell und einfach einzugeben. Die allgemeinen Funktionen für die Eingabe von Daten werden alle in diesem Artikel beschrieben.  
 
@@ -145,7 +144,7 @@ Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die speziell 
 |11 12|11-aktueller Monat-aktuelles Jahr 12:00:00|  
 |1112 12|11-12-aktuelles Jahr 12:00:00|  
 |"h" für heute|heutiges Datum 00:00:00|  
-|h Zeit|heutiges Datum aktuelle Zeit|  
+|t Zeit|heutiges Datum aktuelle Zeit|  
 |h 10:30|heutiges Datum 10:30:00|  
 |h 3:3:3|heutiges Datum 03:03:03|  
 |"a" oder "Arbeitsdatum"|das Arbeitsdatum 00:00:00|  
@@ -258,6 +257,5 @@ Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die speziell 
 <!--OnPrem > [!CAUTION]  
 >  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
 ## <a name="see-also"></a>Siehe auch  
- [Ermitteln, filternd und Sortieren von Daten](ui-enter-criteria-filters.md)  
+ [Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

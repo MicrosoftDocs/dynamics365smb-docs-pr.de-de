@@ -1,8 +1,8 @@
 ---
-title: "Überblick zu Aufgaben für Lieferservice | Microsoft Docs"
-description: "Gliedert Arbeiten, um sicherstellen, dass Sie Qualitätsdienst liefern und Verträgen mit Debitoren gerecht werden."
+title: Überblick zu Aufgaben für Lieferservice | Microsoft Docs
+description: Gliedert Arbeiten, um sicherstellen, dass Sie Qualitätsdienst liefern und Verträgen mit Debitoren gerecht werden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799134"
 ---
 # <a name="delivering-service"></a>Bereitstellen von Service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  
@@ -46,4 +46,3 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Planungsservice](service-plan-service.md)  
 [Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)  
 [Projekte verwalten](projects-manage-projects.md)  
-

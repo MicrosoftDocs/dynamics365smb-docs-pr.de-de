@@ -1,21 +1,21 @@
 ---
-title: "Vorgehensweise: Erstellen von Rahmenaufträgen| Microsoft Docs"
-description: "Verwenden Sie Rahmenaufträge, wenn ein Debitor der Abnahme großer Mengen zugestimmt hat, die in mehreren kleineren Lieferungen über einen bestimmten Zeitraum geliefert werden sollen."
+title: 'Vorgehensweise: Erstellen von Rahmenaufträgen| Microsoft Docs'
+description: Verwenden Sie Rahmenaufträge, wenn ein Debitor der Abnahme großer Mengen zugestimmt hat, die in mehreren kleineren Lieferungen über einen bestimmten Zeitraum geliefert werden sollen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/20/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: ac2582e48d03738974d5db51841e1efdf4c0a316
-ms.contentlocale: de-de
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799267"
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbeiten mit Rahmenaufträgen
 Ein Rahmenauftrag stellt ein Gerüst für eine langfristige Vereinbarung zwischen Ihnen und einem Debitor dar.
@@ -97,4 +97,3 @@ Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsau
 [Erstellen von Montagerahmenaufträgen](assembly-how-to-create-blanket-assembly-orders.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

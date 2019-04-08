@@ -1,6 +1,6 @@
 ---
-title: "Fügen Sie Ihren externen Buchhalter Ihrem Business Central hinzu | Microsoft Docs"
-description: "Erfahren Sie, wie Sie Ihren externen Buchhalter zu Ihrem Business Central einladen können."
+title: Fügen Sie Ihren externen Buchhalter Ihrem Business Central hinzu | Microsoft Docs
+description: Erfahren Sie, wie Sie Ihren externen Buchhalter zu Ihrem Business Central einladen können.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting
 ms.date: 01/14/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
 ms.openlocfilehash: aff05be6ade45224a57f57c92c2d52fcf9e6eb13
-ms.contentlocale: de-de
-ms.lasthandoff: 01/15/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799371"
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Externen Buchhalter einladen zu Ihrem [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Wenn Sie eines externen Buchhalter verwenden, um Ihre Buch und Berichte zu verwalten, können Sie sie für Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten.
@@ -29,10 +29,10 @@ In der neuesten Version von machen wir es Ihnen ganz einfach, Ihren externen Buc
 ![Ihren Buchhalter einladen](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Dies setzt voraus, dass Sie SMPT-E-Mail eingerichtet haben. Dies können Sie selbst machen, oder Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)]-Partner darum bitten. Zudem müssen als [!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzeradministrator, nicht als der Geschäftsinhaber oder andere Benutzer angemeldet sind. Schließlich müssen Sie das Testunternehmen verlassen haben, sodass Sie einen Azure Active Directory- Azure Active Directory haben.  
+>  Dies setzt voraus, dass Sie SMPT-E-Mail eingerichtet haben. Dies können Sie selbst machen, oder Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)]-Partner darum bitten. Zudem müssen als [!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzeradministrator, nicht als der Geschäftsinhaber oder andere Benutzer angemeldet sind. Schließlich müssen Sie das Testunternehmen verlassen haben, sodass Sie einen Azure Active Directory-Administrator haben.  
 
 > [!IMPORTANT]  
-> Die E-Mail-Adresse des Buchhalters muss eine Arbeitsadresse sein, die auf einem Azure Active Directory basiert. Wenn der Buchhalter eine andere Art von E-Mail verwendet, kann die Einladung nicht gesendet werden.  
+> Die E-Mail-Adresse des Buchhalters muss eine Arbeitsadresse sein, die auf Azure Active Directory basiert. Wenn der Buchhalter eine andere Art von E-Mail verwendet, kann die Einladung nicht gesendet werden.  
 
 ### <a name="separate-license"></a>Lizenzen trennen
 Hinter den Kulissen wird der Buchhalter Ihrem Active Directory-Mandanten hinzugefügt. Ihr Administrator kann überprüfen, ob der Buchhalter die Einladung akzeptiert und der richtigen Lizenz hinzugefügt wird. Die Schritte dazu hängen von der Art des Kontos ab, das Sie verwendet haben, als Sie sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmeldeten. Dieses Thema basiert auf Grundlage von Dimensionswertcodes von einem Office 365-Konto, welches Microsoft Azure Active Directory verwendet.  
@@ -46,4 +46,3 @@ Einer der Lizenztypen für [!INCLUDE[d365fin](includes/d365fin_md.md)] ist *Exte
 [Richten Sie E-Mail Nachricht manuell oder mit der unterstützten Einrichtung ein](admin-how-setup-email.md)  
 [Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)  
 [Business Central for Accounts in Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-

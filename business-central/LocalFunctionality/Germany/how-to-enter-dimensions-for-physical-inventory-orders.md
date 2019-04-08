@@ -1,23 +1,23 @@
 ---
-title: "So geben Sie Dimensionen für den Inventurauftrag ein"
-description: "Nachdem Sie einen Inventurauftrag erstellt haben, können Sie Dimensionen für diesen Auftrag eingeben."
+title: So geben Sie Dimensionen für den Inventurauftrag ein
+description: Nachdem Sie einen Inventurauftrag erstellt haben, können Sie Dimensionen für diesen Auftrag eingeben.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8bbeca4612872c089ec78ac660b2f53f41dce087
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826713"
 ---
 # <a name="enter-dimensions-for-physical-inventory-orders"></a>So geben Sie Dimensionen für den physischen Inventurauftrag ein
 Nachdem Sie einen Inventurauftrag erstellt haben, können Sie Dimensionen für diesen Auftrag eingeben.  
@@ -40,4 +40,3 @@ Aus diesem Grund sollten die Inventurauftragszeilen erst erstellt werden, nachde
  [Physische Inventuraufträge eingeben](how-to-enter-physical-inventory-orders.md)   
  [So buchen Sie physische Inventuraufträge](how-to-post-physical-inventory-orders.md)   
  [Dimensionssatz-Eintrags-Übersicht](../../design-details-dimension-set-entries-overview.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Yllgemeinen Funktionen über Geschäftsbereiche hinweg nutzen | Microsoft Docs"
-description: "Weitere Informationen über Funktionalitäten und Funktionen, die über Geschäftsbereiche hinweg in Business Central verwendet werden."
+title: Yllgemeinen Funktionen über Geschäftsbereiche hinweg nutzen | Microsoft Docs
+description: Weitere Informationen über Funktionalitäten und Funktionen, die über Geschäftsbereiche hinweg in Business Central verwendet werden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 11/21/2018
+ms.date: 03/13/2019
 ms.author: sgroespe
+ms.openlocfilehash: ac385409d72fea4ee43f7549a86da3516a299608
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 6a42e8039d4b13deac72caf178f67113e582ed36
-ms.contentlocale: de-de
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853094"
 ---
 # <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](across-business-functionality.md).
 
 Und um die bereichsspezifischen Aufgaben des Geschäftes zu unterstützen, können Sie eine Reihe von Geschäftsfunktionalitäten nutzen, wie beispielsweise das Definieren der Textbausteins für Belegzeilen und das Organisieren von verbindenden Geschäftsaufgaben in den Arbeitsabläufen.
+
+> [!NOTE]
+> Zusätzlich zu den Geschäftsfunktionen, die in diesem Abschnitt beschrieben werden, verwenden Sie weitere alltägliche Benutzeroberflächenfunktionen zur Interaktion mit dem System. Weitere Informationen finden Sie unter [Arbeiten mit Business Central](ui-work-product.md).
 
 Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu den entsprechenden Themen, in denen die Bereiche beschrieben werden.
 
@@ -35,7 +38,10 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 | Einrichten von Standardtextcodes, sodass Standardtext durch Hinzufügen weiterer Zeilen erweitert werden kann, und Einrichten von Bedingungen für die Verwendung der zusätzlichen Zeilen |[Hinzufügen von Textbausteinen](ui-how-define-ext-text.md) |
 |Sie können Aufgaben erstellen, die Sie an Arbeit erinnern, die durchgeführt werden muss. Sie können Aufgaben für sich selbst erstellen, aber Sie können auch Aufgaben an Andere zuweisen oder Ihnen kann von jemand anderem in Ihrer Organisation eine Aufgabe zugewiesen werden.|[Benutzeraufgaben definieren](across-user-tasks.md)|
 |Fügen Sie Bilder, Dokumente und andere Arten von Dateien an alle Karten, wie der Artikelkarte und der Projektkarte, an, und fügen Sie Dateien an alle Arten von Einkaufs- und Verkaufsbelegen an.|[Anfügen von Dateien zu den Karten und den Belegen](across-attach-document-master-data.md)|
-|Arbeiten mit Business Central Daten in Excel.|[Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)| 
+|Arbeiten mit Business Central Daten in Excel.|[Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)|
+|Sie sollten verstehen, was passiert, wenn Sie die Aktion **Buchen** auswählen.|[Journale und Dokumente buchen](ui-post-documents-journals.md)|
+|Informationen zum Arbeiten mit Fibu Buch.-Blättern, die zum Buchen auf Sachkonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten verwendet werden. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md) |
+| Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. |[Planen der Ausführung eines Berichts](ui-work-report.md#ScheduleReport) |
 |Das System kann Ihnen dabei helfen, Aufgaben schneller und korrekter zu erledigen, indem es Felder oder Zeilen mit Daten ergänzt, die Sie sonst berechnen und manuell eingeben müssten.|[Business Central Werte vorschlagen lassen](ui-let-system-suggest-values.md)|
 |Erfassen Sie externe Belege, einschließlich Dateianhängen, und erstellen Sie dann manuell die zugehörigen Belege oder wandeln Sie die Dateien automatisch in elektronische Belege um.|[Eingehende Belege](across-income-documents.md)|
 |Konfigurieren und verwenden Sie Workflows, die Aufgaben verbinden, welche von verschiedenen Benutzern oder vom System ausgeführt werden, z. B. die automatische Buchung. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen oder Buchen von Belegen sind typische Workflowschritte.|[Workflow](across-workflow.md)|
@@ -46,4 +52,3 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 [Verwaltung](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

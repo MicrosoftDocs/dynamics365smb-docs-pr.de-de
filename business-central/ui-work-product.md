@@ -1,47 +1,48 @@
 ---
-title: "Arbeiten mit dem allgemeinen Funktionalität in Business Central | Microsoft Docs"
-description: "Beschreibt die allgemeine Funktionen, die Sie verwenden, um die Daten in Business Central für Aktivitäten, wie Eingabe von Werten, Sortieren von Daten und Ändern von Ansichten auszuführen."
-documentationcenter: 
+title: Arbeiten mit dem allgemeinen Funktionalität in Business Central | Microsoft Docs
+description: Beschreibt die allgemeine Funktionen, die Sie verwenden, um die Daten in Business Central für Aktivitäten, wie Eingabe von Werten, Sortieren von Daten und Ändern von Ansichten auszuführen.
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/13/2019
 ms.author: solsen
+ms.openlocfilehash: afaab918f2959ee32315988c81dee987499aa05a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 1924ed56ebf31debbccbc6f94724a6ca93eeb7a6
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852240"
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.
 
 Sie können beispielsweise die Größe und die Position von Seiten anpassen, die Breite von Spalten und die Höhe der Spaltenköpfe erweitern und die Sortierung der Daten in Spalten ändern. Wenn Sie auf Seiten arbeiten und zum Anzeigen aller Spalten die horizontale Bildlaufleiste verwenden müssen, kann mit einer vertikalen Fixierung der Bildlauf von einigen Spalten beschränkt werden.
 
+> [!NOTE]
+> Zusätzlich zu den allgemeinen Benutzeroberflächen-Funktionen, die in diesem Abschnitt beschrieben werden, können Sie weitere allgemeine Funktionen verwenden, die geschäftsverwandter sind. Weitere Informationen finden Sie unter [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md).
+
 Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den entsprechenden Themen, in denen die Abteilungen beschrieben werden.
 
 | An | Siehe |
 | --- | --- |
-| Grundeinstellungen wie Unternehmen, Arbeitsdaten und Rollencenter ändern. |[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md) |
-| Finden Sie eine bestimmte Seite oder Bericht. |[Seite oder Bericht suchen verwenden](ui-search.md) |
-| Filtern von Daten in den Ansichten, in Berichten oder in den Funktionen, indem Sie Sonderzeichen und Zeichen verwenden. |[Ermitteln, Filtern und Sortieren von Daten](ui-enter-criteria-filters.md) |
-| Mehr über das Sortieren von Daten erfahren. |[Sortieren von Daten](ui-sorting.md) |
-| Anzeigen oder bearbeiten Sie Daten in bestimmten Zeiträumen. |[Datenbereiche eingeben](ui-enter-date-ranges.md) |
+| Suchen von bestimmten Seiten, Berichten, Aktionen, Hilfethemen oder Partnererweiterungen. |[Verwenden von „Wie möchten Sie weiter verfahren“ bei der Suche nach Funktionen und Informationen](ui-search.md) |
+| Filtern von Daten in den Ansichten, in Berichten oder in den Funktionen, indem Sie Sonderzeichen und Zeichen verwenden. |[Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md) |
+|Lernen Sie die Vielzahl an allgemeinen Funktionen kennen, die Ihnen dabei helfen, Daten schnell und einfach einzugeben.|[Eingeben von Daten](ui-enter-data.md)|
+| Anzeigen oder bearbeiten Sie Daten in bestimmten Zeiträumen. |[Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md) |
+|Erfahren Sie, wie Sie Daten schnell kopieren und einfügen können, inklusive mithilfe von Tastenkombinationen.|[Kopieren und Einfügen](ui-copy-paste.md)|
 | Diese Felder müssen ausgefüllt werden. |[Pflichtfelder erkennen](ui-mandatory-fields.md) |
-| Ändern Sie, welche Felder und Aktionen in der Benutzeroberfläche angezeigt werden, um den Geschäftsprozessen des Unternehmens zu entsprechen. |[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
-| Ändern Sie die Ansicht von Listen, beispielsweise Debitoren, Kreditoren oder Artikeln angezeigt. |[Anzeigen von Listen in verschiedenen Ansichten](across-display-lists-different-views.md) |
-| Ändern der farbigen Indikatoren auf Stapeln. |[Einrichten eines farbigen Indikators auf Stapeln des Rollencenters](ui-how-setup-colored-indicator-cues.md) |
-|Vorschau, Ausgabe oder Abwehrberichte.|[Arbeiten mit Berichten](ui-work-report.md)|
-| Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. |[Planen der Ausführung eines Berichts](ui-work-report.md#ScheduleReport) |
-| Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr.|[Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md) |
-| Informationen zum Arbeiten mit Fibu Buch.-Blättern, die zum Buchen auf Sachkonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten verwendet werden. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md) |
 |Verstehen Sie, wie das Computergebietsschema die Benutzeroberfläche und die Hilfesite erfasst und die Sprache geändert wird.|[Sprache und Gebiet ändern](about-locale-language.md)|
+|Erfahren Sie, wie Sie mit Excel in [!INCLUDE[d365fin](includes/d365fin_md.md)] von nahezu überall interagieren können.|[Anzeigen und bearbeiten in Excel](across-work-with-excel.md)|
+|Erhalten Sie Benachrichtigungen über spezielle Ereignisse oder Statusänderungen, beispielsweise, wenn Sie dabei sind, einen Kunden zu fakturieren, der einen überfälligen Saldo hat.|[Verwalten von Benachrichtigungen](ui-smart-notifications.md)|
+| Grundeinstellungen wie Unternehmen, Arbeitsdaten und Rollencenter ändern. |[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md) |
+| Ändern Sie, welche Felder und Aktionen in der Benutzeroberfläche angezeigt werden, um den Geschäftsprozessen des Unternehmens zu entsprechen. |[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+|Definieren, drucken oder speichern Sie Berichte, zeigen Sie sie als Vorschau an, und definieren Sie Stapelverarbeitungen und führen Sie sie aus.|[Arbeiten mit Berichten und Stapelverarbeitungen](ui-work-report.md)|
+| Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr.|[Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md) |
 |Erhalten von Informationen über Funktionen und Funktionen, die einfach [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar sind für  Personen mit Behinderungen.|[Eingabehilfe und Tastenkombinationen](ui-accessibility.md)|
-|Überwachungsvideos der ausgewählten Funktionalität, um einfacher zu beginnen.|[Videos in häufigen Aufgaben](across-videos.md)|  
 
 ## <a name="getting-around-in-business-central"></a>Navigation in Business Central
 Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -54,4 +55,3 @@ Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[d365fin](incl
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

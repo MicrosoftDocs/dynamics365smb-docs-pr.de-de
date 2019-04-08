@@ -1,23 +1,23 @@
 ---
 title: 'Designdetails: Artikelverfolgungsdesign | Microsoft Docs'
-description: "Dieses Thema zeigt eine Übersicht über Entwurfsdetails für Artikelverfolgung."
+description: Dieses Thema zeigt eine Übersicht über Entwurfsdetails für Artikelverfolgung.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/12/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798129"
 ---
 # <a name="design-details-item-tracking"></a>Designdetails: Artikelnachverfolgung
 Da der Warenfluss in heutigen Lieferketten immer komplexer wird, wird die Möglichkeit, Artikel nachzuverfolgen für die involvierten Unternehmen immer wichtiger. Den Transaktionsfluss eines Artikels zu überwachen ist eine gesetzlich vorgeschriebenes Erfordernis in Bezug auf medizinische und chemische Vorräte, andere Sektoren haben Produkte mit Garantien oder Ablaufdatumsangaben für Kundenservicegründe zu überwachen.  
@@ -33,4 +33,3 @@ Ein Artikelverfolgungssystem sollte für eine einfache Handhabung der Serien- un
 [Designdetails: Artikelverfolgung und Planung](design-details-item-tracking-and-planning.md)  
 [Designdetails: Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Designdetails: Artikelverfolgung im Lager](design-details-item-tracking-in-the-warehouse.md)
-

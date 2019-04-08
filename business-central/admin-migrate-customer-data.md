@@ -1,34 +1,34 @@
 ---
 title: Migrate Customer Data | Microsoft Docs
-description: "Sie können vorhandenen Debitorendaten aus einem vorhandenen ERP-System zu Business Central migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben."
+description: Sie können vorhandenen Debitorendaten aus einem vorhandenen ERP-System zu Business Central migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "797929"
 ---
 # <a name="migrate-customer-data"></a>Migrieren von Debitorendaten
 Sie können vorhandenen Debitorendaten aus einem vorhandenen ERP-System zu [!INCLUDE[d365fin](includes/d365fin_md.md)] migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben.
 
-Die Seite **Migrationsübersicht** und das K**onfigurationsarbeitsblatt** bieten Zugriff auf Funktionen und Ansichten, um alle Aufgaben im Zusammenhang mit der Datenmigrierung auszuführen. Es ist empfehlenswert, dass Sie eine Tabelle jeweils einzeln migrieren, um alle Abhängigkeiten in Ihren Daten zu berücksichtigen. Von der Migration sind auch die Stammdatentabellen betroffen, die Informationen zu Debitoren, Kreditoren, Artikeln, Kontakten und der Finanzbuchhaltung enthalten.  
+Die Seite **Migrationsübersicht** und das **Konfigurationsarbeitsblatt** bieten Zugriff auf Funktionen und Ansichten, um alle Aufgaben im Zusammenhang mit der Datenmigrierung auszuführen. Es ist empfehlenswert, dass Sie eine Tabelle jeweils einzeln migrieren, um alle Abhängigkeiten in Ihren Daten zu berücksichtigen. Von der Migration sind auch die Stammdatentabellen betroffen, die Informationen zu Debitoren, Kreditoren, Artikeln, Kontakten und der Finanzbuchhaltung enthalten.  
 
 ## <a name="to-import-configuration-packages"></a>So importieren Sie ein Konfigurationspaket
 Wenn Sie ein neues Unternehmen erstellen, können Sie Unternehmenseinstellungen für den neuen Mandanten importieren. Sie importieren die Einstellungen von einer .rapidstart-Datei, die die Paketinhalte in einem komprimierten Format bereitstellt. Ein entsprechender Satz von Standard-Datenmigrationstabellen wird importiert. Der Datensatz enthält Stammdatentabellen und die Einrichtungsdatentabellen. Ihre erste Aufgabe bei der Datenmigration besteht in der Einschätzung, ob die Einrichtung der Standardmigration die Anforderungen des neuen Mandanten erfüllt.
 
 > [!NOTE]  
->  Sie können eine Datei nicht umbenennen, die nicht bereits ein RapidStart Services-Konfigurationspaket wie eine .rapidstart-Konfigurationspaketdatei ist und versucht, sie in  zu importieren. Wenn Sie versuchen so zu tun, erhalten Sie eine Fehlermeldung.  
+>  Sie können eine Datei nicht umbenennen, die nicht bereits ein RapidStart Services-Konfigurationspaket wie eine .rapidstart-Konfigurationspaketdatei ist und versucht, sie in zu importieren. Wenn Sie versuchen so zu tun, erhalten Sie eine Fehlermeldung.  
 
 Bevor Sie beginnen, vergewissern Sie sich, dass Sie sich auf der RapidStart Services Implementierungs-Rollencenterseite befinden.
 
@@ -92,14 +92,14 @@ Wenn Sie Daten anwenden, die Sie aus Excel oder von einem RapidStart-Paket impor
 
 - Wenn die gleichen Zuordnungen direkt für ein Feld und in der zugehörigen Tabelle definiert sind, jedoch verschiedene Neuwerte haben, hat die Zuordnung, die direkt für das Feld definiert ist, eine höhere Priorität als die Zuordnung, die für die Tabelle definiert ist, auf die das Feld verweist.  
 
-In den Verfahren, die folgen, sollten Sie im Voraus überprüfen, welche Werte Sie während des Migrationsvorgangs beibehalten möchten. Um die folgenden Verfahren auszuführen, benötigen Sie die Datenmigrationsdateien (.xls), die Sie aus [!INCLUDE[d365fin](includes/d365fin_md.md)] exportiert haben. Weitere Informationen zum Erstellen einer Vorlage finden Sie unter "Migrationsdatendateien exportieren".
+In den Verfahren, die folgen, sollten Sie im Voraus überprüfen, welche Werte Sie während des Migrationsvorgangs beibehalten möchten. Um die folgenden Verfahren auszuführen, benötigen Sie die Datenmigrationsdateien (.xls), die Sie aus [!INCLUDE[d365fin](includes/d365fin_md.md)] exportiert haben. Weitere Informationen finden Sie unter [So werden Datenmigrationsdateien exportiert](admin-migrate-customer-data.md#to-export-data-migration-files)
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationspaket** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie das betreffende Konfigurationspaket.  
 3. Wählen Sie die Tabelle, für die Sie Werte zuordnen möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Felder** aus.  
 4. Für jedes Feld, das Sie zuordnen möchten, wählen Sie die **Zuordnung** Aktion aus.  
 5. Geben Sie im Feld **Alter Wert** den Wert ein, den Sie ändern wollen. Geben Sie im Feld **Neuer Wert** den Wert ein, auf den Sie den alten Wert ändern wollen. Wählen Sie die Schaltfläche **OK** aus.  
-6. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter "Debitorendaten importieren".
+6. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data).
 7. Prüfen Sie im Feld **Anzahl der Paketfehler**, ob Fehler gemeldet wurden. Ist dies der Fall, führen Sie Drilldown einen durch, um die Fehler anzuzeigen. Die Seite **Paketdatensätze konfig.** wird geöffnet.
 8. Wählen Sie die Aktion **Fehler anzeigen** aus. Sie erhalten den folgenden Fehler: **<option> ist keine gültige Option. Gültige Optionen sind <valid option list>**. Wählen Sie die Schaltfläche **OK** aus.  
 9. Um die Karte zu übernehmen die Sie eingerichtet haben, aktivieren Sie die **Daten übernehmen** Aktion.  
@@ -115,10 +115,10 @@ Im folgenden Beispiel wird veranschaulicht, wie [!INCLUDE[d365fin](includes/d365
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationspaket** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie die Tabelle, für die Sie zusätzliche Werte zuordnen möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Felder** aus.  
 3. Für die Felder, für die Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] während der Migration zusätzliche Werte ermöglichen möchten, wählen Sie das **Fehlende Codes erstellen**-Kontrollkästchen.  
-4. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter "Debitorendaten importieren".
+4. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>So werden Daten bereinigt und verarbeitet, bevor Daten angewendet werden
-In einigen Fällen möchten Sie möglicherweise Debitorendaten bereinigen und sie verarbeiten, bevor Sie sie auf die Datenbank anwenden. Um das zu tun, können Sie die **Config. Paket - Prozess** Stapelverarbeitung verwenden, um  Probleme zu reparieren, beispielsweise:  
+In einigen Fällen möchten Sie möglicherweise Debitorendaten bereinigen und sie verarbeiten, bevor Sie sie auf die Datenbank anwenden. Um das zu tun, können Sie die **Config. Paket - Prozess** Stapelverarbeitung verwenden, um Probleme zu reparieren, beispielsweise:  
 
 - Konvertieren von Datumswerten und Dezimalzahlen in das Format, das fü die regionalen Einstellungen auf dem Computer eines Benutzers erforderlich ist.  
 - Entfernen Sie die Leerzeichen am Anfang oder Ende oder Sonderzeichen.  
@@ -134,7 +134,7 @@ Nachdem Sie eine Migrationstabelle exportiert haben, besteht Ihr nächster Schri
 
 Für Hilfe mit XML aktivieren Sie die Registerkarte **Entwickler**, und wählen Sie die **Herkunft** Aktion aus, um das XML-Schema der Migrationstabelle anzuzeigen, wie in Excel dargestellt.
 
-Das folgende Verfahren basiert auf einem Excel-Arbeitsblatt, das Sie für die Migration erstellt haben. Weitere Informationen zum Erstellen einer Vorlage finden Sie unter "Migrationsdatendateien exportieren".
+Das folgende Verfahren basiert auf einem Excel-Arbeitsblatt, das Sie für die Migration erstellt haben. Weitere Informationen finden Sie unter [So werden Datenmigrationsdateien exportiert](admin-migrate-customer-data.md#to-export-data-migration-files)
 
 > [!IMPORTANT]  
 > Ändern Sie nicht die Spalten in den Excel-Arbeitsblättern. Wenn sie verschoben, geändert oder gelöscht werden, kann das Arbeitsblatt nicht in [!INCLUDE[d365fin](includes/d365fin_md.md)] importiert werden.
@@ -151,7 +151,7 @@ Jetzt können Sie die Datenmigrationsdateien, die Debitorenstammdaten enthalten,
 ## <a name="to-import-customer-data"></a>So importieren Sie Debitorendaten
 Nachdem die Debitorendaten in die Excel-Dateien für die Datenmigration eingegeben wurden, importieren Sie die Dateien in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Öffnen Sie die Seite  **Konfigurationspaketkarte**.
+1. Öffnen Sie die Seite **Konfigurationspaketkarte**.
 2. Wählen Sie die Tabelle, für die Sie Werte importieren möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Von Excel importieren** aus.
 3. Suchen und öffnen Sie die Datei, aus der Sie Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] importieren wollen.
 
@@ -167,7 +167,7 @@ Debitorendaten müssen überprüft werden, bevor Sie die Datensätze auf die [!I
 2. Wenn Fehler vorhanden sind, wählen Sie die Migrationstabelle und im Inforegister Tabellen **Tabelle** und anschließend **Fehler.** Das Kontrollkästchen **Ungültig** ist für jeden Datensatz aktiviert, der einen Fehler aufweist.  
 3. Um Fehler zu prüfen, wählen Sie eine Zeile aus, und klicken Sie dann auf der Registerkarte Start auf **Fehler anzeigen**.  
 
-    Das Feld **Fehlertext** enthält die Ursache für den Fehler. Das Feld  **Feldbezeichung** enthält die Bezeichnung des Feldes, das den Fehler enthält.  
+    Das Feld **Fehlertext** enthält die Ursache für den Fehler. Das Feld **Feldbezeichung** enthält die Bezeichnung des Feldes, das den Fehler enthält.  
 4.  Um einen Fehler zu korrigieren oder eine Aktualisierung vorzunehmen wählen Sie auf der Seite, **Migrationsübersicht** den **Migrationsdatensatz** und wählen Sie dann auf der Seite **Migrationsdatensatz** und korigieren den Datensatz mit dem Fehler.  
 
 Nachdem Sie eine Korrektur durchgeführt haben, wird der Datensatz aus der Datensatzliste auf der Seite **Datenfehler migrieren** entfernt.  
@@ -187,4 +187,3 @@ Die Unternehmensdatenbank des Debitors ist jetzt eingerichtet, und grundlegende 
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
-

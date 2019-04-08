@@ -1,8 +1,8 @@
 ---
 title: Analysieren von Cashflow | Microsoft Docs
-description: "Beschreibt, wie die Geldumlauf-, Einnahmen- und Ausgaben-, Cash Flow- und Cashflow-Prognosediagramme verwendet werden, um vergangene und künftige Bargeldbewegungen im Unternehmen zu analysieren."
+description: Beschreibt, wie die Geldumlauf-, Einnahmen- und Ausgaben-, Cash Flow- und Cashflow-Prognosediagramme verwendet werden, um vergangene und künftige Bargeldbewegungen im Unternehmen zu analysieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 686f678c7459c608f0ef0dccb7bf959bf843e5e6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ac5abf6fe38b60b385ac00d6e0ced982cd59df22
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799153"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysieren von Cashflow in Ihren Mandanten
 Wie man sagt, Bargeld ist der König. Die Diagramme im Feld Rollencenter Buchhalter liefert Einblick, die Ihnen dabei helfen, fundierte Entscheidungen über das zu erfüllen, was Sie mit Ihrem Bargeld tun.  
@@ -50,7 +50,6 @@ Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, 
 3. Auf der Seite **Cashflow Arbeitsblatt** wählen Sie die Aktion **Vorgeschlagene Arbeitsblattpositionen** aus.  
 
 ## <a name="see-also"></a>Siehe auch
-[Finance einrichten](finance-setup-finance.md)  
+[Finanzen einrichten](finance-setup-finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Einrichten der Cashflowanalyse](finance-setup-cash-flow-analyses.md)  
-

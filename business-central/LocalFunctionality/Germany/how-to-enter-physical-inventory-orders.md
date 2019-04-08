@@ -1,23 +1,23 @@
 ---
-title: "Gewusst wie: Eingeben von Inventuraufträgen"
-description: "Auf Anwendungsebene ist ein Inventurauftrag ein vollständiger Beleg, der aus einem Inventurauftragskopf und einigen Inventurauftragszeilen besteht. Die Informationen im Inventurauftragskopf geben an, wie die Inventur durchgeführt werden soll."
+title: 'Gewusst wie: Eingeben von Inventuraufträgen'
+description: Auf Anwendungsebene ist ein Inventurauftrag ein vollständiger Beleg, der aus einem Inventurauftragskopf und einigen Inventurauftragszeilen besteht. Die Informationen im Inventurauftragskopf geben an, wie die Inventur durchgeführt werden soll.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6df8457b1ccb7bed774ac5be02c6839d6c9a8337
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826717"
 ---
 # <a name="enter-physical-inventory-orders"></a>Physische Inventuraufträge eingeben
 Auf Anwendungsebene ist ein Inventurauftrag ein vollständiger Beleg, der aus einem Inventurauftragskopf und einigen Inventurauftragszeilen besteht. Die Informationen im Inventurauftragskopf geben an, wie die Inventur durchgeführt werden soll. Der Kopf kann manuell ausgefüllt werden. Sie können einen Inventurauftrag erstellen und ihn mindestens einer Inventurerfassung zuordnen.  
@@ -86,4 +86,3 @@ Die erwarteten Mengen aus den Inventurauftragszeilen können mit den (gezählten
  [So erstellen Sie eine physische Inventurerfassung](how-to-create-a-physical-inventory-recording.md)   
  [Berechnen der verfügbaren Menge für einen Inventurauftrag](how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
  [So buchen Sie physische Inventuraufträge](how-to-post-physical-inventory-orders.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Business Intelligence| Microsoft Docs
-description: "Daten – wie Verkaufszahlen der Organisation, Einkäufe, operative Aufwendungen, Löhne/Gehälter oder Budgets analysieren und erfassen, die für Entscheidungsträger eine Quelle wichtiger Informationen sind."
+description: Daten – wie Verkaufszahlen der Organisation, Einkäufe, operative Aufwendungen, Löhne/Gehälter oder Budgets analysieren und erfassen, die für Entscheidungsträger eine Quelle wichtiger Informationen sind.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799022"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 In Unternehmen fällt Tag für Tag eine erhebliche Menge an Daten an. Diese Daten – wie Verkaufszahlen der Organisation, Einkäufe, operative Aufwendungen, Löhne/Gehälter oder Budgets – sind für Entscheidungsträger eine Quelle wichtiger Informationen (auch: Business Intelligence). [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über eine Reihe von Features, die Sie beim Sammeln, Analysieren und gemeinsamen Nutzen von Firmendaten unterstützen.
@@ -36,15 +36,14 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Analysieren Sie Ihre Finanzleistung, indem Sie KPIs auf Basis von Kontenschemata einrichten, die Sie dann als Webdienste veröffentlichen. Die veröffentlichten Kontenschema-KPIs können auf einer Website angezeigt werden oder mithilfe von OData-Webdiensten zu Microsoft Excel importiert werden.|[Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Kontenschemata](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Richten Sie Analyseansichten ein, um Daten mithilfe von Dimensionen zu analysieren.|[Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)|
 |Erstellen neuer Analyseberichte für Verkauf, Einkauf und Lager sowie Einrichten von Analysevorlagen|[Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)|
-|Aktivieren Sie die Erstellung  in den erweiterbaren internationalen Buchhaltungsorganisationen mit dem eXtensible Geschäfts-Berichterstellungs-Sprachenstandard.|[Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)|
+|Aktivieren Sie die Erstellung in den erweiterbaren internationalen Buchhaltungsorganisationen mit dem eXtensible Geschäfts-Berichterstellungs-Sprachenstandard.|[Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)|
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)    
-[Business Central als Power BI Datenquelle nutzen](across-how-use-financials-data-source-powerbi.md)  
+[Verwenden von Business Central als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
 [Schließen des Finanzzeitraums](year-close-years-periods.md)  
-[Importieren von Daten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importieren von Daten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

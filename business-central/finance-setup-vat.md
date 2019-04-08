@@ -1,6 +1,6 @@
 ---
 title: Info zum Einrichten der Mehrwertsteuer | Microsoft Docs
-description: "Überprüfen Sie, ob Sie die MwSt für Verkäufe und Einkäufe korrekt berechnen, buchen und melden."
+description: Überprüfen Sie, ob Sie die MwSt für Verkäufe und Einkäufe korrekt berechnen, buchen und melden.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798466"
 ---
-
 # <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten
 Verbraucher und Geschäfte bezahlen Mehrwertsteuer (MwSt), wenn Sie Waren oder Dienstleistungen einkaufen. Der zu bezahlende MwSt-Betrag kann abhängig von verschiedenen Faktoren variieren. In [!INCLUDE[d365fin](includes/d365fin_md.md)], müssen Sie die MwSt einrichten, um die Werte anzugeben, die verwendet werden soll, um die Steuerbeträge auf folgender Grundlage zu berechnen:
 
@@ -53,7 +52,7 @@ Um MwSt-Nr. einzurichten, gehen Sie folgendermaßen vor:
 * **?** Erlaubt jegliches Zeichen.  
 
     > [!Tip]
-    > Sie können andere Zeichen verwenden, sofern sie immer im Land- oder Bereichsformat vorkommen. Wenn Sie beispielsweise eine Periode oder einen Bindestrich zwischen und Nummern einfügen möchten,  enkönnen Sie ##.####.### r ##.####.### oder @@- definieren.  
+    > Sie können andere Zeichen verwenden, sofern sie immer im Land- oder Bereichsformat vorkommen. Wenn Sie beispielsweise eine Periode oder einen Bindestrich zwischen und Nummern einfügen möchten, können Sie ##.####.### oder @@-###-### definieren.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>MwSt.-Geschäftsbuchungsgruppen einrichten:
 MwSt.-Geschäftsbuchungsgruppen sollten die Märkte darstellen, in denen Sie Geschäfte mit Debitoren und Kreditoren tätigen, und definieren, wie die Mehrwertsteuer in jedem Zielmarkt berechnet und gebucht werden. Beispiele von MwSt.-Produktbuchungsgruppen sind **Inland** und **Europäischen Union (EU)**.  
@@ -271,4 +270,3 @@ Sie verwenden das MwSt.-Satz-Änderungstool, um Änderungen im Standard-MwSt.-Sa
 [Einrichten von unrealisierter Mehrwertsteuer](finance-setup-unrealized-vat.md)  
 [So geht's: Melden von MwSt. an eine Steuerbehörde](finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
-

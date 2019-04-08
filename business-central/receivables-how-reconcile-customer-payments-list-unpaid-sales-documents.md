@@ -1,6 +1,6 @@
 ---
 title: Ausgleichen von Zahlungen mit nicht geleisteten Verkaufsbelegen | Microsoft Docs
-description: "Sie gleichen die Beträge aus, die von den Debitoren mit Bezug auf den entsprechenden Verkaufsbeleg bezahlt werden und buchen die Zahlungen, um den Debitor, die Finanzbuchhaltung und die Bankposten zu aktualisieren."
+description: Sie gleichen die Beträge aus, die von den Debitoren mit Bezug auf den entsprechenden Verkaufsbeleg bezahlt werden und buchen die Zahlungen, um den Debitor, die Finanzbuchhaltung und die Bankposten zu aktualisieren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/17/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b437246b22583e8e040bef78811765297ae2e675
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00d7bb259ad8a8a494016746179b428b7975a8f
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798278"
 ---
-# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Debitoren-Zahlungen manuell aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
+# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
 Wenn Ihre Debitoren Zahlungen an Ihr elektronisches Bankkonto getätigt haben, müssen Sie jeden gezahlten Betrag auf den zugehörigen Verkaufsbeleg anwenden und dann die Zahlung buchen, um die Debitoren-, Sachkonto- und Bankposten zu aktualisieren. Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
 
 > [!NOTE]  
@@ -25,7 +25,7 @@ Wenn Ihre Debitoren Zahlungen an Ihr elektronisches Bankkonto getätigt haben, m
 
 Die Seite **Zahlungsanmeldung erfassen** ist dafür ausgelegt, Sie bei Aufgaben im Zusammenhang mit dem Ausgleich interner Konten unter Verwendung von tatsächlichen Barmittelzahlen zu unterstützen, um sicherzustellen, dass Zahlungen effektiv von Debitoren eingeholt werden. Mit diesem Zahlungsverarbeitungstool können Sie individuelle oder Pauschalzahlungen schnell prüfen und buchen, finanzielle Gebühren für überfällige Zahlungen initiieren, diskontierte Zahlungen in verschiedenen Szenarien verarbeiten und bestimmte unbezahlte Belege finden, für die Zahlungen erfolgt sind.
 
-Zahlungen für verschiedene Debitoren, die verschiedene Fälligkeitsdaten haben, müssen als einzelne Zahlungen gebucht werden. Zahlungen für denselben Debitor, der das gleiche Fälligkeitsdatum hat, können als einmalige Zahlung gebucht werden. Dies ist beispielsweise dann nützlich, wenn ein Debitor eine einzelne Zahlung getätigt hat, die mehrere Verkaufsrechnungen umfasst.
+Zahlungen für verschiedene Debitoren, die verschiedene Fälligkeitsdaten haben, müssen als einzelne Zahlungen gebucht werden. Zahlungen für denselben Debitor, der das gleiche Fälligkeitsdatum hat, können als Pauschalzahlung gebucht werden. Dies ist beispielsweise dann nützlich, wenn ein Debitor eine einzelne Zahlung getätigt hat, die mehrere Verkaufsrechnungen umfasst.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Zahlungsregistrierungsbuch.-Blatt einrichten
 Da Sie verschiedene Zahlungsarten auf verschiedene Gegenkonten buchen können, müssen Sie ein Gegenkonto auf der Seite **Zahlungsanmeldungs-Einrichtung** auswählen, bevor Sie die Bearbeitung von Debitorenzahlungen starten. Wenn Sie immer auf das gleiche Gegenkonto buchen, können Sie dieses Konto als Standardwert festlegen und diesen Schritt jedes Mal vermeiden, wenn Sie die Seite **Debitorenzahlung erfassen** öffnen.  
@@ -54,30 +54,30 @@ Die eingegebene Zahlungsinformation ist für Belege gebucht, die durch Zeilen da
 
 Zahlungsposten werden in der Finanzbuchhaltung, Bank und in Debitorenkonten gebucht. Jede Zahlung wird für den entsprechenden gebuchten Verkaufsbeleg angewandt.  
 
-## <a name="to-reconcile-lump-payments"></a>Pauschalzahlungen verarbeiten
+## <a name="to-reconcile-lump-sum-payments"></a>Pauschalzahlungen verarbeiten
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zahlung erfassen** ein, und wählen dann den zugehörigen Link aus.
-2. Wählen Sie das Kontrollkästchen **Zahlung erfolgt** in der Zeile, die die gebuchten Belege für denselben Debitor darstellen, für den eine einmalige Zahlung gemacht wurde.  
+2. Wählen Sie das Kontrollkästchen **Zahlung erfolgt** in der Zeile, die die gebuchten Belege für denselben Debitor darstellen, für den eine Pauschalzahlung gemacht wurde.  
 
     > [!NOTE]  
-    >   Der Debitor im Feld **Name** muss der Gleiche in allen Zeilen sein, die als einmalige Zahlung gebucht werden.  
+    >   Der Debitor im Feld **Name** muss der Gleiche in allen Zeilen sein, die als Pauschalzahlung gebucht werden.  
 
     Wenn das Kontrollkästchen **Automatische Datumseingabe** auf der Seite **Einrichtung der Zahlungserfassung** aktiviert ist, wird das Arbeitsdatum im Feld **Empfangsdatum** ausgefüllt.  
 3. Geben Sie im Feld **Empfangsdatum** das Datum ein, an dem die Zahlung gemacht wurde. Dieses Datum kann vom Arbeitsdatum abweichen.  
 
     > [!NOTE]  
-    >   Dieses Datum muss das gleiche in allen Zeilen sein, die als einmalige Zahlung gebucht werden.  
+    >   Dieses Datum muss das gleiche in allen Zeilen sein, die als Pauschalzahlung gebucht werden.  
 4. Geben Sie im Feld **Betrag erhalten** die Beträge in mehreren Zeilen ein, die den einmaligen Zahlungsbetrag zusammenfassen.  
 
     > [!TIP]  
-    >   Versuchen Sie, mit dem Pauschalbetrag so viele volle Zahlungen wie möglich zu buchen. Geben Sie Beträge auf so viele Zeilen wie möglich ein, die dieselben sind, wie der Betrag im Feld **Verbleibender Betrag**.  
-5. Wiederholen Sie die Schritte 2-4 für andere Zeilen, die für gebuchte Belege für denselben Debitor stehen, für den eine einzelne Zahlung geleistet wurde.  
+    > Versuchen Sie, mit dem Pauschalbetrag so viele volle Zahlungen wie möglich zu buchen. Geben Sie Beträge auf so viele Zeilen wie möglich ein, die dieselben sind, wie der Betrag im Feld **Verbleibender Betrag**.  
+5. Wiederholen Sie die Schritte 2-4 für andere Zeilen, die für gebuchte Belege für denselben Debitor stehen, für den eine Pauschalzahlung geleistet wurde.  
 6. Wählen Sie die Aktion **Als einmalige Zahlung buchen** aus. Die eingegebene Zahlungsinformation ist für Belege gebucht, die durch Zeilen dargestellt werden, in denen das Kontrollkästchen **Zahlung getätigt** aktiviert ist.  
 
 Zahlungseingänge werden in Finanzbuchhaltung, Bank und in Debitorenkonten gebucht. Jede Zahlung wird für den entsprechenden gebuchten Verkaufsbeleg angewandt.  
 
-Wenn eine Zahlung in der Bank nicht durch Zeile auf der Seite **Zahlungserfassung** angegeben wird, kann dies sein, da der zugehörige Beleg noch nicht gebucht wurde. In diesem Fall können Sie eine Suchfunktion verwenden, um den Beleg zu buchen und schnell zu suchen, um die Zahlung zu verarbeiten. Weitere Informationen finden unter "Bestimmte Verkaufsbeleg finden, die nicht vollständig fakturiertet sind".  
+Wenn eine Zahlung in der Bank nicht durch Zeile auf der Seite **Zahlungserfassung** angegeben wird, kann dies sein, da der zugehörige Beleg noch nicht gebucht wurde. In diesem Fall können Sie eine Suchfunktion verwenden, um den Beleg zu buchen und schnell zu suchen, um die Zahlung zu verarbeiten. Weitere Informationen finden Sie unter [Bestimmten Verkaufsbeleg suchen, der nicht vollständig fakturiert wurde](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung gelöst wurde. Weitere Informationen finden Sie unter "Zahlung ohne einen zugehörigen Belegabschnitt zu erfassen oder zu buchen."  
+Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung gelöst wurde. Weitere Informationen finden Sie im Abschnitt [Zahlung ohne zugehörigen Beleg erfassen oder buchen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Vorgehensweise: Manuelle Verarbeitung von Zahlungen mit Rabatten
 Wenn Sie ein Skonto mit dem Debitor vereinbart haben, können die Zahlungsbeträge niedriger als die fakturierten Beträge sein, wenn die Zahlung vor dem vereinbarten Skontodatum auftritt.  
@@ -187,4 +187,3 @@ Wenn Sie die Buch.-Blattzeile nicht buchen lassen, wird der Wert im Feld **Ungeb
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

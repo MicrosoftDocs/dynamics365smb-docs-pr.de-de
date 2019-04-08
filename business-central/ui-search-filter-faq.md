@@ -1,6 +1,6 @@
 ---
 title: Informationen zum Suchen und Filtern in Business Central
-description: "Antworten auf häufig gestellte Fragen zu Suche und Filter."
+description: Antworten auf häufig gestellte Fragen zu Suche und Filter.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
+ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
-ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
-ms.contentlocale: de-de
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852056"
 ---
-
-# <a name="about-searching-and-filtering-in-included365finincludesd365finmdmd"></a>Informationen zum Suchen und Filtern in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="searching-and-filtering-faq"></a>Suchen und Filtern – FAQs
 In diesem Artikel finden Sie Antworten auf allgemeine Fragen, die Sie möglicherweise über das Suchen und Filtern haben.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Gibt es einen Unterschied zwischen Suchen und Filtern?
@@ -30,7 +29,7 @@ Ja.
 Suche und Filter wurden für Benutzer optimiert, die eine mausfreie Interaktion bevorzugen, um effizient mit ihren Daten zu arbeiten. Es gibt eine Reihe von Tastenkombinationen, die nacheinander verwendet werden können, um schnell zu arbeiten. Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Ist der Filterbereich in allen Listen verfügbar?
-Der Filterbereich ist in Bildschirmen verfügbar, in denen die Liste der primäre Inhalt der Seite ist, wie Arbeitsblätter und Listenseiten, einschließlich Listen, die von der Navigationsleiste erreichbar sind. Der Filterbereich ist noch nicht für eingebettete Listen, wie Verkaufspositionen in Aufträgen, oder für Listen mit dynamischen Spalten (häufig Matrixseiten genannt) verfügbar. 
+Der Filterbereich ist in Bildschirmen verfügbar, in denen die Liste der primäre Inhalt der Seite ist, wie Arbeitsblätter und Listenseiten, einschließlich Listen, die von der Navigationsleiste erreichbar sind. Der Filterbereich ist noch nicht für eingebettete Listen, wie Verkaufspositionen in Aufträgen, oder für Listen mit dynamischen Spalten (häufig Matrixseiten genannt) verfügbar.
 
 ## <a name="how-can-i-save-my-filters"></a>Wie kann ich meine Filter speichern?
 
@@ -57,4 +56,3 @@ Als lokaler Administrator können Sie die Zeitbegrenzung für Suchen erhöhen, i
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
 [Sortieren, Suchen und Filtern in Listen](ui-enter-criteria-filters.md)
-

@@ -1,6 +1,6 @@
 ---
 title: Tastenkombinationen
-description: "Die gesamte Übersicht der Tastenkombinationskombinationen, um mit den Daten effizient zu arbeiten."
+description: Die gesamte Übersicht der Tastenkombinationskombinationen, um mit den Daten effizient zu arbeiten.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
-ms.contentlocale: de-de
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "797987"
 ---
-
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn arbeiten [!INCLUDE[prodshort](includes/prodshort.md)].
 
@@ -30,7 +29,7 @@ Die Tastenkombinationen werden von den meisten Webbrowsern unterstützt; jedoch 
 
 Die in diesem Hilfethema beschriebenen Tastenkombinationen beziehen sich auf das US-Tastaturlayout. Möglicherweise entsprechen die Tasten anderer Tastaturlayouts nicht exakt den Tasten auf der US-Tastatur.
 
-Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder MacOs ist; es gibt eine Reihe von Verknüpfungen, die für MacOs von Windows abweichen. Diese werden in Klammern in Tabellen in den Abschnitten angegeben, die folgen.
+Die meisten Tastenkombinationen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder macOS ist; es gibt aber auch eine Reihe von Tastenkombinationen, die bei macOS anders sind. Diese werden in Klammern in Tabellen in den Abschnitten angegeben, die folgen.
 
 ##  <a name="Keyboard"></a> Allgemeine Tastenkombinationen
 Die folgende Tabelle beschreibt Tastenkombinationen für das zusätzliche Navigieren und Aufrufen von verschiedenen Elementen einer Seite, wie Aktionen, Dropdownlisten Anzeige, und mehr. Details über die Tastenkombinationen zum Navigieren von Datensätzen, wenn Sie innerhalb einer Liste abrufen, finden Sie im nächsten Abschnitt.
@@ -63,9 +62,9 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseit
 |-----------------|-------|-------|-------|
 |NACH-OBEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darüber.| Navigieren zur darüberliegenden Kachel in der Zeile darüber.  |  |
 |NACH-UNTEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darunter. |Navigieren zur darüberliegenden Kachel in der Zeile darunter. | |
-|NACH-RECHTS-TASTE|Navigieren zur gleichen Zeile im nächsten bearbeitbaren Feld rechts.<br /><br />In einer bearbeitbaren Liste bewegen Sie die Rechte im aktuellen Feld.| Navigieren zur gleichen Zeile in der nächsten Kachel rechts. ||
+|NACH-RECHTS-TASTE|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.<br /><br />Navigieren Sie in einer bearbeitbaren Liste innerhalb des aktuellen Felds nach rechts.| Navigieren zur gleichen Zeile in der nächsten Kachel rechts. ||
 |NACH-LINKS-TASTE|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. <br /><br />In einer bearbeitbaren Liste bewegen Sie die Linke im aktuellen Feld.| Navigieren zur gleichen Zeile in der vorherigen Kachel links. ||
-|Tab|Navigieren zur gleichen Zeile im nächsten bearbeitbaren Feld rechts.|Nicht anwendbar.||
+|Tab|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.|Nicht anwendbar.||
 |UMSCHALT+TAB|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. ||
 |Zuhause<br />(NACH-LINKS-TASTE)|Navigieren zum ersten Feld in einer Zeile.|Navigieren zum ersten Feld in einer Zeile.||
 |Ende<br />(NACH-RECHTS-TASTE)|Navigieren zum letzten Feld in einer Zeile.|Navigieren zur letzten Kachel in einer Zeile.||
@@ -91,7 +90,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseit
 |Umschalttaste +Seite nach Unten<br />(Umschalttaste +FN + Pfeil nach unten)|Erweitern Sie die Auswahl von Zeilen, um alle sichtbaren Zeilen unter der aktuellen Auswahl von Zeilen zu berücksichtigen.|Nicht anwendbar.||
 |Strg+C<br />(Cmd+C)|Kopiert die ausgewählte Zeile in die Zwischenablage.|Nicht anwendbar.||
 |Strg+V<br />(Cmd+V)|Fügen Sie die ausgewählten Zeilen der E-Mail die Zwischenablage in die aktuelle Seite oder den externen Dokument, Microsoft Excel z oder Outlook ein.|Nicht anwendbar.|Sie können dies nur in bearbeitbaren Listen tun.|
-|F8|Kopieren Sie das Feld in der gleichen Spalte der Zeile oben, und fügen Sie es in die aktuelle Zeile ein.|Nicht anwendbar.|Sie können dies nur in bearbeitbaren Listen tun. Mithilfe dieser Verknüpfung, die aus TAB gefolgt ist, können Sie schnell Felder in den Belegpositionen ausfüllen, die denselben Wert wie die Zeile anzeigen haben.|
+|F8|Kopieren Sie das Feld in der gleichen Spalte der Zeile oben, und fügen Sie es in die aktuelle Zeile ein.|Nicht anwendbar.|Sie können dies nur in bearbeitbaren Listen tun. Mit dieser Tastenkombination, gefolgt von TAB, können Sie schnell Felder in Zeilenartikeln füllen, die denselben Wert haben wie die Reihe darüber.|
 
 ### <a name="KeyboardFilter"></a> Tastenkombinationen für die Suche und das Filtern von Listen
 
@@ -102,7 +101,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseit
 |Ctrl+Shift+F3|Öffnet und beendet den Filterbereich.<ul><li> Falls der Filterbereich nicht geöffnet ist, öffnet UMSCHALT+F3 ihn und konzentriert sich auf die **+ Filter** Aktion unter **Filterliste nach**, so dass Sie nur die EINGABETASTE klicken müssen, um das Hinzufügen eines Feldfilters zu starten.</li><li>Falls der Filterbereich bereits geöffnet ist, schließt Ctrl+ Umschalttaste+F3 ihn, aber löscht keine Filter, die Sie hinzugefügt haben.</li></ul>  |
 |Alt+F3|Umschaltflächen, um diese Werte zu filtern.<ul><li>Übernimmt einen Spaltenfilter im ausgewählten Feldwert in der Liste. Dieses ist identisch mit **Filter mit diesem Wert** von einer Spaltenüberschrift. Es wird der Filterbereich geöffnet, Datensätze gefiltert, während der Fokus auf den Zellen in der Liste bleibt.</li><li>Wenn die Spalte bereits nach dem gefiltert wird, löscht ALT+F3 den Filter in der Spalte.</li></ul> |
 |Shift+Alt+F3|Öffnet den Filterbereich und fügt einen Filter für die ausgewählte Spalte in der Liste hinzu. Fokus ist auf dem neuen Filterfeld, mit dem Sie die Filterkriterien sofort eingeben können.<br /><br /> Dieses ist identisch mit, **Filter** aus der Spaltenüberschrift. Menü. Zeigt den Filterbereich an, fügt den Filter hinzu, setzt den Fokus darauf, so dass der Nutzer einen Wert eingeben kann zum Filtern.<br /><br />Wenn es bereits einen Filter in diesem Feld gibt, wird ein neuer Filter hinzugefügt. |
-|Ctrl+Shift+Alt+F3|Filter zurücksetzen. Dieses ist identisch mit, **Rücksetzungsfilter** im Filterbereich ", und es trifft auf Feld und Gesamtfilter zu.<br /><br /> Filter kehren zu den Standardfiltern für die geltende Ansicht zurück. Wenn die aktuelle Ansicht **Alle** anzeigt, dann bleibt dieses die Entsprechung dem Verbrauch einer ungefilterten Ansicht mit allen Datensätzen. |
+|Ctrl+Shift+Alt+F3|Filter zurücksetzen. Dieses ist identisch mit, **Rücksetzungsfilter** im Filterbereich ", und es trifft auf Feld und Gesamtfilter zu.<br /><br /> Filter kehren zu den Standardfiltern für die geltende Ansicht zurück. Wenn **Alle** die aktuelle Ansicht, entspricht dies der Rückkehr zu einer ungefilterten Ansicht mit allen Datensätzen. |
 |Ctrl+Enter|Kehren Sie zu der Liste aus dem Filterbereich zurück.|
 
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tastenkombinationen im Kalender (Datumsauswahl)
@@ -160,4 +159,3 @@ The following table describes the keyboard shortcuts that you can use in a list 
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.md)  
-

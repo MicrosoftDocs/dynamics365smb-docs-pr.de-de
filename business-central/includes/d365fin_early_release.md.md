@@ -1,1 +1,1 @@
-Dieses Funktionalität ist noch im Entwicklungsstadium. Die Funktionalität und der Inhalt auf der Seite unterliegen Änderungen. Um zu erfahren was kommt, gehen Sie zu [Microsoft Dynamics 365 Business Central Aktualisierungshinweis](https://go.microsoft.com/fwlink/?linkid=2047422).
+Dieses Funktionalität ist noch im Entwicklungsstadium. Die Funktionalität und der Inhalt auf der Seite unterliegen Änderungen. Erfahren, was als nächstes kommt, unter [Microsoft Dynamics 365 Business Central-Versionshinweise](https://go.microsoft.com/fwlink/?linkid=2047422).

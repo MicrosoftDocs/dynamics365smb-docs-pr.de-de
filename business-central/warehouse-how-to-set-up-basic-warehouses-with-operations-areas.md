@@ -1,23 +1,23 @@
 ---
 title: 'Vorgehensweise: Einrichten von Basislagern mit Vorgangsbereichen | Microsoft Docs'
-description: "Wenn in den Basislagerkonfigurationen interne Vorgangsbereiche wie Produktion oder Montage vorhanden sind, in denen Lagerplätze das Einrichtungsfeld **Lagerplatz notwendig** und möglicherweise die Einrichtungsfelder **Kommissionierung erforderlich** und **Einlagerung erforderlich** verwenden, können Sie drei Basislagerbelege verwenden, um Ihre Lageraktivitäten für interne Vorgangsbereiche zu erfassen."
+description: Wenn in den Basislagerkonfigurationen interne Vorgangsbereiche wie Produktion oder Montage vorhanden sind, in denen Lagerplätze das Einrichtungsfeld **Lagerplatz notwendig** und möglicherweise die Einrichtungsfelder **Kommissionierung erforderlich** und **Einlagerung erforderlich** verwenden, können Sie drei Basislagerbelege verwenden, um Ihre Lageraktivitäten für interne Vorgangsbereiche zu erfassen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f11719cc9488adf84bca8cd5a23d28caaa75f4bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798986"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Einrichten von Basislagern mit Vorgangsbereichen
 Wenn in den Basislagerkonfigurationen interne Vorgangsbereiche wie Produktion oder Montage vorhanden sind, in denen Lagerplätze das Einrichtungsfeld **Lagerplatz notwendig** und möglicherweise die Einrichtungsfelder **Kommissionierung erforderlich** und **Einlagerung erforderlich** verwenden, können Sie die folgenden Basislagerbelege verwenden, um Ihre Lageraktivitäten für interne Vorgangsbereiche zu erfassen:  
@@ -35,7 +35,7 @@ Um diese Seiten mit internen Vorgängen zu verwenden, wie Komponenten zu kommiss
 - Definieren Sie Standardlagerplatzstrukturen für Komponenten und die Endartikel, die zu Arbeitsgangressourcen laufen und von diesen abgehen.  
 - Erstellen Sie Lagerorte für den Zugang und den Abgang, die für spezielle Arbeitsgangressourcen dediziert sind, um zu verhindern, das Artikel für ausgehende Belege kommissioniert werden.
 
-Lagerfachcodes, die auf Lagerortkarten eingerichtet werden, definieren einen Standardlagerfluss für bestimmte Aktivitäten wie z. B. Komponenten in einer Montageabteilung. Mithilfe zusätzlicher Funktionen wird sichergestellt, dass Artikel, die in einem bestimmten Lagerfach platziert werden, nicht umgelagert oder für sonstige Aktivitäten entnommen werden können. Weitere Informationen finden Sie im Abschnitt "So erstellen Sie festgelegte Komponentenlagerplätze".
+Lagerfachcodes, die auf Lagerortkarten eingerichtet werden, definieren einen Standardlagerfluss für bestimmte Aktivitäten wie z. B. Komponenten in einer Montageabteilung. Mithilfe zusätzlicher Funktionen wird sichergestellt, dass Artikel, die in einem bestimmten Lagerfach platziert werden, nicht umgelagert oder für sonstige Aktivitäten entnommen werden können. Weitere Informationen finden Sie unter [So erstellen Sie festgelegte Komponentenlagerplätze](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 Die folgenden Verfahren basieren auf dem Einrichten von grundlegenden Lageraktivitäten um eine Fertigungsstätte. Die Schritte sind für andere Arbeitsgangsbereiche, wie Montage, Servicemanagement und Projekte ähnlich.  
 
@@ -142,4 +142,3 @@ Das Einrichten eines Fert.-Bereitst.-Lagerplatzes/Fert.-Ausgangslagerplatzes ste
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

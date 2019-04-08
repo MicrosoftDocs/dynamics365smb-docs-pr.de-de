@@ -1,21 +1,21 @@
 ---
 title: Eingang und Einlagerung in erweiterten Lagerfunktionen | Microsoft Docs
-description: "In Business Central können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden."
+description: In Business Central können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 8d9ce13690a1db0e06d3ea204b0c95ac7cb21d33
-ms.contentlocale: de-de
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798318"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
 
@@ -55,7 +55,7 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 ## <a name="prerequisites"></a>Voraussetzungen  
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
--   CRONUS International Ltd. installiert.  
+-   CRONUS AG installieren.  
 -   So machen Sie sich anhand der nachfolgenden Schritte selbst zu einem Lagermitarbeiter am Standort WHITE:  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagermitarbeiter** ein, und wählen dann den zugehörigen Link aus.  
@@ -64,7 +64,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 4.  Wählen Sie das Feld **Standard** aus.  
 
 ## <a name="story"></a>Hintergrund  
-Ellen, die Einkäuferin bei CRONUS International Ltd. ist, erstellt zwei Bestellungen für Zubehörartikel von den Kreditoren 10000 und 20000, die zum WEISS-Lagerhaus geliefert werden sollen. Wenn die Lieferungen im Lagerankommen, verwendet, Sammy, der für das Empfangen von Artikeln der Kreditoren 10000 und 20000 zuständig ist, einen Filter, um Wareneingangszeilen für die Bestellungen zu erstellen, die von den beiden Kreditoren ankommen. Sammy bucht die Artikel als in den Lagerbestand im Wareneingang eingegangen und stellt die Artikel für Verkauf oder anderen Bedarf bereit. John, der Lagermitarbeiter, nimmt die Artikel vom Wareneingangslagerplatz und lagert sie ein. Er lagert alle Einheiten in ihren Standardlagerplätze ein, mit Ausnahme von 40 der 100 eingegangenen Scharniere, die er in der Montageabteilung einlagert, indem er die Einlagerungsanforderungszeile aufteilt. Wenn John die Einlagerung registriert, werden die Lagerplatzinhalte aktualisiert, und die Artikel werden für die Kommissionierung aus dem Lager bereitgestellt.  
+Ellen, die Einkäuferin bei der CRONUS AG ist, erstellt zwei Bestellungen für Zubehörartikel von den Kreditoren 10000 und 20000, die zum WHITE-Lagerhaus geliefert werden sollen. Wenn die Lieferungen im Lagerankommen, verwendet, Sammy, der für das Empfangen von Artikeln der Kreditoren 10000 und 20000 zuständig ist, einen Filter, um Wareneingangszeilen für die Bestellungen zu erstellen, die von den beiden Kreditoren ankommen. Sammy bucht die Artikel als in den Lagerbestand im Wareneingang eingegangen und stellt die Artikel für Verkauf oder anderen Bedarf bereit. John, der Lagermitarbeiter, nimmt die Artikel vom Wareneingangslagerplatz und lagert sie ein. Er lagert alle Einheiten in ihren Standardlagerplätze ein, mit Ausnahme von 40 der 100 eingegangenen Scharniere, die er in der Montageabteilung einlagert, indem er die Einlagerungsanforderungszeile aufteilt. Wenn John die Einlagerung registriert, werden die Lagerplatzinhalte aktualisiert, und die Artikel werden für die Kommissionierung aus dem Lager bereitgestellt.  
 
 ## <a name="reviewing-the-white-location-setup"></a>Überprüfung des Setup des WEISSEN Lagerorts  
 Das Einrichten der Seite **Standortkarte** definiert die Warenflüsse des Unternehmens.  
@@ -124,7 +124,7 @@ Auf der Seite **Wareneingang** können Sie mehrere eingehende Aufträge für Her
 5.  Geben Sie im Feld **Code** **ZUBEHÖR** ein.  
 6.  Geben Sie im Feld **Beschreibung** **Kreditoren 10000 und 20000** ein.  
 7.  Wählen Sie die Aktion **Bearbeiten** aus.  
-8.  Wählen Sie im Inforegister **Einkauf** im Feld **Eink. von Kred.-Nr. Filter**, geben Sie **10000&#124; 20000** ein.  
+8.  Geben Sie im Inforegister **Einkauf** im Feld **Eink. von Kred.-Nr. Filter** den Wert **10000&#124;20000** ein.  
 9. Wählen Sie die Aktion **Ausführen** aus. Der Wareneingang wird mit vier Zeilen gefüllt, die Einkaufszeilen für die angegebenen Kreditoren darstellen. Das Feld **Eingehende Menge** wird ausgefüllt, da Sie das Kontrollkästchen **Bewegungsmenge nicht ausfüllen** auf der Seite **Filter um Herkunftsdokument abzurufen** nicht markiert haben.  
 10. Wenn Sie einen Filter verwenden möchten, wie zuvor in diesem Abschnitt beschrieben, können Sie optional auf der Registerkarte Aktionen in der Gruppe Funktionen **Herkunftsbeleg holen** auswählen, und dann Einkaufsbestellungen aus den entsprechenden Kreditoren auswählen.  
 11. Wählen Sie die Aktion **Beleg buchen** ausn und wählen Sie dann die Schaltfläche **Ja** aus.  
@@ -159,4 +159,3 @@ Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifis
  [Designdetails: Eingehender Lagerfluss](design-details-inbound-warehouse-flow.md)   
  [Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)
-

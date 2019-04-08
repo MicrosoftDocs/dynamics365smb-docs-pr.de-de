@@ -1,7 +1,7 @@
 ---
 title: Migrieren von Daten von Dynamics GP mit der Datenmigrations-Erweiterung | Microsoft Docs
 description: Verwenden Sie die GP-Datenmigrationserweiterung, um Debitoren, Kreditoren, Lagerartikel, Sachkonten, Transaktionen zu offenen Verbindlichkeiten und Forderungen von Dynamics GP auf Business Central zu migrieren.
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 34a6789780fb3d55c0a97b29408dca659992f781
 ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
-ms.contentlocale: de-de
-ms.lasthandoff: 01/30/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798243"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Die Dynamics GP-Datenmigrations-Erweiterung 
 Diese Erweiterung erleichtert die Verwendung der GP-Datenmigrationserweiterung, um Debitoren, Kreditoren, Lagerartikel, Sachkonten, Transaktionen zu offenen Verbindlichkeiten und Forderungen von Dynamics GP auf [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Wenn Ihr Geschäft Dynamics GP heute verwendet, können Sie die relevanten Daten exportieren und dann eine unterstützte Einrichtungsanleitung öffnen, um die Daten hochzuladen und in [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Die Migrationserweiterungsarbeiten für alle unterstützten Versionen von Microsoft Dyanmics GP. Weitere Informationen finden Sie unter [Geschäftsdaten aus anderen Finanzsystemen zu importieren](across-import-data-configuration-packages.md).
@@ -29,7 +29,7 @@ Sie müssen Ihre bestehenden Debitoren, Kreditoren, Lagerartikel und Sachkonten 
 * Option  
 * Kreditor  
 
-Bei Erstellung der Exportdatei erhalten Sie eine ZIP-Datei, die mehrere TXT-Dateien enthält. Der Inhalt wird durch Ihe Auswahl beim Exportdatenenvorgang bestimmt.  Es gibt auch zusätzliche TXT-Dateien, die erstellt werden, die unterstützende Informationen enthalten, die für die Einrichtung innerhalb Ihres neuen [!INCLUDE[prodshort](includes/prodshort.md)]-Unternehmens benötigt werden.
+Bei Erstellung der Exportdatei erhalten Sie eine ZIP-Datei, die mehrere TXT-Dateien enthält. Der Inhalt wird durch Ihe Auswahl beim ExportDatenvorgang bestimmt.  Es gibt auch zusätzliche TXT-Dateien, die erstellt werden, die unterstützende Informationen enthalten, die für die Einrichtung innerhalb Ihres neuen [!INCLUDE[prodshort](includes/prodshort.md)]-Unternehmens benötigt werden.
 
 Die Dynamics GP-Datenmigrationserweiterung ordnet automatisch die exportierten Daten zu, so dass Sie Ihre bestehenden Daten rasch im [!INCLUDE[prodshort](includes/prodshort.md)] Unternehmen bereitstehen.
 
@@ -60,4 +60,3 @@ Die letzte Option, die im Datenmigrationsassistenten für Dynamics GP angezeigt 
 ## <a name="see-also"></a>Siehe auch
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Anpassen [!INCLUDE[prodshort](includes/prodshort.md)] Erweiterungen nutzen](ui-extensions.md)  
-

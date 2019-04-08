@@ -2,7 +2,7 @@
 title: Designdetailsl- Artikelausgleich | Microsoft Docs
 description: In diesem Thema wird beschrieben, wie Artikelausgleich passiert, wenn Sie eine Lagertransaktion buchen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798861"
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
 Wenn Sie eine Lagertransaktion buchen, wird die Mengenbuchung in den Artikelposten, die Wertbuchungen in den Wertposten erfasst. Weitere Informationen finden Sie unter [Designdetails: Planungsbuchung](design-details-inventory-posting.md).  
@@ -246,4 +246,3 @@ Wegen der Art, in der Einstandspreise berechnet werden, kann ein fehlerhafter Ar
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 [Designdetails: Durchschnittskosten](design-details-average-cost.md)  
 [Designdetails: Kostenregulierung](design-details-cost-adjustment.md)  
-

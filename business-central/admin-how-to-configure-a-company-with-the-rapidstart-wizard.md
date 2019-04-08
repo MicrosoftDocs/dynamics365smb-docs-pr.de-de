@@ -1,23 +1,23 @@
 ---
 title: So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten | Microsoft Docs
-description: "Sie können einen neuen Mandanten, den Sie erstellt haben, schnell konfigurieren, indem Sie den RapidStart Services-Konfigurations-Assistenten verwenden."
+description: Sie können einen neuen Mandanten, den Sie erstellt haben, schnell konfigurieren, indem Sie den RapidStart Services-Konfigurations-Assistenten verwenden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 63120671100b7caac7f3cb08bd3fbbcd1d29ff5c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798814"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten.
 Sie können einen neuen Mandanten, den Sie erstellt haben, schnell konfigurieren, indem Sie den RapidStart Services-Konfigurations-Assistenten verwenden.
@@ -33,7 +33,7 @@ Im folgenden Verfahren haben Sie dem Debitor das Konfigurationspaket bereitgeste
 
     1. Wenden Sie die Konfiguration an, indem Sie die **Paket übernehmen** Aktion auswählen. Dadurch wird das Konfigurationspaket importiert und übernimmt die Paketdatenbankdaten alle gleichzeitig.  
 
-    2. Überprüfen Sie die Konfiguration, nachdem sie angewendet wurde. Mit dieser Option können Sie die Konfigurationsdetails und -fragebögen überprüfen, die aus vom Partner bereitgestellt wurden, und Stammdaten importieren, die für Ihren Mandanten erforderlich sind. Wählen Sie die Aktion **Arbeitsblatt konfigurieren** aus. Weitere Informationen finden Sie im Abschnitt "Konfigurationsfragebogen ausfüllen " unter [Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md).  
+    2. Überprüfen Sie die Konfiguration, nachdem sie angewendet wurde. Mit dieser Option können Sie die Konfigurationsdetails und -fragebögen überprüfen, die aus vom Partner bereitgestellt wurden, und Stammdaten importieren, die für Ihren Mandanten erforderlich sind. Wählen Sie die Aktion **Arbeitsblatt konfigurieren** aus. Weitere Informationen finden Sie unter [So füllen Sie den Konfigurationsfragebogen aus](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
 6. Erweitern Sie das Inforegister **Schritt 5**. Geben Sie an, welches Rollencenter die Standardeinstellung für den neuen Mandanten sein soll.  
 
@@ -51,4 +51,3 @@ Jetzt haben Sie den Mandanten konfiguriert und Daten für ihn übernommen.
 [Übernehmen von Konfiguration in neue Mandanten](admin-apply-configuration-to-new-companies.md)  
 [Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
-

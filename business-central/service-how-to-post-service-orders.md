@@ -1,23 +1,23 @@
 ---
-title: "Vorgehensweise: Buchen von Serviceaufträgen | Microsoft Docs"
-description: "Nachdem Sie einen Serviceauftrag erstellt und eventuelle Änderungen vorgenommen haben, können Sie den Serviceauftrag buchen. Der Serviceauftrag muss mindestens eine Serviceartikelzeile und eine Servicezeile enthalten, bevor Sie den Auftrag buchen können. Sollte der Auftrag mehr als eine Serviceauftragszeile umfassen, bucht die Anwendung alle Zeilen in einem Durchgang."
+title: 'Vorgehensweise: Buchen von Serviceaufträgen | Microsoft Docs'
+description: Nachdem Sie einen Serviceauftrag erstellt und eventuelle Änderungen vorgenommen haben, können Sie den Serviceauftrag buchen. Der Serviceauftrag muss mindestens eine Serviceartikelzeile und eine Servicezeile enthalten, bevor Sie den Auftrag buchen können. Sollte der Auftrag mehr als eine Serviceauftragszeile umfassen, bucht die Anwendung alle Zeilen in einem Durchgang.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798616"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Buchen von Serviceaufträgen und Gutschriften
 Nachdem Sie einen Serviceauftrag erstellt und eventuelle Änderungen vorgenommen haben, können Sie den Serviceauftrag buchen. Der Serviceauftrag muss mindestens eine Serviceartikelzeile und eine Servicezeile enthalten, bevor Sie den Auftrag buchen können. Sollte der Auftrag mehr als eine Serviceauftragszeile umfassen, bucht die Anwendung alle Zeilen in einem Durchgang.  
@@ -134,4 +134,3 @@ Die folgende Vorgehensweise beschreibt, wie die Lieferungsbuchung direkt aus ein
 ## <a name="see-also"></a>Siehe auch  
 [Buchen in der Serviceverwaltung](service-service-posting.md)  
 [Erstellen eines Serviceauftrags](service-how-to-create-service-orders.md)  
-

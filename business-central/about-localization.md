@@ -1,6 +1,6 @@
 ---
 title: Lokale Funktion in Business Central | Microsoft Docs
-description: "Erfahren Sie mehr über die lokale Verfügbarkeit und regulatorischen Konformität von Dynamics 365 Business Central."
+description: Erfahren Sie mehr über die lokale Verfügbarkeit und die gesetzliche Kompatibilität von Dynamics 365 Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 12/06/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 9d0836083f4e8506efbd077f9b0cd733b6dbf623
 ms.openlocfilehash: c7b581f7524199c33959756e858476aa9bbaac15
-ms.contentlocale: de-de
-ms.lasthandoff: 02/01/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799243"
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Lokale Funktion in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über eine kombinierte Lokalisierungsstrategie, inklusive von Microsoft geführter und partnergeführter Modelle. In diesem Abschnitt können Sie Beschreibungen der Funktionen anzeigen, die für die Länder gelten, in denen Microsoft die regulatorische Konformität und andere Funktionen bereitstellt.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über eine kombinierte Lokalisierungsstrategie, inklusive von Microsoft geführter und partnergeführter Modelle. In diesem Abschnitt können Sie Beschreibungen der Funktionen anzeigen, die für die Länder gelten, in denen Microsoft die regulatorische Kompatibilität und andere Funktionen bereitstellt.  
 
 Eine Liste der derzeit unterstützten Märkte finden Sie im Deck [Internationale Verfügbarkeit von Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability).  
 
@@ -55,7 +55,6 @@ Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für j
 
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
-[Konformität](compliance/compliance-overview.md)  
+[Kompatibilität](compliance/compliance-overview.md)  
 [Internationale Verfügbarkeit von Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
 [Entwicklung einer Lokalisierungslösung](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-

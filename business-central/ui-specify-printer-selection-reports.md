@@ -1,8 +1,8 @@
 ---
 title: Einrichten von Berichten, um auf bestimmte Druckern zu drucken | Microsoft Docs
-description: "Weitere Informationen zum Definieren eines Druckers für eine Bericht und zur Nutzung der Druckerauswahlseite."
+description: Weitere Informationen zum Definieren eines Druckers für eine Bericht und zur Nutzung der Druckerauswahlseite.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bc3a7ab7a61e7a51a58494c3f5892c22b6867333
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798955"
 ---
 # <a name="specify-printer-selection-for-reports"></a>Angeben der Druckerauswahl für Berichte
 Diese Seite ist leer, da Sie bestimmte Drucker für bestimmte Berichte noch nicht einrichten können. Wir arbeiten an der Lösung des Problems.
@@ -49,4 +49,3 @@ The following table describes the combination of values to specify when you set 
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ausführen von Stapelverarbeitungen](ui-how-run-batch-jobs.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
-

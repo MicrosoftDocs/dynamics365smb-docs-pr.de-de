@@ -1,8 +1,8 @@
 ---
 title: Erstellen von Verkaufschancen| Microsoft Docs
-description: "Beschreibt die Erstellung von Verkaufschancen von einem Verkäufer oder einem Kontakt in  Business Central."
+description: Beschreibt die Erstellung von Verkaufschancen von einem Verkäufer oder einem Kontakt in  Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798727"
 ---
 # <a name="create-sales-opportunities"></a>Verkaufschancen erstellen
 Sie können Chancen für die Verkaufschancen erstellen, die Sie bei Ihren Kontakten haben. Alle Verkaufschancen müssen einem Verkäufer oder Einkäufer zugeordnet sein und einen Kontakt haben.
@@ -46,4 +46,3 @@ Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstel
 [Verkauf](sales-manage-sales.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)
-

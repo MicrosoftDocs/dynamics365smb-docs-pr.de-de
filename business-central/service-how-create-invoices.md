@@ -1,23 +1,23 @@
 ---
-title: "Erstellen Sie Rechnungen für Services | Microsoft Docs"
-description: "Erfahren Sie, wie Sie Rechnungen erstellen, sodass Sie für Ihren Service bezahlt werden."
+title: Erstellen Sie Rechnungen für Services | Microsoft Docs
+description: Erfahren Sie, wie Sie Rechnungen erstellen, sodass Sie für Ihren Service bezahlt werden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798901"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.
 Die einfache Fakturierung von Serviceaufträgen ist ein zentrales Feature von [!INCLUDE[d365fin](includes/d365fin_md.md)] Sie können Debitoren jederzeit eine Rechnung schicken oder in regelmäßigen Abständen Rechnungen erstellen.  
@@ -102,4 +102,3 @@ Eine Servicegutschrift wird normalerweise verwendet, wenn ein Debitor einen Arti
 [So buchen Sie Servicerechnungen](service-how-to-post-service-orders.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Servicebuchung](service-service-posting.md)  
-

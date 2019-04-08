@@ -1,6 +1,6 @@
 ---
-title: "Richten Sie eine Verkäufer ein| Microsoft Docs"
-description: "Sie können ein Kennzeichen für jeden Ihrer Verkäufer einrichten, damit Sie eine Einzelleistung verfolgen oder einen Kontakt zuordnen können."
+title: Richten Sie eine Verkäufer ein| Microsoft Docs
+description: Sie können ein Kennzeichen für jeden Ihrer Verkäufer einrichten, damit Sie eine Einzelleistung verfolgen oder einen Kontakt zuordnen können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ddc6ab85e0db5065fffc6187c26ba4d67e1a1ee9
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798148"
 ---
 # <a name="set-up-salespeople"></a>Verkäufer einrichten
 Viele Unternehmen möchten die Leistungen der einzelnen Angestellten bei der Berechnung von Verkaufsprovisionen oder Prämien berücksichtigen. Sehen Sie beispielsweise den **Verkäufer-Kommissionsbericht**. Ein Unternehmen möchte möglicherweise auch jeder Kontaktperson einen Verkäufer zuordnen.
@@ -32,4 +32,3 @@ Sie können Verkäufer in verschiedenen Beziehungsverwaltung und Marketings-Arbe
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

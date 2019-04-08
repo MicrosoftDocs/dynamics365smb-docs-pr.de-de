@@ -1,23 +1,23 @@
 ---
 title: Vorgehensweise beim Analysieren von Inventurdifferenzen
-description: "Nach Abschluss des Inventurauftrags können Sie die Inventurdifferenzen analysieren."
+description: Nach Abschluss des Inventurauftrags können Sie die Inventurdifferenzen analysieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 59628d2c4b3714a55e833e091cce621a20811a43
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826715"
 ---
 # <a name="analyze-physical-inventory-differences"></a>Vorgehensweise beim Analysieren von Inventurdifferenzen
 Nach Abschluss des Inventurauftrags können Sie die Inventurdifferenzen analysieren.  
@@ -44,4 +44,3 @@ Sie können die Differenzen auf der Seite "Statistik" anzeigen und als Bericht d
  [So buchen Sie physische Inventuraufträge](how-to-post-physical-inventory-orders.md)   
  [Inventurauftragszeilen mit Artikelverfolgungszeilen](physical-inventory-order-lines-with-item-tracking-lines.md)  
  [Erfassen, Regulieren und Umbuchen von Lagerbestand](../../inventory-how-count-adjust-reclassify.md)
-

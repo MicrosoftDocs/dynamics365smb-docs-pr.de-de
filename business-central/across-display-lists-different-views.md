@@ -1,8 +1,8 @@
 ---
-title: Passen Sie den Betrag des Details an, die in Listen angezeigt werden
-description: "Sie können Listen in detaillierten Ansichten anzeigen, die mehr Informationen geben, oder als Kacheln anzeigen, die einfach, dargestellt werden."
+title: Passen Sie den Betrag des Details an, die in Listen angezeigt werden | Microsoft Docs
+description: Sie können Listen in detaillierten Ansichten anzeigen, die mehr Informationen geben, oder als Kacheln anzeigen, die einfach, dargestellt werden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 8f196f8df6683b0a7d11e75b8da53861facab0c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dcad65142e4f2c9fc9ab6c5ab01ed4bb057721a0
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798458"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Anzeigen von Listen in verschiedenen Ansichten
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] finden Sie rechts in jeder Liste Symbole, die Sie die Ansicht der Liste wechseln lassen. Eine Liste kann als detaillierte Liste angezeigt werden. Dies ist die Standardansicht. Sie können jedoch auch zur Ansicht "Kacheln" wechseln, die weniger Details zu einem bestimmten Datensatz anzeigt und Posten als Kacheln stapeln. Diese Ansicht ist sehr nützlich, um eine Übersicht mehrerer Posten zu erhalten und ist insbesondere auf kleineren Geräten hilfreich, da es das Tippen auf jeden Posten erleichtert.
@@ -30,4 +30,3 @@ Sie können ein Bild für einen bestimmten Artikel importieren, indem Sie die **
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
-

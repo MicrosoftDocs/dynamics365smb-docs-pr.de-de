@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 92496f25d354dd766acd8d301546a5bf4f36c1e3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2b506561b35cab1fafd4cac05a71de988761cac8
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798150"
 ---
 # <a name="design-details-supply-planning"></a>Designdetails: Vorratsplanung
 Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien bereit, die in den Beschaffungsplanungsfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet werden.  
@@ -31,4 +31,3 @@ Erläutert, wie das Planungssystem arbeitet und wie die Algorithmen angepasst we
 [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)  
 [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
 [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)
-

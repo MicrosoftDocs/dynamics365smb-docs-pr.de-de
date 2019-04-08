@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.contentlocale: de-de
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799007"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortieren, Durchsuchen und Filtern von Listen
 Es gibt mehrere Möglichkeiten, wie Sie das tun können und die dabei helfen, Datensätze in einer Liste zu scannen, zu suchen und einzugrenzen. Diese umfassen die Sortierung, Suche und Filterung. Sie können einige oder alle davon gleichzeitig anwenden, um die Daten schnell zu finden oder zu analysieren.
@@ -30,7 +30,7 @@ When you want to search for data, such as customer names, addresses, or product 
 ## <a name="sorting"></a>Sortieren
 Dank der Sortierfunktion können Sie sich schnell und einfach einen Überblick über Ihre Daten verschaffen. Wenn Sie beispielsweise über zahlreiche Debitorenkontakte verfügen, können Sie auswählen, um nach folgenden Kriterien zu sortieren: **Debitorennummer**, **Debitorenbuchungsgruppe**, **Währungscode**, **Länder-/Regionscode** oder **Verkaufssteuer-Registrierung**, um die gewünschte Übersicht zu erhalten.
 
-Um eine Übersicht zu sortieren, können Sie entweder einen Spaltenüberschriftentext um das Menüband zu erweitern und Aufsteigen Absteigend Reihenfolge aus, oder wählen Sie kleine Abstiegpfeil in die Spaltenüberschrift, und wählen Sie dann **Aufsteigend** oder **Absteigend**  
+Um eine Liste zu sortieren, können Sie entweder eine Spaltenüberschrift auswählen, um zwischen aufsteigender und absteigender Reihenfolge umzuschalten, oder den kleinen Pfeil-nach-Unten auswählen und **Aufsteigend** oder **Absteigend** wählen.  
 
 > [!NOTE]  
 >   Sortierung wird nicht auf Bilder, BLOB-Felder und FlowFilter unterstützt, die keiner Tabelle angehören.  
@@ -287,4 +287,3 @@ Verwenden Sie `%myvendors` im Feld Kreditoren-**Nr**, um alle Datensätze für K
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allgemeine Fragen zum Suchen und Filtern](ui-search-filter-faq.md)
-

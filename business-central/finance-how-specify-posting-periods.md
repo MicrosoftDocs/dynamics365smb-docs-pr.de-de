@@ -1,25 +1,24 @@
 ---
 title: Buchungsperioden definieren| Microsoft Docs
-description: "Sie geben Buchungsanfangs- und enddatum an, um einzurichten, wenn Benutzer die Finanzbuchhaltung buchen können."
+description: Sie geben Buchungsanfangs- und enddatum an, um einzurichten, wenn Benutzer die Finanzbuchhaltung buchen können.
 services: project-madeira
-documentationcenter: 
-author: jswymer
-manager: edupont
-editor: 
+documentationcenter: ''
+author: SorenGP
+editor: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 10/01/2018
-ms.author: jswymer
+ms.date: 03/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 4d517fe0d4162815c3ac39e4fed17f6737370d87
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c7aa965f952a4d03ea5c74fe09e59c076a87275a
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799101"
 ---
 # <a name="specify-posting-periods"></a>Festlegen von Buchhaltungsperioden:
 Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Finanzbuchhaltung buchen können.  
@@ -29,10 +28,9 @@ Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Finanzbuchha
 2. Aauf der Seite **Finanzbuchhaltungs-Einrichtung:** legen Sie die Periode fest, indem Sie Daten in den Feldern **Buchungen zugel. ab** und **Buchungen zugel. bis** eingeben.  
 
 > [!NOTE]  
->   Diese Buchungszeiträume gelten für den Mandanten und alle Anwender. Wenn Sie für verschiedene Benutzer verschiedene Buchungszeiträume definieren möchten, können Sie diese auf der Seite **Benutzer einrichten** Diese Buchungszeiträume haben Vorrang vor jenen, die auf der Seite **Finanzbuchhaltung einrichten** angegeben werden. Weitere Informationen finden Sie im Abschnitt "Benutzerzeit-Einschränkungen einrichten in [Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md).
+>   Diese Buchungszeiträume gelten für den Mandanten und alle Anwender. Wenn Sie für verschiedene Benutzer verschiedene Buchungszeiträume definieren möchten, können Sie diese auf der Seite **Benutzer einrichten** Diese Buchungszeiträume haben Vorrang vor jenen, die auf der Seite **Finanzbuchhaltung einrichten** angegeben werden. Weitere Informationen finden Sie unter [So richten Sie Zeiteinschränkungen ein](ui-how-users-permissions.md#to-set-up-user-time-constraints).
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
 [Abschließen von Periodenabschlüssen](year-how-complete-period-end-processes.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

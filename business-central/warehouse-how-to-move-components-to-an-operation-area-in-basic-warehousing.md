@@ -1,23 +1,23 @@
 ---
 title: 'Vorgehensweise: Umlagern von Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen | Microsoft Docs'
-description: "Wenn die Arbeitsgänge, die den Artikel verarbeiten, an Ihrem Lagerort stattfinden, müssen Sie möglicherweise Artikel zwischen internen Lagerplätzen umlagern, um auf interne Herkunftsbelege, wie Produktions-, Montage- oder Serviceaufträge am Lagerort zu reagieren."
+description: Wenn die Arbeitsgänge, die den Artikel verarbeiten, an Ihrem Lagerort stattfinden, müssen Sie möglicherweise Artikel zwischen internen Lagerplätzen umlagern, um auf interne Herkunftsbelege, wie Produktions-, Montage- oder Serviceaufträge am Lagerort zu reagieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: a5f103ae832231be521e9faf1d9024cbbb393c33
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798510"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>So verschieben Sie Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen
 Wenn die Arbeitsgänge, die den Artikel verarbeiten, an Ihrem Lagerort stattfinden, müssen Sie möglicherweise Artikel zwischen internen Lagerplätzen umlagern, um auf interne Herkunftsbelege, wie Produktions-, Montage- oder Serviceaufträge am Lagerort zu reagieren.  
@@ -44,7 +44,7 @@ Alternativ kann ein Lagermitarbeiter diese erstellen, indem er auf den freigegeb
 > [!NOTE]  
 >  Wenn die Umlagerung für einen Montageauftrag erfolgt, in dem der Artikel für einen Auftrag montiert wird, dann können Sie festlegen, dass der Lagerbestandsumlagerungsbeleg automatische erstellt wird, wenn Sie den Lagerkommissionierungsbeleg für den fertigen Montageartikel erstellen, der die Lieferung bucht. Um dies einzurichten, wählen Sie das Feld **Umlagerungen automatisch erstellen** auf der Seite **Montageeinrichtung** aus  
 >   
->  Weitere Informationen zu Montageaufträgen und Basis-Lagerkonfigurationen, finden Sie unter [Vorgehensweise: Verarbeiten von Auftragsmontageartikeln Lagerkommissionierungen](warehouse-how-to-pick-for-production.md).  
+>  Weitere Informationen zu Montageaufträgen und Basis-Lagerkonfigurationen finden Sie unter [Verarbeiten von Auftragsmontageartikeln mit Lagerkommissionierungen](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 Im folgenden Verfahren wird beschrieben, wie eine Lagerbestandsumlagerung aus der Seite **Lagerbestandsumlagerung** durch das Verweisen auf einen freigegebenen Montageauftrag als Herkunftsbeleg erstellt wird. Dieser Vorgang ist derselbe, wenn Sie Komponenten für Fertigungsaufträge und Serviceaufträge umlagern.  
 
@@ -79,4 +79,3 @@ Im folgenden Verfahren wird beschrieben, wie eine Lagerbestandsumlagerung aus de
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

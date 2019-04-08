@@ -1,8 +1,8 @@
 ---
-title: "Einrichten von Position für Kontaktpersonen| Microsoft Docs"
-description: "Sie können Ihren Kontakten Positionen zuordnen, um zu bestimmen, welche Position sie innerhalb ihres Unternehmens innehaben (beispielsweise Topmanagement)."
+title: Einrichten von Position für Kontaktpersonen| Microsoft Docs
+description: Sie können Ihren Kontakten Positionen zuordnen, um zu bestimmen, welche Position sie innerhalb ihres Unternehmens innehaben (beispielsweise Topmanagement).
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: be0bde09790c68730167709e1e82562a9a39c4e6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 44da3ed8f78dd685000e5ec27d43e1bb3a5959ba
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798687"
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Einrichten von Position für Kontaktpersonen
 Sie können Ihren Kontakten Positionen zuordnen, um zu bestimmen, welche Position sie innerhalb ihres Unternehmens innehaben (beispielsweise Topmanagement). Sie können diese Informationen nutzen, wenn Sie Informationen über Ihre Kontakte eingeben.
@@ -42,7 +42,5 @@ Nachdem Sie Ihren Kontakten Positionen zugeordnet haben, können Sie diese Infor
 Sobald Sie Ihren Kontakten Verantwortlichkeiten zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Hinzufügen von Kontakten zu Segmenten](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Siehe auch
-[Kontaktunternehmenerstellen](marketing-create-contact-companies.md)  
-[Kontaktpersonen erstellen](marketing-create-contact-persons.md)  
+[Kontakte erstellen](marketing-create-contact-companies.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

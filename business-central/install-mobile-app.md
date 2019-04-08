@@ -1,6 +1,6 @@
 ---
-title: "Business Central auf mobilen Geräten nutzen| Microsoft Docs"
-description: "Sie können Business Central auf Ihrem Telefon oder Tablet einsehen und bearbeiten."
+title: Business Central auf mobilen Geräten nutzen| Microsoft Docs
+description: Sie können Business Central auf Ihrem Telefon oder Tablet einsehen und bearbeiten.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8e69b29eff604a78151b6a6f3ad3564abb04a5b2
 ms.openlocfilehash: 4f38251e53e40d57829f7b00592d8b2920e2dea1
-ms.contentlocale: de-de
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798650"
 ---
-
 # <a name="getting-business-central-on-your-mobile-device"></a>Abrufen von Business Central auf meinem mobilen Gerät
 Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[d365fin](includes/d365fin_md.md)] zu. Sie können durch Ihre Unternehmensdaten navigieren, Funktionen verwenden, sowie an Excel oder Office 365 versenden, aktuelle Diagramme und KPIs anzeigen, Verkaufsangebote und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
 
@@ -33,4 +32,3 @@ Sie sollten nun Zugriff auf [!INCLUDE[d365fin](includes/d365fin_md.md)] haben un
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

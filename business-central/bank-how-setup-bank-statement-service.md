@@ -1,8 +1,8 @@
 ---
 title: Yodlee Bank Feeds einrichten| Microsoft Docs'
-description: "Sie können Zahlungsinformationen in ein beliebiges Datenformat umwandeln, die die Bank benötigt und den Export oder den Import von Bankdateien aktivieren."
+description: Sie können Zahlungsinformationen in ein beliebiges Datenformat umwandeln, die die Bank benötigt und den Export oder den Import von Bankdateien aktivieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: sgroespe
+ms.openlocfilehash: ea1641dd475d28fb02dda354bbf287d508e96854
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 30c0e6ebface6ccfd65cab6bd2ce97a09044ff42
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799305"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Einrichten des Envestnet Yodlee Bank-Feed-Service
 Sie können elektronische Bankauszüge von Ihrer Bank importieren, um die Seite **Zahlungsabstimmungsbuch.-Blatt** schnell auszufüllen und so Zahlungen zu begleichen und das Bankkonto auszugleichen. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -25,7 +25,8 @@ Sie können elektronische Bankauszüge von Ihrer Bank importieren, um die Seite 
 Der Bankfeeddienst Envestnet Yodlee wird als eine Erweiterung zum [!INCLUDE[d365fin](includes/d365fin_md.md)] eingerichtet und steht zur Aktivierung bereit. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-extensions.md) mithilfe der Erweiterungen .
 
 > [!NOTE]
-> Der Bank-Feeddienst Envestnet Yodlee wird nur in den USA, in das Kanada und in Großbritannien unterstützt.
+> Der Bank-Feeddienst Envestnet Yodlee wird nur in den USA, in das Kanada und in Großbritannien unterstützt.<br /><br />
+> Die Funktion wird nur in der Online-Version von Business Central unterstützt. Um diese Funktionalität lokal nutzen zu können, müssen Sie ein Co-Brand-Konto von Envestnet Yodlee erhalten.
 
 Wenn Sie den Bankfeeddienst aktiviert haben, müssen Sie das beteiligte Bankkonto mit dem Onlinebankkonto verknüpfen, von dem der Feed stammt. In den folgenden unterschiedlichen Szenarios verknüpfen Sie Bankkonten mit Onlinebankkonten:
 
@@ -46,6 +47,9 @@ Wenn der Bankfeeddienst aktiviert ist, können Sie ein Bankkonto so einrichten, 
 
 Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen Onlinebankkonto verknüpfen. Siehe das folgende Verfahren.  
 
+> [!NOTE]
+> Wenn Sie den Leitfaden für unterstützes Setup **Unternehmenseinrichtung** verwenden, dann aktivieren Sie den Service, indem Sie das Kontrollkästchen **Einen Bankfeeddienst verwenden** auswählen. Weitere Informationen finden Sie unter  [Neue Mandanten erstellen in Business Central](about-new-company.md).
+
 ## <a name="to-create-a-new-linked-bank-account"></a>So erstellen Sie ein neues verknüpftes Bankkonto
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Bankkonten** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie das entsprechende Bankkonto aus, und wählen Sie dann **Neues verknüpftes Bankkonto erstellen**. auf der Seite **Bankkontenverknüpfung** wird nach wenigen Augenblicken geöffnet.
@@ -63,9 +67,9 @@ Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen
     Nachdem der Vorgang abgeschlossen ist, erscheint die Bankadresse im Bereich **Meine Konten** auf der Registerkarte **Verknüpft** . Die Nummer in Klammern gibt an, wie viele der Online Bankkonten verknüpft wurden.  
 7. Wählen Sie die Schaltfläche **OK** aus.
 
-    Wenn Sie nur Online ein Bankkonto verknüpfen, wird die Seite **Bankkontokarte** geöffnet und zeigt den Namen des Online Bankkontos an. In diesem Fall ist die Bankkontoverknüpfung abgeschlossen. Jetzt müssen Sie nur noch das Bankkonto einrichten. Weitere Informationen finden Sie unter [So geht's: Einrichten von Bankkonten](bank-how-setup-bank-accounts.md).
+    Wenn Sie nur ein Onlinebankkonto verknüpfen, wird die Seite **Bankkontokarte** geöffnet und zeigt den Namen des Onlinebankkontos an. In diesem Fall ist die Bankkontoverknüpfung abgeschlossen. Jetzt müssen Sie nur noch das Bankkonto einrichten. Weitere Informationen finden Sie unter [So geht's: Einrichten von Bankkonten](bank-how-setup-bank-accounts.md).
 
-    Wenn mehr als ein Onlinebankkonto verknüpft wurde, öffnet sich die Seite **Bankkontenverknüpfung** und die zusätzlichen Onlinebankkonten, die nicht mit den Bankkonten in [!INCLUDE[d365fin](includes/d365fin_md.md)] verknüpft sind, werden aufgelistet. In diesem Fall, folgen Sie dem nächsten Schritt.  
+    Wenn Sie mehr als ein Onlinebankkonto verknüpfen, öffnet sich die Seite **Bankkontenverknüpfung** und die zusätzlichen Onlinebankkonten, die noch nicht mit den Bankkonten in [!INCLUDE[d365fin](includes/d365fin_md.md)] verknüpft sind, werden aufgelistet. In diesem Fall, folgen Sie dem nächsten Schritt.  
 8. Wählen Sie die Seite **Bankkontenverknüpfung** die Zeile für ein Onlinebankkonto aus, und wählen Sie dann die Aktion **Mit neuem Onlinebankkonto verknüpfen**.  
 
     Die Seite **Bankkontokarte** wird für ein neues Bankkonto geöffnet und der Name des Onlinebankkontos wird angezeigt.
@@ -120,4 +124,3 @@ Jede Stunde wird die Seite **Zahlungsabstimmungsbuch.-Blatt** mit allen neuen Za
 [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -2,7 +2,7 @@
 title: Verarbeiten eingehender und ausgehender IC-Transaktionen | Microsoft Docs
 description: Intercompanytransaktionen, die Sie von Intercompanypartnern empfangen, werden im IC-Eingang aufgelistet, in dem Sie sie manuell oder automatisch bearbeiten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7bf0c1c22d2f43220d9b101a1a54757add900e9
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8432eea92738682bbdab55f8c3f6dae16f401149
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853281"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Intercompany-Ein- und -Ausgangstransaktionen verwalten
 Alle Intercompanytransaktionen, die Sie auf elektronischem Wege von Intercompanypartnern empfangen, werden im Intercompanyeingang aufgelistet.  
@@ -43,7 +43,7 @@ Das Feld **Transaktionsursprung anzeigen** kann zum Filtern der Transaktionen im
 #### <a name="returned-from-intercompany-partner"></a>Von Intercompanypartner zurückgesendete Transaktion  
  Wenn die Transaktion vom Intercompanypartner abgelehnt wurde, können Sie sie nur im Eingang abbrechen. Anschließend müssen Sie Korrekturzeilen erstellen oder das Buch.-Blatt oder den Beleg im Unternehmen stornieren.  
 
-## <a name="re-creating-inbox-entries"></a>Neuerstellen von Eingangsposten  
+## <a name="recreating-inbox-entries"></a>Neuerstellen von Eingangsposten  
  Wenn Sie eine Transaktion im Eingang akzeptiert, anschließend aber den Beleg oder das Buch.-Blatt gelöscht haben, statt diese zu buchen, können Sie den Eingangsposten neu erstellen und erneut akzeptieren.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Anzeigen einer Übersicht über die Intercompanytransaktionen eines bestimmten Zeitraums  
@@ -105,4 +105,3 @@ In der folgenden Schrittfolge wird beschrieben, wie Eingangstransaktionen neu er
 [Finanzen einrichten](finance-setup-finance.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

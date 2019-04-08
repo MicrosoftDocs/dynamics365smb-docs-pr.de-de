@@ -7,16 +7,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 9e2ef9ec3b454e5a9bb5097ba3ed30c5756d2352
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798197"
 ---
 # <a name="set-up-sepa-direct-debit"></a>Einrichten von SEPA-Lastschriften
 Auf der Seite **Lastschriften** können Sie Anweisungen in Ihre elektronische Bank exportieren, um eine Lastschrift vom Bankkonto des Debitors auf Ihr Bankkonto durchzuführen. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt das Abbuchungsformat SEPA, aber in Ihrem Land/die Region, sind möglicherweise andere Formate für den elektronischen Zahlungsverkehr verfügbar.  
@@ -26,7 +26,7 @@ Um das Exportieren von Bankdateiformaten zu aktivieren, die nicht durch die allg
 Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im SEPA-Lastschriftformat verarbeiten können, müssen Sie die folgenden Einrichtungsschritte ausführen:  
 
 * Richten Sie zunächst das Exportformat der Bankdatei ein, wodurch Ihre Bank beauftragt wird, eine Lastschrift vom Bankkonto des Debitors auf Ihr Bankkonto durchzuführen.  
-* Richten Sie die Zahlungsmethode des Debitors ein.  
+* Richten Sie die Zahlungsform des Debitors ein.  
 * Richten Sie das Lastschriftmandat ein, das Ihrer Übereinkunft mit dem Debitor zum Einzug seiner Zahlungen in einem bestimmten Zeitraum entspricht.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Einrichten Ihres Bankkontos für die SEPA-Lastschrift  
@@ -34,20 +34,20 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 2. Öffnen Sie das Konto, das Sie für das Lastschriftverfahren verwenden möchten.  
 3. Wählen Sie im Inforegister **Umlagerung**, im Feld **SEPA-Lastschrift Exportformat** SEPA Lastschrift.  
 
-### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Einrichten der Zahlungsmethode des Debitors für die SEPA-Lastschrift  
+### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Einrichten der Zahlungsform des Debitors für die SEPA-Lastschrift  
 1. Geben Sie im Feld **Suchen** einen Wert für **Zahlungsformen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus.  
-3. Richten Sie eine Zahlungsmethode ein. Füllen Sie die auf den Lastschrifteinzug bezüglichen Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+3. Richten Sie eine Zahlungsform ein. Füllen Sie die auf den Lastschrifteinzug bezüglichen Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  
     |---------------------------------|---------------------------------------|  
-    |**Lastschrift**|Geben Sie an, ob die Zahlungsmethode für den SEPA-Lastschrifteinzug gilt.|  
+    |**Lastschrift**|Geben Sie an, ob die Zahlungsform für den SEPA-Lastschrifteinzug gilt.|  
     |**Zahlungsbedingungscode Lastschrift**|Geben Sie die Zahlungsbedingungen an, wie etwa NICHT ZAHLEN, die auf Verkaufsrechnungen angezeigt werden, die per SEPA-Lastschrift bezahlt werden, um den Debitor darauf hinzuweisen, dass die Zahlung automatisch eingezogen wird. Als Alternative können Sie das Feld leer lassen.|  
 
     > [!NOTE]  
     >  Geben Sie hier keinen Wert in **Bal. Kontonr.** ein  
 
-4. Wählen Sie die Schaltfläche **OK** aus, um die Seite **Genehmigungskommentare** zu schließen.  
+4. Wählen Sie die Schaltfläche **OK** aus, um die Seite **Zahlungsformen** zu schließen.  
 5. Geben Sie im Feld **Suchen** **Debitoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 6. Öffnen Sie die Debitorenkarte für den Debitor, der für die SEPA-Lastschriften eingerichtet werden soll.  
 7. Wählen Sie das Feld , und wählen Sie dann den **Zahlungsformcode**, den Sie in Schritt 3 angegeben haben.  
@@ -76,8 +76,7 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
  Das Lastschrift-Mandat wird automatisch in das Feld **Lastschrift-Mandat-ID** eingegeben, wenn Sie eine Verkaufsrechnung für den Debitor erstellen, den Sie in Schritt 2 ausgewählt haben. Weitere Informationen finden Sie unter [Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Siehe auch  
-[Einziehen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Datenaustauschdefinitionen einrichten](across-how-to-set-up-data-exchange-definitions.md)
 [Wiederkehrende Verkaufs- und Einkaufszeilen einrichten](sales-how-work-standard-lines.md)
 [Daten elektronisch austauschen](across-data-exchange.md)
-

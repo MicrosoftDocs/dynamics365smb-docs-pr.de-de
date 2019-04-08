@@ -1,23 +1,23 @@
 ---
 title: Aktualisieren von festen Einstandspreisen | Microsoft Docs
-description: "Sie müssen die festen Einstandspreise von Komponenten in regelmäßigen Abständen aktualisieren und die neuen Einstandspreise auf den übergeordneten Artikel übertragen."
+description: Sie müssen die festen Einstandspreise von Komponenten in regelmäßigen Abständen aktualisieren und die neuen Einstandspreise auf den übergeordneten Artikel übertragen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798895"
 ---
 # <a name="update-standard-costs"></a>Standardkosten aktualisieren
 Sie müssen die festen Einstandspreise von Komponenten in regelmäßigen Abständen aktualisieren und die neuen Einstandspreise auf den übergeordneten Artikel übertragen. Der Prozess besteht in der Regel aus den folgenden vier Schritten:  
@@ -45,6 +45,5 @@ Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstands
 ## <a name="see-also"></a>Siehe auch  
  [Informationen zur Berechnung von festen Einstandspreisen](finance-about-calculating-standard-cost.md)   
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)   
- [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md) [[Finance](finance.md)]  
+ [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md) [Finance](finance.md)]  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

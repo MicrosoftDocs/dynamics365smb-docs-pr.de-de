@@ -1,23 +1,23 @@
 ---
-title: "So arbeiten Sie mit Serviceverträgen und Servicevertragsangeboten | Microsoft Docs"
-description: "Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot. Si können einen Vertrag auf einem Servicevertragsangebot erstellen."
+title: So arbeiten Sie mit Serviceverträgen und Servicevertragsangeboten | Microsoft Docs
+description: Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot. Si können einen Vertrag auf einem Servicevertragsangebot erstellen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8f27a27941130a56f8ad1c1c5ef22d3e448e455b
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799375"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeiten mit Serviceverträgen und Servicevertragsangeboten
 Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot. Sie können ein Servicevertragsangebot als Vorläufer eines Servicevertrags verwenden, in dem Ihr Unternehmen dem Debitoren ein Angebot unterbreitet und die Genehmigung des Debitoren erhält, bevor das Angebot in einen Servicevertrag umgewandelt wird. Die Vorgehensweisen zur Erstellung eines Servicevertrags oder eines Servicevertragsangebots sind ähnlich.  
@@ -202,4 +202,3 @@ Sie können Serviceverträge und Vertragsangebote jederzeit archivieren, um eine
 [Serviceverträge einzurichten:](service-how-setup-service-contracts.md)  
 [Service](service-service.md)  
 [Konvertieren von Serviceverträgen, die MwSt.-Beträge enthalten](service-how-to-convert-service-contracts.md)  
-

@@ -1,23 +1,23 @@
 ---
 title: Debitorendatenmigration vorbereiten | Microsoft Docs
-description: "Nachdem Sie die Einrichtungsdaten in die neue Datenbank importiert und dort angewendet haben, können Sie mit dem Migrieren der vorhandenen Stammdaten des Debitors beginnen, beispielsweise Artikel- und Debitorennummern sowie Namen. Um sicherzustellen, dass diese Daten schnell und genau im neuen Mandanten erstellt werden, sollten Sie Vorlagen verwenden, um die Daten zu strukturieren."
+description: Nachdem Sie die Einrichtungsdaten in die neue Datenbank importiert und dort angewendet haben, können Sie mit dem Migrieren der vorhandenen Stammdaten des Debitors beginnen, beispielsweise Artikel- und Debitorennummern sowie Namen. Um sicherzustellen, dass diese Daten schnell und genau im neuen Mandanten erstellt werden, sollten Sie Vorlagen verwenden, um die Daten zu strukturieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/07/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "797924"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Vorgehensweise: Migrieren von Debitorendaten
 Nachdem Sie die Einrichtungsdaten in die neue Datenbank importiert und dort angewendet haben, können Sie mit dem Migrieren der vorhandenen Stammdaten des Debitors beginnen, beispielsweise Artikel- und Debitorennummern sowie Namen. Um sicherzustellen, dass diese Daten schnell und genau im neuen Mandanten erstellt werden, sollten Sie Vorlagen verwenden, um die Daten zu strukturieren.  
@@ -115,7 +115,7 @@ Sie können die Struktur der Daten verwenden, die in den Datenvorlagen enthalten
 Die folgenden Schritte veranschaulichen, wie eine Artikelkarte aus einer Artikeldatenvorlage erstellt wird. Mit demselben Verfahren können Sie einen Datensatz aus jeder beliebigen Datenvorlage erstellen.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsvorlage** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie die entsprechende **Element**-Vorlage und wählen Sie dann die Aktion **Bearbeiten** aus. Weitere Informationen zum Erstellen einer Vorlage finden Sie unter Vorgehensweise: Eine Datenvorlage erstellen.
+2. Wählen Sie die entsprechende **Element**-Vorlage und wählen Sie dann die Aktion **Bearbeiten** aus. Weitere Informationen finden Sie unter [So erstellen Sie eine Datenvorlage](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Wählen Sie die Aktion **Instanz erstellen** aus. Eine Artikelkarte wird erstellt.  
 4. Wählen Sie die Schaltfläche **OK** aus.  
 5. Um die neue Einheitenkarte zu prüfen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Einheiten** ein, und wählen dann den zugehörigen Link aus.  
@@ -140,4 +140,3 @@ Die Standardwerte aus der ausgewählten Debitorenvorlage werden in die Debitoren
 [Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Neue Debitoren registrieren.](sales-how-register-new-customers.md)
-

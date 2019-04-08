@@ -2,22 +2,22 @@
 title: Beispiel - Inventurauftragszeile mit Nachverfolgungszeilen
 description: 'Eine Inventurauftragszeile muss die folgenden bestimmten Daten enthalten:'
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 91a6436cf9539c3808d80de80bf97b9b03d0ebea
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d9bcf8b4a9483409a33d796d4f968be357e22670
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826737"
 ---
 # <a name="example---inventory-order-line-with-tracking-lines"></a>Beispiel - Inventurauftragszeile mit Nachverfolgungszeilen
 Eine Inventurauftragszeile enthält die folgenden buchungsrelevanten Daten:  
@@ -69,4 +69,3 @@ Bei Abschluss des Inventurauftrags berechnet die Anwendung für den Artikel 8021
 ## <a name="see-also"></a>Siehe auch  
  [Inventurauftragszeilen mit Artikelverfolgungszeilen](physical-inventory-order-lines-with-item-tracking-lines.md)  
  [Arbeiten mit Chargennummern und Seriennummern](../../inventory-how-work-item-tracking.md)
-

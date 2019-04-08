@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Kontaktpersonen| Microsoft Docs
-description: "Beschreibt, wie einer Kontaktkarte für jede neue Person oder potentielle neuen Debitoren erstellt wird, mit dem Sie eine Geschäftsbeziehung haben."
+description: Beschreibt, wie einer Kontaktkarte für jede neue Person oder potentielle neuen Debitoren erstellt wird, mit dem Sie eine Geschäftsbeziehung haben.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
+ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798579"
 ---
 # <a name="create-contact-persons"></a>Anlegen von Kontaktpersonen
 Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unternehmen arbeitet, mit dem Sie Geschäfte machen. Für jedes Kontaktunternehmen können Sie beliebig viele Kontaktpersonen eingeben. Außerdem können Sie Kontaktkarten für die Personen erstellen, die Sie als unabhängig speichern möchten.
@@ -37,11 +37,9 @@ Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unterne
 >   Die Inhalte der Felder, die Sie auf der Seite **Übernahme** im Abschnitt **Marketing & Vertrieb Einr.** ausgewählt haben, werden für die Person aus dem Unternehmen übernommen.
 
 ## <a name="see-also"></a>Siehe auch
-[Marketing & Vertrieb einrichten](marketing-setup-marketing.md)  
 [Versandgruppen einem Kontakt zuweisen](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Einrichten von Verantwortlichkeiten für Kontakte](marketing-job-responsibilities.md)  
 [Einrichten von Position für Kontaktpersonen](marketing-organizational-levels.md)  
 [Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren](marketing-create-contact-profile-questionnaire.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
-

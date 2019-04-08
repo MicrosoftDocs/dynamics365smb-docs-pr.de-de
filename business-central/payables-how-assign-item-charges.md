@@ -1,8 +1,8 @@
 ---
-title: "Zuordnen von Artikelzu-/-abschlägen zu Einkäufen oder Verkäufen| Microsoft Docs"
-description: "Wenn Sie Ihren Lagerartikel Kosten wie Fracht, Versicherung, Umlagerung und Transport hinzufügen möchten, die beim Kauf oder Verkauf entstehen, können Sie die Artikelgebührenfunktion verwenden."
+title: Zuordnen von Artikelzu-/-abschlägen zu Einkäufen oder Verkäufen| Microsoft Docs
+description: Wenn Sie Ihren Lagerartikel Kosten wie Fracht, Versicherung, Umlagerung und Transport hinzufügen möchten, die beim Kauf oder Verkauf entstehen, können Sie die Artikelgebührenfunktion verwenden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 0bf5ab953315048bfa10dc1ffb70c07d8305b4e1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798475"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Verwenden von Artikelzuschlägen für zusätzliche Kosten
 Um eine korrekte Bewertung sicherzustellen, müssen Ihre Lagerartikel Kosten wie Fracht, Versicherung, Umlagerung und Transport enthalten, die beim Kauf oder Verkauf entstehen. Die Kosten eines eingekauften Artikels bestehen aus dem Einkaufspreis des Kreditors und allen zusätzlichen Artikelzuschlägen, die einzelnen Wareneingängen oder Rücklieferungen zugewiesen werden können. Die Frachtkosten der verkauften Artikel zu kennen, kann für Ihr Unternehmen genauso wichtig sein wie die Einkaufspreise der eingekauften Artikel zu kennen.
@@ -69,7 +69,7 @@ Der Artikelzuschlag wird nun der Einkaufsrechnung zugeordnet. Wenn Sie den Waren
 
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen
 Wenn Sie eine Rechnung für die Zu-/Abschläge erhalten, nachdem Sie den Wareneingang der ursprünglichen Einkaufsrechnung wurde, gehen Sie folgendermaßen vor.
-1. Wiederholen Sie die Schritte 1 bis 8 im ", um einen Artikel-Zu-/Abschlags in die Einkaufsrechnung für den Artikel zuzuordnen Abschnitt".
+1. Wiederholen Sie die Schritte 1 bis 8 unter [Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
 2. Klicken Sie auf der Seite **Artikel Zu-/Abschlagszuweisung** auf die Aktion **Rücksendungszeilen holen**.
 3. Auf der Seite **Einkauf Lieferzeilen** wählen Sie die Zeile Geb. Einkaufslieferung für den Artikel, dem Sie den Artikel Zu-/Abschlag zuordnen möchten, und wählen Sie dann die Schaltfläche **OK** aus.
 4. Wählen Sie die **Artikel Zu-/Abschlagszuweisung vorschlagen** Aktion aus.
@@ -81,4 +81,3 @@ Artikelzu-/Abschläge der separaten Einkaufsrechnung wird jetzt dem Artikel in d
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

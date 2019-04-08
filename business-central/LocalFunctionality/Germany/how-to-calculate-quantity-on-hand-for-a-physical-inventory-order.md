@@ -1,23 +1,23 @@
 ---
-title: "Vorgehensweise beim Berechnen der verfügbaren Menge für einen Inventurauftrag"
-description: "Nachdem Sie den Inventurauftrag erstellt und die Inventurauftragszeilen eingegeben haben, müssen Sie vom Programm das Feld „Erwartete Menge (Basis)” für die einzelnen Inventurauftragszeilen berechnen lassen."
+title: Vorgehensweise beim Berechnen der verfügbaren Menge für einen Inventurauftrag
+description: Nachdem Sie den Inventurauftrag erstellt und die Inventurauftragszeilen eingegeben haben, müssen Sie vom Programm das Feld „Erwartete Menge (Basis)” für die einzelnen Inventurauftragszeilen berechnen lassen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 2021f6465f0e52ad6662376568c448a9cc986bc6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fc809d397131c09efbeb80bf3c5553283de7065f
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826725"
 ---
 # <a name="calculate-quantity-on-hand-for-a-physical-inventory-order"></a>Berechnen der verfügbaren Menge für einen Inventurauftrag
 Nachdem Sie den Inventurauftrag erstellt und die Inventurauftragszeilen eingegeben haben, müssen Sie vom Programm das Feld „Erwartete Menge (Basis)” für die einzelnen Inventurauftragszeilen berechnen lassen.  
@@ -47,4 +47,3 @@ Sie müssen die erwarteten Mengen für alle Inventurauftragszeilen eines Inventu
  [So schließen Sie eine Inventurerfassung ab](how-to-finish-a-physical-inventory-recording.md)   
  [Inventurauftragszeilen mit Artikelverfolgungszeilen](physical-inventory-order-lines-with-item-tracking-lines.md)  
  [Erfassen, Regulieren und Umbuchen von Lagerbestand](../../inventory-how-count-adjust-reclassify.md)
-

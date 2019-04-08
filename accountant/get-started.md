@@ -1,28 +1,28 @@
 ---
 title: Dynamics 365 Financials | Microsoft Docs
-description: "Erhalten von Informationen zum Accountant Hub für Dynamics 365."
+description: Informationen zu Accountant Hub für Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798228"
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Erste Schritte mit [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen. Einige Unternehmen verwenden einen externen Buchhalter, und andere haben einen Buchhalter als Mitarbeiter. Wenn Sie ein Buchhalter mit mehreren Clients sind, können Sie das [!INCLUDE [d365acc](includes/d365acc_md.md)] als Ihr Dashboard für einen besseren Überblick über Ihre Clients verwenden.  
 
-Sie erhalten Zugriff auf [!INCLUDE [d365acc](includes/d365acc_md.md)], indem Sie sich von [Dynamics 365 — Accountant Hub auf Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) anmelden  
+Sie erhalten Zugriff auf [!INCLUDE [d365acc](includes/d365acc_md.md)], indem Sie sich unter [Dynamics 365 – Accountant Hub auf Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) anmelden  
 
 > [!TIP]
->  Wenn Sich sich beim [!INCLUDE [d365acc](includes/d365acc_md.md)] anmelden, müssen Sie Ihre E-Mail-Adresse der Unternehmung angeben wie <em>me@accountant.com</em>. Es wird empfohlen, die gleiche E-Mail-Adresse zu verwenden, wenn Sie in Ihren Clients arbeiten [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)], sodass zwischen Clients einfach gewechselt werden kann. Die E-Mail-Adresse muss eine Arbeitsadresse sein, die auf Active Directory basiert.
+>  Wenn Sich sich bei [!INCLUDE [d365acc](includes/d365acc_md.md)] anmelden, müssen Sie Ihre E-Mail-Adresse der Unternehmung angeben wie beispielsweise <em>me@accountant.com</em>. Es wird empfohlen, die gleiche E-Mail-Adresse zu verwenden, wenn Sie in Ihren Clients arbeiten [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)], sodass zwischen Clients einfach gewechselt werden kann. Die E-Mail-Adresse muss eine Arbeitsadresse sein, die auf Active Directory basiert.
 
 ## <a name="working-with-individual-clients"></a>Arbeiten mit einzelnen Clients
 Das Dashboard zeigt die wichtigsten Informationen über jeden Clients an.  
@@ -89,5 +89,4 @@ Wenn Sie eine Aufgabe abgeschlossen haben, kennzeichnen Sie sie einfach als abge
 [Willkommen bei [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
 [Finanzauswertungen analysieren in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)  
 [Buchhalter-Erfahrung in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
-[Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-
+[Dynamics 365 – Accountant Hub auf Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

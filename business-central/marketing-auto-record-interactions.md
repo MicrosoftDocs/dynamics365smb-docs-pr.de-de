@@ -1,8 +1,8 @@
 ---
-title: "Automatische Erfassung von Aktivitäten einrichten | Microsoft Docs"
-description: "Sie können Ihre Debitor- oder Clientaktivitäten beispielsweise Verkaufs-, Einkaufs- und Servicebelege oder Telefongespräche automatisch speichern."
+title: Automatische Erfassung von Aktivitäten einrichten | Microsoft Docs
+description: Sie können Ihre Debitor- oder Clientaktivitäten beispielsweise Verkaufs-, Einkaufs- und Servicebelege oder Telefongespräche automatisch speichern.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 996bf575d463be365b0bbcdbeef319491065b873
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798627"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Aktivitäten mit Kontakten automatisch aufzeichnen
 Sie können Anwendung für die Automatische Aufzeichnung von Aktivitäten für Verkaufs-, Einkaufs- und Servicebelege, Deckblätter, E-Mails und Telefonanrufe konfigurieren:
@@ -34,4 +34,3 @@ Um die Seite **Interaktionsvorlage einrichten** zu öffnen, wählen Sie das Symb
 ## <a name="see-also"></a>Siehe auch
 [Aufzeichnen von Aktivitäten mit Kontakten](marketing-interactions.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

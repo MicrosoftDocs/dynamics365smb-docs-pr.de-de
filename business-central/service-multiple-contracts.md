@@ -1,23 +1,23 @@
 ---
-title: "Mehrere Verträge | Microsoft Docs"
-description: "Abhängig von den Servicelevelvereinbarungen mit dem Kunden, kann es sein, dass Sie einen Serviceartikel in mehr als einem Servicevertrag berücksichtigen müssen."
+title: Mehrere Verträge | Microsoft Docs
+description: Abhängig von den Servicelevelvereinbarungen mit dem Kunden, kann es sein, dass Sie einen Serviceartikel in mehr als einem Servicevertrag berücksichtigen müssen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 58e92211695ea3a8d8c4137c699794f935c1bc69
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e4f0bad058bd928f65214f04f978bf3b387cbb8
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798156"
 ---
 # <a name="multiple-contracts"></a>Mehrere Verträge
 Abhängig von den Servicelevelvereinbarungen mit dem Kunden, kann es sein, dass Sie einen Serviceartikel in mehr als einem Servicevertrag berücksichtigen müssen.  
@@ -48,4 +48,3 @@ Sie können manuell einen Serviceauftrag für einen Serviceartikel, der in mehre
 ## <a name="see-also"></a>Siehe auch  
 [Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)  
 [Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)  
-

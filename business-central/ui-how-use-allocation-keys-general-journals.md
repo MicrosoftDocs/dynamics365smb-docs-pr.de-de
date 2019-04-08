@@ -1,8 +1,8 @@
 ---
-title: "Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern | Microsoft Docs"
-description: "Erfahren Sie, wie Sie Verteilungsschlüssel in Buch.-Blättern verwenden können."
+title: Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern | Microsoft Docs
+description: Erfahren Sie, wie Sie Verteilungsschlüssel in Buch.-Blättern verwenden können.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: cost accounting
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 29252df5a45d76de7bfbf5f6dd4c1235cfd65e90
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798017"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern
 Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.
@@ -47,4 +47,3 @@ Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts 
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Journale und Dokumente buchen](ui-post-documents-journals.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

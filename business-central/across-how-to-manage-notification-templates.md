@@ -1,24 +1,24 @@
 ---
 title: 'Vorgehensweise: Verwalten von Benachrichtigungsvorlagen | Microsoft Docs'
-description: "Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, welche Schritte sie ausführen müssen, oder um sie über den Status von Workflowschritten zu informieren. Sie legen fest, wer wann Benachrichtigungen erhält, indem Sie Genehmigungsbenutzer, einen Benachrichtigungsplan für Benutzer und die entsprechenden Workflowantworten einrichten, um den Benachrichtigungsempfänger zu definieren."
+description: Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, welche Schritte sie ausführen müssen, oder um sie über den Status von Workflowschritten zu informieren. Sie legen fest, wer wann Benachrichtigungen erhält, indem Sie Genehmigungsbenutzer, einen Benachrichtigungsplan für Benutzer und die entsprechenden Workflowantworten einrichten, um den Benachrichtigungsempfänger zu definieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799246"
 ---
 # <a name="manage-notification-templates"></a>Verwalten von Benachrichtigungsvorlagen
 Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, welche Schritte sie ausführen müssen, oder um sie über den Status von Workflowschritten zu informieren. Sie legen fest, wer wann Benachrichtigungen erhält, indem Sie Genehmigungsbenutzer, einen Benachrichtigungsplan für Benutzer und die entsprechenden Workflowantworten einrichten, um den Benachrichtigungsempfänger zu definieren. Weitere Informationen finden Sie unter [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md).  
@@ -83,4 +83,3 @@ Parameterwerte werden entsprechend dem Typ der Benachrichtigungsvorlage automati
  [Erstellen eines Workflows](across-how-to-create-workflows.md)   
  [Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung](admin-job-queues-schedule-tasks.md)   
  [Workflow](across-workflow.md)   
-

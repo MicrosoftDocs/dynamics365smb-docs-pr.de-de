@@ -1,23 +1,23 @@
 ---
 title: 'Designdetails: Planungs-Zuordnungstabelle | Microsoft Docs'
-description: "Dieses Thema gibt Einblicke dazu, was sich ändert, wenn Sie einen Artikel für die Planung ändern."
+description: Dieses Thema gibt Einblicke dazu, was sich ändert, wenn Sie einen Artikel für die Planung ändern.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 9a1661d71bd28009a0c0b83a50e27cae3c833ea7
-ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799170"
 ---
 # <a name="design-details-planning-assignment-table"></a>Designdetails: Planungszuweisungstabelle
 Alle Artikel sollten eingeplant werden, es gibt jedoch keinen Grund, einen Plan für einen Artikel zu berechnen, es sei denn, es gab eine Änderung im Bedarfs- oder Vorratsmuster seit der letzten Berechnung des Plans.  
@@ -28,7 +28,7 @@ Für mehrere Lagerorte findet die Zuweisung auf Artikelebene pro Lagerortkombina
 
 Der Grund für die Auswahl von Artikeln für die Planung hat mit der Systemleistung zu tun. Wenn keine Änderung des Bedarf-Vorrat-Musters eines Artikels eingetreten ist, schlägt das Planungssystem keine Aktionen vor. Ohne die Planungs-Zuweisung müsste das System die Berechnungen für alle Artikel ausführen, um herauszufinden, was zu planen ist, wodurch die Systemressourcen belastet würden.  
 
-Die Tabelle **Planning Assignment** überwacht Bedarf und Vorrat und ordnet die entsprechenden Artikel für die Planung zu. Die folgenden Ereignisse werden überwacht:  
+Die Tabelle **Planungszuweisung** überwacht Bedarf und Vorrat und ordnet die entsprechenden Artikel für die Planung zu. Die folgenden Ereignisse werden überwacht:  
 
 * Ein neuer Verkaufsauftrag, eine Planung, eine Komponente, eine Bestellung, ein Fertigungsauftrag, ein Montageauftrag oder ein Umlagerungsauftrag.  
 * Änderung von Artikel, Menge, Lagerort, Variante oder Datum auf einem Verkaufsauftrag, Plan, einer Komponente, einem Einkaufsauftrag, einem Produktionsauftrag, einem Montageauftrag oder einem Umlagerungsauftrag.  
@@ -69,4 +69,3 @@ Wenn sie eine Prod.-Programmplanung oder einen Nettobedarf berechnen, gelten die
 [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
 [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)   
 [Designdetails: Planungsparameter](design-details-planning-parameters.md)  
-

@@ -1,7 +1,7 @@
 ---
 title: Willkommen| Microsoft Docs
-description: "Gliedert die unterstützten Einrichtungshandbücher, Videos, Hilfethemen, Seiten, die sie verwenden, um Business Central zu nutzen."
-documentationcenter: 
+description: Gliedert die unterstützten Einrichtungshandbücher, Videos, Hilfethemen, Seiten, die sie verwenden, um Business Central zu nutzen.
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 44d81c85b1519c3c916a4e6509121afda5b4d5a2
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798013"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)]  eingerichtet.
@@ -69,4 +69,3 @@ Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkä
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

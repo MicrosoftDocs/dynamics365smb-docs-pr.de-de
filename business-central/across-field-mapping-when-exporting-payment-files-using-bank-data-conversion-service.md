@@ -1,21 +1,21 @@
 ---
-title: "Feldzuordnung für den Export von Bankzahlungsdateien | Microsoft Docs"
-description: "Wenn Sie Zahlungsdateien exportieren, indem Sie die Bankdaten-Konvertierungsdienst-Funktion verwenden, werden die Daten, die Sie exportieren, dem Anbieter des Bankdaten-Konvertierungsdienstes zur Verfügung gestellt."
+title: Feldzuordnung für den Export von Bankzahlungsdateien | Microsoft Docs
+description: Wenn Sie Zahlungsdateien exportieren, indem Sie die Bankdaten-Konvertierungsdienst-Funktion verwenden, werden die Daten, die Sie exportieren, dem Anbieter des Bankdaten-Konvertierungsdienstes zur Verfügung gestellt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 80112e892c72283254d3894e6ce4102cc9350e0b
-ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799096"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Feld-Zuordnung beim Exportieren von Zahlungsdateien unter Verwendung von Bankdaten-Konvertierungsdienst
 Wenn Sie Zahlungsdateien exportieren, indem Sie die Bankdaten-Konvertierungsdienst-Funktion verwenden, werden die Daten, die Sie exportieren, dem Anbieter des Bankdaten-Konvertierungsdienstes zur Verfügung gestellt. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen darüber, wie die Bankdaten-Konvertierungsdienst-Funktion arbeitet, finden Sie unter [Datenaustausch-Framework](across-about-the-data-exchange-framework.md).  
@@ -72,4 +72,3 @@ In der folgenden Tabelle sind die Felder in [!INCLUDE[d365fin](includes/d365fin_
 [Daten elektronisch austauschen](across-data-exchange.md)
 [Richten Sie den Bankdaten-Konvertierungsdienst ein](bank-how-setup-bank-data-conversion-service.md)   
 [Nehmen Sie Zahlungen mit dem Bank-Datenkonvertierungs-Service- oder einer SEPA-Banküberweisung vor](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
-

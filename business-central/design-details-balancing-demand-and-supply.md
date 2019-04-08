@@ -1,23 +1,23 @@
 ---
 title: 'Designdetails: Ausgleich von Bedarf und Vorrat | Microsoft Docs'
-description: "Um zu erkennen, wie das Planungssystem funktioniert, ist es erforderlich, die priorisierten Ziele des Planungssystems zu kennen. Die wichtigsten davon sind, sicherzustellen, dass jeglicher Bedarf durch genügenden Vorrat befriedigt wird und jeder Vorrat einem Zweck dient."
+description: Um zu erkennen, wie das Planungssystem funktioniert, ist es erforderlich, die priorisierten Ziele des Planungssystems zu kennen. Die wichtigsten davon sind, sicherzustellen, dass jeglicher Bedarf durch genügenden Vorrat befriedigt wird und jeder Vorrat einem Zweck dient.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/14/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: ec4746addfa3fad5d43ffe5579f7fd172e257dfb
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798112"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetails: Ausgleich von Bedarf und Vorrat
 Um zu erkennen wie das Planungssystem funktioniert, ist es notwendig, die priorisierten Ziele des Planungssystems zu kennen, von denen die wichtigsten sind, Folgendes sicherzustellen:  
@@ -293,4 +293,3 @@ Damit sind die Beschreibungen dazu, wie Bedarf und Vorrat vom Planungssystem gel
  [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)   
  [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
  [Designdetails: Vorratsplanung](design-details-supply-planning.md)
-

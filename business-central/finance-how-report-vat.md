@@ -1,6 +1,6 @@
 ---
-title: "Übermitteln von MwSt.-Berichten an die Steuerbehörden | Microsoft Docs"
-description: "Erfahren Sie, wie Sie Berichte erstellen, die die MwSt aus Verkäufen in einer Periode bzw. aus Verkäufen und Einkäufen darstellt, und übermitteln Sie den Bericht an eine Steuerbehörde."
+title: Übermitteln von MwSt.-Berichten an die Steuerbehörden | Microsoft Docs
+description: Erfahren Sie, wie Sie Berichte erstellen, die die MwSt aus Verkäufen in einer Periode bzw. aus Verkäufen und Einkäufen darstellt, und übermitteln Sie den Bericht an eine Steuerbehörde.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798686"
 ---
-
 # <a name="how-to-report-vat-to-a-tax-authority"></a>So geht's: Melden von MwSt. an eine Steuerbehörde
 Dieses Thema beschreibt die Berichte in [!INCLUDE[d365fin](includes/d365fin_md.md)], die Sie verwenden können, um MwSt.-Informationen über Einkäufe und Verkäufe an die Steuerbehörden in Ihrer Region zu senden.
 
@@ -117,4 +116,3 @@ Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen m�
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
-

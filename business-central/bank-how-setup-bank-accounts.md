@@ -1,8 +1,8 @@
 ---
 title: Einrichten von Bankkonten| Microsoft Docs
-description: "Sie können Bankkonten mit den Auszügen der Bank abstimmen."
+description: Sie können Bankkonten mit den Auszügen der Bank abstimmen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 3b52026643eee4fa2eb4625c99c881789e0373ed
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799217"
 ---
 # <a name="set-up-bank-accounts"></a>Bankkonten einrichten
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden Sie Bankkonten, um Ihre Banktransaktionen nachzuvollziehen. Konten können in Mandantenwährung oder in Fremdwährung geführt werden. Nachdem Sie Bankkonten eingerichtet haben, können Sie auch Schecks drucken.
@@ -52,4 +52,3 @@ Felder auf dem Inforegister **Transfer** auf der Seite **Bankkontenkarte** bezie
 [Einrichten von Banken](bank-setup-banking.md)  
 [Verwalten von Bankkonten](bank-manage-bank-accounts.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

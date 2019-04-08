@@ -1,6 +1,6 @@
 ---
 title: Verwenden Sie Profile, um Kontakte zu klassifizieren
-description: "Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren"
+description: Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
+ms.openlocfilehash: 1007bdb689b72cf3eccfc5c15c2df9e3c760d8b3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798423"
 ---
-
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren
 Sie können Profilbefragungen einrichten, die Sie beim Eingeben der Informationen über die Profile Ihrer Kontakte verwenden möchten. In jedem Fragebogen können Sie die unterschiedlichen Fragen einrichten, die Sie Ihren Kontakten stellen möchten.  
 
@@ -70,7 +69,7 @@ Sie können Ihre Kontakte danach klassifizieren, wie viel sie bei Ihnen gekauft 
 </tr>
 <tr class="even">
 <td><p>B</p></td>
-<td><p>Kontakte, die von 100.000 bis 499.000 MW gekauft haben</p></td>
+<td><p>Kontakte, die von 100.000 bis 499.999 MW gekauft haben</p></td>
 </tr>
 <tr class="odd">
 <td><p>U</p></td>
@@ -158,7 +157,4 @@ Füllen Sie dann das Fenster **Profilfragendetails** folgendermaßen aus:
 Wenn Sie einem Kontakt die Profilbefragung mit dieser Frage zuordnen, wird in die Profilzeilen der Kontaktkarte automatisch die entsprechende Antwort für diesen Kontakt eingetragen.
 
 ## <a name="see-also"></a>Siehe auch
-[Kontaktpersonen erstellen](marketing-create-contact-persons.md)  
-[Anlegen von Kontaktpersonen](marketing-how-create-contact-persons.md)  
-[Kontaktunternehmenerstellen](marketing-create-contact-companies.md)  
-
+[Kontakte erstellen](marketing-create-contact-companies.md)  

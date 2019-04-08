@@ -1,28 +1,28 @@
 ---
-title: "So geht es: Fertigungsstècklisten herstellen | Microsoft Docs"
-description: "In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponenten und Unterbaugruppen beschrieben werden, die bei der Fertigung eines übergeordneten Artikels verwendet werden. Sobald ein Fertigungsauftrag für diesen übergeordneten Artikel erstellt wurde, wird über die entsprechende Fertigungsstückliste die Berechnung des Materialbedarfs gesteuert, die auf der Seite **Prod. Bestellkomponenten** dargestellt wird."
+title: 'So geht es: Fertigungsstècklisten herstellen | Microsoft Docs'
+description: In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponenten und Unterbaugruppen beschrieben werden, die bei der Fertigung eines übergeordneten Artikels verwendet werden. Sobald ein Fertigungsauftrag für diesen übergeordneten Artikel erstellt wurde, wird über die entsprechende Fertigungsstückliste die Berechnung des Materialbedarfs gesteuert, die auf der Seite **Prod. Bestellkomponenten** dargestellt wird.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: cbcfe46f547a40112f465fbdac6511bc5a2f510a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 319ec70a1beef3d96a87448934ae8263f21bd1b4
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798395"
 ---
 # <a name="create-production-boms"></a>Fertigungsauftrag erstellen
 In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponenten und Unterbaugruppen beschrieben werden, die bei der Fertigung eines übergeordneten Artikels verwendet werden. Sobald ein Fertigungsauftrag für diesen übergeordneten Artikel erstellt wurde, wird über die entsprechende Fertigungsstückliste die Berechnung des Materialbedarfs gesteuert, die auf der Seite **Prod. Bestellkomponenten** dargestellt wird.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt auch Montagestücklisten. Montageaufträge werden für die Produktion von Endartikeln aus Komponenten in einem einfachen Prozess verwendet, der mit einer oder mehreren grundlegenden Ressourcen, die keine Maschinen oder Arbeitsplatzgruppen sind, oder ganz ohne Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und einen Sack Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken. Weitere Informationen finden Sie im Abschnitt "Montagestücklisten- oder Fertigungsstückliste" im Abschnitt [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md)  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt auch Montagestücklisten. Montageaufträge werden für die Produktion von Endartikeln aus Komponenten in einem einfachen Prozess verwendet, der mit einer oder mehreren grundlegenden Ressourcen, die keine Maschinen oder Arbeitsplatzgruppen sind, oder ganz ohne Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und einen Sack Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken. Weitere Informationen finden Sie unter [Montagestücklisten oder Fertigungsstücklisten](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:  
 
@@ -44,7 +44,7 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
     > [!NOTE]  
     >  Der Ausschussprozentsatz steht für Komponenten, die während der Fertigung bei der Kommissionierung aus dem Lagerbestand als Ausschuss anfallen, wohingegen der Ausschussprozentsatz in Arbeitsgängen für die als Ausschuss anfallende Istmenge vor der Lageraufnahme steht.  
 
-9.  Geben Sie im Feld **Verbindungscode** einen Code für die Verbindung der Komponente mit einem bestimmten Arbeitsgang ein. Weitere Informationen finden Sie im Abschnitt "Verbindungslinks erstellen im Abschnitt [Routings erstellen](production-how-to-create-routings.md)
+9.  Geben Sie im Feld **Verbindungscode** einen Code für die Verbindung der Komponente mit einem bestimmten Arbeitsgang ein. Weitere Informationen finden Sie unter [So erstellen Sie einen Arbeitsplanlink](production-how-to-create-routings.md#to-create-routing-links).
 10. Wenn Sie aus einer vorhandenen Fertigungsstückliste Zeilen kopieren möchten, klicken Sie auf Aktionen, Funktion, **Fertigungsstückliste kopieren**, um vorhandene Zeilen auszuwählen.  
 11.  Überprüfen Sie die Fertigungsstückliste.  
 12.  Sie können die neue Fertigungsstückliste an die Karte des betreffenden übergeordneten Artikels anhängen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).  
@@ -99,4 +99,3 @@ In einer Fertigungsstückliste werden siebzig Metallteile mit den Abmessungen L�
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

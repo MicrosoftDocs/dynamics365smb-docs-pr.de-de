@@ -1,24 +1,24 @@
 ---
-title: "ELSTER-Übermittlung – Übersicht"
-description: "Wenn ein Benutzer eine Umsatzsteuervoranmeldung von Business Central an das Onlineportal „Elektronische Steuererklärungen (ELSTER)” übermittelt, verarbeitet die Microsoft.Dynamics.ElsterTransferHandler-Assembly das Dokument und übermittelt es dann an ELSTER."
+title: ELSTER-Übermittlung – Übersicht
+description: Wenn ein Benutzer eine Umsatzsteuervoranmeldung von Business Central an das Onlineportal „Elektronische Steuererklärungen (ELSTER)” übermittelt, verarbeitet die Microsoft.Dynamics.ElsterTransferHandler-Assembly das Dokument und übermittelt es dann an ELSTER.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: d20f5195061df3b179d791a03f25b4cbe336baa3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6ba8395526d8c797d59daf626b2ab38e8d5b008e
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826772"
 ---
 # <a name="elster-transmission-overview"></a>ELSTER-Übermittlung – Übersicht
 Wenn ein Benutzer eine Umsatzsteuervoranmeldung von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] an das Onlineportal „Elektronische Steuererklärungen (ELSTER)” übermittelt, verarbeitet die Microsoft.Dynamics.ElsterTransferHandler-Assembly das Dokument und übermittelt es dann an ELSTER. Im nächsten Abschnitt werden technische Aspekte der Übermittlung von Dokumenten an ELSTER beschrieben.  
@@ -60,4 +60,3 @@ Die Identität des Absenders wird durch eine Zuordnung des Zertifikats zu einem 
  [Fehlermeldungen des ElsterTransferHandler](error-messages-of-the-elstertransferhandler.md)   
  [Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
  [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen für ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)
-

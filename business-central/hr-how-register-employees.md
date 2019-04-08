@@ -1,8 +1,8 @@
 ---
-title: "Einrichten von Mitarbeitern und ändern von Informationen| Microsoft Docs"
-description: "Beschreibt, wie Sie neue Mitarbeiter erfassen oder Informationen für vorhandene Mitarbeiter bearbeiten."
+title: Einrichten von Mitarbeitern und ändern von Informationen| Microsoft Docs
+description: Beschreibt, wie Sie neue Mitarbeiter erfassen oder Informationen für vorhandene Mitarbeiter bearbeiten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 74750011c638cf3733e20d7ab996887108bc2159
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798966"
 ---
 # <a name="register-employees"></a>Erfassen eines Mitarbeiters
 Um die Personalwesenfunktionalität zu verwenden, müssen Sie jeden Mitarbeiter zuerst erfassen, indem Sie eine Karte mit allen wesentlichen und zugehörigen Informationen erstellen.
@@ -61,4 +61,3 @@ Sie können alternative Adressen verwenden, um die Aufenthaltsorte Ihrer Mitarbe
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)
-

@@ -1,6 +1,6 @@
 ---
 title: 'Designdetails: Planungsparameter | Microsoft Docs'
-description: "Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in Business Central verwenden können."
+description: Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in Business Central verwenden können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: aeafdd37a40d393fbb62501d67b14f3e351ea254
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798695"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
 Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden können.  
@@ -29,7 +29,7 @@ Die Art, in der das Planungssystem Artikelzubehör steuert, wird durch verschied
 |Definieren Sie, wie viel neu bestellt werden soll|Sicherheitsbestand<br /><br /> Wiederbeschaffungsverfahren:<br /><br /> -   Feste Bestellmenge und Bestellmenge<br />-   Auffüllen auf Maximalbestand plus Maximalbestand<br />-   Bestellung<br />-   Los-für-Los|  
 |Optimieren des Zeitpunktes und der Menge bei einer Neubestellung|Neuplanungsperiode<br /><br /> Loskumulierungsperiode<br /><br /> Toleranzperiode|  
 |Ändern Sie die Beschaffungsaufträge|Minimale Losgröße<br /><br /> Maximale Losgröße<br /><br /> Losgrößenrundungsfaktor|  
-|Abgrenzen des geplanten Artikels|Produktionsart:<br /><br /> -   Zum Lagergehen<br />-   Zur Bestellung gehen|  
+|Abgrenzen des geplanten Artikels|Produktionsart:<br /><br /> -   Lagerfertigung<br />-   Auftragsfertigung|  
 
 ## <a name="define-if-the-item-will-be-planned"></a>Definieren Sie, ob der Artikel geplant werden soll  
 Um einen Artikel/SKU in den Planungsprozess einzuschließen, muss er über ein Wiederbeschaffungsverfahren verfügen, andernfalls muss es manuell geplant werden, beispielsweise mit der Funktion "Auftragsplanung".  
@@ -44,7 +44,7 @@ Das Feld **Zeitrahmen** wird von Minimalbestandrichtlinien verwendet (**Feste Be
 
 Die Standardsicherheitsbeschaffungszeit auf der Seite **Herstellung einrichten** sollte mindestens auf einen Tag gesetzt werden. Das Fälligkeitsdatum des Bedarfs ist möglicherweise bekannt, nicht jedoch die Fälligkeitsuhrzeit. Die Planung plant rückwärts, um den Bruttobedarf zu decken, und, wenn kein Sicherheitszuschlag zur Beschaffungszeit definiert ist, können die Waren zu spät eintreffen, um den Bedarf zu decken.  
 
-Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode**, **Loskumulierungsperiode** und **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
+Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode**, **Loskumulierungsperiode** und **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter [Optimieren des Zeitpunktes und der Menge bei einer Neubestellung](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## <a name="define-how-much-to-reorder"></a>Definieren Sie, wie viel neu bestellt werden soll  
 Wenn das Planungssystem die Notwendigkeit einer Neubestellung erkennt, wird das ausgewählte Wiederbeschaffungsverfahren verwendet, um zu ermitteln, wann und wie viel bestellt werden soll.  
@@ -57,7 +57,7 @@ Unabhängige vom Wiederbeschaffungsverfahrens folgt das Planungssystem normalerw
 4. Wenn mehr Grobbedarf vor dem Fälligkeitsdatum des vorwärts geplanten Auftragsvorschlag besteht und dieser Bedarf den derzeit geplanten voraussichtlich verfügbaren Lagerbestand unter den Sicherheitsbestand bringt, wird die Auftragsmenge entsprechend erhöht. Die vorgeschlagene Beschaffungsauftrag wird dann vom Fälligkeitsdatum dieses Grobbedarfs, der den Sicherheitsbestand unterschritten hätte, rückwärts geplant.  
 5. Wenn das Feld **Zeitrahmen** nicht ausgefüllt ist, wird nur der Bruttobedarf am gleichen Fälligkeitsdatum hinzugefügt.  
 
-     Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode**, **Loskumulierungsperiode** und **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
+     Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode**, **Loskumulierungsperiode** und **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter [Optimieren des Zeitpunktes und der Menge bei einer Neubestellung](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### <a name="reordering-policies"></a>Wiederbeschaffungsverfahren  
 Die folgenden Wiederbeschaffungsrichtlinien beeinflussen die Menge, die nachbestellt wird.  
@@ -118,4 +118,3 @@ Wenn die Option **Auftragsfertigung** verwendet wird, analysiert das Planungssys
 [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)   
 [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)
-

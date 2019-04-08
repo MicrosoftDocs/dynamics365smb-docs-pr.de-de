@@ -1,22 +1,22 @@
 ---
 title: Exportieren Sie SEPA-Lastschrifteinzugsposten| Microsoft Docs
-description: "Erstellen Sie eine Lastschrift, die Informationen über das Konto des Debitors, die betroffenen Verkaufsrechnungen und die Direkt-Lastschriftmandate verwahrt."
+description: Erstellen Sie eine Lastschrift, die Informationen über das Konto des Debitors, die betroffenen Verkaufsrechnungen und die Direkt-Lastschriftmandate verwahrt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 6eeaae3812190b363d4ac18a44eaa8d4369b6221
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9790f75e9be5ec96a57320e96dd0cd38d567c16f
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799118"
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>SEPA-Lastschrifteinzugsposten erstellen und in eine Bankdatei exportieren
 Um die Bank anzuweisen, den Zahlungsbetrag vom Bankkonto des Debitors auf das Bankkonto Ihres Unternehmens zu überweisen, erstellen Sie einen Lastschrifteinzug mit Informationen zum Bankkonto des Debitors, den betroffenen Verkaufsrechnungen und dem Lastschrift-Mandat. Aus dem resultierenden Lastschrifteinzugsposten können Sie dann eine XML-Datei exportieren, die Sie dann zur Verarbeitung an Ihre elektronische Bank senden oder hochladen. Alle Zahlungen, die von der Bank nicht verarbeitet werden konnten, werden Ihnen von Ihrer Bank mitgeteilt, und Sie müssen dann die jeweiligen Lastschrifteinzugsposten manuell ablehnen.  
@@ -69,5 +69,4 @@ Sie können jetzt Zahlungseingänge für die betreffenden Verkaufsrechnungen buc
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten von SEPA-Lastschriften](finance-how-to-set-up-sepa-direct-debit.md)  
 [SEPA-Lastschrifteinzug-Zahlungseingänge buchen](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
-[Einziehen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-
+[Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  

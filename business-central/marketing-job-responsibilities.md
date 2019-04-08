@@ -1,8 +1,8 @@
 ---
-title: "Vorbereiten zur Einrichtung von Aufgabenverantwortlichkeiten für Kontakte | Microsoft Docs"
-description: "Sie können einen Verantwortlichkeitscode definieren und diesen einem Kontakt zuweisen, um den Aufgaben anzuzeigen, dass Ihr Kontakt bei dem Unternehmen, z IT, oder Produktion verantwortlich ist."
+title: Vorbereiten zur Einrichtung von Aufgabenverantwortlichkeiten für Kontakte | Microsoft Docs
+description: Sie können einen Verantwortlichkeitscode definieren und diesen einem Kontakt zuweisen, um den Aufgaben anzuzeigen, dass Ihr Kontakt bei dem Unternehmen, z IT, oder Produktion verantwortlich ist.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 62d8f733dbfdb6b3da78368e553deef1ea208072
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798200"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Einrichten von Verantwortlichkeiten von Kontaktpersonen
 Sie können Informationen zu den Verantwortlichkeiten von Kontaktpersonen hinzufügen, um anzuzeigen, wofür eine Kontaktperson innerhalb ihres Unternehmens zuständig ist z. B. IT, Management oder Produktion. Sie können diese Informationen nutzen, wenn Sie Informationen über Ihre Kontakte eingeben.
@@ -45,7 +45,5 @@ Die Anzahl der Verantwortlichkeiten, die Sie dem Kontakt zugeordnet haben, wird 
 Sobald Sie Ihren Kontakten Verantwortlichkeiten zugeordnet haben, können Sie diese Informationen verwenden, um Kontakte für Ihre Segmente auszuwählen. Weitere Informationen finden Sie unter [Hinzufügen von Kontakten zu Segmenten](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Siehe auch
-[Kontaktpersonen erstellen](marketing-create-contact-persons.md)  
-[Kontaktunternehmenerstellen](marketing-create-contact-companies.md)  
-[Arbeiten mit  Business Central](ui-work-product.md)
-
+[Kontakte erstellen](marketing-create-contact-companies.md)  
+[Arbeiten mit Business Central](ui-work-product.md)

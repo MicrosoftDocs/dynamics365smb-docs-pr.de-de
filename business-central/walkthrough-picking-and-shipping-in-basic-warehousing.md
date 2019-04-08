@@ -1,21 +1,21 @@
 ---
 title: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen | Microsoft Docs
-description: "In Business Central können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden."
+description: In Business Central können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 1b07a3b064f1bc45a183d0a2d27b810312007a22
-ms.contentlocale: de-de
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798186"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
 
@@ -55,7 +55,7 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 ## <a name="prerequisites"></a>Voraussetzungen  
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
--   CRONUS International Ltd. installiert.  
+-   CRONUS AG installieren.  
 -   Machen Sie sich anhand der nachfolgenden Schritte zu einem Lagermitarbeiter am Standort SILVER:  
 
     1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagermitarbeiter** ein, und wählen dann den zugehörigen Link aus.  
@@ -70,7 +70,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 
         |Postentyp|Artikelnummer|Lagerortcode|Lagerplatzcode|Menge|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Zugang|LS-81|SILBER|S-01-0001 **Hinweis:**  Der Standardlagerplatz des Artikels in CRONUS .|20|  
+        |Zugang|LS-81|SILBER|S-01-0001 **Hinweis:** Der Standardlagerplatz für den Artikel in CRONUS|20|  
         |Zugang|LS-81|SILBER|S-01-0002|20|  
 
     3.  Wählen Sie die Aktion **Beleg buchen** aus und wählen Sie dann die Schaltfläche **Ja** aus.  
@@ -131,4 +131,3 @@ Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivi
  [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md)   
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

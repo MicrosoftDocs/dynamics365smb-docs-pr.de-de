@@ -1,23 +1,23 @@
 ---
-title: "Digital-Überwachung (/GoBD GDPdU)"
-description: "Sie können Finanz- und Steuerdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert."
+title: Digital-Überwachung (/GoBD GDPdU)
+description: Sie können Finanz- und Steuerdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 5723b1aa7e22c1f56a68aeadb580572e9e6c7b2d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 15090160e2a6de5e7fea1723a2c7d3a0e2155f22
-ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826779"
 ---
 # <a name="process-for-digital-audits-gobdgdpdu"></a>Prozess für Digital-Überwachung (/GoBD GDPdU)
 Sie können Daten aus [!INCLUDE[d365fin](../../includes/d365fin_md.md)] exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.  
@@ -58,7 +58,7 @@ Wenn Sie einen Datenexport einrichten, können Sie Daten für verschiedene Stufe
 
 Wenn Sie ein FlowField wie das Feld **Nettoveränderung (MW)** in der Tabelle **Debitor** einbeziehen, können Sie festlegen, dass die Einträge basierend auf dem Restbetrag am Enddatum der GDPdU-Periode gefiltert werden müssen. Wenn Sie dies als Feldfilter hinzufügen, basieren die Berechnungsformeln auf den Daten, die während des Exports angegeben werden.
 
-Weitere information finden Sie im Abschnitt "GDPdU-Filter-Beispiele" unter [Vorgehensweise: Einrichten von Datenexporten für digitale Prüfungen](how-to-set-up-data-exports-for-digital-audits.md).
+Weitere Informationen finden Sie unter [GDPdU-Filterbeispiele](gdpdu-filter-examples.md).
 
 ## <a name="export-performance"></a>Export-Leistung  
  Wenn Sie große Datenbestände exportieren möchten, kann dies sehr lange Zeit dauern. Es ist empfehlenswert, dass Sie Datenexporte basierend auf den Ratschlägen Ihres Steuerberaters  exportieren, um Ihre Geschäftsanforderungen einzurichten, und die Anforderungen des Steuerprüfers einzurichten. Die Anzahl der Datensätze in einer Tabelle ist auch etwas, das Sie berücksichtigen sollten.  
@@ -68,4 +68,3 @@ Weitere information finden Sie im Abschnitt "GDPdU-Filter-Beispiele" unter [Vorg
  [Wie Sie Daten für eine Digital-Überwachung exportieren](how-to-export-data-for-a-digital-audit.md)   
  [Wie Sie Daten für eine Digital-Überwachung exportieren](walkthrough-exporting-data-for-a-digital-audit.md)   
  [Lokale Funktion (Deutschland)](germany-local-functionality.md)
-

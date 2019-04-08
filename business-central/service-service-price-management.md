@@ -1,23 +1,23 @@
 ---
 title: Servicepreismanagement | Microsoft Docs
-description: "In diesem Thema wird beschrieben, wie Sie den Serviceaufträgen die besten Preise zuzuordnen, individuelle Preisvereinbarungen mit Kunden einzurichten, die Effizienz der Servicemitarbeiter zu verbessern und den Rechnungsstellungsprozess zu beschleunigen."
+description: In diesem Thema wird beschrieben, wie Sie den Serviceaufträgen die besten Preise zuzuordnen, individuelle Preisvereinbarungen mit Kunden einzurichten, die Effizienz der Servicemitarbeiter zu verbessern und den Rechnungsstellungsprozess zu beschleunigen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: eb3d9b075f7209634cdc8b6f88a24409f18811e7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75c50a7044e3494df5aadb90caa1c008a6ac101c
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798956"
 ---
 # <a name="service-price-management"></a>Servicepreismanagement
 Die Funktionalität "Servicepreismanagement" erlaubt Ihnen, den Serviceaufträgen die besten Preise zuzuordnen, individuelle Preisvereinbarungen mit Kunden einzurichten, die Effizienz der Servicemitarbeiter zu verbessern und den Rechnungsstellungsprozess zu beschleunigen.  
@@ -69,4 +69,3 @@ Die Berechnungen sind in der folgenden Tabelle beschrieben.
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten von Preisen und zusätzlichen Kosten für Services](service-how-setup-service-costs-pricing.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
-

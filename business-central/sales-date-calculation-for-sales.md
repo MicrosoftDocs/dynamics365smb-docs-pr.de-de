@@ -1,23 +1,23 @@
 ---
-title: "Terminberechnung für Verkäufe  | Microsoft Docs"
-description: "Das Programm berechnet automatisch das Datum, an dem Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum im Lagerbestand vorhanden ist. Dies ist das Datum, an dem Sie erwarten können, dass Artikel, die an einem bestimmten Datum bestellt wurden, zur Kommissionierung verfügbar sind."
+title: Terminberechnung für Verkäufe  | Microsoft Docs
+description: Das Programm berechnet automatisch das Datum, an dem Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum im Lagerbestand vorhanden ist. Dies ist das Datum, an dem Sie erwarten können, dass Artikel, die an einem bestimmten Datum bestellt wurden, zur Kommissionierung verfügbar sind.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 7de382530c1872155903bfa015866cf99a9f5566
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc73a03c44896bda5d1fdf789a8b349f796c6e58
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798577"
 ---
 # <a name="date-calculation-for-sales"></a>Terminberechnung für Verkäufe
 [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet automatisch das frühestmögliche Datum, an dem ein Artikel in einer Verkaufsauftragszeile geliefert werden kann.
@@ -47,4 +47,3 @@ Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben od
  [Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)   
  [Lieferterminzusagen-Daten berechnen](sales-how-to-calculate-order-promising-dates.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

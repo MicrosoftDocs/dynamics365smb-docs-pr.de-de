@@ -1,23 +1,23 @@
 ---
-title: "Vorgehensweise: Ändern von Planungsvorschlägen in einer grafischen Ansich| Microsoft Docst"
-description: "Eine typische Planungsaktivität besteht darin, Planungsvorschlagszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen. Eine Alternative zur Durchführung im Planungsvorschlag ist die Verwendung einer grafischen Ansicht."
+title: 'Vorgehensweise: Ändern von Planungsvorschlägen in einer grafischen Ansich| Microsoft Docst'
+description: Eine typische Planungsaktivität besteht darin, Planungsvorschlagszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen. Eine Alternative zur Durchführung im Planungsvorschlag ist die Verwendung einer grafischen Ansicht.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 35b8694710f031d99e4cfb6b5e0927266d7559b9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799004"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändern von Planungsvorschlägen in einer grafischen Ansicht
 Eine typische Planungsaktivität besteht darin, Planungsvorschlagszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen. Eine Alternative zur Durchführung im Planungsvorschlag ist die Verwendung einer grafischen Ansicht.
@@ -42,7 +42,7 @@ Der folgende Ablauf zeigt, wie Vorratsvorschläge mit Drag & Drop geändert werd
     Die Seite **Artikelverfügbarkeit nach Zeitachse** wird geöffnet, mit Artikelnummer, Lagerplatz und Variante des Artikels in der ausgewählten Planungszeile, die in den Feldern des Inforegisters **Optionen** vorab ausgefüllt wurde. Das Inforegister **Zeitachse** zeigt die grafische Darstellung des voraussichtlichen Lagerbestands des Artikels, einschließlich Planungsvorschläge.  
 
 2.  Stellen Sie sicher, dass das Feld **Planungsvorschläge einschließen** ausgewählt ist.  
-3.  Suchen Sie den vorgeschlagenen Beschaffungsauftrag, der bearbeitet werden soll. Sie erkennen änderbare Elemente an dem grünen Kreis und dem Diskettensymbol. Weitere Informationen über die verschiedenen Symbole, finden Sie im Inforegister Zeitachse.  
+3.  Suchen Sie den vorgeschlagenen Beschaffungsauftrag, der bearbeitet werden soll. Sie erkennen änderbare Elemente an dem grünen Kreis und dem Diskettensymbol. Weitere Informationen über die verschiedenen Symbole, finden Sie unter [Symbole und Bildsymbole im Inforegister „Zeitachse“](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Positionieren Sie den Mauszeiger über dem grünen Kreis, bis er größer wird und der Mauszeiger seine Form zum Verschiebungssymbol (vier Pfeile) ändert.  
 5.  Drücken Sie die Maustaste und halten Sie sie gedrückt, während Sie den Zeiger nach oben oder unten ziehen, um die Menge zu ändern. Drücken Sie die Maustaste und halten Sie sie gedrückt, während Sie den Zeiger nach links oder rechts ziehen, um das Fälligkeitsdatum zu ändern.  
 6.  Außer dem Bewegen von Elementen mit Drag & Drop können Sie auch Planungsvorschläge ändern, indem Sie einige Rechtsklick-Funktionen verwenden. Klicken Sie mit der rechten Maustaste auf den grünen Kreis eines vorgeschlagenen Vorratselements, und wählen Sie eine der folgenden Funktionen aus.  
@@ -99,4 +99,3 @@ Zusätzlich zu den Tastaturaktionen, die zuvor erwähnt wurden, können Sie im I
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

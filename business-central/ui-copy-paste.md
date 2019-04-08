@@ -1,6 +1,6 @@
 ---
-title: "Daten kopieren und einfügen"
-description: "Kopieren Sie Felder und Zeilen von Business Central-Seiten und fügen Sie sie an anderer Stelle ein"
+title: Daten kopieren und einfügen
+description: Kopieren Sie Felder und Zeilen von Business Central-Seiten und fügen Sie sie an anderer Stelle ein
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6f731940714a754275611026749afa4d79a94443
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e924eeb10e98b81035837ca498ec4f1a7b28bf60
-ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853071"
 ---
-
-# <a name="copying-and-pasting-in-included365finincludesd365finmdmd"></a>Kopieren und Einfügen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="copying-and-pasting"></a>Kopieren und Einfügen
 Sie können eine oder mehrere Zeilen aus einer Liste oder einem einzelnen Feld auf einer Seite kopieren und die kopierten Daten dann auf der gleichen Seite, einer andere Seite oder einem externen Dokument (wie Microsoft Excel und Outlook-E-Mail) einfügen. Kurz gesagt, zum Kopieren drücken Sie STRG+C (cmd+C in Mac Os) auf Ihrer Tastatur. Zum Einfügen drücken Sie STRG+V (cmd+V in Mac Os).
 
 Es gibt mehrere andere Tastenkombinationen zum Kopieren und Einfügen, mit denen Sie Zeit sparen, wenn Sie Daten eingeben. Weitere Informationen dazu finden Sie unter [Tastenkombinationen](keyboard-shortcuts.md#CopyRows).
@@ -72,4 +71,3 @@ Beim Einfügen in [!INCLUDE[d365fin](includes/d365fin_md.md)] wird jede Zeile ge
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.md)  
-

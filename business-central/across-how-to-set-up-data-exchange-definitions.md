@@ -1,21 +1,21 @@
 ---
-title: "Definieren, wie Daten elektronisch übermittelt | Microsoft Docs"
-description: "Nutzen Sie den OCR-Dienst zur Umwandlung von PDF- oder Bilddateien in elektronische Belege konvertiert werden können."
+title: Definieren, wie Daten elektronisch übermittelt | Microsoft Docs
+description: Nutzen Sie den OCR-Dienst zur Umwandlung von PDF- oder Bilddateien in elektronische Belege konvertiert werden können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/26/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.contentlocale: de-de
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798850"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] so einrichten, dass Daten in bestimmten Tabelle mit Daten in externen Dateien ausgetauscht werden, zum Beispiel zum Senden und Empfangen elektronischer Belege oder zum Importieren und Exportieren von Bankdaten und anderen Daten, wie Lohnabrechnung, Währungswechselkursen und Artikelkatalogen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
@@ -55,7 +55,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     |**Codeunit zur Datenverarbeitung**|Geben Sie die Codeunit an, die Daten in und aus Tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] überträgt.|  
     |**Überprüfungs-Codeunit**|Geben Sie die Codeunit an, die verwendet wird, um Daten gegen vordefinierte Geschäftsregeln zu validieren.|  
     |**Lese-/Schreibe-Codeunit**|Geben Sie die Codeunit an, die importierte Daten vor der Zuordnung und exportierte Daten nach der Zuordnung verarbeitet.|  
-    |**Lese-/Schreibe-XMLport**|Geben Sie den XMLPort an, über den eine importierte Datendatei oder ein Service vor der Zuordnung eingeht, und durch den exportierte Daten ausgehen, wenn sie nach der Zuordnung in eine Datendatei oder einen Service geschrieben werden.|  
+    |**Lesen/Schreiben von XMLport**|Geben Sie den XMLport an, über den eine importierte Datendatei oder ein Datendienst vor der Zuordnung eingefügt wird und über den exportierte Daten ausgehen, wenn sie nach der Zuordnung in eine Datendatei oder einen Datendienst geschrieben werden.|  
     |**Codeunit zur externen Datenverarbeitung**|Geben Sie die Codeunit an, die externe Daten in und aus dem Daten-Exchange-Framework überträgt.|  
     |**Benutzerfeedback-Codeunit**|Geben Sie die Codeunit an, die nach dem Zuordnen verschiedene Bereinigungen ausführt, wie das Markieren von exportierten Zeilen und das Löschen temporärer Datensätze.|  
     |**Dateiverschlüsselung**|Geben Sie die Codierung der Datei an. **Hinweis:**  Dieses Feld ist nur für den Import relevant.|  
@@ -133,7 +133,7 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
     |**Zielfeldbeschriftung**|Nur sichtbar, wenn das Kontrollkästchen **Als Zwischentabelle verwenden** aktiviert ist.<br /><br /> Gibt den Namen des Felds in der Zieltabelle an, der der Wert im Feld **Spaltenbezeichnung** zugeordnet wird, wenn eine Zwischentabelle für den Datenimport verwendet wird.|  
     |**Optional**|Nur sichtbar, wenn das Kontrollkästchen **Als Zwischentabelle verwenden** aktiviert ist.<br /><br /> Geben Sie an, ob die Zuordnung übersprungen werden soll, wenn das Feld leer ist. Wenn Sie dieses Kontrollkästchen nicht aktivieren, tritt ein Exportfehler auf, wenn das Feld leer ist.|  
 
-Die Datenaustauschdefinition kann jetzt für Benutzer aktiviert werden. Weitere Informationen finden Sie unter [Vorgehensweise: Sendendes und empfangendes Einrichtungs-elektronisches Dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)[Vorgehensweise: Abbuchung der Einrichtungs-](finance-how-to-set-up-sepa-direct-debit.md), und [Anwenden Sie Zahlungen mit Bankdaten-Konvertierungsdienst- oder SEPA-Banküberweisung](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) angegebenen [Vorgehensweise: Banktransfer der Einrichtungs-](finance-how-to-set-up-sepa-credit-transfer.md).  
+Die Datenaustauschdefinition kann jetzt für Benutzer aktiviert werden. Weitere Informationen finden Sie unter [Vorgehensweise: Sendendes und empfangendes Einrichtungs-elektronisches Dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md) [Vorgehensweise: Abbuchung der Einrichtungs-](finance-how-to-set-up-sepa-direct-debit.md), und [Anwenden Sie Zahlungen mit Bankdaten-Konvertierungsdienst- oder SEPA-Banküberweisung](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) angegebenen [Vorgehensweise: Banktransfer der Einrichtungs-](finance-how-to-set-up-sepa-credit-transfer.md).  
 
 Wenn Sie die Datenaustauschdefinition für eine bestimmte Datendatei erstellt haben, können Sie die Datenaustauschdefinition als XML-Datei exportieren, die verwendet werden kann, um ein Importieren der jeweiligen Datendatei schnell zu aktivieren. Dies wird im folgender Verfahren beschrieben.  
 
@@ -160,4 +160,3 @@ Wenn Sie die Datenaustauschdefinition für eine bestimmte Datendatei erstellt ha
 [Nehmen Sie Zahlungen mit dem Bank-Datenkonvertierungs-Service- oder einer SEPA-Banküberweisung vor](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
-

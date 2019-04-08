@@ -1,8 +1,8 @@
 ---
 title: Personalisieren von Seiten | Microsoft Docs
-description: "Erfahren Sie, wie Sie die Benutzeroberfläche anpassen, damit diese Ihren Bedürfnissen entspricht."
+description: Erfahren Sie, wie Sie die Benutzeroberfläche anpassen, damit diese Ihren Bedürfnissen entspricht.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,16 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4c40e38b3f7784f9f7603cddbfd9ac8681d952
-ms.contentlocale: de-de
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852309"
 ---
 # <a name="personalizing-your-workspace"></a>Personalisieren Ihres Arbeitsbereichs
-<!--NAV in the Web client--> Sie können Ihren Arbeitsbereich für Ihre Arbeit *personalisieren* oder anpassen und Präferenzen definieren, indem Sie die Seiten ändern, so dass Sie nur die Informationen angezeigt erhalten, die Sie benötigen. Die Personalisierungsänderungen, die Sie durchführen, beeinflussen nur, was Sie sehen, und nicht, was die Benutzer sehen.
+<!--NAV in the Web client-->
+Sie können Ihren Arbeitsbereich für Ihre Arbeit *personalisieren* oder anpassen und Präferenzen definieren, indem Sie die Seiten ändern, so dass Sie nur die Informationen angezeigt erhalten, die Sie benötigen. Die Personalisierungsänderungen, die Sie durchführen, beeinflussen nur, was Sie sehen, und nicht, was die Benutzer sehen.
 
 Abhängig von der Art der Seite und was sie umfasst, können Sie:
 
@@ -29,7 +30,10 @@ Abhängig von der Art der Seite und was sie umfasst, können Sie:
 -   Ändern Sie die Fixierung von Spalten in der Liste. Dieser Bereich sperrt eine oder mehrere Spalten der linken Seite in einer Übersicht, sodass Sie immer vorhanden ist, auch Sie blättern.
 -   Passen Sie die Breite der Spalten aus einer Liste.
 -   Bewegen und entfernen Sie  Stapel (Kacheln).
--   Teile bewegen und entfernen. Die Teile sind Unterteilungen oder Regionen auf einer Seite, die Bedingungen wie mehrere Felder, eine andere Seite, Ein Diagramm oder Kacheln enthalten.  
+-   Teile bewegen und entfernen. Die Teile sind Unterteilungen oder Regionen auf einer Seite, die Bedingungen wie mehrere Felder, eine andere Seite, Ein Diagramm oder Kacheln enthalten.
+
+> [!NOTE]
+> Zusätzlich zu dem, was Benutzer personalisieren können, können Administratoren und Superuser die Anpassungen der Benutzer überschreiben und definieren, welche Funktionen in allen oder bestimmten Unternehmen zugänglich sind. Weitere Informationen finden Sie unter [Anpassen von Business Central](ui-customizing-overview.md). 
 
 ## <a name="to-personalize-a-page"></a>So passen Sie eine Seite individuell an
 
@@ -79,4 +83,3 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)  
-

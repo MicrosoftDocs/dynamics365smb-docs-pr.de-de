@@ -1,8 +1,8 @@
 ---
 title: Manuelles Anpassen von Artikelkosten| Microsoft Docs
-description: "Sie können die Lagerbewertung eines Artikels anpassen, indem Sie die FIFO. oder \" Standard \"oder Durchschnittskostenmethode anwenden, z. B. wenn Artikelkosten für Gründe, die keine Transaktionen betreffen, ändern."
+description: Sie können die Lagerbewertung eines Artikels anpassen, indem Sie die FIFO. oder " Standard "oder Durchschnittskostenmethode anwenden, z. B. wenn Artikelkosten für Gründe, die keine Transaktionen betreffen, ändern.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "797994"
 ---
 # <a name="adjust-item-costs"></a>Artikelpreise justieren
 Die Kosten eines Artikels (Lagerwert), den Sie ein- und später verkaufen, ändert sich im Laufe der Nutzungsdauer, weil beispielsweise Frachtkosten dem Kaufpreis hinzugefügt werden, nachdem Sie den Artikel verkauft haben. Dies ist insbesondere dann wichtig, wenn Sie Waren verkaufen, bevor der Kauf dieser Waren in Rechnung gestellt wurde. Um immer den richtigen Lagerwert zu kennen, müssen Artikelkosten daher regelmäßig reguliert werden. Dadurch ist sichergestellt, dass die Verkaufs- und Gewinnstatistiken auf dem neuesten Stand sind und die finanziellen Kennziffern korrekt sind. Weitere Informationen finden Sie unter [Designdetails: Kostenanpassung](design-details-cost-adjustment.md)
 
-Als Grundregel gilt, dass der Wert im Feld **Einstandspreis** auf der Artikelkarte für Artikel mit der Lagerabgangsmethode "Standard" auf dem festen Einstandspreis basiert. Für Artikel mit anderen Lagerabgangsmethoden basiert er auf der Berechnung des verfügbaren Lagerbestands (fakturierte und Soll-Kosten), dividiert durch den gezählten Lagerbestand. Weitere Informationen finden Sie im Feld "Lagerwert pro Einheit verstehen".
+Als Grundregel gilt, dass der Wert im Feld **Einstandspreis** auf der Artikelkarte für Artikel mit der Lagerabgangsmethode "Standard" auf dem festen Einstandspreis basiert. Für Artikel mit anderen Lagerabgangsmethoden basiert er auf der Berechnung des verfügbaren Lagerbestands (fakturierte und Soll-Kosten), dividiert durch den gezählten Lagerbestand. Weitere Informationen finden Sie unter [Einstandspreisberechnung verstehen](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], werden Artikelkosten automatisch jedes Mal reguliert, wenn eine Lagertransaktion auftritt, beispielsweise, wenn Sie eine Einkaufsrechnung für einen Artikel buchen.
 
@@ -86,4 +86,3 @@ Als Grundregel gilt, dass der Wert im Feld **Einstandspreis** auf der Artikelkar
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

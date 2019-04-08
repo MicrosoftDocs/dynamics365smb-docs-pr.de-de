@@ -1,8 +1,8 @@
 ---
 title: C5-Datenmigrations-Erweiterung verwenden | Microsoft Docs
-description: Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu  Business Central zu migrieren.
+description: Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu Business Central zu migrieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: e35b4329c8f9b4672591531524c9391e1a8c4868
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5c89d841cdf0e92af4a3dc497cb9c807798e3924
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798833"
 ---
-
 # <a name="the-c5-data-migration-extension"></a>Die C5-Datenmigrations-Erweiterung
 Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu [!INCLUDE[d365fin](includes/d365fin_md.md)] zu migrieren. Sie können historische Posten für Sachkonten auch migrieren.
 
@@ -96,6 +95,9 @@ Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 > [!Note]
 > Historische Transaktionen werden so gut unterschiedlich behandelt. Wenn Sie Daten migrieren, setzen Sie einen **Aktuelle Periode** Parameter. Dieser Parameter gibt an, wie Ihre Transaktionen verarbeitet werden. Transaktionen nach diesem Datum werden einzeln migriert. Transaktionen vor diesem Zeitpunkt werden pro Konto aggregiert und migriert als einzelner Betrag. Nehmen wir an, es gibt Transaktionen 2015, 2016, 2017 und 2018 und Sie definieren 1. Januar 2017 im aktuellen Periodenfeld. Für jedes Konto sind Beträge für Transaktionen an oder vor dem 31. Dezember 2106, in einer eigenen Fibu Buch.-Blattzeile für jedes Sachkonto aggregiert. Transaktionen nach diesem Datum werden einzeln migriert.
 
+## <a name="file-size-requirements"></a>Dateigrößen-Anforderungen
+Die maximale Dateigröße, die Sie zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hochladen können, ist 150 MB. Wenn die Datei, die Sie aus C5 exportieren, größer ist, erwägen Sie, Daten in mehreren Dateien zu migrieren. Beispielsweise exportieren Sie ein oder zwei Arten von Entitäten aus C5, beispielsweise Debitoren und Kreditoren, in eine Datei, und exportieren Sie dann Elemente in eine andere Datei usw. Sie können Dateien einzelnen in [!INCLUDE[d365fin](includes/d365fin_md.md)] importieren.
+
 ## <a name="to-migrate-data"></a>Um Daten zu migrieren
 Es gibt nur einige wenige Schritte, um die Daten aus C5 zu exportieren und sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu importieren:  
 
@@ -148,4 +150,3 @@ Sie können Datenmigration unterbrechen, indem Sie **Automatisches Beenden alle 
 ## <a name="see-also"></a>Siehe auch
 [Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Erste Schritte](product-get-started.md)
-

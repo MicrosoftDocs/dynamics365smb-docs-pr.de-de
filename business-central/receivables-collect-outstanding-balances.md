@@ -1,6 +1,6 @@
 ---
-title: "Debitoren für überfälligen Zahlungen erinnern oder mit einem Zuschlag belegen| Microsoft Docs"
-description: "Beschreibt, wie eine Mahnung zu einem Debitoren zu einer Zahlung, welche und Gebühren hinzuzufügen fällig ist, oder Gebühren mit der Zahlung aufgrund von Verzögerung sendet."
+title: Debitoren für überfälligen Zahlungen erinnern oder mit einem Zuschlag belegen| Microsoft Docs
+description: Beschreibt, wie eine Mahnung zu einem Debitoren zu einer Zahlung, welche und Gebühren hinzuzufügen fällig ist, oder Gebühren mit der Zahlung aufgrund von Verzögerung sendet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f33d8a851c1c5a8f3c464a44ebd1d6319131af09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798439"
 ---
 # <a name="collect-outstanding-balances"></a>Einziehen von Restbeträgen
 Im Rahmen der Debitorenverwaltung muss auch geprüft werden, ob fällige Beträge pünktlich bezahlt werden. Wenn Debitoren überfällige Zahlungen haben, können Sie den Debitoren-Abrechnungsbericht als Mahnung senden. Sie können auch Mahnungen ausgeben.
@@ -99,10 +99,10 @@ Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die 
 |%11|Der Unternehmensname.|  
 |%12|Inhalt des Felds **Zusatzgebühr pro Zeile** des Mahnungskopfs|  
 
-Wenn Sie beispielsweise schreiben **%9 %7 fällig am %2.**, dann enthält die Mahnung den folgenden Text: **Sie schulden 1,200,50 MW, fällig am 02-02-2014.**
+Wenn Sie beispielsweise schreiben **%9 %7 fällig am %2.**, dann enthält die Mahnung den folgenden Text: **Sie schulden 1.200,50 MW, fällig am 02-02-2014**.
 
 > [!NOTE]
-> Das Fälligkeitsdatum wird entsprechend der von Ihnen eingegebenen Datumsformel berechnet. Weitere Informationen finden Sie im Abschnitt "Verwenden von Datumsformeln" in [Eingeben von Datumsbereichen](ui-enter-date-ranges.md).
+> Das Fälligkeitsdatum wird entsprechend der von Ihnen eingegebenen Datumsformel berechnet. Weitere Informationen zu finden Sie unter [Verwenden von Datumsformeln](ui-enter-date-ranges.md#using-date-formulas).
 
 Geben Sie nach der Einrichtung der Mahnmethoden (mit zusätzlichen Stufen und Text) auf jeder Debitorenkarte einen der Codes ein. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).
 
@@ -254,4 +254,3 @@ Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debi
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

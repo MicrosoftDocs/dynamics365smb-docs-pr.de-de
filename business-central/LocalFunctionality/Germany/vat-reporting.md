@@ -1,23 +1,23 @@
 ---
 title: MwSt.-Abrechnung
-description: "MwSt.-Erklärungen können elektronisch übermittelt werden."
+description: MwSt.-Erklärungen können elektronisch übermittelt werden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 28a7dcdde6919016948ab4f0515df1c26813a603
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826704"
 ---
 # <a name="vat-reporting"></a>MwSt.-Abrechnung
 MwSt.-Erklärungen können elektronisch übermittelt werden. Sie können eine XML-Datei generieren, elektronisch signieren, verschlüsseln und direkt an das ELSTER-Portal senden. Antworten werden im selben Schritt empfangen und verarbeitet.  
@@ -34,4 +34,3 @@ Folgende lokale MwSt.-Erklärungen können gedruckt werden:
 [So gehts: Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](../../finance-work-with-vat.md)  
 [Richten Sie Berichte für MwSt ein.](how-to-set-up-reports-for-vat-and-intrastat.md)
-

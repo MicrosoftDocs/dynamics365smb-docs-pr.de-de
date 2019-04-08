@@ -1,21 +1,21 @@
 ---
 title: 'Vorgehensweise: Exportieren und Importieren von Workflows | Microsoft Docs'
-description: "Um Workflows auf andere Business Central-Datenbanken zu übertragen, beispielsweise um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Workflows exportiert und importiert werden."
+description: Um Workflows auf andere Business Central-Datenbanken zu übertragen, beispielsweise um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Workflows exportiert und importiert werden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a0a67c3b6a706820c8b5fb073c090a6586435ca7
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799133"
 ---
 # <a name="export-and-import-workflows"></a>Exportieren und Importieren von Workflows
 Um Workflows auf andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbanken zu übertragen, beispielsweise um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Workflows exportiert und importiert werden.  
@@ -47,4 +47,3 @@ Um Workflows auf andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbanken 
  [Einrichten von Workflows](across-set-up-workflows.md)   
  [Verwenden von Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
-

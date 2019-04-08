@@ -1,8 +1,8 @@
 ---
-title: "Überwachen von Segmenten und zugehörigen Aktivitäten| Microsoft Docs"
-description: "Erhalten von Informationen zum Erstellen von Segmenten, um Kontaktgruppen zu definieren und Festlegen von Aktivitäten für Segmente."
+title: Überwachen von Segmenten und zugehörigen Aktivitäten| Microsoft Docs
+description: Erhalten von Informationen zum Erstellen von Segmenten, um Kontaktgruppen zu definieren und Festlegen von Aktivitäten für Segmente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799333"
 ---
 # <a name="managing-interactions-for-segments"></a>Verwalten von Aktivitäten für Segmente
 Die Seite **Segment** ist ein Arbeitsschein, in dem Sie folgende Aufgaben ausführen können:
@@ -35,7 +35,7 @@ Es gibt verschiedene Arten, Segmente zu erstellen:
 * Sie können gespeicherte Segmentierungskriterien wiederverwenden.
 
 ## <a name="interactions"></a>Aktivitäten
-Auf der Seite **Segment** können Sie Aktivitäten für mehrere Kontakte gleichzeitig erstellen. Sie können z. B. ein Segment mit einem Microsoft Word Dokument verbinden, sodass Sie einen Brief an alle Kontakte in dem Segment verschicken können.
+Auf der Seite **Segment** können Sie Aktivitäten für mehrere Kontakte gleichzeitig erstellen. Sie können z. B. ein Segment mit einem Microsoft Word-Dokument verbinden, sodass Sie einen Brief an alle Kontakte in dem Segment verschicken können.
 
 Sie können Informationen über die Aktivität für das Segment im **Segmentkopf** festlegen. Sie können z. B. entscheiden, welche Aktivitätenvorlage Sie für alle Kontakte verwenden möchten, Sie eine Beschreibung oder eine Korrespondenzart festlegen usw. Sie können diese Informationen in der Segmentszeile für jeden einzelnen Kontakt verändern, z. B., indem Sie eine andere Beschreibung eingeben. Wenn Sie ein Segment mit einem Dokument in Microsoft Word verknüpfen, können Sie das Dokument für einen oder mehrere Kontakte des Segments personalisieren, indem Sie dem Dokument z. B. individuelle Kommentare hinzufügen.
 
@@ -52,4 +52,3 @@ Auf der Seite **Protokollierte Segmente** können Sie ein Anschluss-Segment mit 
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)
-

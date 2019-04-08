@@ -1,21 +1,21 @@
 ---
 title: Automatisierte Datenerfassung (MDE) verwenden | Microsoft Docs
-description: "Sie verwenden die mobile Datenerfassung (MDE), um die Artikelbewegungen im Lager und die Aktivitäten im Buch.-Blatt zu erfassen, wie Mengenanpassungen im Logistik Artikel Buch.-Blatt und Inventuren."
+description: Sie verwenden die mobile Datenerfassung (MDE), um die Artikelbewegungen im Lager und die Aktivitäten im Buch.-Blatt zu erfassen, wie Mengenanpassungen im Logistik Artikel Buch.-Blatt und Inventuren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/04/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: a2b30b3eec747104f3351aed0d0d9787d2fc4e9f
-ms.contentlocale: de-de
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798673"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Automatisierte Datenerfassung (MDE) verwenden
 
@@ -86,7 +86,7 @@ Um die Änderung einer Miniform-Funktion zu implementieren, müssen Sie eine neu
 2. Wählen Sie die Aktion **Neu** aus.  
 3.  In dem Feld **Code** geben Sie einen Code für die Miniform ein. Geben Sie optional in allen anderen Feldern Werte ein.  
 
-    Aktivieren Sie das Kontrollkästchen **Start Miniform**, um anzugeben, dass das Miniform das erste Formular ist, das der Benutzer bei der Anmeldung sieht.  
+    Aktivieren Sie das Kontrollkästchen **Miniformular starten**, um anzugeben, dass das Miniform das erste Formular ist, das der Benutzer bei der Anmeldung sieht.  
 
 4.  Definieren Sie im Inforegister **Zeilen** die Felder, die im Miniform erscheinen. Die Reihenfolge, in der Sie Zeilen eingeben, ist die Reihenfolge, in der die Zeilen auf dem Endgerät angezeigt werden.  
 
@@ -119,4 +119,3 @@ Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Date
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

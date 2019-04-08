@@ -1,6 +1,6 @@
 ---
 title: Zuweisen und Verwalten von Aufgaben | Microsoft Docs
-description: "Erfahren Sie, wie Benutzern, einschließlich Ihres Buchhalters, Aufgaben in  Business Central zugewiesen werden"
+description: Erfahren Sie, wie Benutzern, einschließlich Ihres Buchhalters, Aufgaben in Business Central zugewiesen werden
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852355"
 ---
-# <a name="defining-user-tasks"></a>Benutzeraufgaben definieren
+# <a name="define-user-tasks"></a>Benutzeraufgaben definieren
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie Aufgaben erstellen, die Sie an Arbeit erinnern, die durchgeführt werden muss. Sie können Aufgaben für sich selbst erstellen, aber Sie können auch Aufgaben an Andere zuweisen oder Ihnen kann von jemand anderem in Ihrer Organisation eine Aufgabe zugewiesen werden.  
 
 ## <a name="managing-user-tasks"></a>Benutzeraufgaben verwalten
@@ -41,4 +41,3 @@ Wenn Sie eine Massenlöschung aller oder einiger Benutzeraufgaben vornehmen möc
 ## <a name="see-also"></a>Siehe auch
 [Nach einer Seite oder einem Bericht suchen](ui-search.md)  
 [Buchhalter-Erfahrung in [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
-

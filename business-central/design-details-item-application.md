@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 12/21/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
-ms.contentlocale: de-de
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798453"
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
 Wenn Sie eine Lagertransaktion buchen, wird die Mengenbuchung in den Artikelposten, die Wertbuchungen in den Wertposten erfasst. Weitere Informationen finden Sie unter [Designdetails: Planungsbuchung](design-details-inventory-posting.md).  
@@ -95,7 +95,7 @@ Das folgende Beispiel, das die Auswirkungen des festen Ausgleichs einer Einkaufs
 
 1. In Postennummer 1 bucht der Benutzer einen Einkauf zu den Kosten von MW 10,00.  
 2. In Postennummer 2 bucht der Benutzer einen Einkauf zu den Kosten von MW 20,00.  
-3. In Postennummer 3 bucht der Benutzer eine Einkaufsreklamation. Der Benutzer erstellt einen festen Ausgleich für den zweiten Verkauf, indem er die Artikelpostennummer im Feld **Anwendung für Artikeleintrag**in der Reklamationszeile eingibt.  
+3. In Postennummer 3 bucht der Benutzer eine Einkaufsreklamation. Der Benutzer erstellt einen festen Ausgleich für den zweiten Verkauf, indem er die Artikelpostennummer im Feld **Anwendung für Artikeleintrag** in der Reklamationszeile eingibt.  
 
 Die folgende Tabelle zeigt Artikelposten an, die aus dem Szenario resultieren.  
 
@@ -248,4 +248,3 @@ Wegen der Art, in der Einstandspreise berechnet werden, kann ein fehlerhafter Ar
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

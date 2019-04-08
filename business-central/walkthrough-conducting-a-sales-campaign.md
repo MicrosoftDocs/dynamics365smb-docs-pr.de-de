@@ -1,21 +1,21 @@
 ---
-title: "Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne | Microsoft Docs"
-description: "Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in Business Central mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten."
+title: 'Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne | Microsoft Docs'
+description: Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in Business Central mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798845"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne
 Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten.  
@@ -45,7 +45,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
  Bevor Sie die Aufgaben in dieser Demonstration ausführen, müssen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] installieren.  
 
 ## <a name="story"></a>Hintergrund  
- Der Marketingmanager in der Verkaufsabteilung der CRONUS AG ist für die Planung und Durchführung von Kampagnen verantwortlich. Er entscheidet auch, an welchen Messen das Unternehmen teilnimmt, und bewertet den Fortschritt von Kampagnen.  
+ Der Marketingmanager in der Verkaufsabteilung der CRONUS ist für die Planung und Durchführung von Kampagnen verantwortlich. Er entscheidet auch, an welchen Messen das Unternehmen teilnimmt, und bewertet den Fortschritt von Kampagnen.  
 
  Der Marketingmitarbeiter in der Marketingabteilung ist für die Herstellung, Verteilung und Platzierung von Marketingmaterial zuständig.  
 
@@ -199,4 +199,3 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 [Marketing & Vertrieb](marketing-relationship-management.md)  
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

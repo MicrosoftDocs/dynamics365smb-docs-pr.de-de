@@ -1,23 +1,22 @@
 ---
 title: Elektronische Dokumente in Business Central einrichten | Microsoft Docs
-description: "Einführung zum Senden und Empfang von elektronischen Dokumenten in  Business Central."
+description: Einführung zum Senden und Empfang von elektronischen Dokumenten in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 147a7e41d490167fceb76ff89de1f6c628223914
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799360"
 ---
-
 # <a name="exchanging-data-electronically"></a>Daten elektronisch austauschen
 Sie können das Datenaustauschframework verwenden, um Geschäftsbelege, Bankdateien, Währungswechselkurse und andere Datendateien mit Ihren Geschäftspartnern auszutauschen.
 
@@ -35,9 +34,9 @@ Um beispielsweise eine Rechnung von einem Kreditor in Form eines elektronischen 
 ## <a name="bank-files"></a>Bankdateien  
  Die Formate der Dateien für den Austausch von Bankdaten mit ERP-Systemen variieren abhängig vom Lieferanten der Datei und vom jeweiligen Land oder der Region. Die allgemeine Version von [!INCLUDE[d365fin](includes/d365fin_md.md)]  unterstützt den Import und Export von SEPA-Bankdateien (Single Euro Payments Area; einheitlicher Euro-Zahlungsverkehrsraum) und einen Bankdaten-Konvertierungsdienst, der vom externen Anbieter AMC Consult bereitgestellt wird. Um Unterstützung für andere elektronische Belegformate zu bieten, verwenden Sie das Datenaustauschframework.  
 
-Um SEPA-Gutschriftübertragungen zu exportieren, wählen Sie die Schaltfläche **Zahlungen in Datei exportieren** auf der Seite **Zahlungs-Buch-Blatt.** aus und laden die Datei dann hoch, um die Zahlungen bei Ihrer Bank in Auftrag zu geben. Zuerst müssen Sie verschiedene Stammdaten einrichten, wie Bankkonto, Kreditoren und Zahlungsformen. Die Datenkonvertierung und der Export von SEPA-Bankdaten werden durch dedizierte Codeunits und XMLports ausgeführt, die durch das Bankexport-/-importsetup **SEPA Kreditübertragung** dargestellt werden. Alternativ können Sie den Bankdaten-Konvertierungsdienst so einrichten, dass er den Export ausführt. Dies wird durch die Datenaustauschdefinition **Bankdaten-Konvertierungsdienst - Kreditübertragung** dargestellt.  
+Um SEPA-Gutschriftübertragungen zu exportieren, wählen Sie die Schaltfläche **Zahlungen in Datei exportieren** auf der Seite **Zahlungs-Buch-Blatt.** aus und laden die Datei dann hoch, um die Zahlungen bei Ihrer Bank in Auftrag zu geben. Zuerst müssen Sie verschiedene Stammdaten einrichten, wie Bankkonto, Kreditoren und Zahlungsformen. Die Datenkonvertierung und der Export von SEPA-Bankdaten erfolgen durch eine dedizierte Codeunit und XMLport, die durch das Bank-Export-/Import-Setup **SEPA-Kreditübertragung** dargestellt werden. Alternativ können Sie den Bankdaten-Konvertierungsdienst so einrichten, dass er den Export ausführt. Dies wird durch die Datenaustauschdefinition **Bankdaten-Konvertierungsdienst - Kreditübertragung** dargestellt.  
 
-Um SEPA-Lastschriften zu exportieren, wählen Sie die Schaltfläche **Lastschriftdatei exportieren** auf der Seite **Lastschrift** aus und senden die Datei dann zu Ihrer Bank, damit die entsprechenden Debitorenzahlungen automatisch erfasst werden. Zuerst müssen Sie Bankkonten, Debitoren, Lastschrift-Mandage und Zahlungsformen einrichten. Die Datenkonvertierung und der Export von SEPA-Bankdaten werden durch dedizierte Codeunits und XMLports ausgeführt, die durch das **SEPA-Lastschrift** Bankexport-/-importsetup dargestellt werden.  
+Um SEPA-Lastschriften zu exportieren, wählen Sie die Schaltfläche **Lastschriftdatei exportieren** auf der Seite **Lastschrift** aus und senden die Datei dann zu Ihrer Bank, damit die entsprechenden Debitorenzahlungen automatisch erfasst werden. Zuerst müssen Sie Bankkonten, Debitoren, Lastschrift-Mandage und Zahlungsformen einrichten. Die Datenkonvertierung und der Export von SEPA-Bankdaten erfolgt durch eine dedizierte Codeunit und XMLport, die durch das Bank-Export-/Import-Setup **SEPA-Lastschrift** dargestellt werden.  
 
 Um SEPA-Bankauszüge zu importieren, wählen Sie die Schaltfläche "Bankauszug importieren" in den Fenstern **Zahlungsabstimmungsbuch.-Blatt** und **Bankkonto-Abstimmung** aus. Gleichen Sie dann die einzelnen Bankkontoauszugsposten manuell oder automatisch mit Zahlungen der Bankposten aus. Zuerst müssen Sie Bankkonten einrichten. Der Import und die Datenkonvertierung von SEPA-Bankdaten erfolgen über das Datenaustauschframework, das durch die Datenaustauschdefinition **SEPA CAMT** dargestellt wird. Alternativ können Sie den Bankdaten-Konvertierungsdienst so einrichten, dass er den Import ausführt. Dies wird durch die Datenaustauschdefinition **Bankdaten-Konvertierungsdienst – Bankauszug** dargestellt.  
 
@@ -63,4 +62,3 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Austausch von Daten](across-exchange-data.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
-

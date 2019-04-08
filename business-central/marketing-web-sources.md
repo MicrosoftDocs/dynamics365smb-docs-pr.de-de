@@ -1,8 +1,8 @@
 ---
-title: "Einrichten von Internetfavoriten für Kontaktunternehmen| Microsoft Docs"
-description: "Sie können Internet oder Internetfavoriten definieren und diese einem Kontaktunternehmen zuordnen, die Ihnen helfen, zu identifizieren, wie Sie nach Informationen über die Kontakte suchen möchten."
+title: Einrichten von Internetfavoriten für Kontaktunternehmen| Microsoft Docs
+description: Sie können Internet oder Internetfavoriten definieren und diese einem Kontaktunternehmen zuordnen, die Ihnen helfen, zu identifizieren, wie Sie nach Informationen über die Kontakte suchen möchten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 22b9f0be189fa24f366c1ffa20934d2d8e7e8fc5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798744"
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Einrichten von Internetfavoriten für Kontaktunternehmen
 Sie können Ihren Kontakten Internetfavoriten (z. B. Suchmaschinen und Websites) zuordnen, um anzuzeigen, wo Sie im Internet nach Informationen über die Kontakte suchen möchten. Wenn Sie Internetfavoriten zuordnen, legen Sie fest, welche Suchmaschine und welchen Suchbegriff die Anwendung bei der Suche nach der gewünschten Information verwendet.
@@ -30,7 +30,7 @@ Die Nutzung von Internetfavoriten zu Kontakten ist ein zwei Schritte umfassender
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder **Code**, **Beschreibung** und **URL** aus.
 
-    Geben Sie %1 im Feld **URL** ein, um einen Platzhalter für einen Suchbegriff in der URL einzufügen. Wenn Sie den Internetfavoriten von einer Kontaktkarte aus aktivieren, wird "%1" automatisch durch das Suchwort ersetzt (z. B. den Namen eines Unternehmens), das Sie auf der Seite **Kontakt-Internetfavoriten** eingegeben haben.
+    Geben Sie %1 im Feld **URL** ein, um einen Platzhalter für einen Suchbegriff in der URL einzufügen. Wenn Sie den Internetfavoriten von einer Kontaktkarte aus aktivieren, wird %1 automatisch durch das Suchwort ersetzt (z. B. den Namen eines Unternehmens), das Sie auf der Seite **Kontakt-Internetfavoriten** eingegeben haben.
 
 Wiederholen Sie diese Schritte, um weitere Internetfavoriten einzurichten.
 
@@ -47,6 +47,5 @@ Wiederholen Sie diese Schritte, um weitere Internetfavoriten zuzuordnen.
 Außerdem können Sie Internetfavoriten auf die gleiche Art auf der Seite **Kontaktübersicht** zuordnen.
 
 ## <a name="see-also"></a>Siehe auch
-[Kontaktunternehmenerstellen](marketing-create-contact-companies.md)  
+[Kontakte erstellen](marketing-create-contact-companies.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
 title: Stornieren von Business Central | Microsoft Docs
-description: "Beschreibt, wie Sie Ihre Installation von Business Central entfernen oder löschen."
+description: Beschreibt, wie Sie Ihre Installation von Business Central entfernen oder löschen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799003"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Sie kündigen, entfernen, oder setzen [!INCLUDE[d365fin](includes/d365fin_md.md)] zurück
 Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] nicht mehr nutzen möchten, können Sie Ihr Konto schließen und die Lizenz von Ihrem Konto entfernen. Die Schritte, die Sie machen, sind unterschiedlich, wenn Sie die kostenlose Testversion nutzen oder ein monatliches Abonnement als Teil des Office 365 Konto haben.  
@@ -27,15 +27,15 @@ Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] unter Verwendung 
 
 Wenn das Unternehmen das Abonnement kündigen möchte [!INCLUDE[d365fin](includes/d365fin_md.md)], kann der Office 365 Administrator das Abonnement vom Konto des Mandanten entfernen.  
 
-Benutzerkonten und Lizenzen werden im [Office-Portal](https://portal.office.com) verwaltet. Der Administrator kann die [!INCLUDE[d365fin](includes/d365fin_md.md)] Lizenz vom  Benutzerkonto entfernen oder das Abonnement aus dem Konto des Mandanten entfernen.  
+Benutzerkonten und Lizenzen werden im [Office-Portal](https://portal.office.com) verwaltet. Der Administrator kann die [!INCLUDE[d365fin](includes/d365fin_md.md)] Lizenz vom Benutzerkonto entfernen oder das Abonnement aus dem Konto des Mandanten entfernen.  
 
 ## <a name="closing-your-free-trial-of-included365finincludesd365finmdmd"></a>Abschluss Ihrer kostenlosen Testversion von [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Wenn Sie für die kostenlose Testversion angemeldet sind und nicht mit [!INCLUDE[d365fin](includes/d365fin_md.md)] fortfahren möchten, können sie das Konto jederzeit schließen. Es ist empfehlenswert, dass Sie die Daten exportieren, bevor Sie Ihr Konto haben.  
 
-Derzeit kontaktieren Sie das Team, indem Sie eine E-Mail an [!INCLUDE[d365fin](includes/d365fin_md.md)] senden, um Ihr Konto zu schließen unter cancelbusinesscentra@microsoft.com. Sie müssen den Namen Ihres [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten in die Nachricht einfügen, damit wir Sie identifizieren können. Am einfachsten ist es, die URL von Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Homepage zu kopieren.  
+Derzeit kontaktieren Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Stornierungsteam, indem Sie eine E-Mail an cancelbusinesscentra@microsoft.com senden, um Ihr Konto zu schließen. Sie müssen den Namen Ihres [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten in die Nachricht einfügen, damit wir Sie identifizieren können. Am einfachsten ist es, die URL von Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Homepage zu kopieren.  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Kündigen von [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Office 365
-Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] unter Verwendung eines Geschäftskontos, das nicht zu Office 365 gehört, registriert haben, haben Sie keinen Office 365 Administrator. Stattdessen müssen Sie kündigen, indem Sie das Stornierungsteam [!INCLUDE[d365fin](includes/d365fin_md.md)] kontaktieren, indem Sie eine E-Mail an cancelbusinesscentra@microsoft.com senden. Sie müssen den Namen Ihres [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten in die Nachricht einfügen, damit wir Sie identifizieren können. Am einfachsten ist es, die URL von Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Homepage zu kopieren.  
+Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] unter Verwendung eines Geschäftskontos, das nicht zu Office 365 gehört, registriert haben, haben Sie keinen Office 365 Administrator. Stattdessen müssen Sie kündigen, indem Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Stornierungsteam kontaktieren, indem Sie eine E-Mail an cancelbusinesscentra@microsoft.com senden. Sie müssen den Namen Ihres [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten in die Nachricht einfügen, damit wir Sie identifizieren können. Am einfachsten ist es, die URL von Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Homepage zu kopieren.  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Zurücksetzen Ihrer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Nutzung
 Wenn Sie der [!INCLUDE[d365fin](includes/d365fin_md.md)] Testversion Daten hinzugefügt haben und Sie möchten nochmal von vorn anfangen, können Sie ein neues Unternehmen erstellen und dann das ersten Unternehmen zurücksetzen. Wenn Sie die Seite **Unternehmen** öffnen, können Sie eine Kopie Ihres aktuellen Unternehmens erstellen, sich abmelden, sich dann mit Ihrem neuen Unternehmen anmelden und dann das ursprüngliche Unternehmen zurücksetzen.  
@@ -51,4 +51,3 @@ Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] auf Ihrem App-Startfeld aus
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)  
 [Office-Portal](https://portal.office.com)  
 [Wie lange ist Testphase und wie kündige ich? "](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
-

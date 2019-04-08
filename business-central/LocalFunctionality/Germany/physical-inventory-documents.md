@@ -1,23 +1,23 @@
 ---
 title: Inventurbelege
-description: "Sie können mithilfe der Inventurauftrags- und Inventurerfassungsbelege eine Inventur der Artikel durchführen."
+description: Sie können mithilfe der Inventurauftrags- und Inventurerfassungsbelege eine Inventur der Artikel durchführen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: ab8643fda6d733558e1cfd45031987b3693a55fc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9f8ada84559a5e0b4fb003165b7824b0b955a74c
-ms.contentlocale: de-de
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826763"
 ---
 # <a name="physical-inventory-documents"></a>Inventurbelege
 Sie können mithilfe der Inventurauftrags- und Inventurerfassungsbelege eine Inventur der Artikel durchführen.  
@@ -53,4 +53,3 @@ Mit der Funktion "Navigate" können Inventurposten und andere zugehörige Posten
  [So erstellen Sie eine physische Inventurerfassung](how-to-create-a-physical-inventory-recording.md)   
  [So buchen Sie physische Inventuraufträge](how-to-post-physical-inventory-orders.md)   
  [Lokale Funktion (Deutschland)](germany-local-functionality.md)
-

@@ -1,28 +1,28 @@
 ---
-title: "Anwendungs-Kompatibilität | Microsoft Docs"
-description: "Dieser Inhalt enthält Informationen über Anwendungskompatibilität in Bezug auf Business Central."
+title: Anwendungs-Kompatibilität | Microsoft Docs
+description: Dieser Inhalt enthält Informationen über Anwendungskompatibilität in Bezug auf Business Central.
 author: sorenfriisalexandersen
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: cda5dc10951981a5d2e496c6cd27bb84b875ede0
-ms.contentlocale: de-de
-ms.lasthandoff: 12/14/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798620"
 ---
 # <a name="application-compliance"></a>Anwendungs-Kompatibilität
 Dieser Inhalt enthält Informationen über Anwendungskompatibilität zu [!INCLUDE[d365fin](../includes/d365fin_md.md)], wie die internationalen Rechnungslegungs-Standards, die lokale Funktion, das DSGVO und mehr. Vertrauen ist eine Unternehmensverwaltungslösung zum Ausführen eines effizienten Geschäfts. Mit Business Central Unternehmen sind die Mandanten befähigt, Geschäftsvorgänge zu optimieren, während konstant und kosteneffizient steigende Regulierungs- und Berichtsanforderungen erfüllt werden.
 
 ## <a name="data-privacy"></a>Datenschutz  
-Business Central unterstützt den Schutz der Privatsphäre wie die Datenschutz-Grundverordnung (DSGVO), die am 25. Mai 2018 in Kraft getreten ist. Lesen Sie mehr darüber wie [Business Central DSGVO untersützt](../admin-responding-to-requests-about-personal-data.md).  
+Business Central unterstützt den Datenschutz wie die Datenschutz-Grundverordnung (DSGVO), die am 25. Mai 2018 in Kraft getreten ist. Lesen Sie mehr darüber wie [Business Central DSGVO untersützt](../admin-responding-to-requests-about-personal-data.md).  
 
 Wenn Sie ein Entwickler für die Business Central Erweiterung sind, müssen Sie sich im Klassieren von Daten auskennen. Beachten Sie bitte [diese Seiten](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
 Wenn Sie mehr über DSGVO von einer breiteren Dynamics 365 Perspekitive wissen möchten, finden Sie dies in der [Liste der Whitepapers](/dynamics365/get-started/gdpr/).
@@ -96,4 +96,3 @@ Microsoft erstellt lokalisierte Versionen von Business Central für mehrere Län
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
-

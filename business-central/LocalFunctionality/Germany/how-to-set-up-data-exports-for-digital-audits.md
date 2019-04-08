@@ -1,23 +1,23 @@
 ---
-title: "Wie Sie Daten für eine Digital-Überwachung einrichten"
-description: "Sie müssen die Export-Datensatzquellen einrichten, um die Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen zu (GDPdU) exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen."
+title: Wie Sie Daten für eine Digital-Überwachung einrichten
+description: Sie müssen die Export-Datensatzquellen einrichten, um die Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen zu (GDPdU) exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ee0e25241092f4efd55601f8e999d669e6964c2e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b6edc7867932cac3ff443e4ad61aacaccb8fdfcb
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826701"
 ---
 # <a name="set-up-data-exports-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung einrichten
 Sie müssen die Export-Datensatzquellen einrichten, um die Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen zu (GDPdU) exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen.  
@@ -42,9 +42,9 @@ Dem Datenexport müssen Datensatzdefinitionen hinzugefügt werden. Jede Datensat
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Datenexportcode**|Wählen Sie den Datenexportcode aus.<br /><br /> Wenn kein Datenenexportcode vorhanden ist, können Sie einen neuen erstellen.|  
+    |**Datenexportcode**|Wählen Sie den Datenexportcode aus.<br /><br /> Wenn kein Datenexportcode vorhanden ist, können Sie einen neuen erstellen.|  
     |**Beschreibung**|Die Beschreibung der Datensatzdefinition.|  
-    
+
     Als Nächstes müssen Sie die entsprechende .dtd-Datei, die gemäß GDPdU erforderlich ist, z. B. **gdpdu-01-08-2002.dtd** hinzufügen. Wenn Sie eine neue DTD-Datei importieren müssen, um eine vorhandene Datei zu ersetzen, müssen Sie die vorhandene DTD-Datei zuerst exportieren.  
 
 3.  Wählen Sie die Aktion **Importieren** aus.  
@@ -68,7 +68,7 @@ Danach müssen Sie die Quelle für die zu exportierenden Daten definieren.
     |**Exportdateiname**|Geben Sie den Namen der Arbeitsmappe an, in die die Daten exportiert werden sollen.<br /><br /> Wenn die Tabelle beispielsweise **Sachkonto** ist, kann der Wert des **Tabellennamen exportieren** **Sachkonto** sein, und der Wert des Felds **Exportdateiname** kann **Sachkonto.txt** sein.|  
     |**Schlüsselnr.**|Optional. Definieren Sie das Schlüsselfeld.|
 
-    Weitere Informationen über Einstellungsfilter siehe. "GDPdU-Filter-Beispiele".  
+    Weitere Informationen finden Sie unter [GDPdU-Filterbeispiele](gdpdu-filter-examples.md).  
 
     Danach müssen Sie die Felder definieren, von denen Daten exportiert werden.  
 
@@ -105,69 +105,6 @@ Wählen Sie auf der Seite **Datenexport-Quelle aufzeichnen** in der Gruppe Start
 
 Dies überprüft die Liste der Felder anhand der Schlüssel für die Tabellen. Wenn Sie einen Primärschlüssel auswählen, nachdem Sie einen sekundären Schlüssel ausgewählt haben, wird eine Fehlermeldung angezeigt und Sie müssen die Reihenfolge der Felder im Bereich **Felder** ändern.
 
-## <a name="filter-examples"></a>Filterbeispiele
-Das folgende Thema enthält Beispiele, wie Sie unterschiedliche Filtertypen verwenden und kombinieren können, wenn Sie Ihre Daten-Exporte einrichten. Wenn Sie Filter passend einsetzen, können Sie die Leistung verbessern.  
-
-In den folgenden Beispielen werden für Daten die Tabellen für Sachposten und Debitorenposten verwendet. Sie gehen davon aus, dass Sie das nächste Datum in der Stapelverarbeitung **Geschäftsdaten exportieren** angegeben haben.  
-
-- Startdatum = 01.01.2013  
-- Enddatum = 31.12.2013  
-
-### <a name="setting-up-export-record-source-examples"></a>Einrichten von Beispielen für Datensatzquellen für den Export  
-
-#### <a name="period-field-no"></a>Periodenfeldnr.  
-Auf der Seite **Datenexport – Datensatzherkunft** erfolgt die Einrichtung wie in folgender Tabelle beschrieben.  
-
-|Tabellennr.|Tabellenname|Periodenfeldnr.|Periodenfeldname|Tabellenfilter|  
-|---------------|----------------|----------------------|-----------------------|------------------|  
-|17|Fibubuchung|4|Buchungsdatum|Kein Filter festgelegt.|  
-|21|Debitorenposten|4|Buchungsdatum|Kein Filter festgelegt.|  
-
-**Ergebnisse exportieren**  
-
-- Sachposten mit Buchungsdatum zwischen 01.01.2013 und 31.12.2013.  
-- Debitorenposten mit Buchungsdatum zwischen 01.01.2013 und 31.12.2013.  
-
-#### <a name="table-filter"></a>Tabellenfilter  
-In diesem Beispiel geben Sie, zusätzlich zu „Periodenfeldnr.”-Informationen auch einen Tabellenfilter an. Dies ist hilfreich, wenn Sie nicht nur ein Start- und Enddatum für Ihren Export einbeziehen möchten, sondern auch einen zusätzlichen Filter, um weitere Kriterien anzugeben, wie beispielsweise Beträge.  
-
-|Tabellennr.|Tabellenname|Periodenfeldnr.|Periodenfeldname|Tabellenfilter|  
-|---------------|----------------|----------------------|-----------------------|------------------|  
-|17|Fibubuchung|4|Buchungsdatum||  
-|21|Debitorenposten|||Debitorenposten: **Buchungsdatum=..31-12-13**|  
-
-**Ergebnisse exportieren**  
-
-- Sachposten mit Buchungsdatum zwischen 01.01.2013 und 31.12.2013.  
-- Debitorenposten mit Buchungsdatum vor 01.01.2014.  
-
-#### <a name="date-filter-field-no-and-date-filter-handling"></a>Datumsfilter-Feldnummer und Behandlung von Datumsfiltern  
-Im folgenden Beispiel wird die Einstellung von Datumstyp-FlowFilters veranschaulicht. Wenn eine Tabelle mehr als einen Datums-FlowFilter hat, können Sie keinen zur Benutzung angeben, aber Sie können angeben, wie der Datumsfilter behandelt werden soll.  
-
-|Tabellennr.|Tabellenname|Periodenfeldnr.|Periodenfeldname|Tabellenfilter|Behandlung von Datumsfiltern|  
-|---------------|----------------|----------------------|-----------------------|------------------|--------------------------|  
-|18|Debitor|||Debitor: **Bewegung (MW)**=<>0|**Periode**|  
-|21|Debitorenposten|4|Buchungsdatum|Debitorenposten: **Restbetrag (MW)**=<>0|**Nur Enddatum**|  
-
-**Ergebnisse exportieren**  
-
-- Debitoren, die eine Bewegung (MW) <> 0 in die Periode von 01.01.2013 bis 31.12.2013 haben.  
-- Debitorenposten mit Buchungsdatum zwischen 01.01.2013 und 31.12.2013, die einen Restbetrag (MW) <> 0 am 31.12.2013 haben.  
-
-#### <a name="date-filter-handling-for-the-same-table"></a>Datumsfilterbehandlung für dieselbe Tabelle  
-In diesem Beispiel legen Sie mehrere Filterdefinitionen für dieselbe Tabelle fest.  
-
-|Tabellennr.|Tabellenname|Tabellenfilter|Behandlung von Datumsfiltern|  
-|---------------|----------------|------------------|--------------------------|  
-|18|Debitor|Debitor: **Bewegung (MW)**=<>0|**Periode**|  
-|18|Debitor|Debitor: **Bewegung (MW)**=<>0|**Nur Startdatum**|  
-
-**Ergebnisse exportieren**  
-
-- Debitoren, die eine Bewegung (MW) <> 0 in die Periode von 01.01.2013 bis 31.12.2013 haben.  
-- Debitoren, die Bewegung (MW) <> 0 am Tag vor dem Startdatum versehen haben.  
-
 ## <a name="see-also"></a>Siehe auch  
-[Prozess für Digital-Überwachung (/GoBD GDPdU)](process-for-digital-audits.md)   
+[Prozess für Digital-Überwachung (GoBD/GDPdU)](process-for-digital-audits.md)   
 [Wie Sie Daten für eine Digital-Überwachung exportieren](how-to-export-data-for-a-digital-audit.md)
-
