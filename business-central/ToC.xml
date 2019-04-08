@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Node Name="" DisplayName="Hilfe" Page="product-get-started.html">
+  <Node Name="" DisplayName="Erste Schritte" Page="across-get-started.html">
+    <Node Name="" DisplayName="Überblick über Geschäfts-Funktionalität" Page="across-business-functionality.html"/>
+    <Node Name="" DisplayName="Geschäftsdaten aus anderen Finanzsystemen importieren" Page="upload-data.html"/>
+    <Node Name="" DisplayName="Abrufen von Business Central auf meinem mobilen Gerät" Page="install-mobile-app.html"/>
+    <Node Name="" DisplayName="Synchronisieren mit Kontakten in Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
+    <Node Name="" DisplayName="Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook" Page="admin-outlook.html"/>
+    <Node Name="" DisplayName="Aktivieren Sie Ihre Geschäftsdaten für Power BI" Page="admin-powerbi.html"/>
+    <Node Name="" DisplayName="Business Central als Power BI-Datenquelle nutzen" Page="across-how-use-financials-data-source-powerbi.html"/>
+    <Node Name="" DisplayName="Anpassen von Business Central mithilfe der Erweiterungen" Page="ui-extensions.html"/>
+  </Node>
+  <Node Name="" DisplayName="Tipps und Tricks" Page="ui-work-product.html">
+    <Node Name="" DisplayName="Arbeiten mit Business Central" Page="ui-work-product.html"/>
+    <Node Name="" DisplayName="Seite oder Bericht suchen verwenden" Page="ui-search.html"/>
+    <Node Name="" DisplayName="Ändern von grundlegenden Einstellungen" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="So gehts: Ändern des Rollencenters" Page="change-role.html"/>
+    <Node Name="" DisplayName="Business Central anpassen" Page="ui-customizing-overview.html"/>
+    <Node Name="" DisplayName="Business Central Werte vorschlagen lassen" Page="ui-let-system-suggest-values.html"/>
+    <Node Name="" DisplayName="Berichte drucken" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Videos in häufigen Aufgaben" Page="across-videos.html"/>
+  </Node>
+  <Node Name="" DisplayName="Einrichten von Business Central" Page="setup.html">
+    <Node Name="" DisplayName="Einrichtung und Verwaltung" Page="admin-setup-and-administration.html">
+      <Node Name="" DisplayName="Änderungen protokollieren" Page="across-log-changes.html"/>
+      <Node Name="" DisplayName="Neue Unternehmen anlegen" Page="about-new-company.html"/>
+      <Node Name="" DisplayName="Benutzer, Profile und Rollencenter" Page="admin-users-profiles-roles.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen" Page="ui-how-users-permissions.html"/>
+      <Node Name="" DisplayName="Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung" Page="admin-job-queues-schedule-tasks.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Veröffentlichen eines Webdiensts" Page="across-how-publish-web-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Finanzen einrichten" Page="finance-setup-finance.html">
+      <Node Name="" DisplayName="Zahlungsformen definieren" Page="finance-payment-methods.html"/>
+      <Node Name="" DisplayName="Buchungsgruppen einrichten" Page="finance-posting-groups.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Mit Zahlungstoleranzen und Skontotoleranzen arbeiten" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+      <Node Name="" DisplayName="So geht's: Ein neues Geschäftsjahr eröffnen" Page="finance-how-open-new-fiscal-year.html"/>
+      <Node Name="" DisplayName="Mehrwertsteuer einrichten" Page="finance-setup-vat.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Aktualisieren von Währungswechselkursen" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Einrichten des Kontenplans" Page="finance-setup-chart-accounts.html"/>
+      <Node Name="" DisplayName="Aufstellung Cashflow-Analyse" Page="finance-setup-cash-flow-analyses.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Barkunden einrichten" Page="finance-how-to-set-up-cash-customers.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Einrichten von Intrastat-Berichtswesen" Page="finance-how-setup-report-intrastat.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Arbeiten mit dem konsolidierten Rohbilanz-Bericht" Page="accross-how-consolidated-company-reporting.html"/>
+    </Node>
+    <Node Name="" DisplayName="Einrichten von Banken" Page="bank-setup-banking.html">
+      <Node Name="" DisplayName="So geht's: Bankkonten einrichten" Page="bank-how-setup-bank-accounts.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Einrichten des Bankdatenkonvertierungsservice" Page="bank-how-setup-bank-data-conversion-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Einrichten von Verkäufen" Page="sales-setup-sales.html">
+      <Node Name="" DisplayName="Vorgehensweise: Einen neuen Debitor registrieren" Page="sales-how-register-new-customers.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr" Page="sales-how-enable-payment-service-extensions.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Besondere Verkaufspreise und Rabatte aufzeichnen" Page="sales-how-record-sales-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Verkäufer einrichten" Page="sales-how-setup-salespeople.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Belegsendeprofilen" Page="sales-how-setup-document-send-profiles.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Senden von Belegen über E-Mail" Page="ui-how-send-documents-email.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Überprüfen der USt-IdNr." Page="sales-how-to-verify-vat-registration-numbers.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Zusteller einrichten" Page="sales-how-to-set-up-shipping-agents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Einkauf einrichten" Page="purchasing-setup-purchasing.html">
+      <Node Name="" DisplayName="Vorgehensweise: Einen neuen Kreditor registrieren" Page="purchasing-how-register-new-vendors.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Besondere Verkaufspreise und Rabatte aufzeichnen" Page="purchasing-how-record-purchase-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Priorisieren von Kreditoren" Page="purchasing-how-prioritize-vendors.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Einkäufern" Page="purchasing-how-setup-purchasers.html"/>
+    </Node>
+    <Node Name="" DisplayName="Bestand einrichten" Page="inventory-setup-inventory.html">
+      <Node Name="" DisplayName="So geht's: Allgemeine Lagerbestandsinformationen einrichten" Page="inventory-how-setup-general.html"/>
+      <Node Name="" DisplayName="So geht's: Mit Zuständigkeitseinheiten arbeiten" Page="inventory-responsibility-centers.html"/>
+      <Node Name="" DisplayName="So wird's gemacht: Standorte einrichten" Page="inventory-how-setup-locations.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Neue Artikel registrieren" Page="inventory-how-register-new-items.html"/>
+      <Node Name="" DisplayName="So wird's gemacht: Lagerhaltungsdaten einrichten" Page="inventory-how-to-set-up-stockkeeping-units.html"/>
+      <Node Name="" DisplayName="So geht's: Artikel kategorisieren" Page="inventory-how-categorize-items.html"/>
+    </Node>
+    <Node Name="" DisplayName="Richten Sie Ihr Projektmanagement ein." Page="projects-setup-projects.html">
+      <Node Name="" DisplayName="Vorgehensweise: Ressourcen einrichten:" Page="projects-how-setup-resources.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Einrichten von Arbeitszeittabellen" Page="projects-how-setup-time-sheets.html"/>
+      <Node Name="" DisplayName="So wird's gemacht: Projekte einrichten" Page="projects-how-setup-jobs.html"/>
+    </Node>
+    <Node Name="" DisplayName="Anlagen einrichten" Page="fa-setup.html">
+      <Node Name="" DisplayName="So geht's: Allgemeine Anlagen-Informationen einrichten" Page="fa-how-setup-general.html"/>
+      <Node Name="" DisplayName="So geht's: Einrichten der Anlagen-AfA" Page="fa-how-setup-depreciation.html"/>
+      <Node Name="" DisplayName="So geht's: Einrichten der Anlagenversicherung" Page="fa-how-setup-insurance.html"/>
+      <Node Name="" DisplayName="So geht's: Einrichten der Anlagenwartung" Page="fa-how-setup-maintenance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Lagerortverwaltung einrichten" Page="warehouse-setup-warehouse.html">
+      <Node Name="" DisplayName="Designdetails: Lagerübersicht" Page="design-details-warehouse-overview.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Lagerplatzarten einrichten" Page="warehouse-how-to-set-up-bin-types.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Erstellen von Lagerplätzen" Page="warehouse-how-to-create-individual-bins.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Erstellen von Lagerplatzinhalten" Page="warehouse-how-to-set-up-bin-contents.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einlagerungsmethoden einrichten" Page="warehouse-how-to-set-up-put-away-templates.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Lagermitarbeiter einrichten" Page="warehouse-how-to-set-up-warehouse-employees.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Lagerorte für die Verwendung von Lagerplätzen einrichten" Page="warehouse-how-to-set-up-locations-to-use-bins.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Konvertieren vorhandener Lagerorte in Lagerorte des Lagers" Page="warehouse-how-to-convert-existing-locations-to-warehouse-locations.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Basislagern mit Vorgangsbereichen" Page="warehouse-how-to-set-up-basic-warehouses-with-operations-areas.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Artikeln und Standorten für die gesteuerte Einlagerung und Kommissionierung" Page="warehouse-how-to-set-up-items-for-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Vorgehensweise. Erfassen oder Regulieren von Lagerbestand" Page="inventory-how-count-adjust-reclassify.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung" Page="warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Aktiveren der Kommissionierung nach FEFO" Page="warehouse-picking-by-fefo.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Aktivieren des mobilen Datenerfassungssystems (ADCS)" Page="warehouse-use-automated-data-capture-systems-adcs.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Umstrukturieren von Lagern" Page="warehouse-how-to-restructure-warehouses.html"/>
+    </Node>
+    <Node Name="" DisplayName="Produktion einrichten" Page="production-configure-production-processes.html">
+      <Node Name="" DisplayName="Vorgehensweise: Arbeitsplatzgruppenkalender erstellen" Page="production-how-to-create-work-center-calendars.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Arbeitsplätze und Arbeitsplatzgruppen einrichten" Page="production-how-to-set-up-work-and-machine-centers.html"/>
+      <Node Name="" DisplayName="So wird's gemacht: neue Arbeitspläne erzeugen" Page="production-how-to-create-routings.html"/>
+      <Node Name="" DisplayName="So wird's gemacht: Neue Fertigungsstücklisten erzeugen" Page="production-how-to-create-production-boms.html"/>
+      <Node Name="" DisplayName="Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren" Page="production-how-to-flush-components-according-to-operation-output.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Verwenden der Fertigungsloseinheit" Page="production-how-to-use-the-manufacturing-batch-unit-of-measure.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Arbeiten mit Fertigungsfamilien" Page="production-how-work-family.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Aufgabenzeilen" Page="production-how-set-up-standard-routing-lines.html"/>
+      <Node Name="" DisplayName="Fertigung durch Fremdarbeitsvertrag" Page="production-how-to-subcontract-manufacturing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Einrichten der Serviceverwaltung" Page="service-setup-service.html">
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Standardservicecodes" Page="service-how-setup-service-coding.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Konfigurieren von Serviceprozessen" Page="service-setup-service-processes.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Einrichten von Problem-Berichtswesen" Page="service-how-setup-fault-reporting.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Serviceangeboten" Page="service-how-setup-service-offerings.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Um Lösungsanleitungen einzurichten:" Page="service-how-setup-troubleshooting.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Ressourcenzuordnung" Page="service-how-setup-resource-allocation.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Preisen und zusätzlichen Kosten für Services" Page="service-how-setup-service-costs-pricing.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Serviceartikeln und Serviceartikelkomponenten" Page="service-how-setup-service-items.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Arbeits- und Servicezeiten" Page="service-how-setup-work-service-hours.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Status für Serviceaufträge und Reparaturen" Page="service-order-repair-status.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten eines Leihgeräteprogramms" Page="service-how-setup-loaner-program.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Serviceverträgen" Page="service-how-setup-service-contracts.html"/>
+    </Node>
+    <Node Name="" DisplayName="Abschreibungsmethoden" Page="fa-depreciation-methods.html"/>
+    <Node Name="" DisplayName="Gewusst wie: Einrichten von E-Mails" Page="madeira-how-setup-email.html"/>
+    <Node Name="" DisplayName="So geht es: Erstellen von Nummernserien" Page="ui-create-number-series.html"/>
+    <Node Name="" DisplayName="So wird's gemacht: Textbausteine anlegen" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="So wird's gemacht: Basiskalender einrichten" Page="across-how-to-assign-base-calendars.html"/>
+    <Node Name="" DisplayName="Einrichten komplexer Anwendungsbereiche mithilfe bewährter Methoden" Page="set-up-complex-application-areas-using-best-practices.html">
+      <Node Name="" DisplayName="Bewährte Einrichtungsmethoden: Beschaffungsplanung" Page="setup-best-practices-supply-planning.html"/>
+      <Node Name="" DisplayName="Bewährte Einrichtungsmethoden: Lagerabgangsmethode" Page="setup-best-practices-costing-method.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Finanzen" Page="finance.html">
+    <Node Name="" DisplayName="Debitoren verwalten" Page="receivables-manage-receivables.html">
+      <Node Name="" DisplayName="Zahlungen automatisch vornehmen und Bankkonten abstimmen" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen" Page="receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Manuelle Abstimmung vom Zahlungen" Page="receivables-how-apply-sales-transactions-manually.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Einziehen von Restbeträgen" Page="receivables-collect-outstanding-balances.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten" Page="payables-how-assign-item-charges.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Mit Zahlungstoleranzen und Skontotoleranzen arbeiten" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Verwalten von Verbindlichkeiten" Page="payables-manage-payables.html">
+      <Node Name="" DisplayName="Zahlungen vornehmen" Page="payables-make-payments.html"/>
+      <Node Name="" DisplayName="Zahlungen automatisch vornehmen Bankkonten abstimmen" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Manuelle Abstimmung von Debitorenzahlungen" Page="payables-how-apply-purchase-transactions-manually.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten" Page="payables-how-assign-item-charges.html"/>
+    </Node>
+    <Node Name="" DisplayName="Fakturieren von Vorauszahlungen" Page="finance-invoice-prepayments.html">
+      <Node Name="" DisplayName="Vorgehensweise: Einrichten von Vorauszahlungen" Page="finance-set-up-prepayments.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Erstellen von Vorauszahlungsrechnungen" Page="finance-how-to-create-prepayment-invoices.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Vorauszahlungen korrigieren" Page="finance-how-to-correct-prepayments.html"/>
+    </Node>
+    <Node Name="" DisplayName="Verwalten von Bankkonten" Page="bank-manage-bank-accounts.html">
+      <Node Name="" DisplayName="Zahlungen automatisch vornehmen und Bankkonten abstimmen" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Bankkonten separat abstimmen" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Bank-Geldmittel überweisen" Page="bank-how-transfer-bank-funds.html"/>
+    </Node>
+    <Node Name="" DisplayName="Intercompanytransaktionen verwalten" Page="intercompany-manage.html">
+      <Node Name="" DisplayName="Vorgehensweise: Intercompany einrichten" Page="intercompany-how-setup.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Arbeiten mit Intercompany-Belegen und Buch.-Blättern" Page="intercompany-how-work-documents-journals.html"/>
+      <Node Name="" DisplayName="So geht's: Intercompany-Ein- und -Ausgangstransaktionen verwalten" Page="intercompany-how-manage-intercompany-inbox.html"/>
+    </Node>
+    <Node Name="" DisplayName="Kostenrechnung" Page="finance-manage-cost-accounting.html">
+      <Node Name="" DisplayName="Terminologie der Kostenrechnung" Page="finance-terminology-in-cost-accounting.html"/>
+      <Node Name="" DisplayName="Informationen zur Kostenrechnung" Page="finance-about-cost-accounting.html"/>
+      <Node Name="" DisplayName="Einrichten der Kostenrechnung" Page="finance-set-up-cost-accounting.html"/>
+      <Node Name="" DisplayName="Übertragung und Buchung von Kostenzuteilungen" Page="finance-transfer-and-post-cost-entries.html"/>
+      <Node Name="" DisplayName="Definieren und Zuweisen von Kosten" Page="finance-define-and-allocate-costs.html"/>
+      <Node Name="" DisplayName="Erstellen von Kostenbudgets" Page="finance-create-cost-budgets.html"/>
+    </Node>
+    <Node Name="" DisplayName="Verwalten der Lagerregulierung" Page="finance-manage-inventory-costs.html">
+      <Node Name="" DisplayName="Info über Lagerkostenberechnung" Page="finance-learn-about-costing.html"/>
+      <Node Name="" DisplayName="Einrichten der Lagerwertberechnung und der Kostenrechnung" Page="finance-set-up-inventory-valuation-and-costing.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Neubewerten von Lagerbestand" Page="inventory-how-revalue-inventory.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Artikelpreise anpassen" Page="inventory-how-adjust-item-costs.html"/>
+      <Node Name="" DisplayName="So gehts: Verarbeiten von Lager- und Fertigungskosten" Page="finance-handle-inventory-and-manufacturing-costs.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Aktualisieren von festen Einstandspreisen" Page="finance-how-to-update-standard-costs.html"/>
+      <Node Name="" DisplayName="Melden von Kosten und Abstimmen mit der Finanzbuchhaltung" Page="finance-report-costs-and-reconcile-with-the-general-ledger.html"/>
+      <Node Name="" DisplayName="Designdetails: Lagerkostenberechnung" Page="design-details-inventory-costing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Verständnis der Fibu und des COA" Page="finance-general-ledger.html"/>
+    <Node Name="" DisplayName="Arbeiten mit Dimensionen" Page="finance-dimensions.html"/>
+    <Node Name="" DisplayName="So wird's gemacht: neue Budgets erzeugen" Page="finance-how-create-budgets.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Transaktionen direkt in die Finanzbuchhaltung buchen" Page="finance-how-post-transactions-directly.html"/>
+    <Node Name="" DisplayName="So geht's: Buchungen stornieren" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Erklärt, wie Kosten und Einnahmen zugewiesen werden." Page="year-allocate-costs-income.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten" Page="payables-how-assign-item-charges.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen" Page="finance-how-record-reimburse-employee-expenses.html"/>
+    <Node Name="" DisplayName="Gewusst wie: Einnahmen und Ausgaben zurückstellen" Page="finance-how-defer-revenue-expenses.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Lohntransaktion importieren" Page="finance-how-import-payroll-transactions.html"/>
+    <Node Name="" DisplayName="So gehts: Melden von MwSt. an die Steuerbehörden" Page="finance-how-report-vat.html"/>
+    <Node Name="" DisplayName="So gehtsf: Arbeiten mit MwSt im Verkauf und Einkauf" Page="finance-work-with-vat.html"/>
+    <Node Name="" DisplayName="So geht's: Konvertieren von Serviceverträgen, die MwSt.-Beträge enthalten" Page="service-how-to-convert-service-contracts.html"/>
+    <Node Name="" DisplayName="Analysieren von Finanzauswertungen in Excel" Page="finance-analyze-excel.html"/>
+    <Node Name="" DisplayName="Analysieren von Cashflow in Ihren Mandanten" Page="finance-analyze-cash-flow.html"/>
+    <Node Name="" DisplayName="Beenden von Jahresabschluss und Perioden" Page="year-close-years-periods.html">
+      <Node Name="" DisplayName="So geht's: Buchhaltungsperioden festlegen" Page="finance-how-specify-posting-periods.html"/>
+      <Node Name="" DisplayName="schließen der Perioden" Page="year-how-complete-period-end-processes.html"/>
+      <Node Name="" DisplayName="Vorgehensweise: Aktualisieren von Währungswechselkursen" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Erklärt, wie Kosten und Einnahmen zugewiesen werden." Page="year-allocate-costs-income.html"/>
+      <Node Name="" DisplayName="So gehts: Melden von MwSt. an die Steuerbehörden" Page="finance-how-report-vat.html"/>
+      <Node Name="" DisplayName="Vorabschlussberichte vorbereiten" Page="year-prepare-preclose-reports.html"/>
+      <Node Name="" DisplayName="Schließen der Bücher" Page="year-close-books.html"/>
+      <Node Name="" DisplayName="Abschlussberichrte vorbereiten" Page="year-prepare-close-statement.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Business Intelligence" Page="bi.html">
+    <Node Name="" DisplayName="Beschreibt, wie die tatsächlichen Beträge mit den budgetierten Beträgen analysiert werden." Page="bi-how-analyze-actual-versus-budget.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Arbeiten mit Kontenschemata" Page="bi-how-work-account-schedule.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Kontenschemata" Page="bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Analysieren von Daten nach Dimensionen" Page="bi-how-analyze-data-dimension.html"/>
+    <Node Name="" DisplayName="Vorgehensweise. Erstellen neuer Vertriebsanalyseberichte" Page="bi-how-create-analysis-views-reports.html"/>
+    <Node Name="" DisplayName="Vorgehensweise. Erstellen von Berichten mit XBRL" Page="bi-create-reports-with-xbrl.html"/>
+  </Node>
+  <Node Name="" DisplayName="Verkauf" Page="sales-manage-sales.html">
+    <Node Name="" DisplayName="Vorgehensweise: Machen Sie ein Angebot" Page="sales-how-make-offers.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Fakturieren" Page="sales-how-invoice-sales.html"/>
+    <Node Name="" DisplayName="Gewusst wie: Produkte verkaufen" Page="sales-how-sell-products.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen" Page="sales-how-work-standard-lines.html"/>
+    <Node Name="" DisplayName="So geht's: Direktlieferungen erstellen" Page="sales-how-drop-shipment.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Spezialaufträge erstellen" Page="sales-how-to-create-special-orders.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Ändern oder Löschen einer unbezahlten Verkaufsrechnung" Page="sales-how-correct-cancel-sales-invoice.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen" Page="sales-how-process-sales-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Arbeiten mit Rahmenaufträgen" Page="sales-how-to-create-blanket-sales-orders.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Zusammenfassen von Lieferungen in einer einzelnen Rechnung" Page="sales-how-to-combine-shipments-on-a-single-invoice.html"/>
+    <Node Name="" DisplayName="So wird's gemacht: Lieferterminzusagen berechnen" Page="sales-how-to-calculate-order-promising-dates.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Pakete verfolgen" Page="sales-how-track-packages.html"/>
+  </Node>
+  <Node Name="" DisplayName="Einkauf" Page="purchasing-manage-purchasing.html">
+    <Node Name="" DisplayName="Vorgehensweise: Erfassen eines Einkaufs" Page="purchasing-how-record-purchases.html"/>
+    <Node Name="" DisplayName="Gewusst wie: Angebote anfragen" Page="purchasing-how-request-quotes.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Einkauf von Produkten für einen Verkauf" Page="purchasing-how-purchase-products-sale.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Ändern oder Löschen einer unbezahlten Einkaufsrechnung" Page="purchasing-how-correct-cancel-unpaid-purchase-invoices.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Zusammenfassen von Lieferungen in einer einzelnen Rechnung" Page="purchasing-how-to-combine-receipts.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen" Page="purchasing-how-process-purchase-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Terminberechnung für Einkäufe" Page="purchasing-date-calculation-for-purchases.html"/>
+  </Node>
+  <Node Name="" DisplayName="Lagerbest" Page="inventory-manage-inventory.html">
+    <Node Name="" DisplayName="Vorgehensweise: Neue Artikel registrieren" Page="inventory-how-register-new-items.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Mit Stücklisten arbeiten" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="So geht's: Artikel kategorisieren" Page="inventory-how-categorize-items.html"/>
+    <Node Name="" DisplayName="Gewusst wie: Arbeiten mit Artikelattributen" Page="inventory-how-work-item-attributes.html"/>
+    <Node Name="" DisplayName="So geht's: Arbeiten mit Katalogartikeln" Page="inventory-how-work-nonstock-items.html"/>
+    <Node Name="" DisplayName="Vorgehensweise. Erfassen, Regulieren und Umbuchen von Lagerbestand" Page="inventory-how-count-adjust-reclassify.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Artikelverfügbarkeit anzeigen" Page="inventory-how-availability-overview.html"/>
+    <Node Name="" DisplayName="So geht's: Lagerbestand zwischen Lagerplätzen umlagern" Page="inventory-how-transfer-between-locations.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Artikel reservieren" Page="inventory-how-to-reserve-items.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Arbeiten mit Chargennummern und Seriennummern" Page="inventory-how-work-item-tracking.html"/>
+    <Node Name="" DisplayName="So geht's: Mit Zuständigkeitseinheiten arbeiten" Page="inventory-responsibility-centers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Projektmanagement" Page="projects-manage-projects.html">
+    <Node Name="" DisplayName="So wird's gemacht: Projekt erstellen" Page="projects-how-create-jobs.html"/>
+    <Node Name="" DisplayName="Gewusst wie: Verwenden von Ressourcen für Projekte" Page="projects-how-use-resources.html"/>
+    <Node Name="" DisplayName="Gewusst wie: Verwenden von Arbeitszeittabellen für Projekte" Page="projects-how-use-time-sheets.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Verwalten von Projektbudgets" Page="projects-how-manage-budgets.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Verbrauch bei Projekten aufzeichnen" Page="projects-how-record-job-usage.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Verwalten von Projektlieferungen" Page="projects-how-manage-project-supplies.html"/>
+    <Node Name="" DisplayName="Verständnis - WIP-Methoden" Page="projects-understanding-wip.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Überwachen des Projektfortschritts und der Leistung" Page="projects-how-monitor-progress-performance.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Fakturieren" Page="projects-how-invoice-jobs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Anlagen" Page="fa-manage.html">
+    <Node Name="" DisplayName="So geht's: Beschaffen von Anlagen" Page="fa-how-acquire.html"/>
+    <Node Name="" DisplayName="So geht's: Anlagen aktualisieren" Page="fa-how-maintain.html"/>
+    <Node Name="" DisplayName="So geht's: Versichern von Anlagen" Page="fa-how-insure.html"/>
+    <Node Name="" DisplayName="So geht's: Übertragen, Teilen oder Kombinieren von Anlagen." Page="fa-how-trans-split-combine.html"/>
+    <Node Name="" DisplayName="So geht's: Anlagen neu bewerten" Page="fa-how-revalue.html"/>
+    <Node Name="" DisplayName="So geht's: Anlagen abschreiben oder amortisieren" Page="fa-how-depreciate-amortize.html"/>
+    <Node Name="" DisplayName="So geht's: Anlagen entsorgen oder außer Dienst stellen" Page="fa-how-dispose-retire.html"/>
+    <Node Name="" DisplayName="So geht's: Budgets für Anlagen verwalten" Page="fa-how-manage-budgets.html"/>
+  </Node>
+  <Node Name="" DisplayName="Marketing &amp; Vertrieb" Page="marketing-relationship-management.html">
+    <Node Name="" DisplayName="Marketing &amp; Vertrieb einrichten" Page="marketing-setup-marketing.html"/>
+    <Node Name="" DisplayName="Kontakte verwalten" Page="marketing-contacts.html"/>
+    <Node Name="" DisplayName="Verwalten von Segmenten" Page="marketing-segments.html"/>
+    <Node Name="" DisplayName="Aktivitäten aufzeichnen" Page="marketing-interactions.html"/>
+    <Node Name="" DisplayName="Verkaufschancen verwalten" Page="marketing-manage-sales-opportunities.html"/>
+    <Node Name="" DisplayName="Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten" Page="marketing-integrate-dynamicscrm.html"/>
+  </Node>
+  <Node Name="" DisplayName="Personalwesen" Page="hr-manage-human-resources.html">
+    <Node Name="" DisplayName="Vorgehensweise: Mitarbeiter erfassen" Page="hr-how-register-employees.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Verwalten Sie die Abwesenheit von Mitarbeitern" Page="hr-how-manage-absence.html"/>
+  </Node>
+  <Node Name="" DisplayName="Planung" Page="production-planning.html">
+    <Node Name="" DisplayName="Info zu Planungsfunktionen" Page="production-about-planning-functionality.html"/>
+    <Node Name="" DisplayName="Fertigung durch Fremdarbeitsvertrag" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Siehe Planung mit/ohne Lagerortcodes." Page="production-planning-with-without-locations.html"/>
+    <Node Name="" DisplayName="So wird's gemacht: Absatzplanung erstellen" Page="production-how-to-create-a-forecast.html"/>
+    <Node Name="" DisplayName="So wird's gemacht: Fertigungsaufträge aus Verkaufsaufträgen erstellen" Page="production-how-to-create-production-orders-from-sales-orders.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Projektaufträge planen" Page="production-how-to-plan-project-orders.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Planung der Bestellung eines neuen Bedarfs von Auftrag" Page="production-how-to-plan-for-new-demand.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Führen Sie eine vollständige Planung, Prod.-Programmplanung oder Nettobedarf aus" Page="production-how-to-run-mps-and-mrp.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Direkte Neugestaltungs oder Aktualisierung von Fertigungsaufträgen" Page="production-how-to-replan-refresh-production-orders.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Titel-Beziehungen zwischen Bedarf und Vorrat" Page="production-how-track-demand-supply.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Ändern von Planungsvorschlägen in einer grafischen Ansicht" Page="production-how-to-modify-planning-suggestions-in-a-graphical-view.html"/>
+  </Node>
+  <Node Name="" DisplayName="Montageverwaltung" Page="assembly-assemble-items.html">
+    <Node Name="" DisplayName="Auftragsmontage und Lagermontage verstehen" Page="assembly-assemble-to-order-or-assemble-to-stock.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Angebot eines Auftragsmontageverkaufs" Page="assembly-how-to-quote-an-assemble-to-order-sale.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Artikel montieren" Page="assembly-how-to-assemble-items.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Verkaufen von Auftragsmontageartikeln" Page="assembly-how-to-sell-items-assembled-to-order.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Verkaufen von Lagerartikeln in Auftagsmontageflüssen" Page="assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Verkaufen von Auftragsmontageartikeln und Lagerartikeln zusammen" Page="assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Montagebuchung stornieren" Page="assembly-how-to-undo-assembly-posting.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Mit Stücklisten arbeiten" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Designdetails: Montageauftragsbuchung" Page="design-details-assembly-order-posting.html"/>
+  </Node>
+  <Node Name="" DisplayName="Produktion" Page="production-manage-manufacturing.html">
+    <Node Name="" DisplayName="Info zu Fertigungsaufträgen" Page="production-about-production-orders.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Fertigungsaufträge erstellen:" Page="production-how-to-create-production-orders.html"/>
+    <Node Name="" DisplayName="Fertigung durch Fremdarbeitsvertrag" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile" Page="production-how-to-register-consumption-and-output.html"/>
+    <Node Name="" DisplayName="So wird's gemacht: Verbrauch mit Stapelverarbeitung buchen" Page="production-how-to-post-consumption.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen" Page="production-how-to-post-output-quantity.html"/>
+    <Node Name="" DisplayName="Vorgehensweise:  Ausschuss buchen:" Page="production-how-to-post-scrap.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Anzeigen der Auslastung der Arbeitsplätze und Arbeitsplatzgruppen" Page="production-how-to-view-the-load-on-work-centers.html"/>
+    <Node Name="" DisplayName="So wird's gemacht: Kapazitäten buchen" Page="production-how-to-post-capacities.html"/>
+    <Node Name="" DisplayName="Info zu Kosten des beendeten FA" Page="finance-about-finished-production-order-costs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Logistik" Page="warehouse-manage-warehouse.html">
+    <Node Name="" DisplayName="Vorgehensweise: Wareneingang von Artikeln" Page="warehouse-how-receive-items.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Zuordnen von Artikeln" Page="warehouse-how-to-cross-dock-items.html"/>
+    <Node Name="" DisplayName="Einlagerung von Artikeln" Page="warehouse-put-away-items.html"/>
+    <Node Name="" DisplayName="Umlagern von Artikeln" Page="warehouse-move-items.html"/>
+    <Node Name="" DisplayName="Kommissionieren von Artikeln" Page="warehouse-pick-items.html"/>
+    <Node Name="" DisplayName="So gehts: Artikel versenden" Page="warehouse-how-ship-items.html"/>
+  </Node>
+  <Node Name="" DisplayName="Service" Page="service-service.html">
+    <Node Name="" DisplayName="Planungsservice" Page="service-plan-service.html"/>
+    <Node Name="" DisplayName="Erfüllen von Serviceverträgen" Page="service-fulfill-service-contracts.html"/>
+    <Node Name="" DisplayName="Bereitstellen von Service" Page="service-deliver-service.html"/>
+  </Node>
+  <Node Name="" DisplayName="Allgemeine Geschäftsfunktionen" Page="ui-across-business-areas.html">
+    <Node Name="" DisplayName="So wird's gemacht: Textbausteine anlegen" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Arbeiten mit Fibu Buch.-Blättern" Page="ui-work-general-journals.html"/>
+    <Node Name="" DisplayName="Gewusst wie: Senden von Belegen über E-Mail" Page="ui-how-send-documents-email.html"/>
+    <Node Name="" DisplayName="Arbeiten mit Berichten" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Verwaltung von Berichts- und Beleg-Layouts" Page="ui-manage-report-layouts.html"/>
+    <Node Name="" DisplayName="Protokollieren von Änderungen in Business Central" Page="across-log-changes.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen" Page="ui-how-users-permissions.html"/>
+    <Node Name="" DisplayName="Anpassen von Business Central mithilfe der Erweiterungen" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Eingehende Belege" Page="across-income-documents.html">
+      <Node Name="" DisplayName="Gewusst wie: Eingehende Dokumente einrichten" Page="across-how-setup-income-documents.html"/>
+      <Node Name="" DisplayName="Eingehende Dokumente verarbeiten" Page="across-process-income-documents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Workflow" Page="across-workflow.html">
+      <Node Name="" DisplayName="Einrichten von Workflows" Page="across-set-up-workflows.html"/>
+      <Node Name="" DisplayName="Verwenden von Workflows" Page="across-use-workflows.html"/>
+    </Node>
+    <Node Name="" DisplayName="Daten elektronisch austauschen" Page="across-data-exchange.html">
+      <Node Name="" DisplayName="Über das Datenaustauschframework" Page="across-about-the-data-exchange-framework.html"/>
+      <Node Name="" DisplayName="Einrichten eines Datenaustauschs" Page="across-set-up-data-exchange.html"/>
+      <Node Name="" DisplayName="Austausch von Daten" Page="across-exchange-data.html"/>
+    </Node>
+    <Node Name="" DisplayName="Benutzeraufgaben definieren" Page="across-user-tasks.html"/>
+  </Node>
+  <Node Name="" DisplayName="Exemplarische Vorgehensweisen für Geschäftsprozesse" Page="walkthrough-business-process-walkthroughs.html">
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne" Page="walkthrough-conducting-a-sales-campaign.html"/>
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen" Page="walkthrough-setting-up-and-invoicing-sales-prepayments.html"/>
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows" Page="walkthrough-setting-up-and-using-a-purchase-approval-workflow.html"/>
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen" Page="walkthrough-receiving-and-putting-away-in-advanced-warehousing.html"/>
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung" Page="walkthrough-planning-supplies-manually.html"/>
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Automatische Beschaffungsplanung" Page="walkthrough-planning-supplies-automatically.html"/>
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits" Page="walkthrough-selling-assembling-and-shipping-kits.html"/>
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Verwalten von Projekten" Page="walkthrough-managing-projects-with-jobs.html"/>
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt" Page="walkthrough-calculating-work-in-process-for-a-job.html"/>
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern" Page="walkthrough-tracing-serial-lot-numbers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Designdetails" Page="design-details-application-design.html">
+    <Node Name="" DisplayName="Designdetails: Dimensionssatzposten" Page="design-details-dimension-set-entries.html"/>
+    <Node Name="" DisplayName="Designdetails: Vorratsplanung" Page="design-details-supply-planning.html"/>
+    <Node Name="" DisplayName="Designdetails: Lagerkostenberechnung" Page="design-details-inventory-costing.html"/>
+    <Node Name="" DisplayName="Designdetails: Lagerverwaltung" Page="design-details-warehouse-management.html"/>
+    <Node Name="" DisplayName="Designdetails: Artikelnachverfolgung" Page="design-details-item-tracking.html"/>
+    <Node Name="" DisplayName="Designdetails: Fibu Buch.-Blatt-Beitrags-Zeile" Page="design-details-general-journal-post-line.html"/>
+  </Node>
+  <Node Name="" DisplayName="Lokale Funktionalität" Page="index.html">
+    <Node Name="" DisplayName="Australien" Page="LocalFunctionality/Australia/australia-local-functionality.html"/>
+    <Node Name="" DisplayName="Österreich" Page="LocalFunctionality/Austria/austria-local-functionality.html"/>
+    <Node Name="" DisplayName="Belgien" Page="LocalFunctionality/Belgium/belgium-local-functionality.html"/>
+    <Node Name="" DisplayName="Kanada" Page="LocalFunctionality/Canada/canada-local-functionality.html"/>
+    <Node Name="" DisplayName="Dänemark" Page="LocalFunctionality/Denmark/denmark-local-functionality.html"/>
+    <Node Name="" DisplayName="Finnland" Page="LocalFunctionality/Finland/finland-local-functionality.html"/>
+    <Node Name="" DisplayName="Frankreich" Page="LocalFunctionality/France/france-local-functionality.html"/>
+    <Node Name="" DisplayName="Deutschland" Page="LocalFunctionality/Germany/germany-local-functionality.html"/>
+    <Node Name="" DisplayName="Island" Page="LocalFunctionality/Iceland/iceland-local-functionality.html"/>
+    <Node Name="" DisplayName="Italien" Page="LocalFunctionality/Italy/italy-local-functionality.html"/>
+    <Node Name="" DisplayName="Mexiko" Page="LocalFunctionality/Mexico/mexico-local-functionality.html"/>
+    <Node Name="" DisplayName="Niederlande" Page="LocalFunctionality/Netherlands/netherlands-local-functionality.html"/>
+    <Node Name="" DisplayName="Neuseeland" Page="LocalFunctionality/NewZealand/new-zealand-local-functionality.html"/>
+    <Node Name="" DisplayName="Norwegen" Page="LocalFunctionality/Norway/norway-local-functionality.html"/>
+    <Node Name="" DisplayName="Russland" Page="LocalFunctionality/Russia/russia-local-functionality.html"/>
+    <Node Name="" DisplayName="Spanien" Page="LocalFunctionality/Spain/spain-local-functionality.html"/>
+    <Node Name="" DisplayName="Schweden" Page="LocalFunctionality/Sweden/sweden-local-functionality.html"/>
+    <Node Name="" DisplayName="Schweiz" Page="LocalFunctionality/Switzerland/switzerland-local-functionality.html"/>
+    <Node Name="" DisplayName="Großbritannien" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
+    <Node Name="" DisplayName="Vereinigte Staaten" Page="LocalFunctionality/UnitedStates/united-states-local-functionality.html"/>
+  </Node>
+</Node>

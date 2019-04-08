@@ -1,36 +1,35 @@
 ---
 title: 'Designdetails: Artikelverfolgungsdesign | Microsoft Docs'
-description: "Dieses Thema zeigt eine Übersicht über Entwurfsdetails für Artikelverfolgung."
+description: Dieses Thema zeigt eine Übersicht über Entwurfsdetails für Artikelverfolgung.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/12/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
-ms.contentlocale: de-de
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798129"
 ---
-# <a name="design-details-item-tracking"></a><span data-ttu-id="47ecd-103">Designdetails: Artikelnachverfolgung</span><span class="sxs-lookup"><span data-stu-id="47ecd-103">Design Details: Item Tracking</span></span>
-<span data-ttu-id="47ecd-104">Da der Warenfluss in heutigen Lieferketten immer komplexer wird, wird die Möglichkeit, Artikel nachzuverfolgen für die involvierten Unternehmen immer wichtiger.</span><span class="sxs-lookup"><span data-stu-id="47ecd-104">As the flow of goods in today’s supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved.</span></span> <span data-ttu-id="47ecd-105">Den Transaktionsfluss eines Artikels zu überwachen ist eine gesetzlich vorgeschriebenes Erfordernis in Bezug auf medizinische und chemische Vorräte, andere Sektoren haben Produkte mit Garantien oder Ablaufdatumsangaben für Kundenservicegründe zu überwachen.</span><span class="sxs-lookup"><span data-stu-id="47ecd-105">Monitoring an item’s transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.</span></span>  
+# <a name="design-details-item-tracking"></a><span data-ttu-id="bb851-103">Designdetails: Artikelnachverfolgung</span><span class="sxs-lookup"><span data-stu-id="bb851-103">Design Details: Item Tracking</span></span>
+<span data-ttu-id="bb851-104">Da der Warenfluss in heutigen Lieferketten immer komplexer wird, wird die Möglichkeit, Artikel nachzuverfolgen für die involvierten Unternehmen immer wichtiger.</span><span class="sxs-lookup"><span data-stu-id="bb851-104">As the flow of goods in today’s supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved.</span></span> <span data-ttu-id="bb851-105">Den Transaktionsfluss eines Artikels zu überwachen ist eine gesetzlich vorgeschriebenes Erfordernis in Bezug auf medizinische und chemische Vorräte, andere Sektoren haben Produkte mit Garantien oder Ablaufdatumsangaben für Kundenservicegründe zu überwachen.</span><span class="sxs-lookup"><span data-stu-id="bb851-105">Monitoring an item’s transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.</span></span>  
 
-<span data-ttu-id="47ecd-106">Ein Artikelverfolgungssystem sollte für eine einfache Handhabung der Serien- und Chargennummern bieten, unter Berücksichtigung, dass jeder Artikel eine eindeutige Ware darstellt, Empfang und Eingang, Lagerord und Verkaufsdatum anzeigt.</span><span class="sxs-lookup"><span data-stu-id="47ecd-106">An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="47ecd-107">hat schrittweise seine Abdeckung dieser Geschäftsanforderung erweitert und stellt heute eine breite Funktionalität und festes Kernstück in den Erweiterungen bereit.einen widerrufen Kernstück bereitstellt, in denen Erweiterungen definieren.</span><span class="sxs-lookup"><span data-stu-id="47ecd-107">has gradually expanded its coverage of this business requirement and today provides application-wide functionality and a solid core on which to develop extensions.</span></span>  
+<span data-ttu-id="bb851-106">Ein Artikelverfolgungssystem sollte für eine einfache Handhabung der Serien- und Chargennummern bieten, unter Berücksichtigung, dass jeder Artikel eine eindeutige Ware darstellt, Empfang und Eingang, Lagerord und Verkaufsdatum anzeigt.</span><span class="sxs-lookup"><span data-stu-id="bb851-106">An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="bb851-107">hat schrittweise seine Abdeckung dieser Geschäftsanforderung erweitert und stellt heute eine breite Funktionalität und festes Kernstück in den Erweiterungen bereit.einen widerrufen Kernstück bereitstellt, in denen Erweiterungen definieren.</span><span class="sxs-lookup"><span data-stu-id="bb851-107">has gradually expanded its coverage of this business requirement and today provides application-wide functionality and a solid core on which to develop extensions.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="47ecd-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="47ecd-108">In This Section</span></span>  
-[<span data-ttu-id="47ecd-109">Designdetails: Artikelverfolgungsdesign</span><span class="sxs-lookup"><span data-stu-id="47ecd-109">Design Details: Item Tracking Design</span></span>](design-details-item-tracking-design.md)  
-[<span data-ttu-id="47ecd-110">Designdetails: Artikelverfolgungs-Buchungsstruktur</span><span class="sxs-lookup"><span data-stu-id="47ecd-110">Design Details: Item Tracking Posting Structure</span></span>](design-details-item-tracking-posting-structure.md)  
-[<span data-ttu-id="47ecd-111">Designdetails: Aktive vs. historische Artikelverfolgungsposten</span><span class="sxs-lookup"><span data-stu-id="47ecd-111">Design Details: Active versus Historic Item Tracking Entries</span></span>](design-details-active-versus-historic-item-tracking-entries.md)  
-[<span data-ttu-id="47ecd-112">Designdetails – Artikelverfolgungszeilenfenster-Seite</span><span class="sxs-lookup"><span data-stu-id="47ecd-112">Design Details: Item Tracking Lines Page</span></span>](design-details-item-tracking-lines-window.md)  
-[<span data-ttu-id="47ecd-113">Designdetails: Artikelverfolgungsverfügbarkeit</span><span class="sxs-lookup"><span data-stu-id="47ecd-113">Design Details: Item Tracking Availability</span></span>](design-details-item-tracking-availability.md)  
-[<span data-ttu-id="47ecd-114">Designdetails: Artikelverfolgung und Planung</span><span class="sxs-lookup"><span data-stu-id="47ecd-114">Design Details: Item Tracking and Planning</span></span>](design-details-item-tracking-and-planning.md)  
-[<span data-ttu-id="47ecd-115">Designdetails: Artikelverfolgung und Reservierungen</span><span class="sxs-lookup"><span data-stu-id="47ecd-115">Design Details: Item Tracking and Reservations</span></span>](design-details-item-tracking-and-reservations.md)  
-[<span data-ttu-id="47ecd-116">Designdetails: Artikelverfolgung im Lager</span><span class="sxs-lookup"><span data-stu-id="47ecd-116">Design Details: Item Tracking in the Warehouse</span></span>](design-details-item-tracking-in-the-warehouse.md)
-
+## <a name="in-this-section"></a><span data-ttu-id="bb851-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="bb851-108">In This Section</span></span>  
+[<span data-ttu-id="bb851-109">Designdetails: Artikelverfolgungsdesign</span><span class="sxs-lookup"><span data-stu-id="bb851-109">Design Details: Item Tracking Design</span></span>](design-details-item-tracking-design.md)  
+[<span data-ttu-id="bb851-110">Designdetails: Artikelverfolgungs-Buchungsstruktur</span><span class="sxs-lookup"><span data-stu-id="bb851-110">Design Details: Item Tracking Posting Structure</span></span>](design-details-item-tracking-posting-structure.md)  
+[<span data-ttu-id="bb851-111">Designdetails: Aktive vs. historische Artikelverfolgungsposten</span><span class="sxs-lookup"><span data-stu-id="bb851-111">Design Details: Active versus Historic Item Tracking Entries</span></span>](design-details-active-versus-historic-item-tracking-entries.md)  
+[<span data-ttu-id="bb851-112">Designdetails – Artikelverfolgungszeilenfenster-Seite</span><span class="sxs-lookup"><span data-stu-id="bb851-112">Design Details: Item Tracking Lines Page</span></span>](design-details-item-tracking-lines-window.md)  
+[<span data-ttu-id="bb851-113">Designdetails: Artikelverfolgungsverfügbarkeit</span><span class="sxs-lookup"><span data-stu-id="bb851-113">Design Details: Item Tracking Availability</span></span>](design-details-item-tracking-availability.md)  
+[<span data-ttu-id="bb851-114">Designdetails: Artikelverfolgung und Planung</span><span class="sxs-lookup"><span data-stu-id="bb851-114">Design Details: Item Tracking and Planning</span></span>](design-details-item-tracking-and-planning.md)  
+[<span data-ttu-id="bb851-115">Designdetails: Artikelverfolgung und Reservierungen</span><span class="sxs-lookup"><span data-stu-id="bb851-115">Design Details: Item Tracking and Reservations</span></span>](design-details-item-tracking-and-reservations.md)  
+[<span data-ttu-id="bb851-116">Designdetails: Artikelverfolgung im Lager</span><span class="sxs-lookup"><span data-stu-id="bb851-116">Design Details: Item Tracking in the Warehouse</span></span>](design-details-item-tracking-in-the-warehouse.md)

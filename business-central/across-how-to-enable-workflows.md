@@ -1,40 +1,39 @@
 ---
 title: Aktivieren von Workflows | Microsoft Docs
-description: "Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu starten, müssen Sie den Workflow aktivieren."
+description: Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu starten, müssen Sie den Workflow aktivieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9ee751670e39d1abe0e1d3e5faa04e57ce1fcc07
-ms.contentlocale: de-de
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "798762"
 ---
-# <a name="enable-workflows"></a><span data-ttu-id="c2315-103">Aktivieren von Workflows</span><span class="sxs-lookup"><span data-stu-id="c2315-103">Enable Workflows</span></span>
-<span data-ttu-id="c2315-104">Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu starten, müssen Sie den Workflow aktivieren.</span><span class="sxs-lookup"><span data-stu-id="c2315-104">When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.</span></span>  
+# <a name="enable-workflows"></a><span data-ttu-id="1af64-103">Aktivieren von Workflows</span><span class="sxs-lookup"><span data-stu-id="1af64-103">Enable Workflows</span></span>
+<span data-ttu-id="1af64-104">Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu starten, müssen Sie den Workflow aktivieren.</span><span class="sxs-lookup"><span data-stu-id="1af64-104">When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.</span></span>  
 
- <span data-ttu-id="c2315-105">Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten.</span><span class="sxs-lookup"><span data-stu-id="c2315-105">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="c2315-106">Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort.</span><span class="sxs-lookup"><span data-stu-id="c2315-106">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="c2315-107">Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden.</span><span class="sxs-lookup"><span data-stu-id="c2315-107">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="c2315-108">Weitere Informationen finden Sie unter [Workflows erstellen](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="c2315-108">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
+ <span data-ttu-id="1af64-105">Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten.</span><span class="sxs-lookup"><span data-stu-id="1af64-105">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="1af64-106">Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort.</span><span class="sxs-lookup"><span data-stu-id="1af64-106">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="1af64-107">Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden.</span><span class="sxs-lookup"><span data-stu-id="1af64-107">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="1af64-108">Weitere Informationen finden Sie unter [Workflows erstellen](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="1af64-108">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
 
-## <a name="to-enable-a-workflow"></a><span data-ttu-id="c2315-109">So aktivieren Sie einen Workflow</span><span class="sxs-lookup"><span data-stu-id="c2315-109">To enable a workflow</span></span>  
-1.  <span data-ttu-id="c2315-110">Wählen Sie das Symbol ![Glühlampe, mit der die Funktion "Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Workflows** ein, und wählen dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="c2315-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="c2315-111">Öffnen Sie den Workflow, den Sie aktivieren möchten.</span><span class="sxs-lookup"><span data-stu-id="c2315-111">Open the workflow that you want to enable.</span></span>  
-3.  <span data-ttu-id="c2315-112">Deaktivieren Sie auf der Seite **Workflow** das Kontrollkästchen **Aktiviert**.</span><span class="sxs-lookup"><span data-stu-id="c2315-112">On the **Workflow** page, select the **Enabled** check box.</span></span>  
+## <a name="to-enable-a-workflow"></a><span data-ttu-id="1af64-109">So aktivieren Sie einen Workflow</span><span class="sxs-lookup"><span data-stu-id="1af64-109">To enable a workflow</span></span>  
+1.  <span data-ttu-id="1af64-110">Wählen Sie das Symbol ![Glühlampe, mit der die Funktion "Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Workflows** ein, und wählen dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="1af64-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="1af64-111">Öffnen Sie den Workflow, den Sie aktivieren möchten.</span><span class="sxs-lookup"><span data-stu-id="1af64-111">Open the workflow that you want to enable.</span></span>  
+3.  <span data-ttu-id="1af64-112">Deaktivieren Sie auf der Seite **Workflow** das Kontrollkästchen **Aktiviert**.</span><span class="sxs-lookup"><span data-stu-id="1af64-112">On the **Workflow** page, select the **Enabled** check box.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="c2315-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="c2315-113">See Also</span></span>  
- <span data-ttu-id="c2315-114">[Erstellen eines Workflows](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c2315-114">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
- <span data-ttu-id="c2315-115">[Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="c2315-115">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
- <span data-ttu-id="c2315-116">[Löschen eines Workflows](across-how-to-delete-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c2315-116">[Delete Workflows](across-how-to-delete-workflows.md) </span></span>  
- <span data-ttu-id="c2315-117">[Einrichten von Workflows](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c2315-117">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
- <span data-ttu-id="c2315-118">[Verwenden von Workflows](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c2315-118">[Using Workflows](across-use-workflows.md) </span></span>  
- <span data-ttu-id="c2315-119">[Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="c2315-119">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
- [<span data-ttu-id="c2315-120">Workflow</span><span class="sxs-lookup"><span data-stu-id="c2315-120">Workflow</span></span>](across-workflow.md)   
-
+## <a name="see-also"></a><span data-ttu-id="1af64-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="1af64-113">See Also</span></span>  
+ <span data-ttu-id="1af64-114">[Erstellen eines Workflows](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="1af64-114">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
+ <span data-ttu-id="1af64-115">[Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="1af64-115">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
+ <span data-ttu-id="1af64-116">[Löschen eines Workflows](across-how-to-delete-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="1af64-116">[Delete Workflows](across-how-to-delete-workflows.md) </span></span>  
+ <span data-ttu-id="1af64-117">[Einrichten von Workflows](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="1af64-117">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
+ <span data-ttu-id="1af64-118">[Verwenden von Workflows](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="1af64-118">[Using Workflows](across-use-workflows.md) </span></span>  
+ <span data-ttu-id="1af64-119">[Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="1af64-119">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
+ [<span data-ttu-id="1af64-120">Workflow</span><span class="sxs-lookup"><span data-stu-id="1af64-120">Workflow</span></span>](across-workflow.md)   
