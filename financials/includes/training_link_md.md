@@ -1,1 +1,0 @@
-<span data-ttu-id="66277-101">Abrufen [Schulen!](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)</span><span class="sxs-lookup"><span data-stu-id="66277-101">Get [training!](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)</span></span>
