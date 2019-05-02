@@ -1,1 +1,0 @@
-<blockquote STYLE="background: #81BEF7;border-left:None"><b>ERWEITERT</b><br />Diese Funktion ist nur mit der erweiterten Erfahrung verfügbar. Weitere Informationen finden Sie unter [Erfahrungen in Finance and Operations, Business edition einrichte](../ui-experiences.md) </blockquote>
