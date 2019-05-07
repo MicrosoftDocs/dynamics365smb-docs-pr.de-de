@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4d4aaa82077d3628bbf75a9bc169d73ecc651884
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2049eec4dd4d145021edc0cf8ec9c2452c77cd01
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798361"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938444"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Fertigungsaufträge aus Verkaufsaufträgen zu erstellen:
 In diesem Fenster können Sie direkt zum aktuellen Verkaufsauftrag einen Fertigungsauftrag erstellen.  

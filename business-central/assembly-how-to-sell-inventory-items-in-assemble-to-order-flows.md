@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b01e3cb4d8ea09d08a546fb0af25dc0879111eb
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 188df39e5381f331da338aec1284b44f4e329977
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798634"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "931818"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen
 Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels **Auftragsmontage** enthält, dann nimmt der Standard-Verkaufsauftragsprozess an, dass der Artikel nicht auf Lager ist und für den jeweiligen Verkaufsauftrag montiert werden muss. Daher wird ein Montageauftrag automatisch erstellt, wenn Sie den Artikel einer Verkaufsauftragszeile hinzufügen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md). Wenn jedoch ein Teil der Verkaufsauftragsmenge bereits im Lagerbestand verfügbar ist, können Sie die Menge des Montageauftrags verringern, indem Sie das Feld **Menge für Auftragsmontage** auf der Verkaufsauftragszeile ändern.  

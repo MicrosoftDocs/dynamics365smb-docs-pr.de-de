@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 24a4fa9811547acfd3372d3eaf7de7b9f1882c7d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2dfa02f0054cab20605281bb1cc580b522b893fd
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798585"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937481"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Problembehandlung für Serviceartikel einrichten
 Sie können Lösungsanleitungen einrichten, die den Technikern helfen, Probleme zu lösen, wenn Sie einen Service ausführen. Beispielsweise könnten möglicherweise Richtlinien eine Übersicht der Schritte oder eine Reihe von Fragen sein, um den Artikel einzurichten. In diesem Fenster können Sie Lösungsanleitungen festlegen, diese Serviceartikelgruppen, Artikeln oder Serviceartikeln zuordnen. Es gibt eine Übernahmehierarchie für Richtlinien. Wenn Sie diese einer Serviceartikelgruppe zuweisen, übernehmen die Artikel, die in die Gruppe enthalten sind, die Richtlinien, es sei denn, Sie definieren diese für den Artikel. Analog übernehmen Serviceartikel Richtlinien der Artikel.  

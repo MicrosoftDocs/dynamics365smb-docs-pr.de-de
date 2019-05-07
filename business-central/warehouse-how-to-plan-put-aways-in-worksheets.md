@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3bf24a32ba4a411ada744092d594b874c0154588
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798128"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930801"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planen von Einlagerungen in Arbeitsblättern
 Wenn für Ihren Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie Einlagerungsanweisungen für mehrere Wareneingänge planen möchten – anstatt die Mitarbeiter Anweisungen ausführen zu lassen, die die Anwendung für einzelne gebuchte Wareneingänge erzeugt – können Sie den Einlagerungsvorschlag nutzen.  
@@ -58,7 +58,7 @@ Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch Einlagerun
 
     -   Sie können die Einlagerung einem bestimmten Mitarbeiter zuordnen.  
     -   Sie können die Einlagerungsanweisungszeilen so sortieren, wie Sie es im Vorschlag getan haben oder nach Lagerplatzpriorität. Wenn Sie nach der Lagerplatzpriorität sortieren, erscheinen zuerst die Zeilen der Art "Entnahme", da die meisten Wareneingangslagerplätze eine Lagerplatzpriorität 0 haben, und als Letztes erscheinen die Zeilen der Art "Einlagerung", beginnend mit den Lagerplätzen mit der niedrigsten Lagerplatzpriorität. Wenn Sie Ihr Lager so strukturiert haben, dass sich Lagerplätze von ähnlicher Lagerplatzpriorität nebeneinander befinden, verkürzt eine auf diese Art durchgeführte Sortierung die Wege, die die Lagermitarbeiter zurücklegen müssen.  
-    -   Sie können wählen, dass die Zwischenzeilen nicht angezeigt werden sollen, die die Anwendung erzeugt, wenn sie eine größere Einheit in kleinere Einheiten aufbricht, indem Sie das Feld **Gebindeanbruchsfilter verw.** wählen. Weitere Informationen finden Sie unter [Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Sie können wählen, dass die Zwischenzeilen nicht angezeigt werden sollen, die die Anwendung erzeugt, wenn sie eine größere Einheit in kleinere Einheiten aufbricht, indem Sie das Feld **Gebindeanbruchsfilter verw.** wählen. Weitere Informationen finden Sie unter [Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung aktivieren](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Sie können wählen, dass nicht automatisch das Feld **Bewegungsmenge** in den Einlagerungsanweisungen ausgefüllt wird.  
     -   Sie können sich entscheiden, den Beleg sofort zu drucken.  
 

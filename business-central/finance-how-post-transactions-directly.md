@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 11/27/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a1e7137cdc08fb558b6a6d423ce9524fa47eec16
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 54f2cf573d12c50ba26c26fd4c11ad20a1d52db3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798316"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937457"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Buchen von Transaktionen direkt in der Finanzbuchhaltung
 

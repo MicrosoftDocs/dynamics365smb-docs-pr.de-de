@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: c9c54562e327751190ecaddac57b7c19d3062330
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d990cb86fb1aa9f4f7f7fba43bed1a8be83647d1
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798272"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938065"
 ---
 # <a name="compliance"></a>Kompatibilität
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[d365fin](../includes/d365fin_md.md)].  

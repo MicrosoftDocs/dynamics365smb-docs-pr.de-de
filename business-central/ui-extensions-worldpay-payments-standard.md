@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ca48d31490446dd72c5d2f4997c5068a0acfd460
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a61fd494235a3c939822c423d4b0044ad0709e4d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798040"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935612"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Die WorldPay Payments Standard-Erweiterung
 Mit der WorldPay Payments Standard-Erweiterung bieten Sie Debitoren eine bequeme Alternative für das Anwenden von Zahlungen mithilfe von Banküberweisungen oder Kreditkarten. Aber nicht nur das, Zahlungen, die durch Zahlungsservices getätigt werden, sind üblicherweise schneller auf Ihrem Bankkonto.

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c7e80edfd796056176d37ad12a56c76e64bb44e6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798523"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932978"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
 
@@ -99,7 +99,7 @@ Setzen Sie ein `C` vor eine Datumsangabe, um anzugeben, dass es sich bei diesem 
 
 ### <a name="examples"></a>Beispiele
 
-Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Formate verwenden. Es nimmt Regionseinstellungen an, die Datumsangaben laut **year.month.day.** festlegen; eine Woche, die mit Montag beginnt und die englische Sprache.
+Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Formate verwenden. Es werden Regionseinstellungen angenommen, mit der die Uhrzeit wie folgt formatiert wird: **Tag.Monat.Jahr.**, eine Woche, die mit Montag beginnt und die englische Sprache.
 
 |**Eingabe**      |**Interpretation**      |
 |---------------|------------------------|

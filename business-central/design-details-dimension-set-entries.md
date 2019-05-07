@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5563241784aaf8bfa1a29f8568411be657647cf7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c6b66ecee87e1fd128733f541d46b97f44af0453
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798700"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935659"
 ---
 # <a name="design-details-dimension-set-entries"></a>Designdetails: Dimensionssatzposten
-Diese Dokumentation stellt einen detaillierten technischen Einblick in die Urheberrechtshinweise und Prinzipien bereit, die verwendet werden, um die Dimensionsposten-Einlagerungs- und Buchungsfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] neu zu gestalten. Die Dokumentation beginnt mit der Beschreibung der konzeptionellen Übersichten der Neugestaltung. Dann wird die technische Architektur erklärt, um zu zeigen, wie die Neugestaltung erstellt wird. Schließlich bietet sie Codebeispiele, die Sie für Dimensionscodemigration und -Upgrade vorbereiten.  
+Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien der Dimensionsposten-Einlagerungs- und Buchungsfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] dar. Die Dokumentation beginnt mit der Beschreibung der konzeptionellen Übersichten. Dann wird die technische Architektur erklärt. Schließlich bietet sie Codebeispiele, die Sie für Dimensionscodemigration und -Upgrade von Versionen vor Dynamics NAV 2013R2 vorbereiten.  
 
 ## <a name="in-this-section"></a>In diesem Abschnitt  
 [Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)  

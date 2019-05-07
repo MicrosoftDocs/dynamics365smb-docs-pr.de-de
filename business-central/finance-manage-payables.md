@@ -12,15 +12,15 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f7556b204403f0abdb6361a0e1650b90e58810e1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798233"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "931699"
 ---
 # <a name="managing-payables"></a>Verwalten von Verbindlichkeiten
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hat alles, was Sie brauchen, um Ihre Verbindlichkeiten effektiv zu verwalten.  

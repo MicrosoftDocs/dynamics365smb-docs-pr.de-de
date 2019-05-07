@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: edupont
-ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852079"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969832"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen.
@@ -27,7 +27,7 @@ Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden 
 > [!NOTE]
 > Sie können in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit RapidStart Services einen neuen Mandanten einrichten, einem Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen. Weitere Informationen finden Sie unter [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvorgänge können zusätzlich zur unterstützten Einrichtung auch manuell eingerichtet werden. Nachfolgend finden Sie eine Liste von Funktionalität, die Sie manuell einrichten können.
+Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvorgänge können zusätzlich zum Leitfaden der unterstützten Einrichtung auch manuell eingerichtet werden. Nachfolgend finden Sie eine Liste von Funktionalität, die Sie manuell einrichten können.
 
 | Aufgabe | Siehe |
 | --- | --- |
@@ -58,18 +58,18 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)] sind. Weitere Informationen finden Sie unter [Verwaltung](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Siehe auch
+
 [Verwaltung](admin-setup-and-administration.md)  
 [Finanzen](finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Lagerbest](inventory-manage-inventory.md)    
+[Lagerbestand](inventory-manage-inventory.md)  
 [Projektmanagement](projects-manage-projects.md)  
-[Anlagen](fa-manage.md)    
+[Anlagen](fa-manage.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Logistik](warehouse-manage-warehouse.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Verwaltung](admin-setup-and-administration.md)  
 [Neue Unternehmen anlegen in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Erste Schritte](product-get-started.md)  
 

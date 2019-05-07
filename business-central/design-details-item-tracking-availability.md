@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/15/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bbdda4378b20a50ef159f68c311fd49e68071504
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9bfbcb3cc65a162a04b6055f341d528810097494
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798592"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938614"
 ---
 # <a name="design-details-item-tracking-availability"></a>Designdetails: Artikelverfolgungsverfügbarkeit
 Die **Artikelverfolgungszeilen** und **Artikelverlaufs-Zusammenfassung**seiten stellen dynamische Verfügbarkeitsinformationen für Serien- oder Chargennummern bereit. Der Zweck besteht darin, die Transparenz für Benutzer bei ausgehenden Belegen, wie etwa Verkaufsaufträgen, zu erhöhen, indem ihnen gezeigt wird, welche Seriennummern oder wie viele Einheiten einer Charge derzeit auf anderen offenen Belegen zugewiesen sind. Dadurch wird die Ungewissheit reduziert, die durch doppelte Zuteilung entsteht und den Auftragsbearbeiter wird das Vertrauen vermittelt, dass die Artikelverfolgungsnummern und die Daten, die sie in nicht gebuchten Verkaufsaufträgen versprechen, erfüllt werden können. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgungszeilenseite](design-details-item-tracking-lines-window.md)  

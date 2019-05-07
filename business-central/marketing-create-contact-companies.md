@@ -10,28 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaeb98aa5e3c48a92be71546be33b1494a751cb9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798030"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938965"
 ---
-# <a name="creating-contacts"></a>Kontakte erstellen
-Ihr Unternehmen trifft regelmäßig mit anderen interessierten Unternehmen zusammen. Aus diesen Zusammentreffen ergeben sich in der Regel neue Geschäftsbeziehungen. Wird ein neuer Kontakt geknüpft, muss diese Information erfasst werden, um eine weitere Kommunikation zu ermöglichen.
+# <a name="create-contacts"></a>Kontakt erstellen
+Sie treffen regelmäßig Personen aus anderen Unternehmen, die ggf. zu Geschäftsbeziehungen wie einer Kundenbeziehung werden. Wenn solch ein neuer Kontakt geknüpft wird, müssen so viele Informationen wie möglich auf einer Kontaktkarte erfasst werden, um eine weitere Kommunikation zu ermöglichen.
 
-Für eine effiziente Kommunikation empfiehlt es sich, einem bestimmten Unternehmen möglichst viele Daten zuzuordnen. So wird beispielsweise durch Zuordnen der jeweiligen Branche sichergestellt, dass bestimmte Unternehmen in für sie relevante Kommunikation einbezogen werden. Darüber hinaus können Sie definieren, welche Geschäftsbeziehung mit einem Kontakt besteht. So kann es sich bei einem Kontakt beispielsweise um einen Interessenten, um eine Bank oder um einen Vertragsnehmer handeln.
+## <a name="person-or-company"></a>Person oder Unternehmen
+Sie können einen Kontakt als Person oder ein Unternehmen angeben, je nachdem, ob Sie den Namen der Kontaktperson zum Zeitpunkt der Erstellung kennen. Sie tun dies, wenn Sie das Feld **Art** auf der Seite **Kontaktkarte** ausfüllen. Außerdem können Sie Kontaktkarten für ein Unternehmen und mindestens eine dort arbeitende Person führen. Das erfolgt automatisch, wenn Sie das Feld **Unternehmensname** auf einer Kontaktkarte des Typs **Person** ausfüllen.
 
-> [!NOTE]
-> Im Feld **Art** auf der Seite **Kontaktkarte** können Sie einen Kontakt als Person oder ein Unternehmen angeben, je nachdem, ob Sie den Namen der Kontaktperson zum Zeitpunkt der Erstellung kennen. Funktionalität ist für beide Arten gleich, mit Ausnahme einiger zusätzlicher Informationstypen, die zugeordnet werden können. Sie können den Wert dieses Feld später ändern, oder Sie können die Felder im Inforegister **Übernahme** auf der Seite **Marketingeinrichtung** verwenden, um zu steuern, welche Daten zwischen einer Person und dem zugehörigen Unternehmen freigegeben werden.
-
-Sie können für jedes neue Unternehmen, mit dem Sie Geschäfte machen, einen Kontakt anlegen. Das können z. B. Debitoren, Kreditoren, Interessenten, Banken, Rechtsanwälte, Berater usw. sein.
-
-Es gibt zwei Wege, einen Kontakt zu erstellen:
- * Manuell.
- * Auf der Grundlage eines bestehenden Debitors, Kreditors oder Bankkontos.
+Die Funktionalität ist für beide Arten gleich, abgesehen davon, dass die Optionen für zusätzliche Informationen sich je nach Art ändern. Beispielsweise können Sie Verantwortlichkeiten nur einer Person und Branchengruppe nur einem Unternehmen zuweisen. Dieses wird in der Benutzeroberfläche angegeben, indem sich die Felder und Aktionen, die nicht angewendet werden können, ausgegraut werden. Sie können den Wert des Felds **Art** später ändern, oder Sie können die Felder im Inforegister **Übernahme** auf der Seite **Marketingeinrichtung** verwenden, um zu steuern, welche Daten zwischen einer Person und dem zugehörigen Unternehmen freigegeben werden. Weitere Informationen finden Sie unter [Einrichten von Kontakten](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>So werden Kontakte manuell erstellt:
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontakte** ein, und wählen dann den zugehörigen Link aus.

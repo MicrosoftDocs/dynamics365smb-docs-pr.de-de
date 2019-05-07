@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 59628d2c4b3714a55e833e091cce621a20811a43
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: ../../inventory-how-count-inventory-with-documents
+ms.openlocfilehash: a1fa8bd4b17eeb095ab5ae11c7e6e1cea74fb644
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826715"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935443"
 ---
 # <a name="analyze-physical-inventory-differences"></a>Vorgehensweise beim Analysieren von Inventurdifferenzen
 Nach Abschluss des Inventurauftrags können Sie die Inventurdifferenzen analysieren.  
@@ -43,4 +44,4 @@ Sie können die Differenzen auf der Seite "Statistik" anzeigen und als Bericht d
  [So schließen Sie einen Inventurauftrag ab](how-to-finish-a-physical-inventory-order.md)   
  [So buchen Sie physische Inventuraufträge](how-to-post-physical-inventory-orders.md)   
  [Inventurauftragszeilen mit Artikelverfolgungszeilen](physical-inventory-order-lines-with-item-tracking-lines.md)  
- [Erfassen, Regulieren und Umbuchen von Lagerbestand](../../inventory-how-count-adjust-reclassify.md)
+ 

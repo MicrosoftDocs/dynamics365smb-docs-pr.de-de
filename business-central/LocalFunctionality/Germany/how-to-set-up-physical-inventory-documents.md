@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 187917e4e40ca06a9973bb437e9556379509b0f9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: ../../inventory-how-count-inventory-with-documents
+ms.openlocfilehash: 58e002973529843f0c99c5c6ded1f00355861e68
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826729"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935277"
 ---
 # <a name="set-up-physical-inventory-documents"></a>Inventurbelege einrichten
 Bevor Sie mit Inventurbelegen und Inventurerfassungen arbeiten können, müssen einige Eigenschaften eingerichtet werden.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 7b6b4c31b19b85ae33eb3d4a8be0e2e3d5c14320
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798311"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934994"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetails: Ausgehender Lagerfluss
 Der ausgehende Fluss in das Lager beginnt mit einer Anforderung der freigegebenen Herkunftsbelege, die Artikel aus dem Lagerort B zu bringen, entweder, um an eine externe Partei oder an einen anderen Unternehmensstandort geliefert zu werden. Vom Lagerbereich werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel zu den Lieferdocks zu bringen.  

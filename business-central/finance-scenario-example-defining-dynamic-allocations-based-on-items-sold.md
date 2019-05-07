@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
-ms.openlocfilehash: 3103583c9781c283479c5f66e90f0e875faf46cc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 7219e1d56129da66e802aa0b4ea5df946dc34e04
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798513"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932856"
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Szenario-Beispiel: Definieren von dynamischen Zuteilungen auf der Basis der verkauften Artikel
 Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der Methode der dynamischen Verteilung. In dem Beispiel ändern Sie die dynamische Verteilung der Kosten für die VERKAUF-Kostenstelle, sodass der neue Kostenträger COMPUTERAUSSTATTUNG unterstützt wird. COMPUTERAUSSTATTUNG-Pakete haben Artikelnummern im Bereich von 8904-W bis 8924-W. Sie verwenden die Verkaufszahlen des Vorjahres, um den Anteil zu berechnen. Die Verteilung wird auf die helfende Kostenart 9903 gebucht.  

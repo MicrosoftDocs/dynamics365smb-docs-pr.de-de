@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: ac99a1ba63d2ff4f7d30049c5c1e4e45424da824
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9139855aa90aa0505f8735660d233475cc42bf91
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798578"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932810"
 ---
 # <a name="intelligent-cloud-base-extension"></a>Intelligente Cloud Base-Erweiterung
 

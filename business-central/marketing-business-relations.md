@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
-ms.openlocfilehash: cb600ea688a856f481d84604d6966231fe7f536d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ffeb19820b29453750ca9c03258d455dddff287c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798718"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941865"
 ---
 # <a name="setting-up-business-relations-on-contacts"></a>Einrichten von Geschäftsbeziehungen für Kontakte
 Sie können Geschäftsbeziehungen verwenden, um die Geschäftsbeziehung anzuzeigen, die Sie mit Ihren Kontakten haben wie z. B. Interessent, Bank, Berater und Dienstleister usw. pflegen.

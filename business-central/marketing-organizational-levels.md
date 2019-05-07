@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
-ms.openlocfilehash: be0bde09790c68730167709e1e82562a9a39c4e6
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 68f20af84652f684eaa0d69c98e0dc3cb722ee91
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798687"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "931338"
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Einrichten von Position für Kontaktpersonen
 Sie können Ihren Kontakten Positionen zuordnen, um zu bestimmen, welche Position sie innerhalb ihres Unternehmens innehaben (beispielsweise Topmanagement). Sie können diese Informationen nutzen, wenn Sie Informationen über Ihre Kontakte eingeben.

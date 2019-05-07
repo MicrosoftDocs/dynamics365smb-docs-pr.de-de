@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c1f8f0bf70a72944d216f2b948224cd9f706bdff
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798895"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934235"
 ---
 # <a name="update-standard-costs"></a>Standardkosten aktualisieren
 Sie müssen die festen Einstandspreise von Komponenten in regelmäßigen Abständen aktualisieren und die neuen Einstandspreise auf den übergeordneten Artikel übertragen. Der Prozess besteht in der Regel aus den folgenden vier Schritten:  
@@ -45,5 +45,5 @@ Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstands
 ## <a name="see-also"></a>Siehe auch  
  [Informationen zur Berechnung von festen Einstandspreisen](finance-about-calculating-standard-cost.md)   
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)   
- [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md) [Finance](finance.md)]  
+ [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md) [Finance](finance.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

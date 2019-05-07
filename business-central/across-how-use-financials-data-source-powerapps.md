@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5c07daf590fb87d318d2d3dc656e17838f23de8a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: be1f5c64cefdcd4cb9a14c0c2f1c559e426ce0f8
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799097"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938344"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Verknüpfung mit Business Central, um eine Geschäfts-App mithilfe PowerApps zu erstellen
 Sie können die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquelle in PowerApps bereitstellen.  

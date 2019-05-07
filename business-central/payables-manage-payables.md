@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 02/08/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 89678ee0055992a03d4f56ecedf15350f7ad348e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 77f985df6e2a921c93779629d2a4e0749e744e2a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798015"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937969"
 ---
 # <a name="managing-payables"></a>Verwalten von Verbindlichkeiten
 

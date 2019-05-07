@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/22/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7dc7fb43c465cc2098ceacb6f5906303fefd1f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 73cbd1f7a36e9493495464357117e28732cf5cd2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "797949"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935165"
 ---
 # <a name="create-bins"></a>Lagerplätze erstellen
 Die effektivste Art, die Lagerplätze Ihres Lagers zu erzeugen, ist, Gruppen von ähnlichen Lagerplätzen im Lagerplatz Erstellungsvorschlag zu erstellen, Sie können Ihre Lagerplätze jedoch auch individuell aus der erzeugen Lagerortkarte erzeugen. Sie können eine Funktion auf der Seite **Lagerplatz Erst.-Vorschlag** verwenden, um die Lagerplätze automatisch zu erstellen.  

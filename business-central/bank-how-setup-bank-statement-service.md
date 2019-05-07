@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ea1641dd475d28fb02dda354bbf287d508e96854
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799305"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941819"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Einrichten des Envestnet Yodlee Bank-Feed-Service
 Sie können elektronische Bankauszüge von Ihrer Bank importieren, um die Seite **Zahlungsabstimmungsbuch.-Blatt** schnell auszufüllen und so Zahlungen zu begleichen und das Bankkonto auszugleichen. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Der Bankfeeddienst Envestnet Yodlee wird als eine Erweiterung zum [!INCLUDE[d365fin](includes/d365fin_md.md)] eingerichtet und steht zur Aktivierung bereit. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-extensions.md) mithilfe der Erweiterungen .
-
 > [!NOTE]
-> Der Bank-Feeddienst Envestnet Yodlee wird nur in den USA, in das Kanada und in Großbritannien unterstützt.<br /><br />
-> Die Funktion wird nur in der Online-Version von Business Central unterstützt. Um diese Funktionalität lokal nutzen zu können, müssen Sie ein Co-Brand-Konto von Envestnet Yodlee erhalten.
+> Der Bank-Feeddienst Envestnet Yodlee wird nur in der Onlineversion von Business Central unterstützt. Um diese Funktionalität lokal nutzen zu können, müssen Sie ein Co-Brand-Konto von Envestnet Yodlee erhalten.<br /><br />
+> Der Bank-Feeddienst Envestnet Yodlee wird nur in den USA, in das Kanada und in Großbritannien unterstützt.
+
+Der Bankfeeddienst Envestnet Yodlee wird als eine Erweiterung zum [!INCLUDE[d365fin](includes/d365fin_md.md)] online eingerichtet und steht zur Aktivierung in den unterstützten Ländern bereit. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-extensions.md) mithilfe der Erweiterungen .
 
 Wenn Sie den Bankfeeddienst aktiviert haben, müssen Sie das beteiligte Bankkonto mit dem Onlinebankkonto verknüpfen, von dem der Feed stammt. In den folgenden unterschiedlichen Szenarios verknüpfen Sie Bankkonten mit Onlinebankkonten:
 
@@ -38,7 +38,7 @@ Wenn Sie den Bankfeeddienst aktiviert haben, müssen Sie das beteiligte Bankkont
 Wenn der Bankfeeddienst aktiviert ist, können Sie ein Bankkonto so einrichten, dass automatisch alle zwei Stunden neue Bankauszüge in die Seite **Zahlungsabstimmungsbuch.-Blatt** importiert werden. Transaktionen für Zahlungen, die bereits als ausgeführt und/oder abgestimmt auf der Seite **Zahlungsabstimmungsbuch.-Blatt** gebucht wurden, werden nicht importiert. Weitere Informationen finden Sie im Abschnitt “So aktivieren Sie das automatische Importieren von Bankauszügen”.
 
 > [!NOTE]  
-> Wenn Sie die unterstützte Einrichtung über "Unternehmen einrichten" verwenden, werden einige der folgenden Schritte automatisch beim Einrichten von Unternehmensbankkonten ausgeführt. Weitere Informationen finden Sie unter [Erste Schritte](product-get-started.md).
+> Wenn Sie den Leitfaden für das unterstützt Setup über "Unternehmen einrichten" verwenden, werden einige der folgenden Schritte automatisch beim Einrichten von Unternehmensbankkonten ausgeführt. Weitere Informationen finden Sie unter [Erste Schritte](product-get-started.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>So aktivieren Sie den Bankfeeddienst
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Bankkonten** ein, und wählen dann den zugehörigen Link aus.

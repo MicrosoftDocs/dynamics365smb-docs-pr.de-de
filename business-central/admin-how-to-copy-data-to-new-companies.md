@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: daf11bb8f219367506cff4fff46caa4f75ec6c86
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799216"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938988"
 ---
 # <a name="copy-data-to-new-companies"></a>So kopieren Sie Daten in neue Mandanten.
 Sie können häufig verwendete Werte aus einem vorhandenen Mandanten in einen neuen kopieren, solange sich beide Mandanten in derselben Datenbank befinden. Wenn Sie beispielsweise über eine Standardliste von Symptomcodes verfügen, die allen Ihren Servicemanagementimplementierungen gemein ist, können Sie die Codes problemlos aus einem Mandanten in einen anderen kopieren.  

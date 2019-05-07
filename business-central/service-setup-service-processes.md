@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 31817c277df03a774145ac308d2cc1cf128bfce0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b640443093b137ce3b5afe264185cf75ab0478c3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799341"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930084"
 ---
 # <a name="configure-service-processes"></a>Konfigurieren von Serviceprozessen
 Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anwenden können:  

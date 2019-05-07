@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3b4b4a6d544b594f439b675b88176d942d8cf325
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f7c959a44a7b27df464ce8a4c45567d036dc137f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798796"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941421"
 ---
 # <a name="use-approval-workflows"></a>Artikelgenehmigungsworkflow verwenden
 Wenn ein Datensatz, wie ein Einkaufsbeleg oder eine Debitorenkarte, von einer Person in Ihrer Organisation genehmigt werden muss, senden Sie eine Genehmigungsanforderung als Teil eines Workflows. Je nachdem, wie der Workflow eingerichtet ist, wird der entsprechende Genehmiger dann benachrichtigt, dass der Datensatz genehmigt werden muss.
@@ -25,7 +25,7 @@ Sie richten Genehmigungsworkflows auf der Seite **Workflow** ein. Weitere Inform
 
 Neben der Genehmigung von Workflows, wie in diesem Thema beschrieben, können Sie auch verschiedene andere Aufgaben für Workflows ausführen. Weitere Informationen erhalten Sie unter [Workflows verwenden](across-use-workflows.md).
 
-Wesentliche Genehmigungsworkflows für Einkaufsbelege, Verkaufsbelege, Zahlungsausgangs Buch.-Blätter, Debitorenkarten und Artikelkarten können als unterstützte Einrichtung gestartet werden. Weitere Informationen finden Sie unter [Erste Schritte](product-get-started.md).
+Wesentliche Genehmigungsworkflows für Einkaufsbelege, Verkaufsbelege, Zahlungsausgangs Buch.-Blätter, Debitorenkarten und Artikelkarten können als Leitfaden gestartet werden. Weitere Informationen finden Sie unter [Erste Schritte](product-get-started.md).
 
 ## <a name="to-request-approval-of-a-record"></a>So fordern Sie die Genehmigung eines Datensatzes an
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer ausgeführt.

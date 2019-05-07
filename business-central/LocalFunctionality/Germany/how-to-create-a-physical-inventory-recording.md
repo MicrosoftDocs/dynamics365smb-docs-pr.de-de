@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bfe6bfd24626599ef58eef9912198f8bdc229dcb
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: ../../inventory-how-count-inventory-with-documents
+ms.openlocfilehash: d46e5fa0f80cc5df4f6bd296282a780e7e45d97b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826722"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935059"
 ---
 # <a name="create-a-physical-inventory-recording"></a>So erstellen Sie eine physische Inventurerfassung
 Nachdem Sie einen Inventurauftrag und die zugehörigen Zeilen erstellt haben, können Sie eine neue Inventurauftragserfassung für diese Inventur erstellen.  

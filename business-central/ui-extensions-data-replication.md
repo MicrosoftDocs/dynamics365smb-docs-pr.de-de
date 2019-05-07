@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/17/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 1d4bea462879d49f02c6fa6d8b4a83365d5149a3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dee16082a43c1e38886ba0aec4409c52ffbd3c05
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798555"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941230"
 ---
 # <a name="business-central-intelligent-cloud-extensions"></a>Intelligente Cloud-Erweiterungen von Business Central
 

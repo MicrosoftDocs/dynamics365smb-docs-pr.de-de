@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799066"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935803"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Die Erweiterung "Vorhersage verspäteter Zahlungen"  
 Die effektive Verwaltung von Forderungen ist für den Gesamtfinanzstatus eines Unternehmens wichtig. Die Erweiterung "Vorhersage verspäteter Zahlungen" kann nützlich sein, um ausstehende Forderungen zu reduzieren und die Sammlungsstrategie abzustimmen, die voraussagt, ob Verkaufsrechnungen pünktlich bezahlt werden. Wenn beispielsweise vorausgesagt wird, dass eine Zahlung zu spät erfolgen wird, können Sie sich entschieden, die Zahlungsfristen oder die Zahlungsform für den Debitor anzupassen.
@@ -55,7 +55,7 @@ On the **Late Payment Prediction Setup** page you can schedule updates to paymen
 ## <a name="building-your-own-predictive-model"></a>Erstellen Ihres eigenen Vorhersagemodells
 Möchten Sie Ihr eigenes Vorhersagemodell erstellen? Sie können Azure Machine Learning Studio verwenden, um Ihr eigenes Vorhersagemodell zu erstellen und es in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden. Um Ihr eigenes Modell zu verwenden, müssen Sie Azure Machine Learning abonnieren. Weitere Informationen finden Sie in der [Azure Machine Learning Studio-Dokumentation](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-Wir bieten jedoch eine einfachere Methode zur Erstellung und Verwendung Ihres eigenen Vorhersagemodells an. Sie können die Daten Ihrer Rechnungen für unser Vorhersageexperiment in Azure Machine Learning freigeben und von unserem Experiment ein Vorhersagemodell basierend auf Ihren Daten erstellen und schulen lassen. Um Ihre Daten auf der Seite **Einrichtung der Vorhersage verspäteter Zahlungen** freizugeben, wählen Sie die Aktion **Mein Modell erstellen** aus. Danach basieren Vorhersagen auf Ihrem Modell und Ihren Daten, nicht unseren.  
+Wir bieten jedoch eine einfachere Methode zur Erstellung und Verwendung Ihres eigenen Vorhersagemodells an. Sie können die Daten Ihrer Rechnungen für unser [Vorhersageexperiment für Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) in Azure Machine Learning freigeben und von unserem Experiment ein Vorhersagemodell basierend auf Ihren Daten erstellen und schulen lassen. Um Ihre Daten auf der Seite **Einrichtung der Vorhersage verspäteter Zahlungen** freizugeben, wählen Sie die Aktion **Mein Modell erstellen** aus. Danach basieren Vorhersagen auf Ihrem Modell und Ihren Daten, nicht unseren.  
 
 > [!Note]
 >   Die Qualität des Modells ist wichtig. Wenn unser Vorhersageexperiment Ihre Daten verwendet, um ein Modell zu schulen, wird ein Qualitätswert für das Modell als Prozentzahl bestimmt. Die Modellqualität gibt an, wie genau die Vorhersagen des Modells wahrscheinlich sind. Einige Faktoren können sich auf die Qualität eines Modells auswirken. Beispielsweise lagen nicht genug Daten vor oder die Daten boten nicht genug Varianz. Sie können die Qualität des Modells, das Sie aktuell verwenden auf der Seite **Einrichtung der Vorhersage verspäteter Zahlungen** anzeigen. Sie können auch einen Mindestschwellenwert für die Modellqualität angeben. Modelle mit einem Qualitätswert unter dem Schwellenwerts erzeugen keine Vorhersagen.  

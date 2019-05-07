@@ -11,14 +11,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d20f5195061df3b179d791a03f25b4cbe336baa3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: bf3a9c6b3869ab510376939b48b7452f03cdd4af
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826772"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932923"
 ---
 # <a name="elster-transmission-overview"></a>ELSTER-Übermittlung – Übersicht
 Wenn ein Benutzer eine Umsatzsteuervoranmeldung von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] an das Onlineportal „Elektronische Steuererklärungen (ELSTER)” übermittelt, verarbeitet die Microsoft.Dynamics.ElsterTransferHandler-Assembly das Dokument und übermittelt es dann an ELSTER. Im nächsten Abschnitt werden technische Aspekte der Übermittlung von Dokumenten an ELSTER beschrieben.  

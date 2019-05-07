@@ -1,34 +1,36 @@
 ---
 title: Suchen nach Funktionen und Informationen | Microsoft Docs
-description: In diesem Thema wird beschrieben, wie Sie mit der Suche nach Aktionen, Seiten, Berichten, Dokumentation und Daten suchen können.
-author: SusanneWindfeldPedersen
+description: Dieses Thema beschreibt, wie Sie die Suche verwenden, um Aktionen, Seiten, Berichte, Dokumentation und Daten sowie andere Apps und Beratungsdienste zu finden.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d260f7cf5db0bbd7c70320d0bd1d33ee29650616
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 309146e68abe91a89f761be0957ae27718ee2a0d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798858"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934419"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Verwenden von „Wie möchten Sie weiter verfahren“ bei der Suche nach Funktionen und Informationen  
-In diesem Thema werden verschiedene Möglichkeiten beschrieben, wie Sie mit „Wie möchten Sie weiter verfahren“ schnell eine Aktion, eine Seite oder einen Bericht finden oder erfahren, wie Sie etwas in [!INCLUDE[d365fin](includes/d365fin_md.md)] durchführen können, wenn Sie nicht sicher sind.  
+In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahren“ schnell zu Aktionen, Seiten oder Berichten navigieren, Informationen zum Abschluss einer bestimmten Aufgabe finden und zusätzliche Apps und Beratungsdienste für [!INCLUDE[d365fin](includes/d365fin_md.md)] zu ermitteln.  
+  
 
-> [!VIDEO https://www.youtube.com/embed/W8egYiS445o]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-## <a name="find-pages-reports-actions-and-documentation"></a>Suchen von Seiten, Berichten, Aktionen und Dokumentation 
-Wenn Sie bei der Suche nach eine Seite, einem Bericht, einem Artikel in unserer Dokumentation oder einer Aktion auf einer geöffneten Seite benötigen, verwenden Sie das ![Wie möchten Sie weiter verfahren](media/ui-search/search.png "Nach Seite oder Bericht suchen") **Wie möchten Sie weiter verfahren**-Symbol, um über den Namen danach zu suchen. Sie können „Wie möchten Sie weiter verfahren“ auch über ALT+Q starten.
+Wenn Sie Hilfe bei der Suche benötigen, verwenden Sie das Symbol ![Wie möchten Sie weiter verfahren](media/ui-search/search.png "Nach Seite oder Bericht suchen") **Wie möchten Sie weiter verfahren**, um danach zu suchen. Sie können „Wie möchten Sie weiter verfahren“ auch über ALT+Q starten.
 
-Sobald Sie Zeichen eingeben, zeigt [!INCLUDE[d365fin](includes/d365fin_md.md)] sofort Treffer in einer Dropdownliste an. Ergebnisse in der Liste ändern sich, wenn Sie weitere Zeichen eingeben. Die zweite Spalte in der Dropdownliste gibt die allgemeine Kategorie des Ergebnisses an.   
+Sobald Sie Zeichen eingeben, zeigt [!INCLUDE[d365fin](includes/d365fin_md.md)] sofort Treffer an. Ergebnisse in der Liste ändern sich, wenn Sie weitere Zeichen eingeben. Wenn Sie bemerken, dass bei der Eingabe des Wortes "Produkt" auch Ergebnisse wie "Artikel" angezeigt werden, liegt das daran, dass "Wie möchten Sie weiter verfahren" Synonyme und alternative Suchbegriffe verwendet, um die Suche nach Aktionen, Seiten und Berichten zu vereinfachen. 
+
+Die Spalte rechts gibt die allgemeine Kategorie des Ergebnisses an. Beispielsweise, ob es eine Listenseite oder eine Verwaltungsaufgabe ist.  
 
 > [!NOTE]  
->   Wenn Sie auf Ihrer Tastatur auf **Eingabe** drücken, öffnet [!INCLUDE[d365fin](includes/d365fin_md.md)] das Ergebnis, das zuerst aufgeführt wird. Wenn Sie Ihre Tastatur vorziehen, nutzen Sie die TAB-TASTE und die Pfeiltasten, um ein Element in den Ergebnissen auszuwählen.
+>   Wenn Sie Ihre Tastatur vorziehen, nutzen Sie die TAB-TASTE und die Pfeiltasten, um ein Element in den Ergebnissen auszuwählen. Wenn Sie auf Ihrer Tastatur auf **Eingabe** drücken, ohne auf ein Ergebnis zu wählen, öffnet [!INCLUDE[d365fin](includes/d365fin_md.md)] das Ergebnis, das zuerst aufgeführt wird.
 
 ### <a name="find-an-action-on-the-current-page"></a>Suchen nach einer Aktion für der aktuelle Seite
 Im Abschnitt **Auf aktueller Seite** können Sie Aktionen auf der geöffneten Seite suchen und ausfüllen. Wenn beispielsweise die Verkaufsangebotsseite geöffnet ist und Sie "Debitor" eingeben, umfasst der Abschnitt eine Aktion, mit der die Debitorenkarte für den Debitor geöffnet wird, der im Verkaufsangebot ausgewählt ist. 
@@ -47,6 +49,9 @@ Unter **Dokumentation** werden Artikel aus der [!INCLUDE[d365fin](includes/d365f
 
 > [!NOTE]  
 >   Dokumentation für Drittanbietererweiterungen ist in den Ergebnissen nicht enthalten. 
+
+### <a name="get-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Erhalten Sie mehr Funktionen, indem Sie eine App auf Microsoft AppSource suchen
+Unsere Partner Community entwickelt laufend Apps, die Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzufügen. Der Abschnitt **Aus Microsoft AppSource herunterladen** führt Apps für [!INCLUDE[d365fin](includes/d365fin_md.md)] auf, die auf Microsoft AppSource verfügbar und sind und mit dem Suchwort zusammenhängen, das Sie eingegeben haben.
 
 ## <a name="searching-for-data"></a>Suchen nach Daten
 Die Funktion **Wie möchten Sie weiter verfahren** sucht nicht nach Daten wie Debitorennamen, Adressen oder Transaktionen. Stattdessen können Sie nach Daten in den Listenseiten suchen, indem Sie die ![Suchliste](media/ui-search/search-list.png "Suchlistensymbol") **Such**-Symbol in der linken Ecke des Listenkopfes auswählen. Die Suche trifft nur auf die Liste zu, die Sie anzeigen. Weitere Informationen finden Sie unter [Sortieren, Suchen und Filtern von Listen](ui-enter-criteria-filters.md).

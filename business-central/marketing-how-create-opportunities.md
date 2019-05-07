@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 50b61129a6684cda7a6cb20f4bfb3cf44dcad7cf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798727"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "936505"
 ---
 # <a name="create-sales-opportunities"></a>Verkaufschancen erstellen
 Sie können Chancen für die Verkaufschancen erstellen, die Sie bei Ihren Kontakten haben. Alle Verkaufschancen müssen einem Verkäufer oder Einkäufer zugeordnet sein und einen Kontakt haben.

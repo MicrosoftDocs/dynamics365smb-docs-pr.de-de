@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 01/18/2019
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 24fad5d816260764a3eb2c476e5bff86268790a1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 442d16561321acc552a2cf39a1659d763e6f319a
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798505"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939554"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Aufstellung Cashflow-Analyse
 Wenn Sie etwas Unterstützung benötigen, was Sie mit Ihrem Barkonto zu tun sollen, schauen Sie sich das Diagramm im Buchhalter-Rollencenter an:  
@@ -84,7 +84,7 @@ Um einen manuellen Vorgang zu verwenden:
 Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem **Prognosemodell für Microsoft Business Central**. Dieses vorhersagende Modell ist online im Cortana Intelligence-Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermaßen vor:  
 
 1. Öffnen Sie einen Browser und gehen Sie zum [Cortana Intelligence-Katalog](https://go.microsoft.com/fwlink/?linkid=828352)  
-2. Suchen Sie nach dem **Vorhersagemodell für Microsoft  Business Central** und öffnen Sie dann das Modell im Azure Machine Learning Studio.  
+2. Suchen Sie nach dem **Vorhersagemodell für Microsoft Business Central** und öffnen Sie dann das Modell im Azure Machine Learning Studio.  
 3. Verwenden Sie das Microsoft-Konto, um sich für einen Arbeitsbereich anzumelden und kopieren Sie dann das Muster.  
 4. Führen Sie die Vorlage aus und veröffentlichen Sie dieses als Webdienst.  
 5. Notieren Sie den API URL und den API Schlüssel. Sie verwenden diese Anmeldeinformationen für die Cashfloweinrichtung.  

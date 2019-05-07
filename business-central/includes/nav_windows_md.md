@@ -1,0 +1,1 @@
+Dynamics NAV-Client mit Business Central verbunden

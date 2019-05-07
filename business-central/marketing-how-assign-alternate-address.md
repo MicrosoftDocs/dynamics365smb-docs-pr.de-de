@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
-ms.openlocfilehash: d069a22603a969220a62e2c7458cb6259cfbc630
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 22530c8e1bd3f148f5f158e6210668020c24d387
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798212"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941562"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Einrichten einer alternativen Adresse für einen Kontakt
 Sie können Ihren Kontakten alternative Adressen zuordnen, an die Sie manchmal Post und Informationen senden, zum Beispiel an die Urlaubsadresse. Sie können jeder alternativen Adresse einen oder mehrere Datumsbereiche zuordnen, um festzulegen, wann diese Adresse gültig ist.

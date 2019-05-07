@@ -11,14 +11,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 18570e4a0521da27eaf9b0ffa5dd301b07bcfe69
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 45b7e26981eeab8d9ad79229cfde8fe758be51ed
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826695"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939195"
 ---
 # <a name="electronic-submission-of-sales-vat-advance-notifications-to-elster"></a>Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie Steuerbelege und MwSt.-Abrechnungen, wie die Umsatzsteuervoranmeldung, an das Finanzamt elektronisch übermitteln.  
@@ -69,7 +69,7 @@ Sie müssen alle relevanten Formatvorlagen herunterladen, die die Finanzämter z
 Weitere Informationen finden Sie unter [ELSTER-Onlineportal](https://go.microsoft.com/fwlink/?LinkId=155998)  
 
 ## <a name="transmissions"></a>Übermittlungen  
-Auf der Seite **MwSt-Voranmeldungsübersicht**” können Sie Mehrwertsteuerrvoranmeldungen erstellen und senden. Wenn Sie ein Dokument erstellen, können Sie dieses in der Vorschau anzeigen, bevor Sie es an das ELSTER-Portal senden. Die Dokumente, die erstellt werden, basieren auf den XML-Formatvorlagen, die im ELSTER-Portal veröffentlicht werden, und auf dem Zertifikat und anderen Informationen, die Sie in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eingerichtet haben .  
+Auf der Seite **MwSt-Voranmeldungsübersicht** können Sie Mehrwertsteuerrvoranmeldungen erstellen und senden. Wenn Sie ein Dokument erstellen, können Sie dieses in der Vorschau anzeigen, bevor Sie es an das ELSTER-Portal senden. Die Dokumente, die erstellt werden, basieren auf den XML-Formatvorlagen, die im ELSTER-Portal veröffentlicht werden, und auf dem Zertifikat und anderen Informationen, die Sie in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eingerichtet haben .  
 
 Nachdem Sie ein Dokument an ELSTER gesendet haben, wird ein Eintrag auf der Seite **MwSt.-Übertragungsprotokollposten** vorgenommen. Wenn das ELSTER-Onlineportal das übertragene Dokument verarbeitet hat, können Fehler auftreten und  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zeigt eine Fehlermeldung an, die auf dem Fehlercode aus ELSTER basiert. In den meisten Fällen wird der Fehler durch Probleme mit dem benutzerspezifischen Zertifikat oder der Netzwerkkonnektivität verursacht. Weitere Informationen finden Sie unter [Fehlermeldungen des ElsterTransferHandler und ELSTER-Übertragungsüberblick](error-messages-of-the-elstertransferhandler.md).
 

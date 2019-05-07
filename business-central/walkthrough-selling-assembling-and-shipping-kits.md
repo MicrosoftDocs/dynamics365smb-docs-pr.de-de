@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/31/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: b717de6bcefc774b3fb92ed440cde9f3597f34ce
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852700"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929745"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
 
@@ -106,7 +106,7 @@ Entfernen Sie die Standard-Beschaffungszeit für interne Vorgänge, indem Sie di
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Produktion Einrichtung** ein, und wählen dann den zugehörigen Link aus.  
 2.  Auf der Seite **Produktion Einrichtung** im Inforegister **Planung**, löschen Sie den Wert im Feld **Vorg. Sich.-Zuschl. Besch.-Zt.** Feld.  
 
-Erstellen Sie Bestand für Montagekomponenten, indem Sie die Anweisungen in [Vorbereiten von Beispieldaten](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data) befolgen.  
+Erstellen Sie Bestand für Montagekomponenten, indem Sie die Anweisungen in [Vorbereiten von Beispieldaten](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data) befolgen.  
 
 ## <a name="story"></a>Hintergrund  
 Am 23. Januar akzeptiert Martha, die Verkaufsauftragsverarbeiterin, einen Auftrag von The Device Shop für drei Einheiten von Kit B, wobei es sich um einen ATO-Artikel handelt. Alle drei Einheiten werden individuell angepasst und müssen eine leistungsstarke Grafikkarte und einen zusätzlichen RAM-Block enthalten. Die Laufwerke werden auf DWD aktualisiert, da die CD-Laufwerke nicht verfügbar sind. Martha weiß, dass die Einheiten sofort montiert werden können, sie lässt daher das vorgeschlagene Lieferdatum vom 23. Januar unverändert.  

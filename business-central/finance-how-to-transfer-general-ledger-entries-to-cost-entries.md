@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/13/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
-ms.openlocfilehash: 273a8c4341f621710819fd5fbc5cb8ce579c86f5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a33fb434cc239de951d18783911c879587a3ace0
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799117"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939034"
 ---
 # <a name="transfer-general-ledger-entries-to-cost-entries"></a>So übertragen Sie Sachposten in Kostenposten
 Sie können Sachposten in Kostenposten übertragen.  

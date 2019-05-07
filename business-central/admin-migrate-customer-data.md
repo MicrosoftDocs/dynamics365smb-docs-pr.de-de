@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "797929"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "953510"
 ---
 # <a name="migrate-customer-data"></a>Migrieren von Debitorendaten
 Sie können vorhandenen Debitorendaten aus einem vorhandenen ERP-System zu [!INCLUDE[d365fin](includes/d365fin_md.md)] migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben.
@@ -101,7 +101,7 @@ In den Verfahren, die folgen, sollten Sie im Voraus überprüfen, welche Werte S
 5. Geben Sie im Feld **Alter Wert** den Wert ein, den Sie ändern wollen. Geben Sie im Feld **Neuer Wert** den Wert ein, auf den Sie den alten Wert ändern wollen. Wählen Sie die Schaltfläche **OK** aus.  
 6. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data).
 7. Prüfen Sie im Feld **Anzahl der Paketfehler**, ob Fehler gemeldet wurden. Ist dies der Fall, führen Sie Drilldown einen durch, um die Fehler anzuzeigen. Die Seite **Paketdatensätze konfig.** wird geöffnet.
-8. Wählen Sie die Aktion **Fehler anzeigen** aus. Sie erhalten den folgenden Fehler: **<option> ist keine gültige Option. Gültige Optionen sind <valid option list>**. Wählen Sie die Schaltfläche **OK** aus.  
+8. Wählen Sie die Aktion **Fehler anzeigen** aus. Sie erhalten den folgenden Fehler: **XX ist keine gültige Option. Gültige Optionen sind: XX**. Wählen Sie die Schaltfläche **OK** aus.  
 9. Um die Karte zu übernehmen die Sie eingerichtet haben, aktivieren Sie die **Daten übernehmen** Aktion.  
 
 ### <a name="mapping-example"></a>Zuordnungs-Beispiel  
@@ -153,7 +153,11 @@ Nachdem die Debitorendaten in die Excel-Dateien für die Datenmigration eingegeb
 
 1. Öffnen Sie die Seite **Konfigurationspaketkarte**.
 2. Wählen Sie die Tabelle, für die Sie Werte importieren möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Von Excel importieren** aus.
-3. Suchen und öffnen Sie die Datei, aus der Sie Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] importieren wollen.
+3. Suchen und öffnen Sie die Datei, aus der Sie Daten importieren möchten.
+4. Auf der Seite **Vorschau des Konfigurationspaketimports** überprüfen Sie den Inhalt, der importiert wird.
+
+    Die Seite **Vorschau des Konfigurationspaketimports** bietet einen Überblick über den Excel-Dateiinhalt, der importiert werden soll. Außerdem wird angegeben, wenn ein neues Paket erstellt oder das vorhandene aktualisiert wird und wenn neue Konfigurationspaketpositionen (Tabellen) erstellt oder vorhandene aktualisiert werden.    
+5. Wählen Sie die Aktion **Importieren** aus
 
 Daten aus der Datei werden in die Konfigurationspakettabellen importiert. Sie können die Anzahl der Datenbanksätzen anzeigen, die im Feld **Anzahl Datenbanksätze** importiert wurden. Darüber hinaus können Sie die Anzahl der Migrationsfehler sehen.
 

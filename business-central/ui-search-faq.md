@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798954"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937581"
 ---
 # <a name="tell-me-faq"></a>Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“
 In diesem Thema werden Fragen beantwortet, die unsere fortgeschrittenen Benutzer häufig zur Funktion „Wie möchten Sie weiter verfahren“ stellen. Diese Funktion hat die vorherige Seitensuchfunktion ersetzt, die als **Seiten und Bereichte finden** bekannt ist.
@@ -33,7 +33,7 @@ Aktionen, Seiten und Berichte, die aus Erweiterungen stammen, werden von „Wie 
 Die Seitensuche wurde zu „Wie möchten Sie weiter verfahren“ weiterentwickelt, damit Sie schneller arbeiten können. Die Seitensuche konnte Ihnen nur bei der Navigation in Seiten oder Berichten helfen. Auf technischer Ebene basiert „Wie möchten Sie weiter verfahren“ nicht mehr auf dem vorherigen MenuSuite-Konzept.
 
 ### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>Ich verwende [!INCLUDE[d365fin](includes/d365fin_md.md)] lokal. Schließt das „Wie möchten Sie weiter verfahren“ ein?
-Sie können „Wie möchten Sie weiter verfahren“ mit dem lokalen Webclient verwenden, um nach Aktionen, Seiten und Berichten zu suchen, aber nicht nach Dokumentation. Benutzer, die vom Dynamics NAV-Client eine Verbindung mit [!INCLUDE[d365fin](includes/d365fin_md.md)] herstellen, nutzen weiterhin die Seitensuche.
+Sie können „Wie möchten Sie weiter verfahren“ mit dem lokalen Webclient verwenden, um nach Aktionen, Seiten und Berichten zu suchen, aber nicht nach Dokumentation oder Apps und Beratungsdiensten auf AppSource. Benutzer, die vom Dynamics NAV-Client eine Verbindung mit [!INCLUDE[d365fin](includes/d365fin_md.md)] herstellen, nutzen weiterhin die Seitensuche.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Ist „Wie möchten Sie weiter verfahren“ für alle Formularfaktoren verfügbar?
 „Wie möchten Sie weiter verfahren“ ist nur im Webclient oder der Windows-Desktop-App verfügbar.

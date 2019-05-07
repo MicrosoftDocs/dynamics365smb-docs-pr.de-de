@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/13/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca6f16a22c3eb84584e8e522a15eadac6b21ca6a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: bd5cb9d4676f2aac47e14d6795f1820a66522b38
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798425"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941842"
 ---
 # <a name="setting-up-cost-accounting"></a>Einrichten der Kostenrechnung
 Bevor Sie die Arbeit mit der Kostenrechnung beginnen können, müssen Sie Einrichtungsaufgaben ausführen.

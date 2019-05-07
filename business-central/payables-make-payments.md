@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 02/08/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f2ff92af7dbf6c751cde795d3546d90c8d76a62b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4ece210d5dd8f7748b6c7031bb0fedf571b61c9c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798261"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "990105"
 ---
 # <a name="making-payments"></a>Zahlungen vornehmen
 
@@ -37,7 +37,6 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Buchen Sie Zahlungen an Kreditoren oder Mitarbeiter und Erstattungen an Debitoren und wenden Sie optional die Zahlungen für die verwandten unbezahlten Rechnungen/Gutschriften an, um sie als bezahlt abzuschließen.|[Zahlungsbelege und Erstattungen](payables-how-post-payments-refunds.md)|
 | Verwenden Sie die Funktion auf der Seite **Kreditorenzahlungen** um Kriterien, wie Fälligkeitsdatum, Skontoeignung und Ihrer Liquidität vorzuschlagen. |[Zahlungsvorschlag](payables-how-suggest-vendor-payments.md) |
 | Stellen Sie Schecks für Zahlungen entweder als Ausdruck oder als Computer Schecks aus. Annullieren Sie Schecks vor oder nach dem Buchen. |[Zahlung per Scheck machen](payables-how-work-checks.md) |
-|Machen Sie elektronische Zahlungen, indem Sie  zur Zahlungen in eine Bankdatei exportieren, die Sie für Ihre Bank zum Verarbeiten hochgeladen haen, einschließlich EFT (elektronischer Geldtransfer) in Nordamerika. |[Elektronische Zahlungen machen ](payables-how-export-payments-bank-file.md)|
 |Erstellen von elektronischen Zahlungen entsprechend dem Banküberweisungsstandard EU SEPA.|[Nehmen Sie Zahlungen mit dem Bank-Datenkonvertierungs-Service- oder einer SEPA-Banküberweisung vor](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Bezahlen Sie einen Kreditor bar oder mit Scheck und buchen Sie die Zahlung, wenn Sie die Rechnung buchen. |[Einkaufsrechnungen sofort ausgleichen](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Um sicherzustellen, dass Ihre Bank nur Schecks und Beträge freigibt, können Sie ihr eine Datei senden, die die Daten für Kreditoren, Schecks und Zahlungsinformationen enthält. |[Um eine Positive Pay-Datei zu exportieren](finance-how-positive-pay.md) |

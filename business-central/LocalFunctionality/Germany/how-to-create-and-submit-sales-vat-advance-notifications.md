@@ -11,14 +11,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8c231c5f0ec4baaee3ffca54beb65968158459a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e8756130644620fcc37b441514b3ce963520a357
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826687"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932898"
 ---
 # <a name="create-and-submit-sales-vat-advance-notifications"></a>Gewusst wie: Erstellen und Senden von Umsatzsteuervoranmeldungen
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie die Umsatzsteuervoranmeldungsdatei elektronisch an das ELSTER-Portal übermitteln. Sie können die Umsatzsteuervoranmeldungsdatei elektronisch an das Finanzamt übertragen, nachdem Sie den errechneten Steuerbetrag und die Bemessungsgrundlage geprüft haben.  

@@ -4,18 +4,16 @@ description: Antworten auf häufig gestellte Fragen zu Suche und Filter.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: mikebc
-ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852056"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969855"
 ---
 # <a name="searching-and-filtering-faq"></a>Suchen und Filtern – FAQs
 In diesem Artikel finden Sie Antworten auf allgemeine Fragen, die Sie möglicherweise über das Suchen und Filtern haben.
@@ -36,7 +34,10 @@ Der Filterbereich ist in Bildschirmen verfügbar, in denen die Liste der primär
 Ihre Filter und Änderungen an vordefinierten Filtern werden während der Sitzung beibehalten (solange Sie angemeldet bleiben), auch wenn Sie die Seite verlassen. Es ist derzeit nicht möglich, Filter permanent zu speichern. Anders als bei Filtern, bleibt Suchtext nicht erhalten, wenn Sie die Seite verlassen.
 
 ## <a name="is-this-the-same-as-advanced-filters-and-limit-totals-in-microsoft-dynamics-nav"></a>Gleicht diese Funktion der erweiterten Filter und "Summenberechnung einschränken" in Microsoft Dynamics NAV?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] baut auf diesen gängigen Funktionen auf und bietet eine moderne und als nutzbare Oberfläche für die Suche und das Analysieren Ihrer Daten. Dank weiterer Tastenkombinationen und der Einführung der Suche [!INCLUDE[d365fin](includes/d365fin_md.md)] übertrifft die Funktionalität, die in Dynamics NAV bereitgestellt wird.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] baut auf diesen gängigen Funktionen auf und bietet eine moderne und als nutzbare Oberfläche für die Suche und das Analysieren Ihrer Daten. Dank weiterer Tastenkombinationen und der Einführung der Suche [!INCLUDE[d365fin](includes/d365fin_md.md)] übertrifft die Funktionalität, die in Dynamics NAV bereitgestellt wird.  
+
+Siehe auch [Ist der Filterbereich zum Filtern von Berichten verfügbar?](#is-the-filter-pane-available-for-filtering-reports).  
 
 ## <a name="can-i-search-and-filter-using-the-companion-apps-and-outlook-addin"></a>Kann ich mithilfe der Begleiter-Apps und im Outlook-Add-In suchen und filtern?
 In verschiedenen Formularfaktoren, wie Mobilegeräten oder Outlook, können Sie in Listen suchen, aber in den meisten Fällen nicht in einzelnen Feldern filtern.
@@ -54,5 +55,6 @@ Es gibt eine Zeitbegrenzung für die Dauer eines Suchvorgangs. Versuchen Sie zun
 Als lokaler Administrator können Sie die Zeitbegrenzung für Suchen erhöhen, indem Sie die Einstellung **Zeitbegrenzung für Suche** des [!INCLUDE[prodshort](includes/prodshort.md)]-Servers ändern. Weitere Informationen finden Sie unter [Konfigurieren des Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in der Hilfe für Business Central-Entwickler und IT-Experten.
 
 ## <a name="see-also"></a>Siehe auch
+
 [Erste Schritte](product-get-started.md)  
-[Sortieren, Suchen und Filtern in Listen](ui-enter-criteria-filters.md)
+[Sortieren, Suchen und Filtern in Listen](ui-enter-criteria-filters.md)  

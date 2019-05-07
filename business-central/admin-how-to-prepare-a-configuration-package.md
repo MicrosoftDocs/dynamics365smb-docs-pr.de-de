@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798609"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941634"
 ---
 # <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
-Wenn Sie einen neues Mandant konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind.  
+Wenn Sie einen neues Mandant konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Um Ihrem Debitoren zu helfen, das Konfigurationspaket zu verwenden, können Sie dem Paket einen Fragebogen oder einen Satz von Fragebogen hinzufügen. Der Fragebogen kann dem Debitor beim Verständnis der verschiedenen Setupoptionen helfen. Üblicherweise werden Fragebögen für die größten Einrichtungstabellen in erstellt, wenn ein Debitor weitere Anleitung dazu anfordert, wie eine entsprechende Einstellung wählen soll. Weitere Informationen finden Sie unter [Sammeln von Debitoren-Einrichtungswerte](admin-gather-customer-setup-values.md).
 
