@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 11/15/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 87e3d134abe82e0f55acf4d3680b84fbc2c0c14b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 738cbfece41121eb05aeb598f9ea4367173f29a5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798155"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918771"
 ---
 # <a name="purchasing"></a>Einkauf
 Sie erstellen eine Einkaufsrechnung oder Einkaufsbestellung, um die Kosten der Einkäufe zu erfassen und Kreditoren zu verfolgen. Wenn Sie einen Bestand steuern müssen, werden Einkaufsrechnungen auch verwendet, um Lagerbestände dynamisch zu aktualisieren, sodass Sie Ihre Lagerbestandskosten minimieren und besseren Kundenservice bereitstellen können. Die Einkaufskosten, einschließlich Servicekosten und Bestandswerte, die aus der Buchung von Einkaufsrechnungen resultieren, tragen zu den Gewinnzahlen und anderen finanziellen Kennziffern in Ihrem Rollencenter bei.
@@ -42,6 +42,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Bereiten Sie sich vor, um Lieferungen vom selben Kreditor einmal zu fakturieren, indem Sie die Wareneingänge in einer Rechnung zusammenfassen.|[Zusammenfassen von Lieferungen in einer einzelnen Rechnung](purchasing-how-to-combine-receipts.md)|
 |Konvertieren Sie zum Beispiel elektronische Rechnungen von Ihren Kreditoren in Business Central in Einkaufsrechnungen.|[Vorgehensweise: Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Erfahren Sie, wie Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] wenn Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum geliefert wird.|[Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)|
+|Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Kreditor vorhanden sind.|[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Siehe auch
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  

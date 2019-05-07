@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 01/15/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e780dba122374bd80e48ca6bbc74b7540e034ac6
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a482e0fed80d5e9380b6c6e0ec03557abbc02953
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798042"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917816"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Designdetails: Artikelverfolgung im Lager
 Der Umgang mit Serien- oder Chargennummern ist hauptsächlich eine Lageraufgabe; daher haben alle eingehenden und ausgehenden Lagerbelege Standardfunktionen für die Zuordnung und die Auswahl von Artikelverfolgungsnummern.  

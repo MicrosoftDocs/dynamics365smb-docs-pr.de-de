@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aeafdd37a40d393fbb62501d67b14f3e351ea254
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e720dff3266419c7afc11a5b722974c6a461389a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798695"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913989"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
 Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden können.  

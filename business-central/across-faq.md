@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852286"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916149"
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -49,12 +49,15 @@ Wenn Sie Zugriff auf Microsoft CustomerSource haben, können Sie mit eLearning-M
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] wird durch Partner verkauft und Sie sollten Ihren Wiederverkaufspartner kontaktieren, um Hilfe mit technischen Problemen zu erhalten. Wenn Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner das jeweilige Problem nicht lösen kann, wir er ein Support-Ticket bei Microsoft eröffnen.  
 
-Wenn Sie sich für eine Testversion angemeldet haben und [!INCLUDE[d365fin](includes/d365fin_md.md)] noch nicht gekauft haben, , haben Sie keinen Wiederverkaufspartner und Sie können das Microsoft-Support- Team nicht direkt kontaktieren.  
-
-Sie finden einen Business Central Partern unter [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Weitere Informationen finden Sie unter [Hilfe und Support](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Warum beschreibt Hilfe Funktionalität, auf die ich nicht zugreifen kann?
-Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf **Wesentlich** festgelegt ist, dann sind Benutzeroberflächenelemente für die Fertigung und Dienstleistungs-Verwaltungsfunktionen für Sie nicht sichtbar, da sie die Benutzeroberfläche **Premium** erfordern. Ein Text-Hinweis wird in den obersten Hilfethemenebenen für diese Funktionsbereiche eingefügt. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).  
+Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf **Wesentlich** festgelegt ist, dann sind Benutzeroberflächenelemente für die Fertigung und Dienstleistungs-Verwaltungsfunktionen für Sie nicht sichtbar, da sie die Benutzeroberfläche **Premium** erfordern. Ein Text-Hinweis wird in den obersten Hilfethemenebenen für diese Funktionsbereiche eingefügt. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
+
+## <a name="where-is-the-save-button"></a>Wo ist die Speichern-Schaltfläche?
+
+Es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.
+
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Welche E-Mail-Adresse kann ich mit [!INCLUDE[d365fin](includes/d365fin_md.md)] benutzen?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schließt outlook.com, hotmail.com, gmail.com und andere ein.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2325aafc22db4ab737e63a261b836076cc3fde20
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2e308fc6bd84e608f641bca1b94b8e6b226a30fb
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798159"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912119"
 ---
 # <a name="track-document-lines"></a>Nachverfolgen von Belegzeilen
 Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsauftrags- und Bestellzeilen für Aufträge und archivierte Aufträge beziehen. Zugehörige Belege, die Sie nachverfolgen können, enthalten Angebote, Lieferungen, Wareneingänge und Rahmenaufträge. Dadurch werden Belege zur Verarbeitung von Aufträgen identifiziert.  

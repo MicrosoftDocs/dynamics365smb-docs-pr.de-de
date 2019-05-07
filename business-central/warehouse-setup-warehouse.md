@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/04/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7f7d07ce7965b0db0f9779e396b1818ce398e812
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: df77998dc9e5ee06531f3be158a7d9ca2604fc05
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798917"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914738"
 ---
 # <a name="setting-up-warehouse-management"></a>Lagerortverwaltung einrichten
 Die Logistikstrategie eines Mandanten spiegelt sich in der Konfiguration seiner Lagerprozesse wider. Dazu gehört die Definition der Bearbeitung unterschiedlicher Artikel an verschiedenen Lagerorten, wie z. B. der Grad der Lagerplatzkontrolle und das Ausmaß des erforderlichen Workflows zwischen Lageraktivitäten.  

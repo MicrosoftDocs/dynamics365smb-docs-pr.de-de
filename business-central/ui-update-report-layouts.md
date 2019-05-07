@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/19/2019
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0231ab568ea435a389dae6f51f270f5b6363c203
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852378"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914541"
 ---
 # <a name="updating-report-or-document-layouts"></a>Verwaltung von Berichts- und Beleg-Layouts
 Gelegentlich müssen Sie möglicherweise ein benutzerdefiniertes Berichtslayout aktualisieren, das in einem Bericht verwendet wird. Dies ist obligatorisch, wenn es eine Entwurfsänderung an dem Datensatz des Berichts gegeben hat, wenn zum Beispiel ein Feld, das im Layout verwendet wird, aus dem Berichtsdatensatz entfernt wurde. Wenn ein Berichtlayout eine Aktualisierung benötigt, erhalten Sie eine Fehlermeldung, wenn Sie versuchen, die Berichtvorschau anzeigen, zu drucken oder zu speichern.  

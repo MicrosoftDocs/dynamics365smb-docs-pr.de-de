@@ -10,21 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 41fb80f39edc87aabce18c5ef39e799148eb0058
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: b0fdc5b1c0b76db96652e363979e6eb55f3c6c24
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852194"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929574"
 ---
 # <a name="planning"></a>Planung
 Die Produktionsschritte, die ausgeführt werden müssen, um das Ausgangsmaterial zu Fertigerzeugnissen zu verarbeiten, müssen – abhängig von Volumen und Art der Produkte – täglich oder wöchentlich geplant werden. [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über Features zum Erfüllen des erwarteten und tatsächlichen Bedarfs von Verkauf und Produktion sowie über Verteilungsplanungsfeatures, die die Verwendung von Lagerhaltungsdaten und Umlagerungen zwischen Lagerorten ermöglichen.
 
 > [!NOTE]
-> Dieses Thema beschreibt die Planung für Unternehmen, die mit der Fertigung oder Montageverwaltung zu tun haben, wenn die resultierenden Beschaffungsaufträge entweder Produktion, Montage, Umlagerung oder Einkaufsbestellungen sein können. Die Hauptschnittstelle für diese Planungsarbeiten ist die Seite **Planungsvorschlag**
-
+> Dieses Thema beschreibt die Planung für Unternehmen, die mit der Fertigung oder Montageverwaltung zu tun haben, wenn die resultierenden Beschaffungsaufträge entweder Produktion, Montage, Umlagerung oder Einkaufsbestellungen sein können. Die Hauptschnittstelle für diese Planungsarbeiten ist die Seite **Planungsvorschlag**<br /><br />
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt auch Beschaffungsplanung für Großhandelsmandanten, in denen Beschaffungsaufträge und die resultierende Umlagerung nur Einkaufsbestellungen sein können. Die für diese Hauptschnittstelle Planungsarbeiten ist die **Bestellvorschlag** Seite, die indirekt in diesem Thema beschrieben wird, während die meisten Planungsfunktionalität auf beide Vorschläge gehört.
 
 Bevor Sie Produktionsaufträge planen und ausführen können, müssen Sie die Fertigungskapazitäten konfigurieren, wie Erstellung von Betriebskalendern, Arbeitsplänen, Produktionsstücklisten und Maschinencentren. Weitere Informationen finden Sie unter [Einrichten von Produktion](production-configure-production-processes.md).

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 80112e892c72283254d3894e6ce4102cc9350e0b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a322fe99a76555d438033919a2f6a1ace4e108db
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799096"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922527"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Feld-Zuordnung beim Exportieren von Zahlungsdateien unter Verwendung von Bankdaten-Konvertierungsdienst
 Wenn Sie Zahlungsdateien exportieren, indem Sie die Bankdaten-Konvertierungsdienst-Funktion verwenden, werden die Daten, die Sie exportieren, dem Anbieter des Bankdaten-Konvertierungsdienstes zur Verfügung gestellt. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen darüber, wie die Bankdaten-Konvertierungsdienst-Funktion arbeitet, finden Sie unter [Datenaustausch-Framework](across-about-the-data-exchange-framework.md).  

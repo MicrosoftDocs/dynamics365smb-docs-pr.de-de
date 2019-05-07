@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: cead1a86d50b0fc0e3b2998d748b8edf4a76b735
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 16ce39ef0603e65acbd161c122ed48492290de3c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798408"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923766"
 ---
 # <a name="view-test-reports-before-posting"></a>Anzeigen von Testberichten vor dem Buchen
 Wenn Sie bereit sind, ein Dokument zu buchen (beispielsweise eine Bestellung, eine Einkaufsrechnung oder eine Einkaufsgutschrift), können Sie das Dokument testen, um sicherzustellen, dass keine Probleme vorhanden sind, die das Buchen verhindern.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97ca5aab24b04f6c2d0677c6fd9626b93fcd8ca8
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 429e276b094a8296daab8e229d60a6dd16246b53
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799008"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915844"
 ---
 # <a name="manage-many-incoming-document-records"></a>Mehrere eingehende Belegdatensätze verwalten
 Wenn Sie eingehende Belegdatensätze verarbeiten, erhöht sich die Anzahl der Zeilen auf der Seite **Eingehende Dokumente** möglicherweise so, dass Sie die Übersicht verlieren. Daher können Sie eingehende Belegdatensätze auf "Verarbeitet" festlegen, um sie aus der Standardansicht zu entfernen. Wenn Sie die Aktion **Alle anzeigen** auswählen, können Sie sowohl verarbeitete als auch nicht verarbeitete Datensätze anzeigen.

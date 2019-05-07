@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c1ecbbc42fcc5ccf5cb6f0d39c908da36cc8c918
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798164"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923415"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetails: Soll-Kosten-Buchen
 Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten eines Einkaufsartikels, die Sie registrieren, bevor Sie die Rechnung für den Artikel erhalten.  

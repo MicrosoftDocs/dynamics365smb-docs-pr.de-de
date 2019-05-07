@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
-ms.openlocfilehash: 14015c089e3cd6db19a12fe4eed72d523f3aefc5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 539aac89d2da6b2eb81da7f6df729cdb5bc15cb1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798340"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926558"
 ---
 # <a name="export-payments-to-a-bank-file"></a>Zahlungen in eine Bankdatei exportieren
 Wenn Sie bereit sind, Zahlungen oder Rückvergütungen an Ihre Mitarbeiter zu machen, können Sie dies  auf der Seite **Zahlung Buch.-Blatt** vorzunehmen. Sie können eine Datei mit den Zahlungsinformationen auf den Buch.-Blattzeilen exportieren. Sie können die Datei dann zu Ihrer elektronischen Bank hochladen, um die entsprechenden Geldüberweisungen zu verarbeiten.
 
-In der generischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)]  wird ein globaler Diensteanbieter eingerichtet und verbunden, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt. In den nordamerikanischen Versionen kann derselbe Service verwendet werden, um Zahlungsdateien als elektronischer Geldtransfer (EFT) zu buchen, mit einem leicht anderen Prozess. Siehe Schritt 6 im Bereich "Zahlungen in eine Bankdatei exportieren".    
+In der generischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)]  wird ein globaler Diensteanbieter eingerichtet und verbunden, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt. In den nordamerikanischen Versionen kann derselbe Service verwendet werden, um Zahlungsdateien als elektronischer Geldtransfer (EFT) zu buchen, mit einem leicht anderen Prozess. Siehe Schritt 6 unter [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).    
 
 > [!NOTE]  
 >   Bevor Sie Zahlungsdateien aus dem Zahlungsausgangs Buch.-Blatt exportieren können, müssen Sie das elektronische Format für das beteiligte Bankkonto angeben, und den Bankdaten-Konvertierungsdienst ausführen. Weitere Informationen finden Sie unter [Einrichten von Bankkonten](bank-how-setup-bank-accounts.md) und [Einrichten des Bankdaten-Konvertierungsdiensts](bank-how-setup-bank-data-conversion-service.md). Darüber hinaus müssen Sie das Kontrollkästchen **Zahlungsexport erlauben** auf der Seite **Fibu Buch.-Blattnamen** auswählen. Weitere Informationen finden Sie unter [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  

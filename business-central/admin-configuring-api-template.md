@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 7420bd1b8c1c246b608910a35a47ac025eec6b8b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ef6b6d89ccea59de6a87c062cc6e29a27abe2c88
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799123"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921386"
 ---
 # <a name="configuring-api-templates"></a>API Vorlagen konfigurieren
 Die API-Bibliothek für [!INCLUDE[d365fin_md](includes/d365fin_md.md)] bietet eine vereinfachte Darstellung der zugrunde liegenden Einheiten. Alle Eigenschaften der Anwendung werden nicht durch die zugeordnete API bereitgestellt. Die Seite **API Einrichten** ermöglicht Ihnen, Vorlagen festzulegen, die verwendet werden, um leere Eigenschaften auf eine Einheit zu füllen, wenn Sie eine Beitragsaktion durch die API erstellen. 

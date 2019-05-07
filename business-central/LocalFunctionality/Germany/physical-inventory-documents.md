@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ab8643fda6d733558e1cfd45031987b3693a55fc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: ../../inventory-how-count-inventory-with-documents
+ms.openlocfilehash: dead35e1d0c6dc3e39eb60d35cee96d7535e3491
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826763"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914108"
 ---
 # <a name="physical-inventory-documents"></a>Inventurbelege
 Sie können mithilfe der Inventurauftrags- und Inventurerfassungsbelege eine Inventur der Artikel durchführen.  

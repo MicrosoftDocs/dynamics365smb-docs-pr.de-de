@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 261ed9a68e627e5887440488329174db79344ec4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 30eac48a3d0c3a4321c56c82484dec66be908751
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826765"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923364"
 ---
 # <a name="walkthrough-exporting-data-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung exportieren
 Sie können Geschäftsdaten für Überwachungszwecke exportieren. Die Einrichtung des Datenexportes unterscheidet sich von anderen Unternehmen und Sie sollten Ihren Steuerberater und den Steuerprüfer um Rat fragen. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.  

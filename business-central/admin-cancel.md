@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1fd6afcdeb42d2f2c594a2a1fce0f60596ac4e6d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799003"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926108"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Sie kündigen, entfernen, oder setzen [!INCLUDE[d365fin](includes/d365fin_md.md)] zurück
 Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] nicht mehr nutzen möchten, können Sie Ihr Konto schließen und die Lizenz von Ihrem Konto entfernen. Die Schritte, die Sie machen, sind unterschiedlich, wenn Sie die kostenlose Testversion nutzen oder ein monatliches Abonnement als Teil des Office 365 Konto haben.  

@@ -1,51 +1,51 @@
 ---
 title: Preise und Projektbuchungsgruppen einrichten| Microsoft Docs
 description: Beschreibt, wie allgemeine Projektinformationen und Preise für Projektartikel, Ressourcen und Sachkonten und Projektbuchungsgruppen eingerichtet werden.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: 34dfdb463d3423d823b8f1439361d05296ca3c8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "797928"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918822"
 ---
 # <a name="set-up-jobs"></a>Einrichten von Projekten
-Auf der Seite **Projekteinrichtung** müssen Sie festlegen, wie Sie bestimmte Projektfunktionen verwenden möchten.
 
-In den einzelnen Projektkarten müssen Sie Preise für Projektressourcen Projektartikel, Projekt und Sachkonten einrichten, und müssen Sie Projektbuchungsgruppen einrichten.
+Als Projekt-Manager können Sie Projekte einrichten, die jedes der Projekte definieren, das Sie in [!INCLUDE [prodshort](includes/prodshort.md)] verwalten. Auf der Seite **Projekteinrichtung** müssen Sie festlegen, wie Sie bestimmte Projektfunktionen verwenden möchten.
+
+Für jedes Projekt geben Sie dann die einzelnen Projektkarten mit Informationen zu Preisen für Projektressourcen Projektartikel, Projekt und Sachkonten an, und Sie müssen Projektbuchungsgruppen einrichten.
 
 ## <a name="to-set-general-information-for-jobs"></a>Um allgemeine Informationen für Projekte einzurichten:
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Job einrichten** ein, und wählen dann den zugehörigen Link aus.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   Das Kontrollkästchen **Verbrauchslink standardmäßig anwenden** ist sehr umfangreich und wird deshalb im folgenden Abschnitt erläutert.
+> [!NOTE]
+> Dies Auswirkungen des Felds **Verbrauchslink standardmäßig anwenden** sind sehr umfangreich und werden deshalb im folgenden Abschnitt erläutert.
 
-## <a name="to-set-up-job-usage-tracking"></a>Projektverbrauch-Nachverfolgung einrichten
+### <a name="to-set-up-job-usage-tracking"></a>Projektverbrauch-Nachverfolgung einrichten
+
 Wenn Sie ein Projekt erstellen, werden Sie wissen wollen, ob Ihr Verbrauch mit dem Plan übereinstimmt. Um diesen Vorgang zu vereinfachen, können Sie einen Link zwischen Ihren Projektplanungszeilen und dem tatsächlichen Verbrauch erstellen. So können Sie Ihre Kosten verfolgen und schnell sehen, wie viel Arbeit noch zu tun ist. Standardmäßig ist de Projektplanungszeilentyp **Plan**, aber die Verwendung der Zeilenart **Plan und fakturierbar** hat ähnliche Effekte.
 
-Wenn Sie das Kontrollkästchen **Verbraucherlink standardmäßig anwenden** ausgewählt haben, können Sie die Projektplanungszeile überprüfen. Sie können die Menge der Ressource, des Artikels oder des Sachkontos einrichten und dann festlegen, welche Menge Sie in das Projektbuchungsblatt übertragen möchten. Das Feld **Restmenge** auf der Projektplanungszeile zeigt Ihnen an, was noch übertragen und im Buchungsblatt gebucht werden muss.
+Wenn Sie das Feld **Verbraucherlink standardmäßig anwenden** ausgewählt haben, können Sie die Projektplanungszeile überprüfen. Sie können die Menge der Ressource, des Artikels oder des Sachkontos einrichten und dann festlegen, welche Menge Sie in das Projektbuchungsblatt übertragen möchten. Das Feld **Restmenge** auf der Projektplanungszeile zeigt Ihnen an, was noch übertragen und im Buchungsblatt gebucht werden muss.
 
-Wenn das Kontrollkästchen **Verbrauchslink standardmäßig anwenden** aktiviert ist und die Projektplanungszeile auf **Fakturierbar** eingestellt ist, erstellt Financial eine Projektplanungszeile vom Typ **Plan**, nachdem Sie die Buchungsblattzeile gebucht haben.
+> [!TIP]  
+> Sie können Projektverbrauch-Nachverfolgung für ein bestimmtes Projekt aktivieren oder deaktivieren. Der Wert des Felds **Verbrauchslink anwenden** auf der neuen Projektkarte setzt die Einstellung auf der Seite **Projekteinrichtung** außer Kraft.  
 
-> [!NOTE]  
->   Wenn das Kontrollkästchen **Verbrauchslink standardmäßig anwenden** auf der Projektkarte ausgewählt ist, und das Feld Projekttyp in der **Projektjournalzeile** leer ist, dann werden die neuen Projektplanungszeilen der Zeilenart **Plan** erstellt, wenn Sie Projektjournalzeilen buchen. Wenn das Kontrollkästchen **Verbrauchslink standardmäßig anwenden** auf der **Projektkarte** nicht aktiviert ist und das Feld in der Projektjournalzeile leer ist, werden keine neuen Projektplanungszeilen erstellt, wenn Sie Projektjournalzeilen buchen. Weitere Informationen finden Sie unter [Nutzung von Projekten](projects-how-record-job-usage.md).
+Wenn das Kontrollkästchen **Verbrauchslink standardmäßig anwenden** aktiviert ist und die Projektplanungszeile auf **Fakturierbar** eingestellt ist, wird eine Projektplanungszeile vom Typ **Plan** erstellt, nachdem Sie eine Projektbuchungsblattzeile gebucht haben.
+
+> [!IMPORTANT]
+> Wenn Projektverbrauch-Nachverfolgung aktiviert ist, entweder auf der Seite **Projekteinrichtung** oder im einzelnen Projekt, und das Feld **Projekttyp** in der Projektjournalzeile leer ist, dann werden die neuen Projektplanungszeilen der Zeilenart **Plan** erstellt, wenn Sie Projektjournalzeilen buchen.  
+>  
+> Wenn Projektverbrauch-Nachverfolgung *nicht* aktiviert ist, entweder auf der Seite **Projekteinrichtung** oder im einzelnen Projekt, und das Feld **Projekttyp** in der Projektjournalzeile leer ist, dann werden keine Projektplanungszeilen erstellt, wenn Sie Projektjournalzeilen buchen. Weitere Informationen finden Sie unter [Nutzung von Projekten](projects-how-record-job-usage.md).
 
 1. Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Projekt einrichten** ein. Wählen Sie dann den zugehörigen Link aus.
-2. Aktivieren oder deaktivieren sie das Kontrollkästen **Verbrauchslink standardmäßig anwenden**.
-
-> [!NOTE]  
->   Sie können eine andere Einstellungen aus dem Kontrollkästchen **Verbrauchslink standardmäßig anwenden** in den einzelnen Projektkarten vornehmen. In diesem Argument setzt die Einstellung für dieses Projekt den allgemeinen, oben beschriebenen Standard außer Kraft.
+2. Aktivieren sie das Kontrollkästen **Verbrauchslink standardmäßig anwenden**.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>So richten Sie Verkaufspreise für Projektressourcen ein
 Sie können bestimmte Verkaufspreise für Ressourcen für ein Projekt einrichten. Dazu verwenden Sie die Seite **Res.-VK-Preise Projekt**.
@@ -114,9 +114,11 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 | **Konto deklarierte Verkäufe** |Das Ertragskonto, das den deklarierten Umsatz für das Projekt enthält. Dabei handelt es sich normalerweise um ein Haben-Ertragskonto. |
 
 ## <a name="see-also"></a>Siehe auch
+
 [Projektmanagement einrichten](projects-setup-projects.md)  
+[Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Projekte verwalten](projects-manage-projects.md)  
 [Finanzen](finance.md)  
-[Einkauf](purchasing-manage-purchasing.md)         
-[Verkauf](sales-manage-sales.md)      
+[Einkauf](purchasing-manage-purchasing.md)  
+[Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 99b1b5d5f725a598cc8be77f390d1fcf1c1a4033
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798160"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925277"
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Eingabehilfe und Tastenkombinationen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dieses Thema enthält Informationen zu den Funktionen, die [!INCLUDE[d365fin](includes/d365fin_md.md)] einfach verfügbar machen für die Personen mit Behinderungen. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt die folgenden Funktionen:  

@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46ea7cb3402f65d897cc8519a062ebbf8fb9b383
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a116dd3394e8aae36661815d72db3a8b13265bcf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798645"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917767"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
 Wenn Ihr Debitor Artikel zurückschicken oder Dienstleistungen löschen will, die Sie verkauft haben, können Sie eine Einkaufsgutschrift erstellen und buchen, die die angeforderte Änderung im Hinblick auf die ursprünglichen Einkaufsrechnung angibt. Um korrekte Verkaufsrechnungsinformationen einzuschließen, können Sie die Verkaufsgutschrift direkt aus der gebuchten Verkaufsrechnung erstellen oder neue Verkaufsgutschrift mit der Rechnungsinformationen erstellen.
 
-Wenn Sie mehr Kontrolle für den Rücklieferungsvorgang, die Logistikbelege oder die Artikelbehandlung benötigen, wenn Sie Artikel von mehreren Verkaufsbelegen mit einer Rücklieferung bearbeiten, dann können Sie Verkaufsrückgabeaufträge erstellen. Eine Verkaufsreklamation löst automatisch die zugehörige Verkaufsgutschrift sowie andere Dokumente wie Verkaufsauftrag für Ersatzlieferungen aus, sofern erforderlich. Weitere Informationen finden Sie unter [Verkaufsreklamation auf einem oder mehreren gebuchten Verkaufsbelegen erstellen](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).
+Wenn Sie mehr Kontrolle für den Rücklieferungsvorgang, die Logistikbelege oder die Artikelbehandlung benötigen, wenn Sie Artikel von mehreren Verkaufsbelegen mit einer Rücklieferung bearbeiten, dann können Sie Verkaufsrückgabeaufträge erstellen. Eine Verkaufsreklamation löst automatisch die zugehörige Verkaufsgutschrift sowie andere Dokumente wie Verkaufsauftrag für Ersatzlieferungen aus, sofern erforderlich. Weitere Informationen finden Sie unter [Verkaufsreklamation auf einem oder mehreren gebuchten Verkaufsbelegen erstellen](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).
 
 > [!NOTE]  
 >   Wenn eine gebuchte Verkaufsrechnung noch nicht bezahlt wurde, können Sie die Funktionen **Korrigieren** oder **Abbrechen** auf der gebuchten Verkaufsrechnung verwenden, um die entsprechenden Transaktionen automatisch zu stornieren. Diese Funktionen gehen nur für nicht geleistete Rechnungen, und sie unterstützen nicht Teil-Reklamationen oder Stornierungen. Weitere Informationen finden Sie unter [Ändern oder löschen von unbezahlten Verkaufsrechnungen](sales-how-correct-cancel-sales-invoice.md).
@@ -40,7 +40,7 @@ Zwei Funktionen sind vorhanden, um die Einstandspreisrückverfolgung automatisch
 
 |Funktion|Description|  
 |------------------|---------------------------------------|  
-|Funktion **Zu stornierende gebuchte Belegzeilen abrufen** auf der Seite **Verkaufsreklamation**|Kopiert Zeilen einer oder mehrerer gebuchter Verkaufsbelegzeilen, um den ursprünglichen Auftrag zu stornieren. Weitere Informationen finden Sie unter [Verkaufsreklamation auf einer oder mehreren gebuchten Verkaufsrechnungen erstellen](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).|  
+|Funktion **Zu stornierende gebuchte Belegzeilen abrufen** auf der Seite **Verkaufsreklamation**|Kopiert Zeilen einer oder mehrerer gebuchter Verkaufsbelegzeilen, um den ursprünglichen Auftrag zu stornieren. Weitere Informationen finden Sie unter [Verkaufsreklamation auf einem oder mehreren gebuchten Verkaufsbelegen erstellen](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
 |Funktion **Beleg kopieren** auf den Seiten **Verkaufsgutschrift** und **Verkaufsreklamation**|Kopiert den Kopf und die Zeilen aus einem gebuchten Beleg, der storniert werden soll.<br /><br /> Erfordert, dass das Kontrollkästchen **Einst.-Pr.-Rückverfolg. notw.** auf der Seite **Debitoren und Verkauf Einr.** ausgewählt ist.|
 
 Um exakte Einstandspreisstornierung manuell zuzuordnen, müssen Sie das Feld **Ausgegl. von Artikelposten** für alle Rückholbelegzeile Art wählen und dann die Nummer des ursprünglichen Verkaufspostens. Dies verknüpft die Verkaufsgutschrift oder Verkaufsreklamation mit dem ursprünglichen Verkaufsposten und stellt sicher, dass der Artikel mit dem ursprünglichen Einstandspreis bewertet wird.

@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ddcda93c59df3f8390dc3852595d4f07f03648f5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9ba3873284f5e40e46eeee8615974dd6053d4991
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798757"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928253"
 ---
 # <a name="working-with-general-journals"></a>Arbeiten mit Fibu Buch.-Blättern
 

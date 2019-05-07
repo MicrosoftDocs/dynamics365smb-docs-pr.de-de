@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 10/24/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: fc52d943938616041881c55f70c510e4c63b5de6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798974"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925377"
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Benutzer, Profile und Rollencenter verstehen
 

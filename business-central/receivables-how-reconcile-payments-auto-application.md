@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 693373c91fcc2bc8d0ef4eb3acea99dd13d9eaa0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 16241459bd080b7f1982a42110a834433d9427ea
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799247"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913239"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Abstimmen von Zahlungen mithilfe der automatischen Anwendung
 Die Seite **Zahlungsabstimmungsbuch.-Blatt** gibt Zahlungen an, entweder eingehend von Debitoren oder ausgehend an Kreditoren, die als Transaktionen in Ihrem Bankkonto erfasst wurden und die auf ihre entsprechenden unbezahlten Rechnungen und Gutschriften oder andere offene Posten angewendet werden können. Die Zeilen im Buch.-Blatt werden ausgefüllt, indem ein Bankkontoauszug als Bankfeed oder -Datei importiert wird.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 12/17/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 10b8021bd688e3f699a73d6a95f511b9a26b8341
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 55d0ed4110796fa9f037e066d56be9efdd6649a4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798807"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921317"
 ---
 # <a name="assemble-items"></a>Artikel montieren
 Wenn das Feld **Beschaffungsmethode** auf der Artikelkarte **Montage** enthält, besteht die Standardmethode zur Bereitstellung des Artikels darin, es aus definierten Komponenten und eventuell mit einer definierten Ressource zu montieren.  

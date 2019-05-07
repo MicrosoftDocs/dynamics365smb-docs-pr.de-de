@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/31/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5fb8201f85fe94ac124e80014a4f3ff5073fbf65
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cceff2795f9b6c9dd8addeeeb5f6a1982b4e0ec
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798880"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927974"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
 

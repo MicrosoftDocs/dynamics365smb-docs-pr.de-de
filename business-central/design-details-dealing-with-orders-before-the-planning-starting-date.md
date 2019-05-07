@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, frozen, design serial, lot
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 9fee9eff60b441ef2d4782a77a6fbbbe8b01af03
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 32c523eda09620bd74df53f09bc103a44fbb367a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798831"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919774"
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a>Designdetails: Umgang mit Aufträgen vor dem Planungs-Startdatum
 Um zu vermeiden, dass ein Beschaffungsplan unmöglichen und daher unbrauchbare Vorschläge anzeigt, berücksichtigt das Planungssystem die Periode bis zum Startdatum als fixierte Zone, für die nichts geplant wird. Die folgende Regel gilt für die fixierte Zone:  

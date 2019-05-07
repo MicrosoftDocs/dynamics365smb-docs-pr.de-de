@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af87183dfd9785bfbe3dd56794682d13a5057ada
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 85975b28dbe19702412a05bb927f3fe59bd8bfc3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798939"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915117"
 ---
 # <a name="creating-and-managing-contacts"></a>Erstellen und Verwalten von Kontakten
 Innerhalb des Unternehmens unterhalten unterschiedliche Gruppen geschäftliche Beziehungen mit verschiedenen Unternehmen. So kann sich beispielsweise ein Verkäufer regelmäßig mit Interessenten treffen und am Ende der Woche die Ergebnisse dieser Besuche erfassen.
@@ -29,8 +29,9 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | An | Siehe |
 | --- | --- |
 | Richten Sie die Kontaktverwaltung vor dem Erstellen von Kontakten ein. |[Kontakte einrichten](marketing-setup-contacts.md) |
-| Erstellen einer Kontaktkarte für jede neue Person oder jedes neue Unternehmen, mit dem Sie in Kontakt treten – beispielsweise für einen Debitor oder Kreditor |[Kontakte erstellen](marketing-create-contact-companies.md) |
+| Erstellen einer Kontaktkarte für jede neue Person oder jedes neue Unternehmen, mit dem Sie in Kontakt treten – beispielsweise für einen Debitor oder Kreditor |[Kontakt erstellen](marketing-create-contact-companies.md) |
+|Lösen Sie auf Verwirrung auf, wenn zwei oder mehr Datensätze für denselben Kontakt vorhanden sind.|[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Siehe auch
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
-[Arbeiten mit Business Central](ui-work-product.md)  
+[Arbeiten mit  Business Central](ui-work-product.md)  

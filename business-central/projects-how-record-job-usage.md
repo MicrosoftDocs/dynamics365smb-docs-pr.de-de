@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c723625bc54c7b885268946f0e7afdf54be20a2b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798753"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923221"
 ---
 # <a name="record-usage-for-jobs"></a>Verbrauch bei Projekten aufzeichnen
 Auf der Seite **Projektplanzeilen** können Sie Verbrauch für verschiedene Teile des Projekts überprüfen und erfassen; dieser wird automatisch aktualisiert, wenn Sie Informationen zu Projekten und Projektbuchungsblättern oder Projektrechnungen ändern und übertragen. Dazu ist es erforderlich, dass Sie ein Projekt eingerichtet haben, sodass der **Link Verbrauch standardmäßig anwenden** eingeschaltet ist. Weitere Informationen finden Sie unter [Einrichten von Stellen](projects-how-setup-jobs.md).  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798019"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912073"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Nutzen Sie das RapidStart Services-Implementierer Rollencenter
 Wenn Sie RapidStart Services verwenden, empfiehlt es sich, dass Sie Ihre Arbeit verfolgen und das RapidStart Services Implementierungs-Rollencenter verwenden, da esden richtigen Kontext für Ihre Konfigurationsarbeit bereitstellt. Weitere Informationen finden Sie unter [So ändern Sie das Rollencenter](ui-change-basic-settings.md#to-change-role-center).

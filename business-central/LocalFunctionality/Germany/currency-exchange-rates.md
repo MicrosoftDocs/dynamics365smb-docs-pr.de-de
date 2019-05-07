@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/19/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 824ccd09d9539def0814faca3c5ed0de9e6a8d96
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 81f1d3703d672428bdc221e494114dd2bf33e463
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826677"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927297"
 ---
 # <a name="currency-exchange-rates"></a>Währungswechselkurse
 Am Ende des Geschäftsjahres, müssen Wechselkurse für Verbindlichkeiten und Forderungen reguliert werden, sodass sie ordnungsgemäß in der Jahresbilanz bewertet werden. Der Batchauftrag **Wechselkurse regulieren** unterstützt verschiedene Bewertungsmethoden, um so die rechtlichen Anforderungen in Deutschland zu erfüllen.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cc333a1a17173abeff36ba556f2ff0d235af225f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8cfb5af0258953c3ddfc3198d583cd93ba3005c6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798964"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915576"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Bewährte Einrichtungsmethoden: Wiederbeschaffungsverfahren
 Das Feld **Nachbestellungs-Richtlinie** auf Artikelkarten umfasst vier verschiedene Planungsmethoden, die bestimmen, wie die einzelnen Planungsparameter interagieren.  

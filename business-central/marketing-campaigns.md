@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e3ca7a52bb01b9d4a7b6417be14396cc616131ca
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798698"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929050"
 ---
 # <a name="managing-marketing-campaigns"></a>Verwaltung von Marketingkampagnen
 Der Einsatz eines fundierten Marketingplans ermöglicht das Erkennen, Gewinnen und Binden von Debitoren. Ein Marketingplan setzt sich aus mehreren Kampagnen und anderen Aktivitäten rund um Ihre Verkaufs- und Marketingaktivitäten zusammen. Beim Planen einer Kampagne müssen Sie entscheiden, welche Kontakte Sie ansprechen möchten, welche Art von Kampagne (beispielsweise Messe oder Direktwerbung) Sie erstellen möchten und welche Verkäufer die einzelnen Aufgaben ausführen sollen.

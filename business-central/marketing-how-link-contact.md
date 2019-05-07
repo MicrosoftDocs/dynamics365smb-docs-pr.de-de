@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
-ms.openlocfilehash: ae6b02e7ce73d4a13cdc7dd42858ac791d4bf1c2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3db94f55657b08e06a4691b2bd78791da4f26bf5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798909"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926486"
 ---
 # <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronisation von Kontakten mit Debitoren, Kreditoren und Bankkonten.
 Wenn Sie Kontakt und entweder einen Debitor, Kreditor oder ein Bankkonto für das gleiche Unternehmen haben, können Sie die beiden Einheiten verknüpfen. Das Verknüpfen der beiden Einheiten ermöglicht Ihnen gemeinsame Daten zu synchronisieren, sodass diese an beiden Stellen identisch sind.

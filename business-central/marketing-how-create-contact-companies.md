@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
-ms.openlocfilehash: ff585f1a96d509ef317aaaf3671bc91ca46a430a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 67945b8825ae94ff3a09a4072309c401abb41c6b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799384"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920982"
 ---
 # <a name="create-contacts"></a>Kontakt erstellen
 Sie können für jedes neue Unternehmen, mit dem Sie Geschäfte machen, eine Kontaktkarte anlegen. Das können z. B. Debitoren, Kreditoren, Interessenten, Banken, Rechtsanwälte, Berater usw. sein.

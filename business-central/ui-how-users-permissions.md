@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e60b7d875ebd0a598908f37a59a49953c61479f1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798846"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912943"
 ---
 # <a name="managing-users-and-permissions"></a>Benutzer und ihre Berechtigungen verwalten
 Um Benutzer in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen, muss der Office 365-Administrator Ihres Unternehmens zuerst einen Benutzer im Office 365-Admin Center erstellen. Weitere Informationen sind hier verfügbar [Benutzer zu Office 365 for Business hinzufügen](https://aka.ms/CreateOffice365Users).
@@ -57,7 +57,7 @@ Die Mitglieder der Benutzergruppe werden nicht in die neue Benutzergruppe kopier
 2. Wählen Sie die Benutzergruppe aus, die Sie kopieren möchten, und wählen Sie **Benutzergruppe kopieren** aus.
 3. Im Feld **Neuer Benutzergruppencode** geben Sie einen Namen für die Gruppe an. Wählen Sie dann die Schaltfläche **OK** aus.
 
-Die neue Benutzergruppe wird die Seite **Benutzergruppen** hinzugefügt. Fahren Sie fort, um Benutzer hinzuzufügen. Weitere Informationen finden Sie unter [So ordnen Sie Benutzer in Benutzergruppen](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
+Die neue Benutzergruppe wird die Seite **Benutzergruppen** hinzugefügt. Fahren Sie fort, um Benutzer hinzuzufügen. Weitere Informationen finden Sie unter [So ordnen Sie Benutzer in Benutzergruppen](ui-how-users-permissions.md#to-group-users-in-user-groups).  
 
 ## <a name="to-set-up-user-time-constraints"></a>So richten Sie Zeiteinschränkungen ein
 Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definieren, in denen die angegebenen Benutzer Buchungen durchführen können. Außerdem können sie angeben, ob die Zeitdauer erfasst, während der angegebene Benutzer angemeldet sind. Administratoren können Benutzern Zuständigkeitseinheiten zuordnen. Weitere Informationen finden Sie unter [Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md).

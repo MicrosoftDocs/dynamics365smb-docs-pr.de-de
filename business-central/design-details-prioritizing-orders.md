@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, priority, prioritize, order, sku, demand, supply
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 1d58a02bdfe4810d1116d20866d3b435bc7341bc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 06eb5221369d8777330ae844adfb5d87658d591d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799343"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924210"
 ---
 # <a name="design-details-prioritizing-orders"></a>Designdetails: Priorisieren von Aufträgen
 In bestimmten Lagerhaltungsdaten zeigt das angeforderte oder verfügbare Datum die höchste Priorität an; mit dem Bedarf des heutigen Tages soll vor dem Bedarf der nächsten Woche verfahren werden. Zusätzlich zu dieser allgemeinen Priorität schlägt das Planungssystem jedoch auch vor, welche Art von Bedarf vor anderen Bedarfen erfüllt werden soll. Ebenso empfiehlt es eine auszugleichende Versorgungsquelle vor anderen Versorgungsquellen. Dieses wird gemäß Auftragsprioritäten durchgeführt.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f917bed9eedf3c0aa8227d9c207de5e38f60a791
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9a2d4c8696eee9ec75de556b984d9ea2a87ad771
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798742"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928230"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Erfassen von Zahlungen per Lastschriftverfahren SEPA
 Mit Zustimmung Ihres Kunden können Sie Zahlungen direkt vom Bankkonto des Kunden gemäß dem SEPA-Format einziehen.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9c9d01e54aa43cbba722c459a2bf60be26433727
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799046"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927829"
 ---
 # <a name="depreciation-methods"></a>Abschreibungsmethoden
 Es gibt acht verfügbare AfA-Methoden:  
@@ -328,7 +328,7 @@ Jahr:
 
 *Degressiver Betrag = Betrag des gesamten Jahres = 40% von 100,000 = 40,000. Daher für ein halbes Jahr 40,000 / 2 = 20,000*  
 
-*Linearer Betrag = 100,000% von 5 = 20.000. Daher für ein halbes Jahr 20.000 / 2 = 10.000*B  
+*Linearer Betrag = 100,000 / 5 = 20.000. Daher für ein halbes Jahr 20.000 / 2 = 10.000*B  
 
 Es wird der degressive Betrag verwendet, da es sich um den größeren Betrag handelt.  
 

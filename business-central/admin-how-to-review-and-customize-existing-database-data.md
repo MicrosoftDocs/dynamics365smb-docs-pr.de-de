@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: admin-how-to-create-custom-company-configuration-packages
-ms.openlocfilehash: 1f49d437e03ecf45a234574530f1e65d93584dea
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 95b16dc77bcdb0051447a4f153dd720661c52cf9
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798319"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917936"
 ---
 # <a name="review-and-customize-existing-database-data"></a>So können Sie vorhandene Datenbank-Daten prüfen und anpassen.
 Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die verfügbaren Datenbankdaten anzeigen und anpassen, um Ihren Debitoranforderungen entsprechen. Die Datenbanktabelle muss eine zugeordnete Seite haben.  

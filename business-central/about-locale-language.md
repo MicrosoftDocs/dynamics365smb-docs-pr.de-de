@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 11/19/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 218b1b825501d64bef9d65640f922e690df3108f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798825"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923010"
 ---
 # <a name="changing-language-and-locale"></a>Sprache und Gebiet ändern
 

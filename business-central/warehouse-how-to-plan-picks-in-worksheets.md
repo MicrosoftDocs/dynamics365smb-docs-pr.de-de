@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 30a6832c0672677106fdb41c9a38a73dae296aa5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f0bf6da083b69d76c3f2ad75e8fb9b9d6bfdc5d9
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798420"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913039"
 ---
 # <a name="plan-picks-in-worksheets"></a>Kommissionierungen im Vorschlag bearbeiten
 Wenn Ihr Lager so eingerichtet wurde, dass die Bearbeitung der Kommissionierung sowie des Warenausgangs erforderlich sind, können Sie für das Lager festlegen, dass die Zeilen in Warenausgangsbelegen nicht automatisch in Kommissionieranweisungen umgewandelt, sondern stattdessen für den Kommissioniervorschlag verfügbar gemacht werden.  

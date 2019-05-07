@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 28a7dcdde6919016948ab4f0515df1c26813a603
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a3c70acef8f815a89b454e0282bada23408576bb
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826704"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927175"
 ---
 # <a name="vat-reporting"></a>MwSt.-Abrechnung
 MwSt.-Erklärungen können elektronisch übermittelt werden. Sie können eine XML-Datei generieren, elektronisch signieren, verschlüsseln und direkt an das ELSTER-Portal senden. Antworten werden im selben Schritt empfangen und verarbeitet.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 12/07/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 27c137ea6309d40cddc94bc676ec7ea27d5c01fa
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 68139f258595bcca2658e394a4251e30dfbe6510
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798514"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925040"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Anzeigen und Arbeit in Excel aus Business Central 
 
@@ -43,6 +43,8 @@ Mit Seiten, die eine Liste der Datensätze in den Zeilen und Spalten anzeigen, w
 >[!NOTE]
 >Für [!INCLUDE[prodshort](includes/prodshort.md)] lokal ist die **Bearbeiten Sie in Excel** Aktion nur verfügbar, wenn das Excel-Add-In vom Administrator speziell eingerichtet wurde. Für Administratoren wenn Sie erfahren möchten, wie das Excel-Add-In installiert wird gehen sie zu [Einrichten des Excel-Add-Ins](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-## <a name="see-also"></a>Siehe auch
+### <a name="see-the-differences-between-the-options"></a>Sehen Sie sich die Unterschiede zwischen den Optionen an 
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-[Arbeiten mit Business Central](ui-work-product.md)  
+## <a name="see-also"></a>Siehe auch
+[Arbeiten mit  Business Central](ui-work-product.md)  

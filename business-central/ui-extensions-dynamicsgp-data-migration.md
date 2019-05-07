@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: cf401500c34d8d40acc153a591229684770afa64
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798243"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917476"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Die Dynamics GP-Datenmigrations-Erweiterung 
 Diese Erweiterung erleichtert die Verwendung der GP-Datenmigrationserweiterung, um Debitoren, Kreditoren, Lagerartikel, Sachkonten, Transaktionen zu offenen Verbindlichkeiten und Forderungen von Dynamics GP auf [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Wenn Ihr Geschäft Dynamics GP heute verwendet, können Sie die relevanten Daten exportieren und dann eine unterstützte Einrichtungsanleitung öffnen, um die Daten hochzuladen und in [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Die Migrationserweiterungsarbeiten für alle unterstützten Versionen von Microsoft Dyanmics GP. Weitere Informationen finden Sie unter [Geschäftsdaten aus anderen Finanzsystemen zu importieren](across-import-data-configuration-packages.md).

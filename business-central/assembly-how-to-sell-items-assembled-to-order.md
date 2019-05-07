@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5540c45eefb1272c5dfa5c790586f6b33b4f4848
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: afd3cc767cacac922352072d816fb1fc193eca8d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798930"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912264"
 ---
 # <a name="sell-items-assembled-to-order"></a>Verkaufen von Auftragsmontageartikeln
 Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels **Auftragsmontage** anzeigt, wird nicht erwartet, dass der Artikel im Lagerbestand vorhanden ist, und er muss speziell für einen Verkaufsauftrag montiert werden. Wenn Sie den Artikel auf einer Verkaufsauftragszeile eingeben, wird ein Montageauftrag automatisch erstellt und mit dem Verkaufsauftrag verknüpft.  

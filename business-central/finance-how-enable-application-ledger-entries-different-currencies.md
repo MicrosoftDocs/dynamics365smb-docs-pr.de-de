@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 6d58c088c776a953cb76d102b7deeb3b8d69b42a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1569ff45bbbf8c3bf63538abdab143f9851a23a6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799040"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919168"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Anwendung von Kreditorenposten in unterschiedlichen Währungen aktivieren
 Falls Sie Einkäufe von einem Kreditor in einer Währung tätigen und die Zahlung in einer anderen Währung leisten, können Sie die Zahlung mit dem Einkauf ausgleichen.

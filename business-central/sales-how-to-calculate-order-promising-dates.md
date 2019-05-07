@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/23/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2b1eae5f8562999f3fca227b6de6778ef1c5374e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 119c3df2f58f6aeb7ee6614a56b85c42724517c8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798238"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919868"
 ---
 # <a name="calculate-order-promising-dates"></a>Lieferterminzusagen-Daten berechnen
 Ein Mandant muss in der Lage sein, seine Debitoren über Auftragslieferdaten zu informieren. Die Seite **Lieferzusagenzeilen** ermöglicht Ihnen, dies von einer Verkaufsauftragszeile aus zu tun.  

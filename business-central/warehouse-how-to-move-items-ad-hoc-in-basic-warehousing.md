@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b3760be8694f8c65ae07abaea9234a5dd524bb47
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799302"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913107"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Ad-hoc-Umlagerung von Artikeln in Basis-Lagerkonfigurationen
 Möglicherweise müssen Sie gelegentlich Artikel zwischen internen Lagerplätzen umlagern, ohne Eingangs- oder Versandlagerort und ohne einen speziellen Bedarf aus einem Herkunftsbeleg. Sie können diese Ad-hoc-Lagerplatzumlagerungen zum Beispiel durchführen, um das Lager neu zu organisieren, Artikel in einen Inspektionsbereich zu bringen oder zusätzliche Artikel an einen bzw. aus einem Fertigungsbereich zu bewegen, ohne dass ein Systembezug zum Herkunftsbeleg des Fertigungsauftrags besteht.  
@@ -57,7 +57,7 @@ In den Basislagerkonfigurationen können für Lagerplätze, die das Einrichtungs
     Die restliche Ad-hoc-Umlagerung führen Sie auf der Seite **Lagerbestandsumlagerung** auf dieselbe Weise aus, wie Sie eine Lagerplatzumlagerung basierend auf Herkunftsbelegen ausführen würden. Weitere Informationen finden Sie unter [Umlagern von Komponenten in einen Arbeitsgangbereich in Basis-Lagerkonfigurationen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Um Artikel mit dem Artikel-Umlagerungs-Buch.-Blatt umzulagern
-Anstelle der Verwendung von Lagerplatzumlagerungsbelegen können Sie die Umlagerung von Artikeln erfassen, indem Sie deren Lagerplatzcodes neu klassifizieren. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand](inventory-how-count-adjust-reclassify.md).   
+Anstelle der Verwendung von Lagerplatzumlagerungsbelegen können Sie die Umlagerung von Artikeln erfassen, indem Sie deren Lagerplatzcodes neu klassifizieren. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)   
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Artikel Buch.-Blätter neu klassieren** ein, und wählen dann den zugehörigen Link aus.  
 2.  Legen Sie in jeder Buch.-Blattzeile die Lagerplätze fest, von denen und auf die Sie Artikel umlagern möchten, indem Sie die Felder **Lagerplatzcode** und **Neuer Lagerplatzcode** ausfüllen.  
 

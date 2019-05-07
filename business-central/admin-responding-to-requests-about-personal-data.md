@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 11/06/2018
+ms.date: 04/01/2019
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798923"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917382"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Antworten auf Anforderungen zu Personendaten  
 Datensubjekte können mehrere Arten von Aktionen für die Personendaten abfragen. Beispielsweise unter dem Gesetz zum Schutz der allgemeinen Daten (DSGVO), haben EU-Bewohner das Recht, Export, das Löschen oder die Änderung Ihrer Personendaten anzufordern. Dieses wird *Anträge betroffener Personen* genannt. Wenn Sie sensible Daten klassifiziert haben und sicher sind, dass sie korrekt sind, kann ein Administrator auf Anforderungen reagieren, indem er den **Datenschutz** im Rollencenter **Benutzer, Benutzergruppen und Berechtigungen verwalten** nutzt, wenn Sie den Windows-Client im Rollencenter **IT-Manager** verwenden. Weitere Informationen zum Klassifizieren vol sensiblen Daten in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] und [Klassifizieren von Daten](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) und [Klassieren von Datensensibilität](admin-classifying-data-sensitivity.md).  
@@ -51,7 +51,7 @@ Wenn Sie eine Situation haben, in der Sie Daten exportieren müssen, die nicht a
 -   Fügen Sie diese Tabelle und Verbindung manuell mit dem Rapid Start Paket hinzu und exportieren Sie es direkt aus dem Rapid Start Paket - daher erstellen wir ein Anfangspaket einfach für Sie, so dass Sie dieses in Situationen wie dieser ändern können.
 
 ## <a name="handling-data-about-minors"></a>Behandlung von Daten Minderjähriger
-Wenn das Alter der Kontaktperson tiefer ist als das Alter der Volljährigkeit entsprechend dem Gesetz Ihres Landes, können Sie das mithilfe des Kontrollkästchens **Minderjährig** auf der Karte **Kontakt** aktivieren. Wenn Sie dies tun, wird das Kontrollkästchen **Datenschutzsperre** automatisch ausgewählt. Wenn Sie die Zustimmung des Feld von den Eltern oder dem Erziehungsberechtigten der minderjährigen Person erhalten, können Sie das Kontrollkästchen **Zustimmung eines Erziehungsberechtigten erhalten** aktivieren, um die Blockierung des Kontakts aufzuheben. Auch wenn Sie Personendaten für Minderjährige bearbeiten können, können Sie die Profilerstellungsfunktionalität in Microsoft Dynamics 365 for Sales nicht verwenden.
+Wenn das Alter der Kontaktperson tiefer ist als das Alter der Volljährigkeit entsprechend dem Gesetz Ihres Landes, können Sie das mithilfe des Kontrollkästchens **Minderjährig** auf der Karte **Kontakt** aktivieren. Wenn Sie dies tun, wird das Kontrollkästchen **Datenschutzsperre** automatisch ausgewählt. Wenn Sie die Zustimmung des Feld von den Eltern oder dem Erziehungsberechtigten der minderjährigen Person erhalten, können Sie das Kontrollkästchen **Zustimmung eines Erziehungsberechtigten erhalten** aktivieren, um die Blockierung des Kontakts aufzuheben. Auch wenn Sie Personendaten für Minderjährige bearbeiten können, können Sie die Profilerstellungsfunktionalität in Dynamics 365 for Sales nicht verwenden.
 
 > [!Note]
 > Das Änderungsprotokoll kann Details erfassen, wie wann und durch wen die **Zustimmung eines Erziehungsberechtigten erhalten** im Kontrollkästchen ausgewählt wurde. Ein Administrator kann dies mithilfe dem Leitfaden **Änderungsprotokoll einrichten** einrichten und kann auch das Kontrollkästchen **Protokoll-Änderung für Zustimmung eines Erziehungsberechtigten erhalten** auf der Karte **Kontakt** aktivieren. Weitere Informationen finden Sie unter [Änderungen protokollieren](across-log-changes.md).  

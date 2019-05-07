@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 11/19/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798481"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916222"
 ---
 # <a name="changing-basic-settings"></a>Ändern von grundlegenden Einstellungen
 Auf der Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Rufen Sie direkt die Benutzereinstellungsseite in Business Central auf") können Sie grundlegende Einstellungen anzeigen und ändern.[!INCLUDE[d365fin](includes/d365fin_md.md)] Änderungen, die Sie durchführen, betreffen nur den Arbeitsbereich; nicht die Arbeitsbereiche anderer Benutzer.  
@@ -48,10 +48,21 @@ Standardmäßig wird das aktuelle Datum (Systemdatum) verwendet. Um Aufgaben wie
 >   Tippen Sie **a**, um rasch das Arbeitsdatum in ein Datumsfeld einzugeben. Schreiben Sie **h**, um rasch das aktuelle Datum in das Datumsfeld einzugeben.
 
 > [!IMPORTANT]  
->   Das Arbeitsdatum wird nur geändert, bis Sie den Mandanten schließen, oder bis das Datum sich ändert. Wenn Sie am nächsten Tag einen anderen oder denselben Mandanten öffnen und ein anderes Arbeitsdatum verwenden müssen, dann müssen Sie das Arbeitsdatum erneut einstellen.
+>   Wenn Sie sich abmelden oder zu einem anderen Unternehmen wechseln, nachdem Sie das Arbeitsdatum geändert haben, werden die Arbeitsdaten auf das standardmäßige Arbeitsdatum zurückgesetzt. Wenn Sie sich daher das nächste Mal anmelden in zum ursprünglichen Unternehmen zurückkehren, muss Sie das Arbeitsdatum ggf. erneut einstellen. 
 
+### <a name="work-date-indication"></a>Arbeitsdatumsangabe
+<!--
+Whenever the work date is not set to the current day (today), there are two indicators on pages that you open for editing:
+
+- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in. 
+
+- If you dismiss the reminder, the work date will appear in the title of the page.  
+-->
+Wenn das Arbeitsdatum nicht auf den aktuellen Tag (heute) festgelegt ist, wird das aktuelle Arbeitsdatum auf allen Seiten, auf denen Sie Daten bearbeiten können, in der oberen linken Ecke der Seite angezeigt.
+  
 ## <a name="region"></a> Region
-Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.   
+
+Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.
 
 
 ## <a name="language"></a> Sprache

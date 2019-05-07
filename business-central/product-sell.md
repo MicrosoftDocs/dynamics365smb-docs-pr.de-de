@@ -1,8 +1,6 @@
 ---
 title: Business Central verkaufen | Microsoft Docs
 description: Finden Sie heraus, wie Sie Ihre Geschäftschancen erweitern und ein Microsoft Partner und Business Central-Wiederverkäufer werden.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: cc628a8f9c4a9727b359877ebe54eef25c947138
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c1ebab10e91fe1dabe26930891c1ef01e4bf79f7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798905"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928276"
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Werden ein Wiederverkäufer von [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Erweitern Sie Ihre Geschäftschance mit [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -27,11 +25,14 @@ Wenn Sie sich in den Cloudlösungen, in Office 365, in SharePoint, in den Branch
 [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt Sie dabei, Kundenbeziehungen zu differenzieren und zu vertiefen, indem es Ihnen die Möglichkeit gibt, die Unternehmensverwaltungslösung unmittelbar abzustimmen und Personen und Arbeitsgänge miteinander zu verbinden, und zwar eingebettet in die Microsoft Office-Tools, die kleine und mittlere Unternehmen jeden Tag verwenden.  
 
 ## <a name="get-started"></a>Erste Schritte
-Anmelden für ein [!INCLUDE[d365fin](includes/d365fin_md.md)] Vorschauabonnement [https://microsoft.com/dynamics365/financials](https://www.microsoft.com/en-us/dynamics365/financials).  
-Feedback senden bei [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
-Wenn Sie mehr erfahren möchten, wie Sie ein [!INCLUDE[d365fin](includes/d365fin_md.md)]-Wiederverkäufer werden, kontaktieren Sie uns unter [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).  
+
+Das "Ready-to-Go"-Programm ist eine Möglichkeit, als ein Einzelhändler [!INCLUDE [prodshort](includes/prodshort.md)] anzufangen. Sie können auch die Microsoft-Filiale in Ihrem Land oder Ihrer Region kontaktieren. Weitere Informationen zu Ressourcen, die Ihnen über das "Ready-to-go"-Programm zur Verfügung stehen, finden Sie unter [aka.ms/readytogo](https://aka.ms/readytogo). Erfahren Sie unter [Verkaufen – verschiedene Lösungen](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) mehr darüber, wie Sie ein Einzelhändler werden.  
+
+Melden Sie sich unter [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/en-us/business-central/overview/
+) für einen Testzeitraum an und senden Sie uns unter [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758) Ihr Feedback.  
 
 ## <a name="see-also"></a>Siehe auch
+
 [Erste Schritte](product-get-started.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  

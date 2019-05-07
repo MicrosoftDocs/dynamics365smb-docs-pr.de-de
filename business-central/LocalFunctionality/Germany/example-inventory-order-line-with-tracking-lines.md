@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 91a6436cf9539c3808d80de80bf97b9b03d0ebea
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: ../../inventory-how-count-inventory-with-documents
+ms.openlocfilehash: fc3f4bca5a09ec4780bded9f5e87d37a4484e9e3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826737"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919628"
 ---
 # <a name="example---inventory-order-line-with-tracking-lines"></a>Beispiel - Inventurauftragszeile mit Nachverfolgungszeilen
 Eine Inventurauftragszeile enthält die folgenden buchungsrelevanten Daten:  

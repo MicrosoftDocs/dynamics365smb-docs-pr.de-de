@@ -1,6 +1,6 @@
 ---
 title: 'So geht es: Aufträge mit XBRL erstellen | Microsoft Docs'
-description: XBRL (eXtensible Business Reporting Language) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben.
+description: XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2b17ad5dabed505b358b8c2be6414b17228724b8
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0576f2e7b93040118d2ef31458939d9b9822a6aa
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799390"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922015"
 ---
 # <a name="create-reports-with-xbrl"></a>Berichte mit XBRL erstellen
-XBRL (eXtensible Business Reporting Language) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben. Die XBRL-Initiative ermöglicht die Erstellung globaler Finanzberichte durch verschiedene ERP-Softwareunternehmen und internationale Buchhaltungsorganisationen. Das Ziel der Initiative ist es, einen Standard für die einheitlichen Berichterstellung der Finanzdaten für Banken, Investoren und Regierungsbehörden bereitzustellen. Solche Geschäftsberichte können Folgendes umfassen:  
+XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben. Die XBRL-Initiative ermöglicht die Erstellung globaler Finanzberichte durch verschiedene ERP-Softwareunternehmen und internationale Buchhaltungsorganisationen. Das Ziel der Initiative ist es, einen Standard für die einheitlichen Berichterstellung der Finanzdaten für Banken, Investoren und Regierungsbehörden bereitzustellen. Solche Geschäftsberichte können Folgendes umfassen:  
 
  • Finanzauswertungen  
  • Finanzinformationen  
@@ -29,8 +29,8 @@ XBRL (eXtensible Business Reporting Language) ist eine XML-basierte Sprache zum 
 
  [!INCLUDE[d365fin](includes/d365fin_md.md)] Microsoft Dynamics NAV ermöglicht Unternehmen die Implementierung von Daten in XBRL. Die Unternehmen profitieren dadurch von der Flexibilität und Automatisierung, die Ihnen XBRL beim Sammeln und gemeinsamen Nutzen von Daten bietet.  
 
-## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
-XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) ist eine XML-basierte Sprache für das Finanzberichtswesen. XBRL (eXtensible Business Reporting Language) ist eine XML-basierte Sprache für Finanzberichtswesen. XBRL ist ein Standard für alle Nutzer der Supply-Chain zur einheitlichen Finanzberichterstattung. Dazu können private Unternehmen, das Buchhaltungswesen, Verwaltungen, Analysten, Investmentfirmen, Kapitalmärkte und Kreditgeber als auch Dritte in Schlüsselpositionen wie Softwareentwickler und Datenverwalter gehören.  
+## <a name="extensible-business-reporting-language"></a>eXtensible Geschäfts-Berichterstellungs-Sprache
+XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) ist eine XML-basierte Sprache für das Finanzberichtswesen. XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache für Finanzberichtswesen. XBRL ist ein Standard für alle Nutzer der Supply-Chain zur einheitlichen Finanzberichterstattung. Dazu können private Unternehmen, das Buchhaltungswesen, Verwaltungen, Analysten, Investmentfirmen, Kapitalmärkte und Kreditgeber als auch Dritte in Schlüsselpositionen wie Softwareentwickler und Datenverwalter gehören.  
 
 Taxonomien sind unter www.xbrl.org erhältlich. Auf der XBRL-Website können Sie Taxonomien herunterladen oder weitere Informationen erhalten.  
 

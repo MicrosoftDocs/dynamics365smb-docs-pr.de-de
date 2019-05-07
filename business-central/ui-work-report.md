@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852424"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921409"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Arbeiten mit Berichten und Stapelverarbeitungen
 Ein Bericht stellt Informationen auf Basis eines bestimmten Satz an Kriterien zusammen und unterteilt die Informationen in ein einfach zu lesendes, druckbares Format. Es gibt viele Berichte, auf die Sie im Zuge der Anwendung zugreifen können. Die Berichte stellen in der Regel Informationen proportional zu dem Kontext der Seite bereit, auf der Sie sich befinden. Beispielsweise der **Debitor** für die Seite Berichte Top 10 Debitoren und die Verkaufsstatistik und mehr.
@@ -50,9 +50,9 @@ Die Verwendung von gespeicherten Einstellungen ist eine schnelle und zuverlässi
 ### <a name="setting-options-and-filters"></a>Optionen und Filter einstellen
 Wenn Sie die Daten weiter einschränken oder festlegen möchten, die in einem Bericht enthalten sind, können Sie Zusatzfunktionen und Filter festlegen.
 
-Filter ermöglichen Ihnen, Datenanzeigen basierend auf bestimmten Kriterien anzuzeigen. Filter werden durch die Einheit, der sie angehören, wie in der Abbildung **Debitor** oben gruppiert. Sie definieren einen Filter, indem Sie das Kästchen **Wo** in das Feld setzen, das Sie filtern möchten, und dann die Kriterien im Feld **ist:** hinzufügen. Zum Beispiel in der Abbildung oben,gibt es einen individuellen Filter, der Berichte für den Debitor erstellt, deren **Nr.** gleich **01121212** ist.
+Filter ermöglichen Ihnen, Datenanzeigen basierend auf bestimmten Kriterien anzuzeigen. Filter werden durch die Einheit, der sie angehören, wie in der Abbildung **Debitor** oben gruppiert. Sie definieren einen Filter, indem Sie das Kästchen **Wo** in das Feld setzen, das Sie filtern möchten, und dann die Kriterien im Feld **ist:** hinzufügen.
 
-Sie können weitere Filter hinzufügen, indem Sie die Felder **Hinzufügen** festlegen. Wenn Sie mehr als einen Filter haben, werden nur Ergebnisse, die die Kriterien für alle Filter erfüllen, im Bericht berücksichtigt werden.
+Sie können weitere Filter hinzufügen, indem Sie die Felder **Und** sowie **ist** ausfüllen. Wenn Sie mehr als einen Filter haben, werden nur Ergebnisse, die die Kriterien für alle Filter erfüllen, im Bericht berücksichtigt werden.
 
 Abhängig davon, in welchem Feld Sie filtern, können Sie die gewünschten Filterkriterien festlegen, um nach einer exakten Sprachgruppe, einer teilweisen Übereinstimmung, einem Datenbereich und mehr suchen. Informationen zur Einrichtung von Filtern finden Sie unter:
 -   [Filterung](ui-enter-criteria-filters.md#FilterCriteria)

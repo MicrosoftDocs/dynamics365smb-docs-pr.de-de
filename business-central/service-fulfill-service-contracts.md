@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 574509447668d0aab4bba0394029f784eb55ca2e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799188"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912050"
 ---
 # <a name="fulfilling-service-contracts"></a>Erfüllen von Serviceverträgen 
 Eine Möglichkeit zum Einrichten eines Servicemanagementgeschäfts besteht darin, dass standardmäßige vertragliche Vereinbarungen zwischen Ihnen und den Debitoren bestehen, in denen die Qualität des Services und die Erwartungen daran beschrieben werden. Ein derartiges System kann implementiert werden, indem eine Möglichkeit zum einfachen Erstellen von Vertragsvorlagen geboten wird, die erforderliche Informationen, wie Startdatum des Vertrags und Rechnungsperiode, beinhalten.  

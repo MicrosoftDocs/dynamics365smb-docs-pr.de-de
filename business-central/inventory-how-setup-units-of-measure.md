@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 47d59af91af7c043c98a4db2a5c103b0052e32e2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799358"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919245"
 ---
 # <a name="set-up-item-units-of-measure"></a>Artikeleinheiten einrichten
 Sie können mehrere Einheiten für einen Artikel einrichten, sodass Sie für folgende Zwecke Einheiten den Artikeln zuweisen können:

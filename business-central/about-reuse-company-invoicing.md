@@ -1,21 +1,21 @@
 ---
 title: Invoicing und Business Central verwenden | Microsoft Docs
 description: Problemumgehung für den Zugriff auf Microsoft Invoicing, wenn Sie sich für Dynamics 365 Business Central registriert haben.
-author: edupont04
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 11/26/2018
-ms.author: edupont
-ms.openlocfilehash: 95213b7d5881945bb2880e6288eef1b415427ca5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.search.keywords: Invoicing, Office 365
+ms.date: 04/01/2019
+ms.author: bholtorf
+ms.openlocfilehash: 0173d64e140cfea91bf7f08d821c2d30cf0eb7b3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798769"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911268"
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Mithilfe des gleichen Office 365 Kontos in [!INCLUDE[d365fin](includes/d365fin_long_md.md)] und Microsoft Invoicing
 Wenn Sie sich für eine Testversion anmelden [!INCLUDE[d365fin](includes/d365fin_md.md)], können das Programm 30-Tage lang testen, Sie können ein Abonnement abschließen oder Sie können die Verwendung von [!INCLUDE[d365fin](includes/d365fin_md.md)] beenden. In allen Fällen sehen Sie bei der Anmeldung in das Office-Portal eine Kachel **Microsoft Invoicing** und klicken darauf. Dieses ist ein Teil des Office 365 Business Premium Abonnements, deshalb sieht nicht jeder die Kachel im Office-Portal.  
@@ -25,19 +25,21 @@ Wenn Sie auf Microsoft Invoicing zugreifen, sehen Sie eine Meldung, dass Sie nic
 Sie sehen eine ähnliche Meldung, wenn Sie die mobile App für die Fakturierung einrichten.  
 
 ## <a name="workaround"></a>Problemumgehung
-Invoicing und [!INCLUDE[d365fin](includes/d365fin_md.md)] haben eine freigegebene Plattform. Das bedeutet, dass Sie als bestehender Benutzer von [!INCLUDE[d365fin](includes/d365fin_md.md)] erkannt werden, wenn Sie auf Rechnungsstellung im Geschäftszentrum klicken. Der Grund ist, dass das Invoicing nicht das gleiche Unternehmen als [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden kann.  
+Invoicing und [!INCLUDE[d365fin](includes/d365fin_md.md)] haben eine freigegebene Plattform. Das bedeutet, dass Sie als bestehender Benutzer von [!INCLUDE[d365fin](includes/d365fin_md.md)] erkannt werden, wenn Sie auf Rechnungsstellung im Office-Portal klicken. Der Grund ist, dass das Invoicing nicht das gleiche Unternehmen als [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden kann.  
 
 Daher müssen Sie sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden und Ihr bestehendes Unternehmen umbenennen und dann ein neues Unternehmen erstellen, dass Sie dann in Invoicing verwenden können. Keine Daten werden bei dieser Problemumgehung überschrieben oder verschoben.
 
 ### <a name="to-rename-your-company"></a>Ihr Unternehmen umbenennen
-1.  Anmelden bei [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Unternehmen** ein, und wählen dann den zugehörigen Link aus.  
-3.  Im Fenster **Unternehmen** wählen Sie die Schaltfläche **Liste bearbeiten** aus.  
-4.  Ändern den Namen des Postens *Mein Unternehmen* in etwas anderes.  
+1. Melden Sie sich an bei [!INCLUDE[d365fin](includes/d365fin_md.md)].
+2. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") und dann **Meine Einstellungen**.
+3. Wählen Sie im Feld **Unternehmen** ein anderes Unternehmen aus.
+4. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Unternehmen** ein, und wählen dann den zugehörigen Link aus.  
+5. Auf der Seite **Unternehmen** wählen Sie **Liste bearbeiten** aus.  
+6. Ändern den Namen des Postens *Mein Unternehmen* in etwas anderes.  
 
     Warten Sie mehrere Minuten. Wir machen einige Änderungen in der zugrunde liegenden Datenbank und das kann eine Weile dauern.
-5.  Wenn die Anwendung wieder bereit steht, wählen Sie die Schaltfläche **Neues Unternehmen erstellen** aus.  
-6.  Im Dialogfeld, das erscheint, geben Sie den Namen als *Mein Unternehmen* an, und wählen Sie die Option **Suiten-Produktion – nur Einrichtungsdaten** aus.  
+7.  Wenn die Anwendung wieder bereit steht, wählen Sie die Schaltfläche **Neues Unternehmen erstellen** aus.  
+8.  Im Dialogfeld, das erscheint, geben Sie den Namen als *Mein Unternehmen* an, und wählen Sie die Option **Suiten-Produktion – nur Einrichtungsdaten** aus.  
 
 Dies kann wieder mehrere Minuten dauern. Wenn der Vorgang abgeschlossen ist, sind Sie in der Lage, auf Invoicing als Teil Ihrer Office 365 Business Premium Erfahrung zuzugreifen.  
 

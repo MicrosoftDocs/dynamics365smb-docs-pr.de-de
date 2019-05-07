@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: afaab918f2959ee32315988c81dee987499aa05a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: be056212ecfd610cbd7753a6ffc9babb08100359
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852240"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926890"
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.
@@ -39,7 +39,7 @@ Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den
 |Erfahren Sie, wie Sie mit Excel in [!INCLUDE[d365fin](includes/d365fin_md.md)] von nahezu überall interagieren können.|[Anzeigen und bearbeiten in Excel](across-work-with-excel.md)|
 |Erhalten Sie Benachrichtigungen über spezielle Ereignisse oder Statusänderungen, beispielsweise, wenn Sie dabei sind, einen Kunden zu fakturieren, der einen überfälligen Saldo hat.|[Verwalten von Benachrichtigungen](ui-smart-notifications.md)|
 | Grundeinstellungen wie Unternehmen, Arbeitsdaten und Rollencenter ändern. |[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md) |
-| Ändern Sie, welche Felder und Aktionen in der Benutzeroberfläche angezeigt werden, um den Geschäftsprozessen des Unternehmens zu entsprechen. |[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+| Ändern Sie, welche und wo Benutzeroberflächenelemente passend zu Ihren Vorlieben angezeigt werden.|[Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md) |
 |Definieren, drucken oder speichern Sie Berichte, zeigen Sie sie als Vorschau an, und definieren Sie Stapelverarbeitungen und führen Sie sie aus.|[Arbeiten mit Berichten und Stapelverarbeitungen](ui-work-report.md)|
 | Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr.|[Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md) |
 |Erhalten von Informationen über Funktionen und Funktionen, die einfach [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar sind für  Personen mit Behinderungen.|[Eingabehilfe und Tastenkombinationen](ui-accessibility.md)|
@@ -55,3 +55,4 @@ Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[d365fin](incl
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

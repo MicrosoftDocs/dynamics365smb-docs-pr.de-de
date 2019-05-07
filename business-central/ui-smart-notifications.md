@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ea0429a42447a980cf9d23f0f3b70d7c57efa184
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: c70a8fd066ffd5d312716891aa4cdf7768cd102a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852153"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926676"
 ---
 # <a name="managing-notifications"></a>Verwalten von Benachrichtigungen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kann nützlich sein, um intelligenter zu arbeiten, indem es Sie beispielsweise informiert, wenn Sie einen Debitoren fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Diese Benachrichtigungen werden als diskrete Tipps im Kontext der Aufgabe angezeigt, die Sie durchführen, und Sie können wählen, ob Sie die Benachrichtigung ignorieren oder Details zu dem Problem anzeigen wollen.  

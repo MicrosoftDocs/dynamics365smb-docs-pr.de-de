@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/20/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac2582e48d03738974d5db51841e1efdf4c0a316
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 651744bb99d7946a51d9dba5ace07578ac51fffb
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799267"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917046"
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbeiten mit Rahmenaufträgen
 Ein Rahmenauftrag stellt ein Gerüst für eine langfristige Vereinbarung zwischen Ihnen und einem Debitor dar.

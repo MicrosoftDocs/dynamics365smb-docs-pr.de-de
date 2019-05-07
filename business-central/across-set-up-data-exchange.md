@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a48bb2ab210d954901e8fb39b6e6ec59670bdee4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 759a6045440b7f15c7b87d3aff83c2447abd6ce2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798101"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913178"
 ---
 # <a name="setting-up-data-exchange"></a>Einrichten eines Datenaustauschs
 Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren und exportieren können, müssen Sie das Daten-Exchange-Framework einrichten, um die entsprechenden Dateien zu verarbeiten. Außerdem müssen Sie zugehörige Bereiche einrichten, z. B. Stammdaten für Debitoren, an die Sie elektronische Rechnungen senden, oder den Bankdaten-Konvertierungsdienst, falls Sie den externen Dienstleister mit der Konvertierung Ihrer Bankdateien beauftragen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  

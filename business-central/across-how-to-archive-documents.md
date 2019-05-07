@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/14/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2f05313d30aede255e4ef49065f0189d649ce93c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 32a50a2b1b967fa2f19022ab6e07865716243d8e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799136"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917166"
 ---
 # <a name="archive-documents"></a>Beleg archivieren
 Sie können Verkaufs- und Einkaufsaufträge, Angebote und Rücklieferungen sowie Rahmenaufträge archivieren, beispielsweise weil Sie eine Kopie eines Dokuments zur späteren Wiederverwendung speichern möchten. Sie können ein Verkaufs- oder Einkaufsbeleg mehrmals archivieren, wobei Sie jedes Mal eine andere archivierte Version speichern.

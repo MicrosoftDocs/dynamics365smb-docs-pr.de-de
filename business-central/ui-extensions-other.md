@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: abe5cd8829987b573c8fde706c67847642d6e158
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f3c08748cb6adc0abe90606ab4182a002dbb6dbf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852032"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913918"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Business Central-Erweiterungen von anderen Anbietern
 Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Erweiterungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] abrufen. Einige Erweiterungen werden von Microsoft bereitgestellt, und andere Erweiterungen werden von anderen anderen Unternehmen bereitgestellt. Wir verweisen auf die Websites, die diese Mandanten für weitere Informationen über die Erweiterungen bereitstellen, die nicht durch Microsoft veröffentlicht werden. Sie können diese Angaben finden unter [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  

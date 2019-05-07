@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1175a7fe058de5f8e7876014d8a71227b7cc46d8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "797973"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922985"
 ---
 # <a name="design-details-costing-methods"></a>Designdetails: Kostenberechnungsmethoden
 Die Lagerabgangsmethode legt fest, ob ein tatsächlicher oder ein budgetierter Wert gebucht und in der Berechnung des Einstandspreises verwendet werden soll. Zusammen mit dem Buchungsdatum und der -reihenfolge beeinflusst die Lagerabgangsmethode auch, wie der Kostenfluss aufgezeichnet wird. Die folgenden Methoden werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt:  

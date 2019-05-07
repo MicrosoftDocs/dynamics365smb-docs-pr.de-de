@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 02/25/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 2178070d1659daa71aad72f75ce724eefd06420d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 95301c0d8473adf923b4c5ed81bec9e873fad8df
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798957"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912460"
 ---
 # <a name="included365finlongincludesd365finlongmdmd-trials-and-previews"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Testversionen und Vorschauen
 

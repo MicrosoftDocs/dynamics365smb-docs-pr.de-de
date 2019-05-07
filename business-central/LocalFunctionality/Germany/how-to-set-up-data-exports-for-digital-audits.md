@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ee0e25241092f4efd55601f8e999d669e6964c2e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d4620d741e3ee7c892f8f552771b3b0fee3d129b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826701"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912964"
 ---
 # <a name="set-up-data-exports-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung einrichten
 Sie müssen die Export-Datensatzquellen einrichten, um die Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen zu (GDPdU) exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen.  

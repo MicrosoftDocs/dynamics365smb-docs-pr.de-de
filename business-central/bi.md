@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 21042f9eb55413a6627dab830091686e06c34acc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799022"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915288"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 In Unternehmen fällt Tag für Tag eine erhebliche Menge an Daten an. Diese Daten – wie Verkaufszahlen der Organisation, Einkäufe, operative Aufwendungen, Löhne/Gehälter oder Budgets – sind für Entscheidungsträger eine Quelle wichtiger Informationen (auch: Business Intelligence). [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über eine Reihe von Features, die Sie beim Sammeln, Analysieren und gemeinsamen Nutzen von Firmendaten unterstützen.
@@ -42,8 +42,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Finanzen](finance.md)    
 [Verwenden von Business Central als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
 [Schließen des Finanzzeitraums](year-close-years-periods.md)  
-[Importieren von Daten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
+[Daten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

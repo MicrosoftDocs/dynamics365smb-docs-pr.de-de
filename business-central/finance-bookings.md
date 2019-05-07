@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 01/07/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: faa7946dd376dd8e0f89e35cd798a6de45a3248d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799108"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916576"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Massenrechnungsstellung für Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Wenn Ihr Unternehmen die Anmeldungs-App in Office 365 verwendet, können Sie Massenrechnungsstellung für Termine vornehmen. Die Seite **Nicht in Rechnung gestellte Anmeldungen** in [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt eine Liste der abgeschlossenen Anmeldungen des Mandanten bereit. Auf dieser Seite können Sie schnell die Termine auswählen, die Sie verrechnen wollen und Entwurfsrechnungen für die erbrachten Services erstellen.  

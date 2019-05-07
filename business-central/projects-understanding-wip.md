@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 114acef8ed55bf60d7b96733e321440633037b42
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9b50ff10afb1530d9886650106571c612cd89d31
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799208"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926986"
 ---
 # <a name="understanding-wip-methods"></a>Verständnis - WIP-Methoden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt die folgenden Methoden zum Berechnen der Inventur und der Wert der unfertigen Arbeit.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 650fb7c92e5d66d238462911011369201d102ea0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 42e0bd7555b99b8e9ba6748d77817c69eb55d009
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798908"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923128"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Mindestanforderungen für die Nutzung von Business Central
 Bevor Sie auf [!INCLUDE[d365fin](includes/d365fin_md.md)] zugreifen, empfiehlt es sich, dass Sie sicherstellen, dass Ihr Computer oder Ihr mobiles Gerät die Mindestsystemanforderungen für das Produkt erfüllt oder übersteigt. Dieser Artikel liste die Anforderungen auf.  

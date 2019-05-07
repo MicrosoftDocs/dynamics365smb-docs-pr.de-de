@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c8e58ae653d1e8fca520fc8f3e876df67f50950
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c7a5aa7d768a4fe2fae111b04ffc1fdab65d07dc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798169"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919971"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbeiten mit Chargennummern und Seriennummern
 Sie können Serien-/Chargennummern zu beliebigen ausgehenden oder eingehenden Belegen zuweisen, und die gebuchte Artikelverfolgung wird in den entsprechenden Buchungsposten angezeigt. Sie führen die Arbeit auf der Seite **Artikelverfolgungszeilen** aus, die Sie über einen eingehenden und ausgehenden Beleg öffnen können.
@@ -240,7 +240,7 @@ Die Inhalte der Felder **Seriennr.** und **Chargennr.** können nicht geändert 
 Ein Umbuchen der Artikelverfolgung für einen Artikel bedeutet, dass eine Chargen- oder Seriennummer in eine neue Chargen- oder Seriennummer oder das Ablaufdatum in ein neues Ablaufdatum geändert wird. Wenn Sie mit Chargen arbeiten, können Sie außerdem mehrere Chargen zu einer Charge vereinigen. Das Ausführen dieser Aufgaben erfolgt mit dem Artikel-Umlagerungs-Buch.-Blatt.
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Artikel Buch.-Blätter neu klassieren** ein, und wählen dann den zugehörigen Link aus.  
-2.  Füllen Sie die Zeile mit den relevanten Informationen aus. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand](inventory-how-count-adjust-reclassify.md).
+2.  Füllen Sie die Zeile mit den relevanten Informationen aus. Weitere Informationen finden Sie unter [Lagerbestand anhand der Belege erfassen](inventory-how-count-inventory-with-documents.md) oder [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md).
 3.  Wählen Sie die **Artikelverfolgungszeilen** Aktion aus.  
 4.  Wählen Sie im Feld **Seriennr.** oder **Chargennr.** die aktuelle Serien- oder Chargennummer aus.  
 5.  Wenn Sie eine Einen neuen Artikelverfolgungsnummer eingeben möchten, geben Sie diese in das Feld **Neue Seriennr.** oder **Neue Chargennr.** ein. Bei Bedarf können Sie ein oder mehrere Chargen in einer oder mehreren neuen Chargen zusammenführen.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/31/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c4239904c17db334cee006d5de08ea8c0e80b750
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e4bfcb21263e3e0b08874fe9b9397a35fc484881
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799290"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913155"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Exemplarische Vorgehensweise: Automatische Beschaffungsplanung
 

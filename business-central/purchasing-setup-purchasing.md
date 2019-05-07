@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 267f55c59f910633932c35a36e792a5fbfb0f4a2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4c08d91946857c49365472d9d1665d80db285425
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798407"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927079"
 ---
 # <a name="setting-up-purchasing"></a>Einkauf einrichten
 Bevor Sie Einkaufsprozesse verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Einkaufsrichtlinien des Mandanten definieren.

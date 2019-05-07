@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 12/03/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 80dcc6b46cdb89c846666963baffa6704daade28
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798598"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925993"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Erste Schritte mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Eine Registrierung ist einfach und Sie können vorhandene Unternehmensdaten von Ihrem bestehenden System migrieren. Um Ihnen mit Ihrem Abonnement zu helfen, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner [hier](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -41,7 +41,7 @@ Wenn Sie bereit sind, etwas tiefer hineinzublicken und einige der Geschäftsproz
 ## <a name="the-role-centers"></a>Die Rollencenter
 Die Rollencenter-Seite basiert auf einem rollenorientierten Design, damit Sie rasch auf Geschäftsvorgangs- und Intelligenztools zugreifen können, die Sie für Ihre Arbeit benötigen. Beispielsweise kann ein Buchhalter Zahlungen und Genehmigungen überwachen und Finanzdienstleistungsdiagramme anzeigen. Prüfen Sie die verschiedenen Rollencenter, indem Sie das Symbol **Einstellungen** auswählen ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") in der oberen rechter Ecke, wählen Sie **Meine Einstellungen** und dann das entsprechende Rollencenter. Melden Sie sich erneut, um die Änderung zu übernehmen. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md).
 
-Jedes Rollencenter bietet eine Schaltfläche **Einrichtung und Erweiterungen**. Hier haben Sie Zugriff auf eine Liste der unterstützten Einrichtung, die Ihnen dabei helfen kann, ausgewählte Bereiche rasch aufzusetzen. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung** aus, um auf die Einrichtungsseiten zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+Jedes Rollencenter bietet eine Schaltfläche **Einrichtung und Erweiterungen**. Hier haben Sie Zugriff auf eine Liste des Leitfadens für das unterstützte Setup, der Ihnen dabei helfen kann, ausgewählte Bereiche rasch aufzusetzen. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung** aus, um auf die Einrichtungsseiten zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 
 > [!NOTE]  
 >   Die Liste der Einrichtungshilfen, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Premium**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung "Standard". Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).  
@@ -73,7 +73,7 @@ Alternativ finden Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner 
 
 ## <a name="getting-answers-to-questions"></a>Abrufen von Antworten zu den Fragen
 
-Wenn Sie nicht sicher sind, wie man etwas in [!INCLUDE[d365fin](includes/d365fin_md.md)] macht, können Sie die Antwort entweder in den QuickInfo für das Feld finden, zu dem Sie Zweifel haben, oder indem Sie den Inhalt lesen, indem Sie den Link in der Quickinfo öffnen *Weitere Informationen*. Sie können auch zur Dokumentation gelangen, indem Sie den entsprechenden Link im Menü Hilfe auswählen.  
+Wenn Sie nicht sicher sind, wie man etwas in [!INCLUDE[d365fin](includes/d365fin_md.md)] macht, können Sie die Antwort entweder in den QuickInfo für das Feld finden, zu dem Sie Zweifel haben, oder indem Sie den Inhalt lesen, indem Sie den Link *Weitere Informationen* in der Quickinfo öffnen (verwenden Sie das Tastenkürzel Strg+F1). Sie können auch zur Dokumentation gelangen, indem Sie den entsprechenden Link auf der [Hilfe und Support-Seite](product-help-and-support.md) auswählen.  
 
 Alle Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] werden in QuickInfo beschrieben. Auf QuickInfo können Sie zugreifen, indem Sie den Feldnamen auswählen. Zum Beispiel in einem Feld wie **Debitorenkarte**, aktivieren Sie einfach den Namen des Felds, um die QuickInfo zu lesen. In einer Liste wie der Liste **Debitoren** oder in den Zeilen in einen Beleg wie einem Verkaufsauftrag, müssen Sie das Dropdownmenü des Namens der Spalte auswählen und das Menüelement **Was ist das?** wählen.  
 
@@ -88,14 +88,16 @@ Navigieren Sie zu Inhalten von anderen Dynamics 365 Apps werden, indem Sie den L
 Wenn Sie ein Buchhalter sind, können Sie sich für [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] registrieren und erhalten mit [!INCLUDE[d365fin](includes/d365fin_md.md)] nahtlose Integration. Weitere Informationen finden Sie unter [Willkommen bei Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Siehe auch
+
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Abrufen [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)  
+[Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Dynamics 365 Dokumentation](https://docs.microsoft.com/en-us/dynamics365/)  
 [Microsoft Dynamics 365 Business Central-Versionshinweise](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]  

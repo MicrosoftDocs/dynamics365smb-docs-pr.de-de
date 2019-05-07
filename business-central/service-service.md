@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 06f2f8d56d16ef1177bf49e30795cf41af69b8bd
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: bd37d6f2364ec1466e7d3d8769da13761587f1d8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798417"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914881"
 ---
 # <a name="service-management"></a>Service
 > [!NOTE]

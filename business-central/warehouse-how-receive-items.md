@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e56105cbd2410befea964c5445d8227021058d4f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0c9e95ee0fd0c92049bf578acfb1867c116afdad
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798794"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924048"
 ---
 # <a name="receive-items"></a>Empfangen von Artikeln
 Wenn Artikel bei einem Lager ankommen, das nicht für die Bearbeitung des Wareneingangs eingerichtet wurde, können Sie den Wareneingang einfach im zugehörigen Geschäftsdokument, wie einer Einkaufsbestellung, einer Verkaufsreklamation oder ein eingehender Umlagerungsauftrag, erfassen.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2492ebf0d9987bd126fa963c6d7d940c6a114796
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799029"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914810"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Einrichten von Artikeln und Standorten für die gesteuerte Einlagerung und Kommissionierung
 Wenn Sie einen Lagerort für die gesteuerte Einlagerung und Kommissionierung einrichten, steht Ihnen eine neue Funktionalität zur Verfügung, die Ihnen hilft, das Lager so effizient wie möglich zu betreiben. Um diese Funktionalität voll auszuschöpfen, liefern Sie der Anwendung zusätzliche Informationen zu den Artikeln, wodurch die Anwendung ihrerseits dabei unterstützt wird, die erforderlichen Berechnungen anzustellen, um die effizientesten und effektivsten Möglichkeiten zur Durchführung der Lageraktivitäten vorzuschlagen. Weitere Informationen finden Sie unter [Designdetails: Lagerhaus einrichten](design-details-warehouse-setup.md).

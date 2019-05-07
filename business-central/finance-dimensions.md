@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799273"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920842"
 ---
 # <a name="working-with-dimensions"></a>Arbeiten mit Dimensionen
 Um Analyse in Belegen wie Verkaufsaufträgen einfacher durchzuführen, können Sie Dimensionen verwenden. Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie verfolgen und analysieren können. So können Sie beispielsweise Dimensionen einrichten, mit denen angegeben wird, aus welchem Projekt oder aus welcher Abteilung ein Posten stammt.  
@@ -48,12 +48,12 @@ Sie können die Dimensionen und die Dimensionswerte, die Sie verwenden möchten,
 
 Sie erstellen auch Einrichtungswerte für Dimensionen. Beispielsweise könnten Werte Abteilungen Ihres Unternehmens darstellen. Dimensionswerte können in einer hierarchischen Struktur eingerichtet werden, die der Struktur des Kontenplans gleicht, sodass die Daten in unterschiedlichen Granularitätsstufen aufgeschlüsselt und Untergruppen von Dimensionswerten summiert werden können. Sie können beliebig viele Dimensionen und Dimensionswerte in Ihrem Mandanten definieren und Sie können eine unbegrenzte Anzahl von Dimensionswerten für jede Dimension festlegen.
 
-Sie können mehrere globale und Shortcutdimensionen einrichten:  
+Wenn Dimensionen und Werten eingerichtet wurden, können Sie globale und Shortcut-Dimensionen auf Seite **Finanzbuchhaltungs-Einrichtung** definieren, die immer verfügbar sind, um Felder in Buch.-Blattzeilen und Belegzeilen auszuwählen, ohne zuerst die Seite **Dimensionen** öffnen zu müssen. Weitere Informationen finden Sie unter [So richten Sie globale und Shortcut-Dimensionen ein](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
 * **Globale Dimensionen** werden als Filter (beispielsweise in Berichten und Stapelverarbeitungen verwendet). Sie können nur zwei globale Dimensionen verwenden, also wählen Sie Dimensionen, die Sie häufig verwenden.
 * **Shortcutdimensionen** sind verfügbar als Felder in Buch.-Blattzeilen und Belegzeilen. Sie können bis zu sechs davon erstellen.  
 
-### <a name="setting-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Standarddimensionen für Debitoren, Kreditoren und andere Konten einrichten
+### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>So richten Sie Standarddimensionen für Debitoren, Kreditoren und andere Konten ein
 Sie können eine Standarddimension für ein bestimmtes Konto einrichten. Die Dimension wird in das Buch.-Blatt oder den Beleg kopiert, wenn Sie die Kontonummer auf der Zeile eingeben, aber Sie können den Code in der Zeile ändern oder löschen, falls erforderlich. Sie können eine Dimension auch erstellen, die für das Buchen eines Postens mit einem speziellen Konto benötigt wird.  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Dimensionen** ein, und wählen dann den zugehörigen Link aus.  
@@ -102,15 +102,21 @@ Um das Buchen von Posten mit widersprüchlichen oder irrelevanten Dimensionen zu
 >   
 >  Um anstelle des Codes den Namen der Dimension anzeigen zu lassen, wählen Sie das Feld **Spaltennamen anzeigen**.
 
-### <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Eine Übersicht der Dimensionen erhalten, die mehrmals verwendet wurden
-Auf der Seite **Vorgabedimensionen - Mehrfach** zeigt, wie eine Kontengruppe Dimensionswerte verwendet. Sie können dies tun, indem Sie mehrere Konten markieren und dann die Vorgabedimensionen und Dimensionswerte für alle in der Kontenübersicht markierten Konten angeben. Wenn Sie Vorgabedimensionen für die markierten Konten angeben, wird die Anwendung diese Dimensionen und Dimensionswerte immer vorschlagen, wenn eines dieser Konten angesprochen wird, z. B. in einer Buch.-Blattzeile. Dies vereinfacht das Buchen für den Anwender, da die Anwendung die Dimensionsfelder automatisch ausfüllt. Die Dimensionswerte, die die Anwendung vorschlägt, können geändert werden, z. B. in einer Buch.-Blattzeile.
+### <a name="to-set-up-global-and-shortcut-dimensions"></a>So richten Sie globale und Shortcut-Dimensionen ein
+Globale und Shortcut-Dimensionen können überall in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Filter verwendet werden, auch in Berichten, Batchaufträgen und Analyseansichten. Globale und Shortcutdimensionen können immer direkt eingefügt werden, ohne erst die Seite **Dimensionen** zu öffnen. In Buch.-Blattzeilen und Belegzeilen können Sie globale und Shortcutdimensionen in einem Feld der Zeile auswählen. Sie können zwei globale und acht Shortcutdimensionen einrichten. Wählen Sie die Dimensionen, die Sie am häufigsten verwenden.
 
-Die Seite **Vorgabedimensionen - Mehrfach** enthält die folgenden Felder:
-|Feld|Description|
-|----------------------------------|---------------------------------------|  
-|**Dimensionscode**|Zeigt alle Dimensionen an, die als Vorgabedimensionen für ein oder mehrere der markierten Konten bestimmt wurden. Indem Sie das Feld aktivieren, können Sie eine Liste aller verfügbaren Dimensionen anzeigen. Wenn Sie eine Dimension wählen und OK klicken, wird die gewählte Dimension als Vorgabedimension für alle markierten Konten bestimmt.|
-|**Dimensionswertcode**|Zeigt entweder einen einzelnen Dimensionswert oder den Ausdruck (Konflikt) an. Wenn eine Dimensionswert in dem Feld angezeigt wird, dann haben alle markierten Konten denselben Vorgabedimensionswert für eine Dimension. Wenn der Ausdruck (Konflikt) in dem Feld angezeigt wird, dann haben nicht alle markierten Konten denselben Vorgabedimensionswert für eine Dimension. Durch Aktivieren dieses Felds können Sie eine Übersicht aller verfügbaren Dimensionswerte für eine Dimension einsehen. Wenn Sie einen Dimensionswert wählen und OK klicken, wird der gewählte Dimensionswert als Vorgabedimensionswert für alle markierten Konten bestimmt.|
-|**Dimensionswertbuchung**|Zeigt entweder eine einzelne Dimensionswertbuchung oder den Ausdruck (Konflikt) an. Wenn eine Dimensionswertbuchungsregel in dem Feld angezeigt wird, dann haben alle markierten Konten dieselbe Dimensionswertbuchungsregel für eine Dimensionswertbuchung. Wenn der Ausdruck (Konflikt) in dem Feld angezeigt wird, dann haben nicht alle markierten Konten dieselbe Dimensionswertbuchungsregel für eine Dimensionswertbuchung. Durch Aktivieren des Felds Dimensionswertbuchung können Sie eine Übersicht der Dimensionswertbuchungsregeln einsehen. Wenn Sie eine Dimensionswertbuchungsregel auswählen und auf die AssistButton klicken, wird die gewählte Dimensionswertbuchungsregel für alle markierten Konten angewendet.|
+> [!Important]  
+> Das Ändern einer globalen oder Shortcutdimension erfordert, dass alle Posten, die mit der Dimension gebucht werden, aktualisiert werden. Diese Aufgabe können Sie mit der Funktion **Globale Dimensionen ändern** ausführen, aber dies kann zeitaufwändig sein und sich negativ auf die Leistung auswirken. Daher wählen Sie Ihre globalen und Shortcutdimensionen sorgfältig aus, um sie später nicht ändern zu müssen.
+
+> [!Note]
+> Wenn Sie eine globale oder Shortcutdimension hinzufügen oder ändern, werden Sie automatisch abgemeldet und wieder angemeldet, damit der neuen Wert zur Verwendung in der vollständigen Anwendung vorbereitet wird.
+
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Finanzbuchhaltung einrichten** ein, und wählen dann den zugehörigen Link aus.
+2. Füllen Sie die Felder im Inforegister **Dimensionen** aus. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+#### <a name="to-change-global-dimensions"></a>So ändern Sie globale Dimensionen
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Globale Dimensionen ändern** ein, und wählen dann den zugehörigen Link aus.
+2. Zeigen Sie auf Aktionen und Felder auf der Seite, um zu erfahren, wie globale und Shortcutdimensionen geändert werden.
 
 ### <a name="example-of-dimension-setup"></a>Beispiel einer Dimensionseinrichtung
 Nehmen wir an, dass Ihr Unternehmen Transaktionen auf Grundlage der Organisationsstruktur und der geografische Lagen verfolgen möchte. Sie können zwei Dimensionen auf der Seite **Dimensionen** einrichten.
@@ -137,7 +143,8 @@ Für **BEREICH** fügen Sie die folgenden Dimensionswerte hinzu:
 | 80 |Nicht-EU |Standard |
 | 90 |Europa, gesamt |Bis-Summe |
 
-Um die beiden hauptgeografischen Gebiete Amerika und Europa, fügen Sie bei Bedarf Unterkategorien für Bereiche hinzu, indem Sie die Dimensionswerte einrücken. Dadurch können Sie über Verkäufe oder Ausgaben in den Regionen berichten und Summen für die größeren geographischen Gebiete erhalten. Sie können auch wählen, dass Länder oder Regionen als Ihre Dimensionswerte oder Bundesregionen bzw. Städten gewählt werden, abhängig von Ihrem Geschäft.  
+Um die beiden hauptgeografischen Gebiete Amerika und Europa, fügen Sie bei Bedarf Unterkategorien für Bereiche hinzu, indem Sie die Dimensionswerte einrücken. Dadurch können Sie über Verkäufe oder Ausgaben in den Regionen berichten und Summen für die größeren geographischen Gebiete erhalten. Sie können auch wählen, dass Länder oder Regionen als Ihre Dimensionswerte oder Bundesregionen bzw. Städten gewählt werden, abhängig von Ihrem Geschäft.
+
 > [!NOTE]  
 >   Um eine Hierarchie einzurichten, muss der Code in alphabetischer Reihenfolge sein. Dies umfasst die Codes der standardmäßigen Dimensionswerte in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
@@ -149,7 +156,18 @@ Für **ABTEILUNG** fügen Sie die folgenden Dimensionswerte hinzu:
 | PROD |Produktion |Standard |
 | VERKAUF |Verkauf |Standard |
 
-Mit dieser Einrichtung fügen Sie dann Ihre zwei Dimensionen als zwei globalen Dimensionen auf der Seite **Finanzbuchhaltungs-Einrichtung:** hinzu. Das bedeutet, dass globale Dimensionen als Filter für Sachposten in allen Berichten, Kontenschemata und Stapelverarbeitungen benutzt werden können. Beide globalen Dimensionen stehen auch als Shortcutdimensionen in Buch.-Blattzeilen und Belegköpfen zur Verfügung.  
+Mit dieser Einrichtung können Sie Ihre zwei Dimensionen als zwei globalen Dimensionen auf der Seite **Finanzbuchhaltungs-Einrichtung** hinzufügen. Das bedeutet, dass globale Dimensionen als Filter für Sachposten in allen Berichten, Kontenschemata und Stapelverarbeitungen benutzt werden können. Beide globalen Dimensionen stehen auch als Shortcutdimensionen in Buch.-Blattzeilen und Belegköpfen zur Verfügung.
+
+## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Eine Übersicht der Dimensionen erhalten, die mehrmals verwendet wurden
+Auf der Seite **Vorgabedimensionen - Mehrfach** zeigt, wie eine Kontengruppe Dimensionswerte verwendet. Sie können dies tun, indem Sie mehrere Konten markieren und dann die Vorgabedimensionen und Dimensionswerte für alle in der Kontenübersicht markierten Konten angeben. Wenn Sie Vorgabedimensionen für die markierten Konten angeben, wird die Anwendung diese Dimensionen und Dimensionswerte immer vorschlagen, wenn eines dieser Konten angesprochen wird, z. B. in einer Buch.-Blattzeile. Dies vereinfacht das Buchen für den Anwender, da die Anwendung die Dimensionsfelder automatisch ausfüllt. Die Dimensionswerte, die die Anwendung vorschlägt, können geändert werden, z. B. in einer Buch.-Blattzeile.
+
+Die Seite **Vorgabedimensionen - Mehrfach** enthält die folgenden Felder:
+
+|Feld|Description|
+|-----|-----------|  
+|**Dimensionscode**|Zeigt alle Dimensionen an, die als Vorgabedimensionen für ein oder mehrere der markierten Konten bestimmt wurden. Indem Sie das Feld aktivieren, können Sie eine Liste aller verfügbaren Dimensionen anzeigen. Wenn Sie eine Dimension wählen und OK klicken, wird die gewählte Dimension als Vorgabedimension für alle markierten Konten bestimmt.|
+|**Dimensionswertcode**|Zeigt entweder einen einzelnen Dimensionswert oder den Ausdruck (Konflikt) an. Wenn eine Dimensionswert in dem Feld angezeigt wird, dann haben alle markierten Konten denselben Vorgabedimensionswert für eine Dimension. Wenn der Ausdruck (Konflikt) in dem Feld angezeigt wird, dann haben nicht alle markierten Konten denselben Vorgabedimensionswert für eine Dimension. Durch Aktivieren dieses Felds können Sie eine Übersicht aller verfügbaren Dimensionswerte für eine Dimension einsehen. Wenn Sie einen Dimensionswert wählen und OK klicken, wird der gewählte Dimensionswert als Vorgabedimensionswert für alle markierten Konten bestimmt.|
+|**Dimensionswertbuchung**|Zeigt entweder eine einzelne Dimensionswertbuchung oder den Ausdruck (Konflikt) an. Wenn eine Dimensionswertbuchungsregel in dem Feld angezeigt wird, dann haben alle markierten Konten dieselbe Dimensionswertbuchungsregel für eine Dimensionswertbuchung. Wenn der Ausdruck (Konflikt) in dem Feld angezeigt wird, dann haben nicht alle markierten Konten dieselbe Dimensionswertbuchungsregel für eine Dimensionswertbuchung. Durch Aktivieren des Felds Dimensionswertbuchung können Sie eine Übersicht der Dimensionswertbuchungsregeln einsehen. Wenn Sie eine Dimensionswertbuchungsregel auswählen und auf die AssistButton klicken, wird die gewählte Dimensionswertbuchungsregel für alle markierten Konten angewendet.|
 
 ## <a name="using-dimensions"></a>Dimensionen verwenden
 In einem Beleg, z. B. einem Verkaufsauftrag, können Sie Dimensionsinformationen sowohl für eine einzelne Belegzeile als auch für den Beleg selbst hinzufügen. Sie können beispielsweise auf der Seite **Verkaufsauftrag** Dimensionswerte für die ersten beiden Shortcutdimensionen direkt in den Beleg eingeben und weitere Dimensionsinformationen hinzufügen, wenn Sie auf die Schaltfläche **Dimensionen** klicken.  
@@ -158,7 +176,7 @@ Wenn Sie stattdessen in einem Buch.-Blatt arbeiten, können Sie auf dieselbe Art
 
 Sie können Standarddimensionen für Konten oder Kontenarten festlegen, sodass Dimensionen und Dimensionswerte automatisch ausgefüllt werden.
 
-## <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Einsehen von Globalen Dimensionen in Postenseiten  
+### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Einsehen von Globalen Dimensionen in Postenseiten  
 Beachten Sie, dass globale Dimensionen immer vom Unternehmen \- definiert und benannt werden. Um die globalen Dimensionen für das Unternehmen anzuzeigen, öffnen Sie die Seite  **Finanzbuchhaltung Einrichtung**.  
 
 Auf einer Postenseite können Sie sehen, ob für Posten globale Dimensionen vorhanden sind. Die beiden globalen Dimensionen unterscheiden sich von den anderen Dimensionen dadurch, dass Sie diese beiden Dimensionen überall in [!INCLUDE[d365fin](includes/d365fin_md.md)] als Filter verwenden können.  
@@ -169,7 +187,27 @@ Auf einer Postenseite können Sie sehen, ob für Posten globale Dimensionen vorh
 4.  Um alle Dimensionen eines Postens anzuzeigen, wählen Sie den Posten aus, und klicken Sie auf  **Dimensionen**.  
 
 > [!NOTE]  
->  Die Seite **Postendimensionen** zeigt die Dimensionen für jeweils einen Posten. Wenn Sie sich durch die Posten bewegen, verändert sich der Inhalt der Seite **Postendimensionen** dementsprechend.  
+>  Die Seite **Postendimensionen** zeigt die Dimensionen für jeweils einen Posten. Wenn Sie sich durch die Posten bewegen, verändert sich der Inhalt der Seite **Postendimensionen** dementsprechend.
+
+## <a name="troubleshooting-dimensions-errors"></a>Beheben von Dimensionsfehlern
+Wenn Sie Belege oder Buch.-Blattzeilen buchen, die Dimensionen enthalten, treten möglicherweise unterschiedliche Fehler auf, die in der Regel auf eine falsche Dimensionseinrichtung oder Zuweisung zurückgehen.
+
+> [!NOTE]
+> In der folgenden Liste der möglichen Fehlermeldungen stehen die *%X*-Codes als Ersatzzeichen für die Datenvariablen, die abhängig vom Kontext in der eigentlichen Nachricht in der Benutzeroberfläche enthalten sind. Beispielsweise könnte *%1 %2 ist blockiert.* in der Benutzeroberfläche als "Dimensionscode BEREICH blockiert" angezeigt werden.  
+
+|Problem|Fehlermeldung|Mögliche Lösung|
+|-----|-------------|-----------------|
+|Blockierte Dimension|%1 %2 ist blockiert.|- Suchen Sie nicht gebuchte Belege, die den Dimensionssatz mit der blockierten Dimension enthalten und heben Sie die Blockierung auf.<br />- Entfernen Sie die Dimensionssatzposition für die blockierte Dimension.|
+|Gelöschte Dimension|%1 %2 kann nicht gefunden werden.|-Erstellen Sie die fehlende Dimension neu.<br />- Suchen Sie nicht gebuchte Belege, die den Dimensionssatz mit der fehlenden Dimension enthalten und fügen Sie sie hinzu.<br />- Entfernen Sie die Dimensionssatzposition für die fehlende Dimension.|
+|Blockierter Dimensionswert|%1 %2 - %3 ist gesperrt.|- Suchen Sie nicht gebuchte Belege, die den Dimensionssatz mit dem blockierten Dimensionswert enthalten und heben Sie die Blockierung auf.<br />- Entfernen Sie die Dimensionssatzposition für den blockierten Dimensionswert.|
+|Gelöschter Dimensionswert|   %1 für %2 fehlt.|-Erstellen Sie den fehlenden Dimensionswert neu.<br />- Suchen Sie nicht gebuchte Belege, die den Dimensionssatz mit dem fehlenden Dimensionswert enthalten und fügen Sie ihn hinzu.<br />- Entfernen Sie die Dimensionssatzposition für den fehlenden Dimensionswert.|
+|Nicht zugelassener Dimensionswert|Dimensionswerttyp für %1 %2 – %3 darf nicht %4 sein.|- Ändern Sie das Feld **Dimensionswerttyp** auf der Seite **Dimensionswerte** zu **Standard** oder **Von-Summe**.<br />- Entfernen Sie die Dimensionssatzposition für den blockierten Dimensionswert.|
+|Blockierte Dimensionskombination|Dimensionen %1 und %2 können nicht gleichzeitig verwendet werden.|- Suchen Sie nicht gebuchte Belege, die den Dimensionssatz mit der blockierten Dimensionskombination enthalten und heben Sie die Blockierung auf.<br />- Ändern Sie eine der konfliktverursachenden Berechtigungssatzzeilen für die Dimensionskombination.|
+|Blockierte Dimensionswertkombination|Dimensionskombinationen %1 - %2 und %3 - %4 können nicht gleichzeitig verwendet werden.|- Suchen Sie nicht gebuchte Belege, die den Dimensionssatz mit der blockierten Dimensionswertkombination enthalten und heben Sie die Blockierung auf.<br />- Ändern Sie eine der konfliktverursachenden Berechtigungssatzzeilen für die Dimensionswertkombination.|
+|Leerer Dimensionswertcode für Vorgabedimension, bei der das Feld **Wertbuchung** die Angabe **Code notwendig** enthält.|-Wählen Sie einen %1 für den %2 %3 aus.<br />-Wählen Sie einen %1 für den %2 %3 für %4 %5 aus.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Vorgabedimension**.<br />-Geben Sie einen nicht leeren Dimensionswert für die widersprüchliche Dimension in den Dimensionssatz ein.|
+|Falscher Dimensionswertcode für Vorgabedimension, bei der das Feld **Wertbuchung** die Angabe **Gleicher Code** enthält.|-Wählen Sie einen %1 %2 für den %3 %4 aus.<br />-Wählen Sie einen %1 %2 für den %3 %4 für %5 %6 aus.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Vorgabedimension**.<br />-Geben Sie den erforderlichen Dimensionswert für die widersprüchliche Dimension in den Dimensionssatz ein.|
+|Nicht leerer Dimensionswertcode für leere Vorgabedimension, bei der das Feld **Wertbuchung** die Angabe **Gleicher Code** enthält.|-%1 %2 muss leer sein.<br />-%1 %2 muss für %3 %4 leer sein.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Vorgabedimension**.<br />-Geben Sie einen leeren Dimensionswertcode für die widersprüchliche Dimension in den Dimensionssatz ein.|
+|Unerwarteter Dimensionswert für Vorgabedimension, bei der das Feld **Wertbuchung** die Angabe **Kein Code** enthält.|-%1 %2 darf nicht angegeben werden.<br />-%1 %2 darf für %3 %4 nicht angegeben werden.|-Ändern Sie das Feld **Wertbuchung** auf der Seite **Vorgabedimension**.<br />- Entfernen Sie die widersprüchliche Zeile aus dem Dimensionssatz.|
 
 ## <a name="see-also"></a>Siehe auch
 [Business Intelligence](bi.md)  

@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 37583e02c0b2e43ca1273edc8a2b422f8326a92a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: ../../inventory-how-count-inventory-with-documents
+ms.openlocfilehash: e4055c4e2510be16118922c1fc773d919c647f5f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826743"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927289"
 ---
 # <a name="finish-a-physical-inventory-order"></a>So schließen Sie einen Inventurauftrag ab
 Nach Abschluss des Inventurauftrags können Sie die Inventurdifferenzen analysieren.  

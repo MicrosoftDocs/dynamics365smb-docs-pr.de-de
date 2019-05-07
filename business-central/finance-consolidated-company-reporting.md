@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 03/11/2019
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: feda9d1f681c40746db488027fdd8ae1d06a4d94
-ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
+ms.openlocfilehash: cdfcd99c484176d709288f2cf27f0a04e43bdf52
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832597"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914952"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidieren von Finanzdaten aus mehreren Unternehmen
 Wenn Sie mehr als einen Mandanten haben [!INCLUDE[d365fin](includes/d365fin_md.md)], kann der konsolidierte Rohbilanz-Bericht im Buchhalter Rollen-Center Ihnen einen Überblick über den Finanzstatus Ihres Gesamtgeschäfts geben.  

@@ -1,23 +1,19 @@
 ---
 title: Erstellen Sie eine Projektkarte für ein Projekt und geben Sie Aufgaben an| Microsoft Docs
 description: Für ein neues Projekt erstellen Sie eine Projektkarte, die Projektaufgaben und enthält Planungszeilen erstellt, um Ihnen zu helfen, Status und Budgets zu verwalten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2e2ab155f4d326ab16b7730e64711d5b91343768
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798414"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915623"
 ---
 # <a name="create-jobs"></a>Projekt erstellen
 Wenn Sie mit einem neuen Projekt beginnen, müssen Sie eine Projektkarte mit integrierten Projektaufgaben und Projektplanungszeilen erstellen, strukturiert in zwei Ebenen.  
@@ -28,8 +24,8 @@ Die zweite Ebene besteht aus Projektplanungszeilen, die zum Angeben des genauen 
 
 Durch die Ebenenstruktur lässt sich das Projekt in kleinere Aufgaben unterteilen, was wiederum eine detaillierte Budgetierung, Angebotserstellung und Erfassung ermöglicht. Außerdem gibt sie Ihnen Einblick in den Fortschritt eines Projekt. So können Sie beispielsweise nachverfolgen, ob Sie die Meilensteine erfüllen, oder ob Sie mit den erwarteten Haushaltsmitteln zurechtkommen.
 
-> [!NOTE]  
->   Die Aktion **Neues Projekt** im Rollencenter **Projektmanager** öffnet eine unterstütze Einrichtung, die Sie durch die Schritte zur Erstellung eines Projekts mit integrierten Aufgaben und Planungszeilen führt. Nachfolgend wird beschrieben, wie Sie die Schritte manuell ausführen.
+> [!TIP]
+> Wählen Sie die Aktion **Neues Projekt** im Rollencenter **Projektmanager** aus, um einen Leitfaden für das unterstütze Setup zu starten, der Sie durch die Schritte zur Erstellung eines Projekts mit integrierten Aufgaben und Planungszeilen führt. Nachfolgend wird beschrieben, wie Sie die Schritte manuell ausführen. Ein Beispiel dazu, wie Sie ein Projekt manuell erstellen, finden im [Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
 ## <a name="to-create-a-job-card"></a>So erstellen Sie eine Projektkarte
 Sie erstellen eine Projektkarte und erstellen dann Projektaufgabenzeilen und Projektplanungszeilen dafür.
@@ -71,8 +67,10 @@ Eine Projektplanungszeile kann von einer der folgenden Arten sein.
 5. Wiederholen Sie die Schritte 3 und 4 für alle Planungszeilen für diese Projektaufgabe.
 
 ## <a name="see-also"></a>Siehe auch
+
 [Projektmanagement](projects-manage-projects.md)  
+[Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Finanzen](finance.md)  
-[Einkauf](purchasing-manage-purchasing.md)         
-[Verkauf](sales-manage-sales.md)      
+[Einkauf](purchasing-manage-purchasing.md)  
+[Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

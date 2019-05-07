@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3967e6f4d58e7294eef28d7229974c3e08c87ee0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a0f0119efb9c1434be5c4544397558d4f87b0d75
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798767"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923247"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Anzeigen von archivierten Workflowschritt-Instanzen
 Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archivierte Workflowinstanzen** gespeichert.  

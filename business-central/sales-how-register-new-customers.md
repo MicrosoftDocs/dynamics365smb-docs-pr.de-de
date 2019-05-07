@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "797988"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917093"
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
 Debitoren sind die Herkunft Ihres Einkommens. Sie müssen jeden Debitor, an den Sie verkaufen, als Debitorenkarte anlegen. Debitorenkarten enthalten die Informationen, die für den Verkauf von Produkten an Debitoren erforderlich sind." Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Artikel registrieren](inventory-how-register-new-items.md).  
@@ -54,6 +54,7 @@ Wenn Sie diese Debitorenkarte als Vorlage verwenden möchten, fahren Sie fort, u
 Die Debitorenvorlage wird der Liste von Debitorenvorlagen hinzugefügt, damit Sie diese verwenden können, um neue Debitorenkarten zu erstellen.
 
 ## <a name="see-also"></a>Siehe auch
+[Doppelt Datensätze zusammenführen](sales-how-merge-duplicate-records.md)  
 [Erstellen von Nummernkreisen](ui-create-number-series.md)  
 [Verkauf](sales-manage-sales.md)    
 [Einrichten von Verkäufen](sales-setup-sales.md)    

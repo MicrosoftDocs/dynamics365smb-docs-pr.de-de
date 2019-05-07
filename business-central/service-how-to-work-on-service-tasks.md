@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 973bc19e9d6e2efd28c56b0db70e4f53148f636e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b4a47608bbcc191ec413f08e0969f1bbd6fc4041
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798454"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915526"
 ---
 # <a name="work-on-service-tasks"></a>Mit Serviceaufgaben arbeiten
 Nachdem Sie Serviceaufträge und Angebote angelegt, Serviceartikelzeilen erfasst und den Serviceartikeln im Auftrag oder Angebot Ressourcen zugeordnet haben, können Sie mit der Reparatur und Wartung der Serviceartikel beginnen.  

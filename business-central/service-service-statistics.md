@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b4482727547c80d41f96c31ba3b4a4e0ac7c1682
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799378"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916878"
 ---
 # <a name="viewing-service-statistics"></a>So zeigen Sie die Servicestatistik an
 Sie können Statistiken nutzen, um Belege zu analysieren und zu bestimmen, wie Sie Ihre Dienstvorgänge verwalten sollen. Sie können Serviceverträge, Artikel, Bestellungen, Rechnungen, Gutschriften und Anfragen analysieren, indem Sie die **Statistik** Aktion auswählen. Für Serviceartikel und Verträge können Sie **Serviceartikel-Trendscape** oder **Servicevertrag-Trendscape** verwenden, um eine Zusammenfassung der Serviceposten für einen bestimmten Serviceartikel angezeigt.   

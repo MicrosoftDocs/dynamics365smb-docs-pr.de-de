@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f5ca69c1e542a9b5846c99b03103fd9b2be86499
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0d31e710c0b5d9e1dfa63c9c653b740fdcc12f11
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798080"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926532"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Geschäftsdaten aus anderen Finanzsystemen importieren
 Wenn Sie sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden, können Sie auswählen, einen leeren Mandanten zu erstellen, sodass Sie Ihre eigenen Daten hochladen und den neuen Projektmandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)] testen können. Abhängig von der Finanzlösung, die Ihr Unternehmen heute verwendet, können Sie Informationen zu Debitoren, Kreditoren, Lagerbestand und Bankkonten vornehmen.  
@@ -31,6 +31,8 @@ Sie können Transaktions-Masterdaten und die Daten aus anderen Finanzsysteme bas
 
 > [!NOTE]  
 > Für umfangreichere Implementierungsarbeiten können Sie RapidStart Services nutzen für [!INCLUDE[d365fin](includes/d365fin_md.md)], der ein umfangreiches Toolkit für das Einrichten von neuen Lösungen auf Grundlage von Geschäftsanforderungen und -Einrichtungsdaten der Debitoren ist. RapidStart Services enthält auch Funktionalität für Stammdaten Importieren von Artikeln. Weitere Informationen finden Sie unter [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
+Um Artikelbilder zu importieren, können Sie eine dedizierte Funktion auf der Seite **Lagereinrichtung** verwenden. Weitere Informationen finden Sie unter [Importieren mehrerer Artikelbilder](inventory-how-import-item-pictures.md).
 
 ## <a name="importing-data-from-configuration-packages"></a>Importieren von Daten aus den Konfigurations-Paketen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst ein Konfigurationspaket, das Sie dann in Excel exportieren und dort die Daten einrichten können. Anschließend können die wieder von Excel importiert werden. Das Paket besteht aus 27 Tabellen, einschließlich Masterdaten wie Debitoren, Kreditoren, Artikel und Konten, andere grundsätzliche Einrichtungstabellen wie Versandarten und Transaktionstabellen wie Versandkopf und Zeilen.  
@@ -78,6 +80,6 @@ Das Standardkonfigurationspaket unterstützt die folgenden Tabellen:
 [Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)  
+[Mehrere Artikelbilder importieren](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

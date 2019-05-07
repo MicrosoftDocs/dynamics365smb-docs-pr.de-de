@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/26/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798850"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914421"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] so einrichten, dass Daten in bestimmten Tabelle mit Daten in externen Dateien ausgetauscht werden, zum Beispiel zum Senden und Empfangen elektronischer Belege oder zum Importieren und Exportieren von Bankdaten und anderen Daten, wie Lohnabrechnung, Währungswechselkursen und Artikelkatalogen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
 
-Zur Vorbereitung für das Erstellen einer Datenaustauschdefinition für eine Datendatei oder einen Datenstrom können Sie das zugehörige XML-Schema verwenden, um zu definieren, welche Datenelemente im Inforegister **Spaltendefinitionen** berücksichtigt werden sollen. Weitere Informationen finden Sie unter Schritt 6 im Abschnitt „Die Formatierung der Zeilen und Spalten in der Datei beschreiben“. Weitere Informationen finden Sie im Thema [Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinition](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) in der Anwendungshilfe.  
+Zur Vorbereitung für das Erstellen einer Datenaustauschdefinition für eine Datendatei oder einen Datenstrom können Sie das zugehörige XML-Schema verwenden, um zu definieren, welche Datenelemente im Inforegister **Spaltendefinitionen** berücksichtigt werden sollen. Weitere Informationen finden Sie unter Schritt 6 im Abschnitt [Die Formatierung der Zeilen und Spalten in der Datei beschreiben](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Weitere Informationen finden Sie im Thema [Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinition](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) in der Anwendungshilfe.  
 
 Normalerweise richten Sie Datenaustauschdefinitionen auf der Seite **Datenaustauschdefiniton** ein. Wenn Sie jedoch eine Datenaustauschdefinition für den Service zum Aktualisieren von Wechselkursen einrichten, beginnen Sie den Vorgang auf der vereinfachten Seite **Wechselkursaktualisierung Karte einrichten** .  
 
@@ -39,7 +39,10 @@ Das Erstellen einer Datenaustauschdefinition beinhaltet zwei Aufgaben:
 1. Auf der Seite **Datenaustauschdefinition** beschreiben Sie die Formatierung aus Zeilen und Spalten in der Datei.  
 2. Auf der Seite **Wechselkurszuordnungs** ordnen Sie Spalten in der Datendatei Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu.  
 
-     Dies wird in den folgenden Verfahren beschrieben.  
+Dies wird in den folgenden Verfahren beschrieben.  
+
+> [!TIP]
+> Um zu sehen welche Codeunits Microsoft in bestehenden Definitionen im Standardprodukt verwendet, überprüfen Sie die drei **Codeunit**-Felder in der Kopfzeile der Seite **Feldzuordnung** für jede Definition.
 
 #### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a>Die Formatierung der Zeilen und Spalten in der Datei beschreiben  
 1. Geben Sie im Feld **Suchen** einen Wert für **Datenaustauschdefinitionen** ein, und wählen Sie dann den zugehörigen Link aus.  

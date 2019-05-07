@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/07/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 66b3f7fb4955d66202818a22aaa2a36235c77e9d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798999"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913410"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt
 Das Konfigurationsarbeitsblatt ist die zentrale Stelle, an der Sie Ihre Konfigurationsarbeit planen, nachverfolgen und ausführen können. Sie können ein Arbeitsblatt für jeden Mandanten erstellen, mit dem Sie arbeiten, oder ein Standardkonfigurationsarbeitsblatt erstellen, das für die Konfiguration von mehreren identischen Mandanten verwendet werden kann.  

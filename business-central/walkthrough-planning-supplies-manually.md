@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/31/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bed38cf158e5372ff9c4e2f23667fba8af93ec74
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f8c20f51997ca2ec056423b9089b645e5a258235
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798183"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925740"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung
 

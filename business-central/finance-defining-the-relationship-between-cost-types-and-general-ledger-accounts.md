@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger
-ms.date: 11/13/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
-ms.openlocfilehash: f80e9b6276d26adffb5e3208ffefbf98d7f7ff96
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c5b4549e330bd9b3369b6fe5b18361f6662291c9
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798209"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918030"
 ---
 # <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Definieren der Beziehung zwischen Kostenarten und Sachkonten
 Das Verbindung zwischen der Kostenart und dem Sachkonto wird in der Kostenart und im Sachkonto erstellt.  

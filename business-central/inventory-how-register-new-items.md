@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4611072a7612feafec5466ee5092ad7938eeb2dc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 468f2f213d2f9dafb38d76706da578b417d01ca9
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798365"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924025"
 ---
 # <a name="register-new-items"></a>Neue Artikel registrieren
 Artikel sind die Basis Ihres Unternehmens, die Waren oder Dienstleistungen, mit denen Sie handeln. Jeder Artikel muss als Artikelkarte registriert werden.

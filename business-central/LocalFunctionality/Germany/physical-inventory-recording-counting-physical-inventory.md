@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d560b3382f40e3a5aa4266d8cae1a9f4c6a52c6c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: ../../inventory-how-count-inventory-with-documents
+ms.openlocfilehash: a1eea5cfb4a3ed39e8cb012cc01ae5bae50998fb
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826709"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922257"
 ---
 # <a name="physical-inventory-recording---counting-physical-inventory"></a>Inventurerfassung – Inventurzählung
 Nach dem Erstellen eines Inventurauftrags und nach der Eingabe der Inventurauftragszeilen kann die eigentliche Inventur durchgeführt werden. In diesem Zusammenhang können die Inventurerfassungsbelege verwendet werden.  

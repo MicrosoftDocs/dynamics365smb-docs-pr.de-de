@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3f6abaf9edd48991cb652b84c00d2e7b0a71667
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9725d8146e79869e001f77c6c97639bd95cb1519
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826739"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912500"
 ---
 # <a name="set-up-data-exports-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung einrichten
 Sie müssen die Exportdatensatzquellen einrichten, um die Daten für eine digitale Prüfungen zu exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen.  

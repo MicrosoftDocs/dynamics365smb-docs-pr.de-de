@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 11/27/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f093a9ce2a654d5ee693ee91f32e87f6546279d1
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852447"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "910365"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassen von Business Central mithilfe der Erweiterungen
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] ändern, indem Sie beispielsweise Erweiterungen installieren, die Funktionalität hinzufügen, das Verhalten ändern oder Zugriff auf die neuen Onlinediensten geben.

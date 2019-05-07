@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799007"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928069"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortieren, Durchsuchen und Filtern von Listen
 Es gibt mehrere Möglichkeiten, wie Sie das tun können und die dabei helfen, Datensätze in einer Liste zu scannen, zu suchen und einzugrenzen. Diese umfassen die Sortierung, Suche und Filterung. Sie können einige oder alle davon gleichzeitig anwenden, um die Daten schnell zu finden oder zu analysieren.
@@ -36,7 +36,8 @@ Um eine Liste zu sortieren, können Sie entweder eine Spaltenüberschrift auswä
 >   Sortierung wird nicht auf Bilder, BLOB-Felder und FlowFilter unterstützt, die keiner Tabelle angehören.  
 
 ## <a name="searching"></a>Suchen
-<!--## Searching by using the Quick Filter --> Am Anfang jeder Liste befindet sich ein ![Suchliste](media/ui-search/search-list.png "Suchenlistensymbol") **Suchen**-Symbol, das eine schnelle und einfache Möglichkeit bietet, die Datensätze in einer Liste zu verringern und nur die Datensätze mit den Daten anzuzeigen, die Sie anzeigen möchten.
+<!--## Searching by using the Quick Filter -->
+Am Anfang jeder Liste befindet sich ein ![Suchliste](media/ui-search/search-list.png "Suchlistensymbol") **Suchen**-Symbol, das eine schnelle und einfache Möglichkeit bietet, die Datensätze in einer Liste zu verringern und nur die Datensätze mit den Daten anzuzeigen, die Sie anzeigen möchten.
 
 Zur Suche wählen Sie einfach das Suchsymbol aus und geben dann im Feld den Text ein, nach dem Sie suchen. Sie können Buchstaben, Ziffern und andere Symbole eingeben.
 
@@ -55,27 +56,6 @@ Sie können jedoch eine genauere Suche vornehmen, indem Sie die folgenden Sonder
 
 Die folgende Tabelle enthält einige Beispiele, um zu erläutern, wie Sie die Suche verwenden können.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Suchkriterien|Findet…|
 |---------------|----------|
 |`man`<br />oder <br />`Man`|Alle Datensätze mit Feldern, die den Text **man** enthalten, unabhängig der Groß-/Kleinschreibung. Beispielsweise **Mannheim**, **manuell** oder **Roman**. |
@@ -87,7 +67,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > Sie können F3 drücken, um das Suchfeld zu aktivieren oder zu deaktivieren. Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="filtering"></a>Filterung
+## <a name="Filtering"> </a>Filterung
 Filterung bietet eine erweiterte und vielseitigere Art zum Steuern der in einer Liste angezeigten Datensätze. Es gibt zwei wichtige Unterschiede zwischen Suchen und Filtern, wie in der folgenden Tabelle beschrieben wird.
 
 || **Suchen** | **Filterung** |
@@ -98,13 +78,14 @@ Filterung bietet eine erweiterte und vielseitigere Art zum Steuern der in einer 
 Filterung ermöglicht es Ihnen, Datensätze für bestimmte Konten oder Debitoren, Daten, Beträge und weitere Informationen anzeigen, indem Filterkriterien angegeben werden. Nur mit den Kriterien übereinstimmende Datensätze werden angezeigt. Falls Sie Kriterien für mehrere Felder angeben, werden nur Datensätze angezeigt, die allen Kriterien entsprechen.
 
 ### <a name="working-in-the-filter-pane"></a>Arbeiten im Filterbereich
+
+Um den Filterbereich anzuzeigen, wählen Sie ![Filterbereichssymbol](media/open-filter-pane-icon.png "Filterbereichssymbol") in der Liste, oder drücken Sie auf **Umschalt+F3**. Bei Listen innerhalb des Rollencenters können Sie diesen Nach-Unten-Pfeil neben dem Seitentitel in der Navigationsleiste über die Liste auswählen und dann **Filterbereich anzeigen** auswählen, wie hier gezeigt:
+
+![Filterbereich anzeigen](media/open-filter-pane.png "Filterbereich anzeigen")
+
 Der Filterbereich enthält die aktuellen Filter für eine Liste und ermöglicht es Ihnen, Ihre eigenen benutzerdefinierten Filter für mehrere Felder festzulegen. Die folgenden Abbildung zeigt einen Beispielsfilterbereich für eine Verkaufsangebotsliste.
 
 ![Filterbereichsübersicht ](media/filter-pane-overview.png "Filtersymbol")
-
-Um den Filterbereich anzuzeigen, verwenden Sie die Tastenkombination **UMSCHALT+F3** . Bei Listen innerhalb des Rollencenters können Sie diesen Nach-Unten-Pfeil neben dem Seitentitel in der Navigationsleiste über die Liste auswählen und dann **Filterbereich anzeigen** auswählen.
-
-![Filterbereich anzeigen](media/open-filter-pane.png "Filterbereich anzeigen")
 
 Ein Filterbereich wird in drei Abschnitten aufgeteilt: **Ansichten**, **Liste filtern nach** und **Summen filtern nach**:
 
@@ -137,7 +118,7 @@ Sie können jetzt Ihre Filterkriterien im Feld eingeben oder auswählen. Die Art
 Spalten, die bereits Filter haben, werden durch das ![Filtersymbol](media/ui-search/filter-icon.png "Filtersymbol") in die Spaltenüberschrift angegeben. Um einen Filter zu entfernen, klicken Sie auf die Spaltenüberschrift und, wählen Sie **Filter löschen** aus.
 
 
-### <a name="entering-filter-criteria-without-the-filter-pane"></a>Eingeben von Filterkriterien ohne Filterbereich
+### <a name="entering-filter-criteria-without-using-the-filter-pane"></a>Eingeben von Filterkriterien ohne Verwendung des Filterbereichs
 Sie können Filter einfach direkt in der Liste auswählen, ohne den Filterbereich verwenden zu müssen.
 Wenn ein Feld in einer Zeile ausgewählt ist, verwenden Sie die Tastenkombination **ALT+F3**, um nur die Datensätze mit demselben Wert anzuzeigen. Sie können ein anders Feld auswählen und dieselbe Tastenkombination erneut verwenden, um Ihrer Filter weiter zu verfeinern. Wenn das ausgewählte Feld bereits gefiltert wird, wird der Filter über **ALT+F3** gelöscht.
 
@@ -146,7 +127,7 @@ Wenn ein Feld in einer Zeile ausgewählt ist, verwenden Sie die Tastenkombinatio
 Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
 
 
-## <a name="FilterCriteria"></a>Filterkriterien und Bildsymbole
+## <a name="FilterCriteria"> </a>Filterkriterien und Symbole
 Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet werden, die auch normalerweise im Feld zulässig sind. Zudem können Sie Sonderzeichen verwenden, um eine zusätzliche Filterung der Ergebnisse zu erreichen. Die folgende Tabelle enthält die Symbole, die in Filtern verwendet werden können. Detaillierte Informationen zu Datumsangaben und Uhrzeit finden Sie unter [Arbeiten mit Datumsangaben und Uhrzeit im Kalender](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]  
@@ -244,11 +225,11 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
 |`>50&<100`|Alle Datensätze mit Nummern größer als 50 und kleiner als 100, d. h. mit Nummern zwischen 51 und 99.|  
 
 
-## <a name="FilterTokens"> </a> Filtertoken
+## <a name="FilterTokens"> </a>Filtertoken
 Wenn Sie Filterkriterien eingeben, können Sie auch Begriffe mit besonderer Bedeutung eingeben, die Filtertoken genannt werden. Nachdem Sie das Token-Wort eingegeben haben, wird das Wort durch den Wert oder die Werte ersetzt, die es darstellt. Dadurch wird das Filtern einfacher, indem die Notwendigkeit verringert wird, auf andere Seiten zu navigieren, um Werte nachzuschlagen, die Sie Ihrem Filter hinzufügen möchten. In den folgenden Tabellen werden einige der Token beschreiben, die Sie als Filterkriterien eingeben können.
 
 > [!TIP]
-> Ihre Organisation verwendet möglicherweise benutzerdefinierte Token. Informationen zum verfügbaren kompletten Token-Satz, oder zum Hinzufügen weiterer benutzerdefinierter Token erhalten Sie von Ihren Administrator. Technischer Informationen finden Sie unter [Hinzufügen von Filter-Token](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
+> Ihre Organisation verwendet möglicherweise benutzerdefinierte Token. Informationen zum verfügbaren kompletten Token-Satz, oder zum Hinzufügen weiterer benutzerdefinierter Token erhalten Sie von Ihren Administrator. Technischer Informationen finden Sie unter [Hinzufügen von Filter-Token](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 
 ### <a name="me-or-userid-records-assigned-to-you"></a>(%me oder %userid) Ihnen zugewiesene Datensätze

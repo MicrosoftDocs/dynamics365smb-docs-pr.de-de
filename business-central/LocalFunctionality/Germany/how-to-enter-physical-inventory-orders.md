@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6df8457b1ccb7bed774ac5be02c6839d6c9a8337
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: ../../inventory-how-count-inventory-with-documents
+ms.openlocfilehash: c7db75bd9565a2423b2d2f69d492bb2fe97d4f62
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826717"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927537"
 ---
 # <a name="enter-physical-inventory-orders"></a>Physische Inventuraufträge eingeben
 Auf Anwendungsebene ist ein Inventurauftrag ein vollständiger Beleg, der aus einem Inventurauftragskopf und einigen Inventurauftragszeilen besteht. Die Informationen im Inventurauftragskopf geben an, wie die Inventur durchgeführt werden soll. Der Kopf kann manuell ausgefüllt werden. Sie können einen Inventurauftrag erstellen und ihn mindestens einer Inventurerfassung zuordnen.  

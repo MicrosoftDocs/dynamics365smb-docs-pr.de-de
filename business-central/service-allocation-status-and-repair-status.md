@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ca6edfb33aebedeb70deb17b78abbdb0024f7b2d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799254"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920250"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Zuordnungsstatus und Reparaturstatus von Serviceartikeln
 Der Reparaturstatus der Serviceartikel und der Zuordnungsstatus von Zuordnungen für Serviceartikel stellen unter "Service" eine bestimmte Beziehung zueinander dar. Der Zuordnungsstatus ändert sich, wenn Sie den Reparaturstatus des Serviceartikels auf **Erledigt** oder **Unvollständig bearbeitet** setzen oder wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln. Der Reparaturstatus des Serviceartikels ändert sich, wenn Sie die Serviceartikelzuordnung stornieren oder den Serviceartikel einer anderen Ressource neu zuordnen. Sie können den Reparaturstatus der Serviceartikel auf der Seite **Serviceaufgaben** einsehen und ihn im Feld **Reparaturstatuscode** auf der Seite **Servicearbeitsschein** aktualisieren. Sie können den Zuordnungsstatus im Feld **Status** der Seite **Ressourcenzuordnungen** einsehen.  

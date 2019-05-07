@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798461"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929405"
 ---
-# <a name="count-adjust-and-reclassify-inventory"></a>Erfassen, Regulieren und Umbuchen von Lagerbestand
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern
 Mindestens einmal im Geschäftsjahr muss eine Inventur durchgeführt werden, d. h. alle Artikel im Lager müssen gezählt werden, um festzustellen, ob die in der Datenbank geführten Mengen denen entsprechen, die tatsächlich physisch im Lager vorhanden sind. Ist die tatsächliche physische Menge bekannt, wird diese im Hauptbuch als Teil der Lagerbewertung am Ende eines Zeitraums gebucht.
 
 Obwohl Sie alle Artikel am Lager mindestens einmal im Jahr zählen, haben Sie sich möglicherweise entschieden, manche Artikel häufiger zu zählen, vielleicht, weil sie wertvoller sind oder weil sie häufig umgesetzt werden und einen großen Teil Ihres Umsatzes darstellen. Zu diesem Zweck können Sie spezielle Inventurhäufigkeiten den Artikeln zuweisen. Weitere Informationen finden Sie unter [Durchführen zyklischer Inventuren](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
@@ -31,6 +31,10 @@ Wenn Sie Attribute und Mengen im Artikelposten ändern müssen, können Sie das 
 
 ## <a name="to-perform-a-physical-inventory"></a>Eine physische Inventur durchzuführen:
 Sie müssen am Ende des Geschäftsjahres – wenn nicht sogar noch häufiger – eine Inventur durchführen (d. h., die tatsächlich verfügbaren Artikel zählen), um zu prüfen, ob die vermerkte Menge dieselbe ist wie die Menge im Lager. Wenn es Differenzen gibt, müssen Sie diese verbuchen, bevor Sie eine Lagerbewertung durchführen können.
+
+> [!NOTE]
+> Dieses Verfahren beschriebt, wie eine Inventur unter Verwendung eines Buch.-Blatts, die Seite **Physisches Bestandjournal** ausgeführt wird. Sie können diese Aufgabe auch mithilfe von Belegen, den Seiten **Inventurauftrag** und **Inventurerfassung** durchführen, die mehr Kontrolle bieten und die Verteilung der Erfassung auf mehrere Mitarbeiter unterstützen. Weitere Informationen finden Sie unter [Inventurerfassung mithilfe von Belegen](inventory-how-count-inventory-with-documents.md).<br /><br />
+> Beachten Sie, dass belegbasierte Funktionalität nicht verwendet werden kann, um Artikel in Lagerplätzen, Lagerplatzposten zu erfassen.
 
 Neben der physischen Zählaufgabe umfasst der gesamte Vorgang die folgenden drei Aufgaben:
 
@@ -222,6 +226,7 @@ Das folgende Beispiel basiert auf einen Lagerortcode. Die Schritte sind für and
 Weitere Informationen zum Übertragen von Artikeln mit Kontrolle der gelieferten und eingegangenen Mengen, siehe [Übertragen Sie Lagerbestand zwischen Lagerorten](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Siehe auch
+[Erfassung des Lagerbestand mithilfe von Belegen](inventory-how-count-inventory-with-documents.md)  
 [Bestands](inventory-manage-inventory.md)
 [Lagerortverwaltung](warehouse-manage-warehouse.md)    
 [Verkauf](sales-manage-sales.md)  

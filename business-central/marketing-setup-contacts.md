@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798227"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918147"
 ---
-# <a name="setting-up-contacts"></a>Kontakte einrichten
+# <a name="set-up-contacts"></a>Kontakte einrichten
 Beim Erstellen von Kontakten können Sie spezifische Informationen wie die Branche, der der Kontakt angehört, oder die Geschäftsbeziehung, die mit den Kontakten besteht, eingeben.
 
 Vor dem Erstellen von Kontakten und dem Erfassen von Details zur jeweiligen Geschäftsbeziehung müssen unterschiedliche Codes eingerichtet werden, mit deren Hilfe die Informationen den Kontaktunternehmen und -personen zugeordnet werden. Codes können für Verteiler, Branchen, Geschäftsbeziehungen, Internetfavoriten, Positionen und Verantwortlichkeiten eingerichtet werden. Sie können diese einrichten, indem Sie die Aktion **Neu** auswählen, wenn Sie nach den Listen von der Kontaktkarte suchen.  
@@ -151,10 +151,10 @@ Um die Kontaktkarte mit einer verknüpften Debitoren-, Kreditoren- oder Bankkont
 
 Weitere Informationen finden Sie unter [Kontakte mit Debitoren, Kreditoren und Bankkonten synchronisieren](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Suche nach Kontaktdubletten, wenn Kontakte erstellt werden
-Sie können einrichten, dass jedes Mal, wenn Sie ein Kontaktunternehmen erstellen, nach Dubletten gesucht wird oder Sie können dies manuell vornehmen, nachdem Sie Kontakte erstellt haben. Sie können auch einstellen, dass bei jeder Veränderung der Informationen über den Kontakt oder bei seiner Erstellung automatisch die Suchtexte aktualisiert werden. Sie können den Prozentsatz der Übereinstimmung festlegen, d. h., den Prozentsatz der Suchtexte, der zwischen den beiden Kontakten identisch sein muss, damit sie von der Anwendung als Dubletten erkannt werden.
+## <a name="searching-for-duplicate-contacts"></a>Suchen nach doppelten Kontakten
+Sie können einrichten, dass jedes Mal, wenn Sie einen Kontakt erstellen, nach Dubletten gesucht wird oder Sie können dies manuell vornehmen, nachdem Sie Kontakte erstellt haben. Sie können auch einstellen, dass bei jeder Veränderung der Informationen über den Kontakt oder bei seiner Erstellung automatisch die Suchtexte aktualisiert werden. Sie können den Prozentsatz der Übereinstimmung festlegen, d. h., den Prozentsatz der Suchtexte, der zwischen den beiden Kontakten identisch sein muss, damit sie von der Anwendung als Dubletten erkannt werden. Sie können dies auf dem Inforegister **Duplikate** auf der Seite **Marketingeinrichtung** festlegen.
 
-Sie können dies auf dem Inforegister **Duplikate** auf der Seite **Marketingeinrichtung** festlegen.
+Wenn Sie den doppelten Kontakt gefunden haben, können Sie die Seite **Doppelte zusammenführen** verwenden, um sie in einen vorhandenen Kontaktdatensatz zusammenzuführen, den Sie erfassen möchten. Weitere Informationen finden Sie unter [Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Kontakte verwalten](marketing-contacts.md)  

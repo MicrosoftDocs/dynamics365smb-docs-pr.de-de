@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/24/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 8a8aa06268a2b90189dee36a7cf2c5954e45b798
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852134"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924451"
 ---
 # <a name="administration"></a>Verwaltung
 Zentrale Verwaltungsaufgaben werden in der Regel von einer Rolle im Unternehmen ausgeführt. Der Bereich dieser Aufgaben kann von der Größe des Unternehmens und der Verantwortlichkeiten des Administrators abhängig sein. Diese Aufgaben können die Verwaltung von Datenbanksynchronisierung von Projekt- und E-Mail-Warteschlangen, das Einrichten von Benutzern, das Anpassen der Benutzeroberfläche und Verwalten von Verschlüsselungsschlüsseln enthalten.  
@@ -44,7 +44,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Sie können Seiten, Codeunits und Abfragen als Webdienste zur Verfügung stellen.|[Webdienst veröffentlichen](across-how-publish-web-service.md)|
 |Als Teil der Erstellung von Verbindungs-Apps zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und Drittanbieterlösungen durch REST APIs definieren Sie Vorlagen, die verwendet werden, um leere Eigenschaften einer Einheit zu füllen, wenn Sie eine BUCHUNGS-Aktion über ein API erstellen.|[API Vorlagen konfigurieren](admin-configuring-api-template.md)|
 |Sie können Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] server verschlüsseln, indem Sie neue Verschlüsselungsschlüssel erstellen oder vorhandene importieren, die Sie auf dem Server ausführen.|[Datenverschlüsselung verwalten](admin-manage-data-encryption.md)|
-|Verbinden Sie Dynamics 365 for Sales mit [!INCLUDE[d365fin](includes/d365fin_md.md)], um nahtlose Integration zwischen Kundschaftsbeziehungen und Auftragsabwicklung im Interessent-zu-Geld-Prozess zu erhalten.|[Integrieren in Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Verbinden Sie Dynamics 365 for Sales mit [!INCLUDE[d365fin](includes/d365fin_md.md)], um nahtlose Integration zwischen Kundschaftsbeziehungen und Auftragsabwicklung im Interessent-zu-Geld-Prozess zu erhalten.|[Integrieren in Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ändern Sie, welche Felder und Aktionen in der Benutzeroberfläche angezeigt werden, um den Geschäftsprozessen des Unternehmens zu entsprechen, und erweitern Sie die Lösung mit Apps.|[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## <a name="see-also"></a>Siehe auch

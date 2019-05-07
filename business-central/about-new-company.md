@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: eae262341eb61e40f130caf45bb838a62aa67cf2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799095"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916572"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Neue Unternehmen anlegen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] bezeichnet die Container für Geschäftsdaten, die einem Konzernmandanten oder einer juristischen Person angehören als *Unternehmen*. Wenn Sie sich anmelden [!INCLUDE[d365fin](includes/d365fin_md.md)], werden Ihnen Demomandanten und ein leeres Unternehmen, *Mein Unternehmen* zugeordnet. Umschaltung zwischen den Mandanten ist einfach. Gehen Sie zu **Meine Einstellungen** und gehen Sie zum anderen Unternehmen. Wenn Sie können neue Unternehmen, abhängig von Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)]Geschäftsanforderungen auch anlegen. Wenn Sie einen neuen Mandanten erstellen, hilft Ihnen ein unterstütztes Einrichtungshandbuch, die Grundlagen einzurichten. Dann können Sie relevante Daten aus dem Legacysystem oder einem anderen Mandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)] importieren.  
 
 ## <a name="create-new-company"></a>Neues Unternehmen erstellen
-Wenn Sie sich entscheiden, einen Mandanten Ihrem [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen, können Sie den unterstützten Einrichtungsassistenten **Neues Unternehmen erstellen** verwenden. Der Setup-Assistent wird auf der Seite **Unternehmen** und der Suche unter **Unternehmen** im Feld **Meine Einstellungen** angezeigt.  
+Wenn Sie sich entscheiden, einen Mandanten Ihrem [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen, können Sie den Leitfaden für das unterstützte Setup für **Neues Unternehmen erstellen** verwenden. Der Setup-Assistent wird auf der Seite **Unternehmen** und der Suche unter **Unternehmen** im Feld **Meine Einstellungen** angezeigt.  
 
 Der Setup-Assistent bietet drei Vorlagen an:
 

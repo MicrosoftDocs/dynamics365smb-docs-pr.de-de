@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 9391da5eb5fb06bfcaaf8ee2503f694801888d2f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 29b1b29fa1115991b8a8bd569a476e977fba8dce
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799158"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911957"
 ---
 # <a name="manage-employee-absence"></a>Analysiert die Fehlzeiten der Mitarbeiter.
 Damit die Abwesenheit eines Mitarbeiters verwaltet werden kann, muss diese auf der Seite **Abwesenheitsregistrierung** aufgezeichnet werden. Sie kann dann auf verschiedene Art und Weise zur Analyse und Berichterstellungszwecken angezeigt werden.

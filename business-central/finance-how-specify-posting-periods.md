@@ -11,14 +11,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4d517fe0d4162815c3ac39e4fed17f6737370d87
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8e3fb38377719b6fd10d2c3e3f1f162ea8bfdf62
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799101"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916924"
 ---
 # <a name="specify-posting-periods"></a>Festlegen von Buchhaltungsperioden:
 Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Finanzbuchhaltung buchen können.  

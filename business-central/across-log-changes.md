@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 11/14/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 2a71909faf66c13a0923a10bfc12369127642875
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852885"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915430"
 ---
 # <a name="auditing-changes-in-business-central"></a>Protokollieren von Änderungen in Business Central
 

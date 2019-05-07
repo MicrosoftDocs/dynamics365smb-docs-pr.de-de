@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7eb26d98f7d639404817fe8ddf2ad45b30ef5952
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 85305900043a01304c24df166528533c574d23dd
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826751"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924777"
 ---
 # <a name="upgrade-a-dtd-definition-file"></a>Aktualisieren Sie eine .DTD-Definitions-Datei
 Sie können eine .dtd-Datei explizit validieren, nachdem Sie eine importiert haben, um ein Upgradeproblem zu adressieren. Dies ist hilfreich, wenn Sie eine vorhandene Einrichtung haben, die aktualisiert werden muss, um der aktuellen Ausgabe von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zu entsprechen.  

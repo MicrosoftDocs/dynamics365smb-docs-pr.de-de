@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: eb3d9b075f7209634cdc8b6f88a24409f18811e7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a4b5b946d6c1402ad1a27661267c202b703cc1c1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798956"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927783"
 ---
 # <a name="service-price-management"></a>Servicepreismanagement
 Die Funktionalität "Servicepreismanagement" erlaubt Ihnen, den Serviceaufträgen die besten Preise zuzuordnen, individuelle Preisvereinbarungen mit Kunden einzurichten, die Effizienz der Servicemitarbeiter zu verbessern und den Rechnungsstellungsprozess zu beschleunigen.  
