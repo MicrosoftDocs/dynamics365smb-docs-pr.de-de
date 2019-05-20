@@ -11,11 +11,11 @@ ms.search.keywords: configure, initialize
 ms.date: 04/05/2019
 ms.author: edupont
 ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969832"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251009"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen.
@@ -25,7 +25,7 @@ Wir haben einige Firmendaten für Sie erstellt, beispielsweise Ihren Kontenplan 
 Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsseiten zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).
 
 > [!NOTE]
-> Sie können in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit RapidStart Services einen neuen Mandanten einrichten, einem Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen. Weitere Informationen finden Sie unter [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Sie können in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit RapidStart Services einen neuen Mandanten einrichten. Dies ist ein Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen. Weitere Informationen finden Sie unter [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md).
 
 Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvorgänge können zusätzlich zum Leitfaden der unterstützten Einrichtung auch manuell eingerichtet werden. Nachfolgend finden Sie eine Liste von Funktionalität, die Sie manuell einrichten können.
 
@@ -42,7 +42,7 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 |Bereiten Sie Fertigungsstücklisten und Arbeitspläne vor, um zu definieren, wie Endartikel produkziert werden und bereiten Sie Arbeitsplätze oder Arbeitsplatzgruppen vor, um die notwendigen Arbeitsgänge auszuführen.|[Produktion einrichten](production-configure-production-processes.md)|
 |Richten Sie Standardservices, Symptome und Fehlercodes ein, und legen Sie die Serviceartikel, Ressourcen und Dokumentation fest, die benötigt wird, um Ihre Debitoren Service bereitzustellen.|[Einrichten der Serviceverwaltung](service-setup-service.md)|
 |Lesen Sie die besten Verfahren für Artikel für Lagerkostenberechnung und -Beschaffungsplanung.|[Einrichten komplexer Anwendungsbereiche mithilfe bewährter Methoden](set-up-complex-application-areas-using-best-practices.md)|
-|Verbessern Sie die Qualität der Implementierung und verkürzen Sie die Bereitstellungszeit, indem Sie ein Toolset zur Einrichtung eines neuen Mandanten mit Assistenten, Vorlagen, Vorschlägen und Fragebögen verwenden.|[Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
+|Verbessern Sie die Qualität der Implementierung und verkürzen Sie die Bereitstellungszeit, indem Sie ein Toolset zur Einrichtung eines neuen Mandanten mit Assistenten, Vorlagen, Vorschlägen und Fragebögen verwenden.|[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)|
 |Übertragen Sie Debitoren, Kreditoren, Lagerbestände und Bankkontoinformationen aus einer anderen Anwendung zu [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md).|
 |Mit dem Business Central Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, oder Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.|[Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)|
 |Erhalten Sie Einblicke in Ihre Business Central-Daten mit Power BI und Business Central-Inhaltspaketen.|[Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)|

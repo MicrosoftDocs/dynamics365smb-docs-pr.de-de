@@ -12,11 +12,11 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912414"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251423"
 ---
 # <a name="changing-which-features-are-displayed"></a>Sie können auswählen, welche Funktionen angezeigt werden
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist dafür ausgelegt, Ihnen zu helfen, Ihr Geschäft zu führen, unabhängig vom Geschäftsbereich. Im Kernstück von [!INCLUDE[d365fin](includes/d365fin_md.md)] finden Sie die Finanzberichtserstattung und die Verkaufs- und Einkaufsprozesse. Sie fügen Erfahrungen entsprechend den Unternehmensanforderungen hinzu, indem Sie aus AppSource Erweiterungen hinzufügen oder die Einstellung für "Erfahrung" für Ihr Unternehmen ändern. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe von Erweiterungen](ui-extensions.md) oder [Eine Benutzererfahrung auswählen, um eine Funktion ein- oder auszublenden](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).

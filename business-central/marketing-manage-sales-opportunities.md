@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 19f7c77a115f473238441b8c67417e53c0896625
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 3a719e7b2d44a6cf67335b938a0899a52fcde41b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915476"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446830"
 ---
 # <a name="managing-sales-opportunities"></a>Verkaufschancen verwalten
 Alle eingehenden Informationen zu potenziellen Kunden können als Verkaufschance behandelt werden. Sie können Verkaufschancen erstellen und diese einem Verkäufer zuordnen, um potenziellen Verkäufe nachverfolgen zu können.

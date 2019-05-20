@@ -11,11 +11,11 @@ ms.search.keywords: microsoft partner
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: c1ebab10e91fe1dabe26930891c1ef01e4bf79f7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928276"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253636"
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Werden ein Wiederverkäufer von [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Erweitern Sie Ihre Geschäftschance mit [!INCLUDE[d365fin](includes/d365fin_md.md)]!  

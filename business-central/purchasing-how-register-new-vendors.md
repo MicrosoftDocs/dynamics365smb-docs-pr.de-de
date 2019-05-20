@@ -13,11 +13,11 @@ ms.search.keywords: supplier
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9f388b788e8788049ee30567972090984063cad1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930355"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252903"
 ---
 # <a name="register-new-vendors"></a>Registriert einen neuen Kreditor
 Kreditoren stellen die Produkte bereit, die Sie verkaufen. Jeder Kreditor, von dem Sie kaufen, muss als Kreditorenkarte erfasst werden.

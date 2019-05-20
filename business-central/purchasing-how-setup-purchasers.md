@@ -13,11 +13,11 @@ ms.search.keywords: purchasing agent
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 4ca0dc82cb35062479b7d523d0f4cc56c0b522ce
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937992"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252826"
 ---
 # <a name="set-up-purchasers"></a>Einkäufer einrichten
 Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese auf einer Seite einrichten und jedem einen Code zuweisen. Diese Codes können Sie dann für statistische Auswertungen und als Filter in Berichten verwenden

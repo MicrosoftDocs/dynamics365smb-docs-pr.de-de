@@ -11,11 +11,11 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8579a05d60465a769dd34548ec00bb547d4ace5b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932903"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252412"
 ---
 # <a name="purchase-items-for-a-sale"></a>Einkauf von Artikeln für einen Verkauf
 Bei Verkaufsaufträgen aus der Verkaufsrechnungen können Sie Funktionen verwenden, um für Einkaufsbelege Mengen des fehlenden Stücks schneller zu erstellen, die im Verkauf benötigt werden. Sie können zwei verschiedene Funktionen nutzen, abhängig von der Belegart, die verwendet wird.

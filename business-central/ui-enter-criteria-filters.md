@@ -11,11 +11,11 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928069"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253953"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortieren, Durchsuchen und Filtern von Listen
 Es gibt mehrere Möglichkeiten, wie Sie das tun können und die dabei helfen, Datensätze in einer Liste zu scannen, zu suchen und einzugrenzen. Diese umfassen die Sortierung, Suche und Filterung. Sie können einige oder alle davon gleichzeitig anwenden, um die Daten schnell zu finden oder zu analysieren.

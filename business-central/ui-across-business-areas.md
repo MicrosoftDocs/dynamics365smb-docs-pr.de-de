@@ -13,11 +13,11 @@ ms.search.keywords: feature overview, functionality
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939462"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250871"
 ---
 # <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](across-business-functionality.md).

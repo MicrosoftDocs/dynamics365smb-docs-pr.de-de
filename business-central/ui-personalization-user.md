@@ -11,11 +11,11 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922088"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253723"
 ---
 # <a name="personalizing-your-workspace"></a>Personalisieren Ihres Arbeitsbereichs
 

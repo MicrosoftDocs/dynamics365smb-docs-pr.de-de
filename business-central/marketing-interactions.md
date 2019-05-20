@@ -12,17 +12,15 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 7ef4416c695543cb93fcf0bed9501bfa4d04985d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: eedb7a319a11b740f6afa869d162f15c167ccc6d
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917189"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446784"
 ---
-# <a name="managing-interactions-with-contacts"></a>Verwaltung von Aktivitäten mit Kontakten
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] versteht man unter Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten. Kommunikationen können zum Beispiel über Briefe, Fax, E-Mail, Telefon, Besprechungen usw. sein.
-
-Der Bereich "Marketing & Vertrieb" ermöglicht Ihnen, alle Aktivitäten, die Sie mit Ihren Kontakten durchführen, zu speichern, um die Verkaufs- und Marketingmaßnahmen überblicken zu können, die Sie gegenüber Ihren Kontakten unternommen haben, um zukünftige Geschäftsaktivitäten mit ihnen zu verbessern. Die Einrichtung der Anwendung zur Aufzeichnung von Aktivitäten besteht aus diesen Aufgaben:
+# <a name="record-interactions-with-contacts"></a>Aktivitäten mit Kontakten aufzeichnen
+Die Einrichtung der Anwendung zur Aufzeichnung von Aktivitäten besteht aus diesen Aufgaben:
 
 * Einrichten von Aktivitätenvorlagen  
 * Erstellen von Aktivitäten zu Kontakten oder Segmenten  

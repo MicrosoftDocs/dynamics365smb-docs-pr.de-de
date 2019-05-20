@@ -11,11 +11,11 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f80d98ee46f06a9c39928dcf6bcdb4f8bf203874
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916304"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252596"
 ---
 # <a name="invoice-sales"></a>Fakturieren eines Verkaufs
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.  

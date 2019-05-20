@@ -11,11 +11,11 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 77f985df6e2a921c93779629d2a4e0749e744e2a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937969"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253746"
 ---
 # <a name="managing-payables"></a>Verwalten von Verbindlichkeiten
 

@@ -11,11 +11,11 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 4ece210d5dd8f7748b6c7031bb0fedf571b61c9c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "990105"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253171"
 ---
 # <a name="making-payments"></a>Zahlungen vornehmen
 

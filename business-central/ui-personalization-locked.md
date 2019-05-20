@@ -11,11 +11,11 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911696"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251285"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Warum eine Seite für Personalisierungen gesperrt ist
 

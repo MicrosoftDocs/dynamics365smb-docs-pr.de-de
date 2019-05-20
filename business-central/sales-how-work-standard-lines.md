@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2019
+ms.date: 04/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 35395ad71dbc0717410ed5a910f5bcd0170b1d8c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936788"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252251"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen
 Wenn Sie häufiger Verkaufs- und Einkaufszeilen mit ähnlichen Daten erstellen müssen, können Sie die Standardzeilen einrichten, die Sie in wiederkehrenden Verkaufs- und Einkaufsbelegen, z. B. für wiederkehrende Ersatzaufträge benötigen.  
@@ -33,14 +33,21 @@ Der folgende Ablauf zeigt, wie man Standardverkaufszeilen in einer Verkaufsrechn
 > [!NOTE]
 > Sie können keine Preise auf Standardverkaufszeilen definieren,da Preise, Rabatte usw. auf den tatsächlichen Verkaufsbelegen berechnet werden, nachdem Sie die Standardverkaufszeilen eingefügt haben.
 
-## <a name="to-assign-standard-sales-lines-to-a-customers"></a>Um Debitoren Standardverkaufszeilen zuzuweisen:
+## <a name="to-assign-standard-sales-lines-to-a-customer"></a>So weisen Sie Debitoren Standardverkaufszeilen hinzu
 Weisen Sie einem Debitor mindestens eine Standardverkaufszeile zu, sodass sie auf Verkaufsbelegen für diesen Debitor eingefügt werden können.
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitor** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die Karte für einen entsprechendes Debitor.
 3. Wählen Sie die **Wiederkehrende Verkaufszeilen** Aktion aus.
 4. Auf der Seite **Wiederkehrende Verkaufszeilen** wählen Sie Codes für die wiederkehrenden Verkaufszeilen aus, die Sie auf den Verkaufsbelegen für den Debitor einfügen können möchten.
-5. Füllen Sie die weiteren Felder aus, um festzulegen, wann, wie und wo die wiederkehrenden Verkaufszeilen verwendet werden sollen. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Füllen Sie die weiteren Felder aus, um festzulegen, wann, wie und wo die wiederkehrenden Verkaufszeilen verwendet werden sollen.
+6. In den vier Feldern, in denen Sie angeben, wie die Zeilen auf vier Belegarten eingefügt werden, wählen Sie eine der folgenden Optionen aus:
+
+|Option|Beschreibung|
+|-|-|
+|**Manuell**|Sie müssen eine wiederkehrende Verkaufszeile, die bereits für den Debitor vorhanden ist, manuell suchen.|
+|**Automatisch**|Wenn wiederkehrende Verkaufszeilen für den Debitor vorhanden sind, erhalten Sie eine Benachrichtigung, in der Sie auswählen können, welche eingefügt werden soll. Wenn nur eine wiederkehrende Verkaufszeile existiert, wird sie automatisch eingefügt.|
+|**Immer bestätigen**|Eine Benachrichtigung erscheint und alle vorhandenen wiederkehrenden Verkaufszeilen werden angezeigt, sodass Sie eine auswählen können.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Um auf einer wiederkehrenden Verkaufsrechnung Standardverkaufszeilen einfügen
 Wenn Sie wiederkehrende Verkaufszeilen für den Debitor vorhanden sind, können Sie diese auf allen Arten von Verkaufsbelegen, wie einer Verkaufsrechnung, einfügen. Wenn Sie die fragliche Benachrichtigung aktiviert haben, werden Sie informiert, wenn eine wiederkehrende Verkaufszeile vorhanden ist.

@@ -8,11 +8,11 @@ ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 04/01/2019
 ms.openlocfilehash: e9051ae5c12a787eb40732ad133e8d21932df50d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940165"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253677"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 

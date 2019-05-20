@@ -11,11 +11,11 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 2db4fb00567c98b1133cd031a3d7d9f1d1955626
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922313"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250894"
 ---
 # <a name="copying-and-pasting"></a>Kopieren und Einfügen
 Sie können eine oder mehrere Zeilen aus einer Liste oder einem einzelnen Feld auf einer Seite kopieren und die kopierten Daten dann auf der gleichen Seite, einer andere Seite oder einem externen Dokument (wie Microsoft Excel und Outlook-E-Mail) einfügen. Kurz gesagt, zum Kopieren drücken Sie STRG+C (cmd+C in Mac Os) auf Ihrer Tastatur. Zum Einfügen drücken Sie STRG+V (cmd+V in Mac Os).
