@@ -343,8 +343,8 @@
     <Node Name="" DisplayName="Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen" Page="ui-how-users-permissions.html"/>
     <Node Name="" DisplayName="Anpassen von Business Central mithilfe der Erweiterungen" Page="ui-extensions.html"/>
     <Node Name="" DisplayName="Eingehende Belege" Page="across-income-documents.html">
-      <Node Name="" DisplayName="Gewusst wie: Eingehende Dokumente einrichten" Page="across-how-setup-income-documents.html"/>
-      <Node Name="" DisplayName="Eingehende Dokumente verarbeiten" Page="across-process-income-documents.html"/>
+      <Node Name="" DisplayName="Gewusst wie: Eingehende Belege einrichten" Page="across-how-setup-income-documents.html"/>
+      <Node Name="" DisplayName="Eingehende Belege verarbeiten" Page="across-process-income-documents.html"/>
     </Node>
     <Node Name="" DisplayName="Workflow" Page="across-workflow.html">
       <Node Name="" DisplayName="Einrichten von Workflows" Page="across-set-up-workflows.html"/>
