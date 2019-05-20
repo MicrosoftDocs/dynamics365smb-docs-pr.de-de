@@ -4,21 +4,20 @@ description: 'Eine Inventurauftragszeile muss die folgenden bestimmten Daten ent
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
-redirect_url: ../../inventory-how-count-inventory-with-documents
 ms.openlocfilehash: fc3f4bca5a09ec4780bded9f5e87d37a4484e9e3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919628"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241723"
 ---
 # <a name="example---inventory-order-line-with-tracking-lines"></a>Beispiel - Inventurauftragszeile mit Nachverfolgungszeilen
 Eine Inventurauftragszeile enthält die folgenden buchungsrelevanten Daten:  

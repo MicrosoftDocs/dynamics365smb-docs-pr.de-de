@@ -11,11 +11,11 @@ ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: ui-enter-criteria-filters
 ms.openlocfilehash: ae8bec7c0d9d7f23c607037588663d926237d352
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928485"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247953"
 ---
 # <a name="sorting"></a>Sortieren
 Dank der Sortierfunktion können Sie sich schnell und einfach einen Überblick über Ihre Daten verschaffen. Wenn Sie beispielsweise über zahlreiche Debitorenkontakte verfügen, können Sie auswählen, um nach folgenden Kriterien zu sortieren: **Debitorennummer**, **Debitorenbuchungsgruppe**, **Währungscode**, **Länder-/Regionscode** oder **Verkaufssteuer-Registrierung**, um die gewünschte Übersicht zu erhalten.

@@ -13,11 +13,11 @@ ms.search.keywords: personalization
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 2d20fc0849e90f74924ebc585662a9e461cc2313
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924876"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244377"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Anzeigen von Listen in verschiedenen Ansichten
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] finden Sie rechts in jeder Liste Symbole, die Sie die Ansicht der Liste wechseln lassen. Eine Liste kann als detaillierte Liste angezeigt werden. Dies ist die Standardansicht. Sie können jedoch auch zur Ansicht "Kacheln" wechseln, die weniger Details zu einem bestimmten Datensatz anzeigt und Posten als Kacheln stapeln. Diese Ansicht ist sehr nützlich, um eine Übersicht mehrerer Posten zu erhalten und ist insbesondere auf kleineren Geräten hilfreich, da es das Tippen auf jeden Posten erleichtert.

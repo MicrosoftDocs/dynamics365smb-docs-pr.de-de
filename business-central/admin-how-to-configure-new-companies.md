@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ecfa992e5a228225c6ef18ced95e477519ce0fd7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925552"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245432"
 ---
 # <a name="configure-new-companies"></a>So konfigurieren Sie einen neuen Mandanten.
 Um einen neuen Mandanten in der Lösungsimplementierung zu konfigurieren, folgen Sie in der Regel drei Phasen. In der ersten Phase importieren Sie das Konfigurationspaket, eine .rapidstart-Datei mit den Konfigurationsinformationen. In der zweiten Phase ändern Sie die Konfigurationsinformationen und übernehmen sie dann für Ihren neuen Mandanten. In der letzten Phase überprüfen Sie auf Fehler und korrigieren diese.  
 
 In den folgenden Verfahren wird davon ausgegangen, dass Sie ein Konfigurationspaket erstellt und gespeichert haben. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen eines Konfigurations-Paket](admin-how-to-prepare-a-configuration-package.md).  
 
-Bevor Sie den folgenden Verfahren übernehmen, vergewissern Sie sich, dass Ihr neues Unternehmen initialisiert ist und Sie das RapidStart Services-Implementierer Rollencenter nutzen.
+Bevor Sie den folgenden Verfahren übernehmen, vergewissern Sie sich, dass Ihr neues Unternehmen initialisiert ist und Sie das RapidStart Services-Implementierungs-Rollencenter nutzen.
 
 ## <a name="to-import-a-configuration-package"></a>So importieren Sie ein Konfigurationspaket.  
 1. Öffnen Sie das neue Unternehmen im [!INCLUDE[d365fin](includes/d365fin_md.md)] Datenbank.  
@@ -74,6 +74,6 @@ Es gibt bestimmte Arten von Fehlern, die auftreten können, wenn Sie Daten auf e
 7. Wenden Sie die Daten auf die Datenbank an, wie beschrieben in [So ändern Sie Paketdaten und wenden diese an](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data).
 
 ## <a name="see-also"></a>Siehe auch  
-[Übernehmen von Konfiguration in neue Mandanten](admin-apply-configuration-to-new-companies.md)  
-[Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Konfigurationen für neue Mandanten übernehmen](admin-apply-configuration-to-new-companies.md)  
+[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

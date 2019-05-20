@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: ../../inventory-how-count-inventory-with-documents
 ms.openlocfilehash: 973dd4f17c905e4a2389efd2d109c82f7ee8d0f3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916216"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246252"
 ---
 # <a name="post-physical-inventory-orders"></a>So buchen Sie Inventuraufträge
 Nach Fertigstellen eines Inventurauftrags und Ändern des Status in **Beendet** kann er gebucht werden.  

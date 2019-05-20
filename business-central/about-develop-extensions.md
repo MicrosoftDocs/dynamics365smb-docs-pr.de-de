@@ -12,11 +12,11 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916999"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241386"
 ---
 # <a name="extending-included365finincludesd365finmdmd"></a>Erweitern [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ist eine Unternehmensverwaltungslösung, die Unternehmen hilft, Finanzverhältnisse, Verkauf, Service und Arbeitsgänge zu verbinden, um Geschäftsvorgängen zu organisieren, Debitorenaktivitäten zu verbessern und die Entscheidungsfindung zu unterstützen. [!INCLUDE[d365fin](includes/d365fin_md.md)] ist in der Cloud und für Benutzer über verschiedene Arten auf mehreren Geräten verfügbar, die stets auf dem neuesten Stand ist. Mit dieser Geschäftsplattform können Sie problemlos und schnell Anwendungen anpassen, erweitern und einrichten, so dass sie für ihre speziellen Anforderungen passt- mit fast keiner Codeentwicklung.  

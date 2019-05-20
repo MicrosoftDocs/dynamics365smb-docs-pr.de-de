@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 12b0db99503bf8ee1b1839a3fe5c6e847f64ffb9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912287"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239544"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Übertragung und Buchung von Kostenzuteilungen
 Bevor Sie Kostenzuteilungen definieren, müssen Sie verstehen, wie Kostenposten aus den folgenden Quellen stammen:  

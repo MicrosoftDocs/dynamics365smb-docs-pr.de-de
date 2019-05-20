@@ -12,11 +12,11 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "910365"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250273"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassen von Business Central mithilfe der Erweiterungen
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] ändern, indem Sie beispielsweise Erweiterungen installieren, die Funktionalität hinzufügen, das Verhalten ändern oder Zugriff auf die neuen Onlinediensten geben.
@@ -49,7 +49,7 @@ Einige Erweiterungen werden von Microsoft bereitgestellt, und andere Erweiterung
 Microsoft stellt die folgenden Erweiterungen bereit:  
 
 * [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)  
-* [Bank-Feeds Envestnet Yodlee](ui-extensions-yodlee-bank-feeds.md)  
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
 * [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)  
@@ -72,7 +72,7 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 ## <a name="see-also"></a>Siehe auch
 [Erweitern von Dynamics 365 Business Central](about-develop-extensions.md)  
 [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)  
-[Einrichten des Envestnet Yodlee Bank-Feed-Service](bank-how-setup-bank-statement-service.md)  
+[Einrichten des Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [Aktivieren von Debitoren-Zahlungen durch Paypal](sales-how-enable-payment-service-extensions.md)  
 [Geschäftsdaten aus anderen Finanzsystemen migrieren](across-import-data-configuration-packages.md)  
 [Einrichten der britischen Postleitzahlerweiterung GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  

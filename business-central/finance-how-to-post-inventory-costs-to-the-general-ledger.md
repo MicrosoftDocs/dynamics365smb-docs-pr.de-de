@@ -12,11 +12,11 @@ ms.search.keywords: warehouse, stock
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c8a399b6e8c37206003492bb1598120dc6e06929
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931462"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239659"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerregulierung mit der Finanzbuchhaltung
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte in der Hauptbuchhaltung im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht.

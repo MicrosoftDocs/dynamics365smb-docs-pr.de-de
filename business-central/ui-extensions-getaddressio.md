@@ -11,11 +11,11 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 5c83a5bc7fbe91b9ff0592c5129f5a7dd5887c2c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928369"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250043"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>Die britische Postleitzahlenerweiterung GetAddress.io
 Die britische Postleitzahlerweiterung GetAddress.io kann Zeit sparen und hilft Fehler zu verhindern, wenn Sie Adressen für Entitäten wie Debitoren, Kreditoren, Bankkonten und Mitarbeiter eingeben. Wenn Sie beispielsweise einen Debitor erstellen, müssen Sie nur eine Postleitzahl wählen und [!INCLUDE[d365fin](includes/d365fin_md.md)] zeigt eine Übersicht der Adressen. Wählen Sie die Adresse aus, die Sie anzeigen möchten, und die Adressfelder werden ausgefüllt.  

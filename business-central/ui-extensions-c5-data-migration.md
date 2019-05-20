@@ -13,11 +13,11 @@ ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 23d2f6c950786bbd5eb8af0a79ea1351d4e8a3d0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919606"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250068"
 ---
 # <a name="the-c5-data-migration-extension"></a>Die C5-Datenmigrations-Erweiterung
 Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu [!INCLUDE[d365fin](includes/d365fin_md.md)] zu migrieren. Sie können historische Posten für Sachkonten auch migrieren.

@@ -11,11 +11,11 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: f06e032aa1d16deb0dc312d02b88115c2c1c5399
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "990153"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238095"
 ---
 # <a name="pc-keyboard-shortcuts"></a>PC-Tastenkombinationen
 

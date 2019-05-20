@@ -11,11 +11,11 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "990130"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240579"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn arbeiten [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -58,14 +58,14 @@ Die folgende Tabelle beschreibt Tastenkombinationen für das zusätzliche Navigi
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tastenkombinationen in der Liste
 
-Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseite verwenden können. Die Verknüpfungsaktion ist abhängig davon, ob die Seite in der Listenansicht oder der Ansicht mit nebeneinander angeordnet Fenstern angezeigt wird.
+Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseite verwenden können. Die Verknüpfungsaktion ist abhängig davon, ob die Seite in der Listenansicht oder der Kachelansicht mit nebeneinander angeordnet Fenstern angezeigt wird.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
 ### <a name="general"></a>Allgemein
 
-|Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht tun|Um dies in einer Kachelansicht tun |
+|Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht zu tun|Um dies in einer Kachelansicht zu tun |
 |-----------------|-------|-------|
 |Alt+F7 |Sortieren Sie die ausgewählte Spalte in aufsteigender oder absteigender Reihenfolge.|Nicht anwendbar.|
 |Shift+F10 |Öffnen Sie ein Menü mit Optionen, die für die ausgewählte Zeile verfügbar sind.|Nicht anwendbar.|
@@ -73,11 +73,11 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseit
 
 ### <a name="navigateshortcuts"></a>Navigieren zwischen Zeilen und Spalten
 
-|Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht tun |Um dies in einer Kachelansicht tun |
+|Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht zu tun |Um dies in einer Kachelansicht zu tun |
 |-----------------|-------|-------|
-|Strg+Pos1<br />(STRG+NACH-LINKS-TASTE)|Wählen Sie die erste Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte.|Navigieren zum ersten Feld in einer Zeile. |
+|Strg+Pos1<br />(STRG+NACH-LINKS-TASTE)|Wählen Sie die erste Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte.|Navigieren zur ersten Kachel in einer Zeile. |
 |Strg+Ende<br />(STRG+NACH-RECHTS-TASTE)|Wählen Sie die letzte Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte.|Navigieren zur letzten Kachel in einer Zeile.|
-|Zuhause<br />(NACH-LINKS-TASTE)|Navigieren zum ersten Feld in einer Zeile.|Navigieren zum ersten Feld in einer Zeile.|
+|Zuhause<br />(NACH-LINKS-TASTE)|Navigieren zum ersten Feld in einer Zeile.|Navigieren zur ersten Kachel in einer Zeile.|
 |Ende<br />(NACH-RECHTS-TASTE)|Navigieren zum letzten Feld in einer Zeile.|Navigieren zur letzten Kachel in einer Zeile.|
 |Eingabe|Öffnet den Datensatz, der diesem Feld zugeordnet ist.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|Öffnet den Datensatz.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|
 |Ctrl+Enter|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.|
@@ -85,14 +85,14 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseit
 |NACH-OBEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darüber.| Navigieren zur darüberliegenden Kachel in der Zeile darüber.  |
 |NACH-RECHTS-TASTE|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.<br /><br />Navigieren Sie in einer bearbeitbaren Liste innerhalb des aktuellen Felds nach rechts.| Navigieren zur gleichen Zeile in der nächsten Kachel rechts. |
 |NACH-LINKS-TASTE|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. <br /><br />In einer bearbeitbaren Liste bewegen Sie die Linke im aktuellen Feld.| Navigieren zur gleichen Zeile in der vorherigen Kachel links. |
-|Seite nach oben<br />NACH-OBEN-TASTE|Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. |Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. |
+|Seite nach oben<br />NACH-OBEN-TASTE|Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. |Scrollen, um den Kachelsatz über den aktuellen Kacheln in der Darstellung anzuzeigen. |
 |Seite nach unten<br />(NACH-UNTEN-TASTE)|Scrollen, um den Zeilensatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|Scrollen, um den Kachelsatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|
 |Register|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.|Nicht anwendbar.||
 |UMSCHALT+TAB|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
 
 ### <a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
 
-|Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht tun |Um dies in einer Kachelansicht tun |
+|Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht zu tun |Um dies in einer Kachelansicht zu tun |
 |-----------------|-------|-------|
 |Ctrl+Click<br />(Cmd+Click)|Erweitern Sie die Auswahl von Zeilen, um die Zeile einzuschließen, die Sie anklicken.|Nicht anwendbar.|
 |Umschalt+Linksklick|Erweitern Sie die Auswahl von Zeilen, um die Zeile einzuschließen, die Sie anklicken und alle Zeilen dazwischen.<br /><br />Sie können dieses verwenden, nachdem Sie STRG+NACH-OBEN-TASTE oder STRG+NACH-OBEN-TASTE unten verwenden, um Ihre Auswahl zu erweitern.|Nicht anwendbar.|

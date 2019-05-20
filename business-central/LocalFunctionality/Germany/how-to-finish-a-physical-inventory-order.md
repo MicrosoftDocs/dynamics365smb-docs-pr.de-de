@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: ../../inventory-how-count-inventory-with-documents
 ms.openlocfilehash: e4055c4e2510be16118922c1fc773d919c647f5f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927289"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241957"
 ---
 # <a name="finish-a-physical-inventory-order"></a>So schließen Sie einen Inventurauftrag ab
 Nach Abschluss des Inventurauftrags können Sie die Inventurdifferenzen analysieren.  

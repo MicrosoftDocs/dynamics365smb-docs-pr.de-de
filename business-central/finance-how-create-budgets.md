@@ -13,11 +13,11 @@ ms.search.keywords: postpone
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: d564894af7bece1032ce57fdd4169e6c523650b6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941468"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244423"
 ---
 # <a name="create-gl-budgets"></a>Sachkontenbudgets erstellen
 Sie können für dieselbe Periode mehrere Budgets verwalten, indem Sie Budgets mit verschiedenen Namen einrichten. Zuerst richten Sie den Budgetnamen ein und geben die Budgetzahlen ein. Der Budgetname wird dann allen Budgetposten zugewiesen, die Sie erstellen.  

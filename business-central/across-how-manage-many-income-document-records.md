@@ -13,44 +13,44 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 429e276b094a8296daab8e229d60a6dd16246b53
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915844"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239958"
 ---
-# <a name="manage-many-incoming-document-records"></a>Mehrere eingehende Belegdatensätze verwalten
-Wenn Sie eingehende Belegdatensätze verarbeiten, erhöht sich die Anzahl der Zeilen auf der Seite **Eingehende Dokumente** möglicherweise so, dass Sie die Übersicht verlieren. Daher können Sie eingehende Belegdatensätze auf "Verarbeitet" festlegen, um sie aus der Standardansicht zu entfernen. Wenn Sie die Aktion **Alle anzeigen** auswählen, können Sie sowohl verarbeitete als auch nicht verarbeitete Datensätze anzeigen.
+# <a name="manage-many-incoming-document-records"></a>Mehrere eingehende Belege verwalten
+Wenn Sie eingehende Belege verarbeiten, erhöht sich die Anzahl der Zeilen auf der Seite **Eingehende Belege** möglicherweise so, dass Sie die Übersicht verlieren. Daher können Sie eingehende Belege auf "Verarbeitet" festlegen, um sie aus der Standardansicht zu entfernen. Wenn Sie die Aktion **Alle anzeigen** auswählen, können Sie sowohl verarbeitete als auch nicht verarbeitete Datensätze anzeigen.
 
 > [!NOTE]  
->   Sie können in eingehenden Belegdatensätzen, die auf "Verarbeitet" gesetzt wurden, keine Informationen bearbeiten, Dateien hinzufügen oder andere Prozesse ausführen. Sie müssen sie zuerst auf "Nicht verarbeitet" festlegen.
+>   Sie können in eingehenden Belegen, die auf "Verarbeitet" gesetzt wurden, keine Informationen bearbeiten, Dateien hinzufügen oder andere Prozesse ausführen. Sie müssen sie zuerst auf "Nicht verarbeitet" festlegen.
 
-Das Kontrollkästchen **Verarbeitet** ist automatisch bei eingehenden Belegdatensätzen aktiviert, die verarbeitet wurden, aber Sie können das Kontrollkästchen auch manuell aktivieren oder deaktivieren. Abhängig von Ihrem Geschäftsprozess wird ein Datensatz möglicherweise verarbeitet, wenn ein zugehöriger Beleg dafür erstellt oder eine Datei angehängt wurde.
+Das Kontrollkästchen **Verarbeitet** ist automatisch bei eingehenden Belegen aktiviert, die verarbeitet wurden, aber Sie können das Kontrollkästchen auch manuell aktivieren oder deaktivieren. Abhängig von Ihrem Geschäftsprozess wird ein eingehender Beleg möglicherweise verarbeitet, wenn ein zugehöriger Beleg dafür erstellt oder eine Datei angehängt wurde.
 
 > [!NOTE]  
->   Wenn Sie die Seite **Eingehende Dokumente** innerhalb der Aktion **Meine eingehenden Dokumente** im Rollencenter öffnen, werden nur nicht verarbeitete Belege standardmäßig angezeigt. Dies wird in diesem Thema als "Standardansicht" bezeichnet.
+>   Wenn Sie die Seite **Eingehende Belege** innerhalb der Aktion **Meine eingehenden Belege** im Rollencenter öffnen, werden nur nicht verarbeitete Belege standardmäßig angezeigt. Dies wird in diesem Thema als "Standardansicht" bezeichnet.
 
-## <a name="to-remove-incoming-document-records-from-the-default-view"></a>So entfernen Sie eingehende Belegdatensätze aus der Standardansicht
-1. Auf der Seite **Eingehende Dokumente** wählen Sie eine oder mehrere Zeilen für eingehende Datensätze, die Sie von der Standardansicht entfernen möchten.
+## <a name="to-remove-incoming-document-records-from-the-default-view"></a>So entfernen Sie eingehende Belege aus der Standardansicht
+1. Auf der Seite **Eingehende Belege** wählen Sie eine oder mehrere Zeilen für eingehende Belege, die Sie von der Standardansicht entfernen möchten.
 2. Wählen Sie die Aktion **Auf "Verarbeitet" setzen** aus.
 
     Die eingehenden Belegdatensätze werden aus der Standardansicht entfernt, und das Kontrollkästchen **Verarbeitet** wird in den Zeilen aktiviert.
 
 > [!NOTE]  
->   Sie können diese Aktion für einzelne Datensätze auf der Seite **Eingehende Belegkarte** durchführen.
+>   Sie können diese Aktion für einzelne Datensätze auf der Seite **Eingehende Belege** durchführen.
 
-## <a name="to-view-all-incoming-document-records"></a>So zeigen Sie alle eingehende Belegdatensätze an
-1. Wählen Sie auf der Seite **Eingehende Dokumente** die Aktion **Alle anzeigen** aus.
+## <a name="to-view-all-incoming-document-records"></a>So zeigen Sie alle eingehende Belege an
+1. Wählen Sie auf der Seite **Eingehende Belege** die Aktion **Alle anzeigen** aus.
 
 Alle eingehenden Belegdatensätze einschließlich derer, bei denen das Kontrollkästchen **Verarbeitet** nicht aktiviert ist, werden angezeigt.
 
-## <a name="to-add-incoming-document-records-to-the-default-view"></a>So fügen Sie eingehende Belegdatensätze der Standardansicht hinzu
-1. Wählen Sie auf der Seite **Eingehende Dokumente** die Aktion **Alle anzeigen** aus.
-2. Wählen Sie eine oder mehrere Zeilen für eingehende Belegdatensätzeaus, die in der Standardansicht angezeigt werden sollen.
+## <a name="to-add-incoming-document-records-to-the-default-view"></a>So fügen Sie eingehende Belege der Standardansicht hinzu
+1. Wählen Sie auf der Seite **Eingehende Belege** die Aktion **Alle anzeigen** aus.
+2. Wählen Sie eine oder mehrere Zeilen für eingehende Belegeaus, die in der Standardansicht angezeigt werden sollen.
 3. Wählen Sie die Aktion **Auf "Nicht verarbeitet" setzen** aus.  
 
 > [!NOTE]  
->   Sie können diese Aktion für einzelne Datensätze auf der Seite **Eingehende Belegkarte** durchführen.
+>   Sie können diese Aktion für einzelne Datensätze auf der Seite **Eingehende Belege** durchführen.
 
 ## <a name="see-also"></a>Siehe auch
 [Eingehende Belege verarbeiten](across-process-income-documents.md)  

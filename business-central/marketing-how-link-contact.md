@@ -4,21 +4,20 @@ description: Beschreibt, wie Sie einen Kontakt mit einem Debitor, Kreditor oder 
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 06/06/2017
 ms.author: jswymer
-redirect_url: marketing-create-contact-companies
 ms.openlocfilehash: 3db94f55657b08e06a4691b2bd78791da4f26bf5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926486"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238308"
 ---
 # <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronisation von Kontakten mit Debitoren, Kreditoren und Bankkonten.
 Wenn Sie Kontakt und entweder einen Debitor, Kreditor oder ein Bankkonto für das gleiche Unternehmen haben, können Sie die beiden Einheiten verknüpfen. Das Verknüpfen der beiden Einheiten ermöglicht Ihnen gemeinsame Daten zu synchronisieren, sodass diese an beiden Stellen identisch sind.

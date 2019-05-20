@@ -11,11 +11,11 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: b6bd823dc38e5d9c372f0565ad437908b402594e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917284"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240539"
 ---
 # <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten
 Verbraucher und Geschäfte bezahlen Mehrwertsteuer (MwSt), wenn Sie Waren oder Dienstleistungen einkaufen. Der zu bezahlende MwSt-Betrag kann abhängig von verschiedenen Faktoren variieren. In [!INCLUDE[d365fin](includes/d365fin_md.md)], müssen Sie die MwSt einrichten, um die Werte anzugeben, die verwendet werden soll, um die Steuerbeträge auf folgender Grundlage zu berechnen:

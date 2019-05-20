@@ -1,6 +1,6 @@
 ---
 title: Migrate Customer Data | Microsoft Docs
-description: Sie können vorhandenen Debitorendaten aus einem vorhandenen ERP-System zu Business Central migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben.
+description: Sie können vorhandene Debitorendaten aus einem vorhandenen ERP-System zu Business Central migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "953510"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247163"
 ---
 # <a name="migrate-customer-data"></a>Migrieren von Debitorendaten
-Sie können vorhandenen Debitorendaten aus einem vorhandenen ERP-System zu [!INCLUDE[d365fin](includes/d365fin_md.md)] migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben.
+Sie können vorhandene Debitorendaten aus einem vorhandenen ERP-System nach [!INCLUDE[d365fin](includes/d365fin_md.md)] migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben.
 
 Die Seite **Migrationsübersicht** und das **Konfigurationsarbeitsblatt** bieten Zugriff auf Funktionen und Ansichten, um alle Aufgaben im Zusammenhang mit der Datenmigrierung auszuführen. Es ist empfehlenswert, dass Sie eine Tabelle jeweils einzeln migrieren, um alle Abhängigkeiten in Ihren Daten zu berücksichtigen. Von der Migration sind auch die Stammdatentabellen betroffen, die Informationen zu Debitoren, Kreditoren, Artikeln, Kontakten und der Finanzbuchhaltung enthalten.  
 
@@ -28,9 +28,9 @@ Die Seite **Migrationsübersicht** und das **Konfigurationsarbeitsblatt** bieten
 Wenn Sie ein neues Unternehmen erstellen, können Sie Unternehmenseinstellungen für den neuen Mandanten importieren. Sie importieren die Einstellungen von einer .rapidstart-Datei, die die Paketinhalte in einem komprimierten Format bereitstellt. Ein entsprechender Satz von Standard-Datenmigrationstabellen wird importiert. Der Datensatz enthält Stammdatentabellen und die Einrichtungsdatentabellen. Ihre erste Aufgabe bei der Datenmigration besteht in der Einschätzung, ob die Einrichtung der Standardmigration die Anforderungen des neuen Mandanten erfüllt.
 
 > [!NOTE]  
->  Sie können eine Datei nicht umbenennen, die nicht bereits ein RapidStart Services-Konfigurationspaket wie eine .rapidstart-Konfigurationspaketdatei ist und versucht, sie in zu importieren. Wenn Sie versuchen so zu tun, erhalten Sie eine Fehlermeldung.  
+>  Sie können eine Datei, die nicht bereits ein RapidStart Services-Konfigurationspaket ist, nicht als eine .rapidstart-Konfigurationspaketdatei umbenennen und versuchen, sie zu importieren. Wenn Sie versuchen so zu tun, erhalten Sie eine Fehlermeldung.  
 
-Bevor Sie beginnen, vergewissern Sie sich, dass Sie sich auf der RapidStart Services Implementierungs-Rollencenterseite befinden.
+Bevor Sie beginnen, vergewissern Sie sich, dass Sie sich im RapidStart Services-Implementierer-Rollencenter befinden.
 
 > [!IMPORTANT]  
 >  Wenn Sie Konfigurationspakete zwischen zwei Mandantendatenbanken exportieren und importieren, sollten die Datenbanken dasselbe Schema haben, damit sichergestellt ist, dass alle Daten erfolgreich übertragen werden. Das bedeutet, dass die Datenbanken dieselbe Tabelle und Feldstruktur aufweisen sollten, wobei die Tabellen dieselben Primärschlüssel und die Felder dieselben IDs und Datentypen haben.  
@@ -189,5 +189,5 @@ Sie können die Anzahl der Datenbanksätzen anzeigen, die im Feld **Anzahl Daten
 Die Unternehmensdatenbank des Debitors ist jetzt eingerichtet, und grundlegende Daten wurden importiert. Ihre nächsten Schritte im Implementierungsprozess bestehen darin, Benutzer zu schulen, Prozesse zu definieren, zusätzliche Daten zu erstellen, Berichte anzupassen usw.
 
 ## <a name="see-also"></a>Siehe auch  
-[Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

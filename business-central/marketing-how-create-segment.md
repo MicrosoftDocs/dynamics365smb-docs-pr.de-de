@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: b857e2da860a677af9a4dc20072f921d8406898d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920890"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238417"
 ---
 # <a name="create-segments"></a>Segmente erstellen
 Sie können Segmente zur Auswahl einer Gruppe von Kontakten erstellen, z. B. wenn Sie eine Aktivität mit mehreren Kontakten erstellen möchten (z. B. Direktmail).

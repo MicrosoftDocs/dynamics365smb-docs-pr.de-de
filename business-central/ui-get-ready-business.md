@@ -12,11 +12,11 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 73fb2daa84bc34d0fd865e2b95d5ea6dea11336c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923789"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249514"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)]  eingerichtet.

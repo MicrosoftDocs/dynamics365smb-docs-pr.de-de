@@ -8,11 +8,11 @@ ms.search.keywords: setup wizard, accountant
 ms.date: 11/05/2018
 ms.author: edupont
 ms.openlocfilehash: 504891ced64d5cc25823b3887ecdd592b971bf3f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798103"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237493"
 ---
 # <a name="welcome-to-include-d365acclongincludesd365acclongmdmd"></a>Willkommen bei [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]

@@ -13,11 +13,11 @@ ms.search.keywords: bank account balance, bank statement
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932032"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245096"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Bankkonten separat abstimmen
 Um Bankkonten mit den Abrechnungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] abzustimmen, die Sie von Ihrer Bank erhalten werden, beginnen Sie indem Sie im Bereich links auf der Seite **Bankkonto Abstimmen** mit Bankkontoauszugsinformationen ausfüllen die Sie anschließend mit den Bankposten im rechten Fensterbereich abstimmen. Eine intelligente Art, Bankkontoauszugszeilen auszufüllen ist es, Bankkontoauszugsdateien Feeds  zu importieren.
@@ -28,7 +28,7 @@ Um Bankkonten mit den Abrechnungen in [!INCLUDE[d365fin](includes/d365fin_md.md)
 > [!TIP]  
 > Sie können Bankkonten auch auf der Seite **Zahlungsabstimmungsbuch.-Blatt** abstimmen. Alle offnen Bankposten, die sich auf ausgeglichene Debitoren- oder Kreditorenposten beziehen, werden geschlossen, wenn Sie die Aktion **Zahlungen buchen und Bankkonto abstimmen** auswählen. Dies bedeutet, dass das Bankkonto mit Zahlungen abgestimmt wird, die Sie mit dem Buch.-Blatt buchen. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
-Um den Import von Bankkontoauszügen als Bankfeed zu aktivieren, müssen Sie den Bankfeeddienst Envestnet Yodlee einrichten und aktivieren und dann Ihr Bankkonto mit den entsprechenden Onlinebankkonten verbinden. Für weitere Informationen, siehe [Einrichten des Envestnet Yodlee Bank-Feed-Service](bank-how-setup-bank-statement-service.md).
+Um den Import von Bankkontoauszügen als Bankfeed zu aktivieren, müssen Sie den Envestnet Yodlee Bank Feeds Service einrichten und aktivieren und dann Ihr Bankkonto mit den entsprechenden Onlinebankkonten verbinden. Für weitere Informationen, siehe [Einrichten des Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
 Die Zeilen auf der Seite **Bankkontoabstimmung** sind in zwei Bereiche unterteilt. Der Bereich **Bankauszugspositionen** zeigt entweder importierte Banktransaktionen oder Posten mit ausstehenden Zahlungen an. Der Bereich **Bankposten** zeigt die Posten im Bankkonto an.
 

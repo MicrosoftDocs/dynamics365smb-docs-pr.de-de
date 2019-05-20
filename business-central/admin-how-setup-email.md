@@ -12,11 +12,11 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939152"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245834"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Richten Sie E-Mail Nachricht manuell oder mit der unterstützten Einrichtung ein
 Um E-Mails aus [!INCLUDE[d365fin](includes/d365fin_md.md)] zu senden und zu erhalten, müssen Sie die Felder auf der Seite **SMTP-Mail-Einrichtung** ausfüllen.

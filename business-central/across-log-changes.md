@@ -11,11 +11,11 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915430"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240441"
 ---
 # <a name="auditing-changes-in-business-central"></a>Protokollieren von Änderungen in Business Central
 

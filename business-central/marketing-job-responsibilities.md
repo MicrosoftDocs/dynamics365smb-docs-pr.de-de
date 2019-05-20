@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
 ms.openlocfilehash: d9c6b19d49ea9423762b0b4b5cf61eae0e325034
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "933980"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242215"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Einrichten von Verantwortlichkeiten von Kontaktpersonen
 Sie können Informationen zu den Verantwortlichkeiten von Kontaktpersonen hinzufügen, um anzuzeigen, wofür eine Kontaktperson innerhalb ihres Unternehmens zuständig ist z. B. IT, Management oder Produktion. Sie können diese Informationen nutzen, wenn Sie Informationen über Ihre Kontakte eingeben.

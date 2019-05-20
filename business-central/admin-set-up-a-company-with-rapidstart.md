@@ -1,6 +1,6 @@
 ---
-title: Einrichten von Mandanten mit RapidStart Services | Microsoft Docs
-description: Sie können in  mit  einen neuen Mandanten einrichten in Business Central mit RapidStart Services, einem Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen.
+title: Mandantenkonfiguration mit RapidStart Services einrichten | Microsoft Docs
+description: Sie können in Business Central mit RapidStart Services einen neuen Mandanten einrichten, einem Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914784"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244311"
 ---
-# <a name="setting-up-a-company-with-rapidstart-services"></a>Einrichten von Mandanten mit RapidStart Services
-Sie können in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit RapidStart Services einen neuen Mandanten einrichten, einem Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen.  
+# <a name="setting-up-a-company-with-rapidstart-services"></a>Mandanten mit RapidStart Services einrichten
+Sie können in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit RapidStart Services einen neuen Mandanten einrichten. Dies ist ein Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen.  
 
 RapidStart Services hilft Ihnen dabei, sich einen Überblick über den Einrichtungsprozess Ihres neuen Mandanten zu verschaffen. dazu dient ein Arbeitsblatt, in dem Sie die Tabellen einrichten können, die in Konfigurationsprozessen für neue Mandanten oft verwendet werden. Wenn Sie dies tun, können Sie einen Fragebogen erstellen, um Ihre Debitoren durch die Sammlung von Einrichtungsinformationen zu leiten. Ihre Debitoren haben die Option, anhand des Fragebogens Anwendungsbereiche einzurichten. Sie können auch die Einrichtungsseite direkt öffnen und die Einrichtung dort Vornehmen. Was am wichtigsten ist, RapidStart Services hilft Ihnen als Debitor dabei, den Mandanten mit Standard-Einrichtungsdaten vorzubereiten, die Sie individuell anpassen können. Und schließlich können Sie, wenn Sie RapidStart Services verwenden, vorhandene Kundendaten, etwa eine Liste von Debitoren oder Artikeln, konfigurieren und in den neuen Mandanten übertragen.
 
@@ -39,14 +39,14 @@ Sie können die folgenden Komponenten verwenden, um die Einrichtung eines neuen 
 
 |**Prozess**|**Siehe**|  
 |------------|-------------|  
-|Einrichten der Hauptbenutzeroberfläche von RapidStart Services.|[Nutzen Sie das RapidStart Services-Implementierer Rollencenter](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
+|Einrichten der Hauptbenutzeroberfläche von RapidStart Services.|[RapidStart Services-Implementierungs-Rollencenter verwenden](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Erstellen Sie einen neuen Mandanten, und importieren Sie grundlegende Einrichtungsdaten und Vorlagen.|[Richten Sie eine Unternehmenskonfiguration ein.](admin-set-up-company-configuration.md)|  
 |Stellen Sie das konfigurierte Paket für Ihren Kunden für Implementierung bereit.|[Übernehmen von Konfiguration in neue Mandanten](admin-apply-configuration-to-new-companies.md)|
 |Definieren und prüfen Sie die Einrichtung Ihres Kunden für alle Kernbereiche, z. B. Firmendaten, Finanzbuchhaltung, Lagerbestand, Verkauf oder Fertigung.|[Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)|  
 |Konfigurieren Sie Kern-Stammdatendatensätze, die auf Vorlagen basieren, um die Migrierung vorhandener Debitorendaten vorzubereiten.|[Vorgehensweise: Migrieren von Debitorendaten](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Definieren Sie Tabellen und Felder, prüfen Sie vorhandene Debitorendaten, und migrieren Sie die Daten in die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbank.|[Migrieren von Debitorendaten](admin-migrate-customer-data.md)|
 |Mandantenkonfigurationen vorbereiten, um sie in anderen Mandanten wiederzuverwenden.|[Vorgehensweise: Erstellen benutzerdefinierter Unternehmenskonfigurationspakete](admin-how-to-create-custom-company-configuration-packages.md)|
-|Finden Sie im RapidStart Services-Toolkit Lösungen für bekannte Probleme.|[Tipps und Tricks: RapidStart Servicesen](admin-tips-and-tricks-rapidstart-services.md)|  
+|Finden Sie im RapidStart Services-Toolkit Lösungen für bekannte Probleme.|[Tipps und Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Siehe auch  
 [Verwaltung](admin-setup-and-administration.md)  

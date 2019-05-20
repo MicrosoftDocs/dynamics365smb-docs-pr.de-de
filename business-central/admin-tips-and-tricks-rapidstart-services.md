@@ -1,25 +1,25 @@
 ---
-title: 'Tipps und Tricks: RapidStart Servicesen | Microsoft Docs'
+title: Tipps und Tricks – RapidStart Services | Microsoft Docs
 description: Wenn Sie Unternehmen mit RapidStart Services konfigurieren, gibt es einige Tipps und Tricks, die Sie für eine reibungslose Implementierung nutzen können.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 03/05/2018
 ms.author: sgroespe
 ms.openlocfilehash: 6a10ab0d2e4658eba4824e44527d45cbf0f33dd8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936912"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243480"
 ---
-# <a name="tips-and-tricks-rapidstart-services"></a>Tipps und Tricks: RapidStart Servicesen
+# <a name="tips-and-tricks-rapidstart-services"></a>Tipps und Tricks: RapidStart Services
 Wenn Sie Unternehmen mit RapidStart Services konfigurieren, gibt es einige Tipps und Tricks, die Sie für eine reibungslose Implementierung nutzen können.  
 
 ## <a name="take-advantage-of-configuration-templates"></a>Konfigurationsvorlagen nutzen  
@@ -40,5 +40,5 @@ Es wird empfohlen, Eröffnungssalden in der folgenden Reihenfolge in mehreren Sc
 4.  Migrieren Sie offene Anlagenposten.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

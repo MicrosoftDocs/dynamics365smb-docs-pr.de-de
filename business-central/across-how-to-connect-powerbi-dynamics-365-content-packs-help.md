@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.openlocfilehash: b7e844f64a96ba02c1a5fa0231f7b6992f972677
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932833"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247398"
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Verbinden von Power BI mit Dynamics 365 Business Central-Inhaltspaketen
 Einblicke in Ihre Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Daten zu erhalten ist mit Power BI und den Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Inhaltspaketen sehr einfach. Power BI ruft Ihre Daten ab, erstellt dann ein vorkonfiguriertes Dashboard und Berichte auf Grundlage dieser Daten.
@@ -89,7 +89,7 @@ Um die [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Daten in Power B
 - ExcelTemplateViewCompany
 - Power BI-Berichtsbezeichnungen
 
-**Microsoft Dynamics 365 Business Central – Items List**
+**Microsoft Dynamics 365 Business Central – Items Listt**
 - Artikel-Statistik nach Debitor
 - Power BI-Artikeleinkaufsübersicht
 - Power BI-Artikelverkaufsübersicht

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 28ce599b2067faa904f917f8fce7390202c98d7b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941703"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245757"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Eine Verbindung mit Dynamics 365 for Sales einrichten
 Für die Integration mit [!INCLUDE[crm_md](includes/crm_md.md)] müssen Sie eine Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] einrichten. 

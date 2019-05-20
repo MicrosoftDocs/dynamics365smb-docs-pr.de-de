@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941634"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245859"
 ---
 # <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
 Wenn Sie einen neues Mandant konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Um Ihrem Debitoren zu helfen, das Konfigurationspaket zu verwenden, können Sie dem Paket einen Fragebogen oder einen Satz von Fragebogen hinzufügen. Der Fragebogen kann dem Debitor beim Verständnis der verschiedenen Setupoptionen helfen. Üblicherweise werden Fragebögen für die größten Einrichtungstabellen in erstellt, wenn ein Debitor weitere Anleitung dazu anfordert, wie eine entsprechende Einstellung wählen soll. Weitere Informationen finden Sie unter [Sammeln von Debitoren-Einrichtungswerte](admin-gather-customer-setup-values.md).
 
-Vergewissern Sie sich, dass Sie sich auf der RapidStart Services-Implementierer-Rollencenterseite für den Basismandanten befinden. Weitere Informationen finden Sie unter [So verwenden Sie das RapidStart Service Implementer Rollencenter, um den Status zu verfolgen.](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
+Vergewissern Sie sich, dass Sie sich im RapidStart Services-Implementierungs-Rollencenter befinden. Weitere Informationen finden Sie unter [RapidStart Services-Implementierungs-Rollencenter verwenden](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
 
 > [!IMPORTANT]  
 >  Wenn Sie Konfigurationspakete zwischen zwei Mandantendatenbanken exportieren und importieren, sollten die Datenbanken dasselbe Schema haben, damit sichergestellt ist, dass alle Daten erfolgreich übertragen werden. Das bedeutet, dass die Datenbanken dieselbe Tabelle und Feldstruktur aufweisen sollten, wobei die Tabellen dieselben Primärschlüssel und die Felder dieselben IDs und Datentypen haben.  
@@ -136,6 +136,6 @@ Nachdem Sie alle Ihre Setupinformationen untersucht und getestet haben, können 
 
 ## <a name="see-also"></a>Siehe auch  
 [Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)  
-[Richten Sie eine Unternehmenskonfiguration ein.](admin-set-up-company-configuration.md)  
-[Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Unternehmenskonfiguration einrichten](admin-set-up-company-configuration.md)  
+[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

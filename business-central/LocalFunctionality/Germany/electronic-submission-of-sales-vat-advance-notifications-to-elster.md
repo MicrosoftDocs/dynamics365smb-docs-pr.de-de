@@ -14,11 +14,11 @@ redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 45b7e26981eeab8d9ad79229cfde8fe758be51ed
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939195"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237930"
 ---
 # <a name="electronic-submission-of-sales-vat-advance-notifications-to-elster"></a>Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie Steuerbelege und MwSt.-Abrechnungen, wie die Umsatzsteuervoranmeldung, an das Finanzamt elektronisch übermitteln.  

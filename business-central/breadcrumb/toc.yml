@@ -1,21 +1,14 @@
-items:
-- name: Dynamics 365
+- name: "Dynamics\_365"
   tocHref: /dynamics365/
   topicHref: /dynamics365/index
   items:
-  - name: Business Central
-    tocHref: /dynamics365/business-central/
-    topicHref: /dynamics365/business-central/index
-    items:
-    - name: Business Central Developer und IT-pro
-      tocHref: /dynamics365/business-central/dev-itpro
-      topicHref: /dynamics365/business-central/dev-itpro/index
-    - name: Accountant Hub
-      tocHref: /dynamics365/accountants/
-      topicHref: /dynamics365/accountants/index
-ms.openlocfilehash: 7013b15ebba4aa4a3a1157e5b3548ffda165db6a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "798614"
+    - name: Business Central
+      tocHref: /dynamics365/business-central/
+      topicHref: /dynamics365/business-central/index
+      items:
+        - name: Business Central Developer und IT-pro
+          tocHref: /dynamics365/business-central/dev-itpro
+          topicHref: /dynamics365/business-central/dev-itpro/index
+        - name: Accountant Hub
+          tocHref: /dynamics365/accountants/
+          topicHref: /dynamics365/accountants/index

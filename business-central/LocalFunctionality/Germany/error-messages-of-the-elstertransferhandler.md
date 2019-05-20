@@ -14,11 +14,11 @@ redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 1d829fbffa0e2e7a1b596997b992aea6607a9804
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935872"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237949"
 ---
 # <a name="error-messages-of-the-elstertransferhandler"></a>Fehlermeldungen des ElsterTransferHandler
 Wenn [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Umsatzsteuervoranmeldungen übermittelt, können Fehler auftreten.  

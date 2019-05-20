@@ -13,19 +13,19 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919271"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239912"
 ---
-# <a name="configure-a-company-with-the-rapidstart-wizard"></a>So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten.
+# <a name="configure-a-company-with-the-rapidstart-wizard"></a>So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten
 Sie können einen neuen Mandanten, den Sie erstellt haben, schnell konfigurieren, indem Sie den RapidStart Services-Konfigurations-Assistenten verwenden.
 
-Im folgenden Verfahren haben Sie dem Debitor das Konfigurationspaket bereitgestellt, das dann auf einem Computer installiert wird. Der Debitor öffnet den neuen Mandanten, der keine Debitorendaten enthält. Sie oder der Debitormandant folgt den Schritten im RapidStart Services-Assistenten, die in diesem Verfahren beschrieben werden, um grundlegende Informationen über den Mandanten bereitzustellen. Der Assistent importiert das Konfigurationspaket und überträgt das Paket Buchungen auf den Mandanten.  
+Im folgenden Verfahren haben Sie dem Debitor das Konfigurationspaket bereitgestellt, das dann auf einem Computer installiert wird. Der Debitor öffnet den neuen Mandanten, der keine Debitorendaten enthält. Sie oder der Debitor folgen dann den Schritten im RapidStart Services-Assistenten, die in diesem Verfahren beschrieben werden, um grundlegende Informationen über den Mandanten bereitzustellen. Der Assistent importiert das Konfigurationspaket und überträgt das Paket Buchungen auf den Mandanten.  
 
 ## <a name="to-configure-a-new-company"></a>So konfigurieren Sie einen neuen Mandanten.  
-1. Im Feld RapidStart-Dienste-Implementierungs-Rollencenter wählen Sie die **RapidStart-Assistent** Aktion aus.  
+1. Im RapidStart Services-Implementierungs-Rollencenter wählen Sie die Aktion **RapidStart-Assistent** aus.  
 2. Erweitern Sie das Inforegister **Schritt 1**, das allgemeine Informationen über den neuen Mandanten enthält. Geben Sie die entsprechenden Daten über den neuen Mandanten in die Felder ein. Es gibt ein Feld, das ausgefüllt werden muss, **Name**. Die restlichen Felder sind optional.  
 3. Erweitern Sie das Inforegister **Schritt 2**, das Kommunikations- und Kontaktinformationen über den neuen Mandanten enthält. Geben Sie die entsprechenden Daten über den neuen Mandanten in die Felder ein.
 4. Erweitern Sie das Inforegister **Schritt 3**, das Bankkonto- und Zahlungsinformationen über den neuen Mandanten enthält. Geben Sie die entsprechenden Daten über den neuen Mandanten in die Felder ein.  
@@ -48,6 +48,6 @@ Das Fenster **Firmendaten** enthält Informationen, die Sie festgelegt haben.
 Jetzt haben Sie den Mandanten konfiguriert und Daten für ihn übernommen.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Übernehmen von Konfiguration in neue Mandanten](admin-apply-configuration-to-new-companies.md)  
-[Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Konfigurationen für neue Mandanten übernehmen](admin-apply-configuration-to-new-companies.md)  
+[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

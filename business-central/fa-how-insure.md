@@ -13,11 +13,11 @@ ms.search.keywords: policy, coverage
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8a04dae573423daaf7e7e475e63d7090e3a18c97
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920484"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244584"
 ---
 # <a name="insure-fixed-assets"></a>Versichern von Anlagen
 Eine Versicherungspolice für eine Anlage wird durch eine Versicherungskarte angezeigt. Sie können eine Anlage einer Versicherungspolice oder mehreren Anlagen einer Versicherungspolice zuzuordnen.

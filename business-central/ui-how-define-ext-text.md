@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a43cca28bb24c5723d81ca28a3d1f86a38f5ad7c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941657"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248391"
 ---
 # <a name="add-extended-item-text"></a>Hinzufügen von Textbausteinen
 Sie können einen Standardtext für Artikel durch Hinzufügen weiterer Zeilen erweitern, und Sie können Bedingungen für die Verwendung der zusätzlichen Zeilen vorgeben. Sie können dies von Ihrem Artikelkarten aus tun.

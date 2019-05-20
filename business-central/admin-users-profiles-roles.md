@@ -8,11 +8,11 @@ ms.search.keywords: profiles, users
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: fc52d943938616041881c55f70c510e4c63b5de6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925377"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245809"
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Benutzer, Profile und Rollencenter verstehen
 

@@ -1,6 +1,6 @@
 ---
-title: So verwenden Sie das RapidStart-Service-Rollencenter | Microsoft Docs
-description: Wenn Sie RapidStart Services verwenden, empfiehlt es sich, dass Sie Ihre Arbeit verfolgen und das RapidStart Services Implementierungs-Rollencenter verwenden, da esden richtigen Kontext für Ihre Konfigurationsarbeit bereitstellt.
+title: So verwenden Sie das RapidStart Services-Rollencenter | Microsoft Docs
+description: Wenn Sie RapidStart Services verwenden, empfiehlt es sich, dass Sie Ihre Arbeit verfolgen und das RapidStart Services-Implementierungs-Rollencenter verwenden, da es den richtigen Kontext für Ihre Konfigurationsarbeit bereitstellt.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912073"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245166"
 ---
-# <a name="use-the-rapidstart-services-implementer-role-center"></a>Nutzen Sie das RapidStart Services-Implementierer Rollencenter
-Wenn Sie RapidStart Services verwenden, empfiehlt es sich, dass Sie Ihre Arbeit verfolgen und das RapidStart Services Implementierungs-Rollencenter verwenden, da esden richtigen Kontext für Ihre Konfigurationsarbeit bereitstellt. Weitere Informationen finden Sie unter [So ändern Sie das Rollencenter](ui-change-basic-settings.md#to-change-role-center).
+# <a name="use-the-rapidstart-services-implementer-role-center"></a>RapidStart Services-Implementierungs-Rollencenter verwenden
+Wenn Sie RapidStart Services verwenden, empfiehlt es sich, dass Sie Ihre Arbeit verfolgen und das RapidStart Services-Implementierungs-Rollencenter verwenden, da es den richtigen Kontext für Ihre Konfigurationsarbeit bereitstellt. Weitere Informationen finden Sie unter [So ändern Sie das Rollencenter](ui-change-basic-settings.md#to-change-role-center).
 
 Während Sie mit der Arbeit fortfahren, können Sie jeder Tabelle den Status zuordnen, der zeigt, wo Sie im Prozess sind. [!INCLUDE[d365fin](includes/d365fin_md.md)] verfolgt dann den Tabellenstatus im **Aktivitäten** Teil im Rollencenter.  
 
@@ -35,7 +35,7 @@ Wenn Sie eine Tabelle dem Konfigurationsarbeitsblatt hinzufügen, wird der Statu
 Wenn Sie zum Rollencenters zurückkehren, werden die Kacheln **Aktivitäten** aktualisiert, um die Änderungen widerzuspiegeln.  
 
 ## <a name="to-track-the-status-of-a-configuration-project"></a>So verfolgen Sie den Status eines Konfigurationsprojekts.  
-- Öffnen Sie das RapidStart Services-Rollencenter.  
+- Öffnen Sie das RapidStart Services-Implementierungs-Rollencenter.  
 
 Im Bereich **Konfiguration** wird die Abschlussstatistik für Bereiche und Gruppen, die Sie in Ihrer Konfiguration installiert haben, angezeigt. Wenn Sie keine Gruppen oder Bereiche installiert haben, hat dieser Teil keine Daten.  
 
@@ -44,5 +44,5 @@ Im Bereich **Konfiguration** wird die Abschlussstatistik für Bereiche und Grupp
 2. Wählen Sie die entsprechende gefilterte Ansicht aus.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Einrichten von Mandanten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

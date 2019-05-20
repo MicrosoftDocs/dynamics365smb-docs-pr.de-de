@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: admin-how-set-up-colored-indicator-on-cues
 ms.openlocfilehash: f79f1a65ee17d8ca46a8ecf1cd9d49c5246bef63
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923438"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248111"
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Einrichten eines farbigen Indikators auf Stapeln des Rollencenters
 Sie können Stapel einrichten, die im Rollencenter mit einem Indikator angezeigt werden, dessen Farbe sich basierend auf den Datenwerten in den Stapeln ändert.
