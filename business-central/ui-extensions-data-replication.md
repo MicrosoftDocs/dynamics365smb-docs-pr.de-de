@@ -9,26 +9,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: edupont
-ms.openlocfilehash: dee16082a43c1e38886ba0aec4409c52ffbd3c05
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2daa70123a40a7d908e20e600cb8e153c6881641
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250250"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594179"
 ---
 # <a name="business-central-intelligent-cloud-extensions"></a>Intelligente Cloud-Erweiterungen von Business Central
+
+Diese Erweiterung verbindet Ihre Daten von [!INCLUDE [prodshort](includes/prodshort.md)] lokal mit [!INCLUDE [prodshort](includes/prodshort.md)] online für intelligente Einblicke.  
 
 Wenn Sie eines der unterstützten lokalen Produkte verwenden, können Sie Ihre intelligente Cloud-Umgebung auf Basis einer produktspezifische Erweiterung konfigurieren.Sobald die intelligente Cloud-Umgebung konfiguriert ist, haben Sie die Möglichkeit, Daten von Ihrer lokalen Lösung zu Ihrem [!INCLUDE[prodshort](includes/prodshort.md)]-Cloud-Tenant zu replizieren. Dadurch können Sie die Möglichkeiten, die die Cloud Ihrem Unternehmen zu bieten hat, in vollen Umfang nutzen, z. B. , erhöhte Einblicke in Ihr Unternehmen, künstliche Intelligenz mehrfacher Gerätzugriff und Zugriff überall und jederzeit.  
 
 ## <a name="business-central-on-premises"></a>Lokales Business Central
-Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prodshort](includes/prodshort.md)] verwenden, holen Sie sich die **Intelligente Cloud-Base**-Erweiterung und die **Intelligente Cloud-Erweiterung von Business Central**, und führen Sie den Anleitungen von beiden durch.  
+Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prodshort](includes/prodshort.md)] verwenden, holen Sie sich die **intelligente Cloud basierte** Erweiterung und die **Business Central intelligente Cloud**Erweiterung und führen Sie dann die unterstütze Einrichtung der **Intelligenten Cloud Einrichtung** durch.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
-Wenn Sie Dynamics GP verwenden, holen Sie sich die **intelligente Cloud Base-Erweiterung**-Erweiterung, die  **Dynamics GP-Datenmigration**-Erweiterung und die **intelligente Dynamics GP-Cloud** und befolgen Sie die Anleitungen aller drei.  
+Wenn Sie Dynamics GP verwenden, holen Sie sich die Erweiterung**Intelligente Cloud basierte Erweiterung**, die **Dynamics GP-Datenmigration-Erweiterung** und die **Dynamics GP intelligente Cloud** Erweiterung und führen Sie dann die unterstützte Einrichtung der **Intelligenten Cloud Einrichtung** aus.  
+
+## <a name="dynamics-nav"></a>Dynamics NAV
+Wenn Sie eine lokale Bereitstellung von Dynamics NAV verwenden, holen Sie sich die **intelligente Cloud basierte Erweiterung** und die **Dynamics NAVIntelligente Cloud**Erweiterung und führen Sie die unterstützte Einrichtung der **Intelligenten Cloud Einrichtung** durch.  
 
 ## <a name="see-also"></a>Siehe auch
 
-[Ihr Zugang zur intelligenten Cloud](about-intelligent-cloud.md)  
+[Intelligente Einblicke](about-intelligent-cloud.md)  
 [Intelligente Cloud Base-Erweiterung](ui-extensions-intelligent-cloud.md)  

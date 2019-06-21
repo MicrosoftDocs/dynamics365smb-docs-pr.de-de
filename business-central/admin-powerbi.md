@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 79fa8f67a1b2d7ced65f002bd04fc69f61811c5e
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247498"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620976"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivieren Sie Ihre Geschäftsdaten für Power BI
 Einblicke in Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)]-Daten zu erhalten zu erhalten, ist mit Power BI und den [!INCLUDE[d365fin](includes/d365fin_md.md)]-Inhaltspaketen sehr einfach. Power BI ruft Ihre Daten ab und erstellt dann ein vorkonfiguriertes Dashboard und Berichte auf Grundlage dieser Daten.  
 
-Sie müssen ein gültiges Konto mit Dynamics 365 und mit Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen, wenn Sie Ihre eigenen Power BI-Berichte erstellen möchten. Power BI-Inhaltspakete benötigen Berechtigungen für die Tabellen, aus denen Daten abgerufen werden. Weitere Einzelheiten auf den Anforderungen werden im Folgenden beschrieben.  
+Sie müssen ein gültiges Konto bei [!INCLUDE[prodshort](includes/prodshort.md)] und Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen, wenn Sie Ihre eigenen Power BI-Berichte erstellen möchten. Power BI-Inhaltspakete benötigen Berechtigungen für die Tabellen, aus denen Daten abgerufen werden. Weitere Einzelheiten auf den Anforderungen werden im Folgenden beschrieben.  
 
 > [!IMPORTANT]
 > Die Inhaltspacks, die in diesem Artikel beschrieben werden, sind dafür ausgelegt, Azure Active Directory als Autorisierungsmechanismus zu verwenden. Wenn Sie [!INCLUDE [prodshort](includes/prodshort.md)] lokal und einen anderen Autorisierungsmechanismus verwenden, kann Power BI keine Verbindung mit den Daten herstellen.  
@@ -28,15 +28,8 @@ Sie müssen ein gültiges Konto mit Dynamics 365 und mit Power BI haben. Zudem m
 Microsoft hat folgende Inhaltspakete veröffentlicht:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] – CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)]– Debitorenübersicht  
 - [!INCLUDE [prodlong](includes/prodlong.md)] – Finanzen  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – Artikelübersicht  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – Projekte  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – Projektübersicht  
-- [!INCLUDE [prodlong](includes/prodlong.md)]– Einkaufsrechnungen  
 - [!INCLUDE [prodlong](includes/prodlong.md)] – Verkauf  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – Verkaufsauftragsübersicht  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – Kreditorenübersicht  
 
 ## <a name="using-the-dashboards"></a>Dashboards nutzen
 Jedes Inhaltspaket enthält Berichte, die Sie aufrufen können in:
@@ -88,64 +81,9 @@ Um die [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Daten in Power B
 - Excel-Vorlage zur Unternehmensansicht
 - Power BI-Berichtsbezeichnungen
 
-**Microsoft Dynamics 365 Business Central – Jobs**
-- Projektübersicht
-- Projektplanzeilen
-- Projektaufgabenzeilen
-- Power BI-Berichtsbezeichnungen
-- Excel-Vorlage zur Unternehmensansicht
-
 **Microsoft Dynamics 365 Business Central - Sales**
 - Verkaufsdashboard
 - Excel-Vorlage zur Unternehmensansicht
-- Power BI-Berichtsbezeichnungen
-
-### <a name="list-page-reports"></a>Berichte für Listenseite
-
-**Microsoft Dynamics 365 Business Central – Customers List**
-- Artikel-Statistik nach Debitor
-- Power BI-Artikeleinkaufsübersicht
-- Power BI-Artikelverkaufsübersicht
-- Verkaufsdashboard
-- Power BI-Debitorenübersicht
-- ExcelTemplateViewCompany
-- Power BI-Berichtsbezeichnungen
-
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
-- Power BI-Sachkontobetragsübersicht
-- Power BI – budgetierter Betrag des Sachkontos
-- ExcelTemplateViewCompany
-- Power BI-Berichtsbezeichnungen
-
-**Microsoft Dynamics 365 Business Central – Items Listt**
-- Artikel-Statistik nach Debitor
-- Power BI-Artikeleinkaufsübersicht
-- Power BI-Artikelverkaufsübersicht
-- Verkaufsdashboard
-- ExcelTemplateViewCompany
-- Power BI-Berichtsbezeichnungen
-
-**Microsoft Dynamics 365 Business Central – Jobs List**
-- Power BI-Projekte-Übersicht
-- ExcelTemplateViewCompany
-- Power BI-Berichtsbezeichnungen
-
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
-- Power BI-Einkaufsübersicht
-- ExcelTemplateViewCompany
-- Power BI-Berichtsbezeichnungen
-
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
-- Power BI-Verkaufsübersicht
-- ExcelTemplateViewCompany
-- Power BI-Berichtsbezeichnungen
-
-
-**Microsoft Dynamics 365 Business Central – Vendors List**
-- Power BI-Artikeleinkaufsübersicht
-- Power BI-Artikelverkaufsübersicht
-- Power BI-Kreditorenübersicht
-- ExcelTemplateViewCompany
 - Power BI-Berichtsbezeichnungen
 
 ## <a name="web-services"></a>Webdienste
@@ -158,8 +96,7 @@ Das Power BI-Dashboard beruht auf den veröffentlichten Webdiensten, die oben au
 Ein häufiger Fehler ist, den Unternehmensanzeigenamen anstelle des Unternehmensnamens einzugeben. Unternehmensnamensuche für **Unternehmen** zu suchen. Verwenden Sie das Feld **Name**, wenn Sie den Unternehmensnamen eingeben.
 
 ### <a name="incorrect-user-name-and-password"></a>Falscher Benutzername und Kennwort  
-Der Benutzername und das Kennwort, die zum Verbinden verwendet werden, sind dieselben, die verwendet werden, um die Verbindung mit Ihrem Microsoft Office 365-Konto herzustellen.  
-
+Der Benutzername und das Kennwort, die zum Verbinden mit Power BI verwendet werden, sind dieselben, die verwendet werden, um die Verbindung mit Ihrem Microsoft Office 365-Konto herzustellen.  
 Die Inhaltspakete erfordern, dass Sie ein Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Konto haben. Nachdem Sie Ihre Anmeldeinformationen eingeben haben, erkennen wir sämtliche Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Tenants, auf die Sie Zugriff haben. Wenn Sie kein lizenziertes oder Probe-Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Konto haben, erhalten Sie eine Fehlermeldung.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Der Schlüssel glich keinen Zeilen in der Tabelle

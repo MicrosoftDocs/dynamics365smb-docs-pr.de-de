@@ -10,19 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38218c497f7d3892b19d0b594ff3863004f69ac4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab0f0e921fd7a321975330062d19869efc7d8ec7
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246864"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620930"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetails: Verfügbarkeit im Lager
 Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager aufrechterhalten, sodass ausgehende Aufträge effizient verlaufen und optimale Lieferungen zur Verfügung stellen können.  
 
- Die Verfügbarkeit variiert je nach Zuordnungen auf Lagerplatzebene, wenn Lageraktivitäten wie Kommissionierungen und Lagerplatzumlagerungen auftreten, und wenn das Bestandsreservierungssystem Einschränkungen erforderlich macht, die einzuhalten sind. Ein komplexer Algorithmus prüft, ob alle Bedingungen erfüllt sind, bevor Mengen auf Kommissionierungen für ausgehende Ströme zugewiesen werden.  
+Die Verfügbarkeit variiert je nach Zuordnungen auf Lagerplatzebene, wenn Lageraktivitäten wie Kommissionierungen und Lagerplatzumlagerungen auftreten, und wenn das Bestandsreservierungssystem Einschränkungen erforderlich macht, die einzuhalten sind. Ein komplexer Algorithmus prüft, ob alle Bedingungen erfüllt sind, bevor Mengen auf Kommissionierungen für ausgehende Ströme zugewiesen werden.
+
+Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene Fehlermeldungen, einschließlich der generischen Meldung "Nichts zu behandeln" angezeigt werden. Meldung. Die "Nichts zu behandeln" Meldung kann für viele verschiedenen Ursachen, in den eingehenden und ausgehenden Flüssen auftreten, in denen eine direkt oder indirekt betroffene Belegzeile das Feld **Menge. zu behandeln** enthält.
+
+> [!NOTE]
+> Informationen werden in Kürze hier über mögliche Ursachen und Lösungen veröffentlicht, dass das "nichts zu behandeln" umfasst. Nachricht
 
 ## <a name="bin-content-and-reservations"></a>Lagerplatzinhalt und Reservierungen  
  In jeder Installation von NAV-Logistik sind Artikelmengen als Lagerplatzposten, im Logistikbereich, und als Artikelposten, im Anwendungsbereich Lager, vorhanden. Diese beiden Postenarten enthalten verschiedene Informationen darüber, wo Artikel vorhanden sind und ob sie verfügbar sind. Lagerplatzposten definieren die Verfügbarkeit eines Artikels nach Lagerplatz und Lagerplatzart, was als Lagerplatzinhalt bezeichnet wird. Artikelposten definieren die Verfügbarkeit eines Artikels durch ihre Reservierung auf ausgehenden Belegen.  
@@ -72,4 +77,5 @@ Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager a
  ![Verfügbar pro Lagerzuordnung](media/design_details_warehouse_management_availability_3.png "Verfügbar pro Lagerzuordnung")  
 
 ## <a name="see-also"></a>Siehe auch  
- [Designdetails: Logistik](design-details-warehouse-management.md)
+ [Designdetails: Logistik](design-details-warehouse-management.md)  
+ [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)

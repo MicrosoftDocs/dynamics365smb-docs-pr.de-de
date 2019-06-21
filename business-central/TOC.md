@@ -51,7 +51,7 @@
 ## Tastenkombinationen verwenden
 ### [Eingabehilfe und Tastenkombinationen](ui-accessibility.md)
 ### [Tastenkombinationen](keyboard-shortcuts.md)
-### [Tastenkombinationskurzübersicht](keyboard-shortcuts-cheatsheet.md)
+### [Nur PC-Tastenkombinationskurzübersicht](keyboard-shortcuts-cheatsheet.md)
 
 # Einrichten von Business Central
 ## [Matrix](setup.md)
@@ -318,7 +318,7 @@
 ## [Erstellen Sie eine Sandkastenumgebung.](across-how-create-sandbox-environment.md)
 ## Integrieren in Dynamics 365 for Sales
 ### [Matrix](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Einrichten der Integration in Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Einrichten des Benutzerkontos für die Integration in Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Einrichten einer Dynamics 365 for Sales-Verbindung](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronisieren von Business Central und Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
 ### [Tabellenzuordnungen für die Synchronisierung ändern](admin-how-to-modify-table-mappings-for-synchronization.md)
@@ -330,11 +330,11 @@
 #### [Matrix](ui-extensions.md)
 #### [Erweiterungen nutzen anpassen](ui-extensions.md)
 #### [Ceridian-Gehaltsliste](ui-extensions-ceridian-payroll.md)
-#### [Datenreplikation](ui-extensions-data-replication.md)
 #### [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)
 #### [Wesentliche Geschäfts-Einblicke](ui-extensions-essential-business-insights.md)
 #### [Schliffbildanalysator](ui-extensions-image-analyzer.md)
-#### [Intelligente Cloud](ui-extensions-intelligent-cloud.md)
+#### [Intelligente Cloud](ui-extensions-data-replication.md)
+#### [Intelligente Cloud-Basis](ui-extensions-intelligent-cloud.md)
 #### [Microsoft Pay-Zahlungen](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)
@@ -347,6 +347,7 @@
 #### [DK - C5-Datenmigration](ui-extensions-c5-data-migration.md)
 #### [DK - Steuerdateiformate](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io Postleitzahlen Großbritannien](ui-extensions-getaddressio.md)
+#### [Rimesseavis senden](ui-extensions-send-remittance-advice.md)
 #### [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)
 ### [Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)
 ### [Personalisierung als Administrator verwalten](ui-personalization-manage.md)
@@ -992,11 +993,7 @@
 #### [Erstellen von MwsT-Berichten.](LocalFunctionality/Germany/how-to-create-vat-reports.md)
 #### [Zu korrigierender MwSt.-Bericht](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
 #### [Umsatzsteuervoranmeldungen](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
-#### [Gewusst wie: Erstellen und Senden von Umsatzsteuervoranmeldungen](LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md)
-#### [Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER](LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)
 #### [MwSt-VIES-Steuer angeben](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
-#### [ELSTER-Übermittlung – Übersicht](LocalFunctionality/Germany/elster-transmission-overview.md)
-#### [Fehlermeldungen des Elster Transfer Handler](LocalFunctionality/Germany/error-messages-of-the-elstertransferhandler.md)    
 ### Banking und Zahlungen
 #### [Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
 ### Kernfinanzierung

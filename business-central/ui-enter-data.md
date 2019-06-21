@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: jswymer
-ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252458"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621160"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
@@ -39,7 +39,7 @@ Sie sind möglicherweise bereits mit der Anwendung die TAB-TASTE vertraut, um vo
 
 Jedes Feld kann als *in Schnelleingabe enthalten* oder *aus Schnelleingabe ausgeschlossen* markiert werden. Felder, die in der Schnelleingabe enthalten sind, sind im Pfad enthalten, wenn Sie EINGABE drücken; Felder, die aus der Schnelleingabe ausgeschlossen sind, nicht.
 
-Wenn Sie die Dateneingabe in einem Feld beendet haben, drücken Sie einfach die EINGABETASTE, um die Änderungen zu bestätigen und zum nächsten Feld zu wechseln. Wenn Sie die Richtung umkehren und zum vorherigen Feld gehen möchten, drücken UMSCHALTTASTE+EINGABETASTE. Weitere Informationen zu diesen Tastenkombinationen finden Sie unter [Tastenkombinationen der Schnelleingabe](keyboard-shortcuts.md#QuickEntry).
+Wenn Sie die Dateneingabe in einem Feld beendet haben, drücken Sie einfach die EINGABETASTE, um die Änderungen zu bestätigen und zum nächsten Feld zu wechseln. Wenn Sie die Richtung umkehren und zum vorherigen Feld gehen möchten, drücken UMSCHALTTASTE+EINGABETASTE. Weitere Informationen zu diesen Tastenkombinationen finden Sie unter [Tastenkombinationen der Schnelleingabe für Felder](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tipps und Tricks
 Es folgen einige nützliche Informationen zur Anwendung der Schnelleingabe.
@@ -90,7 +90,7 @@ Wenn Sie in Belegen arbeiten, die einen Positionsartikelteil haben, wie Verkaufs
 
 Ein anderer Vorteil besteht darin, dass auch erweiterte Filterungsfunktion, wie auf anderen Listen, bereitgestellt werden, sodass Durchsuchen und Suchen nach Belegpositionen sogar einfacher wird.
 
-### <a name="switch-the-focus-on-and-off"></a>Den Fokus an- und ausschalten
+### <a name="switching-the-focus-on-and-off"></a>Den Fokus zwischen An- und Ausschalten wechseln
 
 Um sich auf Positionsartikel zu konzentrieren, wählen Sie einen beliebigen Bereich des Positionsartikelteils aus und wählen Sie dann das ![Fokusmodussymbol](media/focus-mode.png "Fokusmodussymbol") in der oberen rechten Ecke aus oder drücken Sie STRG+UMSCHALT+F12.
 

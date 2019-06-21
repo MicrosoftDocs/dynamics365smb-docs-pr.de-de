@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: de924baa494ae00c09dcb7657c050f2d9ae3ba87
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247444"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540200"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Tabellenzuordnungen für die Synchronisierung ändern
 Eine Integrationstabellenzuordnung verknüpft eine Tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit einer Integrationstabelle für die [!INCLUDE[crm_md](includes/crm_md.md)]-Einheit. Für jede Einheit in [!INCLUDE[crm_md](includes/crm_md.md)], die Sie mit dazugehörenden Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren möchten, muss eine dazugehörende Integrationstabellenzuordnung vorhanden sein. Eine Integrationstabellenzuordnung umfasst eine Reihe von Einstellungen, mit denen Sie steuern können, wie Datensätze in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle und einer [!INCLUDE[crm_md](includes/crm_md.md)]-Einheit von den entsprechenden Integrationssynchronisierungsprojekten synchronisiert werden.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c318346c62b7776a550a77a2947173e33d5f17c0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3163389cb0818133fba9ab8c55b8d0cf662130f1
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246574"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620953"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Einrichten des Benutzerkontos für die Integration in Dynamics 365 for Sales
 Dieser Artikel bietet eine Übersicht darüber, wie die Benutzerkonten eingerichtet werden, die erforderlich sind, um [!INCLUDE[d365fin](includes/d365fin_md.md)] in [!INCLUDE[crm_md](includes/crm_md.md)] zu integrieren.  
@@ -28,7 +28,7 @@ Dieser Artikel bietet eine Übersicht darüber, wie die Benutzerkonten eingerich
 Sie müssen Ihr Administratorbenutzerkonto für [!INCLUDE[d365fin](includes/d365fin_md.md)] als Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] hinzufügen und dann den Benutzer zum Administrator in [!INCLUDE[crm_md](includes/crm_md.md)] befördern. Das Administratorbenutzerkonto muss auch die Rolle des Systemanpassers und mindestens eine andere nicht administrative Benutzerrolle, z. B. Vertriebsmanager, in [!INCLUDE[crm_md](includes/crm_md.md)] haben.
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Einrichten des Benutzerkontos für die Integration
-Sie müssen ein spezifisches Benutzerkonto in Ihrem Office 365-Abonnement erstellen, das sowohl [!INCLUDE[d365fin](includes/d365fin_md.md)] als auch [!INCLUDE[crm_md](includes/crm_md.md)] verwenden können, um Daten zu synchronisieren. Das Benutzerkonto muss in der Lage sein, sich in [!INCLUDE[crm_md](includes/crm_md.md)] anzumelden. Das bedeutet, dass der Benutzer eine Lizenz für [!INCLUDE[crm_md](includes/crm_md.md)] haben muss. Dieses Konto muss auch ein nicht interaktives Konto in [!INCLUDE[crm_md](includes/crm_md.md)] sein. Weitere Informationen darüber, wie Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt werden, finden Sie unter [Verwalten von Sicherheit, Benutzern und Teams](http://go.microsoft.com/fwlink/?LinkID=616518). Nachdem die Verbindung eingerichtet ist, ordnet [!INCLUDE[d365fin](includes/d365fin_md.md)] dem Benutzerkonto Sicherheitsrollen zu, die es in [!INCLUDE[d365fin](includes/d365fin_md.md)] benötigt.
+Sie müssen ein spezifisches Benutzerkonto in Ihrem Office 365-Abonnement erstellen, das sowohl [!INCLUDE[d365fin](includes/d365fin_md.md)] als auch [!INCLUDE[crm_md](includes/crm_md.md)] verwenden können, um Daten zu synchronisieren. Dieses Benutzerkonto muss in der Lage sein, sich bei [!INCLUDE[crm_md](includes/crm_md.md)] anzumelden, was bedeutet, dass dieser Benutzer eine Lizenz für [!INCLUDE[crm_md](includes/crm_md.md)] benötigt und mindestens eine Sicherheitsrolle in [!INCLUDE[crm_md](includes/crm_md.md)] zugewiesen werden muss, wie [ hier](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account) beschrieben. Weitere Informationen darüber, wie Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt werden, finden Sie unter [Verwalten von Sicherheit, Benutzern und Teams](http://go.microsoft.com/fwlink/?LinkID=616518). Nachdem die Verbindung eingerichtet ist, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] dem Benutzerkonto die Sicherheitsrollen zuweisen, die sie benötigen in [!INCLUDE[d365fin](includes/d365fin_md.md)] und dieses Konto kann auf [ nicht interaktiven Zugriffsmodus](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) festgelegt werden in [!INCLUDE[crm_md](includes/crm_md.md)]
 
 ![Der Leitfaden für das unterstützte Setup zeigt den Ort, an dem die Anmeldeinformationen für die Synchronisierung eingegeben werden](media/sync-user-setup.png "Assistentenseite für die Visualisierung des unterstützten Setups zeigt den Ort, an dem die Anmeldeinformationen für die Synchronisierung eingegeben werden")
 

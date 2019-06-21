@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 28ce599b2067faa904f917f8fce7390202c98d7b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c95dee48b42fe5784c1d7d2fc6a11d5f487c7653
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245757"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621045"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Eine Verbindung mit Dynamics 365 for Sales einrichten
 Für die Integration mit [!INCLUDE[crm_md](includes/crm_md.md)] müssen Sie eine Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] einrichten. 
@@ -55,6 +55,9 @@ Das Leitfaden für das unterstützte Setup für das **Einrichtung der Dynamics 3
 |**Verkaufsauftragsintegration aktivieren**|Wenn Personen [!INCLUDE[crm_md](includes/crm_md.md)] Verkaufsaufträge erstellen, kopieren Sie die Bestellungen zu [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dazu ist es erforderlich, dass Sie Anmeldeinformationen für ein Administratorbenutzerkonto in [!INCLUDE[crm_md](includes/crm_md.md)] zur Verfügung stellen. Weitere Informationen finden Sie im Abschnitt [Verarbeiten von Verkaufsauftragsdaten](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Aktivieren der Dynamics 365 for Sales-Verbindung**|Aktivieren Sie die Verbindung mit [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Dynamics 365-SDK-Version**|Dies ist nur relevant, wenn Sie eine lokale Version von [!INCLUDE[crm_md](includes/crm_md.md)] integrieren. Das ist das Dynamics 365 Software Development Kit (wird auch als Xrm bezeichnet), das Sie verwenden, um eine Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] herzustellen. Die Version muss mit der SDK-Version kompatibel sein, die von [!INCLUDE[crm_md](includes/crm_md.md)] verwendet wird, und der Version von [!INCLUDE[crm_md](includes/crm_md.md)] entsprechen oder neuer sein.|
+
+> [!Note]
+> **Einrichten von Dynamics 365 for Sales Verbindung** unterstützte Einrichtung weist automatisch den **Integrations-Administrator** und die **Integrationsbenutzer**Sicherheitsrollen für Benutzerkonten zu, die für die Integration verwendet wurden. 
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>So erstellen oder pflegen Sie den Link manuell
 Nachfolgend wird beschrieben, wie Sie die Felder der Seite **Microsoft Dynamics 365 for Sales-Verbindungseinrichtung** manuell ausfüllen. Dies ist auch die Seite, auf der Sie Einstellungen für die Integration verwalten.
@@ -103,6 +106,10 @@ Nachfolgend wird beschrieben, wie Sie die Felder der Seite **Microsoft Dynamics 
     >  Wenn keine Datenverschlüsselung in [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiviert ist, werden Sie gefragt, ob sie diese aktivieren möchten. Um Datenverschlüsselung zu aktivieren, wählen Sie **Ja** aus, und stellen Sie die erforderlichen Informationen bereit. Anderenfalls wählen Sie **Nein** aus. Sie können die Datenverschlüsselung später aktivieren. Weitere Informationen finden Sie unter [Verschlüsseln von Daten in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in der Entwickler- und IT-Pro-Hilfe.  
 
 7. Wenn die [!INCLUDE[crm_md](includes/crm_md.md)]-Synchronisierung nicht bereits eingerichtet ist, werden Sie gefragt, ob Sie die Standardsynchronisierungskonfiguration verwenden möchten. Abhängig davon, ob Sie Datensätze in [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)] angepasst bleiben sollen, wählen Sie **Ja** oder **Nein** aus. 
+
+> [!Note]
+> Die Verbindung zur Seite Dynamics 365 for Sales mithilfe der **Microsoft Dynamics 365 for Sales Verbindungseinrichtung** verlangt möglicherweise von Ihnen dass Sie [ dem **Integrationsadministrator** und dem **Integrationsbenutzer** Sicherheitsrollen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) für Benutzerkonten zuweisen, die für die Integration verwendet wird. 
+
 
 ### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>So trennen Sie [!INCLUDE[crm_md](includes/crm_md.md)]  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Microsoft Dynamics 365 for Sales-Verbindungseinrichtung** ein, und wählen dann den zugehörigen Link aus.

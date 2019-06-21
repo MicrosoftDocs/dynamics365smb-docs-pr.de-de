@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 30396e25dbf251e674744d1ba797c100b5762a46
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238026"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620861"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Verwenden von Dynamics 365 for Sales aus Business Central heraus
 Wenn Sie Dynamics 365 for Sales für Customer Engagement verwenden, können Sie nahtlose Integration in den Interessent-zu-Geld-Prozess nutzen, indem Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.
@@ -78,7 +78,11 @@ Verkaufsangebote, die in [!INCLUDE[crm_md](includes/crm_md.md)] aktiviert werden
 Alternativ können Sie aktivierte Verkaufsangebote aus [!INCLUDE[crm_md](includes/crm_md.md)] mithilfe der Aktion **Verarbeiten in [!INCLUDE[d365fin](includes/d365fin_md.md)]** auf der Seite **Verkaufsangebote - Dynamics 365 for Sales** manuell konvertieren.
 In solchen Verkaufsangeboten wird das **Name**-Feld im ursprünglichen Angebot dem Feld **Externe Belegnummer** im Verkaufsauftrag in [!INCLUDE[d365fin](includes/d365fin_md.md)] übertragen und zugeordnet. Auch wird das Feld **Gültig bis** beim Angebot übertragen und dem Feld **Angebot gültig bis** auf dem Verkaufsangebot in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet.  
 
-Verkaufsangebote unterliegen vielen Überarbeitungen, bis sie abgeschlossen werden. Manuelle und automatische Verarbeitung von Verkaufsangeboten in [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt sicher, dass vorherige Versionen von Verkaufsanfragen archiviert werden, bevor neue Überarbeitungen von Verkaufsanfragen von [!INCLUDE[crm_md](includes/crm_md.md)] verarbeitet werden.  
+Verkaufsangebote unterliegen vielen Überarbeitungen, bis sie abgeschlossen werden. Manuelle und automatische Verarbeitung von Verkaufsangeboten in [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt sicher, dass vorherige Versionen von Verkaufsanfragen archiviert werden, bevor neue Überarbeitungen von Verkaufsanfragen von [!INCLUDE[crm_md](includes/crm_md.md)] verarbeitet werden. 
+
+## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Behandlung der gebuchten Verkaufsrechnungen, Debitoren-Zahlungen und Statistiken
+Nach die Erfüllung des Verkaufsauftrags, werden dafür Rechnungen erstellt. Wenn Sie Aufträge fakturieren, können Sie gebuchte Verkaufsrechnung übertragen an [!INCLUDE[crm_md](includes/crm_md.md)] wenn Sie **Erstellen Sie Rechnung in [!INCLUDE[crm_md](includes/crm_md.md)]** auf der Seite gebuchte Verkaufsrechnungen auswählen. Gebuchte Rechnungen werden an [!INCLUDE[crm_md](includes/crm_md.md)] mit dem Status **Fakturiert** übertragen. Sobald Sie die Zahlung des Debitors für die Verkaufsrechnung erhalten in [!INCLUDE[d365fin](includes/d365fin_md.md)] wird der Verkaufsrechnungsstatus auf **Bezahlt** mit dem Statusgrund auf **Teilweise** **Komplett** festgelegt, wenn sie teilweise oder vollständig gezahlt wird, wenn Sie auf **Kontostatistik aktualisieren** auf der Debitorenseite in [!INCLUDE[d365fin](includes/d365fin_md.md)] klicken. **Kontostatistik aktualisieren** aktualisiert auch Werte wie Saldo und Gesamtberkäfue in der [!INCLUDE[d365fin](includes/d365fin_md.md)] Kontostatistik Infobox in [!INCLUDE[crm_md](includes/crm_md.md)].
+Alternativ können Sie geplante Aufträge (Debitoren-Statistik und POSTEDSALESINV-INV) automatisch für beide Vorgänge im Hintergrund ausführen. 
 
 ## <a name="see-also"></a>Siehe auch
 [Vorbereiten der Integration in Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240579"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621206"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn arbeiten [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -105,8 +105,8 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie in einer Listenseit
 |Umschalt+Seite nach Oben<br />(PFEILTASTE NACH OBEN + FN + UMSCHALTTASTE)|Erweitern Sie die Auswahl von Zeilen, um alle sichtbaren Zeilen über der aktuellen Auswahl von Zeilen zu berücksichtigen.|Nicht anwendbar.|
 |Umschalttaste +Seite nach Unten<br />(Umschalttaste +FN + Pfeil nach unten)|Erweitern Sie die Auswahl von Zeilen, um sichtbare Zeilen unter der aktuellen Auswahl von Zeilen zu berücksichtigen.|Nicht anwendbar.|
 |Strg+C<br />(Cmd+C)|Kopiert die ausgewählte Zeile in die Zwischenablage.|Nicht anwendbar.|
-|Strg+V<br />(Cmd+V)|Fügen Sie die ausgewählten Zeilen der E-Mail die Zwischenablage in die aktuelle Seite oder den externen Dokument, Microsoft Excel z oder Outlook ein.<br /><br />Sie können dies nur in bearbeitbaren Listen tun.|Nicht anwendbar.|
-|F8|Kopieren Sie das Feld in der gleichen Spalte der Zeile oben, und fügen Sie es in die aktuelle Zeile ein.<br /><br />Sie können dies nur in bearbeitbaren Listen tun. Mit dieser Tastenkombination, gefolgt von TAB, können Sie schnell Felder in Zeilenartikeln füllen, die denselben Wert haben wie die Reihe darüber.|Nicht anwendbar.||
+|Strg+V<br />(Cmd+V)|Fügen Sie die ausgewählten Zeilen der E-Mail die Zwischenablage in die aktuelle Seite oder den externen Dokument, Microsoft Excel z oder Outlook ein. Sie können dies nur in bearbeitbaren Listen tun.|Nicht anwendbar.|
+|F8|Kopieren Sie das Feld in der gleichen Spalte der Zeile oben, und fügen Sie es in die aktuelle Zeile ein. Sie können dies nur in bearbeitbaren Listen tun. Mit dieser Tastenkombination, gefolgt von TAB, können Sie schnell Felder in Zeilenartikeln füllen, die denselben Wert haben wie die Reihe darüber.|Nicht anwendbar.|
 
 ### <a name="KeyboardFilter"></a>Sortieren und Filtern von Listen
 

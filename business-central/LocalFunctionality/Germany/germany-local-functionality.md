@@ -10,32 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/22/2019
 ms.author: sgroespe
-ms.openlocfilehash: 295e1d5f500bdc434f1bbb0d4e49188553881b98
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3768d8b7e1d36274f267fbc12ff123bd3a4630d2
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241814"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594200"
 ---
 # <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
 Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deutschen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vorhanden ist.  
 
 ## <a name="feature-availability"></a>Verfügbarkeit von Funktionen
 
-* MwSt und Steuer
+* MwSt.
     * [Einrichten von Berichten für MwSt. und Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md) **Jetzt verfügbar**
     * [Einrichtung der MwSt Berichte](how-to-set-up-vat-reports.md) **Jetzt verfügbar**
     * [Mehrwertsteuer-Berichterstellung](vat-reporting.md) **Jetzt verfügbar**
     * [Erstellen der MwSt Berichte](how-to-create-vat-reports.md) **Jetzt verfügbar**
     * [Korrektur der MwSt Berichte](how-to-correct-vat-reports.md) **Jetzt verfügbar**
     * [Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md) **Jetzt verfügbar**
-    * [Vorgehensweise beim Erstellen und Senden von Umsatzsteuervoranmeldungen](how-to-create-and-submit-sales-vat-advance-notifications.md) **Jetzt verfügbar**
-    * [Elektronische Übermittlung der Umsatzsteuervoranmeldungen an ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md) **Jetzt verfügbar**
     * [MwSt-VIES-Steuer angeben](how-to-declare-vat-vies-tax.md) **Jetzt verfügbar**
-    * [ELSTER-Übertragung - Übersicht](elster-transmission-overview.md) **Jetzt verfügbar**
-    * [Fehlermeldungen des Elster Transfer Handler](error-messages-of-the-elstertransferhandler.md) **Jetzt verfügbar**
 
 * Banking und Zahlungen
     * [Druck von Listenberichten für Kreditorenzahlungen](how-to-print-vendor-payments-list-reports.md) **Jetzt verfügbar**

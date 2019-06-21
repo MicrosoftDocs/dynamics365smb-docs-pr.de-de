@@ -1,21 +1,21 @@
 ---
 title: Sortieren, Durchsuchen und Filtern von Listen | Microsoft Docs
 description: Arbeiten Sie effizient in Listen, indem Sie in Ihren Daten suchen, Spalten sortieren und Ergebnis unter Verwendung der leistungsstarken Filtersymbole und Tastenkombinationen neu definieren.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/03/2019
+ms.author: sgroespe
+ms.openlocfilehash: fc9cefd33f6ca11ee4f2936671a84071e142a1bd
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253953"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621183"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortieren, Durchsuchen und Filtern von Listen
 Es gibt mehrere Möglichkeiten, wie Sie das tun können und die dabei helfen, Datensätze in einer Liste zu scannen, zu suchen und einzugrenzen. Diese umfassen die Sortierung, Suche und Filterung. Sie können einige oder alle davon gleichzeitig anwenden, um die Daten schnell zu finden oder zu analysieren.
@@ -41,7 +41,7 @@ Am Anfang jeder Liste befindet sich ein ![Suchliste](media/ui-search/search-list
 
 Zur Suche wählen Sie einfach das Suchsymbol aus und geben dann im Feld den Text ein, nach dem Sie suchen. Sie können Buchstaben, Ziffern und andere Symbole eingeben.
 
-### <a name="fine-tune-the-search"></a>Abstimmen der Suche
+### <a name="fine-tuning-the-search"></a>Feinabstimmung der Suche
 Grundsätzlich versucht die Suche Treffer im Text aller Feldern zu finden. Dabei werden zwischen groß und klein geschriebene Zeichen nicht unterschieden (d. h., die Groß-/Kleinschreibung wird nicht beachtet). Text an jeder Stelle im Feld (am Anfang, am Ende oder in der Mitte) wird durchsucht.
 
 Sie können jedoch eine genauere Suche vornehmen, indem Sie die folgenden Sonderzeichen verwenden:
