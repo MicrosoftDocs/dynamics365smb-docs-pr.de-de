@@ -1,8 +1,6 @@
 ---
 title: So verwenden Sie das RapidStart Services-Rollencenter | Microsoft Docs
 description: Wenn Sie RapidStart Services verwenden, empfiehlt es sich, dass Sie Ihre Arbeit verfolgen und das RapidStart Services-Implementierungs-Rollencenter verwenden, da es den richtigen Kontext für Ihre Konfigurationsarbeit bereitstellt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: /dynamics365/business-central/admin-set-up-company-configuration
+ROBOTS: NOINDEX
+ms.openlocfilehash: e1cfcc47d5fb1112c4422be93ab49a345e9a30ec
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245166"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726905"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>RapidStart Services-Implementierungs-Rollencenter verwenden
 Wenn Sie RapidStart Services verwenden, empfiehlt es sich, dass Sie Ihre Arbeit verfolgen und das RapidStart Services-Implementierungs-Rollencenter verwenden, da es den richtigen Kontext für Ihre Konfigurationsarbeit bereitstellt. Weitere Informationen finden Sie unter [So ändern Sie das Rollencenter](ui-change-basic-settings.md#to-change-role-center).

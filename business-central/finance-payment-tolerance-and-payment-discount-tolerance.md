@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7ca4f01d261915e2ecf6416ee1d9e85f50c73fb0
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242468"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629711"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Mit Zahlungstoleranzen und Skontotoleranzen arbeiten
 Sie können eine Zahlungstoleranz einrichten, um eine Rechnung zu schließen, wenn die Zahlung nicht vollständig den Betrag der Rechnung umfasst. Die eingerichtete Skontotoleranz erlaubt Ihnen, Skonto nach Ablauf des Skontodatums zu gewähren.  
@@ -218,7 +218,7 @@ Restbetrag gemäß
 
 Normale Ausgleichsvorschriften  
 
-![Mehrfache Zahlungstoleranzregel 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Mehrfache Zahlungstoleranzregel 2")  
+![Mehrfache Zahlungstoleranzregel 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Mehrfache Zahlungstoleranzregel 2")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Posten mit oder ohne Toleranz geschlossen werden.  
 
@@ -229,7 +229,7 @@ Restbetrag gemäß
 
 Normale Ausgleichsvorschriften  
 
-![Mehrfache Zahlungstoleranzregel 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Mehrfache Zahlungstoleranzregel 3")  
+![Mehrfache Zahlungstoleranzregel 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Mehrfache Zahlungstoleranzregel 3")  
 
 (1) Fällt die Zahlung in diesen Zeitraum, können alle Posten mit oder ohne Toleranz geschlossen werden.  
 

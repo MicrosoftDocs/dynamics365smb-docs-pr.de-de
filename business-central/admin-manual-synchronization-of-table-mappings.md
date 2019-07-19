@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245731"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629550"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synchronisieren Sie Tabellenzuordnungen manuell
 Eine Integrationstabellenzuordnung ordnet eine [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle (Datensatztyp), beispielsweise Debitor, einer [!INCLUDE[crm_md](includes/crm_md.md)]-Entität wie einem Konto zu. Die Synchronisierung einer Integrationstabellenzuordnung ermöglicht es Ihnen, Daten in allen Datensätzen der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle und der [!INCLUDE[crm_md](includes/crm_md.md)]-Entität, die gekoppelt sind, zu synchronisieren. Je nach Konfiguration der Tabellenzuordnung kann die Synchronisierung zudem neue Datensätze in der Ziellösung für ungekoppelte Datensätze in der Quelle erstellen und koppeln.  
@@ -95,4 +95,4 @@ Durch die Änderung der im Voraus erfolgten Integrationstabellenzuordnung könne
 
 ## <a name="see-also"></a>Siehe auch  
 [Business Central und Dynamics 365 for Sales synchronisieren](admin-synchronizing-business-central-and-sales.md)   
-[Einrichten von Dynamics 365 for Sales-Integration in Business Central](admin-setting-up-integration-with-dynamics-sales.md)   
+[Einrichten des Benutzerkontos für die Integration in Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   

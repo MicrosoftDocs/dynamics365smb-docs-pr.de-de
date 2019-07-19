@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/06/2019
 ms.author: bholtorf
-ms.openlocfilehash: c95dee48b42fe5784c1d7d2fc6a11d5f487c7653
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: dfcb664d352683566df233d6b9b95900f2d76a5a
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621045"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629642"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Eine Verbindung mit Dynamics 365 for Sales einrichten
-Für die Integration mit [!INCLUDE[crm_md](includes/crm_md.md)] müssen Sie eine Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] einrichten. 
+Für die Integration mit [!INCLUDE[crm_md](includes/crm_md.md)] müssen Sie eine Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] einrichten.
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
@@ -30,7 +30,7 @@ Bevor Sie damit beginnen, die Apps zu verbinden, gibt es einige Informationen, d
 * Eine URL für Ihre [!INCLUDE[crm_md](includes/crm_md.md)]-App. Um die URL schnell zu erhalten, öffnen Sie [!INCLUDE[crm_md](includes/crm_md.md)] und kopieren die URL, dann fügen Sie sie im Feld **Dynamics 365 for Sales-URL** in [!INCLUDE[d365fin](includes/d365fin_md.md)] ein. [!INCLUDE[d365fin](includes/d365fin_md.md)] passt die Formatierung für Sie an.  
 * Ein Benutzername und ein Kennwort eines Benutzerkontos, die nur für die Integration verwendet werden.  
 * Der Benutzername und das Kennwort des Kontos mit Administratorrechten.  
-  
+
 > [!Note]
 > Diese Schritte beschreiben das Verfahren der Onlineversion von [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -38,7 +38,7 @@ Bevor Sie damit beginnen, die Apps zu verbinden, gibt es einige Informationen, d
 Für alle Authentifizierungstypen außer der Office 365-Authentifizierung richten Sie Ihre Verbindung mit Dynamics 365 for Sales auf der Seite **Microsoft Dynamics 365 for Sales Verbindungseinrichtung** ein. Für Office 365-Authentifizierung können Sie auch den Leitfaden für das unterstütze Setup **Einrichten der Dynamics 365 for Sales-Verbindung** verwenden, das Ihnen hilft, die erforderlichen Informationen bereitzustellen.
 
 ### <a name="to-use-an-assisted-setup-guide"></a>So verwenden Sie einen Leitfaden für das unterstützte Setup
-Das Leitfaden für das unterstützte Setup für das **Einrichtung der Dynamics 365 for Sales-Verbindung** kann Ihnen helfen, die Verbindung einzurichten und anzugeben, ob erweiterte Funktionen, wie Kopplung zwischen Datensätzen aktiviert werden sollen. 
+Das Leitfaden für das unterstützte Setup für das **Einrichtung der Dynamics 365 for Sales-Verbindung** kann Ihnen helfen, die Verbindung einzurichten und anzugeben, ob erweiterte Funktionen, wie Kopplung zwischen Datensätzen aktiviert werden sollen.
 
 1. Wählen Sie **Einrichtung und Erweiterungen** und dann **Unterstütztes Setup** aus.
 2. Wählen Sie **Einrichten der Dynamics 365 for Sales-Verbindung** aus, um den Leitfaden für das unterstützte Setup zu starten.
@@ -57,7 +57,7 @@ Das Leitfaden für das unterstützte Setup für das **Einrichtung der Dynamics 3
 |**Dynamics 365-SDK-Version**|Dies ist nur relevant, wenn Sie eine lokale Version von [!INCLUDE[crm_md](includes/crm_md.md)] integrieren. Das ist das Dynamics 365 Software Development Kit (wird auch als Xrm bezeichnet), das Sie verwenden, um eine Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] herzustellen. Die Version muss mit der SDK-Version kompatibel sein, die von [!INCLUDE[crm_md](includes/crm_md.md)] verwendet wird, und der Version von [!INCLUDE[crm_md](includes/crm_md.md)] entsprechen oder neuer sein.|
 
 > [!Note]
-> **Einrichten von Dynamics 365 for Sales Verbindung** unterstützte Einrichtung weist automatisch den **Integrations-Administrator** und die **Integrationsbenutzer**Sicherheitsrollen für Benutzerkonten zu, die für die Integration verwendet wurden. 
+> **Das Einrichten der Anleitung zur unterstützten Einrichtung der Dynamics 365 for Sales Verbindung** weist automatisch den **Integrations-Administrator** und die **Integrationsbenutzer**Sicherheitsrollen für Benutzerkonten zu, die für die Integration verwendet wurden. 
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>So erstellen oder pflegen Sie den Link manuell
 Nachfolgend wird beschrieben, wie Sie die Felder der Seite **Microsoft Dynamics 365 for Sales-Verbindungseinrichtung** manuell ausfüllen. Dies ist auch die Seite, auf der Sie Einstellungen für die Integration verwalten.
@@ -105,10 +105,14 @@ Nachfolgend wird beschrieben, wie Sie die Felder der Seite **Microsoft Dynamics 
     > [!NOTE]  
     >  Wenn keine Datenverschlüsselung in [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiviert ist, werden Sie gefragt, ob sie diese aktivieren möchten. Um Datenverschlüsselung zu aktivieren, wählen Sie **Ja** aus, und stellen Sie die erforderlichen Informationen bereit. Anderenfalls wählen Sie **Nein** aus. Sie können die Datenverschlüsselung später aktivieren. Weitere Informationen finden Sie unter [Verschlüsseln von Daten in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in der Entwickler- und IT-Pro-Hilfe.  
 
-7. Wenn die [!INCLUDE[crm_md](includes/crm_md.md)]-Synchronisierung nicht bereits eingerichtet ist, werden Sie gefragt, ob Sie die Standardsynchronisierungskonfiguration verwenden möchten. Abhängig davon, ob Sie Datensätze in [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)] angepasst bleiben sollen, wählen Sie **Ja** oder **Nein** aus. 
+7. Wenn die [!INCLUDE[crm_md](includes/crm_md.md)]-Synchronisierung nicht bereits eingerichtet ist, werden Sie gefragt, ob Sie die Standardsynchronisierungskonfiguration verwenden möchten. Abhängig davon, ob Sie Datensätze in [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)] angepasst bleiben sollen, wählen Sie **Ja** oder **Nein** aus.
 
 > [!Note]
-> Die Verbindung zur Seite Dynamics 365 for Sales mithilfe der **Microsoft Dynamics 365 for Sales Verbindungseinrichtung** verlangt möglicherweise von Ihnen dass Sie [ dem **Integrationsadministrator** und dem **Integrationsbenutzer** Sicherheitsrollen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) für Benutzerkonten zuweisen, die für die Integration verwendet wird. 
+> Die Verbindung zu Dynamics 365 for Sales mithilfe der Seite **Microsoft Dynamics 365 for Sales Verbindungseinrichtung** verlangt möglicherweise von Ihnen dass Sie dem Integrationsadministrator und dem Integrationsbenutzer Sicherheitsrollen für Benutzerkonten zuweisen, die für die Integration verwendet wird. Weitere Informationen finden Sie unter [Weisen Sie einem Benutzer eine Sicherheitsrolle zu](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+
+
+> [!Note]
+> Die Verbindung zur Seite Dynamics 365 for Sales mithilfe der **Microsoft Dynamics 365 for Sales Verbindungseinrichtung** verlangt möglicherweise von Ihnen dass Sie [ dem **Integrationsadministrator** und dem **Integrationsbenutzer** Sicherheitsrollen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) für Benutzerkonten zuweisen, die für die Integration verwendet wird.
 
 
 ### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>So trennen Sie [!INCLUDE[crm_md](includes/crm_md.md)]  
@@ -116,7 +120,7 @@ Nachfolgend wird beschrieben, wie Sie die Felder der Seite **Microsoft Dynamics 
 2. Auf der Seite **Microsoft Dynamics 365 for Sales-Verbindungseinrichtung** deaktivieren Sie das Kontrollkästchen **Aktiviert**.  
 
 <!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension? 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension?
 
 
 1.  From [!INCLUDE[d365fin](includes/d365fin_md.md)] installation media \(DVD\), copy the DynamicsNAVIntegrationSolution.zip file to your computer.  
@@ -137,11 +141,11 @@ Nachfolgend wird beschrieben, wie Sie die Felder der Seite **Microsoft Dynamics 
 
 5.  Assign the **Business Central Integration User** role to all users who will use the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution.  
 
-If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.--> 
+If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.-->
 
-<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection]() --> 
+<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection]() -->
 
-<!-- 
+<!--
 # View Item Availability - Support Matrix
 For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md) and Dynamics 365 for Sales, you can view availability figures for items across the integrated products. The following table shows which version combinations support viewing item availability.
 
@@ -162,4 +166,3 @@ For more information, see [System Requirements for Business Central](../deployme
 
 ## <a name="see-also"></a>Siehe auch  
 [Den Status einer Synchronisierung anzeigen](admin-how-to-view-synchronization-status.md)  
-

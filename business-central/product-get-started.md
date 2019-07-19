@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: eae085d430fb7341b8ac62f26033d68d9ea155cf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254080"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629941"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Erste Schritte mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Eine Registrierung ist einfach und Sie können vorhandene Unternehmensdaten von Ihrem bestehenden System migrieren. Um Ihnen mit Ihrem Abonnement zu helfen, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner [hier](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -23,7 +23,7 @@ ms.locfileid: "1254080"
 Wenn Sie sich für die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Vorschau registriert haben, haben Sie Zugriff auf ein Demonstrationsunternehmen. Das Demonstrationsunternehmen enthält Beispieldaten, aber Sie können z. B. auch eigene Verkaufsbelege erzeugen oder ein Bankkonto einrichten.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Lernen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] kennen
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Ihnen einige Elemente vertraut sein und andere nicht. Im Testunternehmen erklären visuelle Leitfäden die Kernfunktionalität und helfen Ihnen, die täglichen Aufgaben wie das Erstellen einer Verkaufsrechnung und das Anzeigen eines Berichts auszuprobieren. Wenn Sie beispielsweise ein Handbuch haben, um [!INCLUDE[d365fin](includes/d365fin_md.md)] selber zu untersuchen, aber dahin zurückkehren möchten, gehen Sie im Rollencenter und starten Sie die Reihe Erste Schritte. Wenn Sie mehr Hilfe möchten, können Sie einen Partner [!INCLUDE[d365fin](includes/d365fin_md.md)] finden [hier](https://www.microsoft.com/en-us/solution-providers/search).  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Ihnen einige Elemente vertraut sein und andere nicht. Im Testunternehmen erklären visuelle Leitfäden die Kernfunktionalität und helfen Ihnen, die täglichen Aufgaben wie das Erstellen einer Verkaufsrechnung und das Anzeigen eines Berichts auszuprobieren. Wenn Sie beispielsweise ein Handbuch haben, um [!INCLUDE[d365fin](includes/d365fin_md.md)] selber zu untersuchen, aber dahin zurückkehren möchten, gehen Sie im Rollencenter und starten Sie die Reihe Erste Schritte. Wenn Sie weitere Hilfe benötigen, wenden Sie sich an einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner.  
 
 > [!TIP]  
 > Sie können zurück zum Rollencenter gelangen, indem Sie den Unternehmensnamen in der linken Teil des Fensters auswählen.
@@ -36,7 +36,11 @@ Um einige einfache Tipps kennenzulernen, gehen Sie zu:
 
 Weitere Informationen finden Sie unter [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-Wenn Sie bereit sind, etwas tiefer hineinzublicken und einige der Geschäftsprozesse berücksichtigen möchten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, gehen Sie zu [Geschäfts-Funktionalität](across-business-functionality.md). Eine Übersicht über die aktuellen und geplanten Funktionen finden Sie in den Versionshinweisen unter [Microsoft Dynamics 365 Business Central Versionhinweise](https://go.microsoft.com/fwlink/?linkid=2047422).  
+Wenn Sie bereit sind, etwas tiefer hineinzublicken und einige der Geschäftsprozesse berücksichtigen möchten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, gehen Sie zu [Geschäfts-Funktionalität](across-business-functionality.md).
+
+Bevor Sie die Funktionalität nutzen können, müssen bestimmte Einstellungen vorgenommen werden. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) Beachten Sie, dass einige Einrichtungsschritte mithilfe von unterstützten Einrichtungs-Guides halbautomatisch ausgeführt werden können.
+
+Eine Übersicht über die aktuellen und geplanten Funktionen finden Sie im Versionsplan unter [Microsoft Dynamics 365 Business Central Versionsplan](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Die Rollencenter
 Die Rollencenter-Seite basiert auf einem rollenorientierten Design, damit Sie rasch auf Geschäftsvorgangs- und Intelligenztools zugreifen können, die Sie für Ihre Arbeit benötigen. Beispielsweise kann ein Buchhalter Zahlungen und Genehmigungen überwachen und Finanzdienstleistungsdiagramme anzeigen. Prüfen Sie die verschiedenen Rollencenter, indem Sie das Symbol **Einstellungen** auswählen ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol Rollencenter") in der oberen rechter Ecke, wählen Sie **Meine Einstellungen** und dann das entsprechende Rollencenter. Melden Sie sich erneut, um die Änderung zu übernehmen. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md).
@@ -96,7 +100,7 @@ Wenn Sie ein Buchhalter sind, können Sie sich für [!INCLUDE[d365acc_long](incl
 [Abrufen [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)  
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Dynamics 365 Dokumentation](https://docs.microsoft.com/en-us/dynamics365/)  
-[Microsoft Dynamics 365 Business Central-Versionshinweise](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Microsoft Dynamics 365 Business Central-Versionsplan](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

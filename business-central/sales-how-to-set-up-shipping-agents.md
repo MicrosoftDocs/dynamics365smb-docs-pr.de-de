@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f6af964dad89a8a311f315f8885aaa94b92427
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6d931625ef469a0b156d2794de7eda131213f28f
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252343"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632683"
 ---
 # <a name="set-up-shipping-agents"></a>Zusteller einrichten
 Sie können einen Code für jeden Zusteller anlegen und Informationen dazu eingeben.  
@@ -39,6 +39,7 @@ Wenn Sie einer Verkaufsauftragszeile eine Zusteller Transportart zugeordnet habe
 >  Wenn Sie den Zusteller in der Auftragszeile löschen, wird auch der Zusteller Transportartcode gelöscht. Der Inhalt der Felder, die zum Teil auf der Zustellertransportart basierten, wird neu berechnet.  
 
 ## <a name="see-also"></a>Siehe auch
+[Liefermethoden einrichten](sales-how-set-up-shipment-methods.md)  
 [Um Pakete zu verfolgen](sales-how-track-packages.md)    
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  

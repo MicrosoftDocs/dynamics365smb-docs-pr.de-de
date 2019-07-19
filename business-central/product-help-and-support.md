@@ -1,18 +1,18 @@
 ---
 title: Hilfe und Support
-description: Suchen Sie Ressourcen für Produkthilfe, Anleitungen und Hilfe und erfahren, wie Sie technischen Support für Business Central erhalten.
+description: Suchen Sie Ressourcen für Produkthilfe, Anleitungen, Problemlösungstipps und Hilfe und erfahren Sie, wie Sie technischen Support für Business Central erhalten.
 author: edupont04
 ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2019
-ms.openlocfilehash: e9051ae5c12a787eb40732ad133e8d21932df50d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 07/03/2019
+ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253677"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726954"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
@@ -47,7 +47,7 @@ Im [Business Central-Blog](https://community.dynamics.com/business/b/financials)
 
 ### <a name="capabilities-coming-soon"></a>Funktionen, die in Kürze verfügbar sind
 
-[!INCLUDE[prodshort](includes/prodshort.md)] wird alle 6 Monate mit Updates zu Hauptfunktionen und monatlich mit Service-Updates aktualisiert. Wählen Sie den Link, um aktuelle Versionshinweise anzuzeigen. Sie finden eine Übersicht über die kommenden und kürzlich veröffentlichten Funktionen in den Versionshinweisen zu Dynamics 365 unter [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] wird alle 6 Monate mit Updates zu Hauptfunktionen und monatlich mit Service-Updates aktualisiert. Wählen Sie den Link, um aktuelle Versionenpläne anzuzeigen. Sie finden eine Übersicht über die kommenden und kürzlich veröffentlichten Funktionen in den Versionenplänen in Dynamics 365 unter [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
 
 Für den langfristigeren Überblick zeigt die [!INCLUDE[prodshort](includes/prodshort.md)] [Roadmap-Seite](https://dynamics.microsoft.com/roadmap/business-central/) die allgemeinen Prioritäten für [!INCLUDE[prodshort](includes/prodshort.md)] in den kommenden Jahren.  
 

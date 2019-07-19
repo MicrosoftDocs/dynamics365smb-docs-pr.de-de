@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2019
+ms.date: 06/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
+ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246653"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702882"
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Einrichten des Envestnet Yodlee Bank Feeds Service
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Die Envestnet Yodlee Bank Feeds Services einrichten
 Sie können elektronische Bankauszüge von Ihrer Bank importieren, um die Seite **Zahlungsabstimmungsbuch.-Blatt** schnell auszufüllen und so Zahlungen zu begleichen und das Bankkonto auszugleichen. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
-> Der Envestnet Yodlee Bank Feeds Service wird nur in der Onlineversion von Business Central unterstützt. Um diese Funktionalität lokal nutzen zu können, müssen Sie ein Co-Brand-Konto von Envestnet Yodlee erhalten.<br /><br />
-> Der Envestnet Yodlee Bank Feeds Service wird nur in den USA, in das Kanada und in Großbritannien unterstützt.
+> Der Envestnet Yodlee Bank Feeds Service wird nur in der Online-Version von Business Central unterstützt. Um diese Funktionalität lokal nutzen zu können, müssen Sie ein Co-Brand-Konto von Envestnet Yodlee erhalten.<br /><br />
+> Der Envestnet Yodlee Bank Feeds Service wird nur in den USA, in Kanada und in Großbritannien unterstützt.
+
+> [!IMPORTANT]
+> Wenden Sie sich an den Microsoft Support, um technische Unterstützung für die Envestnet Yodlee-Funktionalität zu erhalten. Wenden Sie sich nicht an Envestnet Yodlee. Weitere Informationen finden Sie unter [Konfigurieren des technischen Supports für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
 
 Der Envestnet Yodlee Bank Feeds Service wird als eine Erweiterung zum [!INCLUDE[d365fin](includes/d365fin_md.md)] online eingerichtet und steht zur Aktivierung in den unterstützten Ländern bereit. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-extensions.md) mithilfe der Erweiterungen .
 

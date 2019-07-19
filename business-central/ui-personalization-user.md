@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: de7acb10c76acc05fc6e6a5c708a8d412e4d9b30
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253723"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632729"
 ---
 # <a name="personalizing-your-workspace"></a>Personalisieren Ihres Arbeitsbereichs
 
@@ -60,7 +60,7 @@ Je nach Art der Seite und was enthalten ist, können Sie verschiedene Dinge tun,
 |Zeigen Sie ein Feld in der Überschrift eines Inforegisters an, wenn das Inforegister reduziert ist.|Wählen Sie die Pfeilspitze aus und wählen Sie <b>Bei Reduzierung anzeigen</b> aus. <br /> <br />Wenn Sie diese Option nicht finden, ist sie bereits festgelegt. In diesem Fall wählen Sie <b>Immer anzeigen</b> aus, damit das Feld nicht mehr in der Inforegisterüberschrift angezeigt wird.|*Inforegister* ist der Begriff, der für eine Gruppe von Feldern verwendet wird, die unter einer gemeinsamen Überschrift angezeigt werden. Verwenden Sie <b>Bei Reduzierung anzeigen</b>-Option, um die wichtigsten Felder anzuzeigen. Wenn Sie ein Feld im der Überschrift auswählen, wird das Inforegister mit Fokus auf dem ausgewählten Feld geöffnet.<br /><br />Diese Option wird nur angewendet, wenn eine Seite mehr als ein Inforegister hat. Wenn nur ein Inforegister da ist, kann es nicht reduziert werden, sodass die <b>Bei Reduzierung anzeigen</b>-Option nicht verfügbar ist.|
 |Lassen Sie ein Feld anzeigen, wenn Sie **Mehr anzeigen** auswählen.|Wählen Sie die Pfeilspitze aus und wählen Sie <b>Unter „Mehr anzeigen“ anzeigen</b> aus. <br /> <br />Wenn Sie die Option <b>Unter „Mehr anzeigen“ anzeigen</b> nicht sehen, ist sie bereits festgelegt. Wenn Sie in diesem Fall ein Feld immer anzeigen lassen möchten, und nicht nur, wenn Sie **Mehr anzeigen** auswählen, wählen Sie <b>Immer anzeigen</b> aus.||
 |Ändern Sie die Fixierung von Spalten in der Liste. |Wählen Sie die Spalte der Pfeilspitze, die Sie als letzte Spalte der Fixierung möchten, und wählen Sie dann <b>Fixierung einstellen</b> aus.<br /><br/>Wenn Sie die Fixierung wieder am ursprünglichen Ort wünschen, wählen Sie die Pfeilspitze für die aktuelle Fixierung und wählen Sie <b>Fixierung löschebn</b> aus. Hinweis: Sie können die ursprüngliche Fixierung nicht entfernen.|Der Fixierungsbereich gibt die Spalten an, die immer links erscheinen, auch wenn Sie horizontal blättern.|  
-|Ändern der Breite einer Spalte.|In der Tabellenkopfzeile ziehen Sie den rechten Rand der Spalte. <br /><br />Um die Spaltenbreite zu maximieren, um die längste Textzeile in der Spalte anzupassen, doppelklicken Sie auf den rechten Rand.||
+|Ändern der Breite einer Spalte.|Ziehen Sie im Kopf der Liste die Grenze zwischen den Spalten. <br /><br />Sie können auf die Grenze zwischen den Spaltenüberschriften doppelklicken, um sie automatisch anzupassen. Dadurch wird die Breite zur besseren Lesbarkeit auf eine angenehme Größe eingestellt.||
 |Überspringen Sie ein Feld, wenn die EINGABETASTE gedrückt wird.|Wählen Sie die Pfeilspitze neben dem Feld oder der Spaltenüberschrift in der Liste aus, und wählen Sie **Von der Schnelleingabe ausschließen** aus. <br /><br /> Wenn Sie diese Option nicht sehen, ist das Überspringen für das Feld bereits festgelegt. Wenn Sie in diesem Fall Überspringen des Felds beenden möchten, wählen Sie **In Schnelleingabe einbeziehen** aus. |Siehe [Beschleunigen der Dateneingabe mithilfe der Schnelleingabe](ui-enter-data.md#QuickEntry)|
 
 ## <a name="Actions"></a>Personalisieren von Aktionen
