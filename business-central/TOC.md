@@ -106,6 +106,7 @@
 ### [Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)
 ### [Einrichten von Lagerorten](inventory-how-setup-locations.md)
 ### [Neue Artikel registrieren](inventory-how-register-new-items.md)
+### [Kopieren von vorhandenen Artikeln um neue Artikel zu erstellen](inventory-how-copy-items.md)
 ### [Info zu Elementtypen](inventory-about-item-types.md)
 ### [Artikeleinheiten einrichten](inventory-how-setup-units-of-measure.md)
 ### [Lagerhaltungsdaten einrichten](inventory-how-to-set-up-stockkeeping-units.md)
@@ -302,7 +303,7 @@
 
 # Verwaltung
 ## [Matrix](admin-setup-and-administration.md)
-## [Benutzer, Profile und Rollencenter verstehen](admin-users-profiles-roles.md)
+## [Benutzer, Rollen und  Profile verstehen](admin-users-profiles-roles.md)
 ## [Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)
 ## [Datensensitivität klassieren](admin-classifying-data-sensitivity.md)
 ## [Antworten auf Anforderungen zu Personendaten](admin-responding-to-requests-about-personal-data.md)
@@ -834,7 +835,6 @@
 #### [Lieferbenachrichtigung registrieren](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
 #### [So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Allgemein
-#### [Kopieren vorhandener Artikel in neue Artikel](LocalFunctionality/Austria/how-to-copy-existing-items-to-new-items.md)
 #### [Drucken von Finanzbuchhaltungs-Setupinformationen](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [So drucken Sie im Verlauf von Stapelbuchungen Verkaufsaufträge und Bestellungen](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
@@ -856,7 +856,6 @@
 #### [Ausgleichen von CODA-Abrechnungen](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 #### [CODA-Abrechnungen automatisch übertragen und buchen](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 #### [CODA-Bankauszüge](LocalFunctionality/Belgium/coda-bank-statements.md)
-#### [CODA-Dateien von einem Isabel-Server herunterladen](LocalFunctionality/Belgium/how-to-download-coda-files-from-an-isabel-server.md)
 #### [Belgisches Electronic Banking](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 #### [Electronic Banking einrichten](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
 #### [Exportprotokolle einrichten](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
@@ -866,8 +865,6 @@
 #### [Erstellen von Buch.-Blattvorlagen und - namen](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 #### [Elektronische Zahlungen testen](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
 #### [Zahlungsvorschläge generieren](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-#### [Isabel 6](LocalFunctionality/Belgium/isabel-6.md)
-#### [Zahlungsdateien zum Isabel-Server hochladen](LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md)
 #### [CODA-Abrechnungen importieren](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### [Verwalten der elektronischen Zahlungsposten](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
 #### [CODA-Abrechnungen manuell übertragen und buchen](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
@@ -883,7 +880,6 @@
 #### [Zahlbarstellungen exportieren und buchen](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 #### [Zahlbarstellungsvorschläge erstellen](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 #### [Zusammenfassen von Zahlungszeilen und Fibu Buch.-Blattzeilen](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
-#### [IBS.-Protokollposten archivieren](LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md)
 ### Kernfinanzierung
 #### [Ausgleichen und Ausgleich Aufheben von Sachposten](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Erstellen von Finanz-Buch.-Blättern](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -1025,7 +1021,6 @@
 #### [Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
 #### [So drucken Sie im Verlauf von Stapelbuchungen Verkaufsaufträge und Bestellungen](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Drucken von Finanzbuchhaltungs-Setupinformationen](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
-#### [Kopieren vorhandener Artikel in neue Artikel](LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md)
 #### [Zertifizierung von Business Central für deutschen Zielmarkt (Beleg ist in Deutsch)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ## Island
@@ -1242,7 +1237,7 @@
 #### [Gewusst wie: Freigeben, Verfolgen und Abschreiben von Anlagen](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
 #### [Gewusst wie: Anzeigen von Buchungen einer Anlagegebühr](LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
 #### [Gewusst wie: Einrichten eines Kontos für immaterielle Vermögenswerte](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
-#### [Gewusst wie: Berücksichtigung der Kosten für die Entsorgung einer Anlage](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
+#### [Gewusst wie: Berücksichtigung der Kosten für die Entsorgung einer Anlage](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 #### [Nicht abzuschreibende Anlagen](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
 ### MwSt.
 #### [Matrix](LocalFunctionality/Russia/VAT.md)
@@ -1376,7 +1371,6 @@
 #### [So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
 ### Lagerbestand
 #### [Schweizer Lagerverwaltung](LocalFunctionality/Switzerland/swiss-inventory-management.md)
-#### [Kopieren vorhandener Artikel in neue Artikel](LocalFunctionality/Switzerland/how-to-copy-existing-items-to-new-items.md)
 #### [Drucken einer Lager-Kommissionierliste aus einem Verkaufsauftrag](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 ### Allgemein    
 #### [Importieren von schweizer PLZ](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)

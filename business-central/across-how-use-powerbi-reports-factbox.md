@@ -1,8 +1,6 @@
 ---
 title: Benutzerdefinierte Power BI-Berichte anzeigen | Microsoft Docs
 description: Sie können Power BI-Berichte verwenden, um einen zusätzlichen Einblick in Daten in Listen zu gewinnen.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2019
+ms.date: 07/08/2019
 ms.author: edupont
-ms.openlocfilehash: 29c7b7656632d2103a16025848a6ddc82650353e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: acf9462db8b4f559a5fbc40381b4e5009cdac088
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241602"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755195"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Anzeigen von Listendaten in Power BI-Berichten in Business Central 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] enthält einen Infoboxregler in mehreren Schlüssellistenseiten, die zusätzliche Einblick in die Daten in dieser Liste bereitstellen. Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert. Sie können benutzerdefinierte Berichte erstellen, aber es gibt einige Regeln, die Sie beim Erstellen der Berichte befolgen müssen, um sicherzustellen, dass das gewünschte Verhalten geliefert wird.  
+# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Anzeigen von Listendaten in Power BI-Berichten in Business Central
+
+[!INCLUDE[prodlong](includes/prodlong.md)] enthält einen Infoboxregler in mehreren Schlüssellistenseiten, die zusätzliche Einblick in die Daten in dieser Liste bereitstellen. Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert. Sie können benutzerdefinierte Berichte erstellen, aber es gibt einige Regeln, die Sie beim Erstellen der Berichte befolgen müssen, um sicherzustellen, dass das gewünschte Verhalten geliefert wird.  
 
 > [!NOTE]  
->   Sie müssen ein gültiges Konto bei [!INCLUDE[d365fin](includes/d365fin_md.md)] und Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen. Weitere Informationen finden Sie unter [Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md).  
+> Sie müssen ein gültiges Konto bei [!INCLUDE[prodshort](includes/prodshort.md)] und Power BI haben. Um benutzerdefinierte Berichte zu erstellen, müssen Sie diese herunterladen [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Weitere Informationen finden Sie unter [Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Bericht Dataset
 Wenn Sie den Bericht in Power BI Desktop erstellen, definieren Sie die Datenquelle oder den Webdienst, der die Daten enthält, die mit der Liste verknüpft sind, der Sie den Bericht zuordnen möchten. Wenn Sie beispielsweise einen Bericht für die Verkaufs-Liste erstellen möchten, stellen Sie sicher, dass das Dataset Informationen zu den entsprechenden Verkäufen enthält.  
@@ -50,7 +49,7 @@ Wenn Sie möchten, dass der Hintergrund des Bericht sich an die Hintergrundfarbe
 Mit Power BI können Sie einen einzelnen Bericht mit mehreren Seiten erstellen. Die grafischen Elemente, die Sie in den [!INCLUDE[d365fin](includes/d365fin_md.md)]-Listenseiten einsehen möchten, müssen auf der ersten Seite des Berichts in Power BI sein.  
 
 > [!NOTE]  
->  Die Power BI-Infobox kann nur die ersten Seite des Berichts anzeigen; wenn Sie andere Seiten anzeigen möchten, müssen Sie den Bericht erweitern und Registerkarten im unteren Bereich des Berichts verwenden, um zu anderen Seiten zu navigieren.  
+> Die Power BI-Infobox kann nur die ersten Seite des Berichts anzeigen; wenn Sie andere Seiten anzeigen möchten, müssen Sie den Bericht erweitern und Registerkarten im unteren Bereich des Berichts verwenden, um zu anderen Seiten zu navigieren.  
 
 ## <a name="saving-your-report"></a>Ihren Bericht speichern
 
@@ -72,7 +71,9 @@ Dieser Abschnitt bietet eine Problemumgehung für die typischsten Probleme, die 
 Vergewissern Sie sich, dass die Berichtsgröße auf 325 Pixel x 310 Pixel festgelegt wird. Speichern Sie den Bericht, und aktualisieren Sie anschließend die Seite.  
 
 ## <a name="see-also"></a>Siehe auch
+
+[Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)  
 [Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
-[Erste Schritte](product-get-started.md)    
-[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
+[Erste Schritte](product-get-started.md)  
+[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzen](finance.md)  

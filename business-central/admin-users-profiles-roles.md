@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2019
+ms.date: 08/02/2019
 ms.author: edupont
-ms.openlocfilehash: fc52d943938616041881c55f70c510e4c63b5de6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27a57490101195f8dc05cc39538260e7db5e46af
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245809"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858220"
 ---
-# <a name="understanding-users-profiles-and-role-centers"></a>Benutzer, Profile und Rollencenter verstehen
+# <a name="understanding-users-roles-and-profiles"></a>Benutzer, Rollen und  Profile verstehen
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], werden Benutzer von einem Administrator hinzugefügt, der auch Zugriff auf den Bereichen aus Feld [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt, den sie, in ihrer Arbeit benötigen.  
 
-Zugriff auf die Funktionalität wird durch *Benutzergruppen* und *Profile* verwaltet. Als Administrator können Sie Profile zuordnen und ändern, und Sie können Benutzer als Teil des [!INCLUDE[d365fin](includes/d365fin_md.md)] Abonnements hinzufügen und  entfernen.  
+Zugriff auf die Funktionalität wird durch *Benutzergruppen* und *Profile (Rollen)* verwaltet. Als Administrator können Sie Profile zuordnen und ändern, und Sie können Benutzer als Teil des [!INCLUDE[d365fin](includes/d365fin_md.md)] Abonnements hinzufügen und  entfernen.  
 
 ## <a name="adding-users"></a>Hinzufügen von Benutzern
 
@@ -35,20 +35,20 @@ Die leistungsstarksten Berechtigungen, die ein Benutzer haben kann, ist der SUPE
 
 Für lokale Bereitstellungen von [!INCLUDE[d365fin](includes/d365fin_md.md)] kann der Administrator zwischen verschiedenen Autorisierungsmechanismen für Benutzer auswählen. Wenn Sie einen Benutzer erstellen, stellen Sie je nach Anmeldeinformationstyp in der aktuellen [!INCLUDE[server](includes/server.md)]-Instanz verschiedene Informationen bereit. Weitere Informationen finden Sie unter [Authentifizierungs- und Anmeldeinformationstypen](/dynamics365/business-central/dev-itpro/administration/users-credential-types) im Abschnitt Verwaltung des Entwicklers und des ITPro-Inhalts für. [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
-## <a name="profiles"></a>Profile
+## <a name="profiles-roles"></a>Rollenprofile (Rollen)
 
-Alle Mitarbeiter in Ihrem Mandanten, die Zugriff haben auf[!INCLUDE[d365fin](includes/d365fin_md.md)] sind einem *Profil* zugewiesen, das Zugriff  auf das *Rollencenter* gibt.
+Alle Mitarbeiter in Ihrem Mandanten, die Zugriff haben auf [!INCLUDE[d365fin](includes/d365fin_md.md)] sind einer Rolle zugewiesen, das Zugriff auf das *Rollencenter* gibt.
 
-Profile sind Sammlungen von [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzern, die dasselbe Rollencenter nutzen. Ein Rollencenter ist der Einstiegspunkt und die Homepage für [!INCLUDE[d365fin](includes/d365fin_md.md)] und gibt Ihnen Zugriff zu den wichtigsten Aufgaben und zeigt verschiedene Einblicke und Schlüsselleistungsindikatoren (KPIs) über Ihre Arbeit an.  
+Profile sind Sammlungen von [!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzern, die dasselbe Rollencenter nutzen. Ein Rollencenter ist der Einstiegspunkt und die Homepage für [!INCLUDE[d365fin](includes/d365fin_md.md)] und gibt Ihnen Zugriff zu den wichtigsten Aufgaben und zeigt verschiedene Einblicke und Schlüsselleistungsindikatoren (KPIs) über Ihre Arbeit an.  
 
 > [!NOTE]  
 >  In der aktuellen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] online können Sie keine Profile einfügen, ändern oder löschen.  
 
-### <a name="CreateProfile"></a>Erstellen eines Profils
+### <a name="CreateProfile"></a>So erstellen Sie ein Profil
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus, geben Sie **Profil-Liste** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Symbol Nach Seite oder Bericht suchen") aus, geben Sie **Profile** ein, und wählen Sie dann den zugehörigen Link aus.  
 
-2.  Auf der Seite **Profilliste** wählen Sie die **Neu** Aktion aus, um die Seite **Neue Profil-Karte** zu öffnen.  
+2.  Auf der Seite **Profile** wählen Sie die **Neu** Aktion aus, um die Seite **Neue Profil-Karte** zu öffnen.  
 
 3.  Geben Sie im Feld **Profil-ID** einen Namen ein, der die gewünschte Rolle des Benutzers beschreibt.  
 
@@ -56,7 +56,7 @@ Profile sind Sammlungen von [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzer
 
 5.  Legen Sie das Feld **Rollencenter-ID** auf das Rollencenter fest, das Sie dem Profil zuweisen wollen.  
 
-Das Verfahren zum Ändern eines vorhandenen Profils ist dasselbe, außer dass Sie ein vorhandenes Profil in der **Profilliste** auswählen, anstatt auf **Neu** zu klicken.  
+Das Verfahren zum Ändern eines vorhandenen Profils ist dasselbe, außer dass Sie ein vorhandenes Profil auf der Seite **Profile** auswählen, anstatt auf **Neu** zu klicken.  
 
 
 ### <a name="copy-a-profile"></a>So kopieren Sie ein Profil
@@ -78,7 +78,7 @@ Sie können Profile als XML-Dateien aus und nach einer [!INCLUDE[d365fin](includ
 
 -   Um ein Profil zu exportieren, können Sie die **Profile exportieren** Aktion aus **Profilübersicht** oder **Profilkarte** auswählen oder Sie können **Profile exportieren** suchen. Speichern Sie die XML-Datei an einem Speicherort auf Ihrem Computer oder Netzwerk.
 
--   Um ein Profil zu importieren, können Sie die **Profile importieren** Aktion aus Profilübersicht oder **Profilliste** auswählen oder Sie können **Profile importieren** suchen. 
+-   Um ein Profil zu importieren, können Sie die **Profile importieren** Aktion aus Profilübersicht oder **Profilliste** auswählen oder Sie können **Profile importieren** suchen.
 
     > [!NOTE]  
     >  Sie können kein Profil importieren, das bereits in der Datenbank vorhanden ist, auch wenn die XML-Datei einen anderen Namen oder unterschiedlichen Inhalt hat. Sie müssen das vorhandene Profil löschen, bevor Sie das neue Profil importieren können.

@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.reviewer: edupont
+ms.date: 07/16/2019
 ms.author: soalex
-ms.openlocfilehash: a4dd426cbbe8aa45e3128814886e4d43797c46b3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1b1c0e0260db1dd8fec21ab2552b553ea2591df2
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244599"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755166"
 ---
 # <a name="service-compliance"></a>Dienst-Kompatibilität
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -25,12 +26,18 @@ Business Central ist ein Clouddienst mit einem globalen Reichweiten- und Skalabe
 
 Hier finden Sie die detaillierten [Cloudkompatibilitätsanforderungen für Business Central](https://aka.ms/d365-compliance-list) Liste.
 
-Wenn Sie an der vollständigen Liste der Kompatibilitätsanforderungen von Microsoft interessiert sind, gehen Sie zu [dieser Seiten](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings)
+Wenn Sie an der vollständigen Liste der Kompatibilitätsanforderungen von Microsoft interessiert sind, gehen Sie zum [Microsoft Trust Center](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="service-terms"></a>Servicebedingungen
+
+[!INCLUDE [prodshort](../includes/prodshort.md)] online unterliegt der [Modernen Lebenszykluspolitik](https://support.microsoft.com/en-us/help/30881/modern-lifecycle-policy). Die Bedingungen der Service Level Agreements sind in dem Dokument beschrieben, das Sie von Abschnitt **Service Level Agreements für Microsoft Online Services** auf der Seite [Lizenzbestimmungen](https://www.microsoft.com/en-us/licensing/product-licensing/products) herunterladen können.  
+
+Darüber hinaus können Sie den Zustand Ihres Mandanten überwachen und Aktualisierungsfenster in festlegen im [Mandant Verwaltungscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+
+## <a name="see-also"></a>Siehe auch
+
 [Kompatibilität](compliance-overview.md)  
 [Anwendungs-Kompatibilität](compliance-application-compliance.md)  
 [Bescheinigungen](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

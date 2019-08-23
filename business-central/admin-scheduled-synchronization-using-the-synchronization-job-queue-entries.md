@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 07/16/2019
 ms.author: bholtorf
-ms.openlocfilehash: b3fb3d2680cd85da8b2def7e82fbf62c0046fcc3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9290730bb559d4ac03a437a49ed81b09f3c01853
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247421"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755218"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Planen einer Synchronisierung zwischen Business Central und Dynamics 365 for Sales
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] mit [!INCLUDE[crm_md](includes/crm_md.md)] in geplanten Intervallen synchronisieren, indem Sie Projekte in der Projektwarteschlange einrichten. Die Synchronisierungsprojekte synchronisieren Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensätzen und [!INCLUDE[crm_md](includes/crm_md.md)]-Datensätzen, die zuvor gekoppelt wurden. Für Datensätze, die nicht bereits gekoppelt sind, können die Synchronisierungsprojekte entsprechend der Synchronisierungsrichtung und -regeln neue Datensätze im Zielsystem erstellen und koppeln. Es gibt mehrere Synchronisierungsprojekte, die standardmäßig verfügbar sind. Sie können sich diese auf der Seite **Projektwarteschlangeneinträge** ansehen. Weitere Informationen finden Sie unter [Vorgehensweise: Projektwarteschlangen nutzen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md)
@@ -31,7 +31,7 @@ Um Daten zu synchronisieren, müssen [!INCLUDE[crm_md](includes/crm_md.md)]-Einh
 -   Standardmäßig werden nur Datensätze in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisiert, die an Datensätze in [!INCLUDE[crm_md](includes/crm_md.md)] gekoppelt sind. Sie können die Tabellenzuordnung zwischen einer [!INCLUDE[crm_md](includes/crm_md.md)]-Einheit und einer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle ändern, sodass die Integrationssynchronisierungsprojekte neue Datensätze in der Zieldatenbank für jeden Datensatz in der Quelldatenbank erstellen, der nicht gekoppelt ist. Die neuen Datensätze werden ebenfalls mit den entsprechenden Datensätzen in der Quelle gekoppelt. Wenn Sie beispielsweise Debitoren mit [!INCLUDE[crm_md](includes/crm_md.md)]-Konten synchronisieren, wird ein neuer Kontodatensatz für jeden Debitor in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt. Die neuen Konten werden automatisch an Debitoren in [!INCLUDE[d365fin](includes/d365fin_md.md)] gekoppelt. Da die Synchronisierung in diesem Fall bidirektional verläuft, wird ein neuer Debitor für jedes [!INCLUDE[crm_md](includes/crm_md.md)]-Konto erstellt und gekoppelt, das nicht bereits gekoppelt ist.  
 
     > [!NOTE]  
-    >  Es gibt Regeln und Filter, die bestimmen, welche Daten synchronisiert werden. Weitere Informationen finden Sie unter [Synchronisierungsregeln](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
+    > Es gibt Regeln und Filter, die bestimmen, welche Daten synchronisiert werden. Weitere Informationen finden Sie unter [Synchronisierungsregeln](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
 
 -   Wenn neue Datensätze in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt werden, verwenden die Datensätze entweder die Vorlage, die für die Integrationstabellenzuordnung definiert ist, oder die Standardvorlage, die für den Datensatztyp verfügbar ist. Felder werden mit Daten von [!INCLUDE[d365fin](includes/d365fin_md.md)] oder [!INCLUDE[crm_md](includes/crm_md.md)] ausgefüllt, je nach Synchronisierungsrichtung. Weitere Informationen finden Sie unter [Vorgehensweise: Tabellenzuordnungen für die Synchronisierung ändern](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -51,7 +51,7 @@ In der folgenden Tabelle werden die standardmäßigen Synchronisierungsprojekte 
 |KUNDE – Dynamics 365 for Sales-Synchronisierungsprojekt|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Konten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]-Debitoren.|Bidirektional|DEBITOR|  
 |DEBITORENPREISGRUPPEN-PREIS – Dynamics 365 for Sales-Synchronisierungsprojekt|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Verkaufspreislisten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]-Debitorenpreisgruppen.| |DEBITORENPREISGRUPPEN – VERKAUFSPREISLISTEN|
 |ARTIKEL – PRODUKT – Dynamics 365 for Sales-Synchronisierungsprojekt|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Produkte mit [!INCLUDE[d365fin](includes/d365fin_md.md)]-Artikeln.|Von [!INCLUDE[d365fin](includes/d365fin_md.md)] nach [!INCLUDE[crm_md](includes/crm_md.md)]|ARTIKEL/PRODUKT|
-|GEBUCHTE VERKAUFSRECHNUNGEN – Dynamics 365 for Sales-Synchronisierungsprojekt|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Rechnungen mit gebuchten [!INCLUDE[d365fin](includes/d365fin_md.md)]-Verkaufsrechnungen.|Von [!INCLUDE[crm_md](includes/crm_md.md)] nach [!INCLUDE[d365fin](includes/d365fin_md.md)]|RECHNUNGEN – GEBUCHTE VERKAUFSRECHNUNGEN|
+|GEBUCHTE VERKAUFSRECHNUNGEN – Dynamics 365 for Sales-Synchronisierungsprojekt|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Rechnungen mit gebuchten [!INCLUDE[d365fin](includes/d365fin_md.md)]-Verkaufsrechnungen.|Von [!INCLUDE[d365fin](includes/d365fin_md.md)] nach [!INCLUDE[crm_md](includes/crm_md.md)]|RECHNUNGEN – GEBUCHTE VERKAUFSRECHNUNGEN|
 |RESSOURCE – PRODUKT – Dynamics 365 for Sales-Synchronisierungsprojekt|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Produkte mit [!INCLUDE[d365fin](includes/d365fin_md.md)]-Ressourcen.|Von [!INCLUDE[d365fin](includes/d365fin_md.md)] nach [!INCLUDE[crm_md](includes/crm_md.md)]|RESSOURCE – PRODUKT|  
 |VERKÄUFER – Dynamics 365 for Sales-Synchronisierungsprojekt|Synchronisiert [!INCLUDE[d365fin](includes/d365fin_md.md)]-Verkäufer mit [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzern.|Von [!INCLUDE[crm_md](includes/crm_md.md)] nach [!INCLUDE[d365fin](includes/d365fin_md.md)]|VERKÄUFER|
 |VERKAUFSPREIS – PRODUKTPREIS – Dynamics 365 for Sales-Synchronisierungsprojekt|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Produktpreise mit [!INCLUDE[d365fin](includes/d365fin_md.md)]-Verkaufspreisen.||PRODUKTPREIS – VERKAUFSPREIS|
@@ -63,7 +63,7 @@ In der folgenden Tabelle werden die standardmäßigen Synchronisierungsprojekte 
 2.  Wenn Fehler bei einem Synchronisierungsprojekt aufgetreten sind, erscheint die Anzahl der Fehler in der Spalte **Fehler**. Um die Fehler für das Projekt anzuzeigen, wählen Sie die Zahl aus.  
 
     > [!TIP]  
-    >  Sie können alle Synchronisierungsprojektfehler anzeigen, indem Sie das Protokoll mit den Synchronisierungsprojektfehlern direkt öffnen.
+    > Sie können alle Synchronisierungsprojektfehler anzeigen, indem Sie das Protokoll mit den Synchronisierungsprojektfehlern direkt öffnen.
 
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>So zeigen Sie das Protokoll der Synchronisierungsprojekte über die Tabellenzuordnungen an:  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link aus.

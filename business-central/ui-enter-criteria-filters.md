@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 5f3bab58a2387f5bf21042da782756f7b36d4792
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629918"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740502"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortieren, Durchsuchen und Filtern von Listen
 Es gibt mehrere Möglichkeiten, wie Sie das tun können und die dabei helfen, Datensätze in einer Liste zu scannen, zu suchen und einzugrenzen. Diese umfassen die Sortierung, Suche und Filterung. Sie können einige oder alle davon gleichzeitig anwenden, um die Daten schnell zu finden oder zu analysieren.
@@ -128,10 +128,15 @@ Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyb
 
 
 ## <a name="FilterCriteria"> </a>Filterkriterien und Symbole
-Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet werden, die auch normalerweise im Feld zulässig sind. Zudem können Sie Sonderzeichen verwenden, um eine zusätzliche Filterung der Ergebnisse zu erreichen. Die folgende Tabelle enthält die Symbole, die in Filtern verwendet werden können. Detaillierte Informationen zu Datumsangaben und Uhrzeit finden Sie unter [Arbeiten mit Datumsangaben und Uhrzeit im Kalender](ui-enter-date-ranges.md).
+Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet werden, die auch normalerweise im Feld zulässig sind. Zudem können Sie Sonderzeichen (oder Operatoren) verwenden, um eine zusätzliche Filterung der Ergebnisse zu erreichen. Die folgende Tabelle enthält die Symbole, die in Filtern verwendet werden können. Detaillierte Informationen zu Datumsangaben und Uhrzeit finden Sie unter [Arbeiten mit Datumsangaben und Uhrzeit im Kalender](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]  
->  Es kann Instanzen geben, in denen diese Feldwerte Symbole enthalten, die Sie filtern möchten. Um dies zu tun, müssen Sie den Filterausdruck berücksichtigt der das Symbol in Anführungszeichen (") enthält. Wenn Sie beispielsweise Datensätzen filtern möchten, die mit dem Text *S&R* beginnen, ist der Filterausdruck `'S&R*'`.  
+>  Es kann Instanzen geben, in denen diese Feldwerte Symbole enthalten, die Sie filtern möchten. Um dies zu tun, müssen Sie den Filterausdruck berücksichtigt der das Symbol in Anführungszeichen (") enthält. Wenn Sie beispielsweise Datensätzen filtern möchten, die mit dem Text *S&R* beginnen, ist der Filterausdruck `'S&R*'`.
+
+In den folgenden Abschnitten wird die Verwendung der verschiedenen Operatoren beschrieben.
+
+> [!NOTE]
+> Wenn ein Filter mehr als 200 Operatoren enthält, gruppiert das System einige Ausdrücke automatisch in Klammern `()` zum Zwecke der Verarbeitung. Dies hat keine Auswirkungen auf den Filter oder die Ergebnisse.  
 
 ### <a name="-interval"></a>(..) Intervall
 
@@ -145,7 +150,7 @@ Beim Eingeben von Filterkriterien können alle Ziffern und Buchstaben verwendet 
 |`23..`|Vom 23-des aktuellen Monats-des aktuellen Jahres 0:00:00 bis zum Ende der Zeit|  
 |`22..23`|Vom 22-des aktuellen Monats-aktuellen Jahres 0:00:00 bis zum 23-des aktuellen Monats-aktuellen Jahres 23:59:59|  
 
-### <a name="124-eitheror"></a>(&#124;) Entweder/oder  
+### <a name="124-eitheror"></a>(&#124;) Entweder/oder 
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251285"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796760"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Warum eine Seite für Personalisierungen gesperrt ist
 
@@ -55,7 +55,7 @@ Ein Symbol ![Personalisierung blockiert](media/personalization-blocked-icon.png 
 
 ![Personalisieren blockiert](media/personalization-blocked.png "Personalisieren sperren")
 
-Der Grund dafür ist, dass das Rollencenter oder das Profil, das derzeit mit dem Benutzerkonto verknüpft ist, diese Seite speziell für Ihre Rolle ändert. Bitten Sie Ihren Administrator um Hilfe oder versuchen Sie, wenn es sinnvoll ist, zu einem Rollencenter (in [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Navigieren Sie direkt zu Ihrer Einstellungsseite in Business Central")) zu wechseln, das Rollenanpassung für diese Seite umfasst.
+Der Grund dafür ist, dass das Rollencenter oder die Rolle, die derzeit mit dem Benutzerkonto verknüpft ist, diese Seite speziell für Ihre Rolle ändert. Bitten Sie Ihren Administrator um Hilfe oder versuchen Sie, wenn es sinnvoll ist, zu einem Rollencenter (in [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Navigieren Sie direkt zu Ihrer Einstellungsseite in Business Central")) zu wechseln, das Rollenanpassung für diese Seite umfasst.
 
 ## <a name="see-also"></a>Siehe auch
 [Personalisieren Ihres Arbeitsbereichs](ui-personalization-manage.md)  

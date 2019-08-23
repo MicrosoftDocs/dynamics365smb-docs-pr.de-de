@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/03/2019
-ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.date: 07/17/2019
+ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
+ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726954"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755969"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
@@ -43,11 +43,11 @@ Wenn Sie eine Testversion von [!INCLUDE [prodshort](includes/prodshort.md)] verw
 
 ### <a name="blog"></a>Blog
 
-Im [Business Central-Blog](https://community.dynamics.com/business/b/financials) erfahren Sie mehr über die neuen Funktionen von [!INCLUDE[prodshort](includes/prodshort.md)], neue App-Versionen, Tipps und Tricks sowie zu Updates zu neuen Länderversionen.  
+Wir berichten auch über neue Funktionen im [Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), inklusive wann sie zur Verfügung gestellt werden und ob es etwas zu berücksichtigen gibt.  
 
 ### <a name="capabilities-coming-soon"></a>Funktionen, die in Kürze verfügbar sind
 
-[!INCLUDE[prodshort](includes/prodshort.md)] wird alle 6 Monate mit Updates zu Hauptfunktionen und monatlich mit Service-Updates aktualisiert. Wählen Sie den Link, um aktuelle Versionenpläne anzuzeigen. Sie finden eine Übersicht über die kommenden und kürzlich veröffentlichten Funktionen in den Versionenplänen in Dynamics 365 unter [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] wird alle 6 Monate mit Updates zu Hauptfunktionen und monatlich mit Service-Updates aktualisiert. Wählen Sie den Link, um aktuelle Versionenpläne anzuzeigen. Sie finden eine Übersicht über die kommenden und kürzlich veröffentlichten Funktionen in den Versionenplänen in Dynamics 365 unter [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
 
 Für den langfristigeren Überblick zeigt die [!INCLUDE[prodshort](includes/prodshort.md)] [Roadmap-Seite](https://dynamics.microsoft.com/roadmap/business-central/) die allgemeinen Prioritäten für [!INCLUDE[prodshort](includes/prodshort.md)] in den kommenden Jahren.  
 
