@@ -6,6 +6,7 @@
       "build_output_subfolder": "d365accountant",
       "locale": "de-de",
       "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -55,7 +56,11 @@
     "solsen@microsoft.com"
   ],
   "sync_notification_subscribers": [],
-  "branches_to_filter": [],
+  "branches_to_filter": [
+    "live-sxs"
+  ],
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics365smb-docs",
+  "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
@@ -98,6 +103,5 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "need_generate_intellisense": false,
-  "need_generate_pdf": false
+  "need_generate_intellisense": false
 }
