@@ -219,7 +219,7 @@
 ## [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)
 ## [E-Mail einrichten](admin-how-setup-email.md)
 ## [Erstellen von Nummernkreisen](ui-create-number-series.md)
-## [Einrichten eines Basiskalenders](across-how-to-assign-base-calendars.md)
+## [Basiskalender einrichten](across-how-to-assign-base-calendars.md)
 
 # Allgemeine Geschäftsfunktionen
 ## [Matrix](ui-across-business-areas.md)
@@ -234,6 +234,7 @@
 ## [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)
 ## [Journale und Dokumente buchen](ui-post-documents-journals.md)
 ## [Vorschau-Buchungs-Ergebnisse](ui-how-preview-post-results.md)
+## [Gebuchte Belege bearbeiten](across-edit-posted-document.md)
 ## [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
 ## [Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung](admin-job-queues-schedule-tasks.md)
 ## [Business Central Werte vorschlagen lassen](ui-let-system-suggest-values.md)
@@ -590,10 +591,12 @@
 ### [Matrix](marketing-manage-sales-opportunities.md)
 ### [Einrichten von Verkaufsprozessen für Verkaufschancen und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Verkaufschancen erstellen](marketing-how-create-opportunities.md)
+### [Verfolgen Sie den Austausch von E-Mail-Nachrichten](marketing-set-up-email-logging.md)
+
 ### [Verarbeiten von Verkaufschancen](marketing-processing-sales-opportunities.md)
-## [Verwaltung von Marketingkampagnen](marketing-campaigns.md)
-## Kundenbindung mit Debitoren durch Dynamics 365 for Sales
-### [Verwenden von Dynamics 365 for Sales aus Business Central heraus](marketing-integrate-dynamicscrm.md)
+### [E-Mail-Protokollierung einr.](marketing-set-up-email-logging.md)
+## [Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren](marketing-create-contact-profile-questionnaire.md)
+## [Verwenden von Dynamics 365 for Sales aus Business Central heraus](marketing-integrate-dynamicscrm.md)
 ### [Datensätze manuell koppeln und synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [Den Status einer Synchronisierung anzeigen](admin-how-to-view-synchronization-status.md)
 
