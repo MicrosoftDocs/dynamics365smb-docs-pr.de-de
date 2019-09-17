@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/17/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: 77be24dce0d34c712b87649f9ced21b947c77cbe
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796918"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921338"
 ---
 # <a name="posting-purchases"></a>Einkäufe buchen
 Wenn Sie die Schaltfläche **Gruppe Buchen** in einem Einkaufsbeleg auswählen, können Sie zwischen den folgenden Buchungsfunktionen auswählen:
@@ -43,8 +43,10 @@ Sie können entweder buchen oder buchen und drucken. Wenn Sie sich entscheiden, 
 
 Wenn die Buchung vollständig ist, werden die gebuchten Einkaufszeilen aus der Bestellung entfernt. Eine Meldung erscheint, die Ihnen mitteilt, dass die Buchung vollständig ist. Im Anschluss können Sie die gebuchten Posten auf den verschiedenen Seiten einsehen, die gebuchte Posten enthalten (**Kreditorenposten**, **Sachposten**, **Artikelposten**, **Lagerplatzposten**, **Einkaufsrechnung**).
 
-## <a name="see-also"></a>Siehe auch
+Sie können bestimmte Felder in gebuchten Einkaufsbelegen bearbeiten, z. B. das Feld **Zahlungsreferenz**. Weitere Informationen finden Sie unter [Gebuchte Belege bearbeiten](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Siehe auch
+[Gebuchte Belege bearbeiten](across-edit-posted-document.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Journale und Dokumente buchen](ui-post-documents-journals.md)  
 [Ändern oder Löschen einer unbezahlten Einkaufsrechnung](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

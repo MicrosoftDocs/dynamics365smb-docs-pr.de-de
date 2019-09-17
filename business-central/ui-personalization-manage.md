@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
+ms.date: 08/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 37cdf2d7dcc46b1286cbb7a5ad620547e364309e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250595"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887737"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Personalisierung als Administrator verwalten
 
@@ -71,6 +71,9 @@ Sie können verhindern, dass alle Benutzer, die zu einem bestimmten Profil gehö
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Profile** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie das Profil aus, das Sie ändern möchten.
 3. Aktivieren Sie das Kontrollkästchen **Anpassung deaktivieren**, und klicken Sie dann auf die Schaltfläche **OK**.
+
+> [!NOTE]  
+> In Business Central Online können Sie die Personalisierung nur für ein Mandantenprofil deaktivieren, nicht für Systemprofile. 
 
 ## <a name="to-clear-user-personalizations"></a>So löschen Sie Benutzeranpassungen
 

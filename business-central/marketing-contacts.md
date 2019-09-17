@@ -10,21 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446945"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985739"
 ---
 # <a name="managing-contacts"></a>Kontakte verwalten
-Innerhalb des Unternehmens unterhalten unterschiedliche Gruppen geschäftliche Beziehungen mit verschiedenen Unternehmen. So kann sich beispielsweise ein Verkäufer regelmäßig mit Interessenten treffen und am Ende der Woche die Ergebnisse dieser Besuche erfassen.
+Mitarbeiter in Ihrem Unternehmen treffen regelmäßig mit möglichen Geschäftsbeziehungen zusammen. Aus diesen Zusammentreffen können sich formale Beziehungen ergeben. All diese externen Kontakte und ihre detaillierten Informationen sollten im System aufgezeichnet werden, damit die Kommunikation erfolgreicher ist und sie problemlos in formale Debitor-, Kreditor- oder Bankbeziehungen umgewandelt werden können.
 
-Es empfiehlt sich, alle externen Entitäten, mit denen Sie geschäftlich zu tun haben (wie Debitoren, Interessenten, Kreditoren, Anwälte oder Berater), als Kontakte zu erfassen. Durch die Erfassung dieser Daten an einem zentralen Ort wird sichergestellt, dass die Informationen von jeder Gruppe innerhalb des Unternehmens angezeigt und effizient genutzt werden können. Die Kommunikation mit Kontakten verbessert sich deutlich, wenn sämtliche Informationen zeitnah zur Verfügung stehen. So kann es für einen Marketingmitarbeiter beispielsweise von Interesse sein, welche anderen Produkte von einem bestimmten Debitor erworben wurden, bevor der Mitarbeiter versucht, den Debitor für ein anderes Produkt zu interessieren.
-
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
+In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert
 
 | An | Siehe |
 | --- | --- |

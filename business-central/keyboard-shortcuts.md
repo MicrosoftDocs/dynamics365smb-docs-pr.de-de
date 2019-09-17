@@ -1,21 +1,21 @@
 ---
 title: Tastenkombinationen
 description: Die gesamte Übersicht der Tastenkombinationskombinationen, um mit den Daten effizient zu arbeiten.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/06/2019
+ms.author: sgroespe
+ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621206"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985910"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn arbeiten [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -170,6 +170,12 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |Esc|Schließen Sie den Kalender ohne eine Auswahl, geben Sie ein aktuelles Datum ein.|
 |Seite nach unten|Navigieren zum nächsten Monat.|
 |Seite nach oben|Navigieren zum vorherigen Monat.|  
+
+## <a name="keyboard-shortcuts-in-date-fields"></a>Tastenkombinationen in Datumsfeldern
+|Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
+|-----------------|-------|
+|h|Geben Sie das aktuelle Datum ein. „T“ bedeutet „heute“.|
+|a|Geben Sie das Arbeitsdatum ein. Weitere Informationen finden Sie unter [Arbeitsdatum](ui-change-basic-settings.md#work-date)|
 
 ## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Tastenkombinationen in der Berichtsvorschau
 

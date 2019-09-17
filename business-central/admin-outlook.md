@@ -3,19 +3,19 @@ title: Nutzung von Business Central with Outlook| Microsoft Docs
 description: Dieser Service hat eine starke Integration mit Office 365 und macht es möglich, dass Sie Ihre Geschäftsaktivitäten und E-Mails mit Debitoren und Kreditoren direkt in Outlook verwalten können.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 07/12/2019
+ms.date: 08/14/2019
 ms.author: edupont
-ms.openlocfilehash: 578f33dace52383ce588494d35c875ceaf6ffc21
-ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
+ms.openlocfilehash: 70299f86a1ebc3251780eb05f8b68afeff23fa5e
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1740456"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887691"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt die Möglichkeit vor, Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. Mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, sowie Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.  
@@ -53,9 +53,9 @@ Im Dokumentenverknüpfungs-Add-In können Sie genauso Vorgänge für den Beleg a
 ## <a name="adding-the-add-ins-manually"></a>Das Add-In manuell hinzufügen
 In einigen Fällen werden die Add-Ins nicht automatisch hinzugefügt zu Outlook. Selbst wenn Sie oder ein Kollege die unterstützte Einrichtung im Auftrag des Unternehmens ausführen, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise nicht in Outlook angezeigt. Wenn Sie dieses Problem haben, können Sie die Add-Ins in [!INCLUDE[d365fin](includes/d365fin_md.md)] manuell hinzufügen.  
 
-Zuerst müssen Sie sicherstellen, dass Sie Zugriff auf die Add-Ins in Ihrem Office 365 Konto haben. Ganz einfach Outlook in einem Browser öffnen, zu **Einstellungen** gehen und dann **Add-Ins verwalten** auswählen. Dies öffnet die **Add-Ins verwalten** Seite, auf der Sie [!INCLUDE[prodshort](includes/prodshort.md)] für Ihr Outlook aktivieren können. Wenn Sie dann wieder zurück zu Outlook navigieren, sollte [!INCLUDE[prodshort](includes/prodshort.md)] verfügbar sein.  
+Zuerst müssen Sie sicherstellen, dass Sie Zugriff auf die Add-Ins in Ihrem Office 365 Konto haben. Öffnen Sie einfach Outlook in einem Browser, öffnen Sie eine Nachricht, wählen Sie **Mehr Aktionen** (...) oben in der Nachricht und dann unten in der Liste **Add-Ins abrufen** aus. Dies öffnet die **Add-Ins für Outlook**-Seite, auf der Sie [!INCLUDE[prodshort](includes/prodshort.md)] für Outlook aktivieren können. Wenn Sie dann wieder zurück zu Outlook navigieren, sollte [!INCLUDE[prodshort](includes/prodshort.md)] verfügbar sein.  
 
-Analog ist es im Outlook-Desktopclient. Sie können überprüfen, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] auf der Seite **Add-Ins verwalten** aufgeführt ist.  
+Analog können Sie im Outlook-Desktopclient überprüfen, ob [!INCLUDE[d365fin](includes/d365fin_md.md)] auf der Seite **Add-Ins abrufen** aufgeführt ist.  
 
 In beiden Fällen müssen Sie, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] immer noch nicht verfügbar sein, die Add-in-Manifest-Datei abrufen. Für weitere Informationen wenden Sie bitte an Ihren Office 365 Administrator.
 

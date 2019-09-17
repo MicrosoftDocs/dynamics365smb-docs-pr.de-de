@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796895"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921430"
 ---
 # <a name="posting-sales"></a>Verkäufe buchen
-Wenn Sie die Schaltfläche **Gruppe Buchen** in einem Verkaufsbeleg auswählen, können Sie zwischen den folgenden Buchungsfunktionen auswählen:
+Unter dem Menü **Buchen** in einem Verkaufsbeleg auswählen können Sie zwischen den folgenden Buchungsfunktionen auswählen:
 
 * **Veröffentlichen**
-* **Testbericht**
+* **Buchen und neu**
 * **Buchen und senden**
-* **Buchen und Drucken**
-* **Buchen und per E-Mail senden**
-* **Stapelbuchung**
 * **Buchungsvorschau**
+* **Rechnungsentwurf**
+* **Proforma-Rechnung**
+* **Testbericht**
 
 Wenn Sie alle Zeilen ausgefüllt und alle Daten des Verkaufsauftrags eingegeben haben, können Sie ihn buchen. Dies erstellt eine Lieferung und eine Rechnung.
 
@@ -41,9 +41,11 @@ Für jede Zeile des Verkaufsauftrags wird ein Artikelposten in der Tabelle **Art
 
 Wenn die Buchung vollständig ist, werden die gebuchten Verkaufszeilen aus der Bestellung entfernt. Eine Meldung erscheint, die Ihnen mitteilt, dass die Buchung vollständig ist. Im Anschluss können Sie die gebuchten Posten auf den verschiedenen Seiten einsehen, die gebuchte Posten enthalten, einschließlich **Debitorenposten**, **Sachposten**, **Artikelposten**, **Lagerplatzposten**, **Geb. Verkaufsrechnung**.  
 
-## <a name="see-also"></a>Siehe auch
+Sie können bestimmte Felder in gebuchten Verkaufsbelegen bearbeiten, z. B. die **Paketverfolgungsnr.** Feld eingetragen. Weitere Informationen finden Sie unter [Gebuchte Belege bearbeiten](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
+[Gebuchte Belege bearbeiten](across-edit-posted-document.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Ändern oder Löschen einer unbezahlten Verkaufsrechnung](sales-how-correct-cancel-sales-invoice.md)  
 [Verwenden von „Wie möchten Sie weiter verfahren“ bei der Suche nach Funktionen und Informationen](ui-search.md)  
