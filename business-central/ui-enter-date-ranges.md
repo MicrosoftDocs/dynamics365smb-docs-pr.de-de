@@ -2,21 +2,21 @@
 title: Eingeben von Datumsangaben und Uhrzeiten in Business Central  | Microsoft Docs
 description: Erfahren Sie, wie Sie Datumsangaben und Uhrzeiten einschließlich verschiedener Produktivitätstipps wie Stenografie, Ausdrücke und Bereiche eingegeben. Filtern Sie Listen oder Berichte bis zu einem bestimmten Datum oder zu Zeiträumen.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: c7e80edfd796056176d37ad12a56c76e64bb44e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 09/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
+ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250940"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "2000763"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
 
@@ -24,7 +24,7 @@ ms.locfileid: "1250940"
 
 ## <a name="check-your-region-and-language-settings"></a>Überprüfen Ihrer Bereichs- und Spracheneinstellungen
 
-Die Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Direkt zur Benutzereinstellungsseite in Business Central zurückkehren") gibt die **Region** und die **Sprache** an, die Sie in der Anwendung verwenden. Diese Einstellungen beeinflussen, wie Sie Datumswerte und Uhrzeiten eingeben. 
+Die Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Direkt zur Benutzereinstellungsseite in Business Central zurückkehren") gibt die **Region** und die **Sprache** an, die Sie in der Anwendung verwenden. Diese Einstellungen beeinflussen, wie Sie Datumswerte und Uhrzeiten eingeben.
 
 -   Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.
 
@@ -33,7 +33,7 @@ Die Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=91
 > [!NOTE]
 > [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verwendet das gregorianische Kalendersystem.
 
-<!-- 
+<!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
@@ -43,7 +43,7 @@ In einem Datumsfeld können Sie unter Verwendung des Standardformats ein Datum f
 
 Beachten Sie, dass das Format, in dem Datumswerte in gedruckten Berichten oder per E-Mail gesendeten Dokumenten angezeigt wird, von Ihrer persönlichen Regionseinstellung nicht beeinflusst wird.
 
-Um produktiver mit Datumswerten und Uhrzeiten zu arbeiten, können Sie alle Methoden oder Formate verwenden, die in den folgenden Abschnitten beschrieben werden. 
+Um produktiver mit Datumswerten und Uhrzeiten zu arbeiten, können Sie alle Methoden oder Formate verwenden, die in den folgenden Abschnitten beschrieben werden.
 
 ### <a name="picking-dates-from-the-calendar"></a>Datumsangaben aus dem Kalender auswählen
 
@@ -55,9 +55,9 @@ Weitere Informationen unter [Tastenkombinationen in der Kalenderdatumsauswahl](k
 
 ### <a name="day-week-year-pattern"></a>Tag\-Woche\-Jahr-Muster
 
-Sie können ein Datum als Wochentag gefolgt von einer Wochennummer und optional einem Jahr eingeben. Beispielsweise bedeutet `Mon25` oder `mon25` Montag in der 25. Woche Wenn Sie kein Jahr eingeben, wird das Jahr des Arbeitsdatums verwendet.
+Sie können ein Datum als Wochentag gefolgt von einer Wochennummer und optional einem Jahr eingeben. Beispielsweise bedeutet Mo25 oder mo25 Montag in der 25. Woche Wenn Sie kein Jahr eingeben, wird das Jahr des Arbeitsdatums verwendet.
 
-Anstatt das gesamte Wort für den Wochentag einzugeben, können Sie vom Anfang an einen Teil des Begriffs eingeben. Bei Konflikten (wie bei `s` für Samstag oder Sonntag) werden die Tage entsprechend der Bereichseinstellung ausgewertet. Die Eingabe wird zuerst nach `workdate` auch `today` ausgewertet, beachten Sie dies bei der Abkürzung. Beispielsweise bedeutet `t` heute, daher kann es nicht "Dienstag" oder "Donnerstag" bedeuten.
+Anstatt das gesamte Wort für den Wochentag einzugeben, können Sie vom Anfang an einen Teil des Begriffs eingeben. Bei Konflikten (wie bei S für Samstag oder Sonntag) werden die Tage entsprechend der Bereichseinstellung ausgewertet. Die Eingabe wird zuerst nach Arbeitsdatum und heute ausgewertet, beachten Sie dies bei der Abkürzung. Beispielsweise bedeutet h heute, daher kann es nicht "Dienstag" oder "Donnerstag" bedeuten.
 
 Das Kalenderwocheschema folgt immer ISO 8601. Dabei ist Woche 1, in die der 4. Januar fällt, oder die Woche mit dem ersten Donnerstag des Jahres.
 
@@ -73,11 +73,11 @@ In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingege
 
 ### <a name="today"></a>Heute
 
-Geben Sie das Wort für `today` in der Sprache ein, die von der **Sprach**-Einstellung festgelegt wird. Dadurch wird das Datum auf das aktuelle Datum festgelegt. Anstatt den gesamten Begriff einzugeben, können Sie einen Teil des Begriffs eingeben. Beginnen Sie mit `t` oder `tod`, sofern dies nicht auch der Beginn eines anderen Begriffs ist.
+Geben Sie das Wort für heute in der Sprache ein, die von der **Sprach**-Einstellung festgelegt wird. Dadurch wird das Datum auf das aktuelle Datum festgelegt. Anstatt den gesamten Begriff einzugeben, können Sie einen Teil des Begriffs eingeben. Beginnen Sie mit h oder heu , sofern dies nicht auch der Beginn eines anderen Begriffs ist.
 
 ### <a name="period"></a>Periode
 
-Wenn Sie eine bestimmte Buchhaltungsperiode filtern möchten, geben Sie in einem Datumsfeld den Buchstaben `p` oder das Wort `period` ein, gefolgt von einer Nummer, der die Buchhaltungsperiode identifiziert, z. B. `p2` oder `period4`. Die Buchhaltungsperiode ist relativ zum Geschäftsjahr des aktuellen Arbeitsdatums, das von Ihrem Rollencenter festgelegt wurde. Wenn beispielsweise das Arbeitsdatum **21/03/20** lautet, dann filtern `p1` oder einfach `p` in der ersten Buchhaltungsperiode des Geschäftsjahres 2020 (wie `01/01/20..01/31/20`). `p15` filtert den Fünfzehnten der Buchhaltungsperiode ab dem Anfang des Geschäftsjahres 2020 (wie `03/01/21..03/31/21`). 
+Wenn Sie eine bestimmte Buchhaltungsperiode filtern möchten, geben Sie in einem Datumsfeld den Buchstaben P oder das Wort Periode ein, gefolgt von einer Nummer, die die Buchhaltungsperiode identifiziert, z. B. P2 oder Periode 4. Die Buchhaltungsperiode ist relativ zum Geschäftsjahr des aktuellen Arbeitsdatums, das von Ihrem Rollencenter festgelegt wurde. Wenn beispielsweise das Arbeitsdatum **21.03.2020** lautet, dann filtert P1 oder einfach P in der ersten Buchhaltungsperiode des Geschäftsjahres 2020 (wie 01.01.2020..31.01.2020). P15 filtert den Fünfzehnten der Buchhaltungsperiode ab dem Anfang des Geschäftsjahres 2020 (wie 01.03.2021..31.03.2021 ).
 
 Die Buchhaltungsperioden werden auf der Seite **Buchhaltungsperiode** definiert. Um die Buchhaltungsperioden anzuzeigen oder zu ändern, öffnen Sie [hier](https://businesscentral.dynamics.com/?page=100) die Seite.
 
@@ -95,7 +95,7 @@ Weitere Informationen finden Sie unter [Ändern von grundlegenden Einstellungen,
 
 Wenn Sie ein Geschäftsjahr abschließen, können Sie mithilfe des Ultimodatums angeben, dass es sich bei einem Posten um einen Abschlussposten handelt. Technisch gesehen liegt ein Ultimodatum zwischen zwei Datumswerten, beispielsweise zwischen dem 31. Dezember und dem 1. Januar.
 
-Setzen Sie ein `C` vor eine Datumsangabe, um anzugeben, dass es sich bei diesem Datum um ein Ultimodatum handelt, z. B. `C123101`. Dies kann in Verbindung mit allen Datumsmustern verwendet werden.
+Um zu definieren, dass eine Datumsangabe ein Abschlussdatum ist, setzen Sie ein A um anzugeben, dass es sich bei diesem Datum um ein Abschlussdatum handelt, z. B. A31.12.01. Dies kann in Verbindung mit allen Datumsmustern verwendet werden.
 
 ### <a name="examples"></a>Beispiele
 
@@ -103,24 +103,24 @@ Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Format
 
 |**Eingabe**      |**Interpretation**      |
 |---------------|------------------------|
-|`2018.12.31.`|2018.12.31.|
-|`181231`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`20181231`|2018.12.31.|
-|`18/12,31`|2018.12.31.|
-|`11`|Arbeitsdatum Jahr.Arbeitsdatum Monat.11|
-|`1112`|Arbeitsdatum Jahr.11.12.|
-|`t` oder `today`|heutiges Datum|
-|`p4`|Datumsbereich, der die vierte Buchhaltungsperiode enthält, z. B. `04/01/20..04/30/20`|
-|`w` oder `workdate`|das Arbeitsdatum|
-|`m` oder `Monday`|Montag der Woche des Arbeitsdatums|
-|`tu` oder `Tuesday`|Dienstag der Woche des Arbeitsdatums|
-|`sa` oder `Saturday`|Samstag der Woche des Arbeitsdatums|
-|`s` oder `Sunday`|Sonntag der Woche des Arbeitsdatums|
-|`t23`|Dienstag von Woche 23 des Arbeitsjahres|
-|`t 23`|Dienstag von Woche 23 des Arbeitsjahres|
-|`t-1`|Dienstag von Woche 1 des Arbeitsjahres|
+|2018.12.31.|31.12.2018|
+|181231|31.12.2018|
+|18.12.31.|31.12.2018|
+|18.12.31.|31.12.2018|
+|20181231|31.12.2018|
+|18/12,31|31.12.2018|
+|11|11.Arbeitsdatum Monat.Arbeitsdatum Jahr|
+|1112|12.11.Arbeitsdatum Jahr.|
+|"h" für heute|heutiges Datum|
+|p4|Datumsbereich, der die vierte Buchhaltungsperiode enthält, z. B. 01.04.2020..30.04.2020|
+|"a" oder "Arbeitsdatum"|das Arbeitsdatum|
+|"mo" oder "Montag"|Montag der Woche des Arbeitsdatums|
+|"di" oder "Dienstag"|Dienstag der Woche des Arbeitsdatums|
+|sa oder Samstag|Samstag der Woche des Arbeitsdatums|
+|So oder Sonntag|Sonntag der Woche des Arbeitsdatums|
+|d23|Dienstag von Woche 23 des Arbeitsjahres|
+|d 23|Dienstag von Woche 23 des Arbeitsjahres|
+|d-1|Dienstag von Woche 1 des Arbeitsjahres|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Festlegen von Breichen
 
@@ -128,17 +128,17 @@ In Listen, Summen und Berichten können Sie Filter für Datumsangaben, Uhrzeiten
 
 |**Bedeutung**|**Beispielausdruck (Datum)**|**Im Filter enthaltene Daten**|
 |-----------|---------------------|--------------------|
-|Intervall|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Datensätze mit Datumsangaben zwischen und einschließlich dem 15.12.00 und dem 15.01.01.<br /><br />Datensätze mit Datumsangaben vom 12 15 00 oder früher.<br /><br />Datumsbereich, der die zweite, dritte und vierte Buchhaltungsperioden enthält, z. B. `01/01/20..04/30/20`.|
-|Entweder/oder|`12 15 00|12 16 00`|Datensätze mit den Datumsangaben 12 15 00 oder 12 16 00. Wenn es sowohl Datensätze mit Datumsangaben für beide Tage gibt, werden alle angezeigt.|
-|Kombination|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Datensätze mit Datumsangaben vom 15.12.00 oder zwischen dem 01.12.00 und dem 10.12.00 einschließlich.  \nDatensätze mit einem Datum von 14.12.00 oder früher, oder mit einem Datum von 30.12.00 und später, d. h. alle Datensätze außer solchen mit Datumsangaben zwischen dem 15.12.00 und dem 29.12.00 (jeweils einschließlich).|
+|Intervall|12 15 00..01 15 01<br /><br />..12 15 00<br /><br />p1..p4|Datensätze mit Datumsangaben zwischen und einschließlich dem 12 15 00 und dem 01 15 01.<br /><br />Datensätze mit Datumsangaben vom 12 15 00 oder früher.<br /><br />Datumsbereich, der die zweite, dritte und vierte Buchhaltungsperioden enthält, z. B. 01.01.2020..30.04.2020.|
+|Entweder/oder|12 15 00|12 16 00|Datensätze mit den Datumsangaben 12 15 00 oder 12 16 00. Wenn es sowohl Datensätze mit Datumsangaben für beide Tage gibt, werden alle angezeigt.|
+|Kombination|12 15 00|12 01 00..12 10 00  \n..12 14 00|12 30 00..|Datensätze mit Datumsangaben vom 12 15 00 oder zwischen dem 12 01 00 und dem 12 10 00 einschließlich.  \Datensätze mit einem Datum von 14.12. 00:00:00 oder früher, oder mit einem Datum von 30.12. 00:00:00 und später, d. h. alle Datensätze außer solchen mit Datumsangaben zwischen und einschließlich dem 15.12. 00:00:00 und dem 29.12. 00:00:00.|
 
-Sie können jedes der gültigen Formate in den Datumsbereichsfiltern verwenden. Beispielsweise ergibt `mon14 3..t 4p` bei einem Datums-/Zeitangabenfeld einen Filter von 3 Uhr morgens am Montag in der Woche 14 des Jahr des aktuellen Arbeitsdatums bis heute um 4 Uhr nachmittags.
+Sie können jedes der gültigen Formate in den Datumsbereichsfiltern verwenden. Beispielsweise ergibt Mo 14.3..h 4P bei einem Datums-/Zeitangabenfeld einen Filter von 3 Uhr morgens am Montag in der Woche 14 des Jahr des aktuellen Arbeitsdatums bis heute um 4 Uhr nachmittags.
 
 ## <a name="using-date-formulas"></a>Verwenden von Datumsformeln
 Bei einer Datumsformel handelt es sich um eine verkürzte Kombination aus Buchstaben und Zahlen, die zum Berechnen von Datumswerten verwendet wird. Sie können Datumsformeln in verschiedenen Datumsberechnungsfeldern oder -filtern eingeben.
 
 > [!NOTE]
->  In allen Formelfeldern wird automatisch ein Tag aufgenommen, um den heutigen Tag als den Tag abzudecken, an dem die Periode beginnt. Wenn Sie beispielsweise `1W` eingeben, ist der Zeitraum tatsächlich acht Tage, da der aktuelle Tag (heute) eingeschlossen ist. Um eine Periode von sieben Tagen \(tatsächlich eine Woche\) einschließlich des Periodenstartdatums anzugeben, müssen Sie `6D` oder `1W-1D` eingeben.
+>  In allen Formelfeldern wird automatisch ein Tag aufgenommen, um den heutigen Tag als den Tag abzudecken, an dem die Periode beginnt. Wenn Sie beispielsweise 1W eingeben, ist der Zeitraum tatsächlich acht Tage, da der aktuelle Tag (heute) eingeschlossen ist. Um eine Periode von sieben Tagen \(tatsächlich eine Woche\) einschließlich des Periodenstartdatums anzugeben, müssen Sie "6T" oder "1W-1T" eingeben.
 
 Nachfolgend finden Sie einige Verwendungsbeispiele für Datumsformeln:
 
@@ -152,50 +152,50 @@ Die Datumsformel kann maximal 20 Zeichen (Buchstaben und Zahlen) enthalten. Fü
 
 |  Brief  |  Bedeutung  |
 |----------|----------------------|
-|`C`|Aktuell|
-|`D`|Tag\(e\)|
-|`W`|Woche\(n\)|
-|`M`|Monat\(e\)|
-|`Q`|Quartal\(e\)|
-|`Y`|Jahr\(e\)|
+|L|Laufender|
+|T|Tag\(e\)|
+|W|Woche\(n\)|
+|M|Monat\(e\)|
+|Q|Quartal\(e\)|
+|J|Jahr\(e\)|
 
 Datumsformeln können auf drei Arten erstellt werden.
 
-Im folgenden Beispiel wird veranschaulicht, wie Sie `C`, für aktuell und eine Zeiteinheit verwenden.
+Im folgenden Beispiel wird veranschaulicht, wie Sie A, für aktuell und eine Zeiteinheit verwenden.
 
 |  Ausdruck  |  Bedeutung  |
 |--------------|-----------|
-|`CW`|Laufende Woche|
-|`CM`|Laufender Monat|
+|LW|Laufende Woche|
+|LM|Laufender Monat|
 
 Im folgenden Beispiel wird veranschaulicht, wie Sie eine Zahl und eine Zeiteinheit verwenden. Eine Zahl darf nicht größer sein als 9999.
 
 |  Ausdruck  |  Bedeutung  |
 |--------------|-----------|
-|`10D`|10 Tage ab heute|
-|`2W`|2 Wochen ab heute|
+|10T|10 Tage ab heute|
+|2W|2 Wochen ab heute|
 
 Im folgenden Beispiel wird veranschaulicht, wie Sie eine Zeiteinheit und eine Zahl verwenden.
 
 |  Ausdruck  |  Bedeutung  |
 |--------------|-----------|
-|`D10`|Der nächste 10. eines Monats|
-|`WD4`|Der nächste 4. einer Woche \(Donnerstag\)|
+|T10|Der nächste 10. eines Monats|
+|WT4|Der nächste 4. einer Woche \(Donnerstag\)|
 
 Das folgende Beispiel zeigt, wie Sie diese drei Formulare nach Bedarf kombinieren können.
 
 |  Ausdruck  |  Bedeutung  |
 |--------------|-----------|
-|`CM+10D`|Aktueller Monat\+ 10 Tage|
+|LM+10T|Aktueller Monat\+ 10 Tage|
 
 Das folgende Beispiel zeigt, wie Sie ein Minuszeichen verwenden können, um anzugeben, dass es sich um ein Datum in der Vergangenheit handelt.
 
 |  Ausdruck  |  Bedeutung  |
 |--------------|-----------|
-|`-1Y`|Heute vor einem Jahr|
+|-1J|Heute vor einem Jahr|
 
 > [!IMPORTANT]
->  Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit**, entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht `1W` sieben Arbeitstagen.
+>  Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit**, entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht 1W sieben Arbeitstagen.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -294,26 +294,26 @@ In der folgenden Tabelle finden Sie eine Übersicht über die Möglichkeiten zum
 
 |**Eingabe**      |**Interpretation**      |
 |---------------|------------------------|
-|`05:23:17`|05:23:17|
-|`5`|05:00:00|
-|`5AM`|05:00:00|
-|`5P`|17:00:00|
-|`12`|12:00:00|
-|`12A`|00:00:00|
-|`12P`|12:00:00|
-|`17`|17:00:00|
-|`5:30`|05:30:00|
-|`0530`|05:30:00|
-|`5:30:5`|05:30:05|
-|`053005`|05:30:05|
-|`5:30:5,50`|05:30:05,5|
-|`053005050`|05:30:05.05|
+|05:23:17|05:23:17|
+|5|05:00:00|
+|5AM|05:00:00|
+|5P|17:00:00|
+|12|12:00:00|
+|12A|00:00:00|
+|12P|12:00:00|
+|17|17:00:00|
+|5:30|05:30:00|
+|0530|05:30:00|
+|5:30:5|05:30:05|
+|053005|05:30:05|
+|5:30:05:50|05:30:05:50|
+|053005050|05:30:05.05|
 
-Beachten Sie, dass Millisekunden in Dezimalnotation angegeben werden. `3`, `30` und `300` bedeuten beispielsweise alle 300 MilliseDebitoren, während `03` `30` und `003` zum 3 MilliseDebitoren bedeuten.
+Beachten Sie, dass Millisekunden in Dezimalnotation angegeben werden. Beispielsweise bedeuten 3, 30 und 300 Millisekunden während 03 bedeutet 39 und 003 bedeutet 3 Millisekunden.
 
-Sie können `24:00` nicht verwenden, um Mitternacht anzugeben oder einen Wert angeben, der größer als 24:00 ist.
+Sie können 24.00 nicht verwenden, um Mitternacht anzugeben oder einen Wert anzugeben, der größer als 24:00 ist.
 
-Das für Wort für "Zeit" in der Sprache, die von [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verwendet wird, wird in die aktuelle Uhrzeit auf Ihrem Computer oder mobilen Gerät umgerechnet. Sie können vom Anfang einem Teil des Begriffs eingeben, z. B. `t` oder `TIM`.
+Das für Wort für "Zeit" in der Sprache, die von [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verwendet wird, wird in die aktuelle Uhrzeit auf Ihrem Computer oder mobilen Gerät umgerechnet. Sie können vom Anfang einem Teil des Begriffs eingeben, z. B. h oder TIM.
 
 ## <a name="entering-combined-dates-and-times"></a>Eingeben kombinierter Datums- und Zeitangaben
 Wenn Sie Datums-/Uhrzeitangaben eingeben, die aus einem kombinierten Datum und einer Uhrzeit in einem Feld bestehen, müssen Sie ein Leerzeichen zwischen dem Datum und der Uhrzeit eingeben. Der Datumsteil kann nur Stellen in Form von den offiziellen Datumstrennzeichen Ihrer Regionseinstellung enthalten. Die Uhrzeit kann Stellen um die AM/AM-Angabe enthalten.
@@ -324,27 +324,27 @@ Die folgende Tabelle führt einige Beispiele von Datum-/Uhrzeitkombinationen auf
 
 |**Eingabe**      |**Interpretation**      |
 |---------------|------------------------|
-|`08-01-2016 05:48:12 PM`|08\-01\-2016 05:48:12 PM|
-|`131202 132455`|13\-12\-2002 13:24:55|
-|`1-12-02 10`|01\-12\-2002 10:00:00|
-|`1.12.02 5`|01\-12\-2002 05:00:00|
-|`1.12.02`|01\-12\-2002 00:00:00|
-|`11 12`|11\-Arbeitsdatum Monat\-Arbeitsdatum Jahr 12:00:00|
-|`1112 12`|11\-12\-Arbeitsdatum Jahr 12:00:00|
-|`t` oder `today`|heutiges Datum 00:00:00|
-|`t 10:30`|heutiges Datum 10:30:00|
-|`t 3:3:3`|heutiges Datum 03:03:03|
-|`w` oder `workdate`|das Arbeitsdatum 00:00:00|
-|`m` oder `Monday`|Montag der Woche des Arbeitsdatums 00:00:00|
-|`tu` oder `Tuesday`|Dienstag der Woche des Arbeitsdatums 00:00:00|
-|`sa` oder `Saturday`|Samstag der Woche des Arbeitsdatums 00:00:00|
-|`s` oder `Sunday`|Sonntag der Woche des Arbeitsdatums 00:00:00|
-|`tu 10:30`|Dienstag der Woche des Arbeitsdatums 10:30:00|
-|`tu 3:3:3`|Dienstag der Woche des Arbeitsdatums 03:03:03|
-|`t23 t`|Dienstag der Woche 23 des Jahres des Arbeitsdatums, aktuelle Uhrzeit|
-|`t23`|Dienstag von Woche 23 des Arbeitsjahres|
-|`t 23`|Heute 23:00:00|
-|`t-1`|Dienstag von Woche 1 des Arbeitsjahres|
+|08-01-2016 05:48:12 PM|08.01.2016 17:48:12|
+|131202 132455|13.12.2002 13:24:55|
+|1-12-02 10|01.12.2002 10:00:00|
+|1.12.02 5|01.12.2002 05:00:00|
+|1.12.02|01.12.2002 00:00:00|
+|11 12|11.Arbeitsdatum Monat.Arbeitsdatum Jahr 12:00:00|
+|1112 12|11.12.Arbeitsdatum Jahr 12:00:00|
+|h für heute|heutiges Datum 00:00:00|
+|h 10:30:00|heutiges Datum 10:30:00|
+|h 03:03:03|heutiges Datum 03:03:03|
+|"a" oder "Arbeitsdatum"|das Arbeitsdatum 00:00:00|
+|"Mo" oder "Montag"|Montag der Woche des Arbeitsdatums 00:00:00|
+|"di" oder "Dienstag"|Dienstag der Woche des Arbeitsdatums 00:00:00|
+|sa oder Samstag|Samstag der Woche des Arbeitsdatums 00:00:00|
+|So oder Sonntag|Sonntag der Woche des Arbeitsdatums 00:00:00|
+|di 10:30|Dienstag der Woche des Arbeitsdatums 10:30:00|
+|di 3:3:3|Dienstag der Woche des Arbeitsdatums 03:03:03|
+|d23 h|Dienstag der Woche 23 des Jahres des Arbeitsdatums, aktuelle Uhrzeit|
+|d23|Dienstag von Woche 23 des Arbeitsjahres|
+|d 23|Heute 23:00:00|
+|d-1|Dienstag von Woche 1 des Arbeitsjahres|
 
 ## <a name="entering-duration"></a>Eingeben von Terminen
 Einige Felder in der Anwendung stellen eine Dauer oder Betrag der verstrichenen Uhrzeit, anstatt einer bestimmten Datums- oder Uhrzeitangabe dar. Zeiträume können als Zahl gefolgt von der entsprechenden Einheit eingegeben werden.
@@ -353,19 +353,18 @@ Hier folgen einige Beispiele.
 
 |**Termine**|**Einheit**|
 |------------|-------------------|
-|`2h`|2 Stunden|
-|`6h 30 m`|6 Stunden 30 Minuten|
-|`6.5h`|6 Stunden 30 Minuten|
-|`90m`|1 Stunde 30 Minuten|
-|`2d 6h 30m`|2 Tage 6 Stunden 30 Minuten|
-|`2d 6h 30m 56s 600ms`|2 Tage 6 Stunden 30 Minuten 56 SeDebitoren 600 MilliseDebitoren|
+|2 Std.|2 Stunden|
+|6 Std. 30 Min.|6 Stunden 30 Minuten|
+|6,5 Std.|6 Stunden 30 Minuten|
+|90 Min.|1 Stunde 30 Minuten|
+|2 T 6 Std. 30 Min.|2 Tage 6 Stunden 30 Minuten|
+|2 T 6 Std. 30 Min. 56 Sek. 600 Milisek.|2 Tage 6 Stunden 30 Minuten 56 Sekunden 600 Millisekunden|
 
 Sie haben auch die Möglichkeit, eine Zahl einzugeben, die automatisch in einen Zeitraum umgewandelt wird. Die eingegebene Zahl wird entsprechend der Standardeinheit konvertiert, die im Feld "Dauer" definiert ist.
 
 Geben Sie zum Ermitteln der Einheit, die für ein Feld vom Typ "Dauer" verwendet wird, eine Zahl ein. Am Ergebnis können Sie ablesen, in welche Einheit diese konvertiert wird.
 
-Wenn die Maßeinheit beispielsweise Stunden ist, wird die Zahl `5` in 5 h konvertiert.
-
+Wenn die Maßeinheit beispielsweise Stunden ist, wird die Zahl 5 in 5 Std. konvertiert.
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
