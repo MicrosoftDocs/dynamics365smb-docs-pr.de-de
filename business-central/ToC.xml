@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Arbeiten mit Dimensionen" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="So wird's gemacht: neue Budgets erzeugen" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="Vorgehensweise: Transaktionen direkt in die Finanzbuchhaltung buchen" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="So geht's: Buchungen stornieren" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Buchungen stornieren und Belege/Lieferungen rückgängig machen" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="Erklärt, wie Kosten und Einnahmen zugewiesen werden." Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="Vorgehensweise: Verwenden von Artikelzuschlägen für zusätzliche Kosten" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Vorgehensweise: Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen" Page="finance-how-record-reimburse-employee-expenses.html"/>
@@ -315,7 +315,7 @@
     <Node Name="" DisplayName="Vorgehensweise: Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile" Page="production-how-to-register-consumption-and-output.html"/>
     <Node Name="" DisplayName="So wird's gemacht: Verbrauch mit Stapelverarbeitung buchen" Page="production-how-to-post-consumption.html"/>
     <Node Name="" DisplayName="Vorgehensweise: Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen" Page="production-how-to-post-output-quantity.html"/>
-    <Node Name="" DisplayName="Vorgehensweise:  Ausschuss buchen:" Page="production-how-to-post-scrap.html"/>
+    <Node Name="" DisplayName="Vorgehensweise: Ausschuss buchen:" Page="production-how-to-post-scrap.html"/>
     <Node Name="" DisplayName="Vorgehensweise: Anzeigen der Auslastung der Arbeitsplätze und Arbeitsplatzgruppen" Page="production-how-to-view-the-load-on-work-centers.html"/>
     <Node Name="" DisplayName="So wird's gemacht: Kapazitäten buchen" Page="production-how-to-post-capacities.html"/>
     <Node Name="" DisplayName="Info zu Kosten des beendeten FA" Page="finance-about-finished-production-order-costs.html"/>
