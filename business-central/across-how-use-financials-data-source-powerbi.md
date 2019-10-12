@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c86f1c3c40f80ec993d0a3a89154047ddf9e8126
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: b57b87dd8cdc9390ed5b1b7136107639f689c192
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755241"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304996"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>[!INCLUDE [prodlong](includes/prodlong.md)] als Power BI-Datenquelle für das Erstellen von Berichten nutzen
 
@@ -28,10 +28,7 @@ Sie müssen ein gültiges Konto bei [!INCLUDE[prodshort](includes/prodshort.md)]
 1. In Power BI Desktop im linken Navigationsbereich, wählen Sie **Daten abrufen** aus.
 2. Auf der Seite **Daten abrufen** wählen Sie **Onlinedienste** aus, wählen Sie **Microsoft Dynamics 365 Business Central** und dann die Schaltfläche **Verbinden** aus.
 3. Power BI zeigt einen Assistenten an, der Sie durch den Verbindungsvorgang führt. Sie werden aufgefordert, sich beim [!INCLUDE [prodshort](includes/prodshort.md)] anzumelden. Wählen Sie **Anmelden** und wählen Sie das Konto aus, bei dem Sie sich anmelden möchten. Dieses sollte das gleiche Konto sein, bei dem Sie sich bei [!INCLUDE [prodshort](includes/prodshort.md)] anmelden.
-4. Klicken Sie auf die Schaltfläche **Verbinden** zum Fortfahren. Der Power BI-Assistent zeigt eine Liste der Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-Unternehmen und Datenquellen an. Diese Datenquelle ist für alle Webdienste, die Sie von jeder Unternehmung in [!INCLUDE [prodshort](includes/prodshort.md)] veröffentlicht haben.
-
-  ![powerbi_webservices.png](media/across-how-use-financials-data-source-powerbi/powerbi_webservices.png)
-
+4. Klicken Sie auf die Schaltfläche **Verbinden** zum Fortfahren. Der Power BI Assistent zeigt eine Liste der Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)] Umgebungen, Unternehmen und Datenquellen an. Diese Datenquelle ist für alle Webdienste, die Sie von jedem Tenant/Unternehmen in Microsoft [!INCLUDE [prodshort](includes/prodshort.md)] veröffentlicht haben.
 5. Sie können einen neuen Webdienst URL in [!INCLUDE [prodshort](includes/prodshort.md)] erstellen, indem Sie die **Erstellen Dataset** Aktion der Seite **Webdienste** nutzen, indem Sie die unterstütze Hilfe **Bericht einrichten** verwenden oder die Aktion **Bearbeiten in Excel** in einer beliebigen Liste wählen.
 6. Geben Sie die Daten an, die Sie Ihrem Datenmodell hinzufügen möchten, und wählen Sie dann die Schaltfläche **Laden** aus.
 7. Wiederholen Sie die vorherigen Schritte, um zusätzliche [!INCLUDE [prodshort](includes/prodshort.md)] oder andere Daten Ihrem Power BI Datenmodell hinzuzufügen.

@@ -1,6 +1,6 @@
 ---
 title: Tabellenzuordnungen für die Synchronisierung ändern | Microsoft Docs
-description: Erfahren Sie, wie die Tabellenzuordnungen geändert werden, die verwendet werden, wenn Daten zwischen Business Central und Dynamics 365 for Sales synchronisiert werden.
+description: Erfahren Sie, wie die Tabellenzuordnungen geändert werden, die verwendet werden, wenn Daten zwischen Business Central und Dynamics 365 Sales synchronisiert werden.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540200"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308073"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Tabellenzuordnungen für die Synchronisierung ändern
 Eine Integrationstabellenzuordnung verknüpft eine Tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit einer Integrationstabelle für die [!INCLUDE[crm_md](includes/crm_md.md)]-Einheit. Für jede Einheit in [!INCLUDE[crm_md](includes/crm_md.md)], die Sie mit dazugehörenden Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren möchten, muss eine dazugehörende Integrationstabellenzuordnung vorhanden sein. Eine Integrationstabellenzuordnung umfasst eine Reihe von Einstellungen, mit denen Sie steuern können, wie Datensätze in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle und einer [!INCLUDE[crm_md](includes/crm_md.md)]-Einheit von den entsprechenden Integrationssynchronisierungsprojekten synchronisiert werden.  
@@ -33,7 +33,7 @@ Eine Integrationstabellenzuordnung verknüpft eine Tabelle in [!INCLUDE[d365fin]
 ## <a name="creating-new-records"></a>Neue Datensätze erstellen  
  Standardmäßig werden nur Datensätze in [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)], die gekoppelt sind, durch die Integrationssynchronisierungsprojekte synchronisiert. Sie können Tabellenzuordnungen einrichten, sodass für jeden Datensatz am Quellort (z. B. [!INCLUDE[d365fin](includes/d365fin_md.md)]), der nicht bereits gekoppelt ist, neue Datensätze am Zielort (z. B. [!INCLUDE[crm_md](includes/crm_md.md)]) erstellt werden.  
 
- Das Dynamics 365 for Sales-Synchronisierungsprojekt VERKÄUFER verwendet zum Beispiel die Tabellenzuordnung VERKÄUFER. Das Synchronisierungsprojekt kopiert Daten aus Benutzerdatensätzen in [!INCLUDE[crm_md](includes/crm_md.md)] in Verkäuferdatensätze in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wenn Sie die Tabellenzuordnung einrichten, um neue Datensätze zu erstellen, wird für jeden Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)], der nicht bereits an einen Verkäufer in [!INCLUDE[d365fin](includes/d365fin_md.md)] gekoppelt ist, ein neuer Verkäuferdatensatz in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt.  
+ Beispielsweise verwendet der SALESPEOPLE - Dynamics 365 Sales Synchronisierungsauftrag die Tabellenzuordnung VERKÄUFER. Das Synchronisierungsprojekt kopiert Daten aus Benutzerdatensätzen in [!INCLUDE[crm_md](includes/crm_md.md)] in Verkäuferdatensätze in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wenn Sie die Tabellenzuordnung einrichten, um neue Datensätze zu erstellen, wird für jeden Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)], der nicht bereits an einen Verkäufer in [!INCLUDE[d365fin](includes/d365fin_md.md)] gekoppelt ist, ein neuer Verkäuferdatensatz in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt.  
 
 #### <a name="to-create-new-records-during-synchronization"></a>So erstellen Sie neue Datensätze während der Synchronisierung:  
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link aus.
@@ -59,6 +59,6 @@ Wenn Sie die standardmäßige Synchronisierungskonfiguration einrichten, werden 
 3.  Legen Sie das Feld **Int. Vorlagencode Tabellenkonfiguration** auf die Konfigurationsvorlage fest, die für neue Datensätze in [!INCLUDE[crm_md](includes/crm_md.md)] verwendet werden soll.
 
 ## <a name="see-also"></a>Siehe auch  
-[Über das Integrieren von Dynamics 365 Business Central mit Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
-[Business Central und Dynamics 365 for Sales synchronisieren](admin-synchronizing-business-central-and-sales.md)   
+[Über Integration Dynamics 365 Business Central mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
+[Synchronisieren von Business Central und Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

@@ -1,6 +1,6 @@
 ---
 title: Synchronisierung und Datenintegration | Microsoft Docs
-description: Die Synchronisierung kopiert Daten zwischen Dynamics 365 for Sales-Posten und Business Central-Datensätze, um die Daten in beiden Systeme auf dem neuesten Stand zu halten.
+description: Die Synchronisierung kopiert Daten zwischen Dynamics 365 Sales Einträgen und Business Central-Datensätze, um die Daten in beiden Systemen auf dem neuesten Stand zu halten.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: bbc7da12176d2a5c8ab9a2ccc153ea4053d59656
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917460"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304235"
 ---
-# <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synchronisieren von Daten in Business Central und Dynamics 365 for Sales
-Wenn Sie [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)] integrieren, können Sie entscheiden, ob die Daten der ausgewählten Felder von [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensätzen (wie Debitoren, Kontakten und Vertriebsmitarbeitern) mit entsprechenden Datensätzen in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren (beispielsweise Konten, Kontakte und Benutzer). Je nach Art des Datensatzes können Sie Daten von [!INCLUDE[crm_md](includes/crm_md.md)] nach [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren oder umgekehrt. Weitere Informationen finden Sie unter [Integrieren in Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# <a name="synchronizing-data-in-business-central-and-dynamics-365-sales"></a>Synchronisieren von Daten in Business Central und Dynamics 365 Sales
+Wenn Sie [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)] integrieren, können Sie entscheiden, ob die Daten der ausgewählten Felder von [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensätzen (wie Debitoren, Kontakten und Vertriebsmitarbeitern) mit entsprechenden Datensätzen in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren (beispielsweise Konten, Kontakte und Benutzer). Je nach Art des Datensatzes können Sie Daten von [!INCLUDE[crm_md](includes/crm_md.md)] nach [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren oder umgekehrt. Weitere Informationen finden Sie unter [Integrieren in Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Bei der Synchronisierung werden die folgenden Elemente einbezogen:
 
@@ -56,7 +56,7 @@ Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Einheiten in 
 |Verkaufschance|Verkaufschance|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 |Verkaufsrechnungskopf|Fakturieren|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Verkaufsrechnungszeile|Rechnungsprodukt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Verkaufsauftrags-Kopf|Verkaufsauftrag|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]Verkaufskopffilter: **Dokumentart** ist Auftrag. **Status** ist freigegeben|
+|Verkaufsauftrags-Kopf|Verkaufsauftrag|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Verkaufskopffilter: **Dokumentart** ist Auftrag. **Status** ist freigegeben|
 |Hinweise zu Verkaufsaufträgen|Hinweise zu Verkaufsaufträgen|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Tipp für Administratoren: Aufrufen von Einheitenzuordnungen
@@ -77,11 +77,11 @@ Die folgende Tabelle zeigt Zuordnungen der [!INCLUDE[d365fin](includes/d365fin_m
 Die folgende Tabelle beschreibt Regeln, die die Synchronisierung zwischen den Anwendungen steuern.
 
 > [!NOTE]  
-> Ändert an Daten in [!INCLUDE[crm_md](includes/crm_md.md)], die durch das [!INCLUDE[crm_md](includes/crm_md.md)]-Verbindungsbenutzerkonto vorgenommen wurden, werden nicht synchronisiert. Daher empfiehlt es sich, bei der Nutzung dieses Kontos keine Daten zu ändern. Weitere Informationen finden Sie unter [Einrichten des Benutzerkontos für die Integration in Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Ändert an Daten in [!INCLUDE[crm_md](includes/crm_md.md)], die durch das [!INCLUDE[crm_md](includes/crm_md.md)]-Verbindungsbenutzerkonto vorgenommen wurden, werden nicht synchronisiert. Daher empfiehlt es sich, bei der Nutzung dieses Kontos keine Daten zu ändern. Weitere Informationen finden Sie unter [Einrichten des Benutzerkontos für die Integration in Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Tisch|Regel|
 |-----|----|
-|Debitoren|Bevor ein Debitor mit einem Konto synchronisiert werden kann, muss der Verkäufer, der dem Debitor zugewiesen ist, mit einem Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] gekoppelt werden. Wenn Sie den „DEBITOREN – Dynamics 365 for Sales-Synchronisierungsauftrag“ ausführen und wenn Sie es so einrichten, dass neue Datensätze erstellt werden, achten Sie darauf, dass Sie Verkäufer mit [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzern synchronisieren, bevor Sie Debitoren mit [!INCLUDE[crm_md](includes/crm_md.md)]-Konten synchronisieren. <br /> <br />Der „DEBITOREN – Dynamics 365 for Sales-Synchronisierungsauftrag“ synchronisiert nur Sales-Konten, die den Beziehungstyp „Debitor“ haben.|
+|Debitoren|Bevor ein Debitor mit einem Konto synchronisiert werden kann, muss der Verkäufer, der dem Debitor zugewiesen ist, mit einem Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] gekoppelt werden. Wenn Sie den DEBITOREN – Dynamics 365 Sales Synchronisierungsauftrag ausführen und wenn Sie es so einrichten, dass neue Datensätze erstellt werden, achten Sie darauf, dass Sie Verkäufer mit [!INCLUDE[crm_md](includes/crm_md.md)] Benutzern synchronisieren, bevor Sie Debitoren mit [!INCLUDE[crm_md](includes/crm_md.md)] Konten synchronisieren. <br /> <br />Der DEBITOREN - Dynamics 365 Sales Synchronisierungsauftrag synchronisiert nur Sales-Konten, die die Verhältnisart Debitor haben.|
 |Kontakte|Nur Kontakte in [!INCLUDE[crm_md](includes/crm_md.md)], die mit einem Konto verknüpft sind, werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt. Der Verkäufer-Codewert definiert den Besitzer der gekoppelten Einheit in [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Währungen|Währungen werden an Transaktionswährungen in [!INCLUDE[crm_md](includes/crm_md.md)] basierend auf ISO-Codes gekoppelt. Nur Währungen, die einen Standard-ISO-Code haben, werden mit Transaktionswährungen gekoppelt und synchronisiert.|
 |Einheiten|Maßeinheiten werden mit Einheitengruppen in [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Es kann nur eine Einheit in der Einheitengruppe definiert sein.|
@@ -97,4 +97,4 @@ Die folgende Tabelle beschreibt Regeln, die die Synchronisierung zwischen den An
 ## <a name="see-also"></a>Siehe auch  
 [Datensätze manuell koppeln und synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
-[Integrieren in Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+[Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

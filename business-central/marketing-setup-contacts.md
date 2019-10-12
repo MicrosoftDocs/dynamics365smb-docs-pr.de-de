@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8a3cce098b254111b219f94baf1c507d6edbcd23
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242268"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308716"
 ---
 # <a name="set-up-contacts"></a>Kontakte einrichten
 Beim Erstellen von Kontakten können Sie spezifische Informationen wie die Branche, der der Kontakt angehört, oder die Geschäftsbeziehung, die mit den Kontakten besteht, eingeben.
@@ -142,9 +142,9 @@ Wenn Sie eines dieser Felder auf der Kontaktunternehmenskarte ändern, werden di
 Weitere Informationen finden Sie unter [Kontakte erstellen](marketing-create-contact-companies.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Vordefinierte Standards für neue Kontakte nutzen
-Sie können festlegen, dass jedem neuen Kontakt bei seiner Erstellung automatisch ein bestimmter Sprachcode, Gebietscode, Verkäufercode und Länder-/Regionscode als Vorgabe zugeordnet wird. Außerdem können Sie einen Vorgabewert für einen Verkaufsprozesscode eingeben, der jeder neuen Verkaufschance bei ihrer Erstellung zugeordnet wird. Sie können dies auf dem Inforegister **Standard** auf der Seite **Marketingeinrichtung** festlegen.
+Sie können festlegen, dass jedem neuen Kontakt bei seiner Erstellung automatisch ein bestimmter Sprachcode, Gebietscode, Verkäufercode und Länder-/Regionscode als Vorgabe zugeordnet wird. Außerdem können Sie einen Vorgabewert für einen Verkaufsprozesscode eingeben, dem die Anwendung automatisch jede Verkaufschance zuweist, die Sie erstellen. Sie können dies auf dem Inforegister **Standard** auf der Seite **Marketingeinrichtung** festlegen.
 
-Durch die Übernahme von Feldern werden die Vorgabewerte überschrieben, die Sie eingerichtet haben. Wenn Sie z. B. Englisch als Vorgabesprache eingerichtet haben, die Sprache des Kontaktunternehmens jedoch Deutsch ist, wird den Kontaktpersonen dieses Unternehmens automatisch die Sprache Deutsch zugewiesen.
+Durch die Übernahme von Feldern werden die Vorgabewerte überschrieben, die Sie eingerichtet haben. Wenn Sie z. B. Englisch als Vorgabesprache eingerichtet haben, die Sprache des Kontaktunternehmens jedoch Deutsch ist, wird den Kontaktpersonen dieses Unternehmens automatisch die Sprache Deutsch von der Anwendung zugewiesen.
 
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten
 Um die Kontaktkarte mit einer verknüpften Debitoren-, Kreditoren- oder Bankkontokarte zu synchronisieren, müssen Sie das entsprechende Feld im Abschnitt **Geschäftsbeziehungscode für** auf dem Inforegister **Aktivitäten** auf der Seite **Marketingeinrichtung** ausfüllen.  
@@ -152,7 +152,7 @@ Um die Kontaktkarte mit einer verknüpften Debitoren-, Kreditoren- oder Bankkont
 Weitere Informationen finden Sie unter [Kontakte mit Debitoren, Kreditoren und Bankkonten synchronisieren](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Suchen nach doppelten Kontakten
-Sie können einrichten, dass jedes Mal, wenn Sie einen Kontakt erstellen, nach Dubletten gesucht wird oder Sie können dies manuell vornehmen, nachdem Sie Kontakte erstellt haben. Sie können auch einstellen, dass bei jeder Veränderung der Informationen über den Kontakt oder bei seiner Erstellung automatisch die Suchtexte aktualisiert werden. Sie können den Prozentsatz der Übereinstimmung festlegen, d. h., den Prozentsatz der Suchtexte, der zwischen den beiden Kontakten identisch sein muss, damit sie von der Anwendung als Dubletten erkannt werden. Sie können dies auf dem Inforegister **Duplikate** auf der Seite **Marketingeinrichtung** festlegen.
+Sie können einrichten, dass jede Anwendung automatisch nach Dubletten sucht, wenn Sie ein neues Kontaktunternehmen erstellen, oder Sie können dies manuell vornehmen, nachdem Sie die Kontakte erstellt haben. Sie können auch einstellen, dass die Anwendung bei jeder Veränderung der Informationen über den Kontakt oder bei seiner Erstellung automatisch die Suchtexte aktualisiert. Sie können den Prozentsatz der Übereinstimmung festlegen, d. h., den Prozentsatz der Suchtexte, der zwischen den beiden Kontakten identisch sein muss, damit sie von der Anwendung als Dubletten erkannt werden. Sie können dies auf dem Inforegister **Duplikate** auf der Seite **Marketingeinrichtung** festlegen.
 
 Wenn Sie den doppelten Kontakt gefunden haben, können Sie die Seite **Doppelte zusammenführen** verwenden, um sie in einen vorhandenen Kontaktdatensatz zusammenzuführen, den Sie erfassen möchten. Weitere Informationen finden Sie unter [Doppelte Datensätze zusammenführen](sales-how-merge-duplicate-records.md).
 

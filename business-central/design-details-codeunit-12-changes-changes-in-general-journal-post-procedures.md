@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8daa5d57ed2f12daf3f3eef3572b2f7dbd39d92c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f27bb652009c740066dfa0ef3659bb9e53cfb0e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243411"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307348"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Codeunit 12 Änderungen: Änderungen in Fibu Buch.-Blatt-Beitrags-Verfahren
 Die folgenden Änderungen wurden in dieser Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] implementiert.  
@@ -139,19 +139,19 @@ Die folgenden Änderungen wurden in dieser Version von [!INCLUDE[d365fin](includ
 |CheckCalcPmtDiscCVVend||Verschoben zu Codeunit 426 Zahlungstoleranz-Verwaltung|  
 |CheckCalcPmtDiscVend||Verschoben zu Codeunit 426 Zahlungstoleranz-Verwaltung|  
 |CheckCalcPmtDiscGenJnlVend||Verschoben zu Codeunit 426 Zahlungstoleranz-Verwaltung|  
-|Reverse|Reverse|Verschoben zu Codeunit 17 Fibu Buch.-Blatt Storno|  
-|ReverseCustLedgEntry|ReverseCustLedgEntry|Verschoben zu Codeunit 17 Fibu Buch.-Blatt Storno|  
-|ReverseVendLedgEntry|ReverseVendLedgEntry|Verschoben zu Codeunit 17 Fibu Buch.-Blatt Storno|  
-|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Verschoben zu Codeunit 17 Fibu Buch.-Blatt Storno|  
-|ReverseVAT|ReverseVAT|Verschoben zu Codeunit 17 Fibu Buch.-Blatt Storno|  
-|SetReversalDescription|SetReversalDescription|Verschoben zu Codeunit 17 Fibu Buch.-Blatt Storno|  
-|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Verschoben zu Codeunit 17 Fibu Buch.-Blatt Storno|  
-|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Verschoben zu Codeunit 17 Fibu Buch.-Blatt Storno|  
-|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Verschoben zu Codeunit 17 Fibu Buch.-Blatt Storno|  
-||CheckDimComb|Hinzugefügt in Codeunit 17 Fibu Buch.-Blatt Storno|  
-||CopyCustLedgEntry|Hinzugefügt in Codeunit 17 Fibu Buch.-Blatt Storno|  
-||CopyVendLedgEntry|Hinzugefügt in Codeunit 17 Fibu Buch.-Blatt Storno|  
-||CopyBankAccLedgEntry|Hinzugefügt in Codeunit 17 Fibu Buch.-Blatt Storno|  
+|Reverse|Reverse|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ReverseCustLedgEntry|ReverseCustLedgEntry|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ReverseVendLedgEntry|ReverseVendLedgEntry|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ReverseVAT|ReverseVAT|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
+|SetReversalDescription|SetReversalDescription|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
+|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
+|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
+||CheckDimComb|Hinzugefügt in Codeunit 17 Gen. Jnl.-Post Reverse|  
+||CopyCustLedgEntry|Hinzugefügt in Codeunit 17 Gen. Jnl.-Post Reverse|  
+||CopyVendLedgEntry|Hinzugefügt in Codeunit 17 Gen. Jnl.-Post Reverse|  
+||CopyBankAccLedgEntry|Hinzugefügt in Codeunit 17 Gen. Jnl.-Post Reverse|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Aktualisiert|  
 |CollectAddjustment|CollectAdjustment|Aktualisiert|  
 |SetOverDimErr|SetOverDimErr|Aktualisiert|  
@@ -163,7 +163,7 @@ Die folgenden Änderungen wurden in dieser Version von [!INCLUDE[d365fin](includ
 |GetApplnRoundPrecision|GetApplnRoundPrecision|Aktualisiert|  
 |CheckDimValueForDisposal|CheckDimValueForDisposal|Aktualisiert|  
 |CalculateCurrentBalance|CalculateCurrentBalance|Aktualisiert|  
-|IncludeVATAmount||Verschoben zu Tabelle 81 Fibu Buch.-Blattzeile|  
+|IncludeVATAmount||Verschoben zu Tabelle 81 Gen. Buch.-Blattzeile|  
 |CalcVATAmountFromVATEntry|CalcVATAmountFromVATEntry|Aktualisiert|  
 ||TotalVATAmountOnJnlLines|Teil(e) hinzugefügt|  
 ||SetGLRegReverse|Teil(e) hinzugefügt|  

@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/17/2019
-ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.date: 10/01/2019
+ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755969"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313612"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
@@ -43,7 +43,7 @@ Wenn Sie eine Testversion von [!INCLUDE [prodshort](includes/prodshort.md)] verw
 
 ### <a name="blog"></a>Blog
 
-Wir berichten auch über neue Funktionen im [Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), inklusive wann sie zur Verfügung gestellt werden und ob es etwas zu berücksichtigen gibt.  
+Wir berichten auch über neue Funktionen im [Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), inklusive wann sie zur Verfügung gestellt werden und ob es etwas zu berücksichtigen gibt.  
 
 ### <a name="capabilities-coming-soon"></a>Funktionen, die in Kürze verfügbar sind
 
@@ -66,24 +66,24 @@ Stellen Sie sicher, dass Sie die Liste nach eingereichten Vorschlägen durchsuch
 
 ## <a name="troubleshooting"></a>Problembehebung
 
-Der Abschnitt **Problembehebung** zeigt technischen Informationen, die Ihr Administrator oder [!INCLUDE[prodshort](includes/prodshort.md)]-Partner verwenden können, um Benutzern zu helfen. Dies beinhaltet Informationen über die letzte Fehlermeldung, die aktuelle Version von [!INCLUDE[prodshort](includes/prodshort.md)] und einen Link zur Seite **Seitenüberprüfung**. Weitere Informationen finden Sie unter [Seiten in Business Central überprüfen](across-inspect-page.md).  
+Der Abschnitt **Problembehebung** zeigt technischen Informationen, die Ihr Administrator oder [!INCLUDE[prodshort](includes/prodshort.md)]-Partner verwenden können, um Benutzern zu helfen. Dies beinhaltet Informationen über die letzte Fehlermeldung, die aktuelle Version von Ihrem [!INCLUDE[prodshort](includes/prodshort.md)] und einen Link zur Seite **Seitenüberprüfung**. Weitere Informationen finden Sie unter [Seiten in Business Central überprüfen](across-inspect-page.md).  
 
 ## <a name="report-a-problem"></a>Problem melden
 
-Ihr [!INCLUDE[prodshort](includes/prodshort.md)]-Einzelhandelspartner soll Ihnen mit technischem Support helfen. [!INCLUDE[prodshort](includes/prodshort.md)] wird über Partner verkauft und dieser Abschnitt erleichtert Ihnen den Kontakt zu Ihrem wiederverkaufenden Partner, wenn diese Ihre Support-E-Mail-Adresse hinterlegt haben. Wenn Ihr [!INCLUDE[prodshort](includes/prodshort.md)] Partner das jeweilige Problem nicht lösen kann, wir er ein Support-Ticket bei Microsoft eröffnen.  
+Ihr [!INCLUDE[prodshort](includes/prodshort.md)] Einzelhandelspartner soll Ihnen mit technischem Support helfen. [!INCLUDE[prodshort](includes/prodshort.md)] wird über Partner verkauft und dieser Abschnitt erleichtert Ihnen den Kontakt zu Ihrem wiederverkaufenden Partner, wenn diese Ihre Support-Kontaktdaten hinterlegt haben. Wenn Ihr [!INCLUDE[prodshort](includes/prodshort.md)] Partner das jeweilige Problem nicht lösen kann, wir er ein Support-Ticket bei Microsoft eröffnen.  
 
 > [!NOTE]
 > Dieser Abschnitt ist nur verfügbar, wenn Sie für ein [!INCLUDE [prodshort](includes/prodshort.md)]-Abonnement bezahlt haben. Wenn Sie sich für eine Testversion angemeldet haben und [!INCLUDE[prodshort](includes/prodshort.md)] noch nicht gekauft haben, , haben Sie keinen Wiederverkaufspartner und Sie können das Microsoft-Support- Team nicht direkt kontaktieren. Sie finden einen [!INCLUDE[prodshort](includes/prodshort.md)]-Partner auf der Seite [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-### <a name="support-email-address"></a>Support-E-Mail-Adresse
+### <a name="support-contacts"></a>Support-Kontakte
 
-Die E-Mail-Adresse, die im Bereich **Problem melden** angezeigt wird, kann für eine Person oder ein Team sein. Wenn Sie der [!INCLUDE[prodshort](includes/prodshort.md)]-Einzelhandelspartner für einen Tenant sind, können Sie diese E-Mail-Adresse auf der Seite **Supportkontakt-Informationskarte** einrichten. Weitere Informationen finden Sie unter [Konfigurieren des technischen Supports](/dynamics365/business-central/dev-itpro/technical-support) im Entwickler und IT-Profi-Inhalt für [!INCLUDE [prodshort](includes/prodshort.md)].  
+Der Abschnitt **Ein Problem melden** zeigt eine E-Mail-Adresse oder einen Hyperlink an, damit Sie Kontakt mit dem Kundendienst oder Team aufnehmen können. Wenn Sie der [!INCLUDE[prodshort](includes/prodshort.md)]-Einzelhandelspartner für einen Tenant sind, können Sie Ihre bevorzugten Support-Kontaktdaten im Admin Center einrichten. Weitere Informationen finden Sie unter [Konfigurieren der Support-Erfahrung](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) im IT-Profi-Inhalt für [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-Um Ihren Partner über ein Problem zu informieren, wählen Sie den Link. Dadurch wird eine neue E-Mail in Ihrem Standard-E-Mail-Editor geöffnet und Sie können technische Informationen über die Ihren Azure Active Directory-Tenant sowie weitere Informationen hinzufügen, die Sie relevant finden.  
+Um Ihren Partner auf ein Problem aufmerksam zu machen, wählen Sie den Link, um entweder eine E-Mail zu senden oder seine Support-Site in einem neuen Browser-Tab zu öffnen. Sie können dann die technischen Informationen zu Ihrem Azure Active Directory Tenant aus dem **Fehlerbehebung** Abschnitt und alle anderen Informationen, die Sie relevant finden, hinzufügen.  
 
 ## <a name="see-also"></a>Siehe auch
 
 [Blogbeitrag: Die richtige Ressource finden und Feedback geben](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Central-Entwickler und IT-Profi-Dokumente](/dynamics365/business-central/dev-itpro/)  
 [Ressourcen für Hilfe und Support für Partner](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Konfigurieren des technischen Supports](/dynamics365/business-central/dev-itpro/technical-support)  
+[Technischer Support](/dynamics365/business-central/dev-itpro/technical-support)  

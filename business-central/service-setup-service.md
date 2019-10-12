@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b89a0e097dd17ed81b66ed795f3257194311e7b2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1820a94ee5a7d0c89f9e9cbae78fb473e2c9cb2d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250457"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311500"
 ---
 # <a name="setting-up-service-management"></a>Einrichten der Serviceverwaltung
 Bevor Sie mit den Servicemanagement-Funktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] beginnen können, müssen einige Dinge eingerichtet werden. Beispielsweise können Sie Codierung für Standardservices, Symptome und Fehlercodes festlegen und die Serviceartikel und Serviceartikeltypen einrichten, die vom Kundendienst des Unternehmens benötigt werden.  

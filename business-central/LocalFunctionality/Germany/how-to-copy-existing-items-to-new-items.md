@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: ../../inventory-how-copy-items
-ms.openlocfilehash: 1fc6fc9c2b8a49094081447af0b6eac98bf1b033
-ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
+ms.openlocfilehash: fdaf94ffaad20ee5a488d5b8720ce5b55aed1e41
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870518"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301328"
 ---
 # <a name="copy-existing-items-to-new-items"></a>Kopieren vorhandener Artikel in neue Artikel
 Sie können Artikel mit ähnlichen Einstellungen in einem Artikelkatalog gruppieren. Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der Option **Artikel kopieren** einen vorhandenen Artikel als Vorlage für einen neuen Artikel verwenden.  

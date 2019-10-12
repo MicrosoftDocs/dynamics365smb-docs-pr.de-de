@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 514c896c4bee0b5ade8532f8b08dba6b8a7a6657
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b8e4cb09e8b391f9818c9dabbc25d88eeca4aeac
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243871"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303772"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetails: Ausgleich von Bedarf und Vorrat
 Um zu erkennen wie das Planungssystem funktioniert, ist es notwendig, die priorisierten Ziele des Planungssystems zu kennen, von denen die wichtigsten sind, Folgendes sicherzustellen:  
@@ -28,7 +28,7 @@ Um zu erkennen wie das Planungssystem funktioniert, ist es notwendig, die priori
  Im Allgemeinen werden diese Ziele durch den Augleich von Bedarf und Vorrat erzielt.  
 
 ## <a name="demand-and-supply"></a>Bedarf und Vorrat
- Bedarf ist der Oberbegriff, der für jede Art Brutto-Bedarf verwendet wird, beispielsweise für Verkaufsauftrags und Komponentenbedarf aus einem Fertigungsauftrag. Darüber hinaus ermöglicht die Anwendung weitere technische Bedarfsarten, wie z.B. negative Lagerbestände und Einkaufsreklamationen.  
+ Bedarf ist der Oberbegriff, der für jede Art Brutto-Bedarf verwendet wird, beispielsweise für Verkaufsauftrags und Komponentenbedarf aus einem Fertigungsauftrag. Darüber hinaus ermöglicht die Anwendung noch weitere technische Bedarfsarten, wie z.B. negative Lagerbestände und Einkaufsreklamationen.  
 
   Vorrat ist der allgemeine Begriff für jede Art von positiver oder eingehender Menge, wie etwa Bestands-, Einkauf-, Montage-, Fertigungs- oder eingehende Umlagerungen. Darüber hinaus stellt möglicherweise eine Verkaufsreklamation ebenfalls einen Vorrat dar.  
 
@@ -84,10 +84,10 @@ Abgesehen vom Laden von Bedarf- und Vorrattypen werden bestimmte Typen im Hinbli
 ### <a name="item-dimensions-are-separated"></a>Artikeldimensionen sind aufgeteilt  
 Der Beschaffungsplan muss pro Kombination der Artikeldimensionen, wie Variante und Lagerort berechnet werden. Es gibt jedoch keinen Grund, eine theoretische Kombination zu berechnen. Nur jene Kombinationen, die einen Bedarf ausführen und/oder Bedarfsposten müssen berechnet werden.  
 
-Das Planungssystem steuert dies, indem es das Bestandsprofil durchläuft. Wenn eine neue Kombination gefunden wird, erstellt die Anwendung einen internen Steuerdatensatz, der die tatsächlichen Kombinationsinformationen enthält. Das Programm fügt die SKU als Steuerdatensatz oder externe Schleife ein. Als Ergebnis werden die richtigen Planungsparameters entsprechend einer Kombination aus Variante und Lagerort gesetzt, und die Anwendung kann an die inneren Schleife übergehen.  
+Das Planungssystem steuert dies, indem es das Bestandsprofil durchläuft. Wenn eine neue Kombination gefunden wird, erstellt die Anwendung einen internen Steuerdatensatz, der nun die tatsächlichen Kombinationsinformationen enthält. Die Anwendung fügt die SKU als Steuerdatensatz oder externe Schleife ein. Als Ergebnis werden die richtigen Planungsparameters entsprechend einer Kombination aus Variante und Lagerort gesetzt, und die Anwendung kann dann an die inneren Schleife übergehen.  
 
 > [!NOTE]  
->  Das Programm verlangt nicht, dass der Benutzer einen SKU-Datensatz eingibt, wenn ein Bedarf und/oder ein Vorrat für eine bestimmte Kombination von Variante und Lagerort eingegeben wird. Wenn Lagerhaltungsdaten für eine angegebene Kombination nicht vorhanden sind, erstellt die Anwendung einen eigenen temporären Lagerhaltungsdatendatensatz basierend auf den Artikelkartendaten. Wenn „Lagerort erforderlich“ in der Bestandseinrichtungsseite auf „Ja“ gesetzt ist, muss entweder eine SKU erstellt werden, oder „Komponenten am Lagerort“ muss auf „Ja“ gesetzt werden. Weitere Informationen finden Sie unter [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
+>  Die Anwendung verlangt nicht, dass der Benutzer einen SKU-Datensatz eingibt, wenn ein Bedarf und/oder ein Vorrat für eine bestimmte Kombination von Variante und Lagerort eingegeben wird. Wenn die Lagerhaltungsdaten für eine angegebene Kombination nicht vorhanden sind, erstellt die Anwendung einen eigenen temporären Lagerhaltungsdatendatensatz basierend auf den Artikelkartendaten. Wenn „Lagerort erforderlich“ in der Bestandseinrichtungsseite auf „Ja“ gesetzt ist, muss entweder eine SKU erstellt werden, oder „Komponenten am Lagerort“ muss auf „Ja“ gesetzt werden. Weitere Informationen finden Sie unter [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
 
 ### <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serien-/Chargennummern werden durch die Spezifikations-Ebene geladen  
 Attribute in Form von Serien-/Chargennummern werden in die Bestandsprofile zusammen mit dem Bedarf und dem Vorrat geladen, denen sie zugeordnet sind.  
@@ -119,7 +119,7 @@ Dieser Ausgleich beeinflusst auch die zeitliche Steuerung. Der begrenzte Zeitrau
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Der Komponentenbedarf wird gemäß den Fertigungsauftragsänderungen geladen  
 Wenn es Fertigungsaufträge bearbeitet, muss das Planungssystem die benötigten Komponenten überwachen, bevor es sie in das Anforderungsprofil lädt. Komponentenzeilen, die aus einem ergänzten Fertigungsauftrag resultieren, ersetzen die des ursprünglichen Auftrags. Dadurch ist sichergestellt, dass das Planungssystem festlegt, dass Planungszeilen für Komponentenbedarf nicht dupliziert werden.  
 
-###  <a name="BKMK_SafetyStockMayBeConsumed"></a>Sicherheitsbestand kann verbraucht werden  
+###  <a name="BKMK_SafetyStockMayBeConsumed"></a> Sicherheitsbestand kann verbraucht werden  
 Der Sicherheitsbestand ist hauptsächlich ein Bedarfstyp und wird daher am Planungsstartdatum in das Bestandsprofil geladen.  
 
 Der Sicherheitsbestand ist eine Bestandsmenge, die beiseite gelegt wird, um Ungewissheiten beim Bedarf während der Beschaffungszeit zu kompensieren. Jedoch kann er verbraucht werden, wenn es erforderlich ist, ihn zur Deckung eines Bedarfs zu verwenden. In diesem Fall wird durch das Planungssystem sichergestellt, dass der Sicherheitsbestand schnell ersetzt wird, indem am Datum des Verbrauchs ein Ausnahmebeschaffungsauftrag zum Auffüllen des Sicherheitsbestands vorgeschlagen wird. In dieser Planungszeile wird das Symbol für eine Ausnahmewarnung angezeigt, durch das der Planer darauf aufmerksam gemacht wird, dass der Sicherheitsbestand teilweise oder vollständig aufgrund eines Ausnahmeauftrags für die Fehlteile verbraucht wurde.  
@@ -265,7 +265,7 @@ Hierfür gibt es zwei Gründe:
 
 Im Laufe der Zeit geraten dynamische Bedarfsverursacherverknüpfungen aus der Balance, da das gesamte Bedarfsverursachernetzwerk erst dann wiederhergestellt wird, wenn ein Bedarf- oder Vorratsereignis tatsächlich geschlossen ist.  
 
-Vor dem Ausgleich des Vorrats nach Bedarf löscht das Programm alle vorhandenen Auftragsnachverfolgungslinks. Dann während des Ausgleichsvorgangs, wenn ein Bedarfs- oder Zubehörereignis abgeschlossen wird, werden neue Bedarfsverursacherverknüpfungen zwischen Bedarf und Angebot erstellt.  
+Vor dem Ausgleich des Vorrats nach Bedarf löscht die Anwendung alle vorhandenen Auftragsnachverfolgungslinks. Dann während des Ausgleichsvorgangs, wenn ein Bedarfs- oder Zubehörereignis abgeschlossen wird, werden neue Bedarfsverursacherverknüpfungen zwischen Bedarf und Angebot erstellt.  
 
 > [!NOTE]  
 >  Selbst wenn der Artikel nicht für die dynamische Auftragsnachverfolgung eingerichtet wurde, erstellt das Planungssystem Auftragsverfolgungslinks wie oben erläutert.

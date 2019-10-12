@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: d94f1bb2fe45263f013119954622b995e902b30f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1ad6b8333e13c01a1ed97ebdd9553f0e7fb31297
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244279"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309820"
 ---
 # <a name="set-up-locations"></a>Einrichten von Lagerorten
 Wenn Sie Artikel a mehr als einem Ort oder Lagerort kaufen, lagern oder verkaufen, müssen Sie jeden Lagerplatz mit einer Lagerortkarte einrichten und Umlagerungsrouten definieren.
@@ -45,5 +45,5 @@ Sie können jetzt die Lagerartikel zwischen zwei Lagerplätzen umlagern. Weitere
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)    
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)  
+[Funktionen, die angezeigt werden ändern](ui-experiences.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

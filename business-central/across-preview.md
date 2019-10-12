@@ -6,16 +6,16 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 95301c0d8473adf923b4c5ed81bec9e873fad8df
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: adbfad70678d1244a3760b4427a8db422a06799a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241569"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304900"
 ---
-# <a name="included365finlongincludesd365finlongmdmd-trials-and-previews"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Testversionen und Vorschauen
+# <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-previews"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Testversionen und Vorschauen
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist in einer zunehmenden Anzahl von Ländern weltweit verfügbar. Wenn Sie etwas über [!INCLUDE [prodshort](includes/prodshort.md)] erfahren möchten, können Sie sich für eine kostenlose Testversion registrieren, und wenn Sie ein Partner sind, können Sie Vorschauen mithilfe von Sandkästne erstellen. Sie können diese dann für potenzielle Interessenten und Kunden freigeben.  
 

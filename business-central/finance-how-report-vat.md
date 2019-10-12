@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446991"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306228"
 ---
 # <a name="report-vat-to-a-tax-authority"></a>MwSt. an die Steuerbehörden melden
 Dieses Thema beschreibt die Berichte in [!INCLUDE[d365fin](includes/d365fin_md.md)], die Sie verwenden können, um MwSt.-Informationen über Einkäufe und Verkäufe an die Steuerbehörden in Ihrer Region zu senden.
@@ -61,7 +61,7 @@ Um MwSt an eine Steuerbehörden zu übermitteln, müssen Sie den [!INCLUDE[d365f
     > [!NOTE]  
     >   Es ist empfehlenswert, die Verbindung zu testen. Um dies zu tun, aktivieren Sie das Kontrollkästchen **Testmodus**, bereiten den MwSt.-Bericht vor und senden ihn wie im Abschnitt _Vorbereiten und Übermitteln eines MwSt.-Berichts_ beschrieben. Im Testmodus testet der Dienst, ob die Steuerbehörden den Bericht erhalten, und der Status des Berichts gibt an, ob die Testübermittlung erfolgreich war. Denken Sie daran, dass dies keine tatsächliche Datenübermittlung ist. Um den tatsächlichen Bericht zu senden, müssen Sie das Feld **Testmodus** deaktivieren und dann den Übermittlungsvorgang wiederholen.
 
-## <a name="to-set-up-vat-reports-in-included365finincludesd365finmdmd"></a>Einrichten von MwSt.-Berichten in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Einrichten von MwSt.-Berichten in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **MwSt Bericht einrichten** ein, und wählen dann den zugehörigen Link aus.  
 2. Wenn Sie Benutzer diesen Bericht ändern und erneut senden lassen möchten, wählen Sie das Kontrollkästchen **Übermittelte Berichte ändern**.  
 3. Wählen Sie die Nummernserie für jeden Bericht.  

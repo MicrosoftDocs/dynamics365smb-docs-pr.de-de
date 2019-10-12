@@ -4,20 +4,21 @@ description: Bevor Sie mit Inventurbelegen und Inventurerfassungen arbeiten kön
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 58e002973529843f0c99c5c6ded1f00355861e68
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: ../../inventory-how-count-inventory-with-documents
+ms.openlocfilehash: 2d81639f57939d6695dd87fcb3347e1d4a5b934a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246812"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301316"
 ---
 # <a name="set-up-physical-inventory-documents"></a>Inventurbelege einrichten
 Bevor Sie mit Inventurbelegen und Inventurerfassungen arbeiten können, müssen einige Eigenschaften eingerichtet werden.  

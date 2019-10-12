@@ -5,16 +5,16 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/23/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54536e29fea7e5bab676647753954237ec8c37aa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "1238716"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300342"
 ---
-# <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Erste Schritte mit [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="get-started-with-include-d365acc_longincludesd365acc_long_mdmd"></a>Erste Schritte mit [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen. Einige Unternehmen verwenden einen externen Buchhalter, und andere haben einen Buchhalter als Mitarbeiter. Wenn Sie ein Buchhalter mit mehreren Clients sind, können Sie das [!INCLUDE [d365acc](includes/d365acc_md.md)] als Ihr Dashboard für einen besseren Überblick über Ihre Clients verwenden.  

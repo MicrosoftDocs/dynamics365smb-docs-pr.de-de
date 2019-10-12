@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bd37d6f2364ec1466e7d3d8769da13761587f1d8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f59383bc5c16ece42f1bd2d7e2eb6a2ca2c9b6c8
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251653"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311548"
 ---
 # <a name="service-management"></a>Service
 > [!NOTE]
-> Die Funktionalität, die in diesem Thema und in Vorthemen beschrieben, handelt in der Benutzeroberfläche nur angezeigt, wenn Sie die **Premium** haben. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
+> Die Funktionalität, die in diesem Thema und in Vorthemen beschrieben, handelt in der Benutzeroberfläche nur angezeigt, wenn Sie die **Premium** haben. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 
 Debitoren einen zuverlässigen Service zu bieten, ist ein wesentlicher Bestandteil der Arbeit jedes Unternehmens und eine Grundlage für Debitorenzufriedenheit und Loyalität, zusätzlich zu den Einnahmen. Die Planung und Steuerung des Service ist jedoch nicht immer einfach. Daher bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Reihe von Tools zur Vereinfachung dieser Maßnahmen. Diese Tools dienen zur Unterstützung der Abläufe in Werkstatt und Außendienst und können in Geschäftsszenarien wie komplexen Debitorendienst- vertriebssystemen, Industrieserviceumgebungen mit Stücklisten und beim umfassenden Einsatz von Servicetechnikern mit Anforderungen für Ersatzteilmanagement verwendet werden.  
 

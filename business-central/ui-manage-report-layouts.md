@@ -3,21 +3,21 @@ title: Arbeiten mit benutzerdefinierten und integrierten Layouts für Berichte u
 description: Verwenden Sie Berichtslayouts, um Belege anzupassen beispielsweise um die gewünschten Schriftart, das Logo oder die Seiteneinstellungen von PDF-Dateien zu personalisieren, die Sie den Debitoren senden.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 05/22/2019
-ms.author: solsen
-ms.openlocfilehash: e00ca327748ac84dc39e5de73c4bcaae97f26105
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594287"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315156"
 ---
 # <a name="managing-report-and-document-layouts"></a>Verwaltung von Berichts- und Beleg-Layouts
 Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr. Von [!INCLUDE[d365fin](includes/d365fin_md.md)] aus können Sie ändern, welches Layout in einem Bericht verwendet wird, ein neues Layout erstellen oder vorhandene Layouts ändern.
@@ -56,7 +56,7 @@ Die allgemeinen Entwurfskonzepte für Word- und RDLC-Layouts sind sehr ähnlich.
 
 Der Prozess für die Einrichtung von Word-Berichtslayouts und RDLC-Berichtslayouts in Berichten ist derselbe. Der wichtigste Unterschied besteht in der Art, wie die Sie die Layouts ändern. Word-Berichtslayouts sind in der Regel einfacher als RDLC-Berichtslayouts zu erstellen und zu ändern, da Sie Word bereits kennen. RDLC-Berichtslayouts werden geändert, indem Sie den SQL Server-Bericht-Generator verwenden, der für fortgeschrittene Benutzer entwickelt wurde.
 
-Weitere Informationen darüber, wie das Layout, das verwendet wird, geändert werden kann, finden Sie unter [Ändern, welches Layout zur Zeit in einem Bericht verwendet wird](ui-how-change-layout-currently-used-report.md).
+Weitere Informationen darüber, wie das Layout, das verwendet wird, geändert werden kann, finden Sie unter [Aktuelles Berichtslayout ändern](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Verwaltung von Berichts- und Beleg-Layouts](ui-update-report-layouts.md)  
@@ -64,4 +64,4 @@ Weitere Informationen darüber, wie das Layout, das verwendet wird, geändert we
 [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)  
 [Importieren und Exportieren von einem benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-import-and-export-report-layout.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
-[Arbeiten mit Berichten und Stapelverarbeitungen](ui-work-report.md)  
+[Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)  

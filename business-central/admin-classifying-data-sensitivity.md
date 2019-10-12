@@ -4,17 +4,16 @@ description: Sie müssen festlegen, welche Art von Daten Sie über Mitarbeiter s
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
-ms.date: 03/09/2018
 ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.service: dynamics365-business-central
 ms.topic: article
-ms.openlocfilehash: b104f3f4a90c9db08b113f861c6e2b3f93f639c7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.openlocfilehash: f2b5e3ded5c89f241d0c49ee8c6f9d196c6bae43
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239360"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308212"
 ---
 # <a name="classifying-data-sensitivity"></a>Datensensitivität klassieren
 Um die Felder zu klassifizieren, die vertrauliche oder Personendaten enthalten, kann ein Microsoft Partner die Eigenschaft ```DataClassification``` auf Felder setzen. Dazu müssen Zugriff auf die Datenbanktabellen haben, entweder über die Entwicklungsumgebung oder indem ein Windows PowerShell-Skript ausgeführt wird. Weitere Informationen finden Sie unter [Daten klassieren](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  

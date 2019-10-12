@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c09eedbb812df909a43e514dc462dcf8c1cf182a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249307"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314844"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata
 In dieser exemplarischen Vorgehensweise wird beschrieben, wie Sie mit Kontenschemata arbeiten können, um Cashflowplanungen zu erstellen. Kontenschemata führen Berechnungen aus, die nicht direkt im Kontenplan für Cashflowkonten vorgenommen werden können. In Kontenschemata können Sie Zwischensummen für Cashflow-Auftragseingänge und -Auszahlungen einrichten. Diese Zwischensummen können in neue Summen einbezogen werden, die dann für Cashflowplanungen verwendet werden können.  
@@ -67,10 +67,11 @@ Nachdem ein Kontenschemaname eingerichtet wurde, definiert Ken jede Zeile, die i
     > [!NOTE]  
     >  Mithilfe der Funktion **CF-Konten einfügen** können Sie die Cashflowkonten aus dem Kontenplan für Cashflowkontos schnell markieren und sie in Kontenschemazeilen kopieren.  
 
-    |Zeilennr.|Beschreibung|Total Art|Total|Zeile Art|Begtrag Art|Anzeigen|  
-    |-------|-----------|-------------|--------|--------|---  ------|----| |C10|Betrag|Nettoveränderung|Einträge|Nettobetrag|Immer|  
-    |C20|Betrag bis|Saldo am Datum|Einträge|Nettobetrag|Immer|  
-    |C30|Gesamtes Finanzjahr|Gesamtes Finanzjahr|Einträge|Nettobetrg|Immer|  
+    |Rubrikennr.|Beschreibung|Zusammenzählungsart|Zusammenzählung|Zeilenart|Betragsart|Anzeigen|  
+    |-------|-----------|-------------|--------|--------|-----------|----|
+    |C10|Betrag|Bewegung|Posten|Nettobetrag|Immer|  
+    |C20|Betrag bis Datum|Saldo bis Datum|Posten|Nettobetrag|Immer|  
+    |C30|Gesamtes Geschäftsjahr|Gesamtes Geschäftsjahr|Posten|Nettobetrag|Immer|  
 
 4.  Wählen Sie die Schaltfläche **OK** aus.  
 

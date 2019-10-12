@@ -1,6 +1,6 @@
 ---
 title: Vorgehensweise beim Berechnen der verfügbaren Menge für einen Inventurauftrag
-description: Nachdem Sie den Inventurauftrag erstellt und die Inventurauftragszeilen eingegeben haben, müssen Sie vom Programm das Feld „Erwartete Menge (Basis)” für die einzelnen Inventurauftragszeilen berechnen lassen.
+description: Nachdem Sie den Inventurauftrag erstellt und die Inventurauftragszeilen eingegeben haben, müssen Sie von der Anwendung das Feld „Erwartete Menge (Basis)” für die einzelnen Inventurauftragszeilen berechnen lassen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: ../../inventory-how-count-inventory-with-documents
-ms.openlocfilehash: 84cd8bd9e40351b9f99efc4b0e82c0b905706782
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c434fbe2e97adbb6d9c05333526bae99b5bc9143
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241863"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300190"
 ---
 # <a name="calculate-quantity-on-hand-for-a-physical-inventory-order"></a>Berechnen der verfügbaren Menge für einen Inventurauftrag
-Nachdem Sie den Inventurauftrag erstellt und die Inventurauftragszeilen eingegeben haben, müssen Sie vom Programm das Feld „Erwartete Menge (Basis)” für die einzelnen Inventurauftragszeilen berechnen lassen.  
+Nachdem Sie den Inventurauftrag erstellt und die Inventurauftragszeilen eingegeben haben, müssen Sie von der Anwendung das Feld „Erwartete Menge (Basis)” für die einzelnen Inventurauftragszeilen berechnen lassen.  
 
 Wenn die Erstellung dieser Inventurauftragszeilen von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatisch durchgeführt wurde, konnten Sie auf der Anforderungsseite für die Stapelverarbeitung festlegen, ob die erwartete Menge berechnet werden soll. Wenn Sie die Inventurauftragszeilen manuell erstellt oder zwischenzeitlich geändert haben, müssen Sie die erwarteten Mengen manuell berechnen. Sie können Mengen auf zwei Arten berechnen, wie im folgenden Abschnitt erläutert.  
 

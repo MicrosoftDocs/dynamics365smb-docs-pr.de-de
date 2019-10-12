@@ -8,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: upload, attach, attachments
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: ui-how-add-link-to-record
+ms.openlocfilehash: 2b5ed5ade59e2cf3b8832da088d79adfba4ad7fa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240884"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300676"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Anfügen von Dateien zu den Karten und den Belegen
 Fügen Sie Bilder, Dokumente und andere Arten von Dateien an alle Karten, wie der Artikelkarte und der Projektkarte, an, und fügen Sie Dateien an alle Arten von Einkaufs- und Verkaufsbelegen an.
 
 > [!Note]
-> Im Allgemeinen ist die maximale Dateigröße für Anhänge 150 MB. Jedoch kann die Grenze bei manchen Funktionen darunter liegen. 
+> Im Allgemeinen ist die maximale Dateigröße für Anhänge 150 MB. Jedoch kann die Grenze bei manchen Funktionen darunter liegen.
 
 ## <a name="to-attach-a-file-to-a-sales-order"></a>So fügen Sie eine Datei einem Verkaufsauftrag an
 Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind für alle anderen Einkaufs- und Verkaufsbelege und für alle Karten ähnlich.

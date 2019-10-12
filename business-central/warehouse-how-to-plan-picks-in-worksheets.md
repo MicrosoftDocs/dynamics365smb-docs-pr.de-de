@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0bf6da083b69d76c3f2ad75e8fb9b9d6bfdc5d9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b3f3cf5befb5bcca602b67cdc1f6de6d50ddd320
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248525"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313952"
 ---
 # <a name="plan-picks-in-worksheets"></a>Kommissionierungen im Vorschlag bearbeiten
 Wenn Ihr Lager so eingerichtet wurde, dass die Bearbeitung der Kommissionierung sowie des Warenausgangs erforderlich sind, können Sie für das Lager festlegen, dass die Zeilen in Warenausgangsbelegen nicht automatisch in Kommissionieranweisungen umgewandelt, sondern stattdessen für den Kommissioniervorschlag verfügbar gemacht werden.  
@@ -25,7 +25,7 @@ Wenn Ihr Lager so eingerichtet wurde, dass die Bearbeitung der Kommissionierung 
 > [!NOTE]  
 >  Wenn bereits Kommissionieranweisungen erstellt wurden und Sie diese zu einer effizienten Kommissionieranweisung kombinieren möchten, müssen Sie die einzelnen Kommissionierungen löschen. Die Zeilen, die kommissioniert werden sollen, können jetzt im Vorschlag aufgelistet werden.  
 
-Im Kommissioniervorschlag können Sie Kommissionierlisten für Mitarbeiter einrichten, die die Zeit minimieren, die die Mitarbeiter für das Bewegen der Artikel aufwenden müssen. Es gibt Felder, die Informationen über die Artikelmengen enthalten, die in den Zuordnungslagerplätzen verfügbar sind. Dies ist in Zuordnungssituationen nützlich, um die Arbeit zuzuweisen, da die Anwendung immer die Kommissionierung von einem Zuordnungslagerplatz vor allen anderen Lagerplätzen vorschlägt, unabhängig von der Einheit. Die Zeilen im Vorschlag können aus einer Reihe von Herkunftsbelegen stammen und nach Artikel, Regalnummer, Herkunftsbeleg, Fälligkeitsdatum oder Lieferadresse sortiert sein.  
+Im Kommissioniervorschlag können Sie Kommissionierlisten für Mitarbeiter einrichten, die die Zeit minimieren, die die Mitarbeiter für das Bewegen der Artikel aufwenden müssen. Es gibt Felder, die Informationen über die Artikelmengen enthalten, die in den Zuordnungslagerplätzen verfügbar sind. Dies ist in Zuordnungssituationen nützlich, um die Arbeit zuzuweisen, da die Anwendung immer die Kommissionierung von einem Zuordnungslagerplatz vor allen anderen Lagerplätzen vorschlägt, und zwar unabhängig von der Einheit. Die Zeilen im Vorschlag können aus einer Reihe von Herkunftsbelegen stammen und nach Artikel, Regalnummer, Herkunftsbeleg, Fälligkeitsdatum oder Lieferadresse sortiert sein.  
 
 Wenn Sie nach Fälligkeitsdatum sortieren, können Sie wählen, alle Zeilen aus dem Vorschlag zu löschen, außer denen, die sofort beachtet werden müssen. Die weniger dringenden Zeilen werden nicht wirklich gelöscht, sondern nur in den **Kommissioniervorschlag** zurückgeschickt. Wenn Sie die Kommissionierung erzeugen, wurden die Zeilen bereits nach Fälligkeitsdatum sortiert und Sie können die Kommissionierung einem bestimmten Mitarbeiter zuordnen.  
 

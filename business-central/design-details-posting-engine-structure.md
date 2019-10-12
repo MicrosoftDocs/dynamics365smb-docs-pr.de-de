@@ -4,20 +4,20 @@ description: Buchungsschnittstelle und verschiedene andere Funktionen in Codeuni
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 76d59049191f91131df014771ef8546326a51439
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b4bc639675591bb91ad2fa4e56f4e3ed88fed975
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238693"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303076"
 ---
 # <a name="design-details-posting-engine-structure"></a>Designdetails: Buchungs-Modul-Struktur
 Buchungsschnittstelle und verschiedene andere Funktionen in Codeunit 12 verwenden Buchungsmodulfunktionen, um Sachposten und MwSt.-Posten-Datensätze vorzubereiten und einzufügen. Das Buchungsmodul ist auch für Sachpostenjournalerstellung zuständig.  
@@ -29,7 +29,7 @@ Buchungsschnittstelle und verschiedene andere Funktionen in Codeunit 12 verwende
 |StartPosting|Initialisiert Buchungspuffer TempGLEntryBuf, sperrt Sachposten- und MwSt.-Posten-Tabellen und initialisiert Buchhaltungsperiode, Sachpostenjournal und Wechselkurs. Sollte nur einmal aufgerufen werden, dann ist NextEntryNo 0.|  
 |ContinuePosting|Prüft und bucht nicht realisierte MwSt. für vorheriges Transaktioninkrement NextTransactionNo und bereitet das Buchen der nächsten Zeile vor.|  
 |FinishPosting|Vervollständigt die Buchung durch das Einfügen von Sachposten vom temporären Puffer in Datenbanktabelle. Immer zusammen mit StartPosting verwendet. Prüft auf Inkonsistenzen.|  
-|InitGLEntry|Wird verwendet, um die neuen Sachposten für Fibu Buch.-Blattzeile zu initialisieren. Gibt GLEntry als Parameter zurück.|  
+|InitGLEntry|Wird verwendet, um die neuen Sachposten für Gen initialisieren. Buch.-Blattzeile. Gibt GLEntry als Parameter zurück.|  
 |InitGLEntryVAT|Dasselbe wie InitGLEntry, weist jedoch auch Gegenkontonr. und SummarizeVAT zu.|  
 |InitGLEntryVATCopy|Entsprechend InitGLEntryVAT, aber kopiert auch Buchungsgruppendaten aus dem MwSt.-Posten vor SummarizeVAT.|  
 |InsertGLEntry|Die einzige Funktion, die Sachposten in globale TempGLEntryBuf-Tabelle eingefügt. Verwenden Sie immer diese Funktion für Einfügung.|  

@@ -9,22 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000763"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315588"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] bietet mehrere Möglichkeiten, Datumsangaben und Uhrzeiten einzugeben, einschließlich leistungsstarker Funktionen, die die Dateneingabe beschleunigen oder Ihnen helfen, komplexe Kalenderausdrücke zu schreiben. Es gibt verschiedene Bereiche in der Anwendung, in denen Sie Daten und Uhrzeiten in die Felder eingeben können. So können Sie beispielsweise das Warenausgangsdatum für einen Auftrag festlegen. Wenn Sie Listen oder Berichtsdaten filtern, können Sie Datumswerten und Uhrzeiten eingeben, um genau die Daten zu finden, an denen Sie interessiert sind.
 
 ## <a name="check-your-region-and-language-settings"></a>Überprüfen Ihrer Bereichs- und Spracheneinstellungen
-
-Die Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Direkt zur Benutzereinstellungsseite in Business Central zurückkehren") gibt die **Region** und die **Sprache** an, die Sie in der Anwendung verwenden. Diese Einstellungen beeinflussen, wie Sie Datumswerte und Uhrzeiten eingeben.
+Die Seite **Meine Einstellungen** gibt die **Region** und **Sprache** an, die Sie in der Anwendung verwenden. Diese Einstellungen beeinflussen, wie Sie Datumswerte und Uhrzeiten eingeben.
 
 -   Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.
 
@@ -51,7 +50,7 @@ Alle Felder, die ein Kalendersymbol anzeigen, können mithilfe der Kalendertagau
 
 ![Datumsfelder](media/ui-date-field.png "Beispiel eines Datumsfeldes")
 
-Weitere Informationen unter [Tastenkombinationen in der Kalenderdatumsauswahl](keyboard-shortcuts.md#calendarshortcuts)
+Weitere Informationen unter [Tastenkombinationen in der Kalenderdatumsauswahl](keyboard-shortcuts.md#calendarshortcuts).
 
 ### <a name="day-week-year-pattern"></a>Tag\-Woche\-Jahr-Muster
 
@@ -85,11 +84,11 @@ Die Buchhaltungsperioden werden auf der Seite **Buchhaltungsperiode** definiert.
 
 Die Arbeitsdatumsfunktion ermöglicht es Ihnen Übergänge mithilfe eines Datums aufzuzeichnen, das sich vom aktuellen Datum unterscheidet.
 
-Das für Wort "Arbeitsdatum" in der Sprache, die in der **Spracheinstellung** festgelegt ist, legt das Datum auf das aktuell festgelegte Arbeitsdatum fest, das auf der Seite [**Meine Einstellungen**](https://businesscentral.dynamics.com?page=9176 "Direkt zur Benutzereinstellungsseite in Business Central") angegeben ist. Anstatt das gesamte Wort einzugeben, können Sie vom Anfang an einen Teil des Begriffs eingeben, z. B. 'A' oder 'Arbeit'.
+Das für Wort "Arbeitsdatum" in der Sprache, die in der Einstellung **Sprache** festgelegt ist, legt das Datum auf das aktuell festgelegte Arbeitsdatum fest, das auf der Seite **Meine Einstellungen** definiert ist. Anstatt das gesamte Wort einzugeben, können Sie vom Anfang an einen Teil des Begriffs eingeben, z. B. 'A' oder 'Arbeit'.
 
 Wenn Sie kein Arbeitsdatum definiert haben, wird das aktuelle Datum als Arbeitsdatum verwendet. Die Verwendung des Arbeitsdatums ist hilfreich, wenn eine Vielzahl von Transaktionen zu einem Datum ausgeführt werden müssen, das vom Systemdatum abweicht.
 
-Weitere Informationen finden Sie unter [Ändern von grundlegenden Einstellungen, wie dem Arbeitsdatum](ui-change-basic-settings.md#work-date).
+Weitere Informationen finden Sie unter [Ändern von grundlegenden Einstellungen, wie Arbeitsdatum](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Ultimodatum
 
@@ -129,8 +128,8 @@ In Listen, Summen und Berichten können Sie Filter für Datumsangaben, Uhrzeiten
 |**Bedeutung**|**Beispielausdruck (Datum)**|**Im Filter enthaltene Daten**|
 |-----------|---------------------|--------------------|
 |Intervall|12 15 00..01 15 01<br /><br />..12 15 00<br /><br />p1..p4|Datensätze mit Datumsangaben zwischen und einschließlich dem 12 15 00 und dem 01 15 01.<br /><br />Datensätze mit Datumsangaben vom 12 15 00 oder früher.<br /><br />Datumsbereich, der die zweite, dritte und vierte Buchhaltungsperioden enthält, z. B. 01.01.2020..30.04.2020.|
-|Entweder/oder|12 15 00|12 16 00|Datensätze mit den Datumsangaben 12 15 00 oder 12 16 00. Wenn es sowohl Datensätze mit Datumsangaben für beide Tage gibt, werden alle angezeigt.|
-|Kombination|12 15 00|12 01 00..12 10 00  \n..12 14 00|12 30 00..|Datensätze mit Datumsangaben vom 12 15 00 oder zwischen dem 12 01 00 und dem 12 10 00 einschließlich.  \Datensätze mit einem Datum von 14.12. 00:00:00 oder früher, oder mit einem Datum von 30.12. 00:00:00 und später, d. h. alle Datensätze außer solchen mit Datumsangaben zwischen und einschließlich dem 15.12. 00:00:00 und dem 29.12. 00:00:00.|
+|Entweder/oder|12 15 00\|12 16 00|Datensätze mit den Datumsangaben 12 15 00 oder 12 16 00. Wenn es sowohl Datensätze mit Datumsangaben für beide Tage gibt, werden alle angezeigt.|
+|Kombination|12 15 00\|12 01 00..12 10 00  <br /><br />..12 14 00\|12 30 00..|Datensätze mit Datumsangaben vom 12 15 00 oder zwischen dem 12 01 00 und dem 12 10 00 einschließlich.  <br /><br />Datensätze mit einem Datum von 14.12.00 oder früher, oder mit einem Datum von 30.12.00 und später, d. h. alle Datensätze außer solchen mit Datumsangaben zwischen dem 15.12.00 und dem 29.12.00 (jeweils einschließlich).|
 
 Sie können jedes der gültigen Formate in den Datumsbereichsfiltern verwenden. Beispielsweise ergibt Mo 14.3..h 4P bei einem Datums-/Zeitangabenfeld einen Filter von 3 Uhr morgens am Montag in der Woche 14 des Jahr des aktuellen Arbeitsdatums bis heute um 4 Uhr nachmittags.
 
@@ -324,13 +323,13 @@ Die folgende Tabelle führt einige Beispiele von Datum-/Uhrzeitkombinationen auf
 
 |**Eingabe**      |**Interpretation**      |
 |---------------|------------------------|
-|08-01-2016 05:48:12 PM|08.01.2016 17:48:12|
-|131202 132455|13.12.2002 13:24:55|
+|08-01-2016 05:48:12 PM|08\-01\-2016 05:48:12 PM|
+|131202 132455|13\-12\-2002 13:24:55|
 |1-12-02 10|01.12.2002 10:00:00|
 |1.12.02 5|01.12.2002 05:00:00|
 |1.12.02|01.12.2002 00:00:00|
-|11 12|11.Arbeitsdatum Monat.Arbeitsdatum Jahr 12:00:00|
-|1112 12|11.12.Arbeitsdatum Jahr 12:00:00|
+|11 12|11\-Arbeitsdatum Monat\-Arbeitsdatum Jahr 12:00:00|
+|1112 12|11\-12\-Arbeitsdatum Jahr 12:00:00|
 |h für heute|heutiges Datum 00:00:00|
 |h 10:30:00|heutiges Datum 10:30:00|
 |h 03:03:03|heutiges Datum 03:03:03|

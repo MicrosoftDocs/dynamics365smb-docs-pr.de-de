@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8744455f41897f00315968cc10f12f18bf042b9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c3b7ee476287b25740648758ff7b87ff13f22a7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245258"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303940"
 ---
 #  <a name="create-analysis-reports"></a>Analyseberichte erstellen
 Verkaufsleiter müssen regelmäßig Umsatz, Bruttogewinn sowie andere Verkaufsleistungsschlüsselindikatoren analysieren. Einkäufer sind eher an der Entwicklung des Einkaufsvolumens, der Leistung des Verkäufers und den Einkaufspreisen interessiert. Demgegenüber benötigen Logistik- und Lagerbestandsmanager Informationen zu Lagerumsatz, eine Analyse der Lagerbestandsumlagerung und Statistiken zum Lagerwert.  
@@ -43,7 +43,7 @@ Dann können Sie beispielsweise folgende Spalten erstellen:
 ## <a name="setting-up-line-and-column-layouts"></a>Einrichten von Zeilen- und Spaltenlayouts  
  Auf der Seite **Analysebericht** können Sie unterschiedliche Zeilen- und Spaltenlayouts entsprechend Ihren Einrichtungsparametern anzeigen. Sie erstellen die Zeilen bzw. Zeilenvorlagen auf der Seite **Analysezeilenvorlagen**. Sie können auf der Seite den Namen des Berichts und die Objekte festlegen, die Sie in den Zeilen des Berichts anzeigen möchten. Sie erstellen die Spalten auf der Seite **Analysespaltenvorlagen**. Auf dieser Seite können Sie den Namen der Spaltenvorlage und die Analyseparameter, die Sie in dem Bericht als Spalten darstellen möchten, festlegen. Jede Zeile auf der Seite **Analysespaltenvorlagen** stellt eine Spalte im Bericht dar. Beachten Sie, dass Analysezeilen und -spalten voneinander unabhängig sind.  
 
-Das Programm fasst, basierend auf den eingerichteten Zeilen und Spalten, die Ergebnisse des Berichts auf der Seite **Analysebericht** zusammen. Es verwendet dazu in etwa folgende Matrix:  
+Die Anwendung fasst, basierend auf den eingerichteten Zeilen und Spalten, die Ergebnisse des Berichts auf der Seite **Analysebericht** zusammen. Es verwendet dazu in etwa folgende Matrix:  
 
 | |Verkäufe aktueller Monat|Verkäufe letzter Monat|Verkäufe letzter Monat %|  
 |-|-|-|-|  

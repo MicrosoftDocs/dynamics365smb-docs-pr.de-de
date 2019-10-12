@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/22/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af906d440e3dbb31f04f9aec9818454dac26fc57
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: 9435ce3c488eedaef9472a961de36071d1d4e0e4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594201"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301311"
 ---
 # <a name="vat-reporting"></a>MwSt.-Abrechnung
 Sie können dann das VAT-Dokument an die Schnittstelle des Onlineportals „Elektronische Steuererklärungen (ELSTER)” der deutschen Finanzämter übermitteln. Sie können eine MwSt-Erklärung als XML-Datei generieren und exportieren und dann direkt an das ELSTER-Portal senden. Weitere Informationen finden Sie unter [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md).  

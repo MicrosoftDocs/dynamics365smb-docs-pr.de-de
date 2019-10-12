@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 29b1b29fa1115991b8a8bd569a476e977fba8dce
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e1f2c795ef3669770b9e00f30b8919570bd1b6a8
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238596"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301516"
 ---
 # <a name="manage-employee-absence"></a>Analysiert die Fehlzeiten der Mitarbeiter.
 Damit die Abwesenheit eines Mitarbeiters verwaltet werden kann, muss diese auf der Seite **Abwesenheitsregistrierung** aufgezeichnet werden. Sie kann dann auf verschiedene Art und Weise zur Analyse und Berichterstellungszwecken angezeigt werden.
@@ -72,4 +72,4 @@ Sie können die Mitarbeiterabwesenheiten auf täglicher Basis oder einem anderen
 [Personalwesen verwalten](hr-manage-human-resources.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)
+[Funktionen, die angezeigt werden ändern](ui-experiences.md)

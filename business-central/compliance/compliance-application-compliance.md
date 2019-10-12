@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246887"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303871"
 ---
 # <a name="application-compliance"></a>Anwendungs-Kompatibilität
 Dieser Inhalt enthält Informationen über Anwendungskompatibilität zu [!INCLUDE[d365fin](../includes/d365fin_md.md)], wie die internationalen Rechnungslegungs-Standards, die lokale Funktion, das DSGVO und mehr. Vertrauen ist eine Unternehmensverwaltungslösung zum Ausführen eines effizienten Geschäfts. Mit Business Central Unternehmen sind die Mandanten befähigt, Geschäftsvorgänge zu optimieren, während konstant und kosteneffizient steigende Regulierungs- und Berichtsanforderungen erfüllt werden.
@@ -33,7 +33,7 @@ Unternehmen sehen sich jedes Jahr steigernden Anforderungen in der Buchhaltung g
 - Der internationale Rechnungslegungs-Standardabschnitt des Internationalen Rechnungslegungs-Standard der Europäischen Union (IAS/IFRS), der im Jahre 2005 in Kraft tat und den internationalen Rechnungslegungsstandards für die Erkennung, Messung, Konsolidierung und Berichterstattung festlegte.
 - Das neue Basel-Abkommen (Basel II) aus dem Jahre 2006, das Probleme der Finanzrisiken adressiert und eine stärkere Stabilität im Gesamtfinanzsystem fördert.
 
-## <a name="good-practices-with-technology"></a>Gute Praktiken mit Technologie	
+## <a name="good-practices-with-technology"></a>Gute Praktiken mit Technologie
 Kompatibilität hängt nicht nur von der exakten Informationen und den entsprechenden Buchhaltungsvorgängen ab sondern auch von Personen, die diese Prozesse einrichten und verwalten. Eine effektive Unternehmensverwaltungslösung kann Kompatibilität vereinfachen, indem sie hilft, gültige und zugänglichen Informationen aus transparente Prozesse zu verwalten, die gemäß Branche und gesetzlichen Vorgaben eingerichtet wurden.
 
 ## <a name="realize-the-benefits-of-an-integrated-business-management-solution"></a>Realisieren Sie Mitarbeitervergünstigungen einer integrierten Unternehmensverwaltungslösung  
@@ -46,16 +46,19 @@ Business Central liefert Betriebs- und Finanzdaten in Echtzeit von der gesamten 
 ## <a name="gain-control-of-critical-information-processes-and-reports"></a>Erhalten Sie die Kontrolle wichtiger Informationen, Vorgänge und Berichte
 
 ### <a name="manage-compliance-to-the-standards-that-matter"></a>Verwalten Sie die Kompatibilität mit den Standardeinstellungen, die wichtig sind.
+
 Stellen Sie integrierte Informationen, abgestimmte Prozesse und benutzerfreundliche Tools bereit, um Ihre Personen zu unterstützen, die Finanzverwaltungserwartungen und -Standards anpassen, die für die bestimmten Unternehmen wichtig sind.
 
 ### <a name="tailor-account-schedules-to-your-needs"></a>Kontenpläne auf die Bedürfnisse anpassen
+
 - Definieren die Struktur im Kontenplan Ihres Mandanten auf Grundlage von Geschäftsanforderungen und anwendbaren gesetzlichen Vorgaben
 - Erstellen Sie die Konten und behandeln Sie komplexe Prozesse in Bezug auf das Spektrum der Geschäftsaktivitäten einschließlich Lagerbewertung, Fremdwährungen, Segmentberichterstattung und Anforderungen lokaler GAAPs.
 - Überwachen Sie den Ausführlichkeitsgrad für jede Transaktion und wählen Sie detaillierte Budgetierung für bestimmte Arten von Transaktionen aus, wie und Anlagen und Debitoren.
-- Beachten Sie Planberechnungen und -Anzeigen für das Finanzberichtswesen oder exportieren Sie die Informationen in Microsoft® Office Excel® zur weiteren Analyse.
+- Beachten Sie Planberechnungen und Anzeigen für das Finanzberichtswesen oder exportieren Sie die Informationen in Microsoft Excel zur weiteren Analyse.
 
 ### <a name="improve-information-validity"></a>Verbessern Sie Informationsgültigkeit
-- Konfigurieren Sie Datenfelder, um nur Daten im korrekten Format zu akzeptiere, wie die richtige Anzahl der Dezimalstellen oder alphanumerischen Muster.
+
+- Konfigurieren Sie Datenfelder, um nur Daten im korrekten Format zu akzeptieren, wie die richtige Anzahl der Dezimalstellen oder alphanumerischen Muster.
 - Sellen Sie sicher, dass Informationen mit Anwendungskontrollen wie erforderliche Rechnungsnummer des Kreditors eingegeben vor dem Kauf gebucht werden kann.
 - Reduzieren Sie das Risiko von ungenauen Informationen oder von Manipulation und helfen Sie dabei, vertrauliche Informationen zu schützen.
 - Verhindern Sie Zugriff, bieten Sie schreibgeschützten Zugriff bzw. Aktivieren Sie Benutzer für vollem Zugriff zum Hinzufügen, Bearbeiten oder Löschen von Informationen.
@@ -69,10 +72,11 @@ Stellen Sie integrierte Informationen, abgestimmte Prozesse und benutzerfreundli
 - Beschleunigen Sie die Übertragung der Finanzdaten zu Debitoren, Aktionären, Aufsichtsbehörden und der Öffentlichkeit MIT XML-basierten XBRL-Belegen, die den Austausch der Finanzdaten über Software und Technologien unterstützen, einschließlich dem Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Stellen Sie klare Protokolle sicher
+
 - Verfolgen von Belegen und Informationen sowohl vorwärts und rückwärts über das System, von der ursprünglichen Herkunft bis hin zur letzten Finanzauswertung und zurück.
 - Identifizieren Sie, wie, ob und durch wen Informationen eingegeben oder bearbeitet und auf die Kontoenfinanzposten gebucht wurden.
-- Sehen Sie Datenbankänderungen, einschließlich der vorhergegangenen und überarbeiteten Daten im Änderungsprotokoll der Lösung.
-- Passen Sie Überwachungspfadtransparenz und -Benutzerfreundlichkeit für raschen Informationszugriff für Auditoren von Drittanbietern mit Dropdown, Suchen, Filterung, Journal und Navigation.
+- Sehen Sie Datenbankänderungen, einschließlich der vorhergegangenen und überarbeiteten Daten im [Änderungsprotokoll](../across-log-changes.md) der Lösung.
+- Passen Sie Überwachungspfadtransparenz und Benutzerfreundlichkeit für raschen Informationszugriff für Auditoren von Drittanbietern mit Dropdown, Suchen, Filterung, Journal und Navigation an.
 
 ## <a name="compliance-and-local-functionality"></a>Kompatibilitäts-Erweiterung der lokalen Variable
 Microsoft erstellt lokalisierte Versionen von Business Central für mehrere Länder. Diese Lokalisierungen konzentrieren sich auf gesetzliche Funktionen im Steuer- und Finanzbereich, können jedoch manchmal andere Teile der Anwendung betreffen. Wenn Sie sehen möchten, was integrierte lokalisierte Länderversionen vun Business Central erstellen, finden Sie Informationen unter **Lokale Funktionalität** und wählen Sie ein Land, um mehr über die Landbesonderefunktionalität zu erfahren.
@@ -89,7 +93,8 @@ Microsoft erstellt lokalisierte Versionen von Business Central für mehrere Län
 > **Basel II: Auswirkungen für Berichte und Analyse**  
 > Basel, II entwickelt von der Bank für internationalen Zahlungsausgleich hilft Ihnen, Sicherheit im Finanzsystem in drei Schlüsselbereichen zu sichern: Mindestkapitalanforderungen, Überwachungsüberprüfungsvorgang und Marktdisziplin. Obwohl sich die Ausschreibung auf Finanzinstitute bezieht und nicht kleine und mittelständische Firmen anvisiert, verfügt Basel II möglicherweise übe Auswirkungen für diese Organisationen für Meldungen und Analyse.
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
+
 [Kompatibilität](compliance-overview.md)  
 [Dienst-Kompatibilität](compliance-service-compliance.md)  
 [Bescheinigungen](compliance-certifications.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/22/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9b5ce0a803ff8a38cd54f456401f4c7f88cc0ba6
-ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
+ms.openlocfilehash: 441515fd53e92f364feb000470ae841fdbedf113
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870574"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301327"
 ---
 # <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
 Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deutschen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vorhanden ist.  
@@ -62,9 +62,8 @@ Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deut
     * [Währungswechselkurse](currency-exchange-rates.md) **Jetzt verfügbar**
     * [Zusammenfassende Meldung in Deutschland](eu-sales-list-in-germany.md) **Jetzt verfügbar**
     * [Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md) **Jetzt verfügbar**
-    * [Drucken von Verkaufsaufträgen und Bestellungen während der Stapelbuchung](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Jetzt verfügbar**
     * [Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt verfügbar**
-    
+
 ## <a name="see-also"></a>Siehe auch
 [Zertifizierung von Business Central für deutschen Zielmarkt (Beleg ist in Deutsch)](https://go.microsoft.com/fwlink/?linkid=875256)  
 [Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

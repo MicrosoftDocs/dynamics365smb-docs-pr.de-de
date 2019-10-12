@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 10/23/2017
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 523b629014b9a1641ebaba429678e4bd1759631a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 08123360a54fc84ee4cadca144a8e639154fbaf1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238854"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300377"
 ---
 # <a name="accountant-portal-for-dynamics-365-business-central"></a>Buchhaltungsportal für Dynamics 365 Business Central
 Diese Anwendung bietet ein Portal mit Zusammenfassungsdaten für jeden Client eines Buchhalters. Das Portal zeigt Finanz-KPIs sowie eine direkte Verknüpfung der Finanz-Anwendung des Clients an.  

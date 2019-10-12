@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0d31e710c0b5d9e1dfa63c9c653b740fdcc12f11
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e4399c16c28d97c0c1c6d8826af14e1b4a48e454
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245524"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304972"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Geschäftsdaten aus anderen Finanzsystemen importieren
 Wenn Sie sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden, können Sie auswählen, einen leeren Mandanten zu erstellen, sodass Sie Ihre eigenen Daten hochladen und den neuen Projektmandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)] testen können. Abhängig von der Finanzlösung, die Ihr Unternehmen heute verwendet, können Sie Informationen zu Debitoren, Kreditoren, Lagerbestand und Bankkonten vornehmen.  
@@ -62,14 +62,14 @@ Das Standardkonfigurationspaket unterstützt die folgenden Tabellen:
 -   Verkaufszeile
 -   Einkaufskopf
 -   Einkaufszeile
--   Fibu Buch.-Blattzeile
+-   Gen. Buch.-Blattzeile
 -   Artikel Buch.-Blattzeile
 -   Debitorenbuchungsgruppe
 -   Kreditorenbuchungsgruppe
 -   Lagerbuchungsgruppe
 -   Maßeinheit
--   Geschäftsbuchungsgrp.
--   Produktbuchungsgrp.
+-   Gen. Geschäftsbuchungsgrp.
+-   Gen. Produktbuchungsgruppe
 -   Buchungsmatrix Einrichtung
 -   Gebiet
 -   Artikelkategorie

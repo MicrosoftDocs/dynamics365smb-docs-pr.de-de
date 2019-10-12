@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bc93fe469eea824be20942033db0959f8fe643c8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: da09b2fafa2464bb6a86cc4cc50281e0e2a00b75
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249422"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315372"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>Die Steuerdateiformate-Erweiterung (DK)
 Wenn Sie sich in den Handel mit Unternehmen oder internen Zweigstellen oder Tochtergesellschaften engagieren, müssen Sie in anderen EU-Ländern die Informationen über die Aktivitäten an SKAT und Statistiken Dänemark melden. Wenn Sie MwSt und Intrastat-Berichte in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden, kann diese Erweiterung sicherstellen, dass die Datei, die Sie exportieren, mit den Anforderungen von diesen Organisationen kompatibel sind. Die Erweiterung fügt die MS-ECSL Berichts-Exportdatei und Intrastat-Export-Zeilenunterordnungscodeunite der Mehrwertsteuer-Berichtskonfiguration hinzu, damit Sie Daten im neuen Format sofort exportieren können.

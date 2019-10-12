@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446968"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301540"
 ---
 # <a name="finance"></a>Finanzen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
@@ -40,7 +40,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Fügen Sie Dimensionen für umfangreichere Business Intelligence hinzu. |[Arbeiten mit Dimensionen](finance-dimensions.md) |
 | Erstellen Sie Sachkonto-Budgets, um verschiedene Finanzaktivitäten zu prognostizieren und Dimensionen zu den einzelnen Intelligence-Zwecken zuzuordnen. |[Sachkontenbudgets erstellen](finance-how-create-budgets.md) |
 |Erfassen von Umsatz oder Ausgaben direkt in der Finanzbuchhaltung, ohne dedizierte Unternehmensbelege zu buchen.|[Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)|
-|Buchen Sie das Stornieren von Posten, um wertmäßige Buchungen im Fibu Buch.-Blatt oder Warenausgänge in einem Einkaufs- oder Verkaufsbeleg zu stornieren. |[Buchungen stornieren](finance-how-reverse-journal-posting.md)|
+|Buchen Sie das Stornieren von Posten, um wertmäßige Buchungen im Fibu Buch.-Blatt oder Warenausgänge in einem Einkaufs- oder Verkaufsbeleg zu stornieren. |[Buchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)|
 |Verteilen eines Postens in einem wiederkehrenden Buch.-Blatt auf mehrere Konten beim Buchen des Buch.-Blatts |[Kosten und Einkünfte zuteilen](year-allocate-costs-income.md) |
 | Weisen Sie zusätzliche Kosten, wie Fracht und Bewegung, die Sie im Zuge des Handels verursachen, mit den einbezogenen Artikel an, für die Kosten in der Lagerbewertung widergespiegelt werden. |[Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md) |
 |Erstatten Sie Mitarbeitern persönliche Ausgaben für die Geschäftsaktivitäten zurück, indem Sie Zahlung zu dem Bankkonto vornehmen.|[Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen](finance-how-record-reimburse-employee-expenses.md)|

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: e3ca7a52bb01b9d4a7b6417be14396cc616131ca
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2b0cd58ebb61dba8fcdcb0f686a2afe88a5e9f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241820"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309364"
 ---
 # <a name="managing-marketing-campaigns"></a>Verwaltung von Marketingkampagnen
 Der Einsatz eines fundierten Marketingplans ermöglicht das Erkennen, Gewinnen und Binden von Debitoren. Ein Marketingplan setzt sich aus mehreren Kampagnen und anderen Aktivitäten rund um Ihre Verkaufs- und Marketingaktivitäten zusammen. Beim Planen einer Kampagne müssen Sie entscheiden, welche Kontakte Sie ansprechen möchten, welche Art von Kampagne (beispielsweise Messe oder Direktwerbung) Sie erstellen möchten und welche Verkäufer die einzelnen Aufgaben ausführen sollen.
@@ -39,7 +39,7 @@ Nachdem Sie Ihre Kampagne eingerichtet haben, entschieden haben, welche Segmente
 > [!NOTE]  
 >   Um die Verkaufspreise/Zeilenrabatte zu aktivieren, müssen Sie das gesamte Segment oder nur einzelne Kontakte für die Kampagne markieren. Wenn die Verkaufspreise/Zeilenrabatte für alle Kontakte des Segments gelten sollen, wählen Sie im Fenster **Segment** auf dem Inforegister **Kampagne** das Feld **Kampagnenziel** aus.
 
-Wenn die Verkaufspreise/Zeilenrabatte nicht für alle Kontakte des Segments gelten sollen, können Sie das Feld **Kampagnenziel** für die relevanten Kontakte. Wenn Sie dieses Feld nicht sehen, können Sie es zur Ansicht hinzuzufügen. Weitere Informationen finden Sie unter [Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md).
+Wenn die Verkaufspreise/Zeilenrabatte nicht für alle Kontakte des Segments gelten sollen, können Sie das Feld **Kampagnenziel** für die relevanten Kontakte. Wenn Sie dieses Feld nicht sehen, können Sie es zur Ansicht hinzuzufügen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Kampagnen durchführen
 Während der gesamten Laufzeit der Kampagne werden alle Interaktionen mit den Kontakten bzw. mit dem Segment erfasst. Dadurch können Sie oder andere Gruppen eine Kampagne anzeigen und statistische oder andere Informationen zu Kosten und Erfolgsraten der Kampagne abrufen.

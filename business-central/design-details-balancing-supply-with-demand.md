@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 13ab8097b9c6d75f838a58c347af31d560fa9374
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1bef0ad2a94e64ecf95614707b6746e6a381fcb0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242882"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307396"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Designdetails: Ausgleich von Bedarf und Vorrat
 Das Kernstück des Planungssystems beinhaltet den Augleich von Bedarf und Vorrat durch das Vorschlagen von Aktionen zur Revidierung der Beschaffungsaufträge bei fehlendem Ausgleich. Dieses findet pro Kombination von Variante und Lagerort statt.  
@@ -109,7 +109,7 @@ Hierfür gibt es zwei Gründe:
 
 Im Laufe der Zeit geraten dynamische Bedarfsverursacherverknüpfungen aus der Balance, da das gesamte Bedarfsverursachernetzwerk erst dann wiederhergestellt wird, wenn ein Bedarf- oder Vorratsereignis tatsächlich geschlossen ist.  
 
-Vor dem Ausgleich des Vorrats nach Bedarf löscht das Programm alle vorhandenen Auftragsnachverfolgungslinks. Dann während des Ausgleichsvorgangs, wenn ein Bedarfs- oder Zubehörereignis abgeschlossen wird, werden neue Bedarfsverursacherverknüpfungen zwischen Bedarf und Angebot erstellt.  
+Vor dem Ausgleich des Vorrats nach Bedarf löscht die Anwendung alle vorhandenen Auftragsnachverfolgungslinks. Dann während des Ausgleichsvorgangs, wenn ein Bedarfs- oder Zubehörereignis abgeschlossen wird, werden neue Bedarfsverursacherverknüpfungen zwischen Bedarf und Angebot erstellt.  
 
 > [!NOTE]  
 >  Selbst wenn der Artikel nicht für die dynamische Auftragsnachverfolgung eingerichtet wurde, erstellt das Planungssystem Auftragsverfolgungslinks wie oben erläutert.  

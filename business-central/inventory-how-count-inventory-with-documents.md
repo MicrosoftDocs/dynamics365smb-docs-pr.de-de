@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 24b89662ed772280da8f5f8f08677f644f75922e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240280"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309916"
 ---
 # <a name="count-inventory-using-documents"></a>Erfassung des Lagerbestand mithilfe von Belegen
 Sie können mithilfe der Inventurauftrags- und Inventurerfassungsbelege eine Inventur der Artikel durchführen. Die Seite **Inventurauftrag** wird verwendet, um das vollständige Inventurerfassungsprojekt zu organisieren, zum Beispiel eines pro Standort. Die Seite **Inventurerfassung** wird verwendet, um die tatsächliche Zählung von Artikeln mitzuteilen und zu erfassen. Sie können mehrere Aufzeichnungen für einen Auftrag erstellen, z. B. das Verteilen von Artikelgruppen an verschiedene Mitarbeiter.
@@ -94,7 +94,7 @@ Wenn Sie eine Inventurerfassung abgeschlossen haben, wird das Feld **Erfasste Me
 
 Um sich die erwartete Mengen und alle erfassten Differenzen für Artikel mit Artikelverfolgung anzeigen zu lassen, wählen Sie die Aktion **Zeilen** und dann die Aktion **Artikelverfolgungszeilen** aus, um verschiedene Ansichten für Serien- und Chargennummern auszuwählen, die in der Inventarerfassung berücksichtigt wurden.
 
-Sie können auch die Aktion **Inventurauftragsdifferenz** auswählen, um sich alle Unterschiede zwischen der erwarteten Menge und der gezählten Menge anzeigen zu lassen.
+Sie können auch die **Phys. Inventory Order Diff.** Aktion auswählen, um Unterschiede zwischen der erwarteten und der gezählten Menge anzuzeigen.
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>So finden Sie doppelte Inventurauftragszeilen
 

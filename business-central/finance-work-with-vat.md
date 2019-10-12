@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796849"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301564"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeiten mit MwSt im Verkauf und Einkauf
 Wenn Ihr Land oder Ihre Region es erfordert, die Mehrwertsteuer (MwSt) in Einkaufs- und Verkaufstransaktionen zu berechnen, sodass Sie die Beträge einer Steuerbehörden melden können, können Sie festlegen, dass [!INCLUDE[d365fin](includes/d365fin_md.md)]MwSt in Einkaufs- und Verkaufsbelegen automatisch berechnet wird. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md).
@@ -28,24 +28,24 @@ Es gibt jedoch Mehrwertsteuer-verknüpfte Aufgaben, die Sie manuell tun können.
 Je nach Debitoren- oder Kreditorenart können MwSt.-Beträge in Verkaufs- und Einkaufsbelegen unterschiedlich berechnet und angezeigt werden. Darüber hinaus kann der von der Anwendung berechnete MwSt.-Betrag außer Kraft gesetzt werden und der von Ihrem Kreditor für ein bestimmtes Geschäft berechnete MwSt.-Betrag verwendet werden.  
 
 ### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Verkaufspreis und Zeilenbetrag inklusive/exklusive MwSt. auf Verkaufsdokumenten  
-Wenn Sie eine  Artikelnummer im **Nr.** Feld in einem Verkaufsbeleg auswählen, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] von der Anwendung auch das Feld **VK-Preis** ausgefüllt. Der Verkaufspreis wird von der **Artikel**karte übernommen oder anhand der Artikelpreise berechnet, die für den Artikel und den Debitor zulässig sind. [!INCLUDE[d365fin](includes/d365fin_md.md)]berechnet den **Zeilenbetrag** nur dann, wenn Sie eine Menge für die Zeile eingeben.  
+Wenn Sie eine Artikelnummer im **Nr.** Feld in einem Verkaufsbeleg auswählen, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] von der Anwendung auch das Feld **VK-Preis** ausgefüllt. Der Verkaufspreis wird von der **Artikel**karte übernommen oder anhand der Artikelpreise berechnet, die für den Artikel und den Debitor zulässig sind. [!INCLUDE[d365fin](includes/d365fin_md.md)]berechnet den **Zeilenbetrag** nur dann, wenn Sie eine Menge für die Zeile eingeben.  
 
 Wenn Sie an einen EinzelhandelsDebitoren verkaufen, möchten Sie möglicherweise, dass die Preise in Verkaufsbelegen die Mehrwertsteuer enthalten. Um dies zu tun, aktivieren Sie das Kontrollkästchen **Preise inkl. MwSt.** im Beleg.  
 
 ### <a name="including-or-excluding-vat-on-prices"></a>Mit oder ohne Mehrwertsteuer auf Preisen
 Ist das Feld  **Preise inkl. MwSt.** aktiviert, werden die Felder  **VK-Preis** und  **Zeilenbetrag** mit der MwSt. berechnet und der Feldname zeigt dies ebenfalls. Standardmäßig ist die MwSt nicht in diesen Feldern enthalten.  
 
-Ist das Feld nicht aktiviert, wird in die Felder **VK-Preis** und **Zeilenbetrag** ein Betrag ohne MwSt. eingegeben. Dies wird auch durch die Feldnamen wiedergegeben.  
+Ist das Feld nicht aktiviert, wird die Anwendung in die Felder **VK-Preis** und **Zeilenbetrag** ein Betrag ohne MwSt. eingegeben. Dies wird auch durch die Feldnamen wiedergegeben.  
 
-Sie können die Standardeinstellung der **Preise inkl. MwSt.** für alle Verkaufsbelege eines Debitors im Feld **Preise inkl. MwSt.** auf der **Debitor**-Karte einrichten. Darüber hinaus können Sie auch Artikelpreise inklusive oder exklusive MwSt. einrichten. Normalerweise ist auf der Artikelkarte der Artikelpreis ohne MwSt. angegeben. Die Daten im Feld **VK-Preis inkl. MwSt.** auf der **Artikelkarte** dienen zur Ermittlung des Verkaufspreises für Verkaufsbelege.  
+Sie können die Standardeinstellung der **Preise inkl. MwSt.** für alle Verkaufsbelege eines Debitors im Feld **Preise inkl. MwSt.** auf der **Debitor**-Karte einrichten. Darüber hinaus können Sie auch Artikelpreise inklusive oder exklusive MwSt. einrichten. Normalerweise ist auf der Artikelkarte der Artikelpreis ohne MwSt. angegeben. Die Anwendung verwendet die Informationen vom Feld **VK-Preis inkl. MwSt.** auf der **Artikelkarte**, um den Verkaufspreises für Verkaufsbelege zu bestimmen.  
 
-Die folgende Tabelle bietet einen Überblick darüber, wie in der Anwendung Verkaufspreise für einen Verkaufsbeleg berechnet werden, wenn auf der Seite **VK-Preise** keine Preise eingerichtet sind:  
+Die folgende Tabelle bietet einen Überblick darüber, wie in der Anwendung Verkaufspreise für einen Verkaufsbeleg berechnet werden, wenn auf der Seite **VK-Preise** keine Preise eingerichtet wurden:  
 
 |**Feld "VK-Preis inkl. MwSt." auf Artikelkarte**|**Feld "Preise inkl. MwSt." im Verkaufskopf**|**Durchgeführte Aktion**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |Kein Häkchen|Kein Häkchen|Der **VK-Preis** auf der Artikelkarte wird in das Feld **VK-Preis ohne MwSt.** in den Verkaufszeilen kopiert.|  
-|Kein Häkchen|Häkchen|Der MwSt.-Betrag pro Einheit wird berechnet und zu dem **VK-Preis** auf der Artikelkarte hinzugefügt. Dieser Gesamtverkaufspreis wird dann in das Feld **VK-Preis inkl. MwSt.** in den Verkaufszeilen eingegeben.|  
-|Häkchen|Kein Häkchen|Die Anwendung berechnet die MwSt.-Betrag, der in **VK-Preis** auf der Artikelkarte unter Verwendung des MwSt.-Prozentsatzes enthalten ist, der mit der Kombination aus MwSt.-Geschäftsbuchungsgruppe (Preis) und MwSt.-Produktbuchungsgruppe verknüpft ist. Der **VK-Preis** auf der Artikelkarte, verringert um den MwSt.-Betrag, wird dann im Feld **VK-Preis ohne MwSt.** in den Verkaufszeilen eingegeben.|  
+|Kein Häkchen|Häkchen|Die Anwendung berechnet den MwSt.-Betrag pro Einheit und fügt ihn dem **VK-Preis** auf der Artikelkarte hinzugefügt. Dieser Gesamtverkaufspreis wird dann in das Feld **VK-Preis inkl. MwSt.** in den Verkaufszeilen eingegeben.|  
+|Häkchen|Kein Häkchen|Die Anwendung berechnet den MwSt.-Betrag, der im **VK-Preis** auf der Artikelkarte unter Verwendung des MwSt.-Prozentsatzes enthalten ist, der mit der Kombination aus MwSt.-Geschäftsbuchungsgruppe (Preis) und MwSt.-Produktbuchungsgruppe verknüpft ist. Der **VK-Preis** auf der Artikelkarte, verringert um den MwSt.-Betrag, wird dann im Feld **VK-Preis ohne MwSt.** in den Verkaufszeilen eingegeben.|  
 |Häkchen|Häkchen|Der **VK-Preis** auf der Artikelkarte wird in das Feld **VK-Preis inkl. MwSt.** in den Verkaufszeilen kopiert.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>MwSt.-Beträgen in Verkaufs- und Einkaufsbelegen manuell korrigieren  
@@ -58,7 +58,7 @@ Wenn Skonto auf der Basis einer Rechnung inklusive MwSt. berechnet wurde, haben 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Einrichtung des Systems für die manuelle MwSt.-Posten in Verkaufsbelegen
 Im Folgenden wird beschrieben, wie manuelle MwSt.-Änderungen auf Verkaufsbelegen aktiviert werden. Die Schritte sind auf der Seite **Einrichten von Einkäufen und Verbindlichkeiten** gleich.
 
-1. Geben Sie im Fenster  **Finanzbuchhaltungs-Einrichtung:** eine  **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
+1. Geben Sie im Fenster **Finanzbuchhaltungs-Einrichtung:** eine **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
 2. Versehen Sie im Fenster **Debitoren & Verkauf Einr.** das Feld **MwSt.-Differenz zulassen** mit einem Häkchen.  
 
 ### <a name="to-adjust-vat-for-a-sales-document"></a>Die MwSt. für einen Verkaufsbeleg anpassen:  
@@ -68,7 +68,7 @@ Im Folgenden wird beschrieben, wie manuelle MwSt.-Änderungen auf Verkaufsbelege
 4. Füllen Sie das Feld **MwSt.-Betrag** aus.   
 
 > [!NOTE]  
-> Der gesamte MwSt.-Betrag für die Rechnung wird gruppiert nach MwSt.-Kennzeichen in den Zeilen angezeigt. Sie können den Betrag manuell im Feld **MwSt.-Betrag** in den Zeilen für jedes MwSt.-Kennzeichen anpassen. Wenn Sie das Feld **MwSt.-Betrag** ändern, prüft die Anwendung, ob die Mehrwertsteuer um einen höheren Betrag als die maximal zulässige Differenz geändert wurde. Liegt der Betrag außerhalb des unter **Max. MwSt.-Differenz zulässig** angegebenen Bereichs, werden Sie in einer Warnmeldung über die maximal zulässige Differenz informiert. Sie können erst dann fortfahren, wenn der Betrag an die zulässigen Parameter angeglichen wurde. Klicken Sie auf **OK** , und geben Sie einen anderen **MwSt.-Betrag** ein, der innerhalb des zulässigen Bereichs liegt. Wenn die MwSt.-Differenz der zulässigen Abweichung entspricht oder höher ist, wird die MwSt. proportional auf die Belegzeilen mit demselben MwSt.-Kennzeichen aufgeteilt.  
+> Der gesamte MwSt.-Betrag für die Rechnung wird gruppiert nach MwSt.-Kennzeichen in den Zeilen angezeigt. Sie können den Betrag manuell im Feld **MwSt.-Betrag** in den Zeilen für jedes MwSt.-Kennzeichen anpassen. Wenn Sie das Feld **MwSt.-Betrag** ändern, prüft die Anwendung, ob die Mehrwertsteuer um einen höheren Betrag als die maximal zulässige Differenz geändert worden ist. Liegt der Betrag außerhalb des unter **Max. MwSt.-Differenz zulässig** angegebenen Bereichs, werden Sie in einer Warnmeldung über die maximal zulässige Differenz informiert. Sie können erst dann fortfahren, wenn der Betrag an die zulässigen Parameter angeglichen wurde. Klicken Sie auf **OK** , und geben Sie einen anderen **MwSt.-Betrag** ein, der innerhalb des zulässigen Bereichs liegt. Wenn die MwSt.-Differenz der zulässigen Abweichung entspricht oder höher ist, wird die MwSt. proportional auf die Belegzeilen mit demselben MwSt.-Kennzeichen aufgeteilt.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>MwSt.-Berechnung mithilfe von Buch.-Blättern manuell berechnen  
 Sie können MwSt.-Beträge auch in den Buch.-Blättern Allgemein, Verkauf und Einkauf anpassen. Dies ist unter Umständen dann erforderlich, wenn Sie eine Kreditorenrechnung in das Buch.-Blatt eingeben und zwischen der von der [!INCLUDE[d365fin](includes/d365fin_md.md)] Anwendung berechneten MwSt. und dem MwSt.-Betrag auf der erhaltenen Kreditorenrechnung eine Differenz besteht.  
@@ -76,7 +76,7 @@ Sie können MwSt.-Beträge auch in den Buch.-Blättern Allgemein, Verkauf und Ei
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Einrichtung des Systems für die manuelle MwSt.-Posten im Fibu Buch.-Blatt
 Sie müssen die folgenden Schritte ausführen, bevor Sie die Mehrwertsteuer manuell in ein FibuBuch.-Blatt eingeben.  
 
-1. Geben Sie im Fenster  **Finanzbuchhaltungs-Einrichtung:** eine  **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
+1. Geben Sie im Fenster **Finanzbuchhaltungs-Einrichtung:** eine **maximal zulässige MwSt.-Differenz** zwischen dem von der Anwendung berechneten Betrag und dem manuell eingegebenen Betrag an.  
 2. Wählen Sie auf der Seite  **Allgemeine Buch.-Blatt Vorlage** das Kontrollkästchen **MwSt-Differenz zulassen** mit einem Häkchen.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Einrichtung des Systems für die manuellen MwSt.-Posten in einem Verkaufs- und Einkaufs-Buch.-Blatt

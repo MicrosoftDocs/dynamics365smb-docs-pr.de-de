@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 691a8af0a6b3646cc4cf6129fa99a9231bfd2324
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248180"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315228"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importieren und Exportieren von einem benutzerdefinierten Bericht
 Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem Speicherort auf dem Computer oder im Netzwerk speichern und exportieren sowie von dort aus wieder importieren. Beispielsweise können Sie ein Berichtlayout exportieren und dann die Datei an eine andere Person senden, die diese dann ändern kann. Diese Person kann die Änderungen am Layout vornehmen und Ihnen die Datei zurücksenden, damit Sie sie zurückimportieren können.  
@@ -54,4 +54,4 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
 ## <a name="see-also"></a>Siehe auch  
  [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
  [Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)  
- [Arbeiten mit Berichten und Stapelverarbeitungen](ui-work-report.md)    
+ [Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)    

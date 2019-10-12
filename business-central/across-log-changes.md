@@ -1,6 +1,6 @@
 ---
-title: Benutzer-Aktivität in einem Änderungsprotokoll nachverfolgen | Microsoft Docs
-description: Sie können ein Benutzerprotokoll aktivieren, sodass Sie Aufzeichnungen über sämtliche Änderungen haben, die an den Daten in verfolgten Tabellen vorgenommen werden.
+title: Änderungen prüfen | Microsoft Docs
+description: Sie können ein Benutzerprotokoll aktivieren, sodass Sie Aufzeichnungen über sämtliche Änderungen haben, die an den Daten in verfolgten Tabellen vorgenommen werden. Sie können Aktivitäten auch mit bestimmten Arten von Aktivitätsprotokollen verfolgen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240441"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304929"
 ---
 # <a name="auditing-changes-in-business-central"></a>Protokollieren von Änderungen in Business Central
 
@@ -38,9 +38,15 @@ Wenn Sie auf der Seite **Änderungsprotokoll Einrichtung** die Aktion **Tabellen
 
 Wenn Sie das Änderungsprotokoll eingerichtet und aktiviert haben und jemand Daten verändert hat, protokolliert die Anwendung die Änderung in einem **Änderungsprotokollposten**. Wenn Sie Posten löschen möchten, können Sie dies auf der Seite **Änderungsprotokollposten löschen** tun, an dem Sie Filter auf Basis Datum und Zeit festlegen können.  
 
+## <a name="working-with-activity-logs"></a>Arbeiten mit Aktivitätsprotokollen
+
+Von einigen Seiten in [!INCLUDE [prodshort](includes/prodshort.md)] können Sie ein Aktivitätsprotokoll anzeigen, in dem der Status und alle Fehler von Dateien angezeigt werden, aus denen Sie exportieren oder in die Sie importieren [!INCLUDE [prodshort](includes/prodshort.md)].  
+
+Die Informationen werden auf der Seite **Aktivitätsprotokoll** angezeigt, entsprechend dem Kontext, aus dem sie geöffnet wurden. Sie können das Fenster beispielsweise von den Seiten **Belegaustauschservice einrichten**, **eingehende Belege**, **Gebuchte Verkaufsrechnung**, und **Gebuchte Verkaufsgutschrift**. Sie können die Liste der Protokolleinträge leeren oder die Liste der Einträge löschen, die älter als 7 Tage sind.  
+
 ## <a name="see-also"></a>Siehe auch
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Sortieren](ui-sorting.md)  
-[Verwenden von „Wie möchten Sie weiter verfahren“ bei der Suche nach Funktionen und Informationen](ui-search.md)  
+[Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)  
 [Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)    
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

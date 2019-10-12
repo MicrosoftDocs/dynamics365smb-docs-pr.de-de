@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: d4ceef0780306015795c0a2406245514c2a26de5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 482c0e9f7fe0fa787ab9d3e45f22abd07d009b3e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250319"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315708"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Warnungen zu landes-/regionsspezifischen gesetzliche Funktionen übermitteln
 
@@ -21,13 +21,21 @@ Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um 
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>So übermitteln Sie regulatorische Warnungen in LCS
 
-1. Wechseln Sie zu https://lcs.dynamics.com und melden Sie sich an. Es werden die Projekte angezeigt, auf die Sie Zugriff haben
+1. Gehe zu https://lcs.dynamics.com und melden Sie sich an  
 
-2. Wählen Sie das Projekt **Gesetzliche Warnungen - Weltweit** aus, um das Projekt zu öffnen, das eine Vielzahl der Elemente enthält, die mit dem Projekt verknüpft sind
+    Es werden die Projekte angezeigt, auf die Sie Zugriff haben
 
-3. Wählen Sie **Warnservice** auf der rechten Seite im Abschnitt **Weitere Tools** aus. Es wird eine Liste der Warnungen mit der Kopfzeile **Dynamics-Übermittlungsdienst für Gesetzeswarnungen** angezeigt
+2. Wählen Sie **Regulatorische Warnungens – Weltweit** Projekt
 
-4. Sie können eine neue Warnung hinzufügen, indem Sie auf das Pluszeichen **(+)** oben in der Liste klicken. Dadurch wird ein Handbuch mit 4 Schritten angezeigt, um die Warnung zu erstellen. Das Handbuch hat folgende Schritte:
+    Dies öffnet das Projekt und zeigt eine Vielzahl von Dingen, die mit diesem Projekt zusammenhängen
+
+3. Wählen Sie **Alarmierungsservice** auf der rechten Seite im Abschnitt **Mehr Werkzeuge**
+
+    Sie sehen eine Liste mit Warnmeldungen mit der Überschrift **Dynamics Übermittlungsdienst für Gesetzeswarnungen**
+
+4. Sie können eine neue Warnung hinzufügen, indem Sie auf das Pluszeichen klicken **(+)** am oberen Rand der Liste
+
+    Auf diese Weise erhalten Sie eine 4-stufige Anleitung zum Erstellen der Warnung. Das Handbuch hat folgende Schritte:
     - Nach vorhandenen Elementen suchen
 
         Suche nach Informationen, die für die Warnung, die Sie erstellen werden, relevant sind. Wenn Sie keine entsprechenden Suchergebnisse finden, können Sie die **Regulatorische Warnung übermitteln**-Schaltfläche am unteren Rand der Seite auswählen, um mit der Warnungsübermittlung fortzufahren.
@@ -44,7 +52,7 @@ Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um 
         |Description  | Geben Sie eine kurze Übersicht des Gesetzes ein. Die Beschreibung sollte sich auf Probleme konzentrieren, die für die Unternehmensressourcenplanung (ERP) relevant sind, damit Benutzer die Anforderungen auf hoher Ebene erkennen können, ohne erst die Gesetzestexte lesen zu müssen.|
         |Land  | Geben Sie das Land bzw. die Region des Gesetzes an.|
         |Branche| Geben Sie der Branche an, wenn die Anforderung nur für bestimmte Branchen gilt. Wählen Sie beispielsweise **Öffentlicher Sektor**, **Einzelhandel** oder **Produktion** aus.|
-        |Funktionsreferenz  | Dies ist nicht für Dynamics 365 Business Central relevant, aber Sie können eine Funktionsreferenz eingeben, wenn Sie sie kennen. Die Liste der Funktionen für das bestimmte Land finden Sie im [Lokalisierungsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
+        |Funktionsreferenz  | Dies ist nicht für Dynamics 365 Business Central relevant, aber Sie können eine Funktionsreferenz eingeben, wenn Sie sie kennen. Die Liste der Funktionen für das bestimmte Land finden Sie im [Lokalisierungsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) auf der CustomerSource Seite. |
         |Strafverfolgungsdatum  | Geben Sie das Datum an, wenn betroffene Debitoren starten müssen, das Gesetz einzuhalten.|
         |Regierungsankündigungsdatum  | Geben Sie das Datum an, an dem die Behörde die Änderung angekündigt hat.|
         |Letztes Archivierungsdatum  | Wählen Sie den Stichtag für die erste Übermittlung des neuen oder geänderten Berichts aus.|
@@ -66,7 +74,9 @@ Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Willkommen bei Business Central](index.md)  
+[Lokale Funktion in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Sprache und Gebiet ändern](about-locale-language.md)  
 [Erste Schritte](product-get-started.md)  
+[Willkommen zu Business Central](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

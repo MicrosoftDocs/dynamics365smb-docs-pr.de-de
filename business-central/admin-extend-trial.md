@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: f41cdfb90ab7ef6cff74205edfa4393c7da5f3d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: cefaf4469cb174140833e310e5c28fa6de1baf9c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239935"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308188"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Benötigen Sie mehr Zeit, um sich für ein Abonnement zu entscheiden?
 Es ist wichtig, dass Sie die richtige Entscheidung treffen, wenn Sie eine Geschäftsanwendung auswählen, und wir wissen, dass es einige Zeit dauern kann, um alle Ecken in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erkunden. Wenn Sie mehr Zeit benötigen, um Ihre Einschätzung zu beenden, können Sie die Testversionszeitraum selbst um weiterer 30 Tage erweitern. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrichtigung angezeigt, um Sie darauf hinzuweisen, wenn Sie sich anmelden. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen.

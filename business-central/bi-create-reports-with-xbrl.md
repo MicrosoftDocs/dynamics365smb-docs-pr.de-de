@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0576f2e7b93040118d2ef31458939d9b9822a6aa
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a327ffa67dcf5f9a388c99b236ce9cbf5755561
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247002"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307540"
 ---
 # <a name="create-reports-with-xbrl"></a>Berichte mit XBRL erstellen
 XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben. Die XBRL-Initiative ermöglicht die Erstellung globaler Finanzberichte durch verschiedene ERP-Softwareunternehmen und internationale Buchhaltungsorganisationen. Das Ziel der Initiative ist es, einen Standard für die einheitlichen Berichterstellung der Finanzdaten für Banken, Investoren und Regierungsbehörden bereitzustellen. Solche Geschäftsberichte können Folgendes umfassen:  
@@ -34,7 +34,7 @@ XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) ist eine XML-basi
 
 Taxonomien sind unter www.xbrl.org erhältlich. Auf der XBRL-Website können Sie Taxonomien herunterladen oder weitere Informationen erhalten.  
 
-Jemand, der Informationen über Ihre finanzielle Situation haben möchte, stellt Ihnen eine Taxonomie zur Verfügung (ein XML-Dokument), die ein oder mehrere Schema/ta enthält, in denen ein oder mehrere Zeilen ausgefüllt werden können. Die Zeilen entsprechen den individuellen Finanzfakten, die vom Sender verlangt werden. Sie importieren diese Taxonomie in Ihre Anwendung und füllen dann das/die Schema/ta aus, indem Sie eingeben, welche/s Konto/Konten der jeweiligen Zeile entspricht, welcher Zeitrahmen benutzt wird, z. B. Bewegung oder Saldo bis Datum. In einigen Fällen können Sie ersatzweise eine Konstante eingeben wie z. B. die Mitarbeiteranzahl. Nun können Sie das Instance Document (ein XML-Dokument) an denjenigen schicken, der die Informationen angefordert hat. Der Gedanke dahinter ist, dass sich dieser Vorgang mehrmals wiederholen kann, so dass Sie, trotz eventueller Änderungen an der Taxonomie, nur neue Instance Documents für andere Zeiträume exportieren müssen.  
+Jemand, der Informationen über Ihre finanzielle Situation haben möchte, stellt Ihnen eine Taxonomie zur Verfügung (ein XML-Dokument), die ein oder mehrere Schema/ta enthält, in denen ein oder mehrere Zeilen ausgefüllt werden können. Die Zeilen entsprechen den individuellen Finanzfakten, die vom Sender verlangt werden. Sie importieren diese Taxonomie in Ihre Anwendung und füllen dann das Schemata aus, indem Sie eingeben, welche/s Konto/Konten der jeweiligen Zeile entspricht, welcher Zeitrahmen benutzt wird, z. B. Bewegung oder Saldo bis Datum. In einigen Fällen können Sie ersatzweise eine Konstante eingeben wie z. B. die Mitarbeiteranzahl. Nun können Sie das Instance Document (ein XML-Dokument) an denjenigen schicken, der die Informationen angefordert hat. Der Gedanke dahinter ist, dass sich dieser Vorgang mehrmals wiederholen kann, so dass Sie, trotz eventueller Änderungen an der Taxonomie, nur neue Instance Documents für andere Zeiträume exportieren müssen.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>XBRL besteht aus den folgenden Komponenten  
 Die XBRL **Spezifikation** erklärt, was XBRL ist, wie XBRL Instance Documents und XBRL-Taxonomien erstellt werden. Die XBRL-Spezifikation erklärt XBRL mit technischen Ausdrücken und ist für Techniker gedacht.  
@@ -55,7 +55,7 @@ Eine Taxonomie kann aus einer Grundtaxonomie, z .B. US-GAAP oder IAS, und einer 
 
 -   Beschriftungslinkbase: Diese Linkbase enthält Beschriftungen oder Namen für die Elemente. Die Datei enthält möglicherweise Beschriftungen in verschiedenen Sprachen, die mit einer XML-Eigenschaft namens "lang" identifiziert werden. Die XML-Sprachen-ID enthalten normalerweise eine zweibuchstabige Abkürzung, und obwohl es einfach sein sollte, zu beurteilen, was die Abkürzung bedeutet, gibt es keine Verbindung zum Windows-Sprachcode oder zu den Sprachcodes, die in den Demodaten definiert werden. Wenn der Benutzer daher die Sprachen nach einer bestimmten Taxonomie durchsucht, sieht er alle Beschriftungen für das erste Element in der Taxonomie, was bedeutet, dass er ein Beispiel jeder Sprache anzeigen kann. Eine Taxonomie kann mehrere Beschriftungslinkbases haben, die damit verknüpft werden, solange diese Linkbases unterschiedliche Sprachen enthalten.  
 
--   Darstellungslinkbase: Diese Linkbase enthält Informationen zur Elementstruktur, genauer gesagt, Informationen darüber, wie der Ersteller der Taxonomie möchte, dass die Anwendung dem Anwender die Taxonomie darstellen soll. Die Linkbase enthält eine Reihe von Verknüpfungen, die jeweils zwei Elemente als über- und untergeordnet verknüpfen. Bei der Anwendung dieser Verknüpfungen können die Elemente hierarchisch dargestellt werden. Beachten Sie, dass die Darstellungslinkbase nur das behandelt: Die Darstellung der Elemente für den Anwender.  
+-   Darstellungslinkbase: Diese Linkbase enthält Informationen zur Elementstruktur, genauer gesagt, Informationen darüber, wie der Ersteller der Taxonomie wünscht, dass die Anwendung dem Anwender die Taxonomie darstellen soll. Die Linkbase enthält eine Reihe von Verknüpfungen, die jeweils zwei Elemente als über- und untergeordnet verknüpfen. Bei der Anwendung dieser Verknüpfungen können die Elemente hierarchisch dargestellt werden. Beachten Sie, dass die Darstellungslinkbase nur das behandelt: Die Darstellung der Elemente für den Anwender.  
 
 -   Berechnungslinkbase: Diese Linkbase enthält Informationen darüber, welche Elemente übernommen werden. Die Struktur ähnelt der der Darstellungslinkbase, mit der Ausnahme, dass jeder Link oder "Bogen" über eine "Weight"(Gewicht)-Eigenschaft verfügt. Das Gewicht kann entweder 1 oder -1 betragen und damit anzeigen, ob das Element zu seinem übergeordneten Element addiert oder von ihm subtrahiert werden soll. Beachten Sie, dass die Roll-ups für die visuelle Darstellung nicht notwendig sind.  
 

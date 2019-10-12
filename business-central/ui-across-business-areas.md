@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 786b56fb247cc57062dfe98c29dce446dd77ccda
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921407"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315684"
 ---
 # <a name="general-business-functionality"></a>Allgemeine Geschäftsfunktionen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt dedizierte Funktionen für typische Geschäftsbereiche, wie Finanzen und Personalwesen, bereit. Weitere Informationen finden Sie unter [Business-Funktionalität](across-business-functionality.md).
@@ -37,11 +37,11 @@ Die folgende Tabelle enthält die unterstützten Geschäftsbereiche und Links zu
 |Archivieren Sie Aufträge oder Bestellungen, Angebote, Reklamationen und Rahmenaufträge, und Sie können den archivierten Beleg verwenden, um den Beleg neu zu erstellen, dass er aus archiviert wurde.|[Beleg archivieren](across-how-to-archive-documents.md)|
 | Einrichten von Standardtextcodes, sodass Standardtext durch Hinzufügen weiterer Zeilen erweitert werden kann, und Einrichten von Bedingungen für die Verwendung der zusätzlichen Zeilen |[Hinzufügen von Textbausteinen](ui-how-define-ext-text.md) |
 |Sie können Aufgaben erstellen, die Sie an Arbeit erinnern, die durchgeführt werden muss. Sie können Aufgaben für sich selbst erstellen, aber Sie können auch Aufgaben an Andere zuweisen oder Ihnen kann von jemand anderem in Ihrer Organisation eine Aufgabe zugewiesen werden.|[Benutzeraufgaben definieren](across-user-tasks.md)|
-|Fügen Sie Bilder, Dokumente und andere Arten von Dateien an alle Karten, wie der Artikelkarte und der Projektkarte, an, und fügen Sie Dateien an alle Arten von Einkaufs- und Verkaufsbelegen an.|[Anfügen von Dateien zu den Karten und den Belegen](across-attach-document-master-data.md)|
 |Arbeiten mit Business Central Daten in Excel.|[Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)|
 |Sie sollten verstehen, was passiert, wenn Sie die Aktion **Buchen** auswählen.|[Journale und Dokumente buchen](ui-post-documents-journals.md)|
+|Buchen Sie mehrere Kauf- oder Verkaufsbelege gleichzeitig, sofort oder wie geplant.|[Mehrere Dokumente gleichzeitig buchen](ui-batch-posting.md)|  
 |Überprüfen Sie das Ergebnis der Buchung bevor Sie buchen.|[Vorschau-Buchungs-Ergebnisse](ui-how-preview-post-results.md)|
-|Bearbeiten Sie ausgewählte Felder in gebuchten Verkaufs- oder Einkaufsbelegen.|[Gebuchte Belege bearbeiten](across-edit-posted-document.md)| 
+|Bearbeiten Sie ausgewählte Felder in gebuchten Verkaufs- oder Einkaufsbelegen.|[Gebuchte Belege bearbeiten](across-edit-posted-document.md)|
 |Informationen zum Arbeiten mit Fibu Buch.-Blättern, die zum Buchen auf Sachkonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten verwendet werden. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md) |
 | Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird. |[Planen der Ausführung eines Berichts](ui-work-report.md#ScheduleReport) |
 |Das System kann Ihnen dabei helfen, Aufgaben schneller und korrekter zu erledigen, indem es Felder oder Zeilen mit Daten ergänzt, die Sie sonst berechnen und manuell eingeben müssten.|[Business Central Werte vorschlagen lassen](ui-let-system-suggest-values.md)|

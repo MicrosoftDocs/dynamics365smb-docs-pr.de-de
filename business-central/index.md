@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e7ac55b54aca4187de23292865b70c8acf47d33d
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 9f84e224afa474cffd6c2956bd9ebf24169ce105
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858312"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301432"
 ---
 # <a name="welcome-to-included365fin_longincludesd365fin_long_mdmd"></a>Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Dank der hohen Flexibilität sowie der umfangreichen Features ermöglicht [!INCLUDE[d365fin](includes/d365fin_md.md)] Unternehmen die Verwaltung ihrer Geschäftsbereiche – einschließlich Finanzen, Produktion, Vertrieb, Versand, Projektverwaltung und Services. Die Anwendung kann problemlos um weitere Funktionen erweitert werden, die für den jeweiligen Geschäftsbereich benötigt werden und die selbst für hoch spezialisierte Branchen angepasst werden können.
@@ -35,7 +35,8 @@ ms.locfileid: "1858312"
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Kompatibilität](compliance/compliance-overview.md)  
 [Dynamics 365-Dokumentation](/dynamics365/)  
-[Dynamics 365 Business Central auf microsoft.com](https://dynamics.microsoft.com/business-central/overview/)
+[Dynamics 365 Business Central auf microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
+[Dynamics 365 Business Central am Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

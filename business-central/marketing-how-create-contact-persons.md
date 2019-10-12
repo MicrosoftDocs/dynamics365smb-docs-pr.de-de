@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
-ms.openlocfilehash: b3012f5f22fc1dbbb78eb655e2d27abe290eb470
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2119798afd1963beba0444f919a8fa330d3fff0f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238371"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309196"
 ---
 # <a name="create-contact-persons"></a>Anlegen von Kontaktpersonen
 Sie können für jeden Kontakt eine Kontaktkarte erstellen, der für das Unternehmen arbeitet, mit dem Sie Geschäfte machen. Für jedes Kontaktunternehmen können Sie beliebig viele Kontaktpersonen eingeben. Außerdem können Sie Kontaktkarten für die Personen erstellen, die Sie als unabhängig speichern möchten.

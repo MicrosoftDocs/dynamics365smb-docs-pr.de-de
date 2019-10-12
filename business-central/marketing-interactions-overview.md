@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 504484c5a5afa75890c128fe554a5360e36adfc4
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 2b8e3ed1142386a6472feb35e968eeac30da7f06
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1447083"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308932"
 ---
 # <a name="managing-interactions"></a>Interaktionen verwalten
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] versteht man unter Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten. Kommunikationen können zum Beispiel per Brief, E-Mail, Telefon, Besprechungen usw. erfolgen.

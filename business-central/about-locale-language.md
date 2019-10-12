@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245296"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300785"
 ---
 # <a name="changing-language-and-locale"></a>Sprache und Gebiet ändern
 
@@ -23,7 +23,7 @@ ms.locfileid: "1245296"
 
 Wenn Sie die kanadische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] nutzen, können Sie die Benutzeroberfläche in Englisch und auf französisch sehen, aber es ist immer noch die kanadische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] in allen anderen Aspekten. Es ist nicht gleich wie sagen wir [!INCLUDE[d365fin](includes/d365fin_md.md)] in Großbritannien.  
 
-Um der Benutzeroberfläche die Sprache zu ändern, wechseln Sie zur Seite **Meine Einstellungen**. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md#language).  
+Um der Benutzeroberfläche die Sprache zu ändern, wechseln Sie zur Seite **Meine Einstellungen**. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md#language).  
 
 Die Änderung der Texte in den Daten der Anwendung ist kein Bestandteil der Multilanguagefunktionalität. Dies ist durch das Design der Anwendung bedingt. Beispiele für solche Texte sind die Namen der Artikel oder Bemerkungen für einen Debitor. D. h. diese Textarten werden nicht übersetzt.  
 
@@ -38,9 +38,9 @@ Sie können das Gebietsschema in der Browserregisterkarte ändern, die Sie verwe
 > [!IMPORTANT]  
 >  Wenn Sie das Gebietsschema ändern, sehen Sie auch eine lange Liste von Sprachen und von Gebietsschemen. Jedoch nur die Gebietsschemaeinstellung wird in der aktuellen Version von verwendet [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Um das Gebietsschema zu ändern, gehen Sie auf die Seite **Meine Einstellungen**. Weitere Informationen finden Sie unter [Ändern von Grundeinstellungen](ui-change-basic-settings.md).  
+Um das Gebietsschema zu ändern, gehen Sie auf die Seite **Meine Einstellungen**. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).  
 
-## <a name="languages-of-the-included365finincludesd365finmdmd-help"></a>Sprachen der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Hilfe
+## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Sprachen der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Hilfe
 Der Hilfeinhalt für die Kernfunktionalität in [!INCLUDE[d365fin](includes/d365fin_md.md)] wird auf der Microsoft Dokumentenseite veröffentlicht und ist in unterschiedlichen Sprachen verfügbar. Wenn Sie die Dokumente in [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnen, wird der Inhalt in Ihrer Sprache angezeigt. Wenn eine bestimmte Seite noch nicht in der Sprache verfügbar ist, wird sie in Englisch angezeigt.
 
 ### <a name="how-do-i-change-the-language"></a>Wie ändere ich die Sprache?

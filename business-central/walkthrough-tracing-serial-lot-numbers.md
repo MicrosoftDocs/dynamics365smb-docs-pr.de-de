@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 913537f5fad5732c729a5e00894400bedcf949b3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a1a339c57e47f3722050209acbe83e246ccdbbb6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249032"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310492"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
 
@@ -78,7 +78,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Geben Sie im Feld **Nr.** Geben Sie im Feld **2000** ein und füllen Sie dann die folgenden Felder aus.  
 
-    |Beschreibung|Basiseinheiten|Produktbuchungsgruppe|MwSt.-Produktbuchungsgruppe|Lagerbuchungsgruppe|Artikelverfolgungscode|  
+    |Beschreibung|Basiseinheiten|Gen. Produktbuchungsgruppe|MwSt.-Produktbuchungsgruppe|Lagerbuchungsgruppe|Artikelverfolgungscode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
     |Rennradrahmen|STÜCK|ROHMAT|MWST25|ROHMAT|CHARGEALLE|  
 
@@ -90,7 +90,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 6.  Wählen Sie **Neu** aus.  
 7.  Geben Sie im Feld **Nr.** Geben Sie im Feld **1002** ein und füllen Sie dann die folgenden Felder aus.  
 
-    |Beschreibung|Basiseinheiten|Produktbuchungsgruppe|MwSt.-Produktbuchungsgruppe|Lagerbuchungsgruppe|Beschaffungsmethode|Artikelverfolgungscode|  
+    |Beschreibung|Basiseinheiten|Gen. Produktbuchungsgruppe|MwSt.-Produktbuchungsgruppe|Lagerbuchungsgruppe|Beschaffungsmethode|Artikelverfolgungscode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Rennrad|STÜCK|HANDEL|MWST25|FERTIG|Fertigungsauftrag|SNALLE|  
 

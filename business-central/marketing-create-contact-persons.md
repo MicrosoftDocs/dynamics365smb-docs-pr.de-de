@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
-ms.openlocfilehash: 1720bc633599a9568279b219e579c8df81b7b697
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9a212a5c0b210220ff093eb972de6bfdf5da1f35
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238430"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309268"
 ---
 # <a name="creating-contact-persons"></a>Kontaktpersonen erstellen
 Ein Kontakt wird durch Einrichten einer Kontaktkarte für die Person erstellt. Sie können Kontaktpersonen auf der Grundlage vorhandener Kontaktunternehmen oder auch unabhängige Kontaktpersonen erstellen.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39e8a4bce8174116bbe7b63908007aa7873acc02
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54cdb205f26de16397890e08b8918c66998af9b9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446738"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308794"
 ---
 # <a name="managing-relationships"></a>Verwalten von Beziehungen
 Die Marketing & Vertriebsverwaltungsfeatures von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützen Sie beim Verwalten und Ausführen von Verkaufsmaßnahmen. Mit diesen Features haben Sie Zugriff auf umfassende und exakte Informationen, dank derer Sie Ihre Aktivitäten auf bevorzugte Debitoren-Kontaktsegmente konzentrieren können.
@@ -34,4 +34,4 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Definieren Sie Segmente, um anhand bestimmter Kriterien eine Gruppe von Kontakten auszuwählen, wie z. B. die Branche der Kontakte.|[Verwalten von Segmenten](marketing-segments.md)|
 |Verarbeiten Sie neue Leads, indem Sie Verkaufschancen erstellen und dem Verkäufer zuordnen, um potenzielle Verkäufe nachverfolgen zu können.|[Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)|
 |Erstellen Sie Marketingpläne, um Debitoren zu ermitteln, zu gewinnen und zu binden.|[Verwaltung von Marketingkampagnen](marketing-campaigns.md)|
-|Verwenden Sie Dynamics 365 for Sales for Customer Engagement und nutzen Sie die nahtlose Integration in den Interessent-zu-Geld-Prozess, indem Sie Business Central für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.|[Integrieren in Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Verwenden Sie Dynamics 365 Sales for Customer Engagement und nutzen Sie die nahtlose Integration in den Interessent-zu-Geld-Prozess, indem Sie Business Central für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.|[Integration mit Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|

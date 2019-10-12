@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b816d7ff9f8446aa81746b980fd47b3b531e1396
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239028"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302551"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysieren von Finanzauswertungen in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], können Sie KPIs sehen und Übersichten über die Finanzlage des Unternehmens anzeigen. Sie können ebenfalls Listen in Excel öffnen und die Daten dort analysieren. Sie können jedoch umfangreiche Finanzauswertungen wie die Bilanz oder der GuV in Excel exportieren, die Daten analysieren und Änderungen wieder importieren .  
@@ -36,7 +36,7 @@ Nehmen wir mal an, Sie möchten den Cashflow vertiefter ansehen. Vom Geschäftsf
 
 Dort finden Sie eine Registerkarte, in der die Daten für Sie im ersten Fenster ausgebreitet werden. Alle Daten, die exportiert wurden, sind ebenfalls in anderen Arbeitsblättern vorhanden, wenn Sie sie benötigen. Sie können den Bericht sofort drucken, oder Sie können das Feld ändern, solange Sie die Übersicht und die Details haben, die Sie anzeigen möchten. Verwenden Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel-Add-In, um Daten zu filtern und zu analysieren.  
 
-## <a name="the-included365finincludesd365finmdmd-excel-add-in"></a>Das [!INCLUDE[d365fin](includes/d365fin_md.md)]Excel-Add-in
+## <a name="the-included365finincludesd365fin_mdmd-excel-add-in"></a>Das [!INCLUDE[d365fin](includes/d365fin_md.md)]Excel-Add-in
 Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzeroberfläche umfasst das Add-In für Excel. Abhängig von Ihrem Abonnement werden Sie automatisch angemeldet, oder Sie müssen die selben Anmeldedetails festlegen, die Sie verwenden für [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Mit dem Add-In können Sie neue Daten abrufen von [!INCLUDE[d365fin](includes/d365fin_md.md)], und Sie können Änderungen zurück importieren [!INCLUDE[d365fin](includes/d365fin_md.md)]. Die Möglichkeit, ein Rückverfolg«»en der Daten zurück zur Datenbank für Excel-Finanzberichte in der Liste oben wird deaktiviert.  

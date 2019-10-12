@@ -1,6 +1,6 @@
 ---
 title: 'Vorgehensweise: Planen von Einlagerungen in Vorschlägen | Microsoft Docs'
-description: Wenn für Ihren Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie Einlagerungsanweisungen für mehrere Wareneingänge planen möchten – anstatt die Mitarbeiter Anweisungen ausführen zu lassen, die die Anwendung für einzelne gebuchte Wareneingänge erzeugt – können Sie den Einlagerungsvorschlag nutzen.
+description: Wenn für Ihren Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie Einlagerungsanweisungen für mehrere Wareneingänge planen möchten, anstatt die Mitarbeiter Anweisungen ausführen zu lassen, die die Anwendung für einzelne gebuchte Wareneingänge erzeugt – können Sie den Einlagerungsvorschlag nutzen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3bf24a32ba4a411ada744092d594b874c0154588
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ae631fc6383e9aec6edc5fcc432e614f39ee74e4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248456"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314604"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planen von Einlagerungen in Arbeitsblättern
-Wenn für Ihren Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie Einlagerungsanweisungen für mehrere Wareneingänge planen möchten – anstatt die Mitarbeiter Anweisungen ausführen zu lassen, die die Anwendung für einzelne gebuchte Wareneingänge erzeugt – können Sie den Einlagerungsvorschlag nutzen.  
+Wenn für Ihren Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie Einlagerungsanweisungen für mehrere Wareneingänge planen möchten, anstatt die Mitarbeiter Anweisungen ausführen zu lassen, die die Anwendung für einzelne gebuchte Wareneingänge erzeugt – können Sie den Einlagerungsvorschlag nutzen.  
 
 Um Ihr Lager so einzurichten, dass die Wareneingangszeilen im Einlagerungsvorschlag verfügbar sind, sobald sie gebucht wurden, wählen das Feld **Einlagerungsvorschl. verwenden** im Inforegister **Lager** der Lagerortkarte des jeweiligen Lagers. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
 
-Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch Einlagerungsanweisungen für Wareneingänge, wenn diese gebucht werden.  
+Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch die Einlagerungsanweisungen für Wareneingänge, wenn diese gebucht werden.  
 
 > [!NOTE]  
 >  Unabhängig vom Status des Feldes **Einlagerungsvorschl. verwenden** auf der Lagerortkarte können Sie immer Einlagerungsanweisungszeilen, d. h. gebuchte Wareneingangszeilen, in den Einlagerungsvorschlag holen, indem Sie Folgendes tun:  
@@ -41,7 +41,7 @@ Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch Einlagerun
 3. Wählen Sie die Belege, die Sie im Vorschlag bearbeiten möchten. Sie können gleichzeitig an Zeilen aus verschiedenen Belegen arbeiten.  
 
     > [!NOTE]  
-    >  Wenn Sie versuchen, einen Beleg auszuwählen (Wareneingang oder interne Einlagerung), für den Sie bereits Anweisungen für alle Zeilen erzeugt haben, werden Sie von der Anwendung darüber informiert, dass es keine Mengen zu bewegen gibt.  
+    >  Sollten Sie versuchen, einen Beleg auszuwählen (Wareneingang oder interne Einlagerung), für den Sie bereits Anweisungen für alle Zeilen erzeugt haben, werden Sie von der Anwendung darüber informiert, dass es keine Mengen zu bewegen gibt.  
 
 4. Füllen Sie das Feld **Sortiermethode** aus, um die Zeilen nach Wunsch zu sortieren.  
 
@@ -58,11 +58,11 @@ Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch Einlagerun
 
     -   Sie können die Einlagerung einem bestimmten Mitarbeiter zuordnen.  
     -   Sie können die Einlagerungsanweisungszeilen so sortieren, wie Sie es im Vorschlag getan haben oder nach Lagerplatzpriorität. Wenn Sie nach der Lagerplatzpriorität sortieren, erscheinen zuerst die Zeilen der Art "Entnahme", da die meisten Wareneingangslagerplätze eine Lagerplatzpriorität 0 haben, und als Letztes erscheinen die Zeilen der Art "Einlagerung", beginnend mit den Lagerplätzen mit der niedrigsten Lagerplatzpriorität. Wenn Sie Ihr Lager so strukturiert haben, dass sich Lagerplätze von ähnlicher Lagerplatzpriorität nebeneinander befinden, verkürzt eine auf diese Art durchgeführte Sortierung die Wege, die die Lagermitarbeiter zurücklegen müssen.  
-    -   Sie können wählen, dass die Zwischenzeilen nicht angezeigt werden sollen, die die Anwendung erzeugt, wenn sie eine größere Einheit in kleinere Einheiten aufbricht, indem Sie das Feld **Gebindeanbruchsfilter verw.** wählen. Weitere Informationen finden Sie unter [Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung aktivieren](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Sie können wählen, dass die Zwischenzeilen nicht angezeigt werden sollen, die die Anwendung erzeugt, wenn sie eine größere Einheit in kleinere Einheiten aufbricht, indem Sie das Feld **Gebindeanbruchsfilter festlegen** wählen. Weitere Informationen finden Sie unter [Automatisches Teilen von Gebindeeinheiten mit gesteuerter Einlagerung und Kommissionierung aktivieren](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Sie können wählen, dass nicht automatisch das Feld **Bewegungsmenge** in den Einlagerungsanweisungen ausgefüllt wird.  
     -   Sie können sich entscheiden, den Beleg sofort zu drucken.  
 
-8.  Bestätigen Sie mit **OK**, und die Anwendung erzeugt die Einlagerung entsprechend Ihren Anforderungen.  
+8.  Wählen Sie die Schaltfläche **OK** und die Anwendung erzeugt die Einlagerung entsprechend Ihren Anforderungen.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  

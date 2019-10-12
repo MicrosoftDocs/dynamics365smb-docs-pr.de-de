@@ -11,21 +11,21 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bf3a9c6b3869ab510376939b48b7452f03cdd4af
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f6794eb3f18927cee63f276e6d91410e81279620
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237947"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300194"
 ---
 # <a name="elster-transmission-overview"></a>ELSTER-Übermittlung – Übersicht
 Wenn ein Benutzer eine Umsatzsteuervoranmeldung von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] an das Onlineportal „Elektronische Steuererklärungen (ELSTER)” übermittelt, verarbeitet die Microsoft.Dynamics.ElsterTransferHandler-Assembly das Dokument und übermittelt es dann an ELSTER. Im nächsten Abschnitt werden technische Aspekte der Übermittlung von Dokumenten an ELSTER beschrieben.  
 
 ## <a name="process-overview"></a>Prozess – Überblick  
 
-1.  Innerhalb des Programms werden alle relevanten Daten erfasst und in ein XML-Dokument geschrieben, das einem von der Oberfinanzdirektion (OFD) vorgegebenen Schema entspricht. Dieses Dokument enthält Steuerdaten sowie Informationen zu dem Unternehmen und der Person, die diese Steuerdaten übermittelt.  
+1.  Innerhalb der Anwendung werden alle relevanten Daten erfasst und in ein XML-Dokument geschrieben, das einem von der Oberfinanzdirektion (OFD) vorgegebenen Schema entspricht. Dieses Dokument enthält Steuerdaten sowie Informationen zu dem Unternehmen und der Person, die diese Steuerdaten übermittelt.  
 2.  Nachdem dieses Dokument erfolgreich erstellt wurde, wird es um Konfigurationsinformationen (Proxyserver, Zertifikate usw.) erweitert, die von Microsoft.Dynamics.ElsterTransferHandler benötigt werden.  
 3.  Das vollständige Dokument wird an Microsoft.Dynamics.ElsterTransferHandler übergeben. Die Assembly führt eine weitere Verarbeitung der Daten aus (Verschlüsselung, Komprimierung, Signatur) und sendet diese an einen der Server der OFD.  
 
@@ -35,7 +35,7 @@ Wenn ein Benutzer eine Umsatzsteuervoranmeldung von [!INCLUDE[d365fin](../../inc
 5.  Das Antwortdokument wird von Microsoft.Dynamics.ElsterTransferHandler empfangen, entschlüsselt und dekomprimiert und als XML-Dokument an [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zurückgegeben. Sie können dann die Antworten auf der Seite **MwSt.-Übertragungsprotokollposten** anzeigen.  
 
 ## <a name="process-details"></a>Verarbeiten von Details  
-Die Microsoft.Dynamics.ElsterTransferHandler-Assembly ist für die Aufbereitung vor der Übermittlung an die OFD sowie die Verarbeitung des Antwortdokuments vor der Rückgabe an das Programm zuständig.  
+Die Microsoft.Dynamics.ElsterTransferHandler-Assembly ist für die Aufbereitung vor der Übermittlung an die OFD sowie die Verarbeitung des Antwortdokuments vor der Rückgabe an die Anwendung zuständig.  
 
 ## <a name="compression"></a>Komprimierung  
 Das verwendete Komprimierungsverfahren ist GZIP. Eine Komprimierungsmethode, die Datenintegrität anhand einer Redundanzprüfung gewährleistet. Weitere Informationen finden Sie unter [System.IO.Compression.GZipStream](https://go.microsoft.com/fwlink/?LinkId=200710) in MSDN-Bibliothek. Bestimmte Teile der Dokumente werden mithilfe des GZIP-Verfahrens komprimiert.  

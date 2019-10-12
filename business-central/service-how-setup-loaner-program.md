@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 68ee937b8bf9f9f0784c8e96a78dbc3f0486d50f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: aa614e87a6414cb0d96f1130f02d40898cc2f2e3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251469"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311860"
 ---
 # <a name="set-up-a-loaner-program"></a>Einrichten eines Leihgeräteprogramms
 Gelegentlich muss einem Debitor ein Leihgerät zur Verfügung gestellt werden, wenn das Debitorendienstteam eine Reparatur durchführt. Mithilfe von [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ein Leihgerätprogramm einrichten, Ihren Debitoren Artikel ausleihen, und die Rückgabe der Artikel verfolgen. Darüber hinaus können Sie Bemerkungen über Leihgeräte in einer von zwei Arten hinzuzufügen:  

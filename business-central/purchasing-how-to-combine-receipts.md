@@ -1,5 +1,5 @@
 ---
-title: so fassen Sie Wareneingänge zusammen | Microsoft Docs
+title: Zulassen, dass mehr Artikel als bestellt eingehen | Microsoft Docs
 description: Wenn Sie mehrere Einkaufslieferungen gleichzeitig fakturieren möchten, können Sie die Funktion Sammelgutschrift verwenden.
 services: project-madeira
 documentationcenter: ''
@@ -10,40 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5e1b04cc998319cc835b5dcc1547723c48be6763
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6076412504a8f9176503deced03ae92c7e8076c5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252874"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312436"
 ---
-# <a name="combine-receipts-on-a-single-invoice"></a>Zusammenfassen von Lieferungen in einer einzelnen Rechnung
-Wenn Sie mehrere Einkaufslieferungen gleichzeitig fakturieren möchten, können Sie die Funktion **Sammelgutschrift** verwenden.  
+# <a name="allow-receipt-of-more-items-than-ordered"></a>Empfang von mehr Artikeln als bestellt zulassen
+Wenn Sie mehr Waren erhalten, als Sie bestellt haben, möchten Sie diese möglicherweise erhalten, anstatt den Beleg zu stornieren. Beispielsweise kann es billiger sein, den Überschuss Ihres Inventars zu behalten, als ihn zurückzugeben, oder Ihr Verkäufer bietet Ihnen möglicherweise einen Skonto für die Aufbewahrung an.
 
-Bevor Sie eine zusammengefassten Einkaufslieferung erstellen können, müssen Sie mehrere Einkaufslieferungen für den gleichen Debitor in der gleichen Währung gebucht haben. Anders ausgedrückt: Sie müssen mindestens zwei Einkaufsbestellungen ausgefüllt und als geliefert (aber nicht fakturiert) gebucht haben.  
+Auftragsbearbeiter und Lagerarbeiter müssen in der Lage sein, solche "Überbelege" zu verarbeiten, ohne einen langwierigen Prozess zur Vorbereitung und Genehmigung einer neuen Bestellung durchlaufen zu müssen.
 
-Wenn Einkaufslieferungen in einer Rechnung zusammengefasst und gebucht werden, wird für die fakturierten Zeilen eine gebuchte Einkaufsrechnung erstellt. Das Feld **Menge fakturiert** auf der Ursprungseinkaufsbestellung oder der Rahmenbestellung wird ausgehend von der fakturierten Menge aktualisiert. Der ursprüngliche Beleg wird jedoch nicht gelöscht, auch wenn er vollständig geliefert und fakturiert wurde, und Sie müssen daher den Einkaufsbeleg löschen.  
+## <a name="to-receive-more-items-than-specified-on-the-purchase-document"></a>Um mehr Artikel als auf dem Kaufbeleg angegeben zu erhalten
 
-## <a name="to-combine-receipts"></a>So fassen Sie Wareneingänge zusammen  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kaufrechnung** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie die Aktion **Neu** aus. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).  
-3. Klicken Sie im Inforegister **Zeilen** und wählen die  Aktionen **Wareneingangszeilen holen**.  
-4. Wählen Sie die Wareneingangszeilen aus, die in der Rechnung enthalten sein sollen.  
-
-    Wenn Sie eine falsche Wareneingangszeile ausgewählt haben oder von vorn beginnen möchten, können Sie einfach die Zeilen in der Einkaufsrechnung löschen und die Funktion **Wareneingangszeilen holen** erneut ausführen.  
-5. Um die Rechnung zu buchen, wählen Sie die Aktion **Buchen** aus.  
-
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Offene Einkaufsreklamationen nach kombinierter Lieferungsbuchung entfernen  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verrechnete Verkaufsaufträge löschen** ein, und wählen dann den zugehörigen Link aus.  
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-3. Wählen Sie die Schaltfläche **OK** aus.  
-
-Alternativ löschen Sie die jeweiligen Aufträge manuell.
-
-Wiederholen Sie die Schritte 1 bis 3 für alle betroffenen anderen Belege, wie z. B. Rahmenbestellungen.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Käufe und Verkäufe einrichten** ein, und wählen dann den zugehörigen Link aus.
+2.   
 
 ## <a name="see-also"></a>Siehe auch  
 [Einkauf](purchasing-manage-purchasing.md)  
+[Empfangen von Artikeln](warehouse-how-receive-items.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

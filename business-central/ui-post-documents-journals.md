@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3fabec129de3e59eff30f70d1084e3969fa9ddc
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921361"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310695"
 ---
 # <a name="posting-documents-and-journals"></a>Journale und Dokumente buchen
 Das Buchen stellt die Buchhaltungsaktion vom Aufzeichnen von Geschäftstransaktionen in verschiedenen Mandantensachkontos dar.
@@ -29,6 +29,7 @@ Die folgende Tabelle enthält Informationen zu verwandten Aufgaben wie Links zu 
 | --- | --- |
 | Erfahren sie mehr zum Buchen von Kaufbelegen. |[Einkäufe buchen](ui-post-purchases.md) |
 | Erfahren sie mehr zum Buchen von Verkaufsbelegen. |[Verkäufe buchen](ui-post-sales.md) |
+| Buchen Sie mehrere Kauf- oder Verkaufsbelege gleichzeitig, sofort oder wie geplant.|[Mehrere Dokumente gleichzeitig buchen](ui-batch-posting.md)|
 | Erfahren Sie mehr zum Buchen von allgemeinen Vorlagen. |[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md) |
 | Auf einer Seite die Posten in der Vorschau anzeigen, die erstellt werden, wenn Sie buchen. |[Vorschau-Buchungs-Ergebnisse](ui-how-preview-post-results.md) |
 | In einem Bericht die Posten in der Vorschau anzeigen, die erstellt werden, wenn Sie buchen. |[Anzeigen von Testberichten vor dem Buchen](ui-how-view-test-reports-posting.md) |

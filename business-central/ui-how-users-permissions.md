@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 51c8c4207d9b5311698c7c5575fc67d8c5b2df9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250112"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310900"
 ---
-# <a name="managing-users-and-permissions"></a>Benutzer und ihre Berechtigungen verwalten
+# <a name="manage-users-and-permissions"></a>Benutzer und ihre Berechtigungen verwalten
 Um Benutzer in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen, muss der Office 365-Administrator Ihres Unternehmens zuerst einen Benutzer im Office 365-Admin Center erstellen. Weitere Informationen sind hier verfügbar [Benutzer zu Office 365 for Business hinzufügen](https://aka.ms/CreateOffice365Users).
 
 Sobald Benutzer in Office 365 erstellt sind, können diese auf die **Benutzer**-Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] importiert werden. Benutzer werden Berechtigungssätze abhängig vom Plan, der dem Benutzer in Office 365 zugewiesen. Für ausführliche Informationen über Lizenzierung siehe [Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch](https://aka.ms/BusinessCentralLicensing).
@@ -28,15 +28,23 @@ Ein Zugriffsrechtsatz ist eine Sammlung von Berechtigungen für bestimmte Objekt
 
 Auf der Seite **Benutzerkarte** können Sie das Fenster **Effektive Berechtigungen** öffnen, um festzustellen, welche Berechtigungen der Benutzer hat und mit welchen Berechtigungssätzen sie gewährt werden. Hier können Sie zudem die Berechtigungsdetails für Berechtigungssätze des Typs **Benutzerdefiniert** ändern. Weitere Informationen finden Sie unter [So erhalten Sie eine Übersicht der Benutzerberechtigungen](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Administratoren nutzen die Seite **Benutzer einrichten**, um Zeiträume zu definieren, in denen die angegebenen Benutzer Buchungen durchführen können. Außerdem können sie angeben, ob die Zeitdauer erfasst, während der angegebene Benutzer angemeldet sind.
+## <a name="users-in-on-premises-deployments"></a>Benutzer in lokalen Bereitstellungen
+Für lokale Bereitstellungen von [!INCLUDE[d365fin](includes/d365fin_md.md)] kann der Administrator zwischen verschiedenen Autorisierungsmechanismen für Benutzer auswählen. Wenn Sie einen Benutzer erstellen, stellen Sie je nach Anmeldeinformationstyp in der aktuellen [!INCLUDE[server](includes/server.md)]-Instanz verschiedene Informationen bereit. Weitere Informationen finden Sie unter [Authentifizierungs- und Anmeldeinformationstypen](/dynamics365/business-central/dev-itpro/administration/users-credential-types) im Abschnitt Verwaltung des Entwicklers und des ITPro-Inhalts für. [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
-Ein anderes System, das definiert, welche Benutzer zugreifen können, ist das Festlegen von Erfahrungen. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
+## <a name="profiles"></a>Profile
+Nachdem Benutzer hinzugefügt wurden, können Sie definieren, was sie auf der Benutzeroberfläche sehen und wie sie über Seiten mit ihren zulässigen Funktionen interagieren. Dies geschieht über Profile, die Rollen oder Abteilungen widerspiegeln, die Sie verschiedenen Benutzertypen zuweisen. Weitere Informationen finden Sie unter [Verwalten von Profilen](admin-users-profiles-roles.md) und [[!INCLUDE[d365fin](includes/d365fin_md.md)]anpassen](ui-customizing-overview.md).
 
 ## <a name="to-add-a-user-in-business-central"></a>Hinzufügen eines Benutzers in Business Central
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benutzer** ein, und wählen dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Benutzer von Office 365 abrufen** aus.
 
 Jeder neue Benutzer, der für Ihr Office 365-Abonnement erstellt wurde, wird auf der Seite **Benutzer** hinzugefügt.
+
+## <a name="to-edit-or-delete-a-user"></a>So bearbeiten oder löschen Sie einen Benutzer
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benutzer** ein, und wählen dann den zugehörigen Link aus.
+2. Wählen Sie den Benutzer aus, und wählen Sie anschließend die Aktion **Bearbeiten** aus.
+3. Füllen Sie auf der Seite **Benutzerkarte** die Informationen nach Bedarf aus.    
+4. Um einen Benutzer zu löschen, wählen Sie den Benutzer, den Sie löschen möchten, und wählen die Aktion **Löschen** aus.
 
 ## <a name="to-group-users-in-user-groups"></a>Um Benutzer in Benutzergruppen zu ordnen
 Sie können Benutzergruppen einrichten, um Ihnen zu helfen, Berechtigungssätze für Benutzergruppen in Ihrem Unternehmen zu verwalten.
@@ -110,7 +118,7 @@ Beispielsweise kann ein Benutzer die Berechtigung haben, Codeunit 80, Vertrieb-B
 
 Jedoch muss der Anwender keinen vollen Zugriff auf die Tabelle Verkaufszeile haben, um Codeunit auszuführen. Wenn der Benutzer über indirekte Berechtigungen für die Tabelle "Verkaufszeile" verfügt, wird die Codeunit "Verkaufseinheit" erfolgreich ausgeführt. Wenn ein Benutzer über indirekte Berechtigungen verfügt, kann dieser Benutzer die Tabelle Verkaufszeile nur ändern, indem die Verkaufsbuchung Codeunit oder ein anderes Objekt ausgeführt wird, das die Berechtigung zum ändern der Tabelle Verkaufsposition hat. Der Benutzer kann die Tabelle Verkaufsposition nur von unterstützten Anwendungsbereichen aus ändern. Der Benutzer kann die Funktion mit anderen Methoden nicht unbeabsichtigt oder böswillig ausführen.
 
-### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>So schränken Sie einen Benutzerzugriff auf bestimmte Datensätze in einer Tabelle ein
+## <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>So schränken Sie einen Benutzerzugriff auf bestimmte Datensätze in einer Tabelle ein
 Verwenden Sie für Sicherheit auf Datensatzebene in [!INCLUDE[d365fin](includes/d365fin_md.md)] Sicherheitsfilter, um den Benutzerzugriff auf Daten in einer Tabelle einzuschränken. Sie erstellen Sicherheitsfilter für Tabellendaten. Ein Sicherheitsfilter beschreibt einen Satz Datensätze in einer Tabelle, worauf ein Benutzer zugreifen darf. Sie können z. B. angeben, dass ein Benutzer nur die Daten lesen kann, die Informationen über einen bestimmten Debitor enthalten. Das bedeutet, dass der Benutzer nicht auf die Daten zugreifen kann, die Informationen zu anderen Debitoren enthalten. Weitere Informationen finden Sie unter [Verwenden von Sicherheitsfiltern](/dynamics365/business-central/dev-itpro/security/security-filters) in der Hilfe für Entwickler und IT-Spezialisten.
 
 
@@ -174,11 +182,16 @@ Der nachfolgende Vorgang erklärt, wie einem Benutzer auf der Seite **Benutzerbe
 > [!NOTE]  
 > Wenn Sie einen Berechtigungssatz bearbeiten, gelten die Änderungen auch für andere Benutzer, denen der Berechtigungssatz zugewiesen wurde.
 
+## <a name="to-remove-a-users-access-to-the-system"></a>So entfernen Sie den Zugriff eines Benutzers auf das System
+
+Als Administrator können Sie einem Benutzer den Zugriff auf das System entziehen, indem Sie das Feld **Zustand** auf **Deaktiviert** festlegen. Alle Verweise auf den Benutzer werden beibehalten, der Benutzer kann sich jedoch nicht mehr beim System anmelden, und aktive Sitzungen für den Benutzer werden beendet. Um dem Benutzer erneut Zugriff zu gewähren, ändern Sie das Feld **Zustand** auf **aktiviert**.
+
 ## <a name="see-also"></a>Siehe auch
 [Sicherheit und Schutz in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Benutzer, Profile und Rollencenter verstehen](admin-users-profiles-roles.md)  
+[Profile verwalten](admin-users-profiles-roles.md)  
+[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
-[Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)  
+[Funktionen, die angezeigt werden ändern](ui-experiences.md)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Hinzufügen von Benutzern zu Office 365 for Business](https://aka.ms/CreateOffice365Users)  
 [Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch](https://aka.ms/BusinessCentralLicensing)

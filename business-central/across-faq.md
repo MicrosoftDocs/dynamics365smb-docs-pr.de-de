@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 91cd5a7bd5b4aa5103e472fbf040599ac9740226
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: bfe2c4bec0627aee83d0ca25db975c76b7f803ab
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858266"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300569"
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -33,22 +33,24 @@ Wenn Sie soweit sind, [!INCLUDE [prodshort](includes/prodshort.md)] zu kaufen, k
 [!INCLUDE [prodshort](includes/prodshort.md)] wird über ein globales Netzwerk von Dynamics 365 Partnern mit Branchenexpertise verkauft und implementiert. Wenden Sie sich an einen Partner, um eine detaillierte Bewertung, Beratungsleistungen und zusätzliche Preise zu erhalten. Weitere Informationen finden Sie im Abschnitt **Preisgestaltung** auf der [Dynamics 365 Business Central Seite auf microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Wohin wende ich mich bei Fragen?
-Wenn Sie Fragen zum [!INCLUDE[d365fin](includes/d365fin_md.md)] haben, und keine Antwort in dieser Dokumentation finden, können Sie die  Business Central-Community fragen. Weitere Informationen finden Sie unter [Dynamics 365 Business Central-Community](https://community.dynamics.com/business).  
+Wenn Sie Fragen zum [!INCLUDE[d365fin](includes/d365fin_md.md)] haben, und keine Antwort in dieser Dokumentation finden, können Sie dieBusiness Central-Community fragen. Weitere Informationen finden Sie unter [Dynamics 365 Business Central-Community](https://community.dynamics.com/business).  
 
 Von der Communityhomepage aus finden Sie auch Verknüpfungen mit unseren Blogs, in denen Sie Tipps und Tricks finden. Weitere Informationen finden Sie unter [Microsoft Dynamics 365 Business Central auf dem Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) und den älteren [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials).  
 
 Schließlich können Sie Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Wiederverkaufspartner kontaktieren. Weitere Informationen finden Sie im Abschnitt [Wie erhalte ich techniscen Support?](across-faq.md#how-do-i-get-technical-support-for-).  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Warum finde ich diese Funktion nicht in meinem [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Haben Sie vor kurzem über eine neue Funktion im Veröffentlichungsplan in unserem Blog gelesen? In diesem Fall wurde Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise noch nicht auf die neueste Version aktualisiert. Wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt es eine Verzögerung zwischen der angekündigten Erweiterung und ihrer Verfügbarkeit in AppSource.  
+Haben Sie vor kurzem über eine neue Funktion im Veröffentlichungsplan in unserem Blog gelesen? In diesem Fall wurde Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise noch nicht auf die neueste Version aktualisiert. Sie können überprüfen, auf welcher Version Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] basiert auf der Seite [Hilfe und Unterstützung](product-help-and-support.md).  
+
+Also wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt es eine Verzögerung zwischen der angekündigten Erweiterung und ihrer Verfügbarkeit in AppSource.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Gibt es Unterschiede zwischen einer lokalen Bereitstellung und der Cloud-Version von Business Central?
 Ja. Einige Cloud-basierte Funktionen können in bestimmten Fällen lokal ausgeführt werden, andere werden überhaupt nicht unterstützt. Weitere Informationen finden Sie unter [Funktionen, die in lokalen Bereitstellungen von Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) nicht implementiert sind.
 
 ## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Kann ich unter [!INCLUDE[d365fin](includes/d365fin_md.md)] das Training aufrufen?
-Ja, das können Sie. Aber Sie müssen aktuell Ihren Wiederverkaufspartner fragen. Wenn Sie nicht wissen, wer das ist, kontaktieren Sie einen Business Central Partner unter [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Ja, das können Sie! Kostenlose eLearning-Inhalte finden Sie auf der [Microsoft Learn Seite](/learn/browse/?products=dynamics-business-central). Sie können auch Ihren Vertriebspartner um zusätzliche Schulungen bitten. Wenn Sie nicht wissen, wer das ist, kontaktieren Sie einen Business Central Partner unter [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-Wenn Sie Zugriff auf Microsoft CustomerSource haben, können Sie mit eLearning-Material auf die Imagine Academy-Website zugreifen. Weitere Informationen darüber, wie Sie Zugriff erhalten, finden Sie auf der Seite [Microsoft Dynamics 365-Training](/dynamics365/get-started/training/index#dynamics-365-customers).  
+Weitere Informationen zu Schulungen, die von Microsoft angeboten werden, finden Sie auf der Seite [Microsoft Dynamics 365 Ausbildung](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 ## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Wie gelange ich zum technischen Support von [!INCLUDE[d365fin](includes/d365fin_md.md)]"?
 
@@ -57,7 +59,7 @@ Wenn Sie Zugriff auf Microsoft CustomerSource haben, können Sie mit eLearning-M
 Weitere Informationen finden Sie unter [Hilfe und Support](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Warum beschreibt Hilfe Funktionalität, auf die ich nicht zugreifen kann?
-Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf **Wesentlich** festgelegt ist, dann sind Benutzeroberflächenelemente für die Fertigung und Dienstleistungs-Verwaltungsfunktionen für Sie nicht sichtbar, da sie die Benutzeroberfläche **Premium** erfordern. Ein Text-Hinweis wird in den obersten Hilfethemenebenen für diese Funktionsbereiche eingefügt. Weitere Informationen finden Sie unter [Ändern, welche Funktionen angezeigt werden](ui-experiences.md).
+Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf **Wesentlich** festgelegt ist, dann sind Benutzeroberflächenelemente für die Fertigung und Dienstleistungs-Verwaltungsfunktionen für Sie nicht sichtbar, da sie die Benutzeroberfläche **Premium** erfordern. Ein Text-Hinweis wird in den obersten Hilfethemenebenen für diese Funktionsbereiche eingefügt. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 
 ## <a name="where-is-the-save-button"></a>Wo ist die Speichern-Schaltfläche?
 
@@ -74,7 +76,7 @@ Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] lokal bereitstellen möchte
 ## <a name="do-i-have-to-buy-office-365"></a>Muss ich Office 365 kaufen?
 Nein. Wenn Sie allerdings möchten, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] vollständig in Office 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion von Office 365 [hier](https://products.office.com/try) anmelden.  
 
-Wenn das Konto, bei dem Sie sich anmelden, kein-Office 365 Arbeitskonto ist (wie z. B. *joe@mysolution.com*) und Sie ein Office 365 Abonnement haben, können Sie Ihre Domäne (*mysolution.com*) dem Office 365 Abonnement zuordnen. Weitere Informationen finden Sie unter [Hilfe mit  Office 365 Domänen](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Wenn das Konto, bei dem Sie sich anmelden, kein Office 365 Arbeitskonto ist (wie z. B. joe@mysolution.com) und Sie ein Office 365 Abonnement haben, können Sie Ihre Domäne (*mysolution.com*) dem Office 365 Abonnement zuordnen. Weitere Informationen finden Sie unter [Hilfe mit Office 365 Domänen](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
 Wenn Sie kein Office 365-Abonnement haben und Sie keines kaufen möchten, dann stellen wir bei der Registrierung einen neuen Azure Active Directory-Tenant für Sie bereit, sodass Sie Zugriff das Azure-Portal haben, wo Sie Zugriff auf die erweiterten Verwaltungstools haben.  
 
@@ -87,8 +89,8 @@ Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrich
 > [!NOTE]
 > Es kann bis zu zwei Arbeitstage dauern, um die Testphase zu verlängern.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365fin_mdmd"></a>Der Administrator hat mich auf einen anderen Plan gelegt und mir eine andere Rolle zugewiesen, aber ich sehe in [!INCLUDE[d365fin](includes/d365fin_md.md)] immer noch das gleiche Rollencenter?
-Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator im Rollencenter nichts geändert hat und Benutzergruppen zugeordnet hat, die mit der neuen Lizenz übereinstimmen. Im Wesentlichen wird Ihr System [!INCLUDE[d365fin](includes/d365fin_md.md)] vom Plantyp (Lizenz) bestimmt, den Sie haben - dieser legt Ihre Zugriffsrechte und Standard-Rollencenter fest. Sie können Ihr Rollencenter in "Meine Einstellungen" manuell ändern, wenn Sie aber auf einen Plan anderen wechseln, und vom Unternehmensplan auf einen Team-Members-Plan wechseln, könnten Sie die alte Startseite sehen, weil Ihre Berechtigungen nicht geändert wurden.  
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Der Administrator hat mich auf einen anderen Plan gelegt und mir eine andere Rolle zugewiesen, aber ich sehe immer noch die gleiche Startseite in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator im Rollencenter Ihre zugewiesene Rolle nicht geändert hat und Benutzergruppen zugeordnet hat, die mit der neuen Lizenz übereinstimmen. Im Wesentlichen wird Ihr Zugang zu [!INCLUDE[d365fin](includes/d365fin_md.md)] vom Plantyp (Lizenz) bestimmt, den Sie haben - dieser legt Ihre Zugriffsrechte, Ihre zugewiesene Rolle und die Standard-Startseite fest. Sie können Ihr aktuelle Rolle in "Meine Einstellungen" manuell ändern, wenn Sie aber auf einen Plan anderen wechseln, und vom Unternehmensplan auf einen Team-Members-Plan wechseln, könnten Sie die alte Startseite sehen, weil Ihre Berechtigungen nicht geändert wurden.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kann ich mein Abonnement beenden?
 Ja, aber abhängig davon, wie Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] registriert haben, können Ihre Daten gelöscht oder beibehalten werden. Weitere Informationen finden Sie unter [Stornierung [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
@@ -104,6 +106,6 @@ Natürlich. In diesem Fall benötigen Sie möglicherweise ein App-Kennwort, um E
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Abrufen von Antworten zu den Fragen](product-get-started.md#getting-answers-to-questions)  
-[Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)  
+[Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

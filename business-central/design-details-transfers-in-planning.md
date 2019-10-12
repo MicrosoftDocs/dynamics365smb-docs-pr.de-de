@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 56988064297cac55c48624071a19d510f6126495
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 72a9455810b017510947b78e40c88116e9935d20
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248042"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306724"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetails: Umlagerungen in der Planung
 Umlagerungsaufträge sind ebenfalls eine Versorgungsquelle beim Arbeiten auf der Lagerhaltungsdatenebene. Wenn Sie "Mehrere Lagerorte (Lager)" verwenden, kann die Beschaffungsmethode auf Transfer festgelegt werden, damit der Lagerort aufgefüllt wird, indem Waren an einem anderen Lagerort übertragen werden. Sind mehrere Lager vorhanden, verfügen Unternehmen möglicherweise über eine Kette von Umlagerungen, in denen der Vorrat von GRÜN auf GELB und von GELB auf ROT usw. übergeht. Am Beginn der Kette steht ein Beschaffungssystem von Fertigungsauftrag oder Einkauf.  
@@ -29,7 +29,7 @@ Beim Vergleich mit der Situation, in der ein Beschaffungsauftrag direkt einem Be
 ![Beispiel des Angebot/Nachfragesaldos in den Umlagerung](media/nav_app_supply_planning_7_transfers2.png "Beispiel des Angebot/Nachfragesaldos in den Umlagerung")  
 
 ## <a name="why-is-transfer-a-special-case"></a>Warum ist Transfer ein spezieller Fall?  
-Ein Umlagerungsauftrag sieht im Programm fast wie jeder andere Auftrag aus. Hinter den Kulissen ist es jedoch vollkommen anders.  
+Ein Umlagerungsauftrag sieht im Programm fast wie jeder andere Auftrag in der Anwendung aus. Hinter den Kulissen ist es jedoch vollkommen anders.  
 
 Ein grundlegender Aspekt, wodurch sich Umlagerungen beim Planen von Einkaufs- und Produktionsaufträgen unterscheiden, ist der Umstand, dass eine Umlagerungszeile Bedarf und Vorrat gleichzeitig darstellt. Der ausgehende Teil, der vom alten Lagerort geliefert wird, ist Bedarf. Der eingehende Teil, der am neuen Lagerort erhalten werden soll, ist Vorrat an diesem Lagerort.  
 

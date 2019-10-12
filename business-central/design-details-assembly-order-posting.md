@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246017"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307444"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetails: Montageauftragsbuchung
 Die Montageauftragsbuchung basiert auf demselben Prinzip wie das Buchen ähnlicher Aktivitäten von Verkaufsaufträgen und von Produktionsverbrauch/-aushabe. Die Prinzipien werden jedoch insofern kombiniert, als Montageaufträge ihre eigene Buchungsbenutzeroberfläche, wie für Verkaufsaufträge, haben, während die tatsächliche Postenbuchung im Hintergrund als direkte Artikel- und Ressourcen Buch.-Blattbuchung, wie für den Fertigungsverbrauch, Ausgabe und Kapazität geschieht.  
@@ -96,11 +96,11 @@ Dies wird durch die folgende Datenstruktur ausgeführt.
 
 Darüber hinaus werden Produktbuchungsgruppen im Montageauftragskopf und in den Montageauftragszeilen standardmäßig wie folgt ausgefüllt.  
 
-|Einheit|Typ|Buchungsgruppe|Produktbuchungsgruppe|  
+|Einheit|Typ|Buchungsgruppe|Gen. Produktbuchungsgruppe|  
 |------------|----------|-------------------|------------------------------|  
-|Montageauftragskopf|Artikel|Lagerbuchungsgruppe|Produktbuchungsgruppe|  
-|Montageauftragszeile|Artikel|Lagerbuchungsgruppe|Produktbuchungsgruppe|  
-|Montageauftragszeile|Ressource||Produktbuchungsgruppe|  
+|Montageauftragskopf|Artikel|Lagerbuchungsgruppe|Gen. Produktbuchungsgruppe|  
+|Montageauftragszeile|Artikel|Lagerbuchungsgruppe|Gen. Produktbuchungsgruppe|  
+|Montageauftragszeile|Ressource||Gen. Produktbuchungsgruppe|  
 
 Entsprechend werden nur Ist-Kosten in der Finanzbuchhaltung gebucht, und keine Interimskonten werden aus der Montageauftragsbuchung eingegeben. Weitere Informationen finden Sie unter [Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md).  
 

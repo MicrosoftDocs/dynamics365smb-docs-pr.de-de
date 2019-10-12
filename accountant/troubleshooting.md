@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.date: 10/23/2017
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8faba6940469265959d09f807d2d3c1afe6199af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237980"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300401"
 ---
-# <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Problembehebung [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="troubleshooting-include-d365acc_longincludesd365acc_long_mdmd"></a>Problembehebung [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Die Anmeldung für [!INCLUDE [d365acc](includes/d365acc_md.md)] ist einfach und kann sehr schnell vorgenommen werden. Das Hinzufügen von Kundens zum Dashboard ist auch einfach, aber in diesem Artikel werden Probleme behandelt, die dabei auftreten können.
 
-## <a name="what-email-address-can-i-use-with-include-d365accincludesd365accmdmd"></a>Welche E-Mail-Adresse kann ich mit [!INCLUDE [d365acc](includes/d365acc_md.md)] benutzen?
+## <a name="what-email-address-can-i-use-with-include-d365accincludesd365acc_mdmd"></a>Welche E-Mail-Adresse kann ich mit [!INCLUDE [d365acc](includes/d365acc_md.md)] benutzen?
 [!INCLUDE [d365acc](includes/d365acc_md.md)] erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE [d365acc](includes/d365acc_md.md)] unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schließt outlook.com, hotmail.com, gmail.com und andere ein.  
 
 Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erhalten Sie eine Nachricht, in der Sie aufgefordert werden, eine Arbeits- oder Schul-E-Mail-Adresse zu verwenden.  

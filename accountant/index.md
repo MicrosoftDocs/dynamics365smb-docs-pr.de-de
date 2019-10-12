@@ -5,16 +5,16 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: get-started-article
 ms.search.keywords: setup wizard, accountant
-ms.date: 11/05/2018
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 504891ced64d5cc25823b3887ecdd592b971bf3f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 38116469ff0143aa61e5f6b1b1814901d5a24165
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237493"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300330"
 ---
-# <a name="welcome-to-include-d365acclongincludesd365acclongmdmd"></a>Willkommen bei [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="welcome-to-include-d365acc_longincludesd365acc_long_mdmd"></a>Willkommen bei [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Wenn Sie ein Buchhalter mit mehreren Clients sind, können Sie das [!INCLUDE [d365acc](includes/d365acc_md.md)] als Ihr Dashboard für einen besseren Überblick über Ihre Clients verwenden. Von dort aus können Sie auf die Daten der einzelnen Kunden zugreifen.  

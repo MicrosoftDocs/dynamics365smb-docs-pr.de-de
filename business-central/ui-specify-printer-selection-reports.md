@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: ea713fe831ce0d4befc81825531d3210f755a4cd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0c3a57906c32751639585e542a60d931174d594b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247835"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315036"
 ---
 # <a name="specify-printer-selection-for-reports"></a>Angeben der Druckerauswahl für Berichte
 Diese Seite ist leer, da Sie bestimmte Drucker für bestimmte Berichte noch nicht einrichten können. Wir arbeiten an der Lösung des Problems.

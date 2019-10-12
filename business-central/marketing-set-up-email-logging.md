@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 08/26/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e42618be17ff4f9bfe0d54a88e70d5a1841568c1
-ms.sourcegitcommit: 8d9f08304b2f3b5504332bc626383797564ac5e3
+ms.openlocfilehash: e325cce98256b723c6fcfdf4d16068f852a2b032
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "1920466"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308740"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Verfolgen Sie den Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten
 Machen Sie mehr aus der Kommunikation zwischen Verkäufern und Ihren bestehenden oder potenziellen Kunden, indem Sie den E-Mail-Austausch nachverfolgen und diese dann in umsetzbare Gelegenheiten umwandeln. [!INCLUDE[d365fin](includes/d365fin_md.md)] kann mit Exchange Online arbeiten, um ein Protokoll der eingehenden und ausgehenden Nachrichten zu erhalten. Sie können den Inhalt jeder Nachricht auf der Seite **Aktivitätenprotokollposten** anzeigen und analysieren.

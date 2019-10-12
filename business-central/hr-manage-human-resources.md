@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5210258f1e217149f0d41e1edcfaf8a8c0c3be79
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 947482780e860bba566af7f22231babcf51cdd27
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238670"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301431"
 ---
 # <a name="manage-human-resources"></a>Personalwesen verwalten
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ausführliche Datensätze über Ihre Mitarbeiter anlegen. Sie haben die Möglichkeit zum Erfassen und Pflegen von Mitarbeiterinformationen wie Arbeitsverträgen, vertraulichen Informationen, Qualifikationen oder Mitarbeiterkontakten.
@@ -36,4 +36,4 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)        
+[Funktionen, die angezeigt werden ändern](ui-experiences.md)        

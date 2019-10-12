@@ -4,20 +4,21 @@ description: Sie können mithilfe der Inventurauftrags- und Inventurerfassungsbe
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dead35e1d0c6dc3e39eb60d35cee96d7535e3491
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: ../../inventory-how-count-inventory-with-documents
+ms.openlocfilehash: 41c5de5e152e57cc957559093308f62ba2d8a2e5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246356"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300176"
 ---
 # <a name="physical-inventory-documents"></a>Inventurbelege
 Sie können mithilfe der Inventurauftrags- und Inventurerfassungsbelege eine Inventur der Artikel durchführen.  

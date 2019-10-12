@@ -2,28 +2,28 @@
 title: E-Mail in Business Central einrichten | Microsoft Docs
 description: 'Beschreibung: Beschreibt, wie der SMTP-Server des Unternehmens verwendet wird, um in Business Central E-Mail zu senden und zu empfangen und wie die E-Mail-Servereinstellungen verwendet werden, die im Office 365 Abonnement erstellt wurden.'
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 09/09/2019
-ms.author: edupont
-ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985934"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304612"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
 Um E-Mails aus [!INCLUDE[d365fin](includes/d365fin_md.md)] zu senden und zu erhalten, müssen Sie die Felder auf der Seite SMTP-Mail-Einrichtung ausfüllen.
 
 Anstatt die SMTP-Server-Details manuell einzugeben, können Sie die Funktion **Office 365 Server-Einstellungen übernehmen** verwenden, um sie mit den Informationen aus Ihrem Office 365-Abonnement einzugeben.
 
-Sie können E-Mails entweder manuell einrichten oder Sie können den Leitfaden für das unterstützte Setup für die **E-Mail-Einrichtung** verwenden. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
+Sie können E-Mails entweder manuell einrichten wie unten beschrieben oder Sie können den Leitfaden für das unterstützte Setup für die **E-Mail-Einrichtung** verwenden. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Zum Einrichten von E-Mails
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **SMTP E-Mail einrichten** ein, und wählen dann den zugehörigen Link aus.

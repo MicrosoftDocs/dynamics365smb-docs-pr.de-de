@@ -4,20 +4,20 @@ description: Sie können Workflows einrichten und verwenden, die Geschäftsproze
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/04/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e5dee76fa49d66d72c7e20cb9ff5eead63cf37aa
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6535523fb34504a4f964971f41d4803bdc7b2117
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244863"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304756"
 ---
 # <a name="using-workflows"></a>Verwenden von Workflows
 Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  

@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
-ms.openlocfilehash: 562664ad0fd443c3363d103572022e6d819ed357
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c195ffa8b798f13d92f78896f101a84b07728d08
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241782"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305356"
 ---
 # <a name="manage-notification-templates"></a>Verwalten von Benachrichtigungsvorlagen
 Benachrichtigungen werden an Workflowbenutzer gesendet, um ihnen mitzuteilen, welche Schritte sie ausführen müssen, oder um sie über den Status von Workflowschritten zu informieren. Sie legen fest, wer wann Benachrichtigungen erhält, indem Sie Genehmigungsbenutzer, einen Benachrichtigungsplan für Benutzer und die entsprechenden Workflowantworten einrichten, um den Benachrichtigungsempfänger zu definieren. Weitere Informationen finden Sie unter [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md).  

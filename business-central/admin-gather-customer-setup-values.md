@@ -1,8 +1,6 @@
 ---
 title: Debitoren-Einrichtungswerte sammeln | Microsoft Docs
-description: Verwenden Sie den Einrichtungsfragebogen, um Ihre Implementierungsarbeitslast zu verringern, indem Sie die Aufgabe des Einrichtens neuer Mandanten rationalisieren. Sie können den Einrichtungsfragebogen in Business Central erstellen und Ihrem Debitor als Excel (.xls) oder XML-Datei zur Verfügung stellen.
-services: project-madeira
-documentationcenter: ''
+description: Verwenden Sie den Einrichtungsfragebogen, um Ihre Implementierungsarbeitslast zu verringern, indem Sie die Aufgabe des Einrichtens neuer Mandanten rationalisieren. Sie können den Einrichtungsfragebogen in Business Central erstellen und Ihrem Debitor als Excel (.xlsx) oder XML-Datei zur Verfügung stellen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245572"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304636"
 ---
 # <a name="gather-customer-setup-values"></a>Sammeln von Einrichtungswerten für Debitoren
 Verwenden Sie den Einrichtungsfragebogen, um Ihre Implementierungsarbeitslast zu verringern, indem Sie die Aufgabe des Einrichtens neuer Mandanten rationalisieren. Sie können den Einrichtungsfragebogen in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen und Ihrem Debitor als Excel (.xls) oder XML-Datei zur Verfügung stellen.  
@@ -75,7 +73,7 @@ Verwenden Sie den Einrichtungsfragebogen, um eine detaillierte Erörterung der s
 2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Frageboen-Konfiguration** ein, und wählen dann den zugehörigen Link aus.  
 3. Wählen Sie die Befragung für Unternehmen, und wählen die **In Excel exportieren** Aktion, optional die **In XML exportieren** Aktion aus.
 4. Lassen Sie den Mandanten den Konfigurationsfragebogen ausfüllen, indem Sie die Antworten in die Excel-Arbeitsmappe eingeben. Es gibt Arbeitsblätter für jeden der Fragenbereiche, die für die Befragung erstellt wurden.   
-5. Wählen Sie die **Aus Excel importieren** Aktion aus, und wählen Sie die XLSX-Datei mit die Antworten des Debitors aus.  
+5. Speichern Sie die Excel-Arbeitsmappe als *XML-Daten*. Wählen Sie die **Aus XML importieren** Aktion aus, und wählen Sie die XLSX-Datei mit der Antworten des Debitors aus.
 6. Klicken Sie auf der Registerkarte Start in der Gruppe Vorgang auf **Fragenbereiche**, um die Validierung und die Anwendung der Antworten auf den Einrichtungsfragebogen zu starten.  
 
 ## <a name="to-complete-a-questionnaire-from-the-configuration-worksheet"></a>So füllen Sie einen Fragebogen aus dem Konfigurationsarbeitsblatt aus  

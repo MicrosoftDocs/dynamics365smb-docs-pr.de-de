@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e7bf29f6412c895ca1454ca007951b03a98669b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 49e67bbdcf67b750f0de0d0c890df00281e381e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248985"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310372"
 ---
 # <a name="cross-dock-items"></a>Zuordnungselemente
 Die Zuordnungsfunktionalität ist verfügbar, wenn Sie Ihren Lagerort so eingerichtet haben, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.  
@@ -34,7 +34,7 @@ Wenn Sie das Feld **Einlagerungsvorschl. verwenden** auf der Lagerortkarte ausge
 
 Wenn Sie den Wareneingang buchen, und sich kein Häkchen im Feld **Einlagerungsvorschl. verwenden** befindet, erscheinen die Artikel, die zugeordnet werden sollen, als einzelne Zeilen in der Einlagerungsanweisung. Das Feld **Zuordnungsinformation** in jeder Einlagerungszeile zeigt an, ob die Zeile zugeordnete Artikel, Artikel aus demselben Wareneingang, die alle eingelagert werden sollen, oder Artikel, die eingelagert werden sollen und aus einer Wareneingangszeile stammen, in der einige Artikel zugeordnet werden sollen, enthält. Mit diesem Feld können die Mitarbeiter schnell sehen, warum nicht die volle Menge eingelagert werden soll.  
 
-Die Anwendung speichert keine eigenen Datensätze über Artikel, die zugeordnet wurden, sondern erfasst sie als normale Einlagerungsanweisungen.  
+Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet wurden, sondern erfasst sie als normale Einlagerungsanweisungen.  
 
 ## <a name="to-set-up-the-warehouse-for-cross-docking"></a>So richten Sie die Logistik für Zuordnungen ein:  
 1.  Richten Sie mindestens einen Zuordnungslagerplatz ein, wenn Sie Lagerplätze verwenden. Richten Sie eine Zuordnungszone ein, wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden.  
@@ -96,7 +96,7 @@ Wenn Sie Lagerplätze verwenden, können Sie jedes Mal, wenn Sie einen Warenausg
 
 Sie müssen die Artikel zuerst im Zuordnungsbereich suchen, wenn Sie Artikel für den Warenausgang kommissionieren. Wenn Sie sich beim Wareneingangsprozess die Herkunftsbelege notiert haben, die die Basis der Zuordnung waren, haben Sie einen besseren Überblick darüber, ob die Artikel im Zuordnungsbereich gefunden werden können oder nicht.  
 
-Wenn ein Fertigungsauftrag freigegeben wurde, sind die Zeilen im Kommissioniervorschlag verfügbar und Sie können im Feld **Menge in Zuord.-Lagerplätzen** sehen, ob die Artikel, auf die Sie warten, angekommen sind und in die zugeordneten Lagerplätze eingelagert wurden. Wenn Sie eine Kommissionieranweisung erstellen, schlägt die Anwendung vor, dass Sie zuerst die zugeordneten Artikel kommissionieren und erst dann in den festen Lagerplätzen nach weiteren Artikeln suchen.  
+Wenn ein Fertigungsauftrag freigegeben wurde, sind die Zeilen im Kommissioniervorschlag verfügbar und Sie können dann im Feld **Menge in Zuord.-Lagerplätzen** sehen, ob die Artikel, auf die Sie warten, angekommen sind und in die zugeordneten Lagerplätze eingelagert wurden. Wenn Sie eine Kommissionieranweisung erstellen, schlägt die Anwendung vor, dass Sie zuerst die zugeordneten Artikel kommissionieren und erst dann in den festen Lagerplätzen nach weiteren Artikeln suchen.  
 
 Wenn Sie keine Lagerplätze verwenden, müssen Sie daran denken, den Zuordnungsbereich von Zeit zu Zeit zu überprüfen, oder Sie müssen sich auf die Nachrichten aus dem Wareneingang verlassen, dass die Artikel für die Produktion angekommen sind.  
 

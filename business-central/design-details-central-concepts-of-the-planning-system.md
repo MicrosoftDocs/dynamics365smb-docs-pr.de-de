@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 529f1c71111fd6ea0b93e7d29d2f5f6b6f1df3ae
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247492"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303748"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
 Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsvorschlag oder Bestellvorschlag.  
@@ -26,7 +26,7 @@ Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst di
 
 Der Planer eines Unternehmens, wie etwa ein Einkäufer oder ein Produktionsplaner, ist wahrscheinlich der Benutzer des Planungssystems. Das Planungssystem hilft dem Benutzer durch die Ausführung der umfangreichen aber insgesamt recht einfachen Berechnungen eines Plans. Der Benutzer kann sich dann auf die Lösung der komplizierteren Probleme konzentrieren, wenn keine Standardfälle vorliegen.  
 
-Das Planungssystem wird durch den erwarteten und den tatsächlichen Debitorenbedarf gesteuert, etwa durch Planung und Verkaufsaufträge. Ein Ausführen der Planungsberechnung bewirkt, dass dem Benutzer bestimmte vorzunehmende Aktionen vorgeschlagen werden, die sich auf mögliche Beschaffungen von Kreditoren, auf die Montage oder Produktion oder auf Umlagerungen zu anderen Lagern beziehen. Diese vorgeschlagenen Aktionen sind etwa, neue Beschaffungsaufträge, wie Einkaufsbestellung oder Fertigungsaufträge zu erstellen. Wenn es bereits Beschaffungsaufträge gibt, könnten die vorgeschlagenen Aktionen so aussehen, dass die Aufträge vergrößert oder schneller erteilt werden sollen, damit den Bedarfsänderungen Rechnung getragen wird.  
+Das Planungssystem wird durch den erwarteten und den tatsächlichen Debitorenbedarf gesteuert, etwa durch Planung und Verkaufsaufträge. Ein Ausführen der Planungsberechnung bewirkt, dass die Anwendung dem Benutzer bestimmte vorzunehmende Aktionen vorschlägt, die sich auf mögliche Beschaffungen von Kreditoren, auf die Montage oder Produktion oder auf Umlagerungen zu anderen Lagern beziehen. Diese vorgeschlagenen Aktionen sind etwa, neue Beschaffungsaufträge, wie Einkaufsbestellung oder Fertigungsaufträge zu erstellen. Wenn es bereits Beschaffungsaufträge gibt, könnten die vorgeschlagenen Aktionen so aussehen, dass die Aufträge vergrößert oder schneller erteilt werden sollen, damit den Bedarfsänderungen Rechnung getragen wird.  
 
 Außerdem hat das Planungssystem die Aufgabe sicherzustellen, dass der Lagerbestand nicht unnötig wächst. Im Fall eines abnehmenden Bedarfs wird das Planungssystem vorschlagen, dass vorhandene Ersatzaufträge zurückgestellt, mengenmäßig verringert oder storniert werden sollten.  
 
@@ -66,7 +66,7 @@ In Unternehmen mit geringem Warenfluss und weniger fortschrittlichen Produktstru
 ### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Dynamische Auftragsnachverfolgung vs. Planungssystem  
 Auf den ersten Blick kann es schwierig sein, zwischen dem Planungssystem und der dynamischen Auftragsnachverfolgung zu unterscheiden. Beide Funktionen zeigen die Ausgabe im Planungsvorschlag an, wobei sie Aktionen vorschlagen, die der Planer ausführen soll. Diese Ausgabe wird jedoch auf andere Weise erstellt.  
 
-Das Planungssystem behandelt das gesamte Vorrats- und Bedarfsmuster eines bestimmten Artikels auf allen Ebenen der Stücklistenhierarchie entlang der Zeitachse, während die dynamische Auftragsnachverfolgung nur die Situation des Auftrags behandelt, der sie aktiviert hat. Beim Ausgleichen von Bedarf und Angebot erstellt das Planungssystem Verknüpfungen in einem vom Benutzer aktivierten Batchmodus erstellt, während die dynamische Auftragsnachverfolgungr die Verknüpfungen automatisch während der Verarbeitung erstellt, wenn der Benutzer einen Bedarf oder eine Bedarfssicherung, wie einen Verkaufsauftrag oder eine Einkaufsbestellung, in die Anwendung eingibt.  
+Das Planungssystem behandelt das gesamte Vorrats- und Bedarfsmuster eines bestimmten Artikels auf allen Ebenen der Stücklistenhierarchie entlang der Zeitachse, während die dynamische Auftragsnachverfolgung nur die Situation des Auftrags behandelt, der sie aktiviert hat. Beim Ausgleichen von Bedarf und Angebot erstellt das Planungssystem Verknüpfungen in einem vom Benutzer aktivierten Batchmodus erstellt, während die dynamische Auftragsnachverfolgung die Verknüpfungen automatisch während der Verarbeitung erstellt, wenn der Benutzer einen Bedarf oder eine Bedarfssicherung, wie einen Verkaufsauftrag oder eine Einkaufsbestellung, in die Anwendung eingibt.  
 
 Die dynamische Auftragsnachverfolgung richtet Verknüpfungen zwischen Bedarf und Vorrat ein, wenn Daten eingegeben werden, und zwar jeweils nach der ersten Eingabe. Dieses kann zu Störung in den Prioritäten führen. Beispielsweise kann ein zuerst mit einem Fälligkeitsdatum im nächsten Monat eingegebener Verkaufsauftrag mit dem Vorrat im Bestand verknüpft sein, während der nächste, morgen fällige, Verkaufsauftrag eine Aktionsmeldung auslöst, die besagt, dass zur Abdeckung ein neuer Einkaufsauftrag erstellt werden muss, wie nachfolgend illustriert.  
 
@@ -97,9 +97,9 @@ Weitere Informationen über Fertigungsüberlegungen, siehe. [Designdetails: Ausl
 ### <a name="locations--transfer-level-priority"></a>Lagerorte / Übertragung-Ebenen-Priorität  
 Unternehmen, die an mehr als einem Standort arbeiten, müssen möglicherweise für jeden Standort einzeln planen. Beispielsweise können sich der Sicherheitsbestand eines Artikels und dessen Wiederbeschaffungsrichtlinien sich von einem Lagerort zu einem anderen unterscheiden. In diesem Fall müssen die Planungsparameter pro Artikel und auch pro Lagerort angegeben werden.  
 
-Dies wird durch die Verwendung von Lagerhaltungsdaten unterstützt, in denen einzelne Planungsparameter auf der Lagerhaltungsdatenebene angegeben werden können. Eine SKU kann als ein Artikel an einem bestimmten Lagerort betrachtet werden. Wenn der Benutzer keine SKU für diesen Lagerort definiert hat, verwendet das Programm die Parameter, die auf der Artikelkarte eingerichtet wurden. Das Programm berechnet einen Plan nur für aktive Lagerorte, d.h., wo sich der bestehende Bedarf oder Vorrat für den jeweiligen Artikel befindet.  
+Dies wird durch die Verwendung von Lagerhaltungsdaten unterstützt, in denen einzelne Planungsparameter auf der Lagerhaltungsdatenebene angegeben werden können. Eine SKU kann als ein Artikel an einem bestimmten Lagerort betrachtet werden. Wenn der Benutzer keine SKU für diesen Lagerort definiert hat, verwendet die Anwendung die Parameter, die auf der Artikelkarte eingerichtet wurden. Die Anwendung berechnet einen Plan nur für aktive Lagerorte, d.h., wo sich der bestehende Bedarf oder Vorrat für den jeweiligen Artikel befindet.  
 
-Generell kann jeder Artikel an einem Lagerort bearbeitet werden, der Ansatz der Anwendung zum Lagerortkonzept ist jedoch sehr streng. Beispielsweise kann ein Verkaufsauftrag an einem Lagerort nicht durch eine vorrätige Menge an einem anderen Lagerort erfüllt werden. Die Menge im Lager muss dem zuerst zu dem Lagerort übertragen werden, der auf dem Verkaufsauftrag angegeben ist.  
+Generell kann jeder Artikel an einem Lagerort bearbeitet werden, der Ansatz der Anwendung zum Lagerortkonzept ist aber sehr streng. Beispielsweise kann ein Verkaufsauftrag an einem Lagerort nicht durch eine vorrätige Menge an einem anderen Lagerort erfüllt werden. Die Menge im Lager muss dem zuerst zu dem Lagerort übertragen werden, der auf dem Verkaufsauftrag angegeben ist.  
 
 ![Planung für Lagerhaltungsdaten](media/NAV_APP_supply_planning_1_SKU_planning.png "Planung für Lagerhaltungsdaten")  
 
@@ -124,7 +124,7 @@ Wenn der Benutzer einen neuen Verkaufsauftrag eingegeben oder einen vorhandenen 
 
 Das Planungssystem überwacht solche Ereignisse und ordnet die entsprechenden Artikel für die Planung zu.  
 
-Für mehrere Lagerorte findet die Zuweisung auf Artikelebene pro Lagerortkombination statt. Wenn beispielsweise ein Auftrag an nur einem Lagerplatz erstellt wurde, ordnet die Anwendung den Artikel an diesem bestimmten Lagerort für die Planung zu.  
+Für mehrere Lagerorte findet die Zuweisung auf Artikelebene pro Lagerortkombination statt. Wenn beispielsweise ein Auftrag an nur einem Lagerplatz erstellt wurde, ordnet die Anwendung den Artikel an diesem bestimmten Lagerort der Planung zu.  
 
 Der Grund für die Auswahl von Artikeln für die Planung hat mit der Systemleistung zu tun. Wenn keine Änderung des Bedarf-Vorrat-Musters eines Artikels eingetreten ist, schlägt das Planungssystem keine Aktionen vor. Ohne die Planungs-Zuweisung müsste das System die Berechnungen für alle Artikel ausführen, um herauszufinden, was zu planen ist, wodurch die Systemressourcen belastet würden.  
 
@@ -146,7 +146,7 @@ Bedarf und Vorrat können Variantencodes und Lagerortcodes aufweisen, die berüc
 
 Die Anwendung behandelt Varianten- und Lagerortcodes als Artikeldimensionen in einer Verkaufsauftragszeile, Bestandsposten usw. Entsprechend berechnet es einen Plan für jede Kombination aus Variante und Lagerort, als ob die Kombination die Nummer eines eigenen Artikels wäre.  
 
-Anstatt jede theoretische Kombination aus Variante und Lagerort zu berechnen, berechnet die Anwendung nur die Kombinationen, die tatsächlich in der Datenbank vorhanden sind.  
+Anstatt jede theoretische Kombination aus Variante und Lagerort zu berechnen, berechnet die Anwendung einzig die Kombinationen, die tatsächlich in der Datenbank vorhanden sind.  
 
 Weitere Informationen darüber, wie das Planungssystem mit Lagerortcodes umgeht, finden Sie unter [Designdetails: Nachfrage an leeren Standorten](design-details-balancing-demand-and-supply.md).  
 
@@ -252,7 +252,7 @@ Die Achtungswarnung wird in drei Situationen angezeigt:
 ## <a name="error-logs"></a>Fehlerprotokolle  
 Auf der Anforderungsseite „Plan berechnen“ kann der Benutzer das Feld **Abbrechen und ersten Fehler anzeigen** auswählen, um die Planung anzuhalten, wenn der erste Fehler aufgetreten ist. Gleichzeitig wird eine Meldung angezeigt, die Informationen zu dem Fehler enthält. Gibt es einen Fehler, werden im Planungsvorschlag nur die Planungszeilen angezeigt, die vor dem Fehler erfolgreich erstellt wurden.  
 
-Wenn das Feld nicht aktiviert ist, wird die Stapelverarbeitung „Planung berechnen“ fortgesetzt, bis sie abgeschlossen ist. Fehler unterbrechen die Stapelverarbeitung nicht. Sind Fehler vorhanden, wird nach Beendigung der Stapelverarbeitung eine Meldung angezeigt, die mitteilt, wie viele Artikel betroffen sind. Danach wird die Seite **Planungsfehlerprotokoll** geöffnet, in dem weitere Informationen zu den Fehlern sowie den Verknüpfungen für die betroffenen Dokumente oder Setupkarten bereitgestellt werden.  
+Wenn das Feld nicht aktiviert ist, wird die Stapelverarbeitung „Planung berechnen“ fortgesetzt, bis sie abgeschlossen ist. Fehler unterbrechen die Stapelverarbeitung nicht. Sind Fehler vorhanden, zeigt die Anwendung nach Beendigung der Stapelverarbeitung eine Meldung an, die mitteilt, wie viele Artikel betroffen sind. Danach wird die Seite **Planungsfehlerprotokoll** geöffnet, in dem weitere Informationen zu den Fehlern sowie den Verknüpfungen für die betroffenen Dokumente oder Setupkarten bereitgestellt werden.  
 
 ![Fehlermeldungen im Planungsvorschlag](media/NAV_APP_supply_planning_1_error_log.png "Fehlermeldungen im Planungsvorschlag")  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 73cbd1f7a36e9493495464357117e28732cf5cd2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 753e76ae1c1ca120896d71ade44222864658fded
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249790"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314628"
 ---
 # <a name="create-bins"></a>Lagerplätze erstellen
 Die effektivste Art, die Lagerplätze Ihres Lagers zu erzeugen, ist, Gruppen von ähnlichen Lagerplätzen im Lagerplatz Erstellungsvorschlag zu erstellen, Sie können Ihre Lagerplätze jedoch auch individuell aus der erzeugen Lagerortkarte erzeugen. Sie können eine Funktion auf der Seite **Lagerplatz Erst.-Vorschlag** verwenden, um die Lagerplätze automatisch zu erstellen.  
@@ -60,15 +60,15 @@ Um mit der **Lagerplatz Erst.-Vorschlag**-Seite zu arbeiten, müssen Sie als Lag
     > [!NOTE]  
     >  Die Anzahl der Zeichen, die Sie in den drei Kategorien für jedes Feld eingegeben haben, z. B. die Zeichen, die Sie in die drei Felder **Von Nr.** eingegeben haben plus die Feldtrennzeichen, wenn vorhanden, müssen 20 oder weniger sein.  
 
-     Sie können im Code Buchstaben als identifizierende Kombination verwenden, der verwendete Buchstabe muss jedoch in den Feldern **Von No.** gleich sein. und **Bis Arbeitsgangnr** aus. Felder. Sie können z. B. den Regal-Teil des Codes als **Von Nr. A01** und **Nach Nr. A10** festlegen. Die Anwendung ist nicht so eingerichtet, dass sie Codes mit Buchstabensequenzen erzeugen kann, z. B. von A01 bis F05.  
+     Sie können im Code Buchstaben als identifizierende Kombination verwenden, der verwendete Buchstabe muss jedoch in den Feldern **Von No.** gleich sein. und **Bis Arbeitsgangnr** aus. Felder. Sie können z. B. den Regal-Teil des Codes als **Von Nr. A01** und **Nach Nr. A10** festlegen. Die Anwendung ist nicht so eingerichtet, dass sie Codes mit Buchstabensequenzen erzeugen kann, z. B. von A01 zu F05.  
 
 6.  Wenn Sie ein Zeichen, z. B. einen Bindestrich, als Trennzeichen für die Kategoriefelder verwenden möchten, die Sie als Teil des Lagerplatzcodes definiert haben, tragen Sie dieses Zeichen in das Feld **Feldbegrenzung** ein.  
-7.  Wenn Sie nicht möchten, dass die Anwendung eine Zeile für einen Lagerplatz erzeugt, wenn dieser bereits existiert, wählen Feld **Auf vorh. Lagerplatz prüfen**.  
+7.  Wenn Sie nicht möchten, dass die Anwendung eine Zeile für einen Lagerplatz erzeugt, wenn dieser bereits existiert, wählen das Feld **Auf vorh. Lagerplatz prüfen**.  
 8. Wenn Sie mit dem Ausfüllen aller Zeilen fertig sind, wählen Sie die Schaltfläche **OK**.
 
-    Die Anwendung erzeugt eine Zeile für jeden Lagerplatz im Vorschlag. Sie können jetzt einige der Lagerplätze löschen, z. B. wenn Sie ein Regal haben, in dem es in einigen Säulen einen Durchgang durch die ersten beiden Ebenen gibt.  
+    Die Anwendung erzeugt eine Zeile für jeden Lagerplatz im Arbeitsblatt. Sie können jetzt einige der Lagerplätze löschen, z. B. wenn Sie ein Regal haben, in dem es in einigen Säulen einen Durchgang durch die ersten beiden Ebenen gibt.  
 
-9. Wenn Sie alle überflüssigen Lagerplätze gelöscht haben, wählen Sie die Aktion **Lagerplätze erstellen** und die Anwendung erstellt einen Lagerplatz für jede Zeile im Vorschlag.  
+9. Wenn Sie alle überflüssigen Lagerplätze gelöscht haben, wählen Sie die Aktion **Lagerplätze erstellen** und die Anwendung erstellt dann einen Lagerplatz für jede Zeile im Vorschlag.  
 
 Wiederholen Sie diesen Vorgang für die nächste Serie von Lagerplätzen, bis Sie alle Lagerplätze in Ihrem Lager erstellt haben.  
 

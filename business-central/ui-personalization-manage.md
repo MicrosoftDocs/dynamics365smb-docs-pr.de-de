@@ -1,115 +1,74 @@
 ---
-title: Verwaltung von Personalisierung als Administrator in Business Central | Microsoft Docs
-description: Erfahren Sie, wie Sie die Benutzeroberfläche anpassen, damit diese Ihren Bedürfnissen entspricht.
+title: Anpassen von Seiten für Rollen | Microsoft Docs
+description: Erfahren Sie, wie Sie die Benutzeroberfläche für ein Profil (eine Rolle) anpassen, sodass allen Benutzern, die diese Rolle zugewiesen haben, ein benutzerdefinierter Arbeitsbereich angezeigt wird.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 08/16/2019
-ms.author: jswymer
-ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887737"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310804"
 ---
-# <a name="managing-personalization-as-an-administrator"></a>Personalisierung als Administrator verwalten
+# <a name="customize-pages-for-profiles"></a>Seiten für Profile anpassen
+Benutzer können Seiten für ihren Arbeitsbereich personalisieren, um ihren Bedürfnissen zu entsprechen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
- Benutzer können ihren Arbeitsbereich personalisieren, um ihren Bedürfnissen zu entsprechen. Als Administrator steuern und verwalten Sie Personalisierungen nach:
+Administratoren können Seiten für ein Profil anpassen, z. B. entsprechend der jeweiligen Geschäftsrolle oder Abteilung, sodass allen Benutzern, denen das Profil zugewiesen ist, das angepasste Seitenlayout angezeigt wird. Als Administrator passen Sie die Seiten an, indem Sie dieselben Funktionen verwenden wie Benutzer, wenn sie Personalisierungen vornehmen.
 
--   Aktivieren oder Deaktivieren der Personalisierungsfunktion für die gesamte Anwendung (nur lokale Installation).
--   Aktivieren oder Deaktivieren der Personalisierungsfunktion für Benutzer eines bestimmten Profils.
--   Löschen aller Seitenanpassungen, die Benutzer vorgenommen haben.
+> [!NOTE]
+> Die typische geschäftliche Verwendung eines Profils ist eine Rolle. Ein Profil wird daher *Profil (Rolle)* benannt in der Benutzeroberfläche.
 
-## <a name="EnablePersonalization"></a> So aktivieren oder deaktivieren Sie Personalisierung (nur lokal)
+Die Seitenanpassung beginnt mit **Profile (Rollen)** Seite, Ausgangspunkt des Administrators für die Verwaltung der Benutzerprofile auf einzelnen Profilkarten. Zusätzlich zum Anpassen des Seitenlayouts steuern Sie verschiedene andere Einstellungen für Profile in der **Profil (Rolle)** Seite für jedes Profil. Weitere Informationen finden Sie unter [Profile verwalten](admin-users-profiles-roles.md).
 
-Standardmäßig ist die Personalisierung im Client nicht aktiviert. Sie aktivieren oder deaktivieren die Personalisierung, indem Sie die Konfigurationsdatei (navsettings.json) der Business Central-Web Server-Instanz ändern, die dem Clients dient.
+## <a name="to-customize-pages-for-a-profile"></a>Um Seiten für ein Profil anzupassen
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Profile (Rollen)** ein, und wählen dann den zugehörigen Link aus.
+2. Wählen Sie dir Zeile für die Personalisierungsseite, die Sie löschen möchten, und wählen die Aktion **Bearbeiten** aus.
+3. Wählen Sie die Aktion **Seiten anpassen**.
 
-1. Um die Personalisierung zu aktivieren, müssen Sie die folgende Zeile in der navsettings.json-Datei hinzufügen:
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnet eine neue Browser-Registerkarte für das ausgewählte Profil mit dem Banner **Anpanssen** Banner aktiviert. Das **Anpassen** Banner bietet die gleiche Funktionalität wie das **Personalisierung** Banner, das den Benutzern zur Verfügung steht.
 
-    ```
-    "PersonalizationEnabled": "true"
-    ```
+4. Passen Sie die Seiten an die Anforderungen der jeweiligen Rolle oder Abteilung an, so wie es ein Benutzer bei der Personalisierung tun würde. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
-    Um die Personalisierung zu deaktivieren, entfernen Sie diese Zeile oder bearbeiten sie folgendermaßen:
+    > [!NOTE]
+    > Um während der Personalisierung zu navigieren, drücken Sie Strg + Klicken auf eine Aktion, wenn diese durch die Pfeilspitze hervorgehoben ist.
 
-    ```
-    "PersonalizationEnabled": "false"
-    ```
+5. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Anpassung**.
+6. Schließen Sie die Browser-Registerkarte.
 
-    Weitere Informationen darüber, wie Sie die navsettings.json-Datei ändern, finden Sie unter [Direktes Ändern der navsettings.json-Datei](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings)
+Die Anpassung von Seiten wird jetzt für das Profil aufgezeichnet.
 
-2. Generieren Sie die Anwendungssymbole und laden Sie diese herunter.
+## <a name="to-view-all-customized-pages-for-a-profile"></a>Um angepasste Seiten für ein Profil anzuzeigen
+Sie können sich einen Überblick darüber verschaffen, welche Seiten für ein Profil angepasst wurden, um beispielsweise zu planen, welche Seiten weiter angepasst oder gelöscht werden sollen.
 
-    Dieser Schritt ist optional und nicht erforderlich, um die Personalisierung zu aktivieren. Er stellt jedoch sicher, dass neue Seiten, die von den Entwicklern erstellt werden, angepasst werden können.
+- Auf der **Profil (Rolle)** Seite, wählen Sie die **Angepasste Seiten** Aktion.
 
-    1. Zuerst generieren Sie die Symbole, indem Sie die finsql.exe mit dem Befehl `generatesymbolreference` ausführen. Die finsql.exe-Datei befindet sich im Installationsordner für die [!INCLUDE[server](includes/server.md)]- und Dynamics NAV-Entwicklungsumgebung (CSIDE). Um die Symbole zu erstellen, öffnen Sie eine Eingabeaufforderung, navigieren zum Verzeichnis, in dem die Datei gespeichert ist, und führen folgenden Befehl aus:
+## <a name="to-delete-all-customizations-for-a-profile"></a>Löschen aller Anpassungen für ein Profil
+Sie können alle Anpassunge, die Sie für ein Profil vorgenommen haben, stornieren. Mit einer Erweiterung eingeführte Anpassungen und von einem Benutzer vorgenommene Personalisierungen werden nicht gelöscht. Sie können alle Personalisierungen mit einer anderen Aktion löschen. Weitere Informationen finden Sie unter [Löscht alle von einem Benutzer vorgenommenen Personalisierungen](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
-        ```
-    Beispiel:
+- Auf der **Profil (Rolle)** Seite wählen Sie auf der Seite für ein benutzerdefiniertes Profil die Option **Löschen Sie benutzerdefinierte Seiten** Aktion.
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
-        ```
+Das Seitenlayout für das Profil wird auf das Standardlayout zurückgesetzt.  
 
-    Weitere Informationen finden Sie unter [Gleichzeitiges Ausführen von C/SIDE und AL](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>So löschen Sie die Anpassung für bestimmte Seiten eines Profils
+Sie können auch alle individuellen Seitenanpassungen löschen, die Sie für ein gemacht haben. Mit einer Erweiterung eingeführte Anpassungen und von einem Benutzer vorgenommene Personalisierungen werden nicht gelöscht. Sie können eine bestimmte Seitenpersonalisierung mit einer anderen Aktion löschen. Weitere Informationen finden Sie unter [So löschen Sie alle Personalisierungen für bestimmte Seiten](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-    2. Konfigurieren Sie die [!INCLUDE[nav_server_md](includes/nav_server_md.md)]-Instanz zu: **Laden der Anwendungssymbolverweise bei Serverstart aktivieren** (EnableSymbolLoadingAtServerStartup). Weitere Informationen finden Sie unter [Konfigurieren von Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
+1. Auf der **Profil (Rolle)** Seite, wählen Sie die **Angepasste Seiten** Aktion.
+2. Auf der Seite **Profilanpassungen** wählen Sie mindestens eine Zeile für die Seitenanpassungen aus, die Sie löschen möchten, und wählen Sie dann die Aktion **Löschen** aus.
 
-## <a name="to-disable-personalization-for-a-profile"></a>So deaktivieren Sie die Personalisierung für ein Profil
-
-Sie können verhindern, dass alle Benutzer, die zu einem bestimmten Profil gehören, ihre Seiten personalisieren können.
-
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Profile** ein, und wählen dann den zugehörigen Link aus.
-2. Wählen Sie das Profil aus, das Sie ändern möchten.
-3. Aktivieren Sie das Kontrollkästchen **Anpassung deaktivieren**, und klicken Sie dann auf die Schaltfläche **OK**.
-
-> [!NOTE]  
-> In Business Central Online können Sie die Personalisierung nur für ein Mandantenprofil deaktivieren, nicht für Systemprofile. 
-
-## <a name="to-clear-user-personalizations"></a>So löschen Sie Benutzeranpassungen
-
-Die Löschung der Seitenanpassung ändert die Seite oder erstellt das ursprüngliche Layout wieder. Es gibt zwei Möglichkeiten, die Anpassungen zu löschen, die Benutzer auf Seiten vorgenommen haben: mit der Seite **Benutzeranpassung löschen** und mithilfe der Anwendung der Seite **Benutzeranpassungskarte**.
-
-### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>So löschen Sie Benutzeranpassungen mithilfe der Seite "Benutzeranpassungen löschen"
-
-Die Seite **Benutzeranpassung löschen** gibt Ihnen die Möglichkeit, die Personalisierung für eine Seite oder pro Benutzer zu löschen.
-
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benutzeranpassung löschen** ein, und wählen dann den zugehörigen Link aus.
-
-    Die Seite führt alle Seiten auf, die angepasst wurden und den Benutzer, denen sie gehören.
-
-    >[!NOTE]
-    > Ein Häkchen in den Spalten **Vorgänger-Anpassung** bedeutet, dass die Personalisierung in einem vorherigen Version von, die erforderlich war [!INCLUDE[d365fin](includes/d365fin_md.md)]die Anpassung, Bearb die unterscheidet, als sie jetzt zu konfigurieren. Benutzer, die versuchen, diese Seiten zu personalisieren, können dies nicht tun, es sei denn, sie entsperren die Seite. Weitere Informationen finden Sie unter [Warum eine Seite zum Personalisieren gesperrt ist](ui-personalization-locked.md).
-
-2. Wählen Sie den Posten, den Sie löschen möchten, und wählen die Aktion **Löschen** aus.
-
-    Der Benutzer sieht die Änderungen das nächste Mal bei der Anmeldung.
-
-### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a>So löschen Sie Benutzeranpassungen mithilfe der Seite "Benutzeranpassungskarte".
-
-Die Seite **Benutzeranpassungskarte** gibt Ihnen die Möglichkeit, die Personalisierung für alle Seiten für eijnen bestimmten Benutzer zu löschen. Dazu müssen Sie die Schreibberechtigung für Tabelle 2000000072 **Profil** haben.
-
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Benutzeranpassung** ein, und wählen dann den zugehörigen Link aus.
-
-    Die Seite **Benutzeranpassung** führt alle Benutzer auf, die möglicherweise eine personalisierte Seite haben. Wenn Sie einen Benutzer in der Übersicht nicht finden können, bedeutet dies, dass sie keine personalisierten Seiten haben.
-
-2. Wählen den Benutzer aus der Liste aus und wählen Sie dann die Aktion **Bearbeiten** aus.
-
-3. Wählen Sie auf der Registerkarte **Aktionen** **Personalisierte Seiten löschen** aus.
-
-    Der Benutzer sieht die Änderungen das nächste Mal bei der Anmeldung.
+Das Layout der ausgewählten Seiten wird an die von Ihnen vorgenommenen Änderungen angepasst.
 
 ## <a name="see-also"></a>Siehe auch
-[Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
+[Profile verwalten](admin-users-profiles-roles.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)  
+[Funktionen, die angezeigt werden ändern](ui-experiences.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

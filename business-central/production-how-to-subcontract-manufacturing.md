@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dac30e8c48e37464bc503fcc1d2961cc5721868
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253010"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313060"
 ---
 # <a name="subcontract-manufacturing"></a>Fertigung durch Fremdarbeitsvertrag
 Ausgewählte Arbeitsgänge an Kreditoren weiter zu vergeben, ist in vielen Fertigungsunternehmen üblich. Fremdarbeit kann ein seltener Vorgang oder integraler Bestandteil aller Fertigungsschritte sein.
 
-Es gibt mehrere Werkzeuge für das Verwalten von Fremdarbeit:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] gibt mehrere Werkzeuge für das Verwalten von Fremdarbeit:  
 
 - Arbeitsplatzgruppen mit zugewiesenen Kreditoren: Mit dieser Funktion können Sie eine Arbeitsgruppe einrichten, die einem Kreditor (Subunternehmer) zugewiesen ist. Eine solche Arbeitsplatzgruppe wird als Arbeitsplatzgruppe für Fremdarbeit bezeichnet. Sie können eine Arbeitsplatzgruppe für Fremdarbeit für einen Arbeitsplanvorgang angeben, wodurch Sie die als Fremdarbeit vergebene Aktivität problemlos verarbeiten können. Außerdem können Sie die Kosten des Vorgangs auf Arbeitsplan- oder Arbeitsplatzebene kennzeichnen.  
-- Arbeitsplatzgruppenkosten auf Basis von Einheiten oder Zeit: Über diese Funktion können Sie angeben, ob Kosten, die der Arbeitsplatzgruppe zugewiesen sind, auf einer Fertigungszeit oder einem Pauschalbetrag pro Einheit basieren. Üblicherweise stellen Subunternehmer für ihre Leistungen einen Pauschalbetrag pro Einheit in Rechnung; die Anwendung kann aber mit beiden Optionen (Fertigungszeit und Pauschalbetrag pro Einheit) umgehen.  
-- Fremdarbeitenvorschlag: Mit dieser Funktion können Sie nach den Fertigungsaufträgen mit Material suchen, die an einen Subunternehmer gesendet werden können, und können Sie automatisch aus Arbeitsplänen für Fertigungsaufträge Einkaufsbestellungen für Fremdarbeitsvorgänge erstellen. Beim Buchen der jeweiligen Einkaufsbestellung werden dann automatisch Einkaufsbestellungsbeträge für den Fertigungsauftrag gebucht. Ein Fertigungsauftrag muss den Status "Freigegeben" haben, damit aus einem Fremdarbeitenvorschlag auf ihn zugegriffen und er dort verwendet werden kann.  
+- Arbeitsplatzgruppenkosten auf Basis von Einheiten oder Zeit: Über diese Funktion können Sie angeben, ob Kosten, die der Arbeitsplatzgruppe zugewiesen sind, auf einer Fertigungszeit oder einem Pauschalbetrag pro Einheit basieren. Üblicherweise stellen Subunternehmer für ihre Leistungen einen Pauschalbetrag pro Einheit in Rechnung; die Anwendung kann aber mit den beiden Optionen (Fertigungszeit und Pauschalbetrag pro Einheit) umgehen.  
+- Fremdarbeitenvorschlag: Mit dieser Funktion können Sie nach den Fertigungsaufträgen mit Material suchen, die an einen Subunternehmer gesendet werden können, und können Sie automatisch aus Arbeitsplänen für Fertigungsaufträge Einkaufsbestellungen für Fremdarbeitsvorgänge erstellen. Die Anwendung bucht automatisch die Einkaufsbestellung zum Produktionsauftrag während die Einkaufsbestellung gebucht wird. Ein Fertigungsauftrag muss den Status "Freigegeben" haben, damit aus einem Fremdarbeitenvorschlag auf ihn zugegriffen und er dort verwendet werden kann.  
 
 ## <a name="subcontract-work-centers"></a>Arbeitsplatzgruppen für Fremdarbeiten  
 Arbeitsplatzgruppen für Fremdarbeiten werden auf gleiche Weise eingerichtet wie normale Arbeitsplatzgruppen, allerdings mit weiteren Informationen. Arbeitsplänen werden sie in gleicher Weise zugewiesen wie andere Arbeitsplatzgruppen.  
@@ -44,16 +44,16 @@ Sie können einen Arbeitsplan erstellen, für den eine externe Arbeitsplatzgrupp
 Weitere Informationen finden Sie unter [Arbeitspläne erstellen](production-how-to-create-routings.md).  
 
 ## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Fremdarbeitenvorschläge berechnen und Fremdarbeitsbestellung erstellen  
-Sobald Sie den  Fremdarbeitenvorschlag berechnet haben, wird der entsprechende Beleg (in diesem Fall eine Einkaufsbestellung) erstellt.  
+Sobald Sie den Fremdarbeitenvorschlag berechnet haben, wird der entsprechende Beleg (in diesem Fall eine Einkaufsbestellung) erstellt.  
 
-Die Seiten **Fremdarbeitenvorschlag** funktioniert wie die **Planungsvorschlag**indem es den erforderlichen Vorrat berechnet, in diesem Fall Aufträge, die Sie im Vorschlag überprüfen und dann mit der Funktion **Ereignismeldung durchführen** erstellen.  
+Die Seiten **Fremdarbeitenvorschlag** funktioniert wie die **Planungsvorschlag** indem es den erforderlichen Vorrat berechnet, in diesem Fall Aufträge, die Sie im Vorschlag überprüfen und dann mit der Funktion **Ereignismeldung durchführen** erstellen.  
 
 > [!NOTE]  
 >  Ein Fertigungsauftrag muss den Status **Freigegeben** haben, damit aus einem Fremdarbeitenvorschlag auf ihn zugegriffen und er dort verwendet werden kann.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Fremdarbeitenvorschlag berechnen  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Unterauftrags-Arbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
-2.  Damit der Vorschlag berechnet wird, klicken Sie auf  Aktionen **Fremdarbeit berechnen**.  
+2.  Damit der Vorschlag berechnet wird, klicken Sie auf Aktionen **Fremdarbeit berechnen**.  
 3.  Definieren Sie auf der Seite **Fremdarbeit berechnen** den Filter für an Subunternehmer vergebene Arbeitsgänge oder die Arbeitsplatzgruppen, in der sie ausgeführt werden, um nur die relevanten Fertigungsaufträge zu berechnen.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
 

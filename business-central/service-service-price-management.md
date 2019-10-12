@@ -4,20 +4,20 @@ description: In diesem Thema wird beschrieben, wie Sie den Serviceaufträgen die
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/28/2017
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a4b5b946d6c1402ad1a27661267c202b703cc1c1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 14ea816e6614a3e47cbc9e47a1adccf8eeddffbd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249882"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311572"
 ---
 # <a name="service-price-management"></a>Servicepreismanagement
 Die Funktionalität "Servicepreismanagement" erlaubt Ihnen, den Serviceaufträgen die besten Preise zuzuordnen, individuelle Preisvereinbarungen mit Kunden einzurichten, die Effizienz der Servicemitarbeiter zu verbessern und den Rechnungsstellungsprozess zu beschleunigen.  
@@ -49,7 +49,7 @@ Wenn Sie einem Serviceartikel eine Servicepreisgruppe zuweisen, dann gelten alle
 ## <a name="service-pricing"></a>Servicepreise  
 Sie richten die eigentlichen Servicepreisarten (Preiskorrekturart und Preis) für eine Kombination aus Servicepreisgruppen und Debitorpreisgruppen ein. Sie wählen für jede Art von Servicepreisgestaltung eine Servicepreiskorrekturgruppe. Des Weiteren legen Sie die Servicepreiskorrekturart (Fix, Maximum oder Minimum) sowie den tatsächlichen Preis fest.  
   
-Sie können z. B. Arten von Servicepreisen für eine Radioservicepreisgruppe einrichten. Für Debitoren, die keiner Preisgruppe zugewiesen wurden, können Sie festlegen, dass für Serviceleistungen ein maximaler Preis berechnet werden soll (= Preiskorrekturgruppe für Serviceleistungen). Für Debitoren, die einer bestimmten Preisgruppe zugewiesen wurden, können Sie festlegen, dass für Serviceleistungen ein fixer Preis berechnet werden soll (= dieselbe Preiskorrekturgruppe für Serviceleistungen).  
+Sie können z. B. Arten von Servicepreisen für eine Radioservicepreisgruppe einrichten. Für Debitoren, die keiner Preisgruppe zugewiesen wurden, können Sie festlegen, dass für Serviceleistungen ein maximaler Preis berechnet werden soll (= Preiskorrekturgruppe für Serviceleistungen). Für Debitoren, die einer bestimmten Preisgruppe zugewiesen wurden, können Sie festlegen, dass für Serviceleistungen ein fixer Preis berechnet werden soll, dieselbe Preisausorrekturgruppe für Serviceleistungen.  
   
 ## <a name="service-price-adjustment"></a>Servicepreiskorrekturen  
 Die Servicepreiskorrektur ermöglicht Ihnen, die Preise für Artikel, Ressourcen, dem Sachkonto oder den Kosten in einem Serviceauftrag zu korrigieren.  

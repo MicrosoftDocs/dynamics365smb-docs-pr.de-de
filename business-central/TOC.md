@@ -18,35 +18,39 @@
 
 # Arbeiten mit Business Central
 ## [Matrix](ui-work-product.md)
-## [Suchen von Funktionen und Informationen](ui-search.md)
+## [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)
+## [Suchen von Seiten aus einer Funktionsübersicht](ui-role-explorer.md)
 ## [Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)
-## [Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md)
+## [Sortieren, Durchsuchen und Filtern](ui-enter-criteria-filters.md)
 ## [Suchen und Filtern – FAQs](ui-search-filter-faq.md)
 ## [Eingeben von Daten](ui-enter-data.md)
+## [Kopieren und einfügen FAQ](ui-copy-paste.md)
 ## [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md)
-## [Kopieren und Einfügen](ui-copy-paste.md)
 ## [Pflichtfelder erkennen](ui-mandatory-fields.md)
 ## [Sprache und Gebiet ändern](about-locale-language.md)
-## [Anzeigen und Bearbeiten in Excel](across-work-with-excel.md)  
-## [Verwalten von Benachrichtigungen](ui-smart-notifications.md)
+## [Anzeigen und bearbeiten in Excel](across-work-with-excel.md)  
+## [Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten](ui-how-add-link-to-record.md)
 ## [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)
+## [Verwalten von Benachrichtigungen](ui-smart-notifications.md)
 ## Business Central personalisieren
-### [Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md)
+### [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)
 ### [Warum ist die Seite vom Personalisieren gesperrt?](ui-personalization-locked.md)
+### [Speichern und personalisieren Sie Listenansichten](ui-views.md)
+### [Fügen Sie eine Seitenaktion Ihrem Rollencenter hinzu](ui-bookmarks.md)
 ### [Anzeigen von Listen in verschiedenen Ansichten](across-display-lists-different-views.md)
-## Drucken von Berichten und Ausführen von Stapelverarbeitungen
-### [Arbeiten mit Berichten und Stapelverarbeitungen](ui-work-report.md)
+## Drucken von Berichten und Ausführen von Stapelverarbeitungen und XMLports
+### [Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)
 ### [Angeben der Druckerauswahl für Berichte](ui-specify-printer-selection-reports.md)
-### [Planen der Ausführung eines Berichts oder einer Stapelverarbeitung](ui-work-report.md#ScheduleReport)
-### [Gespeicherte Einstellungen in Berichtenn verwalten](reports-saving-reusing-settings.md)
+### [Planen der Ausführung eines Berichts](ui-work-report.md#ScheduleReport)
+### [Gespeicherte Einstellungen für Berichte und Stapelaufträge verwalten](reports-saving-reusing-settings.md)
 ### [Anzeigen von Testberichten vor dem Buchen](ui-how-view-test-reports-posting.md)
-### [Ausführen von Stapelverarbeitungen](ui-how-run-batch-jobs.md)
-## Ändern, wie Belege aussehen
+### [Führen Sie Stapelaufträge und XMLports aus](ui-how-run-batch-jobs.md)
+## Ändern der Darstellung von externen Dokumenten und Berichten
 ### [Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)
 ### [Verwaltung von Berichts- und Beleg-Layouts](ui-update-report-layouts.md)
 ### [Änderungen am Layout eines Weltberichts vornehmen](ui-how-create-custom-report-layout.md)
 ### [Importieren und Exportieren von einem benutzerdefinierten Bericht](ui-how-import-and-export-report-layout.md)
-### [Ändern, welches Layout zur Zeit in einem Bericht verwendet wird](ui-how-change-layout-currently-used-report.md)
+### [Ändern Sie das aktuelle Berichtslayout](ui-how-change-layout-currently-used-report.md)
 ### [Hinzufügen von Feldern zu einem Word-Berichtlayout](ui-how-add-fields-word-report-layout.md)
 ## Tastenkombinationen verwenden
 ### [Eingabehilfe und Tastenkombinationen](ui-accessibility.md)
@@ -211,7 +215,7 @@
 ## Verwenden von Flow mit Business Central
 ### [Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)
 ### [Problembehandlung bei der Integration mit Microsoft Flow - angeforderte URL zu lang](across-troubleshooting-how-use-financials-data-source-flow.md)
-## [Verknüpfung mit Business Central, um eine Geschäfts-App mithilfe PowerApps zu erstellen](across-how-use-financials-data-source-powerapps.md)
+## [Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von PowerApps](across-how-use-financials-data-source-powerapps.md) zu erstellen
 ## [Von QuickBooks-App zu Business Central wechseln](across-quickbooks-to-business-edition.md)
 ## [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)
 ## [Massenrechnungsstellung für Microsoft Bookings](finance-bookings.md)
@@ -229,10 +233,9 @@
 ## [Beleg archivieren](across-how-to-archive-documents.md)
 ## [Hinzufügen von Textbausteinen](ui-how-define-ext-text.md)
 ## [Benutzeraufgaben definieren](across-user-tasks.md)
-## [Hinzufügen von Links zu Websites, Belegen oder Programmen auf Datensätze](ui-how-add-link-to-record.md)
-## [Anfügen von Dateien zu den Karten und den Belegen](across-attach-document-master-data.md)
 ## [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)
 ## [Journale und Dokumente buchen](ui-post-documents-journals.md)
+## [Mehrere Dokumente gleichzeitig buchen](ui-batch-posting.md)
 ## [Vorschau-Buchungs-Ergebnisse](ui-how-preview-post-results.md)
 ## [Gebuchte Belege bearbeiten](across-edit-posted-document.md)
 ## [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
@@ -304,8 +307,8 @@
 
 # Verwaltung
 ## [Matrix](admin-setup-and-administration.md)
-## [Benutzer, Rollen und  Profile verstehen](admin-users-profiles-roles.md)
-## [Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)
+## [Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md)
+## [Profile verwalten](admin-users-profiles-roles.md)
 ## [Datensensitivität klassieren](admin-classifying-data-sensitivity.md)
 ## [Antworten auf Anforderungen zu Personendaten](admin-responding-to-requests-about-personal-data.md)
 ## [Neue Unternehmen anlegen](about-new-company.md)
@@ -318,20 +321,14 @@
 ## [Verlängern Ihrer Testversion](admin-extend-trial.md)
 ## [Überprüfen von Seiten](across-inspect-page.md)
 ## [Erstellen Sie eine Sandkastenumgebung.](across-how-create-sandbox-environment.md)
-## Integrieren in Dynamics 365 for Sales
-### [Matrix](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Einrichten des Benutzerkontos für die Integration in Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Einrichten einer Dynamics 365 for Sales-Verbindung](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronisieren von Business Central und Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
-### [Tabellenzuordnungen für die Synchronisierung ändern](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Synchronisieren Sie Tabellenzuordnungen manuell](admin-manual-synchronization-of-table-mappings.md)
-### [Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Fehlerbehebung bei Synchronisationsfehlern](admin-troubleshoot-sales-synchronization.md)
 ## Business Central anpassen
 ### [Matrix](ui-customizing-overview.md)
-### Erweiterungen nutzen anpassen
+### [Seiten für Profile anpassen](ui-personalization-manage.md)
+### [Funktionen, die angezeigt werden ändern](ui-experiences.md)
+### [Einrichten eines farbigen Indikators auf Stapeln des Rollencenters](admin-how-set-up-colored-indicator-on-cues.md)
+### Erweiterungen zur Nutzung anpassen
 #### [Matrix](ui-extensions.md)
-#### [Erweiterungen nutzen anpassen](ui-extensions.md)
+#### [Erweiterungen zur Nutzung anpassen](ui-extensions.md)
 #### [Buchhaltungsportal für Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian-Gehaltsliste](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)
@@ -352,11 +349,17 @@
 #### [DK - Zahlungen und gebuchte Abstimmungen](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Steuerdateiformate](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io Postleitzahlen Großbritannien](ui-extensions-getaddressio.md)
-#### [USa/CA/GB/AU/NZ/ZA – Überweisungsbestätigung senden](ui-extensions-send-remittance-advice.md)
+#### [USA/CA/GB/AU/NZ/ZA – Überweisungsbestätigung senden](ui-extensions-send-remittance-advice.md)
 #### [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)
-### [Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)
-### [Personalisierung als Administrator verwalten](ui-personalization-manage.md)
-### [Einrichten eines farbigen Indikators auf Stapeln des Rollencenters](admin-how-set-up-colored-indicator-on-cues.md)
+## Integration mit Dynamics 365 Sales
+### [Matrix](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Einrichten des Benutzerkontos für die Integration in Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Dynamics 365 Sales Verbindung einrichten](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synchronisieren von Business Central und Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+### [Tabellenzuordnungen für die Synchronisierung ändern](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Synchronisieren Sie Tabellenzuordnungen manuell](admin-manual-synchronization-of-table-mappings.md)
+### [Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Fehlerbehebung bei Synchronisationsfehlern](admin-troubleshoot-sales-synchronization.md)
 
 # Finanzen
 ## [Matrix](finance.md)
@@ -470,7 +473,7 @@
 ## [Arbeiten mit Dimensionen](finance-dimensions.md)
 ## [Sachkontenbudgets erstellen](finance-how-create-budgets.md)
 ## [Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)
-## [Buchungen stornieren](finance-how-reverse-journal-posting.md)
+## [Buchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)
 ## [Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)
 ## [Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md)
 ## [Geschäftsverwandte Ausgaben der Beschäftigten aufzeichnen und zurückzahlen](finance-how-record-reimburse-employee-expenses.md)
@@ -592,7 +595,6 @@
 ### [Einrichten von Verkaufsprozessen für Verkaufschancen und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Verkaufschancen erstellen](marketing-how-create-opportunities.md)
 ### [Verfolgen Sie den Austausch von E-Mail-Nachrichten](marketing-set-up-email-logging.md)
-
 ### [Verarbeiten von Verkaufschancen](marketing-processing-sales-opportunities.md)
 ### [E-Mail-Protokollierung einr.](marketing-set-up-email-logging.md)
 ## [Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren](marketing-create-contact-profile-questionnaire.md)
@@ -839,7 +841,6 @@
 #### [So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Allgemein
 #### [Drucken von Finanzbuchhaltungs-Setupinformationen](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
-#### [So drucken Sie im Verlauf von Stapelbuchungen Verkaufsaufträge und Bestellungen](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Belgien
 ### [Matrix](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -1022,7 +1023,6 @@
 #### [Währungswechselkurse](LocalFunctionality/Germany/currency-exchange-rates.md)
 #### [Zusammenfassende Meldung in Deutschland](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 #### [Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
-#### [So drucken Sie im Verlauf von Stapelbuchungen Verkaufsaufträge und Bestellungen](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Drucken von Finanzbuchhaltungs-Setupinformationen](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 #### [Zertifizierung von Business Central für deutschen Zielmarkt (Beleg ist in Deutsch)](https://go.microsoft.com/fwlink/?linkid=875256)
 
@@ -1074,7 +1074,6 @@
 #### [Einrichten der Unternehmensdaten](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 #### [Italienische Fremdarbeit](LocalFunctionality/Italy/italian-subcontracting.md)
 #### [Buch.-Blattvorlagen und Chargen eirichten](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
-#### [Handel mit Debitoren und Kreditoren in Ländern und Regionen auf der schwarzen Liste melden](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
 ## Mexiko-Stadt
 ### [Matrix](LocalFunctionality/Mexico/mexico-local-functionality.md)
@@ -1168,6 +1167,7 @@
 ## Norwegen
 ### [Matrix](LocalFunctionality/Norway/norway-local-functionality.md)
 ### MwSt.
+#### [Norwegische Standardprüfdatei – Steuerverwaltung (SAF-T)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 #### [Norwegische MwSt-Berichterstellung](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Norwegische MwSt-Codes](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [Einen MwSt-Code in Buch.-Blättern verwenden](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1378,12 +1378,11 @@
 ### Allgemein    
 #### [Importieren von schweizer PLZ](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Schweizer Einkaufsbelege und Verkaufsaufträge](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
-#### [So drucken Sie im Verlauf von Stapelbuchungen Verkaufsaufträge und Bestellungen](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Vereinigtes Königreich
 ### [Matrix](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ### MwSt.
-#### [Steuer digital erstellen - MwSt gibt die  Submission zurück](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
+#### [Steuer digital erstellen - MwSt gibt die Submission zurück](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
 #### [Änderung der MwSt-Einrichtung in Buch.-Blättern](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
 #### [Drucken von MwSt.-Prüfungserklärungen](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
 #### [MwSt.-Erklärungen drucken](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)

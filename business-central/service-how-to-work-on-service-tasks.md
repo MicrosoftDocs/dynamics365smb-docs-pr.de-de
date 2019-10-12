@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b4a47608bbcc191ec413f08e0969f1bbd6fc4041
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251170"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311644"
 ---
 # <a name="work-on-service-tasks"></a>Mit Serviceaufgaben arbeiten
 Nachdem Sie Serviceaufträge und Angebote angelegt, Serviceartikelzeilen erfasst und den Serviceartikeln im Auftrag oder Angebot Ressourcen zugeordnet haben, können Sie mit der Reparatur und Wartung der Serviceartikel beginnen.  
@@ -100,7 +100,7 @@ Nachdem ein Serviceartikel repariert wurde, können Sie sowohl den Problemcode a
 2. Wählen Sie die Zeile aus, die den relevanten Serviceartikel enthält, und wählen die **Servicearbeitsschein** Aktion aus.  
 3. Auf der Seite **Servicearbeitsschein** wählen Sie **Problem/Resol. Code-Verhältnisse** aus. Die Seite **Problem-/Lösungszuordnungen** wird geöffnet.  
 
-  >  [!Note]
+  >  [!NOTE]
   >  Filter werden auf die angezeigten Zuordnungen gesetzt, indem die Serviceartikelgruppe und die Problemcodes aus der Seite **Servicearbeitsschein** kopiert werden.  
 
 4. Füllen Sie die Zeile aus. Wählen Sie die richtige Kombination von Problem- und Lösungscodes, und wählen Sie dann die Schaltfläche **OK**, um diese auf den Serviceartikel zu kopieren. Wenn keine geeignete Kombination gefunden wird, können Sie eine neue Kombination auf der Seite erstellen.  

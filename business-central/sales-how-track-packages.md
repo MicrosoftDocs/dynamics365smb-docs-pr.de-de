@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f6583c75fcc3268b6e081122d1e5bbe2ad60acd8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f65708a0827a0e428c8bd7e0369c26268bb6ed32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251561"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316260"
 ---
 # <a name="track-packages"></a>Pakete verfolgen
 Eine Anzahl von Zustellern bietet einen Service im Internet, der es Ihnen erlaubt, Pakete zu verfolgen, die Sie ihm übergeben haben. Wenn Sie einen oder mehrere dieser Zusteller verwenden, können Sie bestimmte Basisinformationen hinterlegen und die Funktionalität der automatischen Paketverfolgung von gebuchten Lieferungen aus nutzen. Weitere Informationen finden Sie unter [Versand-Agenten](sales-how-to-set-up-shipping-agents.md).  

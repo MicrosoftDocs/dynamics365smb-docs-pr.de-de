@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: ../../inventory-how-count-inventory-with-documents
-ms.openlocfilehash: c7db75bd9565a2423b2d2f69d492bb2fe97d4f62
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c4b32a7154ba516f9a669d39bc0ab0b6a429ebf6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246566"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301332"
 ---
 # <a name="enter-physical-inventory-orders"></a>Physische Inventuraufträge eingeben
 Auf Anwendungsebene ist ein Inventurauftrag ein vollständiger Beleg, der aus einem Inventurauftragskopf und einigen Inventurauftragszeilen besteht. Die Informationen im Inventurauftragskopf geben an, wie die Inventur durchgeführt werden soll. Der Kopf kann manuell ausgefüllt werden. Sie können einen Inventurauftrag erstellen und ihn mindestens einer Inventurerfassung zuordnen.  
 
-Die Inventurauftragszeilen enthalten Informationen über die Artikel und deren Lagerorte. Sie können Inventurauftragszeilen manuell erstellen oder diese durch die Anwendung automatisch erzeugen lassen. Zu diesem Zweck stehen Stapelverarbeitungsfunktionen zur Verfügung.  
+Die Inventurauftragszeilen enthalten Informationen über die Artikel und deren Lagerorte. Sie können Inventurauftragszeilen manuell erstellen oder diese von die Anwendung automatisch erzeugen lassen. Zu diesem Zweck stehen Stapelverarbeitungsfunktionen zur Verfügung.  
 
 Bevor Sie mit der Erstellung von Inventuraufträgen beginnen können, müssen verschiedene Eigenschaften für die Inventur eingerichtet werden. Weitere Informationen finden Sie unter [Vorgehensweise: Inventurdokumente einrichten](how-to-set-up-physical-inventory-documents.md)  
 
@@ -74,7 +74,7 @@ Beide Stapelverarbeitungen prüfen, ob bereits eine Inventurauftragszeile mit de
 
 3.  Wählen Sie die Schaltfläche **OK**, wenn der Batchauftrag beendet ist.  
 
-Sie können die Stapelverarbeitung mehrmals ausführen. Wenn im Inventurauftrag bereits Zeilen vorhanden sind, hängt die Anwendung die neuen Zeilen an das Ende des Belegs an.  
+Sie können die Stapelverarbeitung mehrmals ausführen. Wenn im Inventurauftrag schon Zeilen vorhanden sind, hängt die Anwendung die neuen Zeilen an das Ende des Belegs an.  
 
 Sie können einen Inventurauftrag erstellen und ihn mindestens einer Inventurerfassung zuordnen. Dort können Sie die Zählmengen dokumentieren. Weitere Informationen finden Sie unter [Führen Sie physische Inventuren aus](how-to-create-a-physical-inventory-recording.md).  
 

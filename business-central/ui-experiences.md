@@ -2,30 +2,30 @@
 title: Die Benutzerfreundlichkeit auswählen, um erweiterte Funktionen ein- oder auszublenden| Microsoft Docs
 description: Erfahren Sie, was die Essential- und Premium-Stufen der Benutzerfreundlichkeit für die Benutzerschnittstelle, Anwendungsbereiche und Ihr Unternehmen bedeutet.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2019
-ms.author: edupont
-ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 5866ce2bc125d7e21c6dbdf93984a87b07ae46b1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251423"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311356"
 ---
-# <a name="changing-which-features-are-displayed"></a>Sie können auswählen, welche Funktionen angezeigt werden
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist dafür ausgelegt, Ihnen zu helfen, Ihr Geschäft zu führen, unabhängig vom Geschäftsbereich. Im Kernstück von [!INCLUDE[d365fin](includes/d365fin_md.md)] finden Sie die Finanzberichtserstattung und die Verkaufs- und Einkaufsprozesse. Sie fügen Erfahrungen entsprechend den Unternehmensanforderungen hinzu, indem Sie aus AppSource Erweiterungen hinzufügen oder die Einstellung für "Erfahrung" für Ihr Unternehmen ändern. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe von Erweiterungen](ui-extensions.md) oder [Eine Benutzererfahrung auswählen, um eine Funktion ein- oder auszublenden](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
+# <a name="change-which-features-are-displayed"></a>Funktionen, die angezeigt werden ändern
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist dafür ausgelegt, Ihnen zu helfen, Ihr Geschäft zu führen, unabhängig vom Geschäftsbereich. Im Kernstück von [!INCLUDE[d365fin](includes/d365fin_md.md)] finden Sie die Finanzberichtserstattung und die Verkaufs- und Einkaufsprozesse. Sie fügen Erfahrungen entsprechend den Unternehmensanforderungen hinzu, indem Sie die Einstellungen **Erfahrung** für Ihre Unternehmen ändern,wie unten beschrieben, oder eine Erweiterung von AppSource hinzufügen. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-extensions.md) mithilfe der Erweiterungen .
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Eine Benutzerfreundlichkeit auswählen, um eine Funktion ein-  oder auszublenden
 Die Benutzerfreundlichkeit bestimmt, wie viel der Kernfunktionalität in Fenstern angezeigt wird, mit dem Sie und Ihre Kollegen [!INCLUDE[d365fin](includes/d365fin_md.md)] nutzen. Auf der Seite **Unternehmensinformation** können Sie die Benutzerfreundlichkeit für Ihren Mandanten im Feld **Erfahrung** festlegen.
 
 > [!NOTE]  
-> Diese Einstellung gilt für alle Anwender in Ihrem Unternehmen. Benutzer können ihre eigene Benutzeroberfläche noch weiter anpassen, indem sie Seitenlayouts und Inhalt ändern. Weitere Informationen finden Sie unter [Personalisieren Ihres Arbeitsbereichs und der Seiten](ui-personalization-user.md).  
+> Diese Einstellung gilt für alle Anwender in Ihrem Unternehmen. Benutzer können ihre eigene Benutzeroberfläche noch weiter anpassen, indem sie Seitenlayouts und Inhalt ändern. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).  
 
 Die verfügbaren Optionen werden in der folgenden Tabelle beschrieben.
 
@@ -63,10 +63,11 @@ Sie können jetzt fortfahren, die neuen Benutzeroberfläche auszuwählen.
 Alle Funktionsbeschreibungen in der Dokumentation behandeln [!INCLUDE[d365fin](includes/d365fin_md.md)] die **Premium**-Umgebung, decken also den gesamten Umfang der Benutzeroberflächenelemente ab. Ein Texthinweis wird in den allgemeinen Hilfethemen der Funktionsbereiche "Fertigung" und "Servicemanagement" eingefügt, der angibt, das die **Premium**-Umgebung erforderlich ist.
 
 ## <a name="see-also"></a>Siehe auch
-[Neue Unternehmen anlegen](about-new-company.md)  
+[Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
+[Anpassen von Business Central](ui-customizing-overview.md)
+[Neue Unternehmen gründen](about-new-company.md)  
 [Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)    
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Lizenzierungshandbuches](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
