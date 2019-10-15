@@ -139,19 +139,19 @@ Die folgenden Änderungen wurden in dieser Version von [!INCLUDE[d365fin](includ
 |CheckCalcPmtDiscCVVend||Verschoben zu Codeunit 426 Zahlungstoleranz-Verwaltung|  
 |CheckCalcPmtDiscVend||Verschoben zu Codeunit 426 Zahlungstoleranz-Verwaltung|  
 |CheckCalcPmtDiscGenJnlVend||Verschoben zu Codeunit 426 Zahlungstoleranz-Verwaltung|  
-|Reverse|Reverse|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseCustLedgEntry|ReverseCustLedgEntry|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseVendLedgEntry|ReverseVendLedgEntry|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseVAT|ReverseVAT|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
-|SetReversalDescription|SetReversalDescription|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
-|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Verschoben zu Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CheckDimComb|Hinzugefügt in Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CopyCustLedgEntry|Hinzugefügt in Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CopyVendLedgEntry|Hinzugefügt in Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CopyBankAccLedgEntry|Hinzugefügt in Codeunit 17 Gen. Jnl.-Post Reverse|  
+|Reverse|Reverse|Verschoben zu Codeunit 17 Gen. Buchung stornieren|  
+|ReverseCustLedgEntry|ReverseCustLedgEntry|Verschoben zu Codeunit 17 Gen. Buchung stornieren|  
+|ReverseVendLedgEntry|ReverseVendLedgEntry|Verschoben zu Codeunit 17 Gen. Buchung stornieren|  
+|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Verschoben zu Codeunit 17 Gen. Buchung stornieren|  
+|ReverseVAT|ReverseVAT|Verschoben zu Codeunit 17 Gen. Buchung stornieren|  
+|SetReversalDescription|SetReversalDescription|Verschoben zu Codeunit 17 Gen. Buchung stornieren|  
+|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Verschoben zu Codeunit 17 Gen. Buchung stornieren|  
+|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Verschoben zu Codeunit 17 Gen. Buchung stornieren|  
+|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Verschoben zu Codeunit 17 Gen. Buchung stornieren|  
+||CheckDimComb|Hinzugefügt in Codeunit 17 Gen. Buchung stornieren|  
+||CopyCustLedgEntry|Hinzugefügt in Codeunit 17 Gen. Buchung stornieren|  
+||CopyVendLedgEntry|Hinzugefügt in Codeunit 17 Gen. Buchung stornieren|  
+||CopyBankAccLedgEntry|Hinzugefügt in Codeunit 17 Gen. Buchung stornieren|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Aktualisiert|  
 |CollectAddjustment|CollectAdjustment|Aktualisiert|  
 |SetOverDimErr|SetOverDimErr|Aktualisiert|  
