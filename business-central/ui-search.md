@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4917142d6805824163e72e0403103e6974d856da
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310732"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695047"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren  
 In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahren“ schnell zu Aktionen, Seiten oder Berichten navigieren, Informationen zum Abschluss einer bestimmten Aufgabe finden und zusätzliche Apps und Beratungsdienste für [!INCLUDE[d365fin](includes/d365fin_md.md)] zu ermitteln.  
@@ -23,13 +23,13 @@ In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahr
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Wenn Sie Hilfe bei der Suche benötigen, verwenden Sie das Symbol ![Wie möchten Sie weiter verfahren](media/ui-search/search.png "Nach Seite oder Bericht suchen") **Wie möchten Sie weiter verfahren**, um danach zu suchen. Sie können „Wie möchten Sie weiter verfahren“ auch über ALT+Q starten.
+Wenn Sie Hilfe bei der Suche nach etwas benötigen, verwenden Sie das ![Tell me](media/ui-search/search.png "Suche nach Seite oder Bericht") **Tell me** Symbol, um danach zu suchen. Sie können „Wie möchten Sie weiter verfahren“ auch über ALT+Q starten.
 
 Sobald Sie Zeichen eingeben, zeigt [!INCLUDE[d365fin](includes/d365fin_md.md)] sofort Treffer an. Ergebnisse in der Liste ändern sich, wenn Sie weitere Zeichen eingeben. Wenn Sie bemerken, dass bei der Eingabe des Wortes "Produkt" auch Ergebnisse wie **Artikel** angezeigt werden, liegt das daran, dass "Wie möchten Sie weiter verfahren" Synonyme und alternative Suchbegriffe verwendet, um die Suche nach Aktionen, Seiten und Berichten zu vereinfachen.
 
 Die Spalte rechts gibt die allgemeine Kategorie des Ergebnisses an. Beispielsweise, ob es eine Listenseite oder eine Verwaltungsaufgabe ist.  
 
-Am unteren Rand des Fensters **Wie möchten Sie weiter verfahren** ist eine Aktion, die aufgerufen wird **erforschen**. Hiermit wird eine Funktionsübersicht geöffnet, in der alle verfügbaren Funktionen für Ihre Rolle oder für alle Rollen angezeigt werden. Weitere Informationen finden Sie unter [Suchen von Seiten aus einer Funktionsübersicht](ui-role-explorer.md).
+Am unteren Rand des Fensters **Wie möchten Sie weiter verfahren** ist eine Aktion, die aufgerufen wird **erforschen**. Hiermit wird eine Funktionsübersicht geöffnet, in der alle verfügbaren Funktionen für Ihre Rolle oder für alle Rollen angezeigt werden. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).
 
 > [!NOTE]  
 >   Wenn Sie Ihre Tastatur vorziehen, nutzen Sie die TAB-TASTE sowie die Pfeiltasten, um ein Element in den Ergebnissen auszuwählen. Wenn Sie auf Ihrer Tastatur auf Eingabe drücken, ohne auf ein Ergebnis zu wählen, öffnet [!INCLUDE[d365fin](includes/d365fin_md.md)] das Ergebnis, das zuerst aufgeführt wird.
@@ -58,11 +58,11 @@ Unter **Dokumentation** werden Artikel aus der [!INCLUDE[d365fin](includes/d365f
 Unsere Partner Community entwickelt laufend Apps, die Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzufügen. Der Abschnitt **Aus Microsoft AppSource herunterladen** führt Apps für [!INCLUDE[d365fin](includes/d365fin_md.md)] auf, die auf Microsoft AppSource verfügbar und sind und mit dem Suchwort zusammenhängen, das Sie eingegeben haben.
 
 ## <a name="searching-for-data"></a>Suchen nach Daten
-Die Funktion **Wie möchten Sie weiter verfahren** sucht nicht nach Daten wie Debitorennamen, Adressen oder Transaktionen. Stattdessen können Sie nach Daten in den Listenseiten suchen, indem Sie die ![Suchliste](media/ui-search/search-list.png "Suchlistensymbol") **Such**-Symbol in der linken Ecke des Listenkopfes auswählen. Die Suche trifft nur auf die Liste zu, die Sie anzeigen. Weitere Informationen finden Sie unter [Sortieren, Suchen und Filtern von Listen](ui-enter-criteria-filters.md).
+Die Funktion **Wie möchten Sie weiter verfahren** sucht nicht nach Daten wie Debitorennamen, Adressen oder Transaktionen. Stattdessen können Sie nach Daten in Listenseiten suchen, indem Sie das Symbol ![Suchliste](media/ui-search/search-list.png "Symbol für die Suchliste") **Suche** in der linken Ecke der Listenüberschrift wählen. Die Suche trifft nur auf die Liste zu, die Sie anzeigen. Weitere Informationen finden Sie unter [Sortieren, Suchen und Filtern von Listen](ui-enter-criteria-filters.md).
 
 ## <a name="questions"></a>Fragen?
 Wir haben „Wie möchten Sie weiter verfahren“ einer Reihe von Projektbeteiligten präsentiert, deren gemeinsame Fragen notiert und aus unseren Notizen eine Liste der häufig gestellten Fragen erstellt. Bei Interesse finden Sie sie unter [„Wie möchten Sie weiter verfahren“-FAQ](ui-search-faq.md).
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit  Business Central](ui-work-product.md)  
+[Arbeiten mit Business Central](ui-work-product.md)  
 [Fügen Sie Ihrem Rollencenter eine Seitenaktion hinzu](ui-bookmarks.md)

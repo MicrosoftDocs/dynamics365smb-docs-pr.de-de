@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ed3790a5e74528866ef226872be99db9dec7d4f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312388"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553866"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Vorgehensweise: Elektronische Belege empfangen und konvertieren
 Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt das Empfangen von elektronischen Rechnungen und Gutschriften im PEPPOL-Format, das von den wichtigsten Anbietern von Belegaustauschdiensten unterstützt wird. Um beispielsweise eine Rechnung von einem Kreditor in Form eines elektronischen PEPPOL-Belegs zu erhalten, verarbeiten Sie den Beleg auf der Seite Eingehende Belege, um diesen in eine Einkaufsrechnung oder Fibu Buch.-Blattzeile in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu konvertieren.
@@ -43,7 +43,7 @@ Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstü
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Eingehende Belege** ein, und wählen dann den zugehörigen Link aus.  
 
-2.  Wählen Sie die Zeile für den eingehenden Beleg aus, der die neue eingehende elektronische Rechnung darstellt, und wählen Sie dann auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Bearbeiten** aus.  
+2.  Markieren Sie die Zeile für den Eingangsdatensatz, der eine neue elektronische Eingangsrechnung darstellt, und wählen Sie dann die Aktion **Bearbeiten**.  
 
      Auf der Seite **Eingehende Belege** wird die entsprechende XML-Datei angehängt, und die meisten Felder werden mit den Informationen aus der elektronischen Rechnung ausgefüllt. Weitere Informationen finden Sie unter [So geht's: Eingehende Belege erstellen](across-how-create-income-document-records.md).  
 
@@ -51,7 +51,7 @@ Die generische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstü
 
 4.  Um Text in der Kreditorenrechnung einem bestimmten Sollkonto zuzuordnen, wählen Sie auf der Registerkarte **Aktion** in der Gruppe **Allgemein** die Option **Text zu Konto zuordnen**, und füllen Sie dann die Seite **Kontozurodnungs** aus.  
 
-5.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Allgemein** die Option **Beleg erstellen**.  
+5.  Wählen Sie die Aktion **Dokument erstellen**.  
 
      Eine Einkaufsrechnung wird in [!INCLUDE[d365fin](includes/d365fin_md.md)] basierend auf den Daten im elektronischen Beleg erstellt.  
 

@@ -12,15 +12,17 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 57a3acf17b91a8a2a8ffcbc8b070955086a80a0d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: af9673eb790b6e1e89607214b23476e5b415aca3
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316740"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577183"
 ---
 # <a name="set-up-purchasers"></a>Einkäufer einrichten
 Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese auf einer Seite einrichten und jedem einen Code zuweisen. Diese Codes können Sie dann für statistische Auswertungen und als Filter in Berichten verwenden
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q7hU]
 
 ## <a name="to-set-up-purchasers"></a>So richten Sie Einkäufer ein
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer/Käufer** ein, und wählen dann den zugehörigen Link aus.

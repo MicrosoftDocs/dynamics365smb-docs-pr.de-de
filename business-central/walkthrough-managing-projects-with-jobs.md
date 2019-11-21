@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314820"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554716"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Exemplarische Vorgehensweise: Verwalten von Projekten
 
@@ -173,7 +173,7 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
     |1020|Entwicklung|Buchen|  
     |1090|Beratung insgesamt|Bis-Summe|  
 
-3.  Um zu zeigen, dass einige Aufgaben Unterkategorien anderer Aufgaben sind, wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktion** die Option **Projektaufgaben einrücken**.  
+3.  Um anzuzeigen, dass einige Aufgaben Unterkategorien anderer Aufgaben sind, wählen Sie die Aktion **Projektaufgaben einrücken**.  
 
  Eine Planungszeile kann von einer der folgenden Arten sein:  
 
@@ -261,7 +261,7 @@ Die Zeilen werden gebucht.
 4.  Geben Sie im Inforegister **Optionen** das Buchungsdatum ein, und definieren Sie, ob eine Rechnung pro Aufgabe oder eine einzige Rechnung für alle Aufgaben erstellt werden soll.  
 5.  Wählen Sie die Schaltfläche **OK** aus, um die Rechnung zu erstellen, und wählen Sie dann die Schaltfläche **OK** auf der Bestätigungsseite.  
 
- Nachdem Katrin die Rechnung erstellt hat, kann sie von **Verkauf und Marketing** unter **Auftragsabwicklung** darauf zugreifen und sie weiter bearbeiten.  
+ Nachdem Tricia die Rechnung erstellt hat, kann sie diese z.B. aus dem **Kundenauftragsabwickler**Rollencenter aufrufen. 
 
 ### <a name="to-post-a-new-sales-invoice"></a>So buchen Sie eine neue Verkaufsrechnung  
 

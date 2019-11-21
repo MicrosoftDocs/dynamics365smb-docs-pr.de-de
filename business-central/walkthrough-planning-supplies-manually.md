@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d3c72cf638e196d3b39287fef577c8293332aec
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf3a0653b4094b9e7d90be2909572ed831863c4f
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310564"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554668"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung
 
@@ -60,15 +60,12 @@ In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungs
 
 ## <a name="using-the-order-planning-page"></a>Verwenden der Seite "Auftragsplanung"  
 
-<!--
-The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden:  
 
--   Manufacturing, Planning  
--   Sales & Marketing, Order Processing  
--   Purchase, Planning  
--   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
-
--->  
+-   Fertigung, Planung  
+-   Vertrieb & Marketing, Auftragsabwicklung  
+-   Einkauf, Planung  
+-   Darüber hinaus können Sie diese Seite für einen bestimmten Fertigungsauftrag öffnen, indem Sie die Aktion **Planung** wählen.
 
 ### <a name="to-use-the-order-planning-page"></a>So verwenden Sie die Seite "Auftragsplanung"  
 

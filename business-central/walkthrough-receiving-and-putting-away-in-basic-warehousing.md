@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 597f14f07f7e8ac690dce8a5473d01ec68d1669a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314742"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554644"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen
 
@@ -126,9 +126,9 @@ Auf der Seite **Lagerkommissionierung** können Sie alle eingehenden Lageraktivi
 3.  Wählen Sie das Feld **Herkunftsdokument** , und wählen Sie **Einkaufsauftrag** aus.  
 4.  Wählen Sie das Feld **Herkunftsnr.** aus, wählen Sie die Zeile für den Einkauf von Kreditor 10000 aus, und wählen Sie dann die Schaltfläche **OK**.  
 
-    Alternativ auf der Registerkarte **Aktionen**, in der Gruppe **Funktion**, wählen Sie **Herkunftsbeleg holen** und wählen Sie die Bestellung aus.  
+    Alternativ können Sie auch die Aktion **Quellbeleg holen** wählen und dann die Bestellung auswählen.  
 
-5.  Wählen Sie die **Die zu verarbeitende Menge automatisch ausfüllen** Aktion aus.  
+5.  Wählen Sie die Aktion **Die zu verarbeitende Menge automatisch ausfüllen**.  
 
     Alternativ im Feld **Menge zu verarbeiten** geben Sie 10 und 30 jeweils auf den zwei Lagerkommissionierzeilen ein.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4b6626f13e04e3014df3c792e5ace05575b430c4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314700"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553892"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
 
@@ -136,7 +136,7 @@ Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifis
 
 ### <a name="to-put-the-items-away"></a>So lagern Sie die Artikel ein  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Einlagerungen** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie den einzigen Einlagerungsbeleg in der Liste aus, und wählen Sie dann auf der Registerkarte **Start** in der Gruppe **Verwalten** **Bearbeiten** aus.  
+2.  Wählen Sie den einzigen Lager-Einlagerungsbeleg in der Liste aus und wählen Sie dann die Aktion **Bearbeiten**.  
 
     Der Einlagerungsbeleg wird geöffnet mit insgesamt acht Take- oder Place-Zeilen für die vier Einkaufsauftragszeilen.
 

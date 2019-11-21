@@ -12,40 +12,22 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bfcf6190250ba05ac5556d5c7543df6c4e9fa34e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d74c6d4c43671c90918bfd29640760a4e1a64f65
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304732"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554422"
 ---
 # <a name="visit-our-video-library"></a>Besuchen Sie unsere Videobibliothek
-Haben Sie Verständnis, während wir unsere Bibliothek von "So gehts" Videos neu erstellen. Eine Nebenwirkung der neuen Verbesserungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist, dass wir unsere Inhalt reproduzieren müssen, damit er genau das Produkt wiedergibt.
+Wir wissen, dass einige Leute es vorziehen, Inhalte anzusehen, anstatt sie zu lesen. Zu diesem Zweck produzieren wir kurze, leicht verdauliche Videos, die entweder einzeln stehen oder unsere Benutzerhilfe ergänzen.   
 
-Mittlerweile bieten wir drei Videos an, die Ihnen mit den ersten Schritten helfen.
-
-|Titel|Description|
-|----|----|
-|Einführung|Erfahren Sie, wie Produktfunktionen organisiert werden und wie Sie an verschiedene Arten von Aufgaben und Informationen gelangen.|
-|Erste Schritte|Verstehen Sie die ersten Schritte, wenn Sie ausprobieren oder [!INCLUDE[d365fin](includes/d365fin_md.md)] erst vor kurzem das Produkt bezogen haben. |
-|Hilfe anfordern|Wissen woher Sie Antworten auf die verschiedenen Arten von Fragen erhalten.|
-
-Sie können die Videos auf verschiedene Arten aufrufen. Wenn Sie zum [!INCLUDE[d365fin](includes/d365fin_md.md)] ersten Mal aufrufen, können Sie die Videos aus der Willkommensseite starten, die anzeigt werden. Wenn Sie bereits mit [!INCLUDE[d365fin](includes/d365fin_md.md)] arbeiten, können Sie zur Bibliothek über **Business Manager** und **Buchhalter** im Rollencenter gelangen, indem Sie die **Produkt-Videos** Kachel auswählen.
-
-> [!Tip]  
-> Videos in der Bibliothek werden in einem Rahmen angezeigt, der möglicherweise etwas klein wirkt. Um den Rahmen zu vergrößern, wählen Sie das Pfeilsymbol mit dem doppelten Ende in der oberen rechten Ecke des Rahmens aus. Danach werden Videos in größeren Rahmen wiedergegeben, bis Sie ihn wieder verkleinern.
+Wenn Sie neu bei [!INCLUDE[d365fin](includes/d365fin_md.md)] sind, können Sie die Einführungsvideos von der angezeigten Startseite aus starten. Wenn Sie bereits mit [!INCLUDE[d365fin](includes/d365fin_md.md)] arbeiten, können Sie zur Bibliothek über **Business Manager** und **Buchhalter** im Rollencenter gelangen, indem Sie die **Produkt-Videos** Kachel auswählen. 
 
 Sie können auch unsere Anleitungsvideos und viele andere Inhalte auf dem YouTube-Kanal sehen, der für [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt wurde. Um den Kanal jetzt zu besuchen [klicken Sie hier](https://go.microsoft.com/fwlink/?linkid=851533).
 
-## <a name="content-that-is-coming-soon"></a>Inhalt, der in Kürze verfügbar ist
-Um einige Beispiele zu erwähnen, die Bibliothek von Videos, die wir anzeigen, sind "so geht's" Videos:  
-
-* Geschäftsdaten aus anderen Finanzsystemen migrieren [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Richten Sie Dimensionen ein, damit Sie unterschiedliche Einheiten und Belege verfolgen und analysieren können
-* Verbinden [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Dynamics 365 Sales
-* Genehmigungsworkflows einrichten  
-* Verwenden von Power BI mit [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* E-Mail-Protokollierung einrichten und Belegen direkt aus [!INCLUDE[d365fin](includes/d365fin_md.md)] buchen  
+> [!Tip]  
+> Videos in der Bibliothek werden in einem Rahmen angezeigt, der möglicherweise etwas klein wirkt. Um den Rahmen zu vergrößern, wählen Sie das Pfeilsymbol mit dem doppelten Ende in der oberen rechten Ecke des Rahmens aus. Danach werden Videos in größeren Rahmen wiedergegeben, bis Sie ihn wieder verkleinern.
 
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)

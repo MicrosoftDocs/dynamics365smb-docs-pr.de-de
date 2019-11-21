@@ -8,22 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309460"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774843"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn arbeiten [!INCLUDE[prodshort](includes/prodshort.md)].
 
+Einen Überblick über die gängigsten Tastenkombinationen finden Sie unter [Tastaturkombinationen (nur PC)](keyboard-shortcuts-cheatsheet.md).
+
 > [!TIP]
-> Eine schnelle, druckerfreundliche Übersicht der beliebtesten Verknüpfungen für PC-Benutzer finden Sie unter [Tastaturkürzel (nur für PC)](keyboard-shortcuts-cheatsheet.md). Wählen Sie für eine grafische Darstellung das folgende Bild:
+> Für eine grafische Darstellung der am häufigsten verwendeten Tastenkombinationen wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.
 >
->[ ![Für einen Download zum Drucken klicken Sie mit der rechten Maustaste und wählen "Bild speichern unter" aus](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## <a name="overview"></a>Matrix
 Die Tastenkombinationseingabehilfe kann es effizienter und einfacher machen, um zu verschiedenen Bereichen und Elementen auf einer Seite zu navigieren. Sie werden von den meisten Webbrowsern unterstützt; jedoch unterscheiden sich einige davon im Verhalten.
@@ -47,11 +49,11 @@ Die folgende Tabelle beschreibt Tastenkombinationen für das zusätzliche Navigi
 |Alt+Shift+F2|Umschalten zwischen **Einzelheiten** und **Anhängen** im FactBox-Bereich.|
 |ALT+O|Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu, auch wenn das FactBox-Fenster nicht geöffnet ist.|
 |ALT+Q<br />(Strg + Wahltaste + Q)|Öffnen Sie das Fenster **Wie möchten Sie weiter verfahren**. Weitere Informationen finden Sie unter [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md).|
-|ALT+N |Öffnen Sie eine Seite, um einen neuen Datensatz zu erstellen. (Ähnlich wie bei der Auswahl der **Neu** und **+** Aktionen.)
-|ALT+UMSCHALT+N |Schließen Sie eine neu erstellte Seite und öffnen Sie eine neue, um einen neuen Datensatz zu erstellen.
+|ALT+N |Öffnen Sie eine Seite, um einen neuen Datensatz zu erstellen. (Ähnlich wie bei der Auswahl der **Neu** und **+** Aktionen.)|
+|ALT+UMSCHALT+N |Schließen Sie eine neu erstellte Seite und öffnen Sie eine neue, um einen neuen Datensatz zu erstellen. Ebenso bucht Alt+F9 ein Dokument und erstellt ein neues.|
 |ALT+T|Öffnen der Seite **Meine Einstellungen**.|
-|Alt+Nach-rechts-Taste|Suchen Sie nach zusätzlichen Informationen oder zugrunde liegenden Werten für ein Feld, das die Schaltfläche ![AssistEdit](media/assist-edit-icon.png "AssistEdit-Taste") enthält. Dies wird verwendet, wenn die übliche Dropdown-Schaltfläche (Alt + Abwärtspfeil) im selben Feld für einen anderen Zweck verwendet wird.|
-|Shift+F12|Öffnen Sie die Funktionsübersicht. Weitere Informationen finden Sie unter [Suchen von Seiten aus einer Funktionsübersicht](ui-role-explorer.md).|
+|Alt+Nach-rechts-Taste|Suchen Sie zusätzliche Informationen oder zugrundeliegende Werte für ein Feld, das die Schaltfläche ![AssistEdit](media/assist-edit-icon.png "AssistEdit-Schaltfläche") enthält. Dies wird verwendet, wenn die übliche Dropdown-Schaltfläche (Alt + Abwärtspfeil) im selben Feld für einen anderen Zweck verwendet wird.|
+|Shift+F12|Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).|
 |Ctrl+Alt+Shift+C|Informationen in der Unternehmenskennzeichnung anzeigen.|
 |STRG+ALT+F1|Öffnen und schließen Sie den Seitenüberprüfungsbereich. Der Seitenüberprüfungsbereich zeigt Informationen zur Seite, wie deren Herkunftstabelle, Felder, Filter, Erweiterungen und mehr.<br /><br />Weitere Informationen finden Sie unter [Überprüfen von Seiten](across-inspect-page.md).|
 |Strg+C |Den Wert des Felds kopieren. Wenn das Feld im Fokus liegt und Sie keinen Text in diesem Feld ausgewählt haben, wird hierdurch der gesamten Wert kopiert. Wenn Sie Text in diesem Feld ausgewählt haben, wird nur der markierte Text kopiert.|

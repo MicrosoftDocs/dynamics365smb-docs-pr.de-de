@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ce236dd274baa02cafac8bfdcb7f7cb1d08ce46
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310588"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553966"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
 
@@ -150,19 +150,19 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     |80203|KOMMISS|W-01-0001|20|  
     |80209|KOMMISS|W-01-0001|20|  
 
-4.  Wählen Sie auf der Registerkarte **Start** in der Gruppe **Registrieren** die Option **Registrieren** aus, und klicken Sie anschließend auf die Schaltfläche **Ja**.  
+4.  Wählen Sie die Aktion **Registrieren** und dann die Schaltfläche **Ja**.  
 
     Synchronisieren Sie anschließend die neuen Lagereinträge mit dem Bestand.  
 
 5.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Artikel Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus. Die Seite **Artikel Buch.-Blatt** wird geöffnet.  
-6.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Ausgleich berechnen** aus.  
+6.  Wählen Sie die **Lagerortanpassung berechnen** Aktion aus.  
 7.  Auf der Seite **Ausgleich berechnen** auszuführen, wählen Sie die Schaltfläche **OK** aus.  
-8.  Wählen Sie auf der Seite **Artikeljournal** auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Buchen**, und klicken Sie dann auf die Schaltfläche **Ja**  
+8.  Wählen Sie auf der Seite **Einzelpostenjournal** die Aktion **Post** und anschließend die Schaltfläche **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>Erstellen der Montageartikel  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Neu** aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
+2.  Wählen Sie die Aktion **Neu**.  
 3.  Erstellen Sie den ersten Montageartikel auf der Grundlage der folgenden Informationen.  
 
     |Feld|Wert|  
@@ -177,7 +177,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     > [!NOTE]  
     >  Kit A wird in der Regel durch Bestandsmontage geliefert und verfügt daher über ein Wiederbeschaffungsverfahren, durch das es zum Teil der allgemeinen Wiederbeschaffungsplanung wird.  
 
-4.  Wählen Sie auf der Registerkarte **Navigieren** in der Gruppe **Montage/Fertigung** **Montage** aus, und klicken Sie anschließend auf **Montagestückliste**.  
+4.  Wählen Sie die Aktion **Montage** und dann **Montage-Stückliste**.  
 5.  Definieren Sie eine Montagestückliste für Kit A mit den folgenden Informationen.  
 
     |**Typ**|**Nr.**|**Komponentenmenge**|  
@@ -200,7 +200,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     > [!NOTE]  
     >  Kit B wird normalerweise als Montageartikel geliefert und verfügt daher über kein Wiederbeschaffungsverfahren, da es nicht zur allgemeinen Wiederbeschaffungsplanung gehören soll.  
 
-7.  Wählen Sie auf der Registerkarte **Navigieren** in der Gruppe **Montage/Fertigung** **Montage** aus, und klicken Sie anschließend auf **Montagestückliste**.  
+7.  Wählen Sie die Aktion **Montage** und dann **Montage-Stückliste**.  
 8.  Definieren Sie eine Montagestückliste für Kit B mit den folgenden Informationen.  
 
     |**Typ**|**Nr.**|**Komponentenmenge**|  
@@ -213,7 +213,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 ### <a name="selling-the-assembly-items"></a>Verlaufen der Montageartikel  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Neu** aus.  
+2.  Wählen Sie die Aktion **Neu**.  
 3.  Erstellen Sie zwei Verkaufsauftragszeilen für Debitor 62000, The Device Shop, am Arbeitsdatum mit den folgenden Informationen.  
 
     |**Typ**|**Beschreibung**|**Menge**|Menge für Auftragsmontage|Warenausg.-Datum|  
@@ -259,14 +259,14 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
      Ändern Sie dann das Lieferdatum gemäß dem Montagezeitplan.  
 
 15. Geben Sie auf der Verkaufsauftragszeile für 15 Einheiten von Kit A **01-27-2014**im Feld **Versanddatum** ein.  
-16. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Freigeben** die Option **Freigeben** aus.  
-17. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Lager** die Option **Warenausgang erstellen** aus.  
+16. Wählen Sie die Aktion **Freigabe** aus.  
+17. Wählen Sie die Option **Waren anlegen. Versand** Aktion.  
 18. Schließen Sie den Verkaufsauftrag.  
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planen für die nicht verfügbaren ATS-Artikel  
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Planungsvorschlag** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie auf der Registerkarte **Aktion** in der Gruppe **Funktionen** die Option **Neuplanung berechnen** aus.  
+2.  Wählen Sie die **Neuplanung berechnen** Aktion aus.  
 3.  Stellen Sie auf der Seite **Planung berechnen** die folgenden Filter ein.  
 
     |Startdatum|Enddatum|Nr.|  
@@ -277,7 +277,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Eine neue Planungszeile wird für den erforderlichen Montageauftrag über zehn Stück fällig am 27. Januar erstellt. Es muss keine Änderung vorgenommen werden, sodass Sie nun einen Auftrag anlegen können.  
 
-5.  Wählen Sie auf der Registerkarte **Funktionen** in der Gruppe **Vorgang** die Option **Ereignismeldung durchführen** aus.  
+5.  Wählen Sie die Aktion **Aktionsnachricht austragen**.  
 6.  Wählen Sie auf der Seite **Ereignismeld. durchf.** das Feld **Montageauftrag** und dann **Montageaufträge erstellen**.  
 7.  Wählen Sie die Schaltfläche **OK** aus.  
 
@@ -298,7 +298,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Erstellen Sie dann einen Kommissionierbeleg für alle ATO-Montagekomponenten, die für den Warenausgang benötigt werden.  
 
-3.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Kommissionierung erstellen** aus, und wählen Sie anschließend **OK** aus.  
+3.  Wählen Sie die Aktion **Pick erstellen** und dann die Schaltfläche **OK**.  
 
     Führen Sie dann die Aufgaben des Komissionierers aus.  
 
@@ -309,8 +309,8 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Registrieren Sie dann die Kommissionierung, ohne die Standardinformationen zu ändern.  
 
-6.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Bewegungsmenge autom. ausfüllen** aus.  
-7.  Wählen Sie auf der Registerkarte **Start**, in der Gruppe **Registrierung**, die Option **Kommissionierung registrieren**.  
+6.  Wählen Sie die **Die zu verarbeitende Menge automatisch ausfüllen** Aktion aus.  
+7.  Wählen Sie die Aktion **Kommissionierung registrieren** aus.  
 
     Kehren Sie zum Ausführen der Versandaufgaben zurück.  
 
@@ -335,7 +335,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 12. Schließen Sie die Seite **Montageauftrag**, um zur Seite **Warenausgang** zurückzukehren.  
 13. Geben Sie auf der Ausgangszeile für drei Einheiten von Kit B im Feld **Versandmenge**  **3** ein.  
-14. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Buchen** die Option **Warenausgang buchen**, und wählen Sie dann die Schaltfläche **Liefern**.  
+14. Wählen Sie die Aktion **Postversand** und dann die Schaltfläche **Senden**.  
 
     Zusammen mit dieser Warenausgangbuchung werden die vollständige Verbrauchs- und Ausgabemenge des zugehörigen Montageauftrags gebucht, und das Feld **Verbleibende Menge** ist leer. Die Verkaufsauftragszeile für Kit B wird aktualisiert, um zu zeigen, dass die drei Einheiten geliefert werden.  
 
@@ -358,7 +358,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Buchen Sie dann, dass der Montageauftrag abgeschlossen ist.  
 
-3.  Klicken Sie auf der Registerkarte **Navigate** in der Gruppe **Lager**, wählen Sie **Warenausgangszeile für Programmfertigung** aus.  
+3.  Wählen Sie die Option **Warenausgangszeile für Programmfertigung** Aktion.  
 4.  Geben Sie auf der Seite **Warenausgangszeile für Programmfertigung**im Feld **Versandmenge** **5** ein und schließen Sie dann die Seite.  
 
     Beachten Sie auf der Seite, dass die Felder **Montageauftrag** und **Montagemenge** jetzt mit den **Verbrauchsmengen** ausgefüllt sind, die mit der Lieferung gebucht werden.  
@@ -374,22 +374,22 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Als Nächstes erstellen Sie ein Kommissionierungsdokument, um die benötigten Komponenten abzurufen.  
 
-3.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Freigeben** die Option **Freigeben** aus.  
-4.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Logistik** die Option **Kommissionierung erstellen** aus, und wählen Sie anschließend **OK** aus.  
+3.  Wählen Sie die Aktion **Freigeben**.  
+4.  Wählen Sie die **Kommissionierung erstellen** Aktion, und wählen Sie die Schaltfläche **OK**.  
 
-    Führen Sie dann die Aufgaben des Komissionierers aus.  
+    Als nächstes führen Sie die Aufgabe des Kommissionierers aus.  
 
 5.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus.  
 6.  Öffnen Sie den Kommissionierbeleg, den Sie in Schritt 4 in diesem Abschnitt erstellt haben.  
 
      Registrieren Sie dann die Kommissionierung, ohne die Standardinformationen zu ändern.  
 
-7.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Bewegungsmenge autom. ausfüllen** aus.  
-8.  Wählen Sie auf der Registerkarte **Start**, in der Gruppe **Registrierung**, die Option **Kommissionierung registrieren**.  
+7.  Wählen Sie die Aktion **Die zu verarbeitende Menge automatisch ausfüllen**.  
+8.  Wählen Sie die Aktion **Auswahl registrieren**.  
 
     Kehren Sie zum Montageauftrag zurück, um die letzte Montageaufgabe auszuführen.  
 
-9. Wählen Sie im Fenster **Montageauftrag** auf der Registerkarte **Aktionen** in der Gruppe **Buchen** die Option **Buchen**, und klicken Sie dann auf die Schaltfläche **Ja**.  
+9. Wählen Sie in der **Montageauftrag** die Aktion **Buchen** und dann die Schaltfläche **Ja**.  
 
     Beachten Sie, dass der Montageauftrag aus der Liste der offenen Aufträge entfernt wurde.  
 
@@ -402,7 +402,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Kommissionieren Sie dann alle übrigen Artikel.  
 
-3.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Kommissionierung erstellen** aus, und wählen Sie anschließend **OK** aus.  
+3.  Wählen Sie die Aktion **Pick erstellen** und dann die Schaltfläche **OK**.  
 
     Führen Sie dann die letzte Aufgabe der Auswahl für diesen Warenausgang aus.  
 
@@ -413,8 +413,8 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Registrieren Sie dann die Kommissionierung, ohne die Standardinformationen zu ändern.  
 
-6.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Bewegungsmenge autom. ausfüllen** aus.  
-7.  Wählen Sie auf der Registerkarte **Start** in der Gruppe **Registrieren** die Option **Kommissionierung registrieren** aus, und klicken Sie anschließend auf die Schaltfläche **Ja**.  
+6.  Wählen Sie die Aktion **Die zu verarbeitende Menge automatisch ausfüllen**.  
+7.  Wählen Sie die Aktion **Auswahl registrieren** und dann die Schaltfläche **Ja**.  
 
     Kehren Sie zum Warenausgang zurück, um die letzte Aufgabe auszuführen.  
 
@@ -422,7 +422,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Beachten Sie, dass auf der Seite **Lagerahausversand** in der Zeile für zehn Einheiten von Kit A die Felder **Versandmenge**und **Ausgewählte Menge** jetzt **10** enthalten.  
 
-9. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Buchen** die Option **Warenausgang buchen**, und wählen Sie dann die Schaltfläche **Liefern**.  
+9. Wählen Sie die Aktion **Postversand** und wählen Sie **Senden**.  
 
     Das Warenausgangdokument wird entfernt, was angibt, dass die entsprechenden Lageraktivitäten ausgeführt wurden. Als Nächstes überprüfen Sie, dass der Verkaufsauftrag verarbeitet wurde.  
 
@@ -431,7 +431,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Beachten Sie, dass das Feld **Versandte Menge** die gesamte Menge in beiden Zeilen enthält.  
 
-    Wenn The Device Shop für den Erhalt der 18 PCs von CRONUS zahlt, werden der Verkaufsauftrag und dessen verknüpfte Montageaufträge entfernt.  
+    Wenn der Geräte-Shop für den Erhalt der 18 PCs von CRONUS bezahlt, werden der Kundenauftrag und die damit verbundenen Montageaufträge entfernt.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md)   

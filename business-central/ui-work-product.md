@@ -8,19 +8,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81ba616c55b364843a718e9b000bfee02a513ad1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fbac11fc220184a2906ceed1811c7f5b0b7676b5
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310636"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774771"
 ---
 # <a name="working-with-included365finincludesd365fin_mdmd"></a>Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.
 
 Sie können beispielsweise die Größe und die Position von Seiten anpassen, die Breite von Spalten und die Höhe der Spaltenköpfe erweitern und die Sortierung der Daten in Spalten ändern. Wenn Sie auf Seiten arbeiten und zum Anzeigen aller Spalten die horizontale Bildlaufleiste verwenden müssen, kann mit einer vertikalen Fixierung der Bildlauf von einigen Spalten beschränkt werden.
+
+> [!TIP]
+> Für einen druckfreundlichen Überblick über die am häufigsten verwendeten Funktionen wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.
+>
+> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > Zusätzlich zu den allgemeinen Benutzeroberflächen-Funktionen, die in diesem Abschnitt beschrieben werden, können Sie weitere allgemeine Funktionen verwenden, die geschäftsverwandter sind. Weitere Informationen finden Sie unter [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md).
@@ -30,7 +35,7 @@ Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den
 | An | Siehe |
 | --- | --- |
 |Suchen von bestimmten Seiten, Berichten, Aktionen, Hilfethemen oder Partnererweiterungen. |[Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md) |
-|Verschaffen Sie sich einen Überblick über Seiten für Ihre Rolle und für andere Rollen und navigieren Sie zu Seiten.|[Suchen von Seiten aus einer Funktionsübersicht](ui-role-explorer.md)|
+|Verschaffen Sie sich einen Überblick über Seiten für Ihre Rolle und für andere Rollen und navigieren Sie zu Seiten.|[Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)|
 | Filtern von Daten in den Ansichten, in Berichten oder in den Funktionen, indem Sie Sonderzeichen und Zeichen verwenden. |[Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md) |
 |Lernen Sie die Vielzahl an allgemeinen Funktionen kennen, die Ihnen dabei helfen, Daten schnell und einfach einzugeben.|[Eingeben von Daten](ui-enter-data.md)|
 |Erfahren Sie, wie Sie Daten schnell kopieren und einfügen können, inklusive mithilfe von Tastenkombinationen.|[Kopieren und Einfüge FAQ](ui-copy-paste.md)|

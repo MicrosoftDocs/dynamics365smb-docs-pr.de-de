@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 20e934c3556f408a48e595e6c5ef4f46809aa742
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898167c1b76a757dc4b6b06f8df64eef3a3c2b59
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302716"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554254"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Allgemeine Anlagen-Informationen einrichten
 Bevor Sie Anlagen verwalten können, müssen Sie Standardsachkonten, Verteilungsschlüssel, Buch.-Blattvorlagen und -namen für Anlagenbuchungen und -umbuchungen einrichten, und Sie können Anlagen in Klassen, wie beispielsweise materiell und immateriell, klassifizieren.
@@ -105,7 +105,7 @@ Falls Sie die Anlagen in [!INCLUDE[d365fin](includes/d365fin_md.md)] zum ersten 
 
     Aktivieren Sie die Fibu-Integration, indem Sie die folgenden Schritte ausführen. Zuerst prüfen Sie, ob die Fibuintegration für alle AfA-Bücher deaktiviert ist, buchen Sie die Eröffnungsposten, und zum Schluss, aktivieren Sie die Fibu-Integration.  
 4. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Abschreibungsbücher** ein, und wählen dann den zugehörigen Link aus.  
-5. Wählen Sie das entsprechende AfA-Buch aus. Wählen Sie auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Bearbeiten** aus, um die Seite **AfA-Buch - Karte** zu öffnen.
+5. Markieren Sie das entsprechende Abschreibungsbuch und wählen Sie dann die Aktion **Bearbeiten**, um die Seite **AfA-Buch - Karte** zu öffnen.
 6. Vergewissern Sie sich im Inforegister **Integration**, dass alle Felder leer sind, indem Sie alle Häkchen löschen. Sind mehrere AfA-Bücher vorhanden, deaktivieren Sie die Fibu-Integration für jedes Buch.  
 7. Geben Sie im Anlagen Buch.-Blatt die folgenden Zeilen für jede Anlage ein:
    * eine Zeile mit den Anschaffungskosten

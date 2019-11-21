@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2019
+ms.date: 11/06/2019
 ms.author: edupont
-ms.openlocfilehash: bfe2c4bec0627aee83d0ca25db975c76b7f803ab
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf4fe3abc4a31619015520f2be598976b0fc8f5c
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300569"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775499"
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -28,16 +28,14 @@ Sie können sich für eine kostenlose Testversion registrieren, um [!INCLUDE [pr
 
 Um sich leichter auf Geschäftstätigkeiten mit [!INCLUDE [prodshort](includes/prodshort.md)] vorzubereiten, können Sie Leitfäden für unterstütztes Setup, Videos oder Hilfethemen für ausgewählte Setupaufgaben starten. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
 
-Wenn Sie soweit sind, [!INCLUDE [prodshort](includes/prodshort.md)] zu kaufen, können Sie einen [!INCLUDE [prodshort](includes/prodshort.md)]-Partner auf der Seite [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145) finden.  
-
-[!INCLUDE [prodshort](includes/prodshort.md)] wird über ein globales Netzwerk von Dynamics 365 Partnern mit Branchenexpertise verkauft und implementiert. Wenden Sie sich an einen Partner, um eine detaillierte Bewertung, Beratungsleistungen und zusätzliche Preise zu erhalten. Weitere Informationen finden Sie im Abschnitt **Preisgestaltung** auf der [Dynamics 365 Business Central Seite auf microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+Wenn Sie soweit sind, [!INCLUDE [prodshort](includes/prodshort.md)] zu kaufen, können Sie einen [!INCLUDE [prodshort](includes/prodshort.md)]-Partner auf der Seite [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145) finden. Weitere Informationen finden Sie unter [Wie finde ich einen Reselling-Partner?](#findpartner).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Wohin wende ich mich bei Fragen?
 Wenn Sie Fragen zum [!INCLUDE[d365fin](includes/d365fin_md.md)] haben, und keine Antwort in dieser Dokumentation finden, können Sie dieBusiness Central-Community fragen. Weitere Informationen finden Sie unter [Dynamics 365 Business Central-Community](https://community.dynamics.com/business).  
 
 Von der Communityhomepage aus finden Sie auch Verknüpfungen mit unseren Blogs, in denen Sie Tipps und Tricks finden. Weitere Informationen finden Sie unter [Microsoft Dynamics 365 Business Central auf dem Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) und den älteren [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials).  
 
-Schließlich können Sie Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Wiederverkaufspartner kontaktieren. Weitere Informationen finden Sie im Abschnitt [Wie erhalte ich techniscen Support?](across-faq.md#how-do-i-get-technical-support-for-).  
+Schließlich können Sie Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Wiederverkaufspartner kontaktieren. Weitere Informationen finden Sie in den Abschnitten [Wie erhalte ich technischen Support?](across-faq.md#how-do-i-get-technical-support-for-) und [Wie finde ich einen Reselling-Partner?](#findpartner)?  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Warum finde ich diese Funktion nicht in meinem [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Haben Sie vor kurzem über eine neue Funktion im Veröffentlichungsplan in unserem Blog gelesen? In diesem Fall wurde Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise noch nicht auf die neueste Version aktualisiert. Sie können überprüfen, auf welcher Version Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] basiert auf der Seite [Hilfe und Unterstützung](product-help-and-support.md).  
@@ -48,15 +46,17 @@ Also wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt e
 Ja. Einige Cloud-basierte Funktionen können in bestimmten Fällen lokal ausgeführt werden, andere werden überhaupt nicht unterstützt. Weitere Informationen finden Sie unter [Funktionen, die in lokalen Bereitstellungen von Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) nicht implementiert sind.
 
 ## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Kann ich unter [!INCLUDE[d365fin](includes/d365fin_md.md)] das Training aufrufen?
-Ja, das können Sie! Kostenlose eLearning-Inhalte finden Sie auf der [Microsoft Learn Seite](/learn/browse/?products=dynamics-business-central). Sie können auch Ihren Vertriebspartner um zusätzliche Schulungen bitten. Wenn Sie nicht wissen, wer das ist, kontaktieren Sie einen Business Central Partner unter [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Ja, das können Sie! Kostenlose eLearning-Inhalte finden Sie auf der [Microsoft Learn Seite](/learn/browse/?products=dynamics-business-central). Weitere Informationen finden Sie unter [Business Central Lernkatalog](readiness/readiness-learning-catalog.md). Sie können auch Ihren Vertriebspartner um zusätzliche Schulungen bitten. Wenn Sie nicht wissen, wer das ist, lesen Sie den Abschnitt [Wie finde ich einen Reselling-Partner?](#findpartner).  
 
-Weitere Informationen zu Schulungen, die von Microsoft angeboten werden, finden Sie auf der Seite [Microsoft Dynamics 365 Ausbildung](/dynamics365/get-started/training/index#dynamics-365-customers).  
+Weitere Informationen über das von Microsoft bereitgestellte Training für Dynamics 365 finden Sie auf der Seite [Microsoft Dynamics 365 Training](/dynamics365/get-started/training/index#dynamics-365-customers).  
+
+Zusätzliche Inhalte werden von der [!INCLUDE [prodshort](includes/prodshort.md)]-Community bereitgestellt, wie z.B. der [Microsoft Dynamics 365 Business Central Field Leitfaden](https://leanpub.com/dynamics), der von einem Partner geschrieben wird.  
 
 ## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Wie gelange ich zum technischen Support von [!INCLUDE[d365fin](includes/d365fin_md.md)]"?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] wird durch Partner verkauft und Sie sollten Ihren Wiederverkaufspartner kontaktieren, um Hilfe mit technischen Problemen zu erhalten. Wenn Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner das jeweilige Problem nicht lösen kann, wir er ein Support-Ticket bei Microsoft eröffnen.  
 
-Weitere Informationen finden Sie unter [Hilfe und Support](product-help-and-support.md).  
+Weitere Informationen finden Sie unter [Hilfe und Support](product-help-and-support.md) und unter [Wie finde ich einen Reselling-Partner?](#findpartner).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Warum beschreibt Hilfe Funktionalität, auf die ich nicht zugreifen kann?
 Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf **Wesentlich** festgelegt ist, dann sind Benutzeroberflächenelemente für die Fertigung und Dienstleistungs-Verwaltungsfunktionen für Sie nicht sichtbar, da sie die Benutzeroberfläche **Premium** erfordern. Ein Text-Hinweis wird in den obersten Hilfethemenebenen für diese Funktionsbereiche eingefügt. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
@@ -84,10 +84,12 @@ Wenn Sie kein Office 365-Abonnement haben und Sie keines kaufen möchten, dann s
 [!INCLUDE[d365fin](includes/d365fin_md.md)] online ist vollständig in Office 365 integriert, sodass Sie mit dem App-Startfeld frei zwischen Office 365 Anwendungen und [!INCLUDE[d365fin](includes/d365fin_md.md)] navigieren können. Im [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten in Outlook arbeiten. Weitere Informationen finden Sie unter [Nutzen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kann ich meinen 30-tägigen Testversionszeitraum für „Neues Unternehmen” verlängern?
-Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrichtigung angezeigt, um Sie darauf hinzuweisen, wenn Sie sich anmelden. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen. Sie können den Testversionszeitraum einmalig selbst verlängern. Danach kann ein Microsoft-Partner ihn um weiterer 30 Tage verlängern. Weitere Informationen finden Sie unter [Ihre Testversion verlängern](admin-extend-trial.md). Um sich an einen Microsoft-Partner in Ihrem Land oder Ihrer Region zu wenden, finden Sie eine Liste mit Telefonnummern unter [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc).  
+Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrichtigung angezeigt, um Sie darauf hinzuweisen, wenn Sie sich anmelden. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen. Sie können den Testversionszeitraum einmalig selbst verlängern. Danach kann ein Microsoft-Partner ihn um weiterer 30 Tage verlängern. Weitere Informationen finden Sie unter [Ihre Testversion verlängern](admin-extend-trial.md). 
 
 > [!NOTE]
 > Es kann bis zu zwei Arbeitstage dauern, um die Testphase zu verlängern.  
+
+Weitere Informationen zur Partnersuche finden Sie unter [Wie finde ich einen Reselling-Partner?](#findpartner).  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Der Administrator hat mich auf einen anderen Plan gelegt und mir eine andere Rolle zugewiesen, aber ich sehe immer noch die gleiche Startseite in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator im Rollencenter Ihre zugewiesene Rolle nicht geändert hat und Benutzergruppen zugeordnet hat, die mit der neuen Lizenz übereinstimmen. Im Wesentlichen wird Ihr Zugang zu [!INCLUDE[d365fin](includes/d365fin_md.md)] vom Plantyp (Lizenz) bestimmt, den Sie haben - dieser legt Ihre Zugriffsrechte, Ihre zugewiesene Rolle und die Standard-Startseite fest. Sie können Ihr aktuelle Rolle in "Meine Einstellungen" manuell ändern, wenn Sie aber auf einen Plan anderen wechseln, und vom Unternehmensplan auf einen Team-Members-Plan wechseln, könnten Sie die alte Startseite sehen, weil Ihre Berechtigungen nicht geändert wurden.  
@@ -96,16 +98,32 @@ Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator
 Ja, aber abhängig davon, wie Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] registriert haben, können Ihre Daten gelöscht oder beibehalten werden. Weitere Informationen finden Sie unter [Stornierung [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Kann ich eine mehrstufige Authentifizierung verwenden?
-Natürlich. In diesem Fall benötigen Sie möglicherweise ein App-Kennwort, um E-Mail-Nachrichten zu senden. App-Kennwörter ermöglichen einer App oder einem Gerät den Zugriff auf Ihr E-Mail-Konto. Die Schritte zum Erhalten eines App-Kennworts variieren, abhängig von Ihren E-Mail-Anbieter. Weitere Informationen finden Sie in der Hilfe von Ihrem Anbieter. Wenn Sie beispielsweise Outlook verwenden, werden Sie hier fündig [Erstellen eines App-Kennworts für Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).
+Natürlich. In diesem Fall benötigen Sie möglicherweise ein App-Kennwort, um E-Mail-Nachrichten zu senden. App-Kennwörter ermöglichen einer App oder einem Gerät den Zugriff auf Ihr E-Mail-Konto. Die Schritte zum Erhalten eines App-Kennworts variieren, abhängig von Ihren E-Mail-Anbieter. Weitere Informationen finden Sie in der Hilfe von Ihrem Anbieter. Wenn Sie beispielsweise Outlook verwenden, werden Sie hier fündig [Erstellen eines App-Kennworts für Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+
+## <a name="findpartner"></a>Wie finde ich einen Reselling-Partner?
+
+[!INCLUDE [prodshort](includes/prodshort.md)] wird über ein globales Netzwerk von Dynamics 365 Partnern mit Branchenexpertise verkauft und implementiert. Wenden Sie sich an einen Partner, um eine detaillierte Bewertung, Beratungsleistungen und zusätzliche Preise zu erhalten. Weitere Informationen finden Sie im Abschnitt **Preisgestaltung** auf der [Dynamics 365 Business Central Seite auf microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+
+Wenn Sie bereit sind, [!INCLUDE [prodshort](includes/prodshort.md)] zu kaufen, finden Sie einen [!INCLUDE [prodshort](includes/prodshort.md)] Partner auf der Seite [Ich suche einen Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Lösungen und Dienstleistungen von Partnern finden Sie auch unter [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+
+Wenn Sie Unterstützung von Microsoft wünschen, wenden Sie sich an das [Microsoft Sales Team](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+Ihr Reselling-Partner übernimmt auch den technischen Support für Sie. Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
 
 ## <a name="see-also"></a>Siehe auch
 
 [Erste Schritte](product-get-started.md)  
+[Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)  
+[Suchen und Filtern – FAQs](ui-search-filter-faq.md)  
+[FAQ zu Listenansichten](ui-views-faq.md)  
+[Sprache und Gebiet ändern](about-locale-language.md)  
 [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outlook](admin-no-outlook.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Abrufen von Antworten zu den Fragen](product-get-started.md#getting-answers-to-questions)  
-[Benutzer und Berechtigungen verwalten](ui-how-users-permissions.md)  
+[Ressourcen für Hilfe und Support](product-help-and-support.md)  
+[Business Central Lernkatalog](readiness/readiness-learning-catalog.md)  
+[Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

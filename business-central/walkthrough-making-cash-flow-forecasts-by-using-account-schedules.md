@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 415cabbb859bfc49477f69b19ad4a4daf1137837
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314844"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554692"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata
 In dieser exemplarischen Vorgehensweise wird beschrieben, wie Sie mit Kontenschemata arbeiten können, um Cashflowplanungen zu erstellen. Kontenschemata führen Berechnungen aus, die nicht direkt im Kontenplan für Cashflowkonten vorgenommen werden können. In Kontenschemata können Sie Zwischensummen für Cashflow-Auftragseingänge und -Auszahlungen einrichten. Diese Zwischensummen können in neue Summen einbezogen werden, die dann für Cashflowplanungen verwendet werden können.  
@@ -61,7 +61,7 @@ Nachdem ein Kontenschemaname eingerichtet wurde, definiert Ken jede Zeile, die i
 
 ### <a name="to-set-up-account-schedule-lines"></a>So richten Sie Kontenschemazeilen ein  
 
-1.  Wählen Sie auf der Seite **Kontoschemaname** den neuen **Planung**-Kontenschemanamen aus, den Sie erstellt haben. Wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Kontenschema bearbeiten** aus.  
+1.  Wählen Sie auf der Seite **Kontenplannamen** den neuen **Prognose**Kontenplannamen, den Sie erstellt haben, und wählen Sie dann die Aktion **Kontenplan bearbeiten**.  
 2.  Auf der Seite **Kontoplan** geben Sie jede Zeile genau wie in der folgenden Tabelle ein.  
 
     > [!NOTE]  

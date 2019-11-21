@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: 93a68509653aef29bb8f798e7fded70bab550e13
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315056"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695191"
 ---
 # <a name="searching-and-filtering-faq"></a>Suchen und Filtern – FAQs
 In diesem Artikel finden Sie Antworten auf allgemeine Fragen, die Sie möglicherweise über das Suchen und Filtern haben.
@@ -30,7 +30,7 @@ Suche und Filter wurden für Benutzer optimiert, die eine mausfreie Interaktion 
 Der Filterbereich ist in Bildschirmen verfügbar, in denen die Liste der primäre Inhalt der Seite ist, wie Arbeitsblätter und Listenseiten, einschließlich Listen, die von der Navigationsleiste erreichbar sind. Der Filterbereich ist noch nicht für Listen verfügbar, die als Teile wie Infobox oder Rollencenter angezeigt werden. Wenn eine Liste auf einer Seite, wie Verkaufszeilen in einem Verkaufsauftrag eingebettet ist, ist der Filterbereich verfügbar, wenn man sich auf diese Liste mithilfe der Schaltfläche Fokusmodus fokussiert. Weitere Informationen finden Sie unter [Fokussieren auf Positionsartikel](ui-enter-data.md#Focus).
 
 ## <a name="how-can-i-save-my-filters"></a>Wie kann ich meine Filter speichern?
-Ihre Filter und Änderungen an vordefinierten Filtern werden während der Sitzung beibehalten (solange Sie angemeldet bleiben), selbst wenn Sie die Seite verlassen. Sie können Filter dauerhaft als benannte Ansicht der Liste speichern, indem Sie auf die Schaltfläche klicken ![Ansicht speichern](media/save_view_icon.png "Ansicht speichern") Symbol im Filterbereich. Weitere Informationen finden Sie unter [FAQ anzeigen](ui-views-faq.md). Beachten Sie, dass der Suchtext im Gegensatz zu Filtern nicht gespeichert wird, wenn Sie von einer Seite weg navigieren, und nicht gespeichert wird, wenn Sie eine Ansicht speichern.
+Ihre Filter und Änderungen an vordefinierten Filtern werden während der Sitzung beibehalten (solange Sie angemeldet bleiben), selbst wenn Sie die Seite verlassen. Sie können Filter als benannte Ansicht der Liste dauerhaft speichern, indem Sie das Symbol ![Ansicht speichern](media/save_view_icon.png "Ansicht speichern") im Filterbereich wählen. Weitere Informationen finden Sie unter [FAQ anzeigen](ui-views-faq.md). Beachten Sie, dass der Suchtext im Gegensatz zu Filtern nicht gespeichert wird, wenn Sie von einer Seite weg navigieren, und nicht gespeichert wird, wenn Sie eine Ansicht speichern.
 
 Auf Berichtsanforderungsseiten können Sie auch Filter speichern oder vordefinierte Filter verwenden. Weitere Informationen finden Sie unter [Gespeicherte Einstellungen verwenden](ui-work-report.md#SavedSettings).
 
@@ -51,6 +51,6 @@ Als lokaler Administrator können Sie die Zeitbegrenzung für Suchen erhöhen, i
 
 ## <a name="see-also"></a>Siehe auch
 [Sortieren, Durchsuchen und Filtern](ui-enter-criteria-filters.md)  
-[Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)  
-[Suchen von Seiten aus einer Funktionsübersicht](ui-role-explorer.md)  
+[Suche nach Seiten und Informationen mit Tell Me](ui-search.md)  
+[Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)  
 [Erste Schritte](product-get-started.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 54f2a90939a47cc34f7dbcea3509b5e0b0f2d598
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304372"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775307"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration mit Dynamics 365 Sales
 Die Rolle des Verkäufers wird häufig als eine der am meisten nach außen gerichteten Tätigkeiten in einem Unternehmen angesehen. Es kann jedoch für Verkäufer hilfreich sein, einen Blick in das Innere des Unternehmens zu werfen und zu erfahren, was am anderen Ende passiert. Durch die Integration von [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie Ihren Verkäufern diese Einblicke ermöglichen, indem Sie es ihnen ermöglichen, diese Informationen in [!INCLUDE[d365fin](includes/d365fin_md.md)] abzurufen, während sie in [!INCLUDE[crm_md](includes/crm_md.md)] arbeiten. Bei der Vorbereitung eines Verkaufsangebots kann es zum Beispiel hilfreich sein, zu wissen, ob ausreichend Lagerbestand vorhanden ist, um die Bestellung zu erfüllen. Weitere Informationen finden Sie unter [Verwenden von Dynamics 365 Sales von Business Central](marketing-integrate-dynamicscrm.md).
@@ -52,7 +52,7 @@ Standardmäßig importiert die unterstützte Einrichtungsanleitung für **Dynami
 * Systemadministrator  
 * Lösungsanpasser  
 
-Weitere Informationen finden Sie unter [Einrichten des Benutzerkontos für die Integration in Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [Benutzer in Microsoft Dynamics 365 (online) erstellen und Sicherheitsrollen zuweisen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) und [Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md).  
+Weitere Informationen finden Sie unter [Benutzerkonten für die Integration mit Dynamics 365 Sales einrichten](admin-setting-up-integration-with-dynamics-sales.md), [Benutzer in Microsoft Dynamics 365 (online) anlegen und Sicherheitsrollen zuordnen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles), und [Berechtigungen Benutzern und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
 Dieses Konto wird nur einmal während des Setups verwendet. Nachdem die Lösung in [!INCLUDE[d365fin](includes/d365fin_md.md)] importiert wurde, wird das Konto nicht mehr gebraucht. Bei der Integration wird dann weiterhin das Benutzerkonto verwendet, das speziell für die Integration erstellt wurde.
 

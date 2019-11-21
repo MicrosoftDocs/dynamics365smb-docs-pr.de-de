@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/01/2019
+ms.date: 10/22/2019
 ms.author: edupont
-ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300785"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692704"
 ---
 # <a name="changing-language-and-locale"></a>Sprache und Gebiet ändern
 
@@ -40,6 +40,10 @@ Sie können das Gebietsschema in der Browserregisterkarte ändern, die Sie verwe
 
 Um das Gebietsschema zu ändern, gehen Sie auf die Seite **Meine Einstellungen**. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).  
 
+## <a name="application-version"></a>Anwendungsversionen
+
+Auf der Seite **Hilfe und Support** sehen Sie die Version von [!INCLUDE [prodshort](includes/prodshort.md)], auf der Ihr Unternehmen basiert. Wenn Sie ein Unternehmen auf einer anderen Version aufbauen möchten, kann Ihr Administrator eine neue Produktionsumgebung anlegen. Weitere Informationen finden Sie unter [Erstellen einer neuen Produktionsumgebung](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) im Entwickler- und IT Pro-Inhalt.  
+
 ## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Sprachen der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Hilfe
 Der Hilfeinhalt für die Kernfunktionalität in [!INCLUDE[d365fin](includes/d365fin_md.md)] wird auf der Microsoft Dokumentenseite veröffentlicht und ist in unterschiedlichen Sprachen verfügbar. Wenn Sie die Dokumente in [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnen, wird der Inhalt in Ihrer Sprache angezeigt. Wenn eine bestimmte Seite noch nicht in der Sprache verfügbar ist, wird sie in Englisch angezeigt.
 
@@ -49,6 +53,8 @@ Ganz einfach - einen Bildlauf zum unteren Rand der Browserseite ausführen und d
 > [!NOTE]  
 > Die Liste zeigt alle Sprachen an, die von der Microsoft Dokumentenseite unterstützt werden. [!INCLUDE[d365fin](includes/d365fin_md.md)] ist in einer beschränkten Anzahl Länder/Regionen verfügbar, aber der Hilfeinhalts kann in mehr Sprachen bereitgestellt werden. Der Hilfeinhalt ist allerdings nicht in allen Sprachen verfügbar, die die Microsoft Dokumentenseite unterstützt.
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
+
+[Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Erste Schritte](product-get-started.md)  

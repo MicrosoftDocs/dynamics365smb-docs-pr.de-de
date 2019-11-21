@@ -1,6 +1,6 @@
 ---
 title: Feldzuordnung für den Export von Bankzahlungsdateien | Microsoft Docs
-description: Wenn Sie Zahlungsdateien exportieren, indem Sie die Bankdaten-Konvertierungsdienst-Funktion verwenden, werden die Daten, die Sie exportieren, dem Anbieter des Bankdaten-Konvertierungsdienstes zur Verfügung gestellt.
+description: Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca6b3722220e008a3a8132054eed7ba29afd11f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300521"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692628"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Feld-Zuordnung beim Exportieren von Zahlungsdateien unter Verwendung von Bankdaten-Konvertierungsdienst
-Wenn Sie Zahlungsdateien exportieren, indem Sie die Bankdaten-Konvertierungsdienst-Funktion verwenden, werden die Daten, die Sie exportieren, dem Anbieter des Bankdaten-Konvertierungsdienstes zur Verfügung gestellt. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen darüber, wie die Bankdaten-Konvertierungsdienst-Funktion arbeitet, finden Sie unter [Datenaustausch-Framework](across-about-the-data-exchange-framework.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung
+Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen zur AMC Banking 365 Fundamentals Erweiterung finden Sie unter [Verwendung der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  Wenn Sie Zahlungsdateien exportieren, indem Sie die Bankdaten-Konvertierungsdienst-Funktion verwenden, werden einige Ihrer Daten dem Anbieter des Services zur Verfügung gestellt. Der Dienstanbieter, AMC Consult A/S, ist für den Schutz dieser Daten verantwortlich. Weitere Informationen finden Sie unter [AMC-Datenschutzrichtlinie.](https://go.microsoft.com/fwlink/?LinkId=510158)  
+>  Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung exportieren, werden einige Ihrer Geschäftsdaten dem Anbieter des Dienstes zugänglich gemacht. Der Dienstanbieter, AMC Consult A/S, ist für den Schutz dieser Daten verantwortlich. Weitere Informationen finden Sie unter [AMC-Datenschutzrichtlinie.](https://go.microsoft.com/fwlink/?LinkId=510158)  
 
-In der folgenden Tabelle sind die Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] ausgefüllt, aus denen Daten zu dem Dienstanbieter exportiert werden können.  
+Die folgende Tabelle listet die Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] auf, aus denen Sie Daten exportieren können.  
 
 |Zugeordnetes Feld|Feld in Tabelle|Tisch|Beschreibung|  
 |------------------|--------------------|-----------|---------------------------------------|  
@@ -65,10 +65,10 @@ In der folgenden Tabelle sind die Felder in [!INCLUDE[d365fin](includes/d365fin_
 |PLZ-Code Absenderbank|PLZ-Code|Bankkonto|Der Absenderbankkonto-PLZ-Code, der auf der Bankkontokarte angegeben ist|  
 |Fibu Buch.-Blattvorlage|Buch.-Blattvorlagenname|Fibu Buch.-Blattzeile|Die Fibu Buch.-Blattvorlage, die für die Zahlungszeile verwendet wird|  
 |Fibu Buch.-Blattname|Buch.-Blattname|Fibu Buch.-Blattzeile|Der Fibu Buch.-Blatt-Buch.-Blatt, das für die Zahlungszeile verwendet wird|  
-|Name der Absenderbank – Datenkonvertierung|Bankname – Datenkonv.|Bankkonto|Der Absenderbankkontoname, der avom Bankdatenkonvertierungs-Service angefordert wird und auf der Bankkontokarte angegeben ist|  
+|Name der Absenderbank – Datenkonvertierung|Bankname – Datenkonv.|Bankkonto|Der Name des Absenderbankkontos, der von der AMC Banking 365 Fundamentals Erweiterung angefordert und auf der Bankkarte angegeben wird.|  
 
 ## <a name="see-also"></a>Siehe auch  
-[Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)  
+[Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)
-[Richten Sie den Bankdaten-Konvertierungsdienst ein](bank-how-setup-bank-data-conversion-service.md)   
+[Verwenden der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md) .  
 [Nehmen Sie Zahlungen mit dem Bank-Datenkonvertierungs-Service- oder einer SEPA-Banküberweisung vor](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

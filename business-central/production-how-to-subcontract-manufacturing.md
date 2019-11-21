@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e3d72eecf3f0d4e92b0255dffdece8dcb795cf96
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313060"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553794"
 ---
 # <a name="subcontract-manufacturing"></a>Fertigung durch Fremdarbeitsvertrag
 Ausgewählte Arbeitsgänge an Kreditoren weiter zu vergeben, ist in vielen Fertigungsunternehmen üblich. Fremdarbeit kann ein seltener Vorgang oder integraler Bestandteil aller Fertigungsschritte sein.
@@ -61,7 +61,7 @@ Die Seiten **Fremdarbeitenvorschlag** funktioniert wie die **Planungsvorschlag**
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Einkaufsbestellung für Fremdarbeit generieren  
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Unterauftrags-Arbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Vorgang** die Option **Ereignismeldung durchführen** aus.  
+2.  Wählen Sie die **Ereignismeldung durchführen** Aktion aus.  
 3.  Wählen Sie das Feld **Bestellungen/Aufträge drucken**, um die Einkaufsbestellung zu drucken, wenn diese erstellt wird.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
 

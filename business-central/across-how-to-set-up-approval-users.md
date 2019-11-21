@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3071577689c7f292b27aef72291d9bfdd36c473a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 067db27e9b0000d39af06e877193e241d05bc4cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305284"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554473"
 ---
 # <a name="set-up-approval-users"></a>Genehmigungsbenutzer einrichten
 Bevor Sie Workflows erstellen können, die Genehmigungsschritte betreffen, müssen Sie die Workflowbenutzer einrichten, die von den Genehmigungsprozessen betroffen sind. Auf der Seite **Genehmigungsbenutzereinrichtung** müssen Sie zusätzlich Grenzbeträge für bestimmte Arten von Anforderungen festlegen und Ersatzgenehmiger definieren, an die Genehmigungsanforderungen delegiert werden, wenn der ursprüngliche Genehmiger abwesend ist.  
@@ -49,10 +49,10 @@ Bevor Sie Workflows erstellen können, die Genehmigungsschritte betreffen, müss
     |**Unbegrenzte Anfragegenehmigung**|Geben Sie an, dass der Benutzer im Feld **Benutzer-ID** alle Einkaufsangebote unabhängig von ihrem Betrag genehmigen kann.<br /><br /> Wenn Sie dieses Kontrollkästchen aktivieren, können Sie das Feld **Verkaufsbetrag-Genehmigungslimite anfordern** nicht ausfüllen.|  
     |**Stellvertreter**|Wählen Sie die ID des Benutzers aus, der Anforderungen vom Benutzer im Feld **Benutzer-ID** genehmigen muss, wenn der Benutzer unter **Genehmiger-ID** nicht verfügbar ist. **Hinweis:**  Der Ersatz kann entweder der Benutzer im Feld **Stellvertreter**, der direkten Genehmiger oder der Genehmigungsadministrator sein (in dieser Prioritätenreihenfolge). Weitere Informationen erhalten Sie unter [Genehmigungsworkflow verwenden](across-how-use-approval-workflows.md).|  
     |**E-Mail**|Geben Sie die E-Mail-Adresse des Benutzers im Feld **Benutzer-ID** an.|  
-    |**Genehmigungsadministrator**|Geben Sie den Benutzer an, der berechtigt ist, gesperrte Genehmigungsworkflow freizugeben, beispielsweise durch das Delegieren von Genehmigungsanforderungen an neue Ersatzgenehmiger und das Löschen von fälligen Genehmigungsanforderungen.|  
+    |**Genehmigungsadministrator**|Geben Sie den Benutzer an, der berechtigt ist, gesperrte Genehmigungsworkflow freizugeben, beispielsweise durch das Delegieren von Genehmigungsanforderungen an neue Ersatzgenehmiger und das Löschen von fälligen Genehmigungsanforderungen.|
 
-    > [!NOTE]  
-    >  Das Verhalten des Felds **Einschränkungsart Genehmiger** gilt nur in Anwendungsbereichen, deren Grenzen definiert werden können, vor allem Verkauf und Einkaufsgenehmigungen zu. Alle anderen Arten von Genehmigungen, bei denen keine Grenzbeträge gelten, verhalten sich immer wie in der Option **Direkter Genehmiger** beschrieben.  
+    > [!Note]
+    > Nur eine Person kann der Genehmigungsadministrator sein.|  
 
 3. Wählen Sie zum Testen der Genehmigungsbenutzereinrichtung die Aktion **Genehmigungsbenutzereinrichtung - Test** aus.  
 4. Wiederholen Sie die Schritte 2 und 3 für jeden Benutzer, den Sie als Genehmigungsbenutzer einrichten möchten.  

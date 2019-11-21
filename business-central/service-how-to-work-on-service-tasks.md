@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311644"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553770"
 ---
 # <a name="work-on-service-tasks"></a>Mit Serviceaufgaben arbeiten
 Nachdem Sie Serviceaufträge und Angebote angelegt, Serviceartikelzeilen erfasst und den Serviceartikeln im Auftrag oder Angebot Ressourcen zugeordnet haben, können Sie mit der Reparatur und Wartung der Serviceartikel beginnen.  
@@ -31,7 +31,7 @@ Verwenden Sie zum Verfolgen von Änderungen und zum Darstellen einer grafischen 
 2. Wenn Sie eine Übersicht der Serviceaufgaben erhalten möchten, die einer bestimmen Ressource oder Ressourcengruppe zugeordnet sind, füllen Sie die Felder **Ressourcenfilter** oder **Ressourcengruppenfilter** aus, und drücken Sie die Eingabetaste.  
 3. Wenn Sie eine Übersicht der Serviceaufgaben erhalten möchten, die ein bestimmtes "Reagieren bis (Datum)" haben oder deren "Reagieren bis (Datum)" in eine bestimmte Periode fällt, dann füllen Sie das Feld **Reagieren bis (Datum)** aus, und drücken Sie die Eingabetaste.  
 4. Wenn Sie eine Übersicht der Serviceaufgaben erhalten möchten, die einen bestimmen Zuordnungsstatus oder Reparaturstatus haben, füllen Sie die Felder **Zuordnungsfilter** oder **Reparaturstatusfilter** aus, und drücken Sie die Eingabetaste.  
-5. Wählen Sie die Serviceaufgabe aus, die Sie bearbeiten möchten. Wählen Sie auf der Registerkarte **Navigieren** in der Gruppe **Serviceaufgaben** die Option **Servicearbeitsschein** aus. Die Seite **Servicearbeitsschein** wird geöffnet.  
+5. Wählen Sie die Serviceaufgabe aus, die Sie bearbeiten möchten. Wählen Sie die Aktion **Artikel-Arbeitsblatt** aus. Die Seite **Servicearbeitsschein** wird geöffnet.  
 6. Tragen Sie Standardtext, Ersatzteile, Arbeitsstunden und Kosten wie gewünscht ein, indem Sie die entsprechende Option im Feld **Art** verwenden: <Blank>, **Artikel**, **Ressource** und **Kosten**.  
 7. Wählen Sie im Feld **Reparaturstatus** den geeigneten Status aus.  
 
@@ -43,7 +43,7 @@ Wenn Sie eine Servicearbeit für einen Serviceauftrag ausführen, können Sie di
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceaufträge** ein, und wählen dann den zugehörigen Link aus.  
 2. Öffnen Sie den Serviceauftrag, für den der Service erfasst werden soll, und wählen Sie eine Artikelzeile aus.  
-3. Wählen Sie **Aktionen**, **Zeile** und dann **Servicearbeitsschein** aus.  
+3. Wählen Sie die Aktion **Servicearbeitsschein**.  
 4. Geben Sie in den Zeilen die verwendeten Artikel, die angefallenen Kosten und den Zeitaufwand für die Servicearbeit ein.  
 
    > [!NOTE]  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b00ed408bcdc5b98a7c23a8083109b140db175ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305116"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554446"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Verwenden von XML-Schemata zur Vorbereitung der Datenaustauschdefinitionen
 Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustauschframework in [!INCLUDE[d365fin](includes/d365fin_md.md)], können Sie das XML-Schema der Datei verwenden, um zu definieren, welche Datenelemente Sie mit [!INCLUDE[d365fin](includes/d365fin_md.md)] austauschen möchten. Sie führen diese Arbeit auf der Seite **XML-Schema-Ansicht** aus, indem Sie die XML-Schemadatei laden, die entsprechenden Datenelemente auswählen und dann entweder eine Datenaustauschdefinition oder einen XMLport initialisieren.  
@@ -40,9 +40,9 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
 1.  Vergewissern Sie sich, dass die relevante XML-Schemadatei verfügbar ist. Die Dateierweiterung lautet „.xsd“.  
 
-2.  Geben Sie im Feld **Suchen** **XML Schemas** ein, und wählen Sie dann den zugehörigen Link aus.  
+2.  Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Teilen Sie mir, was Sie tun möchten") Symbol, geben Sie **XML Schemas** ein, und wählen Sie dann den entsprechenden Link.  
 
-3.  Wählen Sie auf der Registerkarte **Start** in der Gruppe **Neu** die Option **Neu** aus.  
+3.  Wählen Sie die Aktion **Neu**.  
 
 4.  Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -53,7 +53,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
      Das Feld **Ziel-Namespace** gibt den Namespace in der XML-Schemadatei an, der für die Zeile geladen wurde.  
 
-5.  Wählen Sie in der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Schema laden**, und wählen Sie dann die XML-Schemadatei.  
+5.  Wählen Sie die Aktion **Schema laden** und dann die XML-Schemadatei aus.  
 
      Wenn die Datei geladen wird, werden die restlichen Felder auf der Zeile mit Informationen aus der Datei ausgefüllt, und das Kontrollkästchen **Schema ist geladen** ist aktiviert.  
 
@@ -62,7 +62,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>So wählen oder löschen Sie Knoten in XML-Schema  
 
-1.  Geben Sie im Feld **Suchen** **XML Schema Viewer** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me") Symbol, geben Sie **XML Schema Viewer** ein, und wählen Sie dann den entsprechenden Link.  
 
 2.  Füllen Sie im Kopfbereich die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -77,7 +77,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
      Oder klicken Sie mit der rechten Maustaste auf einen Knoten, und wählen Sie dann **Alle aufklappen** aus.  
 
-4.  Auf der Registerkarte **Start** in der Gruppe **Ansicht** wählen Sie eine der folgenden Aktionen, um die anzuzeigenden Knoten zu ändern.  
+4.  Wählen Sie eine der folgenden Aktionen, um zu ändern, welche Knoten angezeigt werden.  
 
     |**Aktion**|Beschreibung|  
     |----------------|---------------------------------------|  
@@ -85,7 +85,7 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
     |**Nicht notwendige ausblenden**|Nur Knoten, die Elemente darstellen, die entsprechend dem XML-Schema erforderlich sind, werden angezeigt. Diese Knoten werden in der Regel durch eine **1** im -Feld **MinOccurs** angegeben.<br /><br /> Wählen Sie **Alle anzeigen**, um die Ansicht umzukehren.|  
     |**Nicht ausgewählte ausblenden**|Nur Knoten, in denen das Kontrollkästchen **Ausgewählt** aktiviert ist, werden angezeigt.<br /><br /> Wählen Sie **Alle anzeigen**, um die Ansicht umzukehren.|  
 
-5.  Wählen Sie auf der Registerkarte **Start** in der Gruppe **Verwalten** die Option **Bearbeiten** aus.  
+5.  Wählen Sie die Aktion **Bearbeiten** aus.  
 
 6.  Geben Sie mit dem **Ausgewählt**-Kontrollkästchen für jeden Knoten an, ob das Element im Datenaustauschdefinition für die entsprechende SEPA-Bankdatei unterstützt werden soll.  
 
@@ -100,13 +100,13 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>So generieren Sie eine Datenaustauschdefinition, die auf einem XML-Schema basiert  
 
-1.  Geben Sie im Feld **Suchen** **XML Schemas** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me") Symbol, geben Sie **XML Schemas** ein, und wählen Sie dann den entsprechenden Link.  
 
-2.  Wählen Sie das relevante XML-Schema aus und dann auf der Registerkarte **Start** in der Gruppe **Verarbeiten** die Option **XML-Schema-Viewer öffnen**.  
+2.  Wählen Sie das entsprechende XML-Schema aus und wählen Sie dann die Aktion **XML Schema Viewer öffnen**.  
 
 3.  Stellen Sie sicher, dass die entsprechenden Knoten ausgewählt werden. Weitere Informationen finden Sie im Abschnitt „Auswahl oder Löschen von Knoten in einem XML-Schema“.  
 
-4.  Wählen Sie auf der Seite **XML Schema Viewer** auf der Registerkarte **Start** in der Gruppe **Verarbeiten** die Option **Datenaustauschdefinition generieren** aus.  
+4.  Wählen Sie auf der Seite **XML Schema Viewer** die Aktion **Datenaustauschdefinition generieren**.  
 
  Eine Datenaustauschdefinition wird auf der Seite **Austauschdefinition buchen** erstellt, die Sie vervollständigen können, indem Sie festlegen, welche Elemente in der Datei welchen Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zugeordnet werden sollen. Für weitere Informationen, siehe [Einrichten der Datenaustauschdefinition](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -115,15 +115,15 @@ Um das Importieren/Exportieren von Daten in XML-Dateien durch das Datenaustausch
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>So generieren Sie einen XMLport, der auf einem XML-Schema basiert  
 
-1.  Geben Sie im Feld **Suchen** **XML Schemas** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me") Symbol, geben Sie **XML Schemas** ein, und wählen Sie dann den entsprechenden Link.  
 
-2.  Wählen Sie das relevante XML-Schema aus und dann auf der Registerkarte **Start** in der Gruppe **Verarbeiten** die Option **XML-Schema-Viewer öffnen**.  
+2.  Wählen Sie das entsprechende XML-Schema aus und wählen Sie dann die Aktion **XML Schema Viewer öffnen**.  
 
 3.  Im **Neue XMLport-Nr.** -Feld geben Sie die Nummer an, die das neue XMLport-Objekt erhalten wird, wenn es erzeugt wird.  
 
-4.  Stellen Sie sicher, dass die entsprechenden Knoten ausgewählt werden. Weitere Informationen finden Sie im Abschnitt „Auswahl oder Löschen von Knoten in einem XML-Schema“.  
+4.  Stellen Sie sicher, dass die entsprechenden Knoten ausgewählt werden. Weitere Informationen finden Sie im Abschnitt „So wählen oder löschen Sie Knoten in einem XML-Schema“.  
 
-5.  Auf der Registerkarte **Start** in der Gruppe **Verarbeiten** wählen Sie **XMLport generieren** aus, und speichern Sie dann das Objekt als .txt- Datei an einem entsprechenden Speicherort.  
+5.  Wählen Sie die Aktion **XMLport generieren** und speichern Sie das Objekt dann als.txt-Datei an einem geeigneten Ort.  
 
 6. Importieren Sie den neuen XMLport in die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Entwicklungsumgebung und kompilieren Sie ihn.
 

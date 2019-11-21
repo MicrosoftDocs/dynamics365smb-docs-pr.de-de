@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1724f95652194e426a353b4ebb89c54ef384754
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310540"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554620"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
 
@@ -169,7 +169,7 @@ Am folgenden Tag, ruft der Debitor Martha an, und nimmt Änderungen am Auftrag v
 2.  Geben Sie in der Zeile für den Artikel **1100** im Feld **Menge** den Wert **2** ein.  
 
     Rollen Sie, um die Vorauszahlungsfelder anzuzeigen. Das Feld **Vorauszahlungszeilenbetrag ohne. MwSt.** enthält jetzt **630**, und das Feld **Fakt. Vorauszahlungsbetrag ohne MwSt.** enthält **315**. Dieses bedeutet, dass ein zusätzlicher Vorauszahlungsbetrag vorhanden ist, der noch nicht fakturiert wurde.  
-3.  Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Buchen** **Vorauszahlung**, und wählen Sie dann **Vorauszahlungsrechnung buchen**, um eine Rechnung für den zusätzlichen Vorauszahlungsbetrag zu buchen.  
+3.  Um eine Rechnung über den zusätzlichen Vorauszahlungsbetrag zu buchen, wählen Sie die Aktion **Vorauszahlungsrechnung buchen**.  
 
 ## <a name="applying-the-prepayments"></a>Ausgleichen der Vorauszahlungen  
 Der Debitor bezahlt den Vorauszahlungsbetrag und Peter, der in der Debitorenabteilung arbeitet, registriert die Zahlung und gleicht sie mit den Vorauszahlungsrechnungen aus.  

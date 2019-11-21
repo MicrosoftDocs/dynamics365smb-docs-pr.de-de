@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1809302d24a7921f06f1ca8532a4fb14291c166d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 59138242b77af3b71a7feab566e2c66513547fdb
+ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312052"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "2764504"
 ---
 # <a name="set-up-salespeople"></a>Verkäufer einrichten
 Viele Unternehmen möchten die Leistungen der einzelnen Angestellten bei der Berechnung von Verkaufsprovisionen oder Prämien berücksichtigen. Sehen Sie beispielsweise den **Verkäufer-Kommissionsbericht**. Ein Unternehmen möchte möglicherweise auch jeder Kontaktperson einen Verkäufer zuordnen.
 
 Wenn Sie auf der Seite **Verkäufer** einen Verkäufer eingerichtet haben, können Sie ihn im Feld **Vertriebsverkäufercode** für alle relevanten Datensätze, wie Sachkonto, Debitor, Kreditor, Kontakte und Kampagnenkarte, auswählen. Wenn Sie Rechnungen buchen oder einrichten, werden Gutschriften, Buch.-Blattzeilen, Zinsrechnungsaktivitäten usw. mit dem Verkäufercode in die resultierenden Posten übertragen.
+<br><br>  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43Vhm)]
 
 ## <a name="to-set-up-a-salesperson-code"></a>So richten Sie einen Verkäufercode ein
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkäufer** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie auf der Seite **Verkäufercode** die Aktion **Neu** aus.
 
 Sie können Verkäufer in verschiedenen Beziehungsverwaltung und Marketings-Arbeit verwenden. So können Sie z. B. Aufgaben Verkäufern zuweisen, sodass die Aufgaben in Verkaufschancen integriert sind, die Verkäufern zugeordnet werden. Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).

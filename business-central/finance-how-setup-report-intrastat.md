@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cdf0eb137984bbc1988677ca53991d75659c022a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ddcc935a6ae539ad82894d6153f7c7f4b6fdeb48
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302188"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554158"
 ---
-# <a name="how-to-set-up-and-report-intrastat"></a>Gewusst wie: Einrichten von Intrastat-Berichten
+# <a name="set-up-and-report-intrastat"></a>Einrichten und Berichten von Intrastat
 Alle Unternehmen innerhalb der EU sind verpflichtet, Auskunft über ihre Handelsaktivitäten mit anderen EU-Ländern/-Regionen zu geben. Warenbewegungen müssen jeden Monat dem Statistischen Amt Ihres Landes/Ihrer Region mitgeteilt und die Berichte müssen an die Steuerbehörden übermittelt werden. Dies wird als Intrastat-Berichterstattung bezeichnet. Auf der Seite **Intrastat Buch.-Blatt** können Sie regelmäßige Intrastat-Berichte ausfüllen.  
 
 ## <a name="required-and-optional-setups"></a>Erforderliche und optionale Einrichtung
 Bevor Sie das Intrastat Buch.-Blatt verwenden können, um Intrastat-Informationen zu berichten, müssen Sie mehrere Dinge einrichten:  
 
-* **Intrastat einrichten**: Intrastat-Einrichtungsseite wird verwendet, um Intrastat-Berichts- und Satzstandards zu aktivieren. Sie können festlegen, ob Sie die Intrastatmeldung von Lieferungen (Dispatches), Eingängen (Wareneingang) oder beiden abhängig von den Schwellenwerten melden müssen, die von Ihren lokalen Vorschriften festgelegt werden. Sie können auch die Transaktionstypen für reguläre Dokumente und Reklamationsbelege festlegen, die für die Transaktionsberichterstellung verwendet werden. 
+* **Intrastat einrichten**: Intrastat-Einrichtungsseite wird verwendet, um Intrastat-Berichts- und Satzstandards zu aktivieren. Sie können festlegen, ob Sie die Intrastatmeldung von Lieferungen (Dispatches), Eingängen (Wareneingang) oder beiden abhängig von den Schwellenwerten melden müssen, die von Ihren lokalen Vorschriften festgelegt werden. Sie können auch die Transaktionstypen für reguläre Dokumente und Reklamationsbelege festlegen, die für die Transaktionsberichterstellung verwendet werden.
 * **Intrastat Buch.-Blattvorlagen**: Sie müssen die Intrastat-Buch.-Blattvorlagen und Intrastat-Buch.-Blattnamen einrichten, die Sie verwenden. Da Intrastat-Daten monatlich erfasst werden, müssen Sie 12 Intrastat-Buchungsblätter basierend auf derselben Vorlage erstellen.  
 * **Warencodes**: Zoll- und Steuerbehörde haben numerische Codes eingerichtet, die Artikel und Dienstleistungen klassifizieren. Sie geben diese Codes der Artikel an.
 * **Transaktionstypencodes**: Länder und Regionen haben unterschiedliche Codes für Intrastat-Transaktionstypen, wie beispielsweise gewöhnlichen Einkauf und Verkauf, den Austausch zurückgegebener Waren und den Austausch nicht zurückgegebener Waren. Einrichtung aller Codes, die sich auf Ihr Land/Ihre Region beziehen. Sie verwenden diese Codes in Einkaufs- und Verkaufsbelegen und wenn Sie Rückgaben verarbeiten.  
@@ -47,8 +47,8 @@ Sie können die Positionen in eine Datei exportieren, die Sie an Ihre Intrastat-
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Artikel Intrastat Buch.-Blatt-Vorlage** ein, und wählen dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Erstellen Sie eine Vorlage für jedes verwendete Intrastat-Formular.  
-3. Um Anlagen zu erstellen, wählen Sie die Registerkarte **Navigieren**, und wählen Sie dann **Stapel** aus.  
-4. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Erstellen Sie eine Vorlage für jedes verwendete Intrastat-Formular.  
+3. Um Chargen zu erstellen, wählen Sie die Aktion **Stapel**.  
+4. Füllen Sie die Felder bei Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Erstellen Sie eine Vorlage für jedes verwendete Intrastat-Formular.  
 
 > [!Note]
 > Geben Sie im Feld **Statistikperiode** die Statistikperiode als vierstellige Zahl ein, wobei die ersten beiden Ziffern das Jahr und die nächsten beiden Ziffern den Monat darstellen. Für Juni 2017 beispielsweise geben Sie 1706 ein.
@@ -76,7 +76,7 @@ In einigen Ländern wie Spanien und Großbritannien, verlangen die Behörden, da
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intrastateinrichtung** ein, und wählen dann den zugehörigen Link aus.
 2. Wählt die **Intrastat-Prüflisten-Einrichtung** Aktion aus.
-3. Auf der Seite **Intrastat-Prüflisten-Einrichtung** in **Feldname**, um den Intrastat-Berichtsfelds auszuwählen, das Sie zwar erforderlich machen möchten. 
+3. Auf der Seite **Intrastat-Prüflisten-Einrichtung** in **Feldname**, um den Intrastat-Berichtsfelds auszuwählen, das Sie zwar erforderlich machen möchten.
 
 ## <a name="to-report-intrastat"></a>Erstellen Sie Intrastat-Berichte
 Nachdem Sie das Intrastat-Buch.-Blatt ausgefüllt haben, können Sie den Bericht **Checklistenbericht** ausführen, um zu überprüfen, ob alle Daten in dem Buch.-Blatt korrekt sind. Pflichtfelder, die Sie auf der Seite **Intrastat-Prüflisten-Einrichtung**, die Werte fehlende sind, werden angezeigt in Problemen und in warnendem Infobox im Fenster **Intrastat Buch.-Blatt** festgelegt haben. Anschließend können Sie einen Intrastat-Bericht als Formular drucken, oder Sie erstellen eine Datei, um diese an die Steuerbehörden in Ihrem Land/Region zu senden.  
@@ -98,7 +98,7 @@ Um von den Statistikbehörden die für das Intrastat-Formular benötigten Daten 
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Intrastat Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie auf der Seite **Intrastat-Buch.-Blatt** den betreffenden Buch.-Blattnamen im Feld **Buch.-Blattname** aus.  
-3. Füllen Sie das Buch.-Blatt manuell aus, oder klicken Sie auf **Posten holen**, sofern das Blatt noch nicht ausgefüllt wurde.  
+3. Wenn Sie dies noch nicht getan haben, füllen Sie das Journal manuell aus oder wählen Sie die Aktion **Zeilen vorschlagen**.  
 4. Wählen Sie die **Druck-Intrastat Buch.-Blatt** Aktion aus.  
 5. Fügen Sie im Inforegister **Intrastat Buch.-Blattzeile** einen **Art**-Filter hinzu, und geben Sie an, ob es sich um einen **Wareneingang** oder **Warenausgang** handelt.  
 6. Wählen Sie **Senden an**, um den Bericht zu drucken.  
@@ -108,9 +108,9 @@ Sie können den Intrastat-auch auf einer Datei einreichen. Bevor Sie die Datei e
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Intrastat Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie auf der Seite **Intrastat-Buch.-Blatt** den betreffenden Buch.-Blattnamen im Feld **Buch.-Blattname** aus.  
-3. Füllen Sie das Buch.-Blatt manuell aus, oder klicken Sie auf **Posten holen**, sofern das Blatt noch nicht ausgefüllt wurde.  
+3. Wenn Sie dies noch nicht getan haben, füllen Sie das Journal manuell oder über die Aktion **Zeilen vorschlagen** aus.  
 4. Wählen Sie die Aktion **Aus Datei erstellen** aus.  
-5. Klicken Sie in der Stapelverarbeitungsseite auf **OK**.  
+5. Wählen Sie auf der Stapel-Job-Seite die Schaltfläche **OK**.  
 6. Wählen Sie **Speichern** aus.  
 7. Navigieren Sie zum gewünschten Speicherort für die Datei, und geben Sie den Dateinamen ein. Klicken Sie auf **Speichern**.
 
@@ -119,7 +119,7 @@ Sie müssen für jeden Monat einen Intrastat-Bericht einreichen und für jeden B
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Logistik Intrastat Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie das Feld **Buch.-Blattname** aus, um die Optionen anzuzeigen.  
-3. Wählen Sie die zu löschenden Buch.-Blattnamen aus und wählen Sie **Löschen**.  
+3. Wählen Sie die zu löschenden Journalchargen aus und wählen Sie dann die Schaltfläche **Löschen**.  
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzmanagement](finance.md)

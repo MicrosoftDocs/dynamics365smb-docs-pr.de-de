@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: de3456884d3c5f46ef246aa6fcd02bec5b001377
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: df539a8c1aa42fe8bc732e4819db10cbfbdaec2a
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309004"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775571"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Verwenden von Dynamics 365 Sales von Business Central
 Wenn Sie Dynamics 365 Sales for Customer Engagement verwenden, können Sie nahtlose Integration in den Interessent-zu-Geld-Prozess nutzen, indem Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.
@@ -96,8 +96,8 @@ Sobald Sie die Zahlung des Debitors für die Verkaufsrechnung in [!INCLUDE[d365f
 [Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Marketing & Vertrieb](marketing-relationship-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Funktionen, die angezeigt werden ändern](ui-experiences.md)  
-[Benutzer und ihre Berechtigungen verwalten](ui-how-users-permissions.md)    
+[Ändern, welche Merkmale angezeigt werden](ui-experiences.md)  
+[Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)    
 [Überblick über Sales und Verkaufs-Hub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

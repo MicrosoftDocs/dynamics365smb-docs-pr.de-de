@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310756"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695095"
 ---
 # <a name="tell-me-faq"></a>Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“
 In diesem Thema werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zu der Funktion "Wie möchten Sie weiter verfahren" stellen.
@@ -51,4 +51,4 @@ Nr. Sie können nur einen Link zu einer Seite oder zu Suchergebnissen hinzufüge
 ## <a name="see-also"></a>Siehe auch  
 [Speichern und personalisieren Sie Listenansichten](ui-views.md)  
 [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)  
-[Suchen von Seiten aus einer Funktionsübersicht](ui-role-explorer.md)
+[Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)

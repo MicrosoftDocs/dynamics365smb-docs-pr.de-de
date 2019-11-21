@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ed17b601df17ae85424013b6053ef1901082c10
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0091f7ae1e6b22b6228ad903af783fb790faf99d
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300545"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692608"
 ---
 # <a name="exchanging-data"></a>Austausch von Daten
 Sie können Daten zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und externen Dateien oder Streams in Bezug auf allgemeine Geschäftsaufgaben (z. B. Senden und Empfangen von elektronischen Belegen und Importieren und Exportieren von Bankdateien) austauschen.  
 
-Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren und exportieren können, müssen Sie das Datenaustauschframework einrichten, um die entsprechenden Dateien oder Streams zu verarbeiten. Darüber hinaus müssen Sie zugehörige Bereiche einrichten. Dazu gehören Stammdaten für Debitoren, an die Sie elektronische Rechnungen senden, und der Bankdaten-Konvertierungsdienst, falls Sie Bankdateikonvertierungen an einen externen Dienstleister vergeben. Weitere Informationen finden Sie unter [Datenaustausch einrichten](across-set-up-data-exchange.md)  
+Bevor Sie elektronische Dokumente senden und empfangen oder Bankdateien importieren und exportieren können, müssen Sie das Datenaustausch-Framework für die Verarbeitung der Datendateien oder Streams einrichten. Darüber hinaus müssen Sie verwandte Bereiche einrichten, wie z.B. die Kunden, an die Sie elektronische Rechnungen senden, und die AMC Banking 365 Fundamentals Erweiterung, wenn Sie Bankdateikonvertierungen an einen externen Dienstleister verteilen. Weitere Informationen finden Sie unter [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 
  In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
 
@@ -35,10 +35,10 @@ Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren
 |Weisen Sie Ihre Bank an, Zahlungsbeträge von den Bankkonten Ihrer Kunden auf das Konto Ihres Unternehmens gemäß Ihrer SEPA-Lastschrift-Einstellung zu überweisen.|[SEPA-Lastschrifteinzugsposten erstellen und in eine Bankdatei exportieren](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
 |Verwenden Sie einen Dienstanbieter für Währungswechselkursen, um die Seite **Währungen** zu aktualisieren.|[Währungswechselkurse aktualisieren](finance-how-update-currencies.md)|  
 |Zeigen Sie an, welche Dateielemente mit Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] verknüpft sind, wenn Sie SEPA CAMT-Bankkontoauszugsdateien importieren.|[Feld-Zuordnung beim Importieren von SEPA CAMT-Dateien](across-field-mapping-when-importing-sepa-camt-files.md)|  
-|Zeigen Sie an, welche Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] Dateielementen zugeordnet sind, wenn Sie Zahlungsdateien mithilfe der Bankdaten-Konvertierungsdienst-Funktion exportieren.|[Feld-Zuordnung beim Exportieren von Zahlungsdateien unter Verwendung von Bankdaten-Konvertierungsdienst](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
+|Sehen Sie, welche Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung auf Dateielemente abgebildet werden.|[Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Siehe auch  
-[Einrichten eines Datenaustauschs](across-set-up-data-exchange.md)  
+[Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)   
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  

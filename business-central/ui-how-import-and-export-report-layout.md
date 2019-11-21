@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315228"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553818"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importieren und Exportieren von einem benutzerdefinierten Bericht
 Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem Speicherort auf dem Computer oder im Netzwerk speichern und exportieren sowie von dort aus wieder importieren. Beispielsweise können Sie ein Berichtlayout exportieren und dann die Datei an eine andere Person senden, die diese dann ändern kann. Diese Person kann die Änderungen am Layout vornehmen und Ihnen die Datei zurücksenden, damit Sie sie zurückimportieren können.  
@@ -29,11 +29,11 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
 
 1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Berichtslayout-Auswahl** ein, und wählen dann den zugehörigen Link aus.  
 
-2.  Wählen Sie die Zeile für den Bericht, der das benutzerdefinierte Berichtslayout enthält, das Sie exportieren möchten, und wählen Sie dann auf der Registerkarte **Start** in der gruppe **Prozess** **Benutzerdefinierte Layouts**.  
+2.  Markieren Sie die Zeile für den Bericht, die das benutzerdefinierte Berichtslayout enthält, das Sie exportieren möchten, und wählen Sie dann die Aktion **Angepasste Layouts**.  
 
-3.  Wählen Sie auf der Seite das **Berichtslayout**, das Sie in eine Datei exportieren möchten, und wählen Sie dann auf der Registerkarte **Start**, in der Gruppe **Prozess**, **Layout exportieren**.  
+3.  Wählen Sie auf der Seite **Berichtslayouts** das Berichtslayout aus, das Sie in eine Datei exportieren möchten, und wählen Sie dann die Aktion **Layout exportieren**.  
 
-4.  Im Dialogfeld **Datei exportieren** wählen Sie **Speichern** aus und speichern Sie anschließend die Datei an einen Speicherort auf dem Computer oder im Netzwerk.  
+4.  Wählen Sie im Dialogfeld **Datei exportieren** die Schaltfläche **Speichern**, und speichern Sie die Datei dann an einem Ort auf Ihrem Computer oder Netzwerk.  
 
 ### <a name="to-import-a-report-layout-file"></a>So importieren Sie eine Berichtslayoutdatei.  
 
@@ -43,11 +43,11 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem
 
 2.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Berichtslayout-Auswahl** ein, und wählen dann den zugehörigen Link aus.  
 
-3.  Wählen Sie die Zeile für den Bericht, in den Sie das Berichtslayout importieren möchten, und wählen Sie dann auf der Registerkarte **Start** in der Gruppe **Prozess** **Benutzerdefinierte Layouts**.  
+3.  Markieren Sie die Zeile für den Bericht, in den Sie das Berichtslayout importieren möchten, und wählen Sie dann die Aktion **Angepasste Layouts**.  
 
-4.  Wählen Sie auf der Seite das **Berichtslayout**, in das Sie in die Datei importieren möchten, und wählen Sie dann auf der Registerkarte **Start**, in der Gruppe **Prozess**, **Layout importieren**.  
+4.  Wählen Sie auf der Seite **Berichtlayouts** das Berichtslayout aus, in das Sie die Datei importieren möchten, und wählen Sie dann die Aktion **Layout importieren**.  
 
-5.  Im **Importieren**-Dialogfeld wählen Sie das Dokument, das das Berichtlayout definiert, und wählen Sie dann **Öffnen**.  
+5.  Wählen Sie im Dialogfenster **Import** das Dokument aus, das das Berichtslayout definiert, und wählen Sie dann die Schaltfläche **Öffnen**.  
 
  Das ursprüngliche benutzerdefinierte Berichtslayout wird durch das importierte Berichtslayout ersetzt.  
 

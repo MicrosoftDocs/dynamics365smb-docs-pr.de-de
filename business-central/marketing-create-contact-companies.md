@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4bf8e694a7b034eb601c3bf39bd420ff61ab73a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309316"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798571"
 ---
 # <a name="create-contacts"></a>Kontakt erstellen
 Sie treffen regelmäßig Personen aus anderen Unternehmen, die ggf. zu Geschäftsbeziehungen wie einer Kundenbeziehung werden. Wenn solch ein neuer Kontakt geknüpft wird, müssen so viele Informationen wie möglich auf einer Kontaktkarte erfasst werden, um eine weitere Kommunikation zu ermöglichen.
 
 Sie können den Kontakt als **Unternehmen**-Typ erstellen, zum Beispiel, wenn es sich bei der Beziehung nicht um eine einzelne Person, sondern um eine juristische Person handelt, wie um einen Vertragsnehmer oder eine Bank. Sie können den Kontakt auch als **Person**-Typ erstellen. Die Funktionalität ist für beide Typen mehr oder weniger gleich, und beide können geändert werden, wenn sich die Beziehung entwickelt.
 
-Wenn beispielsweise eine Kontaktkarte in eine Debitorenkarte umgewandelt wird, wird der Ansprechpartner oder das Kontaktunternehmen zum Namen des Kunden. Die Kontaktkarte bleibt erhalten und die Daten auf den beiden Karten werden in Zukunft synchronisiert, wenn Sie sie verknüpfen.
+Wenn beispielsweise eine Kontaktkarte in eine Debitorenkarte umgewandelt wird, wird der Ansprechpartner oder das Kontaktunternehmen zum Namen des Kunden. Die Kontaktkarte bleibt erhalten, und die Daten der beiden Karten werden in Zukunft synchronisiert, wenn Sie sie verknüpfen.
 
 ## <a name="person-or-company"></a>Person oder Unternehmen
 Sie können einen Kontakt als Person oder ein Unternehmen angeben, je nachdem, ob Sie den Namen der Kontaktperson zum Zeitpunkt der Erstellung kennen. Sie tun dies, wenn Sie das Feld **Art** auf der Seite **Kontaktkarte** ausfüllen. Außerdem können Sie Kontaktkarten für ein Unternehmen und mindestens eine dort arbeitende Person führen. Das erfolgt automatisch, wenn Sie das Feld **Unternehmensname** auf einer Kontaktkarte des Typs **Person** ausfüllen.
@@ -32,8 +32,8 @@ Sie können einen Kontakt als Person oder ein Unternehmen angeben, je nachdem, o
 Die Funktionalität ist für beide Arten gleich, abgesehen davon, dass die Optionen für zusätzliche Informationen sich je nach Art ändern. Beispielsweise können Sie Verantwortlichkeiten nur einer Person und Branchengruppe nur einem Unternehmen zuweisen. Dieses wird in der Benutzeroberfläche angegeben, indem die Felder und Aktionen, die nicht angewendet werden können, ausgegraut werden. Sie können den Wert des Felds **Art** später ändern, oder Sie können die Felder im Inforegister **Übernahme** auf der Seite **Marketingeinrichtung** verwenden, um zu steuern, welche Daten zwischen einer Person und dem zugehörigen Unternehmen freigegeben werden. Weitere Informationen finden Sie unter [Einrichten von Kontakten](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>So werden Kontakte manuell erstellt:
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontakte** ein, und wählen dann den zugehörigen Link aus.
-2. Wählen Sie die Aktion **Neu** aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie die Aktion **Neu**.
 3. Geben Sie im Feld **Nr.** eine Nummer für den Kontakt ein.
 
     Wenn Sie auf der Seiter **Marketing und Vertrieb einrichten** eine Nummernserie für Kontakte eingegeben haben, können Sie alternativ auch die EINGABETASTE drücken, um die nächste verfügbare Kontaktnummer einzufügen.  
@@ -45,7 +45,7 @@ Wenn Sie Debitoren, Kreditoren und Bankkonten haben, für die Sie Kontaktkarten 
 > [!NOTE]  
 > Bevor Sie Kontakte basierend auf vorhandenen Daten erstellen können, müssen Sie einen Geschäftsbeziehungscode für Debitoren, Kreditoren und Bankkonten auf dem Inforegister **Interkationen** auf der Seite **Marketingeinrichtung** angeben. Weitere Informationen finden Sie unter [Kontakte einrichten](marketing-setup-contacts.md).
 
-1. Wählen Sie ![Glühlampe, die die Funktion "Teilen Sie mir mit, was Sie tun wollen"](media/ui-search/search_small.png "\"Teilen Sie mir mit, was Sie tun wollen\"") und Folgendes ein, je nachdem, von wo aus Sie Kontakte erstellen möchten, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie eine der folgenden Optionen ein, je nachdem, woraus Sie Kontakte erstellen möchten, und wählen Sie dann den entsprechenden Link.
    * **Kontakte aus Debitoren erstellen**
    * **Kontakte aus Kreditoren erstellen**
    * **Kontakte aus Bankkonten erstellen**
@@ -63,7 +63,7 @@ Wenn Sie einen Debitor, Kreditor oder ein Bankkonto für das Unternehmen haben, 
 > [!NOTE]  
 > Bevor Sie Debitoren, Kreditoren oder Bankkonten aus Kontakten erstellen können, müssen Sie einen Geschäftsbeziehungscode für Debitoren, Kreditoren und Bankkonten auf dem Inforegister **Interkationen** auf der Seite **Marketingeinrichtung** angeben. Weitere Informationen finden Sie unter [Einrichten von Kontakten](marketing-setup-contacts.md).
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontakte** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Kontakt aus, den Sie als Debitor, Kreditor oder Bankkonto erstellen möchten.
 3. Wählen Sie die Aktionen **Erstellen als**, und wählen Sie denn entweder **Debitor**, **Kreditor** oder **Bank**.
 4. Wählen Sie die Schaltfläche **OK** aus.
@@ -101,7 +101,7 @@ Die Synchronisierung von allgemeinen Daten zwischen Kontakten und den entspreche
 * Wenn Sie Kontakte mit bestehenden Debitoren, Kreditoren und/oder Bankkonten von der Kontaktkarte verknüpfen. Siehe auch [Verknüpfen eines Kontakts mit einem vorhanden Debitor, Kreditor oder Konto](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-or-bank-account-a-contact-is-related-to"></a>So sehen Sie, mit welchem Debitor, Kreditor oder Bankkonto ein Kontakt verknüpft ist
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontakte** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Position für einen Kontakt, die Aktion **Verknüpfte Informationen** und dann die Aktion **Debitor/Kreditor/Bankkonto** aus.
 
 Die Seite für die zugehörige Karte wird geöffnet.
@@ -109,4 +109,4 @@ Die Seite für die zugehörige Karte wird geöffnet.
 ## <a name="see-also"></a>Siehe auch
 [Kontakte verwalten](marketing-contacts.md)  
 [Kontakte einrichten](marketing-setup-contacts.md)  
-[Arbeiten mit  Business Central](ui-work-product.md)
+[Arbeiten mit Business Central](ui-work-product.md)

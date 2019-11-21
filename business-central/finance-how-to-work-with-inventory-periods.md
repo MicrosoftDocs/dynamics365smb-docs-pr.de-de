@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 64c47b78555e1364bbc0e1d4be97ed4910bca04a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305838"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554038"
 ---
 # <a name="work-with-inventory-periods"></a>Arbeiten mit Lagerbuchungsperioden
 Eine Lagerbuchungsperiode definiert eine Zeitspanne, in der Sie Änderungen des Lagerbestandes buchen können. Eine Lagerbuchungsperiode ist durch das Datum definiert, an dem sie endet (wird auch als Enddatum bezeichnet). Wenn Sie eine Lagerbuchungsperiode schließen, können Sie vor diesem Enddatum keine Änderungen des erwarteten oder in Rechnung gestellten Lagerbestandes buchen. Vor diesem Enddatum können Sie keine neuen Werte im Lager buchen. Wenn Sie in der geschlossenen Periode offene Artikelposten haben, es also positive Mengen gibt, die noch nicht für ausgehende Transaktion ausgeglichen wurden, können Sie weiterhin ausgehende Mengen mit diesen Posten verknüpfen, auch wenn die Periode geschlossen ist.  
 
-In den folgenden Abschnitten werden diese Schritte beschrieben:  
+In den folgenden Abschnitten werden diese Schritte beschrieben:
 
 * Lagerbuchungsperioden erstellen.  
 * Lagerbuchungsperioden schließen.  
@@ -45,7 +45,7 @@ Sofern die folgenden Aussagen zutreffen, können Sie jede Lagerbuchungsperiode s
 Das heißt, dass alle ausgehenden Transaktionsmengen (z. B. von Verkaufsaufträgen, ausgehenden Umlagerungen, Verkaufsrechnungen, Einkaufsreklamationen oder Einkaufsgutschriften) mit der im Lagerbestand vorhandenen Menge ausgeglichen werden müssen.  
 
 ### <a name="to-close-an-inventory-period"></a>Eine Lagerbuchungsperiode schließen  
-1. Bevor Sie eine Lagerbuchungsperiode schließen, sollten Sie den Batchauftrag **Lagerreg. fakt. Einst. Preise** ausführen, um sich zu vergewissern, dass alle Kostenregulierungen gebucht sind. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Kosten anpassen - Artikel** aus.  
+1. Bevor Sie eine Bestandsperiode abschließen, wählen Sie die Aktion **Kosten anpassen - Artikelbuchungen**, um sicherzustellen, dass alle Kostenanpassungen gebucht werden.
 
      Führen Sie den Bericht **Lagerbuchungsperiode schließen - Test** aus, um zu ermitteln, ob es in der Lagerbuchungsperiode offene ausgehende Artikelposten oder Artikel gibt, deren Preise noch nicht reguliert wurden.  
 2. Wählen Sie die Aktion **Lagerbuchungsperiode schließen - Test**.  

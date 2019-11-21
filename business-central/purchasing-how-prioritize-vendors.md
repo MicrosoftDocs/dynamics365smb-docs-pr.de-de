@@ -12,17 +12,19 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2586e9a5af338bee79bf73b494a7a653b6bfc2f2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c37ff7d347788300bcd2c9e138ac8379fb12a78a
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312532"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577159"
 ---
 # <a name="prioritize-vendors"></a>Kreditoren priorisieren
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kann verschiedene Zahlungen an Kreditoren vorschlagen. Dies können z. B. Zahlungen sein, die in Kürze fällig sind, oder Zahlungen, bei denen Sie einen Rabatt erhalten können. Weitere Informationen finden Sie unter [Erstellen von Zahlungsvorschlägen für Kreditoren](payables-how-suggest-vendor-payments.md).
 
 Zuerst müssen Sie den Kreditoren priorisieren, indem Sie ihm Nummern zuweisen.
+<br><br>
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PRGa]
 
 ## <a name="to-prioritize-vendors"></a>So priorisieren Sie Kreditoren
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kreditoren** ein, und wählen dann den zugehörigen Link aus.

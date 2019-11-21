@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315876"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553842"
 ---
 # <a name="viewing-service-statistics"></a>So zeigen Sie die Servicestatistik an
 Sie können Statistiken nutzen, um Belege zu analysieren und zu bestimmen, wie Sie Ihre Dienstvorgänge verwalten sollen. Sie können Serviceverträge, Artikel, Bestellungen, Rechnungen, Gutschriften und Anfragen analysieren, indem Sie die **Statistik** Aktion auswählen. Für Serviceartikel und Verträge können Sie **Serviceartikel-Trendscape** oder **Servicevertrag-Trendscape** verwenden, um eine Zusammenfassung der Serviceposten für einen bestimmten Serviceartikel angezeigt.   
@@ -93,7 +93,7 @@ Die Anwendung erstellt automatisch einen Gewinn- oder Verlustposten, wenn Vertra
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Servicestatistik für gebuchte Service-Belege anzeigen
 Mit der Funktion "Servicestatistik" erhalten Sie eine statistische Übersicht über den Inhalt von gebuchten Servicebelegen, wie gebuchte Lieferungen, Rechnungen und Gutschriften.  
 
-Die statistischen Daten werden auf der Seite "Servicestatistik" für den gebuchten Service angezeigt. Sie können die entsprechende Statistikseite aus der gebuchten Servicelieferung, aus der gebuchten Servicerechnung oder den gebuchten Servicegutschriftbelegen öffnen. Für jede der Belegarten wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** **Statistik** aus. Um es zum Beispiel aus der Seite **Gebuchte Servicerechnungen** heraus zu öffnen, wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Statistik** aus.  
+Die statistischen Daten werden auf der Seite "Servicestatistik" für den gebuchten Service angezeigt. Sie können die entsprechende Statistikseite aus der gebuchten Servicelieferung, aus der gebuchten Servicerechnung oder den gebuchten Servicegutschriftbelegen öffnen. Wählen Sie für jede dieser Dokumentarten die Aktion **Statistik**. Wählen Sie beispielsweise auf der Seite **Gebuchte Dienstleistungsrechnungen** die Aktion **Statistik**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Geb. Servicelieferungsstatistik  
 Die Seite **Servicelieferungsstatistik** bietet Ihnen eine Übersicht über die gebuchte Servicelieferung. Das Fenster umfasst das Inforegister "Allgemein", auf dem Informationen zum physischen Inhalt der Lieferung angezeigt werden, z. B. die Menge der gelieferten Artikel, die Ressourcenstunden oder die Einstandspreise und das Gewicht sowie das Volumen der gelieferten Artikel.  

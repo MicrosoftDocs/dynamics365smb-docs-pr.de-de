@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 10/21/2019
 ms.author: sgroespe
-ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315276"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649788"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten
 
@@ -33,7 +33,7 @@ Sie können jede Art von Datei, die Text, Bilder oder Videos enthält, an eine K
 
 Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind für alle anderen unterstützten Belege und Karten ähnlich.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kaufrechnung** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kaufrechnungen** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie den Verkaufsauftrag, den Sie einer Datei zuordnen möchten.
 3. Öffnen Sie in der Infobox die Registerkarte **Anhänge**.
 4. Wählen Sie den Wert hinter dem Feld **Belege** z. B. "0".
@@ -47,14 +47,12 @@ Sie können jeder URL oder jedem Pfad einen Link von einer Karte oder einem Doku
 
 Das folgende Verfahren basiert auf einer Elementkarte. Die Schritte sind für alle anderen unterstützten Belege und Karten gleich.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie das Element aus, zu dem Sie einen Link hinzufügen möchten, und wählen Sie dann die Registerkarte **Anhänge** in der Infobox.
 3. In dem **Link**, wählen Sie das **+** Symbol.
 4. Geben Sie im Feld **Link Adresse** den Link ein.
 
-    - Um eine Datei auf dem Computer oder dem Netzwerk zu verknüpfen, geben Sie den vollständigen Pfad und den Dateinamen ein, wie **C:\Eigene Dokumente\invoice1.doc**.
-    - Um auf die Website zu verknüpfen, geben Sie die Internetadresse (URL), wie **www.microsoft.com** ein.
-    - Um eine Anwendung zu verknüpfen, Sie geben eine bestimmte Zeichenfolge ein, um die Anwendung zu öffnen. Um Outlook mit einer neuen leeren E-Mail an ein bestimmtes Alias zu öffnen, geben Sie beispielsweise **mailto:testalias** ein.  
+    Der Link muss eine gültige Internet- oder Intranet-URL sein.
 
 5. Geben Sie im Feld **Beschreibung** die Informationen zu dem Link ein.  
 6. Wählen Sie die Schaltfläche **OK** aus.
@@ -67,9 +65,9 @@ Sie können eine Notiz auf ein Dokument oder eine Karte schreiben, um beispielsw
 > [!NOTE]
 > Hinweise auf der Registerkarte **Anhänge** haben nichts mit der internen Notizfunktion zu tun, die hauptsächlich für die Kommunikation zwischen Workflowbenutzern verwendet wird. Weitere Informationen finden Sie unter [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md).
 
-Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind für alle anderen unterstützten Belege und Karten ähnlich.
+Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind für alle anderen unterstützten Dokumente und Karten ähnlich.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Verkaufsauftrag aus, zu dem Sie einen Link hinzufügen möchten, und wählen Sie dann die Registerkarte **Anhänge** in der Infobox.
 3. In dem Abschnitt **Notizen** wählen Sie das **+** Symbol.
 4. In dem Feld **Hinweis** geben Sie in das Feld einen beliebigen Text ein, z. B. "Dies ist eine dringende Bestellung.".

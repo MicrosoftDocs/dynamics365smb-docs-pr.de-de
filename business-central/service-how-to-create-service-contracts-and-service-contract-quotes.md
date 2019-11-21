@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311692"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553916"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeiten mit Serviceverträgen und Servicevertragsangeboten
 Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot. Sie können ein Servicevertragsangebot als Vorläufer eines Servicevertrags verwenden, in dem Ihr Unternehmen dem Debitoren ein Angebot unterbreitet und die Genehmigung des Debitoren erhält, bevor das Angebot in einen Servicevertrag umgewandelt wird. Die Vorgehensweisen zur Erstellung eines Servicevertrags oder eines Servicevertragsangebots sind ähnlich.  
@@ -73,7 +73,7 @@ Sie können Servicevertragsgutschriften verwenden, wenn ein Debitor einen voraus
 
  Aktivieren Sie auf der Seite **Servicevertrag** auf dem Inforegister **Fakturierungsdetails** die Option **Autom. Gutschriften**, um automatisch eine Gutschrift zu erstellen, wenn Sie Vertragszeilen aus einem Servicevertrag löschen.  
 
- Um manuell eine Gutschrift zu erstellen, wenn Sie Vertragszeilen aus einem Servicevertrag löschen, wählen Sie auf der Seite **Servicevertrag** auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Gutschrift**.  
+ Um eine Gutschrift manuell zu erstellen, wenn Vertragszeilen aus einem Servicevertrag entfernt werden, wählen Sie auf der Seite **Servicevertrag** die Aktion **Gutschrift**.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Aktualisieren und Auswerten von Verträgen
 Gelegentlich müssen Sie die Bedingungen eines Vertrags nach dessen Erstellung ändern. In den meisten Fällen wird der betreffende Vertrag auf der Seite **Serviceverträge** geöffnet und nach Bedarf geändert.  
@@ -99,12 +99,12 @@ Möglicherweise müssen Sie Vertragszeilen aus dem Servicevertrag entfernen, wen
 4. Wählen Sie die Vertragszeile aus, die Sie entfernen möchten. Geben Sie in das Feld **Vertragsablaufdatum** das Datum ein, ab dem die Vertragszeile entfernt werden soll. Beispielsweise könnten Sie das Datum eingeben, an dem der Serviceartikel eingestellt wurde.  
 5. Wählen Sie die **Vertragszeilen löschen** Aktion aus. Die Seite **Vertragszeilen löschen** wird geöffnet.  
 6. Füllen Sie die Standardfilter aus: **Vertragsnr.**, **Serviceartikelnr.** und **Vertragsart**. Bei Bedarf können Sie weitere Filter anwenden oder die bestehenden ändern.  
-7. Füllen Sie die Felder im Inforegister **Optionen** aus. Wählen Sie im Feld **Aktion** den Eintrag **Zeilen löschen** aus.  
+7. Füllen Sie die Felder auf der **Optionen** Inforegister aus, und wählen Sie dann die Aktion **Linien löschen**.  
 
 > [!NOTE]  
 >  Wenn es sich nicht um einen detaillierten Vertrag handelt, müssen Sie den Wert im Feld **Zu fakturieren (Jahr)** auf dem Inforegister **Fakturierungsdetails** auf der Seite **Servicevertrag** aktualisieren, damit das Entfernen des Serviceartikels aus dem Vertrag berücksichtigt wird.  
 >   
->  Wenn es sich um einen detaillierten und vorausbezahlten Vertrag handelt und Sie Rechnungen für den Vertrag gebucht haben, können Sie eine Gutschrift für den Vertrag erstellen. Wählen Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktionen** die Option **Verkaufsgutschrift erstellen** aus. Dies ist unnötig, wenn das Kontrollkästchen im Feld **Autom. Gutschriften** im Inforegister **Rechnungsdetails** aktiviert ist. In diesem Fall wird automatisch eine Gutschrift erstellt wird, wenn Sie eine Vertragszeile entfernen.
+>  Wenn es sich um einen detaillierten und vorausbezahlten Vertrag handelt und Sie Rechnungen für den Vertrag gebucht haben, können Sie eine Gutschrift für den Vertrag erstellen. Wählen Sie die Aktion **Gutschrift erstellen**. Dies ist unnötig, wenn das Kontrollkästchen im Feld **Autom. Gutschriften** im Inforegister **Rechnungsdetails** aktiviert ist. In diesem Fall wird automatisch eine Gutschrift erstellt wird, wenn Sie eine Vertragszeile entfernen.
 
 ## <a name="service-line-cost-and-value"></a>Servicezeile "Kosten und Wert"
 In Servicevertragszeilen werden die Beträge in den Feldern **Zeileneinstandspreis** und **Zeilenwert** berechnet, wie in den folgenden Tabellen beschrieben.
@@ -150,7 +150,7 @@ Sie müssen möglicherweise den Inhaber eines Servicevertrags ändern. Wenn ein 
 4. Im **Vertragsnummer** und **Serviceartikelnr**, sehen Sie die Nummern des Vertrags und des Serviceartikels des ausgewählten Debitors. Wenn der Debitor Inhaber mehrerer Verträge mit mehreren Serviceartikeln ist, ist der Wert dieser Felder **Mehrere**. Um die Liste der damit verbundenen Verträge oder Serviceartikel anzuzeigen, wählen Sie diese Feldwerte aus.  
 5. Klicken Sie im Feld **Neue Debitorennr.** auf den neuen Debitor.  
 6. Wählen Sie im Feld **Neuer Lief. an Code** die Adresse aus.  
-7. Wählen Sie **OK** aus, um den Debitor und die "Lief. an Code" der Serviceverträge zu ändern.  
+7. Wählen Sie die Schaltfläche **OK**, um den Kunden- und Liefercode der Serviceverträge zu ändern.  
 8. Wählen Sie auf Aktion **Vertrag sperren** aus, um den Vertrag zu sperren und sicherzustellen, dass die Änderungen in die Verträge übernommen werden.  
 
 ## <a name="to-update-a-service-contract-price"></a>So aktualisieren Sie Servicevertragspreise  
