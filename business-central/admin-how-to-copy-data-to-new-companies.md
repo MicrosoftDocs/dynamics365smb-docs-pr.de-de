@@ -1,8 +1,6 @@
 ---
 title: So kopieren Sie Daten in neue Mandanten | Microsoft Docs
 description: Sie können häufig verwendete Werte aus einem vorhandenen Mandanten in einen neuen kopieren, solange sich beide Mandanten in derselben Datenbank befinden. Wenn Sie beispielsweise über eine Standardliste von Symptomcodes verfügen, die allen Ihren Servicemanagementimplementierungen gemein ist, können Sie die Codes problemlos aus einem Mandanten in einen anderen kopieren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,24 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 87b9a6b39128c43d7159fc5e964d307d19013c2b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f95e7ec5be6e00e908f5cb8cbe6f08528542e150
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308446"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878605"
 ---
 # <a name="copy-data-to-new-companies"></a>So kopieren Sie Daten in neue Mandanten.
 Sie können häufig verwendete Werte aus einem vorhandenen Mandanten in einen neuen kopieren, solange sich beide Mandanten in derselben Datenbank befinden. Wenn Sie beispielsweise über eine Standardliste von Symptomcodes verfügen, die allen Ihren Servicemanagementimplementierungen gemein ist, können Sie die Codes problemlos aus einem Mandanten in einen anderen kopieren.  
 
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>So kopieren Sie mit RapidStart Services Daten in einen neuen Mandanten  
 1. Öffnen des neuen Mandanten  
-2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
+2. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 3. Wählen Sie **Daten von Mandanten kopieren**.  
 4. Wählen Sie auf der Seite **Mandantendaten kopieren** einen Mandanten aus, um aus dem Feld **Kopieren von** zu kopieren und wählen Sie dann die Schaltfläche **OK** aus.  
 5. Wählen Sie eine Tabelle in einem der Konfigurationspakete aus, die Sie importiert haben, und wählen Sie in der Registerkarte Start in der Gruppe Vorgang die Option **Daten kopieren** aus.
 
 ## <a name="see-also"></a>Siehe auch
-[Übernehmen von Konfiguration in neue Mandanten](admin-apply-configuration-to-new-companies.md)  
-[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
+[Konfigurationen für neue Unternehmen übernehmen](admin-apply-configuration-to-new-companies.md)  
+[Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

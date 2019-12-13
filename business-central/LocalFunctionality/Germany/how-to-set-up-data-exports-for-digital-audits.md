@@ -1,8 +1,6 @@
 ---
 title: Wie Sie Daten für eine Digital-Überwachung einrichten
 description: Sie müssen die Export-Datensatzquellen einrichten, um die Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen zu (GDPdU) exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a92672a2322fa5d3682282d55ac9e4125f511111
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dfe323343778224b8aa210b6d0e621cafee73c27
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301318"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878921"
 ---
 # <a name="set-up-data-exports-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung einrichten
 Sie müssen die Export-Datensatzquellen einrichten, um die Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen zu (GDPdU) exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen.  
 
 ## <a name="to-set-up-a-gdpdu-data-export"></a>So richten Sie einen GDPdU-Datenexport ein  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Datenexporte** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **Datenexporte** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie auf der Seite **Datenexporte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -37,7 +35,7 @@ Dem Datenexport müssen Datensatzdefinitionen hinzugefügt werden. Jede Datensat
 
 ## <a name="to-add-a-record-definition-to-a-digital-audit-definition-group"></a>Wählen Sie eine Datensatzdefinition aus, die Sie einer GDPdU-Definitionsgruppe hinzufügen möchten.  
 
-1.  Wählen Sie auf der Seite **Datenexport** in der Gruppe Start die Option D**efinitionen aufzeigen** aus.  
+1.  Wählen Sie auf der Seite **Datenexport** in der Gruppe Start die Option **Definitionen aufzeigen** aus.  
 2.  Füllen Sie auf der Seite **Datenexport - Berichtsdefinitonen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
@@ -59,12 +57,12 @@ Danach müssen Sie die Quelle für die zu exportierenden Daten definieren.
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Tabellennr.**|Wählen Sie die Nummer der Haupttabelle aus, aus der Daten exportiert werden sollen.<br /><br /> Wenn Sie einen Wert in Feld**Tabellennr.** eingeben das Feld  **Tabellenname** wird aktualisiert.|  
+    |**Tabellennr.**|Wählen Sie die Nummer der Haupttabelle aus, aus der Daten exportiert werden sollen.<br /><br /> Wenn Sie einen Wert in Feld **Tabellennr.** eingeben das Feld **Tabellenname** wird aktualisiert.|  
     |**Tabellenname exportieren**|Optional. Ändern Sie den vorgeschlagenen Namen der in der INDEX.XML-Datei verwendet wird während dem Export.<br /><br /> Der Wert des Felds **Tabellenname exportieren** wird verwendet, um die Datei INDEX.XML während des GDPdU-Datenexports zu generieren. Der Standardname ist der Name der Tabelle ohne Sonderzeichen aufgrund der Anforderungen des Prüftools.<br /><br /> **Tipp:** In den meisten Fällen basieren die Felder **Tabellenname exportieren** und **Exportdateiname** auf dem gleichen Wert.<br /><br /> Es kann Fälle geben, in denen Sie definieren, die selbe Tabelle mehrfach zu exportieren. Sie können verschiedene Export-Tabellennamen für jeden Tabelleneintrag auswählen, und die Export-Dateiname wird automatisch angepasst. Sie können den Export-Dateinamen ändern, solange er eindeutig ist.<br /><br /> [!INCLUDE[d365fin](../../includes/d365fin_md.md)] benennt automatisch die Dateien wie folgt.<br /><br /> **Tabellenname** Sachkonto<br /><br /> **Tabellenname exportieren**: Sachkonto<br /><br /> **Dateiname exportieren** Sachkonto.txt<br /><br /> **Tabellenname** Sachkonto<br /><br /> **Tabellenname exportieren:**: Sachkonto1<br /><br /> **Dateiname exportieren:** Sachkonto1.txt|  
     |**Periodenfeldnr.**|Geben Sie einen Filter an, für den das Feld zum Erstellen des XML-Dokuments verwendet wird und legen Sie das Startdatum und das Enddatum des Berichts fest.<br /><br /> Wenn Sie zum Beispiel die Tabelle **Sachposten** als Quelldatei für den Datenexport auswählen, können Sie eines der Datumsfelder auswählen, die in dieser Tabelle stehen.|  
     |**Tabellenfilter**|Geben Sie ein Feld an, für das Sie einen Filter festlegen möchten.<br /><br /> Auf der Seite **Tabellenfilter** geben Sie Filtereinstellungen in der Spalte **Feldfilter** ein.<br /><br /> Beispielsweise können Sie ein Feld angeben, das Informationen über den Betrag überträgt. Sie können ein Datumsfeld festlegen und dafür einen Filter setzen, wenn Sie in einem Zeitraum unterschiedliche Startdaten setzen möchten. Enddatum. Sie können ein Datumsfeld nicht angeben und dafür einen Filter festlegen, wenn dasselbe Feld bereits im Feld Perioden-Gebiet " verwendet wird.|  
     |**Feldnr. Datumsfilter**|Definieren Sie ein Filterfeld, wenn die Tabelle eines hat.<br /><br /> Wenn die Tabelle mehr als einen Datumsfilter hat, definieren Sie keinen in diesem Feld.|  
-    |**Behandlung von Datumsfiltern**|Geben Sie an, wie z. B.  Datumsfilter bearbeitet werden sollen:<br /><br /> * <blank>: Kein Filter festgelegt.<br /><br /> * Periode: Verwenden Sie das angegebene Startdatum und das Enddatum.<br /><br /> * Nur Enddatum: Verwenden Sie das Enddatum der Stapelverarbeitung.<br /><br /> * Nur Startdatum: Verwenden Sie das Startdatum - 1 der Stapelverarbeitung.|  
+    |**Behandlung von Datumsfiltern**|Geben Sie an, wie z. B. Datumsfilter bearbeitet werden sollen:<br /><br /> * <blank>: Kein Filter festgelegt.<br /><br /> * Periode: Verwenden Sie das angegebene Startdatum und das Enddatum.<br /><br /> * Nur Enddatum: Verwenden Sie das Enddatum der Stapelverarbeitung.<br /><br /> * Nur Startdatum: Verwenden Sie das Startdatum - 1 der Stapelverarbeitung.|  
     |**Exportdateiname**|Geben Sie den Namen der Arbeitsmappe an, in die die Daten exportiert werden sollen.<br /><br /> Wenn die Tabelle beispielsweise **Sachkonto** ist, kann der Wert des **Tabellennamen exportieren** **Sachkonto** sein, und der Wert des Felds **Exportdateiname** kann **Sachkonto.txt** sein.|  
     |**Schlüsselnr.**|Optional. Definieren Sie das Schlüsselfeld.|
 

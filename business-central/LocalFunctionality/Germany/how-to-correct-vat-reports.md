@@ -1,8 +1,6 @@
 ---
 title: Vorgehensweise beim Korrigieren von MwSt.-Berichten
 description: Wenn Sie einen Korrektur-MwSt-Bericht übermitteln müssen oder einen übermittelten MwSt-Bericht löschen müssen, müssen Sie einen neuen MwSt-Bericht erstellen. Entsprechend der Gesetzgebung muss ein Korrekturbericht innerhalb eines Monats nach dem ursprünglichen Bericht übermittelt werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d9739768c4071b6934bf4e023b1d134fc797b342
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 21009fdd749920b83cc116947427c68891ba57e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300192"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878183"
 ---
 # <a name="correct-vat-reports"></a>Zu korrigierender MwSt.-Bericht
 Wenn Sie einen Korrektur-MwSt-Bericht übermitteln müssen oder einen übermittelten MwSt-Bericht löschen müssen, müssen Sie einen neuen MwSt-Bericht erstellen. Entsprechend der Gesetzgebung muss ein Korrekturbericht innerhalb eines Monats nach dem ursprünglichen Bericht übermittelt werden.  
 
-Wenn Sie einen Korrekturbericht erstellen, enthält die Erklärung zwei Zeilenarten pro korrigierter Zeile. In einer Zeilenart, „Stornierung”, wird der Basiswert der MwSt. als Stornierung aufgezeichnet. Alle anderen Informationen bleiben dieselben und können nicht bearbeitet werden. In einer neuen Zeile, Korrekturtyp, können Sie nach Bedarf Korrekturen am MwSt.-Betrag vornehmen. Bei der Aktion **Zeilen vorschlagen** wird jedoch der richtige Betrag, basierend auf den Filtern und gebuchten Belegen, vorgeschlagen. Sie können die **USt-IdNr.** nicht korrigieren oder ändern. Jede Periode, die korrigiert wird, benötigt ihren eigenen Korrekturbericht.  
+Wenn Sie einen Korrekturbericht erstellen, enthält die Erklärung zwei Zeilenarten pro korrigierter Zeile. In einer Zeilenart, „Stornierung“, wird der Basiswert der MwSt. als Stornierung aufgezeichnet. Alle anderen Informationen bleiben dieselben und können nicht bearbeitet werden. In einer neuen Zeile, Korrekturtyp, können Sie nach Bedarf Korrekturen am MwSt.-Betrag vornehmen. Bei der Aktion **Zeilen vorschlagen** wird jedoch der richtige Betrag, basierend auf den Filtern und gebuchten Belegen, vorgeschlagen. Sie können die **USt-IdNr.** nicht korrigieren oder ändern. Jede Periode, die korrigiert wird, benötigt ihren eigenen Korrekturbericht.  
 
 Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechnet. Die Aktion **Zeilen korrigieren** wird verwendet, um manuelle Änderungen vorzunehmen. Sie können die Auswirkungen der zwei Aktionen kombinieren, um den Bericht zu korrigieren.  
 
@@ -50,8 +48,8 @@ Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechn
 ## <a name="to-correct-a-vat-report"></a>So wird ein MwSt-Bericht korrigiert  
 
 1.  Erstellen Sie einen neuen MwSt-Bericht. Weitere Informationen finden Sie unter [MwSt-Berichte erstellen](how-to-create-vat-reports.md).  
-2.  Füllen Sie die Felder im Inforegister **Allgemein** aus, und legen Sie das Feld **MwSt-Berichtstyp** auf „Korrigiert” fest.  
-3.  In der **Originalberichtsnr.** Feld, wählen Sie den Bericht aus, die Sie korrigieren möchten. Sie können nur Berichte vom Typ „Standard” auswählen, die als „Übermittelt” markiert sind.  
+2.  Füllen Sie die Felder im Inforegister **Allgemein** aus, und legen Sie das Feld **MwSt-Berichtstyp** auf „Korrigiert“ fest.  
+3.  In der **Originalberichtsnr.** Feld, wählen Sie den Bericht aus, die Sie korrigieren möchten. Sie können nur Berichte vom Typ „Standard“ auswählen, die als „Übermittelt“ markiert sind.  
 4.  Erstellen Sie Ihre Korrektur-MwSt-Berichts-Zeilenposten.  
 
     Wählen Sie die Aktion **Mahnungszeile vorschlagen**. Legen Sie die Filter gemäß Bedarf fest.  

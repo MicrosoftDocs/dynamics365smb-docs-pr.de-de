@@ -1,8 +1,6 @@
 ---
 title: Auftrag nach Auftrag planen | Microsoft Docs
 description: Diese Planungsaufgabe kann auf der Seite **Auftragsplanung** ausgeführt werden, in dem der gesamte neue Bedarf sowie Informationen über die Verfügbarkeit und Beschaffungsvorschläge angezeigt werden. Das Fenster bietet eine Übersicht und die erforderlichen Tools für eine effektive Bedarfsplanung anhand der Verkaufs- und Komponentenzeilen, auf deren Grundlage dann verschiedene Arten von Beschaffungsaufträgen direkt erstellt werden können.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ecc317449642dafe43f294ecefba386ba7e08f51
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aa0d9039ff48d05e0a96ceb5480b40cde864499c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313348"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883214"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planung der Bestellung eines neuen Bedarfs von Auftrag
 Diese Planungsaufgabe kann auf der Seite **Auftragsplanung** ausgeführt werden, in dem der gesamte neue Bedarf sowie Informationen über die Verfügbarkeit und Beschaffungsvorschläge angezeigt werden. Das Fenster bietet eine Übersicht und die erforderlichen Tools für eine effektive Bedarfsplanung anhand der Verkaufs- und Komponentenzeilen, auf deren Grundlage dann verschiedene Arten von Beschaffungsaufträgen direkt erstellt werden können.  
@@ -26,14 +24,14 @@ Sie können die Seite **Auftragsplanung** in zwei Arten eingeben, je nach Herang
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>So planen Sie neue Fertigungsaufträge  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Geplante Produktionsaufträge** ein, und wählen dann den zugehörigen Link aus. (Sie können diese Schritte für einen geplanten, fest geplanten oder freigegebenen Fertigungsauftrag ausführen).
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Geplante Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link. (Sie können diese Schritte für einen geplanten, fest geplanten oder freigegebenen Fertigungsauftrag ausführen).
 2.  Öffnen Sie den Fertigungsauftrag, für den Sie planen möchten, und wählen Sie die **Planung** Aktion aus.  
 3.  Klicken Sie auf der Seite **Auftragsplanung** auf Funktionen und dann auf **Planung berechnen**.  
 
 Auf der Seite Fenster werden Planungszeilen entsprechend dem Ansichtsfilter **Fertigungsbedarf** angezeigt, d. h. die unausgeführten Komponentenzeilen aller vorhandenen Fertigungsaufträge. Bedarf nur für den einen Fertigungsauftrag wird nicht angezeigt, da es notwendig ist, für einen Fertigungsauftrag mit einer Übersicht des Bedarfs für möglicherweise ältere Komponentenzeilen zu planen. Planungszeilen für den Fertigungsauftrag im Kontext werden erweitert.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Für beliebigen neuen Bedarf planen  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Auftragsplanung** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Auftragsplanung** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Klicken Sie auf der Seite **Auftragsplanung** auf Funktionen und dann auf **Planung berechnen**.
 3.  Wählen Sie die Schaltfläche **Ausklappen (+)** vor dem Datum im Feld **Bedarfsdatum**, um die zugrunde liegenden Planungszeilen anzuzeigen, die Bedarfszeilen mit unzureichender Verfügbarkeit darstellen.  
 4.  Für die einzelnen aufgeklappten Planungszeilen, bzw. Bedarfszeilen werden unten auf der Seite Werte in Informationsfeldern angezeigt.  
@@ -82,10 +80,10 @@ Auf der Seite Fenster werden Planungszeilen entsprechend dem Ansichtsfilter **Fe
     Diese beiden Felder sind über das Feld **Vorg. Sich.-Zuschl. Besch.-Zt.** miteinander verknüpft, das auf der Seite **Produktionseinrichtung** gefunden werden kann. Standardmäßig ist das Fälligkeitsdatum gleich dem Bedarfsdatum, Sie können dies jedoch beliebig ändern.  
 
 > [!NOTE]  
->   Wenn Sie ein Datum eingeben, das nach dem Bedarfsdatum liegt, erhalten Sie eine Warnmeldung.  
+>  Wenn Sie ein Datum eingeben, das nach dem Bedarfsdatum liegt, erhalten Sie eine Warnmeldung.  
 
 ## <a name="to-make-supply-orders"></a>Beschaffungsaufträge erstellen  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Geplante Produktionsaufträge** ein, und wählen dann den zugehörigen Link aus. Sie können diese Schritte für einen geplanten, fest geplanten oder freigegebenen Fertigungsauftrag ausführen.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Geplante Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link. Sie können diese Schritte für einen geplanten, fest geplanten oder freigegebenen Fertigungsauftrag ausführen.  
 2.  Öffnen Sie den Fertigungsauftrag, für den Sie planen möchten, und wählen Sie die **Planung** Aktion aus.  
 3.  Platzieren Sie den Cursor in einer Planungszeile, und klicken Sie auf **Bestellungen erstellen**.  
 4.  Wählen Sie auf der Seite **Beschaffungsaufträge erstellen** im Inforegister **Auftragsplanung** im Feld **Aufträge erstellen für** eine der folgenden Optionen aus.  
@@ -116,6 +114,6 @@ Nachdem Sie die Planung auf der Seite **Auftragsplanung** abgeschlossen haben, a
 [Produktion](production-manage-manufacturing.md)    
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Designdetails: Vorratsplanung](design-details-supply-planning.md)   
+[Designdetails: Beschaffungsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Artikelverfolgungsdesign | Microsoft Docs'
 description: Dieses Thema zeigt eine Übersicht über Entwurfsdetails für Artikelverfolgung.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b263abf09a3d74bbac4f8b94c4dde61644702bfc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1eaa4339512ebc243a7ba8b7e3193c943aeebaef
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303196"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878533"
 ---
 # <a name="design-details-item-tracking"></a>Designdetails: Artikelnachverfolgung
 Da der Warenfluss in heutigen Lieferketten immer komplexer wird, wird die Möglichkeit, Artikel nachzuverfolgen für die involvierten Unternehmen immer wichtiger. Den Transaktionsfluss eines Artikels zu überwachen ist eine gesetzlich vorgeschriebenes Erfordernis in Bezug auf medizinische und chemische Vorräte, andere Sektoren haben Produkte mit Garantien oder Ablaufdatumsangaben für Kundenservicegründe zu überwachen.  

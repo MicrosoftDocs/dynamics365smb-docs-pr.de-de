@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Einrichten von Arbeits- und Servicezeiten | Microsoft Docs'
 description: Auf einer **Arbeitsplatzgruppenkarte** sind die konstanten Werte und Anforderungen der jeweiligen Fertigungsressource organisiert, und dadurch werden die Istmengen der Fertigung in dieser Arbeitsplatzgruppe gesteuert.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: eb947aec01b7932b827332d0c283ec9b08981634
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1d8b24df628cbb41449e37b31cbf1082d434bb81
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313108"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877831"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Arbeitsplätze und Arbeitsplatzgruppen einrichten
 Die Anwendung unterscheidet zwischen drei verschiedenen Arten von Kapazitätseinheiten. Diese sind hierarchisch angeordnet. Jede Ebene enthält die untergeordneten Ebenen.  
@@ -33,7 +31,7 @@ Die Verfügbarkeit wird in Kalenderposten gespeichert. Bevor Sie anfangen oder A
 ## <a name="to-set-up-a-work-center"></a>Um Arbeitsplatzgruppen einzurichten:
 Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerichtet wird. Die Schritte, um ein Arbeitsplatzkalenders einzurichten außer für das **Arbeitsplatz-Einrichtung** Inforegister.  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Arbeitszentren** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Arbeitsplatzgruppen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Wählen Sie im Feld **Abteilung** die übergeordnete Ebene, unter der sich die Arbeitsplatzgruppe befindet, sofern relevant. Wählen Sie aus der Dropdown-Liste die Aktion **Neu** aus.  
@@ -89,7 +87,7 @@ Auf der Seite **Ressourcen mit eingeschränkter Kapazität** können Sie ein Set
 
 Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, dass keine Ressourcen oberhalb der definierten Kapazität (Grenzbelastung) geladen werden. Dies geschieht, indem jeder Arbeitsgang dem nächsten verfügbaren Zeitfenster zugewiesen wird. Wenn das Zeitfenster nicht ausreicht, um den gesamten Arbeitsgang abzuschließen, wird der Arbeitsgang in zwei Teile aufgeteilt, die in die nächsten verfügbaren Zeitfenster gesetzt werden.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kapazitäts-Buch.-Blätter** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Begrenzte Kapazitäten** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus.
 

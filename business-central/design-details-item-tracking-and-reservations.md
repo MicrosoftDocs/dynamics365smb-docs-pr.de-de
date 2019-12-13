@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Artikelverfolgung und Reservierungen | Microsoft Docs'
 description: Dieses Thema befasst sich mit Artikelverfolgung und mit Reservierungen und beschreiben die Konzepte der zwei.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4e5818f5bafd737738a99b4627ab36548a7f0ec4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d7895b0068afaf73a113b6f656c1600ce2cc4a4a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303391"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880232"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetails: Artikelverfolgung und Reservierungen
 Die gleichzeitige Verwendung von Reservierung und spezifischer Artikelnachverfolgung ist selten, da beide eine Kopplung zwischen Vorrat und Bedarf erstellen. Mit Ausnahme von Situationen, in denen ein Kunde oder ein Produktionsplaner eine bestimmte Charge anfragt, ist es selten sinnvoll, Lagerartikel zu reservieren, die bereits Artikelverfolgungsnummern für bestimmte Anwendungen tragen. Obwohl es möglich ist, Artikel zu reservieren, die eine spezifische Artikelnachverfolgung erfordern, sind spezielle Funktionen erforderlich, um Verfügbarkeitskonflikte zwischen Auftragsbearbeitern zu vermeiden, die dieselben artikelnachverfolgten Artikel anfordern.  

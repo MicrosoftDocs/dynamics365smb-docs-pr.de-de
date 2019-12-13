@@ -1,8 +1,6 @@
 ---
 title: 'Exemplarische Vorgehensweise: Berechnen des Umlaufbestandes | Microsoft Docs'
 description: Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen und die verschiedenen Kosten im Zusammenhang mit dem Verbrauch von Ressourcen für ein bestimmtes Projekt verfolgen. Projekte beinhalten den Verbrauch von Mitarbeiterstunden, Maschinenstunden, Bestandsposten und andere Verbrauchsarten, die während des Projekts verfolgt werden müssen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 98ecc7dad5857d36ca662d1b35d4e1d066e8f851
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1ba3bb79978d9635239183e7bbfc14722951b222
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314868"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876991"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt
 
@@ -62,7 +60,7 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 ### <a name="to-calculate-wip"></a>So berechnen Sie die WIP  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2.  In der Liste **Projekte** wählen Sie das Projekt **Deerfield** aus, und wählen Sie die **Bearbeiten** Aktion aus. Die Projektkarte wird im Bearbeitungsmodus geöffnet.  
 
      Die WIP kann basierend auf Einstandswert, Verkaufswert, Vertriebskosten, Prozentsatz der Fertigung oder bei Abschluss berechnet werden. In diesem Beispiel verwendet CRONUS das Einstandswertverfahren.  
@@ -94,8 +92,8 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
 
 ### <a name="to-review-wip-warnings"></a>WIP-Warnungen überprüfen  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **WIP-Cockpit für Projekte** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie die entsprechende Projekte **Deerfield**und wählen Sie dann die Aktion **Warnung anzeigen** aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **WIP-Cockpit für Projekte** ein und wählen Sie dann den entsprechenden Link.  
+2.  Wählen Sie die entsprechende Projekte **Deerfield** und wählen Sie dann die Aktion **Warnung anzeigen** aus.  
 3.  Überprüfen Sie auf der Seite **Job-WIP-Warnungen** die Warnung, die dem Projekt zugeordnet ist.  
 
  Nach dem Ende der Buchhaltungsperiode muss Katrin die WIP erneut berechnen, um die bis zu diesem Zeitpunkt abgeschlossene Arbeit einzubeziehen.  

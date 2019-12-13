@@ -1,8 +1,6 @@
 ---
 title: Wie Sie Daten für eine Digital-Überwachung exportieren
 description: Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e6bf1f02bdc0d7cfcd1b86e11d7e0eb465e1532
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f4c4273f42a95924f22eb8e3d55f0ed9f39bf075
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301312"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878170"
 ---
 # <a name="walkthrough-exporting-data-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung exportieren
 Sie können Geschäftsdaten für Überwachungszwecke exportieren. Die Einrichtung des Datenexportes unterscheidet sich von anderen Unternehmen und Sie sollten Ihren Steuerberater und den Steuerprüfer um Rat fragen. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.  
@@ -47,8 +45,8 @@ Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie
 
 ### <a name="to-set-up-the-requirements-for-a-data-export"></a>Einrichten von Anforderungen für den Datenexport.  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Daten exportieren** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Wählen Sie die Aktion **Neu** aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **Datenexport** ein und wählen Sie dann den entsprechenden Link.  
+2.  Wählen Sie die Aktion **Neu**.  
 3.  Füllen Sie auf der Seite **Datenexporte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
@@ -60,13 +58,13 @@ Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie
 
     Als Nächstes fügt Cassie Beschreibungen der Art der Daten hinzu, die sie im Export benötigt.  
 
-4.  Wählen Sie auf der Seite **Datenexport** in der Gruppe Start die Option D**efinitionen aufzeigen** aus.  
+4.  Wählen Sie auf der Seite **Datenexport** in der Gruppe Start die Option **Definitionen aufzeigen** aus.  
 5.  Auf der Seite **Datenexport - Datensatzdefinitionen** wählen Sie das Feld **Datensatzcode**, und wählen Sie dann in dem Fenster, das erscheint **Neu** aus.  
 6.  Füllen Sie auf der Seite **Datenexport - Berichtsarten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Code**|Enthält den Code für die Art des Geschäfts  **GLCUSTVEND**.|  
+    |**Code**|Enthält den Code für die Art des Geschäfts **GLCUSTVEND**.|  
     |**Beschreibung**|Die Beschreibung für den Datensatztyp, **Sach-, Debitor-. verkaufen**.|  
 
 7.  Wählen Sie die Schaltfläche **OK** aus.  
@@ -112,7 +110,7 @@ Zuerst fügt Stephan die erforderliche .dtd-Datei der Datensatzdefinition des Da
 
 ### <a name="to-add-a-dtd-file-to-a-record-definition"></a>So fügen Sie eine .dtd-Datei einer zugehörigen Berichtsdefinirion hinzu  
 
-1.  Auf der Seite **Datenexporte** wählen Sie den Datenexport**AUDIT-Q113** und wählen die Aktion **Datensatzdefinitionen**.  
+1.  Auf der Seite **Datenexporte** wählen Sie den Datenexport **AUDIT-Q113** und wählen die Aktion **Datensatzdefinitionen**.  
 2.  Auf der Seite **Datenexport - Datensatzdefinitionen** wählen Sie die Zeile, in der das Feld **Datenexport - Datensatz-Typcode** auf **GLCUSTVEND** gesetzt ist und wählen dann **Importieren** aus.  
 3.  Wählen Sie auf der Seite **Importieren** die DTD-Datei aus, die den Workflow enthält, und wählen Sie dann die Schaltfläche **Öffnen**.  
 
@@ -166,7 +164,7 @@ Sean hat das Feld **Buchungsdatum** aus der Tabelle **Sachposten** hinzugefügt,
 
 ### <a name="to-add-a-period-filter-to-a-table-in-a-data-export-source"></a>Um einen Periodenfilter einer Tabelle in einer Datenexportquelle hinzuzufügen  
 
-1.  Auf der Seite **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto**und dann auf der Registerkarte Felder wählen Sie **Periodenfeld-Nr.** aus.  
+1.  Auf der Seite **Datenexport - Datensatzherkunft** wählen Sie die Zeile unter der Zeile für die Tabelle **Sachkonto** und dann auf der Registerkarte Felder wählen Sie **Periodenfeld-Nr.** aus.  
 2.  Auf der Seite **Datenexport Felderübersicht** wählen Sie das Feld **Buchungsdatum**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     Die Seite **Datenexport-Felderübersicht** wird gefiltert, um nur die Datumsfelder anzuzeigen.  
@@ -253,7 +251,7 @@ Cassie möchte Daten exportieren, die sie anschließend den Steuerprüfern sende
 
 ### <a name="to-export-data"></a>Daten exportieren  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Geschäftsdaten exportieren** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Geschäftsdaten exportieren** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf der Seite **Geschäftsdaten exportieren** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  

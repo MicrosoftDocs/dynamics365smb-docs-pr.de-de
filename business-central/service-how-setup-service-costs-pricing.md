@@ -1,8 +1,6 @@
 ---
 title: Einrichten von Preisen und Kosten für Services | Microsoft Docs
 description: 'Vorgehensweise: Einrichten von Preisen und zusätzlichen Kosten für Services.'
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 74f2cfce207fbc32aad1dc835ead2588e2aa62c1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58c54fd68d291a5d07765a57002e0918df78a1f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311836"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877376"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Einrichten von Preisen und zusätzlichen Kosten für Services
 Mithilfe der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Preisfunktionen kann die Anwendung so eingerichtet und konfiguriert werden, dass Preise für Serviceartikel, Reparaturen und Aufträge übernommen und angepasst werden. Diese Preisentscheidungen werden anschließend problemlos an den Abrechnungsprozess übertragen.  
@@ -27,7 +25,7 @@ Entsprechend den Implementierungsanforderungen können Sie Preisgruppen festlege
 ## <a name="to-set-up-a-service-price-group"></a>So richten Sie eine Servicepreisgruppe ein
 Sie können Servicepreisgruppen einrichten, um Gruppen von Serviceartikeln zu bilden, die derselben Servicepreisgestaltung unterliegen. Sie verbinden die Servicepreisgruppen mit den Serviceartikeln in den Serviceartikelzeilen. Servicepreisgruppen können auch mit Serviceartikelgruppen verbunden werden.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicepreisgruppen** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Servicepreisgruppen** ein und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie eine neue Servicepreisgruppe.  
 3. Füllen Sie die Felder **Code** und **Beschreibung** aus.  
 4. Wählen Sie die Aktion **Einrichten** aus.  
@@ -39,7 +37,7 @@ Sie können Servicepreisgruppen einrichten, um Gruppen von Serviceartikeln zu bi
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>So richten Sie eine Servicepreiskorrekturgruppe ein  
 Sie wählen für jede Art von Servicepreisgestaltung eine Servicepreiskorrekturgruppe. Beispielsweise können Sie Preiskorrekturgruppen einrichten, um die Preise für Fracht oder Ersatzteile anzupassen.  
   
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicepreisanpassungsgruppen** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Service-Preiskorrekturgruppen** ein und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie eine neue Servicepreiskorrekturgruppe.  
 3. Füllen Sie die Felder **Code** und **Beschreibung** aus.  
 4. Geben Sie im Feld **Art** geben Sie die Art des Postens ein, den Sie anpassen möchten.  
@@ -57,11 +55,11 @@ Sie wählen für jede Art von Servicepreisgestaltung eine Servicepreiskorrekturg
 Wenn Sie mit Serviceartikeln und Serviceaufträgen arbeiten, können Sie zusätzliche Kosten, wie Reisekosten in bestimmten Servicegebieten oder die Grundgebühren erfassen. Wenn Sie einen Serviceauftrag erstellen, können Sie diese Kosten einfügen und eine Zeile mit dem Typ **Kosten** wird dem Auftrag hinzugefügt. Wenn Sie die Kosten in alle Serviceaufträge übernehmen möchten, können Sie Standardkosten einrichten. Wenn Sie beispielsweise immer eine Grundgebühr anwenden möchten.
   
 ### <a name="to-set-up-service-costs"></a>Um Servicekosten einzurichten
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicekosten** ein, und wählen dann den zugehörigen Link aus. 
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Servicekosten** ein und wählen Sie dann den entsprechenden Link. 
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Um Standardkosten für Serviceaufträge anzugeben
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Service einrichten** ein, und wählen dann den zugehörigen Link aus. 
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceeinrichtung** ein und wählen Sie dann den entsprechenden Link. 
 2. Geben Sie im Feld **Serviceauftragsgrundgebühr** die entsprechenden Servicekosten aus.
 
 ## <a name="see-also"></a>Siehe auch

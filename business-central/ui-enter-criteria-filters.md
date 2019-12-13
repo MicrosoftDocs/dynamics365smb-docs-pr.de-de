@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e61ffff9e081d561eb637a398f0bcb05ff69f70
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315612"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882182"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortieren, Durchsuchen und Filtern
 Es gibt mehrere Möglichkeiten, wie Sie das tun können und die dabei helfen, Datensätze in einer Liste oder einem Bericht oder XMLport zu scannen, zu suchen und einzugrenzen. Diese umfassen Sortierung, Suche und Filterung. Sie können einige oder alle davon gleichzeitig anwenden, um die Daten schnell zu finden oder zu analysieren.
@@ -23,7 +23,7 @@ Es gibt mehrere Möglichkeiten, wie Sie das tun können und die dabei helfen, Da
 Für Berichte und XML-Ports können Sie Filter wie für Listen festlegen, um zu begrenzen, welche Daten in den Bericht oder XMLport aufgenommen werden sollen, aber Sie können nicht sortieren und suchen.
 
 > [!TIP]
-> Wenn Sie Ihre Daten als Kacheln anzeigen, können Sie grundlegender Filterung verwenden und entsprechend suchen. Um den gesamten Satz der leistungsstarken Funktionen zum Sortieren, Suchen und Filtern zu verwenden, wählen Sie ![Anzeigen als Liste](media/ui_show_as_list_icon.png "Anzeigen als Listenpfeil links")- Symbol aus, um die Datensätze als Liste anzuzeigen.
+> Wenn Sie Ihre Daten als Kacheln anzeigen, können Sie grundlegender Filterung verwenden und entsprechend suchen. Um den gesamten Satz der leistungsstarken Funktionen zum Sortieren, Suchen und Filtern zu verwenden, wählen Sie das Symbol ![Als Liste anzeigen](media/ui_show_as_list_icon.png "Als Listenpfeil links anzeigen"), um die Datensätze als Liste anzuzeigen.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -39,7 +39,7 @@ Um eine Liste zu sortieren, können Sie entweder eine Spaltenüberschrift auswä
 
 ## <a name="searching"></a>Suchen
 <!--## Searching by using the Quick Filter -->
-Am Anfang jeder Liste befindet sich eine Aktion ![Suchliste](media/ui-search/search-list.png "Suchlistensymbol") **Suchen**, die eine schnelle und einfache Möglichkeit bietet, die Datensätze in einer Liste zu verringern und nur die Datensätze mit den Daten anzuzeigen, die Sie anzeigen möchten.
+Am Anfang jeder Liste befindet sich eine Aktion ![Suchliste](media/ui-search/search-list.png "Symbol für die Suchliste") **Suchen**, die eine schnelle und einfache Möglichkeit bietet, die Datensätze in einer Liste zu verringern und nur die Datensätze mit den Daten anzuzeigen, die Sie anzeigen möchten.
 
 Zur Suche wählen Sie einfach die Aktion **Suchen** aus und geben dann im Feld den Text ein, nach dem Sie suchen. Sie können Buchstaben, Ziffern und andere Symbole eingeben.
 
@@ -111,7 +111,7 @@ Der Filterbereich enthält die aktuellen Filter für eine Liste und ermöglicht 
   Einige Listen, die berechnete Felder anzeigen, z. B. Beträge und Mengen, enthalten den Abschnitt **Summen filtern nach**, in dem Sie verschiedene Dimensionen anpassen können, die Berechnungen beeinflussen. Um einen Filter hinzuzufügen, wählen Sie die **+ Filter** Aktion, geben Sie den Namen des Felds ein, nach dem Sie die Liste filtern möchten, oder wählen Sie ein Feld aus der Dropdown-Liste aus.
 
   > [!NOTE]
-  > Filter im Abschnitt **Summen filtern nach** werden im Seitenentwurf durch FlowFilter gesteuert. Technischer Informationen finden Sie unter [FlowFilter](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Filter im Abschnitt **Summen filtern nach** werden im Seitenentwurf durch FlowFilter gesteuert. Technischer Informationen finden Sie unter [FlowFilter](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 Sie können einen einfachen Filter direkt in einer Liste im Filterbereich festlegen, dh einen Filter, der nur Datensätze mit demselben Wert wie in der ausgewählten Zelle anzeigt. Um eine Zelle in einer Liste anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Namen der Seite und wählen Sie dann die **Filter für diesen Wert anzeigen** Aktion. Alternativ können Sie auch **ALT+F3** drücken.
 
@@ -270,6 +270,6 @@ Verwenden Sie `%myvendors` im Feld Kreditoren-**Nr**, um alle Datensätze für K
 |`%myvendors`|Kreditoren in **Meine Kreditoren** in Ihrem Rollencenter. |  
 
 ## <a name="see-also"></a>Siehe auch
-[Suchen und Filtern – FAQs](ui-search-filter-faq.md)  
+[Suchen und Filtern FAQ](ui-search-filter-faq.md)  
 [Speichern und personalisieren Sie Listenansichten](ui-views.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

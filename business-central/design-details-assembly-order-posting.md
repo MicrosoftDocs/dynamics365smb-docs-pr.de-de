@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Montageauftragsbuchung | Microsoft Docs'
 description: Die Montageauftragsbuchung basiert auf demselben Prinzip wie das Buchen ähnlicher Aktivitäten von Verkaufsaufträgen und von Produktionsverbrauch/-aushabe. Die Prinzipien werden jedoch insofern kombiniert, als Montageaufträge ihre eigene Buchungsbenutzeroberfläche, wie für Verkaufsaufträge, haben, während die tatsächliche Postenbuchung im Hintergrund als direkte Artikel- und Ressourcen Buch.-Blattbuchung, wie für den Fertigungsverbrauch, Ausgabe und Kapazität geschieht.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4a64e6bf09914ebd24e7d00ac54a286a33cd2026
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307444"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880640"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetails: Montageauftragsbuchung
 Die Montageauftragsbuchung basiert auf demselben Prinzip wie das Buchen ähnlicher Aktivitäten von Verkaufsaufträgen und von Produktionsverbrauch/-aushabe. Die Prinzipien werden jedoch insofern kombiniert, als Montageaufträge ihre eigene Buchungsbenutzeroberfläche, wie für Verkaufsaufträge, haben, während die tatsächliche Postenbuchung im Hintergrund als direkte Artikel- und Ressourcen Buch.-Blattbuchung, wie für den Fertigungsverbrauch, Ausgabe und Kapazität geschieht.  
@@ -33,14 +31,14 @@ Die folgenden Buch.-Blattbuchungen treten während der Montageauftragsbuchung au
 
 Das folgende Diagramm zeigt die Struktur von Artikel- und Ressourcenposten, die aus der Montageauftragsbuchung resultieren.  
 
-![Artikel, Ressource und Kapazitätsposten, die sich aus der Montageauftragsbuchung ergeben](media/design_details_assembly_posting_1.png "Artikel, Ressource und Kapazitätsposten, die sich aus der Montageauftragsbuchung ergeben")  
+![Element, Ressource und Kapazitätsposten, die sich aus der Montageauftragsbuchung ergeben](media/design_details_assembly_posting_1.png "Element, Ressource und Kapazitätsposten, die sich aus der Montageauftragsbuchung ergeben")  
 
 > [!NOTE]  
 >  Arbeitsplätze und Arbeitsplatzgruppen sind enthalten, um zu veranschaulichen, dass Kapazitätsposten aus der Produktion sowie aus der Montage erstellt werden.  
 
 Die folgenden Diagramm zeigt, wie Montagedaten bei der Buchung in Buchungsposten eingehen.  
 
-![Montage-verknüpfter Postenfluss bei der Buchung](media/design_details_assembly_posting_2.png "Montage-verknüpfter Postenfluss bei der Buchung")  
+![Montagebezogener Eintragsfluss beim Buchen](media/design_details_assembly_posting_2.png "Montagebezogener Eintragsfluss beim Buchen")  
 
 ## <a name="posting-sequence"></a>Buchen der Sequenz  
 Die Buchung eines Montageauftrags erfolgt in der folgenden Reihenfolge:  
@@ -52,7 +50,7 @@ In der folgenden Tabelle wird die Aktionsfolge illustriert.
 
 |Aktion|Description|  
 |------------|-----------------|  
-|Buchung initialisieren|1.  Führen Sie Vorprüfungen durch.<br />2.  Fügen Sie die Buchungsnummer hinzu, und ändern Sie den Montageauftragskopf.<br />3.  Geben Sie den Montageauftrag frei.|  
+|Buchung initialisieren|1. Führen Sie Vorprüfungen durch.<br />2. Fügen Sie die Buchungsnummer hinzu, und ändern Sie den Montageauftragskopf.<br />3. Geben Sie den Montageauftrag frei.|  
 |Buchung|<ol><li>Erstellen Sie den gebuchten Montageauftragskopf.</li><li>Kommentarzeilen kopieren.</li><li>Beitragsmontageauftragszeilen (Verbrauch):<br /><br /> <ol><li>Erstellen Sie ein Statusfenster, um den Montageverbrauch zu berechnen.</li><li>Erhalten Sie die Restmenge, auf der die Artikel Buch.-Blattzeile basiert.</li><li>Setzen Sie die verbrauchten und die verbleibenden Mengen zurück.</li><li>Für Montageauftragszeilen des Typs Artikel:<br /><br /> <ol><li>Füllen Sie die Felder in der Buch.-Blattzeile aus.</li><li>Übertragen Sie Reservierungen die Artikel Buch.-Blattzeile.</li><li>Buchen Sie die Artikel Buch.-Blattzeilen, um die Artikelposten zu erstellen.</li><li>Erstellen Sie Logistik Buch.-Blattzeilen, und buchen Sie sie.</li></ol></li><li>Für Montageauftragszeilen des Typs Ressource:<br /><br /> <ol><li>Füllen Sie die Felder in der Buch.-Blattzeile aus.</li><li>Buchen des Artikels Buch.-Blattzeile. Dies erstellt Kapazitätsposten.</li><li>Erstellen und buchen Sie Ressourcen-Buch.-Blattzeilen.</li></ol></li><li>Übertragen Sie Feldwerte aus der Montageauftragszeile in eine neu erstellte gebuchte Montageauftragszeile.</li></ol></li><li>Buchen Sie den Montageauftragskop (Ausgang):<br /><br /> <ol><li>Füllen Sie die Felder in der Buch.-Blattzeile aus.</li><li>Übertragen Sie Reservierungen die Artikel Buch.-Blattzeile.</li><li>Buchen Sie die Artikel Buch.-Blattzeilen, um die Artikelposten zu erstellen.</li><li>Erstellen Sie Logistik Buch.-Blattzeilen, und buchen Sie sie.</li><li>Setzen Sie die Montagemengen und die verbleibenden Mengen zurück.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
@@ -71,7 +69,7 @@ Die Entdeckungsfunktion auf Auftragsebene wird in Konvertierungsszenarien, der P
 
 Die folgende Grafik zeigt die Regulierungspostenstruktur und die Regulierung der Montagekosten.  
 
-![Montage-verknüpfter Postenfluss bei der Kostenanpassung](media/design_details_assembly_posting_3.png "Montage-verknüpfter Postenfluss bei der Kostenanpassung")  
+![Montagebezogener Eintragsfluss während der Kostenanpassung](media/design_details_assembly_posting_3.png "Montagebezogener Eintragsfluss beim Buchen")  
 
 ### <a name="performing-the-adjustment"></a>Preiskorrektur durchführen  
 Die Verteilung erkannter Regulierungen von Material- und Ressourcenkosten zu den Montageausgabeposten geschieht durch die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise**. Enthält die Funktion „Mehrstufiger Ausgleich“, die aus den folgenden zwei Elementen besteht:  
@@ -79,7 +77,7 @@ Die Verteilung erkannter Regulierungen von Material- und Ressourcenkosten zu den
 -   Nehmen Sie einen Montageauftrags-Ausgleich vor, welcher die Kosten aus dem Material- und Ressourcenverbrauch an den Montageausgangsposten weiterleitet. Zeilen 5 und 6 im nachstehenden Algorithmus sind dafür zuständig.  
 -   Nehmen Sie Ein-Niveau-Anpassungen vor, welche die Kosten für einzelne Artikel mithilfe ihrer Lagerabgangsmethode weiterleiten. Rubriken 9 und 10 im nachstehenden Algorithmus sind für dafür zuständig.  
 
-![Zusammenfassung des Kostenanpassungsregulierungsalgorithmus für Montagebuchung](media/design_details_assembly_posting_4.jpg "Zusammenfassung des Kostenanpassungsregulierungsalgorithmus für Montagebuchung")  
+![Zusammenfassung des Kostenanpassungsalgorithmus für die Montagebuchung](media/design_details_assembly_posting_4.jpg "Zusammenfassung des Kostenanpassungsalgorithmus für die Montagebuchung")  
 
 > [!NOTE]  
 >  Das Element „WIP-Regulierungen“ auf den Zeilen 7 und 8 ist für die Weiterleitung von Produktionsmaterial und Kapazitätsnutzung an die Ausgabe nicht abgeschlossener Fertigungsaufträge verantwortlich. Dies wird nicht verwendet, wenn Montageauftragskosten reguliert werden, da der Begriff WIP nicht auf Montage angewendet wird.  

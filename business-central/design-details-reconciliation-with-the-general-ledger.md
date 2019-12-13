@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Abgleich mit der Finanzbuchhaltung | Microsoft Docs'
-description: Dieses Thema beschreibt die Abstimmung mit der Fibu, wenn Sie Lagertransaktionen buchen, z. B.  Verkaufslieferungen, Fertigerzeugnisse oder negative Anpassungen.
-services: project-madeira
-documentationcenter: ''
+description: Dieses Thema beschreibt die Abstimmung mit der Fibu, wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Fertigerzeugnisse oder negative Anpassungen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d1d69b2aa03be59ec68e8198c794aca52ed7cb1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b87ff4652d8d73001c02c864efa638d80c8c9949
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306820"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880064"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetails: Abgleich mit der Finanzbuchhaltung
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgängen, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Artikelposten bzw. in den Wertposten festgehalten. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgänge, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Artikelposten bzw. in den Wertposten festgehalten.  
@@ -32,7 +30,7 @@ Wenn Sie diesen **Lagerreg. buchen** Batchauftrag ausführen, werden auf Basis d
 
 Die Buchungsdaten der Sachposten werden auf das Buchungsdatum des entsprechenden Wertpostens gesetzt, außer wenn der Wertposten in eine geschlossene Buchhaltungsperiode fällt. In diesem Fall wird der Wertposten übersprungen, und Sie müssen entweder die Finanzbuchhaltung-Einrichtung oder die Benutzereinrichtung ändern, um Buchungen in dem Datumsbereich zu ermöglichen.  
 
-Während Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, könnten Sie auf Fehler treffen, die ihre Ursache in fehlender Einrichtung oder nicht kompatibler Dimensionseinrichtung haben. Wenn die Stapelverarbeitung auf Fehler in der Dimensionseinrichtung stößt, setzt sie diese Fehler außer Kraft und verwendet die Dimensionen des Wertpostens. Bei anderen Fehlern überspringt die Stapelverarbeitung das Buchen der Wertposten und listet die Fehler am Ende des Berichts im Abschnitt **Übersprungene Artikel**auf. Um diese Artikel buchen zu können, müssen Sie zunächst die Fehler beheben. Wenn Sie eine Liste der Fehler anzeigen möchten, bevor Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, führen Sie den Bericht  Lagereinstandspreise buchen - Test aus. In dem Testbericht werden alle Fehler aufgelistet, die während der Testbuchung aufgetreten sind. Sie können die Fehler dann beheben und die Stapelverarbeitung zum Buchen der Lagerregulierung ausführen, ohne dass Posten übersprungen werden.  
+Während Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, könnten Sie auf Fehler treffen, die ihre Ursache in fehlender Einrichtung oder nicht kompatibler Dimensionseinrichtung haben. Wenn die Stapelverarbeitung auf Fehler in der Dimensionseinrichtung stößt, setzt sie diese Fehler außer Kraft und verwendet die Dimensionen des Wertpostens. Bei anderen Fehlern überspringt die Stapelverarbeitung das Buchen der Wertposten und listet die Fehler am Ende des Berichts im Abschnitt **Übersprungene Artikel**auf. Um diese Artikel buchen zu können, müssen Sie zunächst die Fehler beheben. Wenn Sie eine Liste der Fehler anzeigen möchten, bevor Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, führen Sie den Bericht Lagereinstandspreise buchen - Test aus. In dem Testbericht werden alle Fehler aufgelistet, die während der Testbuchung aufgetreten sind. Sie können die Fehler dann beheben und die Stapelverarbeitung zum Buchen der Lagerregulierung ausführen, ohne dass Posten übersprungen werden.  
 
 ## <a name="automatic-cost-posting"></a>Automatische Kostenbuchung  
 Um einzurichten, dass Kostenbuchung in der Finanzbuchhaltung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, wählen Sie das **Kosten automatisch buchen**-Kontrollkästchen auf der Seite **Bestand einrichten** aus. Das Buchungsdatum des Sachpostens ist das gleiche wie das Buchungsdatum des Artikelpostens.  
@@ -84,16 +82,16 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
     1. Die Interimskonten werden gelöscht. (Verkauf)  
     2. Kosten der verkauften Waren (COGS) werden gebucht. (Verkauf)  
 
-        ![Ergebnisse aus den Verkäufen, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_sales.png "Ergebnisse aus den Verkäufen, die zu GL-Konten gebucht werden")  
+        ![Ergebnisse der Verkaufsbuchung zu Sachkonten](media/design_details_inventory_costing_3_gl_posting_sales.png "Ergebnisse der Verkaufsbuchung zu Sachkonten")  
 5. Der Benutzer bucht einen Verbrauch von 150 Gliedern, der die Anzahl der Links ist, die verwendet werden, um eine Kette herzustellen. (Materialverbrauch)  
 
-    ![Ergebnisse aus den Materialien, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_material.png "Ergebnisse aus den Materialien, die zu GL-Konten gebucht werden")  
+    ![Ergebnisse der Materialbuchung zu Sachkonten](media/design_details_inventory_costing_3_gl_posting_material.png "Ergebnisse der Materialbuchung zu Sachkonten")  
 6. Diese Arbeitsplatzgruppe brauchte 60 Minuten, um die Kette herzustellen. Der Benutzer bucht die Verarbeitungskosten. (Verbrauch, Kapazität)  
 
     1. Die direkten Kosten werden gebucht. (Verbrauch, Kapazität)  
     2. Die indirekten Kosten werden berechnet und gebucht. (Verbrauch, Kapazität)  
 
-        ![Ergebnisse aus den Kapazitäten, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_capacity.png "Ergebnisse aus den Kapazitäten, die zu GL-Konten gebucht werden")  
+        ![Ergebnisse der Kapazitätsbuchung zu Sachkonten](media/design_details_inventory_costing_3_gl_posting_capacity.png "Ergebnisse der Kapazitätsbuchung zu Sachkonten")  
 7. Der Benutzer bucht die Soll-Kosten einer Kette. (Istmeldung)  
 8. Der Benutzer beendet den Fertigungsauftrag und führt die Stapelverarbeitung **Kostenanpassung Artikeleinträge** aus. (Istmeldung)  
 
@@ -102,7 +100,7 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
     3. Die indirekten Kosten (Gemeinkosten) werden vom Konto für indirekte Kosten zum Bestandskonto übertragen. (Istmeldung)  
     4. Dadurch ergibt sich ein Abweichungsbetrag von MW 157,00. Abweichungen werden nur für Standardkosntenartikel berechnet. (Istmeldung)  
 
-        ![Ergebnisse aus den Ergebnissen, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_output.png "Ergebnisse aus den Ergebnissen, die zu GL-Konten gebucht werden")  
+        ![Ergebnisse der Ausgabebuchung zu Sachkonten](media/design_details_inventory_costing_3_gl_posting_output.png "Ergebnisse der Ausgabebuchung zu Sachkonten")  
 
         > [!NOTE]  
         >  Der Einfachheit halber wird nur ein Abweichungskonto angezeigt. Real existieren fünf verschiedene Konten:  
@@ -115,7 +113,7 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
 
 9. Der Benutzer bewertet die Kette um von MW 150,00 auf MW 140,00. (Regulierung/Neubewertung/Rundung/Umlagerung)  
 
-    ![Ergebnisse aus den Anpassungen, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Ergebnisse aus den Anpassungen, die zu GL-Konten gebucht werden")  
+    ![Ergebnisse der Ausgleichsbuchung zu Sachkonten](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Ergebnisse der Ausgleichsbuchung zu Sachkonten")  
 
 Weitere Informationen über das Verhältnis zwischen den Kontotypen und den verschiedenen Arten von Wertposten finden Sie unter [Designdetails. Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)  
 

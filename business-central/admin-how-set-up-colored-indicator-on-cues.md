@@ -1,8 +1,6 @@
 ---
 title: Geben Sie Farbindikatoren an, um visuelle Signale über eine Farbaktivität für das Unternehmen oder individuelle Nutzer anzupassen | Microsoft Docs
 description: Als Administrator können Sie Stapel einrichten, die in den Rollencentern des Benutzers mit einem Indikator angezeigt werden, dessen Farbe sich basierend auf den Datenwerten in den Stapeln ändert.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,26 +10,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3c6cfb1c012a2991477a874f9611460c0bd8e4d8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6d9cecac1a7e1ac0c65542ee4e2928ac2a27412f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308164"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880952"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Einrichten eines farbigen Indikators auf Stapeln für das ganze Unternehmen oder einzelne Benutzer
 Als Administrator können Sie Stapel einrichten, die in den Rollencentern des Benutzers mit einem Indikator angezeigt werden, dessen Farbe sich basierend auf den Datenwerten in den Stapeln ändert.  
   
 Der Indikator erscheint als farbige Leiste an der oberen Kante der Stapelfläche. Es wird ein optisches Signal zu dem Status der Aktivität des Stapels angezeigt, dss Bedingungen (vorteilhaft oder ungünstig) angeben kann, und den Benutzer auffordern kann, Maßnahmen zu ergreifen. Wenn beispielsweise ein Stapel laufende Verkaufsrechnungen angezeigt, können Sie die Markierung so einrichten, dass sie grün (vorteilhaft) angezeigt wird, wenn die Gesamtanzahl laufender Verkaufsrechnungen unter 10 ist, und in Rot (ungünstig), wenn die Anzahl größer als 20 ist.  
   
-Auf der Seite **Stapel einrichten** können Sie Indikatoren für alle Stapel einrichten, die in der Unternehmensdatenbank verfügbar sind. Sie können die Indikatoren so einrichten wollen, dass für alle Benutzer im Unternehmen oder nur für einen einzigen Benutzer gelten. Die Indikatoreinstellungen auf der Seite**Stapeleinrichtung** werden als Standard-Indikatoreinstellungen verwendet. Wenn die **Stapeleinrichtung Endnutzer**-Seite den Benutzern zugänglich gemacht wird, können sie die Indikatoreinstellungen personalisieren, die Sie im **Stapeleinrichtung**-Fenster festlegen.  
+Auf der Seite **Stapel einrichten** können Sie Indikatoren für alle Stapel einrichten, die in der Unternehmensdatenbank verfügbar sind. Sie können die Indikatoren so einrichten wollen, dass für alle Benutzer im Unternehmen oder nur für einen einzigen Benutzer gelten. Die Indikatoreinstellungen auf der Seite **Stapeleinrichtung** werden als Standard-Indikatoreinstellungen verwendet. Wenn die **Stapeleinrichtung Endnutzer**-Seite den Benutzern zugänglich gemacht wird, können sie die Indikatoreinstellungen personalisieren, die Sie im **Stapeleinrichtung**-Fenster festlegen.  
   
 Um den Indikator einzurichten, geben Sie bis zu zwei Schwellenwerte an, die drei Bereiche von Datenwerten definieren (niedrig, mittel und hoch), die Sie jeweils mit einer anderen Farbe (oder einem anderen Format) anzeigen können.  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>So richten Sie farbige Indikatoren auf Stapeln ein.  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Stapel einrichten** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, die das Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Hinweiseinrichtung** ein und wählen Sie dann den entsprechenden Link.  
   
-     Die Seite **Stapel einrichten** wird angezeigt. Auf der Seite sind die Indikatoren aufgelistet, die derzeit in Stapeln eingerichtet sind. Indikatoren, die für alle Benutzer im Unternehmen gelten, haben ein leeres **Benutzername**-Feld. Indikatoren, die für einen bestimmten Benutzer gelten, enthalten den **Benutzernamen**im -Feld.  
+     Die Seite **Stapel einrichten** wird angezeigt. Auf der Seite sind die Indikatoren aufgelistet, die derzeit in Stapeln eingerichtet sind. Indikatoren, die für alle Benutzer im Unternehmen gelten, haben ein leeres **Benutzername**-Feld. Indikatoren, die für einen bestimmten Benutzer gelten, enthalten den **Benutzernamen** im -Feld.  
   
     > [!NOTE]  
     >  Wenn Sie einen Mandant-weiten Indikator einrichten und ein Benutzer diesen dann später ändert, dann erscheint ein separater Eintrag für den Indikator in der Liste für diesen Benutzer.  
@@ -51,11 +49,11 @@ Um den Indikator einzurichten, geben Sie bis zu zwei Schwellenwerte an, die drei
     |---------|---------------|  
     |**LowStyle**|Gibt die Farbe des Indikators an, wenn der Wert des Stapels unter dem Wert des **Schwellenwert 1**-Feldes ist.|  
     |**LowThreshold**|Gibt den Wert an, ab dem sich die Farbe des Indikators in die im Feld **Stil für mittleren Bereich** angegebene Farbe ändert.|  
-    |**MiddleStyle**|Gibt die Farbe des Indikators an, wenn der Wert des Stapels größer oder gleich dem Wert im Feld **Schwellenwert 1**, jedoch kleiner oder gleich dem Wert im Feld **Schwellenwert 2**  ist.|  
+    |**MiddleStyle**|Gibt die Farbe des Indikators an, wenn der Wert des Stapels größer oder gleich dem Wert im Feld **Schwellenwert 1**, jedoch kleiner oder gleich dem Wert im Feld **Schwellenwert 2** ist.|  
     |**HighThreshold**|Gibt den Wert an, ab dem sich die Farbe des Indikators in die im Feld **Stil für oberen Bereich** angegebene Farbe ändert.|  
     |**HighStyle**|Gibt die Farbe des Indikators an, wenn der Wert des Stapels über dem Wert des **Schwellenwert 2**-Feldes ist.|  
   
-     Die folgende Tabelle enthält die Farben, die den Optionen der  Felder**LowStyle**, **MiddleStyle** und **HighStyle** entsprechen.  
+     Die folgende Tabelle enthält die Farben, die den Optionen der Felder **LowStyle**, **MiddleStyle** und **HighStyle** entsprechen.  
   
     |  Option  |  Farbe  |  
     |----------|---------|  

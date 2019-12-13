@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Fertigungsauftragsbuchung | Microsoft Docs'
 description: Ähnlich wie bei der Montageauftragsbuchung werden die verbrauchten Komponenten und die verwendete Maschinenzeit konvertiert und als gefertigter Artikel ausgegeben, wenn der Fertigungsauftrag abgeschlossen wird.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e6379530eed2c0e3881dd951fbd09602360e5fad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9feb2f4f484d2c8769c133696287252663a96997
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306892"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878461"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetails: Fertigungsauftragsbuchung
 Ähnlich wie bei der Montageauftragsbuchung werden die verbrauchten Komponenten und die verwendete Maschinenzeit konvertiert und als gefertigter Artikel ausgegeben, wenn der Fertigungsauftrag abgeschlossen wird. Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md). Der Kostenfluss für Montageaufträge ist jedoch weniger Komplex, insbesondere da die Buchung der Montagekosten nur einmal geschieht und daher keinen WIP-Bestand generiert.
@@ -60,11 +58,11 @@ Das Buchen von Fertigungsaufträgen auf das Produktionslager beinhaltet Istmeldu
 
 Das folgende Diagramm zeigt die betroffenen Buchungsroutinen in Codeunit 22.  
 
-![Fertigungsauftragsbuchungsroutinen](media/design_details_inventory_costing_14_production_posting_1.png "Fertigungsauftragsbuchungsroutinen")  
+![Fertigungsauftrags-Buchungsroutinen](media/design_details_inventory_costing_14_production_posting_1.png "Fertigungsauftrags-Buchungsroutinen")  
 
 Das folgende Diagramm zeigt die Zuordnungen zwischen den resultierenden Posten und den Kostenträgern.  
 
-![Produktionspostenfluss](media/design_details_inventory_costing_14_production_posting_2.png "Produktionspostenfluss")  
+![Produktionseintragsfluss](media/design_details_inventory_costing_14_production_posting_2.png "Produktionseintragsfluss")  
 
 Der Kapazitätsposten beschreibt den Kapazitätsverbrauch in Bezug auf Zeiteinheiten, während der zugehörige Wertposten den Wert des speziellen Kapazitätsverbrauchs beschreibt.  
 
@@ -110,5 +108,5 @@ In Standard-Kostenumgebungen basiert die Kalkulation eines Fertigungsauftrags au
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)  
- [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)[Finanzen](finance.md)  
- [Arbeiten mit  Business Central](ui-work-product.md)
+ [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md) [Finanzen](finance.md)  
+ [Arbeiten mit Business Central](ui-work-product.md)

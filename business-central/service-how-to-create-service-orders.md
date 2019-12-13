@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Erstellen von Serviceaufträgen | Microsoft Docs'
 description: Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e27844b708982e76ce4dfcf15ec02f7190cd855
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311716"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877313"
 ---
 # <a name="create-service-orders"></a>Erstellen von Serviceaufträgen
 Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben.  
@@ -25,7 +23,7 @@ Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in d
 Wenn Sie einen Serviceauftrag erstellen, müssen Sie nur einige wenige Felder ausfüllen. Einige Felder sind optional und viele werden automatisch ausgefüllt, wenn Sie die damit verknüpften Felder ausfüllen.  
 
 ## <a name="to-create-a-service-order"></a>So erstellen Sie einen Serviceauftrag    
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceaufträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie einen neuen Serviceauftrag.  
 3. Geben Sie im Feld **Nr.** eine Nummer für den Serviceauftrag ein.  
 
@@ -40,7 +38,7 @@ Wenn Sie einen Serviceauftrag erstellen, müssen Sie nur einige wenige Felder au
 ## <a name="to-create-a-service-order-from-a-contract"></a>So erstellen Sie Serviceaufträge aus Verträgen  
 Serviceaufträge können für die Wartung von Serviceartikeln aus Verträgen angelegt werden.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicevertragvertrag erstellen** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Vertragsserviceaufträge erstellen** ein und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie auf dem Inforegister **Servicevertragskopf** die gewünschten Filter ein.  
 3. Füllen Sie auf dem Inforegister **Optionen** die Felder **Startdatum** und **Enddatum** mit dem Startdatum und dem Enddatum der Periode aus, für die Sie Serviceaufträge erstellen möchten. Die Stapelverarbeitung erzeugt Serviceaufträge mit Serviceartikeln aus Serviceverträgen mit einem Datum des Typs "Nächster geplanter Service am" innerhalb dieser Periode.  
 
@@ -54,14 +52,14 @@ Wenn ein Debitor ein Angebot akzeptiert hat, wandeln Sie dieses in einen Service
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sucht nach Zuordnungen für alle Serviceartikel des Serviceangebots mit dem Status **Aktiv**. Falls solche Zuordnungsposten gefunden werden, wird der Zuordnungsstatus auf **Neuzuordnung notwendig** aktualisiert. Wenn Sie die Serviceartikel in dem Serviceauftrag neu zuordnen, wird der Status der Zuordnungsposten, die für das Angebot erfasst wurden, auf **Erledigt** aktualisiert.   
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicevertragsangebote** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Servicevertragsangebote** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie das Serviceangebot aus, das Sie in einen Serviceauftrag umwandeln möchten.  
 3. Wählen Sie die **Auftrag erstellen** Aktion aus.  
 
 ## <a name="to-check-item-availability-for-one-or-more-orders"></a>So überprüfen Sie die Artikelverfügbarkeit für mindestens einen Auftrag  
 Sie können überprüfen, ob ein Artikel, den Sie für einen Auftrag benötigen, auf Lager ist, und wenn nicht, wann der Artikel auf Lager sein wird. Außerdem können Sie, wenn ein Artikel reservierbar ist, ihn reservieren, um sicherzustellen, dass er für Ihre Verwendung verfügbar ist. Sie können die Verfügbarkeit für einen bestimmten Auftrag oder für alle Aufträge überprüfen.  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Einsatzplanung** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Einsatzplanung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Führen Sie einen der folgenden Schritte aus:  
 
     * Für einen bestimmten Auftrag wählen Sie den Auftrag und dann die **Bedarfsübersicht** Aktion aus.  
@@ -81,7 +79,7 @@ Wenn Sie sicher sein müssen, dass ein Artikel für einen Serviceauftrag verfüg
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>So fügen Sie Zeilen basierend auf Standardservicecodes ein  
 Wenn Sie Standardservicecodes eingerichtet und Serviceartikelgruppen zugewiesen haben, können Sie die mit den Standardservicecodes verknüpften Standardzeilen in Servicebelege einfügen. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Standardservicecodes](service-how-setup-service-coding.md)   
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceaufträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie einen neuen Serviceauftrag.  
 3. Füllen Sie die Felder je nach Bedarf aus.  
 4. Geben Sie in die Serviceartikelzeilen die erforderlichen Informationen ein.  
@@ -99,7 +97,7 @@ Aufträge werden automatisch gelöscht, nachdem diese vollständig fakturiert wu
 
 Serviceaufträge werden aber nicht automatisch gelöscht, wenn die Gesamtmenge des Auftrags nicht aus dem eigentlichen Serviceauftrag, sondern von der Seite **Servicerechnung** gebucht wurde. In diesem Fall müssen Sie fakturierte Aufträge, die nicht gelöscht wurden, manuell löschen. Dazu führen Sie die Stapelverarbeitung **Fakturierte Serviceaufträge löschen** aus.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **In Rechnung gestellte Serviceaufträge löschen** ein, und wählen dann den zugehörigen Link aus. Das Anforderungsfenster des Batchauftragsseite **Servicebelegprotok. löschen** wird geöffnet.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Fakturierte Serviceaufträge löschen** ein und wählen Sie dann den entsprechenden Link. Das Anforderungsfenster des Batchauftragsseite **Servicebelegprotok. löschen** wird geöffnet.  
 2. Um die zu löschenden Aufträge auszuwählen, können Sie Filter in den Feldern **Nr.**, **Debitorennr.** und **Rech. an Deb.-Nr.** festlegen. Felder.  
 3. Wählen Sie **OK** aus.  
 

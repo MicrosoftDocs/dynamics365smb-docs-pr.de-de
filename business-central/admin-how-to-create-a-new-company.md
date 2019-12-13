@@ -1,8 +1,6 @@
 ---
 title: 'So geht es: Ein neues Unternehmen erstellen | Microsoft Docs'
 description: Um RapidStart Services zu verwenden, werden Tabellen und Seiten erstellt, aber sie enthalten keine Daten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 697613b170d3d7c2db33ab91acd660f2d09ddea1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bbd845f7974ce2d0b6ade27d290e1173fad42f37
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304588"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878889"
 ---
 # <a name="create-a-new-company"></a>Erstellen eines neuen Mandanten.
 Um RapidStart Services für [!INCLUDE[d365fin](includes/d365fin_md.md)] zu verwenden, müssen Sie zunächst einen neuen Mandanten erstellen, für den Sie eine Debitoren-Implementierung durchführen wollen. Bei der Erstellung eines neuen Mandanten werden die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Standardtabellen und -seiten erstellt, aber sie enthalten keine Daten.
@@ -27,14 +25,14 @@ Darüber hinaus können Sie bestimmte Einrichtungsdaten bei Ihrem Unternehmen an
 Beispielkonfigurationspakete, einschließlich landes-/regionspezifischer Dateien, sind im CRONUS-Demounternehmen enthalten. Verwenden Sie die folgende Vorgehensweisen, um das Beispielkonfigurationspaket mit einem neuen Mandanten zu verwenden.  
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Beispielskonfigurationspaket BASICCONFIG verwenden  
-1. Öffnen Sie das Unternehmen „CRONUS International Ltd.”. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).
-2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationspaket** ein, und wählen dann den zugehörigen Link aus.  
+1. Öffnen Sie das Unternehmen „CRONUS International Ltd.“. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).
+2. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
 3. Wählen Sie das BASICCONFIG-Paket von der Liste aus, und wählen **Exportpaket**.  
 
 Verwenden Sie das folgende Vorgehen, um einen neuen Mandanten zu erstellen, und verwenden Sie das BASICCONFIG-Paket als Teil des Prozesses.  
 
 ## <a name="to-create-a-new-company"></a>So erstellen Sie einen neuen Mandanten:  
-1. Erstellen eines neuen Mandanten. Weitere Informationen finden Sie unter [Neue Mandanten erstellen in[!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).
+1. Erstellen eines neuen Mandanten. Weitere Informationen finden Sie unter [Neue Mandanten erstellen in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).
 2. Vom RapidStart Services-Implementierungs-Rollencenter können Sie das Konfigurationspaket jetzt importieren, das Sie aus CRONUS International Ltd. exportierten.
 
 Nachdem Sie ein neues Unternehmen erstellt haben, werden einige Tabellen automatisch ausgefüllt, auch wenn keine Unternehmensvorlage angewendet wird. Beispielsweise können Sie die Standardcodes für Buchungen und Stapeltransaktionen auf der Seite **Quellencode** prüfen. Wenn Sie eine lokale Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] zur Verfügung stellen, sollten Sie diese Tabelle prüfen und auf sämtliche lokale sprachliche Aspekte achten.
@@ -75,6 +73,6 @@ Zusätzlich zu den Einrichtungsdatentabellen hat [!INCLUDE[d365fin](includes/d36
   
 
 ## <a name="see-also"></a>Siehe auch  
-[Konfigurationen für neue Mandanten übernehmen](admin-apply-configuration-to-new-companies.md)  
-[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
+[Konfigurationen für neue Unternehmen übernehmen](admin-apply-configuration-to-new-companies.md)  
+[Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

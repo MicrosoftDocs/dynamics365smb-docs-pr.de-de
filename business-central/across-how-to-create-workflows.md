@@ -1,8 +1,6 @@
 ---
 title: Erstellen von Workflows | Microsoft Docs
 description: Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ef58cf6729ed5608fdbc6ac24093941bf41dc82
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305452"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881192"
 ---
 # <a name="create-workflows"></a>Erstellen eines Workflows
 Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
@@ -27,13 +25,13 @@ Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die e
 Wenn Sie Workflows erstellen, können Sie die Schritte aus bestehenden Workflows oder aus Workflowvorlagen kopieren. Workflowvorlagen sind nicht-bearbeitbare Workflows, die Sie in der generischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] finden. Dem Code für von Microsoft hinzugefügte Workflowvorlagen ist „MS“ vorangestellt, z. B. „MS-PIW“. Weitere Informationen finden Sie unter [Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unterstützt werden, muss ein Microsoft-Partner diese implementieren, indem er den Anwendungscode anpasst.  
-  
+
 > [!NOTE]  
 >  Alle Benachrichtigungen über Workflowschritte werden über eine Aufgabenwarteschlange gesendet. Stellen Sie sicher, dass die Aufgabenwarteschlange in Ihrer Installation so eingerichtet wurde, dass Workflowbenachrichtigungen empfangen werden. Das Kontrollkästchen **Automatisch von NAS starten** muss aktiviert sein. Weitere Informationen finden Sie unter [Vorgehensweise: Projektwarteschlangen nutzen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md)  
 
 ## <a name="to-create-a-workflow"></a>So erstellen Sie einen Workflow  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Workflows** ein, und wählen dann den zugehörigen Link aus.  
-2. Wählen Sie die Aktion **Neu** aus. Die Seite **Workflow** wird geöffnet.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Workflows** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die Aktion **Neu**. Die Seite **Workflow** wird geöffnet.  
 3. Geben Sie im Feld **Code** maximal 20 Zeichen ein, um den Workflow zu identifizieren.  
 4. Um den Workflow von einer Workflowvorlage zu erstellen, wählen Sie auf der Seite **Workflows** die Aktion **Workflow von Vorlage erstellen**. Weitere Informationen finden Sie unter [Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Beschreiben Sie den Workflow im Feld **Beschreibung**.  
@@ -56,9 +54,11 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
 
     1.  Um Optionen für eine Workflowantwort inkl. des Sendens einer Benachrichtigung festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 
-        |Feld|Description|  
+        |Feld|Beschreibung|  
         |----------------------------------|---------------------------------------|  
+        |**Absender benachrichtigen**|Geben Sie an, ob der Genehmigungsanforderer anstatt des Genehmigungsanforderungsempfängers benachrichtigt wird. Wenn Sie das Kontrollkästchen aktivieren, wird das Feld **Benutzer-ID des Empfängers** deaktiviert, da stattdessen der Anforderer der Genehmigung, der Absender, benachrichtigt wird. Der Name der Workflowreaktion ändert sich entsprechend zu **Benachrichtigung erstellen für &lt;Absender&gt;**. Wenn das Kontrollkästchen nicht aktiviert ist, lautet der Name der Workflowreaktion **Benachrichtigung erstellen für &lt;Benutzer&gt;**.
         |**Benutzer-ID des Empfängers**|Geben Sie den Benutzer an, an den Benachrichtigung gesendet werden muss. Hinweis: Diese Option ist nur für Workflowantworten mit einem Platzhalter für einen bestimmten Benutzer verfügbar. Für Workflowantworten ohne Platzhalter für Benutzer, wird der Benachrichtigungsempfänger in der Regel von der Genehmigungsbenutzereinrichtung definiert.|  
+        |**Benachrichtigungseintragstyp**|Gibt an, ob die Workflowbenachrichtigung durch eine Datensatzänderung, eine Genehmigungsanforderung oder übergebene fällige Daten ausgelöst wird.|
         |**Zielseite für Link**|Geben Sie eine andere Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] an, die über den Link in der Benachrichtigung anstelle der Standardseite geöffnet werden soll.|  
         |**Benutzerdefinierter Link**|Geben Sie die URL eines Links an, den Sie zusätzlich zu dem Link, der auf die Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] verweist, der Benachrichtigung hinzufügen möchten.|  
     2.  Um Optionen für eine Workflowantwort inkl. des Erstellens von einer Genehmigungsanforderung festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
@@ -91,7 +91,7 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
 >  Aktivieren Sie keinen Workflow, bevor Sie sicher sind, dass der Workflow abgeschlossen wurde und dass die entsprechenden Workflowschritte beginnen können.  
 
 > [!TIP]  
->  Um Beziehungen zwischen Tabellen anzuzeigen, die im Arbeitsablauf verwendet werden, aktivieren Sie ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") und geben dann **Workflow – Tabellenrelationen** ein.  
+>  Um Beziehungen zwischen Tabellen anzuzeigen, die in Workflows verwendet werden, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Sie wünschen“ geöffnet wird](media/ui-search/search_small.png "TTeilen Sie mir mit, was Sie tun möchten.“), und geben Sie dann **Workflow – Tabellenrelationen** ein.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)   
@@ -99,8 +99,7 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
 [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)   
 [Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)   
 [Löschen eines Workflows](across-how-to-delete-workflows.md)   
-[Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+[Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsgenehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Einrichten von Workflows](across-set-up-workflows.md)   
 [Verwenden von Workflows](across-use-workflows.md)   
 [Workflow](across-workflow.md)      
-

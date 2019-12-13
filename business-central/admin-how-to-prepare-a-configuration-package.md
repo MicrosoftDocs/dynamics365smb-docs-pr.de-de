@@ -1,8 +1,6 @@
 ---
 title: So bereiten Sie ein Konfigurations-Paket vor | Microsoft Docs
 description: Wenn Sie einen neues Mandant konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f74b3472b081d7968336fd16b6ef6addccff861
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307996"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879226"
 ---
 # <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
 Wenn Sie einen neues Mandant konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data). 
@@ -32,7 +30,7 @@ Vergewissern Sie sich, dass Sie sich im RapidStart Services-Implementierungs-Rol
 >  Sie können ein Konfigurationspaket importieren, das aus einer Datenbank exportiert wurde, die ein anderes Schema als die Zieldatenbank hat. Allerdings werden Tabellen oder Felder im Konfigurationspaket, die in der Zieldatenbank fehlen, nicht importiert. Tabellen mit unterschiedlichen Primärschlüsseln und Felder mit unterschiedlichen Datentypen werden ebenfalls nicht erfolgreich importiert. Wenn das Konfigurationspaket beispielsweise die Tabelle **Debitor 50000** mit dem Primärschlüssel **Code20** enthält und die Datenbank, in die Sie das Paket importieren die Tabelle **Debitor Bankkonto 50000** mit dem Primärschlüssel **Code20 + Code 20** enthält, werden diese Daten nicht importiert.  
 
 ## <a name="to-create-a-configuration-package"></a>So erstellen Sie ein Konfigurationspaket.  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationspaket** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die restlichen Felder auf dem Inforegister **Allgemein** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Um die Konfigurationsfragebögen, Konfigurationsvorlagen und Konfigurationsarbeitsblatttabellen aus dem Paket auszuschließen, wählen Sie das Kontrollkästchen **Konfigurationstabellen ausschließen**. Andernfalls werden diese Tabellen automatisch der Liste der Pakettabellen hinzugefügt, wenn Sie das Paket exportieren.  
@@ -79,7 +77,7 @@ Sie können die Datei mit einem Namen speichern, der Ihnen sinnvoll ist, aber Si
 ### <a name="to-copy-a-configuration-package"></a>So kopieren Sie ein Konfigurationspaket.  
 Nachdem Sie ein Paket erstellt haben, das die meisten Ihrer Anforderungen erfüllt, können Sie es als Basis für die Erstellung von ähnlichen Paketen verwenden. Dies kann die Implementierungszeit verkürzen und erhöht den Wiederholbarkeitsaspekt von RapidStart Services.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationspaket** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie ein Paket aus der Liste und wählen sie die Aktion **Pakt kopieren** aus.  
 3. Geben Sie in dem Feld **Neuer Paketcode** einen Code für das neue Paket ein.  
 4. Aktivieren Sie das Kontrollkästchen **Daten kopieren**, wenn Sie auch Datenbankdaten aus dem vorhandenen Paket kopieren möchten.  
@@ -88,7 +86,7 @@ Nachdem Sie ein Paket erstellt haben, das die meisten Ihrer Anforderungen erfül
 ## <a name="to-customize-a-configuration-package"></a>So passen Sie ein Konfigurationspaket an.
 Verwenden Sie das Konfigurationsarbeitsblatt, um Informationen zu sammeln und zu kategorisieren, die Sie verwenden möchten, um einen neuen Mandanten zu konfigurieren und Tabellen auf eine logische Art anzuordnen. Die Formatierung im Arbeitsblatt basiert auf einer einfachen Hierarchie: Bereiche enthalten Gruppen, die wiederum Tabellen enthalten. Bereiche und Gruppen sind optional, sie sind jedoch notwendig, wenn Sie in der Lage sein möchten, eine Übersicht des Konfigurationsprozesses im RapidStart Services-Rollencenter anzuzeigen.
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie im Feld **Zeilenart** die Option **Bereich** aus. Geben Sie im Feld **Name** einen beschreibenden Namen ein.  
 3.  Wählen Sie im Feld **Zeilenart** die Option **Gruppe** aus. Geben Sie im Feld **Name** einen beschreibenden Namen ein.  
 4.  Wählen Sie im Feld **Zeilenart** die Option **Tabelle** aus. Geben Sie im Feld **Tabellen-ID** die Tabelle ein, die im Arbeitsblatt berücksichtigt werden soll.  
@@ -105,7 +103,7 @@ Nachdem Sie die Tabellen festgelegt haben, die Sie als Teil der Konfiguration be
 > [!NOTE]  
 >  Sie können ein Paket auch direkt erstellen und ihm Tabellen hinzufügen. Weitere Informationen finden Sie unter [So erstellen Sie ein Konfigurationspaket](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie im Konfigurationsarbeitsblatt eine Zeile oder mehrere Zeilen aus, die Sie einem Konfigurationspaket zuordnen möchten und wählen Sie **Paket zuweisen**.  
 3.  Wählen Sie ein Paket in der Liste aus, oder wählen Sie die **Neu** Aktion aus, um ein Paket neu zu erstellen, und wählen Sie dann die Schaltfläche **OK** aus.  
 
@@ -115,7 +113,7 @@ Nachdem Sie die Tabellen festgelegt haben, die Sie als Teil der Konfiguration be
 ## <a name="to-review-or-customize-existing-database-data"></a>So können Sie vorhandene Datenbank-Daten prüfen und anpassen.
 Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die verfügbaren Datenbankdaten anzeigen und anpassen, um Ihren Debitoranforderungen entsprechen. Die Datenbanktabelle muss eine zugeordnete Seite haben.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.
 2. Identifizieren Sie im Konfigurationsarbeitsblatt die Tabellen, deren Daten Sie anzeigen oder anpassen möchten.  
 
     > [!NOTE]  
@@ -128,7 +126,7 @@ Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die ve
 Nachdem Sie alle Ihre Setupinformationen untersucht und getestet haben, können Sie mit dem Kopieren von Daten in Ihre Produktionsumgebung fortfahren. Erstellen Sie in derselben Datenbank einen neuen Mandanten.
 
 1. Öffnen und initialisieren Sie den neuen Mandanten.  
-2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
+2. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 3. Wählen Sie **Daten vom Mandanten kopieren**.  
 4. Wählen Sie auf der Seite **Mandantendaten kopieren** das Feld **Kopieren von** aus. Die Seite **Mandanten** wird geöffnet.  
 5. Wählen Sie die Version aus, den Sie kopieren möchten, und wählen Sie die Schaltfläche **OK**. Ein Liste der im Konfigurationsarbeitsblatt ausgewählten Tabellen wird geöffnet. Nur Tabellen, die Datensätze enthalten, sind in dieser Übersicht enthalten.
@@ -137,5 +135,5 @@ Nachdem Sie alle Ihre Setupinformationen untersucht und getestet haben, können 
 ## <a name="see-also"></a>Siehe auch  
 [Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)  
 [Unternehmenskonfiguration einrichten](admin-set-up-company-configuration.md)  
-[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
+[Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

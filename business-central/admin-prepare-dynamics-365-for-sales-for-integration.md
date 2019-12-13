@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 09edf4a84720085d0accb008b0ae29f47fa38f60
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775307"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808769"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration mit Dynamics 365 Sales
 Die Rolle des Verkäufers wird häufig als eine der am meisten nach außen gerichteten Tätigkeiten in einem Unternehmen angesehen. Es kann jedoch für Verkäufer hilfreich sein, einen Blick in das Innere des Unternehmens zu werfen und zu erfahren, was am anderen Ende passiert. Durch die Integration von [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie Ihren Verkäufern diese Einblicke ermöglichen, indem Sie es ihnen ermöglichen, diese Informationen in [!INCLUDE[d365fin](includes/d365fin_md.md)] abzurufen, während sie in [!INCLUDE[crm_md](includes/crm_md.md)] arbeiten. Bei der Vorbereitung eines Verkaufsangebots kann es zum Beispiel hilfreich sein, zu wissen, ob ausreichend Lagerbestand vorhanden ist, um die Bestellung zu erfüllen. Weitere Informationen finden Sie unter [Verwenden von Dynamics 365 Sales von Business Central](marketing-integrate-dynamicscrm.md).
@@ -34,7 +34,7 @@ Die folgenden Schritte bieten einen Überblick über die Schritte für die Integ
 > [!Note]  
 > Für diese Aufgaben ist die Sicherheitsrolle des **Systemadministrators** in [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)] erforderlich.  
 
-1. Im Office 365 Admin Center richten Sie ein Benutzerkonto für die Verknüpfung mit und die Synchronisierung von Daten mit [!INCLUDE[crm_md](includes/crm_md.md)] ein. Weitere Informationen finden Sie unter [Einrichten des Benutzerkontos für die Integration in Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
+1. Im Microsoft 365 Admin Center richten Sie ein Benutzerkonto für die Verknüpfung mit und die Synchronisierung von Daten mit [!INCLUDE[crm_md](includes/crm_md.md)] ein. Weitere Informationen finden Sie unter [Einrichten des Benutzerkontos für die Integration in Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 2. Weisen Sie Lizenzen für [!INCLUDE[crm_md](includes/crm_md.md)] den [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzern zu, die die integrierten Apps verwenden werden.
 
@@ -58,9 +58,9 @@ Dieses Konto wird nur einmal während des Setups verwendet. Nachdem die Lösung 
 
 Zusätzlich zum Anpassen von [!INCLUDE[crm_md](includes/crm_md.md)] erstellt die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Integrationslösung auch folgende Rollen in [!INCLUDE[crm_md](includes/crm_md.md)] für die Integration:
 
-* **Integrationsadministrator** – Ermöglicht es Benutzern, die Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] zu verwalten. Dies wird normalerweise nur dem Benutzerkonto für die Synchronisierung zugeordnet.  
-* **Integrationsbenutzer** – Ermöglicht es Benutzern, auf synchronisierte Daten zuzugreifen. Dies wird normalerweise dem Benutzerkonto für die Synchronisierung und jedem anderen Benutzer zugeordnet, der die synchronisierten Daten abrufen oder darauf zugreifen muss.
-* **Produktverfügbarkeitsbenutzer** – Ermöglicht es Benutzern, die Produktverfügbarkeit in [!INCLUDE[d365fin](includes/d365fin_md.md)] über [!INCLUDE[crm_md](includes/crm_md.md)] abzufragen.
+* **Integrationsadministrator** – Ermöglicht es Benutzern, die Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] zu verwalten. Dies wird normalerweise nur dem Benutzerkonto für die Synchronisierung zugeordnet.  
+* **Integrationsbenutzer** – Ermöglicht es Benutzern, auf synchronisierte Daten zuzugreifen. Dies wird normalerweise dem Benutzerkonto für die Synchronisierung und jedem anderen Benutzer zugeordnet, der die synchronisierten Daten abrufen oder darauf zugreifen muss.
+* **Produktverfügbarkeitsbenutzer** – Ermöglicht es Benutzern, die Produktverfügbarkeit in [!INCLUDE[d365fin](includes/d365fin_md.md)] über [!INCLUDE[crm_md](includes/crm_md.md)] abzufragen.
 
 Weitere Informationen zu den einzelnen Rollen, z. B. zu Berechtigungen und Zugriffsebenen, finden Sie unter [Einrichten von Benutzerkonten für die Integration mit Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 

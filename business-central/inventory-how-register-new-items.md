@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 521ebb4ec1a1687ea4263f8f181dc32c69f2ad63
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3cb9ffd6dadaeba7aab782c0bd8f45d3f4aa5387
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309881"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878341"
 ---
 # <a name="register-new-items"></a>Neue Artikel registrieren
 Artikel sind die Basis Ihres Unternehmens, die Waren oder Dienstleistungen, mit denen Sie handeln. Jeder Artikel muss als Artikelkarte registriert werden.
@@ -34,10 +34,12 @@ Sie können Ihren Debitoren bestimmte Artikel als Dienstleistung anbieten, die S
 > [!NOTE]  
 > Wenn für verschiedene Artikelarten Artikelvorlagen existieren, öffnet sich eine Seite, aus dem Sie eine entsprechende Artikelvorlage auswählen können, sobald eine neue Artikelkarte erstellt wird . Wenn nur eine Artikelvorlage vorhanden ist, verwenden neue Artikelkarten immer diese Vorlage.
 
-Im folgenden Verfahren wird erläutert, wie Sie eine Objektkarte von Grund auf neu erstellen. Sie können auch neue Objektkarten erstellen, indem Sie vorhandene kopieren. Weitere Informationen finden Sie unter [Kopieren Sie vorhandene Elemente, um neue Elemente zu erstellen](inventory-how-copy-items.md).
+Im folgenden Verfahren wird erläutert, wie Sie eine Objektkarte von Grund auf neu erstellen. Sie können auch neue Objektkarten erstellen, indem Sie vorhandene kopieren. Weitere Informationen finden Sie unter [Kopieren Sie vorhandene Elemente, um neue Elemente zu erstellen](inventory-how-copy-items.md).<br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx]
 
 ## <a name="to-create-a-new-item-card"></a>So erstellen Sie eine neue Artikelkarte
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Artikel** die Aktion **Neu** aus.
 
     Wenn nur eine Artikelvorlage vorhanden ist, öffnet sich eine neue Artikelkarte bei der einige Felder mit Informationen aus der Vorlage ausgefüllt sind.
@@ -48,9 +50,9 @@ Im folgenden Verfahren wird erläutert, wie Sie eine Objektkarte von Grund auf n
 > [!NOTE]
 > Die Wahl der **Kostenmethode** legt fest, wie der Einstandspreis berechnet wird, indem Annahmen über die physische Bewegung der Artikel durch Ihr Unternehmen gemacht werden. Fünf Lagerabgangsmethoden stehen, abhängig von der Art des Artikels zur Verfügung. Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden".](design-details-costing-methods.md)
 >
-> Wenn Sie die **Durchschnitt** verwenden, dann werden die Einstandskosten als Durchschnittskosten nach dem Kauf berechnet. Bestand wird mit der Annahme bewertet, dass aller Bestand gleichzeitig verkauft wird. Für Artikel, die die Lagerabgangsmethode verwenden, können Sie das Feld **Einstandspreis** auf der Artikelkarte wählen, um die Historie von Transaktionen anzuzeigen, denen der d**urchschnittliche Einstandspreis** berechnet wird
+> Wenn Sie die **Durchschnitt** verwenden, dann werden die Einstandskosten als Durchschnittskosten nach dem Kauf berechnet. Bestand wird mit der Annahme bewertet, dass aller Bestand gleichzeitig verkauft wird. Für Artikel, die die Lagerabgangsmethode verwenden, können Sie das Feld **Einstandspreis** auf der Artikelkarte wählen, um die Historie von Transaktionen anzuzeigen, denen der **durchschnittliche Einstandspreis** berechnet wird
 
-Im Inforegister **Preise und Buchungen** können Sie spezielle Preise oder Rabatte anzeigen, die Sie für den Artikel gewähren, wenn bestimmte Kriterien, wie z.B. Debitor, Mindestbestellmenge oder Enddatum erfüllt sind. Jede Zeile stellt einen Sonderpreis oder einen Zeilenrabatt dar. Jede Spalte stellt ein Kriterium an, das gelten muss, um den Sonderpreis, den Sie im **VK-Preis**-Feld eingeben, oder den Zeilenrabatt, den Sie im **Zeilenrabatt**-Feld eingeben, zu rechtfertigen. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Rabatt und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
+Sie können Sonderpreise oder Rabatte anzeigen oder bearbeiten, die Sie für den Artikel gewähren, wenn bestimmte Kriterien, wie z.B. Debitor, Mindestbestellmenge oder Enddatum erfüllt sind. Dazu wählen Sie die Aktionen **Sonderpreise festlegen** oder **Sonderrabatte festlegen** aus. Jede Zeile zum Beispiel auf der Seite **Verkaufspreise** repräsentiert einen Sonderpreis. Jede Spalte stellt ein Kriterium dar, das angewendet werden muss, um einem Debitor den Sonderpreis zu gewähren, den Sie in das Feld **VK-Preis** auf der Seite **Verkaufspreise** eingeben. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Rabatt und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
 
 Der Artikel ist nun erfasst und die Debitorenkarte ist bereit, in Einkaufs- und Verkaufsbelegen verwendet zu werden.
 
@@ -68,7 +70,7 @@ Die Artikelvorlage wird der Liste von Artikelvorlagen hinzugefügt, damit Sie di
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>So richten Sie mehrere Kreditoren für einen Artikel ein  
 Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen Sie die benötigten Informationen für jeden Kreditor eingeben. Dies umfasst z. B. Preise, Lieferzeit, Rabatte usw.  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Bearbeiten** aus.  
 3.  Wählen Sie die Aktion **Kreditoren** aus.  
 4.  Wählen Sie das Feld **Kreditorennr.**, und wählen Sie den Kreditor aus, den Sie für den Artikel einrichten möchten.  

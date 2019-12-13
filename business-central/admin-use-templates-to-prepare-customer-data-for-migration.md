@@ -1,8 +1,6 @@
 ---
 title: Debitorendatenmigration vorbereiten | Microsoft Docs
 description: Nachdem Sie die Einrichtungsdaten in die neue Datenbank importiert und dort angewendet haben, können Sie mit dem Migrieren der vorhandenen Stammdaten des Debitors beginnen, beispielsweise Artikel- und Debitorennummern sowie Namen. Um sicherzustellen, dass diese Daten schnell und genau im neuen Mandanten erstellt werden, sollten Sie Vorlagen verwenden, um die Daten zu strukturieren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f2289ff66e3d95a0df16b2e51b72719b56a20eda
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307765"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896085"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Vorgehensweise: Migrieren von Debitorendaten
 Nachdem Sie die Einrichtungsdaten in die neue Datenbank importiert und dort angewendet haben, können Sie mit dem Migrieren der vorhandenen Stammdaten des Debitors beginnen, beispielsweise Artikel- und Debitorennummern sowie Namen. Um sicherzustellen, dass diese Daten schnell und genau im neuen Mandanten erstellt werden, sollten Sie Vorlagen verwenden, um die Daten zu strukturieren.  
@@ -34,9 +32,12 @@ Sie können jedoch eine Vorlagenstruktur erstellen und diese auf jede beliebige 
 > [!TIP]  
 >  Sie können auch Datenvorlagen für tägliche Arbeitsgänge verwenden, um neue Datensätze zu erstellen, die auf Vorlagen basieren. Diese Datenvorlagen funktionieren nur für die unterstützten Stammdatentabellen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).  
 
-Wenn Sie Debitorendaten aus einer Datei importieren, z. B. für Artikel, werden die Daten, die Sie angegeben haben, aus der verknüpften Datenvorlage entnommen. Wenn Sie einen neuen Artikel erstellen, geben Sie nur allgemeine Informationen wie Artikelname, Beschreibung und Preis ein und erfassen dann die restlichen Pflichtfelddaten aus einer ausgewählten Datenvorlage.  
+Wenn Sie Debitorendaten aus einer Datei importieren, z. B. für Artikel, werden die Daten, die Sie angegeben haben, aus der verknüpften Datenvorlage entnommen. Wenn Sie einen neuen Artikel erstellen, geben Sie nur allgemeine Informationen wie Artikelname, Beschreibung und Preis ein und erfassen dann die restlichen Pflichtfelddaten aus einer ausgewählten Datenvorlage.
 
 Wenn Sie einen neuen Masterdatensatzes wie eine Debitorenkarte erstellen, sind einige Felder zwingend und müssen ausgefüllt werden. Sie können die meisten Pflichtfelder wie Buchungsgruppen und Zahlungsbedingungen gruppieren, damit die Erstellung von Masterdatensätzeb einfacher und stabiler ist,. Beispielsweise können Sie Pflichtfelder für Tabelle 18, **Debitor**, unter der Art **Inland**, **Ausland** oder **Exportieren** gruppieren.
+
+> [!NOTE]
+> Felder vom Typ Blob können nicht mithilfe von Excel exportiert/importiert werden.
 
 ## <a name="to-select-a-data-template"></a>So wählen Sie eine Datenvorlage aus
 Wenn Sie eine vorhandene Datenvorlage auswählen, müssen Sie bewerten, ob die Vorlagen, die für den neuen Mandanten erstellt wurden, für den Debitoren ausreichen. Sehen Sie sich die bereitgestellten Felder und Werte an, um zu ermitteln, welche Vorlagen sich für ein neues Unternehmen eignen.  
@@ -44,7 +45,7 @@ Wenn Sie eine vorhandene Datenvorlage auswählen, müssen Sie bewerten, ob die V
 > [!TIP]  
 >  Datenvorlagen ermöglichen jedoch auch das schnelle Erstellen neuer Datensätze. Verwenden Sie diese für eine schnellere und genauere Erstellung von Daten. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsvorlage** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsvorlagen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Config. Vorlagen** wählen Sie aus der Liste eine Datenvorlage, und wählen die **Bearbeiten** Aktion aus.  
 
 Wenn die Standardvorlagen nicht Ihren Anforderungen entsprechen, können Sie neue Vorlagen erstellen oder einer vorhandenen Vorlage Felder hinzufügen. Wenn die Standardvorlagen ausreichen, können Sie sie zum Erstellen von Datensätzen verwenden, die auf Stammdatenvorlagen basieren.
@@ -61,7 +62,7 @@ Sie können eine neue Datenvorlage schnell erstellen, indem Sie Informationen au
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie das Feld **Code** aus.
 4. Wählen Sie die Aktion **Von Konfigurationsvorlage kopieren** aus.
-5. Auf der Seite **Konfiguration-Vorlagen** wählen Sie eine vorhandene Vorlage aus, um sie zu kopieren und wählen Sie dann die Schaltfläche **OK** aus.
+5. Auf der Seite **Konfigurationsvorlagen** wählen Sie eine vorhandene Vorlage aus, um sie zu kopieren und wählen Sie dann die Schaltfläche **OK** aus.
 
 Die Tabellen-ID, der Tabellenname und die vorhandenen Datenvorlage werden in die neue Vorlage eingefügt.
 
@@ -89,7 +90,7 @@ Die Tabellen-ID, der Tabellenname und die vorhandenen Datenvorlage werden in die
 ## <a name="to-export-to-a-template-in-excel"></a>Exportieren einer Vorlage in Excel
 Sie können schnell eine Excel-Arbeitsmappe erstellen, die als Vorlage dient und auf der Struktur einer vorhandenen Datenbanktabelle basiert. Sie können die Vorlage dann verwenden, um Debitorendaten in einem konsistenten Format für den späteren Import in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erfassen.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.
 2. Fügen Sie der Liste eine Tabelle hinzu, oder wählen Sie eine vorhandene Tabelle aus. Weitere Informationen finden Sie unter [Verwalten von Mandanten-Konfiguration in einem Arbeitsblatt](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Definieren Sie die Felder aus der Tabelle, die in der Vorlage enthalten sein sollen.
 4. Wählen Sie die Aktion **Vorlageninhalt exportieren** aus.
@@ -114,11 +115,11 @@ Sie können die Struktur der Daten verwenden, die in den Datenvorlagen enthalten
 
 Die folgenden Schritte veranschaulichen, wie eine Artikelkarte aus einer Artikeldatenvorlage erstellt wird. Mit demselben Verfahren können Sie einen Datensatz aus jeder beliebigen Datenvorlage erstellen.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsvorlage** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsvorlagen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die entsprechende **Element**-Vorlage und wählen Sie dann die Aktion **Bearbeiten** aus. Weitere Informationen finden Sie unter [So erstellen Sie eine Datenvorlage](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Wählen Sie die Aktion **Instanz erstellen** aus. Eine Artikelkarte wird erstellt.  
 4. Wählen Sie die Schaltfläche **OK** aus.  
-5. Um die neue Einheitenkarte zu prüfen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Einheiten** ein, und wählen dann den zugehörigen Link aus.  
+5. Um die neue Elementkarte zu überprüfen, wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 6. Öffnen Sie eine neue Artikelkarte.  
 7. Erweitern Sie verschiedene Inforegister und vergewissern Sie sich, dass die Informationen korrekt in ihnen erstellt wurden.  
 
@@ -137,6 +138,6 @@ Das folgende Verfahren basiert auf einer Debitorenkarte.
 Die Standardwerte aus der ausgewählten Debitorenvorlage werden in die Debitorenkarte eingefügt.
 
 ## <a name="see-also"></a>Siehe auch  
-[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
+[Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Registriert einen neuen Debitor.](sales-how-register-new-customers.md)

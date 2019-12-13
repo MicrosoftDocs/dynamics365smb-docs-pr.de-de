@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: b96b5cbff2ec182ab1a7254ee3384a6d1869e3c4
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775427"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809033"
 ---
 # <a name="manage-profiles"></a>Profile verwalten
 Alle Benutzer von [!INCLUDE[d365fin](includes/d365fin_md.md)] erhalten ein Profil, das ihre Geschäftsrolle, die Abteilung, in der sie arbeiten, oder eine andere Kategorisierung widerspiegelt. Mithilfe von Profilen können Administratoren zentral definieren und verwalten, welche Benutzertypen auf der Benutzeroberfläche angezeigt und ausgeführt werden können, damit sie ihre Geschäftsaufgaben effizient ausführen können.
@@ -22,7 +22,7 @@ Alle Benutzer von [!INCLUDE[d365fin](includes/d365fin_md.md)] erhalten ein Profi
 
 Als Administrator erstellen und verwalten Sie Profile auf der **Profile (Rollen)** Seite. Jedes Profil verfügt über eine Karte, auf der Sie verschiedene Einstellungen für die zugehörige Rolle verwalten können, z. B. den Rollennamen, die Benutzereinstellungen und das vom Profil verwendete Rollencenter. Weitere Informationen zu Benutzereinstellungen und Rollencentern finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md).
 
-Bevor Sie Benutzerprofile verwalten können, müssen die Benutzer erstellt und über das Office 365 Administratoren Center hinzugefügt werden. Anschließend können Sie jedem Benutzer oder jeder Benutzergruppe Berechtigungen zuweisen, um zu definieren, welche Funktionen angezeigt und/oder bearbeitet werden dürfen. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).
+Bevor Sie Benutzerprofile verwalten können, müssen die Benutzer erstellt und über das Microsoft 365 Admin Center hinzugefügt werden. Anschließend können Sie jedem Benutzer oder jeder Benutzergruppe Berechtigungen zuweisen, um zu definieren, welche Funktionen angezeigt und/oder bearbeitet werden dürfen. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Seiten-Anpassung
 Sie können die Seitenlayouts für ein Profil so anpassen, dass alle Benutzer, denen das Profil zugewiesen wurde, die angepassten Seiten sehen. Als Administrator passen Sie Seiten an, indem Sie dieselben Funktionen verwenden wie Benutzer, wenn sie Personalisierungen vornehmen. Weitere Informationen finden Sie unter [Gewusst wie: Seiten für Profile anpassen](ui-personalization-manage.md).

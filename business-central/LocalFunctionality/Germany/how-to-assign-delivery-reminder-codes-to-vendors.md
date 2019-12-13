@@ -1,8 +1,6 @@
 ---
 title: Vorgehensweise beim Zuweisen von Lieferbenachrichtigungscodes zu Kreditoren
 description: Um Lieferbenachrichtungen für überfällige Einkäufe zu aktivieren, müssen Sie Kreditoren Lieferbenachrichtigungsbedingungen zuweisen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 29daedcc735a1f2bf97c64058808d718d86c7a18
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6804bdf1ecb6fb2672b47b108157ac36b3b512aa
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301329"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878184"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors"></a>So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen
 Um Lieferbenachrichtungen für überfällige Einkäufe zu aktivieren, müssen Sie Kreditoren Lieferbenachrichtigungsbedingungen zuweisen. Weitere Informationen finden Sie unter [Lieferbenachrichtigungen](delivery-reminders.md).  
 
 ## <a name="to-assign-delivery-reminders-codes-to-vendors"></a>So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **Kreditoren** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie den Inventurauftrag aus, für den Sie eine Lieferbenachrichtigung erstellen möchten und klicken Sie auf **Bearbeiten**.  
 3.  Wählen Sie im Inforegister **Lieferung** im Feld **Lieferbenachrichtigungsbedingungen** einen Lieferbenachrichtigungsbedinungscode für den Kreditor aus.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  

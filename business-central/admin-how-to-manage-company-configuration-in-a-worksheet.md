@@ -1,8 +1,6 @@
 ---
 title: So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt | Microsoft Docs
 description: Das Konfigurationsarbeitsblatt ist die zentrale Stelle, an der Sie Ihre Konfigurationsarbeit planen, nachverfolgen und ausführen können. Sie können ein Arbeitsblatt für jeden Mandanten erstellen, mit dem Sie arbeiten, oder ein Standardkonfigurationsarbeitsblatt erstellen, das für die Konfiguration von mehreren identischen Mandanten verwendet werden kann.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b76312ecf58112fa62e4bb01da90611dedcd129e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7e6d53d2d600c9a46fb99f82fc52383759f5435
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308044"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879232"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>So verwalten Sie eine Mandantenkonfiguration in einem Arbeitsblatt
 Das Konfigurationsarbeitsblatt ist die zentrale Stelle, an der Sie Ihre Konfigurationsarbeit planen, nachverfolgen und ausführen können. Sie können ein Arbeitsblatt für jeden Mandanten erstellen, mit dem Sie arbeiten, oder ein Standardkonfigurationsarbeitsblatt erstellen, das für die Konfiguration von mehreren identischen Mandanten verwendet werden kann.  
@@ -30,7 +28,7 @@ Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration
 
 ## <a name="to-open-the-configuration-worksheet"></a>So öffnen Sie das Konfigurationsarbeitsblatt  
 1.  Öffnen Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] den Mandanten, der die Grundlage für die Konfiguration ist, und öffnen Sie dann sein RapidStart Services-Implementierungs-Rollencenter.  
-2.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
+2.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>So fügen Sie dem Arbeitsblatt eine Tabelle hinzu  
 1.  Auf der Seite **Config. Arbeitsblatt** wählen Sie die **Liste bearbeiten** Aktion aus.  
@@ -125,6 +123,6 @@ Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die ve
 3.  Überprüfen Sie die verfügbaren Informationen. Ändern Sie sie bei Bedarf, indem Sie Datensätze löschen, die nicht relevant sind oder indem Sie neue hinzufügen.
 
 ## <a name="see-also"></a>Siehe auch  
-[Richten Sie eine Unternehmenskonfiguration ein.](admin-set-up-company-configuration.md)  
-[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
+[Unternehmenskonfiguration einrichten](admin-set-up-company-configuration.md)  
+[Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)

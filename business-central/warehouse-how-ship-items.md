@@ -1,8 +1,6 @@
 ---
 title: "So geht's: Artikel versenden | Microsoft Docs"
 description: Abhängig von Ihrer Lagerkonfiguration können Sie entweder Lieferung im zugehörigen ausgehenden Geschäftsdokument, wie einem Verkaufsauftrag, direkt buchen, oder Sie können einen der Warenausgangsbelege verwenden, die einen Workflow berücksichtigen und in verschiedene Lageraktivitäten integriert werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 239810db7fa6f7cd74aaebf94581f9ad76fd5599
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2bde69033ee208082662fa771616ac0b124d73e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314676"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876775"
 ---
 # <a name="ship-items"></a>Versenden von Artikeln
 Wenn Sie Artikel von einem Lager liefern, das nicht für die Bearbeitung des Warenausgangs eingerichtet wurde, können Sie den Warenausgang einfach im zugehörigen Geschäftsdokument, wie einer Verkaufsauftrag, einer Serviceauftrag, eine Einkaufsreklamation oder ein ausgehender Umlagerungsauftrag, erfassen.
@@ -29,7 +27,7 @@ Wenn Sie Artikel aus einem Lagerort liefern, der so eingerichtet wurde, dass die
 
 ## <a name="to-ship-items-with-a-sales-order"></a>So liefern Sie Artikel mit einem Verkaufsauftrag
 Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. Die Schritte für Einkaufsreklamationen, Serviceaufträge und ausgehende Umlagerungsaufträge sind ähnlich.  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie einen Auftrag oder erstellen Sie einen neuen. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
 3. Geben Sie in dem Feld **Zu liefern** die empfangene Menge an.
 
@@ -41,7 +39,7 @@ Zuerst erstellen Sie einen Warenausgangsbeleg von einem Geschäftsherkunftsbeleg
 
 ### <a name="to-create-a-warehouse-shipment"></a>So erstellen Sie einen neuen Warenausgang.
 Normalerweise erstellt der Mitarbeiter, der für die Lieferung verantwortlich ist, einen Warenausgang.
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Warenausgänge** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Warenausgänge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 
     Füllen Sie die Felder auf dem Inforegister **Allgemein** aus. Beim Abrufen der Herkunftsbelegzeilen werden einige der Informationen in jede Zeile kopiert.  
@@ -74,12 +72,12 @@ Wenn Sie die Zeilen haben, die Sie ausliefern möchten, können Sie den Prozess 
 
 ### <a name="to-pick-and-ship"></a>So können Sie kommissionieren und ausliefern:
 In der Regel erstellt ein Lagermitarbeiter, der für das Kommissionieren zuständig ist, einen Kommissionierungsbeleg oder öffnet einen bereits erstellten Kommissionierbeleg.
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Warenausgänge** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Warenausgänge** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Warenausgangslieferung aus, die Sie kommissionieren möchten, und wählen Sie die **Kommissionierung erstellen** Aktion aus.
 3. Füllen Sie die Felder auf der Anforderungsseite aus, und wählen Sie dann die Schaltfläche **OK** aus. Der angegebene Kommissionierbeleg wird erstellt.
 
     Alternativ öffnen Sie eine vorhandene Kommissionierung.
-4. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus. Wählen Sie die Lagerkommissionierung aus, die Sie bearbeiten möchten.
+4. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kommissionierungen** ein und wählen Sie dann den entsprechenden Link. Wählen Sie die Lagerkommissionierung aus, die Sie bearbeiten möchten.
 
     Wenn Ihr Lager für die Verwendung von Lagerplätzen eingerichtet wurde, wurden die Kommissionierzeilen in Aktionszeilen der Arten "Lagerentnahme" und "Einlagerung" umgewandelt.
 

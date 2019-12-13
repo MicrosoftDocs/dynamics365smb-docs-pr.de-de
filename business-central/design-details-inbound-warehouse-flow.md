@@ -1,8 +1,6 @@
 ---
 title: Designdetailsg Einehender Lagerfluss | Microsoft Docs
 description: Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1b8a30732b0bf562e54d74c6477c95c36a5ab524
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c7dd9f8ed55465a45ef843ebf2a996b79b454f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303484"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880433"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetails: Eingehender Lagerfluss
 Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.  
@@ -53,7 +51,7 @@ In den Methoden werden A, B und C werden die Aktionen des Eingangs und der Einla
 ## <a name="basic-warehouse-configurations"></a>Grundlegende Lagerhauskonfigurationen  
 Das folgende Diagramm zeigt die eingehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
-![Eingehender Fluss in der grundlegenden Lagerfunktion](media/design_details_warehouse_management_inbound_basic_flow.png "Eingehender Fluss in der grundlegenden Lagerfunktion")  
+![Eingehender Fluss bei einfachen Lagerkonfigurationen](media/design_details_warehouse_management_inbound_basic_flow.png "Eingehender Fluss bei einfachen Lagerkonfigurationen")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1. Freigeben des Herkunftsbelegs/Einlagerung erstellen  
 Wenn Artikel im Lager erhalten werden, gibt der Benutzer, der für die Lieferung verantwortlich ist, den Herkunftsbeleg frei, etwa eine Bestellung oder einen eingehender Umlagerungsauftrag, um dem Lagerpersonal zu signalisieren, dass die eingegangenen Artikel im Lager eingelagert werden können. Oder der Benutzer erstellt Einlagerungsbelege für einzelne Auftragszeilen, im Push-Verfahren, basierend auf angegebenen Lagerplätzen und Mengen, die verarbeitet werden sollen.  
@@ -72,7 +70,7 @@ Positive Bestandskommissionierungen sowie Lagerposten werden erstellt, und die E
 ## <a name="advanced-warehouse-configurations"></a>Erweiterte Lagerhauskonfigurationen  
 Das folgende Diagramm zeigt die eingehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
-![Eingehender Fluss in der erweiterten Lagerfunktion](media/design_details_warehouse_management_inbound_advanced_flow.png "Eingehender Fluss in der erweiterten Lagerfunktion")  
+![Eingehender Fluss bei erweiterten Lagerkonfigurationen](media/design_details_warehouse_management_inbound_advanced_flow.png "Eingehender Fluss bei erweiterten Lagerkonfigurationen")  
 
 ### <a name="1-release-source-document"></a>1: Freigeben des Herkunftsbelegs  
 Wenn Artikel im Lager erhalten werden, gibt der Benutzer, der für die Lieferung verantwortlich ist, den Herkunftsbeleg frei, etwa eine Bestellung oder einen eingehender Umlagerungsauftrag, um dem Lagerpersonal zu signalisieren, dass die eingegangenen Artikel im Lager eingelagert werden können.  
@@ -111,4 +109,4 @@ In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es t
 Lagerplatzposten werden erstellt, und die Einlagerungszeilen werden gelöscht, wenn sie vollständig bearbeitet sind. Der Einlagerungsbeleg bleibt offen, bis die gesamte Menge des zugehörigen gebuchten Warenzugangs erfasst ist. Das Feld **Menge eingelagert** auf den Wareneingangsauftragszeilen wird aktualisiert.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Designdetails: Logistik](design-details-warehouse-management.md)
+[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)

@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Entfernen und erneutes Ausgleichen von Artikelpostens | Microsoft Docs'
 description: Sie können bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 898548bd33bbc9a5a7ae7400c626bf7a7820bfd4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 81565950191b40f2c54646d17f02ee857856c436
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554134"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882689"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Entfernen und erneutes Ausgleichen von Artikelposten
 Sie können auf der Seite **Ausgleichsvorschlag** bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.  
@@ -43,7 +41,7 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
     - In der folgenden Situation kann über den Ausgleichsvorschlag kein Ausgleich erfolgen: Wenn im Lager nicht genügend Menge zum Ausgleich vorhanden ist, kann über den Ausgleichsvorschlag kein Ausgleich vorgenommen werden, wenn Sie versuchen, einen Lagerabgangsposten ohne Artikelverfolgungsinformationen mit einem Lagerzugangsposten mit Artikelverfolgungsinformationen auszugleichen.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Artikelausgleich mit dem Ausgleichsformular entfernen  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Anwendungs-Arbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Anwendungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Die Seite **Ausgleichsvorschlag** wird geöffnet und zeigt bestehende das Artikelposten für alle Artikel an.  
 3.  Geben Sie im Inforegister **Allgemein** Filter ein, um die Suche nach dem Artikelposten, für den Sie den Ausgleich ändern möchten, zu erleichtern.  
 4.  Wählen Sie den Artikelposten aus, und wählen Sie die Aktionen **Ausgeglichene Posten**. Die Seite **Ausgeglichene Posten anzeigen – Ausgeglichene Posten** wird geöffnet und zeigt den/die Artikelposten für den Ausgleich mit dem ausgewählten Posten an.  
@@ -59,7 +57,7 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
 >  **Diese Aktion kann nicht ausgeführt werden, da der Artikel <item> vom Benutzer <user> im Ausgleichsformular aufgehoben wurde.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Artikelausgleich mit dem Ausgleichsformular erneut ausgleichen  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Anwendungs-Arbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Anwendungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Die Seite **Ausgleichsvorschlag** wird geöffnet und zeigt bestehende das Artikelposten für alle Artikel an.  
 3.  Um Einträge, die seit dem Öffnen des Arbeitsblattes entfernt wurden, erneut zu übernehmen, markieren Sie den Eintrag des Positions-Ledgers, den Sie erneut übernehmen möchten, und wählen Sie dann die Aktion **Erneut anwenden**.  
 

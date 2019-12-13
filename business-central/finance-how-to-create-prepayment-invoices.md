@@ -1,8 +1,6 @@
 ---
 title: 'Gewusst wie: Vorauszahlungsrechnungen erstellen | Microsoft Docs'
 description: Erfahren Sie, wie Sie Situationen bearbeiten, in denen Vorauszahlung gefordert wird, oder Ihr Kreditor dies fordert.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5841329a2e369be081c2728edf1837e85859f38e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ee10367990ebb0e60879ac885ad03072dd877c2a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302140"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879728"
 ---
 # <a name="create-prepayment-invoices"></a>Vorauszahlungsrechnungen erstellen
 Wenn Sie von Ihren Debitoren erwarten, dass diese vor der Lieferung eines Auftrags eine Vorauszahlung leisten oder wenn der Kreditor von Ihnen eine Vorauszahlung vor Lieferung erwartet, können Sie die Funktion "Vorauszahlung" verwenden.  
@@ -27,7 +25,7 @@ Nachdem Sie einen Auftrag oder eine Bestellung angelegt haben, können Sie eine 
 Im Folgenden wird beschrieben, wie eine Vorauszahlung für einen Auftrag fakturiert wird. Die Schritte sind für eine Bestellung ähnlich.  
 
 ## <a name="to-create-a-prepayment-invoice"></a>So erstellen Sie eine Vorauszahlungsrechnung  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Einen neuen Verkaufsauftrag erstellen. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)  
 
     Im Inforegister **Vorauszahlung** wird das Feld **Vorauszahlung %** automatisch ausgefüllt, wenn auf der Debitorenkarte ein standardmäßiger Vorauszahlungsprozentsatz angegeben ist. Sie können den Inhalt des Felds ändern. Der Vorauszahlungsprozentsatz wird aus dem Kopf nur in die Zeilen kopiert, in die nicht der standardmäßige Vorauszahlungsprozentsatz des Artikels kopiert wird.  

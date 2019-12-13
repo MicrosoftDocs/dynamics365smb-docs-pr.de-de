@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: b38a48c4b9a57a863518a6cd701176a0635b552b
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: a23af49140b683c5383287b3057f024644c19133
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774699"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808865"
 ---
 # <a name="administration"></a>Verwaltung
 Zentrale Verwaltungsaufgaben werden in der Regel von einer Rolle im Unternehmen ausgeführt. Der Bereich dieser Aufgaben kann von der Größe des Unternehmens und der Verantwortlichkeiten des Administrators abhängig sein. Diese Aufgaben können die Verwaltung von Datenbanksynchronisierung von Projekt- und E-Mail-Warteschlangen, das Einrichten von Benutzern, das Anpassen der Benutzeroberfläche und Verwalten von Verschlüsselungsschlüsseln enthalten.  
@@ -33,7 +33,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 
 |**Prozess**|**Siehe**|  
 |------------|-------------|  
-|Definieren Sie, wer sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden darf, indem Sie Benutzer im Office 365 Administrationscenter entsprechend den Produktlizenzen anlegen.|[Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md)| 
+|Definieren Sie, wer sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden darf, indem Sie Benutzer im Microsoft 365 Admin Center entsprechend den Produktlizenzen erstellen.|[Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md)| 
 |Weisen Sie Benutzern Berechtigungen zu, ändern Sie Berechtigungssätze und gruppieren Sie Benutzer für eine einfache Berechtigungsverwaltung.|[Berechtigungen für Benutzer und Gruppen zuweisen](ui-how-users-permissions.md)|
 |Fügen Sie Benutzer hinzu, und verwalten Sie Berechtigungen und den Zugriff auf Daten.|[Profile verwalten](admin-users-profiles-roles.md)|
 |Klassifizieren Sie Datenempfindlichkeit für Felder, sodass Sie auf Anforderungen von den Datensubjekten reagieren können, die mit ihren Personendaten verknüpft werden.|[Datensensitivität klassieren](admin-classifying-data-sensitivity.md)|

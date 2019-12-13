@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301708"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879489"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Aufstellung Cashflow-Analyse
 Wenn Sie etwas Unterstützung benötigen, was Sie mit Ihrem Barkonto zu tun sollen, schauen Sie sich das Diagramm im Buchhalter-Rollencenter an:  
@@ -56,7 +56,7 @@ Einige Konten und Cashfloweinrichtung sind bereits bereitgestellt. Sie können d
 Um diese einzurichten, suchen Sie für nach **Cashflowkonten**, wählen Sie den Link aus, und füllen Sie die Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Wiederholen Sie diese Schritte für **Cashfloweinrichtung**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Richtet Cashflowplanungen ein
-Das Diagramm **Cashflowplanung** verwendet Cashflowkonten, Cashfloweinrichtung und Cashflowplanungen. Einige werden bereitgestellt, aber Sie können eigene einrichten, indem Sie die unterstützte Einrichtung verwenden. Die unterstützte Einrichtung definiert u.a., wie oft die Planung aktualisiert werden soll, die Konten, die darauf basieren sollen, Informationen darüber, wann Sie Steuern bezahlen und ob [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/) verwendet werden soll.  
+Das Diagramm **Cashflowplanung** verwendet Cashflowkonten, Cashfloweinrichtung und Cashflowplanungen. Einige werden bereitgestellt, aber Sie können eigene einrichten, indem Sie die unterstützte Einrichtung verwenden. Die unterstützte Einrichtung definiert u.a., wie oft die Planung aktualisiert werden soll, die Konten, die darauf basieren sollen, Informationen darüber, wann Sie Steuern bezahlen und ob [Azure AI](https://azure.microsoft.com/overview/ai-platform/) verwendet werden soll.  
 
 Cashflowplanungen können Azure AI verwenden, um Dokumente mit einem Fälligkeitsdatum in der Zukunft zu berücksichtigen. Das Ergebnis ist eine umfassendere Voraussage. Die Verknüpfung zu Azure AI ist bereits eingerichtet. Sie müssen sie nur aktivieren. Wenn Sie sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden, wird eine Benachrichtigung in einer blauen Leiste angezeigt mit einem Link zur Standardcashfloweinrichtung. Die Mitteilung wird jeweils nur einmal angezeigt. Wenn Sie sie schließen, sich aber dazu entscheiden, Azure AI zu aktivieren, können Sie die unterstützte Einrichtung oder den manuellen Vorgang nutzen.  
 
@@ -67,14 +67,14 @@ Um die unterstützte Einrichtung zu verwenden:
 
 1. Im Buchhalterrollencenter unter **Cashflow-Planung** wählen Sie die Aktion **Unterstütze Einrichtung** aus.  
 2. Füllen Sie die Felder soweit erforderlich für jeden Schritt aus.  
-3. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Cash Flow Planung** ein, und wählen dann den zugehörigen Link aus.
+3. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Cashflowplanung** ein, und wählen Sie dann den zugehörigen Link.
 4. Auf der Seite **Cashflowplanung** wählen Sie die **Berechnen Sie Planung nach** Aktion aus.  
 
 Um einen manuellen Vorgang zu verwenden:  
 
 1. Im Feld Buchhalter-Rollencenter suchen Sie nach **Cashfloweinrichtung** und wählen Sie dann den zugehörigen Link aus.  
 2. Erweitern Sie das Inforegister **Azure AI** und aktivieren Sie das Kontrollkästchen **Azure AI aktiviert**.  
-3. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Cash Flow Planung** ein, und wählen dann den zugehörigen Link aus.
+3. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Cashflowplanung** ein, und wählen Sie dann den zugehörigen Link.
 4. Auf der Seite **Cashflowplanung** wählen Sie die **Berechnen Sie Planung nach** Aktion aus.  
 
 > [!TIP]  
@@ -88,7 +88,7 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 3. Verwenden Sie das Microsoft-Konto, um sich für einen Arbeitsbereich anzumelden und kopieren Sie dann das Muster.  
 4. Führen Sie die Vorlage aus und veröffentlichen Sie dieses als Webdienst.  
 5. Notieren Sie den API URL und den API Schlüssel. Sie verwenden diese Anmeldeinformationen für die Cashfloweinrichtung.  
-6. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Cash Flow Einrichtung** ein, und wählen dann den zugehörigen Link aus.  
+6. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Cashfloweinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
 7. Erweitern Sie das Inforegister **Azure AI**, und füllen Sie die entsprechenden Felder aus.  
 
 ## <a name="see-also"></a>Siehe auch

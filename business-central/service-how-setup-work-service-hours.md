@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Einrichten von Arbeits- und Servicezeiten | Microsoft Docs'
 description: Sie können die üblichen Arbeitszeiten in Ihrer Firma festlegen. Anhand von diesen Servicezeiten werden die Reaktionszeiten (Datum und Zeit) für Serviceaufträge und -angebote berechnet und Reaktionszeitwarnungen ausgegeben.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3adc4f10e8a5b9d26440bf47170f117de7e17310
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6aaf78756f091d70a1a33532afbafb14a5b29bc7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311764"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877279"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Einrichten von Arbeits- und Servicezeiten
 Normalerweise verfolgt ein Servicemanagementsystem Ressourcenstunden und den Serviceauftragsstatus, um die Arbeitsauslastung und Serviceanforderungen zu prognostizieren. [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über integrierte Tools, die so angepasst werden können, dass diese Arten von Informationen erfasst werden.  
@@ -29,7 +27,7 @@ Da Sie an einem Serviceauftrag arbeiten, werden Sie den Status aktualisieren wol
 ## <a name="to-set-up-default-service-hours"></a>So richten Sie Servicestandardzeiten ein  
 Verwenden Sie die Seite **Standardservicezeiten**, um die üblichen Arbeitszeiten in Ihrer Firma festzulegen. Anhand von diesen Servicezeiten werden die Reaktionszeiten (Datum und Zeit) für Serviceaufträge und -angebote berechnet und Reaktionszeitwarnungen ausgegeben. Wenn Sie keine vertragsspezifischen Servicezeiten in Verträgen einrichten, werden die Standardservicezeiten für den Servicevertrag verwendet.  
   
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standard-Servicestunden** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Standard-Servicestunden** ein und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -38,7 +36,7 @@ Verwenden Sie die Seite **Standardservicezeiten**, um die üblichen Arbeitszeite
 ## <a name="to-set-up-work-hour-templates"></a>Um Arbeitszeitvorlagen einzurichten
 Sie können die Seite **Arbeitszeitvorlagen** verwenden, um Vorlagen einzurichten, die die typischen Arbeitszeiten Ihrer Firma enthalten. Sie können z. B. Vorlagen für Techniker in Vollzeit oder in Teilzeit einrichten. Sie können Arbeitszeitvorlagen verwenden, wenn Sie Ressourcenkapazitäten hinzufügen.  
   
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Arbeitsstunden-Vorlage** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Arbeitszeitvorlagen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -49,8 +47,8 @@ Die Seite **Servicezeiten** können Sie verwenden, um spezifische Servicezeiten 
   
 Wenn Sie keine vertragsspezifischen Servicezeiten in Verträgen einrichten, werden die Servicestandardzeiten für den Servicevertrag verwendet.  
   
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceverträge** ein, und wählen dann den zugehörigen Link aus.  
-2. Öffnen Sie den relevanten  **Servicevertrag**, für den Sie bestimmte Servicezeiten einrichten möchten.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceverträge** ein und wählen Sie dann den entsprechenden Link.  
+2. Öffnen Sie den relevanten **Servicevertrag**, für den Sie bestimmte Servicezeiten einrichten möchten.  
 4. Um Servicezeiten basierend auf den Servicestandardzeiten einzurichten, wählen Sie die Aktion **Servicestandardzeiten kopieren**.  
 5. Bearbeiten Sie die Felder in den Servicezeiteneinträgen. Löschen Sie Einträge oder fügen Sie sie ein, um die Servicezeiten für den Vertrag einzurichten. Beachten Sie, dass die Felder **Tag**, **Startzeit** und **Endzeit** für jede Zeile ausgefüllt werden müssen.  
 6. Wenn Sie möchten, dass die Servicezeiten ab einem bestimmten Datum gelten, müssen Sie das Feld **Startdatum** ausfüllen.  

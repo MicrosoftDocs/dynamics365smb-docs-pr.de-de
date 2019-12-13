@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/17/2019
+ms.date: 11/20/2019
 ms.author: edupont
-ms.openlocfilehash: 497045b1c79f1ea27bebe994bbfbc39d5a29e1d9
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 318e9afb29539b68aea4babf97c0608365406394
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649812"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881264"
 ---
 # <a name="extending-included365finincludesd365fin_mdmd"></a>Erweitern [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ist eine Unternehmensverwaltungslösung, die Unternehmen hilft, Finanzverhältnisse, Verkauf, Service und Arbeitsgänge zu verbinden, um Geschäftsvorgängen zu organisieren, Debitorenaktivitäten zu verbessern und die Entscheidungsfindung zu unterstützen. [!INCLUDE[d365fin](includes/d365fin_md.md)] ist in der Cloud und für Benutzer über verschiedene Arten auf mehreren Geräten verfügbar, die stets auf dem neuesten Stand ist. Mit dieser Geschäftsplattform können Sie problemlos und schnell Anwendungen anpassen, erweitern und einrichten, so dass sie für ihre speziellen Anforderungen passt- mit fast keiner Codeentwicklung.  
@@ -30,7 +30,7 @@ Es gibt viele Vorteile für die Nutzung von [!INCLUDE[d365fin](includes/d365fin_
 * Verbesserb Sie Handelswert- und Zugangsabkommengröße mit den vorhandenen und neuen Debitoren an
 * Erzielen Sie mehr mit eine Plattform, die eine moderne Benutzeroberfläche und eine Angebotsskala bietet  
 * Erhalten Sie bearbeitbare Einblicke über die Leistung Ihrer Listen über das Cloud Partner Portal oder den Office App-Veröffentlichungsvorgang.
-* Paket mit intelligenten Geschäfts-Apps, wie PowerApps Flow, Power BI, Azure AI und vielen mehr  
+* Paket mit intelligenten Geschäftsanwendungen, wie Power Apps, Power Automate, Power BI Azure AI, und vielen mehr  
 
 Bringen Sie Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)]-Dienste zur Microsoft AppSource als:
 
@@ -39,9 +39,9 @@ Bringen Sie Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)]-Dienste zur Microso
 
 Die neuen Entwicklungstools geben Ihnen die Möglichkeit, Erweiterungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzer zu erstellen. Wenn Sie sich schon mit den neuen Tools vertraut machen oder mehr über die Erweiterungen 2.0 erfahren wollen, lesen Sie unter [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
-Suchen Sie Informationen zu Apps und Beratungsdienste, die zurzeit unter [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1) verfügbar sind.
+Suchen Sie Informationen zu Apps und Beratungsdienste, die zurzeit unter [Microsoft AppSource](https://appsource.microsoft.com/consulting-services) verfügbar sind.
 
-Um Geschäftsnutzern zu helfen, sich schnell zurechtzufinden, hat Microsoft einen Katalog von Beratungsdienstangeboten für Lösungen auf Grundlage von [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI und PowerApps bis AppSource bereitgestellt. Weitere Informationen [Beratung von Services](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting) Informationen zu.
+Um Geschäftsnutzern zu helfen, sich schnell zurechtzufinden, hat Microsoft einen Katalog von Beratungsdienstangeboten für Lösungen auf Grundlage von [!INCLUDE[prodshort](includes/prodshort.md)], Power BI und Power Apps bis AppSource bereitgestellt. Weitere Informationen [Beratung von Services](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting) Informationen zu.
 
 ## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Wählen Sie, welche Services mit [!INCLUDE[d365fin](includes/d365fin_md.md)] angeboten werden sollen
 
@@ -58,14 +58,14 @@ Erweitern Sie die Benutzeroberfläche und die Funktion auf [!INCLUDE[d365fin](in
 Willigen Sie mit gesetzlichen lokalen Funktionen ein, indem Sie für [!INCLUDE[d365fin](includes/d365fin_md.md)] entwicklen, deren Funktionsbereiche an die Anforderungen des lokalen Marktes zusammen mit [Dynamics 365 Übersetzungsdienst](/dynamics365/unified-operations/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview) angepasst werden. Richten Sie die Kernfunktionen der lokalen rechtlicher Anforderung aus und erweitern Sie bestehende Funktionen, um in Ihrem lokalen Markt erfolgreich zu konkurrieren. Mehr erfahren über die [Entwicklung einer lokalisierten Lösung](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Einzelhändler-Lösung
-Da jedes Unternehmen eindeutig ist, können Sie mit [Anpassen von Tenants](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants) anpassen, wie Sie mit Ihren fortschrittlichen Vorgängen, Ihrer Terminologie arbeiten und wie Ihre Mitarbeiter oder Abteilungen sich verbinden und zusammenarbeiten. Darüber hinaus können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verkaufen und anpassen, indem Sie die individuellen Bedürfnisse Ihrer Debitoren erfüllen, indem Sie [Beratungsservices](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting) anbieten. Oder nutzen Sie Microsoft Flow, Power Apps und Power BI, um [Benutzerdefinierte Workflows](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code) und Geschäftseinblickberichte zu erstellen, ohne einen Code schreiben zu müssen. Weitere Informationen zu [Dynamics 365 Reseller (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
+Da jedes Unternehmen eindeutig ist, können Sie mit [Anpassen von Tenants](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants) anpassen, wie Sie mit Ihren fortschrittlichen Vorgängen, Ihrer Terminologie arbeiten und wie Ihre Mitarbeiter oder Abteilungen sich verbinden und zusammenarbeiten. Darüber hinaus können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verkaufen und anpassen, indem Sie die individuellen Bedürfnisse Ihrer Debitoren erfüllen, indem Sie [Beratungsservices](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting) anbieten. Oder nutzen Sie Power Apps, Power Automate und Power BI, um [Benutzerdefinierte Workflows](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code), Apps und Geschäftserkenntnisberichte zu erstellen, ohne einen Code schreiben zu müssen. Weitere Informationen zu [Dynamics 365 Reseller (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
 
 ## <a name="where-do-i-learn-more"></a>Wo erfahre ich mehr?
 Um mehr über das Beratungsangebot Microsoft AppSource zu erfahren, folgen die folgenden Links:
 
-[AppSource Beratungsangebote](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)  
+[AppSource Beratungsangebote](https://appsource.microsoft.com/marketplace/consulting-services)  
 [Partner-Eignung](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)  
-[Partner-Nominierungs-Formular](https://appsource.microsoft.com/en-us/partners/list-consulting-service)  
+[Partner-Nominierungs-Formular](https://appsource.microsoft.com/partners/list-consulting-service)  
 
 ## <a name="the-ready-to-go-program"></a>Das Ready-to-Go-Programm
 Das einsatzbereite Programm ist so konzipiert, dass Sie Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)]-Angebot leichter in Microsoft AppSource integrieren können. Das Programm enthält:
@@ -82,6 +82,6 @@ Die Standardversion des Produkts enthält eine zunehmende Anzahl von Erweiterung
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
 
-[https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
+[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

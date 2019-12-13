@@ -1,8 +1,6 @@
 ---
 title: 'Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung | Microsoft Docs'
 description: In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungsaufträgen zum Erfüllen eines neuen Bedarfs beschrieben. Je nach Bedarfsart können Sie die Beschaffungsplanung in festen Intervallen, z. B. jeden Morgen oder jeden Montag, oder bei einer entsprechenden Benachrichtigung durch den Verkauf oder die Produktion initiieren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cf3a0653b4094b9e7d90be2909572ed831863c4f
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 0da12af6eb5a165c717cd112735a91aebe3ae85d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554668"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876967"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung
 
@@ -69,7 +67,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
 ### <a name="to-use-the-order-planning-page"></a>So verwenden Sie die Seite "Auftragsplanung"  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Auftragsplanung** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Auftragsplanung** ein, und wählen Sie dann den zugehörigen Link.  
 
      Beim erstmaligen Öffnen der Seite **Auftragsplanung** muss eine Planung berechnet werden, um den neuen Bedarf seit der letzten Berechnung anzuzeigen.  
 
@@ -227,10 +225,10 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
      Die Meldung zeigt an, dass alle erforderlichen Artikel geliefert werden. Prüfen Sie die fest geplanten Fertigungsaufträge, die erstellt wurden.  
 
-13. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Fest geplante Produktionsaufträge** ein, und wählen dann den zugehörigen Link aus.  
+13. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Feste geplante Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 
      Überprüfen Sie auf der Seite **Fest geplante FA** , wie die Start- und Endzeiten der einzelnen Aufträge entsprechend der Produktstruktur geplant wurden. Die Komponenten auf der niedrigsten Ebene werden zuerst gefertigt. Daher ist es unumgänglich, die Planung von Aufträgen mit mehreren Ebenen wie in diesem Planungsworkflow gezeigt vorzunehmen.  
 
 ## <a name="see-also"></a>Siehe auch  
- [Exemplarische Vorgehensweisen für Geschäftsprozesse ](walkthrough-business-process-walkthroughs.md)   
+ [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)   
  [Exemplarische Vorgehensweise: Automatische Beschaffungsplanung](walkthrough-planning-supplies-automatically.md)

@@ -1,8 +1,6 @@
 ---
 title: Währungswechselkurse
 description: Am Ende des Geschäftsjahres, müssen Wechselkurse für Verbindlichkeiten und Forderungen reguliert werden, sodass sie ordnungsgemäß in der Jahresbilanz bewertet werden. Der Batchauftrag **Wechselkurse regulieren** unterstützt verschiedene Bewertungsmethoden, um so die rechtlichen Anforderungen in Deutschland zu erfüllen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b998a51934afa755d10c529f565ad8bc21fc32ed
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a22a05fa343e1695e053ed23577a7c1adb8b53d0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301344"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878187"
 ---
 # <a name="currency-exchange-rates"></a>Währungswechselkurse
 Am Ende des Geschäftsjahres, müssen Wechselkurse für Verbindlichkeiten und Forderungen reguliert werden, sodass sie ordnungsgemäß in der Jahresbilanz bewertet werden. Der Batchauftrag **Wechselkurse regulieren** unterstützt verschiedene Bewertungsmethoden, um so die rechtlichen Anforderungen in Deutschland zu erfüllen.  
@@ -31,7 +29,7 @@ In der folgenden Tabelle werden die Bewertungsmethoden näher erläutert.
 |----------------------|---------------------------------------|  
 |BilMoG (Deutschland)|Beginnend mit dem Jahr 2010 wird jeder Sachkontoposten folgendermaßen reguliert:<br /><br /> -   Wenn das Fälligkeitsdatum weniger als ein Jahr nach Referenzdatum liegt, werden Verbindlichkeits-/Forderungsbuchungen nach dem tatsächlichen Wechselkurs bewertet.<br />-   Wenn das Fälligkeitsdatum mehr als ein Jahr nach dem Referenzatum liegt, werden Verbindlichkeits-/Forderungsbuchungen nach dem niedrigsten Wert bewertet, mit der Möglichkeit einer Aufwertung (Wertaufholung) bis um Ausgangswert. **Hinweis:**  Sachkontoposten müssen ein Fälligkeitsdatum enthalten. Ein Posten, der kein Fälligkeitsdatum hat, wird als langfristige Verbindlichkeit behandelt.|  
 |Niedrigster Wert|Wechselkurse werden unter Verwendung des niedrigsten Wertes der beiden Wechselkurse reguliert. Währungsverluste werden immer berechnet und gebucht. Währungsgewinne werden nur bis zum ursprünglichen Landeswährungswert der Transaktion berechnet und gebucht.<br /><br /> Dadurch wird sichergestellt, dass Forderungen nicht höher als ihre ursprünglichen Buchungsbeträge bewertet werden und dass Verbindlichkeiten nicht niedriger als ihre ursprünglichen Buchungsbeträge bewertet werden.|  
-|Standard|Wechselkurse werden entsprechend den Standardbewertungsprinzipien reguliert. Volle unrealisierte Gewinne und Verluste werden berechnet und gebucht. Wenn die Transaktion teilweise angewendet wird, wird nur der Restbetrag in die Regulierung einbezogen. Weitere Informationen finden Sie unter „Wechselkurse regulieren”.|  
+|Standard|Wechselkurse werden entsprechend den Standardbewertungsprinzipien reguliert. Volle unrealisierte Gewinne und Verluste werden berechnet und gebucht. Wenn die Transaktion teilweise angewendet wird, wird nur der Restbetrag in die Regulierung einbezogen. Weitere Informationen finden Sie unter „Wechselkurse regulieren“.|  
 
 Deutsche Unternehmen müssen die Option **BilMoG (Deutschland)** verwenden, wenn sie den Batchauftrag **Wechselkurse regulieren** ausführen. Dadurch ist sichergestellt, dass jede Transaktion mithilfe der entsprechenden Bewertungsmethode wie in Deutschland erforderlich reguliert wird. Dadurch werden außerdem zwei Felder auf der Anforderungsseite aktiviert, in denen Sie die zwei Datumswerte angeben können, die verwendet werden müssen, um die Regulierung zu berechnen. Die Felder werden in der folgenden Tabelle beschrieben.  
 

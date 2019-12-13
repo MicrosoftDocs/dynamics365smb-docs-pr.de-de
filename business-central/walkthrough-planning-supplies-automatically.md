@@ -1,8 +1,6 @@
 ---
 title: Walkthrough - Vorräte automatisch planen | Microsoft Docs
 description: Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich auf die Berechnung der Produktions-Programmplanung und des Materialbedarfsplans anhand des tatsächlichen und geplanten Bedarfs.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ba3e5b085dba8b577ed9ca54e3956a02d5ecd841
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ec5de84594d733886bb42cfe251a83230556b060
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314772"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881888"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Exemplarische Vorgehensweise: Automatische Beschaffungsplanung
 
@@ -76,7 +74,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 
 ### <a name="to-change-selected-planning-parameters"></a>Ausgewählte Planungsparameter ändern  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagereinheiten** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagermengeneinheiten** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie die BLAUE Lagerhaltungsdatenkarte für Artikel 1100, Vorderrad.  
 3.  Füllen Sie im Inforegister **Planung** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -93,7 +91,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 
 ### <a name="to-create-the-sales-order"></a>Den Verkaufsauftrag erstellen  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie auf der Seite **Verkaufsauftrag** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -105,7 +103,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>So erstellen Sie eine Neuplanung, um den Bedarf am Standort BLAU zu erfüllen  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Planungsvorschlag** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Planungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus.  
 3.  Auf der Seite **Arbeitsplan - Plan berechnen** füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -128,7 +126,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Nettobedarf berechnen, um den Bedarf zugrunde liegender Komponenten einzuschließen  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Planungsvorschlag** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Planungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus.  
 3.  Auf der Seite **Arbeitsplan - Plan berechnen** füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -222,7 +220,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 
 3.  Akzeptieren Sie die Verfügbarkeitswarnung und klicken Sie auf **Ja**, um die Bedarfsmenge zu erfassen.  
 4.  Als Nächstes führen Sie die Neuplanung durch, um den aktuellen Beschaffungsplan anzupassen.  
-5.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Planungsvorschlag** ein, und wählen dann den zugehörigen Link aus.  
+5.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Planungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 6.  Wählen Sie die **Nettoveränderung berechnen** Aktion aus.  
 7.  Auf der Seite **Arbeitsplan - Plan berechnen** füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 

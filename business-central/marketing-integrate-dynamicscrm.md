@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: df539a8c1aa42fe8bc732e4819db10cbfbdaec2a
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 33b2931e14cb7e41cc3e71c327d2237cd8308466
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775571"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878197"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Verwenden von Dynamics 365 Sales von Business Central
 Wenn Sie Dynamics 365 Sales for Customer Engagement verwenden, können Sie nahtlose Integration in den Interessent-zu-Geld-Prozess nutzen, indem Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.
@@ -73,10 +73,10 @@ Dies kann auch gehen, wenn der ursprüngliche Verkaufsauftrag geschriebene Produ
 
 Wenn die Artikelbeschreibung des ursprünglichen Verkaufsauftrags lang ist, wird eine zusätzliche Verkaufsauftragszeile der Art **Bemerkung** erstellt, um den Text in dem Verkaufsauftrag in [!INCLUDE[d365fin](includes/d365fin_md.md)]festzuhalten.
 
-Aktualisierungen der Verkaufsauftrags-Kopffeldern, wie "Letztes Lieferdatum" oder "Gewünschtes Lieferdatum", die der VERKAUFSAUFTRAG-AUFTRAG-**Integrationstabellenzuordnung** zugeordnet sind, werden in regelmäßigen Abständen mit [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Arbeitsgänge wie das Freigeben eines Verkaufsauftrags und die Lieferung oder Fakturierung eines Verkaufsauftrags werden auf der Verkaufsauftragszeitachse in [!INCLUDE[crm_md](includes/crm_md.md)] gebucht. Weitere Informationen finden Sie unter [Einführung in die Aktivitätsfeeds](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+Aktualisierungen der Verkaufsauftrags-Kopffeldern, wie "Letztes Lieferdatum" oder "Gewünschtes Lieferdatum", die der VERKAUFSAUFTRAG-AUFTRAG-**Integrationstabellenzuordnung** zugeordnet sind, werden in regelmäßigen Abständen mit [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Arbeitsgänge wie das Freigeben eines Verkaufsauftrags und die Lieferung oder Fakturierung eines Verkaufsauftrags werden auf der Verkaufsauftragszeitachse in [!INCLUDE[crm_md](includes/crm_md.md)] gebucht. Weitere Informationen finden Sie unter [Einführung in die Aktivitätsfeeds](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
 > [!NOTE]  
-> Periodische Synchronisation basierend auf der SALESORDER-ORDER-**Integrationstabellenzuordnung** funktioniert nur, wenn die Verkaufsauftragsintegration aktiviert ist. Weitere Informationen finden Sie unter [Verbinden mit Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md) Nur Verkaufsaufträge, die aus übermittelten Verkaufsaufträgen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt wurden, werden synchronisiert. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodische Synchronisation basierend auf der SALESORDER-ORDER-**Integrationstabellenzuordnung** funktioniert nur, wenn die Verkaufsauftragsintegration aktiviert ist. Weitere Informationen finden Sie unter [Verbinden mit Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md) Nur Verkaufsaufträge, die aus übermittelten Verkaufsaufträgen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt wurden, werden synchronisiert. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

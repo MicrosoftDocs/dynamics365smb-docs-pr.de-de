@@ -1,5 +1,5 @@
 ---
-title: Fakturieren von Anmeldungen in  Business Central | Microsoft Docs
+title: Fakturieren von Anmeldungen in Business Central | Microsoft Docs
 description: Erfahren Sie, wie Sie Massenrechnungsstellung von Microsoft Bookings in Business Central vornehmen können.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4dd32dee8a670a5774de3b9c4afe8367cc44d0fb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 924876abbe532384d568c6c260b22397f98a40ad
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302557"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879896"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365fin_mdmd"></a>Massenrechnungsstellung für Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Wenn Ihr Unternehmen die Anmeldungs-App in Office 365 verwendet, können Sie Massenrechnungsstellung für Termine vornehmen. Die Seite **Nicht in Rechnung gestellte Anmeldungen** in [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt eine Liste der abgeschlossenen Anmeldungen des Mandanten bereit. Auf dieser Seite können Sie schnell die Termine auswählen, die Sie verrechnen wollen und Entwurfsrechnungen für die erbrachten Services erstellen.  
@@ -42,4 +42,4 @@ Die Unterstützung für die Fakturierung von Terminen von Anmeldungen ist schnel
 [Finanzen](finance.md)  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
+[Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  

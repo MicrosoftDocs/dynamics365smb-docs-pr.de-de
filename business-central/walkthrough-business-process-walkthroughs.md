@@ -1,8 +1,6 @@
 ---
 title: Geschäftsvorgangs exemplarische Vorgehensweisen | Microsoft Ausgleich.
 description: Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Geschäftsprozesse, die Sie mit dem Demounternehmen CRONUS AG durchführen können. Die exemplarischen Vorgehensweisen bestehen aus mehreren Verfahren, von denen einige normalerweise von mehr als einem Benutzer ausgeführt werden würden, während andere verschiedene Benutzerrollen enthalten. Um den Arbeitsbereich zu simulieren, enthalten einige der exemplarischen Vorgehensweisen Einrichtungsschritte, die erforderlich sind, um die Übungen wie beschrieben abzuschließen. Diese Schritte können Einblick in die Art der Informationen zu geben, die Benutzer den IT-Mitarbeitern ihres Unternehmens zur Verfügung stellen müssen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 26c98f2e0dfb08b2b20aca3c697ecb292f6e596a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6b0d14b8c46d5d41266de950e60daa56d88cbd5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314940"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881918"
 ---
 # <a name="business-process-walkthroughs"></a>Exemplarische Vorgehensweisen für Geschäftsprozesse
 Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Geschäftsprozesse, die Sie mit dem Demounternehmen CRONUS AG durchführen können. Die exemplarischen Vorgehensweisen bestehen aus mehreren Verfahren, von denen einige normalerweise von mehr als einem Benutzer ausgeführt werden würden, während andere verschiedene Benutzerrollen enthalten. Um den Arbeitsbereich zu simulieren, enthalten einige der exemplarischen Vorgehensweisen Einrichtungsschritte, die erforderlich sind, um die Übungen wie beschrieben abzuschließen. Diese Schritte können Einblick in die Art der Informationen zu geben, die Benutzer den IT-Mitarbeitern ihres Unternehmens zur Verfügung stellen müssen.  

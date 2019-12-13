@@ -8,27 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/17/2019
+ms.date: 11/22/2019
 ms.author: edupont
-ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649716"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879130"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt die Möglichkeit vor, Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. Mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, sowie Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.  
 
 ## <a name="getting-the-add-in"></a>Das Add-in abrufen
-Die ersten Schritte sind einfach mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-In für Outlook. Mit dem unterstützten Setup Richten Sie Ihren **Geschäfts-Eingang in Outlook** ein können Sie die Verbindung für sich oder für Ihre Organisation einrichten, wenn Ihre Organisation Office 365 verwendet. Geben Sie einfach Ihren Office 365 Benutzername und Passwort ein, wenn Sie dazu aufgefordert werden, und teilen Sie uns mit, ob Sie eine Beispiel-E-Mail-Nachricht erhalten möchten. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt. Weitere Informationen finden Sie unter [Mindestanforderungen für Outlook ](product-requirements.md#outlook).  
+Die ersten Schritte sind einfach mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-In für Outlook. Mit dem unterstützten Setup Richten Sie Ihren **Geschäfts-Eingang in Outlook** ein können Sie die Verbindung für sich oder für Ihre Organisation einrichten, wenn Ihre Organisation Office 365 verwendet. Geben Sie einfach Ihren Office 365 Benutzername und Passwort ein, wenn Sie dazu aufgefordert werden, und teilen Sie uns mit, ob Sie eine Beispiel-E-Mail-Nachricht erhalten möchten. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt. Weitere Informationen finden Sie unter [Mindestanforderungen für Outlook](product-requirements.md#outlook).  
 
 Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht vom *Dynamics 365 Business Central Admin*. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können die [!INCLUDE[prodshort](includes/prodshort.md)]-Add-Ins unmittelbar über oder unter dem Text der E-Mail sehen. Das Add-In selbst wird regelmäßig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
 
 > [!TIP]
-> Wenn Sie das neue Outlook in einem Browser verwenden, können die [!INCLUDE [prodshort](includes/prodshort.md)] Add-Ins unter **Mehr Aktionen** ausgeblendet werden.
+> Wenn Sie das neue Outlook im Web verwenden, können die [!INCLUDE [prodshort](includes/prodshort.md)]-Add-Ins unter **Weitere Aktionen** ausgeblendet werden. Wenn Sie das Add-In häufig verwenden, können Sie es so anheften, dass es immer sofort sichtbar ist. Weitere Informationen finden Sie unter [Verwenden von Add-Ins in Outlook im Web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Wenn Sie mit mehr als einer [!INCLUDE [prodshort](includes/prodshort.md)] Firma arbeiten, können Sie in Outlook ganz einfach zwischen den Unternehmen wechseln.
+Wenn Sie mit mehr als einer [!INCLUDE [prodshort](includes/prodshort.md)] Firma arbeiten, können Sie in Outlook ganz einfach zwischen den Unternehmen wechseln. Wählen Sie in der Aktionsleiste **Weitere Aktionen** aus, und dann sehen Sie die Option zum Wechseln zwischen Unternehmen.  
+
+<!--TEMP-->
+> [!NOTE]
+> Der Wechsel zwischen Unternehmen erfordert [!INCLUDE [prodshort](includes/prodshort.md)] 2019 Release Wave 2 oder höher wie angekündigt im [Release-Plan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Einige Unternehmen, die Office 365 verwenden, grenzen die Berechtigungen der Benutzer ein, Add-Ins bereitzustellen. Daher müssen Sie sicherstellen, ob Sie ein Office 365-Abonnement haben, die E-Mail enthält und Ihnen ermöglicht, Add-Ins bereitzustellen. Wenn Sie das Add-In testen möchten, können Sie es in [Office 365 kostenlos testen](https://products.office.com/try).  
 
@@ -74,4 +79,4 @@ Die Add-Ins sind für die Verwendung mit Office 365 konzipiert. Wenn Sie [!INCLU
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Mindestanforderungen für die Verwendung von Outlook](product-requirements.md#outlook)  
-[Add-Ins in Outlook im Internet nutzen](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Add-Ins in Outlook im Internet nutzen](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

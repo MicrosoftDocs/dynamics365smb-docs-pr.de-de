@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 21e3defe178a3619df58d712c86935515e303692
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308404"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879202"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung
 Die Aufgabenwarteschlangen in [!INCLUDE[d365fin](includes/d365fin_md.md)] ermöglichen es Benutzern, bestimmte Berichte und Codeunits zu planen und auszuführen. Die Projekte können entweder einmalig oder wiederholt ausgeführt werden. So kann es beispielsweise empfehlenswert sein, den Bericht **Verkäufer - Verkäuferstatistik** wöchentlich auszuführen, um jede Woche die Verkaufserfolge eines Verkäufers im Auge zu haben, während die Codenit **Service-E-Mail-Warteschlange** verarbeiten" täglich ausgeführt wird, um sicherzustellen, dass ausstehende, serviceauftragsbezogene E-Mails rechtzeitig an die entsprechenden Debitoren versendet werden.
@@ -33,12 +33,12 @@ Sie können dies erreichen, indem Sie die Projektwarteschlange so einrichten, da
 
 Nachfolgend wird erklärt, wie die Hintergrundbuchung von Verkaufsaufträgen eingerichtet wird. Die Schritte sind für Einkauf und Service ähnlich.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Debitoren & Verkauf einrichten** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einrichten von Verkauf und Forderungen** ein, und wählen Sie dann den zugehörigen Link aus.
 2. Auf der Seite **Einrichtung von Vertrieb und Forderungen** aktivieren Sie das Kontrollkästchen **Mit Projektwarteschlange buchen**.
 3. Um nach Projektwarteschlangeneinträgen für Verkaufsauftragsbuchung zu filtern, aktivieren Sie das Feld **Projektwarteschlangen-Kategoriecode**, und wählen Sie dann die Kategorie **SalesPost** aus.
 
     Ein Projektwarteschlangenobjekt, codeunit 88 **Verkaufsbuchung über Projektwarteschlange**, wird erstellt. Fahren Sie fort, um es auf der Seite **Projektwarteschlangeneinträge** zu aktivieren.
-4. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Projektwarteschlangeneinträge** ein, und wählen dann den zugehörigen Link aus.
+4. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.
 5. Wählen Sie auf der Seite **Projektwarteschlangeneinträge** die Aktion **Neu**.
 6. Wählen Sie im Feld **Auszuführender Objekttyp** die Option **Codeunit** aus.  
 7. Wählen Sie im Feld **Auszuführende Objekt-ID** 88 aus, **Verkaufsbuchung über Projektwarteschlange** aus.
@@ -56,7 +56,7 @@ Wenn zusätzlich Verkaufsbelege gedruckt werden sollen, wenn diese gebucht werde
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>So wird ein Projektwarteschlangeneintrag für die Stapelbuchung von Verkaufsaufträgen erstellt
 Der folgende Ablauf zeigt an, wie Sie den Bericht **Aufträge stapelbuchen** so festlegen, dass freigegebene Verkaufsaufträge um 16:00 Uhr an Wochentagen automatisch gebucht werden.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Projektwarteschlangeneinträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Wählen Sie im Feld **Auszuführender Objekttyp** die Option **Bericht** aus.  
 4. Wählen Sie im Feld **Auszuführende Objekt-ID** 296 aus, **Stapelbuchung von Verkaufsaufträgen**.
@@ -85,14 +85,14 @@ Nachdem ein Projekt erfolgreich abgeschlossen wurde, wird dieses aus der Liste d
 Daten, die erstellt werden, wenn eine Projektwarteschlange ausgeführt wird, werden in der Datenbank gespeichert, sodass Sie Projektwarteschlangenfehler beheben können.
 
 ### <a name="to-view-status-for-any-job"></a>So wird der Status für jedes beliebige Projekt angezeigt
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Projektwarteschlangeneinträge** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Projektwarteschlangeneinträge** wählen Sie einen Projektwarteschlangeneintrag aus, und wählen die dann die Aktion **Protokolleinträge** aus.  
 
 ### <a name="to-view-status-from-a-sales-or-purchase-document"></a>So wird der Status aus einem Verkaufs- oder Einkaufsbeleg angezeigt
 1. Vom Beleg, den Sie versucht haben, mit der Projektwarteschlange zu buchen, wählen Sie das Feld **Projektwarteschlangenstatus** aus, das **Fehler** enthält.
 2. Überprüfen Sie die Fehlermeldung und korrigieren Sie das Problem.
 
-## <a name="the-my-job-queue-part"></a>Der „Mein Projektwarteschlangenteil”
+## <a name="the-my-job-queue-part"></a>Der „Mein Projektwarteschlangenteil“
 Der Teil **Meine Projektwarteschlange** in Ihrem Rollencenter zeigt die Projektwarteschlangeneinträge an, die Sie gestartet haben, die jedoch noch nicht abgeschlossen sind. Standardmäßig ist dieser Teil nicht sichtbar, Sie müssen ihn also Ihrem Rollencenter hinzufügen. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).  
 
 Der Teil zeigt, welche Dokumente mit Ihrer ID im Feld **Zugewiesene Benutzer-ID** verarbeitet oder in die Warteschlange gestellt werden, einschließlich solcher, die zur Hintergrundbuchung gehören. Dieser Teil informiert Sie auf einen Blick darüber, ob bei der Buchung eines Belegs ein Fehler aufgetreten ist, oder ob ein Projektwarteschlangenposten einen Fehler enthält. Mit diesem Teil können Sie auch eine Buchung stornieren, wenn diese nicht ausgeführt wird.
@@ -111,6 +111,9 @@ Wenn eine Aufgabenwarteschlange manuell aktiviert wird, wird sie mit den Anmelde
 
 ## <a name="using-job-queues-effectively"></a>Effektive Verwendung von Aufgabenwarteschlangen  
 Der Aufgabenwarteschlangenposten hat viele Felder, deren Zweck darin besteht, Parameter in die Codeunit zu übertragen, die Sie für die Ausführung mit einer Aufgabenwarteschlange festgelegt haben. Dies bedeutet auch, dass Codeunits, die über die Aufgabenwarteschlange ausgeführt werden sollen, beim Warteschlangenposten als Parameter im **OnRun**-Trigger angegeben werden müssen. Dies gewährleistet ein zusätzliches Maß an Sicherheit, da so Benutzer über die Aufgabenwarteschlange keine beliebigen Codeunits ausführen können. Wenn der Benutzer Parameter einem Bericht weiterleiten muss, besteht hierfür die einzige Möglichkeit darin, die Berichtsausführung in eine Codeunit einzubinden, die anschließend die Eingabeparameter analysiert und in den Bericht einfügt, bevor dieser ausgeführt wird.  
+
+## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Synchronisierung planen zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)]
+Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] mit [!INCLUDE[crm_md](includes/crm_md.md)] integriert haben, können Sie die Aufgabenwarteschlange verwenden, um zu planen, wann Sie Daten für die Datensätze synchronisieren möchten, die Sie in den beiden Geschäftsanwendungen gekoppelt haben. Abhängig von der Richtung und den Regeln, die Sie für die Integration definiert haben, können die Synchronisationsaufträge auch neue Datensätze in der Ziel-App erstellen, die denen in der Quelle entsprechen. Zum Beispiel, wenn ein Verkäufer einen neuen Kontakt in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt, kann der Synchronisierungsauftrag diesen Kontakt für den gekoppelten Verkäufer in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen. Weitere Informationen finden Sie unter [Planen einer Synchronisierung zwischen Business Central und Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ## <a name="see-also"></a>Siehe auch  
 [Verwaltung](admin-setup-and-administration.md)  

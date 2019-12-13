@@ -1,8 +1,6 @@
 ---
 title: Zuweisungsstatus und Reparaturstatus | Microsoft Docs
 description: Kennenlernen des Verhältnisses zwischen dem Reparaturstatus der Serviceartikel und dem Zuordnungsstatus von Zuordnungen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cffd91900c5644ab31764290c0a3ff78a4685171
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d63aaf615a8611e6c0bfb640469253aef27ca453
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316236"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882806"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Zuordnungsstatus und Reparaturstatus von Serviceartikeln
 Der Reparaturstatus der Serviceartikel und der Zuordnungsstatus von Zuordnungen für Serviceartikel stellen unter "Service" eine bestimmte Beziehung zueinander dar. Der Zuordnungsstatus ändert sich, wenn Sie den Reparaturstatus des Serviceartikels auf **Erledigt** oder **Unvollständig bearbeitet** setzen oder wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln. Der Reparaturstatus des Serviceartikels ändert sich, wenn Sie die Serviceartikelzuordnung stornieren oder den Serviceartikel einer anderen Ressource neu zuordnen. Sie können den Reparaturstatus der Serviceartikel auf der Seite **Serviceaufgaben** einsehen und ihn im Feld **Reparaturstatuscode** auf der Seite **Servicearbeitsschein** aktualisieren. Sie können den Zuordnungsstatus im Feld **Status** der Seite **Ressourcenzuordnungen** einsehen.  

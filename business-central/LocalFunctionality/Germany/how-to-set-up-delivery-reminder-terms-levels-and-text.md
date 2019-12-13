@@ -1,8 +1,6 @@
 ---
 title: 'Gewusst wie: Einrichten von Lieferbenachrichtigungsbedingungen, -stufen und -text'
 description: Um Lieferbenachrichtigungen zu erstellen, müssen Sie bestimmte Einrichtungen festlegen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 43ffb2dd691476bfddaade5e2b8281c1f712639b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a28f327f423e2e5f5b5383b6d3e43bbb0c8d0265
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301317"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878919"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text"></a>Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text
 Um Lieferbenachrichtigung zu erstellen, müssen Sie Folgendes einrichten:  
@@ -32,7 +30,7 @@ Weitere Informationen finden Sie unter [Lieferbenachrichtigungen](delivery-remin
 
 ## <a name="to-set-up-delivery-reminder-terms"></a>Einrichten von Lieferbenachrichtigungsmethoden  
 
-1.  Wählen Sie in der rechten oberen Ecke ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Symbol nach Seite oder Bericht suchen") und geben **Lieferbenachrichtigungsmethoden** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Lieferanmahnungsbedingungen** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 

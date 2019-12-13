@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 10/14/2019
 ms.author: edupont
-ms.openlocfilehash: 072a7a371e8314acddb6d42aec5e263dabdfa9c1
-ms.sourcegitcommit: 659cbd179d207b21fce2e365d60b423680d5156a
+ms.openlocfilehash: 595e52118cc4fa6aea1959e2ddea323b048a9d27
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622329"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882086"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassen von Business Central mithilfe der Erweiterungen
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] ändern, indem Sie beispielsweise Erweiterungen installieren, die Funktionalität hinzufügen, das Verhalten ändern oder Zugriff auf die neuen Onlinediensten geben.
@@ -30,17 +30,17 @@ Wenn Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)] zuerst starten, werden 
 Beispielsweise bietet Microsoft eine Erweiterung an, die die Integration mit PayPal Payments Standard ermöglicht. Diese Erweiterung wird standardmäßig eingerichtet.
 Wenn aber keine andere Erweiterung bereitgestellt wird, die die Integration mit einem anderen Zahlungsservice anbietet, können Sie die neue Erweiterung einrichten und dann auswählen, welcher der beiden Services verwendet werden soll.  
 
-Sie verwalten die Erweiterung auf der **Erweiterungs-Verwaltungs**-Seite. Sie können vom Startbildschirm auf diese Seite zugreifen. Wählen Sie alternativ das Symbol **Nach Seite oder Bericht suchen** aus ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren") in der oberen rechter Ecke aus, geben Sie **Erweiterung** ein, und wählen Sie dann den zugehörigen Link aus.  
+Sie verwalten die Erweiterung auf der **Erweiterungs-Verwaltungs**-Seite. Sie können vom Startbildschirm auf diese Seite zugreifen. Wählen Sie alternativ das Symbol **Nach Seite oder Bericht suchen** aus ![Glühlampe, mit der die Funktion „Sie wünschen“ geöffnet wird](media/ui-search/search_small.png "Was möchten Sie tun?") in der oberen rechter Ecke, geben Sie **Erweiterung** ein, und wählen Sie dann den zugehörigen Link aus.  
 
 > [!NOTE]  
 >   Wenn Sie der Meinung sind, Sie sollten Zugriff zu einer Erweiterung haben, können die Funktionalität aber nicht finden, überprüfen Sie die Seite **Erweiterungsverwaltung**, wenn die Erweiterung dort nicht aufgeführt wird, können Sie sie einrichten, wie im folgenden Abschnitt erläutert.  
 
 ## <a name="installing-an-extension"></a>Eine Erweiterung wird installiert
-Sie können neue Erweiterungen vom Marketplace auf [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?src=dynamics365website&product=dynamics-365-business-central) abrufen. Hier können Sie alle verfügbaren Erweiterungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] anzeigen und Apps, Erweiterungen und Inhaltspakete für andere Microsoft-Produkte abrufen. Legen Sie die gewünschten Filter fest, werfen Sie einen Blick auf die Informationen für jede Erweiterung, und rufen Sie eine Erweiterung für Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] ab.  
+Sie können neue Erweiterungen vom Marketplace auf [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) abrufen. Hier können Sie alle verfügbaren Erweiterungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] anzeigen und Apps, Erweiterungen und Inhaltspakete für andere Microsoft-Produkte abrufen. Legen Sie die gewünschten Filter fest, werfen Sie einen Blick auf die Informationen für jede Erweiterung, und rufen Sie eine Erweiterung für Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] ab.  
 > [!NOTE]  
 >   Melden Sie sich auf [AppSource.microsoft.com](https://appsource.microsoft.com/) über Ihr E-Mail-Konto an, das Sie für [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden. Verwenden Sie dasselbe E-Mail-Konto für andere Produkte und Dienste für eine reibungslose Nutzung.  
 
-Sie können auch auf den Marketplace aus [!INCLUDE[d365fin](includes/d365fin_md.md)]zugreifen. Auf der Seite **Erweiterungsverwaltung** können Sie die Erweiterungen sehen, die zur Zeit installiert sind, und Sie können die Seite **Marketplace für Erweiterungen** öffnen, die die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Erweiterungen anzeigt, die aktuell über die AppSource verfügbar sind. Wenn Sie den Link *Weitere Apps* auswählen, werden Sie auf [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) weitergeleitet.  
+Sie können auch auf den Marketplace aus [!INCLUDE[d365fin](includes/d365fin_md.md)]zugreifen. Auf der Seite **Erweiterungsverwaltung** können Sie die Erweiterungen sehen, die zur Zeit installiert sind, und Sie können die Seite **Marketplace für Erweiterungen** öffnen, die die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Erweiterungen anzeigt, die aktuell über die AppSource verfügbar sind. Wenn Sie den Link *Weitere Apps* auswählen, werden Sie auf [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) weitergeleitet.  
 
 Wenn Sie eine Erweiterung auswählen, können Sie erfahren, was die Erweiterung ausführt, und auf die Hilfe für die Erweiterung zugreifen, um mehr darüber zu erfahren. Wenn Sie eine Erweiterung erhalten möchten, müssen Sie die Nutzungsbedingungen zustimmen. Wenn Sie Erweiterungen von der AppSource-Website abrufen, werden Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] angemeldet, um die Installation abzuschließen.  
 
@@ -66,19 +66,19 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 * [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)
 * [QuickBooks Online-Datenmigration](ui-extensions-quickbooks-online-data-migration.md)
-* [Import von QuickBooks-Lohndatei](ui-extensions-quickbooks-payroll.md)
-* [Umsatz- und Lagerbestandsplanung](ui-extensions-sales-forecast.md)
+* [Quickbooks Lohndatei-Import](ui-extensions-quickbooks-payroll.md)
+* [Verkaufs- und Bestandsprognose](ui-extensions-sales-forecast.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md)
-* [DK - C5-Datenmigration](ui-extensions-c5-data-migration.md)
-* [DK - Zahlungen und gebuchte Abstimmungen](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - C5 Datenmigration](ui-extensions-c5-data-migration.md)
+* [DK - Zahlungen und Abstimmungen](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK - Steuerdateiformate](ui-extensions-tax-file-formats-dk.md)
 * [UK - GetAddress.io Postleitzahlen Großbritannien](ui-extensions-getaddressio.md)
 * [USa/CA/GB/AU/NZ/ZA – Überweisungsbestätigung senden](ui-extensions-send-remittance-advice.md)
 * [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)
 
 > [!NOTE]  
->  Neue Erweiterungen sind nicht direkt in AppSource verfügbar, nachdem ein Update angekündigt wurde. Halten Sie unter [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) Ausschau nach der Erweiterung.
+>  Neue Erweiterungen sind nicht direkt in AppSource verfügbar, nachdem ein Update angekündigt wurde. Halten Sie unter [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) Ausschau nach der Erweiterung.
 
 ## <a name="see-also"></a>Siehe auch
 [Erweitern von Dynamics 365 Business Central](about-develop-extensions.md)  
@@ -87,7 +87,7 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 [Aktivieren von Debitoren-Zahlungen durch Paypal](sales-how-enable-payment-service-extensions.md)  
 [Geschäftsdaten aus anderen Finanzsystemen migrieren](across-import-data-configuration-packages.md)  
 [Einrichten der britischen Postleitzahlerweiterung GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]Erweiterungen für andere Anbieter](ui-extensions-other.md)E  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen für andere Anbieter](ui-extensions-other.md)  
 [Erste Schritte](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

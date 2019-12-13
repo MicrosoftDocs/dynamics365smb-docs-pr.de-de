@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Hinzufügen von Feldern zu einem Word-Berichtlayou | Microsoft Docst'
 description: In diesem Thema wird das Verfahren zum Hinzufügen von Feldern aus einem Berichtsdatasets in ein bestehendes Word-Berichtslayout für einen Bericht beschrieben.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0c16dbebe7f2bbfa5efebb246149d395d051b353
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5927a69199f72b09f133d63ac76bade7af361e8c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315324"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877015"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Hinzufügen von Feldern zu einem Word-Berichtlayout
 Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bilder anzeigen. In diesem Thema wird das Verfahren zum Hinzufügen von Feldern aus einem Berichtsdatasets in ein bestehendes Word-Berichtslayout für einen Bericht beschrieben. Fügen Sie Felder hinzu, indem Sie benutzerdefinierte XML-Abschnitt in Words für den Bericht verwenden und Inhaltssteuerelemente hinzufügen, die den Feldern des Berichtsdatasets zugeordnet sind. Beim Hinzufügen von Feldern ist es erforderlich, dass Sie einiges Wissen über das Dataset des Berichts haben, damit Sie die Felder identifizieren können, die Sie dem Layout hinzufügen möchten.  
@@ -25,11 +23,11 @@ Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bild
 > [!NOTE]  
 >  Sie können keine integrierten Berichtslayouts in ändern<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-##  <a name="OpenXMLPart"></a>Um den benutzerdefinierten XML-Abschnitt für den Bericht in Word zu öffnen  
+##  <a name="OpenXMLPart"></a> Um den benutzerdefinierten XML-Abschnitt für den Bericht in Word zu öffnen  
   
 1.  Wenn nicht bereits offen, öffnen Sie den Word-Berichtlayoutbeleg in Word.  
   
-     Weitere Informationen finden Sie unter [Erstellen und bearbeiten  eines benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-create-custom-report-layout.md).  
+     Weitere Informationen finden Sie unter [Erstellen und bearbeiten eines benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-create-custom-report-layout.md).  
   
 2.  Zeigen Sie die Registerkarte **Entwickler** im Menüband von Microsoft Word an.  
   
@@ -91,7 +89,7 @@ Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bild
 3.  Um die Bildgröße zu erhöhen oder zu verringern, ziehen Sie einen der Ziehpunkte zur Mitte des Inhaltssteuerelements hin oder von der Mitte weg.  
 
 ## <a name="custom-xml-part-overview"></a>Benutzerdefinierter XML-Teil, Übersicht
-Word-Berichtlayouts werden anhand von *benutzerdefinierten XML-Abschnitten* erstellt. Ein Debitorenspezifischer XML-Abschnitt für einen  Bericht besteht aus Elementen, die den Datenelementen, den Spalten und den Beschriftungen entsprechen, die das Dataset des Berichts enthalten, wie im Berichts-DataSet-Designer in  definiert. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Der benutzerdefinierte XML-Abschnitt wird verwendet, um die Daten in einem Bericht zuzuordnen, wenn der Bericht ausgeführt wird.
+Word-Berichtlayouts werden anhand von *benutzerdefinierten XML-Abschnitten* erstellt. Ein Debitorenspezifischer XML-Abschnitt für einen Bericht besteht aus Elementen, die den Datenelementen, den Spalten und den Beschriftungen entsprechen, die das Dataset des Berichts enthalten, wie im Berichts-DataSet-Designer in definiert. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Der benutzerdefinierte XML-Abschnitt wird verwendet, um die Daten in einem Bericht zuzuordnen, wenn der Bericht ausgeführt wird.
 
   
 ### <a name="xml-structure-of-custom-xml-part"></a>XML-Struktur des benutzerdefinierten XML-Abschnitts  
@@ -100,20 +98,20 @@ Die folgende Tabelle enthält eine vereinfachte Übersicht der XML eines benutze
 |XML-Elemente|Description|  
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Header|  
-|`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|XML-Namespacespezifikation. `<reportname>` ist der Namee, der dem Bericht zugewiesen ist. `<id>`ist die ID, die dem Bericht zugewiesen ist.|  
+|`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|XML-Namespacespezifikation. `<reportname>` ist der Namee, der dem Bericht zugewiesen ist. `<id>` ist die ID, die dem Bericht zugewiesen ist.|  
 |`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Enthält alle Beschriftungen für den Bericht.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Beschriftungselemente, die mit Spalten verknüpft sind, weisen das Format `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>` auf<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />- Beschriftungselemente weisen das Format `<LabelName>LabelName</LabelName` auf<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Beschriftungen sind in alphabetischer Reihenfolge aufgeführt.|  
 |`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Dateneinträge und Spalten auf oberster Ebene. Spalten werden in alphabetischer Reihenfolge aufgeführt.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Datenelemente und Spalten, die im Dateneintrag auf oberster Ebene verschachtelt sind. Spalten werden in alphabetischer Reihenfolge unter dem entsprechenden Dateneintrag aufgelistet.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Abschließendes Element.|  
   
 ### <a name="custom-xml-part-in-word"></a>Benutzerdefinierter XML-Abschnitt in Word  
- In Word öffnen Sie den benutzerdefinierten XML-Abschnitt im **XML-Zuordnung**-Bereich und verwenden anschließend diesen Bereich, um Elemente zu den Inhaltssteuerelementen im Word-Dokument zuzuordnen. Der Bereich **XML-Zuordnung**ist zugänglich von der Registerkarte **Entwickler** (weitere Informationen unter[Anzeigen der Entwickler-Registerkarte auf dem Menüband](https://go.microsoft.com/fwlink/?LinkID=389631)).  
+ In Word öffnen Sie den benutzerdefinierten XML-Abschnitt im **XML-Zuordnung**-Bereich und verwenden anschließend diesen Bereich, um Elemente zu den Inhaltssteuerelementen im Word-Dokument zuzuordnen. Der Bereich **XML-Zuordnung** ist zugänglich von der Registerkarte **Entwickler** (weitere Informationen unter [Anzeigen der Entwickler-Registerkarte auf dem Menüband](https://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  Die Elemente im **XML-Zuordnung**-Bereich erscheinen in einer Struktur ähnlich dem XML-Quellcode. Beschriftungsfelder werden unter einem allgemeinen element **Beschriftungen** gruppiert, und Dateneintrag und Spalten sind in einer hierarchischen Struktur angeordnet, die der XML-Quelle entspricht, wobei die Spalten in alphabetischer Reihenfolge aufgeführt werden. Elemente werden durch ihren Namen, wie er durch die Eigenschaft "Name" im Berichts-DataSet-Designer in HINZUGEFÜGTE EINSCHLIESSEN definiert wird, identifiziert<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
  In der folgenden Abbildung wird der einfache benutzerdefinierte XML-Abschnitt aus dem vorherigen Abschnitt im **XML-Zuordnung**-Bereich eines Word-Dokuments dargestellt.  
   
- ![Clip des XML-Zuordnungsbereichs in Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Clip aus dem XML-Zuordnungsbereich in Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Um dem Layout eine Beschriftung oder ein Feld hinzuzufügen, fügen Sie ein Inhaltssteuerelement ein, das dem Element im **XML-Zuordnung**-Bereich zugeordnet ist.  
   

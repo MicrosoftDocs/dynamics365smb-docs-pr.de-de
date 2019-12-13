@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 10/01/2019
+ms.date: 11/13/2019
 ms.author: edupont
-ms.openlocfilehash: a22fe178668892472b05bcb554989dce0cc3d46d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 830c12f64c3701b583cf9569f85c67224941f77f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300809"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881240"
 ---
 # <a name="local-functionality-in-included365fin_longincludesd365fin_long_mdmd"></a>Lokale Funktion in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über eine kombinierte Lokalisierungsstrategie, inklusive von Microsoft geführter und partnergeführter Modelle. In diesem Abschnitt können Sie Beschreibungen der Funktionen anzeigen, die für die Länder gelten, in denen Microsoft die regulatorische Kompatibilität und andere Funktionen bereitstellt.  
 
-Eine Liste der derzeit unterstützten Märkte finden Sie im Deck [Internationale Verfügbarkeit von Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability).  
+Eine Liste der derzeit unterstützten Märkte finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 ## <a name="local-functionality"></a>Lokale Funktionalität
 Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für jedes Land zu erfahren:
@@ -51,10 +51,11 @@ Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für j
 |        | Neuseeland | [Lokale Funktion (Neuseeland)](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Andere Länder
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land entwickelt hat, finden Sie diese in [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land entwickelt hat, finden Sie diese in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
 [Kompatibilität](compliance/compliance-overview.md)  
-[Internationale Verfügbarkeit von Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
+[Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Internationale Verfügbarkeit von Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Entwicklung einer Lokalisierungslösung](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

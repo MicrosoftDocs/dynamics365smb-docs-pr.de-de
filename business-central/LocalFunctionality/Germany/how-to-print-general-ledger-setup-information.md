@@ -1,8 +1,6 @@
 ---
 title: 'Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen'
 description: Bevor Sie Business Central im täglichen Geschäft verwenden können, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c77437487ebba06a6e0000ef7b1f7418807b7e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 11b3d59c233b893ab1bb2159e895462e8a56ac4b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301321"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878179"
 ---
 # <a name="print-general-ledger-setup-information"></a>Drucken von Finanzbuchhaltungs-Setupinformationen
 Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im täglichen Geschäft verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Stammdaten durchgehen, sodass Sie eine Grundlage für den Vergleich haben und dann überprüfen können, ob Sie die Buchungsgruppen korrekt eingerichtet haben.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png " Nach Seite oder Bericht suchen")und geben **Finanzbuchhaltungs-Einrichtungsinformation** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Sachkonto-Einrichtungsinformationen** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie im Stapelverarbeitungsauftrag **Optionen** im Inforegister **Einrichtdungsinformationen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Option|Description|  

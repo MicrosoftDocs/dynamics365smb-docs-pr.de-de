@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Artikel montieren | Microsoft Docs'
 description: Wenn das Feld **Beschaffungsmethode** auf der Artikelkarte **Montage** enthält, besteht die Standardmethode zur Bereitstellung des Artikels darin, es aus definierten Komponenten und eventuell mit einer definierten Ressource zu montieren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27a1674c06b4e874f5152117f00161dd053c4e73
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7effb54187a0b59a175b5fe19265e6fb32bbc295
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307684"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880904"
 ---
 # <a name="assemble-items"></a>Artikel montieren
 Wenn das Feld **Beschaffungsmethode** auf der Artikelkarte **Montage** enthält, besteht die Standardmethode zur Bereitstellung des Artikels darin, es aus definierten Komponenten und eventuell mit einer definierten Ressource zu montieren.  
@@ -43,14 +41,14 @@ Diese Einrichtungsoptionen sind Standardeinstellungen, die verwalten, wie Verkau
 In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Artikel, die für das Lager montiert werden, d. h. ohne einen verknüpften Verkaufsauftrag. Die Schritte enthalten das Initiieren des Montageauftrags, die Behandlung potenzieller Komponentenverfügbarkeitsprobleme und die Teilbuchung des Montageartikelausstoßes.
 
 ## <a name="to-assemble-an-item"></a>Um einen Artikel zu montieren  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Montageauftrag** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Montageaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus. Die Seite **Neuer Montageauftrag** wird geöffnet.  
 3.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Wählen Sie im Feld **Artikelnr.** den Montageartikel aus, den Sie verarbeiten möchten. Das Feld wird gefiltert, um nur Artikel angezeigt, die für die Montage eingerichtet sind, d.h., denen Montagestücklisten zugeordnet sind.  
 5.  Geben Sie im Feld **Menge** ein wie viele Einheiten des Artikels Sie montieren möchten.  
 
     > [!NOTE]  
-    >  Wenn eine oder mehrere Komponenten nicht verfügbar sind, um die eingegebene Menge des Montageartikels zum definierten Fälligkeitsdatum herzustellen, dann wird automatisch die Seite **Montageverfügbarkeit** geöffnet, um detaillierte Informationen darüber anzuzeigen, wie viele Montageartikel basierend auf der Komponentenverfügbarkeit montiert werden können. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md)  Wenn Sie die Seite schließen, wird der Montageauftrag mit Verfügbarkeitswarnungen in den betroffenen Komponentenzeilen erstellt.  
+    >  Wenn eine oder mehrere Komponenten nicht verfügbar sind, um die eingegebene Menge des Montageartikels zum definierten Fälligkeitsdatum herzustellen, dann wird automatisch die Seite **Montageverfügbarkeit** geöffnet, um detaillierte Informationen darüber anzuzeigen, wie viele Montageartikel basierend auf der Komponentenverfügbarkeit montiert werden können. Weitere Informationen finden Sie unter [Die Verfügbarkeit von Artikeln anzeigen](inventory-how-availability-overview.md) Wenn Sie die Seite schließen, wird der Montageauftrag mit Verfügbarkeitswarnungen in den betroffenen Komponentenzeilen erstellt.  
 
     Die Montageauftragszeilen werden automatisch mit dem Inhalt der Montagestückliste und mit Zeilenmengen entsprechend dem Montageauftragskopf gefüllt.  
 
@@ -73,5 +71,5 @@ Nach erfolgreicher Buchung wird der Montageartikel als Ausstoß für den Lageror
 [Montageverwaltung](assembly-assemble-items.md)  
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Designdetails: Logistik](design-details-warehouse-management.md)  
+[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

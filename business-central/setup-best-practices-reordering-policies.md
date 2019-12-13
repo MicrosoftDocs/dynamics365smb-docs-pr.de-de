@@ -1,8 +1,6 @@
 ---
 title: 'Bewährte Einrichtungsmethoden: Wiederbeschaffungsverfahren | Microsoft Docs'
 description: Das Feld Nachbestellungs-Richtlinie auf Artikelkarten umfasst vier verschiedene Planungsmethoden, die bestimmen, wie die einzelnen Planungsparameter interagieren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46e4b5861242258769548cae5f214a8d7cb8f9a6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311524"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882230"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Bewährte Einrichtungsmethoden: Wiederbeschaffungsverfahren
 Das Feld **Nachbestellungs-Richtlinie** auf Artikelkarten umfasst vier verschiedene Planungsmethoden, die bestimmen, wie die einzelnen Planungsparameter interagieren.  
@@ -32,7 +30,7 @@ Eine optimale Grundlage für die Auswahl eines Wiederbeschaffungsverfahrens ist 
 
 Die ABC-Klassifizierungs besagt, dass Aufwand und Geld gespart werden können, indem Artikeln mit geringem Wert weniger kontrolliert werden, als Artikeln mit hohem Wert. Die folgenden Abbildung zeigt, welches Wiederbeschaffungsverfahren in [!INCLUDE[d365fin](includes/d365fin_md.md)] für A-, B- und C-Artikel am besten geeignet ist.
 
-![ABC-Klassifizierung](media/abc_classification.png "abc_classification")
+![ABC Klassifizierung](media/abc_classification.png "abc_classification")
 
 Die folgende Tabelle enthält bewährte Methoden für die Auswahl zwischen den vier Richtlinien.  
 

@@ -1,8 +1,6 @@
 ---
 title: Designdetails - Interner Lagerfluss | Microsoft Docs
 description: An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerplätzen auf die Kommissionierung von Komponenten und die Einlagerung von Endartikeln für Produktions oder Montageaufträge und Ad-hoc-Verschiebungen, wie etwa Lagerplatzauffüllungen, ohne Bezug auf Herkunftsbelege.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bce55cda1ba5fd5dd89ad75b224651df719d76d5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55f58acc0f65469261903c28b71942010d44c695
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303460"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880352"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetails: Interner Lagerfluss
 An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerplätzen auf die Kommissionierung von Komponenten und die Einlagerung von Endartikeln für Produktions oder Montageaufträge und Ad-hoc-Verschiebungen, wie etwa Lagerplatzauffüllungen, ohne Bezug auf Herkunftsbelege. Der Umfang und die Art der einbezogenen Tätigkeiten variiert zwischen der grundlegenden und der erweiterten Logistik.  
@@ -116,7 +114,7 @@ An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerpl�
 
  Die folgende Abbildung zeigt, wann das Feld **Lagerplatzcode** auf der Komponentenliste entsprechend Ihrer Lagerort- oder Arbeitsplatzeinrichtung gefüllt wird.  
 
- ![Übersicht, wenn/wie das Feld ausgefüllt ist](media/binflow.png "Übersicht, wenn/wie das Feld ausgefüllt ist")  
+ ![Übersicht darüber, wann/wie das Feld Lagerortcode ausgefüllt wird](media/binflow.png "Übersicht darüber, wann/wie das Feld Lagerortcode ausgefüllt wird")  
 
 ## <a name="see-also"></a>Siehe auch  
- [Designdetails: Logistik](design-details-warehouse-management.md)
+ [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)

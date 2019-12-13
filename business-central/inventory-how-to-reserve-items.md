@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Artikel reservieren | Microsoft Docs'
 description: Sie können Artikel für Verkaufsaufträge, Einkaufsbestellungen und Fertigungsaufträgen reservieren. Sie können Artikel in Lager oder eingehenden in Zeilen der offenen Belegzeile reservieren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8e951085df03dbb2ca444a9ab62db87447ec1368
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a6e17d357aeb39f9a77266ae9e8593702080d389
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309748"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878278"
 ---
 # <a name="reserve-items"></a>Artikel reservieren
 Reservieren Sie Lager oder eingehenden Artikel für Verkaufsaufträge, Bestellungen, Serviceaufträge, Montageaufträge oder Fertigungsaufträge. Sie können Artikel in Lager oder eingehenden in Zeilen der offenen Belegzeile reservieren. Sie führen die Arbeit auf der Seite **Reservierungen** aus.
 
-Jede Zeile in **Reservierung**beinhaltet Informationen zu der Art der Zeile (Verkauf, Einkauf, Buchungsblatt) oder der Postenart. Die Zeilen zeigen an, wie viele Artikel von jeder Art von Zeile oder Posten für die Reservierung verfügbar sind.
+Jede Zeile in **Reservierung** beinhaltet Informationen zu der Art der Zeile (Verkauf, Einkauf, Buchungsblatt) oder der Postenart. Die Zeilen zeigen an, wie viele Artikel von jeder Art von Zeile oder Posten für die Reservierung verfügbar sind.
 
 ## <a name="to-reserve-items-for-sales"></a>So reservieren Sie Artikel für Verkäufe:
 Nachfolgend wird erläutert, wie Entscheidungsträger als Artikel aus einem Verkaufsauftrag reserviert werden. Die Schritte sind gleich für Einkaufs-, Service- und Montageaufträge.  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2.  Klicken Sie in einem Verkaufsauftrag auf dem Inforegister **Zeilen** auf **Reservieren**. Die Seite **Reservierung** wird geöffnet.  
 3. Wählen Sie in die Zeile, aus der Sie Artikel reservieren möchten.  
 4. Wählen Sie eine der folgenden Optionen aus.  
@@ -44,11 +42,11 @@ Nachfolgend wird erläutert, wie Entscheidungsträger als Artikel aus einem Verk
 Sie können Artikel für Erstellungsaufträge reservieren. Sie müssen zwischen Produktionsauftragszeilen, d.h. übergeordnete Artikel und Produktionsauftragskomponenten unterscheiden.
 
 Im weiteren Prozess wird ein fest geplanter Fertigungsauftrag verwendet.   
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Fest geplante Produktionsauftrag** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Fester geplanter Fertigungsauftrag** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den fest geplanten Produktionsauftrag, den Sie für übergeordnete Artikel reservieren möchten.  
 3. Wählen Sie die entsprechende FA-Zeilennummer aus.  
 4. Wählen Sie auf dem Inforegister **Zeilen** das Feld **Reservieren** aus.
-5. Wählen Sie auf der Seite **Resevierung**die Zeile **Verkaufszeile, Auftrag**, und klicken Sie dann auf Aktionen in der Gruppe Funktion, und wählen Sie **Von aktueller Zeile reservieren**.  
+5. Wählen Sie auf der Seite **Resevierung** die Zeile **Verkaufszeile, Auftrag**, und klicken Sie dann auf Aktionen in der Gruppe Funktion, und wählen Sie **Von aktueller Zeile reservieren**.  
 
 Die Menge, die Sie im fest geplanten Fertigungsauftrag eingetragen haben, ist reserviert.
 
@@ -56,7 +54,7 @@ Die Menge, die Sie im fest geplanten Fertigungsauftrag eingetragen haben, ist re
 Sie können Artikel für Erstellungsaufträge reservieren. Sie müssen zwischen Produktionsauftragszeilen, d.h. übergeordnete Artikel und Produktionsauftragskomponenten unterscheiden.
 
 Im weiteren Prozess wird ein fest geplanter Fertigungsauftrag verwendet.    
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Fest geplante Produktionsauftrag** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Fester geplanter Fertigungsauftrag** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den fest geplanten FA, für den Sie Komponentenartikel reservieren möchten.  
 3. Wählen Sie die entsprechende FA-Zeilennummer aus.  
 4. Wählen Sie auf dem Inforegister **Zeilen** die Option **Zeile** und dann **Posten** aus.  
@@ -86,14 +84,14 @@ Aus ausgehenden Dokumenten für Artikel mit Artikelverfolgung, wie Verkaufsauftr
 Dies wird als spezifische Reservierung bezeichnet, da Sie eine Menge von Artikel X reservieren, die zu Charge X gehört. Wenn Sie einfach Mengen von Artikel X reservieren, ist dies eine normale, unspezifische Reservierung. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md).
 
 Das folgende Verfahren basiert auf einer Auftragsabwicklung.    
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link aus.  
 2. Erstellen Sie eine Verkaufsauftragszeile für einen Artikel mit Artikelverfolgung.  
 3. Weisen Sie dann der Verkaufsauftragszeile Serien- und Chargennummern zu. Weitere Informationen finden Sie unter [Arbeiten mit Serien- und Chargennummern](inventory-how-work-item-tracking.md).
 4. Auf der Verkaufsauftragszeile wählen Sie die Aktion **Reservieren** aus.  
 5. Wählen Sie die Schaltfläche **Ja**, um bestimmte Serien- oder Chargennummern zu reservieren.  
 6. Wählen Sie auf der Seite **Artikelnachverfolgungsliste** die Serien- und Chargennummernkombination aus, die Sie gerade zugewiesen haben.  
 7. Wählen Sie die Schaltfläche **OK**, um die Seite **Reservationen** zu öffnen, in dem nur der Bedarf angezeigt wird, der mit der angegebenen Artikelverfolgungsnummer verbunden ist. Bei nicht-spezifischen Reservierungen für eine der Artikelverfolgungsnummern, die Sie in dieser Zeile angegeben haben, werden Sie über die Menge informiert, die bereits reserviert wurde.  
-8. Klicken Sie auf die Aktionen **Automatisch Reservieren**oder **Aus aktueller Zeile reservieren**, um die Reservierung für die speziellen Artikelverfolgungsnummern zu erstellen.
+8. Klicken Sie auf die Aktionen **Automatisch Reservieren** oder **Aus aktueller Zeile reservieren**, um die Reservierung für die speziellen Artikelverfolgungsnummern zu erstellen.
 
 ## <a name="see-also"></a>Siehe auch
 [Lagerbestand](inventory-manage-inventory.md)  

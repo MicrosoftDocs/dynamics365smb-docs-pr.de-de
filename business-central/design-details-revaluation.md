@@ -1,8 +1,6 @@
 ---
 title: Designdetailsl- Neubewertung | Microsoft Docs
 description: Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäß für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode "Standard", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a15b1f36bccc733a8de8c846da7cffbfae7c5af6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c60dddbf5e559fbbcf7990cd4a5cc62da2459e63
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303028"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880040"
 ---
 # <a name="design-details-revaluation"></a>Designdetails: Neubewertung
 Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäß für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode "Standard", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.  
@@ -41,7 +39,7 @@ Da die Neubewertung an jedem beliebigen Datum erstellt werden kann, müssen Sie 
 ### <a name="example"></a>Beispiel  
 Im folgenden Beispiel wird gezeigt, wann ein WIP-Artikel Teil des Bestands wird. Das Beispiel basiert auf der Produktion einer Kette mit 150 Gliedern.  
 
-![Produktionslager und Neubewertung](media/design_details_inventory_costing_10_revaluation_wip.png "Produktionslager und Neubewertung")  
+![“RIF-Lagerbestand und Neubewertung](media/design_details_inventory_costing_10_revaluation_wip.png "“RIF-Lagerbestand und Neubewertung")  
 
 **1Q**: Der Benutzer bucht die eingekauften Links als erhalten. Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
 
@@ -87,7 +85,7 @@ Das Bewertungsdatum wird auf das Datum der Verbrauchsbuchung (02-01-20) als rege
 |02-15-20|EK-Preis|02-15-20|150.00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Soll-Kosten in der Neubewertung  
-Die neubewertete Menge XE "Neubewertete Menge"  XE "Menge,Neubewertet" wird als die Summe der Menge XE "Menge" für vollständig fakturierte XE "Rechnungs" Artikelposten XE "Artikelposten" Einträgen mit einem Buchungsdatum gleich oder vor dem XE Neubewertung " Neubewertungs" Datum berechnet. Das bedeutet, dass, wenn mehrere Artikel eingegangen/geliefert, aber noch nicht fakturiert sind, deren Lagerwert nicht als XE "Bestandwert" berechnet werden kann. Artikel mit der Lagerabgangsmethode "Standard" werden nicht in dieser Hinsicht begrenzt. XE "Wert"  
+Die neubewertete Menge XE "Neubewertete Menge" XE "Menge,Neubewertet" wird als die Summe der Menge XE "Menge" für vollständig fakturierte XE "Rechnungs" Artikelposten XE "Artikelposten" Einträgen mit einem Buchungsdatum gleich oder vor dem XE Neubewertung " Neubewertungs" Datum berechnet. Das bedeutet, dass, wenn mehrere Artikel eingegangen/geliefert, aber noch nicht fakturiert sind, deren Lagerwert nicht als XE "Bestandwert" berechnet werden kann. Artikel mit der Lagerabgangsmethode "Standard" werden nicht in dieser Hinsicht begrenzt. XE "Wert"  
 
 > [!NOTE]  
 >  Eine weitere Art von erwarteten Kosten, die neubewertet werden können, ist der WIP-Bestand, für den bestimmte Regeln gelten. Weitere Informationen finden Sie im "Abschnitt "Lagerbewertung - Aktiviert" dieses Themas.  
@@ -143,7 +141,7 @@ Das folgende Beispiel, das die Neubewertung eines Artikels zeigt, der die FIFO-K
 6.  In 02-01-20 bucht der Benutzer einen Verkauf von 1 Einheit.  
 7.  In 03-01-20 bucht der Benutzer einen Verkauf von 1 Einheit.  
 8.  In 04-01-20 bucht der Benutzer einen Verkauf von 1 Einheit.  
-9. Der Benutzer führt die Stapelverarbeitung  **Kosten anpassen - Artikeleingänge** aus.  
+9. Der Benutzer führt die Stapelverarbeitung **Kosten anpassen - Artikeleingänge** aus.  
 
 Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
 

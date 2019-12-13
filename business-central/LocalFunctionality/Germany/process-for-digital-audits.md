@@ -1,8 +1,6 @@
 ---
 title: Digital-Überwachung (/GoBD GDPdU)
 description: Sie können Finanz- und Steuerdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 981c312c9ebef7ed6ee13f14eed925cd413822e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 835cf57812b99b45b508d80362585ad1409b7fba
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300174"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878171"
 ---
 # <a name="process-for-digital-audits-gobdgdpdu"></a>Prozess für Digital-Überwachung (/GoBD GDPdU)
 Sie können Daten aus [!INCLUDE[d365fin](../../includes/d365fin_md.md)] exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.  

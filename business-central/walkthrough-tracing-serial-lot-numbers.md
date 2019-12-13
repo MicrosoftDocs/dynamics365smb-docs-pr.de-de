@@ -1,8 +1,6 @@
 ---
 title: 'Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern | Microsoft Docs'
 description: Wenn Produktfehler auftreten, müssen die Fehler identifiziert werden, und es muss verhindert werden, dass die betroffenen Artikel das Unternehmen verlassen. Falls bereits defekte Artikel geliefert wurden, müssen Sie verfolgen, wer diese Artikel erhalten hat, und ggf. muss ein Rückruf eingeleitet werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a1a339c57e47f3722050209acbe83e246ccdbbb6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 23bbed9e19fa2a3fd99f45cfde24d6d16f31e795
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310492"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876823"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
 
@@ -74,8 +72,8 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 ### <a name="to-create-the-items"></a>Serviceartikel anlegen  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie die Aktion **Neu** aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
+2.  Wählen Sie die Aktion **Neu**.  
 3.  Geben Sie im Feld **Nr.** Geben Sie im Feld **2000** ein und füllen Sie dann die folgenden Felder aus.  
 
     |Beschreibung|Basiseinheiten|Gen. Produktbuchungsgruppe|MwSt.-Produktbuchungsgruppe|Lagerbuchungsgruppe|Artikelverfolgungscode|  
@@ -110,7 +108,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     Kaufen Sie als Nächstes Rennradrahmen vom Lieferanten Custom Metals Incorporated.  
 
 ### <a name="to-purchase-components"></a>Um Komponenten zu kaufen  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kaufaufträge** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Erstellen Sie eine Bestellung für den Kreditor Custom Metals Incorporated, indem Sie die folgenden Felder ausfüllen.  
 
@@ -124,7 +122,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 7.  Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Lieferung und Rechnung**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     Kaufen Sie als Nächstes Rennradrahmen von Coolwood Technologies.  
-8.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kaufaufträge** ein, und wählen dann den zugehörigen Link aus.  
+8.  Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.  
 9. Wählen Sie die Aktion **Neu** aus.
 10. Erstellen Sie eine Bestellung für den Kreditor Coolwood Technologies, indem Sie die folgenden Felder ausfüllen.  
 
@@ -140,7 +138,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     Als Nächstes produzieren Sie zwei Rennräder, SN1 und SN2.  
 
 ### <a name="to-produce-end-items"></a>Um Endartikel zu produzieren  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Freigegebene FA** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Freigegebene FA** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Gruppe **Neu** aus.  
 3.  Erstellen Sie einen neuen freigegebenen Fertigungsauftrag, indem Sie die folgenden Felder ausfüllen.  
 
@@ -161,7 +159,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Als Nächstes produzieren Sie zwei weitere Rennräder, SN3 und SN4.  
 
-11. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Freigegebene FA** ein, und wählen dann den zugehörigen Link aus.  
+11. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Freigegebene FA** ein, und wählen Sie dann den zugehörigen Link.  
 12. Wählen Sie die Aktion **Neu** aus.  
 13. Erstellen Sie einen neuen freigegebenen Fertigungsauftrag, indem Sie die folgenden Felder in der Kopfzeile ausfüllen.  
 
@@ -186,7 +184,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     Als Nächstes verkaufen Sie Rennräder. Verkaufen Sie zuerst das Rennrad mit SN1 an Selangorian Ltd.  
 
 ### <a name="to-sell-the-end-items"></a>Um die Endartikel zu verkaufen  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus, und dann erstellen Sie einen Verkaufsauftrag, indem Sie die folgenden Felder ausfüllen.  
 
     |Debitor|Artikel|Menge|Seriennummer|  
@@ -198,7 +196,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Als Nächstes verkaufen Sie das Rennrad mit SN2 an The Cannon Group PLC.  
 
-5.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
+5.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 6.  Wählen Sie die Aktion **Neu** aus, und dann erstellen Sie einen Verkaufsauftrag, indem Sie die folgenden Felder ausfüllen.  
 
     |Debitor|Artikel|Menge|Seriennummer|  
@@ -210,7 +208,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Zum Schluss verkaufen Sie einige Rennradrahmen separat. Cannon Group PLC. bestellt zudem vier separate Rennradrahmen für ihre eigene Fertigungslinie.  
 
-9. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Aufträge** ein, und wählen dann den zugehörigen Link aus.  
+9. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 10. Wählen Sie die Aktion **Neu** aus, und dann erstellen Sie einen Verkaufsauftrag, indem Sie die folgenden Felder ausfüllen.  
 
     |Debitor|Artikel|Menge|Seriennr.|  
@@ -228,7 +226,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
  Von der Verkaufsabteilung weiß der Qualitätskontrolleur, dass das reklamierte Rennrad, Artikel 1002, die Seriennummer SN1 besitzt. Anhand dieser Basisinformation kann er feststellen, wo das fertige Rennrad zuletzt verwendet wurde, in diesem Fall in der Verkaufslieferung an die Blütenhaus GmbH. Anschließend muss der Qualitätskontrolleur das Rennrad zum frühesten Ursprung zurückverfolgen, um festzustellen, aus welcher Charge und von welchem Kreditor der fehlerhafte Rennradrahmen stammt.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>So stellen Sie fest, aus welcher Charge und von welchem Lieferanten der fehlerhafte Rahmen stammt  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Artikelnachverfolgung** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Artikelablaufverfolgung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Geben Sie auf der Seite **Artikelablaufverfolgung** **SN1** in das Feld **Seriennr** ein, und geben Sie dann **1002** in das Feld **Artikelfilter** ein.  
 3.  Übernehmen Sie die Standardeinstellung **Nur mit Artikelverfolgung** im Feld K **omponenten anzeigen** und die Standardverfolgungsmethode **Verbrauch - Ursprung** im Feld **Nachverfolgungsmethode**  
 4.  Wählen Sie die Aktion **Ablaufverfolgung** aus.  

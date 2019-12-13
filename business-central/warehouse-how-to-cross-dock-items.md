@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Zuordnen von Artikeln | Microsoft Docs'
 description: Die Zuordnungsfunktionalität ist verfügbar, wenn Sie Ihren Lagerort so eingerichtet haben, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 49e67bbdcf67b750f0de0d0c890df00281e381e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 717f6db3e8d53a8b2d75b9a27749e353e5ff28bc
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310372"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876799"
 ---
 # <a name="cross-dock-items"></a>Zuordnungselemente
 Die Zuordnungsfunktionalität ist verfügbar, wenn Sie Ihren Lagerort so eingerichtet haben, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.  
@@ -43,14 +41,14 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
 
     Wenn Sie Zonen verwenden, erstellen Sie eine Zone für Ihre Zuordnungslagerplätze, und wählen Sie das Feld **Zuordnungslagerplatzzone** aus. Weitere Informationen finden Sie unter [Einrichten von Lagerplätzen](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
+2.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Lagerort** ein und wählen Sie dann den entsprechenden Link.  
 3.  Öffnen Sie die Seite **Lagerort**, und wählen Sie den Lagerort aus, den Sie für das Lager bezüglich Zuordnungen einrichten möchten, und wählen Sie die Aktion **Bearbeiten** aus.  
 4.  Wählen Sie im Inforegister **Lager** das Kontrollkästchen **Zuordnung verwenden** aus, und tragen Sie im Feld **Zuord.-Fälligkeitsdatum ber.** die Zeit für die Suche nach Zuordnungsmöglichkeiten ein.
 
     Die Option **Zuordnung verwenden** ist nur verfügbar, wenn die Felder **Wareneingang erforderlich**, **Warenausgang erforderlich**, **Kommissionierung erforderlich** und **Einlagerung erforderlich** ausgewählt sind.  
 
 5.  Wenn Sie Lagerplätze verwenden, tragen Sie im Inforegister **Lagerplätze** in das Feld **Zuordnungslagerplatzcode** den Code des Lagerplatzes ein, der als Vorgabelagerplatz für Zuordnungen verwendet werden soll.  
-6.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Lagerhaltungsdaten** ein, und wählen den zugehörigen Link aus.  
+6.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagermengeneinheit** ein und wählen Sie dann den entsprechenden Link aus.  
 7.  Für jeden Artikel oder alle Lagerhaltungsdaten, die Sie zur Zuordnung verwenden möchten, wählen Sie den Artikel aus, und wählen Sie die **Bearbeiten** Aktion aus.
 8. Auf der Seite **Lagerhaltungsdatenkarte** wählen Sie das Kontrollkästchen **Zuordnung verwenden** aus.  
 
@@ -58,7 +56,7 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
 >  Die Zuordnung ist nur möglich, wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>So ordnen Sie Artikel zu, ohne sich die Möglichkeiten anzeigen zu lassen:  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Wareneingänge** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Erstellen Sie Wareneingänge für einen Artikel, der angekommen ist und möglicherweise in Zuordnungen einbezogen werden kann. Weitere Informationen finden Sie unter [Entnahme von Artikeln](warehouse-how-receive-items.md).  
 3.  Füllen Sie das Feld **Menge akt. Lieferung** aus, und wählen Sie dann die Aktion **Zuordnung berechnen** aus.  
 
@@ -75,7 +73,7 @@ Die Anwendung speichert keine eigenen Datensätze von Artikeln, die zugeordnet w
 7.  Wenn Sie zugeordnete Artikel als eingelagert und zum Kommissionieren registrieren möchten, wählen Sie die Aktion **Registrieren** aus.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>So ordnen Sie Artikel zu, nachdem Sie die Verkaufschancen angezeigt haben:  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Wareneingänge** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Erstellen Sie Wareneingänge für einen Artikel, der angekommen ist und möglicherweise in Zuordnungen einbezogen werden kann. Weitere Informationen finden Sie unter [Entnahme von Artikeln](warehouse-how-receive-items.md).  
 
     Sie können sich die Herkunftsbelegzeilen ansehen, die den Artikel anfordern, bevor Sie den Wareneingang buchen.  

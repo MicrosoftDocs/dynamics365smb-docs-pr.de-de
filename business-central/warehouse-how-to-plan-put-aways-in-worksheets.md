@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Planen von Einlagerungen in Vorschlägen | Microsoft Docs'
 description: Wenn für Ihren Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie Einlagerungsanweisungen für mehrere Wareneingänge planen möchten, anstatt die Mitarbeiter Anweisungen ausführen zu lassen, die die Anwendung für einzelne gebuchte Wareneingänge erzeugt – können Sie den Einlagerungsvorschlag nutzen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae631fc6383e9aec6edc5fcc432e614f39ee74e4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4537a7f6d450ec71e574c85cef1987232f792479
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314604"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876536"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planen von Einlagerungen in Arbeitsblättern
 Wenn für Ihren Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie Einlagerungsanweisungen für mehrere Wareneingänge planen möchten, anstatt die Mitarbeiter Anweisungen ausführen zu lassen, die die Anwendung für einzelne gebuchte Wareneingänge erzeugt – können Sie den Einlagerungsvorschlag nutzen.  
@@ -33,7 +31,7 @@ Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch die Einlag
 > 2.  Setzen Sie dieses Vorgehen in so vielen Einlagerungen fort, wie Sie möchten, bis Sie die Zeilen gelöscht haben, die Sie im Vorschlag bearbeiten möchten. Wählen Sie jetzt **Einlagerungsvorschläge** und setzen Sie die Planung fort.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>So planen Sie Anweisungen im Einlagerungsvorschlag:  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Einlagerungsvorschlag** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Einlagerungsvorschlag** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Logistikbeleg holen** Aktion aus. Die Seite **Einlagerungsauswahl** wird geöffnet.  
 
     Sie sehen alle gebuchten Wareneingänge und registrierten internen Einlagerungen, die zur Einlagerungsfunktion weitergeleitet wurden, einschließlich derer, für die bereits Einlagerungsanweisungen erstellt wurden. Belege mit Einlagerungszeilen, die bereits vollständig eingelagert und registriert wurden, werden in dieser Übersicht nicht angezeigt.  
@@ -69,5 +67,5 @@ Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch die Einlag
 [Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
-[Designdetails: Logistik](design-details-warehouse-management.md)  
+[Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

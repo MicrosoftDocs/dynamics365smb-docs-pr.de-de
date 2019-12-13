@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a77c5bcadb15cd1180fc102a1f15881d0cc5db5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c8714bc1f12b6fd4bf68124cf1797bfa89ece6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315660"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882254"
 ---
 # <a name="copy-and-paste-faq"></a>Kopieren und einfügen FAQ
 Sie können eine oder mehrere Zeilen (Datensätze) aus einer Liste oder einem einzelnen Feld auf einer Seite kopieren und die kopierten Daten dann auf der gleichen Seite, einer andere Seite oder einem externen Dokument (wie Microsoft Excel und Outlook-E-Mail) einfügen. Kurz gesagt, zum Kopieren drücken Sie STRG+C (cmd+C in Mac Os) auf Ihrer Tastatur. Zum Einfügen drücken Sie STRG+V (cmd+V in Mac Os).
@@ -38,7 +38,7 @@ Um eine einzelne Zeile zu kopieren, wählen Sie diese aus und drücken Sie STRG+
 
 Wenn Sie weitere Zeilen kopieren möchten, können Sie Folgendes tun:
 - Drücken Sie STRG und klicken Sie auf eine andere Zeile oder drücken Sie UMSCHALT und Klicken Sie, um die Zeile und alle dazwischen zu markieren. Weitere Informationen zu Maus- und Tastenkombinationen zur Auswahl von Zeilen finden Sie unter [Tastenkombinationen](keyboard-shortcuts.md#CopyRows).
-- Wählen Sie ![Weitere Optionen anzeigen](media/show-more-options-icon.png "Weitere Optionen anzeigen Symbol") in der ersten Spalte einer Zeile, wählen Sie **Weitere auswählen** aus, wählen Sie das Kontrollkästchen neben jeder Zeile, die Sie kopieren möchten, und drücken dann STRG+C.
+- Wählen Sie ![Weitere Optionen anzeigen](media/show-more-options-icon.png "Symbol „Weitere Optionen anzeigen“") in der ersten Spalte einer Zeile, wählen Sie **Weitere auswählen** aus, aktivieren Sie das Kontrollkästchen neben jeder Zeile, die Sie kopieren möchten, und drücken dann STRG+C.
 
 ## <a name="how-do-i-paste-rows"></a>Wie füge ich Zeilen ein?
 Wählen Sie eine leere Zeile mit Fokus in einer beliebigen Zelle aus und drücken Sie STRG+V.
@@ -56,7 +56,7 @@ Ja. Dies wird als eine formatierte Tabelle eingefügt, bei der die Einrückung, 
 ## <a name="in-which-lists-can-i-copy-and-paste-rows"></a>In welche Listen kann ich Zeilen kopieren und einfügen?
 Sie können Zeilen in jede Art von Liste kopieren, einschließlich Arbeitsblättern, Infoboxen oder Liste, die auf einer Seite eingebettet sind (z. B. Zeilen eines Verkaufsauftrags). Zum Einfügen müssen Zeilen jedoch editierbar sein.
 
-Auf einigen Seiten kann der Anwendungsentwurf verhindern, dass Sie Zeilen einfügen. Wenden Sie sich an Ihren Administrator oder an den Anwendungsentwickler, um die [Eigenschaft "Editierbar"](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) auf der Seite oder die [Eigenschaft "PasteIsValid"](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) in der Quelltabelle zu ändern.
+Auf einigen Seiten kann der Anwendungsentwurf verhindern, dass Sie Zeilen einfügen. Wenden Sie sich an Ihren Administrator oder an den Anwendungsentwickler, um die [Eigenschaft "Editierbar"](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) auf der Seite oder die [Eigenschaft "PasteIsValid"](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) in der Quelltabelle zu ändern.
 
 ## <a name="on-which-clients-is-copy-and-paste-available"></a>Auf welchen Clients ist das Kopieren und Einfügen verfügbar?
 Kopieren und Einfügen sind im Browser oder der [!INCLUDE[d365fin](includes/d365fin_md.md)]-App für Windows 10 verfügbar.

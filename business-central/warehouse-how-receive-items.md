@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Wareneingang von Artikeln | Microsoft Docs'
 description: Wenn Artikel bei einem Lager ankommen, das für die Bearbeitung des Wareneingangs eingerichtet wurde, müssen Sie die Zeilen des freigegebenen Herkunftsbelegs abrufen, der ihren Wareneingang ausgelöst hat.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ea8d952f6ef88415b0fef27c1694ad7d29672e64
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d007c3a9433807f75e667e130c0b79355a4a051a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310453"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876743"
 ---
 # <a name="receive-items"></a>Empfangen von Artikeln
 Wenn Artikel bei einem Lager ankommen, das nicht für die Bearbeitung des Wareneingangs eingerichtet wurde, können Sie den Wareneingang einfach im zugehörigen Geschäftsdokument, wie einer Einkaufsbestellung, einer Verkaufsreklamation oder ein eingehender Umlagerungsauftrag, erfassen.
@@ -26,7 +24,7 @@ Wenn Artikel bei einem Lager ankommen, das für die Bearbeitung des Wareneingang
 
 ## <a name="to-receive-items-with-a-purchase-order"></a>So empfangen Sie Artikel mit einer Einkaufsbestellung
 Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. Die Schritte für Verkaufsreklamationen und Umlagerungsaufträgen sind ähnlich.  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kaufaufträge** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie eine bestehende Bestellung, oder erstellen Sie eine neue. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 3. Geben Sie in dem Feld **Menge akt. Lieferung** die empfangene Menge an.
 
@@ -34,7 +32,7 @@ Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. 
 4. Wählen Sie die Aktion **Buchen** aus.
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>So empfangen Sie Artikel mit einem Wareneingang
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Wareneingänge** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 
     Füllen Sie die Felder auf dem Inforegister **Allgemein** aus. Beim Abrufen der Herkunftsbelegzeilen werden einige der Informationen in jede Zeile kopiert.  

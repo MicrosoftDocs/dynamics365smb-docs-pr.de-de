@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Verfolgen von Artikeln mit Artikelverfolgung | Microsoft Docs'
 description: Sie können sehen, wo ein Artikel mit Artikelverfolgung verwendet wurde. Dazu gehören die Informationen, wie und wann der Artikel entgegengenommen oder produziert, umgelagert, verkauft, verbraucht oder zurückgegeben wurde. Sie können außerdem alle aktuellen Instanzen einer bestimmten Serien- oder Chargennummern in der Datenbank suchen. Dazu können Sie die Funktionen "Artikelablaufverfolgung" und "Navigieren" verwenden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cf3581babda20b1645168785adb6efc2000fb92e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cd97605ec3f000e738cde06fa44c6bc4ccc49499
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309724"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878245"
 ---
 # <a name="trace-item-tracked-items"></a>Verfolgen von Artikeln mit Artikelverfolgung
 Sie können sehen, wo ein Artikel mit Artikelverfolgung verwendet wurde. Dazu gehören die Informationen, wie und wann der Artikel entgegengenommen oder produziert, umgelagert, verkauft, verbraucht oder zurückgegeben wurde. Sie können außerdem alle aktuellen Instanzen einer bestimmten Serien- oder Chargennummern in der Datenbank suchen. Dazu können Sie die Funktionen "Artikelablaufverfolgung" und "Navigieren" verwenden.  
@@ -32,7 +30,7 @@ Sie können sehen, wo ein Artikel mit Artikelverfolgung verwendet wurde. Dazu ge
 
 ## <a name="to-trace-item-tracked-items"></a>Artikel mit Artikelverfolgung verfolgen  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Artikelnachverfolgung** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikelablaufverfolgung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Geben Sie in die Filterfelder oben auf der Seite die Artikelnummern oder einen Filter für die Artikelnummern ein, die Sie verfolgen möchten.  
 3.  Wählen Sie im Feld **Komponenten anzeigen** aus, ob auch angezeigt werden soll, woher die Komponenten für die Artikel stammten. In diesem Feld haben Sie die folgenden Optionen.  
 
@@ -61,14 +59,14 @@ Sie können sehen, wo ein Artikel mit Artikelverfolgung verwendet wurde. Dazu ge
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>So suchen Sie Artikel mit Artikelverfolgung mithilfe von "Navigieren"  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Navigieren** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Navigieren** ein und wählen Sie dann den entsprechenden Link aus.  
 2.  Geben Sie im Inforegister **Artikelverfolgung** in den Feldern **Seriennr.** und **Chargennr.** die Artikelverfolgungsnummern ein, die Sie verfolgen möchten.  
 3.  Wählen Sie auf der Registerkarte Aktionen in der Gruppe Seite die Option **Suchen** aus, um alle Instanzen der Serien- oder Chargennummer und in der Datenbank zu finden.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Unter Designdetails: Artikelverfolgung](design-details-item-tracking.md)
-[Unter Designdetails - Artikelverfolgung und  Reservierungen](design-details-item-tracking-and-reservations.md)  
+[Unter Designdetails - Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Artikel reservieren](inventory-how-to-reserve-items.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 [Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern](walkthrough-tracing-serial-lot-numbers.md)

@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Planen von Kommissionierungen in Vorschlägen | Microsoft Docs'
 description: Wenn Ihr Lager so eingerichtet wurde, dass die Bearbeitung der Kommissionierung sowie des Warenausgangs erforderlich sind, können Sie für das Lager festlegen, dass die Zeilen in Warenausgangsbelegen nicht automatisch in Kommissionieranweisungen umgewandelt, sondern stattdessen für den Kommissioniervorschlag verfügbar gemacht werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b3f3cf5befb5bcca602b67cdc1f6de6d50ddd320
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7b1b8f2fd422fd137950b0a83bd14431e843c67e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313952"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881726"
 ---
 # <a name="plan-picks-in-worksheets"></a>Kommissionierungen im Vorschlag bearbeiten
 Wenn Ihr Lager so eingerichtet wurde, dass die Bearbeitung der Kommissionierung sowie des Warenausgangs erforderlich sind, können Sie für das Lager festlegen, dass die Zeilen in Warenausgangsbelegen nicht automatisch in Kommissionieranweisungen umgewandelt, sondern stattdessen für den Kommissioniervorschlag verfügbar gemacht werden.  
@@ -39,11 +37,11 @@ Wenn Sie nach Fälligkeitsdatum sortieren, können Sie wählen, alle Zeilen aus 
 >  Allgemeine Informationen über das Kommissionieren von Komponenten für Montageaufträge, einschließlich von Situationen, in denen der Montageartikel nicht mit einer Verkaufslieferung fällig ist, finden Sie unter [Kommissionierung für Montage oder Produktion in erweiterter Lagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>So planen Sie Kommissionierungen im Vorschlag:  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissioniervorschlag** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kommissionierungsvorschlag** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Logistikbeleg holen** Aktion aus.  
 3.  Wählen Sie die Warenausgänge, für die Sie eine Kommissionierung vorbereiten möchten. Sie können die Zeilen hier bis zu einem bestimmten Grad sortieren, diese Sortierung wird jedoch nicht bis in die Kommissionieranweisung weitergegeben. Sie können auch einige der Zeilen löschen, um eine effektivere Kommissionierung zu erzielen. Wenn es z. B. eine Anzahl von Zeilen mit Artikeln in Zuordnungslagerplätzen gibt, möchten Sie möglicherweise eine Kommissionierung für alle Zeilen erzeugen, die mit diesen Zeilen zusammenhängen. Die zugeordneten Artikel werden ausgeliefert (gemeinsam mit anderen Artikeln im Warenausgang) und die Zuordnungslagerplätze haben wieder Platz für neue ankommende Artikel.  
 4.  Wählen Sie die Aktion **Kommissionierung erstellen** aus, und füllen Sie die Seite **Kommissionierung erstellen**. Die Sortierung, die Sie hier anfordern, sortiert die Kommissionierzeilen, die Sie erstellen. Sie können z. B. eine Kommissionierung für jede Zone erstellen und die Zeilen innerhalb jeder Kommissionierung nach der Lagerplatzpriorität sortieren.  
-5.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus. Die Seite **Auswahl** wird geöffnet.  
+5.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kommissionierungen** ein und wählen Sie dann den entsprechenden Link. Die Seite **Auswahl** wird geöffnet.  
 6.  Die soeben erstellte Kommissionierung finden Sie durch Auswählen der Kommissionierung mit der höchsten Nummer.  
 7.  In der Kommissionierung können Sie – falls notwendig – immer noch die zugeordnete Benutzer-ID ändern sowie die Art, auf die die Zeilen sortiert sind.  
 8.  Wählen Sie die Aktion **Drucken** aus, um die Kommissionierungsanweisungen zu drucken.  

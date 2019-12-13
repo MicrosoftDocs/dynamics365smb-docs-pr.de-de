@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 79fb96b0262eacfd67326236c7cf8468689c6b5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695191"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876871"
 ---
 # <a name="searching-and-filtering-faq"></a>Suchen und Filtern – FAQs
 In diesem Artikel finden Sie Antworten auf allgemeine Fragen, die Sie möglicherweise über das Suchen und Filtern haben.
@@ -47,7 +47,7 @@ Bei Microsoft achten wir stets auf das Feedback aus unserer breitgefächerten Be
 
 Es gibt eine Zeitbegrenzung für die Dauer eines Suchvorgangs. Versuchen Sie zunächst, die Suchkriterien zu ändern, und versuchen Sie es erneut. Wenn Sie [!INCLUDE[prodshort](includes/prodshort.md)] lokal verwenden, wenden sich an den Systemadministrator, da ein Administrator die Zeitbegrenzung für Suchen erhöhen kann.
 
-Als lokaler Administrator können Sie die Zeitbegrenzung für Suchen erhöhen, indem Sie die Einstellung **Zeitbegrenzung für Suche** des [!INCLUDE[prodshort](includes/prodshort.md)]-Servers ändern. Weitere Informationen finden Sie unter [Konfigurieren des Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in der Hilfe für Business Central-Entwickler und IT-Experten.
+Als lokaler Administrator können Sie die Zeitbegrenzung für Suchen erhöhen, indem Sie die Einstellung **Zeitbegrenzung für Suche** des [!INCLUDE[prodshort](includes/prodshort.md)]-Servers ändern. Weitere Informationen finden Sie unter [Konfigurieren des Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in der Hilfe für Business Central-Entwickler und IT-Experten.
 
 ## <a name="see-also"></a>Siehe auch
 [Sortieren, Durchsuchen und Filtern](ui-enter-criteria-filters.md)  

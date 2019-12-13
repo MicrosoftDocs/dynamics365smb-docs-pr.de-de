@@ -1,8 +1,6 @@
 ---
 title: Auftragsmontage und Lagermontage verstehen | Microsoft Docs
 description: Montageartikeln können angegeben werden entweder, indem sie zusammengestellt werden, wenn sie bestellt oder montiert werden oder indem sie im Lager gehalten werden, bis diese Anforderung eines Verkaufsauftrags sind.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 795f5959866cf8394c5d4112ddad79cb6a9fe860
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d1cf0c03a985245a507ec7e7970706bfad31b83
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304137"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880928"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Auftragsmontage und Lagermontage verstehen
 Montageartikel können in den beiden folgenden Prozessen geliefert werden:  

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac77368b30d442d6524b5231252ba5f370d50233
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774723"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809348"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 Mit dem Sicherheitssystem [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie steuern, auf welche Objekte ein Benutzer innerhalb jeder Datenbank oder Umgebung zugreifen darf. Sie können für jeden Benutzer festlegen, ob er Daten in den ausgewählten Datenbankobjekten lesen, ändern oder eingeben darf. Detaillierte Informationen finden Sie unter [Datensicherheit](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in der Hilfe für Entwickler und ITPro für [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Bevor Sie Benutzern und Benutzergruppen Berechtigungen zuweisen, müssen Sie festlegen, bei wem Sie sich anmelden können, indem Sie Benutzer entsprechend der im Office 365 Administrationscenter definierten Lizenz anlegen. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
+Bevor Sie Benutzern und Benutzergruppen Berechtigungen zuweisen, müssen Sie festlegen, wer sich anmelden kann, indem Sie Benutzer gemäß der Lizenz erstellen, wie im Microsoft 365 Admin Center definiert. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt es zwei Ebenen von Berechtigungen für Datenbankobjekte:
 - Gesamt-Berechtigungen gemäß der Lizenz, auch als Berechtigung bezeichnet.
@@ -31,7 +31,7 @@ Um die Verwaltung von Berechtigungen für mehrere Benutzer zu erleichtern, könn
 > [!NOTE]
 > Eine weitere Methode, um zu definieren, auf welche Funktionen ein Benutzer Zugriff hat, ist das Setzen des Feldes **Erfahrung** auf der Seite **Unternehmensinformationen**. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 >
-> Sie können auch definieren, was Benutzer auf der Benutzeroberfläche sehen und wie sie mit ihrer zulässigen Funktionalität über Seiten interagieren. Dies geschieht über Profile, die Sie verschiedenen Arten von Benutzern entsprechend ihrer Jobrolle oder Abteilung zuordnen. Weitere Informationen finden Sie unter [Verwalten von Profilen](admin-users-profiles-roles.md) und [[!INCLUDE[d365fin](includes/d365fin_md.md)]anpassen](ui-customizing-overview.md).
+> Sie können auch definieren, was Benutzer auf der Benutzeroberfläche sehen und wie sie mit ihrer zulässigen Funktionalität über Seiten interagieren. Dies geschieht über Profile, die Sie verschiedenen Arten von Benutzern entsprechend ihrer Jobrolle oder Abteilung zuordnen. Weitere Informationen finden Sie unter [Verwalten von Profilen](admin-users-profiles-roles.md) und [[!INCLUDE[d365fin](includes/d365fin_md.md)] anpassen](ui-customizing-overview.md).
 
 ## <a name="to-assign-permission-sets-to-users"></a>So weisen Sie Benutzern Berechtigungen zu
 Ein Berechtigungssatz ist eine Sammlung von Berechtigungen für bestimmte Datenbankobjekte. Allen Benutzern muss mindestens ein Berechtigungssatz zugeordnet werden, bevor sie auf [!INCLUDE[d365fin](includes/d365fin_md.md)] zugreifen können.
@@ -130,7 +130,7 @@ Beispielsweise kann ein Benutzer die Berechtigung haben, Codeunit 80, Vertrieb-B
 Jedoch muss der Anwender keinen vollen Zugriff auf die Tabelle Verkaufszeile haben, um Codeunit auszuführen. Wenn der Benutzer über indirekte Berechtigungen für die Tabelle "Verkaufszeile" verfügt, wird die Codeunit "Verkaufseinheit" erfolgreich ausgeführt. Wenn ein Benutzer über indirekte Berechtigungen verfügt, kann dieser Benutzer die Tabelle Verkaufszeile nur ändern, indem die Verkaufsbuchung Codeunit oder ein anderes Objekt ausgeführt wird, das die Berechtigung zum ändern der Tabelle Verkaufsposition hat. Der Benutzer kann die Tabelle Verkaufsposition nur von unterstützten Anwendungsbereichen aus ändern. Der Benutzer kann die Funktion mit anderen Methoden nicht unbeabsichtigt oder böswillig ausführen.
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>So erstellen oder ändern Sie Berechtigungen, indem Sie Ihre Aktionen aufzeichnen
-1.  Wählen Sie die  ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Berechtigungssätze** ein und wählen Sie dann den entsprechenden Link.
+1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Berechtigungssätze** ein und wählen Sie dann den entsprechenden Link.
 2.  Wählen Sie alternativ auf der Seite **Benutzer** die Aktion **Berechtigungssätze** aus.
 3.  Wählen Sie auf der Seite **Benutzer** die Aktion **Neu** aus.
 4.  Füllen Sie die Felder in einer neuen Zeile wie erforderlich aus.
@@ -174,7 +174,7 @@ Zur schnellen Definition einer neuen Benutzergruppe können Sie eine Funktion ve
 Die neue Benutzergruppe wird die Seite **Benutzergruppen** hinzugefügt. Fahren Sie fort, um Benutzer hinzuzufügen. Weitere Informationen finden Sie unter [Zu Gruppenbenutzern in Benutzergruppen](ui-define-granular-permissions.md#to-group-users-in-user-groups).  
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>So weisen Sie Berechtigungssätze Benutzergruppen zu
-1. Wählen Sie die![ Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Benutzergruppen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Benutzergruppen** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Benutzergruppe aus, der Sie die Berechtigung zuweisen möchten.
 Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich **Benutzerzugriffsrechtsätze** angezeigt.
 3. Wählen Sie die Aktion **Benutzerrechtesätze**, um die Seite **Benutzerrechtesätze** zu öffnen.
@@ -201,8 +201,8 @@ Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definie
 [Profile verwalten](admin-users-profiles-roles.md)  
 [Funktionen, die angezeigt werden ändern](ui-experiences.md)  
 [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
-[Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
+[Vorbereitung für das Geschäft](ui-get-ready-business.md)  
 [Verwaltung](admin-setup-and-administration.md)  
-[Hinzufügen von Benutzern zu Office 365 for Business](https://aka.ms/CreateOffice365Users)  
-[Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch](https://aka.ms/BusinessCentralLicensing)  
+[Benutzer zu Office 365 hinzufügen für Unternehmen](https://aka.ms/CreateOffice365Users)  
+[Microsoft Dynamics 365 Business Central Lizenzierungshandbuch](https://aka.ms/BusinessCentralLicensing)  
 [Sicherheit und Schutz in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer und IT-pro Help

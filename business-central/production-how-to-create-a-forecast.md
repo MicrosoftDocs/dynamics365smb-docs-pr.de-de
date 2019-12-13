@@ -1,8 +1,6 @@
 ---
 title: 'So geht es: Nachfrageplanung erstellen | Microsoft Docs'
 description: Verkaufs- und Absatzplanungen können auf der Seite **Nachfrageplanung** vorgenommen werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314192"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883382"
 ---
 # <a name="create-a-demand-forecast"></a>Bedarfsplanung erstellen
 Verkaufs- und Absatzplanungen können auf der Seite **Nachfrageplanung** vorgenommen werden.  
@@ -53,7 +51,7 @@ In der Produktionseinrichtung kann festgelegt werden, wenn Sie Filter nach Lager
 
 ## <a name="to-create-a-demand-forecast"></a>So erstellen Sie eine Absatzplanung
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Nachfrageplanung** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Bedarfsplanung** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie im Inforegister **Allgemein** im Feld **Nachfragelanungsname** eine Planung aus. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Absatzplanungsart unterschieden werden.  
 3.  Im Feld **Lagerortfilter** müssen Sie den Lagerort auswählen, für den die Planung gelten soll.  
 4.  Wählen Sie im Feld **Planungsart** eine Option aus: **Verkaufsartikel**, **Komponente** oder **Beides**. Wenn Sie **Verkaufsartikel** oder **Komponente** ausgewählt haben, können Sie die Menge pro Periode bearbeiten. Wenn Sie **Beides** ausgewählt haben, können Sie die Menge zwar nicht bearbeiten, Sie haben jedoch die Möglichkeit, sie im Dropdown-Menü auszuwählen und die Absatzplanungsposten anzuzeigen.  
@@ -74,6 +72,6 @@ In der Produktionseinrichtung kann festgelegt werden, wenn Sie Filter nach Lager
 [Produktion](production-manage-manufacturing.md)    
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Designdetails: Vorratsplanung](design-details-supply-planning.md)   
+[Designdetails: Beschaffungsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

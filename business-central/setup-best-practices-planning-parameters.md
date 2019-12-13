@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9a29dce0b8ec2a4c7738f7f74144eea7cb441e65
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5fb804c76bcf5ea86bff181a9c3d3f373ab56a63
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315756"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877039"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Bewährte Einrichtungsmethoden: Planungsparameter
 Das Inforegister **Planung** auf der Artikelkarte ist Mittelpunkt der gesamten Lieferkette des Unternehmens. Das Einstellen eines richtigen Planungsparameters ist für die kosteneffektive Bestandskontrolle und einen sehr guten Debitorenservice sehr wichtig.  
@@ -42,6 +42,7 @@ Das Inforegister **Planung** auf der Artikelkarte ist Mittelpunkt der gesamten L
 
 ## <a name="see-also"></a>Siehe auch  
  [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)   
- [Designdetails: Vorratsplanung](design-details-supply-planning.md)   
+ [Designdetails: Beschaffungsplanung](design-details-supply-planning.md)   
  [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
+ [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

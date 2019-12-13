@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7e8306ad65b41784e853dfc46a41c2deee997180
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 7ab77dd3c154c81172037e07fb6decf4ad907f5b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577231"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883094"
 ---
 # <a name="register-new-vendors"></a>Registriert einen neuen Kreditor
 Kreditoren stellen die Produkte bereit, die Sie verkaufen. Jeder Kreditor, von dem Sie kaufen, muss als Kreditorenkarte erfasst werden.
@@ -28,11 +28,12 @@ Kreditorenkarten verwahren die Informationen, die benötigt werden, um Produkte 
 
 > [!NOTE]  
 >   Wenn es Kreditorenvorlagen für verschiedene Kreditorenarten gibt, dann erscheint eine Seite automatisch, wenn Sie eine neue Kreditorenkarte erstellen, von der aus Sie eine entsprechende Kreditorenvorlage auswählen können. Wenn nur eine Kreditorenvorlage vorhanden ist, verwenden neue Kreditorenkarten immer diese Vorlage.
-<br><br>
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PZtd]
+<br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd]
 
 ## <a name="to-create-a-new-vendor-card"></a>Erstellen einer neue Kreditorenkarte
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kreditoren** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kreditoren** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Kreditoren** **Neu** aus.
 
     Wenn mehr als eine Kreditorenvorlage vorhanden ist, dann öffnet sich eine Seite mit verfügbaren Kreditorenvorlagen automatisch. In diesem Fall, folgen Sie den nächsten zwei Schritten.

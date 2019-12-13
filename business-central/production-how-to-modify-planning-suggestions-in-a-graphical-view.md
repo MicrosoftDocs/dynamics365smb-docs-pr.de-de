@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Ändern von Planungsvorschlägen in einer grafischen Ansich| Microsoft Docst'
 description: Eine typische Planungsaktivität besteht darin, Planungsvorschlagszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen. Eine Alternative zur Durchführung im Planungsvorschlag ist die Verwendung einer grafischen Ansicht.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313372"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877927"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändern von Planungsvorschlägen in einer grafischen Ansicht
 Eine typische Planungsaktivität besteht darin, Planungsvorschlagszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen. Eine Alternative zur Durchführung im Planungsvorschlag ist die Verwendung einer grafischen Ansicht.
@@ -37,7 +35,7 @@ Wenn Sie **Änderungen speichern** auf der Seite **Artikelverfügbarkeit nach Ze
 Der folgende Ablauf zeigt, wie Vorratsvorschläge mit Drag & Drop geändert werden können. Alternativ können Sie die Felder **Fälligkeitsdatum** und **Menge** im Inforegister **Ereignisänderungen** ändern und die Änderungen im Inforegister **Zeitachse** auf der Seite **Planung** sofort grafisch anzeigen.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>So ändern Sie vorgeschlagene Beschaffungsaufträge in der grafischen Ansicht  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Artikel Verfügbarkeit auf Zeitachse** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikelverfügbarkeit nach Zeitachse** ein, und wählen Sie dann den zugehörigen Link.  
 
     Die Seite **Artikelverfügbarkeit nach Zeitachse** wird geöffnet, mit Artikelnummer, Lagerplatz und Variante des Artikels in der ausgewählten Planungszeile, die in den Feldern des Inforegisters **Optionen** vorab ausgefüllt wurde. Das Inforegister **Zeitachse** zeigt die grafische Darstellung des voraussichtlichen Lagerbestands des Artikels, einschließlich Planungsvorschläge.  
 
@@ -96,6 +94,6 @@ Zusätzlich zu den Tastaturaktionen, die zuvor erwähnt wurden, können Sie im I
 [Produktion](production-manage-manufacturing.md)    
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Designdetails: Vorratsplanung](design-details-supply-planning.md)   
+[Designdetails: Beschaffungsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

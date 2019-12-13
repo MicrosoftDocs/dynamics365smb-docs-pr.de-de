@@ -11,18 +11,18 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307972"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879106"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivieren Sie Ihre Geschäftsdaten für Power BI
 
 Einblicke in Ihre [!INCLUDE[prodshort](includes/prodshort.md)] Daten erhalten ist mit der [!INCLUDE[prodshort](includes/prodshort.md)] Anwendung für Power BI einfach. Power BI ruft Ihre Daten ab und erstellt dann ein vorkonfiguriertes Dashboard und Berichte auf Grundlage dieser Daten.  
 
-Sie müssen ein gültiges Konto bei [!INCLUDE[prodshort](includes/prodshort.md)] und Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen, wenn Sie Ihre eigenen Power BI-Berichte erstellen möchten. Power BI Apps benötigen Berechtigungen für die Tabellen, aus denen Daten abgerufen werden. Weitere Einzelheiten auf den Anforderungen werden im Folgenden beschrieben.  
+Sie müssen ein gültiges Konto bei [!INCLUDE[prodshort](includes/prodshort.md)] und Power BI haben. Zudem müssen Sie [Power BI Desktop](https://powerbi.microsoft.com/desktop/) herunterladen, wenn Sie Ihre eigenen Power BI-Berichte erstellen möchten. Power BI Apps benötigen Berechtigungen für die Tabellen, aus denen Daten abgerufen werden. Weitere Einzelheiten auf den Anforderungen werden im Folgenden beschrieben.  
 
 > [!IMPORTANT]
 > Die Power BI Apps, die in diesem Artikel beschrieben werden, sind dafür ausgelegt, Azure Active Directory als Autorisierungsmechanismus zu verwenden, sofern nicht anderweitig definiert. Um eine Power BI App zu installieren, müssen Sie auch eine Power BI Pro Lizenz haben.  Sobald die Power BI App installiert ist, kann es mit Benutzern mit jedem Lizenztyp geteilt werden.
@@ -64,7 +64,7 @@ Die Apps sind so konzipiert, dass sie mit Daten aller Unternehmen arbeiten, die 
 <!--    ![Choose apps from online services that you use.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)-->
 4. Wählen Sie **Apps** auf der Registerkarte **Apps für Power BI**, wählen Sie das Inhaltspaket **Microsoft Dynamics 365 Business Central** App aus, das Sie verwenden möchten, und wählen Sie dann **Jetzt abrufen** aus.  
 <!--    ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packspowerbi-dynamics365-for-financials-get-it-now.png)/-->
-5. Geben Sie bei entsprechender Aufforderung den Namen des Unternehmens und der Umgebung in Ihr [!INCLUDE[prodshort](includes/prodshort.md)] ein, mit dem Sie eine Verbindung herstellen möchten. Wenn Sie nicht mehrere Umgebungen erstellt haben, geben Sie eine **Produktion** ein. Stellen Sie für den Firmenparameter sicher, dass Sie den Namen und nicht den Anzeigenamen eingeben. Der Name des Unternehmens kann auf der Seite **Unternehmen** innerhalb Ihrer [!INCLUDE[prodshort](includes/prodshort.md)] Instanz gefunden werden.  
+5. Geben Sie bei entsprechender Aufforderung den Namen des Unternehmens und der Umgebung in Ihr [!INCLUDE[prodshort](includes/prodshort.md)] ein, mit dem Sie eine Verbindung herstellen möchten. Wenn Sie nicht mehrere Umgebungen erstellt haben, geben Sie eine **Produktion** ein. Stellen Sie für den Firmenparameter sicher, dass Sie den Namen und nicht den Anzeigenamen eingeben. Der Name des Unternehmens kann auf der Seite **Unternehmen** innerhalb Ihrer [!INCLUDE[prodshort](includes/prodshort.md)]-Instanz gefunden werden.  
 
     > [!NOTE]
     > Wenn Sie eine Verbindung mit [!INCLUDE [prodshort](includes/prodshort.md)] lokal herstellen, müssen Sie den *Web Service URL* Parameter angeben. Finden Sie dies in der Seite **Webdienst** in [!INCLUDE [prodshort](includes/prodshort.md)]. Ihre [!INCLUDE [server](includes/server.md)] Instanz muss für die Standardauthentifizierung konfiguriert sein, und Sie müssen einen Benutzer und den Webzugriffsschlüssel dieses Benutzers als Kennwort angeben. Ersetzen Sie im folgenden Beispiel *Myserver:7048* mit Ihrem [!INCLUDE [server](includes/server.md)] Namen und *CRONUS%20US* mit Ihrem Firmennamen.  
@@ -102,7 +102,7 @@ Die Berichtsauswahlseite zeigt eine Liste aller Power BI Berichte, auf die Sie Z
 
 ### <a name="get-reports"></a>Berichte abrufen
 
-Wenn auf der Seite Berichte auswählen keine Berichte angezeigt werden oder der gewünschte Bericht nicht angezeigt wird. Sie können Berichte abrufen von *Meine Organisation*oder von *Dienstleistungen*.
+Wenn auf der Seite Berichte auswählen keine Berichte angezeigt werden oder der gewünschte Bericht nicht angezeigt wird. Sie können Berichte abrufen von *Meine Organisation* oder von *Dienstleistungen*.
 Wählen *Meine Organisation*, um zum Power BI Dienst zu gehen, in dem Sie die Berichte in Ihrer Organisation anzeigen können, zu deren Anzeige Sie berechtigt waren, und die Sie Ihrem Arbeitsbereich hinzufügen können. Wählen *Dienstleistungen*, um zum Microsoft AppSource zu gehen, wo Sie Power BI Apps installieren können.  
 
 Sie können auch neue Power BI Berichte erstellen. Sobald diese Berichte auf Ihrem Power BI Arbeitsbereich veröffentlicht wurden, werden sie auf dieser Seite angezeigt.  
@@ -140,7 +140,7 @@ Um die [!INCLUDE[prodshort](includes/prodshort.md)] Daten in Power BI zu importi
 - Excel-Vorlage zur Unternehmensansicht-Information
 - Power BI-Berichtsbezeichnungen
 
-### <a name="microsoft-dynamics-365-business-central---sales"></a>Microsoft  Dynamics 365 Business Central - Sales
+### <a name="microsoft-dynamics-365-business-central---sales"></a>Microsoft Dynamics 365 Business Central - Sales
 
 - Artikel-Statistik nach Debitor
 - Verkaufsdashboard
@@ -214,7 +214,7 @@ Die Power BI App zeigt nur Daten vom [!INCLUDE [prodshort](includes/prodshort.md
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
-[Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als PowerApps-Datenquelle](across-how-use-financials-data-source-powerapps.md)  
-[Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power Apps-Datenquelle](across-how-use-financials-data-source-powerapps.md)  
+[Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,8 +1,6 @@
 ---
 title: So richten Sie einen Artikel für die gesteuerte Einlagerung und Kommissionierung ein | Microsoft Docs
 description: Wenn Sie einen Lagerort für die gesteuerte Einlagerung und Kommissionierung einrichten, steht Ihnen eine neue Funktionalität zur Verfügung, die Ihnen hilft, das Lager so effizient wie möglich zu betreiben.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b1e798a8905771da606d5fccb45061805161c146
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5e76ef000ffc9242cf98e11be353b604990bf5ea
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314508"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876402"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Einrichten von Artikeln und Standorten für die gesteuerte Einlagerung und Kommissionierung
 Wenn Sie einen Lagerort für die gesteuerte Einlagerung und Kommissionierung einrichten, steht Ihnen eine neue Funktionalität zur Verfügung, die Ihnen hilft, das Lager so effizient wie möglich zu betreiben. Um diese Funktionalität voll auszuschöpfen, liefern Sie der Anwendung zusätzliche Informationen zu den Artikeln, wodurch die Anwendung ihrerseits dabei unterstützt wird, die erforderlichen Berechnungen anzustellen, um die effizientesten und effektivsten Möglichkeiten zur Durchführung der Lageraktivitäten vorzuschlagen. Weitere Informationen finden Sie unter [Designdetails: Lagerhaus einrichten](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>So richten Sie einen Artikel für die gesteuerte Einlagerung und Kommissionierung ein:  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die Karte für den Artikel, den Sie für gesteuerte Einlagerung und Kommissionierung einrichten möchten.
 3. Füllen Sie im Inforegister **Logistik** der Artikelkarte die Felder aus, um festzulegen, wie der Artikel im Lager verarbeitet werden soll.  
 4.  Wählen Sie die **Einheiten** Aktion aus.
@@ -35,8 +33,8 @@ Wenn Sie einen Lagerort für die gesteuerte Einlagerung und Kommissionierung ein
 Die gesteuerte Einlagerung und Kommissionierung verschafft Ihnen Zugang zu erweiterten Lagerkonfigurationsfunktionalitäten, die Ihre Effizienz und Datenzuverlässigkeit stark erhöhen können. Um diese Funktionalität nutzen zu können, müssen Sie zuerst eine Reihe von Parametern in Ihrem Lagerort einrichten.  
 
 Um die gesteuerte Einlagerung und Kommissionierung zu nutzen, müssen Sie die Funktionalität auf der Lagerortkarte aktivieren.    
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie den Lagerort, bei dem Sie die gesteuerte Einlagerung und Kommissionierung nutzen möchten, wählen Sie dann die Aktion**Bearbeiten** aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerorte** ein und wählen Sie dann den entsprechenden Link.  
+2.  Wählen Sie den Lagerort, bei dem Sie die gesteuerte Einlagerung und Kommissionierung nutzen möchten, wählen Sie dann die Aktion **Bearbeiten** aus.  
 3.  Wählen Sie im Inforegister **Lager** das Kontrollkästchen **Gesteuerte Einlag. u. Kommiss.**.  
 
 Sie brauchen zu diesem Zeitpunkt der Einrichtung keine weiteren Felder auf der Lagerortkarte auszufüllen.  
@@ -51,7 +49,7 @@ Sie können auch Lagerklassen definieren, wenn im Lager Artikel geführt werden,
 Sie können jetzt Zonen einrichten, wenn Sie in Ihrem Lager mit Zonen arbeiten möchten. Die Verwendung von Zonen reduziert die Anzahl der Felder, die Sie ausfüllen müssen, wenn Sie Ihre Lagerplätze einrichten, da Lagerplätze, die innerhalb einer Zone angelegt werden, einige Eigenschaften der Zone übernehmen. Zonen können es darüber hinaus neuen Mitarbeitern oder nur vorübergehend tätigen Mitarbeitern erleichtern, sich in Ihrem Lager zu orientieren. Beachten Sie, dass der Fluss nach Lagerplätzen gesteuert wird. Daher ist es möglich, mit Lagerplätzen und nur einer Zone zu arbeiten.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>So richten Sie eine Zone in Ihrem Lager ein:  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Standort** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Lagerorte** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie den Lagerort aus, in dem Sie die Zone einrichten möchten, öffnen Sie die Lagerortkarte, und wählen Sie dann die Aktion **Zonen** aus.  
 3.  Füllen Sie auf der Seite **Zonen** die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

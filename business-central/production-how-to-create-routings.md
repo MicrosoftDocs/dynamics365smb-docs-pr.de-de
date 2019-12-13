@@ -1,8 +1,6 @@
 ---
 title: 'Vorgehensweise: Routings erstellen | Microsoft Docs'
 description: Im Arbeitsplan sind Stammdaten enthalten, die die Verarbeitungsanforderungen für bestimmte Fertigungsartikel erfassen. Sobald ein Fertigungsauftrag für diesen Artikel erstellt wurde, steuert dessen Arbeitsplan die Planung der Arbeitsgänge, die auf der Seite **FA-Arbeitsplan** unter dem Fertigungsauftrag dargestellt werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aa03051a02309944c66d3fdf89de12627af8c4bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 79875b770dba5ef7b074bd3b7c52858f37951c25
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314096"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883286"
 ---
 # <a name="create-routings"></a>Routings erstellen
 Produktionsbetriebe verwenden Arbeitspläne, um den Produktionsablauf zu definieren.
@@ -32,8 +30,8 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 - Die Ressourcen sind eingerichtet. Weitere Informationen finden Sie unter [Einrichten von Arbeitsplatzgruppen und Arbeitsplätzen](production-how-to-set-up-work-and-machine-centers.md)
 
 ## <a name="to-create-a-routing"></a>So erstellen Sie ein Routing  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Routing** ein, und wählen dann den zugehörigen Link aus.  
-2.  Wählen Sie die Aktion **Neu** aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Routings** ein, und wählen Sie dann den zugehörigen Link.  
+2.  Wählen Sie die Aktion **Neu**.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Wählen Sie im Feld **Art** die Option **Serien**, um die Fertigungsarbeitsgänge abhängig vom Eintrag im Feld **Arbeitsgangnr.** zu berechnen. Feld   
     Wählen Sie die Option **Parallel**, um die Arbeitsgänge abhängig vom Eintrag im Feld **Nächste Arbeitsgangnr.** zu berechnen. Feld  
@@ -63,7 +61,7 @@ Sie können Arbeitsplanverbindungen von Komponenten mit speziellen Vorgängen er
 
 Ein weiterer wichtiger Vorteil besteht darin, dass verknüpfte Komponenten und Arbeitsgänge in einer logischen Vorgangsstruktur angezeigt werden, wenn Sie die Seite **Produktionsprotokoll** für Istmeldungen und Verbrauchsbuchungen verwenden.  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Routing** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Routings** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie den Arbeitsplan mit den Arbeitsgängen, die Sie verbinden möchten.  
 
     Stellen Sie sicher, dass der Arbeitsplanstatus **In Entwicklung** ist.  
@@ -94,8 +92,8 @@ Die ausgewählten Komponenten werden nun mit den ausgewählten Arbeitsgängen ve
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Personal, Werkzeug und Prüfmaßnahmen den Arbeitsplanvorgängen zuweisen.
 Wenn Sie Personal mit besonderen Fähigkeiten, speziellem Wissen oder speziellen Qualifikationen für diesen Arbeitsgang benötigen, können Sie dieses Personal hier zuordnen. Darüber hinaus können Sie Werkzeugen Qualitätsanforderungen dem Arbeitsgang zuweisen. Hier wird beschrieben, wie Personal zugewiesen wird. Die Schritte sind für andere Arten Arbeitsgangsinformationen ähnlich.
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Routing** ein, und wählen dann den zugehörigen Link aus.  
-2.  Öffnen Sie das relevante Fenster "Arbeitsplan".  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Routings** ein, und wählen Sie dann den zugehörigen Link.  
+2.  Öffnen Sie das relevante Routing.  
 3.  Im Inforegister **Zeilen** wählen Sie die Zeile, die Sie bearbeiten möchten, und wählen die **Personal** Aktion aus.  
 4.  Füllen Sie die Felder auf der Seite **Arbeitsgang Personal** aus.  
 5.  Wählen Sie die Schaltfläche **OK**, um die Seite zu verlassen. Die eingegebenen Werte werden kopiert und dem Arbeitsgang zugeordnet.    
@@ -103,7 +101,7 @@ Wenn Sie Personal mit besonderen Fähigkeiten, speziellem Wissen oder speziellen
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Neue Arbeitsplanversionen erzeugen  
 Das Versionsprinzip ermöglicht Ihnen, mehrere Versionen eines Arbeitsplans zu verwalten. Die Struktur der Arbeitsplanversion entspricht der Struktur der Arbeitspläne, bestehend aus dem Arbeitsplanversionskopf und den Arbeitsgängen. Der Hauptunterschied wird durch das Startdatum definiert.  
 
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Routing** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Routings** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die zu kopierende Arbeitsgang, und wählen Sie die **Versionen** Aktion aus.  
 3. Wählen Sie auf der Seite **Arbeitsgangversion** die Aktion **Neu** aus.
 4. Füllen Sie die Felder je nach Bedarf aus.

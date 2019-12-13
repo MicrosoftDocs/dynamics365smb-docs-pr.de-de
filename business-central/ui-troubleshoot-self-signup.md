@@ -1,20 +1,20 @@
 ---
 title: Problembehandlung mit Selbstregistrierung | Microsoft Docs
-description: Kennenlernen der meisten allgemeinen Gründe, warum Sie möglicherweise nicht in der Lage sind, die Anmeldung mit Business Central abzuschließen, und Möglichkeiten, das Problem zu beheben.
-author: SusanneWindfeldPedersen
+description: Erfahren Sie die wichtigsten Gründe, warum Sie möglicherweise nicht in der Lage sind, die Registrierung für Business Central abzuschließen sowie Möglichkeiten, diese zu umgehen.
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: edupont
-ms.openlocfilehash: d9021cb67176a8fbbb977234e38d02f375a80831
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2a1f923fed08b27152688ecc05c0aa9ff627eed
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310660"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809177"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Problembehandlungs-Selbstbedienungs-Registrierung
 Die Anmeldung für [!INCLUDE[d365fin](includes/d365fin_md.md)] ist einfach und kann sehr schnell vorgenommen werden. Sie können ein freies Konto erstellen, wenn es sich um eine vorhandene Organisation handelt. Dieser Artikel bezieht sich Probleme an, die Sie möglicherweise für die die Anmeldung haben.
@@ -28,7 +28,7 @@ Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erha
 In vielen Fällen kann das Registrieren für [!INCLUDE[d365fin](includes/d365fin_md.md)] mit folgendem Registrierungsprozess erfolgen. Es gibt jedoch verschiedene Gründe, warum Sie möglicherweise nicht in der Lage sind, die Selbstregistrierung abzuschließen. Die folgende Tabelle fasst einige der meisten allgemeinen Ursachen zusammen, die verhindern können, wieso Sie möglicherweise nicht in der Lage sind, die Anmeldung abzuschließen und Arten, wie Sie die diese Probleme umgehen können.
 
 | Symptom / Fehlermeldung | Codes und Problemumgehung |
-| --- | --- |
+| --------------------- | -------------------- |
 | Für Office 365-E-Mail-Adressen, die nicht in den USA erfasst werden, erhalten Sie eine Meldung wie die Folgende während der Anmeldung:<br /><br />**Das funktioniert nicht, wir unterstützen Ihr Land oder Region nicht.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt derzeit nur Office 365 E - Mail - Konten, die in einer beschränkten Anzahl Märkten erfasst werden. Weitere Informationen finden Sie unter [Regionale Verfügbarkeit](#regional-availability). |
 | Persönliche E-Mail-Adressen wie nancy@gmail.com werden nicht unterstützt. Sie erhalten eine Meldung wie die Folgende während der Anmeldung:<br /><br />**Sie haben eine persönliche E-Mail-Adresse eingegeben: Geben Sie die Arbeits-E-Mail-Adresse ein, sodass wir die Daten der Unternehmung speichern können.**<br> Oder <br> **Diese sieht wie eine persönliche E-Mail-Adresse aus. Geben Sie Ihre Arbeitsadresse ein, so können wir Sie mit anderen in Ihrem Unternehmens verknüpfen. Und sorgen Sie sich nicht. Wir geben Ihre Adresse niemandem weiter** |[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Um die Anmeldung abzuschließen, versuchen Sie eine E-Mail-Adresse zu verwenden, die von Ihrer Arbeit oder Schule zugeordnet ist. Wenn Sie sich immer noch nicht anmelden können und bereit sind, eine erweiterte Einrichtung abzuschließen, können Sie sich für ein neues Probeabonnement des neuen Office 365 anmelden und diese E-Mail-Adresse verwenden, um sich anzumelden. |
 | .gov- oder .mil-E-Mail-Adressen: Sie erhalten Sie eine Meldung wie die Folgende für die Anmeldung:<br /><br />**[!INCLUDE[d365fin](includes/d365fin_md.md)] nicht verfügbar: [!INCLUDE[d365fin](includes/d365fin_md.md)] nicht für Benutzer mit .gov oder .mil-E-Mail-Adressen. Verwenden Sie eine andere Arbeits-E-Mail-Adressen- oder kehren Sie zu einem späteren Zeitpunkt zurück.** <br>Oder <br>**Wir können Ihre Anmeldung nicht beenden. Sie sieht so aus, als ob [!INCLUDE[d365fin](includes/d365fin_md.md)] zurzeit nicht für die Arbeit oder Schule verfügbar ist.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt derzeit keine .gov oder .mil-Adressen. |
@@ -37,29 +37,15 @@ In vielen Fällen kann das Registrieren für [!INCLUDE[d365fin](includes/d365fin
 | Wenn Ihr Office 365 Konto bei einem unterstützten Land erfasst ist und Sie sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden, während Sie in einem anderen Land sind, erhalten Sie eine Meldung wie die Folgendes während der Anmeldung:<br /><br />**Das funktioniert nicht, wir unterstützen Ihr Land oder Region nicht.**| Das Office 365 Abonnement Ihrer Organisation ist mit einem bestimmten Land im Verwaltungsportal Office 365 erfasst. Die Anmeldeerfahrung für [!INCLUDE[d365fin](includes/d365fin_md.md)] nutzt die Sprache und das Gebietsschema, die Ihr aktueller Browser verwendet und infolgedessen, können Sie die Fehlermeldung erhalten, obwohl Sie in einem unterstützten Land sind. Fragen Sie Ihren IT-Administrator, das Land zu überprüfen, das im Organisationsprofil im [Office 365 Verwaltungsportal](https://portal.office.com/adminportal/home#/companyprofile) angegeben ist. Sie müssen möglicherweise ein anderes Konto verwenden für [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## <a name="regional-availability"></a>Regionale Verfügbarkeit
-Eine Liste der derzeit unterstützten Märkte finden Sie im Deck [Internationale Verfügbarkeit von Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) und auf der Landing Page [Lokale Funktionalität](about-localization.md).
 
-<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+[!INCLUDE [prodshort](includes/prodshort.md)] ist in einer Reihe von Ländern oder Regionen mit Lokalisierung verfügbar, die entweder von Microsoft oder einem anerkannten Lokalisierungspartner bereitgestellt wird. Eine vollständige Liste der unterstützten Länder und Regionen finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-| Europe | North America |
-| --- | --- |
-| Australia | Canada |
-| Austria | |
-| Belgium | United States |
-| Denmark | |
-| Germany | |
-| Finland | |
-| France | |
-| Italy | |
-| Netherlands | |
-| New Zealand | |
-| Spain | |
-| Sweden | |
-| Switzerland | |
-| United Kingdom | |
--->
+Eine Übersicht der aktuell unterstützten Märkte für Dynamics 365 insgesamt, finden Sie im Stapel [Internationale Verfügbarkeit von Microsoft Dynamics 365](/dynamics365/get-started/availability). Einen Überblick über die lokalen Funktionen in [!INCLUDE [prodshort](includes/prodshort.md)] finden auf der Angebotsseite [Lokale Funktionen](about-localization.md).  
 
 ## <a name="see-also"></a>Siehe auch
+
 [Willkommen bei [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Lokale Funktionalität](about-localization.md)  
+[Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Internationale Verfügbarkeit von Microsoft Dynamics 365](/dynamics365/get-started/availability)  

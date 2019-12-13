@@ -3,23 +3,23 @@ title: Erstellen und bearbeiten von benutzerdefinierten Layouts für Berichte un
 description: Sie können jedoch Ihren eigenen benutzerdefinierten Layouts erstellen, die Ihnen ermöglichen, die Darstellung des Berichts zu ändern, wenn dieser angezeigt, gedruckt bzw. gespeichert wird.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: f7d907393f765538512a547c8eaa6a3f8963de79
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: d83f243ee9b04c44886610d39c71ad6a4dae434a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311044"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882038"
 ---
-# <a name="create-and-modify-a-custom-report-or-document-layout"></a>Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht
+# <a name="create-and-modify-custom-report-layouts"></a>Erstellen und Ändern benutzerdefinierter Berichtslayouts
 Standardmäßig haben Berichte ein integriertes Berichtlayout, das entweder ein RDLC-Berichtlayout oder ein Word-Berichtlayout oder beides sein kann. Sie können keine integrierten Layouts ändern. Sie können jedoch Ihren eigenen benutzerdefinierten Layouts erstellen, die Ihnen ermöglichen, die Darstellung des Berichts zu ändern, wenn dieser angezeigt, gedruckt bzw. gespeichert wird. Sie können mehrere benutzerdefinierte Berichtslayouts für den gleichen Bericht erstellen und anschließend das Layout, das durch einen Bericht verwendet wird, nach Bedarf wechseln.
 
 > [!NOTE]  
@@ -27,8 +27,10 @@ Standardmäßig haben Berichte ein integriertes Berichtlayout, das entweder ein 
 
 Um ein benutzerdefiniertes Layout zu erstellen, können Sie entweder eine Kopie eines vorhandenen benutzerdefinierten Layouts erstellen oder ein neues benutzerdefiniertes Layout hinzufügen, das in den meisten Fällen auf einem integrierten Layout basiert. Wenn Sie ein neues Debitorenspezifisches Layout hinzufügen, können Sie wählen, einen RDLC-Berichtslayouttyp, Word-Berichtslayouttyp oder beide hinzuzufügen. Das neue benutzerdefinierte Layout basiert automatisch auf dem integrierten Layout des Berichts, falls einer verfügbar ist. Wenn für den Typ kein integriertes Layout verfügbar ist, wird ein neues leeres Layout erstellt, das Sie bearbeiten und von Grund auf neu entwerfen müssen. Weitere Informationen zu RDLC- und Word-Berichtlayouts, integrierten und benutzerdefinierten Layouts und mehr finden Sie unter [Verwalten von Berichtslayouts](ui-manage-report-layouts.md).  
 
+Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus Debitoren- und Kreditorenkarten auswählen, um anzugeben, dass die ausgewählten Layouts für Belege verwendet werden, die Sie für den betreffenden Debitoren oder Kreditoren erstellen. Weitere Informationen finden Sie unter [Beleglayouts für Debitoren und Kreditoren definieren](ui-define-customer-vendor-document-layouts.md).
+
 ## <a name="to-create-a-custom-layout"></a>So erstellen Sie ein benutzerdefiniertes Layout
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Berichtslayout-Auswahl** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Berichtslayoutauswahl** ein, und wählen Sie dann den zugehörigen Link.
 
     In dem Feld **Unternehmesname** sind alle Berichte aufgelistet, die für das Unternehmen verfügbar sind, die auf der Seite **Bericht-Layout-Auswahl** oben verfügbar ist.
 2. Legen Sie das Feld **Mandant** für den Mandanten fest, für den Sie das Berichtlayout erstellen möchten.
@@ -68,7 +70,7 @@ Um ein Berichtslayout vom zu ändern, müssen Sie das Berichtslayout zunächst a
 
 5. Im **Importieren**-Dialogfeld **wählen** Sie das Dokument, das das Berichtlayout definiert, und wählen Sie dann **Öffnen**.
 
-##  <a name="MakeChangesToLayout"></a> Durchführen von Änderungen eines bestehenden Berichtslayouts  
+##  <a name="MakeChangesToLayout"></a> Erstellen und Ändern von benutzerdefinierten Berichtslayouts  
 Um allgemeine Formatierungs- und Layoutänderungen vorzunehmen, wie zum Beispiel Ändern der Schriftart, Hinzufügen und Ändern einer Tabelle oder Entfernen eines Datenfelds, können Sie einfach die grundlegenden Bearbeitungsfunktionen von Word verwenden, wie bei anderen Word-Dokumenten.
 
 Wenn Sie ein Word-Berichtslayout von Grund aus neu entwerfen oder neue Datenfelder hinzufügen, dann starten Sie, indem Sie eine Tabelle hinzufügen, die Zeilen und Spalten enthält, die letztendlich die Datenfelder enthalten.
@@ -78,7 +80,7 @@ Wenn Sie ein Word-Berichtslayout von Grund aus neu entwerfen oder neue Datenfeld
 
 ### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Schriftarten aus Gründen der Konsistenz in Word-Layouts einbetten
 
-Um sicherzustellen dass Berichte sich immer mit den gewünschten Schriftarten angezeigt und geruckt werden, unabhängig davon, wo Benutzer die Berichte öffnen oder drucken, können Sie die Schriftarten im Word-Dokument einbetten. Allerdings müssen Sie bedenken, dass das Einbetten von Schriftarten die Größe der Word-Dateien erheblich erhöhen kann. Weitere Informationen zur Einbettung von Schriftarten in Word finden Sie unter [Einbetten von Schriftarten in Word, PowerPoint oder Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc)
+Um sicherzustellen dass Berichte sich immer mit den gewünschten Schriftarten angezeigt und geruckt werden, unabhängig davon, wo Benutzer die Berichte öffnen oder drucken, können Sie die Schriftarten im Word-Dokument einbetten. Allerdings müssen Sie bedenken, dass das Einbetten von Schriftarten die Größe der Word-Dateien erheblich erhöhen kann. Weitere Informationen zur Einbettung von Schriftarten in Word finden Sie unter [Einbetten von Schriftarten in Word, PowerPoint oder Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc)
 
 ###  <a name="RemoveField"></a> Entfernen der Beschriftungs- und der Datenfelder in Word-Layouts  
  Beschriftung und Datenfelder eines Berichts sind in Inhaltssteuerelementen in Word enthalten. In der folgenden Abbildung wird ein Inhaltssteuerelement dargestellt, wenn es im Word-Dokument ausgewählt ist.  
@@ -105,5 +107,5 @@ Datenfelder aus einem Berichtsdataset hinzuzufügen, ist jedoch komplizierter un
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Ändern Sie das aktuelle Berichtslayout](ui-how-change-layout-currently-used-report.md)  
 [Importieren und Exportieren von einem benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-import-and-export-report-layout.md)  
-[Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)  
+[Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

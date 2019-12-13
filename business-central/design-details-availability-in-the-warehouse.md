@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Verfügbarkeit im Lager | Microsoft Docs'
 description: Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager aufrechterhalten, sodass ausgehende Aufträge effizient verlaufen und optimale Lieferungen zur Verfügung stellen können.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 67e30773683fbf8497a1668e1c4ca3d176e0781e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3cf793197ad607071df22aacb2fb98f96ac54597
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303796"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880616"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetails: Verfügbarkeit im Lager
 Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager aufrechterhalten, sodass ausgehende Aufträge effizient verlaufen und optimale Lieferungen zur Verfügung stellen können.  
@@ -49,7 +47,7 @@ Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene F
 
  Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung an.  
 
- ![Verfügbar mit Reservierungsüberschneidung](media/design_details_warehouse_management_availability_2.png "Verfügbar mit Reservierungsüberschneidung")  
+ ![Verfügbar zur Entnahme mit Reservierungsüberschneidung](media/design_details_warehouse_management_availability_2.png "Verfügbar zur Entnahme mit Reservierungsüberschneidung")  
 
 ## <a name="quantity-available-to-reserve"></a>&Menge Verfügbar für Reservierung  
  Da die Konzepte des Lagerplatzinhaltes und der Reservierung gleichzeitig existieren, muss die Menge der Artikel, die zur Reservierung verfügbar sind, an die Zuordnung zu ausgehenden Lagerbelegen angepasst sein.  
@@ -74,8 +72,8 @@ Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene F
 
  Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung an.  
 
- ![Verfügbar pro Lagerzuordnung](media/design_details_warehouse_management_availability_3.png "Verfügbar pro Lagerzuordnung")  
+ ![Verfügbar, um pro Lagerzuordnung zu reservieren](media/design_details_warehouse_management_availability_3.png "Verfügbar, um pro Lagerzuordnung zu reservieren")  
 
 ## <a name="see-also"></a>Siehe auch  
- [Designdetails: Logistik](design-details-warehouse-management.md)  
+ [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
  [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)

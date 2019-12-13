@@ -9,23 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: solsen
-ms.openlocfilehash: e78f5151694ce2fe5c37e6cfcc78ac69e5954dc1
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4f711e2bf06d0072fb063fd3d8ab5cb1e0813b68
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775595"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809105"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)]  eingerichtet.
 
-Für Unterstützung zum Tätigen vom Geschäften erhalten, können Sie die Seite **Geschäfts-Hilfe** aufsuchen. Dort können Sie die unterstützte Hilfe starten oder Hilfethemen für ausgewählte Einrichtungsaufgaben aufrufen. Sie rufen die Seite aus dem Diagramm im Rollencenter zu **Geschäftsführer** auf, indem Sie den Dropdownpfeil **Geschäfts-Hilfe** auswählen, und dann die Aktion **Einrichtungs- und Hilfe-Ressourcen anzeigen** auswählen. Wenn Sie die Seite aktualisieren, wird das Diagramm der Einrichtungs- und Hilferessourcen ersetzt.
+Damit Sie sich leichter auf Ihre Geschäftstätigkeiten vorbereiten können, können Sie die Seite **Unterstützte Einrichtung** besuchen. Dort können Sie Anleitungen zur unterstützten Einrichtung, Videos oder Hilfethemen für ausgewählte Einrichtungsaufgaben starten. Sie greifen auf die Seite vom Geschäftsleiter-Rollencenter aus zu, indem Sie die Aktion **Einrichtung und Erweiterungen** auswählen und dann die Aktion **Unterstützte Einrichtung**.
 
-Um die Liste der unterstützten Einrichtungsanleitungen zu öffnen, wählen Sie alternativ die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Unterstützes Setup** ein und wählen Sie dann den entsprechenden Link.
+Um die Liste der Anleitungen für die unterstützten Einrichtung für jede beliebige Rolle zu öffnen, wählen Sie alternativ das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben **Unterstütze Einrichtung** ein und wählen Sie dann den entsprechenden Link.
 
-Im Rollencenter am unteren Rand des Navigationsbereichs finden Sie das Menü **Einrichtung und Erweiterungen**. Hier sehen Sie eine Übersicht des Leitfadens für das unterstützte Setup, das Ihnen bei den ersten Schritten helfen kann. Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie in Betracht ziehen, ob die unterstützte Einrichtung Ihnen helfen kann.
+Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie jedoch in Betracht ziehen, ob andere Anleitungen zur unterstützten Einrichtung auf der Liste Ihnen helfen können.
 
 Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung** aus, um auf die Einrichtungsseiten zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
@@ -49,7 +49,9 @@ Verwenden Sie die Pfeile, um einen Teil der Seite zu verkleinern und mehr Platz 
 Unter **Mandanten-Einstellungen** können Sie Informationen über den aktuellen Mandanten anzeigen und einrichten. Vieles davon wurde bereits beim **Einrichten des Mandanten** ausgefüllt bei der Anmeldung zu Pro [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wenn Sie das Firmenlogo, die Kontaktinformation, die Bankeinstellungen oder die Steuerdaten ändern möchten, können Sie dies auf der Seite tun.    
 
 ## <a name="adding-users-and-permissions"></a>Hinzufügen von Benutzern und von Berechtigungen
-Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Office 365 Admin Center durchgeführt. Weitere Informationen sind hier verfügbar [Benutzer zu Office 365 for Business hinzufügen](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Sobald der Benutzer im Office 365 erzeugt wurde, können sie auf die Seite **Benutzer** importiert werden, und zwar mithilfe der Aktion **Benutzer von Office 365 abrufen**. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
+Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Microsoft 365 Admin Center aus durchgeführt. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
+
+Wenn Benutzer in Microsoft 365 erstellt werden, können sie auf die Seite **Benutzer** mithilfe der Aktion **Neue Benutzer aus Office 365 abrufen** importiert werden. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Abrufen von Hilfe
 Im [!INCLUDE[d365fin](includes/d365fin_md.md)] finden Sie die Hilfethemen, die Sie durch die einzelnen Geschäftsvorgänge führen. Für jede Feld-Quickinfo können Sie STRG+F1 drücken oder den Link **Weitere Informationen** auswählen, um die Hilfe der jeweiligen Seite zu öffnen. Das Fragezeichen in der rechten oberen Ecke bringt Sie ebenfalls zum Hilfethema.
@@ -60,6 +62,7 @@ Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkä
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)
+[Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-Testversionen und Abonnements](across-preview.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c85b58de2ec9e497e2578a6241b7f1499a81ae9
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315156"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809376"
 ---
 # <a name="managing-report-and-document-layouts"></a>Verwaltung von Berichts- und Beleg-Layouts
 Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr. Von [!INCLUDE[d365fin](includes/d365fin_md.md)] aus können Sie ändern, welches Layout in einem Bericht verwendet wird, ein neues Layout erstellen oder vorhandene Layouts ändern.
@@ -39,7 +39,7 @@ Es gibt zwei Arten Berichtlayouts, die Sie in Berichten verwenden können, Word 
 ## <a name="word-report-layout-overview"></a>Word-Berichtlayout - Übersicht
 Ein Word-Berichtlayout basiert auf einem Word-Dokument (DOCX-Datei-Typ). Word-Berichtslayouts ermöglichen es Ihnen, Berichtslayouts zu gestalten, indem Sie Microsoft Word 2013 oder höher verwenden. Ein Word-Berichtslayout bestimmt den Inhalt des Berichts und steuert, wie diese Inhaltselemente angeordnet werden und wie diese aussehen. Ein Word-Berichtlayoutbeleg verwendet normalerweise Tabellen, um Inhalt zu organisieren, wobei die Zellen Datenfelder, Text oder Bilder enthalten können.
 
- ![Beispiel für ein Word-Berichtslayoutdokument für NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
+ ![Beispiel eines Word-Berichtslayoutbelegs für NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 
 ## <a name="rdlc-layout-overview"></a>RDLC-Layout - Übersicht
 RDLC-Layouts basieren auf Client-Berichtsdefinitionslayouts (.rdlc- oder .rdl-Dateitypen). Diese Layouts werden erstellt und geändert, indem Sie SQL Server-Bericht-Generator verwenden. Das Entwurfskonzept für RDLC-Layouts ist ähnlich den Word-Layouts, in denen das Layout das Muster des Berichts definiert und die Felder der Dataset bestimmt, die enthalten sein sollen. RDLC-Layouts bieten, verglichen mit Word-Layouts, eine größere Fülle an Funktionen und Gestaltungsmöglichkeiten. Weitere Informationen finden sie unter [RDLC-Berichtslayouts entwwerfen](/dynamics-nav/Designing-RDLC-Report-Layouts).
@@ -59,9 +59,10 @@ Der Prozess für die Einrichtung von Word-Berichtslayouts und RDLC-Berichtslayou
 Weitere Informationen darüber, wie das Layout, das verwendet wird, geändert werden kann, finden Sie unter [Aktuelles Berichtslayout ändern](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Siehe auch
-[Verwaltung von Berichts- und Beleg-Layouts](ui-update-report-layouts.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)  
+[Benutzerdefinierte Berichtslayouts aktualisieren](ui-update-report-layouts.md)  
+[Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md)  
 [Importieren und Exportieren von einem benutzerdefinierten Berichts- oder Dokumentenlayout](ui-how-import-and-export-report-layout.md)  
+[Spezielle Beleglayouts für Debitoren und Kreditoren definieren](ui-define-customer-vendor-document-layouts.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

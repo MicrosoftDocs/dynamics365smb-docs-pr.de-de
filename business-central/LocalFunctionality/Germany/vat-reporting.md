@@ -1,8 +1,6 @@
 ---
 title: MwSt.-Abrechnung
 description: MwSt.-Erklärungen können elektronisch übermittelt werden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9435ce3c488eedaef9472a961de36071d1d4e0e4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7d9ac5610174bc3857c86c0b09b3f18d6d9d0c13
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301311"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878923"
 ---
 # <a name="vat-reporting"></a>MwSt.-Abrechnung
-Sie können dann das VAT-Dokument an die Schnittstelle des Onlineportals „Elektronische Steuererklärungen (ELSTER)” der deutschen Finanzämter übermitteln. Sie können eine MwSt-Erklärung als XML-Datei generieren und exportieren und dann direkt an das ELSTER-Portal senden. Weitere Informationen finden Sie unter [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md).  
+Sie können dann das VAT-Dokument an die Schnittstelle des Onlineportals „Elektronische Steuererklärungen (ELSTER)“ der deutschen Finanzämter übermitteln. Sie können eine MwSt-Erklärung als XML-Datei generieren und exportieren und dann direkt an das ELSTER-Portal senden. Weitere Informationen finden Sie unter [Gewusst wie: Einrichten von Umsatzsteuervoranmeldungen](how-to-set-up-and-export-sales-vat-advance-notifications.md).  
 
 Folgende lokale MwSt.-Erklärungen können gedruckt werden:  
 

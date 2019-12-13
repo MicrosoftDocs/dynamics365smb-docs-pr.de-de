@@ -1,8 +1,6 @@
 ---
 title: Mit Microsoft Dynamics 365 Sales verbinden | Microsoft Docs
 description: Integration mit Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9e68f62a7fd79188e2461983837586bd4cd2c64b
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554374"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879283"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Verbindung mit Dynamics 365 Sales einrichten
 Für die Integration mit [!INCLUDE[crm_md](includes/crm_md.md)] müssen Sie eine Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] einrichten.
@@ -52,7 +50,7 @@ Das Leitfaden für das unterstützte Setup für das **Einrichtung der Dynamics 3
 |**Dynamics 365 Business Central-OData-Webdienst-URL**|Wenn Sie den Artikelverfügbarkeits-Webdienst aktivieren, wird Ihnen die URL für den OData-Webdienst bereitgestellt.|
 |**Dynamics 365 Business Central-OData-Webdienst-Benutzername**|Der Name des [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzerkontos, den [!INCLUDE[crm_md](includes/crm_md.md)] verwendet, um Informationen über Artikelverfügbarkeit in [!INCLUDE[d365fin](includes/d365fin_md.md)] über den OData-Webdienst abzurufen.|
 |**Dynamics 365 Business Central-OData-Webdienst-Zugriffsschlüssel**|Der Zugriffsschlüssel des Benutzerkontos, das [!INCLUDE[crm_md](includes/crm_md.md)] verwendet, um Informationen über Artikelverfügbarkeit aus [!INCLUDE[d365fin](includes/d365fin_md.md)] über den OData-Webdienst abzurufen. Der Schlüssel wird dem Benutzer zugeordnet, der im Feld **Dynamics 365 Business Central-OData-Webdienst-Benutzername** ausgewählt ist. Um den Schlüssel zu erhalten, wählen Sie die Schaltfläche **Wert suchen** neben dem Benutzernamen, wählen Sie den Benutzer aus, wählen Sie **Verwalten** und dann **Bearbeiten** aus. In der Benutzerkarte wählen Sie **Aktionen**, **Authentifizierung** und dann **Webdienstschlüssel ändern**.|
-|**Verkaufsauftragsintegration aktivieren**|Wenn Personen Verkaufsaufträge in [!INCLUDE[crm_md](includes/crm_md.md)] erstellen und Aufträge in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfüllen, wird dies in den Prozess in [!INCLUDE[crm_md](includes/crm_md.md)] integriert. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Dazu ist es erforderlich, dass Sie Anmeldeinformationen für ein Administratorbenutzerkonto in [!INCLUDE[crm_md](includes/crm_md.md)] zur Verfügung stellen. Weitere Informationen finden Sie im Abschnitt [Verarbeiten von Verkaufsauftragsdaten](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
+|**Verkaufsauftragsintegration aktivieren**|Wenn Personen Verkaufsaufträge in [!INCLUDE[crm_md](includes/crm_md.md)] erstellen und Aufträge in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfüllen, wird dies in den Prozess in [!INCLUDE[crm_md](includes/crm_md.md)] integriert. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Dazu ist es erforderlich, dass Sie Anmeldeinformationen für ein Administratorbenutzerkonto in [!INCLUDE[crm_md](includes/crm_md.md)] zur Verfügung stellen. Weitere Informationen finden Sie im Abschnitt [Verarbeiten von Verkaufsauftragsdaten](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Aktivieren der Dynamics 365 for Sales-Verbindung**|Aktivieren Sie die Verbindung mit [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Dynamics 365-SDK-Version**|Dies ist nur relevant, wenn Sie eine lokale Version von [!INCLUDE[crm_md](includes/crm_md.md)] integrieren. Das ist das Dynamics 365 Software Development Kit (wird auch als Xrm bezeichnet), das Sie verwenden, um eine Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] herzustellen. Die Version muss mit der SDK-Version kompatibel sein, die von [!INCLUDE[crm_md](includes/crm_md.md)] verwendet wird, und der Version von [!INCLUDE[crm_md](includes/crm_md.md)] entsprechen oder neuer sein.|
 
@@ -62,7 +60,7 @@ Das Leitfaden für das unterstützte Setup für das **Einrichtung der Dynamics 3
 ### <a name="to-create-or-maintain-the-connection-manually"></a>So erstellen oder pflegen Sie den Link manuell
 Nachfolgend wird beschrieben, wie Sie die Felder der Seite **Microsoft Dynamics 365 Sales Verbindungseinrichtung** manuell ausfüllen. Dies ist auch die Seite, auf der Sie Einstellungen für die Integration verwalten.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Microsoft Dynamics 365-Verbindungseinrichtung** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![die Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Microsoft Dynamics 365-Verbindungseinrichtung** ein, und wählen Sie dann den zugehörigen Link.
 2. Geben Sie die folgenden Informationen über die Verbindung von [!INCLUDE[d365fin](includes/d365fin_md.md)] mit [!INCLUDE[crm_md](includes/crm_md.md)] ein.
 
 |Feld|Beschreibung|
@@ -89,7 +87,7 @@ Nachfolgend wird beschrieben, wie Sie die Felder der Seite **Microsoft Dynamics 
 
 |Feld|Beschreibung|
 |-----|-----|
-|**Auftragsintegration ist aktiviert**|Ermöglichen Sie es Benutzern, Verkaufsaufträge und aktivierte Angebote in [!INCLUDE[crm_md](includes/crm_md.md)] zu senden und sie dann in [!INCLUDE[d365fin](includes/d365fin_md.md)] anzuzeigen und zu bearbeiten. Dies integriert den Prozess in [!INCLUDE[crm_md](includes/crm_md.md)]. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
+|**Auftragsintegration ist aktiviert**|Ermöglichen Sie es Benutzern, Verkaufsaufträge und aktivierte Angebote in [!INCLUDE[crm_md](includes/crm_md.md)] zu senden und sie dann in [!INCLUDE[d365fin](includes/d365fin_md.md)] anzuzeigen und zu bearbeiten. Dies integriert den Prozess in [!INCLUDE[crm_md](includes/crm_md.md)]. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
 |**Verkaufsaufträge automatisch erstellen**|Erstellen Sie einen Verkaufsauftrag in [!INCLUDE[d365fin](includes/d365fin_md.md)], wenn ein Benutzer einen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt und sendet.|
 |**Verkaufsangebote automatisch verarbeiten**|Verarbeiten Sie ein Verkaufsangebot in [!INCLUDE[d365fin](includes/d365fin_md.md)], wenn ein Benutzer eins in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt und aktiviert.|
 
@@ -108,15 +106,15 @@ Nachfolgend wird beschrieben, wie Sie die Felder der Seite **Microsoft Dynamics 
 7. Wenn die [!INCLUDE[crm_md](includes/crm_md.md)]-Synchronisierung nicht bereits eingerichtet ist, werden Sie gefragt, ob Sie die Standardsynchronisierungskonfiguration verwenden möchten. Abhängig davon, ob Sie Datensätze in [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)] angepasst bleiben sollen, wählen Sie **Ja** oder **Nein** aus.
 
 > [!Note]
-> Die Verbindung zu Dynamics 365 Sales mithilfe der Seite **Microsoft Dynamics 365 Sales Verbindungseinrichtung** verlangt möglicherweise von Ihnen dass Sie dem Integrationsadministrator und dem Integrationsbenutzer Sicherheitsrollen für Benutzerkonten zuweisen, die für die Integration verwendet wird. Weitere Informationen finden Sie unter [Weisen Sie einem Benutzer eine Sicherheitsrolle zu](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+> Die Verbindung zu Dynamics 365 Sales mithilfe der Seite **Microsoft Dynamics 365 Sales Verbindungseinrichtung** verlangt möglicherweise von Ihnen dass Sie dem Integrationsadministrator und dem Integrationsbenutzer Sicherheitsrollen für Benutzerkonten zuweisen, die für die Integration verwendet wird. Weitere Informationen finden Sie unter [Weisen Sie einem Benutzer eine Sicherheitsrolle zu](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 
 > [!Note]
-> Die Verbindung zu Dynamics 365 Sales mithilfe der Seite **Microsoft Dynamics 365 Sales Verbindungseinrichtung** verlangt möglicherweise von Ihnen dass Sie dem Integrationsadministrator und dem  **Integrationsbenutzer** und **Sicherheitsrollen für Benutzerkonten** [zuweisen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user), die für die Integration verwendet werden.
+> Die Verbindung zu Dynamics 365 Sales mithilfe der Seite **Microsoft Dynamics 365 Sales Verbindungseinrichtung** verlangt möglicherweise von Ihnen dass Sie dem Integrationsadministrator und dem  **Integrationsbenutzer** und **Sicherheitsrollen für Benutzerkonten** [zuweisen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user), die für die Integration verwendet werden.
 
 
 ### <a name="to-disconnect-from-includecrm_mdincludescrm_mdmd"></a>So trennen Sie [!INCLUDE[crm_md](includes/crm_md.md)]  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Microsoft Dynamics 365 Sales Verbindungseinrichtung** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Microsoft Dynamics 365 Sales-Verbindungseinrichtung** ein, und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Microsoft Dynamics 365 Sales Verbindungseinrichtung** deaktivieren Sie das Kontrollkästchen **Aktiviert**.  
 
 <!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
@@ -131,11 +129,11 @@ Nachfolgend wird beschrieben, wie Sie die Felder der Seite **Microsoft Dynamics 
 
      This step adds the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity and **[!INCLUDE[d365fin](includes/d365fin_md.md) Account Statistics** entity in the system and additional items such as [!INCLUDE[d365fin](includes/d365fin_md.md)] integration security roles.  
 
-     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [http://go.microsoft.com/fwlink/?LinkID=616519](http://go.microsoft.com/fwlink/?LinkID=616519).  
+     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [https://go.microsoft.com/fwlink/?LinkID=616519](https://go.microsoft.com/fwlink/?LinkID=616519).  
 
 3.  Optional: Set up the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity to display in the **Settings** area of [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **[!INCLUDE[d365fin](includes/d365fin_md.md) Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [View or edit entity information](http://go.microsoft.com/fwlink/?LinkID=616521).  
+     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **[!INCLUDE[d365fin](includes/d365fin_md.md) Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [View or edit entity information](https://go.microsoft.com/fwlink/?LinkID=616521).  
 
 4.  Assign the **[!INCLUDE[d365fin](includes/d365fin_md.md) Integration Administrator** role to the user account for the connection to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

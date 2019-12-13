@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: margoc
 ms.author: solsen
-ms.openlocfilehash: 40759a8ed442b4523066734868c86715d3dec5dd
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: de638f779f45eb3d6dcb637310c85e5675b69338
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767798"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832167"
 ---
 # <a name="sales-learning-catalog"></a>Verkaufslernkatalog
 
@@ -23,7 +23,7 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 
 | Inhalt                                                                          | Beschreibung                                                                                                                                                                                                                                                                                              | Format                                | Länge              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Nur für Partner) In dieser Sitzung wird der Wert von Business Central erläutert. Business Central bietet einen hohen Mehrwert, da es sich mit anderen Microsoft Cloud Services wie Office 365 integriert und mit PowerApps, Microsoft Flow und Power BI an spezifische Branchenbedürfnisse angepasst oder erweitert werden kann. | Video                                 | 8 Minuten 5 Sekunden |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Nur für Partner) In dieser Sitzung wird der Wert von Business Central erläutert. Business Central bietet einen hohen Mehrwert, da es sich mit anderen Microsoft Cloud Services wie Office 365 integriert und mit Power Apps, Power Automate und Power BI an spezifische Branchenbedürfnisse angepasst oder erweitert werden kann. | Video                                 | 8 Minuten 5 Sekunden |
 | [Erforschen Sie die Dynamics 365 Business Central-Funktionen](https://dynamics.microsoft.com/business-central/capabilities/) | Erkunden Sie die Dynamics 365 Business Central-Funktionen.                                                                                                                                                                                                                                                        | Website                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Dieses Modul zeigt Anwendungsmerkmale, Vorteile und Beispiele für Dynamics 365 Business Central in Aktion.                                                                                                                                                                                                | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 24 Minuten          |
 
@@ -40,7 +40,7 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 
 | Inhalt                                                                          | Beschreibung                                                                                                                                                                                                                                                                                               | Format                                | Länge              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Nur für Partner) In dieser Sitzung wird der Wert von Business Central erläutert. Business Central bietet einen hohen Mehrwert, da es sich mit anderen Microsoft Cloud Services wie Office 365 integriert und mit PowerApps, Microsoft Flow und Power BI an spezifische Branchenbedürfnisse angepasst oder erweitert werden kann. | Video                                 | 8 Minuten 5 Sekunden |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Nur für Partner) In dieser Sitzung wird der Wert von Business Central erläutert. Business Central bietet einen hohen Mehrwert, da es sich mit anderen Microsoft Cloud Services wie Office 365 integriert und mit Power Apps, Power Automate und Power BI an spezifische Branchenbedürfnisse angepasst oder erweitert werden kann. | Video                                 | 8 Minuten 5 Sekunden |
 | [Erforschen Sie die Dynamics 365 Business Central-Funktionen](https://dynamics.microsoft.com/business-central/capabilities/) | Erkunden Sie die Dynamics 365 Business Central-Funktionen.                                                                                                                                                                                                                                                        | Website                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Dieses Modul zeigt Anwendungsmerkmale, Vorteile und Beispiele für Dynamics 365 Business Central in Aktion.                                                                                                                                                                                                | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 24 Minuten          |
 

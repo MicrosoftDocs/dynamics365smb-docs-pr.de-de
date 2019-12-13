@@ -1,8 +1,6 @@
 ---
 title: Servicestatistik | Microsoft Docs
 description: Mit der Funktion "Servicestatistik" können Sie sich schnell einen Überblick über den Inhalt eines gesamten Servicebelegs (Angebot, Rechnung oder Gutschrift) verschaffen, d. h. Sie können die Details zu den spezifischen Servicezeilen und Artikeln im Beleg anzeigen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 95bed832d95647ea538324544c302054328cae66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553842"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877159"
 ---
 # <a name="viewing-service-statistics"></a>So zeigen Sie die Servicestatistik an
 Sie können Statistiken nutzen, um Belege zu analysieren und zu bestimmen, wie Sie Ihre Dienstvorgänge verwalten sollen. Sie können Serviceverträge, Artikel, Bestellungen, Rechnungen, Gutschriften und Anfragen analysieren, indem Sie die **Statistik** Aktion auswählen. Für Serviceartikel und Verträge können Sie **Serviceartikel-Trendscape** oder **Servicevertrag-Trendscape** verwenden, um eine Zusammenfassung der Serviceposten für einen bestimmten Serviceartikel angezeigt.   
@@ -86,7 +84,7 @@ Die Anwendung erstellt automatisch einen Gewinn- oder Verlustposten, wenn Vertra
 |**Vertrag Gew./Verl. (Ursachen)**|Um den Vertragsgewinn/-verlust nach Ursachencode anzuzeigen.|  
 |**Vertrag Gew./Verl. (Zust.Ein.)**|Um den Vertragsgewinn/-verlust nach Zuständigkeitseinheit anzuzeigen.|  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie den Namen der anzuzeigenden Seite ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie den Namen der Seite ein, die angezeigt werden soll, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Filterkriterien aus, die Sie anwenden möchten. Wählen Sie beispielsweise auf der Seite **Vertrag Gew./Verl. (Ursachen)** einen Wert für **Ursachencodefilter** aus.  
 3. Wählen Sie die Aktion **Matrix anzeigen** aus.
 

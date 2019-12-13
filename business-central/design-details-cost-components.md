@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Kostenkomponenten | Microsoft Docs'
 description: Kostenkomponenten sind unterschiedliche Arten von Kosten, die den Wert eines Lagerzugangs erhöhen oder vermindern.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6cd1d8ef57a206bfa077d28c70e04c4032ead0fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bc8af7c62702aa701251459a9b373200c61d2035
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307276"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880550"
 ---
 # <a name="design-details-cost-components"></a>Designdetails: Kostenkomponenten
 Kostenkomponenten sind unterschiedliche Arten von Kosten, die den Wert eines Lagerzugangs erhöhen oder vermindern.  

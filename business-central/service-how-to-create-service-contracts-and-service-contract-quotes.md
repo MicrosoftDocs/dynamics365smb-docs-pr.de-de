@@ -1,8 +1,6 @@
 ---
 title: So arbeiten Sie mit Serviceverträgen und Servicevertragsangeboten | Microsoft Docs
 description: Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot. Si können einen Vertrag auf einem Servicevertragsangebot erstellen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ab81ad15ebae118106db1a32a7a45a9fbbc19cf7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553916"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882422"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeiten mit Serviceverträgen und Servicevertragsangeboten
 Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot. Sie können ein Servicevertragsangebot als Vorläufer eines Servicevertrags verwenden, in dem Ihr Unternehmen dem Debitoren ein Angebot unterbreitet und die Genehmigung des Debitoren erhält, bevor das Angebot in einen Servicevertrag umgewandelt wird. Die Vorgehensweisen zur Erstellung eines Servicevertrags oder eines Servicevertragsangebots sind ähnlich.  
 
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>So erstellen Sie einen Servicevertrag oder ein Servicevertragsangebot  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceverträge** oder **Servicevertragsangebote** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceverträge** oder **Servicevertragsangebote** ein und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie einen neuen Servicevertrag oder ein neues Servicevertragsangebot.  
 3. Füllen Sie die **Felder Nr.** Feld Es wird ein Dialogfeld geöffnet, in dem Sie gefragt werden, ob Sie die allgemeinen Daten aus einer Vertragsvorlage verwenden möchten. Wenn Sie einen solchen Servicevertrag oder ein solches Servicevertragsangebot erstellen möchten, klicken Sie auf **Ja**. Die Seite **Servicevertragsvorl.-Übersicht** wird angezeigt.  
 4. Wählen Sie die entsprechende Vorlage aus, und wählen Sie dann **OK** aus, um den Servicevertrag oder das Servicevertragsangebot mithilfe der Vorlage zu erstellen.  
@@ -48,7 +46,7 @@ Für Verträge, die nicht detailliert sind, wird der fakturierte Betrag folgende
 * Fakturierter Betrag = (jährlicher Betrag ÷ Anzahl der Tage im Jahr) × Anzahl der Tage in der Anfangsperiode.  
 * Falls der Vertrag abläuft, bevor die Anfangsperiode endet, wird das Ablaufdatum zum Enddatum der Anfangsperiode.    
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicevertragsangebote** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Servicevertragsangebote** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie das Servicevertragsangebot, das Sie in einen Servicevertrag umwandeln möchten.  
 3. Wählen Sie die **Vertrag erst.** Aktion aus.  
 4. Falls das Startdatum des Vertrags vor dem Beginn des nächsten Fakturierungsintervalls liegt, werden Sie gefragt, ob Sie eine Servicerechnung für die Startperiode des Vertrags erstellen möchten. Wählen Sie **Ja** aus.  
@@ -58,7 +56,7 @@ Für Verträge, die nicht detailliert sind, wird der fakturierte Betrag folgende
 ## <a name="to-create-contract-service-credit-memos"></a>So erstellen Sie Servicevertragsgutschriften
 Sie können Servicevertragsgutschriften verwenden, wenn ein Debitor einen vorausbezahlten Servicevertrag kündigt oder einen Serviceartikel aus einem vorausbezahlten Vertrag entfernt. Sie verwenden sie ebenfalls, um fehlerhafte Servicerechnungen zu korrigieren.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicegutschriftsmemos** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Servicegutschriften** ein und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie eine neue Servicegutschrift.  
 3. Füllen Sie die **Felder Nr.** Feld  
 4. Klicken Sie im Feld **Debitorennr.** geben Sie die Nummer des Debitors im Servicevertrag ein.  
@@ -66,7 +64,7 @@ Sie können Servicevertragsgutschriften verwenden, wenn ein Debitor einen voraus
      Sie können auf dem Inforegister **Fakturierung** weitere Informationen anzeigen, die aus der Karte **Debitor** kopiert wurden. Wenn Sie die Gutschrift auf einen anderen Debitor buchen möchten, als den auf dem Inforegister **Allgemein** angegebenen Debitor, müssen Sie die Nummer dieses Debitors in **Rech. an Deb.-Nr.** eingeben. Feld  
 
     > [!NOTE]  
-    >  Sie können die Gutschrift mit dem ursprünglich gebuchten Beleg auf der Seite **Gebuchte Servicerechnungen** vergleichen. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Gebuchte Servicerechnung gebucht** ein, und wählen dann den zugehörigen Link aus.  
+    >  Sie können die Gutschrift mit dem ursprünglich gebuchten Beleg auf der Seite **Gebuchte Servicerechnungen** vergleichen. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Gebuchte Servicerechnungen** ein und wählen Sie dann den entsprechenden Link.  
 
 5. Füllen Sie die Felder **Buchungsdatum** und **Belegdatum** aus.  
 6. Geben Sie in die Gutschriftszeilen Informationen über die Artikel ein, die zurückgeschickt oder entfernt wurden, oder den Nachlass, den Sie gewähren möchten. Sie können auch das Anforderungsformular für die Stapelverarbeitung **Vorausbezahlte Vertragseinträge** verwenden.  
@@ -83,7 +81,7 @@ Sie können den Status des Vertrags, der ursprünglich auf **Gesperrt** festgele
 ## <a name="to-add-a-contract-line-to-a-service-contract-or-contract-quote"></a>So fügen Sie einem Serviceauftrag oder einem Vertragsangebot Vertragszeilen hinzu  
 Wenn ein Debitor einen neuen Artikel kauft und diesen in einem bestehenden Servicevertrag aufnehmen möchte, können Sie den Artikel als Serviceartikel erstellen lassen und ihn dann als neue Vertragszeile zu dem Vertrag oder dem Vertragsangebot hinzufügen.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceverträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceverträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie den relevanten Servicevertrag oder das relevante Servicevertragsangebot, für den/das Sie eine neue Vertragszeile hinzufügen möchten.  
 3. Wählen Sie die Aktionen **Vertrag öffnen** aus, um den Servicevertrag oder das Servicevertragsangebot zwecks Bearbeitung zu öffnen.  
 4. Aktivieren Sie im Inforegister **Rechnungsdetails** das Feld **Nicht ausgegl. Betr. zulassen**, wenn Sie den jährlichen Betrag ändern und die Differenz des Feldes "Zu fakturieren (Jahr)" in den Vertragszeilen manuell weitergeben möchten. Andernfalls deaktivieren Sie das Feld **Nicht ausgegl. Betr. zulassen**. Dies verteilt die Differenz des Feldes "Zu fakturieren (Jahr)" automatisch auf die Vertragszeilen, wenn Sie den jährlichen Betrag geändert haben.  
@@ -93,7 +91,7 @@ Wenn ein Debitor einen neuen Artikel kauft und diesen in einem bestehenden Servi
 ## <a name="to-remove-contract-lines"></a>So entfernen Sie Vertragszeilen  
 Möglicherweise müssen Sie Vertragszeilen aus dem Servicevertrag entfernen, wenn Sie entsprechende Serviceartikel aus dem Servicevertrag entfernen. In der Regel entfernen Sie Vertragszeilen, die abgelaufen sind oder zu einem eingestellten Serviceartikel gehören.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceverträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceverträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie den Servicevertrag, aus dem Sie Vertragszeilen entfernen möchten.  
 3. Wählen Sie die Aktionen **Vertrag öffnen** aus, um den Servicevertrag zwecks Bearbeitung zu öffnen.  
 4. Wählen Sie die Vertragszeile aus, die Sie entfernen möchten. Geben Sie in das Feld **Vertragsablaufdatum** das Datum ein, ab dem die Vertragszeile entfernt werden soll. Beispielsweise könnten Sie das Datum eingeben, an dem der Serviceartikel eingestellt wurde.  
@@ -124,7 +122,7 @@ In Servicevertragszeilen werden die Beträge in den Feldern **Zeileneinstandspre
 ## <a name="to-add-a-contract-discount-to-service-contract-quotes"></a>So fügen Sie einen Vertragsrabatt für Servicevertragsangebote hinzu  
 Sie können Vertragsrabatte für Services auf Vertragsangeboten und Serviceverträgen hinzufügen. Die Rabatte können auf Ersatzteile in bestimmten Serviceartikelgruppen, auf Arbeitsstunden von Ressourcen in bestimmten Ressourcengruppen und auf bestimmte Servicekosten gewährt werden.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicevertragsangebote** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Servicevertragsangebote** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie das Angebot aus, dem Rabatte hinzuzufügt werden sollen.  
 3. Wählen Sie die **Servicerabatte** Aktion aus. Die Seite **Vertrags-/Servicerabatte** wird geöffnet.  
 4. Wählen Sie die **Neu** Aktion aus, um einen neuen Rabattvertrag zu erstellen.  
@@ -144,7 +142,7 @@ Sie müssen möglicherweise den Inhaber eines Servicevertrags ändern. Wenn ein 
 >   
 >  Zum Beispiel erscheint Serviceartikel Nr. 8 in den Verträgen SV00003 und SV00015. Vertrag SV00015 enthält darüber hinaus Serviceartikel Nr. 15, der ebenso in Vertrag SV00080 erscheint. In diesem Fall werden die Inhaber aller drei Verträge und Serviceartikel geändert.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceverträge** ein, und wählen dann den zugehörigen Link aus. Öffnen Sie den Servicevertrag, dessen Besitzer Sie ändern möchten.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceverträge** ein und wählen Sie dann den entsprechenden Link. Öffnen Sie den Servicevertrag, dessen Besitzer Sie ändern möchten.  
 2. Wählen Sie die Aktionen **Vertrag öffnen** aus, um den Vertrag zwecks Bearbeitung zu öffnen.  
 3. Wählen Sie die **Debitor wechseln** Aktion aus. Die Seite **Debitor in Vertrag ändern** wird geöffnet.  
 4. Im **Vertragsnummer** und **Serviceartikelnr**, sehen Sie die Nummern des Vertrags und des Serviceartikels des ausgewählten Debitors. Wenn der Debitor Inhaber mehrerer Verträge mit mehreren Serviceartikeln ist, ist der Wert dieser Felder **Mehrere**. Um die Liste der damit verbundenen Verträge oder Serviceartikel anzuzeigen, wählen Sie diese Feldwerte aus.  
@@ -156,7 +154,7 @@ Sie müssen möglicherweise den Inhaber eines Servicevertrags ändern. Wenn ein 
 ## <a name="to-update-a-service-contract-price"></a>So aktualisieren Sie Servicevertragspreise  
 Sie können die Preise in Serviceverträgen durch die Eingabe eines Prozentsatzes aktualisieren.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Servicevertragspreis aktualisieren** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Servicevertragspreise aktualisieren** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Servicevertrag aus.  
 3. Geben Sie in dem Feld **Aktualisierung bis Datum** ein Datum ein. Mit dem Batchauftrag werden die Preise für Verträge mit einem nächsten Preisaktualisierungsdatum bis einschließlich zu diesem Datum aktualisiert.  
 4. Geben Sie im Feld **Preisaktualisierung %** den Prozentsatz ein, mit dem Sie die Vertragspreise aktualisieren möchten.  
@@ -167,7 +165,7 @@ Wenn Sie mit vorausbezahlten Verträgen arbeiten, müssen Sie regelmäßig vorau
 
 Bevor Sie die vorausbezahlten Vertragsposten buchen können, müssen Sie auf der Seite **Service Einrichtung** im Feld **Vorausbez. Buch.-Belegnummern** eine Nummernserie angeben.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Vorausbezahlte Vertragseinträge buchen** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Vorausbezahlte Vertragsposten buchen** ein und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie im Feld **Buchungsdatum** ein Buchungsdatum ein. Die Stapelverarbeitung bucht vorausbezahlte Serviceposten mit einem Buchungsdatum bis zu diesem Datum.  
 4. Geben Sie im Feld **Buchungsdatum** das Datum ein, das Sie als Buchungsdatum in der Fibu Buch.-Blattzeile verwenden möchten.  
 5. Klicken Sie im Feld **Aktion** auf **Vorausbezahlte Transaktionen buchen**.  
@@ -185,7 +183,7 @@ Sie müssen u. U. einen Servicevertrag kündigen, wenn dieser Vertrag ausläuft
 > [!NOTE]  
 >  Sie können einen Vertrag nicht erneut öffnen, wenn er gekündigt ist.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceverträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceverträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie den relevanten zu kündigenden Servicevertrag.  
 3. Wählen Sie die Aktionen **Vertrag öffnen** aus, um den Servicevertrag zwecks Bearbeitung zu öffnen.  
 4. Wählen Sie im Feld **Ursachencode bei Kündigung** den relevanten Ursachencode aus. Um weitere Ursachencodes hinzuzufügen, wählen Sie die **Erweitert** Aktion aus.  

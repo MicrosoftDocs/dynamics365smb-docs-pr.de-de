@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 11/06/2019
+ms.date: 12/06/2019
 ms.author: edupont
-ms.openlocfilehash: cf4fe3abc4a31619015520f2be598976b0fc8f5c
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775499"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896185"
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -20,7 +20,7 @@ Dieser Abschnitt enthält Antworten auf häufig gestellte Fragen zur Registrieru
 
 ## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Ist [!INCLUDE[d365fin](includes/d365fin_md.md)] in meinem Land verfügbar?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist in einer begrenzten Anzahl von Märkten verfügbar. Neue Länder werden über eine von Microsoft geführte Lokalisation oder durch partnergeführte Lokalisation quartalsweise hinzugefügt. Weitere Informationen finden Sie unter [Unterstützte Länder und Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist in einer begrenzten Anzahl von Märkten verfügbar. Neue Länder werden über eine von Microsoft geführte Lokalisation oder durch partnergeführte Lokalisation quartalsweise hinzugefügt. Weitere Informationen finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (nur in Englisch verfügbar).  
 
 ## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>Wie erhalte ich [!INCLUDE [prodshort](includes/prodshort.md)]?
 
@@ -83,8 +83,8 @@ Wenn Sie kein Office 365-Abonnement haben und Sie keines kaufen möchten, dann s
 ## <a name="what-is-the-integration-with-office-365-about"></a>Worum geht's bei der Integration mit Office 365?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] online ist vollständig in Office 365 integriert, sodass Sie mit dem App-Startfeld frei zwischen Office 365 Anwendungen und [!INCLUDE[d365fin](includes/d365fin_md.md)] navigieren können. Im [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten in Outlook arbeiten. Weitere Informationen finden Sie unter [Nutzen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md).  
 
-## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kann ich meinen 30-tägigen Testversionszeitraum für „Neues Unternehmen” verlängern?
-Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrichtigung angezeigt, um Sie darauf hinzuweisen, wenn Sie sich anmelden. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen. Sie können den Testversionszeitraum einmalig selbst verlängern. Danach kann ein Microsoft-Partner ihn um weiterer 30 Tage verlängern. Weitere Informationen finden Sie unter [Ihre Testversion verlängern](admin-extend-trial.md). 
+## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kann ich meinen 30-tägigen Testversionszeitraum für „Neues Unternehmen“ verlängern?
+Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrichtigung angezeigt, um Sie darauf hinzuweisen, wenn Sie sich anmelden. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen. Sie können den Testversionszeitraum einmalig selbst verlängern. Danach kann ein Microsoft-Partner ihn um weiterer 30 Tage verlängern. Weitere Informationen finden Sie unter [Ihre Testversion verlängern](admin-extend-trial.md).
 
 > [!NOTE]
 > Es kann bis zu zwei Arbeitstage dauern, um die Testphase zu verlängern.  
@@ -108,13 +108,15 @@ Wenn Sie bereit sind, [!INCLUDE [prodshort](includes/prodshort.md)] zu kaufen, f
 
 Wenn Sie Unterstützung von Microsoft wünschen, wenden Sie sich an das [Microsoft Sales Team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Ihr Reselling-Partner übernimmt auch den technischen Support für Sie. Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
+Ihr Reselling-Partner übernimmt auch den technischen Support für Sie. Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).
+
+## <a name="is-the-windows-client-supported"></a>Wird der Windows-Client unterstützt?
+Die ersten Releases von [!INCLUDE[prodshort](includes/prodshort.md)] lokal umfassten einen installierten Client, der von Microsoft Dynamics NAV abgeleitet war. Ab der Veröffentlichungswelle 2 von 2019 ist diese als „Windows-Client“ bezeichnete veraltete Komponente für [!INCLUDE[prodshort](includes/prodshort.md)] nicht mehr verfügbar. Weitere Informationen finden Sie unter [FAQ zu Windows-Client und Business Central](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
 
 ## <a name="see-also"></a>Siehe auch
-
 [Erste Schritte](product-get-started.md)  
 [Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)  
-[Suchen und Filtern – FAQs](ui-search-filter-faq.md)  
+[Suchen und Filtern FAQ](ui-search-filter-faq.md)  
 [FAQ zu Listenansichten](ui-views-faq.md)  
 [Sprache und Gebiet ändern](about-locale-language.md)  
 [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
@@ -125,5 +127,7 @@ Ihr Reselling-Partner übernimmt auch den technischen Support für Sie. Weitere 
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Business Central Lernkatalog](readiness/readiness-learning-catalog.md)  
 [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
+[Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[FAQ zu Entwickler- und ITPro-Umgebungen](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

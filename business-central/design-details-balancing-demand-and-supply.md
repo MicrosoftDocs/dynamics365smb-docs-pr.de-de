@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Ausgleich von Bedarf und Vorrat | Microsoft Docs'
 description: Um zu erkennen, wie das Planungssystem funktioniert, ist es erforderlich, die priorisierten Ziele des Planungssystems zu kennen. Die wichtigsten davon sind, sicherzustellen, dass jeglicher Bedarf durch genügenden Vorrat befriedigt wird und jeder Vorrat einem Zweck dient.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b8e4cb09e8b391f9818c9dabbc25d88eeca4aeac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303772"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882950"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetails: Ausgleich von Bedarf und Vorrat
 Um zu erkennen wie das Planungssystem funktioniert, ist es notwendig, die priorisierten Ziele des Planungssystems zu kennen, von denen die wichtigsten sind, Folgendes sicherzustellen:  
@@ -45,7 +43,7 @@ Um zu erkennen wie das Planungssystem funktioniert, ist es notwendig, die priori
 
    Die Zielsetzung des Planungsmechanismus ist, den Bedarf und den Vorrat eines Artikels zu balancieren, um sicherzustellen, dass der Vorrat den Bedarf in einer durchführbaren Art deckt, wie durch die Planungsparameter und Regeln definiert.  
 
-   ![Überblick über Angebot-Nachfrage Ausgleich](media/nav_app_supply_planning_2_balancing.png "Überblick über Angebot-Nachfrage Ausgleich")
+   ![Überblick über den Ausgleich zwischen Angebot und Nachfrage](media/nav_app_supply_planning_2_balancing.png "Überblick über den Ausgleich zwischen Angebot und Nachfrage")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Umgang mit Aufträgen vor dem Planungs-Startdatum
 Um zu vermeiden, dass ein Beschaffungsplan unmöglichen und daher unbrauchbare Vorschläge anzeigt, berücksichtigt das Planungssystem die Periode bis zum Startdatum als fixierte Zone, für die nichts geplant wird. Die folgende Regel gilt für die fixierte Zone:  

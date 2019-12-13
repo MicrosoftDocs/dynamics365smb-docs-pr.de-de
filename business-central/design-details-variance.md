@@ -1,8 +1,6 @@
 ---
 title: Designdetails - Abweichungen | Microsoft Docs
 description: Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) definiert, wie in der folgenden Formel beschrieben.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f5b4d56c5afb728c915c95f763c75f4c5fe6d008
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55317d4ae474c17df08449ebadd97aa11856a2c8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306700"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882782"
 ---
 # <a name="design-details-variance"></a>Designdetails: Abweichung
 Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) definiert, wie in der folgenden Formel beschrieben.  
@@ -50,16 +48,16 @@ Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) 
 |Kostenanteil|Gekaufter Artikel|Erzeugter/Montierter Artikel|  
 |----------------|--------------------|------------------------------|  
 |**Einstandspreis (fest)**||Einstufige Materialkosten + Einstufige Kapazitätskosten + Einstufige Fremdarbeitskosten + Einstufige Kap.-Gemeinkosten + Einstufige Prod.-Gemeinkosten|  
-|**Einstufige Materialkosten**|Einstandspreis|![Formel 1](media/design_details_inventory_costing_11_equation_1.png "Formel 1")|  
-|**Einstufige Kapazitätskosten**|Nicht anwendbar|![Formel 2](media/design_details_inventory_costing_11_equation_2.png "Formel 2")|  
-|**Einstufige Fremdarbeitskosten**|Nicht anwendbar|![Formel 3](media/design_details_inventory_costing_11_equation_3.png "Formel 3")|  
-|**Einstufige Kap.-Gemeinkosten**|Nicht anwendbar|![Formel 4](media/design_details_inventory_costing_11_equation_4.png "Formel 4")|  
+|**Einstufige Materialkosten**|Einstandspreis|![Gleichung 1](media/design_details_inventory_costing_11_equation_1.png "Gleichung 1")|  
+|**Einstufige Kapazitätskosten**|Nicht anwendbar|![Gleichung 2](media/design_details_inventory_costing_11_equation_2.png "Gleichung 2")|  
+|**Einstufige Fremdarbeitskosten**|Nicht anwendbar|![Gleichung 3](media/design_details_inventory_costing_11_equation_3.png "Gleichung 3")|  
+|**Einstufige Kap.-Gemeinkosten**|Nicht anwendbar|![Gleichung 4](media/design_details_inventory_costing_11_equation_4.png "Gleichung 4")|  
 |**Einstufige Prod.-Gemeinkosten**|Nicht anwendbar|(Einstufige Materialkosten + Einstufige Kapazitätskosten + Einstufige Fremdarbeitskosten) * Indirekte Kosten %/100 + Gemeinkostensatz|  
-|**Mehrstufige Materialkosten**|Einstandspreis|![Formel 5](media/design_details_inventory_costing_11_equation_5.png "Formel 5")|  
-|**Mehrstufige Kapazitätskosten**|Nicht anwendbar|![Formel 6](media/design_details_inventory_costing_11_equation_6.png "Formel 6")|  
-|**Mehrstufige Fremdarbeitskosten**|Nicht anwendbar|![Formel 7](media/design_details_inventory_costing_11_equation_7.png "Formel 7")|  
-|**Mehrstufige Kapazitätsgemeinkosten**|Nicht anwendbar|![Formel 8](media/design_details_inventory_costing_11_equation_8.png "Formel 8")|  
-|**Mehrstufige Prod.-Gemeinkosten**|Nicht anwendbar|![Formel 9](media/design_details_inventory_costing_11_equation_9.png "Formel 9")|  
+|**Mehrstufige Materialkosten**|Einstandspreis|![Gleichung 5](media/design_details_inventory_costing_11_equation_5.png "Gleichung 5")|  
+|**Mehrstufige Kapazitätskosten**|Nicht anwendbar|![Gleichung 6](media/design_details_inventory_costing_11_equation_6.png "Gleichung 6")|  
+|**Mehrstufige Fremdarbeitskosten**|Nicht anwendbar|![Gleichung 7](media/design_details_inventory_costing_11_equation_7.png "Gleichung 7")|  
+|**Mehrstufige Kapazitätsgemeinkosten**|Nicht anwendbar|![Gleichung 8](media/design_details_inventory_costing_11_equation_8.png "Gleichung 8")|  
+|**Mehrstufige Prod.-Gemeinkosten**|Nicht anwendbar|![Gleichung 9](media/design_details_inventory_costing_11_equation_9.png "Gleichung 9")|  
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   

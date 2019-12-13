@@ -1,8 +1,6 @@
 ---
 title: So leihen Sie Serviceartikel als Ersatzartikel | Microsoft Docs
 description: Sie können einem Debitor vorübergehend Leihartikel für einen Serviceartikel zur Verfügung stellen, der sich bei Ihnen im Service befindet.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ab7950ca4b7d9239c6ab011fcff8a34392f8b800
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4b8ba590f2ee02fd0b9381381f5590641e46ac51
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311668"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882374"
 ---
 # <a name="lend-and-receive-loaners"></a>Leihen und Zurücknehmen von Leihgeräten
 Sie können einem Debitor vorübergehend ein Leihgerät für einen Serviceartikel zur Verfügung stellen, der sich bei Ihnen im Service befindet.  
   
 ## <a name="to-lend-a-loaner-item"></a>So verleihen Sie Leihartikel    
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceaufträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie die relevante Serviceauftragskarte.  
 3. Wählen Sie die Serviceartikelzeile mit dem Artikel aus, den Sie durch ein Leihgerät ersetzen möchten.  
 4. Im Feld **Kreditorennr** wählen Sie den relevanten Leihgerätartikel aus.  
@@ -32,7 +30,7 @@ Sie können einem Debitor vorübergehend ein Leihgerät für einen Serviceartike
 ## <a name="to-receive-a-loaner"></a>So nehmen Sie ein Leihgerät zurück  
 Wenn Sie ein Leihgerät von einem Debitor zurückerhalten, müssen Sie den Empfang bestätigen. Sie können dies auf den Seiten **Serviceauftrag**, **Gebuchte Servicelieferung** und **Leihgerätekarte** durchführen. Im folgenden Verfahren wird beschrieben, wie Leihgeräte auf der Seite **Serviceauftrag** zurückgenommen werden.  
   
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceaufträge** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie den relevanten Serviceauftrag.  
 3. Wählen Sie die Serviceartikelzeile mit dem Leihgerät, das Sie zurücknehmen möchten.  
 4. Wählen Sie **Aktionen**, wählen Sie **Funktionen**, und wählen Sie dann **Leihgerät zurücknehmen** aus.  
@@ -40,7 +38,7 @@ Wenn Sie ein Leihgerät von einem Debitor zurückerhalten, müssen Sie den Empfa
 ## <a name="to-register-loaner-comments"></a>So erfassen Sie Bemerkungen zu Leihgeräten  
 Sie können die Seite **Allgemein Servicebemerkungen** verwenden, um Bemerkungen zu Leihgeräten zu erfassen.  
   
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kommissionierungen** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Leihgeräte** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie die relevante Leihgerätekarte.  
 3. Wählen Sie die Aktion **Kommentare** aus. Die Seite **Allgemeine Servicebemerkungen** wird geöffnet.  
 4. Geben Sie in das Feld **Datum** ein Datum ein.  

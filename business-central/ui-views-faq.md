@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 01/01/2019
 ms.author: mikebc
-ms.openlocfilehash: d2caa1d9b84d99c0b43a70bca1c45da81138f7b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316833"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881990"
 ---
 # <a name="list-views-faq"></a>FAQ zu Listenansichten
 In diesem Thema werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zum Arbeiten mit Listenansichten und zum Speichern von Filtern stellen.  
@@ -53,12 +53,12 @@ Nr. Das **Sag mir** Fenster zeigt nur Suchergebnisse für die Seite an, aber Sie
 ### <a name="what-is-shared-layout"></a>Was ist ein geteiltes Layout?
 Alle Ansichten auf einer Listenseite haben ein gemeinsames Spaltenlayout, das die angezeigten Spalten, deren Reihenfolge, Breite, Standbild und Schnelleinstellungen enthält. Das Personalisieren eines beliebigen Spaltenlayouts wirkt sich auch auf andere Ansichten aus, die dasselbe Layout auf der Listenseite haben.
 
-Einige Systemansichten können eindeutige Layouts der Spalten in der Liste haben. Beispielsweise könnten sie Spalten neu anordnen, um nur die Spalten anzuzeigen, die für diese Ansicht am relevantesten sind. Sie können feststellen, welche Ansichten eindeutige Layouts haben, indem Sie auf die Schaltfläche klicken ![Weitere Optionen anzeigen](media/show-more-options-icon.png "Weitere Optionen anzeigen") Symbol und beobachten, dass die **Gemeinsames Layout** Kontrollkästchen ist nicht aktiviert. Als Benutzer können Sie das Spaltenlayout für eine Ansicht mit einem eindeutigen Layout personalisieren, ohne dass die anderen Ansichten auf der Listenseite davon betroffen sind. Nur Entwickler können ein eindeutiges Spaltenlayout für eine Ansicht definieren, die ursprünglich ein gemeinsames Layout hat.
+Einige Systemansichten können eindeutige Layouts der Spalten in der Liste haben. Beispielsweise könnten sie Spalten neu anordnen, um nur die Spalten anzuzeigen, die für diese Ansicht am relevantesten sind. Sie können feststellen, welche Ansichten eindeutige Layouts haben, indem Sie das Symbol ![Weitere Optionen anzeigen](media/show-more-options-icon.png "Weitere Optionen anzeigen") wählen und beobachten, dass das Kontrollkästchen **Gemeinsames Layout** nicht aktiviert ist. Als Benutzer können Sie das Spaltenlayout für eine Ansicht mit einem eindeutigen Layout personalisieren, ohne dass die anderen Ansichten auf der Listenseite davon betroffen sind. Nur Entwickler können ein eindeutiges Spaltenlayout für eine Ansicht definieren, die ursprünglich ein gemeinsames Layout hat.
 
 ### <a name="what-does-the-show-system-filters-link-do"></a>Was bewirkt der Link Systemfilter anzeigen?
 Auf einigen Listenseiten wird der Filterbereich angezeigt **Systemfilter anzeigen** am unteren Rand des Filterbereichs, wenn die Seite vom System festgelegte Filter enthält. Diese speziellen Filter werden normalerweise verwendet, um Datensätze basierend auf dem aktuellen Kontext anzuzeigen, z. B. wenn eine Liste von Aufträgen für einen bestimmten Kunden gefiltert werden muss.
 
-Systemfilter werden von Entwicklern mithilfe der Filtergruppe 0 festgelegt. Technische Details zu Systemfiltern finden Sie unter [Filtergruppenfunktion](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+Systemfilter werden von Entwicklern mithilfe der Filtergruppe 0 festgelegt. Technische Details zu Systemfiltern finden Sie unter [Filtergruppenmethode](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### <a name="i-see-multiple-views-on-my-page-but-i-did-not-create-them-where-did-they-come-from"></a>Auf meiner Seite werden mehrere Ansichten angezeigt, die ich jedoch nicht erstellt habe. Wo kamen Sie her?
 Die in einer Liste angezeigten Ansichten sind eine Kombination aus Ihren persönlichen Ansichten und Systemansichten. Systemansichten können von der Geschäftsanwendung oder von Erweiterungen stammen oder rollenabhängig sein, wenn die Liste für Ihre Rolle angepasst wurde.

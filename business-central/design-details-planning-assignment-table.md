@@ -1,8 +1,6 @@
 ---
 title: 'Designdetails: Planungs-Zuordnungstabelle | Microsoft Docs'
 description: Dieses Thema gibt Einblicke dazu, was sich ändert, wenn Sie einen Artikel für die Planung ändern.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3bc3699e7ec5d356ed1bd1b85ad574f2e50d831b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fac2dfffae5eb1e09b2a0568024f51a2bc93e215
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303220"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878509"
 ---
 # <a name="design-details-planning-assignment-table"></a>Designdetails: Planungszuweisungstabelle
 Alle Artikel sollten eingeplant werden, es gibt jedoch keinen Grund, einen Plan für einen Artikel zu berechnen, es sei denn, es gab eine Änderung im Bedarfs- oder Vorratsmuster seit der letzten Berechnung des Plans.  
