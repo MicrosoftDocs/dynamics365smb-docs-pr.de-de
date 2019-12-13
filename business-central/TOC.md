@@ -7,23 +7,23 @@
 ## [Ressourcen für Hilfe und Support](product-help-and-support.md)
 ## Training finden
 ### [Lernkatalog](readiness/readiness-learning-catalog.md)
-### [Business Decision Maker Lernkatalog ](readiness/readiness-learning-bus-decision-makers.md)
+### [Business Decision Maker Lernkatalog](readiness/readiness-learning-bus-decision-makers.md)
 ### [Business Benutzer Lernkatalog](readiness/readiness-learning-bus-users.md)
 ### [Entwickler Lernkatalog](readiness/readiness-learning-developers.md)
 ### [Funktionaler Berater Lernkatalog](readiness/readiness-learning-functional-consultants.md)
 ### [Pre-Sales Lernkatalog](readiness/readiness-learning-presales.md)
 ### [Vertrieb Lernkatalog](readiness/readiness-learning-sales.md)
 
-## [Vorbereitung für das Geschäft ](ui-get-ready-business.md)
+## [Vorbereitung für das Geschäft](ui-get-ready-business.md)
 ## [Überblick über Geschäfts-Funktionalität](across-business-functionality.md)
-## [Ausprobieren einer Vorschau-Version](across-preview.md)
-## [Business Central kündigen, entfernen oder zurücksetzen](admin-cancel.md)
-## [Problembehandlungs-Selbstbedienungs-Registrierung](ui-troubleshoot-self-signup.md)
+## [Testversionen und Abonnements](across-preview.md)
+### [Problembehandlungs-Selbstbedienungs-Registrierung](ui-troubleshoot-self-signup.md)
+### [Business Central kündigen oder entfernen](admin-cancel.md)
 ## [Ihr Zugang zur intelligenten Cloud mit Business Central](about-intelligent-cloud.md)
 ## [Besuchen Sie unsere Videobibliothek](across-videos.md)
-## [Werden Sie ein Wiederverkäufer](product-sell.md)
-## [Erweitern von Business Central](about-develop-extensions.md)
-## [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)
+## Weiterverkäufer und Partner
+### [Werden Sie ein Wiederverkäufer](product-sell.md)
+### [Erweitern von Business Central](about-develop-extensions.md)
 
 # Arbeiten mit Business Central
 ## [Matrix](ui-work-product.md)
@@ -38,7 +38,7 @@
 ## [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md)
 ## [Pflichtfelder erkennen](ui-mandatory-fields.md)
 ## [Sprache und Gebiet ändern](about-locale-language.md)
-## [Anzeigen und bearbeiten in Excel](across-work-with-excel.md)  
+## [Anzeigen und bearbeiten in Excel](across-work-with-excel.md)
 ## [Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten](ui-how-add-link-to-record.md)
 ## [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)
 ## [Verwalten von Benachrichtigungen](ui-smart-notifications.md)
@@ -55,12 +55,13 @@
 ### [Gespeicherte Einstellungen für Berichte und Stapelaufträge verwalten](reports-saving-reusing-settings.md)
 ### [Anzeigen von Testberichten vor dem Buchen](ui-how-view-test-reports-posting.md)
 ### [Führen Sie Stapelaufträge und XMLports aus](ui-how-run-batch-jobs.md)
-## Ändern der Darstellung von externen Dokumenten und Berichten
+## Ändern der Darstellung von extern ausgerichteten Belegen und Berichten
 ### [Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md)
-### [Verwaltung von Berichts- und Beleg-Layouts](ui-update-report-layouts.md)
-### [Änderungen am Layout eines Weltberichts vornehmen](ui-how-create-custom-report-layout.md)
-### [Importieren und Exportieren von einem benutzerdefinierten Bericht](ui-how-import-and-export-report-layout.md)
 ### [Ändern Sie das aktuelle Berichtslayout](ui-how-change-layout-currently-used-report.md)
+### [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md)
+### [Importieren und Exportieren von benutzerdefinierten Berichtslayouts](ui-how-import-and-export-report-layout.md)
+### [Benutzerdefinierte Berichtslayouts aktualisieren](ui-update-report-layouts.md)
+### [Beleglayouts für Debitoren und Kreditoren definieren](ui-define-customer-vendor-document-layouts.md)
 ### [Hinzufügen von Feldern zu einem Word-Berichtlayout](ui-how-add-fields-word-report-layout.md)
 ## Tastenkombinationen verwenden
 ### [Eingabehilfe und Tastenkombinationen](ui-accessibility.md)
@@ -222,10 +223,10 @@
 ### [Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)
 ### [Anzeigen von Listendaten in Power BI-Berichten in Business Central](across-how-use-powerbi-reports-factbox.md)
 ### [Verwenden von Business Central als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)
-## Verwenden von Flow mit Business Central
+## Verwenden von Power Automate mit Business Central
 ### [Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)
-### [Problembehandlung bei der Integration mit Microsoft Flow - angeforderte URL zu lang](across-troubleshooting-how-use-financials-data-source-flow.md)
-## [Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von PowerApps](across-how-use-financials-data-source-powerapps.md) zu erstellen
+## Verwenden von Power Apps mit Business Central
+### [Verbinden mit Ihren Business Central-Daten, um eine Geschäftsanwendung mithilfe von Power Apps zu erstellen](across-how-use-financials-data-source-powerapps.md)
 ## [Von QuickBooks-App zu Business Central wechseln](across-quickbooks-to-business-edition.md)
 ## [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)
 ## [Massenrechnungsstellung für Microsoft Bookings](finance-bookings.md)
@@ -271,7 +272,7 @@
 #### [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)
 #### [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)
 #### [Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)
+#### [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md)
 #### [E-Mail einrichten](admin-how-setup-email.md)
 #### [Erstellen eines Workflows](across-how-to-create-workflows.md)
 #### [Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)
@@ -1278,7 +1279,7 @@
 #### [Matrix](LocalFunctionality/Russia/Tax-Accounting.md)
 #### [Steuerbuchhaltung einrichten](LocalFunctionality/Russia/How-to-Set-Up-Tax-Accounting.md)  
 #### [Steuerregister](LocalFunctionality/Russia/Tax-Registers.md)  
-#### [Steuerregister erstellen ](LocalFunctionality/Russia/How-to-Create-Tax-Registers.md)  
+#### [Steuerregister erstellen](LocalFunctionality/Russia/How-to-Create-Tax-Registers.md)  
 #### [Steuerregisterabschnitte einrichten](LocalFunctionality/Russia/How-to-Set-Up-Tax-Register-Sections.md)
 #### [Steuerdifferenzen](LocalFunctionality/Russia/Tax-Differences.md)  
 #### [Buchhaltung für persönliche Einkommensteuerzahlungen](LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments.md)  

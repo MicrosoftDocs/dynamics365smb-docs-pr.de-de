@@ -1,57 +1,55 @@
 ---
 title: Ein Berichts- und Beleg-Layout importieren und exportieren| Microsoft Docs
 description: Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem Speicherort auf dem Computer oder im Netzwerk speichern und exportieren sowie von dort aus wieder importieren.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 97f66d28576586c4e09c0bc700785eac969d316a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553818"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881966"
 ---
-# <a name="import-and-export-a-report-or-document-layout"></a><span data-ttu-id="0f30b-103">Importieren und Exportieren von einem benutzerdefinierten Bericht</span><span class="sxs-lookup"><span data-stu-id="0f30b-103">Import and Export a Report or Document Layout</span></span>
-<span data-ttu-id="0f30b-104">Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem Speicherort auf dem Computer oder im Netzwerk speichern und exportieren sowie von dort aus wieder importieren.</span><span class="sxs-lookup"><span data-stu-id="0f30b-104">You can import and export an existing custom report layout as a file to and from a location on your computer and network.</span></span> <span data-ttu-id="0f30b-105">Beispielsweise können Sie ein Berichtlayout exportieren und dann die Datei an eine andere Person senden, die diese dann ändern kann.</span><span class="sxs-lookup"><span data-stu-id="0f30b-105">For example, you can export a report layout, and then send the file to another person to modify.</span></span> <span data-ttu-id="0f30b-106">Diese Person kann die Änderungen am Layout vornehmen und Ihnen die Datei zurücksenden, damit Sie sie zurückimportieren können.</span><span class="sxs-lookup"><span data-stu-id="0f30b-106">That person can then make the modifications to layout and return the file to you so that you can import it back.</span></span>  
+# <a name="import-and-export-custom-report-layouts"></a><span data-ttu-id="4bd21-103">Importieren und Exportieren von benutzerdefinierten Berichtslayouts</span><span class="sxs-lookup"><span data-stu-id="4bd21-103">Import and Export Custom Report Layouts</span></span>
+<span data-ttu-id="4bd21-104">Sie können ein vorhandenes benutzerdefiniertes Berichtslayout als Datei zu und von einem Speicherort auf Ihrem Computer oder Netzwerk importieren und exportieren.</span><span class="sxs-lookup"><span data-stu-id="4bd21-104">You can import and export an existing custom report layout as a file to and from a location on your computer and network.</span></span> <span data-ttu-id="4bd21-105">Beispielsweise können Sie ein Berichtlayout exportieren und dann die Datei an eine andere Person senden, die diese dann ändern kann.</span><span class="sxs-lookup"><span data-stu-id="4bd21-105">For example, you can export a report layout, and then send the file to another person to modify.</span></span> <span data-ttu-id="4bd21-106">Diese Person kann die Änderungen am Layout vornehmen und Ihnen die Datei zurücksenden, damit Sie sie zurückimportieren können.</span><span class="sxs-lookup"><span data-stu-id="4bd21-106">That person can then make the modifications to layout and return the file to you so that you can import it back.</span></span>  
 
 > [!IMPORTANT]  
->  <span data-ttu-id="0f30b-107">Sie können integrierte Berichtslayouts nicht importieren oder exportieren.</span><span class="sxs-lookup"><span data-stu-id="0f30b-107">You cannot import or export built-in report layouts.</span></span>  
+>  <span data-ttu-id="4bd21-107">Sie können integrierte Berichtslayouts nicht importieren oder exportieren.</span><span class="sxs-lookup"><span data-stu-id="4bd21-107">You cannot import or export built-in report layouts.</span></span>  
 
-### <a name="to-export-a-report-layout-to-a-file"></a><span data-ttu-id="0f30b-108">So exportieren Sie ein Berichtslayout in eine Datei.</span><span class="sxs-lookup"><span data-stu-id="0f30b-108">To export a report layout to a file</span></span>  
+### <a name="to-export-a-report-layout-to-a-file"></a><span data-ttu-id="4bd21-108">So exportieren Sie ein Berichtslayout in eine Datei.</span><span class="sxs-lookup"><span data-stu-id="4bd21-108">To export a report layout to a file</span></span>  
 
-1.  <span data-ttu-id="0f30b-109">Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Berichtslayout-Auswahl** ein, und wählen dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="0f30b-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.</span></span>  
+1.  <span data-ttu-id="4bd21-109">Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Berichtslayoutauswahl** ein, und wählen Sie dann den zugehörigen Link.</span><span class="sxs-lookup"><span data-stu-id="4bd21-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.</span></span>  
 
-2.  <span data-ttu-id="0f30b-110">Markieren Sie die Zeile für den Bericht, die das benutzerdefinierte Berichtslayout enthält, das Sie exportieren möchten, und wählen Sie dann die Aktion **Angepasste Layouts**.</span><span class="sxs-lookup"><span data-stu-id="0f30b-110">Select the row for the report that contains the custom report layout that you want to export, and then choose the **Custom Layouts** action.</span></span>  
+2.  <span data-ttu-id="4bd21-110">Markieren Sie die Zeile für den Bericht, die das benutzerdefinierte Berichtslayout enthält, das Sie exportieren möchten, und wählen Sie dann die Aktion **Angepasste Layouts**.</span><span class="sxs-lookup"><span data-stu-id="4bd21-110">Select the row for the report that contains the custom report layout that you want to export, and then choose the **Custom Layouts** action.</span></span>  
 
-3.  <span data-ttu-id="0f30b-111">Wählen Sie auf der Seite **Berichtslayouts** das Berichtslayout aus, das Sie in eine Datei exportieren möchten, und wählen Sie dann die Aktion **Layout exportieren**.</span><span class="sxs-lookup"><span data-stu-id="0f30b-111">On the **Report Layouts** page, select the report layout that you want to export to a file, and then choose the **Export Layout** action.</span></span>  
+3.  <span data-ttu-id="4bd21-111">Wählen Sie auf der Seite **Berichtslayouts** das Berichtslayout aus, das Sie in eine Datei exportieren möchten, und wählen Sie dann die Aktion **Layout exportieren**.</span><span class="sxs-lookup"><span data-stu-id="4bd21-111">On the **Report Layouts** page, select the report layout that you want to export to a file, and then choose the **Export Layout** action.</span></span>  
 
-4.  <span data-ttu-id="0f30b-112">Wählen Sie im Dialogfeld **Datei exportieren** die Schaltfläche **Speichern**, und speichern Sie die Datei dann an einem Ort auf Ihrem Computer oder Netzwerk.</span><span class="sxs-lookup"><span data-stu-id="0f30b-112">In the **Export File** dialog box, choose the **Save** button, and then save the file to a location on your computer or network.</span></span>  
+4.  <span data-ttu-id="4bd21-112">Wählen Sie im Dialogfeld **Datei exportieren** die Schaltfläche **Speichern**, und speichern Sie die Datei dann an einem Ort auf Ihrem Computer oder Netzwerk.</span><span class="sxs-lookup"><span data-stu-id="4bd21-112">In the **Export File** dialog box, choose the **Save** button, and then save the file to a location on your computer or network.</span></span>  
 
-### <a name="to-import-a-report-layout-file"></a><span data-ttu-id="0f30b-113">So importieren Sie eine Berichtslayoutdatei.</span><span class="sxs-lookup"><span data-stu-id="0f30b-113">To import a report layout file</span></span>  
+### <a name="to-import-a-report-layout-file"></a><span data-ttu-id="4bd21-113">So importieren Sie eine Berichtslayoutdatei.</span><span class="sxs-lookup"><span data-stu-id="4bd21-113">To import a report layout file</span></span>  
 
-1.  <span data-ttu-id="0f30b-114">Vergewissern Sie sich, dass die relevante Datei, die das Berichtlayout definiert, auf Ihrem Computer oder Netzwerk verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="0f30b-114">Make sure that the relevant file that defines the report layout is available on your computer or network.</span></span>  
+1.  <span data-ttu-id="4bd21-114">Vergewissern Sie sich, dass die relevante Datei, die das Berichtlayout definiert, auf Ihrem Computer oder Netzwerk verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="4bd21-114">Make sure that the relevant file that defines the report layout is available on your computer or network.</span></span>  
 
-     <span data-ttu-id="0f30b-115">Eine Word-Berichtslayoutdatei muss die Erweiterung .docx haben.</span><span class="sxs-lookup"><span data-stu-id="0f30b-115">A Word report layout file must have the .docx file type extension.</span></span> <span data-ttu-id="0f30b-116">eine RDLC-Layoutdatei muss die die Erweiterung .rdlc oder .rdl haben.</span><span class="sxs-lookup"><span data-stu-id="0f30b-116">An RDLC report layout file must have the .rdlc or .rdl file type extension.</span></span>  
+     <span data-ttu-id="4bd21-115">Eine Word-Berichtslayoutdatei muss die Erweiterung .docx haben.</span><span class="sxs-lookup"><span data-stu-id="4bd21-115">A Word report layout file must have the .docx file type extension.</span></span> <span data-ttu-id="4bd21-116">eine RDLC-Layoutdatei muss die die Erweiterung .rdlc oder .rdl haben.</span><span class="sxs-lookup"><span data-stu-id="4bd21-116">An RDLC report layout file must have the .rdlc or .rdl file type extension.</span></span>  
 
-2.  <span data-ttu-id="0f30b-117">Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Berichtslayout-Auswahl** ein, und wählen dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="0f30b-117">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="4bd21-117">Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Berichtslayoutauswahl** ein, und wählen Sie dann den zugehörigen Link.</span><span class="sxs-lookup"><span data-stu-id="4bd21-117">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.</span></span>  
 
-3.  <span data-ttu-id="0f30b-118">Markieren Sie die Zeile für den Bericht, in den Sie das Berichtslayout importieren möchten, und wählen Sie dann die Aktion **Angepasste Layouts**.</span><span class="sxs-lookup"><span data-stu-id="0f30b-118">Select the row for the report to which you want to import the report layout, and then choose the **Custom Layouts** action.</span></span>  
+3.  <span data-ttu-id="4bd21-118">Markieren Sie die Zeile für den Bericht, in den Sie das Berichtslayout importieren möchten, und wählen Sie dann die Aktion **Angepasste Layouts**.</span><span class="sxs-lookup"><span data-stu-id="4bd21-118">Select the row for the report to which you want to import the report layout, and then choose the **Custom Layouts** action.</span></span>  
 
-4.  <span data-ttu-id="0f30b-119">Wählen Sie auf der Seite **Berichtlayouts** das Berichtslayout aus, in das Sie die Datei importieren möchten, und wählen Sie dann die Aktion **Layout importieren**.</span><span class="sxs-lookup"><span data-stu-id="0f30b-119">On the **Report Layouts** page, select the report layout to which you want to import the file, and then choose the **Import Layout** action.</span></span>  
+4.  <span data-ttu-id="4bd21-119">Wählen Sie auf der Seite **Berichtlayouts** das Berichtslayout aus, in das Sie die Datei importieren möchten, und wählen Sie dann die Aktion **Layout importieren**.</span><span class="sxs-lookup"><span data-stu-id="4bd21-119">On the **Report Layouts** page, select the report layout to which you want to import the file, and then choose the **Import Layout** action.</span></span>  
 
-5.  <span data-ttu-id="0f30b-120">Wählen Sie im Dialogfenster **Import** das Dokument aus, das das Berichtslayout definiert, und wählen Sie dann die Schaltfläche **Öffnen**.</span><span class="sxs-lookup"><span data-stu-id="0f30b-120">In the **Import** dialog box, select the document that defines the report layout, and then choose the **Open** button.</span></span>  
+5.  <span data-ttu-id="4bd21-120">Wählen Sie im Dialogfenster **Import** das Dokument aus, das das Berichtslayout definiert, und wählen Sie dann die Schaltfläche **Öffnen**.</span><span class="sxs-lookup"><span data-stu-id="4bd21-120">In the **Import** dialog box, select the document that defines the report layout, and then choose the **Open** button.</span></span>  
 
- <span data-ttu-id="0f30b-121">Das ursprüngliche benutzerdefinierte Berichtslayout wird durch das importierte Berichtslayout ersetzt.</span><span class="sxs-lookup"><span data-stu-id="0f30b-121">The original custom report layout is replaced with the imported report layout.</span></span>  
+ <span data-ttu-id="4bd21-121">Das ursprüngliche benutzerdefinierte Berichtslayout wird durch das importierte Berichtslayout ersetzt.</span><span class="sxs-lookup"><span data-stu-id="4bd21-121">The original custom report layout is replaced with the imported report layout.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="0f30b-122">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="0f30b-122">See Also</span></span>  
- <span data-ttu-id="0f30b-123">[Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md) </span><span class="sxs-lookup"><span data-stu-id="0f30b-123">[Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md) </span></span>  
- [<span data-ttu-id="0f30b-124">Verwaltung von Berichts- und Beleg-Layouts</span><span class="sxs-lookup"><span data-stu-id="0f30b-124">Managing Report and Document Layouts</span></span>](ui-manage-report-layouts.md)  
- [<span data-ttu-id="0f30b-125">Arbeiten mit Berichten, Stapelverarbeitungen und XMLports</span><span class="sxs-lookup"><span data-stu-id="0f30b-125">Working with Reports, Batch Jobs, and XMLports</span></span>](ui-work-report.md)    
+## <a name="see-also"></a><span data-ttu-id="4bd21-122">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="4bd21-122">See Also</span></span>  
+ <span data-ttu-id="4bd21-123">[Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md) </span><span class="sxs-lookup"><span data-stu-id="4bd21-123">[Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md) </span></span>  
+ [<span data-ttu-id="4bd21-124">Verwalten von Berichts- und Beleglayouts</span><span class="sxs-lookup"><span data-stu-id="4bd21-124">Managing Report and Document Layouts</span></span>](ui-manage-report-layouts.md)  
+ [<span data-ttu-id="4bd21-125">Arbeiten mit Berichten, Batchaufträgen und XMLports</span><span class="sxs-lookup"><span data-stu-id="4bd21-125">Working with Reports, Batch Jobs, and XMLports</span></span>](ui-work-report.md)    

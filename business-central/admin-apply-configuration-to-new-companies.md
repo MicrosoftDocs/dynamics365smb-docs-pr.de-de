@@ -1,8 +1,6 @@
 ---
 title: Konfiguration neuer Unternehmen anwenden | Microsoft Docs
 description: Nachdem Sie ein Konfigurationspaket erstellt haben, ist der nächste Schritt, das Paket für Ihren Kunden zur Implementierung bereitzustellen. Verwenden Sie die Konfiguration mit einem neuen leeren Mandanten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,26 +10,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 515d60e41baf07b888f0bf6f8b002ebdccc1019e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4034c9d6145d6cc76e8968376f28ef0bb3430db2
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308236"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878653"
 ---
-# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="2f896-104">Übernehmen von Konfiguration in neue Mandanten</span><span class="sxs-lookup"><span data-stu-id="2f896-104">Apply Configurations to New Companies</span></span>
-<span data-ttu-id="2f896-105">Nachdem Sie ein Konfigurationspaket erstellt haben, ist der nächste Schritt, das Paket für Ihren Kunden zur Implementierung bereitzustellen.</span><span class="sxs-lookup"><span data-stu-id="2f896-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="2f896-106">Verwenden Sie die Konfiguration mit einem neuen leeren Mandanten.</span><span class="sxs-lookup"><span data-stu-id="2f896-106">You work with the configuration package within a new empty company.</span></span>  
+# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="47e7d-104">Übernehmen von Konfiguration in neue Mandanten</span><span class="sxs-lookup"><span data-stu-id="47e7d-104">Apply Configurations to New Companies</span></span>
+<span data-ttu-id="47e7d-105">Nachdem Sie ein Konfigurationspaket erstellt haben, ist der nächste Schritt, das Paket für Ihren Kunden zur Implementierung bereitzustellen.</span><span class="sxs-lookup"><span data-stu-id="47e7d-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="47e7d-106">Verwenden Sie die Konfiguration mit einem neuen leeren Mandanten.</span><span class="sxs-lookup"><span data-stu-id="47e7d-106">You work with the configuration package within a new empty company.</span></span>  
 
- <span data-ttu-id="2f896-107">In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.</span><span class="sxs-lookup"><span data-stu-id="2f896-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
+ <span data-ttu-id="47e7d-107">In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.</span><span class="sxs-lookup"><span data-stu-id="47e7d-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
 
-|<span data-ttu-id="2f896-108">**Prozess**</span><span class="sxs-lookup"><span data-stu-id="2f896-108">**To**</span></span>|<span data-ttu-id="2f896-109">**Siehe**</span><span class="sxs-lookup"><span data-stu-id="2f896-109">**See**</span></span>|  
+|<span data-ttu-id="47e7d-108">**Prozess**</span><span class="sxs-lookup"><span data-stu-id="47e7d-108">**To**</span></span>|<span data-ttu-id="47e7d-109">**Siehe**</span><span class="sxs-lookup"><span data-stu-id="47e7d-109">**See**</span></span>|  
 |------------|-------------|  
-|<span data-ttu-id="2f896-110">Erstellen Sie einen neuen Mandanten, in dem Sie eine Debitorenimplementierung ausführen.</span><span class="sxs-lookup"><span data-stu-id="2f896-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="2f896-111">Erstellen eines neuen Mandanten.</span><span class="sxs-lookup"><span data-stu-id="2f896-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
-|<span data-ttu-id="2f896-112">Importieren Sie ein Konfigurationspaket und übernehmen Sie es für einen neuen Mandanten.</span><span class="sxs-lookup"><span data-stu-id="2f896-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="2f896-113">So konfigurieren Sie einen neuen Mandanten.</span><span class="sxs-lookup"><span data-stu-id="2f896-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
-|<span data-ttu-id="2f896-114">Verwenden Sie einen unterstützten Setup, um eine Mandantenkonfiguration einfach abzuschließen.</span><span class="sxs-lookup"><span data-stu-id="2f896-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="2f896-115">So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten</span><span class="sxs-lookup"><span data-stu-id="2f896-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
-|<span data-ttu-id="2f896-116">Kopieren Sie häufig verwendete Werte aus einem vorhandenen Mandanten in einen neuen, innerhalb derselben Datenbank.</span><span class="sxs-lookup"><span data-stu-id="2f896-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="2f896-117">So kopieren Sie Daten in neue Mandanten.</span><span class="sxs-lookup"><span data-stu-id="2f896-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
-|<span data-ttu-id="2f896-118">Verwenden einer Stapelverarbeitung, um Vorgängerkontensalden in ein neues konfiguriertes Unternehmen umzulagern und die daraus entstandenen Blatteinträge dann anzuwenden.</span><span class="sxs-lookup"><span data-stu-id="2f896-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="2f896-119">So erstellen Sie Buch.-Blatt-Eröffnungssalden</span><span class="sxs-lookup"><span data-stu-id="2f896-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
+|<span data-ttu-id="47e7d-110">Erstellen Sie einen neuen Mandanten, in dem Sie eine Debitorenimplementierung ausführen.</span><span class="sxs-lookup"><span data-stu-id="47e7d-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="47e7d-111">Erstellen eines neuen Mandanten.</span><span class="sxs-lookup"><span data-stu-id="47e7d-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
+|<span data-ttu-id="47e7d-112">Importieren Sie ein Konfigurationspaket und übernehmen Sie es für einen neuen Mandanten.</span><span class="sxs-lookup"><span data-stu-id="47e7d-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="47e7d-113">So konfigurieren Sie einen neuen Mandanten.</span><span class="sxs-lookup"><span data-stu-id="47e7d-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
+|<span data-ttu-id="47e7d-114">Verwenden Sie einen unterstützten Setup, um eine Mandantenkonfiguration einfach abzuschließen.</span><span class="sxs-lookup"><span data-stu-id="47e7d-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="47e7d-115">So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten</span><span class="sxs-lookup"><span data-stu-id="47e7d-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
+|<span data-ttu-id="47e7d-116">Kopieren Sie häufig verwendete Werte aus einem vorhandenen Mandanten in einen neuen, innerhalb derselben Datenbank.</span><span class="sxs-lookup"><span data-stu-id="47e7d-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="47e7d-117">So kopieren Sie Daten in neue Mandanten.</span><span class="sxs-lookup"><span data-stu-id="47e7d-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
+|<span data-ttu-id="47e7d-118">Verwenden einer Stapelverarbeitung, um Vorgängerkontensalden in ein neues konfiguriertes Unternehmen umzulagern und die daraus entstandenen Blatteinträge dann anzuwenden.</span><span class="sxs-lookup"><span data-stu-id="47e7d-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="47e7d-119">So erstellen Sie Buch.-Blatt-Eröffnungssalden</span><span class="sxs-lookup"><span data-stu-id="47e7d-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
 
-## <a name="see-also"></a><span data-ttu-id="2f896-120">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="2f896-120">See Also</span></span>  
-[<span data-ttu-id="2f896-121">Mandanten mit RapidStart Services einrichten</span><span class="sxs-lookup"><span data-stu-id="2f896-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
-[<span data-ttu-id="2f896-122">Verwaltung</span><span class="sxs-lookup"><span data-stu-id="2f896-122">Administration</span></span>](admin-setup-and-administration.md)
+## <a name="see-also"></a><span data-ttu-id="47e7d-120">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="47e7d-120">See Also</span></span>  
+[<span data-ttu-id="47e7d-121">Mandanten mit RapidStart Services einrichten</span><span class="sxs-lookup"><span data-stu-id="47e7d-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="47e7d-122">Verwaltung</span><span class="sxs-lookup"><span data-stu-id="47e7d-122">Administration</span></span>](admin-setup-and-administration.md)
