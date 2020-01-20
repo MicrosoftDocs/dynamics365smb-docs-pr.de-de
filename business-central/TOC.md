@@ -5,6 +5,15 @@
 ## [Mindestanforderungen](product-requirements.md)
 ## [Häufig gestellte Fragen](across-faq.md)
 ## [Ressourcen für Hilfe und Support](product-help-and-support.md)
+## [Vorbereitung für das Geschäft ](ui-get-ready-business.md)
+## [Überblick über Geschäfts-Funktionalität](across-business-functionality.md)
+## [Ihr Zugang zur intelligenten Cloud mit Business Central](about-intelligent-cloud.md)
+## [Besuchen Sie unsere Videobibliothek](across-videos.md)
+## Testversionen und Abonnements
+### [Matrix](across-preview.md)
+### [Problembehandlungs-Selbstbedienungs-Registrierung](ui-troubleshoot-self-signup.md)
+### [Verlängern Ihrer Testversion](admin-extend-trial.md)
+### [Business Central kündigen oder entfernen](admin-cancel.md)
 ## Training finden
 ### [Lernkatalog](readiness/readiness-learning-catalog.md)
 ### [Business Decision Maker Lernkatalog](readiness/readiness-learning-bus-decision-makers.md)
@@ -13,14 +22,6 @@
 ### [Funktionaler Berater Lernkatalog](readiness/readiness-learning-functional-consultants.md)
 ### [Pre-Sales Lernkatalog](readiness/readiness-learning-presales.md)
 ### [Vertrieb Lernkatalog](readiness/readiness-learning-sales.md)
-
-## [Vorbereitung für das Geschäft](ui-get-ready-business.md)
-## [Überblick über Geschäfts-Funktionalität](across-business-functionality.md)
-## [Testversionen und Abonnements](across-preview.md)
-### [Problembehandlungs-Selbstbedienungs-Registrierung](ui-troubleshoot-self-signup.md)
-### [Business Central kündigen oder entfernen](admin-cancel.md)
-## [Ihr Zugang zur intelligenten Cloud mit Business Central](about-intelligent-cloud.md)
-## [Besuchen Sie unsere Videobibliothek](across-videos.md)
 ## Weiterverkäufer und Partner
 ### [Werden Sie ein Wiederverkäufer](product-sell.md)
 ### [Erweitern von Business Central](about-develop-extensions.md)
@@ -226,7 +227,7 @@
 ## Verwenden von Power Automate mit Business Central
 ### [Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)
 ## Verwenden von Power Apps mit Business Central
-### [Verbinden mit Ihren Business Central-Daten, um eine Geschäftsanwendung mithilfe von Power Apps zu erstellen](across-how-use-financials-data-source-powerapps.md)
+### [Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von Power Apps](across-how-use-financials-data-source-powerapps.md) zu erstellen
 ## [Von QuickBooks-App zu Business Central wechseln](across-quickbooks-to-business-edition.md)
 ## [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)
 ## [Massenrechnungsstellung für Microsoft Bookings](finance-bookings.md)
@@ -314,7 +315,7 @@
 #### [Einziehen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
 #### [Feld-Zuordnung beim Importieren von SEPA CAMT-Dateien](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Feld-Zuordnung beim Exportieren von Zahlungsdateien unter Verwendung von Bankdaten-Konvertierungsdienst](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Feldzuordnung für die AMC Banking 365 Fundamentals-Erweiterung](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Verwaltung
 ## [Matrix](admin-setup-and-administration.md)
@@ -369,7 +370,7 @@
 ### [Einrichten des Benutzerkontos für die Integration in Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Dynamics 365 Sales Verbindung einrichten](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronisieren von Business Central und Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
-### [Tabellenzuordnungen für die Synchronisierung ändern](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Zu synchronisierende Tabellen und Felder zuordnen](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synchronisieren Sie Tabellenzuordnungen manuell](admin-manual-synchronization-of-table-mappings.md)
 ### [Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Fehlerbehebung bei Synchronisationsfehlern](admin-troubleshoot-sales-synchronization.md)
@@ -384,6 +385,7 @@
 #### [Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung.](receivables-how-review-apply-payments-auto-application.md)
 #### [Zahlungen abstimmen, die nicht automatisch ausgeglichen werden können](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Zuordnen von Text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Einrichten von Regeln für die automatische Anwendung von Zahlungen](receivables-how-set-up-payment-application-rules.md)
 ### [Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md)
 ### [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)
@@ -415,7 +417,7 @@
 ### [Abstimmen von Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten](payables-how-apply-purchase-transactions-manually.md)
 ### [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)
 ### [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
-### [Debitoren sperren](receivables-how-block-customers.md)
+### [Kreditoren sperren](payables-how-block-vendors.md)
 ### [Verwenden von Artikelzuschlägen für zusätzliche Kosten](payables-how-assign-item-charges.md)
 ### [Arbeiten mit Zahlungstoleranzen und Skontotoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
@@ -426,11 +428,10 @@
 ### [Vorauszahlungsrechnungen erstellen](finance-how-to-create-prepayment-invoices.md)
 ### [So korrigieren Sie Vorauszahlungen](finance-how-to-correct-prepayments.md)
 
-## Verwalten von Bankkonten
+## Abstimmen von Bankkonten
 ### [Matrix](bank-manage-bank-accounts.md)
+### [Bankkonten abstimmen](bank-how-reconcile-bank-accounts-separately.md)
 ### [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-### [Bankkonten separat abstimmen](bank-how-reconcile-bank-accounts-separately.md)  
-### [Bank-Geldmittel überweisen](bank-how-transfer-bank-funds.md)
 
 ## Intercompanytransaktionen verwalten
 ### [Matrix](intercompany-manage.md)
@@ -499,6 +500,7 @@
 ## [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)
 ## [Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Finanzauswertungen in Excel analysieren](finance-analyze-excel.md)
+## [Bank-Geldmittel überweisen](bank-how-transfer-bank-funds.md)
 ## [Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)
 
 # Business Intelligence
@@ -924,10 +926,29 @@
 
 ## Tschechische Republik
 ### [Matrix](LocalFunctionality/Czech/czech-local-functionality.md)
+### Kernfinanzierung  
+#### [Finanzen](LocalFunctionality/Czech/finance.md)
+#### [Jahresabschlussoptionen](LocalFunctionality/Czech/year-close-operations.md)
+#### [Sachposteneintragsabstimmung](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Aktualisierung von Wechselkursen](LocalFunctionality/Czech/exchange-rate-update.md)
 ### MwSt.
+#### [Finanzen - MwSt](LocalFunctionality/Czech/finance-vat.md)
 #### [MwSt Steuerbericht](LocalFunctionality/Czech/vat-control-report.md)
+### Anlagen
+#### [Anlagen](LocalFunctionality/Czech/fixed-assets.md)
 ### Banking und Zahlungen
+#### [Bankfunktion](LocalFunctionality/Czech/bank-feature.md)
+#### [Kassenverwaltung](LocalFunctionality/Czech/cash-desk-management.md)
 #### [Registrierung von Sales (EET)](LocalFunctionality/Czech/eet.md)
+#### [Vorauszahlungen](LocalFunctionality/Czech/advances.md)
+### Verbindlichkeiten und Forderungen
+#### [Verbindlichkeiten und Forderungen](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Lagerbestand
+#### [Lagerbestand](LocalFunctionality/Czech/inventory.md)
+### Allgemein
+#### [Erweiterte Benutzerkontrolle](LocalFunctionality/Czech/general.md)
+#### [Bewährte Methoden](LocalFunctionality/Czech/best-practices.md)
 
 ## Dänemark
 ### [Matrix](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1092,6 +1113,7 @@
 ## Mexiko-Stadt
 ### [Matrix](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Steuer
+#### [Einrichten und Generieren von DIOT-Berichten](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Mehrwertsteuer in Mexiko](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Erwerbsteuer und Umsatzsteuer einrichten](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Unrealisierte MwSt und Verkaufszahlungsrabatte einrichten](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1423,7 +1445,6 @@
 #### [Die britische Postleitzahlenerweiterung GetAddress.io](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Einrichten der britischen Postleitzahlerweiterung für GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Externe Belegnummern eingeben](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Großverkauf- und Einkaufsdetailberichte drucken](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## Vereinigte Staaten
 ### [Matrix](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
