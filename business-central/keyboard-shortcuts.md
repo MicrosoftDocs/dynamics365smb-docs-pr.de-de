@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/07/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774843"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911120"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn arbeiten [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -66,6 +66,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen für das zusätzliche Navigi
 |Esc|Schließen Sie die aktuelle Seite oder die Dropdownliste.|
 |Register|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite wie Schaltflächen, Felder oder Artikel in einer Liste.|
 |UMSCHALT+TAB|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite wie Schaltflächen, Felder oder Artikel in einer Liste.|
+|J und N|Aktivieren Sie **Ja**- und **Nein**-Schaltflächen in Dialogen. Dies wird von der Sprache unterstützt. Drücken Sie in Deutschland beispielsweise „J“, um eine **Ja**-Schaltfläche zu aktivieren.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tastenkombinationen in der Liste
 
@@ -141,6 +142,7 @@ Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Be
 |ALT+N |Öffnen Sie eine Seite für das Erstellen eines neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Neu**. |
 |ALT+UMSCHALT+N |Schließen Sie eine Seite und öffnen Sie eine neue Seite, um einen neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Ok und Neu**. |
 |ALT+UMSCHALT+W |Öffnen Sie die aktuelle Karte oder das Dokument in einem neuen Fenster. Weitere Informationen finden Sie unter [Multitasking über mehrere Seiten](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Enter|Speichern und schließen Sie die Seite.|
 |STRG+NACH-UNTEN-TASTE|Öffnen Sie den nächsten Datensatz für eine Einheit.|
 |STRG+NACH-OBEN-TASTE |Öffnen Sie den vorherigen Datensatz für eine Einheit.|
 |Strg+Einfügen |Fügen Sie eine neue Zeile in Dokumente ein.|
@@ -173,7 +175,7 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |STRG+NACH-UNTEN-TASTE<br />(STRG+NACH-UNTEN-TASTE)|Navigieren zur nächsten Woche, derselbe Wochentag.|
 |EINGABE|Wählen Sie das fokussierte Datum aus.|
 |Strg+Ende<br />(Cmd+End)|Schließen Sie den Kalender oder löschen Sie die aktuellen Datum.|
-|Esc|Schließen Sie den Kalender ohne eine Auswahl, geben Sie ein aktuelles Datum ein.|
+|Esc|Schließen Sie den Kalender ohne eine Auswahl, geben Sie das aktuelle Datum ein.|
 |Seite nach unten|Navigieren zum nächsten Monat.|
 |Seite nach oben|Navigieren zum vorherigen Monat.|  
 

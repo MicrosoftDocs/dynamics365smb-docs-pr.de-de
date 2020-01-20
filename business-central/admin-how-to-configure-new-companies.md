@@ -10,19 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: aade98d02744ef2e40b7d844c4bddea4d231fceb
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878581"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910808"
 ---
 # <a name="configure-new-companies"></a>So konfigurieren Sie einen neuen Mandanten.
 Um einen neuen Mandanten in der Lösungsimplementierung zu konfigurieren, folgen Sie in der Regel drei Phasen. In der ersten Phase importieren Sie das Konfigurationspaket, eine .rapidstart-Datei mit den Konfigurationsinformationen. In der zweiten Phase ändern Sie die Konfigurationsinformationen und übernehmen sie dann für Ihren neuen Mandanten. In der letzten Phase überprüfen Sie auf Fehler und korrigieren diese.  
 
 In den folgenden Verfahren wird davon ausgegangen, dass Sie ein Konfigurationspaket erstellt und gespeichert haben. Weitere Informationen finden Sie unter [Vorgehensweise: Erstellen eines Konfigurations-Paket](admin-how-to-prepare-a-configuration-package.md).  
 
-Bevor Sie den folgenden Verfahren übernehmen, vergewissern Sie sich, dass Ihr neues Unternehmen initialisiert ist und Sie das RapidStart Services-Implementierungs-Rollencenter nutzen.
+Bevor Sie den folgenden Verfahren übernehmen, vergewissern Sie sich, dass Ihr neues Unternehmen initialisiert ist und Sie das Verwaltungsrollencenter nutzen.
+
+## <a name="before-you-import-a-configuration-package"></a>Vor dem Importieren eines Konfigurationspakets
+Bevor Sie ein Konfigurationspaket importieren, sollten Sie sicherstellen, dass die folgenden Aussagen zutreffen. Andernfalls können Sie oder Ihr Kunde das Konfigurationspaket nicht importieren.
+
+* Ihre Lizenz enthält die Tabellen, die Sie aktualisieren. Wenn Sie sich nicht sicher sind, kann das **Konfigurationsarbeitsblatt** helfen. Wenn Ihre Lizenz die Tabellen enthält, ist das Kontrollkästchen **Lizenzierte Tabelle** aktiviert.  
+* Der Benutzer, der das Konfigurationspaket importiert, verfügt über die gültigen Berechtigungen zum Einfügen und Ändern für alle Tabellen, die vom Paket aktualisiert werden. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>So importieren Sie ein Konfigurationspaket.  
 1. Öffnen Sie das neue Unternehmen im [!INCLUDE[d365fin](includes/d365fin_md.md)] Datenbank.  

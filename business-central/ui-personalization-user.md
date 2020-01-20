@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315108"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953347"
 ---
 # <a name="personalize-your-workspace"></a>Ihren Arbeitsbereich personalisieren
 Sie können Ihren Arbeitsbereich für Ihre Arbeit personalisieren oder anpassen und Präferenzen definieren, indem Sie die Seiten ändern, so dass Sie nur die Informationen angezeigt erhalten, die Sie auch benötigen. Die Personalisierungsänderungen, die Sie durchführen, beeinflussen nur, was Sie sehen, und nicht, was die Benutzer sehen.
@@ -37,14 +37,14 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 
 ## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>So personalisieren Sie eine Seite durch die **Personalisierung** Banner
 1. Öffnen Sie eine beliebige Seite, die Sie personalisieren möchten.
-2. In der rechten oberer Ecke wählen Sie ![Einstellungen](media/ui-experience/settings_icon_small.png "Symbol für Rollencenter einstellen") und dann die Aktion **Personalisieren**.
+2. In der rechten oberer Ecke wählen Sie das Symbol ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") aus und wählen dann die Aktion **Personalisieren**.
 
     Das **Personalisieren** Banner erscheint oben und zeigt an, dass Sie mit den Änderungen beginnen können.
 
     > [!NOTE]
     > Um während der Personalisierung zu navigieren, drücken Sie Strg + Klicken auf eine Aktion, wenn diese durch die Pfeilspitze hervorgehoben ist.
 
-    Wenn Sie im Banner ein ![Personalisieren sperren](media/personalization-lock-icon.png "Personalisieren sperren") oder ![Personalisieren blockiert](media/personalization-blocked-icon.png "Personalisieren blockiert") auf dem Banner sehen, können Sie die Seite nicht personalisieren. Weitere Details finden Sie unter [Warum eine Seite zum Personalisieren gesperrt ist](ui-personalization-locked.md).
+    Wenn Sie im Banner ein ![Personalisieren sperren](media/personalization-lock-icon.png "Personalisieren sperren") oder ![Personalisieren blockiert](media/personalization-blocked-icon.png "Personalisierung blockiert") auf dem Banner sehen, können Sie die Seite nicht personalisieren. Weitere Details finden Sie unter [Warum eine Seite zum Personalisieren gesperrt ist](ui-personalization-locked.md).
 
 3. Um ein Feld hinzuzufügen, wählen Sie die **+ Feld** Aktion.
 4. Von dem Bereich **Feld zu Seite hinzufügen** ziehen Sie ein Feld per Drag & Drop an die gewünschte Position auf der Seite.
@@ -56,7 +56,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 
 |Was möchten Sie tun|So geht es|Bemerkungen|
 |----|------------|-------|
-|Etwas verschieben, wie ein Feld, eine Spalte in der Liste, eine Kachel, Aktion oder ein Teil|Zeigen Sie auf eine beliebige Stelle, was Sie verschieben möchten, und ziehen Sie sie an die neue Position. Die Position wird entweder mit einer horizontalen oder einer vertikalen Zeile angegeben.<br /><br />![Symbol Kann nicht hierher verschoben werden](media/personalization-cannot-move-here.png "Personalisierungsmodus - Symbol Kann nicht hierher verschoben werden") gibt an, dass Sie das Element nicht an den ausgewählten Standort verschieben können.|Die Teile sind Unterteilungen oder Regionen auf einer Seite, die Bedingungen wie mehrere Felder, eine andere Seite, Ein Diagramm oder Kacheln enthalten.<br /><br />Weitere Einzelheiten zur Aktionspersonalisierung finden Sie unter [Personalisierungs-Aktionen](ui-personalization-user.md#Actions). |
+|Etwas verschieben, wie ein Feld, eine Spalte in der Liste, eine Kachel, Aktion oder ein Teil|Zeigen Sie auf eine beliebige Stelle, was Sie verschieben möchten, und ziehen Sie sie an die neue Position. Die Position wird entweder mit einer horizontalen oder einer vertikalen Zeile angegeben.<br /><br />![Symbol „Kann nicht hierher verschoben werden“](media/personalization-cannot-move-here.png "Personalisierungsmodus – Symbol „Kann nicht verschoben werden“") gibt an, dass Sie das Element nicht an den ausgewählten Standort verschieben können.|Die Teile sind Unterteilungen oder Regionen auf einer Seite, die Bedingungen wie mehrere Felder, eine andere Seite, Ein Diagramm oder Kacheln enthalten.<br /><br />Weitere Einzelheiten zur Aktionspersonalisierung finden Sie unter [Personalisierungs-Aktionen](ui-personalization-user.md#Actions). |
 |Etwas verbergen, wie ein Feld, eine Spalte in der Liste, eine Kachel, Aktion oder ein Teil.|Pfeil wählen und <b>Ausblenden</b> auswählen.|Das Element ist im Personalisierungsmodus grau hinterlegt. Wenn das Feld, das Sie ausblenden, auch in der Inforegisterüberschrift angezeigt wird, wenn das Inforegister reduziert ist, wird das Feld dort nicht länger angezeigt.|
 |Versteckte Aktionen und Felder anzeigen.|Wählen Sie für ein graues (ausgeblendetes) Element die Pfeilspitze und dann <b>Anzeigen</b>.|Das versteckte Element ist wieder sichtbar.|
 |Hinzufügen eines Felds oder einer Spalte.|In dem <b>Personalisierung</b> Banner, wählen Sie die <b>+ Feld</b> Aktion.<br /></br>Der Berecih <b>Feld oder Seite hinzufügen</b> wird geöffnet auf der rechten Seite. Es führt die Felder auf, die Sie auf der Seite hinzufügen können.<br /><br />Um ein Feld hinzuzufügen, ziehen Sie es von der Position an den gewünschten Ort. Die Position wird entweder mit einer horizontalen oder einer vertikalen Zeile angegeben.|Jede Seite enthält einen vordefinierten Satz von Feldern, die Sie anzeigen können. Verwenden Sie dieses Verfahren, um Felder oder Spalten hinzuzufügen, die zuvor nicht angezeigt wurden oder um Felder anzuzeigen, die Sie ausgeblendet haben.|
@@ -116,8 +116,10 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 - Änderungen an einer Seite in einem Bereich treten auf der Seite in Kraft, in der sie angezeigt werden.  
 - Sie können Felder und Spalten von einer vordefinierten nur Liste hinzufügen, die auf der Seite sind. Sie können keine neuen Referenzen erstellen.
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+
 ## <a name="see-also"></a>Siehe auch
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Funktionen, die angezeigt werden ändern](ui-experiences.md)  
+[Ändern, welche Merkmale angezeigt werden](ui-experiences.md)  

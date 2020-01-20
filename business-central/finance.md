@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2152e5535f35be234753895ca024791f912f6869
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301540"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911095"
 ---
 # <a name="finance"></a>Finanzen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
@@ -31,7 +31,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Ordnen Sie eingehende Zahlungen zu, stimmen Bankkonten während des Zahlungsausgleichs ab und erfassen Sie offene Salden. |[Verwalten von Forderungen](receivables-manage-receivables.md) |
 | Verarbeiten Sie Zahlungen, ordnen Sie ausgehende Zahlungen zu und bearbeiten Sie Schecks. |[Verwalten von Verbindlichkeiten](payables-manage-payables.md) |
 |Lassen Sie Ihre Debitoren zahlen, bevor Sie liefern, oder machen Sie die Zahlung an Ihre Kreditoren, bevor diese an Sie liefern.|[Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)|
-| Stimmen Sie Bankkonten ab und transferieren Sie Beträge zwischen Bankkonten. |[Verwalten von Bankkonten](bank-manage-bank-accounts.md) |
+| Stimmen Sie Bankkonten ab und transferieren Sie Beträge zwischen Bankkonten. |[Abstimmen von Bankkonten](bank-manage-bank-accounts.md) |
 |Einrichten von Intercompanypartner und verarbeiten von Transaktionen, manuzell oder automatisch, zwischen juristischen Personen innerhalb derselben Mandanten.|[Intercompanytransaktionen verwalten](intercompany-manage.md)|
 |Analysieren der laufenden Geschäftskosten durch das Zuordnen der tatsächlichen und budgetierten Kosten für Arbeitsgänge, Abteilungen, Produkte und Projekte zur Analyse der Rentabilität Ihres Unternehmens|[Kostenrechnung](finance-manage-cost-accounting.md)|
 |Verwalten von Lager- und Fertigungskosten, Melden von Kosten und Abstimmen von Kosten mit der Finanzbuchhaltung|[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)|

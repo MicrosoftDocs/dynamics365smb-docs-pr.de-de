@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/15/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f24e6da71d32e162b107b0e0b9e01cb68cc302
-ms.sourcegitcommit: 23577ae8ecaaf09b58716c2b9f65e39c188e3661
+ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2810813"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910832"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
 Um E-Mails aus [!INCLUDE[d365fin](includes/d365fin_md.md)] zu senden und zu erhalten, müssen Sie die Felder auf der Seite SMTP-Mail-Einrichtung ausfüllen.
@@ -30,7 +30,7 @@ Sie können E-Mails entweder manuell einrichten wie unten beschrieben oder Sie k
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > Wenn Sie ein Konto verwenden, für das eine Zwei-Faktor-Authentifizierung erforderlich ist, muss das Kennwort, das Sie in das Feld **Passwort** eingeben, das gleiche sein wie das, das Sie für Ihr Office 365-Abonnement verwenden, und es muss vom Typ **App-Passwort** sein. Weitere Informationen finden Sie unter [Verwalten Sie App-Passwörter für die Bestätigung in zwei Schritten](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+    > Wenn Sie ein Konto verwenden, für das eine Zwei-Faktor-Authentifizierung erforderlich ist, muss das Kennwort, das Sie in das Feld **Passwort** eingeben, das gleiche sein wie das, das Sie für Ihr Office 365-Abonnement verwenden, und es muss vom Typ **App-Passwort** sein. Weitere Informationen finden Sie unter [Verwalten Sie App-Passwörter für die Bestätigung in zwei Schritten](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 3. Wählen Sie alternativ die Aktion **Server-Einstellungen Office 365 übernehmen** aus, um Informationen einzufügen, die bereits für Ihr Office 365 Abonnement definiert ist.
 4. Wenn alle korrekt Felder ausgefüllt sind, wählen Sie die Aktion **Test-E-Mail-Einrichtung** aus.
 5. Wenn der Test erfolgreich war, schließen Sie die Seite.
@@ -51,7 +51,7 @@ Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden 
 2. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **SMTP-E-Mail-Einrichtung** ein und wählen Sie dann den entsprechenden Link.
 3. In dem Feld **Senden als** geben Sie in das Feld die Ersatzadresse ein.
 4. Kopieren oder notieren Sie die Adresse im Feld **Benutzeridentifikation**.
-5. In dem **Exchange Admin Center** suchen Sie die Mailbox, die als Ersatzadresse verwendet werden soll, und geben Sie die Adresse in das Feld **Benutzeridentifikation** im Feld **Senden Als** ein. Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Empfänger](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. In dem **Exchange Admin Center** suchen Sie die Mailbox, die als Ersatzadresse verwendet werden soll, und geben Sie die Adresse in das Feld **Benutzeridentifikation** im Feld **Senden Als** ein. Weitere Informationen finden Sie unter [Verwenden Sie die Exchange-Verwaltungskonsole, um einzelnen Postfächern Berechtigungen zuzuweisen ](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Verwendung der Ersatzadresse in Genehmigungsworkflows
 1. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **SMTP-E-Mail-Einrichtung** ein und wählen Sie dann den entsprechenden Link.

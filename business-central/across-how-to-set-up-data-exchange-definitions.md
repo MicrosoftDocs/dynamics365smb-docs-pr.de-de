@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8cf6c70c3794a5f231f9072d01d671afdebc54ca
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305260"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952939"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] so einrichten, dass Daten in bestimmten Tabelle mit Daten in externen Dateien ausgetauscht werden, zum Beispiel zum Senden und Empfangen elektronischer Belege oder zum Importieren und Exportieren von Bankdaten und anderen Daten, wie Lohnabrechnung, Währungswechselkursen und Artikelkatalogen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
@@ -111,6 +111,9 @@ Dies wird in den folgenden Verfahren beschrieben.
 >  Die spezielle Zuordnung hängt vom Geschäftszweck der Datendatei ab, die ausgetauscht werden soll, sowie von lokalen Variationen. Selbst der SEPA-Bankstandard verfügt über lokale Variationen. [!INCLUDE[d365fin](includes/d365fin_md.md)] Stützimport von SEPA Bankkontoauszug CAMT archiviert Out\-of\-the\-Box. Dies wird durch den **SEPA CAMT**-Datenaustausch-Definitionsdatensatzcode auf der Seite **Datenaustauschdefintion** angezeigt. Informationen über die bestimmte Feldzuordnung dieser SEPA CAMT Unterstützung, siehe. [Feld-Zuordnung, wenn sie SEPA CAMT Dateien importieren](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Spalten in der Datendatei Feldern in [!INCLUDE[d365fin](includes/d365fin_md.md)] zuordnen  
+> [!TIP]
+> Manchmal sind die Werte in den Feldern, die Sie zuordnen möchten, unterschiedlich. In einer Geschäftsanwendung lautet der Sprachcode für die USA beispielsweise „U.S.“, in der anderen „US“. Das heißt, Sie müssen den Wert beim Datenaustausch umwandeln. Dies geschieht durch Transformationsregeln, die Sie für die Felder definieren. Weitere Informationen finden Sie unter [Transformationsregeln](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
+
 1. Wählen Sie im Inforegister **Zeilendefinitionen** die Zeile aus, für die Sie Spalten Feldern zuordnen möchten, und wählen Sie dann **Feldzuordnung** aus. Die Seite **Datenaustauschzuordnung** wird geöffnet.  
 2. Spezifizieren Sie im Inforegister **Allgemein** die Zuordnungen, indem Sie die Felder gemäß der Beschreibung in der folgenden Tabelle ausfüllen.  
 
@@ -138,9 +141,44 @@ Dies wird in den folgenden Verfahren beschrieben.
 
 Die Datenaustauschdefinition kann jetzt für Benutzer aktiviert werden. Weitere Informationen finden Sie unter [Vorgehensweise: Sendendes und empfangendes Einrichtungs-elektronisches Dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md) [Vorgehensweise: Abbuchung der Einrichtungs-](finance-how-to-set-up-sepa-direct-debit.md), und [Anwenden Sie Zahlungen mit Bankdaten-Konvertierungsdienst- oder SEPA-Banküberweisung](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) angegebenen [Vorgehensweise: Banktransfer der Einrichtungs-](finance-how-to-set-up-sepa-credit-transfer.md).  
 
-Wenn Sie die Datenaustauschdefinition für eine bestimmte Datendatei erstellt haben, können Sie die Datenaustauschdefinition als XML-Datei exportieren, die verwendet werden kann, um ein Importieren der jeweiligen Datendatei schnell zu aktivieren. Dies wird im folgender Verfahren beschrieben.  
+### <a name="transformation-rules"></a>Transformationsregeln
+Wenn die Werte in den Feldern, die Sie zuordnen, unterschiedlich sind, müssen Sie Transformationsregeln für Datenaustauschdefinitionen verwenden, um sie anzugleichen. Sie definieren Transformationsregeln für Datenaustauschdefinitionen, indem Sie eine vorhandene Definition öffnen oder eine neue Definition erstellen, dann auf dem Inforegister **Zeilendefinitionen** die Option **Verwalten**, und dann **Feldzuordnung** wählen. Vordefinierte Regeln werden bereitgestellt, aber Sie können auch eigene Regeln erstellen. In der folgenden Tabelle werden die Transformationstypen beschrieben, die Sie ausführen können.
 
-### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Eine Datenaustauschdefinition als XML-Datei zur Verwendung durch andere exportieren  
+|Option|Beschreibung|
+|---------|---------|
+|**Großbuchstaben**|Großschreibung aller Buchstaben.|
+|**Kleinbuchstaben**|Kleinschreibung aller Buchstaben.|
+|**Titelschreibung**|Großschreibung des ersten Buchstabens jedes Wortes.|
+|**Kürzen**|Leerzeichen vor und nach dem Wert entfernen.|
+|**Unterzeichenfolge**|Transformation eines bestimmten Teilwerts. Um anzugeben, wo die Umwandlung gestartet werden soll, wählen Sie entweder eine **Startposition** oder einen **Starttext**. Die Startposition ist eine Zahl, die das erste umzuwandelnde Zeichen darstellt. Der Anfangstext ist der Buchstabe unmittelbar vor dem zu ersetzenden Buchstaben. Wenn Sie mit dem ersten Buchstaben des Werts beginnen möchten, verwenden Sie stattdessen eine Startposition. Um anzugeben, wo die Umwandlung gestoppt werden soll, wählen Sie entweder **Länge**, was die Anzahl der zu ersetzenden Zeichen ist, oder **Nachtext** aus, was das Zeichen unmittelbar nach dem letzten zu transformierenden Zeichen ist.|
+|**Ersetzen**|Suchen Sie einen Wert und ersetzen Sie ihn durch einen anderen. Dies ist nützlich, um einfache Werte wie ein bestimmtes Wort zu ersetzen.|
+|**Regulärer Ausdruck – Ersetzen**|Verwenden Sie einen regulären Ausdruck als Teil einer Such- und Ersetzungsoperation. Dies ist nützlich, um mehrere oder komplexere Werte zu ersetzen.|
+|**Entfernen von nicht alphanumerischen Zeichen**|Löschen Sie Zeichen, die keine Buchstaben oder Zahlen sind, z. B. Symbole oder Sonderzeichen.|
+|**Datumsformatierung**|Geben Sie an, wie Datumsangaben angezeigt werden sollen. Beispielsweise können Sie TT-MM-JJJJ in JJJJ-MM-TT umwandeln.|
+|**Dezimalformatierung**|Definieren Sie Regeln für die Dezimalstelle und die Rundungsgenauigkeit.|
+|**Regulärer Ausdruck - Übereinstimmen**|Verwenden Sie einen regulären Ausdruck, um einen oder mehrere Werte zu finden. Dies ist den Optionen **Unterzeichenfolge** und **Regulärer Ausdruck – Ersetzen** ähnlich.|
+|**Benutzerdefiniert**|Dies ist eine erweiterte Option, die die Unterstützung eines Entwicklers erfordert. Sie aktiviert ein Integrationsereignis, das Sie abonnieren können, wenn Sie Ihren eigenen Transformationscode verwenden möchten. Wenn Sie ein Entwickler sind und diese Option verwenden möchten, lesen Sie das folgende [Beispiel ](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option).|
+|**Datum/Uhrzeit-Formatierung**|Legen Sie fest, wie das aktuelle Datum sowie die Uhrzeit angezeigt werden sollen.|
+
+#### <a name="tip-for-developers-example-of-the-custom-option"></a>Tipp für Entwickler: Beispiel für die benutzerdefinierte Option
+Das folgende Beispiel zeigt, wie Sie Ihren eigenen Transformationscode implementieren.
+
+```
+codeunit 60100 "Hello World"
+{
+    [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnTransformation', '', false, false)]
+    procedure OnTransformation(TransformationCode: Code[20]; InputText: Text; var OutputText: Text)
+    begin
+        if TransformationCode = 'CUST' then
+            OutputText := InputText + ' testing';
+    end;
+}
+```
+Nachdem Sie Ihre Regeln definiert haben, können Sie sie testen. Geben Sie im Abschnitt **Prüfung** ein Beispiel für einen Wert ein, den Sie transformieren möchten, und überprüfen Sie die Ergebnisse.
+
+### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Eine Datenaustauschdefinition als XML-Datei zur Verwendung durch andere exportieren
+Wenn Sie die Datenaustauschdefinition für eine bestimmte Datendatei erstellt haben, können Sie die Datenaustauschdefinition als XML-Datei exportieren, die Sie importieren können. Dies wird im folgender Verfahren beschrieben.  
+
 1. Geben Sie im Feld **Suchen** einen Wert für **Datenaustauschdefinitionen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Datenaustauschdefinition aus, die Sie exportieren möchten.  
 3. Wählen Sie die **Datenaustauschdefinition exportieren** Aktion aus.  

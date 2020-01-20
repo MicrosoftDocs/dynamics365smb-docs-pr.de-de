@@ -10,22 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879283"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910736"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Verbindung mit Dynamics 365 Sales einrichten
-Für die Integration mit [!INCLUDE[crm_md](includes/crm_md.md)] müssen Sie eine Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] einrichten.
+In diesem Thema wird beschrieben, wie Sie eine Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)]und [!INCLUDE[crm_md](includes/crm_md.md)] einrichten.
+<br><br>  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## <a name="before-you-start"></a>Bevor Sie beginnen
-Bevor Sie damit beginnen, die Apps zu verbinden, gibt es einige Informationen, die bereitzuhalten sinnvoll ist:  
+Bevor Sie die Verbindung herstellen, müssen Sie einige Informationen bereithalten:  
 
-* Eine URL für Ihre [!INCLUDE[crm_md](includes/crm_md.md)]-App. Um die URL schnell zu erhalten, öffnen Sie [!INCLUDE[crm_md](includes/crm_md.md)] und kopieren die URL, dann fügen Sie sie im Feld **Dynamics 365 Sales URL** in [!INCLUDE[d365fin](includes/d365fin_md.md)] ein. [!INCLUDE[d365fin](includes/d365fin_md.md)] passt die Formatierung für Sie an.  
+* Eine URL für Ihre [!INCLUDE[crm_md](includes/crm_md.md)]-App. Um die URL schnell zu erhalten, öffnen Sie [!INCLUDE[crm_md](includes/crm_md.md)], kopieren die URL und fügen Sie sie im Feld **Dynamics 365 Sales-URL** in [!INCLUDE[d365fin](includes/d365fin_md.md)] ein. [!INCLUDE[d365fin](includes/d365fin_md.md)] passt die Formatierung für Sie an.  
 * Ein Benutzername und ein Kennwort eines Benutzerkontos, die nur für die Integration verwendet werden.  
 * Der Benutzername und das Kennwort des Kontos mit Administratorrechten.  
 

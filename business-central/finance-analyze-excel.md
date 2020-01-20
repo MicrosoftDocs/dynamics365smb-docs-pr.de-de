@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 858116d656ef264c7c9445596c8b5345da944c8e
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302551"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952577"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysieren von Finanzauswertungen in Microsoft Excel
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], können Sie KPIs sehen und Übersichten über die Finanzlage des Unternehmens anzeigen. Sie können ebenfalls Listen in Excel öffnen und die Daten dort analysieren. Sie können jedoch umfangreiche Finanzauswertungen wie die Bilanz oder der GuV in Excel exportieren, die Daten analysieren und Änderungen wieder importieren .  
@@ -40,6 +40,8 @@ Dort finden Sie eine Registerkarte, in der die Daten für Sie im ersten Fenster 
 Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzeroberfläche umfasst das Add-In für Excel. Abhängig von Ihrem Abonnement werden Sie automatisch angemeldet, oder Sie müssen die selben Anmeldedetails festlegen, die Sie verwenden für [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Mit dem Add-In können Sie neue Daten abrufen von [!INCLUDE[d365fin](includes/d365fin_md.md)], und Sie können Änderungen zurück importieren [!INCLUDE[d365fin](includes/d365fin_md.md)]. Die Möglichkeit, ein Rückverfolg«»en der Daten zurück zur Datenbank für Excel-Finanzberichte in der Liste oben wird deaktiviert.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  

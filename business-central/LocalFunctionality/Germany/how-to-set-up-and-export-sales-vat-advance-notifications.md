@@ -8,18 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/06/2019
 ms.author: soalex
-ms.openlocfilehash: b98deeb56161c19d29a092eaf6a2bc4b488147ce
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3ebf7f4200f49666c65e52f8de0d5429245693ec
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878175"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910681"
 ---
 # <a name="sales-vat-advance-notifications"></a>Umsatzsteuervoranmeldungen  
 Eine Umsatzsteuervoranmeldung in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ist eine XML-Datei, die Sie verwenden können, um MwSt die deutsche Steuerbehörden an dem das Elektronische Steuererklärungen (ELSTER) - Onlineportal zu melden. Die XML-Datei enthält Steuerbeträge und Bemessungsgrundlagen und Informationen über den Mandanten und wird im Format und im Layout erstellt, die deutsche Finanzämter benötigen.    
 
+> [!NOTE]
+ >  Der größte Teil der Funktionen ist in der Erweiterung **ELSTER VAT-Lokalisierung für Deutschland** enthalten. Stellen Sie sicher, dass dies in Ihrem [!INCLUDE [prodshort](../../includes/prodshort.md)] installiert ist.
+ 
+ 
 ## <a name="set-up-and-export-sales-vat-advance-notifications"></a>Einrichten und Exportieren von Umsatzsteuervoranmeldungen
 Um gültige Umsatzsteuervoranmeldungen zu erstellen, müssen Sie Folgendes einrichten:  
 
@@ -62,4 +66,5 @@ Um gültige Umsatzsteuervoranmeldungen zu erstellen, müssen Sie Folgendes einri
 
 ## <a name="see-also"></a>Siehe auch
 [MwSt.-Abrechnung](vat-reporting.md)  
-[Lokale Funktion (Deutschland)](germany-local-functionality.md)
+[Lokale Funktion (Deutschland)](germany-local-functionality.md)  
+[Anpassen von Business Central mithilfe der Erweiterungen](../../ui-extensions.md)  

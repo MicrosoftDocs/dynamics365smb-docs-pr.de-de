@@ -10,21 +10,27 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649764"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911239"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Mindestanforderungen für die Nutzung von Business Central
 Bevor Sie auf [!INCLUDE [prodshort](includes/prodshort.md)] online zugreifen, empfiehlt es sich, dass Sie sicherstellen, dass Ihr Computer oder Ihr mobiles Gerät die Mindestsystemanforderungen für das Produkt erfüllt oder übersteigt. Dieser Artikel liste die Anforderungen auf.  
 
 ## <a name="browsers"></a>Browser
+
+### <a name="recommended-browsers"></a>Empfohlene Browser
+
 **Chrome für Windows und Firefox für Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] funktioniert mit der aktuellen Version dieses Desktopbrowser.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] funktioniert mit der aktuellen Version von Safari unter OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] funktioniert mit der aktuellen Version von Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] ist dafür ausgelegt, um mit Internet Explorer 11 (Build 11.0.9600.17239) für Windows 10 (32-Bit- und 64-Bit-Versionen) zu arbeiten. Es ist empfehlenswert, dass Sie auf die neuesten Version von Internet Explorer für Ihre Version von Windows aktualisieren.  
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] funktioniert mit der aktuellen Version von Microsoft Edge.
+
+### <a name="other-supported-browsers"></a>Andere unterstützte Browser
+
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] ist dafür ausgelegt, um mit Internet Explorer 11 (Build 11.0.9600.17239) für Windows 10 (32-Bit- und 64-Bit-Versionen) zu arbeiten. Es ist empfehlenswert, dass Sie auf die neuesten Version von Internet Explorer für Ihre Version von Windows aktualisieren. 
 
 ## <a name="mobile-devices"></a>Mobile Geräte
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] für Windows kann auf Geräten mit mindestens 1GB RAM- und Windows 10 Phone, Home, Pro Enterprise oder Education (32-Bit- und 64-Bit-Editionen) eingerichtet werden.  

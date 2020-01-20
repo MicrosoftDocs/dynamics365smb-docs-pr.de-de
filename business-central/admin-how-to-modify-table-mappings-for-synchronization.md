@@ -1,6 +1,6 @@
 ---
-title: Tabellenzuordnungen für die Synchronisierung ändern | Microsoft Docs
-description: Erfahren Sie, wie die Tabellenzuordnungen geändert werden, die verwendet werden, wenn Daten zwischen Business Central und Dynamics 365 Sales synchronisiert werden.
+title: Zu synchronisierende Tabellen und Felder zuordnen | Microsoft Docs
+description: Erfahren Sie, wie Sie Tabellen und Felder zum Synchronisieren von Daten zwischen Business Central und Dynamics 365 Sales zuordnen.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,48 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 10/01/2019
+ms.date: 12/18/2019
 ms.author: bholtorf
-ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 371bd80c04917495ea1b35f214d10d716ed5f9ad
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308073"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943113"
 ---
-# <a name="modify-table-mappings-for-synchronization"></a>Tabellenzuordnungen für die Synchronisierung ändern
-Eine Integrationstabellenzuordnung verknüpft eine Tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit einer Integrationstabelle für die [!INCLUDE[crm_md](includes/crm_md.md)]-Einheit. Für jede Einheit in [!INCLUDE[crm_md](includes/crm_md.md)], die Sie mit dazugehörenden Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren möchten, muss eine dazugehörende Integrationstabellenzuordnung vorhanden sein. Eine Integrationstabellenzuordnung umfasst eine Reihe von Einstellungen, mit denen Sie steuern können, wie Datensätze in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle und einer [!INCLUDE[crm_md](includes/crm_md.md)]-Einheit von den entsprechenden Integrationssynchronisierungsprojekten synchronisiert werden.  
+# <a name="mapping-the-tables-and-fields-to-synchronize"></a>Zu synchronisierende Tabellen und Felder zuordnen
+Die Basis für die Synchronisation von Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Daten in [!INCLUDE[crm_md](includes/crm_md.md)] ist das einander Zuordnen der Tabellen und Felder, die die Daten enthalten. Die Zuordnung erfolgt über Integrationstabellen. 
+
+## <a name="mapping-integration-tables"></a>Zuordnen von Integrationstabellen
+Eine Integrationstabelle ist eine Tabelle in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbank, die eine Entität wie ein Konto in [!INCLUDE[crm_md](includes/crm_md.md)] darstellt. Integrationstabellen umfassten Felder, die Feldern in der Tabelle für die [!INCLUDE[crm_md](includes/crm_md.md)]-Entität entsprechen. Die Kontointegrationstabelle stellt beispielsweise eine Verbindung zur Entität „Konten“ in [!INCLUDE[crm_md](includes/crm_md.md)] her. Es muss für jede Einheit in [!INCLUDE[crm_md](includes/crm_md.md)], die Sie mit Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren möchten, eine dazugehörende Integrationstabellenzuordnung vorhanden sein.
+
+Wenn Sie die Verbindung zwischen den Apps herstellen, richtet [!INCLUDE[d365fin](includes/d365fin_md.md)] einige Standardzuordnungen für Tabellen und Felder ein. Sie können die Tabellenzuordnungen auf Wunsch ändern. Weitere Informationen finden Sie unter [Standard-Sales-Entitätszuordnungen für die Synchronisierung](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization). Wenn Sie die Standardzuordnungen geändert haben und Ihre Änderungen rückgängig machen möchten, wählen Sie auf der Seite **Dynamics 365-Verbindungseinrichtung** die Option **Standard-Synchronisierungskonfiguration verwenden** aus.
+
+> [!Note]
+> Wenn Sie eine lokale Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden, werden die Integrationstabellenzuordnungen in Tabelle 5335 „Integrationstabellenzuordnungen“ gespeichert und können auf der Seite 5335 „Integrationstabellenzuordnungen“ angezeigt und geändert werden. Komplexe Zuordnungen und Synchronisierungsregeln werden in der Codeunit 5341 definiert. 
+
+### <a name="synchronization-rules"></a>Synchronisierungsregeln
+Eine Integrationstabellenzuordnung enthält auch Regeln, die steuern, wie Integrationssynchronisationsaufträge Datensätze in einer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle und eine Einheit in [!INCLUDE[crm_md](includes/crm_md.md)] synchronisieren. Weitere Informationen finden Sie unter [Synchronisierungsregeln](admin-synchronizing-business-central-and-sales.md#synchronization-rules). 
+
+## <a name="mapping-integration-fields"></a>Zuordnen von Integrationsfeldern
+Das Zuordnen von Tabellen ist nur der erste Schritt. Sie müssen auch die Felder in den Tabellen zuordnen. Integrationsfeldzuordnungen verknüpfen Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabellen entsprechenden Feldern in [!INCLUDE[crm_md](includes/crm_md.md)] zu und bestimmen, ob Daten in jeder Tabelle synchronisiert werden sollen. Die Standardtabellenzuordnung, die von [!INCLUDE[d365fin](includes/d365fin_md.md)] bereitgestellt wird, umfasst Feldzuordnungen, aber Sie können diese, wenn gewünscht ändern. Weitere Informationen finden Sie unter [Anzeigen von Entitätszuordnungen](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).
+
+> [!Note]
+> Wenn Sie eine lokale Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden, werden Integrationsfeldzuordnungen in Tabelle 5336 „Integrationsfeldzuordnung“ definiert.
+
+## <a name="coupling-records"></a>Kopplungsdatensätze
+Kopplungsverknüpfungssätze in [!INCLUDE[crm_md](includes/crm_md.md)] zu Datensätzen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zum Beispiel sind Konten in [!INCLUDE[crm_md](includes/crm_md.md)] in der Regel mit Kunden in [!INCLUDE[d365fin](includes/d365fin_md.md)] gekoppelt. Das Koppeln von Datensätzen bietet folgende Vorteile:
+
+* Es ermöglicht die Synchronisation.
+* Benutzer können Datensätze in einer Geschäftsanwendung eines anderen Benutzers öffnen. Dazu ist es erforderlich, dass die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Integrationslösung in [!INCLUDE[crm_md](includes/crm_md.md)] installiert wurde.
+
+Kopplungen können automatisch eingerichtet werden, indem die Synchronisierungsaufgaben verwendet werden, oder sie können manuell erfolgen, indem der Datensatz in [!INCLUDE[d365fin](includes/d365fin_md.md)] bearbeitet wird. Weitere Informationen finden Sie unter [Synchronisieren von Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)]und [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md) und [Manuelles Koppeln und Synchronisieren von Datensätzen ](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings).
 
 ## <a name="filtering-records"></a>Datensätze filtern  
- Falls Sie nicht alle Datensätze für eine bestimmte Einheit in [!INCLUDE[crm_md](includes/crm_md.md)] oder Tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren möchten, können Sie Filter einrichten, um die Datensätze zu begrenzen, die synchronisiert werden. Sie können Filter auf der Seite **Integrationstabellenzuordnungen** einrichten.  
+Falls Sie nicht alle Datensätze für eine bestimmte Einheit in [!INCLUDE[crm_md](includes/crm_md.md)] oder Tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren möchten, können Sie Filter einrichten, um die Datensätze zu begrenzen, die synchronisiert werden. Sie können Filter auf der Seite **Integrationstabellenzuordnungen** einrichten.  
 
 #### <a name="to-filter-records-for-synchronization"></a>So filtern Sie Datensätze für die Synchronisierung:  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link.
 
 2.  Um die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensätze zu filtern, legen Sie das Feld **Tabellenfilter** fest.  
 
@@ -36,7 +61,7 @@ Eine Integrationstabellenzuordnung verknüpft eine Tabelle in [!INCLUDE[d365fin]
  Beispielsweise verwendet der SALESPEOPLE - Dynamics 365 Sales Synchronisierungsauftrag die Tabellenzuordnung VERKÄUFER. Das Synchronisierungsprojekt kopiert Daten aus Benutzerdatensätzen in [!INCLUDE[crm_md](includes/crm_md.md)] in Verkäuferdatensätze in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wenn Sie die Tabellenzuordnung einrichten, um neue Datensätze zu erstellen, wird für jeden Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)], der nicht bereits an einen Verkäufer in [!INCLUDE[d365fin](includes/d365fin_md.md)] gekoppelt ist, ein neuer Verkäuferdatensatz in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt.  
 
 #### <a name="to-create-new-records-during-synchronization"></a>So erstellen Sie neue Datensätze während der Synchronisierung:  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link.
 
 2.  Deaktivieren Sie im Tabellenzuordnungseintrag in der Liste das Feld **Nur gekoppelte Datensätze synchronisieren**.  
 
@@ -52,7 +77,7 @@ Wenn Sie die standardmäßige Synchronisierungskonfiguration einrichten, werden 
 -   **CRMACCOUNT** erstellt und synchronisiert neue Konten in [!INCLUDE[crm_md](includes/crm_md.md)] auf der Basis eines Kontos in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>So bestimmen Sie Konfigurationsvorlagen für eine Tabellenzuordnung:  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link.
 
 2.  Wählen Sie im Tabellenzuordnungseintrag in der Liste im Feld **Vorlagencode Tabellenkonfiguration** die Konfigurationsvorlage aus, die für neue Datensätze in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet werden soll.  
 

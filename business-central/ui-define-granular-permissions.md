@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809348"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943209"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 Mit dem Sicherheitssystem [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie steuern, auf welche Objekte ein Benutzer innerhalb jeder Datenbank oder Umgebung zugreifen darf. Sie können für jeden Benutzer festlegen, ob er Daten in den ausgewählten Datenbankobjekten lesen, ändern oder eingeben darf. Detaillierte Informationen finden Sie unter [Datensicherheit](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in der Hilfe für Entwickler und ITPro für [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -120,7 +120,7 @@ In jedem der fünf Zugriffstypfelder **Leseberechtigung**, **Einfügeberechtigun
 |Option|Description|Priorität|
 |------|-----------|
 |**Ja**|Der Benutzer kann die Aktion an dem fraglichen Objekt ausführen.|Am höchsten|
-|**Indirekt**|Der Benutzer kann die Aktion an dem fraglichen Objekt nur über ein anderes zugehöriges Objekt ausführen, auf das der Benutzer vollständig zugreifen kann.|Zweithöchste|
+|**Indirekt**|Der Benutzer kann die Aktion an dem fraglichen Objekt nur über ein anderes zugehöriges Objekt ausführen, auf das der Benutzer vollständig zugreifen kann. Weitere Informationen zu indirekten Berechtigungen finden Sie unter [Berechtigungseigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) in der Entwickler- und IT-Pro-Hilfe|Zweithöchste|
 |**"Leer"**|Der Benutzer kann die Aktion an dem fraglichen Objekt nicht ausführen.|Am niedrigsten|
 
 ### <a name="example---indirect-permission"></a>Beispiel - Indirekte Berechtigungen
@@ -201,7 +201,7 @@ Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definie
 [Profile verwalten](admin-users-profiles-roles.md)  
 [Funktionen, die angezeigt werden ändern](ui-experiences.md)  
 [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
-[Vorbereitung für das Geschäft](ui-get-ready-business.md)  
+[Vorbereitung für das Geschäft ](ui-get-ready-business.md)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Benutzer zu Office 365 hinzufügen für Unternehmen](https://aka.ms/CreateOffice365Users)  
 [Microsoft Dynamics 365 Business Central Lizenzierungshandbuch](https://aka.ms/BusinessCentralLicensing)  

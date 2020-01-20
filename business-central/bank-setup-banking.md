@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 5995e550b4d4c25296842a7d73a5f74acb91bd83
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692728"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910395"
 ---
 # <a name="setting-up-banking"></a>Einrichten von Banken
 Bankkontokarten dienen zum Nachverfolgen aller Bankkonten in beliebiger Währung. Sobald Bankkonten eingerichtet wurden, können auch Schecks gedruckt werden.
@@ -31,7 +31,7 @@ Um elektronische Bankdienstleistungen zum Importieren von Bankkontoauszügen und
 | Richten Sie einen externen Dienst ein, der es Ihnen ermöglicht, Ihre Zahlungen zur Bearbeitung an die Bank zu exportieren und Bankauszüge als Bankdateien zum Zahlungsausgleich und zur Bankabstimmung zu importieren. |[Benutzung der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Siehe auch
-[Verwalten von Bankkonten](bank-manage-bank-accounts.md)  
+[Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

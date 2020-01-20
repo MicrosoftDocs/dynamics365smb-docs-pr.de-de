@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808577"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911133"
 ---
 # <a name="select-a-check-layout"></a>Ein Prüflayout auswählen
 Sie können Ihre Schecks entwerfen, um sie den Vorgaben anzupassen, die von den lokalen Behörden festgelegt werden. Scheckbilder können in Englisch, Französisch oder Spanisch gedruckt werden.
@@ -41,7 +41,7 @@ Verwenden Sie dazu entweder die Word- oder die RDLC-Integration, um eines dieser
 ## <a name="see-also"></a>Siehe auch
 [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
-[Verwalten von Bankkonten](bank-manage-bank-accounts.md)   
+[Abstimmen von Bankkonten](bank-manage-bank-accounts.md)   
 [Abschließen von Periodenabschlüssen](year-how-complete-period-end-processes.md)  
 [Arbeiten mit [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

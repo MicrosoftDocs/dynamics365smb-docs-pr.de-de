@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bmeier
-ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879106"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952987"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivieren Sie Ihre Geschäftsdaten für Power BI
 
@@ -164,7 +164,7 @@ Ein Power BI Konto wurde nicht eingerichtet. Um ein gültiges Power BI Konto zu 
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Nachricht: Es sind keine Berichte aktiviert. Wählen Sie „Bericht auswählen“ aus, um eine Liste der anzeigbaren Berichte anzuzeigen.
 
-Diese Meldung wird angezeigt, wenn der Standardbericht nicht auf Ihrem Power BI Arbeitsbereich bereitgestellt werden kann oder der Bericht wurde bereitgestellt, aber nicht erfolgreich aktualisiert. Navigieren Sie in diesem Fall zu dem Bericht in Ihrem Power BI Arbeitsbereich, wählen Sie **Datensatz**, **Einstellungen** und aktualisieren Sie die Berechtigungsnachweise manuell. Wenn der Datensatz erfolgreich aktualisiert wurde, navigieren Sie zurück zu Business Central und wählen Sie den Bericht manuell aus der Liste aus der **Wählen Sie Berichte** Seite. 
+Diese Meldung wird angezeigt, wenn der Standardbericht nicht auf Ihrem Power BI Arbeitsbereich bereitgestellt werden kann oder der Bericht wurde bereitgestellt, aber nicht erfolgreich aktualisiert. Navigieren Sie in diesem Fall zu dem Bericht in Ihrem Power BI Arbeitsbereich, wählen Sie **Datensatz**, **Einstellungen** und aktualisieren Sie die Berechtigungsnachweise manuell. Wenn der Datensatz erfolgreich aktualisiert wurde, navigieren Sie zurück zu Business Central und wählen Sie den Bericht manuell aus der Liste aus der **Wählen Sie Berichte** Seite.
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Sie brauchen eine Power BI Pro Lizenz zur Installation der [!INCLUDE [prodshort](includes/prodshort.md)] App in Power BI
 
@@ -174,7 +174,7 @@ Power BI Apps können nur von Benutzern mit einer Power BI Pro Lizenz installier
 
 Dieser Fehler zeigt an, dass einer oder mehrere der Parameter ungültig sind.
 
-- Der angegebene Umgebungsparameter entspricht keinem vorhandenen [!INCLUDE [prodshort](includes/prodshort.md)] Produktions- oder Sandbox-Umgebung. 
+- Der angegebene Umgebungsparameter entspricht keinem vorhandenen [!INCLUDE [prodshort](includes/prodshort.md)] Produktions- oder Sandbox-Umgebung.
 - Der angegebene Firmenparameter stimmt mit keiner bestehenden [!INCLUDE [prodshort](includes/prodshort.md)] Unternehmung überein. Überprüfen Sie den Unternehmensnamen auf der Seite **Unternehmen** unter [!INCLUDE [prodshort](includes/prodshort.md)].
 - Wenn eine Verbindung zu [!INCLUDE [prodshort](includes/prodshort.md)] lokal hergestellt wird. Sie haben eine ungültige URL eingegeben. Sie können die URL auf er Seite **Webdienst** in [!INCLUDE [prodshort](includes/prodshort.md)] überprüfen  
 - Ein Port ist nicht geöffnet, damit die Anforderung Ihre Firewall passieren kann.
@@ -202,6 +202,8 @@ Sobald die Power BI App installiert ist und Ihre Daten angezeigt werden in Power
 ### <a name="i-only-see-data-for-a-single-company"></a>Ich sehe nur Daten für ein einzelnes Unternehmen
 
 Die Power BI App zeigt nur Daten vom [!INCLUDE [prodshort](includes/prodshort.md)] Unternehmen an, das definiert wurde, als die Power BI App installiert wurde. Daten von zusätzlichen Unternehmen können zu den Berichten hinzugefügt werden, indem neue Abfragen hinzugefügt werden, die andere Unternehmen als Datenquelle verwenden.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 

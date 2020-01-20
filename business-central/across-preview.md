@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 11/14/2019
+ms.date: 12/10/2019
 ms.author: edupont
-ms.openlocfilehash: 8905a7dccc96f85a3803b1cf89862718d6a0df2e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879403"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2942990"
 ---
 # <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Testversionen und Abonnements
 
@@ -29,7 +29,7 @@ Wenn Sie auf Schwierigkeiten stoßen, kann die Seite [Häufig gestellte Fragen](
 
 ### <a name="try-out-your-own-company"></a>Testen Sie Ihr eigenes Unternehmen
 
-Wenn Sie [!INCLUDE [prodshort](includes/prodshort.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-Tage-Testversion mit einem leeren Unternehmen wechseln, damit Sie Ihre eigenen Daten importieren können.  
+Wenn Sie [!INCLUDE [prodshort](includes/prodshort.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-Tage-Testversion mit einem leeren Unternehmen wechseln. Mithilfe der Anleitung für die unterstützte Einrichtung **Mein Unternehmen einrichten** können Sie grundlegende Informationen zu Ihrem Unternehmen angeben. Optional können Sie Daten aus Ihrer vorhandenen Geschäftsverwaltungslösung importieren, damit Sie [!INCLUDE [prodshort](includes/prodshort.md)] mit Ihren eigenen Daten auswerten können.  
 
 Wenn 30 Tage nicht ausreichen, um eine Entscheidung zu treffen, können Sie Ihre Testversion verlängern. Weitere Informationen finden Sie unter [Benötigen Sie mehr Zeit, um zu entscheiden, ob Sie abonnieren möchten?](admin-extend-trial.md).  
 
@@ -72,11 +72,11 @@ Sie können sich auch an das [[!INCLUDE[d365fin](includes/d365fin_md.md)] Vertre
 
 ## <a name="getting-started-with-sandboxes"></a>Erste Schritte mit Sandboxes
 
-Sandboxumgebungen können eine Möglichkeit sein, mit [!INCLUDE[d365fin](includes/d365fin_md.md)] zu üben. Sie können sich eine Sandbox als eine Nichtproduktionsumgebung vorstellen, die Sie zusätzlich zu Ihrer Produktionsinstanz von [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden können.  
+Sandboxumgebungen können eine Möglichkeit sein, mit [!INCLUDE[d365fin](includes/d365fin_md.md)] zu üben. Sie können sich eine Sandbox als eine Nichtproduktionsumgebung vorstellen, die Sie zusätzlich zu Ihrer Produktionsinstanz von [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden können. Wenn Sie zum Beispiel am kostenlosen Onlinetraining von [Microsoft Learn](/learn/browse/?products=dynamics-business-central) teilnehmen möchten, kann Ihr Administrator eine Sandboxumgebung erstellen, damit Sie und Ihre Kollegen dort anstatt in Ihrer Produktionsumgebung üben können.  
 
-Mit einer Sandbox können Sie sicher Erweiterungen erstellen und testen und neue Funktionalitäten entwickeln, um den Service anzupassen, ohne die Daten und Einstellungen Ihre Produktionsumgebung zu beeinträchtigen. Wenn Sie zum Beispiel am kostenlosen Onlinetraining von [Microsoft Learn](/learn/browse/?products=dynamics-business-central) teilnehmen möchten, können Sie eine Sandboxumgebung erstellen und dort üben, anstatt in Ihrer Produktionsumgebung.  
+Wenn Sie ein Entwickler sind, können Sie mit einer Sandbox sicher Erweiterungen erstellen und testen und neue Funktionalitäten entwickeln, um den Service anzupassen, ohne die Daten und Einstellungen Ihre Produktionsumgebung zu beeinträchtigen.  
 
-Im Moment können alle Debitoren eine Sandbox benutzen. Weitere Informationen über die ersten Schritte mit einem Sandkasten finden Sie unter [Erstellen einer Sandkastenumgebung](across-how-create-sandbox-environment.md).  
+Derzeit können alle Kunden eine Sandbox verwenden, auch Organisationen, die sich für eine Testversion angemeldet haben. Weitere Informationen über die ersten Schritte mit einem Sandkasten finden Sie unter [Erstellen einer Sandkastenumgebung](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
 > Sandboxes, die auf diese Weise erstellt werden, enthalten Demodaten für das fiktive CRONUS-Unternehmen. Keine Daten werden kopiert oder anderswie von der Fertigungsumgebungen während der Sandkastenerstellung transferiert.  
@@ -96,6 +96,7 @@ For example, you can use an API to build a connected app to exchange data betwee
 ## <a name="see-also"></a>Siehe auch
 
 [Erste Schritte](product-get-started.md)  
+[Verlängern Ihrer Testversion](admin-extend-trial.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.md)  
 [Wie finde ich einen Weiterverkaufspartner?](across-faq.md#findpartner)  

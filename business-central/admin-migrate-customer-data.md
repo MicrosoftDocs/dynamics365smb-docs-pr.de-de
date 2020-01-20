@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896205"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918214"
 ---
 # <a name="migrate-customer-data"></a>Migrieren von Debitorendaten
 Sie können vorhandene Debitorendaten aus einem vorhandenen ERP-System nach [!INCLUDE[d365fin](includes/d365fin_md.md)] migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben.
@@ -31,13 +31,13 @@ Wenn Sie ein neues Unternehmen erstellen, können Sie Unternehmenseinstellungen 
 > [!NOTE]  
 >  Sie können eine Datei, die nicht bereits ein RapidStart Services-Konfigurationspaket ist, nicht als eine .rapidstart-Konfigurationspaketdatei umbenennen und versuchen, sie zu importieren. Wenn Sie versuchen so zu tun, erhalten Sie eine Fehlermeldung.  
 
-Bevor Sie beginnen, vergewissern Sie sich, dass Sie sich im RapidStart Services-Implementierer-Rollencenter befinden.
+Bevor Sie beginnen, müssen Sie sicherstellen, dass Sie über die Berechtigung zum Ausführen von RapidStart Services-Objekten verfügen. Beispielsweise können Sie über den Berechtigungssatz SUPER verfügen oder ein interner oder delegierter Administrator sein. Wir empfehlen außerdem, dass Sie sich in einem Rollencenter mit Links zu RapidStart Services, wie dem Verwaltungsrollencenter befinden. Weitere Informationen finden Sie unter [So ändern Sie die Rolle](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
->  Wenn Sie Konfigurationspakete zwischen zwei Mandantendatenbanken exportieren und importieren, sollten die Datenbanken dasselbe Schema haben, damit sichergestellt ist, dass alle Daten erfolgreich übertragen werden. Das bedeutet, dass die Datenbanken dieselbe Tabelle und Feldstruktur aufweisen sollten, wobei die Tabellen dieselben Primärschlüssel und die Felder dieselben IDs und Datentypen haben.  
->   
+> Wenn Sie Konfigurationspakete zwischen zwei Mandantendatenbanken exportieren und importieren, sollten die Datenbanken dasselbe Schema haben, damit sichergestellt ist, dass alle Daten erfolgreich übertragen werden. Das bedeutet, dass die Datenbanken dieselbe Tabelle und Feldstruktur aufweisen sollten, wobei die Tabellen dieselben Primärschlüssel und die Felder dieselben IDs und Datentypen haben.  
+>
 >  Sie können ein Konfigurationspaket importieren, das aus einer Datenbank exportiert wurde, die ein anderes Schema als die Zieldatenbank hat. Allerdings werden Tabellen oder Felder im Konfigurationspaket, die in der Zieldatenbank fehlen, nicht importiert.
->   
+>
 > Tabellen mit unterschiedlichen Primärschlüsseln und Felder mit unterschiedlichen Datentypen werden ebenfalls nicht erfolgreich importiert. Wenn das Konfigurationspaket beispielsweise die Tabelle **Debitor 50000** mit dem Primärschlüssel **Code20** enthält und die Datenbank, in die Sie das Paket importieren die Tabelle **Debitor Bankkonto 50000** mit dem Primärschlüssel **Code20 + Code 20** enthält, werden diese Daten nicht importiert.  
 
 1. Öffnen Sie das neue Unternehmen.  
@@ -56,7 +56,11 @@ Bevor Sie beginnen, vergewissern Sie sich, dass Sie sich im RapidStart Services-
 Wenn die Auswahl der Tabellen für die Datenmigration Ihre Anforderungen nicht erfüllt, können Sie eine oder mehrere neue Datenmigrationsdateien erstellen. Wenn die Dateien für die Datenmigration genügen, können Sie mit der Datenmigration unter Verwendung von XLS- oder XML-Dateien fortfahren.
 
 ## <a name="to-create-a-data-migration-file"></a>So erstellen Sie eine Datenmigrationsdatei
-Sie können neue Datenmigrationsdateien erstellen und diese anpassen, sodass sie Ihr Geschäft zu unterstützen. Jedoch kann eine Datei nur verwendet werden, um ein Feld zu migrieren, das den **FieldClass**-Eigenschaftensatz **Normal** hat.  
+
+Sie können neue Datenmigrationsdateien erstellen und diese anpassen, sodass sie Ihr Geschäft zu unterstützen.  
+
+> [!TIP]
+> Eine Datei kann nur verwendet werden, um ein Feld zu migrieren, das den **FieldClass**-Eigenschaftensatz **Normal** hat.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspaket** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie und öffnen Sie ein Paket, das Sie verwenden möchten, um Daten zu migrieren, und wählen Sie die **Tabellen abrufen** Aktion aus. Die Seite **Pakettabelle abrufen** wird geöffnet.  
