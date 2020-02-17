@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 12/16/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 416ca6f99dec55a9eb0c9a70e9974d2e7bcb348c
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 0e38ec4c70fdbf81b29d96ad9db80cd7efdd2c82
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910444"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999855"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Buchungen stornieren und Belege/Lieferungen rückgängig machen
 Zum Stornieren (Rückgängig machen) fehlerhafter Buch.-Blattbuchungen wählen Sie einen Posten und erstellen einen Korrekturposten (ein Posten, die mit dem ursprünglichen Posten identisch ist, jedoch im Betragsfeld ein umgekehrtes Vorzeichen aufweist) mit derselben Belegnummer und demselben Belegdatum wie der ursprüngliche Posten. Nachdem Sie einen Posten storniert haben, müssen Sie den Korrekturposten erstellen.
@@ -34,7 +34,7 @@ Wenn Sie eine inkorrekte positive Mengenbuchung durchgeführt haben, wie eine Ve
 Posten können in allen Seiten **Posten** storniert werden. Das folgende Verfahren basiert auf der Seite **Sachposten**.
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Sachposten** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Posten, den Sie stornieren möchten, und wählen die **Transaktion stornieren** Aktion aus. Beachten Sie, das sie aus einer Buch.-Blatt-Buchung stammen muss.
-3. Auf der Seite **Transaktionsposten stornieren** wählen Sie den entsprechenden Posten, und wählen die **Stornieren** Aktion aus.
+3. Auf der Seite **Transaktionsposten stornieren** wählen Sie die Aktion **Stornieren** aus.
 4. Klicken Sie auf die Schaltfläche **Ja** auf der Bestätigungsnachricht.
 
 > [!NOTE]

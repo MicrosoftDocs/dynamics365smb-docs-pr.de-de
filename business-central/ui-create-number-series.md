@@ -1,6 +1,6 @@
 ---
 title: Nummernserien erstellen | Microsoft Docs
-description: Erfahren Sie, wie Nummernserien errichtet werden, die eindeutigen ID Codes zu Konten und Belegen in  Business Central zugewiesen werden.
+description: Erfahren Sie, wie Nummernserien errichtet werden, die eindeutigen ID Codes zu Konten und Belegen in Business Central zugewiesen werden.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ad00fffd79d35e7e1dc29134b75c4c5213891e0b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: bd86c129f2c6161860505a1127c3160e1e2da8ad
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953291"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030076"
 ---
 # <a name="create-number-series"></a>Erstellen von Nummernkreisen
 Für jeden eingerichteten Mandanten müssen eindeutige Identifizierungscodes für Elemente wie Sachkonten, Debitor-/Kreditorkonten, Rechnungen und andere Belege zugeordnet werden. Die Nummerierung dient jedoch nicht nur zur Identifizierung. Ein durchdachtes Nummerierungssystem trägt zur einfacheren Verwaltung und besseren Analysierbarkeit des Mandanten bei, was eine Verringerung von Eingabefehlern zur Folge hat.
@@ -28,14 +28,14 @@ Wenn Sie Lücken in bestimmten Nummernserien zulassen möchten, wenden Sie sich 
 > [!NOTE]  
 >   Es ist empfehlenswert, dass Sie dieselben Nummernseriencodes verwenden, die Sie auf der Seite **Nummernserienübersicht** im CRONUS-Demomandanten sehen. Codes wie *P-INV+* ergeben möglicherweis nicht sofort einen Sinn, aber [!INCLUDE[d365fin](includes/d365fin_md.md)] hat eine einige Standardeinstellungen, die von diesen Nummernseriencodes abhängen.
 
-Ein Nummerierungssystem wird durch Einrichten mindestens eines Codes für die einzelnen Arten von Masterdaten oder Belegen eingerichtet. So können Sie beispielsweise einen Code für die Nummerierung von Debitoren, einen weiteren Code für die Nummerierung von Verkaufsrechnungen und einen weiteren Code für die Nummerierung von Belegen in Fibu Buch.-Blättern einrichten. Nachdem ein Code eingerichtet wurde, muss mindestens eine Nummernserienzeile eingerichtet werden. Die Nummernserienzeile enthält Informationen wie die erste und die letzte Nummer der Serie sowie das Startdatum. Pro Nummernseriencode lassen sich mehrere Nummernserienzeilen mit unterschiedlichem Startdatum einrichten. Die Serie wird fortlaufend verwendet, wobei jede Serie zum entsprechenden Startdatum beginnt.
+Ein Nummerierungssystem wird durch Einrichten mindestens eines Codes für die einzelnen Arten von Masterdaten oder Belegen eingerichtet. So können Sie beispielsweise einen Code für die Nummerierung von Debitoren, einen weiteren Code für die Nummerierung von Verkaufsrechnungen und einen weiteren Code für die Nummerierung von Belegen in Fibu Buch.-Blättern einrichten. Nachdem Sie einen Code eingerichtet haben, müssen Sie mindestens eine Nummernserienzeile einrichten. Die Nummernserienzeile enthält Informationen wie die erste und die letzte Nummer der Serie sowie das Startdatum. Pro Nummernseriencode lassen sich mehrere Nummernserienzeilen mit unterschiedlichem Startdatum einrichten. Die Serie wird fortlaufend verwendet, wobei jede Serie zum entsprechenden Startdatum beginnt.
 
 Sie legen in der Regel die Nummernserie fest, um automatisch die nächste fortlaufende Nummer auf neuen Karten oder Dokumente einzusetzen, die Sie erstellen. Sie können eine Nummernserie festlegen, bei der Sie manuell die neue Nummer eingeben können. Sie definieren dies mit dem Kontrollkästchen **Manuelle Nr.**
 
 Verwenden Sie Nummernserienbeziehungen, wenn Sie für eine Masterdatenart mehrere Nummernseriencodes verwenden möchten – beispielsweise, um für unterschiedliche Artikelkategorien unterschiedliche Nummernserien zu verwenden.
 
 ## <a name="gaps-in-number-series"></a>Lücken in Nummernserien
-Nicht alle Datensätze, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen sind Finanztransaktionen, die fortlaufend nummeriert werden müssen. Debitorenkarten, Verkaufsangebote und Lageraktivitäten sind Beispiele für Datensätze, denen eine Nummer aus einer Nummernreihe zugewiesen wurde, die jedoch keiner Finanzprüfung unterliegen und/oder die gelöscht werden können. Für solche Nummernserien können Sie das Kontrollkästchen **Lücken in Nr. zulassen** auf der Seite **Serienlinien** auswählen. Weitere Informationen zum Erstellen einer Vorlage finden Sie unter [Eine neue Nummernserie erstellen](ui-create-number-series.md#to-create-a-new-number-series).
+Nicht alle Datensätze, die Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen sind Finanztransaktionen, die fortlaufend nummeriert werden müssen. Debitorenkarten, Verkaufsangebote und Lageraktivitäten sind Beispiele für Datensätze, denen eine Nummer aus einer Nummernreihe zugewiesen wurde, die jedoch keiner Finanzprüfung unterliegen und/oder die gelöscht werden können. Für solche Nummernserien können Sie das Kontrollkästchen **Lücken in Nr. zulassen** auf der Seite **Serienlinien** auswählen. Diese Einstellung kann auch nach dem Erstellen der Nummernserie geändert werden. Weitere Informationen zum Erstellen einer Vorlage finden Sie unter [Eine neue Nummernserie erstellen](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Verhalten des Nr.- Felds auf Belegen und Karten
 In den Feldern „Vertrieb“, „Einkauf“ und „Übergangsbelege“ und auf allen Karten kann die **Nr.** automatisch aus einer Nummernserie oder manuell ausgefüllt und so eingerichtet werden, dass es unsichtbar ist.

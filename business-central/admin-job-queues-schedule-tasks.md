@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879202"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999783"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung
 Die Aufgabenwarteschlangen in [!INCLUDE[d365fin](includes/d365fin_md.md)] ermöglichen es Benutzern, bestimmte Berichte und Codeunits zu planen und auszuführen. Die Projekte können entweder einmalig oder wiederholt ausgeführt werden. So kann es beispielsweise empfehlenswert sein, den Bericht **Verkäufer - Verkäuferstatistik** wöchentlich auszuführen, um jede Woche die Verkaufserfolge eines Verkäufers im Auge zu haben, während die Codenit **Service-E-Mail-Warteschlange** verarbeiten" täglich ausgeführt wird, um sicherzustellen, dass ausstehende, serviceauftragsbezogene E-Mails rechtzeitig an die entsprechenden Debitoren versendet werden.
@@ -31,6 +31,11 @@ Sie können dies erreichen, indem Sie die Projektwarteschlange so einrichten, da
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt die Hintergrundbuchung für alle Verkaufs-, Einkaufs- und Servicebelege.
 
+> [!NOTE]
+> Einige Aufträge ändern dieselben Daten und sollten nicht gleichzeitig ausgeführt werden, da dies zu Konflikten führen kann. Beispielsweise versuchen Hintergrundaufträge für Verkaufsbelege, dieselben Daten zur selben Zeit zu ändern. Auftragswarteschlangenkategorien tragen dazu bei, diese Art von Konflikten zu vermeiden, indem sichergestellt wird, dass bei der Ausführung eines Auftrags ein anderer Auftrag, der zur gleichen Auftragswarteschlangen-Kategorie gehört, erst nach Abschluss ausgeführt wird. Beispielsweise wartet ein Auftrag, der zu einer Vertriebsauftrags-Warteschlangenkategorie gehört, bis alle anderen vertriebsbezogenen Aufträge abgeschlossen sind. Sie geben eine Auftragswarteschlangenkategorie auf der Seite Inforegister **Hintergrundbuchung** auf der Seite **Vertrieb und Forderungen – Setup** ein. 
+> 
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt Auftragswarteschlangen-Kategorien für Vertrieb, Einkauf und Sachbuchung bereit. Es wird empfohlen, dass immer eine dieser Optionen oder eine von Ihnen erstellte angegeben wird. Wenn aufgrund von Konflikten Fehler auftreten, sollten Sie eine Kategorie für alle Verkäufe, Einkäufe und Hintergrundbuchungen in der Finanzbuchhaltung einrichten.
+
 Nachfolgend wird erklärt, wie die Hintergrundbuchung von Verkaufsaufträgen eingerichtet wird. Die Schritte sind für Einkauf und Service ähnlich.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einrichten von Verkauf und Forderungen** ein, und wählen Sie dann den zugehörigen Link aus.
@@ -41,7 +46,7 @@ Nachfolgend wird erklärt, wie die Hintergrundbuchung von Verkaufsaufträgen ein
 4. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.
 5. Wählen Sie auf der Seite **Projektwarteschlangeneinträge** die Aktion **Neu**.
 6. Wählen Sie im Feld **Auszuführender Objekttyp** die Option **Codeunit** aus.  
-7. Wählen Sie im Feld **Auszuführende Objekt-ID** 88 aus, **Verkaufsbuchung über Projektwarteschlange** aus.
+7. Wählen Sie im Feld **Auszuführende Objekt-ID** die Option **88** aus. In den Feldern Beschreibung und Auszuführende Objektbeschriftung werden Vertriebsbuchungen über die Auftragswarteschlange angezeigt.
 
     Keine anderen Felder sind für dieses Szenario relevant.
 8. Wählen Sie die Aktion **Status auf bereit festlegen** aus.

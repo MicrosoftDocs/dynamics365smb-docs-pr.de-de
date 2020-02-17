@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/07/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8cf6c70c3794a5f231f9072d01d671afdebc54ca
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 8a2e134c072fd27d08c9ad2c90858eef507fe5e4
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952939"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030172"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] so einrichten, dass Daten in bestimmten Tabelle mit Daten in externen Dateien ausgetauscht werden, zum Beispiel zum Senden und Empfangen elektronischer Belege oder zum Importieren und Exportieren von Bankdaten und anderen Daten, wie Lohnabrechnung, Währungswechselkursen und Artikelkatalogen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  

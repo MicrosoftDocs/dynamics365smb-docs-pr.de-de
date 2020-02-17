@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 33b2931e14cb7e41cc3e71c327d2237cd8308466
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1e45a480e8fdcc508de8ac82a6d2860147d76cec
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878197"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991784"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Verwenden von Dynamics 365 Sales von Business Central
 Wenn Sie Dynamics 365 Sales for Customer Engagement verwenden, können Sie nahtlose Integration in den Interessent-zu-Geld-Prozess nutzen, indem Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.
@@ -69,14 +69,14 @@ Verkaufsaufträge, die Verkäufer in [!INCLUDE[crm_md](includes/crm_md.md)] einr
 Alternativ können Sie eingereichte Verkaufsaufträge aus [!INCLUDE[crm_md](includes/crm_md.md)] mithilfe der Aktion **Erstellen in [!INCLUDE[d365fin](includes/d365fin_md.md)]**, die auf der Seite **Verkaufsaufträge - Dynamics 365 for Sales** verfügbar ist, manuell konvertieren.
 In solchen Verkaufsaufträgen wird das **Name** Feld im ursprünglichen Auftrag dem Feld **Externe Belegnummer** im Verkaufsauftrag in [!INCLUDE[d365fin](includes/d365fin_md.md)] übertragen und zugeordnet.
 
-Dies kann auch gehen, wenn der ursprüngliche Verkaufsauftrag geschriebene Produkte enthält, d.h. Artikel oder Ressourcen sind nicht in beiden Apps erfasst worden. In diesem Fall müssen Sie die Felder**Geschriebenen Produkttyp** und die **Geschriebene Produktnummer** ausfüllen auf der Seite **Debitoren & Verkauf Einr.**, damit solche nicht-registrierte Produktverkäufe in einem angegebenen Artikel/einer Ressourcennummer für Finanzanalyse zugeordnet werden.
+Dies kann auch gehen, wenn der ursprüngliche Verkaufsauftrag geschriebene Produkte enthält, d.h. Artikel oder Ressourcen sind nicht in beiden Apps erfasst worden. In diesem Fall müssen Sie die Felder **Geschriebenen Produkttyp** und die **Geschriebene Produktnummer** ausfüllen auf der Seite **Debitoren & Verkauf Einr.**, damit solche nicht-registrierte Produktverkäufe in einem angegebenen Artikel/einer Ressourcennummer für Finanzanalyse zugeordnet werden.
 
 Wenn die Artikelbeschreibung des ursprünglichen Verkaufsauftrags lang ist, wird eine zusätzliche Verkaufsauftragszeile der Art **Bemerkung** erstellt, um den Text in dem Verkaufsauftrag in [!INCLUDE[d365fin](includes/d365fin_md.md)]festzuhalten.
 
 Aktualisierungen der Verkaufsauftrags-Kopffeldern, wie "Letztes Lieferdatum" oder "Gewünschtes Lieferdatum", die der VERKAUFSAUFTRAG-AUFTRAG-**Integrationstabellenzuordnung** zugeordnet sind, werden in regelmäßigen Abständen mit [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Arbeitsgänge wie das Freigeben eines Verkaufsauftrags und die Lieferung oder Fakturierung eines Verkaufsauftrags werden auf der Verkaufsauftragszeitachse in [!INCLUDE[crm_md](includes/crm_md.md)] gebucht. Weitere Informationen finden Sie unter [Einführung in die Aktivitätsfeeds](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
 > [!NOTE]  
-> Periodische Synchronisation basierend auf der SALESORDER-ORDER-**Integrationstabellenzuordnung** funktioniert nur, wenn die Verkaufsauftragsintegration aktiviert ist. Weitere Informationen finden Sie unter [Verbinden mit Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md) Nur Verkaufsaufträge, die aus übermittelten Verkaufsaufträgen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt wurden, werden synchronisiert. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodische Synchronisation basierend auf der SALESORDER-ORDER-**Integrationstabellenzuordnung** funktioniert nur, wenn die Verkaufsauftragsintegration aktiviert ist. Weitere Informationen finden Sie unter [Verbinden mit Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Nur Verkaufsaufträge, die aus übermittelten Verkaufsaufträgen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt wurden, werden synchronisiert. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
@@ -88,7 +88,7 @@ In solchen Verkaufsangeboten wird das **Name**-Feld im ursprünglichen Angebot d
 Verkaufsangebote unterliegen vielen Überarbeitungen, bis sie abgeschlossen werden. Manuelle und automatische Verarbeitung von Verkaufsangeboten in [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt sicher, dass vorherige Versionen von Verkaufsanfragen archiviert werden, bevor neue Überarbeitungen von Verkaufsanfragen von [!INCLUDE[crm_md](includes/crm_md.md)] verarbeitet werden.
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Behandlung der gebuchten Verkaufsrechnungen, Debitoren-Zahlungen und Statistiken
-Nach der Erfüllung eines Verkaufsauftrags, werden dafür Rechnungen erstellt. Wenn Sie Aufträge fakturieren, können Sie gebuchte Verkaufsrechnung übertragen an [!INCLUDE[crm_md](includes/crm_md.md)], wenn Sie das Kontrollkästchen**Rechnung erstellen in [!INCLUDE[crm_md](includes/crm_md.md)]** auf der Seite **Gebuchte Verkaufsrechnungen** auswählen. Gebuchte Rechnungen werden an [!INCLUDE[crm_md](includes/crm_md.md)] mit dem Status **Fakturiert** übertragen.
+Nach der Erfüllung eines Verkaufsauftrags, werden dafür Rechnungen erstellt. Wenn Sie Aufträge fakturieren, können Sie gebuchte Verkaufsrechnung übertragen an [!INCLUDE[crm_md](includes/crm_md.md)], wenn Sie das Kontrollkästchen **Rechnung erstellen in [!INCLUDE[crm_md](includes/crm_md.md)]** auf der Seite **Gebuchte Verkaufsrechnungen** auswählen. Gebuchte Rechnungen werden an [!INCLUDE[crm_md](includes/crm_md.md)] mit dem Status **Fakturiert** übertragen.
 
 Sobald Sie die Zahlung des Debitors für die Verkaufsrechnung in [!INCLUDE[d365fin](includes/d365fin_md.md)] erhalten, wird der Verkaufsrechnungsstatus auf **Bezahlt** mit dem **Statusgrund** auf **Teilweise** festgelegt, wenn teilweise bezahlt oder auf **Komplett** festgelegt, wenn vollständig bezahlt, wenn Sie die Aktion **Kontostatistik aktualisieren** auf der Debitorenseite in [!INCLUDE[d365fin](includes/d365fin_md.md)] auswählen. Die Funktion **Kontostatistik aktualisieren** aktualisiert auch Werte wie **Saldo** und **Gesamtverkäufe** in der **Infobox [!INCLUDE[d365fin](includes/d365fin_md.md)] Kontostatistik** in [!INCLUDE[crm_md](includes/crm_md.md)]. Alternativ können Sie geplante Aufträge (Debitoren-Statistik und POSTEDSALESINV-INV) automatisch für beide Vorgänge im Hintergrund ausführen.
 

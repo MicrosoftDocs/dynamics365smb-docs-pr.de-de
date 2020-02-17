@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/13/2020
+ms.date: 01/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: 575e46f7988184f52cddf8e986a7aef05a61804b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953467"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991976"
 ---
 # <a name="collect-outstanding-balances"></a>Einziehen von Restbeträgen
 Im Rahmen der Debitorenverwaltung muss auch geprüft werden, ob fällige Beträge pünktlich bezahlt werden. Wenn Debitoren überfällige Zahlungen haben, können Sie den Debitoren-Abrechnungsbericht als Mahnung senden. Sie können auch Mahnungen ausgeben.
@@ -79,7 +79,7 @@ Werden mehr Mahnungen erstellt als definierte Stufen vorhanden sind, werden die 
     > [!NOTE]  
     > Wenn Sie Mahnungen in Fremdwährungen erstellen, verwendet die Anwendung die Bedingungen für Fremdwährungen, die Sie in dieser Tabelle eingerichtet haben, um Mahnungen zu erstellen. Falls keine Mahnkonditionen für Fremdwährungen eingerichtet wurden, verwendet die Anwendung die Mahnkonditionen für die Mandantenwährung auf der Seite **Mahnstufe** und rechnet diese in die entsprechende Währung um.
 
-    Jede Mahnstufe kann mit Text versehen werden, der entweder vor ( **Vortext**) oder nach ( **Nachtext**) den Mahnposten gedruckt wird.
+    Jede Mahnstufe kann mit Text versehen werden, der entweder vor (**Vortext**) oder nach (**Nachtext**) den Mahnposten gedruckt wird.
 
 6. Wählen Sie die Aktionen **Vortext** oder **Nachtext** entsprechend aus und füllen Sie die Seite **Mahntext** aus.
 7. Um zugehörige Werte in das resultierende Mahntext automatisch einzusetzen, geben -Sie die folgenden Platzhaltern im Feld **Text** Feld ein.  
@@ -194,7 +194,7 @@ Zusätzlich ist jeder Code in der Tabelle "Zinskondition" mit einer Untertabelle
     > [!NOTE]  
     > Wenn Sie Zinsrechnungen in Fremdwährungen erstellen, verwendet die Anwendung die Bedingungen für Fremdwährungen, die Sie in dieser Tabelle eingerichtet haben, um Zinsrechnungen zu erstellen. Falls es keine Zinskonditionen für Fremdwährungen gibt, verwendet die Anwendung die Zinskonditionen für die Mandantenwährung auf der Seite **Zinskondition** und rechnet diese in die entsprechende Währung um.
 
-    Für jeden Zinskonditionencode können Sie Texte festlegen, die vor (**Vortext**) oder nach (**Nachtext)** den Posten in der Zinsrechnung ausgedruckt werden sollen.  
+    Für jeden Zinskonditionencode können Sie Texte festlegen, die vor (**Vortext**) oder nach (**Nachtext**) den Posten in der Zinsrechnung ausgedruckt werden sollen.  
 6. Wählen Sie die Aktionen **Vortext** oder **Nachtext** entsprechend aus und füllen Sie die Seite **Zinsgebühr** aus.
 7. Um zugehörige Werte in das resultierende Zinsgebühr automatisch einzusetzen, geben -Sie die folgenden Platzhaltern im Feld **Text** Feld ein.
 
@@ -216,7 +216,10 @@ Eine Zinsrechnung ist ähnlich wie eine Rechnung. Sie können den Kopf manuell a
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Zinsrechnungen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus.  
 3. Wählen Sie **Zinsgebührmemo-Zeilen** vorschlagen.
-4. Auf der Seite **Zinsrechnungszeile vorschlagen** setzen Sie auf dem Inforegister **Debitorenposten** einen Filter, wenn Sie nur für bestimmte Posten Zinsrechnungen erstellen möchten.  
+4. Auf der Seite **Zinsrechnungszeile vorschlagen** setzen Sie auf dem Inforegister **Debitorenposten** einen Filter, wenn Sie nur für bestimmte Posten Zinsrechnungen erstellen möchten.
+
+    > [!NOTE]
+    > Obwohl sie aufgelistet sind, hat die Auswahl von **Zahlung** und **Gutschrift** als **Belegart**-Filter keine Wirkung, da die Funktion **Zinsrechnung** nur positive Beträge verarbeitet.
 5.  Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>So aktualisieren Sie Zinsrechnungstexte:  
@@ -224,7 +227,7 @@ In manchen Fällen möchten Sie möglicherweise den Vor- und Nachtext ändern, d
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Zinsrechnung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie das Fenster, in dem Sie Text ändern möchten und wählen Sie die **Zinsrech. Text aktualisieren** Aktion aus.
-3. Auf der Seite**Zinsrechnungskopf aktualisieren** können Sie einen Filter festlegen, wenn Sie mehrere Zinsrechnungen aktualisieren möchten.
+3. Auf der Seite **Zinsrechnungskopf aktualisieren** können Sie einen Filter festlegen, wenn Sie mehrere Zinsrechnungen aktualisieren möchten.
 4. Wählen Sie die Schaltfläche **OK**, um den Vortext und den Nachtext zu aktualisieren.  
 
 ## <a name="to-issue-finance-charge-memos"></a>Um Zinsrechnungen zu registrieren
@@ -258,7 +261,7 @@ Wenn fälschlicherweise Zinsrechnungen ausgegeben wurden, können Sie diese vor 
 Wenn Sie eine Mahnung registrieren, wird für jede Mahnungszeile, die einen Debitorenposten enthält, ein Mahnungsposten auf der Seite **Mahnung/Zinsrechnung Posten** erstellt. Sie können sich einen Überblick über die erstellten Mahnungsposten für einen bestimmten Debitor anzeigen lassen.    
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die entsprechende Debitorenkarte und klicken dann auf **Buchblatteinträge**.
-3. Klicken Sie auf die Seite auf **Buch-Blatteinträge** und wählen Sie die Zeilen, die Sie anzeigen möchten, und klicken Sie dann auf  **Posten, Mahnungs-/Zinsrechnungseinträge**.
+3. Klicken Sie auf die Seite auf **Buch-Blatteinträge** und wählen Sie die Zeilen, die Sie anzeigen möchten, und klicken Sie dann auf **Posten, Mahnungs-/Zinsrechnungseinträge**.
 
 ## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-financial-periodic-activities-dynamics-365-business-central"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

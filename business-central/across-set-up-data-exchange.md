@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5fa6f0ea5f12d44ae538df5a2be3489819963e47
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 79fe847cdfaef12c16ce972ec20f3213f0af352a
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692824"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999711"
 ---
 # <a name="setting-up-data-exchange"></a>Einrichten eines Datenaustauschs
 Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren und exportieren können, müssen Sie das Daten-Exchange-Framework einrichten, um die entsprechenden Dateien zu verarbeiten. Darüber hinaus müssen Sie verwandte Bereiche einrichten, wie z.B. die Kunden, an die Sie elektronische Rechnungen senden, oder die AMC Banking 365 Fundamentals Erweiterung, wenn Sie den externen Dienstleister zur Konvertierung Ihrer Bankdateien nutzen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
@@ -40,6 +40,5 @@ Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren
 
 ## <a name="see-also"></a>Siehe auch  
 [Daten elektronisch austauschen](across-data-exchange.md)  
-[Austausch von Daten](across-exchange-data.md)   
 [Eingehende Belege](across-income-documents.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  

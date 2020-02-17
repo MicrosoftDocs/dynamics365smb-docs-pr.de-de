@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 81b2ab1956e1468bfcce2f438edbed934f4de703
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2896bfc5cafed679bd54dced6c7726a1c49859de
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883118"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992024"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Ändern oder Löschen einer unbezahlten Einkaufsrechnung
 Sie können eine bezahlte Einkaufsrechnung korrigieren oder abbrechen. Dies ist nützlich, wenn Sie einen Tippfehler korrigieren möchten, oder wenn Sie den Kauf früh im Bestellvorgang ändern möchten.
@@ -49,6 +49,9 @@ Auf der Seite **Geb. Einkaufsrechnung** können Sie die Schaltfläche **Korrigie
 
     Eine Korrekturverkaufsgutschrift wird automatisch erstellt und gebucht, um die ursprüngliche gebuchte Verkaufsrechnung zu stornieren. Das Feld **Storniert** am Anfang gebuchten Einkaufsrechnung wird auf **Ja** geändert.
 4. Wählen Sie die Registerkarte **Korrekturgutschrift anzeigen** aus, um die gebuchte Einkaufsgutschrift anzuzeigen, die die gebuchte Einkaufsrechnung storniert.
+
+### <a name="partial-invoice-posting-also-supported"></a>Rechnungsteilbuchung wird ebenfalls unterstützt
+Wenn sich die Stornierung auf eine Rechnungsteilbuchung bezieht, wird die ursprüngliche Einkaufsbestellzeile aktualisiert, um die stornierte fakturierte Menge widerzuspiegeln. Die Felder **Zu fakturierende Menge** und **Fakturierte Menge** zur zugehörigen Einkaufsbestellzeile werden auf die Werte vor der Teilbuchung zurückgesetzt.
 
 ## <a name="see-also"></a>Siehe auch
 [Einkauf](purchasing-manage-purchasing.md)  

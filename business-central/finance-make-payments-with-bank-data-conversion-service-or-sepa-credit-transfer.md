@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: 35904d33c7e456e3797dae0835ed7462a65f4a7f
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: aa4ce82cd1a156561fa2dc929c45e231730fb084
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692848"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992000"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Zahlen Sie mit der AMC Banking 365 Fundamentals-Erweiterung oder SEPA-Überweisung.
 Auf der Seite **Zahlungsjournal** können Sie Zahlungen an Ihre Kreditoren verarbeiten, indem Sie eine Datei zusammen mit den Zahlungsinformationen von den Buch.-Blattzeilen exportieren. Sie können die Datei dann zu Ihrer elektronischen Bank hochladen, um die entsprechenden Geldüberweisungen zu verarbeiten. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt das Abbuchungsformat SEPA, aber in Ihrem Land/die Region, sind möglicherweise andere Formate für den elektronischen Zahlungsverkehr verfügbar.
 
-In der generischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)]  wird ein globaler Diensteanbieter eingerichtet und verbunden, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt. In den nordamerikanischen Versionen kann derselbe Service verwendet werden, um Zahlungsdateien als elektronischer Geldtransfer (EFT) zu buchen, mit einem leicht anderen Prozess. Siehe Schritt 6 unter [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).   
+> [!NOTE]
+> In der generischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)]  wird ein globaler Diensteanbieter eingerichtet und verbunden, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt. In den nordamerikanischen Versionen kann derselbe Service verwendet werden, um Zahlungsdateien als elektronischer Geldtransfer (EFT) zu buchen, mit einem leicht anderen Prozess. Siehe Schritt 6 unter [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).   
 
  Um SEPA-Banküberweisungen zu aktivieren, müssen Sie zunächst ein Bankkonto, einen Kreditor und das Fibu Buch.-Blatt anlegen, auf dem das Zahlungsausgangs Buch.-Blatt basiert. Sie bereiten dann Zahlungen an Kreditoren vor, indem Sie die Seite **Zahlungsjournal** automatisch mit fälligen Zahlungen mit angegebenen Buchungsdaten ausfüllen.  
 
@@ -78,7 +79,7 @@ Das Lastschrift-Mandat wird automatisch in das Feld **Lastschrift-Mandat-ID** ei
 Füllen Sie das Zahlungsausgangs Buch.-Blatt mit Zeilen für fällige Zahlungen an Kreditoren, mit der Option, Buchungsdaten basierend auf dem Fälligkeitsdatum der zugehörigen Einkaufsbelege einzufügen. Weitere Informationen finden Sie unter [Kreditoren verwalten](payables-manage-payables.md).
 
 ## <a name="exporting-payments-to-a-bank-file"></a>Zahlungen in eine Bankdatei exportieren
-Wenn Sie bereit sind, Zahlungen oder Rückvergütungen an Ihre Mitarbeiter zu machen, können Sie dies  auf der Seite **Zahlung Buch.-Blatt** vorzunehmen. Sie können eine Datei mit den Zahlungsinformationen auf den Buch.-Blattzeilen exportieren. Sie können die Datei dann zu Ihrer elektronischen Bank hochladen, um die entsprechenden Geldüberweisungen zu verarbeiten.
+Wenn Sie bereit sind, Zahlungen oder Rückvergütungen an Ihre Mitarbeiter zu machen, können Sie dies auf der Seite **Zahlung Buch.-Blatt** vorzunehmen. Sie können eine Datei mit den Zahlungsinformationen auf den Buch.-Blattzeilen exportieren. Sie können die Datei dann zu Ihrer elektronischen Bank hochladen, um die entsprechenden Geldüberweisungen zu verarbeiten.
 
 In der generischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] ist die AMC Banking 365 Fundamentals Erweiterung verfügbar. In den nordamerikanischen Versionen kann die gleiche Erweiterung verwendet werden, um Zahlungsdateien wie beim elektronischen Zahlungsverkehr (EFT) zu versenden, allerdings mit einem etwas anderen Prozess. Siehe Schritt 6 unter [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
@@ -94,7 +95,8 @@ Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Sc
 2. Füllen Sie die Zalungszeilen ein. Weitere Informationen finden Sie unter [Zahlungen und Rückerstattungen aufzeichnen](payables-how-post-payments-refunds.md)
 
 > [!NOTE]  
->   Wenn Sie EFT verwenden, müssen Sie entweder **Elektronische Zahlung** oder **Elektronische Zahlung-IAT** im Feld **Bankkontozahlungsart** auswählen. Verschiedene Dateiexportdienstleistungen und deren Formaten benötigen verschiedene Einrichtungswerte auf der Seite **Bankkontokarte** und **Kreditor-Bankkontokarte**. Sie werden über die falschen oder fehlende Einrichtungswerte informiert, wenn Sie versuchen, die Datei zu exportieren.
+> Wenn Sie EFT verwenden, müssen Sie entweder **Elektronische Zahlung** oder **Elektronische Zahlung-IAT** im Feld **Bankkontozahlungsart** auswählen. Verschiedene Dateiexportdienste und deren Formaten benötigen verschiedene Einrichtungswerte auf den Seiten **Bankkontokarte** und **Kreditor-Bankkontokarte**. Sie werden über die falschen oder fehlende Einrichtungswerte informiert, wenn Sie versuchen, die Datei zu exportieren.<br /><br />
+> Die EFT-Funktion kann nur für Bankkonten in der Mandantenwährung verwendet werden. Es kann nicht mit einer Fremdwährung verwendet werden, die durch einen Wert im Feld **Währungscode** angezeigt ist. (Leerer Feldwert bedeutet Mandantenwährung.)
 
 3. Wenn Sie alle Zahlungsausgangs Buch.-Blattzeilen abgeschlossen haben, wählen Sie die Aktion **Export** aus.
 4. Füllen Sie auf der Seite **Elektronische Zahlungen exportieren** die Felder nach Bedarf aus.

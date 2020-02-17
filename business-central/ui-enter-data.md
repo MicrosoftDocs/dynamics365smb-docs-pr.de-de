@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311380"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992083"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
@@ -55,7 +55,7 @@ Es folgen einige nützliche Informationen zur Anwendung der Schnelleingabe.
 
 Um zu ändern, welche Felder einer Seite in die Schnelleingabe eingeschlossen oder daraus ausgeschlossen werden, verwenden Sie die Personalisierung.
 
-1. Beginnen Sie mit der Personalisierung, indem Sie das ![Einstellungen](media/ui-experience/settings_icon_small.png "Symbol für Rollencenter einstellen") und dann die Aktion **Personalisieren** auswählen.
+1. Beginnen Sie mit der Personalisierung, indem Sie das Symbol ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und dann die Aktion **Personalisieren** auswählen.
 2. Wählen Sie ein Feld, das Sie ändern möchten, oder wählen Sie in Listen die entsprechende Spaltenüberschrift und dann entweder **In Schnelleingabe einschließen** oder **Aus Schnellausgabe ausschließen** aus.
 
 Weitere Informationen zur Personalisierung finden Sie unter [Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md).
@@ -86,7 +86,7 @@ Weitere Informationen finden Sie unter [FAQ zum Kopieren und Einfügen](ui-copy-
 
 ## <a name="filtering-line-items"></a>Filtern von Positionsartikel
 
-Um mit dem Filtern zu beginnen, wählen Sie ![Filterbereichssymbol](media/open-filter-pane-icon.png "Filterbereichssymbol") in der Liste oben, oder drücken Sie auf Umschalt+F3, um den Filterbereich zu öffnen. Sie arbeiten mit Filterbereich, wie in jeder anderen Liste. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#Filtering).
+Um mit dem Filtern zu beginnen, wählen Sie ![Filterbereichssymbol](media/open-filter-pane-icon.png "Filterbereichssymbol") in der Liste oben aus, oder drücken Sie auf UMSCHALT+F3, um den Filterbereich zu öffnen. Sie arbeiten mit Filterbereich, wie in jeder anderen Liste. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#Filtering).
 
 Filterung ist besonders dann von Nutzen, wenn längere Belege anzeigt und analysiert werden. Stellen Sie sich beispielsweise vor, dass Sie eine gebuchte Verkaufsrechnung öffnen und filtern, dass alle Positionsartikel mit einem Einzelrabatt von 5 % haben, oder Sie filtern, dass nur Fahrradzubehör mit "Pro" im Namen angezeigt wird.
 
@@ -98,20 +98,21 @@ Dies ist besonders nützlich, wenn Sie mit großen Positionsartikellisten arbeit
 
 ### <a name="switching-the-focus-on-and-off"></a>Den Fokus zwischen An- und Ausschalten wechseln
 
-Um sich auf Positionsartikel zu konzentrieren, wählen Sie einen beliebigen Bereich des Positionsartikelteils aus und wählen Sie dann das ![Fokusmodussymbol](media/focus-mode.png "Fokusmodussymbol") in der oberen rechten Ecke aus oder drücken Sie STRG+UMSCHALT+F12.
+Um sich auf Zeilenartikel zu konzentrieren, wählen irgendeine Stelle im Bereich des Zeilenartikelteils aus und wählen Sie dann das ![Fokusmodussymbol](media/focus-mode.png "Fokusmodus-Symbol") in der oberen rechten Ecke aus, oder drücken Sie STRG+UMSCHALT+F12.
 
-Um zur Normalansicht zurückzukehren, wählen Sie das ![Fokusmodussymbol](media/focus-mode.png "Fokusmodussymbol") aus oder drücken Sie STRG+UMSCHALT+F12 erneut.
+Um zur Normalansicht zurückzukehren, wählen Sie das ![Fokusmodussymbol](media/focus-mode.png "Fokusmodus-Symbol") aus, oder drücken Sie STRG+UMSCHALT+F12 erneut.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking über mehrere Seiten
 Wenn Sie an mehreren Aufgaben gleichzeitig arbeiten oder Unterbrechungen der aktuellen Aufgabe verwalten, z. B. einen eingehenden Anruf entgegennehmen, können Sie eine Karten- oder Dokumentenseite in einem neuen Fenster öffnen. Auf diese Weise können Sie ein Fenster für eine laufende Aufgabe geöffnet lassen, während Sie eine andere Aufgabe in einem oder mehreren anderen Fenstern starten oder abschließen.
 
-Um die aktuelle Karte oder das aktuelle Dokument in einem neuen Fenster zu öffnen, wählen Sie ![Neues Fenster öffnen](media/open-new-window-icon.png "Neues Fenstersymbol öffnen") in der oberen rechten Ecke, oder drücken Sie Alt + UMSCHALT+W.
+Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen, wählen Sie ![Neues Fenster öffnen](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") öffnen in der oberen rechten Ecke, oder drücken Sie Alt + UMSCHALT+W.
 
 > [!NOTE]
-> Wenn Sie andere Seiten von einer Karte oder einem Dokument aus öffnen, die bzw. das in einem neuen Fenster geöffnet wird, werden diese Seiten in einem neuen Fenster geöffnet, auch wenn Sie keine Auswahl treffen ![Neues Fenster öffnen](media/open-new-window-icon.png "Neues Fenstersymbol öffnen").
+> Wenn Sie andere Seiten von einer Karte oder einem Beleg aus öffnen, die bzw. der in einem neuen Fenster geöffnet wird, werden diese Seiten in einem neuen Fenster geöffnet, auch wenn nicht ![Neues Fenster öffnen](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") wählen.
 
 > [!NOTE]
-> Wenn Sie im Safari-Browser arbeiten, kann ein Popupblocker dazu führen, dass das neue Fenster nicht geöffnet wird. In diesem Fall geben Sie die Produkt-URL als zulässige Website an. Weitere Informationen finden Sie unter [Ändern Sie die Einstellungen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> Wenn Sie im Safari-Browser arbeiten, kann ein Popupblocker dazu führen, dass das neue Fenster nicht geöffnet wird. In diesem Fall geben Sie die Produkt-URL als zulässige Website an. Weitere Informationen finden Sie unter [Ändern Sie die Einstellungen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Das Gleiche kann in anderen Browsern wie Firefox passieren. Weitere Informationen finden Sie unter [Popupblocker-Einstellungen in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 ## <a name="entering-quantities-by-calculation"></a>Eingeben von Mengen durch Berechnung
 

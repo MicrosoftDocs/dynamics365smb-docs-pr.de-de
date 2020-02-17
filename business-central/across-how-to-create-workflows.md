@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: bb7c64727979b7e8f53898c03781a24bcf8f40c4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881192"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991832"
 ---
 # <a name="create-workflows"></a>Erstellen eines Workflows
 Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
@@ -59,7 +59,7 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
         |**Absender benachrichtigen**|Geben Sie an, ob der Genehmigungsanforderer anstatt des Genehmigungsanforderungsempfängers benachrichtigt wird. Wenn Sie das Kontrollkästchen aktivieren, wird das Feld **Benutzer-ID des Empfängers** deaktiviert, da stattdessen der Anforderer der Genehmigung, der Absender, benachrichtigt wird. Der Name der Workflowreaktion ändert sich entsprechend zu **Benachrichtigung erstellen für &lt;Absender&gt;**. Wenn das Kontrollkästchen nicht aktiviert ist, lautet der Name der Workflowreaktion **Benachrichtigung erstellen für &lt;Benutzer&gt;**.
         |**Benutzer-ID des Empfängers**|Geben Sie den Benutzer an, an den Benachrichtigung gesendet werden muss. Hinweis: Diese Option ist nur für Workflowantworten mit einem Platzhalter für einen bestimmten Benutzer verfügbar. Für Workflowantworten ohne Platzhalter für Benutzer, wird der Benachrichtigungsempfänger in der Regel von der Genehmigungsbenutzereinrichtung definiert.|  
         |**Benachrichtigungseintragstyp**|Gibt an, ob die Workflowbenachrichtigung durch eine Datensatzänderung, eine Genehmigungsanforderung oder übergebene fällige Daten ausgelöst wird.|
-        |**Zielseite für Link**|Geben Sie eine andere Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] an, die über den Link in der Benachrichtigung anstelle der Standardseite geöffnet werden soll.|  
+        |**Zielseite für Link**|Geben Sie eine andere Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] an, die über den Link in der Benachrichtigung anstelle der Standardseite geöffnet werden soll.<br /><br />Beachten Sie, dass die Seite dieselbe Quellentabelle wie der betreffende Datensatz haben muss.|  
         |**Benutzerdefinierter Link**|Geben Sie die URL eines Links an, den Sie zusätzlich zu dem Link, der auf die Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] verweist, der Benachrichtigung hinzufügen möchten.|  
     2.  Um Optionen für eine Workflowantwort inkl. des Erstellens von einer Genehmigungsanforderung festzulegen, füllen Sie die Felder wie in der folgenden Tabelle beschrieben aus.  
 
@@ -91,7 +91,7 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
 >  Aktivieren Sie keinen Workflow, bevor Sie sicher sind, dass der Workflow abgeschlossen wurde und dass die entsprechenden Workflowschritte beginnen können.  
 
 > [!TIP]  
->  Um Beziehungen zwischen Tabellen anzuzeigen, die in Workflows verwendet werden, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Sie wünschen“ geöffnet wird](media/ui-search/search_small.png "TTeilen Sie mir mit, was Sie tun möchten.“), und geben Sie dann **Workflow – Tabellenrelationen** ein.  
+>  Um Beziehungen zwischen Tabellen anzuzeigen, die in Workflows verwendet werden, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Sie wünschen“ geöffnet wird](media/ui-search/search_small.png "Was möchten Sie tun?"), und geben Sie dann **Workflow – Tabellenrelationen** ein.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Erstellen von Workflows aus Workflowvorlagen](across-how-to-create-workflows-from-workflow-templates.md)   

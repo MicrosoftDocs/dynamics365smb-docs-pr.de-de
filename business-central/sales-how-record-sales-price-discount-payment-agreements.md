@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 01/14/2020
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: c41f331ebd1d49d03e8cf5177911c37accb05882
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 820439f8b18026d8a92a07dfe320423381847cb7
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953371"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030268"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Spezielle Verkaufspreise und Rabatte aufzeichnen
 Die unterschiedlichen Preis- und Zahlungsrichtlinien, die beim Verkauf an verschiedene Debitoren gelten, müssen so definiert werden, dass die vereinbarten Regeln und Werte für Verkaufsbelege übernommen werden, die für den Debitor erstellt werden.
@@ -49,6 +49,10 @@ Da Verkaufszeilenrabatte und Verkaufspreise auf einer Kombination aus Artikel un
 
     Auf der Seite **Verkaufszeilenrabatte** ist das Feld **Verkaufsart** mit **Debitor** vorausgefüllt und das Feld **Verkaufscode** ist mit der Debitorennummer vorausgefüllt.
 3. Füllen Sie die Felder in der Zeile wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Füllen Sie eine Zeile für jede Kombination aus, die dem Debitor einen besonderen Verkaufszeilenrabatt gewährt.
+
+> [!Note]
+> Wenn Sie die Fenster **Verkaufspreise** und **Verkaufszeilenrabatte** von einem bestimmten Debitoren öffnen, werden die Felder **Verkaufsartfilter** und **Verkaufscodefilter** für den Debitor festgelegt und können nicht geändert oder entfernt werden. Dies wird durch den grau unterlegten Wert im Feld **Verkaufscodefilter** angezeigt.<br /><br />
+> Um Preise oder Zeilenrabatte für alle Debitoren, eine Debitorenpreisgruppe oder Kampagne einzurichten, müssen Sie die Fenster von einer Artikelkarte aus öffnen. Verwenden Sie alternativ für Verkaufspreise die Seite **Verkaufspreis-Arbeitsblatt**. Weitere Informationen finden Sie unter [So führen Sie eine Sammelaktualisierung von Artikelpreisen durch](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Um Rechnungsrabattkonditionen für Einkäufe einzurichten:
 Nachdem Sie sich entschieden haben, welche Debitoren für Rechnungsrabatte in Frage kommen, geben Sie die Rechnungsrabattcodes auf den Debitorenkarten ein, und richten Sie die Bedingungen für die einzelnen Codes ein.
@@ -89,7 +93,7 @@ Sie verknüpfen Rabattprozentsätze mit bestimmten Rechnungsbeträgen auf den Se
 Zusätzlich (oder anstatt) eines Rabattprozentsatzes können Sie eine Servicegebühr mit einem bestimmten Rechnungsbetrag verknüpfen.  
 
 > [!TIP]  
->  Bevor Sie diese Informationen in der Anwendung eingeben, ist es sinnvoll, eine Skizze der Rabattstruktur vorzubereiten, die Sie verwenden möchten. Dadurch wird es Ihnen erleichtert, zu erkennen, welche Debitoren mit derselben Rechnungsrabattseite verknüpft werden können. Wenn Sie weniger Seiten einrichten müssen, können Sie die Basisinformationen schneller eingeben.
+>  Bevor Sie diese Informationen eingeben, ist es sinnvoll, eine Skizze der Rabattstruktur vorzubereiten, die Sie verwenden möchten. Dadurch wird es Ihnen erleichtert, zu erkennen, welche Debitoren mit derselben Rechnungsrabattseite verknüpft werden können. Wenn Sie weniger Seiten einrichten müssen, können Sie die Basisinformationen schneller eingeben.
 
 Weitere Informationen zu Rabatten bei Verkäufen finden Sie unter [Einrichten von Rabatten für Ihre Kunden](/learn/modules/customer-discounts-dynamics-365-business-central/index) unter Microsoft Learn.  
 
@@ -116,7 +120,7 @@ Der beste Preis ist der niedrigste mögliche Preis mit dem höchsten möglichen 
 Wenn keine Spezialpreise für die Artikel in der Zeile gefunden werden, werden entweder die letzten direkten Kosten oder der VK-Preis von der Artikelkarte oder der Lagerhaltungsdatenkarte verwendet.
 
 ## <a name="to-copy-sales-prices"></a>Verkaufspreise kopieren  
-Falls Sie Verkaufspreise kopieren möchten, wie z. B. den Preis eines einzelnen Debitors, um ihn in einer Debitorengruppe zu verwenden, müssen Sie die Stapelverarbeitung **VK-Preis vorschlagen** ausführen. Batchauftrag. Sie finden diese Stapelverarbeitung auf der Seite **VK-Preisvorschläge**.    
+Falls Sie Verkaufspreise kopieren möchten, wie z. B. den Preis eines einzelnen Debitors, um ihn in einer Debitorengruppe zu verwenden, müssen Sie die Stapelverarbeitung **VK-Preis vorschlagen** ausführen. Batchauftrag, den Sie von der Seite **Verkaufspreis-Arbeitsblatt** aus starten.    
 
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Verkaufspreisarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie den **Vorgeschlagenen Verkaufspreis auf dem Arbeitsblatt.** Aktion  

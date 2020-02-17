@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: d47290db285090ce9c22f3ccb5535bf47fd0c8e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 266b2e67b8ab3814e940dce183865aaf2a021a94
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309676"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030124"
 ---
 # <a name="work-with-bills-of-material"></a>Mit Fertigungsstücklisten arbeiten
 Verwenden Sie Stücklisten (BOMs), um beispielsweise Oberartikel zu strukturieren, die nach Ressourcen oder Arbeitsplätze aus Komponenten montiert oder gefertigt werden müssen. Eine Montagestückliste kann auch verwendet werden, um den übergeordneten Artikel als Kit zu verkaufen, das aus den Komponenten bestehet.
@@ -54,10 +54,17 @@ Es gibt zwei Schritte zum Erstellen einer Montagestückliste:
 2. Auf der Seite **Artikelkarte** für einen Montageartikel wählen Sie die **Montage** Aktion aus, und wählen Sie die **Montagestückliste** Aktion aus.
 3. Füllen Sie auf der Seite **Montagestückliste** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Um die Komponenten eines Montageartikels anzuzeigen gemäß der Stücklistenstruktur
+## <a name="to-edit-assembly-boms"></a>So bearbeiten Sie Montagestücklisten
+Sie können die Zeilen in einer Montagestückliste jederzeit bearbeiten. Beachten Sie jedoch, dass die Stückliste möglicherweise bei laufenden Verkäufen oder Baugruppen des übergeordneten Unternehmens verwendet wird, die von der Änderung betroffen sein können. Wählen Sie das die Aktion **Artikelverwendungsübersicht** aus, um zu sehen, in welchen Artikeln es verwendet wird und dann ob Verkaufs- oder Montageaufträge betroffen sein können.
+
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie den Wert **Ja** in der Spalte **Montagestückliste** aus.
+3. Auf der Seite **Montagestückliste** wählen Sie die Aktion **Liste bearbeiten** aus und ändern dann jedes beliebige Feld nach Bedarf.
+
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>So werden Komponenten und Ressourcen angezeigt, eingerückt gemäß der Stücklistenstruktur
 Auf der Seite **Montagestückliste** können Sie ein separates Fenster öffnen, in dem die Komponenten sowie jegliche Ressourcen angezeigt werden, die gemäß ihrer Stücklistenposition unter den Montageartikel eingerückt werden.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie das Kartenfenster für den Montageartikel. (Das Feld **Montagestückliste** auf der Seite **Artikel** enthält **Ja**.)
 3. Auf der Seite **Artikelkarte** für einen Montageartikel wählen Sie die **Montage** Aktion aus, und wählen Sie die **Montagestückliste** Aktion aus.
 4. Wählen Sie auf der Seite **Montagestückliste** die Aktion **Stückliste anzeigen** aus.

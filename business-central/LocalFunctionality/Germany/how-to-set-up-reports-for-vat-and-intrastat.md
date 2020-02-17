@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 181aa93190cd78ef26acc1c1e4a71c1b7c0fd419
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 3d2ee3bce15496ba110149066eeef23879b09784
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952596"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992115"
 ---
 # <a name="set-up-reports-for-vat-and-intrastat"></a>Richten Sie Berichte für MwSt ein.
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie festlegen, welche Berichte verwendet werden sollen, um die Dokumente zu erstellen, die Sie an die Behörden, wie beispielsweise die MwSt.-Abrechnung und das Intrastat-Formular übermitteln müssen.  
@@ -38,12 +38,12 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie festlegen, welc
 
 ### <a name="to-set-up-reports-for-intrastat"></a>Richten Sie Intrastat-Berichte ein.  
 > [!NOTE]
-> Intrastat-Berichte können entweder das XML- oder das ASCII-Format verwenden. Geben Sie je nach verwendetem Format die Materialnummer in eines der folgenden Felder auf der Seite **Firmeninformation** ein. 
-
-|Format|Felder|
-|---------|---------|
-|XML|Unternehmensnummer|
-|ASCII|Verkaufsmaterial-Nr., Einkaufsmaterial-Nr.|
+> Intrastat-Berichte können entweder das XML- oder das ASCII-Format verwenden. Geben Sie je nach verwendetem Format die Materialnummer in eines der folgenden Felder auf der Seite **Unternehmensinformationen** ein.  
+> 
+> |Format|Felder|
+> |---------|---------|
+> |XML|Unternehmensnummer|
+> |ASCII|Verkaufsmaterial-Nr., Einkaufsmaterial-Nr.|
 
 1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **Berichtsauswahl** ein und wählen Sie dann den entsprechenden Link.  
 

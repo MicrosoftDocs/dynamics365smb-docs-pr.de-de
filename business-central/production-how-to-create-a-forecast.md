@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 71d62cdd0e21d0eb2d10f5b33e30be91e92d0928
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883382"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999928"
 ---
 # <a name="create-a-demand-forecast"></a>Bedarfsplanung erstellen
 Verkaufs- und Absatzplanungen können auf der Seite **Nachfrageplanung** vorgenommen werden.  
@@ -51,18 +51,18 @@ In der Produktionseinrichtung kann festgelegt werden, wenn Sie Filter nach Lager
 
 ## <a name="to-create-a-demand-forecast"></a>So erstellen Sie eine Absatzplanung
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Bedarfsplanung** ein, und wählen Sie dann den zugehörigen Link.  
-2.  Wählen Sie im Inforegister **Allgemein** im Feld **Nachfragelanungsname** eine Planung aus. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Absatzplanungsart unterschieden werden.  
-3.  Im Feld **Lagerortfilter** müssen Sie den Lagerort auswählen, für den die Planung gelten soll.  
-4.  Wählen Sie im Feld **Planungsart** eine Option aus: **Verkaufsartikel**, **Komponente** oder **Beides**. Wenn Sie **Verkaufsartikel** oder **Komponente** ausgewählt haben, können Sie die Menge pro Periode bearbeiten. Wenn Sie **Beides** ausgewählt haben, können Sie die Menge zwar nicht bearbeiten, Sie haben jedoch die Möglichkeit, sie im Dropdown-Menü auszuwählen und die Absatzplanungsposten anzuzeigen.  
-5.  Geben Sie einen **Datumsfilter** an, wenn Sie den Umfang der angezeigten Daten beschränken möchten.  
-6.  Geben Sie im Inforegister **Nachfrageplanungsmatrix** für die verschiedenen Perioden die geplanten Mengen der Planung für **Verkaufsartikel** oder **Komponente** ein.  
-7.  Legen Sie im Inforegister **Matrixoptionen** im Feld **Anzeigen nach** das Zeitintervall fest, um die Periode zu ändern, die in den einzelnen Spalten angezeigt wird. Folgende Intervalle stehen zu Auswahl: **Tag**, **Woche**, **Monat**, **Quartal**, **Jahr** oder **Buchhaltungsperiode**, gemäß Einrichtung im Finanzmanagement.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Bedarfsplanung** ein, und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie im Inforegister **Allgemein** im Feld **Nachfragelanungsname** eine Planung aus. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Absatzplanungsart unterschieden werden.  
+3. Im Feld **Lagerortfilter** müssen Sie den Lagerort auswählen, für den die Planung gelten soll.
+4. Im Feld **Anzeigen nach**, um den Zeitraum zu ändern, der in jeder Spalte angezeigt wird. Folgende Intervalle stehen zur Auswahl: **Tag**, **Woche**, **Monat**, **Quartal**, **Jahr** oder **Buchhaltungsperiode**, gemäß Einrichtung in Ihrem Finanzbereich.    
 
-    > [!NOTE]  
-    >  Sie sollten sich sehr gut überlegen, welches Zeitintervall für zukünftige Absatzplanungen verwendet werden soll, sodass das Zeitintervall durchgängig einheitlich ist. Wenn Sie eine Planungsmenge eingeben, gilt diese am ersten Tag des ausgewählten Zeitintervalls. Wenn Sie also beispielsweise "Monat" ausgewählt haben, geben Sie die Planungsmenge für den ersten Tag des Monats ein. Wenn Sie "Quartal" ausgewählt haben, geben Sie die Planungsmenge für den ersten Tag des ersten Monats des Quartals ein.  
+> [!NOTE]  
+>  Sie sollten sich sehr gut überlegen, welches Zeitintervall für zukünftige Absatzplanungen verwendet werden soll, sodass das Zeitintervall durchgängig einheitlich ist. Wenn Sie eine Planungsmenge eingeben, gilt diese am ersten Tag des ausgewählten Zeitintervalls. Wenn Sie also beispielsweise "Monat" ausgewählt haben, geben Sie die Planungsmenge für den ersten Tag des Monats ein. Wenn Sie "Quartal" ausgewählt haben, geben Sie die Planungsmenge für den ersten Tag des ersten Monats des Quartals ein.
 
-8.  Wählen Sie im Feld **Anzeigen als** aus, wie die Planungsmengen für das Zeitintervall dargestellt werden sollen. Bei Auswahl von **Bewegung** wird die Bewegung im Saldo für das Zeitintervall angezeigt. Bei Auswahl von **Saldo bis Datum** wird auf der Seite der Saldo zum letzten Tag des Zeitintervalls angezeigt.  
+5. Wählen Sie im Feld **Anzeigen als** aus, wie die Planungsmengen für das Zeitintervall dargestellt werden sollen. Bei Auswahl von **Bewegung** wird die Bewegung im Saldo für das Zeitintervall angezeigt. Bei Auswahl von **Saldo bis Datum** wird auf der Seite der Saldo zum letzten Tag des Zeitintervalls angezeigt.  
+6. Wählen Sie im Feld **Planungsart** eine Option aus: **Verkaufsartikel**, **Komponente** oder **Beides**. Wenn Sie **Verkaufsartikel** oder **Komponente** ausgewählt haben, können Sie die Menge pro Periode bearbeiten. Wenn Sie **Beides** ausgewählt haben, können Sie die Menge zwar nicht bearbeiten, Sie haben jedoch die Möglichkeit, sie im Dropdown-Menü auszuwählen und die Absatzplanungsposten anzuzeigen.  
+7. Geben Sie einen **Datumsfilter** an, wenn Sie den Umfang der angezeigten Daten beschränken möchten.  
+8. Im Inforegister **Bedarfsprognosematrix** geben Sie die prognostizierten Megnen an, indem Sie eine Menge in die Zelle eingeben, die ein Artikel darstellt zu einem bestimmten Datum oder in einem bestimmten Zeitraum. Beachten Sie, dass in leeren Zellen die Suchschaltfläche eine leere Seite öffnet, die angibt, dass Sie einen Wert manuell eingeben müssen.   
 
 > [!NOTE]  
 >  Sie haben auch die Möglichkeit zum Bearbeiten einer bestehenden Absatzplanung. Klicken Sie auf der Seite **Nachfrageplanungsmatrix** auf **Aktionen, Absatzplanung kopieren**, und füllen Sie die Seite **Absatzplanung** mit einer vorhandenen Planung aus. Die Mengen können anschließend gemäß den Anforderungen bearbeitet werden.  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: SorenGP
-ms.openlocfilehash: 73ed7ac7ef80aa9e85f4d87ee1adbd5ba53ba44f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58f4787a5e9bb845fc72b2ce6d9a1872c4245ee4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308596"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991904"
 ---
 # <a name="view-the-availability-of-items"></a>Artikelverfügbarkeit anzeigen
 Vom Kontext einer Geschäftsaufgabe können Sie erweiterte Informationen darüber erhalten, wann und wo ein Artikel verfügbar ist, so als ob Sie mit einem Debitoren über ein Lieferdatum sprechen.
@@ -30,7 +30,7 @@ Wenn Sie die Lagerfunktion verwenden, variiert die Verfügbarkeit je nach Zuordn
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Verfügbarkeitszahlen typischerweise in zwei verschiedenen Feldern angezeigt, jedes mit einer anderen Definition:
 
-* Das Feld **verfügbare Menge**an einigen Stellen auch **Lagerbestand** genannt, zeigt die tatsächliche aktuelle Menge entsprechend den Sachkontoeinträgen.
+* Das Feld **verfügbare Menge** an einigen Stellen auch **Lagerbestand** genannt, zeigt die tatsächliche aktuelle Menge entsprechend den Sachkontoeinträgen.
 * Das Feld **Verfügbarkeitssaldo** wird berechnet und zeigt den Lagerbestand sowie geplante Zugänge abzüglich des Bruttobedarfs an. (In [!INCLUDE[d365fin](includes/d365fin_md.md)] enthalten geplante Belege Mengen in Bestellungen und eingehenden Umlagerungsaufträgen. Bruttobedarf enthält Mengen der Verkaufsaufträge und ausgehenden Umlagerungsaufträge.)
 
 > [!TIP]  
@@ -42,7 +42,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Verfügbarkeitszahlen typi
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Um die Verfügbarkeit eines Artikels anzuzeigen gemäß dem, wann er erhalten oder gesendet wird
 Sie zeigen die Verfügbarkeit eines Artikels gemäß geplanter Artikeltransaktionen auf der Seite **Verfügbarkeit nach Ereignis** an.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte eines Artikels, für den Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Ereignis** aus.
 
@@ -52,7 +52,7 @@ Sie zeigen die Verfügbarkeit eines Artikels gemäß geplanter Artikeltransaktio
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>So zeigen Sie die Verfügbarkeit eines Artikels in verschiedenen Perioden an
 Sie zeigen die Verfügbarkeit eines Artikels im Zeitverlauf für angegebene Zeitperioden auf der Seite **Artikelverfügbarkeit nach Perioden** an.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte eines Artikels, für den Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Periode** aus.
 
@@ -62,7 +62,7 @@ Sie zeigen die Verfügbarkeit eines Artikels im Zeitverlauf für angegebene Zeit
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>So zeigen Sie die Verfügbarkeit eines Artikels an den Lagerplätzen an, wo er gelagert wird
 Sie zeigen auf der Seite **Artikelverfügbarkeit nach Lagerort** die Verfügbarkeit eines Artikels an verschiedenen Stellen an, wo er gelagert wird.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte eines Artikels, für den Sie die Verfügbarkeit anzeigen möchten.
 3. Wählen Sie die Aktion **Artikelverfügbarkeit nach** aus, und wählen Sie dann die Aktion **Lagerplatz** aus.
 
@@ -73,7 +73,7 @@ Sie zeigen auf der Seite **Artikelverfügbarkeit nach Lagerort** die Verfügbark
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>So zeigen Sie die Verfügbarkeit aller Artikel nach Lagerplatz an, wo sie gelagert werden
 Sie zeigen die Verfügbarkeit aller Ihrer Artikel über alle Lagerplätze hinweg auf der Seite **Artikel nach Lagerort** an.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Artikel nach Lagerort** aus.
 
     Die Seite **Artikel nach Lagerort** zeigt für alle Ihre Artikel an, wie viele an jedem Lagerplatz verfügbar sind.
@@ -91,13 +91,16 @@ In jeder Zeile auf der Seite für übergeordnete und untergeordnete Elemente, ge
 |**Festlegen als übergeord. Element möglich**|Zeigt, wie viele Einheiten einer beliebigen Unterbaugruppe im obersten Artikel Sie herstellen können. Das Feld gibt an, wie viele unmittelbare übergeordnete Einheiten Sie montieren oder fertigen können. Der Wert basiert auf der Verfügbarkeit des Artikels in der Zeile.|
 |**Festlegen als übergeord. Artikel möglich**|Zeigt, wie viele Einheiten des obersten Artikels Sie herstellen können. Das Feld gibt an, wie viele Einheiten des Stücklistenartikels in der ersten Zeile Sie montieren bzw. fertigen können. Der Wert basiert auf der Verfügbarkeit des Artikels in der Zeile.|
 
-### <a name="item-availability-by-bom-level-page"></a>Artikelverfügbarkeit nach Stücklistenebenenseite
+### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>So zeigen Sie die Verfügbarkeit eines Artikels gemäß des Bedarfs am übergeordneten Artikel an
 Die Seite **Artikelverfügbarkeit nach Stücklistenebene** zeigt Informationen für den Artikel in der Karte oder der Belegzeile an, für die die Seite geöffnet wird. Der Artikel wird immer in der ersten Zeile angezeigt. Sie können Informationen für andere Artikel oder für alle Artikel anzeigen, indem Sie den Wert im Feld **Artikelfilter** ändern.
 
 > [!NOTE]  
->   Standardmäßig zeigen Verfügbarkeitszahlen in den Zeilen die Gesamtverfügbarkeit aller Artikel unter dem obersten Artikel an. Diese Zahlen werden im Feld **Verfügbare Menge** angezeigt, wobei der Fokus auf dem obersten Artikel liegt. Jedoch können Informationen darüber, wie viele Unterbaugruppen Sie herstellen können, möglicherweise falsch sein. Um eine zutreffende Angabe darüber zu erhalten, wie viele der angezeigten Unterbaugruppen Sie herstellen können, müssen Sie das Feld **Gesamtverfügbarkeit anzeigen** leeren und dann die Zahl im Feld **Festlegen als übergeord. Element möglich** betrachten.
+>   Standardmäßig zeigen Verfügbarkeitszahlen in den Zeilen die Gesamtverfügbarkeit aller Artikel unter dem obersten Artikel an. Diese Zahlen werden im Feld **Verfügbare Menge** angezeigt, wobei der Fokus auf dem obersten Artikel liegt. Jedoch können Informationen darüber, wie viele Unterbaugruppen Sie herstellen können, möglicherweise falsch sein. Um eine zutreffende Angabe darüber zu erhalten, wie viele der angezeigten Unterbaugruppen Sie herstellen können, müssen Sie das Kontrollkästchen **Gesamtverfügbarkeit anzeigen** deaktivieren und dann die Zahl im Feld **Festlegen als übergeord. Artikel möglich** anzeigen.
 
 Das Feld **Engpass** gibt an, welcher Artikel in der Stücklistenstruktur verhindert, dass eine größere Menge als die im Feld **Festlegen als übergeord. Artikel möglich** angezeigte Menge hergestellt werden kann. Beispielsweise kann der Engpass-Artikel eine eingekaufte Komponente mit einem erwarteten Lieferdatum sein, die aber zu spät eintrifft, um zusätzliche Einheiten des Artikels bis zu dem Datum im Feld **Erforderlich bis Datum** herzustellen.
+
+### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>So zeigen Sie die Verfügbarkeit eines Artikels anhand dessen Einheiten an
+Die Seite **Artikelverfügbarkeit nach Einheit** zeigt eine Artikelverfügbarkeit an, aufgeschlüsselt nach den verschiedenen Einheiten, in denen er gespeichert ist.
 
 ## <a name="assembly-availability-page"></a>Montageverfügbarkeitsseite
 Die Seite **Montageverfügbarkeit** zeigt detaillierte Verfügbarkeitsinformationen für den Montageartikel an. Es wird geöffnet:
@@ -117,9 +120,9 @@ Wenn eine oder mehrere Montagekomponenten nicht verfügbar sind, wird dies im Fe
 ## <a name="see-also"></a>Siehe auch
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
-[Mit Fertigungsstücklisten arbeiten ](inventory-how-work-BOMs.md)    
+[Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)    
 [Einrichten von Lagerorten](inventory-how-setup-locations.md)  
 [Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)  
 [Produkte verkaufen](sales-how-sell-products.md)      
-[Arbeiten mit  Business Central](ui-work-product.md)  
+[Arbeiten mit Business Central](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

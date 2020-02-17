@@ -1,6 +1,6 @@
 ---
 title: Migrieren von Daten von Dynamics GP mit der Datenmigrations-Erweiterung | Microsoft Docs
-description: Verwenden Sie die GP-Datenmigrationserweiterung, um Debitoren, Kreditoren, Lagerartikel, Sachkonten, Transaktionen zu offenen Verbindlichkeiten und Forderungen von Dynamics GP auf Business Central zu migrieren.
+description: Verwenden Sie die Dynamics GP-Datenmigrationserweiterung, um Debitoren, Kreditoren, Lagerartikel, Sachkonten, Transaktionen zu offenen Verbindlichkeiten und Forderungen von Dynamics GP nach Business Central zu migrieren.
 documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
+ms.date: 01/16/2020
 ms.author: edupont
-ms.openlocfilehash: c5798baec1130c3fc662a8751aee87bb8b438146
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b05959eea09289db7878145347362786ab336de8
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311284"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992145"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Die Dynamics GP-Datenmigrations-Erweiterung 
-Diese Erweiterung erleichtert die Verwendung der GP-Datenmigrationserweiterung, um Debitoren, Kreditoren, Lagerartikel, Sachkonten, Transaktionen zu offenen Verbindlichkeiten und Forderungen von Dynamics GP auf [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Wenn Ihr Geschäft Dynamics GP heute verwendet, können Sie die relevanten Daten exportieren und dann eine unterstützte Einrichtungsanleitung öffnen, um die Daten hochzuladen und in [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Die Migrationserweiterungsarbeiten für alle unterstützten Versionen von Microsoft Dyanmics GP. Weitere Informationen finden Sie unter [Geschäftsdaten aus anderen Finanzsystemen zu importieren](across-import-data-configuration-packages.md).
+Diese Erweiterung erleichtert die Verwendung der GP-Datenmigrationserweiterung, um Debitoren, Kreditoren, Lagerartikel, Sachkonten, Transaktionen zu offenen Verbindlichkeiten und Forderungen von Dynamics GP auf [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Wenn Ihr Geschäft Dynamics GP heute verwendet, können Sie die relevanten Daten exportieren und dann eine unterstützte Einrichtungsanleitung öffnen, um die Daten hochzuladen und in [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Die Migrationserweiterungsarbeiten für alle unterstützten Versionen von Microsoft Dynamics GP. Weitere Informationen finden Sie unter [Geschäftsdaten aus anderen Finanzsystemen zu importieren](across-import-data-configuration-packages.md).
+
+> [!NOTE]
+>  Diese Erweiterung ist im 15.3-Update veraltet. Es wird empfohlen, dass Benutzer, die von Dynamics GP migrieren möchten, stattdessen ab jetzt den **Cloudmigration**-Assistenten verwenden. Die Erweiterung **Cloudmigration** hat robustere Funktionen und bring mehr Daten von Dynamics GP nach Business Central.
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Exportieren von Daten aus Dynamics GP
 Sie müssen Ihre bestehenden Debitoren, Kreditoren, Lagerartikel und Sachkonten mit der Datenexportfunktionalität in Dynamics GP exportiert haben. Wenn Sie die Daten zum Export auswählen, können folgende Typen ausgewählt werden:
@@ -59,4 +62,4 @@ Die letzte Option, die im Datenmigrationsassistenten für Dynamics GP angezeigt 
 
 ## <a name="see-also"></a>Siehe auch
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
-[Anpassen [!INCLUDE[prodshort](includes/prodshort.md)] Erweiterungen nutzen](ui-extensions.md)  
+[Anpassen [!INCLUDE[prodshort](includes/prodshort.md)] Erweiterungen nutzen ](ui-extensions.md)  

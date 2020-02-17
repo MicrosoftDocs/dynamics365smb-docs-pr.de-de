@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3388e30168e6f0da0dfee2b6dcd7e70cb7a62eac
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: f71c3fa29ab12c13395c07d5919fc14e86511e75
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953563"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999687"
 ---
 # <a name="administration"></a>Verwaltung
 Zentrale Verwaltungsaufgaben werden in der Regel von einer Rolle im Unternehmen ausgeführt. Der Bereich dieser Aufgaben kann von der Größe des Unternehmens und der Verantwortlichkeiten des Administrators abhängig sein. Diese Aufgaben können die Verwaltung von Datenbanksynchronisierung von Projekt- und E-Mail-Warteschlangen, das Einrichten von Benutzern, das Anpassen der Benutzeroberfläche und Verwalten von Verschlüsselungsschlüsseln enthalten.  
@@ -24,7 +24,7 @@ Die Eingabe der richtigen Einrichtungswerte ist entscheidend für den Erfolg jed
 
 Ob Sie RapidStart Services verwenden, um Einrichtungswerte zu implementieren, oder diese manuell im neuen Mandanten eingeben, Sie können Ihre Einrichtungsentscheidungen mit allgemeinen Empfehlungen für ausgewählte Einrichtungsfelder unterstützen, von denen bekannt ist, dass Sie die Lösung möglicherweise dazu veranlassen, ineffizient zu arbeiten, wenn sie falsch definiert werden.  
 
-Ein Superuser oder ein Administrator kann das Daten-Exchange-Framework einrichten, um Benutzern zu ermöglichen, Daten in den Bank- und Lohndateien, beispielsweise für verschiedene Bankmanagementprozesse, zu exportieren und zu importieren.
+Ein Superuser oder ein Administrator kann das Daten-Exchange-Framework einrichten, um Benutzern zu ermöglichen, Daten in den Bank- und Lohndateien, beispielsweise für verschiedene Bankmanagementprozesse, zu exportieren und zu importieren. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).
 
 > [!NOTE]
 > Sie können in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit RapidStart Services einen neuen Mandanten einrichten. Dies ist ein Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen. Weitere Informationen finden Sie unter [Mandanten einrichten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

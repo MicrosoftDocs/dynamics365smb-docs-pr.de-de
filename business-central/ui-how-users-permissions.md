@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: e07636b6211eb57205d41d982bfbfb4bc2d5b330
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943233"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030052"
 ---
 # <a name="create-users-according-to-licenses"></a>Benutzer nach Lizenzen anlegen
 Im Folgenden wird beschrieben, wie Sie als Administrator Benutzer anlegen und definieren, wer sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden darf und welche Grundrechte verschiedene Benutzertypen entsprechend den Lizenzen haben.
@@ -61,7 +61,7 @@ Manchmal kann es erforderlich sein, die Lizenz zu ändern, die einem Benutzer zu
 1. Ändern Sie die Lizenz im Microsoft 365 Admin Center. Weitere Informationen finden Sie unter [Benutzer einzeln oder in großen Mengen zu Office 365](https://aka.ms/CreateOffice365Users) hinzufügen.
 2. Melden Sie sich als Administrator bei [!INCLUDE[d365fin](includes/d365fin_md.md)] an.
 3. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Benutzer** ein und wählen Sie dann den entsprechenden Link.
-4. Wählen Sie auf der Seite **Benutzer** die Aktion **Alle Benutzergruppen aktualisieren** aus.
+4. Wählen Sie auf der Seite **Benutzer** die Aktion **Standardbenutzergruppen des Benutzers wiederherstellen** aus.
 
 Die Benutzer werden in eine eigene Benutzergruppe verschoben und die Berechtigungsgruppen werden aktualisiert. Weitere Informationen finden Sie unter [Berechtigungen über Benutzergruppen verwalten](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
@@ -87,7 +87,7 @@ Wenn Sie den Benutzer in Office 365 danach ändern und Sie die Änderungen mit [
 ## <a name="the-device-license"></a>Die Gerätelizenz
 Mit der Dynamics 365 Business Central-Gerätelizenz können mehrere Benutzer ein mit der Gerätelizenz lizenziertes Gerät verwenden, um ein POS-Gerät, ein Werkstattgerät oder ein Lagergerät zu betreiben. Weitere Informationen finden Sie unter [Microsoft Dynamics 365 Business Central Lizenzleitfaden](https://aka.ms/BusinessCentralLicensing).
 
-Die Gerätelizenz wird als Concurrent-User-Modell implementiert. Wenn Sie eine Anzahl von X Gerätelizenzen erworben haben, können sich bis zu X Benutzer aus der angegebenen Gruppe namens Dynamics 365 Business Central-Gerätebenutzer* gleichzeitig anmelden.
+Die Gerätelizenz wird als Concurrent-User-Modell implementiert. Wenn Sie eine Anzahl von X Gerätelizenzen erworben haben, können sich bis zu X Benutzer aus der festgelegten Gruppe namens Dynamics 365 Business Central-Gerätebenutzer gleichzeitig anmelden.
 
 Der Office 365-Administrator Ihres Unternehmens oder der Microsoft-Partner sollten die angegebene Gerätegruppe erstellen und dieser Gruppe Gerätebenutzer als Mitglieder hinzufügen. Sie können dies im [Microsoft 365 Admin Center](https://admin.microsoft.com/) oder im [Azure Portal](https://portal.azure.com/) tun.
 
@@ -143,7 +143,7 @@ Bei lokalen Implementierungen erstellt, bearbeitet und löscht der Administrator
 [Profile verwalten](admin-users-profiles-roles.md)  
 [Ändern, welche Merkmale angezeigt werden](ui-experiences.md)  
 [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
-[Vorbereitung für das Geschäft ](ui-get-ready-business.md)  
+[Vorbereitung für das Geschäft](ui-get-ready-business.md)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Benutzer zu Office 365 hinzufügen für Unternehmen](https://aka.ms/CreateOffice365Users)  
 [Microsoft Dynamics 365 Business Central Lizenzierungshandbuch](https://aka.ms/BusinessCentralLicensing)  

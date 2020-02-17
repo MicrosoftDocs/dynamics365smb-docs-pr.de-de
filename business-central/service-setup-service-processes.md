@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3ca0221f755aa4bf3033cbab3469c6772c6d8413
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877135"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030220"
 ---
 # <a name="configure-service-processes"></a>Konfigurieren von Serviceprozessen
 Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anwenden können:  
@@ -27,8 +27,8 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
 * Die Anzahl der zu verwendenden Reihenfolgen bei dienstbezogenen Belegen und Artikeln.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>So geben Sie allgemeine und obligatorische Einstellungen ein
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceeinrichtung** ein und wählen Sie dann den entsprechenden Link.
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceverwaltungseinrichtung** ein, und wählen Sie dann den entsprechenden Link.
+2. Füllen Sie die Felder bei Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Siehe auch  
 [Fehlerberichte einrichten](service-how-setup-fault-reporting.md)  

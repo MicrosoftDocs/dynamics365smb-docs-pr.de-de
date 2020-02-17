@@ -10,16 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: a6f766d30fb61fd7ab67a654c102fc1a4b6e7629
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ac6b41d9fe03968531b7d99e534055b6a9955f57
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312604"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030292"
 ---
 # <a name="understanding-wip-methods"></a>Verständnis - WIP-Methoden
+Im Laufe eines Projekts werden Material sowie Ressourcen und andere Aufwendungen verbraucht und müssen auf das Projekt gebucht werden. Umlaufbestand (WIP) ist eine Funktion, mit der Sie den finanziellen Wert in der Finanzbuchhaltung schätzen können, solange die Projekte noch nicht abgeschlossen sind. In vielen Fällen werden die Aufwendungen für ein Projekt vor der Fakturierung des Projekts gebucht. Wurden ausschließlich Aufwendungen gebucht, ergibt sich eine inkorrekte Finanzauswertung.
+
+Zum Überwachen des Werts in der Finanzbuchhaltung können Sie die WIP berechnen und den Wert in der Finanzbuchhaltung buchen. Weitere Informationen finden Sie unter [Überwachen des Auftragsfortschritt und der Leistung](projects-how-monitor-progress-performance.md).
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt die folgenden Methoden zum Berechnen der Inventur und der Wert der unfertigen Arbeit.
 
 | WIP-Methode | Formel | Berechnungsbeschreibung |

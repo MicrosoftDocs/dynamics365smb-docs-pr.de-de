@@ -1,37 +1,37 @@
 ---
-title: Intelligente Cloud-Erweiterung von Business Central | Microsoft Docs
-description: Verwenden Sie die Datenreplikationserweiterung, um eine Cloud-Kopie Ihrer Daten zu erstellen, sodass Sie mit der intelligente Cloud verbunden sind.
-author: edupont04
-manager: edupont
+title: Business Central Intelligente Cloud-Erweiterungen für Cloudmigration | Microsoft-Dokumentation
+description: Verwenden Sie die Cloudmigrationserweiterungen, um Ihre lokalen Daten zu Business Central online zu migrieren. Diese Erweiterungen verschieben Ihre lokalen Daten in die Cloud, sodass Sie Business Central online mit Ihren vorhandenen Daten verwenden können.
+author: jenolson
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
-ms.author: edupont
-ms.openlocfilehash: 7f218983e4269c1e35bc7713883bea0fa5195d4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.reviewer: edupont
+ms.date: 01/30/2020
+ms.author: jenolson
+ms.openlocfilehash: 17bcc754612782903ca0a977f6cd3e80e0e1c6b1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311308"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999595"
 ---
 # <a name="intelligent-cloud-extensions"></a>Intelligente Cloud Erweiterung
 
-Diese Erweiterung verbindet Ihre Daten von [!INCLUDE [prodshort](includes/prodshort.md)] lokal mit [!INCLUDE [prodshort](includes/prodshort.md)] online für intelligente Einblicke.  
+Diese Erweiterung verbindet Ihre Daten von [!INCLUDE [prodshort](includes/prodshort.md)] on-premises mit [!INCLUDE [prodshort](includes/prodshort.md)] online, um Ihre Lösung in die Cloud zu migrieren.  
 
-Wenn Sie eines der unterstützten lokalen Produkte verwenden, können Sie Ihre intelligente Cloud-Umgebung auf Basis einer produktspezifische Erweiterung konfigurieren.Sobald die intelligente Cloud-Umgebung konfiguriert ist, haben Sie die Möglichkeit, Daten von Ihrer lokalen Lösung zu Ihrem [!INCLUDE[prodshort](includes/prodshort.md)]-Cloud-Tenant zu replizieren. Dadurch können Sie die Möglichkeiten, die die Cloud Ihrem Unternehmen zu bieten hat, in vollen Umfang nutzen, z. B. , erhöhte Einblicke in Ihr Unternehmen, künstliche Intelligenz mehrfacher Gerätzugriff und Zugriff überall und jederzeit.  
+Wenn Sie eines der unterstützten lokalen Produkte verwenden, können Sie Ihre Cloudumgebung auf Basis einer produktspezifische Erweiterung konfigurieren. Sobald Ihre Cloudumgebung konfiguriert ist, haben Sie die Möglichkeit, Daten von Ihrer lokalen Lösung nach [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Dadurch können Sie die Möglichkeiten, die die Cloud Ihrem Unternehmen zu bieten hat, in vollen Umfang nutzen, z. B. , erhöhte Einblicke in Ihr Unternehmen, künstliche Intelligenz mehrfacher Gerätzugriff und Zugriff überall und jederzeit.  
 
 ## <a name="business-central-on-premises"></a>Lokales Business Central
-Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prodshort](includes/prodshort.md)] verwenden, holen Sie sich die **intelligente Cloud basierte** Erweiterung und die **Business Central intelligente Cloud**Erweiterung und führen Sie dann die unterstütze Einrichtung der **Intelligenten Cloud Einrichtung** durch.  
+Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prodshort](includes/prodshort.md)] verwenden, rufen Sie die Erweiterung **Intelligente Cloud Basis** und die Erweiterung **Business Central intelligente Cloud** ab, und führen Sie dann den Anleitung für die unterstützte Einrichtung von **Cloudmigrationseinrichtung** durch.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
-Wenn Sie Dynamics GP verwenden, holen Sie sich die Erweiterung**Intelligente Cloud basierte Erweiterung**, die **Dynamics GP-Datenmigration-Erweiterung** und die **Dynamics GP intelligente Cloud** Erweiterung und führen Sie dann die unterstützte Einrichtung der **Intelligenten Cloud Einrichtung** aus.  
+Wenn Sie Dynamics GP verwenden, holen Sie sich die Erweiterung **Intelligente Cloud Basis-Erweiterung** und die Erweiterung **Dynamics GP Intelligente Cloud**, und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
 
-## <a name="dynamics-nav"></a>Dynamics NAV
-Wenn Sie eine lokale Bereitstellung von Dynamics NAV verwenden, holen Sie sich die **intelligente Cloud basierte Erweiterung** und die **Dynamics NAVIntelligente Cloud**Erweiterung und führen Sie die unterstützte Einrichtung der **Intelligenten Cloud Einrichtung** durch.  
+## <a name="dynamics-sl"></a>Dynamics SL
+Wenn Sie Dynamics SL verwenden, holen Sie sich die Erweiterung **Intelligente Cloud Basis-Erweiterung**, die Erweiterung **Microsoft Dynamics SL Intelligent Cloud** und die Erweiterung **Microsoft Dynamics SL-Verlauf-SmartLists**, und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
 
 ## <a name="see-also"></a>Siehe auch
 

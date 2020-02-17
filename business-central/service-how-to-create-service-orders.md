@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b941d451a5c3ef288128a271855958a954f70f9c
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877313"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030100"
 ---
 # <a name="create-service-orders"></a>Erstellen von Serviceaufträgen
 Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben.  
@@ -27,11 +27,11 @@ Wenn Sie einen Serviceauftrag erstellen, müssen Sie nur einige wenige Felder au
 2. Erstellen Sie einen neuen Serviceauftrag.  
 3. Geben Sie im Feld **Nr.** eine Nummer für den Serviceauftrag ein.  
 
-     Wenn Sie auf der Seite **Service Einrichtung** Nummernserien für Serviceaufträge definiert haben, drücken Sie EINGABE, um die nächste verfügbare Serviceauftragsnummer auszuwählen.  
+     Wenn Sie alternativ auf der Seite **Serviceverwaltungseinrichtung** Nummernserien für Serviceaufträge definiert haben, drücken Sie EINGABETASTE, um die nächste verfügbare Serviceauftragsnummer auszuwählen.  
 
 4. Klicken Sie im Feld **Debitorennr.** Feld wählen Sie den relevanten Debitoren aus der Liste. Die für den Debitor relevanten Felder werden mit den Informationen aus der Tabelle **Debitor** ausgefüllt.  
 
-5. Abhängig von den Einstellungen auf dem Inforegister **Pflichtfelder** auf der Seite **Service Einrichtung** muss das Feld **Serviceauftragsart** auf dem Inforegister **Verkäufercode** ausgefüllt werden.  
+5. Abhängig von den Einstellungen im Inforegister **Pflichtfelder** auf der Seite **Serviceverwaltungseinrichtung** muss das Feld **Serviceauftragsart** im Feld **Verkäufercode** ausgefüllt werden.  
 6. Optional können Sie die restlichen Felder ausfüllen.  
 7. Erfassen Sie die Serviceartikelzeilen.  
 
@@ -43,9 +43,11 @@ Serviceaufträge können für die Wartung von Serviceartikeln aus Verträgen ang
 3. Füllen Sie auf dem Inforegister **Optionen** die Felder **Startdatum** und **Enddatum** mit dem Startdatum und dem Enddatum der Periode aus, für die Sie Serviceaufträge erstellen möchten. Die Stapelverarbeitung erzeugt Serviceaufträge mit Serviceartikeln aus Serviceverträgen mit einem Datum des Typs "Nächster geplanter Service am" innerhalb dieser Periode.  
 
     > [!NOTE]  
-    >  Die Anzahl der Tage, die Sie als Zeitraum für diese Stapelverarbeitung verwenden können, ist eingeschränkt. Sie können diese Begrenzung im Feld **Serviceaufträge max. Tage** auf der Seite **Service Einrichtung** festlegen.  
+    >  Die Anzahl der Tage, die Sie als Zeitraum für diese Stapelverarbeitung verwenden können, ist eingeschränkt. Sie legen diese Begrenzung im Feld **Serviceaufträge max. Tage** auf der Seite **Serviceverwaltungseinrichtung** fest.  
 
 4. Wählen Sie im Feld **Aktion** den Eintrag **Serviceauftrag erstellen** aus.  
+    > [!NOTE]  
+    >  Sie können keinen Auftrag mit mehreren Serviceartikeln erstellen, wenn Sie das Feld **Ein Serviceartikel pro Auftrag** auf der Seite **Serviceverwaltungseinrichtung** festlegen. 
 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>So konvertieren Sie ein Serviceangebot in einen Serviceauftrag
 Wenn ein Debitor ein Angebot akzeptiert hat, wandeln Sie dieses in einen Serviceauftrag um. Das Angebot wird gelöscht, und es wird ein neuer Serviceauftrag mit derselben Beschreibung wie im Angebot eingerichtet. Die Felder "Reagieren bis (Datum)" und "Reagieren bis (Zeit)" werden erneut berechnet, und der Status des Serviceauftrags wird auf **Offen** festgelegt. Der Reparaturstatus der Serviceartikel in dem Auftrag wird auf **Anfang** geändert.  

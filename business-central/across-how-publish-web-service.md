@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: edupont
-ms.openlocfilehash: 05a414d6f12243f55105863b66d9b6e759a29189
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e09df754895a8d0d3a1cc1ed84a7c8332e32880
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305693"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030244"
 ---
 # <a name="publish-a-web-service"></a>Webdienst veröffentlichen
 
@@ -28,7 +28,7 @@ Die folgenden Schritte erläutern, wie ein Webdienst erstellt und veröffentlich
 
 ### <a name="to-create-and-publish-a-web-service"></a>So erstellen und veröffentlichen Sie einen Webdienst  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Webdienste** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Webdienste** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Webdienste** **Neu** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -52,8 +52,8 @@ Nachdem Sie einen Webdienst veröffentlichen, ist er für externe Seiten verfüg
     > [!div class="mx-tdBreakAll"]
     > |Typ|Syntax|Beispiel|
     > |----------------|------|-------|
-    > |SOAP |https://api.businesscentral.dynamics.com/*Version*/*Tenant*/WS/*CompanyName*/*Einheit*/ |`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
-    > |OData-V4|https://api.businesscentral.dynamics.com/*Version*/*Tenant*/ODataV4/Unternehmen('*CompanyName*')/*Einheit*|`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Das Feld „Unternehmensname“ berücksichtigt Groß-/Kleinschreibung.|
+    > |SOAP|https://api.businesscentral.dynamics.com/*Version*/*Mandant*/Produktion/WS/*CompanyName*/*Entität*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
+    > |OData-V4|https://api.businesscentral.dynamics.com/*Version*/*Mandant*/Produktion/ODataV4/Unternehmen('*CompanyName*')/*Entität*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument<br/>    Das Feld „Unternehmensname“ berücksichtigt Groß-/Kleinschreibung.|
 
 2. Überprüfen Sie die Informationen, die im Browser angezeigt werden. Vergewissern Sie sich, dass Sie den Namen des Webdienstes sehen, den Sie erstellt haben.  
 
