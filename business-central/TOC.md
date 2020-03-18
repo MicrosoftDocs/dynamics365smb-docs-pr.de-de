@@ -5,7 +5,7 @@
 ## [Mindestanforderungen](product-requirements.md)
 ## [Häufig gestellte Fragen](across-faq.md)
 ## [Ressourcen für Hilfe und Support](product-help-and-support.md)
-## [Vorbereitung für das Geschäft ](ui-get-ready-business.md)
+## [Vorbereitung für das Geschäft](ui-get-ready-business.md)
 ## [Überblick über Geschäfts-Funktionalität](across-business-functionality.md)
 ## [Ihr Zugang zur intelligenten Cloud mit Business Central](about-intelligent-cloud.md)
 ## [Besuchen Sie unsere Videobibliothek](across-videos.md)
@@ -47,7 +47,7 @@
 ### [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)
 ### [Warum ist die Seite vom Personalisieren gesperrt?](ui-personalization-locked.md)
 ### [Speichern und personalisieren Sie Listenansichten](ui-views.md)
-### [Fügen Sie eine Seitenaktion Ihrem Rollencenter hinzu](ui-bookmarks.md)
+### [Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter](ui-bookmarks.md)
 ### [Anzeigen von Listen in verschiedenen Ansichten](across-display-lists-different-views.md)
 ## Drucken von Berichten und Ausführen von Stapelverarbeitungen und XMLports
 ### [Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)
@@ -64,6 +64,7 @@
 ### [Benutzerdefinierte Berichtslayouts aktualisieren](ui-update-report-layouts.md)
 ### [Beleglayouts für Debitoren und Kreditoren definieren](ui-define-customer-vendor-document-layouts.md)
 ### [Hinzufügen von Feldern zu einem Word-Berichtlayout](ui-how-add-fields-word-report-layout.md)
+### [Verfügbare Schriftarten](ui-fonts.md)
 ## Tastenkombinationen verwenden
 ### [Eingabehilfe und Tastenkombinationen](ui-accessibility.md)
 ### [Tastenkombinationen](keyboard-shortcuts.md)
@@ -296,10 +297,9 @@
 #### [So richten Sie einen Belegaustauschdienst ein](across-how-to-set-up-a-document-exchange-service.md)
 #### [Einrichten von eingehenden Belegen](across-how-setup-income-documents.md)
 #### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
-#### [Einrichten des Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [SEPA-Überweisung einrichten](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Einrichten von SEPA-Lastschriften](finance-how-to-set-up-sepa-direct-debit.md)
-#### [Benutzung der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md)
+#### [Einrichten von Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)
+#### [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)
 #### [Einrichten des Bankauszugservice](bank-how-setup-bank-statement-service.md)
 #### [Bankkonten einrichten](bank-how-setup-bank-accounts.md)
 #### [Verwenden von XML-Schemas, um Datenaustauschdefinitionen vorzubereiten](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -310,8 +310,8 @@
 #### [Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln](across-how-use-ocr-pdf-images-files.md)
 #### [Vorgehensweise: Elektronische Belege empfangen und konvertieren](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md)
-#### [Zahlungen in eine Bankdatei exportieren](payables-how-export-payments-bank-file.md)
-#### [Zahlungen mit dem Dienst zur Konvertierung von Bankdaten oder der SEPA-Kreditübertragung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Zahlungen in eine Bankdatei exportieren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder SEPA-Überweisung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Einziehen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
 #### [Feld-Zuordnung beim Importieren von SEPA CAMT-Dateien](across-field-mapping-when-importing-sepa-camt-files.md)
@@ -403,7 +403,7 @@
 #### [Erfassen von Zahlungen und Erstattungen](payables-how-post-payments-refunds.md)
 #### [Zahlungsvorschlag](payables-how-suggest-vendor-payments.md)
 #### [Zahlung per Scheck machen](payables-how-work-checks.md)
-#### [Zahlungen mit dem Dienst zur Konvertierung von Bankdaten oder der SEPA-Kreditübertragung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder SEPA-Überweisung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Einkaufsrechnungen sofort ausgleichen](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Um eine Positive Pay-Datei zu exportieren](finance-how-positive-pay.md)
 ### Zahlungen automatisch vornehmen und Bankkonten abstimmen
@@ -918,8 +918,7 @@
 #### [Einrichten von Verbrauchssteuer und Umsatzsteuer](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 ### Banking und Zahlungen
 #### [Erstellen von Anzahlungen](LocalFunctionality/Canada/how-to-create-deposits.md)
-#### [Verwalten von Debitoren-Kreditinformationen](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
-#### [Elektronische Zahlungen machen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Elektronische Zahlungen vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Allgemein
 #### [Problembehebungsberichte drucken](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
 #### [Arbeiten mit GIFI-Codes](LocalFunctionality/Canada/work-gifi-codes.md)
@@ -1064,7 +1063,6 @@
 ## Island
 ### [Matrix](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### MwSt.
-#### [Isländische Steuerbestimmungen für bedingte Skonti](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [MwSt-Zusammenfassungsinformationen auf Belegen drucken](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Besondere Datenausgabe und Berichte für Steuerbehörden](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Elektronische Rechnungsstellung
@@ -1126,7 +1124,7 @@
 #### [Elektronische Rechnungsstellung einrichten](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
 #### [Elektronische Rechnungen generieren](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
 #### [Elektronische Buchhaltungs-Regelungen in Mexiko](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
-#### [Elektronische Zahlungen machen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Elektronische Zahlungen vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Allgemein
 #### [PAC-Webdienste einrichten](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 #### [Problembehandlungsberichte drucken](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
@@ -1457,9 +1455,8 @@
 ### Banking und Zahlungen
 #### [Erstellen von Anzahlungen](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
 #### [Bankkonten abstimmen](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
-#### [Elektronische Zahlungen machen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Elektronische Zahlungen vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Allgemein
-#### [Gewusst wie: Verwalten von Debitoren-Kreditinformationen](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Problembehebungsberichte drucken](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Regulatorische Warnungen übermitteln](submit-regulatory-alerts.md)
 # Kompatibilität
