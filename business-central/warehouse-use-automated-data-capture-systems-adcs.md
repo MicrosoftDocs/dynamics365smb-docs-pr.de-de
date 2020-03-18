@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832335"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097792"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Automatisierte Datenerfassung (MDE) verwenden
 
 > [!NOTE]
-> In der Standardversion von [!INCLUDE[d365fin](includes/d365fin_md.md)] arbeitet ADCS nur in den lokalen Bereitstellungen. Jedoch kann ein Microsoft-Partner sie in Online Bereitstellungen funktionsfähig machen, indem er Power Apps oder Ähnliches verwendet.
+> Die ADCS-Lösung (Automated Data Capture System) ermöglicht [!INCLUDE[d365fin](includes/d365fin_md.md)] die Kommunikation mit mobilen Geräten über Webdienste. Sie müssen mit einem Microsoft-Partner zusammenarbeiten, der die Verbindung zwischen dem Webdienst und dem jeweiligen mobilenGerät herstellen kann. 
 
 Sie verwenden die mobile Datenerfassung (MDE), um die Artikelbewegungen im Lager und die Aktivitäten im Buch.-Blatt zu erfassen, wie Mengenanpassungen im Logistik Artikel Buch.-Blatt und Inventuren. Bei ADCS wird normalerweise ein Strichcode gescannt.
 
@@ -32,7 +32,23 @@ Auf der Basis der Anforderungen Ihres Lagers legen Sie in der Miniform-Einrichtu
 - Textinformation.  
 - Nachrichten, die Bestätigungen oder Fehler für Aktivitäten anzeigen, die der Endgerätebenutzer ausgeführt und registriert hat.
 
-Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Datenerfassungssystems](/dynamics-nav/Configuring-Automated-Data-Capture-System) im Entwickler und in der IT-Pro-Hilfe.
+## <a name="to-enable-web-services-for-adcs"></a>So aktivieren Sie Webdienste für ADCS
+Um das automatisierte Datenerfassungssystem verwenden zu können, müssen Sie den ADCS-Webdienst aktivieren.  
+
+## <a name="to-enable-and-publish-the-adcs-web-service"></a>So aktivieren und veröffentlichen Sie den ADCS-Webdienst  
+
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Webdienste** ein und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie die Aktion **Neu**.  
+3. Geben Sie auf der Seite **Webdienste** die folgenden Informationen in eine neue Zeile ein:  
+
+    |Feld|Wert|  
+    |---------------------------------|-----------|  
+    |**Objekttyp**|Codeunit|  
+    |**Objekt-ID**|7714|  
+    |**Dienstname**|ADCS **Wichtig**: Sie müssen **ADCS** als Namen für den Dienst festlegen.|  
+
+5. Aktivieren Sie das Kontrollkästchen **Veröffentlicht**.  
+6. Wählen Sie die Schaltfläche **OK** aus.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>So richten Sie ein Lager für die Verwendung von MDE ein:  
 Um MDE nutzen zu können, müssen Sie festlegen, welche Lagerorte die Technologie verwenden.  
@@ -79,7 +95,8 @@ Sie können einen beliebigen Benutzer als Benutzer eines automatisierten Datener
 ## <a name="to-create-and-customize-miniforms"></a>So erstellen und passen Sie Miniforms an
 Mit Miniforms beschreiben Sie die Informationen, die Sie auf einem Endgerät präsentieren wollen. Beispielsweise können Sie Miniforms erstellen, um die Lageraktivität des Kommissionierens zu unterstützen. Nachdem Sie ein Miniform erstellt haben, können Sie Funktionen für häufige Aktionen hinzufügen, die ein Benutzer mit mobilen Geräten durchführt, wie eine Zeile nach oben oder unten verschieben.  
 
-Um die Änderung einer Miniform-Funktion zu implementieren, müssen Sie eine neue Codeunit erstellen oder eine bestehende ändern, um die erforderliche Aktion oder die Antwort auszuführen. Sie erhalten weitere Informationen über MDE-Funktionen, indem Sie sich Codeunits wie 7705 ansehen, die die Anmeldungsfunktion behandelt. Codeunit 7705 zeigt, wie ein Karte-Typ Miniform arbeitet.  
+> [!NOTE] 
+> Um die Änderung einer Miniform-Funktion zu implementieren, müssen Sie eine neue Codeunit für das Feld **Codeunit verwalten** erstellen oder eine bestehende ändern, um die erforderliche Aktion oder die Antwort auszuführen. Weitere Informationen zur ADCS-Funktionalität erhalten Sie, indem Sie Codeeinheiten wie 7705, 7706, 7712 und 7713 untersuchen.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Um ein Miniform für MDE zu erstellen  
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Miniformulare** ein und wählen Sie dann den entsprechenden Link.  
@@ -92,30 +109,16 @@ Um die Änderung einer Miniform-Funktion zu implementieren, müssen Sie eine neu
 
 Wenn Sie ein Miniform erstellt haben, sind die nächsten Schritte das Erstellen von Funktionen und das Zuordnen von Funktionalität zu verschiedenen Tastatureingaben.  
 
-### <a name="to-add-support-for-a-function-key"></a>Um Unterstützung für eine Funktionstaste hinzufügen  
-1.  Fügen Sie der XSL-Datei für das Plug-In Code hinzu, wie im folgenden Beispiel. Dies erstellt eine Funktion für die Taste **F6**. Die Informationen zu den Tastenkombination können beim Gerätehersteller eingeholt werden.  
-    ```xml  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
-    ```  
-2.  Öffnen Sie in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Entwicklungsumgebung die Tabelle 7702 und fügen Sie einen Code für den neuen Schlüssel hinzu. In diesem Beispiel erstellen Sie einen Schlüssel namens **F6**.  
-3.  Fügen Sie für die Funktionstaste C/AL-Code der entsprechenden Funktion zu der Miniform-spezifischen Codeunit hinzu.  
-
 ### <a name="to-customize-miniform-functions"></a>Um Miniform-Funktionen anzupassen  
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Miniformulare** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie ein Miniform aus der Liste, und wählen sie die Aktion **Bearbeiten** aus.  
 3.  Wählen Sie die Aktion **Funktionen** aus.  
 4.  Wählen Sie in der Dropdownliste **Funktionencode** einen Code aus, der für die Funktion steht, die Sie dem Miniform zuordnen möchten. Beispielsweise können Sie ESC auswählen, was die Funktion des Drückens der Taste ESC zuordnet.  
 
-Bearbeiten Sie in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Entwicklungsumgebung den Code für das Feld **Codeunit verwalten**, um Codes zu erstellen oder zu ändern, die die erforderliche Aktion oder Antwort ausführen.
-
-Weitere Informationen finden Sie unter [Konfigurieren eines automatisierten Datenerfassungssystems](/dynamics-nav/Configuring-Automated-Data-Capture-System) im Entwickler und in der IT-Pro-Hilfe.
-
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
+[Lagerverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

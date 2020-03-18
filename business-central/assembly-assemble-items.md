@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 946b14c6d3a480bda217b9d78330343a8d772de1
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953875"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097720"
 ---
 # <a name="assembly-management"></a>Montageverwaltung
 Für Unternehmen, die Produkte für ihre Debitoren herstellen, indem sie Komponenten in einfachen Prozessen kombinieren, und die keine Fertigungsfunktionen benötigen, bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] Funktionen, um Artikel zu montieren, die sich in bestehende Funktionen einfügen, beispielsweise Verkaufs-, Planungs-, Reservierungs- und Lagerfunktionen.  
 
  Ein Montageartikel wird als verkäuflicher Artikel definiert, der eine Montagestückliste enthält. Weitere Informationen finden Sie unter [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).
 
- Montageaufträge sind, genau wie Fertigungsaufträge, interne Aufträge, die verwendet werden, um den Montagevorgang zu verwalten und die Verkaufsanforderungen mit den jeweiligen Lageraktivitäten zu verbinden. Montageaufträge unterscheiden sich von anderen Auftragsarten, da beim Buchen sowohl eine Istmeldung als auch ein Verbrauch vorliegt. Der Montageauftragskopf verhält sich ähnlich zu einer Verkaufsauftragszeile und die Montageauftragszeilen verhalten sich ähnlich zu den Verbrauchs Buch.-Blattzeilen.  
+ Montageaufträge sind, genau wie Fertigungsaufträge, interne Aufträge, die verwendet werden, um den Montagevorgang zu verwalten und die Verkaufsanforderungen mit den jeweiligen Lageraktivitäten zu verbinden. Montageaufträge unterscheiden sich von anderen Auftragsarten, da beim Buchen sowohl eine Istmeldung als auch ein Verbrauch vorliegt. Der Montageauftragskopf verhält sich ähnlich zu einer Istmeldungs-Buch.-Blattzeile und die Montageauftragszeilen verhalten sich ähnlich zu den Verbrauchs Buch.-Blattzeilen.  
 
  Um eine Just-In-Time-Logistikstrategie sowie die Möglichkeit, Produkte an Debitorenanfragen anzupassen, zu unterstützen, können Montageaufträge automatisch erstellt und verknüpft werden, sobald die Verkaufsauftragszeile erstellt wird. Die Verknüpfung zwischen dem Verkaufsbedarf und dem Montagezubehör aktiviert Verkaufsauftragsprozessoren, um den Montageartikel während der Verarbeitung anzupassen, Liefertermine entsprechend der Komponentenverfügbarkeit zuzusagen und Istmeldung und Lieferung des gefertigten Artikels direkt aus der Verkaufsauftragsschnittstelle zu buchen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -46,7 +46,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Erhalten Sie weitere Informationen zum Unterschied zwischen Montagestücklisten und Fertigungsstücklisten und die entsprechenden Verarbeitungsunterschiede.|[Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)|
 |Erfahren Sie, wie der Verbrauch für die Montage und den Ausstoß behandelt werden, wenn Sie Montageaufträge buchen, und wie der abgeleitete Artikel und die Ressourcenkosten verarbeitet und in die Finanzbuchhaltung übergeben werden.|[Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch  
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b809743aa25aee409b9a71ca98da77ea64b58fb1
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880592"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076514"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
 Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsvorschlag oder Bestellvorschlag.  
@@ -46,7 +46,7 @@ Alle Vorräte und Bedarfe vor dem Startdatum der Planungsperiode gelten als Teil
 
 Mit anderen Worten: Es nimmt an, dass der Plan für die Vergangenheit gemäß dem vorhandenen Plan ausgeführt wurde.  
 
-Weitere Informationen finden Sie unter [Designdetails: Umgang mit Aufträgen vor dem Planungs-Startdatum](design-details-dealing-with-orders-before-the-planning-starting-date.md)  
+Weitere Informationen finden Sie unter [Umgang mit Aufträgen vor dem Planungs-Startdatum](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamische Auftragsnachverfolgung (Pegging)  
 Die dynamische Auftragsnachverfolgung, die eine simultane Erstellung von Ereignismeldungen im Planungsvorschlag ermöglicht, ist kein Teil des Beschaffungsplanungssystems in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dieses Funktion verknüpft in der Echtzeit den Bedarf und die Mengen, die ihn abdecken können, sobald ein neuer Bedarf oder eine Bedarfssicherung erstellt oder geändert wird.  
@@ -76,7 +76,7 @@ Demgegenüber befasst sich das Planungssystem mit allen Bedarfen und Vorräten f
 
 Nach der Planung bleiben keine Ereignismeldungen in der Ereignismeldungstabelle, da sie durch die vorgeschlagenen Aktionen im Planungsvorschlag ersetzt wurden  
 
-Weitere Informationen finden Sie unter Links für die Nachverfolgung während der Planung unter [Designdetails: Abstimmen von Vorrat mit Bedarf](design-details-balancing-supply-with-demand.md).  
+Weitere Informationen finden Sie unter Links für die Nachverfolgung während der Planung unter [Abstimmen von Vorrat mit Bedarf](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Reihenfolge und Priorität in der Planung  
 Wenn ein Plan eingerichtet wird, ist die Reihenfolge der Berechnungen wichtig, um die Arbeit innerhalb eines angemessenen Zeitrahmens zu erledigen. Zusätzlich spielt die Priorisierung von Anforderungen und Ressourcen eine wichtige Rolle bei der Erlangung bester Ergebnisse.  
@@ -90,7 +90,7 @@ In einer Produktionsumgebung wird der Bedarf für einen fertigen, verkäuflichen
 
 Die Abbildungen illustrieren, in welcher Reihenfolge das System Vorschläge für Beschaffungsaufträge auf der obersten Ebene macht und, wenn der Benutzer diese Vorschläge akzeptiert, auch für Artikel auf unteren Ebenen.  
 
-Weitere Informationen über Fertigungsüberlegungen, siehe. [Designdetails: Auslastung der Lager-Profile](design-details-loading-the-inventory-profiles.md)  
+Weitere Informationen zu Überlegungen für die Fertigung finden Sie unter [Auslastung der Lagerprofile](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ### <a name="locations--transfer-level-priority"></a>Lagerorte / Übertragung-Ebenen-Priorität  
 Unternehmen, die an mehr als einem Standort arbeiten, müssen möglicherweise für jeden Standort einzeln planen. Beispielsweise können sich der Sicherheitsbestand eines Artikels und dessen Wiederbeschaffungsrichtlinien sich von einem Lagerort zu einem anderen unterscheiden. In diesem Fall müssen die Planungsparameter pro Artikel und auch pro Lagerort angegeben werden.  
@@ -106,14 +106,14 @@ Weitere Informationen finden Sie unter [Designdetails: Übertragung in der Planu
 ### <a name="order-priority"></a>Auftragspriorität  
 In bestimmten Lagerhaltungsdaten zeigt das angeforderte oder verfügbare Datum die höchste Priorität an; mit dem Bedarf des heutigen Tages soll vor dem Bedarf der nächsten Tage verfahren werden. Aber abgesehen von dieser Art Priorität, werden die verschiedene Bedarfs- und Vorratstypen entsprechend der geschäftlichen Wichtigkeit sortiert, sodass Sie entscheiden können, welcher Bedarf vor einem anderen Bedarf erfüllt werden soll. Auf der Zugangsseite teilt die Auftragspriorität mit, welche Versorgungsquelle ausgeglichen werden soll, bevor andere Versorgungsquellen verwendet werden.  
 
-Weitere Informationen finden Sie unter [Designdetails: Aufträge priorisieren](design-details-prioritizing-orders.md).  
+Weitere Informationen finden Sie unter [Priorisieren von Aufträgen](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 ## <a name="demand-forecasts-and-blanket-orders"></a>Absatzplanungen und Rahmenaufträge Nachfrage  
 Planungen und Absatzplanungen stellen den voraussichtlichen Bedarf dar. Der Rahmenauftrag, der die geplanten Einkäufe eines Debitoren über einen bestimmten Zeitraum hinweg umfasst, dient dazu, die Unsicherheiten des allgemeinen Plans zu reduzieren. Der Rahmenauftrag ist eine benutzerdefinierte Planung , zusätzlich zur nicht-spezifischen Planung, wie nachfolgend erläutert.  
 
 ![Planen mit Prognosen](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planen mit Prognosen")  
 
-Weitere Informationen finden Sie unter "Voraussichtlicher Bedarf nach Verkaufsaufträgen" unter [Designdetails: Auslastung der Lager-Profile](design-details-loading-the-inventory-profiles.md).  
+Weitere Informationen finden Sie im Abschnitt „Planungsbedarf wird durch Verkaufsaufträge reduziert“ unter [Laden der Lagerprofile](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ## <a name="planning-assignment"></a>Planungszuweisung  
 Alle Artikel sollten eingeplant werden, es gibt jedoch keinen Grund, einen Plan für einen Artikel zu berechnen, es sei denn, es gab eine Änderung im Bedarfs- oder Vorratsmuster seit der letzten Berechnung des Plans.  
@@ -171,9 +171,9 @@ Serien-/Chargen-nummerierte Artikel ohne bestimmtes Artikelverfolgungssetup kön
 
 Bedarf-Vorrat mit Serien-/Chargennummern, spezifisch oder nicht-spezifisch, gilt als hohe Priorität und ist deshalb von der fixierten Zone ausgenommen; dies bedeutet, dass sie Teil der Planung sind, auch wenn sie vor dem Startdatum fällig sind.  
 
-Weitere Informationen finden Sie im Abschnitt „Serien-/Chargennummern werden nach Spezifikationsebene geladen unter [Designdetails: Laden von Bestandprofilen](design-details-loading-the-inventory-profiles.md).  
+Weitere Informationen finden Sie im Abschnitt „Serien-/Chargennummern werden nach Spezifikationsebene geladen“ unter [Laden von Bestandprofilen](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-Weitere Informationen darüber, wie das Planungssystem Attribute ausgleicht, finden Sie unter „Serien-/Chargennummern und Auftrag-zu-Auftrag-Links sind aus der fixierten Zone ausgenommen unter [Designdetails: Behandeln von Aufträgen vor dem Planungsstartdatum](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Weitere Informationen darüber, wie das Planungssystem Attribute ausgleicht, finden Sie unter [Serien-/Chargennummern und Auftrag-zu-Auftrag-Links sind von der fixierten Zone ausgenommen](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
 ## <a name="order-to-order-links"></a>Auftrag-zu-Auftrag-Verknüpfungen  
 In einer Auftragsfertigungsumgebung wird ein Artikel bezogen, montiert oder gefertigt, um einen speziellen Bedarf zu decken. Normalerweise bezieht sich dies auf A-Artikel, und die Motivation für die Auswahl dieser Methode kann es sein, dass der Bedarf selten ist, die Vorbereitungszeit unbedeutend ist, oder die erforderlichen Attribute variieren können.  
@@ -223,14 +223,14 @@ Die Warnung für einen Notfall wird in zwei Situationen angezeigt:
 -   Der Lagerbestand ist am geplanten Startdatum negativ.  
 -   Vorgehensweise bei rückdatierten Beschaffungs- oder Bedarfsereignissen.  
 
-Wenn der Lagerbestand eines Artikels am geplanten Startdatum negativ ist, wird vom Planungssystem ein Notfallbeschaffungsauftrag für den negativen Bestand vorgeschlagen, der am geplanten Startdatum eingeht. Im Warnungstext werden das Startdatum und die Menge der Notfallbestellung angegeben. Weitere Informationen finden Sie unter [Designdetails: Umgang mit voraussichtlichem negativem Lagerbestand](design-details-handling-projected-negative-inventory.md).  
+Wenn der Lagerbestand eines Artikels am geplanten Startdatum negativ ist, wird vom Planungssystem ein Notfallbeschaffungsauftrag für den negativen Bestand vorgeschlagen, der am geplanten Startdatum eingeht. Im Warnungstext werden das Startdatum und die Menge der Notfallbestellung angegeben. Weitere Informationen finden Sie unter [Umgang mit voraussichtlichem negativem Lagerbestand](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Belegzeilen mit Fälligkeitsdaten vor dem geplanten Startdatum werden in einem Notfallbeschaffungsauftrag für den Artikel zusammengefasst, der am geplanten Startdatum eingehen soll.  
 
 ### <a name="exception"></a>Ausnahme  
 Die Ausnahmewarnung wird angezeigt, wenn der voraussichtlich verfügbare Lagerbestand den Sicherheitsbestand unterschreitet. Vom Planungssystem wird ein Beschaffungsauftrag vorgeschlagen, um den Bedarf am Fälligkeitsdatum zu decken. In der Warnung werden der Sicherheitsbestand des Artikels und das Datum angegeben, an dem er unterschritten wurde.  
 
-Das Unterschreiten des Sicherheitsbestand gilt als Ausnahme, da dieser Zustand nicht eintreten sollte, wenn der Minimalbestand korrekt festgelegt wurde. Weitere Informationen finden Sie unter [Designdetails: Die Rolle des Wiederbestellpunkts](design-details-the-role-of-the-reorder-point.md).  
+Das Unterschreiten des Sicherheitsbestands gilt als Ausnahme, da dieser Zustand nicht eintreten sollte, wenn der Minimalbestand korrekt festgelegt wurde. Weitere Informationen finden Sie unter [Die Rolle des Wiederbestellpunkts](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
 Im Allgemeinen gewährleisten außergewöhnliche Bestellvorschläge, dass der voraussichtlich verfügbare Lagerbestand nicht geringer als die Sicherheitsbestandsebene ist. Das bedeutet, dass die vorgeschlagene Menge gerade ausreicht, den Sicherheitsbestand zu umfassen, ohne Planungsparameter zu berücksichtigen. Jedoch in einigen Szenarien werden Auftragsmodifikationen berücksichtigt.  
 
@@ -242,7 +242,7 @@ Die Achtungswarnung wird in drei Situationen angezeigt:
 
 -   Das geplante Startdatum liegt vor dem Arbeitsdatum.  
 -   Die Planungszeile schlägt vor, eine freigegebene Bestellung oder einen freigegebenen Fertigungsauftrag zu ändern.  
--   Der voraussichtliche Lagerbestand übersteigt das Überlauflevel am Fälligkeitsdatum. Weitere Informationen finden Sie unter [Designdetails: Verbleibenden unter dem Überlauflevel](design-details-staying-under-the-overflow-level.md).  
+-   Der voraussichtliche Lagerbestand übersteigt das Überlauflevel am Fälligkeitsdatum. Weitere Informationen finden Sie unter [Verbleibenden unter dem Überlauflevel](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
 >  In Planzeilen mit Warnungen ist das Kontrollkästchen **Ereignismeldung akzeptieren** nicht aktiviert, da diese Zeilen vom Planer genauer untersucht werden sollen, bevor der Plan umgesetzt wird.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: f5b1d0e6d5466ee44ffcd1249087a743f01bf109
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692628"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076731"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung
 Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen zur AMC Banking 365 Fundamentals Erweiterung finden Sie unter [Verwendung der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md).  
@@ -70,5 +70,5 @@ Die folgende Tabelle listet die Felder in [!INCLUDE[d365fin](includes/d365fin_md
 ## <a name="see-also"></a>Siehe auch  
 [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)
-[Verwenden der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md) .  
-[Nehmen Sie Zahlungen mit dem Bank-Datenkonvertierungs-Service- oder einer SEPA-Banküberweisung vor](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+[Verwenden der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md)   
+[Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder SEPA-Überweisung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

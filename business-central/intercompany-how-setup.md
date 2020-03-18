@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2019
+ms.date: 02/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: e6f44cfc8dc5eb3591aadd520a4ec58086d5f823
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1d284783f389ea8e60027d02cc225b16c44b9d03
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300091"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097672"
 ---
 # <a name="set-up-intercompany"></a>Intercompany einrichten
 Wenn Sie eine Transaktion (beispielsweise eine Verkaufs Buch.-Blattzeile) von einem Unternehmen an ein anderes Unternehmen senden möchten und im Partnerunternehmen automatisch die entsprechende Transaktion (beispielsweise eine Einkaufs Buch.-Blattzeile) erstellt werden soll, müssen sich die Unternehmen auf einen gemeinsamen Kontenplan sowie auf eine Gruppe von Dimensionen für Intercompanytransaktionen einigen. Bei dem Intercompanykontenplan kann es sich beispielsweise um eine vereinfachte Version des Kontenplans der Muttergesellschaft handeln. In jedem Unternehmen wird der eigene vollständige Kontenplan dem gemeinsam genutzten Intercompanykontenplan zugeordnet, und auch die Dimensionen des jeweiligen Unternehmens werden den Intercompanydimensionen zugeordnet.  
@@ -27,16 +27,16 @@ Wenn Sie Intercompanyzeilen mit Artikeln erstellen oder erhalten, können Sie en
 Wenn Sie Intercompany-Verkaufstransaktionen vornehmen, die Ressourcen beinhalten, müssen Sie auf der Ressourcenkarte der entsprechenden Ressourcen das Feld **IC-Partner Eink.-Sachkontonr.** ausfüllen. Das Feld enthält die Nummer des Intercompanysachkontos im Unternehmen Ihres Partners, auf das die Ressource gebucht wird. Weitere Informationen finden Sie unter [Ressourcen einrichten](projects-how-setup-resources.md).
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Unternehmen für Intercompanytransaktionen einrichten
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Unternehmungsinformation** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Unternehmensinformationen** ein und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie auf der Seite **Unternehmensdaten** die Felder **Intercompanypartnercode**, **Intercompanyeingangsart** und **Intercompanyeingangsdetails** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>So legen Sie Intercompanypartner fest
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intercompanypartner** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Intercompanypartner** ein, und wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie auf der Seite **Intercompanypartner** die Felder nach Bedarf aus.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Einrichten von Intercompanykreditoren und Intercompanydebitoren
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kreditoren** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.
 2. Alternativ können Sie auf den Kreditor über das Feld **Kreditorennr.** auf der Seite **Intercompanypartner** zugreifen.
 3. Öffnen Sie die Karte für den Kreditor, der ein Intercompanypartner ist. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](purchasing-how-register-new-vendors.md).
 4. Wählen Sie im Feld **Intercompanypartnercode** den relevanten Intercompanypartnercode aus.
@@ -50,19 +50,19 @@ Wenn das Unternehmen das übergeordnete Unternehmen ist und über den definieren
 Wenn das Unternehmen ein untergeordnetes Unternehmen ist und Sie eine XML-Datei mit dem gemeinsamen Intercompanykontenplan erhalten, folgen Sie den Verfahren unter [So importieren Sie den Intercompanykontenplan](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Einrichten des definierenden Intercompanykontenplans
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intercompany-Kontenplan** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **IC-Kontenplan** ein, und wählen Sie dann den entsprechenden Link aus.
 2. Geben Sie auf der Seite **IC-Kontenplan** die einzelnen Konten zeilenweise in das Fenster ein.  
 3. Wenn der Intercompanykontenplan dem üblichen unternehmenseigenen Kontenplan gleicht oder ähnelt, können Sie die Werte automatisch in das Fenster eingeben, indem Sie die Aktion **Aus Kontenplan kopieren** wählen. Sie können die neuen Zeilen bei Bedarf bearbeiten.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>So exportieren Sie einen Intercompanykontenplan
 Um Ihren Intercompanypartner zu gestatten, den definierenden Kontenplan zu importieren, müssen Sie ihn in eine Datei exportieren.      
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intercompany-Kontenplan** ein, und wählen dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **IC-Kontenplan** ein, und wählen Sie dann den entsprechenden Link aus.
 2. Wählen Sie auf der Seite **IC-Kontenplan** die **Exportieren**-Aktion aus, und wählen Sie dann die Schaltfläche **Speichern** aus.
 3. Geben Sie zum Speichern der XML-Datei einen Namen und einen Verzeichnispfad an, und wählen Sie dann die Schaltfläche **Speichern**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Den Intercompanykontenplan importieren:  
 Wenn eine Datei für den definierenden Intercompanykontenplan vorhanden ist, können Intercompanypartner diesen importiern, um sicherzustellen, dass sie dieselben Konten haben.  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intercompany-Kontenplan** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **IC-Kontenplan** ein, und wählen Sie dann den entsprechenden Link aus.  
 2. Wählen Sie auf der Seite **IC-Kontenplan** die **Importieren**-Aktion aus.  
 3. Wählen Sie den Dateinamen und Verzeichnispfad der XML-Datei aus, und wählen Sie **Öffnen**.  
 
@@ -73,7 +73,7 @@ Nachdem Sie den Kontenplan definiert oder importiert haben, auf den Sie sich mit
 
 Wenn die Kontonummern im Intercompanykontenplan mit Kontonummern des unternehmenseigenen Kontenplans übereinstimmen, können diese Konten automatisch einander zugeordnet werden.
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intercompany-Kontenplan** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **IC-Kontenplan** ein, und wählen Sie dann den entsprechenden Link aus.  
 2. Wählen Sie die Zeilen aus, die automatisch zugeordnet werden sollen, und klicken Sie auf die Aktion **Zuordn. zu Kto. m. selb. Nr.**.  
 3. Für jedes Intercompanysachkonto, das nicht automatisch zugeordnet werden können, füllen Sie das Feld **Zuordnen zu Sachkontonr.** aus.  
 
@@ -82,7 +82,7 @@ Bei der Erstellung von Intercompanyverkaufs- oder -einkaufszeilen, die als ausge
 
 Wenn Sie jetzt im Feld **Gegenkontonr.** in einer Intercompanyzeile mit dem Eintrag **Intercompanypartner** im Feld **Kontoart** ein Sachkonto eingeben, wird das Feld **SachkontoIC-Partner** automatisch ausgefüllt.  
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kontenplan** ein und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie in der Zeile für ein Sachkonto, das für Intercompanytransaktionen verwendet wird, im Feld **Vorgegebene IC-Partner-Sachkonten** das Intercompanysachkonto ein, auf das Ihr Partner buchen soll, wenn Sie auf das Sachkonto in der Zeile buchen.  
 3. Wiederholen Sie Schritt 2 für jedes Konto, das Sie häufig im Feld **Gegenkontonr.** einer Zeile in einem Intercompany-Buch.-Blatt oder -Beleg eingeben.
 
@@ -94,7 +94,7 @@ Wenn das Unternehmen die Muttergesellschaft ist und den IC-Dimensionssatz defini
 Wenn das Unternehmen eine Tochtergesellschaft ist und Sie eine XML-Datei mit den IC-Dimensionen erhalten, die von der Gruppe zur Referenz verwendet werden, verwenden Sie die Schrittfolge unter [Importieren von Intercompanydimensionen](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Definieren von Intercompanydimensionen
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intercompanydimension** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Intercompany-Dimensionen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Geben Sie die Dimensionen zeilenweise auf der Seite **Intercompanydimensionen** ein.
 
     Wenn die Intercompanydimensionen den unternehmenseigenen Dimensionen gleichen oder ähneln, können Sie die Seite automatisch ausfüllen, indem Sie die Funktion **Aus Dimensionen kopieren** benutzen. Anschließend können Sie die ausgefüllten Zeilen bearbeiten.  
@@ -103,7 +103,7 @@ Wenn das Unternehmen eine Tochtergesellschaft ist und Sie eine XML-Datei mit den
 
 ### <a name="to-import-the-intercompany-dimensions"></a>Importieren der Intercompanydimensionen  
 Wenn eine Datei für die definierenden Intercompanydimensionen vorhanden ist, können Intercompanypartner diesen importiern, um sicherzustellen, dass sie dieselben Dimensionen haben.  
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intercompanydimension** ein, und wählen dann den zugehörigen Link aus.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Intercompany-Dimensionen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie auf der Seite **Intercompany-Dimensionen** die **Importieren**-Aktion aus.  
 3. Legen Sie den Dateinamen und Verzeichnispfad der XML-Datei fest, und wählen Sie **Öffnen**.  
 
@@ -114,14 +114,16 @@ Nachdem Sie alle Dimensionen definiert oder importiert haben, die von den Interc
 
 Wenn Intercompanydimensionen bezüglich ihres Codes mit unternehmenseigenen Dimensionen aus der Dimensionsliste übereinstimmen, können diese Dimensionen durch die Anwendung automatisch einander zugeordnet werden, und anschließend ordnen Sie die Konten automatisch zu:
 
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Intercompanydimension** ein, und wählen dann den zugehörigen Link aus.
-2. Wählen Sie auf der Seite **Intercompanydimensionen** die automatisch zuzuweisenden Zeilen aus, und klicken Sie anschließend auf die Aktion **Zuordn. zu Dim. m. selb. Code**.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Intercompany-Dimensionen** ein, und wählen Sie dann den zugehörigen Link aus.
+2. Wählen Sie auf der Seite **Intercompanydimensionen** die automatisch zuzuweisenden Zeilen aus, und klicken Sie anschließend auf die Aktion **Zuordn. zu Dim. m. selb. Code** aus.
 3. Füllen Sie für jede Intercompany-Dimensionen, die nicht automatisch zugeordnet wird, das Feld **Zuordnen zu Dimensionscode** aus.
+
+    Möglicherweise müssen Sie Ihrer Ansicht das Feld hinzufügen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 4. Wählen Sie die Aktion **Intercompanydimensionswerte** aus.
 5. Füllen Sie auf der Seite **Intercompanydimensionswerte** das Feld **Zuordnen zu Dimensionswertcode** aus.
 
     Fahren Sie mit dem Zuordnen der Intercompanydimensionen fort, indem Sie ähnliche Schritte ausführen.
-6. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren?“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Dimensionen** ein, und wählen dann den zugehörigen Link aus.
+6. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Dimensionen** ein und wählen Sie dann den entsprechenden Link.
 7. Wählen Sie auf der Seite **Intercompanydimensionen** die automatisch zuzuweisenden Zeilen aus, und klicken Sie anschließend auf die Aktion **Zuordn. zu Dim. m. selb. Code**.
 8. Füllen Sie für jede Intercompany-Dimensionen, die nicht automatisch zugeordnet wird, das Feld **Zuordn. zu IC-Dimens.wertcode** aus.
 9. Wählen Sie die Aktion **Intercompanydimensionswerte** aus.

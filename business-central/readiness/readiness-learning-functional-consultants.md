@@ -1,20 +1,20 @@
 ---
-title: Funktionsberater Lernkatalog
-description: Funktionsberater Lernkatalog
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/06/2019
+title: Funktionaler Lernkatalog für Berater
+description: Hier finden Sie alle verfügbaren Informationen für Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: a9c0ba279a61bb2c09fbc221c4f1772229fe52e2
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: fa3ec715fdf018ff73a9560c1aa32167cdf11764
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767821"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097551"
 ---
 # <a name="functional-consultant-learning-catalog"></a>Funktionsberater Lernkatalog
+
+Sind Sie ein Implementierungsexperte für einen Geschäftsbereich?
 
 Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisiert, von grundlegend bis fortgeschritten. Wenn Inhalte in mehreren Formaten vorliegen, werden wir Sie darüber informieren, so dass Sie das für Ihre Bedürfnisse am besten geeignete Trainingsformat auswählen können. 
 

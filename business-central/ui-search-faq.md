@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695095"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071910"
 ---
 # <a name="tell-me-faq"></a>Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“
 In diesem Thema werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zu der Funktion "Wie möchten Sie weiter verfahren" stellen.
@@ -32,7 +32,7 @@ Aktionen, Seiten und Berichte, die aus Erweiterungen stammen, werden von „Wie 
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Worin unterschiedet sich dies von der vorherigen Funktion, die als Seitensuche bekannt war?
 Die Seitensuche wurde zu „Wie möchten Sie weiter verfahren“ weiterentwickelt, damit Sie schneller arbeiten können. Die Seitensuche konnte Ihnen nur bei der Navigation in Seiten oder Berichten helfen. Auf technischer Ebene basiert „Wie möchten Sie weiter verfahren“ nicht mehr auf dem vorherigen MenuSuite-Konzept.
 
-### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Ich verwende [!INCLUDE[d365fin](includes/d365fin_md.md)] lokal. Schließt das „Wie möchten Sie weiter verfahren“ ein?
+### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Ich verwende [!INCLUDE[d365fin](includes/d365fin_md.md)] lokal. Schließt das „Wie möchten Sie weiter verfahren“ ein?
 Sie können „Wie möchten Sie weiter verfahren“ mit dem lokalen Webclient verwenden, um nach Aktionen, Seiten und Berichten zu suchen, aber nicht nach Dokumentation oder Apps und Beratungsdiensten auf AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Ist „Wie möchten Sie weiter verfahren“ für alle Formularfaktoren verfügbar?
@@ -44,11 +44,9 @@ Die Hilfeartikelanzeige werden in der Sprache angezeigt, die Sie in **Meine Eins
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Warum sehe ich kein Lesezeichensymbol für meine Suchergebnisse?
 Das Lesezeichensymbol wird im Benachrichtigungsfenster nicht angezeigt, wenn die Personalisierung für eine Benutzerrolle deaktiviert ist.
 
-### <a name="is-the-bookmark-icon-available-for-reports"></a>Ist das Lesezeichensymbol für Berichte verfügbar?
-Nr. Sie können nur einen Link zu einer Seite oder zu Suchergebnissen hinzufügen, die im Abschnitt **Seiten und Aufgaben** des Fensters Wie möchten Sie weiter verfahren angezeigt werden.
-
 
 ## <a name="see-also"></a>Siehe auch  
 [Speichern und personalisieren Sie Listenansichten](ui-views.md)  
-[Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)  
-[Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)
+[Suche nach Seiten und Informationen mit Tell Me](ui-search.md)  
+[Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)  
+[Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter](ui-bookmarks.md)

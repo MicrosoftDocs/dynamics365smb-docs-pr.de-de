@@ -1,21 +1,20 @@
 ---
 title: Lernkatalog für Entwickler
-description: Lernkatalog für Entwickler
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/19/2019
+description: Hier finden Sie alle verfügbaren Informationen für Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.reviewer: margoc
-ms.author: solsen
-ms.openlocfilehash: cdca386a3feb505364152b831d3e105b94db6c43
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.author: v-lshann
+ms.openlocfilehash: 05c2f4426f8d84f5e478a7ca7f63bd6ab64eeb6a
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832239"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097840"
 ---
-# <a name="developer-learning-catalog"></a>Lernkatalog für Entwickler
+# <a name="developers-learning-catalog"></a>Lernkatalog für Entwickler
+
+Müssen Sie Code schreiben, um sich mit anderen Datenquellen zu integrieren, die Funktionalität des Kernsystems zu erweitern oder eine komplexe Anwendung zu erstellen?
 
 Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisiert, von grundlegend bis fortgeschritten. Wenn Inhalte in mehreren Formaten vorliegen, werden wir Sie darüber informieren, so dass Sie das für Ihre Bedürfnisse am besten geeignete Trainingsformat auswählen können. 
 

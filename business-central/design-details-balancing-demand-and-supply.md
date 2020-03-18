@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882950"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076412"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetails: Ausgleich von Bedarf und Vorrat
 Um zu erkennen wie das Planungssystem funktioniert, ist es notwendig, die priorisierten Ziele des Planungssystems zu kennen, von denen die wichtigsten sind, Folgendes sicherzustellen:  
@@ -66,7 +66,7 @@ Wenn der anfänglich verfügbare Lagerbestand geringer als Null ist, schlägt da
 ## <a name="loading-the-inventory-profiles"></a>Bestand Laden von Profilen
 Um die vielen Quellen von Nachfrage und Angebot zu sortieren, organisiert das Planungssystem sie auf zwei Zeitachsen, die Bestandsprofile genannt werden.  
 
-Die normalen Typen von Bedarf und Vorrat mit Fälligkeitsdaten auf oder nach dem Planungsstartdatum werden in die Bestandsprofile geladen. Wenn sie geladen werden, werden die verschiedenen Bedarf- und Vorrattypen entsprechend allgemeinen Prioritäten, wie Fälligkeitsdatum, Stücklistenebenen, Lagerort und Variante sortiert. Darüber hinaus werden Auftragsprioritäten auf verschiedene Arten angewendet, um sicherzustellen, dass der wichtigste Bedarf zuerst erfüllt wird. Weitere Informationen finden Sie unter [Designdetails: Aufträge priorisieren](design-details-prioritizing-orders.md).  
+Die normalen Typen von Bedarf und Vorrat mit Fälligkeitsdaten auf oder nach dem Planungsstartdatum werden in die Bestandsprofile geladen. Wenn sie geladen werden, werden die verschiedenen Bedarf- und Vorrattypen entsprechend allgemeinen Prioritäten, wie Fälligkeitsdatum, Stücklistenebenen, Lagerort und Variante sortiert. Darüber hinaus werden Auftragsprioritäten auf verschiedene Arten angewendet, um sicherzustellen, dass der wichtigste Bedarf zuerst erfüllt wird. Weitere Informationen finden Sie unter [Priorisieren von Aufträgen](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 Wie bereits erwähnt, kann Bedarf auch negativ sein. Das bedeutet, dass es als Vorrat behandelt werden sollte, jedoch anders als die normalen Vorratstypen, gilt negativer Bedarf als fester Vorrat. Das Planungssystem kann dies berücksichtigen, schlägt aber keine Änderungen dafür vor.  
 

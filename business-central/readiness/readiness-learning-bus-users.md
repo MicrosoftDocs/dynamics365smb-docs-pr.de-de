@@ -1,20 +1,20 @@
 ---
 title: Lernkatalog für Geschäftsanwender
-description: Lernkatalog für Geschäftsanwender
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/06/2019
+description: Hier finden Sie alle verfügbaren Informationen für Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: 00ee925575dbdfe6eb32e78e3051c7bb8c6d7d96
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: 51e8249f504e9182bf9e427e15629dd51fc804b5
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767890"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097768"
 ---
 # <a name="business-users-learning-catalog"></a>Lernkatalog für Geschäftsanwender
+
+Haben Sie gerade eine neue Anwendung zur Nutzung erhalten?
 
 Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisiert, von grundlegend bis fortgeschritten. Wenn Inhalte in mehreren Formaten vorliegen, werden wir Sie darüber informieren, so dass Sie das für Ihre Bedürfnisse am besten geeignete Trainingsformat auswählen können. 
 

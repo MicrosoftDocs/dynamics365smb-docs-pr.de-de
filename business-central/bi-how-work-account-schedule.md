@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/13/2020
+ms.date: 02/12/2020
 ms.author: edupont
-ms.openlocfilehash: 576e974221d6fb1e7aa92b200338e32b1339b4d3
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 21e83f37405c01d5df00e6b392ded3ce3996d0c2
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953827"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071958"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor
 Verwenden von Kontenplan, um die Einblicke in die Finanzdaten zu kommen, die in Ihrem Kontenplan gespeichert werden. Verwenden von Kontenschemata zum Analysieren der Werte auf Sachkonten oder zum Vergleichen von Sachposten mit Finanzbudgetposten. Die Ergebnisse werden in den Diagrammen in Ihrem Rollencenter angezeigt, wie der Cashflowplan und Berichten, wie den GuV und den Bilanzberichten.
@@ -35,8 +35,12 @@ Auch können mehrere Kontenschemata und Spaltenlayouts mithilfe von Formeln verg
 * Erstellen einer beliebigen Anzahl von Kontenschemata, jeweils mit eindeutigem Namen
 * Einrichten unterschiedlicher Berichtslayouts und Drucken der Berichte mit den aktuellen Werten
 
-## <a name="account-categories"></a>Kontokategorien
-Sie können Kontengruppen dazu verwenden, das Layout Ihrer Finanzberichte zu ändern. Wenn Sie Ihre Kontengruppen auf der Seite **Sachkontokategorien** eingerichtet haben und die Aktion **Kontenschemata generieren** auswählen, werden die zugrunde liegenden Kontenschemata für die Kernfinanzberichte aktualisiert. Wenn Sie das nächste Mal einen dieser Berichte wie die Saldoabrechnung ausführen, werden neue Summen und Untereinträge basierend auf Ihren Änderungen hinzugefügt. Weitere Informationen finden Sie unter [Kontokategorien](finance-general-ledger.md#account-categories).  
+## <a name="gl-account-categories"></a>Sachkontokategorien
+Sie können Sachkontokategorien dazu verwenden, das Layout Ihrer Finanzberichte zu ändern. Wenn Sie Ihre Kontengruppen auf der Seite **Sachkontokategorien** eingerichtet haben und die Aktion **Kontenschemata generieren** auswählen, werden die zugrunde liegenden Kontenschemata für die Kernfinanzberichte aktualisiert. Wenn Sie das nächste Mal einen dieser Berichte wie die **Saldoabrechnung** ausführen, werden neue Summen und Untereinträge basierend auf Ihren Änderungen hinzugefügt.
+
+> [!NOTE]
+> Die Kontokategorien der obersten Ebene wie beispielsweise der **Verbindlichkeiten**-Knoten sind fest, und Sie können keine eigenen hinzufügen. Sie können jedoch Kontokategorien auf niedrigeren Ebenen löschen und hinzufügen und ihre Struktur ändern, um zu definieren, wie der zugehörige Kontoplan in Berichten angezeigt wird.<br /><br />
+> Es wird empfohlen, eigene Sachkontokategorien auf einer niedrigeren Ebene von Grund auf neu, bei Bedarf in einer Hierarchie, zu erstellen, anstatt die vorhandenen neu anzuordnen. Sie können beispielsweise den Knoten **Verbindlichkeiten** neu strukturieren, sodass er den neuen Knoten **Eigenkapital** gefolgt von den Knoten **Kurzfristige Verbindlichkeiten** und **Langfristige Verbindlichkeiten** enthalten.
 
 ## <a name="to-create-a-new-account-schedule"></a>So erstellen Sie neue Kontenschemata  
 Sie benutzen Kontenschemata zum Analysieren der Werte auf Sachkonten oder zum Vergleichen von Sachposten mit Finanzbudgetposten. Sie können beispielsweise die Sachposten als prozentualen Anteil der Finanzbudgetposten sehen.
@@ -192,7 +196,7 @@ Wenn die Berechnung gemäß regulärer Zeitperioden erfolgen soll, muss eine For
 > [!NOTE]
 > Es ist jedoch nicht immer transparent, welche Perioden Sie vergleichen, da Sie einen Datumsfilter in einem Bericht festlegen können, die verschiedene Daten als die Buchhaltungsperioden umfasst, die Daten im Kontenplan angezeigt werden. Beispielsweise können Sie ein Kontenschema erstellen, in dem Sie diese Periode mit derselben Periode des Vorjahrs vergleichen möchten, damit Sie den **Vergleichs-Datums-Perioden-Filter** im Feld *1GJ* festlegen. Dann führen Sie den Bericht am 28. Februar aus und legen die Datumsfilter des Januar und Februar fest. Deshalb vergleicht das Kontenschema Januar und Februar dieses Jahr mit dem Januar des Vorjahrs, die die einzige abgeschlossene Buchhaltungsperiode der zwei für das Vorjahr ist.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-financial-reports-dynamics-365-business-centralindex"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 [Business Intelligence](bi.md)  

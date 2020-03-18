@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4ce48121b36ecd3f153d846f346c52b39a0c64bb
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 154d72032171fa6fbe223ba4f152f868d577c8c7
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999904"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076707"
 ---
 # <a name="about-the-data-exchange-framework"></a>Über das Datenaustauschframework
 Sie können das Datenaustauschframework verwenden, um den Austausch von Geschäftsbelegen, Bankdateien, Währungswechselkursen und sämtlichen anderen Datendateien mit Ihren Geschäftspartnern zu verwalten.
@@ -40,13 +40,13 @@ Als Administrator oder Microsoft-Partner können Sie das Framework in neuen Inte
   Um zum Beispiel eine Rechnung als elektronischer OCR-Beleg zu empfangen, verarbeiten Sie diese genauso wie beim Empfang eines elektronischen PEPPOL-Belegs. Der Empfang und die Konvertierung von elektronischen Belegen von OCR wird über das Datenaustauschframework durchgeführt, das durch die Datenaustauschdefinition **OCR - Rechnung** dargestellt wird.  
 
  ## <a name="bank-files"></a>Bankdateien  
- Die Formate der Dateien für den Austausch von Bankdaten mit ERP-Systemen variieren je nach Anbieter der Datei und Land oder Region. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt den Import und Export von SEPA-Bankdateien (Single Euro Payments Area) und die AMC Banking 365 Fundamentals Erweiterung ermöglicht die Verbindung zu einem Bankdatenkonvertierungsdienst des externen Anbieters AMC Consult. Um Unterstützung für andere elektronische Belegformate zu bieten, verwenden Sie das Datenaustauschframework.  
+ Die Formate der Dateien für den Austausch von Bankdaten mit ERP-Systemen variieren je nach Anbieter der Datei und Land oder Region. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt den Import und Export von SEPA-Bankdateien (Single Euro Payments Area) und die AMC Banking 365 Fundamentals-Erweiterung ermöglicht die Verbindung zu einer AMC Banking 365 Fundamentals-Erweiterung des externen Anbieters AMC Consult. Um Unterstützung für andere elektronische Belegformate zu bieten, verwenden Sie das Datenaustauschframework.  
 
- Um SEPA-Gutschriftübertragungen zu exportieren, wählen Sie die Schaltfläche **Zahlungen in Datei exportieren** auf der Seite **Zahlungs-Buch-Blatt.** aus und laden die Datei dann hoch, um die Zahlungen bei Ihrer Bank in Auftrag zu geben. Zuerst müssen Sie verschiedene Stammdaten einrichten, wie Bankkonto, Kreditoren und Zahlungsformen. Die Datenkonvertierung und der Export von SEPA-Bankdaten erfolgen durch eine dedizierte Codeunit und XMLport, die durch das Bank-Export-/Import-Setup **SEPA-Kreditübertragung** dargestellt werden. Alternativ können Sie die AMC Banking 365 Fundamentals Erweiterung für den Export einrichten, dargestellt durch den **Bankdaten-Konvertierungsdienst - Kreditübertragung** Datenaustauschdefinition.  
+ Um SEPA-Gutschriftübertragungen zu exportieren, wählen Sie die Schaltfläche **Zahlungen in Datei exportieren** auf der Seite **Zahlungs-Buch-Blatt.** aus und laden die Datei dann hoch, um die Zahlungen bei Ihrer Bank in Auftrag zu geben. Zuerst müssen Sie verschiedene Stammdaten einrichten, wie Bankkonto, Kreditoren und Zahlungsformen. Die Datenkonvertierung und der Export von SEPA-Bankdaten erfolgen durch eine dedizierte Codeunit und XMLport, die durch das Bank-Export-/Import-Setup **SEPA-Kreditübertragung** dargestellt werden. Alternativ können Sie die AMC Banking 365 Fundamentals-Erweiterung für den Export einrichten, dargestellt durch die **AMC Banking 365 Fundamentals-Erweiterung – Kreditübertragung** Datenaustauschdefinition.  
 
  Um SEPA-Lastschriften zu exportieren, wählen Sie die Schaltfläche **Lastschriftdatei exportieren** auf der Seite **Lastschrift** aus und senden die Datei dann zu Ihrer Bank, damit die entsprechenden Debitorenzahlungen automatisch erfasst werden. Zuerst müssen Sie Bankkonten, Debitoren, Lastschrift-Mandage und Zahlungsformen einrichten. Die Datenkonvertierung und der Export von SEPA-Bankdaten erfolgt durch eine dedizierte Codeunit und XMLport, die durch das Bank-Export-/Import-Setup **SEPA-Lastschrift** dargestellt werden.  
 
- Um SEPA-Bankauszüge zu importieren, wählen Sie die Schaltfläche "Bankauszug importieren" in den Fenstern **Zahlungsabstimmungsbuch.-Blatt** und **Bankkonto-Abstimmung** aus. Gleichen Sie dann die einzelnen Bankkontoauszugsposten manuell oder automatisch mit Zahlungen der Bankposten aus. Zuerst müssen Sie Bankkonten einrichten. Der Import und die Datenkonvertierung von SEPA-Bankdaten erfolgen über das Datenaustauschframework, das durch die Datenaustauschdefinition **SEPA CAMT** dargestellt wird. Alternativ können Sie auch die Erweiterung AMC Banking 365 Fundamentals für den Import einrichten, dargestellt durch den **Bankdaten-Konvertierungsdienst - Kreditübertragung** Datenaustauschdefinition.  
+ Um SEPA-Bankauszüge zu importieren, wählen Sie die Schaltfläche "Bankauszug importieren" in den Fenstern **Zahlungsabstimmungsbuch.-Blatt** und **Bankkonto-Abstimmung** aus. Gleichen Sie dann die einzelnen Bankkontoauszugsposten manuell oder automatisch mit Zahlungen der Bankposten aus. Zuerst müssen Sie Bankkonten einrichten. Der Import und die Datenkonvertierung von SEPA-Bankdaten erfolgen über das Datenaustauschframework, das durch die Datenaustauschdefinition **SEPA CAMT** dargestellt wird. Alternativ können Sie die AMC Banking 365 Fundamentals-Erweiterung für den Export einrichten, dargestellt durch die Datenaustauschdefinition für **AMC Banking 365 Fundamentals-Erweiterung – Kreditübertragung**.  
 
  Darüber hinaus unterstützen die lokalen Versionen von [!INCLUDE[d365fin](includes/d365fin_md.md)] verschiedene andere Dateiformate für den Import und Export von Bankdaten, Lohnabrechnungen und anderen Daten. Weitere Informationen finden Sie im Abschnitt „Lokale Funktion“ in der Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] für Ihr Land.
 
