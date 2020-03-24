@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
-ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
+ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918214"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097696"
 ---
 # <a name="migrate-customer-data"></a>Migrieren von Debitorendaten
 Sie können vorhandene Debitorendaten aus einem vorhandenen ERP-System nach [!INCLUDE[d365fin](includes/d365fin_md.md)] migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben.
@@ -31,7 +31,7 @@ Wenn Sie ein neues Unternehmen erstellen, können Sie Unternehmenseinstellungen 
 > [!NOTE]  
 >  Sie können eine Datei, die nicht bereits ein RapidStart Services-Konfigurationspaket ist, nicht als eine .rapidstart-Konfigurationspaketdatei umbenennen und versuchen, sie zu importieren. Wenn Sie versuchen so zu tun, erhalten Sie eine Fehlermeldung.  
 
-Bevor Sie beginnen, müssen Sie sicherstellen, dass Sie über die Berechtigung zum Ausführen von RapidStart Services-Objekten verfügen. Beispielsweise können Sie über den Berechtigungssatz SUPER verfügen oder ein interner oder delegierter Administrator sein. Wir empfehlen außerdem, dass Sie sich in einem Rollencenter mit Links zu RapidStart Services, wie dem Verwaltungsrollencenter befinden. Weitere Informationen finden Sie unter [So ändern Sie die Rolle](ui-change-basic-settings.md#to-change-the-role).  
+Bevor Sie beginnen, müssen Sie sicherstellen, dass Sie über die Berechtigung zum Ausführen von RapidStart Services-Objekten verfügen. Sie können beispielsweise über die Berechtigungssätze SUPER oder D365 RAPIDSTART verfügen. Wir empfehlen außerdem, dass Sie sich in einem Rollencenter mit Links zu RapidStart Services, wie dem Verwaltungsrollencenter befinden. Weitere Informationen finden Sie unter [So ändern Sie die Rolle](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > Wenn Sie Konfigurationspakete zwischen zwei Mandantendatenbanken exportieren und importieren, sollten die Datenbanken dasselbe Schema haben, damit sichergestellt ist, dass alle Daten erfolgreich übertragen werden. Das bedeutet, dass die Datenbanken dieselbe Tabelle und Feldstruktur aufweisen sollten, wobei die Tabellen dieselben Primärschlüssel und die Felder dieselben IDs und Datentypen haben.  
@@ -116,7 +116,7 @@ Im folgenden Beispiel wird veranschaulicht, wie [!INCLUDE[d365fin](includes/d365
 2. Fügen Sie zusätzliche Tabellen dem Paket hinzu, zum Beispiel **Debitor** und **Kreditor**. Diese beiden Tabellen referenzieren zur Tabelle **Verkäufer/Käufer** über die Felder **Einkäufercode** und **Verkäufercode**.  
 3. Wenn Sie Daten ausgleichen, wird die Zuordnung, die Sie für das Feld **Code** in der Tabelle **Verkäufer/Käufer** bereitgestellt haben, auch während der Verarbeitung der Felder **Verkäufercode** und **Einkäufercode** berücksichtigt.
 
-## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Um [!INCLUDE[d365fin](includes/d365fin_md.md)] weitere Werte hinzufügen  
+## <a name="to-add-additional-values-to-d365fin"></a>Um [!INCLUDE[d365fin](includes/d365fin_md.md)] weitere Werte hinzufügen  
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Tabelle, für die Sie zusätzliche Werte zuordnen möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Felder** aus.  
 3. Für die Felder, für die Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] während der Migration zusätzliche Werte ermöglichen möchten, wählen Sie das **Fehlende Codes erstellen**-Kontrollkästchen.  
