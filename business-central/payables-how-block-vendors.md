@@ -8,32 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/14/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f28d1c11889d496072d57cfdb70f3c743037bff3
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b0ff7e3de9de21a37c0cacf6ff1d4b0a4871f61d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954282"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190275"
 ---
-# <a name="block-vendors"></a><span data-ttu-id="3c77b-103">Kreditoren sperren</span><span class="sxs-lookup"><span data-stu-id="3c77b-103">Block Vendors</span></span>
-<span data-ttu-id="3c77b-104">Sie können Kreditoren, zum Beispiel aufgrund von Zahlungsunfähigkeit sperren, so dass der Kreditor nicht zu Einkaufsbelegen hinzugefügt werden kann, oder dass keine Zahlungen für den Kreditor gebucht werden können.</span><span class="sxs-lookup"><span data-stu-id="3c77b-104">You can block a vendor, for example because of insolvency, so that the vendor cannot be added to purchase documents or so that no payments can be posted for the vendor.</span></span>
+# <a name="block-vendors"></a><span data-ttu-id="bed96-103">Kreditoren sperren</span><span class="sxs-lookup"><span data-stu-id="bed96-103">Block Vendors</span></span>
+<span data-ttu-id="bed96-104">Sie können Kreditoren, zum Beispiel aufgrund von Zahlungsunfähigkeit sperren, so dass der Kreditor nicht zu Einkaufsbelegen hinzugefügt werden kann, oder dass keine Zahlungen für den Kreditor gebucht werden können.</span><span class="sxs-lookup"><span data-stu-id="bed96-104">You can block a vendor, for example because of insolvency, so that the vendor cannot be added to purchase documents or so that no payments can be posted for the vendor.</span></span>
 
-<span data-ttu-id="3c77b-105">Die drei Optionen zum Sperren von Kreditoren werden in den folgenden Tabelle beschrieben.</span><span class="sxs-lookup"><span data-stu-id="3c77b-105">The following table describes the options for blocking vendors.</span></span>  
+<span data-ttu-id="bed96-105">Die drei Optionen zum Sperren von Kreditoren werden in den folgenden Tabelle beschrieben.</span><span class="sxs-lookup"><span data-stu-id="bed96-105">The following table describes the options for blocking vendors.</span></span>  
 
-|<span data-ttu-id="3c77b-106">Option</span><span class="sxs-lookup"><span data-stu-id="3c77b-106">Option</span></span>|<span data-ttu-id="3c77b-107">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="3c77b-107">Description</span></span>|  
+|<span data-ttu-id="bed96-106">Option</span><span class="sxs-lookup"><span data-stu-id="bed96-106">Option</span></span>|<span data-ttu-id="bed96-107">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="bed96-107">Description</span></span>|  
 |--------------------|------------|  
-|<span data-ttu-id="3c77b-108">**"Leer"**</span><span class="sxs-lookup"><span data-stu-id="3c77b-108">**Blank**</span></span>|<span data-ttu-id="3c77b-109">Transaktionen sind für diesen Kreditor zulässig.</span><span class="sxs-lookup"><span data-stu-id="3c77b-109">Transactions are allowed for this vendor.</span></span>|
-|<span data-ttu-id="3c77b-110">**Zahlung**</span><span class="sxs-lookup"><span data-stu-id="3c77b-110">**Payment**</span></span>|<span data-ttu-id="3c77b-111">Für diesen Kreditor können keine neuen Zahlungen erstellt werden.</span><span class="sxs-lookup"><span data-stu-id="3c77b-111">New payments cannot be created for this vendor.</span></span>|  
-|<span data-ttu-id="3c77b-112">**Alle**</span><span class="sxs-lookup"><span data-stu-id="3c77b-112">**All**</span></span>|<span data-ttu-id="3c77b-113">Für diesen Kreditor sind keine Transaktionen zulässig.</span><span class="sxs-lookup"><span data-stu-id="3c77b-113">No transactions are allowed for this vendor.</span></span>|  
+|<span data-ttu-id="bed96-108">**"Leer"**</span><span class="sxs-lookup"><span data-stu-id="bed96-108">**Blank**</span></span>|<span data-ttu-id="bed96-109">Transaktionen sind für diesen Kreditor zulässig.</span><span class="sxs-lookup"><span data-stu-id="bed96-109">Transactions are allowed for this vendor.</span></span>|
+|<span data-ttu-id="bed96-110">**Zahlung**</span><span class="sxs-lookup"><span data-stu-id="bed96-110">**Payment**</span></span>|<span data-ttu-id="bed96-111">Für diesen Kreditor können keine neuen Zahlungen erstellt werden.</span><span class="sxs-lookup"><span data-stu-id="bed96-111">New payments cannot be created for this vendor.</span></span>|  
+|<span data-ttu-id="bed96-112">**Alle**</span><span class="sxs-lookup"><span data-stu-id="bed96-112">**All**</span></span>|<span data-ttu-id="bed96-113">Für diesen Kreditor sind keine Transaktionen zulässig.</span><span class="sxs-lookup"><span data-stu-id="bed96-113">No transactions are allowed for this vendor.</span></span>|  
 
-## <a name="to-block-a-vendor"></a><span data-ttu-id="3c77b-114">So blockieren Sie einen Kreditor</span><span class="sxs-lookup"><span data-stu-id="3c77b-114">To block a vendor</span></span>  
-1. <span data-ttu-id="3c77b-115">Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="3c77b-115">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
-2. <span data-ttu-id="3c77b-116">Wählen Sie den Kreditor aus, den Sie blockieren möchten.</span><span class="sxs-lookup"><span data-stu-id="3c77b-116">Select the vendor that you want to block.</span></span>
-3. <span data-ttu-id="3c77b-117">Wählen Sie im Feld **Blockiert** eine der Blockierungsoptionen.</span><span class="sxs-lookup"><span data-stu-id="3c77b-117">In the **Blocked** field, choose one of the options for blocking.</span></span>
+## <a name="to-block-a-vendor"></a><span data-ttu-id="bed96-114">So blockieren Sie einen Kreditor</span><span class="sxs-lookup"><span data-stu-id="bed96-114">To block a vendor</span></span>  
+1. <span data-ttu-id="bed96-115">Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="bed96-115">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="bed96-116">Wählen Sie den Kreditor aus, den Sie blockieren möchten.</span><span class="sxs-lookup"><span data-stu-id="bed96-116">Select the vendor that you want to block.</span></span>
+3. <span data-ttu-id="bed96-117">Wählen Sie im Feld **Blockiert** eine der Blockierungsoptionen.</span><span class="sxs-lookup"><span data-stu-id="bed96-117">In the **Blocked** field, choose one of the options for blocking.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="3c77b-118">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3c77b-118">See Also</span></span>  
-[<span data-ttu-id="3c77b-119">Registriert einen neuen Kreditor</span><span class="sxs-lookup"><span data-stu-id="3c77b-119">Register New Vendors</span></span>](purchasing-how-register-new-vendors.md)  
-[<span data-ttu-id="3c77b-120">Zahlungen vornehmen</span><span class="sxs-lookup"><span data-stu-id="3c77b-120">Making Payments</span></span>](payables-make-payments.md)  
-[<span data-ttu-id="3c77b-121">Verwalten von Verbindlichkeiten</span><span class="sxs-lookup"><span data-stu-id="3c77b-121">Managing Payables</span></span>](payables-manage-payables.md)
+## <a name="see-also"></a><span data-ttu-id="bed96-118">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="bed96-118">See Also</span></span>  
+[<span data-ttu-id="bed96-119">Registriert einen neuen Kreditor</span><span class="sxs-lookup"><span data-stu-id="bed96-119">Register New Vendors</span></span>](purchasing-how-register-new-vendors.md)  
+[<span data-ttu-id="bed96-120">Zahlungen vornehmen</span><span class="sxs-lookup"><span data-stu-id="bed96-120">Making Payments</span></span>](payables-make-payments.md)  
+[<span data-ttu-id="bed96-121">Verwalten von Verbindlichkeiten</span><span class="sxs-lookup"><span data-stu-id="bed96-121">Managing Payables</span></span>](payables-manage-payables.md)
