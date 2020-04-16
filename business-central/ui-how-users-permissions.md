@@ -8,143 +8,142 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e07636b6211eb57205d41d982bfbfb4bc2d5b330
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 7509b60a72ee520d7adcd739034e23326882daf1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030052"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195531"
 ---
 # <a name="create-users-according-to-licenses"></a>Benutzer nach Lizenzen anlegen
-Im Folgenden wird beschrieben, wie Sie als Administrator Benutzer anlegen und definieren, wer sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden darf und welche Grundrechte verschiedene Benutzertypen entsprechend den Lizenzen haben.
+Dieses Thema beschreibt, wie Administratoren Benutzer anlegen und festlegen, wer sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden kann und welche Berechtigungen den verschiedenen Benutzertypen entsprechend den Lizenzen erteilt werden.
 
-Wenn Benutzer unter [!INCLUDE[d365fin](includes/d365fin_md.md)] angelegt werden, können Sie den Benutzern über Berechtigungssätze spezifische Berechtigungen zuweisen und Benutzer in Benutzergruppen organisieren, um die Berechtigungsverwaltung zu erleichtern. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
+Wenn Sie Benutzer in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen, können Sie ihnen über Berechtigungssätze spezifische Berechtigungen zuweisen und Benutzer in Benutzergruppen organisieren. Benutzergruppen machen es einfacher, Berechtigungen für mehrere Benutzer gleichzeitig zu verwalten. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> Der Prozess der Verwaltung von Benutzern und Lizenzen variiert je nachdem, ob Ihre Lösung online oder vor Ort bereitgestellt wird. Beispielsweise können Sie in Online-Bereitstellungen einen Benutzer nur dann deaktivieren und aktivieren, wenn er zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzugefügt wurde. In lokalen Implementierungen können Sie Benutzer erstellen, bearbeiten und löschen.  
+> Der Prozess der Benutzer- und Lizenzverwaltung variiert je nachdem, ob [!INCLUDE[d365fin](includes/d365fin_md.md)] online oder vor Ort eingesetzt wird. Bei Online-Bereitstellungen können Sie beispielsweise Benutzer erst verwalten, nachdem sie zu [!INCLUDE[d365fin](includes/d365fin_md.md)] von Office 365 hinzugefügt wurden. In Vor-Ort-Bereitstellungen können Sie Benutzer direkt erstellen, bearbeiten und löschen.  
 
 ## <a name="managing-users-and-licenses-in-online-deployments"></a>Verwalten von Benutzern und Lizenzen in Online-Bereitstellungen
-Bei [!INCLUDE[d365fin](includes/d365fin_md.md)] online wird die Anzahl der Benutzer durch das Abonnement definiert und Ihrem Mandaten im Microsoft Partner Center, typischerweise von Ihrem Microsoft-Partner, hinzugefügt. Weitere Informationen finden Sie unter [Neukunden hinzufügen](https://docs.microsoft.com/partner-center/add-a-new-customer) und [Kundenabonnements anlegen, aussetzen oder kündigen](https://docs.microsoft.com/partner-center/create-a-new-subscription) in der Microsoft Partner Center Hilfe.
+In der Online-Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] wird die Anzahl der Benutzer durch das Abonnement definiert und Ihrem Mandanten im Microsoft Partner Center hinzugefügt, in der Regel durch Ihren Microsoft-Partner. Weitere Informationen finden Sie unter [Neukunden hinzufügen](https://docs.microsoft.com/partner-center/add-a-new-customer) und [Kundenabonnements anlegen, aussetzen oder kündigen](https://docs.microsoft.com/partner-center/create-a-new-subscription) in der Microsoft Partner Center Hilfe.
 
-Um zu definieren, wer sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden darf, müssen die Produktlizenzen den Benutzern entsprechend den Rollen zugeordnet werden, die sie bei [!INCLUDE[d365fin](includes/d365fin_md.md)] übernehmen werden. Dies kann auf folgende Weise geschehen:
+Um festzulegen, wer sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden kann, müssen Sie den Benutzern Produktlizenzen entsprechend den Rollen zuweisen, die sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] ausführen werden. Dies kann auf folgende Weise geschehen:
 - Der Office 365-Administrator Ihres Unternehmens kann dies im [Microsoft 365 Administrationscenter](https://admin.microsoft.com) tun. Weitere Informationen finden Sie unter [Benutzer einzeln oder in großen Mengen zu Office 365](https://aka.ms/CreateOffice365Users) hinzufügen.  
 - Ein Microsoft-Partner kann Lizenzen im Microsoft 365 Administrationscenter oder im Microsoft Partner Center vergeben. Weitere Informationen finden Sie unter [Benutzerverwaltung für Kundenkonten](https://docs.microsoft.com/partner-center/assign-licenses-to-users) in der Hilfe zum Microsoft Partner Center.
 
-Weitere Informationen finden Sie unter [Administration von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in der Hilfe für Entwickler und ITPro.
+Weitere Informationen finden Sie unter [Verwaltung von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in der Hilfe für Entwickler und IT-Pro.
 
-Wenn Benutzer mit einer [!INCLUDE[d365fin](includes/d365fin_md.md)]-Lizenz in Office 365 erstellt werden, können sie auf die Seite **Benutzer** in [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe der Aktion **Neue Benutzer von Office 365 abrufen** importiert werden.
+Wenn Benutzern eine Lizenz für [!INCLUDE[d365fin](includes/d365fin_md.md)] in Office 365 zugewiesen wird, können Sie sie auf die Seite **Benutzer** in [!INCLUDE[d365fin](includes/d365fin_md.md)] importieren, indem Sie die Aktion **Neue Benutzer von Office 365** abrufen verwenden.
 
-### <a name="to-add-a-user-in-business-central"></a>Hinzufügen eines Benutzers in Business Central
-Um Benutzer aus dem Microsoft 365 Administrationscenter online auf [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen, verwenden Sie eine spezielle Importfunktion.  
+### <a name="to-add-a-user-or-update-user-information-in-business-central"></a><a name="adduser"></a>Um einen Benutzer hinzuzufügen oder Benutzerinformationen in Business Central zu aktualisieren
+Verwenden Sie dedizierte Importfunktionen, um neue Benutzer hinzuzufügen oder Benutzerinformationen in [!INCLUDE[d365fin](includes/d365fin_md.md)] aus dem Microsoft 365 Admin Center zu aktualisieren.  
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Benutzer** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die Aktion **Neue Benutzer von Office 365 abrufen** aus.
+2. Je nachdem, was Sie tun möchten, wählen Sie entweder die Aktion **Neue Benutzer von Office 365** oder **Benutzer aktualisieren von Office 365**.
 
-Jeder neue Benutzer, der für Ihr Office 365-Abonnement erstellt wurde, wird auf der Seite **Benutzer** hinzugefügt. Den Benutzern werden Berechtigungssätze entsprechend der dem Benutzer unter Office 365 zugewiesenen Lizenz zugewiesen. Anschließend können Sie den Benutzern detailliertere Berechtigungen zuweisen und sie zur einfachen Berechtigungsverwaltung in Benutzergruppen organisieren. Weitere Informationen finden Sie unter [Zuordnen von Berechtigungssätzen zu Benutzern](ui-define-granular-permissions.md#to-assign-permission-sets-to-users).
+Die neuen Benutzer und Benutzerinformationen in Ihrem Office 365-Abonnement werden auf der Seite **Benutzer** in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzugefügt. Weitere Informationen über die Synchronisierung von Benutzerinformationen mit Office 365 finden Sie unter [Synchronisierung mit Office 365](ui-how-users-permissions.md#synchronization-with-office-365).
 
 > [!NOTE]
 > Wenn Sie einen externen Buchhalter verwenden, um Ihre Bücher und Finanzberichterstattung zu verwalten, können Sie ihn/sie in Ihr Business Central einladen, damit er/sie mit Ihnen an Ihren Steuerdaten zu arbeiten. Weitere Informationen finden Sie unter [Ihren externen Buchhalter in Ihr Business Central einladen](finance-accounting.md#inviteaccountant)
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>So entfernen Sie den Zugriff eines Benutzers auf das System
-In Online-Bereitstellungen können Sie den Zugriff eines Benutzers auf das System entfernen, indem Sie das Feld **Status** auf **Deaktiviert** setzen. Alle Referenzen auf den Benutzer bleiben erhalten, aber der Benutzer kann sich nicht mehr am System anmelden und aktive Sitzungen für den Benutzer werden beendet.
+In Online-Bereitstellungen können Sie einem Benutzer den Zugriff auf [!INCLUDE[d365fin](includes/d365fin_md.md)] entziehen. Alle Verweise auf den Benutzer werden beibehalten, aber der Benutzer kann sich nicht anmelden und aktive Sitzungen für den Benutzer werden beendet.
 
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Benutzer** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Seite **Benutzerkarte** für den jeweiligen Benutzer, und wählen Sie dann im Feld **Status** **Deaktiviert**.
 3. Um dem Benutzer erneut Zugriff zu gewähren, ändern Sie das Feld **Zustand** auf **aktiviert**.
 
-Zusätzlich zur Deaktivierung eines Benutzers können Sie die Zuweisung der Lizenz zu einem Benutzer im Microsoft 365 Admin Center aufheben. Der Benutzer kann sich dann nicht mehr anmelden. Weitere Informationen finden Sie unter [Lizenzen von Benutzern aufheben](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
+Sie können die Lizenz auch von einem Benutzer im Microsoft 365 Admin Center entfernen. Der Benutzer kann sich dann nicht mehr anmelden. Weitere Informationen finden Sie unter [Lizenzen von Benutzern entfernen](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
 
 ### <a name="to-change-the-assigned-license-for-a-user"></a>So ändern Sie die zugewiesene Lizenz für einen Benutzer
-Manchmal kann es erforderlich sein, die Lizenz zu ändern, die einem Benutzer zugeordnet ist. Wenn Sie sich beispielsweise für die Verwendung des Service Management Moduls entscheiden und daher alle Essential-Lizenzen auf Premium aktualisieren müssen. Oder wenn sich die Verantwortung eines Benutzers geändert hat und Sie eine Team Member-Lizenz durch Essential ersetzen müssen.
+Manchmal kann es erforderlich sein, die Lizenz zu ändern, die einem Benutzer zugeordnet ist. Wenn Sie sich beispielsweise für die Verwendung des Service Management Moduls entscheiden und daher alle Essential-Lizenzen auf Premium aktualisieren müssen. Oder wenn sich die Verantwortlichkeit eines Benutzers geändert hat und Sie eine Teammitglied-Lizenz durch eine Lizenz für Essential ersetzen müssen.
 
 1. Ändern Sie die Lizenz im Microsoft 365 Admin Center. Weitere Informationen finden Sie unter [Benutzer einzeln oder in großen Mengen zu Office 365](https://aka.ms/CreateOffice365Users) hinzufügen.
 2. Melden Sie sich als Administrator bei [!INCLUDE[d365fin](includes/d365fin_md.md)] an.
 3. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Benutzer** ein und wählen Sie dann den entsprechenden Link.
 4. Wählen Sie auf der Seite **Benutzer** die Aktion **Standardbenutzergruppen des Benutzers wiederherstellen** aus.
 
-Die Benutzer werden in eine eigene Benutzergruppe verschoben und die Berechtigungsgruppen werden aktualisiert. Weitere Informationen finden Sie unter [Berechtigungen über Benutzergruppen verwalten](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
+Die Benutzer werden in eine eigene Benutzergruppe verschoben und die Berechtigungsgruppen werden aktualisiert. Weitere Informationen finden Sie unter [Berechtigungen über Benutzergruppen verwalten](ui-define-granular-permissions.md).
 
 > [!NOTE]
-> Allen regulären Benutzern in einer Lösung muss die gleiche Lizenz, Essential oder Premium, zugewiesen werden.
-> Informationen zur Lizenzierung finden Sie unter [Microsoft Dynamics 365 Business Central Lizenzleitfaden](https://aka.ms/BusinessCentralLicensing).
+> Alle Benutzer müssen der gleichen Lizenz zugeordnet werden, entweder Essential oder Premium. Weitere Informationen finden Sie im Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch. Der Leitfaden steht auf der Website [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) zum Herunterladen zur Verfügung.
 
 ### <a name="synchronization-with-office-365"></a>Synchronisierung mit Office 365
-Wenn einem Benutzer in Office 365 eine Lizenz zugewiesen ist, gibt es zwei Möglichkeiten, den Benutzer in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erstellen. Das System führt dies automatisch aus, wenn sich der Benutzer zum ersten Mal anmeldet, oder der Administrator kann den Benutzer durch Auswahl der Aktion **Benutzer von Office 365 abrufen** auf der Seite **Benutzer** hinzufügen.
+Wenn Sie einem Benutzer in Office 365 eine Lizenz für [!INCLUDE[d365fin](includes/d365fin_md.md)] zuweisen, gibt es zwei Möglichkeiten, den Benutzer in [!INCLUDE[d365fin](includes/d365fin_md.md)] anzulegen. 
 
-In beiden Fällen werden einige zusätzliche Einstellungen automatisch vorgenommen. Diese sind in der zweiten und dritten Spalte der Tabelle unten aufgeführt.
+* Der Administrator kann den Benutzer hinzufügen, indem er die Aktion **Benutzer aus Office 365** auf der Seite **Benutzer** wählt.
+* Die Lizenzinformationen werden automatisch aktualisiert, wenn sich der Benutzer zum ersten Mal anmeldet.
 
-Wenn Sie den Benutzer in Office 365 danach ändern und Sie die Änderungen mit [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisieren müssen, können Sie unterschiedliche Aktionen auf der Seite **Benutzer** verwenden, abhängig davon, was genau Sie synchronisieren möchten. Diese sind in den letzten drei Spalten in der Tabelle unten aufgeführt.
+In beiden Fällen werden eine Reihe von Einstellungen automatisch vorgenommen. Diese sind in der zweiten und dritten Spalte der Tabelle unten aufgeführt.
 
-|Was passiert, wenn:|Erste Anmeldung|Benutzer abrufen von Office 365|Benutzer aktualisieren von Office 365|Standardbenutzergruppen des Benutzers wiederherstellen|Benutzergruppen aktualisieren|
+Wenn Sie die Benutzerinformationen in Office 365 ändern, können Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] aktualisieren, um die Änderung widerzuspiegeln. Je nachdem, was Sie aktualisieren möchten, verwenden Sie eine der Aktionen auf der Seite **Benutzer**. Die Aktionen werden in den letzten drei Spalten in der folgenden Tabelle beschrieben.
+
+|Was passiert, wenn:|Erster Benutzer, erste Anmeldung|Benutzer abrufen von Office 365|Benutzer aktualisieren von Office 365|Standardbenutzergruppen des Benutzers wiederherstellen|Benutzergruppen aktualisieren|
 |-|-|-|-|-|-|
 |Umfang:|Aktueller Benutzer|Neue Benutzer in Office 365|Mehrere ausgewählte Benutzer|Einzelner ausgewählter Benutzer (außer aktuellem)|Mehrere ausgewählte Benutzer|
-|Erstellen Sie den neuen Benutzer und weisen Sie ihm einen SUPER-Berechtigungssatz zu.<br /><br />Plattform|**X**|**X**| | | |
-|Aktualisieren Sie den Benutzerdatensatz basierend auf den tatsächlichen Informationen in Office 365: Status, vollständiger Name, Kontakt-E-Mail, Authentifizierungs-E-Mail.<br /><br />Codeunit "Azure AD   Graph-Benutzer".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
-|Synchronisieren Sie Benutzerpläne (Lizenzen) mit Lizenzen und Rollen, die in Office 365 zugewiesen sind.<br /><br />Codeunit "Azure AD   Graph-Benutzer".UpdateUserPlans|**X**|**X**| |**X**|**X**|
-|Fügen Sie den Benutzer gemäß den aktuellen Benutzerplänen zu Benutzergruppen hinzu. Widerrufen Sie den SUPER-Berechtigungssatz. (Mindestens ein SUPER wird benötigt. Widerrufen Sie nicht von [Administratoren](/dynamics365/business-central/dev-itpro/administration/tenant-administration) aus.)<br /><br />Codeunit "Berechtigungsmanager". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Überschreiben: Entfernen Sie den Benutzer aus anderen Gruppen. Entfernen Sie manuell zugewiesene Berechtigungssätze.|**X**<br /><br />Additiv: Behalten Sie die aktuelle Mitgliedschaft in der Benutzergruppe und die zugewiesenen Berechtigungssätze intakt. Fügen Sie Benutzer nur bei Bedarf zu Gruppen hinzu.|
+|Erstellen Sie den neuen Benutzer und weisen Sie ihm einen SUPER-Berechtigungssatz zu.<br /><br /><!--Platform-->|**X**|| | | |
+|Aktualisieren Sie den Benutzerdatensatz basierend auf den tatsächlichen Informationen in Office 365: Status, vollständiger Name, Kontakt-E-Mail, Authentifizierungs-E-Mail.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**| |
+|Synchronisieren Sie Benutzerpläne (Lizenzen) mit Lizenzen und Rollen, die in Office 365 zugewiesen sind.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**| |**X**|**X**|
+|Fügen Sie den Benutzer gemäß den aktuellen Benutzerplänen zu Benutzergruppen hinzu. Entfernen Sie die SUPER-Berechtigung für alle Benutzer außer dem ersten angemeldeten Benutzer und [Administratoren](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Mindestens ein SUPER ist erforderlich.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**| |**X**<br /><br />Entfernt manuell zugewiesene Benutzergruppen und Berechtigungen.|**X**<br /><br />Aktualisieren Sie die Benutzergruppenzuordnungen.|
 
 ## <a name="the-device-license"></a>Die Gerätelizenz
-Mit der Dynamics 365 Business Central-Gerätelizenz können mehrere Benutzer ein mit der Gerätelizenz lizenziertes Gerät verwenden, um ein POS-Gerät, ein Werkstattgerät oder ein Lagergerät zu betreiben. Weitere Informationen finden Sie unter [Microsoft Dynamics 365 Business Central Lizenzleitfaden](https://aka.ms/BusinessCentralLicensing).
+Die Dynamics 365 Business Central-Gerätelizenz erlaubt es mehreren Benutzern, ein Gerät, das von der Lizenz abgedeckt ist, gleichzeitig zu benutzen. Dabei kann es sich z.B. um eine Verkaufsstelle, eine Werkstatt oder ein Lagergerät handeln. Wenn Sie eine Anzahl von Gerätelizenzen erworben haben, können sich bis zu dieser Anzahl von Benutzern, die der Gruppe Dynamics 365 Business Central Gerätebenutzer zugeordnet sind, gleichzeitig anmelden. Weitere Informationen finden Sie im Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch. Der Leitfaden steht auf der Website [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) zum Herunterladen zur Verfügung.
 
-Die Gerätelizenz wird als Concurrent-User-Modell implementiert. Wenn Sie eine Anzahl von X Gerätelizenzen erworben haben, können sich bis zu X Benutzer aus der festgelegten Gruppe namens Dynamics 365 Business Central-Gerätebenutzer gleichzeitig anmelden.
-
-Der Office 365-Administrator Ihres Unternehmens oder der Microsoft-Partner sollten die angegebene Gerätegruppe erstellen und dieser Gruppe Gerätebenutzer als Mitglieder hinzufügen. Sie können dies im [Microsoft 365 Admin Center](https://admin.microsoft.com/) oder im [Azure Portal](https://portal.azure.com/) tun.
+Der Office 365-Administrator Ihres Unternehmens oder Ihr Microsoft-Partner kann die Dynamics 365 Business Central-Gerätebenutzergruppe erstellen und Gerätebenutzer als Mitglieder im [Microsoft 365 Admin Center](https://admin.microsoft.com/) oder im [Azure Portal](https://portal.azure.com/) hinzufügen.
 
 ### <a name="device-user-limitations"></a>Einschränkungen für Gerätebenutzer
 Benutzer mit der Gerätelizenz können die folgenden Aufgaben in [!INCLUDE[d365fin](includes/d365fin_md.md)] nicht ausführen:
 
--   Richten Sie Aufträge so ein, dass sie als geplante Aufgaben in der Auftragswarteschlange ausgeführt werden. Gerätebenutzer sind gleichzeitige Benutzer. Daher können wir nicht sicherstellen, dass der beteiligte Benutzer im System vorhanden ist, wenn eine erforderliche Aufgabe ausgeführt wird.
+- Richten Sie Aufträge so ein, dass sie als geplante Aufgaben in der Auftragswarteschlange ausgeführt werden. Gerätebenutzer sind gleichzeitige Benutzer. Daher können wir nicht sicherstellen, dass der beteiligte Benutzer im System vorhanden ist, wenn eine erforderliche Aufgabe ausgeführt wird.
 
--   Ein Gerätebenutzer darf nicht der erste Benutzer sein, der sich anmeldet. Ein Benutzer vom Typ Administrator, Vollbenutzer oder Externer Buchhalter muss der erste sein, der sich anmeldet, damit er [!INCLUDE[d365fin](includes/d365fin_md.md)] einrichten kann. Weitere Informationen finden Sie unter [Administratoren](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+- Ein Gerätebenutzer kann nicht der erste Benutzer sein, der sich anmeldet. Ein Benutzer vom Typ Administrator, Vollbenutzer oder externer Buchhalter muss sich als erster anmelden, damit er [!INCLUDE[d365fin](includes/d365fin_md.md)] einrichten kann. Weitere Informationen finden Sie unter [Administratoren](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
 ### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>So erstellen Sie eine Dynamics 365 Business Central-Gerätebenutzergruppe
-1.  Wechseln Sie im Microsoft 365 Admin Center zur **Gruppen**-Seite.
-2.  Wählen Sie die Aktion **Gruppe hinzufügen**.
-3.  Wählen Sie auf der Seite **Gruppentyp auswählen** die Aktion **Sicherheit** und dann die Aktion **Hinzufügen**.
-4.  Auf der Seite **Grundlagen** geben Sie *Dynamics 365 Business Central-Gerätebenutzer* als Name der Gruppe ein.
-
-    > [!Note]
-    > Der Name der Gruppe muss genau wie oben geschrieben sein, auch in einer nicht englischen Einrichtung.
+1. Wechseln Sie im Microsoft 365 Admin Center zur **Gruppen**-Seite.
+2. Wählen Sie die Aktion **Gruppe hinzufügen**.
+3. Wählen Sie auf der Seite **Gruppentyp auswählen** die Aktion **Sicherheit** und dann die Aktion **Hinzufügen**.
+4. Geben Sie auf der Seite **Grundlagen** als Name der Gruppe **Dynamics 365 Business Central Gerätebenutzer** ein.
+  
+   >[!Note]
+   >Der Name der Gruppe muss auf Englisch genau wie in Schritt 4 angegeben geschrieben werden, auch wenn Sie eine andere Sprache verwenden.
 5. Wählen Sie die Schaltfläche **Schließen** aus.
 
 > [!NOTE]
 > Sie können auch eine Gruppe des Typs Office 365 erstellen. Weitere Informationen finden Sie unter [Gruppen vergleichen](https://docs.microsoft.com/office365/admin/create-groups/compare-groups)
 
 ### <a name="to-add-members-to-the-group"></a>So fügen Sie der Gruppe Mitglieder hinzu
-1.  Aktualisieren Sie im Microsoft 365 Admin Center die Seite **Gruppen**, damit Ihre neue Gruppe angezeigt wird.
-2.  Wählen Sie die **Dynamics 365 Business Central-Gerätebenutzer**-Gruppe und dann die **Alle anzeigen und Mitglieder verwalten**-Aktion.
-3.  Wählen Sie die Aktion **Mitglieder hinzufügen**.
-4.  Wählen Sie die Benutzer aus, die Sie hinzufügen möchten, und wählen Sie anschließend die Schaltfläche **Speichern** aus.
-5.  Wählen Sie die Schaltfläche **Schließen** dreimal aus.
+1. Aktualisieren Sie im Microsoft 365 Admin Center die Seite **Gruppen**, damit Ihre neue Gruppe angezeigt wird.
+2. Wählen Sie die **Dynamics 365 Business Central-Gerätebenutzer**-Gruppe und dann die **Alle anzeigen und Mitglieder verwalten**-Aktion.
+3. Wählen Sie die Aktion **Mitglieder hinzufügen**.
+4. Wählen Sie die Benutzer aus, die Sie hinzufügen möchten, und wählen Sie anschließend die Schaltfläche **Speichern** aus.
+5. Wählen Sie die Schaltfläche **Schließen** dreimal aus.
 
-Sie können der Dynamics 365 Business Central-Gerätebenutzergruppe nach Bedarf beliebig viele Benutzer hinzufügen. Die Anzahl der Geräte, auf denen sich Benutzer gleichzeitig anmelden können, wird durch die Anzahl der gekauften Gerätelizenzen definiert.
+Sie können der Dynamics 365 Business Central-Gerätebenutzergruppe nach Bedarf beliebig viele Benutzer hinzufügen. Die Anzahl der Geräte, an denen sich Benutzer gleichzeitig anmelden können, wird jedoch durch die Anzahl der erworbenen Gerätelizenzen definiert.
 
 > [!NOTE]
 > Sie müssen Benutzern, die Mitglieder der Dynamics 365 Business Central-Gerätebenutzergruppe sind, keine [!INCLUDE[d365fin](includes/d365fin_md.md)]-Lizenz zuweisen.
 
 ## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Verwalten von Benutzern und Lizenzen in lokalen Bereitstellungen
-Bei lokalen Implementierungen vor Ort wird in der Lizenzdatei (.flf) eine Anzahl von lizenzierten Benutzern angegeben. Wenn der Administrator oder Microsoft-Partner die Lizenzdatei hochlädt, kann der Administrator festlegen, welche Benutzer sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden können.
+Bei lokalen Bereitstellungen wird die Anzahl der Benutzerlizenzen in der Lizenzdatei (.flf) angegeben. Wenn ein Administrator oder Microsoft-Partner die Lizenzdatei hochlädt, kann der Administrator angeben, welche Benutzer sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden können.
 
 Bei lokalen Implementierungen erstellt, bearbeitet und löscht der Administrator Benutzer direkt von der Seite **Benutzer**.
 
-### <a name="to-edit-or-delete-a-user-on-premises"></a>So bearbeiten oder löschen Sie einen Benutzer vor Ort
+### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>So bearbeiten oder löschen Sie einen Benutzer in einer Vor-Ort-Bereitstellung
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Benutzer** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Benutzer aus, und wählen Sie anschließend die Aktion **Bearbeiten** aus.
 3. Füllen Sie auf der Seite **Benutzerkarte** die Informationen nach Bedarf aus.    
-4. Um einen Benutzer zu löschen, wählen Sie den Benutzer, den Sie löschen möchten, und wählen die Aktion **Löschen** aus.
+4. Um einen Benutzer zu löschen, markieren Sie den Benutzer, den Sie löschen möchten, und wählen Sie dann die Aktion **Löschen**.
 
 > [!NOTE]
-> Für lokale Bereitstellungen von [!INCLUDE[d365fin](includes/d365fin_md.md)] kann der Administrator zwischen verschiedenen Autorisierungsmechanismen für Benutzer auswählen. Wenn Sie einen Benutzer erstellen, stellen Sie je nach Anmeldeinformationstyp in der aktuellen [!INCLUDE[server](includes/server.md)]-Instanz verschiedene Informationen bereit.<br /><br />
-> Weitere Informationen finden Sie unter [Authentifizierungs- und Anmeldeinformationstypen](/dynamics365/business-central/dev-itpro/administration/users-credential-types) im Abschnitt Verwaltung des Entwicklers und des ITPro-Inhalts für. [!INCLUDE[d365fin](includes/d365fin_md.md)]
+> Bei Vor-Ort-Bereitstellungen kann ein Administrator angeben, wie Benutzeranmeldeinformationen in der [!INCLUDE[server](includes/server.md)]-Instanz authentifiziert werden sollen. Wenn Sie einen Benutzer anlegen, geben Sie die Art des Berechtigungsnachweises an, den Sie verwenden.<br /><br />
+> eitere Informationen finden Sie unter [Authentifizierungs- und Beglaubigungstypen](/dynamics365/business-central/dev-itpro/administration/users-credential-types) im Abschnitt Administration des Inhalts Entwickler und IT-Pro für [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Siehe auch
 [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [Profile verwalten](admin-users-profiles-roles.md)  
 [Ändern, welche Merkmale angezeigt werden](ui-experiences.md)  
 [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
-[Vorbereitung für das Geschäft](ui-get-ready-business.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Verwaltung](admin-setup-and-administration.md)  
-[Benutzer zu Office 365 hinzufügen für Unternehmen](https://aka.ms/CreateOffice365Users)  
-[Microsoft Dynamics 365 Business Central Lizenzierungshandbuch](https://aka.ms/BusinessCentralLicensing)  
-[Sicherheit und Schutz in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer und IT-pro Help
+[Benutzer zu Office 365 für Unternehmen hinzufügen](https://aka.ms/CreateOffice365Users)  
+[Sicherheit und Schutz in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in der Hilfe für Entwickler und IT-Profis

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2371c61c36a17df93ccc1a24c588b12613f5c380
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304492"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196615"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Den Status von Synchronisierungsprojekten anzeigen
-Verwenden Sie die **Fehler bei der gekoppelten Datensynchronisation**Seite, um den Status von Synchronisationsprojekten anzuzeigen, die für gekoppelte Datensätze in einer [!INCLUDE[crm_md](includes/crm_md.md)] Integration ausgeführt wurden. Dies umfasst Synchronisierungsprojekte, die aus der Projektwarteschlange ausgeführt wurden, sowie manuelle Synchronisierungsprojekte, die in Datensätzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] ausgeführt wurden. Das Anzeigen des Status ist beispielsweise bei der Fehlerbehebung hilfreich, da Sie auf Details der Fehler zugreifen können, die sich auf gekoppelte Datensätze beziehen. In der Regel werden diese Fehlertypen durch Benutzeraktionen verursacht, z. B. wenn:  
+Verwenden Sie die Seite **Gekoppelte Datensynchronisationsfehler**, um den Status von Synchronisationsjobs anzuzeigen, die für gekoppelte Datensätze in einer Common Data Service- oder [!INCLUDE[crm_md](includes/crm_md.md)]-Integration ausgeführt wurden. Dies umfasst Synchronisierungsprojekte, die aus der Projektwarteschlange ausgeführt wurden, sowie manuelle Synchronisierungsprojekte, die in Datensätzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] ausgeführt wurden. Das Anzeigen des Status ist beispielsweise bei der Fehlerbehebung hilfreich, da Sie auf Details der Fehler zugreifen können, die sich auf gekoppelte Datensätze beziehen. In der Regel werden diese Fehlertypen durch Benutzeraktionen verursacht, z. B. wenn:  
 
 * Zwei Personen haben in beiden Geschäftsanwendungen denselben Datensatz geändert.
 * Jemand hat einen Datensatz in einer der Apps gelöscht, aber nicht in beiden.
@@ -29,7 +29,7 @@ Verwenden Sie die **Fehler bei der gekoppelten Datensynchronisation**Seite, um d
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Anzeigen und Beheben von Synchronisationsfehlern für gekoppelte Datensätze
-1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Gekoppelte Datensynchronisierungsfehler** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Gekoppelte Datensynchronisationsfehler** ein, und wählen Sie dann den entsprechenden Link.
 2. Die Seite **Gekoppelte Daten-Synchronisierungs-Fehler** zeigt Probleme an, die auftraten, als Sie gekoppelte Datensätze synchronisierten. Die folgende Tabelle enthält Aktionen, mit denen Sie Probleme einzeln beheben können:
 
 |Aktion|Beschreibung|
@@ -37,10 +37,10 @@ Verwenden Sie die **Fehler bei der gekoppelten Datensynchronisation**Seite, um d
 |**Kopplung entfernen**|Entkoppelt die Datensätze und sie werden nicht mehr synchronisiert. Um die Synchronisierung der Datensätze fortzusetzen, müssen Sie sie erneut koppeln.|
 |**Wiederholen**|Für jeden Datensatz, in dem ein Fehler gefunden wird, wird die Synchronisierung übersprungen, sofern Sie das Problem nicht manuell beheben. Wiederholen schließt den Datensatz in der nächsten Synchronisation ein.|
 |**Synchronisieren**|Die App versucht, einen Konflikt zu lösen, bei dem ein Datensatz in beiden Geschäftsanwendungen geändert wurde. Sie können die Version des Datensatzes auswählen, die in beiden Apps verwendet werden soll.|
-|**Datensätze wiederherstellen** und **Datensätze löschen**|Diese sind nützlich, wenn ein Datensatz in einer der Apps gelöscht wurde. Datensätze löschen löscht den Datensatz in der App, in der er noch vorhanden ist. Durch die Wiederherstellung wird der Datensatz in der App wiederhergestellt, in der er gelöscht wurde.|
+|**Datensätze wiederherstellen** und **Datensätze löschen**|Diese sind nützlich, wenn ein Datensatz in einer der Geschäftsanwendungen gelöscht wurde. Datensätze löschen löscht den Datensatz in der App, in der er noch vorhanden ist. Wiederherstellen stellt den Datensatz in der Geschäftsanwendung wieder her, in der er gelöscht wurde.|
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>So zeigen Sie das Synchronisierungsprotokoll für einen bestimmten (manuell synchronisierten) Datensatz an
-1. Öffnen Sie beispielsweise einen Debitor, Artikel oder jeden anderen Datensatz, der Daten zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert.
+1. Öffnen Sie z.B. einen Debitor, einen Artikel oder jeden anderen Datensatz, der Daten zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und Common Data Service oder [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert.
 2. Wählen Sie die Aktion**Synchronisierungs-Protokoll** aus, um das Synchronisierungsprotokoll für einen ausgewählten Datensatz anzuzeigen. Beispielsweise ein bestimmter Debitor, den Sie manuell synchronisierten.
 
 ## <a name="see-also"></a>Siehe auch  

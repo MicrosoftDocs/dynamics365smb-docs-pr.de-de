@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 336aa735b703d7924914f4180ce46fd00ea23479
-ms.sourcegitcommit: 70fe73040126960c813804d001b646f81cbf2f38
+ms.openlocfilehash: df7ce179f14fdaea9a65645d6ccf5d69076212db
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943283"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194115"
 ---
 # <a name="the-microsoft-pay-extension"></a>Die Microsoft Pay-Erweiterung
 

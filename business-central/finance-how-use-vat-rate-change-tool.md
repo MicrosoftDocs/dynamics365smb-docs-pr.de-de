@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: andregu
-ms.openlocfilehash: 0fe23bb6b1d4ce6fbf73a1978a66f6d47b8e78fe
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 76c6f8902e9661f4f4dbbbf70487a53bf286edb2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992226"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183164"
 ---
 # <a name="use-the-vat-rate-change-tool"></a>Das MwSt.-Satz-Änderungstool verwenden
 

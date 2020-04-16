@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9774c3472a70967f6b0250e2f02e817f26e9b710
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315132"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195723"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Warum eine Seite für Personalisierungen gesperrt ist
 
-Es gibt zwei Bedingungen, die Sie am Personalisieren einer Seite hindern. Entweder ist die Seite gesperrt (wie von ![Personalisieren sperren](media/personalization-lock-icon.png "Personalisieren sperren") angegeben), oder sie ist blockiert (wie von ![Personalisieren blockiert](media/personalization-blocked-icon.png "Personalisieren blockiert")) angegeben.
+Es gibt zwei Bedingungen, die Sie am Personalisieren einer Seite hindern. Entweder ist die Seite gesperrt (wie durch das Symbol ![Personalisierungssperre](media/personalization-lock-icon.png "Personalisieren sperren") angezeigt) oder sie ist blockiert (wie durch das Symbol ![Personalisierung blockiert](media/personalization-blocked-icon.png "Personalisierung blockiert") angezeigt).
 
 ## <a name="locked-from-personalizing"></a>Für Personalisierung gesperrt
 
-Wenn ein Symbol ![Personalisieren sperren](media/personalization-lock-icon.png "Personalisieren sperren") im Banner **Personalisieren** angezeigt wird, wenn Sie eine Seite öffnen (wie angezeigt) bedeutet dies, dass Sie zurzeit keine Personalisierungsänderungen an der Seite vornehmen können.
+Wenn beim Öffnen einer Seite das Symbol ![Personalisierungssperre](media/personalization-lock-icon.png "Personalisieren sperren") im Banner **Personalisierung** zu sehen ist, bedeutet dies, dass Sie derzeit keine weiteren Personalisierungsänderungen an der Seite vornehmen können.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -38,7 +38,7 @@ Hierfür gibt es zwei Gründe:
 
 ### <a name="unlocking-the-page"></a>Entsperren der Seite
 
-Wenn Sie eine Seite entsperren und dann weiter Personalisieren möchten, wählen Sie ![Personalisieren sperren](media/personalization-lock-icon.png "Personalisieren sperren") und dann **Sperre aufheben** aus.  
+Wenn Sie eine Seite entsperren und weiter personalisieren möchten, wählen Sie das Symbol ![Personalisieren Sperre](media/personalization-lock-icon.png "Personalisieren sperren") und dann die Aktion **Entsperren**.  
 
 Bevor Sie die Seite entsperren, beachten Sie Folgendes:
 
@@ -48,7 +48,7 @@ Bevor Sie die Seite entsperren, beachten Sie Folgendes:
 
 ## <a name="blocked-from-personalizing"></a>Für Personalisierung blockiert
 
-Ein Symbol ![Personalisierung blockiert](media/personalization-blocked-icon.png "Personalisierung blockiert") im Personalisierungsbanner bedeutet, dass jegliche **Personalisierung** der Seite blockiert ist.
+Wenn das Symbol ![Personalisierung blockiert](media/personalization-blocked-icon.png "Personalisierung blockiert") im Banner **Personalisierung** erscheint, bedeutet dies, dass Sie an der Personalisierung der Seite gehindert werden.
 
 <!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 
@@ -58,4 +58,4 @@ Der Grund dafür ist, dass das Rollencenter oder die Rolle, die derzeit mit dem 
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Funktionen, die angezeigt werden ändern](ui-experiences.md)  
+[Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  

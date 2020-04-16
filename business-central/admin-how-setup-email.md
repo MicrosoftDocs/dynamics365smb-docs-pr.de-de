@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910832"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187268"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
-Um E-Mails aus [!INCLUDE[d365fin](includes/d365fin_md.md)] zu senden und zu erhalten, müssen Sie die Felder auf der Seite SMTP-Mail-Einrichtung ausfüllen.
+Um E-Mails aus [!INCLUDE[d365fin](includes/d365fin_md.md)] zu senden und zu erhalten, müssen Sie die Felder auf der Seite **SMTP-Mail-Einrichtung** ausfüllen.
 
 Anstatt die SMTP-Server-Details manuell einzugeben, können Sie die Funktion **Office 365 Server-Einstellungen übernehmen** verwenden, um sie mit den Informationen aus Ihrem Office 365-Abonnement einzugeben.
 

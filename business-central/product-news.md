@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: a75d67cec31953d3e96111ff5558ecd89b461683
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 6d759db09e7e3835a07b9e9138f31da48adc8851
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954211"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190107"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Was ist neu in Dynamics 365 Business Central
 

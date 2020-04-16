@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992083"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194427"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
@@ -29,7 +29,7 @@ Es gibt mehrere Tastenkombinationen, mit denen Sie ohne Maus arbeiten und Ihre D
 
 Weitere Informationen zu diesen Tastenkombinationen finden Sie unter [Tastenkombinationen](keyboard-shortcuts.md). Einige der Tastenkombinationen werden in diesem erläutert Artikel.
 
-## <a name="QuickEntry"></a>Beschleunigende der Dateneingabe mithilfe der Schnelleingabe
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Beschleunigende der Dateneingabe mithilfe der Schnelleingabe
 
 Die Schnelleingabe ist eine Funktion für die Dateneingabe bei Verwendung der Tastatur. Schnelleingabe funktioniert bei Feldern (wie in Kartenseiten) und in Listen (Zeilen und Spalten). Sie ist bei der Durchführung wiederkehrende Tippaufgaben hilfreich, die mehrere Datensätze nacheinander erfordern, wie ein Stapel von Verkaufsaufträgen oder der Registrierung neuer Artikel.
 
@@ -86,11 +86,11 @@ Weitere Informationen finden Sie unter [FAQ zum Kopieren und Einfügen](ui-copy-
 
 ## <a name="filtering-line-items"></a>Filtern von Positionsartikel
 
-Um mit dem Filtern zu beginnen, wählen Sie ![Filterbereichssymbol](media/open-filter-pane-icon.png "Filterbereichssymbol") in der Liste oben aus, oder drücken Sie auf UMSCHALT+F3, um den Filterbereich zu öffnen. Sie arbeiten mit Filterbereich, wie in jeder anderen Liste. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#Filtering).
+Um mit dem Filtern zu beginnen, wählen Sie ![Filterbereichssymbol](media/open-filter-pane-icon.png "Filterbereichssymbol") in der Liste oben aus, oder drücken Sie auf UMSCHALT+F3, um den Filterbereich zu öffnen. Sie arbeiten mit Filterbereich, wie in jeder anderen Liste. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#filtering).
 
 Filterung ist besonders dann von Nutzen, wenn längere Belege anzeigt und analysiert werden. Stellen Sie sich beispielsweise vor, dass Sie eine gebuchte Verkaufsrechnung öffnen und filtern, dass alle Positionsartikel mit einem Einzelrabatt von 5 % haben, oder Sie filtern, dass nur Fahrradzubehör mit "Pro" im Namen angezeigt wird.
 
-## <a name="Focus"></a>Fokussieren auf Positionsartikel
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Fokussieren auf Positionsartikel
 
 Wenn Sie an Dokumenten arbeiten, die einen Zeilenartikelteil enthalten, z. B. eine Kundenauftrags- oder Rechnungsseite, können Sie die Ansicht so ändern, dass nur die Werbebuchungen angezeigt werden. Der Zeilenartikelbereich wird dann so erweitert, dass er fast den gesamten Arbeitsbereich einnimmt und andere Teile der Seite mit Ausnahme des Aktionsbereichs oben verbirgt. Damit erhalten Sie einen besseren Überblick über die Positionsartikel und mehr Platz, um daran zu arbeiten.
 
@@ -113,6 +113,11 @@ Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen
 > [!NOTE]
 > Wenn Sie im Safari-Browser arbeiten, kann ein Popupblocker dazu führen, dass das neue Fenster nicht geöffnet wird. In diesem Fall geben Sie die Produkt-URL als zulässige Website an. Weitere Informationen finden Sie unter [Ändern Sie die Einstellungen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Das Gleiche kann in anderen Browsern wie Firefox passieren. Weitere Informationen finden Sie unter [Popupblocker-Einstellungen in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+
+Eine andere Möglichkeit, Multitasking zu betreiben, besteht darin, die [!INCLUDE[d365fin](includes/d365fin_md.md)] auf zwei oder mehr Browser-Registerkarten zu öffnen. Wenn Sie dies tun, sollten Sie eine neue Registerkarte erstellen und dann die URL der ursprünglichen Registerkarte in die neue Registerkarte kopieren/einfügen. Dadurch wird eine neue Sitzung erstellt.   
+
+> [!NOTE]
+> Verwenden Sie nicht die Funktion **Duplizieren** des Browsers, um die neue Registerkarte zu erstellen, da dies dazu führen kann, dass Aktionen auf einer Registerkarte Aktionen auf anderen Registern blockieren, weil sie Teil derselben Sitzung sind.
 
 ## <a name="entering-quantities-by-calculation"></a>Eingeben von Mengen durch Berechnung
 
@@ -150,7 +155,7 @@ Datums- und Uhrzeitwerte können in alle Felder eingegeben werden, die speziell 
 
 ### <a name="entering-dates"></a>Eingeben von Datumswerten
 
-Für Datumsfelder können Sie die Datenauswahl verwenden, mit der Sie ein Datum aus einem Kalender auswählen können, oder Sie können Datumswerte manuell eingeben. Dieser Abschnitt bietet eine kurze Übersicht über die Dateneingabe. Weitere Informationen finden Sie unter [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md).
+Für Datumsfelder können Sie entweder den Daten-Picker verwenden, mit dem Sie ein Datum aus einem Kalender auswählen können, oder Sie können Daten manuell eingeben. Dieser Abschnitt bietet eine kurze Übersicht über die Dateneingabe. Weitere Informationen finden Sie unter [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md).
 
 Für manuelle Eingabe von Datumsangaben können zwei-, vier-, sechs- oder achtstellige Werte eingegeben werden:  
 

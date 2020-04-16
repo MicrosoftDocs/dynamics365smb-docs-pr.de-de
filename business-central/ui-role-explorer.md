@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 5e6e034aa6a071751893ebae477cb3e22b2635bb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774795"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195363"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Suchen von Seiten mit dem Rollen-Explorer
 Sie können sich einen Überblick über alle Geschäftsfunktionen verschaffen, die für Ihre Rolle und für andere Rollen verfügbar sind, wenn Sie einen Schritt weiter gehen. In der folgenden Dokumentation wird diese Funktionsübersicht als *Rollen-Explorer* bezeichnet.
@@ -27,7 +27,9 @@ Sie können den Rollen-Explorer aus dem Rollencenter und allen Listenseiten sowi
 - Wählen Sie auf Ihrem Rollencenter oder einer beliebigen Listenseite die Schaltfläche ![Menü](media/ui_menu_button.png "Menütaste") rechts neben der Navigationsleiste, oder drücken Sie Umschalt+F12.
 - In dem **Wie möchten Sie weiter verfahren** Fenster wählen Sie die **erforschen** Aktion am unteren Rand.
 
-Um einen Überblick über die Business-Features zu erhalten, die für alle anderen Rollen verfügbar sind, wählen Sie zusätzlich zu Ihrer eigenen die Aktion **Alle durchsuchen** auf der Seite, die den Rollen-Explorer präsentiert.
+Wählen Sie die Aktion **Finden** oben im Rollen-Explorer, um schnell Feature-Namen zu finden, die einen bestimmten Begriff enthalten.
+
+Wählen Sie die Aktion **Alles erkunden** oben im Rollen-Explorer, um einen Überblick über alle Geschäftsfunktionen zu erhalten, die für alle Rollen, einschließlich Ihrer eigenen, verfügbar sind.
 
 > [!NOTE]
 > Nur Rollencenter-Aktionen für Profile, bei denen das Kontrollkästchen **Im Rollen-Explorer anzeigen** aktiviert ist, werden in der erweiterten Version des Rollen-Explorers angezeigt (angezeigt mit der Aktion **Alle durchsuchen**). Weitere Informationen finden Sie unter [Profile verwalten](admin-users-profiles-roles.md).

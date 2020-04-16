@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/17/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911239"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190083"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Mindestanforderungen für die Nutzung von Business Central
 Bevor Sie auf [!INCLUDE [prodshort](includes/prodshort.md)] online zugreifen, empfiehlt es sich, dass Sie sicherstellen, dass Ihr Computer oder Ihr mobiles Gerät die Mindestsystemanforderungen für das Produkt erfüllt oder übersteigt. Dieser Artikel liste die Anforderungen auf.  
@@ -30,13 +30,13 @@ Bevor Sie auf [!INCLUDE [prodshort](includes/prodshort.md)] online zugreifen, em
 
 ### <a name="other-supported-browsers"></a>Andere unterstützte Browser
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] ist dafür ausgelegt, um mit Internet Explorer 11 (Build 11.0.9600.17239) für Windows 10 (32-Bit- und 64-Bit-Versionen) zu arbeiten. Es ist empfehlenswert, dass Sie auf die neuesten Version von Internet Explorer für Ihre Version von Windows aktualisieren. 
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] ist dafür ausgelegt, um mit Internet Explorer 11 (Build 11.0.9600.17239) für Windows 10 (32-Bit- und 64-Bit-Versionen) zu arbeiten. Es ist empfehlenswert, dass Sie auf die neuesten Version von Internet Explorer für Ihre Version von Windows aktualisieren. Sie können auch das neue Edge ausführen und weiterhin auf Websites zugreifen, die Internet Explorer erfordern. Weitere Informationen finden Sie unter [Microsoft Edge-Dokumentation](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Mobile Geräte
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] für Windows kann auf Geräten mit mindestens 1GB RAM- und Windows 10 Phone, Home, Pro Enterprise oder Education (32-Bit- und 64-Bit-Editionen) eingerichtet werden.  
 **IOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)]für iPad und iPhone benötigt iOS 10.0 oder höher.  
 **Android:** [!INCLUDE[d365fin](includes/d365fin_md.md)] für Android  Tablet und Android Smartphone kann auf Geräten mit mindestens 1 GB RAM und Android 6.0 oder höher eingerichtet werden.  
-**Gerätegröße:** [!INCLUDE[d365fin](includes/d365fin_md.md)] wird auf Smartphones mit einem minimalen Bildschirmgröße von 4 Zoll und Tablets mit einer minimalen Bildschirmgröße von 7 Zoll unterstützt.  
+**Gerätegröße:** [!INCLUDE[d365fin](includes/d365fin_md.md)] wird auf Smartphones mit einer minimalen Bildschirmgröße von 4“ und Tablets mit einer minimalen Bildschirmgröße von 7“ unterstützt.  
 
 ## <a name="outlook"></a>Outlook
 **Outlook-Anwendungen:** Um [!INCLUDE[d365fin](includes/d365fin_md.md)] online als Ihren Geschäftseingang in Outlook zu verwenden, benötigen Sie Outlook 2016 oder höher, Outlook im Browser, Outlook für das iPhone, Outlook für iPad oder Outlook für Android. Ihre Organisation muss auch Office 365 verwenden. Sie können [!INCLUDE [prodshort](includes/prodshort.md)] online als Ihr Geschäftseingang in Outlook verwenden, wenn Ihre Organisation Exchange Server lokal verwendet.  

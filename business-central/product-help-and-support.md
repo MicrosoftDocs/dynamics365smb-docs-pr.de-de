@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 11/06/2019
-ms.openlocfilehash: e1c7d5f7880f283c0b26679572202aaa769a1227
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.date: 04/01/2020
+ms.openlocfilehash: b78c728cd92ed8c4bc4e41da189c4ddfd877b1b6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767657"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190131"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 

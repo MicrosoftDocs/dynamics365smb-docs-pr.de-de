@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 273da0c35e6c4ca376f38ceede1568f5df5b4b15
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9345c30b1419e49300746076c48c8d44e9d4a6d1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953083"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189939"
 ---
 # <a name="receive-items"></a>Empfangen von Artikeln
 Wenn Artikel bei einem Lager ankommen, das nicht für die Bearbeitung des Wareneingangs eingerichtet wurde, können Sie den Wareneingang einfach im zugehörigen Geschäftsdokument, wie einer Einkaufsbestellung, einer Verkaufsreklamation oder ein eingehender Umlagerungsauftrag, erfassen.
@@ -28,8 +28,14 @@ Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. 
 2. Öffnen Sie eine bestehende Bestellung, oder erstellen Sie eine neue. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 3. Geben Sie in dem Feld **Menge akt. Lieferung** die empfangene Menge an.
 
-    Der Wert im Feld **Bereits gelief. Menge** wird aktualisiert. Wenn dieses eine Teillieferung ist, ist der Wert niedriger als der Wert im Feld **Menge**.
-4. Wählen Sie die Aktion **Buchen** aus.
+  > [!NOTE]
+  > Wenn die eingegangene Menge höher ist als die in der Bestellung bestellte Menge im Feld **Menge** und der Kreditor so eingestellt ist, dass er Eingangsüberschuss zulässt, dann verwenden Sie das Feld **Eingangsüberschussmenge**, um die überschüssige Menge zu behandeln. Weitere Informationen finden Sie unter [Mehr Artikel als bestellt](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+4. Wählen Sie die Aktion **Buchen**.
+
+  Der Wert im Feld **Bereits gelief. Menge** wird aktualisiert. Wenn dieses eine Teillieferung ist, ist der Wert niedriger als der Wert im Feld **Menge**.
+
+> [!NOTE]
+> Wenn Sie einen Lagerbeleg zum Buchen der Quittung verwenden, können Sie nicht die Aktion **Buchen** auf die Bestellung anwenden. Stattdessen hat ein Lagerarbeiter die Bestellmenge bereits als eingegangen gebucht. Weitere Informationen finden Sie unter [Empfangen von Artikeln mit einem Lagerzugang](warehouse-how-receive-items.md#to-receive-items-with-a-warehouse-receipt).
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>So empfangen Sie Artikel mit einem Wareneingang
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
@@ -40,7 +46,7 @@ Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. 
     Für Lagerkonfigurationen mit gesteuerte Einlagerung und Kommissionierung: Wenn der Lagerort eine Vorgabezone und einen Vorgabelagerplatz für Wareneingänge hat, werden die Felder **Zonencode** und **Lagerplatzcode** automatisch ausgefüllt, Sie können diese jedoch bei Bedarf ändern.  
 
     > [!NOTE]  
-    >  Wenn Sie Artikel mit Lagerklassen annehmen möchten, die von den Lagerklassen der Lagerplätze im Feld **Lagerplatzcode** des Belegkopfes abweichen, müssen Sie den Inhalt des Feldes **Lagerplatzcode** des Kopfes löschen, bevor Sie die Herkunftsbelegzeilen der Artikel holen können.  
+    > Wenn Sie Artikel mit Lagerklassen annehmen möchten, die von den Lagerklassen der Lagerplätze im Feld **Lagerplatzcode** des Belegkopfes abweichen, müssen Sie den Inhalt des Feldes **Lagerplatzcode** des Kopfes löschen, bevor Sie die Herkunftsbelegzeilen der Artikel holen können.  
 3.  Wählen Sie die **Herkunftsbelege holen** Aktion aus. Die Seite **Herkunftsbelege** wird geöffnet.
 
     Aus einem neuen oder offenen Wareneingang können Sie die Seite **Filter z. Holen v. Herk.-Bel.** nutzen, um die Zeilen des freigegebenen Herkunftsbelegs zu erhalten, die festlegen, welche Artikel erhalten oder geliefert werden sollen.
@@ -73,9 +79,45 @@ Wenn Sie keine Einlagerungen verwenden, jedoch Lagerplätze, wird die Einlagerun
 > [!NOTE]  
 >  Wenn Sie die Funktion **Buchen und drucken** verwenden, buchen Sie den Wareneingang und drucken eine Einlagerungsanweisung, die Ihnen zeigt, wo die Artikel eingelagert werden sollen.  
 >   
->  Wenn Ihr Lagerort die gesteuerte Einlagerung und Kommissionierung verwendet, wird die Einlagerungsvorlage genutzt, um den besten Platz für die Einlagerung der Artikel zu berechnen. Dieser wird dann auf der Einlagerungsanweisung ausgedruckt.  
+>  Wenn Ihr Lagerort die gesteuerte Einlagerung und Kommissionierung verwendet, wird die Einlagerungsvorlage genutzt, um den besten Platz für die Einlagerung der Artikel zu berechnen. Dieser wird dann auf der Einlagerungsanweisung ausgedruckt.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesreceive-invoice-dynamics-d365-business-centralindex"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
+## <a name="to-receive-more-items-than-ordered"></a>Um mehr Artikel als bestellt zu erhalten
+Wenn Sie mehr Waren erhalten, als Sie bestellt haben, möchten Sie diese möglicherweise erhalten, anstatt den Beleg zu stornieren. Beispielsweise kann es billiger sein, den Überschuss Ihres Inventars zu behalten, als ihn zurückzugeben, oder Ihr Verkäufer bietet Ihnen möglicherweise einen Skonto für die Aufbewahrung an.
+
+### <a name="to-set-up-over-receipts"></a>So richten Sie Übereingänge ein
+Sie müssen einen Prozentsatz festlegen, um den Sie beim Empfang eine Überschreitung der bestellten Menge zulassen. Sie definieren dies unter einem Übereingang-Code, der den Prozentsatz im Feld **Übereingangtoleranz %** enthält. Anschließend weisen Sie den Code den Karten der relevanten Artikel und/oder Lieferanten zu.  
+
+Im Folgenden wird beschrieben, wie Sie einen Übereingangscode einrichten und einem Artikel zuordnen. Die Schritte sind für einen Kreditor ähnlich.
+
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Positionen** ein, und wählen Sie dann den entsprechenden Link.
+2. Öffnen Sie die Karte für einen Artikel, von dem Sie vermuten, dass er manchmal mit einer höheren als der bestellten Menge geliefert wird.
+2. Wählen Sie die Nachschlagschaltfläche im Feld **Eingangsüberschuss-Code**.
+3. Wählen Sie die Aktion **Neu**.
+4. Erstellen Sie auf der Seite **Überempfangscodes** eine oder mehrere neue Zeilen, die verschiedene Überempfangsrichtlinien definieren. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+5. Markieren Sie eine Zeile und wählen Sie dann die Schaltfläche **OK**.
+
+Der Übereingangscode wird dem Artikel zugewiesen. Jede Bestellung oder jeder Lagerzugang für den Artikel erlaubt nun den Empfang von mehr als der bestellten Menge gemäß dem angegebenen Prozentsatz der Überzugstoleranz.
+
+> [!NOTE]
+> Sie können einen Genehmigungs-Workflow einrichten, um zu verlangen, dass überzählige Belege genehmigt werden müssen, bevor sie bearbeitet werden können. In diesem Fall müssen Sie das Kontrollkästchen **Genehmigung erforderlich** auf der Seite **Eingangsüberschuss-Code** aktivieren. Zu diesem Zweck gibt es in den Standard-Workflow-Daten eine eigene Workflow-Antwort **Eingangsüberschuss genehmigen**. Weitere Informationen finden Sie unter [Workflows erstellen](across-how-to-create-workflows.md).
+
+### <a name="to-perform-an-over-receipt"></a>So führen Sie einen Übereingang durch
+In Einkaufs- und Lagerzugangszeilen wird das Feld **Über-Empfangsmenge** dazu verwendet, überzählige Mengen zu erfassen, d.h. Mengen, die den Wert im Feld **Menge**, die bestellte Menge, überschreiten.
+
+Wenn Sie einen Übereingang bearbeiten, können Sie entweder den Wert im Feld **Zu erhaltende Menge** auf die tatsächlich erhaltene Menge erhöhen. Das Feld **Übereingangsmenge** wird dann aktualisiert, um die Überschussmenge anzuzeigen. Alternativ können Sie die überschüssige Menge in das Feld **Übereingangsmenge** eingeben. Das Feld **Zu erhaltende Menge** wird dann aktualisiert, um die bestellte Menge plus die überschüssige Menge anzuzeigen. Das folgende Verfahren beschreibt, wie das Feld **Zu empfangende Menge** auszufüllen ist.  
+
+1. Geben Sie bei einer Bestellung oder einem Lagerzugangsbeleg, bei dem die eingegangene Menge höher als die bestellte Menge ist, die tatsächlich eingegangene Menge in das Feld **Zu erhaltende Menge** ein.
+
+    Wenn die Erhöhung innerhalb der durch den zugeordneten Eingangsüberschusscode festgelegten Toleranz liegt, wird das Feld **Eingangsüberschussmenge** aktualisiert, um die Menge anzuzeigen, um die der Wert im Feld **Menge** überschritten wird.
+
+    Wenn die Erhöhung über der angegebenen Toleranz liegt, ist der Eingangsüberschuss nicht zulässig. In diesem Fall können Sie untersuchen, ob ein anderer Überquittungscode existiert, der dies erlaubt. Andernfalls kann nur die bestellte Menge empfangen werden, und die überschüssige Menge muss anderweitig behandelt werden, z.B. durch Rücksendung an den Lieferanten.
+
+2. Buchen Sie den Beleg wie jeden anderen Beleg.
+
+> [!NOTE]
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] beinhaltet nicht die Funktionalität, automatisch die finanzielle Verwaltung von Eingangsüberschuss einzuleiten. Dies müssen Sie in Absprache mit dem Kreditor manuell regeln, z.B. indem der Lieferant eine neue oder aktualisierte Rechnung weiterleitet.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  

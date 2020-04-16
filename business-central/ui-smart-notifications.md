@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/29/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4839de7b4deff107d8a1644367e28216eb8a789e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 45916dc92513a223ca74cb3d76629fb36b8afa39
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881942"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189507"
 ---
 # <a name="manage-notifications"></a>Verwalten von Benachrichtigungen
 

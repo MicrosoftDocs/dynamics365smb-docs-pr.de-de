@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 101fa49a803f03d805bbcdeba4066f34323ad578
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303349"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185204"
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetails: Bekannte Artikelanwendungsprobleme
 Dieser Artikel adressiert ein Problem, bei dem der Lagerebene Null ist, obwohl offene Artikelposten in existieren [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -54,7 +54,7 @@ Der Artikel beginnt, indem die typischen Symptomen des Problems aufgeführt werd
 
  Das folgende Diagramm zeigt, wie Mengenanträge gemacht werden.  
 
-![Fluss der Kostenregulierung von Einkauf zu Verkauf](media/helene/TechArticleInventoryZero2.png "Fluss der Kostenregulierung von Einkauf zu Verkauf")
+![Fluss der Kostenanpassung vom Kauf zum Verkauf](media/helene/TechArticleInventoryZero2.png "Fluss der Kostenanpassung vom Kauf zum Verkauf")
 
  Beachten Sie weiter, dass Artikelposten 1 (Einkauf) sowohl Lieferant des Artikels und die Kostenquelle für den ausgeglichenen Artikelposten, Artikelposten 2 (Verkauf) ist.  
 
@@ -78,7 +78,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 
  Das folgende Diagramm zeigt den Kostenfluss.  
 
-![Fluss der Kostenregulierung von Einkaufs- zu Verkaufserträge](media/helene/TechArticleInventoryZero4.png "Fluss der Kostenregulierung von Einkaufs- zu Verkaufserträge")
+![Fluss der Kostenanpassung vom Verkauf bis zur Umsatzrendite](media/helene/TechArticleInventoryZero4.png "Fluss der Kostenanpassung vom Verkauf bis zur Rückgabe")
 
  Beachten Sie darüber hinaus, dass die Kosten an Artikelposten 2 (Verkauf), dann an Artikelposten 3 (Rücklieferung) und zum Schluss an Artikelposten 4 weitergeleitet werden (Verkauf 2).  
 
@@ -91,7 +91,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 
  Das folgende Diagramm zeigt, wie Artikelausgleiche in beiden Szenarien gemacht werden.  
 
-![Fluss der Kostenregulierung geht in beide Richtungen](media/helene/TechArticleInventoryZero6.png "Fluss der Kostenregulierung geht in beide Richtungen")  
+![Fluss der Kostenanpassung geht in beide Richtungen](media/helene/TechArticleInventoryZero6.png "Der Fluss der Kostenanpassung geht in beide Richtungen")  
 
  Beachten Sie darüber hinaus, dass ein Ausgleich mit Kosten (angezeigt durch die blauen Pfeile) sicherstellt, dass Artikelposten 2 (Rücklieferung) die gleichen Einstandspreis wie der Artikelposten hat, den er storniert, d.h. Artikelposten 1 zugeordnet ist (Verkauf 1). Es wird jedoch kein Mengenantrag (angezeigt durch die roten Pfeile) vorgenommen.  
 

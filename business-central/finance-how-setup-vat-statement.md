@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 20bef66f5ab4be62794bc98434c29ee6480eabc3
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 00b7958c9402ff47e1daf8ddd9b55b7623f7fe6a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992224"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183500"
 ---
 # <a name="set-up-a-vat-statement"></a>Eine MwSt.-Abrechnung einrichten
 

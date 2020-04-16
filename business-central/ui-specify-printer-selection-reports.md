@@ -3,49 +3,84 @@ title: Einrichten von Berichten, um auf bestimmte Druckern zu drucken | Microsof
 description: Weitere Informationen zum Definieren eines Druckers für eine Bericht und zur Nutzung der Druckerauswahlseite.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 10/01/2019
-ms.author: solsen
-ms.openlocfilehash: 0c3a57906c32751639585e542a60d931174d594b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315036"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189483"
 ---
-# <a name="specify-printer-selection-for-reports"></a>Angeben der Druckerauswahl für Berichte
-Diese Seite ist leer, da Sie bestimmte Drucker für bestimmte Berichte noch nicht einrichten können. Wir arbeiten an der Lösung des Problems.
+# <a name="set-up-printers"></a>Einrichten von Druckern
+Da [!INCLUDE[prodshort](includes/prodshort.md)] ein Cloud-Service ist, kann er keine lokalen Drucker erreichen, die mit den Rechnern der Benutzer verbunden sind. Sie kann jedoch mit Cloud-fähigen Druckern verbunden werden. In der generischen Version von [!INCLUDE[prodshort](includes/prodshort.md)] wird ein Cloud-Drucker namens **E-Mail-Drucker** als Erweiterung installiert und ist nach der Ersteinrichtung einsatzbereit.
 
-Wenn Sie einen Bericht drucken möchten, müssen Sie den Bericht als PDF-Dokument zuerst herunterladen, indem Sie die Schaltfläche **Senden an** auswählen. Dann wählen Sie die Art der Datei aus, um den Bericht herunterzuladen und wählen Sie **PDF-Dokument** aus. Jetzt können Sie entweder das PDF-Dokument sofort öffnen und es drucken, oder speichern Sie es, um später zu drucken.
+Wenn ein Cloud-Drucker nicht installiert und eingerichtet ist oder wenn ein installierter Drucker ausfällt, werden beim Drucken standardmäßig die Druckoptionen des Browsers verwendet. Dies wird durch diesen Wert im Feld **Drucker** auf der Berichtsanforderungsseite angezeigt: *(keines, wird vom Browser behandelt)*.
 
-<!--
+Auf der Seite **Druckerverwaltung** sehen Sie die Drucker, die eingerichtet sind. Wenn Sie einen oder mehrere Drucker eingerichtet haben, können Sie die Seite **Druckerauswahlen** öffnen, um für Ihr Benutzerkonto einzurichten, welche spezifischen Berichte mit welchem Drucker gedruckt werden sollen.
 
-You can set up reports so that they must be printed on a specific printer. The following are some uses of printer selection:
+Wenn ein Drucker eingerichtet und bestimmten Berichten zugeordnet ist, drucken Sie einen Bericht, indem Sie auf der Berichtsanforderungsseite die Schaltfläche **Drucken** wählen. Weitere Informationen finden Sie unter [Drucken eines Berichts](ui-work-report.md#PrintReport).
 
-- You can print reports on special company letterhead.
-- You can print reports on different paper sizes.
-- You can print reports on the default printer of a specified employee.
+## <a name="to-set-up-a-printer"></a>So richten Sie einen Drucker ein
+Auf der Seite **Druckerverwaltung** sehen Sie die eingerichteten Drucker, und Sie können auf die Seite **Einstellungen** für jeden Drucker zugreifen, um eine vorhandene Einrichtung zu bearbeiten oder einen neuen Drucker einzurichten.
 
-You use the **Printer Selections** page to set different values to obtain different output. If you set a specific printer selection, then it takes precedence over a more general printer selection. For example, you can set a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields. This printer selection takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
+Die folgende Prozedur beschreibt die Einrichtung des vorhandenen Druckers **E-Mail-Drucker**, bei dem es sich um eine vorinstallierte Erweiterung handelt.
 
-The following table describes the combination of values to specify when you set up printer selections for a report.
+> [!NOTE]
+> Um den E-Mail-Druck zu verwenden, muss die E-Mail-Funktionalität eingerichtet werden. Weitere Informationen finden Sie unter [E-Mail einrichten](admin-how-setup-email.md).
 
-|To                                                 |Set the following values                                             |
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
+2. Markieren Sie die Zeile für den Drucker **E-Mail-Drucker** und wählen Sie dann die Aktion **Druckereinstellungen bearbeiten**.
+3. Füllen Sie auf der Seite **Einstellungen** die Felder wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    > [!NOTE]
+    > Sie müssen das geeignete Papierformat für einen Drucker manuell auswählen, da keine lokalen Drucker- oder Benutzereinstellungen gespeichert werden können.
+    >
+    > Beachten Sie, dass die E-Mail-Drucker-Erweiterung standardmäßig auf **A4** Papierformat eingestellt ist, was z.B. in Nordamerika nicht geeignet ist.
+4. Um einen Drucker zu Ihrem Standarddrucker zu machen, wählen Sie auf der Seite **Druckerverwaltung** das Modul **Als mein Standarddrucker festlegen**.
+
+### <a name="privacy-notice"></a>Datenschutzhinweis
+Wenn Sie die E-Mail-Drucker-Erweiterung verwenden, dann werden alle oder einige Druckaufträge an die E-Mail-Adresse gesendet, die Sie bei der Konfiguration des Druckers angegeben haben. Wir empfehlen dringend, dass eine eindeutige E-Mail-ID an ein Druckergerät gebunden wird, das nur die offiziellen Dienste des Hardware-Herstellers nutzt, wie z.B. HP ePrint, KonicaMinolta EveryonePrint oder Epson Email Print.
+
+Sie müssen alle erforderlichen Datenschutzvorkehrungen treffen, einschließlich der Sicherstellung, dass die E-Mail-Drucklösung über ordnungsgemäß konfigurierte Berechtigungen, Datenschutzeinstellungen und Aufbewahrungsrichtlinien verfügt. Es liegt in Ihrer Verantwortung, eine korrekte, verifizierte und funktionsfähige E-Mail-Adresse anzugeben. Weitere Informationen finden Sie unter [Microsoft-Datenschutzerklärung](https://privacy.microsoft.com/en-us/privacystatement).
+
+## <a name="to-select-which-printers-print-which-reports"></a>So wählen Sie aus, welche Drucker welche Berichte drucken
+Auf der Seite **Druckerwahlen** können Sie für Ihr Benutzerkonto einstellen, welche Berichte von welchem Drucker gedruckt werden. Dies ist nützlich, wenn Sie mit verschiedenen Berichten arbeiten, die aufgrund ihrer Platzierung in der Firma oder ihrer Ausgabemöglichkeiten unterschiedliche Drucker erfordern.
+
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Druckerverwaltung** ein und wählen Sie dann den entsprechenden Link. Alternativ können Sie auf der Seite **Druckerverwaltung** einen Drucker auswählen und dann die Aktion **Druckerauswahl** wählen.
+2. Wählen Sie die Aktion **Neu**, um eine Druckerauswahl für einen bestimmten Bericht hinzuzufügen.
+3. Füllen Sie die Felder nach Bedarf aus.
+
+Der angegebene Bericht ist jetzt so eingerichtet, dass er standardmäßig auf dem ausgewählten Drucker gedruckt wird.
+
+> [!NOTE]
+> Wenn Sie den betreffenden Bericht drucken, können Sie diese Einstellung außer Kraft setzen, indem Sie auf der Anforderungsseite **Druckeinstellungen** einen anderen Drucker auswählen.
+
+> [!NOTE]
+> Wenn Sie auf der Seite **Druckerauswahl** keinen Bericht für einen bestimmten Drucker einrichten, wird er auf dem Standarddrucker der Firma gedruckt, wie er auf der Seite **Druckerverwaltung** definiert ist.
+
+Sie oder der Administrator können auch die Seite **Druckerauswahl** verwenden, um andere Varianten des Druckens für Benutzer und Berichte zu definieren. Die folgende Tabelle beschreibt die Kombination von Werten zur Angabe verschiedener Druckeinstellungen für einen Bericht.
+
+|Aktion                                                 |Stellen Sie die folgenden Werte ein                                             |
 |---------------------------------------------------|---------------------------------------------------------------------|
-|Print a report to a specific printer for all users |Specify values in the **Report ID** and **Printer Name** fields and leave the **User ID** field blank.|
-|Print all reports to a specific printer for a specific user|Specify values in the **User ID** and **Printer Name** fields and leave the **Report ID** field blank.|
-|Set the default printer for all reports|Specify a value in the **Printer Name** field and leave the **User ID** and **Report ID** fields blank.|
-|Print a specific report to the user’s default printer|Specify a value in the **Report ID** field and leave the **Printer Name** and **User ID** fields blank.|
-|Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
--->
+|Einen Bericht für alle Benutzer auf einem bestimmten Drucker ausdrucken |Geben Sie Werte in den Feldern **Berichts-ID** und **Druckername** an und lassen Sie das Feld **Benutzer-ID** leer.|
+|Drucken aller Berichte auf einem bestimmten Drucker für einen bestimmten Benutzer|Geben Sie Werte in die Felder **Benutzer-ID** und **Druckername** ein und lassen Sie das Feld **Berichts-ID** leer.|
+|Legen Sie den Standarddrucker für alle Berichte fest|Geben Sie einen Wert in das Feld **Druckername** ein und lassen Sie die Felder **Benutzer-ID** und **Berichts-ID** leer.|
+|Drucken eines bestimmten Berichts auf dem Standarddrucker des Benutzers|Geben Sie einen Wert in das Feld **Berichts-ID** ein und lassen Sie die Felder **Druckername** und **Benutzer-ID** leer.|
+|Drucken eines bestimmten Berichts auf einem bestimmten Drucker für einen bestimmten Benutzer|Geben Sie Werte in allen drei Feldern an.|
+
+> [!NOTE]
+> Spezifischere Druckerauswahlen haben Vorrang vor einer allgemeineren Druckerauswahl. Zum Beispiel hat eine Druckerauswahl, die Werte in den Feldern **Benutzer-ID**, **Berichts-ID** und **Druckername** hat, Vorrang vor einer Druckerauswahl, die leere Einträge in den Feldern **Benutzer-ID** oder **Berichts-ID** hat.
 
 ## <a name="see-also"></a>Siehe auch
+[Berichte drucken](ui-work-report.md#PrintReport)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ausführen von Stapelverarbeitungen](ui-how-run-batch-jobs.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb898a459bdf5d0b4ced3baadd2a245cd23b8f38
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1098e0998369e15bd9484ba33b808b9b435b538c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311452"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192123"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Eingabehilfe und Tastenkombinationen
 Dieses Thema enthält Informationen zu den Funktionen, die [!INCLUDE[d365fin](includes/d365fin_md.md)] einfach verfügbar machen für die Personen mit Behinderungen. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt die folgenden Funktionen:  
@@ -48,18 +48,18 @@ Dieses Thema enthält Informationen zu den Funktionen, die [!INCLUDE[d365fin](in
 
 -->
 
-##  <a name="Navigation"></a> Navigation  
+##  <a name="navigation"></a><a name="Navigation"></a> Navigation  
  Sie können zwischen den Registerkarten sowie den Aktionen im Menüband, den Elementen im Navigationsbereich und anderen Steuerelementen auf Seiten [!INCLUDE[d365fin](includes/d365fin_md.md)] und Berichte anhand der Tastatur navigieren. Um den Fokus einer Registerkarte, einer Aktion oder Steuerung zu verschieben, klicken Sie die TAB-TASTE um Vorwärts zu verschieben. Drücken Sie UMSCHALT+TAB zum zurückgehen.  
 
  Durch die Verwendung der Aktivierreihenfolge können Sie zwischen der Hauptbrowserseite und den Dialogfeldern wechseln, die Bestätigung erfordern, beispielsweise die Seite Fenster "Anmeldungen".  
 
-##  <a name="Headings"></a> Überschrift  
+##  <a name="headings"></a><a name="Headings"></a> Überschrift  
  Die HTML-Quelle für den [!INCLUDE[d365fin](includes/d365fin_md.md)] Inhalt verwendet Tags, um Benutzern der assistive Technologie zu helfen, die Struktur und den Inhalt der Seite zu erkennen. So werden beispielsweise für Listenseiten die Spalten in den Spaltenüberschriften und die Kategorien festgelegt und werden mit TITEL-Aattribut innerhalb des Tags festgelegt. Caption für Elementen wie Felder, Infoboxen und Inforegister sind in den Überschriftstags enthalten (H1, H2, H3 und H4).  
 
-##  <a name="Images"></a> Bild und Links  
+##  <a name="image-and-links"></a><a name="Images"></a> Bild und Links  
  Ein Text für Bilder wird mit dem ALT-Attribut innerhalb des IMG-Tags festgelegt. Ein beschreibender Text für Hyperlinks wird mit dem Titelattribut innerhalb des A-Tags festgelegt.  
 
-##  <a name="AssistiveTech"></a> Assistive Technologien  
+##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Assistive Technologien  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt verschiedene assistive Technologien, wie kontrastreiches, Sprachausgaben und Spracherkennungs-Software. Einige assistive Technologien funktionieren möglicherweise nicht mit bestimmten Elementen«» [!INCLUDE[d365fin](includes/d365fin_md.md)] in Seiten.  
 
 ## <a name="for-more-accessibility-information"></a>Weitere Zugriffsinformationen  

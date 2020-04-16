@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: c59e500eeee33dcb6403ace871e70498a638777d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1dde92217278ad8f4b5f8805afe052b06d6fc64b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307516"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185948"
 ---
 # <a name="certifications"></a>Bescheinigungen  
 Dieser Inhalt enthält Informationen über Zertifizierungen in Bezug auf [!INCLUDE[d365fin](../includes/d365fin_md.md)].  

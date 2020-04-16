@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809033"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186500"
 ---
 # <a name="manage-profiles"></a>Profile verwalten
 Alle Benutzer von [!INCLUDE[d365fin](includes/d365fin_md.md)] erhalten ein Profil, das ihre Geschäftsrolle, die Abteilung, in der sie arbeiten, oder eine andere Kategorisierung widerspiegelt. Mithilfe von Profilen können Administratoren zentral definieren und verwalten, welche Benutzertypen auf der Benutzeroberfläche angezeigt und ausgeführt werden können, damit sie ihre Geschäftsaufgaben effizient ausführen können.
@@ -79,12 +79,23 @@ Wenn ein Profil erstellt wird, können Sie verschiedene Kontrollkästchen aktivi
     - **Deaktivieren Sie die Personalisierung** um anzugeben, ob Benutzer der entsprechenden Rolle ihren Arbeitsbereich personalisieren können.
     - **Zeige im Rollen-Explorer**, um festzulegen, ob Aktionen für Geschäftsfunktionen, die im Profil enthalten sind, in der erweiterten Ansicht des Rollen-Explorers, einer Feature-Übersicht, angezeigt werden. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).
 
-## <a name="to-export-user-created-profiles"></a>So exportieren Sie benutzerdefinierte Profile
-Sie können Profile exportieren, die entweder von Ihnen oder von Benutzern geändert wurden, wie **(Vom Benutzer erstellt)** im Feld **Quelle**. Das Profil wird in eine ZIP-Datei exportiert, die .al Dateien enthält, die zum Entwickeln von Erweiterungen wiederverwendet werden können. Weitere Informationen finden Sie unter [Verwenden des Clients zum Erstellen von Profilen und Seitenanpassungen](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## <a name="to-export-profiles"></a>So exportieren Sie Profile
+Sie können Profile aus [!INCLUDE[d365fin](includes/d365fin_md.md)] exportieren, z.B. um sie in einem anderen Mandanten wiederzuverwenden. Die Profile werden in eine Zip-Datei exportiert, die .al-Dateien enthält, die zur Entwicklung von Erweiterungen wiederverwendet werden können. Weitere Informationen finden Sie unter [Verwenden des Clients zum Erstellen von Profilen und Seitenanpassungen](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-* Auf der **Profile (Rollen)** Seite, wählen Sie die **Vom Benutzer erstellte Profile exportieren** Aktion.
+* Wählen Sie auf der Seite **Profile (Rollen)** die Aktion **Profile exportieren**.
 
-Eine Zip-Datei mit den .al-Dateien für Profile, die neu hinzugefügt oder geändert wurden, wird exportiert.
+Eine Zip-Datei mit den .al-Dateien für alle Profile wird exportiert.
+
+## <a name="to-import-profiles"></a>So importieren Sie Profile
+Sie können Profile importieren, die aus [!INCLUDE[d365fin](includes/d365fin_md.md)] exportiert wurden. Die Schritte sind mehr oder weniger das Gegenteil der Schritte zum Exportieren von Profilen. Weitere Informationen finden Sie unter [Profile exportieren](admin-users-profiles-roles.md#to-export-profiles).
+
+1. Wählen Sie auf der Seite **Profile (Rollen)** die Aktion **Profile importieren**.
+2. Folgen Sie den Schritten des Assistenten **Importprofile**.
+
+    Wenn Sie nur ausgewählte Profile importieren möchten, verwenden Sie das Kontrollkästchen **Ausgewählt**, um anzugeben, welche importiert werden sollen.
+3. Wählen Sie die Aktion **Ausgewählte importieren**.
+
+Eine Zip-Datei mit .al-Dateien für die ausgewählten Profile wird importiert.
 
 ## <a name="to-delete-a-profile"></a>So löschen Sie ein Profil
 Sie können ein Profil löschen, indem Sie auf die Schaltfläche **Löschen** klicken auf der **Profile (Rollen)** Seite. Es gelten jedoch folgende Einschränkungen:

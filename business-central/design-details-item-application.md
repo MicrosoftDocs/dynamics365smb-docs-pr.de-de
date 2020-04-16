@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9f4ef853d62e76ce3ade8062a341eb4336116028
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303508"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185156"
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
 Wenn Sie eine Lagertransaktion buchen, wird die Mengenbuchung in den Artikelposten, die Wertbuchungen in den Wertposten erfasst. Weitere Informationen finden Sie unter [Designdetails: Planungsbuchung](design-details-inventory-posting.md).  
@@ -189,7 +189,7 @@ Die folgende Tabelle zeigt die Auswirkung der exakten Kostenumkehrung der Wertpo
 Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge** ausführen, werden die erhöhten Kosten des Einkaufspostens aufgrund des Zu-/Abschlags (Artikelnummer) zum Verkaufsposten weitergeleitet (Postennummer 2). Der Verkaufsposten übergibt dann diese erhöhten Kosten an den Verkaufsgutschriftposten weiter (Postennummer 3). Das Endergebnis ist, dass die Kosten korrekt umgekehrt werden.  
 
 > [!NOTE]  
->  Wenn Sie mit Reklamationen oder Gutschriften arbeiten und im Feld **Einst.-Pr.-Rückverfolg. notw.** entweder die Seite **Kreditoren und Einkauf Einr** oder in **Debitoren und Verkauf Einr.** entsprechend Ihren Gegebenheiten Einstandspreisrückverfolgung eingerichtet haben, dann werden [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch ausgefüllt, wenn Sie die Funktion **Beleg kopieren** verwenden. Wenn Sie die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** verwenden, werden diese Felder immer automatsich ausgefüllt.  
+>  Wenn Sie mit Retouren oder Gutschriften arbeiten und das Feld **Einst.-Pr.-Rückverfolg. notw** entweder auf der Seite **Kreditoren & Einkauf Einr.** oder auf der Seite **Debitoren & Verkauf Einr.** entsprechend Ihrer Situation eingerichtet haben, dann füllt [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch die verschiedenen Eingabefelder der Anwendung aus, wenn Sie die Funktion **Aus Dokument kopieren** verwenden. Wenn Sie die Funktion **Zu stornierende gebuchte Belegzeilen abrufen** verwenden, werden diese Felder immer automatsich ausgefüllt.  
 
 > [!NOTE]  
 >  Wenn Sie eine Transaktion mit einem festen Ausgleich buchen und der Artikelposten, zu dem Sie verknüpfen, ist geschlossen (d. h. die Restmenge ist gleich 0), wird automatisch der alte Ausgleich zurückgenommen und erneut mit dem Artikelposten ausgeglichen, wobei der von Ihnen angegebene feste Ausgleich verwendet wird.  

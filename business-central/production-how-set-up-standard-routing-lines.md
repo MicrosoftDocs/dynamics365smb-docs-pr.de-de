@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a967136064b59cb0ff8ef7bdd9a3e8b684e54a8f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: eeb0b4538435423d4cadc8a92a797be5aacd5886
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878023"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190611"
 ---
 # <a name="set-up-standard-routing-lines"></a>Einrichten von Aufgabenzeilen
 Die Verwendung von Standardkatalogen vereinfacht das Erstellen und Pflegen von Arbeitsplänen. Sie bieten umfangreiche Funktionalität, um schnell zusätzliche Informationen zu wiederkehrende Arbeitsgänge hinzuzufügen.

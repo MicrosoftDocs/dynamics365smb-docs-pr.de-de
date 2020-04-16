@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: c575dcc54ff192b2c39c1d1c2d582477a4e4361c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097792"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195923"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Automatisierte Datenerfassung (MDE) verwenden
 

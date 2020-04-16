@@ -6,41 +6,45 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 12/10/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: 9acd4840c9e7c2f4aa2a8f5087b2f58708ca7cb0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2942990"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187748"
 ---
-# <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Testversionen und Abonnements
+# <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Testversionen und Abonnements
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist in einer zunehmenden Anzahl von Ländern weltweit verfügbar. Wenn Sie über [!INCLUDE [prodshort](includes/prodshort.md)] erfahren möchten, können Sie sich für eine kostenlose Testversion anmelden. Wenn Sie dann bereit sind, können Sie mit einem Wiederverkaufspartner über den Abschluss eines Abonnements sprechen.  
 
+Wenn Sie nicht bereits mit einem Partner zusammenarbeiten, siehe [Wie finde ich einen Wiederverkaufspartner?](across-faq.md#findpartner).  
+
 ## <a name="getting-started-with-a-trial"></a>Erste Schritte mit einer Testversion
 
-Sie können sich für eine kostenlose Testversion [hier](https://go.microsoft.com/fwlink/?linkid=847861) registrieren. Abhängig von Ihrem Land oder Ihrer Region umfasst die Testversion die Sprachen und Funktionen, die Ihr Land oder Ihre Region benötigt. Weitere Informationen finden Sie unter [Ändern von Sprache und Gebietsschema](about-locale-language.md).  
+Sie können sich für eine kostenlose Testversion [hier](https://go.microsoft.com/fwlink/?linkid=847861) registrieren. Wir empfehlen Ihnen, mit [einem Wiederverkaufspartner](across-faq.md#findpartner) zu arbeiten, um Ihrem Unternehmen den Einstieg mit [!INCLUDE [prodshort](includes/prodshort.md)] zu erleichtern.  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Ihnen einige Elemente vertraut sein und andere nicht. Wenn Sie sich zum ersten Mal beim Demounternehmen anmelden, erhalten Sie Zugriff zu einer Seite „Erste Schritte“ mit Links zu Videos, die Ihnen bei den ersten Schritten helfen. Weitere Informationen finden Sie unter [Erste Schritte mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
+Abhängig von Ihrem Land oder Ihrer Region umfasst die Testversion die Sprachen und Funktionen, die Ihr Land oder Ihre Region benötigt. Weitere Informationen finden Sie unter [Ändern von Sprache und Gebietsschema](about-locale-language.md).  
 
-Wenn Sie auf Schwierigkeiten stoßen, kann die Seite [Häufig gestellte Fragen](across-faq.md) Ihnen bei der Beantwortung einiger Ihrer Fragen hilfreich sein. Wenn Sie sich für die Testversion nicht anmelden konnten, kann die Seite [Fehlerbehebung bei der Self-Service-Registrierung](ui-troubleshoot-self-signup.md) hilfreich sein. Sie können sich auch an einen [Partner](across-faq.md#findpartner) wenden und ihn darum bitten, eine kostenlose Testversion für Sie zu erstellen.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Ihnen einige Elemente vertraut sein und andere nicht. Wenn Sie sich zum ersten Mal bei der Demonstrationsfirma anmelden, erhalten Sie Zugriff auf eine Seite Erste Schritte mit Links zu Videos, die Ihnen den Einstieg erleichtern können. Weitere Informationen finden Sie unter [Erste Schritte mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
+
+Wenn Sie auf Schwierigkeiten stoßen, kann die Seite [Häufig gestellte Fragen](across-faq.md) Ihnen bei der Beantwortung einiger Ihrer Fragen hilfreich sein. Wenn Sie sich nicht für die Testversion anmelden können, kann die Seite [Anmeldung zur Fehlerbehebung in der Selbstbedienung](ui-troubleshoot-self-signup.md) helfen. Sie können auch einen [Partner](across-faq.md#findpartner) kontaktieren und ihn bitten, eine kostenlose Testversion oder eine andere Art der Vorschau von [!INCLUDE [prodshort](includes/prodshort.md)] für Sie zu erstellen.  
 
 ### <a name="try-out-your-own-company"></a>Testen Sie Ihr eigenes Unternehmen
 
-Wenn Sie [!INCLUDE [prodshort](includes/prodshort.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-Tage-Testversion mit einem leeren Unternehmen wechseln. Mithilfe der Anleitung für die unterstützte Einrichtung **Mein Unternehmen einrichten** können Sie grundlegende Informationen zu Ihrem Unternehmen angeben. Optional können Sie Daten aus Ihrer vorhandenen Geschäftsverwaltungslösung importieren, damit Sie [!INCLUDE [prodshort](includes/prodshort.md)] mit Ihren eigenen Daten auswerten können.  
+Wenn Sie [!INCLUDE [prodshort](includes/prodshort.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-Tage-Testversion mit einem leeren Unternehmen wechseln. Mithilfe der Anleitung für die unterstützte Einrichtung **Mein Unternehmen einrichten** können Sie grundlegende Informationen zu Ihrem Unternehmen angeben. Optional können Sie Daten aus Ihrer vorhandenen Geschäftsverwaltungslösung importieren, damit Sie [!INCLUDE [prodshort](includes/prodshort.md)] mit Ihren eigenen Daten auswerten können. Wir empfehlen Ihnen jedoch, keine kostenlose Testversion zu verwenden, um Ihr Unternehmen zu unterstützen. Kontaktieren Sie [einen Wiederverkaufspartner](across-faq.md#findpartner), um mehr darüber zu erfahren, wie Sie mit [!INCLUDE [prodshort](includes/prodshort.md)] anfangen können.  
 
 Wenn 30 Tage nicht ausreichen, um eine Entscheidung zu treffen, können Sie Ihre Testversion verlängern. Weitere Informationen finden Sie unter [Benötigen Sie mehr Zeit, um zu entscheiden, ob Sie abonnieren möchten?](admin-extend-trial.md).  
 
-### <a name="setting-up-your-company-in-include-prodshortincludesprodshortmd"></a>Einrichten Ihres Unternehmens in [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="setting-up-your-company-in-prodshort"></a>Einrichten Ihres Unternehmens in [!INCLUDE [prodshort](includes/prodshort.md)]
 
-Um Ihnen beim Einrichten Ihres Unternehmens zu helfen, listet die Seite **Unterstützte Einrichtung** die Anleitungen für die unterstützte Einrichtung auf, die Ihnen helfen können. Abhängig von Ihrer Rolle und Ihrem Land oder Ihrer Region zeigt die Seite die verschiedenen Anleitungen für die unterstützte Einrichtung auf, sie z. B. Folgende:
+Um Ihnen beim Einrichten Ihres Unternehmens zu helfen, listet die Seite **Unterstützte Einrichtung** die Anleitungen für die unterstützte Einrichtung auf, die Ihnen helfen können. Abhängig von Ihrer Rolle und Ihrem Land oder Ihrer Region zeigt die Seite verschiedene Assistenten für die Einrichtung, wie in der folgenden Tabelle dargestellt:
 
 | Unterstütztes Setup | Beschreibung |
 | -------------- | ----------- |
 | Meine Unternehmen einrichten |Erstellt ein neues Testunternehmen, für das Sie Daten eingeben und mit dem Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] testen können. |
-| Genehmigungsworkflows einrichten |Richtet die Möglichkeit ein, Genehmigungsworkflows zu erstellen, damit ein Genehmiger automatisch benachrichtigt wird, wenn ein Benutzer versucht, bestimmte Werte in Belegen, Buch.-Bl.-Zeilen oder Karten zu erstellen oder zu ändern, wie etwa einen Betrag über dem festgelegten Grenzwert. |
+| Genehmigungsworkflows einrichten |Legt die Möglichkeit fest, automatisch einen Genehmigenden zu benachrichtigen, wenn ein Benutzer versucht, bestimmte Werte auf Belegen, Journalzeilen oder Karten zu erstellen oder zu ändern. Sie können z.B. die Genehmigung von Beträgen über einem bestimmten Limit einrichten. |
 | E-Mail einrichten |Zeigt Ihnen, wie Sie E-Mails beispielsweise direkt aus Verkaufsaufträgen oder Kontakten im [!INCLUDE[d365fin](includes/d365fin_md.md)] versenden. |
 | Einrichten Ihres Unternehmensposteingangs in Outlook |Bereitet Sie darauf vor, Ihre Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. |
 | Geschäftsdaten migrieren |Lässt Sie Ihre vorhandenen Firmendaten wie Debitoren, Kreditoren und Artikel aus Excel oder aus Quickbooks importieren. |
@@ -53,18 +57,18 @@ Um Ihnen beim Einrichten Ihres Unternehmens zu helfen, listet die Seite **Unters
 | Berichtdaten einrichten|Datensets einrichten, die Sie verwenden können, um leistungsstarke Berichte mithilfe von Excel oder Power BI zu erstellen. |
 | Externen Buchhalter einladen |Wenn Sie eines externen Buchhalter verwenden, um Ihre Buch und Berichte zu verwalten, können Sie sie für Ihr [!INCLUDE [prodshort](includes/prodshort.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten. |
 
-Die Seite **Unterstützte Einrichtung** enthält möglicherweise andere Einträge. Wenn Sie eine Einrichtung durchführen, wird dies als **Abgeschlossen** markiert. Sie können zusätzliche Bereiche des Unternehmens einrichten, indem Sie die manuelle Einrichtung verwenden. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+Die Seite **Unterstützte Einrichtung** enthält möglicherweise andere Einträge. Wenn Sie ein Setup durchlaufen, wird das Setup als **Abgeschlossen** markiert. Sie können zusätzliche Bereiche des Unternehmens einrichten, indem Sie die manuelle Einrichtung verwenden. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 
-### <a name="resetting-your-includeprodshortincludesprodshortmd-trial-experience"></a>Zurücksetzen Ihrer [!INCLUDE[prodshort](includes/prodshort.md)]-Testversionsumgebung
+### <a name="resetting-your-prodshort-trial-experience"></a>Zurücksetzen Ihrer [!INCLUDE[prodshort](includes/prodshort.md)]-Testversionsumgebung
 
-Wenn Sie Ihrer [!INCLUDE[prodshort](includes/prodshort.md)]-Testversion Daten hinzugefügt haben und Sie möchten nochmal von vorn anfangen, können Sie ein neues Bewertungsunternehmen erstellen und dann das ersten Unternehmen löschen. Wenn Sie die Seite **Unternehmen** öffnen und **Neu** wählen, kann Sie die Anleitung für die unterstützte Einrichtung **Neues Unternehmen erstellen** dabei unterstützen, ein neues Bewertungsunternehmen mit Beispieldaten einzurichten. Sie können auch eine Kopie Ihres aktuellen Unternehmens erstellen, sich abmelden und sich dann bei Ihrem neuen Unternehmen anmelden.  
+Wenn Sie Ihrer [!INCLUDE[prodshort](includes/prodshort.md)]-Testversion Daten hinzugefügt haben und Sie möchten nochmal von vorn anfangen, können Sie ein neues Bewertungsunternehmen erstellen und dann das ersten Unternehmen löschen. Öffnen Sie die Seite **Unternehmen** und wählen Sie **Neu**, um die Anleitung **Neues Unternehmen anlegen** unterstützte Einrichtung zu starten. Der Leitfaden kann Ihnen helfen, eine neue Auswertungsfirma mit Beispieldaten einzurichten. Sie können auch eine Kopie Ihres aktuellen Unternehmens erstellen, sich abmelden und sich dann bei Ihrem neuen Unternehmen anmelden.  
 
 > [!IMPORTANT]
 > Wenn Sie [!INCLUDE [prodshort](includes/prodshort.md)] mit anderen Personen in Ihrer Organisation gemeinsam nutzen, müssen Sie sicherstellen, dass keine anderen Personen angemeldet sind, wenn Sie ein Unternehmen löschen.  
 
 ## <a name="getting-started-with-a-subscription"></a>Erste Schritte mit einem Abonnement
 
-Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Reselling-Partner?](across-faq.md#findpartner). Der Weiterverkaufspartner kann Ihnen dabei behilflich sein, [!INCLUDE [prodshort](includes/prodshort.md)] so einzurichten, das es zu Ihrem Unternehmen passt, einschließlich des Imports Ihrer Daten aus Ihrem vorherigen System und dem Hinzufügen von Funktionen, wie z. B. Apps aus [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Reselling-Partner?](across-faq.md#findpartner). Der Wiederverkaufspartner kann Ihnen helfen, [!INCLUDE [prodshort](includes/prodshort.md)] so einzurichten, dass es zu Ihrem Unternehmen passt, einschließlich des Imports Ihrer Daten aus Ihrem früheren System. Sie können [!INCLUDE [prodshort](includes/prodshort.md)] auch anpassen, indem Sie Anwendungen aus [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central) hinzufügen.  
 
 [!INCLUDE [prodshort](includes/prodshort.md)] online verwendet Office 365. Wenn Ihr Unternehmen eine andere Art der E-Mail-Einrichtung verwendet, kann der Weiterverkaufspartner Ihnen bei der Entscheidung helfen, wie Sie migrieren möchten oder ob Sie [!INCLUDE [prodshort](includes/prodshort.md)] lokal verwenden sollten.  
 
@@ -72,7 +76,7 @@ Sie können sich auch an das [[!INCLUDE[d365fin](includes/d365fin_md.md)] Vertre
 
 ## <a name="getting-started-with-sandboxes"></a>Erste Schritte mit Sandboxes
 
-Sandboxumgebungen können eine Möglichkeit sein, mit [!INCLUDE[d365fin](includes/d365fin_md.md)] zu üben. Sie können sich eine Sandbox als eine Nichtproduktionsumgebung vorstellen, die Sie zusätzlich zu Ihrer Produktionsinstanz von [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden können. Wenn Sie zum Beispiel am kostenlosen Onlinetraining von [Microsoft Learn](/learn/browse/?products=dynamics-business-central) teilnehmen möchten, kann Ihr Administrator eine Sandboxumgebung erstellen, damit Sie und Ihre Kollegen dort anstatt in Ihrer Produktionsumgebung üben können.  
+Sandboxumgebungen können eine Möglichkeit sein, mit [!INCLUDE[d365fin](includes/d365fin_md.md)] zu üben. Stellen Sie sich eine Sandbox als eine Nicht-Produktionsumgebung vor, die Sie zusätzlich zu Ihrer Produktionsinstanz von [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden können. Wenn Sie z.B. die kostenlose Online-Schulung von [Microsoft Learn](/learn/browse/?products=dynamics-business-central) absolvieren möchten, kann Ihr Administrator [eine Sandbox-Umgebung](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) erstellen, so dass Sie und Ihre Kollegen dort und nicht in Ihrer Produktionsumgebung üben können.  
 
 Wenn Sie ein Entwickler sind, können Sie mit einer Sandbox sicher Erweiterungen erstellen und testen und neue Funktionalitäten entwickeln, um den Service anzupassen, ohne die Daten und Einstellungen Ihre Produktionsumgebung zu beeinträchtigen.  
 
@@ -83,16 +87,6 @@ Derzeit können alle Kunden eine Sandbox verwenden, auch Organisationen, die sic
 
 Der Administrator Ihres [!INCLUDE [prodshort](includes/prodshort.md)] und Ihr Weiterverkaufspartner kann zusätzliche Umgebungen im Admin Center erstellen. Weitere Informationen finden Sie unter [Das Business Central Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
-<!-- As a partner, you can provide customers with trials based on already existing functionality, customizations, and previews of future capabilities. With previews like this, you can try and provide feedback about upcoming capabilities.  -->
-
-<!--To get started with a preview, go to [this page](https://go.microsoft.com/fwlink/?linkid=866045) and provide your work email address. To learn more about [!INCLUDE[d365fin](includes/d365fin_md.md)] and the capabilities it offers, refer to the documentation here on this site.-->
-<!--
-### Building New Solutions and Intellectual Property
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offers a set of development tools and a modern platform to build on so you can create your own add-on apps and embed solutions to connect or extend [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-For example, you can use an API to build a connected app to exchange data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and your payroll app. Connect apps can also make use of extensions to create pages to be used for setup, configuration, or to support app-specific features. For more information, see [Build Your Business on Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-welcome).-->
-
 ## <a name="see-also"></a>Siehe auch
 
 [Erste Schritte](product-get-started.md)  
@@ -102,6 +96,8 @@ For example, you can use an API to build a connected app to exchange data betwee
 [Wie finde ich einen Weiterverkaufspartner?](across-faq.md#findpartner)  
 [Auswählen Ihrer Dynamics 365 Business Central-Entwicklungssandkasten-Umgebung](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
-  
+[Tests verlängern (als Administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
+[Einstieg als Wiederverkäufer von Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+[Vorbereitung von Demonstrationsumgebungen (als Partner)](/dynamics365/business-central/dev-itpro/administration/demo-environment)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

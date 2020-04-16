@@ -2,15 +2,15 @@
 title: Vorverkauf-Lernkatalog für Partner
 description: Hier finden Sie alle verfügbaren Informationen für Business Central.
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: fa20bdc9852098ac3d1a78d2038fcf4182ce2f1f
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: e5341a17626b693cf49d74d398ee5bb657ba3afd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097816"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190740"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Vorverkauf-Lernkatalog für Partner
 
@@ -18,7 +18,7 @@ Sind Sie dafür verantwortlich, den Kunden die wichtigsten Funktionen v
 
 Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisiert, von grundlegend bis fortgeschritten. Wenn Inhalte in mehreren Formaten vorliegen, werden wir Sie darüber informieren, so dass Sie das für Ihre Bedürfnisse am besten geeignete Trainingsformat auswählen können. 
 
-## Erste Schritte<a name="get-started"></a>
+## <a name="get-started"></a>Erste Schritte<a name="get-started"></a>
 
 | Inhalt                                                                                                                              | Beschreibung                                                                                                                                                                                                                                                                                      | Format                                | Länge             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -28,27 +28,27 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 | [Business Central YouTube Wiedergabeliste](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube Landing Page für Dynamics 365 Business Central Videos                                                                                                                                                                                                                                    | YouTube Videos                        |                    |
 | [Erforschen Sie die Dynamics 365 Business Central-Funktionen](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Erkunden Sie die Dynamics 365 Business Central-Funktionen.                                                                                                                                                                                                                                               | Website                               |                    |
 
-## Erweitern Sie Ihr Geschäft<a name="grow"></a>
+## <a name="grow-your-business"></a>Erweitern Sie Ihr Geschäft<a name="grow"></a>
 
 | Inhalt                                                                                                                                | Beschreibung                                                                                                                                                                                                                                                                                      | Format                                | Länge                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Überzeugende Bewerbergespräche (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)                                             | Errol Schoenfish, Director of Product Marketing, spricht darüber, wie man überzeugende Gespräche mit potenziellen Kunden über Microsoft Dynamics 365 Business Central führen kann.                                                                                                                        | Video                                 | 11 Minuten 16 Sekunden |
 | [Dynamics 365 Business Central - Wie man es realisiert](https://mbspartner.microsoft.com/D365/Videos/101787)                                                                   | Errol Schoenfish, Director of Product Marketing, spricht darüber, wie man mit der Aktivierung von Demos für Microsoft Dynamics 365 Business Central beginnt.                                                                                                                                           | Video                                 | 12 Minuten 29 Sekunden |
 
-## Geschäftswert<a name="busvalue"></a>
+## <a name="business-value"></a>Geschäftswert<a name="busvalue"></a>
 
 | Inhalt                                                                                                                                | Beschreibung                                                                                                                                                                                                                                                                                      | Format                                | Länge                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Erforschen Sie die Dynamics 365 Business Central-Funktionen](https://dynamics.microsoft.com/business-central/capabilities/) | Erkunden Sie die Dynamics 365 Business Central-Funktionen.                                                                                                                                                                                                                                                        | Website                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Dieses Modul zeigt Anwendungsmerkmale, Vorteile und Beispiele für Dynamics 365 Business Central in Aktion.                                                                                                                                                                                                | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 24 Minuten          |
 
-## Was ist neu<a name="whatsnew"></a>
+## <a name="whats-new"></a>Was ist neu<a name="whatsnew"></a>
 
 | Inhalt                                                                                                                                | Beschreibung                                 | Format                                | Länge                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365: 2019 Veröffentlichunswelle 2 Plan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)                                                               | Der Releaseplan von Dynamics 365 (früher Release-Informationen) für die Release-Welle 2 2019 beschreibt alle neuen Funktionen, die von Oktober 2019 bis März 2020 freigegeben wurden.                                                                                                                                          | Website und herunterladbares Whitepaper  |                       |
 
-## Demo<a name="demo"></a>
+## <a name="demo"></a>Demo<a name="demo"></a>
 
 | Inhalt                                                                                                                                                           | Beschreibung                                                                                                                                                                                                                                                     | Format                           | Länge                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|

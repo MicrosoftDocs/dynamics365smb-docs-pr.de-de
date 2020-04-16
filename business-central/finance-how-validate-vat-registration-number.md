@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: andregu
-ms.openlocfilehash: f4d5023acba2e0cc5600b3f6675c3dcc325489d7
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 4b282d8819851fd6529f901f44a39777a8b8e74c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992225"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183068"
 ---
 # <a name="validate-a-vat-registration-number"></a>Eine Umsatzsteuer-Identifikationsnummer überprüfen
 

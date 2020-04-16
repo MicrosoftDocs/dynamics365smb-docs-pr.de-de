@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7253e4fc4e4f1418a7c9bd1e2ac5e19298e4fb57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6f8935ed6a8ca2ac806dd746a0376210d5e8abbf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308335"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185996"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 In Unternehmen fällt Tag für Tag eine erhebliche Menge an Daten an. Diese Daten – wie Verkaufszahlen der Organisation, Einkäufe, operative Aufwendungen, Löhne/Gehälter oder Budgets – sind für Entscheidungsträger eine Quelle wichtiger Informationen (auch: Business Intelligence). [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügt über eine Reihe von Features, die Sie beim Sammeln, Analysieren und gemeinsamen Nutzen von Firmendaten unterstützen.
@@ -37,6 +37,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Richten Sie Analyseansichten ein, um Daten mithilfe von Dimensionen zu analysieren.|[Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)|
 |Erstellen neuer Analyseberichte für Verkauf, Einkauf und Lager sowie Einrichten von Analysevorlagen|[Analyseberichte erstellen](bi-how-create-analysis-views-reports.md)|
 |Aktivieren Sie die Erstellung in den erweiterbaren internationalen Buchhaltungsorganisationen mit dem eXtensible Geschäfts-Berichterstellungs-Sprachenstandard.|[Berichte mit XBRL erstellen](bi-create-reports-with-xbrl.md)|
+|Ändern Sie die Datenbank-Zugriffsabsicht für Berichte, Seiten vom Typ API und Abfragen, um die Last zu verringern und die Leistung zu verbessern.|[Absicht auf Datenbankzugriff verwalten](admin-data-access-intent.md)|
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)    

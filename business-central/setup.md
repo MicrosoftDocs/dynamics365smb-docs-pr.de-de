@@ -8,24 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 80f33734365ad52b59e77d89e35af81d5a798fcb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832359"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194667"
 ---
-# <a name="setting-up-included365finincludesd365fin_mdmd"></a>Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen.
+# <a name="setting-up-prodshort"></a>Einrichten von [!INCLUDE[prodshort](includes/prodshort.md)]
+
+[!INCLUDE[prodshort](includes/prodshort.md)] enthält Standardkonfigurationen für die meisten Geschäftsprozesse, aber Sie können die Konfiguration ändern, um sie an die Bedürfnisse Ihrer Organisation anzupassen.
 
 Wir haben einige Firmendaten für Sie erstellt, beispielsweise Ihren Kontenplan mit Kontensummen vorausgefüllt, die zur Verwendung bereit sind. Sie können den Kontenplan selbstverständlich ändern und Ihren persönlichen Anforderungen anzupassen. Weitere Informationen finden Sie unter [Finanzen](finance.md).
 
-Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsseiten zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).
-
-> [!NOTE]
-> Sie können in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit RapidStart Services einen neuen Mandanten einrichten. Dies ist ein Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen. Weitere Informationen finden Sie unter [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md).
+Vom ![Zahnrad-Symbol zum Öffnen des Einstellungsmenüs](media/ui-experience/settings_icon_small.png)-Menü aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prodshort](includes/prodshort.md)] hinzuzufügen. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsseiten zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).
 
 Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvorgänge können zusätzlich zum Leitfaden der unterstützten Einrichtung auch manuell eingerichtet werden. Nachfolgend finden Sie eine Liste von Funktionalität, die Sie manuell einrichten können.
 
@@ -47,7 +45,7 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 |Mit dem Business Central Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, oder Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.|[Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)|
 |Erhalten Sie Einblicke in Ihre Business Central-Daten mit Power BI und Business Central-Inhaltspaketen.|[Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)|
 |Verwenden Sie Ihre Business Central-Daten als Teil eines Workflows in Power Automate.|[Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)|
-|Stellen Sie Ihre Business Central-Daten als Datenquelle in Power Apps bereit.|[Verbinden mit Ihren Business Central-Daten, um eine Geschäftsanwendung mithilfe von Power Apps zu erstellen](across-how-use-financials-data-source-powerapps.md)|
+|Sie können die Business Central-Daten als Datenquelle in Power Apps bereitstellen.|[Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von Power Apps zu erstellen](across-how-use-financials-data-source-powerapps.md)|
 |Verwenden Sie dedizierte QuickBooks-Migrationshandbücher.|[Von QuickBooks-App zu Business Central wechseln](across-quickbooks-to-business-edition.md)|
 |Greifen Sie von Ihrem mobilen Gerät auf Business Central-Daten zu.|[Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)|
 |Verwenden Sie Massenrechnungsstellung zu Terminen, die in Bookings erstellt wurden.|[Massenrechnungsstellung für Microsoft Bookings](finance-bookings.md)|
@@ -56,6 +54,9 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 |Sie können Ihrer Firma sowie Ihren Geschäftspartnern, wie z. B. Debitoren, Kreditoren und Lagerorten, Basiskalender zuordnen. Die Liefer- und Wareneingangsdaten auf zukünftigen Verkaufsaufträgen, Einkaufsbestellungen, Umlagerungsaufträgen und in Fertigungsauftragszeilen werden, entsprechend den Arbeitstagen, die im Kalender festgelegt sind, errechnet.|[Basiskalender einrichten](across-how-to-assign-base-calendars.md)|  
 
 Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnement [!INCLUDE[d365fin](includes/d365fin_md.md)] sind. Weitere Informationen finden Sie unter [Verwaltung](admin-setup-and-administration.md).  
+
+> [!NOTE]
+> Als Administrator können Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit RapidStart Services ein neues Unternehmen einrichten. Dieses Tool wurde entwickelt, um die Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu verbessern, einen wiederholbaren Ansatz für Implementierungen einzuführen und die Produktivität durch Automatisierung und Vereinfachung wiederkehrender Aufgaben zu steigern. Weitere Informationen finden Sie unter [Mandanten einrichten mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 ## <a name="see-also"></a>Siehe auch
 

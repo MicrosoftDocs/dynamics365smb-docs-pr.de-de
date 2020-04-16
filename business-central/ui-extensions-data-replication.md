@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 02/18/2020
+ms.date: 04/01/2020
 ms.author: jenolson
-ms.openlocfilehash: 8afa05f7e1790ab28f8450a8323b48ec1c5ebd72
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 591e777b62255d0726231485527fd0a266cd8b0d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076380"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194283"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligente Cloud-Erweiterungen für die Cloudmigration
 

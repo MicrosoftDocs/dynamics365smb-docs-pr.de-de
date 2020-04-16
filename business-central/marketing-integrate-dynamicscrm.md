@@ -9,38 +9,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1e45a480e8fdcc508de8ac82a6d2860147d76cec
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: b9926ced6827354c438445f0618db5a525b080d2
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991784"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196735"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Verwenden von Dynamics 365 Sales von Business Central
 Wenn Sie Dynamics 365 Sales for Customer Engagement verwenden, können Sie nahtlose Integration in den Interessent-zu-Geld-Prozess nutzen, indem Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.
 
-Bevor Sie die Integrationsfunktionen verwenden können, müssen Sie die Verbindung einrichten und Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] definieren. Weitere Informationen finden Sie unter [Integrieren in Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+Bevor Sie die Integrationsfunktionen verwenden können, muss Ihr Systemadministrator die Verbindung einrichten und Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] definieren. Weitere Informationen finden Sie unter [Integrieren in Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
 
 > [!NOTE]
-> In diesen Schritten wird die Integration von Onlineversionen von [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] beschrieben. Informationen zur lokalen Konfiguration finden Sie unter [Dynamics 365 Sales für die Integration vor Ort vorbereiten](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> In diesen Schritten wird die Integration von Onlineversionen von [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] beschrieben. Informationen zur lokalen Konfiguration finden Sie unter [Dynamics 365 Sales für die lokale Integration vorbereiten](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Die Integration der Anwendungen ermöglicht den Zugriff auf Daten in Sales von [!INCLUDE[d365fin](includes/d365fin_md.md)] aus und in einigen Fällen auch umgekehrt. Sie können mit Datentypen, die bei beiden Diensten gleich sind, arbeiten und diese synchronisieren. Dazu zählen etwa Debitoren, Kontakte und Verkaufsinformationen. Außerdem können Sie die Daten an beiden Anwendungen auf dem aktuellen Stand halten.  
 
-Beispielsweise kann ein Verkäufer in Sales die Preislisten verwenden aus [!INCLUDE[d365fin](includes/d365fin_md.md)] wenn Sie einen Verkaufsauftrag erstellen. Wenn Artikel in der Verkaufsauftragszeile in Sales hinzugefügt werden, sind sie in der Lage, den Lagerbestand (Verfügbarkeit) des Artikels anzuzeigen von [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Beispielsweise kann ein Verkäufer in [!INCLUDE[crm_md](includes/crm_md.md)] die Preislisten aus [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden, wenn er einen Kundenauftrag erstellt. Wenn sie den Artikel der Debitorenauftragszeile unter [!INCLUDE[crm_md](includes/crm_md.md)] hinzufügen, können sie den Lagerbestand (Verfügbarkeit) des Artikels unter [!INCLUDE[d365fin](includes/d365fin_md.md)] sehen.
 
-Andererseits können Auftragsbearbeiter in [!INCLUDE[d365fin](includes/d365fin_md.md)] Verkaufsaufträge verarbeiten, die automatisch oder manuell vom Vertrieb übertragen werden. Beispielsweise können sie Verkaufsauftragszeilen für Artikel oder Ressourcen erstellen und buchen, die in Sales als einzutragende Produkten eingegeben wurden. Weitere Informationen finden Sie im Abschnitt [Verarbeiten von Verkaufsauftragsdaten](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
+Umgekehrt können Auftragsbearbeiter in [!INCLUDE[d365fin](includes/d365fin_md.md)] Kundenaufträge bearbeiten, die automatisch oder manuell von [!INCLUDE[crm_md](includes/crm_md.md)] übertragen werden. Sie können z.B. Debitorauftragszeilen für Artikel oder Ressourcen erstellen und buchen, die in [!INCLUDE[crm_md](includes/crm_md.md)] als Einschreibprodukte eingegeben wurden. Weitere Informationen finden Sie im Abschnitt [Verarbeiten von Verkaufsauftragsdaten](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] integriert nur mit Dynamics 365 Sales. Andere Dynamics 365, die den Standardworkflow oder das Datenmodell in Sales ändern, zum Beispiel, Project Service Automation, können die Integration zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und Sales unterbrechen.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] kann nur in [!INCLUDE[crm_md](includes/crm_md.md)] integriert werden. Andere Dynamics 365-Anwendungen, die den Standard-Workflow oder das Datenmodell in [!INCLUDE[crm_md](includes/crm_md.md)] ändern, z.B. Project Service Automation, können die Integration zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] unterbrechen.
 
-### <a name="coupling-records"></a>Kopplungsdatensätze
-Mit dem Leitfaden für das unterstütze Setup können Sie die zu synchronisierenden Daten auswählen. Später können Sie die Synchronisierung für bestimmte Datensätze einrichten. Dies wird als *Kopplung* bezeichnet. Beispielsweise können Sie ein bestimmtes Konto in Sales mit einem bestimmten Debitor in [!INCLUDE[d365fin](includes/d365fin_md.md)] koppeln. In diesem Abschnitt wird beschrieben, was berücksichtigt werden sollte, wenn Sie Datensätze koppeln.
+## <a name="coupling-records"></a>Kopplungsdatensätze
+Mit dem Leitfaden für das unterstütze Setup können Sie die zu synchronisierenden Daten auswählen. Später können Sie die Synchronisierung für bestimmte Datensätze einrichten. Dies wird als *Kopplung* bezeichnet. Sie können z.B. ein bestimmtes Konto in [!INCLUDE[crm_md](includes/crm_md.md)] mit einem bestimmten Debitor in [!INCLUDE[d365fin](includes/d365fin_md.md)] koppeln. In diesem Abschnitt wird beschrieben, was berücksichtigt werden sollte, wenn Sie Datensätze koppeln.
 
-Wenn Sie Konten in Sales als Debitor in [!INCLUDE[d365fin](includes/d365fin_md.md)] anzeigen möchten, müssen Sie die beiden Arten von Datensätzen koppeln. Dazu verwenden Sie auf der Listenseite **Debitoren** in [!INCLUDE[d365fin](includes/d365fin_md.md)] die **Kopplung einrichten**-Aktion. Dann legen Sie fest, welche [!INCLUDE[d365fin](includes/d365fin_md.md)]-Debitoren den Konten in Sales zugewiesen werden.
+Wenn Sie z.B. Konten in [!INCLUDE[crm_md](includes/crm_md.md)] als Debitoren in [!INCLUDE[d365fin](includes/d365fin_md.md)] sehen wollen, müssen Sie die beiden Arten von Datensätzen koppeln. Dazu verwenden Sie auf der Listenseite **Debitoren** in [!INCLUDE[d365fin](includes/d365fin_md.md)] die **Kopplung einrichten**-Aktion. Dann geben Sie unter [!INCLUDE[crm_md](includes/crm_md.md)] an, welche [!INCLUDE[d365fin](includes/d365fin_md.md)]-Debitoren mit welchen Konten übereinstimmen sollen.
 
-Sie können auch ein Konto in Sales erstellen (und koppeln), das zum Beispiel auf einem Debitorendatensatz in [!INCLUDE[d365fin](includes/d365fin_md.md)] basiert, wenn Sie **Konto in Dynamics 365 Sales erstellen** verwenden, oder umgekehrt mithilfe von **Debitor erstellen in [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
+Sie können auch ein Konto in [!INCLUDE[crm_md](includes/crm_md.md)] erstellen (und koppeln), z.B. basierend auf einem Debitorendatensatz in [!INCLUDE[d365fin](includes/d365fin_md.md)], indem Sie **Konto in Dynamics 365 Sales** erstellen, oder umgekehrt, indem Sie **Debitor in [!INCLUDE[d365fin](includes/d365fin_md.md)]** erstellen.
 
 Wenn Sie eine Kopplung zwischen zwei Datensätzen einrichten, können Sie manuell anfordern, dass der aktuelle Datensatz, beispielsweise einen Debitor, sofort durch Kontodaten aus Sales (oder aus [!INCLUDE[d365fin](includes/d365fin_md.md)]) mithilfe der **Jetzt synchronisieren**-Aktion überschrieben werden. Die **Jetzt synchronisieren**-Aktion, die fragt, ob Sales oder [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensatzdaten überschrieben werden sollen.
 
@@ -48,17 +48,17 @@ In einigen Fällen müssen Sie projektspezifische Datenbestände vor anderen Dat
 
 |Daten|Was zuerst koppeln|
 |-----|----|
-|Debitoren und Konten|Verkäufer mit Sales-Benutzern koppeln|
-|Artikel und Ressourcen|Maßeinheiten mit Sales-Einheitengruppe koppeln|
-|Artikel und Ressourcenpreise|Debitorenpreisgruppen mit Verkaufspreisen koppeln|
+|Debitoren und Konten|Paare von Verkäufern mit [!INCLUDE[crm_md](includes/crm_md.md)] Benutzer|
+|Artikel und Ressourcen|Koppeln von Maßeinheiten mit [!INCLUDE[crm_md](includes/crm_md.md)]-Einheitengruppen|
+|Artikel und Ressourcenpreise|Koppeln Sie Kundenpreisgruppen mit [!INCLUDE[crm_md](includes/crm_md.md)]-Preisen|
 
 > [!NOTE]  
 > Wenn Ihre Preise oder Debitoren Fremdwährungen verwenden, stellen Sie sicher, dass Sie Währungen mit Sales-Transaktionswährungen koppeln.
 
-In Sales hängen Verkaufsaufträge von Informationen wie Debitoren, Maßeinheiten, Währungen, Debitorenpreisgruppen, Artikeln und/oder Ressourcen ab. Damit Verkaufsaufträge arbeiten, müssen Sie Debitoren, Maßeinheiten, Währungen, Debitorenpreisgruppen, Artikel und/oder Ressourcen koppeln.
+In [!INCLUDE[crm_md](includes/crm_md.md)] hängen Debitorenaufträge von Informationen wie Debitoren, Mengeneinheiten, Währungen, Debitorenpreisgruppen und Artikeln und/oder Ressourcen ab. Damit Verkaufsaufträge arbeiten, müssen Sie Debitoren, Maßeinheiten, Währungen, Debitorenpreisgruppen, Artikel und/oder Ressourcen koppeln.
 
-### <a name="fully-synchronizing-records"></a>Datensätze vollständig synchronisieren
-Am Ende des Leitfaden für das unterstützte Setup können Sie die Aktion **Vollständige Synchronisierung ausführen** auswählen, um die Synchronisierung aller Datensätze mit allen [!INCLUDE[d365fin](includes/d365fin_md.md)] Datensätzen mit allen verknüpften Einträgen in Sales zu starten. Auf der Seite **Dynamics 365 Sales vollständige Synchronisierung prüfen** wählen Sie die Aktion **Starten** aus. Vollständige Synchronisierung kann einige Zeit dauern, aber Sie können in [!INCLUDE[d365fin](includes/d365fin_md.md)] weiterarbeiten, während sie im Hintergrund ausgeführt wird.
+## <a name="fully-synchronizing-records"></a>Datensätze vollständig synchronisieren
+Am Ende der Anleitung zur unterstützten Einrichtung können Sie die Aktion **Vollständige Synchronisierung ausführen** wählen, um die Synchronisierung aller [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datensätze mit allen zugehörigen Datensätzen in [!INCLUDE[crm_md](includes/crm_md.md)] zu starten. Auf der Seite **Dynamics 365 Sales vollständige Synchronisierung prüfen** wählen Sie die Aktion **Starten** aus. Die vollständige Synchronisierung kann einige Zeit in Anspruch nehmen, aber Sie können die Arbeit in [!INCLUDE[d365fin](includes/d365fin_md.md)] fortsetzen, während sie im Hintergrund läuft.
 
 Um den Status aus einzelnen Projekte in einer vollständigen Synchronisierung zu prüfen, wählen Sie auf der Seite **Dynamics 365 Sales vollständigen Synchronisierung prüfen** einen Datensatz, um Details anzeigen. Um den Status der Synchronisierung zu aktualisieren, aktualisieren Sie die Seite.
 
@@ -73,10 +73,10 @@ Dies kann auch gehen, wenn der ursprüngliche Verkaufsauftrag geschriebene Produ
 
 Wenn die Artikelbeschreibung des ursprünglichen Verkaufsauftrags lang ist, wird eine zusätzliche Verkaufsauftragszeile der Art **Bemerkung** erstellt, um den Text in dem Verkaufsauftrag in [!INCLUDE[d365fin](includes/d365fin_md.md)]festzuhalten.
 
-Aktualisierungen der Verkaufsauftrags-Kopffeldern, wie "Letztes Lieferdatum" oder "Gewünschtes Lieferdatum", die der VERKAUFSAUFTRAG-AUFTRAG-**Integrationstabellenzuordnung** zugeordnet sind, werden in regelmäßigen Abständen mit [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Arbeitsgänge wie das Freigeben eines Verkaufsauftrags und die Lieferung oder Fakturierung eines Verkaufsauftrags werden auf der Verkaufsauftragszeitachse in [!INCLUDE[crm_md](includes/crm_md.md)] gebucht. Weitere Informationen finden Sie unter [Einführung in die Aktivitätsfeeds](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+Aktualisierungen von Feldern auf Debitorenauftragsköpfen, wie z. B. die Felder Letztes Versanddatum oder Wunschlieferdatum, die in SALESORDER-ORDER **Integrationstabellen-Zuordnung** abgebildet werden, werden periodisch mit [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert. Arbeitsgänge wie das Freigeben eines Verkaufsauftrags und die Lieferung oder Fakturierung eines Verkaufsauftrags werden auf der Verkaufsauftragszeitachse in [!INCLUDE[crm_md](includes/crm_md.md)] gebucht. Weitere Informationen finden Sie unter [Einführung in die Aktivitätsfeeds](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> Periodische Synchronisation basierend auf der SALESORDER-ORDER-**Integrationstabellenzuordnung** funktioniert nur, wenn die Verkaufsauftragsintegration aktiviert ist. Weitere Informationen finden Sie unter [Verbinden mit Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Nur Verkaufsaufträge, die aus übermittelten Verkaufsaufträgen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt wurden, werden synchronisiert. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodische Synchronisation basierend auf der SALESORDER-ORDER-**Integrationstabellenzuordnung** funktioniert nur, wenn die Verkaufsauftragsintegration aktiviert ist. Weitere Informationen finden Sie unter [Verbindungseinstellungen auf der Einrichtungsseite für die Sales Verbindung](admin-prepare-dynamics-365-for-sales-for-integration.md). Nur Verkaufsaufträge, die aus übermittelten Verkaufsaufträgen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt wurden, werden synchronisiert. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

@@ -5,24 +5,24 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/12/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 9c6e162e8b8146c59c135b669566594ca67be7dc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910928"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188684"
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 Dieser Abschnitt enthält Antworten auf häufig gestellte Fragen zur Registrierung für eine Testversion, zum Kauf eines Abonnements und zur Verwendung von [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sie können auch erfahren, wie Sie technischen Support erhalten.  
 
-## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Ist [!INCLUDE[d365fin](includes/d365fin_md.md)] in meinem Land verfügbar?
+## <a name="is-d365fin-available-in-my-country"></a>Ist [!INCLUDE[d365fin](includes/d365fin_md.md)] in meinem Land verfügbar?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist in einer begrenzten Anzahl von Märkten verfügbar. Neue Länder werden über eine von Microsoft geführte Lokalisation oder durch partnergeführte Lokalisation quartalsweise hinzugefügt. Weitere Informationen finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (nur in Englisch verfügbar).  
 
-## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>Wie erhalte ich [!INCLUDE [prodshort](includes/prodshort.md)]?
+## <a name="how-do-i-get-prodshort"></a>Wie erhalte ich [!INCLUDE [prodshort](includes/prodshort.md)]?
 
 Sie können sich für eine kostenlose Testversion registrieren, um [!INCLUDE [prodshort](includes/prodshort.md)] zu erkunden. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] Wenn Sie mehr Zeit zur Erkundung möchten, [können Sie Ihre Testperiode verlängern](#can-i-extend-my-30-day-new-company-trial-period).  
 
@@ -35,9 +35,9 @@ Wenn Sie Fragen zum [!INCLUDE[d365fin](includes/d365fin_md.md)] haben, und keine
 
 Von der Communityhomepage aus finden Sie auch Verknüpfungen mit unseren Blogs, in denen Sie Tipps und Tricks finden. Weitere Informationen finden Sie unter [Microsoft Dynamics 365 Business Central auf dem Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) und den älteren [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials).  
 
-Schließlich können Sie Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Wiederverkaufspartner kontaktieren. Weitere Informationen finden Sie in den Abschnitten [Wie erhalte ich technischen Support?](across-faq.md#how-do-i-get-technical-support-for-) und [Wie finde ich einen Reselling-Partner?](#findpartner)?  
+Schließlich können Sie Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Wiederverkaufspartner kontaktieren. Weitere Informationen finden Sie in den Abschnitten [Wie erhalte ich technischen Support?](across-faq.md#hdigetsupport) und [Wie finde ich einen Reselling-Partner?](#findpartner)?  
 
-## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Warum finde ich diese Funktion nicht in meinem [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="why-cant-i-find-that-capability-in-my-d365fin"></a>Warum finde ich diese Funktion nicht in meinem [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Haben Sie vor kurzem über eine neue Funktion im Veröffentlichungsplan in unserem Blog gelesen? In diesem Fall wurde Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise noch nicht auf die neueste Version aktualisiert. Sie können überprüfen, auf welcher Version Ihre [!INCLUDE[d365fin](includes/d365fin_md.md)] basiert auf der Seite [Hilfe und Unterstützung](product-help-and-support.md).  
 
 Also wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt es eine Verzögerung zwischen der angekündigten Erweiterung und ihrer Verfügbarkeit in AppSource.  
@@ -45,14 +45,14 @@ Also wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt e
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Gibt es Unterschiede zwischen einer lokalen Bereitstellung und der Cloud-Version von Business Central?
 Ja. Einige Cloud-basierte Funktionen können in bestimmten Fällen lokal ausgeführt werden, andere werden überhaupt nicht unterstützt. Weitere Informationen finden Sie unter [Funktionen, die in lokalen Bereitstellungen von Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) nicht implementiert sind.
 
-## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Kann ich unter [!INCLUDE[d365fin](includes/d365fin_md.md)] das Training aufrufen?
+## <a name="can-i-get-training-in-d365fin"></a>Kann ich unter [!INCLUDE[d365fin](includes/d365fin_md.md)] das Training aufrufen?
 Ja, das können Sie! Kostenlose eLearning-Inhalte finden Sie auf der [Microsoft Learn Seite](/learn/browse/?products=dynamics-business-central). Weitere Informationen finden Sie unter [Business Central Lernkatalog](readiness/readiness-learning-catalog.md). Sie können auch Ihren Vertriebspartner um zusätzliche Schulungen bitten. Wenn Sie nicht wissen, wer das ist, lesen Sie den Abschnitt [Wie finde ich einen Reselling-Partner?](#findpartner).  
 
 Weitere Informationen über das von Microsoft bereitgestellte Training für Dynamics 365 finden Sie auf der Seite [Microsoft Dynamics 365 Training](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 Zusätzliche Inhalte werden von der [!INCLUDE [prodshort](includes/prodshort.md)]-Community bereitgestellt, wie z.B. der [Microsoft Dynamics 365 Business Central Field Leitfaden](https://leanpub.com/dynamics), der von einem Partner geschrieben wird.  
 
-## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Wie gelange ich zum technischen Support von [!INCLUDE[d365fin](includes/d365fin_md.md)]"?
+## <a name="how-do-i-get-technical-support-for-d365fin"></a><a name="hdigetsupport"></a>Wie bekomme ich technische Unterstützung für [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] wird durch Partner verkauft und Sie sollten Ihren Wiederverkaufspartner kontaktieren, um Hilfe mit technischen Problemen zu erhalten. Wenn Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner das jeweilige Problem nicht lösen kann, wir er ein Support-Ticket bei Microsoft eröffnen.  
 
@@ -65,8 +65,7 @@ Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf
 
 Es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.
 
-
-## <a name="what-email-address-can-i-use-with-included365finincludesd365fin_mdmd"></a>Welche E-Mail-Adresse kann ich mit [!INCLUDE[d365fin](includes/d365fin_md.md)] benutzen?
+## <a name="what-email-address-can-i-use-with-d365fin"></a><a name="email"></a>Welche E-Mail-Adresse kann ich mit [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schließt outlook.com, hotmail.com, gmail.com und andere ein.  
 
 Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erhalten Sie eine Nachricht, in der Sie aufgefordert werden, eine Arbeits- oder Schul-E-Mail-Adresse zu verwenden. Weitere Informationen finden Sie unter [Problembehandlung zur Self-Service-Registrierung](ui-troubleshoot-self-signup.md).  
@@ -83,7 +82,7 @@ Wenn Sie kein Office 365-Abonnement haben und Sie keines kaufen möchten, dann s
 ## <a name="what-is-the-integration-with-office-365-about"></a>Worum geht's bei der Integration mit Office 365?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] online ist vollständig in Office 365 integriert, sodass Sie mit dem App-Startfeld frei zwischen Office 365 Anwendungen und [!INCLUDE[d365fin](includes/d365fin_md.md)] navigieren können. Im [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten in Outlook arbeiten. Weitere Informationen finden Sie unter [Nutzen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md).  
 
-## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kann ich meinen 30-tägigen Testversionszeitraum für „Neues Unternehmen“ verlängern?
+## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kann ich meine 30-tägige Testzeit „Neues Unternehmen“ verlängern?
 Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrichtigung angezeigt, um Sie darauf hinzuweisen, wenn Sie sich anmelden. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen. Sie können den Testversionszeitraum einmalig selbst verlängern. Danach kann ein Microsoft-Partner ihn um weiterer 30 Tage verlängern. Weitere Informationen finden Sie unter [Ihre Testversion verlängern](admin-extend-trial.md).
 
 > [!NOTE]
@@ -91,7 +90,7 @@ Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrich
 
 Weitere Informationen zur Partnersuche finden Sie unter [Wie finde ich einen Reselling-Partner?](#findpartner).  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Der Administrator hat mich auf einen anderen Plan gelegt und mir eine andere Rolle zugewiesen, aber ich sehe immer noch die gleiche Startseite in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-d365fin"></a>Der Administrator hat mich auf einen anderen Plan gelegt und mir eine andere Rolle zugewiesen, aber ich sehe immer noch die gleiche Startseite in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator im Rollencenter Ihre zugewiesene Rolle nicht geändert hat und Benutzergruppen zugeordnet hat, die mit der neuen Lizenz übereinstimmen. Im Wesentlichen wird Ihr Zugang zu [!INCLUDE[d365fin](includes/d365fin_md.md)] vom Plantyp (Lizenz) bestimmt, den Sie haben - dieser legt Ihre Zugriffsrechte, Ihre zugewiesene Rolle und die Standard-Startseite fest. Sie können Ihr aktuelle Rolle in "Meine Einstellungen" manuell ändern, wenn Sie aber auf einen Plan anderen wechseln, und vom Unternehmensplan auf einen Team-Members-Plan wechseln, könnten Sie die alte Startseite sehen, weil Ihre Berechtigungen nicht geändert wurden.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kann ich mein Abonnement beenden?
@@ -100,7 +99,7 @@ Ja, aber abhängig davon, wie Sie sich für [!INCLUDE[d365fin](includes/d365fin_
 ## <a name="can-i-use-multi-factor-authentication"></a>Kann ich eine mehrstufige Authentifizierung verwenden?
 Natürlich. In diesem Fall benötigen Sie möglicherweise ein App-Kennwort, um E-Mail-Nachrichten zu senden. App-Kennwörter ermöglichen einer App oder einem Gerät den Zugriff auf Ihr E-Mail-Konto. Die Schritte zum Erhalten eines App-Kennworts variieren, abhängig von Ihren E-Mail-Anbieter. Weitere Informationen finden Sie in der Hilfe von Ihrem Anbieter. Wenn Sie beispielsweise Outlook verwenden, werden Sie hier fündig [Erstellen eines App-Kennworts für Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
-## <a name="findpartner"></a>Wie finde ich einen Reselling-Partner?
+## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Wie finde ich einen Reselling-Partner?
 
 [!INCLUDE [prodshort](includes/prodshort.md)] wird über ein globales Netzwerk von Dynamics 365 Partnern mit Branchenexpertise verkauft und implementiert. Wenden Sie sich an einen Partner, um eine detaillierte Bewertung, Beratungsleistungen und zusätzliche Preise zu erhalten. Weitere Informationen finden Sie im Abschnitt **Preisgestaltung** auf der [Dynamics 365 Business Central Seite auf microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 

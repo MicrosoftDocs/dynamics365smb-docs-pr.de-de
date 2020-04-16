@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911120"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181742"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn arbeiten [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -38,7 +38,7 @@ Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem
 > [!NOTE]
 > Zusätzlich zu den in diesem Thema beschriebenen globalen Tastenkombinationen stehen eine Reihe von geschäftsspezifischen Tastenkombinationen zur Verfügung. Zum Beispiel in der generischen Version von [!INCLUDE[prodshort](includes/prodshort.md)], F9 bucht einen Beleg und STRG+F7 zeigt die Finanzbuchungen für einen Datensatz. (Diese können in Ihrer Lösung unterschiedlich sein.) Die Tastenkombination wird in der QuickInfo für die betreffende Aktion angezeigt.
 
-##  <a name="Keyboard"></a> Allgemeine Tastenkombinationen
+##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Allgemeine Tastenkombinationen
 Die folgende Tabelle beschreibt Tastenkombinationen für das zusätzliche Navigieren und Aufrufen von verschiedenen Elementen einer Seite, wie Aktionen, Dropdownlisten Anzeige, und mehr. Details über die Tastenkombinationen zum Navigieren von Datensätzen, wenn Sie innerhalb einer Liste abrufen, finden Sie im nächsten Abschnitt.
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
@@ -83,7 +83,8 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listensei
 |ALT+N|Fügen Sie eine neue Zeile in eine bearbeitbare Liste ein, wie die **Sachbudgets** Seite.|Das gleiche.|
 |Shift+F10 |Öffnen Sie ein Menü mit Optionen, die für die ausgewählte Zeile verfügbar sind.|Das gleiche.|
 
-### <a name="navigateshortcuts"></a>Navigieren zwischen Zeilen und Spalten
+### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigieren zwischen Zeilen und Spalten
+Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[prodshort](includes/prodshort.md)], wie z.B. Listenseiten und **Zeilen** Teilen auf Dokumenten. Die Bewegung von einer Zelle zur anderen über ein Raster ist vollständig über die Tastatur möglich.
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht zu tun |Um dies in einer Kachelansicht zu tun |
 |-----------------|-------|-------|
@@ -93,16 +94,17 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listensei
 |Ende<br />(NACH-RECHTS-TASTE)|Navigieren zum letzten Feld in einer Zeile.|Navigieren zur letzten Kachel in einer Zeile.|
 |Eingabe|Öffnet den Datensatz, der diesem Feld zugeordnet ist.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|Öffnet den Datensatz.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|
 |Ctrl+Enter|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.|
+|Seite nach oben<br />(NACH-OBEN-TASTE)|Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. |Scrollen, um den Kachelsatz über den aktuellen Kacheln in der Darstellung anzuzeigen. |
+|Seite nach unten<br />(NACH-UNTEN-TASTE)|Scrollen, um den Zeilensatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|Scrollen, um den Kachelsatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|
 |NACH-UNTEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darunter. |Navigieren zur darüberliegenden Kachel in der Zeile darunter. |
 |NACH-OBEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darüber.| Navigieren zur darüberliegenden Kachel in der Zeile darüber.  |
 |NACH-RECHTS-TASTE|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.<br /><br />Navigieren Sie in einer bearbeitbaren Liste innerhalb des aktuellen Felds nach rechts.| Navigieren zur gleichen Zeile in der nächsten Kachel rechts. |
 |NACH-LINKS-TASTE|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. <br /><br />In einer bearbeitbaren Liste bewegen Sie die Linke im aktuellen Feld.| Navigieren zur gleichen Zeile in der vorherigen Kachel links. |
-|Seite nach oben<br />NACH-OBEN-TASTE|Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. |Scrollen, um den Kachelsatz über den aktuellen Kacheln in der Darstellung anzuzeigen. |
-|Seite nach unten<br />(NACH-UNTEN-TASTE)|Scrollen, um den Zeilensatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|Scrollen, um den Kachelsatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|
-|Register|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.|Nicht anwendbar.||
+|Tab|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.|Nicht anwendbar.||
 |UMSCHALT+TAB|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
 
-### <a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
+
+### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht zu tun |Um dies in einer Kachelansicht zu tun |
 |-----------------|-------|-------|
@@ -120,7 +122,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listensei
 |Umschalttaste +Seite nach Unten<br />(Umschalttaste +FN + Pfeil nach unten)|Erweitern Sie die Auswahl von Zeilen, um sichtbare Zeilen unter der aktuellen Auswahl von Zeilen zu berücksichtigen.|Nicht anwendbar.|
 |F8|Kopieren Sie das Feld in der gleichen Spalte der Zeile oben, und fügen Sie es in die aktuelle Zeile ein. Sie können dies nur in bearbeitbaren Listen tun. Mit dieser Tastenkombination, gefolgt von TAB, können Sie schnell Felder in Zeilenartikeln füllen, die denselben Wert haben wie die Reihe darüber.|Nicht anwendbar.|
 
-### <a name="KeyboardFilter"></a>Sortieren und Filtern von Listen
+### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Sortieren und Filtern von Listen
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
 |-----------------|-------|
@@ -138,7 +140,7 @@ Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Be
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
 |----------------|-----------|
-|Alt+F6|Reduzieren oder Erweitern Sie das aktuelle Inforegister.|
+|Alt+F6|Schalten Sie das Ein-/Ausklappen für den aktuellen FastTab oder Teil (Unterseite) ein/aus.|
 |ALT+N |Öffnen Sie eine Seite für das Erstellen eines neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Neu**. |
 |ALT+UMSCHALT+N |Schließen Sie eine Seite und öffnen Sie eine neue Seite, um einen neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Ok und Neu**. |
 |ALT+UMSCHALT+W |Öffnen Sie die aktuelle Karte oder das Dokument in einem neuen Fenster. Weitere Informationen finden Sie unter [Multitasking über mehrere Seiten](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -151,7 +153,7 @@ Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Be
 |F6|Navigieren Sie zum nächsten Inforegister oder zum Teil (Unterseite).|
 |Shift+F6|Navigieren Sie zum vorherigen Inforegister oder Teil (Unterseite).|
 
-## <a name="QuickEntry"></a>Schnelleingabeverknüpfungen für Felder
+## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Schnelleingabeverknüpfungen für Felder
 
 Folgende Verknüpfungen gehören zur Schnelleingabefunktion auf Karten, Belegen und Listenseiten. Auf Listen können die Verknüpfungen nicht verwendet werden, wenn die Liste in der Kachelansicht angezeigt werden. Weitere Informationen über Schnelleingabe finden Sie unter [Beschleunigende der Dateneingabe mithilfe von Schnelleingabe](ui-enter-data.md#QuickEntry) schnellen Posten.
 
@@ -161,7 +163,7 @@ Folgende Verknüpfungen gehören zur Schnelleingabefunktion auf Karten, Belegen 
 |Umschalt+Eingabe|Bestätigen Sie den Wert im aktuellen Feld und wechseln Sie zum vorherigen Schnelleingabefeld.||
 |STRG+UMSCHALT+EINGABE|Bestätigen Sie den Wert in der aktuellen Spalte und wechseln Sie zum nächsten Schnelleingabefeld außerhalb der Liste.<br /><br />Dieses Tastenkürzel gilt für eingebettete Listen auf einer Seite wie Positionsartikel in einem Verkaufsauftrags. Damit gelangen Sie schnell aus Listen und können die Dateneingabe in anderen Feldern der Seite fortsetzen.|
 
-## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tastenkombinationen im Kalender (Datumsauswahl)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tastenkombinationen im Kalender (Datumsauswahl)
 
 Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeben oder festlegen oder einen Kalender (Datumsauswahl) öffnen, in dem Sie das Datum auswählen können Sie, das Sie möchten. Die folgende Tabelle beschreibt die Tastenkombinationen für den Kalender.
 
@@ -185,7 +187,7 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |h|Geben Sie das aktuelle Datum ein. „T“ bedeutet „heute“.|
 |a|Geben Sie das Arbeitsdatum ein. Weitere Informationen finden Sie unter [Arbeitsdatum](ui-change-basic-settings.md#work-date)|
 
-## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Tastenkombinationen in der Berichtsvorschau
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Tastenkombinationen in der Berichtsvorschau
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
 |-----------------|-------|

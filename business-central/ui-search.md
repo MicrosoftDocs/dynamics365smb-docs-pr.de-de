@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 13b3e82d184e83841ea5daeb32c735e5383b3e02
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 37ee56fef2f7424e0655303f2a6111a8b3eae94f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953947"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195315"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren  
 In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahren“ schnell zu Aktionen, Seiten oder Berichten navigieren, Informationen zum Abschluss einer bestimmten Aufgabe finden und zusätzliche Apps und Beratungsdienste für [!INCLUDE[d365fin](includes/d365fin_md.md)] zu ermitteln.  
@@ -38,7 +38,7 @@ Am unteren Rand des Fensters **Wie möchten Sie weiter verfahren** ist eine Akti
 Im Abschnitt **Auf aktueller Seite** können Sie Aktionen auf der geöffneten Seite suchen und ausfüllen. Wenn beispielsweise die **Verkaufsangebot** Seite geöffnet ist und Sie "Debitor" eingeben, umfasst der Abschnitt eine Aktion, mit der die Debitorenkarte für den Debitor geöffnet wird, der im Verkaufsangebot ausgewählt ist.
 
 > [!NOTE]  
->   Die Liste enthält nur Aktionen, die in der Navigationsleiste am oberen Seitenrand auch verfügbar sind. Aktionen in Inforegistern werden nicht berücksichtigt.  
+>   Die Liste enthält nur Aktionen, die in der Navigationsleiste oben auf der Seite verfügbar sind. Aktionen in Inforegistern werden nicht berücksichtigt.  
 
 ### <a name="finding-a-page-or-a-task"></a>Suchen nach einer Seite oder einer Aufgabe
 Die Ergebnisse im Abschnitt **Zu Seiten und Aufgaben wechseln** bieten Zugriff auf andere Seiten und lässt Sie Aufgaben ausführen oder Informationen suchen. Wenn Sie diese Seiten häufig verwenden, können Sie über das Lesezeichensymbol einen Link zu einer beliebigen Seite in Ihrem Rollencenter hinzufügen. Weitere Informationen finden Sie unter [Fügen Sie Ihrem Rollencenter eine Seitenaktion hinzu](ui-bookmarks.md).
@@ -63,7 +63,7 @@ Die Funktion **Wie möchten Sie weiter verfahren** sucht nicht nach Daten wie De
 ## <a name="questions"></a>Fragen?
 Wir haben „Wie möchten Sie weiter verfahren“ einer Reihe von Projektbeteiligten präsentiert, deren gemeinsame Fragen notiert und aus unseren Notizen eine Liste der häufig gestellten Fragen erstellt. Bei Interesse finden Sie sie unter [„Wie möchten Sie weiter verfahren“-FAQ](ui-search-faq.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesuser-interface-dynamics-365-business-centralindex"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit  Business Central](ui-work-product.md)  

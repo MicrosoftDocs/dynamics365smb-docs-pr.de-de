@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aab482918eacb7bea068a5c5f536c9e88bdd7b2c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: d720fa95873b1ec48f54797a59a209539045ed66
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879848"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184052"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Mit Buchhaltungsperioden und Geschäftsjahren arbeiten
 Buchhaltungsperioden, die auch als Meldezeiträume betragen, geben für die Zeiträume Mandanten- oder Organisationsberichtsfinanzleistung - beispielsweise durch das Generieren eines GuV-Kontos oder eines Bilanzkontos. Normalerweise beziehen sich Buchhaltungsperioden auf das Geschäftsjahr der Konzernmandanten, die mehrere Buchhaltungsperioden enthalten. wie Monate oder Quartale.

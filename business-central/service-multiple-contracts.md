@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba14e98e8387981d108b4a8440419f617fa3b3d8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c9822e35ea4ad6ad1b32894bbe0b980bf70149ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877183"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192531"
 ---
 # <a name="multiple-contracts"></a>Mehrere Verträge
 Abhängig von den Servicelevelvereinbarungen mit dem Kunden, kann es sein, dass Sie einen Serviceartikel in mehr als einem Servicevertrag berücksichtigen müssen.  
@@ -38,7 +38,7 @@ Sie können manuell einen Servicevertrag oder ein Servicevertragsangebot für Se
 Wenn Sie einen Serviceartikel einer Vertragszeile hinzufügen, der bereits in einem anderen Servicevertrag oder einem anderen Servicevertragsangebot enthalten ist, erscheint eine Warnung, dass der Serviceartikel bereits zu einem oder mehreren Serviceverträgen oder Vertragsangeboten gehört. Wenn Sie diese Warnung bestätigen, werden alle entsprechenden Serviceartikeldaten in eine neue Servicevertragszeile kopiert.  
   
 ## <a name="copying-documents"></a>Belege kopieren  
-Sie können einen Servicevertrag oder ein Vertragsangebot für einen Serviceartikel automatisch erstellen, der bereits in einem anderen Servicevertrag oder Vertragsangebot enthalten ist, indem Sie die Funktion **Beleg kopieren** verwenden.  
+Sie können automatisch einen Servicevertrag oder ein Vertragsangebot für Serviceposten erstellen, die bereits in anderen Serviceverträgen oder Vertragsangeboten registriert sind, indem Sie die Aktion **Aus Dokument kopieren** verwenden.  
   
 ## <a name="creating-service-orders-for-multiple-contracts"></a>Erstellen von Serviceaufträgen für mehrere Verträge  
 Sie können manuell einen Serviceauftrag für einen Serviceartikel, der in mehreren aktiven Verträgen hinterlegt ist, erstellen. Ein Servicevertrag ist aktiv, wenn er unterzeichnet und nicht abgelaufen ist.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076412"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185708"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetails: Ausgleich von Bedarf und Vorrat
 Um zu erkennen wie das Planungssystem funktioniert, ist es notwendig, die priorisierten Ziele des Planungssystems zu kennen, von denen die wichtigsten sind, Folgendes sicherzustellen:  
@@ -37,7 +37,7 @@ Um zu erkennen wie das Planungssystem funktioniert, ist es notwendig, die priori
   Planungsparameter und Lagerbestände sind andere Arten von Bedarf und Vorrat bzw. sind einem integrierten Ausgleich unterworfen, um den Lagerbestand wieder aufzufüllen. Weitere Informationen finden Sie unter [Designdetails: Behandlungs-Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md).
 
 ## <a name="the-concept-of-balancing-in-brief"></a>Das Ausgleichskonzept in Kürze
-  Der Bedarf wird von Debitoren eines Unternehmens vorgegeben. Der Vorrat ist das, was das Unternehmen erstellen oder entfernen kann, um Saldi auszugleichen. Die Planungssystem beginnt mit dem unabhängigen Bedarf und verfolgt ihn rückwärts zum Vorrat.  
+  Die Nachfrage wird von den Debitoren eines Unternehmens gestellt. Der Vorrat ist das, was das Unternehmen erstellen oder entfernen kann, um Saldi auszugleichen. Die Planungssystem beginnt mit dem unabhängigen Bedarf und verfolgt ihn rückwärts zum Vorrat.  
 
    Die Bestandsprofile werden verwendet, um Informationen über die Bedarfe und Vorräte sowie über Mengen und Timing zu enthalten. Diese Profile bilden im Wesentlichen die zwei Seiten der Ausgleichsskala.  
 
@@ -99,7 +99,7 @@ Während des Ausgleichs betrachtet das Planungssystem Vorrat mit Serien-/Chargen
 
 Ein weiterer Grund dafür, dass Serien-/Chargen-nummerierter Vorrat unflexibel ist, besteht darin, dass Serien-/Chargennummern allgemein so spät im Prozess zugewiesen werden, dass Änderungsvorschläge verwirrend wären.  
 
-Der Ausgleich der Serien-/Chargennummern berücksichtigt nicht die [Fixierte Zone](design-details-dealing-with-orders-before-the-planning-starting-date.md). Wenn Bedarf und Vorrat nicht synchronisiert sind, schlägt das Planungssystem Änderungen vor oder neue Aufträge, unabhängig vom Startdatum der Planung.  
+Der Ausgleich von Serien-/Losnummern respektiert nicht die Aktion *Fixierte Zone*. Wenn Bedarf und Vorrat nicht synchronisiert sind, schlägt das Planungssystem Änderungen vor oder neue Aufträge, unabhängig vom Startdatum der Planung.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Auftrag-zu-Auftrag-Links werden nie unterbrochen.  
 Wenn ein Auftrag-zu-Auftrag-Artikel geplant wird, darf der verknüpfte Vorrat nicht für einen anderen Bedarf verwendet werden, als den, für den er ursprünglich gedacht war. Der verknüpfte Bedarf sollte nicht durch einen anderen zufälligen Vorrat abgedeckt werden, selbst wenn er in der derzeitigen Situation nach Zeit und Menge verfügbar ist. Beispielsweise kann ein Montageauftrag, der mit einem Verkaufsauftrag in einem Auftragsfertigungsszenario verknüpft ist, nicht verwendet werden, um anderen Bedarf zu decken.  
@@ -117,7 +117,7 @@ Dieser Ausgleich beeinflusst auch die zeitliche Steuerung. Der begrenzte Zeitrau
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Der Komponentenbedarf wird gemäß den Fertigungsauftragsänderungen geladen  
 Wenn es Fertigungsaufträge bearbeitet, muss das Planungssystem die benötigten Komponenten überwachen, bevor es sie in das Anforderungsprofil lädt. Komponentenzeilen, die aus einem ergänzten Fertigungsauftrag resultieren, ersetzen die des ursprünglichen Auftrags. Dadurch ist sichergestellt, dass das Planungssystem festlegt, dass Planungszeilen für Komponentenbedarf nicht dupliziert werden.  
 
-###  <a name="BKMK_SafetyStockMayBeConsumed"></a> Sicherheitsbestand kann verbraucht werden  
+###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> Sicherheitsbestand kann verbraucht werden  
 Der Sicherheitsbestand ist hauptsächlich ein Bedarfstyp und wird daher am Planungsstartdatum in das Bestandsprofil geladen.  
 
 Der Sicherheitsbestand ist eine Bestandsmenge, die beiseite gelegt wird, um Ungewissheiten beim Bedarf während der Beschaffungszeit zu kompensieren. Jedoch kann er verbraucht werden, wenn es erforderlich ist, ihn zur Deckung eines Bedarfs zu verwenden. In diesem Fall wird durch das Planungssystem sichergestellt, dass der Sicherheitsbestand schnell ersetzt wird, indem am Datum des Verbrauchs ein Ausnahmebeschaffungsauftrag zum Auffüllen des Sicherheitsbestands vorgeschlagen wird. In dieser Planungszeile wird das Symbol für eine Ausnahmewarnung angezeigt, durch das der Planer darauf aufmerksam gemacht wird, dass der Sicherheitsbestand teilweise oder vollständig aufgrund eines Ausnahmeauftrags für die Fehlteile verbraucht wurde.  

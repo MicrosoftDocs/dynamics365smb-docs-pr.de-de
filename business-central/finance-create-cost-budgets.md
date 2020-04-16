@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 33999778898c671a87638ef5868103ea34875ff8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 72baaa4304ac3bc64f66b02360a0d8ae2a00b174
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879824"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183836"
 ---
 # <a name="creating-cost-budgets"></a>Erstellen von Kostenbudgets
 Die Budgetierung in der Kostenrechnung entspricht der Budgetierung im Sachkonto. Ein Kostenbudget wird ausgehend von Kostenarten erstellt, wie ein Budget für das Sachkonto basierend auf Sachkonten erstellt wird.  

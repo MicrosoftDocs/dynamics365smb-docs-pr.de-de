@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b876c4c9328705bc37e552d646fe3aed78e5617d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 62e7b1ff9ce3ab96a38068849819859e29ebf4ab
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307900"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186837"
 ---
 # <a name="using-business-central-without-outlook"></a>Nutzung von Business Central ohne Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist mit Office 365 integriert, und Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook verwenden. Wenn, wenn Sie kein Outlook haben, können Sie mit [!INCLUDE[d365fin](includes/d365fin_md.md)] im Browser oder auf dem mobilen Gerät arbeiten.  
