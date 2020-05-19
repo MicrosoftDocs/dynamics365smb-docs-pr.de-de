@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 1153ffc97d0f22c889ff23c5a27a8c0446b17018
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: abee0f31d66f648f4b0be567d8599b31c536a193
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196380"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324102"
 ---
 # <a name="viewing-database-locks"></a>Anzeigen von Datenbank-Sperren
 
@@ -29,8 +29,8 @@ Wählen Sie das Symbol ![Seite suchen oder Bericht](media/ui-search/search_small
 
 Die Seite **Datenbanksperren** zeigt eine Momentaufnahme aller aktuellen Datenbanksperren.
 
-Weitere Informationen über Datenbanksperren finden Sie unter [Überwachung von Datenbanksperren](/dynamics365/business-central/a/dev-itpro/administration/monitor-database-locks) in der Hilfe für Business Central Entwickler und IT Pro.
+Weitere Informationen über Datenbanksperren finden Sie unter [Überwachung von Datenbanksperren](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) in der Hilfe für Business Central Entwickler und IT Pro.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Datenbanksperren überwachen](/dynamics365/business-central/a/dev-itpro/administration/monitor-database-locks) 
+[Datenbanksperren überwachen](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 

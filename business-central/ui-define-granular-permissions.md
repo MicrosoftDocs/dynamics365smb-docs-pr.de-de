@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6fe5cff52d3ed8c2404e12b3e37703c8e8db8bb
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194475"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324030"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 Mit dem Sicherheitssystem [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie steuern, auf welche Objekte ein Benutzer innerhalb jeder Datenbank oder Umgebung zugreifen darf. Sie können für jeden Benutzer festlegen, ob er Daten in den ausgewählten Datenbankobjekten lesen, ändern oder eingeben darf. Detaillierte Informationen finden Sie unter [Datensicherheit](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in der Hilfe für Entwickler und ITPro für [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -106,6 +106,26 @@ Sie können auch eine Kopierfunktion verwenden, um schnell alle Berechtigungen e
 
 Der neue Berechtigungssatz mit allen Berechtigungen des kopierten Berechtigungssatzes wird als neue Zeile auf der Seite **Berechtigungssätze** hinzugefügt. Jetzt können Sie die Berechtigung im neuen Berechtigungssatz ändern. Beachten Sie, dass die Zeilen innerhalb jedes Typs alphabetisch geordnet sind.
 
+### <a name="to-export-and-import-a-permission-set"></a>So exportieren und importieren Sie einen Berechtigungssatz
+Um Berechtigungen schnell einzurichten, können Sie Berechtigungssätze importieren, die Sie aus einem anderen [!INCLUDE[d365fin](includes/d365fin_md.md)]Mandanten exportiert haben.
+
+In Umgebungen mit mehreren Mandanten wird ein Berechtigungssatz in einen bestimmten Mandanten importiert, d. h. der Umfang des Imports ist „Mandant“.
+
+1. Wählen Sie auf der Seite **Berechtigungssätze** unter „Mandant 1“ die zu importierende(n) Zeile bzw. Zeilen für die Berechtigungssätze und dann die Aktion **Berechtigungssätze exportieren** aus.
+
+    Eine XML-Datei wird im Download-Ordner auf Ihrem Computer erstellt. Diese hat standardmäßig den Namen „Export Permission Sets.xml“.
+
+2. Wählen Sie auf der Seite **Berechtigungssätze** unter „Mandant 2“ die Aktion **Berechtigungssätze importieren** aus.
+3. Berücksichtigen Sie auf der Seite **Berechtigungssätze importieren**, ob Sie vorhandene Berechtigungssätze mit neuen Berechtigungssätzen in der XML-Datei zusammenführen möchten.
+
+    Wenn Sie das Kontrollkästchen **Vorhandene Berechtigungen aktualisieren** aktivieren, werden vorhandene Berechtigungssätze, deren Namen mit den in der XML-Datei vorhandenen Berechtigungssätzen identisch sind, mit den importierten Berechtigungssätzen zusammengeführt.
+
+    Wenn Sie das Kontrollkästchen **Vorhandene Berechtigungen aktualisieren** nicht aktivieren, werden Berechtigungssätze, deren Namen mit den in der XML-Datei vorhandenen Berechtigungssätzen identisch sind, während des Imprts übersprungen. In diesem Fall werden Sie über übersprungene Berechtigungssätze informiert.
+
+4. Suchen Sie auf der Dialogfeldseite **Importieren** die zu importierende XML-Datei, und wählen Sie sie aus. Wählen Sie anschließend die Aktion **Öffnen** aus.
+
+Die Berechtigungssätze werden importiert.
+
 ## <a name="to-create-or-modify-permissions-manually"></a>Um Berechtigungen manuell zu erstellen oder zu ändern
 In diesem Verfahren wird beschrieben, wie manuell Berechtigungen addiert oder bearbeitet werden. Sie können auch automatisch Berechtigungen aus Ihren Aktionen in der Benutzeroberfläche generieren lassen. Weitere Informationen finden Sie unter [Erstellen oder Ändern von Berechtigungen durch Aufzeichnen Ihrer Aktionen](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
@@ -188,6 +208,9 @@ Die folgende Vorgehensweise erläutert, wie Sie Berechtigungssätze einer Benutz
 3. Aktivieren Sie auf der Seite **Berechtigung festgelegt durch Benutzergruppe** das Kontrollkästchen **[Name der Benutzergruppe]** in einer Zeile für die entsprechende Berechtigung, um die Gruppe der Benutzergruppe zuzuordnen.
 4. Aktivieren Sie das Kontrollkästchen **Alle Benutzergruppen**, um die Berechtigung allen Benutzergruppen zuzuordnen.
 
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>So entfernen Sie veraltete Berechtigungen aus allen Berechtigungssätzen
+1. Wählen Sie auf der Seite **Berechtigungssätze** die Aktion **Veraltete Berechtigungssätze entfernen** aus.
+
 ## <a name="to-set-up-user-time-constraints"></a>So richten Sie Zeiteinschränkungen ein
 Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definieren, in denen die angegebenen Benutzer Buchungen durchführen können. Außerdem können sie angeben, ob die Zeitdauer erfasst, während der angegebene Benutzer angemeldet sind. Administratoren können Benutzern Zuständigkeitseinheiten zuordnen. Weitere Informationen finden Sie unter [Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md).
 
@@ -201,7 +224,7 @@ Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definie
 [Profile verwalten](admin-users-profiles-roles.md)  
 [Funktionen, die angezeigt werden ändern](ui-experiences.md)  
 [Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
-[Vorbereitung für das Geschäft](ui-get-ready-business.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Verwaltung](admin-setup-and-administration.md)  
-[Benutzer zu Office 365 hinzufügen für Unternehmen](https://aka.ms/CreateOffice365Users)  
-[Sicherheit und Schutz in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer und IT-pro Help
+[Benutzer zu Office 365 für Unternehmen hinzufügen](https://aka.ms/CreateOffice365Users)  
+[Sicherheit und Schutz in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in der Hilfe für Entwickler und IT-Profis

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
 ms.date: 01/17/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccd371711a53c598279fcc981c5581be5ee9bdaf
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196865"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324054"
 ---
 # <a name="data-ownership-models"></a>Modelle für Datenbesitz
 [!INCLUDE[d365fin](includes/cds_long_md.md)] erfordert, dass Sie einen Eigentümer für die von Ihnen gespeicherten Daten angeben. Weitere Informationen finden Sie unter [Entitätseigentum](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) in der Power Apps-Dokumentation. Wenn Sie die Integration zwischen [!INCLUDE[d365fin](includes/cds_long_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)] einrichten, müssen Sie eines von zwei Eigentumsmodellen für Datensätze wählen, die synchronisiert werden:
@@ -34,6 +34,9 @@ Da Geschäftseinheiten keine rechtlichen und geschäftlichen Auswirkungen haben,
 * Wir legen eine Standard-Geschäftseinheit an, die den gleichen Namen wie die Unternehmenseinheit hat. Zum Beispiel Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Wir legen ein separates Eigentümerteam mit demselben Namen wie das Unternehmen an und ordnen es der Geschäftseinheit zu. Dem Namen der Gruppe wird „BCI -“ vorangestellt. Beispielsweise BCI - Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Datensätze, die erstellt und mit [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronisiert werden, werden dem „BCI-Besitzer“-Team zugeordnet, das mit dem Geschäftsbereich verbunden ist.
+
+> [!NOTE]
+> Wenn Sie ein Unternehmen in [!INCLUDE[d365fin](includes/d365fin_md.md)] umbenennen, werden die Namen des Unternehmens, des Konzernmandanten und des Teams, die wir automatisch in [!INCLUDE[d365fin](includes/cds_long_md.md)] erstellen, nicht aktualisiert. Da nur die Unternehmens-ID für die Integration verwendet wird, wirkt sich dies nicht auf die Synchronisierung aus. Wenn die Namen übereinstimmen sollen, müssen Sie das Unternehmen, den Konzernmandant und das Team in [!INCLUDE[d365fin](includes/cds_long_md.md)] aktualisieren.
 
 Die folgende Abbildung zeigt ein Beispiel für diese Dateneinrichtung in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
@@ -56,11 +59,17 @@ Die Synchronisation bestimmt, welches Team Datensätze besitzen soll. Dies wird 
 > [!NOTE]
 > Die Aufzeichnungen werden schreibgeschützt, nachdem eine Firma hinzugefügt und gespeichert wurde, also achten Sie darauf, die richtige Firma zu wählen.
 
-### <a name="choosing-a-different-business-unit"></a>Auswahl einer anderen Geschäftseinheit
-Sie können die Geschäftsbereichsauswahl ändern. Wenn Sie eine andere Einheit wählen, z.B. eine, die Sie zuvor im CDS angelegt haben, behält sie ihren ursprünglichen Namen. Das heißt, es wird nicht mit dem Suffix der Firmen-ID versehen. Wir werden ein Team zusammenstellen, das die Namenskonvention anwendet.
+## <a name="choosing-a-different-business-unit"></a>Auswahl einer anderen Geschäftseinheit
+Sie können die Auswahl des Konzernmandanten ändern, wenn Sie das Modell „Team-Eigentum“ verwenden. Wenn Sie das Modell „Personenbesitz“ verwenden, wird immer der Standard-Konzernmandant ausgewählt. 
+
+Wenn Sie einen anderen Konzernmandanten auswählen, z. B. einen, den Sie zuvor in [!INCLUDE[d365fin](includes/cds_long_md.md)] angelegt haben, behält er seinen ursprünglichen Namen. Das heißt, es wird nicht mit dem Suffix der Firmen-ID versehen. Wir werden ein Team zusammenstellen, das die Namenskonvention anwendet.
+
+Beim Ändern eines Konzernmandanten können Sie nur die Konzernmandanten auswählen, die eine Ebene unter dem Stamm-Konzernmandanten liegen.
 
 ## <a name="person-ownership"></a>Eigentum der Person
-Wenn Sie das Modell Personenbesitz wählen, müssen Sie jeden Verkäufer angeben, der neue Datensätze besitzen wird. Die Geschäftseinheit und das Team werden wie im vorherigen Abschnitt beschrieben angelegt.  
+Wenn Sie das Modell Personenbesitz wählen, müssen Sie jeden Verkäufer angeben, der neue Datensätze besitzen wird. Der Konzernmandant und das Team werden wie im vorherigen Abschnitt [Team-Besitz](admin-cds-company-concept.md#team-ownership) beschrieben angelegt.
+
+Der Standard-Konzernmandant wird verwendet, wenn das Modell „Personenbesitz“ ausgewählt ist, und Sie können keinen anderen Konzernmandanten auswählen. Das Team, das dem Standard-Konzernmandanten zugeordnet ist, besitzt Datensätze für allgemeine Entitäten, z. B. die Produktentität, die nicht mit bestimmten Verkäufern verknüpft sind.
 
 ## <a name="see-also"></a>Siehe auch
 [Über [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

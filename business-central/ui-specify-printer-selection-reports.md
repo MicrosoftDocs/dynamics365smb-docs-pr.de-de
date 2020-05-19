@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189483"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272086"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 Da [!INCLUDE[prodshort](includes/prodshort.md)] ein Cloud-Service ist, kann er keine lokalen Drucker erreichen, die mit den Rechnern der Benutzer verbunden sind. Sie kann jedoch mit Cloud-fähigen Druckern verbunden werden. In der generischen Version von [!INCLUDE[prodshort](includes/prodshort.md)] wird ein Cloud-Drucker namens **E-Mail-Drucker** als Erweiterung installiert und ist nach der Ersteinrichtung einsatzbereit.
@@ -27,6 +27,9 @@ Wenn ein Cloud-Drucker nicht installiert und eingerichtet ist oder wenn ein inst
 Auf der Seite **Druckerverwaltung** sehen Sie die Drucker, die eingerichtet sind. Wenn Sie einen oder mehrere Drucker eingerichtet haben, können Sie die Seite **Druckerauswahlen** öffnen, um für Ihr Benutzerkonto einzurichten, welche spezifischen Berichte mit welchem Drucker gedruckt werden sollen.
 
 Wenn ein Drucker eingerichtet und bestimmten Berichten zugeordnet ist, drucken Sie einen Bericht, indem Sie auf der Berichtsanforderungsseite die Schaltfläche **Drucken** wählen. Weitere Informationen finden Sie unter [Drucken eines Berichts](ui-work-report.md#PrintReport).
+
+### <a name="sizing-print-jobs"></a>Größe von Druckaufträgen anpassen
+Das Drucken in der Cloud ist für Dokumente mit einer angemessenen Größe vorgesehen. Die meisten Clouddienste, einschließlich PrintNode und HP ePrint, sind auf 10 MB pro Auftrag begrenzt. Wenn Sie größere Berichte drucken müssen, müssen Sie diese möglicherweise in mehrere Ausdrucke aufteilen.
 
 ## <a name="to-set-up-a-printer"></a>So richten Sie einen Drucker ein
 Auf der Seite **Druckerverwaltung** sehen Sie die eingerichteten Drucker, und Sie können auf die Seite **Einstellungen** für jeden Drucker zugreifen, um eine vorhandene Einrichtung zu bearbeiten oder einen neuen Drucker einzurichten.

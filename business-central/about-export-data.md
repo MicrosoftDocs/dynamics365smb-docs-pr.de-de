@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 04/01/2020
+ms.date: 05/04/2020
 ms.author: edupont
-ms.openlocfilehash: 6e7968f7e37e2bf1e1495331cf863aef34e7e7e4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188970"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333884"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportieren Ihrer Geschäftsdaten nach Excel
 Wenn Sie mit Ihren Daten von [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel arbeiten, können Sie alle Listen in Excel öffnen und dort damit arbeiten. Möchten Sie das Abonnement für [!INCLUDE[d365fin](includes/d365fin_md.md)] stornieren, können Sie die Daten in Excel exportieren, sodass Sie diese nicht verlieren.
@@ -64,7 +64,14 @@ Es ist empfehlenswert, dass Sie auch erwägen, Daten von den nächsten Seiten zu
 * Verkäufer  
 
 > [!NOTE]  
->   Wenn Sie mehr als einen Mandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfasst haben, müssen Sie die entsprechenden Daten der einzelnen Unternehmen exportieren.
+> Wenn Sie mehr als einen Mandanten in [!INCLUDE[prodshort](includes/prodshort.md)] erfasst haben, müssen Sie die entsprechenden Daten der einzelnen Unternehmen exportieren.
+
+> [!NOTE]
+> Sie müssen über mindestens eine der folgenden Berechtigungen verfügen, um Daten in Excel zu öffnen oder zu bearbeiten:
+>    - Berechtigungssatz *D365 Excel-Exportaktion*  
+>    - Systemberechtigung 6110 *Aktionsexport nach Excel zulassen*.  
+
+Weitere Informationen finden Sie unter [So erhalten Sie eine Übersicht der Benutzerberechtigungen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

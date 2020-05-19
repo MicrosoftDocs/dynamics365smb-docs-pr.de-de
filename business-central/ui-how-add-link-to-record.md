@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d456fba507977121809124d1de0d23a098406f5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193872"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324414"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten
 
@@ -40,10 +40,16 @@ Das folgende Verfahren basiert auf einer Einkaufsrechnung. Die Schritte sind fü
 2. Öffnen Sie den Verkaufsauftrag, den Sie einer Datei zuordnen möchten.
 3. Öffnen Sie in der Infobox die Registerkarte **Anhänge**.
 4. Wählen Sie den Wert hinter dem Feld **Belege** z. B. "0".
-5. Auf der Seite **Beleg anfügen** im Feld **Dateianhang**, wählen Sie die Schaltfläche **Wählen Sie die Datei aus** aus.
+5. Wählen Sie auf der Seite **Angefügte Dokumente** im Feld **Anhang** die Aktion **Datei auswählen** aus.
 5. Wählen Sie eine Datei aus jedem Lagerort, und wählen Sie dann die Schaltfläche **Öffnen** aus.
 
 Die Datei wird nun der Einkaufsrechnung zugeordnet.
+
+## <a name="to-view-an-attached-file"></a>So zeigen Sie eine angehängte Datei an
+1. Öffnen Sie in der Infobox die Registerkarte **Anhänge**.
+2. Wählen Sie den Wert hinter dem Feld **Belege** z. B. "1".
+3. Wählen Sie auf der Seite **Angefügte Dokumente** die Aktion **Vorschau** aus.
+4. Öffnen Sie die heruntergeladene Datei.
 
 ## <a name="to-save-a-document-as-a-pdf-attachment"></a>So speichern Sie ein Dokument als PDF-Anhang
 Wann immer Sie ein Dokument als Datei speichern müssen, können Sie die Aktion **Anhängen als PDF** verwenden, um den aktuellen Dokumentinhalt als PDF-Datei zu erfassen, die an die FactBox des Dokuments angehängt wird. Dies ist z.B. nützlich, wenn Dokumente mehreren Schritten in einem Prozess folgen, wie z.B. einem Verkaufsprozess oder einem Genehmigungs-Workflow, und Sie sich auf einen Ausdruck des vorherigen Schritts beziehen möchten.
@@ -53,7 +59,7 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind f
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.
 2. Markieren Sie einen Debitorenauftrag, und wählen Sie dann die Aktion **Anhängen als PDF**.
 
-Eine PDF-Datei mit dem aktuellen Inhalt des Kundenauftrags wird der Registerkarte **Anlagen** im Infoboxbereich hinzugefügt. 
+Eine PDF-Datei mit dem aktuellen Inhalt des Kundenauftrags wird der Registerkarte **Anlagen** im Infoboxbereich hinzugefügt.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Um einen Link von einer Artikelkarte hinzuzufügen
 Sie können jeder URL oder jedem Pfad einen Link von einer Karte oder einem Dokument hinzufügen. Dies ist beispielsweise hilfreich, wenn Sie eine Artikelkarte mit dem Artikelkatalog des Lieferanten verknüpfen möchten.

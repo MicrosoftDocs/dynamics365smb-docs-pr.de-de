@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 05/11/2020
 ms.author: edupont
-ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184028"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372616"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Buchhalter-Erfahrung in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen. Einige Unternehmen verwenden einen externen Buchhalter, und andere haben einen Buchhalter als Mitarbeiter. Unabhängig von der Art des Buchhalters, den Sie sind, können sie das **Buchhalter**-Rollencenter als Startbildschirm in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden. Von hier können Sie auf alle Seiten zugreifen, die Sie in Ihrer Arbeit benötigen.  
@@ -40,7 +40,7 @@ In der neuesten Version von machen wir es Ihnen ganz einfach, Ihren externen Buc
 > [!IMPORTANT]  
 > Die E-Mail-Adresse des Buchhalters muss eine Arbeitsadresse sein, die auf Azure Active Directory basiert. Wenn der Buchhalter eine andere Art von E-Mail verwendet, kann die Einladung nicht gesendet werden. 
 > 
-> Für diese Aufgabe ist der Zugriff auf die Verwaltung von Benutzern und Lizenzen in Azure Active Directory erforderlich. Dem Benutzer, der diese Einladung versendet, muss die Rolle **Globaler Administrator** oder **Benutzeradministrator** im Office 365-Administratorcenter zugewiesen sein. Weitere Informationen finden Sie unter [Informationen zu Administratorrollen](/office365/admin/add-users/about-admin-roles) im Office 365-Administratorinhalt.  
+> Für diese Aufgabe ist der Zugriff auf die Verwaltung von Benutzern und Lizenzen in Azure Active Directory erforderlich. Dem Benutzer, der diese Einladung versendet, muss die Rolle **Globaler Administrator** oder **Benutzeradministrator** im Microsoft 365 Admin Center zugewiesen sein. Weitere Informationen finden Sie unter [Informationen zu Administratorrollen](/microsoft-365/admin/add-users/about-admin-roles) im Microsoft 365-Administratorinhalt.  
 
 ### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Hinzufügen Ihres Buchhalters zu Ihrem Office 365 über das Azure-Portal
 
