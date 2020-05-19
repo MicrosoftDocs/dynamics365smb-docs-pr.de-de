@@ -70,6 +70,7 @@
 ### [Eingabehilfe und Tastenkombinationen](ui-accessibility.md)
 ### [Tastenkombinationen](keyboard-shortcuts.md)
 ### [Nur PC-Tastenkombinationskurzübersicht](keyboard-shortcuts-cheatsheet.md)
+## [Problembehebung: Auf Kamera und Standort zugreifen](ui-troubleshooting-camera-location.md)
 
 # Einrichten von Business Central
 ## [Matrix](setup.md)
@@ -82,6 +83,7 @@
 ### [Arbeiten mit Buchhaltungsperioden und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)
 ### [Mehrwertsteuer (MwSt.) einrichten](finance-setup-vat.md)
 ### [Einrichten von nicht realisierter Vorsteuer für bargeldbasierte Verrechnung](finance-setup-unrealized-vat.md)
+### [Herkunftscodes und Ursachencodes für Audit Trails einrichten](finance-setup-trail-codes.md)
 ### [Den Ausgleich von Posten in unterschiedlichen Währungen zulassen:](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Einrichten einer zusätzlichen Berichtswährung](finance-how-setup-additional-currencies.md)
 ### [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)
@@ -335,7 +337,10 @@
 ## [Datenverschlüsselung verwalten](admin-manage-data-encryption.md)
 ## [Verlängern Ihrer Testversion](admin-extend-trial.md)
 ## [Überprüfen von Seiten](across-inspect-page.md)
+## [Anzeigen von Datenbank-Sperren](admin-view-database-locks.md)
+## [Tabelleninformationen anzeigen](admin-view-table-information.md)
 ## [Erstellen Sie eine Sandkastenumgebung.](across-how-create-sandbox-environment.md)
+## [Neue Funktionen im Voraus aktivieren](admin-feature-management.md)
 ## Business Central anpassen
 ### [Matrix](ui-customizing-overview.md)
 ### [Seiten für Profile anpassen](ui-personalization-manage.md)
@@ -525,6 +530,7 @@
 ## [Verkaufsangebote machen](sales-how-make-offers.md)
 ## [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)
 ## [Produkte verkaufen](sales-how-sell-products.md)
+## [Kommissionierliste drucken](sales-how-print-picking-list.md)
 ## [Verkäufe buchen](ui-post-sales.md)
 ## [Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md)
 ## [Direktlieferungen machen](sales-how-drop-shipment.md)
@@ -642,7 +648,7 @@
 ## [Führen Sie eine vollständige Planung, Prod.-Programmplanung oder Nettobedarf aus](production-how-to-run-mps-and-mrp.md)
 ## [Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen](production-how-to-replan-refresh-production-orders.md)
 ## [Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat.](production-how-track-demand-supply.md)
-## [Ändern von Planungsvorschlägen in einer grafischen Ansicht](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Montageverwaltung
 ## [Matrix](assembly-assemble-items.md)
@@ -816,7 +822,7 @@
 ## Australien
 ### [Matrix](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Steuer
-#### [Steuer](LocalFunctionality/Australia/tax.md)
+#### [Matrix](LocalFunctionality/Australia/tax.md)
 #### [Quellensteuer](LocalFunctionality/Australia/withholding-tax.md)
 #### [Quellensteuer einrichten](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Quellensteuer-Erlöstypen einrichten](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -874,7 +880,7 @@
 #### [Drucken von periodischen MwSt.-Erklärungen](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Einrichten belgischer Zollpositionen](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Belgische Intrastat-Berichte](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Einrichten von Intrastat-Einrichtungspositionen](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
+#### [Einrichten von Intrastat-Einrichtungspositionen](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
 #### [Intrastat-Formularerklärung drucken](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Meldungsarten einrichten](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Exportieren von Intrastat-Drittanbieter-Deklarationen](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
@@ -1241,7 +1247,7 @@
 #### [OCR-Zahlungen einrichten](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [Importieren und buchen von OCR-Zahlungen](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Drucken des OCR-Buch-Blatt-Testberichts](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Kernfinanzierung    
+### Kernfinanzierung
 #### [Sachposten in in abgeschlossenen Perioden ausgleichen](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### Allgemein
 #### [Wiederkehrende Aufträge](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1427,7 +1433,7 @@
 ### Lagerbestand
 #### [Schweizer Lagerverwaltung](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Drucken einer Lager-Kommissionierliste aus einem Verkaufsauftrag](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### Allgemein    
+### Allgemein
 #### [Importieren von schweizer PLZ](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Schweizer Einkaufsbelege und Verkaufsaufträge](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 
