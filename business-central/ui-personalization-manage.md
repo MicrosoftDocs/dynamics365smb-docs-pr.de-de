@@ -34,14 +34,14 @@ Die Seitenanpassung beginnt mit **Profile (Rollen)** Seite, Ausgangspunkt des Ad
 2. Wählen Sie dir Zeile für die Personalisierungsseite, die Sie löschen möchten, und wählen die Aktion **Bearbeiten** aus.
 3. Wählen Sie die Aktion **Seiten anpassen**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnet eine neue Browser-Registerkarte für das ausgewählte Profil mit dem Banner **Anpanssen** Banner aktiviert. Das **Anpassen** Banner bietet die gleiche Funktionalität wie das **Personalisierung** Banner, das den Benutzern zur Verfügung steht.
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnet eine neue Browser-Registerkarte für das ausgewählte Profil mit dem Banner **Anpassen** Banner aktiviert. Das **Anpassen** Banner bietet die gleiche Funktionalität wie das **Personalisierung** Banner, das den Benutzern zur Verfügung steht.
 
 4. Passen Sie die Seiten an die Anforderungen der jeweiligen Rolle oder Abteilung an, so wie es ein Benutzer bei der Personalisierung tun würde. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
     > [!NOTE]
     > Um während der Personalisierung zu navigieren, drücken Sie Strg + Klicken auf eine Aktion, wenn diese durch die Pfeilspitze hervorgehoben ist.
 
-5. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Anpassung**.
+5. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Anpassen**.
 6. Schließen Sie die Browser-Registerkarte.
 
 Die Anpassung von Seiten wird jetzt für das Profil aufgezeichnet.
