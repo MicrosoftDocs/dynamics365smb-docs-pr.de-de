@@ -4,18 +4,15 @@ description: Veröffentlichen Sie Objekte als Web Services, um sie sofort für I
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/21/2020
+ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: 3a0526451bb386f38eaf93c10ffd86937ea7b765
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324078"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402453"
 ---
 # <a name="publish-a-web-service"></a>Webdienst veröffentlichen
 
@@ -23,12 +20,13 @@ Webdienste sind eine einfache Art, Anwendungsfunktionen für eine Vielzahl von e
 
 Sie richten im Internet einen Webdienst ein im [!INCLUDE[d365fin](includes/d365fin_md.md)] Client. Sie müssen dann den Webdienst veröffentlichen, so dass er für Serviceanforderungen über das Netzwerk bereitsteht. Benutzer können Webdienste erkennen, indem Sie auf einen Browser auf den Computer verweisen, der ausführt und eine Liste der verfügbaren Services anfordern. Wenn Sie einen Webdienst veröffentlichen, ist er über das Netzwerk für authentifizierte Benutzer sofort verfügbar. Alle autorisierten Benutzer können auf Metadaten für Webdienste zugreifen, aber nur Benutzer mit ausreichenden -Berechtigungen können auf tatsächliche Daten zugreifen.
 
-## <a name="creating-and-publishing-a-web-service"></a>Erstellen und Veröffentlichen eines Webdienstes  
+## <a name="creating-and-publishing-a-web-service"></a>Erstellen und Veröffentlichen eines Webdienstes
+
 Die folgenden Schritte erläutern, wie ein Webdienst erstellt und veröffentlicht wird.  
 
 ### <a name="to-create-and-publish-a-web-service"></a>So erstellen und veröffentlichen Sie einen Webdienst  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Webdienste** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Webdienste** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Webdienste** **Neu** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -71,3 +69,4 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 
 [Verwaltung](admin-setup-and-administration.md)  
 [Business Central-Web Services für Entwickler](/dynamics365/business-central/dev-itpro/webservices/web-services)  
+[OData-Anforderungslimits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/11/2020
+ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
+ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372616"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3413643"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Buchhalter-Erfahrung in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen. Einige Unternehmen verwenden einen externen Buchhalter, und andere haben einen Buchhalter als Mitarbeiter. Unabhängig von der Art des Buchhalters, den Sie sind, können sie das **Buchhalter**-Rollencenter als Startbildschirm in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden. Von hier können Sie auf alle Seiten zugreifen, die Sie in Ihrer Arbeit benötigen.  
@@ -26,7 +26,7 @@ Das Rollencenter bildet ein Dashboard mit Aktivitätskacheln, die Ihnen Echtzeit
 Wenn Sie neu sind bei [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie eine Liste der Videos starten direkt von Ihrem Rollencenter aus. Sie können auch **Erste Schritte** starten, die die Schlüsselbereiche unterstreichen.  
 
 ## <a name="inviting-your-external-accountant-to-your-d365fin"></a><a name="inviteaccountant"></a>Ihren externen Buchhalter einladen zu Ihrem [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Wenn Sie einen externen Buchhalter verwenden, um Ihre Bücher und Finanzberichterstattung zu verwalten, kann Ihr Administrator sie für Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten. [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält drei Lizenzen des Typs „Externer Buchhalter“. Weitere Informationen über Lizenzierung finden Sie unter [Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch](https://go.microsoft.com/fwlink/?LinkId=871590).
+Wenn Sie einen externen Buchhalter verwenden, um Ihre Bücher und Finanzberichterstattung zu verwalten, kann Ihr Administrator sie für Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] einladen, damit sie mit Ihnen an Ihren steuerlichen Daten arbeiten. [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält drei Lizenzen des Typs „Externer Buchhalter“. Weitere Informationen über Lizenzierung finden Sie unter [Microsoft Dynamics 365 Business Central Lizenzleitfaden](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 Sobald Ihr Buchhalter zu den verwendeten [!INCLUDE[d365fin](includes/d365fin_md.md)] Zugriff hat, können sie das Rollencenter **Buchhalter** verwenden, das Zugriff auf den relevantesten Seiten für ihre Arbeit gibt.  
 
@@ -87,12 +87,12 @@ Dadurch wird das Benutzerkonto, das Sie im Azure-Portal erstellt haben, in das U
 
 Wenn Sie mehreren Unternehmen Zugriff gewähren möchten, müssen Sie sich bei jedem Unternehmen anmelden und diesen Vorgang wiederholen. Alternativ können Sie die Berechtigungsgruppen für das Benutzerprofil des Buchhalters in [!INCLUDE [prodshort](includes/prodshort.md)] aktualisieren, wie das Zuweisen der *D365 Bus Premium*-Benutzergruppe. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
-## <a name="accountant-hub"></a>Accountant Hub
+<!--## Accountant Hub
 
-Wenn Sie ein Buchhalter mit mehreren Kunden sind, können Sie das [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] für einen besseren Überblick über Ihre Kundens verwenden. Von hier können Sie auf den Tenant jedes Clients zugreifen [!INCLUDE[d365fin](includes/d365fin_md.md)] und das Buchhalter-Rollencenter verwenden, wie oben beschrieben. Weitere Informationen finden Sie unter [Willkommen bei [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
+If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] ist derzeit in einer begrenzten Anzahl von Märkten in der öffentlichen Vorschau verfügbar.
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Siehe auch
 
@@ -101,8 +101,6 @@ Wenn Sie ein Buchhalter mit mehreren Kunden sind, können Sie das [!INCLUDE[d365
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
-[Analysieren von Finanzauswertungen in Excel](finance-analyze-excel.md)  
+[Finanzauswertungen in Excel analysieren](finance-analyze-excel.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Einrichten der Cashflowanalyse](finance-setup-cash-flow-analyses.md)  
-[Willkommen bei [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
-[Dynamics 365 – Accountant Hub auf Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants)  

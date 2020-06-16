@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15f88c2ab05914db71820d45c6326af36235a9d2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1cf5c08f00565bbaea914405397f340cd281fcef
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193539"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428347"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Anpassen von Business Central mithilfe der Erweiterungen
 Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] ändern, indem Sie beispielsweise Erweiterungen installieren, die Funktionalität hinzufügen, das Verhalten ändern oder Zugriff auf die neuen Onlinediensten geben.
@@ -24,6 +24,9 @@ Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] ändern, indem Sie beisp
 > [!NOTE]
 > Um Erweiterungen von AppSource zu installieren oder Erweiterungen pro Mandanten hinzuzufügen, müssen Sie über die richtigen Berechtigungen verfügen. Sie müssen entweder Mitglied der Benutzergruppe D365 EXTENSION MGMT sein oder über den Berechtigungssatz D365 EXTENSION MGMT verfügen. Als Administrator können Sie anderen Benutzern in Ihrem Unternehmen Benutzergruppen und Berechtigungen zuweisen.<br /><br />
 Um die Funktionen einer Erweiterung nutzen zu können, z. B. Seiten öffnen, Berichte ausführen, Aktionen auswählen usw., müssen Sie den Berechtigungssätzen zugewiesen sein, die als Teil der Erweiterung installiert werden.
+
+> [!IMPORTANT]  
+> Das Hochladen von Tenant-Erweiterungen und die Installation von AppSource-Erweiterungen werden über die Seite **Erweiterungsverwaltung** für lokale Installationen nicht unterstützt.
 
 Wenn Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)] zuerst starten, werden bestimmte Erweiterungen bereits eingerichtet. Im Zeitverlauf werden mehr Erweiterungen für Sie zugänglich und Sie können auswählen, ob Sie die Erweiterung verwenden möchten oder nicht.
 
@@ -69,9 +72,9 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 * [Quickbooks Lohndatei-Import](ui-extensions-quickbooks-payroll.md)
 * [Verkaufs- und Bestandsprognose](ui-extensions-sales-forecast.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md)
-* [DK - C5 Datenmigration](ui-extensions-c5-data-migration.md)
-* [DK - Zahlungen und Abstimmungen](ui-extensions-payments-reconciliation-formats-dk.md)
+* [AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)
+* [DK – C5 Datenmigration](ui-extensions-c5-data-migration.md)
+* [DK – Zahlungen und Abstimmungen](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK - Steuerdateiformate](ui-extensions-tax-file-formats-dk.md)
 * [UK - GetAddress.io Postleitzahlen Großbritannien](ui-extensions-getaddressio.md)
 * [USa/CA/GB/AU/NZ/ZA – Überweisungsbestätigung senden](ui-extensions-send-remittance-advice.md)

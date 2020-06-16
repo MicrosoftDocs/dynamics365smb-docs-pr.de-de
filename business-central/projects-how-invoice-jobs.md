@@ -1,8 +1,6 @@
 ---
 title: Erstellen Sie eine Projekt-Verkaufsrechnung, um ein Projekt zu fakturieren| Microsoft Docs
 description: Beschreibt, wie Debitoren für Jobausgaben als Jobfortschritt Rechnung gestellt wird.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2020
+ms.date: 05/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 277e5e6cb212202f930ed49012184aa67a23d03f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3cf465be4d168baf586dd44df1357482b9651e66
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191259"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402479"
 ---
 # <a name="invoice-jobs"></a>Fakturieren von Projekten
 Im Laufe des Projekts können Projektkosten wie Ressourcenverbrauch, Material oder projektbezogene Einkäufe anfallen. Diese Transaktionen werden im weiteren Verlauf des Projekts auf das Projekt Buch.-Blatt gebucht. Dabei ist es wichtig, dass alle Kosten im Projekt Buch.-Blatt erfasst werden, bevor die Rechnung an den Debitor erstellt wird.
@@ -28,19 +26,24 @@ Im Laufe des Projekts können Projektkosten wie Ressourcenverbrauch, Material od
 Sie können das gesamte Projekt auf der Seite **Projektaufgabenzeilen** fakturieren, oder Sie fakturieren lediglich ausgewählte Vertragszeilen auf der Seite **Projektplanzeilen**. Die Fakturierung kann erfolgen, wenn das Projekt abgeschlossen ist, oder in bestimmten Intervallen während der Projektlaufzeit gemäß eines Fakturierungsplans.
 
 > [!NOTE]  
->   Wenn Sie **Verrechenbar** im Feld **Projekt-Zeilenart** auf den Verkaufsbelegen für projektbezogene Einkäufe auswählen, werden Projektplanzeilen, die bereit sind, an den Debitoren zu fakturieren, erstellt. Weitere Informationen finden Sie unter [Verwalten von Projekt-Material](projects-how-manage-project-supplies.md).
+> Wenn Sie **Verrechenbar** im Feld **Projekt-Zeilenart** auf den Verkaufsbelegen für projektbezogene Einkäufe auswählen, werden Projektplanzeilen, die bereit sind, an den Debitoren zu fakturieren, erstellt. Weitere Informationen finden Sie unter [Verwalten von Projekt-Material](projects-how-manage-project-supplies.md).
 
-## <a name="to-create-and-post-a-job-sales-invoice"></a>Verkaufsrechnung für ein Projekt erstellen und buchen
+## <a name="to-create-multiple-job-sales-invoices"></a>So erstellen Sie mehrere Projektverkaufsrechnungen
 Sie können eine Rechnung für ein Projekt oder für eine oder mehrere Projektunteraktivitäten für einen Debitor erstellen, wenn entweder die zu fakturierende Arbeit abgeschlossen ist oder das Datum für die Fakturierung basierend auf einem Fakturierungsplan erreicht ist.
 
-Aus der Seite **Projekte** können Sie keinen Debitor fakturieren, indem Sie das Projekt auswählen, und dann die Aktion **Projekt-Verkaufsrechnung erstellen** auswählen. Der folgende Ablauf zeigt, wie eine Stapelverarbeitung verwendet wird, um mehrere Projekte zu fakturieren.  
+Der folgende Ablauf zeigt, wie eine Stapelverarbeitung verwendet wird, um mehrere Projekte zu fakturieren.  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Job Verkaufsrechnung erstellen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Legt Filter fest, wenn Sie die Projekte einschränken möchten, die die Stapelverarbeitung verarbeiten soll.
 4. Wählen Sie die Schaltfläche **OK**, um die Rechnung zu erstellen.  
 
-## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>Mehrere Projektverkaufsrechnungen aus Projektplanungszeilen erstellen
+Sie können erstellte Rechnungen im Fenster **Verkaufsrechnungen** überprüfen und buchen.
+
+> [!NOTE]
+> Alternativ können Sie einen Debitor fakturieren, indem Sie das Projekt auswählen und anschließend die Aktion **Projektverkaufsrechnung erstellen** auswählen. 
+
+## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>So erstellen und buchen Sie eine Projektverkaufsrechnung aus Projektplanzeilen
 Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Menge des Artikels, der Ressource oder des Sachkontos angeben, die Sie fakturieren möchten.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.
@@ -50,11 +53,9 @@ Sie können eine Rechnung aus Projektplanungszeilen erstellen, und dabei die Men
 5. Wählen Sie die Aktion **Verkaufsrechnung erstellen**.
 6. Auf der Seite **Projekt-Verkaufsrechnung erstellen** geben Sie das Buchungsdatum an und ob Sie eine neue Rechnung erstellen oder diese Rechnung einer bestehenden Rechnung hinzufügen möchten.
 7. Wählen Sie die Schaltfläche **OK** aus.  
-
-    In der Projektplanungszeile im Feld **In Rechnung übertragene Menge** können Sie die Menge anzeigen.
 8. Auf der Seite **Projektplanungszeilen** wählen Sie Die Aktion **Verkaufsrechnungen/Gutschrift** aus.
 
-    Die Seite **Verkaufsrechnung** wird geöffnet und zeigt die Menge an, die Sie zum Fakturieren in die Rechnung übertragen haben.  
+    Die Seite **Verkaufsrechnung** wird geöffnet und zeigt die Menge an, die Sie zum Fakturieren in die Rechnung übertragen haben.
 9. Nehmen Sie die zusätzlichen Änderungen vor, und wählen Sie dann die Aktion **Buchen**.
 
 > [!NOTE]  

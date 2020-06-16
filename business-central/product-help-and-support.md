@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2020
-ms.openlocfilehash: b78c728cd92ed8c4bc4e41da189c4ddfd877b1b6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/04/2020
+ms.openlocfilehash: 787d2ec0d838e89943dc375db8d43c33be193d0b
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190131"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428371"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
@@ -68,9 +68,11 @@ Stellen Sie sicher, dass Sie die Liste nach eingereichten Vorschlägen durchsuch
 
 Der Abschnitt **Problembehebung** zeigt technischen Informationen, die Ihr Administrator oder [!INCLUDE[prodshort](includes/prodshort.md)]-Partner verwenden können, um Benutzern zu helfen. Dies beinhaltet Informationen über die letzte Fehlermeldung, die aktuelle Version von Ihrem [!INCLUDE[prodshort](includes/prodshort.md)] und einen Link zur Seite **Seitenüberprüfung**. Weitere Informationen finden Sie unter [Seiten in Business Central überprüfen](across-inspect-page.md).  
 
+Als interner Administrator haben Sie Zugriff auf das Admin Center, in dem Sie die Fehlerbehebung fortsetzen können. Weitere Informationen finden Sie unter [Technische Informationen finden](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) im Verwaltungsinhalt.  
+
 ## <a name="report-a-problem"></a>Problem melden
 
-Ihr [!INCLUDE[prodshort](includes/prodshort.md)] Einzelhandelspartner soll Ihnen mit technischem Support helfen. [!INCLUDE[prodshort](includes/prodshort.md)] wird über Partner verkauft und dieser Abschnitt erleichtert Ihnen den Kontakt zu Ihrem wiederverkaufenden Partner, wenn diese Ihre Support-Kontaktdaten hinterlegt haben. Wenn Ihr [!INCLUDE[prodshort](includes/prodshort.md)] Partner das jeweilige Problem nicht lösen kann, wir er ein Support-Ticket bei Microsoft eröffnen.  
+Ihr [!INCLUDE[prodshort](includes/prodshort.md)] Einzelhandelspartner soll Ihnen mit technischem Support helfen. [!INCLUDE[prodshort](includes/prodshort.md)] wird über Partner verkauft und dieser Abschnitt erleichtert Ihnen den Kontakt zu Ihrem wiederverkaufenden Partner, wenn diese Ihre Support-Kontaktdaten hinterlegt haben. Wenn Ihr [!INCLUDE[prodshort](includes/prodshort.md)] Partner das jeweilige Problem nicht lösen kann, wir er ein Support-Ticket bei Microsoft eröffnen. Weitere Informationen finden Sie unter [Unterstützungsprobleme zu Microsoft eskalieren](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) im Verwaltungsinhalt.  
 
 > [!NOTE]
 > Dieser Abschnitt ist nur verfügbar, wenn Sie für ein [!INCLUDE [prodshort](includes/prodshort.md)]-Abonnement bezahlt haben. Wenn Sie sich für eine Testversion angemeldet haben und [!INCLUDE[prodshort](includes/prodshort.md)] noch nicht gekauft haben, , haben Sie keinen Wiederverkaufspartner und Sie können das Microsoft-Support- Team nicht direkt kontaktieren. Sie finden einen [!INCLUDE[prodshort](includes/prodshort.md)]-Partner auf der Seite [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Weitere Informationen finden Sie unter [Wie finde ich einen Reselling-Partner?](across-faq.md#findpartner).  
