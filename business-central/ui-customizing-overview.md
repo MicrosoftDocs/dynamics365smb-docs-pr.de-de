@@ -22,7 +22,7 @@ ms.locfileid: "3194523"
 Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kollegen Zugriff auf die Funktionen, die Funktionalität und die Daten zu geben, die Sie am häufigsten brauchen, uns so, dass es am besten in Ihre tägliche Arbeit passt. Diejenigen, die Änderungen sehen, verlassen sich auf das, was Sie tun in der Tabelle.
 
 > [!NOTE]
-> Zusätzlich zu den Optione, die von Administratoren angepasst werden können, können Benutzer ihre Seiten anpassen, indem sie Felder, Fixierungen, Bestandteile und mehr hinzufügen, ändern oder entfernen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
+> Zusätzlich zu den Optionen, die von Administratoren angepasst werden können, können Benutzer ihre Seiten anpassen, indem sie Felder, Fixierungen, Bestandteile und mehr hinzufügen, ändern oder entfernen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
 | Was können Sie tun    |  Beschreibung  |  Wer sieht die Änderungen  |  Weitere Informationen  |
 |-----|---------------|---------|-------|

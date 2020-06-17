@@ -26,7 +26,7 @@ Je nach Art der Seite und was enthalten ist, können Sie verschiedene Änderunge
 
 > [!NOTE]
 > Administratoren können dieselben Layoutänderungen wie Benutzer durchführen, indem sie den Arbeitsbereich für ein Profil anpassen, dem mehrere Benutzer zugewiesen sind. Weitere Informationen finden Sie unter [Seiten für Profile anpassen](ui-personalization-manage.md)<br /><br />
-Administratoren können auch Prsonalisierungen der Benutzer überschreiben und definieren, welche Funktionen in allen oder bestimmten Unternehmen zugänglich sind. Weitere Informationen finden Sie unter [Anpassen von Business Central](ui-customizing-overview.md).
+Administratoren können auch Personalisierungen der Benutzer überschreiben und definieren, welche Funktionen in allen oder bestimmten Unternehmen zugänglich sind. Weitere Informationen finden Sie unter [Anpassen von Business Central](ui-customizing-overview.md).
 
 ## <a name="to-change-the-width-of-a-column"></a>Ändern der Breite einer Spalte
 Sie können die Größe von Spalten in jeder Liste leicht ändern, indem Sie die Grenze zwischen zwei Spalten nach links oder rechts ziehen.
