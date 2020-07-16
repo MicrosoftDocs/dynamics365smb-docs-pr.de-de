@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402506"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527985"
 ---
 # <a name="send-documents-by-email"></a>Senden von Belegen über E-Mail
 
@@ -65,7 +65,7 @@ Nachfolgend wird beschrieben, wie eine gebuchte Verkaufsrechnung als E-Mail mit 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Belege, die beim Senden als gedruckt markiert sind
 
-Einige Belege in [!INCLUDE [prodshort](includes/prodshort.md)] verfügen über ein Feld, das angibt, wie oft der Beleg gedruckt wurde. Das Feld wird auch aktualisiert, wenn Sie den Beleg nicht drucken, sondern stattdessen per E-Mail senden. Das Feld wird selbst dann aktualisiert, wenn Sie den Beleg überhaupt nicht senden, z. B. wenn Ihr Unternehmen keine E-Mail eingerichtet hat oder wenn für den Kontakt, an den Sie den Beleg senden möchten, keine E-Mail-Adresse angegeben ist. Für alle Szenarien, soweit [!INCLUDE [prodshort](includes/prodshort.md)] betroffen ist, wird der Beleg gedruckt, weil eine PDF-Datei generiert wird.  
+Einige Belege in [!INCLUDE[prodshort](includes/prodshort.md)] verfügen über ein Feld, das angibt, wie oft der Beleg gedruckt wurde. Das Feld wird auch aktualisiert, wenn Sie den Beleg nicht drucken, sondern stattdessen per E-Mail senden. Das Feld wird selbst dann aktualisiert, wenn Sie den Beleg überhaupt nicht senden, z. B. wenn Ihr Unternehmen keine E-Mail eingerichtet hat oder wenn für den Kontakt, an den Sie den Beleg senden möchten, keine E-Mail-Adresse angegeben ist. Für alle Szenarien, soweit [!INCLUDE[prodshort](includes/prodshort.md)] betroffen ist, wird der Beleg gedruckt, weil eine PDF-Datei generiert wird.  
 
 Der Benutzer sieht diese generierte Datei möglicherweise nicht, was auch der Grund ist, warum das Feld aktualisiert wird.
 

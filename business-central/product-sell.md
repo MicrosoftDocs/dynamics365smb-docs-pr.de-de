@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0c0ef6e00c2d1564c2f19c98a07c3cc4771c1d8a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4567f62a7866f6d02103f8f80aea13b92415d0bd
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190059"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528688"
 ---
 # <a name="become-a-reseller-of-d365fin_long"></a>Werden ein Wiederverkäufer von [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Erweitern Sie Ihre Geschäftschance mit [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -26,7 +26,7 @@ Wenn Sie sich in den Cloudlösungen, in Office 365, in SharePoint, in den Branch
 
 ## <a name="get-started"></a>Erste Schritte
 
-Das "Ready-to-Go"-Programm ist eine Möglichkeit, als ein Einzelhändler [!INCLUDE [prodshort](includes/prodshort.md)] anzufangen. Sie können auch die Microsoft-Filiale in Ihrem Land oder Ihrer Region kontaktieren. Weitere Informationen zu den Ressourcen, die Ihnen über das Programm „Ready to Go“ zur Verfügung stehen, finden Sie unter [aka.ms/readytogo ](https://aka.ms/readytogo), [Verschiedene Lösungen weiterverkaufen ](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) und [Erste Schritte als Wiederverkäufer](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
+Das "Ready-to-Go"-Programm ist eine Möglichkeit, als ein Einzelhändler [!INCLUDE[prodshort](includes/prodshort.md)] anzufangen. Sie können auch die Microsoft-Filiale in Ihrem Land oder Ihrer Region kontaktieren. Weitere Informationen zu den Ressourcen, die Ihnen über das Programm „Ready to Go“ zur Verfügung stehen, finden Sie unter [aka.ms/readytogo ](https://aka.ms/readytogo), [Verschiedene Lösungen weiterverkaufen ](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) und [Erste Schritte als Wiederverkäufer](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>Siehe auch
 

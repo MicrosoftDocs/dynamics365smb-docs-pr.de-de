@@ -1,48 +1,51 @@
 ---
 title: Mehrsprachig und Lokalisierung| Microsoft Docs
-description: Erhalten von Informationen, wie Sprache und Gebietsschema die Benutzeroberfläche in Business Central. beeinflussen.
+description: Erfahren Sie, wie die Sprache und Region die Benutzeroberfläche in Business Central beeinflussen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: language, locale, localization, culture
-ms.date: 04/01/2020
+ms.search.keywords: language, locale, localization, culture, region, regional settings
+ms.date: 06/17/2020
 ms.author: edupont
-ms.openlocfilehash: 2d98f433acbe5905d9807bf7e7ded8708ed22d3b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: da2ea0e51ef65eb432cc67f36db230bfea178c03
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189021"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528663"
 ---
-# <a name="changing-language-and-locale"></a>Sprache und Gebiet ändern
+# <a name="changing-language-and-region"></a>Ändern der Sprache und der Region
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] wird in mehreren Märkten unterstützt und ist in den Sprachen verfügbar, die diese Märkte benötigen. Dieses ist ein Ergebnis für Supportleistungen für mehrere Sprachen zu Laufzeit mit Unterstützung für rechtliche Anforderungen in den unterstützten Märkten. Das bedeutet, das [!INCLUDE[d365fin](includes/d365fin_md.md)] in verschiedenen Sprachen angezeigt werden kann. Sie können die Sprache ändern, die verwendet wird, um Texte anzuzeigen und die Änderung tritt sofort in Kraft, sobald Sie automatisch exportiert und wieder unterzeichnet wurde. Die Einstellung trifft auf Sie zu und nicht auf alle in Ihrer Unternehmung.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist in einer Reihe von Märkten und Sprachen auf der ganzen Welt erhältlich. In den Märkten, in denen [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar ist, stehen eine Reihe von regulatorischen Funktionen zur Verfügung, um Unternehmen bei regulatorischen Belastungen zu unterstützen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kann in verschiedenen Sprachen angezeigt werden, und Sie können die zum Anzeigen von Text verwendete Sprache ändern. Die Änderung tritt sofort in Kraft, sobald Sie automatisch ab- und wieder angemeldet wurden. Die Einstellung trifft auf Sie zu und nicht auf alle in Ihrer Unternehmung.  
 
-Wenn Sie die kanadische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] nutzen, können Sie die Benutzeroberfläche in Englisch und auf französisch sehen, aber es ist immer noch die kanadische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] in allen anderen Aspekten. Es ist nicht gleich wie sagen wir [!INCLUDE[d365fin](includes/d365fin_md.md)] in Großbritannien.  
+Wenn Sie die kanadische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden, können Sie die Benutzeroberfläche in Englisch, Deutsch, Französisch oder in einer anderen Sprache anzeigen, in allen anderen Aspekten ist es jedoch weiterhin die kanadische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)]. Es ist nicht dasselbe wie, sagen wir [!INCLUDE[d365fin](includes/d365fin_md.md)] im Vereinigten Königreich, wo die Funktionen an die Anforderungen dieses Marktes angepasst wurden.  
 
-Um der Benutzeroberfläche die Sprache zu ändern, wechseln Sie zur Seite **Meine Einstellungen**. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md#language).  
+Um der Benutzeroberfläche die Sprache zu ändern, wechseln Sie zur Seite **Meine Einstellungen**. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md#language). 
+
+> [!NOTE]  
+> Die Auswahl der Sprachen wird auf Ihre Einstellung in Ihrem Office 365-Profil zurückgesetzt, wenn Ihr Administrator Benutzer von Office 365 mit [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisiert.
 
 Die Änderung der Texte in den Daten der Anwendung ist kein Bestandteil der Multilanguagefunktionalität. Dies ist durch das Design der Anwendung bedingt. Beispiele für solche Texte sind die Namen der Artikel oder Bemerkungen für einen Debitor. D. h. diese Textarten werden nicht übersetzt.  
 
 > [!NOTE]  
-> Da  [!INCLUDE[d365fin](includes/d365fin_md.md)] nur einen Zeichensatz für Daten unterstützt. Beim Abrufen von Daten, die unter Verwendung eines anderen Zeichensatzes eingegeben wurden, können daher Fehler auftreten. Wenn Ihr Tenant zum Beispiel nur englische und russische Zeichen unterstützt und Sie Daten in einer anderen Sprache eingegeben, werden diese möglicherweise nicht ordnungsgemäß gespeichert. Wenden Sie sich an den zuständigen Systemadministrator, und erkundigen Sie sich nach den Sprachen, die von Ihrer Installation für Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden.  
+> Da  [!INCLUDE[d365fin](includes/d365fin_md.md)] nur einen Zeichensatz für Daten unterstützt. Daher werden einige Zeichen in Ihrer Umgebung möglicherweise nicht unterstützt und beim Abrufen von Daten, die mit einem anderen Zeichensatz eingegeben wurden, können möglicherweise Probleme auftreten. Ihre Umgebung unterstützt möglicherweise nur englische und russische Zeichen, und wenn Sie Daten in einer anderen Sprache eingeben, werden diese möglicherweise nicht ordnungsgemäß gespeichert. Wenden Sie sich an den zuständigen Systemadministrator, und erkundigen Sie sich nach den Sprachen, die von Ihrer Installation für Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden.  
 
-## <a name="changing-the-locale"></a>Ändern des Gebietsschemas
-Ist für Gebietsschema Sprache und gesetzlichen Anforderungen in den lokalen Märkten abweichen. Gebietsschema bestimmt, wie die Daten in Bezug auf das trennzeichen Komma angezeigt werden, von nach links oder rechts, bestimmte und andere Einstellungen. Das Gebietsschema bestimmt auch einige der Systemelemente im Browser, wie der Aktion, einen neuen Artikel in einer Liste zum Erstellen, beispielsweise.  
+## <a name="changing-the-region"></a>Ändern der Region
+Die Region unterscheidet sich von der Sprache und von gesetzlichen Vorschriften in den lokalen Märkten. Die Region bestimmt, wie Ihre Daten in Bezug auf das Kommatrennzeichen, die Ausrichtung nach links oder rechts und auf bestimmte andere Einstellungen dargestellt werden. Die Region bestimmt auch einige der Systemelemente im Browser, z. B. die Aktion zum Erstellen eines neuen Artikels in einer Liste.  
 
-Sie können das Gebietsschema in der Browserregisterkarte ändern, die Sie verwenden, um Daten zu arbeiten [!INCLUDE[d365fin](includes/d365fin_md.md)]. die Änderung bezieht sich nur auf Sie und die nicht die anderer Benutzer in Ihrem Unternehmen.  
+Sie können die Region in der Browserregisterkarte ändern, mit der Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] arbeiten. die Änderung bezieht sich nur auf Sie und die nicht die anderer Benutzer in Ihrem Unternehmen.  Beachten Sie, dass die Auswahl der Region auf Ihre Einstellung in Ihrem Office-Profil zurückgesetzt wird, wenn Ihr Administrator Benutzer von Office 365 mit [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisiert.
 
 > [!IMPORTANT]  
->  Wenn Sie das Gebietsschema ändern, sehen Sie auch eine lange Liste von Sprachen und von Gebietsschemen. Jedoch nur die Gebietsschemaeinstellung wird in der aktuellen Version von verwendet [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  Wenn Sie die Region ändern, wird eine eine lange Liste von Sprachen und Regionen angezeigt. Die Sprache wird jedoch nicht von der Auswahl der Region beeinflusst.  
 
-Um das Gebietsschema zu ändern, gehen Sie auf die Seite **Meine Einstellungen**. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).  
+Wechseln Sie zur Seite **Meine Einstellungen**, um die Region zu ändern. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).  
 
 ## <a name="application-version"></a>Anwendungsversionen
 
-Auf der Seite **Hilfe und Support** sehen Sie die Version von [!INCLUDE [prodshort](includes/prodshort.md)], auf der Ihr Unternehmen basiert. Wenn Sie ein Unternehmen auf einer anderen Version aufbauen möchten, kann Ihr Administrator eine neue Produktionsumgebung anlegen. Weitere Informationen finden Sie unter [Erstellen einer neuen Produktionsumgebung](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) im Entwickler- und IT Pro-Inhalt.  
+Auf der Seite **Hilfe und Support** sehen Sie die Version von [!INCLUDE[prodshort](includes/prodshort.md)], auf der Ihr Unternehmen basiert. Wenn Sie ein Unternehmen auf einer anderen Version aufbauen möchten, kann Ihr Administrator eine neue Produktionsumgebung anlegen. Weitere Informationen finden Sie unter [Erstellen einer neuen Produktionsumgebung](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) im Entwickler- und IT Pro-Inhalt.  
 
 ## <a name="languages-of-the-d365fin-help"></a>Sprachen der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Hilfe
 Der Hilfeinhalt für die Kernfunktionalität in [!INCLUDE[d365fin](includes/d365fin_md.md)] wird auf der Microsoft Dokumentenseite veröffentlicht und ist in unterschiedlichen Sprachen verfügbar. Wenn Sie die Dokumente in [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnen, wird der Inhalt in Ihrer Sprache angezeigt. Wenn eine bestimmte Seite noch nicht in der Sprache verfügbar ist, wird sie in Englisch angezeigt.

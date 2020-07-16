@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372592"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528713"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Mindestanforderungen für die Nutzung von Business Central
-Bevor Sie auf [!INCLUDE [prodshort](includes/prodshort.md)] online zugreifen, empfiehlt es sich, dass Sie sicherstellen, dass Ihr Computer oder Ihr mobiles Gerät die Mindestsystemanforderungen für das Produkt erfüllt oder übersteigt. Dieser Artikel liste die Anforderungen auf.  
+Bevor Sie auf [!INCLUDE[prodshort](includes/prodshort.md)] online zugreifen, empfiehlt es sich, dass Sie sicherstellen, dass Ihr Computer oder Ihr mobiles Gerät die Mindestsystemanforderungen für das Produkt erfüllt oder übersteigt. Dieser Artikel liste die Anforderungen auf.  
 
 ## <a name="browsers"></a>Browser
 
@@ -40,7 +40,7 @@ Bevor Sie auf [!INCLUDE [prodshort](includes/prodshort.md)] online zugreifen, em
 **Gerätegröße:** [!INCLUDE[d365fin](includes/d365fin_md.md)] wird auf Smartphones mit einer minimalen Bildschirmgröße von 4“ und Tablets mit einer minimalen Bildschirmgröße von 7“ unterstützt.  
 
 ## <a name="outlook"></a>Outlook
-**Outlook-Anwendungen:** Um [!INCLUDE[d365fin](includes/d365fin_md.md)] online als Ihren Geschäftseingang in Outlook zu verwenden, benötigen Sie Outlook 2016 oder höher, Outlook im Browser, Outlook für das iPhone, Outlook für iPad oder Outlook für Android. Ihre Organisation muss auch Office 365 verwenden. Sie können [!INCLUDE [prodshort](includes/prodshort.md)] online als Ihr Geschäftseingang in Outlook verwenden, wenn Ihre Organisation Exchange Server lokal verwendet.  
+**Outlook-Anwendungen:** Um [!INCLUDE[d365fin](includes/d365fin_md.md)] online als Ihren Geschäftseingang in Outlook zu verwenden, benötigen Sie Outlook 2016 oder höher, Outlook im Browser, Outlook für das iPhone, Outlook für iPad oder Outlook für Android. Ihre Organisation muss auch Office 365 verwenden. Sie können [!INCLUDE[prodshort](includes/prodshort.md)] online als Ihr Geschäftseingang in Outlook verwenden, wenn Ihre Organisation Exchange Server lokal verwendet.  
 **Browser:** Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihren geschäftlichen Posteingang in Outlook in einem Browser verwenden, erfordert das Add-In, dass auf Ihrem Computer einer der aufgeführten unterstützten Browser ausgeführt wird, die zuvor in diesem Artikel aufgeführt wurden.  
 **Plattformen:** Wenn Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-Add-In in Outlook für iPhone, Outlook für iPad oder Outlook für Android verwenden, setzt das Add-In voraus, dass auf Ihrem mobilen Gerät eines der aufgeführten unterstützten mobilen Geräte für [!INCLUDE[d365fin](includes/d365fin_md.md)] läuft.  
 

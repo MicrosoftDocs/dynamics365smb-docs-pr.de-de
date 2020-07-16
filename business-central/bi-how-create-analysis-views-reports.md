@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186092"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496825"
 ---
 #  <a name="create-analysis-reports"></a>Analyseberichte erstellen
 Verkaufsleiter müssen regelmäßig Umsatz, Bruttogewinn sowie andere Verkaufsleistungsschlüsselindikatoren analysieren. Einkäufer sind eher an der Entwicklung des Einkaufsvolumens, der Leistung des Verkäufers und den Einkaufspreisen interessiert. Demgegenüber benötigen Logistik- und Lagerbestandsmanager Informationen zu Lagerumsatz, eine Analyse der Lagerbestandsumlagerung und Statistiken zum Lagerwert.  
@@ -41,9 +41,9 @@ Dann können Sie beispielsweise folgende Spalten erstellen:
 - Verkäufe in Prozent zum letzten Monat  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Einrichten von Zeilen- und Spaltenlayouts  
- Auf der Seite **Analysebericht** können Sie unterschiedliche Zeilen- und Spaltenlayouts entsprechend Ihren Einrichtungsparametern anzeigen. Sie erstellen die Zeilen bzw. Zeilenvorlagen auf der Seite **Analysezeilenvorlagen**. Sie können auf der Seite den Namen des Berichts und die Objekte festlegen, die Sie in den Zeilen des Berichts anzeigen möchten. Sie erstellen die Spalten auf der Seite **Analysespaltenvorlagen**. Auf dieser Seite können Sie den Namen der Spaltenvorlage und die Analyseparameter, die Sie in dem Bericht als Spalten darstellen möchten, festlegen. Jede Zeile auf der Seite **Analysespaltenvorlagen** stellt eine Spalte im Bericht dar. Beachten Sie, dass Analysezeilen und -spalten voneinander unabhängig sind.  
+ Auf der Seite **Analysebericht** können Sie verschiedene Zeilen- und Spaltenlayouts anzeigen, je nachdem, welche Zeilen oder Zeilenvorlagen Sie auf der Seite **Analysezeilenvorlagen** eingerichtet haben. Sie können den Namen des Berichts und die Objekte festlegen, die Sie in den Zeilen des Berichts anzeigen möchten. Sie erstellen die Spalten auf der Seite **Analysespaltenvorlagen**. Sie können den Namen der Spaltenvorlage und die Analyseparameter festlegen, die Sie in dem Bericht als Spalten darstellen möchten. Jede Zeile auf der Seite **Analysespaltenvorlagen** stellt eine Spalte im Bericht dar. Beachten Sie, dass Analysezeilen und -spalten voneinander unabhängig sind.  
 
-Die Anwendung fasst, basierend auf den eingerichteten Zeilen und Spalten, die Ergebnisse des Berichts auf der Seite **Analysebericht** zusammen. Es verwendet dazu in etwa folgende Matrix:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fasst die Ergebnisse des Berichts auf der Seite **Analysebericht** basierend auf den eingerichteten Zeilen und Spalten zusammen, wie in der folgenden Tabelle gezeigt.  
 
 | |Verkäufe aktueller Monat|Verkäufe letzter Monat|Verkäufe letzter Monat %|  
 |-|-|-|-|  

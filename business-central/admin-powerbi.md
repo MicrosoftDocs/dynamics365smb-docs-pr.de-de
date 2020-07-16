@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 59ea09440624f2311d69b0c1657de4d9fc420826
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186884"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528588"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivieren Sie Ihre Geschäftsdaten für Power BI
 
@@ -27,13 +27,13 @@ Sie müssen ein gültiges Konto bei [!INCLUDE[prodshort](includes/prodshort.md)]
 > [!IMPORTANT]
 > Die Power BI Apps, die in diesem Artikel beschrieben werden, sind dafür ausgelegt, Azure Active Directory als Autorisierungsmechanismus zu verwenden, sofern nicht anderweitig definiert. Außerdem benötigen Sie eine [Power BI Pro-Lizenz](/power-bi/service-features-license-type), um Ihre Inhalte zu teilen, und die Personen, mit denen Sie sie teilen, tun dies auch, oder die Inhalte müssen sich in einem Arbeitsbereich in einer [Premium-Kapazität](/power-bi/service-premium-what-is) befinden. Weitere Informationen finden Sie unter [Möglichkeiten zur gemeinsamen Nutzung Ihrer Arbeit in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-[!INCLUDE [prodlong](includes/prodlong.md)] hat folgende Apps für Power BI veröffentlicht:
+[!INCLUDE[prodlong](includes/prodlong.md)] hat folgende Apps für Power BI veröffentlicht:
 
-- [!INCLUDE [prodlong](includes/prodlong.md)] – CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – Sales  
+- [!INCLUDE[prodlong](includes/prodlong.md)] – CRM  
+- [!INCLUDE[prodlong](includes/prodlong.md)] – Finance  
+- [!INCLUDE[prodlong](includes/prodlong.md)] – Sales  
 
-## <a name="using-the-prodshort-dashboards-in-power-bi"></a>[!INCLUDE [prodshort](includes/prodshort.md)] Dashboards nutzen in Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>[!INCLUDE[prodshort](includes/prodshort.md)] Dashboards nutzen in Power BI
 
 Jede App enthält Berichte, die Sie aufrufen können in:
 
@@ -42,7 +42,7 @@ Jede App enthält Berichte, die Sie aufrufen können in:
 - Heften Sie diese benutzerdefinierte Ansicht an das Dashboard an, um sie weiter zu Verfolgen.  
   Sie können Daten auch manuell aktualisieren, und Sie können einen Aktualisierungsplan einrichten. Weitere Informationen finden Sie unter [Konfigurieren der geplanten Aktualisierung](/power-bi/refresh-scheduled-refresh).  
 
-Die Apps sind so konzipiert, dass sie mit Daten aller Unternehmen arbeiten, die Sie in Ihrem [!INCLUDE[prodshort](includes/prodshort.md)] haben. Bei der Installation der Power BI App geben Sie einen oder mehrere Parameter an, um eine Verbindung zu Ihrem [!INCLUDE [prodshort](includes/prodshort.md)] herzustellen.  
+Die Apps sind so konzipiert, dass sie mit Daten aller Unternehmen arbeiten, die Sie in Ihrem [!INCLUDE[prodshort](includes/prodshort.md)] haben. Bei der Installation der Power BI App geben Sie einen oder mehrere Parameter an, um eine Verbindung zu Ihrem [!INCLUDE[prodshort](includes/prodshort.md)] herzustellen.  
 
 > [!NOTE]
 > Sie können auch Ihre eigenen Berichte und Dashboards in Power BI auf Grundlage Ihrer Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellen. Weitere Informationen finden Sie unter [Verbindung Ihrer Geschäftsdaten mit Power BI](across-how-use-financials-data-source-powerbi.md).  
@@ -54,7 +54,7 @@ Die Apps sind so konzipiert, dass sie mit Daten aller Unternehmen arbeiten, die 
 
     ![Navigieren, um die Daten zu erhalten](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    Sie können möglicherweise auch von [!INCLUDE [prodshort](includes/prodshort.md)] aus starten. Navigieren Sie auf Ihrer Homepage zu **Berichtsauswahl** im Power BI Abschnitt. Wählen Sie entweder **Service** oder **Mein Unternehmen** im Menüband aus. Wenn eine dieser Aktionen ausgewählt wird, gelangen Sie zur Organisationsgalerie in Power BI oder zu der Dienstbibliothek in Microsoft AppSource, die zudem so gefiltert wird dass nur Apps zu [!INCLUDE[prodshort](includes/prodshort.md)] anzeigt.
+    Sie können möglicherweise auch von [!INCLUDE[prodshort](includes/prodshort.md)] aus starten. Navigieren Sie auf Ihrer Homepage zu **Berichtsauswahl** im Power BI Abschnitt. Wählen Sie entweder **Service** oder **Mein Unternehmen** im Menüband aus. Wenn eine dieser Aktionen ausgewählt wird, gelangen Sie zur Organisationsgalerie in Power BI oder zu der Dienstbibliothek in Microsoft AppSource, die zudem so gefiltert wird dass nur Apps zu [!INCLUDE[prodshort](includes/prodshort.md)] anzeigt.
 
 3. Im Feld **Dienste** wählen Sie **Abrufen** aus. Dadurch wird eine Seite mit der **AppSource** und **Apps für Power BI** geöffnet.  
 
@@ -64,7 +64,7 @@ Die Apps sind so konzipiert, dass sie mit Daten aller Unternehmen arbeiten, die 
 5. Geben Sie bei entsprechender Aufforderung den Namen des Unternehmens und der Umgebung in Ihr [!INCLUDE[prodshort](includes/prodshort.md)] ein, mit dem Sie eine Verbindung herstellen möchten. Wenn Sie nicht mehrere Umgebungen erstellt haben, geben Sie eine **Produktion** ein. Stellen Sie für den Firmenparameter sicher, dass Sie den Namen und nicht den Anzeigenamen eingeben. Der Name des Unternehmens kann auf der Seite **Unternehmen** innerhalb Ihrer [!INCLUDE[prodshort](includes/prodshort.md)]-Instanz gefunden werden.  
 
     > [!NOTE]
-    > Wenn Sie eine Verbindung mit [!INCLUDE [prodshort](includes/prodshort.md)] lokal herstellen, müssen Sie den *Web Service URL* Parameter angeben. Finden Sie dies in der Seite **Webdienst** in [!INCLUDE [prodshort](includes/prodshort.md)]. Ihre [!INCLUDE [server](includes/server.md)] Instanz muss für die Standardauthentifizierung konfiguriert sein, und Sie müssen einen Benutzer und den Webzugriffsschlüssel dieses Benutzers als Kennwort angeben. Ersetzen Sie im folgenden Beispiel *Myserver:7048* mit Ihrem [!INCLUDE [server](includes/server.md)] Namen und *CRONUS%20US* mit Ihrem Firmennamen.  
+    > Wenn Sie eine Verbindung mit [!INCLUDE[prodshort](includes/prodshort.md)] lokal herstellen, müssen Sie den *Web Service URL* Parameter angeben. Finden Sie dies in der Seite **Webdienst** in [!INCLUDE[prodshort](includes/prodshort.md)]. Ihre [!INCLUDE[server](includes/server.md)] Instanz muss für die Standardauthentifizierung konfiguriert sein, und Sie müssen einen Benutzer und den Webzugriffsschlüssel dieses Benutzers als Kennwort angeben. Ersetzen Sie im folgenden Beispiel *Myserver:7048* mit Ihrem [!INCLUDE[server](includes/server.md)] Namen und *CRONUS%20US* mit Ihrem Firmennamen.  
     > ```https://myserver:7048/BC140/ODataV4/Company('CRONUS%20US')/```
 
 6. Sobald die Verbindung hergestellt ist, werden ein Dashboard und Berichte zu Ihrem Power BI Arbeitsplatz hinzugefügt. Wenn abgeschlossen, werden die Kacheln die Daten aus Ihrem [!INCLUDE[prodshort](includes/prodshort.md)]-Unternehmen anzeigen.
@@ -78,18 +78,18 @@ Die Apps sind so konzipiert, dass sie mit Daten aller Unternehmen arbeiten, die 
 - [Wählen Sie eine Kachel aus](/power-bi/service-dashboard-tiles), um den zu Grunde liegenden Bericht zu öffnen.  
 - Standardmäßig ist für Ihr Dataset keine Aktualisierung geplant. Sie können den Aktualisierungszeitplan ändern oder versuchen, ihn bei Bedarf zu aktualisieren mithilfe von **Jetzt aktualisieren**. Weitere Informationen finden Sie unter [Konfigurieren der geplanten Aktualisierung](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-prodshort"></a>Power BI in [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI in [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Ihre Homepage in [!INCLUDE [prodshort](includes/prodshort.md)] kann ein Power BI Steuerelement einschließen, das für die Anzeige konfiguriert werden, um Power BI Berichte auf Ihrer Homepage anzuzeigen.
+Ihre Homepage in [!INCLUDE[prodshort](includes/prodshort.md)] kann ein Power BI Steuerelement einschließen, das für die Anzeige konfiguriert werden, um Power BI Berichte auf Ihrer Homepage anzuzeigen.
 
 > [!IMPORTANT]
-> Sie müssen ein gültiges Konto bei [!INCLUDE [prodshort](includes/prodshort.md)] und Power BI haben. Wenn Sie Berichte ändern möchten, müssen Sie Power BI Desktop herunterladen. Weitere Informationen finden Sie unter [Business Central als Power BI Datenquelle nutzen](across-how-use-financials-data-source-powerbi.md).  
+> Sie müssen ein gültiges Konto bei [!INCLUDE[prodshort](includes/prodshort.md)] und Power BI haben. Wenn Sie Berichte ändern möchten, müssen Sie Power BI Desktop herunterladen. Weitere Informationen finden Sie unter [Business Central als Power BI Datenquelle nutzen](across-how-use-financials-data-source-powerbi.md).  
 
 ### <a name="on-first-login"></a>Beim ersten Login
 
-Wenn Sie sich zum ersten Mal anmelden bei [!INCLUDE [prodshort](includes/prodshort.md)], werden einen leeren Power BI Teil auf Ihrer Homepage bemerken. Um die Berichte anzuzeigen, müssen Sie zuerst eine Verbindung herstellen zu Power BI durch Auswahl der Verknüpfung *Beginnen Sie mit Power BI*.
+Wenn Sie sich zum ersten Mal anmelden bei [!INCLUDE[prodshort](includes/prodshort.md)], werden einen leeren Power BI Teil auf Ihrer Homepage bemerken. Um die Berichte anzuzeigen, müssen Sie zuerst eine Verbindung herstellen zu Power BI durch Auswahl der Verknüpfung *Beginnen Sie mit Power BI*.
 
-[!INCLUDE [prodshort](includes/prodshort.md)] kommuniziert dann mit dem Power BI Service, um festzustellen, ob Sie ein gültiges Power BI Konto haben. Sobald Ihre Lizenz überprüft wurde, wird der Power BI Standardbericht auf Ihrer Startseite angezeigt.
+[!INCLUDE[prodshort](includes/prodshort.md)] kommuniziert dann mit dem Power BI Service, um festzustellen, ob Sie ein gültiges Power BI Konto haben. Sobald Ihre Lizenz überprüft wurde, wird der Power BI Standardbericht auf Ihrer Startseite angezeigt.
 
 ### <a name="selecting-power-bi-reports"></a>Wählen Sie Power BI Berichte
 
@@ -115,11 +115,11 @@ Kehren Sie zum Rollencenter zurück, und der aktualisierte Bericht wird angezeig
 
 ### <a name="uploading-reports"></a>Berichte werden hochgeladen
 
-Sie können neue Power BI Berichte hochladen und sie mit allen Benutzern Ihrer [!INCLUDE [prodshort](includes/prodshort.md)] teilen. Die Berichte werden in jedem Unternehmen in [!INCLUDE [prodshort](includes/prodshort.md)] geteilt.  
+Sie können neue Power BI Berichte hochladen und sie mit allen Benutzern Ihrer [!INCLUDE[prodshort](includes/prodshort.md)] teilen. Die Berichte werden in jedem Unternehmen in [!INCLUDE[prodshort](includes/prodshort.md)] geteilt.  
 
 Um einen vorhandenen Bericht hochzuladen, wählen Sie die Aktion **Bericht hochladen** aus der Dropdown-Befehlsliste aus. Anschließend können Sie eine .pbix-Datei hochladen, in der die Berichte definiert sind, die Sie freigeben möchten. Sie können den Standardnamen der Datei ändern.  
 
-Sobald der Bericht hochgeladen wurde in den Power BI Arbeitsbereich, wird er automatisch in den Power BI Arbeitsbereiche aller anderen Benutzer in diesem Unternehmen bei der nächsten Anmeldung bei [!INCLUDE [prodshort](includes/prodshort.md)] hochgeladen.
+Sobald der Bericht hochgeladen wurde in den Power BI Arbeitsbereich, wird er automatisch in den Power BI Arbeitsbereiche aller anderen Benutzer in diesem Unternehmen bei der nächsten Anmeldung bei [!INCLUDE[prodshort](includes/prodshort.md)] hochgeladen.
 
 ## <a name="system-requirements"></a>Systemanforderungen
 
@@ -145,7 +145,7 @@ Um die [!INCLUDE[prodshort](includes/prodshort.md)] Daten in Power BI zu importi
 - Power BI-Berichtsbezeichnungen
 
 > [!NOTE]
-> [!INCLUDE [prodshort](includes/prodshort.md)] lokal verwenden dieselben Web-Service-Endpunkte wie [!INCLUDE [prodshort](includes/prodshort.md)] online.
+> [!INCLUDE[prodshort](includes/prodshort.md)] lokal verwenden dieselben Web-Service-Endpunkte wie [!INCLUDE[prodshort](includes/prodshort.md)] online.
 
 ## <a name="web-services"></a>Webdienste
 
@@ -163,7 +163,7 @@ Ein Power BI Konto wurde nicht eingerichtet. Um ein gültiges Power BI Konto zu 
 
 Diese Meldung wird angezeigt, wenn der Standardbericht nicht auf Ihrem Power BI Arbeitsbereich bereitgestellt werden kann oder der Bericht wurde bereitgestellt, aber nicht erfolgreich aktualisiert. In diesem Fall navigieren Sie zum Bericht in Ihrem Arbeitsbereich Power BI, wählen Sie **Datensatz**, **Einstellungen** und aktualisieren Sie dann manuell die Anmeldedaten. Wenn der Datensatz erfolgreich aktualisiert wurde, navigieren Sie zurück zu Business Central und wählen Sie den Bericht manuell aus der Liste aus der **Wählen Sie Berichte** Seite.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Sie brauchen eine Power BI Pro Lizenz zur Installation der [!INCLUDE [prodshort](includes/prodshort.md)] App in Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Sie brauchen eine Power BI Pro Lizenz zur Installation der [!INCLUDE[prodshort](includes/prodshort.md)] App in Power BI
 
 Sie benötigen eine [Power BI Pro-Lizenz](/power-bi/service-features-license-type), um Ihre Inhalte freizugeben, und die Personen, mit denen Sie sie freigeben, tun dies ebenfalls, oder die Inhalte müssen sich in einem Arbeitsbereich mit einer [Premium-Kapazität](/power-bi/service-premium-what-is) befinden. Weitere Informationen finden Sie unter [Möglichkeiten zur gemeinsamen Nutzung Ihrer Arbeit in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -171,17 +171,17 @@ Sie benötigen eine [Power BI Pro-Lizenz](/power-bi/service-features-license-typ
 
 Dieser Fehler zeigt an, dass einer oder mehrere der Parameter ungültig sind.
 
-- Der angegebene Umgebungsparameter entspricht keinem vorhandenen [!INCLUDE [prodshort](includes/prodshort.md)] Produktions- oder Sandbox-Umgebung.
-- Der angegebene Firmenparameter stimmt mit keiner bestehenden [!INCLUDE [prodshort](includes/prodshort.md)] Unternehmung überein. Überprüfen Sie den Unternehmensnamen auf der Seite **Unternehmen** unter [!INCLUDE [prodshort](includes/prodshort.md)].
-- Wenn eine Verbindung zu [!INCLUDE [prodshort](includes/prodshort.md)] lokal hergestellt wird. Sie haben eine ungültige URL eingegeben. Sie können die URL auf er Seite **Webdienst** in [!INCLUDE [prodshort](includes/prodshort.md)] überprüfen  
+- Der angegebene Umgebungsparameter entspricht keinem vorhandenen [!INCLUDE[prodshort](includes/prodshort.md)] Produktions- oder Sandbox-Umgebung.
+- Der angegebene Firmenparameter stimmt mit keiner bestehenden [!INCLUDE[prodshort](includes/prodshort.md)] Unternehmung überein. Überprüfen Sie den Unternehmensnamen auf der Seite **Unternehmen** unter [!INCLUDE[prodshort](includes/prodshort.md)].
+- Wenn eine Verbindung zu [!INCLUDE[prodshort](includes/prodshort.md)] lokal hergestellt wird. Sie haben eine ungültige URL eingegeben. Sie können die URL auf er Seite **Webdienst** in [!INCLUDE[prodshort](includes/prodshort.md)] überprüfen  
 - Ein Port ist nicht geöffnet, damit die Anforderung Ihre Firewall passieren kann.
 
 ### <a name="cannot-sign-in"></a>Kann mich nicht anmelden
 
-Wenn Sie einen Fehler „Anmeldung fehlgeschlagen“ erhalten, nachdem Sie sich mit Ihren [!INCLUDE [prodshort](includes/prodshort.md)]-Benutzeranmeldeinformationen angemeldet haben, dann liegt wahrscheinlich eines der folgenden Probleme vor:
+Wenn Sie einen Fehler „Anmeldung fehlgeschlagen“ erhalten, nachdem Sie sich mit Ihren [!INCLUDE[prodshort](includes/prodshort.md)]-Benutzeranmeldeinformationen angemeldet haben, dann liegt wahrscheinlich eines der folgenden Probleme vor:
 
-- Das Konto, das Sie verwenden, hat keine Berechtigungen, um die [!INCLUDE [prodshort](includes/prodshort.md)] Daten aus Ihrem Konto zu lesen. Stellen Sie sicher, dass Sie über Berechtigungen für die erforderlichen Daten in [!INCLUDE [prodshort](includes/prodshort.md)] verfügen und versuche es noch mal.
-- Sie haben einen anderen Authentifizierungstyp als Standard ausgewählt, wenn Sie eine Verbindung herstellen mit [!INCLUDE [prodshort](includes/prodshort.md)]lokal.
+- Das Konto, das Sie verwenden, hat keine Berechtigungen, um die [!INCLUDE[prodshort](includes/prodshort.md)] Daten aus Ihrem Konto zu lesen. Stellen Sie sicher, dass Sie über Berechtigungen für die erforderlichen Daten in [!INCLUDE[prodshort](includes/prodshort.md)] verfügen und versuche es noch mal.
+- Sie haben einen anderen Authentifizierungstyp als Standard ausgewählt, wenn Sie eine Verbindung herstellen mit [!INCLUDE[prodshort](includes/prodshort.md)]lokal.
 - Sie haben keinen gültigen Benutzernamen oder Passwort eingegeben.
 
 ### <a name="incorrect-company-name"></a>Ungültiger Unternehmensname
@@ -198,7 +198,7 @@ Sobald die Power BI App installiert ist und Ihre Daten angezeigt werden in Power
 
 ### <a name="i-only-see-data-for-a-single-company"></a>Ich sehe nur Daten für ein einzelnes Unternehmen
 
-Die Power BI App zeigt nur Daten vom [!INCLUDE [prodshort](includes/prodshort.md)] Unternehmen an, das definiert wurde, als die Power BI App installiert wurde. Daten von zusätzlichen Unternehmen können zu den Berichten hinzugefügt werden, indem neue Abfragen hinzugefügt werden, die andere Unternehmen als Datenquelle verwenden.  
+Die Power BI App zeigt nur Daten vom [!INCLUDE[prodshort](includes/prodshort.md)] Unternehmen an, das definiert wurde, als die Power BI App installiert wurde. Daten von zusätzlichen Unternehmen können zu den Berichten hinzugefügt werden, indem neue Abfragen hinzugefügt werden, die andere Unternehmen als Datenquelle verwenden.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

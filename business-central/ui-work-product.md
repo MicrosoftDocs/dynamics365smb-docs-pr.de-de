@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0f8cc20f9f5f9afcd3db5fbeb3dc6d12ad8d6cad
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189341"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496721"
 ---
 # <a name="working-with-d365fin"></a>Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.
@@ -26,7 +26,7 @@ Sie können beispielsweise die Größe und die Position von Seiten anpassen, die
 > [!TIP]
 > Für einen druckfreundlichen Überblick über die am häufigsten verwendeten Funktionen wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.
 >
-> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
+> [ ![Symbol für die PDF-Datei](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Symbol zum Öffnen einer PDF")
 
 ## <a name="links-to-learn-more"></a>Links zu weiteren Informationen
 

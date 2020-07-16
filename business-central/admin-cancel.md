@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f48f5785ffc62b124b26764da5e86838c1e01dfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187436"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528412"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Abonnement kündigen oder [!INCLUDE[prodshort](includes/prodshort.md)] entfernen
 
@@ -31,7 +31,7 @@ Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] unter Verwendung 
 
 ## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Entfernen von [!INCLUDE[d365fin](includes/d365fin_md.md)] aus Ihrer Office 365 Umgebung
 
-Wenn Ihr Unternehmen ein Abonnement für [!INCLUDE [prodshort](includes/prodshort.md)] abschließt, aber Sie, als Benutzer, keinen Zugriff mehr möchten, müssen Sie Ihren Administrator oder Ihren Dynamics 365-Weiterverkaufspartner bitten, die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Lizenz aus Ihrem Office 365-Benutzerkonto zu entfernen. Wenn [!INCLUDE[d365fin](includes/d365fin_md.md)] von Ihrem Benutzerkonto entfernt wird und Ihr Unternehmen das Abonnement fortsetzt, haben Ihre Arbeitskollegen immer noch Zugriff auf Ihre freigegebenen Daten im [!INCLUDE[d365fin](includes/d365fin_md.md)]-Unternehmen.  
+Wenn Ihr Unternehmen ein Abonnement für [!INCLUDE[prodshort](includes/prodshort.md)] abschließt, aber Sie, als Benutzer, keinen Zugriff mehr möchten, müssen Sie Ihren Administrator oder Ihren Dynamics 365-Weiterverkaufspartner bitten, die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Lizenz aus Ihrem Office 365-Benutzerkonto zu entfernen. Wenn [!INCLUDE[d365fin](includes/d365fin_md.md)] von Ihrem Benutzerkonto entfernt wird und Ihr Unternehmen das Abonnement fortsetzt, haben Ihre Arbeitskollegen immer noch Zugriff auf Ihre freigegebenen Daten im [!INCLUDE[d365fin](includes/d365fin_md.md)]-Unternehmen.  
 
 Wenn Ihr Unternehmen das Abonnement für [!INCLUDE[d365fin](includes/d365fin_md.md)] kündigen möchte, kann der Dynamics 365-Weiterverkaufspartner das bezahlte Abonnement aus dem Konto des Unternehmens entfernen. Weitere Informationen finden Sie unter [Verwaltung von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) im Entwickler- und IT-Pro-Inhalt.  
 

@@ -5,16 +5,17 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34e72f5b80f4516dcd7e9061f263a8f08b06b0d7
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186500"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528513"
 ---
 # <a name="manage-profiles"></a>Profile verwalten
+
 Alle Benutzer von [!INCLUDE[d365fin](includes/d365fin_md.md)] erhalten ein Profil, das ihre Geschäftsrolle, die Abteilung, in der sie arbeiten, oder eine andere Kategorisierung widerspiegelt. Mithilfe von Profilen können Administratoren zentral definieren und verwalten, welche Benutzertypen auf der Benutzeroberfläche angezeigt und ausgeführt werden können, damit sie ihre Geschäftsaufgaben effizient ausführen können.
 
 > [!NOTE]
@@ -130,11 +131,17 @@ Sie können Personalisierungen löschen, die ein oder mehrere Benutzer an bestim
 
 2. Wählen Sie dir Zeile für die Personalisierungsseite, die Sie löschen möchten, und wählen die Aktion **Löschen** aus.
 
-Der Benutzer sieht die Änderungen das nächste Mal bei der Anmeldung.    
+Der Benutzer sieht die Änderungen das nächste Mal bei der Anmeldung.  
 
 Sie können auch alle individuellen Seitenanpassungen für ein Profil löschen. Weitere Informationen finden Sie unter [So löschen Sie alle Anpassungen für eine bestimmte Seite für ein Profil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
+## <a name="managing-user-sessions"></a>Verwalten von Benutzersitzungen
+
+Als Administrator von [!INCLUDE[prodshort](includes/prodshort.md)] Online können Sie Benutzersitzungen im Administration Center verwalten. Weitere Informationen finden Sie unter [Sitzungen verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) im Verwaltungsinhalt.  
+
+Für [!INCLUDE[prodshort](includes/prodshort.md)] (lokal) können Sie Sitzungen beispielsweise mit SQL Server Management Studio verwalten. Weitere Informationen finden Sie unter [Technische Dokumentation zu SQL Server](/sql/sql-server/?view=sql-server-ver15).  
+
 ## <a name="see-also"></a>Siehe auch  
-[Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
+[Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  

@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190011"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529038"
 ---
 # <a name="project-management"></a>Projektmanagement
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie allgemeine Projektmanagement-Verwaltungsaufgaben ausführen, wie Konfigurieren eines Projekts und Planen einer Ressource sowie Bereitstellung der Informationen, die benötigt werden, um Budgets zu verwalten und den Status zu überwachen. Sie können Computer- und Mitarbeiterstunden für das Projekt verfolgen, indem Sie Arbeitszeittabellen verwenden. Als Projektmanager haben Sie einen guten Überblick, nicht nur über einzelnen Projekte, sondern auch über die Verteilung der Mitarbeiter, der Maschinen und anderer Ressourcen, die in allen Projekten verwendet werden.
@@ -36,7 +36,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 ## <a name="get-started-with-projects"></a>Erste Schritte mit Projekten
 
-Projektmanagement ist allein ist schon kompliziert genug, und zu Lernen, wie Projekte erstellt und Umlaufbestand in einem neuen Tool verwaltet werden, kann eine zusätzliche Komplikation sein. Als Hilfe beim Projektmanagement in [!INCLUDE [prodshort](includes/prodshort.md)] können Sie sich [ein Video zum Erstellen von Aufträgen](https://www.youtube.com/watch?v=VqaPWr7BWmw) im [!INCLUDE [prodshort](includes/prodshort.md)] YouTube-Kanal ansehen.  
+Projektmanagement ist allein ist schon kompliziert genug, und zu Lernen, wie Projekte erstellt und Umlaufbestand in einem neuen Tool verwaltet werden, kann eine zusätzliche Komplikation sein. Als Hilfe beim Projektmanagement in [!INCLUDE[prodshort](includes/prodshort.md)] können Sie sich [ein Video zum Erstellen von Aufträgen](https://www.youtube.com/watch?v=VqaPWr7BWmw) im [!INCLUDE[prodshort](includes/prodshort.md)] YouTube-Kanal ansehen.  
 
 ## <a name="see-also"></a>Siehe auch
 

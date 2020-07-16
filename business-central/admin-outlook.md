@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186898"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529263"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook
 
@@ -27,18 +27,18 @@ Die ersten Schritte sind einfach mit dem [!INCLUDE[d365fin](includes/d365fin_md.
 Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht vom *Dynamics 365 Business Central Admin*. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können die [!INCLUDE[prodshort](includes/prodshort.md)]-Add-Ins unmittelbar über oder unter dem Text der E-Mail sehen. Das Add-In selbst wird regelmäßig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
 
 > [!TIP]
-> Wenn Sie das neue Outlook im Web verwenden, können die [!INCLUDE [prodshort](includes/prodshort.md)]-Add-Ins unter **Weitere Aktionen** ausgeblendet werden. Wenn Sie das Add-In häufig verwenden, können Sie es so anheften, dass es immer sofort sichtbar ist. Weitere Informationen finden Sie unter [Verwenden von Add-Ins in Outlook im Web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+> Wenn Sie das neue Outlook im Web verwenden, können die [!INCLUDE[prodshort](includes/prodshort.md)]-Add-Ins unter **Weitere Aktionen** ausgeblendet werden. Wenn Sie das Add-In häufig verwenden, können Sie es so anheften, dass es immer sofort sichtbar ist. Weitere Informationen finden Sie unter [Verwenden von Add-Ins in Outlook im Web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Wenn Sie mit mehr als einer [!INCLUDE [prodshort](includes/prodshort.md)] Firma arbeiten, können Sie in Outlook ganz einfach zwischen den Unternehmen wechseln. Wählen Sie in der Aktionsleiste **Weitere Aktionen** aus, und dann sehen Sie die Option zum Wechseln zwischen Unternehmen.  
+Wenn Sie mit mehr als einer [!INCLUDE[prodshort](includes/prodshort.md)] Firma arbeiten, können Sie in Outlook ganz einfach zwischen den Unternehmen wechseln. Wählen Sie in der Aktionsleiste **Weitere Aktionen** aus, und dann sehen Sie die Option zum Wechseln zwischen Unternehmen.  
 
 <!--TEMP-->
 > [!NOTE]
-> Der Wechsel zwischen Unternehmen erfordert [!INCLUDE [prodshort](includes/prodshort.md)] 2019 Release Wave 2 oder höher wie angekündigt im [Release-Plan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Der Wechsel zwischen Unternehmen erfordert [!INCLUDE[prodshort](includes/prodshort.md)] 2019 Release Wave 2 oder höher wie angekündigt im [Release-Plan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Einige Unternehmen, die Office 365 verwenden, schränken die Berechtigungen der Benutzer zur Bereitstellung von Add-Ins ein. Sie müssen also sicherstellen, dass Sie ein Office 365-Abonnement haben, das E-Mail enthält und Ihnen die Bereitstellung von Add-Ins erlaubt. Wenn Sie das Add-In trotzdem ausprobieren möchten, können Sie [Office 365 kostenlos ausprobieren](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Nutzung des Contact Insights Add-In
-Angenommen Sie erhalten eine E-Mail von einem Debitor, der für einige Artikel ein Angebot möchte. Sie können direkt in Outlook das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Add-In öffnen, das den Sender als Debitoren identifiziert und die Debitorenkarte für das Unternehmen öffnet. Auf diesem Dashboard können Sie Übersichtsinformationen zum Debitor sehen, sowie weitere Details zu bestimmten Belegen anzeigen. Sie können sich auch die Verkaufshistorie für den Debitor anzeigen lassen. Wenn es ein neuer Kontakt ist, können Sie ihn als neuen Debitor in Outlook erstellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outlook zu verlassen.  
+Angenommen Sie erhalten eine E-Mail von einem Debitor, der für einige Artikel ein Angebot möchte. Sie können direkt in Outlook das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Add-In öffnen, das den Sender als Debitoren identifiziert und die Debitorenkarte für dieses Unternehmen öffnet. Auf diesem Dashboard können Sie Übersichtsinformationen zum Debitor sehen, sowie weitere Details zu bestimmten Belegen anzeigen. Sie können sich auch die Verkaufshistorie für den Debitor anzeigen lassen. Wenn es ein neuer Kontakt ist, können Sie ihn als neuen Debitor in Outlook erstellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outlook zu verlassen.  
 
 Im Add-In können Sie ein Verkaufsangebot erstellen und es diesem Debitoren zusenden, ohne Outlook zu verlassen. Alle Informationen, die Sie zum Versenden des Verkaufsangebots benötigen, sind in Ihrem Geschäftseingang in Outlook verfügbar.  
 Sobald Sie die Daten einmal eingeben haben, können Sie das Angebot buchen. Sie können es dann per E-Mail senden. [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt eine .PDF-Datei mit dem Verkaufsangebot und fügt sie der E-Mail-Nachricht hinzu, deren Entwurf Sie im Add-In erstellt haben.  
@@ -68,7 +68,7 @@ In beiden Fällen müssen Sie, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)
 
 ## <a name="using-other-email-accounts"></a>Verwenden anderer E-Mail-Konten
 
-Die Add-Ins sind für die Verwendung mit Office 365 konzipiert. Wenn Sie [!INCLUDE [prodshort](includes/prodshort.md)] lokal nutzen, wird Ihr Administrator wissen, ob Sie die [!INCLUDE [prodshort](includes/prodshort.md)] Add-Ins in Outlook verwenden können. Weitere Informationen finden Sie unter [Welche E-Mail-Adresse kann verwenden mit [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) uUnd [Funktionen, die bestimmte Umstände erfordern](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Die Add-Ins sind für die Verwendung mit Office 365 konzipiert. Wenn Sie [!INCLUDE[prodshort](includes/prodshort.md)] lokal nutzen, wird Ihr Administrator wissen, ob Sie die [!INCLUDE[prodshort](includes/prodshort.md)] Add-Ins in Outlook verwenden können. Weitere Informationen finden Sie unter [Welche E-Mail-Adresse kann verwenden mit [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) uUnd [Funktionen, die bestimmte Umstände erfordern](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

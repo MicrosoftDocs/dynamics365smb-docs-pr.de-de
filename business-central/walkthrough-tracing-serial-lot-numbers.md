@@ -1,25 +1,25 @@
 ---
 title: 'Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern | Microsoft Docs'
-description: Wenn Produktfehler auftreten, müssen die Fehler identifiziert werden, und es muss verhindert werden, dass die betroffenen Artikel das Unternehmen verlassen. Falls bereits defekte Artikel geliefert wurden, müssen Sie verfolgen, wer diese Artikel erhalten hat, und ggf. muss ein Rückruf eingeleitet werden.
-author: SorenGP
+description: In diesem Thema werden die Maßnahmen beschrieben, die ergriffen werden müssen, um den Verkauf eines defekten Artikels zu beenden.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc2a67623a55026557855b8247bf0565918e3f3c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2020
+ms.author: bholtorf
+ms.openlocfilehash: e165e5fcdad0909f6ad4def81987d1837dd0c48c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193347"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528135"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
 
-**Hinweis**: In dieser exemplarischen Vorgehensweise muss in einem Demomandanten mit der Option **Volle Auswertung - vollständige Beispieldaten** ausgeführt werden, die in der Sandboxumgebung verfügbar ist. Weitere Informationen finden Sie unter [Erstellen einer Sandbox-Umgebung](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Wenn Produktfehler auftreten, müssen die Fehler identifiziert werden, und es muss verhindert werden, dass die betroffenen Artikel das Unternehmen verlassen. Falls bereits defekte Artikel geliefert wurden, müssen Sie verfolgen, wer diese Artikel erhalten hat, und ggf. muss ein Rückruf eingeleitet werden.  
 
@@ -27,34 +27,38 @@ Als erste Aufgabe bei der Defektverwaltung ermitteln Sie, woher die defekten Art
 
 Als zweite Aufgabe bei der Defektverwaltung stellen Sie fest, ob die verfolgten Artikel in offenen Belegen eingeplant sind, z. B. in nicht gebuchten Verkaufsaufträgen oder Verbrauchsprotokollen. Dieser Vorgang wird auf der Seite **Navigation** ausgeführt. Sie können die Funktion "Navigieren" verwenden, um alle Arten Datenbankdatensätze zu suchen.  
 
-## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
+## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
+
 In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie feststellen, welche Artikel defekt sind, von welchem Kreditor sie stammen und wo sie verwendet werden, sodass diese Aufträge gestoppt oder storniert werden können.  
 
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
--   Verfolgung vom Verbrauch zum Ursprung.  
--   Verfolgung vom Ursprung zum Verbrauch.  
--   Durchsuchen aller aktuellen Datensätze, die die verfolgte Serien-/Chargennummer enthalten  
+- Verfolgung vom Verbrauch zum Ursprung.  
+- Verfolgung vom Ursprung zum Verbrauch.  
+- Durchsuchen aller aktuellen Datensätze, die die verfolgte Serien-/Chargennummer enthalten  
 
-## <a name="roles"></a>Rollen  
+## <a name="roles"></a>Rollen
+
 Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen ausgeführt:  
 
--   Qualitätskontrolleur  
--   Lagerortleiter  
--   Auftragsverarbeitung  
--   Einkäufer  
+- Qualitätskontrolleur  
+- Lagerortleiter  
+- Auftragsverarbeitung  
+- Einkäufer  
 
-## <a name="prerequisites"></a>Voraussetzungen  
+## <a name="prerequisites"></a>Voraussetzungen
+
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
--   Das [!INCLUDE[d365fin](includes/d365fin_md.md)] Unternehmen .  
--   Erstellen Sie anhand der Schritte [Vorbereiten der Beispieldaten](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data) neue Artikel und Geschäftstransaktionen.  
+- Das [!INCLUDE[d365fin](includes/d365fin_md.md)] Unternehmen .  
+- Erstellen Sie anhand der Schritte [Vorbereiten der Beispieldaten](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data) neue Artikel und Geschäftstransaktionen.  
 
-## <a name="story"></a>Hintergrund  
+## <a name="story"></a>Hintergrund
+
 Andreas, der Qualitätskontrolleur, bearbeitet eine Verkaufsreklamation für Artikel 1002, Rennrad. Der Debitor, Blütenhaus GmbH, hat sich über gerissene Schweißnähte im Rennradrahmen beschwert. Die Ingenieure der Qualitätskontrolle haben bestätigt, dass der Rahmen des zurückgesendeten Rennrads defekt ist. Der Qualitätskontrolleur muss nun Folgendes feststellen:  
 
--   Welche Rahmencharge war fehlerhaft?  
--   In welche Bestellung ist die fehlerhafte Charge eingegangen?  
+- Welche Rahmencharge war fehlerhaft?  
+- In welche Bestellung ist die fehlerhafte Charge eingegangen?  
 
 Von der Verkaufsabteilung weiß der Qualitätskontrolleur, dass das reklamierte Rennrad, Artikel 1002, die Seriennummer SN1 besitzt. Wenn er diese grundlegenden Informationen verwendet, muss er festlegen, wo das fertige Rennrad zuletzt verwendet wurde, und dann muss er es bis zum Ursprung zurückverfolgen, um festzustellen, aus welcher Chargennummer die fehlerhafte Komponente, der Rahmen, stammte.  
 
@@ -62,31 +66,32 @@ Diese erste Aufgabe der Artikelverfolgung ergibt, welche Rennradrahmen defekt wa
 
 Für die ersten beiden Aufgaben der Defektverwaltung wird die Seite **Artikelablaufverfolgung** verwendet. Die letzte Aufgabe wird auf der Seite **Navigate** durchgeführt, wobei die Ergebnisse aus der Seite **Artikelablaufverfolgung** integriert werden.  
 
-## <a name="prepare-sample-data"></a>Vorbereiten der Beispieldaten  
+## <a name="prepare-sample-data"></a>Vorbereiten der Beispieldaten
+
 Sie müssen die folgenden neuen Artikel erstellen:  
 
--   2000, Rennradrahmen: chargenspezifische Verfolgung, Komponente von 1002  
--   1002, Rennrad: seriennummernspezifische Verfolgung  
+- 2000, Rennradrahmen: chargenspezifische Verfolgung, Komponente von 1002  
+- 1002, Rennrad: seriennummernspezifische Verfolgung  
 
 Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkaufs-, Produktions- und Verkaufstransaktionen.  
 
 ### <a name="to-create-the-items"></a>Serviceartikel anlegen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie die Aktion **Neu**.  
-3.  Geben Sie im Feld **Nr.** Geben Sie im Feld **2000** ein und füllen Sie dann die folgenden Felder aus.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die Aktion **Neu**.  
+3. Geben Sie im Feld **Nr.** Geben Sie im Feld **2000** ein und füllen Sie dann die folgenden Felder aus.  
 
     |Beschreibung|Basiseinheiten|Gen. Produktbuchungsgruppe|MwSt.-Produktbuchungsgruppe|Lagerbuchungsgruppe|Artikelverfolgungscode|  
-    |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
+    |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Rennradrahmen|STÜCK|ROHMAT|MWST25|ROHMAT|CHARGEALLE|  
 
     > [!NOTE]  
     >  Um die Basismaßeinheit einzugeben, wählen Sie die Schaltfläche **Neu**, und wählen Sie dann **PSC** auf der Seite **Artikeleinheiten** aus.  
 
-4.  Alle anderen Felder enthalten geeignete Standarddaten oder müssen nicht ausgefüllt werden.  
-5.  Klicken Sie auf **OK**, um die erste neue Artikelkarte, 2000, zu erstellen.  
-6.  Wählen Sie **Neu** aus.  
-7.  Geben Sie im Feld **Nr.** Geben Sie im Feld **1002** ein und füllen Sie dann die folgenden Felder aus.  
+4. Alle anderen Felder enthalten geeignete Standarddaten oder müssen nicht ausgefüllt werden.  
+5. Klicken Sie auf **OK**, um die erste neue Artikelkarte, 2000, zu erstellen.  
+6. Wählen Sie **Neu** aus.  
+7. Geben Sie im Feld **Nr.** Geben Sie im Feld **1002** ein und füllen Sie dann die folgenden Felder aus.  
 
     |Beschreibung|Basiseinheiten|Gen. Produktbuchungsgruppe|MwSt.-Produktbuchungsgruppe|Lagerbuchungsgruppe|Beschaffungsmethode|Artikelverfolgungscode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
@@ -97,32 +102,33 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Als Nächstes müssen Sie die Produktionseinrichtung des Artikels definieren.
 
-9. Geben Sie auf der Registerkarte B **eschaffung** **1000** in das Feld **Arbeitsplannr.** ein.  
-10. Wählen Sie das Feld **Produktion Stückliste** und dann **Erweitert** aus.  
-11. Auf der Seite **Fert.-Stücklistenübersicht** wählen Sie die erste Zeile, **1000** aus, und wählen Sie die **Bearbeiten** Aktion aus.  
-12. Ändern Sie auf der Seite **Fertigungsstückliste** den Wert im Feld **Status** in **In Entwicklung**.  
-13. Geben Sie in einer leeren Zeile **2000** im Feld **Nr.** ein und geben dann **1** im Feld **Komponentenmenge** ein.  
-14. Ändern Sie den Wert im Feld **Status** wieder in **Zertifiziert**.  
-15. Wählen Sie die Schaltfläche **OK**, um die Fertigungsstückliste auf der Artikelkarte einzufügen, und schließen Sie die Seite **Produktionsstückliste**.  
+8. Geben Sie auf der Registerkarte B **eschaffung** **1000** in das Feld **Arbeitsplannr.** ein.  
+9. Wählen Sie das Feld **Produktion Stückliste** und dann **Erweitert** aus.  
+10. Auf der Seite **Fert.-Stücklistenübersicht** wählen Sie die erste Zeile, **1000** aus, und wählen Sie die **Bearbeiten** Aktion aus.  
+11. Ändern Sie auf der Seite **Fertigungsstückliste** den Wert im Feld **Status** in **In Entwicklung**.  
+12. Geben Sie in einer leeren Zeile **2000** im Feld **Nr.** ein und geben dann **1** im Feld **Komponentenmenge** ein.  
+13. Ändern Sie den Wert im Feld **Status** wieder in **Zertifiziert**.  
+14. Wählen Sie die Schaltfläche **OK**, um die Fertigungsstückliste auf der Artikelkarte einzufügen, und schließen Sie die Seite **Produktionsstückliste**.  
 
     Kaufen Sie als Nächstes Rennradrahmen vom Lieferanten Custom Metals Incorporated.  
 
-### <a name="to-purchase-components"></a>Um Komponenten zu kaufen  
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie die Aktion **Neu** aus.  
-3.  Erstellen Sie eine Bestellung für den Kreditor Custom Metals Incorporated, indem Sie die folgenden Felder ausfüllen.  
+### <a name="to-purchase-components"></a>Um Komponenten zu kaufen
+
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die Aktion **Neu** aus.  
+3. Erstellen Sie eine Bestellung für den Kreditor Custom Metals Incorporated, indem Sie die folgenden Felder ausfüllen.  
 
     |Artikel|Menge|Chargennr.|  
-    |----------|--------------|-------------|  
+    |----|--------|-------|  
     |2000|10|CHARGE1|  
 
-4.  Um die Chargennummer einzugeben, wählen Sie die **Artikelverfolgungszeilen** Aktion aus.  
-5.  Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Chargennr.**, wählen Sie **Menge (Basis)** aus und schließen Sie die Seite.  
-6.  Füllen Sie das Feld **Kred.-Rechnungsnr.** aus.  
-7.  Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Lieferung und Rechnung**, und wählen Sie dann die Schaltfläche **OK** aus.  
+4. Um die Chargennummer einzugeben, wählen Sie die **Artikelverfolgungszeilen** Aktion aus.  
+5. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Chargennr.**, wählen Sie **Menge (Basis)** aus und schließen Sie die Seite.  
+6. Füllen Sie das Feld **Kred.-Rechnungsnr.** aus.  
+7. Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Lieferung und Rechnung**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     Kaufen Sie als Nächstes Rennradrahmen von Coolwood Technologies.  
-8.  Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.  
+8. Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.  
 9. Wählen Sie die Aktion **Neu** aus.
 10. Erstellen Sie eine Bestellung für den Kreditor Coolwood Technologies, indem Sie die folgenden Felder ausfüllen.  
 
@@ -137,23 +143,24 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Als Nächstes produzieren Sie zwei Rennräder, SN1 und SN2.  
 
-### <a name="to-produce-end-items"></a>Um Endartikel zu produzieren  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Freigegebene FA** ein, und wählen Sie dann den zugehörigen Link.  
-2.  Wählen Sie die Gruppe **Neu** aus.  
-3.  Erstellen Sie einen neuen freigegebenen Fertigungsauftrag, indem Sie die folgenden Felder ausfüllen.  
+### <a name="to-produce-end-items"></a>Um Endartikel zu produzieren
 
-    |-|-|-|  
-    |Quellnummer|Menge|Seriennummer|  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Freigegebene FA** ein, und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die Gruppe **Neu** aus.  
+3. Erstellen Sie einen neuen freigegebenen Fertigungsauftrag, indem Sie die folgenden Felder ausfüllen.  
+
+    |Herkunftsnr.|Menge|Seriennummer|  
+    |----------|--------|----------|  
     |1002|2|SN1|  
     |1002|2|SN2|  
 
-4.  Wählen Sie die **FA berechnen** Aktion aus, und wählen Sie dann die Schaltfläche **OK** aus, um die Zeile zu befüllen.  
-5.  Um die Seriennummern einzugeben, wählen Sie die **Artikelverfolgungszeilen** Aktion aus.  
-6.  Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Seriennr.**, wählen Sie **Menge (Basis)** aus und schließen Sie die Seite.  
+4. Wählen Sie die **FA berechnen** Aktion aus, und wählen Sie dann die Schaltfläche **OK** aus, um die Zeile zu befüllen.  
+5. Um die Seriennummern einzugeben, wählen Sie die **Artikelverfolgungszeilen** Aktion aus.  
+6. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Seriennr.**, wählen Sie **Menge (Basis)** aus und schließen Sie die Seite.  
 
     Als Nächstes müssen Sie den Verbrauch von Rennradrahmen aus CHARGE1 buchen.  
-7.  Auf der Seite **Freigegebener FA** wählen Sie die **Produktions Buch.-Blatt** Aktion aus.  
-8.  Auf der Seite **Produktions Buch.-Blatt** wählen Sie die Verbrauchszeile für Artikel 2000 aus, wählen Sie die Aktion **Artikelverfolgungszeilen** aus.
+7. Auf der Seite **Freigegebener FA** wählen Sie die **Produktions Buch.-Blatt** Aktion aus.  
+8. Auf der Seite **Produktions Buch.-Blatt** wählen Sie die Verbrauchszeile für Artikel 2000 aus, wählen Sie die Aktion **Artikelverfolgungszeilen** aus.
 9. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Chargennr.**, wählen Sie **CHARGE1** aus, und klicken Sie dann auf **OK**.  
 10. Lassen Sie alle anderen Standardeinstellungen auf der Seite **Produktions Buch.-Blatt** unverändert, und wählen Sie die **Buchen** Aktion aus.  
 
@@ -240,9 +247,9 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
     Sie können die folgenden Buchungshistorie verfolgen:  
 
-    -   Der nächste gebuchte Beleg in der Kette in Rückwärtsrichtung ist die Ausgangsbuchung von SN1 aus dem ersten freigegeben Fertigungsauftrag.  
-    -   Der nächste gebuchte Beleg (in Rückwärtsrichtung) ist die Verbrauchsbuchung aus dem ersten freigegebenen Fertigungsauftrag. Hier sieht der Qualitätskontrolleur, dass ein Rennradrahmen aus CHARGE1 verwendet wurde.  
-    -   Der letzte gebuchte Beleg in dieser Kette ist die gebuchte Einkaufslieferung, in der Rennradrahmen mit CHARGE1 in den Bestand eingegangen sind.  
+    - Der nächste gebuchte Beleg in der Kette in Rückwärtsrichtung ist die Ausgangsbuchung von SN1 aus dem ersten freigegeben Fertigungsauftrag.  
+    - Der nächste gebuchte Beleg (in Rückwärtsrichtung) ist die Verbrauchsbuchung aus dem ersten freigegebenen Fertigungsauftrag. Hier sieht der Qualitätskontrolleur, dass ein Rennradrahmen aus CHARGE1 verwendet wurde.  
+    - Der letzte gebuchte Beleg in dieser Kette ist die gebuchte Einkaufslieferung, in der Rennradrahmen mit CHARGE1 in den Bestand eingegangen sind.  
 
     Der Qualitätskontrolleur hat nun festgestellt, welche Rennradrahmencharge fehlerhaft war, und kann nach der letzten Verfolgungszeile suchen, um den Lieferanten zu ermitteln (Custom Metals Incorporated).  
 

@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: e3fccf0fbbc0031c0b2bf4dc73059bece1c465f4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188924"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528863"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Intelligente Einblicke mit [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
@@ -24,7 +24,7 @@ Als Benutzer von [!INCLUDE[prodshort](includes/prodshort.md)] Online haben Sie u
 
 Wenn Sie an [!INCLUDE[prodshort](includes/prodshort.md)] Interesse haben, können Sie sich für eine kostenlose Online-Testversion anmelden. Alternativ können Sie sich auch dazu entschließen, mit einem Partner zusammenzuarbeiten, um [!INCLUDE[prodshort](includes/prodshort.md)] lokal auf einer Hardware Ihrer Wahl bereitzustellen. Sie können dann entscheiden, Intelligente Einblicke zu erhalten, indem Sie mit einem Tenant in der Cloud verbinden. Dies hat zum Ergebnis, dass die Daten aus der lokalen [!INCLUDE[prodshort](includes/prodshort.md)]-Bereitstellung für intelligente Cloudszenarien repliziert werden.  
 
-Eine Verbindung mit der intelligenten Cloud über eine lokale Lösung erfordert, dass der Administrator einige Informationen über Ihre Datenbank angibt. Die Tools, mit denen Sie Ihre lokale Bereitstellung mit [!INCLUDE [prodshort](includes/prodshort.md)] Online verbinden, sind identisch mit denen, die Sie auch für die Migration von lokal zu online verwenden. Weitere Informationen finden Sie unter [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Verwaltungsinhalt für [!INCLUDE[prodshort](includes/prodshort.md)].  
+Eine Verbindung mit der intelligenten Cloud über eine lokale Lösung erfordert, dass der Administrator einige Informationen über Ihre Datenbank angibt. Die Tools, mit denen Sie Ihre lokale Bereitstellung mit [!INCLUDE[prodshort](includes/prodshort.md)] Online verbinden, sind identisch mit denen, die Sie auch für die Migration von lokal zu online verwenden. Weitere Informationen finden Sie unter [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Verwaltungsinhalt für [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Anzeigen von Einblicken aus der intelligenten Cloud in [!INCLUDE[prodshort](includes/prodshort.md)] Online
 

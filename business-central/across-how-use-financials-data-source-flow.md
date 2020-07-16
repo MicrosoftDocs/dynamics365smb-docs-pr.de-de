@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187940"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528988"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>[!INCLUDE[prodshort](includes/prodshort.md)] in einem automatisierten Workflow nutzen
 
@@ -55,7 +55,7 @@ Sie können Ihre [!INCLUDE[prodshort](includes/prodshort.md)]-Daten als Teil ein
     > [!NOTE]
     > Der [!INCLUDE[prodshort](includes/prodshort.md)] Connector for Microsoft Dynamics for Power Automate unterstützt mehrere Produktions- und Sandbox-Umgebungen. Wenn Sie nicht mehrere Produktions- oder Sandbox-Umgebungen erstellt haben, ist **Produktion** die einzige verfügbare Option, die Sie auswählen können.  
 
-    Zu diesem Zeitpunkt haben Sie sich erfolgreich mit Ihren Business Central[!INCLUDE [prodshort](includes/prodshort.md)]-Daten verbunden und sind bereit, Ihren Flow zu erstellen.
+    Zu diesem Zeitpunkt haben Sie sich erfolgreich mit Ihren Business Central[!INCLUDE[prodshort](includes/prodshort.md)]-Daten verbunden und sind bereit, Ihren Flow zu erstellen.
 
 9. Um aus einer Vorlage zu erstellen, wählen Sie die Option **Mit Vorlage erstellen** aus.
 10. Suchen Sie nach **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**-Vorlangen.

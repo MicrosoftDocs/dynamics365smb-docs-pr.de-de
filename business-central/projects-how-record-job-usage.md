@@ -1,8 +1,6 @@
 ---
 title: Verrechenbarer und geplanter Verbrauch von Projekt-Ressourcen| Microsoft Docs
 description: Beschreibt, wie der Verbrauch oder die Verwendung von Artikeln oder Ressourcen erfasst wird, um das Projektmanagement zu vereinfachen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,30 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0709dc9fb13b5928fae40e92c21e67b0376a2db5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2e861c3e403ebafb2d9d1c2a4bcf0679a0a715d1
+ms.sourcegitcommit: 836b232d0149f9732884c9f44d53928725a8759d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191164"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3506231"
 ---
 # <a name="record-usage-for-jobs"></a>Verbrauch bei Projekten aufzeichnen
+
 Auf der Seite **Projektplanzeilen** können Sie Verbrauch für verschiedene Teile des Projekts überprüfen und erfassen; dieser wird automatisch aktualisiert, wenn Sie Informationen zu Projekten und Projektbuchungsblättern oder Projektrechnungen ändern und übertragen. Dazu ist es erforderlich, dass Sie ein Projekt eingerichtet haben, sodass der **Link Verbrauch standardmäßig anwenden** eingeschaltet ist. Weitere Informationen finden Sie unter [Einrichten von Stellen](projects-how-setup-jobs.md).  
 
 Zum Beispiel können Sie für Planungszeilen der Art **Plan** die Menge einer Ressource eingeben und festlegen, welche Menge in das Projektbuchungsblatt umgelagert wird. Wenn die Art der Planungszeile **Fakturierbar** ist, können Sie die Menge einer Ressource eingeben und festlegen, welche Menge in das Projektbuchungsblatt umgelagert wird. Indem Sie die Menge vergleichen, die in das Buchungsblatt oder in die Rechnung mit der Restmenge übernommen wurde, können Sie Verbrauchsdaten schnell überprüfen.
 
-Die folgenden Verfahren beschreiben, wie die tatsächlichen (verrechenbaren) oder geplanten Projektverkaufspreise und Kosten gespeichert werden. Informationen zur Einschätzung der geplante Werte bei der Planung, siehe [Verwalten von Projektbudgets](projects-how-manage-budgets.md)
+Die folgenden Verfahren beschreiben, wie die tatsächlichen (verrechenbaren) oder geplanten Projektverkaufspreise und Kosten gespeichert werden. Informationen zur Einschätzung der geplante Werte bei der Planung, siehe [Verwalten von Projektbudgets](projects-how-manage-budgets.md)  
+
+> [!TIP]
+> In den folgenden Abschnitten verwenden wir den Begriff *Verwendung aufzeichnen*, um zwei Aufgaben abzudecken: Projektplanzeilen erfassen und dem Debitoren entsprechend in Rechnung stellen.
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Den Verbrauch in einer Projektplanungszeile der Art "Plan"erfassen
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
+
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Projektplanzeilen** aus.
 3. Wählen Sie eine Projektplanungszeile der Art **Plan** aus oder geben Sie **Plan und Fakturierbar** ein, für die Sie den Verbrauch buchen möchten.
 4. Geben Sie im Feld **In das Journal zu übertragende Menge** die Anzahl ein, die Sie auf die Rechnung transferieren wollen. Der Standardwert ist der Wert, den Sie im Feld **Menge** angegeben haben.
 
     Das Feld **Restmenge** zeigt die Menge an, die verbleibt, um das Projekt abzuschließen und in das Buch.-Blatt zu übertragen.  
 5. Wählen Sie die Aktion **Buch.-Blattzeilen erstellen** aus.
+
+    > [!TIP]
+    > Wenn Sie weitere Projektplanzeilen für dieses Projekt hinzufügen möchten, warten Sie mit diesem Schritt, bis Sie alle Projektplanzeilen hinzugefügt haben.
 6. Auf der Seite **Projekt auf Projektplanung übertragen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Wählen Sie die Aktion **Buch.-Blatt öffnen** aus.  
 8. Auf der Seite **Projekt Buch,-Blatt** wählen Sie die entsprechende Zeile und wählen die Aktion **Buchen** aus.
@@ -41,6 +47,7 @@ Die folgenden Verfahren beschreiben, wie die tatsächlichen (verrechenbaren) ode
 10. Um zusätzlichen Verbrauch zu erfassen, wiederholen Sie die Schritte 3 bis 8.  
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Den Verbrauch in einer Projektplanungszeile der Art "Fakturierbar" erfassen
+
 In der nächsten Aufgabe erfassen Sie ebenfalls den Verbrauch, jedoch für eine Projektplanungszeile der Art **Fakturierbar**. In diesem Fall fakturieren Sie normalerweise Ihren Verbrauch, Sie können ihn aber auch in ein Buchungsblatt übertragen. Wenn Sie dies tun, wird eine Projektplanungszeile der Art **Plan** erstellt, die der Zeile "Fakturierbar" entspricht. Weitere Informationen finden Sie unter [Budgets verwalten](projects-how-manage-budgets.md).
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.
@@ -50,14 +57,18 @@ In der nächsten Aufgabe erfassen Sie ebenfalls den Verbrauch, jedoch für eine 
 
     Das Feld **Zu fakturierende Menge** zeigt die Menge an, die verbleibt, um das Projekt abzuschließen und zu fakturieren.  
 5. Wählen Sie die Aktion **Verkaufsrechnung erstellen**.
+
+    > [!TIP]
+    > Wenn Sie weitere Projektplanzeilen für dieses Projekt hinzufügen möchten, warten Sie mit diesem Schritt, bis Sie alle Projektplanzeilen hinzugefügt haben.
 6. Auf der Seite **Projekt auf Verkaufsrechnung übertragen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
-7. Auf der Seite **Projekt Buch,-Blatt** wählen Sie die entsprechende Zeile und wählen die Aktion **Buchen** aus.
-8. Überprüfen Sie den erfassten Verbrauch, indem Sie die Felder **Menge**, **Zu fakturierende Menge**, **Menge auf Rechnung übertragen** und wenn die Verkaufsrechnungen gebucht werden **Fakturierte Menge** kontrollieren.
-9. Um zusätzlichen Verbrauch zu erfassen, wiederholen Sie die Schritte 3 bis 8.  
-10. Um eine zugehörige gebuchte Verkaufsrechnung zu überprüfen, wählen Sie die Aktion **Verkaufsrechnungen/Gutschriften** aus.  
-11. Auf der Seite **Projektrechnungen** wählen Sie die entsprechende Rechnung aus, und wählen Sie die Aktion **Verkaufsrechnung/Gutschrift öffnen** aus.         
+7. Überprüfen Sie den erfassten Verbrauch, indem Sie die Felder **Menge**, **Zu fakturierende Menge**, **Menge auf Rechnung übertragen** und wenn die Verkaufsrechnungen gebucht werden **Fakturierte Menge** kontrollieren.
+8. Um zusätzlichen Verbrauch zu erfassen, wiederholen Sie die Schritte 3 bis 7.  
+9. Um eine zugehörige gebuchte Verkaufsrechnung zu überprüfen, wählen Sie die Aktion **Verkaufsrechnungen/Gutschriften** aus.  
+
+    Wenn für dieses Projekt mehrere Rechnungen vorhanden sind, müssen Sie die entsprechende Rechnung auf der Seite **Projektrechnungen** und dann die Aktion **Verkaufsrechnungen/Gutschrift öffnen** auswählen.  
 
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Projekt-Buchungsblattzeilen aus Projektplanungszeilen erstellen
+
 Wenn Sie bereit sind, Finanzdaten für Projekte zu buchen, müssen Sie Projekt Buch.-Blattzeilen erstellen, die Sie buchen können.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
@@ -70,16 +81,18 @@ Wenn Sie bereit sind, Finanzdaten für Projekte zu buchen, müssen Sie Projekt B
 8. Wenn die Projekt-Buch.-Blattzeilen vollständig sind, wählen Sie die Aktion **Buchen** aus.  
 
 ## <a name="to-create-job-journal-lines-manually"></a>Projekt-Buchungsblattzeilen manuell erstellen
+
 1. Wählen Sie das Symbol ![Glühbirne , das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie im Feld **Stapelverarbeitungsname** einen entsprechenden Projekt-Buchungsblattnamen aus.  
 3. Geben Sie in einer neuen Zeile die Belegnummer, Projektnummer, Projektaufgabennummer und die Art und Menge des verbrauchten Typs ein.  
 4. Wenn die Projekt-Buch.-Blattzeilen vollständig sind, wählen Sie die Aktion **Buchen** aus.  
 
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Um Planungszeilen für einen Projektposten zu überprüfen
+
 Nachdem Sie die Projekt-Planungszeilen gebucht haben, können Sie die gebuchten Projekt-Buchungszeilen sehen, die dem Projekt-Buchungsblatt zugeordnet sind.
 
 > [!NOTE]  
->   Dazu ist es erforderlich, dass das Kontrollkästchen **Verbrauchslink standardmäßig anwenden** für das Projekt ausgewählt wurde, oder dass es die Standardeinstellung für alle Projekte in Ihrer Organisation ist. Weitere Informationen finden Sie unter [Einrichten von Stellen](projects-how-setup-jobs.md).  
+> Dazu ist es erforderlich, dass das Kontrollkästchen **Verbrauchslink standardmäßig anwenden** für das Projekt ausgewählt wurde, oder dass es die Standardeinstellung für alle Projekte in Ihrer Organisation ist. Weitere Informationen finden Sie unter [Einrichten von Stellen](projects-how-setup-jobs.md).  
 
 1. Wählen Sie das Symbol ![Glühbirne , das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie ein Buch.-Blatt des entsprechenden Projekts aus, und wählen Sie dann die Aktion **Projektposten** aus.  

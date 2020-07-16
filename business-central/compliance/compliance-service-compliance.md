@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c64d93769cd2c824cdad54df8ddb3de5e9004f81
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185902"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528335"
 ---
 # <a name="service-compliance"></a>Dienst-Kompatibilität
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -30,7 +30,7 @@ Wenn Sie an der vollständigen Liste der Kompatibilitätsanforderungen von Micro
 
 ## <a name="service-terms"></a>Servicebedingungen
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] online unterliegt der [Modernen Lebenszykluspolitik](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Die Bedingungen der Service Level Agreements sind in dem Dokument beschrieben, das Sie von Abschnitt **Service Level Agreements für Microsoft Online Services** auf der Seite [Lizenzbestimmungen](https://www.microsoft.com/licensing/product-licensing/products) herunterladen können.  
+[!INCLUDE[prodshort](../includes/prodshort.md)] online unterliegt der [Modernen Lebenszykluspolitik](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Die Bedingungen der Service Level Agreements sind in dem Dokument beschrieben, das Sie von Abschnitt **Service Level Agreements für Microsoft Online Services** auf der Seite [Lizenzbestimmungen](https://www.microsoft.com/licensing/product-licensing/products) herunterladen können.  
 
 Darüber hinaus können Sie den Zustand Ihres Mandanten überwachen und Aktualisierungsfenster in festlegen im [Mandant Verwaltungscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

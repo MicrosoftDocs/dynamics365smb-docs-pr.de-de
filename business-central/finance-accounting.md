@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
-ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
+ms.openlocfilehash: 7f78fbcb4c0f37e9c6230004c70cd9d1625b8768
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413643"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528110"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Buchhalter-Erfahrung in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Jedes Unternehmens muss seine Bücher führen und die Buchhaltung genehmigen. Einige Unternehmen verwenden einen externen Buchhalter, und andere haben einen Buchhalter als Mitarbeiter. Unabhängig von der Art des Buchhalters, den Sie sind, können sie das **Buchhalter**-Rollencenter als Startbildschirm in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden. Von hier können Sie auf alle Seiten zugreifen, die Sie in Ihrer Arbeit benötigen.  
@@ -54,14 +54,14 @@ Wenn Ihr Administrator oder Wiederverkäufer die Anleitung **Externen Buchhalter
 4. Wählen Sie **Neuer Gastbenutzer**.
 5. Wählen Sie auf der Seite **Neuer Benutzer** die Option **Benutzer einladen** aus und fügen Sie Ihrem externen Buchhalter dann Informationen hinzu.  
 
-   Schließen Sie optional eine persönliche Begrüßungsnachricht an den Buchhalter ein, um ihn darüber zu informieren, dass Sie ihn Ihrem [!INCLUDE [prodshort](includes/prodshort.md)] hinzufügen.
+   Schließen Sie optional eine persönliche Begrüßungsnachricht an den Buchhalter ein, um ihn darüber zu informieren, dass Sie ihn Ihrem [!INCLUDE[prodshort](includes/prodshort.md)] hinzufügen.
 
 6. Wählen Sie **Einladen**, um die Einladung automatisch zu versenden. Oben rechts wird eine Benachrichtigung mit der Meldung **Erfolgreich eingeladener Benutzer** angezeigt. 
 7. Nachdem Sie die Einladung gesendet haben, wird das Benutzerkonto automatisch als Gast zum Verzeichnis hinzugefügt.
 
-Als Nächstes müssen Sie dem neuen Gastbenutzer eine Lizenz für [!INCLUDE [prodshort](includes/prodshort.md)] zuweisen.
+Als Nächstes müssen Sie dem neuen Gastbenutzer eine Lizenz für [!INCLUDE[prodshort](includes/prodshort.md)] zuweisen.
 
-#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>So geben Sie Ihrem Buchhalter Zugriff auf Ihre [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>So geben Sie Ihrem Buchhalter Zugriff auf Ihre [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. Wählen Sie im Azure-Portal für den neu hinzugefügten Benutzer **Profil** und dann Sie **Bearbeiten** aus
 2. Aktualisieren Sie die Feld **Verbrauchsort** auf das entsprechende Land, und wählen Sie dann **Speichern** aus.
@@ -73,26 +73,26 @@ Als Nächstes müssen Sie dem neuen Gastbenutzer eine Lizenz für [!INCLUDE [pro
 
 Bei Erfolg wird dem Gastbenutzer die Lizenz zugewiesen und das Gastkonto wird erstellt.
 
-### <a name="importing-the-new-user-into-prodshort"></a>Importieren des neuen Benutzers in [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Importieren des neuen Benutzers in [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Der Buchhalter erhält eine E-Mail, in der er darüber informiert wird, dass er Zugriff auf Ihr Active Directory erhalten hat. Als Nächstes müssen Sie ihnen Zugriff auf das richtige Unternehmen in [!INCLUDE [prodshort](includes/prodshort.md)] gewähren.
+Der Buchhalter erhält eine E-Mail, in der er darüber informiert wird, dass er Zugriff auf Ihr Active Directory erhalten hat. Als Nächstes müssen Sie ihnen Zugriff auf das richtige Unternehmen in [!INCLUDE[prodshort](includes/prodshort.md)] gewähren.
 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Hinzufügen des Buchhalters zum richtigen Unternehmen
 
-1. Öffnen Sie das [!INCLUDE [prodshort](includes/prodshort.md)]-Unternehmen, auf die Sie dem Buchhalter Zugriff gewähren möchten unter [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
+1. Öffnen Sie das [!INCLUDE[prodshort](includes/prodshort.md)]-Unternehmen, auf die Sie dem Buchhalter Zugriff gewähren möchten unter [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Benutzer** ein und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie die Aktion **Neue Benutzer von Office 365 abrufen** aus.
 
 Dadurch wird das Benutzerkonto, das Sie im Azure-Portal erstellt haben, in das Unternehmen importiert. Weitere Informationen finden Sie unter [Hinzufügen eines Benutzers in Business Central](ui-how-users-permissions.md#adduser).  
 
-Wenn Sie mehreren Unternehmen Zugriff gewähren möchten, müssen Sie sich bei jedem Unternehmen anmelden und diesen Vorgang wiederholen. Alternativ können Sie die Berechtigungsgruppen für das Benutzerprofil des Buchhalters in [!INCLUDE [prodshort](includes/prodshort.md)] aktualisieren, wie das Zuweisen der *D365 Bus Premium*-Benutzergruppe. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
+Wenn Sie mehreren Unternehmen Zugriff gewähren möchten, müssen Sie sich bei jedem Unternehmen anmelden und diesen Vorgang wiederholen. Alternativ können Sie die Berechtigungsgruppen für das Benutzerprofil des Buchhalters in [!INCLUDE[prodshort](includes/prodshort.md)] aktualisieren, wie das Zuweisen der *D365 Bus Premium*-Benutzergruppe. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
 <!--## Accountant Hub
 
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
+> [!INCLUDE[d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Siehe auch
 

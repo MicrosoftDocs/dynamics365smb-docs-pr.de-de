@@ -7,19 +7,19 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190155"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528738"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Erste Schritte mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Eine Registrierung ist einfach und Sie können vorhandene Unternehmensdaten von Ihrem bestehenden System migrieren.  
 
 Um Ihnen mit Ihrem Abonnement zu helfen, finden Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Weiterverkaufspartner?](across-faq.md#findpartner).  
 
-Wenn Sie sich für [!INCLUDE [prodshort](includes/prodshort.md)] registrieren, erhalten Sie Zugriff auf ein Demounternehmen. Das Demounternehmen enthält Beispieldaten, aber Sie können z. B. auch neue Verkaufsbelege erstellen oder ein Bankkonto einrichten. Wenn Sie jedoch [!INCLUDE [prodshort](includes/prodshort.md)] verwenden möchten, um Ihr Geschäft zu führen, müssen Sie sich an einen [!INCLUDE [prodshort](includes/prodshort.md)]-Weiterverkaufspartner wenden und ein Abonnement erwerben. Weitere Informationen zu Testversionen und Abonnements finden Sie unter [Testversionen und Abonnements](across-preview.md).  
+Wenn Sie sich für [!INCLUDE[prodshort](includes/prodshort.md)] registrieren, erhalten Sie Zugriff auf ein Demounternehmen. Das Demounternehmen enthält Beispieldaten, aber Sie können z. B. auch neue Verkaufsbelege erstellen oder ein Bankkonto einrichten. Wenn Sie jedoch [!INCLUDE[prodshort](includes/prodshort.md)] verwenden möchten, um Ihr Geschäft zu führen, müssen Sie sich an einen [!INCLUDE[prodshort](includes/prodshort.md)]-Weiterverkaufspartner wenden und ein Abonnement erwerben. Weitere Informationen zu Testversionen und Abonnements finden Sie unter [Testversionen und Abonnements](across-preview.md).  
 
 ## <a name="get-to-know-d365fin"></a>Lernen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] kennen
 
@@ -34,7 +34,7 @@ Weitere Informationen finden Sie unter [Arbeiten mit [!INCLUDE[d365fin](includes
 > [!TIP]  
 > Sie können immer zurück zum Rollencenter gelangen, indem Sie den Unternehmensnamen in der linken oberen Ecke des Fensters auswählen.
 
-Im Demounternehmen umfassen die Rollencenter „Geschäftsleiter“ und „Buchhalter“ die Kacheln „Erste Schritte“ und „Produktvideos“. Beide Kacheln starten Seiten, auf denen Sie zwischen verschiedenen Videos wählen können, die Ihnen den Einstieg in verschiedene Aspekte von [!INCLUDE [prodshort](includes/prodshort.md)] erleichtern. Weitere Videos finden Sie auf unserem YouTube-Kanal. Weitere Informationen finden Sie unter [Besuchen Sie unsere Videobibliothek](across-videos.md). Dort finden Sie auch eLearning-Inhalte für die Basisversion von [!INCLUDE [prodshort](includes/prodshort.md)] unter [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Wenn Sie weitere Hilfe benötigen, wenden Sie sich an einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner.  
+Im Demounternehmen umfassen die Rollencenter „Geschäftsleiter“ und „Buchhalter“ die Kacheln „Erste Schritte“ und „Produktvideos“. Beide Kacheln starten Seiten, auf denen Sie zwischen verschiedenen Videos wählen können, die Ihnen den Einstieg in verschiedene Aspekte von [!INCLUDE[prodshort](includes/prodshort.md)] erleichtern. Weitere Videos finden Sie auf unserem YouTube-Kanal. Weitere Informationen finden Sie unter [Besuchen Sie unsere Videobibliothek](across-videos.md). Dort finden Sie auch eLearning-Inhalte für die Basisversion von [!INCLUDE[prodshort](includes/prodshort.md)] unter [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Wenn Sie weitere Hilfe benötigen, wenden Sie sich an einen [!INCLUDE[d365fin](includes/d365fin_md.md)] Partner.  
 
 Wenn Sie bereit sind, etwas tiefer hineinzublicken und einige der Geschäftsprozesse berücksichtigen möchten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, gehen Sie zu [Geschäfts-Funktionalität](across-business-functionality.md).
 

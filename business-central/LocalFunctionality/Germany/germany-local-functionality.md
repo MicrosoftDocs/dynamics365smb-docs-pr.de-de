@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: sgroespe
-ms.openlocfilehash: 837813dec94b975dca621177a95768ce48d7b2c3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 835c517f08aae230efe676e1c3f32c04d5577b5f
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181175"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454290"
 ---
 # <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
+
 Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deutschen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vorhanden ist.  
 
 ## <a name="feature-availability"></a>Verfügbarkeit von Funktionen
@@ -63,7 +64,9 @@ Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deut
     * [Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt verfügbar**
 
 ## <a name="see-also"></a>Siehe auch
+
 [Zertifizierung von Business Central für deutschen Zielmarkt (Beleg ist in Deutsch)](https://go.microsoft.com/fwlink/?linkid=875256)  
 [Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

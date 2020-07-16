@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3df8666206409aaf811faedb635b47f1a0688b3b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 22ad58aa06fc99d8199ec95df6015783f51920aa
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193419"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528160"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen
 
-**Hinweis**: In dieser exemplarischen Vorgehensweise muss in einem Demomandanten mit der Option **Volle Auswertung - vollständige Beispieldaten** ausgeführt werden, die in der Sandboxumgebung verfügbar ist. Weitere Informationen finden Sie unter [Erstellen einer Sandbox-Umgebung](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
 
@@ -63,9 +63,9 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
 -   CRONUS AG installieren.  
--   Machen Sie sich anhand der nachfolgenden Schritte zu einem Lagermitarbeiter am Standort SILVER:  
+-   So machen Sie sich zu einem Lagerarbeiter am SILVER-Standort, indem Sie diese Schritte befolgen:  
 
-    1.  Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol, geben Sie **Lagermitarbeiter** ein und wählen Sie dann den entsprechenden Link.  
+    1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den entsprechenden Link.  
     2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
     3.  Geben Sie im Feld **Lagerortcode** SILVER ein.  
     4.  Wählen Sie das Feld **Standard** aus.  
@@ -76,7 +76,7 @@ Ellen, die Einkäuferin bei der CRONUS AG ist, erstellt eine Bestellung für 10 
 ## <a name="setting-up-the-location"></a>Einrichten des Lagerorts  
  Das Einrichten der Seite **Standortkarte** definiert die Warenflüsse des Unternehmens.  
 
-### <a name="to-set-up-the-location"></a>So richten Sie den Lagerort ein  
+### <a name="to-set-up-the-location"></a>So richten Sie den Standort ein  
 
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Lagerorte** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die SILBERNE-Lagerortkarte.  

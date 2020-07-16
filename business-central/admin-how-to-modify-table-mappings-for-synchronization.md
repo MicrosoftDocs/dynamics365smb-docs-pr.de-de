@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0a6d6e08db723979fa938488bb0df6fb08a5c4d1
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271990"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527935"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Zu synchronisierende Tabellen und Felder zuordnen
 Die Basis für die Synchronisation von Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Daten in [!INCLUDE[d365fin](includes/cds_long_md.md)] ist das einander Zuordnen der Tabellen und Felder, die die Daten enthalten. Die Zuordnung erfolgt über Integrationstabellen. 
 
 ## <a name="mapping-integration-tables"></a>Zuordnen von Integrationstabellen
-Eine Integrationstabelle ist eine Tabelle in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbank, die eine Entität wie ein Konto in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] darstellt. Integrationstabellen umfassten Felder, die Feldern in der Tabelle für die [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Entität entsprechen. Die Kontointegrationstabelle stellt beispielsweise eine Verbindung zur Entität „Konten“ in [!INCLUDE[cds_short_md](includes/cds_long_md.md)] her. Es muss für jede Einheit in [!INCLUDE [cds_short_md](includes/cds_short_md.md)], die Sie mit Daten in [!INCLUDE[prodshort](includes/prodshort.md)] synchronisieren möchten, eine dazugehörende Integrationstabellenzuordnung vorhanden sein.
+Eine Integrationstabelle ist eine Tabelle in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbank, die eine Entität wie ein Konto in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] darstellt. Integrationstabellen umfassten Felder, die Feldern in der Tabelle für die [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Entität entsprechen. Die Kontointegrationstabelle stellt beispielsweise eine Verbindung zur Entität „Konten“ in [!INCLUDE[cds_short_md](includes/cds_long_md.md)] her. Es muss für jede Einheit in [!INCLUDE[cds_short_md](includes/cds_short_md.md)], die Sie mit Daten in [!INCLUDE[prodshort](includes/prodshort.md)] synchronisieren möchten, eine dazugehörende Integrationstabellenzuordnung vorhanden sein.
 
 Wenn Sie die Verbindung zwischen den Apps herstellen, richtet [!INCLUDE[d365fin](includes/d365fin_md.md)] einige Standardzuordnungen für Tabellen und Felder ein. Sie können die Tabellenzuordnungen auf Wunsch ändern. Weitere Informationen finden Sie unter [Standard Entitätszuordnung für die Synchronisation](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization). Wenn Sie die Standardzuordnungen geändert haben und Ihre Änderungen rückgängig machen möchten, wählen Sie auf der Seite **[!INCLUDE[d365fin](includes/cds_long_md.md)] Verbindungseinrichtung** die Option **Standard-Synchronisierungseinrichtung verwenden**.
 

@@ -1,7 +1,6 @@
 ---
 title: E-Mail in Business Central einrichten | Microsoft Docs
 description: 'Beschreibung: Beschreibt, wie der SMTP-Server des Unternehmens verwendet wird, um in Business Central E-Mail zu senden und zu empfangen und wie die E-Mail-Servereinstellungen verwendet werden, die im Office 365 Abonnement erstellt wurden.'
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.date: 06/15/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36f9c561cd2bde8256e9bbb9694c89cd780b67ad
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187268"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528387"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
+
 Um E-Mails aus [!INCLUDE[d365fin](includes/d365fin_md.md)] zu senden und zu erhalten, müssen Sie die Felder auf der Seite **SMTP-Mail-Einrichtung** ausfüllen.
 
 Anstatt die SMTP-Server-Details manuell einzugeben, können Sie die Funktion **Office 365 Server-Einstellungen übernehmen** verwenden, um sie mit den Informationen aus Ihrem Office 365-Abonnement einzugeben.
@@ -26,6 +26,7 @@ Anstatt die SMTP-Server-Details manuell einzugeben, können Sie die Funktion **O
 Sie können E-Mails entweder manuell einrichten wie unten beschrieben oder Sie können den Leitfaden für das unterstützte Setup für die **E-Mail-Einrichtung** verwenden. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Zum Einrichten von E-Mails
+
 1. Wählen Sie die Symbol ![Glühbirne , die das Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **SMTP-E-Mail-Einrichtung** ein und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -36,6 +37,7 @@ Sie können E-Mails entweder manuell einrichten wie unten beschrieben oder Sie k
 5. Wenn der Test erfolgreich war, schließen Sie die Seite.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Verwenden eine Ersatz-Absenderadresse für ausgehende E-Mail-Nachrichten
+
 Alle ausgehenden E-Mail-Nachrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden die Standardadresse für das Konto, das Sie wie oben beschrieben auf der Seite SMTP-E-Mail-Setup angegeben haben. Sie können jedoch die **Senden Als** oder **Senden im Auftrag von** Funktionen auf Ihrem Exchange-Server zum Ändern der Absenderadresse für ausgehende Nachrichten verwenden. [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet das Standardkonto zur Authentifizierung bei Exchange, ersetzt jedoch entweder die Absenderadresse durch die von Ihnen angegebene oder ändert sie durch im Namen von.
 
 Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden im Namen von [!INCLUDE[d365fin](includes/d365fin_md.md)].:
@@ -54,6 +56,7 @@ Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden 
 5. In dem **Exchange Admin Center** suchen Sie die Mailbox, die als Ersatzadresse verwendet werden soll, und geben Sie die Adresse in das Feld **Benutzeridentifikation** im Feld **Senden Als** ein. Weitere Informationen finden Sie unter [Verwenden Sie die Exchange-Verwaltungskonsole, um einzelnen Postfächern Berechtigungen zuzuweisen ](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Verwendung der Ersatzadresse in Genehmigungsworkflows
+
 1. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **SMTP-E-Mail-Einrichtung** ein und wählen Sie dann den entsprechenden Link.
 2. Kopieren oder notieren Sie die Adresse im Feld **Benutzeridentifikation**.
 3. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Genehmigungsbenutzereinrichtung** ein und wählen Sie dann den entsprechenden Link.
@@ -64,13 +67,20 @@ Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden 
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] legt fest, welche Adresse in der folgenden Reihenfolge angezeigt werden soll: <br><br> 1. Die Adrsse, die im Feld **E-Mail** auf der Seite **Genehmigungsbenutzer einrichten** für Nachrichten in einem Workflow angegeben ist. <br> 2. Die Adresse im Feld **Senden Als** auf der Seite **SMTP-E-Mail-Setup** einrichten. <br> 3. Die Adresse im Feld **Benutzeer-ID** auf der Seite **SMTP-E-Mail einrichten**.
 
+## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Öffentliche Ordner und Regeln für die E-Mail-Anmeldung in Exchange Online einrichten
+
+Machen Sie mehr aus der Kommunikation zwischen Verkäufern und Ihren bestehenden oder potenziellen Kunden, indem Sie den E-Mail-Austausch nachverfolgen und diese dann in umsetzbare Gelegenheiten umwandeln. Weitere Informationen finden Sie unter [Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten nachverfolgen](marketing-set-up-email-logging.md).  
+
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+
+Als nächstes verbinden Sie [!INCLUDE[prodshort](includes/prodshort.md)] mit Exchange Online. Weitere Informationen finden Sie unter [Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten nachverfolgen](marketing-set-up-email-logging.md).  
 
 ## <a name="see-also"></a>Siehe auch
 
 [Freigegebene Postfächer in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
+[Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
 [Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Nutzen von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Abrufen von [!INCLUDE[d365fin](includes/d365fin_md.md)] auf meinem mobilen Gerät](install-mobile-app.md)

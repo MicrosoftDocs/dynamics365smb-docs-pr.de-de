@@ -8,24 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: ddd5ae8f701caab38b11072f3eb8bd61cfc9d251
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6ad45590d0581ea8888918a8306e2dfcfe82439c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189267"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527808"
 ---
 # <a name="business-process-walkthroughs"></a>Exemplarische Vorgehensweisen für Geschäftsprozesse
+
 Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Geschäftsprozesse, die Sie mit dem Demounternehmen CRONUS AG durchführen können. Die exemplarischen Vorgehensweisen bestehen aus mehreren Verfahren, von denen einige normalerweise von mehr als einem Benutzer ausgeführt werden würden, während andere verschiedene Benutzerrollen enthalten. Um den Arbeitsbereich zu simulieren, enthalten einige der exemplarischen Vorgehensweisen Einrichtungsschritte, die erforderlich sind, um die Übungen wie beschrieben abzuschließen. Diese Schritte können Einblick in die Art der Informationen zu geben, die Benutzer den IT-Mitarbeitern ihres Unternehmens zur Verfügung stellen müssen.  
 
  Die exemplarischen Vorgehensweisen sind vollständige Szenarios und sollten möglichst vom Anfang bis zum Ende ausgeführt werden. Viele Szenarios basieren auf [!INCLUDE[d365fin](includes/d365fin_md.md)]-Demonstrationen und ermöglichen es Ihnen, diese Verfahren an Ihrem Arbeitsplatz selbst auszuprobieren.  
 
 > [!NOTE]
-> Einige der exemplarischen Vorgehensweisen verwenden Demodaten, die nicht im CRONUS-Standard-Unternehmen verfügbar ist. In dieser exemplarischen Vorgehensweise muss in einem Demomandanten mit der Option **Volle Auswertung - vollständige Beispieldaten** ausgeführt werden, die in der Sandboxumgebung verfügbar ist. Weitere Informationen finden Sie unter [Erstellen einer Sandbox-Umgebung](across-how-create-sandbox-environment.md).
+> Einige der exemplarischen Vorgehensweisen erfordern Beispieldaten, die nicht im Standard-Demounternehmen in [!INCLUDE[prodshort](includes/prodshort.md)] verfügbar sind. Weitere Informationen finden Sie unter [So erstellen Sie ein Unternehmen mit vollständigen Beispieldaten in einer Sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
-|An|Siehe|  
+|Aktion|Siehe|  
 |--------|---------|  
 |Eine Marketingkampagne einrichten.|[Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne](walkthrough-conducting-a-sales-campaign.md)|  
 |Verwenden Sie Vorauszahlungen, um Teilszahlungen für Verkäufe und Einkäufe zu verwalten. **Erfordert vollständige Beispieldaten** |[Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
@@ -41,6 +42,7 @@ Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Gesc
 |Defektverwaltung ausführen. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## <a name="see-also"></a>Siehe auch
+
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190227"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503798"
 ---
 # <a name="make-check-payments"></a>Zahlung per Scheck machen
+
 Sie können elektronischerund und manuelle Schecks ausgeben in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Bei beiden Verfahren erfolgt die Ausstellung von Schecks an Kreditoren über das Zahlungsausgangs-Buch.-Blatt. Sie können auch Schecks annullieren und Scheckposten anzeigen.
 
 Der folgende Ablauf zeigt, wie ein Kreditor mit Computer-Schecks bezahlt wird, indem die Zahlung für die zu bezahlende Rechnung erfolgt, der Scheck gedruckt und die Zahlung als bezahlt gebucht wird. Dadurch ergibt sich positiver Kreditorenposten, der auf einen negativen Bankpostens angewendet wurd und der physische Check von der Bank verarbeitet wird.
@@ -30,7 +31,8 @@ Sie können mit zwei Arten von Schecks bezahlen Für beide Arten müssen **Bal. 
 > [!NOTE]  
 > Um sicherzustellen, dass Ihre Bank nur Schecks und Beträge freigibt, können Sie ihr eine Datei senden, die die Daten für Kreditoren, Schecks und Zahlungsinformationen enthält. Weitere Informationen finden Sie unter [Datei Positive Pay exportieren](finance-how-positive-pay.md).
 
-Der Drucker muss für den Ausdruck von Scheckformularen eingerichtet werden, und Sie müssen festlegen welches Layout verwendet werden soll. Weitere Informationen finden Sie unter [Scheck-Layout auswählen](finance-how-define-check-layouts.md).
+> [!IMPORTANT]
+> Der Drucker muss für den Ausdruck von Scheckformularen eingerichtet werden, und Sie müssen festlegen welches Layout verwendet werden soll. Weitere Informationen finden Sie unter [Scheck-Layout auswählen](finance-how-define-check-layouts.md). Alternativ können Sie den Scheck beispielsweise als PDF-Datei senden.  
 
 Sie können bis 10 Rechnungen auf einer Seite für einen Scheckabschnitt drucken. Wenn ein Häkchen in mehr als 10 Rechnungen angewendet wird, wenn Sie den Abschnitt drucken, stornieren wir den Scheck auf der ersten Seite und drucken den Begriff UNGÜLTIG auf den Scheck. Wir drucken dann die restlichen Rechnungen und den gesamten Scheckbetrags auf der zweiten Seite.
 
@@ -43,7 +45,7 @@ Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Sc
 4. Wählen Sie im Feld **Bankkontozahlungsart** die Option **Computer Scheck** aus.
 5. Wählen Sie die Aktion **Check Drucken** aus.
 6. Füllen Sie auf der Seite **Scheck** die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Wählen Sie die Schaltfläche **Senden an** aus, wählen Sie die Option **PDF-Dokument**, und wählen Sie dann die Schaltfläche **OK** aus.
+7. Wenn Ihr Drucker zum Drucken von Schecks eingerichtet ist, wählen Sie die Schaltfläche **Drucken** aus. Andernfalls wählen Sie die Schaltfläche **Senden an**, die Option **PDF-Dokument** und dann die Schaltfläche **OK** aus, und drucken Sie anschließend das PDF-Dokument.
 
     Die Warenkontrollen können jetzt bereitgestellt werden für die Bank für die Bearbeitung. Fahren Sie fort, um die Zahlung für den Kreditor und im System als bezahlt zu buchen.
 8. Wählen Sie die Aktion **Buchen** aus.

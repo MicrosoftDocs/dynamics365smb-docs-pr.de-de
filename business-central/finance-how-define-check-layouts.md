@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 479281e24bffb824f9fc8499bb34ab6b11311a52
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
+ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183668"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3458922"
 ---
 # <a name="select-a-check-layout"></a>Ein Prüflayout auswählen
 Sie können Ihre Schecks entwerfen, um sie den Vorgaben anzupassen, die von den lokalen Behörden festgelegt werden. Scheckbilder können in Englisch, Französisch oder Spanisch gedruckt werden.
@@ -23,7 +23,7 @@ Sie können Ihre Schecks entwerfen, um sie den Vorgaben anzupassen, die von den 
 Schecks können sowohl im USA- als auch im Kanada-Schecklayout, entweder im Scheck/Formular/Scheck-Format oder im Formular/Formular/Scheck-Format gedruckt werden.
 
 ## <a name="to-select-a-check-layout"></a>Ein Prüflayout auswählen
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Berichtsauswahlen – Bankkonto** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Berichtsauswahlen – Bankkonto** ein, und wählen Sie dann den entsprechenden Link.
 2. Auf der Seite **Berichts-Auswahl - Bankkonto** unter **Verwendung** wählen Sie **Scheck**.
 3. Wählen Sie eine der folgenden Berichts-IDs:
 
@@ -54,6 +54,9 @@ Im Folgenden werden die Spezifikationen für die MICR E-13B-Schriftarten zusamme
 
 ![MICR E-13B-Spezifikationen](media/font_MICR_E-13B_Specifications.png "MICR E-13B-Spezifikationen")
 
+### <a name="delimiter-characters"></a>Trennzeichen
+![Trennzeichen](media/font-micr-letters.png "Trennzeichen")
+
 Die vollständige Spezifikation der MICR E-13B-Schriftarten finden Sie in der Dokumentation des Lieferanten auf dieser Website: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7-Spezifikationen
@@ -67,6 +70,9 @@ Die folgenden CMC-7-Schriftarten sind in [!INCLUDE[d365fin](includes/d365fin_md.
 Im Folgenden werden die Spezifikationen für die MICR CMC-7-Schriftarten zusammengefasst, die beim Kalibrieren von Schriftarten für Schecklayouts mit bestimmten MICR-Druckern hilfreich sein können.
 
 ![MICR CMC-7-Spezifikationen](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-Spezifikationen")
+
+### <a name="delimiter-characters"></a>Trennzeichen
+![Trennzeichen](media/font-cmc7-letters.png "Trennzeichen")
 
 Die vollständige Spezifikation der MICR CMC-7-Schriftarten finden Sie in der Dokumentation des Lieferanten auf dieser Website: (http://www.idautomation.com/micr-fonts/cmc7/).
 
