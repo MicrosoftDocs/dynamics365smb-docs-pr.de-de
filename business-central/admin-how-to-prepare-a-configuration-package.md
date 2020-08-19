@@ -1,7 +1,7 @@
 ---
 title: So bereiten Sie ein Konfigurations-Paket vor | Microsoft Docs
 description: Erfahren Sie nun, wie Sie ein RapidStart-Konfigurationspaket konfigurieren, mit dem Sie Unternehmen basierend auf vorhandenen Daten einrichten können.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: bholtorf
+ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535972"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666997"
 ---
 # <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
 
@@ -30,6 +30,12 @@ Bevor Sie ein Konfigurationspaket erstellen, müssen Sie einige Dinge berücksic
 ### <a name="tables-that-contain-posted-entries"></a>Tabellen mit gebuchten Einträgen
 
 Sie können keine Daten in Tabellen importieren, die gebuchte Einträge enthalten, z. B. Tabellen für Kunden-, Lieferanten- und Artikelposteneinträge. Daher sollten Sie diese Daten nicht in Ihr Konfigurationspaket aufnehmen. Sie können diesen Tabellen Einträge hinzufügen, nachdem Sie das Konfigurationspaket mithilfe von Journalen importiert haben, um die Einträge zu buchen. Weitere Informationen finden Sie unter [Buchung von Dokumenten und Journalen ](ui-post-documents-journals.md).
+
+### <a name="table-names-that-contain-special-characters"></a>Tabellennamen, die Sonderzeichen enthalten
+
+Seien Sie vorsichtig, wenn Sie Tabellen oder Felder haben, die denselben zeitlichen Namen haben, sich jedoch durch Sonderzeichen wie %, &, <,>, (, und) unterscheiden. Beispielsweise kann die Tabelle „XYZ“ die Felder „Feld 1“ und „Feld 1%“ enthalten.
+
+Der XML-Prozessor akzeptiert nur einige Sonderzeichen und entfernt diejenigen, die er nicht akzeptiert. Wenn das Entfernen eines Sonderzeichens, wie z. B. des %-Zeichens in „Feld 1 %“, zu zwei oder mehr Tabellen oder Feldern mit demselben Namen führt, tritt beim Exportieren oder Importieren eines Konfigurationspakets ein Fehler auf. 
 
 ### <a name="licensing"></a>Lizenzierung
 

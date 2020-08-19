@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272086"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549867"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 Da [!INCLUDE[prodshort](includes/prodshort.md)] ein Cloud-Service ist, kann er keine lokalen Drucker erreichen, die mit den Rechnern der Benutzer verbunden sind. Sie kann jedoch mit Cloud-fähigen Druckern verbunden werden. In der generischen Version von [!INCLUDE[prodshort](includes/prodshort.md)] wird ein Cloud-Drucker namens **E-Mail-Drucker** als Erweiterung installiert und ist nach der Ersteinrichtung einsatzbereit.
@@ -55,7 +55,11 @@ Wenn Sie die E-Mail-Drucker-Erweiterung verwenden, dann werden alle oder einige 
 Sie müssen alle erforderlichen Datenschutzvorkehrungen treffen, einschließlich der Sicherstellung, dass die E-Mail-Drucklösung über ordnungsgemäß konfigurierte Berechtigungen, Datenschutzeinstellungen und Aufbewahrungsrichtlinien verfügt. Es liegt in Ihrer Verantwortung, eine korrekte, verifizierte und funktionsfähige E-Mail-Adresse anzugeben. Weitere Informationen finden Sie unter [Microsoft-Datenschutzerklärung](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## <a name="to-select-which-printers-print-which-reports"></a>So wählen Sie aus, welche Drucker welche Berichte drucken
+
 Auf der Seite **Druckerwahlen** können Sie für Ihr Benutzerkonto einstellen, welche Berichte von welchem Drucker gedruckt werden. Dies ist nützlich, wenn Sie mit verschiedenen Berichten arbeiten, die aufgrund ihrer Platzierung in der Firma oder ihrer Ausgabemöglichkeiten unterschiedliche Drucker erfordern.
+
+> [!IMPORTANT]
+> Für [!INCLUDE[prodshort](includes/prodshort.md)] vor Ort kann die Seite **Druckerauswahl** nur für Drucker verwendet werden, die durch Druckerweiterungen definiert sind. Sie kann nicht für lokale Drucker verwendet werden.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Druckerverwaltung** ein und wählen Sie dann den entsprechenden Link. Alternativ können Sie auf der Seite **Druckerverwaltung** einen Drucker auswählen und dann die Aktion **Druckerauswahl** wählen.
 2. Wählen Sie die Aktion **Neu**, um eine Druckerauswahl für einen bestimmten Bericht hinzuzufügen.

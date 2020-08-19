@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496675"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617911"
 ---
 # <a name="design-details-costing-methods"></a>Designdetails: Kostenberechnungsmethoden
+
 Die Lagerabgangsmethode legt fest, ob ein tatsächlicher oder ein budgetierter Wert gebucht und in der Berechnung des Einstandspreises verwendet werden soll. Zusammen mit dem Buchungsdatum und der -reihenfolge beeinflusst die Lagerabgangsmethode auch, wie der Kostenfluss aufgezeichnet wird.
 
 > [!NOTE]
@@ -26,13 +27,13 @@ Die Lagerabgangsmethode legt fest, ob ein tatsächlicher oder ein budgetierter W
 
 Die folgenden Methoden werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt:  
 
-|Lagerabgangsmethode|Beschreibung|Anwendungsbeispiele|  
-|--------------------|---------------------------------------|-----------------|  
-|FIFO|Der Einstandspreis eines Artikels ist der tatsächliche Wert jedes Eingangs des Artikels, nach der FIFO-Regel ausgewählt.<br /><br /> In der Lagerbewertung wird angenommen, dass die ersten Artikel, die im Lager platziert sind, zuerst verkauft werden.|In Unternehmensumgebungen, in denen die Produktkosten stabil sind.<br /><br /> Wenn Preise steigen, zeigt die Bilanz größeren Wert. Das bedeutet, dass Steuerverbindlichkeiten zunehmen, aber die Bonität und die Möglichkeit, Bargeld zu borgen verbessert sich.<br /><br /> Verwendung für Artikel mit einem begrenzten Haltbarkeitsdatum, da die ältesten Waren verkauft werden müssen, bevor sie ihr Mindesthaltbarkeitsdatum überschreiten.|  
-|LIFO|Der Einstandspreis eines Artikels ist der tatsächliche Wert jedes Eingangs des Artikels, nach der LIFO-Regel ausgewählt.<br /><br /> In der Lagerbewertung wird angenommen, dass die letzten Artikel, die im Lager platziert sind, zuerst verkauft werden.|Nicht zugelassen in vielen Ländern/Regionen, da es verwendet werden kann, um den Deckungsbeitrag zu drücken.<br /><br /> Wenn Preise steigen, reduziert sich der Wert in den GuV-Konten. Das bedeutet, dass Steuerverbindlichkeiten abnehmen, aber die Möglichkeit, Bargeld zu borgen verschlechtert sich.|  
-|Durchschnitt|Der Einstandspreis eines Artikels wird, wie der durchschnittliche Einstandspreis, an jedem Zeitpunkt nach einem Kauf berechnet.<br /><br /> Für Lagerbewertung setzt man voraus, dass alle Bestände gleichzeitig verkauft werden.|In Unternehmensumgebungen, in denen die Produktkosten nicht stabil sind.<br /><br /> Vorgehensweise bei gestapelten oder miteinander kombinierten Beständen, die nicht unterschieden werden können, wie z.B. bei Chemikalien.|  
-|Ausgewählt|Der Einstandspreis eines Artikels sind die exakten Kosten, an denen die bestimmte Einheit empfangen wurden.|Verwendung in der Produktion oder Handel von einfach identifizierbaren Artikeln mit sehr hohen Einstandspreis.<br /><br /> Für Artikel, die Zu-/Abschlägen unterliegen.<br /><br /> Verwendung für Artikel mit Seriennummern.|  
-|Standard|Der Einstandspreis eines Artikels ist voreingestellt basierend auf vorkalkulierten Kosten.<br /><br /> Wenn die Ist-Kosten später realisiert werden, muss der Einstandspreis (fest) auf die Ist-Kosten durch Abweichungswerte reguliert werden.|Wird verwendet, wo Kostenkontrolle kritisch ist.<br /><br /> In der wiederholenden Produktion zu verwenden, um die Kosten des Fertigungsmaterials, direkte Arbeit und Produktionsgemeinkosten zu bewerten.<br /><br /> Wird verwendet, wo es Kategorie und Mitarbeiter gibt, um die Vorgaben beizubehalten.|  
+| Lagerabgangsmethode | Beschreibung | Anwendungsbeispiele |
+|--|--|--|
+| FIFO | Der Einstandspreis eines Artikels ist der tatsächliche Wert jedes Eingangs des Artikels, nach der FIFO-Regel ausgewählt.<br /><br /> In der Lagerbewertung wird angenommen, dass die ersten Artikel, die im Lager platziert sind, zuerst verkauft werden. | In Unternehmensumgebungen, in denen die Produktkosten stabil sind.<br /><br /> Wenn Preise steigen, zeigt die Bilanz größeren Wert. Das bedeutet, dass Steuerverbindlichkeiten zunehmen, aber die Bonität und die Möglichkeit, Bargeld zu borgen verbessert sich.<br /><br /> Verwendung für Artikel mit einem begrenzten Haltbarkeitsdatum, da die ältesten Waren verkauft werden müssen, bevor sie ihr Mindesthaltbarkeitsdatum überschreiten. |
+| LIFO | Der Einstandspreis eines Artikels ist der tatsächliche Wert jedes Eingangs des Artikels, nach der LIFO-Regel ausgewählt.<br /><br /> In der Lagerbewertung wird angenommen, dass die letzten Artikel, die im Lager platziert sind, zuerst verkauft werden. | Nicht zugelassen in vielen Ländern/Regionen, da es verwendet werden kann, um den Deckungsbeitrag zu drücken.<br /><br /> Wenn Preise steigen, reduziert sich der Wert in den GuV-Konten. Das bedeutet, dass Steuerverbindlichkeiten abnehmen, aber die Möglichkeit, Bargeld zu borgen verschlechtert sich. |
+| Durchschnitt | Der Einstandspreis eines Artikels wird, wie der durchschnittliche Einstandspreis, an jedem Zeitpunkt nach einem Kauf berechnet.<br /><br /> Für Lagerbewertung setzt man voraus, dass alle Bestände gleichzeitig verkauft werden. | In Unternehmensumgebungen, in denen die Produktkosten nicht stabil sind.<br /><br /> Vorgehensweise bei gestapelten oder miteinander kombinierten Beständen, die nicht unterschieden werden können, wie z.B. bei Chemikalien. |
+| Ausgewählt | Der Einstandspreis eines Artikels sind die exakten Kosten, zu denen die bestimmte Einheit empfangen wurden. | Verwendung in der Produktion oder Handel von einfach identifizierbaren Artikeln mit sehr hohen Einstandspreis.<br /><br /> Für Artikel, die Zu-/Abschlägen unterliegen.<br /><br /> Verwendung für Artikel mit Seriennummern. |
+| Standard | Der Einstandspreis eines Artikels ist voreingestellt basierend auf vorkalkulierten Kosten.<br /><br /> Wenn die Ist-Kosten später realisiert werden, muss der Einstandspreis (fest) auf die Ist-Kosten durch Abweichungswerte reguliert werden. | Wird verwendet, wo Kostenkontrolle kritisch ist.<br /><br /> In der wiederholenden Produktion zu verwenden, um die Kosten des Fertigungsmaterials, direkte Arbeit und Produktionsgemeinkosten zu bewerten.<br /><br /> Wird verwendet, wo es Kategorie und Mitarbeiter gibt, um die Vorgaben beizubehalten. |
 
  Die folgenden Bild zeigt, wie Kosten für jede Kostenbewertungsmethode den Bestand durchlaufen.  
 
@@ -40,7 +41,7 @@ Die folgenden Methoden werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] unt
 
  Kostenberechnungsmethoden unterscheiden sich in der Art, wie sie Lagerabgänge bewerten und dahingehend, ob sie Ist-Kosten oder Standardkosten als Bewertungsbasis verwenden. Die verschiedenen Eigenschaften werden in der folgenden Tabelle beschrieben. (Die LIFO-Methode ist ausgeschlossen, da diese der FIFO-Methode sehr ähnlich ist)  
 
-||FIFO|Durchschnitt|Standard|Ausgewählt|  
+|<!--blank -->|FIFO|Durchschnitt|Standard|Ausgewählt|  
 |-|----------|-------------|--------------|--------------|  
 |Allgemeine Eigenschaft|Einfach zu verstehen|Basierend auf Periodenoptionen: **Tag**/**Woche**/**Monat**/**Quartal**/**Buchhaltungsperiode**.<br /><br /> Kann pro Artikel oder pro Artikel/Lagerort/Variante berechnet werden.|Bedienungsfreundlich, benötigt jedoch qualifizierte Wartung.|Erfordert Artikelverfolgung auf der eingehenden und ausgehenden Transaktion.<br /><br /> Normalerweise verwendet für serialisierte Artikel.|  
 |Anwendung/Regulierung|Anwendung verfolgt **die Restmenge**.<br /><br /> Die Regulierung überträgt Kosten je nach Mengenanwendung vorwärts.|Anwendung verfolgt die **Restmenge**.<br /><br /> Kosten werden nach **Bewertungsdatum** berechnet und weitergeleitet.|Anwendung verfolgt die **Restmenge**.<br /><br /> Anwendung basiert auf "FIFO".|Alle Augleiche sind fest.|  

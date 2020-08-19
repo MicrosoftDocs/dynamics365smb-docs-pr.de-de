@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 11c3fa284a457db1de272a3d92ebc7fc873ad933
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454329"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549892"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeiten mit Berichten, Stapelverarbeitungen und XMLports
 
@@ -50,7 +50,7 @@ Die Verwendung von gespeicherten Einstellungen ist eine schnelle und zuverlässi
 
 ## <a name="previewing-a-report"></a>Einen Bericht anzeigen
 
-Wählen Sie die Schaltfläche **Vorschau**, um den Bericht anzuzeigen. Verwenden Sie die Menüleiste in der Berichtsvorschau, um:
+Wählen Sie die Schaltfläche **Vorschau**, um den Bericht auf der Berichtsanforderungsseite anzuzeigen.. Verwenden Sie die Menüleiste in der Berichtsvorschau, um:
 
 - Navigieren durch Seiten
 - Ein- und Ausblenden
@@ -77,19 +77,34 @@ Wenn Sie die Ausführung eines Berichts planen, können Sie festlegen, dass er j
 Sie können auswählen, ob Sie den verarbeiteten Bericht speichern möchten, beispielsweise als Excel-, Word- oder PDF-Datei, ihn auf einem ausgewählten Drucker auszugeben, oder ihn nur zu verarbeiten. Wenn Sie wählen, den Bericht in eine Datei zu speichern, wird der verarbeitete Bericht an den **Berichts-Eingang** an Ihr Rollencenter gesendet, wo Sie ihn anzeigen können.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Berichte drucken
-Sie können einen Bericht drucken, indem Sie die Schaltfläche **Drucken** auf der Berichtsanforderungsseite oder in der Menüleiste auf der Seite **Vorschau** wählen.
 
-Da [!INCLUDE[prodshort](includes/prodshort.md)] ein Cloud-Service ist, kann er keine lokalen Drucker erreichen, die mit den Rechnern der Benutzer verbunden sind. Sie kann jedoch mit Cloud-fähigen Druckern verbunden werden. In der generischen Version von [!INCLUDE[prodshort](includes/prodshort.md)] wird ein Cloud-Drucker namens **E-Mail-Drucker** als Erweiterung installiert und ist nach der Ersteinrichtung einsatzbereit.
+Sie drucken einen Bericht, indem Sie die Schaltfläche **Drucken** auf der Berichtsanforderungsseite oder in der Menüleiste auf der Seite **Vorschau** wählen.
 
-Wenn ein Cloud-Drucker nicht installiert und eingerichtet ist oder wenn ein installierter Drucker ausfällt, werden beim Drucken standardmäßig die Druckoptionen des Browsers verwendet. Dies wird durch diesen Wert im Feld **Drucker** auf der Berichtsanforderungsseite angezeigt: *(keines, wird vom Browser behandelt)*.
+### <a name="printer-selection"></a>Druckerauswahl
 
-Auf der Seite **Druckerverwaltung** sehen Sie die Drucker, die eingerichtet sind. Weitere Informationen finden Sie unter [Drucker einrichten](ui-specify-printer-selection-reports.md).
+Der Bericht wird auf dem Drucker ausgedruckt, der im Feld **Ausgewählter Drucker** auf der Berichtsanforderungsseite angegeben ist. Sie können den Drucker auf dieser Seite nicht ändern.
+
+Der ausgewählte Drucker ist entweder auf der Seite **Druckerauswahl** eingestellt oder es ist der Standarddrucker, der auf der Seite **Druckerverwaltung** eingerichtet ist. Wenn Sie einen anderen Drucker verwenden möchten, siehe [Drucker einrichten](ui-specify-printer-selection-reports.md).
+
+Wenn auf der Seite **Druckerauswahl** kein Drucker angegeben oder auf der Seite **Druckerverwaltung** als Standard eingestellt ist, wird die Druckfunktion des Browsers verwendet. In diesem Fall erscheint **Browser** im Feld **Ausgewählter Drucker** auf der Berichtsanforderungsseite. 
+
+### <a name="browser-printing"></a>Browserdruck
+
+Da [!INCLUDE[prodshort](includes/prodshort.md)] ein Cloud-Service ist, kann er keine lokalen Drucker erreichen, die mit Ihrem Computer verbunden sind. Sie kann jedoch mit Cloud-fähigen Druckern verbunden werden. In der generischen Version von [!INCLUDE[prodshort](includes/prodshort.md)] wird ein Cloud-Drucker namens **E-Mail-Drucker** als Erweiterung installiert und ist nach der Ersteinrichtung einsatzbereit.
+
+Wenn ein Cloud-Drucker nicht installiert und eingerichtet ist oder wenn ein installierter Drucker ausfällt, werden beim Drucken standardmäßig die Druckoptionen des Browsers verwendet.
 
 > [!NOTE]
-> Sie können das Feld **Drucker** auf der Berichtsanforderungsseite nicht ändern. Um einen anderen Drucker zu verwenden, müssen Sie ihn auf der Seite **Druckerverwaltung** auswählen.
+> Die Browserdruckoptionen funktionieren unabhängig von [!INCLUDE[prodshort](includes/prodshort.md)]. Also alle Druckereinstellungen, die möglicherweise von Druckern in [!INCLUDE[prodshort](includes/prodshort.md)] eingerichtet wurden, werden nicht auf die Druckoptionen des Browsers übertragen.
 
+<!-- 
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### <a name="printing-reports-in-thai"></a>Drucken von Berichten in Thailändisch
-Speziell für die thailändische Version von [!INCLUDE[prodshort](includes/prodshort.md)], kann die **Drucken** Schaltfläche keine Berichte korrekt drucken, weil der Service, der die druckbare PDF-Datei generiert, limitiert ist. Stattdessen können Sie den Bericht in Word öffnen und den Bericht als druckbare PDF-Dateien speichern.  
+Speziell für die thailändische Version von [!INCLUDE[prodshort](includes/prodshort.md)] kann die Schaltfläche **Drucken** keine Berichte korrekt drucken, weil der Service, der die druckbare PDF-Datei generiert, limitiert ist. Stattdessen können Sie den Bericht in Word öffnen und den Bericht als druckbare PDF-Dateien speichern.  
 
 Alternativ können Sie den Administrator bitten, ein Word-Berichtslayout für Ihre verwendete Berichte zu erstellen. Weitere Informationen finden Sie unter [Berichte- und Dokumentenlayouts verwalten](ui-manage-report-layouts.md).  
 

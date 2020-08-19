@@ -1,5 +1,5 @@
 ---
-title: Abstimmen von Zahlungen mithilfe der automatischen Anwendung | Microsoft Docs
+title: Einrichten von Regeln für die automatische Anwendung von Zahlungen
 description: Auf der Seite „Zahlungsausgleichsvorschriften“ richten Sie die Regeln ein, um zu steuern, wie Zahlungen/Banktransaktionen automatisch mit ihren entsprechenden offenen Sachposten ausgeglichen werden, wenn Sie die Funktion Automatisch anwenden auf der Seite Zahlungsabstimmungsbuch.-Blatt verwenden.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b655032a17aa617ccbaba2ac3dfd5413d4ca4326
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191931"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617573"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Einrichten von Regeln für die automatische Anwendung von Zahlungen
+
 Auf der Seite **Zahlungsausgleichsvorschriften** Regeln Sie regeln ein, um zu steuern, wie der Zahlungstext (bei einer Banktransaktion) in den folgenden beiden Prozessen automatisch mit dem Text auf offenen Einträgen abgeglichen wird:
+
 - Gleichen Sie Zahlungen automatisch mit ihren entsprechenden offenen (unbezahlten) Rechnungen, Gutschriften und anderen Einträgen ab, wenn Sie die Funktion **Automatisch anwenden** auf der Seite **Zahlungsabstimmungsbuch.-Blatt** verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
 - Ordnen Sie Banktransaktionen automatisch den zugehörigen internen Bankkontenposten zu, wenn Sie die Aktion **Automatisch abgleichen** auf der Seite **Bankkontoabstimmung** auswählen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md).

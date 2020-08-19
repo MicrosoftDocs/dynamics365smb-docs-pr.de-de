@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: a5fc9b13e28b51d776fad6d02feae4624b756c4c
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496800"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617936"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Auftragsmontage und Lagermontage verstehen
 Montageartikel können in den beiden folgenden Prozessen geliefert werden:  
@@ -72,7 +72,7 @@ Wenn Sie einen Auftragsmontageartikel in eine Verkaufszeile eingeben, wird autom
 
  In der folgenden Tabelle werden die Regeln erläutert, die die minimalen und maximalen Werte festlegen, die Sie manuell in das Feld **Menge für Montage** eingeben können, um in einem kombinierten Szenario vom Standardwert abzuweichen. Die Tabelle zeigt ein kombiniertes Szenario, in dem das Feld **Menge für Montage** der verknüpften Verkaufsauftragszeile von 7 in 4 geändert wird, weshalb **Menge für Montage** den Standardwert 4 annimmt.  
 
-||Verkaufszeile|Montageauftragskopf|  
+|-|Verkaufszeile|Montageauftragskopf|  
 |-|----------------------|---------------------------|  
 ||**Menge**|**Zu liefern**|**Menge für Auftragsmontage**|**Menge geliefert**|**Menge**|**Menge für Montage**|**Zusammengesetzte Menge**|**Restmenge**|  
 |Anfang|10|7|7|0|7|7|0|7|  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: dfc7b91c50297c130a4a6d50401c7adb53bd608b
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262190"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666947"
 ---
 # <a name="personalize-your-workspace"></a>Ihren Arbeitsbereich personalisieren
 Sie können Ihren Arbeitsbereich für Ihre Arbeit personalisieren oder anpassen und Präferenzen definieren, indem Sie die Seiten ändern, so dass Sie nur die Informationen angezeigt erhalten, die Sie auch benötigen. Die Personalisierungsänderungen, die Sie durchführen, beeinflussen nur, was Sie sehen, und nicht, was die Benutzer sehen.
@@ -27,6 +27,11 @@ Je nach Art der Seite und was enthalten ist, können Sie verschiedene Änderunge
 > [!NOTE]
 > Administratoren können dieselben Layoutänderungen wie Benutzer durchführen, indem sie den Arbeitsbereich für ein Profil anpassen, dem mehrere Benutzer zugewiesen sind. Weitere Informationen finden Sie unter [Seiten für Profile anpassen](ui-personalization-manage.md)<br /><br />
 Administratoren können auch Personalisierungen der Benutzer überschreiben und definieren, welche Funktionen in allen oder bestimmten Unternehmen zugänglich sind. Weitere Informationen finden Sie unter [Anpassen von Business Central](ui-customizing-overview.md).
+
+## <a name="video-overview"></a>Videoübersicht
+Das folgende Video zeigt einige Möglichkeiten, wie Sie Ihr Rollencenter personalisieren können.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
 
 ## <a name="to-change-the-width-of-a-column"></a>Ändern der Breite einer Spalte
 Sie können die Größe von Spalten in jeder Liste leicht ändern, indem Sie die Grenze zwischen zwei Spalten nach links oder rechts ziehen.

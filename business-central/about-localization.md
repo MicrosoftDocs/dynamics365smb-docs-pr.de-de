@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 8566856ade03531ce01f0fca35828d9af4fe785d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6d9cbf61160a2f8d64cfc7cd6b65aae4bd84a881
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188876"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611534"
 ---
 # <a name="local-functionality-in-prodlong"></a>Lokale Funktion in [!INCLUDE[prodlong](includes/prodlong.md)]
 
@@ -25,7 +25,7 @@ Eine Liste der derzeit unterstützten Märkte finden Sie unter [Verfügbarkeit n
 
 ## <a name="local-functionality"></a>Lokale Funktionalität
 
-Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für jedes Land zu erfahren:
+Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für jedes Land/jede Region zu erfahren:
 
 | Region | Land | Weitere Informationen |
 | --- | --- |--- |
@@ -54,9 +54,11 @@ Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für j
 |        | Neuseeland | [Lokale Funktion (Neuseeland)](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Andere Länder
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land entwickelt hat, finden Sie diese in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist über Lokalisierungs-Apps auch in anderen Märkten verfügbar. Wenn ein Microsoft-Partner eine Lokalisierungs-App für Ihr Land/Ihre Region entwickelt hat, finden Sie diese in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Siehe auch
+
 [Erste Schritte](product-get-started.md)  
 [Kompatibilität](compliance/compliance-overview.md)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

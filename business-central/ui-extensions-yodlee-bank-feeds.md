@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ca384d58046bd0c798038878a3ed93f5a00eeec5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7ef9d8e7904b51956960973e06ca6d936acb1aa0
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189843"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666872"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Die Envestnet Yodlee Bank Feeds-Erweiterung
 Um die Zahlungen schnell abzustimmen, die an Ihre Bankkonten getätigt werden, kann der Envestnet Yodlee Bank Feeds Service Ihre Systembankkonten mit Ihrem Online Bankkonto verknüpfen. Das bedeutet, dass der letzte Bankkontoauszug automatisch oder manuell in Ihr Abstimmungsbuch.-Blatt gespeist wird und stellt sicher, dass immer die aktuelle Zahlungen mit minimalem Fehlerrisiko verarbeitet werden.
@@ -40,6 +40,9 @@ Der Envestnet Yodlee Bank Feeds Service bietet die folgenden Vorteile:
 * Hier aktuelle Informationen über Banktransaktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 * Unterstützt manuelle sowie automatische Bankfeeds.
 * Aktiviert das Outsourcing der Zahlungsabstimmung zu einem Buchhalter, indem das Bieten des Lagerzugang zu den Bankkontoauszügen bereitgestellt wird.
+
+## <a name="available-bank-feeds"></a>Verfügbare Bankfeeds
+Sie können prüfen, ob eine Bank unterstützt wird, indem Sie den Dienst Envestnet Yodlee Bank Feeds einrichten und sich mit ihm verbinden. Die Bank wird in der Liste angezeigt, wenn sie von Envestnet Yodlee unterstützt wird.
 
 Weitere Informationen finden Sie unter [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md).
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: ebdd92cf957df4c21d20c7809ddf10096404ba91
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496825"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617679"
 ---
 #  <a name="create-analysis-reports"></a>Analyseberichte erstellen
 Verkaufsleiter müssen regelmäßig Umsatz, Bruttogewinn sowie andere Verkaufsleistungsschlüsselindikatoren analysieren. Einkäufer sind eher an der Entwicklung des Einkaufsvolumens, der Leistung des Verkäufers und den Einkaufspreisen interessiert. Demgegenüber benötigen Logistik- und Lagerbestandsmanager Informationen zu Lagerumsatz, eine Analyse der Lagerbestandsumlagerung und Statistiken zum Lagerwert.  
@@ -45,7 +45,7 @@ Dann können Sie beispielsweise folgende Spalten erstellen:
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] fasst die Ergebnisse des Berichts auf der Seite **Analysebericht** basierend auf den eingerichteten Zeilen und Spalten zusammen, wie in der folgenden Tabelle gezeigt.  
 
-| |Verkäufe aktueller Monat|Verkäufe letzter Monat|Verkäufe letzter Monat %|  
+|- |Verkäufe aktueller Monat|Verkäufe letzter Monat|Verkäufe letzter Monat %|  
 |-|-|-|-|  
 |Computer| | | |  
 |Bildschirme| | | |  

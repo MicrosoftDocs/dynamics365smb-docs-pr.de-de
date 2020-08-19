@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: ade4481bcbbab6850396b722b95011ea677f4706
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 80615c9be6dfae679943f97144addb0fe9250844
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528380"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676975"
 ---
 # <a name="sales-vat-advance-notifications"></a>Umsatzsteuervoranmeldungen  
 Eine Umsatzsteuervoranmeldung in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ist eine XML-Datei, die Sie verwenden können, um MwSt die deutsche Steuerbehörden an dem das Elektronische Steuererklärungen (ELSTER) - Onlineportal zu melden. Die XML-Datei enthält Steuerbeträge und Bemessungsgrundlagen und Informationen über den Mandanten und wird im Format und im Layout erstellt, die deutsche Finanzämter benötigen.    
@@ -32,12 +32,12 @@ Um gültige Umsatzsteuervoranmeldungen zu erstellen, müssen Sie Folgendes einri
 - MwSt.-Abrechnung  
 
 ### <a name="to-set-up-company-information"></a>Um Unternehmensinformationen einzurichten:  
-1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Unternehmensinformationen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Unternehmensinformationen** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Firmendaten** im Inforegister Allgemein, im Feld **MwSt-Vertreter**, geben Sie die Kontaktperson für MwSt-bezogene Informationen ein.  
 3. Wählen Sie die Schaltfläche **OK** aus.  
 
 ### <a name="to-set-up-the-electronic-vat-decl-setup"></a>Elektronische Mehrwertsteuerdeklaration einrichten
-1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Einrichtung der elektronischen MwSt.-Erklärung** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Electronic VAT-Erkl.-Einrichtung** ein und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.
 
 |Feld|Description|
@@ -47,7 +47,7 @@ Um gültige Umsatzsteuervoranmeldungen zu erstellen, müssen Sie Folgendes einri
 |**Standardname der XML-Datei**|Geben Sie den Namen der Datei ein.|
 
 ### <a name="to-set-up-a-vat-statement-for-sales-vat-advance-notifications"></a>Um MwSt-Berichte für Umsatzsteuervoranmeldungs-Benachrichtigungen einzurichten  
-1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **MwSt.-Abrechnung** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") öffnet, geben Sie **MwSt.-Abrechnung** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie auf der Seite **MwSt-Bericht** im Feld **Name**, den Drop-Down-Pfeil.  
 3.  Auf der Seite **MwSt.-Abrechnungsnamen** in der Zeile für den entsprechenden MwSt.-Abrechnungsnamen wählen Sie das Feld **Verkaufs MwSt-Benachrichtigung** aus.
 
@@ -57,7 +57,7 @@ Um gültige Umsatzsteuervoranmeldungen zu erstellen, müssen Sie Folgendes einri
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
 ## <a name="to-create-an-xml-document-for-sales-vat-advance-notification"></a>So erstellen Sie ein XML-Dokument für Umsatzsteuervoranmeldung  
-1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“"), geben Sie **USt.-Voranmeldung** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Umsatzsteuer-Vorankündigungsliste** ein, und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Umsatzsteuervoranmeldungsliste** auf der Registerkarte Aktionen, wählen Sie **Neu** aus.  
 3. Füllen Sie auf der Seite **MehrwertsteuerLagerortkarte** die Felder nach Bedarf aus.
 4. Wählen Sie **Verarbeiten** und wählen die **XML-Datei erstellen** Aktion aus.  
