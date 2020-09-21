@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e222e133313147cecd94c8cb7f2644776ee1034a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: ffd2837365ec6cfb93528aa422603a68bc5d6788
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186260"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779786"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Einrichten der AMC Banking 365 Fundamentals-Erweiterung
 Ein globaler Diensteanbieter, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt, ist in [!INCLUDE[d365fin](includes/d365fin_md.md)] eingebunden und kann aktiviert werden. Dies wird in [!INCLUDE[d365fin](includes/d365fin_md.md)] als die AMC Banking 365 Fundamentals-Erweiterung bezeichnet.
@@ -24,19 +24,19 @@ Sie können Zahlungspositionen aus der Seite **Zahlungsausgangs Buch.-Blatt** in
 
 Sie können Bankkontoauszugsdateien in das **Zahlungsabstimmungsbuch.-Blatt** importieren, indem Sie die AMC Banking 365 Fundamentals-Erweiterung verwenden, um eine Datei zu erstellen, die Sie von Ihrer Bank mit einem Datenstream erhalten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] importiert werden kann. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Als Alternative zum Importieren von Bankkontoauszügen mit der AMC Banking 365 Fundamentals-Erweiterung können Sie den Envestnet Yodlee Bank Feeds Service verwenden. Weitere Informationen finden Sie unter [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md).
+Als Alternative zum Importieren von Bankkontoauszügen mit der AMC Banking 365 Fundamentals-Erweiterung können Sie den Dienst Envestnet Yodlee Bank Feeds verwenden. Weitere Informationen finden Sie unter [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md).
 
 Um Bankdateien zu importieren oder zu exportieren, müssen Sie Ihre eigenen Bankkonten und jene des Kreditors einrichten. Weitere Informationen finden Sie unter [So geht's: Einrichten von Bankkonten](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
-> Die AMC Banking 365 Fundamentals-Erweiterung legt möglicherweise einen Höchstwert für die Anzahl der Zeilen fest, die in einer Datei exportiert werden können. Sie erhalten eine Fehlermeldung, wenn der Grenzwert überschritten wird. Es wird empfohlen, das Bankkontoauszugsdateien 1000 Zeilen nicht überschreiten, da die Verarbeitungszeit in der AMC Banking 365 Fundamentals-Erweiterung sich andernfalls erheblich erhöht.
+> Die AMC Banking 365 Fundamentals-Erweiterung legt möglicherweise einen Höchstwert für die Anzahl der Zeilen fest, die in einer Datei exportiert werden können. Sie erhalten eine Fehlermeldung, wenn der Grenzwert überschritten wird. Es wird empfohlen, dass Bankkontoauszugsdateien 1.000-Zeilen nicht überschreiten, da sich die Verarbeitungszeit in der AMC Banking 365 Fundamentals-Erweiterung andernfalls erheblich erhöht.
 
 ## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>So registrieren Sie Ihr Unternehmen für die AMC Banking 365 Fundamentals-Erweiterung
 1. Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Einrichtung Bankdaten-Konvertierungsservice**, und wählen Sie dann den entsprechenden Link.  
 2. Die Seite **Einrichtung Bankdaten-Konvertierungsservice** wird geöffnet und zeigt drei Felder an, die mit relevanten URLs des Anbieters der AMC Banking 365 Fundamentals-Erweiterung vorab ausgefüllt sind.
 
     > [!NOTE]  
-    >   In der Demodatenbank von CRONUS International Ltd. werden die Felder „Benutzername“ und „Kennwort“ mit Demoanmeldungsinformationen vorausgefüllt, die Sie mit den tatsächlichen Informationen Ihres Unternehmens ersetzen müssen, wenn Sie sich für die AMC Banking 365 Fundamentals-Erweiterung registrieren.
+    >   In der Demodatenbank von CRONUS International Ltd. werden die Felder „Benutzername“ und „Kennwort“ vorab mit Demoanmeldungsinformationen ausgefüllt, die Sie durch die tatsächlichen Informationen Ihres Unternehmens ersetzen müssen, wenn Sie sich für die AMC Banking 365 Fundamentals-Erweiterung registrieren.
 3. Wählen Sie im Feld **Registrierungs-URL** die Browserschaltfläche, um die Registrierungsseite des Dienstanbieters zu öffnen.  
 4. Geben Sie auf der Registrierungsseite des Bankdatendienstanbieters den Benutzernamen und das Kennwort für das Abonnement Ihres Unternehmens ein, und schließen Sie dann die Anmeldung ab, wie von dem Dienstanbieter angewiesen.
 

@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
-ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
+ms.author: edupont
+ms.openlocfilehash: 4bf794dd423a2049887eb1a4fe725a091fdbd190
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3549867"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781185"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 Da [!INCLUDE[prodshort](includes/prodshort.md)] ein Cloud-Service ist, kann er keine lokalen Drucker erreichen, die mit den Rechnern der Benutzer verbunden sind. Sie kann jedoch mit Cloud-fähigen Druckern verbunden werden. In der generischen Version von [!INCLUDE[prodshort](includes/prodshort.md)] wird ein Cloud-Drucker namens **E-Mail-Drucker** als Erweiterung installiert und ist nach der Ersteinrichtung einsatzbereit.

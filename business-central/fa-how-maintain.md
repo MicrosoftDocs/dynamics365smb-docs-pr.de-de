@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: fe0820b7dfcf3cc47bc437b340443cbe05aa4a4c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e4231aeba309c86802974c7b709c8c28ca044345
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184412"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781010"
 ---
 # <a name="maintain-fixed-assets"></a>Anlagen verwalten
 Wartungsausgaben sind periodische Kosten, die dem Werterhalt von Anlagen dienen. Im Gegensatz zu Kapitalerhöhungen wird der Wert dabei nicht erhöht.

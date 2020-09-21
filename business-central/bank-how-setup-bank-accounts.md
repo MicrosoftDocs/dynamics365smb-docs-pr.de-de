@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 06/16/2020
-ms.author: sgroespe
-ms.openlocfilehash: efe8f360e676e3aac4372b8046e724727dd4a9f3
-ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
+ms.author: edupont
+ms.openlocfilehash: a8c055dcca0c529ff62e32efa00bff359466aaba
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3459005"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779811"
 ---
 # <a name="set-up-bank-accounts"></a>Bankkonten einrichten
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden Sie Bankkonten, um Ihre Banktransaktionen nachzuvollziehen. Konten können in Mandantenwährung oder in Fremdwährung geführt werden. Nachdem Sie Bankkonten eingerichtet haben, können Sie auch Schecks drucken.<br><br>  

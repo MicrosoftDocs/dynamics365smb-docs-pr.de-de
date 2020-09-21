@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/08/2020
-ms.author: sgroespe
-ms.openlocfilehash: 91deb76c15fe5a35c698cbec82c75684e5b0dc70
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.author: edupont
+ms.openlocfilehash: 22afb13b526e77783810ac2c45c283eac6b4f951
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542644"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779885"
 ---
 # <a name="create-routings"></a>Routings erstellen
 

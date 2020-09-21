@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 07/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: 692eb7c5856e7c80f8ab047882539276e1829e45
-ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
+ms.author: edupont
+ms.openlocfilehash: 08fcc6ff958b7ac756d75b12e1558add936fe9b4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534771"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781710"
 ---
 # <a name="invoice-sales"></a>Fakturieren eines Verkaufs
 

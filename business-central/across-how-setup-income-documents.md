@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 08/10/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7438502e14d1aa0eecdd56db0eb4ae2f2790413a
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 1b0942c53f435a79cae733fe4d7287e628cf7478
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677116"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780510"
 ---
 # <a name="set-up-incoming-documents"></a>Einrichten von eingehenden Belegen
 

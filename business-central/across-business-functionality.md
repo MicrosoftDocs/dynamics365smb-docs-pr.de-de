@@ -1,5 +1,5 @@
 ---
-title: Unternehmens-Funktionen unterstützt durch Business Central| Microsoft Docs
+title: Geschäftsfunktionen unterstützt durch Business Central
 description: Stellt eine Funktion für alle Abteilungen und Geschäftsfunktionen bereit, die durch Anwendungsbereichen wie z. B. Finanzen, Lager und Projektmanagement unterstützt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5bdc19028a6859d1bee795de766416ada535b474
-ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
+ms.date: 08/27/2020
+ms.author: edupont
+ms.openlocfilehash: 7c78106eaf843435ea41e06c0388cd54e1e3dde4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499516"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780761"
 ---
 # <a name="business-functionality"></a>Geschäftsfunktionen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik.

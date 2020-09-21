@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
 ms.date: 07/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: 529985b477da5079beadc5c4014aa9bdfd3ecb6c
-ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
+ms.author: edupont
+ms.openlocfilehash: 4c96c9d844b22d81978b01a266736c05e25e1036
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534796"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780835"
 ---
 # <a name="sell-products"></a>Produkte verkaufen
 

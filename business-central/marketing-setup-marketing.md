@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/30/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8fb9975508cccaeb0f5a0dec4d6e43db4df9fc14
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: 976d2ec94ba895894323b3021d51811abff88cef
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529138"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781510"
 ---
 # <a name="setting-up-relationship-management"></a>Marketing & Vertrieb einrichten
 

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/08/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6e2b2c7dcde7de247c23ab9f818f2c66cf4a4a77
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.author: edupont
+ms.openlocfilehash: 498b3410ee635a4e31b9bd20e509950541371c43
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542593"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779960"
 ---
 # <a name="set-up-standard-routing-lines"></a>Einrichten von Aufgabenzeilen
 

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.date: 07/21/2020
-ms.author: sgroespe
-ms.openlocfilehash: 58cbec2b697a0fdabd5749000ea94145d07fc62f
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.author: edupont
+ms.openlocfilehash: 867fddce799fb7e005a5a34a4c22975336375801
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611509"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780735"
 ---
 # <a name="edit-posted-documents"></a>Gebuchte Belege bearbeiten
 

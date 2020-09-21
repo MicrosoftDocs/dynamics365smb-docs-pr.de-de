@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
 ms.date: 06/24/2020
-ms.author: sgroespe
-ms.openlocfilehash: cc48c7c55edac8af9333dd04661a828c528621b8
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.author: edupont
+ms.openlocfilehash: 3e25756cff974e0db835f5e3ed3247dff6d7624a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503973"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780884"
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
 

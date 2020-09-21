@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/22/2020
-ms.author: sgroespe
-ms.openlocfilehash: 36405d80a021e6d3675a20c0283421c49aabd23b
-ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
+ms.author: edupont
+ms.openlocfilehash: 371f9c8629d699d7c07f2d72c99b8b64fac3b4b9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499566"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780335"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Verwenden von Arbeitszeittabellen für Projekte
 

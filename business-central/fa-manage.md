@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf893e2f8ea7eaeee9867566da92461eef7a9578
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.author: edupont
+ms.openlocfilehash: fdcced8a62cb64f28d3e4d274271c4cf8f27d0d7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666797"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780260"
 ---
 # <a name="fixed-assets"></a>Anlagen
 Die Anlagenfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt Ihnen einen Überblick über Ihre Anlagen und stellt die korrekten periodischen Abschreibungen sicher. Außerdem erhalten Sie dort einen Überblick über die Wartungskosten, können die Versicherungen verwalten, Anlagentransaktionen buchen und verschiedene Berichte und Statistiken generieren.
@@ -51,7 +51,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 ## <a name="video-overview"></a>Videoübersicht
 Das folgende Video behandelt die Grundlagen des Anlagevermögens.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
 ## <a name="see-also"></a>Siehe auch
 [Anlagen einrichten](fa-setup.md)  

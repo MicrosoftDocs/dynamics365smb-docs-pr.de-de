@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2020
-ms.author: sgroespe
-ms.openlocfilehash: 46dc891937ec4046a0403ca418296d1d7ee24a99
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: 8e6f248768f558f3bc5e12002234ffb56b006759
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529313"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780010"
 ---
 # <a name="set-up-put-away-templates"></a>Einlagerungsmethoden einzurichten
 

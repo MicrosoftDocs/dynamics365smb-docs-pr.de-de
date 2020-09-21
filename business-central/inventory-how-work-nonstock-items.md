@@ -10,19 +10,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a13eec5bd1df674da6255f732b5f68c8a7fcbaf6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e4db83e4d2e3efffc1523fe3eadb65a14b431027
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181844"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781035"
 ---
 # <a name="work-with-catalog-items"></a>Arbeiten mit Katalogartikeln
 Sie können Ihren Debitoren bestimmte Artikel als Dienstleistung anbieten, die Sie nicht im Lager verwalten möchten, bis Sie den Verkauf sie starten. Wenn Sie damit beginnen wollen, solche Artikel im Lager zu verwalten, können Sie sie auf zwei Arten in normale Artikelkarten umwandeln.
 
 * Erstellen Sie eine neue Artikelkarte aus der Katalogartikelkarte auf Basis einer Vorlage.
-* Wählen Sie aus einer Auftragsposition des Typs **Artikel** mit einem leeren ***Nummern*** Katalog-Feld einen Artikel, der nicht an Lager ist. Eine Artikelkarte wird automatisch für den Katalog-Artikel erstellt.
+* Wählen Sie aus einer Auftragsposition des Typs **Artikel** mit einem leeren **Nummern**Katalog-Feld einen Artikel, der nicht an Lager ist. Eine Artikelkarte wird automatisch für den Katalog-Artikel erstellt.
 
 > [!NOTE]  
 > Sie können auf der Seite Katalogartikel keine **Verkaufsrechungen**auswählen.<br /><br />
