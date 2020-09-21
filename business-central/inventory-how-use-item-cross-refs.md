@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1b914c3c1c5e640894f1ee48639c547421c27be4
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.author: edupont
+ms.openlocfilehash: 2c676af23e5a6e988ab5d89d07118b9ff1cce86b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484034"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777961"
 ---
 # <a name="use-item-cross-references"></a>Artikelreferenzen verwenden
 Wenn Sie eine Artikelreferenzen zwischen der Artikelbeschreibung definieren, die Sie für den Artikel und die Beschreibung verwenden, die der Kreditor dieses Artikels verwendet, wird die Artikelbeschreibung des Kreditors automatisch auf Verkaufsbelegen für den Kreditor eingegeben, wenn Sie die **Referenznr.** ausfüllen Feld Dieselbe Funktionalität gilt für Debitorenartikelnummern in Verkaufsbelegen.

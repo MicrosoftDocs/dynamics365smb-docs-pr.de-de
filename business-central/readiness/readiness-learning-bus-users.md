@@ -4,13 +4,13 @@ description: Hier finden Sie alle verfügbaren Informationen für Business Centr
 author: loreleishannonmsft
 ms.date: 04/20/2020
 ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.author: margoc
+ms.openlocfilehash: 8fabcd929ecd2ebe0ed81f16625f9ad8aca3ff1f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271942"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778841"
 ---
 # <a name="business-users-learning-catalog"></a>Lernkatalog für Geschäftsanwender
 

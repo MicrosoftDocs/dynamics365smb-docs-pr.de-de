@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
 ms.date: 07/06/2020
-ms.author: SorenGP
-ms.openlocfilehash: 7251be2de0cd8b368f0510596b0c695a93acc4b6
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: edupont
+ms.openlocfilehash: 52d1846ce71a651dabfd099ced203648c0242082
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535947"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777791"
 ---
 # <a name="set-up-units-of-measure"></a>Einheiten einrichten
 

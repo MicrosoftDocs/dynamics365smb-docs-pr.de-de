@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7f8e7eb99e52fc3643028ca3c33ef178a3fde9f4
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.author: edupont
+ms.openlocfilehash: e07f50396e0bf892c78484f16c23bd76c1a45398
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503773"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779461"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Artikel mit der Lagerkommissionierung kommissionieren
 

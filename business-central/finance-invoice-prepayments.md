@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7bb145fc93c6adadf13e41317b0ce1ee79bb32d3
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.author: edupont
+ms.openlocfilehash: 3d8230c46f0c891d30cb75d79d71d5913657f809
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503467"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777816"
 ---
 # <a name="invoicing-prepayments"></a>Fakturieren von Vorauszahlungen
 

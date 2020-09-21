@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 805a8be94ccd38ffa696fe19157a08f4772c9ef3
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529088"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693099"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Testversionen und Abonnements
 
@@ -68,7 +68,7 @@ Wenn Sie Ihrer [!INCLUDE[prodshort](includes/prodshort.md)]-Testversion Daten hi
 
 ## <a name="getting-started-with-a-subscription"></a>Erste Schritte mit einem Abonnement
 
-Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Reselling-Partner?](across-faq.md#findpartner). Der Wiederverkaufspartner kann Ihnen helfen, [!INCLUDE[prodshort](includes/prodshort.md)] so einzurichten, dass es zu Ihrem Unternehmen passt, einschließlich des Imports Ihrer Daten aus Ihrem früheren System. Sie können [!INCLUDE[prodshort](includes/prodshort.md)] auch anpassen, indem Sie Anwendungen aus [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central) hinzufügen.  
+Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Reselling-Partner?](across-faq.md#findpartner). Der Wiederverkaufspartner kann Ihnen helfen, [!INCLUDE[prodshort](includes/prodshort.md)] so einzurichten, dass es zu Ihrem Unternehmen passt, einschließlich des Imports Ihrer Daten aus Ihrem früheren System. Sie können [!INCLUDE[prodshort](includes/prodshort.md)] auch anpassen, indem Sie Anwendungen aus [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646) hinzufügen.  
 
 [!INCLUDE[prodshort](includes/prodshort.md)] online verwendet Office 365. Wenn Ihr Unternehmen eine andere Art der E-Mail-Einrichtung verwendet, kann der Weiterverkaufspartner Ihnen bei der Entscheidung helfen, wie Sie migrieren möchten oder ob Sie [!INCLUDE[prodshort](includes/prodshort.md)] lokal verwenden sollten.  
 

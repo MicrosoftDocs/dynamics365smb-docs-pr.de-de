@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3fe1a3dca9a5ab1d561ff0ad9c1b4f2ab45dc990
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 4db91ff9973a1ad63bc651c2e2c07c16630d4d73
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676550"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779111"
 ---
 # <a name="set-up-delivery-reminders"></a>Gewusst wie: Einrichten von Lieferbenachrichtigungen
 

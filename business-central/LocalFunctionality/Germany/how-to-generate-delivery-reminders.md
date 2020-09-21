@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9a0454a0541d9c629667986265e1118071466b53
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: e74c4b16c057e2f3c2387c0099d3378f09258f34
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676989"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778598"
 ---
 # <a name="generate-delivery-reminders"></a>So erstellen Sie Lieferanmahnungen
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können eine einzelne Lieferbenachrichtigung manuell erstellen oder Sie können Lieferbenachrichtigungen für alle überfälligen Lieferungen erstellen. Weitere Informationen finden Sie unter [Gewusst wie: Erstellen von manuellen Lieferbenachrichtigungen](how-to-create-delivery-reminders-manually.md).  

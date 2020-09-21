@@ -227,9 +227,17 @@
 ### [Synchronisieren mit Kontakten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Nutzung von Business Central ohne Outlook](admin-no-outlook.md)
 ## Verwenden von Power BI mit Business Central
-### [Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)
-### [Anzeigen von Listendaten in Power BI-Berichten in Business Central](across-how-use-powerbi-reports-factbox.md)
-### [Verwenden von Business Central als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)
+### [Einführung](admin-powerbi.md)
+### Administrator
+#### [Übersicht über die Integration](admin-powerbi-overview.md)
+#### [Ermöglichen der Power BI-Integration](admin-powerbi-setup.md)
+### Designerin
+#### [Erste Schritte beim Erstellen von Berichten](across-how-use-financials-data-source-powerbi.md)
+#### [Erstellen von Berichten zum Anzeigen von Listendaten](across-how-use-powerbi-reports-factbox.md)
+### Verbraucher
+#### [Arbeiten mit Power BI-Berichten in Business Central](across-working-with-powerbi.md)
+#### [Arbeiten mit Business Central-Daten in Power BI](across-working-with-business-central-in-powerbi.md)
+#### [Verwenden der Business Central-Apps in Power BI](across-powerbi-business-central-apps.md)
 ## Verwenden von Power Automate mit Business Central
 ### [Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)
 ## Verwenden von Power Apps mit Business Central
@@ -424,8 +432,6 @@
 #### [Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung.](receivables-how-review-apply-payments-auto-application.md)
 #### [Zahlungen abstimmen, die nicht automatisch ausgeglichen werden können](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Zuordnen von Text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-### [Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-### [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md)
 ### [Abstimmen von Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten](payables-how-apply-purchase-transactions-manually.md)
 ### [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)
 ### [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
@@ -1170,7 +1176,6 @@
 #### [Zahlungsverlauf erstellen und exportieren](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 #### [Importieren und Abstimmen von Bankabrechnungen](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 ### Kernfinanzierung
-#### [Sachposten](LocalFunctionality/Netherlands/general-ledger.md)
 #### [Ausgleichen und Ausgleich Aufheben von Sachposten](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Notwendige Beschreibungen in den Sachkosten](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 ### Einkauf

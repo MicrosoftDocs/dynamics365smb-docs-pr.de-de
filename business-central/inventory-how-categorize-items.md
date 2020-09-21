@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 06/22/2020
-ms.author: sgroespe
-ms.openlocfilehash: 206a7bcfe9152102dffbb9b2653c273dc8a27cdd
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: 9d474f4e4b8381795405e11b1c3513cbf8a7ed90
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528563"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777591"
 ---
 # <a name="categorize-items"></a>Artikel kategorisieren
 

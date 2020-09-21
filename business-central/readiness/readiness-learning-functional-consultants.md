@@ -4,13 +4,13 @@ description: Hier finden Sie alle verfügbaren Informationen für Business Centr
 author: loreleishannonmsft
 ms.date: 04/20/2020
 ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: eba4c2c1badc0b686d50b23c8e47600f1cdbed3f
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.author: margoc
+ms.openlocfilehash: 94acf3aeedebd243d11a6a0ccd8dff31d8f6936f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372640"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779236"
 ---
 # <a name="functional-consultant-learning-catalog"></a>Funktionsberater Lernkatalog
 

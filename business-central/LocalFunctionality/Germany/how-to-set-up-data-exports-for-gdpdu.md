@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bd32da673809a11a2509ce6a84322851c9e777c8
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: b4a44f4ef0072f27a45dad320f5b19d79350f0fb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677220"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779118"
 ---
 # <a name="set-up-data-exports-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung einrichten
 Sie müssen die Exportdatensatzquellen einrichten, um die Daten für eine digitale Prüfungen zu exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen.  
@@ -106,4 +106,4 @@ Dies überprüft die Liste der Felder anhand der Schlüssel für die Tabellen. W
 
 ## <a name="see-also"></a>Siehe auch  
 [Prozess für Digital-Überwachung (GoBD/GDPdU)](process-for-digital-audits.md)   
-[Wie Sie Daten für eine Digital-Überwachung exportieren](how-to-export-data-for-a-digital-audit.md)
+[Daten für eine digitale Prüfung exportieren](how-to-export-data-for-a-digital-audit.md)

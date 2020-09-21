@@ -7,19 +7,24 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1e129947d6230578b5c553fd985030e2f5ebc5c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cde057fe727290a816f748b0c115ef865b2465a3
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182828"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701865"
 ---
 # <a name="set-up-prepayments"></a>Vorauszahlungen einrichten
 Wenn Sie von Ihren Debitoren erwarten, dass diese vor der Lieferung eines Auftrags eine Vorauszahlung leisten oder wenn der Kreditor von Ihnen eine Vorauszahlung vor Lieferung erwartet, können Sie die Funktion "Vorauszahlung" verwenden. Mithilfe der Vorauszahlungsfunktion können Sie Anzahlungen von Debitoren fakturieren und einfordern oder Anzahlungen an Kreditoren leisten, und um sicherzustellen, dass alle Teilzahlungen für eine Rechnung gebucht werden. Weitere Informationen finden Sie unter [Vorauszahlungsrechnungen erstellen](finance-how-to-create-prepayment-invoices.md).
 
 Damit Vorauszahlungsrechnungen gebucht werden können, müssen in der Finanzbuchhaltung zunächst die Buchungskosten sowie die Nummernserien für Vorauszahlungsbelege eingerichtet werden. Sie müssen ein Konto für Vorauszahlungen im Zusammenhang mit Verkäufen und ein Konto für Vorauszahlungen im Zusammenhang mit dem Einkauf angeben. Sie können dieselben Buchungskonten angeben, die für alle Vorauszahlungen für alle allgemeinen Geschäftsbuchungsgruppen oder allgemeinen Produktbuchungsgruppen verwendet werden sollen, oder Sie können bestimmte Konten für bestimmte Buchungsgruppen für den Verkauf bzw. Einkauf angeben. Dies hängt von den Anforderungen Ihres Unternehmens zur Nachverfolgung von Vorauszahlungen ab.  
 
-Sie können den Prozentsatz des zur Zahlung fakturierten Zeilenbetrags für einen Debitor, einen Kreditor, für alle Artikel oder für ausgewählte Artikel definieren. Nach dem Festlegen der Einstellungen können Vorauszahlungsrechnungen auf der Grundlage von Aufträgen und Bestellungen generiert werden. Sie können für jede Verkaufs- oder Einkaufszeile entweder die standardmäßigen Prozentsätze verwenden oder die Beträge der Rechnungen gemäß Ihren Anforderungen anpassen. So können Sie beispielsweise den Gesamtbetrag für den gesamten Auftrag angeben.  
+Sie können den Prozentsatz des zur Zahlung fakturierten Zeilenbetrags für einen Debitor, einen Kreditor, für alle Artikel oder für ausgewählte Artikel definieren. Nach dem Festlegen der Einstellungen können Vorauszahlungsrechnungen auf der Grundlage von Aufträgen und Bestellungen generiert werden. Sie können für jede Verkaufs- oder Einkaufszeile entweder die standardmäßigen Prozentsätze verwenden oder die Beträge der Rechnungen gemäß Ihren Anforderungen anpassen. So können Sie beispielsweise einen Gesamtbetrag für den gesamten Auftrag angeben.  
+
+> [!NOTE]
+> Wir empfehlen, in den folgenden Fällen keinen Vorauszahlungsprozentsatz von 100 % zu verwenden:
+> * Wenn Sie sich in Nordamerika befinden. Aufgrund der Berechnung der Steuern kann ein Vorauszahlungsprozentsatz von 100 % zu Problemen mit Vorauszahlungsrechnungen führen.
+> * In allen Regionen, wenn Sie manuell ein Skonto von der Rechnung abziehen. Bei einem Vorauszahlungsprozentsatz von 100 % verbleibt nicht automatisch ein Betrag, von dem das Skonto abgezogen werden kann. 
 
 Da der vorausgezahlte Betrag Eigentum des Käufers ist, bis dieser die Ware oder die Leistung erhalten hat, müssen Sie Sachkonten einrichten, auf denen die Vorauszahlungsbeträge bis zur Buchung der abschließenden Rechnung erfasst werden. Vorauszahlungen für Verkaufsaufträge müssen auf einem Verbindlichkeitskonto gebucht werden, bis die Artikel geliefert wurden. Vorauszahlungen für Bestellungen müssen auf einem Anlagenkonto erfasst werden, bis die Artikel eingegangen sind. Darüber hinaus müssen Sie ein separates Sachkonto für jedes MwSt.-Kennzeichen einrichten.  
 

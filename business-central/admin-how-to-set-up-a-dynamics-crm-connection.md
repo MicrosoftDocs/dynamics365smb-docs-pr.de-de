@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: e6ee18367ad229ab56d694d0bbac23e1959b1a5f
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619410"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701992"
 ---
 # <a name="connect-to-common-data-service"></a>Mit Common Data Service verbinden
 
@@ -71,7 +71,7 @@ Die folgende Prozedur beschreibt, wie die Verbindung auf der Seite **CDS-Verbind
     |Feld|Beschreibung|
     |-----|-----|
     |**[!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzer müssen CDS-Benutzern zugeordnet sein**|Wenn Sie das Personenbesitzmodell verwenden, geben Sie an, ob [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzerkonten über übereinstimmende Benutzerkonten in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verfügen müssen. Die **Office 365-Authentifizierungs-E-Mail** des [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzers muss mit der **Primären E-Mail** des [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzers identisch sein.<br /><br /> Wenn Sie den Wert auf **Ja** festlegen, werden [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzer, die kein zugeordnetes [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzerkonto haben, keine [!INCLUDE[d365fin](includes/d365fin_md.md)]-Integrationsfunktionen auf der Benutzeroberfläche haben. Der Zugriffs auf [!INCLUDE[crm_md](includes/crm_md.md)]-Daten direkt von [!INCLUDE[d365fin](includes/d365fin_md.md)] wird im Auftrag des [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzerkontos ausgeführt.<br /><br /> Wenn Sie den Wert auf **Nein** festlegen, werden alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzer [!INCLUDE[crm_md](includes/crm_md.md)]-Integrationsfunktionen auf der Benutzeroberfläche haben. Der Zugriffs auf [!INCLUDE[crm_md](includes/crm_md.md)]-Daten wird im Auftrag des [!INCLUDE[crm_md](includes/crm_md.md)]-Verbindungs-(Integrations-)Benutzers ausgeführt.|
-    |**Der aktuelle Business Central-Verkäufer ist einem Benutzer zugeordnet**|Gibt an, ob Ihr Benutzerkonto einem Konto in zugeordnet ist [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field|-->
+    |**Der aktuelle Business Central-Verkäufer ist einem Benutzer zugeordnet**|Gibt an, ob Ihr Benutzerkonto einem Konto ist [!INCLUDE[crm_md](includes/crm_md.md)] zugeordnet ist <!--double check the name of this field-->|
 
 4. Um die Verbindungseinstellungen zu testen, wählen Sie **Verbindung**, und dann **Verbindung testen**.  
 

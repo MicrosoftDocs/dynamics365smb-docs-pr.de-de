@@ -4,13 +4,13 @@ description: Lernkatalog für Geschäftsentscheider
 author: loreleishannonmsft
 ms.date: 04/01/2020
 ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 1e02527e370308f5332a0453b0e05f3838b0194a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: margoc
+ms.openlocfilehash: 291880649b33727e7aec05f698939f1683b1af09
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190875"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778790"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Lernkatalog für Geschäftsentscheider
 

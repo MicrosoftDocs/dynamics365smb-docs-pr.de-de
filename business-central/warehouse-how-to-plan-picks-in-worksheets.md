@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6bb88f675bfbc9bca0b364f758c39059c0cbab29
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.author: edupont
+ms.openlocfilehash: c78ca553c940fe59a33021e9804f4bc9eedec670
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503694"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779436"
 ---
 # <a name="plan-picks-in-worksheets"></a>Kommissionierungen im Vorschlag bearbeiten
 

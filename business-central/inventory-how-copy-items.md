@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f24aaa74238ab9db836751adc78984248f19579
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.author: edupont
+ms.openlocfilehash: 5b60d8f9ede1be72fce5f5dd61afc5398220d2f2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484136"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777691"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Kopieren von vorhandenen Artikeln um neue Artikel zu erstellen
 

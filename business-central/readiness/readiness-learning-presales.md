@@ -4,13 +4,13 @@ description: Hier finden Sie alle verfügbaren Informationen für Business Centr
 author: loreleishannonmsft
 ms.date: 08/10/2020
 ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 547d02d6a1fb76ae5f3ad64feb265b69edf0bf64
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: margoc
+ms.openlocfilehash: 59653a67bd300a8359a82648e3bac6b919d2b233
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676821"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779162"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Vorverkauf-Lernkatalog für Partner
 

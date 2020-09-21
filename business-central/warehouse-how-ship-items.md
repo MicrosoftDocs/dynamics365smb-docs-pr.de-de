@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: 65ae47563a55e94a726a2608c71718beedba2ceb
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.author: edupont
+ms.openlocfilehash: 9beffaa8e881717506d0c471b9e8bfb9feaf3168
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535365"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779134"
 ---
 # <a name="ship-items"></a>Versenden von Artikeln
 

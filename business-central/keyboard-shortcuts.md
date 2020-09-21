@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2020
+ms.date: 09/02/2020
 ms.author: bholtorf
-ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
+ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528488"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3765946"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -166,7 +166,7 @@ Folgende Verknüpfungen gehören zur Schnelleingabefunktion auf Karten, Belegen 
 |Umschalt+Eingabe|Bestätigen Sie den Wert im aktuellen Feld und wechseln Sie zum vorherigen Schnelleingabefeld.||
 |STRG+UMSCHALT+EINGABE|Bestätigen Sie den Wert in der aktuellen Spalte und wechseln Sie zum nächsten Schnelleingabefeld außerhalb der Liste.<br /><br />Dieses Tastenkürzel gilt für eingebettete Listen auf einer Seite wie Positionsartikel in einem Verkaufsauftrags. Damit gelangen Sie schnell aus Listen und können die Dateneingabe in anderen Feldern der Seite fortsetzen.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tastenkombinationen im Kalender (Datumsauswahl)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a> Tastenkombinationen im Kalender (Datumsauswahl)
 
 Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeben oder festlegen oder einen Kalender (Datumsauswahl) öffnen, in dem Sie das Datum auswählen können Sie, das Sie möchten. Die folgende Tabelle beschreibt die Tastenkombinationen für den Kalender.
 
@@ -185,12 +185,13 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |Seite nach oben|Navigieren zum vorherigen Monat.|  
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Tastenkombinationen in Datumsfeldern
+
 |Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
 |h|Geben Sie das aktuelle Datum ein. „T“ bedeutet „heute“.|
 |a|Geben Sie das Arbeitsdatum ein. Weitere Informationen finden Sie unter [Arbeitsdatum](ui-change-basic-settings.md#work-date)|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Tastenkombinationen in der Berichtsvorschau
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Tastenkombinationen in der Berichtsvorschau
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|

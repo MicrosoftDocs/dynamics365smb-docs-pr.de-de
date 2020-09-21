@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 05/27/2020
+ms.date: 08/12/2020
 ms.author: andreipa
-ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: fbc512242a335a938b6280e749f5278947e0db5e
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410787"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693149"
 ---
 # <a name="work-with-recurring-revenue-in-d365fin"></a>Arbeiten mit wiederkehrenden Umsätzen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -107,7 +107,7 @@ Weitere Informationen finden Sie unter [Wiederkehrende Aufträge (Norwegen)](/lo
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Wiederkehrende Umsätze und Abonnementabrechnungen durch andere Anbieter
 
-Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Erweiterungen für Business Central abrufen. Einige Erweiterungen werden von Microsoft bereitgestellt, und andere Erweiterungen werden von anderen anderen Unternehmen bereitgestellt. Die Liste der Erweiterungen durch andere Unternehmen wächst jeden Monat. Rufen Sie regelmäßig [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) auf und holen Sie sich die Apps, die Ihnen das Arbeiten in Business Central erleichtern.  
+Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Erweiterungen für Business Central abrufen. Einige Erweiterungen werden von Microsoft bereitgestellt, und andere Erweiterungen werden von anderen anderen Unternehmen bereitgestellt. Die Liste der Erweiterungen durch andere Unternehmen wächst jeden Monat. Rufen Sie regelmäßig [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) auf und holen Sie sich die Apps, die Ihnen das Arbeiten in Business Central erleichtern.  
 
 ## <a name="see-also"></a>Siehe auch
 

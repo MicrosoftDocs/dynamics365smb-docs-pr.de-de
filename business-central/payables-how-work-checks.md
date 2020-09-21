@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503798"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777986"
 ---
 # <a name="make-check-payments"></a>Zahlung per Scheck machen
 
@@ -47,7 +47,7 @@ Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Sc
 6. Füllen Sie auf der Seite **Scheck** die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Wenn Ihr Drucker zum Drucken von Schecks eingerichtet ist, wählen Sie die Schaltfläche **Drucken** aus. Andernfalls wählen Sie die Schaltfläche **Senden an**, die Option **PDF-Dokument** und dann die Schaltfläche **OK** aus, und drucken Sie anschließend das PDF-Dokument.
 
-    Die Warenkontrollen können jetzt bereitgestellt werden für die Bank für die Bearbeitung. Fahren Sie fort, um die Zahlung für den Kreditor und im System als bezahlt zu buchen.
+    Die physischen Schecks können jetzt zur Bearbeitung an die Kreditoren gesendet werden. Fahren Sie fort, um die Zahlung für den Kreditor und im System als bezahlt zu buchen.
 8. Wählen Sie die Aktion **Buchen** aus.
 
 Völlig ausgeglichene Kreditorenposten und Bankposten werden erstellt.
@@ -61,7 +61,11 @@ Sie können nicht gebuchte Schecks stornieren, nachdem sie gedruckt wurden, inde
 1. Wählen Sie auf der Seite **Zahlungsausgangs Buch.-Blatt** **Scheck annullieren** aus, und wählen Sie aus, welche Prüfungen durchgeführt zum stornieren mit den Schecks durchgeführt werden.
 
 ## <a name="to-void-checks"></a>Annullieren von Schecks
+
 Wenn Scheckzahlung gebucht wurden, können Sie Schecks aus den resultierenden Bankposten nur stornieren (annulieren).
+
+> [!IMPORTANT]
+> Wenn der Scheck auf eine Rechnung angewendet wird, heben Sie den Scheck zuerst auf, damit die Rechnung zurückgezahlt werden kann, und stornieren Sie dann den Scheck. Wenn der Scheck gedruckt und keine Rechnung damit bezahlt wurde, wählen Sie **Scheck nur annullieren** aus, wie in diesem Abschnitt beschrieben.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Bankkonten** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie das entsprechende Bankkonto aus, wählen Sie die **Bearbeiten**-Aktion aus, und wählen Sie dann die **Scheckposten**-Aktion aus.

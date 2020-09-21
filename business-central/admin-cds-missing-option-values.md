@@ -8,12 +8,12 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196864"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693024"
 ---
 # <a name="handling-missing-option-values"></a>Behandlung fehlender Optionswerte
 [!INCLUDE[d365fin](includes/cds_long_md.md)] enthält nur drei Optionssatzfelder, die Optionswerte enthalten, die Sie den [!INCLUDE[d365fin](includes/d365fin_md.md)]-Feldern des Optionstyps zuordnen können<!-- Option type, not enum? @Onat can you vertify this? --> für die automatische Synchronisation. Während der Synchronisation werden nicht abgebildete Optionen ignoriert und die fehlenden Optionen werden an die zugehörige [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle angehängt und der **CDS-Optionszuordnung**-Systemtabelle hinzugefügt, um später manuell behandelt zu werden. Zum Beispiel, indem er die fehlenden Optionen in einem der beiden Produkte hinzufügt und dann die Zuordnung aktualisiert. Dieser Abschnitt beschreibt, wie das funktioniert.
@@ -99,6 +99,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 
 > [!IMPORTANT]  
 > Sie müssen die gleichen Options-ID-Werte von [!INCLUDE[d365fin](includes/cds_long_md.md)] verwenden, wenn Sie die Aufzählung [!INCLUDE[d365fin](includes/d365fin_md.md)] erweitern. Andernfalls wird die Synchronisation fehlschlagen.
+
+> [!IMPORTANT]  
+> Verwenden Sie in Aufzählungswerten und Beschriftungen nicht das Zeichen „,“. Dieses Zeichen wird von der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Laufzeit noch nicht unterstützt.
 
 > [!NOTE]
 > Die ersten zehn Zeichen der neuen Optionswertnamen und Beschriftungen müssen eindeutig sein. Beispielsweise führen zwei Optionen mit den Namen „Übertragung 20 Arbeitstage“ und „Übertragung 20 Kalendertage“ zu einem Fehler, da beide die gleichen ersten 10 Zeichen, „Übertragung 2“, haben. Nennen Sie sie z.B. „TRF20 WD“ und „TRF20 CD“.

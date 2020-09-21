@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: aabbba7c6cf5aa84797369c8fefad1ef79fa805f
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.openlocfilehash: 558f457291b3e182444eeb78fab24fe80766e70b
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666822"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693074"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Abrufen von Business Central auf meinem mobilen Gerät
 Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[d365fin](includes/d365fin_md.md)] zu. Sie können durch Ihre Unternehmensdaten navigieren, Funktionen verwenden, sowie an Excel oder Office 365 versenden, aktuelle Diagramme und KPIs anzeigen, Verkaufsangebote und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>So wird die App auf mein mobiles Gerät heruntergeladen.
 1. Installieren Sie die [!INCLUDE[d365fin](includes/d365fin_md.md)]-App auf Ihrem mobilen Gerät, indem Sie die App aus dem Windows Store, App Store oder aus Google Play herunterladen.  

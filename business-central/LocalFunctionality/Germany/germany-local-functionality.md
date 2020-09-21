@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/09/2020
-ms.author: sgroespe
-ms.openlocfilehash: 835c517f08aae230efe676e1c3f32c04d5577b5f
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.author: edupont
+ms.openlocfilehash: ae5cca6edd9d9b664ae249e1a999804862af27ac
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454290"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778612"
 ---
 # <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
 

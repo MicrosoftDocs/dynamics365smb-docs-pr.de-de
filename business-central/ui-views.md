@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7285bf6984cc4f245282dcc129e66f097e11c5f2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5037168780e14d7774843223726bb6092ff2d306
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189411"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778260"
 ---
 # <a name="save-and-personalize-list-views"></a>Speichern und personalisieren Sie Listenansichten
 Wenn Sie einen Filter für eine Liste festgelegt haben und den Filter für später behalten möchten, können Sie ihn als Ansicht speichern. Weitere Informationen zum Filtern von Listen finden Sie unter [Festlegen von Filtern in Listen](ui-enter-criteria-filters.md#setting-filters-on-lists).
