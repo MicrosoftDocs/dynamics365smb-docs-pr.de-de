@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f35184a6a69ed0fa1ccd504525a19af6bd9c5955
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: b9b69b539228e92776e1a7ee4c2fb491b20c1a15
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185516"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787996"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensionssatz-Eintrags-Übersicht
 In diesem Thema wird beschrieben, wie Dimensionssatzposten in [!INCLUDE[d365fin](includes/d365fin_md.md)] gespeichert und gebucht werden.  

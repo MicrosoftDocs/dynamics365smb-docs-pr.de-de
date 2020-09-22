@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f808865bd4fc2113dd5c04071f7ba2e8793fe3af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: a14f3da6a919f4e5a8066a4205ceb71f2dcee505
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185564"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788021"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Designdetails: Bedarf an leerem Lagerort
 Wenn ein Benutzer ein Bedarfsereignis erstellt, wie eine Verkaufsauftragszeile, erlaubt es das Programm dem Benutzer, manchmal einen Lagerortcode anzugeben und andere Male nicht, das heißt, es muss ein leerer Lagerort verwendet werden.

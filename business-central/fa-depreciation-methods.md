@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 549334bf04427a44473319a9d7cfe1a7c2a12b54
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d6878413b4a3db077ffcd16f5f6939582fa57809
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184508"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787046"
 ---
 # <a name="depreciation-methods"></a>Abschreibungsmethoden
 Es gibt acht verfügbare AfA-Methoden:  

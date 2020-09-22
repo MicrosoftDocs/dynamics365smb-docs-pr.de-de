@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/14/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2b803e52038d39375aa13dce36f81d429261f985
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.author: edupont
+ms.openlocfilehash: 541d3842977e7b139877d9a26fcc39b448ef9745
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577331"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786971"
 ---
 # <a name="about-planning-functionality"></a>Info zu Planungsfunktionen
 

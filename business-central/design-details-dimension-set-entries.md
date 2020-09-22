@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 876b63aa9edebea6609eb57dc43a3d6323030285
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 07e2eb34b373375736ccf313d443d20ef3ea936f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185540"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787971"
 ---
 # <a name="design-details-dimension-set-entries"></a>Designdetails: Dimensionssatzposten
 Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien der Dimensionsposten-Einlagerungs- und Buchungsfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] dar.

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/22/2020
-ms.author: sgroespe
-ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.author: edupont
+ms.openlocfilehash: b491287a3d59ffe220e91246fd6fbccbb9768115
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324342"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786921"
 ---
 # <a name="setting-up-manufacturing"></a>Produktion einrichten
 Damit Material zu Fertigerzeugnissen verarbeitet werden kann, müssen im System Fertigungsressourcen wie Maschinisten und Maschinen eingerichtet werden.

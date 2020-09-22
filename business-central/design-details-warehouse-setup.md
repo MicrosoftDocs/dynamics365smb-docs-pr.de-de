@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/04/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd2a282e95e324e3adbf06cb72c53467f63c227b
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.author: edupont
+ms.openlocfilehash: fbb720caa8443e2f840004044edc17f9ba4bfcff
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435231"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787021"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetails: Lagereinrichtung
 

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
 ms.date: 06/22/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9713b70f155b0483ca772429876a0b59f26e0848
-ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
+ms.author: edupont
+ms.openlocfilehash: 7d7ca565218f45a753abd7e468e201538d0e6841
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499366"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786521"
 ---
 # <a name="reconciling-bank-accounts"></a>Abstimmen von Bankkonten
 

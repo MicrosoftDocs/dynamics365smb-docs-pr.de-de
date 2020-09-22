@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99aab6de06cd50d53b977ed37a863cad28fab8fa
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 038ecb0122e58cfdca3ff62ac93554fab01dcdb6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542667"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786596"
 ---
 # <a name="receive-items"></a>Empfangen von Artikeln
 
@@ -32,7 +32,8 @@ Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. 
 3. Geben Sie in dem Feld **Menge akt. Lieferung** die empfangene Menge an.
 
   > [!NOTE]
-  > Wenn die eingegangene Menge höher ist als die in der Bestellung bestellte Menge im Feld **Menge** und der Kreditor so eingestellt ist, dass er Eingangsüberschuss zulässt, dann verwenden Sie das Feld **Eingangsüberschussmenge**, um die überschüssige Menge zu behandeln. Weitere Informationen finden Sie unter [Mehr Artikel als bestellt](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+  > Wenn die eingegangene Menge höher ist als die in der Bestellung bestellte Menge im Feld **Menge** und der Kreditor so eingestellt ist, dass er einen Eingangsüberschuss zulässt, dann verwenden Sie das Feld **Eingangsüberschussmenge**, um die überschüssige Menge zu behandeln. Weitere Informationen finden Sie unter [Mehr Artikel als bestellt](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+
 4. Wählen Sie die Aktion **Buchen**.
 
   Der Wert im Feld **Bereits gelief. Menge** wird aktualisiert. Wenn dieses eine Teillieferung ist, ist der Wert niedriger als der Wert im Feld **Menge**.

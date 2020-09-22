@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/19/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0603e98bcbfb834de3ab96dcb73f3e33e22e0f0b
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.author: edupont
+ms.openlocfilehash: f95d82b3dc73b50f310fe2d4932d78a450f9b21b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486471"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787721"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetails: Bestandsbuchung
 

@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b68d9de15af8b0f8943acb3a8a06cf4d3872291e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: b737516f453ee4d7fb480d4f93271e97f3e9bcf0
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185828"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788271"
 ---
 # <a name="design-details"></a>Designdetails
 Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in [!INCLUDE[d365fin](includes/d365fin_md.md)].  

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/19/2020
-ms.author: sgroespe
-ms.openlocfilehash: 686aa7b0e6bae7fa5fbc639f03ef3ac34237d9e8
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.author: edupont
+ms.openlocfilehash: c3f588a92d424d4ad8b1dfeda28b23981eca6c42
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486421"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788071"
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetails: Kostenregulierung
 

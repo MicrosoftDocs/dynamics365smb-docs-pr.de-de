@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
-ms.author: sgroespe
-ms.openlocfilehash: 11c3fa284a457db1de272a3d92ebc7fc873ad933
-ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
+ms.author: edupont
+ms.openlocfilehash: f209088459f29ba5618b065c3a340b0e3bd250e5
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3549892"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788396"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeiten mit Berichten, Stapelverarbeitungen und XMLports
 

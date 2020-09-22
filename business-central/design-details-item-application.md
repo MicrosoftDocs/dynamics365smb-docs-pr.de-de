@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.author: edupont
+ms.openlocfilehash: b13bc643a93d7558c4760791af81a9a6cc6190b2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617627"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787671"
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
 
@@ -35,7 +35,7 @@ Artikelausgleiche können folgendermaßen vorgenommen werden.
 |Methode|Description|Anwendungstyp|  
 |------------|---------------------------------------|----------------------|  
 |Automatisch|Tritt als allgemeine Kosten entsprechend der Lagerabgangsmethode auf|Mengenausgleich|  
-|Fixiert|Durch den Benutzer erstellt, wenn:<br /><br /> -   Verarbeiten von Rücklieferungen<br />-   Buchungskorrekturen<br />-   Mengenbuchungen rückgängig machen<br />-   Direktlieferung erstellen **Hinweis**  Der feste Ausgleich kann entweder manuell durch Eingabe einer Postennummer im Feld **Ausgegl. von Artikelposten** oder mithilfe einer Funktion durchgeführt werden, wie etwa **Zu stornierende gebuchte Belegzeilen abrufen**.|Mengenausgleich<br /><br /> Kostenanwendung **Hinweis:** Der Kostenausgleich tritt nur in eingehenden Transaktionen auf, bei denen das Feld **Ausgegl. von Artikelposten** ausgefüllt ist, um einen festen Ausgleich zu erstellen. Siehe die folgende Tabelle.|  
+|Fixiert|Durch den Benutzer erstellt, wenn:<br /><br /> -   Verarbeiten von Rücklieferungen<br />-   Buchungskorrekturen<br />-   Um Warenausgänge rückgängig zu machen<br />-   Direktlieferung erstellen **Hinweis**  Der feste Ausgleich kann entweder manuell durch Eingabe einer Postennummer im Feld **Ausgegl. von Artikelposten** oder mithilfe einer Formel durchgeführt werden, wie etwa **Zu stornierende gebuchte Belegzeilen abrufen**.|Mengenausgleich<br /><br /> Kostenanwendung **Hinweis:** Der Kostenausgleich tritt nur in eingehenden Transaktionen auf, bei denen das Feld **Ausgegl. von Artikelposten** ausgefüllt ist, um einen festen Ausgleich zu erstellen. Siehe die folgende Tabelle.|  
 
 Ob Mengen-Anwendungen oder Kostenanträge gemacht werden, hängt von der Richtung der Lagertransaktion und auch davon ab, ob der Artikelausgleich in Verbindung mit Systemprozessen automatisch gesetzt oder korrigiert wird.  
 

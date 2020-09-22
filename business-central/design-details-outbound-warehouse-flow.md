@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/07/2020
-ms.author: sgroespe
-ms.openlocfilehash: 68fa5ebf2b35f0df821e0ef21ddeb286aa744408
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.author: edupont
+ms.openlocfilehash: aa12b250f404f149d790b0768560cad958c26d31
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542542"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787421"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetails: Ausgehender Lagerfluss
 

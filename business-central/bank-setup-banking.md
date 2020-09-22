@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ea9b5753e159d16b1e0348053ea71816934cbe43
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 1709cb17c5301810557a9204974cb4bd01565b5d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186164"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786496"
 ---
 # <a name="setting-up-banking"></a>Einrichten von Banken
 Bankkontokarten dienen zum Nachverfolgen aller Bankkonten in beliebiger Währung. Sobald Bankkonten eingerichtet wurden, können auch Schecks gedruckt werden.
@@ -28,7 +28,7 @@ Um elektronische Bankdienstleistungen zum Importieren von Bankkontoauszügen und
 | --- | --- |
 | Einrichten von Bankkontokarten für Bankkonten zum Nachverfolgen von Banktransaktionen |[Bankkonten einrichten](bank-how-setup-bank-accounts.md) |
 | Richten Sie einen externen Dienst ein, der es Ihnen ermöglicht, Bankauszüge als Bankfeeds für Zahlungsausgleich und Bankabstimmung zu importieren. |[Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md) |
-| Richten Sie einen externen Dienst ein, der es Ihnen ermöglicht, Ihre Zahlungen zur Bearbeitung an die Bank zu exportieren und Bankauszüge als Bankdateien zum Zahlungsausgleich und zur Bankabstimmung zu importieren. |[Benutzung der AMC Banking 365 Fundamentals Erweiterung](ui-extensions-amc-banking.md) |
+| Richten Sie einen externen Dienst ein, der es Ihnen ermöglicht, Ihre Zahlungen zur Bearbeitung an die Bank zu exportieren und Bankauszüge als Bankdateien zum Zahlungsausgleich und zur Bankabstimmung zu importieren. |[Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  

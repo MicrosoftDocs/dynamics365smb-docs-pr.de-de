@@ -8,28 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 09/09/2020
 ms.author: bholtorf
-ms.openlocfilehash: d720fa95873b1ec48f54797a59a209539045ed66
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0cbfbf6730a62b1c0f0e743362075a2085cf3813
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184052"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788446"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Mit Buchhaltungsperioden und Geschäftsjahren arbeiten
+
 Buchhaltungsperioden, die auch als Meldezeiträume betragen, geben für die Zeiträume Mandanten- oder Organisationsberichtsfinanzleistung - beispielsweise durch das Generieren eines GuV-Kontos oder eines Bilanzkontos. Normalerweise beziehen sich Buchhaltungsperioden auf das Geschäftsjahr der Konzernmandanten, die mehrere Buchhaltungsperioden enthalten. wie Monate oder Quartale.
 
-Für viele Unternehmen stimmt das Geschäftsjahr nicht mit dem Kalenderjahr überein. Beispielsweise kann das Geschäftsjahr am 30. Juni anstatt am 31. Dezember enden. Bei neu erstellten Mandanten kann das Steuerjahr tatsächlich länger als 12 Monate sein. 
+Für viele Unternehmen stimmt das Geschäftsjahr nicht mit dem Kalenderjahr überein. Beispielsweise kann das Geschäftsjahr am 30. Juni anstatt am 31. Dezember enden. Bei neu erstellten Mandanten kann das Steuerjahr tatsächlich länger als 12 Monate sein.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] erfordert nur Buchhaltungsperioden, wenn Sie nur einen GuV schließen möchten, oder Datenkomprimierungsaufgaben ausführen. 
 
 Sie können die Buchhaltungsperioden für Meldungen verwenden. Wenn Sie gebuchte Posten auf der Seite **Saldo/Budget** überprüfen, in der die bestimmte Berichtsintervalle definiert werden können. Eine der Optionen, die Sie möglicherweise benötigen, um nach Buchhaltungsperiode zu melden. Sie können ein Kontenschema auch erstellen, um die Ergebnisse für verschiedene Perioden zu vergleichen.
 
 ## <a name="creating-a-new-fiscal-year"></a>Ein neues Geschäftsjahres eröffnen
+
 Sie können Buchhaltungsperioden in einer Massenoperation erstellen, indem Sie die Stapelverarbeitung **Geschäftsjahr eröffnen** verwenden oder dies manuell tun.
 
 ### <a name="how-to-create-accounting-periods-in-bulk"></a>So erstellen Sie Buchhaltungsperioden in einer Massenoperation
+
 Verwenden Sie die Stapelverarbeitung **Geschäftsjahr eröffnen**, um ein Geschäftsjahr in Perioden derselben Länge zu unterteilen.  
 
 1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") aus, geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den entsprechenden Link.  
@@ -40,6 +43,7 @@ Verwenden Sie die Stapelverarbeitung **Geschäftsjahr eröffnen**, um ein Gesch�
 6. Wählen Sie **OK** aus.  
 
 ### <a name="how-to-create-accounting-periods-manually"></a>So erstellen Sie Buchhaltungsperioden in einer Massenoperation manuell
+
 Wenn die Buchhaltungsperioden in dem Geschäftsjahr verschiedene Dauern aufweisen, wie der Kalender 4-4-5, der im Einzelhandel verwendet wird, können Sie ihn manuell einrichten.  
   
 1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den entsprechenden Link.  
@@ -48,24 +52,21 @@ Wenn die Buchhaltungsperioden in dem Geschäftsjahr verschiedene Dauern aufweise
 4. Wiederholen Sie Schritt 2 und 3 für jede verbleibende Periode.  
 
 ## <a name="closing-a-fiscal-year"></a>Geschäftsjahr beenden
+
 Das Geschäftsjahr abzuschließen ist eine der Aufgaben für das Schließen der Bücher. Nachdem Sie das Geschäftsjahr abgeschlossen haben, sind die Felder **Abgeschlossen** und **Datum gesperrt** für alle Perioden des Jahres aktiviert. Sie können ein Jahr nicht erneut öffnen oder die Kontrollkästchen deaktivieren.
 
 > [!NOTE]  
->  Sie müssen immer mindestens ein offenen Geschäftsjahres haben. Wenn Sie ein Jahr abschließen, überprüfen Sie, dass ein neues Jahr erstellt wurde. Beachten Sie, dass Sie nach dem Abschluss eines Geschäftsjahres das Startdatum des folgenden Geschäftsjahres nicht mehr ändern können.
+> Sie müssen immer mindestens ein offenen Geschäftsjahres haben. Wenn Sie ein Jahr abschließen, überprüfen Sie, dass ein neues Jahr erstellt wurde. Beachten Sie, dass Sie nach dem Abschluss eines Geschäftsjahres das Startdatum des folgenden Geschäftsjahres nicht mehr ändern können.
 
 1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Jahr beenden** aus.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Posten in einem abgeschlossenen Geschäftsjahr buchen
+
 Auch wenn ein Geschäftsjahr abgeschlossen wurde, können hierfür noch Sachposten gebucht werden. In diesen Fällen wird in den Posten vermerkt, dass die Buchung in einem abgeschlossenen Geschäftsjahr erfolgte, d. h., das Feld **Nachbuchung** wird mit einem Häkchen versehen. Standardmäßig wird das Kontrollkästchen auf der Seite nicht angezeigt, aber Sie können es hinzufügen. Als nächsten Schritt schließen Sie die GuV-Konten und übertragen das Jahresergebnis an ein Konto in der Bilanz. Dies müssen Sie jedes Mal wiederholen, wenn Sie in ein abgeschlossenes Geschäftsjahr gebucht haben.
 
 ## <a name="see-also"></a>Siehe auch
+
 [Bucher schließen](year-close-books.md)  
 [Abschlussjahre und -perioden](year-close-years-periods.md)  
 [Vorgehensweise: Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)  
-  
-
-
-
-
-
