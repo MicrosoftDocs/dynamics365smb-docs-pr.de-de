@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6b4d09ae0bd0f2def940e2516bdc54bc04f300ca
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: c5e3f26e45a4c990a3614011e21fe8d661973035
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188396"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784734"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Erstellen von Workflows aus Workflowvorlagen
 Um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Sie Workflows aus Workflowvorlagen erstellen.  

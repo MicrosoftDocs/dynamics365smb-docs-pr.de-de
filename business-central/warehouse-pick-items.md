@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2020
-ms.author: sgroespe
-ms.openlocfilehash: a19496eafcacb3a2c021d78da5e5b7130300154a
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: f051eb1267fd7ce9a45da23bf99007a21f039cf6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529288"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784896"
 ---
 # <a name="pick-items"></a>Entnahme von Artikeln
 

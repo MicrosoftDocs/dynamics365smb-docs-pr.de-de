@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2020
-ms.author: sgroespe
-ms.openlocfilehash: d0c7b95606c5bae844cc2f4d3048bee39467b7a4
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.author: edupont
+ms.openlocfilehash: 3336eeeb0a3560670fa2b1fb99fb64bac20d15be
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496650"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785696"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows in Dynamics 365 Business Central
 

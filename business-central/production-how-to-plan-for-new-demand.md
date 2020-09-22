@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 35bfe02e9c6c215127a5ad59f0a40f668e6b0f52
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: efd92647db0ebca283fe4d424954981fb73815b7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191643"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785996"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planung der Bestellung eines neuen Bedarfs von Auftrag
 Diese Planungsaufgabe kann auf der Seite **Auftragsplanung** ausgeführt werden, in dem der gesamte neue Bedarf sowie Informationen über die Verfügbarkeit und Beschaffungsvorschläge angezeigt werden. Das Fenster bietet eine Übersicht und die erforderlichen Tools für eine effektive Bedarfsplanung anhand der Verkaufs- und Komponentenzeilen, auf deren Grundlage dann verschiedene Arten von Beschaffungsaufträgen direkt erstellt werden können.  

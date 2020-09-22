@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2f6d9b02e3364d34339ea7176c08fdff7de5eb90
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5cddd49089202e83ffbc2f6062c5c69067157df8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195075"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784509"
 ---
 # <a name="set-up-service-offerings"></a>Um Serviceangebote einzurichten:
 Beim Einrichten des Servicemanagements muss festgelegt werden, welche Services Debitoren angeboten werden und ein entsprechender Zeitplan entworfen werden. Bei einem Service handelt es sich um eine Arbeit, die von mindestens einer Ressource ausgeführt und einem Debitor zur Verfügung gestellt wird. Ein Beispiel für einen Service ist die Reparatur eines Computers. Ein Serviceartikel ist das Gerät oder der Artikel, für den ein Service zu erbringen ist, beispielsweise ein reparaturbedürftiger Computer, der bei einem bestimmten Debitor installiert ist. Sie können Services als Teil einer Gruppe zugehöriger zu reparierender oder zu wartender Artikel einrichten.  

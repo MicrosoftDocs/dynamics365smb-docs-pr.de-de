@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/26/2020
-ms.author: sgroespe
-ms.openlocfilehash: 464a1b7b06e4d656e8542655ab307ba0108425c4
-ms.sourcegitcommit: 836b232d0149f9732884c9f44d53928725a8759d
+ms.author: edupont
+ms.openlocfilehash: f7df365c6c1fb34943fc5bb9b47145410ef879e3
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3506305"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786146"
 ---
 # <a name="administration"></a>Verwaltung
 

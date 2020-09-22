@@ -6,13 +6,13 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 06/26/2020
-ms.author: sgroespe
-ms.openlocfilehash: 34e72f5b80f4516dcd7e9061f263a8f08b06b0d7
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: 0d44ccf98ac02e24d1cd136bf1a0fe31b5bf0437
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528513"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786096"
 ---
 # <a name="manage-profiles"></a>Profile verwalten
 

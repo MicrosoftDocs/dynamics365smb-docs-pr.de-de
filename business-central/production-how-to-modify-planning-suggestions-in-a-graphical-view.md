@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/05/2020
-ms.author: sgroespe
-ms.openlocfilehash: 62bd4575c94f97fc363a73ad2fbfce0846c9146a
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: d1edbe7c25fbdf3a461c9897ecf3d448d702ab96
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528613"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786021"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändern von Planungsvorschlägen in einer grafischen Ansicht
 

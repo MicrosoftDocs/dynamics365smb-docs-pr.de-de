@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 06/26/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2e861c3e403ebafb2d9d1c2a4bcf0679a0a715d1
-ms.sourcegitcommit: 836b232d0149f9732884c9f44d53928725a8759d
+ms.author: edupont
+ms.openlocfilehash: 324de3ce7b5cbffff59c78f1e5374daf6fa8fd1d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3506231"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784838"
 ---
 # <a name="record-usage-for-jobs"></a>Verbrauch bei Projekten aufzeichnen
 

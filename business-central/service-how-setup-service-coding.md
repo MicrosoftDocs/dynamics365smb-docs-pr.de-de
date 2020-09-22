@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 06/22/2020
-ms.author: sgroespe
-ms.openlocfilehash: 74986edd0098dddc2163029cdfd7e60621664964
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.author: edupont
+ms.openlocfilehash: 32699c3c509a9d3516d43d9fb76948460b75d41f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496700"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784634"
 ---
 # <a name="set-up-standard-service-codes"></a>Standardservicecodes einrichten
 

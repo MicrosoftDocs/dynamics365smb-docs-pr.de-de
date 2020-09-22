@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/21/2020
-ms.author: sgroespe
-ms.openlocfilehash: ed2af108abd0ef23dac82b7e798a58bc8c494f89
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.author: edupont
+ms.openlocfilehash: 69f07994b6aab5444dfeb2d0adb23945a72f2524
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611559"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785346"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Einrichten des Senden und Empfangen von elektronischen Belegen
 
