@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cc6a94df19988827ee2f62398c8dfb7c972288a3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 67f5b167ff3ba1bb29aa08abcd96cc926a5538c0
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192267"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789450"
 ---
 # <a name="setup-best-practices-costing-method"></a>Bewährte Einrichtungsmethoden: Kostenmethode
 Die **Kostenmethode** auf der Artikelkarte legt fest, ob der Kostenfluss des Artikels erfasst ist und ob ein tatsächlicher und budgetierter Wert gebucht und in der Berechnung des Einstandspreises verwendet wird.  

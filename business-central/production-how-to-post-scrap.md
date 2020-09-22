@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0f1fde83ac86384abedbe3ce65519738fe4873da
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 0adc08f7fa30f4ceb88531ea45948c6da36d3c72
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190371"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789325"
 ---
 # <a name="post-scrap-manually"></a>Ausschuss manuell buchen
 Wenn während der Produktion Ausschuss angefallen ist, dann kann dieser im FA-Istmeldungsprotokoll eingegeben werden. 

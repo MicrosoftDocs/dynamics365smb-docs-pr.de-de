@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 07/07/2020
-ms.author: sgroespe
-ms.openlocfilehash: 16d88ee490b5e9115ed22a12297fcf35b5739984
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.author: edupont
+ms.openlocfilehash: 46c94de4b1852549aea9fb7d2279fe045e33df1f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542617"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789025"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Spezielle Verkaufspreise und Rabatte aufzeichnen
 
