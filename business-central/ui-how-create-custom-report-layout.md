@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 07/22/2020
-ms.author: sgroespe
-ms.openlocfilehash: e9ae739ba106ef8431c054d69a06f96ffec69217
-ms.sourcegitcommit: e22666f90262c7d2084ca6c74ca7d66652fc6df6
+ms.author: edupont
+ms.openlocfilehash: f8d8b40e77e53dad7855721f23cf4cb33a669c4e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617313"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782699"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Erstellen und Ändern benutzerdefinierter Berichtslayouts
 

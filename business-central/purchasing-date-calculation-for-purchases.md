@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/16/2020
-ms.author: sgroespe
-ms.openlocfilehash: 24da45703f2005efbdb1c1955c01c623151fd5cd
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.author: edupont
+ms.openlocfilehash: 092b76b7b25958b0df7155c335d7567c2b92fbf9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611638"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783174"
 ---
 # <a name="date-calculation-for-purchases"></a>Terminberechnung für Einkäufe
 

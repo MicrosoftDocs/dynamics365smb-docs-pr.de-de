@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 06/24/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6de088c47fda309d5c4d2832ffe4199cd5331bf8
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.author: edupont
+ms.openlocfilehash: 0fb173ee064b5b62ff110fb33dc8ecbc82d0afcd
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503392"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783249"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Die Envestnet Yodlee Bank Feeds Services einrichten
 

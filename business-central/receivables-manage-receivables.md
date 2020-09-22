@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 06/19/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7775ae9f007733d366566dd5137add30e3f62059
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.author: edupont
+ms.openlocfilehash: 1083edff26c6f0cc896e2506b6b02512d72e2bff
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484211"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782724"
 ---
 # <a name="managing-receivables"></a>Debitoren verwalten
 

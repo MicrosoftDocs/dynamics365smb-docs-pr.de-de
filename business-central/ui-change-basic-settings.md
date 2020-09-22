@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194595"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782443"
 ---
 # <a name="change-basic-settings"></a>Ändern von grundlegenden Einstellungen
 
@@ -67,10 +67,11 @@ Das am häufigsten verwendete Arbeitsdatum ist das heutige Datum. Um Aufgaben wi
 ### <a name="work-date-indication"></a>Arbeitsdatumsangabe
 Wann immer das Arbeitsdatum nicht auf das heutige Datum gesetzt ist, erscheinen zwei Arten von Indikatoren auf Seiten, die bearbeitet werden können und bei denen das Arbeitsdatum daher von entscheidender Bedeutung ist:
 
-- Oben auf der Seite wird eine Erinnerung angezeigt, die Sie darüber informiert, auf welches Datum das Arbeitsdatum eingestellt ist. Die Erinnerung bietet einen direkten Link zur Einstellung des Arbeitsdatums auf der **Meine Einstellungen** Seite, sodass Sie das Datum ändern, wenn Sie möchten. In der Erinnerung können Sie auch festlegen, dass die Erinnerung für den Rest Ihrer Sitzung nicht angezeigt wird. Sofern Sie das Arbeitsdatum nicht auf "Heute" ändern, wird die Erinnerung beim nächsten Anmelden angezeigt.
+* Oben auf der Seite wird eine Erinnerung angezeigt, die Sie darüber informiert, auf welches Datum das Arbeitsdatum eingestellt ist. Die Erinnerung bietet einen direkten Link zur Einstellung des Arbeitsdatums auf der **Meine Einstellungen** Seite, sodass Sie das Datum ändern, wenn Sie möchten. In der Erinnerung können Sie auch festlegen, dass die Erinnerung für den Rest Ihrer Sitzung nicht angezeigt wird. Sofern Sie das Arbeitsdatum nicht auf "Heute" ändern, wird die Erinnerung beim nächsten Anmelden angezeigt.
 
-- Wenn Sie die Erinnerung verwerfen, wird das Arbeitsdatum im Titel der Seite angezeigt.  
---> Wenn das Arbeitsdatum nicht auf den aktuellen Tag (heute) festgelegt ist, wird das aktuelle Arbeitsdatum auf allen Seiten, auf denen Sie Daten bearbeiten können, in der oberen linken Ecke der Seite angezeigt.
+* Wenn Sie die Erinnerung verwerfen, wird das Arbeitsdatum im Titel der Seite angezeigt.  
+
+Wenn das Arbeitsdatum nicht auf den aktuellen Tag (heute) festgelegt ist, wird das aktuelle Arbeitsdatum auf allen Seiten, auf denen Sie Daten bearbeiten können, in der oberen linken Ecke der Seite angezeigt.
 
 ## <a name="region"></a><a name="region"></a> Region
 

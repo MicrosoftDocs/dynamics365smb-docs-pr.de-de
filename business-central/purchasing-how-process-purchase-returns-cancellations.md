@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
 ms.date: 07/02/2020
-ms.author: sgroespe
-ms.openlocfilehash: a24b0e24ad552118b871398fd0f2a578c8143f21
-ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
+ms.author: edupont
+ms.openlocfilehash: 2c6bbddbdc6dcfc75fc32ada91a5d6d6ec5bde1e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534746"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783074"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen
 

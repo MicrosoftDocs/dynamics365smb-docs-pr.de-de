@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 07/02/2020
-ms.author: sgroespe
-ms.openlocfilehash: efbcadce5ca1dde3a7c065990bf8b63b1de5a631
-ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
+ms.author: edupont
+ms.openlocfilehash: 3badffb854323a385123e86066f14de5a2b75b28
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534721"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783124"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Ändern oder Löschen einer unbezahlten Einkaufsrechnung
 

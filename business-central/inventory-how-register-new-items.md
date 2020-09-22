@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: 84880df39dd573e24c11e81321f023e24cd1094a
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.author: edupont
+ms.openlocfilehash: 296e150eec01e3aee4ec8ccc32b4bf5299b86d3e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535340"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782068"
 ---
 # <a name="register-new-items"></a>Neue Artikel registrieren
 

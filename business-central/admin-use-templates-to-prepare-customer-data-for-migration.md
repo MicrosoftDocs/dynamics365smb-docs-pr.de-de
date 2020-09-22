@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: 273d7a0b15684f7cd97874d4dba818b9a289e2a7
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: edupont
+ms.openlocfilehash: ed2d7c8dd8a8a2fe4744c670197a3ac0a7ec38fa
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535922"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782293"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Migration von Debitorendaten mit Vorlagen vorbereiten
 

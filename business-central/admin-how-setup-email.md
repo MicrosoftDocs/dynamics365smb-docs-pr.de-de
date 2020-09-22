@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/15/2020
-ms.author: sgroespe
-ms.openlocfilehash: 36f9c561cd2bde8256e9bbb9694c89cd780b67ad
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: 2d42c637e769322bdaf7dcfa875953f38fe7e686
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528387"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783287"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
 

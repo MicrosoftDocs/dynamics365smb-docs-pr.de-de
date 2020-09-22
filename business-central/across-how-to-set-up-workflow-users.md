@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/08/2020
-ms.author: sgroespe
-ms.openlocfilehash: ba6508c9679923836092ba4df9d3453a39f7fd9b
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.author: edupont
+ms.openlocfilehash: f632518f4fa7f0be4e919a1de7427e205c0f1921
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454271"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782010"
 ---
 # <a name="set-up-workflow-users"></a>Einrichten von Workflowbenutzern
 

@@ -7,13 +7,13 @@ ms.topic: article
 ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2dd4dfa75f5ff8fc127da1e6981b3a23641362f0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5db8c77ab8525ce4e8bd4b461c162448730f4eff
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191283"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783926"
 ---
 # <a name="create-jobs"></a>Projekt erstellen
 Wenn Sie mit einem neuen Projekt beginnen, müssen Sie eine Projektkarte mit integrierten Projektaufgaben und Projektplanungszeilen erstellen, strukturiert in zwei Ebenen.  

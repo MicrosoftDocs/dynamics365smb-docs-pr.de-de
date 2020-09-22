@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: 09d192bd055f75ddcfa7942415930cdc09ef609e
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.author: edupont
+ms.openlocfilehash: 88cf4dc7200fbaa6959a2e54c9cf2024f3da9dc4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617963"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782343"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 

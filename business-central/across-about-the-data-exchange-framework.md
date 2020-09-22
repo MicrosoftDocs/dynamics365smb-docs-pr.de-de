@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/21/2020
-ms.author: sgroespe
-ms.openlocfilehash: b09bd9836b4764a436a76d7ef0fc52d105d43470
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.author: edupont
+ms.openlocfilehash: 4de0dcb271578cf61c8e61c7cffe81cd0dea980a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611613"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783776"
 ---
 # <a name="about-the-data-exchange-framework"></a>Über das Datenaustauschframework
 
