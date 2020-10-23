@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e5c4a764603b2900cc2c3f4b00bbe43bac20fedb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 636512eb023d098aa17b5a24f5af82f6398c0bf8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778600"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920072"
 ---
 # <a name="include-company-registration-numbers-on-sales-reports-and-purchase-reports"></a>Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte
 Beim Generieren von bestimmten Verkaufs- und Einkaufsberichten können Steuernummern in den Berichten gedruckt werden.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 947bc883994d82cfb25f7d757d501d95e722916a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cab1663aa1e584780f7544f0bd9b61c9038b5922
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780910"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926112"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
 Wenn Ihr Debitor Artikel zurückschicken oder Dienstleistungen löschen will, die Sie verkauft haben, können Sie eine Einkaufsgutschrift erstellen und buchen, die die angeforderte Änderung im Hinblick auf die ursprünglichen Einkaufsrechnung angibt. Um korrekte Verkaufsrechnungsinformationen einzuschließen, können Sie die Verkaufsgutschrift direkt aus der gebuchten Verkaufsrechnung erstellen oder neue Verkaufsgutschrift mit der Rechnungsinformationen erstellen.
@@ -51,7 +51,7 @@ Um exakte Einstandspreisstornierung manuell zuzuordnen, müssen Sie das Feld **A
 Weitere Informationen finden Sie unter [Designdetails: Lagerkosten](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen.
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie den entsprechenden Link.  
 2. Wählen Sie das Feld **Gebuchte Verkaufsrechnung**, um die Seite **Korrekturgutschrift erstellen** zu öffnen, und wählen Sie die gebuchte Verkaufsrechnung aus, die Sie stornieren möchten.
 
     Der Verkaufsgutschriftskopf enthält einige Informationen aus der gebuchten Verkaufsrechnung. Sie können alle Felder bearbeiten, zum Beispiel mit neuen Daten, die die Rückholvereinbarung wiedergeben.  
@@ -73,7 +73,7 @@ Das Dialogfeld **Buchungs- und Sendebestätigung** wird geöffnet und zeigt die 
 Die gebuchten Verkaufsdokumente für die entsprechende Gutschrift werden nun storniert und eine Erstattung der Zahlung kann für den Debitor erstellt werden. Die Verkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste der gebuchten Verkaufsgutschriften ersetzt.
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen.
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie **Neu**, um eine neue leere Verkaufsgutschrift zu öffnen.
 3. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 4. Wählen Sie die Aktion **Aus Dokument kopieren**.
@@ -216,13 +216,15 @@ Wenn Rücksendungen in einer Gutschrift zusammengefasst und gebucht werden, wird
 2.  Wählen Sie im Feld **Kontonummer** Filterfeld an, welche Verkaufsaufträge zu löschen sind.  
 3.  Wählen Sie die Schaltfläche **OK** aus.  
 
-Sie können die einzelnen Verkaufsaufträge auch manuell löschen.   
+Sie können die einzelnen Verkaufsaufträge auch manuell löschen.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
+
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
-[Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
+[Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
+[Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen](purchasing-how-process-purchase-returns-cancellations.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 56adf1822da10e4743d242df29aacad122fc954f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189651"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910180"
 ---
 # <a name="preview-posting-results"></a>Vorschau-Buchungs-Ergebnisse
 Auf jedem Beleg und Buch.-Blatt, die gebucht werden können, können Sie die Schaltfläche **Vorschau-Buchung** auswählen, um verschiedene Arten von Posten zu überprüfen, die erstellt werden, wenn Sie den Beleg oder das Buch.-Blatt buchen.

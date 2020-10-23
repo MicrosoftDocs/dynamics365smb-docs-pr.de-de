@@ -1,5 +1,5 @@
 ---
-title: Verwenden Sie Excel, um in Business Central Daten zu importieren | Microsoft Docs
+title: Excel zum Importieren von Daten nach Business Central verwenden
 description: Verwenden Sie das Standardkonfigurationspaket, um Debitorendaten in Excel hinzuzufügen und Daten nach Business Central zu importieren.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e5f8ed744e6596e59789b1fa1857e124026ab63b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 143d40c1005b3ce6b54f9a2f5abc865b3d76b361
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187820"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924678"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Geschäftsdaten aus anderen Finanzsystemen importieren
+
 Wenn Sie sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden, können Sie auswählen, einen leeren Mandanten zu erstellen, sodass Sie Ihre eigenen Daten hochladen und den neuen Projektmandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)] testen können. Abhängig von der Finanzlösung, die Ihr Unternehmen heute verwendet, können Sie Informationen zu Debitoren, Kreditoren, Lagerbestand und Bankkonten vornehmen.  
 
 Vom Rollencenter aus können Sie eine unterstützte Einrichtung vornehmen, mit der Sie die Daten einer Exceldatei oder aus anderen Formaten übertragen können. Die Art der Dateien, die Sie hochladen können, hängt von den Erweiterungen ab, die verfügbar sind. Beispielsweise können Sie Daten aus QuickBooks hochladen, da [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Erweiterung umfasst, die die Umwandlung von QuickBooks behandelt. Wenn Sie Daten aus anderen Finanzlösungen migrieren möchten, müssen Sie überprüfen, ob eine Erweiterung für diese Lösung verfügbar ist oder sie aus Excel importieren.  
@@ -27,7 +28,7 @@ Vom Rollencenter aus können Sie eine unterstützte Einrichtung vornehmen, mit d
 Sie können Transaktions-Masterdaten und die Daten aus anderen Finanzsysteme basierend auf dem Standardkonfigurationspaket in [!INCLUDE[d365fin](includes/d365fin_md.md)] importieren. Auf der Seite **Konfigurationspakete** können Sie mit einem Paket arbeiten, um die Daten zu importieren und zu prüfen, bevor Sie die Paketnummer anwenden.  
 
 > [!TIP]  
-> Alternativ verwenden Sie den Datenmigrationsassistenten, um die Daten aus QuickBooks oder von Dynamics GP zu importieren. Weitere Informationen finden Sie unter [QuickBooks-Datenmigration](ui-extensions-quickbooks-data-migration.md) oder [Dynamics GP-Datenmigration](ui-extensions-dynamicsgp-data-migration.md).
+> Es ist empfehlenswert, dass Sie den Datenmigrationsassistenten nutzen, um die Daten aus Dynamics GP, Dynamics NAV oder QuickBooks zu importieren. Weitere Informationen finden Sie im Verwaltungsinhalt unter [Migrieren lokaler Daten nach Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) oder [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md).
 
 > [!NOTE]  
 > Für umfangreichere Implementierungsarbeiten können Sie RapidStart Services für [!INCLUDE[d365fin](includes/d365fin_md.md)] nutzen, ein umfangreiches Toolkit für das Einrichten von neuen Lösungen auf Grundlage von Geschäftsanforderungen und -Einrichtungsdaten der Debitoren. RapidStart Services enthält auch Funktionalität für Stammdaten Importieren von Artikeln. Weitere Informationen finden Sie unter [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md).
@@ -80,9 +81,9 @@ Das Standardkonfigurationspaket unterstützt die folgenden Tabellen:
 -   Einkaufspreis
 
 ## <a name="see-also"></a>Siehe auch
-[Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
+[Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)  
-[Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)  
 [Mehrere Artikelbilder importieren](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

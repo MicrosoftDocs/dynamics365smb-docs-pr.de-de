@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 08fcc6ff958b7ac756d75b12e1558add936fe9b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2613a328ad1274a690d3d394fef054527e5a75de
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781710"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926222"
 ---
 # <a name="invoice-sales"></a>Fakturieren eines Verkaufs
 

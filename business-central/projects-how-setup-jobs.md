@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 358c7ed4068ca90637082f61e24bcff25cef61a3
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527960"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915335"
 ---
 # <a name="set-up-jobs"></a>Einrichten von Projekten
 

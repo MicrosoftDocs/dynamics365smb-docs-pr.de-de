@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bd22d29f82c1cfe1ac5e998f131c20cc2e288085
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 687a63e1d53db4c120070de0a353b3501a335d27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781253"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914935"
 ---
 # <a name="posting-purchases"></a>Einkäufe buchen
 Bei einem Kaufbeleg können Sie zwischen den folgenden Buchungsaktionen wählen:

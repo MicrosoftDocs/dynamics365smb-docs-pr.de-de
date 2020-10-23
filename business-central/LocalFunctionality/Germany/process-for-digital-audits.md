@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5938e1048f42369695508257a7088bc52c748952
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d7ffadaa78562a2e0d93a9cd4e70c814616c0c7e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779104"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920046"
 ---
 # <a name="process-for-digital-audits-gobdgdpdu"></a>Prozess für Digital-Überwachung (/GoBD GDPdU)
 Sie können Daten aus [!INCLUDE[d365fin](../../includes/d365fin_md.md)] exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.  

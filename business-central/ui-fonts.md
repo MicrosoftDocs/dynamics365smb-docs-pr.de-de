@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d5ff4fa13534c739526918e9175e2cdbcd86a4fb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 40a39ac441082f4513c4b81d1b805bc2467318d4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789400"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914985"
 ---
 # <a name="available-fonts"></a>Verfügbare Schriftarten
 Die Onlineversion von [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält vorinstallierte Schriftarten auf den Servern, die beim Generieren von Berichten verwendet werden können. Im Folgenden wird erläutert, welche Schriftarten verfügbar sind, und es werden Links zu detaillierten Informationen der Drittanbieter der Schriftarten angezeigt.
