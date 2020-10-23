@@ -1,6 +1,6 @@
 ---
-title: Vorgehensweise beim Zuweisen von Lieferbenachrichtigungscodes zu Kreditoren
-description: Um Lieferbenachrichtungen für überfällige Einkäufe zu aktivieren, müssen Sie Kreditoren Lieferbenachrichtigungsbedingungen zuweisen.
+title: Kreditoren Lieferanmahnungscodes zuweisen [DE]
+description: Um Lieferanmahnungen für überfällige Einkäufe zu aktivieren, müssen Sie Kreditoren Lieferanmahnungsbedingungen in der deutschen Version zuweisen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,29 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 58081c5254d93a530ec0bd422e9c8e8ea291bad6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7de26a55f52eb6ba1e4d012ef23a2e62a326b613
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778614"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931262"
 ---
-# <a name="assign-delivery-reminder-codes-to-vendors"></a>So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen
-Um Lieferbenachrichtungen für überfällige Einkäufe zu aktivieren, müssen Sie Kreditoren Lieferbenachrichtigungsbedingungen zuweisen. Weitere Informationen finden Sie unter [Lieferbenachrichtigungen](delivery-reminders.md).  
+# <a name="assign-delivery-reminder-codes-to-vendors-in-the-german-version"></a>Kreditoren Lieferanmahnungscodes in der deutschen Version zuweisen
 
-## <a name="to-assign-delivery-reminders-codes-to-vendors"></a>So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen  
+[!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie den Inventurauftrag aus, für den Sie eine Lieferbenachrichtigung erstellen möchten und klicken Sie auf **Bearbeiten**.  
-3.  Wählen Sie im Inforegister **Lieferung** im Feld **Lieferbenachrichtigungsbedingungen** einen Lieferbenachrichtigungsbedinungscode für den Kreditor aus.  
-4.  Wählen Sie die Schaltfläche **OK** aus.  
+## <a name="see-also"></a>Siehe auch
 
-## <a name="see-also"></a>Siehe auch  
- [Registriert einen neuen Kreditor](../../purchasing-how-register-new-vendors.md)   
- [Lieferbenachrichtigungen](delivery-reminders.md)   
- [Gewusst wie: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md)   
- [Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
- [So erstellen Sie Lieferbenachrichtigungen manuell](how-to-create-delivery-reminders-manually.md)   
- [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)
+[Registriert einen neuen Kreditor](../../purchasing-how-register-new-vendors.md)  
+[Lieferbenachrichtigungen](delivery-reminders.md)  
+[Lieferanmahnungen erstellen](how-to-set-up-delivery-reminders.md)  
+[Lieferanmahnungsbestimmungen, -stufen und -text einrichten](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
+[Manuelle Lieferanmahnungen erstellen](how-to-create-delivery-reminders-manually.md)  
+[Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)  
