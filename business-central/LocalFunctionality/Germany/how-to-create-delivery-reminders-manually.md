@@ -1,6 +1,6 @@
 ---
-title: 'Gewusst wie: Lieferbenachrichtigungen manuell erstellen'
-description: Mahnt Ihre Debitoren wegen überfälliger Lieferung.
+title: So erstellen Sie manuelle Lieferanmahnungen [DE]
+description: Erinnern Sie Kunden an die verspätete Lieferung in der deutschen Version.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,50 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0a1a4f34c98f61687d0a6ae1a97262432e24abf5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b858f529f38ba0a9575f1970cfa63257d50010ca
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778610"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931258"
 ---
-# <a name="create-delivery-reminders-manually"></a><span data-ttu-id="51bb1-103">So erstellen Sie Lieferanmahnungen manuell</span><span class="sxs-lookup"><span data-stu-id="51bb1-103">Create Delivery Reminders Manually</span></span>
-<span data-ttu-id="51bb1-104">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde.</span><span class="sxs-lookup"><span data-stu-id="51bb1-104">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected.</span></span> <span data-ttu-id="51bb1-105">Sie können eine einzelne Lieferbenachrichtigung manuell erstellen oder Sie können Lieferbenachrichtigungen für alle überfälligen Lieferungen erstellen.</span><span class="sxs-lookup"><span data-stu-id="51bb1-105">You can create a single delivery reminder manually, or you can generate delivery reminders for all overdue deliveries.</span></span> <span data-ttu-id="51bb1-106">Weitere Informationen finden Sie unter [Lieferbenachrichtigungen erstellen](how-to-generate-delivery-reminders.md).</span><span class="sxs-lookup"><span data-stu-id="51bb1-106">For more information, see [Generate Delivery Reminders](how-to-generate-delivery-reminders.md).</span></span>
+# <a name="create-delivery-reminders-manually-in-the-german-version"></a><span data-ttu-id="39925-103">Manuelle Lieferanmahnungen in der deutschen Version erstellen</span><span class="sxs-lookup"><span data-stu-id="39925-103">Create Delivery Reminders Manually in the German Version</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="51bb1-107">Um Lieferanmahnungen zu erstellen, müssen Sie die Lieferanmahnungseigenschaften einrichten.</span><span class="sxs-lookup"><span data-stu-id="51bb1-107">To create delivery reminders, you must set up the delivery reminder properties.</span></span> <span data-ttu-id="51bb1-108">Weitere Informationen finden Sie unter [Lieferbenachrichtigungen erstellen](how-to-set-up-delivery-reminders.md).</span><span class="sxs-lookup"><span data-stu-id="51bb1-108">For more information, see [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md).</span></span>
 
-## <a name="to-create-a-delivery-reminder-manually"></a><span data-ttu-id="51bb1-109">So erstellen Sie Lieferantenbenachrichtigungen manuell</span><span class="sxs-lookup"><span data-stu-id="51bb1-109">To create a delivery reminder manually</span></span>  
+[!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-1.  <span data-ttu-id="51bb1-110">Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") öffnet, geben Sie **Lieferbenachrichtigung** ein, und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="51bb1-110">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delivery Reminder**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="51bb1-111">Wählen Sie die Aktion **Neu** aus.</span><span class="sxs-lookup"><span data-stu-id="51bb1-111">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="51bb1-112">Füllen Sie auf der Seite **Lieferbenachrichtigung** im Inforegister **Allgemein** die erforderlichen Felder gemäß der Beschreibung in der folgenden Tabelle aus.</span><span class="sxs-lookup"><span data-stu-id="51bb1-112">On the **Delivery Reminder** page, on the **General** FastTab, fill in the fields as described in the following table.</span></span>  
+## <a name="see-also"></a><span data-ttu-id="39925-104">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="39925-104">See Also</span></span>
 
-    |<span data-ttu-id="51bb1-113">Feld</span><span class="sxs-lookup"><span data-stu-id="51bb1-113">Field</span></span>|<span data-ttu-id="51bb1-114">Description</span><span class="sxs-lookup"><span data-stu-id="51bb1-114">Description</span></span>|  
-    |---------------------------------|---------------------------------------|  
-    |<span data-ttu-id="51bb1-115">**Nr.**</span><span class="sxs-lookup"><span data-stu-id="51bb1-115">**No.**</span></span>|<span data-ttu-id="51bb1-116">Die eindeutige Kennnummer für die Lieferbenachrichtigung.</span><span class="sxs-lookup"><span data-stu-id="51bb1-116">The unique identification number for the delivery reminder.</span></span>|  
-    |<span data-ttu-id="51bb1-117">**Kreditorennr**</span><span class="sxs-lookup"><span data-stu-id="51bb1-117">**Vendor No.**</span></span>|<span data-ttu-id="51bb1-118">Gibt die Nummer des Kreditors an, für den Sie eine Lieferbenachrichtigung buchen möchten.</span><span class="sxs-lookup"><span data-stu-id="51bb1-118">The number of the vendor for whom you want to post the delivery reminder.</span></span><br /><br /> <span data-ttu-id="51bb1-119">Wenn Sie die Kreditorennummer auswählen, werden **Name**, **Adresse**, **PLZ Code/Ort** und **Kontakt** Felder automatisch ausgefüllt.</span><span class="sxs-lookup"><span data-stu-id="51bb1-119">When you select the vendor number, the **Name**, **Address**, **Post Code/City**, and **Contact** fields are filled in automatically.</span></span>|  
-    |<span data-ttu-id="51bb1-120">**Buchungsdatum**</span><span class="sxs-lookup"><span data-stu-id="51bb1-120">**Posting Date**</span></span>|<span data-ttu-id="51bb1-121">Gibt das Buchungsdatum der Lieferbenachrichtigung an.</span><span class="sxs-lookup"><span data-stu-id="51bb1-121">The posting date for the delivery reminder.</span></span> <span data-ttu-id="51bb1-122">Dieses Datum wird in alle Lieferbenachrichtigung kopiert.</span><span class="sxs-lookup"><span data-stu-id="51bb1-122">This date is copied to all of the delivery reminder ledger entries.</span></span>|  
-    |<span data-ttu-id="51bb1-123">**Belegdatum**</span><span class="sxs-lookup"><span data-stu-id="51bb1-123">**Document Date**</span></span>|<span data-ttu-id="51bb1-124">Gibt das Dokumentdatum der Lieferbenachrichtigung an.</span><span class="sxs-lookup"><span data-stu-id="51bb1-124">The document date for the delivery reminder.</span></span> <span data-ttu-id="51bb1-125">Dieses Datum wird auch verwendet, um das Fälligkeitsdatum der Lieferbenachrichtigung zu bestimmen.</span><span class="sxs-lookup"><span data-stu-id="51bb1-125">This date is also used to calculate the due date for the delivery reminder.</span></span> <span data-ttu-id="51bb1-126">Sie können das Buchungsdatum bei Bedarf ändern.</span><span class="sxs-lookup"><span data-stu-id="51bb1-126">You can modify the posting date if required.</span></span>|  
-    |<span data-ttu-id="51bb1-127">**Mahnstufe**</span><span class="sxs-lookup"><span data-stu-id="51bb1-127">**Reminder Level**</span></span>|<span data-ttu-id="51bb1-128">Lieferbenachrichtigungsstufe.</span><span class="sxs-lookup"><span data-stu-id="51bb1-128">The delivery reminder level.</span></span> <span data-ttu-id="51bb1-129">Dieser Wert basiert auf der Anzahl von Lieferbenachrichtigung, die bereits gesendet wurden.</span><span class="sxs-lookup"><span data-stu-id="51bb1-129">This value is based on the number of delivery reminders that have already been sent.</span></span> <span data-ttu-id="51bb1-130">Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminder-terms-levels-and-text.md).</span><span class="sxs-lookup"><span data-stu-id="51bb1-130">For more information, see [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md).</span></span>|  
-    |<span data-ttu-id="51bb1-131">**Mahnmethodencode**</span><span class="sxs-lookup"><span data-stu-id="51bb1-131">**Reminder Terms Code**</span></span>|<span data-ttu-id="51bb1-132">Gibt den Lieferbenachrichtigungscode für den Kreditor an.</span><span class="sxs-lookup"><span data-stu-id="51bb1-132">Specify the delivery reminder terms code that is set up for the vendor.</span></span>|  
-    |<span data-ttu-id="51bb1-133">**Fälligkeitsdatum**</span><span class="sxs-lookup"><span data-stu-id="51bb1-133">**Due Date**</span></span>|<span data-ttu-id="51bb1-134">Gibt das Fälligkeitsdatum der Lieferbenachrichtigung an.</span><span class="sxs-lookup"><span data-stu-id="51bb1-134">The due date for the delivery reminder.</span></span>|  
-
-4.  <span data-ttu-id="51bb1-135">Wählen Sie die Aktion **Mahnungszeile vorschlagen**.</span><span class="sxs-lookup"><span data-stu-id="51bb1-135">Choose the **Suggest Reminder Lines** action</span></span>  
-
-    <span data-ttu-id="51bb1-136">Wenn es überfällige Lieferungen vom angegebenen Kreditor gibt, werden diese der Lieferbenachrichtigung hinzugefügt.</span><span class="sxs-lookup"><span data-stu-id="51bb1-136">If there are overdue deliveries from the specified vendor, these are added to the deliver reminder.</span></span>  
-
-5.  <span data-ttu-id="51bb1-137">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="51bb1-137">Choose the **OK** button.</span></span>  
-
-    <span data-ttu-id="51bb1-138">Lieferbenachrichtigung wurde erstellt.</span><span class="sxs-lookup"><span data-stu-id="51bb1-138">The delivery reminder is created.</span></span> <span data-ttu-id="51bb1-139">So können die Lieferbenachrichtigungen ausgeben und erstellen.</span><span class="sxs-lookup"><span data-stu-id="51bb1-139">You can now issue and print the delivery reminder.</span></span>  
-
-## <a name="see-also"></a><span data-ttu-id="51bb1-140">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="51bb1-140">See Also</span></span>  
- <span data-ttu-id="51bb1-141">[Lieferbenachrichtigungen](delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="51bb1-141">[Delivery Reminders](delivery-reminders.md) </span></span>  
- <span data-ttu-id="51bb1-142">[So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="51bb1-142">[Generate Delivery Reminders](how-to-generate-delivery-reminders.md) </span></span>  
- <span data-ttu-id="51bb1-143">[Gewusst wie: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="51bb1-143">[Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) </span></span>  
- <span data-ttu-id="51bb1-144">[Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md) </span><span class="sxs-lookup"><span data-stu-id="51bb1-144">[Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md) </span></span>  
- <span data-ttu-id="51bb1-145">[So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md) </span><span class="sxs-lookup"><span data-stu-id="51bb1-145">[Assign Delivery Reminder Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md) </span></span>  
- <span data-ttu-id="51bb1-146">[Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="51bb1-146">[Issue Delivery Reminders](how-to-issue-delivery-reminders.md) </span></span>  
- [<span data-ttu-id="51bb1-147">So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="51bb1-147">Print Test Reports for Delivery Reminders</span></span>](how-to-print-test-reports-for-delivery-reminders.md)
+[<span data-ttu-id="39925-105">Lieferbenachrichtigungen</span><span class="sxs-lookup"><span data-stu-id="39925-105">Delivery Reminders</span></span>](delivery-reminders.md)  
+[<span data-ttu-id="39925-106">So erstellen Sie Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="39925-106">Generate Delivery Reminders</span></span>](how-to-generate-delivery-reminders.md)  
+[<span data-ttu-id="39925-107">Lieferanmahnungen erstellen</span><span class="sxs-lookup"><span data-stu-id="39925-107">Set Up Delivery Reminders</span></span>](how-to-set-up-delivery-reminders.md)  
+[<span data-ttu-id="39925-108">Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text</span><span class="sxs-lookup"><span data-stu-id="39925-108">Set Up Delivery Reminder Terms, Levels, and Text</span></span>](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
+[<span data-ttu-id="39925-109">Kreditoren Lieferanmahnungscodes zuweisen</span><span class="sxs-lookup"><span data-stu-id="39925-109">Assign Delivery Reminder Codes to Vendors</span></span>](how-to-assign-delivery-reminder-codes-to-vendors.md)  
+[<span data-ttu-id="39925-110">Lieferbenachrichtigung registrieren</span><span class="sxs-lookup"><span data-stu-id="39925-110">Issue Delivery Reminders</span></span>](how-to-issue-delivery-reminders.md)  
+[<span data-ttu-id="39925-111">So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="39925-111">Print Test Reports for Delivery Reminders</span></span>](how-to-print-test-reports-for-delivery-reminders.md)  
