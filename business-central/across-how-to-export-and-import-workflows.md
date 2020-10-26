@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e38ffe59525ca1ef8c124028365bbb597a54a350
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 803af5e396df2a3eade763bfce1172a7a2627da2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785146"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916218"
 ---
 # <a name="export-and-import-workflows"></a>Exportieren und Importieren von Workflows
 Um Workflows auf andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbanken zu übertragen, beispielsweise um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Workflows exportiert und importiert werden.  
@@ -27,13 +27,13 @@ Um Workflows auf andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbanken 
 ## <a name="to-export-a-workflow"></a>So exportieren Sie ein Workflow  
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Workflows** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie einen Workflow, und wählen die **In Datei exportieren** Aktion aus.  
-3.  Klicken Sie auf der Seite **Datei exportieren** auf die Schaltfläche **Speichern**.  
+3.  Klicken Sie auf der Seite **Datei exportieren** auf die Schaltfläche **Speichern** .  
 4.  Wählen Sie auf der Seite **Exportieren** einen Dateistandort aus, und wählen Sie dann die Schaltfläche **Speichern** aus.  
 
 ## <a name="to-import-a-workflow"></a>So importieren Sie einen Workflow  
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Workflows** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Importieren aus Datei** aus.  
-3.  Wählen Sie auf der Seite **Importieren** die XML-Datei aus, die den Workflow enthält, und wählen Sie dann die Schaltfläche **Öffnen**.  
+3.  Wählen Sie auf der Seite **Importieren** die XML-Datei aus, die den Workflow enthält, und wählen Sie dann die Schaltfläche **Öffnen** .  
 
 > [!CAUTION]  
 >  Wenn der Workflowcode bereits in der Datenbank vorhanden ist, werden die Workflowschritte mit den Schritten im importierten Workflow überschrieben.  

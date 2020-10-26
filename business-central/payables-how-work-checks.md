@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 12cb799668430fe8eaaa47ebb2d93549539bb4eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777986"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916701"
 ---
 # <a name="make-check-payments"></a>Zahlung per Scheck machen
 
@@ -25,8 +25,8 @@ Der folgende Ablauf zeigt, wie ein Kreditor mit Computer-Schecks bezahlt wird, i
 
 Sie können mit zwei Arten von Schecks bezahlen Für beide Arten müssen **Bal. Kontoart** oder **Kontoart** das Feld **Bankkonto** enthalten.
 
-- **Computer Scheck**: Wählen Sie diese Option, wenn Sie einen Scheck über den in der Buch.-Blattzeile angezeigten Betrag drucken wollen. Sie müssen die Schecks drucken, bevor Sie die Buch.-Blattzeilen buchen können.
-- **Manueller Scheck**: Wählen Sie diese Option, wenn Sie einen Scheck manuell ausstellen und einen entsprechenden Scheckposten über diesen Betrag anlegen möchten. Mit dieser Option ist das automatische Drucken von Schecks nicht möglich.
+- **Computer Scheck** : Wählen Sie diese Option, wenn Sie einen Scheck über den in der Buch.-Blattzeile angezeigten Betrag drucken wollen. Sie müssen die Schecks drucken, bevor Sie die Buch.-Blattzeilen buchen können.
+- **Manueller Scheck** : Wählen Sie diese Option, wenn Sie einen Scheck manuell ausstellen und einen entsprechenden Scheckposten über diesen Betrag anlegen möchten. Mit dieser Option ist das automatische Drucken von Schecks nicht möglich.
 
 > [!NOTE]  
 > Um sicherzustellen, dass Ihre Bank nur Schecks und Beträge freigibt, können Sie ihr eine Datei senden, die die Daten für Kreditoren, Schecks und Zahlungsinformationen enthält. Weitere Informationen finden Sie unter [Datei Positive Pay exportieren](finance-how-positive-pay.md).
@@ -39,13 +39,13 @@ Sie können bis 10 Rechnungen auf einer Seite für einen Scheckabschnitt drucken
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Um Kreditorenrechnungen mit einem Computer Scheck zu bezahlen
 Nachfolgend wird erläutert, wie Sie einen Kreditor mit Schecks bezahlen. Die Schritte sind ähnlich, wie wenn sie Ihren Debitoren Scheck zurückerstatten.
 
-1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Zahlungsjournale** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsjournale** ein und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Zalungszeilen ein. Weitere Informationen finden Sie unter [Zahlungen und Rückerstattungen aufzeichnen](payables-how-post-payments-refunds.md)
-3. Wählen Sie im Feld die **Zahlungsform** aus und wählen Sie **Check**.
+3. Wählen Sie im Feld die **Zahlungsform** aus und wählen Sie **Check** .
 4. Wählen Sie im Feld **Bankkontozahlungsart** die Option **Computer Scheck** aus.
 5. Wählen Sie die Aktion **Check Drucken** aus.
 6. Füllen Sie auf der Seite **Scheck** die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Wenn Ihr Drucker zum Drucken von Schecks eingerichtet ist, wählen Sie die Schaltfläche **Drucken** aus. Andernfalls wählen Sie die Schaltfläche **Senden an**, die Option **PDF-Dokument** und dann die Schaltfläche **OK** aus, und drucken Sie anschließend das PDF-Dokument.
+7. Wenn Ihr Drucker zum Drucken von Schecks eingerichtet ist, wählen Sie die Schaltfläche **Drucken** aus. Andernfalls wählen Sie die Schaltfläche **Senden an** , die Option **PDF-Dokument** und dann die Schaltfläche **OK** aus, und drucken Sie anschließend das PDF-Dokument.
 
     Die physischen Schecks können jetzt zur Bearbeitung an die Kreditoren gesendet werden. Fahren Sie fort, um die Zahlung für den Kreditor und im System als bezahlt zu buchen.
 8. Wählen Sie die Aktion **Buchen** aus.
@@ -67,15 +67,15 @@ Wenn Scheckzahlung gebucht wurden, können Sie Schecks aus den resultierenden Ba
 > [!IMPORTANT]
 > Wenn der Scheck auf eine Rechnung angewendet wird, heben Sie den Scheck zuerst auf, damit die Rechnung zurückgezahlt werden kann, und stornieren Sie dann den Scheck. Wenn der Scheck gedruckt und keine Rechnung damit bezahlt wurde, wählen Sie **Scheck nur annullieren** aus, wie in diesem Abschnitt beschrieben.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Bankkonten** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie das entsprechende Bankkonto aus, wählen Sie die **Bearbeiten**-Aktion aus, und wählen Sie dann die **Scheckposten**-Aktion aus.
-3. Auf der Seite **Scheckposten** wählen Sie die **Scheck annullieren**-Aktion aus.
-4. Wählen das Kontrollkästchen **Scheck nur annullieren**.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Bankkonten** ein und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie das entsprechende Bankkonto aus, wählen Sie die **Bearbeiten** -Aktion aus, und wählen Sie dann die **Scheckposten** -Aktion aus.
+3. Auf der Seite **Scheckposten** wählen Sie die **Scheck annullieren** -Aktion aus.
+4. Wählen das Kontrollkästchen **Scheck nur annullieren** .
 5. Wählen Sie die Schaltfläche **OK** aus.
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Um eine Zusammenfassung der gebuchten Schecks anzuzeigen
 Wenn Sie gebuchte Schecks überprüfen möchten, zum Beispiel, um Mehrfachverbindungsschecks für einen Kreditor zu überprüfen, können Sie **Bankkonto - Scheckdetails** verwenden.
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Bankkonto - Details prüfen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Bankkonto - Details prüfen** ein, und wählen Sie dann den entsprechenden Link.
 2. Legen Sie Filter fest und wählen Sie dann die Schaltfläche **Vorschau** aus.
 
 ## <a name="see-also"></a>Siehe auch

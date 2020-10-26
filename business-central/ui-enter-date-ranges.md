@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 122c1e602f9f7d1c50115ba1e6ba515694fc84a1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785421"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912471"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
 
@@ -27,7 +27,7 @@ Die Seite **Meine Einstellungen** gibt die **Region** und **Sprache** an, die Si
 
 -   Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.
 
--   Bei Datumsmustern, die Begriffe enthalten, muss die Sprache der Begriffe, die Sie verwenden, der **Sprache**-Einstellung entsprechen.
+-   Bei Datumsmustern, die Begriffe enthalten, muss die Sprache der Begriffe, die Sie verwenden, der **Sprache** -Einstellung entsprechen.
 
 > [!NOTE]
 > [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verwendet das gregorianische Kalendersystem.
@@ -72,7 +72,7 @@ In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingege
 
 ### <a name="today"></a>Heute
 
-Geben Sie das Wort für heute in der Sprache ein, die von der **Sprach**-Einstellung festgelegt wird. Dadurch wird das Datum auf das aktuelle Datum festgelegt. Anstatt den gesamten Begriff einzugeben, können Sie einen Teil des Begriffs eingeben. Beginnen Sie mit h oder heu , sofern dies nicht auch der Beginn eines anderen Begriffs ist.
+Geben Sie das Wort für heute in der Sprache ein, die von der **Sprach** -Einstellung festgelegt wird. Dadurch wird das Datum auf das aktuelle Datum festgelegt. Anstatt den gesamten Begriff einzugeben, können Sie einen Teil des Begriffs eingeben. Beginnen Sie mit h oder heu , sofern dies nicht auch der Beginn eines anderen Begriffs ist.
 
 ### <a name="period"></a>Periode
 
@@ -98,7 +98,7 @@ Um zu definieren, dass eine Datumsangabe ein Abschlussdatum ist, setzen Sie ein 
 
 ### <a name="examples"></a>Beispiele
 
-Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Formate verwenden. Es werden Regionseinstellungen angenommen, mit der die Uhrzeit wie folgt formatiert wird: **Tag.Monat.Jahr.**, eine Woche, die mit Montag beginnt und die englische Sprache.
+Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Formate verwenden. Es werden Regionseinstellungen angenommen, mit der die Uhrzeit wie folgt formatiert wird: **Tag.Monat.Jahr.** , eine Woche, die mit Montag beginnt und die englische Sprache.
 
 |**Eingabe**      |**Interpretation**      |
 |---------------|------------------------|
@@ -194,7 +194,7 @@ Das folgende Beispiel zeigt, wie Sie ein Minuszeichen verwenden können, um anzu
 |-1J|Heute vor einem Jahr|
 
 > [!IMPORTANT]
->  Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit**, entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht 1W sieben Arbeitstagen.
+>  Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit** , entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht 1W sieben Arbeitstagen.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:

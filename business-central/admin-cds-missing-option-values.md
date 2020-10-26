@@ -7,16 +7,16 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 02/03/2020
-ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.date: 10/01/2020
+ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693024"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911666"
 ---
 # <a name="handling-missing-option-values"></a>Behandlung fehlender Optionswerte
-[!INCLUDE[d365fin](includes/cds_long_md.md)] enthält nur drei Optionssatzfelder, die Optionswerte enthalten, die Sie den [!INCLUDE[d365fin](includes/d365fin_md.md)]-Feldern des Optionstyps zuordnen können<!-- Option type, not enum? @Onat can you vertify this? --> für die automatische Synchronisation. Während der Synchronisation werden nicht abgebildete Optionen ignoriert und die fehlenden Optionen werden an die zugehörige [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle angehängt und der **CDS-Optionszuordnung**-Systemtabelle hinzugefügt, um später manuell behandelt zu werden. Zum Beispiel, indem er die fehlenden Optionen in einem der beiden Produkte hinzufügt und dann die Zuordnung aktualisiert. Dieser Abschnitt beschreibt, wie das funktioniert.
+[!INCLUDE[d365fin](includes/cds_long_md.md)] enthält nur drei Optionssatzfelder, die Optionswerte enthalten, die Sie den [!INCLUDE[d365fin](includes/d365fin_md.md)]-Feldern des Optionstyps zuordnen können<!-- Option type, not enum? @Onat can you vertify this? --> für die automatische Synchronisation. Während der Synchronisation werden nicht abgebildete Optionen ignoriert und die fehlenden Optionen werden an die zugehörige [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle angehängt und der **CDS-Optionszuordnung** -Systemtabelle hinzugefügt, um später manuell behandelt zu werden. Zum Beispiel, indem er die fehlenden Optionen in einem der beiden Produkte hinzufügt und dann die Zuordnung aktualisiert. Dieser Abschnitt beschreibt, wie das funktioniert.
 
 Die Seite **Integration Tabellenzuordnung** enthält drei Zuordnungen für Felder, die einen oder mehrere zugeordnete Optionswerte enthalten. Nach einer vollständigen Synchronisierung enthält die Seite **CDS-Optionszuordnung** jeweils die nicht zugeordneten Optionen in den drei Feldern.
 
@@ -36,7 +36,7 @@ Die Seite **Integration Tabellenzuordnung** enthält drei Zuordnungen für Felde
 | Spediteur: FULLLOAD   | 6            | Volle Belastung            |
 | Spediteur: WILLCALL   | 7            | Will Call            |
 
-Der Inhalt der Seite **CDS-Optionszuordnung** basiert auf Aufzählungswerten in der Tabelle **CDS-Konto**. In [!INCLUDE[d365fin](includes/cds_long_md.md)] werden die folgenden Felder auf der Kontoentität den Feldern der Debitoren- und Kreditorendatensätze zugeordnet:
+Der Inhalt der Seite **CDS-Optionszuordnung** basiert auf Aufzählungswerten in der Tabelle **CDS-Konto** . In [!INCLUDE[d365fin](includes/cds_long_md.md)] werden die folgenden Felder auf der Kontoentität den Feldern der Debitoren- und Kreditorendatensätze zugeordnet:
 
 - **Adresse 1: Frachtbedingungen** vom Datentyp Enum, wobei die Werte wie folgt definiert sind:
 
@@ -109,7 +109,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-d365fin-option-mapping"></a>Update [!INCLUDE[d365fin](includes/cds_long_md.md)] Optionszuordnung
 Jetzt können Sie die Zuordnung zwischen [!INCLUDE[d365fin](includes/cds_long_md.md)]-Optionen und [!INCLUDE[d365fin](includes/d365fin_md.md)]-Einträgen neu erstellen.
 
-Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die Karte **Zahlungsbedingungen** und wählen Sie dann die Aktion **Modifizierte Datensätze synchronisieren**. Die Seite **CDS Optionszuordnung** wird mit den zusätzlichen Datensätzen unten aktualisiert.
+Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die Karte **Zahlungsbedingungen** und wählen Sie dann die Aktion **Modifizierte Datensätze synchronisieren** . Die Seite **CDS Optionszuordnung** wird mit den zusätzlichen Datensätzen unten aktualisiert.
 
 |         Datensatz                 | Optionswert   | Optionswert Beschriftung |
 |--------------------------------|----------------|----------------------|

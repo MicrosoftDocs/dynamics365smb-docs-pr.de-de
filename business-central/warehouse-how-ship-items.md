@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9beffaa8e881717506d0c471b9e8bfb9feaf3168
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779134"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911921"
 ---
 # <a name="ship-items"></a>Versenden von Artikeln
 
@@ -30,12 +30,12 @@ Wenn Sie Artikel aus einem Lagerort liefern, der so eingerichtet wurde, dass die
 
 Nachfolgend wird erläutert, wie Artikel aus einem Verkaufsauftrag geliefert werden. Die Schritte für Einkaufsreklamationen, Serviceaufträge und ausgehende Umlagerungsaufträge sind ähnlich.  
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie einen Auftrag oder erstellen Sie einen neuen. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
 3. Geben Sie in dem Feld **Zu liefern** die gelieferte Menge an.
 
-    Der Wert im Feld **Menge geliefert** wird aktualisiert. Wenn dieses eine Teillieferung ist, ist der Wert niedriger als der Wert im Feld **Menge**.
-4. Wählen Sie die Aktion **Buchen**.
+    Der Wert im Feld **Menge geliefert** wird aktualisiert. Wenn dieses eine Teillieferung ist, ist der Wert niedriger als der Wert im Feld **Menge** .
+4. Wählen Sie die Aktion **Buchen** .
 
 > [!NOTE]
 > Wenn Ihre Organisation keine Verkaufsaufträge verwendet, setzt [!INCLUDE [prodshort](includes/prodshort.md)] voraus, dass Sie die vollständige Menge versendet haben, wenn Sie die Verkaufsrechnung buchen. Wenn dies im Widerspruch zur Funktionsweise Ihrer Organisation steht, empfehlen wir Ihnen, Verkaufsaufträge zu verwenden und Sendungen zu registrieren, wie in diesem Artikel erläutert.
@@ -62,7 +62,7 @@ Normalerweise erstellt der Mitarbeiter, der für die Lieferung verantwortlich is
     Aus einem neuen oder offenen Warenausgang können Sie die Seite **Filter z. Holen v. Herk.-Bel.** nutzen, um die Zeilen des freigegebenen Herkunftsbelegs zu erhalten, die festlegen, welche Artikel geliefert werden sollen.
 
     1. Wählen Sie die **Filter zum Holen von Herk.-Belegen verwenden** Aktion aus.  
-    2. Um einen neuen Filter einzurichten, geben Sie einen beschreibenden Code in das Feld **Code** ein, und klicken Sie auf Aktionen **Bearbeiten**.  
+    2. Um einen neuen Filter einzurichten, geben Sie einen beschreibenden Code in das Feld **Code** ein, und klicken Sie auf Aktionen **Bearbeiten** .  
     3. Legen Sie die Art von Herkunftsbelegzeilen fest, die Sie abrufen möchten, indem Sie die jeweiligen Filterfelder ausfüllen.  
     4. Wählen Sie die Aktion **Ausführen** aus.  
 
@@ -70,7 +70,7 @@ Normalerweise erstellt der Mitarbeiter, der für die Lieferung verantwortlich is
 
     Die Filterkombinationen, die Sie definieren, werden auf der Seite **Filter z. Holen v. Herk.-Bel.** gespeichert, bis das nächste Mal benötigt werden. Sie können eine unbegrenzte Anzahl von Filterkombinationen erstellen. Sie können die Kriterien jederzeit ändern, indem Sie die Aktion **Bearbeiten** auswählen.
 
-4. Wählen Sie die Herkunftsbelege, für die Sie Artikel liefern möchten, und bestätigen Sie dann mit **OK**.  
+4. Wählen Sie die Herkunftsbelege, für die Sie Artikel liefern möchten, und bestätigen Sie dann mit **OK** .  
 
 Die Zeilen der Herkunftsbelege werden auf der Seite **Warenausgang** angezeigt. Das Feld **Zu liefern** ist für jede Zeile gefüllt, Sie können die Menge jedoch bei Bedarf ändern. Wenn Sie den Inhalt des Feldes **Lagerplatzcode** m Inforegister **Allgemein** löschen, bevor Sie die Zeilen abrufen, muss in jeder Warenausgangszeile ein geeigneter Lagerplatzcode eingetragen werden.  
 
@@ -88,7 +88,7 @@ In der Regel erstellt ein Lagermitarbeiter, der für das Kommissionieren zustän
 3. Füllen Sie die Felder auf der Anforderungsseite aus, und wählen Sie dann die Schaltfläche **OK** aus. Der angegebene Kommissionierbeleg wird erstellt.
 
     Alternativ öffnen Sie eine vorhandene Kommissionierung.
-4. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kommissionierungen** ein und wählen Sie dann den entsprechenden Link. Wählen Sie die Lagerkommissionierung aus, die Sie bearbeiten möchten.
+4. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kommissionierungen** ein und wählen Sie dann den entsprechenden Link. Wählen Sie die Lagerkommissionierung aus, die Sie bearbeiten möchten.
 
     Wenn Ihr Lager für die Verwendung von Lagerplätzen eingerichtet wurde, wurden die Kommissionierzeilen in Aktionszeilen der Arten "Lagerentnahme" und "Einlagerung" umgewandelt.
 

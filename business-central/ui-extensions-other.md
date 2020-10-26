@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a32724a9ff2509fabd0e7a02ab732d7fd43f619a
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: 8723d800f75a8d56e72d040d2bf4829d30777fbb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3692999"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912296"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Business Central-Erweiterungen von anderen Anbietern
 

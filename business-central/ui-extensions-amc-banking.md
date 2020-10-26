@@ -1,5 +1,5 @@
 ---
-title: Verwendung der AMC Banking 365 Fundamentals-Erweiterung| Microsoft Docs
+title: Verwenden der AMC Banking 365 Fundamentals-Erweiterung | Microsoft Docs
 description: Einfacher Datenaustausch mit Ihren Banken durch die Umwandlung von Daten in das von ihnen benötigte Format.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 493abf6f7309d6eb0274f4f416e6e5aea782b031
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8eb45d8c65a09ac56617f84a41543c38a4518fa9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194355"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912396"
 ---
-# <a name="using-the-amc-banking-365-fundamentals-extension"></a>Verwendung der AMC Banking 365 Fundamentals-Erweiterung
-Die AMC Banking 365 Fundamentals-Erweiterung macht es einfacher und genauer, Daten an Ihre Banken zu senden. Die Erweiterung verbindet [!INCLUDE[d365fin](includes/d365fin_md.md)] mit dem Dienst AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central, der Bankdaten von [!INCLUDE[d365fin](includes/d365fin_md.md)] in Formate konvertieren kann, die von über 600 Banken weltweit benötigt werden. Dies erleichtert z.B. die Übertragung von Zahlungen und Gutschriften an Lieferanten, indem Sie die Zahlungen auf [!INCLUDE[d365fin](includes/d365fin_md.md)] eingeben und dann auf Ihre Bank hochladen. Die Formate können auch die Prozesse der Bankabstimmung glätten. Weitere Informationen finden Sie unter [AMC Banking für Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
+# <a name="using-the-amc-banking-365-fundamentals-extension"></a>Verwenden der AMC Banking 365 Fundamentals-Erweiterung
+Die AMC Banking 365 Fundamentals-Erweiterung macht es einfacher und genauer, Daten an Ihre Banken zu senden. Die Erweiterung verbindet [!INCLUDE[d365fin](includes/d365fin_md.md)] mit dem AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central-Dienst, der Bankdaten von [!INCLUDE[d365fin](includes/d365fin_md.md)] in Formate konvertieren kann, die von über 600 Banken weltweit benötigt werden. Dies erleichtert z.B. die Übertragung von Zahlungen und Gutschriften an Lieferanten, indem Sie die Zahlungen auf [!INCLUDE[d365fin](includes/d365fin_md.md)] eingeben und dann auf Ihre Bank hochladen. Die Formate können auch die Prozesse der Bankabstimmung glätten. Weitere Informationen finden Sie unter [AMC Banking für Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
 
 > [!Note]
 > AMC Banking hat zusätzliche Erweiterungen gebaut, die mit [!INCLUDE[d365fin](includes/d365fin_md.md)] funktionieren. Dieses Thema beschreibt nur die grundlegende Erweiterung.
 
 ## <a name="using-our-demonstration-account"></a>Verwendung unseres Demonstrationskontos
-[!INCLUDE[d365fin](includes/d365fin_md.md)] wird mit einem Demokonto geliefert, mit dem Sie die AMC Banking 365 Fundamentals-Erweiterung ausprobieren können. Wir bieten Standardeinstellungen für die Verbindung mit AMC Banking, die Angabe der Bankkonten, von denen die Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] bezogen werden sollen, sowie einige Datenaustauschdefinitionen. Sie können die Verbindungseinstellungen auf der Seite **AMC Banking Setup** einsehen. Für Bankkonten bezieht die Erweiterung Werte in den Feldern **Bankname**, **Überweisung Msg. Nr.**, **Kontoauszug Importformat** und **Zahlungsexportformat** Felder auf Bankkontokarten.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] wird mit einem Demokonto geliefert, mit dem Sie die AMC Banking 365 Fundamentals-Erweiterung ausprobieren können. Wir bieten Standardeinstellungen für die Verbindung mit AMC Banking, die Angabe der Bankkonten, von denen die Daten in [!INCLUDE[d365fin](includes/d365fin_md.md)] bezogen werden sollen, sowie einige Datenaustauschdefinitionen. Sie können die Verbindungseinstellungen auf der Seite **AMC Banking Setup** einsehen. Für Bankkonten bezieht die Erweiterung Werte in den Feldern **Bankname** , **Überweisung Msg. Nr.** , **Kontoauszug Importformat** und **Zahlungsexportformat** Felder auf Bankkontokarten.
 
-Wir stellen die Einstellungen zur Verfügung, aber um die Erweiterung auszuprobieren, müssen Sie die unterstützte Installationsanleitung ausführen, um sie anzuwenden. Um die Anleitung auszuführen, wählen Sie auf der Seite **AMC Banking Setup** die Aktion **Unterstütztes Setup**.
+Wir stellen die Einstellungen zur Verfügung, aber um die Erweiterung auszuprobieren, müssen Sie die unterstützte Installationsanleitung ausführen, um sie anzuwenden. Um die Anleitung auszuführen, wählen Sie auf der Seite **AMC Banking Setup** die Aktion **Unterstütztes Setup** .
 
 > [!Note]
 > Es gibt einige Einschränkungen für das Demo-Konto. Wenn Sie beispielsweise Zahlungen konvertieren, stimmt der Betrag in der konvertierten Datei nicht mit dem tatsächlichen Betrag überein. Stattdessen beträgt der Betrag immer fünf Einheiten der Währung, die Sie für Zahlungen verwenden.  
@@ -44,16 +44,16 @@ Bevor Personen diese Erweiterung verwenden können, muss Ihr Administrator die f
 
 Weitere Informationen finden Sie unter [Kopieren eines Berechtigungssatzes](ui-define-granular-permissions.md#to-copy-a-permission-set).
 
-Erteilen Sie für jeden neuen Berechtigungssatz nur die Berechtigung **Lesen** für die **AMC Banking Setup-Tabelle (20101)**. Weitere Informationen finden Sie unter [Berechtigungen manuell erstellen oder ändern](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
+Erteilen Sie für jeden neuen Berechtigungssatz nur die Berechtigung **Lesen** für die **AMC Banking Setup-Tabelle (20101)** . Weitere Informationen finden Sie unter [Berechtigungen manuell erstellen oder ändern](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>So verbinden Sie die Erweiterung mit AMC Banking.
 1. Besorgen Sie sich ein Modul und einen Serviceplan für AMC Banking. Um dies zu tun, besuchen Sie die Seite [AMC Lizenz](https://license.amcbanking.com/register).
-2. Wählen Sie unter [!INCLUDE[d365fin](includes/d365fin_md.md)] die ![Glühbirne , die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **AMC Banking Setup** ein und wählen Sie dann den entsprechenden Link.  
-3. Wählen Sie auf der Seite **AMC Banking Setup** die Aktion **Unterstütztes Setup**.
+2. Wählen Sie unter [!INCLUDE[d365fin](includes/d365fin_md.md)] die ![Glühbirne , die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **AMC Banking Setup** ein und wählen Sie dann den entsprechenden Link.  
+3. Wählen Sie auf der Seite **AMC Banking Setup** die Aktion **Unterstütztes Setup** .
 4. Schliessen Sie die Schritte im unterstützten Setup ab.
 
 ### <a name="to-connect-bank-accounts-to-the-extension"></a>So verbinden Sie Bankkonten mit der Erweiterung
-1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte für das Bankkonto, das Sie mit dem Dienst verbinden möchten.
 3. Wählen Sie im Feld **Bankname** das Format, das Ihre Bank benötigt.  
 
@@ -69,9 +69,9 @@ Die Verwendung dieser Erweiterung ist nur eine Frage des Exports von Daten auf d
 
 ### <a name="to-export-data-and-submit-it-to-your-bank"></a>So exportieren Sie Daten und übermitteln sie an Ihre Bank
 > [!CAUTION]  
->  Wenn Sie Daten mit der Erweiterung AMC Banking 365 Fundamentals exportieren, werden einige Ihrer Geschäftsdaten dem Anbieter des Dienstes zugänglich gemacht. Der Dienstanbieter, AMC Consult A/S, ist für den Schutz dieser Daten verantwortlich. Weitere Informationen finden Sie unter [AMC Datenschutzerklärung](https://go.microsoft.com/fwlink/?LinkId=510158).
+>  Wenn Sie Daten mithilfe der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden einige Ihrer Geschäftsdaten dem Anbieter des Dienstes zugänglich gemacht. Der Dienstanbieter, AMC Consult A/S, ist für den Schutz dieser Daten verantwortlich. Weitere Informationen finden Sie unter [AMC Datenschutzerklärung](https://go.microsoft.com/fwlink/?LinkId=510158).
 
-1. Wählen Sie die ![Glühbirne , die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsjournale** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne , die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsjournale** ein und wählen Sie dann den entsprechenden Link.
 2. Erstellen Sie die Journalzeilen, die Sie exportieren möchten.  
 
    > [!Note]
@@ -79,7 +79,7 @@ Die Verwendung dieser Erweiterung ist nur eine Frage des Exports von Daten auf d
 3. Wählen Sie die Aktion **Exportieren** aus.
 
 ### <a name="to-import-and-apply-the-converted-file"></a>So importieren und wenden Sie die konvertierte Datei an
-1. Wählen Sie die ![Glühbirne , die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahltungsabstimmungserfassung** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne , die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahltungsabstimmungserfassung** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Banktransaktion importieren** und dann die konvertierte Datei.  
 
    [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt ein neues Zahlungsabgleichsjournal, das die Daten in der Datei enthält. Weitere Informationen finden Sie unter [Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md).

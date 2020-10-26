@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6f0d7f5af6750eba3622ca697f81eb0804f6be16
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 183a127ff9584723c52159397c75d1f17765d81f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786571"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917676"
 ---
 # <a name="create-reports-with-xbrl"></a>Berichte mit XBRL erstellen
 XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben. Die XBRL-Initiative ermöglicht die Erstellung globaler Finanzberichte durch verschiedene ERP-Softwareunternehmen und internationale Buchhaltungsorganisationen. Das Ziel der Initiative ist es, einen Standard für die einheitlichen Berichterstellung der Finanzdaten für Banken, Investoren und Regierungsbehörden bereitzustellen. Solche Geschäftsberichte können Folgendes umfassen:  
@@ -30,7 +30,7 @@ XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sp
  [!INCLUDE[d365fin](includes/d365fin_md.md)] Microsoft Dynamics NAV ermöglicht Unternehmen die Implementierung von Daten in XBRL. Die Unternehmen profitieren dadurch von der Flexibilität und Automatisierung, die Ihnen XBRL beim Sammeln und gemeinsamen Nutzen von Daten bietet.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Geschäfts-Berichterstellungs-Sprache
-XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) ist eine XML-basierte Sprache für das Finanzberichtswesen. XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache für Finanzberichtswesen. XBRL ist ein Standard für alle Nutzer der Supply-Chain zur einheitlichen Finanzberichterstattung. Dazu können private Unternehmen, das Buchhaltungswesen, Verwaltungen, Analysten, Investmentfirmen, Kapitalmärkte und Kreditgeber als auch Dritte in Schlüsselpositionen wie Softwareentwickler und Datenverwalter gehören.  
+XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) ist eine XML-basierte Sprache für das Finanzberichtswesen. XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache für Finanzberichtswesen. XBRL ist ein Standard für alle Nutzer der Supply-Chain zur einheitlichen Finanzberichterstattung. Dazu können private Unternehmen, das Buchhaltungswesen, Verwaltungen, Analysten, Investmentfirmen, Kapitalmärkte und Kreditgeber als auch Dritte in Schlüsselpositionen wie Softwareentwickler und Datenverwalter gehören.  
 
 Taxonomien sind unter www.xbrl.org erhältlich. Auf der XBRL-Website können Sie Taxonomien herunterladen oder weitere Informationen erhalten.  
 
@@ -71,7 +71,7 @@ Sie richten die XBRL-Zeilen ein, indem Sie die Daten in der Taxonomie Ihren Date
 3.  Wählen Sie die Aktion **Zeilen** aus.  
 4.  Wählen Sie eine Zeile und füllen Sie die Felder aus.   
 5.  Durch Klicken auf die Aktion **Information** können Sie die Detailinformationen lesen.  
-6.  Um die Sachkonten aus dem Kontenplan den XBRL-Zeilen zuzuordnen, klicken Sie auf **Verknüpfte Finanzbuchhaltungszeile**.  
+6.  Um die Sachkonten aus dem Kontenplan den XBRL-Zeilen zuzuordnen, klicken Sie auf **Verknüpfte Finanzbuchhaltungszeile** .  
 7.  Um dem Finanzbericht eine Notiz hinzuzufügen, wählen Sie die **Notizen** Aktion.  
 
 > [!NOTE]  
@@ -92,14 +92,14 @@ Der erste Schritt, um mit der XBRL-Funktionalität arbeiten zu können, ist, die
 7. Wählen Sie die **Auf Taxonomie anwenden** Aktion aus, um die Linkbase auf das Schema anzuwenden.  
 
 > [!IMPORTANT]  
->  Anstatt die Linkbases einzeln nach dem Import anzuwenden, können Sie warten, bis Sie alle Linkbases importiert haben, und sie dann alle gleichzeitig anwenden. Dazu wählen Sie die Schaltfläche **NEIN**, wenn sie aufgefordert werden, die neu importierte Linkbase auf das Schema anzuwenden. Wählen Sie dann die Zeilen mit den Linkbases aus, die Sie anwenden möchten.  
+>  Anstatt die Linkbases einzeln nach dem Import anzuwenden, können Sie warten, bis Sie alle Linkbases importiert haben, und sie dann alle gleichzeitig anwenden. Dazu wählen Sie die Schaltfläche **NEIN** , wenn sie aufgefordert werden, die neu importierte Linkbase auf das Schema anzuwenden. Wählen Sie dann die Zeilen mit den Linkbases aus, die Sie anwenden möchten.  
 
 ## <a name="to-update-an-xbrl-taxonomy"></a>Um eine XBRL-Taxonomie zu aktualisieren  
 Wenn sich eine Taxonomie ändert, müssen Sie die aktuelle Taxonomie dementsprechend ändern. Der Grund für die Aktualisierung kann ein verändertes Schema, eine veränderte Linkbase oder eine neue Linkbase sein. Nach Aktualisierung der Taxonomie müssen Sie nur die Zeilen an die geänderten oder neuen Zeilen anpassen.  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **XBRL-Taxonomien** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **XBRL-Taxonomien** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie auf der Seite **XBRL-Taxonomien** die Aktion **Schemas** aus.  
-3.  Wählen Sie zum Aktualisieren des Schemas das zu aktualisierende Schema aus, und klicken Sie auf **Importieren**.  
+3.  Wählen Sie zum Aktualisieren des Schemas das zu aktualisierende Schema aus, und klicken Sie auf **Importieren** .  
 4.  Um eine neue Linkbase zu aktualisieren oder hinzuzufügen, wählen Sie **Linkbases** aus.  
 5.  Wählen Sie die gewünschte Linkbase aus oder drücken Sie STRG+N, um eine neue Zeile zu erhalten, wählen Sie die Art der Linkbase aus, und fügen Sie dann eine Beschreibung ein.  
 6.  Um die Linkbase zu importieren, wählen Sie die **Importieren** Aktion aus.  

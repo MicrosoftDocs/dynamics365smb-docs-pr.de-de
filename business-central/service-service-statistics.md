@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0e1c6fe7b5a830e17d693bcd4d48921947b0509d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 55c534d1f8a836775548d118f68383622ca25dec
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192387"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913071"
 ---
 # <a name="viewing-service-statistics"></a>So zeigen Sie die Servicestatistik an
 Sie können Statistiken nutzen, um Belege zu analysieren und zu bestimmen, wie Sie Ihre Dienstvorgänge verwalten sollen. Sie können Serviceverträge, Artikel, Bestellungen, Rechnungen, Gutschriften und Anfragen analysieren, indem Sie die **Statistik** Aktion auswählen. Für Serviceartikel und Verträge können Sie **Serviceartikel-Trendscape** oder **Servicevertrag-Trendscape** verwenden, um eine Zusammenfassung der Serviceposten für einen bestimmten Serviceartikel angezeigt.   
@@ -23,7 +23,7 @@ Sie können Statistiken nutzen, um Belege zu analysieren und zu bestimmen, wie S
 ## <a name="viewing-statistics-for-service-orders"></a>So zeigen Sie die Serviceauftragsstatistik an
 Die Funktion "Serviceauftragsstatistik" bietet Ihnen einen schnellen Überblick über den Inhalt des gesamten Serviceauftrags, über die Details zu bestimmten Servicezeilen und über Informationen zur Fakturierung, Lieferung und dem Verbrauch sowie über den Saldo des Debitors.  
 
-Die statistischen Daten eines Serviceauftrags werden auf der Seite **Serviceauftragsstatistik** des jeweiligen Auftrags angezeigt. Sie können die entsprechende Statistikseite aus einem Serviceauftrag öffnen. Die Seite **Serviceauftrag** wählen Sie **Statisitk**. Auf den Inforegistern auf dieser Seite werden u. a. die Menge, der Betrag, der MwSt.-Betrag, der Einstandspreis, der Deckungsbeitrag und das Kreditlimit des Debitors angezeigt. Die Beträge auf der Seite werden – sofern nichts anderes angegeben wird – in der Währung des Serviceauftrags angezeigt.  
+Die statistischen Daten eines Serviceauftrags werden auf der Seite **Serviceauftragsstatistik** des jeweiligen Auftrags angezeigt. Sie können die entsprechende Statistikseite aus einem Serviceauftrag öffnen. Die Seite **Serviceauftrag** wählen Sie **Statisitk** . Auf den Inforegistern auf dieser Seite werden u. a. die Menge, der Betrag, der MwSt.-Betrag, der Einstandspreis, der Deckungsbeitrag und das Kreditlimit des Debitors angezeigt. Die Beträge auf der Seite werden – sofern nichts anderes angegeben wird – in der Währung des Serviceauftrags angezeigt.  
 
 ### <a name="view-totals-for-a-service-order"></a>Anzeigen von Summen für einen Auftrag  
 Die Daten umfassen den Gesamtbetrag der Servicezeilen (mit und ohne MwSt.), MwSt.-Anteil, Einstandspreis sowie DB der Servicezeilen. Die Seite zeigt auch die artikelspezifischen Informationen, wie Gewicht, Volumen und Menge an Paketen.  
@@ -71,7 +71,7 @@ Wenn Sie mit den Bildlaufleisten den sichtbaren Fensterausschnitt verschieben, w
 Sie können die Liste filtern, indem Sie die Serviceartikel festlegen, die berücksichtigt werden sollen.  
 
 > [!Tip]  
->  Wenn Sie die Periodenlänge auf **Tag** gesetzt haben und die Suche mit den Bildlaufleisten sehr lange dauert, können Sie auch ein größeres Intervall (z. B. **Quartal**) verwenden. Wenn Sie die gewünschte Periode gefunden haben, können Sie wieder auf das ursprüngliche Intervall umschalten, so dass detailliertere Daten angezeigt werden.   
+>  Wenn Sie die Periodenlänge auf **Tag** gesetzt haben und die Suche mit den Bildlaufleisten sehr lange dauert, können Sie auch ein größeres Intervall (z. B. **Quartal** ) verwenden. Wenn Sie die gewünschte Periode gefunden haben, können Sie wieder auf das ursprüngliche Intervall umschalten, so dass detailliertere Daten angezeigt werden.   
 
 ## <a name="viewing-gains-and-losses-on-contracts"></a>Gewinne und Verluste auf Verträgen anzeigen  
 Die Anwendung erstellt automatisch einen Gewinn- oder Verlustposten, wenn Vertragsangebote in Serviceverträge umgewandelt werden, wenn Vertragszeilen zum Servicevertrag hinzugefügt oder aus ihm entfernt werden und wenn Verträge gekündigt werden. Sie können Vertragsgewinne oder -verluste auf den folgenden Seiten anzeigen.  
@@ -91,7 +91,7 @@ Die Anwendung erstellt automatisch einen Gewinn- oder Verlustposten, wenn Vertra
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Servicestatistik für gebuchte Service-Belege anzeigen
 Mit der Funktion "Servicestatistik" erhalten Sie eine statistische Übersicht über den Inhalt von gebuchten Servicebelegen, wie gebuchte Lieferungen, Rechnungen und Gutschriften.  
 
-Die statistischen Daten werden auf der Seite "Servicestatistik" für den gebuchten Service angezeigt. Sie können die entsprechende Statistikseite aus der gebuchten Servicelieferung, aus der gebuchten Servicerechnung oder den gebuchten Servicegutschriftbelegen öffnen. Wählen Sie für jede dieser Dokumentarten die Aktion **Statistik**. Wählen Sie beispielsweise auf der Seite **Gebuchte Dienstleistungsrechnungen** die Aktion **Statistik**.  
+Die statistischen Daten werden auf der Seite "Servicestatistik" für den gebuchten Service angezeigt. Sie können die entsprechende Statistikseite aus der gebuchten Servicelieferung, aus der gebuchten Servicerechnung oder den gebuchten Servicegutschriftbelegen öffnen. Wählen Sie für jede dieser Dokumentarten die Aktion **Statistik** . Wählen Sie beispielsweise auf der Seite **Gebuchte Dienstleistungsrechnungen** die Aktion **Statistik** .  
 
 ### <a name="posted-service-shipment-statistics"></a>Geb. Servicelieferungsstatistik  
 Die Seite **Servicelieferungsstatistik** bietet Ihnen eine Übersicht über die gebuchte Servicelieferung. Das Fenster umfasst das Inforegister "Allgemein", auf dem Informationen zum physischen Inhalt der Lieferung angezeigt werden, z. B. die Menge der gelieferten Artikel, die Ressourcenstunden oder die Einstandspreise und das Gewicht sowie das Volumen der gelieferten Artikel.  

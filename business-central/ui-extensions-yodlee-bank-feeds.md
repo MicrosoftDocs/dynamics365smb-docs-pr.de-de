@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c97673ceda1765033877318b46d63652ec318ae9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3107c42fd584a58fc13ad2bfeacea0ed14e28de7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789425"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918588"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Die Envestnet Yodlee Bank Feeds-Erweiterung
 Um die Zahlungen schnell abzustimmen, die an Ihre Bankkonten getätigt werden, kann der Envestnet Yodlee Bank Feeds Service Ihre Systembankkonten mit Ihrem Online Bankkonto verknüpfen. Das bedeutet, dass der letzte Bankkontoauszug automatisch oder manuell in Ihr Abstimmungsbuch.-Blatt gespeist wird und stellt sicher, dass immer die aktuelle Zahlungen mit minimalem Fehlerrisiko verarbeitet werden.
@@ -30,7 +30,7 @@ Der Envestnet Yodlee Bank Feeds-Service wird nur in den Vereinigten Staaten und 
 > Es werden nur Banken mit Wohnsitz in diesen Ländern unterstützt, auch wenn Banken aus anderen Ländern im Bankenauswahlfenster Envestnet Yodlee Bank Feeds unter [!INCLUDE[d365fin](includes/d365fin_md.md)] erscheinen können.
 
 > [!IMPORTANT]
-> Aufgrund der neuen Zahlungsdiensterichtlinie in Europa (PSD2) können Sie nach dem 14. September 2019 nicht mehr automatisch Kontoauszüge von Banken in Großbritannien importieren in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wir prüfen, ob wir dieses Funktion in Zukunft wieder anbieten können.
+> Aufgrund der neuen Richtlinie für Zahlungsdienste in Europa (PSD2) können Sie nach dem 14. September 2019 nicht mehr automatisch Kontoauszüge von Banken im Vereinigten Königreich in [!INCLUDE[d365fin](includes/d365fin_md.md)] importieren. Wir prüfen, ob wir dieses Funktion in Zukunft wieder anbieten können.
 
 Der Envestnet Yodlee Bank Feeds Service bietet die folgenden Vorteile:
 

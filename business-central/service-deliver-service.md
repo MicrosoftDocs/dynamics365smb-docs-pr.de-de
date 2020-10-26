@@ -10,33 +10,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2c3536f87fedb4703cdf91f1bd32885229274bd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bf4a825c8d035b4dab6f6e8b8fc3472eb48ddf6d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788775"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910380"
 ---
 # <a name="delivering-service"></a>Bereitstellen von Service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  
   
 Ausstehende Serviceaufträge können auch auf der Seite **Serviceaufgaben** geprüft werden. In dieser Ansicht der Serviceverpflichtungen wird angezeigt, an welcher Stelle des Serviceworkflows sich der Auftrag befindet, und der Status kann so geändert werden, dass die Interaktionen mit dem Debitor dargestellt werden.  
   
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..   
 
 Eine Servicemanagementanwendung benötigt eine Schnittstelle mit einer Serviceanforderung durch einen Debitor. Diese Serviceanforderung wird normalerweise in einen Serviceauftrag umgewandelt. [!INCLUDE[d365fin](includes/d365fin_md.md)]bietet Tools zum Erstellen eines Auftrags, und zwar entweder als direkte Reaktion auf eine Debitorenanforderung oder als Teil des Vertragsprozesses, falls die Anwendung entsprechend eingerichtet wurde.  
   
 Gegebenenfalls können Sie ein Leihgerätprogramm für Debitoren verwalten. Zudem besteht die Möglichkeit, die Preisstruktur zu bestimmen, Servicepreisangebote in logischen Gruppen zu platzieren und Preiskorrekturen zu erstellen.  
   
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..   
   
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
 |Erstellen von Angeboten, die Entwürfe von Serviceaufträgen sind, und Angebote in Serviceaufträge umwandeln.|[So erstellen Sie Serviceangebote](service-how-to-create-service-quotes.md)|
 |Erstellen Sie Belege, die Informationen über einen Service wie Reparatur und Wartung enthalten, auf Serviceartikel.|[Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)|
-|Planen der Servicebereitstellung mithilfe der **Einsatzplanung**. Zur Unterstützung der Planung können auch Projektmanagementtools in der Projektabteilung verwendet werden.|[Ressourcen zuordnen](service-how-to-allocate-resources.md)|  
+|Planen der Servicebereitstellung mithilfe der **Einsatzplanung** . Zur Unterstützung der Planung können auch Projektmanagementtools in der Projektabteilung verwendet werden.|[Ressourcen zuordnen](service-how-to-allocate-resources.md)|  
 |Dient zum Bereitstellen von Serviceaufgaben für Debitoren|[Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)|  
 |Buchen von Serviceaufträgen vor der Servicebereitstellung, damit die Buchhaltung auf dem neuesten Stand ist.|[Buchen von Serviceaufträgen und Gutschriften](service-how-to-post-service-orders.md)|  
 |Erstellen und buchen Sie Rechnungen für Services, die Sie geliefert haben.|[Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.](service-how-create-invoices.md)|  

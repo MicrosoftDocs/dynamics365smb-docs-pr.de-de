@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 10795ffc60861766f3fcc4aebcb086ab55a0094f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779935"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919288"
 ---
 # <a name="create-production-boms"></a>Fertigungsauftrag erstellen
 In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponenten und Unterbaugruppen beschrieben werden, die bei der Fertigung eines übergeordneten Artikels verwendet werden. Sobald ein Fertigungsauftrag für diesen übergeordneten Artikel erstellt wurde, wird über die entsprechende Fertigungsstückliste die Berechnung des Materialbedarfs gesteuert, die auf der Seite **Prod. Bestellkomponenten** dargestellt wird.
@@ -31,7 +31,7 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Fertigungsstückliste** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Wenn Sie die Fertigungsstückliste bearbeiten möchten, setzen Sie das Feld **Status** auf **Neu** oder **In Entwicklung**. Um den Arbeitsplan zu aktivieren, setzen Sie das Feld **Status** auf **Zertifiziert**.  
+4. Wenn Sie die Fertigungsstückliste bearbeiten möchten, setzen Sie das Feld **Status** auf **Neu** oder **In Entwicklung** . Um den Arbeitsplan zu aktivieren, setzen Sie das Feld **Status** auf **Zertifiziert** .  
 
     So füllen Sie die Fertigungsstücklistenzeilen aus
 5. Wählen Sie im Feld **Art** aus, ob es sich bei dem Artikel in der Fertigungsstücklistenzeile um einen normalen Artikel oder um eine Fertigungsstückliste handelt. In diesem Fall muss die Fertigungsstückliste bereits als zertifizierte Fertigungsstückliste vorhanden sein.  
@@ -43,7 +43,7 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
     >  Der Ausschussprozentsatz steht für Komponenten, die während der Fertigung bei der Kommissionierung aus dem Lagerbestand als Ausschuss anfallen, wohingegen der Ausschussprozentsatz in Arbeitsgängen für die als Ausschuss anfallende Istmenge vor der Lageraufnahme steht.  
 
 9.  Geben Sie im Feld **Verbindungscode** einen Code für die Verbindung der Komponente mit einem bestimmten Arbeitsgang ein. Weitere Informationen finden Sie unter [So erstellen Sie einen Arbeitsplanlink](production-how-to-create-routings.md#to-create-routing-links).
-10. Wenn Sie aus einer vorhandenen Fertigungsstückliste Zeilen kopieren möchten, klicken Sie auf Aktionen, Funktion, **Fertigungsstückliste kopieren**, um vorhandene Zeilen auszuwählen.  
+10. Wenn Sie aus einer vorhandenen Fertigungsstückliste Zeilen kopieren möchten, klicken Sie auf Aktionen, Funktion, **Fertigungsstückliste kopieren** , um vorhandene Zeilen auszuwählen.  
 11.  Überprüfen Sie die Fertigungsstückliste.  
 12.  Sie können die neue Fertigungsstückliste an die Karte des betreffenden übergeordneten Artikels anhängen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).  
 
@@ -61,15 +61,15 @@ Das Startdatum bestimmt den Start der Periode, in welcher die Version gültig is
 4. Füllen Sie die Felder je nach Bedarf aus.
 5. Geben Sie im Feld **Versionscode** eine eindeutige Kennung der Version ein. Beliebige Kombinationen von Ziffern und Buchstaben können verwendet werden.  
 
-    Die neu erstellte Version erhält automatisch den Status **Neu**.
+    Die neu erstellte Version erhält automatisch den Status **Neu** .
 6. Wenn die Stücklistenversion abgeschlossen ist wird der **Status** auf **Zertifiziert** festgelegt.  
 
 Die zeitliche Gültigkeit der Version wird durch das **Startdatum** bestimmt.  
 
 > [!NOTE]  
->  Wählen Sie die Option **Artikel** in **Art**, um einen Artikel aus den Artikelstammdaten in Ihre Fertigungsstückliste zu übernehmen. Wenn der Artikel eine Fertigungsstückliste hat, wodurch das Feld **Fert.-Stücklistennr.** auf der Artikelkarte ausgefüllt wird, wird diese Fertigungsstückliste ebenfalls berücksichtigt.  
+>  Wählen Sie die Option **Artikel** in **Art** , um einen Artikel aus den Artikelstammdaten in Ihre Fertigungsstückliste zu übernehmen. Wenn der Artikel eine Fertigungsstückliste hat, wodurch das Feld **Fert.-Stücklistennr.** auf der Artikelkarte ausgefüllt wird, wird diese Fertigungsstückliste ebenfalls berücksichtigt.  
 >   
->  Wählen Sie die Option **Fertigungsstückliste**, wenn Sie eine Phantomstückliste in der Zeile verwenden möchten.  
+>  Wählen Sie die Option **Fertigungsstückliste** , wenn Sie eine Phantomstückliste in der Zeile verwenden möchten.  
 >   
 >  Phantomstücklisten ermöglichen die Strukturierung des Produkts. Diese Fertigungsstückliste führt niemals zu einem Fertigprodukt, sondern wird ausschließlich zur Ermittlung des abhängigen Bedarfs verwendet. Phantomstücklisten haben keinen Eintrag in den Artikelstammdaten.
 
@@ -84,7 +84,7 @@ Die Beziehung der einzelnen Komponenten wird durch die Formel festgelegt. Folgen
 -  **Länge:** Menge = Länge x Komponentenmenge  
 -  **Länge x Breite** - Menge = Länge x Breite x Komponentenmenge  
 -  **Länge x Breite x Tiefe** - Menge = Länge x Breite x Tiefe x Komponentenmenge  
--  **Gewicht**- Menge = Gewicht pro Komponentenmenge  
+-  **Gewicht** - Menge = Gewicht pro Komponentenmenge  
 
 ### <a name="example"></a>Beispiel  
 In einer Fertigungsstückliste werden siebzig Metallteile mit den Abmessungen Länge = 0,20 m und Breite = 0,15 m benötigt. Die Werte werden folgendermaßen eingegeben: Formel = Länge * Breite, Länge = 20, Breite = 15, Komponentenmenge = 70. Die Menge ergibt sich aus: Komponentenmenge pro Länge x Breite, dies ergibt, Menge = 70 x 0,20 m x 0,15 m = 2,1 m2.  

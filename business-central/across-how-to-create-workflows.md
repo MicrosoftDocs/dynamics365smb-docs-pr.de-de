@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6bdc2c57aaf4dfea8cb5df720217a15b315e4df
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3dafae41b015df7b3b87657014a901128d34b7c9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785047"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915885"
 ---
 # <a name="create-workflows"></a>Erstellen eines Workflows
 Sie können Workflows einrichten, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
@@ -31,22 +31,22 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
 
 ## <a name="to-create-a-workflow"></a>So erstellen Sie einen Workflow  
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Workflows** ein und wählen Sie dann den zugehörigen Link.  
-2. Wählen Sie die Aktion **Neu**. Die Seite **Workflow** wird geöffnet.  
+2. Wählen Sie die Aktion **Neu** . Die Seite **Workflow** wird geöffnet.  
 3. Geben Sie im Feld **Code** maximal 20 Zeichen ein, um den Workflow zu identifizieren.  
-4. Um den Workflow von einer Workflowvorlage zu erstellen, wählen Sie auf der Seite **Workflows** die Aktion **Workflow von Vorlage erstellen**. Weitere Informationen finden Sie unter [Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
-5. Beschreiben Sie den Workflow im Feld **Beschreibung**.  
+4. Um den Workflow von einer Workflowvorlage zu erstellen, wählen Sie auf der Seite **Workflows** die Aktion **Workflow von Vorlage erstellen** . Weitere Informationen finden Sie unter [Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
+5. Beschreiben Sie den Workflow im Feld **Beschreibung** .  
 6. Im Feld **Kategorie** legen Sie fest, in welche Kategorie der Workflow gehört.  
 7. Geben Sie im Feld **Wenn Ereignis** das Ereignis an, das auftreten muss, um den Workflowschritt zu starten.  
 
     Wenn Sie das Feld auswählen, wird die Seite **Workflow-Ereignisse** geöffnet, das alle vorhandenen Workflowereignisse zur Auswahl anbietet.  
 8. Legen Sie im Feld **Bedingung** eine oder mehrere Bedingungen fest, die erfüllt sein müssen, bevor das Ereignis im Feld **Wenn Ereigniss** auftreten kann.  
 
-    Wenn Sie das Feld auswählen, wird die **Ereignisbedigungen**-Seite geöffnet. In diesem wählen Sie aus einer Liste mit Filterfeldern die Bedingungen aus, die zum jeweiligen Ereignis relevant sind. Sie können neue Filterfelder hinzufügen, die Sie als Ereignisbedingungen verwenden möchten. Die Ereignisbedingungsfilter konfigurieren Sie so wie die Filter für Berichtsanforderungsseiten.  
+    Wenn Sie das Feld auswählen, wird die **Ereignisbedigungen** -Seite geöffnet. In diesem wählen Sie aus einer Liste mit Filterfeldern die Bedingungen aus, die zum jeweiligen Ereignis relevant sind. Sie können neue Filterfelder hinzufügen, die Sie als Ereignisbedingungen verwenden möchten. Die Ereignisbedingungsfilter konfigurieren Sie so wie die Filter für Berichtsanforderungsseiten.  
 
     Wenn es sich bei dem Workflowereignis um die Änderung eines bestimmten Felds in einem Datensatz handelt, wird die Seite **Ereignisbedingungen** geöffnet. Dort können Sie Optionen für das Feld und die Art der Änderung auswählen.  
 
     1.  Um eine Feldänderung für das Ereignis festzulegen, wählen Sie auf der Seite **Ereignisbedingungen** im Feld **Feld** das Feld aus, das sich ändert.  
-    2.  Geben Sie im Feld **Operator** entweder **Verringert**, **Erhöht** oder **Geändert** aus.  
+    2.  Geben Sie im Feld **Operator** entweder **Verringert** , **Erhöht** oder **Geändert** aus.  
 9. Geben Sie im Feld **Dann Antwort** die Antwort an, die beim Auftreten des Workflowereignisses folgt.  
 
      Wenn Sie das Feld auswählen, wird die Seite **Workflow-Antworten** geöffnet, das alle vorhandenen Workflowantworten zur Auswahl anbietet und in dem Sie Antwortoptionen für die gewählte Antwort festlegen können.  
@@ -56,7 +56,7 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
 
         |Feld|Beschreibung|  
         |----------------------------------|---------------------------------------|  
-        |**Absender benachrichtigen**|Geben Sie an, ob der Genehmigungsanforderer anstatt des Genehmigungsanforderungsempfängers benachrichtigt wird. Wenn Sie das Kontrollkästchen aktivieren, wird das Feld **Benutzer-ID des Empfängers** deaktiviert, da stattdessen der Anforderer der Genehmigung, der Absender, benachrichtigt wird. Der Name der Workflowreaktion ändert sich entsprechend zu **Benachrichtigung erstellen für &lt;Absender&gt;**. Wenn das Kontrollkästchen nicht aktiviert ist, lautet der Name der Workflowreaktion **Benachrichtigung erstellen für &lt;Benutzer&gt;**.
+        |**Absender benachrichtigen**|Geben Sie an, ob der Genehmigungsanforderer anstatt des Genehmigungsanforderungsempfängers benachrichtigt wird. Wenn Sie das Kontrollkästchen aktivieren, wird das Feld **Benutzer-ID des Empfängers** deaktiviert, da stattdessen der Anforderer der Genehmigung, der Absender, benachrichtigt wird. Der Name der Workflowreaktion ändert sich entsprechend zu **Benachrichtigung erstellen für &lt;Absender&gt;** . Wenn das Kontrollkästchen nicht aktiviert ist, lautet der Name der Workflowreaktion **Benachrichtigung erstellen für &lt;Benutzer&gt;** .
         |**Benutzer-ID des Empfängers**|Geben Sie den Benutzer an, an den Benachrichtigung gesendet werden muss. Hinweis: Diese Option ist nur für Workflowantworten mit einem Platzhalter für einen bestimmten Benutzer verfügbar. Für Workflowantworten ohne Platzhalter für Benutzer, wird der Benachrichtigungsempfänger in der Regel von der Genehmigungsbenutzereinrichtung definiert.|  
         |**Benachrichtigungseintragstyp**|Gibt an, ob die Workflowbenachrichtigung durch eine Datensatzänderung, eine Genehmigungsanforderung oder übergebene fällige Daten ausgelöst wird.|
         |**Zielseite für Link**|Geben Sie eine andere Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] an, die über den Link in der Benachrichtigung anstelle der Standardseite geöffnet werden soll.<br /><br />Beachten Sie, dass die Seite dieselbe Quellentabelle wie der betreffende Datensatz haben muss.|  
@@ -85,7 +85,7 @@ Wenn Ihr Szenario Workflowereignisse oder -antworten benötigt, die nicht unters
     >  Sie können den Einzug eines Schrittes nur ändern, wenn er keinen folgenden Schritt hat.  
 
 12. Wiederholen Sie die Schritte 7 bis 11, um weitere Workflowschritte hinzuzufügen (entweder vor oder nach dem Schritt, den Sie gerade angelegt haben).  
-13. Wählen Sie das Kontrollkästchen **Aktiviert**, um anzugeben, dass der Workflow startet, sobald das Ereignis vom Typ **Einstiegspunkt** auftritt. Weitere Informationen erhalten Sie unter [Workflows verwenden](across-use-workflows.md).  
+13. Wählen Sie das Kontrollkästchen **Aktiviert** , um anzugeben, dass der Workflow startet, sobald das Ereignis vom Typ **Einstiegspunkt** auftritt. Weitere Informationen erhalten Sie unter [Workflows verwenden](across-use-workflows.md).  
 
 > [!NOTE]  
 >  Aktivieren Sie keinen Workflow, bevor Sie sicher sind, dass der Workflow abgeschlossen wurde und dass die entsprechenden Workflowschritte beginnen können.  

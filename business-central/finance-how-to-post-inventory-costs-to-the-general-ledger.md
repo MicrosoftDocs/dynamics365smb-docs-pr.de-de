@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c837d3c4c1fd4ba1922ee90611dcec3b15ba9233
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4e760818349cf59a9c85d0a0d22b72baefd99af6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785471"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919488"
 ---
-# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerregulierung mit der Finanzbuchhaltung
+# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerkosten mit der Finanzbuchhaltung
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte in der Hauptbuchhaltung im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht.
 
 Die automatische Lagerbuchung wird durch das Feld **Automatische Lagerbuchung** auf der Seite **Lagereinrichtung** definiert.
@@ -26,7 +26,7 @@ Die automatische Lagerbuchung wird durch das Feld **Automatische Lagerbuchung** 
 Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist es immer noch notwendig sicherzustellen, dass die Kosten für Waren zur zugehörigen ausgehenden Transaktion weitergeleitet werden, insbesondere in Situationen, in denen Sie Waren verkaufen, bevor Sie den Kauf dieser Waren in Rechnung stellen. Dies wird als Kostenanpassung bezeichnet. Artikelkosten werden automatisch angepasst, wenn Sie Artikeltransaktionen buchen, Sie können jedoch auch Artikelpreise manuell anpassen. Weitere Informationen finden Sie unter [Artikelkosten anpassen](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Lagerkosten manuell buchen
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Bestandskosten in G/L** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Bestandskosten in G/L** ein und wählen Sie dann den entsprechenden Link.
 2. Sie buchen eine Lagerkosten manuell in der Hauptbuchhaltung, indem Sie den Batchauftrag ausführen. Wenn Sie diesen Batchauftrag ausführen, werden auf Basis der Wertposten Hauptbuchungsposten erstellt. Sie können die Posten so buchen, dass sie pro Buchungsgruppe zusammengefasst werden.
 
 > [!NOTE]  
@@ -49,19 +49,19 @@ Die Seite **Lager – Sachpostenabstimmung** ermöglicht Folgendes:
 
 In der Spalte **Name** (am äußerst linken Rand des Gitters) werden die verschiedenen Sachkontoarten angezeigt, die mit Lagerbestand verknüpft sind.
 
-Die Spalten **Lagerbestand**, **Lager (Interim)** und **Aktiviert Lager** enthalten die fakturierten, nicht fakturierten und WIP-Summen jeder Sachkontoart. Diese werden aus Wertposten berechnet, d.h., sie werden auf die Sachkontoarten übertragen, auf denen sie sich nach dem Buchen in die Finanzbuchhaltung befinden.
+Die Spalten **Lagerbestand** , **Lager (Interim)** und **Aktiviert Lager** enthalten die fakturierten, nicht fakturierten und WIP-Summen jeder Sachkontoart. Diese werden aus Wertposten berechnet, d.h., sie werden auf die Sachkontoarten übertragen, auf denen sie sich nach dem Buchen in die Finanzbuchhaltung befinden.
 
 Die Spalte **Gesamt** enthält die (fett formatierte) Summe der Wertpostenbeträge in den drei Lagerbestandsspalten.
 
 Die Spalte **Fibu gesamt** enthält die (fett formatierten) Beträge für die einzelnen, in der Finanzbuchhaltung vorhandenen Sachkontoarten. Diese Werte werden auf der Grundlage von Sachposten berechnet, stellen also die Lagerkosten dar, die bereits in die Finanzbuchhaltung gebucht wurden.
 
-Die Spalte **Differenz** enthält die Differenz zwischen **Fibu gesamt** und **Gesamt**.
+Die Spalte **Differenz** enthält die Differenz zwischen **Fibu gesamt** und **Gesamt** .
 
 Am oberen Rand der Seite **Lager - Sachpostenabstimmung** können Sie mithilfe von Filtern beispielsweise die Periode eingrenzen, für die Sie Informationen ermitteln möchten.
 
 Wenn Sie ein Häkchen im Kontrollkästchen **Warnung anzeigen** setzen und wenn es Abweichungen zwischen den Lagerbestandssummen und den Werten in der Fibu gesamt gibt, werden im Feld **Warnung** des Gitters Meldungen angezeigt, in denen die jeweilige Abweichung beschrieben wird. Wenn Sie das Feld "Warnung" auswählen, gibt die Anwendung weitere Informationen zum Inhalt der Warnung.
 
-Wenn Sie alle entsprechenden Filter eingegeben haben, wählhen Sie die Aktion **Matrix anzeigen**. Die Daten werden berechnet, und die Matrixseite wird geöffnet.
+Wenn Sie alle entsprechenden Filter eingegeben haben, wählhen Sie die Aktion **Matrix anzeigen** . Die Daten werden berechnet, und die Matrixseite wird geöffnet.
 
 In der äußerst linken Spalte des Gitters werden die verschiedenen Kontoarten der Finanzbuchhaltung angezeigt, die mit dem Lagerbestand verknüpft sind. Für jede dieser Kontoarten werden im Gitter die fakturierten, nicht fakturierten (Interims-) und WIP-Lagerbestandssummen angezeigt. Diese Summen wurden aus den Wertposten berechnet.
 

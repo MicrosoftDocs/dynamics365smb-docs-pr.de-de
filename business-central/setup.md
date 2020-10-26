@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 80f33734365ad52b59e77d89e35af81d5a798fcb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0f33f59975973d8b585c97b53a3801e8706346fc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194667"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912821"
 ---
 # <a name="setting-up-prodshort"></a>Einrichten von [!INCLUDE[prodshort](includes/prodshort.md)]
 

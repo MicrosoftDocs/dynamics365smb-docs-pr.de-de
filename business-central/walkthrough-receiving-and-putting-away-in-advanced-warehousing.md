@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a54bcb1131e2b5df0fd98ece66701c9f601ce41
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c200d178a00716de99bd88475346ff4396c9bebf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786746"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918388"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
 
@@ -58,7 +58,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 -   CRONUS AG installieren.  
 -   So machen Sie sich anhand der nachfolgenden Schritte selbst zu einem Lagermitarbeiter am Standort WHITE:  
 
-1.  Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol, geben Sie **Lagerort-Mitarbeiter** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Lagerort-Mitarbeiter** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
 3.  Geben Sie im Feld **Lagerortcode** WHITE ein.  
 4.  Wählen Sie das Feld **Standard** aus.  
@@ -71,13 +71,13 @@ Das Einrichten der Seite **Standortkarte** definiert die Warenflüsse des Untern
 
 ### <a name="to-review-the-location-setup"></a>So prüfen Sie die Lagerorteinrichtung  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Standorte** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Standorte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die WHITE Lagerortkarte.  
-3.  Beachten Sie im Inforegister **Lager**, dass das Kontrollkästchen **Gesteuerte Einlag. u. Kommiss.** ausgewählt ist.  
+3.  Beachten Sie im Inforegister **Lager** , dass das Kontrollkästchen **Gesteuerte Einlag. u. Kommiss.** ausgewählt ist.  
 
     Dies bedeutet, dass der Ort für die höchste Komplexitätsebene eingerichtet wird, widergespiegelt durch die Tatsache, dass alle Lagerdurchlaufzeitkontrollkästchen im Inforegister aktiviert sind.  
 
-4.  Beachten Sie im Inforegister **Lagerplätze**, dass Lagerplätze in den Feldern **Wareneingangslagerplatzcode** und **Warenausgangslagerplatzcode** angegeben sind.  
+4.  Beachten Sie im Inforegister **Lagerplätze** , dass Lagerplätze in den Feldern **Wareneingangslagerplatzcode** und **Warenausgangslagerplatzcode** angegeben sind.  
 
 Das bedeutet, dass beim Erstellen eines Wareneingangs dieser Lagerplatzcode standardmäßig zum Kopf des Wareneingangsbelegs und zu den Zeilen der resultierenden Einlagerung kopiert wird.  
 
@@ -86,7 +86,7 @@ Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.
 
 ### <a name="to-create-the-purchase-orders"></a>So erstellt man Bestellungen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Einkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Erstellen Sie eine Bestellung für den Kreditor 10000 auf das Arbeitsdatum (23. Januar) mit den folgenden Einkaufszeilen.  
 
@@ -117,7 +117,7 @@ Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.
 Auf der Seite **Wareneingang** können Sie mehrere eingehende Aufträge für Herkunftsbelege, wie eine Bestellung, verwalten.  
 
 ### <a name="to-receive-the-items"></a>So erhalten Sie die Artikel  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Geben Sie im Feld **Lagerortcode** WHITE ein.  
 4.  Wählen Sie die **Filter zum Holen von Herk.-Belegen verwenden** Aktion aus.  
@@ -135,8 +135,8 @@ Auf der Seite **Wareneingang** können Sie mehrere eingehende Aufträge für Her
 Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifischen Wareneingangsbeleg, der sich auf mehrere Herkunftsbelege bezieht, verwalten. Wie alle Lageraktivitätsbelege wird jeder Artikel in der Einlagerung durch eine Entnahme- und eine Einlagerungszeile dargestellt. Im folgenden Verfahren ist der Lagerplatzcode in den Entnahmezeilen der Standardplatz für Wareneingänge am WEISSEN Lagerort, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>So lagern Sie die Artikel ein  
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Einlagerungen** ein, und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie den einzigen Lager-Einlagerungsbeleg in der Liste aus und wählen Sie dann die Aktion **Bearbeiten**.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einlagerungen** ein, und wählen Sie dann den entsprechenden Link.  
+2.  Wählen Sie den einzigen Lager-Einlagerungsbeleg in der Liste aus und wählen Sie dann die Aktion **Bearbeiten** .  
 
     Der Einlagerungsbeleg wird geöffnet mit insgesamt acht Take- oder Place-Zeilen für die vier Einkaufsauftragszeilen.
 
@@ -144,7 +144,7 @@ Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifis
 
 3.  Wählen Sie die zweite Zeile auf der Seite **Lagereinlagerung** aus, die Einlagerungszeile für Artikel 70200.  
 4.  Ändern Sie den Wert im Feld **Zu verarbeitende Menge** von 100 zu 60.  
-5.  Wählen Sie auf dem Inforegister **Zeilen** die Option **Funktionen**, und klicken Sie dann auf **Zeile aufteilen**. Eine neue Zeile wird für Artikel 70200 mit 40 in Feld **Zu verarbeitende Menge** eingefügt.  
+5.  Wählen Sie auf dem Inforegister **Zeilen** die Option **Funktionen** , und klicken Sie dann auf **Zeile aufteilen** . Eine neue Zeile wird für Artikel 70200 mit 40 in Feld **Zu verarbeitende Menge** eingefügt.  
 6.  Geben Sie im Feld **Lagerplatzcode** W-02-0001 ein. Das Feld **Gebietscode** wird automatisch ausgefüllt.  
 
     Fahren Sie fort mit dem Registrieren der Einlagerung.  

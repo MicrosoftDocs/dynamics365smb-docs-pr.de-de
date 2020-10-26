@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c3f588a92d424d4ad8b1dfeda28b23981eca6c42
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788071"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920947"
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetails: Kostenregulierung
 
@@ -27,7 +27,7 @@ Die folgenden sind sekundäre Zwecke oder Funktionen der Kostenregulierung.
 
 * Faktuierung beendeter FA  
 
-  * Ändern des Status von Wertposten von **Soll** zu **Ist**.  
+  * Ändern des Status von Wertposten von **Soll** zu **Ist** .  
   * WIP-Konten löschen. Weitere Informationen finden Sie unter [Designdetails: Produktionsauftragsbuchung](design-details-production-order-posting.md).  
   * Buchen der Abweichung. [Weitere Informationen finden Sie unter Designdetails: Abweichung](design-details-variance.md)  
   * Aktualisieren Sie den Einstandspreis auf der Artikelkarte.  
@@ -84,11 +84,11 @@ Da es wichtig ist, den Einstandspreis eines Artikels auf dem neuesten Stand zu h
 
 Unabhängig davon, ob Sie die Kostenregulierung manuell oder automatisch erstellt wurde, der Regulierungsvorgang und seine Auswirkungen sind identisch. [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet den Wert der eingehenden Transaktion und übergibt diese Kosten an alle ausgehenden Vorgängen, wie Verkaufs- oder Verbrauch, die mit der eingehenden Transaktion ausgeglichen wurden. Die Kostenregulierung erstellt Wertposten, die Ausgleichsbeträge und Beträge enthalten, die die Rundung kompensieren.  
 
-Die neuen Ausgleichs- und Rundungswertposten haben das Buchungsdatum der zugehörigen Rechnung. Ausnahmen sind, wenn die Wertposten in eine geschlossene Buchhaltungsperiode oder Lagerbuchhaltungsperiode fallen, oder wenn das Buchungsdatum vor dem Datum im **Buchen ab zulassen**-Feld auf der Seite **Finanzbuchhaltunge einrichten** liegt. Wenn dies auftritt, weist die Stapelverarbeitung das Buchungsdatum als erstes Datum der nächsten offenen Periode zu.  
+Die neuen Ausgleichs- und Rundungswertposten haben das Buchungsdatum der zugehörigen Rechnung. Ausnahmen sind, wenn die Wertposten in eine geschlossene Buchhaltungsperiode oder Lagerbuchhaltungsperiode fallen, oder wenn das Buchungsdatum vor dem Datum im **Buchen ab zulassen** -Feld auf der Seite **Finanzbuchhaltunge einrichten** liegt. Wenn dies auftritt, weist die Stapelverarbeitung das Buchungsdatum als erstes Datum der nächsten offenen Periode zu.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Lagerreg. fakt. Einst. Preise (Stapelverarbeitung)
 
-Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge anpassen**, haben Sie die Möglichkeit, den Batchauftrag für alle Artikel oder nur für bestimmte Artikel oder Kategorien zu aktivieren.  
+Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge anpassen** , haben Sie die Möglichkeit, den Batchauftrag für alle Artikel oder nur für bestimmte Artikel oder Kategorien zu aktivieren.  
 
 > [!NOTE]  
 > Es ist empfehlenswert, immer die Stapelverarbeitung für alle Artikel ausführen und die Filteroption nur zu verwenden, um die Laufzeit der Stapelverarbeitung zu verringern, oder die Kosten eines bestimmten Artikels zu korrigieren.  
@@ -151,7 +151,7 @@ Später buchen Sie einen zugehörigen Einkaufsartikelzuschlag für 2,00 MW faktu
 
 ## <a name="automatic-cost-adjustment"></a>Automatische Kostenregulierung
 
-Um einzurichten, dass Kostenregulierung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, verwenden Sie das Feld **Automatische Kostenanpassung** auf der Seite **Bestand-Einrichtugn**. Dieses Feld ermöglicht Ihnen, auszuwählen, wie weit zurück vom aktuellen Arbeitsdatum die automatische Lagerregulierung ausgeführt werden soll. Folgende Optionen sind verfügbar.  
+Um einzurichten, dass Kostenregulierung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, verwenden Sie das Feld **Automatische Kostenanpassung** auf der Seite **Bestand-Einrichtugn** . Dieses Feld ermöglicht Ihnen, auszuwählen, wie weit zurück vom aktuellen Arbeitsdatum die automatische Lagerregulierung ausgeführt werden soll. Folgende Optionen sind verfügbar.  
 
 |Option|Description|
 |------|-----------|
@@ -163,7 +163,7 @@ Um einzurichten, dass Kostenregulierung automatisch ausgeführt wird, wenn Sie e
 |Jahr|Kosten werden reguliert, wenn die Buchung innerhalb eines Jahres ab dem Arbeitsdatum erfolgt.|  
 |Immer|Kosten werden beim Buchen immer reguliert, unabhängig vom Buchungsdatum.|  
 
-Die Auswahl, die Sie im Feld **Automatische Kostenanpassung** vornehmen, ist wichtig für die Leistung und die Korrektheit Ihrer Kosten. Kürzere Perioden, wie etwa **Tag** oder **Woche**, beeinflussen die Systemleistung weniger, da sie die strengere Anforderung haben, dass nur am letzten tag oder in der letzten Woche gebuchte Kosten automatisch reguliert werden können. Dies bedeutet, dass die automatische Kostenregulierung nicht so häufig ausgeführt wird und daher die Systemleistung weniger beeinträchtigt wird. Dies bedeutet jedoch auch, dass VK-Preise möglicherweise weniger genau sind.  
+Die Auswahl, die Sie im Feld **Automatische Kostenanpassung** vornehmen, ist wichtig für die Leistung und die Korrektheit Ihrer Kosten. Kürzere Perioden, wie etwa **Tag** oder **Woche** , beeinflussen die Systemleistung weniger, da sie die strengere Anforderung haben, dass nur am letzten tag oder in der letzten Woche gebuchte Kosten automatisch reguliert werden können. Dies bedeutet, dass die automatische Kostenregulierung nicht so häufig ausgeführt wird und daher die Systemleistung weniger beeinträchtigt wird. Dies bedeutet jedoch auch, dass VK-Preise möglicherweise weniger genau sind.  
 
 ### <a name="example"></a>Beispiel
 
@@ -175,7 +175,7 @@ Das folgende Beispiel zeigt ein automatisches Kostenbewertungsszenario:
 
 Wenn Sie die automatische Kostenregulierung so eingerichtet haben, dass Buchungen angewendet werden, die innerhalb eines Monats oder eines Quartals ab dem aktuellen Arbeitstag angewendet werden, wird die automatische Kostenregulierung ausgeführt, und die Kosten des Einkaufs werden an den Verkauf weitergeleitet.  
 
-Wenn Sie die automatische Kostenregulierung so eingerichtet haben, dass Buchungen angewendet werden, die innerhalb eines Tages oder einer Woche ab dem aktuellen Arbeitstag angewendet werden, wird die automatische Kostenregulierung nicht ausgeführt, und die Kosten des Einkaufs werden nicht an den Verkauf weitergeleitet, bis Sie die Stapelverarbeitung **Kosten anpassen Artikeleinträge**ausführen.  
+Wenn Sie die automatische Kostenregulierung so eingerichtet haben, dass Buchungen angewendet werden, die innerhalb eines Tages oder einer Woche ab dem aktuellen Arbeitstag angewendet werden, wird die automatische Kostenregulierung nicht ausgeführt, und die Kosten des Einkaufs werden nicht an den Verkauf weitergeleitet, bis Sie die Stapelverarbeitung **Kosten anpassen Artikeleinträge** ausführen.  
 
 ## <a name="see-also"></a>Siehe auch
 

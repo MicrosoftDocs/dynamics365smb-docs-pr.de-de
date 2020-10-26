@@ -4,15 +4,15 @@ description: Beantwortet allgemeine Fragen darüber, wie Sie sich für Business 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 07/21/2020
+ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 57e16c820da7879d92223050979b6f9c6a770644
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611584"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918101"
 ---
 # <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -63,7 +63,7 @@ Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf
 
 ## <a name="where-is-the-save-button"></a>Wo ist die Speichern-Schaltfläche?
 
-Es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.
+Es gibt keine *Speichern* -Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert** , wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.
 
 ## <a name="what-email-address-can-i-use-with-d365fin"></a><a name="email"></a>Welche E-Mail-Adresse kann ich mit [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schließt outlook.com, hotmail.com, gmail.com und andere ein.  
@@ -72,18 +72,18 @@ Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erha
 
 Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] lokal bereitstellen möchten, können Sie weitere Authentifizierungsmethoden verwenden. Weitere Informationen finden Sie unter [Bereitstellung von Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="do-i-have-to-buy-office-365"></a>Muss ich Office 365 kaufen?
-Nein. Wenn Sie allerdings möchten, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] vollständig in Office 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion von Office 365 [hier](https://products.office.com/try) anmelden.  
+## <a name="do-i-have-to-buy-microsoft-365"></a>Muss ich Microsoft 365 kaufen?
+Anzahl Wenn Sie allerdings möchten, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] vollständig in Microsoft 365 integriert wird, können Sie sich für eine 1-monatige kostenlose Testversion von Microsoft 365 [hier](https://products.office.com/try) anmelden.  
 
-Wenn das Konto, bei dem Sie sich anmelden, kein Office 365 Arbeitskonto ist (wie z. B. joe@mysolution.com) und Sie ein Office 365 Abonnement haben, können Sie Ihre Domäne (*mysolution.com*) dem Office 365 Abonnement zuordnen. Weitere Informationen finden Sie unter [Hilfe mit Office 365 Domänen](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Wenn das Konto, bei dem Sie sich anmelden, kein Microsoft 365-Arbeitskonto ist (wie z. B. joe@mysolution.com) und Sie ein Microsoft 365-Abonnement haben, können Sie Ihre Domäne ( *mysolution.com* ) dem Microsoft 365-Abonnement zuordnen. Weitere Informationen finden Sie unter [Hilfe mit Microsoft 365-Domänen](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
-Wenn Sie kein Office 365-Abonnement haben und Sie keines kaufen möchten, dann stellen wir bei der Registrierung einen neuen Azure Active Directory-Tenant für Sie bereit, sodass Sie Zugriff das Azure-Portal haben, wo Sie Zugriff auf die erweiterten Verwaltungstools haben.  
+Wenn Sie kein Microsoft 365-Abonnement haben und Sie keines kaufen möchten, dann stellen wir bei der Registrierung einen neuen Azure Active Directory-Tenant für Sie bereit, sodass Sie Zugriff das Azure-Portal haben, wo Sie auf die erweiterten Verwaltungstools zugreifen können.  
 
-## <a name="what-is-the-integration-with-office-365-about"></a>Worum geht's bei der Integration mit Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] online ist vollständig in Office 365 integriert, sodass Sie mit dem App-Startfeld frei zwischen Office 365 Anwendungen und [!INCLUDE[d365fin](includes/d365fin_md.md)] navigieren können. Im [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten in Outlook arbeiten. Weitere Informationen finden Sie unter [Nutzen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md).  
+## <a name="what-is-the-integration-with-microsoft-365-about"></a>Worum geht es bei der Integration in Microsoft 365?
+[!INCLUDE[d365fin](includes/d365fin_md.md)] online ist vollständig in Microsoft 365 integriert, sodass Sie mit dem App-Startfeld frei zwischen Microsoft 365-Apps und [!INCLUDE[d365fin](includes/d365fin_md.md)] navigieren können. Im [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten in Outlook arbeiten. Weitere Informationen finden Sie unter [Nutzen Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kann ich meine 30-tägige Testzeit „Neues Unternehmen“ verlängern?
-Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrichtigung angezeigt, um Sie darauf hinzuweisen, wenn Sie sich anmelden. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen. Sie können den Testversionszeitraum einmalig selbst verlängern. Danach kann ein Microsoft-Partner ihn um weiterer 30 Tage verlängern. Weitere Informationen finden Sie unter [Ihre Testversion verlängern](admin-extend-trial.md).
+Ja. Wenn das Ablaufdatum Ihres Testzeitraums näher rückt, wird eine Benachrichtigung angezeigt, um Sie darauf hinzuweisen, wenn Sie sich anmelden. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern** , womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen. Sie können den Testversionszeitraum einmalig selbst verlängern. Danach kann ein Microsoft-Partner ihn um weiterer 30 Tage verlängern. Weitere Informationen finden Sie unter [Ihre Testversion verlängern](admin-extend-trial.md).
 
 > [!NOTE]
 > Es kann bis zu zwei Arbeitstage dauern, um die Testphase zu verlängern.  
@@ -97,7 +97,7 @@ Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator
 Ja, aber abhängig davon, wie Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] registriert haben, können Ihre Daten gelöscht oder beibehalten werden. Weitere Informationen finden Sie unter [Stornierung [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Kann ich eine mehrstufige Authentifizierung verwenden?
-Natürlich. In diesem Fall benötigen Sie möglicherweise ein App-Kennwort, um E-Mail-Nachrichten zu senden. App-Kennwörter ermöglichen einer App oder einem Gerät den Zugriff auf Ihr E-Mail-Konto. Die Schritte zum Erhalten eines App-Kennworts variieren, abhängig von Ihren E-Mail-Anbieter. Weitere Informationen finden Sie in der Hilfe von Ihrem Anbieter. Wenn Sie beispielsweise Outlook verwenden, werden Sie hier fündig [Erstellen eines App-Kennworts für Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Natürlich. In diesem Fall benötigen Sie möglicherweise ein App-Kennwort, um E-Mail-Nachrichten zu senden. App-Kennwörter ermöglichen einer App oder einem Gerät den Zugriff auf Ihr E-Mail-Konto. Die Schritte zum Erhalten eines App-Kennworts variieren, abhängig von Ihren E-Mail-Anbieter. Weitere Informationen finden Sie in der Hilfe von Ihrem Anbieter. Wenn Sie beispielsweise Outlook verwenden, finden Sie Informationen unter [Erstellen eines App-Kennworts für Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Wie finde ich einen Reselling-Partner?
 
@@ -137,7 +137,7 @@ Die ersten Releases von [!INCLUDE[prodshort](includes/prodshort.md)] lokal umfas
 [Abrufen von Antworten zu den Fragen](product-get-started.md#getting-answers-to-questions)  
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Business Central Lernkatalog](readiness/readiness-learning-catalog.md)  
-[Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
+[Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [FAQ zu Entwickler- und ITPro-Umgebungen](/dynamics365/business-central/dev-itpro/faq)
 

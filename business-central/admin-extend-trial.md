@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 78993c655ff4912e212588269f897a39e8441924
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.openlocfilehash: 0af6881b98aae103a6d37ce16b06dfb316c4a9f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532619"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911530"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Benötigen Sie mehr Zeit, um sich für ein Abonnement zu entscheiden?
 
-Es ist wichtig, dass Sie die richtige Entscheidung treffen, wenn Sie eine Geschäftsanwendung auswählen, und wir wissen, dass es einige Zeit dauern kann, um alle Ecken in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erkunden. Wenn Sie mehr Zeit benötigen, um Ihre Evaluierung abzuschließen, können Sie den Testzeitraum selbst um weitere 30 Tage verlängern. Wenn sich das Ablaufdatum für Ihre Testphase nähert, zeigen wir eine Benachrichtigung an, um Sie bei der Anmeldung zu warnen. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern**, womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen.
+Es ist wichtig, dass Sie die richtige Entscheidung treffen, wenn Sie eine Geschäftsanwendung auswählen, und wir wissen, dass es einige Zeit dauern kann, um alle Ecken in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erkunden. Wenn Sie mehr Zeit benötigen, um Ihre Evaluierung abzuschließen, können Sie den Testzeitraum selbst um weitere 30 Tage verlängern. Wenn sich das Ablaufdatum für Ihre Testphase nähert, zeigen wir eine Benachrichtigung an, um Sie bei der Anmeldung zu warnen. Die Benachrichtigung enthält einen Link zum Leitfaden **Testzeitraum verlängern** , womit Sie Ihren Testzeitraum verlängern können. Die zusätzlichen 30 Tage starten in dem Moment, wenn Sie im Leitfaden **Testversion verlängern** auswählen.
 
 Sie können die Testzeitraum selbst nur einmal verlängern. Sie können ihn nicht zweimal verlängern, zumindest nicht Sie selbst. Wenn Sie den Zeitraum bereits verlängert haben, kann Ihr Microsoft-Partner ihn für Sie noch einmal verlängern. Die ist auch eine einmalige Sache. Wenn Sie nicht bereits mit einem Partner zusammenarbeiten, siehe [Wie finde ich einen Wiederverkaufspartner?](across-faq.md#findpartner).  
 
@@ -29,7 +29,7 @@ Sie können die Testzeitraum selbst nur einmal verlängern. Sie können ihn nich
 
     Melden Sie sich mit dem E-Mail-Konto an, das Sie bei der Anmeldung für den Test verwendet haben.  
 
-    Wenn Sie sich mit einem E-Mail-Konto von einer [30-Tage-Testversion von Office 365](/microsoft-365/commerce/sign-up-for-office-365-trial) angemeldet haben, müssen Sie zuerst Ihre Office 365-Testversion verlängern oder ein Office 365-Abonnement kaufen. Weitere Informationen finden Sie unter [Verlängern Sie Ihre Testversion für Office 365 in der Dokumentation für Unternehmen](/microsoft-365/commerce/extend-your-trial).
+    Wenn Sie sich mit einem E-Mail-Konto von einer [30-Tage-Testversion von Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial) angemeldet haben, müssen Sie zuerst Ihre Microsoft 365-Testversion verlängern oder ein Microsoft 365-Abonnement kaufen. Weitere Informationen finden Sie unter [Ihre Testversion für Microsoft 365 für Unternehmen verlängern](/microsoft-365/commerce/extend-your-trial).
 2. In der Benachrichtigung oben im Arbeitsbereich wählen Sie **Testversion erweitern** aus.
 
     Wenn Sie die Meldung abgelehnt haben, müssen Sie sich abmelden und dann wieder anmelden.

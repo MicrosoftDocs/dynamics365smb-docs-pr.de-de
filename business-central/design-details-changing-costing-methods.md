@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0560e2bf900af4b49d0ce299dfa751a5c41ea54e
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617731"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917526"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Designdetails: Lagerabgangsmethode für Artikel ändern
 
@@ -79,15 +79,15 @@ Damit die neuen Artikel vollständig verwendet werden können, müssen Sie einig
 |Bereich  |Zu kopieren  |Vorgehensweise  |
 |---------|---------|---------|
 |Lagerbestand     |Lagerhaltungsdaten         |Überprüfen Sie, ob für den ursprünglichen Artikel Lagerhaltungsdaten angegeben sind. Wenn für jede Lagerhaltungsdatenkarte Planungsparameter eingegeben wurden, müssen Sie die Lagerhaltungsdaten für den neuen Artikel manuell erstellen. Wenn die Parameter nicht angegeben sind, können Sie den Stapelverarbeitungsauftrag **Lagerhaltungsdaten erstellen** auf der Seite **Artikelkarte** verwenden, um die Daten zu erstellen.        |
-|     |Ersatzartikel         |Überprüfen Sie, ob für den ursprügnlichen Artikel Ersatzartikel definiert sind. Falls ja, übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie die Aktion **Ersatzartikel** auf der Karte **Artikelkarte**, um Ersatzartikel anzuzeigen.         |
+|     |Ersatzartikel         |Überprüfen Sie, ob für den ursprügnlichen Artikel Ersatzartikel definiert sind. Falls ja, übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie die Aktion **Ersatzartikel** auf der Karte **Artikelkarte** , um Ersatzartikel anzuzeigen.         |
 |     |Analyseberichte         |Überprüfen Sie die Berichte „Artikelanalyse“, „Verkaufsanalyse“ und „Einkaufsanalyse“. Für diejenigen, die auf die ursprünglichen Artikel verweisen, können Sie entweder einen neuen Analysebericht mit einem Verweis auf den neuen Artikel erstellen (wobei der ursprüngliche Analysebericht als Verlauf verwendet wird) oder die Berichte so anpassen, dass sie auf den neuen Artikel verweisen.         |
 |     |Standard Buch.-Blätter         |Überprüfen Sie, ob Standard Buch.-Blätter auf den ursprünglichen Artikel verweisen, und übertragen Sie diese Daten bei Bedarf auf den neuen Artikel. Diese Informationen finden Sie in den Standard Buch.-Blättern, die im Artikel Buch.-Blatt verfügbar sind.          |
 |Verkauf     |Vorauszahlungsprozentsatz für Verkäufe         | Überprüfen Sie, ob für den ursprünglichen Artikel Vorauszahlungsprozentsätze für Verkäufe definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Wählen Sie zum Anzeigen von Vorauszahlungsprozentsätzen für Verkäufe auf der Seite **Artikelkarte** die Option **Verkauf** und dann **Zahlungsprozentsätze** aus.        |
 |Einkauf     |Vorauszahlungsprozentsatz für Einkäufe         |Überprüfen Sie, ob für den ursprünglichen Artikel Vorauszahlungsprozentsätze für Einkäufe definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Wählen Sie zum Anzeigen von Vorauszahlungsprozentsätzen für Verkäufe auf der Seite **Artikelkarte** die Option **Einkäufe** und dann **Zahlungsprozentsätze** aus.                 |
 |Logistik     |Lagerplatzinhalt         |Überprüfen Sie den für den ursprünglichen Artikel definierten Lagerplatzinhalt. Wenn Spalten wie „Min. Menge“, „Max. Menge“, „Standard“ und „Dediziert“ einzeln eingegeben wurden, müssen Sie anschließend den den Lagerplatzinhalt für den neuen Artikel manuell erstellen. Ist dies nicht der Fall, ist keine Aktion erforderlich. [!INCLUDE[d365fin](includes/d365fin_md.md)] verwaltet die Aufzeichnungen, wenn Sie Logistikbelege und Logistik Buch.-Blätter registrieren.|
-|Projekt     |Projektpreise         |Überprüfen Sie, ob für den ursprünglichen Artikel Projektpreise definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Diese Informationen finden Sie auf der Seite **Projektkarte** im Abschnitt **Projektdetails – Anzahl Preise** des **Infoboxbereichs**.         |
-|Service     |Qualifikationen der Serviceressourcen         |Überprüfen Sie, ob für den ursprünglichen Artikel die Qualifikation der Serviceressourcen definiert ist, und übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie zum Anzeigen der Qualifikationen der Ressourcen die Aktion **Qualifikationen der Ressourcen** auf der Seite **Artikelkarte**.          |
-|     |Serviceartikelkomponenten         |Überprüfen Sie, ob für den ursprünglichen Serviceartikel die Komponenten definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Zum Anzeigen der Komponenten von Serviceartikeln verwenden Sie auf der Seite **Artikelkarte** die Option **Serviceartikel**, um die Liste der zugehörigen Serviceartikel zu öffnen, und wählen Sie dann die Aktion **Komponenten** aus.          |
+|Projekt     |Projektpreise         |Überprüfen Sie, ob für den ursprünglichen Artikel Projektpreise definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Diese Informationen finden Sie auf der Seite **Projektkarte** im Abschnitt **Projektdetails – Anzahl Preise** des **Infoboxbereichs** .         |
+|Service     |Qualifikationen der Serviceressourcen         |Überprüfen Sie, ob für den ursprünglichen Artikel die Qualifikation der Serviceressourcen definiert ist, und übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie zum Anzeigen der Qualifikationen der Ressourcen die Aktion **Qualifikationen der Ressourcen** auf der Seite **Artikelkarte** .          |
+|     |Serviceartikelkomponenten         |Überprüfen Sie, ob für den ursprünglichen Serviceartikel die Komponenten definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Zum Anzeigen der Komponenten von Serviceartikeln verwenden Sie auf der Seite **Artikelkarte** die Option **Serviceartikel** , um die Liste der zugehörigen Serviceartikel zu öffnen, und wählen Sie dann die Aktion **Komponenten** aus.          |
 |Produktion     |Fertigungsstücklisten         |Überprüfen Sie, ob Fertigungsstücklisten den ursprünglichen Artikel enthalten, und ersetzen Sie ihn durch den neuen Artikel. Zum Ersetzen des ursprünglichen Artikels wählen Sie auf der Seite **Fertigungsstücklisten** die Aktion **Fertigungsstückliste ersetzen** aus.         |
 |Montage     |Montagestücklisten         |Überprüfen Sie, ob Montagestücklisten den ursprünglichen Artikel enthalten, und ersetzen Sie ihn manuell durch den neuen Artikel.         |
 
@@ -138,13 +138,13 @@ Verwenden Sie beim Erstellen von Montageaufträgen die Informationen aus dem Inv
 > Ein Montageauftrag kann jeweils nur die Lagerhaltungsdaten eines Artikels verarbeiten. Sie müssen einen Montageauftrag für jede Kombination von Lagerhaltungsdaten erstellen, die eine Menge im Lagerbestand haben.
 
 > [!NOTE]
-> Für einen Lagerort müssen Sie möglicherweise Kommissionierungen erstellen, bevor Sie den Montageauftrag buchen können. Überprüfen Sie die Einrichtung für Kommissionierungen auf der Seite **Standortkarte**, um dies zu untersuchen. Weitere Informationen finden Sie unter [Artikel und Standorte für die gesteuerte Einlagerung und Kommissionierung einrichten](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
+> Für einen Lagerort müssen Sie möglicherweise Kommissionierungen erstellen, bevor Sie den Montageauftrag buchen können. Überprüfen Sie die Einrichtung für Kommissionierungen auf der Seite **Standortkarte** , um dies zu untersuchen. Weitere Informationen finden Sie unter [Artikel und Standorte für die gesteuerte Einlagerung und Kommissionierung einrichten](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
 
 ### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Bestandsmengen verarbeiten, die der Nachfrage zugeordnet sind
 
 Im Idealfall sollte der Lagerbestand für den ursprünglichen Artikel nach der Übertragung der Bestandsmengen auf Null gehen. Es können jedoch ausstehende Bestellungen, Arbeitsblätter und Buchungsblätter (siehe Tabelle unten) vorhanden sein, für die noch eine Menge des ursprünglichen Artikels erforderlich ist. Die Menge kann auch durch eine Reservierung oder Artikelverfolgung blockiert werden.
 
-**Beispiel**: Im Lager befinden sich 1000 Stück. und 20 Stück sind für einen Kundenauftrag reserviert, der noch nicht versendet wurde. In diesem Fall können Sie die 20 Stück im alten Artikel behalten, sodass Sie die ausstehende Bestellung erfüllen können.
+**Beispiel** : Im Lager befinden sich 1000 Stück. und 20 Stück sind für einen Kundenauftrag reserviert, der noch nicht versendet wurde. In diesem Fall können Sie die 20 Stück im alten Artikel behalten, sodass Sie die ausstehende Bestellung erfüllen können.
 
 > [!NOTE]
 > Es gibt Funktionsbereiche, die sich auf die Menge auswirken können, wie in der folgenden Tabelle aufgeführt. Daher kann es schwierig sein, die richtige Menge zu finden. Sie können im obigen Beispiel 100 Stück behalten und stattdessen die restlichen 900 Stück übertragen. Eine andere Möglichkeit wäre, die Belege und Buch.-Blätter zu verarbeiten, dass nur noch eine überschaubare Anzahl übrig bleibt. Eine weitere Alternative besteht darin, die gesamte Menge auf den neuen Artikel zu übertragen und dann einen Teil davon mithilfe des Montageauftrags wieder auf den ursprünglichen Artikel zu übertragen.
@@ -165,7 +165,7 @@ In der folgenden Tabelle sind Funktionsbereiche aufgeführt, in denen möglicher
 
 ### <a name="block-the-original-item-from-further-use"></a>Verwendung des ursprünglichen Artikels blockieren
 
-Wenn der Bestand für den ursprünglichen Artikel Null ist, können Sie den Artikel blockieren, um zu verhindern, dass er für neue Transaktionen verwendet wird. Wenn Sie den Artikel blockieren möchten, klicken Sie auf die Seite **Artikelkarte**, und aktivieren Sie das Kontrollkästchen **Blockiert**. Weitere Informationen finden Sie unter [Artikel aus Verkauf oder Einkauf sperren](inventory-how-block-items.md).
+Wenn der Bestand für den ursprünglichen Artikel Null ist, können Sie den Artikel blockieren, um zu verhindern, dass er für neue Transaktionen verwendet wird. Wenn Sie den Artikel blockieren möchten, klicken Sie auf die Seite **Artikelkarte** , und aktivieren Sie das Kontrollkästchen **Blockiert** . Weitere Informationen finden Sie unter [Artikel aus Verkauf oder Einkauf sperren](inventory-how-block-items.md).
 
 ## <a name="summary"></a>Zusammenfassung
 

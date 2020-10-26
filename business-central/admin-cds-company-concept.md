@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
-ms.date: 01/17/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 4f8e5959098e01cd08134a37ae706aa852d88729
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324054"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911657"
 ---
 # <a name="data-ownership-models"></a>Modelle für Datenbesitz
 [!INCLUDE[d365fin](includes/cds_long_md.md)] erfordert, dass Sie einen Eigentümer für die von Ihnen gespeicherten Daten angeben. Weitere Informationen finden Sie unter [Entitätseigentum](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) in der Power Apps-Dokumentation. Wenn Sie die Integration zwischen [!INCLUDE[d365fin](includes/cds_long_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)] einrichten, müssen Sie eines von zwei Eigentumsmodellen für Datensätze wählen, die synchronisiert werden:
@@ -54,7 +54,7 @@ Die 1:1-Abbildung zwischen Geschäftseinheit, Unternehmen und Team ist jedoch nu
 
 In diesem Beispiel wird eine neue EUR (Europa) Stamm-Geschäftseinheit in [!INCLUDE[d365fin](includes/cds_long_md.md)] als Muttergesellschaft sowohl für Cronus DE (Gernamy) als auch für Cronus ES (Spanien) angelegt. Der EUR-Geschäftsbereich ist nicht mit der Synchronisation verbunden. Es kann jedoch Mitgliedern des EUR-Verkaufsteams Zugriff auf Kontodaten sowohl in Cronus DE als auch in Cronus ES geben, indem die Datensichtbarkeit auf **Übergeordnete/untergeordnete GE** auf die zugehörige Sicherheitsrolle in [!INCLUDE[d365fin](includes/cds_long_md.md)] gesetzt wird.
 
-Die Synchronisation bestimmt, welches Team Datensätze besitzen soll. Dies wird durch das Feld **Standardeigentümerteam** auf dem BCI - <ID>-Datensatz gesteuert. Wenn ein BCI - <ID>-Datensatz für die Synchronisierung aktiviert wird, erstellen wir automatisch die zugehörige Geschäftseinheit und das Eigentümerteam (falls noch nicht vorhanden) und setzen das Feld **Standard Eigentümerteam**. Wenn die Synchronisierung für eine Entität aktiviert ist, können Administratoren das besitzende Team ändern, aber es muss immer ein Team zugewiesen werden.
+Die Synchronisation bestimmt, welches Team Datensätze besitzen soll. Dies wird durch das Feld **Standardeigentümerteam** auf dem BCI - <ID>-Datensatz gesteuert. Wenn ein BCI - <ID>-Datensatz für die Synchronisierung aktiviert wird, erstellen wir automatisch die zugehörige Geschäftseinheit und das Eigentümerteam (falls noch nicht vorhanden) und setzen das Feld **Standard Eigentümerteam** . Wenn die Synchronisierung für eine Entität aktiviert ist, können Administratoren das besitzende Team ändern, aber es muss immer ein Team zugewiesen werden.
 
 > [!NOTE]
 > Die Aufzeichnungen werden schreibgeschützt, nachdem eine Firma hinzugefügt und gespeichert wurde, also achten Sie darauf, die richtige Firma zu wählen.
@@ -70,6 +70,8 @@ Beim Ändern eines Konzernmandanten können Sie nur die Konzernmandanten auswäh
 Wenn Sie das Modell Personenbesitz wählen, müssen Sie jeden Verkäufer angeben, der neue Datensätze besitzen wird. Der Konzernmandant und das Team werden wie im vorherigen Abschnitt [Team-Besitz](admin-cds-company-concept.md#team-ownership) beschrieben angelegt.
 
 Der Standard-Konzernmandant wird verwendet, wenn das Modell „Personenbesitz“ ausgewählt ist, und Sie können keinen anderen Konzernmandanten auswählen. Das Team, das dem Standard-Konzernmandanten zugeordnet ist, besitzt Datensätze für allgemeine Entitäten, z. B. die Produktentität, die nicht mit bestimmten Verkäufern verknüpft sind.
+
+Wenn Sie Verkäufer in [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Benutzern in [!INCLUDE[d365fin](includes/cds_long_md.md)] koppeln, fügt [!INCLUDE[d365fin](includes/d365fin_md.md)] den Benutzer dem Standardteam in [!INCLUDE[d365fin](includes/cds_long_md.md)] hinzu. Sie können überprüfen, ob Benutzer hinzugefügt wurden, indem Sie sich die Spalte **Standardteam-Mitglied** auf der Seite **Benutzer - Common Data Service** ansehen. Wenn der Benutzer nicht hinzugefügt wurde, können Sie ihn manuell mithilfe der Aktion **Gekoppelte Benutzer dem Team hinzufügen** hinzufügen. Weitere Informationen finden Sie unter [Synchronisieren von Daten in Business Central mit Common Data Service](admin-synchronizing-business-central-and-sales.md).
 
 ## <a name="see-also"></a>Siehe auch
 [Über [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

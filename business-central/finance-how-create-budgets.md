@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3999e22b27a92988997ddabd447e5a178d551eb9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cfc696141e2d3db0b5da1facb83e09216529e269
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788700"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917101"
 ---
 # <a name="create-gl-budgets"></a>Sachkontenbudgets erstellen
 Sie können für dieselbe Periode mehrere Budgets verwalten, indem Sie Budgets mit verschiedenen Namen einrichten. Zuerst richten Sie den Budgetnamen ein und geben die Budgetzahlen ein. Der Budgetname wird dann allen Budgetposten zugewiesen, die Sie erstellen.  
@@ -36,7 +36,7 @@ In der Kostenrechnung arbeiten Sie mit Kostenbudgets auf ähnliche Weise. Weiter
 
     Nur Posten, die diesen Budgetnamen enthalten, der im Feld **Artikelbudgetname** angezeigt wird, werden nun angezeigt. Da der Budgetname gerade erstellt wurde, gibt es keine Posten, die dem Filter entsprechen. Daher ist die Seite leer.  
 5. Wählen Sie zum Eingeben eines Betrags die entsprechende Zelle in der Matrix. Die Seite **Finanzbudgetposten** wird geöffnet.  
-6. Erstellen Sie eine neue Zeile, und füllen Sie das Feld **Betrag** aus. Schließen Sie die Seite **Finanzbudgetposten**.  
+6. Erstellen Sie eine neue Zeile, und füllen Sie das Feld **Betrag** aus. Schließen Sie die Seite **Finanzbudgetposten** .  
 7. Wiederholen Sie die Schritte 5 bis 6, bis alle Budgetbeträge eingegeben sind.  
 
 > [!NOTE]  
@@ -46,7 +46,7 @@ In der Kostenrechnung arbeiten Sie mit Kostenbudgets auf ähnliche Weise. Weiter
 Wie bei anderen Seiten können Sie Daten in Budgetseiten in Excel zur weiteren Verarbeitung und Analyse exportieren. Weitere Informationen finden Sie unter [Geschäftsdaten nach Excel exportieren](about-export-data.md).
 
 > [!NOTE]
-> Der Kontenplan, auf dem dieses Finanzbudgets basiert, hat Zeilen der Kontoart Überschrift, die die Summe aller Zeilen unterhalb enthalten. Wenn Sie ein Budget exportieren, werden Daten in allen Zeilen ungeachtet der Kontoart exportiert. Sie können nur Daten auf Zeilen der Kontoart Konto zurück importieren. Entsprechend: <br /><br /> **Wenn Sie ein Budget importieren, werden jegliche Werte, die von den Überschriften vorhanden sind, gelöscht** <br /><br /> Dadurch werden falsche Summen vermieden, nachdem die Daten, die in Excel erstellt oder bearbetet wurden, importiert wurden.<br /><br /> **Szenario**: Sie wissen, dass die neuen geplanten Salärkostenr MW 1.200.000 sein werden. Sie möchten das Gehaltsabteilungsbudget für die drei bestimmten Zeilen (der Buchung nach Typ) für Vollzeitmitarbeiter, Teilzeitbeschäftigte und Temp-Hilfe lassen. Die drei Zeilen werden unter einer Gehaltsüberschrift gruppiert.<br /><br />Sie geben 1.200.000 in der Überschrift ein, exportieren das Budget in Excel und senden es dann in die Gehaltsabteilung und kommunizieren die Mandantenwährung 1.200.000.<br /><br /> Die Gehaltsabteilung verteilt den Betrag in drei Sachkonten. Wenn Sie dann das Finanzbudget wieder importieren, werden diese drei Konten mit den neuen Excel-Daten ausgefüllt und summieren zu MW 1.200.000, und die "Überschrift" ist leer.
+> Der Kontenplan, auf dem dieses Finanzbudgets basiert, hat Zeilen der Kontoart Überschrift, die die Summe aller Zeilen unterhalb enthalten. Wenn Sie ein Budget exportieren, werden Daten in allen Zeilen ungeachtet der Kontoart exportiert. Sie können nur Daten auf Zeilen der Kontoart Konto zurück importieren. Entsprechend: <br /><br /> **Wenn Sie ein Budget importieren, werden jegliche Werte, die von den Überschriften vorhanden sind, gelöscht** <br /><br /> Dadurch werden falsche Summen vermieden, nachdem die Daten, die in Excel erstellt oder bearbetet wurden, importiert wurden.<br /><br /> **Szenario** : Sie wissen, dass die neuen geplanten Salärkostenr MW 1.200.000 sein werden. Sie möchten das Gehaltsabteilungsbudget für die drei bestimmten Zeilen (der Buchung nach Typ) für Vollzeitmitarbeiter, Teilzeitbeschäftigte und Temp-Hilfe lassen. Die drei Zeilen werden unter einer Gehaltsüberschrift gruppiert.<br /><br />Sie geben 1.200.000 in der Überschrift ein, exportieren das Budget in Excel und senden es dann in die Gehaltsabteilung und kommunizieren die Mandantenwährung 1.200.000.<br /><br /> Die Gehaltsabteilung verteilt den Betrag in drei Sachkonten. Wenn Sie dann das Finanzbudget wieder importieren, werden diese drei Konten mit den neuen Excel-Daten ausgefüllt und summieren zu MW 1.200.000, und die "Überschrift" ist leer.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 

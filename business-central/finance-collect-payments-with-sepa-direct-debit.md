@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 72a184236ffb040b90b5de780f92e140d6838cd0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e7af0cc7e84ea94c12b6e7aa4988c081f135f52c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786446"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913421"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Erfassen von Zahlungen per Lastschriftverfahren SEPA
 Mit dem Einverständnis Ihres Debitors können Sie Zahlungen nach dem SEPA-Format direkt vom Bankkonto des Debitors einziehen.  
@@ -24,9 +24,9 @@ Mit dem Einverständnis Ihres Debitors können Sie Zahlungen nach dem SEPA-Forma
 
  Um die Bank anzuweisen, den Zahlungsbetrag vom Bankkonto des Kunden auf das Konto Ihres Unternehmens zu überweisen, erstellen Sie eine Lastschrifteinzugsbuchung, die Informationen über Bankkonten, die betroffenen Verkaufsrechnungen und die Lastschriftanweisung enthält. Anschließend exportieren Sie eine XML-Datei, die auf dem Einzugseintrag basiert, und senden Sie zur Verarbeitung an Ihre Bank. Alle Zahlungen, die nicht verarbeitet werden konnten, werden Ihnen von Ihrer Bank mitgeteilt, und Sie müssen dann die jeweiligen Lastschrifteinzugsposten manuell ablehnen.  
 
- Sie können Standarddebitorverkaufscodes mit Informationen zum Lastschrifteinzug und zu Einzugsermächtigungen einrichten. Anschließend können Sie mit der **Standard-Debitorenrechnung erstellen**-Stapelverarbeitung mehrere Verkaufsrechnungen erstellen, die bereits vorab die Einzugsinformationen enthalten. Dies kann manuell oder automatisch durchgeführt werden, je nach dem Zahlungsfälligkeitsdatum.  
+ Sie können Standarddebitorverkaufscodes mit Informationen zum Lastschrifteinzug und zu Einzugsermächtigungen einrichten. Anschließend können Sie mit der **Standard-Debitorenrechnung erstellen** -Stapelverarbeitung mehrere Verkaufsrechnungen erstellen, die bereits vorab die Einzugsinformationen enthalten. Dies kann manuell oder automatisch durchgeführt werden, je nach dem Zahlungsfälligkeitsdatum.  
 
- Wenn Ihre Bank Ihnen mitteilt, dass Zahlungen erfolgreich verarbeitet wurden, können Sie die Zahlungseingänge direkt aus der Seite **Lastschriftenposten** buchen, oder indem Sie die Zahlungszeilen in das Buch verschieben, in dem Sie Zahlungseingänge buchen, etwa das Fenster **Zahlungseingangs Buch.-Blatt**. Je nach Ihrem Cash-Management-Prozess können Sie auch warten und die Zahlungen lediglich als Teil der Bankabstimmung anwenden.  
+ Wenn Ihre Bank Ihnen mitteilt, dass Zahlungen erfolgreich verarbeitet wurden, können Sie die Zahlungseingänge direkt aus der Seite **Lastschriftenposten** buchen, oder indem Sie die Zahlungszeilen in das Buch verschieben, in dem Sie Zahlungseingänge buchen, etwa das Fenster **Zahlungseingangs Buch.-Blatt** . Je nach Ihrem Cash-Management-Prozess können Sie auch warten und die Zahlungen lediglich als Teil der Bankabstimmung anwenden.  
 
 > [!NOTE]  
 >  Um Zahlungen mithilfe von SEPA-Lastschrift zu erfassen, muss die Währung der Verkaufsrechnung EURO sein.  
@@ -48,11 +48,11 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Einrichten Ihres Bankkontos für die SEPA-Lastschrift  
 1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie das Konto, das Sie für das Lastschriftverfahren verwenden möchten.  
-3. Wählen Sie im Inforegister **Umlagerung**, im Feld **SEPA-Lastschrift Exportformat** SEPA Lastschrift.  
+3. Wählen Sie im Inforegister **Umlagerung** , im Feld **SEPA-Lastschrift Exportformat** SEPA Lastschrift.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>So richten Sie die Zahlungsmethode des Debitors für die SEPA-Lastschrift ein  
 1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsformen** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie die Aktion **Neu**.  
+2. Wählen Sie die Aktion **Neu** .  
 3. Richten Sie eine Zahlungsform ein. Füllen Sie die auf den Lastschrifteinzug bezüglichen Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  
@@ -66,14 +66,14 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 4. Wählen Sie die Schaltfläche **OK** aus, um die Seite **Zahlungsformen** zu schließen.  
 5. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.  
 6. Öffnen Sie die Debitorenkarte für den Debitor, der für die SEPA-Lastschriften eingerichtet werden soll.  
-7. Wählen Sie das Feld , und wählen Sie dann den **Zahlungsformcode**, den Sie in Schritt 3 angegeben haben.  
+7. Wählen Sie das Feld , und wählen Sie dann den **Zahlungsformcode** , den Sie in Schritt 3 angegeben haben.  
 8. Wiederholen Sie die Schritte 6 und 7 für alle Debitoren, die Sie für SEPA-Lastschriften einrichten wollen.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Einrichten des Lastschrift-Mandats, entsprechend der Vereinbarung mit dem Debitor  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die Karte für den Debitor, der für die SEPA-Lastschriften eingerichtet werden soll.  
 3. Wählen Sie die **Bankkonten** Aktion aus.  
-4. Wählen Sie auf der Seite **Kundenbankkontenliste** das Kundenbankkonto aus, das Lastschriften verwenden soll, und wählen Sie dann die Aktion **Direktlastschriftmandate**.  
+4. Wählen Sie auf der Seite **Kundenbankkontenliste** das Kundenbankkonto aus, das Lastschriften verwenden soll, und wählen Sie dann die Aktion **Direktlastschriftmandate** .  
 5. Füllen Sie auf der Seite **SEPA-Felder** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  
@@ -82,7 +82,7 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
     |**Gültig ab**|Geben Sie das Datum an, an dem das Lastschrift-Mandat beginnt.|  
     |**Gültig bis**|Geben Sie das Datum an, an dem das Lastschrift-Mandat endet.|  
     |**Datum der Unterschrift**|Geben Sie das Datum an, an dem der Kunde das Lastschrift-Mandat unterzeichnet hat.|  
-    |**Zahlungstyp**|Geben Sie an, ob die Übereinkunft mehrere (**Wiederkehrende**) oder einen einzelnen (**Einmalig**) Lastschrifteinzug abdeckt.|  
+    |**Zahlungstyp**|Geben Sie an, ob die Übereinkunft mehrere ( **Wiederkehrende** ) oder einen einzelnen ( **Einmalig** ) Lastschrifteinzug abdeckt.|  
     |**Erwartete Anzahl Sollbeträge**|Geben Sie an, wie viele Lastschrifteinzüge Sie zu tätigen erwarten. Dieses Feld ist nur relevant, wenn Sie **Wiederkehrend** im Feld **Sequenzart** ausgewählt haben.|  
     |**Sollzähler**|Gibt an, wie viele Lastschrift-Einzüge mit diesem Lastschrift-Mandat durchgeführt wurden. Dieses Feld wird automatisch aktualisiert.|  
     |**Gesperrt**|Geben Sie an, dass Lastschrifteinzüge mit diesem Lastschrift-Mandat nicht durchgeführt werden können.|  
@@ -99,8 +99,8 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 
 ### <a name="to-create-a-direct-debit-collection"></a>Erstellen eines Lastschrifteinzugs  
 
- 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Lastschriften** ein, und wählen Sie dann den zugehörigen Link.  
- 2. Wählen Sie auf der Seite **Lastschrifteneinzug** die Aktion **Lastschrift anlegen**.  
+ 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lastschriften** ein, und wählen Sie dann den zugehörigen Link.  
+ 2. Wählen Sie auf der Seite **Lastschrifteneinzug** die Aktion **Lastschrift anlegen** .  
  3. Füllen Sie auf der Seite **Lastschrift erstellen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
      |Feld|Beschreibung|  
@@ -115,11 +115,11 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
 
  4. Wählen Sie die Schaltfläche **OK** aus.  
 
-Eine Einzugserfassung wird der **Lastschrift**-Seite hinzugefügt, und ein oder mehrere Lastschrifteinzugsposten werden erstellt.  
+Eine Einzugserfassung wird der **Lastschrift** -Seite hinzugefügt, und ein oder mehrere Lastschrifteinzugsposten werden erstellt.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Export eines Lastschrifteinzugpostens in eine Bankdatei  
  1. Wählen Sie auf der Seite **Direktinkasso** die Option **Direktinkasso. Einträge** Aktion.  
- 2. Auf der Seite **Direct Debit Inkasso. Einträge**, wählen Sie den Eintrag, den Sie exportieren möchten, und wählen Sie dann die Aktion **Lastschriftdatei erstellen**.  
+ 2. Auf der Seite **Direct Debit Inkasso. Einträge** , wählen Sie den Eintrag, den Sie exportieren möchten, und wählen Sie dann die Aktion **Lastschriftdatei erstellen** .  
  3. Speichern Sie die Exportdatei an dem Speicherort, von dem aus Sie sie an Ihre elektronische Bank senden oder hochladen.  
 
       auf der Seite **Lastschrifteinzug-Eintrag** wird das Feld **Status Lastschrift** zur erstellten Datei geändert. auf der Seite **SEPA-Lastschrift-Mandate** wird das Feld **Sollzähler** mit einer Anzahl aktualisiert.  
@@ -128,12 +128,12 @@ Eine Einzugserfassung wird der **Lastschrift**-Seite hinzugefügt, und ein oder 
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Ablehnen eines Lastschrifteinzugpostens  
 
- * Auf der Seite **Lastschrifteinzug-Eintrag** Seite, wählen Sie den Eintrag, der nicht erfolgreich bearbeitet wurde, und wählen Sie dann die Aktion **Eintrag ablehnen**.  
+ * Auf der Seite **Lastschrifteinzug-Eintrag** Seite, wählen Sie den Eintrag, der nicht erfolgreich bearbeitet wurde, und wählen Sie dann die Aktion **Eintrag ablehnen** .  
 
       Der Wert im Feld **Status** auf der Seite **Lastschrifteinzug-Eintrag** wird auf **zurückgewiesen** geändert.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Schließen eines Lastschrifteinzugs  
- *  Auf der Seite **Lastschrifteinzug-Eintrag** Seite, wählen Sie den Eintrag, der erfolgreich bearbeitet wurde, und wählen Sie dann die Aktion **Sammlung schließen**.  
+ *  Auf der Seite **Lastschrifteinzug-Eintrag** Seite, wählen Sie den Eintrag, der erfolgreich bearbeitet wurde, und wählen Sie dann die Aktion **Sammlung schließen** .  
 
       Der zugehörige Lastschrifteinzug wird geschlossen.  
 
@@ -145,7 +145,7 @@ Eine Einzugserfassung wird der **Lastschrift**-Seite hinzugefügt, und ein oder 
  Sie können der Zahlungseingang direkt aus dem **Lastschriften** oder im **Direct Debit Collect. Posten** buchen. Sie können auch die Arbeit an einen anderen Benutzer übertragen, indem Sie die zugehörigen Buch.-Blattzeilen vorbereiten.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Buchen eines Lastschrifteingangs aus der Lastschrift-Einzugsseite  
- 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Lastschriften** ein, und wählen Sie dann den zugehörigen Link.  
+ 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lastschriften** ein, und wählen Sie dann den zugehörigen Link.  
  2. Wählen Sie eine Zeile für die Lastschrift-Einzugserfassung, die in eine Bankdatei exportiert und von der Bank erfolgreich verarbeitet wurde.
  3. Wählen Sie die Aktion **Zahlungseingang buchen** aus.  
  4. Füllen Sie auf der Seite **Lastschrift buchen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  

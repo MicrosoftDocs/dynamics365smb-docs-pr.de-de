@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: 3021cd73ad3f737596c542aaa4989aa9741a7ef8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6d59fa53b1896e5b95f909074fbf0d947bd89a3d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195775"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911996"
 ---
 # <a name="searching-and-filtering-faq"></a>Suchen und Filtern – FAQs
 In diesem Artikel finden Sie Antworten auf allgemeine Fragen, die Sie möglicherweise über das Suchen und Filtern haben.
@@ -50,7 +50,7 @@ Es gibt eine Zeitbegrenzung für die Dauer eines Suchvorgangs. Versuchen Sie zun
 Als lokaler Administrator können Sie die Zeitbegrenzung für Suchen erhöhen, indem Sie die Einstellung **Zeitbegrenzung für Suche** des [!INCLUDE[prodshort](includes/prodshort.md)]-Servers ändern. Weitere Informationen finden Sie unter [Konfigurieren des Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in der Hilfe für Business Central-Entwickler und IT-Experten.
 
 ## <a name="see-also"></a>Siehe auch
-[Sortieren, Durchsuchen und Filtern](ui-enter-criteria-filters.md)  
+[Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)  
 [Suche nach Seiten und Informationen mit Tell Me](ui-search.md)  
 [Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)  
 [Erste Schritte](product-get-started.md)  

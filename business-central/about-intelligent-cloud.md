@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 07/13/2020
+ms.date: 10/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 8948864c1e3d00f3955b0952fd70048c13f4585c
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: 28bc5ac96d8a14ba57b4defa0140a065f81b0221
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577256"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914589"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Intelligente Einblicke mit [!INCLUDE[prodshort](includes/prodshort.md)] Online
 

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 8593958c57f508597cfa082bdbee4d518cc51d1b
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 55ed4b00a4d4140a625f914e148a51d83170fbd7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611409"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921022"
 ---
 # <a name="certifications"></a>Bescheinigungen
 

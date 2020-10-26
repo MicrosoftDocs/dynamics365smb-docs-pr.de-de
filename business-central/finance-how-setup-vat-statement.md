@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 00b7958c9402ff47e1daf8ddd9b55b7623f7fe6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9e750f5c68361d0582ce59784bab41337d331152
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183500"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913638"
 ---
 # <a name="set-up-a-vat-statement"></a>Eine MwSt.-Abrechnung einrichten
 
@@ -26,13 +26,13 @@ Steuerbehörden kann Anforderungen für die Buchung der MwSt ändern und ändert
 MwSt.-Abrechnungen lassen Sie den MwSt.-Abrechnungsbetrag für eine bestimmte Periode berechnen (zum Beispiel ein Quartal).
 
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **MwSt-Auszüge** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie das Feld **Name**, und wählen Sie dann **Neu** auf der Seite **MwSt.-Abrechnungsnamen** aus.
+2. Wählen Sie das Feld **Name** , und wählen Sie dann **Neu** auf der Seite **MwSt.-Abrechnungsnamen** aus.
 3. Füllen Sie die entsprechenden Felder aus. Normalerweise möchten Sie eine Einstellung für jede Kombination aus MwSt.-Geschäftsbuchungsgruppe / MwSt.-Produktbuchungsgruppe haben. Für Zeilennummern ist es sinnvoll, gleichwertige Nummern oder Codes wie in Ihrer offiziellen MwSt.-Abrechnung zu verwenden [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
 > [!Tip]
 > Sie können die Informationen setzen, die in der Abrechnung enthalten sind, je nachdem, was Sie im Feld **Art** auswählen. **Kontosumme** ist hilfreich, wenn Sie die MwSt von einem bestimmten Konto möchten.
-**MwSt.-Summe** ruft die MwSt der Konten ab, die zur Auswahl auf **Buchungsart**, **VAT Bus. Buchungsgruppe** und/oder den Feldern **VAT Prod. Buchungsgruppe** zugeordnet werden. **Rubrikensumme** ermöglicht Ihnen die Eingabe von einem schnellen Filterkriterium oder Wert im Feld **Rubrikensumme**. Weitere Informationen finden Sie unter [Suchen, filtern und sortieren von Daten](ui-enter-criteria-filters.md). **Beschreibung** ist oft verwendet, um eine Benachrichtigung der Abrechnung hinzuzufügen. Sie könnten sie beispielsweise als Überschrift verwenden, wenn Sie Zeilenzusammenzählung verwendet haben.
+**MwSt.-Summe** ruft die MwSt der Konten ab, die zur Auswahl auf **Buchungsart** , **VAT Bus. Buchungsgruppe** und/oder den Feldern **VAT Prod. Buchungsgruppe** zugeordnet werden. **Rubrikensumme** ermöglicht Ihnen die Eingabe von einem schnellen Filterkriterium oder Wert im Feld **Rubrikensumme** . Weitere Informationen finden Sie unter [Suchen, filtern und sortieren von Daten](ui-enter-criteria-filters.md). **Beschreibung** ist oft verwendet, um eine Benachrichtigung der Abrechnung hinzuzufügen. Sie könnten sie beispielsweise als Überschrift verwenden, wenn Sie Zeilenzusammenzählung verwendet haben.
 
 ## <a name="to-preview-the-vat-statement"></a>So zeigen Sie eine Vorschau der Mehrwertsteuerabrechnung an
 Nachdem Sie eine MwSt.-Abrechnung eingeben haben, können Sie diese in der Vorschau anzeigen, um sicherzustellen, dass sie die Anforderungen erfüllt.

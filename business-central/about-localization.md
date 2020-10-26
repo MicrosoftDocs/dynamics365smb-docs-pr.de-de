@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 180c28057fd7da133f2f0770ba515d3eabb1af05
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: b7e6aeb4db5e189bf8f985b55cf226c94a9aa1de
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693124"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914515"
 ---
 # <a name="local-functionality-in-prodlong"></a>Lokale Funktion in [!INCLUDE[prodlong](includes/prodlong.md)]
 
@@ -44,7 +44,7 @@ Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für j
 |        | Spanien | [Lokale Funktion (Spanien)](localfunctionality/spain/spain-local-functionality.md) |
 |        | Schweden | [Lokale Funktion (Schweden)](localfunctionality/sweden/sweden-local-functionality.md) |
 |        | Schweiz | [Lokale Funktion (Schweiz)](localfunctionality/switzerland/switzerland-local-functionality.md) |
-|        | Großbritannien | [Lokale Funktion (GB)](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md) |
+|        | Vereinigtes Königreich | [Lokale Funktion (GB)](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md) |
 | Nordamerika |       |  |
 |        | Kanada|[Lokale Funktion (Kanada)](localfunctionality/canada/canada-local-functionality.md) |
 |        | Mexiko | [Lokale Funktion (Mexiko)](localfunctionality/mexico/mexico-local-functionality.md) |

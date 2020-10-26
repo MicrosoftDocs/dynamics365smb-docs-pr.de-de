@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 038ecb0122e58cfdca3ff62ac93554fab01dcdb6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f78a4e0220ac3c933a6b00300dee4b389c5ea4cc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786596"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911946"
 ---
 # <a name="receive-items"></a>Empfangen von Artikeln
 
@@ -32,11 +32,11 @@ Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. 
 3. Geben Sie in dem Feld **Menge akt. Lieferung** die empfangene Menge an.
 
   > [!NOTE]
-  > Wenn die eingegangene Menge höher ist als die in der Bestellung bestellte Menge im Feld **Menge** und der Kreditor so eingestellt ist, dass er einen Eingangsüberschuss zulässt, dann verwenden Sie das Feld **Eingangsüberschussmenge**, um die überschüssige Menge zu behandeln. Weitere Informationen finden Sie unter [Mehr Artikel als bestellt](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+  > Wenn die eingegangene Menge höher ist als die in der Bestellung bestellte Menge im Feld **Menge** und der Kreditor so eingestellt ist, dass er einen Eingangsüberschuss zulässt, dann verwenden Sie das Feld **Eingangsüberschussmenge** , um die überschüssige Menge zu behandeln. Weitere Informationen finden Sie unter [Mehr Artikel als bestellt](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
 
-4. Wählen Sie die Aktion **Buchen**.
+4. Wählen Sie die Aktion **Buchen** .
 
-  Der Wert im Feld **Bereits gelief. Menge** wird aktualisiert. Wenn dieses eine Teillieferung ist, ist der Wert niedriger als der Wert im Feld **Menge**.
+  Der Wert im Feld **Bereits gelief. Menge** wird aktualisiert. Wenn dieses eine Teillieferung ist, ist der Wert niedriger als der Wert im Feld **Menge** .
 
 > [!NOTE]
 > Wenn Sie einen Lagerbeleg zum Buchen der Quittung verwenden, können Sie nicht die Aktion **Buchen** auf die Bestellung anwenden. Stattdessen hat ein Lagerarbeiter die Bestellmenge bereits als eingegangen gebucht. Weitere Informationen finden Sie unter [Empfangen von Artikeln mit einem Lagerzugang](warehouse-how-receive-items.md#to-receive-items-with-a-warehouse-receipt).
@@ -57,7 +57,7 @@ Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. 
     Aus einem neuen oder offenen Wareneingang können Sie die Seite **Filter z. Holen v. Herk.-Bel.** nutzen, um die Zeilen des freigegebenen Herkunftsbelegs zu erhalten, die festlegen, welche Artikel erhalten oder geliefert werden sollen.
 
     1. Wählen Sie die **Filter zum Holen von Herk.-Belegen verwenden** Aktion aus.  
-    2. Um einen neuen Filter einzurichten, geben Sie einen beschreibenden Code in das Feld **Code** ein, und klicken Sie auf Aktionen **Bearbeiten**.  
+    2. Um einen neuen Filter einzurichten, geben Sie einen beschreibenden Code in das Feld **Code** ein, und klicken Sie auf Aktionen **Bearbeiten** .  
     3. Legen Sie die Art von Herkunftsbelegzeilen fest, die Sie abrufen möchten, indem Sie die jeweiligen Filterfelder ausfüllen.  
     4. Wählen Sie die Aktion **Ausführen** aus.  
 
@@ -65,12 +65,12 @@ Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. 
 
     Die Filterkombinationen, die Sie definieren, werden auf der Seite **Filter z. Holen v. Herk.-Bel.** gespeichert, bis das nächste Mal benötigt werden. Sie können eine unbegrenzte Anzahl von Filterkombinationen erstellen. Sie können die Kriterien jederzeit ändern, indem Sie die Aktion **Bearbeiten** auswählen.
 
-4. Wählen Sie die Herkunftsbelege, für die Sie Artikel annehmen möchten, und bestätigen Sie dann mit **OK**.  
+4. Wählen Sie die Herkunftsbelege, für die Sie Artikel annehmen möchten, und bestätigen Sie dann mit **OK** .  
 
     Die Zeilen der Herkunftsbelege werden auf der Seite **Wareneingang** angezeigt. Das Feld **Menge akt. Lieferung** ist für jede Zeile gefüllt, Sie können die Menge jedoch bei Bedarf ändern. Wenn Sie den Inhalt des Feldes **Lagerplatzcode** m Inforegister **Allgemein** löschen, bevor Sie die Zeilen abrufen, muss in jeder Wareneingangszeile ein geeigneter Lagerplatzcode eingetragen werden.  
 
     > [!NOTE]  
-    >  Um das Feld **Menge akt. Lieferung** in allen Zeilen mit Null auszufüllen, wählen Sie die Aktion **Menge akt. Lieferung löschen** aus. Um sie wieder mit den Restmengen auszufüllen, aktivieren Sie die Aktion **Menge akt. Lieferung autom. ausfüllen**.  
+    >  Um das Feld **Menge akt. Lieferung** in allen Zeilen mit Null auszufüllen, wählen Sie die Aktion **Menge akt. Lieferung löschen** aus. Um sie wieder mit den Restmengen auszufüllen, aktivieren Sie die Aktion **Menge akt. Lieferung autom. ausfüllen** .  
 
     > [!NOTE]  
     >  Sie können nicht mehr Artikel annehmen als die Anzahl im Feld **Restmenge** der Herkunftsbelegzeile. Um weitere Artikel anzunehmen, holen Sie einen weiteren Herkunftsbeleg, der eine Zeile für den Artikel enthält, indem Sie die Filterfunktion zum Holen von Herkunftsbelegen mit dem Artikel verwenden.  
@@ -96,12 +96,12 @@ Sie müssen einen Prozentsatz festlegen, um den Sie beim Empfang eine Überschre
 
 Im Folgenden wird beschrieben, wie Sie einen Übereingangscode einrichten und einem Artikel zuordnen. Die Schritte sind für einen Kreditor ähnlich.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Positionen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Positionen** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte für einen Artikel, von dem Sie vermuten, dass er manchmal mit einer höheren als der bestellten Menge geliefert wird.
-3. Wählen Sie die Nachschlagschaltfläche im Feld **Eingangsüberschuss-Code**.
-4. Wählen Sie die Aktion **Neu**.
+3. Wählen Sie die Nachschlagschaltfläche im Feld **Eingangsüberschuss-Code** .
+4. Wählen Sie die Aktion **Neu** .
 5. Erstellen Sie auf der Seite **Überempfangscodes** eine oder mehrere neue Zeilen, die verschiedene Überempfangsrichtlinien definieren. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-6. Markieren Sie eine Zeile und wählen Sie dann die Schaltfläche **OK**.
+6. Markieren Sie eine Zeile und wählen Sie dann die Schaltfläche **OK** .
 
 Der Übereingangscode wird dem Artikel zugewiesen. Jede Bestellung oder jeder Lagerzugang für den Artikel erlaubt nun den Empfang von mehr als der bestellten Menge gemäß dem angegebenen Prozentsatz der Überzugstoleranz.
 
@@ -110,7 +110,7 @@ Der Übereingangscode wird dem Artikel zugewiesen. Jede Bestellung oder jeder La
 
 ### <a name="to-perform-an-over-receipt"></a>So führen Sie einen Übereingang durch
 
-In Einkaufs- und Lagerzugangszeilen wird das Feld **Über-Empfangsmenge** dazu verwendet, überzählige Mengen zu erfassen, d.h. Mengen, die den Wert im Feld **Menge**, die bestellte Menge, überschreiten.
+In Einkaufs- und Lagerzugangszeilen wird das Feld **Über-Empfangsmenge** dazu verwendet, überzählige Mengen zu erfassen, d.h. Mengen, die den Wert im Feld **Menge** , die bestellte Menge, überschreiten.
 
 Wenn Sie einen Übereingang bearbeiten, können Sie entweder den Wert im Feld **Zu erhaltende Menge** auf die tatsächlich erhaltene Menge erhöhen. Das Feld **Übereingangsmenge** wird dann aktualisiert, um die Überschussmenge anzuzeigen. Alternativ können Sie die überschüssige Menge in das Feld **Übereingangsmenge** eingeben. Das Feld **Zu erhaltende Menge** wird dann aktualisiert, um die bestellte Menge plus die überschüssige Menge anzuzeigen. Das folgende Verfahren beschreibt, wie das Feld **Zu empfangende Menge** auszufüllen ist.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9dc74627139ceed4f475686d57b64737e7e42b47
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5a062f9a18b6c0e965a06a7d4b18ff1e983f05db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789350"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916043"
 ---
 # <a name="change-the-current-report-layout"></a>Ändern Sie das aktuelle Berichtslayout
 Ein Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf ausgewechselt werden können.
@@ -36,7 +36,7 @@ Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus De
 3. Um das Layout, das von einem Bericht verwendet wird, zu ändern, legen Sie in der Zeile für den Bericht das Feld **Ausgewähltes Layout** auf eine der folgenden Optionen fest:
    * **RDLC (integriert)** verwendet im Bericht das integrierte RDLC-Berichtslayout.
    * **Word (integriert)** verwendet im Bericht das integrierte Word-Berichtslayout.
-   * **Benutzerdefiniert**, verwendet ein benutzerdefiniertes Layout im Bericht.  
+   * **Benutzerdefiniert** , verwendet ein benutzerdefiniertes Layout im Bericht.  
 
 > [!NOTE]
 > Wenn Sie ein Berichtslayout der Art **RDLC (integriert)** oder **Word (integriert)** auswählen und Sie eine Fehlermeldung erhalten, dass der Bericht kein Layout der angegebenen Art hat, müssen Sie eine andere Layoutoption auswählen oder ein benutzerdefiniertes Berichtlayout der Art erstellen, die Sie verwenden möchten. Siehe das folgende Verfahren.

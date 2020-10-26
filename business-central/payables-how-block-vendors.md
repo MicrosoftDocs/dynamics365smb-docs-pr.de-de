@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b0ff7e3de9de21a37c0cacf6ff1d4b0a4871f61d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9cb31546dcefaba5f15cb630467d759812d48c81
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190275"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916751"
 ---
 # <a name="block-vendors"></a>Kreditoren sperren
 Sie können Kreditoren, zum Beispiel aufgrund von Zahlungsunfähigkeit sperren, so dass der Kreditor nicht zu Einkaufsbelegen hinzugefügt werden kann, oder dass keine Zahlungen für den Kreditor gebucht werden können.

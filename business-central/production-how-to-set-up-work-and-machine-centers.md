@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 96d815a39428abc23c050da02c92d8a46a9111c1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784132"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910705"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Arbeitsplätze und Arbeitsplatzgruppen einrichten
 
@@ -27,7 +27,10 @@ Sie können unterschiedliche Arbeitsplätze zu einer Arbeitsplatzgruppe zusammen
 
 Die geplante Kapazität einer Arbeitsplatzgruppe besteht aus der Verfügbarkeit der entsprechenden Arbeitsplätze und der zusätzlichen geplanten Verfügbarkeit der Arbeitsplatzgruppe. Die geplante Verfügbarkeit der Abteilung ist die Summe aller Verfügbarkeiten der entsprechenden Arbeitsplätze und Arbeitsplatzgruppen.  
 
-Die Verfügbarkeit wird in Kalenderposten gespeichert. Bevor Sie anfangen oder Arbeitsplätze einrichten, müssen Sie Betriebskalender einrichten. Weitere Informationen finden Sie unter [Erstellen von Betriebskalendern](production-how-to-create-work-center-calendars.md).  
+Die Verfügbarkeit wird in Kalenderposten gespeichert.  
+
+> [!IMPORTANT]
+> Bevor Sie anfangen oder Arbeitsplätze einrichten, müssen Sie Betriebskalender einrichten. Weitere Informationen finden Sie unter [Erstellen von Betriebskalendern](production-how-to-create-work-center-calendars.md).
 
 ## <a name="to-set-up-a-work-center"></a>Um Arbeitsplatzgruppen einzurichten:
 
@@ -46,8 +49,8 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 
     Einstandspreis = EK-Preis + (EK-Preis x Kosten %) + Gemeinkostensatz.  
 
-9. Legen Sie im Feld **Einstandspreisberechnung** fest, ob der obigen Berechnung die benötigte Zeitspanne (**Zeit**) oder die Anzahl der gefertigten Einheiten (**Einheiten**) zugrunde gelegt werden soll.  
-10. Markieren Sie das Feld **Spezifische Stückkosten**, wenn Sie die Stückkosten des Arbeitsplatzes in der Arbeitsplanzeile, in der er verwendet wird, definieren wollen. Dies kann sich als unerlässlich bei Arbeitsgängen mit wesentlich abweichenden Kapazitätskosten erweisen, die normalerweise in dieser Arbeitsplatzgruppe verarbeitet werden.  
+9. Legen Sie im Feld **Einstandspreisberechnung** fest, ob der obigen Berechnung die benötigte Zeitspanne ( **Zeit** ) oder die Anzahl der gefertigten Einheiten ( **Einheiten** ) zugrunde gelegt werden soll.  
+10. Markieren Sie das Feld **Spezifische Stückkosten** , wenn Sie die Stückkosten des Arbeitsplatzes in der Arbeitsplanzeile, in der er verwendet wird, definieren wollen. Dies kann sich als unerlässlich bei Arbeitsgängen mit wesentlich abweichenden Kapazitätskosten erweisen, die normalerweise in dieser Arbeitsplatzgruppe verarbeitet werden.  
 11. Wählen Sie im Feld **Buchungsmethode** aus, ob der Ausgabebuchung in dieser Arbeitsplatzgruppe manuell oder automatisch mit einer der folgenden Methoden berechnet und gebucht werden soll, indem eine der folgenden Methoden verwendet wird.
 
     |Option|Beschreibung|
@@ -67,7 +70,7 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 
 13. Geben Sie im Feld **Kapazität** an, ob in der Arbeitsplatzgruppe mehrere Personen bzw. Maschinen gleichzeitig eingesetzt werden. Wenn in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Installation das Element "Arbeitsplatz" nicht enthalten ist, muss in diesem Feld der Wert **1** festgelegt sein.  
 14. Geben Sie im Feld **Effektivität** an, wie hoch die tatsächliche Effektivität der Arbeitsplatzgruppe prozentual hinsichtlich der erwarteten Standardeffektivität ist. Wenn Sie **100** eingeben, bedeutet dies, dass die Isteffektivität der Arbeitsplatzgruppe mit der Standardeffektivität übereinstimmt.  
-15. Wählen Sie das Kontrollkästchen **Konsolidierter Kalender**, wenn Sie auch Arbeitsplätze verwenden. Dadurch ist sichergestellt, dass Kalenderposten oben aus den Arbeitsplatzkalendern ermittelt werden.  
+15. Wählen Sie das Kontrollkästchen **Konsolidierter Kalender** , wenn Sie auch Arbeitsplätze verwenden. Dadurch ist sichergestellt, dass Kalenderposten oben aus den Arbeitsplatzkalendern ermittelt werden.  
 16. Wählen Sie im Feld **Betriebskalender** einen Einkaufskalender. Weitere Informationen finden Sie unter [Erstellen von Betriebskalendern](production-how-to-create-work-center-calendars.md).  
 17. Geben Sie im Feld **Warteschlangenzeit** eine feste Zeitspanne an, die ablaufen muss, bevor die zugewiesenen Arbeiten in dieser Arbeitsplatzgruppe begonnen werden können. Beachten Sie, dass die Warteschlangenzeit auf die anderen nicht fertigungsbezogenen Zeitelemente wie Wartezeit und Transportzeit aufgeschlagen wird, die sie für Arbeitsgänge in dieser Arbeitsplatzgruppe definieren können.  
 
@@ -92,7 +95,7 @@ Auf der Seite **Ressourcen mit eingeschränkter Kapazität** können Sie ein Set
 Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, dass keine Ressourcen oberhalb der definierten Kapazität (Grenzbelastung) geladen werden. Dies geschieht, indem jeder Arbeitsgang dem nächsten verfügbaren Zeitfenster zugewiesen wird. Wenn das Zeitfenster nicht ausreicht, um den gesamten Arbeitsgang abzuschließen, wird der Arbeitsgang in zwei Teile aufgeteilt, die in die nächsten verfügbaren Zeitfenster gesetzt werden.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Kapazitätsengpässe bei den Ressourcen** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die Aktion **Neu**.
+2. Wählen Sie die Aktion **Neu** .
 3. Füllen Sie die Felder je nach Bedarf aus.
 
 > [!NOTE]

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03d2a79c3e40d67baea726fe13ca231624e5081e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a8631e9ff23ac9972da82fca8f45876f4467031b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783751"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917926"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten
 Sie können einen neuen Mandanten, den Sie erstellt haben, schnell konfigurieren, indem Sie den RapidStart Services-Konfigurations-Assistenten verwenden.
@@ -24,16 +24,16 @@ Im folgenden Verfahren haben Sie dem Debitor das Konfigurationspaket bereitgeste
 
 ## <a name="to-configure-a-new-company"></a>So konfigurieren Sie einen neuen Mandanten.  
 1. Im RapidStart Services-Implementierungs-Rollencenter wählen Sie die Aktion **RapidStart-Assistent** aus.  
-2. Erweitern Sie das Inforegister **Schritt 1**, das allgemeine Informationen über den neuen Mandanten enthält. Geben Sie die entsprechenden Daten über den neuen Mandanten in die Felder ein. Es gibt ein Feld, das ausgefüllt werden muss, **Name**. Die restlichen Felder sind optional.  
-3. Erweitern Sie das Inforegister **Schritt 2**, das Kommunikations- und Kontaktinformationen über den neuen Mandanten enthält. Geben Sie die entsprechenden Daten über den neuen Mandanten in die Felder ein.
-4. Erweitern Sie das Inforegister **Schritt 3**, das Bankkonto- und Zahlungsinformationen über den neuen Mandanten enthält. Geben Sie die entsprechenden Daten über den neuen Mandanten in die Felder ein.  
-5. Erweitern Sie das Inforegister **Schritt 4**. Wählen Sie die Schaltfläche **AssistEdit**, um das Konfigurationspaket auszuwählen, das Sie ausgleichen möchten. Der Name des Konfigurationspakets wird angezeigt. Sie können folgende Aktionen in der aufgeführten Reihenfolge durchführen:  
+2. Erweitern Sie das Inforegister **Schritt 1** , das allgemeine Informationen über den neuen Mandanten enthält. Geben Sie die entsprechenden Daten über den neuen Mandanten in die Felder ein. Es gibt ein Feld, das ausgefüllt werden muss, **Name** . Die restlichen Felder sind optional.  
+3. Erweitern Sie das Inforegister **Schritt 2** , das Kommunikations- und Kontaktinformationen über den neuen Mandanten enthält. Geben Sie die entsprechenden Daten über den neuen Mandanten in die Felder ein.
+4. Erweitern Sie das Inforegister **Schritt 3** , das Bankkonto- und Zahlungsinformationen über den neuen Mandanten enthält. Geben Sie die entsprechenden Daten über den neuen Mandanten in die Felder ein.  
+5. Erweitern Sie das Inforegister **Schritt 4** . Wählen Sie die Schaltfläche **AssistEdit** , um das Konfigurationspaket auszuwählen, das Sie ausgleichen möchten. Der Name des Konfigurationspakets wird angezeigt. Sie können folgende Aktionen in der aufgeführten Reihenfolge durchführen:  
 
     1. Wenden Sie die Konfiguration an, indem Sie die **Paket übernehmen** Aktion auswählen. Dadurch wird das Konfigurationspaket importiert und übernimmt die Paketdatenbankdaten alle gleichzeitig.  
 
     2. Überprüfen Sie die Konfiguration, nachdem sie angewendet wurde. Mit dieser Option können Sie die Konfigurationsdetails und -fragebögen überprüfen, die aus vom Partner bereitgestellt wurden, und Stammdaten importieren, die für Ihren Mandanten erforderlich sind. Wählen Sie die Aktion **Arbeitsblatt konfigurieren** aus. Weitere Informationen finden Sie unter [So füllen Sie den Konfigurationsfragebogen aus](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
-6. Erweitern Sie das Inforegister **Schritt 5**. Geben Sie an, welches Rollencenter die Standardeinstellung für den neuen Mandanten sein soll.  
+6. Erweitern Sie das Inforegister **Schritt 5** . Geben Sie an, welches Rollencenter die Standardeinstellung für den neuen Mandanten sein soll.  
 
     > [!IMPORTANT]  
     >  Ändern Sie das Rollencenter erst, nachdem Sie die Konfiguration des Mandanten abgeschlossen haben. Wenn Sie weitere Einrichtungsdetails zu berücksichtigen haben, verwenden Sie erst das Konfigurationsarbeitsblatt, um mit Ihrer Arbeit fortzufahren. Kehren Sie dann zu dem Assistenten zurück, um Ihr Rollencenterprofil zu aktualisieren, oder wählen Sie auf der Registerkarte Start die Option **Vollständiges Setup** aus.

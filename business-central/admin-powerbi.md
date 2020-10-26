@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a1e2e8ceee41c2c6ed517d000fc7c3a4a6aa274c
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: e339033e8529f59f548e8bf71fd683f9a2a17eba
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697672"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917876"
 ---
 # <a name="prodshort-and-power-bi"></a>[!INCLUDE[prodshort](includes/prodshort.md)] und Power BI
 
@@ -31,10 +31,10 @@ Bei der Arbeit mit [!INCLUDE[prodshort](includes/prodshort.md)] und Power BI ste
 
 |Funktion|Beschreibung|Online|On-premises|Weitere Informationen|
 |-------|-----------|--------------|-----------|----------------|
-|Zeigen Sie [!INCLUDE[prodshort](includes/prodshort.md)]-Daten in Power BI an.|Sie können Ihre Daten aus [!INCLUDE[prodshort](includes/prodshort.md)] in Berichten in Power BI anzeigen. [!INCLUDE[prodshort](includes/prodshort.md)] online umfasst einige vordefinierte Power BI-Berichte. Oder möglicherweise hat Ihre Organisation einige benutzerdefinierte Berichte für Sie zur Verfügung gestellt.|![Aktivieren](media/check.png)|![Aktivieren](media/check.png)|[Siehe ...](across-working-with-powerbi.md)|
-|Zeigen Sie Power BI-Berichte im [!INCLUDE[prodshort](includes/prodshort.md)]-Client an.| Power BI-Berichte, die [!INCLUDE[prodshort](includes/prodshort.md)]-Daten anzeigen, können direkt in Teile von [!INCLUDE[prodshort](includes/prodshort.md)]-Seiten eingebettet werden. Sie können in diesem Teil jeden beliebigen Bericht anzeigen, der Ihnen zur Verfügung steht. |![Aktivieren](media/check.png)|![Aktivieren](media/check.png)<sup>[*](#onprem)</sup>|[Siehe ...](across-working-with-business-central-in-powerbi.md).|
-|Erstellen Sie Berichte und Dashboards in Power BI, die [!INCLUDE[prodshort](includes/prodshort.md)]-Daten anzeigen.|Verwenden Sie Power BI Desktop, um eigene Berichte und Dashboards zu erstellen. Sie können die Berichte in Ihrem eigenen Power BI-Dienst veröffentlichen oder sie mit anderen Personen innerhalb ihrer Organisation teilen.|![Aktivieren](media/check.png)|![Aktivieren](media/check.png)|[Siehe ...](across-how-use-financials-data-source-powerbi.md)
-|[!INCLUDE[prodshort](includes/prodshort.md)]-Apps in Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] veröffentlicht drei Apps für Power BI auf Microsoft AppSource. Diese Apps erstellen detaillierte Berichte und Dashboards in Ihrem Power BI-Dienst zum Anzeigen von [!INCLUDE[prodshort](includes/prodshort.md)]-Daten. Zu den verfügbaren Apps gehören: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] – CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Sales </li></ul>  |![Aktivieren](media/check.png)||[Siehe ...](across-powerbi-business-central-apps.md)
+|Zeigen Sie [!INCLUDE[prodshort](includes/prodshort.md)]-Daten in Power BI an.|Sie können Ihre Daten aus [!INCLUDE[prodshort](includes/prodshort.md)] in Berichten in Power BI anzeigen. [!INCLUDE[prodshort](includes/prodshort.md)] online umfasst einige vordefinierte Power BI-Berichte. Oder möglicherweise hat Ihre Organisation einige benutzerdefinierte Berichte für Sie zur Verfügung gestellt.|![Funktioniert online](media/check.png)|![Funktioniert lokal](media/check.png)|[Siehe ...](across-working-with-powerbi.md)|
+|Zeigen Sie Power BI-Berichte im [!INCLUDE[prodshort](includes/prodshort.md)]-Client an.| Power BI-Berichte, die [!INCLUDE[prodshort](includes/prodshort.md)]-Daten anzeigen, können direkt in Teile von [!INCLUDE[prodshort](includes/prodshort.md)]-Seiten eingebettet werden. Sie können in diesem Teil jeden beliebigen Bericht anzeigen, der Ihnen zur Verfügung steht. |![Funktioniert online](media/check.png)|![Funktioniert lokal](media/check.png)<sup>[*](#onprem)</sup>|[Siehe ...](across-working-with-business-central-in-powerbi.md).|
+|Erstellen Sie Berichte und Dashboards in Power BI, die [!INCLUDE[prodshort](includes/prodshort.md)]-Daten anzeigen.|Verwenden Sie Power BI Desktop, um eigene Berichte und Dashboards zu erstellen. Sie können die Berichte in Ihrem eigenen Power BI-Dienst veröffentlichen oder sie mit anderen Personen innerhalb ihrer Organisation teilen.|![Funktioniert online](media/check.png)|![Funktioniert lokal](media/check.png)|[Siehe ...](across-how-use-financials-data-source-powerbi.md)
+|[!INCLUDE[prodshort](includes/prodshort.md)]-Apps in Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] veröffentlicht drei Apps für Power BI auf Microsoft AppSource. Diese Apps erstellen detaillierte Berichte und Dashboards in Ihrem Power BI-Dienst zum Anzeigen von [!INCLUDE[prodshort](includes/prodshort.md)]-Daten. Zu den verfügbaren Apps gehören: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] – CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Sales </li></ul>  |![Funktioniert online](media/check.png)||[Siehe ...](across-powerbi-business-central-apps.md)
 
 <a name="onprem"><sup>*</sup></a> Für diese Funktion ist eine registrierte Anwendung für Business Central in Microsoft Azure erforderlich. Weitere Informationen finden Sie unter [Registrieren von Business Central On-Premises in Azure AD zur Integration mit anderen Diensten](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 

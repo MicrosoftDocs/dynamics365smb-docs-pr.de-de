@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 79b57454d0e4ac1bcdad9817b53f1b273e416658
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6456d982629571d4d39622a910df4bfd7039d7a8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194163"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915060"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Die Erweiterung "Vorhersage verspäteter Zahlungen"  
 Die effektive Verwaltung von Forderungen ist für den Gesamtfinanzstatus eines Unternehmens wichtig. Die Erweiterung "Vorhersage verspäteter Zahlungen" kann nützlich sein, um ausstehende Forderungen zu reduzieren und die Sammlungsstrategie abzustimmen, die voraussagt, ob Verkaufsrechnungen pünktlich bezahlt werden. Wenn beispielsweise vorausgesagt wird, dass eine Zahlung zu spät erfolgen wird, können Sie sich entschieden, die Zahlungsfristen oder die Zahlungsform für den Debitor anzupassen.
@@ -26,14 +26,14 @@ Wenn Sie einen gebuchten Verkaufsbeleg öffnen, wird oben auf der Seite eine Mel
 
 Führen Sie folgende Schritte aus, um die Erweiterung manuell zu aktivieren:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Vorhersage der Zahlungsverspätung einrichten** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Vorhersage der Zahlungsverspätung einrichten** ein und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder nach Bedarf aus.
 
 > [!Note]
 > Wenn Sie sich entscheiden, die Erweiterung manuell zu aktivieren, beachten Sie, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] Ihnen dies nicht erlaubt, wenn die Qualität des Modells gering ist. Die Qualität des Modells zeigt an, wie genau die Vorhersagen des Modells wahrscheinlich sind. Einige Faktoren können sich auf die Qualität eines Modells auswirken. Es könnten z.B. nicht genügend Daten vorhanden gewesen sein oder die Daten enthielten nicht genügend Variationen. Sie können die Qualität des Modells, das Sie aktuell verwenden auf der Seite **Einrichtung der Vorhersage verspäteter Zahlungen** anzeigen. Sie können auch einen Mindestschwellenwert für die Modellqualität angeben.   
 
 ## <a name="viewing-all-payment-predictions"></a>Anzeigen aller Zahlungsvorhersagen
-Wenn Sie die Erweiterung aktivieren wird die Kachel **Voraussichtlich verspätete Zahlungen** im **Geschäftsführer**-Rollencenter verfügbar. Die Kachel zeigt die Anzahl der Zahlungen, die voraussichtlich verspätet sind und lässt Sie die Seite **Debitorenposten** öffnen, in dem Sie die gebuchten Rechnungen genauer ansehen können. Sie sollten drei Spalten beachten:  
+Wenn Sie die Erweiterung aktivieren wird die Kachel **Voraussichtlich verspätete Zahlungen** im **Geschäftsführer** -Rollencenter verfügbar. Die Kachel zeigt die Anzahl der Zahlungen, die voraussichtlich verspätet sind und lässt Sie die Seite **Debitorenposten** öffnen, in dem Sie die gebuchten Rechnungen genauer ansehen können. Sie sollten drei Spalten beachten:  
 
 * **Zahlungsverzug** - Gibt an, ob die Zahlung für die Rechnung voraussichtlich verspätet sein wird.
 * **Vorhersagegenauigkeit** - Zeigt an, wie zuverlässig die Vorhersage ist. **Hoch** bedeutet, dass die Vorhersage zu mindestens 90 % sicher ist. **Mittel** liegt zwischen 80 und 90 %, und **Niedrig** liegt unter 80 %.
@@ -43,7 +43,7 @@ Wenn Sie die Erweiterung aktivieren wird die Kachel **Voraussichtlich verspätet
 > Die Seite "Debitorenposten" zeigt zudem rechts eine Infobox. Die Information im Abschnitt **Debitorendetails** kann bei der Prüfung von Vorhersagen nützlich sein. Wenn Sie die Rechnung in der Liste auswählen, werden im Abschnitt Informationen zum Debitor angezeigt. Außerdem können Sie damit sofort Maßnahmen ergreifen. Wenn ein Debitor häufig die Geldbörse verlegt, können Sie die Debitorenkarte aus der Infobox heraus öffnen und den Debitor für künftige Verkäufe sperren.  
 
 ## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Anzeigen einer Zahlungsvorhersage für einen bestimmten Verkaufsbeleg
-Sie können auch verspätete Zahlungen vorhersagen. Auf den Seiten **Verkaufsangebote**, **Verkaufsaufträge** und **Verkaufsrechnungen** können Sie die Aktion **Zahlung vorhersagen** verwenden, um eine Vorhersage für einen Verkaufsbeleg zu erstellen, den Sie anzeigen.
+Sie können auch verspätete Zahlungen vorhersagen. Auf den Seiten **Verkaufsangebote** , **Verkaufsaufträge** und **Verkaufsrechnungen** können Sie die Aktion **Zahlung vorhersagen** verwenden, um eine Vorhersage für einen Verkaufsbeleg zu erstellen, den Sie anzeigen.
 
 <!--## Scheduling Payment Predictions
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
@@ -62,9 +62,9 @@ Diese Web-Dienste sind zustandslos, d.h. sie verwenden Daten nur zur Berechnung 
 >   Sie können anstelle unseres eigenen Prognose-Webdienstes Ihren eigenen Prognose-Webdienst verwenden. Weitere Informationen finden Sie unter [Erstellen und verwenden Sie Ihren eigenen Prognose-Webservice für Zahlungsverzugsprognosen](#AnchorText). 
 
 ### <a name="data-required-to-train-and-evaluate-the-model"></a>Daten, die zum Trainieren und Auswerten des Modells erforderlich sind 
-Für jede **Debitorenposten**, zu der eine zugehörige **gebuchte Verkaufsrechnung** vorliegt:
+Für jede **Debitorenposten** , zu der eine zugehörige **gebuchte Verkaufsrechnung** vorliegt:
 - Betrag (MW) einschließlich Steuer
-- Die Zahlungsfrist in Tagen wird berechnet als **Zahlungsdatum** minus **Buchungsdatum**.
+- Die Zahlungsfrist in Tagen wird berechnet als **Zahlungsdatum** minus **Buchungsdatum** .
 - Ob es eine beantragte Gutschrift gibt. 
 
 Zusätzlich wird der Datensatz mit aggregierten Daten aus anderen Rechnungen angereichert, die sich auf denselben Kunden beziehen. Dazu gehören die folgenden Schritte:
@@ -91,20 +91,20 @@ Wenn es den Anschein hat, dass Ihre Prozesse nicht mit dem Standardmodell übere
 [!INCLUDE[d365fin](includes/d365fin_md.md)] führt die Schulung und Auswertung automatisch durch, wenn genügend bezahlte und verspätete Rechnungen vorliegen, Sie können sie aber auch manuell durchführen, wann immer Sie wollen.
 
 #### <a name="to-train-and-use-your-model"></a>So trainieren und verwenden Sie Ihr Modell
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Vorhersage der Zahlungsverspätung einrichten** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Vorhersage der Zahlungsverspätung einrichten** ein und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie im Feld **Ausgewähltes Modell** die Option **Mein Modell** aus.
-3. Wählen Sie die Aktion **Mein Modell erstellen**, um das Modell anhand Ihrer Daten zu trainieren.  
+3. Wählen Sie die Aktion **Mein Modell erstellen** , um das Modell anhand Ihrer Daten zu trainieren.  
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-late-payment-prediction"></a><a name="AnchorText"> </a>Erstellen und verwenden Sie Ihren eigenen Prognose-Webdienst zur Vorhersage von Zahlungsverzug
 Sie können auch Ihren eigenen Vorhersage-Webdienst auf der Grundlage eines öffentlichen Modells mit dem Namen **Vorhersage-Experiment für Dynamics 365 Business Central** erstellen. Dieses vorhersagende Modell ist online im Azure AI Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermaßen vor:  
 
 1. Öffnen Sie einem Browser und gehen Sie zum [Azure AI Katalog](https://go.microsoft.com/fwlink/?linkid=2086310)  
-2. Suchen Sie nach **Vorhersage-Experiment für Dynamics 365 Business Central**, und öffnen Sie dann das Modell in Azure Machine Learning Studio.  
+2. Suchen Sie nach **Vorhersage-Experiment für Dynamics 365 Business Central** , und öffnen Sie dann das Modell in Azure Machine Learning Studio.  
 3. Verwenden Sie das Microsoft-Konto, um sich für einen Arbeitsbereich anzumelden und kopieren Sie dann das Muster.  
 4. Führen Sie die Vorlage aus und veröffentlichen Sie dieses als Webdienst.  
 5. Notieren Sie den API URL und den API Schlüssel. Sie verwenden diese Anmeldeinformationen für die Cashfloweinrichtung.  
-6. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Vorhersage der Zahlungsverspätung einrichten** ein und wählen Sie dann den entsprechenden Link.  
-7. Wählen Sie das Kontrollkästchen **Mein Azure-Abonnement verwenden**.
+6. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Vorhersage der Zahlungsverspätung einrichten** ein und wählen Sie dann den entsprechenden Link.  
+7. Wählen Sie das Kontrollkästchen **Mein Azure-Abonnement verwenden** .
 8. Im Inforegister **Anmeldeinformationen für mein Modell** geben Sie die API-URL und den API-Schlüssel für Ihr Modell ein.  .  
 
 ## <a name="see-also"></a>Siehe auch  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e24351bb7382d01a060326ec8e592af555870a7
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 2f1b79cdf04075159b5e464e384bace89d9f933c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619384"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917801"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-common-data-service"></a>Planen einer Synchronisierung zwischen Business Central und Common Data Service
 
@@ -70,7 +70,7 @@ Einige Aufgabenwarteschlangeneinträge, z. B. diejenigen, die die Synchronisieru
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Flussdiagramm für den Fall, dass Aufgabenwarteschlangeneinträge aufgrund von Inaktivität gesperrt werden.":::
 
-Wenn der Wert in diesem Feld nicht Null ist und die Aufgabenwarteschlange während der letzten Ausführung keine Änderungen gefunden hat, sperrt [!INCLUDE[d365fin](includes/d365fin_md.md)] den Aufgabenwarteschlangeneintrag. Wenn das passiert, wird das **Status der Aufgabenwarteschlange**-Feld **Gesperrt wegen Inaktivität**, und [!INCLUDE[d365fin](includes/d365fin_md.md)] wartet auf den Zeitraum, der im Feld **Inaktivitätszeitlimit** angegeben ist, bevor der Aufgabenwarteschlangeneintrag erneut ausgeführt wird.  
+Wenn der Wert in diesem Feld nicht Null ist und die Aufgabenwarteschlange während der letzten Ausführung keine Änderungen gefunden hat, sperrt [!INCLUDE[d365fin](includes/d365fin_md.md)] den Aufgabenwarteschlangeneintrag. Wenn das passiert, wird das **Status der Aufgabenwarteschlange** -Feld **Gesperrt wegen Inaktivität** , und [!INCLUDE[d365fin](includes/d365fin_md.md)] wartet auf den Zeitraum, der im Feld **Inaktivitätszeitlimit** angegeben ist, bevor der Aufgabenwarteschlangeneintrag erneut ausgeführt wird.  
 
 Beispiel: Standardmäßig sucht die Aufgabenwarteschlange WÄHRUNG, die Währungen in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] mit Wechselkursen in [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisiert, alle 30 Minuten nach Änderungen bei Wechselkursen. Wenn keine Änderungen gefunden werden, sperrt [!INCLUDE[d365fin](includes/d365fin_md.md)] die Aufgabenwarteschlange WÄHRUNG für 720 Minuten (sechs Stunden). Wenn ein Wechselkurs in [!INCLUDE[d365fin](includes/d365fin_md.md)] geändert wird, während der Aufgabenwarteschlangeneintrag gesperrt ist, aktiviert [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch den Aufgabenwarteschlangeneintrag neu und startet die Aufgabenwarteschlange neu. 
 
@@ -80,7 +80,7 @@ Beispiel: Standardmäßig sucht die Aufgabenwarteschlange WÄHRUNG, die Währung
 ## <a name="to-view-the-synchronization-job-log"></a>So zeigen Sie das Synchronisierungsprojektprotokoll an:
 
 1. Wählen Sie das :::image type="icon" source="media/ui-search/search_small.png" border="false":::-Symbol, geben Sie **Integrationssynchronisationsprotokoll** ein, und wählen Sie dann den entsprechenden Link.
-2. Wenn Fehler bei einem Synchronisierungsprojekt aufgetreten sind, erscheint die Anzahl der Fehler in der Spalte **Fehler**. Um die Fehler für das Projekt anzuzeigen, wählen Sie die Zahl aus.  
+2. Wenn Fehler bei einem Synchronisierungsprojekt aufgetreten sind, erscheint die Anzahl der Fehler in der Spalte **Fehler** . Um die Fehler für das Projekt anzuzeigen, wählen Sie die Zahl aus.  
 
     > [!TIP]  
     > Sie können alle Synchronisierungsprojektfehler anzeigen, indem Sie das Protokoll mit den Synchronisierungsprojektfehlern direkt öffnen.

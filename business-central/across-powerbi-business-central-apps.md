@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b4430118eb8075ceded16bdc375479e61a132f96
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 292f78f16b77940fa16a6ffc25bd79dbca0684e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697764"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915860"
 ---
 # <a name="using-the-prodshort-apps-in-power-bi"></a>[!INCLUDE [prodshort](includes/prodshort.md)]-Apps in Power BI verwenden
 
@@ -69,7 +69,7 @@ Registrieren Sie sich für den Power BI-Dienst. Wenn Sie sich noch nicht registr
 
 3. Im Feld **Dienste** wählen Sie **Abrufen** aus.
 
-    Dieser Schritt öffnet die Seite **Power BI-Apps**, auf der Sie nach Power BI-Apps suchen können, die in **AppSource** verfügbar sind.  
+    Dieser Schritt öffnet die Seite **Power BI-Apps** , auf der Sie nach Power BI-Apps suchen können, die in **AppSource** verfügbar sind.  
 
 4. Geben Sie im Feld **Suchen** den Text **Dynamics 365 Business Central** ein.
 5. Wählen Sie die App aus, die Sie verwenden möchten, und wählen Sie **Jetzt abrufen** aus. Wählen Sie dann **Installieren** aus.  
@@ -101,7 +101,7 @@ Es wurde kein Power BI-Konto eingerichtet. Für ein gültiges Power BI-Konto ben
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Nachricht: Es sind keine Berichte aktiviert. Wählen Sie „Bericht auswählen“ aus, um eine Liste der anzeigbaren Berichte anzuzeigen.
 
-Diese Meldung wird angezeigt, wenn der Standardbericht nicht in Ihrem Power BI-Arbeitsbereich bereitgestellt werden konnte. Oder der Bericht wurde bereitgestellt, aber nicht erfolgreich aktualisiert. Bei diesem Problem navigieren Sie zum Bericht in Ihrem Power BI-Arbeitsbereich und wählen dort **Datensatz**, **Einstellungen** aus. Anschließend aktualisieren Sie die Anmeldedaten manuell. Wenn der Datensatz erfolgreich aktualisiert wurde, navigieren Sie zurück zu [!INCLUDE[prodshort](includes/prodshort.md)] und wählen Sie den Bericht auf der Seite **Berichte auswählen** manuell aus.
+Diese Meldung wird angezeigt, wenn der Standardbericht nicht in Ihrem Power BI-Arbeitsbereich bereitgestellt werden konnte. Oder der Bericht wurde bereitgestellt, aber nicht erfolgreich aktualisiert. Bei diesem Problem navigieren Sie zum Bericht in Ihrem Power BI-Arbeitsbereich und wählen dort **Datensatz** , **Einstellungen** aus. Anschließend aktualisieren Sie die Anmeldedaten manuell. Wenn der Datensatz erfolgreich aktualisiert wurde, navigieren Sie zurück zu [!INCLUDE[prodshort](includes/prodshort.md)] und wählen Sie den Bericht auf der Seite **Berichte auswählen** manuell aus.
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Sie brauchen eine Power BI Pro Lizenz zur Installation der [!INCLUDE[prodshort](includes/prodshort.md)] App in Power BI
 
@@ -130,7 +130,7 @@ Für [!INCLUDE[prodshort](includes/prodshort.md)] on-premises kann das Problem d
 
 ### <a name="incorrect-company-name"></a>Ungültiger Unternehmensname
 
-Ein häufiger Fehler ist, den Unternehmensanzeigenamen anstelle des Unternehmensnamens einzugeben. Unternehmensnamensuche für **Unternehmen** zu suchen. Verwenden Sie das Feld **Name**, wenn Sie den Unternehmensnamen eingeben.
+Ein häufiger Fehler ist, den Unternehmensanzeigenamen anstelle des Unternehmensnamens einzugeben. Unternehmensnamensuche für **Unternehmen** zu suchen. Verwenden Sie das Feld **Name** , wenn Sie den Unternehmensnamen eingeben.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Der Schlüssel glich keinen Zeilen in der Tabelle
 

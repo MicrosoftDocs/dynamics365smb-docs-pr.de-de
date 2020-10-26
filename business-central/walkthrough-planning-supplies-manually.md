@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb9db1430a9d2a5628bc14bebd5896dac671318d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b01235241ccdcb837063f786157349ed7094e81e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786771"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918463"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungsaufträgen zum Erfüllen eines neuen Bedarfs beschrieben. Je nach Bedarfsart können Sie die Beschaffungsplanung in festen Intervallen, z. B. jeden Morgen oder jeden Montag, oder bei einer entsprechenden Benachrichtigung durch den Verkauf oder die Produktion initiieren. In dieser exemplarischen Vorgehensweise verwenden Sie die Seite **Auftragsplanung**, ein einfaches Tool für die Beschaffungsplanung, bei dem Entscheidungen manuell getroffen werden, anstatt die Planung automatisch anhand von Parametern durchzuführen.  
+In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungsaufträgen zum Erfüllen eines neuen Bedarfs beschrieben. Je nach Bedarfsart können Sie die Beschaffungsplanung in festen Intervallen, z. B. jeden Morgen oder jeden Montag, oder bei einer entsprechenden Benachrichtigung durch den Verkauf oder die Produktion initiieren. In dieser exemplarischen Vorgehensweise verwenden Sie die Seite **Auftragsplanung** , ein einfaches Tool für die Beschaffungsplanung, bei dem Entscheidungen manuell getroffen werden, anstatt die Planung automatisch anhand von Parametern durchzuführen.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
  In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
@@ -77,7 +77,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
      Basierend auf der Gesamtverfügbarkeit wird die für jede Bedarfszeile benötigte Menge berechnet. Diese Berechnung erfolgt Auftrag für Auftrag. Folglich wird der Auftrag mit der Bedarfszeile mit dem frühesten Fälligkeitsdatum oder Warenausgangsdatum als Erstes berechnet. Danach werden weitere Bedarfszeilen in demselben Auftrag berechnet, unabhängig vom Fälligkeits- oder Warenausgangsdatum.  
 
-3.  Maximieren Sie der Seite **Auftragsplanung**, und passen Sie die Größe der Spaltenfelder so an, dass alle standardmäßigen Feldnamen angezeigt werden.  
+3.  Maximieren Sie der Seite **Auftragsplanung** , und passen Sie die Größe der Spaltenfelder so an, dass alle standardmäßigen Feldnamen angezeigt werden.  
 
      Nach der Berechnung wird der nicht gedeckte Bedarf in Form von reduzierten Auftragskopfzeilen nach dem frühesten Bedarfsdatum sortiert auf der Seite angezeigt.  
 
@@ -95,7 +95,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 ### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>So planen Sie eine Bestellung zum Erfüllen des Komponentenbedarfs in der Produktion  
 
 1.  Erweitern Sie die erste Zeile (klicken Sie auf das Pluszeichen +).  
-2.  Wählen Sie die erste Bedarfszeile, mit Artikel **LSU-15**, und wählen Sie die **Beleg anzeigen** Aktion aus.  
+2.  Wählen Sie die erste Bedarfszeile, mit Artikel **LSU-15** , und wählen Sie die **Beleg anzeigen** Aktion aus.  
 3.  Schließen Sie den offenen Fertigungsauftrag, um zur Seite **Auftragsplanung** zurückzukehren.  
 4.  Wählen Sie im Feld **Beschaffungsmethode** die Option **Einkauf** aus.  
 
@@ -116,8 +116,8 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
     >  Falls auf den Artikelkarten eine Standardkreditorennummer für die Komponenten eingerichtet ist, sind in den Zeilen Werte voreingestellt.  
 
 6.  Wählen Sie das Feld **Liefern von**  aus.  
-7.  Klicken Sie auf der Seite **Artikel/Kreditoren-Katalog** auf **Neu**, und wählen Sie dann den Kreditoren **30000** aus.  
-8.  Wählenen Sie die Schaltfläche **OK**, um zur Seite **Auftragsplanung** zurückzukehren.  
+7.  Klicken Sie auf der Seite **Artikel/Kreditoren-Katalog** auf **Neu** , und wählen Sie dann den Kreditoren **30000** aus.  
+8.  Wählenen Sie die Schaltfläche **OK** , um zur Seite **Auftragsplanung** zurückzukehren.  
 9. Kopieren Sie den Kreditor **30000** in die anderen Zeilen für Lautsprecherkomponenten für diesen Fertigungsauftrag.  
 
      Sie können jetzt eine Bestellung erstellen.  
@@ -125,7 +125,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 10. Wählen Sie die **Auftrag erstellen** Aktion aus. Die Seite **Beschaffungsaufträge erstellen** wird geöffnet.  
 11. Wählen Sie im Feld **Aufträge erstellen für** auf dem Inforegister **Auftragsplanung** die Option **Aktive Bestellung** aus.  
 12. Wählen Sie auf dem Inforegister **Optionen** im Feld **Bestellung erstellen** die Option **Bestellungen erst.** aus.  
-13. Klicken Sie auf **OK**, um Bestellungen für alle Komponenten des Auftrags zu erstellen.  
+13. Klicken Sie auf **OK** , um Bestellungen für alle Komponenten des Auftrags zu erstellen.  
 
      Die Bestellungen werden erstellt und als die letzten Aufträge in der Liste der Bestellungen gespeichert.  
 
@@ -134,10 +134,10 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
 ### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>So planen Sie einen Umlagerungsauftrag zum Erfüllen des Verkaufsbedarfs  
 
-1.  Bewegen Sie den Mauszeiger in die Planungszeile für den Auftrag **2008**.  
+1.  Bewegen Sie den Mauszeiger in die Planungszeile für den Auftrag **2008** .  
 2.  Erweitern Sie die Zeile, und bewegen Sie den Mauszeiger in die Bedarfszeile.  
 
-     Die Verkaufsauftragsnummer **2008** ist ein Auftrag über zehn Lautsprecher vom Typ **LS-120**, bestellt von der Gilde Jupiter Versicherungs AG.  
+     Die Verkaufsauftragsnummer **2008** ist ein Auftrag über zehn Lautsprecher vom Typ **LS-120** , bestellt von der Gilde Jupiter Versicherungs AG.  
 
      Die für den Artikel definierte Beschaffungsmethode sowie der Standardkreditor werden angezeigt.  
 
@@ -145,7 +145,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
     >  Im unteren Bereich der Seite befinden sich vier Informationsfelder. Dem Feld **Frühestes Verfügbarkeitsdatum** können Sie entnehmen, dass die benötigten zehn Stück neun Tage nach dem aktuellen Fälligkeitsdatum verfügbar sein werden (in einem eingehenden Beschaffungsauftrag). Falls dies für den Debitoren zu spät ist, können Sie im Feld **Verfügbar für Umlagerung** sehen, dass 13 Stück des Artikels an einem anderen Lagerort verfügbar sind. Sie verwenden diesen Bestand für die Planung.  
 
 3.  Wählen Sie das Feld **Verfügbar für Umlagerung** aus, um die Seite **Alternativvorrat holen** zu öffnen.  
-4.  Klicken Sie auf **OK**, um die zehn verfügbaren Artikel zu buchen.  
+4.  Klicken Sie auf **OK** , um die zehn verfügbaren Artikel zu buchen.  
 
     > [!NOTE]  
     >  In der Bedarfszeile wurde der vorgeschlagene Einkauf gegen eine Umlagerung vom Standort GRÜN ausgetauscht. Mit der Funktion **Aufträge erstellen** wird somit ein Umlagerungsauftrag von GRÜN zum angeforderten Standort erstellt. Das Feld **Ersatzartikel vorhanden** funktioniert auf die gleiche Weise.  
@@ -153,7 +153,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 5.  Wählen Sie die **Auftrag erstellen** Aktion aus. Die Seite **Beschaffungsaufträge erstellen** wird geöffnet.  
 6.  Wählen Sie im Feld **Aufträge erstellen für** auf dem Inforegister **Auftragsplanung** die Option **Aktive Bestellung** aus.  
 7.  Wählen Sie auf dem Inforegister **Optionen** im Feld **Umlagerungsauftrag erstellen** die Option **Umlag.-Aufträge erstellen** aus.  
-8.  Klicken Sie auf **OK**, um den Umlagerungsauftrag für den Bedarf des Verkaufsauftrags zu erstellen.  
+8.  Klicken Sie auf **OK** , um den Umlagerungsauftrag für den Bedarf des Verkaufsauftrags zu erstellen.  
 
      Der Umlagerungsauftrag wird erstellt und als der letzte Auftrag in der Liste offener Umlagerungsaufträge gespeichert.  
 
@@ -167,13 +167,13 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
      Dieser Bedarf ist eine Verkaufszeile, für den Artikel ist jedoch die Beschaffungsmethode **Fertigungsauftrag** festgelegt. Fügen Sie dem Komponentenbedarf für jedes Tourenrad eine zusätzliche Klingel hinzu.  
 
 2.  Wählen Sie auf der Seite **Planungskomponenten** die Aktion **Komponenten** aus.  
-3.  Ändern Sie in der Zeile für "Klingel" den Wert im Feld **Komponentenmenge** von **1** in **2**.  
+3.  Ändern Sie in der Zeile für "Klingel" den Wert im Feld **Komponentenmenge** von **1** in **2** .  
 4.  Überprüfen Sie auf der Seite **Auftragsplanung** die Planungsalternativen. In diesem Fall sind keine alternativen Beschaffungsmöglichkeiten verfügbar, d. h. weder Umlagerung noch Ersatzartikel oder spätere Lieferung. Sie müssen den vorgeschlagenen Beschaffungsauftrag, einen Fertigungsauftrag, erstellen.  
-5.  Wählen Sie die Schaltfläche **Auftrag ausführen**, um den Fertigungsauftrag zu erstellen.  
+5.  Wählen Sie die Schaltfläche **Auftrag ausführen** , um den Fertigungsauftrag zu erstellen.  
 
      Auf der Seite **Auftragsplanung** können Sie sehen, dass die Planungszeile für den Verkaufsauftrag **1001** nicht mehr vorhanden ist und der ursprüngliche Verkaufsbedarf gedeckt wurde.  
 
-6.  Schließen Sie die Seite **Auftragsplanung**.  
+6.  Schließen Sie die Seite **Auftragsplanung** .  
 
      Es wäre jetzt möglich, alle Planungsaufgaben in dieser Ansicht abzuschließen. Stattdessen übernehmen Sie nun die Rolle des Produktionsplaners, indem Sie zum soeben erstellten Fertigungsauftrag navigieren und die Seite **Auftragsplanung** öffnen.  
 
@@ -182,7 +182,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 ### <a name="to-plan-a-specific-production-order"></a>So planen Sie einen spezifischen Fertigungsauftrag  
 
 1.  Öffnen Sie den Fertigungsauftrag **101001** (für zehn Tourenräder), den Sie zuvor mit der Funktion **Aufträge erstellen** erstellt haben.  
-2.  Öffnen Sie die Seite **FA-Komponenten**, um zu überprüfen, ob die zusätzliche Klingel über dem Fertigungsauftrag wiedergegeben wird.  
+2.  Öffnen Sie die Seite **FA-Komponenten** , um zu überprüfen, ob die zusätzliche Klingel über dem Fertigungsauftrag wiedergegeben wird.  
 3.  Wählen Sie die Aktion **Planung** aus.  
 
      Die Seite **Auftragsplanung** wird geöffnet in einer Darstellungsform, die immer für den spezifischen Fertigungsauftrag gefiltert wird. Der Verkaufsbedarf wird nicht angezeigt. Sie müssen eine Planung berechnen, damit zusätzlicher Bedarf angezeigt wird.  
@@ -191,7 +191,7 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
      Vier neue Fertigungsaufträge werden als vom Auftrag **101001** abgeleiteter nicht geplanter Fertigungsbedarf angezeigt. Die neuen Zeilen stellen den neuen Fertigungsbedarf für die benötigten Unterbaugruppen für den Auftrag dar.  
 
-5.  Wählen Sie auf der Registerkarte Aktionen in der Gruppe Allgemein die Option **Alle aufklappen**, um sich einen Überblick über den gesamten Fertigungsbedarf für die Fertigungsaufträge zu verschaffen.  
+5.  Wählen Sie auf der Registerkarte Aktionen in der Gruppe Allgemein die Option **Alle aufklappen** , um sich einen Überblick über den gesamten Fertigungsbedarf für die Fertigungsaufträge zu verschaffen.  
 
      Um zusätzliche Informationen zu den Bedarfszeilen zu erhalten, sollten Sie die Felder **Bedarfsmenge** und **Verfügb. Bedarfsmenge** zur Ansicht hinzuzufügen.  
 
@@ -203,9 +203,9 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
 6.  Wählen Sie die **Auftrag erstellen** Aktion aus.  
 
-     Lesen Sie den Text auf dem Inforegister **Auftragsplanung**, bevor Sie auf **OK** klicken. Dieser Text ist wichtig, da Sie wissen, dass die Produktstruktur des Tourenrads einige gefertigte Komponenten (Unterbaugruppen) enthält, für die zum Zeitpunkt der Auftragserstellung möglicherweise ein Bedarf vorliegt.  
+     Lesen Sie den Text auf dem Inforegister **Auftragsplanung** , bevor Sie auf **OK** klicken. Dieser Text ist wichtig, da Sie wissen, dass die Produktstruktur des Tourenrads einige gefertigte Komponenten (Unterbaugruppen) enthält, für die zum Zeitpunkt der Auftragserstellung möglicherweise ein Bedarf vorliegt.  
 
-7.  Wählen Sie auf der Seite **Beschaffungsaufträge erstellen** im Feld **Aufträge erstellen für** die Option **Alle Zeilen** aus, und wählen Sie dann die Schaltfläche **OK**, um Fertigungsaufträge für die zweite Produktebene des Auftrags zu erstellen.  
+7.  Wählen Sie auf der Seite **Beschaffungsaufträge erstellen** im Feld **Aufträge erstellen für** die Option **Alle Zeilen** aus, und wählen Sie dann die Schaltfläche **OK** , um Fertigungsaufträge für die zweite Produktebene des Auftrags zu erstellen.  
 
      Beachten Sie, dass der Fertigungsbedarf auf oberster Ebene für den Fertigungsauftrag 101001 nicht mehr vorhanden ist. Dies bedeutet, dass der ursprüngliche Fertigungsbedarf für Unterbraugruppen geplant wurde.  
 
@@ -215,12 +215,12 @@ Die Seite **Auftragsplanung** kann von mehreren Standorten aus aufgerufen werden
 
      Die zwei neuen Zeilen stellen zusätzlichen Fertigungsbedarf dar, der von den in den vorhergehenden Schritten geplanten Unterbaugruppen abgeleitet wurde. Erstellen Sie zwei Fertigungsaufträge für die Beschaffung der Radnaben – einen für zehn Vorderrad- und einen für zehn Hinterradnaben.  
 
-9. Wählen Sie auf der Registerkarte Aktionen in der Gruppe Allgemein die Option **Alle aufklappen**, um sich einen Überblick über die zwei Fertigungsaufträge zu verschaffen.  
+9. Wählen Sie auf der Registerkarte Aktionen in der Gruppe Allgemein die Option **Alle aufklappen** , um sich einen Überblick über die zwei Fertigungsaufträge zu verschaffen.  
 
      Die vorgeschlagene Beschaffungsplanung sieht vor, insgesamt vier Bestellungen für die Komponenten zu erstellen. Sie entscheiden sich, die vorgeschlagenen Aufträge zu erstellen.  
 
 10. Wählen Sie die **Auftrag erstellen** Aktion aus.  
-11. Wählen Sie im Feld **Aufträge erstellen für** die Option **Alle Zeilen** aus, und klicken Sie anschließend auf die Schaltfläche **OK**. Überprüfen Sie, ob zusätzlicher Bedarf für die Fertigung des übergeordneten Artikels besteht (das im Verkaufsauftrag 1001 verkaufte Tourenrad).  
+11. Wählen Sie im Feld **Aufträge erstellen für** die Option **Alle Zeilen** aus, und klicken Sie anschließend auf die Schaltfläche **OK** . Überprüfen Sie, ob zusätzlicher Bedarf für die Fertigung des übergeordneten Artikels besteht (das im Verkaufsauftrag 1001 verkaufte Tourenrad).  
 12. Wählen Sie die **Neuplanung berechnen** Aktion aus.  
 
      Die Meldung zeigt an, dass alle erforderlichen Artikel geliefert werden. Prüfen Sie die fest geplanten Fertigungsaufträge, die erstellt wurden.  

@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: rfq
-ms.date: 05/28/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410692"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910655"
 ---
 # <a name="track-packages"></a>Pakete verfolgen
 
@@ -22,11 +22,11 @@ Das folgende Verfahren zeigt, wie Sie ein Paket aus einer gebuchten Verkaufslief
 
 ## <a name="to-track-a-package"></a>So verfolgen Sie ein Paket:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Verkaufslieferung gebucht** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufslieferung gebucht** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die relevante Verkaufslieferung.
 3. Wählen Sie die Aktion **Dokument aktualisieren** aus.
-4. In der **Paketverfolgungsnr.** Feld geben Sie die Paketnummer ein, die Sie vom Zusteller erhalten haben. Aktualisieren Sie bei Bedarf **Zusteller**, und schließen Sie die Seite.
-5. Wählen Sie die **Paketverfolgung**-Aktion aus.
+4. In der **Paketverfolgungsnr.** Feld geben Sie die Paketnummer ein, die Sie vom Zusteller erhalten haben. Aktualisieren Sie bei Bedarf **Zusteller** , und schließen Sie die Seite.
+5. Wählen Sie die **Paketverfolgung** -Aktion aus.
 
 Ihr Standardbrowser öffnet die Nachverfolgungsseite des Zustellers.
 

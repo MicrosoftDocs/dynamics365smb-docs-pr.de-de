@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fea86618e064267537eb72c1be0473ad7c3431ab
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0b8c0acb51467d8320a6ebe91ee6dbf6827f8e85
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784107"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915385"
 ---
 # <a name="subcontract-manufacturing"></a>Fertigung durch Fremdarbeitsvertrag
 Ausgewählte Arbeitsgänge an Kreditoren weiter zu vergeben, ist in vielen Fertigungsunternehmen üblich. Fremdarbeit kann ein seltener Vorgang oder integraler Bestandteil aller Fertigungsschritte sein.
@@ -34,7 +34,7 @@ Das Feld **Kreditorennr.** kennzeichnet die Arbeitsplatzgruppe als Arbeitsplatzg
 
 Wenn Sie für Fremdarbeiten mit dem Kreditor einen anderen Satz für jeden Prozess vereinbart haben, können Sie das Kontrollkästchen **Spezieller Einstandspreis** aktivieren. Dadurch erhalten Sie die Möglichkeit, für jeden Arbeitsgang einen Betrag einzurichten und somit die Zeit zu sparen, die für die erneute Eingabe der einzelnen Einkaufsbestellungen erforderlich ist. Für die Verarbeitung werden nicht die Kosten in den Kostenfeldern der Arbeitsplatzgruppe, sondern der Einstandspreis im Arbeitsgang verwendet. Durch Aktivieren des Kontrollkästchens **Spezieller Einstandspreis** werden die Einstandspreise für den Kreditor pro Arbeitsplanvorgang berechnet.  
 
-Wenn Sie für Fremdarbeiten einen einzelnen Satz pro Kreditor vereinbart haben, belassen Sie das Feld **Spezieller Einstandspreis** deaktiviert. Die Einstandspreise werden eingerichtet, indem die Felder **EK-Preis**, **Kosten %** und **Gemeinkostensatz** ausgefüllt werden.  
+Wenn Sie für Fremdarbeiten einen einzelnen Satz pro Kreditor vereinbart haben, belassen Sie das Feld **Spezieller Einstandspreis** deaktiviert. Die Einstandspreise werden eingerichtet, indem die Felder **EK-Preis** , **Kosten %** und **Gemeinkostensatz** ausgefüllt werden.  
 
 ### <a name="routings-that-use-subcontract-work-centers"></a>Arbeitspläne, in denen Arbeitsplatzgruppen für Fremdarbeit verwendet werden  
 Arbeitsplatzgruppen für Fremdarbeit können für Arbeitsgänge in Arbeitsplänen in gleicher Weise verwendet werden wie normale Arbeitsplatzgruppen.  
@@ -53,7 +53,7 @@ Die Seiten **Fremdarbeitenvorschlag** funktioniert wie die **Planungsvorschlag**
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Fremdarbeitenvorschlag berechnen  
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Vertragsnehmer-Arbeitsblatt** ein und wählen Sie dann den entsprechenden Link.  
-2.  Damit der Vorschlag berechnet wird, klicken Sie auf Aktionen **Fremdarbeit berechnen**.  
+2.  Damit der Vorschlag berechnet wird, klicken Sie auf Aktionen **Fremdarbeit berechnen** .  
 3.  Definieren Sie auf der Seite **Fremdarbeit berechnen** den Filter für an Subunternehmer vergebene Arbeitsgänge oder die Arbeitsplatzgruppen, in der sie ausgeführt werden, um nur die relevanten Fertigungsaufträge zu berechnen.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
 
@@ -62,7 +62,7 @@ Die Seiten **Fremdarbeitenvorschlag** funktioniert wie die **Planungsvorschlag**
 ### <a name="to-create-the-subcontract-purchase-order"></a>Einkaufsbestellung für Fremdarbeit generieren  
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Vertragsnehmer-Arbeitsblatt** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die **Ereignismeldung durchführen** Aktion aus.  
-3.  Wählen Sie das Feld **Bestellungen/Aufträge drucken**, um die Einkaufsbestellung zu drucken, wenn diese erstellt wird.  
+3.  Wählen Sie das Feld **Bestellungen/Aufträge drucken** , um die Einkaufsbestellung zu drucken, wenn diese erstellt wird.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
 
 Wenn alle als Fremdarbeit zu vergebende Arbeitsgänge an denselben Kreditor gesendet werden müssen, dann wird nur eine Einkaufsbestellung erstellt.  
@@ -73,10 +73,10 @@ Die Vorschlagszeile, die in eine Einkaufsbestellung umgewandelt wurde, wird aus 
 Sobald die Einkaufsbestellungen für Subunternehmer erstellt wurden, können sie gebucht werden. Nach Empfang der Bestellung wird ein Kapazitätsposten im Fertigungsauftrag gebucht, und bei der Fakturierung der Bestellung wird der EK-Preis der Einkaufsbestellung im Fertigungsauftrag gebucht.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>So buchen Sie eine Fremdarbeitsbestellung  
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Einkaufsbestellungen** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einkaufsbestellungen** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie eine Einkaufsbestellung, die über den Fremdarbeitenvorschlag erstellt wurde.  
 
-    In den Einkaufsbestellungszeilen werden dieselben Informationen angezeigt, die im Arbeitsblatt enthalten waren. Die **Fertigungsauftrag Auftragsnr.**, **Fertigungsauftrag Auftragszeilennr.**, **Arbeitsgangnr.** und **Arbeitsplatzgruppennr.** Felder werden mit den Informationen aus dem ursprünglichen Fertigungsauftrag ausgefüllt.  
+    In den Einkaufsbestellungszeilen werden dieselben Informationen angezeigt, die im Arbeitsblatt enthalten waren. Die **Fertigungsauftrag Auftragsnr.** , **Fertigungsauftrag Auftragszeilennr.** , **Arbeitsgangnr.** und **Arbeitsplatzgruppennr.** Felder werden mit den Informationen aus dem ursprünglichen Fertigungsauftrag ausgefüllt.  
 
 3.  Wählen Sie die Aktion **Buchen** aus.  
 

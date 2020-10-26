@@ -9,19 +9,19 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82e5cc8ba4b9335b8282857b564f9dcb3050fca0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5885674316e082323462cbad9fce3f20590f06d5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784786"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915035"
 ---
 # <a name="the-microsoft-pay-extension"></a>Die Microsoft Pay-Erweiterung
 
 > [!IMPORTANT]
-> Mit Wirkung zum 8. Februar 2020 wirken sich Änderungen im Microsoft Pay-Service auf die Microsoft Pay-Erweiterung in Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)] aus. Aufgrund der Änderungen öffnen die **Zahlen Sie jetzt**-Zahlungslinks, die die Microsoft Pay-Erweiterung für Rechnungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] generiert, nach dem 8. Februar Microsoft Pay nicht. Kunden, die die Erweiterung verwenden, sollten ihre Zahlungsverkehrseinrichtung ändern, um stattdessen die PayPal-Erweiterung zu verwenden.<br /></br>
+> Mit Wirkung zum 8. Februar 2020 wirken sich Änderungen im Microsoft Pay-Service auf die Microsoft Pay-Erweiterung in Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)] aus. Aufgrund der Änderungen öffnen die **Zahlen Sie jetzt** -Zahlungslinks, die die Microsoft Pay-Erweiterung für Rechnungen in [!INCLUDE[d365fin](includes/d365fin_md.md)] generiert, nach dem 8. Februar Microsoft Pay nicht. Kunden, die die Erweiterung verwenden, sollten ihre Zahlungsverkehrseinrichtung ändern, um stattdessen die PayPal-Erweiterung zu verwenden.<br /></br>
 >
 > Ab dem 8. Januar wird in [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Benachrichtigung angezeigt. Die Benachrichtigung enthält einen Link zu den Einstellungen, die Sie ändern müssen, und zu weiteren Informationen. Nach dem 8. Februar ist die Microsoft Pay-Erweiterung nicht mehr in [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar.<br /></br>
 >

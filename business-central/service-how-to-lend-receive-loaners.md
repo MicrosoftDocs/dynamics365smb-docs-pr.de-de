@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7398c89877551cfe1d5a78cb902d1c66e9efc9c6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: fd5fc6ad6dabcd3c7bc47caa1af4810474d9a6da
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192603"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918663"
 ---
 # <a name="lend-and-receive-loaners"></a>Leihen und Zurücknehmen von Leihgeräten
 Sie können einem Debitor vorübergehend ein Leihgerät für einen Serviceartikel zur Verfügung stellen, der sich bei Ihnen im Service befindet.  
@@ -25,15 +25,15 @@ Sie können einem Debitor vorübergehend ein Leihgerät für einen Serviceartike
 2. Öffnen Sie die relevante Serviceauftragskarte.  
 3. Wählen Sie die Serviceartikelzeile mit dem Artikel aus, den Sie durch ein Leihgerät ersetzen möchten.  
 4. Im Feld **Kreditorennr** wählen Sie den relevanten Leihgerätartikel aus.  
-5. Klicken Sie zum Bestätigen der Ausleihe auf die Schaltfläche **Ja**.  
+5. Klicken Sie zum Bestätigen der Ausleihe auf die Schaltfläche **Ja** .  
 
 ## <a name="to-receive-a-loaner"></a>So nehmen Sie ein Leihgerät zurück  
-Wenn Sie ein Leihgerät von einem Debitor zurückerhalten, müssen Sie den Empfang bestätigen. Sie können dies auf den Seiten **Serviceauftrag**, **Gebuchte Servicelieferung** und **Leihgerätekarte** durchführen. Im folgenden Verfahren wird beschrieben, wie Leihgeräte auf der Seite **Serviceauftrag** zurückgenommen werden.  
+Wenn Sie ein Leihgerät von einem Debitor zurückerhalten, müssen Sie den Empfang bestätigen. Sie können dies auf den Seiten **Serviceauftrag** , **Gebuchte Servicelieferung** und **Leihgerätekarte** durchführen. Im folgenden Verfahren wird beschrieben, wie Leihgeräte auf der Seite **Serviceauftrag** zurückgenommen werden.  
   
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie den relevanten Serviceauftrag.  
 3. Wählen Sie die Serviceartikelzeile mit dem Leihgerät, das Sie zurücknehmen möchten.  
-4. Wählen Sie **Aktionen**, wählen Sie **Funktionen**, und wählen Sie dann **Leihgerät zurücknehmen** aus.  
+4. Wählen Sie **Aktionen** , wählen Sie **Funktionen** , und wählen Sie dann **Leihgerät zurücknehmen** aus.  
 
 ## <a name="to-register-loaner-comments"></a>So erfassen Sie Bemerkungen zu Leihgeräten  
 Sie können die Seite **Allgemein Servicebemerkungen** verwenden, um Bemerkungen zu Leihgeräten zu erfassen.  

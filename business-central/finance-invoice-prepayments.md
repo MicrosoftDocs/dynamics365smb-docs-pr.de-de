@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3d8230c46f0c891d30cb75d79d71d5913657f809
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9bc57f2814cbbdfdb866226c3602adf2fb956631
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777816"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916926"
 ---
 # <a name="invoicing-prepayments"></a>Fakturieren von Vorauszahlungen
 
@@ -23,7 +23,7 @@ Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und 
 
  Die Vorauszahlungsanforderungen können für einen Debitor, einen Kreditor, für alle Artikel oder für ausgewählte Artikel definiert werden. Nach dem Festlegen der erforderlichen Einstellungen können Vorauszahlungsrechnungen für den berechneten Vorauszahlungsbetrag auf der Grundlage von Aufträgen und Bestellungen generiert werden. Die Standardbeträge auf der Rechnung können je nach Anforderung geändert werden. So können Sie beispielsweise einen Gesamtbetrag für den gesamten Auftrag angeben. Sie haben auch die Möglichkeit zum Senden weiterer Vorauszahlungsrechnungen – beispielsweise für den Fall, dass dem Auftrag weitere Artikel hinzugefügt wurden. Sie können die Mengen erhöhen oder einem Auftrag neue Zeilen hinzufügen, nachdem eine Vorauszahlung geleistet wurde, und anschließend eine weitere Vorauszahlungsrechnung buchen. Soll eine Zeile gelöscht werden, für die bereits eine Vorauszahlung fakturiert wurde, muss eine Vorauszahlungsgutschrift erstellt werden, damit die Zeile gelöscht werden kann.  
 
- In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
+ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

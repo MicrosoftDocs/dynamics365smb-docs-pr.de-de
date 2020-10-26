@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05501ac6a2ea3856c9bcfb3dc001d3120546dad9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: aed172663290ce3ac467e405266d513a8978a128
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789475"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912996"
 ---
 # <a name="setting-up-service-management"></a>Einrichten der Serviceverwaltung
 Bevor Sie mit den Servicemanagement-Funktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] beginnen können, müssen einige Dinge eingerichtet werden. Beispielsweise können Sie Codierung für Standardservices, Symptome und Fehlercodes festlegen und die Serviceartikel und Serviceartikeltypen einrichten, die vom Kundendienst des Unternehmens benötigt werden.  
@@ -24,7 +24,7 @@ Beim Einrichten des Servicemanagements muss festgelegt werden, welche Services D
   
 Beim Definieren eines Service kann dieser den Qualifikationen zugeordnet werden, die zur Ausführung des Services erforderlich sind. Damit die Servicemitarbeiter effizient arbeiten, können auch Richtlinien für Lösungsanleitungen in Echtzeit eingerichtet und typische Anfangskosten, wie Reisekosten oder andere Gebühren, zugeordnet werden.  
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..  
   
 | An | Siehe |
 | --- | --- |

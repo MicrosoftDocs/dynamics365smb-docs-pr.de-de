@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788121"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917501"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
 Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsvorschlag oder Bestellvorschlag.  
@@ -91,6 +91,14 @@ In einer Produktionsumgebung wird der Bedarf für einen fertigen, verkäuflichen
 Die Abbildungen illustrieren, in welcher Reihenfolge das System Vorschläge für Beschaffungsaufträge auf der obersten Ebene macht und, wenn der Benutzer diese Vorschläge akzeptiert, auch für Artikel auf unteren Ebenen.  
 
 Weitere Informationen zu Überlegungen für die Fertigung finden Sie unter [Auslastung der Lagerprofile](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimieren der Leistung für Low-Level-Berechnungen
+Low-Level-Codeberechnungen können sich auf die Systemleistung auswirken. Um die Auswirkungen zu verringern, können Sie **Dynamische Low-Level-Codeberechnung** auf der Seite **Produktionseinrichtung** deaktivieren. Wenn Sie das tun, schlägt [!INCLUDE[d365fin](includes/d365fin_md.md)] vor, dass Sie einen wiederkehrenden Projektwarteschlangenposten erstellen, der die Low-Level-Codes täglich aktualisiert. Sie können sicherstellen, dass das Projekt außerhalb der Arbeitszeit ausgeführt wird, indem Sie eine Startzeit im Feld **Frühestes Startdatum/früheste Startzeit** angeben.
+
+Sie können auch Logik aktivieren, die Low-Level-Codeberechnungen beschleunigt, indem Sie **Low-Level-Codeberechnung optimieren** auf der Seite **Produktionseinrichtung** auswählen. 
+
+> [!IMPORTANT]
+> Wenn Sie wählen, die Leistung zu optimieren, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] neue Berechnungsmethoden verwenden, um Low-Level-Codes zu bestimmen. Wenn Sie eine Erweiterung haben, die sich auf die Ereignisse stützt, die von den alten Berechnungen verwendet wurden, funktioniert die Erweiterung möglicherweise nicht mehr.   
 
 ### <a name="locations--transfer-level-priority"></a>Lagerorte / Übertragung-Ebenen-Priorität  
 Unternehmen, die an mehr als einem Standort arbeiten, müssen möglicherweise für jeden Standort einzeln planen. Beispielsweise können sich der Sicherheitsbestand eines Artikels und dessen Wiederbeschaffungsrichtlinien sich von einem Lagerort zu einem anderen unterscheiden. In diesem Fall müssen die Planungsparameter pro Artikel und auch pro Lagerort angegeben werden.  

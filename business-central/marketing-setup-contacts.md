@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82b5ec1e1be1cf39b2b1f0c55cefbedc259a0d41
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3096bdcdf7ed6570e28d0e636b7dc8f1b28113c4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781535"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916068"
 ---
 # <a name="set-up-contacts"></a>Kontakte einrichten
 Beim Erstellen von Kontakten können Sie spezifische Informationen wie die Branche, der der Kontakt angehört, oder die Geschäftsbeziehung, die mit den Kontakten besteht, eingeben.
@@ -32,10 +32,10 @@ Branchen werden verwendet, um die Branche anzugeben, zu der Ihre Kontakte gehör
 > [!NOTE]
 > Dies ist nur für Kontakte des Typs **Unternehmen** möglich.
 
-Der Branchencode definiert die Art oder die Kategorie der Gruppe, z. B. WERBUNG für Werbung oder PRESSE für TV und Radio. Sie können mehrere Branchencodes haben. Um die Branchen zu definieren, verwenden Sie die **Branchen**-Seite.
+Der Branchencode definiert die Art oder die Kategorie der Gruppe, z. B. WERBUNG für Werbung oder PRESSE für TV und Radio. Sie können mehrere Branchencodes haben. Um die Branchen zu definieren, verwenden Sie die **Branchen** -Seite.
 
 1. Öffnen Sie die relevante Kontaktkarte.
-2. Wählen Sie die Aktion **Unternehmen** und dann die **Branchen**-Aktion aus. Die Seite **Kontakt Branchen** wird geöffnet.
+2. Wählen Sie die Aktion **Unternehmen** und dann die **Branchen** -Aktion aus. Die Seite **Kontakt Branchen** wird geöffnet.
 3. Wählen Sie im Feld **Branchencode** die Branchen aus, die Sie zuordnen möchten.
 
 Wiederholen Sie diese Schritte, um beliebig viele Branchen einzurichten. Sie können in dem Fenster Kontaktübersicht ebenfalls Branchen zuordnen, indem Sie denselben Schritten folgen.
@@ -47,10 +47,10 @@ Nachdem Sie Ihren Kontakten Branchen zugeordnet haben, können Sie diese Informa
 ## <a name="to-assign-mailing-groups-to-a-contact"></a>Um einem Kontakt einen Verteiler zuzuordnen:
 Verteiler werden verwendet, um Kontaktgruppen zu identifizieren, die dieselben Informationen erhalten sollen. Sie können z. B. einen Verteiler für die Kontakte erstellen, denen Sie eine Benachrichtigung über einen Büroumzug schicken möchten.
 
-Der Verteilercode definiert die Art oder die Kategorie der Gruppe, z. B. UMZUG für einen Büroumzug, oder GESCHENK für ein Geburtstagsgeschenk. Sie können mehrere Branchencodes haben. Um die Branchen zu definieren, verwenden Sie die **Verteiler**-Seite.
+Der Verteilercode definiert die Art oder die Kategorie der Gruppe, z. B. UMZUG für einen Büroumzug, oder GESCHENK für ein Geburtstagsgeschenk. Sie können mehrere Branchencodes haben. Um die Branchen zu definieren, verwenden Sie die **Verteiler** -Seite.
 
 1. Öffnen Sie die relevante Kontaktkarte.
-2. Wählen Sie die **Verteiler**-Aktion aus. Die Seite **Kontakt Verteiler** wird geöffnet.
+2. Wählen Sie die **Verteiler** -Aktion aus. Die Seite **Kontakt Verteiler** wird geöffnet.
 3. Wählen Sie im Feld **Verteilercode** den Verteiler aus, den Sie zuordnen möchten.
 
 Wiederholen Sie diese Schritte, um beliebig viele Verteiler einzurichten. Außerdem können Sie Verteiler auf die gleiche Art in dem Fenster Kontaktübersicht zuordnen.
@@ -63,9 +63,9 @@ Sobald Sie Ihren Kontakten Verteiler zugeordnet haben, können Sie diese Informa
 Sie können alternative Adressen zuordnen, zu denen Ihren Kontakten manchmal E-Mails und Informationen gesendet werden z. B. an ihr Ferienhaus. Sie können jeder alternativen Adresse einen oder mehrere Datumsbereiche zuordnen, um festzulegen, wann diese Adresse gültig ist.
 
 1. Öffnen Sie die relevante Kontaktkarte.
-2. Wählen Sie die **Alternative Adresse**-Aktion aus, und wählen Sie dann die Aktion **Karte**.
+2. Wählen Sie die **Alternative Adresse** -Aktion aus, und wählen Sie dann die Aktion **Karte** .
 
-    Um festzulegen, dass die alternative Adresse in einer bestimmten Periode gültig ist, wählen Sie stattdessen die Aktion **Gültigkeiten**.
+    Um festzulegen, dass die alternative Adresse in einer bestimmten Periode gültig ist, wählen Sie stattdessen die Aktion **Gültigkeiten** .
 3. Geben Sie auf der Seite **Alt. Kontaktadressenübersicht** eine neue alternative Adresse ein, und füllen Sie die Felder auf der Seite **Kontakt Alternative Adresse** aus.
 
 Wiederholen Sie diese Schritte, um weitere alternative Adressen einzurichten. Für jede alternative Adresse können Sie eine oder mehrere Gültigkeiten einrichten.
@@ -76,10 +76,10 @@ Sie können Informationen zu den Verantwortlichkeiten von Kontaktpersonen hinzuf
 > [!NOTE]
 > Dies ist nur für Kontakte des Typs **Person** möglich.
 
-Der Verantwortlichkeitscode definiert die Art oder die Kategorie des Projekts (z. B. MARKETING oder EINKAUFS). Sie können mehrere Verantwortlichkeitscodes haben. Um die Verantwortlichkeit zu definieren, verwenden Sie die **Verantwortlichkeiten**-Seite.
+Der Verantwortlichkeitscode definiert die Art oder die Kategorie des Projekts (z. B. MARKETING oder EINKAUFS). Sie können mehrere Verantwortlichkeitscodes haben. Um die Verantwortlichkeit zu definieren, verwenden Sie die **Verantwortlichkeiten** -Seite.
 
 1. Öffnen Sie die relevante Kontaktkarte.
-2. Wählen Sie die **Person**-Aktion aus, und wählen Sie dann die **Verantwortlichkeiten**-Aktion aus. Die Seite **Kontakt Verantwortlichkeiten** wird geöffnet.
+2. Wählen Sie die **Person** -Aktion aus, und wählen Sie dann die **Verantwortlichkeiten** -Aktion aus. Die Seite **Kontakt Verantwortlichkeiten** wird geöffnet.
 3. Wählen Sie im Feld **Verantwortlichkeitscode** die Verantwortlichkeit aus, die Sie zuordnen möchten.
 
 Wiederholen Sie diese Schritte, um beliebig viele Verantwortlichkeiten zuzuordnen. Außerdem können Sie Verantwortlichkeiten auf die gleiche Art in der Kontaktübersicht zuordnen.
@@ -94,7 +94,7 @@ Sie können Ihren Kontakten Positionen zuordnen, um zu bestimmen, welche Positio
 > [!NOTE]
 > Dies ist nur für Kontakte des Typs **Person** möglich.
 
-Der Positionscode definiert die Art oder die Kategorie der Position (z. B. CEO oder CFO). Sie können mehrere Positionscodes haben. Um die Position zu definieren, verwenden Sie die **Positionen**-Seite.
+Der Positionscode definiert die Art oder die Kategorie der Position (z. B. CEO oder CFO). Sie können mehrere Positionscodes haben. Um die Position zu definieren, verwenden Sie die **Positionen** -Seite.
 
 1. Öffnen Sie die relevante Kontaktkarte.
 2. Wählen Sie im Feld **Positionen** den Code aus, den Sie zuordnen möchten.
@@ -112,7 +112,7 @@ Sie können Ihren Kontakten Internetfavoriten (z. B. Suchmaschinen und Websites)
 Wenn Sie Internetfavoriten zuordnen, legen Sie fest, welche Suchmaschine und welchen Suchbegriff die Anwendung bei der Suche nach der gewünschten Information verwendet.
 
 1. Öffnen Sie die relevante Kontaktkarte.
-2. Wählen Sie die Aktion **Unternehmen** und dann die **Internetfavoriten**-Aktion aus. Die Seite **Kontakt Internetfavoriten** wird geöffnet.
+2. Wählen Sie die Aktion **Unternehmen** und dann die **Internetfavoriten** -Aktion aus. Die Seite **Kontakt Internetfavoriten** wird geöffnet.
 3. Wählen Sie im Feld **Internetfavoritencode** den Internetfavoriten aus, den Sie zuordnen möchten.
 4. Geben Sie im Feld **Suchbegriff** den Suchbegriff ein, der bei der Suche nach der Information verwendet werden soll.
 
@@ -125,7 +125,7 @@ Sie können Geschäftsbeziehungen verwenden, um die Geschäftsbeziehung anzuzeig
 > Dies ist nur für Kontakte des Typs **Unternehmen** möglich.
 
 1. Öffnen Sie die relevante Kontaktkarte.
-2. Wählen Sie die Aktion **Unternehmen** und dann die **Geschäftsbeziehungen**-Aktion aus.
+2. Wählen Sie die Aktion **Unternehmen** und dann die **Geschäftsbeziehungen** -Aktion aus.
 3. Wählen Sie auf der Seite **Kontakt Geschäftsbeziehungen** im Feld **Geschäftsbeziehungscode** die Geschäftsbeziehung aus, die Sie zuordnen möchten.
 
 Wiederholen Sie diese Schritte, um beliebig viele Geschäftsbeziehungen zuzuordnen.
@@ -149,7 +149,7 @@ Durch die Übernahme von Feldern werden die Vorgabewerte überschrieben, die Sie
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronisieren von Kontakten mit Debitoren, Kreditoren und Bankkonten
 Um die Kontaktkarte mit einer verknüpften Debitoren-, Kreditoren- oder Bankkontokarte zu synchronisieren, müssen Sie das entsprechende Feld im Abschnitt **Geschäftsbeziehungscode für** auf dem Inforegister **Aktivitäten** auf der Seite **Marketingeinrichtung** ausfüllen.  
 
-Weitere Informationen finden Sie unter [Kontakte mit Debitoren, Kreditoren und Bankkonten synchronisieren](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+Weitere Informationen finden Sie unter [Kontakte mit Debitoren, Kreditoren und Bankkonten synchronisieren](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Suchen nach doppelten Kontakten
 Sie können einrichten, dass jede Anwendung automatisch nach Dubletten sucht, wenn Sie ein neues Kontaktunternehmen erstellen, oder Sie können dies manuell vornehmen, nachdem Sie die Kontakte erstellt haben. Sie können auch einstellen, dass die Anwendung bei jeder Veränderung der Informationen über den Kontakt oder bei seiner Erstellung automatisch die Suchtexte aktualisiert. Sie können den Prozentsatz der Übereinstimmung festlegen, d. h., den Prozentsatz der Suchtexte, der zwischen den beiden Kontakten identisch sein muss, damit sie von der Anwendung als Dubletten erkannt werden. Sie können dies auf dem Inforegister **Duplikate** auf der Seite **Marketingeinrichtung** festlegen.

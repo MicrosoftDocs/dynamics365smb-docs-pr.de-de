@@ -1,21 +1,21 @@
 ---
 title: Sie können einen Bericht planen, sodass er an einem bestimmten Datum und zu einer festgelegten Uhrzeit ausgeführt wird | Microsoft Docs
 description: Erfahren Sie mehr zum Eingeben eines Berichts in eine Aufgabenwarteschlange und das Planen der Verarbeitung an einem bestimmten Datum und Uhrzeit.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 06/10/2020
-ms.author: edupont
-ms.openlocfilehash: f209088459f29ba5618b065c3a340b0e3bd250e5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.date: 10/01/2020
+ms.author: jswymer
+ms.openlocfilehash: cdb01a2d74dff2fef15c2207f98ba8893f081aca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788396"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920372"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeiten mit Berichten, Stapelverarbeitungen und XMLports
 
@@ -26,46 +26,69 @@ Stapelverarbeitungen und XMLports machen mehr oder weniger das gleiche wie Beric
 > [!NOTE]
 > Dieses Thema bezieht sich hauptsächlich auf "Bericht", aber die gleichen Informationen gelten für Stapelverarbeitungen und XMLports.
 
-Sie können Berichte im Register **Berichte** auf ausgewählten Seiten finden, oder Sie können die Suche ![Glühbirne verwenden, die die Funktion „Tell Me“](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") öffnet, um Berichte nach Namen zu finden.
+## <a name="getting-started"></a>Erste Schritte
 
-## <a name="specifying-the-data-to-include-in-reports"></a>Angeben der Daten, die in Berichten integriert werden sollen
-Wenn Sie einen Bericht, einen Stapelverarbeitungsauftrag oder XMLport öffnen, wird in der Regel eine Seite dargestellt, mit der Sie bestimmte Informationen definieren können, die Sie im Bericht integrieren möchten.
+Sie können Berichte in der Registerkarte **Berichte** auf ausgewählten Seiten finden, oder Sie können die Suche verwenden ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), um Berichte nach Namen zu finden.
 
-Sie legen Filter in einem Bericht ungefähr so fest wie Filter in Listen. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#filtering).
+Wenn Sie einen Bericht, einen Stapelverarbeitungsauftrag oder XMLport öffnen, wird in der Regel eine Seite dargestellt, mit der Sie bestimmte Informationen definieren können, die Sie im Bericht integrieren möchten. In den folgenden Abschnitten wird erläutert, wie Sie auf der Anforderungsseite einen Bericht erstellen, in der Vorschau anzeigen und drucken.
+
+## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Standardwerte verwenden – vordefinierte Einstellungen 
+
+Die meisten Anforderungsseiten enthalten das Feld **Standardwerte verwenden von** . In diesem Feld können Sie vordefinierte Einstellungen für den Bericht auswählen, mit denen automatisch Optionen und Filter für den Bericht festgelegt werden. Wählen Sie einen Posten aus der Dropdownliste aus, und die Optionen und Filter auf der Anforderungsseite ändern sich entsprechend.
+
+Der Posten mit der Bezeichnung **Zuletzt verwendete Optionen und Filter** ist immer verfügbar. Dieser Posten legt fest, dass der Bericht Optionen und Filter verwendet, die verwendet wurden, als Sie das letzte Mal den Bericht ausgeführt hatten.
+
+Das Feld **Standardwerte verwenden von** bietet eine schnelle und zuverlässige Möglichkeit, konsistent Berichte zu generieren, die die richtigen Daten enthalten. Nachdem Sie einen Posten ausgewählt haben, können Sie alle Optionen und Filter ändern, bevor Sie den Bericht in der Vorschau anzeigen oder drucken. Die Änderungen, die Sie vornehmen, werden nicht im vordefinierten Einstellungseintrag gespeichert, den Sie ausgewählt haben, sondern sie werden im Posten **Zuletzt verwendete Optionen und Filter** gespeichert.
+
+>[!NOTE]
+> Die vordefinierten Einstellungen werden normalerweise von einem Administrator eingerichtet und verwaltet. Wenn Sie weitere Informationen erhalten möchten, finden Sie diese unter [Gespeicherten Einstellungen für Berichte und Stapelverarbeitungsaufträge verwalten](reports-saving-reusing-settings.md).
+<!--
+Depending on the report, the request page might include the **Use default values from** field. This field lets you select a predefined set of can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
+
+Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
+
+>[!NOTE]
+>If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
+-->
+## <a name="specifying-the-data-to-include-in-reports"></a>Angeben der Daten, die in Berichte eingeschlossen werden sollen
+
+Verwenden Sie die Felder unter **Optionen** und **Filter** zum Ändern der Begrenzung der Informationen, die Sie im Bericht haben möchten. Sie legen Filter in einem Bericht ungefähr so fest wie Filter in Listen. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#filtering).
 
 > [!CAUTION]
 > Der Abschnitt **Filterlisten nach** auf der Anforderungsseite stellt eine generische Filterungsfunktion für Berichte bereit. Diese Filter sind optional.
 >
 > Manche Berichte ignorieren solche Filter, was bedeutet, dass, egal welcher Filter im Abschnitt **Filterliste nach** festgelegt ist, das Ergebnis des Berichts gleich ist. Es ist nicht möglich, eine Übersicht zu bieten, welche Felder in welchen Berichten ignoriert werden, daher müssen Sie mit den Filtern experimentieren, wenn Sie sie verwenden.
 >
-> **Beispiel**: Wenn Sie die Stapelverarbeitung **Mahnungen erstellen** verwenden, wird ein Filter für das Feld **Debitorenposten** aus **Letzte registrierte Mahnstufe** ignoriert, da Filter für diese Stapelverarbeitung fest sind.
-
-## <a name="using-saved-settings"></a><a name="SavedSettings"></a>Gespeicherte Einstellungen nutzen
-Die Anforderungsseite kann den Abschnitt **Gespeicherte Einstellungen**, der einen oder mehrere Einträge Kästchen **Standardwert von verwenden** enthält, einschließen. Eine gespeicherte Einstellung ist im Allgemeinen eine vordefinierte Gruppe von Optionen und Filter, die Sie z. B. für Berichte anwenden können, bevor Sie den Bericht auf eine Datei in der Vorschau sehen oder buchen. Der gespeicherte Einstellungseintrag mit der Bezeichnung **Zuletzt verwendete Optionen und Filter** ist immer verfügbar. Dieser Posten setzt den Bericht mit den Optionen und Filtern, die Sie beim letzten Mal verwendet haben, als Sie den Bericht betrachtet haben.
-
-Die Verwendung von gespeicherten Einstellungen ist eine schnelle und zuverlässige Art, Berichte zu erstellen, die die richtigen Daten enthalten. Nachdem Sie das Feld **Verwendungsstandardwert nutzen ab** für eine gespeicherte Einstellung definiert haben, können Sie eine Optionen und die Filter ändern, bevor Sie die Berichtvorschau anzeigen oder speichern. Änderungen, die Sie machen, werden nicht in den gespeicherten Einstellungsposten gespeichert, die Sie auswählten, sie sind jedoch unter **Zuletzt verwendete Optionen und Filtereinträge** gespeichert.
-
->[!NOTE]
->Als Administrator können Sie die gespeicherten Einstellungen für Berichte für alle Benutzer erstellen und verwalten. Weitere Informationen finden Sie unter [Verwaltung von gespeicherten Einstellungen in Berichten und Stapelverarbeitungen](reports-saving-reusing-settings.md).
+> **Beispiel** : Wenn Sie die Stapelverarbeitung **Mahnungen erstellen** verwenden, wird ein Filter für das Feld **Debitorenposten** aus **Letzte registrierte Mahnstufe** ignoriert, da Filter für diese Stapelverarbeitung fest sind.
 
 ## <a name="previewing-a-report"></a>Einen Bericht anzeigen
 
-Wählen Sie die Schaltfläche **Vorschau**, um den Bericht auf der Berichtsanforderungsseite anzuzeigen.. Verwenden Sie die Menüleiste in der Berichtsvorschau, um:
+In der Vorschau eines Berichts können Sie sehen, wie der Bericht aussehen wird, bevor Sie ihn drucken. In der Vorschau wird das Layout des Bericht basierend auf dem [Drucker](#Printer) ausgerichtet, der im Feld **Drucker** auf der Anforderungsseite angezeigt wird. Nach der Vorschau können Sie zur Anforderungsseite zurückkehren und bei Bedarf Änderungen an Optionen und Filtern vornehmen.
+
+Um eine Vorschau eines Berichts anzuzeigen, wählen Sie die Schaltfläche **Vorschau** oder **Vorschau und Schließen** auf der Berichtsanforderungsseite aus. Die angezeigte Schaltfläche hängt vom Bericht ab, daher haben einige Berichte die Schaltfläche **Vorschau** , während andere die Schaltfläche **Vorschau und Schließen** haben. Beide Schaltflächen öffnen eine Vorschau des Berichts. Der Unterschied ist, das **Vorschau** die Anforderungsseite geöffnet lässt, sodass Sie dorthin zurückkehren können, um Änderungen vornehmen, sie erneut in der Vorschau anzuzeigen oder zu drucken. Mit **Vorschau und Schließen** wird die Anforderungsseite geschlossen, sodass Sie den Bericht erneut öffnen müssen, um Änderungen vorzunehmen oder zu drucken.
+
+> [!NOTE]
+> Wenn Sie Business Central 2020 Veröffentlichungzyklus 1 oder früher verwenden, gibt es nur eine Schaltfläche **Vorschau** , die die Anforderungsseite in der Vorschau schließt, wie für **Vorschau und Schließen** beschrieben.
+
+### <a name="working-with-the-preview"></a>Arbeiten mit der Vorschau
+
+Verwenden Sie in der Vorschau die Menüleiste in der Berichtsvorschau, um:
 
 - Navigieren durch Seiten
 - Ein- und Ausblenden
 - An die Seite anpassen
 - Text auswählen
 
-    Sie können Text aus einem Bericht kopieren und diesen dann woanders einfügen, z. B. eine Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] oder Microsoft Word.  Mithilfe einer Maus beispielsweise drücken und halten Sie, wo Sie beginnen möchten, und fahren dann mit der Maus, um einen oder mehrere Begriffe, Sätze oder Absätze auszuwählen. Sie können die rechte Maustaste drücken dann **Kopieren** auswählen. Sie können dann den ausgewählten Text kopieren.
+    Sie können Text aus einem Bericht kopieren und diesen dann woanders einfügen, z. B. eine Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] oder Microsoft Word.  Mithilfe einer Maus beispielsweise drücken und halten Sie, wo Sie beginnen möchten, dann bewegen Sie die Maus, um einen oder mehrere Begriffe, Sätze oder Absätze auszuwählen. Drücken Sie die rechte Maustaste und wählen Sie **Kopieren** aus. Fügen Sie dann den ausgewählten Text dort ein, wo Sie möchten.
 - Beleg verschieben
 
-    Sie können den sichtbaren Bereich des Berichts in beliebiger Richtung verschieben, daher können Sie weitere Bereiche oder den Bericht anzeigen. Dies ist hilfreich, wenn Sie gezoomt haben, um Details anzuzeigen.  Mithilfe der Maus beispielsweise drücken und halten Sie die Maustaste an einem beliebigen Ort in der Berichtsvorschau und bewegen Sie dann Ihre Maus.
+    Sie können den sichtbaren Bereich des Berichts in beliebiger Richtung verschieben, daher können Sie weitere Bereiche oder den Bericht anzeigen. Verschieben ist hilfreich, wenn Sie gezoomt haben, um Details anzuzeigen.  Mithilfe der Maus beispielsweise drücken und halten Sie die Maustaste an einem beliebigen Ort in der Berichtsvorschau und bewegen Sie dann Ihre Maus.
 
 - Download in eine PDF-Datei auf Ihrem Computer oder Netzwerk.
 - Drucken
 
 ## <a name="saving-a-report"></a>Speichern des Berichts
+
 Sie können einen Bericht in ein PDF-Dokument, Microsoft Word Dokument oder Microsoft Excel Dokument speichern, indem Sie die Schaltfläche **Senden an** auswählen, und anschließend Ihre Auswahl treffen.
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planen der Ausführung eines Berichts
@@ -74,28 +97,36 @@ Sie können einen Bericht oder einen Stapelverarbeitungsauftrag planen, sodass e
 
 Wenn Sie die Ausführung eines Berichts planen, können Sie festlegen, dass er jeden Donnerstag ausgeführt werden muss, indem Sie beispielsweise das Feld **Datumsformel für nächste Ausführung** auf *D4* festlegen. Weitere Informationen zu finden Sie unter [Verwenden von Datumsformeln](ui-enter-date-ranges.md#using-date-formulas).  
 
-Sie können auswählen, ob Sie den verarbeiteten Bericht speichern möchten, beispielsweise als Excel-, Word- oder PDF-Datei, ihn auf einem ausgewählten Drucker auszugeben, oder ihn nur zu verarbeiten. Wenn Sie wählen, den Bericht in eine Datei zu speichern, wird der verarbeitete Bericht an den **Berichts-Eingang** an Ihr Rollencenter gesendet, wo Sie ihn anzeigen können.  
+Sie können auswählen, den Bericht in einer Datei zu speichern, beispielsweise als Excel-, Word- oder PDF-Datei, ihn auf einem ausgewählten Drucker auszugeben, oder nur den Bericht zu generieren. Wenn Sie wählen, den Bericht in eine Datei zu speichern, wird der verarbeitete Bericht an den **Berichts-Eingang** an Ihr Rollencenter gesendet, wo Sie ihn anzeigen können.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Berichte drucken
 
-Sie drucken einen Bericht, indem Sie die Schaltfläche **Drucken** auf der Berichtsanforderungsseite oder in der Menüleiste auf der Seite **Vorschau** wählen.
+Um den Bericht zu drucken, wählen Sie die Schaltfläche **Drucken** auf der Anforderungsseite oder in der Menüleiste der Seite **Vorschau** aus.
 
-### <a name="printer-selection"></a>Druckerauswahl
+<!--
+### Printer selection
 
-Der Bericht wird auf dem Drucker ausgedruckt, der im Feld **Ausgewählter Drucker** auf der Berichtsanforderungsseite angegeben ist. Sie können den Drucker auf dieser Seite nicht ändern.
+The report prints to the printer shown in the **Selected printer** field on the report request page. You can't change the printer from this page.
 
-Der ausgewählte Drucker ist entweder auf der Seite **Druckerauswahl** eingestellt oder es ist der Standarddrucker, der auf der Seite **Druckerverwaltung** eingerichtet ist. Wenn Sie einen anderen Drucker verwenden möchten, siehe [Drucker einrichten](ui-specify-printer-selection-reports.md).
+The selected printer is either set on the **Printer Selections** page or it's the default printer set up on the **Printer Management** page. If you want to use another printer, see  [Set Up Printers](ui-specify-printer-selection-reports.md).
 
-Wenn auf der Seite **Druckerauswahl** kein Drucker angegeben oder auf der Seite **Druckerverwaltung** als Standard eingestellt ist, wird die Druckfunktion des Browsers verwendet. In diesem Fall erscheint **Browser** im Feld **Ausgewählter Drucker** auf der Berichtsanforderungsseite. 
+If no printer is specified on the **Printer Selections** page or set as default on the **Printer Management** page, the browser printing feature is used. In this case, **Browser** appears in the **Selected printer** field on the report request page.
+-->
+### <a name="printer"></a><a name="Printer"></a>Drucker
 
-### <a name="browser-printing"></a>Browserdruck
+Das Feld **Drucker** auf der Anforderungsseite zeigt den Name des Druckers an, zu dem der Bericht gesendet wird. **(Vom Browser gehandhabt)** zeigt an, dass es für den Bericht keinen vorgesehenen Drucker gibt. In diesem Fall handhabt der Browser den Ausdruck und zeigt eine Standardumgebung an, in dem Sie einen lokalen Drucker auswählen können, der mit Ihrem Gerät verbunden ist.
 
-Da [!INCLUDE[prodshort](includes/prodshort.md)] ein Cloud-Service ist, kann er keine lokalen Drucker erreichen, die mit Ihrem Computer verbunden sind. Sie kann jedoch mit Cloud-fähigen Druckern verbunden werden. In der generischen Version von [!INCLUDE[prodshort](includes/prodshort.md)] wird ein Cloud-Drucker namens **E-Mail-Drucker** als Erweiterung installiert und ist nach der Ersteinrichtung einsatzbereit.
+Sie können den Drucker nicht mithilfe des Felds **Drucker** ändern. Um den Drucker zu ändern, müssen Sie zu den Seiten **Druckerauswahlen** oder **Druckerverwaltung** wechseln. Das Festlegen des Druckers ist normalerweise eine Administratoraufgabe. Weitere Informationen finden Sie unter [Drucker einrichten](ui-specify-printer-selection-reports.md).
 
-Wenn ein Cloud-Drucker nicht installiert und eingerichtet ist oder wenn ein installierter Drucker ausfällt, werden beim Drucken standardmäßig die Druckoptionen des Browsers verwendet.
+<!--
+### Browser printing
+
+Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+
+If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
 
 > [!NOTE]
-> Die Browserdruckoptionen funktionieren unabhängig von [!INCLUDE[prodshort](includes/prodshort.md)]. Also alle Druckereinstellungen, die möglicherweise von Druckern in [!INCLUDE[prodshort](includes/prodshort.md)] eingerichtet wurden, werden nicht auf die Druckoptionen des Browsers übertragen.
+> The browser printing options work independently of [!INCLUDE[prodshort](includes/prodshort.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md)] aren't carried over to the browser print options.
 
 <!-- 
 On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
@@ -104,12 +135,27 @@ On the **Printer Management** page, you can see the printers that are set up. Fo
 > You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
 -->
 ### <a name="printing-reports-in-thai"></a>Drucken von Berichten in Thailändisch
-Speziell für die thailändische Version von [!INCLUDE[prodshort](includes/prodshort.md)] kann die Schaltfläche **Drucken** keine Berichte korrekt drucken, weil der Service, der die druckbare PDF-Datei generiert, limitiert ist. Stattdessen können Sie den Bericht in Word öffnen und den Bericht als druckbare PDF-Dateien speichern.  
+
+Speziell für die thailändische Version von [!INCLUDE[prodshort](includes/prodshort.md)] kann die Schaltfläche **Drucken** keine Berichte korrekt drucken, weil der Dienst, der die druckbare PDF-Datei generiert, eingeschränkt ist. Stattdessen können Sie den Bericht in Word öffnen und den Bericht als druckbare PDF-Dateien speichern.  
 
 Alternativ können Sie den Administrator bitten, ein Word-Berichtslayout für Ihre verwendete Berichte zu erstellen. Weitere Informationen finden Sie unter [Berichte- und Dokumentenlayouts verwalten](ui-manage-report-layouts.md).  
 
 ## <a name="changing-report-layouts"></a>Ändern von Berichtslayouts
+
 Ein Berichtslayout steuert, was in einem Bericht angezeigt wird, wie er angeordnet wird und wie er formatiert ist. Wenn Sie zu einem anderen Layout wechseln möchten, finden Sie Informationen unter [Ändern des aktuellen Berichtlayout](ui-how-change-layout-currently-used-report.md). Oder, wenn Sie Ihr eigenes Berichtslayout anpassen möchten gehen Sie zu [Erstellen und bearbeiten von benutzerdefinierten Berichtslayouts](ui-how-create-custom-report-layout.md).
+
+## <a name="advanced-options"></a>Erweiterte Optionen
+
+Die Felder unter **Erweitert** legen Einschränkungen für den generierten Bericht fest, um Druckerressourcen zu steuern. Normalerweise müssen Sie diese Einstellungen nicht ändern, es sei denn, Sie haben einen umfangreichen Bericht. Wenn ein Bericht diese Einschränkungen überschreitet, wenn Sie versuchen, eine Vorschau anzuzeigen oder zu drucken, wird eine Meldung angezeigt, die Sie darüber informiert, welche Einschränkung überschritten wurde. Sie können die Einstellungen dann gemäß den Erfordernissen für Ihren Bericht ändern. Jedes Feld hat jedoch einen Maximalwert, den Sie beachten sollten:
+
+|Feld|Maximalwert|
+|-----|-------------|
+|Maximale Rendering-Zeit|12:00:00|
+|Maximale Zeilenanzahl|1000000|
+|Maximale Beleganzahl|500|
+
+> [!NOTE]
+> Die Maximalwerte können sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] lokal unterscheiden, und ein Administrator kann sie ändern. Weitere Informationen finden Sie unter [Konfigurieren von Business Central Server – Berichte](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Für eine Übersicht über Berichtseinschränkungen [!INCLUDE[d365fin](includes/d365fin_md.md)] online sehen Sie [Einschränkungen im Betrieb](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 603a4bc69accd326ec7cc2540efe39ba7660fdca
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6b517c9b34d7046e8a4aae49f0392edf28cf4341
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782368"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912546"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Beleglayouts für Debitoren und Kreditoren definieren
-Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus Debitoren- und Kreditorenkarten auswählen, um anzugeben, welche Layouts für verschiedene Arten von Belegen verwendet werden, die Sie für den betreffenden Debitoren oder Kreditoren erstellen. Der Wert im Feld **Verwendung** definiert, für welchen Prozess das Beleglayout verwendet wird, z. B. **Erinnerung**, **Lieferung** und **Bestätigung**.
+Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus Debitoren- und Kreditorenkarten auswählen, um anzugeben, welche Layouts für verschiedene Arten von Belegen verwendet werden, die Sie für den betreffenden Debitoren oder Kreditoren erstellen. Der Wert im Feld **Verwendung** definiert, für welchen Prozess das Beleglayout verwendet wird, z. B. **Erinnerung** , **Lieferung** und **Bestätigung** .
 
 Sie können nicht nur festlegen, welche Layouts für welchen Beleg verwendet werden sollen, sondern auch Zeit sparen, wenn Sie Belege an verschiedene Debitoren- oder Kreditorenkontakte senden, indem Sie die E-Mail-Adressen bestimmter Kontakte für die Verwendung mit bestimmten Belegen einrichten. Beispielsweise werden Kontoauszüge an Buchhalterkontakte gesendet, Verkaufsaufträge an die Käufer Ihrer Debitoren und Einkaufsbestellungen an Verkäufer oder Kundenbetreuer der Kreditoren.
 

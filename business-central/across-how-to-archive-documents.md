@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0f2b5a2ce4fd53d9d487d20f7139d7b36c5387b5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0479efcd967c7188e38fff2fb1da76e461a1bda6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780485"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919588"
 ---
 # <a name="archive-documents"></a>Beleg archivieren
 Sie können Verkaufs- und Einkaufsaufträge, Angebote und Rücklieferungen sowie Rahmenaufträge archivieren, beispielsweise weil Sie eine Kopie eines Dokuments zur späteren Wiederverwendung speichern möchten. Sie können ein Verkaufs- oder Einkaufsbeleg mehrmals archivieren, wobei Sie jedes Mal eine andere archivierte Version speichern.
 
 Für archivierte Belege, bei denen das Original immer noch vorhanden und nicht gebucht ist, können Sie die Funktion **Wiederherstellen** verwenden, um das Original mit der archivierten Version des Belegs zu überschreiben. Dies ist nützlich, wenn Sie die Inhalte eines Belegs auf einen früheren Zustand wiederherstellen müssen.
 
-Bei archivierten Dokumenten, bei denen das Original gelöscht ist, können Sie den Inhalt nur durch Kopieren der Daten wiederverwenden, z. B. mit der Funktion **Aus Dokument kopieren**.   
+Bei archivierten Dokumenten, bei denen das Original gelöscht ist, können Sie den Inhalt nur durch Kopieren der Daten wiederverwenden, z. B. mit der Funktion **Aus Dokument kopieren** .   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>So richten Sie die automatische Archivierung von Belegen ein  
 Sie können die automatische Archivierung von Verkaufs- und Einkaufsbelegen einrichten – beispielsweise Angebote, Rahmenbestellungen und Aufträge – bevor Sie Belege löschen.
@@ -33,7 +33,7 @@ Nachfolgend wird beschrieben, wie die automatische Archivierung von Verkaufsbele
 
 |Feld|Description|
 |-----|-----------|
-|**Angebote archivieren**|**Nie**, wenn die Verkaufsangebote beim Löschen niemals archiviert werden sollen. **Frage**, wenn der Benutzer aufgefordert werden soll, auszuwählen, ob Verkaufsangebote beim Löschen archiviert werden sollen. **Immer**, wenn Verkaufsangebote beim Löschen automatisch archiviert werden sollen.|
+|**Angebote archivieren**|**Nie** , wenn die Verkaufsangebote beim Löschen niemals archiviert werden sollen. **Frage** , wenn der Benutzer aufgefordert werden soll, auszuwählen, ob Verkaufsangebote beim Löschen archiviert werden sollen. **Immer** , wenn Verkaufsangebote beim Löschen automatisch archiviert werden sollen.|
 |**Info zu Rahmenaufträgen**|Wählen Sie diese Option aus, um Rahmenaufträge bei jedem Löschen automatisch zu archivieren.|
 |**Arch. Bestellungen und Reklamationen**|Wählen Sie diese Option aus, um Verkaufsaufträge bei jedem Löschen automatisch zu archivieren.|
 
@@ -42,7 +42,7 @@ Nachfolgend wird beschrieben, wie Sie einen Auftrag archivieren Die Schritte fü
 
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie einen Verkaufsauftrag für Artikel, die Sie archivierne möchten.  
-3.  Wählen Sie die **Beleg archivieren**-Aktion aus.
+3.  Wählen Sie die **Beleg archivieren** -Aktion aus.
 
 Der Auftrag ist archiviert. Sie können sie auf der Seite **Archivierte Verkaufsaufträge** anzeigen.
 
@@ -57,7 +57,7 @@ Die Inhalte des ursprünglichen Auftrags werden durch die der ausgewählten arch
 ## <a name="to-delete-archived-sales-orders"></a>Archivierte Auftragsversionen löschen
 Nachfolgend wird beschrieben, wie Sie einen archivierten Auftrag löschen. Die Schritte sind für alle anderen archivierten Einkaufs- und Verkaufsbelege ähnlich.
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Archivierte Verkaufsauftragsversionen löschen** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Archivierte Verkaufsauftragsversionen löschen** ein, und wählen Sie dann den zugehörigen Link.  
 2.  auf der Seite **Archivierte Auftragsversionen löschen** wählen Sie den entsprechenden Filter aus.  
 3.  Wählen Sie die Schaltfläche **OK** aus.
 

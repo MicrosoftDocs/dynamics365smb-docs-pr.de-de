@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d431995907f18e8439f415e1f724d4bbf9f77a31
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9d483d104b0dee148dfc4a15bea6737d505730cc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782168"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913863"
 ---
 # <a name="undo-assembly-posting"></a>Montagesbuchungen rückgängig machen
 In einigen Fällen müssen Sie einem gebuchten Montageauftrag rückgängig machen, wenn der Auftrag zum Beispiel mit Fehlern gebucht wurde, die korrigiert werden müssen, oder weil er nicht im ersten Schritt gebucht werden sollte und zurückgenommen werden muss.
@@ -24,7 +24,7 @@ Wenn Sie einen gebuchten Montageauftrag rückgängig machen, wird im Artikelpost
 
 Wenn Sie einen vollständig gebuchten Montageauftrag rückgängig machen, können Sie auswählen, dass der Montageauftrag im ursprünglichen Zustand neu erzeugt wird, zum Beispiel, um Korrekturen vorzunehmen, bevor Sie ihn wieder buchen. Alternativ können Sie auswählen, dass der Montageauftrag nicht neu erstellt wird.  
 
-Wenn Sie einen teilweise gebuchten Montageauftrag rückgängig machen, werden in allen betroffenen Mengenfeldern, wie die Felder **Montagemenge**, **Verbrauchte Menge** und **Verbleibende Menge**, die Werte wiederhergestellt, die diese vor der entsprechenden Buchung enthielten.  
+Wenn Sie einen teilweise gebuchten Montageauftrag rückgängig machen, werden in allen betroffenen Mengenfeldern, wie die Felder **Montagemenge** , **Verbrauchte Menge** und **Verbleibende Menge** , die Werte wiederhergestellt, die diese vor der entsprechenden Buchung enthielten.  
 
 Um Montageaufträge neu zu erstellen oder wiederherzustellen, müssen für den Montageartikel die folgenden Anforderungen gelten, die in der ursprünglichen Buchung registriert wurden:  
 
@@ -46,7 +46,7 @@ Nachfolgend wird beschrieben, wie gebuchte Montageaufträge rückgängig gemacht
 2.  Öffnen Sie den gebuchten Montageauftrag, den Sie stornieren möchten, und wählen Sie dann die Aktion **Montage rückgängig machen** aus.  
 
     Wenn der gebuchte Montageauftrag, den Sie stornieren möchten, mit einem vollständig gebuchten Montageauftrag verknüpft ist, der jetzt gelöscht wird, haben Sie die Möglichkeit, diesen neu zu erstellen, um ihn gegebenenfalls erneut zu bearbeiten.  
-3.  Wenn Sie den Montageauftrag neu erstellen möchten, wählen Sie die Schaltfläche **Ja**. Um die Buchung zu stornieren, ohne den verknüpften Montageauftrag neu zu erstellen, wählen Sie die Schaltfläche **Nein**.  
+3.  Wenn Sie den Montageauftrag neu erstellen möchten, wählen Sie die Schaltfläche **Ja** . Um die Buchung zu stornieren, ohne den verknüpften Montageauftrag neu zu erstellen, wählen Sie die Schaltfläche **Nein** .  
 
 Das Feld **Reserviert** im Montageauftragskopf wird in **Ja** geändert. Die Montageauftragsbuchung wird jetzt storniert, und Sie können fortfahren, den gesamten Montageauftrag zu verarbeiten, wenn Sie ihn wiederherstellen möchten, oder den offenen Montageauftrag, den Sie mit dem ursprünglichen Status wiederhergestellt haben.  
 

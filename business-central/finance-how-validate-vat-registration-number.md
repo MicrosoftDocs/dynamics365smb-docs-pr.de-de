@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 9624a51f040ae6231d9d0354cb0c571287ccd3e8
-ms.sourcegitcommit: e22666f90262c7d2084ca6c74ca7d66652fc6df6
+ms.openlocfilehash: 130449368e5b96e3c9e6cb6274dcd6e06f568114
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617288"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916976"
 ---
 # <a name="validate-a-vat-registration-number"></a>Eine Umsatzsteuer-Identifikationsnummer überprüfen
 
@@ -23,14 +23,14 @@ Die Europäische Berechnung stellt den MwSt Nummern-Überprüfungsdienst auf der
 
 ## <a name="to-verify-vat-registration-numbers"></a>MwSt-IdNr. prüfen
 
-Um den **EU-USt-IdNr.-Überprüfungsdienst** zu aktivieren, öffnen Sie den Eintrag auf der Seite **Dienstverbindung**. Das Feld **Dienstendpunkt** sollte bereits ausgefüllt sein. Wenn nicht, können Sie die Aktion **Standardendpunkt festlegen** verwenden. Legen Sie dann das Feld **Aktiviert** fest, und Sie sind startklar.
+Um den **EU-USt-IdNr.-Überprüfungsdienst** zu aktivieren, öffnen Sie den Eintrag auf der Seite **Dienstverbindung** . Das Feld **Dienstendpunkt** sollte bereits ausgefüllt sein. Wenn nicht, können Sie die Aktion **Standardendpunkt festlegen** verwenden. Legen Sie dann das Feld **Aktiviert** fest, und Sie sind startklar.
 
 > [!NOTE]
 > Um den MwSt Reg. Nr. Überprüfungs-Dienst zu aktivieren, müssen Sie Administratorrechte haben.
 
-Wenn Sie unseren Service verwenden, erfassen wir eine Historie der MwSt.-Nummern und Überprüfungen für jeden Debitor, Kreditor oder Kontakt im **MwSt-Registrierungsprotokoll**, damit Sie diese einfacher verfolgen können. Das Protokoll ist auf jeden Debitor zugeschnitten. Beispielsweise ist das Protokoll für die Prüfung hilfreich, dass Sie geprüft haben, dass die aktuelle Mehrwertsteuernummer korrekt ist. Wenn Sie eine Mehrwertsteuernummer überprüfen, spiegelt der **Anforderungs-Bezeichner** im Protokoll, dass Sie Aktionen ausgeführt haben.
+Wenn Sie unseren Service verwenden, erfassen wir eine Historie der MwSt.-Nummern und Überprüfungen für jeden Debitor, Kreditor oder Kontakt im **MwSt-Registrierungsprotokoll** , damit Sie diese einfacher verfolgen können. Das Protokoll ist auf jeden Debitor zugeschnitten. Beispielsweise ist das Protokoll für die Prüfung hilfreich, dass Sie geprüft haben, dass die aktuelle Mehrwertsteuernummer korrekt ist. Wenn Sie eine Mehrwertsteuernummer überprüfen, spiegelt der **Anforderungs-Bezeichner** im Protokoll, dass Sie Aktionen ausgeführt haben.
 
-Sie finden das USt-Registrierungsprotokoll auf den Karten Debitor, Kreditor oder Kontakt, auf dem Inforegister **Rechnungsstellung**, indem Sie im Feld **USt-ID** die Suchschaltfläche wählen.  
+Sie finden das USt-Registrierungsprotokoll auf den Karten Debitor, Kreditor oder Kontakt, auf dem Inforegister **Rechnungsstellung** , indem Sie im Feld **USt-ID** die Suchschaltfläche wählen.  
 
 Mit dem Service sparen Sie auch Zeit, wenn Sie einen Kreditor oder Debitor erstellen. Wenn Sie die Umsatzsteuernummer des Debitoren kennen, können Sie sie in das Feld **USt-ID** auf den Karten Debitor oder Kreditor eintragen. Wir tragen den Debitorennamen für Sie ein. Einige Länder liefern auch Mandantenadressen in einem strukturierten Format. In jenen Ländern ergänzen wir auch die Adresse.  
 

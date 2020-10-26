@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 07/13/2020
+ms.date: 10/01/2020
 ms.author: jenolson
-ms.openlocfilehash: 712950571d5b45680aae46bccfd8401b999993cd
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: dde6797139f383948d72c52ca1d05298a280087b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577261"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915210"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligente Cloud-Erweiterungen für die Cloudmigration
 
@@ -32,14 +32,14 @@ Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prodshort](includes/prodshort.
 
 ## <a name="dynamics-gp"></a>Dynamics GP
 
-Wenn Sie Dynamics GP verwenden, holen Sie sich die Erweiterung **Intelligente Cloud Basis-Erweiterung** und die Erweiterung **Dynamics GP Intelligente Cloud**, und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
+Wenn Sie Dynamics GP verwenden, holen Sie sich die Erweiterung **Intelligente Cloud Basis-Erweiterung** und die Erweiterung **Dynamics GP Intelligente Cloud** , und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
 
 > [!IMPORTANT]
 > Die Migration von Dynamics GP mit dem unterstützten Einrichtungsleitfaden **Cloudmigrationseinrichtung** wird derzeit nur für die folgenden Märkte unterstützt: USA, Kanada, Vereinigtes Königreich.
 
 ## <a name="dynamics-sl"></a>Dynamics SL
 
-Wenn Sie Dynamics SL verwenden, holen Sie sich die Erweiterung **Intelligente Cloud-Basis**-Erweiterung, die Erweiterung **Microsoft Dynamics SL Intelligente Cloud** und die Erweiterung **Microsoft Dynamics SL-Verlauf-SmartLists**, und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
+Wenn Sie Dynamics SL verwenden, holen Sie sich die Erweiterung **Intelligente Cloud-Basis** -Erweiterung, die Erweiterung **Microsoft Dynamics SL Intelligente Cloud** und die Erweiterung **Microsoft Dynamics SL-Verlauf-SmartLists** , und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 57e10efcd6ec5a2ed54df2bdaa4f2a647a1e981c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194715"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910355"
 ---
 # <a name="fulfilling-service-contracts"></a>Erfüllen von Serviceverträgen 
 Eine Möglichkeit zum Einrichten eines Servicemanagementgeschäfts besteht darin, dass standardmäßige vertragliche Vereinbarungen zwischen Ihnen und den Debitoren bestehen, in denen die Qualität des Services und die Erwartungen daran beschrieben werden. Ein derartiges System kann implementiert werden, indem eine Möglichkeit zum einfachen Erstellen von Vertragsvorlagen geboten wird, die erforderliche Informationen, wie Startdatum des Vertrags und Rechnungsperiode, beinhalten.  
   
 Nach dem Einrichten der Vorlage kann der daraufhin erstellbare Vertrag so angepasst werden, dass Servicezeiten oder andere Artikel, die sich abhängig vom Debitor unterscheiden, erfasst werden. Überdies kann ein Vertrag manuell anhand eines Servicevertragsangebots eingerichtet werden. Abschließend können die Servicepreise so angepasst werden, dass Rabatte nachverfolgt werden, für die ein bestimmter Debitor berechtigt ist. Dabei wird der Rabattbetrag auf der Seite **Servicevertrag** angegeben.  
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..   
   
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  

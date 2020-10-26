@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: c4c3beda4ef5febd6b938b61fcd9f6fac774d10e
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: e0ef9e91d303191cc98afb7dc56f4585d443e5c2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611484"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917601"
 ---
 # <a name="application-compliance"></a>Anwendungs-Kompatibilität
 

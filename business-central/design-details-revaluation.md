@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb3357d2d102dceba9896731c651174a4962bab6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787246"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911005"
 ---
 # <a name="design-details-revaluation"></a>Designdetails: Neubewertung
 Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäß für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode "Standard", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.  
@@ -41,7 +41,7 @@ Im folgenden Beispiel wird gezeigt, wann ein WIP-Artikel Teil des Bestands wird.
 
 ![“RIF-Lagerbestand und Neubewertung](media/design_details_inventory_costing_10_revaluation_wip.png "“RIF-Lagerbestand und Neubewertung")  
 
-**1Q**: Der Benutzer bucht die eingekauften Links als erhalten. Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
+**1Q** : Der Benutzer bucht die eingekauften Links als erhalten. Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
 
 |Buchungsdatum|Artikel|Postentyp|Menge|Eingabenr.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -50,13 +50,13 @@ Im folgenden Beispiel wird gezeigt, wann ein WIP-Artikel Teil des Bestands wird.
 > [!NOTE]  
 >  Jetzt ist ein Artikel mit der Lagerabgangsmethode "Standard" für eine Neubewertung verfügbar.  
 
-**1V**: Der Benutzer bucht die eingekauften Links als fakturiert und die Links werden aus finanzieller Sicht Teil des Lagerbestands. Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
+**1V** : Der Benutzer bucht die eingekauften Links als fakturiert und die Links werden aus finanzieller Sicht Teil des Lagerbestands. Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
 
 |Buchungsdatum|Postentyp|Bewertungsdatum|Einstandsbetrag (tatsächl.)|Artikelposten Lfd. Nr.|Lfd. Nr.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|EK-Preis|01-01-20|150.00|1|1|  
 
- **2Q + 2V**: Der Benutzer bucht die eingekauften Links als verbraucht für die Produktion der Eisenkette. Aus finanziellen Gesichtspunkten werden die Links Teil des WIP-Bestands.  Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
+ **2Q + 2V** : Der Benutzer bucht die eingekauften Links als verbraucht für die Produktion der Eisenkette. Aus finanziellen Gesichtspunkten werden die Links Teil des WIP-Bestands.  Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
 
 |Buchungsdatum|Artikel|Postentyp|Menge|Lfd. Nr.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -70,13 +70,13 @@ Die folgende Tabelle zeigt den sich daraus ergebenden Wertposten.
 
 Das Bewertungsdatum wird auf das Datum der Verbrauchsbuchung (02-01-20) als regelmäßiger Lagerabgang festgelegt.  
 
-**3Q**: Der Benutzer bucht die Kette als fertig gestellt und schließt den Fertigungsauftrag ab. Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
+**3Q** : Der Benutzer bucht die Kette als fertig gestellt und schließt den Fertigungsauftrag ab. Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
 
 |Buchungsdatum|Artikel|Postentyp|Menge|Postennr.|  
 |------------------|----------|----------------|--------------|---------------|  
 |02-15-20|Kette|Istmeldung|1|3|  
 
-**3V**: Der Benutzer führt die **Kosten anpassen - Artikeleingabe**-Stapelverarbeitung aus, die die Kette als fakturiert bucht, um anzugeben, dass aller Materialverbrauch vollständig fakturiert wurde. Aus finanziellen Gesichtspunkten sind die Links nicht mehr Teil des WIP-Bestands, wenn die Ausgabe vollständig fakturiert und angepasst ist. Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
+**3V** : Der Benutzer führt die **Kosten anpassen - Artikeleingabe** -Stapelverarbeitung aus, die die Kette als fakturiert bucht, um anzugeben, dass aller Materialverbrauch vollständig fakturiert wurde. Aus finanziellen Gesichtspunkten sind die Links nicht mehr Teil des WIP-Bestands, wenn die Ausgabe vollständig fakturiert und angepasst ist. Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
 
 |Buchungsdatum|Postentyp|Bewertungsdatum|Einstandsbetrag (tatsächl.)|Artikelposten Lfd. Nr.|Lfd. Nr.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
@@ -92,9 +92,9 @@ Die neubewertete Menge XE "Neubewertete Menge" XE "Menge,Neubewertet" wird als d
 
 Wenn Sie die neu bewertbare Menge für Artikel mit der Lagerabgangsmethode "Standard" wird, werden Artikelposten, die noch nicht vollständig fakturiert wurden, in die Berechnung einbezogen. Diese Posten werden dann neu bewertet, wenn Sie die Neubewertung buchen. Wenn Sie den neu bewerteten Posten fakturieren, werden die folgenden Wertposten erzeugt:  
 
--   Der übliche fakturierte Wertposten mit dem Postentyp **Direkte Kosten**. Der Kostenbetrag für diesen Posten entspricht den direkten Kosten aus der Herkunftszeile.  
--   Ein Wertposten mit dem Postentyp **Abweichung**. Dieser Eintrag erfasst die Differenz zwischen den fakturierten Kosten und dem neu bewerteten Einstandspreis.  
--   Ein Wertposten mit dem Postentyp **Neubewertung**. Dieser Posten erfasst die Stornierung der Neubewertung der Soll-Kosten.  
+-   Der übliche fakturierte Wertposten mit dem Postentyp **Direkte Kosten** . Der Kostenbetrag für diesen Posten entspricht den direkten Kosten aus der Herkunftszeile.  
+-   Ein Wertposten mit dem Postentyp **Abweichung** . Dieser Eintrag erfasst die Differenz zwischen den fakturierten Kosten und dem neu bewerteten Einstandspreis.  
+-   Ein Wertposten mit dem Postentyp **Neubewertung** . Dieser Posten erfasst die Stornierung der Neubewertung der Soll-Kosten.  
 
 ### <a name="example"></a>Beispiel  
 Im folgenden Beispiel, das auf der Produktion der Kette im vorherigen Beispiel basiert, stellt dar, wie die drei Arten von Posten erstellt werden. Die basiert auf dem folgenden Szenario:  
@@ -103,7 +103,7 @@ Im folgenden Beispiel, das auf der Produktion der Kette im vorherigen Beispiel b
 2.  Der Benutzer bucht dann eine Neubewertung der Links durch einen neuen Einstandspreis von MW 3,00 und aktualisiert den Einstandspreis (fest) auf MW 3,00.  
 3.  Der Benutzer bucht den ursprünglichen Einkauf der Glieder als fakturiert, wodurch Folgendes erzeugt wird:  
 
-    1.  Ein fakturierter Wertposten mit dem Postentyp **Direkte Kosten**.  
+    1.  Ein fakturierter Wertposten mit dem Postentyp **Direkte Kosten** .  
     2.  Ein Wertposten mit dem Postentyp **Neubewertung** zur Erfassung der Umkehrung der Neubewertung der erwarteten Kosten.  
     3.  Ein Wertposten mit dem Postentyp Abweichung, der die Differenz zwischen den fakturierten Kosten und den neu bewerteten Standardkosten aufzeichnet.  
 Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  

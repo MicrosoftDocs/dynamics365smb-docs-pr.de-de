@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 06/30/2020
-ms.openlocfilehash: 278797e8a1647fff8fd607cf075657c960004e65
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.date: 10/01/2020
+ms.openlocfilehash: 85823e93b1d239bf4e59ec6a8872cdc4a2cef9c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529388"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911580"
 ---
 # <a name="integrating-with-common-data-service"></a>Integrieren in Common Data Service
 

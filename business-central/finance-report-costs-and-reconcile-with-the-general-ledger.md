@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 175d0084660583b257054eb55f827de7504984e5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: de855f8c40f4540b08f33b39ff07dd5f2343f00c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780460"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910780"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Melden von Kosten und Abstimmen mit der Finanzbuchhaltung
 Am Ende von (monatlichen, jährlichen oder anderen) Buchhaltungsperioden muss eine Reihe von Kostenkontroll- und Prüfungsaufgaben ausgeführt werden, um der Finanzabteilung einen korrekten und ausgewogenen Lagerwert mitteilen zu können. Neben der Buchungsroutine, durch die die einzelnen Artikelwertposten auf dedizierte Sachkonten gebucht werden, stehen dem Prüfer oder Controller, der mit dieser bedeutenden Aufgabe betraut ist, verschiedene Berichte, Nachverfolgungsfunktionen sowie ein spezielles Abstimmungstool zur Verfügung.  
 
- In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
+ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
@@ -28,7 +28,7 @@ Am Ende von (monatlichen, jährlichen oder anderen) Buchhaltungsperioden muss ei
 |Anzeigen des Lagerwerts ausgewählter Fertigungsaufträge in "Aktiviert Lager", beispielsweise der Mengen und Werte für Verbrauch, Kapazitätsauslastung und Ausgabe in laufenden Fertigungsaufträgen|Bericht **Lagerbewertung - Aktiviert**|  
 |Anzeigen des Lagerwerts ausgewählter Artikel, einschließlich der tatsächlichen Kosten und der Soll-Kosten zum angegebenen Datum|Bericht **Lagerbew.-Einst.-Pr.-Ermittl.**|  
 |Verwenden eines Berichts zum Analysieren der Ursachen für Kostenschwankungen oder zum Verschaffen eines Überblicks über den Kostenanteil verkaufter Artikel (Lagerverbrauch)|Bericht **Kostenanteilsanalyse**|  
-|Periodisches Buchen der Wertposten von Artikeltransaktionen aus den Lagerposten auf die entsprechenden Sachkonten, um die beiden Bücher abzustimmen|[Abstimmen der Lagerregulierung mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Periodisches Buchen der Wertposten von Artikeltransaktionen aus den Lagerposten auf die entsprechenden Sachkonten, um die beiden Bücher abzustimmen|[Abstimmen der Lagerkosten mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Bestimmen des WIP-Betrags, der im Rahmen der Berichterstellung am Periodenende auf Bilanzkonten gebucht werden muss|[Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Siehe auch  

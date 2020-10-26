@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 854970fc2d47110375cf905236df19c90db27e33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181388"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914039"
 ---
 # <a name="record-interactions-with-contacts"></a>Aktivitäten mit Kontakten aufzeichnen
 Die Einrichtung der Anwendung zur Aufzeichnung von Aktivitäten besteht aus diesen Aufgaben:
@@ -41,7 +41,7 @@ Es gibt zwei verschiedene Arten, Aktivitäten zu speichern.
 ## <a name="viewing-and-managing-recorded-interactions"></a>Anzeigen und Verwalten von aufgezeichneten Aktivitäten
 Auf der Seite **Aktivitätenprotokollposten** können Sie alle gespeicherten Aktivitäten sehen, die nicht gelöscht wurden. Sie können diese Seite folgendermaßen öffnen:
 
-* Mithilfe des Symbols **Nach Seite oder Bericht suchen** zur suche in **Aktivitätenprotokollposten**.
+* Mithilfe des Symbols **Nach Seite oder Bericht suchen** zur suche in **Aktivitätenprotokollposten** .
 * Auswählen der **Aktivitätenprotokollposten** -Aktion für einen Kontakt oder ein Segment.
   Die Seite **Aktivitätenprotokollposten** enthält die Aktivitäten, die Sie manuell erstellen und die automatisch von der Anwendung aufgezeichnet werden.
 

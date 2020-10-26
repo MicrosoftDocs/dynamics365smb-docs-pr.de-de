@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 06/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da2ea0e51ef65eb432cc67f36db230bfea178c03
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d47214392e3c0e48f436475a79407a752a95583d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528663"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914564"
 ---
 # <a name="changing-language-and-region"></a>Ändern der Sprache und der Region
 
@@ -23,10 +23,10 @@ ms.locfileid: "3528663"
 
 Wenn Sie die kanadische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden, können Sie die Benutzeroberfläche in Englisch, Deutsch, Französisch oder in einer anderen Sprache anzeigen, in allen anderen Aspekten ist es jedoch weiterhin die kanadische Version von [!INCLUDE[d365fin](includes/d365fin_md.md)]. Es ist nicht dasselbe wie, sagen wir [!INCLUDE[d365fin](includes/d365fin_md.md)] im Vereinigten Königreich, wo die Funktionen an die Anforderungen dieses Marktes angepasst wurden.  
 
-Um der Benutzeroberfläche die Sprache zu ändern, wechseln Sie zur Seite **Meine Einstellungen**. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md#language). 
+Um der Benutzeroberfläche die Sprache zu ändern, wechseln Sie zur Seite **Meine Einstellungen** . Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> Die Auswahl der Sprachen wird auf Ihre Einstellung in Ihrem Office 365-Profil zurückgesetzt, wenn Ihr Administrator Benutzer von Office 365 mit [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisiert.
+> Die Auswahl der Sprachen wird auf Ihre Einstellung in Ihrem Microsoft 365-Profil zurückgesetzt, wenn Ihr Administrator Benutzer von Microsoft 365 mit [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisiert.
 
 Die Änderung der Texte in den Daten der Anwendung ist kein Bestandteil der Multilanguagefunktionalität. Dies ist durch das Design der Anwendung bedingt. Beispiele für solche Texte sind die Namen der Artikel oder Bemerkungen für einen Debitor. D. h. diese Textarten werden nicht übersetzt.  
 
@@ -36,12 +36,12 @@ Die Änderung der Texte in den Daten der Anwendung ist kein Bestandteil der Mult
 ## <a name="changing-the-region"></a>Ändern der Region
 Die Region unterscheidet sich von der Sprache und von gesetzlichen Vorschriften in den lokalen Märkten. Die Region bestimmt, wie Ihre Daten in Bezug auf das Kommatrennzeichen, die Ausrichtung nach links oder rechts und auf bestimmte andere Einstellungen dargestellt werden. Die Region bestimmt auch einige der Systemelemente im Browser, z. B. die Aktion zum Erstellen eines neuen Artikels in einer Liste.  
 
-Sie können die Region in der Browserregisterkarte ändern, mit der Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] arbeiten. die Änderung bezieht sich nur auf Sie und die nicht die anderer Benutzer in Ihrem Unternehmen.  Beachten Sie, dass die Auswahl der Region auf Ihre Einstellung in Ihrem Office-Profil zurückgesetzt wird, wenn Ihr Administrator Benutzer von Office 365 mit [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisiert.
+Sie können die Region in der Browserregisterkarte ändern, mit der Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] arbeiten. die Änderung bezieht sich nur auf Sie und die nicht die anderer Benutzer in Ihrem Unternehmen.  Beachten Sie, dass die Auswahl der Region auf Ihre Einstellung in Ihrem Office-Profil zurückgesetzt wird, wenn Ihr Administrator Benutzer von Microsoft 365 mit [!INCLUDE[d365fin](includes/d365fin_md.md)] synchronisiert.
 
 > [!IMPORTANT]  
 >  Wenn Sie die Region ändern, wird eine eine lange Liste von Sprachen und Regionen angezeigt. Die Sprache wird jedoch nicht von der Auswahl der Region beeinflusst.  
 
-Wechseln Sie zur Seite **Meine Einstellungen**, um die Region zu ändern. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).  
+Wechseln Sie zur Seite **Meine Einstellungen** , um die Region zu ändern. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).  
 
 ## <a name="application-version"></a>Anwendungsversionen
 

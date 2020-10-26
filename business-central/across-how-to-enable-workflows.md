@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 185e35e9b9f44e8cc18b10adf0dc359c3dce1ef0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b04f9edd37c96efb9ee6b215d85335c743de6214
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784232"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916318"
 ---
 # <a name="enable-workflows"></a>Aktivieren von Workflows
 Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu starten, müssen Sie den Workflow aktivieren.  
@@ -23,9 +23,9 @@ Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu st
  Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden. Weitere Informationen finden Sie unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>So aktivieren Sie einen Workflow  
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Workflows** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Workflows** ein und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie den Workflow, den Sie aktivieren möchten.  
-3.  Deaktivieren Sie auf der Seite **Workflow** das Kontrollkästchen **Aktiviert**.  
+3.  Deaktivieren Sie auf der Seite **Workflow** das Kontrollkästchen **Aktiviert** .  
 
 ## <a name="see-also"></a>Siehe auch  
  [Erstellen eines Workflows](across-how-to-create-workflows.md)   

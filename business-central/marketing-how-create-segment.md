@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 779ff0a12611606e70d0a310b260a8e20031f628
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 211f4cda3bd7d47c6268b0dfc041d25b100d2d14
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181496"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919263"
 ---
 # <a name="create-segments"></a>Segmente erstellen
 Sie können Segmente zur Auswahl einer Gruppe von Kontakten erstellen, z. B. wenn Sie eine Aktivität mit mehreren Kontakten erstellen möchten (z. B. Direktmail).
 
 ## <a name="to-create-a-segment"></a>So erstellen Sie ein Segment
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Segmente** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die Aktion **Neu**.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Segmente** ein, und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie die Aktion **Neu** .
 3. Geben Sie im Abschnitt **Allgemein** im Feld **Nr.** eine Nummer für das Segment ein.
 
     Wenn Sie auf der Seite **Marketing & Vertrieb Einr.** Nummernserien für Segmente eingerichtet haben, können Sie alternativ die nächste verfügbare Segmentnummer einfügen.

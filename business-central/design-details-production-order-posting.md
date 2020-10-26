@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 663d1c846e957be1b3d85a95a56a6f7f6cc940e8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7e2c8aeda1d71c7f01e7999dd540ce9194806dc5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787321"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917301"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetails: Fertigungsauftragsbuchung
 Ähnlich wie bei der Montageauftragsbuchung werden die verbrauchten Komponenten und die verwendete Maschinenzeit konvertiert und als gefertigter Artikel ausgegeben, wenn der Fertigungsauftrag abgeschlossen wird. Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md). Der Kostenfluss für Montageaufträge ist jedoch weniger Komplex, insbesondere da die Buchung der Montagekosten nur einmal geschieht und daher keinen WIP-Bestand generiert.
@@ -44,10 +44,10 @@ Abhängig vom Typ des Lagerbestands werden Erhöhungen und Reduzierungen von unt
 
 ||Zugänge|Abgänge|  
 |-|---------------|---------------|  
-|**Rohmaterialbestand**|-   Netzwerkeinkäufe des Materials<br />-   Fertigprodukte aus Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
+|**Rohmaterialbestand**|-   Nettoeinkäufe von Material<br />-   Ausstoß Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
 |**Produktionslager**|-   Materialverbrauch<br />-   Kapazitätsverbrauch<br />-   Produktionsgemeinkosten|Istmeldungen von Endartikeln (Fertigungskosten)|  
-|**Fertigerzeugnisse (Bestand)**|Istmeldungen von Endartikeln (Fertigungskosten)|-   Verkauf (Lagerverbrauch)<br />-   Negativausgabe|  
-|**Rohmaterialbestand**|-   Netzwerkeinkäufe des Materials<br />-   Fertigprodukte aus Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
+|**Fertigerzeugnisse (Bestand)**|Istmeldungen von Endartikeln (Fertigungskosten)|-   Verkauf (Kosten verkäufter Erzeugnisse)<br />-   Negativer Ausstoß|  
+|**Rohmaterialbestand**|-   Nettoeinkäufe von Material<br />-   Ausstoß Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
 
 Die Werte der Lagerzu- und - abgänge werden in den verschiedenen Arten von Produktionsartikel-Lagerbestand ebenso wie für gekauften Lagerbestand erfasst. Bei jeder Bestandserhöhungs- oder -minderungstransaktion werden ein Artikelposten und ein entsprechender Sachposten für den Betrag erstellt. Weitere Informationen finden Sie unter [Designdetails: Planungsbuchung](design-details-inventory-posting.md).  
 

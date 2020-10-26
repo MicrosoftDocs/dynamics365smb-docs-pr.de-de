@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d6878413b4a3db077ffcd16f5f6939582fa57809
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a1278b344efef1df243d4f82e9d463f8faf9a259
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787046"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920797"
 ---
 # <a name="depreciation-methods"></a>Abschreibungsmethoden
 Es gibt acht verfügbare AfA-Methoden:  
@@ -231,7 +231,7 @@ Diese benutzerdefinierte Methode kann auch verwendet werden, um eine Abschreibun
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>So richten Sie benutzerdefinierte AfA-Methoden ein
 Auf der Seite **Abschreibungstabelle** können Sie benutzerdefinierte AfA-Methoden einrichten. Beispielsweise können Sie die Abschreibung basierend auf der Stückzahl einrichten.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Abschreibungstabellen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Abschreibungstabellen** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **AfA-Tabelle Übersicht** wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie auf der Seite **AfA-Tabelle - Karte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -281,7 +281,7 @@ Diese AfA-Methode kann im Zusammenhang mit folgenden AfA-Methoden in der Anwendu
 * Degressiv 1  
 * Degr1/Linear  
 
-Wenn die Halbjahresregel angewendet wird, hat eine Anlage sechs AfA Monate in dem ersten Geschäftsjahr der Abschreibung, unabhängig vom Inhalt des Feldes **Abschreibungsdatum**.  
+Wenn die Halbjahresregel angewendet wird, hat eine Anlage sechs AfA Monate in dem ersten Geschäftsjahr der Abschreibung, unabhängig vom Inhalt des Feldes **Abschreibungsdatum** .  
 
 > [!NOTE]  
 >   Die Nutzungsdauer einer Anlage, die nach dem ersten Geschäftsjahr verbleibt, enthält immer ein halbes Jahr, wenn die US-Halbjahresregel verwendet wird. Damit die Halbjahresregel korrekt angewendet wird, muss dass Feld **Enddatum d. Nutzungsdauer** auf der Seite **Anlagen-AfA-Buch** immer ein Datum enthalten, das genau sechs Monate vor dem Enddatum des Geschäftsjahres liegt, in dem die Anlage vollständig abgeschrieben ist.  
@@ -328,7 +328,7 @@ Jahr:
 
 *Degressiver Betrag = Betrag des gesamten Jahres = 40% von 100,000 = 40,000. Daher für ein halbes Jahr 40,000 / 2 = 20,000*  
 
-*Linearer Betrag = 100,000 / 5 = 20.000. Daher für ein halbes Jahr 20.000 / 2 = 10.000*B  
+*Linearer Betrag = 100,000 / 5 = 20.000. Daher für ein halbes Jahr 20.000 / 2 = 10.000* B  
 
 Es wird der degressive Betrag verwendet, da es sich um den größeren Betrag handelt.  
 

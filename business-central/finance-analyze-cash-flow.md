@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 09bf4d364afdff27dc97396a2d88ea0a934379fb
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.openlocfilehash: 26df3104e99d9e6f647331c48b5a03f8f87c81a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542692"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913496"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysieren von Cashflow in Ihren Mandanten
 Die Diagramme im Buchhalter-Rollencenter liefern Einblicke, die Ihnen dabei helfen, fundierte Entscheidungen in Bezug auf die Verwendung Ihres Bargelds zu treffen.  
@@ -29,7 +29,7 @@ Die Diagramme im Buchhalter-Rollencenter liefern Einblicke, die Ihnen dabei helf
 | Sind die Zahlen für eine Periode außerhalb des Musters?</br> Sollte ich dies überprüfen? |Einnahmen und Ausgaben |
 | Wann könnte ein Bargeldüberschuss oder ein Bargelddefizit auftreten?</br> Sollten ich die Schuld abzahlen oder Geld ausleihen, um bevorstehende Ausgaben zu bezahlen? |Cashflowplanungen |
 
-Im Feld Rollencenter Buchhalte unter **Finanzleistung** geben die Diagramme **Bargeldumlauf**, **Cashflow** und **Einnahmen und Ausgaben** verschiedene Möglichkeiten, den Cashflow zu analysieren:  
+Im Feld Rollencenter Buchhalte unter **Finanzleistung** geben die Diagramme **Bargeldumlauf** , **Cashflow** und **Einnahmen und Ausgaben** verschiedene Möglichkeiten, den Cashflow zu analysieren:  
 
 * Sehen Sie sich die Zahlen für eine Periode an, indem Sie den Zeitachsenschieberegler verwenden.  
 * Filtern Sie ein Diagramm, indem Sie die Quelle in der Legende auswählen.  

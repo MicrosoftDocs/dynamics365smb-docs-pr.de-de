@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 732ba4989b5097e57ed6e42df1502053151ca36b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781210"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914910"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Suchen von Seiten mit dem Rollen-Explorer
 Sie können sich einen Überblick über alle Geschäftsfunktionen verschaffen, die für Ihre Rolle und für andere Rollen verfügbar sind, wenn Sie einen Schritt weiter gehen. In der folgenden Dokumentation wird diese Funktionsübersicht als *Rollen-Explorer* bezeichnet.
@@ -32,7 +32,7 @@ Wählen Sie die Aktion **Finden** oben im Rollen-Explorer, um schnell Feature-Na
 Wählen Sie die Aktion **Alles erkunden** oben im Rollen-Explorer, um einen Überblick über alle Geschäftsfunktionen zu erhalten, die für alle Rollen, einschließlich Ihrer eigenen, verfügbar sind.
 
 > [!NOTE]
-> Nur Rollencenter-Aktionen für Profile, bei denen das Kontrollkästchen **Im Rollen-Explorer anzeigen** aktiviert ist, werden in der erweiterten Version des Rollen-Explorers angezeigt (angezeigt mit der Aktion **Alle durchsuchen**). Weitere Informationen finden Sie unter [Profile verwalten](admin-users-profiles-roles.md).
+> Nur Rollencenter-Aktionen für Profile, bei denen das Kontrollkästchen **Im Rollen-Explorer anzeigen** aktiviert ist, werden in der erweiterten Version des Rollen-Explorers angezeigt (angezeigt mit der Aktion **Alle durchsuchen** ). Weitere Informationen finden Sie unter [Profile verwalten](admin-users-profiles-roles.md).
 
 ## <a name="to-expandcollapse-nodes-on-the-role-explorer"></a>So expandieren/komprimieren Sie Knoten im Rollen-Explorer
 Die Aktionen, die Seiten öffnen, sind unter Knoten organisiert, die nach den Features oder Anwendungsbereichen benannt sind. Jeder Knoten kann einzeln komprimiert oder expandiert werden, und Sie können alle Knoten zusammen komprimieren/expandieren.

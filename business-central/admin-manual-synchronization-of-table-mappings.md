@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 015084b999f7488339c98605018bff2bc9a4ded2
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: ba79088bc386a856f1b3e7727f1f778ebabb7d51
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196711"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911330"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synchronisieren Sie Tabellenzuordnungen manuell
 Eine Integrationstabellenzuordnung ordnet eine [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle (Datensatztyp), beispielsweise Debitor, einer [!INCLUDE[d365fin](includes/cds_long_md.md)]-Entität wie einem Konto zu. Die Synchronisierung einer Integrationstabellenzuordnung ermöglicht es Ihnen, Daten in allen Datensätzen der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tabelle und der [!INCLUDE[d365fin](includes/cds_long_md.md)]-Entität, die gekoppelt sind, zu synchronisieren. Je nach Konfiguration der Tabellenzuordnung kann die Synchronisierung zudem neue Datensätze in der Ziellösung für ungekoppelte Datensätze in der Quelle erstellen und koppeln.  
@@ -41,17 +41,17 @@ Ob und wo ein Datensatz erstellt wird, hängt von der Synchronisierungsrichtung 
 >  In der Regel nutzen Sie die vollständige Synchronisierung nur, wenn Sie erstmalig die Integration zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[d365fin](includes/cds_long_md.md)] einrichten und nur eine Lösung Daten enthält, die Sie zur anderen Lösung kopieren möchten. Eine vollständige Synchronisierung kann in einer Demonstrationsumgebung hilfreich sein. Da die vollständige Synchronisierung automatisch Datensätze zwischen den Lösungen erstellt, ist es schneller, zwischen Datensätzen mit der Synchronisierungsdatenarbeit zu beginnen. Andererseits sollten Sie nur dann eine vollständige Synchronisierung ausführen, wenn Sie einen Datensatz in [!INCLUDE[d365fin](includes/d365fin_md.md)] für jeden Datensatz in [!INCLUDE[d365fin](includes/cds_long_md.md)] für eine bestimmte Tabellenzuordnungen wünschen. Andernfalls können Sie unerwünschte oder doppelten Datensätze in [!INCLUDE[d365fin](includes/cds_long_md.md)] oder [!INCLUDE[d365fin](includes/d365fin_md.md)] erhalten.  
 
 ### <a name="to-run-a-full-synchronization"></a>So führen Sie eine vollständige Synchronisierung aus  
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Common Data Service Verbindungseinrichtung** ein und wählen Sie dann den entsprechenden Link.
+1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Common Data Service Verbindungseinrichtung** ein und wählen Sie dann den entsprechenden Link.
 
     > [!NOTE]
-    > Wenn Sie eine vollständige Synchronisierung für Entitäten über Dynamics 365 Sales ausführen möchten, verwenden Sie stattdessen die Seite **Microsoft Dynamics 365 Sales Verbindungseinrichtung**.
+    > Wenn Sie eine vollständige Synchronisierung für Entitäten über Dynamics 365 Sales ausführen möchten, verwenden Sie stattdessen die Seite **Microsoft Dynamics 365 Sales Verbindungseinrichtung** .
 
 2.  Wählen Sie die Aktion **Vollständige Synchronisierung ausführen** aus und wählen Sie dann die Schaltfläche **Ja** aus.  
 3.  Wenn die vollständige Synchronisierung abgeschlossen ist, können Sie angeben, ob Sie allen geplanten Synchronisierungsprojekten das Erstellen neuer Datensätze erlauben möchten.  
 
-    Wenn alle Synchronisierungsprojekte neue Datensätze im Ziel für nicht gekoppelte Datensätze in der Quelle erstellen sollen, wählen Sie **Ja**. Dies legt für das Feld **Nur gekoppelte Datensätze synchronisieren** für die Tabellenzuordnungen fest, die von den Synchronisierungsprojekten verwendet werden.  
+    Wenn alle Synchronisierungsprojekte neue Datensätze im Ziel für nicht gekoppelte Datensätze in der Quelle erstellen sollen, wählen Sie **Ja** . Dies legt für das Feld **Nur gekoppelte Datensätze synchronisieren** für die Tabellenzuordnungen fest, die von den Synchronisierungsprojekten verwendet werden.  
 
-    Wenn die Synchronisierungsprojekte hinsichtlich der Erstellung neuer Datensätze ausgeführt werden sollen, wie vor der vollständigen Synchronisierung, wählen Sie **Nein**. Damit wird das Feld **Nur gekoppelte Datensätze synchronisieren** auf die Einstellung festgelegt, die es vor der vollständigen Synchronisierung hatte.  
+    Wenn die Synchronisierungsprojekte hinsichtlich der Erstellung neuer Datensätze ausgeführt werden sollen, wie vor der vollständigen Synchronisierung, wählen Sie **Nein** . Damit wird das Feld **Nur gekoppelte Datensätze synchronisieren** auf die Einstellung festgelegt, die es vor der vollständigen Synchronisierung hatte.  
 
 Sie können die Ergebnisse der vollständigen Synchronisierung auf der Seite **Integrationssynchronisierungsprojekte** anzeigen. Weitere Informationen finden Sie unter [Status einer Synchronisierung anzeigen](admin-how-to-view-synchronization-status.md).  
 

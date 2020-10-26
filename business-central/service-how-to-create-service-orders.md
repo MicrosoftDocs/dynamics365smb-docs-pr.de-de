@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c469916fb5e1a86daaebe8aa1d51d6976e2777a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4f2f9602cb050639651a17ea6728eb40762f1ea6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784409"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918688"
 ---
 # <a name="create-service-orders"></a>Erstellen von Serviceaufträgen
 Sie können die Seite **Serviceauftrag** verwenden, um Belege zu erstellen, in die Sie Informationen über den Service (Reparatur und Wartung) von Serviceartikeln auf Debitorenanfrage eingeben.  
@@ -52,7 +52,7 @@ Serviceaufträge können für die Wartung von Serviceartikeln aus Verträgen ang
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>So konvertieren Sie ein Serviceangebot in einen Serviceauftrag
 Wenn ein Debitor ein Angebot akzeptiert hat, wandeln Sie dieses in einen Serviceauftrag um. Das Angebot wird gelöscht, und es wird ein neuer Serviceauftrag mit derselben Beschreibung wie im Angebot eingerichtet. Die Felder "Reagieren bis (Datum)" und "Reagieren bis (Zeit)" werden erneut berechnet, und der Status des Serviceauftrags wird auf **Offen** festgelegt. Der Reparaturstatus der Serviceartikel in dem Auftrag wird auf **Anfang** geändert.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sucht nach Zuordnungen für alle Serviceartikel des Serviceangebots mit dem Status **Aktiv**. Falls solche Zuordnungsposten gefunden werden, wird der Zuordnungsstatus auf **Neuzuordnung notwendig** aktualisiert. Wenn Sie die Serviceartikel in dem Serviceauftrag neu zuordnen, wird der Status der Zuordnungsposten, die für das Angebot erfasst wurden, auf **Erledigt** aktualisiert.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sucht nach Zuordnungen für alle Serviceartikel des Serviceangebots mit dem Status **Aktiv** . Falls solche Zuordnungsposten gefunden werden, wird der Zuordnungsstatus auf **Neuzuordnung notwendig** aktualisiert. Wenn Sie die Serviceartikel in dem Serviceauftrag neu zuordnen, wird der Status der Zuordnungsposten, die für das Angebot erfasst wurden, auf **Erledigt** aktualisiert.   
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Servicevertragsangebote** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie das Serviceangebot aus, das Sie in einen Serviceauftrag umwandeln möchten.  
@@ -61,7 +61,7 @@ Wenn ein Debitor ein Angebot akzeptiert hat, wandeln Sie dieses in einen Service
 ## <a name="to-check-item-availability-for-one-or-more-orders"></a>So überprüfen Sie die Artikelverfügbarkeit für mindestens einen Auftrag  
 Sie können überprüfen, ob ein Artikel, den Sie für einen Auftrag benötigen, auf Lager ist, und wenn nicht, wann der Artikel auf Lager sein wird. Außerdem können Sie, wenn ein Artikel reservierbar ist, ihn reservieren, um sicherzustellen, dass er für Ihre Verwendung verfügbar ist. Sie können die Verfügbarkeit für einen bestimmten Auftrag oder für alle Aufträge überprüfen.  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Einsatzplanung** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Einsatzplanung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Führen Sie einen der folgenden Schritte aus:  
 
     * Für einen bestimmten Auftrag wählen Sie den Auftrag und dann die **Bedarfsübersicht** Aktion aus.  
@@ -73,20 +73,20 @@ Sie können überprüfen, ob ein Artikel, den Sie für einen Auftrag benötigen,
 Wenn Sie sicher sein müssen, dass ein Artikel für einen Serviceauftrag verfügbar ist, können Sie den Artikel reservieren.
 
 1. Geben Sie im Feld **Suchen** **Serviceaufträge** ein, und wählen Sie dann den zugehörigen Link aus.  
-2. Wählen Sie das Menü Bestellung, und wählen Sie dann **Bearbeiten**.  
-3. Wählen Sie **Aktionen** , **Auftrag**, und klicken Sie anschließend auf **Servicezeilen**.  
+2. Wählen Sie das Menü Bestellung, und wählen Sie dann **Bearbeiten** .  
+3. Wählen Sie **Aktionen** , **Auftrag** , und klicken Sie anschließend auf **Servicezeilen** .  
 4. Auf der Seite **Servicezeilen** wählen Sie den zu reservierenden Artikel und die **Reservieren** Aktion aus.  
 5. Auf der Seite **Reservierung** wählen Sie **Von aktueller Zeile reservieren** aus.
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>So fügen Sie Zeilen basierend auf Standardservicecodes ein  
 Wenn Sie Standardservicecodes eingerichtet und Serviceartikelgruppen zugewiesen haben, können Sie die mit den Standardservicecodes verknüpften Standardzeilen in Servicebelege einfügen. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Standardservicecodes](service-how-setup-service-coding.md)   
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Serviceaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie einen neuen Serviceauftrag.  
 3. Füllen Sie die Felder je nach Bedarf aus.  
 4. Geben Sie in die Serviceartikelzeilen die erforderlichen Informationen ein.  
 5. Wählen Sie die Zeile mit dem Serviceartikel, für den Sie Servicezeilen erstellen möchten, und wählen Sie dann **Std.-Servicecodes abrufen** aus. Die Seite **Std.-Serviceartikelgr.-Codes** mit den Standardcodes für die Serviceartikelgruppe, die der Zeile entspricht, wird geöffnet.  
-6. Wählen Sie den entsprechenden Code aus, und klicken Sie auf **OK**, um Standardservicezeilen einzugeben.  
+6. Wählen Sie den entsprechenden Code aus, und klicken Sie auf **OK** , um Standardservicezeilen einzugeben.  
 
 > [!NOTE]  
 >  Wenn das Feld **Serviceartikelgruppencode** in der Serviceartikelzeile des Belegs leer ist, weist dies darauf hin, dass der Serviceartikel nicht zu einer Serviceartikelgruppe gehört. In diesem Fall enthält die Seite **Std.-Serviceartikelgr.-Codes** eine Liste aller Standardservicecodes. Sie sollten einen Code aus der Liste auswählen, um Standardservicezeilen in den Beleg einzufügen. Sie können auch aus einer Liste von Standardservicecodes wählen, die einer bestimmten Serviceartikelgruppe zugeordnet sind. Um die Liste anzuzeigen, wählen Sie den entsprechenden Code im Feld **Serviceartikelgruppencode** auf der Seite **Standard-Serviceartikelgruppen-Codes** aus.  
@@ -99,8 +99,8 @@ Aufträge werden automatisch gelöscht, nachdem diese vollständig fakturiert wu
 
 Serviceaufträge werden aber nicht automatisch gelöscht, wenn die Gesamtmenge des Auftrags nicht aus dem eigentlichen Serviceauftrag, sondern von der Seite **Servicerechnung** gebucht wurde. In diesem Fall müssen Sie fakturierte Aufträge, die nicht gelöscht wurden, manuell löschen. Dazu führen Sie die Stapelverarbeitung **Fakturierte Serviceaufträge löschen** aus.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Fakturierte Serviceaufträge löschen** ein und wählen Sie dann den entsprechenden Link. Das Anforderungsfenster des Batchauftragsseite **Servicebelegprotok. löschen** wird geöffnet.  
-2. Um die zu löschenden Aufträge auszuwählen, können Sie Filter in den Feldern **Nr.**, **Debitorennr.** und **Rech. an Deb.-Nr.** festlegen. Felder.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Fakturierte Serviceaufträge löschen** ein und wählen Sie dann den entsprechenden Link. Das Anforderungsfenster des Batchauftragsseite **Servicebelegprotok. löschen** wird geöffnet.  
+2. Um die zu löschenden Aufträge auszuwählen, können Sie Filter in den Feldern **Nr.** , **Debitorennr.** und **Rech. an Deb.-Nr.** festlegen. Felder.  
 3. Wählen Sie **OK** aus.  
 
 

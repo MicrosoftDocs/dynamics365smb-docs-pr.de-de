@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: fbc512242a335a938b6280e749f5278947e0db5e
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693149"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910805"
 ---
 # <a name="work-with-recurring-revenue-in-d365fin"></a>Arbeiten mit wiederkehrenden Umsätzen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -51,7 +51,7 @@ Weitere Informationen finden Sie unter [Erstellen von Projekt-Buch.-Blattzeilen]
 
 ## <a name="create-multiple-invoices-based-on-recurring-sales-lines"></a>Erstellen mehrerer Rechnungen basierend auf wiederkehrenden Verkaufszeilen
 
-Wenn Sie häufiger Verkaufs- und Einkaufszeilen mit ähnlichen Daten erstellen müssen, können Sie wiederkehrende Verkaufszeilen einrichten, die Sie anschließend in wiederkehrende Verkaufs- und Einkaufsbelege, z. B. in wiederkehrende Ersatzaufträge, einfügen können. Verwenden Sie den Batchauftrag **Wiederkehrende Verkaufsrechnungen erstellen**, um Verkaufsrechnungen gemäß wiederkehrenden Verkaufszeilen zu erstellen, die den Debitoren zugeordnet sind und Buchungsdaten enthalten, die innerhalb der Gültigkeitszeiträume liegen, die Sie in den wiederkehrenden Verkaufszeilen festgelegt haben.  
+Wenn Sie häufiger Verkaufs- und Einkaufszeilen mit ähnlichen Daten erstellen müssen, können Sie wiederkehrende Verkaufszeilen einrichten, die Sie anschließend in wiederkehrende Verkaufs- und Einkaufsbelege, z. B. in wiederkehrende Ersatzaufträge, einfügen können. Verwenden Sie den Batchauftrag **Wiederkehrende Verkaufsrechnungen erstellen** , um Verkaufsrechnungen gemäß wiederkehrenden Verkaufszeilen zu erstellen, die den Debitoren zugeordnet sind und Buchungsdaten enthalten, die innerhalb der Gültigkeitszeiträume liegen, die Sie in den wiederkehrenden Verkaufszeilen festgelegt haben.  
 
 ### <a name="why-use-this-option"></a>Warum sollten Sie diese Option verwenden?
 

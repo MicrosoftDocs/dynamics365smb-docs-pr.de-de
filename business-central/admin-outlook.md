@@ -1,30 +1,30 @@
 ---
 title: Nutzung von Business Central with Outlook| Microsoft Docs
-description: Dieser Service hat eine starke Integration mit Office 365 und macht es möglich, dass Sie Ihre Geschäftsaktivitäten und E-Mails mit Debitoren und Kreditoren direkt in Outlook verwalten können.
+description: Dieser Dienst hat eine starke Integration in Microsoft 365 und macht es möglich, dass Sie Ihre Geschäftsaktivitäten und E-Mails mit Debitoren und Kreditoren direkt in Outlook verwalten können.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.search.keywords: SMTP, mail, Microsoft 365
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 2167336c2fe4555a28d3d3eeaf4829d815d8fa04
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529263"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915735"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt die Möglichkeit vor, Geschäftsaktivitäten mit Ihren Debitoren und Kreditoren direkt in Microsoft Outlook zu verwalten. Mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, sowie Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.  
 
 ## <a name="getting-the-add-in"></a>Das Add-in abrufen
-Die ersten Schritte sind einfach mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-In für Outlook. Mit dem unterstützten Setup Richten Sie Ihren **Geschäfts-Eingang in Outlook** ein können Sie die Verbindung für sich oder für Ihre Organisation einrichten, wenn Ihre Organisation Office 365 verwendet. Geben Sie einfach Ihren Office 365 Benutzername und Passwort ein, wenn Sie dazu aufgefordert werden, und teilen Sie uns mit, ob Sie eine Beispiel-E-Mail-Nachricht erhalten möchten. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt. Weitere Informationen finden Sie unter [Mindestanforderungen für Outlook](product-requirements.md#outlook).  
+Die ersten Schritte sind einfach mit dem [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-In für Outlook. Mit dem unterstützten Setup **Ihren Unternehmensposteingang in Outlook einrichten** können Sie die Verbindung für sich oder für Ihre Organisation einrichten, wenn Ihre Organisation Microsoft 365 verwendet. Geben Sie einfach Ihren Microsoft 365-Benutzernamen und Ihr Kennwort ein, wenn Sie dazu aufgefordert werden, und teilen Sie uns mit, ob Sie eine Beispiel-E-Mail-Nachricht erhalten möchten. Die [!INCLUDE[d365fin](includes/d365fin_md.md)] Add-Ins werden dann automatisch Outlook hinzugefügt. Weitere Informationen finden Sie unter [Mindestanforderungen für Outlook](product-requirements.md#outlook).  
 
-Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht vom *Dynamics 365 Business Central Admin*. Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können die [!INCLUDE[prodshort](includes/prodshort.md)]-Add-Ins unmittelbar über oder unter dem Text der E-Mail sehen. Das Add-In selbst wird regelmäßig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
+Wenn Sie Outlook öffnen, sehen Sie eine E-Mail-Nachricht vom *Dynamics 365 Business Central Admin* . Das neue Add-In wird dem Outlook-Menüband und Outlook Web Access hinzugefügt. Sie können die [!INCLUDE[prodshort](includes/prodshort.md)]-Add-Ins unmittelbar über oder unter dem Text der E-Mail sehen. Das Add-In selbst wird regelmäßig aktualisiert, und Sie werden benachrichtigt, wenn eine neue Version in Outlook bereit ist.  
 
 > [!TIP]
 > Wenn Sie das neue Outlook im Web verwenden, können die [!INCLUDE[prodshort](includes/prodshort.md)]-Add-Ins unter **Weitere Aktionen** ausgeblendet werden. Wenn Sie das Add-In häufig verwenden, können Sie es so anheften, dass es immer sofort sichtbar ist. Weitere Informationen finden Sie unter [Verwenden von Add-Ins in Outlook im Web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
@@ -35,7 +35,7 @@ Wenn Sie mit mehr als einer [!INCLUDE[prodshort](includes/prodshort.md)] Firma a
 > [!NOTE]
 > Der Wechsel zwischen Unternehmen erfordert [!INCLUDE[prodshort](includes/prodshort.md)] 2019 Release Wave 2 oder höher wie angekündigt im [Release-Plan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-Einige Unternehmen, die Office 365 verwenden, schränken die Berechtigungen der Benutzer zur Bereitstellung von Add-Ins ein. Sie müssen also sicherstellen, dass Sie ein Office 365-Abonnement haben, das E-Mail enthält und Ihnen die Bereitstellung von Add-Ins erlaubt. Wenn Sie das Add-In trotzdem ausprobieren möchten, können Sie [Office 365 kostenlos ausprobieren](https://products.office.com/try).  
+Einige Unternehmen, die Microsoft 365 verwenden, schränken die Berechtigungen der Benutzer zur Bereitstellung von Add-Ins ein. Daher müssen Sie sicherstellen, ob Sie ein Microsoft 365-Abonnement haben, das E-Mail enthält und es Ihnen ermöglicht, Add-Ins bereitzustellen. Wenn Sie das Add-In testen möchten, können Sie [Microsoft 365 kostenlos testen](https://www.microsoft.com/microsoft-365/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Nutzung des Contact Insights Add-In
 Angenommen Sie erhalten eine E-Mail von einem Debitor, der für einige Artikel ein Angebot möchte. Sie können direkt in Outlook das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Add-In öffnen, das den Sender als Debitoren identifiziert und die Debitorenkarte für dieses Unternehmen öffnet. Auf diesem Dashboard können Sie Übersichtsinformationen zum Debitor sehen, sowie weitere Details zu bestimmten Belegen anzeigen. Sie können sich auch die Verkaufshistorie für den Debitor anzeigen lassen. Wenn es ein neuer Kontakt ist, können Sie ihn als neuen Debitor in Outlook erstellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] ohne Outlook zu verlassen.  
@@ -60,15 +60,15 @@ Im Dokumentenverknüpfungs-Add-In können Sie genauso Vorgänge für den Beleg a
 ## <a name="adding-the-add-ins-manually"></a>Das Add-In manuell hinzufügen
 In einigen Fällen werden die Add-Ins nicht automatisch hinzugefügt zu Outlook. Selbst wenn Sie oder ein Kollege die unterstützte Einrichtung im Auftrag des Unternehmens ausführen, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] möglicherweise nicht in Outlook angezeigt. Wenn Sie dieses Problem haben, können Sie die Add-Ins in [!INCLUDE[d365fin](includes/d365fin_md.md)] manuell hinzufügen.  
 
-Zuerst müssen Sie sicherstellen, dass Sie Zugriff auf die Add-Ins in Ihrem Office 365 Konto haben. Öffnen Sie einfach Outlook in einem Browser, öffnen Sie eine Nachricht, wählen Sie **Mehr Aktionen** (...) oben in der Nachricht und dann unten in der Liste **Add-Ins abrufen** aus. Dies öffnet die **Add-Ins für Outlook**-Seite, auf der Sie [!INCLUDE[prodshort](includes/prodshort.md)] für Outlook aktivieren können. Wenn Sie dann wieder zurück zu Outlook navigieren, sollte [!INCLUDE[prodshort](includes/prodshort.md)] verfügbar sein.  
+Zuerst müssen Sie sicherstellen, dass Sie Zugriff auf die Add-Ins in Ihrem Microsoft 365-Konto haben. Öffnen Sie einfach Outlook in einem Browser, öffnen Sie eine Nachricht, wählen Sie **Mehr Aktionen** (...) oben in der Nachricht und dann unten in der Liste **Add-Ins abrufen** aus. Dies öffnet die **Add-Ins für Outlook** -Seite, auf der Sie [!INCLUDE[prodshort](includes/prodshort.md)] für Outlook aktivieren können. Wenn Sie dann wieder zurück zu Outlook navigieren, sollte [!INCLUDE[prodshort](includes/prodshort.md)] verfügbar sein.  
 
 Analog können Sie im Outlook-Desktopclient überprüfen, ob [!INCLUDE[d365fin](includes/d365fin_md.md)] auf der Seite **Add-Ins abrufen** aufgeführt ist.  
 
-In beiden Fällen müssen Sie, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] immer noch nicht verfügbar sein, die Add-in-Manifest-Datei abrufen. Für weitere Informationen wenden Sie bitte an Ihren Office 365 Administrator.
+In beiden Fällen müssen Sie, sollte [!INCLUDE[d365fin](includes/d365fin_md.md)] immer noch nicht verfügbar sein, die Add-in-Manifest-Datei abrufen. Weitere Informationen erhalten Sie von Ihrem Microsoft 365-Administrator.
 
 ## <a name="using-other-email-accounts"></a>Verwenden anderer E-Mail-Konten
 
-Die Add-Ins sind für die Verwendung mit Office 365 konzipiert. Wenn Sie [!INCLUDE[prodshort](includes/prodshort.md)] lokal nutzen, wird Ihr Administrator wissen, ob Sie die [!INCLUDE[prodshort](includes/prodshort.md)] Add-Ins in Outlook verwenden können. Weitere Informationen finden Sie unter [Welche E-Mail-Adresse kann verwenden mit [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) uUnd [Funktionen, die bestimmte Umstände erfordern](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Die Add-Ins sind für die Verwendung in Microsoft 365 konzipiert. Wenn Sie [!INCLUDE[prodshort](includes/prodshort.md)] lokal nutzen, wird Ihr Administrator wissen, ob Sie die [!INCLUDE[prodshort](includes/prodshort.md)] Add-Ins in Outlook verwenden können. Weitere Informationen finden Sie unter [Welche E-Mail-Adresse kann ich in [!INCLUDE[prodshort](includes/prodshort.md)] verwenden?](across-faq.md#email) und im Artikel [Funktionen, die bestimmte Umstände erfordern](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) sowie im Abschnitt [Warum funktioniert das Outlook-Add-In für meine Benutzer nicht?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) in den allgemeinen häufig gestellten Fragen im Administratorinhalt.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

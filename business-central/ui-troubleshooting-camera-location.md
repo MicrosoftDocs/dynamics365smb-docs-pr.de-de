@@ -3,19 +3,19 @@ title: 'Problembehebung: Auf Kamera und Standort zugreifen'
 description: In diesem Artikel wird beschrieben, wie Fehler beim Zugriff auf Kamera- und Standortinformationen in Business Central behoben werden.
 author: blrobl
 ms.author: t-blrobl
-ms.date: 04/22/2020
+ms.date: 10/01/2020
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: 10338040ddcfb64dd91e9e55f607280e99720403
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781135"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912021"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Problembehebung: Auf Kamera und Standort zugreifen
 
@@ -29,11 +29,11 @@ Wenn Ihr Gerät über Kamera- und Standortfunktionen verfügt, jedoch weiterhin 
 
 ## <a name="access-permissions-not-enabled"></a>Zugriffsberechtigungen sind nicht aktiviert
 
-Sie müssen den allgemeinen Zugriff auf die Kamera und den Standort über die Datenschutzeinstellungen Ihres Geräts aktivieren und [!INCLUDE[prodshort](includes/prodshort.md)] ausdrücklich die Erlaubnis erteilen, darauf zuzugreifen. Wechseln Sie zu **Einstellungen**, und wählen Sie **Datenschutz** und dann **App-Berechtigungen** aus, wenn Sie beispielsweise die Berechtigungen für ein unter Windows ausgeführtes Gerät anzeigen oder ändern möchten. 
+Sie müssen den allgemeinen Zugriff auf die Kamera und den Standort über die Datenschutzeinstellungen Ihres Geräts aktivieren und [!INCLUDE[prodshort](includes/prodshort.md)] ausdrücklich die Erlaubnis erteilen, darauf zuzugreifen. Wechseln Sie zu **Einstellungen** , und wählen Sie **Datenschutz** und dann **App-Berechtigungen** aus, wenn Sie beispielsweise die Berechtigungen für ein unter Windows ausgeführtes Gerät anzeigen oder ändern möchten. 
 
-Bei mobilen Geräten müssen Sie der mobilen [!INCLUDE[prodshort](includes/prodshort.md)]-App Zugriffsberechtigungen für die Kamera und den Standort gewähren. Wechseln Sie dazu bei einem iOS-Gerät zu **Einstellungen**, und wählen Sie **Datenschutz** und dann **Kamera** oder **Standort** aus. Gehen Sie bei Android-Geräten zu **Einstellungen**, und wählen Sie **Apps & Benachrichtigungen**, **Erweitert**, **Berechtigungsmanager** und dann **Kamera** oder **Standort** aus.
+Bei mobilen Geräten müssen Sie der mobilen [!INCLUDE[prodshort](includes/prodshort.md)]-App Zugriffsberechtigungen für die Kamera und den Standort gewähren. Wechseln Sie dazu bei einem iOS-Gerät zu **Einstellungen** , und wählen Sie **Datenschutz** und dann **Kamera** oder **Standort** aus. Gehen Sie bei Android-Geräten zu **Einstellungen** , und wählen Sie **Apps & Benachrichtigungen** , **Erweitert** , **Berechtigungsmanager** und dann **Kamera** oder **Standort** aus.
 
-Wenn Sie [!INCLUDE[prodshort](includes/prodshort.md)] in einem Browser verwenden, müssen Sie [!INCLUDE[prodshort](includes/prodshort.md)] außerdem die Websiteberechtigung zum Zugriff auf die Kamera oder Standortinformationen gewähren. Zum Anzeigen oder Ändern der Berechtigungen einer Website im Microsoft Edge-Browser wechseln Sie zu **Einstellungen**, wählen Sie **Websiteberechtigungen** und dann **Kamera** oder **Standort** aus. Beachten Sie, dass dies bei anderen Browsern möglicherweise anders ist.
+Wenn Sie [!INCLUDE[prodshort](includes/prodshort.md)] in einem Browser verwenden, müssen Sie [!INCLUDE[prodshort](includes/prodshort.md)] außerdem die Websiteberechtigung zum Zugriff auf die Kamera oder Standortinformationen gewähren. Zum Anzeigen oder Ändern der Berechtigungen einer Website im Microsoft Edge-Browser wechseln Sie zu **Einstellungen** , wählen Sie **Websiteberechtigungen** und dann **Kamera** oder **Standort** aus. Beachten Sie, dass dies bei anderen Browsern möglicherweise anders ist.
 
 Das Gerät oder der Browser zeigt standardmäßig eine Anforderung für den Zugriff auf diese Funktionen an, wenn der Benutzer sie zum ersten Mal aktiviert.
 

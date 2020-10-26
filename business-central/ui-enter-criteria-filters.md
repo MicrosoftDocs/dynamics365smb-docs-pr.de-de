@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7e08a4487c9ae6782555530adc0c0cf4cfc5458e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c67ea33937ded164626e4c403522a7dc1f3dca0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786896"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912571"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortieren, Durchsuchen und Filtern
 
@@ -32,7 +32,7 @@ When you want to search for data, such as customer names, addresses, or product 
 
 ## <a name="sorting"></a>Sortieren
 
-Dank der Sortierfunktion können Sie sich schnell und einfach einen Überblick über Ihre Daten verschaffen. Wenn Sie beispielsweise über zahlreiche Debitorenkontakte verfügen, können Sie auswählen, um nach folgenden Kriterien zu sortieren: **Debitorennummer**, **Debitorenbuchungsgruppe**, **Währungscode**, **Länder-/Regionscode** oder **Verkaufssteuer-Registrierung**, um die gewünschte Übersicht zu erhalten.
+Dank der Sortierfunktion können Sie sich schnell und einfach einen Überblick über Ihre Daten verschaffen. Wenn Sie beispielsweise über zahlreiche Debitorenkontakte verfügen, können Sie auswählen, um nach folgenden Kriterien zu sortieren: **Debitorennummer** , **Debitorenbuchungsgruppe** , **Währungscode** , **Länder-/Regionscode** oder **Verkaufssteuer-Registrierung** , um die gewünschte Übersicht zu erhalten.
 
 Um eine Liste zu sortieren, können Sie entweder eine Spaltenüberschrift auswählen, um zwischen aufsteigender und absteigender Reihenfolge umzuschalten, oder den kleinen Pfeil-nach-Unten auswählen und **Aufsteigend** oder die Aktion **Absteigend** wählen.  
 
@@ -42,7 +42,7 @@ Um eine Liste zu sortieren, können Sie entweder eine Spaltenüberschrift auswä
 ## <a name="searching"></a>Suchen
 
 <!--## Searching by using the Quick Filter -->
-Am Anfang jeder Liste befindet sich eine Aktion ![Suchliste](media/ui-search/search-list.png "Symbol für die Suchliste") **Suchen**, die eine schnelle und einfache Möglichkeit bietet, die Datensätze in einer Liste zu verringern und nur die Datensätze mit den Daten anzuzeigen, die Sie anzeigen möchten.
+Am Anfang jeder Liste befindet sich eine Aktion ![Suchliste](media/ui-search/search-list.png "Symbol für die Suchliste") **Suchen** , die eine schnelle und einfache Möglichkeit bietet, die Datensätze in einer Liste zu verringern und nur die Datensätze mit den Daten anzuzeigen, die Sie anzeigen möchten.
 
 Zur Suche wählen Sie einfach die Aktion **Suchen** aus und geben dann im Feld den Text ein, nach dem Sie suchen. Sie können Buchstaben, Ziffern und andere Symbole eingeben.
 
@@ -64,11 +64,11 @@ Die folgende Tabelle enthält einige Beispiele, um zu erläutern, wie Sie die Su
 
 |Suchkriterien|Findet…|
 |---------------|----------|
-|`man`<br />oder <br />`Man`|Alle Datensätze mit Feldern, die den Text **man** enthalten, unabhängig der Groß-/Kleinschreibung. Beispielsweise **Mannheim**, **manuell** oder **Roman**. |
+|`man`<br />oder <br />`Man`|Alle Datensätze mit Feldern, die den Text **man** enthalten, unabhängig der Groß-/Kleinschreibung. Beispielsweise **Mannheim** , **manuell** oder **Roman** . |
 |`'Man'`|Alle Datensätze mit Feldern, die nur den Text **Man** enthalten und die Groß-/Kleinschreibung beachten.|
-|`Man*`|Alle Datensätze mit Feldern, die mit dem Text <b>Man</b> beginnen und die Groß-/Kleinschreibung beachten. Beispielsweise **Mannheim**, aber nicht **manuell** oder **Roman**.|
-|`@Man*`|Alle Datensätze mit Feldern, die mit dem Text **man** beginnen, ungeachtet der Groß-/Kleinschreibung. Beispielsweise **Mannheim** und **manuell**, aber nicht **Roman**.|
-|`@*man`|Alle Datensätze, die mit dem Text **man** enden, ungeachtet der Groß-/Kleinschreibung. Beispielsweise **Roman**, aber nicht **Mannheim** oder **manuell**.|
+|`Man*`|Alle Datensätze mit Feldern, die mit dem Text <b>Man</b> beginnen und die Groß-/Kleinschreibung beachten. Beispielsweise **Mannheim** , aber nicht **manuell** oder **Roman** .|
+|`@Man*`|Alle Datensätze mit Feldern, die mit dem Text **man** beginnen, ungeachtet der Groß-/Kleinschreibung. Beispielsweise **Mannheim** und **manuell** , aber nicht **Roman** .|
+|`@*man`|Alle Datensätze, die mit dem Text **man** enden, ungeachtet der Groß-/Kleinschreibung. Beispielsweise **Roman** , aber nicht **Mannheim** oder **manuell** .|
 
 > [!TIP]
 > Sie können **F3** drücken, um das Suchfeld zu aktivieren oder zu deaktivieren. Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
@@ -102,15 +102,15 @@ Für Felder vom Typ **Möglichkeit** können Sie einen Filter jedoch nur festleg
 
 In Listen legen Sie Filter mithilfe des Filterbereichs fest. Um den Filterbereich für eine Liste anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Namen der Seite und wählen Sie dann die **Filterbereich anzeigen** Aktion. Alternativ können Sie auch **UMSCHALT+F3** drücken.
 
-Um den Filterbereich für eine Spalte in einer Liste anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Namen der Seite und wählen Sie dann die **Filterbereich anzeigen** Aktion. Alternativ können Sie auch **UMSCHALT+F3** drücken. Das Filterfenster wird mit der ausgewählten Spalte geöffnet, die als Filterfeld im Fenster angezeigt wird im Abschnitt **Liste filtern nach**.
+Um den Filterbereich für eine Spalte in einer Liste anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Namen der Seite und wählen Sie dann die **Filterbereich anzeigen** Aktion. Alternativ können Sie auch **UMSCHALT+F3** drücken. Das Filterfenster wird mit der ausgewählten Spalte geöffnet, die als Filterfeld im Fenster angezeigt wird im Abschnitt **Liste filtern nach** .
 
 Der Filterbereich enthält die aktuellen Filter für eine Liste und ermöglicht es Ihnen, Ihre eigenen benutzerdefinierten Filter für mehrere Felder festzulegen, indem Sie die Aktion **+Filter** auswählen.
 
- Ein Filterbereich wird in drei Abschnitten aufgeteilt: **Ansichten**, **Liste filtern nach** und **Summen filtern nach**:
+ Ein Filterbereich wird in drei Abschnitten aufgeteilt: **Ansichten** , **Liste filtern nach** und **Summen filtern nach** :
 
 - **Ansichten**
 
-  Einige Listen enthalten den Abschnitt **Ansichten**. Ansichten sind Variationen der Liste, die mit Filtern vorkonfiguriert wurden. Sie können so viele Ansichten definieren und speichern, wie Sie möchten, und die Ansichten stehen Ihnen auf jedem Gerät zur Verfügung, auf dem Sie sich dann anmelden. Weitere Informationen finden Sie unter [Speichern und personalisieren von Listenansichten](ui-views.md).
+  Einige Listen enthalten den Abschnitt **Ansichten** . Ansichten sind Variationen der Liste, die mit Filtern vorkonfiguriert wurden. Sie können so viele Ansichten definieren und speichern, wie Sie möchten, und die Ansichten stehen Ihnen auf jedem Gerät zur Verfügung, auf dem Sie sich dann anmelden. Weitere Informationen finden Sie unter [Speichern und personalisieren von Listenansichten](ui-views.md).
 
 - **Liste filtern nach**
 
@@ -118,7 +118,7 @@ Der Filterbereich enthält die aktuellen Filter für eine Liste und ermöglicht 
 
 - **Summen filtern nach**
 
-  Einige Listen, die berechnete Felder anzeigen, z. B. Beträge und Mengen, enthalten den Abschnitt **Summen filtern nach**, in dem Sie verschiedene Dimensionen anpassen können, die Berechnungen beeinflussen. Um einen Filter hinzuzufügen, wählen Sie die **+ Filter** Aktion, geben Sie den Namen des Felds ein, nach dem Sie die Liste filtern möchten, oder wählen Sie ein Feld aus der Dropdown-Liste aus.
+  Einige Listen, die berechnete Felder anzeigen, z. B. Beträge und Mengen, enthalten den Abschnitt **Summen filtern nach** , in dem Sie verschiedene Dimensionen anpassen können, die Berechnungen beeinflussen. Um einen Filter hinzuzufügen, wählen Sie die **+ Filter** Aktion, geben Sie den Namen des Felds ein, nach dem Sie die Liste filtern möchten, oder wählen Sie ein Feld aus der Dropdown-Liste aus.
 
   > [!NOTE]
   > Filter im Abschnitt **Summen filtern nach** werden im Seitenentwurf durch FlowFilter gesteuert. Technischer Informationen finden Sie unter [FlowFilter](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
@@ -139,10 +139,10 @@ Sowohl im Filterbereich als auch auf einer Anforderungsseite geben Sie Ihre Filt
 
 Die Art des Filter-Feldes, das Sie filtern, bestimmt, welche Kriterien Sie eingeben können. Beispielsweise können Sie in einem Feld mit festen Werte nur in diesen Werten filtern. Weitere Informationen über spezielle Filtersymbole finden Sie unter [Filterkriterien](#FilterCriteria) und [Filtertoken](#FilterTokens)
 
-Spalten, die bereits Filter haben, werden durch das Symbol ![Filtersymbol](media/ui-search/filter-icon.png "Filtersymbol") in die Spaltenüberschrift angegeben. Wählen Sie den Dropdownpfeil im Seitentitel und dann **Filter löschen**, um einen Filter zu entfernen.
+Spalten, die bereits Filter haben, werden durch das Symbol ![Filtersymbol](media/ui-search/filter-icon.png "Filtersymbol") in die Spaltenüberschrift angegeben. Wählen Sie den Dropdownpfeil im Seitentitel und dann **Filter löschen** , um einen Filter zu entfernen.
 
 > [!TIP]
-> Beschleunigen Sie die Suche und das Analysieren Ihrer Daten, indem Sie Kombinationen von Tastenkombinationen verwenden. Wählen Sie zum Beispiel ein Feld aus, verwenden Sie **UMSCHALT+ALT+F3**, um diesen Filter dem Filterbereich hinzuzufügen und verwenden Sie **STRG+EINGABETASTE**, um die Zeilen zurückzugeben, wählen Sie ein anderes Feld aus und verwenden Sie **ALT+F3**, um zu diesem Wert zu filtern. Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
+> Beschleunigen Sie die Suche und das Analysieren Ihrer Daten, indem Sie Kombinationen von Tastenkombinationen verwenden. Wählen Sie zum Beispiel ein Feld aus, verwenden Sie **UMSCHALT+ALT+F3** , um diesen Filter dem Filterbereich hinzuzufügen und verwenden Sie **STRG+EINGABETASTE** , um die Zeilen zurückzugeben, wählen Sie ein anderes Feld aus und verwenden Sie **ALT+F3** , um zu diesem Wert zu filtern. Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
 
 ### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Filterkriterien und Symbole
 
@@ -252,7 +252,7 @@ Wenn Sie Filterkriterien eingeben, können Sie auch Begriffe mit besonderer Bede
 
 #### <a name="me-or-userid-records-assigned-to-you"></a>(%me oder %userid) Ihnen zugewiesene Datensätze
 
-Verwenden Sie `%me` oder `%userid`, wenn Sie Felder filtern, die die Benutzer-ID, wie das Feld **Benutzer-ID zugewiesen**, enthalten, um alle Datensätze anzuzeigen, die Ihnen zugeordnet werden.
+Verwenden Sie `%me` oder `%userid`, wenn Sie Felder filtern, die die Benutzer-ID, wie das Feld **Benutzer-ID zugewiesen** , enthalten, um alle Datensätze anzuzeigen, die Ihnen zugeordnet werden.
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
@@ -260,7 +260,7 @@ Verwenden Sie `%me` oder `%userid`, wenn Sie Felder filtern, die die Benutzer-ID
 
 #### <a name="mycustomers-customers-in-my-customers"></a>(%mycustomers) Debitoren in "Meine Debitoren"
 
-Verwenden Sie `%mycustomers` im Feld Debitoren-**Nr**, um alle Datensätze für Debitoren anzuzeigen, die in der Liste **Meine Debitoren** in Ihrem Rollencenter enthalten sind.
+Verwenden Sie `%mycustomers` im Feld Debitoren- **Nr** , um alle Datensätze für Debitoren anzuzeigen, die in der Liste **Meine Debitoren** in Ihrem Rollencenter enthalten sind.
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
@@ -268,7 +268,7 @@ Verwenden Sie `%mycustomers` im Feld Debitoren-**Nr**, um alle Datensätze für 
 
 #### <a name="myitems-items-in-my-items"></a>(%myitems) Artikel in "Meine Artikel"
 
-Verwenden Sie `%myitems` im Feld Artikel-**Nr**, um alle Datensätze für Artikel anzuzeigen, die in der Liste **Meine Artikel** in Ihrem Rollencenter enthalten sind.
+Verwenden Sie `%myitems` im Feld Artikel- **Nr** , um alle Datensätze für Artikel anzuzeigen, die in der Liste **Meine Artikel** in Ihrem Rollencenter enthalten sind.
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
@@ -276,7 +276,7 @@ Verwenden Sie `%myitems` im Feld Artikel-**Nr**, um alle Datensätze für Artike
 
 #### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) in "Meine Kreditoren"
 
-Verwenden Sie `%myvendors` im Feld Kreditoren-**Nr**, um alle Datensätze für Kreditoren anzuzeigen, die in der Liste **Meine Kreditoren** in Ihrem Rollencenter enthalten sind.
+Verwenden Sie `%myvendors` im Feld Kreditoren- **Nr** , um alle Datensätze für Kreditoren anzuzeigen, die in der Liste **Meine Kreditoren** in Ihrem Rollencenter enthalten sind.
 
 |Beispielausdruck|Angezeigte Datensätze|  
 |-----------------------|-----------------------|  
