@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
-ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
+ms.openlocfilehash: 51f04f690483fd5b0c3f093ac5f8e2694ca3fdd9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3701992"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924628"
 ---
 # <a name="connect-to-common-data-service"></a>Mit Common Data Service verbinden
 
@@ -34,7 +34,7 @@ Sie müssen einige Informationen bereithalten, bevor Sie die Verbindung herstell
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Eine Verbindung mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten
 
-Für alle anderen Authentifizierungstypen als die Office 365-Authentifizierung richten Sie Ihre Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] auf der Seite **CDS-Verbindungseinrichtung** ein. Für die Office 365-Authentifizierung empfehlen wir die Verwendung des unterstützten Setups für die **Common Data Service-Verbindung**. Der Leitfaden erleichtert die Einrichtung der Verbindung und die Festlegung erweiterter Funktionen, z. B. Personenbesitz und Erstsynchronisierung.  
+Für alle anderen Authentifizierungstypen als die Microsoft 365-Authentifizierung richten Sie Ihre Verbindung mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] auf der Seite **CDS-Verbindungseinrichtung** ein. Für die Microsoft 365-Authentifizierung empfehlen wir die Anleitung zum unterstützten Setup **Common Data Service-Verbindung einrichten** . Der Leitfaden erleichtert die Einrichtung der Verbindung und die Festlegung erweiterter Funktionen, z. B. Personenbesitz und Erstsynchronisierung.  
 
 > [!IMPORTANT]
 > Während der Einrichtung der Verbindung mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] wird der Administrator aufgefordert, der registrierten Azure-Anwendung mit dem Namen [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration für [!INCLUDE[cds_long_md](includes/cds_long_md.md)] zu erteilen:
@@ -47,7 +47,7 @@ Für alle anderen Authentifizierungstypen als die Office 365-Authentifizierung r
 
 ### <a name="to-use-the-set-up-common-data-service-connection-assisted-setup-guide"></a>So verwenden Sie das unterstützte Setup zum Einrichten der Common Data Service-Verbindung
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Unterstützte Einrichtung** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Unterstützte Einrichtung** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie **Common Data Service-Verbindung einrichten** aus, um das unterstützte Setup zu starten.
 3. Füllen Sie die Felder nach Bedarf aus.
 
@@ -55,7 +55,7 @@ Für alle anderen Authentifizierungstypen als die Office 365-Authentifizierung r
 
 Die folgende Prozedur beschreibt, wie die Verbindung auf der Seite **CDS-Verbindungsaufbau** manuell eingerichtet wird. Dies ist auch die Seite, auf der Sie Einstellungen für die Integration verwalten.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **CDS-Verbindungsaufbau** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **CDS-Verbindungsaufbau** ein, und wählen Sie dann den entsprechenden Link.
 2. Geben Sie die folgenden Informationen über die Verbindung von [!INCLUDE[d365fin](includes/d365fin_md.md)] mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] ein.
 
     |Feld|Beschreibung|
@@ -70,10 +70,10 @@ Die folgende Prozedur beschreibt, wie die Verbindung auf der Seite **CDS-Verbind
 
     |Feld|Beschreibung|
     |-----|-----|
-    |**[!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzer müssen CDS-Benutzern zugeordnet sein**|Wenn Sie das Personenbesitzmodell verwenden, geben Sie an, ob [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzerkonten über übereinstimmende Benutzerkonten in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verfügen müssen. Die **Office 365-Authentifizierungs-E-Mail** des [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzers muss mit der **Primären E-Mail** des [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzers identisch sein.<br /><br /> Wenn Sie den Wert auf **Ja** festlegen, werden [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzer, die kein zugeordnetes [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzerkonto haben, keine [!INCLUDE[d365fin](includes/d365fin_md.md)]-Integrationsfunktionen auf der Benutzeroberfläche haben. Der Zugriffs auf [!INCLUDE[crm_md](includes/crm_md.md)]-Daten direkt von [!INCLUDE[d365fin](includes/d365fin_md.md)] wird im Auftrag des [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzerkontos ausgeführt.<br /><br /> Wenn Sie den Wert auf **Nein** festlegen, werden alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzer [!INCLUDE[crm_md](includes/crm_md.md)]-Integrationsfunktionen auf der Benutzeroberfläche haben. Der Zugriffs auf [!INCLUDE[crm_md](includes/crm_md.md)]-Daten wird im Auftrag des [!INCLUDE[crm_md](includes/crm_md.md)]-Verbindungs-(Integrations-)Benutzers ausgeführt.|
+    |**[!INCLUDE[d365fin](includes/d365fin_md.md)] Benutzer müssen CDS-Benutzern zugeordnet sein**|Wenn Sie das Personenbesitzmodell verwenden, geben Sie an, ob [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzerkonten über übereinstimmende Benutzerkonten in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verfügen müssen. Die **Microsoft 365-Authentifizierungs-E-Mail** des [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzers muss mit der **Primären E-Mail** des [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzers identisch sein.<br /><br /> Wenn Sie den Wert auf **Ja** festlegen, werden [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzer, die kein zugeordnetes [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzerkonto haben, keine [!INCLUDE[d365fin](includes/d365fin_md.md)]-Integrationsfunktionen auf der Benutzeroberfläche haben. Der Zugriffs auf [!INCLUDE[crm_md](includes/crm_md.md)]-Daten direkt von [!INCLUDE[d365fin](includes/d365fin_md.md)] wird im Auftrag des [!INCLUDE[crm_md](includes/crm_md.md)]-Benutzerkontos ausgeführt.<br /><br /> Wenn Sie den Wert auf **Nein** festlegen, werden alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-Benutzer [!INCLUDE[crm_md](includes/crm_md.md)]-Integrationsfunktionen auf der Benutzeroberfläche haben. Der Zugriffs auf [!INCLUDE[crm_md](includes/crm_md.md)]-Daten wird im Auftrag des [!INCLUDE[crm_md](includes/crm_md.md)]-Verbindungs-(Integrations-)Benutzers ausgeführt.|
     |**Der aktuelle Business Central-Verkäufer ist einem Benutzer zugeordnet**|Gibt an, ob Ihr Benutzerkonto einem Konto ist [!INCLUDE[crm_md](includes/crm_md.md)] zugeordnet ist <!--double check the name of this field-->|
 
-4. Um die Verbindungseinstellungen zu testen, wählen Sie **Verbindung**, und dann **Verbindung testen**.  
+4. Um die Verbindungseinstellungen zu testen, wählen Sie **Verbindung** , und dann **Verbindung testen** .  
 
     > [!NOTE]  
     > Wenn keine Datenverschlüsselung in [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiviert ist, werden Sie gefragt, ob sie diese aktivieren möchten. Um Datenverschlüsselung zu aktivieren, wählen Sie **Ja** aus, und stellen Sie die erforderlichen Informationen bereit. Anderenfalls wählen Sie **Nein** aus. Sie können die Datenverschlüsselung später aktivieren. Weitere Informationen finden Sie unter [Verschlüsseln von Daten in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in der Hilfe für Entwickler und die Verwaltung.  
@@ -100,16 +100,16 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie Azure AD verwenden,
 2. Fügen Sie unter **URLs umleiten** die Umleitungs-URL hinzu, die auf der Seite **Common Data Service-Verbindungseinrichtung** in [!INCLUDE[d365fin](includes/d365fin_md.md)] vorgeschlagen wird.
 3. Wählen Sie unter **Verwalten** die Option **API-Berechtigungen** aus.
 4. Wählen Sie unter **Konfigurierte Berechtigungen** die Option **Berechtigung hinzufügen** aus, und fügen Sie anschließen der Registerkarte **Microsoft APIs** delegierte Berechtigungen hinzu:
-    * Fügen Sie für Business Central die **Financials.ReadWrite.All**-Berechtigungen hinzu.
-    * Fügen Sie für Dynamics CRM die **user_impersonation**-Berechtigungen hinzu.  
+    * Fügen Sie für Business Central die **Financials.ReadWrite.All** -Berechtigungen hinzu.
+    * Fügen Sie für Dynamics CRM die **user_impersonation** -Berechtigungen hinzu.  
 
     > [!NOTE]
     > Der Name der Dynamics CRM-API kann sich ändern.
 
-5. Wählen Sie unter **Verwalten** die Option **Zertifikate & Geheimnisse** aus, und erstellen Sie dann einen neuen geheimen Schlüssel für Ihre App. Sie verwenden den geheimen Schlüssel in [!INCLUDE[d365fin](includes/d365fin_md.md)], im Feld **Geheimer Clientschlüssel** auf der Seite **Common Data Service-Verbindungseinrichtung**, oder Sie speichern ihn in einem sicheren Speicher und stellen ihn in einem Ereignisabonnenten bereit, wie weiter oben in diesem Thema beschrieben.
-6. Wählen Sie **Übersicht** aus, und suchen Sie dann den Wert **Anwendungs-(Client-)ID**. Dies ist die Client-ID Ihrer Anwendung. Sie müssen sie auf der Seite **Common Data Service-Verbindungseinrichtung** im Feld **Client-ID** eingeben oder in einem sicheren Speicher speichern und in einem Ereignisabonnenten bereitstellen.
+5. Wählen Sie unter **Verwalten** die Option **Zertifikate & Geheimnisse** aus, und erstellen Sie dann einen neuen geheimen Schlüssel für Ihre App. Sie verwenden den geheimen Schlüssel in [!INCLUDE[d365fin](includes/d365fin_md.md)], im Feld **Geheimer Clientschlüssel** auf der Seite **Common Data Service-Verbindungseinrichtung** , oder Sie speichern ihn in einem sicheren Speicher und stellen ihn in einem Ereignisabonnenten bereit, wie weiter oben in diesem Thema beschrieben.
+6. Wählen Sie **Übersicht** aus, und suchen Sie dann den Wert **Anwendungs-(Client-)ID** . Dies ist die Client-ID Ihrer Anwendung. Sie müssen sie auf der Seite **Common Data Service-Verbindungseinrichtung** im Feld **Client-ID** eingeben oder in einem sicheren Speicher speichern und in einem Ereignisabonnenten bereitstellen.
 7. Geben Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] auf der Seite **Common Data Service-Verbindungseinrichtung** im Feld **Umgebungs-URL** die URL für Ihre [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Umgebung ein.
-8. Aktivieren Sie das Kontrollkästchen **Aktiviert**, um die Verbindung mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] zu aktivieren.
+8. Aktivieren Sie das Kontrollkästchen **Aktiviert** , um die Verbindung mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] zu aktivieren.
 9. Melden Sie sich mit Ihrem Administratorkonto für Azure Active Directory an (dieses Konto muss eine gültige Lizenz für [!INCLUDE[cds_long_md](includes/cds_long_md.md)] haben und ein Administrator in Ihrer [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Umgebung sein). Nachdem Sie sich angemeldet haben, werden Sie aufgefordert, Ihrer registrierten Anwendung zu erlauben, sich im Namen der Organisation bei [!INCLUDE[cds_long_md](includes/cds_long_md.md)] anzumelden. Sie müssen Ihre Zustimmung geben, um die Einrichtung abzuschließen.
 
    > [!NOTE]

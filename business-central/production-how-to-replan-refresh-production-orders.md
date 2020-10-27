@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48986fc36332c4bbca3f84208261fe8215e58f92
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: edfcb7904f540edad7f471511de9047c511a2cb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781860"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921592"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen
 Die Funkion **Neu Planen** wird in der Regel nach dem Hinzufügen bzw. Ändern von Komponenten ausgeführt, aus denen sich zugrunde liegende Fertigungsaufträge zusammensetzen. Mit dieser Planungsfunktion werden Änderungen berechnet, die an Komponenten und Arbeitsgängen vorgenommen werden. Dabei werden Artikel auf niedrigeren Ebenen der Fertigungsstückliste berücksichtigt, für die ggf. neue Fertigungsaufträge erstellt werden.  
@@ -37,11 +37,11 @@ Sie können die FA-Zeilen entweder manuell eintragen oder Sie verwenden die Funk
 ## <a name="to-replan-a-production-order"></a>Einen Fertigungsauftrag neu planen  
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Feste geplante Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie den Fertigungsauftrag, den Sie neu planen wollen.  
-3.  Wählen Sie im Inforegister **Zeilen** die Aktionen **Zeilen**, und dann Zeilen, und dann **Komponenten**.  
+3.  Wählen Sie im Inforegister **Zeilen** die Aktionen **Zeilen** , und dann Zeilen, und dann **Komponenten** .  
 4.  Fügen Sie eine Komponente hinzu, die einen Fertigungsartikel oder eine Unterkomponente darstellt.  
-5.  Klicken Sie im Fertigungsauftrag auf die Aktion **Neu planen**.  
+5.  Klicken Sie im Fertigungsauftrag auf die Aktion **Neu planen** .  
 
-    Definieren Sie auf der Seite **FA neu planen**, wie und was neu geplant werden soll.  
+    Definieren Sie auf der Seite **FA neu planen** , wie und was neu geplant werden soll.  
 6.  Wählen Sie im Feld **Planungsrichtung** eine der folgenden Optionen aus.  
 
     |Option|Description|  
@@ -57,7 +57,7 @@ Sie können die FA-Zeilen entweder manuell eintragen oder Sie verwenden die Funk
     |**"Eine Ebene"**|Planen für Fertigungsbedarf auf der ersten Ebene. Es können Fertigungsaufträge der ersten Ebenen erstellt werden.|  
     |**"Alle Ebenen"**|Planen für Fertigungsbedarf auf allen Ebenen. (Es können Fertigungsaufträge für alle Ebenen erstellt werden.)|  
 
-8.  Wählen Sie **Eine Ebene**, und wählen Sie die Schaltfläche **OK**, um den Fertigungsauftrag neu zu planen, sowie einen neuen zugrunde liegenden Fertigungsauftrag für die eingeführte Unterkomponente zu berechnen und zu erstellen, wenn diese nicht vollständig verfügbar ist.  
+8.  Wählen Sie **Eine Ebene** , und wählen Sie die Schaltfläche **OK** , um den Fertigungsauftrag neu zu planen, sowie einen neuen zugrunde liegenden Fertigungsauftrag für die eingeführte Unterkomponente zu berechnen und zu erstellen, wenn diese nicht vollständig verfügbar ist.  
 
 > [!NOTE]  
 >  Mithilfe der Funktion **Neu planen** implementierte Änderungen wirken sich mit hoher Wahrscheinlichkeit auf den Kapazitätsbedarf des Fertigungsauftrags aus, sodass Sie die Arbeitsgänge anschließend ggf. neu planen müssen.  
@@ -79,7 +79,7 @@ Wenn Sie FA-Zeilen geändert haben, dann müssen Sie die Komponenten des Fertigu
     ||**Komponentenbedarf**|Dieses Feld hat keinen Einfluss auf die Berechnung der FA-Zeilen.|  
     |**Logistik**|**Eingehende erwartete Lagerbewegung erstellen**|Dieses Feld hat keinen Einfluss auf die Berechnung der FA-Zeilen.|  
 
-5. Klicken Sie zum Bestätigen auf die Schaltfläche **OK**. Nun werden die FA-Zeilen berechnet.
+5. Klicken Sie zum Bestätigen auf die Schaltfläche **OK** . Nun werden die FA-Zeilen berechnet.
 
 > [!NOTE]  
 >  Die Berechnung der FA-Komponenten löscht die bisherigen Änderungen in den Komponenten.

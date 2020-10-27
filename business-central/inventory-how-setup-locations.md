@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 805439e0cc50fe0b9dc3132050eb7c7041ffe7a7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 81ee1ad91bd4ec887d85e940152f18e99a6d464c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785946"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923770"
 ---
 # <a name="set-up-locations"></a>Einrichten von Lagerorten
 Wenn Sie Artikel a mehr als einem Ort oder Lagerort kaufen, lagern oder verkaufen, müssen Sie jeden Lagerplatz mit einer Lagerortkarte einrichten und Umlagerungsrouten definieren.
@@ -29,7 +29,7 @@ Sie können dann Belegzeilen für einen bestimmten Lagerplatz erstellen, Verfüg
 
 ## <a name="to-create-a-location-card"></a>So erstellen Sie eine Lagerortkarte
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerorte** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die Aktion **Neu**.
+2. Wählen Sie die Aktion **Neu** .
 3. Füllen Sie auf der Seite **Lagerortkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wiederholen Sie die Schritte 2 und 3 für jeden Lagerplatz, an dem Sie Lagerbestand aufbewahren möchten.
 

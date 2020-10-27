@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/01/2020
-ms.openlocfilehash: 7d9ad42f501d3fe7a810fba7573488e8988e7406
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.date: 10/01/2020
+ms.openlocfilehash: 607e34730cbca4992212c293a73ff077b0b081a9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532644"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925105"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
@@ -66,7 +66,7 @@ Stellen Sie sicher, dass Sie die Liste nach eingereichten Vorschlägen durchsuch
 
 ## <a name="troubleshooting"></a>Problembehebung
 
-Der Abschnitt **Problembehebung** zeigt technischen Informationen, die Ihr Administrator oder [!INCLUDE[prodshort](includes/prodshort.md)]-Partner verwenden können, um Benutzern zu helfen. Dies beinhaltet Informationen über die letzte Fehlermeldung, die aktuelle Version von Ihrem [!INCLUDE[prodshort](includes/prodshort.md)] und einen Link zur Seite **Seitenüberprüfung**. Weitere Informationen finden Sie unter [Seiten in Business Central überprüfen](across-inspect-page.md).  
+Der Abschnitt **Problembehebung** zeigt technischen Informationen, die Ihr Administrator oder [!INCLUDE[prodshort](includes/prodshort.md)]-Partner verwenden können, um Benutzern zu helfen. Dies beinhaltet Informationen über die letzte Fehlermeldung, die aktuelle Version von Ihrem [!INCLUDE[prodshort](includes/prodshort.md)] und einen Link zur Seite **Seitenüberprüfung** . Weitere Informationen finden Sie unter [Seiten in Business Central überprüfen](across-inspect-page.md).  
 
 Als interner Administrator haben Sie Zugriff auf das Admin Center, in dem Sie die Fehlerbehebung fortsetzen können. Sie können Telemetrie anzeigen, Umgebungen verwalten und Benutzersitzungen verwalten. Weitere Informationen finden Sie unter [Technische Informationen finden](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) und [Umgebungen verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) im Verwaltungsinhalt.  
 
@@ -95,7 +95,7 @@ Der Navigationsbereich links, das Inhaltsverzeichnis, gruppiert Artikel nach Ges
 
 Das Inhaltsverzeichnis enthält eine Inhaltsgruppe, die die lokalen Funktionen für die von Microsoft unterstützten Länder beschreibt. Wenn Ihr Land dort nicht aufgeführt ist, liegt dies wahrscheinlich daran, dass Ihr Land von einem Partner lokalisiert wird. Weitere Informationen finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-Der lokale Funktionsinhalt beschreibt die Funktionen in [!INCLUDE [prodshort](includes/prodshort.md)], die Ihnen helfen, in den unterstützten Märkten, z. B. Steuererklärungen und andere Berichte, konform zu sein. In einigen Fällen ist der Unterschied zwischen der Standardversion und der länderspezifischen Version für Benutzer nicht sichtbar. In anderen Fällen müssen Benutzer die Berichterstellung oder die elektronische Rechnungsstellung auf eine bestimmte Weise einrichten. Wenn im Standardabschnitt des Inhalts auf der docs.microsoft.com-Website keine Beschreibung einer bestimmten Schaltfläche oder Aktion verfügbar ist, finden Sie diese hoffentlich im Abschnitt *Lokale Funktionalität*.  
+Der lokale Funktionsinhalt beschreibt die Funktionen in [!INCLUDE [prodshort](includes/prodshort.md)], die Ihnen helfen, in den unterstützten Märkten, z. B. Steuererklärungen und andere Berichte, konform zu sein. In einigen Fällen ist der Unterschied zwischen der Standardversion und der länderspezifischen Version für Benutzer nicht sichtbar. In anderen Fällen müssen Benutzer die Berichterstellung oder die elektronische Rechnungsstellung auf eine bestimmte Weise einrichten. Wenn im Standardabschnitt des Inhalts auf der docs.microsoft.com-Website keine Beschreibung einer bestimmten Schaltfläche oder Aktion verfügbar ist, finden Sie diese hoffentlich im Abschnitt *Lokale Funktionalität* .  
 
 ### <a name="finding-other-content"></a>Suchen anderer Inhalte
 
@@ -108,7 +108,7 @@ Wenn Sie auf einen Artikel stoßen, der Ihre Frage nicht beantwortet, können Si
   Unter jedem Link können Sie sehen, wo sich dieser Artikel im Inhaltsverzeichnis befindet. Auf diese Weise können Sie leicht feststellen, ob sich der Artikel beispielsweise im Abschnitt „Einkauf“ oder im Abschnitt „Lokale Funktion (Australien)“ befindet.  
 - Verwenden Sie das Feld **Suche** in der oberen rechten Ecke der Website
 
-  Auf diese Weise können Sie nach einem beliebigen Begriff suchen. Die Website durchsucht dann den gesamten Inhalt nach diesem Begriff oder Ausdruck. Suchen Sie erneut nach *Rechnung*, und scrollen Sie durch die Liste mit Hunderten von Artikeln im [!INCLUDE [prodshort](includes/prodshort.md)]-Inhalt, der dieses Wort irgendwo im Text verwendet.  
+  Auf diese Weise können Sie nach einem beliebigen Begriff suchen. Die Website durchsucht dann den gesamten Inhalt nach diesem Begriff oder Ausdruck. Suchen Sie erneut nach *Rechnung* , und scrollen Sie durch die Liste mit Hunderten von Artikeln im [!INCLUDE [prodshort](includes/prodshort.md)]-Inhalt, der dieses Wort irgendwo im Text verwendet.  
 
 ### <a name="languages"></a>Sprachen
 
@@ -122,12 +122,12 @@ Das Inhaltsverzeichnis wird für jede Sprache übersetzt, der Inhalt im Abschnit
 
 ### <a name="providing-feedback"></a>Feedback geben
 
-Auf docs.microsoft.com sind für jeden Artikel zwei Schaltflächen am Ende des Artikels verfügbar. Über die Schaltfläche *Produktfeedback* gelangen Sie zur Website „Ideen“ und über die Schaltfläche *Anmelden, um Feedback zur Dokumentation zu geben* können Sie Feedback zum Inhalt über GitHub senden. In beiden Fällen müssen Sie ein Konto erstellen, falls Sie noch keines haben. Für *Produktfeedback* müssen Sie sich mit Ihrem Arbeits- oder Organisations-E-Mail-Konto anmelden. Für *Zugriff auf GitHub*können Sie beim Erstellen eines Kontos eine beliebige E-Mail-Adresse verwenden.  
+Auf docs.microsoft.com sind für jeden Artikel zwei Schaltflächen am Ende des Artikels verfügbar. Über die Schaltfläche *Produktfeedback* gelangen Sie zur Website „Ideen“ und über die Schaltfläche *Anmelden, um Feedback zur Dokumentation zu geben* können Sie Feedback zum Inhalt über GitHub senden. In beiden Fällen müssen Sie ein Konto erstellen, falls Sie noch keines haben. Für *Produktfeedback* müssen Sie sich mit Ihrem Arbeits- oder Organisations-E-Mail-Konto anmelden. Für *Zugriff auf GitHub* können Sie beim Erstellen eines Kontos eine beliebige E-Mail-Adresse verwenden.  
 
-Wir freuen uns über Ihre Beiträge, sowohl als Pull-Anforderung mit Vorschlägen oder als Korrekturen am Inhalt als auch als GitHub-Probleme mit Fehlern oder Fragen. Aber bitte beachten Sie, dass beim Feedback und den Beiträgen zum *dynamic365smb-docs*-Repo um den Inhalt und nicht um das Produkt geht.  
+Wir freuen uns über Ihre Beiträge, sowohl als Pull-Anforderung mit Vorschlägen oder als Korrekturen am Inhalt als auch als GitHub-Probleme mit Fehlern oder Fragen. Aber bitte beachten Sie, dass beim Feedback und den Beiträgen zum *dynamic365smb-docs* -Repo um den Inhalt und nicht um das Produkt geht.  
 
 > [!IMPORTANT]
-> Microsoft akzeptiert nur Pull-Anforderungen an das *dynamic365smb-docs*-Repo, nicht an die sprachspezifischen Repos. Wenn Sie Feedback zu Übersetzungen haben, können Sie ein GitHub-Problem im entsprechenden Repo melden.  
+> Microsoft akzeptiert nur Pull-Anforderungen an das *dynamic365smb-docs* -Repo, nicht an die sprachspezifischen Repos. Wenn Sie Feedback zu Übersetzungen haben, können Sie ein GitHub-Problem im entsprechenden Repo melden.  
 
 ### <a name="navigating-to-other-parts-of-the-site"></a>Navigieren zu anderen Teilen der Website
 

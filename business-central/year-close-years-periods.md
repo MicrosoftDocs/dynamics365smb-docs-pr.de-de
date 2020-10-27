@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 03b9778be1da2897cd1dcb12eeecd87bc905dd65
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b57790cc9b38f5c1aae4ce5b136011c677ca15a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195803"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925247"
 ---
 # <a name="closing-years-and-periods"></a>Beenden von Jahresabschluss und Perioden
 

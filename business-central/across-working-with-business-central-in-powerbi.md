@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 07/10/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: bdcbcb0fa82d799e29cfcdbb034e231635510656
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 99628b761a3d5f79941a78c00a999a5b8131869e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697766"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927222"
 ---
 # <a name="working-with-prodshort-data-in-power-bi"></a>Arbeiten mit [!INCLUDE [prodshort](includes/prodshort.md)]-Daten in Power BI
 

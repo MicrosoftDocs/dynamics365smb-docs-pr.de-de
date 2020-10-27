@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed2d7c8dd8a8a2fe4744c670197a3ac0a7ec38fa
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782293"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922342"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Migration von Debitorendaten mit Vorlagen vorbereiten
 
@@ -35,7 +35,7 @@ Sie können jedoch eine Vorlagenstruktur erstellen und diese auf jede beliebige 
 
 Wenn Sie Debitorendaten aus einer Datei importieren, z. B. für Artikel, werden die Daten, die Sie angegeben haben, aus der verknüpften Datenvorlage entnommen. Wenn Sie einen neuen Artikel erstellen, geben Sie nur allgemeine Informationen wie Artikelname, Beschreibung und Preis ein und erfassen dann die restlichen Pflichtfelddaten aus einer ausgewählten Datenvorlage.
 
-Wenn Sie einen neuen Masterdatensatzes wie eine Debitorenkarte erstellen, sind einige Felder zwingend und müssen ausgefüllt werden. Sie können die meisten Pflichtfelder wie Buchungsgruppen und Zahlungsbedingungen gruppieren, damit die Erstellung von Masterdatensätzeb einfacher und stabiler ist,. Beispielsweise können Sie Pflichtfelder für Tabelle 18, **Debitor**, unter der Art **Inland**, **Ausland** oder **Exportieren** gruppieren.
+Wenn Sie einen neuen Masterdatensatzes wie eine Debitorenkarte erstellen, sind einige Felder zwingend und müssen ausgefüllt werden. Sie können die meisten Pflichtfelder wie Buchungsgruppen und Zahlungsbedingungen gruppieren, damit die Erstellung von Masterdatensätzeb einfacher und stabiler ist,. Beispielsweise können Sie Pflichtfelder für Tabelle 18, **Debitor** , unter der Art **Inland** , **Ausland** oder **Exportieren** gruppieren.
 
 > [!NOTE]
 > Felder vom Typ Blob können nicht mithilfe von Excel exportiert/importiert werden.
@@ -65,7 +65,7 @@ Jede Vorlage besteht aus einer Kopfzeile und einer Zeile für jedes Feld, das in
 
 Sie können eine neue Datenvorlage schnell erstellen, indem Sie Informationen aus einer vorhandenen Datenvorlage kopieren, die Sie dann bearbeiten.
 
-1. Öffnen Sie die Seite **Konfigurationsvorlage**.
+1. Öffnen Sie die Seite **Konfigurationsvorlage** .
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie das Feld **Code** aus.
 4. Wählen Sie die Aktion **Von Konfigurationsvorlage kopieren** aus.
@@ -75,7 +75,7 @@ Die Tabellen-ID, der Tabellenname und die vorhandenen Datenvorlage werden in die
 
 ### <a name="to-create-a-data-template-header-manually"></a>So erstellen Sie einen Datenvorlagenkopf manuell
 
-1. Öffnen Sie die Seite **Konfigurationsvorlage**.
+1. Öffnen Sie die Seite **Konfigurationsvorlage** .
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie das Feld **Code** aus.
 4. Geben Sie im Feld **Tabellen-ID** die Tabelle ein, zu der diese Vorlage gehört. Das Feld wird nach der Eingabe im Feld **Tabellenname** automatisch ausgefüllt, wenn das Feld **Tabellen-Id** festgelegt ist.
@@ -83,13 +83,13 @@ Die Tabellen-ID, der Tabellenname und die vorhandenen Datenvorlage werden in die
 ### <a name="to-create-a-data-template-line-manually"></a>So erstellen Sie einen Datenvorlagenzeile manuell
 
 1. Wählen Sie in der ersten Zeile im Feld den **Feldnamen** aus. Die Seite **Feldliste** zeigt die Liste der Felder in der Tabelle an.
-2. Wählen Sie ein Feld aus, und wählen Sie dann die Schaltfläche **OK**. Das Feld **Felderfassun g** wird mit dem Feldnamen ausgefüllt.
+2. Wählen Sie ein Feld aus, und wählen Sie dann die Schaltfläche **OK** . Das Feld **Felderfassun g** wird mit dem Feldnamen ausgefüllt.
 3. Geben Sie im Feld **Standardwert** einen geeigneten Wert ein. In einigen Fällen möchten Sie möglicherweise einen Wert verwenden, der nicht einem in der Datenbank vorhandenen Wert entspricht. In diesem Fall können Sie das Kontrollkästchen **Relationenprüfung überspringen** aktivieren, um zu ermöglichen, Daten ohne Fehler zu verwenden.
 
     > [!TIP]  
     > Da das Feld **Standardwert** keinen Lookup zu den entsprechenden [!INCLUDE[d365fin](includes/d365fin_md.md)]-Feldoptionen hat, kopieren Sie den gewünschten Wert von der entsprechenden Seite in die Vorlage.
 
-4. Wählen Sie das Kontrollkästchen **Notwendig**, wenn Benutzer das jeweilige Feld ausfüllen müssen.
+4. Wählen Sie das Kontrollkästchen **Notwendig** , wenn Benutzer das jeweilige Feld ausfüllen müssen.
 
     > [!NOTE]
     > Das Kontrollkästchen dient nur zur Information. Keine Geschäftslogik wird erzwungen. So können Sie beispielsweise einen Auftrag erst fakturieren und buchen, wenn Buchungsgruppen eingerichtet wurden. Sie können das Kontrollkästchen **Notwendig** auswählen, sodass diese Felder den Benutzer diese ausfüllen und dadurch einen Buchungsfehler später vermeiden lassen.
@@ -102,7 +102,7 @@ Sie können schnell eine Excel-Arbeitsmappe erstellen, die als Vorlage dient und
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.
 2. Fügen Sie der Liste eine Tabelle hinzu, oder wählen Sie eine vorhandene Tabelle aus. Weitere Informationen finden Sie unter [Verwalten von Mandanten-Konfiguration in einem Arbeitsblatt](admin-how-to-manage-company-configuration-in-a-worksheet.md).
-3. Wählen Sie die Aktion **Felder anzeigen**, um die Felder aus der Tabelle zu definieren, die Sie in die Vorlage aufnehmen möchten.
+3. Wählen Sie die Aktion **Felder anzeigen** , um die Felder aus der Tabelle zu definieren, die Sie in die Vorlage aufnehmen möchten.
 4. Wählen Sie die Aktion **Vorlageninhalt exportieren** aus.
 5. Benennen und speichern Sie die .xlsx-Datei. Die Excel-Arbeitsmappe wird automatisch geöffnet.
 
@@ -114,7 +114,7 @@ Sie können jetzt in die Excel-Arbeitsmappe Debitorendaten eingeben. Wenn Sie me
 ## <a name="to-import-from-a-template-in-excel"></a>So importieren Sie aus einer Vorlage in Excel
 
 1. Auf der Seite **Config. Arbeitsblatt** wählen Sie die **Aus Vorlage importieren** Aktion aus.
-2. Navigieren Sie zum Vorlagenvorschlag, den Sie erstellt haben, und wählen Sie die Aktion **Öffnen**.
+2. Navigieren Sie zum Vorlagenvorschlag, den Sie erstellt haben, und wählen Sie die Aktion **Öffnen** .
 3. Um der gesammelten Debitorendaten der Datenbank hinzuzufügen, wählen Sie die **Daten übernehmen** Aktion.
 
 Wenn Sie Daten aus einer Vorlage in Excel auf eine Tabelle anwenden, der auch im Konfigurationspaket eine Konfigurationstabelle zugeordnet ist, werden auch die Standardfeldwerte aus der Konfigurationstabelle angewendet.
@@ -126,15 +126,15 @@ Jeder Datensatz, dessen Daten auf diese Weise angewendet werden, ist vollständi
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>So erstellen Sie einen Datensatz aus einer Konfigurationsvorlage
 
-Sie können die Struktur der Daten verwenden, die in den Datenvorlagen enthalten ist, um Ihre Informationen nacheinander in Datensätze in der Datenbank umzuwandeln. Verwenden Sie zu diesem Zweck die Funktion **Instanz erstellen**. Dies ist eine abgespeckte Version des Datenmigrationsprozesses und kann für das Erstellen von Prototypen oder für kleinere Aufgaben der Datenerstellung hilfreich sein.  
+Sie können die Struktur der Daten verwenden, die in den Datenvorlagen enthalten ist, um Ihre Informationen nacheinander in Datensätze in der Datenbank umzuwandeln. Verwenden Sie zu diesem Zweck die Funktion **Instanz erstellen** . Dies ist eine abgespeckte Version des Datenmigrationsprozesses und kann für das Erstellen von Prototypen oder für kleinere Aufgaben der Datenerstellung hilfreich sein.  
 
 Die folgenden Schritte veranschaulichen, wie eine Artikelkarte aus einer Artikeldatenvorlage erstellt wird. Mit demselben Verfahren können Sie einen Datensatz aus jeder beliebigen Datenvorlage erstellen.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsvorlagen** ein, und wählen Sie dann den zugehörigen Link.  
-2. Wählen Sie die entsprechende **Element**-Vorlage und wählen Sie dann die Aktion **Bearbeiten** aus. Weitere Informationen finden Sie unter [So erstellen Sie eine Datenvorlage](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
+2. Wählen Sie die entsprechende **Element** -Vorlage und wählen Sie dann die Aktion **Bearbeiten** aus. Weitere Informationen finden Sie unter [So erstellen Sie eine Datenvorlage](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Wählen Sie die Aktion **Instanz erstellen** aus. Eine Artikelkarte wird erstellt.  
 4. Wählen Sie die Schaltfläche **OK** aus.  
-5. Um die neue Elementkarte zu überprüfen, wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
+5. Um die neue Elementkarte zu überprüfen, wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 6. Öffnen Sie eine neue Artikelkarte.  
 7. Erweitern Sie verschiedene Inforegister und vergewissern Sie sich, dass die Informationen korrekt in ihnen erstellt wurden.  
 
@@ -143,7 +143,7 @@ Die folgenden Schritte veranschaulichen, wie eine Artikelkarte aus einer Artikel
 Sie können eine Datenvorlage bei jedem beliebigen Datensatz anwenden, der in [!INCLUDE[d365fin](includes/d365fin_md.md)] vorhanden ist, und diese Methode verwenden, um einen Datensatz zu ändern oder zu bearbeiten. Hierbei werden jedoch vorhandene Werte im Datensatz mit denen der Vorlage überschrieben. Deshalb sollten Sie behutsam vorgehen, wenn Sie eine Vorlage bei vorhandenen Datensätzen anwenden.
 
 > [!WARNING]  
-> Die **Vorlage anwenden**-Funktion überschreibt vorhandene Daten in einem Datensatz. Wenn diese Funktion bei der Stammdatenmigration verwendet wird, überschreibt sie die importierten Daten, wenn Sie Datensätze erstellen.
+> Die **Vorlage anwenden** -Funktion überschreibt vorhandene Daten in einem Datensatz. Wenn diese Funktion bei der Stammdatenmigration verwendet wird, überschreibt sie die importierten Daten, wenn Sie Datensätze erstellen.
 
 Das folgende Verfahren basiert auf einer Debitorenkarte.  
 

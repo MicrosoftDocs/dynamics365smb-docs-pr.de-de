@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 07/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 783e93fd4b9c33a249556b75bc880daff0afd24b
-ms.sourcegitcommit: e22666f90262c7d2084ca6c74ca7d66652fc6df6
+ms.openlocfilehash: 23a90d6529da231194b80f75e570e106d66a99c6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617338"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922192"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor
 
@@ -42,7 +42,7 @@ Auch können mehrere Kontenschemata und Spaltenlayouts mithilfe von Formeln verg
 Sie können Sachkontokategorien dazu verwenden, das Layout Ihrer Finanzberichte zu ändern. Wenn Sie Ihre Kontengruppen auf der Seite **Sachkontokategorien** eingerichtet haben und die Aktion **Kontenschemata generieren** auswählen, werden die zugrunde liegenden Kontenschemata für die Kernfinanzberichte aktualisiert. Wenn Sie das nächste Mal einen dieser Berichte wie die **Saldoabrechnung** ausführen, werden neue Summen und Untereinträge basierend auf Ihren Änderungen hinzugefügt.
 
 > [!NOTE]
-> Die Kontokategorien der obersten Ebene wie beispielsweise der **Verbindlichkeiten**-Knoten sind fest, und Sie können keine eigenen hinzufügen. Sie können jedoch Kontokategorien auf niedrigeren Ebenen löschen und hinzufügen und ihre Struktur ändern, um zu definieren, wie der zugehörige Kontoplan in Berichten angezeigt wird.
+> Die Kontokategorien der obersten Ebene wie beispielsweise der **Verbindlichkeiten** -Knoten sind fest, und Sie können keine eigenen hinzufügen. Sie können jedoch Kontokategorien auf niedrigeren Ebenen löschen und hinzufügen und ihre Struktur ändern, um zu definieren, wie der zugehörige Kontoplan in Berichten angezeigt wird.
 >
 > Es wird empfohlen, eigene Sachkontokategorien auf einer niedrigeren Ebene von Grund auf neu, bei Bedarf in einer Hierarchie, zu erstellen, anstatt die vorhandenen neu anzuordnen. Sie können beispielsweise den Knoten **Verbindlichkeiten** neu strukturieren, sodass er den neuen Knoten **Eigenkapital** gefolgt von den Knoten **Kurzfristige Verbindlichkeiten** und **Langfristige Verbindlichkeiten** enthalten.
 
@@ -56,7 +56,7 @@ Die Seite **Kontenschema. Planen Überblick** ist jene, auf der Sie Finanzberich
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kontenschemata** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie im Fenster **Kontoschema** auf der Registerkarte **Neu** die Option Neu aus, um einen neuen Kontenschemanamen zu erstellen.
-3. Im Fenster **Kontenplan kopieren** geben Sie die zwei Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
+3. Im Fenster **Kontenplan kopieren** geben Sie die zwei Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK** .
 4. Füllen Sie die Felder je nach Bedarf aus. Im **Standard Spaltenlayout** Feld wählen Sie ein existierendes Layout aus. Sie können diese bei Bedarf später bearbeiten.
 
     Sie nutzen Spaltenlayouts, um Spalten für verschiedene Parameter festzulegen, durch die die Finanzdaten in den Zeilen angezeigt werden. Zum Beispiel können Sie ein Spalten-Layout gestalten, das Bewegung und Saldo für dieselbe Periode dieses und letzten Jahres mit vier Spalten vergleicht. Weitere Informationen finden Sie im Abschnitt [So erstellen Sie ein Spaltenlayout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
@@ -82,7 +82,7 @@ Sie verwenden Spaltenlayouts, um festzulegen, welche Spalten in dem Bericht ersc
 4. Öffnen Sie die Seite **Kontenschema. Planen Überblick** gelegentlich, um sicherzustellen, dass das neue Spaltenlayouts wie vorgesehen arbeitet.
 
 > [!NOTE]
-> Die Spalten, die Sie in jeder Zeile definieren, zeigt drei Spalten auf der Seite **Kontenschema. Planen Überblick**. Die ersten beiden Spalten, **Zeilennr.** und **Beschreibung**, sind fest.  
+> Die Spalten, die Sie in jeder Zeile definieren, zeigt drei Spalten auf der Seite **Kontenschema. Planen Überblick** . Die ersten beiden Spalten, **Zeilennr.** und **Beschreibung** , sind fest.  
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Eine Spalte zur Berechnung von Prozentsätzen erstellen:
 
@@ -101,12 +101,12 @@ Manchmal möchten Sie möglicherweise eine Spalte in ein Kontenschema einfügen,
 
 Sie können eine Kontenschema zum Erstellen eines Vergleichs der in der Finanzbuchhaltung gebuchten Werte mit den Finanzbudgetwerten benutzen.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kontenschemata** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kontenschemata** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie im Fenster **Kontenschemanamen** ein Kontenschema aus.  
 3. Wählen Sie die **Kontenschema bearbeiten** Aktion aus.  
 4. Auf der Seite **Kontenplan** im Feld **Name** wählen Sie den Standard-Kontenplan aus.
 5. Wählen Sie die **Konten einfügen** Aktion aus.  
-6. Wählen Sie die Konten, die Sie in Ihrer Aufstellung berücksichtigen möchten, und wählen Sie dann **OK**.
+6. Wählen Sie die Konten, die Sie in Ihrer Aufstellung berücksichtigen möchten, und wählen Sie dann **OK** .
 
     Die Konten sind damit in Ihr Kontenschema eingefügt. Wenn Sie möchten, können Sie auch das Spaltenlayout ändern.  
 7. Wählen Sie die Aktion **Übersicht** aus.  

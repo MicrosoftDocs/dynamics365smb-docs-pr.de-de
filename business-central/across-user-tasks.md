@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1e6520aeb39a77ecfcbf652b8c328d1595d6f6f
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577201"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922617"
 ---
 # <a name="define-user-tasks"></a>Benutzeraufgaben definieren
 
@@ -25,12 +25,12 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie Aufgaben erstellen, d
 
 Die Seite **Benutzeraufgaben** zeigt alle Aufgaben an, und Sie können einfach neue Aufgaben erstellen und zuweisen. Wenn Sie eine Aufgabe erstellen, können Sie das Startdatum und das Fälligkeitsdatum angeben, und Sie können einen Link auf der Seite oder dem Bericht in [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzufügen, wo der Benutzer die Arbeit machen muss.  
 
-Beispielsweise können Sie eine Aufgabe für sich selbst oder einen Mitarbeiter erstellen, sodass alle gebuchten Verkaufsrechnungen angezeigt werden. In diesem Fall können Sie die Aufgabe mit Seite 143, **„Gebuchte Verkaufsrechnungen“**, verknüpfen. Im folgenden Screenshot erstellt jemand eine Aufgabe für MeganB, um die gebuchten Verkaufsrechnungen zu überprüfen.  
+Beispielsweise können Sie eine Aufgabe für sich selbst oder einen Mitarbeiter erstellen, sodass alle gebuchten Verkaufsrechnungen angezeigt werden. In diesem Fall können Sie die Aufgabe mit Seite 143, **„Gebuchte Verkaufsrechnungen“** , verknüpfen. Im folgenden Screenshot erstellt jemand eine Aufgabe für MeganB, um die gebuchten Verkaufsrechnungen zu überprüfen.  
 
 :::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Beispiel für eine Benutzeraufgabe":::
 
 > [!TIP]  
-> Verwenden Sie die Suche im Feld **Seite**, und verwenden Sie dann das Feld **Suche**, um die Seite zu finden, die Sie anzeigen möchten.  
+> Verwenden Sie die Suche im Feld **Seite** , und verwenden Sie dann das Feld **Suche** , um die Seite zu finden, die Sie anzeigen möchten.  
 >
 > Sie können auf jede Seite verlinken, aber nicht auf einzelne Einträge. Machen Sie die Beschreibung daher so explizit wie möglich, z. B. „Bitte werfen Sie einen Blick auf Kunden-Nr. 10000 und stellen Sie sicher, dass keine überfälligen Zahlungen vorliegen.“
 

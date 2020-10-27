@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d49d0d23ea6bd9855db1055cbea8998b623b30fb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8ca14916541a43d68968894870657319817911ef
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783551"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924553"
 ---
 # <a name="managing-data-encryption"></a>Datenverschlüsselung verwalten
 Sie können Daten auf dem [!INCLUDE[d365fin](includes/d365fin_md.md)]-Server verschlüsseln, indem Sie neue Verschlüsselungsschlüssel erstellen oder vorhandene importieren, die Sie auf der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Serverinstanz aktivieren, die mit der Datenbank verknüpft ist.

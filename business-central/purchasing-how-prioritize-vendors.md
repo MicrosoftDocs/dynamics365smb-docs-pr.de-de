@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6dfa7237cde2a88c8d36baa2daa69f4cde97a4eb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 177fb324e39a59abbfc1b50e6ceaa34d4ae06f56
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783099"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926897"
 ---
 # <a name="prioritize-vendors"></a>Kreditoren priorisieren
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kann verschiedene Zahlungen an Kreditoren vorschlagen. Dies können z. B. Zahlungen sein, die in Kürze fällig sind, oder Zahlungen, bei denen Sie einen Rabatt erhalten können. Weitere Informationen finden Sie unter [Erstellen von Zahlungsvorschlägen für Kreditoren](payables-how-suggest-vendor-payments.md).
@@ -28,7 +28,7 @@ Zuerst müssen Sie den Kreditoren priorisieren, indem Sie ihm Nummern zuweisen.
 
 ## <a name="to-prioritize-vendors"></a>So priorisieren Sie Kreditoren
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die entsprechende Kreditor, und klicken Sie dann auf **Bearbeiten**.
+2. Wählen Sie die entsprechende Kreditor, und klicken Sie dann auf **Bearbeiten** .
 3. Geben Sie im Feld **Priorität** eine Zahl ein.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] geht davon aus, dass die niedrigsten Nummern (außer 0) die höchste Priorität haben. Wenn Sie also z. B. 1, 2 und 3 verwenden, erhält 1 die höchste Priorität.

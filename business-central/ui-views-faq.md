@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: 1433e22f232b032242a4464730b07df376cadaf3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7b992fe4f5db07605015a88ea69d9a510adbcca4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189315"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925503"
 ---
 # <a name="list-views-faq"></a>FAQ zu Listenansichten
 In diesem Thema werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zum Arbeiten mit Listenansichten und zum Speichern von Filtern stellen.  
@@ -83,7 +83,7 @@ Das Arbeiten mit persönlichen Ansichten ist jedoch schnell und effektiv aber [!
 Wenn Sie eine neue Ansicht speichern oder eine vorhandene Ansicht umbenennen, müssen Sie einen erkennbaren und aussagekräftigen Namen für diese Ansicht eingeben. Der Name wird für Ihre aktuelle Sprache gespeichert und auch angezeigt, wenn Sie oder andere Benutzer damit in [!INCLUDE[d365fin](includes/d365fin_md.md)] in verschiedenen Sprachen arbeiten. Um übersetzte Ansichtsnamen bereitzustellen, müssen Sie die Sprache mit der Seite **Meine Einstellungen** wechseln und dann die Ansicht umbenennen, die die übersetzten Name in der neuen Sprache speichert.
 
 ### <a name="do-views-with-expressions-work-in-all-languages"></a>Arbeiten Ansichten mit Ausdrücken in allen Sprachen?
-Ausdrücke, die nur Symbole verwenden, z. B. '**|**' oder **..**, gelten als sicher für Benutzer, auf die in jeder Sprache zugegriffen werden kann. Alle Ansichten mit Ausdrücken, die Buchstaben, Schlüsselwörter oder Filtertoken enthalten, funktionieren nur für die Sprache, in der sie verfasst wurden.
+Ausdrücke, die nur Symbole verwenden, z. B. ' **|** ' oder **..** , gelten als sicher für Benutzer, auf die in jeder Sprache zugegriffen werden kann. Alle Ansichten mit Ausdrücken, die Buchstaben, Schlüsselwörter oder Filtertoken enthalten, funktionieren nur für die Sprache, in der sie verfasst wurden.
 
 
 ### <a name="see-also"></a>Siehe auch  

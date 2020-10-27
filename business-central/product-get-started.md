@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d040507dad53ad6e9ba5407dcf457e04afa751c7
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528738"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970438"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Erste Schritte mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Eine Registrierung ist einfach und Sie können vorhandene Unternehmensdaten von Ihrem bestehenden System migrieren.  
@@ -38,7 +38,7 @@ Im Demounternehmen umfassen die Rollencenter „Geschäftsleiter“ und „Buchh
 
 Wenn Sie bereit sind, etwas tiefer hineinzublicken und einige der Geschäftsprozesse berücksichtigen möchten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt werden, gehen Sie zu [Geschäfts-Funktionalität](across-business-functionality.md).
 
-Bevor Sie die Funktionalität nutzen können, müssen bestimmte Einstellungen vorgenommen werden. Um zu beginnen, wählen Sie einfach das Symbol ![Zahnrad, um das Einstellungsmenüs zu öffnen](media/ui-experience/settings_icon_small.png), und dann die Aktion **Unterstützte Einrichtung**. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+Bevor Sie die Funktionalität nutzen können, müssen bestimmte Einstellungen vorgenommen werden. Um zu beginnen, wählen Sie einfach das Symbol ![Zahnrad, um das Einstellungsmenüs zu öffnen](media/ui-experience/settings_icon_small.png), und dann die Aktion **Unterstützte Einrichtung** . Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 
 > [!TIP]
 > Eine Einrichtungsschritte können mithilfe von Anleitungen zur unterstützten Einrichtung halbautomatisch ausgeführt werden. Andere erforderten eine manuelle Einrichtung, und Sie können eine Liste auf der Seite **Erweiterte Einstellungen** finden.
@@ -56,7 +56,7 @@ Die Rollencenter-Seite basiert auf einem rollenorientierten Design, damit Sie ra
 ## <a name="trying-things-out-in-your-own-company"></a>Testen Sie es in Ihrem eigenen Unternehmen
 Denken Sie an ein Abonnement? Sie können Demomandanten einfach ändern und erstellen und arbeiten in einem Ihrer eigenen Unternehmen. Dieses ist eine tolle Art, in Richtung Abonnement hinzuarbeiten. Einrichtung für Finanzen wird bereitgestellt; Sie müssen nur die Artikel, Debitoren und Kreditoren und die Produkte oder Services, die Sie verkaufen einrichten oder importieren. Danach sind Sie bereit, Rechnungen zu buchen und intelligente Geschäfts-Tools zu verwenden, um Ihr Geschäft zu analysieren. Sie können Ihr Unternehmen während einer 30 tägigen Probezeit verwenden. Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] in dieser Zeit abonnieren, steht bereits alles zur Verfügung. Sie können mit der Arbeit fortfahren, die Sie während der Testphase erledigten.  
 
-Um einen Mandanten zu erstellen und Dinge zu testen, gehen Sie zum Menü **Meine Einstellungen** in der oberen rechter Ecke und ändern Sie den Mandanten auf **Mein Unternehmen**. Melden Sie sich von [!INCLUDE[d365fin](includes/d365fin_md.md)] ab und anschließend wieder an, um die Änderungen zu übernehmen. Eine unterstützte Einrichtung gibt Ihnen die grundlegenden Informationen zu Ihrem Unternehmen. Wenn das getan wird, entdecken Sie das Rollencenter und suchen Sie die Aktion **Unterstützte Einrichtung**.  
+Um einen Mandanten zu erstellen und Dinge zu testen, gehen Sie zum Menü **Meine Einstellungen** in der oberen rechter Ecke und ändern Sie den Mandanten auf **Mein Unternehmen** . Melden Sie sich von [!INCLUDE[d365fin](includes/d365fin_md.md)] ab und anschließend wieder an, um die Änderungen zu übernehmen. Eine unterstützte Einrichtung gibt Ihnen die grundlegenden Informationen zu Ihrem Unternehmen. Wenn das getan wird, entdecken Sie das Rollencenter und suchen Sie die Aktion **Unterstützte Einrichtung** .  
 
 Sie können sich auch an einen Dynamics 365-Weiterverkaufspartner wenden. Weitere Informationen finden Sie unter [Wie finde ich einen Weiterverkaufspartner?](across-faq.md#findpartner).  
 
@@ -64,7 +64,7 @@ Sie können sich auch an einen Dynamics 365-Weiterverkaufspartner wenden. Weiter
 
 Wenn Sie nicht sicher sind, wie man etwas in [!INCLUDE[d365fin](includes/d365fin_md.md)] macht, können Sie die Antwort entweder in den QuickInfo für das Feld finden, zu dem Sie Zweifel haben, oder indem Sie den Inhalt lesen, indem Sie den Link *Weitere Informationen* in der Quickinfo öffnen (verwenden Sie das Tastenkürzel Strg+F1). Sie können auch zur Dokumentation gelangen, indem Sie den entsprechenden Link auf der [Hilfe und Support-Seite](product-help-and-support.md) auswählen.  
 
-Alle Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] werden in QuickInfo beschrieben. Auf QuickInfo können Sie zugreifen, indem Sie den Feldnamen auswählen. Zum Beispiel in einem Feld wie **Debitorenkarte**, aktivieren Sie einfach den Namen des Felds, um die QuickInfo zu lesen. In einer Liste wie der Liste **Debitoren** oder in den Zeilen in einen Beleg wie einem Verkaufsauftrag, müssen Sie das Dropdownmenü des Namens der Spalte auswählen und das Menüelement **Was ist das?** wählen.  
+Alle Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] werden in QuickInfo beschrieben. Auf QuickInfo können Sie zugreifen, indem Sie den Feldnamen auswählen. Zum Beispiel in einem Feld wie **Debitorenkarte** , aktivieren Sie einfach den Namen des Felds, um die QuickInfo zu lesen. In einer Liste wie der Liste **Debitoren** oder in den Zeilen in einen Beleg wie einem Verkaufsauftrag, müssen Sie das Dropdownmenü des Namens der Spalte auswählen und das Menüelement **Was ist das?** wählen.  
 
 Wenn Sie zusätzliche Fragen haben, empfiehlt es sich, die Community zu fragen oder Ihren Wiederverkaufspartner zu kontaktieren. Weitere Informationen finden Sie unter [Was mache ich, wenn ich Fragen habe](across-faq.md#where-do-i-go-if-i-have-questions).  
 
@@ -74,8 +74,6 @@ Jedes Mal, wenn Sie sich während des Testzeitraums anmelden, erscheint eine Ben
 
 ## <a name="other-dynamics-365-apps"></a>Andere Dynamics 365 Apps
 Navigieren Sie zu Inhalten über die anderen Dynamics 365-Apps, indem Sie den Link [Dynamics 365](/dynamics365/) im schwarzen Banner oben auf dieser Seite auswählen. Sie können auf der [Dynamics 365 Business Central-Website](https://dynamics.microsoft.com/business-central/overview/) auch mehr erfahren.  
-
-<!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 

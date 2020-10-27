@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f7df365c6c1fb34943fc5bb9b47145410ef879e3
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 197a98e7bf41dacdd330b420d1e8cdbc7bba4516
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786146"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922467"
 ---
 # <a name="administration"></a>Verwaltung
 
@@ -35,7 +35,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |**Prozess**|**Siehe**|  
 |------------|-------------|  
 |Definieren Sie, wer sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden darf, indem Sie Benutzer im Microsoft 365 Admin Center entsprechend den Produktlizenzen erstellen.|[Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md)|
-|Weisen Sie Benutzern Berechtigungen zu, ändern Sie Berechtigungssätze und gruppieren Sie Benutzer für eine einfache Berechtigungsverwaltung.|[Berechtigungen für Benutzer und Gruppen zuweisen](ui-how-users-permissions.md)|
+|Weisen Sie Benutzern Berechtigungen zu, ändern Sie Berechtigungssätze und gruppieren Sie Benutzer für eine einfache Berechtigungsverwaltung.|[Berechtigungen an Benutzer und Gruppen zuweisen](ui-how-users-permissions.md)|
 |Fügen Sie Benutzer hinzu, und verwalten Sie Berechtigungen und den Zugriff auf Daten.|[Profile verwalten](admin-users-profiles-roles.md)|
 |Verwalten Sie Benutzereinstellungen wie Unternehmen, Rolle, Sprache, Region und Zeitzone.|[Benutzereinstellungen](admin-manage-user-settings-preferences.md)|
 |Richten Sie Drucker ein und geben Sie an, welche Berichte auf welchen Druckern gedruckt werden sollen.|[Drucker einrichten](ui-specify-printer-selection-reports.md)|

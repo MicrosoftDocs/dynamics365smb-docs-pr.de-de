@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 86f8a20a2d42b7b84f062ddce702930d89bcbd75
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4842c8215ecc9c256108c7434d779a9f54650bf3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777616"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921893"
 ---
 # <a name="manage-human-resources"></a>Personalwesen verwalten
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ausführliche Datensätze über Ihre Mitarbeiter anlegen. Sie haben die Möglichkeit zum Erfassen und Pflegen von Mitarbeiterinformationen wie Arbeitsverträgen, vertraulichen Informationen, Qualifikationen oder Mitarbeiterkontakten.
@@ -26,7 +26,7 @@ Sie können auch Fehlzeiten von Mitarbeitern erfassen, was die Analyse der erfas
 
 Zum Verwenden der Funktionalität „Personalwesen” müssen zunächst Mitarbeiter und andere Basisdaten eingerichtet werden. Dann lassen sich einem Mitarbeiter verschiedene Codes zuordnen, anhand derer Informationen für bestimmte Mitarbeiter gefiltert werden können.
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..
 
 | Aktion | Siehe |
 | --- | --- |

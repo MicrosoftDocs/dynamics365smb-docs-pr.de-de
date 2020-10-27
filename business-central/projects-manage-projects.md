@@ -6,21 +6,21 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 0e3f5f489822cef693242c46a47d84f429af0706
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529038"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926947"
 ---
 # <a name="project-management"></a>Projektmanagement
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie allgemeine Projektmanagement-Verwaltungsaufgaben ausführen, wie Konfigurieren eines Projekts und Planen einer Ressource sowie Bereitstellung der Informationen, die benötigt werden, um Budgets zu verwalten und den Status zu überwachen. Sie können Computer- und Mitarbeiterstunden für das Projekt verfolgen, indem Sie Arbeitszeittabellen verwenden. Als Projektmanager haben Sie einen guten Überblick, nicht nur über einzelnen Projekte, sondern auch über die Verteilung der Mitarbeiter, der Maschinen und anderer Ressourcen, die in allen Projekten verwendet werden.
 
 Bevor Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten. Weitere Informationen finden Sie unter [Projektmanagement einrichten](projects-setup-projects.md).  
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben.
 
 | Aktion | Siehe |
 | --- | --- |

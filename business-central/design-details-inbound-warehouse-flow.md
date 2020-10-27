@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d893b810c85faaa297f7775cbf02c208fc67a2e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 42a8fd05fe74276c5b570253b67be20189201071
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787846"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922142"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetails: Eingehender Lagerfluss
 Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.  
@@ -65,7 +65,7 @@ Auf der Seite **Lagereinlagerung** erhält der Lagermitarbeiter im Pull-Verfahre
 ### <a name="4-post-inventory-put-away"></a>4: Lagereinlagerungsübersicht  
 In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** aus und bucht dann die Lagereinlagerung. Herkunftsbelege, die mit der Einlagerung verknüpft sind, werden als eingegangen gebucht.  
 
-Positive Bestandskommissionierungen sowie Lagerposten werden erstellt, und die Einlagerungsanforderung wird gelöscht, wenn sie vollständig bearbeitet ist. Beispielsweise wird das Feld **Menge empfangen**auf der Zeile des eingehenden Herkunftsbelegs aktualisiert. Ein Beleg des gebuchten Wareneingangs wird erstellt, der beispielsweise die Einkaufsbestellung und die eingegangenen Artikel angezeigt.  
+Positive Bestandskommissionierungen sowie Lagerposten werden erstellt, und die Einlagerungsanforderung wird gelöscht, wenn sie vollständig bearbeitet ist. Beispielsweise wird das Feld **Menge empfangen** auf der Zeile des eingehenden Herkunftsbelegs aktualisiert. Ein Beleg des gebuchten Wareneingangs wird erstellt, der beispielsweise die Einkaufsbestellung und die eingegangenen Artikel angezeigt.  
 
 ## <a name="advanced-warehouse-configurations"></a>Erweiterte Lagerhauskonfigurationen  
 Das folgende Diagramm zeigt die eingehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
@@ -84,10 +84,10 @@ Auf der Seite **Wareneingang** erhält der Benutzer, der für den Wareneingang d
 Der Benutzer füllt das Feld **Verarbeitungsmenge** aus und wählt die empfangende Zone und den Lagerplatz nach Bedarf aus.  
 
 ### <a name="4-post-warehouse-receipt"></a>4: Buchen Sie den Wareneingang.  
-Der Benutzer bucht den Wareneingang. Positive Artikelposten werden erstellt. Beispielsweise wird das Feld **Menge empfangen**auf der Zeile des eingehenden Herkunftsbelegs aktualisiert.  
+Der Benutzer bucht den Wareneingang. Positive Artikelposten werden erstellt. Beispielsweise wird das Feld **Menge empfangen** auf der Zeile des eingehenden Herkunftsbelegs aktualisiert.  
 
 ### <a name="5-create-warehouse-internal-put-away"></a>5: Erstellen Sie eine neue interne Einlagerungsanforderung  
-Der Benutzer, der für die Einlagerung aus internen Vorgängen zuständig ist, erstellt eine interne Einlagerungsanforderung für Artikel, die im Lager eingelagert werden müssen Lager, wie Produktions- oder Montageausstoß. Der Benutzer gibt Menge, Zone und Lagerplatz an, aus denen Artikel eingelagert werden sollen, eventuell mit der Funktion **Lagerplatzinhalt holen**. Der Benutzer gibt die interne Einlagerungsanforderung frei, wodurch eine eingehende erwartete Lagerbewegung erstellt wird, sodass die Aufgabe in Einlagerungsbelegen oder im Einlagerungsarbeitsblatt abgerufen werden kann.  
+Der Benutzer, der für die Einlagerung aus internen Vorgängen zuständig ist, erstellt eine interne Einlagerungsanforderung für Artikel, die im Lager eingelagert werden müssen Lager, wie Produktions- oder Montageausstoß. Der Benutzer gibt Menge, Zone und Lagerplatz an, aus denen Artikel eingelagert werden sollen, eventuell mit der Funktion **Lagerplatzinhalt holen** . Der Benutzer gibt die interne Einlagerungsanforderung frei, wodurch eine eingehende erwartete Lagerbewegung erstellt wird, sodass die Aufgabe in Einlagerungsbelegen oder im Einlagerungsarbeitsblatt abgerufen werden kann.  
 
 ### <a name="6-create-put-away-request"></a>6: Einlagerungsanforderung  
 Wenn der eingehende Herkunftsbeleg gebucht wird, wird eine Einlagerungsanforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden. Abhängig von den Einstellungen erstellt die Ausgabe eines Fertigungsauftrags auch eine Einlagerungsanforderung, um die fertigen Artikel im Lagerbestand einzulagern.  

@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bmeier
-ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8f4da5b51b4e0df5cdf6f41f7a78c0a51cf0f083
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528988"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924853"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>[!INCLUDE[prodshort](includes/prodshort.md)] in einem automatisierten Workflow nutzen
 
@@ -32,23 +32,23 @@ Sie können Ihre [!INCLUDE[prodshort](includes/prodshort.md)]-Daten als Teil ein
 
 1. In Ihrem Browser navigieren Sie zu [flow.microsoft.com](https://flow.microsoft.com) und melden sich dann an.
 2. Wählen Sie **Meine Flows** im Menüband oben auf der Seite.
-3. Es gibt drei Möglichkeiten, einen Flow zu erstellen. **Mit Vorlage beginnen**, **Mit leerer Vorlage beginnen**, und **Mit Connector beginnen**. Eine Vorlage ist ein vordefinierter Flow, der für Sie erstellt wurde. Um eine Vorlage zu verwenden, aktivieren Sie sie einfach und erstellen eine Verbindung für jeden Dienst, den die Vorlage verwendet. Mit den Optionen **Mit leerer Vorlage beginnen** und **Mit Connector beginnen** können Sie einen neuen Flow komplett neu erstellen.
+3. Es gibt drei Möglichkeiten, einen Flow zu erstellen. **Mit Vorlage beginnen** , **Mit leerer Vorlage beginnen** , und **Mit Connector beginnen** . Eine Vorlage ist ein vordefinierter Flow, der für Sie erstellt wurde. Um eine Vorlage zu verwenden, aktivieren Sie sie einfach und erstellen eine Verbindung für jeden Dienst, den die Vorlage verwendet. Mit den Optionen **Mit leerer Vorlage beginnen** und **Mit Connector beginnen** können Sie einen neuen Flow komplett neu erstellen.
 4. Zum Erstellen aus einer leeren Vorlage wählen Sie auf der Seite **Meine Flows** die Optionen **Mit leerer Vorlage beginnen** im **Automatisierter Flow** aus.
 5. Suchen Sie nach **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]** Connector.
 6. Definieren Sie einen Namen und wählen Sie den Trigger aus, den Sie für Ihren Flow verwenden möchten.
 7. Aus der Liste der verfügbaren Triggern, wählen Sie einen der [!INCLUDE[prodshort](includes/prodshort.md)] verfügbaren Trigger aus:  
 
-    *Die Genehmigung für einen Kreditor wird angefordert*,  
-    *Genehmigung von Fibu Buch.-Blattzeile wird angefordert*,  
-    *Wenn ein Datensatz gelöscht wird*,  
-    *Wenn ein Datensatz geändert wird*,  
-    *Wenn ein Datensatz erstellt wird*,  
-    *Wenn ein Datensatz geändert wird*,  
-    *Genehmigung von Fibu Buch.-Blattname wird angefordert*,  
-    *Die Genehmigung für einen Debitor wird angefordert*,  
-    *Die Genehmigung für einen Artikel wird angefordert*,  
-    *Die Genehmigung für einen Einkaufsbeleg wird angefordert*, oder  
-    *Wenn ein Verkaufsbeleg angefordert wird*.
+    *Die Genehmigung für einen Kreditor wird angefordert* ,  
+    *Genehmigung von Fibu Buch.-Blattzeile wird angefordert* ,  
+    *Wenn ein Datensatz gelöscht wird* ,  
+    *Wenn ein Datensatz geändert wird* ,  
+    *Wenn ein Datensatz erstellt wird* ,  
+    *Wenn ein Datensatz geändert wird* ,  
+    *Genehmigung von Fibu Buch.-Blattname wird angefordert* ,  
+    *Die Genehmigung für einen Debitor wird angefordert* ,  
+    *Die Genehmigung für einen Artikel wird angefordert* ,  
+    *Die Genehmigung für einen Einkaufsbeleg wird angefordert* , oder  
+    *Wenn ein Verkaufsbeleg angefordert wird* .
 
 8. Power Automate fordert Sie auf, eine Umgebung und ein Unternehmen innerhalb Ihres [!INCLUDE[prodshort](includes/prodshort.md)]-Tenants und sämtliche Bedingungen in Ihren Daten, die Sie abhören möchten, auszuwählen.
 
@@ -58,22 +58,22 @@ Sie können Ihre [!INCLUDE[prodshort](includes/prodshort.md)]-Daten als Teil ein
     Zu diesem Zeitpunkt haben Sie sich erfolgreich mit Ihren Business Central[!INCLUDE[prodshort](includes/prodshort.md)]-Daten verbunden und sind bereit, Ihren Flow zu erstellen.
 
 9. Um aus einer Vorlage zu erstellen, wählen Sie die Option **Mit Vorlage erstellen** aus.
-10. Suchen Sie nach **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**-Vorlangen.
-11. Aus der Liste der verfügbaren Vorlagen wählen Sie eine der verfügbaren Vorlagen aus und wählen Sie **Erstellen**.  
+10. Suchen Sie nach **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]** -Vorlangen.
+11. Aus der Liste der verfügbaren Vorlagen wählen Sie eine der verfügbaren Vorlagen aus und wählen Sie **Erstellen** .  
 
-    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Verkaufsauftrag anfordern*,  
-    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Verkaufsangebot anfordern*,  
-    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Verkaufsrechnung anfordern*,  
-    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Verkaufsgutschrift anfordern*,  
-    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Debitoren anfordern*,  
-    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Einkaufsbestellung anfordern*,  
-    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Einkaufsrechnung anfordern*,  
-    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-EInkaufsgutschrift anfordern*,  
-    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Artikel anfordern*,  
-    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Anbieter anfordern*,  
-    *Genehmigungsanforderung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Fibu Buch.-Blatt*, oder    
-    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Fibu Buch.-Blattzeilen anfordern*.  
-12. Power Automate zeigt eine Liste der Dienste an, die in der Flow-Vorlage verwendet werden und versucht, automatisch eine Verbindung zu diesen Diensten herzustellen. Wenn Sie noch keine Verbindung zu einem Dienst hergestellt haben, werden Sie aufgefordert, sich bei jedem Dienst anzumelden, zu dem Sie eine Verbindung herstellen müssen. Neben jedem Dienst wird ein grünes Häkchen angezeigt, sobald eine Verbindung erfolgreich hergestellt wurde. Wählen Sie **Fortsetzen**.
+    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Verkaufsauftrag anfordern* ,  
+    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Verkaufsangebot anfordern* ,  
+    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Verkaufsrechnung anfordern* ,  
+    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Verkaufsgutschrift anfordern* ,  
+    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Debitoren anfordern* ,  
+    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Einkaufsbestellung anfordern* ,  
+    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Einkaufsrechnung anfordern* ,  
+    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-EInkaufsgutschrift anfordern* ,  
+    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Artikel anfordern* ,  
+    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Anbieter anfordern* ,  
+    *Genehmigungsanforderung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Fibu Buch.-Blatt* , oder    
+    *Genehmigung für Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-Fibu Buch.-Blattzeilen anfordern* .  
+12. Power Automate zeigt eine Liste der Dienste an, die in der Flow-Vorlage verwendet werden und versucht, automatisch eine Verbindung zu diesen Diensten herzustellen. Wenn Sie noch keine Verbindung zu einem Dienst hergestellt haben, werden Sie aufgefordert, sich bei jedem Dienst anzumelden, zu dem Sie eine Verbindung herstellen müssen. Neben jedem Dienst wird ein grünes Häkchen angezeigt, sobald eine Verbindung erfolgreich hergestellt wurde. Wählen Sie **Fortsetzen** .
 13. Power Automate fordert Sie auf, eine Umgebung und ein Unternehmen innerhalb Ihres [!INCLUDE[prodshort](includes/prodshort.md)]-Tenant auszuwählen. Da jeder Schritt im Flow unabhängig vom darauffolgenden ist, werden Sie möglicherweise aufgefordert, die Umgebung und das Unternehmen mehrmals zu definieren, wenn Sie eine [!INCLUDE[prodshort](includes/prodshort.md)] Power Automate-Vorlage verwenden.
 
 Weitere Informationen finden Sie in der [Power Automate-Dokumentation](/power-automate/getting-started).
@@ -83,7 +83,7 @@ Weitere Informationen finden Sie in der [Power Automate-Dokumentation](/power-au
 [Erste Schritte](product-get-started.md)  
 [Workflow](across-workflow.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
-[Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
+[Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [[!INCLUDE[prodlong](includes/prodlong.md)] Workflows verwalten](across-use-workflows.md)  
 [Genehmigungsbenutzereinrichtung](across-how-to-set-up-approval-users.md)  
 [Einrichten [!INCLUDE[prodshort](includes/prodshort.md)]](setup.md)  

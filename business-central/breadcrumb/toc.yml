@@ -6,9 +6,6 @@
       tocHref: /dynamics365/business-central/
       topicHref: /dynamics365/business-central/index
       items:
-        - name: Business Central Developer und IT-pro
+        - name: Business Central-Entwicklung und Verwaltung
           tocHref: /dynamics365/business-central/dev-itpro
           topicHref: /dynamics365/business-central/dev-itpro/index
-        - name: Accountant Hub
-          tocHref: /dynamics365/accountants/
-          topicHref: /dynamics365/accountants/index

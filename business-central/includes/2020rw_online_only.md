@@ -1,0 +1,1 @@
+> **GILT FÜR:** Business Central Online (2020 Veröffentlichungzyklus 2 und höher)

@@ -1,6 +1,6 @@
 ---
-title: Ermöglichen der Power BI-Integration mit Business Central | Microsoft Docs
-description: Insight, Business Intelligence und KPIs aus Ihren Business Central Daten einfach beziehen mit der Business Central Anwendung für Power BI.
+title: Ermöglichen der Power BI-Integration in Business Central
+description: Erfahren Sie, wie Sie die Verbindung zu Power BI einrichten, damit Sie mit den Business Central-Apps für Power BI Einblicke, Business Intelligence und KPIs aus Ihren Business Central-Daten erhalten.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 92b3bb1d04c58332db20c978928fe1b04ed2ab37
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697765"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927072"
 ---
 # <a name="enabling-power-bi-integration-with-prodshort"></a>Ermöglichen der Power BI-Integration mit [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -27,8 +27,8 @@ Mit [!INCLUDE[prodshort](includes/prodshort.md)] erhalten Benutzer eine kostenlo
 
 |Power-Lizenz|Berichte anzeigen|Berichte erstellen|Berichte teilen|Berichte aktualisieren| [!INCLUDE[prodshort](includes/prodshort.md)]-Apps|
 |-------------|--------||
-|Power BI kostenlos|![Aktivieren](media/check.png)|![Aktivieren](media/check.png)|(eingeschränkt)|(eingeschränkt)||
-|Power BI Pro|![Aktivieren](media/check.png)|![Aktivieren](media/check.png)|![Aktivieren](media/check.png)|(umfangreich)|![Aktivieren](media/check.png)|
+|Power BI kostenlos|![ein Häkchen](media/check.png)|![ein weiteres Häkchen](media/check.png)|(eingeschränkt)|(eingeschränkt)||
+|Power BI Pro|![und ein weiteres Häkchen](media/check.png)|![noch ein Häkchen](media/check.png)|![wieder ein Häkchen](media/check.png)|(umfangreich)|![letztes Häkchen](media/check.png)|
 
 Weitere Informationen finden Sie unter [Lizenzierung des Power BI-Dienstes für Benutzer in Ihrer Organisation](/power-bi/admin/service-admin-licensing-organization) oder unter [Als Einzelperson für den Power BI-Dienst anmelden](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 

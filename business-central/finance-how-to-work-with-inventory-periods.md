@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18be3b3e5757f3d108ddc9b413eb075aec5ae3af
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ca5104a8d4268c9f4822e98150a3e969c6c66d48
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779001"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924153"
 ---
 # <a name="work-with-inventory-periods"></a>Arbeiten mit Lagerbuchungsperioden
 Eine Lagerbuchungsperiode definiert eine Zeitspanne, in der Sie Änderungen des Lagerbestandes buchen können. Eine Lagerbuchungsperiode ist durch das Datum definiert, an dem sie endet (wird auch als Enddatum bezeichnet). Wenn Sie eine Lagerbuchungsperiode schließen, können Sie vor diesem Enddatum keine Änderungen des erwarteten oder in Rechnung gestellten Lagerbestandes buchen. Vor diesem Enddatum können Sie keine neuen Werte im Lager buchen. Wenn Sie in der geschlossenen Periode offene Artikelposten haben, es also positive Mengen gibt, die noch nicht für ausgehende Transaktion ausgeglichen wurden, können Sie weiterhin ausgehende Mengen mit diesen Posten verknüpfen, auch wenn die Periode geschlossen ist.  
@@ -43,16 +43,16 @@ Sofern die folgenden Aussagen zutreffen, können Sie jede Lagerbuchungsperiode s
 Das heißt, dass alle ausgehenden Transaktionsmengen (z. B. von Verkaufsaufträgen, ausgehenden Umlagerungen, Verkaufsrechnungen, Einkaufsreklamationen oder Einkaufsgutschriften) mit der im Lagerbestand vorhandenen Menge ausgeglichen werden müssen.  
 
 ### <a name="to-close-an-inventory-period"></a>Eine Lagerbuchungsperiode schließen  
-1. Bevor Sie eine Bestandsperiode abschließen, wählen Sie die Aktion **Kosten anpassen - Artikelbuchungen**, um sicherzustellen, dass alle Kostenanpassungen gebucht werden.
+1. Bevor Sie eine Bestandsperiode abschließen, wählen Sie die Aktion **Kosten anpassen - Artikelbuchungen** , um sicherzustellen, dass alle Kostenanpassungen gebucht werden.
 
      Führen Sie den Bericht **Lagerbuchungsperiode schließen - Test** aus, um zu ermitteln, ob es in der Lagerbuchungsperiode offene ausgehende Artikelposten oder Artikel gibt, deren Preise noch nicht reguliert wurden.  
-2. Wählen Sie die Aktion **Lagerbuchungsperiode schließen - Test**.  
+2. Wählen Sie die Aktion **Lagerbuchungsperiode schließen - Test** .  
 
      Führen Sie den Batchauftrag **Lagerregulierung buchen** aus, damit sichergestellt ist, dass alle Preise in der Finanzbuchhaltung gebucht werden.  
 3. Wählen Sie die Aktion **Lager auf Sachkonten buchen** aus.  
 4. Wählen Sie im Fenster **Lagerbuchungsperioden** die Lagerbuchungsperiode aus, die geschlossen werden soll.  
-5. Wählen Sie die Aktion **Periode schließen**. Nachdem die Lagerbuchungsperiode geschlossen wurde, können Sie vor dem Enddatum keine Lagerbestandsänderungen mehr buchen. Die Preise aller Artikel müssen mit der Stapelverarbeitung **Kosten anpassen - Artikelposten** reguliert sein, bevor Sie die Lagerbuchungsperiode schließen.  
-6. Wählen Sie die Schaltfläche **Ja**, wenn Sie bestätigen möchten, dass die Periode geschlossen werden soll, oder wählen Sie die Schaltfläche **Nein**, wenn Sie das Schließen abbrechen möchten.  
+5. Wählen Sie die Aktion **Periode schließen** . Nachdem die Lagerbuchungsperiode geschlossen wurde, können Sie vor dem Enddatum keine Lagerbestandsänderungen mehr buchen. Die Preise aller Artikel müssen mit der Stapelverarbeitung **Kosten anpassen - Artikelposten** reguliert sein, bevor Sie die Lagerbuchungsperiode schließen.  
+6. Wählen Sie die Schaltfläche **Ja** , wenn Sie bestätigen möchten, dass die Periode geschlossen werden soll, oder wählen Sie die Schaltfläche **Nein** , wenn Sie das Schließen abbrechen möchten.  
 7. Die Lagerbuchungsperiode wird geschlossen und nach Beendigung dieses Vorgangs wird eine Bestätigungsmeldung angezeigt.  
 
 ## <a name="reopening-inventory-periods"></a>Lagerbuchungsperioden erneut öffnen  
@@ -61,7 +61,7 @@ Nachdem Sie eine Lagerbuchungsperiode geschlossen haben, können Sie diese Perio
 ### <a name="to-reopen-an-inventory-period"></a>So öffnen Sie eine Lagerbuchungsperiode erneut  
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Lagerbuchungsperioden** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Lagerbuchungsperiode aus, die erneut geöffnet werden soll.  
-3. Wählen Sie die Aktion **Periode erneut öffnen**. Bestätigen Sie, dass Sie die Periode erneut öffnen möchten.  
+3. Wählen Sie die Aktion **Periode erneut öffnen** . Bestätigen Sie, dass Sie die Periode erneut öffnen möchten.  
 4. Alle Lagerbuchungsperioden, deren Enddatum nach der von Ihnen ausgewählten Periode liegt, werden erneut geöffnet.  
 
 ## <a name="see-also"></a>Siehe auch  

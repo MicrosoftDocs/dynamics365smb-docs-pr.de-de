@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 362a994ccda698a4bf91e42c27532af95f9c9c27
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 24ea6b353a22ae00ca98901c080c031870f66168
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535309"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925597"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung
 
@@ -33,7 +33,7 @@ Das folgende Bild zeigt Kacheln für den Zugriff auf Produktions- und Sandbox-Um
 
 Wenn Sie bei [!INCLUDE[d365fin](includes/d365fin_md.md)] angemeldet sind, können Sie schnell zu einem anderen Unternehmen wechseln. Nachdem Sie den Wechsel vorgenommen haben, wird das von Ihnen ausgewählte Unternehmen zu Ihrem Standardunternehmen und bei Ihrer nächsten Anmeldung angezeigt.
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") und wählen dann die Aktion **Meine Einstellungen**.
+1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") und wählen dann die Aktion **Meine Einstellungen** .
 
     > [!TIP]
     > Sie können auch die Tastenkombination ALT+T verwenden, um die Seite „Meine Einstellungen“ schnell zu öffnen.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 2f4115e62b1350fe55019aca94cb1d8beb6d93ae
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5782a49732550d6f8ffc516634a4b45ec7e22e6d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181292"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923570"
 ---
 # <a name="managing-segments"></a>Verwalten von Segmenten
 Sie können Segmente erstellen, um anhand bestimmter Kriterien eine Gruppe von Kontakten auszuwählen. Beispiele für ein Segment sind die Branche, der die Kontakte angehören, oder die Geschäftsbeziehung, die mit den Kontakten besteht. Ein Segment kann erstellt werden, um die gewünschten Kontakte für die Zielgruppe einer Kampagne auszuwählen.
@@ -27,7 +27,7 @@ Die Segmenterstellung setzt sich aus zwei Hauptschritten zusammen:
 * Eingeben allgemeiner Informationen zum Segment Damit die Kontakte innerhalb des Segments ausgewählt werden können, muss zunächst das Segment erstellt werden.
 * Auswählen der Kontakte, die in das Segment einbezogen werden sollen
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..
 
 | An | Siehe |
 | --- | --- |

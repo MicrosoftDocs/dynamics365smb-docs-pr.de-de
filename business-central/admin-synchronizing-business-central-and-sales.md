@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 9d3f4e86a0da5c26a84ca79b1712f2f240e347a2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617704"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922442"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Synchronisieren von Daten in Business Central mit Common Data Service
 
@@ -43,12 +43,15 @@ Entitäten in [!INCLUDE[d365fin](includes/cds_long_md.md)] wie beispielsweise Ko
 
 Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Einheiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[d365fin](includes/d365fin_md.md)], die [!INCLUDE[d365fin](includes/cds_long_md.md)] bietet.
 
+> [!TIP]
+> Sie können Konfigurationsänderungen an Integrationstabellen- und Feldzuordnungen auf ihre Standardeinstellungen zurücksetzen, indem Sie die Zuordnungen auswählen und dann **Standardsynchronisationseinrichtung verwenden** wählen.
+
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Synchronisierungsrichtung | Standardfilter |
 |---------------------------------------------|----------------------------------------------|---------------------------|----------------|
-| Verkäufer/Einkäufer | Benutzer | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] Kontaktfilter: **Status** ist **Nein**, **Benutzer lizenziert** ist **Ja**, Integrationsbenutzermodus ist **Nein** |
-| Debitor | Konto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] und [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] Kontofilter: **Beziehungstyp** ist **Debitor** und **Status** ist **Aktiv**. [!INCLUDE[d365fin](includes/d365fin_md.md)] Filter: **Blockiert** ist leer (Debitor ist nicht blockiert). |
-| Kreditor | Konto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] und [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] Kontofilter: **Beziehungstyp** ist **Kreditor** und **Status** ist **Aktiv**. [!INCLUDE[d365fin](includes/d365fin_md.md)] Filter: **Blockiert** ist leer (Kreditor ist nicht blockiert). |
-| Kontakt | Kontakt | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] und [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/d365fin_md.md)] Kontaktfilter: **Type** ist **Person** und der Kontakt wird einem Unternehmen zugewiesen. [!INCLUDE[d365fin](includes/cds_long_md.md)] Kontaktfilter: Der Kontakt wird einem Unternehmen zugeordnet und der übergeordnete Debitorentyp ist **Konto**. |
+| Verkäufer/Einkäufer | Benutzer | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] Kontaktfilter: **Status** ist **Nein** , **Benutzer lizenziert** ist **Ja** , Integrationsbenutzermodus ist **Nein** |
+| Debitor | Konto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] und [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] Kontofilter: **Beziehungstyp** ist **Debitor** und **Status** ist **Aktiv** . [!INCLUDE[d365fin](includes/d365fin_md.md)] Filter: **Blockiert** ist leer (Debitor ist nicht blockiert). |
+| Kreditor | Konto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] und [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] Kontofilter: **Beziehungstyp** ist **Kreditor** und **Status** ist **Aktiv** . [!INCLUDE[d365fin](includes/d365fin_md.md)] Filter: **Blockiert** ist leer (Kreditor ist nicht blockiert). |
+| Kontakt | Kontakt | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] und [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/d365fin_md.md)] Kontaktfilter: **Type** ist **Person** und der Kontakt wird einem Unternehmen zugewiesen. [!INCLUDE[d365fin](includes/cds_long_md.md)] Kontaktfilter: Der Kontakt wird einem Unternehmen zugeordnet und der übergeordnete Debitorentyp ist **Konto** . |
 | Währung | Transaktionswährung | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] |  |
 
 

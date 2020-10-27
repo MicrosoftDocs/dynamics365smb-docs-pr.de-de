@@ -1,6 +1,6 @@
 ---
 title: Geschäftsvorgangs exemplarische Vorgehensweisen | Microsoft Ausgleich.
-description: Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Geschäftsprozesse, die Sie mit dem Demounternehmen CRONUS AG durchführen können. Die exemplarischen Vorgehensweisen bestehen aus mehreren Verfahren, von denen einige normalerweise von mehr als einem Benutzer ausgeführt werden würden, während andere verschiedene Benutzerrollen enthalten. Um den Arbeitsbereich zu simulieren, enthalten einige der exemplarischen Vorgehensweisen Einrichtungsschritte, die erforderlich sind, um die Übungen wie beschrieben abzuschließen. Diese Schritte können Einblick in die Art der Informationen zu geben, die Benutzer den IT-Mitarbeitern ihres Unternehmens zur Verfügung stellen müssen.
+description: Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Geschäftsprozesse, die Sie mit dem Demounternehmen CRONUS AG durchführen können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d278175606927cc1ee1ee2dda86099f6f080822c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788371"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923320"
 ---
 # <a name="business-process-walkthroughs"></a>Exemplarische Vorgehensweisen für Geschäftsprozesse
 
@@ -39,7 +39,8 @@ Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Gesc
 |Planen eines Projekts in seiner Gesamtheit. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Verwalten von Projekten](walkthrough-managing-projects-with-jobs.md)|  
 |Bericht zu Kosten eines Projekts. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Kommissionieren Sie Artikel für den Warenausgang in den Basislagerkonfigurationen. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Defektverwaltung ausführen. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern](walkthrough-tracing-serial-lot-numbers.md)|  
+|Defektverwaltung ausführen. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern](walkthrough-tracing-serial-lot-numbers.md)|
+|Exportieren Sie Geschäftsdaten für Überwachungszwecke in Deutschland.|[Wie Sie Daten für eine Digital-Überwachung exportieren](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 35d478faf6d9eddb7240c2c346d6a7deedc583f0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9027fe7cb01efe2e06ef52154f30f2fa8fb41b83
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778063"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924128"
 ---
 # <a name="update-currency-exchange-rates"></a>Währungswechselkurse aktualisieren
 
@@ -27,7 +27,7 @@ Da sich Wechselkurse ständig ändern, müssen weitere Währungsentsprechungen i
 Die Stapelverarbeitung **Wechselkurse regulieren** dient zur manuellen Regulierung der Wechselkurse gebuchter Kreditoren-, Debitoren- und Bankkontoposten. Berichtswährungsbeträge in Sachposten können hiermit ebenfalls aktualisiert werden.  
 
 > [!TIP]
-> Sie können einen Dienst verwenden, um Wechselkurse im System automatisch zu regulieren. Weitere Informationen finden Sie unter [So richten Sie einen Währungswechselkurs-Service ein](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Die Wechselkurse für bereits gebuchte Transaktionen werden hierdurch jedoch nicht reguliert. Um Wechselkurse für gebuchte Einträge zu regulieren, verwenden Sie die Stapelverarbeitung **Wechselkurse regulieren**.
+> Sie können einen Dienst verwenden, um Wechselkurse im System automatisch zu regulieren. Weitere Informationen finden Sie unter [So richten Sie einen Währungswechselkurs-Service ein](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Die Wechselkurse für bereits gebuchte Transaktionen werden hierdurch jedoch nicht reguliert. Um Wechselkurse für gebuchte Einträge zu regulieren, verwenden Sie die Stapelverarbeitung **Wechselkurse regulieren** .
 
 ### <a name="effect-on-customers-and-vendors"></a>Auswirkung auf Debitoren und Kreditoren
 
@@ -51,7 +51,7 @@ Wenn Sie in einer Berichtswährung buchen, kann die Stapelverarbeitung neue Sach
 Den Differenzposten werden die Vorgabedimensionen der Konten zugewiesen, auf die sie gebucht werden.
 
 > [!Important]
-> Bevor Sie den Batchauftrag aufrufen können, müssen Sie die Wechselkurse eingeben, die zum Regulieren der Fremdwährungssalden verwendet werden. Dies erfolgt auf der Seite **Währungswechselkurse**.<br><br>  
+> Bevor Sie den Batchauftrag aufrufen können, müssen Sie die Wechselkurse eingeben, die zum Regulieren der Fremdwährungssalden verwendet werden. Dies erfolgt auf der Seite **Währungswechselkurse** .<br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
@@ -61,7 +61,7 @@ Sie können einen externen Service verwenden, um Ihre Währungswechselkurse wie 
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Währungswechselkurs-Dienste** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie auf der Seite **Währungswechselkurs-Service** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Wählen Sie das Kontrollkästchen **Aktiviert**, um den Service zu aktivieren.
+4. Wählen Sie das Kontrollkästchen **Aktiviert** , um den Service zu aktivieren.
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]

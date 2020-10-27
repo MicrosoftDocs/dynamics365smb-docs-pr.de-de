@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787621"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922092"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetails: Artikelverfolgung und Reservierungen
 
@@ -36,17 +36,18 @@ Die Reservierung von Artikelverfolgungsnummern zerfällt in zwei Kategorien, wie
 |Unspezifisch|Sie können keine bestimmte Serien- oder Chargennummer auswählen, wenn Sie den Lagerartikel aus einem Bedarf reservieren, beispielsweise einem Verkaufsauftrag.<br /><br /> Dies ist ein Status, der einem Reservierungsposten für Serien- oder Chargennummern, die nicht speziell ausgewählt werden, auferlegt wird. **Hinweis:**  Der Bedarf trägt keine Serien- oder Chargennummern. <br /><br /> Sie möchten beispielsweise eine Dose blaue Farbe von einer Charge für Ihren Verkaufsauftrag reservieren. Eine Dose blaue Farbe einer zufälligen Serien- oder Chargennummer wird an den Kunden geliefert.|  
   
 Der hauptsächliche Unterschied zwischen spezifischer und unspezifischer Reservierung ist durch das Vorhandensein von Serien- oder Chargennummern auf in der Bedarfsseite definiert, wie in der folgenden Tabelle gezeigt.  
-  
-|<!--blank -->|**Angebot**|**Nachfrage**|  
-|**Spezifisch** | Serien- oder Chargennummer.| Serien- oder Chargennummer.|  
-|**Unspezifisch** | Serien- oder Chargennummer.| Serien- oder Chargennummer.|  
+
+| Typ            | Vorrat                | Bedarf                   |
+|-----------------|-----------------------|--------------------------|
+| **Ausgewählt**    | Serien- oder Chargennummer | Serien- oder Chargennummer    |
+| **Unspezifisch** | Serien- oder Chargennummer | Keine Serien- oder Chargennummer. |
   
 Wenn Sie reservieren, werden Lagerbestandsmengen aus einem ausgehenden Beleg für einen Artikel, der die zugeordneten Artikelverfolgungsnummern hat und für bestimmte Artikelverfolgung eingerichtet ist, führt Sie die Seite **Reservierung** durch verschiedene Workflows entsprechend Ihres Bedarfs für eine Serien- oder Chargennummer.  
   
 ## <a name="specific-reservation"></a>Spezifische Reservierung  
 Wenn Sie **Reservieren** aus der Zeile Ausgehender Beleg aktivieren, erscheint ein Dialogfeld, in dem Sie gefragt werden, ob Sie bestimmte Serien- oder Chargennummern reservieren möchten. Wenn Sie **Ja** auswählen, wird eine Liste mit allen Serien- oder Chargennummern angezeigt, die der Belegzeile zugeordnet sind. Die Seite **Reservierung** wird geöffnet, nachdem Sie eine der Serien- oder Chargennummern auswählen, und Sie können dann unter den ausgewählten Serien- oder Chargennummern in typischer Weise eine Reservierung vornehmen.  
   
-Wenn einige der speziellen Artikelverfolgungsnummern, die Sie zu reservieren versuchen, in den unspezifischen Reservierungen geführt werden, informiert Sie eine Meldung unten auf der **Reservierungs**-Seite darüber, wie viel der reservierten Gesamtmenge in nichtspezifischen Reservierungen geführt wird, und ob diese Mengen noch verfügbar sind.  
+Wenn einige der speziellen Artikelverfolgungsnummern, die Sie zu reservieren versuchen, in den unspezifischen Reservierungen geführt werden, informiert Sie eine Meldung unten auf der **Reservierungs** -Seite darüber, wie viel der reservierten Gesamtmenge in nichtspezifischen Reservierungen geführt wird, und ob diese Mengen noch verfügbar sind.  
   
 ## <a name="nonspecific-reservation"></a>Unspezifische Reservierungen  
 Wenn Sie **Nein** im Dialogfeld auswählen, wird die Seite **Reservierung** geöffnet und ermöglicht Ihnen, unter allen Serien- oder Chargennummern im Bestand zu reservieren.  

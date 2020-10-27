@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b737516f453ee4d7fb480d4f93271e97f3e9bcf0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b473da21e35ee09b2ffad16a1acd01c03ac92a7f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788271"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924303"
 ---
 # <a name="design-details"></a>Designdetails
 Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in [!INCLUDE[d365fin](includes/d365fin_md.md)].  

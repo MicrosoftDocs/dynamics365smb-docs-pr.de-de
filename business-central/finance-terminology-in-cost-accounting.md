@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fdfccabc7ca2496754c01755acef88280fb2d7ef
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b82b5dce54d9427fbd653bd8dd185d4c086d0459
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780185"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923895"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie der Kostenrechnung
 Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwendet werden.  

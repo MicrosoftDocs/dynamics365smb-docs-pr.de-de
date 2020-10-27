@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5037168780e14d7774843223726bb6092ff2d306
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 93d1fffed38ce57e76b6451be071700c1ce07b2c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778260"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925500"
 ---
 # <a name="save-and-personalize-list-views"></a>Speichern und personalisieren Sie Listenansichten
 Wenn Sie einen Filter für eine Liste festgelegt haben und den Filter für später behalten möchten, können Sie ihn als Ansicht speichern. Weitere Informationen zum Filtern von Listen finden Sie unter [Festlegen von Filtern in Listen](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -32,7 +32,7 @@ Wenn Ansichten vorhanden sind, wird die Gruppe **Ansichten** wie oben im Filterb
 5. Wenn Sie eine neue Ansicht speichern, geben Sie einen Namen für die Ansicht im Kästchen **Alle (Kopie)** ein, z. B. "Artikel, die ich besitze".
 6. Drücken Sie die Eingabetaste oder bewegen Sie den Cursor aus dem Textfeld, um den Namen zu übernehmen.
 
-Wenn Sie ihm keinen Namen geben, wird er benannt **Alle (Kopie)**.
+Wenn Sie ihm keinen Namen geben, wird er benannt **Alle (Kopie)** .
 
 ## <a name="to-rename-or-remove-a-view"></a>So benennen Sie eine Ansicht um oder entfernen sie
 1. Für die Ansicht, in der die Liste derzeit angezeigt wird, wählen Sie das Symbol ![Weitere Optionen anzeigen](media/show-more-options-icon.png "Weitere Optionen anzeigen"), um zu sehen, welche Optionen verfügbar sind.

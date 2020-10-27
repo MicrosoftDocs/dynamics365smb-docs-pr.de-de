@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: daaaf701ba060221910f6790bf4417b77f8fe3fc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cd2d5e39edb82ebf8720b4ad98f490fa851ed2b4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777716"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921842"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Intercompany-Ein- und -Ausgangstransaktionen verwalten
 Alle Intercompanytransaktionen, die Sie auf elektronischem Wege von Intercompanypartnern empfangen, werden im Intercompanyeingang aufgelistet.  
@@ -50,7 +50,7 @@ Das Feld **Transaktionsursprung anzeigen** kann zum Filtern der Transaktionen im
  Die Intercompanytransaktionen, die Sie in einem bestimmten Zeitraum empfangen oder versendet haben, können in einer Übersicht angezeigt werden. Im Bericht **Intercompanytransaktionen** werden alle Intercompanysachposten, Debitorenposten und Kreditorenposten aufgelistet.
 
  > [!NOTE]  
- > Wenn die Intercompanypartner sich in derselben Datenbank befinden, werden Transaktionen übertragen, ohne dass Dateien oder E-Mail erforderlich sind. Siehe Feld **Transfertyp** auf der Seite **Intercompanypartner**. <br /><br />
+ > Wenn die Intercompanypartner sich in derselben Datenbank befinden, werden Transaktionen übertragen, ohne dass Dateien oder E-Mail erforderlich sind. Siehe Feld **Transfertyp** auf der Seite **Intercompanypartner** . <br /><br />
 In diesem Fall können Sie eine Überbrückung des Eingangs und Ausgangs durch das System festlegen, indem Sie das Kontrollkästchen **Transaktionen autom. akzeptieren** auf der Seite **Intercompanypartner** und das Kontrollkästchen **Transaktionen autom. senden** auf der Seite **Intercompanyeinrichtung** auswählen.
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Intercompanytransaktionen aus einer Datei importieren  
@@ -59,8 +59,8 @@ Wenn einer der Intercompanypartner sich nicht in derselben Datenbank wie das eig
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Unternehmensinformationen** ein und wählen Sie dann den entsprechenden Link.
 2. Speichern Sie die Datei in dem Verzeichnis, das Sie im Feld **Intercompanyeingangsdetails** auf der Seite **Firmendaten** angegeben haben.  
 3. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Intercompany Eingangstransaktionen** ein und wählen Sie dann den entsprechenden Link.
-4. Wählen Sie auf der Seite **Intercompany-Eingangstransaktionen** die **Transaktionsdatei importieren**-Aktion aus.  
-5. Wählen Sie auf der angezeigten Seite die XML-Datei mit den Transaktionen aus, und wählen Sie dann **Öffnen**.  
+4. Wählen Sie auf der Seite **Intercompany-Eingangstransaktionen** die **Transaktionsdatei importieren** -Aktion aus.  
+5. Wählen Sie auf der angezeigten Seite die XML-Datei mit den Transaktionen aus, und wählen Sie dann **Öffnen** .  
 
 Die Transaktionen werden in den Eingang importiert und können nun verarbeitet werden.
 
@@ -74,19 +74,19 @@ Wenn Intercompanypartner Intercompanytransaktionen an Sie senden, werden diese T
 
 Für Zeilen, die bei der Aktion **Akzeptieren** verarbeitet wurden, werden Beleg- oder Buch.-Blattzeilen in Ihrem Unternehmen erstellt. Öffnen Sie die Belege oder Buch.-Blätter, nehmen Sie die erforderlichen Änderungen vor, und buchen Sie sie anschließend.  
 
-Zeilen, die Sie mit der **n Partner zurück**-Aktion verarbeitet haben, werden in den Ausgang verschoben, von dem aus diese dann an Ihren Partner gesendet werden kann.
+Zeilen, die Sie mit der **n Partner zurück** -Aktion verarbeitet haben, werden in den Ausgang verschoben, von dem aus diese dann an Ihren Partner gesendet werden kann.
 
 Für Zeilen, die Sie mit der Aktion **Zurückgesendet durch Partner** verarbeitet haben, müssen Sie nun eine Korrektur in die ursprünglich in Ihrem Unternehmen gebuchte Transaktion buchen.
 
 ## <a name="to-process-outgoing-intercompany-transactions"></a>So verarbeiten Sie ausgehende Intercompanytransaktionen  
 Wenn Sie Intercompany-Buch.-Blätter oder -Belege buchen oder Intercompanybestellbestätigungen senden, werden die Transaktionen an den Intercompanyausgang gesendet. Damit sie an die Intercompanypartner gesendet werden, müssen Sie den Ausgang öffnen und die Transaktionen verarbeiten.  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Intercompany-Ausgangstransaktionen** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Intercompany-Ausgangstransaktionen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Intercompany-Ausgangstransaktionen** eine Zeile aus, und wählen Sie anschließend eine Aktion, wie **Zurück in Eingang** aus, um die Zeile zu verarbeiten.
 
-Zeilen, die Sie mit der **An Intercompanypartner senden**-Aktion verarbeiten, werden an den Eingang des Partners gesendet.
+Zeilen, die Sie mit der **An Intercompanypartner senden** -Aktion verarbeiten, werden an den Eingang des Partners gesendet.
 
-Zeilen, die Sie mit der **Zurück in Eingang**-Aktion verarbeiten, werden in den Eingang verschoben, wo Sie sie akzeptieren können, um Belege oder Buch.-Blattzeilen in Ihrem Unternehmen zu erstellen.  
+Zeilen, die Sie mit der **Zurück in Eingang** -Aktion verarbeiten, werden in den Eingang verschoben, wo Sie sie akzeptieren können, um Belege oder Buch.-Blattzeilen in Ihrem Unternehmen zu erstellen.  
 
 Für Zeilen, die Sie mit der Aktion **Abbrechen** verarbeitet haben, müssen Sie nun eine Korrektur in die ursprünglich in Ihrem Unternehmen gebuchte Transaktion buchen.  
 
@@ -95,7 +95,7 @@ Gelegentlich sollten Sie eine Transaktion im Ein- oder Ausgang neu erstellen. We
 
 In der folgenden Schrittfolge wird beschrieben, wie Eingangstransaktionen neu erstellt werden. Bei Ausgangstransaktionen wird jedoch gleichermaßen verfahren.
 
-  1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Bearbeitete IC-Eingangstrans** ein und wählen Sie dann den entsprechenden Link.  
+  1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Bearbeitete IC-Eingangstrans** ein und wählen Sie dann den entsprechenden Link.  
 
   2.  Wählen Sie auf der Seite **Bearbeitete IC-Eingangstrans.** die Zeile mit der Transaktion aus, die im Eingang neu erstellt werden soll, und wählen Sie dann die Aktion **Eingangstransaktion neu erstellen** aus.  
 

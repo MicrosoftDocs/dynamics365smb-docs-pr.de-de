@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03b80cc7dd0ae37ba06f453e07bf585a4728039d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4d8ce273a2db6c682a205c767e28aee3792ea14b
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782268"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968305"
 ---
 # <a name="assembly-management"></a>Montageverwaltung
 Für Unternehmen, die Produkte für ihre Debitoren herstellen, indem sie Komponenten in einfachen Prozessen kombinieren, und die keine Fertigungsfunktionen benötigen, bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] Funktionen, um Artikel zu montieren, die sich in bestehende Funktionen einfügen, beispielsweise Verkaufs-, Planungs-, Reservierungs- und Lagerfunktionen.  
@@ -26,17 +26,17 @@ Für Unternehmen, die Produkte für ihre Debitoren herstellen, indem sie Kompone
 
  Um eine Just-In-Time-Logistikstrategie sowie die Möglichkeit, Produkte an Debitorenanfragen anzupassen, zu unterstützen, können Montageaufträge automatisch erstellt und verknüpft werden, sobald die Verkaufsauftragszeile erstellt wird. Die Verknüpfung zwischen dem Verkaufsbedarf und dem Montagezubehör aktiviert Verkaufsauftragsprozessoren, um den Montageartikel während der Verarbeitung anzupassen, Liefertermine entsprechend der Komponentenverfügbarkeit zuzusagen und Istmeldung und Lieferung des gefertigten Artikels direkt aus der Verkaufsauftragsschnittstelle zu buchen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  
 
- In einer Verkaufsauftragszeile können Sie eine Menge verkaufen, die verfügbar ist und die zusammen mit einer Menge, die für den Auftrag montiert werden muss, aus dem Lagerbestand kommissioniert werden muss. Es sind bestimmte Regeln vorhanden, um die Verteilung solcher Mengen zu steuern und sicherzustellen, dass Auftragsmontagemengen bei einer Teillieferung Priorität vor Lagerbestandsmengen haben. Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).  
+ In einer Verkaufsauftragszeile können Sie eine Menge verkaufen, die verfügbar ist und die zusammen mit einer Menge, die für den Auftrag montiert werden muss, aus dem Lagerbestand kommissioniert werden muss. Es sind bestimmte Regeln vorhanden, um die Verteilung solcher Mengen zu steuern und sicherzustellen, dass Auftragsmontagemengen bei einer Teillieferung Priorität vor Lagerbestandsmengen haben. Weitere Informationen finden Sie im Abschnitt „Kombinationsszenarien“ in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
- Es sind spezielle Funktionen vorhanden, um den Versand von Auftragsmontagemengen zu steuern. Sobald eine Auftragsmontagemenge für die Lieferung bereitsteht, bucht der zuständige Lagermitarbeiter für die betroffenen Verkaufsauftragszeilen eine Lagerkommissionierung. Dieses wiederum erstellt eine Lagerbestandsumlagerung für die Komponenten, bucht den Montageausstoß und die Verkaufsauftragslieferung. Weitere Informationen finden Sie im Abschnitt "Verwenden von Auftragsmontageartikeln in [Artikel mit Lagerkommissionierungen auswählen](warehouse-how-to-pick-items-with-inventory-picks.md).
+ Es sind spezielle Funktionen vorhanden, um den Versand von Auftragsmontagemengen zu steuern. Sobald eine Auftragsmontagemenge für die Lieferung bereitsteht, bucht der zuständige Lagermitarbeiter für die betroffenen Verkaufsauftragszeilen eine Lagerkommissionierung. Dieses wiederum erstellt eine Lagerbestandsumlagerung für die Komponenten, bucht den Montageausstoß und die Verkaufsauftragslieferung. Weitere Informationen finden Sie im Abschnitt „Verwenden von Auftragsmontageartikeln in Lagerkommissionierungen“ in [Artikel mit Lagerkommissionierungen auswählen](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben.   
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
 |Erhalten Sie Informationen zum Unterschied zwischen der Montage von Artikeln direkt vor dem Versand der Verkaufsaufträge und der Montage von Artikeln, die für das Lager bestimmt sind.|[Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md)|
 |Füllen Sie die Felder auf Lagerortkarten und in der Lagereinrichtung aus, um zu definieren, wie der Fluss der Artikel in der Montageabteilung ist.|[Einrichten von Basislagern mit Vorgangsbereichen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|
-|Anpassung eines Montageartikels auf Anforderung eines Debitors während des Vertriebsprozesses, und Umwandlung in einen Verkauf nach der Akzeptanz.|[Angebot eines Auftragsmontageverkaufs](assembly-how-to-quote-an-assemble-to-order-sale.md)|
+|Anpassung eines Montageartikels auf Anforderung eines Debitors während des Vertriebsprozesses und Umwandlung in einen Verkauf nach der Akzeptanz.|[Angebot eines Auftragsmontageverkaufs](assembly-how-to-quote-an-assemble-to-order-sale.md)|
 |Kombinieren von Komponenten, um einen Artikel in einem einfachen Verfahren für einen Auftrag oder das Lager zu erstellen.|[Artikel montieren](assembly-how-to-assemble-items.md)|  
 |Verkaufen Sie Montageartikel, die zu dem Zeitpunkt nicht verfügbar sind, indem Sie einen verknüpften Montageauftrag erstellen, um die gesamte oder einen Teil der Verkaufauftragsmenge zu beziehen.|[Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md)|
 |Wenn einige Auftragsmontageartikel bereits im Lager vorhanden sind, dann ziehen Sie die Menge von dem Montageauftrag ab und reservieren sie aus dem Lager.|[So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
@@ -48,10 +48,14 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
+
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+[Designdetails: Vorratsplanung](design-details-supply-planning.md)  
+[Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung](walkthrough-planning-supplies-manually.md)  
+[Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits](walkthrough-selling-assembling-and-shipping-kits.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

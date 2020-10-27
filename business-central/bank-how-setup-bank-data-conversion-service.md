@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ffd2837365ec6cfb93528aa422603a68bc5d6788
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: af42c1b65480a1ae28387b7207eca09a79bfe75d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779786"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924453"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Einrichten der AMC Banking 365 Fundamentals-Erweiterung
 Ein globaler Diensteanbieter, der Bankdaten in das Dateiformat konvertiert, das Ihre Bank verlangt, ist in [!INCLUDE[d365fin](includes/d365fin_md.md)] eingebunden und kann aktiviert werden. Dies wird in [!INCLUDE[d365fin](includes/d365fin_md.md)] als die AMC Banking 365 Fundamentals-Erweiterung bezeichnet.
@@ -32,7 +32,7 @@ Um Bankdateien zu importieren oder zu exportieren, müssen Sie Ihre eigenen Bank
 > Die AMC Banking 365 Fundamentals-Erweiterung legt möglicherweise einen Höchstwert für die Anzahl der Zeilen fest, die in einer Datei exportiert werden können. Sie erhalten eine Fehlermeldung, wenn der Grenzwert überschritten wird. Es wird empfohlen, dass Bankkontoauszugsdateien 1.000-Zeilen nicht überschreiten, da sich die Verarbeitungszeit in der AMC Banking 365 Fundamentals-Erweiterung andernfalls erheblich erhöht.
 
 ## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>So registrieren Sie Ihr Unternehmen für die AMC Banking 365 Fundamentals-Erweiterung
-1. Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Einrichtung Bankdaten-Konvertierungsservice**, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Einrichtung Bankdaten-Konvertierungsservice** , und wählen Sie dann den entsprechenden Link.  
 2. Die Seite **Einrichtung Bankdaten-Konvertierungsservice** wird geöffnet und zeigt drei Felder an, die mit relevanten URLs des Anbieters der AMC Banking 365 Fundamentals-Erweiterung vorab ausgefüllt sind.
 
     > [!NOTE]  
@@ -49,8 +49,8 @@ Um Bankdateien zu importieren oder zu exportieren, müssen Sie Ihre eigenen Bank
 > Sie informieren Daten werden verschlüsselt automatisch an.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Um die Liste der gerade unterstützten Bankdatenformate anzeigen oder zu aktualisieren
-1. Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Einrichtung Bankdaten-Konvertierungsservice**, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie auf der Seite **Einrichtung Bankdaten-Konvertierungsservice** die Aktion **Bankname – Datenkonvertierungsübersicht**, um die Liste der Banknamen zu öffnen, die die Bankdatenformate darstellen, die von dem Konvertierungs-Service unterstützt werden.
+1. Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Einrichtung Bankdaten-Konvertierungsservice** , und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie auf der Seite **Einrichtung Bankdaten-Konvertierungsservice** die Aktion **Bankname – Datenkonvertierungsübersicht** , um die Liste der Banknamen zu öffnen, die die Bankdatenformate darstellen, die von dem Konvertierungs-Service unterstützt werden.
 3. Wählen Sie auf der Seite **Bankname – Datenkonvertierungsübersicht** die Aktion **Banknamenübersicht aktualisieren** aus.
 
 Die Liste der Bankdatenformate, die von der AMC Banking 365 Fundamentals Erweiterung unterstützt werden, wurde aktualisiert. Dies ist die Liste der Banknamen, gefiltert nach den Ländern/Regionen, die Sie im Feld **Bankname – Datenkonvertierung** auf der Seite **Bankkontokarte** auswählen können.

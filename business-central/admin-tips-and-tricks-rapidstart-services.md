@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1c3dfe37e6288934d05c4e2d9294cf87da49537
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9e9506697eacfb4bd411266078e4245e59a11353
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786121"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922417"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Tipps und Tricks: RapidStart Services
 

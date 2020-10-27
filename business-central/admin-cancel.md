@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8c70989e841da98594e8bc0c2436dbed8cda997b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528412"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927147"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Abonnement kündigen oder [!INCLUDE[prodshort](includes/prodshort.md)] entfernen
 
@@ -25,13 +25,13 @@ Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] nicht mehr nutzen möchten,
 
 Wenn Sie für die kostenlose Testversion angemeldet sind und nicht mit [!INCLUDE[d365fin](includes/d365fin_md.md)] fortfahren möchten, können sie das Konto jederzeit schließen. Es ist empfehlenswert, dass Sie die Daten exportieren, bevor Sie Ihr Konto haben. 
 
-Sie müssen Ihren Office 365-Administrator darum bitten, Ihr Testabonnement aus dem Konto Ihres Unternehmens zu entfernen im [Microsoft 365 Admin Center](https://admin.microsoft.com/). 
+Sie müssen Ihren Microsoft 365-Administrator darum bitten, Ihr Testabonnement aus dem Konto Ihres Unternehmens im [Microsoft 365 Admin Center](https://admin.microsoft.com/) zu entfernen. 
 
-Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] unter Verwendung eines Geschäftskontos, das nicht zu Office 365 gehört, registriert haben, haben Sie keinen Office 365 Administrator. Stattdessen müssen Sie kündigen, indem Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Stornierungsteam kontaktieren, indem Sie eine E-Mail an cancelbusinesscentra@microsoft.com senden. Sie müssen den Namen Ihres [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten in die Nachricht einfügen, damit wir Sie identifizieren können. Sie finden diese Informationen auf der Seite **Hilfe und Unterstützung**. Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
+Wenn Sie sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] unter Verwendung eines Geschäftskontos, das nicht zu Microsoft 365 gehört, registriert haben, haben Sie keinen Microsoft 365-Administrator. Stattdessen müssen Sie kündigen, indem Sie das [!INCLUDE[d365fin](includes/d365fin_md.md)]-Stornierungsteam kontaktieren, indem Sie eine E-Mail an cancelbusinesscentra@microsoft.com senden. Sie müssen den Namen Ihres [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten in die Nachricht einfügen, damit wir Sie identifizieren können. Sie finden diese Informationen auf der Seite **Hilfe und Unterstützung** . Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
 
-## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Entfernen von [!INCLUDE[d365fin](includes/d365fin_md.md)] aus Ihrer Office 365 Umgebung
+## <a name="unsubscribing-by-removing-d365fin-from-your-microsoft-365-experience"></a>Entfernen von [!INCLUDE[d365fin](includes/d365fin_md.md)] aus Ihrer Microsoft 365-Umgebung
 
-Wenn Ihr Unternehmen ein Abonnement für [!INCLUDE[prodshort](includes/prodshort.md)] abschließt, aber Sie, als Benutzer, keinen Zugriff mehr möchten, müssen Sie Ihren Administrator oder Ihren Dynamics 365-Weiterverkaufspartner bitten, die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Lizenz aus Ihrem Office 365-Benutzerkonto zu entfernen. Wenn [!INCLUDE[d365fin](includes/d365fin_md.md)] von Ihrem Benutzerkonto entfernt wird und Ihr Unternehmen das Abonnement fortsetzt, haben Ihre Arbeitskollegen immer noch Zugriff auf Ihre freigegebenen Daten im [!INCLUDE[d365fin](includes/d365fin_md.md)]-Unternehmen.  
+Wenn Ihr Unternehmen ein Abonnement für [!INCLUDE[prodshort](includes/prodshort.md)] abschließt, aber Sie, als Benutzer, keinen Zugriff mehr möchten, müssen Sie Ihren Administrator oder Ihren Dynamics 365-Weiterverkaufspartner bitten, die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Lizenz aus Ihrem Microsoft 365-Benutzerkonto zu entfernen. Wenn [!INCLUDE[d365fin](includes/d365fin_md.md)] von Ihrem Benutzerkonto entfernt wird und Ihr Unternehmen das Abonnement fortsetzt, haben Ihre Arbeitskollegen immer noch Zugriff auf Ihre freigegebenen Daten im [!INCLUDE[d365fin](includes/d365fin_md.md)]-Unternehmen.  
 
 Wenn Ihr Unternehmen das Abonnement für [!INCLUDE[d365fin](includes/d365fin_md.md)] kündigen möchte, kann der Dynamics 365-Weiterverkaufspartner das bezahlte Abonnement aus dem Konto des Unternehmens entfernen. Weitere Informationen finden Sie unter [Verwaltung von Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) im Entwickler- und IT-Pro-Inhalt.  
 

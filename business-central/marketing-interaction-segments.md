@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: faab1c6273d3e7c09c44f42104da55296859139e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6a363007ece179430949d0fc0c62cb9df3fc9dac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181436"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923645"
 ---
 # <a name="manage-interactions-for-segments"></a>Aktivitäten für Segmente verwalten
 Die Seite **Segment** ist ein Arbeitsschein, in dem Sie folgende Aufgaben ausführen können:
@@ -40,7 +40,7 @@ Auf der Seite **Segment** können Sie Aktivitäten für mehrere Kontakte gleichz
 Sie können Informationen über die Aktivität für das Segment im **Segmentkopf** festlegen. Sie können z. B. entscheiden, welche Aktivitätenvorlage Sie für alle Kontakte verwenden möchten, Sie eine Beschreibung oder eine Korrespondenzart festlegen usw. Sie können diese Informationen in der Segmentszeile für jeden einzelnen Kontakt verändern, z. B., indem Sie eine andere Beschreibung eingeben. Wenn Sie ein Segment mit einem Dokument in Microsoft Word verknüpfen, können Sie das Dokument für einen oder mehrere Kontakte des Segments personalisieren, indem Sie dem Dokument z. B. individuelle Kommentare hinzufügen.
 
 ## <a name="logging"></a>Protokollieren
-Wenn Sie auf der Seite **Segment** **Protokoll** wählen, werden alle Aktivitäten auf der Seite **Aktivitätenprotokollposten** gespeichert und das Segment wird protokolliert. Nachdem Sie das Segment protokolliert haben, finden Sie es nur in auf der Seite **Protokollierte Segmente**.
+Wenn Sie auf der Seite **Segment** **Protokoll** wählen, werden alle Aktivitäten auf der Seite **Aktivitätenprotokollposten** gespeichert und das Segment wird protokolliert. Nachdem Sie das Segment protokolliert haben, finden Sie es nur in auf der Seite **Protokollierte Segmente** .
 
 Auf der Seite **Protokollierte Segmente** können Sie ein Anschluss-Segment mit den gleichen Kontakten wie das protokollierte Segment erstellen.
 

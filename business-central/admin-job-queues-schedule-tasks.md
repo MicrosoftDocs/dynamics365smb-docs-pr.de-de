@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/09/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6816ba11203e697ff833b9ea96aa85139fbcffe9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5e8c611ed5d542436f470781c92d17095ecd1f5d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783601"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924578"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung
 
@@ -31,8 +31,8 @@ Projektwarteschlangen sind ein effektives Werkzeug, um die Ausführung von Gesch
 
 Nachfolgend wird erklärt, wie die Hintergrundbuchung von Verkaufsaufträgen eingerichtet wird. Die Schritte sind für den Kauf ähnlich.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Einrichten von Verkauf und Forderungen** ein, und wählen Sie dann den zugehörigen Link aus.
-2. Auf der Seite **Einrichtung von Vertrieb und Forderungen** aktivieren Sie das Kontrollkästchen **Mit Projektwarteschlange buchen**.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einrichten von Verkauf und Forderungen** ein, und wählen Sie dann den zugehörigen Link aus.
+2. Auf der Seite **Einrichtung von Vertrieb und Forderungen** aktivieren Sie das Kontrollkästchen **Mit Projektwarteschlange buchen** .
 3. Wählen Sie das Feld **Projektwarteschlangen-Kategoriecode** aus und geben Sie dann den Code **SALESPOST** an.
 
     > [!NOTE]
@@ -40,7 +40,7 @@ Nachfolgend wird erklärt, wie die Hintergrundbuchung von Verkaufsaufträgen ein
     >
     > [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt Auftragswarteschlangen-Kategorien für Vertrieb, Einkauf und Sachbuchung bereit. Es wird empfohlen, dass immer eine dieser Optionen oder eine von Ihnen erstellte angegeben wird. Wenn aufgrund von Konflikten Fehler auftreten, sollten Sie eine Kategorie für alle Verkäufe, Einkäufe und Hintergrundbuchungen in der Finanzbuchhaltung einrichten.
 
-    Wenn zusätzlich Verkaufsbelege gedruckt werden sollen, wenn diese gebucht werden, aktivieren Sie das Kontrollkästchen **Mit Projektwarteschlange buchen und drucken** auf der Seite **Einrichtung von Vertrieb und Forderungen**.  
+    Wenn zusätzlich Verkaufsbelege gedruckt werden sollen, wenn diese gebucht werden, aktivieren Sie das Kontrollkästchen **Mit Projektwarteschlange buchen und drucken** auf der Seite **Einrichtung von Vertrieb und Forderungen** .  
 
     > [!IMPORTANT]  
     > Wenn Sie einen Beleg an einen Drucker senden und der Drucker ein Dialogfeld anzeigt, wie eine Anforderung für Anmeldeinformationen oder eine Warnung über geringe Druckertinte, wird der Beleg gebucht, aber nicht gedruckt. Die entsprechenden Aufgabenwarteschlangenposten überschreiten letztendlich die Zeit und das Feld **Status** ist auf **Fehler** festgelegt. Entsprechend empfiehlt es sich, dass Sie kein Druckersetup verwenden, das Aktivität mit der Anzeige von Druckerdialogfeldern in Verbindung mit Hintergrundbuchung benötigt.
@@ -49,18 +49,18 @@ Nachfolgend wird erklärt, wie die Hintergrundbuchung von Verkaufsaufträgen ein
 
 4. Um sicherzustellen, dass die Aufgabenwarteschlange wie erwartet arbeitet, buchen Sie einen Verkaufsauftrag. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
 
-5. Überprüfen Sie auf der Seite **Projektwarteschlangen-Protokolleinträge**, ob der Verkaufsauftrag erfolgreich gebucht wurde. Weitere Informationen finden Sie unter [So wird der Status oder Fehler in der Projektwarteschlange angezeigt](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+5. Überprüfen Sie auf der Seite **Projektwarteschlangen-Protokolleinträge** , ob der Verkaufsauftrag erfolgreich gebucht wurde. Weitere Informationen finden Sie unter [So wird der Status oder Fehler in der Projektwarteschlange angezeigt](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>So wird ein Projektwarteschlangeneintrag für die Stapelbuchung von Verkaufsaufträgen erstellt
 
-Alternativ können Sie Buchungen verschieben, wenn es für Ihre Organisation hilfreich ist. Beispielsweise kann es in Ihrem Unternehmen sinnvoll sein, bestimmte Routinen dann auszuführen, wenn ein Großteil der Dateneingaben für einen Arbeitstag abgeschlossen wurde. Sie können dies erreichen, indem Sie die Projektwarteschlange so einrichten, dass verschiedene Stapelbuchungsberichte ausgeführt werden, wie beispielsweise **Stapelbuchung von Verkaufsaufträgen**, **Stapelbuchungsverkaufsrechnungen** und ähnliche Berichte. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt die Hintergrundbuchung für alle Verkaufs-, Einkaufs- und Servicebelege.
+Alternativ können Sie Buchungen verschieben, wenn es für Ihre Organisation hilfreich ist. Beispielsweise kann es in Ihrem Unternehmen sinnvoll sein, bestimmte Routinen dann auszuführen, wenn ein Großteil der Dateneingaben für einen Arbeitstag abgeschlossen wurde. Sie können dies erreichen, indem Sie die Projektwarteschlange so einrichten, dass verschiedene Stapelbuchungsberichte ausgeführt werden, wie beispielsweise **Stapelbuchung von Verkaufsaufträgen** , **Stapelbuchungsverkaufsrechnungen** und ähnliche Berichte. [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt die Hintergrundbuchung für alle Verkaufs-, Einkaufs- und Servicebelege.
 
 Der folgende Ablauf zeigt, wie Sie den Bericht **Stapelbuchung von Verkaufsaufträgen** so festlegen, dass Verkaufsaufträge automatisch an Wochentagen um 16:00 Uhr gebucht werden.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Wählen Sie im Feld **Auszuführender Objekttyp** die Option **Bericht** aus.  
-4. Wählen Sie im Feld **Auszuführende Objekt-ID** 296 aus, **Stapelbuchung von Verkaufsaufträgen**.
+4. Wählen Sie im Feld **Auszuführende Objekt-ID** 296 aus, **Stapelbuchung von Verkaufsaufträgen** .
 
    Sie können auch folgende Berichte verwenden:
   
@@ -77,12 +77,12 @@ Der folgende Ablauf zeigt, wie Sie den Bericht **Stapelbuchung von Verkaufsauftr
    * 6004 **Servicerechnungen stapelbuchen**
    * 6001 **Serviceaufträge stapelbuchen**
 
-5. Aktivieren Sie das Kontrollkästchen **Berichtsanforderungsseite**.
-6. Auf der Anforderungsseite **Stapelbuchung von Verkaufsaufträgen** definieren Sie, was während der automatischen Buchung von Verkaufsaufträgen einbezogen wird, und wählen Sie dann die Schaltfläche **OK**.
+5. Aktivieren Sie das Kontrollkästchen **Berichtsanforderungsseite** .
+6. Auf der Anforderungsseite **Stapelbuchung von Verkaufsaufträgen** definieren Sie, was während der automatischen Buchung von Verkaufsaufträgen einbezogen wird, und wählen Sie dann die Schaltfläche **OK** .
 
     > [!IMPORTANT]
-    > Denken Sie daran, strenge Filter festzulegen. Andernfalls bucht [!INCLUDE [prodshort](includes/prodshort.md)] alle Dokumente, selbst wenn sie noch nicht fertig sind. Ziehen Sie in Betracht, für das Feld **Status** einen Filter für den Wert *Freigegeben* zu setzen, sowie einen Filter für das Feld **Buchungsdatum** für den Wert *Heute*. Weitere Informationen finden Sie unter [Sortieren, Durchsuchen und Filtern](ui-enter-criteria-filters.md).
-7. Aktivieren Sie alle Kontrollkästchen von **Montags ausführen** bis **Freitags ausführen**.
+    > Denken Sie daran, strenge Filter festzulegen. Andernfalls bucht [!INCLUDE [prodshort](includes/prodshort.md)] alle Dokumente, selbst wenn sie noch nicht fertig sind. Ziehen Sie in Betracht, für das Feld **Status** einen Filter für den Wert *Freigegeben* zu setzen, sowie einen Filter für das Feld **Buchungsdatum** für den Wert *Heute* . Weitere Informationen finden Sie unter [Sortieren, Durchsuchen und Filtern](ui-enter-criteria-filters.md).
+7. Aktivieren Sie alle Kontrollkästchen von **Montags ausführen** bis **Freitags ausführen** .
 8. In dem Feld **Startzeit** geben Sie 16:00 Uhr ein.
 9. Wählen Sie die Aktion **Status auf bereit festlegen** aus.
 
@@ -105,7 +105,7 @@ Nachdem ein Projekt erfolgreich abgeschlossen wurde, wird dieses aus der Liste d
 Daten, die erstellt werden, wenn eine Projektwarteschlange ausgeführt wird, werden in der Datenbank gespeichert, sodass Sie Projektwarteschlangenfehler beheben können.
 
 ### <a name="to-view-status-for-any-job"></a>So wird der Status für jedes beliebige Projekt angezeigt
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Aufgabenwarteschlangeneinträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Projektwarteschlangeneinträge** wählen Sie einen Projektwarteschlangeneintrag aus, und wählen die dann die Aktion **Protokolleinträge** aus.  
 
 ### <a name="to-view-status-from-a-sales-or-purchase-document"></a>So wird der Status aus einem Verkaufs- oder Einkaufsbeleg angezeigt
@@ -130,7 +130,7 @@ Wenn eine Aufgabenwarteschlange manuell aktiviert wird, wird sie mit den Anmelde
 > Wenn Sie den SUPER-Zugriffsrechtsatz der Demolizenz für [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden, sind Sie und Ihre Benutzer zum Ausführen aller Objekte berechtigt. In diesem Fall ist der Zugriff für jeden Benutzer nur durch Berechtigungen für Daten beschränkt.  
 
 ## <a name="using-job-queues-effectively"></a>Effektive Verwendung von Aufgabenwarteschlangen  
-Der Aufgabenwarteschlangenposten hat viele Felder, deren Zweck darin besteht, Parameter in die Codeunit zu übertragen, die Sie für die Ausführung mit einer Aufgabenwarteschlange festgelegt haben. Dies bedeutet auch, dass Codeunits, die über die Aufgabenwarteschlange ausgeführt werden sollen, beim Warteschlangenposten als Parameter im **OnRun**-Trigger angegeben werden müssen. Dies gewährleistet ein zusätzliches Maß an Sicherheit, da so Benutzer über die Aufgabenwarteschlange keine beliebigen Codeunits ausführen können. Wenn der Benutzer Parameter einem Bericht weiterleiten muss, besteht hierfür die einzige Möglichkeit darin, die Berichtsausführung in eine Codeunit einzubinden, die anschließend die Eingabeparameter analysiert und in den Bericht einfügt, bevor dieser ausgeführt wird.  
+Der Aufgabenwarteschlangenposten hat viele Felder, deren Zweck darin besteht, Parameter in die Codeunit zu übertragen, die Sie für die Ausführung mit einer Aufgabenwarteschlange festgelegt haben. Dies bedeutet auch, dass Codeunits, die über die Aufgabenwarteschlange ausgeführt werden sollen, beim Warteschlangenposten als Parameter im **OnRun** -Trigger angegeben werden müssen. Dies gewährleistet ein zusätzliches Maß an Sicherheit, da so Benutzer über die Aufgabenwarteschlange keine beliebigen Codeunits ausführen können. Wenn der Benutzer Parameter einem Bericht weiterleiten muss, besteht hierfür die einzige Möglichkeit darin, die Berichtsausführung in eine Codeunit einzubinden, die anschließend die Eingabeparameter analysiert und in den Bericht einfügt, bevor dieser ausgeführt wird.  
 
 ## <a name="scheduling-synchronization-between-d365fin-and-d365fin"></a>Synchronisierung planen zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[d365fin](includes/cds_long_md.md)]
 

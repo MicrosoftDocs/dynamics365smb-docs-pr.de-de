@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 09/04/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: da6e53a314438ef7ce5063febf8ece1d18c69f7b
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: a0e62b60f9624cad44efa7fd42c5840a2ecd07b5
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766091"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970360"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installieren und Deinstallieren von Erweiterungen in Business Central
 
@@ -28,7 +28,7 @@ Um die Funktionen einer Erweiterung nutzen zu können, z. B. Seiten öffnen, Ber
 
 ## <a name="installing-an-extension"></a>Eine Erweiterung wird installiert
 
-Sie verwalten die Erweiterungen auf der Seite **Erweiterungsverwaltung**. Sie können vom Startbildschirm auf diese Seite zugreifen. Wählen Sie alternativ das Symbol **Nach Seite oder Bericht suchen** aus ![Glühlampe, mit der die Funktion „Sie wünschen“ geöffnet wird](media/ui-search/search_small.png "Was möchten Sie tun?") in der oberen rechter Ecke, geben Sie **Erweiterung** ein, und wählen Sie dann den zugehörigen Link aus.  
+Sie verwalten die Erweiterungen auf der Seite **Erweiterungsverwaltung** . Sie können vom Startbildschirm auf diese Seite zugreifen. Wählen Sie alternativ das Symbol **Nach Seite oder Bericht suchen** aus ![Glühlampe, mit der die Funktion „Sie wünschen“ geöffnet wird](media/ui-search/search_small.png "Was möchten Sie tun?") in der oberen rechter Ecke, geben Sie **Erweiterung** ein, und wählen Sie dann den zugehörigen Link aus.  
 
 Sie können neue Erweiterungen vom Marketplace auf [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) abrufen. Hier können Sie alle verfügbaren Erweiterungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] anzeigen und Apps, Erweiterungen und Inhaltspakete für andere Microsoft-Produkte abrufen. Legen Sie die gewünschten Filter fest, werfen Sie einen Blick auf die Informationen für jede Erweiterung, und rufen Sie eine Erweiterung für Ihr [!INCLUDE[d365fin](includes/d365fin_md.md)] ab.  
 
@@ -44,44 +44,44 @@ Andere Erweiterungen fügen einfach Felder einer vorhandenen Seite hinzu, oder s
 
 Wenn Sie eine Erweiterung deinstallieren und Sie dann Ihre Absicht ändern, können Sie sie wieder einrichten. Wenn Sie eine Erweiterung deinstallieren, die Sie verwendet haben, werden die Daten beibehalten, sodass, wenn Sie die Erweiterung erneut einrichten, die Daten noch verfügbar sind. Es sind einige Erweiterungen erforderlich. Sie können diese nicht von der **Extension Management** Seite deinstallieren. Wenn Sie es versuchen, wird eine Fehlermeldung angezeigt.
 
-Einige Erweiterungen werden von Microsoft bereitgestellt, und andere Erweiterungen werden von anderen [anderen Unternehmen](ui-extensions-other.md) bereitgestellt. Alle Erweiterungen werden getestet, bevor sie zugänglich gemacht werden, aber wir empfehlen, dass Sie auf die Links zugreifen, die mit jeder Erweiterung zur Verfügung gestellt wurden, um mehr über die Erweiterung zu erfahren, bevor Sie entscheiden, sie einzurichten.
+Einige Erweiterungen werden von Microsoft bereitgestellt, und andere Erweiterungen werden von anderen [anderen Unternehmen](ui-extensions-other.md) bereitgestellt. Alle Erweiterungen werden getestet, bevor sie zugänglich gemacht werden, aber wir empfehlen, dass Sie auf die Links zugreifen, die mit jeder Erweiterung zur Verfügung gestellt wurden, um mehr über die Erweiterung zu erfahren, bevor Sie entscheiden, sie zu installieren.
 
 Microsoft stellt die folgenden Erweiterungen bereit:
 
-* [Buchhaltungsportal für Business Central](ui-extensions-accountant-portal.md)  
-* [Ceridian-Gehaltsliste](ui-extensions-ceridian-payroll.md) 
-* [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md) 
-* [Wesentliche Geschäfts-Einblicke](ui-extensions-essential-business-insights.md)   
-* [Schliffbildanalysator](ui-extensions-image-analyzer.md) 
-* [Intelligente Cloud](ui-extensions-data-replication.md)    
+* [AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)
+* [Ceridian-Gehaltsliste](ui-extensions-ceridian-payroll.md)
+* [Unternehmens-Hub](ui-extensions-company-hub.md)  
+* [Dynamics GP Datenmigration](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Wesentliche Geschäfts-Einblicke](ui-extensions-essential-business-insights.md)
+* [Schliffbildanalysator](ui-extensions-image-analyzer.md)
+* [Intelligente Cloud](ui-extensions-data-replication.md)
 * [Intelligente Cloud-Basis](ui-extensions-intelligent-cloud.md)  
-* [Vorhersagen verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md) 
-* [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)   
-* [QuickBooks Online-Datenmigration](ui-extensions-quickbooks-online-data-migration.md) 
-* [Quickbooks Lohndatei-Import](ui-extensions-quickbooks-payroll.md) 
-* [Verkaufs- und Bestandsprognose](ui-extensions-sales-forecast.md)   
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md) 
-* [AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)    
-* [DK – C5 Datenmigration](ui-extensions-c5-data-migration.md)  
-* [DK – Zahlungen und Abstimmungen](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [DK - Steuerdateiformate](ui-extensions-tax-file-formats-dk.md) 
-* [UK - GetAddress.io Postleitzahlen Großbritannien](ui-extensions-getaddressio.md)  
-* [USA/CA/GB/AU/NZ/ZA – Überweisungsbestätigung senden](ui-extensions-send-remittance-advice.md) 
-* [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)
+* [Vorhersagen verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks Datenmigration](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online-Datenmigration](ui-extensions-quickbooks-online-data-migration.md)
+* [QuickBooks-Lohndatei-Import](ui-extensions-quickbooks-payroll.md)
+* [Verkaufs- und Lagerbestandsplanung](ui-extensions-sales-forecast.md)
+* [MwSt.-Gruppe](ui-extensions-vat-group.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK – C5 Datenmigration](ui-extensions-c5-data-migration.md)
+* [DK – Zahlungen und Abstimmungen](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK – Steuerdateiformate](ui-extensions-tax-file-formats-dk.md)
+* [UK - GetAddress.io britische Postleitzahlen](ui-extensions-getaddressio.md)
+* [USA/CA/GB/AU/NZ/ZA – Überweisungsbescheid senden](ui-extensions-send-remittance-advice.md)
 
 ## <a name="uninstalling-an-extension"></a>Deinstallieren einer Erweiterung
 
-Sie deinstallieren eine Erweiterung über die Seite **Erweiterungsverwaltung**. Wenn Sie eine Erweiterung deinstallieren und Sie Ihre Meinung anschließend ändern, können Sie die Erweiterung erneut installieren. Wenn Sie eine Erweiterung deinstallieren, die Sie verwendet haben, werden die Daten standardmäßig beibehalten, falls Sie die Erweiterung erneut installieren sollten. Sie können die Daten jedoch auch zusammen mit der Erweiterung löschen. Verwenden Sie hierfür das Kontrollkästchen **Erweiterungsdaten löschen**. Standardmäßig ist dieses Kontrollkästchen *nicht aktiviert*.
+Sie deinstallieren eine Erweiterung über die Seite **Erweiterungsverwaltung** . Wenn Sie eine Erweiterung deinstallieren und Sie Ihre Meinung anschließend ändern, können Sie die Erweiterung erneut installieren. Wenn Sie eine Erweiterung deinstallieren, die Sie verwendet haben, werden die Daten standardmäßig beibehalten, falls Sie die Erweiterung erneut installieren sollten. Sie können die Daten jedoch auch zusammen mit der Erweiterung löschen. Verwenden Sie hierfür das Kontrollkästchen **Erweiterungsdaten löschen** . Standardmäßig ist dieses Kontrollkästchen *nicht aktiviert* .
 
 > [!IMPORTANT]  
 > Wenn Sie das Kontrollkästchen **Erweiterungsdaten löschen** aktivieren, wird ein Bestätigungsdialogfeld angezeigt, in dem Sie **OK** auswählen müssen. Wenn das Kontrollkästchen **Erweiterungsdaten löschen** aktiviert ist und Sie die Erweiterung jetzt deinstallieren, werden Sie aufgefordert, die Deinstallation der Erweiterung und das Löschen der Daten zu bestätigen. Die Aktion kann nicht rückgängig gemacht werden.
 Einige Erweiterungen sind erforderlich. Sie können diese nicht von der **Extension Management** Seite deinstallieren. Wenn Sie es versuchen, wird eine Fehlermeldung angezeigt.  
 
-
 ## <a name="see-also"></a>Siehe auch
+
 [Erweitern von Dynamics 365 Business Central](about-develop-extensions.md)  
 [Business Central-Erweiterungen von anderen Anbietern](ui-extensions-other.md)  
 [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md)  

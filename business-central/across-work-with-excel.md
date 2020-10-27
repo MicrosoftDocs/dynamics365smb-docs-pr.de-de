@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: f782b3ce19baa29d9268f3fdf742d2aa6112957f
-ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
+ms.openlocfilehash: b25413c8f0479aaccfc67ae96f2870690f993dfa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534591"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927272"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Anzeigen und Arbeit in Excel aus Business Central
 
@@ -40,7 +40,7 @@ Mit Seiten, die eine Liste der Datensätze in den Zeilen und Spalten anzeigen, w
 
 - Das geht nur auf Windows; nicht Mac Os.
 
-- Sie können das Unternehmen, mit dem Sie zusammenarbeiten, wechseln. Wählen Sie dazu im Excel-Add-In-Fensterbereich das Symbol **Optionen** ![Excel-Add-In-Optionen](media/cogwheel.png "Excel-Add-In-Optionen") und wählen Sie dann das Unternehmen aus dem Feld **Unternehmen**.  
+- Sie können das Unternehmen, mit dem Sie zusammenarbeiten, wechseln. Wählen Sie dazu im Excel-Add-In-Fensterbereich das Symbol **Optionen** ![Excel-Add-In-Optionen](media/cogwheel.png "Excel-Add-In-Optionen") und wählen Sie dann das Unternehmen aus dem Feld **Unternehmen** .  
 
     > [!IMPORTANT]
     > Wenn Sie das Unternehmen ändern, stellen Sie sicher, dass das Feld **Umgebung** nicht leer ist. Wenn dies der Fall ist, dann stellen Sie sie auf eine der verfügbaren Optionen ein; andernfalls wird das Add-In nicht korrekt funktionieren.  
@@ -59,5 +59,6 @@ Wenn Sie Änderungen am Add-In vornehmen, müssen Sie es neu laden, um die Verbi
 
 ## <a name="see-also"></a>Siehe auch
 
-[Arbeiten mit  Business Central](ui-work-product.md)  
+[Finanzauswertungen analysieren in Microsoft Excel](finance-analyze-excel.md)  
+[Arbeiten mit Business Central](ui-work-product.md)  
 [Verbesserungen der Excel-Integration in der Veröffentlichungswelle 2 von 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  

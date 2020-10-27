@@ -1,16 +1,16 @@
 ---
 title: Lernkatalog für Partnerverkauf und Marketing
-description: Hier finden Sie alle verfügbaren Informationen für Business Central.
+description: Finden Sie alle verfügbaren Lernressourcen zu Partnervertrieb und Marketingrollen in Business Central.
 author: loreleishannonmsft
-ms.date: 04/30/2020
+ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: 4b6fd743dd65cacb3d3e9ffa91b46cb9cc69cbd1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781485"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926647"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Lernkatalog für Partnerverkauf und Marketing
 
@@ -22,7 +22,7 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 
 | Inhalt     | Beschreibung    | Format                                | Länge              |
 |-------------|----------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Nur für Partner) In dieser Sitzung wird der Wert von Business Central erläutert. Business Central bietet einen hohen Mehrwert, da es sich mit anderen Microsoft Cloud Services wie Office 365 integriert und mit Power Apps, Power Automate und Power BI an spezifische Branchenbedürfnisse angepasst oder erweitert werden kann. | Video                                 | 8 Minuten 5 Sekunden |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Nur für Partner) In dieser Sitzung wird der Wert von Business Central erläutert. Business Central bietet einen hohen Mehrwert, da es sich mit anderen Microsoft Cloud Services, einschließlich Microsoft 365, integrieren lässt und es kann für spezifische Branchenbedürfnisse angepasst oder erweitert werden mit Power Apps, Power Automate und Power BI. | Video                                 | 8 Minuten 5 Sekunden |
 | [Erforschen Sie die Dynamics 365 Business Central-Funktionen](https://dynamics.microsoft.com/business-central/capabilities/) | Erkunden Sie die Dynamics 365 Business Central-Funktionen.    | Website    |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Dieses Modul zeigt Anwendungsmerkmale, Vorteile und Beispiele für Dynamics 365 Business Central in Aktion.    | Kostenloser, selbstbestimmter Online-Lernpfad mit eigenem Tempo | 24 Minuten          |
 
@@ -43,7 +43,6 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 | [Kundengeschichten suchen](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Finden Sie Kundenreferenzen für Dynamics 365 Business Central unter [https://customer.microsoft.com](https://customer.microsoft.com).  | Website |                       |
 | [Programm für Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider)    | (nur für Partner) Über das Cloud Solution Provider-Programm     | Website |                       |
 | [Marketing in einer Cloudwelt](https://mbspartner.microsoft.com/OSS/Topic/19) | (Nur für Partner) Die Frage, wie Sie Ihre Marketingpraktiken optimieren und Ihre Marketingprinzipien für eine Cloud-First-Welt neu ausrichten können, wird ein Hauptfaktor bei der Bestimmung des Erfolgs oder Misserfolgs Ihres Unternehmens sein. Diese Reihe von Videos und Ressourcen bietet Best Practices für das Marketing, Anleitungen zur Erstellung von Inhalten, pragmatische Tipps und nützliche Tools für die Anwendung von Cloud-Marketing-Prinzipien, um die Nachfrage nach Ihren Lösungen zu steigern. | Themenseite | 35 Minuten |
-| [Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)        | (Nur für Partner) Die Frage, wie Sie Ihre Marketingpraktiken optimieren und Ihre Marketingprinzipien für eine Cloud-First-Welt neu ausrichten können, wird ein Hauptfaktor bei der Bestimmung des Erfolgs oder Misserfolgs Ihres Unternehmens sein. Diese Reihe von Videos und Ressourcen bietet Best Practices für das Marketing, Anleitungen zur Erstellung von Inhalten, pragmatische Tipps und nützliche Tools für die Anwendung von Cloud-Marketing-Prinzipien, um die Nachfrage nach Ihren Lösungen zu steigern.   | Themenseite    | 35 Minuten            |
 | [Cloud Solution Provider Programm - Verkauf von In-Demand-Cloud-Lösungen](https://docs.microsoft.com/partner-center/csp-overview)  | Das Cloud Solution Provider Program (CSP) hilft Ihnen, über den Wiederverkauf von Lizenzen hinaus mehr in das Geschäft Ihrer Kunden einzubinden.   | Website      |                       |
 | [Cloud Solution Provider Programm - vergleichen Sie die Partner-Support-Programme](https://partner.microsoft.com/support/partnersupport) | Sehen Sie sich dieses Video an, um zu sehen, wie Sie den richtigen Partner-Supportplan für Ihr Unternehmen auswählen können. Dann sehen Sie unten einen Vergleich nebeneinander.    | Website                               |                       |
 | [Cloud SureStep Beschleunigtes Verkaufen](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Nur für Partner) Der Cloud SureStep Beschleunigtes Verkaufen Prozess basiert auf den Bedürfnissen des modernen Käufers und ist bestrebt, bereits in einem frühen Stadium des Verkaufsprozesses einen emotionalen, erlebnisorientierten strategischen Kipppunkt auszulösen. Diese Serie von Videos und Ressourcen erklärt einen präskriptiven Verkaufsprozess, der speziell darauf ausgerichtet ist, dem traditionellen ressourcenintensiven, „demo-orientierten“ Lösungsansatz zu begegnen, der typischerweise zu sehr individuellen Produktdemonstrationen, komplexen Verkaufszyklen und langen Implementierungsprojekten führt. Die Ressourcenbibliothek enthält eine Reihe von anpassbaren Vorlagen, mit denen Sie Ihren eigenen Satz von Verkaufsressourcen erstellen können, um einen beschleunigten Verkauf zu unterstützen. | Website     |                       |

@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/16/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbf101e5bd56069792c2f1d7ddb7d242394ea5ae
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 2b34e29f13cf569d4bee7040f89402712785a525
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528060"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922944"
 ---
 # <a name="welcome-to-d365fin_long"></a>Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
@@ -22,12 +22,14 @@ ms.locfileid: "3528060"
 
 Wenn Sie bereits über [!INCLUDE[prodshort](includes/prodshort.md)] verfügen, melden Sie sich bei [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com) an. Andernfalls [starten Sie eine kostenlose Testversion](https://go.microsoft.com/fwlink/?linkid=847861). Weitere Informationen zum Onboarding bei [!INCLUDE[prodshort](includes/prodshort.md)] finden Sie unter [Erste Schritte mit [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist schnell implementiert, leicht konfiguriert, und das Konzept der Einfachheit ist unser Leitbild für unsere Innovationen beim Produktdesign, in der Entwicklung, in der Implementierung und in der Benutzerfreundlichkeit. Im Navigationsbereich links finden Sie Informationen zur Verwendung von [!INCLUDE[d365fin](includes/d365fin_md.md)] in ihrem Unternehmen. Einige wichtige Artikel sind auch im ersten Abschnitt der folgenden Tabelle aufgeführt. Wenn Sie ein Partner oder ein Debitor sind und die Funktionalität erweitern möchten, finden Sie relevante Links im Abschnitt **Inhalte für Entwickler und IT-Spezialisten**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ist schnell implementiert, leicht konfiguriert, und das Konzept der Einfachheit ist unser Leitbild für unsere Innovationen beim Produktdesign, in der Entwicklung, in der Implementierung und in der Benutzerfreundlichkeit. Im Navigationsbereich links finden Sie Informationen zur Verwendung von [!INCLUDE[d365fin](includes/d365fin_md.md)] in ihrem Unternehmen.  
+
+Einige wichtige Artikel sind auch im ersten Abschnitt der folgenden Tabelle aufgeführt. Wenn Sie ein Partner oder ein Debitor sind, der die Funktionalität erweitern möchte, finden Sie relevante Links im Abschnitt **Entwicklungs- und Verwaltungsinhalte** . Wenn Sie bei [!INCLUDE [prodshort](includes/prodshort.md)] neu sind, empfehlen wir Ihnen, mit dem Lernpfad [Erste Schritte mit Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) in Microsoft Learn zu beginnen.  
 
 |||  
 |-|-|  
-|**Geschäftsprozesse**|-   [Erste Schritte](product-get-started.md)<br />-   [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Verwaltung](admin-setup-and-administration.md)<br />-   [Geschäftsfunktionen](across-business-functionality.md)<br />-   [Lokale Funktionalität](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)<br />-   [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)<br />-   [Details zum Anwendungsdesign](design-details-application-design.md)|  
-|**Inhalt für Entwickler und IT-Spezialisten**|-   [Hilfe für Entwickler und IT-Spezialisten zu [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Entwicklung in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL-Entwicklungsumgebung](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regeln und Richtlinien für AL-Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
+|**Geschäftsprozesse**|-   [Erste Schritte](product-get-started.md)<br />-   [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Verwaltung](admin-setup-and-administration.md)<br />-   [Geschäftsfunktionen](across-business-functionality.md)<br />-   [Lokale Funktionalität](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)<br />-   [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)<br />-   [Details zum Anwendungsdesign](design-details-application-design.md)<br />- [Anpassen von Business Central](ui-customizing-overview.md)|  
+|**Entwicklungs- und Verwaltungsinhalte**|-   [Entwicklung und Verwaltung für [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Entwicklung in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL-Entwicklungsumgebung](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regeln und Richtlinien für AL-Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
 |**Community-Ressourcen**|-   [Microsoft Dynamics 365 Business Central-Community](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central im Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Microsoft Dynamics 365 Veröffentlichungspläne](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics 365 Business Central Fahrplan](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(erfordert PartnerSource-Konto\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft-Partners-Netzwerk \(Microsoft-Partners-Netzwerkmitgliedschaftskonto erforderlich\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
 > [!TIP]

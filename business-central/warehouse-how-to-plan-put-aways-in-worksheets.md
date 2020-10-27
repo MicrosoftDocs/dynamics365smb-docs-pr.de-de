@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aefbc04e188cc5ac5f87c063819d673fb9cdef8a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c957005251b65e1b6c37bb42946146c6a013cfd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779411"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925422"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planen von Einlagerungen in Arbeitsblättern
 Wenn für Ihren Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie Einlagerungsanweisungen für mehrere Wareneingänge planen möchten, anstatt die Mitarbeiter Anweisungen ausführen zu lassen, die die Anwendung für einzelne gebuchte Wareneingänge erzeugt – können Sie den Einlagerungsvorschlag nutzen.  
@@ -52,7 +52,7 @@ Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch die Einlag
     > [!NOTE]  
     >  Gelöschte Zeilen werden nur aus diesem Vorschlag gelöscht, nicht aus der Einlagerungsauswahlliste.  
 
-7.  Wählen Sie die Aktion **Einlagerung erstellen** aus. Auf der Seite **Beleg erstellen**, das sich jetzt öffnet, können Sie weitere Informationen zu der Einlagerung hinzufügen, die Sie erstellen, wie folgt:  
+7.  Wählen Sie die Aktion **Einlagerung erstellen** aus. Auf der Seite **Beleg erstellen** , das sich jetzt öffnet, können Sie weitere Informationen zu der Einlagerung hinzufügen, die Sie erstellen, wie folgt:  
 
     -   Sie können die Einlagerung einem bestimmten Mitarbeiter zuordnen.  
     -   Sie können die Einlagerungsanweisungszeilen so sortieren, wie Sie es im Vorschlag getan haben oder nach Lagerplatzpriorität. Wenn Sie nach der Lagerplatzpriorität sortieren, erscheinen zuerst die Zeilen der Art "Entnahme", da die meisten Wareneingangslagerplätze eine Lagerplatzpriorität 0 haben, und als Letztes erscheinen die Zeilen der Art "Einlagerung", beginnend mit den Lagerplätzen mit der niedrigsten Lagerplatzpriorität. Wenn Sie Ihr Lager so strukturiert haben, dass sich Lagerplätze von ähnlicher Lagerplatzpriorität nebeneinander befinden, verkürzt eine auf diese Art durchgeführte Sortierung die Wege, die die Lagermitarbeiter zurücklegen müssen.  

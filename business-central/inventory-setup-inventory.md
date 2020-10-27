@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d0ef9453c9193dd65dc841fc731932fe781bcc9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6a8298caadec82b191d345e6b7c75b95187b2fe5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783324"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921742"
 ---
 # <a name="setting-up-inventory"></a>Bestand einrichten
 Bevor Sie Lageraktivitäten und Lagerbewertung verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Lagerbestandsrichtlinien des Unternehmens definieren.
@@ -32,7 +32,7 @@ Wenn Sie Ihr Lager so eingerichtet haben, können Sie verschiedene Lagervorgäng
 |Konfigurieren Sie ein effizientes Vertriebsmodell mit einer Kombination verschiedener Lagerorte und Zuständigkeitseinheiten, die Geschäftspartnern oder Mitarbeitern zugewiesen sind.|[Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)|
 | Organisieren Sie Ihr Lager an mehreren Lagerorten, einschließlich Umlagerungsrouten. |[Einrichten von Lagerorten](inventory-how-register-new-items.md) |
 | Erstellen einer Artikelkarte für Lager-, Nicht-Lager- oder Serviceeinheiten, mit denen Sie gerade handeln. |[Neue Artikel registrieren](inventory-how-register-new-items.md) |
-|Verwenden Sie die **Element kopieren**Funktion zum schnellen Erstellen einer neuen Artikelkarte basierend auf einer vorhandenen.|[Kopieren von vorhandenen Artikeln um neue Artikel zu erstellen](inventory-how-copy-items.md)|
+|Verwenden Sie die **Element kopieren** Funktion zum schnellen Erstellen einer neuen Artikelkarte basierend auf einer vorhandenen.|[Kopieren von vorhandenen Artikeln um neue Artikel zu erstellen](inventory-how-copy-items.md)|
 |Erfahren Sie, wie Sie das Feld **Art** entsprechend dem Geschäftszweck auf der Artikelkarte ausfüllen.|[Info zu Elementtypen](inventory-about-item-types.md)|
 |Einrichten mehrerer Einheiten für einen Artikel, den Sie für Alternativvorrat, beispielsweise auf Verkauf, Einkauf oder Buchungen innerhalb der Fertigung verwenden können.|[Artikeleinheiten einrichten](inventory-how-setup-units-of-measure.md)|
 |Sie können Lagerhaltungsdaten verwenden, um Informationen über Ihre Artikel für einen bestimmten Lagerortcode und/oder einen bestimmten Variantencode zu speichern.|[Lagerhaltungsdaten einrichten](inventory-how-to-set-up-stockkeeping-units.md)|

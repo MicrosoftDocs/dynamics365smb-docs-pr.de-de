@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410747"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970464"
 ---
 # <a name="finance"></a>Finanzen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
 
 Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter gestalten.  
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.  
+Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..  
 
 | Aufgabe | Siehe |
 | --- | --- |
@@ -54,7 +54,12 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Überwachen Sie den Ablauf des Bargeldes für Ihr Unternehmen. |[Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md) |
 |Folgen Sie einem umfassenden Verfahren zur Verwendung von Kontenschemata, um Cashflowplanungen zu erstellen.|[Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Arbeiten mit Finanzberichten und -übersichten in Excel. |[Finanzauswertungen in Excel analysieren](finance-analyze-excel.md) |
-|Erfahren Sie, wie Sie das Buchhalter-Rollencenter verwenden, einen externen Buchhalter einladen und den Accountant Hub nutzen, um Konten mehrerer Mandanten zu verwalten.|[Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)|  
+|Erfahren Sie, wie Sie das Buchhalter-Rollencenter verwenden, einen externen Buchhalter einladen und den Unternehmens-Hub nutzen, um Konten mehrerer Clients zu verwalten.|[Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Machen Sie eine Videotour
+Das folgende Video stellt einige der wichtigsten Funktionen für die Verwaltung von Finanzen vor. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen einrichten](finance-setup-finance.md)  

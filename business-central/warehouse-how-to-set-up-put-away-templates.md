@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8e6f248768f558f3bc5e12002234ffb56b006759
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2c8cd73e1dd47549cab57e9fd44fe52232437175
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780010"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925297"
 ---
 # <a name="set-up-put-away-templates"></a>Einlagerungsmethoden einzurichten
 
@@ -34,7 +34,7 @@ Sie können eine Reihe von Einlagerungsmethoden einrichten und eine von diesen a
     Wenn die Standard-Einlagerungsmethode beispielsweise auf festen Lagerplätzen basieren soll, wählen Sie das Feld **Festen Lagerplatz finden** aus. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 6. Füllen Sie eine zweite Zeile mit den Lagerplatzanforderungen aus, die Ihre zweite Wahl bei der Auswahl eines Lagerplatzes für die Einlagerung sein soll. Die zweite Zeile wird nur berücksichtigt, wenn kein Lagerplatz gefunden wird, der die Anforderungen der ersten Zeile erfüllt.  
 7. Fahren Sie fort, die Zeilen auszufüllen, bis Sie alle gewünschten Lagerplatzeinlagerungen beschrieben haben, die im Einlagerungsprozess verwendet werden sollen.  
-8. Wählen Sie in der letzten Zeile der Einlagerungsvorlage das Kontrollkästchen **Chaot. Lagerplatz finden**.  
+8. Wählen Sie in der letzten Zeile der Einlagerungsvorlage das Kontrollkästchen **Chaot. Lagerplatz finden** .  
 
 Sie können verschiedene Einlagerungsmethoden erstellen und diese dann anwenden, wie Sie es für richtig halten. Als Erstes wird die Einlagerungsmethode berücksichtigt, die Sie für den Artikel oder die Lagerhaltungsdaten ausgewählt haben (falls Sie dies getan haben). Wenn diese Felder nicht ausgefüllt sind, wird die Einlagerungsmethode berücksichtigt, die Sie für das Lager im Inforegister **Lagerplatzprüfung** auf der Lagerortkarte ausgewählt haben.  
 

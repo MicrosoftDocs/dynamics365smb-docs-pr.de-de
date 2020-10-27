@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: c3ec3a511164d85dd01f827227e2cbcff76ce395
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: a19d2bbff275ea4401943b588a68cdd2e6740e12
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697722"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924803"
 ---
 # <a name="building-power-bi-reports-to-display-prodlong-data"></a>Power BI-Berichte erstellen zur Anzeige von [!INCLUDE [prodlong](includes/prodlong.md)]-Daten
 

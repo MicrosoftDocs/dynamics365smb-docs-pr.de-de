@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 33d5caec7086d12b9a2450fc36224987c5a97642
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e25082286f53c5b0458359d5f5c895b03c6f6bcf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783526"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927122"
 ---
 # <a name="migrate-customer-data"></a>Migrieren von Debitorendaten
 Sie können vorhandene Debitorendaten aus einem vorhandenen ERP-System nach [!INCLUDE[d365fin](includes/d365fin_md.md)] migrieren, indem Sie die Datenmigrationswerkzeuge aus RapidStart Services verwenden. Sie können Excel-.xlsx-Dateien als Datenträger verwenden. Sie können die Daten auch manuell umlagern, indem Sie sie direkt in den Mandanten eingeben.
@@ -42,16 +42,16 @@ Bevor Sie beginnen, müssen Sie sicherstellen, dass Sie über die Berechtigung z
 
 1. Öffnen Sie das neue Unternehmen.  
 2. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
-3. Wählen Sie die **Paket importieren**-Aktion aus. Navigieren Sie zur .rapidstart-Paketdatei, die Sie importieren möchten, und wählen Sie die **Öffnen** Aktion aus. Während des Imports werden die Paketinhalte dekomprimiert und der Paketdatensatz wird erstellt.  
+3. Wählen Sie die **Paket importieren** -Aktion aus. Navigieren Sie zur .rapidstart-Paketdatei, die Sie importieren möchten, und wählen Sie die **Öffnen** Aktion aus. Während des Imports werden die Paketinhalte dekomprimiert und der Paketdatensatz wird erstellt.  
 
     Nach Abschluss des Imports können Sie die Anzahl der Konfigurationstabellen, die importiert wurden, im Feld **Anzahl Tabellen** sehen.  
 4. Um die Konfigurationstabellen zu überprüfen, wählen Sie die **Ansicht** Aktion.  
-5. Um das gesamte Paket anzuwenden, wählen Sie **Paket anwenden**.  
+5. Um das gesamte Paket anzuwenden, wählen Sie **Paket anwenden** .  
 
     > [!NOTE]  
     >  Die Datenmigrationsinformationen basieren auf Konfigurationsvorlagen, wenn Sie eine angeben. Sie müssen die Vorlage zuerst aktualisieren, um die Liste der Felder zu ändern.  
 
-6.  Um die Feldauswahl zu überprüfen, wählen Sie eine Tabelle aus, und wählen Sie dann auf der Registerkarte **Zeilen**, wählen Sie die **Felder** Aktion aus. Vergleichen und prüfen Sie die Anzahl der Felder, die von der Anzahl der Felder verfügbar sind, deren Daten angewendet wurden.  
+6.  Um die Feldauswahl zu überprüfen, wählen Sie eine Tabelle aus, und wählen Sie dann auf der Registerkarte **Zeilen** , wählen Sie die **Felder** Aktion aus. Vergleichen und prüfen Sie die Anzahl der Felder, die von der Anzahl der Felder verfügbar sind, deren Daten angewendet wurden.  
 
 Wenn die Auswahl der Tabellen für die Datenmigration Ihre Anforderungen nicht erfüllt, können Sie eine oder mehrere neue Datenmigrationsdateien erstellen. Wenn die Dateien für die Datenmigration genügen, können Sie mit der Datenmigration unter Verwendung von XLS- oder XML-Dateien fortfahren.
 
@@ -60,11 +60,11 @@ Wenn die Auswahl der Tabellen für die Datenmigration Ihre Anforderungen nicht e
 Sie können neue Datenmigrationsdateien erstellen und diese anpassen, sodass sie Ihr Geschäft zu unterstützen.  
 
 > [!TIP]
-> Eine Datei kann nur verwendet werden, um ein Feld zu migrieren, das den **FieldClass**-Eigenschaftensatz **Normal** hat.  
+> Eine Datei kann nur verwendet werden, um ein Feld zu migrieren, das den **FieldClass** -Eigenschaftensatz **Normal** hat.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspaket** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie und öffnen Sie ein Paket, das Sie verwenden möchten, um Daten zu migrieren, und wählen Sie die **Tabellen abrufen** Aktion aus. Die Seite **Pakettabelle abrufen** wird geöffnet.  
-3. Geben Sie im Feld **Tabellen-ID** eine Tabellennummer ein oder wählen Sie eine Tabelle aus der Liste, zum Beispiel Tabelle 18, **Debitor**. Das Feld **Tabellennamen** wird automatisch ausgefüllt.  
+3. Geben Sie im Feld **Tabellen-ID** eine Tabellennummer ein oder wählen Sie eine Tabelle aus der Liste, zum Beispiel Tabelle 18, **Debitor** . Das Feld **Tabellennamen** wird automatisch ausgefüllt.  
 4. Wählen Sie die neue Migrationstabelle aus, und dann, auf der Registerkarte **Tabellen** aus, wählen Sie die **Felder** Aktion aus. Die Seite **Migrationsfeld** wird geöffnet.  
 5. Deaktivieren Sie das Kontrollkästchen **Feld einschließen** für jedes Feld, das Sie nicht importieren möchten, und wählen Sie dann **Eingeschlossene festlegen** oder die **Eingeschlossene löschen** Aktion aus.  
 
@@ -99,27 +99,27 @@ Wenn Sie Daten anwenden, die Sie aus Excel oder von einem RapidStart-Paket impor
 
 In den Verfahren, die folgen, sollten Sie im Voraus überprüfen, welche Werte Sie während des Migrationsvorgangs beibehalten möchten. Um die folgenden Verfahren auszuführen, benötigen Sie die Datenmigrationsdateien (.xls), die Sie aus [!INCLUDE[d365fin](includes/d365fin_md.md)] exportiert haben. Weitere Informationen finden Sie unter [So werden Datenmigrationsdateien exportiert](admin-migrate-customer-data.md#to-export-data-migration-files)
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie das betreffende Konfigurationspaket.  
 3. Wählen Sie die Tabelle, für die Sie Werte zuordnen möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Felder** aus.  
 4. Für jedes Feld, das Sie zuordnen möchten, wählen Sie die **Zuordnung** Aktion aus.  
 5. Geben Sie im Feld **Alter Wert** den Wert ein, den Sie ändern wollen. Geben Sie im Feld **Neuer Wert** den Wert ein, auf den Sie den alten Wert ändern wollen. Wählen Sie die Schaltfläche **OK** aus.  
 6. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data).
-7. Prüfen Sie im Feld **Anzahl der Paketfehler**, ob Fehler gemeldet wurden. Ist dies der Fall, führen Sie Drilldown einen durch, um die Fehler anzuzeigen. Die Seite **Paketdatensätze konfig.** wird geöffnet.
-8. Wählen Sie die Aktion **Fehler anzeigen** aus. Sie erhalten den folgenden Fehler: **XX ist keine gültige Option. Gültige Optionen sind: XX**. Wählen Sie die Schaltfläche **OK** aus.  
+7. Prüfen Sie im Feld **Anzahl der Paketfehler** , ob Fehler gemeldet wurden. Ist dies der Fall, führen Sie Drilldown einen durch, um die Fehler anzuzeigen. Die Seite **Paketdatensätze konfig.** wird geöffnet.
+8. Wählen Sie die Aktion **Fehler anzeigen** aus. Sie erhalten den folgenden Fehler: **XX ist keine gültige Option. Gültige Optionen sind: XX** . Wählen Sie die Schaltfläche **OK** aus.  
 9. Um die Karte zu übernehmen die Sie eingerichtet haben, aktivieren Sie die **Daten übernehmen** Aktion.  
 
 ### <a name="mapping-example"></a>Zuordnungs-Beispiel  
 Im folgenden Beispiel wird veranschaulicht, wie [!INCLUDE[d365fin](includes/d365fin_md.md)] Zuordnungsdefinitionen implementiert.  
 
-1. Eine Konfigurationstabelle erstellen, die eine **Verkäufer/Käufer**-Tabelle hat. Definieren Sie eine Karte für das Feld **Code**.  
-2. Fügen Sie zusätzliche Tabellen dem Paket hinzu, zum Beispiel **Debitor** und **Kreditor**. Diese beiden Tabellen referenzieren zur Tabelle **Verkäufer/Käufer** über die Felder **Einkäufercode** und **Verkäufercode**.  
+1. Eine Konfigurationstabelle erstellen, die eine **Verkäufer/Käufer** -Tabelle hat. Definieren Sie eine Karte für das Feld **Code** .  
+2. Fügen Sie zusätzliche Tabellen dem Paket hinzu, zum Beispiel **Debitor** und **Kreditor** . Diese beiden Tabellen referenzieren zur Tabelle **Verkäufer/Käufer** über die Felder **Einkäufercode** und **Verkäufercode** .  
 3. Wenn Sie Daten ausgleichen, wird die Zuordnung, die Sie für das Feld **Code** in der Tabelle **Verkäufer/Käufer** bereitgestellt haben, auch während der Verarbeitung der Felder **Verkäufercode** und **Einkäufercode** berücksichtigt.
 
 ## <a name="to-add-additional-values-to-d365fin"></a>Um [!INCLUDE[d365fin](includes/d365fin_md.md)] weitere Werte hinzufügen  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Tabelle, für die Sie zusätzliche Werte zuordnen möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Felder** aus.  
-3. Für die Felder, für die Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] während der Migration zusätzliche Werte ermöglichen möchten, wählen Sie das **Fehlende Codes erstellen**-Kontrollkästchen.  
+3. Für die Felder, für die Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] während der Migration zusätzliche Werte ermöglichen möchten, wählen Sie das **Fehlende Codes erstellen** -Kontrollkästchen.  
 4. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>So werden Daten bereinigt und verarbeitet, bevor Daten angewendet werden
@@ -137,7 +137,7 @@ Nachdem Sie die Stapelverarbeitung geändert haben, verwenden Sie das folgende V
 ## <a name="to-migrate-customer-data"></a>Migrieren von Debitorendaten
 Nachdem Sie eine Migrationstabelle exportiert haben, besteht Ihr nächster Schritt darin, die Stammdaten des Debitors einzugeben. Um Ihre Aufgaben zu vereinfachen, können Sie die in Excel integrierten XML-Änderungswerkzeuge nutzen. Sie können die in Excel integrierten Funktionen auch für die Datenformatierung und zum Verschieben von Daten in die richtige Zelle verwenden.
 
-Für Hilfe mit XML aktivieren Sie die Registerkarte **Entwickler**, und wählen Sie die **Herkunft** Aktion aus, um das XML-Schema der Migrationstabelle anzuzeigen, wie in Excel dargestellt.
+Für Hilfe mit XML aktivieren Sie die Registerkarte **Entwickler** , und wählen Sie die **Herkunft** Aktion aus, um das XML-Schema der Migrationstabelle anzuzeigen, wie in Excel dargestellt.
 
 Das folgende Verfahren basiert auf einem Excel-Arbeitsblatt, das Sie für die Migration erstellt haben. Weitere Informationen finden Sie unter [So werden Datenmigrationsdateien exportiert](admin-migrate-customer-data.md#to-export-data-migration-files)
 
@@ -156,7 +156,7 @@ Jetzt können Sie die Datenmigrationsdateien, die Debitorenstammdaten enthalten,
 ## <a name="to-import-customer-data"></a>So importieren Sie Debitorendaten
 Nachdem die Debitorendaten in die Excel-Dateien für die Datenmigration eingegeben wurden, importieren Sie die Dateien in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Öffnen Sie die Seite **Konfigurationspaketkarte**.
+1. Öffnen Sie die Seite **Konfigurationspaketkarte** .
 2. Wählen Sie die Tabelle, für die Sie Werte importieren möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Von Excel importieren** aus.
 3. Suchen und öffnen Sie die Datei, aus der Sie Daten importieren möchten.
 4. Auf der Seite **Vorschau des Konfigurationspaketimports** überprüfen Sie den Inhalt, der importiert wird.
@@ -172,9 +172,9 @@ Debitorendaten müssen überprüft werden, bevor Sie die Datensätze auf die [!I
 > [!NOTE]  
 >  In den meisten Fällen werden ungültige Daten nicht in der Datenbank erstellt. Jedoch kann die Anwendung gelegentlich gesperrt werden, wenn eine importierte Migrationstabelle Fehler enthält.  
 
-1. Auf der Seite **Migrationsübersicht** überprüfen Sie das Feld **Anzahl Migrations-Fehlern**, um festzustellen, ob Fehler während des Imports aufgetreten sind.  
+1. Auf der Seite **Migrationsübersicht** überprüfen Sie das Feld **Anzahl Migrations-Fehlern** , um festzustellen, ob Fehler während des Imports aufgetreten sind.  
 2. Wenn Fehler vorhanden sind, wählen Sie die Migrationstabelle und im Inforegister Tabellen **Tabelle** und anschließend **Fehler.** Das Kontrollkästchen **Ungültig** ist für jeden Datensatz aktiviert, der einen Fehler aufweist.  
-3. Um Fehler zu prüfen, wählen Sie eine Zeile aus, und klicken Sie dann auf der Registerkarte Start auf **Fehler anzeigen**.  
+3. Um Fehler zu prüfen, wählen Sie eine Zeile aus, und klicken Sie dann auf der Registerkarte Start auf **Fehler anzeigen** .  
 
     Das Feld **Fehlertext** enthält die Ursache für den Fehler. Das Feld **Feldbezeichung** enthält die Bezeichnung des Feldes, das den Fehler enthält.  
 4.  Um einen Fehler zu korrigieren oder eine Aktualisierung vorzunehmen wählen Sie auf der Seite, **Migrationsübersicht** den **Migrationsdatensatz** und wählen Sie dann auf der Seite **Migrationsdatensatz** und korigieren den Datensatz mit dem Fehler.  
@@ -186,7 +186,7 @@ Jetzt können Sie die Daten des Debitors auf die Datenbank anwenden.
 ## <a name="to-apply-customer-data"></a>So wenden Sie Debitordaten an
 Wenn Sie alle Datenmigrationsdatensätze, die gültig und fehlerlos sind, importiert haben, können Sie die Datensätze bei der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbank anwenden.  
 
-1. Öffnen Sie die Seite **Konfigurationspakete**.  
+1. Öffnen Sie die Seite **Konfigurationspakete** .  
 2. Wählen Sie eine Tabelle für die Datenmigrations aus, die Sie anwenden möchten und wählen Sie **Daten übernehmen** aus.
 
 Sie können die Anzahl der Datenbanksätzen anzeigen, die im Feld **Anzahl Datenbanksätze** erstellt wurden. Sie können die Anzahl der Datenbanksätzen anzeigen, die im Feld **Anzahl Datenbanksätze** erstellt wurden.  

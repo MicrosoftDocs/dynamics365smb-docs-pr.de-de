@@ -2,15 +2,15 @@
 title: Vorverkauf-Lernkatalog für Partner
 description: Hier finden Sie alle verfügbaren Informationen für Business Central.
 author: loreleishannonmsft
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: 59653a67bd300a8359a82648e3bac6b919d2b233
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 740a40ba53d85f13d694a80ad3fc5e63edfe9587
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779162"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926672"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Vorverkauf-Lernkatalog für Partner
 

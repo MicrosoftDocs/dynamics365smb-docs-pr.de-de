@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 249565d7a351cc2064c5bc0daa16d96f30ce24b8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5fee9631f984c8d9a54c42c63359af2386ea17c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782243"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924503"
 ---
 # <a name="assemble-items"></a>Artikel montieren
 Wenn das Feld **Beschaffungsmethode** auf der Artikelkarte **Montage** enthält, besteht die Standardmethode zur Bereitstellung des Artikels darin, es aus definierten Komponenten und eventuell mit einer definierten Ressource zu montieren.  
@@ -36,7 +36,7 @@ Weitere Informationen darüber, wie Sie einen Montageartikel einrichten finden S
 Diese Einrichtungsoptionen sind Standardeinstellungen, die verwalten, wie Verkaufs- und Montageauftragszeilen anfangs verarbeitet werden. Sie können diese Vorgaben anpassen und den Montageartikel bei der Verarbeitung eines Verkaufs auf die optimalste Art bereitstellen. Weitere Informationen finden Sie unter [Verkaufen von Lagerartikel in der Montage-zu-Auftrags-Fluss](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) und [Montage-zu-Beschaffungsartikel und Lagerartikel zusammen verkaufen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Montagekomponenten werden auf eine spezielle Art in den Basislagerkonfigurationen behandelt. Weitere Informationen finden Sie im Abschnitt "Verwenden von Auftragsmontageartikeln in [Artikel mit Lagerkommissionierungen auswählen](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Montagekomponenten werden auf eine spezielle Art in den Basislagerkonfigurationen behandelt. Weitere Informationen finden Sie im Abschnitt „Verwenden von Auftragsmontageartikeln in Lagerkommissionierungen“ in [Artikel mit Lagerkommissionierungen auswählen](warehouse-how-to-pick-items-with-inventory-picks.md).   
 
 In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Artikel, die für das Lager montiert werden, d. h. ohne einen verknüpften Verkaufsauftrag. Die Schritte enthalten das Initiieren des Montageauftrags, die Behandlung potenzieller Komponentenverfügbarkeitsprobleme und die Teilbuchung des Montageartikelausstoßes.
 
@@ -60,7 +60,7 @@ In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Arti
     > [!NOTE]  
     >  Um sicherzustellen, dass die Buchung des Komponentenverbrauchs der Istmeldungsbuchung des Montageartikels entspricht, werden die Mengenfelder in den Montageauftragszeilen automatisch an den Wert angepasst, den Sie im Feld **Menge für Montage** eingeben.  
 7.  Geben Sie in Montageauftragszeilen vom Typ **Artikel** oder **Ressource** im Feld **Verbrauchsmenge** ein, wie viele Einheiten Sie als Verbrauch buchen möchten, wenn Sie den Montageauftrag das nächste Mal buchen.
-8.  Wenn Sie bereit sind, die Teil- oder die vollständige Buchung durchzuführen, wählen Sie die Aktion **Buchen**.  
+8.  Wenn Sie bereit sind, die Teil- oder die vollständige Buchung durchzuführen, wählen Sie die Aktion **Buchen** .  
 
     > [!NOTE]  
     >  Falls in den einzelnen Montageauftragszeilen noch Warnungen vorhanden sind, wird die Buchungen gesperrt. Eine Meldung über die Komponenten, die nicht im Lager sind, wird angezeigt.  

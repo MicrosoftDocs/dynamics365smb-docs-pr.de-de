@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 255f7c66dc040f10aeae76b5ed08920ad8c1f77f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 37b999dd9000ac9833798f827f85bfd945878638
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782749"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926397"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Einrichten von Regeln für die automatische Anwendung von Zahlungen
 
@@ -29,7 +29,7 @@ Sie richten neue Regeln zur Zahlungsanwendung ein, indem Sie auswählen, welche 
 
 Jede Reihe auf der Seite **Zahlungsausgleichsregeln** repräsentiert eine Zahlungsausgleichsregel. Regeln werden in der Reihenfolge angewendet, die durch das Feld **Sortierreihenfolge** angegeben ist. Wenn mehrere Regeln gleichzeitig verwendet werden, wird die Übereinstimmungsgenauigkeit der als am höchsten sortierten Regel verwendet.
 
-Die automatische Abstimmungsfunktion basiert auf priorisierten Zuordnungskriterien. Zuerst versucht die Funktion, in priorisierter Reihenfolge, Text in den fünf **Zugehörige Partei**-Feldern einer Buch.-Blattzeile mit Text im Bankkonto, Namen oder Adresse der Debitoren oder der Kreditoren mit unbezahlten Belegen, die offene Posten darstellen, abzugleichen. Anschließend versucht die Funktion, den Text in den Feldern **Transaktionstext** und **Zusätzliche Transaktionsinformationen** in einer Journalzeile mit Text in den Feldern **Externe Dokumentennummer** und **Dokument Nr.** bei offenen Einträgen abzugleichen. Zuletzt versucht die Funktion, den Betrag im Feld **Auszugsbetrag** mit einer Buch.-Blattzeile mit dem entsprechenden Betrag aus offenen Posten abzugleichen.
+Die automatische Abstimmungsfunktion basiert auf priorisierten Zuordnungskriterien. Zuerst versucht die Funktion, in priorisierter Reihenfolge, Text in den fünf **Zugehörige Partei** -Feldern einer Buch.-Blattzeile mit Text im Bankkonto, Namen oder Adresse der Debitoren oder der Kreditoren mit unbezahlten Belegen, die offene Posten darstellen, abzugleichen. Anschließend versucht die Funktion, den Text in den Feldern **Transaktionstext** und **Zusätzliche Transaktionsinformationen** in einer Journalzeile mit Text in den Feldern **Externe Dokumentennummer** und **Dokument Nr.** bei offenen Einträgen abzugleichen. Zuletzt versucht die Funktion, den Betrag im Feld **Auszugsbetrag** mit einer Buch.-Blattzeile mit dem entsprechenden Betrag aus offenen Posten abzugleichen.
 
 > [!NOTE]
 > Der Textabgleich ist nur für Text mit mehr als vier Zeichen möglich.

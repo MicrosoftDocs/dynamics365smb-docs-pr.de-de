@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 408a510e311573f6573eee286508b9f05f0088dc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 18c8eb8f379be15bf425a6a2bcd8db6b0c48bcb3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788321"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922167"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Designdetails: Konten in der Finanzbuchhaltung
 Um Lagerbestände und Kapazitätsposten mit der Finanzbuchhaltung abzustimmen, werden die zugehörigen Wertposten auf verschiedene Konten in der Finanzbuchhaltung gebucht. Weitere Informationen finden Sie unter [Designdetails: Abstimmung mit der Finanzbuchhaltung](design-details-reconciliation-with-the-general-ledger.md).  
@@ -79,7 +79,7 @@ Die folgende Tabelle zeigt die Beziehung zwischen den verschiedenen Arten von Be
  Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md).  
 
 ## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Berechnung des in die Finanzbuchhaltung zu buchenden Betrags  
- Die folgenden Felder in der **Werteintrag**-Tabelle werden verwendet, um den erwarteten-Kostenbetrag zu berechnen, der in die Finanzbuchhaltung gebucht wird:  
+ Die folgenden Felder in der **Werteintrag** -Tabelle werden verwendet, um den erwarteten-Kostenbetrag zu berechnen, der in die Finanzbuchhaltung gebucht wird:  
 
 -   Einstandsbetrag (tatsächl.)  
 -   Gebuchte Lagerregulierung  

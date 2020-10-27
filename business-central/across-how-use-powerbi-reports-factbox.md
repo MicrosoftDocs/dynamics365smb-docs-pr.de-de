@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5d3acaf05952a61845eb8bb72b2556f2e54f8208
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697698"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968385"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Erstellen von Power BI-Berichten zum Anzeigen von Listendaten in [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -36,15 +36,15 @@ Geben Sie die Datenquelle an, die die Daten enthält, die sich auf die Liste bez
 
 Um die Daten für den ausgewählten Datensatz in der Liste zu aktualisieren, fügen Sie dem Bericht einen Filter hinzu. Der Filter muss ein Feld der Datenquelle enthalten, die als *Primärschlüssel* verwendet wird. In den meisten Fällen ist der Primärschlüssel für eine Liste **Nr.** Feld eingetragen.
 
-Um einen Filter für den Bericht zu definieren, wählen Sie den Primärschlüssel aus der Liste der verfügbaren Felder und ziehen dann das Feld in den Abschnitt **Berichts-Filter**. Der Filter muss ein grundlegender Berichtsfilter sein. Es darf sich nicht um einen Seiten-, visuellen oder erweiterten Filter handeln. 
+Um einen Filter für den Bericht zu definieren, wählen Sie den Primärschlüssel aus der Liste der verfügbaren Felder und ziehen dann das Feld in den Abschnitt **Berichts-Filter** . Der Filter muss ein grundlegender Berichtsfilter sein, der für alle Seiten definiert ist. Es darf sich nicht um einen Seiten-, visuellen oder erweiterten Filter handeln.
 
-![Den Berichtfilter für den Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
+![Den Berichtfilter für den Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 
 ## <a name="setting-the-report-size-and-color"></a>Festlegen von Berichtsgröße und -farbe
 
 Die Größe des Berichts muss auf 325 Pixel auf 310 Pixel festgelegt werden. Diese Größe gibt die richtige Skalierung des Berichts im verfügbaren Platz des Power BI-Infoboxreglers in [!INCLUDE[d365fin](includes/d365fin_md.md)] an. Um die Größe des Berichts zu definieren, den Fokus außerhalb des Berichts im Berichtslayoutbereich zu platzieren und um das Farbenrollensymbol zu wählen.
 
-![Den Berichtfilter für die Breite und die Höhe des Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
+![Den Berichtfilter für die Breite und die Höhe des Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 Sie können die Breite und die Tiefe des Berichts ändern, indem Sie im Feld **Benutzerdefiniert** **Art** auswählen.
 
@@ -70,7 +70,7 @@ Vermutlich enthält der Name des Berichts nicht den Namen der Listenseite. Lösc
 
 #### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Der Bericht wird zwar geladen, ist jedoch leer, wird nicht gefiltert oder falsch gefiltert
 
-Vergewissern Sie sich, dass der Berichtsfilter den richtigen Primärschlüssel enthält. In den meisten Fällen handelt es sich hierbei um das Feld **Nr.**. In der Tabelle **Sachposten** beispielsweise müssen Sie jedoch das Feld **Postennr.** verwenden.
+Vergewissern Sie sich, dass der Berichtsfilter den richtigen Primärschlüssel enthält. In den meisten Fällen handelt es sich hierbei um das Feld **Nr.** . In der Tabelle **Sachposten** beispielsweise müssen Sie jedoch das Feld **Postennr.** verwenden.
 
 #### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Der Bericht wird zwar geladen, zeigt jedoch nicht die erwartete Seite an
 

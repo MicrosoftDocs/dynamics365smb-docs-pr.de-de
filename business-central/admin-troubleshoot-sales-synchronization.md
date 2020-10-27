@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: db8b05aa74583d8ba74fcfeb8fae1d3c28893fac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196543"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922392"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Fehlerbehebung bei Synchronisationsfehlern
 Bei der Integration von [!INCLUDE[d365fin](includes/d365fin_md.md)] mit Common Data Service sind viele bewegliche Teile beteiligt und manchmal laufen die Dinge schief. In diesem Thema werden einige der typischen Fehler aufgeführt, die auftreten, und es werden einige Hinweise zu deren Behebung gegeben.
@@ -50,6 +50,9 @@ Die Konfliktfehlermeldung „Der Debitorendatensatz kann nicht aktualisiert werd
 Der Konflikt entsteht, weil auch der Zielsatz geändert wurde - der Zeitstempel des Datensatzes ist aktueller als der Zeitstempel des Sales Integration Record. Die Zielprüfung erfolgt nur für bidirektionale Tabellen. 
 
 Diese Datensätze werden jetzt auf die Seite „Übersprungene Synchronisierungsdatensätze“ verschoben, die Sie über die Seite Microsoft Dynamics-Verbindungssetup in Business Central öffnen können. Dort können Sie die beizubehaltenden Änderungen angeben und die Datensätze dann erneut synchronisieren.
+
+## <a name="remove-couplings-between-records"></a>Kopplungen zwischen Datensätzen entfernen
+Wenn bei Ihrer Integration ein Fehler auftritt und Sie Datensätze entkoppeln müssen, um die Synchronisierung zu beenden, können Sie dies für einen oder mehrere Datensätze gleichzeitig tun. Auf der Seite **Integrationstabellenzuordnungen** können Sie **Entkopplung** und dann **Kopplung löschen** auswählen. Alternativ können Sie auf der Seite **Gekoppelte Datensynchronisierungsfehler** die Fehler auswählen und dann **Kopplungen entfernen** wählen. 
 
 ## <a name="see-also"></a>Siehe auch
 [Integrieren in Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  

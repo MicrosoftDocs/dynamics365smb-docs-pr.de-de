@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 37ee56fef2f7424e0655303f2a6111a8b3eae94f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 11efef293064aa5624bc0a5af2c59002ccd914d6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195315"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923370"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren  
 In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahren“ schnell zu Aktionen, Seiten oder Berichten navigieren, Informationen zum Abschluss einer bestimmten Aufgabe finden und zusätzliche Apps und Beratungsdienste für [!INCLUDE[d365fin](includes/d365fin_md.md)] zu ermitteln.  
@@ -29,7 +29,7 @@ Sobald Sie Zeichen eingeben, zeigt [!INCLUDE[d365fin](includes/d365fin_md.md)] s
 
 Die Spalte rechts gibt die allgemeine Kategorie des Ergebnisses an. Beispielsweise, ob es eine Listenseite oder eine Verwaltungsaufgabe ist.  
 
-Am unteren Rand des Fensters **Wie möchten Sie weiter verfahren** ist eine Aktion, die aufgerufen wird **erforschen**. Hiermit wird eine Funktionsübersicht geöffnet, in der alle verfügbaren Funktionen für Ihre Rolle oder für alle Rollen angezeigt werden. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).
+Am unteren Rand des Fensters **Wie möchten Sie weiter verfahren** ist eine Aktion, die aufgerufen wird **erforschen** . Hiermit wird eine Funktionsübersicht geöffnet, in der alle verfügbaren Funktionen für Ihre Rolle oder für alle Rollen angezeigt werden. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).
 
 > [!NOTE]  
 >   Wenn Sie Ihre Tastatur vorziehen, nutzen Sie die TAB-TASTE sowie die Pfeiltasten, um ein Element in den Ergebnissen auszuwählen. Wenn Sie auf Ihrer Tastatur auf Eingabe drücken, ohne auf ein Ergebnis zu wählen, öffnet [!INCLUDE[d365fin](includes/d365fin_md.md)] das Ergebnis, das zuerst aufgeführt wird.
@@ -43,7 +43,7 @@ Im Abschnitt **Auf aktueller Seite** können Sie Aktionen auf der geöffneten Se
 ### <a name="finding-a-page-or-a-task"></a>Suchen nach einer Seite oder einer Aufgabe
 Die Ergebnisse im Abschnitt **Zu Seiten und Aufgaben wechseln** bieten Zugriff auf andere Seiten und lässt Sie Aufgaben ausführen oder Informationen suchen. Wenn Sie diese Seiten häufig verwenden, können Sie über das Lesezeichensymbol einen Link zu einer beliebigen Seite in Ihrem Rollencenter hinzufügen. Weitere Informationen finden Sie unter [Fügen Sie Ihrem Rollencenter eine Seitenaktion hinzu](ui-bookmarks.md).
 
-Die aufgeführten Seiten und Aufgaben hängen von der Benutzerumgebung ab, die Sie für Ihr Unternehmen ausgewählt haben. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Premium**. Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung **Standard**. Weitere Informationen finden Sie unter [Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+Die aufgeführten Seiten und Aufgaben hängen von der Benutzerumgebung ab, die Sie für Ihr Unternehmen ausgewählt haben. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Premium** . Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung **Standard** . Weitere Informationen finden Sie unter [Anpassen der [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ### <a name="finding-a-report-or-archived-information"></a>Nach einem Bericht oder archivierten Informationen suchen
 Der Abschnitt **Zu „Berichte und Analysen“ wechseln** bietet Zugriff auf Tools zur Berichtserstattung. Beispielsweise können Sie den Bericht **Bilanz** aus der Liste öffnen oder auf archivierte Belege und andere Informationen zugreifen.  
