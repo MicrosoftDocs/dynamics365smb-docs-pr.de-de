@@ -31,10 +31,10 @@ Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einhe
 ## <a name="to-set-up-units-of-measure"></a>So richten Sie Einheiten ein
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Maßeinheiten** ein, und wählen Sie dann die entsprechende Verknüpfung.  
-2. Wählen Sie die Aktion **Neu** . Eine neue leere Zeile wird eingefügt.  
+2. Wählen Sie die Aktion **Neu**. Eine neue leere Zeile wird eingefügt.  
 3. Füllen Sie die Felder aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Wenn Sie wissen, dass Ihre Organisation Artikel mit dieser Einheit an Kunden in anderen Ländern verkauft, können Sie Übersetzungen hinzufügen.  
-    1. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen** .
+    1. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen**.
     2. Wählen Sie im Feld **Sprachcode** auf den Dropdown-Pfeil, um eine Übersicht über die verfügbaren Sprachcodes anzuzeigen. Wählen Sie den Sprachcode, für den Sie eine Übersetzung eingeben möchten, und wählen Sie dann die Schaltfläche OK, um den Code in das Feld zu kopieren.
     3. Geben Sie in dem Feld **Beschreibung** den entsprechenden Text ein.
 5. Wiederholen Sie die vorherigen Schritte für alle zusätzlichen Einheiten, die Sie hinzufügen möchten.  
@@ -43,14 +43,14 @@ Wenn Sie einen neuen Artikel registrieren, können Sie die Einheit aus der Liste
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>So richten Sie mehrere Einheiten für Artikel ein
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte des Artikels, für die Sie alternative Einheiten einrichten möchten.
 3. Wählen Sie die **Einheiten** Aktion aus. Die Seite **Artikeleinheiten** wird geöffnet.
 4. Wenn das Feld **Basismaßeinheit** auf der Artikelkarte ausgefüllt wird, ist diese Maßeinheit bereits eingerichtet.
 5. Wählen Sie die Aktion **Neu** aus. Eine neue leere Zeile wird eingefügt.
 6. Geben Sie im Feld **Code** den Namen des Einheitencodes ein. Alternativ aktivieren Sie das Feld, um in den Einheitencodes auszuwählen, die in der Datenbank sind.
 7. Geben Sie in das Feld **Menge per Basismaßeinheit** ein, wie viele der Einheiten der Basiseinheit die neue Maßeinheit enthält.
-8. Geben Sie in den Feldern **Höhe** , **Breite** , **Länge** und **Gewicht** optional detaillierte Informationen zur Größe einer Einheit ein, sodass [!INCLUDE [prodshort](includes/prodshort.md)] berechnen kann, wie viele Artikeleinheiten in bestimmte Lagerplätze eingelagert werden können. Das Feld **Volumen** wird automatisch basierend auf **Höhe** , **Breite** und **Länge** berechnet.
+8. Geben Sie in den Feldern **Höhe**, **Breite**, **Länge** und **Gewicht** optional detaillierte Informationen zur Größe einer Einheit ein, sodass [!INCLUDE [prodshort](includes/prodshort.md)] berechnen kann, wie viele Artikeleinheiten in bestimmte Lagerplätze eingelagert werden können. Das Feld **Volumen** wird automatisch basierend auf **Höhe**, **Breite** und **Länge** berechnet.
 
     Wenn eines dieser Felder einen anderen Wert als 0 enthält, wird diese Abmessung bei allen Prozessen verwendet, die die Einlagerung von Artikeln in Lagerplätzen betreffen: Einlagerung, Umlagerungen, Zugänge, Lieferungen, Kommissionierungen und Regulierungen. [!INCLUDE [prodshort](includes/prodshort.md)] überprüft die Summe jeder physischen Abmessung der einzulagernden und der bereits am Lagerplatz befindlichen Artikel anhand der maximalen Größe oder einer anderen Abmessung, die an einem Lagerplatz eingelagert werden kann, gemäß der Lagerplatzkapazitätsrichtlinie auf der Lagerortkarte für diesen Artikel. Somit müssen Sie für jede Dimension über alle Artikeleinheiten hinweg dieselbe Einheit verwenden, z. B. Kilogramm oder Pfund für Gewicht, und dies jedoch konsistent.
 9. Wiederholen Sie die Schritte 5 und 7, um alle alternativen Einheiten einzurichten, die Sie in den verschiedenen Prozessen für diesen Artikel verwenden möchten.
@@ -64,7 +64,7 @@ Sie können jetzt die alternativen Einheiten für Einkaufs-, Produktions- und Ve
 Wenn Sie Artikel an ausländische Debitoren verkaufen, können Sie die Einheit in der Sprache des Debitors angeben. Dies können Sie tun, nachdem Sie die erforderlichen Einheitenübersetzungen eingerichtet haben.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Maßeinheiten** ein, und wählen Sie dann die entsprechende Verknüpfung.
-2. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen** .
+2. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen**.
 3. Wählen Sie im Feld **Sprachcode** auf den Dropdown-Pfeil, um eine Übersicht über die verfügbaren Sprachcodes anzuzeigen. Wählen Sie den Sprachcode, für den Sie eine Übersetzung eingeben möchten, und wählen Sie dann die Schaltfläche OK, um den Code in das Feld zu kopieren.
 4. Geben Sie in dem Feld **Beschreibung** den entsprechenden Text ein.
 5. Wiederholen Sie die Schritte 2 bis 4 für die Einheitencodes und die Sprachen, für die Sie Übersetzungen eingeben möchten.
@@ -73,10 +73,10 @@ Wenn Sie Artikel an ausländische Debitoren verkaufen, können Sie die Einheit i
 
 Wenn Sie normalerweise in Einheiten kaufen und verkaufen, die von der Basiseinheit abweichen, können Sie für Einkäufe und Verkäufe eigene Einheiten festlegen. Dazu müssen die  Einheiten auf der Seite **Artikeleinheiten** eingerichtet worden sein.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Positionen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikel** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die entsprechende Artikelkarte, für die Sie einen Vorgabe-Einheitencode für Einkaufs- oder Verkaufsvorgänge festlegen möchten.
-3. Öffnen Sie im Inforegister **Fakturierung** im Feld **Verkaufseinheitencode** die Seite **Artikeleinheiten** .
-4. Öffnen Sie im Inforegister **Beschaffung** im Feld **Einkaufseinheitencode** die Seite **Artikeleinheiten** .
+3. Öffnen Sie im Inforegister **Fakturierung** im Feld **Verkaufseinheitencode** die Seite **Artikeleinheiten**.
+4. Öffnen Sie im Inforegister **Beschaffung** im Feld **Einkaufseinheitencode** die Seite **Artikeleinheiten**.
 5. Wählen Sie den Code, den Sie als Standardeinheit für Verkäufe oder Einkäufe entsprechend einrichten möchten, und wählen Sie dann die Schaltfläche **OK** aus.
 
 ## <a name="see-also"></a>Siehe auch

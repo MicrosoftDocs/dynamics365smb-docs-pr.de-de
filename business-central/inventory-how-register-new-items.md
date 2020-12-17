@@ -23,11 +23,11 @@ Artikel sind die Basis Ihres Unternehmens, die Waren oder Dienstleistungen, mit 
 
 Artikelkarten verwahren die Informationen, die benötigt werden, um Artikel einzukaufen, einzulagern, zu liefern und zu berechnen.
 
-Gibt an, ob die Artikelkarte einen **Bestand** , **Service** oder **Nicht-Bestand** ist, wenn die Einheit eine physische Einheit ist, die nicht im Lagerbestand verfolgt wird. Weitere Informationen zu diesen Arten finden Sie unter [über Einheitstypen](inventory-about-item-types.md)
+Gibt an, ob die Artikelkarte einen **Bestand**, **Service** oder **Nicht-Bestand** ist, wenn die Einheit eine physische Einheit ist, die nicht im Lagerbestand verfolgt wird. Weitere Informationen zu diesen Arten finden Sie unter [über Einheitstypen](inventory-about-item-types.md)
 
 Ein Artikel kann als übergeordneter Artikel mit zugrunde liegenden untergeordneten Elementen in Stücklisten (BOM) strukturiert werden. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kann eine Stückliste entweder eine Montagestückliste oder eine Fertigungsstückliste sein, abhängig von dessen Verwendung. Weitere Informationen finden Sie unter [Mit Stücklisten arbeiten](inventory-how-work-BOMs.md).
 
-Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, können Sie die Kreditoren mit der Artikelkarte anschließen. Die Kreditoren erscheinen dann auf der Seite **Artikel/Kreditoren Katalog** , damit Sie einen alternativen Kreditor einfach auswählen können.
+Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, können Sie die Kreditoren mit der Artikelkarte anschließen. Die Kreditoren erscheinen dann auf der Seite **Artikel/Kreditoren Katalog**, damit Sie einen alternativen Kreditor einfach auswählen können.
 
 Sie können Ihren Debitoren bestimmte Artikel als Dienstleistung anbieten, die Sie nicht im Lager verwalten möchten, bis Sie den Verkauf sie starten. Katalogelemente sollen nicht mit regulären Artikel der Art **Nicht-Lager** verwechselt werden. Weitere Informationen finden Sie unter [Arbeiten mit Katalogelementen](inventory-how-work-nonstock-items.md).  
 
@@ -40,7 +40,7 @@ Im folgenden Verfahren wird erläutert, wie Sie eine Objektkarte von Grund auf n
 
 ## <a name="to-create-a-new-item-card"></a>So erstellen Sie eine neue Artikelkarte
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Artikel** die Aktion **Neu** aus.
 
     Wenn nur eine Artikelvorlage vorhanden ist, öffnet sich eine neue Artikelkarte bei der einige Felder mit Informationen aus der Vorlage ausgefüllt sind.
@@ -63,9 +63,9 @@ Wenn Sie diese Artikelkarte als Vorlage zum Erstellen neuer Artikelkarten verwen
 
 1. Wählen Sie auf der Seite **Artikelkarte** die Aktion **Als Vorlage speichern** aus. Die Seite **Arikelvorlage** wird geöffnet und zeigt die Artikelkarte als Vorlage.
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Um Dimensionen in den Vorlagen wiederzuverwenden, wählen Sie die Aktion **Dimensionen** . Die Seite **Dimensionen Vorlagen** wird geöffnet und zeigt alle Dimensionscodes, die für den Artikel eingerichtet werden.
+3. Um Dimensionen in den Vorlagen wiederzuverwenden, wählen Sie die Aktion **Dimensionen**. Die Seite **Dimensionen Vorlagen** wird geöffnet und zeigt alle Dimensionscodes, die für den Artikel eingerichtet werden.
 4. Bearbeiten Sie oder geben Sie Dimensionscodes ein, die für die neuen Artikelkarten gelten, die mit der Vorlage erstellt wurden.
-5. Wenn Sie die neue Artikelvorlage abgeschlossen haben, klicken Sie auf die Schaltfläche **OK** .
+5. Wenn Sie die neue Artikelvorlage abgeschlossen haben, klicken Sie auf die Schaltfläche **OK**.
 
 Die Artikelvorlage wird der Liste von Artikelvorlagen hinzugefügt, damit Sie diese verwenden können, um neue Debitorenkarten zu erstellen.
 
@@ -77,14 +77,14 @@ Wenn Sie Artikel registrieren möchten, die dann in Fertigungsaufträgen verwend
 
 Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen Sie die benötigten Informationen für jeden Kreditor eingeben. Dies umfasst z. B. Preise, Lieferzeit, Rabatte usw.  
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Bearbeiten** aus.  
 3. Wählen Sie die Aktion **Kreditoren** aus.  
-4. Wählen Sie das Feld **Kreditorennr.** , und wählen Sie den Kreditor aus, den Sie für den Artikel einrichten möchten.  
+4. Wählen Sie das Feld **Kreditorennr.**, und wählen Sie den Kreditor aus, den Sie für den Artikel einrichten möchten.  
 5. Optional können Sie die restlichen Felder ausfüllen.  
 6. Wiederholen Sie die Schritte 2 bis 5 für jeden Verkäufer, von dem Sie den Artikel kaufen möchten.
 
-Die Kreditoren erscheinen dann auf der Seite **Artikel/Kreditoren Katalog** , damit Sie einen alternativen Kreditor einfach auswählen können.
+Die Kreditoren erscheinen dann auf der Seite **Artikel/Kreditoren Katalog**, damit Sie einen alternativen Kreditor einfach auswählen können.
 
 ## <a name="categories-attributes-and-variants"></a>Kategorien, Attribute und Varianten
 
@@ -96,7 +96,7 @@ Wenn Sie eine Transaktion für einen Artikel gebucht haben, können Sie die Kart
 
 ## <a name="manage-inventory-in-warehouses"></a>Lagerbestand in Lagern verwalten
 
-Wenn Sie einen neuen Artikel erfassen, werden Felder angezeigt, die sich auf die Lagerverwaltung beziehen, insbesondere im Inforegister **Lager** . Wenn Ihre Organisation die Lagerverwaltungsfunktionen in [!INCLUDE [prodshort](includes/prodshort.md)] nicht verwendet, können Sie diese Felder ignorieren.  
+Wenn Sie einen neuen Artikel erfassen, werden Felder angezeigt, die sich auf die Lagerverwaltung beziehen, insbesondere im Inforegister **Lager**. Wenn Ihre Organisation die Lagerverwaltungsfunktionen in [!INCLUDE [prodshort](includes/prodshort.md)] nicht verwendet, können Sie diese Felder ignorieren.  
 
 Wenn Ihre Organisation später die Lagerverwaltung einrichtet, müssen Sie in den meisten Fällen zu jedem vorhandenen Artikel zurückkehren, um sicherzustellen, dass zu diesem die richtigen Informationen in den verschiedenen Feldern vorhanden sind, damit die Lagerprozesse wie erwartet ausgeführt werden können. Diese Informationen können Felder wie **Lagerklassencode** oder **Einlagerungsvorlagencode** umfassen. Weitere Informationen finden Sie unter [Designdetails: Lagerhaus einrichten](design-details-warehouse-setup.md).  
 

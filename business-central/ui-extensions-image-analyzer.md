@@ -49,7 +49,7 @@ Die Bild-Analyser-Erweiterugn ist in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Um die Bild-Analyser-Erweiterung auszuführen, führen Sie einen der folgenden Schritte aus:
 
 * Öffnen Sie eine Kontaktkarte. In der Benachrichtigungsleiste wählen Sie **Bilder analysieren** und führen Sie dann die Schritte im unterstützen Einrichtungshandbuch durch.  
-* Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Serviceverbindungen** ein, und wählen Sie dann **Bildanalyseeinrichtung** . In der Benachrichtigungsleiste wählen Sie **Bilder analysieren aktivieren** und führen Sie dann die Schritte im unterstützen Einrichtungshandbuch durch.  
+* Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Serviceverbindungen** ein, und wählen Sie dann **Bildanalyseeinrichtung**. In der Benachrichtigungsleiste wählen Sie **Bilder analysieren aktivieren** und führen Sie dann die Schritte im unterstützen Einrichtungshandbuch durch.  
 
     > [!TIP]  
     > Auf der Seite **Bildanalyse-Einrichtung** können Sie auch den Grad des Vertrauens für Attributvorschläge ändern. Wenn Sie beispielsweise einen höheren Prozentsatz an Vertrauen möchten, können Sie einen höheren Prozentsatz eingeben.
@@ -58,7 +58,7 @@ Die Bild-Analyser-Erweiterugn ist in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 Die folgenden Schritte beschreiben, wie ein Bild analysiert wird, das importiert wurde, bevor Sie die Bild-Analyse-Erweiterung aktivierten.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Bild analysieren** aus.  
 3. Die Seite **Bild-Analyse-Attribute** zeigt die erkannten Attribute, den Vertrauensbereich und andere Details zum Attribut an. Verwenden Sie die Optionen **Aktion auszuführen** um anzugeben, was mit dem Attribut gemacht wird.  
 
@@ -75,7 +75,7 @@ Die folgenden Schritte beschreiben, wie ein Bild analysiert wird, das importiert
 
 ## <a name="block-suggested-attributes"></a>Blockieren Sie vorgeschlagene Attribute
 
-Wenn die Analyse ein Attribut vorschlägt, das Sie nicht sehen möchten, können Sie das Attribut blockieren. Vorsicht walten lassen. Blockierte Attribute werden nicht für andere Artikel oder Kontaktpersonen vorgeschlagen. Wenn Sie bedauern, ein Attribut blockiert zu haben, wählen Sie **Auf die schwarze Liste gesetzte Attribute anzeigen** , und löschen Sie dann das Attribut in der Liste.
+Wenn die Analyse ein Attribut vorschlägt, das Sie nicht sehen möchten, können Sie das Attribut blockieren. Vorsicht walten lassen. Blockierte Attribute werden nicht für andere Artikel oder Kontaktpersonen vorgeschlagen. Wenn Sie bedauern, ein Attribut blockiert zu haben, wählen Sie **Auf die schwarze Liste gesetzte Attribute anzeigen**, und löschen Sie dann das Attribut in der Liste.
 
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Um Ihr eigenes Konto für die Computer Vision API zu verwenden
 
@@ -92,12 +92,12 @@ Sie können auch Ihr eigenes Konto für die Computer Vision API verwenden, beisp
 Sie können die Anzahl Analysen anzeigen, die Sie durchgeführt haben, und wie viele Sie noch tun können, in der laufenden Periode.  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Bildanalysator-Setup** ein und wählen Sie dann den entsprechenden Link.  
-2. **Grenzentyp** , **Grenzwert** und **Analye ausgeführt** liefer die Verbrauchsdaten.  
+2. **Grenzentyp**, **Grenzwert** und **Analye ausgeführt** liefer die Verbrauchsdaten.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Bild-Analyzer-Erweiterung beenden
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Service-Verbindungen** ein und wählen Sie dann **Bildanalysator-Setup** .  
-2. Deaktivieren Sie das Kontrollkästchen **Bild-Analyse aktivieren** .  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Service-Verbindungen** ein und wählen Sie dann **Bildanalysator-Setup**.  
+2. Deaktivieren Sie das Kontrollkästchen **Bild-Analyse aktivieren**.  
 
 ## <a name="see-also"></a>Siehe auch
 

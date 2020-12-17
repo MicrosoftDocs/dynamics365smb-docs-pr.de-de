@@ -33,14 +33,14 @@ In anderen Prozessen haben die Lagerartikel keine Serien- oder Chargennummern un
 
 In den einfachen Prozessen haben die Lagerartikel bereits Serien- oder Chargennummern, die beispielsweise während der Einlagerung zugewiesen wurden. Diese Nummern werden ohne Aktivität der Lagermitarbeiter automatisch auf alle ausgehenden Lageraktivitäten übertragen.
 
-In den bestimmten Fällen werden für Serien- oder Charge-numeriertes Lager, bestimmte Serien- oder Chargennummern im Herkunftsbeleg, wie einem Verkaufsauftrag definiert, den der Lagermitarbeiter während der Ausgangsaktivitäten berücksichtigen muss. Dies kann beispielsweise den Grund haben, dass der Debitor während des Bestellvorgangs eine bestimmte Charge fordert. Wenn der Lagerkommissionierungs- oder Kommissionierungsbeleg aus einem ausgehenden Herkunftsbeleg erstellt wird, in dem bereits Artikelverfolgungsnummern definiert sind, sind auf der Seite **Artikelnachverfolgungszeilen** alle Felder unter der Lagerkommissionierung schreibgeschützt, ausgenommen das **Feld Bewegungsmenge** . Die Lagerkommissionierzeilen legen die Artikelverfolgungsnummern der individuellen Zeilen für Lagerentnahme/Einlagerung fest. Die Menge wurde bereits in einzelne Serien- oder Chargennummer-Kombinationen aufgeteilt, da der Verkaufsauftrag die zu liefernden Artikelverfolgungsnummern enthalten hat.  
+In den bestimmten Fällen werden für Serien- oder Charge-numeriertes Lager, bestimmte Serien- oder Chargennummern im Herkunftsbeleg, wie einem Verkaufsauftrag definiert, den der Lagermitarbeiter während der Ausgangsaktivitäten berücksichtigen muss. Dies kann beispielsweise den Grund haben, dass der Debitor während des Bestellvorgangs eine bestimmte Charge fordert. Wenn der Lagerkommissionierungs- oder Kommissionierungsbeleg aus einem ausgehenden Herkunftsbeleg erstellt wird, in dem bereits Artikelverfolgungsnummern definiert sind, sind auf der Seite **Artikelnachverfolgungszeilen** alle Felder unter der Lagerkommissionierung schreibgeschützt, ausgenommen das **Feld Bewegungsmenge**. Die Lagerkommissionierzeilen legen die Artikelverfolgungsnummern der individuellen Zeilen für Lagerentnahme/Einlagerung fest. Die Menge wurde bereits in einzelne Serien- oder Chargennummer-Kombinationen aufgeteilt, da der Verkaufsauftrag die zu liefernden Artikelverfolgungsnummern enthalten hat.  
 
 ## <a name="item-tracking-availability"></a>Verfügbarkeit der Artikelverfolgung
 Wenn Sie mit Chargen- oder Seriennummern arbeiten, berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] die Verfügbarkeitsinformationen für Chargen- und Seriennummern und zeigt sie in den verschiedenen Artikelverfolgungsseiten an. Dadurch können Sie erkennen, welche Chargen- oder Seriennummer derzeit auf anderen Belegen verwendet wird. Dadurch werden Fehler und Unsicherheiten aufgrund von Doppelzuordnungen verringert.
 
 Auf der Seite **Artikelverfolgungszeilen** wird in den Feldern **Verfügbarkeit, Chargennr.** oder **Verfügbarkeit, Seriennr.** ein Warnsymbol angezeigt, wenn die gesamte Menge oder Teile der Menge, die Sie ausgewählt haben, bereits auf anderen Belegen verwendet wurden oder wenn die Chargen- oder Seriennummer nicht verfügbar ist.
 
-Auf der Seite **Chargennr./Seriennr.-Informationsliste** , auf der Seite **Chargennr./Seriennr. Verfügbarkeit** und auf der Seite **Artikelverfolgung – Posten auswählen** werden Informationen darüber angezeigt, welche Menge eines Artikels verwendet wird. Dies enthält die folgenden Informationen.
+Auf der Seite **Chargennr./Seriennr.-Informationsliste**, auf der Seite **Chargennr./Seriennr. Verfügbarkeit** und auf der Seite **Artikelverfolgung – Posten auswählen** werden Informationen darüber angezeigt, welche Menge eines Artikels verwendet wird. Dies enthält die folgenden Informationen.
 
 |Feld|Description|
 |-----|-----------|  
@@ -68,7 +68,7 @@ Da dieses Einrichtungsfeld alle möglichen Transaktionen für den Artikel abdeck
 ### <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Regeln für den Ablauf von Serien- oder Chargennummern einrichten:  
 Für einige Artikel möchten Sie möglicherweise spezielle Ablaufdaten und Regeln in dem Artikelverfolgungscode festlegen. Diese Funktionalität ermöglicht Ihnen nachzuvollziehen, wann bestimmte Serien- und Chargennummern ablaufen.
 
-1. Wählen Sie einen bestehenden Artikelverfolgungscode aus bestehenden Artikelkarten aus, und wählen die Aktion **Bearbeiten** .  
+1. Wählen Sie einen bestehenden Artikelverfolgungscode aus bestehenden Artikelkarten aus, und wählen die Aktion **Bearbeiten**.  
 2.  Aktivieren Sie im Inforegister **Sonst.** die folgenden Kontrollkästchen.  
 
     |Feld|Description|  
@@ -81,7 +81,7 @@ Für einige Artikel möchten Sie möglicherweise spezielle Ablaufdaten und Regel
 Für einige Artikel möchten Sie möglicherweise spezielle Garantievereinbarungen in dem Artikelverfolgungscode festlegen. Diese Funktionalität ermöglicht Ihnen nachzuvollziehen, wann die Garantien auf spezielle Serien- oder Chargennummern in Ihrem Lager auslaufen.        
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Nachverfolgungscodes** ein und wählen Sie dann den entsprechenden Link.  
 
-1. Wählen Sie einen bestehenden Artikelverfolgungscode aus bestehenden Artikelkarten aus, und wählen die Aktion **Bearbeiten** .  
+1. Wählen Sie einen bestehenden Artikelverfolgungscode aus bestehenden Artikelkarten aus, und wählen die Aktion **Bearbeiten**.  
 2.  Füllen Sie im Inforegister **Sonstiges** das Feld **Garantiedatumsformel** aus, und markieren Sie das Kontrollkästchen wie folgt.  
 
     |Feld|Description|  
@@ -98,16 +98,16 @@ Falls Sie spezielle Informationen mit einer bestimmten Artikelverfolgungsnummer 
 
     Die Felder **Seriennr.** und **Chargennr.** werden aus der Artikelverfolgungszeile vorab ausgefüllt.  
 4. Geben Sie im Feld **Beschreibung** eine kurze Beschreibung ein, zum Beispiel über den Zustand des Artikels.  
-5. Wählen Sie  **Bemerkung** , um einen separaten Bemerkungsdatensatz zu erstellen.  
-6. Aktivieren Sie das Kontrollkästchen **Gesperrt** , um die Serien- oder Chargennummer von sämtlichen Transaktionen auszuschließen.  
+5. Wählen Sie  **Bemerkung**, um einen separaten Bemerkungsdatensatz zu erstellen.  
+6. Aktivieren Sie das Kontrollkästchen **Gesperrt**, um die Serien- oder Chargennummer von sämtlichen Transaktionen auszuschließen.  
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Bestehende Serien- oder Chargennummerinformationen ändern  
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie einen Artikel, der einen Artikelverfolgungscode hat und Serien- oder Chargennummerinformationen hat.
 3. Auf der Seite **Artikelkarte** wählen Sie die **Posten** Aktion aus, und wählen Sie dann **Posten** aus.
 4. Wählen Sie das Feld **Chargennr.** oder **Seriennr.** aus. Wenn es für die Artikelverfolgungsnummer Informationen gibt, dann wird die Seite **Chargennr.-Informationsliste** oder **Seriennr.-Informationsliste** geöffnet.  
 5. Wählen Sie eine Karte aus, und wählen Sie die **Chargennr./Seriennummer Informationskarte** Aktion aus.  
-6. Ändern Sie den Kurzbeschreibungstext, den Bemerkungsdatensatz oder das Feld **Gesperrt** .  
+6. Ändern Sie den Kurzbeschreibungstext, den Bemerkungsdatensatz oder das Feld **Gesperrt**.  
 
 Sie können die Serien- oder Chargennummern und auch die Mengen nicht ändern. Um dies zu tun, müssen Sie den betreffenden Artikelposten umbuchen. Weitere Informationen hierzu finden Sie unter [Chargen- oder Seriennummern umbuchen](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
@@ -120,7 +120,7 @@ Die genauen Regeln zur unternehmensweiten Verarbeitung von Artikelverfolgungsnum
 >  Um Artikelverfolgungsnummern in Lageraktivitäten zu verwenden, müssen die **Chargennr.-Verf. Lager**  und **Seriennr.-Verf. Lager** ausgewählt werden, da sie die speziellen Regeln der Handhabung von Serien- und Chargennummern in Lageraktivitäten definieren.  
 
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Einkaufsbestellungen** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie die gewünschte Belegzeile aus, und wählen Sie im Inforegister **Zeilen** die Option Aktionen , wählen Sie **Zeile** und dann **Artikelverfolgungszeilen** .  
+2.  Wählen Sie die gewünschte Belegzeile aus, und wählen Sie im Inforegister **Zeilen** die Option Aktionen , wählen Sie **Zeile** und dann **Artikelverfolgungszeilen**.  
 
     Zum Zuweisen von Serien- oder Chargennummern gibt es folgende Möglichkeiten:  
 
@@ -130,15 +130,15 @@ Die genauen Regeln zur unternehmensweiten Verarbeitung von Artikelverfolgungsnum
     -   Manuell, indem Sie jeder Artikeleinheit eine bestimmte Nummer zuweisen.  
 
 3. Um automatisch zuzuweisen, wählen Sie die **Benutzerdef. Seriennr. erstellen** Aktion.  
-4. Im Feld **Benutzerdef. Seriennr.** geben Sie die Startnummer einer beschreibenden Seriennummernserie ein, z. B. **S/N-Kred0001** .  
+4. Im Feld **Benutzerdef. Seriennr.** geben Sie die Startnummer einer beschreibenden Seriennummernserie ein, z. B. **S/N-Kred0001**.  
 5. Im Feld **Erhöhung** geben Sie "1" ein, um festzulegen, dass jede folgende Nummer um 1 höher sein soll als die vorige.  
 
     Das Feld **Menge zu erstellen** enthält standardmäßig die Menge aus der Zeile, Sie können diese Menge jedoch ändern.  
 
-6. Wählen Sie das Feld **Neue Chargennr. erstellen** , um der neuen Seriennummern eine eigene Chargennummer zuzuteilen.  
+6. Wählen Sie das Feld **Neue Chargennr. erstellen**, um der neuen Seriennummern eine eigene Chargennummer zuzuteilen.  
 7. Wählen Sie die Schaltfläche **OK** aus.  
 
-Es wird eine Chargennummer mit einzelnen Seriennummern erstellt gemäß der Artikelmenge der Belegzeile, beginnend mit **S/N-Kred0001** .  
+Es wird eine Chargennummer mit einzelnen Seriennummern erstellt gemäß der Artikelmenge der Belegzeile, beginnend mit **S/N-Kred0001**.  
 
 Die Matrix der Mengenfelder im Kopf des Fensters zeigt dynamisch die Mengen und die Summen der Artikelverfolgungsnummern an, die Sie auf der Seite einrichten. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine 0 in den Feldern **Undefiniert** angezeigt wird.  
 
@@ -155,18 +155,18 @@ Die unterschiedlichen Regeln für Artikelverfolgungsnummern werden auf der Seite
 > [!NOTE]  
 >  Um Artikelverfolgungsnummern bei Lageraktivitäten zuzuordnen, müssen die Kontrollkästchen **Seriennr.-Verf. Lager** und **Chargennr.-Verf. Lager** auf der Karte des Artikels ausgewählt werden.    
 
-1. Wählen Sie die gewünschte Belegzeile aus, und wählen Sie im Inforegister **Zeilen** die Option Aktionen , wählen Sie **Auftrag** und dann **Artikelverfolgungszeilen** .  
+1. Wählen Sie die gewünschte Belegzeile aus, und wählen Sie im Inforegister **Zeilen** die Option Aktionen , wählen Sie **Auftrag** und dann **Artikelverfolgungszeilen**.  
 
     Sie können auf folgende Arten Artikelverfolgungsnummern zuordnen:  
-    -   Automatisch aus vordefinierten Nummernserien: Klicken Sie auf der Registerkarte Aktionen in der Gruppe Funktionen auf **Seriennr. zuweisen** oder **Chargennr. zuweisen** .  
-    -   Automatisch auf Basis von Parametern, die Sie speziell für den ausgehenden Artikel definieren: Klicken Sie auf der Registerkarte Aktionen in der Gruppe Funktionen auf Benutzerdef. **Seriennr. erstellen** .  
+    -   Automatisch aus vordefinierten Nummernserien: Klicken Sie auf der Registerkarte Aktionen in der Gruppe Funktionen auf **Seriennr. zuweisen** oder **Chargennr. zuweisen**.  
+    -   Automatisch auf Basis von Parametern, die Sie speziell für den ausgehenden Artikel definieren: Klicken Sie auf der Registerkarte Aktionen in der Gruppe Funktionen auf Benutzerdef. **Seriennr. erstellen**.  
     -   Manuell, indem Sie Serien- oder Chargennummern ohne Verwendung von Nummernserien eingeben.  
 
 2.  Für diesen Vorgang weisen Sie eine Seriennummer automatisch zu, indem Sie **Seriennr. zuweisen** auswählen.  
 
     Das Feld **Menge zu erstellen** enthält standardmäßig die Menge aus der Zeile, Sie können diese Menge jedoch ändern.  
-3.  Wählen Sie das Feld **Neue Chargennr. erstellen** , um der neuen Seriennummern eine eigene Chargennummer zuzuteilen.  
-4.  Wählen Sie die Schaltfläche **OK** , um eine Chargennummer und neue individuelle Seriennummern entsprechend der Menge in der Belegzeile zu erzeugen.  
+3.  Wählen Sie das Feld **Neue Chargennr. erstellen**, um der neuen Seriennummern eine eigene Chargennummer zuzuteilen.  
+4.  Wählen Sie die Schaltfläche **OK**, um eine Chargennummer und neue individuelle Seriennummern entsprechend der Menge in der Belegzeile zu erzeugen.  
 
 Die Matrix der Mengenfelder im Kopf des Fensters zeigt dynamisch die Mengen und die Summen der Artikelverfolgungsnummern an, die Sie auf der Seite einrichten. Die Mengen müssen denen in der Belegzeile entsprechen, was durch eine **0** in den Feldern **Undefiniert** angezeigt wird.  
 
@@ -181,7 +181,7 @@ Wenn Sie mit Artikeln arbeiten, für die Artikelverfolgung erforderlich ist, und
 >  Um Artikelverfolgungsnummern in Lageraktivitäten zu verwenden, muss der Artikel mit Seriennr./Chargenlagerverfolgung eingerichtet sein, da hiermit die speziellen Prinzipien der Behandlung von Serien- und Chargennummern im Lager gesteuert werden.
 
 1.  Wählen Sie in einem beliebigen ausgehenden Beleg die Zeile aus, für die Sie Serien- oder Chargennummern auswählen möchten.  
-2.  Wählen Sie im Inforegister **Zeilen** in **Aktionen** entweder **Zeilen** oder **Artikel** und dann wählen Sie **Artikelverfolgungszeilen** .  
+2.  Wählen Sie im Inforegister **Zeilen** in **Aktionen** entweder **Zeilen** oder **Artikel** und dann wählen Sie **Artikelverfolgungszeilen**.  
 3.  Auf der Seite **Artikelverfolgungszeilen** gibt es drei Möglichkeiten zum Angeben der Chargen- oder Seriennummer:  
 
     -   Wählen Sie in den Feldern **Chargennr.** oder **Seriennr.** auf und eine Nummer im Fenster **Artikelverf.-Zusammenfassung** aus.  
@@ -202,7 +202,7 @@ Der Umlagerungsauftrag ist allerdings insofern etwas Besonderes, als der Warenau
 
  Die genauen Regeln zur unternehmensweiten Verarbeitung von Artikelverfolgungsnummern werden durch die Einstellungen in der Tabelle  **Artikelverfolgung** gesteuert.    
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Transferaufträge** ein und wählen Sie dann den entsprechenden Link.  
-2.  Öffnen Sie den Umlagerungsauftrag, die Sie bearbeiten möchten. Wählen Sie im Inforegister **Zeilen** in Aktionen entweder **Zeilen** oder **Artikel** und dann wählen Sie **Artikelverfolgungszeilen** .  
+2.  Öffnen Sie den Umlagerungsauftrag, die Sie bearbeiten möchten. Wählen Sie im Inforegister **Zeilen** in Aktionen entweder **Zeilen** oder **Artikel** und dann wählen Sie **Artikelverfolgungszeilen**.  
 3.  Auf der Seite **Artikelverfolgungszeilen** weisen Sie eine Serien-/Chargennummer zu oder wählen eine aus, wie für jede andere ausgehende Artikeltransaktion.  
 
     Wenn Sie Serien-/Chargennummern für Umlagerungsartikel verarbeiten, sind diesen Artikeln normalerweise bereits Nummern zugeordnet. Daher besteht der Vorgang normalerweise darin, aus bestehenden Serien-/Chargennummern auszuwählen.  
@@ -227,12 +227,12 @@ In diesen Situationen werden die existierenden Artikelverfolgungszeilen automati
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie eine Einkaufsrechnung für Artikel, die mit Serien- oder Chargennummern eingekauft werden.  
 3.  Wählen Sie in der Einkaufsrechnungszeile im Inforegister **Zeilen** die Option Funktion aus, und wählen Sie dann **Wareneingangszeilen holen** aus.  
-4.  Wählen Sie auf der Seite **Wareneingangszeilen holen** eine Wareneingangszeile aus, die Artikelverfolgungszeilen hat, und klicken Sie anschließend auf **OK** .  
+4.  Wählen Sie auf der Seite **Wareneingangszeilen holen** eine Wareneingangszeile aus, die Artikelverfolgungszeilen hat, und klicken Sie anschließend auf **OK**.  
 
     Der Herkunftsbeleg wird in die Bestellrechnung als neue Zeile kopiert und dessen Artikelverfolgungszeilen werden in das darunter liegende Fenster **Artikelverfolgungszeilen** kopiert.  
 
 5.  Wählen Sie in der Einkaufsrechnung die übertragene Wareneingangszeile aus.  
-6.  Wählen Sie im Inforegister **Zeilen** **Zeile** , und dann **Artikelverfolgungszeile** , um die übertragenen Artikelverfolgungszeilen zu sehen.  
+6.  Wählen Sie im Inforegister **Zeilen** **Zeile**, und dann **Artikelverfolgungszeile**, um die übertragenen Artikelverfolgungszeilen zu sehen.  
 
 Die Inhalte der Felder **Seriennr.** und **Chargennr.** können nicht geändert werden. Sie können allerdings ganze Zeilen löschen oder die Mengen verändern, um Veränderungen in der Herkunftszeile auszugleichen.  
 
@@ -256,8 +256,8 @@ Ein Umbuchen der Artikelverfolgung für einen Artikel bedeutet, dass eine Charge
 6.  Wenn Sie Informationen zu der alten Serien- oder Chargennummer haben, können Sie diese Informationen für die neue Serien- oder Chargennummer kopieren.  
 
     1.  Klicken Sie auf der Seite  **Artikelverfolgungszeilen** auf **Neue Seriennummerinformation** oder **Neuze Chargennummerninformation**  
-    2.  Wenn Sie Informationen aus der alten Chargen- oder Seriennummer kopieren möchten, klicken Sie auf **Info kopieren** .  
-    3.  Wählen Sie auf der Seite "Informationsliste" die Chargen- oder Seriennummer aus, von der Sie kopieren möchten, und wählen Sie **OK** .  
+    2.  Wenn Sie Informationen aus der alten Chargen- oder Seriennummer kopieren möchten, klicken Sie auf **Info kopieren**.  
+    3.  Wählen Sie auf der Seite "Informationsliste" die Chargen- oder Seriennummer aus, von der Sie kopieren möchten, und wählen Sie **OK**.  
 
 7.  Wenn Sie die vorhandenen Informationen für eine Chargen- oder Seriennummer ändern möchten, können Sie die Chargen- oder Serieninformationen aufzeichnen.  
 8.  Buchen Sie das Buch.-Blatt, um die neuen Artikelverfolgungsnummern oder Ablaufdatumsangaben mit den entsprechenden Artikelposten zu verknüpfen.

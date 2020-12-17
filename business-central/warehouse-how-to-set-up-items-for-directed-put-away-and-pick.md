@@ -21,7 +21,7 @@ ms.locfileid: "3918213"
 Wenn Sie einen Lagerort für die gesteuerte Einlagerung und Kommissionierung einrichten, steht Ihnen eine neue Funktionalität zur Verfügung, die Ihnen hilft, das Lager so effizient wie möglich zu betreiben. Um diese Funktionalität voll auszuschöpfen, liefern Sie der Anwendung zusätzliche Informationen zu den Artikeln, wodurch die Anwendung ihrerseits dabei unterstützt wird, die erforderlichen Berechnungen anzustellen, um die effizientesten und effektivsten Möglichkeiten zur Durchführung der Lageraktivitäten vorzuschlagen. Weitere Informationen finden Sie unter [Designdetails: Lagerhaus einrichten](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>So richten Sie einen Artikel für die gesteuerte Einlagerung und Kommissionierung ein:  
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die Karte für den Artikel, den Sie für gesteuerte Einlagerung und Kommissionierung einrichten möchten.
 3. Füllen Sie im Inforegister **Logistik** der Artikelkarte die Felder aus, um festzulegen, wie der Artikel im Lager verarbeitet werden soll.  
 4.  Wählen Sie die **Einheiten** Aktion aus.
@@ -35,7 +35,7 @@ Die gesteuerte Einlagerung und Kommissionierung verschafft Ihnen Zugang zu erwei
 Um die gesteuerte Einlagerung und Kommissionierung zu nutzen, müssen Sie die Funktionalität auf der Lagerortkarte aktivieren.    
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerorte** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie den Lagerort, bei dem Sie die gesteuerte Einlagerung und Kommissionierung nutzen möchten, wählen Sie dann die Aktion **Bearbeiten** aus.  
-3.  Wählen Sie im Inforegister **Lager** das Kontrollkästchen **Gesteuerte Einlag. u. Kommiss.** .  
+3.  Wählen Sie im Inforegister **Lager** das Kontrollkästchen **Gesteuerte Einlag. u. Kommiss.**.  
 
 Sie brauchen zu diesem Zeitpunkt der Einrichtung keine weiteren Felder auf der Lagerortkarte auszufüllen.  
 

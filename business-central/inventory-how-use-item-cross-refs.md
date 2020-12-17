@@ -25,15 +25,15 @@ Wenn Sie eine Artikelreferenzen zwischen der Artikelbeschreibung definieren, die
 Die folgenden Verfahren beschreiben, wie Artikelreferenzen beim Einkauf verwendet werden. Die Schritte sind für den Verkauf ähnlich.
 
 > [!NOTE]
-> Für Artikelbezeichner wie z. B. GTINs oder GUIDs wird es immer üblicher, dass sie mindestens 30 Zeichen enthalten, was mehr ist. als die aktuelle Funktion für Artikelquerverweise handhaben kann. Wenn Sie Referenzen verwenden müssen, die mehr als 30 Zeichen enthalten, kann Ihr Administrator die Funktion **Längere Artikelreferenzen schreiben** auf der Seite [Funktionsverwaltung](https://businesscentral.dynamics.com/?page=xzy) aktivieren (der Link erfordert, dass Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten haben) aktivieren. Die Verwendung von Referenzen ändert sich nicht, aber die Namen von Dingen wie Seiten und Schaltflächen ändern sich. Aus der Seite **Artikelquerverweisposten** wird beispielsweise die Seite **Artikelreferenzposten** .
+> Für Artikelbezeichner wie z. B. GTINs oder GUIDs wird es immer üblicher, dass sie mindestens 30 Zeichen enthalten, was mehr ist. als die aktuelle Funktion für Artikelquerverweise handhaben kann. Wenn Sie Referenzen verwenden müssen, die mehr als 30 Zeichen enthalten, kann Ihr Administrator die Funktion **Längere Artikelreferenzen schreiben** auf der Seite [Funktionsverwaltung](https://businesscentral.dynamics.com/?page=xzy) aktivieren (der Link erfordert, dass Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten haben) aktivieren. Die Verwendung von Referenzen ändert sich nicht, aber die Namen von Dingen wie Seiten und Schaltflächen ändern sich. Aus der Seite **Artikelquerverweisposten** wird beispielsweise die Seite **Artikelreferenzposten**.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Eine Artikelreferenz zur Artikelbeschreibung des Kreditor einrichten
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte eines Artikels, für den Sie eine Referenz zur Artikelbeschreibung erstellen möchten, die der Kreditor für diesen Artikel verwendet.
-3. Wählen Sie die **Referenzen** -Aktion aus.
+3. Wählen Sie die **Referenzen**-Aktion aus.
 
-     Wenn Sie die Aktion **Querverweise** nicht finden können, wählen Sie die Anzeige weiterer Optionen aus, und suchen Sie diese unter **Verknüpft** > **Artikel** .
+     Wenn Sie die Aktion **Querverweise** nicht finden können, wählen Sie die Anzeige weiterer Optionen aus, und suchen Sie diese unter **Verknüpft** > **Artikel**.
   
 4. In einer neuen Zeile auf der Seite **Artikelreferenzposten** füllen Sie die Felder wie notwendig aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 

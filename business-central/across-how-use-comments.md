@@ -31,7 +31,7 @@ Außerdem können Sie definieren, welche Bemerkungen von einer Art Beleg auf ein
 Nachfolgend wird erläutert, wie einer Bemerkung einer Artikelkarte hinzugefügt wird. Die Schritte sind für alle anderen Karten ähnlich und Dokumente, außer in Belegzeilen, die **Bemerkungen** Aktion wird auf ein Zeilenaktionsmenü platziert.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Um Bemerkungen einer Artikelkarte hinzuzufügen
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Positionen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikel** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die entsprechende Artikelkarte.
 3. Wählen Sie die Aktion **Kommentare** aus.
 4. Auf der Seite **Bemerkungen** können Sie beliebigen Text in das Feld eingeben und dann **ok** klicken.

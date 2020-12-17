@@ -38,7 +38,7 @@ Das folgende Verfahren basiert auf einer Einkaufsrechnung. Die Schritte sind fü
 
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kaufrechnungen** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie den Verkaufsauftrag, den Sie einer Datei zuordnen möchten.
-3. Öffnen Sie in der Infobox die Registerkarte **Anhänge** .
+3. Öffnen Sie in der Infobox die Registerkarte **Anhänge**.
 4. Wählen Sie den Wert hinter dem Feld **Belege** z. B. "0".
 5. Wählen Sie auf der Seite **Angefügte Dokumente** im Feld **Anhang** die Aktion **Datei auswählen** aus.
 5. Wählen Sie eine Datei aus jedem Lagerort, und wählen Sie dann die Schaltfläche **Öffnen** aus.
@@ -46,7 +46,7 @@ Das folgende Verfahren basiert auf einer Einkaufsrechnung. Die Schritte sind fü
 Die Datei wird nun der Einkaufsrechnung zugeordnet.
 
 ## <a name="to-view-an-attached-file"></a>So zeigen Sie eine angehängte Datei an
-1. Öffnen Sie in der Infobox die Registerkarte **Anhänge** .
+1. Öffnen Sie in der Infobox die Registerkarte **Anhänge**.
 2. Wählen Sie den Wert hinter dem Feld **Belege** z. B. "1".
 3. Wählen Sie auf der Seite **Angefügte Dokumente** die Aktion **Vorschau** aus.
 4. Öffnen Sie die heruntergeladene Datei.
@@ -57,7 +57,7 @@ Wann immer Sie ein Dokument als Datei speichern müssen, können Sie die Aktion 
 Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind für alle unterstützten Dokumente ähnlich.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.
-2. Markieren Sie einen Debitorenauftrag, und wählen Sie dann die Aktion **Anhängen als PDF** .
+2. Markieren Sie einen Debitorenauftrag, und wählen Sie dann die Aktion **Anhängen als PDF**.
 
 Eine PDF-Datei mit dem aktuellen Inhalt des Kundenauftrags wird der Registerkarte **Anlagen** im Infoboxbereich hinzugefügt.
 
@@ -66,9 +66,9 @@ Sie können jeder URL oder jedem Pfad einen Link von einer Karte oder einem Doku
 
 Das folgende Verfahren basiert auf einer Elementkarte. Die Schritte sind für alle anderen unterstützten Belege und Karten gleich.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie das Element aus, zu dem Sie einen Link hinzufügen möchten, und wählen Sie dann die Registerkarte **Anhänge** in der Infobox.
-3. In dem **Link** , wählen Sie das **+** Symbol.
+3. In dem **Link**, wählen Sie das **+** Symbol.
 4. Geben Sie im Feld **Link Adresse** den Link ein.
 
     Der Link muss eine gültige Internet- oder Intranet-URL sein.

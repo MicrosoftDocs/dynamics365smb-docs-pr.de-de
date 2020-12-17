@@ -35,23 +35,23 @@ Sie können den Artikelkategorien auch Artikelattribute zuordnen, die dann für 
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>So erstellen Sie Werte für Artikelattribute vom Typ Option
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Positionsattribute** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie auf der Seite **Artikelattribute** ein Artikelattribut vom Typ **Option** , für das Sie Werte erstellen möchten, und wählen Sie dann die Aktion **Artikelattributwerte** aus.
+2. Wählen Sie auf der Seite **Artikelattribute** ein Artikelattribut vom Typ **Option**, für das Sie Werte erstellen möchten, und wählen Sie dann die Aktion **Artikelattributwerte** aus.
 3. Füllen Sie auf der Seite **Artikelattributwerte** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>So ordnen Sie Artikelattribute Artikeln zu:
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Positionen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikel** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie auf der Seite **Artikel** den Artikel, dem Sie Artikelattribute zuordnen möchten, und wählen Sie die Aktion **Attribute** aus.
 3. Wählen Sie auf der Seite **Artikelattributwerte** die Aktion **Neu** aus.
-4. Klicken Sie im Feld **Attribute** auf die Schaltfläche "Suchen" und wählen Sie ein bereits vorhandenes Artikelattribut aus. Alternativ wählen Sie die Aktion **Neu** , um zuerst ein neues Artikelattribut so zu erstellen, wie es unter [So erstellen Sie Artikelattribute](inventory-how-work-item-attributes.md#to-create-item-attributes) erklärt wird.
-5. Geben Sie im Feld **Wert** den Artikelattributwert ein, z. B. "2010" als **Modelljahr** -Attribut.
-6. Für Artikelattribute vom Typ **Option** klicken Sie auf die Suchen-Schaltfläche im Feld **Wert** und wählen einen Artikelattributwert aus. Alternativ wählen Sie die Aktion **Neu** , um zuerst einen neuen Artikelattributwert so zu erstellen, wie es unter [So erstellen Sie Werte für Artikelattribute vom Typ Option](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items) erklärt wird.
+4. Klicken Sie im Feld **Attribute** auf die Schaltfläche "Suchen" und wählen Sie ein bereits vorhandenes Artikelattribut aus. Alternativ wählen Sie die Aktion **Neu**, um zuerst ein neues Artikelattribut so zu erstellen, wie es unter [So erstellen Sie Artikelattribute](inventory-how-work-item-attributes.md#to-create-item-attributes) erklärt wird.
+5. Geben Sie im Feld **Wert** den Artikelattributwert ein, z. B. "2010" als **Modelljahr**-Attribut.
+6. Für Artikelattribute vom Typ **Option** klicken Sie auf die Suchen-Schaltfläche im Feld **Wert** und wählen einen Artikelattributwert aus. Alternativ wählen Sie die Aktion **Neu**, um zuerst einen neuen Artikelattributwert so zu erstellen, wie es unter [So erstellen Sie Werte für Artikelattribute vom Typ Option](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items) erklärt wird.
 7. Wiederholen Sie die Schritte 4 bis 6 für alle Artikelattribute, die Sie dem Artikel zuweisen möchten.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>So ordnen Sie ein Artikelattribut einer Artikelkategorie zu:
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikelkategorien** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie auf der Seite **Artikelkategorie** die Artikelkategorie, der Sie den Artikelattributen zuordnen möchten, und wählen Sie die Aktion **Bearbeiten** aus.
 3. Wählen Sie auf der Seite **Artikelkategorie-Karte** im Inforegister **Attribute** die Aktion **Neu** aus.
-4. Klicken Sie im Feld **Attribute** auf die Schaltfläche "Suchen" und wählen Sie ein bereits vorhandenes Artikelattribut aus. Alternativ wählen Sie die Aktion **Neu** , um zuerst ein neues Artikelattribut so zu erstellen, wie es unter [So erstellen Sie Artikelattribute](inventory-how-work-item-attributes.md#to-create-item-attributes) erklärt wird.
+4. Klicken Sie im Feld **Attribute** auf die Schaltfläche "Suchen" und wählen Sie ein bereits vorhandenes Artikelattribut aus. Alternativ wählen Sie die Aktion **Neu**, um zuerst ein neues Artikelattribut so zu erstellen, wie es unter [So erstellen Sie Artikelattribute](inventory-how-work-item-attributes.md#to-create-item-attributes) erklärt wird.
 5. Klicken Sie im Feld **Standardwert** auf die Suchen-Schaltfläche und wählen Sie einen bereits vorhandenen Attributwert aus.
 6. Wiederholen Sie die Schritte 4 bis 5 für alle Artikelattribute, die Sie der Artikelkategorie zuweisen möchten.
 
@@ -59,8 +59,8 @@ Sie können den Artikelkategorien auch Artikelattribute zuordnen, die dann für 
 >   Artikelattribute für übergeordnete Artikelkategorien werden in untergeordneten Artikelkategorien übernommen. Dies wird durch das Feld **Geerbt von** im Inforegister **Attribute** angegeben. Weitere Informationen finden Sie unter [Artikel kategorisieren](inventory-how-categorize-items.md).
 
 ## <a name="to-filter-by-item-attributes"></a>So filtern Sie nach Artikelattributen
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie auf der Seite **Attribute** die Aktion **Nach Attributen filtern** aus.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie auf der Seite **Artikel** die Aktion **Nach Attributen filtern** aus.
 3. Klicken Sie auf der Seite **Artikel nach Attributen filtern** die Suchschaltfläche im Feld **Attribute** an, und wählen Sie ein Artikelattribut aus.
 4. Klicken Sie im Feld **Wert** auf die Suchen-Schaltfläche und wählen Sie einen Attributwert aus, mit dem Sie die Artikel filtern wollen.
 
@@ -70,7 +70,7 @@ Sie können den Artikelkategorien auch Artikelattribute zuordnen, die dann für 
 6. Wählen Sie auf der Seite **Filterwert angeben** im Feld **Bedingung** den Dropdownpfeil aus, und wählen Sie dann eine Bedingung aus.
 7. Geben Sie im Feld **Wert** einen Attributwert ein, mit dem Sie die Artikel filtern wollen.
 
-    **Beispiel** : Um Artikel zu filtern deren Beschreibung mit "blau" beginnt, füllen Sie die Felder wie folgt aus: **Attribut** -Feld: Materialbeschreibung, **Bedingung** -Feld: beginnt mit, **Wert** -Feld: blau.
+    **Beispiel**: Um Artikel zu filtern deren Beschreibung mit "blau" beginnt, füllen Sie die Felder wie folgt aus: **Attribut** -Feld: Materialbeschreibung, **Bedingung**-Feld: beginnt mit, **Wert**-Feld: blau.
 8. Wählen Sie die Schaltfläche **OK** aus.   
 
 Die Artikel auf der Seite **Artikel** werden mit den angegebenen Artikelattributwerten gefiltert.

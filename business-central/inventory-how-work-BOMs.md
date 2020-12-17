@@ -40,7 +40,7 @@ Um einen übergeordneten Artikel zu definieren, der aus anderen Artikeln und mö
 
 Montagestücklisten enthalten normalerweise Artikel, können jedoch auch eine oder mehrere Ressourcen enthalten, die die Montageartikel ausführen.
 
-Montagestücklisten können mehrstufig sein, was bedeutet, dass eine Komponente in der Montagestückliste selbst ein Montageartikel sein kann. In diesem Fall lautet das Feld **Montagestückliste** in der Montagestücklistenzeile **Ja** .
+Montagestücklisten können mehrstufig sein, was bedeutet, dass eine Komponente in der Montagestückliste selbst ein Montageartikel sein kann. In diesem Fall lautet das Feld **Montagestückliste** in der Montagestücklistenzeile **Ja**.
 
 Spezielle Anforderungen gelten für Artikel auf Montagestücklisten in Bezug auf die Verfügbarkeit. Weitere Informationen finden Sie unter [Verfügbarkeit eines Artikels nach dessen Verwendung in den Montagestücklisten anzeigen](inventory-how-availability-overview.md#to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms).
 
@@ -57,15 +57,15 @@ Es gibt zwei Schritte zum Erstellen einer Montagestückliste:
 ## <a name="to-edit-assembly-boms"></a>So bearbeiten Sie Montagestücklisten
 Sie können die Zeilen in einer Montagestückliste jederzeit bearbeiten. Beachten Sie jedoch, dass die Stückliste möglicherweise bei laufenden Verkäufen oder Baugruppen des übergeordneten Unternehmens verwendet wird, die von der Änderung betroffen sein können. Wählen Sie das die Aktion **Artikelverwendungsübersicht** aus, um zu sehen, in welchen Artikeln es verwendet wird und dann ob Verkaufs- oder Montageaufträge betroffen sein können.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Wert **Ja** in der Spalte **Montagestückliste** aus.
 3. Auf der Seite **Montagestückliste** wählen Sie die Aktion **Liste bearbeiten** aus und ändern dann jedes beliebige Feld nach Bedarf.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>So werden Komponenten und Ressourcen angezeigt, eingerückt gemäß der Stücklistenstruktur
 Auf der Seite **Montagestückliste** können Sie ein separates Fenster öffnen, in dem die Komponenten sowie jegliche Ressourcen angezeigt werden, die gemäß ihrer Stücklistenposition unter den Montageartikel eingerückt werden.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.
-2. Öffnen Sie das Kartenfenster für den Montageartikel. (Das Feld **Montagestückliste** auf der Seite **Artikel** enthält **Ja** .)
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.
+2. Öffnen Sie das Kartenfenster für den Montageartikel. (Das Feld **Montagestückliste** auf der Seite **Artikel** enthält **Ja**.)
 3. Auf der Seite **Artikelkarte** für einen Montageartikel wählen Sie die **Montage** Aktion aus, und wählen Sie die **Montagestückliste** Aktion aus.
 4. Wählen Sie auf der Seite **Montagestückliste** die Aktion **Stückliste anzeigen** aus.
 
@@ -96,10 +96,10 @@ Sie können den Einstandspreis (fest) für eine oder mehrere Artikel auf der Sei
 Der Einstandspreis einer Montagestückliste entspricht immer der Summe der Einstandspreise der Komponenten, Artikel und aller Ressourcen.
 
 1. Wählen Sie in der rechten oberen Ecke das Symbol **Nach Seite oder Bericht suchen** aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
-2. Öffnen Sie das Kartenfenster für den Montageartikel. (Das Feld **Montagestückliste** auf der Seite **Artikel** enthält **Ja** .)
+2. Öffnen Sie das Kartenfenster für den Montageartikel. (Das Feld **Montagestückliste** auf der Seite **Artikel** enthält **Ja**.)
 3. Auf der Seite **Artikelkarte** für einen Montageartikel wählen Sie die **Montage** Aktion aus, und wählen Sie die **Montagestückliste** Aktion aus.
 4. Auf der Seite **Montagestückliste** wählen Sie die **Calc. Einstandspreis (fest)** Aktion aus.
-5. Wählen Sie eine der Optionen aus, und klicken Sie auf **OK** .
+5. Wählen Sie eine der Optionen aus, und klicken Sie auf **OK**.
 
 |Option |Description |
 |-------|------------|

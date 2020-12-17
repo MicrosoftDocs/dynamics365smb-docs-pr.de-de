@@ -77,8 +77,8 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 ### <a name="to-create-the-items"></a>Serviceartikel anlegen  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Elemente** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie die Aktion **Neu** .  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die Aktion **Neu**.  
 3. Geben Sie im Feld **Nr.** Geben Sie im Feld **2000** ein und füllen Sie dann die folgenden Felder aus.  
 
     |Beschreibung|Basiseinheiten|Gen. Produktbuchungsgruppe|MwSt.-Produktbuchungsgruppe|Lagerbuchungsgruppe|Artikelverfolgungscode|  
@@ -86,10 +86,10 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     |Rennradrahmen|STÜCK|ROHMAT|MWST25|ROHMAT|CHARGEALLE|  
 
     > [!NOTE]  
-    >  Um die Basismaßeinheit einzugeben, wählen Sie die Schaltfläche **Neu** , und wählen Sie dann **PSC** auf der Seite **Artikeleinheiten** aus.  
+    >  Um die Basismaßeinheit einzugeben, wählen Sie die Schaltfläche **Neu**, und wählen Sie dann **PSC** auf der Seite **Artikeleinheiten** aus.  
 
 4. Alle anderen Felder enthalten geeignete Standarddaten oder müssen nicht ausgefüllt werden.  
-5. Klicken Sie auf **OK** , um die erste neue Artikelkarte, 2000, zu erstellen.  
+5. Klicken Sie auf **OK**, um die erste neue Artikelkarte, 2000, zu erstellen.  
 6. Wählen Sie **Neu** aus.  
 7. Geben Sie im Feld **Nr.** Geben Sie im Feld **1002** ein und füllen Sie dann die folgenden Felder aus.  
 
@@ -98,17 +98,17 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     |Rennrad|STÜCK|HANDEL|MWST25|FERTIG|Fertigungsauftrag|SNALLE|  
 
     > [!NOTE]  
-    >  Um die Basismaßeinheit einzugeben, wählen Sie die Schaltfläche **Neu** , und wählen Sie dann **PSC** auf der Seite **Artikeleinheiten** aus.  
+    >  Um die Basismaßeinheit einzugeben, wählen Sie die Schaltfläche **Neu**, und wählen Sie dann **PSC** auf der Seite **Artikeleinheiten** aus.  
 
     Als Nächstes müssen Sie die Produktionseinrichtung des Artikels definieren.
 
 8. Geben Sie auf der Registerkarte B **eschaffung** **1000** in das Feld **Arbeitsplannr.** ein.  
 9. Wählen Sie das Feld **Produktion Stückliste** und dann **Erweitert** aus.  
 10. Auf der Seite **Fert.-Stücklistenübersicht** wählen Sie die erste Zeile, **1000** aus, und wählen Sie die **Bearbeiten** Aktion aus.  
-11. Ändern Sie auf der Seite **Fertigungsstückliste** den Wert im Feld **Status** in **In Entwicklung** .  
+11. Ändern Sie auf der Seite **Fertigungsstückliste** den Wert im Feld **Status** in **In Entwicklung**.  
 12. Geben Sie in einer leeren Zeile **2000** im Feld **Nr.** ein und geben dann **1** im Feld **Komponentenmenge** ein.  
-13. Ändern Sie den Wert im Feld **Status** wieder in **Zertifiziert** .  
-14. Wählen Sie die Schaltfläche **OK** , um die Fertigungsstückliste auf der Artikelkarte einzufügen, und schließen Sie die Seite **Produktionsstückliste** .  
+13. Ändern Sie den Wert im Feld **Status** wieder in **Zertifiziert**.  
+14. Wählen Sie die Schaltfläche **OK**, um die Fertigungsstückliste auf der Artikelkarte einzufügen, und schließen Sie die Seite **Produktionsstückliste**.  
 
     Kaufen Sie als Nächstes Rennradrahmen vom Lieferanten Custom Metals Incorporated.  
 
@@ -123,9 +123,9 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     |2000|10|CHARGE1|  
 
 4. Um die Chargennummer einzugeben, wählen Sie die **Artikelverfolgungszeilen** Aktion aus.  
-5. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Chargennr.** , wählen Sie **Menge (Basis)** aus und schließen Sie die Seite.  
+5. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Chargennr.**, wählen Sie **Menge (Basis)** aus und schließen Sie die Seite.  
 6. Füllen Sie das Feld **Kred.-Rechnungsnr.** aus.  
-7. Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Lieferung und Rechnung** , und wählen Sie dann die Schaltfläche **OK** aus.  
+7. Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Lieferung und Rechnung**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     Kaufen Sie als Nächstes Rennradrahmen von Coolwood Technologies.  
 8. Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.  
@@ -136,10 +136,10 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     |----------|--------------|-------------|  
     |2000|11|CHARGE2|  
 
-11. Um die Chargennummer einzugeben, wählen Sie im Inforegister **Zeilen** , in der Gruppe **Zeile** , die Aktion **Artikelverfolgungszeilen** .  
-12. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Chargennr.** , wählen Sie **Menge (Basis)** aus und schließen Sie die Seite.  
+11. Um die Chargennummer einzugeben, wählen Sie im Inforegister **Zeilen**, in der Gruppe **Zeile**, die Aktion **Artikelverfolgungszeilen**.  
+12. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Chargennr.**, wählen Sie **Menge (Basis)** aus und schließen Sie die Seite.  
 13. Füllen Sie das Feld **Kred.-Rechnungsnr.** aus.  
-14. Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Lieferung und Rechnung** , und wählen Sie dann die Schaltfläche **OK** aus.  
+14. Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Lieferung und Rechnung**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     Als Nächstes produzieren Sie zwei Rennräder, SN1 und SN2.  
 
@@ -156,12 +156,12 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 4. Wählen Sie die **FA berechnen** Aktion aus, und wählen Sie dann die Schaltfläche **OK** aus, um die Zeile zu befüllen.  
 5. Um die Seriennummern einzugeben, wählen Sie die **Artikelverfolgungszeilen** Aktion aus.  
-6. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Seriennr.** , wählen Sie **Menge (Basis)** aus und schließen Sie die Seite.  
+6. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Seriennr.**, wählen Sie **Menge (Basis)** aus und schließen Sie die Seite.  
 
     Als Nächstes müssen Sie den Verbrauch von Rennradrahmen aus CHARGE1 buchen.  
 7. Auf der Seite **Freigegebener FA** wählen Sie die **Produktions Buch.-Blatt** Aktion aus.  
 8. Auf der Seite **Produktions Buch.-Blatt** wählen Sie die Verbrauchszeile für Artikel 2000 aus, wählen Sie die Aktion **Artikelverfolgungszeilen** aus.
-9. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Chargennr.** , wählen Sie **CHARGE1** aus, und klicken Sie dann auf **OK** .  
+9. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Chargennr.**, wählen Sie **CHARGE1** aus, und klicken Sie dann auf **OK**.  
 10. Lassen Sie alle anderen Standardeinstellungen auf der Seite **Produktions Buch.-Blatt** unverändert, und wählen Sie die **Buchen** Aktion aus.  
 
     Als Nächstes produzieren Sie zwei weitere Rennräder, SN3 und SN4.  
@@ -181,7 +181,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     Als Nächstes müssen Sie vermehrten Verbrauch von Rennradrahmen aus CHARGE1 buchen.  
 16. Auf der Seite **Freigegebener FA** wählen Sie die **Produktions Buch.-Blatt** Aktion aus.  
 17. Auf der Seite **Produktions Buch.-Blatt** wählen Sie die Verbrauchszeile für Artikel 2000 aus, wählen Sie die Aktion **Artikelverfolgungszeilen** aus.
-18. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Chargennr.** , wählen Sie **CHARGE1** aus, und klicken Sie dann auf **OK** .  
+18. Klicken Sie auf der Seite **Artikelverfolgungszeilen** auf den Dropdownpfeil im Feld **Chargennr.**, wählen Sie **CHARGE1** aus, und klicken Sie dann auf **OK**.  
 19. Lassen Sie alle anderen Standardeinstellungen auf der Seite **Produktions Buch.-Blatt** unverändert, und wählen Sie die **Buchen** Aktion aus.  
 
     Sie haben jetzt vier Rennräder, SN1 bis SN4 produziert, und vier der zehn Rennradrahmen aus CHARGE1 verbraucht, zwei Rahmen in jedem Fertigungsauftrag.  
@@ -199,7 +199,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     |Blütenhaus GmbH|1002|1|SN1|  
 
 3.  Um die Seriennummer einzugeben, wählen Sie die Aktion **Artikelverfolgungszeilen** und dann die Nummer im Feld **Seriennummer** auf der Seite **Artikelnachverfolgungszeilen** aus.  
-4.  Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Liefern und fakturieren** , und wählen Sie dann die Schaltfläche **OK** aus.  
+4.  Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Liefern und fakturieren**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     Als Nächstes verkaufen Sie das Rennrad mit SN2 an The Cannon Group PLC.  
 
@@ -211,7 +211,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
     |Möbel-Meller KG|1002|1|SN2|  
 
 7.  Um die Seriennummer einzugeben, wählen Sie die Aktion **Artikelverfolgungszeilen** und dann die Nummer im Feld **Seriennummer** auf der Seite **Artikelnachverfolgungszeilen** aus.  
-8.  Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Liefern und fakturieren** , und wählen Sie dann die Schaltfläche **OK** aus.  
+8.  Wählen Sie die Aktion **Buchen** aus, wählen Sie die Option **Liefern und fakturieren**, und wählen Sie dann die Schaltfläche **OK** aus.  
 
     Zum Schluss verkaufen Sie einige Rennradrahmen separat. Cannon Group PLC. bestellt zudem vier separate Rennradrahmen für ihre eigene Fertigungslinie.  
 
@@ -267,7 +267,7 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 
 1.  Wählen Sie auf der Seite **Artikelablaufverfolgung** die Zeile der Einkaufslieferung aus (die letzte Verfolgungszeile), und wählen Sie dann **Umgekehrte Nachverfolgung - zeilenbasiert** aus.  
 
-    Das Ergebnis der Verfolgung basiert nun auf den Filtern der Verfolgungszeile für die Einkaufslieferung, CHARGE1 und Artikel 2000, und der Verfolgungsmethode **Ursprung - Verbrauch** .  
+    Das Ergebnis der Verfolgung basiert nun auf den Filtern der Verfolgungszeile für die Einkaufslieferung, CHARGE1 und Artikel 2000, und der Verfolgungsmethode **Ursprung - Verbrauch**.  
 
     Erweitern Sie alle Verfolgungszeilen, um eine Übersicht aller Verbrauchsfälle von Artikel 2000 mit CHARGE1 zu erhalten.  
 
