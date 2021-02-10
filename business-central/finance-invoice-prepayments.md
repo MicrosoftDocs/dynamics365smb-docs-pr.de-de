@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9bc57f2814cbbdfdb866226c3602adf2fb956631
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b3995ff523c9676f703710356fd75ab2abd4b13
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916926"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746766"
 ---
 # <a name="invoicing-prepayments"></a>Fakturieren von Vorauszahlungen
 
@@ -37,4 +37,4 @@ Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und 
 
 [Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

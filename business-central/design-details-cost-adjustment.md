@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51f60e938ddb8ffd53b37b5664cf6e1ba8ba396f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920947"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751780"
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetails: Kostenregulierung
 
@@ -27,7 +27,7 @@ Die folgenden sind sekundäre Zwecke oder Funktionen der Kostenregulierung.
 
 * Faktuierung beendeter FA  
 
-  * Ändern des Status von Wertposten von **Soll** zu **Ist** .  
+  * Ändern des Status von Wertposten von **Soll** zu **Ist**.  
   * WIP-Konten löschen. Weitere Informationen finden Sie unter [Designdetails: Produktionsauftragsbuchung](design-details-production-order-posting.md).  
   * Buchen der Abweichung. [Weitere Informationen finden Sie unter Designdetails: Abweichung](design-details-variance.md)  
   * Aktualisieren Sie den Einstandspreis auf der Artikelkarte.  
@@ -38,7 +38,7 @@ Bestandskosten müssen reguliert werden, bevor die zugehörigen Wertposten mit d
 
 Die Aufgabe zum Erkennen, ob Kostenregulierung auftreten sollte, wird hauptsächlich durch die Routine "Artikelposten – Zeile buchen" ausgeführt, während die Aufgabe zum Berechnen und Generieren von Kostenanpassungeinträgen durch die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** ausgeführt wird.  
 
-Damit Kosten weitergeleitet werden können, bestimmt der Erkennungsmechanismus, welche Quellen sich in den Kosten geändert haben und an welches Ziel diese Kosten weitergeleitet werden sollen. Die folgenden drei Untersuchungsfunktionen sind in [!INCLUDE[d365fin](includes/d365fin_md.md)] vorhanden:  
+Damit Kosten weitergeleitet werden können, bestimmt der Erkennungsmechanismus, welche Quellen sich in den Kosten geändert haben und an welches Ziel diese Kosten weitergeleitet werden sollen. Die folgenden drei Untersuchungsfunktionen sind in [!INCLUDE[prod_short](includes/prod_short.md)] vorhanden:  
 
 * Artikelausgleichsposten  
 * Eingabepunkt Regulierung Durchschnittskosten  
@@ -82,13 +82,13 @@ Es ist sinnvoll, die Kostenregulierung automatisch auszuführen, wenn Sie buchen
 
 Da es wichtig ist, den Einstandspreis eines Artikels auf dem neuesten Stand zu halten, wird empfohlen, dass Sie die **Stapelverarbeitung Kosten anpassen** Artikeleinträge so häufig wie möglich ausführen, außerhalb der Kernarbeitszeiten. Oder verwenden Sie die automatische Kostenregulierung. Dadurch wird gewährleistet, dass der Einstandspreis für Artikel täglich aktualisiert wird.  
 
-Unabhängig davon, ob Sie die Kostenregulierung manuell oder automatisch erstellt wurde, der Regulierungsvorgang und seine Auswirkungen sind identisch. [!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet den Wert der eingehenden Transaktion und übergibt diese Kosten an alle ausgehenden Vorgängen, wie Verkaufs- oder Verbrauch, die mit der eingehenden Transaktion ausgeglichen wurden. Die Kostenregulierung erstellt Wertposten, die Ausgleichsbeträge und Beträge enthalten, die die Rundung kompensieren.  
+Unabhängig davon, ob Sie die Kostenregulierung manuell oder automatisch erstellt wurde, der Regulierungsvorgang und seine Auswirkungen sind identisch. [!INCLUDE[prod_short](includes/prod_short.md)] berechnet den Wert der eingehenden Transaktion und übergibt diese Kosten an alle ausgehenden Vorgängen, wie Verkaufs- oder Verbrauch, die mit der eingehenden Transaktion ausgeglichen wurden. Die Kostenregulierung erstellt Wertposten, die Ausgleichsbeträge und Beträge enthalten, die die Rundung kompensieren.  
 
-Die neuen Ausgleichs- und Rundungswertposten haben das Buchungsdatum der zugehörigen Rechnung. Ausnahmen sind, wenn die Wertposten in eine geschlossene Buchhaltungsperiode oder Lagerbuchhaltungsperiode fallen, oder wenn das Buchungsdatum vor dem Datum im **Buchen ab zulassen** -Feld auf der Seite **Finanzbuchhaltunge einrichten** liegt. Wenn dies auftritt, weist die Stapelverarbeitung das Buchungsdatum als erstes Datum der nächsten offenen Periode zu.  
+Die neuen Ausgleichs- und Rundungswertposten haben das Buchungsdatum der zugehörigen Rechnung. Ausnahmen sind, wenn die Wertposten in eine geschlossene Buchhaltungsperiode oder Lagerbuchhaltungsperiode fallen, oder wenn das Buchungsdatum vor dem Datum im **Buchen ab zulassen**-Feld auf der Seite **Finanzbuchhaltunge einrichten** liegt. Wenn dies auftritt, weist die Stapelverarbeitung das Buchungsdatum als erstes Datum der nächsten offenen Periode zu.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Lagerreg. fakt. Einst. Preise (Stapelverarbeitung)
 
-Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge anpassen** , haben Sie die Möglichkeit, den Batchauftrag für alle Artikel oder nur für bestimmte Artikel oder Kategorien zu aktivieren.  
+Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge anpassen**, haben Sie die Möglichkeit, den Batchauftrag für alle Artikel oder nur für bestimmte Artikel oder Kategorien zu aktivieren.  
 
 > [!NOTE]  
 > Es ist empfehlenswert, immer die Stapelverarbeitung für alle Artikel ausführen und die Filteroption nur zu verwenden, um die Laufzeit der Stapelverarbeitung zu verringern, oder die Kosten eines bestimmten Artikels zu korrigieren.  
@@ -151,7 +151,7 @@ Später buchen Sie einen zugehörigen Einkaufsartikelzuschlag für 2,00 MW faktu
 
 ## <a name="automatic-cost-adjustment"></a>Automatische Kostenregulierung
 
-Um einzurichten, dass Kostenregulierung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, verwenden Sie das Feld **Automatische Kostenanpassung** auf der Seite **Bestand-Einrichtugn** . Dieses Feld ermöglicht Ihnen, auszuwählen, wie weit zurück vom aktuellen Arbeitsdatum die automatische Lagerregulierung ausgeführt werden soll. Folgende Optionen sind verfügbar.  
+Um einzurichten, dass Kostenregulierung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, verwenden Sie das Feld **Automatische Kostenanpassung** auf der Seite **Bestand-Einrichtugn**. Dieses Feld ermöglicht Ihnen, auszuwählen, wie weit zurück vom aktuellen Arbeitsdatum die automatische Lagerregulierung ausgeführt werden soll. Folgende Optionen sind verfügbar.  
 
 |Option|Description|
 |------|-----------|
@@ -163,7 +163,7 @@ Um einzurichten, dass Kostenregulierung automatisch ausgeführt wird, wenn Sie e
 |Jahr|Kosten werden reguliert, wenn die Buchung innerhalb eines Jahres ab dem Arbeitsdatum erfolgt.|  
 |Immer|Kosten werden beim Buchen immer reguliert, unabhängig vom Buchungsdatum.|  
 
-Die Auswahl, die Sie im Feld **Automatische Kostenanpassung** vornehmen, ist wichtig für die Leistung und die Korrektheit Ihrer Kosten. Kürzere Perioden, wie etwa **Tag** oder **Woche** , beeinflussen die Systemleistung weniger, da sie die strengere Anforderung haben, dass nur am letzten tag oder in der letzten Woche gebuchte Kosten automatisch reguliert werden können. Dies bedeutet, dass die automatische Kostenregulierung nicht so häufig ausgeführt wird und daher die Systemleistung weniger beeinträchtigt wird. Dies bedeutet jedoch auch, dass VK-Preise möglicherweise weniger genau sind.  
+Die Auswahl, die Sie im Feld **Automatische Kostenanpassung** vornehmen, ist wichtig für die Leistung und die Korrektheit Ihrer Kosten. Kürzere Perioden, wie etwa **Tag** oder **Woche**, beeinflussen die Systemleistung weniger, da sie die strengere Anforderung haben, dass nur am letzten tag oder in der letzten Woche gebuchte Kosten automatisch reguliert werden können. Dies bedeutet, dass die automatische Kostenregulierung nicht so häufig ausgeführt wird und daher die Systemleistung weniger beeinträchtigt wird. Dies bedeutet jedoch auch, dass VK-Preise möglicherweise weniger genau sind.  
 
 ### <a name="example"></a>Beispiel
 
@@ -188,4 +188,4 @@ Wenn Sie die automatische Kostenregulierung so eingerichtet haben, dass Buchunge
 [Designdetails: Fertigungsauftragsbuchung](design-details-production-order-posting.md)  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

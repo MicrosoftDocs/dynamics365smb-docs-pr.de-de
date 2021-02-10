@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5ece03828aad360b03a4c2cc4e0b47a6f603e8dc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911005"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751205"
 ---
 # <a name="design-details-revaluation"></a>Designdetails: Neubewertung
 Sie können den Lagerbestand basierend auf der Bewertungsbasis, die den Lagerwert am genauesten wiedergibt, neu bewerten. Sie können eine Neubewertung auch zurückdatieren, damit der Wareneinsatz (COGS) ordnungsgemäß für Artikel aktualisiert wird, die bereits verkauft wurden. Artikel mit der Lagerabgangsmethode "Standard", die noch nicht vollständig fakturiert wurden, können ebenfalls neu bewertet werden.  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wird die folgende Flexibilität für die Neubewertung unterstützt:  
+In [!INCLUDE[prod_short](includes/prod_short.md)] wird die folgende Flexibilität für die Neubewertung unterstützt:  
 
 -   Die neu bewertbare Menge kann für jedes Datum berechnet werden, auch zeitlich rückwärts.  
 -   Für Artikel mit der Kostenberechnungsmethode Standard sind Soll-Kosten-Posten in der Neubewertung enthalten.  
@@ -41,7 +41,7 @@ Im folgenden Beispiel wird gezeigt, wann ein WIP-Artikel Teil des Bestands wird.
 
 ![“RIF-Lagerbestand und Neubewertung](media/design_details_inventory_costing_10_revaluation_wip.png "“RIF-Lagerbestand und Neubewertung")  
 
-**1Q** : Der Benutzer bucht die eingekauften Links als erhalten. Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
+**1Q**: Der Benutzer bucht die eingekauften Links als erhalten. Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
 
 |Buchungsdatum|Artikel|Postentyp|Menge|Eingabenr.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -50,13 +50,13 @@ Im folgenden Beispiel wird gezeigt, wann ein WIP-Artikel Teil des Bestands wird.
 > [!NOTE]  
 >  Jetzt ist ein Artikel mit der Lagerabgangsmethode "Standard" für eine Neubewertung verfügbar.  
 
-**1V** : Der Benutzer bucht die eingekauften Links als fakturiert und die Links werden aus finanzieller Sicht Teil des Lagerbestands. Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
+**1V**: Der Benutzer bucht die eingekauften Links als fakturiert und die Links werden aus finanzieller Sicht Teil des Lagerbestands. Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
 
 |Buchungsdatum|Postentyp|Bewertungsdatum|Einstandsbetrag (tatsächl.)|Artikelposten Lfd. Nr.|Lfd. Nr.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|EK-Preis|01-01-20|150.00|1|1|  
 
- **2Q + 2V** : Der Benutzer bucht die eingekauften Links als verbraucht für die Produktion der Eisenkette. Aus finanziellen Gesichtspunkten werden die Links Teil des WIP-Bestands.  Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
+ **2Q + 2V**: Der Benutzer bucht die eingekauften Links als verbraucht für die Produktion der Eisenkette. Aus finanziellen Gesichtspunkten werden die Links Teil des WIP-Bestands.  Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
 
 |Buchungsdatum|Artikel|Postentyp|Menge|Lfd. Nr.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -70,13 +70,13 @@ Die folgende Tabelle zeigt den sich daraus ergebenden Wertposten.
 
 Das Bewertungsdatum wird auf das Datum der Verbrauchsbuchung (02-01-20) als regelmäßiger Lagerabgang festgelegt.  
 
-**3Q** : Der Benutzer bucht die Kette als fertig gestellt und schließt den Fertigungsauftrag ab. Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
+**3Q**: Der Benutzer bucht die Kette als fertig gestellt und schließt den Fertigungsauftrag ab. Die folgende Tabelle zeigt den sich daraus ergebenden Artikelposten.  
 
 |Buchungsdatum|Artikel|Postentyp|Menge|Postennr.|  
 |------------------|----------|----------------|--------------|---------------|  
 |02-15-20|Kette|Istmeldung|1|3|  
 
-**3V** : Der Benutzer führt die **Kosten anpassen - Artikeleingabe** -Stapelverarbeitung aus, die die Kette als fakturiert bucht, um anzugeben, dass aller Materialverbrauch vollständig fakturiert wurde. Aus finanziellen Gesichtspunkten sind die Links nicht mehr Teil des WIP-Bestands, wenn die Ausgabe vollständig fakturiert und angepasst ist. Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
+**3V**: Der Benutzer führt die **Kosten anpassen - Artikeleingabe**-Stapelverarbeitung aus, die die Kette als fakturiert bucht, um anzugeben, dass aller Materialverbrauch vollständig fakturiert wurde. Aus finanziellen Gesichtspunkten sind die Links nicht mehr Teil des WIP-Bestands, wenn die Ausgabe vollständig fakturiert und angepasst ist. Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
 
 |Buchungsdatum|Postentyp|Bewertungsdatum|Einstandsbetrag (tatsächl.)|Artikelposten Lfd. Nr.|Lfd. Nr.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
@@ -85,16 +85,16 @@ Das Bewertungsdatum wird auf das Datum der Verbrauchsbuchung (02-01-20) als rege
 |02-15-20|EK-Preis|02-15-20|150.00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Soll-Kosten in der Neubewertung  
-Die neubewertete Menge XE "Neubewertete Menge" XE "Menge,Neubewertet" wird als die Summe der Menge XE "Menge" für vollständig fakturierte XE "Rechnungs" Artikelposten XE "Artikelposten" Einträgen mit einem Buchungsdatum gleich oder vor dem XE Neubewertung " Neubewertungs" Datum berechnet. Das bedeutet, dass, wenn mehrere Artikel eingegangen/geliefert, aber noch nicht fakturiert sind, deren Lagerwert nicht als XE "Bestandwert" berechnet werden kann. Artikel mit der Lagerabgangsmethode "Standard" werden nicht in dieser Hinsicht begrenzt. XE "Wert"  
+Die neu bewertbare Menge wird als die Gesamtsumme der Mengen vollständig fakturierter Artikelposten berechnet, die ein Buchungsdatum gleich oder vor dem Neubewertungsbuchungsdatum haben. Das bedeutet, dass, wenn mehrere Artikel eingegangen/geliefert, aber noch nicht fakturiert sind, deren Lagerwert nicht berechnet werden kann. Artikel mit der Lagerabgangsmethode Standard werden nicht in dieser Hinsicht begrenzt.  
 
 > [!NOTE]  
->  Eine weitere Art von erwarteten Kosten, die neubewertet werden können, ist der WIP-Bestand, für den bestimmte Regeln gelten. Weitere Informationen finden Sie im "Abschnitt "Lagerbewertung - Aktiviert" dieses Themas.  
+>  Eine weitere Art von erwarteten Kosten, die neubewertet werden können, ist der WIP-Bestand, für den bestimmte Regeln gelten. Weitere Informationen finden Sie unter [WIP Neubewerten von Lagerbestand](design-details-revaluation.md#wip-inventory-revaluation).  
 
-Wenn Sie die neu bewertbare Menge für Artikel mit der Lagerabgangsmethode "Standard" wird, werden Artikelposten, die noch nicht vollständig fakturiert wurden, in die Berechnung einbezogen. Diese Posten werden dann neu bewertet, wenn Sie die Neubewertung buchen. Wenn Sie den neu bewerteten Posten fakturieren, werden die folgenden Wertposten erzeugt:  
+Wenn Sie die neu bewertbare Menge für Artikel mit der Lagerabgangsmethode Standard wird, werden Artikelposten, die noch nicht vollständig fakturiert wurden, in die Berechnung einbezogen. Diese Posten werden dann neu bewertet, wenn Sie die Neubewertung buchen. Wenn Sie den neu bewerteten Posten fakturieren, werden die folgenden Wertposten erzeugt:  
 
--   Der übliche fakturierte Wertposten mit dem Postentyp **Direkte Kosten** . Der Kostenbetrag für diesen Posten entspricht den direkten Kosten aus der Herkunftszeile.  
--   Ein Wertposten mit dem Postentyp **Abweichung** . Dieser Eintrag erfasst die Differenz zwischen den fakturierten Kosten und dem neu bewerteten Einstandspreis.  
--   Ein Wertposten mit dem Postentyp **Neubewertung** . Dieser Posten erfasst die Stornierung der Neubewertung der Soll-Kosten.  
+-   Der übliche fakturierte Wertposten mit dem Postentyp **Direkte Kosten**. Der Kostenbetrag für diesen Posten entspricht den direkten Kosten aus der Herkunftszeile.  
+-   Ein Wertposten mit dem Postentyp **Abweichung**. Dieser Eintrag erfasst die Differenz zwischen den fakturierten Kosten und dem neu bewerteten Einstandspreis.  
+-   Ein Wertposten mit dem Postentyp **Neubewertung**. Dieser Posten erfasst die Stornierung der Neubewertung der Soll-Kosten.  
 
 ### <a name="example"></a>Beispiel  
 Im folgenden Beispiel, das auf der Produktion der Kette im vorherigen Beispiel basiert, stellt dar, wie die drei Arten von Posten erstellt werden. Die basiert auf dem folgenden Szenario:  
@@ -103,7 +103,7 @@ Im folgenden Beispiel, das auf der Produktion der Kette im vorherigen Beispiel b
 2.  Der Benutzer bucht dann eine Neubewertung der Links durch einen neuen Einstandspreis von MW 3,00 und aktualisiert den Einstandspreis (fest) auf MW 3,00.  
 3.  Der Benutzer bucht den ursprünglichen Einkauf der Glieder als fakturiert, wodurch Folgendes erzeugt wird:  
 
-    1.  Ein fakturierter Wertposten mit dem Postentyp **Direkte Kosten** .  
+    1.  Ein fakturierter Wertposten mit dem Postentyp **Direkte Kosten**.  
     2.  Ein Wertposten mit dem Postentyp **Neubewertung** zur Erfassung der Umkehrung der Neubewertung der erwarteten Kosten.  
     3.  Ein Wertposten mit dem Postentyp Abweichung, der die Differenz zwischen den fakturierten Kosten und den neu bewerteten Standardkosten aufzeichnet.  
 Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
@@ -116,7 +116,7 @@ Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.
 |3.b.|01-15-20|Neubewertung|01-20-20|-150.00|0.00|1|4|  
 |3.c.|01-15-20|Abweichung|01-15-20|0.00|450.00|1|5|  
 
-## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Bestimmen, ob eine Bestandsreduzierung von der Neubewertung betroffen ist  
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Bestimmen Sie, ob eine Bestandsreduzierung von der Neubewertung betroffen ist  
 Das Datum der Buchung oder der Neubewertung wird verwendet, um zu ermitteln, ob eine Bestandsminderung von einer Neubewertung beeinflusst wird.  
 
 Die folgende Tabelle zeigt die Kriterien an, die für einen Artikel verwendet werden, der nicht das Durchschnittskostenbewertungsverfahren verwendet.  
@@ -163,13 +163,13 @@ Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.
 ## <a name="wip-inventory-revaluation"></a>"Lagerbewertung - Aktiviert"  
 Die Neubewertung des WIP-Bestands impliziert die Neubewertung von Komponenten, die als Teil des WIP-Bestands zum Zeitpunkt der Neubewertung erfasst sind.  
 
-In diesem Sinne ist es wichtig, Konventionen dahingehend zu schaffen, wenn ein Artikel als Teil des Produktionslagers aus finanzieller Sicht betrachtet wird. In [!INCLUDE[d365fin](includes/d365fin_md.md)] bestehen die folgenden Konventionen:  
+In diesem Sinne ist es wichtig, Konventionen dahingehend zu schaffen, wenn ein Artikel als Teil des Produktionslagers aus finanzieller Sicht betrachtet wird. In [!INCLUDE[prod_short](includes/prod_short.md)] bestehen die folgenden Konventionen:  
 
 -   Mit dem Buchen eines fakturierten Einkaufs wird eine eingekaufte Komponente Teil des Rohmaterialbestands.  
--   Eine eingekaufte/als Unterbaugruppe verbaute Komponente wird Teil des WIP-Lagerbestands seit dem Buchen ihres Verbrauchs in Verbindung mit einem Fertigungsauftrag.  
--   Eine eingekaufte/als Unterbaugruppe verbaute Komponente bleibt Teil des WIP-Lagerbestands bis zu dem Zeitpunkt, an dem ein Fertigungsauftrag (Produktionsartikel) fakturiert wird.  
+-   Eine eingekaufte/als Untermontage verbaute Komponente wird Teil des WIP-Lagerbestands seit dem Buchen ihres Verbrauchs in Verbindung mit einem Fertigungsauftrag.  
+-   Eine eingekaufte/als Untermontage verbaute Komponente bleibt Teil des WIP-Lagerbestands bis zu dem Zeitpunkt, an dem ein Fertigungsauftrag (Produktionsartikel) fakturiert wird.  
 
-Die Art, wie das Bewertungsdatum des Wertpostens von Verbrauch festgelegt wird, folgt denselben Regeln wie für Nicht-WIP-Bestand. Weitere Informationen finden Sie im Abschnitt „Feststellen, ob eine Bestandsminderung von der Neubewertung beeinflusst wird“ in diesem Thema.  
+Die Art, wie das Bewertungsdatum des Wertpostens von Verbrauch festgelegt wird, folgt denselben Regeln wie für Nicht-WIP-Bestand. Weitere Informationen finden Sie im Abschnitt [Feststellen, ob eine Bestandsminderung von der Neubewertung beeinflusst wird](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
 Das Produktionslager kann neubewertet werden, solange das Neubewertungsdatum nicht hinter dem Buchungsdatum des entsprechenden Artikelposten des Typs Verbrauch liegt und solange der entsprechende Fertigungsauftrag noch nicht fakturiert wurde.  
 
@@ -181,4 +181,4 @@ Das Produktionslager kann neubewertet werden, solange das Neubewertungsdatum nic
  [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)   
  [Designdetails: Lagerkosten Bewerten](design-details-inventory-valuation.md) [Verwalten der Lagerkosten](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
- [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

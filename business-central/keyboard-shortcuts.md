@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922869"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746116"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
-Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn Sie mit [!INCLUDE[prodshort](includes/prodshort.md)] arbeiten.
+Dieser Artikel gibt einen Überblick über einige der Tastenkombinationen, die Sie nutzen können, wenn Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten.
 
 Einen Überblick über die gängigsten Tastenkombinationen finden Sie unter [Tastaturkombinationen (nur PC)](keyboard-shortcuts-cheatsheet.md).
 
@@ -37,7 +37,7 @@ Die Tastenkombinationseingabehilfe kann es effizienter und einfacher machen, um 
 Die meisten Verknüpfungen sind gleich, unabhängig davon, ob das Betriebssystem Windows oder macOS ist. Einige Verknüpfungen unterscheiden sich jedoch für macOS. Diese Verknüpfungen sind in den folgenden Abschnitten in Klammern angegeben.
 
 > [!NOTE]
-> Zusätzlich zu den in diesem Thema beschriebenen globalen Tastenkombinationen stehen eine Reihe von geschäftsspezifischen Tastenkombinationen zur Verfügung. Zum Beispiel in der generischen Version von [!INCLUDE[prodshort](includes/prodshort.md)], F9 bucht einen Beleg und STRG+F7 zeigt die Finanzbuchungen für einen Datensatz. (Diese können in Ihrer Lösung unterschiedlich sein.) Die Tastenkombination wird in der QuickInfo für die betreffende Aktion angezeigt.
+> Zusätzlich zu den in diesem Thema beschriebenen globalen Tastenkombinationen stehen eine Reihe von geschäftsspezifischen Tastenkombinationen zur Verfügung. Zum Beispiel in der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)], F9 bucht einen Beleg und STRG+F7 zeigt die Finanzbuchungen für einen Datensatz wenn Sie den Datensatz in der Karte öffnen. (Diese können in Ihrer Lösung unterschiedlich sein.) Die Tastenkombination wird in der QuickInfo für die betreffende Aktion angezeigt.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Allgemeine Tastenkombinationen
 
@@ -51,10 +51,10 @@ Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Element
 |Alt+F2|Infoboxbereich anzeigen und ausblenden.|
 |Alt+Shift+F2|Umschalten zwischen **Einzelheiten** und **Anhängen** im FactBox-Bereich.|
 |ALT+O|Fügen Sie eine neue Notiz für den ausgewählten Datensatz hinzu, auch wenn das FactBox-Fenster nicht geöffnet ist.|
-|ALT+Q<br />(Strg + Wahltaste + Q)|Öffnen Sie das Fenster **Wie möchten Sie weiter verfahren** . Weitere Informationen finden Sie unter [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md).|
+|ALT+Q<br />(Strg + Wahltaste + Q)|Öffnen Sie das Fenster **Wie möchten Sie weiter verfahren**. Weitere Informationen finden Sie unter [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md).|
 |ALT+N |Öffnen Sie eine Seite, um einen neuen Datensatz zu erstellen. (Ähnlich wie bei der Auswahl der **Neu** und **+** Aktionen.)|
 |ALT+UMSCHALT+N |Schließen Sie eine neu erstellte Seite und öffnen Sie eine neue, um einen neuen Datensatz zu erstellen. Ebenso bucht Alt+F9 ein Dokument und erstellt ein neues.|
-|ALT+T|Öffnen der Seite **Meine Einstellungen** .|
+|ALT+T|Öffnen der Seite **Meine Einstellungen**.|
 |Alt+Nach-rechts-Taste|Suchen Sie zusätzliche Informationen oder zugrundeliegende Werte für ein Feld, das die Schaltfläche ![AssistEdit](media/assist-edit-icon.png "AssistEdit-Schaltfläche") enthält. Dies wird verwendet, wenn die übliche Dropdown-Schaltfläche (Alt + Abwärtspfeil) im selben Feld für einen anderen Zweck verwendet wird.|
 |Shift+F12|Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).|
 |Ctrl+Alt+Shift+C|Informationen in der Unternehmenskennzeichnung anzeigen.|
@@ -63,13 +63,13 @@ Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Element
 |Ctrl+F1|Öffnen Sie die Business Central-Hilfe für die Seite.|
 |Ctrl+F12|Wechseln Sie zwischen der breiten und schmalen Layout-Ansicht.|
 |Ctrl+Click|Navigieren Sie während der Personalisierung oder Anpassung, wenn die Aktion mit einer Pfeilspitze markiert ist. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).|  
-|Ctrl+F5|[!INCLUDE[prodshort](includes/prodshort.md)] Anwendung neu laden. (Dies ist gleich, wie Browser aktualisieren/neu laden.)|
+|Ctrl+F5|[!INCLUDE[prod_short](includes/prod_short.md)] Anwendung neu laden. (Dies ist gleich, wie Browser aktualisieren/neu laden.)|
 |F5|Aktualisieren Sie die Daten der aktuellen Seite.<br /><br />Verwenden Sie diesen Schlüssel, um sicherzustellen, dass sich die Daten aus der Seite mit sämtlichen Änderungen auf dem neuesten Stand befinden, die andere vorgenommen haben, während Sie arbeiten.|
 |Eingabe|Das Element aktivieren oder darauf zugreifen oder steuern, das im Fokus liegt.|
 |Esc|Schließen Sie die aktuelle Seite oder die Dropdownliste.|
 |Register|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite wie Schaltflächen, Felder oder Artikel in einer Liste.|
 |UMSCHALT+TAB|Verschieben Sie den Fokus auf die folgende oder vorherige Steuerung oder das Element auf einer Seite wie Schaltflächen, Felder oder Artikel in einer Liste.|
-|J und N|Aktivieren Sie **Ja** - und **Nein** -Schaltflächen in Dialogfeldern. Die tatsächlichen Schlüssel variieren je nachdem, welche aktuelle Sprache unter **Meine Einstellungen** festgelegt ist. Drücken Sie beispielsweise „J“, um die Schaltfläche **Ja** zu aktivieren, wenn Sie die deutsche Sprache verwenden.|
+|J und N|Aktivieren Sie **Ja**- und **Nein**-Schaltflächen in Dialogfeldern. Die tatsächlichen Schlüssel variieren je nachdem, welche aktuelle Sprache unter **Meine Einstellungen** festgelegt ist. Drücken Sie beispielsweise „J“, um die Schaltfläche **Ja** zu aktivieren, wenn Sie die deutsche Sprache verwenden.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tastenkombinationen in der Liste
 
@@ -88,7 +88,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listensei
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigieren zwischen Zeilen und Spalten
 
-Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[prodshort](includes/prodshort.md)], wie z.B. Listenseiten und **Zeilen** Teilen auf Dokumenten. Die Bewegung von einer Zelle zur anderen über ein Raster ist vollständig über die Tastatur möglich.
+Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[prod_short](includes/prod_short.md)], wie z.B. Listenseiten und **Zeilen** Teilen auf Dokumenten. Die Bewegung von einer Zelle zur anderen über ein Raster ist vollständig über die Tastatur möglich.
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht zu tun |Um dies in einer Kachelansicht zu tun |
 |--------------------------------|--------------------------|--------------------------|
@@ -130,8 +130,8 @@ Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[pro
 |Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
 |F3|Schaltet das Suchenfeld um.<ul><li>Aktivieren Sie das Suchfeld, sodass Sie die Eingabe des Suchtexts starten.</li><li>Wenn das Suchenfeld bereits aktiviert ist, kehrt F3 zu der Liste zurück, ohne den Suchentext zu löschen.</li><ul>|
-|Shift+F3|Öffnen und schließen Sie den Filterbereich.<ul><li> Wenn der Filterbereich nicht geöffnet ist, kann er mit UMSCHALT+F3 geöffnet werden und konzentriert sich auf die Aktion **+ Filter** unter **Filterliste nach** . Sie können dann einfach die EINGABETASTE drücken, um einen Feldfilter hinzuzufügen.</li><li>Falls der Filterbereich bereits geöffnet ist, kann er mit UMSCHALT+F3 geschlossen werden, es werden jedoch keine Filter gelöscht, die Sie hinzugefügt haben.</li></ul>|
-|Ctrl+Shift+F3|Öffnen und schließen Sie den Filterbereich.<ul><li> Wenn der Filterbereich nicht geöffnet ist, kann er mit STRG+UMSCHALT+F3 geöffnet werden und konzentriert sich auf die Aktion **+ Filter** unter **Summen filtern nach** . Sie können dann einfach die EINGABETASTE drücken, um einen Summenfilter hinzuzufügen.</li><li>Falls der Filterbereich bereits geöffnet ist, kann er mit STRG+UMSCHALT+F3 geschlossen werden, es werden jedoch keine Filter gelöscht, die Sie hinzugefügt haben.</li></ul>  |
+|Shift+F3|Öffnen und schließen Sie den Filterbereich.<ul><li> Wenn der Filterbereich nicht geöffnet ist, kann er mit UMSCHALT+F3 geöffnet werden und konzentriert sich auf die Aktion **+ Filter** unter **Filterliste nach**. Sie können dann einfach die EINGABETASTE drücken, um einen Feldfilter hinzuzufügen.</li><li>Falls der Filterbereich bereits geöffnet ist, kann er mit UMSCHALT+F3 geschlossen werden, es werden jedoch keine Filter gelöscht, die Sie hinzugefügt haben.</li></ul>|
+|Ctrl+Shift+F3|Öffnen und schließen Sie den Filterbereich.<ul><li> Wenn der Filterbereich nicht geöffnet ist, kann er mit STRG+UMSCHALT+F3 geöffnet werden und konzentriert sich auf die Aktion **+ Filter** unter **Summen filtern nach**. Sie können dann einfach die EINGABETASTE drücken, um einen Summenfilter hinzuzufügen.</li><li>Falls der Filterbereich bereits geöffnet ist, kann er mit STRG+UMSCHALT+F3 geschlossen werden, es werden jedoch keine Filter gelöscht, die Sie hinzugefügt haben.</li></ul>  |
 |Alt+F3|Wechseln Sie die Filterung zum ausgewählten Wert.<ul><li>Übernimmt einen Spaltenfilter im ausgewählten Feldwert in der Liste. Dieses ist identisch mit **Filter mit diesem Wert** von einer Spaltenüberschrift. Es wird der Filterbereich geöffnet, Datensätze gefiltert, während der Fokus auf den Zellen in der Liste bleibt.</li><li>Wenn die Spalte bereits nach dem gefiltert wird, löscht ALT+F3 den Filter in der Spalte.</li></ul> |
 |Shift+Alt+F3|Öffnen Sie den Filterbereich und fügen Sie einen Filter für die ausgewählte Spalte in der Liste hinzu. Der Fokus liegt auf dem neuen Filterfeld, mit dem Sie die Filterkriterien sofort eingeben können.<br /><br /> Dieses ist identisch mit, **Filter** aus der Spaltenüberschrift.<br /><br />Wenn es bereits einen Filter in diesem Feld gibt, wird ein neuer Filter hinzugefügt. |
 |Ctrl+Shift+Alt+F3|Filter zurücksetzen. Dieses ist identisch mit, **Rücksetzungsfilter** im Filterbereich ", und es trifft auf Feld und Gesamtfilter zu.<br /><br /> Filter kehren zu den Standardfiltern für die geltende Ansicht zurück. Wenn **Alle** die aktuelle Ansicht, gleicht der Rückkehr zu einer ungefilterten Ansicht mit allen Datensätzen. |
@@ -144,9 +144,9 @@ Folgende Tastenkombinationen sind auf Kartenseiten wie **Debitorenkarte** und Be
 |Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
 |Alt+F6|Schalten Sie das Ein-/Ausklappen für den aktuellen FastTab oder Teil (Unterseite) ein/aus.|
-|Alt+G|Öffnen Sie die Seite **Posten finden** , um Posten zu finden, die sich auf den gebuchten Beleg beziehen. Funktioniert auch mit Listen.|
-|ALT+N |Öffnen Sie eine Seite für das Erstellen eines neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Neu** . |
-|ALT+UMSCHALT+N |Schließen Sie eine Seite und öffnen Sie eine neue Seite, um einen neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Ok und Neu** . |
+|Alt+G|Öffnen Sie die Seite **Posten finden**, um Posten zu finden, die sich auf den gebuchten Beleg beziehen. Funktioniert auch mit Listen.|
+|ALT+N |Öffnen Sie eine Seite für das Erstellen eines neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Neu**. |
+|ALT+UMSCHALT+N |Schließen Sie eine Seite und öffnen Sie eine neue Seite, um einen neuen Datensatzes auf die gleiche Weise wie das Auswählen der Aktion **Ok und Neu**. |
 |ALT+UMSCHALT+W |Öffnen Sie die aktuelle Karte oder das Dokument in einem neuen Fenster. Weitere Informationen finden Sie unter [Multitasking über mehrere Seiten](ui-enter-data.md#multitasking-across-multiple-pages).|
 |Ctrl+Enter|Speichern und schließen Sie die Seite.|
 |STRG+NACH-UNTEN-TASTE|Öffnen Sie den nächsten Datensatz für eine Einheit.|
@@ -173,7 +173,7 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 
 |Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
 |--------------------------------|----------|
-|Strg+Pos1|Öffnen Sie den gewünschten Kalender, wenn geschlossen. **Hinweis** : Dies funktioniert nicht, wenn sich das Datumsfeld in einem Raster befindet, in dem Strg + Pos1 auf die erste Zeile springt.|
+|Strg+Pos1|Öffnen Sie den gewünschten Kalender, wenn geschlossen. **Hinweis**: Dies funktioniert nicht, wenn sich das Datumsfeld in einem Raster befindet, in dem Strg + Pos1 auf die erste Zeile springt.|
 |Strg+Pos1<br />(Cmd+Home)|Navigieren zum laufenden Monat, laufender Tag.|
 |STRG+NACH-LINKS-TASTE<br />(ALT+NACH-LINKS-TASTE)|Navigieren zum vorherigen Tag.|
 |STRG+NACH-RECHTS-TASTE<br />(NACH-RECHTS-TASTE)|Navigieren zum nächsten Tag.|
@@ -206,11 +206,19 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |Seite nach unten<br />(NACH-UNTEN-TASTE)|Zur nächsten Seite des Berichts wechseln.|
 |Seite nach oben<br />(NACH-OBEN-TASTE)|Zur vorherigen Seite des Berichts wechseln.|
 
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Tastaturkürzel zum Vergrößern und Verkleinern
+
+|Drücken Sie diese Tasten|Vorgehensweise|
+|--------------------------------|----------|
+|Ctrl++|Vergrößern Sie die aktuelle Seite.|  
+|Ctrl+-|Verkleinern Sie die aktuelle Seite.|  
+|Ctrl+0|Vergrößern Sie die aktuelle Seite auf 100 %.|  
+
 ## <a name="see-also"></a>Siehe auch
 
 [Nur PC-Tastenkombinationskurzübersicht](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Funktionen](ui-accessibility.md)  
 [Erste Schritte](product-get-started.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.md)  
 [Posten finden](ui-find-entries.md)  

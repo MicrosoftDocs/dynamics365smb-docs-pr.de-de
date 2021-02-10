@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b5bbf87d8241d57c40c028a06d7af6269c5af6d6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84c10ffa100607c2f2dfca361de83361f8441928
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910605"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748918"
 ---
 # <a name="record-usage-for-jobs"></a>Verbrauch bei Projekten aufzeichnen
 
@@ -26,7 +26,7 @@ Zum Beispiel können Sie für Planungszeilen der Art **Plan** die Menge einer Re
 Die folgenden Verfahren beschreiben, wie die tatsächlichen (verrechenbaren) oder geplanten Projektverkaufspreise und Kosten gespeichert werden. Informationen zur Einschätzung der geplante Werte bei der Planung, siehe [Verwalten von Projektbudgets](projects-how-manage-budgets.md)  
 
 > [!TIP]
-> In den folgenden Abschnitten verwenden wir den Begriff *Verwendung aufzeichnen* , um zwei Aufgaben abzudecken: Projektplanzeilen erfassen und dem Debitoren entsprechend in Rechnung stellen.
+> In den folgenden Abschnitten verwenden wir den Begriff *Verwendung aufzeichnen*, um zwei Aufgaben abzudecken: Projektplanzeilen erfassen und dem Debitoren entsprechend in Rechnung stellen.
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Den Verbrauch in einer Projektplanungszeile der Art "Plan"erfassen
 
@@ -40,28 +40,28 @@ Die folgenden Verfahren beschreiben, wie die tatsächlichen (verrechenbaren) ode
 
     > [!TIP]
     > Wenn Sie weitere Projektplanzeilen für dieses Projekt hinzufügen möchten, warten Sie mit diesem Schritt, bis Sie alle Projektplanzeilen hinzugefügt haben.
-6. Auf der Seite **Projekt auf Projektplanung übertragen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Auf der Seite **Projekt auf Projektplanung übertragen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Wählen Sie die Aktion **Buch.-Blatt öffnen** aus.  
 8. Auf der Seite **Projekt Buch,-Blatt** wählen Sie die entsprechende Zeile und wählen die Aktion **Buchen** aus.
-9. Auf der Seite **Projektplanungszeilen** überprüfen Sie den erfassten Verbrauch, indem Sie die Felder **Menge** , **Restmenge** und **Auf Buch.-Blatt zu übertragende Menge** kontrollieren.  
+9. Auf der Seite **Projektplanungszeilen** überprüfen Sie den erfassten Verbrauch, indem Sie die Felder **Menge**, **Restmenge** und **Auf Buch.-Blatt zu übertragende Menge** kontrollieren.  
 10. Um zusätzlichen Verbrauch zu erfassen, wiederholen Sie die Schritte 3 bis 8.  
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Den Verbrauch in einer Projektplanungszeile der Art "Fakturierbar" erfassen
 
-In der nächsten Aufgabe erfassen Sie ebenfalls den Verbrauch, jedoch für eine Projektplanungszeile der Art **Fakturierbar** . In diesem Fall fakturieren Sie normalerweise Ihren Verbrauch, Sie können ihn aber auch in ein Buchungsblatt übertragen. Wenn Sie dies tun, wird eine Projektplanungszeile der Art **Plan** erstellt, die der Zeile "Fakturierbar" entspricht. Weitere Informationen finden Sie unter [Budgets verwalten](projects-how-manage-budgets.md).
+In der nächsten Aufgabe erfassen Sie ebenfalls den Verbrauch, jedoch für eine Projektplanungszeile der Art **Fakturierbar**. In diesem Fall fakturieren Sie normalerweise Ihren Verbrauch, Sie können ihn aber auch in ein Buchungsblatt übertragen. Wenn Sie dies tun, wird eine Projektplanungszeile der Art **Plan** erstellt, die der Zeile "Fakturierbar" entspricht. Weitere Informationen finden Sie unter [Budgets verwalten](projects-how-manage-budgets.md).
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.
-2. Markieren Sie den entsprechenden Job und wählen Sie dann die Aktion **Job-Einplanungszeilen** .  
+2. Markieren Sie den entsprechenden Job und wählen Sie dann die Aktion **Job-Einplanungszeilen**.  
 3. Wählen Sie eine Projektplanungszeile der Art **Fakturierbar** aus, für die Sie den Verbrauch aufzeichnen möchten.
 4. Geben Sie im Feld **In das Journal zu übertragende Rechnung** die Anzahl ein, die Sie transferieren wollen. Der Standardwert ist der Wert, den Sie im Feld **Menge** angegeben haben.
 
     Das Feld **Zu fakturierende Menge** zeigt die Menge an, die verbleibt, um das Projekt abzuschließen und zu fakturieren.  
-5. Wählen Sie die Aktion **Verkaufsrechnung erstellen** .
+5. Wählen Sie die Aktion **Verkaufsrechnung erstellen**.
 
     > [!TIP]
     > Wenn Sie weitere Projektplanzeilen für dieses Projekt hinzufügen möchten, warten Sie mit diesem Schritt, bis Sie alle Projektplanzeilen hinzugefügt haben.
-6. Auf der Seite **Projekt auf Verkaufsrechnung übertragen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK** .
-7. Überprüfen Sie den erfassten Verbrauch, indem Sie die Felder **Menge** , **Zu fakturierende Menge** , **Menge auf Rechnung übertragen** und wenn die Verkaufsrechnungen gebucht werden **Fakturierte Menge** kontrollieren.
+6. Auf der Seite **Projekt auf Verkaufsrechnung übertragen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
+7. Überprüfen Sie den erfassten Verbrauch, indem Sie die Felder **Menge**, **Zu fakturierende Menge**, **Menge auf Rechnung übertragen** und wenn die Verkaufsrechnungen gebucht werden **Fakturierte Menge** kontrollieren.
 8. Um zusätzlichen Verbrauch zu erfassen, wiederholen Sie die Schritte 3 bis 7.  
 9. Um eine zugehörige gebuchte Verkaufsrechnung zu überprüfen, wählen Sie die Aktion **Verkaufsrechnungen/Gutschriften** aus.  
 
@@ -103,4 +103,4 @@ Nachdem Sie die Projekt-Planungszeilen gebucht haben, können Sie die gebuchten 
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)         
 [Verkauf](sales-manage-sales.md)      
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

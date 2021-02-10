@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5782a49732550d6f8ffc516634a4b45ec7e22e6d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5fe1054825058c30e0a26e11e258804e7256bfcb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923570"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749830"
 ---
 # <a name="managing-segments"></a>Verwalten von Segmenten
 Sie können Segmente erstellen, um anhand bestimmter Kriterien eine Gruppe von Kontakten auszuwählen. Beispiele für ein Segment sind die Branche, der die Kontakte angehören, oder die Geschäftsbeziehung, die mit den Kontakten besteht. Ein Segment kann erstellt werden, um die gewünschten Kontakte für die Zielgruppe einer Kampagne auszuwählen.
@@ -38,4 +38,4 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 ## <a name="see-also"></a>Siehe auch
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Kontakte verwalten](marketing-contacts.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

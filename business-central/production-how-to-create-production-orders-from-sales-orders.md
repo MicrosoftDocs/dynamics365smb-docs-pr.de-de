@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac927f9ef676cbfa433265346f69c92552802fce
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aafd30be751440c9afd124f07ada43d57b799555
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919238"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748968"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Fertigungsaufträge aus Verkaufsaufträgen zu erstellen:
 In diesem Fenster können Sie direkt zum aktuellen Verkaufsauftrag einen Fertigungsauftrag erstellen.  
@@ -27,7 +27,7 @@ In diesem Fenster können Sie direkt zum aktuellen Verkaufsauftrag einen Fertigu
 3.  Wählen Sie die Aktion **Planung** aus. Auf der Seite **Verkaufsauftragsplanung** können Sie die Verfügbarkeit des Verkaufsauftragsartikels anzeigen.  
 4.  Wählen Sie die Aktion **Produktionsauftrag erstellen** aus.  
 5.  Wählen Sie den Status und die Auftragsart aus.  
-6.  Wählen Sie die Schaltfläche **Ja** , um den Fertigungsauftrag zu erstellen.
+6.  Wählen Sie die Schaltfläche **Ja**, um den Fertigungsauftrag zu erstellen.
 
 Sie können auch auswählen, einen Projektfertigungsauftrag zu erstellen. Weitere Informationen finden Sie unter [Verwalten von Projekt-Aufträgen](production-how-to-plan-project-orders.md).   
 
@@ -38,4 +38,4 @@ Sie können auch auswählen, einen Projektfertigungsauftrag zu erstellen. Weiter
 [Einkauf](purchasing-manage-purchasing.md)  
 [Designdetails: Beschaffungsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

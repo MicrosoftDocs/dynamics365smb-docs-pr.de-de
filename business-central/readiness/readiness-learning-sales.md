@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4a12f7a79840790a98c2a3a19a845fdd1bb91c2
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926647"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367959"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Lernkatalog für Partnerverkauf und Marketing
 
@@ -39,11 +39,10 @@ Der folgende Katalog ist vom Kernwissen bis zu spezifischen Bereichen organisier
 
 | Inhalt   | Beschreibung        | Format                                | Länge                |
 |-----------|--------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central - Überzeugende Bewerbergespräche (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (nur für Partner) Errol Schoenfish, Director of Product Marketing, spricht darüber, wie man überzeugende Gespräche mit potenziellen Kunden auf Microsoft Dynamics 365 Business Central führt.   | Video    | 11 Minuten 15 Sekunden |
-| [Kundengeschichten suchen](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Finden Sie Kundenreferenzen für Dynamics 365 Business Central unter [https://customer.microsoft.com](https://customer.microsoft.com).  | Website |                       |
+| [Dynamics 365 Business Central - Überzeugende Bewerbergespräche (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (nur für Partner) Errol Schoenfish, damals Director of Product Marketing, spricht darüber, wie man überzeugende Gespräche mit potenziellen Kunden auf Microsoft Dynamics 365 Business Central führt.   | Video    | 11 Minuten 15 Sekunden |
 | [Programm für Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider)    | (nur für Partner) Über das Cloud Solution Provider-Programm     | Website |                       |
 | [Marketing in einer Cloudwelt](https://mbspartner.microsoft.com/OSS/Topic/19) | (Nur für Partner) Die Frage, wie Sie Ihre Marketingpraktiken optimieren und Ihre Marketingprinzipien für eine Cloud-First-Welt neu ausrichten können, wird ein Hauptfaktor bei der Bestimmung des Erfolgs oder Misserfolgs Ihres Unternehmens sein. Diese Reihe von Videos und Ressourcen bietet Best Practices für das Marketing, Anleitungen zur Erstellung von Inhalten, pragmatische Tipps und nützliche Tools für die Anwendung von Cloud-Marketing-Prinzipien, um die Nachfrage nach Ihren Lösungen zu steigern. | Themenseite | 35 Minuten |
-| [Cloud Solution Provider Programm - Verkauf von In-Demand-Cloud-Lösungen](https://docs.microsoft.com/partner-center/csp-overview)  | Das Cloud Solution Provider Program (CSP) hilft Ihnen, über den Wiederverkauf von Lizenzen hinaus mehr in das Geschäft Ihrer Kunden einzubinden.   | Website      |                       |
+| [Cloud Solution Provider Programm - Verkauf von In-Demand-Cloud-Lösungen](https://docs.microsoft.com/partner-center/csp-overview)  | Das Cloud Solution Provider Program (CSP) hilft Ihnen, über den Wiederverkauf von Lizenzen hinaus mehr in das Geschäft von Ihren Kunden einzubinden.   | Website      |                       |
 | [Cloud Solution Provider Programm - vergleichen Sie die Partner-Support-Programme](https://partner.microsoft.com/support/partnersupport) | Sehen Sie sich dieses Video an, um zu sehen, wie Sie den richtigen Partner-Supportplan für Ihr Unternehmen auswählen können. Dann sehen Sie unten einen Vergleich nebeneinander.    | Website                               |                       |
-| [Cloud SureStep Beschleunigtes Verkaufen](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Nur für Partner) Der Cloud SureStep Beschleunigtes Verkaufen Prozess basiert auf den Bedürfnissen des modernen Käufers und ist bestrebt, bereits in einem frühen Stadium des Verkaufsprozesses einen emotionalen, erlebnisorientierten strategischen Kipppunkt auszulösen. Diese Serie von Videos und Ressourcen erklärt einen präskriptiven Verkaufsprozess, der speziell darauf ausgerichtet ist, dem traditionellen ressourcenintensiven, „demo-orientierten“ Lösungsansatz zu begegnen, der typischerweise zu sehr individuellen Produktdemonstrationen, komplexen Verkaufszyklen und langen Implementierungsprojekten führt. Die Ressourcenbibliothek enthält eine Reihe von anpassbaren Vorlagen, mit denen Sie Ihren eigenen Satz von Verkaufsressourcen erstellen können, um einen beschleunigten Verkauf zu unterstützen. | Website     |                       |
-| [Ergänzung zum Transition Partner Playbook (Juli 2019)](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Diese Ergänzung zum Transition Partner Playbook bietet Partnern einige aktualisierte und neue Anleitungen, um ihren bestehenden Kundenstamm vor der Konkurrenz und Neueinsteigern in den SaaS-Markt zu schützen.  | PowerPoint-Diashow | 15 Folien |
+| [Cloud SureStep Beschleunigtes Verkaufen](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Nur für Partner) Der Cloud SureStep Beschleunigtes Verkaufen Prozess basiert auf den Bedürfnissen des modernen Käufers und ist bestrebt, bereits in einem frühen Stadium des Verkaufsprozesses einen emotionalen, erlebnisorientierten strategischen Kipppunkt auszulösen. Diese Serie von Videos und Ressourcen erklärt einen präskriptiven Verkaufsprozess, der speziell darauf ausgerichtet ist, dem traditionellen ressourcenintensiven, demo-orientierten Lösungsansatz zu begegnen, der typischerweise zu sehr individuellen Produktdemonstrationen, komplexen Verkaufszyklen und langen Implementierungsprojekten führt. Die Ressourcenbibliothek enthält eine Reihe von anpassbaren Vorlagen, mit denen Sie Ihren eigenen Satz von Verkaufsressourcen erstellen können, um einen beschleunigten Verkauf zu unterstützen. | Website     |                       |
+| [Ergänzung zum Transition Partner Playbook (Juli 2019)](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Diese Ergänzung zum Transition Partner Playbook bietet Partnern einige aktualisierte und neue Anleitungen, um ihren bestehenden Kundenstamm vor der Konkurrenz und Neueinsteigern in den SaaS-Markt zu schützen.  | PowerPoint-Diashow | 15 Folien |

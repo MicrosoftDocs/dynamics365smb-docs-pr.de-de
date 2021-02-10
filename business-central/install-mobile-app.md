@@ -1,5 +1,5 @@
 ---
-title: Business Central auf mobilen Geräten nutzen| Microsoft Docs
+title: Abrufen von Business Central auf meinem mobilen Gerät
 description: Sie können Business Central auf Ihrem Telefon oder Tablet einsehen und bearbeiten.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,31 +8,61 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2020
+ms.date: 10/15/2020
 ms.author: edupont
-ms.openlocfilehash: a19c11e98c9b263c601e0e8f34fb24036126350f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4ed1d9d7eb4c9628bad6ff80f296cff24833fa93
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910680"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746441"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Abrufen von Business Central auf meinem mobilen Gerät
-Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[d365fin](includes/d365fin_md.md)] zu. Sie können durch Ihre Geschäftsdaten navigieren, Funktionen verwenden, wie z. B. an Excel oder Microsoft 365 zu senden, aktuelle Diagramme und KPIs anzeigen, Verkaufsangebote und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
+
+Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[prod_short](includes/prod_short.md)] zu. Sie können durch Ihre Unternehmensdaten navigieren, Funktionen verwenden, sowie an Excel oder Office 365 versenden, aktuelle Diagramme und KPIs anzeigen, Verkaufsangebote und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
-## <a name="to-get-the-app-on-my-mobile-device"></a>So wird die App auf mein mobiles Gerät heruntergeladen.
-1. Installieren Sie die [!INCLUDE[d365fin](includes/d365fin_md.md)]-App auf Ihrem mobilen Gerät, indem Sie die App aus dem Windows Store, App Store oder aus Google Play herunterladen.  
-[![Windows Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
-[![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
-2. Starten Sie die App von Ihrem mobilen Gerät.
-3. Geben Sie Ihren Namen und Ihr Passwort ein, das Sie während der Anmeldung für [!INCLUDE[d365fin](includes/d365fin_md.md)] erstellt haben und folgen Sie den Anweisungen auf dem Bildschirm.
+## <a name="get-the-app-on-my-mobile-device"></a>So wird die App auf mein mobiles Gerät heruntergeladen
 
-Sie sollten nun Zugriff auf [!INCLUDE[d365fin](includes/d365fin_md.md)] haben und in der Lage sein, Daten anzuzeigen und zu bearbeiten.
+1. Installieren Sie die [!INCLUDE[prod_short](includes/prod_short.md)]-App auf Ihrem mobilen Gerät, indem Sie die App aus dem Windows Store, App Store oder aus Google Play herunterladen.  
+
+   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (Nur PC)
+   - [Appstore](https://go.microsoft.com/fwlink/?LinkId=734847)
+   - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
+2. Starten Sie die App von Ihrem mobilen Gerät.
+3. Geben Sie Ihren Namen und Ihr Passwort ein, das Sie während der Anmeldung für [!INCLUDE[prod_short](includes/prod_short.md)] erstellt haben und folgen Sie den Anweisungen auf dem Bildschirm.
+
+    Wenn Ihr [!INCLUDE [prod_short](includes/prod_short.md)] mehr als eine Produktionsumgebung hat, werden Sie aufgefordert, die Umgebung auszuwählen, auf die Sie zugreifen möchten (erfordert Business Central 2020 Release Wave 2 und höher).
+
+Sie sollten nun Zugriff auf [!INCLUDE[prod_short](includes/prod_short.md)] haben und können Daten anzuzeigen und zu bearbeiten.  
+
+> [!TIP]
+> Wenn Sie die App mit einer Sandkastenumgebung verbinden möchten, wählen Sie die Schaltfläche **Erweiterte Optionen** und wählen Sie dann die Anmeldeoptionen **Cloud Sandbox**. Wenn Sie dann mehr als eine Sandkastenumgebung haben, wählen Sie die entsprechende Umgebung aus.
+
+## <a name="using-business-central-on-premises"></a>Lokales Business Central lokal nutzen?
+
+Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, können Sie auch die Vorteile der mobilen App nutzen. Die Installation ist ähnlich, aber mit einigen Ausnahmen.
+
+1. Installieren Sie die [!INCLUDE[prod_short](includes/prod_short.md)]-App auf Ihrem mobilen Gerät, indem Sie die App aus dem Windows Store, App Store oder aus Google Play herunterladen.  
+
+   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (Nur PC)
+   - [Appstore](https://go.microsoft.com/fwlink/?LinkId=734847)
+   - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
+2. Starten Sie die App von Ihrem mobilen Gerät.
+3. Anstatt eine E-Mail-Adresse auf der **Herzlich willkommen** Seite einzugeben, wählen Sie die Schaltfläche **Erweiterte Optionen** und wählen Sie dann die Anmeldeoption **lokal**.
+4. Auf der nächsten Seite im Kästchen **Servicename** geben Sie im Feld die Webadresse ein, die Sie zum Öffnen verwenden in [!INCLUDE[prod_short](includes/prod_short.md)] wie *https://mybusinesscentral:443/BC170*. Wenn Sie sich nicht sicher sind, fragen Sie Ihren Administrator.
+5. Geben Sie als Nächstes Ihren Benutzernamen und Ihr Kennwort für den Zugriff auf Business Central ein.
+
+   Nach Abschluss wird die Business Central App geöffnet.
+
+> [!NOTE]
+> Wenn Sie Probleme haben, die App ordnungsgemäß zu starten, wenden Sie sich an Ihren Administrator. Dies kann eine fehlende Voraussetzung oder eine unvollständige Konfiguration sein. Weitere Informationen finden Sie unter [Vorbereiten der Umgebung für die mobile App](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) oder [Fehlerbehebung bei der Business Central Mobile App vor Ort](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
+
+[Mobile Apps FAQ](ui-mobile-faq.md)  
 [Erste Schritte](product-get-started.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

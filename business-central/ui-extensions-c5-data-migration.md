@@ -10,19 +10,19 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fb71224df8730c68fb5c56c255353a05a7846eed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0f257b81f1e36e86e40e67ca8ba07169ec22d938
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912353"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747593"
 ---
 # <a name="the-c5-data-migration-extension"></a>Die C5-Datenmigrations-Erweiterung
 
-Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu [!INCLUDE[d365fin](includes/d365fin_md.md)] zu migrieren. Sie können historische Posten für Sachkonten auch migrieren.
+Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu [!INCLUDE[prod_short](includes/prod_short.md)] zu migrieren. Sie können historische Posten für Sachkonten auch migrieren.
 
 > [!Note]
-> Der Mandant darf in [!INCLUDE[d365fin](includes/d365fin_md.md)] keine Daten in enthalten. Nachdem Sie mit der Migration begonnen haben, erstellen Sie keine Debitoren, Kreditoren, Artikel oder Konten, bis die Migration beendet wurde.
+> Der Mandant darf in [!INCLUDE[prod_short](includes/prod_short.md)] keine Daten in enthalten. Nachdem Sie mit der Migration begonnen haben, erstellen Sie keine Debitoren, Kreditoren, Artikel oder Konten, bis die Migration beendet wurde.
 
 ## <a name="what-data-is-migrated"></a>Welche Daten migriert?
 Die folgenden Daten werden für jede Einheit migriert:
@@ -33,7 +33,7 @@ Die folgenden Daten werden für jede Einheit migriert:
 * Ort
 * Land
 * Debitoren-Dimensionen (Abteilung, Kostenträger, Kostenstelle)
-* Lieferbedingungsmethode
+* Lieferbedingung
 * Verkäufer
 * Zahlungsbedingungen
 * Zahlungsform
@@ -53,7 +53,7 @@ Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 * Land
 * Debitoren-Dimensionen (Abteilung, Kostenträger, Kostenstelle)
 * Rechnungsrabatt
-* Lieferbedingungsmethode
+* Lieferbedingung
 * Einkäufer
 * Zahlungsbedingungen
 * Zahlungsform
@@ -100,19 +100,19 @@ Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 
 ## <a name="file-size-requirements"></a>Dateigrößen-Anforderungen
 
-Die maximale Dateigröße, die Sie zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hochladen können, ist 150 MB. Wenn die Datei, die Sie aus C5 exportieren, größer ist, erwägen Sie, Daten in mehreren Dateien zu migrieren. Beispielsweise exportieren Sie ein oder zwei Arten von Entitäten aus C5, beispielsweise Debitoren und Kreditoren, in eine Datei, und exportieren Sie dann Elemente in eine andere Datei usw. Sie können Dateien einzelnen in [!INCLUDE[d365fin](includes/d365fin_md.md)] importieren.
+Die maximale Dateigröße, die Sie zu [!INCLUDE[prod_short](includes/prod_short.md)] hochladen können, ist 150 MB. Wenn die Datei, die Sie aus C5 exportieren, größer ist, erwägen Sie, Daten in mehreren Dateien zu migrieren. Beispielsweise exportieren Sie ein oder zwei Arten von Entitäten aus C5, beispielsweise Debitoren und Kreditoren, in eine Datei, und exportieren Sie dann Elemente in eine andere Datei usw. Sie können Dateien einzelnen in [!INCLUDE[prod_short](includes/prod_short.md)] importieren.
 
 ## <a name="to-migrate-data"></a>Um Daten zu migrieren
 
-Es gibt nur einige wenige Schritte, um die Daten aus C5 zu exportieren und sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu importieren:  
+Es gibt nur einige wenige Schritte, um die Daten aus C5 zu exportieren und sie in [!INCLUDE[prod_short](includes/prod_short.md)] zu importieren:  
 
-1. In C5 verwenden Sie die Funktion **Datenbank exportieren** , um die Daten zu exportieren. Senden Sie dann den Exportordner an einen komprimierten (gezippten) Ordner.  
-2. Wählen Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] die Option ![Glühbirne, die das Tell Me-Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Datenmigration** ein und wählen Sie dann **Datenmigration** .  
+1. In C5 verwenden Sie die Funktion **Datenbank exportieren**, um die Daten zu exportieren. Senden Sie dann den Exportordner an einen komprimierten (gezippten) Ordner.  
+2. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die Option ![Glühbirne, die das Tell Me-Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Datenmigration** ein und wählen Sie dann **Datenmigration**.  
 3. Schliessen Sie die Schritte im unterstützten Setup ab. Stellen Sie sicher, dass Sie **Importieren aus Microsoft Dynamcis C5 2012** als die Datenquelle auswählen.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Zeigt den Status der Datenmigration an
 
-Verwenden Sie die Seite **Datenmigrations-Übersicht** , um den Erfolg der Migration zu überwachen. Die Seite zeigt Informationen wie die Anzahl von Einheiten, die migriert wurde, den Status der Migration und die Anzahl von Artikeln an, die migriert wurden und ob sie erfolgreich war. Sie zeigt auch die Anzahl von Fehlern, Sie können überprüfen, was schief ging und macht es wenn möglich einfach, zur Einheit zu gehen und das Problem zu lösen. Weitere Informationen finden Sie im nächsten Abschnitt dieses Themas.  
+Verwenden Sie die Seite **Datenmigrations-Übersicht**, um den Erfolg der Migration zu überwachen. Die Seite zeigt Informationen wie die Anzahl von Einheiten, die migriert wurde, den Status der Migration und die Anzahl von Artikeln an, die migriert wurden und ob sie erfolgreich war. Sie zeigt auch die Anzahl von Fehlern, Sie können überprüfen, was schief ging und macht es wenn möglich einfach, zur Einheit zu gehen und das Problem zu lösen. Weitere Informationen finden Sie im nächsten Abschnitt dieses Themas.  
 
 > [!Note]
 > Während Sie auf die Ergebnisse der Migration warten, müssen Sie die Seite aktualisieren, um die Ergebnisse anzuzeigen.
@@ -130,7 +130,7 @@ Um Doppelbuchungen in der Finanzbuchhaltung zu vermeiden, werden folgende Gegenk
 Falls etwas schief geht und ein Fehler auftritt, wird das **Status** Feld **Abgeschlossen mit Fehlern** angezeigt und das Feld **Fehlerzahl** zeigt an, wie viele es sind. Um eine Liste der Fehler anzuzeigen, können Sie die Seite öffnen indem Sie **Datenmigrations-Fehler** auswählen:  
 
 * Die Nummer im Feld **Fehlerzahl** für die Einheit.  
-* Die Einheit und dann die Aktion **Fehler anzeigen** .  
+* Die Einheit und dann die Aktion **Fehler anzeigen**.  
 
 Um auf der Seite **Datenmigrations-Fehler** einen Fehler zu korrigieren, können Sie eine Fehlermeldung auswählen, und dann **Datensatz bearbeiten** auswählen, um die Daten für die migrierte Einheit anzuzeigen. Wenn Sie mehrere Fehler beheben müssen, können Sie **Stapelfehlerkorrektur** auswählen, um auf die Einheiten in einer Liste zu bearbeiten. Sie müssen immer noch einzelne Datensätze öffnen, wenn der Fehler durch einen entsprechenden Posten verursacht wurde. Beispielsweise wird ein Kreditor nicht migriert, wenn die E-Mail-Adresse einer Kontaktperson ein ungültiges Format hat.
 
@@ -144,7 +144,7 @@ Nachdem Sie eines oder mehrere Fehler korrigiert haben, können Sie **Migrieren 
 
 ## <a name="verifying-data-after-migrating"></a>Prüfen von Daten nach dem Migrieren
 
-Wenn Sie sicherstellen möchten, dass Ihre Daten ordnungsgemäß migriert werden, können Sie die nächste Seiten in C5 und in [!INCLUDE[d365fin](includes/d365fin_md.md)]anzeigen.
+Wenn Sie sicherstellen möchten, dass Ihre Daten ordnungsgemäß migriert werden, können Sie die nächste Seiten in C5 und in [!INCLUDE[prod_short](includes/prod_short.md)]anzeigen.
 
 |Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Zu verwendender Batchauftrag |
 |---------------------------|------------------------------|------------------|
@@ -159,5 +159,5 @@ Sie können Datenmigration unterbrechen, indem Sie **Automatisches Beenden alle 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] über Erweiterungen](ui-extensions.md)  
+[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] über Erweiterungen](ui-extensions.md)  
 [Erste Schritte](product-get-started.md)  

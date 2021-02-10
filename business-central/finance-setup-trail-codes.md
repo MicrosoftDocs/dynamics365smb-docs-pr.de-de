@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fc491b060d6a4b1039376b0051ef58da104ff1d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914214"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750355"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Herkunftscodes und Ursachencodes für Audit Trails einrichten
 
@@ -29,7 +29,7 @@ Gelegentlich möchten Sie nachvollziehen, wie ein bestimmter Posten entstanden i
 
 Beim Buchen von Buch.-Blättern, Aufträgen, Rechnungen oder Gutschriften sowie beim Ausführen bestimmter Stapelverarbeitungen werden Posten in der Finanzaufstellungen erstellt. Die Seite **Herkunftscode Einrichtung** enthält für jeden Anwendungsbereich mehrere Inforegister. Jedes Inforegister enthält die Herkunftscodes, die für diesen Anwendungsbereich anwendbar sind.
 
-Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch der richtige Herkunftscode zugeordnet. Wenn Sie z. B. von einem Fibu Buch.-Blatt aus buchen, erhält der Posten den Code *FIBUBUCHBL* . Sie können dann die Seite **Sachposten** filtern, um anzuzeigen, welche Einträge beispielsweise aus dem Fibu Buch.-Blatt oder aus Verkaufsbelegen gebucht wurden.
+Beim Buchen oder Ausführen einer Stapelverarbeitung wird dem Posten automatisch der richtige Herkunftscode zugeordnet. Wenn Sie z. B. von einem Fibu Buch.-Blatt aus buchen, erhält der Posten den Code *FIBUBUCHBL*. Sie können dann die Seite **Sachposten** filtern, um anzuzeigen, welche Einträge beispielsweise aus dem Fibu Buch.-Blatt oder aus Verkaufsbelegen gebucht wurden.
 
 ### <a name="to-define-source-codes"></a>So definieren Sie Herkunftscodes
 
@@ -49,7 +49,7 @@ Sie können einen Herkunftscode ändern. Sie können den Herkunftscode *FIBUBUCH
 
 2. Wählen Sie in der Zeile mit dem zu ändernden den Code im Feld **Code** aus.
 
-3. Geben Sie den neuen Code ein, und klicken Sie dann auf die Schaltfläche **Ja** . Sie können auch den Inhalt des Feldes **Beschreibung** ändern.
+3. Geben Sie den neuen Code ein, und klicken Sie dann auf die Schaltfläche **Ja**. Sie können auch den Inhalt des Feldes **Beschreibung** ändern.
 
 Alle neuen Posten, die über das Fibu Buch.-Blatt gebucht werden, weisen den neuen Herkunftscode auf.
 
@@ -94,6 +94,6 @@ Wenn die Rechnung gebucht wird, wird der Ursachencode in jeden Sach-, Debitor- u
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Analysieren von Cashflow in Ihren Mandanten](finance-analyze-cash-flow.md)  
-[Arbeiten mit [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

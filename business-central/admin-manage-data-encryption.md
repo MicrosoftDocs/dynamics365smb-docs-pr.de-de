@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8ca14916541a43d68968894870657319817911ef
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 743dfc2189c5274953f1365914d8f8e9c0ce0392
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924553"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752601"
 ---
 # <a name="managing-data-encryption"></a>Datenverschlüsselung verwalten
-Sie können Daten auf dem [!INCLUDE[d365fin](includes/d365fin_md.md)]-Server verschlüsseln, indem Sie neue Verschlüsselungsschlüssel erstellen oder vorhandene importieren, die Sie auf der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Serverinstanz aktivieren, die mit der Datenbank verknüpft ist.
+Sie können Daten auf dem [!INCLUDE[prod_short](includes/prod_short.md)]-Server verschlüsseln, indem Sie neue Verschlüsselungsschlüssel erstellen oder vorhandene importieren, die Sie auf der [!INCLUDE[prod_short](includes/prod_short.md)]-Serverinstanz aktivieren, die mit der Datenbank verknüpft ist.
 
 Weitere Informationen finden Sie unter [Verschlüsseln von Daten in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in der Entwickler- und IT-Pro-Hilfe.
 
 > [!Note]
-> Sie können die Verschlüsselung nur aktivieren oder deaktivieren, wenn Sie eine lokale Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden. Die Verschlüsselung ist für Online-Versionen immer aktiviert und kann nicht deaktiviert werden.
+> Sie können die Verschlüsselung nur aktivieren oder deaktivieren, wenn Sie eine lokale Version von [!INCLUDE[prod_short](includes/prod_short.md)] verwenden. Die Verschlüsselung ist für Online-Versionen immer aktiviert und kann nicht deaktiviert werden.
 
 ## <a name="see-also"></a>Siehe auch  
 [Verwaltung](admin-setup-and-administration.md)

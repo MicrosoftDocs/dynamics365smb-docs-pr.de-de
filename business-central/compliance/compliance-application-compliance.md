@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: e0ef9e91d303191cc98afb7dc56f4585d443e5c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc95787d17affb1291ad963b5e69b303a579f1e7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917601"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752005"
 ---
 # <a name="application-compliance"></a>Anwendungs-Kompatibilität
 
-Dieser Inhalt enthält Informationen über Anwendungskompatibilität zu [!INCLUDE[d365fin](../includes/d365fin_md.md)], wie die internationalen Rechnungslegungs-Standards, die lokale Funktion, das DSGVO und mehr. Vertrauen ist eine Unternehmensverwaltungslösung zum Ausführen eines effizienten Geschäfts. Mit Business Central Unternehmen sind die Mandanten befähigt, Geschäftsvorgänge zu optimieren, während konstant und kosteneffizient steigende Regulierungs- und Berichtsanforderungen erfüllt werden.
+Dieser Inhalt enthält Informationen über Anwendungskompatibilität zu [!INCLUDE[prod_short](../includes/prod_short.md)], wie die internationalen Rechnungslegungs-Standards, die lokale Funktion, das DSGVO und mehr. Vertrauen ist eine Unternehmensverwaltungslösung zum Ausführen eines effizienten Geschäfts. Mit Business Central Unternehmen sind die Mandanten befähigt, Geschäftsvorgänge zu optimieren, während konstant und kosteneffizient steigende Regulierungs- und Berichtsanforderungen erfüllt werden.
 
 ## <a name="data-privacy"></a>Datenschutz
 
@@ -108,5 +108,5 @@ Microsoft erstellt lokalisierte Versionen von Business Central für eine begrenz
 [Dienst-Kompatibilität](compliance-service-compliance.md)  
 [Bescheinigungen](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  

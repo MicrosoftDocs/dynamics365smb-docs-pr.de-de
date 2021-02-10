@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f3a90142081ad0bc3096bdde1830924c2998d68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917276"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751230"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetails: Abgleich mit der Finanzbuchhaltung
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgängen, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Artikelposten bzw. in den Wertposten festgehalten. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgänge, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Artikelposten bzw. in den Wertposten festgehalten.  
@@ -33,7 +33,7 @@ Die Buchungsdaten der Sachposten werden auf das Buchungsdatum des entsprechenden
 Während Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, könnten Sie auf Fehler treffen, die ihre Ursache in fehlender Einrichtung oder nicht kompatibler Dimensionseinrichtung haben. Wenn die Stapelverarbeitung auf Fehler in der Dimensionseinrichtung stößt, setzt sie diese Fehler außer Kraft und verwendet die Dimensionen des Wertpostens. Bei anderen Fehlern überspringt die Stapelverarbeitung das Buchen der Wertposten und listet die Fehler am Ende des Berichts im Abschnitt **Übersprungene Artikel** auf. Um diese Artikel buchen zu können, müssen Sie zunächst die Fehler beheben. Wenn Sie eine Liste der Fehler anzeigen möchten, bevor Sie die Stapelverarbeitung **Lagerreg. buchen** ausführen, führen Sie den Bericht Lagereinstandspreise buchen - Test aus. In dem Testbericht werden alle Fehler aufgelistet, die während der Testbuchung aufgetreten sind. Sie können die Fehler dann beheben und die Stapelverarbeitung zum Buchen der Lagerregulierung ausführen, ohne dass Posten übersprungen werden.  
 
 ## <a name="automatic-cost-posting"></a>Automatische Kostenbuchung  
-Um einzurichten, dass Kostenbuchung in der Finanzbuchhaltung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, wählen Sie das **Kosten automatisch buchen** -Kontrollkästchen auf der Seite **Bestand einrichten** aus. Das Buchungsdatum des Sachpostens ist das gleiche wie das Buchungsdatum des Artikelpostens.  
+Um einzurichten, dass Kostenbuchung in der Finanzbuchhaltung automatisch ausgeführt wird, wenn Sie eine Lagertransaktion buchen, wählen Sie das **Kosten automatisch buchen**-Kontrollkästchen auf der Seite **Bestand einrichten** aus. Das Buchungsdatum des Sachpostens ist das gleiche wie das Buchungsdatum des Artikelpostens.  
 
 ## <a name="account-types"></a>Kontoarten  
 Während der Abstimmung werden Bestandswerte zum Bestandskonto auf der Bilanz gebucht. Der gleiche Betrag, aber mit umgekehrtem Vorzeichen, wird in das entsprechende Gegenkonto gebucht. Normalerweise ist das Gegenkonto ein GuV-Konto. Wenn Sie direkte Kosten im Zusammenhang mit Verbrauch oder Ausgabe buchen, ist das Gegenkonto jedoch ein Bilanzkonto. Die Art des Artikelpostens und des Wertpostens bestimmt, auf welches Sachkonto gebucht wird.  
@@ -43,7 +43,7 @@ Die Postenart gibt an, in welches Sachkonto die Buchung vorgenommen werden soll.
 ### <a name="example"></a>Beispiel  
 Das folgende Beispiel zeigt eine Fahrradkette, die aus eingekauften Gliedern gefertigt ist. In diesem Beispiel wird gezeigt, wie die verschiedenen Sachkontoarten in einem typischen Szenario verwendet werden.  
 
-Das Kontrollkästchen **Erwartete Soll-Kosten** , die auf der Seite **Lager-Einrichtung** ausgewählt ist und die folgenden Einstellungen werden festgelegt.  
+Das Kontrollkästchen **Erwartete Soll-Kosten**, die auf der Seite **Lager-Einrichtung** ausgewählt ist und die folgenden Einstellungen werden festgelegt.  
 
 Die nachstehende Tabelle zeigt, wie das Glied auf der Artikelkarte eingerichtet wird.  
 
@@ -123,4 +123,4 @@ Weitere Informationen über das Verhältnis zwischen den Kontotypen und den vers
 [Designdetails: Kostenregulierung](design-details-cost-adjustment.md)
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

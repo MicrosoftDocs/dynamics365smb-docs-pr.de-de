@@ -1,8 +1,6 @@
 ---
-title: Financial Management| Microsoft Docs
-description: Informationen zu Aufgaben, Finanzen in Ihrem Unternehmen einzurichten, um Ihrer Buchhaltung, oder Buchhaltungsanforderungen Prüfungen zu entsprechen.
-services: project-madeira
-documentationcenter: ''
+title: Finanzmanagement
+description: Erfahren Sie, wie Business Central Ihre Anforderungen an Finanzmanagement, Buchhaltung, Wirtschaftsprüfung oder Buchhaltung unterstützt.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,16 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970464"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750280"
 ---
 # <a name="finance"></a>Finanzen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Einrichten von Finanzen](finance-setup-finance.md).
 
 Die Standardkonfiguration enthält Kontenpläne und Standardbuchungsgruppen, die das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter gestalten.  
 
@@ -57,18 +56,20 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Erfahren Sie, wie Sie das Buchhalter-Rollencenter verwenden, einen externen Buchhalter einladen und den Unternehmens-Hub nutzen, um Konten mehrerer Clients zu verwalten.|[Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Machen Sie eine Videotour
+
 Das folgende Video stellt einige der wichtigsten Funktionen für die Verwaltung von Finanzen vor. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Siehe auch
+
 [Finanzen einrichten](finance-setup-finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Schließen des Finanzzeitraums](year-close-years-periods.md)  
-[Projekte verwalten](projects-manage-projects.md)    
+[Projekte verwalten](projects-manage-projects.md)  
 [Daten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

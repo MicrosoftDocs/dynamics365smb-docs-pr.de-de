@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0a758fb7c352739fdfa462968554cfcac0adc841
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 59cf68131acb7ff5fdf0d123f815ee0fa4e491b0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920048"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747505"
 ---
 # <a name="upgrade-a-dtd-definition-file-for-digital-audits"></a>Eine .DTD-Definitionsdatei für digitale Prüfungen aktualisieren
 
-Sie können eine .dtd-Datei explizit validieren, nachdem Sie eine importiert haben, um ein Upgradeproblem zu adressieren. Dies ist hilfreich, wenn Sie eine vorhandene Einrichtung haben, die aktualisiert werden muss, um der aktuellen Ausgabe von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zu entsprechen.  
+Sie können eine .dtd-Datei explizit validieren, nachdem Sie eine importiert haben, um ein Upgradeproblem zu adressieren. Dies ist hilfreich, wenn Sie eine vorhandene Einrichtung haben, die aktualisiert werden muss, um der aktuellen Ausgabe von [!INCLUDE[prod_short](../../includes/prod_short.md)] zu entsprechen.  
 
 ## <a name="to-upgrade-and-validate-a-dtd-file"></a>Um eine .dtd-Datei zu aktualisieren und zu überprüfen  
 

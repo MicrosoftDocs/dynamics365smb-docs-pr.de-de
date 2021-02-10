@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e7cb126ea06d96bd130d644948d08fd7e2e1a11
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: fe306d5fd0f6878e016adc28036c026730d69552
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959625"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747553"
 ---
 Lieferanmahnungen werden verwendet, um überfällige Kreditorenlieferungen zu verfolgen und um Kreditoren an überfällige Lieferungen zu erinnern. Um Lieferbenachrichtigung zu erstellen, müssen Sie Folgendes einrichten:
 
@@ -31,7 +31,7 @@ Lieferbenachrichtigung können manuell oder automatisch erstellt werden. Sie kö
 
 Sie können Belege auch in Bezug auf Bestellzeilen und Verkaufsauftragszeilen nachverfolgen.  
 
-[!INCLUDE[d365fin](../../../includes/d365fin_md.md)] stellt die folgenden Berichte bereit:  
+[!INCLUDE[prod_short](../../../includes/prod_short.md)] stellt die folgenden Berichte bereit:  
 
 - **Registrierte Lieferbenachrichtigung** -, Um die Lieferbenachrichtigung für Kreditoren anzuzeigen.  
 - **Lieferbenachrichtigung - Test** -, Um die Lieferbenachrichtigung zu prüfen, bevor Sie diese registrieren.  

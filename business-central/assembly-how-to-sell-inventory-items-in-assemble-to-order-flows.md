@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 170f98f5bf876f6b090a1980e345b40809cea545
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fb2487f2c8300fa73c2251b978e8deebc50ed404
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927047"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747341"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>So verkaufen Sie Lagerartikel in Programmfertigungs-Flüssen
 Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels **Auftragsmontage** enthält, dann nimmt der Standard-Verkaufsauftragsprozess an, dass der Artikel nicht auf Lager ist und für den jeweiligen Verkaufsauftrag montiert werden muss. Daher wird ein Montageauftrag automatisch erstellt, wenn Sie den Artikel einer Verkaufsauftragszeile hinzufügen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md). Wenn jedoch ein Teil der Verkaufsauftragsmenge bereits im Lagerbestand verfügbar ist, können Sie die Menge des Montageauftrags verringern, indem Sie das Feld **Menge für Auftragsmontage** auf der Verkaufsauftragszeile ändern.  
@@ -23,7 +23,7 @@ Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels *
 Dieses Szenario ist selten, da Auftragsmontageartikel normalerweise immer individuell gefertigt werden und nur eine geringe Möglichkeit dafür besteht, dass sie genau mit den angefragten Spezifikationen auf Lager sind. Wenn ein Mandant jedoch die Auftragsmontagemengen aufgrund von Rücklieferungen oder Stornierungen auf Lager hat, sollten diese Mengen kommissioniert und verkauft werden, bevor weitere Montagen vorgenommen werden.  
 
 > [!NOTE]  
->  Es gibt keine Funktionalität in den Verkaufsaufträgen, die Sie automatisch darauf hinweist oder dabei unterstützt, Montageauftragsmengen, die bereits verfügbar sind, abzuziehen. Stattdessen müssen Sie die Verfügbarkeitsinformationen, wie in der Infobox **VK-Zeilendetails** , überwachen.  
+>  Es gibt keine Funktionalität in den Verkaufsaufträgen, die Sie automatisch darauf hinweist oder dabei unterstützt, Montageauftragsmengen, die bereits verfügbar sind, abzuziehen. Stattdessen müssen Sie die Verfügbarkeitsinformationen, wie in der Infobox **VK-Zeilendetails**, überwachen.  
 
 Ähnliche Funktionen sind verfügbar, wenn Sie Montageartikel aus dem Lagerbestand verkaufen und die Menge teilweise oder vollständig nicht verfügbar ist und durch einen Montageauftrag beschafft werden kann. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln und Lagerartikeln zusammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)  
 
@@ -38,8 +38,8 @@ Bei diesem Verfahren ersetzen Sie Auftragsmontagemengen durch Lagerbestandsmenge
 3.  Geben Sie auf einer Verkaufsauftragszeile für einen Auftragsmontageartikel im Feld **Menge** die verlangte Menge ein.  
 4.  Sehen Sie in der Infobox **VK-Zeilendetails** nach, ob die gesamte oder ein Teil der verlangten Menge verfügbar ist.  
 5.  Ziehen Sie im Feld **Menge für Auftragsmontage** die verfügbare Menge ab, so dass nur die nichtverfügbare Menge gemäß dem Auftrag montiert wird. Das Feld **Reservierte Menge** " wird entsprechend verringert, um zu berücksichtigen, dass der Auftrag-zu-Auftrag-Link oder die Reservierung sich nur auf die zu montierende Menge bezieht.  
-6.  Klicken Sie auf dem Inforegister **Zeilen** auf **Funktionen** und wählen Sie dann die Aktion **Reservieren** .  
-7.  Wählen Sie auf der Seite **Reservierung** den Artikelposten, der die verfügbaren Mengen enthält, wählen Sie die Option **Von aktueller Zeile reservieren** , und klicken Sie dann auf die Schaltfläche **OK** .  
+6.  Klicken Sie auf dem Inforegister **Zeilen** auf **Funktionen** und wählen Sie dann die Aktion **Reservieren**.  
+7.  Wählen Sie auf der Seite **Reservierung** den Artikelposten, der die verfügbaren Mengen enthält, wählen Sie die Option **Von aktueller Zeile reservieren**, und klicken Sie dann auf die Schaltfläche **OK**.  
 
     Auf der Seite **Verkaufsauftrag** zeigt das Feld **Reservierte Menge** jetzt an, dass die gesamte Auftragpositionsmenge reserviert ist. Das Feld **Menge für Auftragsmontage** spiegelt noch die Untermenge wider, die montiert werden muss.  
 
@@ -54,4 +54,4 @@ Bei diesem Verfahren ersetzen Sie Auftragsmontagemengen durch Lagerbestandsmenge
 [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

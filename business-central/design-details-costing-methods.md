@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a9b8b1fc46f953fb545f5c2f14e4b0479897ef1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927022"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751705"
 ---
 # <a name="design-details-costing-methods"></a>Designdetails: Kostenberechnungsmethoden
 
@@ -24,7 +24,7 @@ Die Lagerabgangsmethode legt fest, ob ein tatsächlicher oder ein budgetierter W
 > [!NOTE]
 > Sie können die Lagerabgangsmethode eines Artikels nicht ändern, wenn Artikelposten für den Artikel vorhanden sind. Weitere Informationen finden Sie unter [Enwurfsdetails: Die Lagerabgangsmethode für Artikel ändern](design-details-changing-costing-methods.md).
 
-Die folgenden Methoden werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt:  
+Die folgenden Methoden werden in [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt:  
 
 | Lagerabgangsmethode | Beschreibung | Anwendungsbeispiele |
 |--|--|--|
@@ -42,10 +42,10 @@ Die folgenden Methoden werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] unt
 
 |Kategorie|FIFO|Durchschnitt|Standard|Ausgewählt|  
 |-|----------|-------------|--------------|--------------|  
-|Allgemeine Eigenschaft|Einfach zu verstehen|Basierend auf Periodenoptionen: **Tag**/**Woche**/**Monat**/**Quartal**/**Buchhaltungsperiode** .<br /><br /> Kann pro Artikel oder pro Artikel/Lagerort/Variante berechnet werden.|Bedienungsfreundlich, benötigt jedoch qualifizierte Wartung.|Erfordert Artikelverfolgung auf der eingehenden und ausgehenden Transaktion.<br /><br /> Normalerweise verwendet für serialisierte Artikel.|  
-|Anwendung/Regulierung|Anwendung verfolgt **die Restmenge** .<br /><br /> Die Regulierung überträgt Kosten je nach Mengenanwendung vorwärts.|Anwendung verfolgt die **Restmenge** .<br /><br /> Kosten werden nach **Bewertungsdatum** berechnet und weitergeleitet.|Anwendung verfolgt die **Restmenge** .<br /><br /> Anwendung basiert auf "FIFO".|Alle Augleiche sind fest.|  
+|Allgemeine Eigenschaft|Einfach zu verstehen|Basierend auf Periodenoptionen: **Tag**/**Woche**/**Monat**/**Quartal**/**Buchhaltungsperiode**.<br /><br /> Kann pro Artikel oder pro Artikel/Lagerort/Variante berechnet werden.|Bedienungsfreundlich, benötigt jedoch qualifizierte Wartung.|Erfordert Artikelverfolgung auf der eingehenden und ausgehenden Transaktion.<br /><br /> Normalerweise verwendet für serialisierte Artikel.|  
+|Anwendung/Regulierung|Anwendung verfolgt **die Restmenge**.<br /><br /> Die Regulierung überträgt Kosten je nach Mengenanwendung vorwärts.|Anwendung verfolgt die **Restmenge**.<br /><br /> Kosten werden nach **Bewertungsdatum** berechnet und weitergeleitet.|Anwendung verfolgt die **Restmenge**.<br /><br /> Anwendung basiert auf "FIFO".|Alle Augleiche sind fest.|  
 |Neubewertung|Bewertet nur die fakturierte Menge neu.<br /><br /> Kann pro Artikel oder pro Artikelposten durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|Bewertet nur die fakturierte Menge neu.<br /><br /> Kann nur pro Artikel durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|Bewertet fakturierte und nicht fakturierte Mengen neu.<br /><br /> Kann pro Artikel oder pro Artikelposten durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|Bewertet nur die fakturierte Menge neu.<br /><br /> Kann pro Artikel oder pro Artikelposten durchgeführt werden.<br /><br /> Kann rückwirkend geschehen.|  
-|Sonstiges|Wenn Sie eine Bestandsminderung zurückdatieren, werden bestehende Posten NICHT erneut ausgeglichen, um einen korrekten FIFO-Kostenfluss bereitzustellen.|Wenn Sie eine Bestandserhöhung oder -minderung zurückdatieren, werden die Durchschnittskosten erneut berechnet, und alle betroffenen Posten werden angepasst.<br /><br /> Wenn Sie die Periode oder Berechnungsart ändern, müssen alle betroffenen Posten reguliert werden.|Verwenden Sie das **Standardarbeitsblatt** -Fenster, um Einstandspreise (fest) in regelmäßigen Abständen zu aktualisieren und der zu ermitteln.<br /><br /> Wird NICHT pro SKU unterstützt.<br /><br /> Keine historischen Datensätze für Einstandspreise vorhanden.|Sie können eine bestimmte Artikelverfolgung verwenden, ohne die bestimmte Lagerabgangsmethode zu verwenden. Dann folgen die Kosten NICHT der Chargennummer, sondern der Kosten-Annahme der ausgewählten Bewertungsmethode.|  
+|Sonstiges|Wenn Sie eine Bestandsminderung zurückdatieren, werden bestehende Posten NICHT erneut ausgeglichen, um einen korrekten FIFO-Kostenfluss bereitzustellen.|Wenn Sie eine Bestandserhöhung oder -minderung zurückdatieren, werden die Durchschnittskosten erneut berechnet, und alle betroffenen Posten werden angepasst.<br /><br /> Wenn Sie die Periode oder Berechnungsart ändern, müssen alle betroffenen Posten reguliert werden.|Verwenden Sie das **Standardarbeitsblatt**-Fenster, um Einstandspreise (fest) in regelmäßigen Abständen zu aktualisieren und der zu ermitteln.<br /><br /> Wird NICHT pro SKU unterstützt.<br /><br /> Keine historischen Datensätze für Einstandspreise vorhanden.|Sie können eine bestimmte Artikelverfolgung verwenden, ohne die bestimmte Lagerabgangsmethode zu verwenden. Dann folgen die Kosten NICHT der Chargennummer, sondern der Kosten-Annahme der ausgewählten Bewertungsmethode.|  
 
 ## <a name="example"></a>Beispiel  
  Dieser Abschnitt nennt Beispiele, wie unterschiedliche Lagerabgangsmethoden sich auf den Lagerwert auswirken.  
@@ -67,9 +67,9 @@ Die folgenden Methoden werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] unt
 ### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Auswirkungen der Kostenbewertungsmethoden auf die Bewertung von Lagerzugängen  
  **FIFO**/**LIFO**/**Durchschnitt**/**Spezifisch**  
 
- Für Artikel mit Kostenberechnungsmethoden, die die Ist-Kosten als Bewertungsbasis verwenden ( **FIFO** , **LIFO** , **Durchschnitt** oder **Spezifisch** ) werden Bestandserhöhungen anhand der Anschaffungskosten des Artikels bewertet.  
+ Für Artikel mit Kostenberechnungsmethoden, die die Ist-Kosten als Bewertungsbasis verwenden (**FIFO**, **LIFO**, **Durchschnitt** oder **Spezifisch**) werden Bestandserhöhungen anhand der Anschaffungskosten des Artikels bewertet.  
 
- Die nachstehende Tabelle zeigt, wie Bestandsminderungen für alle Kostenberechnungsmethoden, mit Ausnahme von **Standard** , bewertet werden.  
+ Die nachstehende Tabelle zeigt, wie Bestandsminderungen für alle Kostenberechnungsmethoden, mit Ausnahme von **Standard**, bewertet werden.  
 
 |Buchungsdatum|Menge|Einstandsbetrag (tatsächl.)|Lfd. Nr.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -163,4 +163,4 @@ Die folgenden Methoden werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] unt
  [Designdetails: Artikelausgleich](design-details-item-application.md)  
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
- [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

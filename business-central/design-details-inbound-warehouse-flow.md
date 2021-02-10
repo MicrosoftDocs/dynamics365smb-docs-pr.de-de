@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 42a8fd05fe74276c5b570253b67be20189201071
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6b86bf4be6a925913e3e2a0a70cf2066e8956681
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922142"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751555"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetails: Eingehender Lagerfluss
 Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.  
@@ -35,7 +35,7 @@ Die letzten beiden repräsentieren eingehende Ströme zum Lager aus internen Bet
 
 Prozesse und UI-Belege in eingehenden Warenflüssen unterscheiden sich in grundlegenden und erweiterten Lagerfunktionen. Der wichtigste Unterschied besteht darin, dass Aktivitäten in der einfachen Logistik Auftrag für Auftrag durchgeführt werden, und in der erweiterten Logistik für mehrere Aufträge konsolidiert werden. Weitere Informationen über verschiedene Lagerkomplexitätsebenen finden Sie unter [Designdetails: Lager-Übersicht](design-details-warehouse-setup.md).  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten mit verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausführen.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten mit verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausführen.  
 
 |Methode|Eingangsprozess|Lagerplätze|Geb. Umlag.-Eingänge|Einlagerungen|Komplexitätsebene anzeigen (siehe [Designdetails: Lagerhaus-Einrichtung](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -87,7 +87,7 @@ Der Benutzer füllt das Feld **Verarbeitungsmenge** aus und wählt die empfangen
 Der Benutzer bucht den Wareneingang. Positive Artikelposten werden erstellt. Beispielsweise wird das Feld **Menge empfangen** auf der Zeile des eingehenden Herkunftsbelegs aktualisiert.  
 
 ### <a name="5-create-warehouse-internal-put-away"></a>5: Erstellen Sie eine neue interne Einlagerungsanforderung  
-Der Benutzer, der für die Einlagerung aus internen Vorgängen zuständig ist, erstellt eine interne Einlagerungsanforderung für Artikel, die im Lager eingelagert werden müssen Lager, wie Produktions- oder Montageausstoß. Der Benutzer gibt Menge, Zone und Lagerplatz an, aus denen Artikel eingelagert werden sollen, eventuell mit der Funktion **Lagerplatzinhalt holen** . Der Benutzer gibt die interne Einlagerungsanforderung frei, wodurch eine eingehende erwartete Lagerbewegung erstellt wird, sodass die Aufgabe in Einlagerungsbelegen oder im Einlagerungsarbeitsblatt abgerufen werden kann.  
+Der Benutzer, der für die Einlagerung aus internen Vorgängen zuständig ist, erstellt eine interne Einlagerungsanforderung für Artikel, die im Lager eingelagert werden müssen Lager, wie Produktions- oder Montageausstoß. Der Benutzer gibt Menge, Zone und Lagerplatz an, aus denen Artikel eingelagert werden sollen, eventuell mit der Funktion **Lagerplatzinhalt holen**. Der Benutzer gibt die interne Einlagerungsanforderung frei, wodurch eine eingehende erwartete Lagerbewegung erstellt wird, sodass die Aufgabe in Einlagerungsbelegen oder im Einlagerungsarbeitsblatt abgerufen werden kann.  
 
 ### <a name="6-create-put-away-request"></a>6: Einlagerungsanforderung  
 Wenn der eingehende Herkunftsbeleg gebucht wird, wird eine Einlagerungsanforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden. Abhängig von den Einstellungen erstellt die Ausgabe eines Fertigungsauftrags auch eine Einlagerungsanforderung, um die fertigen Artikel im Lagerbestand einzulagern.  

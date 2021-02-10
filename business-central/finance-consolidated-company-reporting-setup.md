@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927669"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750980"
 ---
 # <a name="set-up-company-consolidation"></a>Unternehmenskonsolidierung einrichten
 
@@ -33,7 +33,7 @@ Je nach Komplexität Ihrer Unternehmen, gibt es zwei Arten, die Konsolidierung e
 Wenn die Konsolidierung einfach ist, weil Sie beispielsweise die Geschäftseinheit als Ganzes besitzen, führt Sie der unterstützte Setup **Mandanten-Konsolidierung** durch die folgenden Schritte:
 
 * Wählen Sie aus, ob einen neuen Konsolidierungsmandanten erstellen oder ob die Daten in einem Mandanten konsolidiert werden, den Sie bereits für die Konsolidierung erstellt haben. Der Mandant sollte keine Transaktionen beinhalten.
-* Ergebnisse in Vorschau anzeigen. [!INCLUDE[d365fin](includes/d365fin_md.md)] überprüft, dass die Masterdaten und die Transaktionen in den Konsolidierungsmandanten erfolgreich übertragen werden können.
+* Ergebnisse in Vorschau anzeigen. [!INCLUDE[prod_short](includes/prod_short.md)] überprüft, dass die Masterdaten und die Transaktionen in den Konsolidierungsmandanten erfolgreich übertragen werden können.
 
 Um die unterstützte Einrichtung zu starten, gehen Sie folgendermaßen vor:
 
@@ -63,14 +63,14 @@ Die folgende Liste veranschaulicht wichtige Aspekte des konsolidierten Unternehm
     Weitere Informationen finden Sie im Abschnitt [Konzernmandanten hinzufügen](#busunit).
 3. Sie können Wechselkurse angeben, wenn die Finanzauswertungen von Konzernmandanten konsolidiert werden, wenn die Finanzauswertungen in einer Fremdwährung vorliegen.
 
-    Die drei benutzten Wechselkurse sind **Durchschnittskurs (manuell)** , **Ultimokurs** und **Letzter Ultimokurs** . Weitere Informationen finden Sie im Abschnitt [Wechselkurse für Konsolidierungen angeben](#exchrates).
+    Die drei benutzten Wechselkurse sind **Durchschnittskurs (manuell)**, **Ultimokurs** und **Letzter Ultimokurs**. Weitere Informationen finden Sie im Abschnitt [Wechselkurse für Konsolidierungen angeben](#exchrates).
 4. Sie können Dimensionsinformationen und Sachkonten konsolidieren.
 
     Weitere Informationen finden Sie im Abschnitt [Dimensionen ein- oder ausschließen](#dim).
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Konzernmandanten hinzufügen
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ermöglicht es Ihnen, eine Liste zu konsolidierender Konzernmandanten einzurichten, die Buchhaltungsdaten zu überprüfen, bevor Sie diese konsolidieren, Dateien zu importieren und Konsolidierungsberichte zu generieren.  
+[!INCLUDE[prod_short](includes/prod_short.md)] ermöglicht es Ihnen, eine Liste zu konsolidierender Konzernmandanten einzurichten, die Buchhaltungsdaten zu überprüfen, bevor Sie diese konsolidieren, Dateien zu importieren und Konsolidierungsberichte zu generieren.  
 
 1. Melden Sie sich im Konsolidierungsmandanten an.
 2. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Geschäftseinheiten** ein und wählen Sie dann den entsprechenden Link.  
@@ -88,12 +88,12 @@ Der Kontenplan eines Unternehmens, das konsolidiert wird, muss Konten für die K
 
 Wenn der Kontenplan des Konzernmandanten aus dem Konsolidierungsmandanten abweicht, müssen Sie die Sachkonten vorbereiten für die Konsolidierung. Sie können Konten definieren, um Soll- und Habenposten zu buchen und die Methode festlegen, die verwendet wird, um Währungen im Konsolidierungsmandanten zu übersetzen. Dies ist beispielsweise dann nützlich, wenn Sie häufig den Bericht ausführen.
 
-1. Im [!INCLUDE [prodshort](includes/prodshort.md)] jedes Konzernmandanten wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen...“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link aus.  
+1. Im [!INCLUDE [prod_short](includes/prod_short.md)] jedes Konzernmandanten wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen...“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Öffnen Sie die Karte für das Konto, und füllen Sie dann die Felder im Inforegister **Konsolidierung** aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Wechselkurse für Konsolidierungen angeben
 
-Richten Sie Wechselkurse für die Konsolidierung ein, wenn für die Finanzauswertungen eines Konzernmandanten nicht die Währung des konsolidierten Mandanten verwendet wird. Für jedes Konto bestimmt der Inhalt des Feldes **Konsol. Umrechnungsmethode** den Wechselkurses. Im konsolidierten Unternehmen auf jeder Konzernmandantenkarte im Feld **Währungswechselkurstabelle** geben Sie an, ob bei der Konsolidierung Wechselkurse des Konzernmandanten oder des konsolidierten Unternehmens verwendet werden. Bei Verwendung von Wechselkursen des konsolidierten Mandanten können die Wechselkurse für einen Konzernmandanten geändert werden. Enthält bei einer Geschäftseinheit das Feld **Wechselkurstabelle** (auf der Konzernmandantenkarte) den Wert **Lokal** , kann der Wechselkurs auf der Konzernmandantenkarte geändert werden. Zwar werden die Wechselkurse aus der Tabelle **Währungswechselkurs** kopiert, Sie haben jedoch die Möglichkeit, diese Wechselkurse vor der Konsolidierung zu ändern.
+Richten Sie Wechselkurse für die Konsolidierung ein, wenn für die Finanzauswertungen eines Konzernmandanten nicht die Währung des konsolidierten Mandanten verwendet wird. Für jedes Konto bestimmt der Inhalt des Feldes **Konsol. Umrechnungsmethode** den Wechselkurses. Im konsolidierten Unternehmen auf jeder Konzernmandantenkarte im Feld **Währungswechselkurstabelle** geben Sie an, ob bei der Konsolidierung Wechselkurse des Konzernmandanten oder des konsolidierten Unternehmens verwendet werden. Bei Verwendung von Wechselkursen des konsolidierten Mandanten können die Wechselkurse für einen Konzernmandanten geändert werden. Enthält bei einer Geschäftseinheit das Feld **Wechselkurstabelle** (auf der Konzernmandantenkarte) den Wert **Lokal**, kann der Wechselkurs auf der Konzernmandantenkarte geändert werden. Zwar werden die Wechselkurse aus der Tabelle **Währungswechselkurs** kopiert, Sie haben jedoch die Möglichkeit, diese Wechselkurse vor der Konsolidierung zu ändern.
 
 Die folgende Tabelle beschreibt die Wechselkursmethoden, die Sie für Konten verwenden können.
 
@@ -104,14 +104,14 @@ Die folgende Tabelle beschreibt die Wechselkursmethoden, die Sie für Konten ver
 |Letzter Ultimokurs | Schlusskurs: Der Schlusskurs am Devisenmarkt für den Tag, für den die Bilanz oder Gewinn- und Verlustrechnung erstellt wird. Sie geben diesen Kurs für jeden Konzernmandanten ein. Für Kontenschema für Bilanz verwendet.|
 |Historischer Kurs | Der Wechselkurs, der galt, als die Transaktion erfolgte.|
 |Gemischter Wechselkurs | Mischkurs: Die Beträge der laufenden Periode werden zum Durchschnittskurs umgerechnet und zum zuvor erfassten Saldo für den konsolidierten Mandanten addiert. Diese Methode wird meistens für Gewinn- und Verlustkonten verwendet, da diese Beträge aus unterschiedlichen Perioden umfassen und daher mit verschiedenen Umrechnungskursen bestimmte Beträge vereinen.|
-|Eigenkapitalkurs | Dieses ist ähnlich wie der **Mischkurs** . Differenzen werden gebucht, um Sachkonten zu trennen.|
+|Eigenkapitalkurs | Dieses ist ähnlich wie der **Mischkurs**. Differenzen werden gebucht, um Sachkonten zu trennen.|
 
 Um Wechselkurse für Konzernmandanten anzugeben, gehen Sie folgendermaßen vor:
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Geschäftseinheiten** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Konzernmandantenübersicht** wählen Sie die Konzernmandanten aus, und wählen Sie die **Durchschnittskurs (manuell)** Aktion aus.  
-3. Der Inhalt des Felds **Bezug auf Wechselkursbetrag** (im Fenster **Wechselkurs ändern** ) wurde aus der Tabelle **Währungswechselkurs** kopiert, kann jedoch geändert werden. Schließen Sie die Seite.  
-4. Wählen Sie die **Ultimokurs** -Aktion aus.  
+3. Der Inhalt des Felds **Bezug auf Wechselkursbetrag** (im Fenster **Wechselkurs ändern**) wurde aus der Tabelle **Währungswechselkurs** kopiert, kann jedoch geändert werden. Schließen Sie die Seite.  
+4. Wählen Sie die **Ultimokurs**-Aktion aus.  
 5. In dem Feld **Relationaler Wechselkursbetrag** geben Sie den Wechselkurs ein.
 
 ### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Dimensionen ein- oder ausschließen
@@ -126,7 +126,7 @@ Sie können Dimensionsinformationen und Sachkonten konsolidieren.
 
 ### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Ein Unternehmen aus der Konsolidierung ausschließen
 
-Wenn Sie keinen Konzernmandanten in die Konsolidierung einbeziehen, können Sie sie ausschließen. Um das zu tun, wechseln Sie zur Konzernmandantenkarte, und löschen Sie das Kontrollkästchen **Konsolidieren** .
+Wenn Sie keinen Konzernmandanten in die Konsolidierung einbeziehen, können Sie sie ausschließen. Um das zu tun, wechseln Sie zur Konzernmandantenkarte, und löschen Sie das Kontrollkästchen **Konsolidieren**.
 
 ### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Schließen Sie Unternehmen in die Konsolidierung ein, das teilweise im Besitz ist
 
@@ -136,5 +136,5 @@ Wenn Sie nur einen Teil des Unternehmen anlegen, können Sie einen Prozentsatz j
 
 [Konsolidieren von Finanzdaten aus mehreren Unternehmen](finance-consolidated-company-reporting.md)  
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)

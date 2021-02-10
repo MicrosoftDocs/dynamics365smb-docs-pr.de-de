@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6a9465f13e272d653ec9a0544618b243928af03
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b10d8e8c8dd6142a4b9ed2c9604fd4e9c7e9c74
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923720"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746266"
 ---
 # <a name="set-up-units-of-measure"></a>Einheiten einrichten
 
-Im Rahmen der Einrichtung von [!INCLUDE [prodshort](includes/prodshort.md)] legen Sie allgemeine Einheiten auf der Seite **Enheit** fest. Wenn Sie dann neue Elemente registrieren, legen Sie die Basiseinheit auf der **Artikelkarte** fest. Sie können Einheiten jedoch auch später hinzufügen.  
+Im Rahmen der Einrichtung von [!INCLUDE [prod_short](includes/prod_short.md)] legen Sie allgemeine Einheiten auf der Seite **Enheit** fest. Wenn Sie dann neue Elemente registrieren, legen Sie die Basiseinheit auf der **Artikelkarte** fest. Sie können Einheiten jedoch auch später hinzufügen.  
 
 Sie können mehrere Einheiten für einen Artikel einrichten, sodass Sie für folgende Zwecke Einheiten den Artikeln zuweisen können:
 
@@ -50,9 +50,9 @@ Wenn Sie einen neuen Artikel registrieren, können Sie die Einheit aus der Liste
 5. Wählen Sie die Aktion **Neu** aus. Eine neue leere Zeile wird eingefügt.
 6. Geben Sie im Feld **Code** den Namen des Einheitencodes ein. Alternativ aktivieren Sie das Feld, um in den Einheitencodes auszuwählen, die in der Datenbank sind.
 7. Geben Sie in das Feld **Menge per Basismaßeinheit** ein, wie viele der Einheiten der Basiseinheit die neue Maßeinheit enthält.
-8. Geben Sie in den Feldern **Höhe**, **Breite**, **Länge** und **Gewicht** optional detaillierte Informationen zur Größe einer Einheit ein, sodass [!INCLUDE [prodshort](includes/prodshort.md)] berechnen kann, wie viele Artikeleinheiten in bestimmte Lagerplätze eingelagert werden können. Das Feld **Volumen** wird automatisch basierend auf **Höhe**, **Breite** und **Länge** berechnet.
+8. Geben Sie in den Feldern **Höhe**, **Breite**, **Länge** und **Gewicht** optional detaillierte Informationen zur Größe einer Einheit ein, sodass [!INCLUDE [prod_short](includes/prod_short.md)] berechnen kann, wie viele Artikeleinheiten in bestimmte Lagerplätze eingelagert werden können. Das Feld **Volumen** wird automatisch basierend auf **Höhe**, **Breite** und **Länge** berechnet.
 
-    Wenn eines dieser Felder einen anderen Wert als 0 enthält, wird diese Abmessung bei allen Prozessen verwendet, die die Einlagerung von Artikeln in Lagerplätzen betreffen: Einlagerung, Umlagerungen, Zugänge, Lieferungen, Kommissionierungen und Regulierungen. [!INCLUDE [prodshort](includes/prodshort.md)] überprüft die Summe jeder physischen Abmessung der einzulagernden und der bereits am Lagerplatz befindlichen Artikel anhand der maximalen Größe oder einer anderen Abmessung, die an einem Lagerplatz eingelagert werden kann, gemäß der Lagerplatzkapazitätsrichtlinie auf der Lagerortkarte für diesen Artikel. Somit müssen Sie für jede Dimension über alle Artikeleinheiten hinweg dieselbe Einheit verwenden, z. B. Kilogramm oder Pfund für Gewicht, und dies jedoch konsistent.
+    Wenn eines dieser Felder einen anderen Wert als 0 enthält, wird diese Abmessung bei allen Prozessen verwendet, die die Einlagerung von Artikeln in Lagerplätzen betreffen: Einlagerung, Umlagerungen, Zugänge, Lieferungen, Kommissionierungen und Regulierungen. [!INCLUDE [prod_short](includes/prod_short.md)] überprüft die Summe jeder physischen Abmessung der einzulagernden und der bereits am Lagerplatz befindlichen Artikel anhand der maximalen Größe oder einer anderen Abmessung, die an einem Lagerplatz eingelagert werden kann, gemäß der Lagerplatzkapazitätsrichtlinie auf der Lagerortkarte für diesen Artikel. Somit müssen Sie für jede Dimension über alle Artikeleinheiten hinweg dieselbe Einheit verwenden, z. B. Kilogramm oder Pfund für Gewicht, und dies jedoch konsistent.
 9. Wiederholen Sie die Schritte 5 und 7, um alle alternativen Einheiten einzurichten, die Sie in den verschiedenen Prozessen für diesen Artikel verwenden möchten.
 
     Im Feld **Basiseinheit** am unteren Rand des Fensters, können Sie die Basiseinheit des Artikels anzeigen oder ändern. Sie können auch die Basiseinheit im Feld **Basiseinheit** auf der Artikelkarte ändern. Auf der Seite **Artikeleinheiten** muss die Basiseinheit den Wert **1** im Feld **Menge pro Einheit** aufweisen.
@@ -86,4 +86,4 @@ Wenn Sie normalerweise in Einheiten kaufen und verkaufen, die von der Basiseinhe
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Käufe verwalten](purchasing-manage-purchasing.md)  
 [Verkäufe verwalten](sales-manage-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

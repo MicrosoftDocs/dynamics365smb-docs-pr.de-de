@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a402e9cdcaa7eea55b693f697db3b47138cdd02
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917076"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746991"
 ---
 # <a name="select-a-check-layout"></a>Ein Prüflayout auswählen
 Sie können Ihre Schecks entwerfen, um sie den Vorgaben anzupassen, die von den lokalen Behörden festgelegt werden. Scheckbilder können in Englisch, Französisch oder Spanisch gedruckt werden.
@@ -24,7 +24,7 @@ Schecks können sowohl im USA- als auch im Kanada-Schecklayout, entweder im Sche
 
 ## <a name="to-select-a-check-layout"></a>Ein Prüflayout auswählen
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Berichtsauswahlen – Bankkonto** ein, und wählen Sie dann den entsprechenden Link.
-2. Auf der Seite **Berichts-Auswahl - Bankkonto** unter **Verwendung** wählen Sie **Scheck** .
+2. Auf der Seite **Berichts-Auswahl - Bankkonto** unter **Verwendung** wählen Sie **Scheck**.
 3. Wählen Sie eine der folgenden Berichts-IDs:
 
 | Berichts-ID | Berichtsname | Beschreibung |
@@ -39,15 +39,15 @@ Wenn Sie Schecklayouts eingerichtet haben, können Sie Schecks auf de Seite **Za
 Verwenden Sie dazu entweder die Word- oder die RDLC-Integration, um eines dieser Standardprüflayouts zu ändern. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>Verwenden von MICR- und Sicherheitsschriftarten
-Die Onlineversion von [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält vorinstallierte Schriftarten auf den Servern, die beim Definieren von Prüflayouts verwendet werden können. Im Folgenden wird erläutert, welche Schriftarten verfügbar sind, und es werden Links zu detaillierten Informationen der Drittanbieter der Schriftarten angezeigt.
+Die Onlineversion von [!INCLUDE[prod_short](includes/prod_short.md)] enthält vorinstallierte Schriftarten auf den Servern, die beim Definieren von Prüflayouts verwendet werden können. Im Folgenden wird erläutert, welche Schriftarten verfügbar sind, und es werden Links zu detaillierten Informationen der Drittanbieter der Schriftarten angezeigt.
 
 > [!Important]
-> MICR- und Schecksicherheits-Schriftarten in Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] sind in einem Schriftartpaket von IDAutomation.com, Inc. lizenziert. Diese Produkte dürfen nur als Teil von und in Verbindung mit Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet werden.
+> MICR- und Schecksicherheits-Schriftarten in Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)] sind in einem Schriftartpaket von IDAutomation.com, Inc. lizenziert. Diese Produkte dürfen nur als Teil von und in Verbindung mit Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden.
 
 In Update 15.3 und höher sind MICR-Schriftarten (Magnetic Ink Character Recognition) installiert und können verwendet werden. Es werden sowohl der E-13B- als auch der CMC-7-Standard unterstützt. Zusätzlich zu MICR-Schriftarten stehen spezielle Sicherheitsschriftarten zur Verfügung, mit denen Text, Namen, Beträge und die Währungssymbole Dollar, Euro, Pfund und Yen generiert werden können, die nach dem Drucken eines Schecks nur schwer zu manipulieren sind.
 
 > [!NOTE]
-> Aus Sicherheits- und rechtlichen Gründen können Sie keine benutzerdefinierten Schriftarten in die [!INCLUDE[d365fin](includes/d365fin_md.md)]-Umgebung hochladen.
+> Aus Sicherheits- und rechtlichen Gründen können Sie keine benutzerdefinierten Schriftarten in die [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung hochladen.
 
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B-Spezifikationen
 Im Folgenden werden die Spezifikationen für die MICR E-13B-Schriftarten zusammengefasst, die beim Kalibrieren von Schriftarten für Schecklayouts mit bestimmten MICR-Druckern hilfreich sein können.
@@ -60,7 +60,7 @@ Im Folgenden werden die Spezifikationen für die MICR E-13B-Schriftarten zusamme
 Die vollständige Spezifikation der MICR E-13B-Schriftarten finden Sie in der Dokumentation des Lieferanten auf dieser Website: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7-Spezifikationen
-Die folgenden CMC-7-Schriftarten sind in [!INCLUDE[d365fin](includes/d365fin_md.md)] online verfügbar:
+Die folgenden CMC-7-Schriftarten sind in [!INCLUDE[prod_short](includes/prod_short.md)] online verfügbar:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
@@ -83,7 +83,7 @@ Im Folgenden werden die Spezifikationen für die Schecksicherheits-Schriftarten 
 
 Die vollständige Spezifikation der Schecksicherheits-Schriftarten finden Sie in der Dokumentation des Lieferanten auf dieser Website: (https://www.idautomation.com/security-fonts/).
 
-Schriftarten für andere Zwecke sind auch in [!INCLUDE[prodshort](includes/prodshort.md)] verfügbar. Weitere Informationen finden Sie unter [Verfügbare Schriftarten](ui-fonts.md)
+Schriftarten für andere Zwecke sind auch in [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar. Weitere Informationen finden Sie unter [Verfügbare Schriftarten](ui-fonts.md)
 
 ## <a name="see-also"></a>Siehe auch
 [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md)  
@@ -91,5 +91,5 @@ Schriftarten für andere Zwecke sind auch in [!INCLUDE[prodshort](includes/prods
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)   
 [Abschließen von Periodenabschlüssen](year-how-complete-period-end-processes.md)  
-[Arbeiten mit [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

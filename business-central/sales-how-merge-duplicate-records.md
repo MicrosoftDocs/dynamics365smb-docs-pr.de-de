@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e5e51251f19391eb96a1979a2bb24f7bf894d4b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 04034406154dddfabe44a9fd62e0a793981e7f69
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926172"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748358"
 ---
 # <a name="merge-duplicate-records"></a>Doppelt Datensätze zusammenführen
 Wenn unterschiedliche Benutzer im Laufe der Zeit neue Debitoren-, Kreditoren- oder Kontaktkarten erstellen, oder die neuen Datensätze automatisch während der Migration erstellt werden, wird ein Debitor, ein Kreditor oder ein Kontakt im System mit mehr als einem Datensatz dargestellt. In diesem Fall können Sie die Seite **Doppelte Datensätze zusammenführen** aus der Karte des Datensatzes verwenden, den Sie erfassen möchten. Die Seite zeigt Ihnen eine Übersicht der duplizierten Feldwerte und bietet Funktionen, um auszuwählen, welche Werte behalten oder verworfen werden, wenn zwei Datensätze zusammengeführt werden.
@@ -37,7 +37,7 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 
     Die Inforegisterliste **Felder** zeigt auf, in dem die Werte für die zwei Debitoren abweichen. Das bedeutet, wenn der ausgewählte Debitor tatsächlich ein Duplikat ist, dann können nur sehr wenige Felder aufgeführt werden, wie Eingabefehler und andere Dateneingabefehler.
 
-    Die Inforegisterliste **Zugehörige Tabellen** zeigt Tabellen auf, in denen es Felder mit einer Verbindung zu beiden Debitoren gibt. Die Felder **Aktuelle Anzahl** und **Doppelte Anzahl** zeigen die Anzahl der Felder in den verknüpften Tabellen, bei denen der Wert **Nr.** sowohl des aktuellen als auch des doppelten Kunden verwendet wird. Auf der Seite **Doppelte Datensätze zusammenführen** dient der entsprechende Abschnitt nur der Information. Wenn jedoch Zusammenführungskonflikte vorhanden sind, lösen Sie sie auf der Seite **Doppelte Konflikte zusammenführen** . Siehe Schritte 8 bis 12.   
+    Die Inforegisterliste **Zugehörige Tabellen** zeigt Tabellen auf, in denen es Felder mit einer Verbindung zu beiden Debitoren gibt. Die Felder **Aktuelle Anzahl** und **Doppelte Anzahl** zeigen die Anzahl der Felder in den verknüpften Tabellen, bei denen der Wert **Nr.** sowohl des aktuellen als auch des doppelten Kunden verwendet wird. Auf der Seite **Doppelte Datensätze zusammenführen** dient der entsprechende Abschnitt nur der Information. Wenn jedoch Zusammenführungskonflikte vorhanden sind, lösen Sie sie auf der Seite **Doppelte Konflikte zusammenführen**. Siehe Schritte 8 bis 12.   
 
 5. Für jedes Feld, in dem Sie einen anderen Wert als den aktuellen verwenden möchten, wählen Sie das Kontrollkästchen **Außer Kraft setzen** aus. Der Wert im Feld **Alternativer Wert** wird dann in den aktuellen Datensatz übertragen, wenn Sie diesen Vorgang abschließen.
 6. Wenn Sie die Auswahl abgeschlossen haben, welche Werte behalten oder überschrieben werden sollen, wählen Sie die Aktion **Zusammenführen** aus.
@@ -55,7 +55,7 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 
     Identische Feldwerte werden im Gegensatz zu dem Wert im Feld **Nr.** aus dem doppelten Datensatz entfernt und in den aktuellen Datensatz eingefügt.
 11. Wenn Sie den doppelten Debitorendatensatz nach der Zusammenführung behalten möchten, wählen Sie **Dublette umbenennen** aus.
-12. Ändern Sie in den Zeilen, nicht für das Feld **Nr.** , in dem das Feld den gleichen Wert bei beiden Datensätzen hat, den Wert im Feld **Alternativer Wert** , und wählen Sie dann die Schaltfläche **Schließen** aus.
+12. Ändern Sie in den Zeilen, nicht für das Feld **Nr.**, in dem das Feld den gleichen Wert bei beiden Datensätzen hat, den Wert im Feld **Alternativer Wert**, und wählen Sie dann die Schaltfläche **Schließen** aus.
 
     Der in Konflikt stehende Feldwert wird im doppelten Datensatz aktualisiert, sodass er mit dem aktuellen Datensatz zusammengeführt werden kann. Der doppelte Datensatz existiert auch weiterhin nach der Zusammenführung.
 13. Wiederholen Sie die Schritte 8 bis 12, bis alle Konflikte gelöst sind. Das Inforegister **Konflikte** wird nicht mehr angezeigt.
@@ -67,4 +67,4 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Kontakte einrichten](marketing-setup-contacts.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

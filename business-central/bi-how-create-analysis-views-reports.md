@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3c4e5b5211b9e56193698e2f86b587e5f8951f79
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 41c10e142d2a64a7e86a0bf3604af649978bef83
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913813"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752205"
 ---
 #  <a name="create-analysis-reports"></a>Analyseberichte erstellen
 Verkaufsleiter müssen regelmäßig Umsatz, Bruttogewinn sowie andere Verkaufsleistungsschlüsselindikatoren analysieren. Einkäufer sind eher an der Entwicklung des Einkaufsvolumens, der Leistung des Verkäufers und den Einkaufspreisen interessiert. Demgegenüber benötigen Logistik- und Lagerbestandsmanager Informationen zu Lagerumsatz, eine Analyse der Lagerbestandsumlagerung und Statistiken zum Lagerwert.  
@@ -41,9 +41,9 @@ Dann können Sie beispielsweise folgende Spalten erstellen:
 - Verkäufe in Prozent zum letzten Monat  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Einrichten von Zeilen- und Spaltenlayouts  
- Auf der Seite **Analysebericht** können Sie verschiedene Zeilen- und Spaltenlayouts anzeigen, je nachdem, welche Zeilen oder Zeilenvorlagen Sie auf der Seite **Analysezeilenvorlagen** eingerichtet haben. Sie können den Namen des Berichts und die Objekte festlegen, die Sie in den Zeilen des Berichts anzeigen möchten. Sie erstellen die Spalten auf der Seite **Analysespaltenvorlagen** . Sie können den Namen der Spaltenvorlage und die Analyseparameter festlegen, die Sie in dem Bericht als Spalten darstellen möchten. Jede Zeile auf der Seite **Analysespaltenvorlagen** stellt eine Spalte im Bericht dar. Beachten Sie, dass Analysezeilen und -spalten voneinander unabhängig sind.  
+ Auf der Seite **Analysebericht** können Sie verschiedene Zeilen- und Spaltenlayouts anzeigen, je nachdem, welche Zeilen oder Zeilenvorlagen Sie auf der Seite **Analysezeilenvorlagen** eingerichtet haben. Sie können den Namen des Berichts und die Objekte festlegen, die Sie in den Zeilen des Berichts anzeigen möchten. Sie erstellen die Spalten auf der Seite **Analysespaltenvorlagen**. Sie können den Namen der Spaltenvorlage und die Analyseparameter festlegen, die Sie in dem Bericht als Spalten darstellen möchten. Jede Zeile auf der Seite **Analysespaltenvorlagen** stellt eine Spalte im Bericht dar. Beachten Sie, dass Analysezeilen und -spalten voneinander unabhängig sind.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fasst die Ergebnisse des Berichts auf der Seite **Analysebericht** basierend auf den eingerichteten Zeilen und Spalten zusammen, wie in der folgenden Tabelle gezeigt.  
+[!INCLUDE[prod_short](includes/prod_short.md)] fasst die Ergebnisse des Berichts auf der Seite **Analysebericht** basierend auf den eingerichteten Zeilen und Spalten zusammen, wie in der folgenden Tabelle gezeigt.  
 
 |- |Verkäufe aktueller Monat|Verkäufe letzter Monat|Verkäufe letzter Monat %|  
 |-|-|-|-|  
@@ -69,7 +69,7 @@ Eine Vorlage enthält eine Gruppe von Zeilen, wobei jede Zeile eine Analysespalt
     > [!NOTE]  
     >   Um eine Spalte zu definieren, müssen Sie das Feld **Analysenartcode** für alle Spaltentypen außer **Formel** ausfüllen. Sie richten die Analysetypcodes auf der Seite **Analysearten** ein.  
     Wenn Sie zudem im Feld **Postenart** die Option **Artikelposten** auswählen, werden die aktuellen Zahlen aus dem Artikelposten kopiert. Wenn Sie **Artikelbudgetposten** auswählen, werden die budgetierten Zahlen aus dem Budget kopiert.  
-5.  Klicken Sie auf die Schaltfläche **OK** , um die Änderungen zu speichern.  
+5.  Klicken Sie auf die Schaltfläche **OK**, um die Änderungen zu speichern.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Analysenzeilenvorlagen einrichten:  
 Das folgende Verfahren basiert auf Analyseberichten für Aufträge. Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.
@@ -81,7 +81,7 @@ Eine Vorlage enthält eine Gruppe von Zeilen, die die im Bericht angezeigten Ana
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufslinienvorlagen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die erste leere Linie und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie die Aktion **Zeilen** aus.  
-4. Erstellen Sie auf der Seite **Analysezeilen** Zeilen für die Artikel, Debitoren, Kreditioren oder Verkäufer, für die Sie Zahlen im Analysebericht anzeigen möchten. Sie müssen das Feld **Art** , das Feld **Bereich** und das Feld **Beschreibung** ausfüllen.  
+4. Erstellen Sie auf der Seite **Analysezeilen** Zeilen für die Artikel, Debitoren, Kreditioren oder Verkäufer, für die Sie Zahlen im Analysebericht anzeigen möchten. Sie müssen das Feld **Art**, das Feld **Bereich** und das Feld **Beschreibung** ausfüllen.  
 
 > [!NOTE]  
 >   Möchten Sie alternativ mehrere individuelle Zeilen für jeden Artikel, Debitor usw. erzeugen, wählen Sie die geeignete Einfügeoption aus. Wenn es erforderlich ist, können Sie dann die Zeilen manuell bearbeiten. Um Zeilen einzufügen, wählen Sie auf der Registerkarte Aktionen in der Gruppe Funktionen die Option **Artikel einfügen** oder **Artikelgruppen** einfügen aus.  
@@ -105,4 +105,4 @@ Verwenden Sie Analyseberichte, um die Entwicklung der Verkäufe anhand der ausge
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e059b3595ca12f23307f7f2f656d89ecdb21e2e2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 67835316b84301b8d45eb6d857e4167a3e5a5d65
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920090"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749641"
 ---
 # <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
 
-Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deutschen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vorhanden ist.  
+Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deutschen Version von [!INCLUDE[prod_short](../../includes/prod_short.md)] vorhanden ist.  
 
 ## <a name="feature-availability"></a>Verfügbarkeit von Funktionen
 
@@ -60,11 +60,10 @@ Die folgenden Themen beschreiben die lokale Funktionalität, die nur in der deut
     * [Währungswechselkurse](currency-exchange-rates.md) **Jetzt verfügbar**
     * [Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md) **Jetzt verfügbar**
     * [Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt verfügbar**
-
 ## <a name="see-also"></a>Siehe auch
 
 [Zertifizierung von Business Central für deutschen Zielmarkt (Beleg ist in Deutsch)](https://go.microsoft.com/fwlink/?linkid=875256)  
-[Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

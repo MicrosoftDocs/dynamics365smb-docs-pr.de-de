@@ -10,36 +10,36 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c2b663208a1bed8522ea532efdb2dee0d519b646
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94fe9b960b61e4607bf285cd1e9ee8f1af1be916
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912521"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747790"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 
-Mit dem Sicherheitssystem [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie steuern, auf welche Objekte ein Benutzer innerhalb jeder Datenbank oder Umgebung zugreifen darf. Sie können für jeden Benutzer festlegen, ob er Daten in den ausgewählten Datenbankobjekten lesen, ändern oder eingeben darf. Detaillierte Informationen finden Sie unter [Datensicherheit](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in der Hilfe für Entwickler und ITPro für [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Mit dem Sicherheitssystem [!INCLUDE[prod_short](includes/prod_short.md)] können Sie steuern, auf welche Objekte ein Benutzer innerhalb jeder Datenbank oder Umgebung zugreifen darf. Sie können für jeden Benutzer festlegen, ob er Daten in den ausgewählten Datenbankobjekten lesen, ändern oder eingeben darf. Detaillierte Informationen finden Sie unter [Datensicherheit](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in der Hilfe für Entwickler und ITPro für [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Bevor Sie Benutzern und Benutzergruppen Berechtigungen zuweisen, müssen Sie festlegen, wer sich anmelden kann, indem Sie Benutzer gemäß der Lizenz erstellen, wie im Microsoft 365 Admin Center definiert. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt es zwei Ebenen von Berechtigungen für Datenbankobjekte:
+In [!INCLUDE[prod_short](includes/prod_short.md)] gibt es zwei Ebenen von Berechtigungen für Datenbankobjekte:
 
 - Gesamt-Berechtigungen gemäß der Lizenz, auch als Berechtigung bezeichnet.
-- Detailliertere Berechtigungen, wie sie innerhalb von [!INCLUDE[d365fin](includes/d365fin_md.md)] vergeben werden.
+- Detailliertere Berechtigungen, wie sie innerhalb von [!INCLUDE[prod_short](includes/prod_short.md)] vergeben werden.
 
 Um die Verwaltung von Berechtigungen für mehrere Benutzer zu erleichtern, können Sie diese in Benutzergruppen organisieren und so ein Berechtigungsset für mehrere Benutzer in einer Aktion zuordnen oder ändern. Weitere Informationen finden Sie unter [Berechtigungen über Benutzergruppen verwalten](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
-> Eine weitere Methode, um zu definieren, auf welche Funktionen ein Benutzer Zugriff hat, ist das Setzen des Feldes **Erfahrung** auf der Seite **Unternehmensinformationen** . Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
+> Eine weitere Methode, um zu definieren, auf welche Funktionen ein Benutzer Zugriff hat, ist das Setzen des Feldes **Erfahrung** auf der Seite **Unternehmensinformationen**. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 >
-> Sie können auch definieren, was Benutzer auf der Benutzeroberfläche sehen und wie sie mit ihrer zulässigen Funktionalität über Seiten interagieren. Dies geschieht über Profile, die Sie verschiedenen Arten von Benutzern entsprechend ihrer Jobrolle oder Abteilung zuordnen. Weitere Informationen finden Sie unter [Verwalten von Profilen](admin-users-profiles-roles.md) und [[!INCLUDE[d365fin](includes/d365fin_md.md)] anpassen](ui-customizing-overview.md).
+> Sie können auch definieren, was Benutzer auf der Benutzeroberfläche sehen und wie sie mit ihrer zulässigen Funktionalität über Seiten interagieren. Dies geschieht über Profile, die Sie verschiedenen Arten von Benutzern entsprechend ihrer Jobrolle oder Abteilung zuordnen. Weitere Informationen finden Sie unter [Verwalten von Profilen](admin-users-profiles-roles.md) und [[!INCLUDE[prod_short](includes/prod_short.md)] anpassen](ui-customizing-overview.md).
 
 ## <a name="to-assign-permission-sets-to-users"></a>So weisen Sie Benutzern Berechtigungen zu
 
-Ein Berechtigungssatz ist eine Sammlung von Berechtigungen für bestimmte Datenbankobjekte. Allen Benutzern muss mindestens ein Berechtigungssatz zugeordnet werden, bevor sie auf [!INCLUDE[d365fin](includes/d365fin_md.md)] zugreifen können.
+Ein Berechtigungssatz ist eine Sammlung von Berechtigungen für bestimmte Datenbankobjekte. Allen Benutzern muss mindestens ein Berechtigungssatz zugeordnet werden, bevor sie auf [!INCLUDE[prod_short](includes/prod_short.md)] zugreifen können.
 
-Eine [!INCLUDE[d365fin](includes/d365fin_md.md)]-Lösung enthält eine Reihe von vordefinierten Berechtigungen, die von Microsoft oder Ihrem Lösungsanbieter hinzugefügt werden. Sie können auch neue Berechtigungen hinzufügen, die auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Berechtigungssätzen](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+Eine [!INCLUDE[prod_short](includes/prod_short.md)]-Lösung enthält eine Reihe von vordefinierten Berechtigungen, die von Microsoft oder Ihrem Lösungsanbieter hinzugefügt werden. Sie können auch neue Berechtigungen hinzufügen, die auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Berechtigungssätzen](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Wenn Sie den Zugriff eines Benutzers nicht mehr einschränken möchten, als in der Lizenz bereits definiert ist, können Sie dem Benutzer eine spezielle Berechtigung namens SUPER zuweisen. Diese Berechtigung stellt sicher, dass der Benutzer auf alle in der Lizenz angegebenen Objekte zugreifen kann.
@@ -76,7 +76,7 @@ Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich
 
     Der Teil **Nach Berechtigungssatz** zeigt die zugewiesenen Zugriffsrechtsätze, über die dem Benutzer die Berechtigungen gewährt werden, die Herkunft und die Art des Berechtigungssatzes und wie weit die verschiedenen Berechtigungssätze zulässig sind.
 
-    Für jede Zeile, die Sie im Abschnitt **Berechtigungen** auswählen, zeigt der Abschnitt **Nach Berechtigungssatz** , über welchen Berechtigungssatz oder welche Berechtigungssätze die Berechtigung gewährt wird. In diesem Abschnitt können Sie den Wert in jedem der fünf Zugriffstypfelder **Leseberechtigung** , **Einfügeberechtigung** , **Bearbeitungsberechtigung** , **Löschberechtigung** und **Ausführungsberechtigung** ändern.
+    Für jede Zeile, die Sie im Abschnitt **Berechtigungen** auswählen, zeigt der Abschnitt **Nach Berechtigungssatz**, über welchen Berechtigungssatz oder welche Berechtigungssätze die Berechtigung gewährt wird. In diesem Abschnitt können Sie den Wert in jedem der fünf Zugriffstypfelder **Leseberechtigung**, **Einfügeberechtigung**, **Bearbeitungsberechtigung**, **Löschberechtigung** und **Ausführungsberechtigung** ändern.
 
     > [!NOTE]  
     > Nur Berechtigungssätze vom Typ **Benutzerdefiniert** können bearbeitet werden.
@@ -97,7 +97,7 @@ Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich
 Berechtigungssatz funktionieren als Container von Berechtigungen, sodass Sie mehrere Berechtigungen einfach in einem Datensatz verwalten können.
 
 > [!NOTE]  
-> Eine [!INCLUDE[d365fin](includes/d365fin_md.md)]-Lösung enthält normalerweise mehrere vordefinierte Berechtigungssätze, die von Microsoft oder von Ihrem Software-Anbieter hinzugefügt werden. Diese Berechtigungssätze sind vom Typ **System** oder **Erweiterung** . Sie können diese Art der Berechtigungssätze oder die Berechtigungen darin nicht erstellen oder bearbeiten. Jedoch können Sie sie kopieren, um eigene Berechtigungssätze und Berechtigungen zu definieren.
+> Eine [!INCLUDE[prod_short](includes/prod_short.md)]-Lösung enthält normalerweise mehrere vordefinierte Berechtigungssätze, die von Microsoft oder von Ihrem Software-Anbieter hinzugefügt werden. Diese Berechtigungssätze sind vom Typ **System** oder **Erweiterung**. Sie können diese Art der Berechtigungssätze oder die Berechtigungen darin nicht erstellen oder bearbeiten. Jedoch können Sie sie kopieren, um eigene Berechtigungssätze und Berechtigungen zu definieren.
 >
 > Berechtigungssätze, die Benutzer neu oder als Kopien erstellen, sind vom Typ **Benutzerdefiniert** und können bearbeitet werden.
 
@@ -114,7 +114,7 @@ Sie können auch eine Kopierfunktion verwenden, um schnell alle Berechtigungen e
 > [!NOTE]  
 > Wenn ein Systemberechtigungssatz, den Sie kopiert haben, geändert wird, werden Sie (abhängig von Ihrer Auswahl) benachrichtigt, sodass Sie entscheiden können, ob die Änderungen in Ihren benutzerdefinierten Berechtigungssatz kopiert oder geschrieben werden müssen.
 
-1. Auf der Seite **Berechtigungssätze** wählen Sie die Zeile für einen Zugriffsrechtsatz, den Sie kopieren möchten, und wählen die **Berechtigungssatz kopieren** -Aktion aus.
+1. Auf der Seite **Berechtigungssätze** wählen Sie die Zeile für einen Zugriffsrechtsatz, den Sie kopieren möchten, und wählen die **Berechtigungssatz kopieren**-Aktion aus.
 2. Auf der Seite **Berechtigungssatz kopieren** geben Sie den Namen des neuen Berechtigungssatzes an, und wählen Sie dann die Schaltfläche **OK** aus.
 3. Wählen Sie das Kontrollkästchen **Bei geändertem Berechtigungssatz benachrichtigen** aus, wenn Sie eine Verknüpfung zwischen den ursprünglichen und dem kopierten Berechtigungssätzen beibehalten möchten. Der Link wird verwendet, um Sie zu benachrichtigen, wenn der Name oder der Inhalt des ursprünglichen Berechtigungssatzes in einer zukünftigen Version geändert wird, auf die die Lösung später aktualisiert wird.
 
@@ -122,7 +122,7 @@ Der neue Berechtigungssatz mit allen Berechtigungen des kopierten Berechtigungss
 
 ### <a name="to-export-and-import-a-permission-set"></a>So exportieren und importieren Sie einen Berechtigungssatz
 
-Um Berechtigungen schnell einzurichten, können Sie Berechtigungssätze importieren, die Sie aus einem anderen [!INCLUDE[d365fin](includes/d365fin_md.md)]Mandanten exportiert haben.
+Um Berechtigungen schnell einzurichten, können Sie Berechtigungssätze importieren, die Sie aus einem anderen [!INCLUDE[prod_short](includes/prod_short.md)]Mandanten exportiert haben.
 
 In Umgebungen mit mehreren Mandanten wird ein Berechtigungssatz in einen bestimmten Mandanten importiert, d. h. der Umfang des Imports ist „Mandant“.
 
@@ -131,7 +131,7 @@ In Umgebungen mit mehreren Mandanten wird ein Berechtigungssatz in einen bestimm
     Eine XML-Datei wird im Download-Ordner auf Ihrem Computer erstellt. Diese hat standardmäßig den Namen „Export Permission Sets.xml“.
 
 2. Wählen Sie auf der Seite **Berechtigungssätze** unter „Mandant 2“ die Aktion **Berechtigungssätze importieren** aus.
-3. Berücksichtigen Sie auf der Seite **Berechtigungssätze importieren** , ob Sie vorhandene Berechtigungssätze mit neuen Berechtigungssätzen in der XML-Datei zusammenführen möchten.
+3. Berücksichtigen Sie auf der Seite **Berechtigungssätze importieren**, ob Sie vorhandene Berechtigungssätze mit neuen Berechtigungssätzen in der XML-Datei zusammenführen möchten.
 
     Wenn Sie das Kontrollkästchen **Vorhandene Berechtigungen aktualisieren** aktivieren, werden vorhandene Berechtigungssätze, deren Namen mit den in der XML-Datei vorhandenen Berechtigungssätzen identisch sind, mit den importierten Berechtigungssätzen zusammengeführt.
 
@@ -148,10 +148,10 @@ In diesem Verfahren wird beschrieben, wie manuell Berechtigungen addiert oder be
 > [!NOTE]
 > Wenn Sie eine Berechtigung und dadurch den zugehörigen Berechtigungssatz bearbeiten, gelten die Änderungen auch für andere Benutzer, denen der Berechtigungssatz zugewiesen wurde.
 
-1. Auf der Seite **Berechtigungssätze** wählen Sie die Zeile für einen Zugriffsrechtsatz, und wählen die **Berechtigungen** -Aktion aus.
+1. Auf der Seite **Berechtigungssätze** wählen Sie die Zeile für einen Zugriffsrechtsatz, und wählen die **Berechtigungen**-Aktion aus.
 2. Auf der Seite **Berechtigungen** erstellen Sie eine neue Zeile oder bearbeiten Sie die Felder einer vorhandenen Zeile.
 
-In jedem der fünf Zugriffstypfelder **Leseberechtigung** , **Einfügeberechtigung** , **Bearbeitungsberechtigung** , **Löschberechtigung** und **Ausführungsberechtigung** können Sie eine der folgenden drei Berechtigungsoptionen auswählen:
+In jedem der fünf Zugriffstypfelder **Leseberechtigung**, **Einfügeberechtigung**, **Bearbeitungsberechtigung**, **Löschberechtigung** und **Ausführungsberechtigung** können Sie eine der folgenden drei Berechtigungsoptionen auswählen:
 
 |Option|Description|Priorität|
 |------|-----------|-------|
@@ -162,7 +162,7 @@ In jedem der fünf Zugriffstypfelder **Leseberechtigung** , **Einfügeberechtigu
 ### <a name="example---indirect-permission"></a>Beispiel - Indirekte Berechtigungen
 
 Sie können indirekte Berechtigungen zuweisen, um ein Objekt nur über ein anderes Objekt zu verwenden.
-Beispielsweise kann ein Benutzer die Berechtigung haben, Codeunit 80, Vertrieb-Beitrag, auszuführen. Die Verkaufsbuchung Codeunit führt viele Aufgaben aus, einschließlich der Bearbeitung von Tabelle 37 Verkaufsposition aus. Wenn der Benutzer ein Verkaufsbeleg bucht, überprüft die Codeunit "Vertrieb-Beitrag" [!INCLUDE[d365fin](includes/d365fin_md.md)], ob der Benutzer über die Berechtigung zum Bearbeiten der Tabelle "Verkaufszeile" verfügt. Wenn nicht, kann die Codeunit ihre Aufgaben nicht ausführen und der Benutzer erhält eine Fehlermeldung. In diesem Fall wird die Codeunit erfolgreich ausgeführt.
+Beispielsweise kann ein Benutzer die Berechtigung haben, Codeunit 80, Vertrieb-Beitrag, auszuführen. Die Verkaufsbuchung Codeunit führt viele Aufgaben aus, einschließlich der Bearbeitung von Tabelle 37 Verkaufsposition aus. Wenn der Benutzer ein Verkaufsbeleg bucht, überprüft die Codeunit "Vertrieb-Beitrag" [!INCLUDE[prod_short](includes/prod_short.md)], ob der Benutzer über die Berechtigung zum Bearbeiten der Tabelle "Verkaufszeile" verfügt. Wenn nicht, kann die Codeunit ihre Aufgaben nicht ausführen und der Benutzer erhält eine Fehlermeldung. In diesem Fall wird die Codeunit erfolgreich ausgeführt.
 
 Jedoch muss der Anwender keinen vollen Zugriff auf die Tabelle Verkaufszeile haben, um Codeunit auszuführen. Wenn der Benutzer über indirekte Berechtigungen für die Tabelle "Verkaufszeile" verfügt, wird die Codeunit "Verkaufseinheit" erfolgreich ausgeführt. Wenn ein Benutzer über indirekte Berechtigungen verfügt, kann dieser Benutzer die Tabelle Verkaufszeile nur ändern, indem die Verkaufsbuchung Codeunit oder ein anderes Objekt ausgeführt wird, das die Berechtigung zum ändern der Tabelle Verkaufsposition hat. Der Benutzer kann die Tabelle Verkaufsposition nur von unterstützten Anwendungsbereichen aus ändern. Der Benutzer kann die Funktion mit anderen Methoden nicht unbeabsichtigt oder böswillig ausführen.
 
@@ -176,14 +176,14 @@ Jedoch muss der Anwender keinen vollen Zugriff auf die Tabelle Verkaufszeile hab
 6. Auf der Seite **Berechtigungen** wählen Sie die Aktion **Berechtigungen aufzeichnen** aus, und wählen Sie dann die Aktion **Starten** aus.
 
     Damit wird ein Aufnahmeprozesses gestartet, der alle Ihre Aktionen in der Benutzeroberfläche erfasst.
-7. Wechseln Sie zu den verschiedenen Seiten und Aktivitäten in [!INCLUDE[d365fin](includes/d365fin_md.md)] für die Benutzer mit diesem Berechtigungssatz, die darauf zugreifen sollen. Sie müssen die Aufgaben ausführen, für die Sie Berechtigungen erfassen möchten.
+7. Wechseln Sie zu den verschiedenen Seiten und Aktivitäten in [!INCLUDE[prod_short](includes/prod_short.md)] für die Benutzer mit diesem Berechtigungssatz, die darauf zugreifen sollen. Sie müssen die Aufgaben ausführen, für die Sie Berechtigungen erfassen möchten.
 8. Wenn Sie die Erfassung abschließen möchten, kehren Sie zur Seite **Berechtigungen** zurück, und wählen Sie die **Beenden** Aktion aus.
-9. Wählen Sie die Schaltfläche **Ja** , um die erfassten Berechtigungen dem neuen Berechtigungssatz zuzuordnen.
+9. Wählen Sie die Schaltfläche **Ja**, um die erfassten Berechtigungen dem neuen Berechtigungssatz zuzuordnen.
 10. Für jedes Objekt in der erfassten Liste geben Sie an, ob Benutzer in der Lage sind, Datensätze in den erfassen Tabellen einzufügen, zu ändern oder zu löschen.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Sicherheitsfilter - So beschränken Sie den Zugriff eines Benutzers auf bestimmte Datensätze in einer Tabelle
 
-Verwenden Sie für Sicherheit auf Datensatzebene in [!INCLUDE[d365fin](includes/d365fin_md.md)] Sicherheitsfilter, um den Benutzerzugriff auf Daten in einer Tabelle einzuschränken. Sie erstellen Sicherheitsfilter für Tabellendaten. Ein Sicherheitsfilter beschreibt einen Satz Datensätze in einer Tabelle, worauf ein Benutzer zugreifen darf. Sie können z. B. angeben, dass ein Benutzer nur die Daten lesen kann, die Informationen über einen bestimmten Debitor enthalten. Das bedeutet, dass der Benutzer nicht auf die Daten zugreifen kann, die Informationen zu anderen Debitoren enthalten. Weitere Informationen finden Sie unter [Verwenden von Sicherheitsfiltern](/dynamics365/business-central/dev-itpro/security/security-filters) in der Hilfe für Entwickler und IT-Spezialisten.
+Verwenden Sie für Sicherheit auf Datensatzebene in [!INCLUDE[prod_short](includes/prod_short.md)] Sicherheitsfilter, um den Benutzerzugriff auf Daten in einer Tabelle einzuschränken. Sie erstellen Sicherheitsfilter für Tabellendaten. Ein Sicherheitsfilter beschreibt einen Satz Datensätze in einer Tabelle, worauf ein Benutzer zugreifen darf. Sie können z. B. angeben, dass ein Benutzer nur die Daten lesen kann, die Informationen über einen bestimmten Debitor enthalten. Das bedeutet, dass der Benutzer nicht auf die Daten zugreifen kann, die Informationen zu anderen Debitoren enthalten. Weitere Informationen finden Sie unter [Verwenden von Sicherheitsfiltern](/dynamics365/business-central/dev-itpro/security/security-filters) in der Hilfe für Entwickler und IT-Spezialisten.
 
 ## <a name="to-manage-permissions-through-user-groups"></a>So verwalten Sie Berechtigungen über Benutzergruppen
 
@@ -220,7 +220,7 @@ Die neue Benutzergruppe wird die Seite **Benutzergruppen** hinzugefügt. Fahren 
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Benutzergruppen** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Benutzergruppe aus, der Sie die Berechtigung zuweisen möchten.
 Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich **Benutzerzugriffsrechtsätze** angezeigt.
-3. Wählen Sie die Aktion **Benutzerrechtesätze** , um die Seite **Benutzerrechtesätze** zu öffnen.
+3. Wählen Sie die Aktion **Benutzerrechtesätze**, um die Seite **Benutzerrechtesätze** zu öffnen.
 4. Füllen Sie auf der Seite **Benutzerberechtigungen** in einer neuen Zeile die Felder nach Bedarf aus.
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>So weisen Sie ein Berechtigungsset auf der Seite **Berechtigung festgelegt nach Benutzergruppe** zu
@@ -228,9 +228,9 @@ Zugriffsrechtsätze, die dem Benutzer bereits zugewiesen sind, werden im Bereich
 Die folgende Vorgehensweise erläutert, wie Sie Berechtigungssätze einer Benutzergruppe auf der Seite **Berechtigungen nach Benutzergruppe** zuordnen.
 
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Benutzer** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie auf der Seite **Benutzer** den entsprechenden Benutzer aus und wählen Sie dann die Aktion **Berechtigung festgelegt durch Benutzergruppe** .
+2. Wählen Sie auf der Seite **Benutzer** den entsprechenden Benutzer aus und wählen Sie dann die Aktion **Berechtigung festgelegt durch Benutzergruppe**.
 3. Aktivieren Sie auf der Seite **Berechtigung festgelegt durch Benutzergruppe** das Kontrollkästchen **[Name der Benutzergruppe]** in einer Zeile für die entsprechende Berechtigung, um die Gruppe der Benutzergruppe zuzuordnen.
-4. Aktivieren Sie das Kontrollkästchen **Alle Benutzergruppen** , um die Berechtigung allen Benutzergruppen zuzuordnen.
+4. Aktivieren Sie das Kontrollkästchen **Alle Benutzergruppen**, um die Berechtigung allen Benutzergruppen zuzuordnen.
 
 ## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>So entfernen Sie veraltete Berechtigungen aus allen Berechtigungssätzen
 
@@ -243,14 +243,22 @@ Administratoren nutzen das Fenster Benutzer einrichten, um Zeiträume zu definie
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Benutzereinrichtung** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie auf der Seite **Benutzereinrichtung** die Aktion **Neu** aus.
 3. In dem Feld **Benutzer-ID** geben Sie die ID eines Benutzers ein, oder wählen Sie das Feld aus, um alle Nutzer der aktiven Fenster im System anzuzeigen.
-4. Füllen Sie die Felder bei Bedarf aus.
+4. Füllen Sie die Felder nach Bedarf aus.
+
+
+## <a name="viewing-permission-changes-telemetry"></a>Durch das Anzeigen der Berechtigung wird die Telemetrie geändert 
+
+Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um Änderungen, die an der Berechtigung vorgenommen wurden, an eine Application Insights Ressource in Microsoft Azure zu senden. Anschließend erstellen Sie mit Azure Monitor Berichte und richten Warnungen für die erfassten Daten ein. Weitere Informationen finden Sie in den folgenden Artikeln in [!INCLUDE[prod_short](includes/prod_short.md)] Entwickler- und IT-Pro-Hilfe:
+
+- [Überwachung und Analyse der Telemetrie – Aktivieren Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
+- [Ananlysieren der Feldüberwachungstelemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
 
 ## <a name="see-also"></a>Siehe auch
 
 [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md)  
 [Profile verwalten](admin-users-profiles-roles.md)  
 [Funktionen, die angezeigt werden ändern](ui-experiences.md)  
-[Anpassen von [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
+[Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Hinzufügen von Benutzern zu Microsoft 365 für Unternehmen](https://aka.ms/CreateOffice365Users)  

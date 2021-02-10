@@ -1,6 +1,6 @@
 ---
-title: 'Designdetails: Codeunit 12 Änderungen: Zuordnen der globalen Variablen für Fibu Buch.-Blatt-Beitrags-Zeile | Microsoft Docs'
-description: Die folgenden Änderungen wurden in dieser Version von  Business Central implementiert.
+title: Änderungen bei der Zuordnung globaler Variablen für die Buchung in Codeunit 12
+description: In früheren Versionen wurde Codeunit 12 geändert, um die Leistung beim Posten aus dem allgemeinen Journal zu verbessern. Erfahren Sie mehr über die Änderungen an den globalen Variablen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: 513518f7e76fcdbb43563d225c683a8bd97e5e4e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0fc79ba982e17b9295f0f611ca34b4eb615001f3
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917451"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367759"
 ---
-# <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Codeunit 12 Änderungen: Zuordnen der globalen Variablen für Fibu Buch.-Blatt-Beitrags-Zeile
-Die folgenden Änderungen wurden in dieser Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] implementiert.  
+# <a name="historical-changes-to-codeunit-12-mapping-global-variables-for-general-journal-post-line"></a>Frühere Änderungen in Codeunit 12: Zuordnen der globalen Variablen für Fibu Buch.-Blatt-Beitrags-Zeile
+
+Die folgenden Änderungen wurden in dieser Version von [!INCLUDE [navnow_md](includes/navnow_md.md)] implementiert.  
 
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Bemerkung**|  
 |----------------------------------------|----------------------------------------|-----------------|  

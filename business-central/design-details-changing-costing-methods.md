@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917526"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751730"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Designdetails: Lagerabgangsmethode für Artikel ändern
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie eine Lagerabgangsmethode für einen Artikel nicht ändern, nachdem Sie den Artikel in eine Transaktion aufgenommen haben. Zum Beispiel, nachdem Sie den Artikel gekauft oder verkauft haben. Wenn dem Artikel oder den Artikeln eine falsche Lagerabgangsmethode zugewiesen wurde, können Sie das Problem möglicherweise erst feststellen, wenn Sie Ihre Finanzberichterstattung durchführen.
+In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie eine Lagerabgangsmethode für einen Artikel nicht ändern, nachdem Sie den Artikel in eine Transaktion aufgenommen haben. Zum Beispiel, nachdem Sie den Artikel gekauft oder verkauft haben. Wenn dem Artikel oder den Artikeln eine falsche Lagerabgangsmethode zugewiesen wurde, können Sie das Problem möglicherweise erst feststellen, wenn Sie Ihre Finanzberichterstattung durchführen.
 
 In diesem Thema wird beschrieben, wie Sie diese Situation beheben können. Der empfohlene Ansatz besteht darin, den Artikel mit der falschen Lagerabgangsmethode durch einen neuen Artikel zu ersetzen und mithilfe eines Montageauftrags den Lagerbestand vom alten auf den neuen Artikel zu übertragen.
 
@@ -35,7 +35,7 @@ Kalkulationsmethoden steuern die Kostenberechnung, wenn Waren gekauft, in den La
 
 *Bruttoertrag* = *Einnahmen - COGS*
 
-Wenn Sie Lagerartikel einrichten, müssen Sie eine Kalkulationsmethode zuweisen. Die Methode kann von Unternehmen zu Unternehmen und von Artikel zu Artikel variieren. Daher ist es wichtig, die richtige auszuwählen. Die folgenden Lagerabgangsmethoden werden in [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt:
+Wenn Sie Lagerartikel einrichten, müssen Sie eine Kalkulationsmethode zuweisen. Die Methode kann von Unternehmen zu Unternehmen und von Artikel zu Artikel variieren. Daher ist es wichtig, die richtige auszuwählen. Die folgenden Lagerabgangsmethoden werden in [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt:
 
 * Durchschnitt
 * FIFO
@@ -60,7 +60,7 @@ In diesem Abschnitt werden die folgenden Schritte zum Ändern der einem Artikel 
 
 ### <a name="define-a-default-costing-method"></a>Standardmäßige Lagerabgangsmethode definieren
 
-Um zukünftige Fehler zu vermeiden, können Sie eine standardmmäßige Lagerabgangsmethode für neue Artikel angeben. Wenn jemand einen neuen Artikel erstellt, schlägt [!INCLUDE[d365fin](includes/d365fin_md.md)] immer die standardmäßige Lagerabgangsmethode vor. Sie können die standardmäßige Lagerabgangsmethode im Feld **Standardmäßige Lagerabgangsmethode** auf der Seite **Lagereinrichtung** festlegen. 
+Um zukünftige Fehler zu vermeiden, können Sie eine standardmmäßige Lagerabgangsmethode für neue Artikel angeben. Wenn jemand einen neuen Artikel erstellt, schlägt [!INCLUDE[prod_short](includes/prod_short.md)] immer die standardmäßige Lagerabgangsmethode vor. Sie können die standardmäßige Lagerabgangsmethode im Feld **Standardmäßige Lagerabgangsmethode** auf der Seite **Lagereinrichtung** festlegen. 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identifizieren Sie die Artikel, für die die Lagerabgangsmethode geändert werden soll, und nummerieren Sie sie neu.
 
@@ -79,15 +79,15 @@ Damit die neuen Artikel vollständig verwendet werden können, müssen Sie einig
 |Bereich  |Zu kopieren  |Vorgehensweise  |
 |---------|---------|---------|
 |Lagerbestand     |Lagerhaltungsdaten         |Überprüfen Sie, ob für den ursprünglichen Artikel Lagerhaltungsdaten angegeben sind. Wenn für jede Lagerhaltungsdatenkarte Planungsparameter eingegeben wurden, müssen Sie die Lagerhaltungsdaten für den neuen Artikel manuell erstellen. Wenn die Parameter nicht angegeben sind, können Sie den Stapelverarbeitungsauftrag **Lagerhaltungsdaten erstellen** auf der Seite **Artikelkarte** verwenden, um die Daten zu erstellen.        |
-|     |Ersatzartikel         |Überprüfen Sie, ob für den ursprügnlichen Artikel Ersatzartikel definiert sind. Falls ja, übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie die Aktion **Ersatzartikel** auf der Karte **Artikelkarte** , um Ersatzartikel anzuzeigen.         |
+|     |Ersatzartikel         |Überprüfen Sie, ob für den ursprügnlichen Artikel Ersatzartikel definiert sind. Falls ja, übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie die Aktion **Ersatzartikel** auf der Karte **Artikelkarte**, um Ersatzartikel anzuzeigen.         |
 |     |Analyseberichte         |Überprüfen Sie die Berichte „Artikelanalyse“, „Verkaufsanalyse“ und „Einkaufsanalyse“. Für diejenigen, die auf die ursprünglichen Artikel verweisen, können Sie entweder einen neuen Analysebericht mit einem Verweis auf den neuen Artikel erstellen (wobei der ursprüngliche Analysebericht als Verlauf verwendet wird) oder die Berichte so anpassen, dass sie auf den neuen Artikel verweisen.         |
 |     |Standard Buch.-Blätter         |Überprüfen Sie, ob Standard Buch.-Blätter auf den ursprünglichen Artikel verweisen, und übertragen Sie diese Daten bei Bedarf auf den neuen Artikel. Diese Informationen finden Sie in den Standard Buch.-Blättern, die im Artikel Buch.-Blatt verfügbar sind.          |
 |Verkauf     |Vorauszahlungsprozentsatz für Verkäufe         | Überprüfen Sie, ob für den ursprünglichen Artikel Vorauszahlungsprozentsätze für Verkäufe definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Wählen Sie zum Anzeigen von Vorauszahlungsprozentsätzen für Verkäufe auf der Seite **Artikelkarte** die Option **Verkauf** und dann **Zahlungsprozentsätze** aus.        |
 |Einkauf     |Vorauszahlungsprozentsatz für Einkäufe         |Überprüfen Sie, ob für den ursprünglichen Artikel Vorauszahlungsprozentsätze für Einkäufe definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Wählen Sie zum Anzeigen von Vorauszahlungsprozentsätzen für Verkäufe auf der Seite **Artikelkarte** die Option **Einkäufe** und dann **Zahlungsprozentsätze** aus.                 |
-|Logistik     |Lagerplatzinhalt         |Überprüfen Sie den für den ursprünglichen Artikel definierten Lagerplatzinhalt. Wenn Spalten wie „Min. Menge“, „Max. Menge“, „Standard“ und „Dediziert“ einzeln eingegeben wurden, müssen Sie anschließend den den Lagerplatzinhalt für den neuen Artikel manuell erstellen. Ist dies nicht der Fall, ist keine Aktion erforderlich. [!INCLUDE[d365fin](includes/d365fin_md.md)] verwaltet die Aufzeichnungen, wenn Sie Logistikbelege und Logistik Buch.-Blätter registrieren.|
-|Projekt     |Projektpreise         |Überprüfen Sie, ob für den ursprünglichen Artikel Projektpreise definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Diese Informationen finden Sie auf der Seite **Projektkarte** im Abschnitt **Projektdetails – Anzahl Preise** des **Infoboxbereichs** .         |
-|Service     |Qualifikationen der Serviceressourcen         |Überprüfen Sie, ob für den ursprünglichen Artikel die Qualifikation der Serviceressourcen definiert ist, und übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie zum Anzeigen der Qualifikationen der Ressourcen die Aktion **Qualifikationen der Ressourcen** auf der Seite **Artikelkarte** .          |
-|     |Serviceartikelkomponenten         |Überprüfen Sie, ob für den ursprünglichen Serviceartikel die Komponenten definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Zum Anzeigen der Komponenten von Serviceartikeln verwenden Sie auf der Seite **Artikelkarte** die Option **Serviceartikel** , um die Liste der zugehörigen Serviceartikel zu öffnen, und wählen Sie dann die Aktion **Komponenten** aus.          |
+|Logistik     |Lagerplatzinhalt         |Überprüfen Sie den für den ursprünglichen Artikel definierten Lagerplatzinhalt. Wenn Spalten wie „Min. Menge“, „Max. Menge“, „Standard“ und „Dediziert“ einzeln eingegeben wurden, müssen Sie anschließend den den Lagerplatzinhalt für den neuen Artikel manuell erstellen. Ist dies nicht der Fall, ist keine Aktion erforderlich. [!INCLUDE[prod_short](includes/prod_short.md)] verwaltet die Aufzeichnungen, wenn Sie Logistikbelege und Logistik Buch.-Blätter registrieren.|
+|Projekt     |Projektpreise         |Überprüfen Sie, ob für den ursprünglichen Artikel Projektpreise definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Diese Informationen finden Sie auf der Seite **Projektkarte** im Abschnitt **Projektdetails – Anzahl Preise** des **Infoboxbereichs**.         |
+|Service     |Qualifikationen der Serviceressourcen         |Überprüfen Sie, ob für den ursprünglichen Artikel die Qualifikation der Serviceressourcen definiert ist, und übertragen Sie diese Daten auf den neuen Artikel. Verwenden Sie zum Anzeigen der Qualifikationen der Ressourcen die Aktion **Qualifikationen der Ressourcen** auf der Seite **Artikelkarte**.          |
+|     |Serviceartikelkomponenten         |Überprüfen Sie, ob für den ursprünglichen Serviceartikel die Komponenten definiert sind, und übertragen Sie diese Daten auf den neuen Artikel. Zum Anzeigen der Komponenten von Serviceartikeln verwenden Sie auf der Seite **Artikelkarte** die Option **Serviceartikel**, um die Liste der zugehörigen Serviceartikel zu öffnen, und wählen Sie dann die Aktion **Komponenten** aus.          |
 |Produktion     |Fertigungsstücklisten         |Überprüfen Sie, ob Fertigungsstücklisten den ursprünglichen Artikel enthalten, und ersetzen Sie ihn durch den neuen Artikel. Zum Ersetzen des ursprünglichen Artikels wählen Sie auf der Seite **Fertigungsstücklisten** die Aktion **Fertigungsstückliste ersetzen** aus.         |
 |Montage     |Montagestücklisten         |Überprüfen Sie, ob Montagestücklisten den ursprünglichen Artikel enthalten, und ersetzen Sie ihn manuell durch den neuen Artikel.         |
 
@@ -138,13 +138,13 @@ Verwenden Sie beim Erstellen von Montageaufträgen die Informationen aus dem Inv
 > Ein Montageauftrag kann jeweils nur die Lagerhaltungsdaten eines Artikels verarbeiten. Sie müssen einen Montageauftrag für jede Kombination von Lagerhaltungsdaten erstellen, die eine Menge im Lagerbestand haben.
 
 > [!NOTE]
-> Für einen Lagerort müssen Sie möglicherweise Kommissionierungen erstellen, bevor Sie den Montageauftrag buchen können. Überprüfen Sie die Einrichtung für Kommissionierungen auf der Seite **Standortkarte** , um dies zu untersuchen. Weitere Informationen finden Sie unter [Artikel und Standorte für die gesteuerte Einlagerung und Kommissionierung einrichten](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
+> Für einen Lagerort müssen Sie möglicherweise Kommissionierungen erstellen, bevor Sie den Montageauftrag buchen können. Überprüfen Sie die Einrichtung für Kommissionierungen auf der Seite **Standortkarte**, um dies zu untersuchen. Weitere Informationen finden Sie unter [Artikel und Standorte für die gesteuerte Einlagerung und Kommissionierung einrichten](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
 
 ### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Bestandsmengen verarbeiten, die der Nachfrage zugeordnet sind
 
 Im Idealfall sollte der Lagerbestand für den ursprünglichen Artikel nach der Übertragung der Bestandsmengen auf Null gehen. Es können jedoch ausstehende Bestellungen, Arbeitsblätter und Buchungsblätter (siehe Tabelle unten) vorhanden sein, für die noch eine Menge des ursprünglichen Artikels erforderlich ist. Die Menge kann auch durch eine Reservierung oder Artikelverfolgung blockiert werden.
 
-**Beispiel** : Im Lager befinden sich 1000 Stück. und 20 Stück sind für einen Kundenauftrag reserviert, der noch nicht versendet wurde. In diesem Fall können Sie die 20 Stück im alten Artikel behalten, sodass Sie die ausstehende Bestellung erfüllen können.
+**Beispiel**: Im Lager befinden sich 1000 Stück. und 20 Stück sind für einen Kundenauftrag reserviert, der noch nicht versendet wurde. In diesem Fall können Sie die 20 Stück im alten Artikel behalten, sodass Sie die ausstehende Bestellung erfüllen können.
 
 > [!NOTE]
 > Es gibt Funktionsbereiche, die sich auf die Menge auswirken können, wie in der folgenden Tabelle aufgeführt. Daher kann es schwierig sein, die richtige Menge zu finden. Sie können im obigen Beispiel 100 Stück behalten und stattdessen die restlichen 900 Stück übertragen. Eine andere Möglichkeit wäre, die Belege und Buch.-Blätter zu verarbeiten, dass nur noch eine überschaubare Anzahl übrig bleibt. Eine weitere Alternative besteht darin, die gesamte Menge auf den neuen Artikel zu übertragen und dann einen Teil davon mithilfe des Montageauftrags wieder auf den ursprünglichen Artikel zu übertragen.
@@ -165,11 +165,11 @@ In der folgenden Tabelle sind Funktionsbereiche aufgeführt, in denen möglicher
 
 ### <a name="block-the-original-item-from-further-use"></a>Verwendung des ursprünglichen Artikels blockieren
 
-Wenn der Bestand für den ursprünglichen Artikel Null ist, können Sie den Artikel blockieren, um zu verhindern, dass er für neue Transaktionen verwendet wird. Wenn Sie den Artikel blockieren möchten, klicken Sie auf die Seite **Artikelkarte** , und aktivieren Sie das Kontrollkästchen **Blockiert** . Weitere Informationen finden Sie unter [Artikel aus Verkauf oder Einkauf sperren](inventory-how-block-items.md).
+Wenn der Bestand für den ursprünglichen Artikel Null ist, können Sie den Artikel blockieren, um zu verhindern, dass er für neue Transaktionen verwendet wird. Wenn Sie den Artikel blockieren möchten, klicken Sie auf die Seite **Artikelkarte**, und aktivieren Sie das Kontrollkästchen **Blockiert**. Weitere Informationen finden Sie unter [Artikel aus Verkauf oder Einkauf sperren](inventory-how-block-items.md).
 
 ## <a name="summary"></a>Zusammenfassung
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] ist das Ändern der Lagerabgangsmethode für Artikel, die in Transaktionen verwendet wurden, ein Prozess und keine Standardaktion. Sie können die in diesem Thema beschriebenen Schritte als Vorlage für den Prozess verwenden.
+In [!INCLUDE[prod_short](includes/prod_short.md)] ist das Ändern der Lagerabgangsmethode für Artikel, die in Transaktionen verwendet wurden, ein Prozess und keine Standardaktion. Sie können die in diesem Thema beschriebenen Schritte als Vorlage für den Prozess verwenden.
 
 Der Prozess kann zeitaufwändig sein, da mehrere manuelle Schritte erforderlich sind. Wenn Sie sich jedoch die Zeit nehmen, um den Prozess abzuschließen, werden die Auswirkungen von Fehlern auf die Finanzbuchhaltung minimiert.
 

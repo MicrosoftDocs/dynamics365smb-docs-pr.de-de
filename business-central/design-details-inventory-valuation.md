@@ -1,6 +1,6 @@
 ---
 title: Designdetails - Bestandbewertung | Microsoft Docs
-description: Die Lagerbewertung ist die Identifizierung der Kosten, die einem Lagerartikel zugewiesen sind, wie durch folgende Formel dargestellt.
+description: Die Bestandsbewertung ist die Ermittlung der Kosten eines Lagerartikels.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15ad8d52508148449fcb82c8c4b3b5b3c42b8443
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad2698338f717541665cc5b53f6196c02f694562
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913688"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751430"
 ---
 # <a name="design-details-inventory-valuation"></a>Designdetails: Bestandsbewertung
 Die Lagerbewertung ist die Identifizierung der Kosten, die einem Lagerartikel zugewiesen sind, wie durch folgende Formel dargestellt.  
 
 Endbestand = Anfangsbestand + Nettoeinkäufe - Vertriebskosten  
 
-Die Berechnung der Lagerbewertung verwendet das Feld **Kostenbetrag (Ist)** der Wertposten für den Artikel. Die Posten werden nach der Postenart klassifiziert, die den "Kostenkomponenten", den direkten Kosten, den indirekten Kosten, der Abweichung, der Neubewertung und der Rundung entspricht. Weitere Informationen finden Sie unter [Designdetails: Kostenkomponenten](design-details-cost-components.md)  
+Die Berechnung der Lagerbewertung verwendet das Feld **Kostenbetrag (Ist)** der Wertposten für den Artikel. Die Posten werden nach der Postenart klassifiziert, die den Kostenkomponenten, den direkten Kosten, den indirekten Kosten, der Abweichung, der Neubewertung und der Rundung entspricht. Weitere Informationen finden Sie unter [Designdetails: Kostenkomponenten](design-details-cost-components.md)  
 
-Posten werden gegeneinander ausgeglichen, entweder durch den "festen Ausgleich" XE oder entsprechend der allgemeinen Kostenfluss-Annahme, die von der Kostenberechnungsmethode XE "Methode; Kosten" XE "Kostenmethode definiert ist. Ein Posten des Lagerabgangs kann mit mehr als einem Zugangseintrag mit verschiedenen Buchungsdaten und ggfs. verschiedenen "Anschaffungskosten" ausgeglichen werden. [Weitere Informationen finden Sie unter "Designdetails: Artikelverfolgung".](design-details-item-application.md) Daher basiert die Berechnung des "Lagerwerts" für ein gegebenes Datum auf dem Aufsummieren von positiven und negativen Wertposten.  
+Posten werden gegeneinander ausgeglichen, entweder durch den festen Ausgleich oder entsprechend der allgemeinen Kostenfluss-Annahme, die von der Kostenberechnungsmethode definiert ist. Ein Posten des Lagerabgangs kann mit mehr als einem Zugangseintrag mit verschiedenen Buchungsdaten und ggfs. verschiedenen Anschaffungskosten ausgeglichen werden. [Weitere Informationen finden Sie unter "Designdetails: Artikelverfolgung".](design-details-item-application.md) Daher basiert die Berechnung des Lagerbestandwerts für ein gegebenes Datum auf dem Aufsummieren von positiven und negativen Wertposten.  
 
 ## <a name="inventory-valuation-report"></a>Bericht "Aktuellen Lagerwert ermitteln"  
 Um den Lagerwert im Bericht **Lagerwert berechnen** zu berechnen, beginnt der Bericht, den Lagerbestand des Artikels zu einem bestimmten Startdatum zu berechnen. Er fügt den Wert von Lagerzugängen hinzu nd subtrahiert den Wert von Lagerabgängen bis zu einem bestimmten Enddatum. Das Endergebnis ist der Lagerwert am Enddatum. Der Bericht berechnet diese Werte, indem er die Werte im Feld **Kostenbetrag (ist)** in den Wertposten summiert, wobei die Buchungsdaten als Filter verwendet werden.  
@@ -35,7 +35,7 @@ Der gedruckte Bericht zeigt immer tatsächliche (fakturierte) Beträge an, d. h
 >  Werte im Bericht **Lagerwert berechnen** wird mit dem Lagerkonto im Sachkonto abgestimmt, was bedeutet, dass die betreffenden Wertposten in der Finanzbuchhaltung gebucht wurden.  
 
 > [!IMPORTANT]  
->  Beträge in den **Wert** -Spalten des Berichts basieren auf dem Buchungsdatum der Transaktionen für einen Artikel.  
+>  Beträge in den **Wert**-Spalten des Berichts basieren auf dem Buchungsdatum der Transaktionen für einen Artikel.  
 
 ## <a name="inventory-valuation---wip-report"></a>Bericht "Aktuellen Lagerwert ermitteln"  
 Ein Produktionsbetrieb muss den Wert von drei Arten von Lagerbestand bestimmen:  
@@ -58,4 +58,4 @@ Der Zweck der WIP-Bestandsbewertung besteht darin, den Wert der Artikel zu ermit
 [Designdetails: Fertigungsauftrags-Buchung](design-details-production-order-posting.md)
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

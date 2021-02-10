@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6d62db7673a37cd115caedc778b3fea1cf5b3ce8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ae13b3c24e73f9b73335291b2911f16d6acf29d0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916243"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751105"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Mit Buchhaltungsperioden und Geschäftsjahren arbeiten
 
@@ -23,7 +23,7 @@ Buchhaltungsperioden, die auch als Meldezeiträume betragen, geben für die Zeit
 
 Für viele Unternehmen stimmt das Geschäftsjahr nicht mit dem Kalenderjahr überein. Beispielsweise kann das Geschäftsjahr am 30. Juni anstatt am 31. Dezember enden. Bei neu erstellten Mandanten kann das Steuerjahr tatsächlich länger als 12 Monate sein.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] erfordert nur Buchhaltungsperioden, wenn Sie nur einen GuV schließen möchten, oder Datenkomprimierungsaufgaben ausführen. 
+[!INCLUDE[prod_short](includes/prod_short.md)] erfordert nur Buchhaltungsperioden, wenn Sie nur einen GuV schließen möchten, oder Datenkomprimierungsaufgaben ausführen. 
 
 Sie können die Buchhaltungsperioden für Meldungen verwenden. Wenn Sie gebuchte Posten auf der Seite **Saldo/Budget** überprüfen, in der die bestimmte Berichtsintervalle definiert werden können. Eine der Optionen, die Sie möglicherweise benötigen, um nach Buchhaltungsperiode zu melden. Sie können ein Kontenschema auch erstellen, um die Ergebnisse für verschiedene Perioden zu vergleichen.
 
@@ -33,7 +33,7 @@ Sie können Buchhaltungsperioden in einer Massenoperation erstellen, indem Sie d
 
 ### <a name="how-to-create-accounting-periods-in-bulk"></a>So erstellen Sie Buchhaltungsperioden in einer Massenoperation
 
-Verwenden Sie die Stapelverarbeitung **Geschäftsjahr eröffnen** , um ein Geschäftsjahr in Perioden derselben Länge zu unterteilen.  
+Verwenden Sie die Stapelverarbeitung **Geschäftsjahr eröffnen**, um ein Geschäftsjahr in Perioden derselben Länge zu unterteilen.  
 
 1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") aus, geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Jahr erstellen** aus.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
@@ -48,7 +48,7 @@ Wenn die Buchhaltungsperioden in dem Geschäftsjahr verschiedene Dauern aufweise
   
 1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie im Feld **Startdatum** das Datum ein, an dem das Geschäftsjahr beginnt. Geben Sie in dem Feld **Name** den Namen des Monats ein.  
-3. Wählen Sie das Kontrollkästchen **Neues Geschäftsjahr** , um anzugeben, dass dies die erste Periode im Jahr ist. [!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet diese Periode, um zu ermitteln, welche Periode am Ende des Geschäftsjahres zu schließen ist.
+3. Wählen Sie das Kontrollkästchen **Neues Geschäftsjahr**, um anzugeben, dass dies die erste Periode im Jahr ist. [!INCLUDE[prod_short](includes/prod_short.md)] verwendet diese Periode, um zu ermitteln, welche Periode am Ende des Geschäftsjahres zu schließen ist.
 4. Wiederholen Sie Schritt 2 und 3 für jede verbleibende Periode.  
 
 ## <a name="closing-a-fiscal-year"></a>Geschäftsjahr beenden

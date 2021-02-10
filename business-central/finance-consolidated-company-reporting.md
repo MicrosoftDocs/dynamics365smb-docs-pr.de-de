@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a2100a1f945153d9c89d3cd86fb5d16860c4930
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913396"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747091"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidieren von Finanzdaten aus mehreren Unternehmen
 
-Einige Organisationen verwenden [!INCLUDE [prodshort](includes/prodshort.md)] in mehreren Konzernmandanten oder juristischen Personen. Andere verwenden [!INCLUDE [prodshort](includes/prodshort.md)] in Niederlassungen, die den übergeordneten Organisationen Bericht erstatten müssen. In beiden Fällen verwenden die Buchhalter integrierte Tools, um die Finanzdaten leichter zu konsolidieren.  
+Einige Organisationen verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in mehreren Konzernmandanten oder juristischen Personen. Andere verwenden [!INCLUDE [prod_short](includes/prod_short.md)] in Niederlassungen, die den übergeordneten Organisationen Bericht erstatten müssen. In beiden Fällen verwenden die Buchhalter integrierte Tools, um die Finanzdaten leichter zu konsolidieren.  
 
 Die Sachposten von zwei oder mehreren getrennten Unternehmen (Niederlassungen) können Sie einem konsolidierten Unternehmen konsolidieren. Jedes in eine Konsolidierung einbezogene einzelne Unternehmen wird als Konzernmandant bezeichnet. Das kombinierte Unternehmen wird konsolidiertes Unternehmen genannt.  
 
-In das konsolidierte Unternehmen können Daten aus anderen Unternehmen im selben [!INCLUDE [prodshort](includes/prodshort.md)]-Mandant, aus Mandanten oder aus Dateien importiert werden.  
+In das konsolidierte Unternehmen können Daten aus anderen Unternehmen im selben [!INCLUDE [prod_short](includes/prod_short.md)]-Mandant, aus Mandanten oder aus Dateien importiert werden.  
 
 Wenn die Finanzauswertungen eines Konzernmandanten in einer anderen Währung als die des konsolidierten Unternehmen sind, müssen Sie Wechselkurse für die Konsolidierung einrichten.  
 
@@ -42,24 +42,24 @@ Die Einrichtung des konsolidierten Unternehmens erfolgt auf die gleiche Weise wi
 
 ## <a name="trial-balance"></a>Rohbilanz
 
-Wenn Sie mehr als ein Unternehmen in [!INCLUDE[d365fin](includes/d365fin_md.md)] haben , kann der **konsolidierte Rohbilanz** -Bericht Ihnen einen Überblick über die Finanzstärke Ihres Gesamtunternehmens geben.  
+Wenn Sie mehr als ein Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] haben , kann der **konsolidierte Rohbilanz**-Bericht Ihnen einen Überblick über die Finanzstärke Ihres Gesamtunternehmens geben.  
 
 Der Bericht Sachposten (Fibu) kombiniert aus jedem Ihrer Mandanten in einem neuen Mandanten, den erstellen, um die konsolidierten Daten zu berücksichtigen. Dieses Unternehmen wird in der Regel als "konsolidiertes Unternehmen" bezeichnet. Der Konsolidierungsmandant ist einfach ein Container für die konsolidierten Daten und hat keine Verbindung zu den aktuellen Geschäftsdaten. Die Unternehmen, die Sie im konsolidierten Unternehmen einschließen, wird zur **Geschäftseinheit** im Bericht. Weitere Informationen finden Sie unter [Unternehmenskonsolidierung einrichten](finance-consolidated-company-reporting-setup.md).  
 
 ## <a name="consolidate-data"></a>Daten konsolidieren
 
-Der Prozess der Übertragung der Zahlen aus den Konzernmandanten in das konsolidierte Unternehmen ist die tatsächliche *Konsolidierung* . Bevor Sie das tun, sollten Sie prüfen, ob es Unterschiede zwischen den grundlegenden Informationen in den Konzernmandanten und im konsolidierten Unternehmen gibt. Es gibt zwei Berichte, die Sie verwenden können, um die Datenbank und die Datei zu testen.
+Der Prozess der Übertragung der Zahlen aus den Konzernmandanten in das konsolidierte Unternehmen ist die tatsächliche *Konsolidierung*. Bevor Sie das tun, sollten Sie prüfen, ob es Unterschiede zwischen den grundlegenden Informationen in den Konzernmandanten und im konsolidierten Unternehmen gibt. Es gibt zwei Berichte, die Sie verwenden können, um die Datenbank und die Datei zu testen.
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Prüfen von Datenbanken vor der Konsolidierung
 
-Sie können Ihre Daten testen, bevor Sie sie an den Konsolidierungsmandanten übertragen. [!INCLUDE[d365fin](includes/d365fin_md.md)] So überprüfen Sie Unterschiede zwischen den Informationen in den Konzernmandanten und dem Konsolidierungsmandanten Beispielsweise ob Kontonummern oder Dimensionscodes abweichen. Sie müssen Fehler korrigieren, bevor Sie den Bericht ausführen können. Sie können prüfen, die Datenbank oder, wenn Sie Daten einer XML-Datei importiert, können Sie testen die Datei.  
+Sie können Ihre Daten testen, bevor Sie sie an den Konsolidierungsmandanten übertragen. [!INCLUDE[prod_short](includes/prod_short.md)] So überprüfen Sie Unterschiede zwischen den Informationen in den Konzernmandanten und dem Konsolidierungsmandanten Beispielsweise ob Kontonummern oder Dimensionscodes abweichen. Sie müssen Fehler korrigieren, bevor Sie den Bericht ausführen können. Sie können prüfen, die Datenbank oder, wenn Sie Daten einer XML-Datei importiert, können Sie testen die Datei.  
 
 1. Öffnen Sie den Konsolidierungsmandanten.  
 2. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Geschäftseinheiten** ein und wählen Sie dann den entsprechenden Link.  
 3. Führen Sie einen der folgenden Schritte aus:  
 
     * Um eine Datei zu testen, wählen Sie die **Datei prüfen** Aktion, geben Sie den Namen der Datei an zum Testen ein, und wählen Sie dann **Drucken** aus.  
-    * Um die Datenbank zu testen, wählen Sie **Datenbank prüfen** .  
+    * Um die Datenbank zu testen, wählen Sie **Datenbank prüfen**.  
 
 ### <a name="run-the-consolidation"></a>Die Konsolidierung ausführen
 
@@ -107,9 +107,9 @@ Wenn sich ein Konzernmandant in einer anderen Datenbank befindet, müssen Sie di
 
 Nachdem der Batchauftrag ausgeführt wurde, sind alle Posten in den einzelnen Sachkonten verarbeitet. Für jede Kombination aus ausgewählten Dimensionen und Datum wird der Inhalt des Felds **Betrag** der Posten summiert und exportiert. Die nächste Kombination aus ausgewählten Dimensionen und Datum mit derselben Kontonummer verarbeitet, danach die Kombinationen in der nächsten Kontonummer, usw.  
 
-Die exportierten Posten enthalten die folgenden Felder: **Kontonr.** , **Buchungsdatum** und **Betrag** . Wenn auch Dimensionsdaten exportiert wurden, sind ebenfalls Dimensionscodes und Dimensionswerte enthalten.  
+Die exportierten Posten enthalten die folgenden Felder: **Kontonr.**, **Buchungsdatum** und **Betrag**. Wenn auch Dimensionsdaten exportiert wurden, sind ebenfalls Dimensionscodes und Dimensionswerte enthalten.  
 
-1. Für jede exportierte Zeile wird, sofern die Summe des **Betrag** -Felds ein Sollbetrag ist, die im **Konsol. Sollkonto** des Konzernmandanten eingerichtete Kontonummer in die Zeile exportiert. Wenn die Summe ein Habenbetrag ist, wird die entsprechende Nummer im Feld **Konsol. Habenkonto** in die Zeile exportiert.  
+1. Für jede exportierte Zeile wird, sofern die Summe des **Betrag**-Felds ein Sollbetrag ist, die im **Konsol. Sollkonto** des Konzernmandanten eingerichtete Kontonummer in die Zeile exportiert. Wenn die Summe ein Habenbetrag ist, wird die entsprechende Nummer im Feld **Konsol. Habenkonto** in die Zeile exportiert.  
 2. Das für jede exportierte Zeile verwendete Datum ist entweder das Enddatum der Periode oder, wenn die Übertragung täglich erfolgt, das genaue Berechnungsdatum.  
 3. Bei dem für den Posten exportierten Dimensionswert handelt es sich um den Dimensionswert des Konsolidierungsmandanten, der im Feld **Konsolidierungscode** für diesen Dimensionswert eingerichtet ist. Wurde im Feld **Konsolidierungscode** für diesen Dimensionswert kein Dimensionswert des Konsolidierungsmandanten eingerichtet, wird der Dimensionswert selbst in die Zeile exportiert.  
 4. Die XML-Dateien enthalten auch die Währungswechselkurse innerhalb der Konsolidierungsperiode. Diese Wechselkurse sind in einem eigenen Abschnitt zu Beginn der Datei aufgeführt.  
@@ -118,5 +118,5 @@ Die exportierten Posten enthalten die folgenden Felder: **Kontonr.** , **Buchung
 
 [Unternehmenskonsolidierung einrichten](finance-consolidated-company-reporting-setup.md)  
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)

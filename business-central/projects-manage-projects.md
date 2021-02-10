@@ -8,17 +8,17 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0e3f5f489822cef693242c46a47d84f429af0706
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4fe5f22774ca670353b0079140f35137f427c5b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926947"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748843"
 ---
 # <a name="project-management"></a>Projektmanagement
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie allgemeine Projektmanagement-Verwaltungsaufgaben ausführen, wie Konfigurieren eines Projekts und Planen einer Ressource sowie Bereitstellung der Informationen, die benötigt werden, um Budgets zu verwalten und den Status zu überwachen. Sie können Computer- und Mitarbeiterstunden für das Projekt verfolgen, indem Sie Arbeitszeittabellen verwenden. Als Projektmanager haben Sie einen guten Überblick, nicht nur über einzelnen Projekte, sondern auch über die Verteilung der Mitarbeiter, der Maschinen und anderer Ressourcen, die in allen Projekten verwendet werden.
+In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie allgemeine Projektmanagement-Verwaltungsaufgaben ausführen, wie Konfigurieren eines Projekts und Planen einer Ressource sowie Bereitstellung der Informationen, die benötigt werden, um Budgets zu verwalten und den Status zu überwachen. Sie können Computer- und Mitarbeiterstunden für das Projekt verfolgen, indem Sie Arbeitszeittabellen verwenden. Als Projektmanager haben Sie einen guten Überblick, nicht nur über einzelnen Projekte, sondern auch über die Verteilung der Mitarbeiter, der Maschinen und anderer Ressourcen, die in allen Projekten verwendet werden.
 
-Bevor Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten. Weitere Informationen finden Sie unter [Projektmanagement einrichten](projects-setup-projects.md).  
+Bevor Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten. Weitere Informationen finden Sie unter [Projektmanagement einrichten](projects-setup-projects.md).  
 
 Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben.
 
@@ -36,7 +36,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 
 ## <a name="get-started-with-projects"></a>Erste Schritte mit Projekten
 
-Projektmanagement ist allein ist schon kompliziert genug, und zu Lernen, wie Projekte erstellt und Umlaufbestand in einem neuen Tool verwaltet werden, kann eine zusätzliche Komplikation sein. Als Hilfe beim Projektmanagement in [!INCLUDE[prodshort](includes/prodshort.md)] können Sie sich [ein Video zum Erstellen von Aufträgen](https://www.youtube.com/watch?v=VqaPWr7BWmw) im [!INCLUDE[prodshort](includes/prodshort.md)] YouTube-Kanal ansehen.  
+Projektmanagement ist allein ist schon kompliziert genug, und zu Lernen, wie Projekte erstellt und Umlaufbestand in einem neuen Tool verwaltet werden, kann eine zusätzliche Komplikation sein. Als Hilfe beim Projektmanagement in [!INCLUDE[prod_short](includes/prod_short.md)] können Sie sich [ein Video zum Erstellen von Aufträgen](https://www.youtube.com/watch?v=VqaPWr7BWmw) im [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-Kanal ansehen.  
 
 ## <a name="see-also"></a>Siehe auch
 
@@ -46,6 +46,6 @@ Projektmanagement ist allein ist schon kompliziert genug, und zu Lernen, wie Pro
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

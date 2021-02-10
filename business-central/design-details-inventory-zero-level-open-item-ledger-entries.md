@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1222f3b7ed3c71ded3f653bb121b920c170c40f5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8cb3aa1df0c67af09f0353504abceb2529df9f2f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924261"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751404"
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetails: Bekannte Artikelanwendungsprobleme
-Dieser Artikel adressiert ein Problem, bei dem der Lagerebene Null ist, obwohl offene Artikelposten in existieren [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dieser Artikel adressiert ein Problem, bei dem der Lagerebene Null ist, obwohl offene Artikelposten in existieren [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Der Artikel beginnt, indem die typischen Symptomen des Problems aufgeführt werden, gefolgt von den Grundlagen der Artikelanwendung bis hin zur Unterstützung der beschriebenen Gründen für dieses Problem. Am Ende des Artikels finden Sie eine Problemumgehung, um solche offenen Artikelposten zu adressieren.  
 
@@ -102,18 +102,18 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 
  Für Szenario 1, können Sie das jeweilige Problem wie folgt erkennen:  
 
--   Auf der Seite **Geb. Verkaufsgutschrift** oder **Gebuchte Rücksendung** suchen Sie im Feld **Ausgleich.\-vom Artikelposten** , um festzulegen, ob das Feld ausgefüllt ist, und in diesem Fall auf welche Artikelposten die Rücksendung angewendet wird.  
+-   Auf der Seite **Geb. Verkaufsgutschrift** oder **Gebuchte Rücksendung** suchen Sie im Feld **Ausgleich.\-vom Artikelposten**, um festzulegen, ob das Feld ausgefüllt ist, und in diesem Fall auf welche Artikelposten die Rücksendung angewendet wird.  
 
  Für Szenario 2 können Sie das jeweilige Problem in einer der folgenden Arten erkennen:  
 
--   Suchen Sie einem offenen ausgehenden Artikelposten und einem eingehenden Artikelposten mit derselben Nummer im Feld **Belegnr.** Feld und nach "Ja" in dem Feld **Korrektur** . Siehe das nachfolgende Beispiel einer solchen Artikelpostensituation.  
+-   Suchen Sie einem offenen ausgehenden Artikelposten und einem eingehenden Artikelposten mit derselben Nummer im Feld **Belegnr.** Feld und nach "Ja" in dem Feld **Korrektur**. Siehe das nachfolgende Beispiel einer solchen Artikelpostensituation.  
 
 |Postennr.|Buchungsdatum|Postenart |Belegtyp|Belegnummer|Artikelnummer|Lagerortcode|Menge|Einstandsbetrag (tatsächl.)|Fakturierte Menge|Restmenge|Öffnen|Storno|  
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|-1|-10|-1|-1|Ja|Nein|  
 |334|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|1|10|1|1|Ja|**Ja**|  
 
--   Auf der Seite **Geb. Verkaufsgutschrift** suchen Sie im Feld **Ausgleich.vom Artikelposten** , um festzulegen, ob das Feld ausgefüllt ist, und in diesem Fall auf welche Artikelposten die Rücksendung angewendet wird.  
+-   Auf der Seite **Geb. Verkaufsgutschrift** suchen Sie im Feld **Ausgleich.vom Artikelposten**, um festzulegen, ob das Feld ausgefüllt ist, und in diesem Fall auf welche Artikelposten die Rücksendung angewendet wird.  
 
 > [!NOTE]  
 >  Anwendungen mit Kosten können nicht auf der Seite **Ausgeglichene Artikelposten** identifiziert werden, da dieses Fenster nur Mengen-Anwendungen anzeigt.  

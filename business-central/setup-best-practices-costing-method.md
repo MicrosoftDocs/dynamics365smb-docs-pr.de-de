@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf342b4cfcc59f51c2aae8ca6e36f25d7f3f5e35
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1b08ebbdd24e821f5ed528d9956f2753c84fbc05
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912948"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747843"
 ---
 # <a name="setup-best-practices-costing-method"></a>Bewährte Einrichtungsmethoden – Lagerabgangsmethode
 
@@ -23,7 +23,7 @@ Die **Lagerabgangsmethode** auf der Artikelkarte definiert, ob der Kostenfluss e
 
  Die richtige Lagerabgangsmethode entsprechend Art und betrieblichem Umfeld festzulegen, ist wichtig, um wirtschaftliche Bestände sicherzustellen.  
 
- Die folgende Tabelle enthält bewährte Methoden zum Einrichten des **Kostenmethode** -Felds. Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden".](design-details-costing-methods.md)  
+ Die folgende Tabelle enthält bewährte Methoden zum Einrichten des **Kostenmethode**-Felds. Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden".](design-details-costing-methods.md)  
 
 |Einrichtungsoptionen|Bewährte Vorgehensweisen|Bemerkung|  
 |------------------|-------------------|-------------|  
@@ -37,4 +37,4 @@ Die **Lagerabgangsmethode** auf der Artikelkarte definiert, ob der Kostenfluss e
  [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)   
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
- [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

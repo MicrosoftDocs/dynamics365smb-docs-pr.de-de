@@ -10,31 +10,31 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dd0974c20f8c038fcc0cac27c9ef165b2aadcd36
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927072"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752500"
 ---
-# <a name="enabling-power-bi-integration-with-prodshort"></a>Ermöglichen der Power BI-Integration mit [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="enabling-power-bi-integration-with-prod_short"></a>Ermöglichen der Power BI-Integration mit [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Dieser Artikel beschreibt, wie man [!INCLUDE[prodshort](includes/prodshort.md)] für die Integration mit Power BI vorbereitet. [!INCLUDE[prodshort](includes/prodshort.md)] online ist bereits für die Integration vorbereitet, obwohl Sie eventuell einige Informationen zur Lizenzierung lesen möchten. Für [!INCLUDE[prodshort](includes/prodshort.md)] on-premises müssen Sie Ihre Umgebung für die Verbindung mit Power BI einrichten, bevor Benutzer damit arbeiten können.
+Dieser Artikel beschreibt, wie man [!INCLUDE[prod_short](includes/prod_short.md)] für die Integration mit Power BI vorbereitet. [!INCLUDE[prod_short](includes/prod_short.md)] online ist bereits für die Integration vorbereitet, obwohl Sie eventuell einige Informationen zur Lizenzierung lesen möchten. Für [!INCLUDE[prod_short](includes/prod_short.md)] on-premises müssen Sie Ihre Umgebung für die Verbindung mit Power BI einrichten, bevor Benutzer damit arbeiten können.
 
 ## <a name="power-bi-licensing"></a><a name="license"></a>Power BI-Lizenzierung
 
-Mit [!INCLUDE[prodshort](includes/prodshort.md)] erhalten Benutzer eine kostenlose Power BI-Lizenz, die Zugriff auf die gängigsten Funktionen von [!INCLUDE[prodshort](includes/prodshort.md)] und Power BI bietet. Sie können auch eine Power BI Pro-Lizenz kaufen, die Zugriff auf zusätzliche Funktionen bietet. Die folgende Tabelle bietet einen Überblick über die Funktionen, die mit jeder Lizenz verfügbar sind.
+Mit [!INCLUDE[prod_short](includes/prod_short.md)] erhalten Benutzer eine kostenlose Power BI-Lizenz, die Zugriff auf die gängigsten Funktionen von [!INCLUDE[prod_short](includes/prod_short.md)] und Power BI bietet. Sie können auch eine Power BI Pro-Lizenz kaufen, die Zugriff auf zusätzliche Funktionen bietet. Die folgende Tabelle bietet einen Überblick über die Funktionen, die mit jeder Lizenz verfügbar sind.
 
-|Power-Lizenz|Berichte anzeigen|Berichte erstellen|Berichte teilen|Berichte aktualisieren| [!INCLUDE[prodshort](includes/prodshort.md)]-Apps|
+|Power-Lizenz|Berichte anzeigen|Berichte erstellen|Berichte teilen|Berichte aktualisieren| [!INCLUDE[prod_short](includes/prod_short.md)]-Apps|
 |-------------|--------||
 |Power BI kostenlos|![ein Häkchen](media/check.png)|![ein weiteres Häkchen](media/check.png)|(eingeschränkt)|(eingeschränkt)||
 |Power BI Pro|![und ein weiteres Häkchen](media/check.png)|![noch ein Häkchen](media/check.png)|![wieder ein Häkchen](media/check.png)|(umfangreich)|![letztes Häkchen](media/check.png)|
 
 Weitere Informationen finden Sie unter [Lizenzierung des Power BI-Dienstes für Benutzer in Ihrer Organisation](/power-bi/admin/service-admin-licensing-organization) oder unter [Als Einzelperson für den Power BI-Dienst anmelden](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="set-up-prodshort-on-premises-for-power-bi-integration"></a><a name="setup"></a>[!INCLUDE[prodshort](includes/prodshort.md)] on-premises für die Power BI-Integration einrichten
+## <a name="set-up-prod_short-on-premises-for-power-bi-integration"></a><a name="setup"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises für die Power BI-Integration einrichten
 
-In diesem Abschnitt werden die Anforderungen für eine Bereitstellung von [!INCLUDE[prodshort](includes/prodshort.md)] on-premises zur Integration mit Power BI erläutert.
+In diesem Abschnitt werden die Anforderungen für eine Bereitstellung von [!INCLUDE[prod_short](includes/prod_short.md)] on-premises zur Integration mit Power BI erläutert.
 
 1. OData-Webdienste und der ODataV4-Endpunkt sind aktiviert.
 
@@ -42,24 +42,24 @@ In diesem Abschnitt werden die Anforderungen für eine Bereitstellung von [!INCL
     
     Der lokale Server muss über das Internet erreichbar sein.
 
-2. [!INCLUDE[prodshort](includes/prodshort.md)]-Benutzerkonten verfügen über einen Webdienst-Zugriffsschlüssel.
+2. [!INCLUDE[prod_short](includes/prod_short.md)]-Benutzerkonten verfügen über einen Webdienst-Zugriffsschlüssel.
 
-    Zur Anzeige von [!INCLUDE[prodshort](includes/prodshort.md)]-Daten in Power BI wird ein Webdienst-Zugriffsschlüssel benötigt. Sie können jedem Benutzerkonto einen Webdienst-Zugriffsschlüssel zuweisen. Oder erstellen Sie stattdessen ein bestimmtes Konto mit einem Webdienst-Zugriffsschlüssel, der von allen Benutzern verwendet werden kann. Weitere Informationen finden Sie unter [Webdienst-Authentifizierung](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
+    Zur Anzeige von [!INCLUDE[prod_short](includes/prod_short.md)]-Daten in Power BI wird ein Webdienst-Zugriffsschlüssel benötigt. Sie können jedem Benutzerkonto einen Webdienst-Zugriffsschlüssel zuweisen. Oder erstellen Sie stattdessen ein bestimmtes Konto mit einem Webdienst-Zugriffsschlüssel, der von allen Benutzern verwendet werden kann. Weitere Informationen finden Sie unter [Webdienst-Authentifizierung](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
 
 3. NavUserPassword- oder Azure Active Directory-Authentifizierung ist konfiguriert.
 
-4. Um Power BI-Berichte anzuzeigen, die in [!INCLUDE[prodshort](includes/prodshort.md)]-Seiten eingebettet sind, muss für [!INCLUDE[prodshort](includes/prodshort.md)] in Microsoft Azure eine Anwendung registriert werden.
+4. Um Power BI-Berichte anzuzeigen, die in [!INCLUDE[prod_short](includes/prod_short.md)]-Seiten eingebettet sind, muss für [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure eine Anwendung registriert werden.
 
-    Die registrierte Anwendung benötigt Berechtigungen für Power BI-Dienste. Weitere Informationen finden Sie unter [Registrieren von [!INCLUDE[prodshort](includes/prodshort.md)] On-Premises in Azure AD zur Integration mit anderen Diensten](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+    Die registrierte Anwendung benötigt Berechtigungen für Power BI-Dienste. Weitere Informationen finden Sie unter [Registrieren von [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises in Azure AD zur Integration mit anderen Diensten](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
     > [!NOTE]
-    > Wenn Ihre Bereitstellung die NavUserPassword-Authentifizierung verwendet, stellt [!INCLUDE[prodshort](includes/prodshort.md)] für alle Benutzer eine Verbindung mit demselben Power BI-Dienst her. Sie geben dieses Dienstkonto bei der Registrierung der Anwendung an. Wenn Sie die Azure AD-Authentifizierung verwenden, verbindet sich [!INCLUDE[prodshort](includes/prodshort.md)] mit dem Power BI-Dienst, der den einzelnen Benutzerkonten zugeordnet ist.
+    > Wenn Ihre Bereitstellung die NavUserPassword-Authentifizierung verwendet, stellt [!INCLUDE[prod_short](includes/prod_short.md)] für alle Benutzer eine Verbindung mit demselben Power BI-Dienst her. Sie geben dieses Dienstkonto bei der Registrierung der Anwendung an. Wenn Sie die Azure AD-Authentifizierung verwenden, verbindet sich [!INCLUDE[prod_short](includes/prod_short.md)] mit dem Power BI-Dienst, der den einzelnen Benutzerkonten zugeordnet ist.
 
     <!-- Windows authentication can also be used but you can't get data from BC in Power BI -->
 
 ## <a name="publish-data-as-web-services"></a>Daten als Webdienste veröffentlichen
 
-Codeunits, Seiten und Abfragen, die Sie als Datenquelle in Power BI-Berichten verwenden möchten, müssen als Webdienste veröffentlicht werden. Viele Webdienste werden standardmäßig veröffentlicht. Eine einfache Methode, die Webdienste zu finden ist, in *Webdiensten* in [!INCLUDE[prodshort](includes/prodshort.md)] zu suchen. Vergewissern Sie sich, dass auf der Seite **Webdienste** das Feld **Veröffentlichen** für die oben aufgeführten Webdienste ausgewählt ist. Hierbei handelt es sich üblicherweise um eine Aufgabe für einen Administrator.
+Codeunits, Seiten und Abfragen, die Sie als Datenquelle in Power BI-Berichten verwenden möchten, müssen als Webdienste veröffentlicht werden. Viele Webdienste werden standardmäßig veröffentlicht. Eine einfache Methode, die Webdienste zu finden ist, in *Webdiensten* in [!INCLUDE[prod_short](includes/prod_short.md)] zu suchen. Vergewissern Sie sich, dass auf der Seite **Webdienste** das Feld **Veröffentlichen** für die oben aufgeführten Webdienste ausgewählt ist. Hierbei handelt es sich üblicherweise um eine Aufgabe für einen Administrator.
 
 Weitere Informationen zum Veröffentlichen von Webdiensten finden Sie unter [Webdienst veröffentlichen](across-how-publish-web-service.md).
 
@@ -74,7 +74,7 @@ Weitere Informationen zum Veröffentlichen von Webdiensten finden Sie unter [Web
 ## <a name="see-also"></a>Siehe auch
 
 [Business Central und Power BI](admin-powerbi.md)  
-[Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prodshort](includes/prodshort.md)]](admin-powerbi-overview.md)  
+[Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
 [Power BI für Verbraucher](/power-bi/consumer/end-user-consumer)  
 [Der „neue Look“ des Power BI Service](/power-bi/service-new-look)  
 [Schnellstart: Stellen Sie eine Verbindung zu Daten her in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -82,9 +82,9 @@ Weitere Informationen zum Veröffentlichen von Webdiensten finden Sie unter [Web
 [Business Intelligence](bi.md)  
 [Erste Schritte](product-get-started.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
-[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
-[Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power Apps-Datenquelle](across-how-use-financials-data-source-powerapps.md)  
-[Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
+[Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
+[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power Apps-Datenquelle](across-how-use-financials-data-source-powerapps.md)  
+[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

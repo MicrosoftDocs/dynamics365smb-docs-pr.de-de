@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b45c9095674b6bb633717f3985557ef7e6a681b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922342"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745916"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Migration von Debitorendaten mit Vorlagen vorbereiten
 
@@ -28,7 +28,7 @@ Normalerweise erstellen Sie Datenvorlagen für die folgenden Stammdatentabellen:
 - **Artikel**  
 - **Kreditor**  
 
-Sie können jedoch eine Vorlagenstruktur erstellen und diese auf jede beliebige Tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] anwenden.  
+Sie können jedoch eine Vorlagenstruktur erstellen und diese auf jede beliebige Tabelle in [!INCLUDE[prod_short](includes/prod_short.md)] anwenden.  
 
 > [!TIP]  
 > Sie können auch Datenvorlagen für tägliche Arbeitsgänge verwenden, um neue Datensätze zu erstellen, die auf Vorlagen basieren. Diese Datenvorlagen funktionieren nur für die unterstützten Stammdatentabellen. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).  
@@ -87,7 +87,7 @@ Die Tabellen-ID, der Tabellenname und die vorhandenen Datenvorlage werden in die
 3. Geben Sie im Feld **Standardwert** einen geeigneten Wert ein. In einigen Fällen möchten Sie möglicherweise einen Wert verwenden, der nicht einem in der Datenbank vorhandenen Wert entspricht. In diesem Fall können Sie das Kontrollkästchen **Relationenprüfung überspringen** aktivieren, um zu ermöglichen, Daten ohne Fehler zu verwenden.
 
     > [!TIP]  
-    > Da das Feld **Standardwert** keinen Lookup zu den entsprechenden [!INCLUDE[d365fin](includes/d365fin_md.md)]-Feldoptionen hat, kopieren Sie den gewünschten Wert von der entsprechenden Seite in die Vorlage.
+    > Da das Feld **Standardwert** keinen Lookup zu den entsprechenden [!INCLUDE[prod_short](includes/prod_short.md)]-Feldoptionen hat, kopieren Sie den gewünschten Wert von der entsprechenden Seite in die Vorlage.
 
 4. Wählen Sie das Kontrollkästchen **Notwendig**, wenn Benutzer das jeweilige Feld ausfüllen müssen.
 
@@ -98,7 +98,7 @@ Die Tabellen-ID, der Tabellenname und die vorhandenen Datenvorlage werden in die
 
 ## <a name="to-export-to-a-template-in-excel"></a>Exportieren einer Vorlage in Excel
 
-Sie können schnell eine Excel-Arbeitsmappe erstellen, die als Vorlage dient und auf der Struktur einer vorhandenen Datenbanktabelle basiert. Sie können die Vorlage dann verwenden, um Debitorendaten in einem konsistenten Format für den späteren Import in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu erfassen.
+Sie können schnell eine Excel-Arbeitsmappe erstellen, die als Vorlage dient und auf der Struktur einer vorhandenen Datenbanktabelle basiert. Sie können die Vorlage dann verwenden, um Debitorendaten in einem konsistenten Format für den späteren Import in [!INCLUDE[prod_short](includes/prod_short.md)] zu erfassen.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.
 2. Fügen Sie der Liste eine Tabelle hinzu, oder wählen Sie eine vorhandene Tabelle aus. Weitere Informationen finden Sie unter [Verwalten von Mandanten-Konfiguration in einem Arbeitsblatt](admin-how-to-manage-company-configuration-in-a-worksheet.md).
@@ -122,7 +122,7 @@ Wenn Sie Daten aus einer Vorlage in Excel auf eine Tabelle anwenden, der auch im
 Jeder Datensatz, dessen Daten auf diese Weise angewendet werden, ist vollständig, da er aus den Daten besteht, die von einem Benutzer in Excel eingegeben werden, plus der Standardwerte, die die Konfigurationsvorlage angibt.
 
 > [!NOTE]
-> Wenn die Daten in den Tabellen im Konfigurationspaket Datumsangaben enthalten, z. B. Buchungsdatumsangaben auf Rechnungen, werden die Datumsangaben in der Zeitzone berücksichtigt, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben ist. 
+> Wenn die Daten in den Tabellen im Konfigurationspaket Datumsangaben enthalten, z. B. Buchungsdatumsangaben auf Rechnungen, werden die Datumsangaben in der Zeitzone berücksichtigt, die in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben ist. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>So erstellen Sie einen Datensatz aus einer Konfigurationsvorlage
 
@@ -140,7 +140,7 @@ Die folgenden Schritte veranschaulichen, wie eine Artikelkarte aus einer Artikel
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>So verwenden Sie eine Konfigurationsdatenvorlage bei einem Datensatz
 
-Sie können eine Datenvorlage bei jedem beliebigen Datensatz anwenden, der in [!INCLUDE[d365fin](includes/d365fin_md.md)] vorhanden ist, und diese Methode verwenden, um einen Datensatz zu ändern oder zu bearbeiten. Hierbei werden jedoch vorhandene Werte im Datensatz mit denen der Vorlage überschrieben. Deshalb sollten Sie behutsam vorgehen, wenn Sie eine Vorlage bei vorhandenen Datensätzen anwenden.
+Sie können eine Datenvorlage bei jedem beliebigen Datensatz anwenden, der in [!INCLUDE[prod_short](includes/prod_short.md)] vorhanden ist, und diese Methode verwenden, um einen Datensatz zu ändern oder zu bearbeiten. Hierbei werden jedoch vorhandene Werte im Datensatz mit denen der Vorlage überschrieben. Deshalb sollten Sie behutsam vorgehen, wenn Sie eine Vorlage bei vorhandenen Datensätzen anwenden.
 
 > [!WARNING]  
 > Die **Vorlage anwenden**-Funktion überschreibt vorhandene Daten in einem Datensatz. Wenn diese Funktion bei der Stammdatenmigration verwendet wird, überschreibt sie die importierten Daten, wenn Sie Datensätze erstellen.

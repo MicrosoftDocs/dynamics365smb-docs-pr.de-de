@@ -4,12 +4,12 @@ ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: a62a1a628f22ff47fa86a64a72f5b1834960dc72
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 1b9f60eab5b0bcf812343e82389087ac5535301a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931271"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749780"
 ---
 Bevor Sie die E-Mail-Protokollierung einrichten können, müssen Sie Exchange Online mit [öffentlichen Ordnern](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ) vorbereiten. Dies kann im [Exchange Admin Center](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) oder über die [Exchange-Verwaltungsshell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ) erfolgen.  
 
@@ -72,4 +72,4 @@ In der folgenden Liste werden die Hauptschritte mit Links zu weiteren Informatio
   Weitere Informationen finden Sie unter [E-Mail-Fluss-Regeln in Exchange Online verwalten](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) und [Aktionen für E-Mail-Fluss-Regeln in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
-> Wenn Sie Änderungen in der Exchange-Verwaltungsshell vornehmen, werden die Änderungen nach einer Verzögerung im Exchange-Verwaltungscenter angezeigt. Die in Exchange vorgenommenen Änderungen sind nach einer Verzögerung auch in [!INCLUDE[prodshort](prodshort.md)] verfügbar.
+> Wenn Sie Änderungen in der Exchange-Verwaltungsshell vornehmen, werden die Änderungen nach einer Verzögerung im Exchange-Verwaltungscenter angezeigt. Die in Exchange vorgenommenen Änderungen sind nach einer Verzögerung auch in [!INCLUDE[prod_short](prod_short.md)] verfügbar.

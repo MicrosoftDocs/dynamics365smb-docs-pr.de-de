@@ -5,29 +5,30 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2020
+ms.date: 10/29/2020
 ms.author: edupont
-ms.openlocfilehash: 7ed69f86a941a216ef948488d3756c06f298549d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e8a1e6de5cc8889f144e08db8ed77e4543cb9b4c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927672"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752055"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten
 
-Einige Personen arbeiten in mehreren Unternehmen in [!INCLUDE [prodshort](includes/prodshort.md)], und einige arbeiten auch in mehr als einer Organisation, beispielsweise externe Buchhalter oder Mitarbeiter und Manager von Unternehmen mit mehreren Tochterunternehmen. Für diese und viele andere Benutzer dient der Unternehmens-Hub als Landing Page, um die Arbeit in den verschiedenen Umgebungen, in denen sie arbeiten, über Unternehmen, Umgebungen und Regionen hinweg zu verwalten.  
+Einige Personen arbeiten in mehreren Unternehmen in [!INCLUDE [prod_short](includes/prod_short.md)], und einige arbeiten auch in mehr als einer Organisation, beispielsweise externe Buchhalter oder Mitarbeiter und Manager von Unternehmen mit mehreren Tochterunternehmen. Für diese und viele andere Benutzer dient der Unternehmens-Hub als Landing Page, um die Arbeit in den verschiedenen Umgebungen, in denen sie arbeiten, über Unternehmen, Umgebungen und Regionen hinweg zu verwalten.  
 
 Sie können auf den Unternehmens-Hub zugreifen, indem Sie zur Rolle **Unternehmens-Hub** in „Meine Einstellungen“ wechseln. Alternativ können Sie die Seite **Unternehmens-Hub** direkt öffnen. Sie können an beiden Stellen dieselbe Arbeit ausführen, die Aktionen in den Menüs sind jedoch etwas anders angeordnet.  
 
+> [!NOTE]
+> Sie können den Unternehmens-Hub mit so vielen Unternehmen verbinden, wie Sie benötigen. Sie können den Unternehmens-Hub jedoch nur mit Unternehmen verbinden, die in [!INCLUDE [prod_short](includes/prod_short.md)] online gehostet werden.
+
 ## <a name="company-hub-home-page"></a>Homepage des Unternehmens-Hubs
 
-Wenn Sie die Rolle **Unternehmens-Hub** verwenden, wird auf Ihrer Homepage eine Liste der Unternehmen angezeigt, auf die Sie Zugriff haben, einschließlich Informationen zu KPI-Daten (Key Point of Interest) und Links zum Öffnen der einzelnen Unternehmen. Sie können das Dashboard anpassen, um die Datenpunkte zu zeigen, die Sie sehen möchten, indem Sie Spalten hinzufügen oder entfernen. Beispielsweise möchten Sie Steuern sehen, die fällig sind, wie viele offene Verkaufsbelege jedes Unternehmen hat oder die Anzahl der Einkaufsrechnungen, die nächste Woche fällig sind. Sie können die Ansicht konfigurieren, um Ihren Anforderungen zu entsprechen. Wenn Sie viele Unternehmen hinzugefügt haben, können Sie Filter setzen, um die Ansicht zu sortieren.  
-
-Wählen Sie die Aktion **Unternehmens-Hub** aus, um den Unternehmens-Hub zu öffnen, in dem Sie enger mit den einzelnen Unternehmen zusammenarbeiten können.  
+Wenn Sie die Rolle **Unternehmens-Hub** verwenden, wird auf Ihrer Homepage eine Liste der Unternehmen angezeigt, auf die Sie Zugriff haben, einschließlich Informationen zu KPI-Daten (Key Point of Interest) und Links zum Öffnen der einzelnen Unternehmen. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Wählen Sie die Aktion **Unternehmens-Hub** aus, um den Unternehmens-Hub zu öffnen, in dem Sie enger mit den einzelnen Unternehmen zusammenarbeiten können.  
 
 > [!TIP]
-> Um auf ein bestimmtes Unternehmen in [!INCLUDE [prodshort](includes/prodshort.md)] zuzugreifen, wählen Sie den Namen des Unternehmens oder das Menüelement **Zu Unternehmen wechseln** aus. Sie werden dann automatisch in einer neuen Browserregisterkarte angemeldet.
+> Um auf ein bestimmtes Unternehmen in [!INCLUDE [prod_short](includes/prod_short.md)] zuzugreifen, wählen Sie den Namen des Unternehmens oder das Menüelement **Zu Unternehmen wechseln** aus. Sie werden dann automatisch in einer neuen Browserregisterkarte angemeldet.
 
 :::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Aktionen für ein Unternehmen, das im Unternehmens-Hub aufgeführt ist":::
 
@@ -52,7 +53,7 @@ Otherwise, close the details pane and continue to the next company.  -->
 
 ## <a name="assigned-tasks"></a>Zugewiesene Aufgaben
 
-In [!INCLUDE [prodshort](includes/prodshort.md)] können Sie sich selbst sowie anderen Aufgaben zuweisen, und andere Personen können Ihnen Aufgaben zuweisen. Der Unternehmens-Hub zeigt Ihnen eine Übersicht der zugewiesenen Aufgaben für jedes Unternehmen. Sie können ebenfalls auf eine Liste aller zugewiesenen Aufgaben zugreifen, indem Sie auf der Seite **Start** die Option **Meine Benutzeraufgaben** auswählen.  
+In [!INCLUDE [prod_short](includes/prod_short.md)] können Sie sich selbst sowie anderen Aufgaben zuweisen, und andere Personen können Ihnen Aufgaben zuweisen. Der Unternehmens-Hub zeigt Ihnen eine Übersicht der zugewiesenen Aufgaben für jedes Unternehmen. Sie können ebenfalls auf eine Liste aller zugewiesenen Aufgaben zugreifen, indem Sie auf der Seite **Start** die Option **Meine Benutzeraufgaben** auswählen.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
@@ -70,10 +71,10 @@ Weitere Informationen zu Unternehmen und Umgebungen finden Sie unter [Umgebungsl
 
 ## <a name="access-the-company-hub"></a>Auf den Unternehmens-Hub zugreifen
 
-Um auf den Unternehmens-Hub zugreifen zu können, müssen Sie entweder über die *D365-UNTERNEHMENS-HUB* -Benutzergruppe oder über den *D365-UNTERNEHMENS-HUB* -Berechtigungssatz Zugriff haben. Sie müssen auch Zugriff auf die Unternehmen haben, die in Ihrem Unternehmens-Hub aufgeführt sind. Dies bedeutet, dass Sie ein Benutzer in diesen Unternehmen sein müssen. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).  
+Um auf den Unternehmens-Hub zugreifen zu können, müssen Sie entweder über die *D365-UNTERNEHMENS-HUB*-Benutzergruppe oder über den *D365-UNTERNEHMENS-HUB*-Berechtigungssatz Zugriff haben. Sie müssen auch Zugriff auf die Unternehmen haben, die in Ihrem Unternehmens-Hub aufgeführt sind. Dies bedeutet, dass Sie ein Benutzer in diesen Unternehmen sein müssen. Weitere Informationen finden Sie unter [Benutzer nach Lizenzen anlegen](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]
-> Der Unternehmens-Hub ist eine unternehmensweite Liste. Daher kann jeder Benutzer, dem Zugriff auf den Unternehmens-Hub gewährt wird, alle Unternehmen in seinem eigenen [!INCLUDE [prodshort](includes/prodshort.md)]-Tenant sowie alle KPIs für die Unternehmen, auf die sie Zugriff haben, sehen.
+> Der Unternehmens-Hub ist eine unternehmensweite Liste. Daher kann jeder Benutzer, dem Zugriff auf den Unternehmens-Hub gewährt wird, alle Unternehmen in seinem eigenen [!INCLUDE [prod_short](includes/prod_short.md)]-Tenant sowie alle KPIs für die Unternehmen, auf die sie Zugriff haben, sehen.
 
 Falls Sie den Unternehmens-Hub nicht finden können und sich sicher sind, dass Ihnen Zugriff darauf gewährt wurde, wenden Sie sich an Ihren Administrator, wenn der Unternehmens-Hub auf der Seite **Erweiterungsmanagement** aufgeführt ist. Weitere Informationen finden Sie unter [Anpassen von Business Central über Erweiterungen](ui-extensions.md).  
 
@@ -81,11 +82,11 @@ Falls Sie den Unternehmens-Hub nicht finden können und sich sicher sind, dass I
 
 Um den Unternehmens-Hub verwenden zu können, müssen Sie Ihrem Dashboard ein oder mehrere Unternehmen hinzufügen. Weitere Informationen finden Sie unter [Fügen Sie Unternehmen zu Ihrem Unternehmens-Hub hinzu](company-hub-add-company.md).  
 
-Sie können jedoch nur dann ein Unternehmen hinzufügen, wenn Ihnen Zugriff auf eine oder mehrere Instanzen von [!INCLUDE [prodshort](includes/prodshort.md)] sowie auf das Unternehmen gewährt wurde, in dem Sie den Unternehmens-Hub verwenden.  
+Sie können jedoch nur dann ein Unternehmen hinzufügen, wenn Ihnen Zugriff auf eine oder mehrere Instanzen von [!INCLUDE [prod_short](includes/prod_short.md)] sowie auf das Unternehmen gewährt wurde, in dem Sie den Unternehmens-Hub verwenden.  
 
-Wenn Sie beispielsweise Buchhalter sind, können Ihre Kunden Sie in ihr [!INCLUDE [prodshort](includes/prodshort.md)] einladen. Weitere Informationen finden Sie unter [Ihren externen Buchhalter in Ihr Business Central einladen](finance-accounting.md#inviteaccountant).  
+Wenn Sie beispielsweise Buchhalter sind, können Ihre Kunden Sie in ihr [!INCLUDE [prod_short](includes/prod_short.md)] einladen. Weitere Informationen finden Sie unter [Ihren externen Buchhalter in Ihr Business Central einladen](finance-accounting.md#inviteaccountant).  
 
-Administratoren können dieselbe Anleitung zur unterstützten Einrichtung verwenden, um Sie zu ihrem [!INCLUDE [prodshort](includes/prodshort.md)] hinzuzufügen. Sie können Sie auch zum entsprechenden Azure AD-Konto im Microsoft 365 Admin Center hinzufügen. Weitere Informationen finden Sie unter [Benutzer und Gruppen verwalten](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Administratoren können dieselbe Anleitung zur unterstützten Einrichtung verwenden, um Sie zu ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzuzufügen. Sie können Sie auch zum entsprechenden Azure AD-Konto im Microsoft 365 Admin Center hinzufügen. Weitere Informationen finden Sie unter [Benutzer und Gruppen verwalten](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -1,6 +1,6 @@
 ---
 title: "So geht's: Buchen der Lagerkosten in die Finanzbuchhaltung| Microsoft Docs"
-description: Beschreibt, wie physischen Produkte verwaltet werden, die Sie im Lagerbestand in Ihrem Lager verwalten.
+description: Am Ende von (monatlichen, jährlichen oder anderen) Buchhaltungsperioden muss eine Reihe von Kostenkontroll- und Prüfungsaufgaben ausgeführt werden, um der Finanzabteilung einen korrekten und ausgewogenen Lagerwert mitteilen zu können. Neben der Buchungsroutine, durch die die einzelnen Artikelwertposten auf dedizierte Sachkonten gebucht werden, stehen dem Prüfer oder Controller, der mit dieser bedeutenden Aufgabe betraut ist, verschiedene Berichte, Nachverfolgungsfunktionen sowie ein spezielles Abstimmungstool zur Verfügung.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e760818349cf59a9c85d0a0d22b72baefd99af6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad6c8d2084c2bffb38f1c98855e837b9ba13e8fe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919488"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746816"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerkosten mit der Finanzbuchhaltung
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte in der Hauptbuchhaltung im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht.
@@ -26,7 +26,7 @@ Die automatische Lagerbuchung wird durch das Feld **Automatische Lagerbuchung** 
 Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist es immer noch notwendig sicherzustellen, dass die Kosten für Waren zur zugehörigen ausgehenden Transaktion weitergeleitet werden, insbesondere in Situationen, in denen Sie Waren verkaufen, bevor Sie den Kauf dieser Waren in Rechnung stellen. Dies wird als Kostenanpassung bezeichnet. Artikelkosten werden automatisch angepasst, wenn Sie Artikeltransaktionen buchen, Sie können jedoch auch Artikelpreise manuell anpassen. Weitere Informationen finden Sie unter [Artikelkosten anpassen](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Lagerkosten manuell buchen
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Bestandskosten in G/L** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die Wie möchten Sie weiter verfahren öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Bestandskosten in G/L** ein und wählen Sie dann den entsprechenden Link.
 2. Sie buchen eine Lagerkosten manuell in der Hauptbuchhaltung, indem Sie den Batchauftrag ausführen. Wenn Sie diesen Batchauftrag ausführen, werden auf Basis der Wertposten Hauptbuchungsposten erstellt. Sie können die Posten so buchen, dass sie pro Buchungsgruppe zusammengefasst werden.
 
 > [!NOTE]  
@@ -49,19 +49,19 @@ Die Seite **Lager – Sachpostenabstimmung** ermöglicht Folgendes:
 
 In der Spalte **Name** (am äußerst linken Rand des Gitters) werden die verschiedenen Sachkontoarten angezeigt, die mit Lagerbestand verknüpft sind.
 
-Die Spalten **Lagerbestand** , **Lager (Interim)** und **Aktiviert Lager** enthalten die fakturierten, nicht fakturierten und WIP-Summen jeder Sachkontoart. Diese werden aus Wertposten berechnet, d.h., sie werden auf die Sachkontoarten übertragen, auf denen sie sich nach dem Buchen in die Finanzbuchhaltung befinden.
+Die Spalten **Lagerbestand**, **Lager (Interim)** und **Aktiviert Lager** enthalten die fakturierten, nicht fakturierten und WIP-Summen jeder Sachkontoart. Diese werden aus Wertposten berechnet, d.h., sie werden auf die Sachkontoarten übertragen, auf denen sie sich nach dem Buchen in die Finanzbuchhaltung befinden.
 
 Die Spalte **Gesamt** enthält die (fett formatierte) Summe der Wertpostenbeträge in den drei Lagerbestandsspalten.
 
 Die Spalte **Fibu gesamt** enthält die (fett formatierten) Beträge für die einzelnen, in der Finanzbuchhaltung vorhandenen Sachkontoarten. Diese Werte werden auf der Grundlage von Sachposten berechnet, stellen also die Lagerkosten dar, die bereits in die Finanzbuchhaltung gebucht wurden.
 
-Die Spalte **Differenz** enthält die Differenz zwischen **Fibu gesamt** und **Gesamt** .
+Die Spalte **Differenz** enthält die Differenz zwischen **Fibu gesamt** und **Gesamt**.
 
 Am oberen Rand der Seite **Lager - Sachpostenabstimmung** können Sie mithilfe von Filtern beispielsweise die Periode eingrenzen, für die Sie Informationen ermitteln möchten.
 
 Wenn Sie ein Häkchen im Kontrollkästchen **Warnung anzeigen** setzen und wenn es Abweichungen zwischen den Lagerbestandssummen und den Werten in der Fibu gesamt gibt, werden im Feld **Warnung** des Gitters Meldungen angezeigt, in denen die jeweilige Abweichung beschrieben wird. Wenn Sie das Feld "Warnung" auswählen, gibt die Anwendung weitere Informationen zum Inhalt der Warnung.
 
-Wenn Sie alle entsprechenden Filter eingegeben haben, wählhen Sie die Aktion **Matrix anzeigen** . Die Daten werden berechnet, und die Matrixseite wird geöffnet.
+Wenn Sie alle entsprechenden Filter eingegeben haben, wählhen Sie die Aktion **Matrix anzeigen**. Die Daten werden berechnet, und die Matrixseite wird geöffnet.
 
 In der äußerst linken Spalte des Gitters werden die verschiedenen Kontoarten der Finanzbuchhaltung angezeigt, die mit dem Lagerbestand verknüpft sind. Für jede dieser Kontoarten werden im Gitter die fakturierten, nicht fakturierten (Interims-) und WIP-Lagerbestandssummen angezeigt. Diese Summen wurden aus den Wertposten berechnet.
 
@@ -69,9 +69,21 @@ In den nächsten Spalten werden für dieselben Kontoarten die Summen angezeigt, 
 
 Wählen Sie in einem der Summenfelder den Betrag, damit die Lagerberichtsposten angezeigt werden, mit denen die Summen berechnet wurden. Für Lagerbestandssummen sind die Lagerberichtsposten die Summen der Wertposten für die Artikel. Für die Werte in Fibu gesamt sind die Lagerberichtsposten die Summen aus den Sachposten.
 
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Melden von Kosten und Abstimmen mit der Finanzbuchhaltung
+Weitere Berichte, Rückverfolgungsfunktionen und ein spezielles Abstimmungsinstrument stehen dem Prüfer oder Controller zur Verfügung, der für die Meldung eines korrekten und ausgewogenen Bestandswerts an die Finanzabteilung verantwortlich ist.
+
+Die Werte werden in der folgenden Tabelle beschrieben.    
+
+|**Prozess**|**Siehe**|  
+|------------|-------------|  
+|Anzeigen des Lagerwerts ausgewählter Artikel, einschließlich Informationen zu Mengen und Werten bei Erhöhung oder Verringerung des Lagerbestands innerhalb eines bestimmten Zeitraums|Bericht **Aktuellen Lagerwert ermitteln**|  
+|Anzeigen des Lagerwerts ausgewählter Fertigungsaufträge in "Aktiviert Lager", beispielsweise der Mengen und Werte für Verbrauch, Kapazitätsauslastung und Ausgabe in laufenden Fertigungsaufträgen|Bericht **Lagerbewertung - Aktiviert**|  
+|Anzeigen des Lagerwerts ausgewählter Artikel, einschließlich der tatsächlichen Kosten und der Soll-Kosten zum angegebenen Datum|Bericht **Lagerbew.-Einst.-Pr.-Ermittl.**|  
+|Verwenden eines Berichts zum Analysieren der Ursachen für Kostenschwankungen oder zum Verschaffen eines Überblicks über den Kostenanteil verkaufter Artikel (Lagerverbrauch)|Bericht **Kostenanteilsanalyse**|  
+
 ## <a name="see-also"></a>Siehe auch  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)    
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

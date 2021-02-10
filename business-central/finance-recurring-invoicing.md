@@ -11,17 +11,17 @@ ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 311af347fede15b3d246e66d66b47a5fd09c90db
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910805"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750480"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Arbeiten mit wiederkehrenden Umsätzen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Arbeiten mit wiederkehrenden Umsätzen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Viele Unternehmen wechseln von einem Geschäftsumsatzmodell, bei dem der Umsatz aus dem einmaligen Kauf eines Debitors erzielt wird, zu einem Abonnementmodell, bei dem der Umsatz durch die Bereitstellung eines dauerhaften Zugangs zu einer Ware oder Dienstleistung regelmäßig erzielt wird.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet folgende Optionen zur Automatisierung des Sendes von Abonnementrechnungen an Ihre Debitoren und zur Registrierung wiederkehrender Umsätze. 
+[!INCLUDE[prod_short](includes/prod_short.md)] bietet folgende Optionen zur Automatisierung des Sendes von Abonnementrechnungen an Ihre Debitoren und zur Registrierung wiederkehrender Umsätze. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Registrieren von Umsatz mit einem wiederkehrenden Fibu Buch.-Blatt
 
@@ -31,7 +31,7 @@ Bei einem wiederkehrenden Buch.-Blatt handelt es sich um ein Fibu Buch.-Blatt mi
 
 Mit dieser Option definieren Sie flexible Fakturierungsintervalle mit [Datumsformeln](ui-enter-date-ranges.md#using-date-formulas).
 
-Mit dieser Option können Sie in der Standardversion von [!INCLUDE[d365fin](includes/d365fin_md.md)] jedoch keine Rechnungen drucken und senden.  
+Mit dieser Option können Sie in der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] jedoch keine Rechnungen drucken und senden.  
 
 Weitere Informationen finden Sie unter [Arbeiten mit wiederkehrenden Buch.-Blättern](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -51,13 +51,13 @@ Weitere Informationen finden Sie unter [Erstellen von Projekt-Buch.-Blattzeilen]
 
 ## <a name="create-multiple-invoices-based-on-recurring-sales-lines"></a>Erstellen mehrerer Rechnungen basierend auf wiederkehrenden Verkaufszeilen
 
-Wenn Sie häufiger Verkaufs- und Einkaufszeilen mit ähnlichen Daten erstellen müssen, können Sie wiederkehrende Verkaufszeilen einrichten, die Sie anschließend in wiederkehrende Verkaufs- und Einkaufsbelege, z. B. in wiederkehrende Ersatzaufträge, einfügen können. Verwenden Sie den Batchauftrag **Wiederkehrende Verkaufsrechnungen erstellen** , um Verkaufsrechnungen gemäß wiederkehrenden Verkaufszeilen zu erstellen, die den Debitoren zugeordnet sind und Buchungsdaten enthalten, die innerhalb der Gültigkeitszeiträume liegen, die Sie in den wiederkehrenden Verkaufszeilen festgelegt haben.  
+Wenn Sie häufiger Verkaufs- und Einkaufszeilen mit ähnlichen Daten erstellen müssen, können Sie wiederkehrende Verkaufszeilen einrichten, die Sie anschließend in wiederkehrende Verkaufs- und Einkaufsbelege, z. B. in wiederkehrende Ersatzaufträge, einfügen können. Verwenden Sie den Batchauftrag **Wiederkehrende Verkaufsrechnungen erstellen**, um Verkaufsrechnungen gemäß wiederkehrenden Verkaufszeilen zu erstellen, die den Debitoren zugeordnet sind und Buchungsdaten enthalten, die innerhalb der Gültigkeitszeiträume liegen, die Sie in den wiederkehrenden Verkaufszeilen festgelegt haben.  
 
 ### <a name="why-use-this-option"></a>Warum sollten Sie diese Option verwenden?
 
 Mit dieser Option können Sie mehreren Debitoren dieselben wiederkehrenden Zeilen zuweisen. Sie können die Gültigkeitsdauer für die wiederkehrenden Verkaufszeilen für einen bestimmten Debitor definieren. Sie können demselben Debitor mehrere wiederkehrende Zeilen zuweisen, die alle in der Rechnung enthalten sein werden.
 
-Es gibt jedoch keine Möglichkeit, Festpreise für Artikel festzulegen, da [!INCLUDE[d365fin](includes/d365fin_md.md)] die am Dokumentdatum gültigen tatsächlichen Preise und Rabatte verwenden und versuchen wird, die beste Kombination für den niedrigsten Preis zu finden.  
+Es gibt jedoch keine Möglichkeit, Festpreise für Artikel festzulegen, da [!INCLUDE[prod_short](includes/prod_short.md)] die am Dokumentdatum gültigen tatsächlichen Preise und Rabatte verwenden und versuchen wird, die beste Kombination für den niedrigsten Preis zu finden.  
 
 Weitere Informationen finden Sie unter [Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md).
 
@@ -77,7 +77,7 @@ Für diese Option wird jedoch die Premium-Lizenz benötigt. Einrichtung und Verw
 Weitere Informationen finden Sie unter [Arbeiten mit Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md) und [Mehrere Serviceverträge in Rechnung stellen](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Zugehörige Funktionen
-Es gibt mehrere zugehörige Funktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Es gibt mehrere zugehörige Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Verkauf Rahmenauftrag
 
@@ -103,7 +103,7 @@ Mit dieser Option können Sie zwischen festen und „besten“ Preisen wählen.
 
 Diese Option ist jedoch nur in Norwegen verfügbar. Die Gültigkeitsdauer kann auf der Ebene der wiederkehrenden Gruppen definiert werden.
 
-Weitere Informationen finden Sie unter [Wiederkehrende Aufträge (Norwegen)](/localfunctionality/norway/recurring-orders.md).
+Weitere Informationen finden Sie unter [Wiederkehrende Aufträge](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Wiederkehrende Umsätze und Abonnementabrechnungen durch andere Anbieter
 
@@ -120,4 +120,4 @@ Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Er
 [Mehrere Serviceverträge in Rechnung stellen](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Absatzplanungen und Rahmenaufträge Nachfrage](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbeiten mit Rahmenaufträgen](sales-how-to-create-blanket-sales-orders.md)  
-[Wiederkehrende Aufträge (Norwegen)](/localfunctionality/norway/recurring-orders.md)  
+[Wiederkehrende Aufträge (Norwegen)](LocalFunctionality/Norway/recurring-orders.md)  
