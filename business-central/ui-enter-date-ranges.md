@@ -11,26 +11,26 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 853a45dc32907c2d9b69f7b2e592dc164c20a094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912471"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757367"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
 
-[!INCLUDE[d365fin](includes/d365fin_long_md.md)] bietet mehrere Möglichkeiten, Datumsangaben und Uhrzeiten einzugeben, einschließlich leistungsstarker Funktionen, die die Dateneingabe beschleunigen oder Ihnen helfen, komplexe Kalenderausdrücke zu schreiben. Es gibt verschiedene Bereiche in der Anwendung, in denen Sie Daten und Uhrzeiten in die Felder eingeben können. So können Sie beispielsweise das Warenausgangsdatum für einen Auftrag festlegen. Wenn Sie Listen oder Berichtsdaten filtern, können Sie Datumswerten und Uhrzeiten eingeben, um genau die Daten zu finden, an denen Sie interessiert sind.
+[!INCLUDE[prod_short](includes/prod_long.md)] bietet mehrere Möglichkeiten, Datumsangaben und Uhrzeiten einzugeben, einschließlich leistungsstarker Funktionen, die die Dateneingabe beschleunigen oder Ihnen helfen, komplexe Kalenderausdrücke zu schreiben. Es gibt verschiedene Bereiche in der Anwendung, in denen Sie Daten und Uhrzeiten in die Felder eingeben können. So können Sie beispielsweise das Warenausgangsdatum für einen Auftrag festlegen. Wenn Sie Listen oder Berichtsdaten filtern, können Sie Datumswerten und Uhrzeiten eingeben, um genau die Daten zu finden, an denen Sie interessiert sind.
 
 ## <a name="check-your-region-and-language-settings"></a>Überprüfen Ihrer Bereichs- und Spracheneinstellungen
 Die Seite **Meine Einstellungen** gibt die **Region** und **Sprache** an, die Sie in der Anwendung verwenden. Diese Einstellungen beeinflussen, wie Sie Datumswerte und Uhrzeiten eingeben.
 
 -   Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währungen angezeigt oder formatiert werden.
 
--   Bei Datumsmustern, die Begriffe enthalten, muss die Sprache der Begriffe, die Sie verwenden, der **Sprache** -Einstellung entsprechen.
+-   Bei Datumsmustern, die Begriffe enthalten, muss die Sprache der Begriffe, die Sie verwenden, der **Sprache**-Einstellung entsprechen.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verwendet das gregorianische Kalendersystem.
+> [!INCLUDE[prod_short](includes/prod_long.md)] verwendet das gregorianische Kalendersystem.
 
 <!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
@@ -72,7 +72,7 @@ In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingege
 
 ### <a name="today"></a>Heute
 
-Geben Sie das Wort für heute in der Sprache ein, die von der **Sprach** -Einstellung festgelegt wird. Dadurch wird das Datum auf das aktuelle Datum festgelegt. Anstatt den gesamten Begriff einzugeben, können Sie einen Teil des Begriffs eingeben. Beginnen Sie mit h oder heu , sofern dies nicht auch der Beginn eines anderen Begriffs ist.
+Geben Sie das Wort für heute in der Sprache ein, die von der **Sprach**-Einstellung festgelegt wird. Dadurch wird das Datum auf das aktuelle Datum festgelegt. Anstatt den gesamten Begriff einzugeben, können Sie einen Teil des Begriffs eingeben. Beginnen Sie mit h oder heu , sofern dies nicht auch der Beginn eines anderen Begriffs ist.
 
 ### <a name="period"></a>Periode
 
@@ -98,7 +98,7 @@ Um zu definieren, dass eine Datumsangabe ein Abschlussdatum ist, setzen Sie ein 
 
 ### <a name="examples"></a>Beispiele
 
-Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Formate verwenden. Es werden Regionseinstellungen angenommen, mit der die Uhrzeit wie folgt formatiert wird: **Tag.Monat.Jahr.** , eine Woche, die mit Montag beginnt und die englische Sprache.
+Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Formate verwenden. Es werden Regionseinstellungen angenommen, mit der die Uhrzeit wie folgt formatiert wird: **Tag.Monat.Jahr.**, eine Woche, die mit Montag beginnt und die englische Sprache.
 
 |**Eingabe**      |**Interpretation**      |
 |---------------|------------------------|
@@ -194,7 +194,7 @@ Das folgende Beispiel zeigt, wie Sie ein Minuszeichen verwenden können, um anzu
 |-1J|Heute vor einem Jahr|
 
 > [!IMPORTANT]
->  Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit** , entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht 1W sieben Arbeitstagen.
+>  Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit**, entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht 1W sieben Arbeitstagen.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -217,7 +217,7 @@ You can also combine the various format types.
 |12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
 |..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
 
-Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
 ## Using Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
@@ -312,7 +312,7 @@ Beachten Sie, dass Millisekunden in Dezimalnotation angegeben werden. Beispielsw
 
 Sie können 24.00 nicht verwenden, um Mitternacht anzugeben oder einen Wert anzugeben, der größer als 24:00 ist.
 
-Das für Wort für "Zeit" in der Sprache, die von [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verwendet wird, wird in die aktuelle Uhrzeit auf Ihrem Computer oder mobilen Gerät umgerechnet. Sie können vom Anfang einem Teil des Begriffs eingeben, z. B. h oder TIM.
+Das für Wort für "Zeit" in der Sprache, die von [!INCLUDE[prod_short](includes/prod_long.md)] verwendet wird, wird in die aktuelle Uhrzeit auf Ihrem Computer oder mobilen Gerät umgerechnet. Sie können vom Anfang einem Teil des Begriffs eingeben, z. B. h oder TIM.
 
 ## <a name="entering-combined-dates-and-times"></a>Eingeben kombinierter Datums- und Zeitangaben
 Wenn Sie Datums-/Uhrzeitangaben eingeben, die aus einem kombinierten Datum und einer Uhrzeit in einem Feld bestehen, müssen Sie ein Leerzeichen zwischen dem Datum und der Uhrzeit eingeben. Der Datumsteil kann nur Stellen in Form von den offiziellen Datumstrennzeichen Ihrer Regionseinstellung enthalten. Die Uhrzeit kann Stellen um die AM/AM-Angabe enthalten.
@@ -366,6 +366,6 @@ Geben Sie zum Ermitteln der Einheit, die für ein Feld vom Typ "Dauer" verwendet
 Wenn die Maßeinheit beispielsweise Stunden ist, wird die Zahl 5 in 5 Std. konvertiert.
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
 [Eingeben von Kriterien in Filtern](ui-enter-criteria-filters.md)  

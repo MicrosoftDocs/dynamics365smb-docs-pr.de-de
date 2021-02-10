@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4946eb43dd854f8f04b0c267a9ba1bc328cc62bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3957936f7a95ce493443ed86c791ebceee6b56b9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915135"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757242"
 ---
 # <a name="the-image-analyzer-extension"></a>Die Bildanalyse-Erweiterung
 
@@ -23,13 +23,13 @@ Die Bild-Analyser-Erweiterung verwendet die leistungsstarke Bildanalytik, die vo
 
 Bild-Analyser schlagen Attribute basierend auf Tags vor, die der Computer Vision API findet und einen Vertrauensbereich. Standardmäßig schlägt er Attribute vor, wenn mindestens zu 80% sichergestellt ist, dass das Attribut korrekt ist. Sie können einen anderen Vertrauensbereich festlegen, nach Bedarf. Um mehr darüber zu erfahren, wie die Kategorien und der Vertrauensbereich bestimmt wird, gehen Sie zu [Computer Vision API](https://go.microsoft.com/fwlink/?linkid=851476).  
 
-Bild-Analyzer ist kostenlos in [!INCLUDE[d365fin](includes/d365fin_md.md)], aber es gibt einen Grenzwert der Anzahl von Artikeln, die Sie für einen bestimmten Zeitraum auswerten können. Standardmäßig können Sie 100 Bilder pro Monat analysieren.
+Bild-Analyzer ist kostenlos in [!INCLUDE[prod_short](includes/prod_short.md)], aber es gibt einen Grenzwert der Anzahl von Artikeln, die Sie für einen bestimmten Zeitraum auswerten können. Standardmäßig können Sie 100 Bilder pro Monat analysieren.
 
 Nachdem Sie die Erweiterung ausführten, wird der Bild-Analyzer ausgeführt, wenn Sie ein Bild einem Artikel oder einer Kontaktperson importieren. Sie finden die Attribute, den Vertrauensbereich und Details sofort und können sich entscheiden, was, jedes Attribut durchzuführen. Wenn Sie Bilder importierten, bevor Sie die Bild-Analyzer-Erweiterung aktiviert haben, müssen Sie zum Artikel oder zur Kontaktkarten wechseln und **Bild analysieren** auswählen.  
 
 ## <a name="privacy-notice"></a>Datenschutzhinweis
 
-Diese Erweiterung verwendet die API des maschinellen Sehens vom Microsoft kognitiven Services, die sich unterschiedliche Niveaus von Kompatibilitätsverpflichtungen als [!INCLUDE[d365fin](includes/d365fin_md.md)] haben können. Wenn Sie die Bildanalysatorerweiterung aktivieren, werden zum Beispiel Debitorendaten als ein Kontaktbild oder ein Artikelbild die an API des maschinellen Sehens gesendet. Durch die Installation dieser Erweiterung stimmen Sie zu, dass diese begrenzte Reihe von Daten zur maschinellen API des Sehens gebucht werden kann. Beachten Sie, dass Sie die Bildanalysatorerweiterung deaktivieren oder deinstallieren können, um die Verwendung dieser Funktionalität anzupassen. Weitere Informationen finden Sie unter [Microsoft-Sicherheitscenter](https://go.microsoft.com/fwlink/?linkid=851463).
+Diese Erweiterung verwendet die API des maschinellen Sehens vom Microsoft kognitiven Services, die sich unterschiedliche Niveaus von Kompatibilitätsverpflichtungen als [!INCLUDE[prod_short](includes/prod_short.md)] haben können. Wenn Sie die Bildanalysatorerweiterung aktivieren, werden zum Beispiel Debitorendaten als ein Kontaktbild oder ein Artikelbild die an API des maschinellen Sehens gesendet. Durch die Installation dieser Erweiterung stimmen Sie zu, dass diese begrenzte Reihe von Daten zur maschinellen API des Sehens gebucht werden kann. Beachten Sie, dass Sie die Bildanalysatorerweiterung deaktivieren oder deinstallieren können, um die Verwendung dieser Funktionalität anzupassen. Weitere Informationen finden Sie unter [Microsoft-Sicherheitscenter](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Anforderungen
 
@@ -41,7 +41,7 @@ Es gibt mehrere Anforderungen für Bilder:
 
 ## <a name="to-enable-image-analyzer"></a>Bild-Analyzer aktiveren
 
-Die Bild-Analyser-Erweiterugn ist in [!INCLUDE[d365fin](includes/d365fin_md.md)] integriert. Sie müssen sie nur aktivieren.
+Die Bild-Analyser-Erweiterugn ist in [!INCLUDE[prod_short](includes/prod_short.md)] integriert. Sie müssen sie nur aktivieren.
 
 > [!NOTE]  
 > Um die Bild-Analyzer-Erweiterung zu aktivieren, müssen Sie ein Administrator sein. Überprüfen, ob Sie dem Benutzerberechtigungssatz **SUPER** zugeordnet werden.
@@ -75,7 +75,7 @@ Die folgenden Schritte beschreiben, wie ein Bild analysiert wird, das importiert
 
 ## <a name="block-suggested-attributes"></a>Blockieren Sie vorgeschlagene Attribute
 
-Wenn die Analyse ein Attribut vorschlägt, das Sie nicht sehen möchten, können Sie das Attribut blockieren. Vorsicht walten lassen. Blockierte Attribute werden nicht für andere Artikel oder Kontaktpersonen vorgeschlagen. Wenn Sie bedauern, ein Attribut blockiert zu haben, wählen Sie **Auf die schwarze Liste gesetzte Attribute anzeigen**, und löschen Sie dann das Attribut in der Liste.
+Wenn die Analyse ein Attribut vorschlägt, das Sie nicht sehen möchten, können Sie das Attribut blockieren. Vorsicht walten lassen. Blockierte Attribute werden nicht für andere Artikel oder Kontaktpersonen vorgeschlagen. Wenn Sie bedauern, ein Attribut blockiert zu haben, wählen Sie **Attribute auf der Blacklist anzeigen**, und löschen Sie dann das Attribut in der Liste.
 
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Um Ihr eigenes Konto für die Computer Vision API zu verwenden
 
@@ -102,5 +102,5 @@ Sie können die Anzahl Analysen anzeigen, die Sie durchgeführt haben, und wie v
 ## <a name="see-also"></a>Siehe auch
 
 [Arbeiten mit Artikelattributen](inventory-how-work-item-attributes.md)  
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] über Erweiterungen](ui-extensions.md)  
+[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] über Erweiterungen](ui-extensions.md)  
 [Erste Schritte](product-get-started.md)  

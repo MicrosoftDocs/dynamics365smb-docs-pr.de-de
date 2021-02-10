@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 687a63e1d53db4c120070de0a353b3501a335d27
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 78657265e45aa9eb01d56a65aab8366c24b3d39a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914935"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756742"
 ---
 # <a name="posting-purchases"></a>Einkäufe buchen
 Bei einem Kaufbeleg können Sie zwischen den folgenden Buchungsaktionen wählen:
@@ -61,4 +61,4 @@ Sie können bestimmte Felder in gebuchten Einkaufsbelegen bearbeiten, z. B. das
 [Journale und Dokumente buchen](ui-post-documents-journals.md)  
 [Ändern oder Löschen einer unbezahlten Einkaufsrechnung](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

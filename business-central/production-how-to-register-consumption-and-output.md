@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 504cc43ee29afd55deb5f51ca85d93eb7908d7d7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 298fd165e03709d6ea6a34291efe5d04ecb74aba
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919088"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759092"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile
 Diese Ausführungsaufgabe wird auf der Seite **Produktions Buch.-Blatt** ausgeführt. In diesem Buchungsblatt werden die Funktionen des separaten FA-Verbrauchs Buch.-Blatts und des FA-Istmeldungs Buch.-Blatts in einem Buchungsblatt kombiniert. Auf das kombinierte Buchungsblatt wird direkt von einem freigegebenen Fertigungsauftrag aus zugegriffen. Es dient hauptsächlich dazu, den Verbrauch von Komponenten, die Menge der gefertigten Endartikel und die für die Arbeitsgänge aufgewendete Zeit manuell zu buchen. Die Werte werden als Posten unter dem freigegebenen Fertigungsauftrag gebucht. Verbrauchsmengen werden als negative Artikelposten gebucht, fertig gestellte Mengen werden als positive Posten gebucht, und die aufgewendeten Zeiten werden als Kapazitätsposten gebucht. Solche gebuchten Posten können auch unten im Buchungsblatt als Ist-Mengen angezeigt werden.  
@@ -28,9 +28,9 @@ Diese Ausführungsaufgabe wird auf der Seite **Produktions Buch.-Blatt** ausgef�
 
 ## <a name="to-register-consumption-and-output"></a>Verbrauch und Istmeldungen registrieren  
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Freigegebene FA** ein, und wählen Sie dann den zugehörigen Link.  
-2.  Öffnen Sie eine freigegebene FA-Zeile, die zur Registrierung bereitsteht. Klicken Sie auf dem Inforegister **Zeilen** auf die Aktion **Zeilen** und klicken Sie dann auf **Produktions Buch.-Blatt** .  
+2.  Öffnen Sie eine freigegebene FA-Zeile, die zur Registrierung bereitsteht. Klicken Sie auf dem Inforegister **Zeilen** auf die Aktion **Zeilen** und klicken Sie dann auf **Produktions Buch.-Blatt**.  
 
-    Die Seite **Produktions-Buch.-Blatt** wird geöffnet, mit Buchungsblattzeilen für den Fertigungsauftrag entsprechend den Seiten **FA-Komponente** und **FA-Arbeitsplan** . Diese Zeilen stammen aus der Fertigungsstückliste und dem Arbeitsplan, die dem Artikel zugewiesen wurden, der gefertigt wird. Weitere Informationen finden Sie unter [Erstellen von Montagestücklisten](production-how-to-create-routings.md).  
+    Die Seite **Produktions-Buch.-Blatt** wird geöffnet, mit Buchungsblattzeilen für den Fertigungsauftrag entsprechend den Seiten **FA-Komponente** und **FA-Arbeitsplan**. Diese Zeilen stammen aus der Fertigungsstückliste und dem Arbeitsplan, die dem Artikel zugewiesen wurden, der gefertigt wird. Weitere Informationen finden Sie unter [Erstellen von Montagestücklisten](production-how-to-create-routings.md).  
 
 3.  Geben Sie im Feld **Buchungsdatum** ganz oben im Buchungsblatt ein Buchungsdatum ein, das auf alle Zeilen angewendet wird. Standardmäßig wird das Arbeitsdatum eingegeben. Das Feld soll dazu dienen, schnell die Buchungsdaten in allen Zeilen anzugleichen, falls dies erforderlich ist.  
 
@@ -43,7 +43,7 @@ Diese Ausführungsaufgabe wird auf der Seite **Produktions Buch.-Blatt** ausgef�
 
     Beim Öffnen des Buchungsblatts sind die zu buchenden Mengen voreingestellt. Wenn bisher nichts gebucht wurde, werden in allen Mengenfeldern standardmäßig die erwarteten Mengen angezeigt, die aus dem Fertigungsauftrag übernommen wurden. Wenn Teilbuchungen vorgenommen wurden, werden in den Mengenfeldern der Zeilen die Restmengen angezeigt. Die bereits für den Auftrag gebuchten Mengen und Zeiten werden unten im Buchungsblatt als Ist-Posten angezeigt.  
 
-    Für die Mengen im Feld **Fertig gestellte Menge** können Sie festlegen, welche Werte beim ersten Öffnen des Protokolls als Voreinstellung angezeigt werden. Dies erfolgt auf der Seite **Produktion Einrichtung** auf dem Inforegister **Allgemein** im Feld **Vordef. fertig gest. Menge** .
+    Für die Mengen im Feld **Fertig gestellte Menge** können Sie festlegen, welche Werte beim ersten Öffnen des Protokolls als Voreinstellung angezeigt werden. Dies erfolgt auf der Seite **Produktion Einrichtung** auf dem Inforegister **Allgemein** im Feld **Vordef. fertig gest. Menge**.
 
 5.  Geben Sie anschließend die entsprechenden Mengen in den veränderbaren Feldern für Verbrauch und/oder Istmeldungen ein.  
 
@@ -51,7 +51,7 @@ Diese Ausführungsaufgabe wird auf der Seite **Produktions Buch.-Blatt** ausgef�
     >  Nur mit der fertig gestellten Menge für die letzte Protokollzeile vom Postenart **Istmeldung** beim Buchen des Protokolls der Lagerbestand angepasst wird. Achten Sie deshalb darauf, dass Sie das Protokoll nicht mit der erwarteten fertig gestellten Menge als Voreinstellung in der letzten Istmeldungszeile buchen, solange nicht alle Endartikel tatsächlich gefertigt wurden.  
 
 6.  Wählen Sie das Feld **Beendet** in den Istmeldungszeilen, um anzugeben, dass der Arbeitsgang beendet ist. Dieses Feld ist mit dem Feld **Arbeitsplanstatus** in einem Arbeitsgang eines Fertigungsauftrags verbunden.  
-7.  Klicken Sie auf **Buchen** , um die eingegebenen Mengen zu registrieren und das Buchungsblatt zu schließen.  
+7.  Klicken Sie auf **Buchen**, um die eingegebenen Mengen zu registrieren und das Buchungsblatt zu schließen.  
 
 Wenn Werte zu buchen übrig bleiben, enthält das Buchungsblatt beim nächsten Öffnen diese verbleibenden Werte. Gebuchte Werte werden als tatsächliche Werte unten auf dem Buchungsblatt angezeigt.  
 
@@ -70,4 +70,4 @@ Wenn Werte zu buchen übrig bleiben, enthält das Buchungsblatt beim nächsten �
 [Planung](production-planning.md)      
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

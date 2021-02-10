@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 68271b7f6f90f88af74cee848af82d28abbf339f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b53768d7a7757f3f3e186e5d241b318a71c770b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921367"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758617"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Verwenden von Arbeitszeittabellen für Projekte
 
-Verwenden Sie die Stapelverarbeitung **Arbeitszeittabellen erstellen** , um Arbeitszeittabellen für eine bestimmte Anzahl von Perioden oder Wochen einzurichten. Sie müssen Berechtigungen haben, Arbeitszeittabellen zu erstellen.
+Verwenden Sie die Stapelverarbeitung **Arbeitszeittabellen erstellen**, um Arbeitszeittabellen für eine bestimmte Anzahl von Perioden oder Wochen einzurichten. Sie müssen Berechtigungen haben, Arbeitszeittabellen zu erstellen.
 
 Sie können Ihre Projektplanzeilen in die Arbeitszeittabelle kopieren und verwenden. Auf diese Art müssen Sie die Informationen immer nur an einer Stelle eingeben und die Zeileninformationen sind immer korrekt.
 
@@ -53,8 +53,8 @@ Sie können den Arbeitstyp für alle Arbeitszeittabellenzeilen für Projekte fes
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Arbeitszeittabellen** ein und wählen Sie dann den entsprechenden Link.   
 2. Öffnet die entsprechende Arbeitszeittabelle.
-3. Wählen Sie das Feld **Beschreibung** .  
-4. Auf der Seite **Arbeitszeittabellenzeilen-Projekt-Detail** wählen Sie das Feld **Arbeitstypencode** und wählen Sie einen Arbeitstyp aus der Liste aus, wie beispielsweise **Meilen** .  
+3. Wählen Sie das Feld **Beschreibung**.  
+4. Auf der Seite **Arbeitszeittabellenzeilen-Projekt-Detail** wählen Sie das Feld **Arbeitstypencode** und wählen Sie einen Arbeitstyp aus der Liste aus, wie beispielsweise **Meilen**.  
 5. Wenn keine Arbeitstypen vorhanden sind, wählen Sie die Aktion **Neu** aus.
 6. Auf der Seite **Arbeitstypen** füllen Sie die notwendigen Felder aus.
 7. Wiederholen Sie Schritt 4, um den neuen Arbeitstyp in der Arbeitszeittabelle einzugeben.
@@ -66,7 +66,7 @@ Falls die Arbeitszeittabelle Informationen von einem Zeitraum zum anderen gleich
 2. Öffnen Sie die Arbeitszeittabelle für eine Periode nach der Periode für eine vorhandene Arbeitszeittabelle mit Zeilen.  
 3. Wählen Sie die Aktion **Zeilen aus vorherigen Arbeitszeittabellen kopieren** aus.
 
-Die Zeilen werden kopiert, einschließlich Informationen wie Art und Beschreibung. Wenn beispielsweise die Zeile mit einem Projekt verknüpft ist, wird die **Projektnr.** kopiert. Alle kopierten Zeilen haben den Status **Offen** . Sie können die benutzerdefinierten Zeilen jetzt bei Bedarf ändern.
+Die Zeilen werden kopiert, einschließlich Informationen wie Art und Beschreibung. Wenn beispielsweise die Zeile mit einem Projekt verknüpft ist, wird die **Projektnr.** kopiert. Alle kopierten Zeilen haben den Status **Offen**. Sie können die benutzerdefinierten Zeilen jetzt bei Bedarf ändern.
 
 ## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>So können Sie Arbeitszeittabellenzeilen ausfüllen und zur Genehmigung senden
 Die Arbeitszeittabellenregistrierung wird in Stunden verfolgt, der Standard-Basiseinheit für Ressourcen. Standardmäßig zeigt eine Arbeitszeittabelle die allgemeinen Arbeitstage von Montag bis Freitag an.
@@ -78,7 +78,7 @@ Die Arbeitszeittabellenregistrierung wird in Stunden verfolgt, der Standard-Basi
     > [!TIP]  
     >   Sie können die Summe der Arbeitszeittabellenstunden überprüfen, die Sie in die Infobox **Tatsächlich/Budgetiert Zusammenfassung** eingegeben haben.  
 4. Wiederholen Sie Schritt 3 für weitere Arbeitstypen, die die Ressource ausführt.
-5. Wählen Sie die Aktion **Übermitteln** aus und wählen Sie dann die Aktion **Alle offenen Zeilen** , um alle Zeilen zu senden oder **Nur ausgewählte Zeilen** , um nur die Zeilen zu übermitteln, die auf der Seite **Arbeitszeittabelle** ausgewählt wurden.  
+5. Wählen Sie die Aktion **Übermitteln** aus und wählen Sie dann die Aktion **Alle offenen Zeilen**, um alle Zeilen zu senden oder **Nur ausgewählte Zeilen**, um nur die Zeilen zu übermitteln, die auf der Seite **Arbeitszeittabelle** ausgewählt wurden.  
 
     > [!NOTE]  
     >   ie können nur Arbeitszeitta‎bellenzeilen senden, für die Sie Zeit eingegeben haben.  
@@ -96,7 +96,7 @@ Eine Arbeitszeittabelle muss zur Genehmigung eingereicht werden, bevor Sie verwe
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Arbeitszeitnachweise für Manager** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie eine Arbeitszeittabelle aus der Liste aus.  
-3. Wählen Sie auf der Seite **Arbeitszeittabelle** die Aktion **Genehmigen** aus, und wählen Sie die Aktion **Alle übermittelten Zeilen** , um alle Zeilen zu übermitteln oder **Nur ausgewählte Zeilen** , um nur jene Zeilen zu genehmigen, die auf der Seite **Arbeitszeittabelle** ausgewählt wurden.
+3. Wählen Sie auf der Seite **Arbeitszeittabelle** die Aktion **Genehmigen** aus, und wählen Sie die Aktion **Alle übermittelten Zeilen**, um alle Zeilen zu übermitteln oder **Nur ausgewählte Zeilen**, um nur jene Zeilen zu genehmigen, die auf der Seite **Arbeitszeittabelle** ausgewählt wurden.
 4. Wählen Sie die Schaltfläche **OK** aus.  
 5. Wählen Sie die Aktion **Ablehnen** und führen Sie die Schritte 4 bis 5 aus.  
 
@@ -111,8 +111,8 @@ Nachdem Sie eine Arbeitszeittabelle genehmigt oder abgelehnt haben, kann sie nic
 
     > [!NOTE]  
     >   Sie können Zeilen nur erneut öffnen, die den Status **Genehmigt** haben. Sie können keine Zeilen erneut öffnen, die den Status **Abgelehnt** haben. Sie können eine Arbeitszeittabelle nicht erneut öffnen, wenn diese gebucht wurde.  
-3. Wählen Sie auf der Seite **Erneut öffnen** die Aktion **Genehmigen** aus, und wählen Sie die Aktion **Alle übermittelten Zeilen** , um alle Zeilen erneut zu öffnen oder **Nur ausgewählte Zeilen** , um nur jene Zeilen erneut zu öffnen, die auf der Seite **Arbeitszeittabelle** ausgewählt wurden.
-4. Wählen Sie die Schaltfläche **OK** aus. Der Status der Arbeitszeittabellen, Zeile oder Zeilen wechselt auf **Übermittelt** .  
+3. Wählen Sie auf der Seite **Erneut öffnen** die Aktion **Genehmigen** aus, und wählen Sie die Aktion **Alle übermittelten Zeilen**, um alle Zeilen erneut zu öffnen oder **Nur ausgewählte Zeilen**, um nur jene Zeilen erneut zu öffnen, die auf der Seite **Arbeitszeittabelle** ausgewählt wurden.
+4. Wählen Sie die Schaltfläche **OK** aus. Der Status der Arbeitszeittabellen, Zeile oder Zeilen wechselt auf **Übermittelt**.  
 
 ## <a name="to-view-and-approve-time-sheets-by-job"></a>So zeigen Sie Arbeitszeittabellen nach Projekt an und genehmigen diese
 
@@ -124,12 +124,12 @@ Für ein Projekt können Sie eine Person bestimmen, die für das Projekt verantw
 ### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>So können Sie Arbeitszeittabellen nach Projekt genehmigen oder ablehnen
 
 1. Geben Sie im Feld **Suchen** **Arbeitszeittabelle für Manager nach Projekt** ein, und wählen Sie dann den zugehörigen Link aus. Microsoft Dynamics NAV zeigt eine Liste der Arbeitszeittabellezeilen an, die den Projekten zugeordnet sind, für die Sie verantwortlich sind.
-2. Wählen Sie auf der Registerkarte **Start** die Option **Genehmigen** aus. Wählen Sie **Alle** , um alle Zeilen zu genehmigen. Wählen Sie **Ausgewählt** , um nur ausgewählte Zeilen zu genehmigen.
+2. Wählen Sie auf der Registerkarte **Start** die Option **Genehmigen** aus. Wählen Sie **Alle**, um alle Zeilen zu genehmigen. Wählen Sie **Ausgewählt**, um nur ausgewählte Zeilen zu genehmigen.
 
     > [!NOTE]
     > Sie können nur Arbeitszeittabellen genehmigen, die den Status **Übermittelt** haben.
 
-3. Um zusätzliche Informationen über die Genehmigung oder Ablehnung anzugeben, wählen Sie eine Arbeitszeittabellenzeile aus, und wählen Sie auf der Registerkarte **Navigieren** die Option **Bemerkungen** . Geben Sie in das Feld **Datum** ein Datum ein, und geben Sie dann eine Bemerkung in das Feld **Bemerkung** ein.
+3. Um zusätzliche Informationen über die Genehmigung oder Ablehnung anzugeben, wählen Sie eine Arbeitszeittabellenzeile aus, und wählen Sie auf der Registerkarte **Navigieren** die Option **Bemerkungen**. Geben Sie in das Feld **Datum** ein Datum ein, und geben Sie dann eine Bemerkung in das Feld **Bemerkung** ein.
 4. Wählen Sie die Schaltfläche **OK** aus.
 
 > [!NOTE]
@@ -174,4 +174,4 @@ Nachdem Sie Arbeitszeittabellen gebucht haben, können Sie diese für spätere B
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)         
 [Verkauf](sales-manage-sales.md)     
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

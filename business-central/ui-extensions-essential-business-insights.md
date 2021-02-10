@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88aba42c6d30cb28020386f265150a0a8f201179
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2be073fbb2216e9a87c54b7c4d9fd3fa86e02aee
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915160"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757217"
 ---
 # <a name="the-essential-business-insights-extension"></a>Die wesentliche Business Insights-Erweiterung
 Die Essential Business Insights Erweiterung findet interessante Geschäftsfakten in Ihren Unternehmensdaten und zeigt sie als zeitungsähnliche Titel in Rollencenters an. Abhängig davon, was die Erweiterung findet, sind die Einblicke der letzten Woche, des letzten Monats oder der letzten drei Monate ab dem aktuellen Datum. Die Einblicke aktualisieren alle 10 Minuten.  
@@ -37,4 +37,4 @@ Die folgende Tabelle beschreibt die Einblicke, die diese Erweiterung für jedes 
 |Administrator| Zeigt eine Anrede und Verbindung zur Produktinformationen an.|
 
 ## <a name="see-also"></a>Siehe auch
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)
+[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)

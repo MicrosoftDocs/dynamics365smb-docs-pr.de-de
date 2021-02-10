@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cf9c34434136578b6ab31841c5bb7f69f72ae18
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 49448cc56d76846c70471a53a257986b543f11b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921467"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758817"
 ---
 # <a name="planning-with-or-without-locations"></a>Siehe Planung mit/ohne Lagerortcodes.
 In der Planung mit oder ohne Lagerortcodes in Bedarfszeilen arbeitet das Planungssystem unter diesen Voraussetzungen in geradliniger Weise:  
@@ -50,7 +50,7 @@ Während eines Planungslaufs führt das System der Reihe nach eine Überprüfung
 
     Falls nein:  
 
-    Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* , Lagerbestand berücksichtigen =  *Ja* , alle anderen Planungsparameter = Leer. (Artikel mit dem Wiederbeschaffungsverfahren  *Bestellung* verbleiben auf  *Bestellung* sowie auf allen anderen für sie festgelegten Einstellungen.)  
+    Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los*, Lagerbestand berücksichtigen =  *Ja*, alle anderen Planungsparameter = Leer. (Artikel mit dem Wiederbeschaffungsverfahren  *Bestellung* verbleiben auf  *Bestellung* sowie auf allen anderen für sie festgelegten Einstellungen.)  
 
 > [!NOTE]  
 >  Diese Minimalalternative deckt nur den exakten Bedarf ab. Alle definierten Planungsparameter werden ignoriert.  
@@ -59,7 +59,7 @@ Siehe Abweichungen in den unten angeführten Szenarien.
 
 ## <a name="demand-at-blank-location"></a>Bedarf an "leerer Lagerort"  
 Selbst bei markiertem Feld **Lagerort notwendig** erlaubt das System die Erstellung von Bedarfszeilen ohne Lagerortcode – auch als Lagerort *LEER* bezeichnet. Dies stellt für das System eine Abweichung dar, weil mehrere Konfigurationswerte für die Behandlung von Lagerorten optimiert sind, und im Ergebnis erstellt das Planungsmodul für eine solche Bedarfszeile keine Planungszeile. Wenn das Feld **Lagerort notwendig** nicht markiert ist, jedoch andere Konfigurationswerte für den Lagerort vorhanden sind, wird auch dieser Fall als Abweichung betrachtet, und das Planungssystem reagiert mit der Ausgabe der "Minimalalternative":   
-Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt *Bestellung* ), Lagerbestand berücksichtigen =  *Ja* , alle anderen Planungsparameter = Leer.  
+Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt *Bestellung*), Lagerbestand berücksichtigen =  *Ja*, alle anderen Planungsparameter = Leer.  
 
 Siehe Abweichungen in den unten angeführte Setup-Szenarien.  
 
@@ -79,7 +79,7 @@ Der Artikel wird gemäß den Planungsparametern auf der Artikelkarte geplant.
 
 #### <a name="case-13-demand-is-at--green-location"></a>Fall 1.3: Es besteht Bedarf am Lagerort  *GRÜN*  
 
-Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt  *Bestellung* ), Lagerbestand berücksichtigen =  *Ja* , alle anderen Planungsparameter = Leer.  
+Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt  *Bestellung*), Lagerbestand berücksichtigen =  *Ja*, alle anderen Planungsparameter = Leer.  
 
 #### <a name="case-14-demand-is-at--blank-location"></a>Fall 1.4: Es besteht Bedarf am Lagerort *LEER*  
 
@@ -93,7 +93,7 @@ Der Artikel wird nicht geplant, weil kein Lagerort in der Bedarfszeile definiert
 
 #### <a name="case-21-demand-is-at--red-location"></a>Fall 2.1: Es besteht Bedarf am Lagerort  *ROT*  
 
-Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt  *Bestellung* ), Lagerbestand berücksichtigen =  *Ja* , alle anderen Planungsparameter = Leer.  
+Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt  *Bestellung*), Lagerbestand berücksichtigen =  *Ja*, alle anderen Planungsparameter = Leer.  
 
 #### <a name="case-22-demand-is-at--blue-location"></a>Fall 2.2: Es besteht Bedarf am Lagerort *BLAU*  
 
@@ -107,7 +107,7 @@ Der Artikel wird gemäß den Planungsparametern auf der Artikelkarte geplant.
 
 #### <a name="case-31-demand-is-at--red-location"></a>Fall 3.1: Es besteht Bedarf am Lagerort  *ROT*  
 
-Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt  *Bestellung* ), Lagerbestand berücksichtigen =  *Ja* , alle anderen Planungsparameter = Leer.  
+Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt  *Bestellung*), Lagerbestand berücksichtigen =  *Ja*, alle anderen Planungsparameter = Leer.  
 
 #### <a name="case-32-demand-is-at--blue-location"></a>Fall 3.2: Es besteht Bedarf am Lagerort *BLAU*  
 
@@ -115,7 +115,7 @@ Der Artikel wird gemäß den Planungsparametern auf der Artikelkarte geplant.
 
 #### <a name="case-33-demand-is-at--blank-location"></a>Fall 3.3: Es besteht Bedarf am Lagerort  *LEER*  
 
-Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt  *Bestellung* ), Lagerbestand berücksichtigen =  *Ja* , alle anderen Planungsparameter = Leer.  
+Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt  *Bestellung*), Lagerbestand berücksichtigen =  *Ja*, alle anderen Planungsparameter = Leer.  
 
 ### <a name="setup-4"></a>Konfiguration 4:  
 
@@ -125,7 +125,7 @@ Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren = 
 
 #### <a name="case-41-demand-is-at--blue-location"></a>Fall 4.1: Es besteht Bedarf am Lagerort  *BLAU*  
 
-Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt  *Bestellung* ), Lagerbestand berücksichtigen =  *Ja* , alle anderen Planungsparameter = Leer.  
+Der Artikel wird anhand dieser Kriterien geplant: Wiederbeschaffungsverfahren =  *Los-für-Los* ( *Bestellung* bleibt  *Bestellung*), Lagerbestand berücksichtigen =  *Ja*, alle anderen Planungsparameter = Leer.  
 
 #### <a name="case-42-demand-is-at--blank-location"></a>Fall 4.2: Es besteht Bedarf am Lagerort  *LEER*  
 
@@ -143,4 +143,4 @@ Wenn Sie häufig den Bedarf an Lagerorten planen müssen, empfiehlt sich daher d
 [Einkauf](purchasing-manage-purchasing.md)  
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

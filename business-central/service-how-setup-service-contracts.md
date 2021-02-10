@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50b2a25ca18773340e10b52529ba484843cad7f1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f978047720f6e67c58c7c845a15f957258aaca3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910305"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757917"
 ---
 # <a name="set-up-service-contracts"></a>Serviceverträge einrichten
 Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten: 
@@ -23,12 +23,12 @@ Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten:
 * Die Tabelle **Servicevertragsgruppe** enthält eine Gruppe von Serviceverträgen, die miteinander in Verbindung stehen.
 * Sie können **Servicevertragskontengruppen** verwenden, um Serviceverträge zu gruppieren. Diese Gruppen können dann für die Servicerechnungen von Serviceverträgen verwendet werden. Sie können diese Gruppen anschließend Ihren Serviceverträgen zuordnen.  
 * Sie können **Vertragsvorlagen** als eine vordefinierte Grundlage für Serviceverträge verwenden, die die gängigsten Servicevertragsdetails enthält. Wenn Sie Servicevertragsangebote erstellen, können Sie diese unter Verwendung dieser Vorlagen erstellen. Wenn Sie ein neues Vertragsangebot erstellen, enthalten die Felder automatisch den Inhalt der Vorlagenfelder.
-* **Debitorenvorlagen** , mit denen Sie Angebote für Kontakte oder potenzielle Debitoren erstellen können, die nicht als Debitoren in [!INCLUDE[d365fin](includes/d365fin_md.md)]registriert sind.  
+* **Debitorenvorlagen** , mit denen Sie Angebote für Kontakte oder potenzielle Debitoren erstellen können, die nicht als Debitoren in [!INCLUDE[prod_short](includes/prod_short.md)]registriert sind.  
 
 ## <a name="to-set-up-a-service-contract-group"></a>So richten Sie Servicevertragsgruppen ein  
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Servicevertragsgruppen** ein und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Aktivieren Sie das Feld **Rabatt nur auf Vertr.-Aufträge** , wenn Vertrags- oder Servicerabatte nur für Vertragsaufträge, wie z. B. Wartung, gültig sein sollen.  
+3. Aktivieren Sie das Feld **Rabatt nur auf Vertr.-Aufträge**, wenn Vertrags- oder Servicerabatte nur für Vertragsaufträge, wie z. B. Wartung, gültig sein sollen.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>So richten Sie eine Servicevertragskontengruppe ein  
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Servicevertragskontengruppen** ein und wählen Sie dann den entsprechenden Link.  
@@ -51,7 +51,7 @@ Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten:
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitorenvorlagen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine neue Debitorenvorlagenkarte.  
 3. Geben Sie auf dem Inforegister **Allgemein** der Debitorenvorlagenkarte im Feld **Code** einen Code und im Feld **Beschreibung** eine Beschreibung für die Debitorenvorlage ein. 
-4. Die anderen Felder, z. B. **Länder-/Regionscode** , **Gebietscode** und **Sprachcode** , werden als Suchkriterien verwendet und können ausgefüllt werden.  
+4. Die anderen Felder, z. B. **Länder-/Regionscode**, **Gebietscode** und **Sprachcode**, werden als Suchkriterien verwendet und können ausgefüllt werden.  
 5. Die Felder **Geschäftsbuchungsgruppe** und **Debitorenbuchungsgruppe** müssen ausgefüllt werden.  
 
 ## <a name="see-also"></a>Siehe auch

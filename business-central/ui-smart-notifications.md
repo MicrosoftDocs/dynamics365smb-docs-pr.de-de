@@ -9,34 +9,34 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9ea6568f858dd154b7126f6444b45e4e548c6d18
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a297fd8381cf0af9de825cdaced658521e0335c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923345"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756642"
 ---
 # <a name="manage-notifications"></a>Verwalten von Benachrichtigungen
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kann nützlich sein, um intelligenter zu arbeiten, indem es Sie beispielsweise informiert, wenn Sie einen Debitoren fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Diese Benachrichtigungen werden als diskrete Tipps im Kontext der Aufgabe angezeigt, die Sie durchführen, und Sie können wählen, ob Sie die Benachrichtigung ignorieren oder Details zu dem Problem anzeigen wollen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] kann nützlich sein, um intelligenter zu arbeiten, indem es Sie beispielsweise informiert, wenn Sie einen Debitoren fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Diese Benachrichtigungen werden als diskrete Tipps im Kontext der Aufgabe angezeigt, die Sie durchführen, und Sie können wählen, ob Sie die Benachrichtigung ignorieren oder Details zu dem Problem anzeigen wollen.  
 
-Wenn Sie das Anzeigen der Benachrichtigungsdetails auswählen, können Sie Maßnahmen ergreifen, um das Problem zu lösen, beispielsweise den Debitor kontaktieren, mehr Lagerbestand kaufen, usw. Sie können auswählen. was Sie tun wollen und [!INCLUDE[d365fin](includes/d365fin_md.md)] gibt Ihnen Hinweise und Empfehlungen.  
+Wenn Sie das Anzeigen der Benachrichtigungsdetails auswählen, können Sie Maßnahmen ergreifen, um das Problem zu lösen, beispielsweise den Debitor kontaktieren, mehr Lagerbestand kaufen, usw. Sie können auswählen. was Sie tun wollen und [!INCLUDE[prod_short](includes/prod_short.md)] gibt Ihnen Hinweise und Empfehlungen.  
 
 Die Benachrichtigungen helfen dem ungeübten Nutzer dabei, nicht vertraute Aufgaben abzuschließen und reduzieren nicht die Produktivität des geschulten Benutzer.  
 
 ## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Schaltet Benachrichtigungen ein und aus und steuert, wann diese gesendet werden
 
-Wenn Sie zuerst mit [!INCLUDE[d365fin](includes/d365fin_md.md)] Benachrichtigungen beginnen, werden alle ausgeführt, Sie können diese aber ein- oder ausschalten, beispielsweise, wenn Sie an einem bestimmten Ereignis oder an einen Status nicht interessiert sind.  
+Wenn Sie zuerst mit [!INCLUDE[prod_short](includes/prod_short.md)] Benachrichtigungen beginnen, werden alle ausgeführt, Sie können diese aber ein- oder ausschalten, beispielsweise, wenn Sie an einem bestimmten Ereignis oder an einen Status nicht interessiert sind.  
 
 Darüber hinaus lassen gewisse Benachrichtigungen Sie die Bedingungen angeben, mit denen sie gesendet werden sollen. Wenn Sie beispielsweise benachrichtigt werden möchten, wenn der Lagerbestand niedrig ist, aber dies nur für Artikel, die Sie von einem bestimmten Kreditoren kaufen.  
 
 Aktivieren oder deaktivieren Sie bestimmte Benachrichtigungen, die auf Sie interessieren.  
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und wählen dann die Aktion **Meine Einstellungen** .  
-2. Auf der Seite **Meine Einstellungen** , im Feld **Benachrichtigungen** wählen Sie den *Ändern, wenn ich Benachrichtigungen erhalte.* Link.  
+1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und wählen dann die Aktion **Meine Einstellungen**.  
+2. Auf der Seite **Meine Einstellungen**, im Feld **Benachrichtigungen** wählen Sie den *Ändern, wenn ich Benachrichtigungen erhalte.* Link.  
 3. Auf der Seite, die angezeigt wird, aktivieren oder deaktivieren Sie eine Benachrichtigung, indem Sie das Kontrollkästchen **Aktiviert** aktivieren oder deaktivieren.  
 4. Um Bedingungen anzugeben, die eine Benachrichtigung auslösen, wählen Sie den Link **Filterdetails ansehen** und füllen Sie die Felder aus.  
 
 ## <a name="see-also"></a>Siehe auch
 
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

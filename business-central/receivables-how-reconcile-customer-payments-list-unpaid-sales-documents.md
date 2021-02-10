@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44d2031c41a8077e072255be60dd71ff98cd9e78
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 17468db82be1ad816bd77d12693e8720860d6df6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926504"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758413"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
 Wenn Ihre Debitoren Zahlungen an Ihr elektronisches Bankkonto getätigt haben, müssen Sie jeden gezahlten Betrag auf den zugehörigen Verkaufsbeleg anwenden und dann die Zahlung buchen, um die Debitoren-, Sachkonto- und Bankposten zu aktualisieren. Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
@@ -55,7 +55,7 @@ Die eingegebene Zahlungsinformation ist für Belege gebucht, die durch Zeilen da
 Zahlungsposten werden in der Finanzbuchhaltung, Bank und in Debitorenkonten gebucht. Jede Zahlung wird für den entsprechenden gebuchten Verkaufsbeleg angewandt.  
 
 ## <a name="to-reconcile-lump-sum-payments"></a>Pauschalzahlungen verarbeiten
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie das Kontrollkästchen **Zahlung erfolgt** in der Zeile, die die gebuchten Belege für denselben Debitor darstellen, für den eine Pauschalzahlung gemacht wurde.  
 
     > [!NOTE]  
@@ -77,7 +77,7 @@ Zahlungseingänge werden in Finanzbuchhaltung, Bank und in Debitorenkonten gebuc
 
 Wenn eine Zahlung in der Bank nicht durch Zeile auf der Seite **Zahlungserfassung** angegeben wird, kann dies sein, da der zugehörige Beleg noch nicht gebucht wurde. In diesem Fall können Sie eine Suchfunktion verwenden, um den Beleg zu buchen und schnell zu suchen, um die Zahlung zu verarbeiten. Weitere Informationen finden Sie unter [Bestimmten Verkaufsbeleg suchen, der nicht vollständig fakturiert wurde](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung gelöst wurde. Weitere Informationen finden Sie im Abschnitt [Zahlung ohne zugehörigen Beleg erfassen oder buchen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
+Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung gelöst wurde. Weitere Informationen finden Sie im Abschnitt [Zahlung ohne zugehörigen Beleg erfassen oder buchen](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Vorgehensweise: Manuelle Verarbeitung von Zahlungen mit Rabatten
 Wenn Sie ein Skonto mit dem Debitor vereinbart haben, können die Zahlungsbeträge niedriger als die fakturierten Beträge sein, wenn die Zahlung vor dem vereinbarten Skontodatum auftritt.  
@@ -90,7 +90,7 @@ Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten 
 * Die Zahlungssumme ist höher als der verbleibende diskontierte Betrag. Sie buchen die Zahlungen, wie sie sind. Nur der Restbetrag wird gebucht. Der zusätzliche Betrag wird dem Debitor gutgeschrieben.  
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht und dessen Zahlungsdatum vor dem Skontodatum liegt
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Rabatt**.
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.    
@@ -99,7 +99,7 @@ Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten 
 5. Wählen Sie auf der Registerkarte **Zahlung buchen**, um den Gesamtbetrag auf Sach-, Bank- und Debitorenkonten zu buchen.
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht, dessen Zahlungsdatum jedoch nach dem Skontodatum liegt
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Rabatt**.
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.
@@ -117,7 +117,7 @@ Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten 
 Der zugehörige Beleg bleibt offen.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Zahlung verarbeiten, die niedriger als der verbleibende diskontierte Betrag ist
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist kleiner als der Betrag im Feld **Restbetrag nach Rabatt**.
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.  
@@ -128,7 +128,7 @@ Der zugehörige Beleg bleibt offen.
 Der zugehörige Beleg bleibt offen.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Zahlung verarbeiten, die höher als der verbleibende diskontierte Betrag ist
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist grösser als der Betrag im Feld **Restbetrag nach Rabatt**.  
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.    
@@ -150,7 +150,7 @@ Auf der Seite **Dokument suchen** können Sie aus Belegen suchen, die nicht voll
 
 Nachfolgend wird erklärt, wie man einen bestimmten Beleg findet, indem man beide Suchkriterien verwendet.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.
 2. Zeigen Sie mit dem Mauszeiger auf eine beliebige Zeile und wählen Sie **Dokument suchen**.
 3. Auf der Seite **Dokumentsuche** geben Sie einen Suchwert im Feld **Dokumentennummer** ein.  
 
@@ -166,12 +166,12 @@ Die Suchfunktion sucht unter Belegen, die nicht vollständig fakturiert sind bas
 
 Wenn einer oder mehrere Belege mit den Suchkriterien im Feld **Ergebnis Dokumentsuche** übereinstimmen, dann öffnet sich die Seite, um Zeilen anzuzeigen, die diese Dokumente darstellen. Jede Zeile enthält eine Belegnummer, eine Beschreibung und Betrag, sodass Sie einen bestimmten Beleg einfach suchen können, zum Beispiel basierend auf Informationen über Ihren Bankkontoauszug.  
 
-Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung gelöst wurde.  
+Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung gelöst wurde.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Zahlung ohne zugehörigen Beleg erfassen oder buchen
-Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung geklärt wurde.  
+Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung geklärt wurde.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
 
     Fahren Sie fort, um eine nicht dokumentierte Zahlung zu erfassen.  
 2. Wählen Sie die Aktion **Fibu Buch.-Blatt** aus.  
@@ -186,4 +186,4 @@ Wenn Sie die Buch.-Blattzeile nicht buchen lassen, wird der Wert im Feld **Ungeb
 ## <a name="see-also"></a>Siehe auch
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

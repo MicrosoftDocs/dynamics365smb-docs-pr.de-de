@@ -12,18 +12,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a9db4249cdf5814bc04653a1987d17f8f94ecb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e21b0fbf497ebc67654be4bceae560fc3c2fdbc9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918613"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757442"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Die Verkaufs- und Bestandprognosen-Erweiterung
 Lagerverwaltung ist ein Austausch zwischen Serviceabteilung und Verwaltung der Kosten. Auf der einen Seite benötigt ein niedriger Bestand weniger Betriebskapital, andererseits führen fehlende Lagerbestände evtl. zu entgangenen Verkäufen. Die Erweiterung "Geplanter voraussichtlicher Verkauf und Lagerbestand" sagt potenzielle Verkäufe anhand der historischen Daten voraus und gibt eine klare Übersicht über erwartete fehlende Lagerbestände. Auf Grundlage der Planung helfen die Erweiterungen dabei, Beschaffungsanfragen an Ihre Kreditoren zu stellen und Zeit zu spraren.  
 
 ## <a name="setting-up-forecasting"></a>Einrichten der Planung
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] ist die Verknüpfung zu [Azure AI](https://azure.microsoft.com/overview/ai-platform/) bereits eingerichtet. Sie können jedoch die Planung konfigurieren, um eine andere Art von Periode zu erfassen, zum Beispiel von der Planung nach Monaten auf die Planung nach Quartal. Sie können außerdem die Anzahl von Perioden zur Berechnung der Planung festlegen, abhängig davon, wie differenziert die Planung sein soll. Wir empfehlen, dass Sie die Planung nach Monaten und über einen Zeitraum von 12 Monaten prognostizieren. 
+In [!INCLUDE[prod_short](includes/prod_short.md)] ist die Verknüpfung zu [Azure AI](https://azure.microsoft.com/overview/ai-platform/) bereits eingerichtet. Sie können jedoch die Planung konfigurieren, um eine andere Art von Periode zu erfassen, zum Beispiel von der Planung nach Monaten auf die Planung nach Quartal. Sie können außerdem die Anzahl von Perioden zur Berechnung der Planung festlegen, abhängig davon, wie differenziert die Planung sein soll. Wir empfehlen, dass Sie die Planung nach Monaten und über einen Zeitraum von 12 Monaten prognostizieren. 
 
 > [!TIP]  
 >   Beachten Sie die Länge der Perioden, die der Service in den Berechnungen verwendet. Je mehr Daten Sie liefern, umso genauer wird die Vorhersage sein. Halten Sie auch nach umfangreichen Abweichungen in Perioden Ausschau. Sie werden ebenfalls Auswirkungen auf die Vorhersagen haben. Wenn Azure AI nicht genügend Daten findet oder die Daten stark variieren, wird der Dienst keine Vorhersage treffen.
@@ -34,7 +34,7 @@ Die Erweiterung verwendet Azure AI, um künftige Verkäufe basierend auf dem Ver
 Sie können auch die Erweiterung verwenden, um vorzuschlagen, wann der Lagerbestand aufgefüllt werden soll. Wenn Sie beispielsweise eine Bestellung für Fabrikam erstellen, weil Sie den neuen Schreibtischstuhl von Fabrikam kaufen möchten, schlägt die Erweiterung „Verkaufs- und Bestandsprognose“ vor, dass Sie auch den LONDON-Drehstuhl, den Sie normalerweise bei diesem Anbieter kaufen, auffüllen. Der Grund dafür ist, dass die Erweiterung vorausplant, dass der LONDON-Schreibtischstuhl in den kommenden zwei Monaten nicht mehr am Lager verfügbar sein wird und Sie bereits jetzt mehr Stühle bestellen sollten.  
 
 ## <a name="design-details"></a>Einzelheiten zum Entwurf
-Abonnements für [!INCLUDE[d365fin](includes/d365fin_md.md)] beinhalten den Zugang zu mehreren prädiktiven Webdiensten in allen Regionen, in denen [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar ist. Weitere Informationen finden Sie im Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch. Der Leitfaden steht auf der Website [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) zum Herunterladen zur Verfügung. 
+Abonnements für [!INCLUDE[prod_short](includes/prod_short.md)] beinhalten den Zugang zu mehreren prädiktiven Webdiensten in allen Regionen, in denen [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar ist. Weitere Informationen finden Sie im Microsoft Dynamics 365 Business Central-Lizenzierungshandbuch. Der Leitfaden steht auf der Website [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) zum Herunterladen zur Verfügung. 
 
 Diese Webdienste sind zustandslos, d.h. sie verwenden Daten nur zur Berechnung von Vorhersagen bei Bedarf. Sie speichern keine Daten.
 
@@ -42,14 +42,14 @@ Diese Webdienste sind zustandslos, d.h. sie verwenden Daten nur zur Berechnung v
 >   Sie können auch Ihren eigenen Vorhersage-Webdienst anstelle von unserem verwenden. Weitere Informationen finden Sie unter [Erstellen und verwenden Sie Ihren eigenen Prognose-Webservice für Verkaufs- und Bestandsprognosen](#AnchorText). 
 
 ### <a name="data-required-for-forecast"></a>Für die Prognose erforderliche Daten
-Um Vorhersagen über zukünftige Verkäufe machen zu können, benötigt der Webservice quantitative Daten über vergangene Verkäufe. Diese Daten stammen aus den Feldern **Buchungsdatum** , **Positionsnummer** und **Menge** auf der Seite **Positionsledger-Einträge** , wobei folgendes gilt:
+Um Vorhersagen über zukünftige Verkäufe machen zu können, benötigt der Webservice quantitative Daten über vergangene Verkäufe. Diese Daten stammen aus den Feldern **Buchungsdatum**, **Positionsnummer** und **Menge** auf der Seite **Positionsledger-Einträge**, wobei folgendes gilt:
 -    Die Eintragsart ist „Verkauf“.
 - Das Buchungsdatum liegt zwischen dem Datum, das auf der Grundlage der Werte in den Feldern **Historische Perioden** und **Periodentyp** auf der Seite **Verkaufs- und Bestandsprognoseeinrichtung** berechnet wird, und dem Arbeitsdatum.
 
-Vor der Verwendung des Webdienstes komprimiert [!INCLUDE[d365fin](includes/d365fin_md.md)] Transaktionen um **Positionsnummer** und **Buchungsdatum** basierend auf dem Wert im Feld **Periodentyp** auf der Seite **Verkaufs- und Bestandsprognoseeinrichtung** .
+Vor der Verwendung des Webdienstes komprimiert [!INCLUDE[prod_short](includes/prod_short.md)] Transaktionen um **Positionsnummer** und **Buchungsdatum** basierend auf dem Wert im Feld **Periodentyp** auf der Seite **Verkaufs- und Bestandsprognoseeinrichtung**.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-sales-and-inventory-forecasts"></a><a name="AnchorText"> </a>Erstellen und verwenden Sie Ihren eigenen Prognose-Webdienst für Verkaufs- und Bestandsprognosen
-Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem **Prognosemodell für Microsoft Business Central** . Dieses vorhersagende Modell ist online im Azure AI Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermaßen vor:  
+Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Modell erzeugen, dem **Prognosemodell für Microsoft Business Central**. Dieses vorhersagende Modell ist online im Azure AI Katalog verfügbar. Um das Modell zu verwenden, gehen folgendermaßen vor:  
 
 1. Öffnen Sie einem Browser und gehen Sie zum [Azure AI Katalog](https://go.microsoft.com/fwlink/?linkid=828352)  
 2. Suchen Sie nach dem **Vorhersagemodell für Microsoft Business Central** und öffnen Sie dann das Modell im Azure Machine Learning Studio.  
@@ -63,4 +63,4 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] über Erweiterungen](ui-extensions.md)  
+[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] über Erweiterungen](ui-extensions.md)  

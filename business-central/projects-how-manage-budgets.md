@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project budget, forecast
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e8de8d35ee036d2819ba40b1fdf50b6d5ed2dab5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 56039fa07813f841e670b2019d7020953ea26742
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913171"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758717"
 ---
 # <a name="manage-job-budgets"></a>Verwalten von Projektbudgets
 Jedes Projekt kann mit einem Budget versehen werden. Das Budget dient zum Planen der Ressourcen, die einem Projekt zugeordnet werden. Dabei kann es sich entweder um ein allgemeines Budget mit nur wenigen Posten oder um ein komplexeres Budget mit einer Vielzahl von Posten handeln, die in verschiedene Aktivitätsstufen unterteilt sind. Mithilfe eines Budgets können die geplanten Beträge mit dem tatsächlichen Verbrauch verglichen werden, der im Buch.-Blatt des Projekts erfasst ist. Durch Überwachung des tatsächlichen Verbrauchs im Vergleich zu einem Budget können sie ein laufendes Projekt kontrollieren und bei späteren Projekten zu einer höheren Qualität beitragen, da sich dadurch die Gefahr unterschätzter Kosten verringert.
@@ -25,7 +25,7 @@ Jedes Projekt kann mit einem Budget versehen werden. Das Budget dient zum Planen
 Nachfolgend wird beschrieben, wie Sie budgetierte Kosten während der Planung schätzen. Informationen zur Erfassung der budgetierten versus aktueller Preise und Kosten im Projekt finden Sie unter [Erfassen des Verbrauchs für Projekte](projects-how-record-job-usage.md)  
 
 ## <a name="to-estimate-the-budgeted-costs-for-a-job"></a><a name="JobBudgetCosts"></a> Die budgetierten Kosten für ein Projekt schätzen
-Wenn ein Debitor den Preis eines Projekts erfahren möchte, das auf Grundlage des Verbrauchs fakturiert wird, müssen Sie die budgetierten Einstandspreise für das Projekt ermitteln. Dazu verwenden Sie die Seite **Projektaufgabenzeilen** .
+Wenn ein Debitor den Preis eines Projekts erfahren möchte, das auf Grundlage des Verbrauchs fakturiert wird, müssen Sie die budgetierten Einstandspreise für das Projekt ermitteln. Dazu verwenden Sie die Seite **Projektaufgabenzeilen**.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2. Ein relevantes Projekt öffnen.
@@ -41,7 +41,7 @@ Für das Feld **Linienart** geben Sie die folgenden Informationen in die Felder 
 | **Fakturierbar** |Die Nutzung wird dem Debitoren in Rechnung gestellt. Der Verbrauch wird auf die Rechnung übertragen, und basiert auf der Menge, die in dem In Rechnung zu übertrag. Menge angegeben ist. |
 
 > [!NOTE]  
-> Das Feld **Geplantes Lieferdatum** für die Planungszeile enthält das Datum, wann der Verbrauch, der mit der Planungszeile verknüpft wird, erwartungsgemäß abgeschlossen. Es ist ebenfalls das Datum, an dem die Planungszeile in eine Verkaufsrechnung übertragen und gebucht wird. <br /><br /> Auf der zugrunde liegenden Projektaufgabe auf der Seite **Projektkarte** enthalten die Felder **Startdatum** und **Enddatum** jeweils die Werte für **Geplantes Lieferdatum** der frühesten spätesten und Projektplanzeilen auf der entsprechenden **Projektplanzeilen** -Seite.
+> Das Feld **Geplantes Lieferdatum** für die Planungszeile enthält das Datum, wann der Verbrauch, der mit der Planungszeile verknüpft wird, erwartungsgemäß abgeschlossen. Es ist ebenfalls das Datum, an dem die Planungszeile in eine Verkaufsrechnung übertragen und gebucht wird. <br /><br /> Auf der zugrunde liegenden Projektaufgabe auf der Seite **Projektkarte** enthalten die Felder **Startdatum** und **Enddatum** jeweils die Werte für **Geplantes Lieferdatum** der frühesten spätesten und Projektplanzeilen auf der entsprechenden **Projektplanzeilen**-Seite.
 
 > [!NOTE]  
 >   Geben Sie die Menge für das Feld **Planungszeile** ein. Alle Angaben zu Einstands- und Verkaufsbeträgen werden nun berechnet und für diese Planungszeile eingetragen. Sie können nun jederzeit bearbeitet werden.
@@ -55,4 +55,4 @@ Informationen zur Erfassung der budgetierten versus aktueller Preise und Kosten 
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)         
 [Verkauf](sales-manage-sales.md)      
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

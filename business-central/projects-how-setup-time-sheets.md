@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16b167ae9412449e29a002b9d588109ddc75da28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 25db2730cebefe224494561e6f5179cc3bfed56e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919013"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758667"
 ---
 # <a name="set-up-time-sheets"></a>Einrichten von Arbeitszeittabellen
-Arbeitszeittabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfassen die Zeit in wöchentlichen Schritten von sieben Tagen. Sie verwenden sie, um die Zeit zu verfolgen, die für Projekte verwendet wird, und Sie können sie verwenden, um Ressourcenzeiterfassung um zu erfassen. Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie festlegen, wie sie eingerichtet und konfiguriert werden sollen.
+Arbeitszeittabellen in [!INCLUDE[prod_short](includes/prod_short.md)] erfassen die Zeit in wöchentlichen Schritten von sieben Tagen. Sie verwenden sie, um die Zeit zu verfolgen, die für Projekte verwendet wird, und Sie können sie verwenden, um Ressourcenzeiterfassung um zu erfassen. Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie festlegen, wie sie eingerichtet und konfiguriert werden sollen.
 
 Nachdem Sie eingerichtet haben, wie Ihre Organisation Arbeitszeittabellen verwendet, können Sie angeben, wann und wie Arbeitszeittabellen genehmigt werden. Abhängig von den Anforderungen Ihrer Organisation, können Sie festlegen:
 
@@ -50,7 +50,7 @@ Wenn Sie Arbeitszeittabellen eingerichtet haben, können Sie Arbeitszeittabellen
 
 ## <a name="to-assign-a-time-sheets-owner-and-approver"></a>So legen Sie einen Arbeitszeittabellenbesitzer und -genehmiger fest:
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Ressourcen** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die Ressource, für die Sie die Möglichkeit einrichten möchten, Arbeitszeittabellen zu verwenden, und wählen Sie dann das Kontrollkästchen **Arbeitszeittabelle verwenden** .  
+2. Wählen Sie die Ressource, für die Sie die Möglichkeit einrichten möchten, Arbeitszeittabellen zu verwenden, und wählen Sie dann das Kontrollkästchen **Arbeitszeittabelle verwenden**.  
 3. Geben Sie im Feld **Arbeitszeittabellenbesitzer-Benutzer-ID** die ID des Besitzers der Arbeitszeittabelle ein. Der Eigentümer kann Bearbeitungszeit auf der Arbeitszeittabelle eingeben und ihn zur Genehmigung senden. Wenn es sich bei der Ressource um eine Person handelt, ist diese Person im Allgemeinen auch der Besitzer.  
 4. Geben Sie im Feld **Arbeitszeittabellengenehmiger-Benutzer-ID** die ID des Genehmigers der Arbeitszeittabelle ein. Der Genehmiger kann eine Arbeitszeittabelle genehmigen, ablehnen oder erneut öffnen.  
 
@@ -63,4 +63,4 @@ Wenn Sie Arbeitszeittabellen eingerichtet haben, können Sie Arbeitszeittabellen
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)         
 [Verkauf](sales-manage-sales.md)      
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

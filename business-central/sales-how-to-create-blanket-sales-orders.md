@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d3202f380da6b58ba30fa301c7ea6a24efb91cf5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1308f662073a915e8b6053d080926afaa9cc37af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925922"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758092"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeiten mit Verkauf Rahmenaufträgen oder Einkauf Rahmenbestellungen
 
@@ -41,10 +41,10 @@ Rahmenaufträge werden beispielsweise verwendet, wenn ein Debitor anruft und 100
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>So erstellen Sie einen Auftrag aus einem Rahmenauftrag:  
 
 1. Um einen Auftrag für eine oder mehrere der Zeilen des Rahmenauftrags zu erstellen, entfernen Sie die Menge im Feld **Zu liefernde Menge** in allen Zeilen, für die zum aktuellen Zeitpunkt keine Lieferung gewünscht wird.  
-2. Wenn Sie bereit sind, Bestellungen zu erstellen, wählen Sie die Aktion **Bestellung erstellen** und wählen Sie dann **Ja** . Sie werden in einer Meldung darüber informiert, dass dem Rahmenauftrag eine Auftragsnummer zugewiesen wurde. Beachten Sie, dass der Rahmenauftrag nicht gelöscht wurde.  
+2. Wenn Sie bereit sind, Bestellungen zu erstellen, wählen Sie die Aktion **Bestellung erstellen** und wählen Sie dann **Ja**. Sie werden in einer Meldung darüber informiert, dass dem Rahmenauftrag eine Auftragsnummer zugewiesen wurde. Beachten Sie, dass der Rahmenauftrag nicht gelöscht wurde.  
 3. Wählen Sie die Schaltfläche **OK** aus.  
-4. Um die Ergebnisse der vorangehenden Schritte anzuzeigen, wählen Sie auf dem Inforegister **Zeilen** die Option **Aktionen** , wählen Sie Zeile, wählen Sie Nicht gebuchte Zeilen, und wählen Sie dann **Aufträge** .  
-5. Wählen Sie auf der Seite **Verkaufszeilen** den entsprechenden Verkaufsauftrag aus. Wählen Sie auf dem Inforegister **Zeilen** die Option Aktionen, wählen Sie Zeile, und wählen Sie dann **Beleg anzeigen** .  
+4. Um die Ergebnisse der vorangehenden Schritte anzuzeigen, wählen Sie auf dem Inforegister **Zeilen** die Option **Aktionen**, wählen Sie Zeile, wählen Sie Nicht gebuchte Zeilen, und wählen Sie dann **Aufträge**.  
+5. Wählen Sie auf der Seite **Verkaufszeilen** den entsprechenden Verkaufsauftrag aus. Wählen Sie auf dem Inforegister **Zeilen** die Option Aktionen, wählen Sie Zeile, und wählen Sie dann **Beleg anzeigen**.  
 
 Das folgende gilt für Verkaufsaufträge nach der Erstellung von Rahmenaufträgen:  
 
@@ -54,7 +54,7 @@ Das folgende gilt für Verkaufsaufträge nach der Erstellung von Rahmenaufträge
 - Die Nummer des Rahmenauftrags und die Zeilennummer werden als Eigenschaften der Auftragszeilen erfasst, wenn diese aus einem Rahmenauftrag erstellt wurden.  
 - Wenn Aufträge nicht direkt aus einem Rahmenauftrag erstellt werden, aber dennoch zu diesem gehören, kann eine Verknüpfung zwischen einem Auftrag und einem Rahmenauftrag eingerichtet werden, indem die Nummer des verknüpften Rahmenauftrags im Feld **Rahmenauftragsnr.** in der Auftragszeile eingegeben wird. Lagerdurchlaufzeit" der Einkaufsbestellung.  
 - Nachdem der Verkaufsauftrag für die Gesamtmenge einer Rahmenbestellzeile erstellt wurde, kann kein anderer Verkaufsauftrag für dieselbe Zeile erstellt werden. Benutzer können im Feld **Zu liefern** keine Menge eingeben. Wenn in einem Rahmenauftrag jedoch weitere Mengen hinzugefügt werden müssen, kann der Wert im Feld **Menge** erhöht werden, und es können weitere Aufträge erstellt werden.  
-- Der fakturierte Rahmenauftrag verbleibt im System, bis er gelöscht wird, und zwar entweder durch Löschen einzelner Rahmenaufträge oder durch Ausführen der Stapelverarbeitung **Erledigte Rahmenauftr. löschen** .  
+- Der fakturierte Rahmenauftrag verbleibt im System, bis er gelöscht wird, und zwar entweder durch Löschen einzelner Rahmenaufträge oder durch Ausführen der Stapelverarbeitung **Erledigte Rahmenauftr. löschen**.  
 - Wenn ein Debitor im Anwendungsbereich "Marketing" auch als Kontakt eingerichtet wurde und Sie einen Aktivitätenvorlagencode für Rahmenaufträge auf der Seite **Marketing & Vertrieb Einr.** angegeben haben, wird eine Aktivität in der Tabelle "Aktivitätenprotokollposten" aufgezeichnet, wenn Sie **Drucken** auswählen, um die Rahmenaufträge zu drucken.
 
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>So zeigen Sie den Status eines Rahmenauftrags an:  
@@ -74,7 +74,7 @@ Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsau
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Rahmenaufträge** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Rahmenbestellung, die Sie anzeigen möchten.
-3. Sie können nicht gebuchte Posten anzeigen, indem Sie die entsprechende Zeile markieren und dann auf dem Inforegister  Zeilen auf  Aktionen,  **Zeile** ,  **Nicht gebuchte Zeilen** klicken. Wählen Sie eine der folgenden Optionen aus.  
+3. Sie können nicht gebuchte Posten anzeigen, indem Sie die entsprechende Zeile markieren und dann auf dem Inforegister  Zeilen auf  Aktionen,  **Zeile**,  **Nicht gebuchte Zeilen** klicken. Wählen Sie eine der folgenden Optionen aus.  
 
     |Option|Description|
     |--|--|
@@ -83,7 +83,7 @@ Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsau
     |**Reklamationen**|Gibt mit der ausgewählten Zeile verknüpfte offene Reklamationen an.|
     |**Gutschriften**|Gibt mit der ausgewählten Zeile verknüpfte offene Gutschriften an.|
 
-4. Sie können nicht gebuchte Posten anzeigen, indem Sie die entsprechende Zeile markieren und dann auf dem Inforegister  Zeilen auf  Aktionen,  **Zeile** ,  **Nicht gebuchte Zeilen** klicken. Wählen Sie eine der folgenden Optionen aus.  
+4. Sie können nicht gebuchte Posten anzeigen, indem Sie die entsprechende Zeile markieren und dann auf dem Inforegister  Zeilen auf  Aktionen,  **Zeile**,  **Nicht gebuchte Zeilen** klicken. Wählen Sie eine der folgenden Optionen aus.  
 
     |Option|Description|
     |---|----|
@@ -92,11 +92,11 @@ Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsau
     |**Rücksendungen**|Mit der ausgewählten Zeile verknüpfte gebuchte Rücksendungen.|
     |**Gutschriften**|Mit der ausgewählten Zeile verknüpfte gebuchte Gutschriften.|
 
-5.  Klicken Sie auf der Seite **Verkaufszeile** auf Zeile **Beleg anzeigen** , um den Posten anzuzeigen.
+5.  Klicken Sie auf der Seite **Verkaufszeile** auf Zeile **Beleg anzeigen**, um den Posten anzuzeigen.
 
 ## <a name="see-also"></a>Siehe auch
 
 [Verkauf](sales-manage-sales.md)  
 [Erstellen von Montagerahmenaufträgen](assembly-how-to-create-blanket-assembly-orders.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

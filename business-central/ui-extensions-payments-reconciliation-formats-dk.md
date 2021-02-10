@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912321"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757492"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Die Zahlungs- und Abstimmungs-Erweiterung
 
@@ -53,15 +53,15 @@ Es gibt mehrere Schritte, um beginnen zu können.
 
 Darüber hinaus müssen Sie Kreditoren einer inländischen **Gen. Bus. Buchungsgruppe** und **Kreditorenbuchungsgruppe** zuweisen. Die Land/Regions-Einstellung für den Kreditor muss Dänemark (DK) sein. Weitere Informationen finden Sie unter [Einrichten von Buchungsgruppen](finance-posting-groups.md).  
 
-### <a name="to-allow-d365fin-to-export-payment-data"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] erlauben, Zahlungsdaten zu exportieren
+### <a name="to-allow-prod_short-to-export-payment-data"></a>[!INCLUDE[prod_short](includes/prod_short.md)] erlauben, Zahlungsdaten zu exportieren
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsausgangs Buch.-Blatt** ein, und wählen Sie dann den entsprechenden Link aus.  
 2. Wählen Sie auf der Seite **Projekt Buch.-Blatt bearbeiten** das Feld **Bank** Stapel aus.  
-3. Wählen Sie das Kontrollkästchen **Zahlungsexport erlauben** .  
+3. Wählen Sie das Kontrollkästchen **Zahlungsexport erlauben**.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Gibt die Zahlungsform für jeden Kreditor an.
 
-Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an, die [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützen.
+Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an, die [!INCLUDE[prod_short](includes/prod_short.md)] unterstützen.
 
 |Kombination|01 eingeben | 04 eingeben | 71 eingeben | 73 eingeben |
 |----|--------|---------|---------|---------|
@@ -70,7 +70,7 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 |Enthält Zahlungs-Referenznummer? | Nein | Ja, 16 Ziffern. | Ja, 15 Ziffern. | Nein|
 
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.  
-2. Öffnen Sie die Karte, erweitern Sie die Registerkarte **Zahlungen** , im Feld **Zahlungsform** und wählen Sie die Zahlungsform.  
+2. Öffnen Sie die Karte, erweitern Sie die Registerkarte **Zahlungen**, im Feld **Zahlungsform** und wählen Sie die Zahlungsform.  
 3. Abhängig von Ihrer Wahl müssen Sie weitere Felder ausfüllen. Siehe die Tabelle oben für eine Beschreibung der Kombinationen.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Das Adressformat definieren, um ein Bankkonto zu verwenden
@@ -87,7 +87,7 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 4. Geben Sie im Feld **Zahlungsreferenz** die Nummer mit 15 Ziffern von den Rechnungsbeträgen des Kreditors ein.  
 
     > [!Tip]
-    > Sie müssen nur die letzten 11 Ziffern der Nummer hinzufügen. [!INCLUDE[d365fin](includes/d365fin_md.md)] fügt vier Null für den Anfang der Nummer hinzu.  
+    > Sie müssen nur die letzten 11 Ziffern der Nummer hinzufügen. [!INCLUDE[prod_short](includes/prod_short.md)] fügt vier Null für den Anfang der Nummer hinzu.  
 
 5. Buchen Sie die Rechnung.
 
@@ -105,6 +105,6 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 
 ## <a name="see-also"></a>Siehe auch
 
-[Anpassen von Business Central für [!INCLUDE[d365fin](includes/d365fin_md.md)] mithilfe der Erweiterungen](ui-extensions.md)  
+[Anpassen von Business Central für [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe der Erweiterungen](ui-extensions.md)  
 [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  

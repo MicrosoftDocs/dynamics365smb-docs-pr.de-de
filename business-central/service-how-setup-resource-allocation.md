@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cac2d270fec47d35749d3ccf1ce1e3a3f130d097
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 48d0f9f9e51a0da3f82abdb43e8c4bb6044a5f29
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910330"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757992"
 ---
 # <a name="set-up-resource-allocation"></a>Um Ressourcenzuweisung einzurichten:
-Um sicherzustellen dass eine Serviceaufgabe gut ausgeführt wird, ist es wichtig, eine Ressource zu finden die qualifiziert ist, die Arbeit zu tun. Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] einrichten, sodass es einfach is, Person zuzuordnen, die die rechten Qualifikationen für das Projekt haben. In [!INCLUDE[d365fin](includes/d365fin_md.md)] zeigen wir die _Ressourcenzuordnung_ . Sie können Ressourcen anhand ihrer Qualifikation, Verfügbarkiet oder ob sie sich in demselben Servicegebiet befindet wie der Debitor zuordnen. 
+Um sicherzustellen dass eine Serviceaufgabe gut ausgeführt wird, ist es wichtig, eine Ressource zu finden die qualifiziert ist, die Arbeit zu tun. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, sodass es einfach is, Person zuzuordnen, die die rechten Qualifikationen für das Projekt haben. In [!INCLUDE[prod_short](includes/prod_short.md)] zeigen wir die _Ressourcenzuordnung_. Sie können Ressourcen anhand ihrer Qualifikation, Verfügbarkiet oder ob sie sich in demselben Servicegebiet befindet wie der Debitor zuordnen. 
 
 Um die Ressourcenzuordnungen zu aktivieren, müssen Sie einrichten:  
   
@@ -49,7 +49,7 @@ Um die Ressourcenzuordnungen zu aktivieren, müssen Sie einrichten:
     * Für Ressourcen wählen Sie die **Servicegebiete** Aktion aus.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Um anzugeben, was dargestellt werden soll, wenn eine Ressource ausgewählt wird
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceeinrichtung** ein und wählen Sie dann den entsprechenden Link. 
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceverwaltungseinrichtung** ein, und wählen Sie dann den entsprechenden Link. 
 2. Wählen Sie im Feld **Ressourcenqualifikationsoption** eine der Optionen aus, die in der folgenden Tabelle beschrieben werden.  
   
     |**Option**|**Beschreibung**|  
@@ -66,7 +66,7 @@ Sie können die Kapazität von Ressourcen ändern.
 3. Nehmen Sie die Änderungen vor, und wählen Sie dann **Kapazität aktualisieren** aus.  
 
 ## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Um Qualifikationen für Artikel, Serviceartikel oder Serviceartikelgruppen zu aktualisieren
-Wenn Sie die Qualifikationscodes ändern möchten, die Artikeln zugeordnet sind, beispielsweise **PC** auf **PCS** , können Sie dies entweder für den Artikel, für alle Artikel oder Serviceartikel in einer Serviceartikelgruppe tun.  
+Wenn Sie die Qualifikationscodes ändern möchten, die Artikeln zugeordnet sind, beispielsweise **PC** auf **PCS**, können Sie dies entweder für den Artikel, für alle Artikel oder Serviceartikel in einer Serviceartikelgruppe tun.  
   
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikel** oder **Serviceartikel** oder **Serviceartikelgruppe** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie die Entität, die Sie aktualisieren möchten und wählen Sie die **Ressourcenqualifikationen** Aktion aus.  

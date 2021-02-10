@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb76950dcf84a49ed2644a7db19827999579d24b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6189968a44a4001d76f44bf1331594f73ea58e05
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918963"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758566"
 ---
 # <a name="setting-up-project-management"></a>Richten Sie Ihr Projektmanagement ein.
-Bevor Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten.
+Bevor Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten.
 
 Dann können Sie Projekte und Planressourcen für Projekte erstellen sowie Budget- und Titelmaschinen- und -Mitarbeiterstunden mit Arbeitszeittabellen verwalten. Weitere Informationen finden Sie unter [Projekte Verwalten](projects-manage-projects.md).  
 
@@ -38,4 +38,4 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

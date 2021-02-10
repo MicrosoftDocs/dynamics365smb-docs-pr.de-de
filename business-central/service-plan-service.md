@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0e6218a313c2cb9031da8ee1c66a90cfe9dd0207
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bf19cc5b0ae606ce7f235e707057516dba4ca5e0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915260"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757842"
 ---
 # <a name="planning-services"></a>Planungsservices
-Mit [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie die Standardaufgaben für die Erfüllung der Kundenserviceanforderungen einrichten. Dazu muss bestimmt werden, welche Serviceangebote von der Serviceorganisation unterstützt werden und zu welchem Preis.   
+Mit [!INCLUDE[prod_short](includes/prod_short.md)] können Sie die Standardaufgaben für die Erfüllung der Kundenserviceanforderungen einrichten. Dazu muss bestimmt werden, welche Serviceangebote von der Serviceorganisation unterstützt werden und zu welchem Preis.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] stellt auch mehrere Statistiktools her, die Sie verwenden können, um zu bestimmen wie diese Elemente laufen und um zu bestimmen welche Bereiche Sie verbessern können.
+[!INCLUDE[prod_short](includes/prod_short.md)] stellt auch mehrere Statistiktools her, die Sie verwenden können, um zu bestimmen wie diese Elemente laufen und um zu bestimmen welche Bereiche Sie verbessern können.
   
 Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..   
   

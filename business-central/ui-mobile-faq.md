@@ -1,0 +1,69 @@
+---
+title: Mobile Apps FAQ
+description: Hier finden Sie Antworten auf häufig gestellte Fragen zur Verwendung von Business Central auf Ihrem Telefon oder Tablet.
+author: edupont04
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: phone, tablet
+ms.date: 10/15/2020
+ms.author: edupont
+ms.openlocfilehash: e551bb66131c4c5b472f6088e283e9ba8dab4014
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756792"
+---
+# <a name="mobile-apps-faq"></a>Mobile Apps FAQ
+
+In diesem Artikel werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zu mobilen Apps für [!INCLUDE [prod_short](includes/prod_short.md)] stellen.  
+
+## <a name="is-there-an-app-for-my-device"></a>Gibt es eine App für mein Gerät?
+
+Wahrscheinlich! Installieren Sie die [!INCLUDE[prod_short](includes/prod_short.md)]-App auf Ihrem mobilen Gerät, indem Sie die App aus dem Windows Store, App Store oder aus Google Play herunterladen.
+
+- [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (Nur PC)
+- [Appstore](https://go.microsoft.com/fwlink/?LinkId=734847)
+- [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
+
+## <a name="is-it-the-same-experience-in-the-apps-as-in-the-browser"></a>Ist es die gleiche Erfahrung in den Apps wie im Browser?
+
+Nein, nicht genau. Zum Beispiel zeigen wir nur die **Start** Aktivitätsgruppe aufgrund der begrenzten Bildschirmgröße auf Mobilgeräten. Ebenso sind die Tastaturkürzel nicht verfügbar, da Sie zum Navigieren auf Mobilgeräten hauptsächlich Berührungen anstelle einer Tastatur verwenden.
+
+In der folgenden Tabelle werden einige der häufigsten Unterschiede und Einschränkungen beschrieben, die bei der Verwendung von [!INCLUDE [prod_short](includes/prod_short.md)] auf mobilen Geräten im Vergleich zum Browser auftreten können.
+
+| Konzept | Auf Tablets | Auf Telefonen | Beispiel aus dem Browser |
+|--|--|--|--|
+| Aktivitätsgruppen | Nur die **Start** Aktivitätsgruppe wird angezeigt. | Nur die **Start** Aktivitätsgruppe wird angezeigt. | **Start** und **Gebuchte Belege** im `Sales Order Processor` Rollencenter. |  |
+| Auswählen mehrerer Datensätze in Listen | Nicht verfügbar. | Nicht verfügbar. | `Ctrl+A` oder `Ctrl+Click` auf Zeilen in einer Liste im Browser. |
+| Aktionen in der Aktionsleiste | Es werden nur gesponserte Aktionen angezeigt. | Es werden nur gesponserte Aktionen angezeigt. |  |
+| Infoboxen | Wird auf Listenseiten oder Arbeitsblattseiten nicht angezeigt. | Wird auf Listenseiten oder Arbeitsblattseiten nicht angezeigt. | `Customer` Liste im `Small Business` Rollencenter. |
+| Erweiterte Filter | Es ist keine spaltenspezifische Filterung verfügbar. | Es ist keine spaltenspezifische Filterung verfügbar. | Auf der `Customer` Listenseite. |
+| Wie möchten Sie weiter verfahren | Noch nicht verfügbar. | Noch nicht verfügbar. | Gehen Sie zu [Suche nach Seiten und Informationen mit wie möchten Sie weiter verfahren](ui-search.md). |  |
+| Rollen-Explorer | Noch nicht verfügbar. | Noch nicht verfügbar. | Gehen Sie zu [Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md). |
+| Felder in den Inforegistern | Felder im Inforegister auf Listenseiten werden nicht angezeigt. Im Inhaltsbereich der Seite wird nur das Steuerelement Wiederholung angezeigt. | Nicht verfügbar. |  |
+| Aus vollständiger Liste auswählen | Nicht verfügbar bei Suchen. Benutzer können keine Aktionen auf einer Suchseite ausführen und können nicht auf alle Datensätze zugreifen. | Nicht verfügbar bei Suchen. Benutzer können keine Aktionen auf einer Suchseite ausführen und können nicht auf alle Datensätze zugreifen. | Auf der `Item Card` bei der Auswahl der **Basismaßeinheit**. |
+| Suchen Sie über Listenspalten hinweg | Teilweise unterstützt. Die Suche enthält keine FlowFields. | Teilweise unterstützt. Die Suche enthält keine FlowFields. | Siehe Beispiele auf der `Customers` Listenseite. |
+| Suchen | Verfügbar. | Verfügbar, mit dem Unterschied, dass sich erweiterte und einfache Suchvorgänge auf dem Telefon ähnlich verhalten. Bei der Suche werden weder die Karte noch Infokästchen oder Feldgruppen angezeigt. | Siehe Beispiele auf der `Customer Card` Seite. |
+| Matrix-Steuerelemente | Nicht verfügbar. | Nicht verfügbar. | Siehe Beispiel in `G/L Budget`. |
+| ZIP-Datei herunterladen | Verfügbar. Es können nicht mehrere Dateien gleichzeitig heruntergeladen werden. | Verfügbar. Es können nicht mehrere Dateien gleichzeitig heruntergeladen werden. | `Trial Balance` Bericht im Kontrollkästchen **In Excel drucken**. |
+| Arbeitsblattseiten | Verfügbar. | Nicht verfügbar; eine Fehlermeldung wird angezeigt. | `Sales Price` Arbeitsblatt oder `Cash Flow` Arbeitsblatt. |
+| Listen | Verfügbar. | Verfügbar, mit dem Unterschied, dass diese in einem Schichtlayout angezeigt werden. | Debitoren- oder Kundenauftragsseiten. |
+| Einrückung in Wiederholungs-Bedienelementen | Verfügbar. | Nicht verfügbar. Das Wiederholungs-Steuerelement wird als reguläres  flaches Schichtlayout gerendert. | Seiten mit Kontenplan und Kontaktliste. |
+| Automatischer Eingabefokus auf das erste bearbeitbare Feld einer Seite | Nicht verfügbar. | Nicht verfügbar. | `Customer Card` Seite.<BR /><BR />Im Browser liegt der Fokus automatisch auf dem ersten bearbeitbaren Feld (z. B. dem Feld `Name`), sodass Sie den Wert sofort ändern können.<BR /><BR />In den Tablet- und Telefon-Apps liegt dieses Feld nicht im Fokus. Stattdessen müssen Sie zuerst das Feld manuell auswählen, um Änderungen vorzunehmen.|
+
+## <a name="is-it-the-same-experience-on-tables-and-phones"></a>Ist es die gleiche Erfahrung auf Tablets und Telefonen?
+
+Fast, aber nicht ganz. Gehen Sie zur Liste im Abschnitt [Ist es die gleiche Erfahrung in den Apps wie im Browser?](#is-it-the-same-experience-in-the-apps-as-in-the-browser).  
+
+## <a name="can-i-connect-the-app-to-our-on-premises-solution"></a>Kann ich die App mit unserer lokalen Lösung verbinden?
+
+Ja, das können Sie! Es ist eine etwas andere Art, sich anzumelden, das ist alles. Weitere Informationen finden Sie unter[Business Central lokal nutzen?](install-mobile-app.md#using-business-central-on-premises).  
+
+## <a name="see-also"></a>Siehe auch
+
+[Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  
+[Business Central-App installieren für Microsoft Teams](across-install-app-for-teams.md)  

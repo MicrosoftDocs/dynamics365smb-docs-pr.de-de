@@ -11,15 +11,15 @@ ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b8c58c98e628c036033b76d2a189f26c85411a38
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3fa0ed8b91d4bdae845fe4a7f20a500665856a7d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920347"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756567"
 ---
 # <a name="add-and-view-notes-on-records"></a>Notizen zu Datensätzen hinzufügen und anzeigen
- Sie <!--OnPrem and your colleagues -->können Notizen den Datensätzen in der Anwendung hinzufügen. Viele Seiten, insbesondere diejenigen, die eine Liste der Datensätze, wie die Seite **Verkaufsaufträge** anzeigen, enthalten die **Notizen** Aktion oder die Infobox **Notizen** . <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
+ Sie <!--OnPrem and your colleagues -->können Notizen den Datensätzen in der Anwendung hinzufügen. Viele Seiten, insbesondere diejenigen, die eine Liste der Datensätze, wie die Seite **Verkaufsaufträge** anzeigen, enthalten die **Notizen** Aktion oder die Infobox **Notizen**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
  >  Diese Funktion ist zurzeit nicht verfügbar.  
@@ -48,4 +48,4 @@ ms.locfileid: "3920347"
 <!--OnPrem
 3.  Choose the **OK** button.  -->
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

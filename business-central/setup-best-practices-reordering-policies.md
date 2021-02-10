@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 47c7add8c281a28c1b9beaecc18d28f5e1041a3c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23bfdd962bb2877d980c1dc6f0b4406ad3497c6c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912871"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757742"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Bewährte Einrichtungsmethoden: Wiederbeschaffungsverfahren
 Das Feld **Nachbestellungs-Richtlinie** auf Artikelkarten umfasst vier verschiedene Planungsmethoden, die bestimmen, wie die einzelnen Planungsparameter interagieren.  
@@ -28,7 +28,7 @@ Eine optimale Grundlage für die Auswahl eines Wiederbeschaffungsverfahrens ist 
 |B|20|20|
 |L|60 - 70|10 - 30|
 
-Die ABC-Klassifizierungs besagt, dass Aufwand und Geld gespart werden können, indem Artikeln mit geringem Wert weniger kontrolliert werden, als Artikeln mit hohem Wert. Die folgenden Abbildung zeigt, welches Wiederbeschaffungsverfahren in [!INCLUDE[d365fin](includes/d365fin_md.md)] für A-, B- und C-Artikel am besten geeignet ist.
+Die ABC-Klassifizierungs besagt, dass Aufwand und Geld gespart werden können, indem Artikeln mit geringem Wert weniger kontrolliert werden, als Artikeln mit hohem Wert. Die folgenden Abbildung zeigt, welches Wiederbeschaffungsverfahren in [!INCLUDE[prod_short](includes/prod_short.md)] für A-, B- und C-Artikel am besten geeignet ist.
 
 ![ABC Klassifizierung](media/abc_classification.png "abc_classification")
 
@@ -45,4 +45,4 @@ Die folgende Tabelle enthält bewährte Methoden für die Auswahl zwischen den v
  [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)   
  [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
  [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
- [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

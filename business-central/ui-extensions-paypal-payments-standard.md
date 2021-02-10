@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cf84c0b0bb095ad3dd4a4863401dd82b42f00d7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 12215ba987bee5a95fbf97e4b4bb190972bdf14b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912246"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757152"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Die PayPal Payments Standard-Erweiterung
 Debitoren erfordern regelmäßig höheren Debitorenservice, sowohl in Bezug auf Produktqualität wie auch in Bezug auf Lieferungs- und Zahlungsoptionen. Mit dem Paypal Payments Standard-Service erhöhen Sie Ihren Debitorenservice.
@@ -37,6 +37,6 @@ Der Paypal Payments Standard-Service hat folgende Vorteile:
 Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch Paypal](sales-how-enable-payment-service-extensions.md)
 
 ## <a name="see-also"></a>Siehe auch
-[Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzen](ui-extensions.md)  
+[Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

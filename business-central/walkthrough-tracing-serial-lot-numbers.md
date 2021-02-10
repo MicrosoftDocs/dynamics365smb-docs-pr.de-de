@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 90327ababa08d28baadcec26353f67c8736c62ee
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925447"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756367"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
 
@@ -50,7 +50,7 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
-- Das [!INCLUDE[d365fin](includes/d365fin_md.md)] Unternehmen .  
+- Das [!INCLUDE[prod_short](includes/prod_short.md)] Unternehmen .  
 - Erstellen Sie anhand der Schritte [Vorbereiten der Beispieldaten](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data) neue Artikel und Geschäftstransaktionen.  
 
 ## <a name="story"></a>Hintergrund

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5a062f9a18b6c0e965a06a7d4b18ff1e983f05db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f2c6c8a8515192640625fff5cda58f62d19d4d37
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916043"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756942"
 ---
 # <a name="change-the-current-report-layout"></a>Ändern Sie das aktuelle Berichtslayout
 Ein Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf ausgewechselt werden können.
@@ -36,7 +36,7 @@ Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus De
 3. Um das Layout, das von einem Bericht verwendet wird, zu ändern, legen Sie in der Zeile für den Bericht das Feld **Ausgewähltes Layout** auf eine der folgenden Optionen fest:
    * **RDLC (integriert)** verwendet im Bericht das integrierte RDLC-Berichtslayout.
    * **Word (integriert)** verwendet im Bericht das integrierte Word-Berichtslayout.
-   * **Benutzerdefiniert** , verwendet ein benutzerdefiniertes Layout im Bericht.  
+   * **Benutzerdefiniert**, verwendet ein benutzerdefiniertes Layout im Bericht.  
 
 > [!NOTE]
 > Wenn Sie ein Berichtslayout der Art **RDLC (integriert)** oder **Word (integriert)** auswählen und Sie eine Fehlermeldung erhalten, dass der Bericht kein Layout der angegebenen Art hat, müssen Sie eine andere Layoutoption auswählen oder ein benutzerdefiniertes Berichtlayout der Art erstellen, die Sie verwenden möchten. Siehe das folgende Verfahren.
@@ -59,4 +59,4 @@ Sie können jetzt zu Ihren Debitoren- und Kreditorenkarten wechseln, um anzugebe
 
 ## <a name="see-also"></a>Siehe auch
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

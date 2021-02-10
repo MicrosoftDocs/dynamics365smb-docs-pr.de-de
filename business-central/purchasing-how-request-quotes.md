@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34a063feaeaef390c9eee8023d42a912a29582f8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cff54e778beb1bb08342835419998242eed4adf3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918897"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758467"
 ---
 # <a name="request-quotes"></a>Angebotsanforderungen
 Eine Einkaufsanfrage kann als erster Entwurf für eine Bestellung verwendet werden. Die Bestellung kann dann in eine Rechnung oder einen Auftrag umgewandelt werden.
@@ -37,4 +37,4 @@ Das Verkaufsangebot wird aus der Datenbank entfernt. Eine Verkaufsrechnung oder 
 [Einkauf](purchasing-manage-purchasing.md)  
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

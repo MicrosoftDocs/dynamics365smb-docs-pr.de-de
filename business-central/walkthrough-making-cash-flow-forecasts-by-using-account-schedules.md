@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 67a6e963800bf5f0ce8e1a293463d53b51470ee5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a210792a187bde0217917659f118c58a6a135df2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914785"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756538"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata
 In dieser exemplarischen Vorgehensweise wird beschrieben, wie Sie mit Kontenschemata arbeiten können, um Cashflowplanungen zu erstellen. Kontenschemata führen Berechnungen aus, die nicht direkt im Kontenplan für Cashflowkonten vorgenommen werden können. In Kontenschemata können Sie Zwischensummen für Cashflow-Auftragseingänge und -Auszahlungen einrichten. Diese Zwischensummen können in neue Summen einbezogen werden, die dann für Cashflowplanungen verwendet werden können.  
@@ -32,7 +32,7 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 ### <a name="prerequisites"></a>Voraussetzungen  
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] installiert.  
+- [!INCLUDE[prod_short](includes/prod_short.md)] installiert.  
 - Die Cashflowvorschlagszeilen werden erfasst.  
 
 ## <a name="roles"></a>Rollen  
@@ -59,7 +59,7 @@ Nachdem ein Kontenschemaname eingerichtet wurde, definiert Ken jede Zeile, die i
 
 ### <a name="to-set-up-account-schedule-lines"></a>So richten Sie Kontenschemazeilen ein  
 
-1.  Wählen Sie auf der Seite **Kontenplannamen** den neuen **Prognose** Kontenplannamen, den Sie erstellt haben, und wählen Sie dann die Aktion **Kontenplan bearbeiten** .  
+1.  Wählen Sie auf der Seite **Kontenplannamen** den neuen **Prognose** Kontenplannamen, den Sie erstellt haben, und wählen Sie dann die Aktion **Kontenplan bearbeiten**.  
 2.  Auf der Seite **Kontoplan** geben Sie jede Zeile genau wie in der folgenden Tabelle ein.  
 
     > [!NOTE]  
@@ -89,4 +89,4 @@ Ken kann das Spaltenlayout jetzt dem Kontenschemanamen zuweisen.
 ## <a name="see-also"></a>Siehe auch  
  [Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)   
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
- [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

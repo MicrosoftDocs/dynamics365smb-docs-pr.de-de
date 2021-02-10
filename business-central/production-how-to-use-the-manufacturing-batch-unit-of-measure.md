@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 91e77f25c111ffda32e94b82f23c7d56433e16cf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 75b46ba1f7133bcad85b94c67ca4a27368caa32e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921518"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758931"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Verwenden der Fertigungsloseinheit
 Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einheit gefertigt wird, wird ein Fertigungsauftrag erstellt, für den eine Fertigungsloseinheit verwendet wird, um in der Stapelverarbeitung **Herstellungsantrag erneuern** die richtige Menge der Komponenten zu berechnen. Ein Beispiel für eine Berechnung über eine Fertigungsloseinheit ergibt sich, wenn ein Produktionsartikel am Lager in Einheiten geführt, aber in Tonnen gefertigt wird.  
@@ -29,9 +29,9 @@ Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einhe
 
     Wählen Sie im Inforegister **Beschaffung** im Feld **Fert.-Stücklistennr.** die oben erstellte Fertigungsstückliste aus.  
 6.  Erstellen Sie einen Fertigungsauftragskopf mit dem Artikel, der mit der Fertigungsloseinheit eingerichtet wurde. Weitere Informationen finden Sie unter [Erstellen von Montageaufträgen](production-how-to-create-production-orders.md).  
-7.  Wählen Sie die Schaltfläche **Aktualisieren** , und wählen Sie dann die Schaltfläche **OK** .  
+7.  Wählen Sie die Schaltfläche **Aktualisieren**, und wählen Sie dann die Schaltfläche **OK**.  
 
-Wählen Sie im Inforegister **Zeilen** **Aktionen** , und wählen Sie Zeile, und dann **Komponenten** , um das Ergebnis anzuzeigen. Die Anwendungberechnet die richtige Menge der Komponenten, die für die Fertigungsstückliste gemäß der Fertigungsloseinheit erforderlich ist.  
+Wählen Sie im Inforegister **Zeilen** **Aktionen**, und wählen Sie Zeile, und dann **Komponenten**, um das Ergebnis anzuzeigen. Die Anwendungberechnet die richtige Menge der Komponenten, die für die Fertigungsstückliste gemäß der Fertigungsloseinheit erforderlich ist.  
 
 ## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>Fertigungsloseinheit in einem Fertigungsauftrag berechnen  
 1.  Erstellen Sie einen Fertigungsauftragskopf mit dem Artikel, der mit der Fertigungsloseinheit eingerichtet wurde.  
@@ -39,9 +39,9 @@ Wählen Sie im Inforegister **Zeilen** **Aktionen** , und wählen Sie Zeile, und
 3.  Geben Sie in das Feld **Menge** die Menge ein, die im Kopf steht.  
 4.  Wählen Sie im Feld **Basiseinheitencode** den Fertigungsloseinheitencode aus.  
 5.  Wählen Sie die Aktion **Aktualisieren** aus.
-6.  Deaktivieren Sie auf dem Inforegister **Berechnen** das Feld Kontrollkästchen **Zeilen** .  
+6.  Deaktivieren Sie auf dem Inforegister **Berechnen** das Feld Kontrollkästchen **Zeilen**.  
 7.  Wählen Sie die Schaltfläche **OK** aus.  
-8.  Wählen Sie im Inforegister **Zeilen** **Aktionen** , und wählen Sie Zeile, und dann **Komponenten** , um das Ergebnis anzuzeigen. Die richtige Menge der Komponenten, die für die Fertigungsstückliste gemäß der Fertigungsloseinheit erforderlich ist, wird berechnet.  
+8.  Wählen Sie im Inforegister **Zeilen** **Aktionen**, und wählen Sie Zeile, und dann **Komponenten**, um das Ergebnis anzuzeigen. Die richtige Menge der Komponenten, die für die Fertigungsstückliste gemäß der Fertigungsloseinheit erforderlich ist, wird berechnet.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Routings erstellen](production-how-to-create-routings.md)  
@@ -51,4 +51,4 @@ Wählen Sie im Inforegister **Zeilen** **Aktionen** , und wählen Sie Zeile, und
 [Planung](production-planning.md)   
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

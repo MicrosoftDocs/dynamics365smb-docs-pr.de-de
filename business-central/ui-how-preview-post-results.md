@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 06e498444879a9b77b1418c44f4dd39395c8a4b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910180"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756892"
 ---
 # <a name="preview-posting-results"></a>Vorschau-Buchungs-Ergebnisse
 Auf jedem Beleg und Buch.-Blatt, die gebucht werden können, können Sie die Schaltfläche **Vorschau-Buchung** auswählen, um verschiedene Arten von Posten zu überprüfen, die erstellt werden, wenn Sie den Beleg oder das Buch.-Blatt buchen.
@@ -30,5 +30,5 @@ Auf jedem Beleg und Buch.-Blatt, die gebucht werden können, können Sie die Sch
 
 ## <a name="see-also"></a>Siehe auch
 [Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

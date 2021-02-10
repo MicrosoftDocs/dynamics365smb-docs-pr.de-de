@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 046c829955b38f6f5ea416e0a80c1fe058476942
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918890"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758592"
 ---
 # <a name="date-calculation-for-purchases"></a>Terminberechnung für Einkäufe
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] berechnet automatisch das Datum, an dem Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum im Lagerbestand vorhanden ist. Dies ist das Datum, an dem Sie erwarten können, dass Artikel, die an einem bestimmten Datum bestellt wurden, zur Kommissionierung verfügbar sind.  
+[!INCLUDE[prod_short](includes/prod_short.md)] berechnet automatisch das Datum, an dem Sie einen Artikel bestellen müssen, damit er zu einem bestimmten Datum im Lagerbestand vorhanden ist. Dies ist das Datum, an dem Sie erwarten können, dass Artikel, die an einem bestimmten Datum bestellt wurden, zur Kommissionierung verfügbar sind.  
 
 Wenn Sie ein gewünschtes Wareneingangsdatum in einem Einkaufsbestellkopf angeben, ist das berechnete Auftragsdatum das Datum, an dem die Bestellung erfolgen muss, um die Artikel an dem Datum zu erhalten, das Sie angefordert haben. Dann wird das Datum, an dem die Artikel für die Kommissionierung zur Verfügung stehen, im Feld **Erwartetes Eingangsdatum** berechnet und eingegeben.  
 
@@ -50,7 +50,7 @@ Wenn Sie das Bestelldatum im Kopf ändern, wird das Datum in allen Zeilen in das
 
 ## <a name="default-values-for-lead-time-calculation"></a>Standardwerte für die Vorlaufzeitberechnung
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet den Wert aus dem Feld **Vorlaufzeitberechnung** in der Bestellzeile, um die Bestellung und die erwarteten Eingangsdaten zu berechnen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] verwendet den Wert aus dem Feld **Vorlaufzeitberechnung** in der Bestellzeile, um die Bestellung und die erwarteten Eingangsdaten zu berechnen.  
 
 Sie können den Wert in der Zeile manuell angeben oder das Programm Werte verwenden lassen, die auf der Lieferantenkarte, der Artikelkarte, der Lagereinheitskarte oder dem Artikellieferantenkatalog definiert sind.
 Der Wert für die Vorlaufzeit auf der Lieferantenkarte wird jedoch nur verwendet, wenn auf der Artikelkarte, der Karte der Lagereinheit oder dem Artikellieferantenkatalog für den Artikel keine Vorlaufzeit angegeben ist. Dies ist auch die eskalierende Prioritätsreihenfolge für diese Werte. Wenn alle angegeben sind, hat die Vorlaufzeit von der Lieferantenkarte die niedrigste Priorität, und die Vorlaufzeit aus dem Lieferantenkatalog des Artikels hat die höchste Priorität.  
@@ -59,4 +59,4 @@ Der Wert für die Vorlaufzeit auf der Lieferantenkarte wird jedoch nur verwendet
 
 [Terminberechnung für Verkäufe](sales-date-calculation-for-sales.md)   
 [Lieferterminzusagen-Daten berechnen](sales-how-to-calculate-order-promising-dates.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

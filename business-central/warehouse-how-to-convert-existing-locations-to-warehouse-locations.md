@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6f8b27c4b0abc4221bd081df8474876577e476e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a8bb0fe974ac13cdff2cd65fbd5b8428208e0bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911854"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756292"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Konvertieren vorhandener Lagerorte in Lagerorte des Lagers
 Sie können einen vorhandenen Lagerort aktivieren, um Zonen und Lagerplätze zu verwenden und als Lagerorte zu betreiben.  
@@ -38,7 +38,7 @@ Zonen und Lagerplätze können vor oder nach der Umwandlung erstellt werden. Der
 5.  Nachdem die Stapelverarbeitung **Lagerort erstellen** abgeschlossen ist, muss eine Lagerinventur ausgeführt und gebucht werden. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)  
 
 > [!NOTE]  
->  Es empfiehlt sich, den Batchauftrag **Lagerort erstellen** zu einem Zeitpunkt ausführen, zu dem er sich im System nicht auf die tägliche Arbeit auswirkt. Dieser Auftrag verarbeitet alle Einträge in der Tabelle **Artikelposten** . Wenn es viele Artikelposten gibt, kann der Auftrag mehrere Stunden dauern.  
+>  Es empfiehlt sich, den Batchauftrag **Lagerort erstellen** zu einem Zeitpunkt ausführen, zu dem er sich im System nicht auf die tägliche Arbeit auswirkt. Dieser Auftrag verarbeitet alle Einträge in der Tabelle **Artikelposten**. Wenn es viele Artikelposten gibt, kann der Auftrag mehrere Stunden dauern.  
 
  Bei den Lagerorten, für die vor der Umwandlung keine Logistikbelege verwendet wurden, müssen Herkunftsbelege, die vor der Umwandlung teilweise empfangen oder geliefert wurden, erneut geöffnet und freigegeben werden.  
 
@@ -48,4 +48,4 @@ Zonen und Lagerplätze können vor oder nach der Umwandlung erstellt werden. Der
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

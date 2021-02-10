@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cfc545e328da020ce8ecd4dc7a79e6303902636
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed2cd341010ef8d90e037a9afaa240d755fc3d7a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916551"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759117"
 ---
 # <a name="post-scrap-manually"></a>Ausschuss manuell buchen
 Wenn während der Produktion Ausschuss angefallen ist, dann kann dieser im FA-Istmeldungsprotokoll eingegeben werden. 
@@ -36,4 +36,4 @@ Wenn während der Produktion Ausschuss angefallen ist, dann kann dieser im FA-Is
 [Planung](production-planning.md)      
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

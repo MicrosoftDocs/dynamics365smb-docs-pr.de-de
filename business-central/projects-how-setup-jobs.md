@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915335"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758642"
 ---
 # <a name="set-up-jobs"></a>Einrichten von Projekten
 
-Als Projekt-Manager können Sie Projekte einrichten, die jedes der Projekte definieren, das Sie in [!INCLUDE[prodshort](includes/prodshort.md)] verwalten. Auf der Seite **Projekteinrichtung** müssen Sie festlegen, wie Sie bestimmte Projektfunktionen verwenden möchten.
+Als Projekt-Manager können Sie Projekte einrichten, die jedes der Projekte definieren, das Sie in [!INCLUDE[prod_short](includes/prod_short.md)] verwalten. Auf der Seite **Projekteinrichtung** müssen Sie festlegen, wie Sie bestimmte Projektfunktionen verwenden möchten.
 
 Für jedes Projekt geben Sie dann die einzelnen Projektkarten mit Informationen zu Preisen für Projektressourcen Projektartikel, Projekt und Sachkonten an, und Sie müssen Projektbuchungsgruppen einrichten.
 
@@ -92,7 +92,7 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 > [!NOTE]  
 >   Die erforderlichen Konten der Kontenliste müssen eingegeben, bevor Sie Buchungsgruppen einrichten können. Weitere Informationen finden Sie unter [Einrichten oder ändern des Kontenplans](finance-setup-chart-accounts.md).  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Projekt-Buchungsgruppen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Projekt-Buchungsgruppen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** und füllen Sie dann die Kontenfelder wie in der folgenden Tabelle beschrieben aus.  
 
 | Das Feld "Konto" | Beschreibung |
@@ -121,4 +121,4 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

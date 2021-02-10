@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5136c675d50e4d9ac91f43755dfb44810701096d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910655"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758017"
 ---
 # <a name="track-packages"></a>Pakete verfolgen
 
@@ -25,8 +25,8 @@ Das folgende Verfahren zeigt, wie Sie ein Paket aus einer gebuchten Verkaufslief
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufslieferung gebucht** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die relevante Verkaufslieferung.
 3. Wählen Sie die Aktion **Dokument aktualisieren** aus.
-4. In der **Paketverfolgungsnr.** Feld geben Sie die Paketnummer ein, die Sie vom Zusteller erhalten haben. Aktualisieren Sie bei Bedarf **Zusteller** , und schließen Sie die Seite.
-5. Wählen Sie die **Paketverfolgung** -Aktion aus.
+4. In der **Paketverfolgungsnr.** Feld geben Sie die Paketnummer ein, die Sie vom Zusteller erhalten haben. Aktualisieren Sie bei Bedarf **Zusteller**, und schließen Sie die Seite.
+5. Wählen Sie die **Paketverfolgung**-Aktion aus.
 
 Ihr Standardbrowser öffnet die Nachverfolgungsseite des Zustellers.
 
@@ -36,4 +36,4 @@ Ihr Standardbrowser öffnet die Nachverfolgungsseite des Zustellers.
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

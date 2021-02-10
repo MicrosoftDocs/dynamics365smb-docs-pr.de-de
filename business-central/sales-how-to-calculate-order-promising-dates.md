@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5e9609ae65cd2cd23abad5680e576c3c16d89493
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 150c5c552e314d17af15968ebcbe57d8e8bc3fc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925997"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758117"
 ---
 # <a name="calculate-order-promising-dates"></a>Lieferterminzusagen-Daten berechnen
 Ein Mandant muss in der Lage sein, seine Debitoren über Auftragslieferdaten zu informieren. Die Seite **Lieferzusagenzeilen** ermöglicht Ihnen, dies von einer Verkaufsauftragszeile aus zu tun.  
 
-Auf Grundlage der bekannten und erwarteten Verfügbarkeitstermine eines Artikels berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] sofort die Lieferdaten, die dann dem Debitor zugesagt werden können.  
+Auf Grundlage der bekannten und erwarteten Verfügbarkeitstermine eines Artikels berechnet [!INCLUDE[prod_short](includes/prod_short.md)] sofort die Lieferdaten, die dann dem Debitor zugesagt werden können.  
 
 Wenn Sie in einer Verkaufszeile ein gewünschtes Lieferdatum eingeben, wird dieses Datum als Ausgangspunkt für die folgenden Berechnungen verwendet:  
 
@@ -37,37 +37,37 @@ Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben od
 ## <a name="about-order-promising"></a>Über Lieferterminzusagen
 Die Funktion Lieferzusagen ermöglicht Ihnen, den Versand oder die Lieferung eines Auftrags zu einem bestimmten Datum zuzusagen. Das Datum, zu dem der Artikel verfügbar oder geeignet für eine Zusage ist, wird berechnet und Auftragszeilen für das Datum, welches Sie akzeptiert haben, erstellt. Die Funktion "Lieferterminzusagen" ist ein Werkzeug zur Berechnung des frühestmöglichen Datums, an dem ein Artikel zum Versand oder zur Lieferung verfügbar ist. Sie erstellt außerdem Bestellvorschlagszeilen, falls die Artikel zuerst gekauft werden müssen, für das Datum, welches Sie akzeptiert haben.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] verwendet zwei grundlegende Konzepte:  
+[!INCLUDE[prod_short](includes/prod_short.md)] verwendet zwei grundlegende Konzepte:  
 
 - Lieferzusage (Available to promise, ATP)  
 - Beschaffungszusage (Capable to promise, CTP)  
 
 ### <a name="available-to-promise"></a>Lieferzusage  
-"Lieferzusage (Available to promise, ATP)" berechnet die Daten auf der Grundlage des Reservierungssystems. Dabei wird eine Verfügbarkeitsprüfung der nicht reservierten Mengen im Lagerbestand im Hinblick auf die geplante Produktion, Einkäufe, Umlagerungen und Verkaufsreklamationen durchgeführt. Auf Grundlage dieser Informationen berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch das Auslieferungsdatum des Debitorenauftrags, weil die Artikel, entweder im Lagerbestand oder im Rahmen geplanter Wareneingänge, verfügbar sind.  
+"Lieferzusage (Available to promise, ATP)" berechnet die Daten auf der Grundlage des Reservierungssystems. Dabei wird eine Verfügbarkeitsprüfung der nicht reservierten Mengen im Lagerbestand im Hinblick auf die geplante Produktion, Einkäufe, Umlagerungen und Verkaufsreklamationen durchgeführt. Auf Grundlage dieser Informationen berechnet [!INCLUDE[prod_short](includes/prod_short.md)] automatisch das Auslieferungsdatum des Debitorenauftrags, weil die Artikel, entweder im Lagerbestand oder im Rahmen geplanter Wareneingänge, verfügbar sind.  
 
 ### <a name="capable-to-promise"></a>Beschaffungszusage  
-Beschaffungszusage (CTP) für eine Zusage akzeptiert "Was-wenn", das nur auf Artikelmengen gehört, die nicht im Lagerbestand oder im geplanten Bestellungen sind. Auf Grundlage dieses Szenarios berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] das früheste Datum, zu dem der Artikel verfügbar sein kann, wenn er gefertigt werden, bezogen werden oder umgelagert werden muss.
+Beschaffungszusage (CTP) für eine Zusage akzeptiert "Was-wenn", das nur auf Artikelmengen gehört, die nicht im Lagerbestand oder im geplanten Bestellungen sind. Auf Grundlage dieses Szenarios berechnet [!INCLUDE[prod_short](includes/prod_short.md)] das früheste Datum, zu dem der Artikel verfügbar sein kann, wenn er gefertigt werden, bezogen werden oder umgelagert werden muss.
 
 #### <a name="example"></a>Beispiel
 Wenn ein Auftrag für 10 Stück besteht und 6 Stück im Lagerbestand oder in geplanten Aufträge verfügbar sind, ist die Fähig-zu-Versprechenberechnung auf Grundlage 4 Stück.
 
 ### <a name="calculations"></a>Berechnungen  
-Wenn [!INCLUDE[d365fin](includes/d365fin_md.md)] das Auslieferungsdatum des Debitors berechnet, werden zwei Aufgaben ausgeführt:  
+Wenn [!INCLUDE[prod_short](includes/prod_short.md)] das Auslieferungsdatum des Debitors berechnet, werden zwei Aufgaben ausgeführt:  
 
 - Berechnung des frühesten Lieferdatums, wenn der Debitor kein bestimmtes Lieferdatum angefragt hat.  
 - Prüfung, ob das vom Debitor angefragte oder ihm zugesagte Lieferdatum realistisch ist.  
 
-Wenn der Debitor kein bestimmtes Lieferdatum anfragt, wird das Lieferdatum auf das Arbeitsdatum festgelegt, und die Verfügbarkeit basiert dann auf diesem Datum. Wenn der Artikel im Lagerbestand vorhanden ist, berechnet [!INCLUDE[d365fin](includes/d365fin_md.md)] den Termin, zu dem der Auftrag geliefert werden kann. Dazu dienen die folgenden Formeln:  
+Wenn der Debitor kein bestimmtes Lieferdatum anfragt, wird das Lieferdatum auf das Arbeitsdatum festgelegt, und die Verfügbarkeit basiert dann auf diesem Datum. Wenn der Artikel im Lagerbestand vorhanden ist, berechnet [!INCLUDE[prod_short](includes/prod_short.md)] den Termin, zu dem der Auftrag geliefert werden kann. Dazu dienen die folgenden Formeln:  
 
 - Geplantes Warenausgangsdatum + Ausgehende Lagerdurchlaufzeit = Geplantes Warenausg.-Datum  
 - Geplantes Warenausgangsdatum + Transportzeit = Geplantes Lieferdatum  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] überprüft dann, ob das berechnete Lieferdatum realistisch ist; dazu wird zeitlich rückwärts berechnet, wann der Artikel verfügbar sein muss, um den zugesagten Termin einhalten zu können. Dazu dienen die folgenden Formeln:  
+[!INCLUDE[prod_short](includes/prod_short.md)] überprüft dann, ob das berechnete Lieferdatum realistisch ist; dazu wird zeitlich rückwärts berechnet, wann der Artikel verfügbar sein muss, um den zugesagten Termin einhalten zu können. Dazu dienen die folgenden Formeln:  
 
 - Geplantes Lieferdatum - Transportzeit = Geplantes Warenausgangsdatum  
 - Geplantes Warenausgangsdatum - Ausgehende Lagerdurchlaufzeit + Warenausg.-Datum  
 
-Das Lieferdatum wird für die Verfügbarkeitsprüfung verwendet. Wenn der Artikel an diesem Datum verfügbar ist, bestätigt [!INCLUDE[d365fin](includes/d365fin_md.md)], dass die angeforderte/zugesagte Lieferung eingehalten werden kann, indem das geplante Lieferdatum auf das angefragte/zugesagte Lieferdatum gesetzt wird. Wenn der Artikel nicht verfügbar ist, wird ein leeres Datum zurückgegeben, und der Auftragsbearbeiter kann die CTP-Funktion verwenden.  
+Das Lieferdatum wird für die Verfügbarkeitsprüfung verwendet. Wenn der Artikel an diesem Datum verfügbar ist, bestätigt [!INCLUDE[prod_short](includes/prod_short.md)], dass die angeforderte/zugesagte Lieferung eingehalten werden kann, indem das geplante Lieferdatum auf das angefragte/zugesagte Lieferdatum gesetzt wird. Wenn der Artikel nicht verfügbar ist, wird ein leeres Datum zurückgegeben, und der Auftragsbearbeiter kann die CTP-Funktion verwenden.  
 
 Auf Grundlage neuer Daten und Uhrzeiten werden alle damit verbundenen Daten gemäß den oben aufgeführten Formeln berechnet. Die CTP-Berechnung dauert, gibt jedoch ein präzises Datum an, zu dem der Debitor die Lieferung des Artikels erwarten kann. Die Daten, die per CTP berechnet werden, werden den Fenstern **Geplantes Lieferdatum** und **Frühestmög. Warenausgangsdatum** auf der Seite **Lieferterminzusagenzeilen** angegeben.  
 
@@ -144,4 +144,4 @@ Bevor ein Artikel bei der Berechnung der Lieferterminzusage berücksichtigt werd
 ## <a name="see-also"></a>Siehe auch  
 [Verkauf](sales-manage-sales.md)  
 [Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

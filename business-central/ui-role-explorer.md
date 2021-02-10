@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914910"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756693"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Suchen von Seiten mit dem Rollen-Explorer
 Sie können sich einen Überblick über alle Geschäftsfunktionen verschaffen, die für Ihre Rolle und für andere Rollen verfügbar sind, wenn Sie einen Schritt weiter gehen. In der folgenden Dokumentation wird diese Funktionsübersicht als *Rollen-Explorer* bezeichnet.
 
-Jedes Element im Rollen-Explorer ist eine Aktion, die eine Seite öffnet. Dementsprechend können Sie den Rollen-Explorer auch als Navigationsmittel in [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden.
+Jedes Element im Rollen-Explorer ist eine Aktion, die eine Seite öffnet. Dementsprechend können Sie den Rollen-Explorer auch als Navigationsmittel in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden.
 
 Sie können den Rollen-Explorer aus dem Rollencenter und allen Listenseiten sowie aus dem Fenster **Tell Me** öffnen.
 
@@ -32,7 +32,7 @@ Wählen Sie die Aktion **Finden** oben im Rollen-Explorer, um schnell Feature-Na
 Wählen Sie die Aktion **Alles erkunden** oben im Rollen-Explorer, um einen Überblick über alle Geschäftsfunktionen zu erhalten, die für alle Rollen, einschließlich Ihrer eigenen, verfügbar sind.
 
 > [!NOTE]
-> Nur Rollencenter-Aktionen für Profile, bei denen das Kontrollkästchen **Im Rollen-Explorer anzeigen** aktiviert ist, werden in der erweiterten Version des Rollen-Explorers angezeigt (angezeigt mit der Aktion **Alle durchsuchen** ). Weitere Informationen finden Sie unter [Profile verwalten](admin-users-profiles-roles.md).
+> Nur Rollencenter-Aktionen für Profile, bei denen das Kontrollkästchen **Im Rollen-Explorer anzeigen** aktiviert ist, werden in der erweiterten Version des Rollen-Explorers angezeigt (angezeigt mit der Aktion **Alle durchsuchen**). Weitere Informationen finden Sie unter [Profile verwalten](admin-users-profiles-roles.md).
 
 ## <a name="to-expandcollapse-nodes-on-the-role-explorer"></a>So expandieren/komprimieren Sie Knoten im Rollen-Explorer
 Die Aktionen, die Seiten öffnen, sind unter Knoten organisiert, die nach den Features oder Anwendungsbereichen benannt sind. Jeder Knoten kann einzeln komprimiert oder expandiert werden, und Sie können alle Knoten zusammen komprimieren/expandieren.
@@ -44,4 +44,4 @@ Die Aktionen, die Seiten öffnen, sind unter Knoten organisiert, die nach den Fe
 ## <a name="see-also"></a>Siehe auch
 [Suche nach Seiten und Informationen mit Tell Me](ui-search.md)  
 [Profile verwalten](admin-users-profiles-roles.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

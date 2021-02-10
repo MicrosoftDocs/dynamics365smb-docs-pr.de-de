@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ba066e9d40959b48901792d7ceff8589525c6d7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a206386039e277eddd13801da23bb32c2845227
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910405"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757942"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Zuordnungsstatus und Reparaturstatus von Serviceartikeln
 Der Reparaturstatus der Serviceartikel und der Zuordnungsstatus von Zuordnungen für Serviceartikel stellen unter "Service" eine bestimmte Beziehung zueinander dar. Der Zuordnungsstatus ändert sich, wenn Sie den Reparaturstatus des Serviceartikels auf **Erledigt** oder **Unvollständig bearbeitet** setzen oder wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln. Der Reparaturstatus des Serviceartikels ändert sich, wenn Sie die Serviceartikelzuordnung stornieren oder den Serviceartikel einer anderen Ressource neu zuordnen. Sie können den Reparaturstatus der Serviceartikel auf der Seite **Serviceaufgaben** einsehen und ihn im Feld **Reparaturstatuscode** auf der Seite **Servicearbeitsschein** aktualisieren. Sie können den Zuordnungsstatus im Feld **Status** der Seite **Ressourcenzuordnungen** einsehen.  
@@ -23,9 +23,9 @@ Der Reparaturstatus der Serviceartikel und der Zuordnungsstatus von Zuordnungen 
 ## <a name="changing-repair-status"></a>Ändern des Reparaturstatus  
 Wenn Sie den Reparaturstatus eines Serviceartikels in einer Serviceauftragszeile ändern, sucht die Anwendung nach einem entsprechenden Zuordnungseintrag für diesen Serviceartikel, der den Status **Aktiv** hat. Wenn eine solche Zuordnung gefunden wird, wird der Status dieser Zuordnung gemäß einer der folgenden Methoden aktualisiert:  
   
-* Wenn Sie den Reparaturstatus auf **Erledigt** ändern, ändert die Anwendung den Zuordnungsstatus von **Aktiv** auf **Erledigt** .  
-* Wenn Sie den Reparaturstatus auf **Unvollständig bearbeitet** (ein Teil des Services wurde durchgeführt) oder **Weitergeleitet** (es wurde noch kein Service durchgeführt) setzen, ändert die Anwendung den Zuordnungsstatus von **Aktiv** auf **Neuzuordnung notwendig** .  
-* Wenn ein Serviceauftragszuordnung-Posten erstellt wird, der angibt, dass keine Ressourcen zugeordnet wurden, setzt die Anwendung das Feld **Status** auf der Seiten **Ressourcenzuordnungen** auf **Inaktiv** .  
+* Wenn Sie den Reparaturstatus auf **Erledigt** ändern, ändert die Anwendung den Zuordnungsstatus von **Aktiv** auf **Erledigt**.  
+* Wenn Sie den Reparaturstatus auf **Unvollständig bearbeitet** (ein Teil des Services wurde durchgeführt) oder **Weitergeleitet** (es wurde noch kein Service durchgeführt) setzen, ändert die Anwendung den Zuordnungsstatus von **Aktiv** auf **Neuzuordnung notwendig**.  
+* Wenn ein Serviceauftragszuordnung-Posten erstellt wird, der angibt, dass keine Ressourcen zugeordnet wurden, setzt die Anwendung das Feld **Status** auf der Seiten **Ressourcenzuordnungen** auf **Inaktiv**.  
 * Die Anwendung legt den Status des Zuordnungspostens auf **Storniert** fest, wenn Sie den Serviceartikel, auf den im Serviceauftragszuordnungs-Posten verwiesen wird, erneut zuordnen und so angeben, dass die zugeordnete Ressource oder Ressourcengruppe mit der Serviceaufgabe noch nicht begonnen hat.  
   
 Der Zuordnungsstatus gibt also an, wenn der Serviceprozess beendet ist, oder wenn eine andere Ressource nötig ist, um den Service an diesem Serviceartikel zu beenden.  
@@ -33,36 +33,36 @@ Der Zuordnungsstatus gibt also an, wenn der Serviceprozess beendet ist, oder wen
 ## <a name="converting-service-quotes-to-service-orders"></a>Vertragsangebote in Serviceaufträge umwandeln  
 Wenn Sie ein Serviceangebot in einen Serviceauftrag umwandeln, aktualisiert die Anwendung den Serviceauftrag, die Serviceartikel in dem Auftrag und deren Zuordnungsstatus auf die folgenden Arten:  
   
-* Die Anwendung ändert den Reparaturstatus der Serviceartikel auf **Anfang** .  
-* Der Serviceauftragsstatus ändert sich zu **Offen** .  
-* Die Anwendung sucht nach Zuordnungen für alle Serviceartikel des Serviceauftrags mit dem Status **Aktiv** . Wenn solche Zuordnungen gefunden werden, wird der Zuordnungsstatus von **Aktiv** auf **Neuzuordnung notwendig** geändert.  
+* Die Anwendung ändert den Reparaturstatus der Serviceartikel auf **Anfang**.  
+* Der Serviceauftragsstatus ändert sich zu **Offen**.  
+* Die Anwendung sucht nach Zuordnungen für alle Serviceartikel des Serviceauftrags mit dem Status **Aktiv**. Wenn solche Zuordnungen gefunden werden, wird der Zuordnungsstatus von **Aktiv** auf **Neuzuordnung notwendig** geändert.  
   
 ## <a name="canceling-allocations"></a>Zuordnungen stornieren  
-Wenn Sie die Zuordnung für einen Serviceartikel stornieren, aktualisiert [!INCLUDE[d365fin](includes/d365fin_md.md)] den Zuordnungsstatus des entsprechenden Zuordnungspostens von **Aktiv** auf **Neuzuordnung erforderlich** .
+Wenn Sie die Zuordnung für einen Serviceartikel stornieren, aktualisiert [!INCLUDE[prod_short](includes/prod_short.md)] den Zuordnungsstatus des entsprechenden Zuordnungspostens von **Aktiv** auf **Neuzuordnung erforderlich**.
 
 Der Reparaturstatus der Serviceartikel wird in dem Zuordnungsposten auf die folgenden Arten aktualisiert:  
   
-* Steht der Reparaturstatus auf **Anfang** , ändert sich der Status in **Weitergeleitet** (es wurden noch keine Servicearbeiten durchgeführt).  
-* Steht der Reparaturstatus auf **In Bearbeitung** , ändert sich der Status in **Nicht abgeschlossen** (einige Arbeiten wurden erledigt).  
+* Steht der Reparaturstatus auf **Anfang**, ändert sich der Status in **Weitergeleitet** (es wurden noch keine Servicearbeiten durchgeführt).  
+* Steht der Reparaturstatus auf **In Bearbeitung**, ändert sich der Status in **Nicht abgeschlossen** (einige Arbeiten wurden erledigt).  
   
 ## <a name="reallocating-an-active-allocation-entry"></a>Eine aktive Zuordnung neu zuordnen  
 Wenn Sie einen Serviceartikel neu zuordnen, der in einem Zuordnungsposten mit dem Status **Aktiv** enthalten ist, aktualisiert die Anwendung den Zuordnungsposten auf die folgenden Arten:  
   
-* Wenn der Service begonnen wurde, als die Zuordnung **Aktiv** war (d. h. falls der Reparaturstatus des Serviceartikels in dem Posten auf **In Bearbeitung** geändert wurde), ändert die Anwendung den Zuordnungsstatus von **Aktiv** auf **Erledigt** .  
-* Falls der Service nicht begonnen wurde, als die Zuordnung **Aktiv** war, ändert die Anwendung den Zuordnungsstatus von **Aktiv** auf **Storniert** .  
+* Wenn der Service begonnen wurde, als die Zuordnung **Aktiv** war (d. h. falls der Reparaturstatus des Serviceartikels in dem Posten auf **In Bearbeitung** geändert wurde), ändert die Anwendung den Zuordnungsstatus von **Aktiv** auf **Erledigt**.  
+* Falls der Service nicht begonnen wurde, als die Zuordnung **Aktiv** war, ändert die Anwendung den Zuordnungsstatus von **Aktiv** auf **Storniert**.  
   
 Die Anwendung aktualisiert den Reparaturstatus der Serviceartikel in dem Zuordnungsposten auf die gleiche Weise, als ob Sie die Zuordnung storniert hätten:  
   
-* Steht der Reparaturstatus auf **Anfang** , ändert sich der Status in **Weitergeleitet** (es wurden noch keine Servicearbeiten durchgeführt).  
-* Steht der Reparaturstatus auf **In Bearbeitung** , ändert sich der Status in **Nicht abgeschlossen** (einige Arbeiten wurden erledigt).  
+* Steht der Reparaturstatus auf **Anfang**, ändert sich der Status in **Weitergeleitet** (es wurden noch keine Servicearbeiten durchgeführt).  
+* Steht der Reparaturstatus auf **In Bearbeitung**, ändert sich der Status in **Nicht abgeschlossen** (einige Arbeiten wurden erledigt).  
   
 Ein neuer Zuordnungsposten mit dem Zuordnungsstatus **Aktiv** wird erstellt, der die neue Ressource enthält.  
   
 ## <a name="reallocating-a-service-item"></a>Serviceaufgabenneu zuordnen  
 Wenn Sie einen Serviceartikel neu zuordnen, der in einem Zuordnungsposten mit dem Status **Neuzuordnung notwendig** enthalten ist, aktualisiert die Anwendung den Zuordnungsposten auf die folgenden Arten:  
   
-* Wenn der Service begonnen wurde, als die Zuordnung **Aktiv** war (d. h. falls der Reparaturstatus des Serviceartikels in dem Posten auf **In Bearbeitung** geändert wurde), ändert die Anwendung den Zuordnungsstatus von **Neuzuordnung notwendig** auf **Erledigt** .  
-* Falls der Service nicht begonnen wurde, als die Zuordnung **Aktiv** war, ändert die Anwendung den Zuordnungsstatus von **Neuzuordnung notwendig** auf **Storniert** .  
+* Wenn der Service begonnen wurde, als die Zuordnung **Aktiv** war (d. h. falls der Reparaturstatus des Serviceartikels in dem Posten auf **In Bearbeitung** geändert wurde), ändert die Anwendung den Zuordnungsstatus von **Neuzuordnung notwendig** auf **Erledigt**.  
+* Falls der Service nicht begonnen wurde, als die Zuordnung **Aktiv** war, ändert die Anwendung den Zuordnungsstatus von **Neuzuordnung notwendig** auf **Storniert**.  
   
 Ein neuer Zuordnungsposten mit dem Zuordnungsstatus **Aktiv** wird erstellt, der die neue Ressource enthält.  
   

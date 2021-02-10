@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e94bef3f127d52ca7ee5c7e31f0f126e57b44210
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914810"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756417"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und auf einen Vorauszahlungsauftrag (Einkauf oder Verkauf) gebucht werden. Sie können z. B. eine Anzahlung vor der Auftragsfertigung von Artikeln oder eine Zahlung vor der Lieferung an einen Debitoren verlangen. Mithilfe der Vorauszahlungsfunktion von [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie Anzahlungen von Debitoren fakturieren und einfordern oder Anzahlungen an Kreditoren leisten. Somit können Sie sicherstellen, dass alle Zahlungen mit einer Rechnung ausgeglichen werden.  
+Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und auf einen Vorauszahlungsauftrag (Einkauf oder Verkauf) gebucht werden. Sie können z. B. eine Anzahlung vor der Auftragsfertigung von Artikeln oder eine Zahlung vor der Lieferung an einen Debitoren verlangen. Mithilfe der Vorauszahlungsfunktion von [!INCLUDE[prod_short](includes/prod_short.md)] können Sie Anzahlungen von Debitoren fakturieren und einfordern oder Anzahlungen an Kreditoren leisten. Somit können Sie sicherstellen, dass alle Zahlungen mit einer Rechnung ausgeglichen werden.  
 
  Die Vorauszahlungsanforderungen können für einen Debitor, einen Kreditor, für alle Artikel oder für ausgewählte Artikel definiert werden. Nach dem Festlegen der erforderlichen Einstellungen können Vorauszahlungsrechnungen für den berechneten Vorauszahlungsbetrag auf der Grundlage von Aufträgen und Bestellungen generiert werden. Die Standardbeträge auf der Rechnung können Sie je nach Anforderung ändern. Sie haben zum Beispiel auch die Möglichkeit zum Senden weiterer Vorauszahlungsrechnungen, für den Fall, dass dem Auftrag weitere Artikel hinzugefügt wurden.  
 
@@ -43,7 +43,7 @@ Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und 
 -   Debitorenadministrator (Peter)  
 
 ## <a name="story"></a>Hintergrund  
- Heike ist eine Debitorenbetreuerin. In dieser wird festgelegt, welche Debitoren eine Anzahlung leisten müssen, bevor Artikel hergestellt oder geliefert werden. Heike hat [!INCLUDE[d365fin](includes/d365fin_md.md)] eingerichtet, um Vorauszahlungen automatisch zu berechnen.  
+ Heike ist eine Debitorenbetreuerin. In dieser wird festgelegt, welche Debitoren eine Anzahlung leisten müssen, bevor Artikel hergestellt oder geliefert werden. Heike hat [!INCLUDE[prod_short](includes/prod_short.md)] eingerichtet, um Vorauszahlungen automatisch zu berechnen.  
 
  Marta ist eine Verkaufsauftragsbearbeiterin. Wenn ein Debitor eine telefonische Bestellung tätigt, gibt sie die Auftragsdaten in das System ein, während sie mit dem Debitoren telefoniert. Auf diese Weise lassen sich Preise und Zahlungsbedingungen sofort absprechen, und sie hat die Möglichkeit, den Auftrag noch während des Gesprächs mit dem Debitoren anzupassen.  
 
@@ -208,14 +208,14 @@ Peter kann die Historie anzeigen, um sicherzustellen, dass die Verkaufsrechnung 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Gebuchte Verkaufsrechnungen** ein, und wählen Sie dann den entsprechenden Link.  
 
 ## <a name="next-steps"></a>Nächste Schritte  
-In dieser Demonstration wurde beschrieben, wie Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] zur Verarbeitung von Vorauszahlungen einrichten. Das Einrichten von standardmäßigen Vorauszahlungsprozentsätzen für Debitoren und Artikel wurde erläutert, und Sie haben erfahren, dass zum Berechnen der Vorauszahlungen für einen Auftrag verschiedene Methoden zur Auswahl stehen. Sie haben versucht, dem Auftrag einen Gesamtvorauszahlungsbetrag zuzuweisen, und haben den Vorauszahlungsbetrag vom Programm als Prozentsatz des gesamten Auftrags berechnen lassen.  
+In dieser Demonstration wurde beschrieben, wie Sie [!INCLUDE[prod_short](includes/prod_short.md)] zur Verarbeitung von Vorauszahlungen einrichten. Das Einrichten von standardmäßigen Vorauszahlungsprozentsätzen für Debitoren und Artikel wurde erläutert, und Sie haben erfahren, dass zum Berechnen der Vorauszahlungen für einen Auftrag verschiedene Methoden zur Auswahl stehen. Sie haben versucht, dem Auftrag einen Gesamtvorauszahlungsbetrag zuzuweisen, und haben den Vorauszahlungsbetrag vom Programm als Prozentsatz des gesamten Auftrags berechnen lassen.  
 
 Zudem wurden das Buchen einer Vorauszahlungsrechnung, Erstellen einer zweiten Vorauszahlungsrechnung bei einer Änderung des Auftrags und das Buchen der endgültigen Rechnung für den Restbetrag erläutert.  
 
-Die Vorauszahlungsfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] erleichtert das Einrichten und Anwenden von Vorauszahlungsregeln für Debitoren und Artikel und ermöglicht es Ihnen, jede Zahlung für eine Rechnung zu buchen.  
+Die Vorauszahlungsfunktion in [!INCLUDE[prod_short](includes/prod_short.md)] erleichtert das Einrichten und Anwenden von Vorauszahlungsregeln für Debitoren und Artikel und ermöglicht es Ihnen, jede Zahlung für eine Rechnung zu buchen.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)

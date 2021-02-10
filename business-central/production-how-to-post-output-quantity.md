@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: db613df030a739ac8899b3cea19e89f17dcfe53e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 82e28246f1a1c65c7bd702023d9c68c614383cc2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916571"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759142"
 ---
 # <a name="batch-post-output-and-run-times"></a>Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen
 Die fertig gestellte Menge stellt den Arbeitsfortschritt in Form der gefertigten Menge dar.  
@@ -46,4 +46,4 @@ Die Bearbeitungszeit stellt den Arbeitsfortschritt in Form der benötigten Arbei
 [Planung](production-planning.md)      
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

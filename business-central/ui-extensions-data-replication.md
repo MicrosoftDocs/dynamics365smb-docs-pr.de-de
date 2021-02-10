@@ -10,36 +10,36 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
 ms.date: 10/01/2020
-ms.author: jenolson
-ms.openlocfilehash: dde6797139f383948d72c52ca1d05298a280087b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: f2d8d556ca4628a66c10f323f47137cd35732a68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915210"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757292"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligente Cloud-Erweiterungen für die Cloudmigration
 
-Abhängig von Ihrer Lösung vor Ort müssen Sie verschiedene Erweiterungen verwenden, um Ihre Daten mit [!INCLUDE[prodshort](includes/prodshort.md)] online zu verbinden, um Ihre Lösung in die Cloud zu migrieren.  
+Abhängig von Ihrer Lösung vor Ort müssen Sie verschiedene Erweiterungen verwenden, um Ihre Daten mit [!INCLUDE[prod_short](includes/prod_short.md)] online zu verbinden, um Ihre Lösung in die Cloud zu migrieren.  
 
-Wenn Sie eines der unterstützten lokalen Produkte verwenden, können Sie Ihre Cloudumgebung auf Basis einer produktspezifische Erweiterung konfigurieren. Sobald Ihre Cloudumgebung konfiguriert ist, haben Sie die Möglichkeit, Daten von Ihrer lokalen Lösung nach [!INCLUDE[prodshort](includes/prodshort.md)] zu migrieren. Dadurch können Sie die Möglichkeiten, die die Cloud Ihrem Unternehmen zu bieten hat, in vollen Umfang nutzen, z. B. , erhöhte Einblicke in Ihr Unternehmen, künstliche Intelligenz mehrfacher Gerätzugriff und Zugriff überall und jederzeit.  
+Wenn Sie eines der unterstützten lokalen Produkte verwenden, können Sie Ihre Cloudumgebung auf Basis einer produktspezifische Erweiterung konfigurieren. Sobald Ihre Cloudumgebung konfiguriert ist, haben Sie die Möglichkeit, Daten von Ihrer lokalen Lösung nach [!INCLUDE[prod_short](includes/prod_short.md)] zu migrieren. Dadurch können Sie die Möglichkeiten, die die Cloud Ihrem Unternehmen zu bieten hat, in vollen Umfang nutzen, z. B. , erhöhte Einblicke in Ihr Unternehmen, künstliche Intelligenz mehrfacher Gerätzugriff und Zugriff überall und jederzeit.  
 
-Weitere Informationen finden Sie unter [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Verwaltungsinhalt für [!INCLUDE[prodshort](includes/prodshort.md)].  
+Weitere Informationen finden Sie unter [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) im Verwaltungsinhalt für [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="business-central-on-premises"></a>Lokales Business Central
 
-Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prodshort](includes/prodshort.md)] verwenden, rufen Sie die Erweiterung **Intelligente Cloud Basis** und die Erweiterung **Business Central intelligente Cloud** ab, und führen Sie dann den Anleitung für die unterstützte Einrichtung von **Cloudmigrationseinrichtung** durch.  
+Wenn Sie eine lokale Bereitstellung von [!INCLUDE[prod_short](includes/prod_short.md)] verwenden, rufen Sie die Erweiterung **Intelligente Cloud Basis** und die Erweiterung **Business Central intelligente Cloud** ab, und führen Sie dann den Anleitung für die unterstützte Einrichtung von **Cloudmigrationseinrichtung** durch.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
 
-Wenn Sie Dynamics GP verwenden, holen Sie sich die Erweiterung **Intelligente Cloud Basis-Erweiterung** und die Erweiterung **Dynamics GP Intelligente Cloud** , und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
+Wenn Sie Dynamics GP verwenden, holen Sie sich die Erweiterung **Intelligente Cloud Basis-Erweiterung** und die Erweiterung **Dynamics GP Intelligente Cloud**, und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
 
 > [!IMPORTANT]
 > Die Migration von Dynamics GP mit dem unterstützten Einrichtungsleitfaden **Cloudmigrationseinrichtung** wird derzeit nur für die folgenden Märkte unterstützt: USA, Kanada, Vereinigtes Königreich.
 
 ## <a name="dynamics-sl"></a>Dynamics SL
 
-Wenn Sie Dynamics SL verwenden, holen Sie sich die Erweiterung **Intelligente Cloud-Basis** -Erweiterung, die Erweiterung **Microsoft Dynamics SL Intelligente Cloud** und die Erweiterung **Microsoft Dynamics SL-Verlauf-SmartLists** , und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
+Wenn Sie Dynamics SL verwenden, holen Sie sich die Erweiterung **Intelligente Cloud-Basis**-Erweiterung, die Erweiterung **Microsoft Dynamics SL Intelligente Cloud** und die Erweiterung **Microsoft Dynamics SL-Verlauf-SmartLists**, und führen Sie dann die Anleitung für die unterstützte Einrichtung der **Cloudmigrationseinrichtung** aus.  
 
 ## <a name="see-also"></a>Siehe auch
 

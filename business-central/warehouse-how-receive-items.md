@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f78a4e0220ac3c933a6b00300dee4b389c5ea4cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9b58caa880dce813439a2ce4ab2b9da8dccddae5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911946"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756342"
 ---
 # <a name="receive-items"></a>Empfangen von Artikeln
 
@@ -123,7 +123,7 @@ Wenn Sie einen Übereingang bearbeiten, können Sie entweder den Wert im Feld **
 2. Buchen Sie den Beleg wie jeden anderen Beleg.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] beinhaltet nicht die Funktionalität, automatisch die finanzielle Verwaltung von Eingangsüberschuss einzuleiten. Dies müssen Sie in Absprache mit dem Kreditor manuell regeln, z.B. indem der Lieferant eine neue oder aktualisierte Rechnung weiterleitet.
+> [!INCLUDE[prod_short](includes/prod_short.md)] beinhaltet nicht die Funktionalität, automatisch die finanzielle Verwaltung von Eingangsüberschuss einzuleiten. Dies müssen Sie in Absprache mit dem Kreditor manuell regeln, z.B. indem der Lieferant eine neue oder aktualisierte Rechnung weiterleitet.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
@@ -134,4 +134,4 @@ Wenn Sie einen Übereingang bearbeiten, können Sie entweder den Wert im Feld **
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
 [Montageverwaltung](assembly-assemble-items.md)  
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

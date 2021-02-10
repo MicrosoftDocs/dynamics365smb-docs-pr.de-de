@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bbc7314c9f178385fbb882a4615950277b0c0d88
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 931ec0f9a329daa30ef3208d0fa4d695f173e9d5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915434"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759017"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Führen Sie eine vollständige Planung, Prod.-Programmplanung oder Nettobedarf aus
 Die Begriffe "Planungsvorschlag ausführen" und "Nettobedarf ausführen" beziehen sich auf die Berechnung des Produktionsplans und der Materialbedarfe auf Basis des tatsächlichen und des geplanten Bedarfs. Das Planungssystem kann entweder die Prod.-Programmplanung (Master Planning Schedule, MPS) oder den Nettobedarf (Materialbedarfsplanung, Material Requirements Planning, MRP) auf Anforderung oder beides gleichzeitig berechnen.  
@@ -23,7 +23,7 @@ Die Begriffe "Planungsvorschlag ausführen" und "Nettobedarf ausführen" beziehe
 -   Prod.-Programmplanung ist die Berechnung eines Produktionsplans, der auf dem tatsächlichen Bedarf und der Absatzplanung basiert. Die Berechnung der Produktionsprogrammplanung wird für Endartikel mit einer Planung oder einer Verkaufsauftragszeile durchgeführt. Diese Artikel werden als „Prod.-Programmplanungsartikel“ bezeichnet und werden dynamisch gekennzeichnet, wenn die Berechnung gestartet wird.  
 -   Nettobedarf ist die Berechnung der Materialbedarfe auf Basis des tatsächlichen Bedarfs für Komponenten sowie der Absatzplanung auf Komponentenebene. Der Nettobedarf wird nur für Artikel berechnet, die keine Prod.-Programmplanungsartikel sind. Der Hauptzweck einer Nettobedarfsplanung besteht darin, terminierte formale Pläne je nach Artikeln aufzustellen, um den richtigen Artikel zur richtigen Zeit am richtigen Ort in der richtigen Menge bereitzustellen.  
 
-Sowohl für die Prod.-Programmplanung (MPS) als auch für den Nettobedarf (MRP) wird derselbe Planungsalgorithmus verwendet. Der Planungsalgorithmus betrifft den Bestandsabgleich, die Wiederverwendung vorhandener Beschaffungsaufträge sowie die Ereignismeldungen. Der Planungssystemprozess untersucht, welche Mengen momentan oder zukünftig benötigt werden (Bedarf) und welche Mengen verfügbar sind oder erwartet werden (Vorrat). Wenn diese Mengen saldiert werden, gibt [!INCLUDE[d365fin](includes/d365fin_md.md)] Ereignismeldungen. Eine Ereignismeldung ist ein Vorschlag, einen neuen Auftrag zu erstellen, einen Auftrag zu ändern (Menge oder Datum) oder einen Auftrag zu stornieren. Der Begriff "Auftrag" umfasst Fertigungsaufträge, Einkaufsbestellungen, Herstellungsaufträge und Umlagerungsaufträge.
+Sowohl für die Prod.-Programmplanung (MPS) als auch für den Nettobedarf (MRP) wird derselbe Planungsalgorithmus verwendet. Der Planungsalgorithmus betrifft den Bestandsabgleich, die Wiederverwendung vorhandener Beschaffungsaufträge sowie die Ereignismeldungen. Der Planungssystemprozess untersucht, welche Mengen momentan oder zukünftig benötigt werden (Bedarf) und welche Mengen verfügbar sind oder erwartet werden (Vorrat). Wenn diese Mengen saldiert werden, gibt [!INCLUDE[prod_short](includes/prod_short.md)] Ereignismeldungen. Eine Ereignismeldung ist ein Vorschlag, einen neuen Auftrag zu erstellen, einen Auftrag zu ändern (Menge oder Datum) oder einen Auftrag zu stornieren. Der Begriff "Auftrag" umfasst Fertigungsaufträge, Einkaufsbestellungen, Herstellungsaufträge und Umlagerungsaufträge.
 
 Die Links, die durch das Planungsmodul zwischen Bedarf und dem zugehörigen Bedarf erstellt werden, können auf der Seite **Bedarfsverursacher** erzeugt werden. Weitere Informationen finden Sie unter [Titel-Beziehungen zwischen Bedarf und Vorrat nachverfolgen](production-how-track-demand-supply.md).   
 
@@ -32,12 +32,12 @@ Korrekte Planungsergebnisse hängen von der Einrichtung ab, die auf Artikelkarte
 ## <a name="methods-for-generating-a-plan"></a>Methoden zum Generieren eines Plans  
 
 -   **Neuplanung berechnen:** Diese Funktion verarbeitet oder erneuert den gesamten Materialplan. Dieser Vorgang beginnt damit, dass alle momentan geladenen Beschaffungsaufträge gelöscht werden. Alle Artikel in der Datenbank werden neu geplant.  
--   **Änderungsplanung berechnen** : Diese Funktion verarbeitet eine Änderungsplanung. Artikel werden in einer Änderungsplanung von zwei Arten von Änderungen aus gesehen:  
-    - **Bedarfs-/Vorratsänderungen** : Hierzu gehören Änderungen an Mengen für Verkaufsaufträge, Absatzplanungen, Montageaufträge oder Einkaufsbestellungen. Auch eine ungeplante Lagerbestandsänderung wird als Mengenänderung angesehen.  
-    - **Planungsparameteränderungen** : Hierzu gehören Änderungen am Sicherheitsbestand, am Minimalbestand, am Arbeitsplan und an der Stückliste sowie Änderungen am Bestellzyklus oder an der Beschaffungszeit.  
--   **Aktionsmeldungen abrufen** : Diese Funktion fungiert als kurzfristiges Planungstool, indem sie Ereignismeldungen ausgibt, die den Benutzer über sämtliche Änderungen informieren, die seit der letzten Berechnung der Neuplanung oder der Änderungsplanung vorgenommen wurden.  
+-   **Änderungsplanung berechnen**: Diese Funktion verarbeitet eine Änderungsplanung. Artikel werden in einer Änderungsplanung von zwei Arten von Änderungen aus gesehen:  
+    - **Bedarfs-/Vorratsänderungen**: Hierzu gehören Änderungen an Mengen für Verkaufsaufträge, Absatzplanungen, Montageaufträge oder Einkaufsbestellungen. Auch eine ungeplante Lagerbestandsänderung wird als Mengenänderung angesehen.  
+    - **Planungsparameteränderungen**: Hierzu gehören Änderungen am Sicherheitsbestand, am Minimalbestand, am Arbeitsplan und an der Stückliste sowie Änderungen am Bestellzyklus oder an der Beschaffungszeit.  
+-   **Aktionsmeldungen abrufen**: Diese Funktion fungiert als kurzfristiges Planungstool, indem sie Ereignismeldungen ausgibt, die den Benutzer über sämtliche Änderungen informieren, die seit der letzten Berechnung der Neuplanung oder der Änderungsplanung vorgenommen wurden.  
 
-Bei jeder Planungsmethode generiert [!INCLUDE[d365fin](includes/d365fin_md.md)] Vorschlagsposten, wobei unbegrenzte Kapazität angenommen wird. Die Arbeitsplatz- und Arbeitsplatzgruppenkapazitäten werden nicht berücksichtigt, wenn Sie Schemata entwickeln.  
+Bei jeder Planungsmethode generiert [!INCLUDE[prod_short](includes/prod_short.md)] Vorschlagsposten, wobei unbegrenzte Kapazität angenommen wird. Die Arbeitsplatz- und Arbeitsplatzgruppenkapazitäten werden nicht berücksichtigt, wenn Sie Schemata entwickeln.  
 
 > [!IMPORTANT]  
 >  Die Funktion Neuplanung errechnen ist der Prozess, der am häufigsten verwendet wird. Die Funktionen zum Berechnen und Ausführen von Ereignismeldungen können dagegen dazu verwendet werden, die Funktion "Änderungsplanungsvorgang berechnen" auszuführen.  
@@ -64,7 +64,7 @@ Bei jeder Planungsmethode generiert [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 5.  Wählen Sie die Schaltfläche **OK** aus. Die Stapelverarbeitung wird ausgeführt, und anschließend werden die Planungszeilen in den Planungsvorschlag geschrieben.  
 
 ## <a name="to-perform-action-messages"></a>Ereignismeldungen ausführen  
-1.  Auf der Seite **Planungsvorschlag** wählen Sie **Aktionsnachricht ausführen** .  
+1.  Auf der Seite **Planungsvorschlag** wählen Sie **Aktionsnachricht ausführen**.  
 2.  Geben Sie im Inforegister **Optionen** an, wie die Lieferungen erstellt werden sollen. Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  
@@ -97,11 +97,11 @@ Als Reaktion auf gestörte Gleichgewichte von Vorrat und Bedarf werden die folge
 
 |Ereignismeldung|Beschreibung|  
 |--------------------|---------------------------------------|  
-|**Neu**|Wenn sich ein Bedarf nicht dadurch erfüllen lässt, dass Ereignismeldungen für **Menge ändern** , **Neu berechnen** , oder **Neu berechnen Menge ändern** vorgeschlagen werden, wird eine Ereignismeldung der Art **Neu** generiert, die eine neue Bestellung vorschlägt. Eine Ereignismeldung der Art **Neu** wird auch ausgegeben, wenn es für den fraglichen Artikel keine Beschaffungsaufträge im Bestellzyklus gibt. Dieser Parameter bestimmt die Anzahl der Perioden vorwärts und rückwärts im Verfügbarkeitsprofil, wenn nach einer Bestellung gesucht wird, die neu geplant werden muss.|  
-|**Menge ändern**|Wenn es für einen Bedarf, der mit einem Beschaffungsauftrag verknüpft ist, eine Mengenänderung gibt, wird eine Ereignismeldung der Art **Menge ändern** generiert, die darauf hinweist, dass der zugehörige Vorrat entsprechend der Änderung des Bedarfs angepasst werden sollte. Wenn ein neuer Bedarf vorliegt, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] nach dem nächsten vorhandenen und nicht reservierten Beschaffungsauftrag im Bestellzyklus suchen und für diesen Auftrag eine Ereignismeldung der Art "Vorgang ändern" ausgegeben.|  
+|**Neu**|Wenn sich ein Bedarf nicht dadurch erfüllen lässt, dass Ereignismeldungen für **Menge ändern**, **Neu berechnen**, oder **Neu berechnen Menge ändern** vorgeschlagen werden, wird eine Ereignismeldung der Art **Neu** generiert, die eine neue Bestellung vorschlägt. Eine Ereignismeldung der Art **Neu** wird auch ausgegeben, wenn es für den fraglichen Artikel keine Beschaffungsaufträge im Bestellzyklus gibt. Dieser Parameter bestimmt die Anzahl der Perioden vorwärts und rückwärts im Verfügbarkeitsprofil, wenn nach einer Bestellung gesucht wird, die neu geplant werden muss.|  
+|**Menge ändern**|Wenn es für einen Bedarf, der mit einem Beschaffungsauftrag verknüpft ist, eine Mengenänderung gibt, wird eine Ereignismeldung der Art **Menge ändern** generiert, die darauf hinweist, dass der zugehörige Vorrat entsprechend der Änderung des Bedarfs angepasst werden sollte. Wenn ein neuer Bedarf vorliegt, wird [!INCLUDE[prod_short](includes/prod_short.md)] nach dem nächsten vorhandenen und nicht reservierten Beschaffungsauftrag im Bestellzyklus suchen und für diesen Auftrag eine Ereignismeldung der Art "Vorgang ändern" ausgegeben.|  
 |**Neu berechnen**|Wenn es für einen Beschaffungs- oder Bedarfsauftrag eine Datumsänderung gegeben hat, die ein Ungleichgewicht im Auftragsnetzwerk verursacht, wird eine Ereignismeldung der Art **Neu berechnen** ausgegeben. Gibt es eine Eins-zu-Eins-Beziehung zwischen dem Bedarf und dem Vorrat, wird eine Ereignismeldung ausgegeben, in der vorgeschlagen wird, den Beschaffungsauftrag entsprechend zu verschieben. Bezieht sich der Beschaffungsauftrag auf Bedarfe aus mehreren Verkaufsaufträgen, erfolgt die Neuberechnung des Beschaffungsauftrags bezogen auf das Datum des ersten Bedarfs.|  
-|**Neu berechnen & Menge ändern**|Wenn sowohl die Datumsangaben als auch die Mengen einer Bestellung geändert wurden, müssen Sie den jeweilige Plan hinsichtlich beider Aspekte ändern. Bei der Generierung der Ereignismeldung werden beide Ereignisse in einer Meldung zusammengefasst **Neu berechnen Menge ändern** , damit sichergestellt ist, dass der Auftragsnetzwerk wieder ins Gleichgewicht gebracht wird.|  
-|**Stornieren**|Wenn ein Bedarf, der auf einer Eins-zu-Eins-Basis gedeckt wird, gelöscht wurde, wird eine Ereignismeldung ausgegeben, die den zugehörigen Beschaffungsauftrag storniert. Ist die Beziehung nicht gleich "Eins-zu-Eins", wird eine Ereignismeldung der Art "Auftrag ändern" generiert, um den Vorrat zu verringern. Wenn zu dem Zeitpunkt, zu dem die Ereignismeldungen durch den Benutzer generiert werden, wegen anderer Faktoren kein Beschaffungsauftrag erforderlich ist, schlägt [!INCLUDE[d365fin](includes/d365fin_md.md)] in einer Ereignismeldung **Stornieren** im Arbeitsblatt vor.|  
+|**Neu berechnen & Menge ändern**|Wenn sowohl die Datumsangaben als auch die Mengen einer Bestellung geändert wurden, müssen Sie den jeweilige Plan hinsichtlich beider Aspekte ändern. Bei der Generierung der Ereignismeldung werden beide Ereignisse in einer Meldung zusammengefasst **Neu berechnen Menge ändern**, damit sichergestellt ist, dass der Auftragsnetzwerk wieder ins Gleichgewicht gebracht wird.|  
+|**Stornieren**|Wenn ein Bedarf, der auf einer Eins-zu-Eins-Basis gedeckt wird, gelöscht wurde, wird eine Ereignismeldung ausgegeben, die den zugehörigen Beschaffungsauftrag storniert. Ist die Beziehung nicht gleich "Eins-zu-Eins", wird eine Ereignismeldung der Art "Auftrag ändern" generiert, um den Vorrat zu verringern. Wenn zu dem Zeitpunkt, zu dem die Ereignismeldungen durch den Benutzer generiert werden, wegen anderer Faktoren kein Beschaffungsauftrag erforderlich ist, schlägt [!INCLUDE[prod_short](includes/prod_short.md)] in einer Ereignismeldung **Stornieren** im Arbeitsblatt vor.|  
 
 ## <a name="see-also"></a>Siehe auch  
 [Planung](production-planning.md)  
@@ -111,4 +111,4 @@ Als Reaktion auf gestörte Gleichgewichte von Vorrat und Bedarf werden die folge
 [Einkauf](purchasing-manage-purchasing.md)  
 [Designdetails: Beschaffungsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

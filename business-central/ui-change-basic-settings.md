@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f98cd6423b67fd9bbcc6081d06eca4cb21e81c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df3807f3d5d2baa7f50df4091a0d1f2622d09ff8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912671"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757642"
 ---
 # <a name="change-basic-settings"></a>Ändern von grundlegenden Einstellungen
 
-Au der Seite **Meine Einstellungen** können Sie grundlegende Einstellungen für [!INCLUDE[d365fin](includes/d365fin_md.md)] ansehen und ändern. Änderungen, die Sie durchführen, betreffen nur den Arbeitsbereich, nicht die Arbeitsbereiche anderer Benutzer.  
+Au der Seite **Meine Einstellungen** können Sie grundlegende Einstellungen für [!INCLUDE[prod_short](includes/prod_short.md)] ansehen und ändern. Änderungen, die Sie durchführen, betreffen nur den Arbeitsbereich, nicht die Arbeitsbereiche anderer Benutzer.  
 
 ## <a name="role-center"></a><a name="role-center"></a> Rollencenter
 Das Rollencenter erstellt die Homepage, eine Startseite, die für die Anforderungen der Rolle entworfen wurde. Abhängig von der Rolle gibt das Rollencenter Ihnen einen Überblick über das Unternehmen, Ihre Abteilung oder Ihre persönlichen Aufgaben. Es hilft Ihnen auch, zu Ihren Tagewerken zu navigieren und Arbeit zu finden, die Ihnen zugeordnet wird.
@@ -35,7 +35,7 @@ Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können eine an
 3. Wählen Sie die Schaltfläche **OK** aus.
 
 ## <a name="company"></a><a name="company"></a>Unternehmen
-Ein Unternehmen dient als Container für Daten im Project [!INCLUDE[d365fin](includes/d365fin_md.md)] Es kann mehrere Unternehmen in einer Datenbank geben, aber nur eine kann gleichzeitig ausgewählt werden.
+Ein Unternehmen dient als Container für Daten im Project [!INCLUDE[prod_short](includes/prod_short.md)] Es kann mehrere Unternehmen in einer Datenbank geben, aber nur eine kann gleichzeitig ausgewählt werden.
 
 Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält. Sie können eine neue Firma mit benutzerdefinierten Daten erstellen. Weitere Informationen finden Sie unter [Neue Mandanten erstellen](about-new-company.md).
 
@@ -80,9 +80,9 @@ Die Einstellung **Region** bestimmt, wie Daten, Uhrzeiten, Ziffern und Währunge
 ## <a name="language"></a><a name="language"></a> Sprache
 Ändert die Anzeigensprache. Dieses Feld erscheint nur, wenn es mehr als einer Sprache, gibt zum Auswählen.
 
-Die ursprüngliche Sprache wird entweder vom Administrator oder durch die Browsereinstellungen bestimmt, wenn Sie sich anmelden bei [!INCLUDE[d365fin](includes/d365fin_md.md)]. Die Sprache, die Sie festlegen, wird in allen Geräten verwendet werden, bei denen Sie sich anmelden wie Telefon oder Tablet.
+Die ursprüngliche Sprache wird entweder vom Administrator oder durch die Browsereinstellungen bestimmt, wenn Sie sich anmelden bei [!INCLUDE[prod_short](includes/prod_short.md)]. Die Sprache, die Sie festlegen, wird in allen Geräten verwendet werden, bei denen Sie sich anmelden wie Telefon oder Tablet.
 
-Zusätzliche Sprachen für [!INCLUDE[prodshort](includes/prodshort.md)] können von AppSource aus installiert werden. Während alle unterstützten Anzeigesprachen in der Liste angezeigt werden, muss der Administrator die entsprechende Sprachapplikation für den Mandanten installieren, bevor die Benutzer auf die neue Sprache in [!INCLUDE[prodshort](includes/prodshort.md)] wechseln können.  
+Zusätzliche Sprachen für [!INCLUDE[prod_short](includes/prod_short.md)] können von AppSource aus installiert werden. Während alle unterstützten Anzeigesprachen in der Liste angezeigt werden, muss der Administrator die entsprechende Sprachapplikation für den Mandanten installieren, bevor die Benutzer auf die neue Sprache in [!INCLUDE[prod_short](includes/prod_short.md)] wechseln können.  
 
 ## <a name="changing-when-i-receive-notifications"></a>Ändern, wann I Benachrichtigungen erhalten.
 Wählen Sie diesen Link, um Benachrichtigungen zu ändern oder anzuzeigen, die Sie zu bestimmten Ereignissen oder Veränderungen im Status erhalten, wie wenn Sie einen Debitoren fakturieren wollen, der einen überfälligen Saldo hat oder der verfügbare Lagerbestand geringer ist als die Menge, die Sie verkaufen wollen. Weitere Informationen finden Sie unter [Benachrichtigungen verwalten](ui-smart-notifications.md).
@@ -91,5 +91,5 @@ Wählen Sie diesen Link, um Benachrichtigungen zu ändern oder anzuzeigen, die S
 
 ## <a name="see-also"></a>Siehe auch
 [Neue Unternehmen anlegen](about-new-company.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  

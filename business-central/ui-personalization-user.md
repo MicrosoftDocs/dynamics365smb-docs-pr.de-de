@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b29f96f37448c2ca6eb02330946171adb5f04b9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4b112bf05c1bbc6110ce3b5a439c81a96759d1bf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925572"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756767"
 ---
 # <a name="personalize-your-workspace"></a>Ihren Arbeitsbereich personalisieren
 Sie können Ihren Arbeitsbereich für Ihre Arbeit personalisieren oder anpassen und Präferenzen definieren, indem Sie die Seiten ändern, so dass Sie nur die Informationen angezeigt erhalten, die Sie auch benötigen. Die Personalisierungsänderungen, die Sie durchführen, beeinflussen nur, was Sie sehen, und nicht, was die Benutzer sehen.
@@ -42,7 +42,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>So beginnen Sie mit der Personalisierung einer Seite über das Banner **Personalisieren**
 1. Öffnen Sie eine beliebige Seite, die Sie personalisieren möchten.
-2. In der rechten oberer Ecke wählen Sie das Symbol ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") aus und wählen dann die Aktion **Personalisieren** .
+2. In der rechten oberer Ecke wählen Sie das Symbol ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") aus und wählen dann die Aktion **Personalisieren**.
 
     Das **Personalisieren** Banner erscheint oben und zeigt an, dass Sie mit den Änderungen beginnen können.
 
@@ -54,8 +54,8 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 3. Um ein Feld hinzuzufügen, wählen Sie die **+ Feld** Aktion.
 4. Von dem Bereich **Feld zu Seite hinzufügen** ziehen Sie ein Feld per Drag & Drop an die gewünschte Position auf der Seite.
 5. Zeigen Sie zum Ändern eines Oberflächenelements auf das Element, z. B. eine Aktion, ein Feld oder einen Teil. Das Element wird sofort mit einer Pfeilspitze oder einem Rand hervorgehoben.
-6. Wählen Sie das Element aus und wählen Sie dann eine der beiden Optionen **Bewegung** , **Entfernen** , **Verbergen, verstecken** , **Anzeigen** , **Anzeigen unter mehr anzeigen** , **Anzeigen, wenn alle verborgen** , **Immer anzeigen** , **Einfrierfenster einstellen/löschen** , oder **Schnelleingabe einschließen/ausschließen** , abhängig vom T und Status des Oberflächenelements. Weitere Informationen finden Sie unter [Was Sie personalisieren können](#What).
-7. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Personalisierung** .
+6. Wählen Sie das Element aus und wählen Sie dann eine der beiden Optionen **Bewegung**, **Entfernen**, **Verbergen, verstecken**, **Anzeigen**, **Anzeigen unter mehr anzeigen**, **Anzeigen, wenn alle verborgen**, **Immer anzeigen**, **Einfrierfenster einstellen/löschen**, oder **Schnelleingabe einschließen/ausschließen**, abhängig vom T und Status des Oberflächenelements. Weitere Informationen finden Sie unter [Was Sie personalisieren können](#What).
+7. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Personalisierung**.
 
 ## <a name="what-you-can-personalize"></a><a name="What"></a>Was Sie personalisieren können
 
@@ -69,7 +69,7 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 |Lassen Sie ein Feld anzeigen, wenn Sie **Mehr anzeigen** auswählen.|Wählen Sie die Pfeilspitze aus und wählen Sie dann <b>Unter „Mehr anzeigen“ anzeigen</b> aus. <br /> <br />Wenn Sie die Option <b>Unter „Mehr anzeigen“ anzeigen</b> nicht sehen, ist sie bereits festgelegt. Wenn Sie in diesem Fall ein Feld immer anzeigen lassen möchten, und nicht nur, wenn Sie **Mehr anzeigen** auswählen, wählen Sie <b>Immer anzeigen</b> aus.||
 |Ändern Sie die Fixierung von Spalten in der Liste. |Wählen Sie nun die Spalte der Pfeilspitze, die Sie als letzte Spalte der Fixierung möchten, und wählen Sie dann <b>Fixierung einstellen</b> aus.<br /><br/>Wenn Sie die Fixierung wieder am ursprünglichen Ort wünschen, wählen Sie die Pfeilspitze für die aktuelle Fixierung und wählen Sie dann <b>Fixierung löschen</b> aus. Hinweis: Sie können die ursprüngliche Fixierung nicht entfernen.|Der Fixierungsbereich gibt die Spalten an, die immer links erscheinen, auch wenn Sie horizontal blättern.|  
 |Überspringen Sie ein Feld, wenn die EINGABETASTE gedrückt wird.|Wählen Sie die Pfeilspitze neben dem Feld oder der Spaltenüberschrift in der Liste aus, und wählen Sie dann **Von der Schnelleingabe ausschließen** aus. <br /><br /> Wenn Sie diese Option nicht sehen, ist das Überspringen für das Feld bereits festgelegt. Wenn Sie in diesem Fall Überspringen des Felds beenden möchten, wählen Sie **In Schnelleingabe einbeziehen** aus. |Siehe [Beschleunigen der Dateneingabe mithilfe der Schnelleingabe](ui-enter-data.md#QuickEntry)|
-|Ordnen und entfernen Sie Ansichten, die gefilterte Listen darstellen.|Klicken Sie auf die Pfeilspitze neben einer Ansicht und wählen Sie dann **Verschieben** , **Entfernen** , oder **Verbergen** .|Weitere Informationen unter [Speichern und personalisieren Sie Listenansichten](ui-views.md)|  
+|Ordnen und entfernen Sie Ansichten, die gefilterte Listen darstellen.|Klicken Sie auf die Pfeilspitze neben einer Ansicht und wählen Sie dann **Verschieben**, **Entfernen**, oder **Verbergen**.|Weitere Informationen unter [Speichern und personalisieren Sie Listenansichten](ui-views.md)|  
 |Fügen Sie einer Seite oder einem Bericht in Ihrem Role Center eine neue Aktion hinzu.|Wählen Sie das Lesezeichensymbol auf der Zielseite, auf der Berichtsanforderungsseite oder im Fenster „Wie möchten Sie weiter verfahren“ aus.|Weitere Informationen finden Sie unter [Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter](ui-bookmarks.md)|
 |Listen immer erweitert oder reduziert anzeigen|Wählen Sie die Schaltfläche „Alle erweitern“ oder „Alle reduzieren“ oben rechts in der Liste, oder wählen Sie die Aktion „Alle erweitern“ oder „Alle reduzieren“ im Menü der ersten Spalte aus. |Gilt für reduzierbare Hierarchielisten|
 
@@ -77,14 +77,14 @@ Wie bei anderen Personalisierungen werden die Änderungen, die Sie an der Spalte
 
 Mit der Personalisierung können Sie entscheiden, welche Aktionen auf den Navigations- und Aktionsleisten und in den Rollenzentren angezeigt werden sollen und wo sie angezeigt werden sollen. Sie können einzelne Aktionen oder Aktionsgruppen ausblenden, anzeigen oder verschieben. Die Personalisierung der Navigations- und Aktionsleisten erfolgt im Wesentlichen auf die gleiche Weise wie bei anderen UI-Elementen. Allerdings hängen die Möglichkeiten einer Aktion oder Gruppe von der Position der Aktion oder der Gruppe auf der Aktionsleiste ab. Die beste Methode dies herauszufinden ist, es einfach auszuprobieren und sich von den Pfeilen führen zu lassen.
 
-Es gibt einige Bedingungen, mit denen Sie vertraut sein sollten, um die Aktionsanpassung besser zu verstehen: *Aktionsgruppe* und *Heraufgestufte Kategorie* .  
+Es gibt einige Bedingungen, mit denen Sie vertraut sein sollten, um die Aktionsanpassung besser zu verstehen: *Aktionsgruppe* und *Heraufgestufte Kategorie*.  
 
 Eine *Aktionsgruppe* ist ein Element, das sich erweitert, um weitere Aktionen oder Gruppen anzuzeigen. Zum Beispiel auf der **Kundenaufträge** Seite, die **Funktionen** Aktion, die bei Auswahl der Aktionen **Aktionen** angezeigt wird, ist eine Aktionsgruppe.
 
-Eine *Heraufgestufte Kategorie* ist eine Aktionsgruppe, die vor der senkrechten Linie `|` auf der Befehlsleiste erscheint. Die Kategorien enthalten normalerweise die am häufigsten verwendeten Aktionen, sodass Sie sie schnell finden können. Zum Beispiel auf der **Kundenaufträge** Seite sind die Aktionen **Bestellung** , **Freisetzung** und **Buchungen** heraufgestufte Kategorien.
+Eine *Heraufgestufte Kategorie* ist eine Aktionsgruppe, die vor der senkrechten Linie `|` auf der Befehlsleiste erscheint. Die Kategorien enthalten normalerweise die am häufigsten verwendeten Aktionen, sodass Sie sie schnell finden können. Zum Beispiel auf der **Kundenaufträge** Seite sind die Aktionen **Bestellung**, **Freisetzung** und **Buchungen** heraufgestufte Kategorien.
 
 > [!NOTE]
-> Sie können die Aktionsleiste, die in Teilen auf der Seite angezeigt wird, nicht personalisieren (z. B. den Teil der Verkaufszeilen auf der Seite **Verkaufsauftrag** ).
+> Sie können die Aktionsleiste, die in Teilen auf der Seite angezeigt wird, nicht personalisieren (z. B. den Teil der Verkaufszeilen auf der Seite **Verkaufsauftrag**).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>So werden Aktionen und Aktionsgruppen entfernt, ausgeblendet und angezeigt
 Wenn Sie eine Aktion ein- oder ausblenden möchten, definieren die Optionen unter der Pfeilspitze, was je nach Status der Aktion geschehen kann.
@@ -143,6 +143,6 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 
 ## <a name="see-also"></a>Siehe auch
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Ändern, welche Merkmale angezeigt werden](ui-experiences.md)  
