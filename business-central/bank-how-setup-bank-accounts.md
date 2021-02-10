@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf310ff190682b22ffe81d0ad3072b3bdc8803b7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1684f12858a33234f51d7847b50ea15aa1d7b230
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921072"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755292"
 ---
 # <a name="set-up-bank-accounts"></a>Bankkonten einrichten
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] verwenden Sie Bankkonten, um Ihre Banktransaktionen nachzuvollziehen. Konten können in Mandantenwährung oder in Fremdwährung geführt werden. Nachdem Sie Bankkonten eingerichtet haben, können Sie auch Schecks drucken.<br><br>  
+In [!INCLUDE[prod_short](includes/prod_short.md)] verwenden Sie Bankkonten, um Ihre Banktransaktionen nachzuvollziehen. Konten können in Mandantenwährung oder in Fremdwährung geführt werden. Nachdem Sie Bankkonten eingerichtet haben, können Sie auch Schecks drucken.<br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
 
@@ -55,4 +55,4 @@ Felder auf dem Inforegister **Transfer** auf der Seite **Bankkontenkarte** bezie
 [Einrichten von Banken](bank-setup-banking.md)  
 [Buchungsgruppen einrichten](finance-posting-groups.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

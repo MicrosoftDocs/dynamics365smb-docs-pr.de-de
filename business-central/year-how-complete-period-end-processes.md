@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6526760c78cb11d8454b7f5390c6fefe713647d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 104f63e07e4bfd8945f73581a4fb7810f946304f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918238"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755567"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Überblick zu Aufgaben, Buchhaltungsperioden zu schließen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] zwingt Sie nicht, Perioden zu schließen, aber es gibt viele Aktivitäten am Periodenende (Monatsende), die Sie ausführen können. Dieses Thema zeigt eine Übersicht von optionalen Vorgängen und Aktivitäten für Perioden, die bereitstehen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] zwingt Sie nicht, Perioden zu schließen, aber es gibt viele Aktivitäten am Periodenende (Monatsende), die Sie ausführen können. Dieses Thema zeigt eine Übersicht von optionalen Vorgängen und Aktivitäten für Perioden, die bereitstehen.  
 
 ## <a name="general-ledger"></a>Sachposten
 * Geben Sie systemweite und benutzerspezifische Buchungsperioden an.  
@@ -30,7 +30,7 @@ ms.locfileid: "3918238"
 * Aktualisieren und buchen Sie wiederkehrende Buch.-Blätter.  
   <!--* Process Consolidations-->
 * Führen Sie Kontenschemata wie folgt aus:  
-  * Öffnen Sie die Seite **Kontenschema** und klicken Sie auf **Drucken** .  
+  * Öffnen Sie die Seite **Kontenschema** und klicken Sie auf **Drucken**.  
 
 ## <a name="sales-and-receivables"></a>Debitoren und Verkauf
 * Alle Aufträge, Rechnungen, Gutschriften und Reklamationen werden gebucht.  
@@ -62,4 +62,4 @@ Intercompany
 ## <a name="see-also"></a>Siehe auch
 [Beenden von Jahresabschluss und Perioden](year-close-years-periods.md)  
 [Schließen der Bücher](year-close-books.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

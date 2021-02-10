@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 056cb7d0aec55ae939c09adb47477343908c2e6c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 169e1947cb3e2ca962dc0937c5901c8c92ca936a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924978"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754642"
 ---
 # <a name="track-document-lines"></a>Nachverfolgen von Belegzeilen
 Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsauftrags- und Bestellzeilen für Aufträge und archivierte Aufträge beziehen. Zugehörige Belege, die Sie nachverfolgen können, enthalten Angebote, Lieferungen, Wareneingänge und Rahmenaufträge. Dadurch werden Belege zur Verarbeitung von Aufträgen identifiziert.  
@@ -27,11 +27,11 @@ Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftragszeile nachverfolgen.
 2.  Öffnen Sie einen Verkaufsauftrag, den Sie nachverfolgen möchten.  
 3.  Wählen Sie eine Zeile und wäglen Sie dann die Aktion **Belegzeile nachverfolgen** aus.
 4. Auf der Seite **Belegzeilenverfolgung** wählen Sie den Beleg, den Sie anzeigen möchten, und dann, auf der Registerkarte Start, in der Gruppe Verarbeiten wählen Sie **Anzeigen** aus, um die zugehörige Zeile anzuzeigen.
-5. Zum Anzeigen des gesamten Belegs für die ausgewählte Belegzeile klicken Sie auf **Beleg anzeigen** .
+5. Zum Anzeigen des gesamten Belegs für die ausgewählte Belegzeile klicken Sie auf **Beleg anzeigen**.
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

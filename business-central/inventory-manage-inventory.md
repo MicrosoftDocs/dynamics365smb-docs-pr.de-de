@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d1eb5a29a1e83b3dad454426327f03786b8f644
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3fa97eb12cc7343c1cfb659736ed6ad6b43d0633
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921767"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755467"
 ---
 # <a name="inventory"></a>Lagerbestand
 Für jedes physische Produkt, mit dem Sie handeln, müssen Sie eine Artikelkarte vom Typ **Lagerbestand** erstellen. Artikel, die Sie Debitoren anbieten, aber nicht im Lager führen, können als Katalogartikel erfassen werden und Sie können Sie bei Bedarf in Lagerartikel konvertieren. Sie können die Menge eines Artikels im Lager erhöhen oder vermindern, indem Sie direkt in den Artikelposten buchen, beispielsweise nach einer physischen Zählung oder falls keine erworbenen Mengen erfasst wurden.
@@ -33,9 +33,13 @@ Die Planung von Artikeln zur Deckung des Bedarfs wird im Rahmen der Angebotsplan
 ## <a name="inventory-reconciliation"></a>Abstimmung des Lagerbestands
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte in der Hauptbuchhaltung im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht. Weitere Informationen finden Sie unter [Lagerregulierung mit Finanzbuchhaltung abstimmen](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist es immer noch notwendig sicherzustellen, dass die Kosten für Waren zur zugehörigen ausgehenden Transaktion weitergeleitet werden, insbesondere in Situationen, in denen Sie Waren verkaufen, bevor Sie den Kauf dieser Waren in Rechnung stellen. Dies wird als Kostenanpassung bezeichnet. Artikelkosten werden automatisch angepasst, wenn Sie Artikeltransaktionen buchen, Sie können jedoch auch Artikelpreise manuell anpassen. Weitere Informationen finden Sie unter [Artikelkosten anpassen](inventory-how-adjust-item-costs.md).
+Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist es immer noch notwendig sicherzustellen, dass die Kosten für Waren zur zugehörigen ausgehenden Transaktion weitergeleitet werden, insbesondere in Situationen, in denen Sie Waren verkaufen, bevor Sie den Kauf dieser Waren in Rechnung stellen. Dies wird als Kostenanpassung bezeichnet. Artikelkosten werden automatisch angepasst, wenn Sie Artikeltransaktionen buchen, Sie können jedoch auch Artikelpreise manuell anpassen. Weitere Informationen finden Sie unter [Artikelkosten anpassen](inventory-how-adjust-item-costs.md).  
 
-|An |Siehe |
+## <a name="related-tasks"></a>Verwandte Tasks
+
+In der folgenden Tabelle sind verwandte Aufgaben aufgeführt.
+
+|Aktion |Siehe |
 |---|----|
 |Erstellen Sie Artikelkarten für Lagerartikel, mit denen Sie handeln.|[Neue Artikel registrieren](inventory-how-register-new-items.md)|
 |Strukturieren Sie übergeordnete Artikel, die Sie als Sets verkaufen, die aus den Komponenten des übergeordneten Artikels bestehen oder für die Sie die Auftragsmontage oder das Lager haben.|[Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)|
@@ -53,14 +57,14 @@ Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist
 |Suchen Sie, wo eine Serien- oder Chargennummer in der gesamten Lieferkette verwendet wurde, z. B. in Rückrufsituationen.|[Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)|
 |Artikel sperren, damit Sie nicht auf Verkaufs- oder Einkaufszeilen eingetragen oder in einer Transaktion gebucht werden können.|[Artikel sperren](inventory-how-block-items.md)|
 |Verwalten von Geschäften in den Verkaufsbüros, in den Einkaufsabteilungen oder in den Fabrikplanungsbüros von mehreren Standorten.|[Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)|
+|Verwenden Sie Ressourcen mit spezifischen Fähigkeiten für verschiedene Services und Serviceelemente.|[Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)|
 
+## <a name="see-also"></a>Siehe auch
 
-
-## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Verkauf](sales-manage-sales.md)    
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
+[Verkauf](sales-manage-sales.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

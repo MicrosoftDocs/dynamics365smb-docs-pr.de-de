@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: e49f067eb0410e3d2f6f84241ae83be041bce918
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6acdc86afc195185f66836bf723c83d4a1647927
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925372"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755667"
 ---
 # <a name="close-accounting-periods"></a>Schließen von Buchhaltungsperioden
 Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, geschlossen werden.
@@ -41,4 +41,4 @@ Nachdem ein Geschäftsjahr abgeschlossen wurde, müssen Sie die GuV-Kontennullst
 [Schließen der Bücher](year-close-books.md)  
 [Jahresabschlussbuchung buchen](year-how-post-year-end-close-entry.md)  
 [Arbeiten mit Buchhaltungsperioden und Geschäftsjahren](finance-accounting-periods-and-fiscal-years.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

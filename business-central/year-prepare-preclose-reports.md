@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b270a7b1f9ffda71d68fa981885aacbe31f55eab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7f9421ec564c9117da41674bb22fb3fc58c6a2a4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923120"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755517"
 ---
 # <a name="using-pre-closing-reports"></a>Vorabschlussberichte verwenden
 Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden. So können Sie sich beispielsweise mithilfe des Berichts **Debitor - Saldenliste** vergewissern, dass an einem bestimmten Datum der Saldo einer Debitorenbuchungsgruppe dem Saldo des zugehörigen Sachkontos entspricht.
@@ -39,5 +39,5 @@ Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Leuchtbirne, das das Symbo
 
 ## <a name="see-also"></a>Siehe auch
 [Abschlussjahre und -perioden](year-close-years-periods.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

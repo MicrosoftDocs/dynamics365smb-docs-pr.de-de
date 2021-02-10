@@ -7,18 +7,18 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/08/2020
 ms.author: edupont
-ms.openlocfilehash: 658816cfb65580404bc8ef10472a5b62c6815c9e
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 2220b5227cfe0e99a53071829096a67b6aeb0521
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989488"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754917"
 ---
 # <a name="publish-a-web-service"></a>Webdienst veröffentlichen
 
-Webdienste sind eine einfache Art, Anwendungsfunktionen für verschiedene externe Systeme und Benutzer zugänglich zu machen. Standardmäßig stellt [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Reihe von Objekten als Webdienste bereit, um eine bessere Integration in andere Microsoft-Dienste zu ermöglichen. Sie können bei Bedarf weitere Webdienste hinzufügen.  
+Webdienste sind eine einfache Art, Anwendungsfunktionen für verschiedene externe Systeme und Benutzer zugänglich zu machen. Standardmäßig stellt [!INCLUDE[prod_short](includes/prod_short.md)] eine Reihe von Objekten als Webdienste bereit, um eine bessere Integration in andere Microsoft-Dienste zu ermöglichen. Sie können bei Bedarf weitere Webdienste hinzufügen.  
 
-Richten Sie einen Webdienst in [!INCLUDE[d365fin](includes/d365fin_md.md)] ein, und veröffentlichen Sie den Webdienst anschließend, damit er authentifizierten Benutzern zur Verfügung steht. Alle autorisierten Benutzer können auf Metadaten für Webdienste zugreifen, aber nur Benutzer mit ausreichenden -Berechtigungen können auf tatsächliche Daten zugreifen.  
+Richten Sie einen Webdienst in [!INCLUDE[prod_short](includes/prod_short.md)] ein, und veröffentlichen Sie den Webdienst anschließend, damit er authentifizierten Benutzern zur Verfügung steht. Alle autorisierten Benutzer können auf Metadaten für Webdienste zugreifen, aber nur Benutzer mit ausreichenden -Berechtigungen können auf tatsächliche Daten zugreifen.  
 
 ## <a name="creating-and-publishing-a-web-service"></a>Erstellen und Veröffentlichen eines Webdienstes
 
@@ -33,14 +33,14 @@ Die folgenden Schritte erläutern, wie ein Webdienst erstellt und veröffentlich
     > **Codeunit** und **Seite** sind gültige Arten für SOAP-Webdienste. **Seite** und **Abfrage** sind gültige Arten für OData-Webdienste. Ab Version 16.3 ist **Codeunit** ebenfalls ein gültiger Typ für OData v4-Webdienste, es wird jedoch keine URL in der Benutzeroberfläche angezeigt. Wenn die Datenbank mehrere Unternehmen enthält, können Sie eine Objekt-ID auswählen, die für eines der Unternehmen eindeutig ist.  
     > Der Dienstname ist für Nutzer Ihres Webdiensts sichtbar und wird zum Identifizieren und Unterscheiden von Webdiensten verwendet, Sie sollten daher einen aussagefähigen Namen wählen.
 
-3. Aktivieren Sie das Kontrollkästchen in der Spalte **Veröffentlicht** .  
+3. Aktivieren Sie das Kontrollkästchen in der Spalte **Veröffentlicht**.  
 
 Wenn Sie den Webdienst veröffentlichen, werden die neuen URLs in den Feldern **OData-URL** und **SOAP-URL** angezeigt. Bei Codeunits, die als ungebundene OData v4-Aktionen verfügbar gemacht werden, werden die URL-Felder jedoch nicht angezeigt.  
 
-Sie können den Webdienst sofort testen, indem Sie die Links in den **OData-URL** und **SOAP-URL** -Feldern auswählen. Optional können Sie den Wert des Felds kopieren und ihn für die spätere Verwendung speichern. Befolgen Sie die Anweisungen im Abschnitt [Überprüfen der Verfügbarkeit eines Webdiensts](/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action#verifying-web-service-availability) im Inhalt für Entwickler, um Codeunits zu testen, die als ungebundene OData v4-Aktionen verfügbar gemacht werden.
+Sie können den Webdienst sofort testen, indem Sie die Links in den **OData-URL** und **SOAP-URL**-Feldern auswählen. Optional können Sie den Wert des Felds kopieren und ihn für die spätere Verwendung speichern. Befolgen Sie die Anweisungen im Abschnitt [Überprüfen der Verfügbarkeit eines Webdiensts](/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action#verifying-web-service-availability) im Inhalt für Entwickler, um Codeunits zu testen, die als ungebundene OData v4-Aktionen verfügbar gemacht werden.
 
 > [!NOTE]
-> Wenn die als Webdienste bereitgestellten Objekt nicht online über [!INCLUDE[prodshort](includes/prodshort.md)] aufgerufen werden dürfen, müssen Sie die im Code verfügbaren Methoden als `[Scope('OnPrem')]` markieren. Weitere Informationen finden Sie unter [Bereichsattribut ](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> Wenn die als Webdienste bereitgestellten Objekt nicht online über [!INCLUDE[prod_short](includes/prod_short.md)] aufgerufen werden dürfen, müssen Sie die im Code verfügbaren Methoden als `[Scope('OnPrem')]` markieren. Weitere Informationen finden Sie unter [Bereichsattribut ](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Nachdem Sie einen Webdienst veröffentlichen, ist er für externe Seiten verfügbar. Sie können die Verfügbarkeit dieses Webdiensts prüfen, indem Sie einen Browser verwenden, oder Sie können den Link in den Feldern **OData-URL** und **SOAP-URL** auf der Seite **Webdienste** auswählen. Im folgenden Verfahren wird gezeigt, wie Sie die Verfügbarkeit des Webdienstes für die spätere Verwendung prüfen können.  
 
@@ -56,7 +56,7 @@ Nachdem Sie einen Webdienst veröffentlichen, ist er für externe Seiten verfüg
 
 2. Überprüfen Sie die Informationen, die im Browser angezeigt werden. Vergewissern Sie sich, dass Sie den Namen des Webdienstes sehen, den Sie erstellt haben.  
 
-Wenn Sie auf einen Webdienst zugreifen und Daten wieder auf [!INCLUDE[d365fin](includes/d365fin_md.md)] schreiben möchten, müssen Sie den Firmennamen angeben. Sie können das Unternehmen als Teil des URI, wie in Beispielen angezeigt, angeben, oder Sie können das Unternehmen als Teil der Abfrageparameter angeben. Beispielsweise verweisen die folgenden URIs auf denselben OData-Webdienst, und beide sind gültige URIs.  
+Wenn Sie auf einen Webdienst zugreifen und Daten wieder auf [!INCLUDE[prod_short](includes/prod_short.md)] schreiben möchten, müssen Sie den Firmennamen angeben. Sie können das Unternehmen als Teil des URI, wie in Beispielen angezeigt, angeben, oder Sie können das Unternehmen als Teil der Abfrageparameter angeben. Beispielsweise verweisen die folgenden URIs auf denselben OData-Webdienst, und beide sind gültige URIs.  
 
 ```
 https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS International Ltd.')/Customer  

@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5858ce15a9b8ff1c5042df21dd8572a2ddff3139
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 722e69389413dc06db4f2b7fd2f8447d9033d030
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919715"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753292"
 ---
 # <a name="create-incoming-document-records"></a>Erstellen von eingehenden Belegen
 Auf der Seite **Eingehende Belege** können Sie verschiedene Funktionen zum Überprüfen von Ausgabenbelegen, Verwalten von OCR-Aufgaben und Konvertieren eingehender Belege, manuell oder automatisch, in den entsprechenden Belegen oder Buch.-Blattzeilen verwenden. Die externen Dateien können jeder Prozessphase zugeordnet werden, auch gebuchten Belegen und den resultierenden Kreditoren-, Debitoren- und Sachposten.
 
-Um einen externen Beleg in [!INCLUDE[d365fin](includes/d365fin_md.md)] aufzuzeichnen, müssen Sie zuerst einen Datensatz des eingehenden Beleges anlegen oder ausfüllen. Dies kann manuell erfolgen, oder Sie können ein Foto des externen Belegs machen und einen eingehenden Belegsdatensatz mit der angehängten Bilddatei erstellen.
+Um einen externen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] aufzuzeichnen, müssen Sie zuerst einen Datensatz des eingehenden Beleges anlegen oder ausfüllen. Dies kann manuell erfolgen, oder Sie können ein Foto des externen Belegs machen und einen eingehenden Belegsdatensatz mit der angehängten Bilddatei erstellen.
 
 Bevor Sie die Funktion für eingehende Belege verwenden können, müssen Sie sie entsprechend einrichten. Weitere Informationen finden Sie unter [Eingehende Belege einrichten](across-how-setup-income-documents.md).
 
@@ -36,23 +36,23 @@ Das Kontrollkästchen **Freigegeben** in der Zeile für den eingehenden Beleg is
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>So erstellen Sie eingehende Belege indem Sie ein Foto machen
 > [!NOTE]  
->   Der folgende Vorgang gilt nur für [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tablet- und Smartphone-Clients.
+>   Der folgende Vorgang gilt nur für [!INCLUDE[prod_short](includes/prod_short.md)]-Tablet- und Smartphone-Clients.
 
-1. Wählen Sie auf der App-Leiste die Kachel **Erstellen von eingehendem Beleg von Kamera** , und wechseln Sie dann zu Schritt 4.
+1. Wählen Sie auf der App-Leiste die Kachel **Erstellen von eingehendem Beleg von Kamera**, und wechseln Sie dann zu Schritt 4.
 2. Wählen Sie alternativ in er Anwendungsleiste die Optionsschaltfläche aus, wählen Sie **Eingehende Belege** und wählen Sie dann **Alle** aus.
 3. Verwenden Sie auf der Seite **Eingehende Belege** die Auslassungspunkt-Schaltfläche, und wählen Sie dann **Von Kamera erstellen** aus. Die Kamera im Tablet oder dem Smartphone wird aktiviert.
-4. Nehmen Sie ein Foto eines Belegs, wie einer Einkaufsquittung, die Sie als eingehender Beleg bearbeiten wollen, und wählen Sie dann die Schaltfläche **OK** .
+4. Nehmen Sie ein Foto eines Belegs, wie einer Einkaufsquittung, die Sie als eingehender Beleg bearbeiten wollen, und wählen Sie dann die Schaltfläche **OK**.
 
     Ein neuer eingehender Beleg wird erstellt und das Bild wird angehängt.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>So hängen Sie ein Bild an einen eingehenden Beleg an, indem Sie ein Foto machen
 > [!NOTE]  
->   Der folgende Vorgang gilt nur für [!INCLUDE[d365fin](includes/d365fin_md.md)]-Tablet- und Smartphone-Clients.
+>   Der folgende Vorgang gilt nur für [!INCLUDE[prod_short](includes/prod_short.md)]-Tablet- und Smartphone-Clients.
 
 1. Wählen Sie auf der App-Leiste die Optionsschaltfläche aus, wählen Sie **Eingehende Belege** und wählen Sie dann **Alle** aus.
 2. Öffnen Sie die Karte eines vorhandenen eingehenden Belegsdatensatzes.
 3. Verwenden Sie auf der Seite **Eingehende Belege** die Auslassungspunkt-Schaltfläche, und wählen Sie dann **Bild von Kamera anhängen** aus. Die Kamera im Tablet oder dem Smartphone wird aktiviert.
-4. Nehmen Sie ein Foto eines Belegs, wie einer Einkaufsquittung, die Sie als eingehender Beleg bearbeiten wollen, und wählen Sie dann die Schaltfläche **OK** .
+4. Nehmen Sie ein Foto eines Belegs, wie einer Einkaufsquittung, die Sie als eingehender Beleg bearbeiten wollen, und wählen Sie dann die Schaltfläche **OK**.
 
     Das Bild wurde dem Datensatz des eingehenden Beleges angehängt.
 
@@ -61,12 +61,12 @@ Das Kontrollkästchen **Freigegeben** in der Zeile für den eingehenden Beleg is
 2. Wählen Sie die Aktion **Aus Datei erstellen** aus.  
 3. Wählen Sie auf der Seite **Datei einfügen** eine Datei aus und wählen Sie dann **Offen** aus. Die Datei wird automatisch angehängt.
 4. Wählen Sie alternativ die Aktion **Neu** aus.
-5. Um eine Datei hinzuzufügen, wählen Sie die Aktion **Datei anhängen** .
-6. Auf der Seite **Datei einfügen** wählen Sie die Datei, die den jeweiligen eingehenden Beleg darstellt, und wählen Sie die Schaltfläche **Öffnen** .
+5. Um eine Datei hinzuzufügen, wählen Sie die Aktion **Datei anhängen**.
+6. Auf der Seite **Datei einfügen** wählen Sie die Datei, die den jeweiligen eingehenden Beleg darstellt, und wählen Sie die Schaltfläche **Öffnen**.
 7. Füllen Sie auf der Seite **Eingehende Belege** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Siehe auch
 [Eingehende Belege verarbeiten](across-process-income-documents.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

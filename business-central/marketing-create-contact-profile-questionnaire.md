@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2020
-ms.openlocfilehash: ef8b2c90ef01841e2c641b9fc96348d899d4997e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 65c27bee86d273c467709f1e238b996829d73f37
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919338"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755442"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren
 Sie können Profilbefragungen einrichten, die Sie beim Eingeben der Informationen über die Profile Ihrer Kontakte verwenden möchten. In jedem Fragebogen können Sie die unterschiedlichen Fragen einrichten, die Sie Ihren Kontakten stellen möchten.  
@@ -24,11 +24,11 @@ Sie können die Befragung auch dazu verwenden, um einige Fragen zum Kontakt, Deb
 
 ## <a name="to-add-a-profile-questionnaire"></a>So fügen Sie eine Profilbefragung hinzu
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Fragebogeneinrichtung** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie die Aktion **Neu** .  
+2.  Wählen Sie die Aktion **Neu**.  
 3.  Füllen Sie die Felder bei Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>So fügen Sie einen Fragebogen einer Profilbefragung hinzu
-1.  Wählen Sie den entsprechenden Profilfragebogen aus und wählen Sie dann die Aktion **Einstellung Fragebogen bearbeiten** .  
+1.  Wählen Sie den entsprechenden Profilfragebogen aus und wählen Sie dann die Aktion **Einstellung Fragebogen bearbeiten**.  
 2.  Wählen Sie in der ersten leeren Zeile im Feld **Art** die Option **Frage** aus, und geben Sie im Feld **Beschreibung** Ihre Frage ein. Füllen Sie die anderen Felder in dieser Zeile aus.  
 3.  Wählen Sie in der nächsten leeren Zeile im Feld **Art** die Option **Antwort** aus, und geben Sie im Feld **Beschreibung** Ihre Antwort ein.  
 4.  Wählen Sie im Feld **Priorität** die Priorität aus. Definieren Sie in den Feldern **Von Wert** und **Bis Wert** einen Punktbereich. Kontakte, die innerhalb des definierten Bereichs Punkte erhalten, erhalten die Antwort.  
@@ -46,7 +46,7 @@ Sie können Ihre Kontakte nach Debitoren, Kreditoren und Kontaktinformationen kl
 > [!NOTE]
 > Nur als Debitor gespeicherten Kontakten kann eine Klassifizierung auf Debitordatenbasis zugeordnet werden und nur als Kreditor gespeicherten Kontakten kann eine Klassifizierung auf Kreditordatenbasis zugeordnet werden. Die automatische Klassifizierung wird nicht automatisch aktualisiert. Deshalb können Sie die Profilbefragungen aktualisieren, nachdem Sie die Debitor-, Kreditor- oder Kontaktdaten aktualisiert haben, auf denen sie basieren.  
 
-Nachdem Sie automatische beantwortete Profilbefragungen eingerichtet haben, werden dem Kontakt [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch die richtigen Antworten zugeordnet, wenn Sie die Profilbefragung mit diesen Fragen einem Kontakt zuordnen.  
+Nachdem Sie automatische beantwortete Profilbefragungen eingerichtet haben, werden dem Kontakt [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die richtigen Antworten zugeordnet, wenn Sie die Profilbefragung mit diesen Fragen einem Kontakt zuordnen.  
 
 ## <a name="example"></a>Beispiel
 Sie können Ihre Kontakte danach klassifizieren, wie viel sie bei Ihnen gekauft haben:
@@ -103,28 +103,28 @@ Füllen Sie hierzu die Seite **Profilbefragung einrichten** folgendermaßen aus:
 <td><p>Frage</p></td>
 <td><p>ABC Klassifizierung</p></td>
 <td><p>Klicken Sie in das Feld, um ein Häkchen einzufügen.</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Antwort</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500.000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Antwort</p></td>
 <td><p>F</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>100,000</p></td>
 <td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Antwort</p></td>
 <td><p>U</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 <td><p>99,999</p></td>
 </tr>
 </tbody>

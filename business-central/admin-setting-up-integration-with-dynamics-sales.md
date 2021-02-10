@@ -1,5 +1,5 @@
 ---
-title: Einrichten des Benutzerkontos für die Integration in Common Data Service | Microsoft Docs
+title: Einrichten des Benutzerkontos für die Integration in Microsoft Dataverse | Microsoft Docs
 description: Erfahren Sie, wie die Benutzerkonten eingerichtet werden, die die Apps zum Austausch von Daten verwenden, und die Mitarbeiter nutzen, um auf Daten in den Apps zuzugreifen und diese Daten zu synchronisieren.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,24 +10,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d396e5fc9073d753bb9782394a922c26242b472a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b341b476c33e39dfda7fbb69bf643264f6c50672
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917776"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755142"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Einrichten des Benutzerkontos für die Integration in Common Data Service
-Dieser Artikel bietet eine Übersicht darüber, wie die Benutzerkonten eingerichtet werden, die erforderlich sind, um [!INCLUDE[d365fin](includes/d365fin_md.md)] in [!INCLUDE[d365fin](includes/cds_long_md.md)] zu integrieren.  
+# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Einrichten des Benutzerkontos für die Integration in Microsoft Dataverse
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
+Dieser Artikel bietet eine Übersicht darüber, wie die Benutzerkonten eingerichtet werden, die erforderlich sind, um [!INCLUDE[prod_short](includes/prod_short.md)] in [!INCLUDE[prod_short](includes/cds_long_md.md)] zu integrieren.  
 
 ## <a name="setting-up-the-administrator-user-account"></a>Einrichten des Administrator-Benutzerkontos
-Sie müssen Ihr Administrator-Benutzerkonto für [!INCLUDE[d365fin](includes/d365fin_md.md)] als Benutzer in [!INCLUDE[d365fin](includes/cds_long_md.md)] hinzufügen. Wenn Sie die Verbindung zwischen [!INCLUDE[d365fin](includes/d365fin_md.md)] und [!INCLUDE[d365fin](includes/cds_long_md.md)] einrichten, werden wir dieses Konto einmal zur Installation und Konfiguration einiger erforderlicher Komponenten verwenden. 
+Sie müssen Ihr Administrator-Benutzerkonto für [!INCLUDE[prod_short](includes/prod_short.md)] als Benutzer in [!INCLUDE[prod_short](includes/cds_long_md.md)] hinzufügen. Wenn Sie die Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] einrichten, werden wir dieses Konto einmal zur Installation und Konfiguration einiger erforderlicher Komponenten verwenden. 
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>Berechtigungen und Sicherheitsrollen für Benutzerkonten in [!INCLUDE[d365fin](includes/cds_long_md.md)]
+## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Berechtigungen und Sicherheitsrollen für Benutzerkonten in [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Wenn Sie die CDS-Basisintegrationslösung installieren, werden die Berechtigungen für das Integrationsbenutzerkonto konfiguriert. Wenn diese Berechtigungen manuell geändert werden, können Sie sie zurücksetzen. Sie können dies tun, indem Sie die CDS-Basisintegrationslösung neu installieren, indem Sie die Option **Integrationslösung neu installieren** auf der Seite **Common Data Service Verbindungseinrichtung** wählen. Die Sicherheitsrolle der Business Central CDS Integration wird eingesetzt.
 
 <!--
-The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
+The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 ### Minimum Permissions for the Administrator
 The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
@@ -51,8 +53,8 @@ The following table displays the minimum permissions on each tab for each securi
 |Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
 |Post Configuration|Global|||Write|
 
-### Minimum Permissions for automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user
-The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user.
+### Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
+The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user.
 
 ##### Core Records
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
@@ -120,5 +122,5 @@ You can allow sales people to view inventory levels for the items they sell by g
 -->
 
 ## <a name="see-also"></a>Siehe auch  
-[Integrieren in Common Data Service](admin-common-data-service.md)  
+[Integrieren in Microsoft Dataverse](admin-common-data-service.md)  
 [Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

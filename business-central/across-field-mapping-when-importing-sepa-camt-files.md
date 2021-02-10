@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bed47fc3109d622f4078e36e29aa04678bd22f9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 57488adb784736eaf404cf57f1563f08c517ed6c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918051"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753342"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Feld-Zuordnung beim Importieren von SEPA CAMT-Dateien
-[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt den regionalen SEPA-Standard (Single Euro Payments Area) für das Importieren von SEPA-Bankkontoauszügen (CAMT-Format). Weitere Informationen finden Sie [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] unterstützt den regionalen SEPA-Standard (Single Euro Payments Area) für das Importieren von SEPA-Bankkontoauszügen (CAMT-Format). Weitere Informationen finden Sie [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md).  
 
- Der SEPA CAMT-Standard selbst verfügt über lokale Variationen. Daher müssen Sie möglicherweise die generische Datenaustauschdefinition ändern (angezeigt durch den **SEPA CAMT-Code** auf der Seite **Exchange-Definitionen** ändern), um ihn einer lokalen Variation des Standards anzupassen. Die folgenden Tabellen zeigen die Element-zu-Feld-Zuordnung für die Tabellen 81, 273 und 274 in der SEPA CAMT-Implementierung in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Der SEPA CAMT-Standard selbst verfügt über lokale Variationen. Daher müssen Sie möglicherweise die generische Datenaustauschdefinition ändern (angezeigt durch den **SEPA CAMT-Code** auf der Seite **Exchange-Definitionen** ändern), um ihn einer lokalen Variation des Standards anzupassen. Die folgenden Tabellen zeigen die Element-zu-Feld-Zuordnung für die Tabellen 81, 273 und 274 in der SEPA CAMT-Implementierung in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Informationen zum Erstellen oder die Stapelverarbeitung eine Datenaustauschdefinition, siehe [Datenaustauschdefinition einrichten](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -57,10 +57,10 @@ ms.locfileid: "3918051"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Unstrukturiert|Text|Informationen, die angegeben werden, um Abgleichen/Abstimmung eines Postens mit den Artikeln zu aktivieren, die die Zahlung abgleichen soll, wie etwa Handelsrechnungen in einem Debitorensystem, in unstrukturierter Form.||6|Beschreibung|  
 |Stmt/Ntry/AddtlNtryInf|ZusätzlicheEingabeInformationen|Text|Zusätzliche Informationen zu der Eingabe||16|Transaktionsinformationen|  
 
- Elemente im **Ntry** -Knoten, die in [!INCLUDE[d365fin](includes/d365fin_md.md)] importiert, aber nicht mit einem Feld verknüpft werden, werden in der **Exch.Spaltendefinition buchen** -Tabelle gespeichert. Benutzer können diese Elemente **Zahlungsabstimmungsbuch.-Blatt** , **Zahlungsausgleich** und **Bankkonto Abstimmen** Seiten anzeigen, indem sie die **Details zur Bankauszugsposition** Aktion auswählen. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
+ Elemente im **Ntry**-Knoten, die in [!INCLUDE[prod_short](includes/prod_short.md)] importiert, aber nicht mit einem Feld verknüpft werden, werden in der **Exch.Spaltendefinition buchen**-Tabelle gespeichert. Benutzer können diese Elemente **Zahlungsabstimmungsbuch.-Blatt**, **Zahlungsausgleich** und **Bankkonto Abstimmen** Seiten anzeigen, indem sie die **Details zur Bankauszugsposition** Aktion auswählen. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]
-> Bei einem Import von CAMT-Bankauszügen erwartet [!INCLUDE[d365fin](includes/d365fin_md.md)], dass jede Transaktion eindeutig ist. Dies bedeutet, dass das Feld **Transaktions-ID** , das vom Tag *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* in der CAMT-Datei stammt, innerhalb der offenen Bankkontoabstimmung eindeutig sein muss. Wenn die Informationen nicht vorhanden sind, ignoriert [!INCLUDE[d365fin](includes/d365fin_md.md)] die Zahlung. Wenn eine frühere Bankabstimmung für dasselbe Bankkonto mit derselben Transaktions-ID wie beim aktuellen Import gebucht wurde, wird die aktuelle Transaktion nicht automatisch abgestimmt, kann aber dennoch importiert werden.
+> Bei einem Import von CAMT-Bankauszügen erwartet [!INCLUDE[prod_short](includes/prod_short.md)], dass jede Transaktion eindeutig ist. Dies bedeutet, dass das Feld **Transaktions-ID**, das vom Tag *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* in der CAMT-Datei stammt, innerhalb der offenen Bankkontoabstimmung eindeutig sein muss. Wenn die Informationen nicht vorhanden sind, ignoriert [!INCLUDE[prod_short](includes/prod_short.md)] die Zahlung. Wenn eine frühere Bankabstimmung für dasselbe Bankkonto mit derselben Transaktions-ID wie beim aktuellen Import gebucht wurde, wird die aktuelle Transaktion nicht automatisch abgestimmt, kann aber dennoch importiert werden.
 
 ## <a name="see-also"></a>Siehe auch  
 [Datenaustausch einrichten](across-set-up-data-exchange.md)  

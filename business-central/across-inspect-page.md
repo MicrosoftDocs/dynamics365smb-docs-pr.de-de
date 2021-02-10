@@ -10,12 +10,12 @@ ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
 ms.date: 10/01/2020
-ms.openlocfilehash: f56dbf4546f5f1b466b23c3bd2794d3c4ffe02c3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d80baed51b646b389f9dd86540cc993c212be09b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924703"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754392"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Überprüfen von Seiten in Business Central
 
@@ -23,9 +23,9 @@ Die Überprüfungsfunktion der Seite ermöglicht es Ihnen, Details zu einer Seit
 
 ## <a name="working-with-page-inspection"></a>Arbeiten mit der Seitenüberprüfung
 
-Starten Sie die Seitenüberprüfung über die Seite **Hilfe und Support** . Wählen Sie ein Fragezeichen in der oberen rechten Ecke aus, wählen Sie **Hilfe und Support** und dann **Seiten und Daten prüfen** aus. Zudem besteht die Möglichkeit, die Tastenkombination **Strg+Alt+F1** zu verwenden.
+Starten Sie die Seitenüberprüfung über die Seite **Hilfe und Support**. Wählen Sie ein Fragezeichen in der oberen rechten Ecke aus, wählen Sie **Hilfe und Support** und dann **Seiten und Daten prüfen** aus. Zudem besteht die Möglichkeit, die Tastenkombination **Strg+Alt+F1** zu verwenden.
 
-Der Bereich **Seitenüberprüfung** wird auf der Seite geöffnet. Die folgende Abbildung zeigt den Bereich **Seitenüberprüfung** auf der Seite **Verkaufsauftrag** .
+Der Bereich **Seitenüberprüfung** wird auf der Seite geöffnet. Die folgende Abbildung zeigt den Bereich **Seitenüberprüfung** auf der Seite **Verkaufsauftrag**.
 
 ![Seitenüberprüfung](media/page-inspection-example.png)
 
@@ -39,10 +39,10 @@ Wenn die erwarteten Details im Bereich **Seitenüberprüfung** nicht angezeigt w
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Steuern des Zugriffs auf Seitenüberprüfungsdetails
 
-Als ein Administrator können Sie den Zugriff auf die gesamten Details steuern, die im Bereich **Seitenüberprüfung** angezeigt werden, indem Sie die Berechtigungen konfigurieren, die Benutzer haben. Um einem Benutzer Berechtigung für alle Details zu gewähren, geben Sie Benutzern die Berechtigung **Ausführen** im **System** -Objekt **5330** . Sie können diese Berechtigungen gewähren, indem Sie einen Berechtigungssatz (beispielsweise **D365 Troubleshoot** ) oder eine Benutzergruppe (beispielsweise **D365 Troubleshoot** ) verwenden. Weitere Informationen zu Berechtigungen finden Sie unter [Zuweisen von Berechtigungen für Benutzer und Gruppen](ui-define-granular-permissions.md).
+Als ein Administrator können Sie den Zugriff auf die gesamten Details steuern, die im Bereich **Seitenüberprüfung** angezeigt werden, indem Sie die Berechtigungen konfigurieren, die Benutzer haben. Um einem Benutzer Berechtigung für alle Details zu gewähren, geben Sie Benutzern die Berechtigung **Ausführen** im **System**-Objekt **5330**. Sie können diese Berechtigungen gewähren, indem Sie einen Berechtigungssatz (beispielsweise **D365 Troubleshoot**) oder eine Benutzergruppe (beispielsweise **D365 Troubleshoot**) verwenden. Weitere Informationen zu Berechtigungen finden Sie unter [Zuweisen von Berechtigungen für Benutzer und Gruppen](ui-define-granular-permissions.md).
 
-Benutzer, die keine Berechtigungen in **Systemobjekt 5330** haben, können dennoch auf den Bereich **Seitenüberprüfung** zugreifen, sehen allerdings nur die Felder **Seite** und **Tabelle** , die grundlegende Details anzeigen, die sie an ihr Support Team weitergeben können.
+Benutzer, die keine Berechtigungen in **Systemobjekt 5330** haben, können dennoch auf den Bereich **Seitenüberprüfung** zugreifen, sehen allerdings nur die Felder **Seite** und **Tabelle**, die grundlegende Details anzeigen, die sie an ihr Support Team weitergeben können.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

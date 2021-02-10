@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 803af5e396df2a3eade763bfce1172a7a2627da2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d11bc57066c0124bcb004894ed6b2c9dc4b812e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916218"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754767"
 ---
 # <a name="export-and-import-workflows"></a>Exportieren und Importieren von Workflows
-Um Workflows auf andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbanken zu übertragen, beispielsweise um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Workflows exportiert und importiert werden.  
+Um Workflows auf andere [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbanken zu übertragen, beispielsweise um Zeit zu sparen, wenn Sie neue Workflows erstellen, können Workflows exportiert und importiert werden.  
 
  Eine andere Art, Workflows schnell zu erstellen, besteht darin, Workflows aus Workflow-Vorlagen zu erstellen. Weitere Informationen finden Sie unter [Workflows von Workflow-Vorlagen erstellen](across-how-to-create-workflows-from-workflow-templates.md).  
 
@@ -27,13 +27,13 @@ Um Workflows auf andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-Datenbanken 
 ## <a name="to-export-a-workflow"></a>So exportieren Sie ein Workflow  
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Workflows** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie einen Workflow, und wählen die **In Datei exportieren** Aktion aus.  
-3.  Klicken Sie auf der Seite **Datei exportieren** auf die Schaltfläche **Speichern** .  
+3.  Klicken Sie auf der Seite **Datei exportieren** auf die Schaltfläche **Speichern**.  
 4.  Wählen Sie auf der Seite **Exportieren** einen Dateistandort aus, und wählen Sie dann die Schaltfläche **Speichern** aus.  
 
 ## <a name="to-import-a-workflow"></a>So importieren Sie einen Workflow  
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Workflows** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Importieren aus Datei** aus.  
-3.  Wählen Sie auf der Seite **Importieren** die XML-Datei aus, die den Workflow enthält, und wählen Sie dann die Schaltfläche **Öffnen** .  
+3.  Wählen Sie auf der Seite **Importieren** die XML-Datei aus, die den Workflow enthält, und wählen Sie dann die Schaltfläche **Öffnen**.  
 
 > [!CAUTION]  
 >  Wenn der Workflowcode bereits in der Datenbank vorhanden ist, werden die Workflowschritte mit den Schritten im importierten Workflow überschrieben.  

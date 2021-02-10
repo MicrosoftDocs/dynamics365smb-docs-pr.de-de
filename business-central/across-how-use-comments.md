@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d9b84ff608d6778bb20dfe009978fbe624f47c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f84b6d7d03bd8766bfd485870cef8401a3e3382
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924878"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754567"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Hinzufügen von Bemerkungen zu Karten und Belegen
 Fügen Sie zusätzlichen Informationen zu Konten, Debitorenkarten oder Verkaufsaufträgen, Verträge, wie eine Sonderpreis- oder Zustellungsmethode, mit anderen Benutzern mitzuteilen hinzu.
@@ -37,5 +37,5 @@ Nachfolgend wird erläutert, wie einer Bemerkung einer Artikelkarte hinzugefügt
 4. Auf der Seite **Bemerkungen** können Sie beliebigen Text in das Feld eingeben und dann **ok** klicken.
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

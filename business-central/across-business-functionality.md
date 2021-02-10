@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d1988bd3bbd9424f48431927dd6416eab636adf1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 622e9833af12db9cecdb09f4358d5c7716bbb994
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914414"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753517"
 ---
 # <a name="business-functionality"></a>Geschäftsfunktionen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik.
+[!INCLUDE[prod_short](includes/prod_short.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[d365fin](includes/d365fin_md.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+[!INCLUDE[prod_short](includes/prod_short.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
 
 | An | Siehe |
 | --- | --- |
@@ -40,12 +40,12 @@ ms.locfileid: "3914414"
 |Planen von Serviceanrufen und Einrichten von Serviceaufträgen und Nachverfolgen von Reparaturteilen und Zubehör.|[Service](service-service.md)|
 |Konfigurieren und verwenden Sie Workflows, die Aufgaben verbinden, welche von verschiedenen Benutzern oder vom System ausgeführt werden, z. B. die automatische Buchung. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen oder Buchen von Belegen sind typische Workflowschritte.|[Workflow](across-workflow.md)|
 |Ermöglichen Sie Benutzern den Datenaustausch über externe Quellen im Rahmen von täglichen Aufgaben, wie dem Senden/Empfangen von elektronischen Belegen, Importieren/Exportieren von Bankdateien und dem Aktualisieren von Wechselkursen.|[Daten elektronisch austauschen](across-data-exchange.md)|
-|Erfassen Sie externe Belege in [!INCLUDE[d365fin](includes/d365fin_md.md)], einschließlich Dateianhängen, und erstellen Sie dann manuell die zugehörigen Belege oder wandeln Sie die Dateien automatisch in elektronische Belege um.|[Eingehende Belege](across-income-documents.md)|
+|Erfassen Sie externe Belege in [!INCLUDE[prod_short](includes/prod_short.md)], einschließlich Dateianhängen, und erstellen Sie dann manuell die zugehörigen Belege oder wandeln Sie die Dateien automatisch in elektronische Belege um.|[Eingehende Belege](across-income-documents.md)|
 
 ## <a name="see-also"></a>Siehe auch
 
 [Erforschen Sie die Dynamics 365 Business Central-Fähigkeiten](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Verwaltung](admin-setup-and-administration.md)  
-[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Erste Schritte](product-get-started.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

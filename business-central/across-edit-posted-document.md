@@ -10,18 +10,18 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eedfa2a0c0f519f5ea22eb51a779f6f2a090d9bf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 870b629ea5f4cae25d81f5348b5d616508cb91c4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914339"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753442"
 ---
 # <a name="edit-posted-documents"></a>Gebuchte Belege bearbeiten
 
 Manchmal müssen Sie einen gebuchten Beleg aktualisieren, da sich die für das Dokument relevanten Informationen geändert haben. Bei einem gebuchten Verkaufsbeleg kann dies beispielsweise die Paketverfolgungsnummer des Zustellers sein. Bei einem gebuchten Einkaufsbeleg kann es sich um einen Zahlungsreferenztext handeln.
 
-Sie führen die Änderung an einer bearbeitbaren Version des Originaldokuments durch, was durch „ **- Update** “ im Seitentitel angegeben wird. Die Seite enthält eine Teilmenge der Felder im Originaldokument, von denen einige nicht bearbeitbare Felder sind, die nur zu Informationszwecken angezeigt werden.
+Sie führen die Änderung an einer bearbeitbaren Version des Originaldokuments durch, was durch „**- Update**“ im Seitentitel angegeben wird. Die Seite enthält eine Teilmenge der Felder im Originaldokument, von denen einige nicht bearbeitbare Felder sind, die nur zu Informationszwecken angezeigt werden.
 
 Die Funktionalität ist für folgende Dokumente in allen unterstützten Märkten verfügbar:
 
@@ -53,4 +53,4 @@ Die gebuchte Verkaufslieferung wird aktualisiert.
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Journale und Dokumente buchen](ui-post-documents-journals.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

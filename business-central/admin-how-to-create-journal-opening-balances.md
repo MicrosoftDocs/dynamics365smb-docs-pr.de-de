@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8ffb5b8b90d0fdd4f3e1bd90271db8568c05d41e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915761"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753967"
 ---
 # <a name="create-journal-opening-balances"></a>So erstellen Sie Buch.-Blatt-Eröffnungssalden
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] enthält mehrere Stapelverarbeitungsaufträge, die bereitgestellt werden, um die Übertragung von vorhandenen Kontosalden auf einen neu konfigurierten Mandanten zu unterstützen. Sie können diese Daten auf das Debitorbuch.-Blatt, das Kreditorbuch.-Blatt, das Artikel Buch.-Blatt und das Hauptbuchbuch.-Blatt übertragen.
+[!INCLUDE[prod_short](includes/prod_short.md)] enthält mehrere Stapelverarbeitungsaufträge, die bereitgestellt werden, um die Übertragung von vorhandenen Kontosalden auf einen neu konfigurierten Mandanten zu unterstützen. Sie können diese Daten auf das Debitorbuch.-Blatt, das Kreditorbuch.-Blatt, das Artikel Buch.-Blatt und das Hauptbuchbuch.-Blatt übertragen.
 
 Der erste Schritt besteht darin, ein Konfigurationspaket zu erstellen, das die Einrichtungstabellen für alle Buch.-Blätter enthält. Nachfolgend wird davon ausgegangen, dass dieser Schritt abgeschlossen ist. Weitere Informationen finden Sie unter [Unternehmenskonfiguration einrichten](admin-set-up-company-configuration.md). Das Verfahren beschreibt die folgenden Schritte, die das Übernehmen des Pakets, das von einem Partner bereitgestellt wird, enthalten.  
 
@@ -44,7 +44,7 @@ Bevor Sie den Buchungsvorgang starten, prüfen Sie, ob Sie die Verwaltungsrollen
 10. Wiederholen Sie die Schritte, um verschiedene Salden zu importieren und zu buchen.  
 
 > [!TIP]
-> Sie können dieselben Stapeljobs verwenden, um Eröffnungssalden hinzuzufügen, wenn Sie einen neuen Debitor oder Kreditor registrieren, mit dem Sie zuvor Geschäfte gemacht haben, bei dem Sie jedoch nicht registriert sind [!INCLUDE [prodshort](includes/prodshort.md)]. Suchen Sie einfach nach der entsprechenden Aufgabe und wählen Sie dann den entsprechenden Link.
+> Sie können dieselben Stapeljobs verwenden, um Eröffnungssalden hinzuzufügen, wenn Sie einen neuen Debitor oder Kreditor registrieren, mit dem Sie zuvor Geschäfte gemacht haben, bei dem Sie jedoch nicht registriert sind [!INCLUDE [prod_short](includes/prod_short.md)]. Suchen Sie einfach nach der entsprechenden Aufgabe und wählen Sie dann den entsprechenden Link.
 
 ## <a name="see-also"></a>Siehe auch
 

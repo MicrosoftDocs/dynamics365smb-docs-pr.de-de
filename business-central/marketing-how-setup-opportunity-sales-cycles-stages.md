@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d9263f2dda3a944b49ee449ef5f71bb56eb201f2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9ed05b047732a171970219c9a24f5fdd6f96f0b1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925132"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755392"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Einrichten von Verkaufsprozessen für Verkaufschancen und Prozess-Stufen
 Damit die Verkaufschancen verwendet werden kann, müssen zunächst Verkaufsprozesse sowie Verkaufsprozess-Stufen eingerichtet werden. Ein Verkaufsprozess setzt sich aus einer Reihe von Schritten zusammen, die vom ersten Kontakt bis zu einem Verkaufsabschluss reichen. Jeder Stufe kann bestimmten Bedingungen haben, die erfüllen sein müssen (z. B. ein Verkaufsangebot), bevor eine Verkaufschance in die nächste Stufe gehen kann. Sie können auch festlegen, ob eine Stufe übersprungen werden kann. Verkaufsprozesse können in beliebiger Anzahl eingerichtet werden. Gleiches gilt auch für die Anzahl der Verkaufsprozess-Stufen, die innerhalb eines Verkaufsprozesses eingerichtet werden.
@@ -31,8 +31,8 @@ Dieses Thema beschreibt auch Entscheidungsträgern als Einrichtungsaufgaben und 
 Wiederholen Sie diese Schritte, um weitere Verkaufsprozesse einzurichten. Nachdem Sie Verkaufsprozesse für Verkaufschancen eingerichtet haben, können Sie die verschiedenen Stufen innerhalb jedes Prozesses einrichten.
 
 ## <a name="to-define-opportunity-sales-cycle-stages"></a>Verkaufsprozessstufe der Verkaufschance definieren
-1. Wählen Sie auf der Seite **Verkaufsprozesse** den Verkaufsprozess für Verkaufschancen aus, für den Sie Stufen einrichten möchten, und wählen Sie dann die Aktion **Stufen** . Die Seite **Verkaufsprozess-Stufen** wird geöffnet.
-2. Klicken Sie auf **Neu** , um eine neue Stufe für den Verkaufsprozess einzugeben.
+1. Wählen Sie auf der Seite **Verkaufsprozesse** den Verkaufsprozess für Verkaufschancen aus, für den Sie Stufen einrichten möchten, und wählen Sie dann die Aktion **Stufen**. Die Seite **Verkaufsprozess-Stufen** wird geöffnet.
+2. Klicken Sie auf **Neu**, um eine neue Stufe für den Verkaufsprozess einzugeben.
 
 Wiederholen Sie diese Schritte, um beliebig viele Stufen innerhalb des Verkaufsprozesses einzurichten.
 
@@ -54,15 +54,15 @@ Wenn Sie eine Aufgabe eingerichtet haben, können Sie sie in einer Verkaufschanc
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufschancen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie eine Chance und wählen Sie dann die Aktion **Aufgaben** aus.
-3. Wählen Sie auf der Seite **Aufgabenliste** die Aktion **Aufgabe erstellen** .
+3. Wählen Sie auf der Seite **Aufgabenliste** die Aktion **Aufgabe erstellen**.
 4.  Füllen Sie auf der Seite **Aufgabe erstellen** die Felder wie benötigt aus.
 
-    Beachten Sie im Feld **Verkaufschance** , dass es automatisch der Verkaufschance zugewiesen wird.
+    Beachten Sie im Feld **Verkaufschance**, dass es automatisch der Verkaufschance zugewiesen wird.
 5. Wählen Sie die Schaltfläche **OK** aus.
-6. Auf der Seite **Aufgabenlisten** wählen Sie die Verkaufschance und dann die **Aktivität zuweisen** -Aktion aus.
-7. Auf der Seite **Aktivität zuweisen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK** .
+6. Auf der Seite **Aufgabenlisten** wählen Sie die Verkaufschance und dann die **Aktivität zuweisen**-Aktion aus.
+7. Auf der Seite **Aktivität zuweisen** geben Sie die Felder wie nötig ein, und wählen Sie dann die Schaltfläche **OK**.
 
 ## <a name="see-also"></a>Siehe auch
 [Verarbeiten von Verkaufschancen](marketing-processing-sales-opportunities.md)  
 [Verkauf](sales-manage-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

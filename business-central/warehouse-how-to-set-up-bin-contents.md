@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cd37ecbadda34238d9fb7e74ef26f1bb218073a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc805db942ce9ebf178b49468129a83bb20a325e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923145"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756042"
 ---
 # <a name="create-bin-contents"></a>Lagerplatzinhalt erstellen
 
@@ -27,13 +27,13 @@ Nachdem Sie Ihre Lagerplätze eingerichtet haben, können Sie die Lagerplatzinha
 2. Wählen Sie den Lagerort aus, an dem Sie Lagerplatzinhalte einrichten möchten, und wählen Sie dann die Aktion **Lagerplätze** aus.  
 3. Wählen Sie den Lagerplatz aus, an dem Sie Lagerplatzinhalte einrichten möchten, und wählen Sie dann die Aktion **Inhalte** aus.  
 4. Füllen Sie für jeden Artikel, den Sie in dem Lagerplatz lagern möchten, eine Zeile auf der Seite **Lagerplatzinhalt** mit den relevanten Informationen aus. Einige der Felder sind bereits mit Informationen über den Lagerplatz ausgefüllt.  
-5. Füllen Sie als Erstes das Feld **Artikelnr.** aus und dann, wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden, die anderen Felder, wie z. B. **Einheitencode** , **Max. Menge** und **Min. Menge** aus.  
+5. Füllen Sie als Erstes das Feld **Artikelnr.** aus und dann, wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden, die anderen Felder, wie z. B. **Einheitencode**, **Max. Menge** und **Min. Menge** aus.  
 
-Wählen Sie bei Bedarf das Feld **Fix** aus. Wenn der Lagerplatz als Standardlagerplatz für den Artikel verwendet werden soll, wählen das Feld **Standardlagerplatz** .  
+Wählen Sie bei Bedarf das Feld **Fix** aus. Wenn der Lagerplatz als Standardlagerplatz für den Artikel verwendet werden soll, wählen das Feld **Standardlagerplatz**.  
 
 Wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden und die richtigen Dimensionsinformationen auf der Artikelkarte zu den Maßeinheiten jedes Artikels eingegeben haben, wird die Höchstmenge, die Sie auf der Seite **Lagerplatzinhalt** eingeben, gegen die physische Kapazität des Lagerplatzes geprüft. Dann werden die minimale und maximale Menge verwendet, wenn die Lagerplatzauffüllung berechnet und Einlagerungen vorgeschlagen werden.  
 
-Wenn Sie das Feld **Fest** wählen, legen Sie diesen Lagerplatz für diesen Artikel fest. Das bedeutet, dass [!INCLUDE[d365fin](includes/d365fin_md.md)] versuchen wird, diesen Artikel in den Lagerplatz einzulagern, wenn dort Platz ist. Sie wird an dieser Festlegung sogar dann festhalten, wenn die Menge im Lagerplatz 0 ist. Andere Artikel können in den Lagerplatz eingelagert werden, obwohl ein bestimmter Artikel als Standard für den Lagerplatz festgelegt wurde. Andere Artikel können in den Lagerplatz eingelagert werden, obwohl ein bestimmter Artikel dem Lagerplatz fest zugewiesen wurde.  
+Wenn Sie das Feld **Fest** wählen, legen Sie diesen Lagerplatz für diesen Artikel fest. Das bedeutet, dass [!INCLUDE[prod_short](includes/prod_short.md)] versuchen wird, diesen Artikel in den Lagerplatz einzulagern, wenn dort Platz ist. Sie wird an dieser Festlegung sogar dann festhalten, wenn die Menge im Lagerplatz 0 ist. Andere Artikel können in den Lagerplatz eingelagert werden, obwohl ein bestimmter Artikel als Standard für den Lagerplatz festgelegt wurde. Andere Artikel können in den Lagerplatz eingelagert werden, obwohl ein bestimmter Artikel dem Lagerplatz fest zugewiesen wurde.  
 
 > [!NOTE]  
 > Auf der Seite **Lagerplatzinh. Erst.-Vorschlag** können Sie mehrere Lagerplatzinhalte gleichzeitig einrichten.  
@@ -46,10 +46,10 @@ Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie den Lagerplatzinhalt, den 
 2. Klicken Sie im Kopf des Vorschlags in das Feld **Name** und wählen Sie den Vorschlag des Lagerortes, für den Sie Lagerplatzinhalte erstellen möchten.  
 3. Wählen Sie im Feld **Lagerplatzcode** den Code des Lagerplatzes, für den Sie den Lagerplatzinhalt definieren möchten.  
 
-    Wenn Sie in diesem Lagerort die gesteuerte Einlagerung und Kommissionierung verwenden, werden automatisch die Felder ausgefüllt, die mit diesem speziellen Lagerplatz verknüpft sind, wie z. B. **Lagerplatzartencode** , **Lagerklassencode** und **Lagerplatzpriorität** . Dies sind Informationen, die Sie berücksichtigen müssen, wenn Sie den Lagerplatzinhalt definieren.  
+    Wenn Sie in diesem Lagerort die gesteuerte Einlagerung und Kommissionierung verwenden, werden automatisch die Felder ausgefüllt, die mit diesem speziellen Lagerplatz verknüpft sind, wie z. B. **Lagerplatzartencode**, **Lagerklassencode** und **Lagerplatzpriorität**. Dies sind Informationen, die Sie berücksichtigen müssen, wenn Sie den Lagerplatzinhalt definieren.  
 4. Wählen Sie den Artikel, den Sie dem Lagerplatz zuordnen möchten, und füllen Sie die Felder aus, die sich auf den Lagerplatzinhalt beziehen. Wenn Sie die gesteuerte Einlagerung und Kommissionierung nutzen und die Funktion **Lagerplatz-Auffüllung berechnen** verwenden möchten, füllen Sie die Felder **Max. Menge** und **Min. Menge** aus.  
 
-    Wenn Sie diesen Lagerplatz für den Artikel als bevorzugten Lagerplatz einrichten möchten, auch wenn die Menge am Lagerplatz **0** ist und alle anderen Einlagerungskriterien gleich sind, aktivieren Sie das Feld **Fix** .  
+    Wenn Sie diesen Lagerplatz für den Artikel als bevorzugten Lagerplatz einrichten möchten, auch wenn die Menge am Lagerplatz **0** ist und alle anderen Einlagerungskriterien gleich sind, aktivieren Sie das Feld **Fix**.  
 5. Wiederholen Sie die Schritte 3 bis 4 für jeden Artikel, den Sie einem Lagerplatz zuordnen möchten.  
 6. Wählen Sie auf Aktion **Drucken** aus, um sich eine Seitenansicht der Lagerplatzinhalte anzusehen, die Sie im Vorschlag eingegeben haben, oder um diese zu drucken. Überprüfen Sie den Lagerplatzinhalt so lange, bis Sie mit dem Ergebnis zufrieden sind.  
 7. Wenn Sie bereit sind, wählen Sie die **Lagerplatzinhalt erstellen** Aktion aus.  
@@ -65,4 +65,4 @@ In diesem Vorschlag können Sie mit einer Anzahl Lagerplatzinhaltszeilen für me
 [Montageverwaltung](assembly-assemble-items.md)  
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
 [Designdetails: Lagereinrichtung](design-details-warehouse-setup.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

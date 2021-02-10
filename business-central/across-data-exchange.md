@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c11553dc3a48a2fdf0df65258914d36f9c2efbd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6ca289f723af83758c96537e3d4b5a1c0117cc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914365"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753492"
 ---
 # <a name="exchanging-data-electronically"></a>Daten elektronisch austauschen
 Sie können das Datenaustauschframework verwenden, um den Austausch von Geschäftsbelegen, Bankdateien, Währungswechselkursen und sämtlichen anderen Datendateien mit Ihren Geschäftspartnern zu verwalten.
 
-In der Standardversion von [!INCLUDE[d365fin](includes/d365fin_md.md)] wird das Datenaustausch-Framework in Funktionen verwendet, wie z. B. elektronische Dokumente, Import/Export von Bankdateien und Währungswechselkursaktualisierung. Weitere Informationen finden Sie unter [Informationen zum Datenaustauschframework](across-about-the-data-exchange-framework.md).
+In der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] wird das Datenaustausch-Framework in Funktionen verwendet, wie z. B. elektronische Dokumente, Import/Export von Bankdateien und Währungswechselkursaktualisierung. Weitere Informationen finden Sie unter [Informationen zum Datenaustauschframework](across-about-the-data-exchange-framework.md).
 
 Als Administrator oder Microsoft-Partner können Sie das Framework in neuen Integrationsfunktionen verwenden, indem Sie festlegen, welche Daten ausgetauscht werden sollen und wie. Für weitere Informationen, siehe [Einrichten der Datenaustauschdefinition](across-how-to-set-up-data-exchange-definitions.md).
 

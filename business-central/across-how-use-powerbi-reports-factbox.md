@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: 069efcef517cd442539f13fad5e5a2c89e1533ff
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968385"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754467"
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Erstellen von Power BI-Berichten zum Anzeigen von Listendaten in [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Erstellen von Power BI-Berichten zum Anzeigen von Listendaten in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodlong](includes/prodlong.md)] enthält einen Infoboxregler in mehreren Schlüssellistenseiten, der zusätzliche Einblicke in die Daten in dieser Liste bereitstellt. Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert. Sie können benutzerdefinierte Berichte erstellen, die in diesem Steuerelement angezeigt werden. Dabei sind jedoch einige Regeln zu beachten, um sicherzustellen, dass die Berichte wie erwartet funktionieren.  
+[!INCLUDE[prod_long](includes/prod_long.md)] enthält einen Infoboxregler in mehreren Schlüssellistenseiten, der zusätzliche Einblicke in die Daten in dieser Liste bereitstellt. Während Sie sich zwischen den Zeilen in der Liste bewegen, wird der Bericht für den Eintrag gefiltert und aktualisiert. Sie können benutzerdefinierte Berichte erstellen, die in diesem Steuerelement angezeigt werden. Dabei sind jedoch einige Regeln zu beachten, um sicherzustellen, dass die Berichte wie erwartet funktionieren.  
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
 - Ein Power BI-Konto.
 - Power BI Desktop.
 
-Weitere Informationen zu den ersten Schritten finden Sie unter [[!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI-Datenquelle nutzen](across-how-use-financials-data-source-powerbi.md).
+Weitere Informationen zu den ersten Schritten finden Sie unter [[!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle nutzen](across-how-use-financials-data-source-powerbi.md).
 
 ## <a name="defining-the-report-data-set"></a>Definieren des Berichtsdatensatzes
 
@@ -36,13 +36,13 @@ Geben Sie die Datenquelle an, die die Daten enthält, die sich auf die Liste bez
 
 Um die Daten für den ausgewählten Datensatz in der Liste zu aktualisieren, fügen Sie dem Bericht einen Filter hinzu. Der Filter muss ein Feld der Datenquelle enthalten, die als *Primärschlüssel* verwendet wird. In den meisten Fällen ist der Primärschlüssel für eine Liste **Nr.** Feld eingetragen.
 
-Um einen Filter für den Bericht zu definieren, wählen Sie den Primärschlüssel aus der Liste der verfügbaren Felder und ziehen dann das Feld in den Abschnitt **Berichts-Filter** . Der Filter muss ein grundlegender Berichtsfilter sein, der für alle Seiten definiert ist. Es darf sich nicht um einen Seiten-, visuellen oder erweiterten Filter handeln.
+Um einen Filter für den Bericht zu definieren, wählen Sie den Primärschlüssel aus der Liste der verfügbaren Felder und ziehen dann das Feld in den Abschnitt **Berichts-Filter**. Der Filter muss ein grundlegender Berichtsfilter sein, der für alle Seiten definiert ist. Es darf sich nicht um einen Seiten-, visuellen oder erweiterten Filter handeln.
 
 ![Den Berichtfilter für den Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 
 ## <a name="setting-the-report-size-and-color"></a>Festlegen von Berichtsgröße und -farbe
 
-Die Größe des Berichts muss auf 325 Pixel auf 310 Pixel festgelegt werden. Diese Größe gibt die richtige Skalierung des Berichts im verfügbaren Platz des Power BI-Infoboxreglers in [!INCLUDE[d365fin](includes/d365fin_md.md)] an. Um die Größe des Berichts zu definieren, den Fokus außerhalb des Berichts im Berichtslayoutbereich zu platzieren und um das Farbenrollensymbol zu wählen.
+Die Größe des Berichts muss auf 325 Pixel auf 310 Pixel festgelegt werden. Diese Größe gibt die richtige Skalierung des Berichts im verfügbaren Platz des Power BI-Infoboxreglers in [!INCLUDE[prod_short](includes/prod_short.md)] an. Um die Größe des Berichts zu definieren, den Fokus außerhalb des Berichts im Berichtslayoutbereich zu platzieren und um das Farbenrollensymbol zu wählen.
 
 ![Den Berichtfilter für die Breite und die Höhe des Verkaufsrechnungs-Tätigkeitsbericht festlegen](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
@@ -58,7 +58,7 @@ Mit Power BI können Sie einen einzelnen Bericht mit mehreren Seiten erstellen. 
 
 Geben Sie dem Bericht einen Namen, der den Namen der dem Bericht zugeordneten Listenseite enthält. Wenn es sich beispielsweise um einen Bericht für die Listenseite **Verkäufer** handelt, sollte der Name das Wort *Verkäufer* enthalten.  
 
-Diese Namenskonvention ist nicht zwingend erforderlich. Sie beschleunigt jedoch das Auswählen von Berichten in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wenn die Seite für die Berichtsauswahls von einer Listenseite aus geöffnet wird, wird sie automatisch anhand des Seitennamens gefiltert. Diese Filterung wird durchgeführt, um die Anzahl der angezeigten Berichte zu beschränken. Benutzer können den Filter entfernen, um eine vollständige Liste der in Power BI verfügbaren Berichte zu erhalten.  
+Diese Namenskonvention ist nicht zwingend erforderlich. Sie beschleunigt jedoch das Auswählen von Berichten in [!INCLUDE[prod_short](includes/prod_short.md)]. Wenn die Seite für die Berichtsauswahls von einer Listenseite aus geöffnet wird, wird sie automatisch anhand des Seitennamens gefiltert. Diese Filterung wird durchgeführt, um die Anzahl der angezeigten Berichte zu beschränken. Benutzer können den Filter entfernen, um eine vollständige Liste der in Power BI verfügbaren Berichte zu erhalten.  
 
 ## <a name="fixing-problems"></a>Probleme beheben
 
@@ -70,7 +70,7 @@ Vermutlich enthält der Name des Berichts nicht den Namen der Listenseite. Lösc
 
 #### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Der Bericht wird zwar geladen, ist jedoch leer, wird nicht gefiltert oder falsch gefiltert
 
-Vergewissern Sie sich, dass der Berichtsfilter den richtigen Primärschlüssel enthält. In den meisten Fällen handelt es sich hierbei um das Feld **Nr.** . In der Tabelle **Sachposten** beispielsweise müssen Sie jedoch das Feld **Postennr.** verwenden.
+Vergewissern Sie sich, dass der Berichtsfilter den richtigen Primärschlüssel enthält. In den meisten Fällen handelt es sich hierbei um das Feld **Nr.**. In der Tabelle **Sachposten** beispielsweise müssen Sie jedoch das Feld **Postennr.** verwenden.
 
 #### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Der Bericht wird zwar geladen, zeigt jedoch nicht die erwartete Seite an
 
@@ -85,7 +85,7 @@ Vergewissern Sie sich, dass die Berichtsgröße auf 325 Pixel x 310 Pixel festge
 ## <a name="see-also"></a>Siehe auch
 
 [Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)  
-[Verwenden von [!INCLUDE[d365fin](includes/d365fin_md.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
+[Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
 [Erste Schritte](product-get-started.md)  
-[Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzen](finance.md)  

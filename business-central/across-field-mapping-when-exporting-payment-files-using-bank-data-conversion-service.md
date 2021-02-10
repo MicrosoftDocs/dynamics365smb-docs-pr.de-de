@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a761d1127e2a0568e59a329fd3e187beffb6b7e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84be9f847d466588e25dad81754bcf64f367b4c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918076"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753367"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Feldzuordnung beim Export von Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung
 Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden die von Ihnen exportierten Daten dem Dienstanbieter zugänglich gemacht. Der Dienstanbieter ist für den Schutz dieser Daten verantwortlich. Weitere Informationen zur AMC Banking 365 Fundamentals-Erweiterung finden Sie unter [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md).  
@@ -23,7 +23,7 @@ Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung export
 > [!CAUTION]  
 >  Wenn Sie Zahlungsdateien mit der AMC Banking 365 Fundamentals-Erweiterung exportieren, werden einige Ihrer Geschäftsdaten dem Anbieter des Dienstes zugänglich gemacht. Der Dienstanbieter, AMC Consult A/S, ist für den Schutz dieser Daten verantwortlich. Weitere Informationen finden Sie unter [AMC-Datenschutzrichtlinie.](https://go.microsoft.com/fwlink/?LinkId=510158)  
 
-Die folgende Tabelle listet die Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] auf, aus denen Sie Daten exportieren können.  
+Die folgende Tabelle listet die Felder in [!INCLUDE[prod_short](includes/prod_short.md)] auf, aus denen Sie Daten exportieren können.  
 
 |Zugeordnetes Feld|Feld in Tabelle|Tisch|Beschreibung|  
 |------------------|--------------------|-----------|---------------------------------------|  

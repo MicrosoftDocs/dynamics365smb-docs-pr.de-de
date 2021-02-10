@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 98105cb3e3634169b31a850f20a65a3854b006b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6d79f5b2851df85ea9f19faeeb941eccfd1b397b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911555"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752825"
 ---
 # <a name="managing-database-access-intent"></a>Verwaltung der Datenbank-Zugriffsabsicht 
 
@@ -23,13 +23,13 @@ Als Superuser oder Administrator können Sie die Datenbankzugriffsabsicht auf Be
 
 ## <a name="overview"></a>Matrix
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kann so eingerichtet werden, dass schreibgeschützte Replikate der primären Datenbank (Lesen und Schreiben) verwendet werden. Die Verwendung der Datenbankreplik reduziert die Belastung der primären Datenbank. In einigen Fällen wird dadurch auch die Leistung beim Anzeigen von Daten im Client verbessert. Replikate sind vorteilhaft für Objekte wie Berichte, Abfragen und API-Seiten, die nur zur Anzeige von Daten, nicht zur Änderung von Daten verwendet werden.
+[!INCLUDE[prod_short](includes/prod_short.md)] kann so eingerichtet werden, dass schreibgeschützte Replikate der primären Datenbank (Lesen und Schreiben) verwendet werden. Die Verwendung der Datenbankreplik reduziert die Belastung der primären Datenbank. In einigen Fällen wird dadurch auch die Leistung beim Anzeigen von Daten im Client verbessert. Replikate sind vorteilhaft für Objekte wie Berichte, Abfragen und API-Seiten, die nur zur Anzeige von Daten, nicht zur Änderung von Daten verwendet werden.
 
 Wenn Objekte ausgeführt werden, bestimmt die Datenbank-Zugriffsabsicht, ob eine schreibgeschützte Replik, falls vorhanden, oder die primäre Datenbank verwendet werden soll. Berichte, API-Seiten und Abfragen werden mit einer vordefinierten Datenbank-Zugriffsabsicht entwickelt (siehe [DatabaseAccessIntent-Eigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataaccessintent-property)).
 
 Auf der Seite **Datenbank-Zugriffsabsichtsliste** können Sie die vordefinierte Datenbank-Zugriffsabsicht für Objekte außer Kraft setzen, wenn sie ausgeführt werden.
 
-In Bezug auf die Datenbank wird diese Funktion allgemein als *Lesen Scale-out* bezeichnet. Weitere Informationen über die Ausleseskalierung und die Datenzugriffsabsicht in [!INCLUDE[prodshort](includes/prodshort.md)] finden Sie unter [Ausnutzung der Ausleseskalierung für eine bessere Leistung](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in der Hilfe für Entwickler und die Verwaltung unter [!INCLUDE[prodshort](includes/prodshort.md)].
+In Bezug auf die Datenbank wird diese Funktion allgemein als *Lesen Scale-out* bezeichnet. Weitere Informationen über die Ausleseskalierung und die Datenzugriffsabsicht in [!INCLUDE[prod_short](includes/prod_short.md)] finden Sie unter [Ausnutzung der Ausleseskalierung für eine bessere Leistung](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in der Hilfe für Entwickler und die Verwaltung unter [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="to-change-the-database-access-intent"></a>So ändern Sie die Datenbank-Zugriffsabsicht
 
@@ -55,7 +55,7 @@ In Bezug auf die Datenbank wird diese Funktion allgemein als *Lesen Scale-out* b
 ## <a name="see-also"></a>Siehe auch
 [Geschäftsfunktionen](across-business-functionality.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Erste Schritte](product-get-started.md)    
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
