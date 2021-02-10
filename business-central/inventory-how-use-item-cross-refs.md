@@ -1,8 +1,6 @@
 ---
-title: Artikelreferenzen verwenden | Microsoft Docs
+title: Artikelreferenzen verwenden
 description: Richten Sie Referenzen zwischen den Beschreibungen ein, die Sie und Ihr Kreditor für einen Artikel verwenden, damit Sie die Artikelbeschreibung des Kreditors in Einkaufsbelege einfügen können.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 056897c799dd12755432637690446a0797c9f18c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7d670f6553a1bd70dcc3d97f90436f36c6627c56
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919438"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013792"
 ---
 # <a name="use-item-cross-references"></a>Artikelreferenzen verwenden
 Wenn Sie eine Artikelreferenzen zwischen der Artikelbeschreibung definieren, die Sie für den Artikel und die Beschreibung verwenden, die der Kreditor dieses Artikels verwendet, wird die Artikelbeschreibung des Kreditors automatisch auf Verkaufsbelegen für den Kreditor eingegeben, wenn Sie die **Referenznr.** ausfüllen Feld Dieselbe Funktionalität gilt für Debitorenartikelnummern in Verkaufsbelegen.
@@ -25,7 +23,7 @@ Wenn Sie eine Artikelreferenzen zwischen der Artikelbeschreibung definieren, die
 Die folgenden Verfahren beschreiben, wie Artikelreferenzen beim Einkauf verwendet werden. Die Schritte sind für den Verkauf ähnlich.
 
 > [!NOTE]
-> Für Artikelbezeichner wie z. B. GTINs oder GUIDs wird es immer üblicher, dass sie mindestens 30 Zeichen enthalten, was mehr ist. als die aktuelle Funktion für Artikelquerverweise handhaben kann. Wenn Sie Referenzen verwenden müssen, die mehr als 30 Zeichen enthalten, kann Ihr Administrator die Funktion **Längere Artikelreferenzen schreiben** auf der Seite [Funktionsverwaltung](https://businesscentral.dynamics.com/?page=xzy) aktivieren (der Link erfordert, dass Sie einen [!INCLUDE[d365fin](includes/d365fin_md.md)]-Mandanten haben) aktivieren. Die Verwendung von Referenzen ändert sich nicht, aber die Namen von Dingen wie Seiten und Schaltflächen ändern sich. Aus der Seite **Artikelquerverweisposten** wird beispielsweise die Seite **Artikelreferenzposten**.
+> Für Artikelbezeichner wie z. B. GTINs oder GUIDs wird es immer üblicher, dass sie mindestens 30 Zeichen enthalten, was mehr ist. als die aktuelle Funktion für Artikelquerverweise handhaben kann. Wenn Sie Referenzen verwenden müssen, die mehr als 30 Zeichen enthalten, kann Ihr Administrator die Funktion **Längere Artikelreferenzen schreiben** auf der Seite [Funktionsverwaltung](https://businesscentral.dynamics.com/?page=2610) aktivieren (der Link erfordert, dass Sie einen [!INCLUDE[prod_short](includes/prod_short.md)]-Mandanten haben) aktivieren. Die Verwendung von Referenzen ändert sich nicht, aber die Namen von Dingen wie Seiten und Schaltflächen ändern sich. Aus der Seite **Artikelquerverweisposten** wird beispielsweise die Seite **Artikelreferenzposten**.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Eine Artikelreferenz zur Artikelbeschreibung des Kreditor einrichten
 
@@ -49,4 +47,4 @@ Das Feld **Beschreibung** in der Zeile wird mit der Artikelbeschreibung des Kred
 ## <a name="see-also"></a>Siehe auch
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

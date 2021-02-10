@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e916192ad9aa14ebcb254a140614b84091ddc922
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917501"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013629"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
 Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsvorschlag oder Bestellvorschlag.  
@@ -49,7 +49,7 @@ Mit anderen Worten: Es nimmt an, dass der Plan für die Vergangenheit gemäß de
 Weitere Informationen finden Sie unter [Umgang mit Aufträgen vor dem Planungs-Startdatum](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamische Auftragsnachverfolgung (Pegging)  
-Die dynamische Auftragsnachverfolgung, die eine simultane Erstellung von Ereignismeldungen im Planungsvorschlag ermöglicht, ist kein Teil des Beschaffungsplanungssystems in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dieses Funktion verknüpft in der Echtzeit den Bedarf und die Mengen, die ihn abdecken können, sobald ein neuer Bedarf oder eine Bedarfssicherung erstellt oder geändert wird.  
+Die dynamische Auftragsnachverfolgung, die eine simultane Erstellung von Ereignismeldungen im Planungsvorschlag ermöglicht, ist kein Teil des Beschaffungsplanungssystems in [!INCLUDE[prod_short](includes/prod_short.md)]. Dieses Funktion verknüpft in der Echtzeit den Bedarf und die Mengen, die ihn abdecken können, sobald ein neuer Bedarf oder eine Bedarfssicherung erstellt oder geändert wird.  
 
 Wenn beispielsweise der Benutzer einen Verkaufsauftrag eingibt oder ändert, sucht das dynamische Auftragsnachverfolgungssystem sofort nach einem geeigneten Vorrat, um den Bedarf zu decken. Dies kann aus dem Lagerbestand oder aus einem erwarteten Beschaffungsauftrag sein (wie einer Einkaufsbestellung oder einem Fertigungsauftrag). Wenn eine Versorgungsquelle gefunden wird, erstellt das System eine Verknüpfung zwischen dem Bedarf und dem Vorrat, und zeigt sie in schreibgeschützten Seiten an, auf die von den einbezogenen Belegzeilen zugegriffen wird. Wenn ein entsprechender Vorrat nicht gefunden wird, erstellt das dynamische Bedarfsverursachersystem Ereignismeldungen im Planungsvorschlag mit Beschaffungsplanvorschlägen, die den dynamischen Ausgleich widerspiegeln. Entsprechend bietet das dynamische Auftragsnachverfolgungssystem ein sehr grundlegendes Planungssystem, das für den Planer und andere Rollen in der internen Lieferkette hilfreich sein kann.  
 
@@ -76,12 +76,12 @@ Demgegenüber befasst sich das Planungssystem mit allen Bedarfen und Vorräten f
 
 Nach der Planung bleiben keine Ereignismeldungen in der Ereignismeldungstabelle, da sie durch die vorgeschlagenen Aktionen im Planungsvorschlag ersetzt wurden  
 
-Weitere Informationen finden Sie unter Links für die Nachverfolgung während der Planung unter [Abstimmen von Vorrat mit Bedarf](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
+Weitere Informationen finden Sie unter [Auftragsnachverfolgungslinks in der Planung](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Reihenfolge und Priorität in der Planung  
 Wenn ein Plan eingerichtet wird, ist die Reihenfolge der Berechnungen wichtig, um die Arbeit innerhalb eines angemessenen Zeitrahmens zu erledigen. Zusätzlich spielt die Priorisierung von Anforderungen und Ressourcen eine wichtige Rolle bei der Erlangung bester Ergebnisse.  
 
-Das Planungssystem in [!INCLUDE[d365fin](includes/d365fin_md.md)] ist bedarfsgesteuert. Artikel auf hoher Ebene sollten vor Artikeln auf niedriger Ebene geplant werden, der Plan für Artikel auf hoher Ebene weiteren Bedarf für Artikel auf niedriger Ebene generieren könnte. das bedeutet zu, Beispiel, dass die Einzelhandelsstandorte geplant werden sollten, bevor Vertriebsstellen geplant werden, da der Plan für einen Einzelhandelsstandort zusätzlichen Bedarf aus der Vertriebsstelle umfassen kann. Auf einem detaillierten Ausgleich bedeutet dies auch, dass ein Verkaufsauftrag keinen neuen Beschaffungsauftrag auslösen soll, wenn ein bereits freigegebener Beschaffungsauftrag den Verkaufsauftrag abdecken kann. Ebenso sollte ein Lagerartikel mit einer bestimmten Chargennummer nicht zugewiesen werden, um einen generischen Bedarf zu decken, wenn ein anderer Bedarf diese bestimmte Charge benötigt.  
+Das Planungssystem in [!INCLUDE[prod_short](includes/prod_short.md)] ist bedarfsgesteuert. Artikel auf hoher Ebene sollten vor Artikeln auf niedriger Ebene geplant werden, der Plan für Artikel auf hoher Ebene weiteren Bedarf für Artikel auf niedriger Ebene generieren könnte. das bedeutet zu, Beispiel, dass die Einzelhandelsstandorte geplant werden sollten, bevor Vertriebsstellen geplant werden, da der Plan für einen Einzelhandelsstandort zusätzlichen Bedarf aus der Vertriebsstelle umfassen kann. Auf einem detaillierten Ausgleich bedeutet dies auch, dass ein Verkaufsauftrag keinen neuen Beschaffungsauftrag auslösen soll, wenn ein bereits freigegebener Beschaffungsauftrag den Verkaufsauftrag abdecken kann. Ebenso sollte ein Lagerartikel mit einer bestimmten Chargennummer nicht zugewiesen werden, um einen generischen Bedarf zu decken, wenn ein anderer Bedarf diese bestimmte Charge benötigt.  
 
 ### <a name="item-priority--low-level-code"></a>Artikelpriorität Stücklistenebene  
 In einer Produktionsumgebung wird der Bedarf für einen fertigen, verkäuflichen Artikel zu einem abgeleiteten Bedarf für Komponenten, die den produzierten fertigen Artikel enthalten, führen. Die Stücklistenstruktur steuert die Komponentenstruktur und kann mehrere Ebenen von halbfertigen Artikel enthalten. Die Absatzplanung eines Artikels in einer Ebene verursacht abgeleiteten Bedarf für Komponenten auf der nächsten Stufe, und so weiter. Schließlich führt dies zu abgeleitetem Bedarf für Einkaufsartikel. Deshalb plant das Planungssystem für Artikel nach ihrer Rangfolge in der gesamten Stücklistenhierarchie, beginnend mit den fertig gestellten absatzfähigen Artikeln oben und dann abwärts durch die Produktstruktur bis zu den Artikeln unterer Ebenen (nach dem Low-level-Code).  
@@ -93,12 +93,12 @@ Die Abbildungen illustrieren, in welcher Reihenfolge das System Vorschläge für
 Weitere Informationen zu Überlegungen für die Fertigung finden Sie unter [Auslastung der Lagerprofile](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 #### <a name="optimizing-performance-for-low-level-calculations"></a>Optimieren der Leistung für Low-Level-Berechnungen
-Low-Level-Codeberechnungen können sich auf die Systemleistung auswirken. Um die Auswirkungen zu verringern, können Sie **Dynamische Low-Level-Codeberechnung** auf der Seite **Produktionseinrichtung** deaktivieren. Wenn Sie das tun, schlägt [!INCLUDE[d365fin](includes/d365fin_md.md)] vor, dass Sie einen wiederkehrenden Projektwarteschlangenposten erstellen, der die Low-Level-Codes täglich aktualisiert. Sie können sicherstellen, dass das Projekt außerhalb der Arbeitszeit ausgeführt wird, indem Sie eine Startzeit im Feld **Frühestes Startdatum/früheste Startzeit** angeben.
+Low-Level-Codeberechnungen können sich auf die Systemleistung auswirken. Um die Auswirkungen zu verringern, können Sie **Dynamische Low-Level-Codeberechnung** auf der Seite **Produktionseinrichtung** deaktivieren. Wenn Sie das tun, schlägt [!INCLUDE[prod_short](includes/prod_short.md)] vor, dass Sie einen wiederkehrenden Projektwarteschlangenposten erstellen, der die Low-Level-Codes täglich aktualisiert. Sie können sicherstellen, dass das Projekt außerhalb der Arbeitszeit ausgeführt wird, indem Sie eine Startzeit im Feld **Frühestes Startdatum/früheste Startzeit** angeben.
 
 Sie können auch Logik aktivieren, die Low-Level-Codeberechnungen beschleunigt, indem Sie **Low-Level-Codeberechnung optimieren** auf der Seite **Produktionseinrichtung** auswählen. 
 
 > [!IMPORTANT]
-> Wenn Sie wählen, die Leistung zu optimieren, wird [!INCLUDE[d365fin](includes/d365fin_md.md)] neue Berechnungsmethoden verwenden, um Low-Level-Codes zu bestimmen. Wenn Sie eine Erweiterung haben, die sich auf die Ereignisse stützt, die von den alten Berechnungen verwendet wurden, funktioniert die Erweiterung möglicherweise nicht mehr.   
+> Wenn Sie wählen, die Leistung zu optimieren, wird [!INCLUDE[prod_short](includes/prod_short.md)] neue Berechnungsmethoden verwenden, um Low-Level-Codes zu bestimmen. Wenn Sie eine Erweiterung haben, die sich auf die Ereignisse stützt, die von den alten Berechnungen verwendet wurden, funktioniert die Erweiterung möglicherweise nicht mehr.   
 
 ### <a name="locations--transfer-level-priority"></a>Lagerorte / Übertragung-Ebenen-Priorität  
 Unternehmen, die an mehr als einem Standort arbeiten, müssen möglicherweise für jeden Standort einzeln planen. Beispielsweise können sich der Sicherheitsbestand eines Artikels und dessen Wiederbeschaffungsrichtlinien sich von einem Lagerort zu einem anderen unterscheiden. In diesem Fall müssen die Planungsparameter pro Artikel und auch pro Lagerort angegeben werden.  
@@ -121,7 +121,7 @@ Planungen und Absatzplanungen stellen den voraussichtlichen Bedarf dar. Der Rahm
 
 ![Planen mit Prognosen](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planen mit Prognosen")  
 
-Weitere Informationen finden Sie im Abschnitt „Planungsbedarf wird durch Verkaufsaufträge reduziert“ unter [Laden der Lagerprofile](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Weitere Informationen finden Sie im Abschnitt [Planungsbedarf wird durch Verkaufsaufträge reduziert](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
 ## <a name="planning-assignment"></a>Planungszuweisung  
 Alle Artikel sollten eingeplant werden, es gibt jedoch keinen Grund, einen Plan für einen Artikel zu berechnen, es sei denn, es gab eine Änderung im Bedarfs- oder Vorratsmuster seit der letzten Berechnung des Plans.  
@@ -136,12 +136,12 @@ Der Grund für die Auswahl von Artikeln für die Planung hat mit der Systemleist
 
 Die vollständige Liste der Gründe für das Zuweisen eines Artikels für die Planung wird in [Designdetails: Planung von Zuweisungstabellen](design-details-planning-assignment-table.md) bereitgestellt.  
 
-Die Planungsoptionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] sind:  
+Die Planungsoptionen in [!INCLUDE[prod_short](includes/prod_short.md)] sind:  
 
 -   Neuplanung berechnen – Berechnet alle ausgewählten Artikel, ob dies erforderlich ist oder nicht.  
 -   Änderungsplanung berechnen – Berechnet nur die ausgewählten Artikel, bei denen einige Änderung im Bedarf-Vorrat-Muster aufgetreten sind, und die daher zur Planung zugewiesen wurden.  
 
-Einige Benutzer sind der Meinung, dass die Änderungsplanung im Durchgang ausgeführt werden sollte, etwa, wenn Verkaufsaufträge eingegeben werden. Jedoch kann dies verwirrend sein, da die dynamische Auftragsnachverfolgung und das Aktionsmessaging ebenfalls ad hoc berechnet werden. Außerdem bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Echtzeit-Lieferzusagesteuerung, die beim Buchen von Verkaufsaufträgen Popupwarnungen anzeigt, wenn der Bedarf im bestehenden Beschaffungsplan nicht gedeckt werden kann.  
+Einige Benutzer sind der Meinung, dass die Änderungsplanung im Durchgang ausgeführt werden sollte, etwa, wenn Verkaufsaufträge eingegeben werden. Jedoch kann dies verwirrend sein, da die dynamische Auftragsnachverfolgung und das Aktionsmessaging ebenfalls ad hoc berechnet werden. Außerdem bietet [!INCLUDE[prod_short](includes/prod_short.md)] eine Echtzeit-Lieferzusagesteuerung, die beim Buchen von Verkaufsaufträgen Popupwarnungen anzeigt, wenn der Bedarf im bestehenden Beschaffungsplan nicht gedeckt werden kann.  
 
 Zusätzlich zu diesen Fällen plant das Planungssystem nur Artikel, die der Benutzer mit entsprechenden Planungsparametern bereitgestellt hat. Andernfalls wird angenommen, dass der Benutzer die Artikel manuell oder halbautomatisch plant, indem er die Funktion "Auftragsplanung" verwendet.  
 
@@ -179,7 +179,7 @@ Serien-/Chargen-nummerierte Artikel ohne bestimmtes Artikelverfolgungssetup kön
 
 Bedarf-Vorrat mit Serien-/Chargennummern, spezifisch oder nicht-spezifisch, gilt als hohe Priorität und ist deshalb von der fixierten Zone ausgenommen; dies bedeutet, dass sie Teil der Planung sind, auch wenn sie vor dem Startdatum fällig sind.  
 
-Weitere Informationen finden Sie im Abschnitt „Serien-/Chargennummern werden nach Spezifikationsebene geladen“ unter [Laden von Bestandprofilen](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Weitere Informationen finden Sie im Abschnitt [Serien-/Chargennummern werden nach Spezifikationsebene geladen](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
 
 Weitere Informationen darüber, wie das Planungssystem Attribute ausgleicht, finden Sie unter [Serien-/Chargennummern und Auftrag-zu-Auftrag-Links sind von der fixierten Zone ausgenommen](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
@@ -270,13 +270,13 @@ Das Feld kann vom Benutzer manuell festgelegt werden, in einigen Fällen wird es
 Weitere Informationen darüber, wie dieses Feld verwendet wird, finden Sie unter [Designdetails: Umlagerungen von Planung](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Auftragsplanung  
-Das grundlegende Tool für die Beschaffungsplanung, das durch die Seite **Auftragsplanung** angegeben wird, ist für die manuelle Entscheidungsfindung gedacht. Berücksichtigt keine Planungsparameter und wird daher nicht weiter in diesem Dokument erläutert. Weitere Informationen zur Auftragsplanungsfunktion finden Sie in der Hilfe in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Das grundlegende Tool für die Beschaffungsplanung, das durch die Seite **Auftragsplanung** angegeben wird, ist für die manuelle Entscheidungsfindung gedacht. Berücksichtigt keine Planungsparameter und wird daher nicht weiter in diesem Dokument erläutert. Weitere Informationen finden Sie unter [Plan für neuen Nachfrageauftrag nach Auftrag](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Es wird nicht empfohlen, Auftragsplanung zu verwenden, wenn das Unternehmen bereits Planungs- oder Bestellvorschläge verwendet. Die über die Seite erstellten Beschaffungsaufträge **Auftragsplanung** können während der automatisierten Planungsläufe geändert oder gelöscht werden. Dies liegt daran, dass der automatisierte Planungslauf Planungsparameter verwendet und diese möglicherweise vom Benutzer nicht berücksichtigt werden, der den manuellen Plan auf der Seite "Auftragsplanung" erzeugt hat.  
 
 ##  <a name="finite-loading"></a>Begrenzte Auslastung  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ist ein Standard-ERP-System, kein Dispatching- oder Fertigungssteuerungssystem. Planung einer durchführbaren Nutzung von Ressourcen durch Bereitstellung eines Rohschnittzeitplans, jedoch keine automatische Erstellung und Verwaltung von detaillierten Plänen, die auf Prioritäten oder Optimierungsregeln basieren.  
+[!INCLUDE[prod_short](includes/prod_short.md)] ist ein Standard-ERP-System, kein Dispatching- oder Fertigungssteuerungssystem. Planung einer durchführbaren Nutzung von Ressourcen durch Bereitstellung eines Rohschnittzeitplans, jedoch keine automatische Erstellung und Verwaltung von detaillierten Plänen, die auf Prioritäten oder Optimierungsregeln basieren.  
 
 Die vorgesehene Verwendungsweise der Funktion „Begrenzte Kapazität“ ist 1): das Verhindern der Überladung bestimmter Ressourcen und 2): die Sicherstellung, dass keine Kapazität unzugewiesen bleibt, wenn dies die Durchlaufzeit eines Fertigungsauftrags erhöhen könnte. Die Funktion umfasst keine Funktionen oder Optionen zum Priorisieren oder Optimieren von Abläufen, wie etwa in einem Dispatchingsystem. Jedoch kann sie grobe Kapazitätsinformationen zur Verfügung stellen, die, nützlich sind, um Engpässe zu identifizieren und die Überlastung von Ressourcen zu verhindern.  
 
@@ -287,7 +287,7 @@ Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, das
 
 Die Toleranzzeit kann zu Ressourcen hinzugefügt werden, um die Aufteilung von Arbeitsgängen zu minimieren. Dies ermöglicht dem System, Auslastung am letzten möglichen Tag zu planen, indem es den kritischen Auslastungsprozentsatz etwas überschreitet, wenn dies die Anzahl der Arbeitsgänge verringern kann, die aufgeteilt werden.  
 
-Damit ist die Vorstellung der zentralen Konzept in Bezug auf die Beschaffungsplanung in [!INCLUDE[d365fin](includes/d365fin_md.md)] abgeschlossen. Die folgenden Abschnitte behandeln diese Konzepte eingehender und beschreiben sie im Kontext der zentralen Planungsvorgänge, des Ausgleichs von bedarf und Vorrat sowie der Verwendung von Wiederbeschaffungsrichtlinien.  
+Damit ist die Vorstellung der zentralen Konzept in Bezug auf die Beschaffungsplanung in [!INCLUDE[prod_short](includes/prod_short.md)] abgeschlossen. Die folgenden Abschnitte behandeln diese Konzepte eingehender und beschreiben sie im Kontext der zentralen Planungsvorgänge, des Ausgleichs von bedarf und Vorrat sowie der Verwendung von Wiederbeschaffungsrichtlinien.  
 
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)   

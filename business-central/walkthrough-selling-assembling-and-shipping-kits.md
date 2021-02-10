@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 097a1853b671afe582e40446c43cd628d807dfc0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918413"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035506"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits
 
@@ -31,13 +31,13 @@ In Basis-Lagerkonfigurationen bucht der zuständige Lagermitarbeiter für die je
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
 ### <a name="setting-up-assembly-items"></a>Montageartikel einrichten  
-Montageartikel sind durch ihre Beschaffungsmethode und die Montagestückliste charakterisiert. Die Montagerichtlinie des Artikels kann entweder Auftragsmontage- (ATO) oder Lagerfertigung (ATS) sein. Dieser Abschnitt behandelt die folgenden Aufgaben:  
+Montageartikel sind durch ihre Beschaffungsmethode und die Montagestückliste charakterisiert. Die Montagerichtlinie des Artikels kann entweder Programmfertigung (ATO) oder Lagerfertigung (ATS) sein. Dieser Abschnitt behandelt die folgenden Aufgaben:  
 
 -   Einrichten der korrekten Beschaffungsmethode und der Montagerichtlinie auf einer neuen Montageartikelkarte.  
 -   Erstellen einer Montagestückliste, die die Montagekomponenten und die Ressource auflistet, die zu dem Montageartikel gehören.  
 
 ### <a name="selling-customized-assembly-items"></a>Verkauf von benutzerdefinierten Montageartikeln  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet die Flexibilität, eine Lagermenge und eine Programmfertigungsmenge in einer Verkaufsauftragszeile einzugeben. Dieser Abschnitt behandelt die folgenden Aufgaben:  
+[!INCLUDE[prod_short](includes/prod_short.md)] bietet die Flexibilität, eine Lagermenge und eine Programmfertigungsmenge in einer Verkaufsauftragszeile einzugeben. Dieser Abschnitt behandelt die folgenden Aufgaben:  
 
 -   Erstellen einer reinen ATO-Verkaufsauftragszeile, in der die gesamte Menge nicht verfügbar ist und vor dem Warenausgang montiert werden muss.  
 -   Anpassen von ATO-Artikeln.  
@@ -79,13 +79,16 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 ## <a name="prerequisites"></a>Voraussetzungen  
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
--   Installieren von [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+-   Installieren von [!INCLUDE[prod_short](includes/prod_short.md)]  
 -   Machen Sie sich anhand der nachfolgenden Schritte selbst zu einem Lagermitarbeiter am Standort WHITE:  
 
 1.  Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Lagerort-Mitarbeiter** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
 3.  Geben Sie im Feld **Lagerortcode** WHITE ein.  
 4.  Wählen Sie das Feld **Standard** aus.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Bereiten Sie den Lagerort WHITE folgendermaßen für die Montageverarbeitung vor:  
 
@@ -286,7 +289,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
     > [!NOTE]  
     >  In diesem Abschnitt ist die Person, die für die Lieferung verantwortlich ist, für die Registrierung der abgeschlossenen ATO-Montagearbeit auf der Warenausgangszeile zuständig. Dieser Workflow kann in Umgebungen vorkommen, in denen die Montagearbeit von der Person, die für die Lieferung verantwortlich ist, bzw. von Montagearbeitern im Auslieferungsbereich durchgeführt wird.  
     >   
-    >  In diesem Abschnitt werden die Aktionen auf dem Montageauftrag indirekt von der Warenausgangszeile aus ausgeführt. Weitere Informationen darüber, wie ein Montageauftrag direkt verarbeitet wird, finden Sie unter "Artikel für Bestand montieren" in dieser Anleitung".  
+    >  In diesem Abschnitt werden die Aktionen auf dem Montageauftrag indirekt von der Warenausgangszeile aus ausgeführt. Weitere Informationen darüber, wie ein Montageauftrag direkt verarbeitet wird, finden Sie unter Artikel für Lager montieren in dieser Anleitung.  
 
 2.  Öffnen Sie den neuesten Warenausgang, der am Lagerort WHITE erstellt wurde.  
 
@@ -329,7 +332,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
     Lesen Sie die Fehlermeldung, die erläutert, warum dieses Feld nur durch das Feld **Versandmenge** auf der entsprechenden Lieferung ausgefüllt werden kann.  
 
-    Das Feld **Montagemenge** ist editierbar, um Situationen zu unterstützen, in denen Sie eine Lagermenge teilweise ausliefern möchten, anstatt mehr Einheiten für den Auftrag zu montieren. Weitere Informationen finden Sie im Abschnitt "Kombinationsszenarien" in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).  
+    Das Feld **Montagemenge** ist editierbar, um Situationen zu unterstützen, in denen Sie eine Lagermenge teilweise ausliefern möchten, anstatt mehr Einheiten für den Auftrag zu montieren. Weitere Informationen finden Sie im Abschnitt „Kombinationsszenarien“ in [Auftragsmontage und Lagermontage verstehen](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
 12. Schließen Sie die Seite **Montageauftrag**, um zur Seite **Warenausgang** zurückzukehren.  
 13. Geben Sie auf der Ausgangszeile für drei Einheiten von Kit B im Feld **Versandmenge** **3** ein.  
@@ -402,7 +405,7 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
 
 3.  Wählen Sie die Aktion **Pick erstellen** und dann die Schaltfläche **OK**.  
 
-    Führen Sie dann die letzte Aufgabe der Auswahl für diesen Warenausgang aus.  
+    Führen Sie dann die letzte Aufgabe der Auswahl für diesen Lagerausgang aus.  
 
 4.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kommissionierungen** ein und wählen Sie dann den entsprechenden Link.  
 5.  Öffnen Sie den Kommissionierungsbeleg, den Sie in Schritt 3 in diesem Abschnitt erstellt haben.  

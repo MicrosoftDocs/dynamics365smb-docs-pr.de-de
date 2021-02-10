@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6888c3cd599b9c85f67615e7f090d72e8cf5fa23
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 29bb70d54c4e5bb1dbc366a8f566e8247f4117ef
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915410"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759442"
 ---
 # <a name="setting-up-manufacturing"></a>Produktion einrichten
 Damit Material zu Fertigerzeugnissen verarbeitet werden kann, müssen im System Fertigungsressourcen wie Maschinisten und Maschinen eingerichtet werden.
@@ -30,7 +30,7 @@ Wenn Sie Produktion eingerichtet haben, können Sie Fertigungsaufträge berechne
 
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
-|Konfigurieren Sie die Produktionsfeatures, indem Sie beispielsweise Arbeitszeiten für den Fertigungsbereich definieren und Planungsparameter auswählen.|Öffnen Sie das **Produktion Einrichtung** -Fenster.|
+|Konfigurieren Sie die Produktionsfeatures, indem Sie beispielsweise Arbeitszeiten für den Fertigungsbereich definieren und Planungsparameter auswählen.|Öffnen Sie das **Produktion Einrichtung**-Fenster.|
 |Legen Sie auf der Registerkarte **Planung** auf der Seite **Produktion Einrichtung** globale Planungsparameter fest, die die auf einzelnen Artikelkarten festgelegten Parameter überschreiben.|[Designdetails: Planungsparameter](design-details-planning-parameters.md)|
 |Definieren einer Standardarbeitswoche mit Anfangs- und Endzeit der einzelnen Arbeitstage und der zugehörigen Schichten|[Einkaufskalender einrichten](production-how-to-create-work-center-calendars.md)|  
 |Organisieren der festen Werte und des festen Bedarfs einer Fertigungsressource zum Steuern der fertig gestellten Mengen, die von einem Arbeitsplatz erstellt werden|[Arbeitsplätze und Arbeitsplatzgruppen einrichten](production-how-to-set-up-work-and-machine-centers.md)|
@@ -46,4 +46,4 @@ Wenn Sie Produktion eingerichtet haben, können Sie Fertigungsaufträge berechne
 [Planung](production-planning.md)   
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

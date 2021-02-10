@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12d168b24ad28c3895ee7800b0ab5fed99861ec4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 05f45c0c7041771a63dc7b7c7a6b61512d67af2a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923295"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760067"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Exemplarische Vorgehensweise: Verwalten von Projekten
 
@@ -68,7 +68,7 @@ In dieser exemplarischen Vorgehensweise erhalten Sie eine Einführung in die Pro
 -   Erstellen Sie wie im folgenden Abschnitt beschrieben einige Beispieldaten.  
 
 ## <a name="story"></a>Hintergrund  
-Im Mittelpunkt dieser exemplarischen Vorgehensweise steht die CRONUS AG, ein Design- und Beratungsunternehmen, das neue Infrastrukturen schafft und anpasst, wie Konferenzräume und Büros mit Möbeln, Zubehör und Lagereinheiten. Der Großteil der Arbeiten ist projektorientierter Natur. Bernard ist Projektmanager bei CRONUS. Er verwendet das Projektmodul, da er sich damit einen Überblick über die einzelnen laufenden Projekte verschaffen kann, die CRONUS gestartet hat, wie auch über die abgeschlossenen Projekte. In der Regel ist er es, der die Geschäfte mit Debitoren einrichtet und die Kerndaten des Projekts, d.h. Aufgaben- und Planungszeilen sowie Preise, in [!INCLUDE[d365fin](includes/d365fin_md.md)] erfasst. Er findet, dass erstellen, verwalten, und Informationen prüfen einfach ist. Auch ist Bernhard schätzt die Art, wie [!INCLUDE[d365fin](includes/d365fin_md.md)] das Kopieren von Projekten sowie von Teilzahlungen ausführt.
+Im Mittelpunkt dieser exemplarischen Vorgehensweise steht die CRONUS AG, ein Design- und Beratungsunternehmen, das neue Infrastrukturen schafft und anpasst, wie Konferenzräume und Büros mit Möbeln, Zubehör und Lagereinheiten. Der Großteil der Arbeiten ist projektorientierter Natur. Bernard ist Projektmanager bei CRONUS. Er verwendet das Projektmodul, da er sich damit einen Überblick über die einzelnen laufenden Projekte verschaffen kann, die CRONUS gestartet hat, wie auch über die abgeschlossenen Projekte. In der Regel ist er es, der die Geschäfte mit Debitoren einrichtet und die Kerndaten des Projekts, d.h. Aufgaben- und Planungszeilen sowie Preise, in [!INCLUDE[prod_short](includes/prod_short.md)] erfasst. Er findet, dass erstellen, verwalten, und Informationen prüfen einfach ist. Auch ist Bernhard schätzt die Art, wie [!INCLUDE[prod_short](includes/prod_short.md)] das Kopieren von Projekten sowie von Teilzahlungen ausführt.
 
  Katrin, ein Projektteammitglied, das Bernard unterstellt ist, ist für die tägliche Überwachung des Projekts zuständig. Sie gibt ihre eigene Arbeit zusätzlich zu der Arbeit ein, die von Technikern für jede Aufgabe ausgeführt wird. Sie speichert die Artikel, die sie verwendet haben und die Kosten, die sie verursacht haben.  
 
@@ -81,18 +81,18 @@ Im Mittelpunkt dieser exemplarischen Vorgehensweise steht die CRONUS AG, ein Des
 2.  Wählen Sie die **Neu** Aktion aus, um eine neue Ressourcenkarte zu erstellen.  
 3.  Geben Sie auf dem Inforegister **Allgemein** die folgenden Informationen ein:  
 
-    - **Nr.** : **Katrin**  
-    - **Name** : **Katrin**  
-    - **Art** : **Person**  
+    - **Nr.**: **Katrin**  
+    - **Name**: **Katrin**  
+    - **Art**: **Person**  
 
-4.  Wählen Sie im Feld **Basismaßeinheit** die Option **Neu** , um die Seite **Ressourceneinheit** zu öffnen. Wählen Sie im Feld **Code** die Option **Stunde** aus.  
+4.  Wählen Sie im Feld **Basismaßeinheit** die Option **Neu**, um die Seite **Ressourceneinheit** zu öffnen. Wählen Sie im Feld **Code** die Option **Stunde** aus.  
 5.  Geben Sie auf dem Inforegister **Fakturierung** die folgenden Informationen ein:  
 
-    -   **EK-Preis** : **5**  
-    -   **Kosten %** : **4**  
-    -   **Einstandspreis** : **10**  
-    -   **Produktbuchungsgruppe** : **Services**  
-    -   **MwSt.-Produktbuchungsgruppe** : **25 % MwSt.**  
+    -   **EK-Preis**: **5**  
+    -   **Kosten %**: **4**  
+    -   **Einstandspreis**: **10**  
+    -   **Produktbuchungsgruppe**: **Services**  
+    -   **MwSt.-Produktbuchungsgruppe**: **25 % MwSt.**  
 
 6. Schließen Sie die Seite.
 
@@ -104,11 +104,11 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
 2.  Wählen Sie auf der Seite **Projekt Buch.-Blatt** das Feld **Buch.-Blattname** aus. Die Seite **Projekt Buch.-Blattnamen** wird geöffnet.  
 3.  Wählen Sie auf der Registerkarte Start die Option **Neu** aus, um eine neue Zeile mit folgender Information zu erstellen.  
 
-    -   **Name** : **Katrin**  
-    -   **Beschreibung** : **Katrin**  
-    -   **Nummernserie** : **PRJ-BCHBL**  
+    -   **Name**: **Katrin**  
+    -   **Beschreibung**: **Katrin**  
+    -   **Nummernserie**: **PRJ-BCHBL**  
 
-4.  Klicken Sie auf die Schaltfläche **OK** , um die Änderungen zu speichern.
+4.  Klicken Sie auf die Schaltfläche **OK**, um die Änderungen zu speichern.
 
 ## <a name="setting-up-a-job"></a>Einrichten eines Projekts  
  In diesem Szenario hat CRONUS einen Vertrag mit einem Kunden, Progressive Home Furnishings, für den Entwurf eines Konferenz- und Speisesaals abgeschlossen. Der Debitor hat seinen Sitz in den USA, und für das Projekt ist spezielle Software erforderlich. Der Projektmanager trifft eine Vereinbarung mit dem Debitoren und erstellt ein Projekt für den Vertrag.  
@@ -119,14 +119,14 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
 2.  Wählen Sie die **Neu** Aktion aus, um eine neue Ressourcenkarte zu erstellen.  
 3.  Geben Sie auf dem Inforegister **Allgemein** die folgenden Informationen ein:  
 
-    -   **Beschreibung** : **Beratung zur Einrichtung des Konferenzraums**  
-    -   **Rech. an Deb.-Nr.** : **01445544**  
+    -   **Beschreibung**: **Beratung zur Einrichtung des Konferenzraums**  
+    -   **Rech. an Deb.-Nr.**: **01445544**  
 
 4.  Geben Sie auf dem Inforegister **Buchung** die folgenden Informationen ein:  
 
-    -   **Status** : **Planung**  
-    -   **Projektbuchungsgruppe** : **Einrichten**  
-    -   **WIP-Methode** : **Einstandswert**  
+    -   **Status**: **Planung**  
+    -   **Projektbuchungsgruppe**: **Einrichten**  
+    -   **WIP-Methode**: **Einstandswert**  
 
 5.  Geben Sie auf dem Inforegister **Dauer** das heutige Datum in die Felder **Startdatum** und **Enddatum** ein. Diese Datumsangaben werden bei der Fakturierung des Projekts zur Währungsumrechnung verwendet.  
 6.  Stellen Sie auf dem Inforegister **Außenhandel** sicher, dass der Währungscode auf **USD** festgelegt ist. Wenn Sie im Feld **Währungscode Rechnung** die Option "USD" auswählen, wird der Auftrag in US-Dollar fakturiert und nur in der lokalen Währung von CRONUS geplant.  
@@ -138,22 +138,22 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
 1.  Von der Projektkarte wählen Sie die **Ressource** Aktion aus.  
 2.  Geben Sie auf der Seite **Res.-VK-Preise Projekt** die folgenden Informationen ein:  
 
-    -   **Code** : **Katrin**  
-    -   **VK-Preis** : **20**  
+    -   **Code**: **Katrin**  
+    -   **VK-Preis**: **20**  
 
 3.  Schließen Sie die Seite.  
 4.  Wählen Sie die Aktion **Artikel** aus.  
 5.  Geben Sie auf der Seite **Projektartikelpreise** die folgenden Informationen und den folgenden angepassten Preis ein:  
 
-    1.  **Artikelnr.** : **80201 (Grafikprogramm)**  
-    2.  **VK-Preis** : **200**  
+    1.  **Artikelnr.**: **80201 (Grafikprogramm)**  
+    2.  **VK-Preis**: **200**  
 
 6.  Schließen Sie die Seite.  
 7.  Wählen Sie die **Sachkonto** Aktion aus.  
 8.  Geben Sie auf der Seite **Projekt-Sachkontopreise** die folgenden Werte sowie die Reisekosten ein, für die Sie mit dem Debitor vereinbart haben, dass er sie zuzüglich 25 Prozent übernimmt.  
 
-    1.  **Sachkonto** : **8430 (Reisekosten)**  
-    2.  **Einstandspreis** : **1,25**  
+    1.  **Sachkonto**: **8430 (Reisekosten)**  
+    2.  **Einstandspreis**: **1,25**  
 
 9. Schließen Sie die Seite.  
 
@@ -171,15 +171,15 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
     |1020|Entwicklung|Buchen|  
     |1090|Beratung insgesamt|Bis-Summe|  
 
-3.  Um anzuzeigen, dass einige Aufgaben Unterkategorien anderer Aufgaben sind, wählen Sie die Aktion **Projektaufgaben einrücken** .  
+3.  Um anzuzeigen, dass einige Aufgaben Unterkategorien anderer Aufgaben sind, wählen Sie die Aktion **Projektaufgaben einrücken**.  
 
  Eine Planungszeile kann von einer der folgenden Arten sein:  
 
--   **Plan** : Dem Plan hinzugefügt, aber noch nicht fakturiert.  
--   **Vertrag** : Fakturiert, aber nicht dem Plan hinzugefügt.  
--   **Budgetiert und verrechenbar** : Fakturiert und dem Plan hinzugefügt.  
+-   **Plan**: Dem Plan hinzugefügt, aber noch nicht fakturiert.  
+-   **Vertrag**: Fakturiert, aber nicht dem Plan hinzugefügt.  
+-   **Budgetiert und verrechenbar**: Fakturiert und dem Plan hinzugefügt.  
 
- In dieser exemplarischen Vorgehensweise verwendet der Projektmanager **Budgetiert und verrechenbar** . Er erstellt drei Planungszeilen für die Aufgabe 1010 und zwei Planungszeilen für die Aufgabe 1020.  
+ In dieser exemplarischen Vorgehensweise verwendet der Projektmanager **Budgetiert und verrechenbar**. Er erstellt drei Planungszeilen für die Aufgabe 1010 und zwei Planungszeilen für die Aufgabe 1020.  
 
 ### <a name="to-create-planning-lines"></a>So erstellen Sie Planungszeilen  
 
@@ -187,64 +187,64 @@ Im folgenden Verfahren erstellen Sie eine Projektbuchungsblatt für Katrin, um d
 
      **Zeile 1**  
 
-    -   **Zeilenart** : **Budgetiert und verrechenbar**  
-    -   **Planungsdatum** : **(heutiges Datum)**  
-    -   **Art** : **Ressource**  
-    -   **Nr.** : **Katrin**  
-    -   **Menge** : **40**  
+    -   **Zeilenart**: **Budgetiert und verrechenbar**  
+    -   **Planungsdatum**: **(heutiges Datum)**  
+    -   **Art**: **Ressource**  
+    -   **Nr.**: **Katrin**  
+    -   **Menge**: **40**  
 
      **Zeile 2**  
 
-    -   **Zeilenart** : **Budgetiert und verrechenbar**  
-    -   **Planungsdatum** : **(heutiges Datum)**  
-    -   **Art** : **Ressource**  
-    -   **Nr.** : **Thorsten**  
-    -   **Menge** : **40**  
+    -   **Zeilenart**: **Budgetiert und verrechenbar**  
+    -   **Planungsdatum**: **(heutiges Datum)**  
+    -   **Art**: **Ressource**  
+    -   **Nr.**: **Thorsten**  
+    -   **Menge**: **40**  
 
      **Zeile 3**  
 
-    -   **Zeilenart** : **Budgetiert und verrechenbar**  
-    -   **Planungsdatum** : **(heutiges Datum)**  
-    -   **Art** : **Sachkonto**  
-    -   **Nr.** : **8430 (Reise)**  
-    -   **Menge** : **2**  
-    -   **Einstandspreis** : **400**  
+    -   **Zeilenart**: **Budgetiert und verrechenbar**  
+    -   **Planungsdatum**: **(heutiges Datum)**  
+    -   **Art**: **Sachkonto**  
+    -   **Nr.**: **8430 (Reise)**  
+    -   **Menge**: **2**  
+    -   **Einstandspreis**: **400**  
 
 2.  Schließen Sie die Seite. Die Summen werden auf der Seite **Projektaufgabenzeilen** aktualisiert.  
 3.  Wählen Sie die Zeile 1020 und wählen Sie dann die Aktion **Projektplanzeilen** aus. Geben Sie die folgenden Informationen ein:  
 
      **Zeile 1**  
 
-    -   **Zeilenart** : **Budgetiert und verrechenbar**  
-    -   **Planungsdatum** : **(heutiges Datum)**  
-    -   **Art** : **Ressource**  
-    -   **Nr.** : **Katrin**  
-    -   **Menge** : **80**  
+    -   **Zeilenart**: **Budgetiert und verrechenbar**  
+    -   **Planungsdatum**: **(heutiges Datum)**  
+    -   **Art**: **Ressource**  
+    -   **Nr.**: **Katrin**  
+    -   **Menge**: **80**  
 
      **Zeile 2**  
 
-    -   **Zeilenart** : **Budgetiert und verrechenbar**  
-    -   **Planungsdatum** : **(heutiges Datum)**  
-    -   **Art** : **Artikel**  
-    -   **Nr.** : **80201 (Grafikprogramm)**  
-    -   **Menge** : **1**  
+    -   **Zeilenart**: **Budgetiert und verrechenbar**  
+    -   **Planungsdatum**: **(heutiges Datum)**  
+    -   **Art**: **Artikel**  
+    -   **Nr.**: **80201 (Grafikprogramm)**  
+    -   **Menge**: **1**  
 
 4.  Schließen Sie die Seite. Die Summen werden auf der Seite **Projektaufgabenzeilen** aktualisiert.  
 
 ## <a name="calculating-remaining-usage"></a>Berechnen des Restverbrauchs  
- Katrin, das Teamprojektmitglied, arbeitet seit einiger Zeit an dem Projekt und möchte ihre Stunden und ihren Verbrauch für das Projekt erfassen. Sie hat nicht mehr gearbeitet, als vorab mit dem Debitoren vereinbart wurde. Sie verwendet den Batchauftrag **Restverbrauch berechnen** , um den Restverbrauch für das Projekt in einem Projektbuchhaltungsblatt zu berechnen. Mithilfe der Stapelverarbeitung wird für jede Projektaufgabe die Differenz zwischen dem geplanten Verbrauch von Artikeln, Ressourcen und Aufwandssachposten und dem in Projektposten gebuchten tatsächlichen Verbrauch berechnet. Der Restverbrauch wird dann im Projektbuchungsblatt angezeigt, von dem aus sie eine Buchung vornehmen kann.  
+ Katrin, das Teamprojektmitglied, arbeitet seit einiger Zeit an dem Projekt und möchte ihre Stunden und ihren Verbrauch für das Projekt erfassen. Sie hat nicht mehr gearbeitet, als vorab mit dem Debitoren vereinbart wurde. Sie verwendet den Batchauftrag **Restverbrauch berechnen**, um den Restverbrauch für das Projekt in einem Projektbuchhaltungsblatt zu berechnen. Mithilfe der Stapelverarbeitung wird für jede Projektaufgabe die Differenz zwischen dem geplanten Verbrauch von Artikeln, Ressourcen und Aufwandssachposten und dem in Projektposten gebuchten tatsächlichen Verbrauch berechnet. Der Restverbrauch wird dann im Projektbuchungsblatt angezeigt, von dem aus sie eine Buchung vornehmen kann.  
 
 ### <a name="to-calculate-remaining-usage"></a>So berechnen Sie den Restverbrauch  
 
 1.  Wählen Sie das Symbol ![Glühbirne , das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
-2.  Öffnen Sie auf der Seite **Projekt Buch.-Blatt** im Feld **Buch.-Blattname** die Liste **Projekt Buch.-Blattnamen** . Wählen Sie den Projekt-Buchungsblattnamen **Katrin** aus.  
-3.  Wächlen Sie im Aktionsbereich **Restverbrauch** .  
+2.  Öffnen Sie auf der Seite **Projekt Buch.-Blatt** im Feld **Buch.-Blattname** die Liste **Projekt Buch.-Blattnamen**. Wählen Sie den Projekt-Buchungsblattnamen **Katrin** aus.  
+3.  Wächlen Sie im Aktionsbereich **Restverbrauch**.  
 4.  Wählen Sie auf der Seite **Restverbrauch für Projekt berechnen** im Inforegister **Projektaufgabe** das Feld **Projektnr.** aus, und wählen die Jobnummer des entsprechenden Projekts, üblicherweise Projekt J00010.  
 5.  Geben Sie auf dem Inforegister **Optionen** die Nummer **PW00001** in das Feld **Belegnr.** ein. Dadurch wird die zukünftige Nachverfolgung der Buchung vereinfacht.  
 6.  Geben Sie als Buchungsdatum das heutige Datum ein.  
 7.  Wählen Sie die Schaltfläche **OK** aus. Dadurch werden alle Projekt-Buchungsblattzeilen generiert, die von den von Bernard erstellten Planungszeilen für das Projektbuchhaltungsblatt abgeleitet wurden.  
 8.  Wählen Sie die Schaltfläche **OK** aus auf der Bestätigungsseite. Die generierten Zeilen werden dem Projekt-Buchungsblatt hinzugefügt.  
-9. Stellen Sie sicher, dass für alle Belegnummern J00001 angezeigt wird. Klicken Sie auf Aktionen, zeigen Sie auf **Buchen** , und klicken Sie dann auf Buchen. Wählen Sie **Ja** , um die Buchung zu bestätigen.  
+9. Stellen Sie sicher, dass für alle Belegnummern J00001 angezeigt wird. Klicken Sie auf Aktionen, zeigen Sie auf **Buchen**, und klicken Sie dann auf Buchen. Wählen Sie **Ja**, um die Buchung zu bestätigen.  
 
 Die Zeilen werden gebucht.  
 
@@ -265,7 +265,7 @@ Die Zeilen werden gebucht.
 
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Rechnung für die Debitorennummer 01445544. Die aus den Planungszeilen erfassten Informationen werden angezeigt.  
-3.  Wählen Sie die Aktion **Buchen** aus. Wählen Sie **Ja** , um die Buchung zu bestätigen.  
+3.  Wählen Sie die Aktion **Buchen** aus. Wählen Sie **Ja**, um die Buchung zu bestätigen.  
 
 ### <a name="to-view-the-posted-invoice"></a>So zeigen Sie die gebuchte Rechnung an  
 
@@ -279,7 +279,7 @@ Die Zeilen werden gebucht.
 
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Statistik** aus. Sie können detaillierte Informationen über die Projektverkaufspreise, Kosten und Gewinne in lokalen und fremden Währungen anzeigen.  
-3.  Wählen Sie die Schaltfläche **Schließen** , um die Seite **Projektstatistik** zu schließen.  
+3.  Wählen Sie die Schaltfläche **Schließen**, um die Seite **Projektstatistik** zu schließen.  
 
 ## <a name="handling-fixed-prices"></a>Verwenden von Festpreisen  
  CRONUS wurde abgeschlossen, um Konferenzräume einrichten. Als Projekt-Manager benötigt Bernard einen umfassenden Überblick über die erforderlichen Aufgaben für das Projekt sowie die zugehörigen budgetierten und angefallenen Kosten für jede Aufgabe. Zudem möchte er den vertraglich vereinbarten Verkaufsbetrag für das Projekt und den bisher fakturierten Betrag ermitteln. Er hat mit dem Debitoren Festpreise für das Projekt vereinbart.  
@@ -287,7 +287,7 @@ Die Zeilen werden gebucht.
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>So verwalten Sie Festpreise in Projekten  
 
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie die Projektnummer **Guildford** , und wählen Sie die **Projektaufgabenzeilen** Aktion aus.  
+2.  Wählen Sie die Projektnummer **Guildford**, und wählen Sie die **Projektaufgabenzeilen** Aktion aus.  
 3.  Wählen Sie die Zeile 1120 aus, klicken Sie im Feld **Plan (Einstandsbetrag)** mit der rechten Maustaste auf den Betrag, und wählen Sie **DrillDown** aus.  
 
      Beim Überprüfen der Projektplanungszeilen stellt Bernard fest, dass er Katrin in dieser Phase des Projekts für 30 Stunden benötigt. Er vereinbart einen Festpreis mit dem Debitoren.  
@@ -295,13 +295,13 @@ Die Zeilen werden gebucht.
 4.  Auf der Seite **Projekt Buch,-Blatt** wählen Sie die Zeile 1120 und wählen die Aktion **Buchen** aus.  
 5.  Wählen Sie auf der Registerkarte Start die Option **Neu** aus, um eine neue Zeile mit folgender Information zu erstellen.  
 
-    -   **Zeilenart** : **Budgetiert und verrechenbar**  
-    -   **Art** : **Ressource**  
-    -   **Nr.** : **Katrin**  
-    -   **Menge** : **30**  
+    -   **Zeilenart**: **Budgetiert und verrechenbar**  
+    -   **Art**: **Ressource**  
+    -   **Nr.**: **Katrin**  
+    -   **Menge**: **30**  
 
 7.  Schließen Sie die Seite.  
-8.  Klicken Sie mit der rechten Maustaste im Feld **Plan (Einstandsbetrag)** , und wählen Sie erneut **Drilldown** auf der Seite **Projektaufgabenzeilen** aus. Zeigen Sie die Änderungen am Plan an. Die 30 Stunden wurden dem Plan hinzugefügt.  
+8.  Klicken Sie mit der rechten Maustaste im Feld **Plan (Einstandsbetrag)**, und wählen Sie erneut **Drilldown** auf der Seite **Projektaufgabenzeilen** aus. Zeigen Sie die Änderungen am Plan an. Die 30 Stunden wurden dem Plan hinzugefügt.  
 9. Schließen Sie die Seiten.  
 
 Nachdem Katrin dem Plan für diese Aufgabenzeile hinzugefügt wurde, arbeitet sie 25 Stunden an dem Projekt. Sie trägt diese Stunden in das Projektbuchungsblatt ein.  
@@ -311,54 +311,54 @@ Nachdem Katrin dem Plan für diese Aufgabenzeile hinzugefügt wurde, arbeitet si
 1.  Wählen Sie das Symbol ![Glühbirne , das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Projekt Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
 2.  Geben Sie in einer neuen Zeile die folgenden Informationen ein:  
 
-    -   **Zeilenart** : **(leer)**  
-    -   **Buchungsdatum** : **(heutiges Datum)**  
-    -   **Belegnr.** : **J00002**  
-    -   **Projektnr.** : **Bäderwelt**  
-    -   **Projektaufgabennr.** : **1120**  
-    -   **Art** : **Ressource**  
-    -   **Nr.** : **Katrin**  
-    -   **Menge** : **25**  
+    -   **Zeilenart**: **(leer)**  
+    -   **Buchungsdatum**: **(heutiges Datum)**  
+    -   **Belegnr.**: **J00002**  
+    -   **Projektnr.**: **Bäderwelt**  
+    -   **Projektaufgabennr.**: **1120**  
+    -   **Art**: **Ressource**  
+    -   **Nr.**: **Katrin**  
+    -   **Menge**: **25**  
 
 3.  Wählen Sie die Aktion **Buchen** aus.  
 
      Einige Tage später arbeitet Katrin weitere 10 Stunden an dem Projekt. Sie hat jetzt insgesamt 35 Stunden an dem Projekt gearbeitet. Da Sie nur 30 Stunden mit dem Debitoren vereinbart haben, werden dem Debitoren nur fünf dieser Stunden in Rechnung gestellt. Katrin fügt manuell die fünf zusätzlichen Stunden hinzu, in denen sie den Plan bearbeitete.  
 
-4.  Wählen Sie auf der Seite **Projekt Buch.-Blatt** auf der Registerkarte Start die Option **Restverbrauch berechnen** .  
+4.  Wählen Sie auf der Seite **Projekt Buch.-Blatt** auf der Registerkarte Start die Option **Restverbrauch berechnen**.  
 5.  Geben auf der Seite **Restverbrauch für Projekt berechnen** im Inforegister **Optionen** die folgenden Informationen ein:  
 
-    -   **Belegnr.** : **J00003**  
-    -   **Buchungsdatum** : **(heutiges Datum)**  
+    -   **Belegnr.**: **J00003**  
+    -   **Buchungsdatum**: **(heutiges Datum)**  
 
 6.  Geben Sie auf dem Inforegister **Projektaufgabe** die folgenden Informationen ein:  
 
-    -   **Projektnr.** : **Bäderwelt**  
-    -   **Projektaufgabennr.** : **1120**  
+    -   **Projektnr.**: **Bäderwelt**  
+    -   **Projektaufgabennr.**: **1120**  
 
-7. Klicken Sie auf die Schaltfläche **OK** , um die Berechnung auszuführen.
+7. Klicken Sie auf die Schaltfläche **OK**, um die Berechnung auszuführen.
 
     Es gibt fünf Arbeitsstunden, die für Katrin bleiben. Das Feld **Zeilenart** ist leer; dies gibt an, dass nur der Verbrauch gebucht werden muss, da die Arbeit bereits geplant wurde.  
 
 8.  Erstellen Sie im **Projekt Buch.-Blatt** eine neue Zeile mit den folgenden Informationen. Prüfen Sie, ob beide Projektnummern Folgenummern derer, die Sie bereits verwendet haben:  
 
-    -   **Zeilenart** : **Plan**  
-    -   **Projektnr.** : **Bäderwelt**  
-    -   **Projektaufgabennr.** : **1120**  
-    -   **Art** : **Ressource**  
-    -   **Nr.** : **Katrin**  
-    -   **Menge** : **5**  
+    -   **Zeilenart**: **Plan**  
+    -   **Projektnr.**: **Bäderwelt**  
+    -   **Projektaufgabennr.**: **1120**  
+    -   **Art**: **Ressource**  
+    -   **Nr.**: **Katrin**  
+    -   **Menge**: **5**  
 
      Durch die Verwendung der Zeilenart **Plan** werden die geplanten Kosten und der Preis aktualisiert, ohne die dem Debitoren in Rechnung gestellten Einstandsbeträge und Preise aus dem Vertrag zu aktualisieren.  
 
-9.  Wählen Sie die Aktion **Buchen** aus. Wählen Sie die Schaltfläche **OK** , um die Seite zu schließen.  
-10. Öffnen Sie die Liste **Projekte** .  
+9.  Wählen Sie die Aktion **Buchen** aus. Wählen Sie die Schaltfläche **OK**, um die Seite zu schließen.  
+10. Öffnen Sie die Liste **Projekte**.  
 11. Wählen Sie das GUILDFORD Projekte und wählen Sie dann die Aktion **Projektplanzeilen** aus.  
 12. Wählen Sie die Zeile 1120 aus, und klicken Sie im Feld **Plan (Einstandsbetrag)** mit der rechten Maustaste auf den Betrag. Wählen Sie **DrillDown** aus, um die Informationen anzuzeigen.  
 
      Sie können sehen, dass die Änderungen automatisch in der Zeile für die Projektaufgabennummer 1120 eingegeben wurden. Im Einstandsbetrag der geplanten Arbeit sind fünf zusätzliche Arbeitsstunden von Katrin dem Plan hinzugefügt worden.  
 
-13. Klicken Sie auf die Schaltfläche **Schließen** , um die Seite zu schließen.  
-14. Klicken Sie mit der rechten Maustaste auf den Betrag im Feld **Vertrag (Einstandsbetrag)** , und wählen Sie dann **DrillDown** aus, um die Informationen anzuzeigen.  
+13. Klicken Sie auf die Schaltfläche **Schließen**, um die Seite zu schließen.  
+14. Klicken Sie mit der rechten Maustaste auf den Betrag im Feld **Vertrag (Einstandsbetrag)**, und wählen Sie dann **DrillDown** aus, um die Informationen anzuzeigen.  
 
 Im Einstandsbetrag des Vertrags werden nur die ursprünglich im Vertrag festgesetzten 30 Stunden angezeigt, da dies mit dem Debitoren vereinbart wurde.  
 
@@ -372,20 +372,20 @@ Im Einstandsbetrag des Vertrags werden nur die ursprünglich im Vertrag festgese
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die **Neu** Aktion aus, um eine neue Ressourcenkarte zu erstellen. Geben Sie die folgenden Informationen ein:  
 
-    -   **Beschreibung** : **Zehn Konferenzräume einrichten**  
-    -   **Rech. an Deb.-Nr.** : **20000**  
+    -   **Beschreibung**: **Zehn Konferenzräume einrichten**  
+    -   **Rech. an Deb.-Nr.**: **20000**  
 
 3.  Wählen Sie die Aktion **Von Workflowvorlage kopieren** aus.  
 4.  Geben Sie auf der Seite **Projektaufgaben kopieren** Folgendes ein:  
 
-    -   **Projektnr.** : **Bäderwelt**  
-    -   **Projektaufgabennr. von** : **1000**  
-    -   **Herkunft** : **Projektplanzeilen**  
-    -   **Inkl. Planzeilenart** : **Plan+Vertrag**  
+    -   **Projektnr.**: **Bäderwelt**  
+    -   **Projektaufgabennr. von**: **1000**  
+    -   **Herkunft**: **Projektplanzeilen**  
+    -   **Inkl. Planzeilenart**: **Plan+Vertrag**  
     -   **Zu Projekt-Nr.** **Guildford-Einstellung bis zu 10 Konferenzräume**  
-    -   Aktivieren Sie die Felder **Dimensionen kopieren** und **Menge kopieren** .  
+    -   Aktivieren Sie die Felder **Dimensionen kopieren** und **Menge kopieren**.  
 
-5.  Wählen Sie die Schaltfläche **OK** , um das Projekt zu kopieren und wählen Sie dann die Schaltfläche **OK** , um die Bestätigungsseite zu schließen.  
+5.  Wählen Sie die Schaltfläche **OK**, um das Projekt zu kopieren und wählen Sie dann die Schaltfläche **OK**, um die Bestätigungsseite zu schließen.  
 
 Indem Sie Preise, Projektaufgabenzeilen und Projektplanungszeilen für die beiden Projekte vergleichen, können Sie sehen, dass die Informationen erfolgreich kopiert wurden.  
 
@@ -395,11 +395,11 @@ Indem Sie Preise, Projektaufgabenzeilen und Projektplanungszeilen für die beide
 ### <a name="to-set-up-a-new-account"></a>So richten Sie ein neues Konto ein  
 
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kontenplan** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie auf der Seite **Kontenplan** auf der Registerkarte Start die Option **Neu** , um eine neue Karte zu erstellen.  
+2.  Wählen Sie auf der Seite **Kontenplan** auf der Registerkarte Start die Option **Neu**, um eine neue Karte zu erstellen.  
 3.  Geben Sie auf der Karte **Neues Sachkonto** die folgenden Informationen ein:  
 
-    -   **Nr.** : **6630**  
-    -   **Name** : **Projektbezahlung**  
+    -   **Nr.**: **6630**  
+    -   **Name**: **Projektbezahlung**  
 
 4.  Wählen Sie auf dem Inforegister **Buchung** im Feld **Produktbuchungsgruppe** die Option **SONST** aus. Schließen Sie die Seite.  
 5.  Wählen sie auf der Seite **Kontenplan** die Option **Nr. - 6630 Projektbezahlung** und auf der Registerkarte Start in der Gruppe Vorgang die Option **Einrückung des Kontenplans** aus. Wählen Sie **Ja** aus, um den Vorgang zu bestätigen.  
@@ -411,15 +411,15 @@ Indem Sie Preise, Projektaufgabenzeilen und Projektplanungszeilen für die beide
 1.  Erstellen Sie ein neues Projekt.  
 2.  Geben Sie auf der neuen Karte **Projekt** die folgenden Informationen ein:  
 
-    -   **Beschreibung** : **Neugestaltung des Empfangsbereichs**  
-    -   **Rech. an Deb.-Nr.** : **30000**  
-    -   **Projektbuchungsgruppe** : **Einrichten**  
-    -   **WIP-Methode** : **Einstandswert**  
+    -   **Beschreibung**: **Neugestaltung des Empfangsbereichs**  
+    -   **Rech. an Deb.-Nr.**: **30000**  
+    -   **Projektbuchungsgruppe**: **Einrichten**  
+    -   **WIP-Methode**: **Einstandswert**  
 
 3.  Von der Projektkarte wählen Sie die **Ressource** Aktion aus. Geben Sie die folgenden Informationen ein:  
 
-    -   **Code** : **Katrin**  
-    -   **VK-Preis** : **10**  
+    -   **Code**: **Katrin**  
+    -   **VK-Preis**: **10**  
 
      Schließen Sie die Seite.  
 
@@ -437,16 +437,16 @@ Indem Sie Preise, Projektaufgabenzeilen und Projektplanungszeilen für die beide
 5.  Auf der Seite **Projekt Buch,-Blatt** wählen Sie die Aufgabe 1000 und wählen die Aktion **Buchen** aus.  
 6.  Erstellen Sie eine Planungszeile mit den folgenden Informationen:  
 
-    -   **Zeilenart** : **Vertrag**  
-    -   **Planungsdatum** :  **(heutiges Datum)**  
-    -   **Art** : **Sachkonto**  
-    -   **Nr.** : **6630**  
-    -   **Menge** : **1**  
-    -   **VK-Preis** : **5000**  
+    -   **Zeilenart**: **Vertrag**  
+    -   **Planungsdatum**:  **(heutiges Datum)**  
+    -   **Art**: **Sachkonto**  
+    -   **Nr.**: **6630**  
+    -   **Menge**: **1**  
+    -   **VK-Preis**: **5000**  
 
      Schließen Sie die Seite.  
 
-7.  Wählen Sie auf der Seite **Projektaufgabenzeilen** die option **Aufgabe 2000** aus, und öffnen Sie seine **Projektplanzeilen** .  
+7.  Wählen Sie auf der Seite **Projektaufgabenzeilen** die option **Aufgabe 2000** aus, und öffnen Sie seine **Projektplanzeilen**.  
 
      In der folgenden Tabelle wird die Planung, die Sie erstellen, beschrieben.  
 
@@ -460,12 +460,12 @@ Indem Sie Preise, Projektaufgabenzeilen und Projektplanungszeilen für die beide
 8.  Wählen Sie auf der Seite **Projektaufgabenzeilen** die **Aufgabe 3000** aus.  
 9. Erstellen Sie eine Planungszeile mit den folgenden Informationen:  
 
-    -   **Zeilenart** : **Vertrag**  
-    -   **Planungsdatum** : **ein zukünftigen Datum**  
-    -   **Art** : **Sachkonto**  
-    -   **Nr.** : **6630**  
-    -   **Menge** : **1**  
-    -   **VK-Preis** : **5000**  
+    -   **Zeilenart**: **Vertrag**  
+    -   **Planungsdatum**: **ein zukünftigen Datum**  
+    -   **Art**: **Sachkonto**  
+    -   **Nr.**: **6630**  
+    -   **Menge**: **1**  
+    -   **VK-Preis**: **5000**  
 
      Schließen Sie die Seite.  
 
@@ -476,11 +476,11 @@ Indem Sie Preise, Projektaufgabenzeilen und Projektplanungszeilen für die beide
 ### <a name="to-create-an-invoice"></a>So erstellen Sie eine Rechnung  
 
 1.  Auf der Seite **Projekt Buch,-Blatt** wählen Sie die Zeile 1000 und wählen die Aktion **Verkaufsrechung erstellen** aus.  
-2.  Legen Sie auf der Seite **Verkaufsrechnung erstellen** das heutige Datum als Buchungsdatum fest, geben Sie **" Nach Aufgabe** an, und wählen Sie die Schaltfläche **OK** , um eine Rechnung mit den Standardinformationen zu erstellen. Klicken Sie auf **OK** , um die Bestätigungsseite zu schließen.  
-3.  Wählen Sie die Aktion **Verkaufsrechnung/Gutschrift** . Auf der Verkaufsrechnung können Sie sehen, dass die Rechnung nur die Anzahlung enthält. Diese Rechnung kann jetzt wie vereinbart an den Debitoren gesendet werden.  
+2.  Legen Sie auf der Seite **Verkaufsrechnung erstellen** das heutige Datum als Buchungsdatum fest, geben Sie **" Nach Aufgabe** an, und wählen Sie die Schaltfläche **OK**, um eine Rechnung mit den Standardinformationen zu erstellen. Klicken Sie auf **OK**, um die Bestätigungsseite zu schließen.  
+3.  Wählen Sie die Aktion **Verkaufsrechnung/Gutschrift**. Auf der Verkaufsrechnung können Sie sehen, dass die Rechnung nur die Anzahlung enthält. Diese Rechnung kann jetzt wie vereinbart an den Debitoren gesendet werden.  
 
 ## <a name="next-steps"></a>Nächste Schritte  
- In dieser exemplarischen Vorgehensweise wurden Sie durch mehrere der grundlegenden Schritte für die Arbeit mit Projekten in [!INCLUDE[d365fin](includes/d365fin_md.md)] geführt. Sie haben gelernt, wie ein neues Projekt erstellt, ein Projekt kopiert und Zahlungen verarbeitet werden. Sie haben auch eine Demonstration gesehen, wie Stunden verfolgt und Rechnungen erstellt werden.  
+ In dieser exemplarischen Vorgehensweise wurden Sie durch mehrere der grundlegenden Schritte für die Arbeit mit Projekten in [!INCLUDE[prod_short](includes/prod_short.md)] geführt. Sie haben gelernt, wie ein neues Projekt erstellt, ein Projekt kopiert und Zahlungen verarbeitet werden. Sie haben auch eine Demonstration gesehen, wie Stunden verfolgt und Rechnungen erstellt werden.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)   
@@ -488,4 +488,4 @@ Indem Sie Preise, Projektaufgabenzeilen und Projektplanungszeilen für die beide
  [Ressourceneinsatz](projects-how-use-resources.md)   
  [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)   
  [Fakturieren von Projekten](projects-how-invoice-jobs.md)  
- [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

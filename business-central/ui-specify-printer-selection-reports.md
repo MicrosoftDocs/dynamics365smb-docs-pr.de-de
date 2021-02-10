@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bc01e711be7d05205362536f4b44a5dbfc4aa2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e088d13ead96111023df7781f0d6d1c1dcd58cfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915993"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760292"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
-Da [!INCLUDE[prodshort](includes/prodshort.md)] ein Cloud-Service ist, kann er keine lokalen Drucker erreichen, die mit den Rechnern der Benutzer verbunden sind. Sie kann jedoch mit Cloud-fähigen Druckern verbunden werden. In der generischen Version von [!INCLUDE[prodshort](includes/prodshort.md)] wird ein Cloud-Drucker namens **E-Mail-Drucker** als Erweiterung installiert und ist nach der Ersteinrichtung einsatzbereit.
+Da [!INCLUDE[prod_short](includes/prod_short.md)] ein Cloud-Service ist, kann er keine lokalen Drucker erreichen, die mit den Rechnern der Benutzer verbunden sind. Sie kann jedoch mit Cloud-fähigen Druckern verbunden werden. In der generischen Version von [!INCLUDE[prod_short](includes/prod_short.md)] wird ein Cloud-Drucker namens **E-Mail-Drucker** als Erweiterung installiert und ist nach der Ersteinrichtung einsatzbereit.
 
-Wenn ein Cloud-Drucker nicht installiert und eingerichtet ist oder wenn ein installierter Drucker ausfällt, werden beim Drucken standardmäßig die Druckoptionen des Browsers verwendet. Dies wird durch diesen Wert im Feld **Drucker** auf der Berichtsanforderungsseite angezeigt: *(keines, wird vom Browser behandelt)* .
+Wenn ein Cloud-Drucker nicht installiert und eingerichtet ist oder wenn ein installierter Drucker ausfällt, werden beim Drucken standardmäßig die Druckoptionen des Browsers verwendet. Dies wird durch diesen Wert im Feld **Drucker** auf der Berichtsanforderungsseite angezeigt: *(keines, wird vom Browser behandelt)*.
 
 Auf der Seite **Druckerverwaltung** sehen Sie die Drucker, die eingerichtet sind. Wenn Sie einen oder mehrere Drucker eingerichtet haben, können Sie die Seite **Druckerauswahlen** öffnen, um für Ihr Benutzerkonto einzurichten, welche spezifischen Berichte mit welchem Drucker gedruckt werden sollen.
 
@@ -34,20 +34,20 @@ Das Drucken in der Cloud ist für Dokumente mit einer angemessenen Größe vorge
 ## <a name="to-set-up-a-printer"></a>So richten Sie einen Drucker ein
 Auf der Seite **Druckerverwaltung** sehen Sie die eingerichteten Drucker, und Sie können auf die Seite **Einstellungen** für jeden Drucker zugreifen, um eine vorhandene Einrichtung zu bearbeiten oder einen neuen Drucker einzurichten.
 
-Die folgende Prozedur beschreibt die Einrichtung des vorhandenen Druckers **E-Mail-Drucker** , bei dem es sich um eine vorinstallierte Erweiterung handelt.
+Die folgende Prozedur beschreibt die Einrichtung des vorhandenen Druckers **E-Mail-Drucker**, bei dem es sich um eine vorinstallierte Erweiterung handelt.
 
 > [!NOTE]
 > Um den E-Mail-Druck zu verwenden, muss die E-Mail-Funktionalität eingerichtet werden. Weitere Informationen finden Sie unter [E-Mail einrichten](admin-how-setup-email.md).
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
-2. Markieren Sie die Zeile für den Drucker **E-Mail-Drucker** und wählen Sie dann die Aktion **Druckereinstellungen bearbeiten** .
+2. Markieren Sie die Zeile für den Drucker **E-Mail-Drucker** und wählen Sie dann die Aktion **Druckereinstellungen bearbeiten**.
 3. Füllen Sie auf der Seite **Einstellungen** die Felder wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
     > Sie müssen das geeignete Papierformat für einen Drucker manuell auswählen, da keine lokalen Drucker- oder Benutzereinstellungen gespeichert werden können.
     >
     > Beachten Sie, dass die E-Mail-Drucker-Erweiterung standardmäßig auf **A4** Papierformat eingestellt ist, was z.B. in Nordamerika nicht geeignet ist.
-4. Um einen Drucker zu Ihrem Standarddrucker zu machen, wählen Sie auf der Seite **Druckerverwaltung** das Modul **Als mein Standarddrucker festlegen** .
+4. Um einen Drucker zu Ihrem Standarddrucker zu machen, wählen Sie auf der Seite **Druckerverwaltung** das Modul **Als mein Standarddrucker festlegen**.
 
 ### <a name="privacy-notice"></a>Datenschutzhinweis
 Wenn Sie die E-Mail-Drucker-Erweiterung verwenden, dann werden alle oder einige Druckaufträge an die E-Mail-Adresse gesendet, die Sie bei der Konfiguration des Druckers angegeben haben. Wir empfehlen dringend, dass eine eindeutige E-Mail-ID an ein Druckergerät gebunden wird, das nur die offiziellen Dienste des Hardware-Herstellers nutzt, wie z.B. HP ePrint, KonicaMinolta EveryonePrint oder Epson Email Print.
@@ -59,10 +59,10 @@ Sie müssen alle erforderlichen Datenschutzvorkehrungen treffen, einschließlich
 Auf der Seite **Druckerwahlen** können Sie für Ihr Benutzerkonto einstellen, welche Berichte von welchem Drucker gedruckt werden. Dies ist nützlich, wenn Sie mit verschiedenen Berichten arbeiten, die aufgrund ihrer Platzierung in der Firma oder ihrer Ausgabemöglichkeiten unterschiedliche Drucker erfordern.
 
 > [!IMPORTANT]
-> Für [!INCLUDE[prodshort](includes/prodshort.md)] vor Ort kann die Seite **Druckerauswahl** nur für Drucker verwendet werden, die durch Druckerweiterungen definiert sind. Sie kann nicht für lokale Drucker verwendet werden.
+> Für [!INCLUDE[prod_short](includes/prod_short.md)] vor Ort kann die Seite **Druckerauswahl** nur für Drucker verwendet werden, die durch Druckerweiterungen definiert sind. Sie kann nicht für lokale Drucker verwendet werden.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Druckerverwaltung** ein und wählen Sie dann den entsprechenden Link. Alternativ können Sie auf der Seite **Druckerverwaltung** einen Drucker auswählen und dann die Aktion **Druckerauswahl** wählen.
-2. Wählen Sie die Aktion **Neu** , um eine Druckerauswahl für einen bestimmten Bericht hinzuzufügen.
+2. Wählen Sie die Aktion **Neu**, um eine Druckerauswahl für einen bestimmten Bericht hinzuzufügen.
 3. Füllen Sie die Felder nach Bedarf aus.
 
 Der angegebene Bericht ist jetzt so eingerichtet, dass er standardmäßig auf dem ausgewählten Drucker gedruckt wird.
@@ -84,10 +84,10 @@ Sie oder der Administrator können auch die Seite **Druckerauswahl** verwenden, 
 |Drucken eines bestimmten Berichts auf einem bestimmten Drucker für einen bestimmten Benutzer|Geben Sie Werte in allen drei Feldern an.|
 
 > [!NOTE]
-> Spezifischere Druckerauswahlen haben Vorrang vor einer allgemeineren Druckerauswahl. Zum Beispiel hat eine Druckerauswahl, die Werte in den Feldern **Benutzer-ID** , **Berichts-ID** und **Druckername** hat, Vorrang vor einer Druckerauswahl, die leere Einträge in den Feldern **Benutzer-ID** oder **Berichts-ID** hat.
+> Spezifischere Druckerauswahlen haben Vorrang vor einer allgemeineren Druckerauswahl. Zum Beispiel hat eine Druckerauswahl, die Werte in den Feldern **Benutzer-ID**, **Berichts-ID** und **Druckername** hat, Vorrang vor einer Druckerauswahl, die leere Einträge in den Feldern **Benutzer-ID** oder **Berichts-ID** hat.
 
 ## <a name="see-also"></a>Siehe auch
 [Berichte drucken](ui-work-report.md#PrintReport)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ausführen von Stapelverarbeitungen](ui-how-run-batch-jobs.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  

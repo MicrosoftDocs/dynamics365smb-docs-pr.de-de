@@ -1,6 +1,6 @@
 ---
 title: Projekt nach Projekt planen | Microsoft Docs
-description: Diese Planungsaufgabe beginnt mit einem Verkaufsauftrag auf der Seite **Verkaufsauftragsplanung** . Nachdem ein Projektfertigungsauftrag erstellt wurde, kann die Planung auf der Seite **Auftragsplanung** fortgeführt werden.
+description: Diese Planungsaufgabe beginnt mit einem Verkaufsauftrag auf der Seite **Verkaufsauftragsplanung**. Nachdem ein Projektfertigungsauftrag erstellt wurde, kann die Planung auf der Seite **Auftragsplanung** fortgeführt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 09fea87bb1d8606390fe8c0ed5b2e3780dbc4978
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87f113e1fedc759fc90443fb3d0a4eb0c1aa9233
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919188"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759217"
 ---
 # <a name="plan-project-orders"></a>Projektaufträge planen
-Diese Planungsaufgabe beginnt mit einem Verkaufsauftrag auf der Seite **Verkaufsauftragsplanung** . Nachdem ein Projektfertigungsauftrag erstellt wurde, kann die Planung auf der Seite **Auftragsplanung** fortgeführt werden.  
+Diese Planungsaufgabe beginnt mit einem Verkaufsauftrag auf der Seite **Verkaufsauftragsplanung**. Nachdem ein Projektfertigungsauftrag erstellt wurde, kann die Planung auf der Seite **Auftragsplanung** fortgeführt werden.  
 
 ## <a name="to-create-a-project-production-order"></a>Projektfertigungsaufträge erstellen  
 
 1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie den Verkaufsauftrag, der für das Produktionsprojekt steht, und wählen die Aktion **Planung** .  
-4.  Klicken Sie auf der Seite **Verkaufsauftragsplanung** auf **Produktionsauftrag erstellen** .  
+2.  Wählen Sie den Verkaufsauftrag, der für das Produktionsprojekt steht, und wählen die Aktion **Planung**.  
+4.  Klicken Sie auf der Seite **Verkaufsauftragsplanung** auf **Produktionsauftrag erstellen**.  
 5.  Wählen Sie auf der Seite **Auftrag aus Verkauf erstellen** im Feld **Auftragsart** die Option **Projektauftrag** aus.  
 6.  Wählen Sie die Schaltfläche **Ja** aus.  
 7.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link.
@@ -32,7 +32,7 @@ Diese Planungsaufgabe beginnt mit einem Verkaufsauftrag auf der Seite **Verkaufs
 
     Im Feld **Herkunftsart** des Fertigungsauftrags ist ein **Verkaufskopf** enthalten, und der Auftrag besteht aus mehreren Zeilen, eine pro zu fertigenden Verkaufszeilenartikel.  
 9. Wählen Sie die Aktion **Planung** aus.
-10. Klicken Sie auf der Seite **Auftragsplanung** auf Funktionen und dann auf **Aktualisieren** , um den neuen Bedarf zu kalkulieren.  
+10. Klicken Sie auf der Seite **Auftragsplanung** auf Funktionen und dann auf **Aktualisieren**, um den neuen Bedarf zu kalkulieren.  
 
 Die Auftragskopfzeile für das Projekt wird angezeigt, wobei alle Zeilen für nicht erfüllten Bedarf darunter erweitert sind. Obwohl der Fertigungsauftrag Zeilen für mehrere gefertigte Artikel enthält, wird der Gesamtbedarf für alle Fertigungsauftragszeilen unter einer Auftragskopfzeile auf der Seite **Auftragsplanung** aufgeführt, und der ursprüngliche Debitorenname wird angezeigt. Setzen Sie die Planung für den Bedarf so fort wie unter [Bedarf für neuen Auftrag nach Auftrag planen](production-how-to-plan-for-new-demand.md) beschrieben.  
 
@@ -47,4 +47,4 @@ Die Auftragskopfzeile für das Projekt wird angezeigt, wobei alle Zeilen für ni
 [Einkauf](purchasing-manage-purchasing.md)  
 [Designdetails: Beschaffungsplanung](design-details-supply-planning.md)   
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

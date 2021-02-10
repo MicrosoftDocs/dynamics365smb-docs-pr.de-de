@@ -1,5 +1,5 @@
 ---
-title: Verkaufsangebote erstellen| Microsoft Docs
+title: Erstellen einer Verkaufsrechnung oder eines Verkaufsauftrags
 description: Beschreibt, wie Sie einen Verkaufsauftrag erstellen, einen Vertrag mit einem Debitoren erfassen, Produkte unter bestimmten Bedingungen verkaufen oder kaufen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2020
+ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 2613a328ad1274a690d3d394fef054527e5a75de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b417ed7a4ef520ab652a66ac6f961c7c2f1a970e
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926222"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035406"
 ---
 # <a name="invoice-sales"></a>Fakturieren eines Verkaufs
 
@@ -41,7 +41,7 @@ Gibt an, ob die Artikelkarte einen **Bestand**, **Service** und **Nicht-Bestand*
 Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist. Siehe Schritt 2 und 3 im folgenden Verfahren.
 
 ## <a name="to-create-a-sales-invoice"></a>So erstellen Sie eine Verkaufsrechnung
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun") aus, geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 
    Andere Felder auf der Seite **Verkaufsrechnung** werden nun mit den Standardinformationen vom ausgewählten Debitor ausgefüllt. Wenn der Debitor noch nicht erfasst wurde, dann führen Sie die folgenden Schritte durch:
@@ -94,6 +94,10 @@ Das Dialogfeld **Buchungs- und Sendebestätigung** zeigt die gewünschte Methode
 
 Der zugehörige Artikel und die Debitorenposten werden nun im System erfasst erstellt, und die Verkaufsrechnung wird als PDF-Dokument ausgegeben. Die Verkaufsrechnung wird in der Liste der gebuchten Verkaufsrechnungen entfernt und durch einen neuen Beleg in der Liste der gebuchten Verkaufsrechnungen ersetzt.  
 
+### <a name="calculating-invoice-discounts-on-sales"></a>Rechnungsrabatte bei Verkäufen berechnen
+
+[!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
 ## <a name="registering-payments"></a>Zahlungen registrieren
 
 Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
@@ -106,13 +110,18 @@ In Geschäftsumgebungen, wo Debitoren sofort bezahlen, beispielswiese mit Paypal
 
 Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch erstellen, indem Sie eine Bargelddebitoren-Karte einrichten, auf der Sie auf die Verkaufsrechnung hinweisen. Weitere Informationen finden Sie unter [Einrichten von BargeldDebitoren](finance-how-to-set-up-cash-customers.md).  
 
+> [!TIP]
+> Wenn Sie Ihren Kunden Erinnerungen an überfällige Zahlungen senden möchten, müssen Sie Erinnerungsstufen und -bedingungen einrichten. Weitere Informationen finden Sie unter [Einrichten von Betimmungen und Ebenen](finance-setup-reminders.md).  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Siehe auch
+
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Kommissionierliste drucken](sales-how-print-picking-list.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
+[Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Massenrechnungsstellung von Microsoft Bookings in Business Central](finance-bookings.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

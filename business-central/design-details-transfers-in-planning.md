@@ -10,17 +10,20 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43237bcec983870cb7a9655126b5c912e0286657
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920897"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035581"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetails: Umlagerungen in der Planung
 Umlagerungsaufträge sind ebenfalls eine Versorgungsquelle beim Arbeiten auf der Lagerhaltungsdatenebene. Wenn Sie "Mehrere Lagerorte (Lager)" verwenden, kann die Beschaffungsmethode auf Transfer festgelegt werden, damit der Lagerort aufgefüllt wird, indem Waren an einem anderen Lagerort übertragen werden. Sind mehrere Lager vorhanden, verfügen Unternehmen möglicherweise über eine Kette von Umlagerungen, in denen der Vorrat von GRÜN auf GELB und von GELB auf ROT usw. übergeht. Am Beginn der Kette steht ein Beschaffungssystem von Fertigungsauftrag oder Einkauf.  
 
 ![Beispiel für den Umlagerungsfluss](media/nav_app_supply_planning_7_transfers1.png "Beispiel für den Umlagerungsfluss")  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Beim Vergleich mit der Situation, in der ein Beschaffungsauftrag direkt einem Bedarfsauftrag in einer Situation gegenübersteht, in der der Verkaufsauftrag durch eine Kette von Lagerhaltungsdaten-Übertragungen angegeben ist, ist es offensichtlich, dass die Planungsaufgabe in der letzteren Situation sehr komplex werden kann. Wenn sich der Bedarf ändert, kann dies zu einem Kaskadeneffekt durch die Kette führen, da alle Umlagerungsaufträge plus Kauf-/Fertigungsaufträge am anderen Ende der Kette geändert werden müssen, um die Balance zwischen Bedarf und Vorrat erneut herzustellen.  
 

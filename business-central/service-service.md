@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3bf97a81c41823b9b4d839af4d53045f0bdaa74e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cb82642f5526db849ad5344d1f7347513d80c57a
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913046"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817004"
 ---
 # <a name="service-management"></a>Service
 > [!NOTE]
 > Die Funktionalität, die in diesem Thema und in Vorthemen beschrieben, handelt in der Benutzeroberfläche nur angezeigt, wenn Sie die **Premium** haben. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 
-Debitoren einen zuverlässigen Service zu bieten, ist ein wesentlicher Bestandteil der Arbeit jedes Unternehmens und eine Grundlage für Debitorenzufriedenheit und Loyalität, zusätzlich zu den Einnahmen. Die Planung und Steuerung des Service ist jedoch nicht immer einfach. Daher bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] eine Reihe von Tools zur Vereinfachung dieser Maßnahmen. Diese Tools dienen zur Unterstützung der Abläufe in Werkstatt und Außendienst und können in Geschäftsszenarien wie komplexen Debitorendienst- vertriebssystemen, Industrieserviceumgebungen mit Stücklisten und beim umfassenden Einsatz von Servicetechnikern mit Anforderungen für Ersatzteilmanagement verwendet werden.  
+Debitoren einen zuverlässigen Service zu bieten, ist ein wesentlicher Bestandteil der Arbeit jedes Unternehmens und eine Grundlage für Debitorenzufriedenheit und Loyalität, zusätzlich zu den Einnahmen. Die Planung und Steuerung des Service ist jedoch nicht immer einfach. Daher bietet [!INCLUDE[prod_short](includes/prod_short.md)] eine Reihe von Tools zur Vereinfachung dieser Maßnahmen. Diese Tools dienen zur Unterstützung der Abläufe in Werkstatt und Außendienst und können in Geschäftsszenarien wie komplexen Debitorendienst- vertriebssystemen, Industrieserviceumgebungen mit Stücklisten und beim umfassenden Einsatz von Servicetechnikern mit Anforderungen für Ersatzteilmanagement verwendet werden.  
 
  Mit diesen Tools können Sie Folgendes durchführen:  
 
@@ -46,6 +46,6 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 ## <a name="see-also"></a>Siehe auch  
 [Debitoren verwalten](receivables-manage-receivables.md)   
 [Projekte](projects-how-create-jobs.md)   
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
+[Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

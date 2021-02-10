@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb9caf6fa4dbca9d51d66e329321fdecc6478ec0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cf7f261f945828b78db55cde0dda70d12b158127
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912071"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760342"
 ---
 # <a name="customize-pages-for-profiles"></a>Seiten für Profile anpassen
 Benutzer können Seiten für ihren Arbeitsbereich personalisieren, um ihren Bedürfnissen zu entsprechen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
@@ -27,16 +27,16 @@ Die Seitenanpassung beginnt mit **Profile (Rollen)** Seite, Ausgangspunkt des Ad
 ## <a name="to-customize-pages-for-a-profile"></a>Um Seiten für ein Profil anzupassen
 1. Wählen Sie die ![Glühbirne , die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Profile (Rollen)** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie dir Zeile für die Personalisierungsseite, die Sie löschen möchten, und wählen die Aktion **Bearbeiten** aus.
-3. Wählen Sie die Aktion **Seiten anpassen** .
+3. Wählen Sie die Aktion **Seiten anpassen**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] öffnet eine neue Browser-Registerkarte für das ausgewählte Profil mit dem Banner **Anpassen** Banner aktiviert. Das **Anpassen** Banner bietet die gleiche Funktionalität wie das **Personalisierung** Banner, das den Benutzern zur Verfügung steht.
+    [!INCLUDE[prod_short](includes/prod_short.md)] öffnet eine neue Browser-Registerkarte für das ausgewählte Profil mit dem Banner **Anpassen** Banner aktiviert. Das **Anpassen** Banner bietet die gleiche Funktionalität wie das **Personalisierung** Banner, das den Benutzern zur Verfügung steht.
 
 4. Passen Sie die Seiten an die Anforderungen der jeweiligen Rolle oder Abteilung an, so wie es ein Benutzer bei der Personalisierung tun würde. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
     > [!NOTE]
     > Um während der Personalisierung zu navigieren, drücken Sie Strg + Klicken auf eine Aktion, wenn diese durch die Pfeilspitze hervorgehoben ist.
 
-5. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Anpassen** .
+5. Wenn Sie das Layout einer oder mehrerer Seiten geändert haben, wählen Sie die Schaltfläche **Fertig** im Banner **Anpassen**.
 6. Schließen Sie die Browser-Registerkarte.
 
 Die Anpassung von Seiten wird jetzt für das Profil aufgezeichnet.
@@ -45,7 +45,7 @@ Die Anpassung von Seiten wird jetzt für das Profil aufgezeichnet.
 
 Sie können sich einen Überblick darüber verschaffen, welche Seiten für ein Profil angepasst wurden, um beispielsweise zu planen, welche Seiten weiter angepasst oder gelöscht werden sollen.
 
-- Auf der Seite **Profil (Rolle)** wählen Sie die Aktion **Angepasste Seiten verwalten** .
+- Auf der Seite **Profil (Rolle)** wählen Sie die Aktion **Angepasste Seiten verwalten**.
 
 Auf der Seite **Benutzerdefinierte Seiten** können Sie Anpassungen löschen und Fehler beheben, indem Sie nach potenziellen Problemen suchen.  
 
@@ -59,7 +59,7 @@ Das Seitenlayout für das Profil wird auf das Standardlayout zurückgesetzt.
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>So löschen Sie die Anpassung für bestimmte Seiten eines Profils
 Sie können auch alle individuellen Seitenanpassungen löschen, die Sie für ein gemacht haben. Mit einer Erweiterung eingeführte Anpassungen und von einem Benutzer vorgenommene Personalisierungen werden nicht gelöscht. Sie können eine bestimmte Seitenpersonalisierung mit einer anderen Aktion löschen. Weitere Informationen finden Sie unter [So löschen Sie alle Personalisierungen für bestimmte Seiten](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-1. Auf der Seite **Profil (Rolle)** wählen Sie die Aktion **Angepasste Seiten verwalten** .
+1. Auf der Seite **Profil (Rolle)** wählen Sie die Aktion **Angepasste Seiten verwalten**.
 2. Auf der Seite **Angepasste Seiten** wählen Sie mindestens eine Zeile für Seitenanpassungen aus, die Sie löschen möchten, und wählen Sie dann die Aktion **Löschen** aus.
 
 Das Layout der ausgewählten Seiten wird an die von Ihnen vorgenommenen Änderungen angepasst.
@@ -70,4 +70,4 @@ Das Layout der ausgewählten Seiten wird an die von Ihnen vorgenommenen Änderun
 [Profile verwalten](admin-users-profiles-roles.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

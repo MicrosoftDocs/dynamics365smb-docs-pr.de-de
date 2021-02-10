@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89ee34bac855e40bc44f1e32764968cfd36324a9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923320"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760121"
 ---
 # <a name="business-process-walkthroughs"></a>Exemplarische Vorgehensweisen für Geschäftsprozesse
 
 Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Geschäftsprozesse, die Sie mit dem Demounternehmen CRONUS AG durchführen können. Die exemplarischen Vorgehensweisen bestehen aus mehreren Verfahren, von denen einige normalerweise von mehr als einem Benutzer ausgeführt werden würden, während andere verschiedene Benutzerrollen enthalten. Um den Arbeitsbereich zu simulieren, enthalten einige der exemplarischen Vorgehensweisen Einrichtungsschritte, die erforderlich sind, um die Übungen wie beschrieben abzuschließen. Diese Schritte können Einblick in die Art der Informationen zu geben, die Benutzer den IT-Mitarbeitern ihres Unternehmens zur Verfügung stellen müssen.  
 
- Die exemplarischen Vorgehensweisen sind vollständige Szenarios und sollten möglichst vom Anfang bis zum Ende ausgeführt werden. Viele Szenarios basieren auf [!INCLUDE[d365fin](includes/d365fin_md.md)]-Demonstrationen und ermöglichen es Ihnen, diese Verfahren an Ihrem Arbeitsplatz selbst auszuprobieren.  
+ Die exemplarischen Vorgehensweisen sind vollständige Szenarios und sollten möglichst vom Anfang bis zum Ende ausgeführt werden. Viele Szenarios basieren auf [!INCLUDE[prod_short](includes/prod_short.md)]-Demonstrationen und ermöglichen es Ihnen, diese Verfahren an Ihrem Arbeitsplatz selbst auszuprobieren.  
 
 > [!NOTE]
-> Einige der exemplarischen Vorgehensweisen erfordern Beispieldaten, die nicht im Standard-Demounternehmen in [!INCLUDE[prodshort](includes/prodshort.md)] verfügbar sind. Weitere Informationen finden Sie unter [So erstellen Sie ein Unternehmen mit vollständigen Beispieldaten in einer Sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
+> Einige der exemplarischen Vorgehensweisen erfordern Beispieldaten, die nicht im Standard-Demounternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar sind. Weitere Informationen finden Sie unter [So erstellen Sie ein Unternehmen mit vollständigen Beispieldaten in einer Sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |Aktion|Siehe|  
 |--------|---------|  
@@ -44,6 +44,6 @@ Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Gesc
 
 ## <a name="see-also"></a>Siehe auch
 
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

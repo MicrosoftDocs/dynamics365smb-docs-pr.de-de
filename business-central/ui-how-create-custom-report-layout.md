@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ee4d805ce0fc51e96e4d6956a2bcf1537830730f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5a8267813a37af08dd057e4c67a04237cd350b54
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914960"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760542"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Erstellen und Ändern benutzerdefinierter Berichtslayouts
 
 Standardmäßig haben Berichte ein integriertes Berichtlayout, das entweder ein RDLC-Berichtlayout oder ein Word-Berichtlayout oder beides sein kann. Sie können keine integrierten Layouts ändern. Sie können jedoch Ihren eigenen benutzerdefinierten Layouts erstellen, die Ihnen ermöglichen, die Darstellung des Berichts zu ändern, wenn dieser angezeigt, gedruckt bzw. gespeichert wird. Sie können mehrere benutzerdefinierte Berichtslayouts für den gleichen Bericht erstellen und anschließend das Layout, das durch einen Bericht verwendet wird, nach Bedarf wechseln.
 
 > [!NOTE]  
-> In [!INCLUDE[d365fin](includes/d365fin_md.md)] enthält der Begriff "Bericht" auch für extern bestimmte Dokumente wie Verkaufsrechnungen und Bestellungbestätigungen, die Sie den Debitoren als PDF-Dateien senden.
+> In [!INCLUDE[prod_short](includes/prod_short.md)] enthält der Begriff "Bericht" auch für extern bestimmte Dokumente wie Verkaufsrechnungen und Bestellungbestätigungen, die Sie den Debitoren als PDF-Dateien senden.
 
 Um ein benutzerdefiniertes Layout zu erstellen, können Sie entweder eine Kopie eines vorhandenen benutzerdefinierten Layouts erstellen oder ein neues benutzerdefiniertes Layout hinzufügen, das in den meisten Fällen auf einem integrierten Layout basiert. Wenn Sie ein neues Debitorenspezifisches Layout hinzufügen, können Sie wählen, einen RDLC-Berichtslayouttyp, Word-Berichtslayouttyp oder beide hinzuzufügen. Das neue benutzerdefinierte Layout basiert automatisch auf dem integrierten Layout des Berichts, falls einer verfügbar ist. Wenn für den Typ kein integriertes Layout verfügbar ist, wird ein neues leeres Layout erstellt, das Sie bearbeiten und von Grund auf neu entwerfen müssen. Weitere Informationen zu RDLC- und Word-Berichtlayouts, integrierten und benutzerdefinierten Layouts und mehr finden Sie unter [Verwalten von Berichtslayouts](ui-manage-report-layouts.md).  
 
@@ -40,17 +40,17 @@ Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus De
 3. Wählen Sie im Fenster **Debitorenspezifisches Layout** die Zeile für das benutzerdefinierte Layout, das Sie verwenden möchten, und wählen Sie dann die Schaltfläche OK aus.  
 
    Die Seite **Benutzerdefiniertes Berichtslayout** erscheint und alle benutzerdefinierten Layouts, die für den ausgewählten Bericht verfügbar sind, werden angezeigt.
-4. Wenn Sie eine Kopie eines vorhandenen benutzerdefinierten Layouts erstellen möchten, wählen Sie das vorhandene benutzerdefinierte Layout in der Liste aus, und dann wählen **Kopieren** .  
+4. Wenn Sie eine Kopie eines vorhandenen benutzerdefinierten Layouts erstellen möchten, wählen Sie das vorhandene benutzerdefinierte Layout in der Liste aus, und dann wählen **Kopieren**.  
 
-   Die Kopie des benutzerdefinierten Layouts erscheint auf der Seite **Benutzerdefiniertes Layout** und hat den Begriff *Kopie von* im Feld **Beschreibung** .
+   Die Kopie des benutzerdefinierten Layouts erscheint auf der Seite **Benutzerdefiniertes Layout** und hat den Begriff *Kopie von* im Feld **Beschreibung**.
 5. Wenn Sie ein neues benutzerdefiniertes Layout hinzufügen möchten, das auf einem integrierten Layout basiert, führen Sie Folgendes aus:  
    1. Wählen Sie die Aktion **Neu** aus. Die Seite **Integriertes Layout für einen Bericht** erscheint. Die Felder **ID** und **Name** werden automatisch ausgefüllt.
    2. Um einen benutzerdefinierten WordBerichtlayouttyp hinzuzufügen, aktivieren Sie das **Word-Layout einfügen** Kontrollkästchen.
    3. Um einen benutzerdefinierten RDLC-Berichtlayouttyp hinzuzufügen, aktivieren Sie das **RDLC-Layout einfügen** Kontrollkästchen.
    4. Wählen Sie die Schaltfläche **OK** aus.  
 
-    Die neuen benutzerdefinierten Layouts werden jetzt auf der Seite **Benutzerdefinierte Berichtlayout** angezeigt. Wenn ein neues Layout auf einem integrierten Layout basiert, erscheinen die Begriffe **Kopie eines integrierten Layouts** im Feld **Beschreibung** . Wenn kein integriertes Layout für den Bericht vorhanden war, erhält das neue Layout die Begriffe **Neues Layout** im Feld **Beschreibung** , was angibt, dass das benutzerdefinierte Layout leer ist.
-6. Standardmäßig ist das Feld **Unternehmensname** leer, d. h., dass das benutzerdefiniertes Layout für den Bericht in allen Unternehmen ist verfügbar. Um das benutzerdefinierte Layout nur in einem bestimmten Mandanten zu ändern, wählen Sie die Registerkarte **Bearbeiten** , und geben Sie dann im Feld **Unternehmensnamen** den Namen für den gewünschten Mandanten ein.
+    Die neuen benutzerdefinierten Layouts werden jetzt auf der Seite **Benutzerdefinierte Berichtlayout** angezeigt. Wenn ein neues Layout auf einem integrierten Layout basiert, erscheinen die Begriffe **Kopie eines integrierten Layouts** im Feld **Beschreibung**. Wenn kein integriertes Layout für den Bericht vorhanden war, erhält das neue Layout die Begriffe **Neues Layout** im Feld **Beschreibung**, was angibt, dass das benutzerdefinierte Layout leer ist.
+6. Standardmäßig ist das Feld **Unternehmensname** leer, d. h., dass das benutzerdefiniertes Layout für den Bericht in allen Unternehmen ist verfügbar. Um das benutzerdefinierte Layout nur in einem bestimmten Mandanten zu ändern, wählen Sie die Registerkarte **Bearbeiten**, und geben Sie dann im Feld **Unternehmensnamen** den Namen für den gewünschten Mandanten ein.
 
 Das benutzerdefinierte Layout wurde erstellt. Sie können das benutzerdefinierte Layout jetzt bei Bedarf ändern.
 
@@ -60,8 +60,8 @@ Um ein Berichtslayout vom zu ändern, müssen Sie das Berichtslayout zunächst a
 
 ### <a name="to-modify-a-custom-layout"></a>Ändern eines benutzerdefinierten Layouts
 
-1.  Sie exportieren ein benutzerdefiniertes Layout aus der Seite **Benutzerdefinierte Berichtslayouts** . Wenn diese Seite nicht bereits geöffnet wurde, können Sie die Seite **Auswahl des Berichtslayouts** öffnen, wählen den Bericht, der das Layout hat, das Sie ändern möchten und dann die Aktion **Benutzerdefinierte Layouts** auswählen.  
-2.  Auf der Seite **Benutzerdefinierte Berichtslayouts** wählen Sie das Layout, das Sie ändern möchten, wählen Sie die **Layout exportieren** Aktion und wählen Sie dann **Speichern** oder **Speichern unter** , um den Berichtslayoutbeleg an einen Speicherort auf Ihrem Computer oder Netzwerk zu speichern aus.  
+1.  Sie exportieren ein benutzerdefiniertes Layout aus der Seite **Benutzerdefinierte Berichtslayouts**. Wenn diese Seite nicht bereits geöffnet wurde, können Sie die Seite **Auswahl des Berichtslayouts** öffnen, wählen den Bericht, der das Layout hat, das Sie ändern möchten und dann die Aktion **Benutzerdefinierte Layouts** auswählen.  
+2.  Auf der Seite **Benutzerdefinierte Berichtslayouts** wählen Sie das Layout, das Sie ändern möchten, wählen Sie die **Layout exportieren** Aktion und wählen Sie dann **Speichern** oder **Speichern unter**, um den Berichtslayoutbeleg an einen Speicherort auf Ihrem Computer oder Netzwerk zu speichern aus.  
 
 3.  Öffnen Sie das Berichtslayout, das Sie gespeichert haben, und nehmen Sie die Änderungen vor.
 
@@ -73,7 +73,7 @@ Um ein Berichtslayout vom zu ändern, müssen Sie das Berichtslayout zunächst a
 
 4.  Kehren Sie zur Seite **Benutzerdefinierte Berichtslayouts** zurück, das Berichtslayout, die Sie exportiert haben und geändert haben, und wählen die **Layout importieren** Aktion aus.  
 
-5. Im **Importieren** -Dialogfeld **wählen** Sie das Dokument, das das Berichtlayout definiert, und wählen Sie dann **Öffnen** .
+5. Im **Importieren**-Dialogfeld **wählen** Sie das Dokument, das das Berichtlayout definiert, und wählen Sie dann **Öffnen**.
 
 ##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Erstellen und Ändern von benutzerdefinierten Berichtslayouts
 
@@ -98,7 +98,7 @@ Um sicherzustellen dass Berichte sich immer mit den gewünschten Schriftarten an
 
 ### <a name="to-remove-a-label-or-data-field"></a>Um eine Beschriftung oder ein Datenfeld zu entfernen  
 
-1. Klicken Sie mit der rechten Maustaste auf das Feld, das Sie entfernen möchten, und wählen Sie **Inhalt des Steuerelements löschen** .  
+1. Klicken Sie mit der rechten Maustaste auf das Feld, das Sie entfernen möchten, und wählen Sie **Inhalt des Steuerelements löschen**.  
 
      Das Inhaltssteuerelement wird entfernt, aber die Feldnamen bleiben als Text erhalten.  
 
@@ -118,4 +118,4 @@ Datenfelder aus einem Berichtsdataset hinzuzufügen, ist jedoch komplizierter un
 [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
 [Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -1,0 +1,81 @@
+### YamlMime:FAQ
+metadata:
+  title: FAQ zum Kopieren und Einfügen von Daten
+  description: Erhalten Sie Antworten auf häufig gestellte Fragen zum Kopieren und Einfügen von Daten aus Feldern und Zeilen von Business Central-Seiten.
+  author: SorenGP
+  ms.topic: article
+  ms.service: dynamics365-business-central
+  ms.search.keywords: accessibility, shortcuts, keyboarding
+  ms.date: 01/08/2021
+  ms.author: edupont
+  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
+  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 01/15/2021
+  ms.locfileid: "5013921"
+title: Kopieren und einfügen FAQ
+summary: "Sie können eine oder mehrere Zeilen (Datensätze) aus einer Liste oder einem einzelnen Feld auf einer Seite kopieren und die kopierten Daten dann auf der gleichen Seite, einer andere Seite oder einem externen Dokument (wie Microsoft Excel und Outlook-E-Mail) einfügen.  \n\nKurz gesagt, zum Kopieren drücken Sie STRG+C (cmd+C in Mac Os) auf Ihrer Tastatur. Zum Einfügen drücken Sie STRG+V (cmd+V in Mac Os). Es gibt mehrere andere Tastenkombinationen zum Kopieren und Einfügen, mit denen Sie Zeit sparen, wenn Sie Daten eingeben. Weitere Informationen dazu finden Sie unter [Tastenkombinationen](keyboard-shortcuts.md#CopyRows). In diesem Artikel finden Sie Antworten auf allgemeine Fragen, die Sie möglicherweise über das Kopieren und Einfügen haben.  \n"
+sections:
+- name: Allgemein
+  questions:
+  - question: Was kann ich kopieren und einfügen?
+    answer: >
+      Sie können diese Art von Daten kopieren und einfügen:
+
+      - Kopieren Sie mindestens eine Zeile in [!INCLUDE[prod_short](includes/prod_short.md)] in die gleiche Liste oder in eine Liste mit identischen Spalten.
+
+      - Kopieren Sie mindestens eine Zeile in [!INCLUDE[prod_short](includes/prod_short.md)] und fügen Sie sie in Excel oder in anderen Programmen ein.
+
+      - Kopieren Sie mindestens eine Zeile in Excel und fügen Sie sie in eine [!INCLUDE[prod_short](includes/prod_short.md)]-Liste ein.
+
+      - Kopieren Sie den Wert eines individuellen Felds in [!INCLUDE[prod_short](includes/prod_short.md)] und fügen Sie ihn überall ein.
+  - question: Funktioniert Kopieren und Einfügen bei Kacheln?
+    answer: >
+      Ja, aber nur für eine einzelne ausgewählte Kachel.
+  - question: Wie kopiere ich eine Zeile?
+    answer: >
+      Um eine einzelne Zeile zu kopieren, wählen Sie diese aus und drücken Sie STRG+C.
+
+
+      Wenn Sie weitere Zeilen kopieren möchten, können Sie Folgendes tun:
+
+      - Drücken Sie STRG und klicken Sie auf eine andere Zeile oder drücken Sie UMSCHALT und Klicken Sie, um die Zeile und alle dazwischen zu markieren. Weitere Informationen zu Maus- und Tastenkombinationen zur Auswahl von Zeilen finden Sie unter [Tastenkombinationen](keyboard-shortcuts.md#CopyRows).
+
+      - Wählen Sie ![Weitere Optionen anzeigen](media/show-more-options-icon.png "Symbol „Weitere Optionen anzeigen“") in der ersten Spalte einer Zeile, wählen Sie **Weitere auswählen** aus, aktivieren Sie das Kontrollkästchen neben jeder Zeile, die Sie kopieren möchten, und drücken dann STRG+C.
+  - question: Wie füge ich Zeilen ein?
+    answer: >
+      Wählen Sie eine leere Zeile mit Fokus in einer beliebigen Zelle aus und drücken Sie STRG+V.
+
+
+      Wenn Sie vorhandene Zeilen ersetzen möchten, wählen Sie die Zeilen aus und drücken dann STRG+V. In diesem Fall können Sie nur dieselbe Anzahl an Zeilen einfügen, die Sie ausgewählt haben.
+
+
+      > [!NOTE]
+
+      > Die Liste, in die Sie einfügen, muss bearbeitbar sein.
+
+
+      <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
+  - question: Kann ich Zeilen in eine Outlook-E-Mail einfügen?
+    answer: >
+      Ja. Dies wird als eine formatierte Tabelle eingefügt, bei der die Einrückung, die numerische Ausrichtung und die Farben so erhalten bleiben, wie sie in [!INCLUDE[prod_short](includes/prod_short.md)] angezeigt werden würden.
+  - question: In welche Listen kann ich Zeilen kopieren und einfügen?
+    answer: >
+      Sie können Zeilen in jede Art von Liste kopieren, einschließlich Arbeitsblättern, Infoboxen oder Liste, die auf einer Seite eingebettet sind (z. B. Zeilen eines Verkaufsauftrags). Zum Einfügen müssen Zeilen jedoch editierbar sein.
+
+
+      Auf einigen Seiten kann der Anwendungsentwurf verhindern, dass Sie Zeilen einfügen. Wenden Sie sich an Ihren Administrator oder an den Anwendungsentwickler, um die [Eigenschaft "Editierbar"](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) auf der Seite oder die [Eigenschaft "PasteIsValid"](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) in der Quelltabelle zu ändern.
+  - question: Auf welchen Clients ist das Kopieren und Einfügen verfügbar?
+    answer: >
+      Kopieren und Einfügen sind im Browser oder der [!INCLUDE[prod_short](includes/prod_short.md)]-App für Windows 10 verfügbar.
+  - question: Was ist die maximale Anzahl an Zeilen, die kopiert werden können?
+    answer: >
+      Sie können so viele Zeilen kopieren, wie auf dem Bildschirm angezeigt werden. Wenn Sie beispielsweise alle 1000 Zeilen auf einer Seite kopieren möchten, müssen Sie zunächst zum unteren Rand scrollen und warten, bis die Zeilen angezeigt werden, bevor Sie diese kopieren. Die maximale Anzahl der Zeilen, die Sie kopieren können, ist nur durch den Speicherplatz Ihres Geräts begrenzt.
+  - question: Muss ich die exakte Anzahl an Spalten haben, wenn ich Zeilen einfüge?
+    answer: >
+      Ja. Egal, ob Sie aus [!INCLUDE[prod_short](includes/prod_short.md)], aus Excel oder aus einer anderen Tabellenquelle kopieren, die Zeilen, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] einfügen, müssen genau die entsprechenden Spalten haben, nicht mehr, nicht weniger.
+  - question: Warum erhalte ich Fehler, wenn ich Zeilen einfüge?
+    answer: >
+      Beim Einfügen in [!INCLUDE[prod_short](includes/prod_short.md)] wird jede Zeile geprüft, um sicherzustellen, dass die Werte in jeder Spalte gültig sind. Wenn eine Spalte einen ungültigen Wert enthält, wird das Einfügen beendet, und eine Fehlermeldung wird angezeigt. Um dies zu verhindern, überprüfen Sie, dass die Spalten über gültige Werte verfügen, bevor Sie sie einfügen.
+additionalContent: "## <a name=\"next-steps\"></a>Nächste Schritte\nHier finden Sie Informationen zum Thema: \n  - [Assistive Funktionen](ui-accessibility.md)  \n  - [Erste Schritte](product-get-started.md)  \n  - [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Häufig gestellte Fragen](across-faq.md)"

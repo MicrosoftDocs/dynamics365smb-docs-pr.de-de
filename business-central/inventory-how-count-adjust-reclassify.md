@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 056ed7dd978d4c9cc5c3745997912bd32c40bed8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8909e4428aa97190ea6ccb5b83997657f29ea96f
+ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922919"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4827093"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern
 Mindestens einmal im Geschäftsjahr muss eine Inventur durchgeführt werden, d. h. alle Artikel im Lager müssen gezählt werden, um festzustellen, ob die in der Datenbank geführten Mengen denen entsprechen, die tatsächlich physisch im Lager vorhanden sind. Ist die tatsächliche physische Menge bekannt, wird diese im Hauptbuch als Teil der Lagerbewertung am Ende eines Zeitraums gebucht.
@@ -57,36 +57,6 @@ Sie können eine physische Inventur, abhängig von Ihren Lagereinstellungen, nac
 > [!NOTE]  
 >   Die Artikelposten werden gemäß den von Ihnen angegebenen Informationen verarbeitet, und im Inventur Buch.-Blatt werden Zeilen erstellt. Beachten Sie, dass das Feld **Inventurmenge** automatisch mit der gleichen Menge wie das Feld **Menge (berechnet)** ausgefüllt wird. Bei dieser Funktion ist es für Sie nicht erforderlich, den gezählten verfügbaren Lagerbestand für Artikel einzugeben, die der berechneten Menge entsprechen. Wenn jedoch die gezählte Menge von der Eingabe im Feld **Menge (Berechnet)** abweicht, müssen Sie diese mit der tatsächlich gezählten Menge überschreiben.
 
-### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Um den erwarteten Lagerbestand in den erweiterten Basislagerkonfigurationen zu berechnen
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Positions-Buch-Blatt** ein und wählen Sie den entsprechenden Link.  
-2.  Wählen Sie die **Lagerortanpassung berechnen** Aktion aus.  
-3.  Tragen Sie in die Anforderungsseite die Nummern der Artikel ein, die Sie zählen möchten und geben Sie den Lagerort ein.
-4. Wählen Sie die Schaltfläche **OK**, und buchen Sie - falls vorhanden - die Regulierung.
-
-    Buchen Sie – falls vorhanden – die Regulierung. Wenn Sie dies nicht tun, bevor Sie eine Logistik- Inventur durchführen, werden die Ergebnisse, die Sie im zweiten Teil des Prozesses im Inventur-Buch.-Blatt und als Artikelposten buchen, die mit anderen Logistikanpassungen der gezählten Artikel kombinierten Inventurergebnisse sein.  
-5.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), und geben Sie **Logistik Inventur Buch.-Blatt** ein, und wählen Sie den entsprechenden Link.  
-6. Wählen Sie die Aktion **Lager berechnen** aus. Die Batchauftrags-Anforderungfsseite **Logistik Lagerbestand berech.** wird geöffnet.  
-7.  Legen Sie Filter fest, um die Artikel zu begrenzen, die im Buch.-Blatt gezählt werden sollen, und wählen Sie die Schaltfläche **OK**.
-
-    Die Anwendung erstellt für jeden Lagerplatz, der die Filtervorgaben erfüllt, eine Zeile. Sie können zu diesem Zeitpunkt noch einige der Zeilen löschen. Wenn Sie die Ergebnisse aber als Inventur buchen möchten, müssen Sie den Artikel an allen Lagerplätzen zählen, an denen er vorhanden ist.  
-
-     Wenn Sie nur Zeit haben, den Artikel in einigen Lagerplätzen zu zählen und in anderen nicht, können Sie Differenzen feststellen, diese registrieren und sie später mit der Funktion **Ausgleich berechnen** berechnen.  
-8.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), und geben Sie **Berichtsanforderungsformular** ein, und wählen Sie dann den entsprechenden Link.  
-9.  Öffnen Sie die Berichtsanforderungsseite und drucken Sie die Listen, in denen Mitarbeiter die Menge an Artikeln erfassen können, die an jedem Lagerplatz gezählt wird.  
-10. Wenn die Zählung abgeschlossen ist, geben Sie die gezählten Mengen in das Feld **Inventurmenge** des Logistik Inventur Buch.-Blattes ein.  
-
-    > [!NOTE]  
-    >  Im Logistik Inventur Buch.-Blatt wird automatisch das Feld **Menge (berechnet)** auf der Basis der Lagerplatzposten ausgefüllt, und diese Mengen werden in das Feld **Inventurmenge** jeder Zeile kopiert. Wenn die vom Lagermitarbeiter gezählte Menge von der Menge abweicht, die die Anwendung in das Feld "Inventurmenge" eingetragen hat, müssen Sie die tatsächlich gezählte Menge eintragen.  
-
-11. Eenn Sie alle gezählten Mengen eingegeben haben wählen Sie die Aktion **Erfassen**.  
-
-    Wenn Sie das Buch.-Blatt registrieren, erstellt die Anwendung zwei Lagerplatzposten im Logistikjournal für jede Zeile, die gezählt und registriert wurde:  
-
-    -   Wenn die berechneten und die gezählten Mengen nicht übereinstimmen, wird eine negative oder positive Menge für den Lagerplatz registriert und eine Ausgleichsmenge wird auf den Ausgleichslagerplatz des Lagerorts gebucht.  
-    -   Wenn die berechnete Menge mit der gezählten übereinstimmt, registriert die Anwendung einen Posten der Menge 0 und zwar sowohl für den Lagerplatz als auch für den Ausgleichslagerplatz. Diese Posten zeigen an, dass am Registrierungsdatum eine Logistik Inventur durchgeführt wurde und es keine Differenzen in den Lagerbeständen des Artikels gab.  
-
-Wenn Sie die Logistik Inventur registrieren, erzeugen Sie keine Artikelposten, Inventurposten oder Wertposten, die Datensätze stehen jedoch jederzeit für eine Abstimmung zur Verfügung. Wenn Sie jedoch ganz genau nachvollziehen möchten, was im Lager passiert, und Sie alle Lagerplätze gezählt haben, in denen die Artikel registriert waren, sollten Sie die Logistikergebnisse sofort als Inventur im Modul "Lager" buchen. Weitere Informationen finden Sie unter [Um den tatsächlichen gezählten Lagerbestands in den erweiterten Lagerkonfigurationen einzugeben und zu buchen](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
-
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Drucken des Berichts, der beim Zählen verwendet werden soll
 1. Auf der Seite **Physisches Bestandjournal**, das den berechneten erwarteten Lagerbestand enthält, wählen Sie auf der Registerkarte Aktionen in der Gruppe Allgemein die Option **Drucken** aus.
 2. Geben Sie auf der Seite **Inventurliste** im Inforegister Optionen an, ob der Bericht die berechnete Mengen ausweisen soll und ob der Bericht Lagerartikel nach Serien-/Chargennummern aufführen soll.
@@ -113,17 +83,39 @@ Mitarbeiter können nun mit dem Zählen des Lagerbestands fortfahren und alle Ab
 3. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikel** ein, und wählen Sie dann den entsprechenden Link.
 4. Öffnen Sie die betreffende Artikelkarte, und wählen Sie dann auf der Registerkarte Navigieren in der Gruppe Artikel die Option **Inventurposten** aus.
 
+### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Um den erwarteten Lagerbestand in den erweiterten Basislagerkonfigurationen zu berechnen
+Synchronisieren Artikelposten und Lager, bevor Sie die Inventur für das Lager ausführen. Wenn Sie dies nicht tun, werden die Ergebnisse, die Sie im zweiten Teil des Prozesses im Inventur-Buch.-Blatt und als Artikelposten buchen, die mit anderen Logistikanpassungen der gezählten Artikel kombinierten Inventurergebnisse sein. Weitere Informationen finden Sie unter [Mengen in den Artikelposten und im Lager synchronisieren](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)
+
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), und geben Sie **Logistik Inventur Buch.-Blatt** ein, und wählen Sie den entsprechenden Link.  
+2. Wählen Sie die Aktion **Lager berechnen** aus. Die Batchauftrags-Anforderungfsseite **Logistik Lagerbestand berech.** wird geöffnet.  
+3. Legen Sie Filter fest, um die Artikel zu begrenzen, die im Buch.-Blatt gezählt werden sollen, und wählen Sie die Schaltfläche **OK**.
+
+    Die Anwendung erstellt für jeden Lagerplatz, der die Filtervorgaben erfüllt, eine Zeile. Sie können zu diesem Zeitpunkt noch einige der Zeilen löschen. Wenn Sie die Ergebnisse aber als Inventur buchen möchten, müssen Sie den Artikel an allen Lagerplätzen zählen, an denen er vorhanden ist.  
+
+     Wenn Sie nur Zeit haben, den Artikel in einigen Lagerplätzen zu zählen und in anderen nicht, können Sie Differenzen feststellen, diese registrieren und sie später mit der Funktion **Ausgleich berechnen** berechnen.  
+
+
+### <a name="to-print-the-report-to-be-used-when-counting"></a>Drucken des Berichts, der beim Zählen verwendet werden soll
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Lagerinventurliste** ein und wählen Sie dann den entsprechenden Link.  
+2. Öffnen Sie die Berichtsanforderungsseite und drucken Sie die Listen, in denen Mitarbeiter die Menge an Artikeln erfassen können, die an jedem Lagerplatz gezählt wird.  
+
+Mitarbeiter können nun mit dem Zählen des Lagerbestands fortfahren und alle Abweichungen in dem gedruckten Bericht erfassen.
+
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>Um den tatsächlichen gezählten Lagerbestands in den erweiterten Lagerkonfigurationen einzugeben und zu buchen
+1. Wenn die Zählung abgeschlossen ist, geben Sie die gezählten Mengen in das Feld **Inventurmenge** des Logistik Inventur Buch.-Blattes ein.  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Positions-Buch-Blatt** ein und wählen Sie den entsprechenden Link.  
-2.  Wählen Sie die **Lagerortanpassung berechnen** Aktion.  
-3.  Wählen Sie dieselben Artikel aus, die Sie in der zyklischen Inventur gezählt haben, die Sie gerade durchgeführt haben, und alle anderen Artikel, die einen Ausgleich benötigen, und klicken Sie anschließend auf die Schaltfläche **OK**.  
+    > [!NOTE]  
+    >  Im Logistik Inventur Buch.-Blatt wird automatisch das Feld **Menge (berechnet)** auf der Basis der Lagerplatzposten ausgefüllt, und diese Mengen werden in das Feld **Inventurmenge** jeder Zeile kopiert. Wenn die vom Lagermitarbeiter gezählte Menge von der Menge abweicht, die die Anwendung in das Feld "Inventurmenge" eingetragen hat, müssen Sie die tatsächlich gezählte Menge eintragen.  
 
-     Die Seite **Phys. Inventur Buch.-Blatt** wird geöffnet und die Zeilen für diese Artikel werden erstellt. Beachten Sie, dass die Nettosummen , die Sie gerade Lagerort für Lagerort gezählt und registriert haben, jetzt bereit sind, als Artikelposten konsolidiert und synchronisiert zu werden.  
+2. Eenn Sie alle gezählten Mengen eingegeben haben wählen Sie die Aktion **Erfassen**.  
 
-4.  Buchen Sie die Buch.-Blattzeile, ohne Mengen zu ändern.  
+    Wenn Sie das Buch.-Blatt registrieren, erstellt die Anwendung zwei Lagerplatzposten im Logistikjournal für jede Zeile, die gezählt und registriert wurde:  
 
-Die Mengen im Lager (Artikelposten) und die Mengen in der Logistik (Lagerplatzposten) sind für diese Artikel jetzt wieder dieselben und die Anwendung hat das letzte Inventurdatum des Artikels (oder der Lagerhaltungsdaten) aktualisiert.  
+    -   Wenn die berechneten und die gezählten Mengen nicht übereinstimmen, wird eine negative oder positive Menge für den Lagerplatz registriert und eine Ausgleichsmenge wird auf den Ausgleichslagerplatz des Lagerorts gebucht.  
+    -   Wenn die berechnete Menge mit der gezählten übereinstimmt, registriert die Anwendung einen Posten der Menge 0 und zwar sowohl für den Lagerplatz als auch für den Ausgleichslagerplatz. Diese Posten zeigen an, dass am Registrierungsdatum eine Logistik Inventur durchgeführt wurde und es keine Differenzen in den Lagerbeständen des Artikels gab.  
+
+Wenn Sie die Logistik Inventur registrieren, erzeugen Sie keine Artikelposten, Inventurposten oder Wertposten, die Datensätze stehen jedoch jederzeit für eine Abstimmung zur Verfügung. Wenn Sie jedoch ganz genau nachvollziehen möchten, was im Lager passiert, und Sie alle Lagerplätze gezählt haben, in denen die Artikel registriert waren, sollten Sie die Logistikergebnisse sofort als Inventur im Modul "Lager" buchen. Weitere Informationen finden Sie unter [Mengen in den Artikelposten und im Lager synchronisieren](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
 
 ## <a name="to-perform-cycle-counting"></a>Durchführen zyklischer Inventuren
 Obwohl Sie alle Artikel am Lager mindestens einmal im Jahr zählen, haben Sie sich möglicherweise entschieden, manche Artikel häufiger zu zählen, vielleicht, weil sie wertvoller sind oder weil sie häufig umgesetzt werden und einen großen Teil Ihres Umsatzes darstellen. Zu diesem Zweck können Sie spezielle Inventurhäufigkeiten den Artikeln zuweisen.
@@ -172,7 +164,7 @@ Nachdem Sie eine Inventur eines Artikels in Ihrem Lagerbereich vorgenommen haben
 3. Geben Sie im Feld **Neuer Bestand** die Bestandsmenge ein, die Sie für den Artikel übernehmen möchten.
 4. Wählen Sie die Schaltfläche **OK** aus.
 
-Der Bestand des Artikels ist jetzt reguliert. Die neue Menge wird im Feld **Aktueller Lagerbestand** auf der Seite **Lager regulieren** und im Feld **Lagerbestand** im Fenster **Artikelkarte** angezeigt.
+Der Bestand des Artikels ist jetzt reguliert. Die neue Menge wird im Feld **Vorhandene Menge** auf der Seite **Artikelkarte** angezeigt.
 
 Sie können auch die Funtion **Bestand anpassen** als einfachen Weg verwenden, gekaufte Artikel in den Lagerbestand aufzunehmen, wenn Sie nicht Einkaufsrechnungen oder Bestellungen verwenden, um Ihre Einkäufe zu erfassen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 
@@ -185,11 +177,8 @@ Im **Artikel Buch.-Blatt** können Sie Veränderungen des Lagerbestands im Zusam
 Wenn Sie das Artikel Buch.-Blatt häufig zum Buchen der gleichen oder ähnlicher Buch.-Blattzeilen verwenden, z. B. im Zusammenhang mit Materialverbrauch, können Sie das **Standard Artikel Buch.-Blatt** verwenden, um diese wiederkehrenden Arbeiten zu vereinfachen. Weitere Informationen finden Sie unter [Arbeiten mit Standard-Buchblättern](ui-work-general-journals.md#working-with-standard-journals)
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikel Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wählen Sie die **Buchen** Aktion aus, die Lagerregulierungen vorzunehmen.
-
-> [!NOTE]  
->   Nachdem Sie den Lagerbestand angepasst haben, müssen Sie diese mit dem aktuellen, berechneten Wert aktualisiert werden. Weitere Informationen finden Sie unter [Neubewerten von Lagerbestand](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Die Lagerplatzmengen in erweiterten Lagerkonfigurationen anpassen  
 Wenn Ihr Lagerort die gesteuerte Einlagerung und Kommissionierung nutzt, verwenden Sie **Logistik Artikel Buch.-Blatt** zum Buchen aller Zugänge und Abgänge außerhalb des Kontexts des physischen Inventars, von denen Sie wissen, dass sie wirkliche Gewinne (z. B. Artikel, die vorher als verloren gebucht wurden und die dann unerwartet wieder auftauchen) oder wirkliche Verluste (z. B. beschädigte Artikel) darstellen.  
@@ -234,4 +223,4 @@ Weitere Informationen zum Übertragen von Artikeln mit Kontrolle der gelieferten
 [Lagerortverwaltung](warehouse-manage-warehouse.md)    
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

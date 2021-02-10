@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: cdb01a2d74dff2fef15c2207f98ba8893f081aca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e4b1615ebf177db94e3dfb372809fa71ed2f1459
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920372"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760167"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeiten mit Berichten, Stapelverarbeitungen und XMLports
 
@@ -34,7 +34,7 @@ Wenn Sie einen Bericht, einen Stapelverarbeitungsauftrag oder XMLport öffnen, w
 
 ## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Standardwerte verwenden – vordefinierte Einstellungen 
 
-Die meisten Anforderungsseiten enthalten das Feld **Standardwerte verwenden von** . In diesem Feld können Sie vordefinierte Einstellungen für den Bericht auswählen, mit denen automatisch Optionen und Filter für den Bericht festgelegt werden. Wählen Sie einen Posten aus der Dropdownliste aus, und die Optionen und Filter auf der Anforderungsseite ändern sich entsprechend.
+Die meisten Anforderungsseiten enthalten das Feld **Standardwerte verwenden von**. In diesem Feld können Sie vordefinierte Einstellungen für den Bericht auswählen, mit denen automatisch Optionen und Filter für den Bericht festgelegt werden. Wählen Sie einen Posten aus der Dropdownliste aus, und die Optionen und Filter auf der Anforderungsseite ändern sich entsprechend.
 
 Der Posten mit der Bezeichnung **Zuletzt verwendete Optionen und Filter** ist immer verfügbar. Dieser Posten legt fest, dass der Bericht Optionen und Filter verwendet, die verwendet wurden, als Sie das letzte Mal den Bericht ausgeführt hatten.
 
@@ -59,16 +59,16 @@ Verwenden Sie die Felder unter **Optionen** und **Filter** zum Ändern der Begre
 >
 > Manche Berichte ignorieren solche Filter, was bedeutet, dass, egal welcher Filter im Abschnitt **Filterliste nach** festgelegt ist, das Ergebnis des Berichts gleich ist. Es ist nicht möglich, eine Übersicht zu bieten, welche Felder in welchen Berichten ignoriert werden, daher müssen Sie mit den Filtern experimentieren, wenn Sie sie verwenden.
 >
-> **Beispiel** : Wenn Sie die Stapelverarbeitung **Mahnungen erstellen** verwenden, wird ein Filter für das Feld **Debitorenposten** aus **Letzte registrierte Mahnstufe** ignoriert, da Filter für diese Stapelverarbeitung fest sind.
+> **Beispiel**: Wenn Sie die Stapelverarbeitung **Mahnungen erstellen** verwenden, wird ein Filter für das Feld **Debitorenposten** aus **Letzte registrierte Mahnstufe** ignoriert, da Filter für diese Stapelverarbeitung fest sind.
 
 ## <a name="previewing-a-report"></a>Einen Bericht anzeigen
 
 In der Vorschau eines Berichts können Sie sehen, wie der Bericht aussehen wird, bevor Sie ihn drucken. In der Vorschau wird das Layout des Bericht basierend auf dem [Drucker](#Printer) ausgerichtet, der im Feld **Drucker** auf der Anforderungsseite angezeigt wird. Nach der Vorschau können Sie zur Anforderungsseite zurückkehren und bei Bedarf Änderungen an Optionen und Filtern vornehmen.
 
-Um eine Vorschau eines Berichts anzuzeigen, wählen Sie die Schaltfläche **Vorschau** oder **Vorschau und Schließen** auf der Berichtsanforderungsseite aus. Die angezeigte Schaltfläche hängt vom Bericht ab, daher haben einige Berichte die Schaltfläche **Vorschau** , während andere die Schaltfläche **Vorschau und Schließen** haben. Beide Schaltflächen öffnen eine Vorschau des Berichts. Der Unterschied ist, das **Vorschau** die Anforderungsseite geöffnet lässt, sodass Sie dorthin zurückkehren können, um Änderungen vornehmen, sie erneut in der Vorschau anzuzeigen oder zu drucken. Mit **Vorschau und Schließen** wird die Anforderungsseite geschlossen, sodass Sie den Bericht erneut öffnen müssen, um Änderungen vorzunehmen oder zu drucken.
+Um eine Vorschau eines Berichts anzuzeigen, wählen Sie die Schaltfläche **Vorschau** oder **Vorschau und Schließen** auf der Berichtsanforderungsseite aus. Die angezeigte Schaltfläche hängt vom Bericht ab, daher haben einige Berichte die Schaltfläche **Vorschau**, während andere die Schaltfläche **Vorschau und Schließen** haben. Beide Schaltflächen öffnen eine Vorschau des Berichts. Der Unterschied ist, das **Vorschau** die Anforderungsseite geöffnet lässt, sodass Sie dorthin zurückkehren können, um Änderungen vornehmen, sie erneut in der Vorschau anzuzeigen oder zu drucken. Mit **Vorschau und Schließen** wird die Anforderungsseite geschlossen, sodass Sie den Bericht erneut öffnen müssen, um Änderungen vorzunehmen oder zu drucken.
 
 > [!NOTE]
-> Wenn Sie Business Central 2020 Veröffentlichungzyklus 1 oder früher verwenden, gibt es nur eine Schaltfläche **Vorschau** , die die Anforderungsseite in der Vorschau schließt, wie für **Vorschau und Schließen** beschrieben.
+> Wenn Sie Business Central 2020 Veröffentlichungzyklus 1 oder früher verwenden, gibt es nur eine Schaltfläche **Vorschau**, die die Anforderungsseite in der Vorschau schließt, wie für **Vorschau und Schließen** beschrieben.
 
 ### <a name="working-with-the-preview"></a>Arbeiten mit der Vorschau
 
@@ -79,7 +79,7 @@ Verwenden Sie in der Vorschau die Menüleiste in der Berichtsvorschau, um:
 - An die Seite anpassen
 - Text auswählen
 
-    Sie können Text aus einem Bericht kopieren und diesen dann woanders einfügen, z. B. eine Seite in [!INCLUDE[d365fin](includes/d365fin_md.md)] oder Microsoft Word.  Mithilfe einer Maus beispielsweise drücken und halten Sie, wo Sie beginnen möchten, dann bewegen Sie die Maus, um einen oder mehrere Begriffe, Sätze oder Absätze auszuwählen. Drücken Sie die rechte Maustaste und wählen Sie **Kopieren** aus. Fügen Sie dann den ausgewählten Text dort ein, wo Sie möchten.
+    Sie können Text aus einem Bericht kopieren und diesen dann woanders einfügen, z. B. eine Seite in [!INCLUDE[prod_short](includes/prod_short.md)] oder Microsoft Word.  Mithilfe einer Maus beispielsweise drücken und halten Sie, wo Sie beginnen möchten, dann bewegen Sie die Maus, um einen oder mehrere Begriffe, Sätze oder Absätze auszuwählen. Drücken Sie die rechte Maustaste und wählen Sie **Kopieren** aus. Fügen Sie dann den ausgewählten Text dort ein, wo Sie möchten.
 - Beleg verschieben
 
     Sie können den sichtbaren Bereich des Berichts in beliebiger Richtung verschieben, daher können Sie weitere Bereiche oder den Bericht anzeigen. Verschieben ist hilfreich, wenn Sie gezoomt haben, um Details anzuzeigen.  Mithilfe der Maus beispielsweise drücken und halten Sie die Maustaste an einem beliebigen Ort in der Berichtsvorschau und bewegen Sie dann Ihre Maus.
@@ -121,12 +121,12 @@ Sie können den Drucker nicht mithilfe des Felds **Drucker** ändern. Um den Dru
 <!--
 ### Browser printing
 
-Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
 
 If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prodshort](includes/prodshort.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md)] aren't carried over to the browser print options.
+> The browser printing options work independently of [!INCLUDE[prod_short](includes/prod_short.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prod_short](includes/prod_short.md)] aren't carried over to the browser print options.
 
 <!-- 
 On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
@@ -136,7 +136,7 @@ On the **Printer Management** page, you can see the printers that are set up. Fo
 -->
 ### <a name="printing-reports-in-thai"></a>Drucken von Berichten in Thailändisch
 
-Speziell für die thailändische Version von [!INCLUDE[prodshort](includes/prodshort.md)] kann die Schaltfläche **Drucken** keine Berichte korrekt drucken, weil der Dienst, der die druckbare PDF-Datei generiert, eingeschränkt ist. Stattdessen können Sie den Bericht in Word öffnen und den Bericht als druckbare PDF-Dateien speichern.  
+Speziell für die thailändische Version von [!INCLUDE[prod_short](includes/prod_short.md)] kann die Schaltfläche **Drucken** keine Berichte korrekt drucken, weil der Dienst, der die druckbare PDF-Datei generiert, eingeschränkt ist. Stattdessen können Sie den Bericht in Word öffnen und den Bericht als druckbare PDF-Dateien speichern.  
 
 Alternativ können Sie den Administrator bitten, ein Word-Berichtslayout für Ihre verwendete Berichte zu erstellen. Weitere Informationen finden Sie unter [Berichte- und Dokumentenlayouts verwalten](ui-manage-report-layouts.md).  
 
@@ -155,11 +155,11 @@ Die Felder unter **Erweitert** legen Einschränkungen für den generierten Beric
 |Maximale Beleganzahl|500|
 
 > [!NOTE]
-> Die Maximalwerte können sich für [!INCLUDE[d365fin](includes/d365fin_md.md)] lokal unterscheiden, und ein Administrator kann sie ändern. Weitere Informationen finden Sie unter [Konfigurieren von Business Central Server – Berichte](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Für eine Übersicht über Berichtseinschränkungen [!INCLUDE[d365fin](includes/d365fin_md.md)] online sehen Sie [Einschränkungen im Betrieb](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+> Die Maximalwerte können sich für [!INCLUDE[prod_short](includes/prod_short.md)] lokal unterscheiden, und ein Administrator kann sie ändern. Weitere Informationen finden Sie unter [Konfigurieren von Business Central Server – Berichte](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Für eine Übersicht über Berichtseinschränkungen [!INCLUDE[prod_short](includes/prod_short.md)] online sehen Sie [Einschränkungen im Betrieb](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
 ## <a name="see-also"></a>Siehe auch
 
 [Drucker einrichten](ui-specify-printer-selection-reports.md)  
 [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md)  
 [Verwalten von Berichts- und Beleglayouts](ui-manage-report-layouts.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

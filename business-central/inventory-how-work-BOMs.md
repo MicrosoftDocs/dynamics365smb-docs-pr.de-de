@@ -1,27 +1,26 @@
 ---
-title: 'Vorgehensweise: Mit Stücklisten arbeiten| Microsoft Docs'
+title: Mit Stücklisten arbeiten, um Komponenten zu verwalten
 description: Sie erstellen eine Montagestückliste oder eine Fertigungsstückliste, um die Komponenten und Ressourcen anzuzeigeb, die benötigt werden, um den Artikel zusammenzufügen, die die Stückliste darstellt.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 4aa769c8a2b044f434a9643209eecb97f7f51f13
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919388"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838457"
 ---
 # <a name="work-with-bills-of-material"></a>Mit Fertigungsstücklisten arbeiten
 Verwenden Sie Stücklisten (BOMs), um beispielsweise Oberartikel zu strukturieren, die nach Ressourcen oder Arbeitsplätze aus Komponenten montiert oder gefertigt werden müssen. Eine Montagestückliste kann auch verwendet werden, um den übergeordneten Artikel als Kit zu verkaufen, das aus den Komponenten bestehet.
 
 ## <a name="assembly-boms-or-production-boms"></a>Montagestücklisten oder Fertigungsstücklisten
-Montageaufträge werden für die Produktion von Endartikeln aus Komponenten in einem einfachen Prozess verwendet, der mit einer oder mehreren grundlegenden Ressourcen, die keine Maschinen oder Arbeitsplatzgruppen sind, oder ganz ohne Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und einen Sack Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken.  
+Montageaufträge werden für die Produktion von Endartikeln aus Komponenten in einem einfachen Prozess verwendet, der mit einer oder mehreren grundlegenden Ressourcen, die keine Maschinen oder Arbeitsplatzgruppen sind, oder ganz ohne Ressourcen durchgeführt werden kann. Beispielsweise könnte ein Montagevorgang lauten, zwei Weinflaschen und ein Paket Kaffee zu kommissionieren und sie als Geschenkartikel zu verpacken.  
 
 Eine Montagestückliste liefert die Masterdaten, die festlegen, welche Komponentenartikel in einen montierten Endartikel enthalten sind und welche Ressourcen verwendet werden, um den Montageartikel zu montieren. Wenn Sie im Kopf eines neuen Montageauftrags den Montageartikel und die Menge eingeben, werden die Montageauftragszeilen automatisch aus der Montagestückliste übernommen und pro Komponente oder Ressource als eine Montageauftragszeile dargestellt. Weitere Informationen finden Sie unter [Montageverwaltung](assembly-assemble-items.md).
 
@@ -89,11 +88,15 @@ Alle Felder in der Verkaufsrechnungszeile für den Montageartikel werden außer 
 > Der Bericht **Kommissionierliste nach Bestellung** wird ebenfalls geändert, um nur die Komponenten anzuzeigen. Dies bedeutet, dass ein Lagerarbeiter, der den übergeordneten Artikel, den Montageartikel, auswählt, diesen nicht in der Kommissionierliste sieht. Weitere Informationen finden Sie unter [Kommissionierliste drucken](sales-how-print-picking-list.md).
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>So berechnen Sie den festen Einstandspreis von Montagestücklisten
+
 Sie berechnen den Einstandspreis eines Montageartikels, indem Sie den Einstandspreis jeder Komponente und Ressource in der Montagestückliste des Artikels ermitteln.
 
 Sie können den Einstandspreis (fest) für eine oder mehrere Artikel auf der Seite **Einst.-Preis (fest) Vorschlag** auch berechnen und aktualisieren. Weitere Informationen zum Erstellen von Erfassungen finden Sie unter [Standard-Buch.-Blätter aktualisieren](finance-how-to-update-standard-costs.md).  
 
-Der Einstandspreis einer Montagestückliste entspricht immer der Summe der Einstandspreise der Komponenten, Artikel und aller Ressourcen.
+Der Einstandspreis einer Montagestückliste entspricht immer der Summe der Einstandspreise der Komponenten, Artikel und aller Ressourcen.  
+
+> [!NOTE]
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)]
 
 1. Wählen Sie in der rechten oberen Ecke das Symbol **Nach Seite oder Bericht suchen** aus und geben Sie **Artikel** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Öffnen Sie das Kartenfenster für den Montageartikel. (Das Feld **Montagestückliste** auf der Seite **Artikel** enthält **Ja**.)
@@ -114,4 +117,4 @@ Die Einstandspreise der Artikel, aus denen die Montagestückliste besteht, werde
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)     
 [Lagerbestand](inventory-manage-inventory.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

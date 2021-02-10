@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6df2078128cbcf9c4e5f59b7815f777d130543e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922694"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759342"
 ---
 # <a name="create-routings"></a>Routings erstellen
 
@@ -33,25 +33,25 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 ## <a name="to-create-a-routing"></a>So erstellen Sie ein Routing
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Routings** ein, und wählen Sie dann den zugehörigen Link.  
-2. Wählen Sie die Aktion **Neu** .  
+2. Wählen Sie die Aktion **Neu**.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Wählen Sie im Feld **Art** die Option **Serien** , um die Fertigungsarbeitsgänge abhängig vom Eintrag im Feld **Arbeitsgangnr.** zu berechnen. Feld  
-    Wählen Sie die Option **Parallel** , um die Arbeitsgänge abhängig vom Eintrag im Feld **Nächste Arbeitsgangnr.** zu berechnen. Feld  
-5. Wenn Sie den Arbeitsplan bearbeiten möchten, setzen Sie das Feld **Status** auf **Neu** oder **In Entwicklung** . Um den Arbeitsplan zu aktivieren, setzen Sie das Feld **Status** auf **Zertifiziert** .  
+4. Wählen Sie im Feld **Art** die Option **Serien**, um die Fertigungsarbeitsgänge abhängig vom Eintrag im Feld **Arbeitsgangnr.** zu berechnen. Feld  
+    Wählen Sie die Option **Parallel**, um die Arbeitsgänge abhängig vom Eintrag im Feld **Nächste Arbeitsgangnr.** zu berechnen. Feld  
+5. Wenn Sie den Arbeitsplan bearbeiten möchten, setzen Sie das Feld **Status** auf **Neu** oder **In Entwicklung**. Um den Arbeitsplan zu aktivieren, setzen Sie das Feld **Status** auf **Zertifiziert**.  
 
     So füllen Sie die Arbeitsplanzeilen aus
-6. Im Feld **Vorherige Arbeitsgangnr.** geben Sie die Nummer des ersten Arbeitsgangs ein, z. B. **10** .  
-7. Geben Sie im Feld **Art** die verwendete Ressourcenart an, z. B. **Arbeitsplatzgruppe** .  
+6. Im Feld **Vorherige Arbeitsgangnr.** geben Sie die Nummer des ersten Arbeitsgangs ein, z. B. **10**.  
+7. Geben Sie im Feld **Art** die verwendete Ressourcenart an, z. B. **Arbeitsplatzgruppe**.  
 8. Geben Sie im Feld **Nr.** die zu verwendende Ressource oder geben Sie sie im Feld ein.  
 9. Geben Sie im Feld **Verbindungscode** einen Code für die Verbindung der Komponente mit einem bestimmten Arbeitsgang ein. Weitere Informationen finden Sie unter [So erstellen Sie einen Arbeitsplanlink](production-how-to-create-routings.md#to-create-routing-links).
 10. Geben Sie in den Feldern **Bearbeitungszeit** und **Rüstzeit** die benötigte Dauer zum Ausführen des Arbeitsgangs ein.
 
-    > [!NOTE]
-    > Die Rüstzeit wird pro Fertigungsauftrag berechnet, wobei die Bearbeitungszeit pro Fertigungsartikel berechnet wird.  
+     > [!NOTE]
+     > Die Rüstzeit wird pro Fertigungsauftrag berechnet, wobei die Bearbeitungszeit pro Fertigungsartikel berechnet wird.  
 
 11. Geben Sie im Feld **Gleichzeitig zu belasten** an, wie viele Einheiten der ausgewählten Ressource verwendet werden, um den Vorgang auszuführen. Beispielsweise halbiert sich die Bearbeitungszeit, wenn zwei Personen einem Verpackungsarbeitsgang zugeordnet werden.  
 12. Füllen Sie weitere Zeilen für alle Arbeitsgänge aus, die für die Fertigung des betreffenden Artikels erforderlich sind.  
-13. Wenn Sie aus einem vorhandenen Arbeitsplan kopieren möchten, klicken Sie auf **Arbeitsplan kopieren** , um vorhandene Zeilen auszuwählen.  
+13. Wenn Sie aus einem vorhandenen Arbeitsplan kopieren möchten, klicken Sie auf **Arbeitsplan kopieren**, um vorhandene Zeilen auszuwählen.  
 14. Zertifizieren Sie den Arbeitsplan.  
 15. Sie können den neuen Arbeitsplan an die Karte des betreffenden Fertigungsartikels anhängen, indem das Feld **Arbeitsplan-Nr.** ausgefüllt wird. Weitere Informationen finden Sie unter [Neue Artikel registrieren](inventory-how-register-new-items.md).  
 
@@ -77,15 +77,15 @@ Ein weiterer wichtiger Vorteil besteht darin, dass verknüpfte Komponenten und A
     >
     > Es empfiehlt sich, den Verbindungscode nach dem Arbeitsgang zu benennen, um entsprechend spezifische Verbindungscodes zu erstellen.
 
-5. Setzen Sie den Arbeitsplanstatus auf **Zertifiziert** .  
+5. Setzen Sie den Arbeitsplanstatus auf **Zertifiziert**.  
 
     Verbindungscodes werden nun Arbeitsplänen zugeordnet. Als Nächstes müssen Sie die tatsächliche Verbindung erstellen, indem Sie die gleichen Codes spezifischen Komponenten in der entsprechenden Fertigungsstückliste zuordnen.  
 
 6. Öffnen Sie die **Fertigungsstückliste** mit den Komponenten, die Sie mit den obigen Arbeitsgängen verbinden möchten. Weitere Informationen finden Sie unter [Erstellen von Montagestücklisten](production-how-to-create-production-boms.md).
 7. Stellen Sie sicher, dass der Status der Stückliste **In Entwicklung** ist.  
-8. Klicken Sie auf der entsprechenden Zeile der Fertigungsstückliste in das Feld **Verbindungscode** , und wählen Sie den Code, den Sie gerade dem entsprechenden Arbeitsgang zugeordnet haben.  
+8. Klicken Sie auf der entsprechenden Zeile der Fertigungsstückliste in das Feld **Verbindungscode**, und wählen Sie den Code, den Sie gerade dem entsprechenden Arbeitsgang zugeordnet haben.  
 9. Fahren Sie mit dem Hinzufügen von Verbindungscodes zu anderen Komponenten fort. Dies muss den eindeutigen Arbeitsgängen und deren Verwendung entsprechen.  
-10. Setzen Sie den Status der Fertigungsstückliste auf **Zertifiziert** .  
+10. Setzen Sie den Status der Fertigungsstückliste auf **Zertifiziert**.  
 
     > [!NOTE]  
     > Einen vorhandenen Fertigungsauftrag müssen Sie zuerst aktualisieren, um die Verbindungen aktivieren zu können. Weitere Informationen finden Sie unter [Erstellen von Montageaufträgen](production-how-to-create-production-orders.md).  
@@ -100,7 +100,7 @@ Wenn Sie Personal mit besonderen Fähigkeiten, speziellem Wissen oder speziellen
 2. Öffnen Sie das relevante Routing.  
 3. Im Inforegister **Zeilen** wählen Sie die Zeile aus, die Sie bearbeiten möchten, und wählen Sie dann die Aktion **Vorgänge** und **Personal** aus.  
 4. Füllen Sie die Felder auf der Seite **Arbeitsgang Personal** aus.  
-5. Wählen Sie die Schaltfläche **OK** , um die Seite zu verlassen. Die eingegebenen Werte werden kopiert und dem Arbeitsgang zugeordnet.  
+5. Wählen Sie die Schaltfläche **OK**, um die Seite zu verlassen. Die eingegebenen Werte werden kopiert und dem Arbeitsgang zugeordnet.  
 
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Neue Arbeitsplanversionen erzeugen
 
@@ -112,7 +112,7 @@ Das Versionsprinzip ermöglicht Ihnen, mehrere Versionen eines Arbeitsplans zu v
 4. Füllen Sie die Felder je nach Bedarf aus.
 5. Geben Sie im Feld **Versionscode** eine eindeutige Kennung der Version ein. Beliebige Kombinationen von Ziffern und Buchstaben können verwendet werden.  
 
-    Die neu erstellte Version erhält automatisch den Status **Neu** .  
+    Die neu erstellte Version erhält automatisch den Status **Neu**.  
 6. Um Arbeitsgangszeilen zu erstellen, wählen Sie die erste leere Zeile, und füllen Sie dann **Arbeitsgangnr.** aus Füllen Sie das Feld Arbeitsgangnr. entsprechend der Reihenfolge der Arbeitsgänge aus.
 
     Die Arbeitsgänge sind in der Reihenfolge der Arbeitsgangnummern aufsteigend sortiert. Um später Änderungen durchführen zu können, empfehlen wir Ihnen, angemessene Schrittweiten zu verwenden. Das **Nächste Arbeitsgangnr.** Feld bezieht sich auf den folgenden Arbeitsgang. Die Nummer des Arbeitsgangs kann direkt eingegeben werden.
@@ -129,4 +129,4 @@ Die zeitliche Gültigkeit der Version wird durch das **Startdatum** bestimmt.
 [Planung](production-planning.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

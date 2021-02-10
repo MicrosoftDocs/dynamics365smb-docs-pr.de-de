@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a230560b897f92cb871e72edb3ccfa2f74884bd3
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910705"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817281"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Arbeitsplätze und Arbeitsplatzgruppen einrichten
 
@@ -49,8 +49,8 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 
     Einstandspreis = EK-Preis + (EK-Preis x Kosten %) + Gemeinkostensatz.  
 
-9. Legen Sie im Feld **Einstandspreisberechnung** fest, ob der obigen Berechnung die benötigte Zeitspanne ( **Zeit** ) oder die Anzahl der gefertigten Einheiten ( **Einheiten** ) zugrunde gelegt werden soll.  
-10. Markieren Sie das Feld **Spezifische Stückkosten** , wenn Sie die Stückkosten des Arbeitsplatzes in der Arbeitsplanzeile, in der er verwendet wird, definieren wollen. Dies kann sich als unerlässlich bei Arbeitsgängen mit wesentlich abweichenden Kapazitätskosten erweisen, die normalerweise in dieser Arbeitsplatzgruppe verarbeitet werden.  
+9. Legen Sie im Feld **Einstandspreisberechnung** fest, ob der obigen Berechnung die benötigte Zeitspanne (**Zeit**) oder die Anzahl der gefertigten Einheiten (**Einheiten**) zugrunde gelegt werden soll.  
+10. Markieren Sie das Feld **Spezifische Stückkosten**, wenn Sie die Stückkosten des Arbeitsplatzes in der Arbeitsplanzeile, in der er verwendet wird, definieren wollen. Dies kann sich als unerlässlich bei Arbeitsgängen mit wesentlich abweichenden Kapazitätskosten erweisen, die normalerweise in dieser Arbeitsplatzgruppe verarbeitet werden.  
 11. Wählen Sie im Feld **Buchungsmethode** aus, ob der Ausgabebuchung in dieser Arbeitsplatzgruppe manuell oder automatisch mit einer der folgenden Methoden berechnet und gebucht werden soll, indem eine der folgenden Methoden verwendet wird.
 
     |Option|Beschreibung|
@@ -68,11 +68,14 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
     > [!NOTE]  
     > Beachten Sie bei der Verwendung von Tagen, dass 1 Tag 24 Stunden und nicht 8 (Arbeitsstunden) hat.
 
-13. Geben Sie im Feld **Kapazität** an, ob in der Arbeitsplatzgruppe mehrere Personen bzw. Maschinen gleichzeitig eingesetzt werden. Wenn in der [!INCLUDE[d365fin](includes/d365fin_md.md)]-Installation das Element "Arbeitsplatz" nicht enthalten ist, muss in diesem Feld der Wert **1** festgelegt sein.  
+13. Geben Sie im Feld **Kapazität** an, ob in der Arbeitsplatzgruppe mehrere Personen bzw. Maschinen gleichzeitig eingesetzt werden. Wenn in der [!INCLUDE[prod_short](includes/prod_short.md)]-Installation das Element "Arbeitsplatz" nicht enthalten ist, muss in diesem Feld der Wert **1** festgelegt sein.  
 14. Geben Sie im Feld **Effektivität** an, wie hoch die tatsächliche Effektivität der Arbeitsplatzgruppe prozentual hinsichtlich der erwarteten Standardeffektivität ist. Wenn Sie **100** eingeben, bedeutet dies, dass die Isteffektivität der Arbeitsplatzgruppe mit der Standardeffektivität übereinstimmt.  
-15. Wählen Sie das Kontrollkästchen **Konsolidierter Kalender** , wenn Sie auch Arbeitsplätze verwenden. Dadurch ist sichergestellt, dass Kalenderposten oben aus den Arbeitsplatzkalendern ermittelt werden.  
+15. Wählen Sie das Kontrollkästchen **Konsolidierter Kalender**, wenn Sie auch Arbeitsplätze verwenden. Dadurch ist sichergestellt, dass Kalenderposten oben aus den Arbeitsplatzkalendern ermittelt werden.  
 16. Wählen Sie im Feld **Betriebskalender** einen Einkaufskalender. Weitere Informationen finden Sie unter [Erstellen von Betriebskalendern](production-how-to-create-work-center-calendars.md).  
-17. Geben Sie im Feld **Warteschlangenzeit** eine feste Zeitspanne an, die ablaufen muss, bevor die zugewiesenen Arbeiten in dieser Arbeitsplatzgruppe begonnen werden können. Beachten Sie, dass die Warteschlangenzeit auf die anderen nicht fertigungsbezogenen Zeitelemente wie Wartezeit und Transportzeit aufgeschlagen wird, die sie für Arbeitsgänge in dieser Arbeitsplatzgruppe definieren können.  
+17. Geben Sie im Feld **Warteschlangenzeit** eine feste Zeitspanne an, die ablaufen muss, bevor die zugewiesenen Arbeiten in dieser Arbeitsplatzgruppe begonnen werden können. 
+
+> [!NOTE]
+> Verwenden Sie Warteschlangenzeiten, um einen Puffer zwischen dem Eintreffen einer Komponente auf einer Maschine oder einem Arbeitsplatz und dem tatsächlichen Start des Vorgangs bereitzustellen. Beispielsweise wird ein Teil um 10:00 Uhr an ein Maschinenzentrum geliefert, die Montage an der Maschine dauert jedoch eine Stunde, sodass der Vorgang erst um 11.00 Uhr beginnt. Um diese Stunde zu berücksichtigen, würde die Wartezeit eine Stunde betragen. Der Wert des Feldes **Warteschlangenzeit** der speziellen Arbeitsplatzkarte oder Arbeitsplatzgruppenkarte plus die Summe der Werte in den Feldern **Einrichtungszeit**, **Ausführungszeit**, **Wartezeit** und **Transportzeit** der Arbeitsgänge des Artikels ergeben zusammen die Produktionsdurchlaufzeit des Artikels. Dies trägt zu genauen Gesamtproduktionszeiten bei.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Beispiel - unterschiedliche Arbeitsplätze, die einer Arbeitsplatzgruppe zugewiesen sind
 
@@ -88,14 +91,14 @@ Wenn die Kapazität von Arbeitsplätzen keinen Beitrag zur Gesamtkapazität leis
 
 Sie müssen die Produktionsressourcen einrichten, die Sie als kritisch betrachten, damit diese nur eine Auslastung bis zu einer Kapazitätsgrenze annimmt, anstelle der Standardeinstellung ohne Kapazitätsgrenze, die andere Produktionsressourcen annehmen. Eine Ressource mit eingeschränkter Kapazität kann eine Arbeitsplatzgruppe oder ein Arbeitsplatz sein, den Sie als Flaschenhals erkannt haben und dessen Auslastung Sie deshalb begrenzen möchten.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützt keine ausführliche Fertigungsbereichssteuerung. Planung einer durchführbaren Nutzung von Ressourcen durch Bereitstellung eines Rohschnittzeitplans, jedoch keine automatische Erstellung und Verwaltung von detaillierten Plänen, die auf Prioritäten oder Optimierungsregeln basieren.
+[!INCLUDE[prod_short](includes/prod_short.md)] unterstützt keine ausführliche Fertigungsbereichssteuerung. Planung einer durchführbaren Nutzung von Ressourcen durch Bereitstellung eines Rohschnittzeitplans, jedoch keine automatische Erstellung und Verwaltung von detaillierten Plänen, die auf Prioritäten oder Optimierungsregeln basieren.
 
 Auf der Seite **Ressourcen mit eingeschränkter Kapazität** können Sie ein Setup vornehmen, das eine Überladung bestimmter Ressourcen verhindert und sicherstellt, dass keine Kapazität unzugewiesen bleibt, wenn dies die Durchlaufzeit eines Fertigungsauftrags erhöhen könnte. Im Feld **Toleranz (% der gesamten Kapazität)** können Sie eine Toleranzperiode zu Ressourcen hinzufügen, um die Aufspaltung von Arbeitsgängen zu minimieren. Dies ermöglicht dem System, Auslastung am letzten möglichen Tag zu planen, indem es den kritischen Auslastungsprozentsatz etwas überschreitet, wenn dies die Anzahl der Arbeitsgänge verringern kann, die aufgeteilt werden.
 
 Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, dass keine Ressourcen oberhalb der definierten Kapazität (Grenzbelastung) geladen werden. Dies geschieht, indem jeder Arbeitsgang dem nächsten verfügbaren Zeitfenster zugewiesen wird. Wenn das Zeitfenster nicht ausreicht, um den gesamten Arbeitsgang abzuschließen, wird der Arbeitsgang in zwei Teile aufgeteilt, die in die nächsten verfügbaren Zeitfenster gesetzt werden.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Kapazitätsengpässe bei den Ressourcen** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die Aktion **Neu** .
+2. Wählen Sie die Aktion **Neu**.
 3. Füllen Sie die Felder je nach Bedarf aus.
 
 > [!NOTE]
@@ -111,4 +114,4 @@ Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, das
 [Planung](production-planning.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

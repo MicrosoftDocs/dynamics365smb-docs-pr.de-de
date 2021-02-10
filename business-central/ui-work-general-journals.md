@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920697"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760094"
 ---
 # <a name="working-with-general-journals"></a>Arbeiten mit Fibu Buch.-Blättern
 
-Die meisten Finanztransaktionen werden in der Finanzbuchhaltung von Geschäftsbelegen wie Einkaufsrechnungen und Verkaufsaufträge gebucht. Sie können auch Geschäftsaktivitäten wie Einkauf, Zahlung, die Verwendung wiederkehrender Buch.-Blätter, um Abgrenzungen zu buchen, oder Rückerstattung von Mitarbeiterausgaben verarbeiten, indem Sie Buch.-Blattzeilen in den verschiedenen Buch.-Blättern in [!INCLUDE[d365fin](includes/d365fin_md.md)] buchen.  
+Die meisten Finanztransaktionen werden in der Finanzbuchhaltung von Geschäftsbelegen wie Einkaufsrechnungen und Verkaufsaufträge gebucht. Sie können auch Geschäftsaktivitäten wie Einkauf, Zahlung, die Verwendung wiederkehrender Buch.-Blätter, um Abgrenzungen zu buchen, oder Rückerstattung von Mitarbeiterausgaben verarbeiten, indem Sie Buch.-Blattzeilen in den verschiedenen Buch.-Blättern in [!INCLUDE[prod_short](includes/prod_short.md)] buchen.  
 
-Die meisten Buchungsblätter basieren auf dem *Fibu Buch.-Blatt* , und Sie können alle Transaktionen auf der Seite **Fibu Buch.-Blatt** bearbeiten. Weitere Informationen finden Sie unter [Transaktionen direkt in der Finanzbuchhaltung buchen.](finance-how-post-transactions-directly.md).  
+Die meisten Buchungsblätter basieren auf dem *Fibu Buch.-Blatt*, und Sie können alle Transaktionen auf der Seite **Fibu Buch.-Blatt** bearbeiten. Weitere Informationen finden Sie unter [Transaktionen direkt in der Finanzbuchhaltung buchen.](finance-how-post-transactions-directly.md).  
 
 Beispielsweise können Sie die Kosten der Mitarbeiter, die sie selber bezahlt haben, verwenden, um später zurückzuahlen. Weitere Informationen finden Sie unter [Erstatten Sie die Ausgaben der Mitarbeiter zurück](finance-how-record-reimburse-employee-expenses.md).
 
@@ -36,20 +36,20 @@ Die in ein Buch.-Blatt eingegebenen Informationen sind temporär und können ge�
 
 ## <a name="using-journal-templates-and-batches"></a>Buch-Blattvorlagen und Stapel nutzen
 
-Es gibt mehrere Fibu Buch.-Blattvorlagen. Jede Buch.-Blattvorlage wird durch eine spezifisches Seite mit bestimmten Funktionen und den Feldern dargestellt, die benötigt werden, um diese Funktionen zu unterstützen, wie die Seite **Zahlungs-Abstimmungs-Buch.-Blatt** , um Bankzahlungen zu verarbeiten, und die Seite **Zahlungsausgangs Buch.-Blatt** , um Ihre Mitarbeiter zu bezahlen. Weitere Informationen finden Sie unter [Zahlungen vornehmen](payables-make-payments.md) und [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md).
+Es gibt mehrere Fibu Buch.-Blattvorlagen. Jede Buch.-Blattvorlage wird durch eine spezifisches Seite mit bestimmten Funktionen und den Feldern dargestellt, die benötigt werden, um diese Funktionen zu unterstützen, wie die Seite **Zahlungs-Abstimmungs-Buch.-Blatt**, um Bankzahlungen zu verarbeiten, und die Seite **Zahlungsausgangs Buch.-Blatt**, um Ihre Mitarbeiter zu bezahlen. Weitere Informationen finden Sie unter [Zahlungen vornehmen](payables-make-payments.md) und [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md).
 
 Sie können zu jeder Buch.-Blattvorlage mehrere Buch.-Blattnamen als Buch-Stapel erstellen. Beispielsweise können Sie Ihre eigenen Buch-Stapel für das Zahlungsausgangsbuch erstellen, das Ihr persönliches Layout und Ihre Einstellungen hat. Der nächste Tipp ist ein Beispiel, wie Sie ein Buch.-Blatt anpassen.
 
 > [!TIP]  
-> Wenn Sie das Kontrollkästchen **Ausgleichsbetrag vorschlagen** in der Zeile für Ihren Stapel auf der Seite **Fibu Buch.-Blattnamen** -Seite auswählen, dann werden das Feld **Betrag** , beispielsweise Fibu Buch.-Blattzeilen für dieselbe Belegnummer automatisch mit dem Wert, der zum Ausgleichen des Belegs erforderlich ist, ausgefüllt. Weitere Informationen finden Sie unter[[!INCLUDE[d365fin](includes/d365fin_md.md)] Werte vorschlagen](ui-let-system-suggest-values.md).
+> Wenn Sie das Kontrollkästchen **Ausgleichsbetrag vorschlagen** in der Zeile für Ihren Stapel auf der Seite **Fibu Buch.-Blattnamen**-Seite auswählen, dann werden das Feld **Betrag**, beispielsweise Fibu Buch.-Blattzeilen für dieselbe Belegnummer automatisch mit dem Wert, der zum Ausgleichen des Belegs erforderlich ist, ausgefüllt. Weitere Informationen finden Sie unter[[!INCLUDE[prod_short](includes/prod_short.md)] Werte vorschlagen](ui-let-system-suggest-values.md).
 
 > [!TIP]
-> Verwenden Sie zum Hinzufügen oder Entfernen von Feldern in Buchungsblättern das Banner **Personalisieren** . Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
+> Verwenden Sie zum Hinzufügen oder Entfernen von Feldern in Buchungsblättern das Banner **Personalisieren**. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Fibu Buch.-Blatt-Stapelverarbeitungen überprüfen
-Um Verzögerungen beim Buchen zu vermeiden, können Sie eine Hintergrundüberprüfung aktivieren, die Sie benachrichtigt, wenn in dem Finanzbuch.-Blatt, an dem Sie arbeiten, ein Fehler vorliegt, der Sie daran hindert, das Buch.-Blatt zu veröffentlichen. Auf der Seite **Fibu Buch.-Blatt** können Sie **Hintergrundfehlerprüfung** wählen, damit [!INCLUDE[d365fin](includes/d365fin_md.md)] Finanzbuch.-Blätter überprüft, wie z. B. Fibu Buch.Blätter oder Zahlungsausgangs Buch.-Blätter, während Sie an ihnen arbeiten. 
+Um Verzögerungen beim Buchen zu vermeiden, können Sie eine Hintergrundüberprüfung aktivieren, die Sie benachrichtigt, wenn in dem Finanzbuch.-Blatt, an dem Sie arbeiten, ein Fehler vorliegt, der Sie daran hindert, das Buch.-Blatt zu veröffentlichen. Auf der Seite **Fibu Buch.-Blatt** können Sie **Hintergrundfehlerprüfung** wählen, damit [!INCLUDE[prod_short](includes/prod_short.md)] Finanzbuch.-Blätter überprüft, wie z. B. Fibu Buch.Blätter oder Zahlungsausgangs Buch.-Blätter, während Sie an ihnen arbeiten. 
 
-Wenn Sie die Überprüfung aktivieren, wird die Infobox **Buch.-Blatt-Prüfung** neben den Buch.-Blattzeilen angezeigt und zeigt Probleme in der aktuellen Zeile und im gesamten Stapel an. Die Überprüfung erfolgt, wenn Sie einen Finanz-Buch.-Blattname laden und eine andere Buch.-Blattzeile auswählen. Die Kachel **Probleme insgesamt** in der Infobox zeigt die Gesamtanzahl von Problemen, die [!INCLUDE[d365fin](includes/d365fin_md.md)] gefunden hat, und Sie können sie auswählen, um eine Übersicht über die Probleme zu öffnen. 
+Wenn Sie die Überprüfung aktivieren, wird die Infobox **Buch.-Blatt-Prüfung** neben den Buch.-Blattzeilen angezeigt und zeigt Probleme in der aktuellen Zeile und im gesamten Stapel an. Die Überprüfung erfolgt, wenn Sie einen Finanz-Buch.-Blattname laden und eine andere Buch.-Blattzeile auswählen. Die Kachel **Probleme insgesamt** in der Infobox zeigt die Gesamtanzahl von Problemen, die [!INCLUDE[prod_short](includes/prod_short.md)] gefunden hat, und Sie können sie auswählen, um eine Übersicht über die Probleme zu öffnen. 
 
 Sie können die Aktionen **Zeilen mit Problemen anzeigen** und **Alle Zeilen anzeigen** anzeigen, um zwischen Buch.-Blattzeilen umzuschalten, die Probleme haben oder keine. Die neue Infobox **Buch.-Blattzeilendetails** bietet einen schnellen Überblick und Zugriff auf Daten aus Buch.-Blattzeilen, wie z. B. Sachkonto, Debitor oder Kreditor sowie zur Buchungseinrichtung für bestimmte Konten.     
 
@@ -65,7 +65,7 @@ Mit diesen Aktionen können Sie eine Kopie einer Fibu Buch.-Blattzeile oder eine
 * Ob mit entgegengesetzten Zeichen (ein Stornierungs-Buch.-Blatt)
 * Ein anderes Buchungsdatum oder eine andere Belegnummer
 
-Damit Buch.-Blätter in gebuchte Fibu Buch.-Blätter kopiert werden können, wählen Sie auf der Seite **Fibu Buch.-Blatt-Vorlagen** das Kontrollkästchen **In gebuchte Buch.-Blattzeilen kopieren** . Nachdem Sie Personen das Kopieren gebuchter Fibu Buch.-Blätter erlauben, können Sie, falls notwendig, das Kopieren für bestimmte Stapel deaktivieren.
+Damit Buch.-Blätter in gebuchte Fibu Buch.-Blätter kopiert werden können, wählen Sie auf der Seite **Fibu Buch.-Blatt-Vorlagen** das Kontrollkästchen **In gebuchte Buch.-Blattzeilen kopieren**. Nachdem Sie Personen das Kopieren gebuchter Fibu Buch.-Blätter erlauben, können Sie, falls notwendig, das Kopieren für bestimmte Stapel deaktivieren.
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Hauptkonten und Gegenkonten und Saldokonten verstehen
 Wurden auf der Seite **Fibu Buch.-Blätter** Standardgegenkonten für die Buch.-Blattnamen eingerichtet, wird das Gegenkonto beim Ausfüllen des Felds **Kontonr.** automatisch ausgefüllt. Andernfalls müssen die Felder **Kontonr.** und **Gegenkontonr.** manuell ausgefüllt werden. Bei einem positiven Betrag im Feld **Betrag** wird das Hauptkonto belastet, und auf dem Gegenkonto erfolgt eine Gutschrift. Bei einem negativen Betrag erfolgt eine Gutschrift auf dem Hauptkonto, und das Gegenkonto wird entsprechend belastet.
@@ -148,7 +148,7 @@ Wenn Sie Buch.-Blattzeilen erstellt haben, die Sie wahrscheinlich zu einem spät
 5. Auf der Anforderungsseite **Als Standard Artikel Buch.-Blatt speichern** müssen Sie ein neues oder vorhandenes Standard Buch.-Blatt eingeben, in dem die Zeilen gespeichert werden sollen:
 
     Wenn Sie bereits mindestens ein Standard-Artikel Buch.-Blatt erstellt haben und es durch eine neue Zusammenstellung von Artikel Buch.-Blattzeilen ersetzen möchten, können Sie Feld Code den gewünschten Code auszuwählen.
-6. Wählen Sie die Schaltfläche **OK** , um zu bestätigen, dass Sie das vorhandene Standard-Artikel-Buch.-Blatt überschreiben und seinen gesamten Inhalt ersetzen möchten.
+6. Wählen Sie die Schaltfläche **OK**, um zu bestätigen, dass Sie das vorhandene Standard-Artikel-Buch.-Blatt überschreiben und seinen gesamten Inhalt ersetzen möchten.
 7. Wählen Sie das Feld **Stückpreis speichern** aus, wenn Sie die Werte im Feld **Stückpreis** im Standard Artikel Buch.-Blatt speichern möchten.
 8. Wählen Sie das Feld **Menge speichern** aus, wenn die Anwendung die Werte im Feld **Menge** speichern muss.
 9. Wählen Sie **OK** aus, um das Standard Artikel Buch.-Blatt zu speichern.
@@ -160,10 +160,10 @@ Wenn Sie das Standard-Artikel-Buch.-Blatt gespeichert haben, wird die Seite "Art
 2. Wählen Sie die **Standard Buch.-Blatt abrufen** Aktion aus.
 
     Die Seite "Standard Artikel Buch.-Blätter" wird geöffnet und zeigt Codes und Beschreibungen für alle vorhandenen Standard Artikel Buch.-Blätter an.
-3. Zum Überprüfen eines Standard Artikel Buch.-Blatts vor dem Auswählen für die Wiederverwendung klicken Sie auf **Buch.-Blatt anzeigen** .
+3. Zum Überprüfen eines Standard Artikel Buch.-Blatts vor dem Auswählen für die Wiederverwendung klicken Sie auf **Buch.-Blatt anzeigen**.
 
     Alle Änderungen, die an einem Standard Artikel Buch.-Blatt vorgenommen werden, werden sofort implementiert. Sie sind beim nächsten Mal, wenn Sie das betreffenden Standard Artikel Buch.-Blatt öffnen oder verwenden. Daher sollten Sie sicher sein, dass die Änderung gewichtig genug ist, um sie allgemein zu übernehmen. Nehmen Sie andernfalls die spezifische Änderung am Artikel Buch.-Blatt vor, nachdem die Zeilen im Standard Artikel Buch.-Blatt eingefügt wurden. Siehe dazu auch Schritt 4 unten.
-4. Auf der Seite **Standard Artikel Buch.-Blätter** wählen Sie das Standard Artikel Buch.-Blatt aus, das Sie erneut verwenden möchten, und klicken Sie auf **OK** .
+4. Auf der Seite **Standard Artikel Buch.-Blätter** wählen Sie das Standard Artikel Buch.-Blatt aus, das Sie erneut verwenden möchten, und klicken Sie auf **OK**.
 
     Jetzt wird das Artikel Buch.-Blatt mit den Zeilen aufgefüllt, die Sie als Standard Artikel Buch.-Blatt gespeichert haben. Wenn Buch.-Blattzeilen bereits im Artikel Buch.-Blatt vorhanden sind, werden die eingefügten Zeilen unterhalb der vorhandenen Buch.-Blattzeilen eingefügt.
 
@@ -188,10 +188,10 @@ Diese Funktion funktioniert auch bei gefilterten Ansichten.
 
 Jede Neunummerierung der Belegnummern berücksichtigt verwandte Anwendungen, wie etwa eine Zahlungsanwendung, die von dem Dokument auf der Buch.-Blattzeile an ein Kreditorenkonto durchgeführt wurde. Entsprechend werden die Felder **Ausgleichs-ID** und **Ausgleich mit Belegnr.** in den betroffenen Posten aktualisiert.
 
-Die folgende Prozedur basiert auf der Seite **Fibu Buch.-Blatt** , gilt aber für alle anderen Buch.-Blätter, die auf dem Hauptbuch basieren, wie etwa die Seite **Zahlungs Buch.-Blatt** .
+Die folgende Prozedur basiert auf der Seite **Fibu Buch.-Blatt**, gilt aber für alle anderen Buch.-Blätter, die auf dem Hauptbuch basieren, wie etwa die Seite **Zahlungs Buch.-Blatt**.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Fibu Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.
-2. Wenn Sie zum Buchen des Buchs bereit sind, wählen Sie auf der Registerkarte Aktionen, in der Gruppe Funktionen, die Option **Belegnummern neu nummerieren** .
+2. Wenn Sie zum Buchen des Buchs bereit sind, wählen Sie auf der Registerkarte Aktionen, in der Gruppe Funktionen, die Option **Belegnummern neu nummerieren**.
 
 Werte im Feld **Dokumentennr.** werden geändert, wo erforderlich, sodass die Belegnummern auf einzelnen oder gruppierten Buch.-Blattzeilen in sequenzieller Reihenfolge stehen. Nach der Neunummerierung der Dokumente können Sie mit der Buchung des Buch.-Blatts fortfahren.
 
@@ -203,7 +203,7 @@ Werte im Feld **Dokumentennr.** werden geändert, wo erforderlich, sodass die Be
 [Buch.-Blatt-Buchungen stornieren und Rückgängigmachung von Eingängen/Versendungen](finance-how-reverse-journal-posting.md)  
 [Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Schließen von offenen Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Lager im Neubewertungs-Blatt neu bewerten](inventory-how-revalue-inventory.md)  
 [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)  

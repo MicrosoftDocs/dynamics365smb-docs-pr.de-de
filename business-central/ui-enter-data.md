@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912496"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840253"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
@@ -24,7 +24,7 @@ Es gibt eine Vielzahl allgemeiner Funktionen, mit denen Sie Daten einfacher, sch
 Die Beispiele in diesen Artikel verwendet die Demodaten.
 
 ## <a name="working-with-editable-fields"></a>Mit bearbeitbaren Feldern arbeiten
-Felder in [!INCLUDE[d365fin](includes/d365fin_md.md)] können verschiedene bearbeitbare Daten enthalten, z. B. Text oder Währungsbeträge. Bearbeitbare Felder zeigen in der Regel ein Eingabefeld an, in das Sie einen Wert eingeben bzw. aus dem Sie einen Wert auswählen können. Nicht bearbeitbare Felder werden normalerweise mit einem grauem Hintergrund angezeigt.   
+Felder in [!INCLUDE[prod_short](includes/prod_short.md)] können verschiedene bearbeitbare Daten enthalten, z. B. Text oder Währungsbeträge. Bearbeitbare Felder zeigen in der Regel ein Eingabefeld an, in das Sie einen Wert eingeben bzw. aus dem Sie einen Wert auswählen können. Nicht bearbeitbare Felder werden normalerweise mit einem grauem Hintergrund angezeigt.   
 
 Einige bearbeitbare Felder bieten eine Auswahl, anhand derer Sie einen Wert festlegen können.  
 
@@ -33,7 +33,7 @@ Einige bearbeitbare Felder bieten eine Auswahl, anhand derer Sie einen Wert fest
 |------------------|------------------------------------|
 |Datumsauswahl       |Diese Auswahl zeigt einen Kalender an, der auf Ihren aktuellen regionalen Einstellungen basiert. Dieser ermöglicht die Auswahl eines einzelnen Datums.|
 |Dropdownliste          |Dropdownlisten bieten eine Auswahl an festen Werten oder Referenzdatensätzen aus einer anderen Tabelle.|
-|Schalter oder Kontrollkästchen|Einige Felder bieten eine einfache Auswahl von *Ja* - oder *Nein* -Werten. Dieser Wert wird mit dem Schalter festgelegt und in Listen immer als Kontrollkästchen angezeigt.|
+|Schalter oder Kontrollkästchen|Einige Felder bieten eine einfache Auswahl von *Ja*- oder *Nein*-Werten. Dieser Wert wird mit dem Schalter festgelegt und in Listen immer als Kontrollkästchen angezeigt.|
 |AssistEdit       |Einige Felder bieten benutzerdefinierte Auswahlfelder zum Suchen und Auswählen des besten Werts für dieses Feld, z. B. ein Popup-Fenster.|
 
 
@@ -41,20 +41,20 @@ Einige bearbeitbare Felder bieten eine Auswahl, anhand derer Sie einen Wert fest
 
 Um den Wert eines Felds zu ändern, müssen Sie zuerst den Fokus auf dieses Feld legen. Führen Sie dazu die folgenden Aktionen aus:
 
-- Verwenden Sie die **TAB** -Taste. Die Aktion wählt den gesamten Wert aus.
+- Verwenden Sie die **TAB**-Taste. Die Aktion wählt den gesamten Wert aus.
 - Klicken Sie mit der linken Maustaste oder einem ähnlichen Eingabegerät. Diese Aktion wählt nur den gesamten Feldwert aus, wenn sich das Feld in einer Liste befindet.  
 
-Wenn Sie mit Feldern in der Benutzeroberfläche interagieren, bevorzugt [!INCLUDE[d365fin](includes/d365fin_md.md)] in der Regel die Auswahl des gesamten Feldwerts, damit Sie diesen Wert leichter ersetzen können.
+Wenn Sie mit Feldern in der Benutzeroberfläche interagieren, bevorzugt [!INCLUDE[prod_short](includes/prod_short.md)] in der Regel die Auswahl des gesamten Feldwerts, damit Sie diesen Wert leichter ersetzen können.
 
 Gehen Sie wie folgt vor, wenn der gesamte Feldwert ausgewählt ist:
 - Ersetzen Sie den Wert einfach durch die Eingabe eines neuen Werts, um diesen festzulegen. Wenn das Feld eine Auswahl bietet, können Sie diese mit der Tastenkombination **Alt + Pfeil nach unten** aktivieren.
-- Verwenden Sie die Taste **Löschen** oder die **Rücktaste** , um den Wert zu löschen.
+- Verwenden Sie die Taste **Löschen** oder die **Rücktaste**, um den Wert zu löschen.
 
-Drücken Sie die Taste **F2** , um zwischen der Auswahl des gesamten Feldwerts oder der Platzierung des Cursors hinter dem Wert des Felds umzuschalten. Wenn Sie den Cursor am Ende des Werts platzieren, können Sie ihn leichter an den vorhandenen Wert anhängen.
+Drücken Sie die Taste **F2**, um zwischen der Auswahl des gesamten Feldwerts oder der Platzierung des Cursors hinter dem Wert des Felds umzuschalten. Wenn Sie den Cursor am Ende des Werts platzieren, können Sie ihn leichter an den vorhandenen Wert anhängen.
 
 Wenn der Cursor am Ende des Feldwerts angezeigt wird:
 - Fügen Sie den Wert hinzu, indem Sie ihn einfach eingeben.
-- Verwenden Sie die **POS1** -, **ENDE** -, **NACH-LINKS** - und **NACH-RECHTS** -Taste, um den Cursor innerhalb des Werts zu bewegen. Wenn Sie beim Bearbeiten eines Felds in einer Liste die **NACH-LINKS** -TASTE erneut drücken, wenn sich der Cursor am Anfang des Werts befindet, wird der Fokus wieder auf das vorherige Feld gelegt. Wenn Sie die **NACH-RECHTS** -TASTE erneut drücken, während sich der Cursor am Ende des Werts befindet, wird der Fokus entsprechend auf das nächste Feld gelegt.
+- Verwenden Sie die **POS1**-, **ENDE**-, **NACH-LINKS**- und **NACH-RECHTS**-Taste, um den Cursor innerhalb des Werts zu bewegen. Wenn Sie beim Bearbeiten eines Felds in einer Liste die **NACH-LINKS**-TASTE erneut drücken, wenn sich der Cursor am Anfang des Werts befindet, wird der Fokus wieder auf das vorherige Feld gelegt. Wenn Sie die **NACH-RECHTS**-TASTE erneut drücken, während sich der Cursor am Ende des Werts befindet, wird der Fokus entsprechend auf das nächste Feld gelegt.
 
 > [!NOTE]
 > Nachdem Sie einen Wert angegeben haben, überprüft Business Central dessen Gültigkeit erst, wenn Sie außerhalb des Felds klicken oder den Fokus auf ein anderes Element wie das nächste Feld legen.  
@@ -85,7 +85,7 @@ Nachfolgend sind einige nützliche Informationen zur Anwendung der Schnelleingab
 - Sie ist für alle bearbeitbaren Felder verfügbar.
 - Sie funktioniert auch über Spalten und Zeilen hinweg.
 - Sie verhindert nicht den Zugriff auf andere Elemente einer Seite wie Aktionen. Auf diese Elemente kann noch mit TAB und UMSCHALT+TAB zugegriffen werden.  
-- Es ist nicht erforderlich, dass Inforegister erweitert werden, damit die Schnelleingabe funktioniert. Wenn sich das nächste Feld der Schnelleingabe in einem reduzierten Inforegister befindet, wird das Inforegister automatisch mit Fokus auf dem ausgewählten Feld erweitert. [!INCLUDE[d365fin](includes/d365fin_md.md)] erweitert das Inforegister automatisch beim nächsten Besuch der Seite.  
+- Es ist nicht erforderlich, dass Inforegister erweitert werden, damit die Schnelleingabe funktioniert. Wenn sich das nächste Feld der Schnelleingabe in einem reduzierten Inforegister befindet, wird das Inforegister automatisch mit Fokus auf dem ausgewählten Feld erweitert. [!INCLUDE[prod_short](includes/prod_short.md)] erweitert das Inforegister automatisch beim nächsten Besuch der Seite.  
 - Schnelleingabe funktioniert unabhängig davon, ob Felder erforderlich sind. Daher ist es vorteilhaft, sicherzustellen, dass erforderliche Felder in der Schnelleingabe enthalten sind.
 - Standardmäßig sind die meisten Felder automatisch im der Schnelleingabe enthalten. Daher wird die Aufgabe höchstwahrscheinlich zunächst darin bestehen, Felder aus der Schnelleingabe auszuschließen.
 
@@ -120,7 +120,7 @@ Sie können eine oder mehrere Zeilen aus einer Liste oder einem einzelnen Feld a
 
 Um das Feld in einer Liste in der gleichen Spalte der Zeile darüber zu kopieren, und es in die aktuelle Zeile einzufügen, drücken Sie einfach F8.
 
-Weitere Informationen finden Sie unter [FAQ zum Kopieren und Einfügen](ui-copy-paste.md).
+Weitere Informationen finden Sie unter [FAQ zum Kopieren und Einfügen](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtern von Positionsartikel
 
@@ -162,7 +162,7 @@ Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen
 > Wenn Sie im Safari-Browser arbeiten, kann ein Popupblocker dazu führen, dass das neue Fenster nicht geöffnet wird. In diesem Fall geben Sie die Produkt-URL als zulässige Website an. Weitere Informationen finden Sie unter [Ändern Sie die Einstellungen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Das Gleiche kann auch in anderen Browsern wie Firefox passieren. Weitere Informationen finden Sie unter [Popupblocker-Einstellungen in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Eine andere Möglichkeit, Multitasking zu betreiben, besteht darin, die [!INCLUDE[d365fin](includes/d365fin_md.md)] auf zwei oder mehr Browser-Registerkarten zu öffnen. Wenn Sie dies tun, sollten Sie eine neue Registerkarte erstellen und dann die URL der ursprünglichen Registerkarte in die neue Registerkarte kopieren/einfügen. Dadurch wird eine neue Sitzung erstellt.   
+Eine andere Möglichkeit, Multitasking zu betreiben, besteht darin, die [!INCLUDE[prod_short](includes/prod_short.md)] auf zwei oder mehr Browser-Registerkarten zu öffnen. Wenn Sie dies tun, sollten Sie eine neue Registerkarte erstellen und dann die URL der ursprünglichen Registerkarte in die neue Registerkarte kopieren/einfügen. Dadurch wird eine neue Sitzung erstellt.   
 
 > [!NOTE]
 > Verwenden Sie nicht die Funktion **Duplizieren** des Browsers, um die neue Registerkarte zu erstellen, da dies dazu führen kann, dass Aktionen auf einer Registerkarte Aktionen auf anderen Registern blockieren, weil sie Teil derselben Sitzung sind.
@@ -294,4 +294,4 @@ Hier folgen einige Beispiele.
 
 ## <a name="see-also"></a>Siehe auch  
  [Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md)  
- [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

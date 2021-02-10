@@ -10,48 +10,50 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44cbc7d42827b92f8983aa47b94d76760ddda8d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924256"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035431"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetails: Lagereinrichtung
 
-Lagerfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist. Darüber hinaus steuern die Anwendungsobjekte in der Lizenz, welche UI-Dokumente für die unterstützten Lageraktivitäten zu verwenden sind.  
+Lagerfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist. Darüber hinaus steuern die Anwendungsobjekte in der Lizenz, welche UI-Dokumente für die unterstützten Lageraktivitäten zu verwenden sind.  
+<!--
+The following warehouse-related granules exist:  
 
-Die folgenden lagerbezogenen Elemente sind verfügbar:  
+- Basic Inventory (4010)  
+- Bin (4170)  
+- Put Away (4180)  
+- Warehouse Receipt (4190)  
+- Pick (4200)  
+- Warehouse Shipment (4210)  
+- Warehouse Management Systems (4620)  
+- Internal Picks and Put-aways (4630)  
+- Automated Data Capture System (4640)
+- Bin Setup (4660)  
 
-- Grundlegender Lagerbestand (4010)  
-- Lagerplatz (4170)  
-- Einlagerung (4180)  
-- Wareneingang (4190)  
-- Kommissionierungsart (4200)  
-- Warenausgang (4210)  
-- Logistiksysteme (4620)  
-- Interne Einlagerungsanforderungen und Interne Kommissionierungsanforderungen (4630)  
-- Mobile Datenerfassung (4640)
-- Lagerplatz-Setup (4660)  
+For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
 
-Weitere Informationen über jedes Element finden Sie unter [[!INCLUDE[d365fin](includes/d365fin_md.md)] Preisübersichten](https://go.microsoft.com/fwlink/?LinkId=238341) (PartnerSource-Konto erforderlich).  
+Die nachstehende Tabelle zeigt, welche Elemente benötigt werden, um verschiedene Lagerkomplexitätsebenen zu definieren, welche UI-Dokumente die einzelnen Ebenen unterstützen und welche Lagerortcodes diese Ebenen in der [!INCLUDE[prod_short](includes/prod_short.md)] Demodatenbank widerspiegeln.  
 
-Die nachstehende Tabelle zeigt, welche Elemente benötigt werden, um verschiedene Lagerkomplexitätsebenen zu definieren, welche UI-Dokumente die einzelnen Ebenen unterstützen und welche Lagerortcodes diese Ebenen in der [!INCLUDE[d365fin](includes/d365fin_md.md)] Demodatenbank widerspiegeln.  
+[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-|Komplexitätsebene|Description|UI-Dokument|CRONUS-Lagerort|Minimale Elementanforderung|  
+|Komplexitätsebene|Beschreibung|UI-Dokument|Beispiel Ort|Minimale Elementanforderung|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|Keine dedizierte Lageraktivität.<br /><br /> Eingangs-/Lieferungsbuchung aus Aufträgen.|Bestellung|BLAU|Grundlegender Lagerbestand|  
 |2|Keine dedizierte Lageraktivität.<br /><br /> Eingangs-/Lieferungsbuchung aus Aufträgen.<br /><br /> Lagerplatzcode ist erforderlich.|Auftrag, mit Lagerplatzcode|SILBER|Grundlegender Lagerbestand/Lagerplatz|  
-|3 <br /><br /> **Hinweis** : Obwohl die Einstellungen **Kommissionierung erforderlich** und **Einlagerung erforderlich** genannt werden, können Sie weiterhin Wareneingänge und Lieferungen direkt aus den Quellgeschäftsunterlagen an Lagerorten, in denen Sie diese Kontrollkästchen aktivieren.|Grundlegende Lageraktivität, Auftrag für Auftrag.<br /><br /> Eingangs-/Lieferungsbuchung aus Lagereinlagerungs-/Kommissionierbelegen. <br /><br /> Lagerplatzcode ist erforderlich.|Einlagerung/Lagerbestandsumlagerung/Kommissionierung, mit Lagerplatzcode|(SILBER + Einlagerung erfordern oder Einlagerung erfordern)|Grundlegender Lagerbestand/Lagerplatz/Einlagerung/Kommissionierung|  
+|3 <br /><br /> **Hinweis**: Obwohl die Einstellungen **Kommissionierung erforderlich** und **Einlagerung erforderlich** genannt werden, können Sie weiterhin Wareneingänge und Lieferungen direkt aus den Quellgeschäftsunterlagen an Lagerorten, in denen Sie diese Kontrollkästchen aktivieren.|Grundlegende Lageraktivität, Auftrag für Auftrag.<br /><br /> Eingangs-/Lieferungsbuchung aus Lagereinlagerungs-/Kommissionierbelegen. <br /><br /> Lagerplatzcode ist erforderlich.|Einlagerung/Lagerbestandsumlagerung/Kommissionierung, mit Lagerplatzcode|(SILBER + Einlagerung erfordern oder Einlagerung erfordern)|Grundlegender Lagerbestand/Lagerplatz/Einlagerung/Kommissionierung|  
 |4|Erweiterte Lageraktivität, für mehrere Aufträge.<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissioniervorschlag|GRÜN|Grundlegender Lagerbestand/Wareneingang/Einlagerung/Kommissionierung/Lagerlieferung|  
 |5|Erweiterte Lageraktivität, für mehrere Aufträge.<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.<br /><br /> Lagerplatzcode ist erforderlich.|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissioniervorschlag/Einlagerungsvorschlag, mit Lagerplatzcode|(GRÜN + Lagerplatz notwendig)|Grundlegender Lagerbestand/Lagerplatz/Wareneingang/Einlagerung/Kommissionierung/Lagerlieferung|  
-|6 <br /><br /> **Hinweis** : Diese Ebene wird als "Logistik" bezeichnet, da sie die detailliertesten Logistiksysteme benötigt.|Erweiterte Lageraktivität, für mehrere Aufträge<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.<br /><br /> Lagerplatzcode ist erforderlich.<br /><br /> Zone/Klassencode ist optional.<br /><br /> Lagermitarbeiter durch Workflow gesteuert<br /><br /> Lagerplatzauffüllungsplanung<br /><br /> Lagerplatzpriorität<br /><br /> Lagerplatz-Setup nach Kapazität<br /><br /> Einfügen  <!-- Hand-held device integration -->|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissioniervorschlag/Einlagerungsvorschlag. Kommissionierung/interne Einlagerung, mit/Lagerplatz/Zonencode Klasse<br /><br /> Verschiedene Arbeitsblätter für Lagerplatzverwaltung<br /><br /> ADCS-Bildschirme|WEISS|Grundlegender Lagerbestand/Lagerplatz/Einlagerung/Wareneingang/Kommissionierung/Lagerlieferung/Logistiksysteme/interne Kommissionierungen und Einlagerungen/Lagerplatzeinrichtung<!-- Automated Data Capture System/ -->Lagerplatz-Setup|  
+|6 <br /><br /> **Hinweis**: Diese Ebene wird als WMS bezeichnet, da sie die detailliertesten Warehouse Management Systeme benötigt.|Erweiterte Lageraktivität, für mehrere Aufträge<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.<br /><br /> Lagerplatzcode ist erforderlich.<br /><br /> Zone/Klassencode ist optional.<br /><br /> Lagermitarbeiter durch Workflow gesteuert<br /><br /> Lagerplatzauffüllungsplanung<br /><br /> Lagerplatzpriorität<br /><br /> Lagerplatz-Setup nach Kapazität<br /><br /> Einfügen  <!-- Hand-held device integration -->|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissioniervorschlag/Einlagerungsvorschlag. Kommissionierung/interne Einlagerung, mit/Lagerplatz/Zonencode Klasse<br /><br /> Verschiedene Arbeitsblätter für Lagerplatzverwaltung<br /><br /> ADCS-Bildschirme|WEISS|Grundlegender Lagerbestand/Lagerplatz/Einlagerung/Wareneingang/Kommissionierung/Lagerlieferung/Logistiksysteme/interne Kommissionierungen und Einlagerungen/Lagerplatzeinrichtung<!-- Automated Data Capture System/ -->Lagerplatz-Setup|  
 
 Beispiele dazu, wie die UI-Dokumente pro Lagerkomplexitätsebene verwendet werden, finden Sie unter [Designdetails: Eingehender Lagerhausfluss](design-details-inbound-warehouse-flow.md).  
 
 ## <a name="bin-and-bin-content"></a>Lagerplatz,Lagerplatzinhalt
 
-Ein Lagerplatz ist ein Speicherbehälter, der dafür ausgelegt ist, diskrete Teile aufzunehmen. Es ist die kleinste Containereinheit in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Artikelmengen in Lagerplätzen werden als Lagerplatzinhalte bezeichnet. Ein Lookup aus dem Feld **Artikel** oder aus Feld **Lagerplatzcode** auf jeder lagerbezogenen Belegzeile zeigt die berechnete Verfügbarkeit des Artikels am Lagerplatz an.  
+Ein Lagerplatz ist ein Speicherbehälter, der dafür ausgelegt ist, diskrete Teile aufzunehmen. Es ist die kleinste Containereinheit in [!INCLUDE[prod_short](includes/prod_short.md)]. Artikelmengen in Lagerplätzen werden als Lagerplatzinhalte bezeichnet. Ein Lookup aus dem Feld **Artikel** oder aus Feld **Lagerplatzcode** auf jeder lagerbezogenen Belegzeile zeigt die berechnete Verfügbarkeit des Artikels am Lagerplatz an.  
 
 Ein Lagerplatzinhalt kann die Eigenschaft "Fest", "Dediziert" oder "Standard" erhalten, um festzulegen, wie er verwendet werden kann. Lagerplätze mit keinen dieser Eigenschaften gelten als chaotische Lagerplätze.  
 
@@ -97,7 +99,7 @@ In erweiterten Lagerorten können Lagerplätze mit Kapazitätswerten, wie Menge,
 
 In jeder Artikelkarte können Sie eine Einheit (UOM) für den Artikel, wie Stück, Paletten, Liter, Gramm oder Felder zuordnen. Sie können eine Grundlage Mengeneinheit für einen Artikel ebenfalls haben und größere Mengeneinheit für einen Artikel, die darauf basieren, angeben. Beispielsweise können Sie eine Palette auf 16 Stück festlegen (die Basismengeneinheit).  
 
-Wenn Sie eine maximale Menge eines bestimmten Artikels für die Speicherung in einem einzelnen Lagerplatz einrichten möchten und für den Artikel mehr als eine Mengeneinheit besteht, müssen Sie die Höchstmenge für jede Mengeneinheit auf der Artikelkarte einrichten. Entsprechend gilt: Wenn ein Artikel so eingerichtet wurde, dass er nach Stück und Paletten bearbeitet wird, muss das **Maximale Menge** -Feld auf der Seite **Lagerplatz-Inhalt** für diesen Artikel ebenfalls nach Stück und Paletten organisiert sein. Andernfalls wird die zulässige Menge für diesen Lagerplatz nicht korrekt berechnet.  
+Wenn Sie eine maximale Menge eines bestimmten Artikels für die Speicherung in einem einzelnen Lagerplatz einrichten möchten und für den Artikel mehr als eine Mengeneinheit besteht, müssen Sie die Höchstmenge für jede Mengeneinheit auf der Artikelkarte einrichten. Entsprechend gilt: Wenn ein Artikel so eingerichtet wurde, dass er nach Stück und Paletten bearbeitet wird, muss das **Maximale Menge**-Feld auf der Seite **Lagerplatz-Inhalt** für diesen Artikel ebenfalls nach Stück und Paletten organisiert sein. Andernfalls wird die zulässige Menge für diesen Lagerplatz nicht korrekt berechnet.  
 
 Bevor Sie Kapazitätseinschränkungen für Lagerplatzinhalte an einem Lagerplatz einrichten, müssen Sie zuerst prüfen, ob die Mengeneinheit und die Dimensionen des Artikels auf der Artikelkarte eingerichtet wurden.  
 

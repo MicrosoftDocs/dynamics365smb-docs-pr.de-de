@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b880ef5cb49a02dcbb3973f87bc64eae48b2b3a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914885"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760242"
 ---
 # <a name="tell-me-faq"></a>Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“
 In diesem Thema werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zu der Funktion "Wie möchten Sie weiter verfahren" stellen.
@@ -32,7 +32,7 @@ Aktionen, Seiten und Berichte, die aus Erweiterungen stammen, werden von „Wie 
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Worin unterschiedet sich dies von der vorherigen Funktion, die als Seitensuche bekannt war?
 Die Seitensuche wurde zu „Wie möchten Sie weiter verfahren“ weiterentwickelt, damit Sie schneller arbeiten können. Die Seitensuche konnte Ihnen nur bei der Navigation in Seiten oder Berichten helfen. Auf technischer Ebene basiert „Wie möchten Sie weiter verfahren“ nicht mehr auf dem vorherigen MenuSuite-Konzept.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Ich verwende [!INCLUDE[d365fin](includes/d365fin_md.md)] lokal. Schließt das „Wie möchten Sie weiter verfahren“ ein?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Ich verwende [!INCLUDE[prod_short](includes/prod_short.md)] lokal. Schließt das „Wie möchten Sie weiter verfahren“ ein?
 Sie können „Wie möchten Sie weiter verfahren“ mit dem lokalen Webclient verwenden, um nach Aktionen, Seiten und Berichten zu suchen, aber nicht nach Dokumentation oder Apps und Beratungsdiensten auf AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Ist „Wie möchten Sie weiter verfahren“ für alle Formularfaktoren verfügbar?

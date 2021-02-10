@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f158499f0c93e1a991b1f092676f653cf067a46e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a8233ec0ce59e5ce784a00f983b0666b9989255
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910030"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759642"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Einlagern von Artikeln mit Lagereinlagerungen
 Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist, verwenden Sie die Funktion Einlagerungsbelege, um die Einlagerung der Artikel zu steuern.  
@@ -70,7 +70,7 @@ Die Lagerplatzpriorität wird berücksichtigt, wenn mehr als ein Lagerplatz den 
     Wenn das Feld **Belegstatus** leer ist, wurde der Wareneingang noch nicht eingelagert. Sonst zeigt das Feld an, dass der Wareneingang teilweise oder komplett eingelagert wurde.  
 
 4.  Wenn der Wareneingang teilweise oder überhaupt nicht eingelagert wurde, wählen Sie die Aktion **Einlagerung erstellen** aus.  
-5.  Füllen Sie die Anforderungsseite der Stapelverarbeitung zum Erstellen der Einlagerung so aus, wie Sie es für geeignet halten, und wählen Sie **OK** .   
+5.  Füllen Sie die Anforderungsseite der Stapelverarbeitung zum Erstellen der Einlagerung so aus, wie Sie es für geeignet halten, und wählen Sie **OK**.   
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
@@ -78,4 +78,4 @@ Die Lagerplatzpriorität wird berücksichtigt, wenn mehr als ein Lagerplatz den 
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

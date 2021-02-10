@@ -11,15 +11,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: cf2a64ef102dec16ad0df83e8c911e2b6c3bd88e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f525077069107e1365728aaaaf1e4791a250c6ee
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912121"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760367"
 ---
 # <a name="detecting-mandatory-fields"></a>Pflichtfelder erkennen
-Wenn Sie Daten auf Seiten in  [!INCLUDE[d365fin](includes/d365fin_md.md)] eingeben, werden bestimmte Felder mit einem roten Sternchen markiert. Das rote Sternchen bedeutet, dass das Feld ausgefüllt werden muss, um einen bestimmten Prozess, der das Feld verwendet, abzuschließen (Beispiel: Buchung einer Transaktion, die den Wert in dem Feld verwendet).
+Wenn Sie Daten auf Seiten in  [!INCLUDE[prod_short](includes/prod_short.md)] eingeben, werden bestimmte Felder mit einem roten Sternchen markiert. Das rote Sternchen bedeutet, dass das Feld ausgefüllt werden muss, um einen bestimmten Prozess, der das Feld verwendet, abzuschließen (Beispiel: Buchung einer Transaktion, die den Wert in dem Feld verwendet).
 
 Selbst wenn das Feld ein rotes Sternchen enthält, sind Sie nicht gezwungen, das Feld auszufüllen, bevor Sie mit anderen Feldern fortfahren oder die Seite schließen. Das rote Sternchen dient nur als Erinnerung, dass Sie am Beenden eines bestimmten Prozesses gehindert werden.
 
@@ -29,4 +29,4 @@ Auf der Seite **Debitorenkarte** wird im Feld **Name** und in den drei **Buchung
 Auf der Seite **Artikelkarte** wird das rote Sternchen auf **Beschreibung** und den Basiseinheitencode Feldern angezeigt, um anzugeben, dass Sie den Artikel in einer Belegzeile (beispielsweise in einem Verkaufsauftrag) nur dann eingeben können, wenn auch diese Felder ausgefüllt werden.
 
 ## <a name="see-also"></a>Siehe auch
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

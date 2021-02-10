@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: 5ca69a35aac0ba61591dfdfd71d739726e2fb62f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa2830aeb62fe6acea5f8e3879c678e9d8407fb4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910130"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760317"
 ---
 # <a name="posting-sales"></a>Verkäufe buchen
 
@@ -25,9 +25,10 @@ Unter dem Menü **Buchen** in einem Verkaufsbeleg auswählen können Sie zwische
 * **Buchen und neu**
 * **Buchen und senden**
 * **Buchungsvorschau**
-* **Rechnungsentwurf**
-* **Proforma-Rechnung**
+* **Stapelbuchung**
 * **Testbericht**
+
+> [HINWEIS!] Bei Kundenaufträgen werden auch Optionen für die Vorauszahlungsfunktion angezeigt. Weitere Informationen finden Sie unter [Vorauszahlungen in Rechnung stellen](finance-invoice-prepayments.md). 
 
 Wenn Sie alle Zeilen ausgefüllt und alle Daten des Verkaufsauftrags eingegeben haben, können Sie ihn buchen. Dies erstellt eine Lieferung und eine Rechnung.
 
@@ -44,7 +45,7 @@ Sie können entweder buchen oder buchen und senden. Wenn Sie die Option wählen,
 
 ## <a name="viewing-ledger-entries"></a>Anzeigen von Posten
 
-Wenn die Buchung vollständig ist, werden die gebuchten Verkaufszeilen aus der Bestellung entfernt. Eine Meldung erscheint, die Ihnen mitteilt, dass die Buchung vollständig ist. Im Anschluss können Sie die gebuchten Posten auf den verschiedenen Seiten einsehen, die gebuchte Posten enthalten, einschließlich **Debitorenposten** , **Sachposten** , **Artikelposten** , **Lagerplatzposten** , **Geb. Verkaufsrechnung** .  
+Wenn die Buchung vollständig ist, werden die gebuchten Verkaufszeilen aus der Bestellung entfernt. Eine Meldung erscheint, die Ihnen mitteilt, dass die Buchung vollständig ist. Im Anschluss können Sie die gebuchten Posten auf den verschiedenen Seiten einsehen, die gebuchte Posten enthalten, einschließlich **Debitorenposten**, **Sachposten**, **Artikelposten**, **Lagerplatzposten**, **Geb. Verkaufsrechnung**.  
 
 In den meisten Fällen können Sie Posten von der betroffenen Karte oder dem betroffenen Beleg aus öffnen. Auf der Seite **Debitorenkarte** wählen Sie beispielsweise die Aktion **Posten** aus.
 
@@ -62,4 +63,4 @@ Sie können bestimmte Felder in gebuchten Einkaufsbelegen bearbeiten, z. B. die
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Ändern oder Löschen einer unbezahlten Verkaufsrechnung](sales-how-correct-cancel-sales-invoice.md)  
 [Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

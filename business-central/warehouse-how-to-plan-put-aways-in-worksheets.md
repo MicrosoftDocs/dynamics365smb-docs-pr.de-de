@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c957005251b65e1b6c37bb42946146c6a013cfd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b6837c9acec83654c7d85e98e93c00e30e50eb1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925422"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759742"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planen von Einlagerungen in Arbeitsblättern
 Wenn für Ihren Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie Einlagerungsanweisungen für mehrere Wareneingänge planen möchten, anstatt die Mitarbeiter Anweisungen ausführen zu lassen, die die Anwendung für einzelne gebuchte Wareneingänge erzeugt – können Sie den Einlagerungsvorschlag nutzen.  
@@ -52,7 +52,7 @@ Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch die Einlag
     > [!NOTE]  
     >  Gelöschte Zeilen werden nur aus diesem Vorschlag gelöscht, nicht aus der Einlagerungsauswahlliste.  
 
-7.  Wählen Sie die Aktion **Einlagerung erstellen** aus. Auf der Seite **Beleg erstellen** , das sich jetzt öffnet, können Sie weitere Informationen zu der Einlagerung hinzufügen, die Sie erstellen, wie folgt:  
+7.  Wählen Sie die Aktion **Einlagerung erstellen** aus. Auf der Seite **Beleg erstellen**, das sich jetzt öffnet, können Sie weitere Informationen zu der Einlagerung hinzufügen, die Sie erstellen, wie folgt:  
 
     -   Sie können die Einlagerung einem bestimmten Mitarbeiter zuordnen.  
     -   Sie können die Einlagerungsanweisungszeilen so sortieren, wie Sie es im Vorschlag getan haben oder nach Lagerplatzpriorität. Wenn Sie nach der Lagerplatzpriorität sortieren, erscheinen zuerst die Zeilen der Art "Entnahme", da die meisten Wareneingangslagerplätze eine Lagerplatzpriorität 0 haben, und als Letztes erscheinen die Zeilen der Art "Einlagerung", beginnend mit den Lagerplätzen mit der niedrigsten Lagerplatzpriorität. Wenn Sie Ihr Lager so strukturiert haben, dass sich Lagerplätze von ähnlicher Lagerplatzpriorität nebeneinander befinden, verkürzt eine auf diese Art durchgeführte Sortierung die Wege, die die Lagermitarbeiter zurücklegen müssen.  
@@ -68,4 +68,4 @@ Wenn Sie dieses Feld nicht wählen, erzeugt die Anwendung automatisch die Einlag
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,6 +1,6 @@
 ---
 title: Fehlerbehandlung in Ihrem Unternehmens-Hub
-description: Erfahren Sie, wie Sie jegliche Probleme im Unternehmens-Hu‌b in Dynamics 365 Business Central behandeln.
+description: Erfahren Sie, wie Sie Probleme umgehen können, wenn Sie sich im Unternehmenshub in Dynamics 365 Business Central befinden, um die Arbeit über mehrere Unternehmen hinweg zu verwalten.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f348de3e8116efd789f85f1b011ecc7013bf2b1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94bd2c0270263a1382094e559b4e70753f9bb91f
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927673"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013582"
 ---
 # <a name="troubleshooting-your-company-hub"></a>Fehlerbehandlung in Ihrem Unternehmens-Hub
 
@@ -31,17 +31,17 @@ Es kann verschiedene Gründe geben, warum Sie keine Verbindung zu einem Unterneh
 
 - Die URL im Feld **Umgebungslink** ist ungültig  
 
-  Wechseln Sie zur Seite **Umgebungslinks** , öffnen Sie die Umgebung, mit der Sie keine Verbindung herstellen können, und wählen Sie dann die Aktion **Die Verbindung testen** aus.  
+  Wechseln Sie zur Seite **Umgebungslinks**, öffnen Sie die Umgebung, mit der Sie keine Verbindung herstellen können, und wählen Sie dann die Aktion **Die Verbindung testen** aus.  
 - Das Unternehmen des Kundens ist derzeit offline, beispielsweise bei einem Upgrade
 
-  Wählen Sie in Ihrem Dashboard das Menüelement **Werkzeuge** aus, und wählen Sie dann **Fehler prüfen** . Dadurch wird eine Liste mit technischen Details geöffnet, daher sollten Sie sich an Ihren Administrator wenden, wenn Sie Fehler finden. Zum Beispiel weist die Fehlermeldung „ *Der Server hat die Anmeldeinformationen des Kunden abgelehnt* “ darauf hin, dass Sie keinen Zugriff haben.  
+  Wählen Sie in Ihrem Dashboard das Menüelement **Werkzeuge** aus, und wählen Sie dann **Fehler prüfen**. Dadurch wird eine Liste mit technischen Details geöffnet, daher sollten Sie sich an Ihren Administrator wenden, wenn Sie Fehler finden. Zum Beispiel weist die Fehlermeldung „*Der Server hat die Anmeldeinformationen des Kunden abgelehnt*“ darauf hin, dass Sie keinen Zugriff haben.  
 - Sie haben nicht Zugriff auf alle Unternehmen in der Umgebung, zu der Sie eine Verbindung herstellen möchten
 
-  In [!INCLUDE [prodshort](includes/prodshort.md)] kann eine Organisation mehrere Konzernmandanten haben, die als Unternehmen bezeichnet werden, und Sie haben möglicherweise nicht Zugriff auf alle Unternehmen. Arbeiten Sie mit Ihrem Administrator oder Client, um sicherzustellen, dass Sie Zugriff auf die Unternehmen haben, in denen Sie arbeiten müssen.  
+  In [!INCLUDE [prod_short](includes/prod_short.md)] kann eine Organisation mehrere Konzernmandanten haben, die als Unternehmen bezeichnet werden, und Sie haben möglicherweise nicht Zugriff auf alle Unternehmen. Arbeiten Sie mit Ihrem Administrator oder Client, um sicherzustellen, dass Sie Zugriff auf die Unternehmen haben, in denen Sie arbeiten müssen.  
 
 ## <a name="data-does-not-refresh"></a>Daten werden nicht aktualisiert
 
-Wenn Sie ein Unternehmen hinzufügen oder eine Aktualisierung der Daten anfordern, ruft [!INCLUDE [prodshort](includes/prodshort.md)] die Daten ab. Sie müssen die Seite allerdings selbst aktualisieren, z. B. durch Auswählen der Aktion **Alle Unternehmen neu laden** , die Browser-Seite aktualisieren, vom Dashboard hinweg und wieder dorthin zurück navigieren oder etwas Ähnliches.  
+Wenn Sie ein Unternehmen hinzufügen oder eine Aktualisierung der Daten anfordern, ruft [!INCLUDE [prod_short](includes/prod_short.md)] die Daten ab. Sie müssen die Seite allerdings selbst aktualisieren, z. B. durch Auswählen der Aktion **Alle Unternehmen neu laden**, die Browser-Seite aktualisieren, vom Dashboard hinweg und wieder dorthin zurück navigieren oder etwas Ähnliches.  
 
 Wenn Sie ein Unternehmen hinzugefügt haben, dieses jedoch nicht in der Liste angezeigt wird, können Sie auch die Aktion **Alle Unternehmen neu laden** zum Aktualisieren der Liste verwenden.
 

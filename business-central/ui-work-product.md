@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f4a82722108a3e647a2ff2744deea8774372f0c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e035ba04795cf2afb71ae196c9409bb00a955370
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920397"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840178"
 ---
-# <a name="working-with-d365fin"></a>Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="working-with-prod_short"></a>Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.
 
 Sie können beispielsweise die Größe und die Position von Seiten anpassen, die Breite von Spalten und die Höhe der Spaltenköpfe erweitern und die Sortierung der Daten in Spalten ändern. Wenn Sie auf Seiten arbeiten und zum Anzeigen aller Spalten die horizontale Bildlaufleiste verwenden müssen, kann mit einer vertikalen Fixierung der Bildlauf von einigen Spalten beschränkt werden.
@@ -41,27 +41,27 @@ Die folgende Tabelle enthält die allgemeinen Funktionalitäten mit Links zu den
 |Verschaffen Sie sich einen Überblick über Seiten für Ihre Rolle und für andere Rollen und navigieren Sie zu Seiten.|[Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)|
 | Filtern von Daten in den Ansichten, in Berichten oder in den Funktionen, indem Sie Sonderzeichen und Zeichen verwenden. |[Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md) |
 |Lernen Sie die Vielzahl an allgemeinen Funktionen kennen, die Ihnen dabei helfen, Daten schnell und einfach einzugeben.|[Eingeben von Daten](ui-enter-data.md)|
-|Erfahren Sie, wie Sie Daten schnell kopieren und einfügen können, inklusive mithilfe von Tastenkombinationen.|[Kopieren und Einfüge FAQ](ui-copy-paste.md)|
+|Erfahren Sie, wie Sie Daten schnell kopieren und einfügen können, inklusive mithilfe von Tastenkombinationen.|[Kopieren und Einfüge FAQ](faq-copy-paste.yml)|
 | Anzeigen oder bearbeiten Sie Daten in bestimmten Zeiträumen. |[Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md) |
 | Diese Felder müssen ausgefüllt werden. |[Pflichtfelder erkennen](ui-mandatory-fields.md) |
 |Verstehen Sie, wie das Computergebietsschema die Benutzeroberfläche und die Hilfesite erfasst und die Sprache geändert wird.|[Sprache und Gebiet ändern](about-locale-language.md)|
-|Erfahren Sie, wie Sie mit Excel in [!INCLUDE[d365fin](includes/d365fin_md.md)] von nahezu überall interagieren können.|[Anzeigen und bearbeiten in Excel](across-work-with-excel.md)|
+|Erfahren Sie, wie Sie mit Excel in [!INCLUDE[prod_short](includes/prod_short.md)] von nahezu überall interagieren können.|[Anzeigen und bearbeiten in Excel](across-work-with-excel.md)|
 |Hängen Sie Dateien an, fügen Sie Links hinzu oder schreiben Sie Notizen auf Karten und Dokumente.|[Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten](ui-how-add-link-to-record.md)|
 | Grundeinstellungen wie Unternehmen, Arbeitsdaten und Rollencenter ändern. |[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md) |
 |Erhalten Sie Benachrichtigungen über spezielle Ereignisse oder Statusänderungen, beispielsweise, wenn Sie dabei sind, einen Kunden zu fakturieren, der einen überfälligen Saldo hat.|[Verwalten von Benachrichtigungen](ui-smart-notifications.md)|
 | Ändern Sie, welche und wo Benutzeroberflächenelemente passend zu Ihren Vorlieben angezeigt werden.|[Ihren Arbeitsbereich personalisieren](ui-personalization-user.md) |
 |Definieren, drucken oder speichern Sie Berichte, zeigen Sie sie als Vorschau an, und definieren Sie Stapelverarbeitungen und führen Sie sie aus.|[Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)|
 | Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr.|[Verwaltung von Berichts- und Beleg-Layouts](ui-manage-report-layouts.md) |
-|Erhalten von Informationen über Funktionen und Funktionen, die einfach [!INCLUDE[d365fin](includes/d365fin_md.md)] verfügbar sind für  Personen mit Behinderungen.|[Eingabehilfe und Tastenkombinationen](ui-accessibility.md)|
+|Erhalten von Informationen über Funktionen und Funktionen, die einfach [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar sind für  Personen mit Behinderungen.|[Eingabehilfe und Tastenkombinationen](ui-accessibility.md)|
 
 ## <a name="getting-around-in-business-central"></a>Navigation in Business Central
-Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
 ## <a name="choosing-a-desktop-browser"></a>Auswahl eines Desktop-Browsers
 
-[!INCLUDE[prodshort](includes/prodshort.md)] unterstützt mehrere Browser, die jeweils eine Vielzahl von Funktionen und Möglichkeiten bieten. Der Browser spielt eine wichtige Rolle bei der Reaktionsfähigkeit und Flüssigkeit der Benutzeroberfläche. Siehe die Liste der unterstützten, empfohlenen Browser für [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) und Browser für [Business Central On-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
+[!INCLUDE[prod_short](includes/prod_short.md)] unterstützt mehrere Browser, die jeweils eine Vielzahl von Funktionen und Möglichkeiten bieten. Der Browser spielt eine wichtige Rolle bei der Reaktionsfähigkeit und Flüssigkeit der Benutzeroberfläche. Siehe die Liste der unterstützten, empfohlenen Browser für [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) und Browser für [Business Central On-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
 
 - Vermeiden Sie nach Möglichkeit ältere Browser wie z.B. Internet Explorer und wechseln Sie zu einem unserer empfohlenen modernen Browser, wie z.B. die Aktion [neue Microsoft Edge](https://www.microsoft.com/edge/).  
 
@@ -77,4 +77,4 @@ Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[d365fin](incl
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Performance-Tipps für Geschäftsanwender](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]

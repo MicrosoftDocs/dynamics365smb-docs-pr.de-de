@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: cost accounting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: af18a94f5cf6b24b0da24821499e3866487207be
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84ea436a7e7edc6851b97b718b66195edddd2da2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918538"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760492"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Verwenden von Verteilungsschlüsseln in Fibu Buch.-Blättern
 Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts auf verschiedene Konten verteilen. Die Verteilung kann nach Anzahl, Prozent oder Betrag vorgenommen werden.
 
 ## <a name="to-set-up-allocation-keys"></a>Einrichten von Verteilungsschlüsseln
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Wiederk. Fibu Buch.-Blatt** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie auf der Seite **Fibu Buch.-Blattnamen** den **Buch.-Blattnamen** .
+2. Wählen Sie auf der Seite **Fibu Buch.-Blattnamen** den **Buch.-Blattnamen**.
 3. Sie können entweder Zuordnungen in einer vorhandene Charge in der Liste ändern oder eine neue Charge mit Zuordnungen erstellen.
    * Um eine neue Chargennummer zu erstellen, wählen Sie die Aktion **Neu** und gehen Sie zum nächsten Schritt.
    * Um die Zuordnungen eines vorhandenen Buch.-Blattes zu ändern, wählen Sie das Buch.-Blatt und gehen Sie zum Schritt 7.    
@@ -32,9 +32,9 @@ Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts 
 5. Wenn Sie fertig sind, schließen Sie die Seite. Ein neues, leeres wiederkehrendes Buchungsblatt wird geöffnet.
 6. Füllen Sie die Felder in der Zeile aus.
 7. Wählen Sie die Aktion **Verteilung** aus.
-8. Erstellen Sie für jede Verteilung eine Zeile. Sie müssen entweder das Feld **Verteilung %** , **Anzahl Verteilungen** oder **Betrag** ausfüllen. Sie müssen ebenfalls das Feld **Kontonr.** ausfüllen und, wenn Sie auf globale Dimensionen verteilen, auch die Felder "globale Dimensionen".
+8. Erstellen Sie für jede Verteilung eine Zeile. Sie müssen entweder das Feld **Verteilung %**, **Anzahl Verteilungen** oder **Betrag** ausfüllen. Sie müssen ebenfalls das Feld **Kontonr.** ausfüllen und, wenn Sie auf globale Dimensionen verteilen, auch die Felder "globale Dimensionen".
 9. Wenn Sie in einer Zeile einen Prozentsatz eingeben, wird der Betrag im Feld **Betrag** automatisch berechnet. Diese Beträge haben das gegenteilige Vorzeichen wie der Gesamtbetrag im Feld **Betrag** des wiederkehrenden Buch.-Blattes.
-10. Nachdem Sie die Zuteilungszeilen eingegeben haben, wählen Sie **OK** aus, um zur Seite **Wiederk. Fibu Buch.-Blätter** zurückzukehren. Das Feld **Zugewiesener Betrag (USD)** ist ausgefüllt und entspricht dem Feld **Betrag** .
+10. Nachdem Sie die Zuteilungszeilen eingegeben haben, wählen Sie **OK** aus, um zur Seite **Wiederk. Fibu Buch.-Blätter** zurückzukehren. Das Feld **Zugewiesener Betrag (USD)** ist ausgefüllt und entspricht dem Feld **Betrag**.
 11. Buchen Sie die Buch.-Blattzeile.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>So ändern Sie einen bereits eingerichteten Zuordnungsschlüssel
@@ -46,4 +46,4 @@ Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  
 [Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 447012a66e75e1acf03f2aff1ba6b6922164312f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0d13ffa03e4a123158e2f350ff9eab5e274741b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918563"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760567"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten
 
@@ -29,7 +29,7 @@ Anhänge, Links und Notizen bleiben angehängt, wenn die Karte oder das Dokument
 > Wenn Sie einen Verkaufsauftrag oder eine Einkaufsbestellung teilweise versenden und in Rechnung stellen, wird der Anhang nur der endgültigen Rechnung dieser Bestellung beigefügt. Wenn Sie mit der Funktion „Abgrenzungen“ abrechnen, wird der Anhang entsprechend nur an die Sachkontenbucheinträge für den Beleg angehängt, nicht jedoch an die Abgrenzungseinträge.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>So hängen Sie eine Datei an eine Eikaufsrechnung an
-Sie können jede Art von Datei, die Text, Bilder oder Videos enthält, an eine Karte oder ein Dokument anhängen. Dies ist beispielsweise nützlich, wenn Sie eine Lieferantenrechnung als PDF-Datei auf der zugehörigen Einkaufsrechnung in [!INCLUDE[d365fin](includes/d365fin_md.md)] speichern möchten.
+Sie können jede Art von Datei, die Text, Bilder oder Videos enthält, an eine Karte oder ein Dokument anhängen. Dies ist beispielsweise nützlich, wenn Sie eine Lieferantenrechnung als PDF-Datei auf der zugehörigen Einkaufsrechnung in [!INCLUDE[prod_short](includes/prod_short.md)] speichern möchten.
 
 > [!NOTE]
 > Dateien, die mit der Funktion Eingehende Belege angehängt sind, werden auf der Registerkarte **Anhänge** nicht eingeschlossen. Weitere Informationen finden Sie unter [Eingehende Belege](across-income-documents.md).
@@ -95,6 +95,6 @@ Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind f
 Der Hinweis ist jetzt dem Verkaufsauftrag beigefügt.
 
 ## <a name="see-also"></a>Siehe auch  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)  

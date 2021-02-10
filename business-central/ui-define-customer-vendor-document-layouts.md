@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b517c9b34d7046e8a4aae49f0392edf28cf4341
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed8b60c5b49502251f6ab6e61d22fd860af0915f
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912546"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024538"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Beleglayouts für Debitoren und Kreditoren definieren
-Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus Debitoren- und Kreditorenkarten auswählen, um anzugeben, welche Layouts für verschiedene Arten von Belegen verwendet werden, die Sie für den betreffenden Debitoren oder Kreditoren erstellen. Der Wert im Feld **Verwendung** definiert, für welchen Prozess das Beleglayout verwendet wird, z. B. **Erinnerung** , **Lieferung** und **Bestätigung** .
+Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus Debitoren- und Kreditorenkarten auswählen, um anzugeben, welche Layouts für verschiedene Arten von Belegen verwendet werden, die Sie für den betreffenden Debitoren oder Kreditoren erstellen. Der Wert im Feld **Verwendung** definiert, für welchen Prozess das Beleglayout verwendet wird, z. B. **Erinnerung**, **Lieferung** und **Bestätigung**.
 
 Sie können nicht nur festlegen, welche Layouts für welchen Beleg verwendet werden sollen, sondern auch Zeit sparen, wenn Sie Belege an verschiedene Debitoren- oder Kreditorenkontakte senden, indem Sie die E-Mail-Adressen bestimmter Kontakte für die Verwendung mit bestimmten Belegen einrichten. Beispielsweise werden Kontoauszüge an Buchhalterkontakte gesendet, Verkaufsaufträge an die Käufer Ihrer Debitoren und Einkaufsbestellungen an Verkäufer oder Kundenbetreuer der Kreditoren.
 

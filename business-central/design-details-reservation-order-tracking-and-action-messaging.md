@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 99c7410e31291213486d8843ba125359615c1477
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87646a26a3cd962478fe36082b76c2843a620570
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911055"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035456"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen
 Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden und parallelen Funktionen der Auftragsnachverfolgung und des Aktionsmessagings.  
@@ -29,10 +29,13 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 
  Das Reservierungssystem bildet auch die strukturelle Basis für das Artikelnachverfolgungssystem. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgung](design-details-item-tracking.md).  
 
- Für detailliertere Informationen darüber, wie das Reservierungssystem funktioniert, vgl. das "Whitepaper Tabelle Reservierungskosten“ auf [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
+ <!--For more detailed information about how the reservation system works, see the _Reservation Entry Table_ white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  -->
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="reservation"></a>Reservierung  
- Eine Reservierung ist ein fester Link, der einen speziellen Bedarf und einen bestimmten Vorrat miteinander verknüpft. Diese Verknüpfung beeinflusst dirket die nächste Lagertransaktion und sorgt für die richtigen Anwendung von Artikelposten für Bewertungszwecke. Eine Reservierung setzt die Standard-Kostenberechnungsmethode eines Artikels außer Kraft. Weitere Informationen finden Sie unter "Designdetails: Lagerabgangsmethoden".  
+ Eine Reservierung ist ein fester Link, der einen speziellen Bedarf und einen bestimmten Vorrat miteinander verknüpft. Diese Verknüpfung beeinflusst dirket die nächste Lagertransaktion und sorgt für die richtigen Anwendung von Artikelposten für Bewertungszwecke. Eine Reservierung setzt die Standard-Kostenberechnungsmethode eines Artikels außer Kraft. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgung](design-details-item-tracking.md).  
 
  Die Seite **Reservierung** ist von allen Auftragszeilen des Typs Bedarf und Vorrat aus zugänglich. auf der Seite kann der Benutzer angeben, zu welchem Bedarfs- oder Vorratsposten eine Reservierungsverknüpfung erstellt werden soll. Die Reservierung besteht aus einem Paar von Datensätzen, die dieselbe Postennummer haben. Ein Datensatz hat ein negatives Vorzeichen und verweist auf den Bedarf. Der andere Datensatz hat ein positives Vorzeichen und verweist auf den Vorrat. Diese Datensätze werden in der Tabelle **Reservierungsposten** mit Statuswert **Reservierung** gespeichert. Der Benutzer kann alle Reservierungen auf der Seite **Reservierungsposten** anzeigen.  
 
@@ -66,17 +69,17 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 |Benutzeraktion|Systemreaktion|  
 |-----------------|---------------------|  
 |Reduzieren der reservierten Menge|Die verknüpften Mengenfelder werden entsprechend aktualisiert.|  
-|Ändern von Datumsfeldern|Die verknüpften Datumsfelder werden entsprechend aktualisiert.<br /><br /> **Hinweis** : Wenn das Fälligkeitsdatum auf einem Bedarf so geändert wird, dass es dem Lieferdatum oder dem Fälligkeitsdatum des Vorrats vorangeht, wird die Reservierung storniert.|  
+|Ändern von Datumsfeldern|Die verknüpften Datumsfelder werden entsprechend aktualisiert.<br /><br /> **Hinweis**: Wenn das Fälligkeitsdatum auf einem Bedarf so geändert wird, dass es dem Lieferdatum oder dem Fälligkeitsdatum des Vorrats vorangeht, wird die Reservierung storniert.|  
 |Löschen des Auftrags|Die Reservierung wird abgebrochen.|  
 |Ändern des Lagerorts, des Lagerplatzes, der Variante, der Seriennummer oder der Chargennummer|Die Reservierung wird abgebrochen.|  
 
 > [!NOTE]  
->  Die Funktionalität der späten Bindung kann auch Reservierungen ändern, ohne den Benutzer zu informieren, indem sie nicht-spezifische Reservierungen von Serien- oder Chargennummern neu anordnet. Weitere Informationen finden Sie unter „Designdetails: Artikelverfolgung und Reservierungen“.  
+>  Die Funktionalität der späten Bindung kann auch Reservierungen ändern, ohne den Benutzer zu informieren, indem sie nicht-spezifische Reservierungen von Serien- oder Chargennummern neu anordnet. Weitere Informationen finden Sie unter Designdetails: Artikelverfolgung und Reservierungen.  
 
 ### <a name="automatic-reservations"></a>Automatische Reservierungen  
  Die Artikelkarte kann so eingerichtet werden, dass immer eine Reservierung vom Bedarf stattfindet, etwa bei Verkaufsaufträgen. In diesem Fall wird eine Reservierung gegen den Bestand, Kaufaufträge, Montageaufträge und Fertigungsaufträge vorgenommen. Eine Warnung wird ausgegeben, wenn der Vorrat nicht ausreicht.  
 
- Darüber hinaus werden Artikel automatisch nach verschiedenen Planungsfunktionen reserviert, um einen mit einer bestimmten Bedarfssicherung verknüpften Bedarf beizubehalten. Die Auftragsnachverfolgungsposten für solche Planungslinks enthalten **Reservierung** im Feld **Reservierungsstatus** in der Tabelle **Reservierungsposten** . Automatische Reservierungen werden in den folgenden Situationen erstellt:  
+ Darüber hinaus werden Artikel automatisch nach verschiedenen Planungsfunktionen reserviert, um einen mit einer bestimmten Bedarfssicherung verknüpften Bedarf beizubehalten. Die Auftragsnachverfolgungsposten für solche Planungslinks enthalten **Reservierung** im Feld **Reservierungsstatus** in der Tabelle **Reservierungsposten**. Automatische Reservierungen werden in den folgenden Situationen erstellt:  
 
 -   Ein mehrstufiger Fertigungsauftrag, in dem das Feld **Produktionsart** der betreffenden übergeordneten und untergeordneten Artikel auf **Auftragsfertigung** festgelegt wurde. Das Planungssystem erstellt Reservierungen zwischen dem übergeordneten Fertigungsauftrag und den zugrunde liegenden Fertigungsaufträgen, um sicherzustellen, dass sie zusammen verarbeitet werden. Eine solche Reservierungsbindung überschreibt die Standard-Kostenberechnungs- und -ausgleichsmethode des Artikels.  
 
@@ -86,11 +89,11 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 
 -   Ein Montageauftrag, der automatisch für eine Verkaufsauftragszeile erstellt wurde, um die Menge im **($ T_37_900 Qty. to Assemble to Order $)** Feld abzudecken. Diese automatische Reservierung verknüpft den Verkaufsbedarf mit dem Montagezubehör, sodass Verkaufsauftragsbearbeiter den Montageartikel für den Debitor direkt anpassen und zusagen können. Darüber hinaus verknüpft die Reservierung den Montageausstoß der Verkaufsauftragszeile mit der Versandaktivität, die den Debitorenauftrag erfüllt.  
 
- Im Falle von nicht zugeordnetem Vorrat oder Bedarf weist das Planungssystem automatisch einen Reservierungsstatus der Art **Überschuss** zu. Dies kann sich aus Bedarf ergeben, der aufgrund von Planungsmengen oder der vom Benutzer eingegebenen Planungsparameter resultiert. Dies ist legitimer Überschuss, den das System anerkennt, und er verursacht keine Ereignismeldungen. Der Überschuss kann auch echter überschüssiger Vorrat oder nicht nachverfolgter Bedarf sein. Dies ist eine Angabe einer Ereignismeldung im Bestellungsbestand, das die Anwendung dazu veranlasst, Ereignismeldungen zu auszugeben. Beachten Sie, dass eine Ereignismeldung, die eine Änderung in der Menge vorschlägt, sich immer auf den Typ **Überschuss** bezieht. Weitere Informationen finden Sie im Abschnitt „Auftragsnachverfolgung in Verkauf, Produktion und Umlagerung“ in diesem Thema.  
+ Im Falle von nicht zugeordnetem Vorrat oder Bedarf weist das Planungssystem automatisch einen Reservierungsstatus der Art **Überschuss** zu. Dies kann sich aus Bedarf ergeben, der aufgrund von Planungsmengen oder der vom Benutzer eingegebenen Planungsparameter resultiert. Dies ist legitimer Überschuss, den das System anerkennt, und er verursacht keine Ereignismeldungen. Der Überschuss kann auch echter überschüssiger Vorrat oder nicht nachverfolgter Bedarf sein. Dies ist eine Angabe einer Ereignismeldung im Bestellungsbestand, das die Anwendung dazu veranlasst, Ereignismeldungen zu auszugeben. Beachten Sie, dass eine Ereignismeldung, die eine Änderung in der Menge vorschlägt, sich immer auf den Typ **Überschuss** bezieht. Weitere Informationen finden Sie im Abschnitt Auftragsnachverfolgung in Verkauf, Produktion und Umlagerung in diesem Thema.  
 
  Automatische Reservierungen, die bei der Planungsausführung erstellt werden, werden in der folgenden Weise behandelt:  
 
--   Sie werden auf Artikelmengen angewendet, die Teil der Verfügbarkeitsberechnung sind, wie sind manuelle Reservierungen. Weitere Informationen finden Sie im Abschnitt "Ausgleich für Reservierungen" dieses Themas.  
+-   Sie werden auf Artikelmengen angewendet, die Teil der Verfügbarkeitsberechnung sind, wie sind manuelle Reservierungen. Weitere Informationen finden Sie im Abschnitt Ausgleich für Reservierungen dieses Themas.  
 
 -   Sie sind in den folgenden Planungen enthalten und werden hier möglicherweise geändert, im Gegensatz zu manuell reservierten Artikeln.  
 
@@ -108,7 +111,7 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 
  Dieses Prinzip impliziert, dass eine Nachfrageänderung zu einer entsprechenden Unausgeglichenheit auf der Zugangsseite des Auftragsnetzwerks führt. Andererseits resultiert eine Angebotsänderung in einer entsprechenden Unausgeglichenheit auf der Bedarfsseite des Auftragsnetzwerks. In der Realität ist das Auftragsnetzwerk in einem Zustand konstanten Flusses, da Benutzer Aufträge eingeben, ergänzen und löschen. Bedarfsverursacher verarbeitet Aufträge dynamisch, reagiert auf jede Änderung zum Zeitpunkt ihrer Eingabe in das System ein und wird ein Teil des Auftragsnetzwerks. Sobald neue Auftragsnachverfolgungsdatensätze erstellt wurden, ist das Auftragsnetzwerk ausgeglichen, aber nur bis zur nächsten Änderung.  
 
- Um die Transparenz von Berechnungen im Planungssystem zu erhöhen, werden auf der Seite **Planungselement ohne Bedarfsverursacher** Mengen ohne Bedarfsverursacher angezeigt, die Mengenabweichung zwischen bekanntem Bedarf und vorgeschlagenem Vorrat aufweisen. Jede Zeile auf der Seite bezieht sich auf den Grund des Überschusses, wie **Rahmenauftrag** , **Sicherheitsbestands-Ebene** , **Feste Bestellmenge** , **Mindestauftragsmenge** , **Rundung** oder **Toleranz** .  
+ Um die Transparenz von Berechnungen im Planungssystem zu erhöhen, werden auf der Seite **Planungselement ohne Bedarfsverursacher** Mengen ohne Bedarfsverursacher angezeigt, die Mengenabweichung zwischen bekanntem Bedarf und vorgeschlagenem Vorrat aufweisen. Jede Zeile auf der Seite bezieht sich auf den Grund des Überschusses, wie **Rahmenauftrag**, **Sicherheitsbestands-Ebene**, **Feste Bestellmenge**, **Mindestauftragsmenge**, **Rundung** oder **Toleranz**.  
 
 ### <a name="offsetting-in-order-tracking"></a>Ausgleichung im Bedarfsverursacher  
  Im Gegensatz zu Reservierungen, die nur gegen verfügbare Artikelmengen vorgenommen werden können, ist die Auftragsnachverfolgung gegen alle Auftragsnetzwerkeinheiten möglich, die Teil der Nettobedarfsrechnung des Planungssystems sind. Der Nettobedarf wird wie folgt berechnet:  
@@ -123,37 +126,37 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 
  Gehen wir von den folgenden Daten für zwei Artikel aus, die für die Auftragsnachverfolgung eingerichtet wurden.  
 
-|Artikel 1|Name|"Componente"|
+|Artikel 1|Name|Komponente|
 |-|-|-|
-||Verfügbarkeit|100 Einheiten am Lagerort ROT<br /><br />- 30 Einheiten LOTA<br />- 70 Einheiten LOTB|  
-|Artikel 2|Name|"Produzierte Artikel"|
-||Fertigungsstückliste|1 Menge pro v. "Komponente"|  
-||Bedarf|Verkauf für 100 Einheiten am Lagerort BLAU|  
+||Verfügbarkeit|100 Einheiten am Lagerort WEST<br /><br />- 30 Einheiten LOTA<br />- 70 Einheiten LOTB|  
+|Artikel 2|Name|Fertigungsartikel|
+||Fertigungsstückliste|1 Menge pro v. Komponente|  
+||Bedarf|Verkauf für 100 Einheiten am Lagerort OST|  
 ||Vorrat|Freigegebener Fertigungsauftrag (generiert mit der Funktion **Verkaufsauftragsplanung** für den Verkauf von 100 Stück)|  
 
 Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lagerort** auf **ROT** festgelegt.
 
  Die folgenden Auftragsnachverfolgungsposten sind in der Tabelle **Reservierungsposten** enthalten, basierend auf den Daten in der Tabelle.  
 
- ![Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Erstes Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers-8-and-9"></a>Postennummern 8 und 9  
- Für den Komponentenbedarf für LOTA und LOTB werden Auftragsnachverfolgungslinks aus dem Bedarf in Tabelle 5407, **Fert. Auftrags-Komponente** , für den Vorrat in Tabelle 32, **Artikelposten** , erstellt. Das Feld **Reservierungsstatus** enthält **Nachverfolgung** , um anzugeben, dass diese Posten dynamische Auftragsnachverfolgungslinks zwischen Vorrat und Bedarf sind.  
+### <a name="entry-numbers-8-and-9"></a>Eintragsnummern 8 und 9  
+ Für den Komponentenbedarf für LOTA und LOTB werden Auftragsnachverfolgungslinks aus dem Bedarf in Tabelle 5407, **Fert. Auftrags-Komponente**, für den Vorrat in Tabelle 32, **Artikelposten**, erstellt. Das Feld **Reservierungsstatus** enthält **Nachverfolgung**, um anzugeben, dass diese Posten dynamische Auftragsnachverfolgungslinks zwischen Vorrat und Bedarf sind.  
 
 > [!NOTE]  
 >  Das Feld **Chargennr.** ist auf den Bedarfszeilen leer, da die Chargennummern nicht auf den Komponentenzeilen des freigegebenen Fertigungsauftrags angegeben sind.  
 
 ### <a name="entry-numbers-10"></a>Postennummern 10  
- Vom Verkaufsbedarf in Tabelle 37, **Verkaufszeile** , wird ein Auftragsnachverfolgungslink zum Vorrat in Tabelle 5406, **Fert. Auftragszeile** , erstellt. Das Feld **Reservierungsstatus** enthält **Reservierung** , und das Feld **Verknüpfung** enthält **Eins-zu-Eins** . Dies liegt daran, dass der freigegebene Fertigungsauftrag speziell für den Verkaufsauftrag generiert wurde und anders als Bedarfsverursacherverknüpfungen in einem Reservierungsstatus **Bedarfsverursacher** bleiben muss, der dynamisch erstellt und geändert wird. Weitere Informationen finden Sie im Abschnitt "Automatische Reservierungen" dieses Themas.  
+ Vom Verkaufsbedarf in Tabelle 37, **Verkaufszeile**, wird ein Auftragsnachverfolgungslink zum Vorrat in Tabelle 5406, **Fert. Auftragszeile**, erstellt. Das Feld **Reservierungsstatus** enthält **Reservierung**, und das Feld **Verknüpfung** enthält **Eins-zu-Eins**. Dies liegt daran, dass der freigegebene Fertigungsauftrag speziell für den Verkaufsauftrag generiert wurde und anders als Bedarfsverursacherverknüpfungen in einem Reservierungsstatus **Bedarfsverursacher** bleiben muss, der dynamisch erstellt und geändert wird. Weitere Informationen finden Sie im Abschnitt Automatische Reservierungen dieses Themas.  
 
- An diesem Punkt im Szenario werden die 100 Stück von LOTA und LOTB zum Lagerort BLAU durch einen Umlagerungsauftrag übertragen.  
+ An diesem Punkt im Szenario werden die 100 Stück von LOTA und LOTB zum Lagerort OST durch einen Umlagerungsauftrag übertragen.  
 
 > [!NOTE]  
 >  Nur die Umlagerungsauftragslieferung, nicht der Wareneingang, wird an diesem Zeitpunkt gebucht.  
 
- Jetzt sind die folgenden Bedarfsverursacherposten in der Tabelle **Reservierungsposten** enthalten.  
+ Jetzt sind die folgenden Auftragsverfolgungseinträge in der Tabelle **Reservierungseintrag** vorhanden.  
 
- ![Auftragsverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Zweites Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Eintragsnummern 8 und 9  
  Bedarfsverursacherposten für die zwei Chargen der den Bedarf widerspiegelnden Komponente in Tabelle 5407 werden von einem Reservierungsstatus von **Bedarfsverursacher** zu **Überschuss** geändert. Der Grund besteht darin, dass Vorräte, mit denen vorher eine Verknüpfung hergestellt wurde (in Tabelle 32), von der Lieferung des Umlagerungsauftrags verwendet wurden.  
@@ -161,31 +164,31 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
  Echter Überschuss, wie in diesem Fall, spiegelt überschüssigen Vorrat oder Bedarf wider, der nicht nachverfolgt wird. Dies zeigt eine Unausgeglichenheit im Auftragsnetzwerk an, durch die eine Aktionsmeldung vom Planungssystem generiert wird, sofern sie nicht dynamisch gelöst wird.  
 
 ### <a name="entry-numbers-12-to-16"></a>Postennummern 12 bis 16  
- Da die beiden Chargen der Komponente auf dem Umlagerungsauftrag als geliefert aber nicht empfangen gebucht werden, haben alle verknüpften positiven Auftragsnachverfolgungsposten den Reservierungstyp **Überschuss** , was angibt, dass sie nicht einem Bedarf zugeordnet sind. Für jede Chargennummer bezieht sich ein Posten auf Tabelle 5741, **Umlagerungszeile** , und ein Posten bezieht sich auf den Artikelposten am I-Transit-Lagerort, an dem sich die Artikel gerade befinden.  
+ Da die beiden Chargen der Komponente auf dem Umlagerungsauftrag als geliefert aber nicht empfangen gebucht werden, haben alle verknüpften positiven Auftragsnachverfolgungsposten den Reservierungstyp **Überschuss**, was angibt, dass sie nicht einem Bedarf zugeordnet sind. Für jede Chargennummer bezieht sich ein Posten auf Tabelle 5741, **Umlagerungszeile**, und ein Posten bezieht sich auf den Artikelposten am I-Transit-Lagerort, an dem sich die Artikel gerade befinden.  
 
- An diesem Punkt im Szenario wird der Umlagerungsauftrag der Komponenten vom Lagerort BLAU zu Lagerort ROT als erhalten gebucht.  
-
- Jetzt sind die folgenden Auftragsverfolgungseinträge in der Tabelle **Reservierungseintrag** vorhanden.  
-
- ![Auftragsverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
-
- Die Auftragsnachverfolgungsposten sind jetzt ähnlich dem ersten Punkt im Szenario, bevor der Umlagerungsauftrag als nur geliefert gebucht wurde, ausgenommen, dass die Posten für die Komponenten jetzt den Reservierungsstatus **Überschuss** haben. Dies liegt daran, dass der Komponentenbedarf noch am Lagerort ROT ist und gibt wieder, dass das Feld **Lagerortcode** in der FA-Komponentenzeile **ROT** enthält, wie im **Komponenten von Lagerort** -Einrichtungsfeld festgelegt. Das Lieferung, die diesem zuvor Bedarf zugeordnet wurde, wurde zum Lagerort BLAU übertragen und kann jetzt nicht vollständig zurückverfolgt werden, es sei denn, der Komponentenbedarf auf der Fertigungsauftragszeile wurd zum Lagerort BLAU geändert.  
-
- An diesem Punkt im Szenario wird **Lagerortcode** auf der Fertigungsauftragszeile auf **BLAU** festgelegt. Darüber hinaus werden auf der Seite **Artikelverfolgungszeilen** die 30 Stück aus LOTA und die 70 Stück aus LOTB der Fertigungsauftragszeile zugeordnet.  
+ An diesem Punkt im Szenario wird der Umlagerungsauftrag der Komponenten vom Lagerort OST zu Lagerort WEST als erhalten gebucht.  
 
  Jetzt sind die folgenden Auftragsverfolgungseinträge in der Tabelle **Reservierungseintrag** vorhanden.  
 
- ![Auftragsverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Drittes Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+
+ Die Auftragsnachverfolgungsposten sind jetzt ähnlich dem ersten Punkt im Szenario, bevor der Umlagerungsauftrag als nur geliefert gebucht wurde, ausgenommen, dass die Posten für die Komponenten jetzt den Reservierungsstatus **Überschuss** haben. Dies liegt daran, dass der Komponentenbedarf noch am Lagerort WEST ist und gibt wieder, dass das Feld **Lagerortcode** in der FA-Komponentenzeile **WEST** enthält, wie im **Komponenten von Lagerort**-Einrichtungsfeld festgelegt. Das Lieferung, die diesem zuvor Bedarf zugeordnet wurde, wurde zum Lagerort OST übertragen und kann jetzt nicht vollständig zurückverfolgt werden, es sei denn, der Komponentenbedarf auf der Fertigungsauftragszeile wurd zum Lagerort OST geändert.  
+
+ An diesem Punkt im Szenario wird **Lagerortcode** auf der Fertigungsauftragszeile auf **OST** festgelegt. Darüber hinaus werden auf der Seite **Artikelverfolgungszeilen** die 30 Stück aus LOTA und die 70 Stück aus LOTB der Fertigungsauftragszeile zugeordnet.  
+
+ Jetzt sind die folgenden Auftragsverfolgungseinträge in der Tabelle **Reservierungseintrag** vorhanden.  
+
+ ![Viertes Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Postennummern 21 und 22  
- Da der Komponentenbedarf zum Lagerort BLAU geändert wurde und der Vorrat als Artikelposten am Lagerort BLAU verfügbar ist, werden alle Auftragsnachverfolgungsposten für die beiden Chargennummern jetzt vollständig verfolgt, angezeigt durch den Reservierungsstatus von **Nachverfolgung** .  
+ Da der Komponentenbedarf zum Lagerort OST geändert wurde und der Vorrat als Artikelposten am Lagerort OST verfügbar ist, werden alle Auftragsnachverfolgungsposten für die beiden Chargennummern jetzt vollständig verfolgt, angezeigt durch den Reservierungsstatus von **Nachverfolgung**.  
 
  Das Feld **Chargennr.** ist jetzt auf dem Auftragsnachverfolgungsposten für Tabelle 5407 ausgefüllt, da die Chargennummern zu den Fertigungsauftragskomponentenzeilen zugeordnet wurden.  
 
  Für mehr Beispiele zu Auftragsnachverfolgungsposten in der Tabelle **Reservierungsposten** vgl. das Whitepaper „Tabelle Reservierungsposten“ auf [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).
 
 ## <a name="action-messaging"></a>Ereignismeldungen  
- Wenn Bedarfsverursachersystem eine Ereignismeldung im Bestellungsbestand erkennt, erstellt sie automatisch eine Ereignismeldung, um den Benutzer zu benachrichtigen. Ereignismeldungen sind vom System generierte Aufrufe zu Benutzeraktionen, die die Details der Unausgeglichenheit und Vorschläge zur Wiederherstellung der Balance im Auftragsnetzwerk enthalten. Sie werden als Planungszeilen auf der Seite **Planungsvorschlag** angezeigt, wenn Sie **Aktionsmeldungen abrufen** auswählen. Darüber hinaus werden Ereignismeldungen für Planungszeilen angezeigt, die durch die Planung generiert werden, um die Vorschläge des Planungssystems darüber widerzuspiegeln, wie das Saldo zum Auftragsnetzwerk wiederherzustellen ist. In beiden Fällen werden die Vorschläge auf das Auftragsnetzwerk ausgeführt, wenn Sie **Aktionsmeldungen durchführen** auswählen.  
+ Wenn Bedarfsverursachersystem eine Ereignismeldung im Bestellungsbestand erkennt, erstellt sie automatisch eine Ereignismeldung, um den Benutzer zu benachrichtigen. Ereignismeldungen sind vom System generierte Aufrufe zu Benutzeraktionen, die die Details der Unausgeglichenheit und Vorschläge zur Wiederherstellung der Balance im Auftragsnetzwerk enthalten. Sie werden als Planungszeilen auf der Seite **Planungsvorschlag** angezeigt, wenn Sie **Aktionsmeldungen abrufen** auswählen. Darüber hinaus werden Ereignismeldungen für Planungszeilen angezeigt, die durch die Planung generiert werden, um die Vorschläge des Planungssystems darüber widerzuspiegeln, wie der Saldo zum Auftragsnetzwerk wiederherzustellen ist. In beiden Fällen werden die Vorschläge auf das Auftragsnetzwerk ausgeführt, wenn Sie **Aktionsmeldungen durchführen** auswählen.  
 
  Eine Ereignismeldung bezieht sich auf jeweils eine Stücklistenebene. Wenn der Benutzer die Aktionsmeldung akzeptiert, kann dies zu weiteren Aktionsmeldungen auf der nächsten Stücklistenebene führen.  
 

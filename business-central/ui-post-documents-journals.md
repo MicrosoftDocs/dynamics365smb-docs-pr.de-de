@@ -11,17 +11,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ffba43c94a02a8bf31a09f4705b0f24312e3c17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1a378d4b5a93d1397512739cce898fe7566707c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912046"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760392"
 ---
 # <a name="posting-documents-and-journals"></a>Journale und Dokumente buchen
 Das Buchen stellt die Buchhaltungsaktion vom Aufzeichnen von Geschäftstransaktionen in verschiedenen Mandantensachkontos dar.
 
-Nahezu jeder Beleg und jedes Buchungsblatt im [!INCLUDE[d365fin](includes/d365fin_md.md)] bietet eine **Buchungs** gruppe an, aus der Sie zwischen verschiedenen Buchungsaktionen, wie **Buchen** , **Buchungs-Vorschau** , **Buchen und Senden** , **Buchen und E-Mail** auswählen können.
+Nahezu jeder Beleg und jedes Buchungsblatt im [!INCLUDE[prod_short](includes/prod_short.md)] bietet eine **Buchungs** gruppe an, aus der Sie zwischen verschiedenen Buchungsaktionen, wie **Buchen**, **Buchungs-Vorschau**, **Buchen und Senden**, **Buchen und E-Mail** auswählen können.
 
 Die folgende Tabelle enthält Informationen zu verwandten Aufgaben wie Links zu den entsprechenden Themen, in denen diese Aufgaben erläutert werden.
 
@@ -37,4 +37,4 @@ Die folgende Tabelle enthält Informationen zu verwandten Aufgaben wie Links zu 
 ## <a name="see-also"></a>Siehe auch
 [Gebuchte Belege bearbeiten](across-edit-posted-document.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a4fa309b776fd0a11fafbde1df9f93b6583eddb0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bd6392753b41ac080fd0933f9f3a55ddc17a2a54
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916801"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759617"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Verwenden von Artikelzuschlägen für zusätzliche Kosten
 Um eine korrekte Bewertung sicherzustellen, müssen Ihre Lagerartikel Kosten wie Fracht, Versicherung, Umlagerung und Transport enthalten, die beim Kauf oder Verkauf entstehen. Die Kosten eines eingekauften Artikels bestehen aus dem Einkaufspreis des Kreditors und allen zusätzlichen Artikelzuschlägen, die einzelnen Wareneingängen oder Rücklieferungen zugewiesen werden können. Die Frachtkosten der verkauften Artikel zu kennen, kann für Ihr Unternehmen genauso wichtig sein wie die Einkaufspreise der eingekauften Artikel zu kennen.
@@ -55,13 +55,13 @@ Wenn Sie den Artikel-Zu-/Abschlag kennen, und den Zeitpunkt Sie eine Einkaufsrec
 1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kaufrechnungen** ein und wählen Sie dann den entsprechenden Link.
 2. Eine neue Einkaufsrechnung erstellen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 3. Stellen Sie sicher, dass die Einkaufsrechnung eine oder mehrere Zeilen vom Artikeltyp hat.
-4. Geben Sie eine neue Zeile ein, und wählen Sie **Zu-/Abschlag (Artikel)** im Feld **Art** .
+4. Geben Sie eine neue Zeile ein, und wählen Sie **Zu-/Abschlag (Artikel)** im Feld **Art**.
 5. Geben Sie in dem Feld **Menge** die Anzahl der Einheiten dieses Artikel Zu-/Abschlages ein, für die Sie eine Rechnung erhalten haben.
 6. Geben Sie in dem Feld **EK-Preis** den Betrag der Artikelgebühr an.
 7. Füllen Sie die verbleibenden Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     In den folgenden Schritten führen Sie die aktuelle Zuordnung aus. Bis die Artikelgebühr vollständig zugewiesen wird, wird der Wert im Feld **Menge zuordnen** in roter Schrift angezeigt..
-8. Klicken Sie auf dem Inforegister **Zeilen** auf Aktionen **Artikelgebühr-Zuweisung** .
+8. Klicken Sie auf dem Inforegister **Zeilen** auf Aktionen **Artikelgebühr-Zuweisung**.
 
     Die Seite **Artikel Zu-/Abschlagszuweisung** öffnet sich und zeigt eine Zeile für jede Zeile der Art in der Einkaufsrechnung. Um den Artikel Zu-/Abschlag in einen oder mehreren Verkaufsrechnungszeilen zuzuweisen, können Sie eine Funktion verwenden die es für Sie zugewiesen und verteilt oder Sie das **Menge. zuordnen** Feld manuell ausfüllen können. Die folgenden Schritte beschreiben, wie Vorschlagungs-ArtikelZu-/Abschlags-Zuweisungsfunktion verwendet.
 
@@ -75,7 +75,7 @@ Der Artikelzuschlag wird nun der Einkaufsrechnung zugeordnet. Wenn Sie den Waren
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen
 Wenn Sie eine Rechnung für die Zu-/Abschläge erhalten, nachdem Sie den Wareneingang der ursprünglichen Einkaufsrechnung wurde, gehen Sie folgendermaßen vor.
 1. Wiederholen Sie die Schritte 1 bis 8 unter [Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
-2. Klicken Sie auf der Seite **Artikel Zu-/Abschlagszuweisung** auf die Aktion **Rücksendungszeilen holen** .
+2. Klicken Sie auf der Seite **Artikel Zu-/Abschlagszuweisung** auf die Aktion **Rücksendungszeilen holen**.
 3. Auf der Seite **Einkauf Lieferzeilen** wählen Sie die Zeile Geb. Einkaufslieferung für den Artikel, dem Sie den Artikel Zu-/Abschlag zuordnen möchten, und wählen Sie dann die Schaltfläche **OK** aus.
 4. Wählen Sie die **Artikel Zu-/Abschlagszuweisung vorschlagen** Aktion aus.
 
@@ -85,4 +85,4 @@ Artikelzu-/Abschläge der separaten Einkaufsrechnung wird jetzt dem Artikel in d
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

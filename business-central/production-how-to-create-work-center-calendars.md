@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 343f608e9f8a451b67422a3c198ba4306256c0ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 127ae5af7533c4a6b8b77f2ed88fe90e4453966e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921660"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759317"
 ---
 # <a name="set-up-shop-calendars"></a>Betriebskalender einrichten
 In einem Arbeitsplatzgruppenkalender werden die Arbeitstage/-stunden, Schichten, Feiertage und Fehlzeiten angegeben, die die verfügbare Bruttokapazität der Arbeitsplatzgruppe (zeitlich gemessen) entsprechend ihren definierten Effektivitäts- und Kapazitätswerten bestimmen.
@@ -26,8 +26,8 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 
 ## <a name="to-create-work-shifts"></a>Arbeitsschichten erstellen  
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Arbeitsschichten** ein und wählen Sie dann den zugehörigen Link.  
-2.  Geben Sie in einer leeren Zeile eine Zahl im Feld **Code** ein, um die Schicht zu bestimmen, z. B. **1** .  
-3.  Geben Sie im Feld **Beschreibung** eine Beschreibung der Schicht ein, z. B. **1. Schicht** .  
+2.  Geben Sie in einer leeren Zeile eine Zahl im Feld **Code** ein, um die Schicht zu bestimmen, z. B. **1**.  
+3.  Geben Sie im Feld **Beschreibung** eine Beschreibung der Schicht ein, z. B. **1. Schicht**.  
 4.  Optional füllen Sie Zeilen für eine zweite oder dritte Schicht aus.  
 
 Selbst wenn Ihre Arbeitsplatzgruppen nicht in verschiedenen Schichten arbeiten, geben Sie mindestens einen Schichtcode ein.  
@@ -72,7 +72,7 @@ Der Betriebskalender kann nun einer Arbeitsplatzgruppe zugewiesen werden, um ein
 2. öffnen Sie den Arbeitsplatz, den Sie aktualisieren möchten.  
 3. Wählen Sie im Inforegister Planung im Feld **Betriebskalendercode** den Kalender aus, der in dieser Arbeitsplatzgruppe als Grundlage für einen Arbeitsplatzgruppenkalender verwendet werden soll.  
 4. Wählen Sie die Aktion **Kalender** aus.  
-5. Klicken Sie auf der Seite **Arbeitsplatzgruppenkalender** auf **Aktionen, Matrix anzeigen** .  
+5. Klicken Sie auf der Seite **Arbeitsplatzgruppenkalender** auf **Aktionen, Matrix anzeigen**.  
 
     Links auf der Matrixseite werden die eingerichteten Arbeitsplatzgruppen aufgelistet. Rechts befindet sich ein Kalender, in dem die verfügbaren Kapazitäten pro Arbeitstag in der definierten Maßeinheit angegeben werden, z. B. **480** Minuten. Jede Zeile stellt den Kalender einer Arbeitsplatzgruppe dar.  
 
@@ -84,7 +84,7 @@ Der Betriebskalender kann nun einer Arbeitsplatzgruppe zugewiesen werden, um ein
 6.  Wählen Sie die Aktion **berechnen** aus.  
 7.  Auf dem Inforegister **Arbeitsplatzgruppe** können Sie einen Filter festlegen, sodass nur die Berechnung für eine Arbeitsplatzgruppe ausgeführt wird. Wenn kein Filter festgelegt wird, werden alle vorhandenen Arbeitsplatzgruppenkalender berechnet.  
 8.  Legen Sie das Anfangs- und das Enddatum des zu berechnenden Kalenderzeitraums fest, z. B. ein Jahr vom 01.01.14 bis zum 31.12.14.
-9. Klicken Sie auf die Schaltfläche **OK** , um die Kapazität zu berechnen.  
+9. Klicken Sie auf die Schaltfläche **OK**, um die Kapazität zu berechnen.  
 
 Kalenderposten werden nun erstellt bzw. aktualisiert und zeigen die verfügbare Kapazität pro Tag oder sonstiger Periode an, entsprechend den folgenden drei Sätzen von Stammdaten:  
 
@@ -95,13 +95,13 @@ Kalenderposten werden nun erstellt bzw. aktualisiert und zeigen die verfügbare 
 Der berechneten Arbeitsplatzgruppenkalender legt jetzt fest, wann und wie viel Kapazität in dieser Arbeitsplatzgruppe verfügbar ist. Dieses steuert die detaillierte Planung von Arbeitsgängen, die in der Arbeitsplatzgruppe ausgeführt werden.  
 
 ## <a name="to-record-work-center-absence"></a>Fehlzeiten für Arbeitsplatzgruppen erfassen  
-1.  Klicken Sie auf der Seite **Arbeitsplatzgruppenkalender** auf **Aktionen, Matrix anzeigen** .
-2. Wählen Sie auf der Seite **Arbeitsplatzgruppenkalendermatrix** die Arbeitsplatzgruppe und den Kalendertag aus, an dem die Fehlzeit aufgezeichnet werden soll, und klicken Sie anschließend auf **Verknüpfte Informationen, Planung, Fehlzeiten** .  
+1.  Klicken Sie auf der Seite **Arbeitsplatzgruppenkalender** auf **Aktionen, Matrix anzeigen**.
+2. Wählen Sie auf der Seite **Arbeitsplatzgruppenkalendermatrix** die Arbeitsplatzgruppe und den Kalendertag aus, an dem die Fehlzeit aufgezeichnet werden soll, und klicken Sie anschließend auf **Verknüpfte Informationen, Planung, Fehlzeiten**.  
 3.  Legen Sie auf der Seite Fenster **Fehlzeiten** die Anfangs- und die Endzeit für die Fehlzeiten an diesem Tag fest, und geben Sie eine Begründung an. Beispiel:  
 
     25.01.01 08:00 10:00 Wartung  
 
-4.  Wählen Sie die **Aktualisieren** Aktion aus, und schließen Sie dann die Seite **Fehlzeiten** .  
+4.  Wählen Sie die **Aktualisieren** Aktion aus, und schließen Sie dann die Seite **Fehlzeiten**.  
 
 Die Kapazität des ausgewählten Tages hat sich nun um die aufgezeichnete Fehlzeit verringert.  
 
@@ -110,4 +110,4 @@ Die Kapazität des ausgewählten Tages hat sich nun um die aufgezeichnete Fehlze
 [Arbeitsplätze und Arbeitsplatzgruppen einrichten](production-how-to-set-up-work-and-machine-centers.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

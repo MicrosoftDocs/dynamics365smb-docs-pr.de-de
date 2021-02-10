@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a8298caadec82b191d345e6b7c75b95187b2fe5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f5b4e07f128551e978dffb2dedeb3e0257eea1ea
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921742"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024562"
 ---
 # <a name="setting-up-inventory"></a>Bestand einrichten
 Bevor Sie Lageraktivitäten und Lagerbewertung verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Lagerbestandsrichtlinien des Unternehmens definieren.
@@ -38,12 +38,14 @@ Wenn Sie Ihr Lager so eingerichtet haben, können Sie verschiedene Lagervorgäng
 |Sie können Lagerhaltungsdaten verwenden, um Informationen über Ihre Artikel für einen bestimmten Lagerortcode und/oder einen bestimmten Variantencode zu speichern.|[Lagerhaltungsdaten einrichten](inventory-how-to-set-up-stockkeeping-units.md)|
 | Artikel den Kategorien zuweisen und ihnen Attribute zuweisen, damit Sie und die Debitoren die Artikel finden. |[Artikel kategorisieren](inventory-how-categorize-items.md) |
 |Importieren Sie mehrere Artikelbilder auf einmal aus einer ZIP-Datei, in der die Dateien entsprechend der Artikelnummern benannt sind.|[Mehrere Artikelbilder importieren](inventory-how-import-item-pictures.md)|
+|Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
+
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
 [Käufe verwalten](purchasing-manage-purchasing.md)  
 [Verkäufe verwalten](sales-manage-sales.md)    
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)

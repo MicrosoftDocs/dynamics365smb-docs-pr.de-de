@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 94c793441d413820f3dd752179c0268147fc2f8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c96691ada97f0ee91b53d9cde303c2413e99025e
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920220"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024387"
 ---
 # <a name="setting-up-warehouse-management"></a>Lagerortverwaltung einrichten
 Die Logistikstrategie eines Mandanten spiegelt sich in der Konfiguration seiner Lagerprozesse wider. Dazu gehört die Definition der Bearbeitung unterschiedlicher Artikel an verschiedenen Lagerorten, wie z. B. der Grad der Lagerplatzkontrolle und das Ausmaß des erforderlichen Workflows zwischen Lageraktivitäten.  
@@ -40,10 +40,11 @@ Die Logistikstrategie eines Mandanten spiegelt sich in der Konfiguration seiner 
 |Richten Sie ein, dass das Lager automatisch Artikel für die Kommissionierung vorschlägt, die zuerst ablaufen.|[Aktiveren der Kommissionierung nach FEFO](warehouse-picking-by-fefo.md)|
 |Sie erhalten Tipps zur Neuorganisation von Lagerorten, Lagerplätzen oder Zonen, um weitere effiziente Lageraktivitäten zu erhalten.|[Lager umstrukturieren](warehouse-how-to-restructure-warehouses.md)|
 |Integrieren Sie Barcodeleser in Ihrer Logistiklösung. Nur für lokale Bereitstellung.|[Automatisierte Datenerfassung (MDE) verwenden](warehouse-use-automated-data-capture-systems-adcs.md)|
+|Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
 
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
