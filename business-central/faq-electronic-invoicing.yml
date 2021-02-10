@@ -1,0 +1,59 @@
+### YamlMime:FAQ
+metadata:
+  title: Elektronische Rechnungsstellung FAQ
+  description: Erhalten Sie Antworten zum Dokumentenaustauschdienst und zu unterstützten Versionen von PEPPOL.
+  author: sorenfriisalexandersen
+  ms.topic: article
+  ms.service: dynamics365-business-central
+  ms.search.keywords: e-invoicing, PEPPOL, NemHandel
+  ms.date: 01/05/2021
+  ms.author: edupont
+  ms.openlocfilehash: 5fd42d8165e4f10e0c09d7efcfc021eb42a74ea8
+  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 01/15/2021
+  ms.locfileid: "5013767"
+title: Elektronische Rechnungsstellung FAQ
+summary: "Der integrierte Dokumentenaustauschdienst sendet elektronische Rechnungen an TradeShift, einen Dienstanbieter, der elektronische Rechnungen an PEPPOL- oder NemHandel-Empfänger weiterleitet. Der Dienst unterstützt jedoch eine begrenzte Anzahl von Versionen.   \n\nDiese FAQ beantwortet einige der wichtigsten Fragen zur elektronischen Rechnungsstellung.  \n"
+sections:
+- name: Allgemein
+  questions:
+  - question: Was ist das Problem?
+    answer: Die integrierte Unterstützung von PEPPOL verwendet eine von TradeShift bereitgestellte API. Diese API unterstützt jedoch keine neueren Versionen von PEPPOL.
+  - question: Welche letzte Version von PEPPOL wird von der TradeShift-API unterstützt?
+    answer: Die letzte Version von PEPPOL, die von TradeShift-API unterstützt wird, ist  **PEPPOL BIS 2.1**.
+  - question: Welche letzte Version von PEPPOL wird von Business Central unterstützt?
+    answer: Die letzte Version von PEPPOL, die von der Standardversion von Business Central unterstützt wird, ist **PEPPOL BIS 3.0**. Wir werden den auf TradeShift basierenden vorhandenen Dokumentenaustauschdienst so lange beibehalten, wie TradeShift die aktuelle API unterstützt. Darüber hinaus unterstützen wir weiterhin die derzeit unterstützten elektronischen Rechnungsformate.
+- name: -Apps
+  questions:
+  - question: Gibt es Apps, die uns bei der elektronischen Rechnungsstellung helfen können?
+    answer: >
+      Ja! Die folgende Liste enthält Beispiele für vorhandene Apps für Business Central, die die elektronische Rechnungsstellung in den neuesten Formaten unterstützen. Beachten Sie, dass es sich nicht um eine vollständige Liste handelt:
+
+      - [Pagero – E-Invoicing App (Dänemark, Deutschland, Finnland, Frankreich, Norwegen, Spanien, Schweden, Vereinigtes Königreich)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
+
+      - [Oseberg Solutions – E-Rechnung PEPPOL Bis (Norwegen)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.oseberg_solutions%7CAID.oseberg_peppol%7CPAPPID.49206e10-c889-400d-8465-bde6555e00fc)
+
+      - [BCS Itera – E-Rechnung für Finnland](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.e-invoicing-finland%7CPAPPID.d88e27d5-57ce-4504-ab72-f73bb6702b59?tab=Overview)
+
+      - [Alterna Elektronische Rechnung für Italien](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.alterna%7CAID.e26cf7bb-ade2-43aa-8ad4-54b93c5861c0%7CPAPPID.e26cf7bb-ade2-43aa-8ad4-54b93c5861c0?tab=Overview)
+
+      - [NAVlab – FTE LITE CLOUD (Italien)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.navlab-1990684%7CAID.felight%7CPAPPID.a239eef8-4446-4379-a0af-e0f8f1e7f260?tab=Overview)
+
+      - [AppVision – Elektronische Rechnung für Ungarn](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.appvision-5226274%7CAID.hungarian_electronic_invoice%7CPAPPID.f5891011-91e3-416e-92c7-db21f1f3a939?tab=Overview) 
+
+      - [Estnische Dynamikpartner – Telema EDI (Estland)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.telema-edi%7CPAPPID.0f6cfaa0-c4d6-49af-a644-4194e69420be)
+
+      - [Estonian Dynamics Partners – Lokalisierung der elektronischen Rechnungsstellung für Estland](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.einvoicingest%7CPAPPID.d2552bde-4704-4c58-99fa-040fbdea8489?tab=Overview)
+
+      - [MNG-Lösungen – PEPPOL BIS3.0 SG (Singapur)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.mngsolutions1595995772564%7CAID.mng_singapore_e-invoice%7CPAPPID.e7a92932-a086-42bf-b389-4e111183d2e7?tab=Overview)
+
+      - [CyanSYS Singapore Lokalisierung für GST und PEPPOL (Singapur)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.cyansyspteltd1583839297658%7CAID.cyansys-singapore-localisation-for-bc%7CPAPPID.e5de1cdc-5674-477f-8796-e1bd210af4aa?tab=Overview)
+
+      - [Deex – Lokalisierung von Mehrwertsteuer und elektronischer Rechnungsstellung für Korea](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.deexkorea%7CAID.deex_korean_vat_localization%7CPAPPID.b6696d1f-9913-4006-97bc-86ae58f38ec1?tab=Overview)
+- name: B2G-Anforderung in Deutschland
+  questions:
+  - question: Was ist mit der B2G-Anforderung in Deutschland?
+    answer: Für Business Central-Benutzer, die Kunden in der Bundesregierung haben und eine B2G-Rechnungsstellung benötigen, müssen sie ab dem 27. November 2020 Rechnungen in lokalen Formaten senden, wie *XRechnung* oder *ZUGFeRD*.  Dies wird von Apps wie [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview), oder [Pagero E-Rechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6) unterstützt. 
+additionalContent: "## <a name=\"next-steps\"></a>Nächste Schritte\nHier finden Sie Informationen zum Thema: \n  - [Elektronische Belege senden](sales-how-to-send-electronic-documents.md)"
