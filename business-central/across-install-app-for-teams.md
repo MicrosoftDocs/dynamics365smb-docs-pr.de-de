@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 10/08/2020
 ms.author: jswymer
-ms.openlocfilehash: 38c95baa74d94246c38f1ff985b1457506a03f22
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 723437b0e5acb5b5c4dca8374667ea1279243a80
+ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989462"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5046428"
 ---
-# <a name="install-the-prodshort-app-for-microsoft-teams"></a>Die App [!INCLUDE [prodshort](includes/prodshort.md)] für Microsoft Teams installieren
+# <a name="install-the-prod_short-app-for-microsoft-teams"></a>Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
-In diesem Artikel erfahren Sie, wie Sie die [!INCLUDE [prodshort](includes/prodshort.md)]-App für [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) installieren. Die App ist im Teams-Marketplace verfügbar und kann mit der Teams-Web-, Desktop- oder mobilen App verwendet werden.
+In diesem Artikel erfahren Sie, wie Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App für [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) installieren. Die App ist im Teams-Marketplace verfügbar und kann mit der Teams-Web-, Desktop- oder mobilen App verwendet werden.
 
 ## <a name="prerequisites"></a>Voraussetzungen
+
+- Auf die Desktop-App oder Teams im Browser zugreifen. Sie können [!INCLUDE [prod_short](includes/prod_short.md)] mithilfe der mobilen Team-App nicht installieren.
 
 - Die Richtlinien Ihres Unternehmens müssen es Ihnen ermöglichen, Apps in Microsoft Teams zu installieren.
 
@@ -47,7 +49,7 @@ Diese Option ist der schnellste Weg zur Installation der App.
 
 1. Öffnen Sie Teams, und melden Sie sich an.
 2. Wählen Sie auf der linken Seite **Apps** aus.
-3. Suchen Sie nach **Business Central** .
+3. Suchen Sie nach **Business Central**.
 4. Wählen Sie die App aus.
 5. Wählen Sie **Für mich hinzufügen** aus.
 
@@ -58,7 +60,8 @@ Sie können die App jetzt in Teams verwenden, um Business Central-Daten freizuge
 ## <a name="see-also"></a>Siehe auch
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
+[Teams FAQ](teams-faq.md)  
+[Teams Problembehebung](admin-teams-troubleshooting.md)  
 [Entwicklung für die Teams-Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Erste Schritte](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

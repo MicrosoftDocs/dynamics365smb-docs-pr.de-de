@@ -1,0 +1,1 @@
+> **GILT FÜR:** Business Central Online

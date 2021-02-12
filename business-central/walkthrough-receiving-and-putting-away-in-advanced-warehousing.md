@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c200d178a00716de99bd88475346ff4396c9bebf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 88255d775b52aef089431fd3125a899ffafa3747
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918388"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035656"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
 
 |Art|Eingangsprozess|Lagerplätze|Geb. Umlag.-Eingänge|Einlagerungen|Komplexitätsebene anzeigen (siehe [Designdetails: Lagerhaus-Einrichtung](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -44,6 +44,8 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert.
 -   Erstellen und Buchen eines Wareneingangsbelegs für mehrere Einkaufszeilen von bestimmten Kreditoren.  
 -   Erfassen einer Einlagerungszeile für die eingegangenen Artikel.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 ## <a name="roles"></a>Rollen  
 Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen ausgeführt:  
 
@@ -67,17 +69,17 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 Ellen, die Einkäuferin bei der CRONUS AG ist, erstellt zwei Bestellungen für Zubehörartikel von den Kreditoren 10000 und 20000, die zum WHITE-Lagerhaus geliefert werden sollen. Wenn die Lieferungen im Lagerankommen, verwendet, Sammy, der für das Empfangen von Artikeln der Kreditoren 10000 und 20000 zuständig ist, einen Filter, um Wareneingangszeilen für die Bestellungen zu erstellen, die von den beiden Kreditoren ankommen. Sammy bucht die Artikel als in den Lagerbestand im Wareneingang eingegangen und stellt die Artikel für Verkauf oder anderen Bedarf bereit. John, der Lagermitarbeiter, nimmt die Artikel vom Wareneingangslagerplatz und lagert sie ein. Er lagert alle Einheiten in ihren Standardlagerplätze ein, mit Ausnahme von 40 der 100 eingegangenen Scharniere, die er in der Montageabteilung einlagert, indem er die Einlagerungsanforderungszeile aufteilt. Wenn John die Einlagerung registriert, werden die Lagerplatzinhalte aktualisiert, und die Artikel werden für die Kommissionierung aus dem Lager bereitgestellt.  
 
 ## <a name="reviewing-the-white-location-setup"></a>Überprüfung des Setup des WEISSEN Lagerorts  
-Das Einrichten der Seite **Standortkarte** definiert die Warenflüsse des Unternehmens.  
+Das Einrichten der Seite **Lagerortkarte** definiert die Warenflüsse des Unternehmens.  
 
 ### <a name="to-review-the-location-setup"></a>So prüfen Sie die Lagerorteinrichtung  
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Standorte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die WHITE Lagerortkarte.  
-3.  Beachten Sie im Inforegister **Lager** , dass das Kontrollkästchen **Gesteuerte Einlag. u. Kommiss.** ausgewählt ist.  
+3.  Beachten Sie im Inforegister **Lager**, dass das Kontrollkästchen **Gesteuerte Einlag. u. Kommiss.** ausgewählt ist.  
 
     Dies bedeutet, dass der Ort für die höchste Komplexitätsebene eingerichtet wird, widergespiegelt durch die Tatsache, dass alle Lagerdurchlaufzeitkontrollkästchen im Inforegister aktiviert sind.  
 
-4.  Beachten Sie im Inforegister **Lagerplätze** , dass Lagerplätze in den Feldern **Wareneingangslagerplatzcode** und **Warenausgangslagerplatzcode** angegeben sind.  
+4.  Beachten Sie im Inforegister **Lagerplätze**, dass Lagerplätze in den Feldern **Wareneingangslagerplatzcode** und **Warenausgangslagerplatzcode** angegeben sind.  
 
 Das bedeutet, dass beim Erstellen eines Wareneingangs dieser Lagerplatzcode standardmäßig zum Kopf des Wareneingangsbelegs und zu den Zeilen der resultierenden Einlagerung kopiert wird.  
 
@@ -136,7 +138,7 @@ Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifis
 
 ### <a name="to-put-the-items-away"></a>So lagern Sie die Artikel ein  
 1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einlagerungen** ein, und wählen Sie dann den entsprechenden Link.  
-2.  Wählen Sie den einzigen Lager-Einlagerungsbeleg in der Liste aus und wählen Sie dann die Aktion **Bearbeiten** .  
+2.  Wählen Sie den einzigen Lager-Einlagerungsbeleg in der Liste aus und wählen Sie dann die Aktion **Bearbeiten**.  
 
     Der Einlagerungsbeleg wird geöffnet mit insgesamt acht Take- oder Place-Zeilen für die vier Einkaufsauftragszeilen.
 
@@ -144,7 +146,7 @@ Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifis
 
 3.  Wählen Sie die zweite Zeile auf der Seite **Lagereinlagerung** aus, die Einlagerungszeile für Artikel 70200.  
 4.  Ändern Sie den Wert im Feld **Zu verarbeitende Menge** von 100 zu 60.  
-5.  Wählen Sie auf dem Inforegister **Zeilen** die Option **Funktionen** , und klicken Sie dann auf **Zeile aufteilen** . Eine neue Zeile wird für Artikel 70200 mit 40 in Feld **Zu verarbeitende Menge** eingefügt.  
+5.  Wählen Sie auf dem Inforegister **Zeilen** die Option **Funktionen**, und klicken Sie dann auf **Zeile aufteilen**. Eine neue Zeile wird für Artikel 70200 mit 40 in Feld **Zu verarbeitende Menge** eingefügt.  
 6.  Geben Sie im Feld **Lagerplatzcode** W-02-0001 ein. Das Feld **Gebietscode** wird automatisch ausgefüllt.  
 
     Fahren Sie fort mit dem Registrieren der Einlagerung.  
