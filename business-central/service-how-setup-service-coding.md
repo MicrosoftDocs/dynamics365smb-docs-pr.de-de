@@ -39,3 +39,5 @@ Bei der Durchführung eines normalen Service müssen häufig Servicebelege erste
 ## <a name="see-also"></a>Siehe auch
 
 [Service](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

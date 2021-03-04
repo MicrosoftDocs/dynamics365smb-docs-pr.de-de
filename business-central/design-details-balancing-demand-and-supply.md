@@ -291,3 +291,6 @@ Damit sind die Beschreibungen dazu, wie Bedarf und Vorrat vom Planungssystem gel
  [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)   
  [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
  [Designdetails: Vorratsplanung](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

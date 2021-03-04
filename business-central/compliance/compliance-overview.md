@@ -35,3 +35,6 @@ In diesem Abschnitt können Sie mehr über den Ansatz unserer Compliance in Bezu
 |Mehr über die Service Level Agreement Bestimmungen und andere Bestimmungen für den Service erfahren.|[Servicebedingungen](compliance-service-compliance.md#service-terms)|  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

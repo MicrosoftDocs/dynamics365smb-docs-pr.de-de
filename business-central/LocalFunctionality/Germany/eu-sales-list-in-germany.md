@@ -29,3 +29,6 @@ Um die Sicherheit zu erhöhen, müssen alle Arten von Steuern und Steuererkläru
 [Erstellen von MwSt-Berichten.](how-to-create-vat-reports.md)  
 [Zu korrigierender MwSt.-Bericht](how-to-correct-vat-reports.md)  
 [MwSt-VIES-Steuer angeben](how-to-declare-vat-vies-tax.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

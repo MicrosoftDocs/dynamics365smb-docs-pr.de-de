@@ -32,3 +32,6 @@ Sie können auch unsere Anleitungsvideos und viele andere Inhalte in der YouTube
 
 [Erste Schritte](product-get-started.md)  
 [Dynamics 365-Kanal auf YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

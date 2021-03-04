@@ -138,3 +138,6 @@ Es gibt verschiedene Möglichkeiten, um Berichte an Ihre Mitarbeiter und andere 
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzen](finance.md)  
 [Schnellstart: Stellen Sie eine Verbindung zu Daten her in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

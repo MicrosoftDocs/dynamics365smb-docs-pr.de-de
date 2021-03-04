@@ -73,3 +73,6 @@ Sie können die Mitarbeiterabwesenheiten auf täglicher Basis oder einem anderen
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funktionen, die angezeigt werden ändern](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

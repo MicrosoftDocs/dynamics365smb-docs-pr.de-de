@@ -48,3 +48,5 @@ Codeunit 22 durchläuft die Artikelverfolgungsnummern und teilt die Posten in di
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Artikelnachverfolgung](design-details-item-tracking.md)   
 [Designdetails: Artikelverfolgungsdesign](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

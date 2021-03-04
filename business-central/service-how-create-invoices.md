@@ -99,3 +99,6 @@ Eine Servicegutschrift wird normalerweise verwendet, wenn ein Debitor einen Arti
 [So buchen Sie Servicerechnungen](service-how-to-post-service-orders.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Servicebuchung](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

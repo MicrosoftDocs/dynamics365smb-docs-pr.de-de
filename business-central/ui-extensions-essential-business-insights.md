@@ -38,3 +38,6 @@ Die folgende Tabelle beschreibt die Einblicke, die diese Erweiterung für jedes 
 
 ## <a name="see-also"></a>Siehe auch
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

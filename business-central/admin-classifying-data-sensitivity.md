@@ -50,3 +50,6 @@ Beispielsweise können Sie mit dem Arbeitsblatt Datenklassifizierung folgendes t
 ## <a name="see-also"></a>Siehe auch
 
 [Klassifizieren von Daten](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

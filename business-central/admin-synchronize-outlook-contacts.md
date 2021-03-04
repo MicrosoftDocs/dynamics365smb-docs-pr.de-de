@@ -54,3 +54,6 @@ In Outlook werden die Kontakte [!INCLUDE[prod_short](includes/prod_short.md)] in
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Mittels der Kontakte (Personen) in Outlook im Netz](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

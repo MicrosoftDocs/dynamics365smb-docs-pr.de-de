@@ -44,3 +44,6 @@ Sie können diesen Textbaustein jetzt Dokumenten hinzufügen. Im folgenden Verfa
 
 [Bestand einrichten](inventory-setup-inventory.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

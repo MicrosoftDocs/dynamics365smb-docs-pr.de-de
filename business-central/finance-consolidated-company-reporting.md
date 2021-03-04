@@ -120,3 +120,6 @@ Die exportierten Posten enthalten die folgenden Felder: **Kontonr.**, **Buchungs
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

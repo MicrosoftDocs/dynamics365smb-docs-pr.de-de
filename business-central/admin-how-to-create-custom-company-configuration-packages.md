@@ -57,3 +57,6 @@ Um eine vollständige Liste von Einrichtungstabellen zu sehen, wählen Sie das S
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

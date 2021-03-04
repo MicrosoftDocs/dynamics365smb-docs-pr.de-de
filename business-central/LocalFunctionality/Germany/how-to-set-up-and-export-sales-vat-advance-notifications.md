@@ -68,3 +68,6 @@ Um gültige Umsatzsteuervoranmeldungen zu erstellen, müssen Sie Folgendes einri
 [MwSt.-Abrechnung](vat-reporting.md)  
 [Lokale Funktion (Deutschland)](germany-local-functionality.md)  
 [Anpassen von Business Central mithilfe der Erweiterungen](../../ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

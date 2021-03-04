@@ -110,3 +110,6 @@ Weil Kartendaten in Teams eine Kopie der Daten in [!INCLUDE [prod_short](include
 [Entwicklung für die Teams-Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Wenn Ihr verlängerter Testzeitraum abgelaufen ist, können Sie innerhalb von 90
 [Wie finde ich einen Weiterverkaufspartner?](across-faq.md#findpartner)  
 [Tests verlängern (als Administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Einstieg als Wiederverkäufer von Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

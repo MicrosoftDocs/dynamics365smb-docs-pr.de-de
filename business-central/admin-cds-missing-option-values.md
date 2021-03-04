@@ -146,3 +146,5 @@ Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[prod_short](includes/prod_short
 
 ## <a name="see-also"></a>Siehe auch
 [Zu synchronisierende Tabellen und Felder zuordnen](admin-how-to-modify-table-mappings-for-synchronization.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

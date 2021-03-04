@@ -28,3 +28,6 @@ ms.locfileid: "3931254"
 [Kreditoren Lieferanmahnungscodes zuweisen](how-to-assign-delivery-reminder-codes-to-vendors.md)  
 [Manuelle Lieferanmahnungen erstellen](how-to-create-delivery-reminders-manually.md)  
 [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

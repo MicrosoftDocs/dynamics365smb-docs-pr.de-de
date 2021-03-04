@@ -161,3 +161,6 @@ Wenn Sie den doppelten Kontakt gefunden haben, können Sie die Seite **Doppelte 
 [Kontakt erstellen](marketing-create-contact-companies.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

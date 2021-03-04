@@ -92,3 +92,6 @@ Einige Erweiterungen sind erforderlich. Sie können diese nicht von der **Extens
 [Erste Schritte](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

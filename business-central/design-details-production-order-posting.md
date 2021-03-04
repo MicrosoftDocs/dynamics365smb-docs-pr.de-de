@@ -110,3 +110,6 @@ In Standard-Kostenumgebungen basiert die Kalkulation eines Fertigungsauftrags au
  [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)  
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md) [Finanzen](finance.md)  
  [Arbeiten mit Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

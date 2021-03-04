@@ -67,3 +67,6 @@ Wenn sie eine Prod.-Programmplanung oder einen Nettobedarf berechnen, gelten die
 [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
 [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)   
 [Designdetails: Planungsparameter](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

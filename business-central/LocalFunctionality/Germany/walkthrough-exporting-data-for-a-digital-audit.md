@@ -286,3 +286,6 @@ Wenn die Steuerprüfer das nächste Mal neue Daten anfordern, können Cassie und
 [Prozess für Digital-Überwachung (GoBD/GDPdU)](process-for-digital-audits.md)  
 [Datenexporte für eine digitale Prüfung (GoBD/GDPdU) einrichten](how-to-set-up-data-exports-for-digital-audits.md)  
 [Daten für eine digitale Prüfung exportieren](how-to-export-data-for-a-digital-audit.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

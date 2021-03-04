@@ -51,3 +51,6 @@ Wenn Ihr Dynamics 365-Wiederverkaufspartner die richtige Lizenz für Ihre lokale
 [Willkommen zu Business Central](index.md)  
 [Intelligente Cloud-Erweiterungen für die Cloudmigration](ui-extensions-data-replication.md)  
 [Migrieren lokaler Daten zu Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

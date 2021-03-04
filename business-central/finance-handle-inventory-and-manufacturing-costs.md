@@ -38,3 +38,6 @@ Obgleich viele der Kostenberechnungsfunktionen in untergeordneten Prozessen ohne
 ## <a name="see-also"></a>Siehe auch  
 [Lagerkosten Verwalten](finance-manage-inventory-costs.md)
 [Designdetails: Lagerkosten](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

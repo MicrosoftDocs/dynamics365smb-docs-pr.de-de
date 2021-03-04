@@ -149,3 +149,6 @@ In diesem Thema werden die folgenden Prozeduren beschrieben:
 [Daten elektronisch austauschen](across-data-exchange.md)   
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)   
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene F
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
  [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

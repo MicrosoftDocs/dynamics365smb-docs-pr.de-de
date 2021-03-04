@@ -88,3 +88,6 @@ Weitere Informationen finden Sie in der [Power Automate-Dokumentation](/power-au
 [Genehmigungsbenutzereinrichtung](across-how-to-set-up-approval-users.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzen](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

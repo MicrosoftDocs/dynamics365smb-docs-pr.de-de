@@ -94,3 +94,6 @@ Administratoren können dieselbe Anleitung zur unterstützten Einrichtung verwen
 [Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)  
 [Die Erweiterung Unternehmens-Hub für Business Central](ui-extensions-company-hub.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

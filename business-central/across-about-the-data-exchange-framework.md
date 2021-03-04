@@ -66,3 +66,6 @@ Für den gesamten Austausch von Daten in XML-Dateien können Sie die Einrichtung
 [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

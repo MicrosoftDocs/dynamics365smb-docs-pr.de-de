@@ -27,3 +27,6 @@ ms.locfileid: "3931260"
 [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)  
 [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)  
 [So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

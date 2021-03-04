@@ -71,3 +71,6 @@ Administratoren haben die Möglichkeit, diese Einstellungen für Benutzer in jed
 [Erste Schritte](product-get-started.md)  
 [Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Sprache und Gebiet ändern](about-locale-language.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

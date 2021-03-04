@@ -30,3 +30,5 @@ Sie können Lösungsanleitungen einrichten, die den Technikern helfen, Probleme 
 
 ## <a name="see-also"></a>Siehe auch
 [Service](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

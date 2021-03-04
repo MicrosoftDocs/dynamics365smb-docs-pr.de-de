@@ -42,3 +42,6 @@ Jede mit Power Automate erstellte Workflowvorlage wird der Liste der Workflowvor
 [Einkauf](purchasing-manage-purchasing.md)  
 [Projekte verwalten](projects-manage-projects.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

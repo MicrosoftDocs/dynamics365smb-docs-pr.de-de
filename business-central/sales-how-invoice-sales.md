@@ -125,3 +125,6 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Massenrechnungsstellung von Microsoft Bookings in Business Central](finance-bookings.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Sie können die folgenden Komponenten verwenden, um die Einrichtung eines neuen 
 [Verwaltung](admin-setup-and-administration.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

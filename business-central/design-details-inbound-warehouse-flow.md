@@ -110,3 +110,6 @@ Lagerplatzposten werden erstellt, und die Einlagerungszeilen werden gelöscht, w
 
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

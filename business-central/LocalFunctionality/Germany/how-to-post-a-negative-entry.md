@@ -28,3 +28,6 @@ Im Feld **Storno** kann ein negativer Soll- anstelle eines Habenbetrags oder ein
 ## <a name="see-also"></a>Siehe auch  
 [Buchungen stornieren und Belege/Lieferungen rückgängig machen](../../finance-how-reverse-journal-posting.md)  
 [Lokale Funktion (Deutschland)](germany-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

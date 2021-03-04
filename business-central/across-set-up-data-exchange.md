@@ -42,3 +42,6 @@ Bevor Sie elektronische Belege senden und empfangen oder Bankdateien importieren
 [Daten elektronisch austauschen](across-data-exchange.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

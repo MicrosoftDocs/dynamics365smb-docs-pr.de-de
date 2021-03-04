@@ -76,3 +76,6 @@ Zusätzlich zu den Einrichtungsdatentabellen hat [!INCLUDE[prod_short](includes/
 [Konfigurationen für neue Unternehmen übernehmen](admin-apply-configuration-to-new-companies.md)  
 [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Eine einzelne Einkaufsrechnung für eine oder mehrere Zeilen in einem Verkaufsbe
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Wenn Sie kein angefordertes Lieferdatum auf der Verkaufsauftragszeile angeben od
  [Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)   
  [Lieferterminzusagen-Daten berechnen](sales-how-to-calculate-order-promising-dates.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

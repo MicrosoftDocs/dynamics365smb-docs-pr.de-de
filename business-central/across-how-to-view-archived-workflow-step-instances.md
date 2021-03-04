@@ -40,3 +40,6 @@ Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archiviert
  [Einrichten von Workflows](across-set-up-workflows.md)   
  [Verwenden von Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

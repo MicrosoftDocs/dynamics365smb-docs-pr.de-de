@@ -47,3 +47,6 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 [Designdetails: Lagerabgangsmethode für Artikel ändern](design-details-changing-costing-methods.md)  
 [Arbeiten mit Business Central](ui-work-product.md)  
 [Finanzen](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

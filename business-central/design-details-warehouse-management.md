@@ -30,3 +30,6 @@ Um die verschiedenen Komplexitätsniveaus der Lagerhaltung zu unterscheiden, ist
 [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)  
 [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md)  
 [Designdetails: Integration mit dem Lagerbestand](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Weitere Informationen über Datenbanksperren finden Sie unter [Überwachung von 
 ## <a name="see-also"></a>Siehe auch
 
 [Datenbanksperren überwachen](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

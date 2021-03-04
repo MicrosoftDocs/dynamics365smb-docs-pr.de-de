@@ -50,3 +50,6 @@ Wenn Sie Konfigurationspakete zum Migrieren von Daten verwenden, teilen Sie die 
 
 [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

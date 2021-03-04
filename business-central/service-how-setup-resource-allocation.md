@@ -83,3 +83,6 @@ Wenn Sie die Qualifikationscodes ändern möchten, die Artikeln zugeordnet sind,
 [Einrichten von Codes für Standardservices](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

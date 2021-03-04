@@ -92,3 +92,5 @@ Dieses Geschäftsszenario wird durch die Late Binding-Funktionalität unterstüt
   
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Artikelnachverfolgung](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

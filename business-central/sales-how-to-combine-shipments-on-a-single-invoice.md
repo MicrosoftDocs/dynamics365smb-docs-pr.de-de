@@ -62,3 +62,6 @@ Wiederholen Sie die Schritte 1 bis 3 für alle betroffenen anderen Belege, wie z
 ## <a name="see-also"></a>Siehe auch  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

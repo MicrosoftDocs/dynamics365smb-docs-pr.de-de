@@ -141,3 +141,6 @@ Die Einlagerungsvorlage kann einem Artikel und einem Lagerort zugewiesen werden.
 
 [Designdetails: Logistik](design-details-warehouse-management.md)   
 [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

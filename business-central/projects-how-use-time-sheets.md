@@ -175,3 +175,6 @@ Nachdem Sie Arbeitszeittabellen gebucht haben, können Sie diese für spätere B
 [Einkauf](purchasing-manage-purchasing.md)         
 [Verkauf](sales-manage-sales.md)     
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

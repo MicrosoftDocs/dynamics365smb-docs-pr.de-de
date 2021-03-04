@@ -93,3 +93,6 @@ Weitere Informationen finden Sie unter [Hintergrund-Buchung mit Aufgabenwartesch
 [Einrichten von Business Central](setup.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Analysieren der Projektwarteschlangen-Lebenszyklus-Nachverfolgungs-Telemetrie](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

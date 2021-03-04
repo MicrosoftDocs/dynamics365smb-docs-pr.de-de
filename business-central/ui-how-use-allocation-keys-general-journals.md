@@ -47,3 +47,6 @@ Die Posten einer Fibu Buch.-Blattzeile lassen sich beim Buchen des Buch.-Blatts 
 [Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  
 [Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

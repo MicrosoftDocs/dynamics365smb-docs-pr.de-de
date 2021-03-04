@@ -91,3 +91,6 @@ Microsoft stellt die folgenden Erweiterungen bereit:
 [Erste Schritte](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

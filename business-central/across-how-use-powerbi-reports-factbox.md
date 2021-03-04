@@ -89,3 +89,6 @@ Vergewissern Sie sich, dass die Berichtsgröße auf 325 Pixel x 310 Pixel festge
 [Erste Schritte](product-get-started.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzen](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

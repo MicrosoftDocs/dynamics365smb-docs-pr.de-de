@@ -112,3 +112,6 @@ Auf der Seite **Servicegutschriftstatistik** erhalten Sie eine Übersicht über 
 [Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)   
 [Serviceartikel erstellen](service-how-to-create-service-items.md)   
 [Planungsservice](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

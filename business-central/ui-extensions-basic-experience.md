@@ -51,3 +51,5 @@ Bringen Sie Ihre Dynamics C5-Daten mit. Nachdem Ihr Microsoft-Partner die Basic 
 
 ## <a name="see-also"></a>Siehe auch
 [Die C5-Datenmigrations-Erweiterung](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

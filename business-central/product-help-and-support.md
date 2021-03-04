@@ -141,3 +141,6 @@ Die docs.microsoft.com-Website hostet Inhalte für andere Produkte sowie andere 
 [Business Central-Entwickler- und -Verwaltungsdokumente](/dynamics365/business-central/dev-itpro/)  
 [Ressourcen für Hilfe und Support für Partner](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Technischer Support](/dynamics365/business-central/dev-itpro/technical-support)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

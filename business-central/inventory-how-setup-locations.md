@@ -50,3 +50,6 @@ Sie können jetzt die Lagerartikel zwischen zwei Lagerplätzen umlagern. Weitere
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern, welche Merkmale angezeigt werden](ui-experiences.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

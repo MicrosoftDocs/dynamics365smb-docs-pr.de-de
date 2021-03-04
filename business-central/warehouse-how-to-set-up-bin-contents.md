@@ -66,3 +66,6 @@ In diesem Vorschlag können Sie mit einer Anzahl Lagerplatzinhaltszeilen für me
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
 [Designdetails: Lagereinrichtung](design-details-warehouse-setup.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

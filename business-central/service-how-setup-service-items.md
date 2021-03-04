@@ -63,3 +63,6 @@ Sie können Servicelagerfächer einrichten, die identifizieren, wo Sie Servicear
 ## <a name="see-also"></a>Siehe auch
 [Einrichten von Codes für Standardservices](service-how-setup-service-coding.md)   
 [Lösungsanleitung Einrichtung](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

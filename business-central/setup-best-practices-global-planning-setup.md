@@ -35,3 +35,6 @@ Das Inforegister **Planung** auf der Seite **Herstellung einrichten** enthält e
  [Designdetails: Vorratsplanung](design-details-supply-planning.md)   
  [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

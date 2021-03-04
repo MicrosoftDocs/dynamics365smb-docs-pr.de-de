@@ -73,3 +73,6 @@ Zusätzlich ist jede Bestimmung in der Tabelle Zinskondition mit einer Untertabe
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Einrichten von Mahnmethoden, Bestimmungen und Mahntext](finance-setup-reminders.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

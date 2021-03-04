@@ -115,3 +115,6 @@ Ausdrücke, die nur Symbole verwenden, z. B. `|` oder `..` gelten als sicher fü
 [Speichern und personalisieren Sie Listenansichten](ui-views.md)  
 [Suchen von Funktionen und Informationen](ui-search.md)  
 [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

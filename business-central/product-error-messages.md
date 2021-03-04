@@ -42,3 +42,6 @@ Wenn Sie ein Administrator oder Superuser sind, können Sie anderen helfen, inde
 [Kopieren und einfügen FAQ](faq-copy-paste.yml)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Erste Schritte](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

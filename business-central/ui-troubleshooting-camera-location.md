@@ -57,3 +57,6 @@ Es gibt Antivirensoftware, die den Zugriff auf die Kamera und den Standort stand
 ## <a name="see-also"></a>Siehe auch
 [Kamera in AL implementieren](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Standort in AL implementieren](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -164,3 +164,6 @@ Mit Projekten können Sie den Verbrauch der Ressourcen Ihres Unternehmens planen
  [Verständnis - WIP-Methoden](projects-understanding-wip.md)   
  [Überwachen von Status und Leistung](projects-how-monitor-progress-performance.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

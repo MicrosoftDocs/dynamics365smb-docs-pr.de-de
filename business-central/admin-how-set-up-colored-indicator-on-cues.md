@@ -64,3 +64,6 @@ Um den Indikator einzurichten, geben Sie bis zu zwei Schwellenwerte an, die drei
     |**Untergeordnet**|Grau|  
 
 ## <a name="see-also"></a>Siehe auch
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

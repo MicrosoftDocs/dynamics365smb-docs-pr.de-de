@@ -70,3 +70,6 @@ Ein neuer Zuordnungsposten mit dem Zuordnungsstatus **Aktiv** wird erstellt, der
 [Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)  
 [Ressourcen zuordnen](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

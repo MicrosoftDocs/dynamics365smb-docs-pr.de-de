@@ -43,3 +43,6 @@ Wenn Sie die Schaltfläche **Buchen und senden** für einen Verkaufsbeleg auswä
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

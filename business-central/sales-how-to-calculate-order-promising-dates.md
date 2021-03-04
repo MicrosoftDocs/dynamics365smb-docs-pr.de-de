@@ -145,3 +145,6 @@ Bevor ein Artikel bei der Berechnung der Lieferterminzusage berücksichtigt werd
 [Verkauf](sales-manage-sales.md)  
 [Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

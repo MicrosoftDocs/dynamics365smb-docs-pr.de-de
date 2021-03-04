@@ -72,3 +72,6 @@ Die folgende Tabelle listet die Felder in [!INCLUDE[prod_short](includes/prod_sh
 [Daten elektronisch austauschen](across-data-exchange.md)
 [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md)   
 [Zahlungen mit der AMC Banking 365 Fundamentals-Erweiterung oder per SEPA-Überweisung vornehmen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

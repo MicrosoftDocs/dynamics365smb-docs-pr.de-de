@@ -61,3 +61,6 @@ Bei der Aktion **Zeilen vorschlagen**, werden die zu meldenden Werte neu berechn
 
 ## <a name="see-also"></a>Siehe auch  
  [Richten Sie die MwSt.-Berichte ein.](how-to-set-up-vat-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

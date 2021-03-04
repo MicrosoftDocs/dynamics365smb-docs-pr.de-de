@@ -109,3 +109,6 @@ Dies überprüft die Liste der Felder anhand der Schlüssel für die Tabellen. W
 
 [Prozess für Digital-Überwachung (GoBD/GDPdU)](process-for-digital-audits.md)  
 [Daten für eine digitale Prüfung exportieren](how-to-export-data-for-a-digital-audit.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

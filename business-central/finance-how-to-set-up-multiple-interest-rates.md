@@ -36,3 +36,6 @@ Wenn Sie eine Zinsrechnung registrieren, wird deren Registrierung die Zinsrechnu
 ## <a name="see-also"></a>Siehe auch  
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Finanzen einrichten](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

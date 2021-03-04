@@ -444,3 +444,6 @@ Wenn der Auftrag später als vollständig fakturiert gebucht wird, werden der Ve
  [Designdetails: Interner Lagerfluss](design-details-internal-warehouse-flows.md)   
  [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md)   
  [Exemplarische Vorgehensweise: Automatische Beschaffungsplanung](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

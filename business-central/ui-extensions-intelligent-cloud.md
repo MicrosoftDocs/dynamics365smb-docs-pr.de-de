@@ -29,3 +29,6 @@ Sobald die Verbindung konfiguriert ist, können Sie Daten migrieren oder Datenre
 [Intelligente Einblicke](about-intelligent-cloud.md)  
 [Ausführen des Cloud-Migrationstools](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Intelligente Cloud-Erweiterungen für die Cloudmigration](ui-extensions-data-replication.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

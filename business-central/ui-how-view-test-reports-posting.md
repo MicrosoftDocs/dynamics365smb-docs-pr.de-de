@@ -34,3 +34,6 @@ Alle Teile der Einkaufsrechnung werden überprüft, und die Ergebnisse werden in
 ## <a name="see-also"></a>Siehe auch
 [Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

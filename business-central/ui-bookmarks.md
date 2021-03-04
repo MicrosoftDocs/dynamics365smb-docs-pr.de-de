@@ -84,3 +84,6 @@ Wenn Sie ein neues Lesezeichen hinzufügen, wird jeder übersetzte Text, der zu 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Ändern, welche Merkmale angezeigt werden](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

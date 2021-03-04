@@ -106,3 +106,6 @@ Wenn Sie das Standard-Synchronisationssetup installieren, werden in den meisten 
 [Über das Integrieren von Dynamics 365 Business Central mit [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md )   
 [Business Central und [!INCLUDE[prod_short](includes/cds_long_md.md)] synchronisieren](admin-synchronizing-business-central-and-sales.md)   
 [Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

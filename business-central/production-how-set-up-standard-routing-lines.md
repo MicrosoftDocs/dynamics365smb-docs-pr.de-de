@@ -46,3 +46,6 @@ Wenn Sie den Lagerplatzumlagerungsvorschlag drucken, können Sie die Elemente au
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

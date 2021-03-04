@@ -39,3 +39,6 @@ Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der 
 
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
 [Bestand einrichten](inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

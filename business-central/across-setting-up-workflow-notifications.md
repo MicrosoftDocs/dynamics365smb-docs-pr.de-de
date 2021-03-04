@@ -59,3 +59,6 @@ In den folgenden Bereichen richten Sie verschiedene Aspekte von Workflowbenachri
 [E-Mail einrichten](admin-how-setup-email.md)  
 [Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

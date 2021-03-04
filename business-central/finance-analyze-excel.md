@@ -56,3 +56,6 @@ Mit dem Add-In können Sie neue Daten abrufen von [!INCLUDE [prod_short](include
 [Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

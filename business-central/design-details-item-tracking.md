@@ -31,3 +31,6 @@ Ein Artikelverfolgungssystem sollte für eine einfache Handhabung der Serien- un
 [Designdetails: Artikelverfolgung und Planung](design-details-item-tracking-and-planning.md)  
 [Designdetails: Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Designdetails: Artikelverfolgung im Lager](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

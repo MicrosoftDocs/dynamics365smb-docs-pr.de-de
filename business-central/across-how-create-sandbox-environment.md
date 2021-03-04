@@ -93,3 +93,6 @@ In einer Sandboxumgebung finden Sie den **Designer** aktiviert. Sie können Desi
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)]-Testversionen und Abonnements](across-preview.md)  
 [Verwalten von Umgebungen im Business Central Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

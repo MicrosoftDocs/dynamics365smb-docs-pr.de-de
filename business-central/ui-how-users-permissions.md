@@ -157,3 +157,6 @@ Bei lokalen Implementierungen erstellt, bearbeitet und löscht der Administrator
 [Verwaltung](admin-setup-and-administration.md)  
 [Hinzufügen von Benutzern zu Microsoft 365 für Unternehmen](https://aka.ms/CreateOffice365Users)  
 [Sicherheit und Schutz in Business Central (Verwaltungsinhalte)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

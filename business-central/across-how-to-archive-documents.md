@@ -66,3 +66,6 @@ Nachfolgend wird beschrieben, wie Sie einen archivierten Auftrag löschen. Die S
 [Verkauf](sales-manage-sales.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

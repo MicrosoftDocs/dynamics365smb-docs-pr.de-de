@@ -40,3 +40,6 @@ In der folgenden Tabelle werden die für jede Tabelle bereitgestellten Informati
 
 [Überprüfen von Seiten](across-inspect-page.md)  
 [Artikel zur Leistung für Entwickler](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

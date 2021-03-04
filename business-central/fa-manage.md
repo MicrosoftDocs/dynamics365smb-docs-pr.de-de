@@ -62,3 +62,6 @@ Das folgende Video behandelt die Grundlagen des Anlagevermögens.
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

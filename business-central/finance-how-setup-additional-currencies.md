@@ -127,3 +127,6 @@ Darüber hinaus werden die Beträge für alle zukünftigen Posten desselben Typs
 [Währungswechselkurse aktualisieren](finance-how-update-currencies.md)  
 [Abschlussjahre und -perioden](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Wenn Sie mit Serviceartikeln und Serviceaufträgen arbeiten, können Sie zusätz
 ## <a name="see-also"></a>Siehe auch
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Service](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

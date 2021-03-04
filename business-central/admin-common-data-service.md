@@ -67,3 +67,6 @@ Während des Verbindungsaufbaus werden Integrationstabellenzuordnungen erstellt,
 
 
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

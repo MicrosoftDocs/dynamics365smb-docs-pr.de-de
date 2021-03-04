@@ -85,3 +85,6 @@ Im Folgenden wird beschrieben, wie Sie eine gebuchte Rücksendung von Artikeln u
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -305,3 +305,6 @@ Anschließend müssen Sie erstellen mit den beiden Artikeln verschiedene Einkauf
 [Posten finden](ui-find-entries.md)  
 [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

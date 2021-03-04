@@ -81,3 +81,6 @@ Wenn der Kreditor die Artikel geliefert hat, können Sie den Verkaufsauftrag als
 [Verkauf](sales-manage-sales.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

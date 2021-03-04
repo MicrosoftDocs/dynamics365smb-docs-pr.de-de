@@ -47,3 +47,6 @@ Um Workflows auf andere [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbank
  [Einrichten von Workflows](across-set-up-workflows.md)   
  [Verwenden von Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Nachdem Sie die Stapelverarbeitung **GuV-Konten Nullstellung** ausgeführt haben
 [Schließen der Bücher](year-close-books.md)  
 [GuV-Konten Nullstellung](year-close-income-statement.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

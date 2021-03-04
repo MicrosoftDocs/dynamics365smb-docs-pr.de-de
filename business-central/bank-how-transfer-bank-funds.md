@@ -58,3 +58,6 @@ Um Beträge zwischen Bankkonten zu transferieren, die unterschiedliche Währunge
 [Einrichten von Banken](bank-setup-banking.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

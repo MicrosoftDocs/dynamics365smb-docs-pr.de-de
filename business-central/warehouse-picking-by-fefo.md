@@ -49,3 +49,6 @@ Wenn das Feld **Fixes Ablaufdatum** ausgewählt ist, werden nur Artikel, die nic
 [Designdetails: Logistik](design-details-warehouse-management.md)  
 [Lagerbest](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

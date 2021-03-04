@@ -30,3 +30,6 @@ Sie können Artikelbilder einzeln oder für mehrere Artikel gleichzeitig importi
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Neue Artikel registrieren](inventory-how-register-new-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

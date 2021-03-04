@@ -29,3 +29,6 @@ Diese Dokumentation stellt einen detaillierten technischen Einblick in die Urheb
 
 ## <a name="see-also"></a>Siehe auch  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

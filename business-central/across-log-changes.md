@@ -88,3 +88,5 @@ Sie können Aufbewahrungsrichtlinien erstellen, um nicht benötigte Daten in Pro
 [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Aufbewahrungsrichtlinien definieren](admin-data-retention-policies.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

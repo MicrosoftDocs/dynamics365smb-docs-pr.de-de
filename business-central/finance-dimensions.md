@@ -234,3 +234,6 @@ Wenn Sie Belege oder Buch.-Blattzeilen buchen, die Dimensionen enthalten, treten
 [Finanzen](finance.md)  
 [Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

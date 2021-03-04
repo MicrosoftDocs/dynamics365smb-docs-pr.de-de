@@ -121,3 +121,6 @@ Unter [AppSource.microsoft.com](https://appsource.microsoft.com/) können Sie Er
 [Absatzplanungen und Rahmenaufträge Nachfrage](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbeiten mit Rahmenaufträgen](sales-how-to-create-blanket-sales-orders.md)  
 [Wiederkehrende Aufträge (Norwegen)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

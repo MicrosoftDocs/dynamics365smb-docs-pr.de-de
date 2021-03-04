@@ -46,3 +46,6 @@ Sie können die Seite **Allgemein Servicebemerkungen** verwenden, um Bemerkungen
   
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten eines Leihgeräteprogramms](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

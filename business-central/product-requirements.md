@@ -79,3 +79,6 @@ Wenn Sie Business Central lokal bereitstellen möchten, sollten Sie die Systeman
 
 [Erste Schritte](product-get-started.md)  
 [Systemanforderungen für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

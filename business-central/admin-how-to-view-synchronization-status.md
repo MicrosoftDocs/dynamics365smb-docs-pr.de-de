@@ -55,3 +55,6 @@ Verwenden Sie die Seite **Gekoppelte Datensynchronisationsfehler**, um den Statu
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten des Benutzerkontos für die Integration in Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Verwenden von Dynamics 365 Sales von Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

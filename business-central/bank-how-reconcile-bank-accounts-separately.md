@@ -159,3 +159,6 @@ Wenn Sie die nächste Bankabstimmung für August durchführen, sollten Sie die W
 [Einrichten von Banken](bank-setup-banking.md)  
 [Einrichten von Regeln für die automatische Anwendung von Zahlungen](receivables-how-set-up-payment-application-rules.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Je mehr Produkt- und Geschäftsbuchungsgruppen vorhanden sind, um so mehr Zeilen
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

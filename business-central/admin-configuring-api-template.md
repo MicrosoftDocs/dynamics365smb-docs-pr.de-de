@@ -49,3 +49,5 @@ Die definierte Vorlage wird in einen neuen Datensatz angewendet, der durch die A
 [Endpunkte für die APIs](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

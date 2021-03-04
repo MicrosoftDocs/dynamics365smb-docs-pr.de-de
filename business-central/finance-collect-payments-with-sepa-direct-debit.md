@@ -162,3 +162,6 @@ Eine Einzugserfassung wird der **Lastschrift**-Seite hinzugefügt, und ein oder 
 ## <a name="see-also"></a>Siehe auch  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Service](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

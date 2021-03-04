@@ -56,3 +56,6 @@ Felder auf dem Inforegister **Transfer** auf der Seite **Bankkontenkarte** bezie
 [Buchungsgruppen einrichten](finance-posting-groups.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

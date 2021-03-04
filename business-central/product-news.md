@@ -40,3 +40,6 @@ Sie können auch die Website [Dynamics 365 Business Central-Funktionen](https://
 [Dynamics 365 Business Central-Community](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

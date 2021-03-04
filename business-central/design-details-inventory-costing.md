@@ -41,3 +41,6 @@ Die Kostenverwaltung, die auch als "Lagerabgang" bezeichnet wird, dient zum Erfa
 [Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)  
 [Designdetails: Bestandsbewertung](design-details-inventory-valuation.md)  
 [Designdetails: Neubewertung](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

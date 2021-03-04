@@ -38,3 +38,6 @@ Sie verwenden die folgenden Seiten, um Kostenbudgets zu erstellen und zu analysi
 [Terminologie der Kostenrechnung](finance-terminology-in-cost-accounting.md)   
 [Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

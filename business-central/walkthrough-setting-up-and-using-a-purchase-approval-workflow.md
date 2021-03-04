@@ -130,3 +130,6 @@ Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unters
 [Artikelgenehmigungsworkflow verwenden](across-how-use-approval-workflows.md)  
 [Workflow](across-workflow.md)  
 [Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

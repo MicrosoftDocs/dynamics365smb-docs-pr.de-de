@@ -158,3 +158,6 @@ Die Standardwerte aus der ausgewählten Debitorenvorlage werden in die Debitoren
 [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Registriert einen neuen Debitor.](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

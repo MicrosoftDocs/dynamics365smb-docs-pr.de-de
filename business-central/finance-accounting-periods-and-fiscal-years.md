@@ -70,3 +70,6 @@ Auch wenn ein Geschäftsjahr abgeschlossen wurde, können hierfür noch Sachpost
 [Bucher schließen](year-close-books.md)  
 [Abschlussjahre und -perioden](year-close-years-periods.md)  
 [Vorgehensweise: Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

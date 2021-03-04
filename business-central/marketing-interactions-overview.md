@@ -31,3 +31,6 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Richten Sie Ihr System ein, um Aktivitäten zu speichern. |[Kontakte einrichten](marketing-setup-contacts.md) |
 |Erstellen Sie Aktivitäten, um die Aktivitäten und Kommunikationen (z. B. E-Mails) mit Ihren Kontakten und Segmenten zu erfassen.|[Aktivitäten zu Kontakten und Segmenten erstellen](marketing-how-create-interactions.md)|
 |Richten Sie Ihr System ein, um Aktivitäten für Verkaufs-, Einkaufs- und Servicebelege, automatisch zu erfassen, wenn Belege erstellt, gebucht oder ausgedruckt werden.|[Aktivitäten mit Kontakten automatisch aufzeichnen](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

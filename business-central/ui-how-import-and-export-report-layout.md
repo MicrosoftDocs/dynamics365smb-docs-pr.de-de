@@ -55,3 +55,6 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtslayout als Datei zu und 
  [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
  [Verwalten von Berichts- und Beleglayouts](ui-manage-report-layouts.md)  
  [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

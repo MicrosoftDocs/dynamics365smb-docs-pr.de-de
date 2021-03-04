@@ -48,3 +48,5 @@ Der Logistik-Anwendungsbereich und der Lager-Anwendungsbereich interagieren mite
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Logistik](design-details-warehouse-management.md)   
  [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

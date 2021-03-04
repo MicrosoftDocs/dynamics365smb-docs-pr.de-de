@@ -145,3 +145,6 @@ Für [!INCLUDE[prod_short](includes/prod_short.md)] (lokal) können Sie Sitzunge
 [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

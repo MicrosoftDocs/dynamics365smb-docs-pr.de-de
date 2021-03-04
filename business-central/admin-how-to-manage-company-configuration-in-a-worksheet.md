@@ -126,3 +126,6 @@ Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die ve
 [Unternehmenskonfiguration einrichten](admin-set-up-company-configuration.md)  
 [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

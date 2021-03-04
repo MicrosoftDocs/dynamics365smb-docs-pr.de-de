@@ -143,3 +143,6 @@ Sie können Ressourcenzuordnungen für Serviceaufgaben stornieren, ohne die Aufg
 ## <a name="see-also"></a>Siehe auch
 [Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)  
 [Zuordnungsstatus und Reparaturstatus](service-allocation-status-and-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

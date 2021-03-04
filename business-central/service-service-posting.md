@@ -58,3 +58,6 @@ Die folgende Vorgehensweise verwendet eine gebuchte Servicerechnung als Beispiel
 ## <a name="see-also"></a>Siehe auch  
 [Buchen von Serviceaufträgen](service-how-to-post-service-orders.md)   
 [Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

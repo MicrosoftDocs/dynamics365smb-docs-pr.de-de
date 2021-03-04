@@ -112,3 +112,6 @@ Die kopierten Zeilen werden entweder in einem Anlagen Fibu Buch.-Blatt oder im A
 [Anlagen einrichten](fa-setup.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

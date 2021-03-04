@@ -67,3 +67,6 @@ Ja, das können Sie! Es ist eine etwas andere Art, sich anzumelden, das ist alle
 
 [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  
 [Business Central-App installieren für Microsoft Teams](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

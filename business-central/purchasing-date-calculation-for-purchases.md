@@ -60,3 +60,6 @@ Der Wert für die Vorlaufzeit auf der Lieferantenkarte wird jedoch nur verwendet
 [Terminberechnung für Verkäufe](sales-date-calculation-for-sales.md)   
 [Lieferterminzusagen-Daten berechnen](sales-how-to-calculate-order-promising-dates.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

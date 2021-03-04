@@ -45,3 +45,6 @@ Weitere Informationen finden Sie unter [Designdetails: Artikelbuchungsstruktur n
 
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Artikelnachverfolgung](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

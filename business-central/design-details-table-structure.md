@@ -186,3 +186,6 @@ Feld 480 ist in den folgenden Puffertabellen vorhanden.
  [Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)   
  [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

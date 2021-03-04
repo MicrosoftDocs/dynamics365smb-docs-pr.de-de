@@ -56,3 +56,5 @@ Um mit Verträgen arbeiten zu können, müssen Sie Folgendes einrichten:
 
 ## <a name="see-also"></a>Siehe auch
 [Einrichten der Serviceverwaltung](service-setup-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

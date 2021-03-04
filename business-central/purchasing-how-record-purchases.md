@@ -100,3 +100,6 @@ Der Kauf wird nun im Bestand, in den Ressourcen-Sachkonten und in den Finanzdoku
 [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
 [Direktlieferungen vorbereiten](sales-how-drop-shipment.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

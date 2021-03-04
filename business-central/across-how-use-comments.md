@@ -39,3 +39,6 @@ Nachfolgend wird erläutert, wie einer Bemerkung einer Artikelkarte hinzugefügt
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

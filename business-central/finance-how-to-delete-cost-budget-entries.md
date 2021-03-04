@@ -38,3 +38,6 @@ Um keine Lücken in den Kostenbudgetposten und den Kostenjournalposten entstehen
 [Kostenrechnung](finance-manage-cost-accounting.md)
 [Erstellen von Kostenbudgets](finance-create-cost-budgets.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

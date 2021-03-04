@@ -39,3 +39,5 @@ Buchungsschnittstelle und verschiedene andere Funktionen in Codeunit 12 verwende
   
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Buchungs-Schnittstellenstruktur](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

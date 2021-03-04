@@ -39,3 +39,6 @@ Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben vo
 [Einrichten von Workflows](across-set-up-workflows.md)   
 [Workflow](across-workflow.md)   
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

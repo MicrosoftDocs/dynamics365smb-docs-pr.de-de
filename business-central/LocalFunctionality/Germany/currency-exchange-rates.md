@@ -41,3 +41,6 @@ Deutsche Unternehmen müssen die Option **BilMoG (Deutschland)** verwenden, wenn
 ## <a name="see-also"></a>Siehe auch  
 [Währungswechselkurse aktualisieren](../../finance-how-update-currencies.md)  
 [Einrichten einer zusätzlichen Berichtswährung](../../finance-how-setup-additional-currencies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Die Erweiterung ist kostenlos, Sie müssen Sie nur einrichten.
 
 ## <a name="see-also"></a>Siehe auch
 [Anpassen von Business Central mithilfe der Erweiterungen](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

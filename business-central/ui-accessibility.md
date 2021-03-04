@@ -81,3 +81,6 @@ Sie können zusätzliche Informationen über Eingabehilfen mit Microsoft-Produkt
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

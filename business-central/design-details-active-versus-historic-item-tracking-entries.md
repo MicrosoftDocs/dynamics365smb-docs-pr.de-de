@@ -62,3 +62,6 @@ Wenn Teile einer Belegzeilenmenge gebucht werden, wird nur diese bestimmte Menge
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Artikelnachverfolgung](design-details-item-tracking.md)   
  [Designdetails – Artikelverfolgungszeilenfenster-Seite](design-details-item-tracking-lines-window.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

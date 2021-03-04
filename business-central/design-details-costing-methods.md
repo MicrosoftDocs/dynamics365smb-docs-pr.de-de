@@ -164,3 +164,6 @@ Die folgenden Methoden werden in [!INCLUDE[prod_short](includes/prod_short.md)] 
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

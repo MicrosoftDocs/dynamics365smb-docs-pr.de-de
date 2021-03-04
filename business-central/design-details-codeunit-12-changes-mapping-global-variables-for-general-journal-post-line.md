@@ -110,3 +110,6 @@ Die folgenden Änderungen wurden in dieser Version von [!INCLUDE [navnow_md](inc
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Codeunit 12 Änderungen: Änderungen in Fibu Buch.-Blatt-Beitrags-Verfahren](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Die allgemeine Version von [!INCLUDE[prod_short](includes/prod_short.md)] unters
 [Daten elektronisch austauschen](across-data-exchange.md)  
 [Elektronische Rechnungsstellung FAQ](faq-electronic-invoicing.yml)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

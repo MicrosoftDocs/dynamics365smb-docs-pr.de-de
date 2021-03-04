@@ -116,3 +116,6 @@ Es gibt drei Möglichkeiten, die Datensynchronisierung zwischen Kontakten und De
 [Kontakte verwalten](marketing-contacts.md)  
 [Kontakte einrichten](marketing-setup-contacts.md)  
 [Arbeiten mit Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

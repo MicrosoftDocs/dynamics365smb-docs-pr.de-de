@@ -93,3 +93,6 @@ Wählen Sie diesen Link, um Benachrichtigungen zu ändern oder anzuzeigen, die S
 [Neue Unternehmen anlegen](about-new-company.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Prüfen Sie die Startkapitale für Konten in der Finanzbuchhaltung. QuickBooks s
 
 [Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

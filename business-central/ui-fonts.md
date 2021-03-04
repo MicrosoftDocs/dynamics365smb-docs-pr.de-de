@@ -52,3 +52,6 @@ Weitere Informationen finden Sie unter [Scheck-Layout auswählen](finance-how-de
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Ein Prüflayout auswählen](finance-how-define-check-layouts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

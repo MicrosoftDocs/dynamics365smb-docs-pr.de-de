@@ -37,3 +37,6 @@ Wenn Sie jetzt loslegen möchten, wählen Sie die Funktion ![Glühbirne, die das
 ## <a name="see-also"></a>Siehe auch
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Anpassen von Business Central mithilfe der Erweiterungen](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 [Verkauf](sales-manage-sales.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] über Erweiterungen](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

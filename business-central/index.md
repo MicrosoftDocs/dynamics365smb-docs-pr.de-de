@@ -98,3 +98,6 @@ In den folgenden Abschnitten finden Sie wichtige Artikel, mit denen Sie sich ver
 [Einführung von docs.microsoft.com (ursprünglicher Blog-Beitrag)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

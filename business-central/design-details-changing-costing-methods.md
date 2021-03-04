@@ -182,3 +182,6 @@ Wir empfehlen Folgendes:
 
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 [Matrix](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

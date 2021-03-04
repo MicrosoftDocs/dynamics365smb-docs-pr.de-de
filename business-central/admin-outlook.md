@@ -82,3 +82,6 @@ Die Add-Ins sind für die Verwendung in Microsoft 365 konzipiert. Wenn Sie [!INC
 [Einkauf](purchasing-manage-purchasing.md)  
 [Mindestanforderungen für die Verwendung von Outlook](product-requirements.md#outlook)  
 [Add-Ins in Outlook im Internet nutzen](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

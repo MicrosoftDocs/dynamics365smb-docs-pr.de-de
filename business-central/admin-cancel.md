@@ -46,3 +46,6 @@ Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] auf Ihrem App-Startfeld 
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)  
 [Microsoft 365 Admin Center](https://admin.microsoft.com/)  
 [Wie lange ist Testphase und wie kündige ich? "](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

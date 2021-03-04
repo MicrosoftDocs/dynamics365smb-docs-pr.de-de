@@ -35,3 +35,6 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Verarbeiten Sie neue Leads, indem Sie Verkaufschancen erstellen und dem Verkäufer zuordnen, um potenzielle Verkäufe nachverfolgen zu können.|[Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)|
 |Erstellen Sie Marketingpläne, um Debitoren zu ermitteln, zu gewinnen und zu binden.|[Verwaltung von Marketingkampagnen](marketing-campaigns.md)|
 |Verwenden Sie Dynamics 365 Sales for Customer Engagement und nutzen Sie die nahtlose Integration in den Interessent-zu-Geld-Prozess, indem Sie Business Central für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.|[Integration mit Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

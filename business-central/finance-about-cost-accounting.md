@@ -73,3 +73,6 @@ Die meisten Berichte und Statistiken basieren auf den gebuchten Kostenposten. Si
  [Finanzen](finance.md)   
  [Terminologie der Kostenrechnung](finance-terminology-in-cost-accounting.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

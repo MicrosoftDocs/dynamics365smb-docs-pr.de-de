@@ -68,3 +68,6 @@ Wir haben „Wie möchten Sie weiter verfahren“ einer Reihe von Projektbeteili
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit  Business Central](ui-work-product.md)  
 [Fügen Sie Ihrem Rollencenter eine Seitenaktion hinzu](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

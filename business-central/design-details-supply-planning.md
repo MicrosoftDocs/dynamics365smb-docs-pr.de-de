@@ -31,3 +31,6 @@ Erläutert, wie das Planungssystem arbeitet und wie die Algorithmen angepasst we
 [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)  
 [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
 [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

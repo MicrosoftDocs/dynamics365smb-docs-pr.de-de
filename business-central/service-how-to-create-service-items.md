@@ -62,3 +62,6 @@ Im folgenden Verfahren wird gezeigt, wie bei Artikellieferungen in Verkaufsauftr
 [Richten Sie Serviceartikel und Serviceartikelkomponenten ein.](service-how-setup-service-items.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Service](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

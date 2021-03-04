@@ -93,3 +93,6 @@ Navigieren Sie zu Inhalten über die anderen Dynamics 365-Apps, indem Sie den Li
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

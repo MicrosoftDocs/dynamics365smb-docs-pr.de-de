@@ -49,3 +49,6 @@ Fügen Sie Ihren Zahlungsbedingungen optional Ihre Zahlungsform hinzu. Weitere I
 [Zahlungsbedingungen einrichten](finance-payment-terms.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

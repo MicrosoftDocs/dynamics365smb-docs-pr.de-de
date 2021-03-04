@@ -46,3 +46,6 @@ Benutzer, die keine Berechtigungen in **Systemobjekt 5330** haben, können denno
 ## <a name="see-also"></a>Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

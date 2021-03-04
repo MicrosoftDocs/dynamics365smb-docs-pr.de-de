@@ -100,3 +100,6 @@ Beispiel: Standardmäßig sucht die Aufgabenwarteschlange WÄHRUNG, die Währung
 [Synchronisieren Sie Tabellenzuordnungen manuell](admin-manual-synchronization-of-table-mappings.md)  
 [Planen einer Synchronisierung zwischen Business Central und [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Über das Integrieren von Dynamics 365 Business Central mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

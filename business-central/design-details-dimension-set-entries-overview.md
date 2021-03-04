@@ -50,3 +50,6 @@ Durch das einmalige Speichern von Dimensionssätzen in der Datenbank wird Datenb
 [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   
 [Designdetails: Tabellenstruktur](design-details-table-structure.md)   
 [Designdetails: Dimensionssatzeinträge](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

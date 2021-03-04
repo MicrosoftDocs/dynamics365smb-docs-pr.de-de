@@ -132,3 +132,6 @@ Die folgende Vorgehensweise beschreibt, wie die Lieferungsbuchung direkt aus ein
 ## <a name="see-also"></a>Siehe auch  
 [Buchen in der Serviceverwaltung](service-service-posting.md)  
 [Erstellen eines Serviceauftrags](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

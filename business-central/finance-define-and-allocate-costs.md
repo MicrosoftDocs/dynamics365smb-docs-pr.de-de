@@ -143,3 +143,6 @@ Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der
  [Kostenrechnung](finance-manage-cost-accounting.md)   
  [Terminologie der Kostenrechnung](finance-terminology-in-cost-accounting.md)   
  [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

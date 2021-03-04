@@ -33,3 +33,6 @@ Rückdatierte Transaktions- oder Kostenregulierungen beeinflussen häufig Salden
 ## <a name="see-also"></a>Siehe auch  
  [Unter Designdetails: Lagerkosten](design-details-inventory-costing.md) [Verwalten der Lagerkosten](finance-manage-inventory-costs.md) [Finanzen](finance.md)  
  [Arbeiten mit  Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

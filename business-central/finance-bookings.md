@@ -43,3 +43,6 @@ Die Unterstützung für die Fakturierung von Terminen von Anmeldungen ist schnel
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

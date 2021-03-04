@@ -197,3 +197,6 @@ Beträge in Belegen, die noch nicht gebucht sind, werden gerundet und auf eine W
 [Lokale Funktion in Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

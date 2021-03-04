@@ -110,3 +110,6 @@ Serviceaufträge werden aber nicht automatisch gelöscht, wenn die Gesamtmenge d
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)  
 [Ressourcen zuordnen](service-how-to-allocate-resources.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

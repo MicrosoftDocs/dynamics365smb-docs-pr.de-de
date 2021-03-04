@@ -47,3 +47,6 @@ Wenn Sie Ihre Umgebungen hinzugefügt haben, werden Ihre Unternehmen automatisch
 
 [Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten](company-hub.md)  
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

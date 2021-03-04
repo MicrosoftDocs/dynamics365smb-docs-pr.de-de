@@ -50,3 +50,6 @@ Um die Konten für unrealisierte MwSt. zu verwenden, führen Sie diese Schritte 
 
 ## <a name="see-also"></a>Siehe auch
 [Mehrwertsteuer einrichten](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

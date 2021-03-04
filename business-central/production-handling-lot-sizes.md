@@ -52,3 +52,6 @@ Bei der Lieferplanung funktioniert die Losgrößeneinstellung für Artikel mit d
 [Arbeiten mit Produktionsgsloseinheiten](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Routings erstellen](production-how-to-create-routings.md)  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

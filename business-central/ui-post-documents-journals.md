@@ -38,3 +38,6 @@ Die folgende Tabelle enthält Informationen zu verwandten Aufgaben wie Links zu 
 [Gebuchte Belege bearbeiten](across-edit-posted-document.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

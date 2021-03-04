@@ -101,3 +101,6 @@ In der Tabelle **Kostenregister** erstellt [!INCLUDE[prod_short](includes/prod_s
  [Einrichten der Kostenrechnung](finance-set-up-cost-accounting.md)   
  [Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)   
  [Kostenrechnung](finance-manage-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

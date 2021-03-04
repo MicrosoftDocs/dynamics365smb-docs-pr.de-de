@@ -28,3 +28,6 @@ ms.locfileid: "3931256"
 [So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md)  
 [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)  
 [Lieferbenachrichtigungen](delivery-reminders.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

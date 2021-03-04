@@ -63,3 +63,6 @@ Damit die Anwendung Einkaufs- und Verkaufsrechnungen automatisch gerundet werden
 ## <a name="see-also"></a>Siehe auch  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
 [Erfassen eines Einkaufs](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

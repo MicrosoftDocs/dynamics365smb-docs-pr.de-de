@@ -35,3 +35,6 @@ Beim Generieren von bestimmten Verkaufs- und Einkaufsberichten können Steuernum
 
 ## <a name="see-also"></a>Siehe auch  
 [Registriert einen neuen Kreditor](../../purchasing-how-register-new-vendors.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

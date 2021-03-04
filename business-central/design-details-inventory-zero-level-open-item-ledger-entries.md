@@ -151,3 +151,6 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Artikelausgleich](design-details-item-application.md)   
 [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

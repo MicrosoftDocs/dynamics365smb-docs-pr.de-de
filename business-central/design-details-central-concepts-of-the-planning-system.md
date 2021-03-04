@@ -295,3 +295,6 @@ Damit ist die Vorstellung der zentralen Konzept in Bezug auf die Beschaffungspla
 [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)   
 [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

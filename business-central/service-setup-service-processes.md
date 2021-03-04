@@ -37,3 +37,6 @@ Es folgen einige Beispiele für Einstellungen, die Sie bei Servicevorgängen anw
 [Einrichten zusätzlicher Kosten für Services](service-how-setup-service-costs-pricing.md)  
 [Lösungsanleitung Einrichtung](service-how-setup-troubleshooting.md)  
 [Service](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

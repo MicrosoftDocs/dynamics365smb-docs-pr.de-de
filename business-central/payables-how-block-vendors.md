@@ -37,3 +37,6 @@ Die drei Optionen zum Sperren von Kreditoren werden in den folgenden Tabelle bes
 [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
 [Zahlungen vornehmen](payables-make-payments.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

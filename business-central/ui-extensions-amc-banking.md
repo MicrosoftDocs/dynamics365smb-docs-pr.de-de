@@ -87,3 +87,6 @@ Die Verwendung dieser Erweiterung ist nur eine Frage des Exports von Daten auf d
 ## <a name="see-also"></a>Siehe auch
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen nutzen](ui-extensions.md)  
 [Erste Schritte](product-get-started.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Leuchtbirne, das das Symbo
 [Abschlussjahre und -perioden](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

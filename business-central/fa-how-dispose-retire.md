@@ -59,3 +59,6 @@ Die Seite **Sachposten** wird geöffnet, in dem Sie die Posten sehen können, di
 [Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Posten finden](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

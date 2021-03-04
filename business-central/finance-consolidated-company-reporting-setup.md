@@ -138,3 +138,6 @@ Wenn Sie nur einen Teil des Unternehmen anlegen, können Sie einen Prozentsatz j
 [Intercompanytransaktionen verwalten](intercompany-manage.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Wenn sich die Stornierung auf eine Rechnungsteilbuchung bezieht, wird die urspr√
 [Einrichten von Verk√§ufen](sales-setup-sales.md)  
 [Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

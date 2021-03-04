@@ -46,3 +46,6 @@ Das Inforegister **Planung** auf der Artikelkarte ist Mittelpunkt der gesamten L
  [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
  [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

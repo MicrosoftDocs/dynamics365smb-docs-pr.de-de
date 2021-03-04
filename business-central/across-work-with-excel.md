@@ -62,3 +62,6 @@ Wenn Sie Änderungen am Add-In vornehmen, müssen Sie es neu laden, um die Verbi
 [Finanzauswertungen analysieren in Microsoft Excel](finance-analyze-excel.md)  
 [Arbeiten mit Business Central](ui-work-product.md)  
 [Verbesserungen der Excel-Integration in der Veröffentlichungswelle 2 von 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

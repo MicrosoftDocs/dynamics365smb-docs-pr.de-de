@@ -69,3 +69,6 @@ Nachdem Sie eine Lagerbuchungsperiode geschlossen haben, können Sie diese Perio
 [Finanzen](finance.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Arbeiten mit Financials](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

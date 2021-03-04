@@ -59,3 +59,6 @@ Sie können einen oder mehrere Datensätze von Listenseiten oder der Seite **Feh
 
 ## <a name="see-also"></a>Siehe auch  
 [Verwenden von Dynamics 365 Sales von Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

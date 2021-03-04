@@ -33,3 +33,6 @@ Nachdem Sie ein Konfigurationspaket erstellt haben, ist der nächste Schritt, da
 ## <a name="see-also"></a>Siehe auch  
 [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

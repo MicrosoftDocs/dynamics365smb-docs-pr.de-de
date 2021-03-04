@@ -51,3 +51,6 @@ Kampagnen werden vom Verkäufer geleitet werden, und Sie müssen Aktivitäten er
 [Verwalten von Segmenten](marketing-segments.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

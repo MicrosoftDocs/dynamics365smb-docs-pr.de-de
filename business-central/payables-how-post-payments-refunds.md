@@ -57,3 +57,6 @@ Das Buch.-Blatt ist ein Fibu Buch.-Blatt, das zum Anwenden von Zahlungen optimie
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

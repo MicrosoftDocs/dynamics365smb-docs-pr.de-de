@@ -40,3 +40,6 @@ Wenn Sie sicher sind, dass ein Workflow nicht mehr verwendet wird, können Sie i
  [Einrichten von Workflows](across-set-up-workflows.md)   
  [Verwenden von Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

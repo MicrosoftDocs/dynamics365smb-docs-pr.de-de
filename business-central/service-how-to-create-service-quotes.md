@@ -40,3 +40,5 @@ Serviceangebote können als Vorentwürfe von Serviceaufträgen betrachtet werden
 [Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Leuchtbirne, das das Symbo
 [Jahre und Perioden abschließen](year-close-years-periods.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

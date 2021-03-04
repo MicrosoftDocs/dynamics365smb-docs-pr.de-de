@@ -233,3 +233,6 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

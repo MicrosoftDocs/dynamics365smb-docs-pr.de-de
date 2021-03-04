@@ -56,3 +56,6 @@ Sie können Aktivitätenprotokollposten löschen, die storniert wurden. Um Inter
 [Kontakte verwalten](marketing-contacts.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

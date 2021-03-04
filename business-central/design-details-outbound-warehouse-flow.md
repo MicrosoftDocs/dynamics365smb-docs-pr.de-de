@@ -134,3 +134,6 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 ## <a name="see-also"></a>Siehe auch
 
 [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

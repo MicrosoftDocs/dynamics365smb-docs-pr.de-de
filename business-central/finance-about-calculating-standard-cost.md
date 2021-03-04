@@ -105,3 +105,6 @@ Die Aktualisierung oder Berechnung von festen Einstandspreisen umfasst üblicher
  [Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)   
  [Standardkosten aktualisieren](finance-how-to-update-standard-costs.md)   
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

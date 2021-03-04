@@ -107,3 +107,6 @@ Nachdem ein Serviceartikel repariert wurde, können Sie sowohl den Problemcode a
 [Einrichten der Fehlerberichte](service-how-setup-fault-reporting.md)
 [Zuordnungsstatus und Reparaturstatus](service-allocation-status-and-repair-status.md)  
 [Servicebuchung](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

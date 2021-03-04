@@ -27,3 +27,6 @@ ms.locfileid: "3931248"
 [Lieferanmahnungsbestimmungen, -stufen und -text einrichten](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
 [Kreditoren Lieferanmahnungscodes zuweisen](how-to-assign-delivery-reminder-codes-to-vendors.md)  
 [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

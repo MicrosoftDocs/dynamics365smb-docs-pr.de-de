@@ -66,3 +66,6 @@ Weitere Informationen finden Sie unter [GDPdU-Filterbeispiele](gdpdu-filter-exam
  [Wie Sie Daten für eine Digital-Überwachung exportieren](how-to-export-data-for-a-digital-audit.md)   
  [Wie Sie Daten für eine Digital-Überwachung exportieren](walkthrough-exporting-data-for-a-digital-audit.md)   
  [Lokale Funktion (Deutschland)](germany-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

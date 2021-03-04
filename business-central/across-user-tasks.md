@@ -48,3 +48,6 @@ Wenn Sie eine Massenlöschung aller oder einiger Benutzeraufgaben vornehmen möc
 
 [Nach einer Seite oder einem Bericht suchen](ui-search.md)  
 [Buchhalter-Erfahrung in [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

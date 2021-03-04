@@ -78,3 +78,6 @@ Wenn Sie keinen Beleg verwenden können, um erneut auszugleichen, zum Beispiel w
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)   
  [Designdetails: Artikelausgleich](design-details-item-application.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

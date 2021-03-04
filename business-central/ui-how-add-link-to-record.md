@@ -98,3 +98,6 @@ Der Hinweis ist jetzt dem Verkaufsauftrag beigefügt.
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eingehende Belege](across-income-documents.md)  
 [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

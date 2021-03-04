@@ -80,3 +80,6 @@ Verkaufsrechnungen werden für die Debitoren mit dem angegebenen Standard-Debito
 
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

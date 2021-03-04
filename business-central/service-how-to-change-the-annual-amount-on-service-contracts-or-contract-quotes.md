@@ -150,3 +150,6 @@ Zum Schluss werden die Vertragszeilen die folgenden Daten enthalten.
 ## <a name="see-also"></a>Siehe auch  
 [Erstellen von Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

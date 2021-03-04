@@ -58,3 +58,6 @@ Die Artikel der Debitoren, die Sie im Service, wie z.B Drucker anbieten, werden 
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Sie haben sich nun für die AMC Banking 365 Fundamentals-Erweiterung registriert
 [Einrichten von Banken](bank-setup-banking.md)  
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

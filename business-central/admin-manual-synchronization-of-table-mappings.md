@@ -85,3 +85,6 @@ Sie können die Seite **Integrationstabellenzuordnungen** verwenden, um das Sync
 ## <a name="see-also"></a>Siehe auch  
 [Synchronisieren von Business Central und Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Einrichten von Benutzerkonten für die Integration mit Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

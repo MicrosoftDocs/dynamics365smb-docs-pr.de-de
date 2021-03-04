@@ -489,3 +489,6 @@ Indem Sie Preise, Projektaufgabenzeilen und Projektplanungszeilen für die beide
  [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)   
  [Fakturieren von Projekten](projects-how-invoice-jobs.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

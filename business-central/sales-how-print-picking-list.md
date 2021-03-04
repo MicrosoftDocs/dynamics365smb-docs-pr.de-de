@@ -39,3 +39,6 @@ Sie können die Kommissionierliste auch als Dokument speichern, um sie beispiels
 [Lagerbestand](inventory-manage-inventory.md)  
 [Entnahme von Artikeln](warehouse-pick-items.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

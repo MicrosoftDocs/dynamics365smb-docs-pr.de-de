@@ -54,3 +54,6 @@ Wenn Sie im Feld **Anschluss-Segment erstellen** ein Häkchen gesetzt haben, wir
 [Kontakte verwalten](marketing-contacts.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

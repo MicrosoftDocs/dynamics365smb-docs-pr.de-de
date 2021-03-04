@@ -111,3 +111,6 @@ Die Kapazität des ausgewählten Tages hat sich nun um die aufgezeichnete Fehlze
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

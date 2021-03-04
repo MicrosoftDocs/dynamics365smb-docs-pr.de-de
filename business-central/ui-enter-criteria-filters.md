@@ -307,3 +307,6 @@ Verwenden Sie `%myvendors` im Feld Kreditoren-**Nr**, um alle Datensätze für K
 [Suchen und Filtern FAQ](ui-search-filter-faq.md)  
 [Speichern und personalisieren Sie Listenansichten](ui-views.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

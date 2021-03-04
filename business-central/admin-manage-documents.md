@@ -93,3 +93,6 @@ In der folgenden Tabelle sind die Felder im Inforegister **Optionen** aufgeführ
 ## <a name="see-also"></a>Siehe auch
 
 [Verwaltung](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

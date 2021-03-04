@@ -87,3 +87,6 @@ Wenn Sie normalerweise in Einheiten kaufen und verkaufen, die von der Basiseinhe
 [Käufe verwalten](purchasing-manage-purchasing.md)  
 [Verkäufe verwalten](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

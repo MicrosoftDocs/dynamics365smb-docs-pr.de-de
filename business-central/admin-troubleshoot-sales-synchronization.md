@@ -62,3 +62,6 @@ Wenn bei Ihrer Integration ein Fehler auftritt und Sie Datensätze entkoppeln m�
 [Richten Sie eine Verbindung mit Microsoft Dataverse ein](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Datensätze manuell koppeln und synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md)  
 [Den Status einer Synchronisierung anzeigen](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Wenn Sie bei [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, kö
 
 [Das Business Central Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

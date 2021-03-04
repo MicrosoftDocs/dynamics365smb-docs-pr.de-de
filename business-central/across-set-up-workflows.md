@@ -53,3 +53,6 @@ In diesem Video wird gezeigt, wie ein Workflow eingerichtet wird, bei dem eine P
  [Workflow](across-workflow.md)   
  [Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Arbeiten mit  Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

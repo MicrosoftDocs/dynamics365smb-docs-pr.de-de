@@ -52,3 +52,6 @@ Auf der Seite **Protokollierte Segmente** können Sie ein Anschluss-Segment mit 
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

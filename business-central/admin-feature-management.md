@@ -25,3 +25,6 @@ Weitere Informationen finden Sie unter [Funktionsverwaltung](/dynamics365/busine
 ## <a name="see-also"></a>Siehe auch
 
 [Neue und geplante Funktionen](https://aka.ms/Dynamics365ReleasePlan)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

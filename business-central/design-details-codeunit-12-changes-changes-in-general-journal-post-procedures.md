@@ -191,3 +191,6 @@ Die folgenden Änderungen wurden in dieser Version von [!INCLUDE [navnow_md](inc
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Codeunit 12 Änderungen: Zuordnen der globalen Variablen für Fibu Buch.-Blatt-Beitrags-Zeile](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

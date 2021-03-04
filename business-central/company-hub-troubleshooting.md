@@ -50,3 +50,6 @@ Wenn Sie ein Unternehmen hinzugefügt haben, dieses jedoch nicht in der Liste an
 [Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten](company-hub.md)  
 [Fügen Sie Unternehmen zu Ihrem Unternehmens-Hub hinzu](company-hub-add-company.md)  
 [Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

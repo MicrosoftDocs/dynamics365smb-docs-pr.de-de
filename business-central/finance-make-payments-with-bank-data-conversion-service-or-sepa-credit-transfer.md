@@ -158,3 +158,6 @@ Wenn die elektronische Zahlung erfolgreich von der Bank verarbeitet wird, buchen
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  
 [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

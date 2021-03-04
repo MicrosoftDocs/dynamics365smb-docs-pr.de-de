@@ -40,3 +40,6 @@ Neue Wertposten werden nun erstellt, um die Neubewertungen abzubilden, die Sie g
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

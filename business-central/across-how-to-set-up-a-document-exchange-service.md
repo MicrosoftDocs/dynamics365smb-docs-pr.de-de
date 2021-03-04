@@ -43,3 +43,6 @@ Sie verwenden einen externen Anbieter zum Austausch elektronischer Belege mit Ih
 ## <a name="see-also"></a>Siehe auch  
 [Datenaustausch einrichten](across-set-up-data-exchange.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

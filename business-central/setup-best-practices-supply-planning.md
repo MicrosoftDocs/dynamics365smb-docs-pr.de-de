@@ -35,3 +35,6 @@ Die Beschaffungsplanung ist ein wichtiger Geschäftsbereich. Eingerichtet und ko
  [Designdetails: Planungsparameter](design-details-planning-parameters.md)   
  [Richten Sie komplexe Anwendungsbereiche mithilfe bewährter Methoden ein](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

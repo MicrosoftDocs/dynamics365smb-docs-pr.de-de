@@ -68,3 +68,6 @@ Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für 
 [Verkauf](sales-manage-sales.md)  
 [Kontakte einrichten](marketing-setup-contacts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

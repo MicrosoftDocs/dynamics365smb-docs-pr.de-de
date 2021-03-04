@@ -87,3 +87,6 @@ Wenn eine Verkaufschance einem Verkaufsprozess folgt, können Sie sie vorwärts 
 [Verkauf](sales-manage-sales.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

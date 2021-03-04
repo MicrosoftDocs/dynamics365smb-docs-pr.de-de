@@ -131,3 +131,6 @@ Auf der Seite **Zollpositionen** fügen Sie alle Codes hinzu, die Sie verwenden.
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzmanagement](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Der folgende Ablauf zeigt, wie solche Posten durch Ausführen von zwei korrigier
 [Einrichten der Lagerwertberechnung und der Kostenrechnung](finance-set-up-inventory-valuation-and-costing.md)  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

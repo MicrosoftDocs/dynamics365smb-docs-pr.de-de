@@ -51,3 +51,6 @@ Nachdem Sie eine MwSt.-Abrechnung eingeben haben, können Sie diese in der Vorsc
 [Meldung der Mehrwertsteuer an eine Steuerbehörde](finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 [Lokale Funktion in Business Central](about-localization.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

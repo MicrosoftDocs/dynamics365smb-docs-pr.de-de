@@ -58,3 +58,6 @@ Weitere Informationen finden Sie unter [Verwenden von OCR, um PDF und Bilddateie
 [Eingehende Belege](across-income-documents.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

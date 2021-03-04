@@ -200,3 +200,6 @@ Sie können Serviceverträge und Vertragsangebote jederzeit archivieren, um eine
 [Serviceverträge einzurichten:](service-how-setup-service-contracts.md)  
 [Service](service-service.md)  
 [Konvertieren von Serviceverträgen, die MwSt.-Beträge enthalten](service-how-to-convert-service-contracts.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

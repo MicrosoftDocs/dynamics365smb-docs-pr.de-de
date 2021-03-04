@@ -35,3 +35,6 @@ Gelegentlich muss einem Debitor ein Leihgerät zur Verfügung gestellt werden, w
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Bereitstellen von Service](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

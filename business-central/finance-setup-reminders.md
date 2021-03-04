@@ -103,3 +103,6 @@ Geben Sie nach der Einrichtung der Mahnmethoden (mit zusätzlichen Stufen und Te
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Zinskonditionen einrichten](finance-setup-finance-charges.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

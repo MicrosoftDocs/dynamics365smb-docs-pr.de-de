@@ -52,3 +52,6 @@ Wiederholen Sie diese Schritte für jede Reparaturstatusoption, die Sie erstelle
 
 [Serviceauftragsstatus und Reparaturstatus](service-service-order-status-and-repair-status.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

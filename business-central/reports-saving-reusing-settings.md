@@ -56,3 +56,6 @@ Von der Seite **Berichts-Einstellungen** können Sie:
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

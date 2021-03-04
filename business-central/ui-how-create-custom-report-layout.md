@@ -119,3 +119,6 @@ Datenfelder aus einem Berichtsdataset hinzuzufügen, ist jedoch komplizierter un
 [Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

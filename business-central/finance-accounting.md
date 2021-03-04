@@ -109,3 +109,6 @@ Wenn Sie mehreren Unternehmen Zugriff gewähren möchten, müssen Sie sich bei j
 [Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten](company-hub.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Einrichten der Cashflowanalyse](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

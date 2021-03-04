@@ -79,3 +79,6 @@ Um mit den Finanzbegriffen Einkauf und von Verkauf zu entsprechen, verwendet [!I
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Logistik](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

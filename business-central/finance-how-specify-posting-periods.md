@@ -34,3 +34,6 @@ Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Finanzbuchha
 [Finanzen](finance.md)  
 [Abschließen von Periodenabschlüssen](year-how-complete-period-end-processes.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

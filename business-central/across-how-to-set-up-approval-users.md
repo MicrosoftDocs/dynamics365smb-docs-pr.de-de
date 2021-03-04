@@ -63,3 +63,6 @@ Bevor Sie Workflows erstellen können, die Genehmigungsschritte betreffen, müss
 [Einrichten von Workflows](across-set-up-workflows.md)   
 [Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsgenehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

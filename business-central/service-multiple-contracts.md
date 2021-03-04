@@ -46,3 +46,6 @@ Sie können manuell einen Serviceauftrag für einen Serviceartikel, der in mehre
 ## <a name="see-also"></a>Siehe auch  
 [Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)  
 [Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

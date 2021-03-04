@@ -56,3 +56,6 @@ Weitere Informationen finden Sie unter [Designdetails: Ausgleich von Bedarf und 
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
 [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

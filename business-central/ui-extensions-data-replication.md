@@ -45,3 +45,6 @@ Wenn Sie Dynamics SL verwenden, holen Sie sich die Erweiterung **Intelligente Cl
 
 [Intelligente Einblicke](about-intelligent-cloud.md)  
 [Intelligente Cloud Base-Erweiterung](ui-extensions-intelligent-cloud.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

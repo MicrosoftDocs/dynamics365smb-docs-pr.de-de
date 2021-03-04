@@ -83,3 +83,6 @@ Der folgende Ablauf bezieht sich auf die Aktualisierung einer Analyseansicht  au
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Arbeiten mit Dimensionen](finance-dimensions.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

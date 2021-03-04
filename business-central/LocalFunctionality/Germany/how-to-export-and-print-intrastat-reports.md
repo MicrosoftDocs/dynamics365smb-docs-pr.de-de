@@ -63,3 +63,6 @@ Die Intrastat-Informationen werden exportiert, und Sie können entweder die Date
 ## <a name="see-also"></a>Siehe auch  
  [MwSt.-Abrechnung](vat-reporting.md)  
  [Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

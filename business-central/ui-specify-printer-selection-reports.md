@@ -91,3 +91,6 @@ Sie oder der Administrator können auch die Seite **Druckerauswahl** verwenden, 
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ausführen von Stapelverarbeitungen](ui-how-run-batch-jobs.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

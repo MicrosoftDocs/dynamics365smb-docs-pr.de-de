@@ -61,3 +61,6 @@ Ganz einfach - einen Bildlauf zum unteren Rand der Browserseite ausführen und d
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Erste Schritte](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

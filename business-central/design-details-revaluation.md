@@ -182,3 +182,6 @@ Das Produktionslager kann neubewertet werden, solange das Neubewertungsdatum nic
  [Designdetails: Lagerkosten Bewerten](design-details-inventory-valuation.md) [Verwalten der Lagerkosten](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

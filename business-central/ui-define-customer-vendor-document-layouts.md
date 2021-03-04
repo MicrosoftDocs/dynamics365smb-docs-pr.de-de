@@ -62,3 +62,6 @@ Die E-Mail-Adresse des Kontakts wird nun in die Beleglayoutzeile eingefügt, sod
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
 [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

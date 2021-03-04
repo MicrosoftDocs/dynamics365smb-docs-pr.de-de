@@ -62,3 +62,6 @@ Wenn das Alter der Kontaktperson tiefer ist als das Alter der Volljährigkeit en
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)  
 [Änderungen protokollieren](across-log-changes.md)  
 [Anträge betroffener Personen um das DSGVO](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Die folgende Tabelle enthält eine vereinfachte Übersicht der XML eines benutze
   
 ## <a name="see-also"></a>Siehe auch  
  [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

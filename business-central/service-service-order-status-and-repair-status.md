@@ -94,3 +94,6 @@ Wenn ein Serviceartikel z. B. den Status **Anfang** hat (verbunden mit dem Servi
 
 [Einrichten von Status für Serviceaufträge und Reparaturen](service-order-repair-status.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

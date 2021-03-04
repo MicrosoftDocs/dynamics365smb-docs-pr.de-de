@@ -44,3 +44,6 @@ Ihre Hauptaktionen auf der Seite ist es das Kontrollkästchen **Getätigte Zahlu
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Finanzen](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -267,3 +267,6 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)   
  [Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung](walkthrough-planning-supplies-manually.md)   
  [Designdetails: Vorratsplanung](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

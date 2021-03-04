@@ -263,3 +263,6 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um Änder
 [Verwaltung](admin-setup-and-administration.md)  
 [Hinzufügen von Benutzern zu Microsoft 365 für Unternehmen](https://aka.ms/CreateOffice365Users)  
 [Sicherheit und Schutz in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in der Hilfe für Entwickler und IT-Profis
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Falls es keine Daten zum Exportieren gibt, erstellt [!INCLUDE[prod_short](../../
 
 ## <a name="see-also"></a>Siehe auch  
 [Prozess für Digital-Überwachung (GoBD/GDPdU)](process-for-digital-audits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Sie können keine Rechnung ohne Debitorennummer erstellen. Dies trifft auch zu, 
 [Neue Debitoren registrieren](sales-how-register-new-customers.md)    
 [Finanzen](finance.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

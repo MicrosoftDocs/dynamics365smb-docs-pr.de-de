@@ -28,3 +28,5 @@ In [!INCLUDE[prod_short](includes/prod_short.md)]-Buchungsschnittstellenstruktur
   
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

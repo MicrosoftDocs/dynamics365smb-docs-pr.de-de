@@ -34,3 +34,6 @@ Wenn Sie die Erweiterung in Ihrem [!INCLUDE [prod_short](includes/prod_short.md)
 [Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten](company-hub.md)  
 [Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)  
 [Finanzen](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -163,3 +163,6 @@ Die Felder unter **Erweitert** legen Einschränkungen für den generierten Beric
 [Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern](ui-enter-date-ranges.md)  
 [Verwalten von Berichts- und Beleglayouts](ui-manage-report-layouts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

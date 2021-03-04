@@ -68,3 +68,6 @@ Zum Beispiel helfen Ihnen die Seiten **Berichtsauswahl – Verkauf** und **Beric
 [Verwaltung von Berichts- und Dokumentlayouts](ui-manage-report-layouts.md)  
 [Beleglayouts für Debitoren und Kreditoren definieren](ui-define-customer-vendor-document-layouts.md)  
 [Drucker einrichten](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

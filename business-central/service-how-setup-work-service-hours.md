@@ -58,3 +58,6 @@ Wenn Sie keine vertragsspezifischen Servicezeiten in Verträgen einrichten, werd
 [Zuordnungsstatus und Reparaturstatus](service-allocation-status-and-repair-status.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Serviceauftrags- und Reparaturstatus](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

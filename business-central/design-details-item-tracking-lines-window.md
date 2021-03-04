@@ -32,3 +32,5 @@ Die Regeln für die Eingabe von Daten auf der Seite **Artikelnachverfolgungszeil
   
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Artikelnachverfolgung](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

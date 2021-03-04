@@ -66,3 +66,6 @@ Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie auf den Seite
  [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)   
  [Einrichten von Workflows](across-set-up-workflows.md)   
  [Verwenden von Workflows](across-use-workflows.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

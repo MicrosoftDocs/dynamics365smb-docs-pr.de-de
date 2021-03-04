@@ -57,3 +57,6 @@ Alternativ können Sie Zahlungspositionen mithilfe des Fälligkeitsdatums manuel
 [Zahlungen vornehmen](payables-make-payments.md)  
 [Arbeiten mit allgemeinen Buch.-Blättern](ui-work-general-journals.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

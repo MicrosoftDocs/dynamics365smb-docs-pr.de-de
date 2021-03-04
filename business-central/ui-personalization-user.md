@@ -146,3 +146,6 @@ Um die Personalisierung besser zu verstehen, finden Sie hier einige Hinweise.
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Ändern, welche Merkmale angezeigt werden](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

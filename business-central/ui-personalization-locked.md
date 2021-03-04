@@ -59,3 +59,6 @@ Der Grund dafür ist, dass das Rollencenter oder die Rolle, die derzeit mit dem 
 [Seiten für Profile anpassen](ui-personalization-manage.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Ändern, welche Funktionen angezeigt werden](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

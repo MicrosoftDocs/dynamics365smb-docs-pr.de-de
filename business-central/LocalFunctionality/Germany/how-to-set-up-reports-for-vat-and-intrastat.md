@@ -62,3 +62,6 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)] können Sie festlegen, w
 ## <a name="see-also"></a>Siehe auch  
 [Exportieren und Drucken von Intrastat-Berichten](how-to-export-and-print-intrastat-reports.md)  
 [MwSt.-Abrechnung](vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

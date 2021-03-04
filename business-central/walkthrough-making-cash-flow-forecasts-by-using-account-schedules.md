@@ -90,3 +90,6 @@ Ken kann das Spaltenlayout jetzt dem Kontenschemanamen zuweisen.
  [Arbeiten mit Kontenschemata](bi-how-work-account-schedule.md)   
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Um die üblichsten Reparaturmethoden für Fehler an Serviceartikeln anzeigen zu 
 ## <a name="see-also"></a>Siehe auch
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Service](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

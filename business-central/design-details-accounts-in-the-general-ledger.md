@@ -100,3 +100,6 @@ Die nachstehende Tabelle zeigt, wie die in die Finanzbuchhaltung zu buchenden Be
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
  [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

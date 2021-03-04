@@ -24,3 +24,6 @@ Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konze
 [Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)  
 [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)  
 [Designdetails: Tabellenstruktur](design-details-table-structure.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

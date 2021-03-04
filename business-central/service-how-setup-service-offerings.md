@@ -29,3 +29,5 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
   
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten der Serviceverwaltung](service-setup-service.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

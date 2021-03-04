@@ -84,3 +84,6 @@ Wenn Sie gebuchte Schecks überprüfen möchten, zum Beispiel, um Mehrfachverbin
 [Einrichten von Banken](bank-setup-banking.md)  
 [Um eine Positive Pay-Datei zu exportieren](finance-how-positive-pay.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

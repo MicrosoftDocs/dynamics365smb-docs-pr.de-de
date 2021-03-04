@@ -41,3 +41,6 @@ Nachfolgend wird beschrieben, wie das Buchen von Bestellungen bis zu deren Geneh
 ## <a name="see-also"></a>Siehe auch  
 [Erstellen eines Workflows](across-how-to-create-workflows.md)   
 [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

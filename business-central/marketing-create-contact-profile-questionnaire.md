@@ -158,3 +158,6 @@ Wenn Sie einem Kontakt die Profilbefragung mit dieser Frage zuordnen, wird die A
 
 ## <a name="see-also"></a>Siehe auch
 [Kontakte erstellen](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

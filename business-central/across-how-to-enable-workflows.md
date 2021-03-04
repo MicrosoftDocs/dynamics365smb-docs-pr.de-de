@@ -35,3 +35,6 @@ Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu st
  [Verwenden von Workflows](across-use-workflows.md)   
  [Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsgenehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

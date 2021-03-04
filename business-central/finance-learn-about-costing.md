@@ -41,3 +41,6 @@ Die Verwaltung der Lagerkostenberechnung dient zum Erfassen und Melden der Betri
 ## <a name="see-also"></a>Siehe auch
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

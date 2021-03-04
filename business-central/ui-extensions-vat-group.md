@@ -115,3 +115,6 @@ Wenn die Mehrwertsteuererklärung des Vertreters der Mehrwertsteuergruppe den Be
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 [Mehrwertsteuer einrichten](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

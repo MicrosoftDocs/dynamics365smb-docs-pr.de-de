@@ -53,3 +53,6 @@ Das Fenster **Zugeordnete Zahlung** wird geschlossen und auf der Seite **Zahlung
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

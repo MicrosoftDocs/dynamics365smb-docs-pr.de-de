@@ -27,3 +27,6 @@ Weitere Informationen finden Sie unter [Verschlüsseln von Daten in Dynamics 365
 
 ## <a name="see-also"></a>Siehe auch  
 [Verwaltung](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

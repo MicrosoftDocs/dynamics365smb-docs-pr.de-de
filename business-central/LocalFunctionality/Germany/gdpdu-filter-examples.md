@@ -88,3 +88,6 @@ Exportergebnisse:
 ## <a name="see-also"></a>Siehe auch
 
 [Daten für eine digitale Prüfung (GoBD/GDPdU) einrichten](how-to-set-up-data-exports-for-digital-audits.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

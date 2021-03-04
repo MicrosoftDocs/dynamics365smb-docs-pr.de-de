@@ -40,3 +40,6 @@ Die drei Optionen zum Sperren von Debitoren werden in den folgenden Tabelle besc
 [Registriert einen neuen Debitor.](sales-how-register-new-customers.md)  
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

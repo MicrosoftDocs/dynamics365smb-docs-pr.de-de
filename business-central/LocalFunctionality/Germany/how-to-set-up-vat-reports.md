@@ -40,3 +40,6 @@ Informationen aus verschiedenen Rechnungstypen werden verwendet, um Daten in den
 ## <a name="see-also"></a>Siehe auch  
  [MwSt.-Abrechnung](vat-reporting.md)   
  [Erstellen von MwsT-Berichten.](how-to-create-vat-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

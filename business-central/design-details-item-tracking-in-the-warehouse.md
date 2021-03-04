@@ -31,3 +31,6 @@ Das Reservierungssystem berücksichtigt jedoch Lageraktivitäten, wenn es die Ve
 [Designdetails: Integration mit dem Lagerbestand](design-details-integration-with-inventory.md)  
 [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)  
 [Designdetails: Artikelverfolgungsdesign](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

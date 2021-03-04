@@ -46,3 +46,6 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] hat Codeunit 12 die folgenden 
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Buchungs-Schnittstellenstruktur](design-details-posting-interface-structure.md)   
 [Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

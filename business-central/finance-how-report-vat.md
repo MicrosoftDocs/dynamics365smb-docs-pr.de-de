@@ -121,3 +121,6 @@ Die folgende Tabelle beschreibt Codeunits, die Sie für den Bericht erstellen m�
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
