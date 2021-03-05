@@ -17,7 +17,7 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 12/17/2020
 ms.locfileid: "4752725"
 ---
-# <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
+# <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vor
 
 Wenn Sie ein neues Unternehmen basierend auf einem Konfigurationspaket konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data).  
 
@@ -175,6 +175,3 @@ Nachdem Sie alle Ihre Setupinformationen untersucht und getestet haben, können 
 [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Analyse der Trace-Telemetrie für Konfigurationspakete](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
