@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cce4a885fd4b183149e2d072daf556bdbe0e5fca
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: 73b4dcdbf5e2300fe579e263a2b19f533b0f0be4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068408"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385099"
 ---
 # <a name="local-functionality-in-prod_long"></a>Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]
 

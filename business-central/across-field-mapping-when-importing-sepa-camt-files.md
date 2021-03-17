@@ -3,19 +3,19 @@ title: Feld-Zuordnung beim Importieren von SEPA CAMT-Dateien | Microsoft Docs
 description: In den europäischen Märkten können Sie Bankkontoauszugsdateien in den regionalen SEPA-Standards (einzelner Eurozahlungs-Bereich) importieren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 57488adb784736eaf404cf57f1563f08c517ed6c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9afa2f29124a62a51da6a1de96765d6bb67c4bd6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753342"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384774"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Feld-Zuordnung beim Importieren von SEPA CAMT-Dateien
 [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt den regionalen SEPA-Standard (Single Euro Payments Area) für das Importieren von SEPA-Bankkontoauszügen (CAMT-Format). Weitere Informationen finden Sie [Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md).  

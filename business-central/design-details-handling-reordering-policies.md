@@ -3,19 +3,19 @@ title: Designdetails - Abwicklung on Wiederbeschaffungsrichtlinien | Microsoft D
 description: Übersicht über Aufgaben für das Definieren einer Wiederbestellungsrichtlinie in die Beschaffungsplanung.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbe63d653120eb9e6450af401558414cf2057b1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa9563c503fac844abb67d02934e0a0a666deeab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922242"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390049"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Designdetails: Umgang mit Wiederbeschaffungsrichtlinien
 Damit ein Artikel an der Beschaffungsplanung teilnehmen kann, muss eine Wiederbeschaffungsrichtlinie festgelegt werden. Die folgenden vier Wiederbeschaffungsrichtlinien sind verfügbar:  
@@ -83,7 +83,7 @@ Nachfolgend wird eine graphische Illustration dieses Prinzips gezeigt:
 
 7. Das System führt eine abschließende Prüfung durch: Gibt es eine Minderungserinnerung? Ja, es gibt eine am Datum **Da**  
 8. Die Anwendung fügt die Minderungserinnerung -3 in der Ebene des voraussichtlichen Lagerbestands hinzu, entweder A: +4 -3 = 1 oder B: +6 -3 = +3.  
-9. Im Falle von A erstellt das System eine vorausplanende Bestellung ab Datum **Da** .  
+9. Im Falle von A erstellt das System eine vorausplanende Bestellung ab Datum **Da**.  
 
      Im Falle von B wird der Minimalbestand erreicht, und es wird ein neuer Auftrag erstellt.
 
@@ -196,13 +196,13 @@ Der Minimalbestand drückt den voraussichtlichen Bedarf während der Beschaffung
  ![Notfallplanungsvorschlag zur Vermeidung von negativem Lagerbestand](media/nav_app_supply_planning_2_negative_inventory.png "Notfallplanungsvorschlag zur Vermeidung von negativem Lagerbestand")  
 
 1.  Vorrat **A** anfänglicher voraussichtlicher Lagerbestand, liegt unter Minimalbestand.  
-2.  Ein neuer voraus geplanter Vorrat wurde erstellt ( **C** ).  
+2.  Ein neuer voraus geplanter Vorrat wurde erstellt (**C**).  
 
      (Menge = Maximalbestand - Voraussichtlicher Lagerbestand)  
 3.  Vorrat **A** wird durch Bedarf **B** geschlossen, der nicht vollständig abgedeckt wird.  
 
      (Bedarf **B** könnte versuchen, Zubehör C einzuplanen, dies erfolgt jedoch nicht aufgrund des Zeitrahmenkonzepts.)  
-4.  Neuer Vorrat ( **D** ) wird erstellt, um die Restmenge auf Anfordung **B** zu decken.  
+4.  Neuer Vorrat (**D**) wird erstellt, um die Restmenge auf Anfordung **B** zu decken.  
 5.  Bedarf **B** ist geschlossen (eine Erinnerung für den voraussichtlichen Lagerbestand wird erstellt).  
 6.  Das neue Vorrat **D** wird geschlossen.  
 7.  Voraussichtlicher Lagerbestand wird geprüft; Minimalbestand wurde nicht überschritten.  

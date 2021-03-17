@@ -3,16 +3,16 @@ title: Einrichten von Vorauszahlungen | Microsoft Docs
 description: Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und auf einen Vorauszahlungsauftrag (Einkauf oder Verkauf) gebucht werden. Möglicherweise bestehen Sie auf einer Anzahlung, bevor Sie Artikel nach Maß fertigen, oder Sie bestehen auf einer Anzahlung, bevor die Artikel an den Debitor geliefert werden. Mithilfe der Vorauszahlungsfunktion können Sie Anzahlungen von Debitoren fakturieren und einfordern oder Anzahlungen an Kreditoren leisten. Somit kann sichergestellt werden, dass alle Zahlungen mit einer Rechnung ausgeglichen werden.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: prepayment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34e5d1e0f424097de259d01e438158f6a92390ae
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5704444994ba8cdbd6ac4e9d562c781cd4f97d4c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750430"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391474"
 ---
 # <a name="set-up-prepayments"></a>Vorauszahlungen einrichten
 Wenn Sie von Ihren Debitoren erwarten, dass diese vor der Lieferung eines Auftrags eine Vorauszahlung leisten oder wenn der Kreditor von Ihnen eine Vorauszahlung vor Lieferung erwartet, können Sie die Funktion "Vorauszahlung" verwenden. Mithilfe der Vorauszahlungsfunktion können Sie Anzahlungen von Debitoren fakturieren und einfordern oder Anzahlungen an Kreditoren leisten, und um sicherzustellen, dass alle Teilzahlungen für eine Rechnung gebucht werden. Weitere Informationen finden Sie unter [Vorauszahlungsrechnungen erstellen](finance-how-to-create-prepayment-invoices.md).

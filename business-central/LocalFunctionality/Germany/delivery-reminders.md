@@ -2,17 +2,17 @@
 title: Lieferanmahnungen [DE]
 description: Lieferanmahnungen werden verwendet, um überfällige Kreditorenlieferungen zu verfolgen und um Kreditoren an überfällige Lieferungen in der deutschen Version zu erinnern.
 author: SorenGP
-ms.topic: article
+ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c318279e697d97d0b67d6a47ae8cca75d548acf4
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: c28e396487f2c6ca31dcc57e7221940185464644
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931260"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381866"
 ---
 # <a name="delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version
 

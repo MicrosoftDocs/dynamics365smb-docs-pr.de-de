@@ -3,19 +3,19 @@ title: Aktivieren von Workflows | Microsoft Docs
 description: Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu starten, müssen Sie den Workflow aktivieren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b04f9edd37c96efb9ee6b215d85335c743de6214
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 802cd2a07a45e459070d821e1a8aab2688d926f2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916318"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384449"
 ---
 # <a name="enable-workflows"></a>Aktivieren von Workflows
 Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu starten, müssen Sie den Workflow aktivieren.  
@@ -25,7 +25,7 @@ Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu st
 ## <a name="to-enable-a-workflow"></a>So aktivieren Sie einen Workflow  
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Workflows** ein und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie den Workflow, den Sie aktivieren möchten.  
-3.  Deaktivieren Sie auf der Seite **Workflow** das Kontrollkästchen **Aktiviert** .  
+3.  Deaktivieren Sie auf der Seite **Workflow** das Kontrollkästchen **Aktiviert**.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Erstellen eines Workflows](across-how-to-create-workflows.md)   

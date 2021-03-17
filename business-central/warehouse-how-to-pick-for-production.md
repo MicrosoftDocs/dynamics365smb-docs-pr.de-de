@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Kommissionieren für die Produktion in einer Basis-Lager
 description: Wenn für Ihren Lagerort die Bearbeitung der Kommissionierung erforderlich ist, jedoch nicht die Bearbeitung des Warenausgangs, verwenden Sie die Seite **Lagerkommissionierung**, um die Kommissionierung von Komponenten zu organisieren und zu erfassen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a4ea3530a51ff7919118f436a8060f97d4056637
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5c49a434958222bd29730de8f3736f2a182df3c5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759792"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387049"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Kommissionierung für Montage oder Produktion in Grund-Lagerkonfiguration
 Wie Sie Ihre Kommissionierungskomponenten für Produktions- oder Montageaufträge einlagern, hängt davon ab, wie Ihr Lagerort eingerichtet wurde. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).

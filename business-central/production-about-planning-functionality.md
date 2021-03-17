@@ -3,19 +3,19 @@ title: Info zu Planungsfunktionen | Microsoft Docs
 description: Das Planungssystem berücksichtigt sämtliche Bedarfs- und Vorratsdaten, saldiert die Ergebnisse und erstellt Vorschläge zum Ausgleichen des Vorrats, damit der Bedarf erfüllt werden kann.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12ab5bbc374e40d029acaec27c7eb3596fe19d1a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 35b67b7f77571b570245ebdb26c49458d3f83e39
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759467"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386874"
 ---
 # <a name="about-planning-functionality"></a>Info zu Planungsfunktionen
 

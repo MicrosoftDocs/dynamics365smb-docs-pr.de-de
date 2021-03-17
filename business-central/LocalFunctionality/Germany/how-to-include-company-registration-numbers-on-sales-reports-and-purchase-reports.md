@@ -3,19 +3,19 @@ title: Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsbe
 description: Beim Generieren von bestimmten Verkaufs- und Einkaufsberichten können Steuernummern in den Berichten gedruckt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9491763445f09a971ae3c9b525bf865bd64fbf37
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: e31d8cb168af447f520cb1af2a6f1bcf9f5d2465
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013864"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381842"
 ---
 # <a name="include-company-registration-numbers-on-sales-reports-and-purchase-reports"></a>Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte
 Beim Generieren von bestimmten Verkaufs- und Einkaufsberichten können Steuernummern in den Berichten gedruckt werden.  

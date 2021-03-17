@@ -3,19 +3,19 @@ title: 'Designdetails: Ausgleich von Bedarf und Vorrat | Microsoft Docs'
 description: Um zu erkennen, wie das Planungssystem funktioniert, ist es erforderlich, die priorisierten Ziele des Planungssystems zu kennen. Die wichtigsten davon sind, sicherzustellen, dass jeglicher Bedarf durch genügenden Vorrat befriedigt wird und jeder Vorrat einem Zweck dient.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30c78ba04d58a2e2c2227ec638724c85cb1236c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f8f09c843397c7b3fa0a24bc90f5799a157fa883
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917551"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388724"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetails: Ausgleich von Bedarf und Vorrat
 Um zu erkennen wie das Planungssystem funktioniert, ist es notwendig, die priorisierten Ziele des Planungssystems zu kennen, von denen die wichtigsten sind, Folgendes sicherzustellen:  

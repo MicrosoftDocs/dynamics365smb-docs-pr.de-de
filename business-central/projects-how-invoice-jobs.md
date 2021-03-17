@@ -3,19 +3,19 @@ title: Erstellen Sie eine Projekt-Verkaufsrechnung, um ein Projekt zu fakturiere
 description: Beschreibt, wie Debitoren für Jobausgaben als Jobfortschritt Rechnung gestellt wird.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 368b0b1edf1105045a365d8d5ac523c88955ad8a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 870151e5071ac82bbf913ee83ed567f29937c59f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758742"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376512"
 ---
 # <a name="invoice-jobs"></a>Fakturieren von Projekten
 Im Laufe des Projekts können Projektkosten wie Ressourcenverbrauch, Material oder projektbezogene Einkäufe anfallen. Diese Transaktionen werden im weiteren Verlauf des Projekts auf das Projekt Buch.-Blatt gebucht. Dabei ist es wichtig, dass alle Kosten im Projekt Buch.-Blatt erfasst werden, bevor die Rechnung an den Debitor erstellt wird.

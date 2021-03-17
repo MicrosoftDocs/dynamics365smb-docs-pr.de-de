@@ -3,19 +3,19 @@ title: Importieren der Gehalts-Daten mithilfe der Ceridian-Gehaltsabrechnungserw
 description: Mit der Ceridian-Gehaltsabrechnungserweiterung können Sie die Importgehaltsabrechnungstransaktionen Services Ceridian HR/Payroll (USA) und Ceridian PowerPay (Kanada) importieren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 717c8937ea4c057b51acb3c346d950d6b7c0a43e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e85defd6570795fb5e0573af44d43c6a41f02c1d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757317"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377398"
 ---
 # <a name="the-ceridian-payroll-extension"></a>Die Ceridian-Gehaltsabrechnungserweiterung
 

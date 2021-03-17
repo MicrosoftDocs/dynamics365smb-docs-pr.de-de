@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5388ec2846a7560a6aa09db8e584702180ad247c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: acdff4ac5879ee3b9c4237d4bcf6e2d30af72dff
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380506"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Budgets für Anlagen verwalten
 Sie können budgetierte Anlagen einrichten. Dadurch haben Sie die Möglichkeit, geplante Anschaffungen und Verkäufe in Berichten zu berücksichtigen.  

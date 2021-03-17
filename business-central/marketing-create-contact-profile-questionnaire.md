@@ -3,19 +3,19 @@ title: Verwenden Sie Profile, um Kontakte zu klassifizieren
 description: Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2020
-ms.openlocfilehash: 65c27bee86d273c467709f1e238b996829d73f37
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d2bb26b3320375f72310278946a69a011111fbd4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755442"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388849"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren
 Sie können Profilbefragungen einrichten, die Sie beim Eingeben der Informationen über die Profile Ihrer Kontakte verwenden möchten. In jedem Fragebogen können Sie die unterschiedlichen Fragen einrichten, die Sie Ihren Kontakten stellen möchten.  

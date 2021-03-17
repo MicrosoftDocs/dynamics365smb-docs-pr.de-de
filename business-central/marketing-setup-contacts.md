@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 868b8afe7fb9b36b9fc55930fa702bd181e395f2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1049bef967620571be20d9dc97864c66ee8e4074
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746016"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381756"
 ---
 # <a name="set-up-contacts"></a>Kontakte einrichten
 Beim Erstellen von Kontakten können Sie spezifische Informationen wie die Branche, der der Kontakt angehört, oder die Geschäftsbeziehung, die mit den Kontakten besteht, eingeben.

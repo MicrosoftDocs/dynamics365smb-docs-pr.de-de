@@ -3,16 +3,16 @@ title: FAQ zur Nutzung von Business Central
 description: Beantwortet allgemeine Fragen darüber, wie Sie sich für Business Central registrieren oder es kaufen, wie Sie eine Testversion oder Support erhalten, eine Testversion verlängern, ein Abonnement kündigen sowie Schulungen und anderweitige Unterstützung erhalten.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e674aed9dd6f2e3fade52675f77113ac4ee42a0b
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014025"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498562"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Häufig gestellte Fragen zur Verwendung von Business Central
 
@@ -40,7 +40,9 @@ Schließlich können Sie Ihren [!INCLUDE[prod_short](includes/prod_short.md)] Wi
 ## <a name="why-cant-i-find-that-capability-in-my-prod_short"></a>Warum finde ich diese Funktion nicht in meinem [!INCLUDE[prod_short](includes/prod_short.md)]?
 Haben Sie vor kurzem über eine neue Funktion im Veröffentlichungsplan in unserem Blog gelesen? In diesem Fall wurde Ihr [!INCLUDE[prod_short](includes/prod_short.md)] möglicherweise noch nicht auf die neueste Version aktualisiert. Sie können überprüfen, auf welcher Version Ihre [!INCLUDE[prod_short](includes/prod_short.md)] basiert auf der Seite [Hilfe und Unterstützung](product-help-and-support.md).  
 
-Also wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt es eine Verzögerung zwischen der angekündigten Erweiterung und ihrer Verfügbarkeit in AppSource.  
+Dies gilt für [!INCLUDE [prod_short](includes/prod_short.md)] für online und on-premises.  
+
+Also wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt es eine Verzögerung zwischen der angekündigten Erweiterung und ihrer Verfügbarkeit in AppSource. Dies gilt nur für [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Gibt es Unterschiede zwischen einer lokalen Bereitstellung und der Cloud-Version von Business Central?
 Ja. Einige Cloud-basierte Funktionen können in bestimmten Fällen lokal ausgeführt werden, andere werden überhaupt nicht unterstützt. Weitere Informationen finden Sie unter [Funktionen, die in lokalen Bereitstellungen von Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) nicht implementiert sind.
@@ -65,8 +67,9 @@ Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf
 
 Es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[prod_short](includes/prod_short.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.
 
-## <a name="what-email-address-can-i-use-with-prod_short"></a><a name="email"></a>Welche E-Mail-Adresse kann ich mit [!INCLUDE[prod_short](includes/prod_short.md)] verwenden?
-[!INCLUDE[prod_short](includes/prod_short.md)] erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schließt outlook.com, hotmail.com, gmail.com und andere ein.  
+## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Welche E-Mail-Adresse kann ich mit [!INCLUDE[prod_short](includes/prod_short.md)] online verwenden?
+
+[!INCLUDE[prod_short](includes/prod_short.md)] online erfordert eine Arbeits- oder Schul-E-Mail-Adresse, um sich anzumelden. [!INCLUDE[prod_short](includes/prod_short.md)] online unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endverbraucher oder Telekommunikationsanbietern bereitgestellt werden. Dieses schließt outlook.com, hotmail.com, gmail.com und andere ein.  
 
 Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse anzumelden, erhalten Sie eine Nachricht, in der Sie aufgefordert werden, eine Arbeits- oder Schul-E-Mail-Adresse zu verwenden. Weitere Informationen finden Sie unter [Problembehandlung zur Self-Service-Registrierung](ui-troubleshoot-self-signup.md).  
 
@@ -147,6 +150,5 @@ Die ersten Releases von [!INCLUDE[prod_short](includes/prod_short.md)] lokal umf
 [FAQ zu Entwickler- und ITPro-Umgebungen](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,18 +3,18 @@ title: Finanzbuchhaltungs-Anlagenbuch einrichten| Microsoft Docs
 description: Bevor Sie den Bereich "Anlagenbuchhaltung" verwenden können, müssen Sie die Sachkonten, die Buch.-Blattvorlagen und die Buch.-Blätter und Klassencodes einrichten, die für die Buchung verwendet werden.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9dabf51c3961690b9faa19ee58a809013427ad47
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 62eeab6d03f0fde0b1f55f414d48c2d3cd3f573c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749244"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380202"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Allgemeine Anlagen-Informationen einrichten
 Bevor Sie Anlagen verwalten können, müssen Sie Standardsachkonten, Verteilungsschlüssel, Buch.-Blattvorlagen und -namen für Anlagenbuchungen und -umbuchungen einrichten, und Sie können Anlagen in Klassen, wie beispielsweise materiell und immateriell, klassifizieren.

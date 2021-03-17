@@ -3,25 +3,25 @@ title: 'Designdetails: Integration mit dem Lagerbestand | Microsoft Docs'
 description: Der Logistik-Anwendungsbereich und der Lager-Anwendungsbereich interagieren miteinander im physischen Bestand und in der Bestands- und Lageranpassung.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7e1b7a922109155471c212d688ce3ab468977deb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 72be8f95a77052c00e127913de67d6b1f3397852
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922117"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389999"
 ---
 # <a name="design-details-integration-with-inventory"></a>Designdetails: Integration mit dem Lagerbestand
 Der Logistik-Anwendungsbereich und der Lager-Anwendungsbereich interagieren miteinander im physischen Bestand und in der Bestands- und Lageranpassung.  
   
 ## <a name="physical-inventory"></a>Inventur  
- Die **Logistik-Inventur-Buch.-Blatt** -Seite wird mit der **Inventur Buch.-Blatt** -Seite für alle erweiterten Lagerorte verwendet. Der Bestand auf Lagerplatzebene wird berechnet, und eine gedruckte Liste wird für den Lagermitarbeiter bereitgestellt. Die Liste zeigt, welche Artikel an welchen Lagerplätzen gezählt werden müssen.  
+ Die **Logistik-Inventur-Buch.-Blatt**-Seite wird mit der **Inventur Buch.-Blatt**-Seite für alle erweiterten Lagerorte verwendet. Der Bestand auf Lagerplatzebene wird berechnet, und eine gedruckte Liste wird für den Lagermitarbeiter bereitgestellt. Die Liste zeigt, welche Artikel an welchen Lagerplätzen gezählt werden müssen.  
   
  Der Lagermitarbeiter gibt die gezählte Menge auf der **Logistik-Inventur-Buch.-Blatt** Seite ein und bucht das Buch.-Blatt.  
   
@@ -34,7 +34,7 @@ Der Logistik-Anwendungsbereich und der Lager-Anwendungsbereich interagieren mite
  Wenn Sie das Inventur Buch.-Blatt buchen, werden der Lagerbestand und der Ausgleichslagerplatz aktualisiert.  
   
 ### <a name="warehouse-adjustments-to-the-item-ledger"></a>Lagerplatz-Ausgleich mit dem Artikelposten  
- Sie verwenden die Seite **Artikel Buch.-Blatt** und die Funktion **Ausgleich berechnen** , um den Lagerbestand im Artikelposten in Übereinstimmung mit einem Ausgleich anzupassen, der für die Artikelmenge in einem Lagerplatz vorgenommen wurde. Um eine Verbindung zwischen den Lagerbestand und der Logistik zu erstellen, müssen Sie einen Vorgabe-Ausgleichslagerplatz pro Lagerort festlegen.  
+ Sie verwenden die Seite **Artikel Buch.-Blatt** und die Funktion **Ausgleich berechnen**, um den Lagerbestand im Artikelposten in Übereinstimmung mit einem Ausgleich anzupassen, der für die Artikelmenge in einem Lagerplatz vorgenommen wurde. Um eine Verbindung zwischen den Lagerbestand und der Logistik zu erstellen, müssen Sie einen Vorgabe-Ausgleichslagerplatz pro Lagerort festlegen.  
   
  Der Standard-Regulierungslagerplatz registriert Artikel im Lager, wenn Sie einen Zugang für den Bestand buchen. Wenn Sie jedoch einen Lagerabgang buchen, wird die Menge am Lagerplatz ebenfalls verringert. In beiden Fällen werden Artikelposten und Lagerposten erstellt.  
   

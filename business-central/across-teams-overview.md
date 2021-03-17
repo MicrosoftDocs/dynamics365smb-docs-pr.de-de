@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 01/08/2021
 ms.author: jswymer
-ms.openlocfilehash: b3aea433c732ad10d0ca3c4250cce920afd1bfc2
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: f54fad2912b81d8cac3c0c7210fc6c047ee8451f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046506"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378923"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integration von Business Central und Microsoft Teams
 

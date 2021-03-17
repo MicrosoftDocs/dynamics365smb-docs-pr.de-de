@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a747a0bdb67187597cc33185b418844247b2e2b2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8cf8946d8b9792c7fb557969257380d0b48d0d83
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752975"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492943"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Arbeiten mit Power BI-Berichten in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -40,11 +40,11 @@ Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] on-premises verwenden, m
 
 Registrieren Sie sich für den Power BI-Dienst. Wenn Sie sich noch nicht registriert haben, wechseln Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Verwenden Sie bei der Registrierung Ihre geschäftliche E-Mail-Adresse und Ihr Kennwort.
 
-## <a name="connect-to-power-bi---one-time-only"></a>Mit Power BI verbinden – nur ein Mal
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Mit Power BI verbinden – nur ein Mal
 
 Wenn Sie sich zum ersten Mal bei [!INCLUDE [prod_short](includes/prod_short.md)] anmelden, sehen Sie auf einigen Seiten eventuell einen leeren Power BI-Teil, wie in der vorherigen Abbildung gezeigt. In diesem Fall müssen Sie sich zuerst mit Ihrem Power BI-Konto verbinden. Sobald die Verbindung hergestellt ist, werden Berichte angezeigt. Sie müssen diesen Schritt nur einmal ausführen.
 
-Um eine Verbindung zu Power BI herzustellen, wählen Sie die Verknüpfung **Erste Schritte mit Power BI** im Teil **Power BI-Berichte** aus.
+Um eine Verbindung zu Power BI herzustellen, wählen Sie die Verknüpfung **Erste Schritte mit Power BI** im Teil **Power BI-Berichte** aus. 
 
 Während des Verbindungsvorgangs kommuniziert [!INCLUDE [prod_short](includes/prod_short.md)] mit dem Power BI-Dienst, um festzustellen, ob Sie über ein gültiges Konto und eine gültige Lizenz für Power BI verfügen. Sobald Ihre Lizenz überprüft wurde, wird der Power BI-Standardbericht auf der Seite angezeigt. Wenn dort kein Bericht angezeigt wird, können Sie einen Bericht aus dem Teil auswählen.
 
@@ -53,7 +53,7 @@ Während des Verbindungsvorgangs kommuniziert [!INCLUDE [prod_short](includes/pr
 
 ##### <a name="from-prod_short-on-premises"></a>Aus [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
-Das Verbinden mit Power BI erfolgt auf ähnliche Weise wie bei [!INCLUDE [prod_short](includes/prod_short.md)] online. Auf der Seite **AZURE ACTIVE DIRECTORY-DIENSTBERECHTIGUNGEN** werden Sie jedoch aufgefordert, Zugriff auf die Power BI-Dienste zu gewähren. Um den Zugriff zu gewähren, wählen Sie **Azure Services autorisieren** und dann **Akzeptieren** aus.
+Das Verbinden mit Power BI erfolgt auf ähnliche Weise wie bei [!INCLUDE [prod_short](includes/prod_short.md)] online. Auf der Seite **AZURE ACTIVE DIRECTORY-DIENSTBERECHTIGUNGEN** werden Sie jedoch möglicherweise aufgefordert, Zugriff auf die Power BI-Dienste zu gewähren. Um den Zugriff zu gewähren, wählen Sie **Azure Services autorisieren** und dann **Akzeptieren** aus.
 
 Sobald die Verbindung hergestellt ist, können Sie auf den Seiten einen Bericht aus dem Power BI-Teil auswählen.
 

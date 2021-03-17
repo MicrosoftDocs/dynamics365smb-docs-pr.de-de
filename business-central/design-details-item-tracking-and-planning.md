@@ -3,19 +3,19 @@ title: 'Designdetails: Artikelverfolgung und -planung | Microsoft Docs'
 description: Da sie im Reservierungssystem gespeichert werden, werden Artikelverfolgungsnummern vollständig mit Auftragsnachverfolgungsdatensätzen abgestimmt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f9fd9287055bed116201d13417a6a392cf9b477
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5cb0e5616bb2b04fba3c8819f58f8da2f396601d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926997"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390974"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Designdetails: Artikelverfolgung und Planung
 Da sie im Reservierungssystem gespeichert werden, werden Artikelverfolgungsnummern vollständig mit Auftragsnachverfolgungsdatensätzen abgestimmt. Dies bedeutet, dass Artikel mit Auftragsnachverfolgungsdatensätzen Artikelnachverfolgungsnummern zugeordnet werden können. Andererseits können Artikel, die Artikelverfolgungsnummern haben, zu Auftragsnachverfolgungsdatensätzen werden. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgungsdesign](design-details-item-tracking-design.md).

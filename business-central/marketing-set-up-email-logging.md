@@ -3,19 +3,19 @@ title: E-Mail-Protokollierung einrichten | Microsoft Docs
 description: Erfahren Sie, wie Sie E-Mail-Interaktionen zwischen Verkäufern und Kunden in echte Verkaufschancen verwandeln können.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f099072561e5a35f893a42edbbe6f27a5b4722ed
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a431eba8881eb6bb32e01d67f25ea53981da445e
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749805"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470337"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Verfolgen Sie den Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten
 
@@ -65,7 +65,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie Azure Active Direct
     > Wenn Sie die Umleitungs-URL nicht angeben, können Sie dies später durch Auswahl von **Fügen Sie eine Plattform hinzu** tun und dann **Internet** wählen, um die Webanwendung und die Weiterleitungs-URL hinzuzufügen. 
 
 3. Wählen Sie unter **Verwalten** die Option **Manifest** aus.
-4. Suchen Sie die **requiredResourceAccess** Eigenschaft im Manifest, und fügen Sie den folgenden Code in die Klammern ([]) ein, um die erforderlichen Berechtigungen hinzuzufügen. Weitere Informationen finden Sie unter [Anwendung anmelden](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application).
+4. Suchen Sie die **requiredResourceAccess** Eigenschaft im Manifest, und fügen Sie den folgenden Code in die Klammern ([]) ein, um die erforderlichen Berechtigungen hinzuzufügen. Weitere Informationen finden Sie unter [Anwendung anmelden](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth#register-your-application).
 
 ```
 {

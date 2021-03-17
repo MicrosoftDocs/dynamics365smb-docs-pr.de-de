@@ -3,19 +3,19 @@ title: Wie Sie Daten für eine Digital-Überwachung einrichten
 description: Sie müssen die Exportdatensatzquellen einrichten, um die Daten für eine digitale Prüfungen basierend auf GDPdU zu exportieren.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fb97196ab4aa91e36ee049a1f93be65b3eeb5e44
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5578feec2b5f4697827e71247766f6bc84849ef7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749744"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381828"
 ---
 # <a name="set-up-data-exports-for-a-digital-audit-gobdgdpdu"></a>Daten für eine digitale Prüfung (GoBD/GDPdU) einrichten
 

@@ -1,21 +1,21 @@
 ---
-title: Eine Debitorenkarte erstellen, um einen neuen Debitor zu erfassen | Microsoft Docs
+title: Neue Debitoren durch Erstellen einer Debitorenkarte registrieren
 description: Beschreibt, wie eine Debitorenkarte erstellt wird, um Informationen zu jedem neuen Debitor oder Clients zu erfassen, an die Sie verkaufen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 10/01/2020
+ms.search.keywords: client, customer, credit
+ms.date: 03/09/2021
 ms.author: edupont
-ms.openlocfilehash: 86527387653d198bc8cf6f7817058b5ff551e1d0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748319"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573426"
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
 
@@ -64,6 +64,29 @@ Die Debitorenvorlage wird der Liste von Debitorenvorlagen hinzugefügt, damit Si
 
 Wenn Sie eine Transaktion für einen Debitor gebucht haben, können Sie die Karte nicht löschen, da die Posten möglicherweise für die Prüfung erforderlich sind. Um Debitorenkarten mit Posten zu löschen, wenden Sie sich an Ihren Microsoft-Partner, um dies über einen Code durchzuführen.  
 
+## <a name="managing-credit-limits"></a>Kreditlimits verwalten
+
+Kreditlimits, Restbeträge und Zahlungsbedingungen ermöglichen [!INCLUDE [prod_short](includes/prod_short.md)] die Anwendung eine Kreditlimitwarnung oder eine Warnung bei einem überfälligen Saldo anzeigt, wenn Sie einen Verkaufsauftrag anlegen.  Außerdem ermöglichen Ihnen die Funktionen für Mahnungs- und Zinskonditionen die Fakturierung von Zinsen und/oder Gebühren.  
+
+Das Feld **Kreditlimit** auf einer Debitorenkarte gibt den Höchstbetrag an, mit dem der Kunde den Zahlungssaldo überschreiten darf, bevor Warnungen ausgegeben werden. Wenn Sie dann Informationen in Journale, Angebote, Bestellungen und Rechnungen eingeben, testet [!INCLUDE [prod_short](includes/prod_short.md)] den Verkaufskopf und die einzelnen Verkaufszeilen, um festzustellen, ob das Kreditlimit überschritten wurde.
+
+Sie können jedoch weiterhin Buchungen vornehmen, auch wenn das Kreditlimit überschritten wird. Wenn Sie das Feld leer lassen, verfügt der Debitor über ein unbegrenztes Kreditlimit.  
+
+Sie können festlegen, dass keine Warnungen angezeigt werden, die darauf hinweisen, dass das Kreditlimit des Kunden überschritten wurde, und Sie können angeben, welche Arten von Warnungen angezeigt werden sollen.
+
+### <a name="to-specify-credit-limit-warnings"></a>So legen Sie Kreditlimitwarnungen fest
+
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einrichten von Verkauf und Forderungen** ein, und wählen Sie dann den zugehörigen Link aus.
+
+2. Wählen Sie im Inforegister **Allgemein** im Feld **Kreditlimitwarnung** die entsprechende Option aus, wie in der folgenden Tabelle beschrieben:
+
+    |Option| Beschreibung|
+    |------|------------|
+    |**Beide Warnungen**| Die Felder **Kreditlimit** und **Fälliger Saldo** auf der Debitorenkarte werden überprüft, und eine Warnung wird ausgegeben, falls der Debitor sein Kreditlimit überschritten hat oder sich im Zahlungsrückstand befindet.|
+    |**Kreditlimit**|Der Wert im Feld **Kreditlimit** der Debitorenkarte wird mit dem Saldo des Debitors verglichen, und eine Warnung wird angezeigt, falls der Saldo des Debitors diesen Betrag übersteigt.|
+    |**Fälliger Saldo**|Das Feld **Fälliger Saldo** auf der Debitorenkarte wird geprüft, und eine Warnung wird angezeigt, wenn sich der Debitor im Zahlungsrückstand befindet.|
+    |**Keine Warnung**|Keine Warnungen werden über den Status des Debitors angezeigt.|
+
 ## <a name="see-also"></a>Siehe auch
 
 [Zahlungsformen definieren](finance-payment-methods.md)  
@@ -72,6 +95,5 @@ Wenn Sie eine Transaktion für einen Debitor gebucht haben, können Sie die Kart
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

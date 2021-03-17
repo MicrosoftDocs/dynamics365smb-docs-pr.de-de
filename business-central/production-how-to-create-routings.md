@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Routings erstellen | Microsoft Docs'
 description: Im Arbeitsplan sind Stammdaten enthalten, die die Verarbeitungsanforderungen für bestimmte Fertigungsartikel erfassen. Sobald ein Fertigungsauftrag für diesen Artikel erstellt wurde, steuert dessen Arbeitsplan die Planung der Arbeitsgänge, die auf der Seite FA-Arbeitsplan unter dem Fertigungsauftrag dargestellt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 3f1fd0b3ff6b300586c3932901a900c500172ba8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759342"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384099"
 ---
 # <a name="create-routings"></a>Routings erstellen
 

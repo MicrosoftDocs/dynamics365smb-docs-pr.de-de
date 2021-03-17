@@ -3,19 +3,19 @@ title: 'Designdetails: - Zentrale Konzepte des Planungssystems| Microsoft Docs'
 description: Die Planungsfunktionen sind in der Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode auswählen, um die Planung zu wählen und dann die Aktion dem Anwender vorschlägt, die er treffen muss, basierend auf der Nachfrage-/Bestandsituation und die Artikelplanungsparameter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e916192ad9aa14ebcb254a140614b84091ddc922
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: ff18b81f71c8d4877c42f614c5ef485a43b2b494
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013629"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390674"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
 Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsvorschlag oder Bestellvorschlag.  

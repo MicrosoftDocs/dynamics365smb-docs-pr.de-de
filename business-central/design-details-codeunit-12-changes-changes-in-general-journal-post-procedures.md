@@ -3,19 +3,19 @@ title: Codeunit 12 Änderungen im Fibu Buch.-Blatt-Buchungs-Verfahren
 description: In früheren Versionen wurde Codeunit 12 geändert, um die Leistung beim Posten aus dem allgemeinen Journal zu verbessern. Weitere Informationen zu den Änderungen an den Buchungsverfahren finden Sie in diesem Artikel.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: c1ec373b6c7226d6b2548f2b29f326dcd9c6a459
-ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
+ms.openlocfilehash: 43232e1c38176bc947d33b5e3f55b7535afbcad4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367909"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390549"
 ---
 # <a name="historical-changes-to-codeunit-12-changes-in-general-journal-post-procedures"></a>Fürhere Änderungen in Codeunit 12 Änderungen: Änderungen in Fibu Buch.-Blatt-Buchungs-Verfahren
 

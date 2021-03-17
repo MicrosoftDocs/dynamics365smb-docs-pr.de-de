@@ -3,19 +3,19 @@ title: Synchronisierung und Datenintegration | Microsoft Docs
 description: Die Synchronisierung kopiert Daten zwischen Microsoft Dataverse Tabellen und Business Central-Datensätze, um die Daten in beiden Systeme auf dem neuesten Stand zu halten.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 83de0f6eb46921afdb4e69fbbe5260670a7fdbbc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 129f60744df5cd471992642318dd42ae26ee8261
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755096"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385224"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronisieren von Daten in Business Central mit Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

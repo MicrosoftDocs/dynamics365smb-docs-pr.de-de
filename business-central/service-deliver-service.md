@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 672e94526eabacf088acf771bdfca1e2b2361922
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 356ca50a1814756d0ef2ad9c3e478d94af5fd461
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748055"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377448"
 ---
 # <a name="delivering-service"></a>Bereitstellen von Service
 [!INCLUDE[prod_short](includes/prod_short.md)] bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  

@@ -3,19 +3,19 @@ title: Suchen nach Funktionen und Informationen | Microsoft Docs
 description: Dieses Thema beschreibt, wie Sie die Suche verwenden, um Aktionen, Seiten, Berichte, Dokumentation und Daten sowie andere Apps und Beratungsdienste zu finden.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa0bfb351cf1777ec7a8c1bde4d495e7455b9531
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6de3033333e997fa335f085499b81e1caa4146d7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760267"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381679"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren  
 In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahren“ schnell zu Aktionen, Seiten oder Berichten navigieren, Informationen zum Abschluss einer bestimmten Aufgabe finden und zusätzliche Apps und Beratungsdienste für [!INCLUDE[prod_short](includes/prod_short.md)] zu ermitteln.  

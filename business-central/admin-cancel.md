@@ -3,19 +3,19 @@ title: Business Central kündigen oder entfernen
 description: Erfahren Sie, wie Sie Ihre Business Central-Erfahrung entfernen oder löschen, wenn Sie ein Testabonnement haben oder wenn Sie ein kostenpflichtiges Abonnement haben.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ee1acd4f7e3d036ec091392b637519f45d8a8af6
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: a34e79b1cc77844ce712a6a6df294b2f3218f363
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068281"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378748"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Abonnement kündigen oder [!INCLUDE[prod_short](includes/prod_short.md)] entfernen
 

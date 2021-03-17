@@ -3,19 +3,19 @@ title: Mobile Apps FAQ
 description: Hier finden Sie Antworten auf häufig gestellte Fragen zur Verwendung von Business Central auf Ihrem Telefon oder Tablet.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 10/15/2020
 ms.author: edupont
-ms.openlocfilehash: e551bb66131c4c5b472f6088e283e9ba8dab4014
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 3b00eb417f2e51d87a58885a50e1262150837d93
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756792"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385449"
 ---
 # <a name="mobile-apps-faq"></a>Mobile Apps FAQ
 

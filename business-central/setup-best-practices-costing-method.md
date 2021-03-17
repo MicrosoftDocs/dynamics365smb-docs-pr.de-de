@@ -3,19 +3,19 @@ title: Bewährte Einrichtungsmethoden – Lagerabgangsmethode
 description: Die Lagerabgangsmethode auf der Artikelkarte definiert, ob der Kostenfluss eines Artikels erfasst wird und ob ein tatsächlicher oder budgetierter Wert aktiviert wird und in der Kostenberechnung verwendet wird.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1b08ebbdd24e821f5ed528d9956f2753c84fbc05
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 537c99c5057dd5f810fe31848a8605417ae5e7dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747843"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391449"
 ---
 # <a name="setup-best-practices-costing-method"></a>Bewährte Einrichtungsmethoden – Lagerabgangsmethode
 

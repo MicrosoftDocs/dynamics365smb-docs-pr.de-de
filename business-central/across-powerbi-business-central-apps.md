@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 479fa9897d817075aec8d2d6fd9431dbe49ab162
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7defa26581c963241aef7aabd5f01e035ab3f564
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754317"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379123"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)]-Apps in Power BI verwenden
 

@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Anzeigen von archivierten Workflowschritt-Instanzen | Mi
 description: Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archivierte Workflowinstanzen** gespeichert.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 06cc9aa2eb962e8556cb2f026c9be405deb89bef
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d17f7effca056c665c7c489575701ca10884a38e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924928"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379398"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Anzeigen von archivierten Workflowschritt-Instanzen
 Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archivierte Workflowinstanzen** gespeichert.  
@@ -30,7 +30,7 @@ Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archiviert
     Die Seite **Archivierte Workflowschritt-Instanzen** wird geöffnet und zeigt der archivierten Workflowschritt-Instanzen des ausgewählten Workflows.  
 4.  Alternativ wählen Sie das Symbol ![Glühlampe, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Archivierte Workflowschritt-Instanzen** ein, und wählen Sie dann den zugehörigen Link.  
 
-Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archivierte Workflowinstanzen** gespeichert. Im **Worflwofcode** -Feld können Sie sehen, zu welchem Workflow die archivierte Workflowschrittinstanz gehörte.  
+Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite **Archivierte Workflowinstanzen** gespeichert. Im **Worflwofcode**-Feld können Sie sehen, zu welchem Workflow die archivierte Workflowschrittinstanz gehörte.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Löschen eines Workflows](across-how-to-delete-workflows.md)   

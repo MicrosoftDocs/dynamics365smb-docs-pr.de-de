@@ -3,19 +3,19 @@ title: Vorgehensweise beim Erstellen von Fertigungsstücklisten
 description: In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponenten und Unterbaugruppen beschrieben werden, die bei der Fertigung eines übergeordneten Artikels verwendet werden. Sobald ein Fertigungsauftrag für diesen übergeordneten Artikel erstellt wurde, wird über die entsprechende Fertigungsstückliste die Berechnung des Materialbedarfs gesteuert, die auf der Seite **Prod. Bestellkomponenten** dargestellt wird.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/05/2020
 ms.author: edupont
-ms.openlocfilehash: 5c9f2fa03f5f20e533237e60762dc60fc679d0d0
-ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
+ms.openlocfilehash: 5861d4bc576a0afe52292661138de0898297a33f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "4838482"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379902"
 ---
 # <a name="create-production-boms"></a>Fertigungsauftrag erstellen
 

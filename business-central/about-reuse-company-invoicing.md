@@ -3,19 +3,19 @@ title: Invoicing und Business Central verwenden | Microsoft Docs
 description: Problemumgehung für den Zugriff auf Microsoft Invoicing, wenn Sie sich für Dynamics 365 Business Central registriert haben.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4267dfb550fb4e8ccf2181762b2b5edcbd0fc188
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0c6b739faf2d531505bde4ad2dc7eb85c39ed223
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753567"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385024"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Verwenden des gleichen Microsoft 365-Kontos in [!INCLUDE[prod_short](includes/prod_long.md)] und Microsoft Invoicing
 Wenn Sie sich für eine Testversion anmelden [!INCLUDE[prod_short](includes/prod_short.md)], können das Programm 30-Tage lang testen, Sie können ein Abonnement abschließen oder Sie können die Verwendung von [!INCLUDE[prod_short](includes/prod_short.md)] beenden. In allen Fällen wurde möglicherweise irgendwann **Microsoft Invoicing** angezeigt und Sie haben darauf geklickt. Dies war eine App, die Teil des heutigen Microsoft 365 Business Standard war und früher als Microsoft 365 Business Premium-Abonnement bezeichnet wurde, sodass diese Kachel nicht in jeder Microsoft 365-Umgebung angezeigt wurde.  

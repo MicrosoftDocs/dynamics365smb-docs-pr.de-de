@@ -3,19 +3,19 @@ title: Durchsuchen und Navigieren von Seiten pro Rolle | Microsoft Docs
 description: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ef447ca9d0341983b43c0c90c96698ccc0eab77a
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756693"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470312"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Suchen von Seiten mit dem Rollen-Explorer
 Sie können sich einen Überblick über alle Geschäftsfunktionen verschaffen, die für Ihre Rolle und für andere Rollen verfügbar sind, wenn Sie einen Schritt weiter gehen. In der folgenden Dokumentation wird diese Funktionsübersicht als *Rollen-Explorer* bezeichnet.
@@ -39,10 +39,12 @@ Die Aktionen, die Seiten öffnen, sind unter Knoten organisiert, die nach den Fe
 
 - Um einen Knoten zu expandieren/komprimieren, wählen Sie den Knoten aus. Dies gilt für Top-Level-Knoten und Unterknoten.
 - Um alle Knoten der obersten Ebene auf der Seite auf- und zuklappen, wählen Sie die Aktion **Erweitern** oder **Komprimieren** in der rechten oberen Ecke.
-- Um einen Top-Level-Knoten und alle darunter liegenden Unterknoten auf- und zuklappen, drücken Sie die Tasten Strg+Umschalt, während Sie die Aktion **Erweitern** oder **Komprimieren** in der rechten oberen Ecke wählen.
+- Führen Sie einen der folgenden Schritte aus, um alle Knoten der obersten Ebene und alle darunter liegenden Unterknoten zu erweitern/zu reduzieren:
+    - Drücken Sie die Strg + Umschalttaste, während Sie die Aktion **Erweitern** oder **Reduzieren** in der oberen rechten Ecke auswählen.
+    - Wählen Sie **...** in der oberen rechten Ecke und wählen Sie dann die Aktion **Alle erweitern** oder **Alle reduzieren**.
 
 ## <a name="see-also"></a>Siehe auch
-[Suche nach Seiten und Informationen mit Tell Me](ui-search.md)  
+[Suche nach Seiten und Informationen mit „Sie wünschen...“](ui-search.md)  
 [Profile verwalten](admin-users-profiles-roles.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

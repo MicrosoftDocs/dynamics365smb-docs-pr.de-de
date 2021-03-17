@@ -1,6 +1,6 @@
 ---
 title: Einführung in Business Central und Power BI | Microsoft Docs
-description: Insight, Business Intelligence und KPIs aus Ihren Business Central Daten einfach beziehen mit der Business Central Anwendung für Power BI.
+description: Sie erhalten eine Übersicht der Verwendung von Power BI, um Erkenntnisse, Business Intelligence und KPIs aus Ihren Business Central-Daten zu erhalten.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 51c9e2cd05deba5fd8ace46382ebeb4eb41d13ba
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9768fca2bea274a8124c34e151d399baa23f9f03
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753742"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493117"
 ---
 # <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] und Power BI
 
@@ -24,15 +24,14 @@ Einblicke in Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Daten sind mit 
 
 ![Power BI und Business Central](media/power-bi-intro.png)
 
-
 ## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>Möglichkeiten von Power BI und [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Bei der Arbeit mit [!INCLUDE[prod_short](includes/prod_short.md)] und Power BI stehen Ihnen verschiedene Funktionen zur Verfügung. Manche Dinge werden über Power BI ausgeführt, andere über [!INCLUDE[prod_short](includes/prod_short.md)]. Außerdem sind einige Funktionen nur mit [!INCLUDE[prod_short](includes/prod_short.md)] online verfügbar und nicht mit on-premises. Die folgende Tabelle verschafft Ihnen einen Überblick.
 
 |Funktion|Beschreibung|Online|On-premises|Weitere Informationen|
 |-------|-----------|--------------|-----------|----------------|
-|Zeigen Sie [!INCLUDE[prod_short](includes/prod_short.md)]-Daten in Power BI an.|Sie können Ihre Daten aus [!INCLUDE[prod_short](includes/prod_short.md)] in Berichten in Power BI anzeigen. [!INCLUDE[prod_short](includes/prod_short.md)] online umfasst einige vordefinierte Power BI-Berichte. Oder möglicherweise hat Ihre Organisation einige benutzerdefinierte Berichte für Sie zur Verfügung gestellt.|![Funktioniert online](media/check.png)|![Funktioniert lokal](media/check.png)|[Siehe ...](across-working-with-powerbi.md)|
-|Zeigen Sie Power BI-Berichte im [!INCLUDE[prod_short](includes/prod_short.md)]-Client an.| Power BI-Berichte, die [!INCLUDE[prod_short](includes/prod_short.md)]-Daten anzeigen, können direkt in Teile von [!INCLUDE[prod_short](includes/prod_short.md)]-Seiten eingebettet werden. Sie können in diesem Teil jeden beliebigen Bericht anzeigen, der Ihnen zur Verfügung steht. |![Funktioniert online](media/check.png)|![Funktioniert lokal](media/check.png)<sup>[*](#onprem)</sup>|[Siehe ...](across-working-with-business-central-in-powerbi.md).|
+|Zeigen Sie [!INCLUDE[prod_short](includes/prod_short.md)]-Daten in Power BI an.|Sie können Ihre Daten aus [!INCLUDE[prod_short](includes/prod_short.md)] in Berichten in Power BI anzeigen. [!INCLUDE[prod_short](includes/prod_short.md)] online umfasst einige vordefinierte Power BI-Berichte. Oder möglicherweise hat Ihre Organisation einige benutzerdefinierte Berichte für Sie zur Verfügung gestellt.|![Funktioniert online](media/check.png)|![Funktioniert lokal](media/check.png)|[Siehe ...](across-working-with-business-central-in-powerbi.md)|
+|Zeigen Sie Power BI-Berichte im [!INCLUDE[prod_short](includes/prod_short.md)]-Client an.| Power BI-Berichte, die [!INCLUDE[prod_short](includes/prod_short.md)]-Daten anzeigen, können direkt in Teile von [!INCLUDE[prod_short](includes/prod_short.md)]-Seiten eingebettet werden. Sie können in diesem Teil jeden beliebigen Bericht anzeigen, der Ihnen zur Verfügung steht. |![Funktioniert online](media/check.png)|![Funktioniert lokal](media/check.png)<sup>[*](#onprem)</sup>|[Siehe ...](across-working-with-powerbi.md).|
 |Erstellen Sie Berichte und Dashboards in Power BI, die [!INCLUDE[prod_short](includes/prod_short.md)]-Daten anzeigen.|Verwenden Sie Power BI Desktop, um eigene Berichte und Dashboards zu erstellen. Sie können die Berichte in Ihrem eigenen Power BI-Dienst veröffentlichen oder sie mit anderen Personen innerhalb ihrer Organisation teilen.|![Funktioniert online](media/check.png)|![Funktioniert lokal](media/check.png)|[Siehe ...](across-how-use-financials-data-source-powerbi.md)
 |[!INCLUDE[prod_short](includes/prod_short.md)]-Apps in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] veröffentlicht drei Apps für Power BI auf Microsoft AppSource. Diese Apps erstellen detaillierte Berichte und Dashboards in Ihrem Power BI-Dienst zum Anzeigen von [!INCLUDE[prod_short](includes/prod_short.md)]-Daten. Zu den verfügbaren Apps gehören: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] – CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Sales </li></ul>  |![Funktioniert online](media/check.png)||[Siehe ...](across-powerbi-business-central-apps.md)
 
@@ -47,7 +46,7 @@ Es gibt einige Aufgaben, die vor der Verwendung von Power BI mit [!INCLUDE[prod_
 2. Veröffentlichen Sie Daten als Webdienste.
 
     Codeunits, Seiten und Abfragen, die Sie als Datenquelle in Power BI-Berichten verwenden möchten, müssen als Webdienste veröffentlicht werden. Viele Webdienste werden standardmäßig veröffentlicht. Eine einfache Methode, die Webdienste zu finden ist, in *Webdiensten* in [!INCLUDE[prod_short](includes/prod_short.md)] zu suchen.
-    
+
     Weitere Informationen zum Veröffentlichen von Webdiensten finden Sie unter [Webdienst veröffentlichen](across-how-publish-web-service.md).
 
 3. Erstellen Sie ein Power BI-Konto.

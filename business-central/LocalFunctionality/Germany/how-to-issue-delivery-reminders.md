@@ -1,21 +1,21 @@
 ---
 title: Lieferanmahnungen in der deutschen Version ausstellen
-description: Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren in der deutschen Version verschicken können. Vor dem Ausstellen von Lieferbenachrichtigungen können Sie einen Testbericht drucken.
+description: Erfahren Sie, wie Sie Lieferbenachrichtigungen registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren in der deutschen Version von Business Central verschicken können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 71300dafcaf5cdbb0e1c4a9704ddeabc1c2b5d2c
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: e5f8b228ade7929b47d99eba3c647bf54aca9d7d
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931250"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493194"
 ---
 # <a name="issue-delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version ausstellen
 

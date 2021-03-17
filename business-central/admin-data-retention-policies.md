@@ -3,19 +3,19 @@ title: Daten mit Aufbewahrungsrichtlinien bereinigen | Microsoft Docs
 description: Sie können angeben, wie häufig Sie bestimmte Datentypen löschen möchten.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4393053f9f158b04323453b7508cc19c10b04102
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 52f99b262dbfa5568650b72356ec43442fc75284
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754042"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378523"
 ---
 # <a name="define-retention-policies"></a>Aufbewahrungsrichtlinien definieren
 Administratoren können Aufbewahrungsrichtlinien definieren, um festzulegen, wie häufig [!INCLUDE[prod_short](includes/prod_short.md)] veraltete Daten in Tabellen löschen soll, die Protokolleinträge und archivierte Datensätze enthalten. Das Bereinigen von Protokolleinträgen kann beispielsweise das Arbeiten mit tatsächlich relevanten Daten erleichtern. Richtlinien können alle Daten in den Tabellen beinhalten, die nach dem Ablaufdatum liegen, oder Sie können Filterkriterien hinzufügen, die nur bestimmte abgelaufene Daten in die Richtlinie aufnehmen. 

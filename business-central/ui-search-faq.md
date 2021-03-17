@@ -3,19 +3,19 @@ title: Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“ | Mic
 description: Dieser Artikel bietet Antworten zu den häufig von unseren Partner und Debitoren über „Wie möchten Sie weiter verfahren“ gestellten Fragen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7b880ef5cb49a02dcbb3973f87bc64eae48b2b3a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ad9aa62555a6296ec03cc93d8488855ab1e46d88
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760242"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380738"
 ---
 # <a name="tell-me-faq"></a>Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“
 In diesem Thema werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zu der Funktion "Wie möchten Sie weiter verfahren" stellen.

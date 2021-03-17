@@ -3,24 +3,27 @@ title: Mit MwSt im Verkauf und Einkauf arbeiten | Microsoft Doc
 description: Dieses Thema beschreibt, wie Aufgaben wie Korrektur von gebuchter MwSt in EU-Ländern/Regionen, jedes Verkaufs- und Einkaufstransaktionen von der MwSt-Berechnungen abhängt. Dieses Thema beschreibt wie.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f66d061f383236cd7fbe96ebebaf1a790202b758
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746616"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493092"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeiten mit MwSt im Verkauf und Einkauf
 Wenn Ihr Land oder Ihre Region es erfordert, die Mehrwertsteuer (MwSt) in Einkaufs- und Verkaufstransaktionen zu berechnen, sodass Sie die Beträge einer Steuerbehörden melden können, können Sie festlegen, dass [!INCLUDE[prod_short](includes/prod_short.md)] MwSt in Einkaufs- und Verkaufsbelegen automatisch berechnet wird. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md).
 
-Es gibt jedoch Mehrwertsteuer-verknüpfte Aufgaben, die Sie manuell tun können. Beispielsweise müssen Sie möglicherweise einen gebuchten Betrag korrigieren, wenn Sie feststellen, dass ein Kreditor eine andere Rundungsmethode verwendet.
+Es gibt jedoch Mehrwertsteuer-verknüpfte Aufgaben, die Sie manuell tun können. Beispielsweise müssen Sie möglicherweise einen gebuchten Betrag korrigieren, wenn Sie feststellen, dass ein Kreditor eine andere Rundungsmethode verwendet.  
+
+> [!TIP]
+> Sie können [!INCLUDE[prod_short](includes/prod_short.md)] die Umsatzsteuer-Identifikationsnummern und andere Unternehmensinformationen, wenn Sie Dokumente erstellen oder aktualisieren lassen. Weitere Informationen finden Sie unter [Umsatzsteuer-Identifikationsnummern validieren](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Berechnen und Anzeigen von MwSt.-Beträgen in Verkaufs- und Einkaufsbelegen  
 Je nach Debitoren- oder Kreditorenart können MwSt.-Beträge in Verkaufs- und Einkaufsbelegen unterschiedlich berechnet und angezeigt werden. Darüber hinaus kann der von der Anwendung berechnete MwSt.-Betrag außer Kraft gesetzt werden und der von Ihrem Kreditor für ein bestimmtes Geschäft berechnete MwSt.-Betrag verwendet werden.  
@@ -93,7 +96,7 @@ Für die Buchung einer Rechnung mit Einfuhrumsatzsteuer kann anstelle eines Fibu
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Einkauf für die Buchung von Rechnungen mit Einfuhrumsatzsteuer einrichten  
 1. Richten Sie eine Kreditorenkarte für die Einfuhrbehörde ein, die Ihnen die Einfuhrumsatzsteuerrechnung sendet. Die **Geschäftsbuchungsgruppe** und **MwSt.-Geschäftsbuchungsgruppe** werden genauso eingerichtet, wir das Sachkonto für die Einfuhrumsatzsteuer.  
 2. Erstellen Sie eine **Produktbuchungsgruppe** für die Einfuhrumsatzsteuer, und richten Sie eine **Vorg.-MwSt.-Produktbuchungsgruppe** für die Einfuhrumsatzsteuer für die zugehörige **Produktbuchungsgruppe** ein.  
-3. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kontenplan** ein und wählen Sie dann den entsprechenden Link.  
+3. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun") Symbol öffnet, geben Sie **Kontenplan** ein und wählen Sie dann den entsprechenden Link.  
 4. Markieren Sie das Hauptbuchkonto Einfuhrumsatzsteuer und wählen Sie dann die Aktion **Bearbeiten**.  
 5. Wählen Sie auf dem Inforegister **Buchung** im Feld **Produktbuchungsgruppe** die Option SONST aus. [!INCLUDE[prod_short](includes/prod_short.md)] wird automatisch das Feld **VAT Prod. Buchungsgruppe** ausfüllen.  
 6. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Buchungsmatrix** ein und wählen Sie dann den entsprechenden Link.  
@@ -173,15 +176,16 @@ Um eine Gruppe von Zertifikaten anzuzeigen, beginnen Sie auf der Seite **Gelange
 
     > [!NOTE]  
     >  Sie können keine neue Gelangensbestätigung auf der Seite **Gelangensbestätigung** erstellen, indem Sie sie mithilfe dieses Verfahrens öffnen. Um ein Zertifikat für eine Lieferung zu erstellen, die nicht so eingerichtet wurde, dass eines erforderlich ist, öffnen Sie die gebuchte Verkaufslieferung und eine der beiden oben beschriebenen Prozeduren:  
-    >   
+    >
     > * So erstellen Sie eine Gelangensbestätigung manuell  
     > * So drucken Sie eine Gelangensbestätigung.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch  
-[Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten](finance-setup-vat.md)   
-[Meldung der Mehrwertsteuer an eine Steuerbehörde](finance-how-report-vat.md)   
+## <a name="see-also"></a>Siehe auch
 
+[Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md)  
+[Meldung der Mehrwertsteuer an eine Steuerbehörde](finance-how-report-vat.md)  
+[Eine Umsatzsteuer-Identifikationsnummer überprüfen](finance-how-validate-vat-registration-number.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

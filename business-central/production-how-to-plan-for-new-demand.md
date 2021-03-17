@@ -3,19 +3,19 @@ title: Auftrag nach Auftrag planen | Microsoft Docs
 description: Diese Planungsaufgabe kann auf der Seite **Auftragsplanung** ausgeführt werden, in dem der gesamte neue Bedarf sowie Informationen über die Verfügbarkeit und Beschaffungsvorschläge angezeigt werden. Das Fenster bietet eine Übersicht und die erforderlichen Tools für eine effektive Bedarfsplanung anhand der Verkaufs- und Komponentenzeilen, auf deren Grundlage dann verschiedene Arten von Beschaffungsaufträgen direkt erstellt werden können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62f5254da05749c2da4690e7d49488af852ac67a
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 1cc5ab20c89a1f58bf85a769ad45590bf234931c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013844"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381290"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planung der Bestellung eines neuen Bedarfs von Auftrag
 Diese Planungsaufgabe kann auf der Seite **Auftragsplanung** ausgeführt werden, in dem der gesamte neue Bedarf sowie Informationen über die Verfügbarkeit und Beschaffungsvorschläge angezeigt werden. Das Fenster bietet eine Übersicht und die erforderlichen Tools für eine effektive Bedarfsplanung anhand der Verkaufs- und Komponentenzeilen, auf deren Grundlage dann verschiedene Arten von Beschaffungsaufträgen direkt erstellt werden können.  

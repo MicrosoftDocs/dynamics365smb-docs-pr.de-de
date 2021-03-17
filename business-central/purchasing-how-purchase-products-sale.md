@@ -3,19 +3,19 @@ title: Einkaufs-Artikel für einen Verkauf durch das Erstellen von Einkaufsrechn
 description: Von einer Verkaufsrechnung um Produkte einzukaufen, können Sie eine Einkaufsrechnung für einen Kreditor oder Lieferanten einen erstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44a11933488ef6f7c6a8b007bdd9ae9049a5b3bc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 32ae014f9d98ceb9c338596d859ec14395ceb6f5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758517"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377061"
 ---
 # <a name="purchase-items-for-a-sale"></a>Einkauf von Artikeln für einen Verkauf
 Bei Verkaufsaufträgen aus der Verkaufsrechnungen können Sie Funktionen verwenden, um für Einkaufsbelege Mengen des fehlenden Stücks schneller zu erstellen, die im Verkauf benötigt werden. Sie können zwei verschiedene Funktionen nutzen, abhängig von der Belegart, die verwendet wird.

@@ -3,18 +3,18 @@ title: Problembehandlung mit Selbstregistrierung | Microsoft Docs
 description: Erfahren Sie die wichtigsten Gründe, warum Sie möglicherweise nicht in der Lage sind, die Registrierung für Business Central abzuschließen sowie Möglichkeiten, diese zu umgehen.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bbfd647bd2a121d3851ff07bf11e5c3d7f689588
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 52cdc0f2c2f25f35944b3437369c0e5b7eaf0e96
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756667"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388749"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Problembehandlungs-Selbstbedienungs-Registrierung
 Die Anmeldung für [!INCLUDE[prod_short](includes/prod_short.md)] ist einfach und kann sehr schnell vorgenommen werden. Sie können ein freies Konto erstellen, wenn es sich um eine vorhandene Organisation handelt. Dieser Artikel bezieht sich Probleme an, die Sie möglicherweise für die die Anmeldung haben.

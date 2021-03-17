@@ -3,19 +3,19 @@ title: Anzeigen und Arbeit in Excel aus Business Central
 description: Mehr erfahren, wie Sie die Finanzaufstellungen in Microsoft Excel von  Business Central für eine Analyse der Daten öffnen können.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/06/2020
 ms.author: jswymer
-ms.openlocfilehash: cb172cd1d3285128e871fedb44ccd70fb84a669a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5e585d4bc7d9f7ce159671c10298f734fd5a09d5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754167"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378823"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Anzeigen und Arbeit in Excel aus Business Central
 

@@ -3,19 +3,19 @@ title: Erfassen, Regulieren und Umbuchen von Lagerbestand| Microsoft Docs
 description: Beschreibt, wie eine physische Zählung ausgeführt wir, negative oder Zugängen gemacht werden und wie Informationen wie Lagerort oder Chargennummer in Artikelposten und Lagerplatzposten geändert werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8909e4428aa97190ea6ccb5b83997657f29ea96f
-ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
+ms.openlocfilehash: 67058cf067b8ef647c01bfad79151516a6167a6b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4827093"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391274"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern
 Mindestens einmal im Geschäftsjahr muss eine Inventur durchgeführt werden, d. h. alle Artikel im Lager müssen gezählt werden, um festzustellen, ob die in der Datenbank geführten Mengen denen entsprechen, die tatsächlich physisch im Lager vorhanden sind. Ist die tatsächliche physische Menge bekannt, wird diese im Hauptbuch als Teil der Lagerbewertung am Ende eines Zeitraums gebucht.

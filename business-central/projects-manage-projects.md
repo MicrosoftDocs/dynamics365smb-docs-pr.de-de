@@ -3,17 +3,17 @@ title: Jobaufgabe, die Ressourcen und Arbeitszeittabellen verwendet | Microsoft 
 description: Beschreibt, wie Ressourcen, Arbeitszeittabellen und Projekte genutzt werden, um Projekte zu verwalten.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4fe5f22774ca670353b0079140f35137f427c5b3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: dc0425dddc02a20f074aee26a96bf4161ed212ca
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748843"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388318"
 ---
 # <a name="project-management"></a>Projektmanagement
 In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie allgemeine Projektmanagement-Verwaltungsaufgaben ausführen, wie Konfigurieren eines Projekts und Planen einer Ressource sowie Bereitstellung der Informationen, die benötigt werden, um Budgets zu verwalten und den Status zu überwachen. Sie können Computer- und Mitarbeiterstunden für das Projekt verfolgen, indem Sie Arbeitszeittabellen verwenden. Als Projektmanager haben Sie einen guten Überblick, nicht nur über einzelnen Projekte, sondern auch über die Verteilung der Mitarbeiter, der Maschinen und anderer Ressourcen, die in allen Projekten verwendet werden.

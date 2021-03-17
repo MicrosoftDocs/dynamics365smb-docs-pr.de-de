@@ -1,21 +1,21 @@
 ---
-title: Mithilfe von Fibu Buch.-Blätern direkt in die Finanzbuchhaltung buchen| Microsoft Docs
-description: Mehr über die Nutzung von Buchungsblättern erfahren, um auf Sachkonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten zu buchen.
+title: Mithilfe von Fibu Buch.-Blätern direkt in die Finanzbuchhaltung buchen
+description: Mehr über die Nutzung von Buchungsblättern erfahren, um auf Sachkonten sowie auf andere Konten wie Bank-, Debitoren-, Kreditoren- oder Anlagekonten zu buchen. Verwenden Sie wiederkehrende Journale, um Rückstellungen zu buchen und Salden nach Dimensionswerten zuzuordnen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual
-ms.date: 10/01/2020
+ms.date: 02/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6a2c6ed0c3fe163f64a3eb7d55f8e128f53a50d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760094"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393599"
 ---
 # <a name="working-with-general-journals"></a>Arbeiten mit Fibu Buch.-Blättern
 
@@ -74,24 +74,27 @@ Wurden auf der Seite **Fibu Buch.-Blätter** Standardgegenkonten für die Buch.-
 >   Die MwSt. für Haupt- und Gegenkonto wird getrennt berechnet, damit für die Konten unterschiedliche MwSt.-Prozentsätze verwendet werden können.
 
 ## <a name="working-with-recurring-journals"></a>Arbeiten mit wiederkehrenden Buchblättern
-Bei einem wiederkehrenden Buch.-Blatt handelt es sich um ein Fibu Buch.-Blatt mit speziellen Feldern für die Verwaltung von Transaktionen, die häufig und ohne oder und mit geringen Änderungen gebucht werden. Mithilfe dieser speziellen Felder für wiederkehrende Transaktionen können Sie feste und variable Beträge buchen. Sie können auch ein automatisches Storno für den Tag nach dem Buchungsdatum festlegen und wiederkehrende Posten zusammen mit Verteilungsschlüsseln verwenden. Sie können auch Verteilungsschlüssel verwenden, um wiederkehrende Posten mit einem einzigen Vorgang zwischen verschiedenen Konten aufteilen zu können. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Buch.-Blatts auf mehrere Konten](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
+Bei einem wiederkehrenden Buch.-Blatt handelt es sich um ein Fibu Buch.-Blatt mit speziellen Feldern für die Verwaltung von Transaktionen, die häufig und ohne oder und mit geringen Änderungen gebucht werden. Mithilfe dieser speziellen Felder für wiederkehrende Transaktionen können Sie feste und variable Beträge buchen. Sie können auch ein automatisches Storno für den Tag nach dem Buchungsdatum festlegen und wiederkehrende Posten zusammen mit Verteilungsschlüsseln verwenden. Sie können auch Verteilungsschlüssel verwenden, um wiederkehrende Posten mit einem einzigen Vorgang zwischen verschiedenen Konten aufteilen zu können. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Buch.-Blatts auf mehrere Konten](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Mit einem wiederkehrenden Buchungsblatt müssen Posten, die regelmäßig gebucht werden, nur einmal eingetippt werden. Das bedeutet, dass Einträge wie Konten, Dimensionen oder Dimensionswerte nach der Buchung im Buchungsblatt verbleiben. Werden Anpassungen notwendig, können Sie diese mit jeder Buchung durchführen.
 
 ### <a name="recurring-method-field"></a>Feld Wiederholungsmethode
+
 Dieses Feld legt fest, wie der in der Buch.-Blattzeile angegebene Betrag nach der Buchung bearbeitet werden soll. Wenn Sie z. B. bei jeder Buchung der Zeile den gleichen Betrag verwenden, können Sie den Betrag unverändert lassen. Wenn Sie dagegen immer den Betrag ändern, jedoch Konto und Text unverändert lassen, können Sie den Betrag nach der Buchung löschen lassen.
 
-| An | Siehe |
+| Aktion | Siehe |
 | --- | --- |
-|Fixiert|Der Betrag in der Buch.-Blattzeile wird nach der Buchung nicht geändert.|
-|Variabel|Der Betrag wird nach dem Buchen aus der Buch.-Blattzeile gelöscht.|
-|Saldo|Der gebuchte Betrag des Kontos in der Zeile wird Konten zugewiesen, die für die Zeile in der Tabelle Gen angegeben werden. Fibu Buch.-Blatt Tabelle. Der Saldo auf dem Konto wird daher auf Null festgelegt. Denken Sie daran, das Feld **Verteilung %** auf der Seite **Verteilungsübersicht** auszufüllen. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Buch.-Blatts auf mehrere Konten](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
-|Umgekehrt fix|Der Betrag in der Buch.-Blattzeile bleibt nach der Buchung erhalten und für den folgenden Tag wird ein Gegenposten gebucht.|
-|Umgekehrt variabel|Der Betrag in der Buch.-Blattzeile wird nach der Buchung gelöscht und für den folgenden Tag wird ein Gegenposten gebucht.|
-|Umgekehrt Ausgleich|Der gebuchte Betrag des Kontos in der Zeile wird Konten zugewiesen, die für die Zeile auf der Seite **Zuweisungen** angegeben werden. Der Saldo auf dem Konto wird auf Null gesetzt, und ein Gegenposten wird am folgenden Tag gebucht.|
+|F Fest|Der Betrag in der Buch.-Blattzeile wird nach der Buchung nicht geändert.|
+|V Variabel|Der Betrag wird nach dem Buchen aus der Buch.-Blattzeile gelöscht.|
+|B Saldo|Der gebuchte Betrag des Kontos in der Zeile wird Konten zugewiesen, die für die Zeile in der Tabelle Gen angegeben werden. Fibu Buch.-Blatt Tabelle. Der Saldo auf dem Konto wird daher auf Null festgelegt. Denken Sie daran, das Feld **Verteilung %** auf der Seite **Verteilungsübersicht** auszufüllen. Weitere Informationen finden Sie unter [Zuordnung von Beträgen des wiederkehrenden Buch.-Blatts auf mehrere Konten](#allocating-recurring-journal-amounts-to-several-accounts).|
+|RF Umgekehrt fix|Der Betrag in der Buch.-Blattzeile bleibt nach der Buchung erhalten und für den folgenden Tag wird ein Gegenposten gebucht.|
+|RV Umgekehrt variabel|Der Betrag in der Buch.-Blattzeile wird nach der Buchung gelöscht und für den folgenden Tag wird ein Gegenposten gebucht.|
+|RB Umgekehrt Ausgleich|Der gebuchte Betrag des Kontos in der Zeile wird Konten zugewiesen, die für die Zeile auf der Seite **Zuweisungen** angegeben werden. Der Saldo auf dem Konto wird auf Null gesetzt, und ein Gegenposten wird am folgenden Tag gebucht.|
+|Saldo nach Dimension|Die Journalzeile ordnet die Kosten basierend auf dem Saldo eines Sachkontos nach Dimensionen zu. Sie werden aufgefordert, die Dimensionsfilter festzulegen, die zur Berechnung des Kontostands des Sachkontos nach Dimension verwendet werden sollen, aus der Sie die Kosten zuordnen möchten. Alternativ wählen Sie die **Bemaßungsfilter einstellen** Aktion später.|
+|Rückbuchungssaldo nach Dimension|Die Journalzeile ordnet die Kosten basierend auf den umgekehrten Ausgleich eines Sachkontos nach Dimensionen zu. Sie werden aufgefordert, die Dimensionsfilter festzulegen, die zur Berechnung des Kontostands des Sachkontos nach Dimension verwendet werden sollen, aus der Sie die Kosten zuordnen möchten. Alternativ wählen Sie die **Bemaßungsfilter einstellen** Aktion später.|
 
 > [!NOTE]  
->  Die MwSt.-Felder können entweder in der Wiederk. Buch.-Blattzeile oder in der Verteilungs Buch.-Blattzeile ausgefüllt werden, aber nicht in beiden. Das heißt, sie können auf der Seite **Zuweisungen** nur passende Zeilen eintragen, wenn die entsprechenden Zeilen nicht im wiederkehrenden Buch.-Blatt eingetragen werden.
+> Die MwSt.-Felder können entweder in der Wiederk. Buch.-Blattzeile oder in der Verteilungs Buch.-Blattzeile ausgefüllt werden, aber nicht in beiden. Das heißt, sie können auf der Seite **Zuweisungen** nur passende Zeilen eintragen, wenn die entsprechenden Zeilen nicht im wiederkehrenden Buch.-Blatt eingetragen werden.
 
 ### <a name="recurring-frequency-field"></a>Feld Wiederholungsrate
 Das Feld legt fest, wie oft der Posten in der Buch.-Blattzeile gebucht wird. Das ist ein Datumsformelfeld, und es muss für andere Zeilen des wiederkehrenden Buch.-Blatts ausgefüllt werden. Weitere Informationen zu finden Sie unter [Verwenden von Datumsformeln](ui-enter-date-ranges.md#using-date-formulas).
@@ -113,11 +116,19 @@ Dieses Feld bietet den Vorteil, dass die Zeile nicht sofort aus dem Buch.-Blatt 
 Wenn das Feld leer ist, wird die Zeile bei jeder Buchung mitgebucht, bis sie aus dem Buch.-Blatt gelöscht wird.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Zuordnung von Beträgen des wiederkehrenden Buch.-Blatts auf mehrere Konten
+
 Auf der Seite **Wiederk. Fibu Buch.-Blatt** können Sie die **Verteilungen** Aktion auswählen, anzeigen oder verwalten und bestimmen, wie Beträge der Zeile des wiederkehrenden Buch.-Blatts auf mehrere Konten und Dimensionen zugeordnet werden. Das heißt, die Verteilung ist eine Gegenkontozeile für die Zeile des wiederkehrenden Buch.-Blattes.
 
 Genau wie in einem wiederkehrenden Buch.-Blatt müssen Sie eine Verteilung nur einmal eingeben. Die Verteilung bleibt nach dem Buchen im Verteilungsbuch, sodass Sie nicht jedes Mal, wenn Sie die Zeile des wiederkehrenden Buch.-Blattes buchen, Beträge und Verteilungen eingeben müssen.
 
-Wenn die Wiederholungsart im Wiederk. Buch.-Blatt auf **Ausgleich** oder **Umgekehrt Ausgleich** gesetzt ist, werden keine Dimensionswertcodes im Wiederk. Buch.-Blatt berücksichtigt, wenn das Konto auf Null gesetzt ist. Anders ausgedrückt, wenn Sie auf der Seite **Zuordnungen** eine wiederkehrende Zeile auf die verschiedenen Dimensionswerte verteilen, wird nur eine Umkehrbuchung erstellt. Wenn Sie also im Verteilungsbuch eine Zeile des wiederkehrenden Buch.-Blattes zuordnen, die einen Wertcode der Dimension enthält, dürfen Sie denselben Code nicht auf der Seite **Zuordnungen** eingeben. Andernfalls sind die Zahlen für die Dimensionswerte falsch.
+Wenn die *Wiederholungsart* im Wiederk. Buch.-Blatt auf **Ausgleich** oder **Umgekehrt Ausgleich** gesetzt ist, werden keine Dimensionswertcodes im Wiederk. Buch.-Blatt berücksichtigt, wenn das Konto auf Null gesetzt ist. Anders ausgedrückt, wenn Sie auf der Seite **Zuordnungen** eine wiederkehrende Zeile auf die verschiedenen Dimensionswerte verteilen, wird nur eine Umkehrbuchung erstellt. Wenn Sie also im Verteilungsbuch eine Zeile des wiederkehrenden Buch.-Blattes zuordnen, die einen Wertcode der Dimension enthält, dürfen Sie denselben Code nicht auf der Seite **Zuordnungen** eingeben. Andernfalls sind die Zahlen für die Dimensionswerte falsch.  
+
+Um wiederkehrende Journalbeträge basierend auf Dimensionen zuzuweisen, legen Sie das Feld **Wiederkehrende Methode** auf **Saldo nach Dimension** oder **Umkehren des Gleichgewichts nach Dimension** stattdessen. Wenn die Wiederholungsart im Wiederk. Buch.-Blatt auf **Ausgleich nach Dimension** oder **Umgekehrt Ausgleich nach Dimension** gesetzt ist, werden Dimensionswertcodes im Wiederk. Buch.-Blatt berücksichtigt, wenn das Konto auf Null gesetzt ist. Wenn Sie also verschiedenen Dimensionswerten eine wiederkehrende Zeile auf der Seite **Zuweisungen** zuweisen, wird dann eine Anzahl von Umkehreinträgen erstellt, die mit der Anzahl der Dimensionswertkombinationen übereinstimmen, aus denen der Saldo besteht. Wenn Sie den Kontostand über das wiederkehrende Journal zuordnen, das einen Dimensionswertcode enthält, denken Sie daran, **Saldo nach Dimension** oder **Umkehren des Saldos nach Dimension** zu verwenden, um sicherzustellen, dass die Dimensionswerte vom Quellkonto korrekt ausgeglichen oder umgekehrt werden.  
+
+Ihr Unternehmen verfügt beispielsweise über einige Geschäftsbereiche und eine Handvoll Abteilungen, die Ihre Controller als Dimensionen eingerichtet haben. Um den Prozess der Buchungserfassung zu beschleunigen, müssen die Sachbearbeiter nur die Dimensionen der Geschäftsbereiche eingeben. Da jeder Geschäftsbereich über spezifische Zuordnungsschlüssel für die Abteilungsdimension verfügt, z. B. basierend auf der Anzahl der Mitarbeiter, können Sie die wiederkehrenden Methoden **BD Balance nach Dimension** oder **RBD-Umkehrung des Gleichgewichts nach Dimension** zur Neuzuordnung von Ausgaben für jeden Geschäftsbereich zu den richtigen Abteilungen basierend auf den Zuordnungsschlüsseln verwenden.  
+
+> [!NOTE]
+> Bemaßungen, die Sie in Zuordnungszeilen festlegen, werden nicht automatisch berechnet, und Sie müssen angeben, welche Bemaßungswerte in den Zuordnungskonten festgelegt werden müssen. Wenn Sie die Verknüpfung zwischen der Quellkontodimension und der Zuordnungskontodimension beibehalten möchten, empfehlen wir die Verwendung der Funktionen [Kostenrechnung](finance-about-cost-accounting.md).
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Beispiel: Zuordnen von Mietzahlungen auf verschiedene Abteilungen
 Sie zahlen jeden Monat Miete, daher haben Sie den Vertragsrabattbetrag auf das Kassenkonto in einer Zeile des wiederkehrenden Buch.-Blattes eingegeben. Auf der Seite **Zuordnungen** können Sie die Kosten auf die Kostenstellen entsprechend der jeweils belegten Quadratmeterzahlen aufteilen. Die Berechnung erfolgt aufgrund der Verteilungsprozente für jede Verteilungs-Buch.-Blattzeile. Sie können verschiedene Konten für jede Zeile des Buch.-Blattes Verteilungen eingeben (wenn die Miete auch auf verschiedene Konten aufgeteilt werden soll) oder Sie können dasselbe Konto mit verschiedenen Dimensionswertcodes für die Dimension "Kostenstelle" auf jeder Zeile eingeben.

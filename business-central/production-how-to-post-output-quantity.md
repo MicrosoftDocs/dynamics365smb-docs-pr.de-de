@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Produktionsausgabe und Laufzeiten über Stapelverarbeitu
 description: Die fertig gestellte Menge stellt den Arbeitsfortschritt in Form der gefertigten Menge dar.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82e28246f1a1c65c7bd702023d9c68c614383cc2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 83354217bac3b27457303083163cf5eae4494e79
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759142"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380456"
 ---
 # <a name="batch-post-output-and-run-times"></a>Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen
 Die fertig gestellte Menge stellt den Arbeitsfortschritt in Form der gefertigten Menge dar.  

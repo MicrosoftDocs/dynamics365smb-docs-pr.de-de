@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 25b3c8a795c1a3f9d08ae0971da88b78e4d29b25
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2ad6c564d20a13d5a8b47c53db62f939a3207337
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752575"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378048"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Benutzereinstellungen und Präferenzen verwalten
 

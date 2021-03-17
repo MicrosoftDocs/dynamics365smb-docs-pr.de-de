@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Zuordnen von Artikeln | Microsoft Docs'
 description: Die Zuordnungsfunktionalität ist verfügbar, wenn Sie Ihren Lagerort so eingerichtet haben, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 558b93677d4045f68bdc6fea0b68936658816b92
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 125d8e152f2bc745b248b3418849cc87422a4982
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759842"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391624"
 ---
 # <a name="cross-dock-items"></a>Zuordnungselemente
 Die Zuordnungsfunktionalität ist verfügbar, wenn Sie Ihren Lagerort so eingerichtet haben, dass die Bearbeitung des Wareneingangs und der Einlagerung erforderlich ist.  

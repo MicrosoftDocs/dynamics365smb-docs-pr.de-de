@@ -3,19 +3,19 @@ title: Granulare Berechtigungen definieren | Microsoft Docs
 description: Beschreibt, wie Sie Benutzern Zugriff auf Objekte gewähren, indem Sie ihnen Berechtigungen zuweisen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 94fe9b960b61e4607bf285cd1e9ee8f1af1be916
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 48547fbe3cb2bb7cf509c1b0720cb6ccfc58cd97
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747790"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385874"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 

@@ -3,19 +3,19 @@ title: Projekte für die automatische Ausführung planen
 description: Geplante Aufgaben sind von der Aufgabenwarteschlange verwaltet. Diese Projektausführungsberichte und Codeunits. Die Projekte können entweder einmalig oder wiederholt ausgeführt werden.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 29b5b3f633b0fd9fcac648f0bf7149b87ae0b20d
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 074a110a4aac42d9b6058e377c45de0c23409bb2
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013946"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470262"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung
 
@@ -57,7 +57,7 @@ Die folgende Tabelle beschreibt die Werte im Feld **Status**.
 2. Auf der Seite **Projektwarteschlangeneinträge** wählen Sie einen Projektwarteschlangeneintrag aus, und wählen die dann die Aktion **Protokolleinträge** aus.  
 
 > [!TIP]
-> Mit [!INCLUDE [prod_short](includes/prod_short.md)] Online können Sie auch den Status von Projektwarteschlangeneinträgen mithilfe von anzeigen Application Insights in Microsoft Azure. Weitere Informationen finden Sie unter [Analysieren der Projektwarteschlange Lebenszyklus-Nachverfolgungs-Telemetrie](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace) in der [!INCLUDE [prod_short](includes/prod_short.md)] Entwickler und IT Pro Hilfe.
+> Mit [!INCLUDE [prod_short](includes/prod_short.md)] Online können Sie auch den Status von Projektwarteschlangeneinträgen mithilfe von anzeigen Application Insights in Microsoft Azure. Weitere Informationen finden Sie unter [Analysieren der Projektwarteschlange Lebenszyklus-Nachverfolgungs-Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in der [!INCLUDE [prod_short](includes/prod_short.md)] Entwickler und Verwaltungsinhalte.
 
 ## <a name="the-my-job-queue-part"></a>Der „Mein Projektwarteschlangenteil“
 Der Teil **Meine Projektwarteschlange** in Ihrem Rollencenter zeigt die Projektwarteschlangeneinträge an, die Sie gestartet haben, die jedoch noch nicht abgeschlossen sind. Standardmäßig ist dieser Teil nicht sichtbar, Sie müssen ihn also Ihrem Rollencenter hinzufügen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).  
@@ -92,7 +92,7 @@ Weitere Informationen finden Sie unter [Hintergrund-Buchung mit Aufgabenwartesch
 [Verwaltung](admin-setup-and-administration.md)  
 [Einrichten von Business Central](setup.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Analysieren der Projektwarteschlangen-Lebenszyklus-Nachverfolgungs-Telemetrie](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+[Analysieren der Projektwarteschlangen-Lebenszyklus-Nachverfolgungs-Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

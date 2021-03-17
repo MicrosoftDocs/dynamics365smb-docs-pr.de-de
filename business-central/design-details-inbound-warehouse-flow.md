@@ -3,19 +3,19 @@ title: Designdetailsg Einehender Lagerfluss | Microsoft Docs
 description: Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b86bf4be6a925913e3e2a0a70cf2066e8956681
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4ab1b8a7dce90f2bb2122f1f77c04da2ff795aa8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751555"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390024"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetails: Eingehender Lagerfluss
 Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.  

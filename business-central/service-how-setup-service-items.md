@@ -3,19 +3,19 @@ title: Übersicht und Einrichten von Serviceartikel und Serviceartikelkomponente
 description: Erhalten von Informationen über die Elemente, die Sie einrichten müssen, bevor Sie Serviceartikel, einschließlich Vorgabewerte wie Reaktionszeit, Vertragsrabatt, und Servicepreisgruppen verwenden können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 32b2bdd94a9848e990c59284963d34c64cb2af8e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 973edb068ee23cb4584aa9f1d76a85fd3cd95809
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910255"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376712"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Richten Sie Serviceartikel und Serviceartikelkomponenten ein.
 Um mit Serviceartikeln arbeiten können, müssen Sie Folgendes einrichten
@@ -26,7 +26,7 @@ Um mit Serviceartikeln arbeiten können, müssen Sie Folgendes einrichten
 ## <a name="to-set-up-service-item-groups"></a>Um Serviceartikelgruppen einzurichten:
 Sie können Artikelgruppen einrichten, die bezüglich Reparatur und Wartung miteinander in Verbindung stehen. Sie können für Serviceartikel in einer Serviceartikelgruppe Vorgabewerte wie Reaktionszeit, Vertragsrabatt und Servicepreisgruppe festlegen. Für Artikel in einer Serviceartikelgruppe können Sie auswählen, ob sie beim Verkauf automatisch als Serviceartikel erfasst werden sollen.  
 
-Sie verbinden die Serviceartikelgruppen mit **Artikeln** auf der Artikelkarte und mit Serviceartikeln auf der **Serviceartikel** -Karte.  
+Sie verbinden die Serviceartikelgruppen mit **Artikeln** auf der Artikelkarte und mit Serviceartikeln auf der **Serviceartikel**-Karte.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceartikelgruppen** ein und wählen Sie dann den entsprechenden Link.  
 2. Erstellen Sie eine neue Serviceartikelgruppe.  
@@ -34,7 +34,7 @@ Sie verbinden die Serviceartikelgruppen mit **Artikeln** auf der Artikelkarte un
 4. Im Feld **Vorg.-Vertragsrabatt %** geben Sie den Vertragsrabattprozentsatz ein, der als Standardwert für Serviceartikel in dieser Gruppe angewendet werden soll.  
 5. Im Feld **Vorg.-Servicepreisgrp.-Code** geben Sie den Servicepreisgruppencode ein, der als Standardwert für Serviceartikel in dieser Gruppe angewendet werden soll.  
 6. Im Feld **Vorg.-Reaktionszeit (Std.)** geben Sie die Reaktionszeit in Stunden ein, die als Standardwert auf Serviceartikel in dieser Gruppe angewendet werden soll.  
-7. Wenn die Artikel in der Gruppe beim Verkauf als Serviceartikel erfasst werden sollen, aktivieren Sie das Feld **Serviceartikel erstellen** .  
+7. Wenn die Artikel in der Gruppe beim Verkauf als Serviceartikel erfasst werden sollen, aktivieren Sie das Feld **Serviceartikel erstellen**.  
 
 ## <a name="to-set-up-service-item-components"></a>So richten Sie Serviceartikelkomponenten ein
 Ein Serviceartikel kann aus mehreren Komponenten bestehen, die mit Ersatzteilen ersetzt werden können, wenn ein Service durchgeführt wird. Diese Komponenten werden in dem Fenster **Serviceartikelkomponenten** eingerichtet. Wenn Sie Komponenten für Serviceartikel einrichten wollen, die Stücklisten sind, können die Stücklistenartikel als Serviceartikelkomponenten angelegt werden.
@@ -43,7 +43,7 @@ Ein Serviceartikel kann aus mehreren Komponenten bestehen, die mit Ersatzteilen 
 2. Öffnen Sie den Serviceartikel, für den Sie Komponenten einrichten möchten.  
 3. Wählen Sie die Aktion **Komponenten** aus. Die Seite **Serviceartikelkomponenten** wird geöffnet.  
 4. Fügen Sie eine neue Komponente hinzu.  
-5. Wählen Sie im Feld **Art** den Eintrag **Serviceartikel** , falls die Komponente selbst ein Serviceartikel ist. Oder wählen Sie **Artikel** aus.  
+5. Wählen Sie im Feld **Art** den Eintrag **Serviceartikel**, falls die Komponente selbst ein Serviceartikel ist. Oder wählen Sie **Artikel** aus.  
 6. Geben Sie im Feld **Nr.** Wählen Sie im Feld Nr. den Artikel oder Serviceartikel aus, der eine Komponente des Serviceartikels ist.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>So richten Sie Serviceartikelkomponenten aus Stücklisten ein

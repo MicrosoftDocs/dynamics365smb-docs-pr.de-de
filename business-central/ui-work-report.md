@@ -3,19 +3,19 @@ title: Sie können einen Bericht planen, sodass er an einem bestimmten Datum und
 description: Erfahren Sie mehr zum Eingeben eines Berichts in eine Aufgabenwarteschlange und das Planen der Verarbeitung an einem bestimmten Datum und Uhrzeit.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: e4b1615ebf177db94e3dfb372809fa71ed2f1459
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7fe5d0870cfc18ab103dc57044fd0ba84b151662
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760167"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392442"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeiten mit Berichten, Stapelverarbeitungen und XMLports
 

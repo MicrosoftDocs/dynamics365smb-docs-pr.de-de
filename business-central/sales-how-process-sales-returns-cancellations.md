@@ -3,19 +3,19 @@ title: Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen | Microso
 description: Beschreibt, wie eine Verkaufsgutschrift erstellt, eine Reklamation, Stornierung oder eine Vergütung für Artikel oder Dienstleistungen verarbeitet wird, für Sie eine Zahlung erhalten haben.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 701743c385d3afe7e0d514fede60185ecdc7a558
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6a65f67a7ac07196f5b4738c59fa5180e512f89c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748391"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385574"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
 Wenn Ihr Debitor Artikel zurückschicken oder Dienstleistungen löschen will, die Sie verkauft haben, können Sie eine Einkaufsgutschrift erstellen und buchen, die die angeforderte Änderung im Hinblick auf die ursprünglichen Einkaufsrechnung angibt. Um korrekte Verkaufsrechnungsinformationen einzuschließen, können Sie die Verkaufsgutschrift direkt aus der gebuchten Verkaufsrechnung erstellen oder neue Verkaufsgutschrift mit der Rechnungsinformationen erstellen.

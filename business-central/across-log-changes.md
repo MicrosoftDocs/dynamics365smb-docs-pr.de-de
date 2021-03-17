@@ -10,18 +10,23 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bce5c61afd2a1119c25e37ece65081ef0519694e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c4891cb047cb16f4051b6f468115e2b6bad9f24c
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754342"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470362"
 ---
 # <a name="auditing-changes-in-business-central"></a>Protokollieren von Änderungen in Business Central
 Eine häufige Herausforderung in vielen Anwendungen zur Unternehmensverwaltung ist die Vermeidung unerwünschter Datenänderungen. Es könnte alles sein – von einer falschen Debitorentelefonnummer bis hin zu einer falschen Buchung in der Finanzbuchhaltung. In diesem Thema werden die Funktionen beschrieben, mit denen Sie herausfinden können, was geändert wurde, wer es geändert hat und wann die Änderung vorgenommen wurde.
 
 ## <a name="about-the-change-log"></a>Informationen zum Änderungsprotokoll 
 Die Änderungsprotokollfunktion ermöglicht die Verfolgung aller direkten Änderungen, die von einem Benutzer an den Daten in der Datenbank vorgenommen werden. Sie müssen jede Tabelle und jedes Feld festlegen, die/das die Anwendung protokollieren soll, und dann das Änderungsprotokoll aktivieren.  
+
+Das Nachverfolgen von Änderungen kann sich auf die Leistung auswirken, was Sie Zeit kosten kann. Möglicherweise wird auch die Datenbankgröße erhöht, was Sie Geld kosten kann. Um diese Kosten zu senken, sollten Sie Folgendes berücksichtigen:
+- Gehen Sie bei der Auswahl der Tabellen und Arbeitsgänge vorsichtig vor.
+- Fügen Sie keine Posten und gebuchten Dokumente hinzu. Priorisieren Sie stattdessen Systemfelder wie „Erstellt von“ und „Erstellungsdatum“.
+- Verwenden Sie nicht den Tracking-Typ „Alle Felder“. Wählen Sie stattdessen „Einige Felder“ und verfolgen Sie nur die wichtigsten Felder.
 
 Das Änderungsprotokoll basiert auf Änderungen, die an den Daten in den von Ihnen verfolgten Tabellen vorgenommen werden. Auf der Seite **Änderungsprotokollposten** werden Posten chronologisch aufgeführt und alle Änderungen angezeigt, die an den Werten in den Feldern der von Ihnen angegebenen Tabellen vorgenommen wurden.
 

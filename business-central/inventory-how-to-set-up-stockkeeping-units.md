@@ -3,19 +3,19 @@ title: "So geht's: Eingehende Lagerhaltungseinheiten einrichten| Microsoft Docs"
 description: Sie können Lagerhaltungsdaten verwenden, um Informationen über Ihre Artikel für einen bestimmten Lagerortcode und/oder einen bestimmten Variantencode zu speichern.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e801c3d4915e2d433aa7b82d4ac240b40ff96848
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4136cdb7dd89e2998a3fe0e8107dd82b3ab40619
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746166"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393049"
 ---
 # <a name="set-up-stockkeeping-units"></a>Lagerhaltungsdaten einrichten
 Sie können Lagerhaltungsdaten verwenden, um Informationen über Ihre Artikel für einen bestimmten Lagerortcode und/oder einen bestimmten Variantencode zu speichern.  

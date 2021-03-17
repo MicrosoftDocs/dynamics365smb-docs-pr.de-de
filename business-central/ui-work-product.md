@@ -3,18 +3,18 @@ title: Arbeiten mit dem allgemeinen Funktionalität in Business Central | Micros
 description: Beschreibt die allgemeine Funktionen, die Sie verwenden, um die Daten in Business Central für Aktivitäten, wie Eingabe von Werten, Sortieren von Daten und Ändern von Ansichten auszuführen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e035ba04795cf2afb71ae196c9409bb00a955370
-ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
+ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4840178"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393574"
 ---
 # <a name="working-with-prod_short"></a>Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.

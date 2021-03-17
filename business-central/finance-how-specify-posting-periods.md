@@ -6,19 +6,19 @@ documentationcenter: ''
 author: SorenGP
 editor: ''
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c53898f55e5c6a3ea03f569273cc098615548fb7
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2f7016bb826b553299c4fbfcb205b35894a87896
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750755"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380963"
 ---
 # <a name="specify-posting-periods"></a>Festlegen von Buchhaltungsperioden:
 Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Finanzbuchhaltung buchen können.  

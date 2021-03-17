@@ -3,16 +3,16 @@ title: Einrichten der Lagerwertberechnung und der Kostenrechnung | Microsoft Doc
 description: Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: edcaaaedde3bb42c0c0d69c3e71dd659f5475712
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 140e3b95607c6a937e88d517831771af16e52ffe
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750455"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388999"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Einrichten der Lagerwertberechnung und der Kostenrechnung
 

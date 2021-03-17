@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 0f7c1e8016a1bc1915d7d6a54a183aa0e8cea2ea
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: cbb505865e061bfa8017699a2127206bb25f91b4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046454"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381981"
 ---
 # <a name="working-with-business-central-data-in-microsoft-teams"></a>Arbeiten mit Business Central-Daten in Microsoft Teams
 

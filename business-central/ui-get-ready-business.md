@@ -3,19 +3,19 @@ title: Vorbereitungen zum Tätigen von Geschäften
 description: Gliedert die unterstützten Einrichtungshandbücher, Videos, Hilfethemen, Seiten, die sie verwenden, um Business Central zu nutzen.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 188672083fabd15bc7c1758459fc1ebd7b65a409
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 354d090b567ebdd63280ecc71248a616bc22342d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4816979"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393924"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 

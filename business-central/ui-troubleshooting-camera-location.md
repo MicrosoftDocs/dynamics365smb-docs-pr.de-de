@@ -8,14 +8,14 @@ ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: conceptual
 ms.service: dynamics365-business-central
-ms.openlocfilehash: a29b2ea19d812d60d2824c131e311c34d74612af
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 68ec41a42898688cbebea341782f0e0bc265341a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760213"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393774"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Problembehebung: Auf Kamera und Standort zugreifen
 

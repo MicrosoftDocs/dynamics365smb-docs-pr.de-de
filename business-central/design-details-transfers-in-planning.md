@@ -3,19 +3,19 @@ title: 'Designdetails: Planungsparameter übertragen | Microsoft Docs'
 description: Dieses Thema beschreibt, wie Sie Umlagerungsaufträge als Versorgungsquelle verwenden, wenn Sie Lagerebenen planen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 72755bb2b83a3560c79cd004987003d3d7585f6b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035581"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381567"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetails: Umlagerungen in der Planung
 Umlagerungsaufträge sind ebenfalls eine Versorgungsquelle beim Arbeiten auf der Lagerhaltungsdatenebene. Wenn Sie "Mehrere Lagerorte (Lager)" verwenden, kann die Beschaffungsmethode auf Transfer festgelegt werden, damit der Lagerort aufgefüllt wird, indem Waren an einem anderen Lagerort übertragen werden. Sind mehrere Lager vorhanden, verfügen Unternehmen möglicherweise über eine Kette von Umlagerungen, in denen der Vorrat von GRÜN auf GELB und von GELB auf ROT usw. übergeht. Am Beginn der Kette steht ein Beschaffungssystem von Fertigungsauftrag oder Einkauf.  

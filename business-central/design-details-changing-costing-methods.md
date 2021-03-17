@@ -3,19 +3,19 @@ title: Designdetails – Ändern der Lagerabgangsmethode für Artikel
 description: Erfahren Sie, wie Sie einem Artikel eine andere Lagerabgangsmethode zuweisen, obwohl Sie den Artikel bereits in Transaktionen verwendet haben.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b0e14a11196de990460505365e5a6c24368626fb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751730"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390574"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Designdetails: Lagerabgangsmethode für Artikel ändern
 

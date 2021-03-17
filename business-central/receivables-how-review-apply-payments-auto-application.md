@@ -3,21 +3,21 @@ title: Prüfen Sie automatisch übernommene Zahlungen, und wenden Sie Zahlungen 
 description: Nachdem Zahlungen automatisch ausgeglichen sind, können Sie alle Posten für eine Zahlung manuell überprüfen und diejenigen erneut ausgleichen, die fehlerhaft ausgeglichen wurden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bcb3ffbf7bab30b71cea7c2f1005124415ab2ae4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 363062b9811d5fc97f98b30994f348834c4bf784
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748518"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392674"
 ---
-# <a name="review-or-apply-payments-manually-after-automatic-application"></a>Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung.
+# <a name="review-and-apply-payments-manually-after-automatic-application"></a>Zahlungen manuell zuordnen und überprüfen nach der automatischen Zuordnung.
 Für jede Buch.-Blattzeile, die ein Zahlung auf der Seite **Zahlungsabstimmungsbuch.-Blatt** darstellt, können Sie die Seite **Zahlungsanwendung** öffnen, um alle offenen Kandidatenposten für die Zahlung anzuzeigen und detaillierte Informationen für jeden Posten zum Datenabgleich anzuzeigen, auf denen eine Zahlungsanwendung basiert. Hier können Sie manuell Zahlungen ausgleichen, oder Zahlungen erneut ausgleichen, die automatisch auf einen falschen offenen Posten angewendet wurden,. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  

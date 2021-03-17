@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d705a6e4a9187644876277f0a9f6836ecc14f282
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6c53fa5aeb615db809887ae96d51101789c312e3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754117"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384149"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Arbeiten mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI
 

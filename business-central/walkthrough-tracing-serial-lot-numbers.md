@@ -3,19 +3,19 @@ title: 'Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern | Mi
 description: In diesem Thema werden die Maßnahmen beschrieben, die ergriffen werden müssen, um den Verkauf eines defekten Artikels zu beenden.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 51486dac343ed6047988acedc97122136ab61b3b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756367"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385724"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern
 
@@ -25,7 +25,7 @@ Wenn Produktfehler auftreten, müssen die Fehler identifiziert werden, und es mu
 
 Als erste Aufgabe bei der Defektverwaltung ermitteln Sie, woher die defekten Artikel stammen und wo Sie verwendet wurden. Diese Untersuchung basiert auf historischen Daten und wird durch Durchsuchen von Artikelverfolgungsposten auf der Seite **Artikelablaufverfolgung** vorgenommen.  
 
-Als zweite Aufgabe bei der Defektverwaltung stellen Sie fest, ob die verfolgten Artikel in offenen Belegen eingeplant sind, z. B. in nicht gebuchten Verkaufsaufträgen oder Verbrauchsprotokollen. Diese Arbeit wird auf der Seite **** ausgeführt. Sie können die Funktion „Posten suchen“ verwenden, um alle Arten Datenbankdatensätze zu durchsuchen.  
+Als zweite Aufgabe bei der Defektverwaltung stellen Sie fest, ob die verfolgten Artikel in offenen Belegen eingeplant sind, z. B. in nicht gebuchten Verkaufsaufträgen oder Verbrauchsprotokollen. Dieser Vorgang wird auf der Seite **Posten suchen** ausgeführt. Sie können die Funktion „Posten suchen“ verwenden, um alle Arten Datenbankdatensätze zu durchsuchen.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
 

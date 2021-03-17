@@ -3,19 +3,19 @@ title: Tastenkombinationen
 description: Die gesamte Übersicht der Tastenkombinationskombinationen, um mit den Daten effizient zu arbeiten.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746116"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470487"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -56,7 +56,6 @@ Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Element
 |ALT+UMSCHALT+N |Schließen Sie eine neu erstellte Seite und öffnen Sie eine neue, um einen neuen Datensatz zu erstellen. Ebenso bucht Alt+F9 ein Dokument und erstellt ein neues.|
 |ALT+T|Öffnen der Seite **Meine Einstellungen**.|
 |Alt+Nach-rechts-Taste|Suchen Sie zusätzliche Informationen oder zugrundeliegende Werte für ein Feld, das die Schaltfläche ![AssistEdit](media/assist-edit-icon.png "AssistEdit-Schaltfläche") enthält. Dies wird verwendet, wenn die übliche Dropdown-Schaltfläche (Alt + Abwärtspfeil) im selben Feld für einen anderen Zweck verwendet wird.|
-|Shift+F12|Öffnen Sie den Rollen-Explorer, eine Funktionsübersicht. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).|
 |Ctrl+Alt+Shift+C|Informationen in der Unternehmenskennzeichnung anzeigen.|
 |STRG+ALT+F1|Öffnen und schließen Sie den Seitenüberprüfungsbereich. Der Seitenüberprüfungsbereich zeigt Informationen zur Seite, wie deren Herkunftstabelle, Felder, Filter, Erweiterungen und mehr.<br /><br />Weitere Informationen finden Sie unter [Überprüfen von Seiten](across-inspect-page.md).|
 |Strg+C |Den Wert des Felds kopieren. Wenn das Feld im Fokus liegt und Sie keinen Text in diesem Feld ausgewählt haben, wird hierdurch der gesamten Wert kopiert. Wenn Sie Text in diesem Feld ausgewählt haben, wird nur der markierte Text kopiert.|
@@ -213,6 +212,18 @@ Wenn Sie ein Datumsfeld festlegen, können Sie entweder das Datum manuell eingeb
 |Ctrl++|Vergrößern Sie die aktuelle Seite.|  
 |Ctrl+-|Verkleinern Sie die aktuelle Seite.|  
 |Ctrl+0|Vergrößern Sie die aktuelle Seite auf 100 %.|  
+
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Tastaturkürzel für den Rollen-Explorer
+
+Der Rollen-Explorer bietet Ihnen einen Überblick und schnellen Zugriff auf alle Geschäftsfunktionen, die für Ihre Rolle verfügbar sind. Weitere Informationen finden Sie unter [Suchen von Seiten mit dem Rollen-Explorer](ui-role-explorer.md).
+
+|Drücken Sie diese Tasten<br />(in Mac Os)|Vorgehensweise|
+|--------------------------------|----------|
+|Shift+F12|Öffnen Sie den Rollen-Explorer.|
+|F3|Öffnen Sie das Feld **Finden** im Rollen-Explorer zum Suchen von Funktionen basierend auf einem bestimmten Suchwort oder Begriff.|
+|F3 oder STRG+NACH-UNTEN-TASTE|Verschiebt den Fokus auf das Nächste gefundene Feature im Rollen-Explorer. F3 verschiebt den Fokus auf das Feld **Finden** nach dem zuletzt gefundenen Feature.|
+|Umschalttaste F3 oder Strg + Aufwärtspfeil|Verschiebt den Fokus auf das vorherige gefundene Feature im Rollen-Explorer.|
+|Ctrl+Shift|Erweitern oder reduzieren Sie alle Unterknoten zusätzlich zu den Knoten der obersten Ebene, wenn Sie die Aktion **Erweitern** oder **Reduzieren** auswählen.|
 
 ## <a name="see-also"></a>Siehe auch
 

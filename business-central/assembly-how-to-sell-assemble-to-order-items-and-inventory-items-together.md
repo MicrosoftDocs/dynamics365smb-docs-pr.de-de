@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Verkaufen von Auftragsmontageartikeln und Lagerartikeln 
 description: Wenn ein Montageartikels für die Lagermontage eingerichtet ist, dann nimmt der Standard-Verkaufsauftragsprozess an, dass der Artikel bereits montiert wird und aus dem Lager entnommen werden kann, wenn er verfügbar ist. Wenn jedoch ein Teil oder die gesamte Menge nicht verfügbar ist, dann Sie haben Sie die Flexibilität, einen Montageauftrag für die Restmenge dynamisch zu erstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9165a7392f5c95b2ebb8a056f69be49d93476b66
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b26bcad3226b1d774b50aabc4a4353b0b0602f8e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747366"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386624"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>So verkaufen Sie Auftragsmontageartikel und Lagerartikel zusammen
 Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels **Lagermontage** enthält, dann nimmt der Standard-Verkaufsauftragsprozess an, dass der Artikel bereits montiert wird und aus dem Lager entnommen werden kann, wenn er verfügbar ist. Daher wird kein Montageauftrag automatisch erstellt und mit der Verkaufsauftragszeile verknüpft. Wenn jedoch ein Teil oder die gesamte Menge nicht verfügbar ist, dann Sie haben Sie die Flexibilität, einen Montageauftrag für die Restmenge zu erstellen, indem Sie das Feld **Menge für Auftragsmontage** auf der Verkaufsauftragszeile ausfüllen. Auf diese Weise können Sie die Auftragsmontage des Artikels durchführen, obwohl er standardmäßig für die Lagermontage eingerichtet ist.  

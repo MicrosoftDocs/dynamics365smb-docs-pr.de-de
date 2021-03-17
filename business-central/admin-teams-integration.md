@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 2d86e96b1778df47f0ead9845e2585905087adae
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 5fc5957695145ad3bbc4225c7c7e18dd7ca0c728
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046480"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386299"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Verwalten der Microsoft Teams-Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
 

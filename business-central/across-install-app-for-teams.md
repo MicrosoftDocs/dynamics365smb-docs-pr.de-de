@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 10/08/2020
 ms.author: jswymer
-ms.openlocfilehash: 723437b0e5acb5b5c4dca8374667ea1279243a80
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 34d8ae185ba705e42c700a0c2089dea77351cee6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046428"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379173"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren
 

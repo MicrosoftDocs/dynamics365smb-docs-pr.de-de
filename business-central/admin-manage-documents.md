@@ -3,15 +3,15 @@ title: Verwalten von Speicher durch das Löschen von Dokumenten oder Datenkompri
 description: Erfahren Sie, wie Sie Ihre historischen Daten durch Komprimieren oder Löschen von Posten beibehalten können.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753867"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493047"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Verwalten von Speicher durch das Löschen von Dokumenten oder Datenkomprimierung
 
@@ -47,7 +47,13 @@ Sie können die folgenden Datentypen in [!INCLUDE [prod_short](includes/prod_sho
   Nach der Komprimierung mit der Funktion **Feldinhalt behalten** können Sie die Inhalte der Felder **Belegnr., Unser Kontaktcode**, **Globaler Dimensionscode 1** und **Globaler Dimensionscode 2** beibehalten.
 * Kreditorenposten
 
-  Nach der Komprimierung werden die Inhalte der folgenden Felder in jedem Fall beibehalten: **Buchungsdatum**, **Kreditorennr.**, **Belegart**, **Währungscode**, **Buchungsgruppe**, **Betrag**, **Restbetrag**, **Ursprungsbetrag (MW)**, **Restbetrag (MW)**, **Betrag (MW)**, **Einkauf (MW)**, **Rechnungsrabatt (MW)**, **Skonto gewährt (MW)** und **Skonto möglich**.
+> [!NOTE]
+> Komprimierte Einträge für untergeordnete Kunden-, Lieferanten-, Bank- und FA-Konten werden geringfügig anders als die Standardbuchung gebucht. Dies dient dazu, die Anzahl der durch die Datumskomprimierung erstellten neuen Sachposten zu verringern. Dies ist besonders wichtig, wenn Sie Informationen wie Abmessungen und Belegnummern aufbewahren. Durch die Datumskomprimierung werden neue Einträge wie folgt erstellt:
+>* Auf der Seite **Sachposten** werden neue Einträge mit neuen Eintragsnummern für die komprimierten Einträge erstellt. Das Feld **Beschreibung** enthält **Datum komprimiert**, damit die komprimierten Einträge leicht zu identifizieren sind. 
+>* Auf Hauptbuchseiten wie der Seite **Debitorenposten** werden ein oder mehrere Einträge mit neuen Eintragsnummern erstellt. 
+> Der Buchungsprozess erzeugt Lücken in der Nummernreihe für Einträge auf der Seite **Sachposten**. Diese Nummern werden nur den Einträgen auf den Hauptbuchseiten zugewiesen. Der den Einträgen zugewiesene Nummernkreis ist auf der **Sachkontenregisterseite** in den Feldern **Von Lfd. Nr.** und **Bis Lfd. Nr.** Felder. 
+
+Nach der Komprimierung werden die Inhalte der folgenden Felder in jedem Fall beibehalten: **Buchungsdatum**, **Kreditorennr.**, **Belegart**, **Währungscode**, **Buchungsgruppe**, **Betrag**, **Restbetrag**, **Ursprungsbetrag (MW)**, **Restbetrag (MW)**, **Betrag (MW)**, **Einkauf (MW)**, **Rechnungsrabatt (MW)**, **Skonto gewährt (MW)** und **Skonto möglich**.
 
   Mit der Funktion **Feldinhalt behalten** können Sie auch den Inhalt folgender zusätzlicher Felder erhalten: **Belegnr.**, **Eink. von Kred.-Nr.**, **Einkäufercode**, **Globaler Dimensionscode 1** und **Globaler Dimensionscode 2**.
 

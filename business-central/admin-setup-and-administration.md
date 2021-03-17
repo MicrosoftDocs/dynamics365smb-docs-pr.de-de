@@ -3,19 +3,19 @@ title: Administrative Aufgaben in Business Central | Microsoft Docs
 description: Einige Aufgaben in Business Central erfordern eine zentrale Administration und Einrichtung. Erfahren, welche das sind und was zu tun ist.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2541dca19d9a6dc34f2b2f521111a808661232d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 60c8af071a4249d55cc92e5c5663ae10e6053d18
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755042"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385649"
 ---
 # <a name="administration"></a>Verwaltung
 

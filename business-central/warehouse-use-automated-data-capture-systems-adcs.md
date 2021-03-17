@@ -3,19 +3,19 @@ title: Automatisierte Datenerfassung (MDE) verwenden | Microsoft Docs
 description: Sie verwenden die mobile Datenerfassung (MDE), um die Artikelbewegungen im Lager und die Aktivitäten im Buch.-Blatt zu erfassen, wie Mengenanpassungen im Logistik Artikel Buch.-Blatt und Inventuren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d35c0774fc777fd5b45983f03e6204daed0a3af
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cb87eb928baeba9b56d4ef07287aa07fbe08ad00
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755717"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393249"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Automatisierte Datenerfassung (MDE) verwenden
 

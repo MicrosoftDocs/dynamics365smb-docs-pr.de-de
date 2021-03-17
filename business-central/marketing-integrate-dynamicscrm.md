@@ -4,19 +4,19 @@ description: Sie können Dynamics 365 Sales aus Business Central nutzen, um Date
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7234536ff432140b1606ffe685bb0225f4963612
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c61156f5f156f037ed3b36aeadd2a1d21b1666cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755317"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387849"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Verwenden von Dynamics 365 Sales von Business Central
 Wenn Sie Dynamics 365 Sales for Customer Engagement verwenden, können Sie nahtlose Integration in den Interessent-zu-Geld-Prozess nutzen, indem Sie [!INCLUDE[prod_short](includes/prod_short.md)] für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.

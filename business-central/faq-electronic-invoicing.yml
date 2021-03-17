@@ -2,18 +2,12 @@
 metadata:
   title: Elektronische Rechnungsstellung FAQ
   description: Erhalten Sie Antworten zum Dokumentenaustauschdienst und zu unterstützten Versionen von PEPPOL.
-  author: sorenfriisalexandersen
-  ms.topic: article
-  ms.service: dynamics365-business-central
-  ms.search.keywords: e-invoicing, PEPPOL, NemHandel
-  ms.date: 01/05/2021
-  ms.author: edupont
-  ms.openlocfilehash: 5fd42d8165e4f10e0c09d7efcfc021eb42a74ea8
-  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.openlocfilehash: a71f81306cffb6b223d39b3104fcbb33ad4ab7ff
+  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 01/15/2021
-  ms.locfileid: "5013767"
+  ms.lasthandoff: 02/15/2021
+  ms.locfileid: "5181804"
 title: Elektronische Rechnungsstellung FAQ
 summary: "Der integrierte Dokumentenaustauschdienst sendet elektronische Rechnungen an TradeShift, einen Dienstanbieter, der elektronische Rechnungen an PEPPOL- oder NemHandel-Empfänger weiterleitet. Der Dienst unterstützt jedoch eine begrenzte Anzahl von Versionen.   \n\nDiese FAQ beantwortet einige der wichtigsten Fragen zur elektronischen Rechnungsstellung.  \n"
 sections:

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, web client, troubleshooting, errors
 ms.date: 01/08/2021
 ms.author: jswymer
-ms.openlocfilehash: 17b41653b1b5934e98c82ce8a35430e7b6a5c0d0
-ms.sourcegitcommit: 1aac2c5f6773151c011dc1e4069c84d79fe5bda8
+ms.openlocfilehash: b5083735be31b635cb3fc3ce404e7f182d04640f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4839946"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384974"
 ---
 # <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Einrichten und Beheben von Problemen mit Ihrem Browser für die Arbeit mit Business Central Web Client
 

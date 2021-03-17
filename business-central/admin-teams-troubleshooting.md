@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046532"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385199"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problembehandlung bei der Microsoft Teams Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -103,7 +103,7 @@ Die [!INCLUDE [prod_short](includes/prod_short.md)] App unterstützt den Speiche
 
 In einige Browsern, wie im neuen Microsoft Edge können Sie auswählen, welche Gerätekamera verwendet werden soll, wenn Ihr Gerät mehrere Kameras unterstützt. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams zeigt gemischte Sprachen für meine Karten und Kartendetails an 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams zeigt gemischte Sprachen für meine Karten und Kartendetails an
 
 Damit Karten und Kartendetails in Teams konsistent in derselben Sprache angezeigt werden, wie in der Sprache Ihres Team-Clients und in der Sprache, in der Sie sie verwenden [!INCLUDE [prod_short](includes/prod_short.md)] muss der Webclient übereinstimmen.
 
@@ -116,6 +116,21 @@ Weitere Informationen zur Funktionsweise von Sprachen zwischen Teams und [!INCLU
 ## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Ich habe ein Feld im Detailfenster bearbeitet, aber meine Änderung wurde nicht gespeichert
 
 Änderungen, die Sie an einem Feld in den Detailfenstern vornehmen, werden automatisch gespeichert, wenn Sie das Feld verlassen. Bevor Sie das Fenster nach dem Ändern eines Felds schließen, müssen Sie die Tabulatortaste drücken oder außerhalb des Felds klicken/tippen.
+
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Im App-Startfeld wurde eine neue Kachel angezeigt. Wie entferne ich es?
+
+Wenn Sie Ihre Apps auf der Office 365-Startseite (https://home.office.com) oder im App-Startfeld anzeigen, wird nach der Installation von [!INCLUDE [prod_short](includes/prod_short.md)] App für Teams eine neue Kachel mit dem Namen „Business Central Teams Integration Service Connector“ angezeigt. Diese Kachel bietet an sich keinen Wert und kann sicher ausgeblendet werden.
+
+Als Administrator, der Azure Active Directory-Administratorrechte hat, können Sie die Kachel ausblenden, indem Sie die folgenden Schritte ausführen:
+
+1. Melden Sie sich beim [Azure Active Directory Admin Center](https://aad.portal.azure.com/) an.
+2. Wählen Sie **Unternehmens-Apps** und dann **Business Central Teams Integration Service Connector** aus.
+3. Wählen Sie **Eigenschaften** aus, und stellen Sie den Schalter **Sichtbar für Benutzer** auf **Nein**.
+4. Wählen Sie **Speichern** aus.
+
+> [!NOTE]
+> Es wird eine Weile dauern, bis diese Änderung wirksam wird.
+
 
 ## <a name="see-also"></a>Siehe auch
 

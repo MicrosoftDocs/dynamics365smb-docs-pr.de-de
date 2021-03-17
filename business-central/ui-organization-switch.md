@@ -3,23 +3,23 @@ title: Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung | Micro
 description: Wenn Sie für mehrere Organisationen arbeiten, können Sie schnell zwischen den Umgebungen und Unternehmen wechseln.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 10/01/2020
+ms.date: 03/04/2020
 ms.author: bholtorf
-ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2847d3240ed12acf356f6c68f4c0fcb67c362f61
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760417"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573451"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Weitere Informationen finden Sie unter [Erstellen neuer Unternehmen in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
-> Wenn Sie häufig zwischen Unternehmen wechseln, kann es leicht passieren, dass Sie den Überblick verlieren. Um den Überblick zu behalten, können Sie eine Markierung hinzufügen, die den Unternehmensnamen anzeigt, sodass Sie schnell überprüfen können, ob Sie sich am richtigen Ort befinden. Weitere Informationen finden Sie unter [So zeigen Sie eine Unternehmensmarkierung für den schnellen Zugriff auf Unternehmensinformationen an](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
+> Wenn Sie häufig zwischen Unternehmen wechseln oder mit [!INCLUDE[prod_short](includes/prod_short.md)] über eine andere App wie Microsoft Teams arbeiten, kann es leicht sein, den Überblick zu verlieren, wo Sie sich befinden. Um den Überblick zu behalten, können Sie eine Markierung hinzufügen, die den Unternehmensnamen anzeigt, sodass Sie schnell überprüfen können, ob Sie sich am richtigen Ort befinden. Weitere Informationen finden Sie unter [So zeigen Sie eine Unternehmensmarkierung für den schnellen Zugriff auf Unternehmensinformationen an](ui-change-basic-settings.md#badge).
 
 ## <a name="switch-to-another-environment"></a>Wechselt zu einer anderen Umgebung
 

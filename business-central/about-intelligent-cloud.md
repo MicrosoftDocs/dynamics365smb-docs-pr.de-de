@@ -3,7 +3,7 @@ title: Intelligente Einblicke und Cloudmigration| Microsoft-Dokumente
 description: Verschaffen Sie sich mit Business Central intelligente Einblicke über Ihre lokale Lösung. Erfahren Sie, wie Sie in die Cloud migrieren.
 author: bmeier94
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a186166e73d4c6dcda01bbda6ac2c88a18b2babb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ca7fd910e70deaebbf8912eecfe6d9c25ddfcc4e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753717"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385124"
 ---
 # <a name="intelligent-insights-with-prod_short-online"></a>Intelligente Einblicke mit [!INCLUDE[prod_short](includes/prod_short.md)] Online
 

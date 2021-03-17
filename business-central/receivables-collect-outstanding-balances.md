@@ -3,19 +3,19 @@ title: Einziehen von Restbeträgen
 description: Lernen Sie, wie eine Mahnung an einen Debitoren wegen einer fälligen Zahlung gesendet wird und wie der Zahlung wegen des Verzugs Zuschläge oder Gebühren hinzugefügt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81f43ef3f021ef0d348eb14abdffdfda2b3d85fc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8de49351f6fa81363f624c39c73d4360be440083
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758392"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392225"
 ---
 # <a name="collect-outstanding-balances"></a>Einziehen von Restbeträgen
 

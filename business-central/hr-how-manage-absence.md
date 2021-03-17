@@ -5,18 +5,18 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b9371127ca692ae636f93e44b202608684acaedb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 09b5267d778a219bc703581c677f36f6f3d278ca
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746492"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382479"
 ---
 # <a name="manage-employee-absence"></a>Analysiert die Fehlzeiten der Mitarbeiter.
 Damit die Abwesenheit eines Mitarbeiters verwaltet werden kann, muss diese auf der Seite **Abwesenheitsregistrierung** aufgezeichnet werden. Sie kann dann auf verschiedene Art und Weise zur Analyse und Berichterstellungszwecken angezeigt werden.

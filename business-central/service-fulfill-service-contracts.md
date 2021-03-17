@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 16226b3c8cc7661ee44bcac0e6934d175ea460b5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910355"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377423"
 ---
 # <a name="fulfilling-service-contracts"></a>Erfüllen von Serviceverträgen 
 Eine Möglichkeit zum Einrichten eines Servicemanagementgeschäfts besteht darin, dass standardmäßige vertragliche Vereinbarungen zwischen Ihnen und den Debitoren bestehen, in denen die Qualität des Services und die Erwartungen daran beschrieben werden. Ein derartiges System kann implementiert werden, indem eine Möglichkeit zum einfachen Erstellen von Vertragsvorlagen geboten wird, die erforderliche Informationen, wie Startdatum des Vertrags und Rechnungsperiode, beinhalten.  

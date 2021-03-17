@@ -4,7 +4,7 @@ description: Dieser Inhalt enthält Informationen über Dienstkompatibilität in
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 8e0ffc9680d421a0b39f00eae577c80206de639b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 878cb3578a6f4ce3022100137ce802b65e217adc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751955"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389099"
 ---
 # <a name="compliance"></a>Kompatibilität
 

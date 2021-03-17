@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed8b60c5b49502251f6ab6e61d22fd860af0915f
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 493a801b381ef21a2f8265e3a59615fa21618fc1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024538"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385899"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Beleglayouts für Debitoren und Kreditoren definieren
 Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus Debitoren- und Kreditorenkarten auswählen, um anzugeben, welche Layouts für verschiedene Arten von Belegen verwendet werden, die Sie für den betreffenden Debitoren oder Kreditoren erstellen. Der Wert im Feld **Verwendung** definiert, für welchen Prozess das Beleglayout verwendet wird, z. B. **Erinnerung**, **Lieferung** und **Bestätigung**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 01/26/2021
+ms.date: 03/04/2021
 ms.author: jswymer
-ms.openlocfilehash: 79b6069ffb4c73d783b2c05d3a44a55763805a52
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: d95e97a232cfb7fda8f40f68875b747723abbd4b
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068434"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573376"
 ---
 # <a name="teams-faq"></a>Teams FAQ
 
@@ -50,7 +50,6 @@ Die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams ist nicht 
 Ja. Die App soll mit jeder Lokalisierung von [!INCLUDE [prod_short.md](includes/prod_short.md)] funktionieren, unabhängig davon, ob diese Lokalisierung direkt von Microsoft oder über einen Partner angeboten wird. Weitere Informationen finden Sie unter [Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="which-languages-does-the-prod_shortmd-app-support"></a><a name="language"></a>Welche Sprachen [!INCLUDE [prod_short.md](includes/prod_short.md)] unterstützt die App?
-<!--TODO Run by Mike -->
 
 Zwei Dinge bestimmen die Sprache für Karten und Kartendetails in Teams:
 
@@ -66,15 +65,19 @@ In der folgenden Tabelle wird erläutert, wie sich die Erfahrung für Nachrichte
 
 Für die Liste der unterstützten Sprachen für [!INCLUDE [prod_short.md](includes/prod_short.md)] gehen Sie zu [Unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
+### <a name="does-the-business-central-app-work-with-industry-solutions"></a>Funktioniert die Business Central-App mit Branchenlösungen?
+
+Ja. Die App arbeitet mit Links, die auf dem Muster **\*. bc.dynamics.com** basieren, das normalerweise mit [Apps einbetten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) verwendet wird.
+
 ### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Wo finde ich die Teamintegration innerhalb des [!INCLUDE [prod_short.md](includes/prod_short.md)] Webclients? 
 
-Derzeit gibt es keine Einbettung von Teams-Steuerelementen oder das Vorhandensein von Teams-Funktionen im [!INCLUDE [prod_short.md](includes/prod_short.md)] Web-Client oder anderen Clients.  
+Derzeit gibt es keine Einbettung von Teams-Steuerelementen oder das Vorhandensein von Teams-Funktionen im [!INCLUDE [prod_short.md](includes/prod_short.md)] Web-Client oder anderen Clients.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Funktioniert [!INCLUDE [prod_short.md](includes/prod_short.md)] mit der mobilen App von Teams?
 
 Ja. Die [!INCLUDE [prod_short.md](includes/prod_short.md)] App kann über die Team-Desktop-App oder den Browser oder von einem Administrator für alle Benutzer installiert werden. Nach der Installation wird die [!INCLUDE [prod_short.md](includes/prod_short.md)] App automatisch in Teams für iOS und Android verfügbar. Auf Mobilgeräten können Sie von anderen gesendete Karten anzeigen, auf Details zugreifen oder die Karte hervorheben, um die volle Erfahrung in der [!INCLUDE [prod_short.md](includes/prod_short.md)] App zur Verfügung zu haben. Sie können jedoch keine Links einfügen, die beim Verfassen von Nachrichten zu Karten erweitert werden. Mindestanforderungen für Mobiltelefone finden Sie unter [Mindestanforderungen für die Verwendung von Business Central](product-requirements.md).
 
-### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Ist die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams gleich wie die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für iOS und Android? 
+### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Ist die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams gleich wie die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für iOS und Android?
 
 Anzahl Die App für Teams ist ein Add-In zu Microsoft Teams und exklusiv für kollaborative Erfahrungen konzipiert, die innerhalb von Teams aufleuchten. Auf der anderen Seite bietet die [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile App Ihnen eine umfassende Erfahrung, mit der Sie arbeiten können mit [!INCLUDE [prod_short.md](includes/prod_short.md)] Daten auf Ihren Mobilgeräten.
 
@@ -108,13 +111,26 @@ Die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams kann Karte
 
 Die Felder, die in Teams auf einer Karte angezeigt werden, können ebenfalls von [!INCLUDE [prod_short.md](includes/prod_short.md)] Anpassungen betroffen sein, die für Ihre Organisation installiert sind. Karten berücksichtigen keine rollenspezifischen Anpassungen oder Benutzerpersonalisierung. Das Fenster mit den Kartendetails zeigt jedoch die Datensatzdetails so an, wie Sie sie sehen würden in [!INCLUDE [prod_short.md](includes/prod_short.md)], einschließlich aller Erweiterungen, Rollenanpassungen und Benutzerpersonalisierung.
 
+### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>Wie wirken sich die für die App erforderlichen Berechtigungen auf meine Privatsphäre aus?
+
+Vor der Installation der [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams können Sie die Mindestberechtigungen überprüfen, die für die Funktion der App erforderlich sind. Durch die Installation der App erklären Sie sich damit einverstanden, dass die App über die Berechtigung zum Empfangen von Nachrichten und Daten verfügt, die Sie bereitstellen, und dass Teams über die Berechtigung zum Speichern und Verarbeiten dieser Nachrichten verfügt.
+
+Auch einige [!INCLUDE [prod_short.md](includes/prod_short.md)]-Funktionen erfordern das Öffnen externer Links geöffnet oder Zugriff auf Ihre Kamera oder Ihren geografischen Standort. Angenommen, Sie möchten ein Foto einer Kaufrechnung zur Verarbeitung aufnehmen. Die [!INCLUDE [prod_short.md](includes/prod_short.md)] App verwendet diese Funktionen nicht ohne Ihre Zustimmung und sie werden nur von bestimmten Funktionen im Fenster **Einzelheiten** verwendet. Wenn Sie eine dieser Funktionen zum ersten Mal verwenden, wird in Teams ein Dialogfeld angezeigt, in dem Sie aufgefordert werden, Zugriff auf die erforderlichen Gerätefunktionen zu gewähren.
+
+- Auf dem Team-Desktop überprüfen und passen Sie die App-Berechtigungen aus dem Fenster **Einstellungen** an. Wählen Sie Ihr Profilbild oben in der App aus und wählen Sie **Einstellungen** > **Berechtigungen**, dann wählen Sie die [!INCLUDE [prod_short.md](includes/prod_short.md)] App aus.
+
+- Für Teams im Browser und Teams für iOS oder Android können Sie die Berechtigungen in Ihrem Browser oder in den Geräteeinstellungen überprüfen oder anpassen.
+
+> [!NOTE]
+> Die genauen [!INCLUDE [prod_short.md](includes/prod_short.md)]-Funktionen, die Sie zur Eingabe von Berechtigungen auffordern, hängen von den Add-On-Apps und Anpassungen ab, die auf die [!INCLUDE [prod_short.md](includes/prod_short.md)]-Umgebung angewendet werden, mit der Sie eine Verbindung herstellen.
+
 ### <a name="where-can-i-learn-about-my-privacy"></a>Wo kann ich etwas über meine Privatsphäre erfahren? 
 
 Informationen dazu, wie Microsoft mit Ihren Daten umgeht, finden Sie in der [Microsoft-Datenschutzerklärung](https://go.microsoft.com/fwlink/?linkid=2030602). 
 
-Wenden Sie sich an Ihren Administrator, um zu erfahren, wie Ihre Organisation mit dem Datenschutz Ihrer Daten umgeht. 
+Wenden Sie sich an Ihren Administrator, um zu erfahren, wie Ihre Organisation mit dem Datenschutz Ihrer Daten umgeht.
 
-### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Wie deinstalliere ich die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams? 
+### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Wie deinstalliere ich die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams?
 
 Um die App zu entfernen, die Sie für sich selbst installiert haben, gehen Sie zu einem beliebigen Chat-Erstellungskästchen und suchen Sie das [!INCLUDE [prod_short.md](includes/prod_short.md)] Symbol. Klicken Sie mit der rechten Maustaste auf das Symbol und wählen Sie Deinstallieren.  
 
@@ -153,29 +169,33 @@ Anzahl Die Feldwerte auf einer Karte in Teams, einschließlich aller Bilder, bas
 
 Wenn Sie eine Nachricht verfassen und an den Chat senden, die eine Karte enthält, sehen alle Benutzer die Karte, auch wenn sie die [!INCLUDE [prod_short.md](includes/prod_short.md)] App für Teams nicht installiert haben.
 
+### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>Wie finde ich heraus, zu welcher Firma eine Karte in Teams gehört?
+
+Wenn Sie über [!INCLUDE [prod_short.md](includes/prod_short.md)]-Unternehmen hinweg arbeiten, sprechen Sie mit Ihrem Administrator über die Aktivierung eines Unternehmensausweises für jedes Unternehmen. Wenn diese Option aktiviert ist, wird dieser auffällige Hinweis in jedem Detailfenster in Teams angezeigt und zeigt das Unternehmen und die Umgebung an, zu denen der Datensatz gehört. Informationen zum Einrichten eines Firmenausweises finden Sie unter [Anzeigen eines Firmenausweises für den schnellen Zugriff auf Firmeninformationen](ui-change-basic-settings.md#badge).
+
 ## <a name="working-with-card-details"></a>[Arbeiten mit Kartendetails](#tab/carddetails)
 
-### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Wo befindet sich die Schaltfläche Speichern im Detailfenster in Teams? 
+### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Wo befindet sich die Schaltfläche Speichern im Detailfenster in Teams?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)] speichert automatisch Änderungen, die Sie an einem Feld vornehmen, sobald Sie das Feld verlassen. Um ein Feld zu verlassen, klicken/tippen Sie auf eine beliebige Stelle außerhalb des Felds oder verwenden Sie die Tabulatortaste, um zum nächsten Feld zu gelangen. Wenn Daten in einem Dialogfeld im Detailfenster angezeigt werden, müssen Sie möglicherweise die Schaltfläche **OK** auswählen, um [!INCLUDE [prod_short.md](includes/prod_short.md)] Änderungen zu speichern.
 
-### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Wenn ich Details für eine Karte anzeigen möchte, sehen andere Benutzer mein Detailfenster? 
+### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Wenn ich Details für eine Karte anzeigen möchte, sehen andere Benutzer mein Detailfenster?
 
 Anzahl Während jeder im Chat die Karte selbst anzeigen kann, wird das Detailfenster nur dann auf Ihrem Gerät angezeigt, wenn Sie **Einzelheiten** auswählen. Andere Benutzer müssen wählen **Einzelheiten** auswählen, wenn sie das Detailfenster auf ihrem Gerät anzeigen möchten.
 
-### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Kann ich einen Teamanruf über das Detailfenster in Teams starten? 
+### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Kann ich einen Teamanruf über das Detailfenster in Teams starten?
 
 Ja. Sie können einen Anruf starten, indem Sie die verknüpfte Wählnummer in einem Telefonnummernfeld auswählen, wie zum Beispiel die **Mobiltelefonnummer** im Feld auf der Karte **Kontakt**. Teams muss Ihre festgelegte Wähl-App sein.
 
 Um lokale oder internationale Festnetz- und Mobiltelefone von Teams aus anrufen zu können, benötigen Sie eine Teamlizenz für Unternehmensanrufe. Außerdem müssen Sie Teams als Anruflösung einrichten. Weitere Informationen finden Sie unter [Planen Sie die Sprachlösung Ihres Teams](/microsoftteams/cloud-voice-landing-page) in der Teamdokumentation.
 
-### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Kann ich Dokumente aus dem Detailfenster in Teams drucken? 
+### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Kann ich Dokumente aus dem Detailfenster in Teams drucken?
 
 Ja. Sie drucken Berichte und andere Dokumente mit den normalen [!INCLUDE [prod_short.md](includes/prod_short.md)] Druckfunktionen und allen Cloud-fähigen Drucker, die im Internet konfiguriert sind auf der Seite **Druckerverwaltung** unter [!INCLUDE [prod_short.md](includes/prod_short.md)]. Sie können nicht von Teams auf lokale Drucker drucken, die Ihrem Clientgerät bekannt sind, z. B. Drucker, auf denen Sie normalerweise über Ihren Browser drucken würden. Aus diesem Grund können Sie nicht über das Berichtsvorschau-Fenster drucken, sondern nur von der Hauptseite für Berichtsanforderungen direkt auf Ihren Cloud-Druckern.
 
 Weitere Informationen zum Einrichten von Cloud-Druckern finden Sie unter [Drucker einrichten](ui-specify-printer-selection-reports.md).
 
-### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Kann ich über das Detailfenster in Teams auf die Kamera zugreifen? 
+### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Kann ich über das Detailfenster in Teams auf die Kamera zugreifen?
 
 Ja. [!INCLUDE [prod_short.md](includes/prod_short.md)] Funktionen im Detailfenster, die die Kamera verwenden, sind auf allen Team-Clients verfügbar.
 
@@ -185,7 +205,7 @@ Wenn Sie Funktionalität in [!INCLUDE [prod_short.md](includes/prod_short.md)] v
 
 ## <a name="collaborating-with-guests"></a>[Mit Gästen zusammenarbeiten ](#tab/collaborating)
 
-### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Kann ich Karten mit Benutzern außerhalb meiner Organisation teilen? 
+### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Kann ich Karten mit Benutzern außerhalb meiner Organisation teilen?
 
 Ja. Wenn Sie eine Nachricht verfassen und senden, die eine Karte enthält, sehen alle Empfänger im Chat die Karte&mdash;selbst wenn sie Gäste oder außerhalb Ihrer Organisation sind. Gäste können das Detailfenster auch öffnen, wenn ihnen die Berechtigung zum Zugriff auf diese Daten erteilt wurde in [!INCLUDE [prod_short.md](includes/prod_short.md)].
 

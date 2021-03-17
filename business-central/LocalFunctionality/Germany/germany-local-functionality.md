@@ -3,19 +3,19 @@ title: Lokale Funktion (Deutschland)
 description: Die folgenden Themen beschreiben die lokale Funktion in der deutschen Version von Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 67835316b84301b8d45eb6d857e4167a3e5a5d65
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ee164c4da5901480435c3a4957e5ebf273b8d30d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749641"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381860"
 ---
 # <a name="germany-local-functionality"></a>Lokale Funktion (Deutschland)
 

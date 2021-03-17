@@ -3,16 +3,16 @@ title: Pakete nachverfolgen | Microsoft Docs
 description: Verwenden Sie den Zustellerüberwachungsdienst, um den Status einer Lieferung anzuzeigen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5136c675d50e4d9ac91f43755dfb44810701096d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 3e32b8ba654b089bb02d34b64f1a9832001b315d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758017"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382974"
 ---
 # <a name="track-packages"></a>Pakete verfolgen
 

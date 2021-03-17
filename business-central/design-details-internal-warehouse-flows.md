@@ -3,19 +3,19 @@ title: Designdetails - Interner Lagerfluss | Microsoft Docs
 description: An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerplätzen auf die Kommissionierung von Komponenten und die Einlagerung von Endartikeln für Produktions oder Montageaufträge und Ad-hoc-Verschiebungen, wie etwa Lagerplatzauffüllungen, ohne Bezug auf Herkunftsbelege.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d6b59df9677216cfcc3fd7e60ec92b1a17890763
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 62764eed0792a20fbc303599a0cfa2baabb638cc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035731"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389974"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetails: Interner Lagerfluss
 An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerplätzen auf die Kommissionierung von Komponenten und die Einlagerung von Endartikeln für Produktions oder Montageaufträge und Ad-hoc-Verschiebungen, wie etwa Lagerplatzauffüllungen, ohne Bezug auf Herkunftsbelege. Der Umfang und die Art der einbezogenen Tätigkeiten variiert zwischen der grundlegenden und der erweiterten Logistik.  

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: fba0db549b7aba0a188d2f2a02680e142349403c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ae6eb6eb9672c3c7a5fff4b0341dcf72526a18a7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4745891"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392899"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Aktivitäten mit Kontakten automatisch aufzeichnen
 Sie können Anwendung für die Automatische Aufzeichnung von Aktivitäten für Verkaufs-, Einkaufs- und Servicebelege, Deckblätter, E-Mails und Telefonanrufe konfigurieren:

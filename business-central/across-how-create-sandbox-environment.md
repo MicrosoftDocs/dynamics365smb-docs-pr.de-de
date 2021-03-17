@@ -3,19 +3,19 @@ title: Erstellen Sie eine Sandkastenumgebung| Microsoft Docs
 description: Erstellen Sie somit eine Umgebung für das Untersuchen, Lernen, Entwickeln und Testen.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 43442680578eca60fabdc620e1f8bd04036d214c
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 1e559f5805504ead36ca3c96b4f2d54d4ce0eb39
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024412"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384699"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Erstellen einer Sandkastenumgebung in [!INCLUDE[prod_short](includes/prod_short.md)]
 

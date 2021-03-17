@@ -3,19 +3,19 @@ title: Designdetails - Lagerhausverwaltung | Microsoft Docs
 description: Diese Dokumentation gibt einen Überblick über Konzepte und Prinzipien, die in den Logistikfunktionen in  Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ea9974a8fb63d4e119cdc8b78930fd94777e6a38
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 36e8d8dadc52ab10492fb5ab1cbfe158b069cd9b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749568"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381467"
 ---
 # <a name="design-details-warehouse-management"></a>Designdetails: Lagerverwaltung
 Diese Dokumentation gibt einen Überblick über Konzepte und Prinzipien, die in den Logistikfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden. Erläutert das Design hinter den Zentrallagerfunktionen und wie die Einlagerung mit anderen Lieferkettenfunktionen integriert ist.  

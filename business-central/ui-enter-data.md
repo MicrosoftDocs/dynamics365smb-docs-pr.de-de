@@ -3,19 +3,19 @@ title: Eingeben von Daten in Business Central | Microsoft Docs
 description: Informationen zu allgemeinen Funktionen, die Ihnen dabei helfen, Daten in die Felder einzugeben.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
-ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
+ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4840253"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393299"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 

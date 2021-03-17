@@ -3,19 +3,19 @@ title: Richten Sie eine Verkäufer ein| Microsoft Docs
 description: Sie können eine Kennung für jeden Ihrer Vertriebsmitarbeiter einrichten, so dass Sie die Leistung eines Einzelnen verfolgen oder einem Kontakt einen Vertriebsmitarbeiter zuweisen können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37b684c1f8bda394f777e43904b77b5f7747ce36
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a1721988ca713128a407ec67691cf7ed42865bd9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387124"
 ---
 # <a name="set-up-salespeople"></a>Verkäufer einrichten
 Viele Unternehmen möchten die Leistungen der einzelnen Angestellten bei der Berechnung von Verkaufsprovisionen oder Prämien berücksichtigen. Sehen Sie beispielsweise den **Verkäufer-Kommissionsbericht**. Ein Unternehmen möchte möglicherweise auch jeder Kontaktperson einen Verkäufer zuordnen.

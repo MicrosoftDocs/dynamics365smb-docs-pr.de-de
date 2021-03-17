@@ -3,19 +3,19 @@ title: Listenberichte für Kreditorenzahlungen in deutscher Version drucken
 description: Der Listenbericht für Kreditorenzahlungen liefert eine Zahlungsauflistung für jeden Kreditor in der deutschen Version. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7844a37e38031f3e3e22c42317aa1d292a8020ac
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ebdd1afbecb41473f55dc962ff6c8ee9869bc5db
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920061"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381832"
 ---
 # <a name="print-vendor-payments-list-reports-in-the-german-version"></a>Listenberichte für Kreditorenzahlungen in deutscher Version drucken
 

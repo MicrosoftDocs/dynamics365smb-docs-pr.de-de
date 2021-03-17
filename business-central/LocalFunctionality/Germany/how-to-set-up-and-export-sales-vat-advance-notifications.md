@@ -3,19 +3,19 @@ title: 'Gewusst wie: Einrichten und Exportieren von Umsatzsteuervoranmeldungen'
 description: In Business Central können Sie die Umsatzsteuervoranmeldungsdatei-Benachrichtigung elektronisch an das Portal übermitteln.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 03f874d5c0390a2e00deaea8c247690131dbd209
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 87c0a3c8fce769735b6a5a6fab3ccec864adcbb2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747509"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381830"
 ---
 # <a name="sales-vat-advance-notifications"></a>Umsatzsteuervoranmeldungen  
 Eine Umsatzsteuervoranmeldung in [!INCLUDE[prod_short](../../includes/prod_short.md)] ist eine XML-Datei, die Sie verwenden können, um MwSt die deutsche Steuerbehörden an dem das Elektronische Steuererklärungen (ELSTER) - Onlineportal zu melden. Die XML-Datei enthält Steuerbeträge und Bemessungsgrundlagen und Informationen über den Mandanten und wird im Format und im Layout erstellt, die deutsche Finanzämter benötigen.    

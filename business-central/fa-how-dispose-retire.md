@@ -3,19 +3,19 @@ title: Anlagen zurücksziehen| Microsoft Docs
 description: Sie müssen einen Verkaufswert buchen, wenn Sie eine Anlage verkaufen oder ausrangieren, die storniert werden sollten.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16d052c67a2d9b5513e9dac901dfeddce0527512
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 762f14992f9834c557da7ed193b93a661d6b4b2e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749418"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381442"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Anlagen entsorgen oder außer Dienst stellen
 

@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Planen von Kommissionierungen in Vorschlägen | Microsof
 description: Wenn Ihr Lager so eingerichtet wurde, dass die Bearbeitung der Kommissionierung sowie des Warenausgangs erforderlich sind, können Sie für das Lager festlegen, dass die Zeilen in Warenausgangsbelegen nicht automatisch in Kommissionieranweisungen umgewandelt, sondern stattdessen für den Kommissioniervorschlag verfügbar gemacht werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 250d85308e60f93ccba28e2354e47be185918d52
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 977db9c072defbbd7a76ef58bdbcf739116a858d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756142"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393221"
 ---
 # <a name="plan-picks-in-worksheets"></a>Kommissionierungen im Vorschlag bearbeiten
 

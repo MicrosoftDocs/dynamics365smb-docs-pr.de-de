@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 06/15/2020
 ms.author: bholtorf
-ms.openlocfilehash: 44fb1f467b0b44c41456a64c8de3f5ae9dc85786
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752750"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470437"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
 Menschen in Unternehmen senden täglich Informationen und Dokumente wie Verkaufsdokumente und Bestellungen sowie Rechnungen per E-Mail. Administratoren können dies vereinfachen, indem sie ein oder mehrere E-Mail-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden. So können Sie Dokumente senden, ohne eine E-Mail-App öffnen zu müssen. Sie können jede Nachricht einzeln mit grundlegenden Formatierungswerkzeugen wie Schriftarten, Stilen, Farben usw. zusammenstellen und Anhänge mit bis zu 100 MB hinzufügen. Administratoren können auch Berichtslayouts einrichten, die nur die wichtigsten Informationen aus Dokumenten enthalten. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md).
@@ -37,7 +37,7 @@ In der folgenden Tabelle werden die standardmäßig verfügbaren E-Mail-Erweiter
 
 |Erweiterung  |Beschreibung  |Beispiele für die Verwendung  |
 |---------|---------|---------|
-|**Microsoft 365**|Jeder sendet E-Mails von einem freigegebenen Postfach in Exchange Online.|Wenn beispielsweise alle Nachrichten aus derselben Abteilung stammen, sendet Ihre Verkaufsorganisation Nachrichten von einem sales@cronus.com-Konto. Dies erfordert, dass Sie ein freigegebenes Postfach im Office 365 Admin Center einrichten. Weitere Informationen finden Sie unter [Freigegebene Postfächer](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Jeder sendet E-Mails von einem freigegebenen Postfach in Exchange Online.|Wenn beispielsweise alle Nachrichten aus derselben Abteilung stammen, sendet Ihre Verkaufsorganisation Nachrichten von einem sales@cronus.com-Konto. Dies erfordert, dass Sie ein freigegebenes Postfach im Office 365 Admin Center einrichten. Weitere Informationen finden Sie unter [Freigegebene Postfächer](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Aktueller Benutzer**|Jeder sendet E-Mails von dem Konto, bei dem er sich angemeldet hat in [!INCLUDE[prod_short](includes/prod_short.md)].|Ermöglichen Sie die Kommunikation von einzelnen Konten.|
 |**Andere (SMTP)**|Verwenden Sie SMTP-Protokoll zum Senden von E-Mails.|Ermöglichen Sie die Kommunikation über Ihren SMTP-Mailserver. |
 
@@ -47,7 +47,7 @@ In der folgenden Tabelle werden die standardmäßig verfügbaren E-Mail-Erweiter
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Ältere SMTP-Einstellungen und die E-Mail-SMTP-Connector-Erweiterung
-Wenn Sie bereits [!INCLUDE[prod_short](includes/prod_short.md)] verwenden und E-Mails über die ältere SMTP-Einrichtung konfiguriert haben, können Sie Ihre Einrichtung parallel zur Erweiterung E-Mail – SMTP Connector weiter verwenden. Wenn wir Ihre [!INCLUDE[prod_short](includes/prod_short.md)] in der nächsten Release-Version aktualisieren, kopieren wir Ihre alten SMTP-Einstellungen in die Erweiterung Email – SMTP Connector. Wenn Sie fertig sind, kann Ihr Administrator die erweiterten E-Mail-Funktionen aktivieren und Sie verwenden die Erweiterung E-Mail – SMTP Connector. Weitere Informationen hierzu finden Sie unter [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). Es gibt jedoch keine Synchronisation zwischen der SMTP Connector-Erweiterung und den Legacy-Einstellungen. Wenn Sie die SMTP-Einstellungen in der Erweiterung ändern, sollten Sie dieselben Änderungen in der alten SMTP-Einrichtung vornehmen oder umgekehrt.
+Wenn Sie bereits [!INCLUDE[prod_short](includes/prod_short.md)] verwenden und E-Mails über die ältere SMTP-Einrichtung konfiguriert haben, können Sie Ihre Einrichtung parallel zur Erweiterung E-Mail – SMTP Connector weiter verwenden. Wenn wir Ihre [!INCLUDE[prod_short](includes/prod_short.md)] in der nächsten Release-Version aktualisieren, kopieren wir Ihre alten SMTP-Einstellungen in die Erweiterung Email – SMTP Connector. Wenn Sie fertig sind, kann Ihr Administrator die erweiterten E-Mail-Funktionen aktivieren und Sie verwenden die Erweiterung E-Mail – SMTP Connector. Weitere Informationen hierzu finden Sie unter [Funktionsverwaltung](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Es gibt jedoch keine Synchronisation zwischen der SMTP Connector-Erweiterung und den Legacy-Einstellungen. Wenn Sie die SMTP-Einstellungen in der Erweiterung ändern, sollten Sie dieselben Änderungen in der alten SMTP-Einrichtung vornehmen oder umgekehrt.
 
 > [!NOTE]
 > Wenn Sie Anpassungen haben, die auf der alten SMTP-E-Mail-Einrichtung basieren, besteht die Möglichkeit, dass bei Ihren Anpassungen ein Fehler auftritt, wenn Sie E-Mail-Erweiterungen verwenden. Wir empfehlen, dass Sie die Erweiterungen einrichten und testen, bevor Sie den Funktionsschalter für erweiterte E-Mail-Funktionen aktivieren.
@@ -157,7 +157,7 @@ Die Schritte zur Registrierung von [!INCLUDE[prod_short](includes/prod_short.md)
 > * URI umleiten (optional)
 > * Geheimer Clientschlüssel
 
-Für allgemeine Informationen zum Registrieren einer Anwendung gehen Sie zu [Schnellstart: Anwendung bei der Microsoft-Identitätsplattform registrieren](/azure/active-directory/develop/quickstart-register-app.md). 
+Für allgemeine Informationen zum Registrieren einer Anwendung gehen Sie zu [Schnellstart: Anwendung bei der Microsoft-Identitätsplattform registrieren](/azure/active-directory/develop/quickstart-register-app). 
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>[!INCLUDE[prod_short](includes/prod_short.md)] mit Ihrer App-Anmeldung verbinden
 Nachdem Sie Ihre Anwendung im Azure-Portal registriert haben, klicken Sie auf [!INCLUDE[prod_short](includes/prod_short.md)], benutzen Sie die **E-Mail-Anwendung AAD-Registrierung** unterstützte Einrichtung, um die Verbindung [!INCLUDE[prod_short](includes/prod_short.md)] herzustellen.

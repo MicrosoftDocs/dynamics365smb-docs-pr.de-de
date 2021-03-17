@@ -3,19 +3,19 @@ title: 'Gewusst wie: Ressourcen zuweisen einrichten | Microsoft Docs'
 description: Erfahren Sie, wie das System helfen kann, sicherzustellen, die Sie einer Person zuweisen, welches die Qualifikationen benötigen können, um eine Service bereitstellen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 48d0f9f9e51a0da3f82abdb43e8c4bb6044a5f29
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6cd246809d6b05f87c131c584267551938f74810
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757992"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392524"
 ---
 # <a name="set-up-resource-allocation"></a>Um Ressourcenzuweisung einzurichten:
 Um sicherzustellen dass eine Serviceaufgabe gut ausgeführt wird, ist es wichtig, eine Ressource zu finden die qualifiziert ist, die Arbeit zu tun. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, sodass es einfach is, Person zuzuordnen, die die rechten Qualifikationen für das Projekt haben. In [!INCLUDE[prod_short](includes/prod_short.md)] zeigen wir die _Ressourcenzuordnung_. Sie können Ressourcen anhand ihrer Qualifikation, Verfügbarkiet oder ob sie sich in demselben Servicegebiet befindet wie der Debitor zuordnen. 

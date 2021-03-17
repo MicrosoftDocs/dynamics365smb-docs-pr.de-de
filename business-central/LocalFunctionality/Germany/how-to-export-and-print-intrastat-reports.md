@@ -1,21 +1,21 @@
 ---
-title: 'Gewusst wie: Exportieren und Drucken von Intrastat-Berichten'
-description: Intrastat-Berichterstattung ist in der gesamten Europäischen Union (EU) erforderlich und muss landesbezogenen Anforderungen entsprechen (beispielsweise bestimmten Formaten und Dateien). Alle Unternehmen innerhalb der EU sind verpflichtet, Auskunft über ihre Handelsaktivitäten mit anderen EU-Ländern zu geben.
+title: Exportieren und Drucken von Intrastat-Berichten (DE)
+description: Business Central unterstützt das Intrastat-Reporting nach deutschen Anforderungen. Sie können die Anforderung erfüllen, Ihren Handel mit anderen EU-Ländern zu melden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 26613e8087356b089599577f6b001c3db04d0986
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1c6f15d63b543179d22a34770485c20d9a5b1e08
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747513"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493196"
 ---
 # <a name="export-and-print-intrastat-reports"></a>Exportieren und Drucken von Intrastat-Berichten
 Intrastat-Berichterstattung ist in der gesamten Europäischen Union (EU) erforderlich und muss landesbezogenen Anforderungen entsprechen (beispielsweise bestimmten Formaten und Dateien). Alle Unternehmen innerhalb der EU sind verpflichtet, Auskunft über ihre Handelsaktivitäten mit anderen EU-Ländern zu geben. Warenbewegungen müssen jeden Monat dem Statistischen Amt Ihres Landes/Ihrer Region mitgeteilt und die Berichte müssen an die Steuerbehörden übermittelt werden.  

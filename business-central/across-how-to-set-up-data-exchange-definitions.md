@@ -3,19 +3,19 @@ title: Definieren, wie Daten elektronisch übermittelt | Microsoft Docs
 description: Nutzen Sie den OCR-Dienst zur Umwandlung von PDF- oder Bilddateien in elektronische Belege konvertiert werden können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ca9f3dc4cbc21cad8a2369ed4c29ab6682723cc1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c89f605849d60f25a1ee46f9382d4275ff9ab088
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754692"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384324"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] so einrichten, dass Daten in bestimmten Tabelle mit Daten in externen Dateien ausgetauscht werden, zum Beispiel zum Senden und Empfangen elektronischer Belege oder zum Importieren und Exportieren von Bankdaten und anderen Daten, wie Lohnabrechnung, Währungswechselkursen und Artikelkatalogen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  

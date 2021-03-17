@@ -3,19 +3,19 @@ title: Erstellen von Kostenbudgets| Microsoft Docs
 description: Dieses Thema enthält eine Übersicht, wo Kostenbudgets erstellt und analysiert werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2a8b8e88e296f36b8f4eb9bb41b05d5fc529b23b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 64f5b4ced195c44b3caeb4127d89624df23a84e1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750955"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391324"
 ---
 # <a name="creating-cost-budgets"></a>Erstellen von Kostenbudgets
 Die Budgetierung in der Kostenrechnung entspricht der Budgetierung im Sachkonto. Ein Kostenbudget wird ausgehend von Kostenarten erstellt, wie ein Budget für das Sachkonto basierend auf Sachkonten erstellt wird.  

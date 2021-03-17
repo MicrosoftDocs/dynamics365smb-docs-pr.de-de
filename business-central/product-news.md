@@ -7,12 +7,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2d1c053d540a977ba131d6229f1287a5a09a12e
-ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
+ms.openlocfilehash: 51fc33167fdd4cc86859048041896fc27ebeff8d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4827018"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388429"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Neues und Geplantes für Dynamics 365 Business Central
 

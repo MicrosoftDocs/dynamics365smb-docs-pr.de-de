@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ba177ba40a11048a19cd401b18b8e4a5a7198d87
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 98dd55a41ccd987d810e4fb747b5cb7355a380dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752280"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382629"
 ---
 # <a name="create-reports-with-xbrl"></a>Berichte mit XBRL erstellen
 XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben. Die XBRL-Initiative ermöglicht die Erstellung globaler Finanzberichte durch verschiedene ERP-Softwareunternehmen und internationale Buchhaltungsorganisationen. Das Ziel der Initiative ist es, einen Standard für die einheitlichen Berichterstellung der Finanzdaten für Banken, Investoren und Regierungsbehörden bereitzustellen. Solche Geschäftsberichte können Folgendes umfassen:  
@@ -27,7 +27,12 @@ XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sp
  • Finanzfremde Informationen  
  • Behördliche Erklärungen, beispielsweise jährlich oder quartalsweise abzugebende Finanzauswertungen  
 
- [!INCLUDE[prod_short](includes/prod_short.md)] Microsoft Dynamics NAV ermöglicht Unternehmen die Implementierung von Daten in XBRL. Die Unternehmen profitieren dadurch von der Flexibilität und Automatisierung, die Ihnen XBRL beim Sammeln und gemeinsamen Nutzen von Daten bietet.  
+> [!NOTE]
+> Sie können Sachkontenschemata importieren und XBRL-Instanzdokumente erstellen, indem Sie Sachkonten aus dem Kontenplan Elementen in Taxonomien zuordnen, die für Finanzberichte wie Bilanzen, Gewinn- und Verlustrechnungen usw. erstellt wurden.
+> 
+> Die XBRL-Funktionen in Business Central unterstützen Taxonomien für Spezifikation 2.1. Taxonomien können jedoch nicht unterstützte Elemente wie Formula Linkbases, iXBRL oder andere strukturelle Unterschiede enthalten. Wir empfehlen, dass Sie die XBRL-Funktion überprüfen, bevor Sie sie für die Berichterstellung verwenden.
+> 
+> Für die vollständige Unterstützung von Taxonomien sind möglicherweise XBRL-Tags und -Tools von Drittanbietern erforderlich. Die Organisation von XBRL International verfügt über eine Liste von Tools und Diensten, die Sie für die XBRL-Berichterstellung verwenden können. Abhängig von den XBRL-Berichtsanforderungen für eine bestimmte Taxonomie möchten Sie möglicherweise diese Ressourcen untersuchen. Weitere Informationen finden Sie unter [Erste Schritte für Unternehmen](https://go.microsoft.com/fwlink/?linkid=2153466) und [Tools und Services](https://go.microsoft.com/fwlink/?linkid=2153356).
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Geschäfts-Berichterstellungs-Sprache
 XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) ist eine XML-basierte Sprache für das Finanzberichtswesen. XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache für Finanzberichtswesen. XBRL ist ein Standard für alle Nutzer der Supply-Chain zur einheitlichen Finanzberichterstattung. Dazu können private Unternehmen, das Buchhaltungswesen, Verwaltungen, Analysten, Investmentfirmen, Kapitalmärkte und Kreditgeber als auch Dritte in Schlüsselpositionen wie Softwareentwickler und Datenverwalter gehören.  

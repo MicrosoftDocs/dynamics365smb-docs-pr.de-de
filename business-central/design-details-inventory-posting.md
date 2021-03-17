@@ -3,19 +3,19 @@ title: Designdetails - Bestandbuchung | Microsoft Docs
 description: Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslieferung, bucht zwei Posten unterschiedlichen Typs.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 383025059d14bf10abcb812f4a5f17f8f3379d06
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 29f4bf5ba4315f6d7a19ba7cf3efd4186a2c5573
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751455"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389899"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetails: Bestandsbuchung
 

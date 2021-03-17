@@ -3,19 +3,19 @@ title: Erstellen Sie Rechnungen für Services | Microsoft Docs
 description: Erfahren Sie, wie Sie Rechnungen erstellen, sodass Sie für Ihren Service bezahlt werden.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 201138673bdc085d6097117b947359802ec17921
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 399f020f1b7a792a4c2db453aa94cb144a8f64dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748080"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385974"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.
 Die einfache Fakturierung von Serviceaufträgen ist ein zentrales Feature von [!INCLUDE[prod_short](includes/prod_short.md)] [!INCLUDE[prod_short](includes/prod_short.md)] kann auch so eingerichtet werden, dass ein Servicetechniker im Feld eine Rechnung für einen Service erstellen kann, der nicht mit einem Vertrag oder Auftrag verbunden ist. Richten Sie [!INCLUDE[prod_short](includes/prod_short.md)] alternativ so ein, dass Sie Serviceverträge regelmäßig in Rechnung stellen. Im Fakturierungsintervall wird für jeden Vertrag festgelegt, wie oft fakturiert wird.

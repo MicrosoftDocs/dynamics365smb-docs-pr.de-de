@@ -3,19 +3,19 @@ title: Erstellen eines Lesezeichens für einen Link zu einer Seite oder einem Be
 description: Erfahren Sie, wie Sie dem Rollencenter einen Link hinzugefügen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1bcbd23658ff2a74ae0ab88b6020e1d859f37355
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747718"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376687"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter
 Mit dem Lesezeichensymbol können Sie über das Navigationsmenü Ihres Rollencenters eine Aktion hinzufügen, die eine Seite oder einen Bericht öffnet. Auf diese Weise können Sie schnell Ihre bevorzugten Inhalte oder Geschäftsaufgaben aufrufen. Sie fügen das Lesezeichen von der Zielseite oder dem Zielbericht aus hinzu, d. h. von dem Bildschirm, der durch den Link im Rollenzentrum geöffnet werden soll.

@@ -2,26 +2,27 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 01/20/2021
+ms.date: 01/25/2021
 ms.author: edupont
-ms.openlocfilehash: 718845561c1a18701d20b93ebdc8339308ce7ac8
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 539ee2eb2c9e4a71eacfb78d95320870128fb1d9
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035785"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470287"
 ---
-Wenn alle Artikel in den Verkaufsauftragszeilen eingegeben wurden, kann der Rechnungsrabatt für den gesamten Verkaufsbeleg berechnet werden, indem Sie auf Aktionen und dann auf die Aktion **Rechnungsrabatt berechnen** klicken.
+Wenn alle Artikel in den Verkaufszeilen eingegeben wurden, kann der Rechnungsrabatt für den gesamten Beleg berechnet werden, indem Sie auf Aktionen und dann auf die Aktion **Rechnungsrabatt berechnen** klicken.
 
-Wenn das Feld **Rechnungsrabatt berechnen** im Fenster **Verkäufe und Debitoren einrichten** ausgewählt wird, dann wird der Rechnungsrabatt automatisch berechnet, wenn Sie eine der folgenden Aktionen auf einem Verkaufsbeleg ausführen:
+Der Rabatt wird basierend auf allen Zeilen des Verkaufsbelegs berechnet, jedoch nur für Artikel, bei denen das Feld **Rech.-Rabatt zulassen** in der Verkaufsauftragszeile die Option **Ja** enthält. Dies ist die Standardeinstellung für Artikel. Beispielsweise werden Zeilen mit Artikelgebühren nicht in die Berechnung des Rechnungsrabattes einbezogen. Wenn Sie einen Rabatt auf solche Zeilen gewähren möchten, müssen Sie das Feld **Zeilenrabatt %** in den entsprechenden Zeilen festlegen.  
 
-* Statistik anzeigen
-* Anzeigen eines Testberichts
-* Drucken
-* Buchung
+> [!TIP]
+> Wenn das Feld **Rechnungsrabatt berechnen** auf der Seite **Verkäufe und Debitoren einrichten** ausgewählt wird, dann wird der Rechnungsrabatt automatisch berechnet, wenn Sie eine der folgenden Aktionen auf einem Verkaufsbeleg ausführen:
+>
+> * Statistik anzeigen
+> * Anzeigen eines Testberichts
+> * Drucken
+> * Buchung
 
-Der Rabatt wird über alle Zeilen des Verkaufsbelegs verteilt, jedoch nur für Artikel, bei denen das Feld **Rech.-Rabatt zulassen** in der Verkaufsauftragszeile die Option **Ja** enthält. Dies ist die Standardeinstellung für Artikel.
-
-Zum Berechnen des Rechnungsrabatts werden die auf der Seite **Debitorenrechnungsrabatt** berechneten Rechnungsrabatte definiert. Anhand des Währungscodes im Verkaufsbeleg werden die Rechnungsrabattbedingungen der entsprechenden Währung ermittelt.
+Zum Berechnen des Rechnungsrabatts für einen Debitor werden auf der Seite **Debitorenrechnungsrabatt** für den Debitor definiert. Anhand des Währungscodes im Verkaufsbeleg werden die Rechnungsrabattbedingungen der entsprechenden Währung ermittelt.
 
 Wenn keine Rechnungsrabatte für Fremdwährungen definiert wurden, verwendet die Anwendung die Rechnungsrabattbedingungen in Mandantenwährung, die in der Tabelle **Debitorenrechnungsrabatt** festgelegt wurden und den Wechselkurs zum Buchungsdatum des Verkaufsbelegs, um den Rechnungsrabatt in der Fremdwährung zu berechnen.

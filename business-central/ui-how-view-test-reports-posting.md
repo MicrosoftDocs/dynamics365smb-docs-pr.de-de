@@ -5,18 +5,18 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 28b796a001d1bd1d981ab84bc13607158733c502
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cab7487290a945a8b105afe89c73322eba42668e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760467"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393824"
 ---
 # <a name="view-test-reports-before-posting"></a>Anzeigen von Testberichten vor dem Buchen
 Wenn Sie bereit sind, ein Dokument zu buchen (beispielsweise eine Bestellung, eine Einkaufsrechnung oder eine Einkaufsgutschrift), können Sie das Dokument testen, um sicherzustellen, dass keine Probleme vorhanden sind, die das Buchen verhindern.

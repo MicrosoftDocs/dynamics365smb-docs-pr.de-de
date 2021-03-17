@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Einrichten von Betriebskalendern | Microsoft Docs'
 description: In einem Arbeitsplatzgruppenkalender werden die Arbeitstage und -stunden, Schichten, Feiertage und Fehlzeiten angegeben, die die verfügbare Bruttokapazität der Arbeitsplatzgruppe zeitlich gemessen entsprechend ihren definierten Effektivitäts- und Kapazitätswerten bestimmen. Um einen Arbeitsplatzgruppenkalender zu erstellen und zu aktivieren, sind verschiedene vorbereitende Aufgaben auszuführen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 127ae5af7533c4a6b8b77f2ed88fe90e4453966e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0abbf4d2f6fd93a4555809a025f39f8ec7347ee1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759317"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389774"
 ---
 # <a name="set-up-shop-calendars"></a>Betriebskalender einrichten
 In einem Arbeitsplatzgruppenkalender werden die Arbeitstage/-stunden, Schichten, Feiertage und Fehlzeiten angegeben, die die verfügbare Bruttokapazität der Arbeitsplatzgruppe (zeitlich gemessen) entsprechend ihren definierten Effektivitäts- und Kapazitätswerten bestimmen.

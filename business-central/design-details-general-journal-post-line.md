@@ -3,19 +3,19 @@ title: 'Designdetails: Fibu-Buchungszeile - Überblick | Microsoft Docs'
 description: Diese Dokumentation stellt einen detaillierten technischen Einblick in die Urheberrechtshinweise und Prinzipien bereit, die verwendet werden, um die Finanzbuchhaltungs-Buchungsfunktion in Business Central neu zu gestalten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 56cf606151f687cf48138b3e14758d7febc47db6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e7e61b572b2a7a1538d58430cbbcbb19d7cda999
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751579"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390074"
 ---
 # <a name="design-details-general-journal-post-line"></a>Designdetails: Fibu Buch.-Blatt-Buchungsposition
 Diese Dokumentation stellt einen detaillierten technischen Einblick in die Urheberrechtshinweise und Prinzipien bereit, die verwendet werden, um die Finanzbuchhaltungs-Buchungsfunktion in [!INCLUDE[prod_short](includes/prod_short.md)] neu zu gestalten. Die Neukonstruktion macht Codeunit 12 einfacher und einfacher zu verwalten. Die Dokumentation beginnt mit der Beschreibung der konzeptionellen Übersichten der Neugestaltung. Dann wird die technische Architektur erklärt, um die Änderungen zu zeigen, die sich aus der Neugestaltung ergeben.  

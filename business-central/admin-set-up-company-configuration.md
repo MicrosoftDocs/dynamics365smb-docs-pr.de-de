@@ -3,19 +3,19 @@ title: Unternehmenskonfigurationen einrichten | Microsoft Docs
 description: Der Implementierungsprozess beginnt mit der benötigten Business Central Lösung. Sie bündeln alle diese Informationen in Konfigurationspakete.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e9b54a28c960ccdaa41c16cce237266e8cb43a88
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 402595c34d69db0a14fce6eac8f3bb9e0896d06b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4745942"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385274"
 ---
 # <a name="set-up-company-configuration"></a>Richten Sie eine Unternehmenskonfiguration ein.
 Der Implementierungsprozess beginnt mit dem Microsoft-Partner. Dies ist der Partner, der für die Formulierung der Konfigurationsdetails und das Erstellen eines Pakets zuständig ist, dass ein Debitor einfach anwenden kann. Bevor Sie einen neuen Mandanten erstellen, sollten Sie planen, wie dieser konfiguriert wird. Sie müssen an grundlegende Einrichtungsdaten und die Arten der Daten denken, die Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Lösung benötigt. Sie bündeln alle diese Informationen in Konfigurationspakete.

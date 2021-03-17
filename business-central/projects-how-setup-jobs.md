@@ -3,17 +3,17 @@ title: Preise und Projektbuchungsgruppen einrichten| Microsoft Docs
 description: Beschreibt, wie allgemeine Projektinformationen und Preise für Projektartikel, Ressourcen und Sachkonten und Projektbuchungsgruppen eingerichtet werden.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 04f5538b7c904b64c921cc50f64924bcaef93401
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758642"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476770"
 ---
 # <a name="set-up-jobs"></a>Einrichten von Projekten
 
@@ -47,44 +47,31 @@ Wenn das Kontrollkästchen **Verbrauchslink standardmäßig anwenden** aktiviert
 1. Wählen Sie das Symbol ![Seite suchen oder Bericht](media/ui-search/search_small.png "Suchen Sie nach dem Symbol Seite oder Bericht"), geben Sie **Jobs einrichten** ein und wählen Sie dann den entsprechenden Link.
 2. Aktivieren sie das Kontrollkästen **Verbrauchslink standardmäßig anwenden**.
 
-## <a name="to-set-up-prices-for-job-resources"></a>So richten Sie Verkaufspreise für Projektressourcen ein
-Sie können bestimmte Verkaufspreise für Ressourcen für ein Projekt einrichten. Dazu verwenden Sie die Seite **Res.-VK-Preise Projekt**.
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Erstellen projektspezifischer Preise für Ressourcen, Artikel und Sachkonten für Projekte
+> [!NOTE]
+> In Veröffentlichungszyklus 2 von 2020 haben wir neue Prozesse zum Einrichten und Verwalten von Preisen und Rabatten veröffentlicht. Wenn Sie ein neuer Kunde sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Ressource** aus.
-3. Füllen Sie auf der Seite **Projektressourcen-Preise** die notwendigen Felder aus.
+Sie können Preise für die Artikel, Ressourcen und Sachkonten für Projekte einrichten. 
 
-Die optionalen Informationen in den Feldern **Projektaufgabennr.**, **Arbeitstyp**, **Währungscode**, **Zeilenrabatt %** und **Einstandspreisfaktor** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird.  
+#### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience)
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Ressource**, **Artikel** oder **Sachkonto** aus.
+3. Füllen Sie auf den Seiten **Res.-VK-Preise Projekt**, **Projektartikelpreise**, oder **Projekt-Sachkontopreise** die Felder nach Bedarf aus.
 
-Der Wert im Feld **VK-Preis** für die Ressource wird in den Projektplanungszeilen und Projektbuchungsblättern verwendet, wenn diese Ressource, eine der Ressourcengruppe zugeordnete Ressource bzw. eine beliebige Ressource eingegeben wird.  
+Die folgende Tabelle zeigt, wie die Informationen in den optionalen Feldern in Jobplanungszeilen und Journalen verwendet werden, wenn die Ressource, das Element oder das Hauptbuchkonto für den Job ausgewählt werden.
 
-> [!NOTE]  
->   Dieser Preis hat immer Vorrang vor allen Preisen, auf der vorhandenen Seite des Typs **Ressourcen-VK-Preis/Ressourcengruppen-VK-Preise** eingerichtet sind.
+|Spalte1  |Spalte2  |
+|---------|---------|
+|**Projektressourcen**|Die Felder **Projektaufgabennr.**, **Arbeitstyp**, **Währungscode**, **Zeilenrabatt %** und **Einstandspreis**. Der Wert im Feld **VK-Preis** für die Ressource wird in den Projektplanungszeilen und Projektbuchungsblättern verwendet, wenn diese Ressource, eine der Ressourcengruppe zugeordnete Ressource bzw. eine beliebige Ressource eingegeben wird. Beachten Sie, dass dieser Preis immer Vorrang vor allen Preisen hat, die auf der vorhandenen Seite des Typs **Ressourcen-VK-Preis/Ressourcengruppen-VK-Preise** eingerichtet sind.|
+|**Projektartikel**|Die Felder **Projektaufgabennr.**, **Währungscode** und **Zeilenrabatt %**. Dies ist der Wert im Feld **VK-Preis** der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieser Artikel eingegeben wird. Beachten Sie, dass dieser Preis immer Vorrang vor dem regulären Kundenpreis (Mechanismus für „bester Preis“) für Artikel hat. Wenn Sie den Mechanismus für den regulären Debitorenpreis verwendet wollen, erstellen Sie keine Projektartikelpreise für das Projekt.|
+|**Sachkonten**|Die Informationen in den Feldern **Projektaufgabennr.**, **Währungscode**, **Zeilenrabatt %**, **Einheitskostenfaktor** und **Einheitskosten** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird. Füllen Sie das Feld **VK-Preis** für das Aufwandssachkonto aus. Dies ist der Verkaufspreis, der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieses Sachkonto eingegeben wird.|
 
-## <a name="to-set-up-prices-for-job-items"></a>So richten Sie Preise für Projektartikel ein
-Sie können bestimmte Preise für Artikel für ein Projekt einrichten. Dazu verwenden Sie die Seite **Projektartikelpreise**.
+---
+#### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience)
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
+2. Markieren Sie den entsprechenden Job und wählen Sie dann die Aktion **Verkaufspreislisten**.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Artikel** aus.
-3. Füllen Sie auf der Seite **Projektartikelpreise** die notwendigen Felder aus.
-
-Die optionalen Informationen in den Feldern **Projektaufgabennummer**, **Währungscode** und **Zeilenrabatt %** werden in den Projektplanungszeilen und Projektbuchungsblättern verwendet, wenn dieser Artikel eingegeben wird.  
-
-Dies ist der Wert im Feld **VK-Preis** der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieser Artikel eingegeben wird.  
-
-> [!NOTE]  
->   Dieser Preis hat immer Vorrang vor dem regulären Debitorenpreis (Mechanismus für "bester Preis") für Artikel. Wenn Sie den Mechanismus für den regulären Debitorenpreis verwendet wollen, erstellen Sie keine Projektartikelpreise für das Projekt.
-
-## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Preise für Projektbuchungskonten einrichten
-Sie können bestimmte Preise für die Aufwandssachposten eines Projekts einrichten. Dazu verwenden Sie die Seite **Projekt-Sachkontopreise**.
-
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Sachkonto** aus.  
-3. Füllen Sie auf der Seite **Sachkonto-Preise** die notwendigen Felder aus.
-
-Die optionalen Informationen in den Feldern **Projektaufgabennr.**, **Währungscode**, **Zeilenrabatt %**, **Einheitskostenfaktor** und **Einheitskosten** werden auf den Projektplanungszeilen und Verbrauchsbuchungsblättern verwendet, wenn diese Ressource eingegeben und dem Projekt hinzugefügt wird.  
-
-Füllen Sie das Feld **VK-Preis** für das Aufwandssachkonto aus. Dies ist der Verkaufspreis, der in den Projektplanungszeilen und Projektbuchungsblättern verwendet wird, wenn dieses Sachkonto eingegeben wird.
+---
 
 ## <a name="to-set-up-job-posting-groups"></a>Projektbuchungsgruppen einrichten
 Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungskonten für die Projektkalkulation verwendet werden. Damit Projekte gebucht werden können, müssen Sie Konten für die Buchung für jede Projektbuchungsgruppe einrichten. Eine Buchungsgruppe stellt eine Verknüpfung zwischen dem Projekt und der Art dar, wie es in der Finanzbuchhaltung zu behandeln ist. Wenn Sie ein Projekt erstellen, geben Sie eine Buchungsgruppe an, und standardmäßig wird jede Aufgabe, die Sie erstellen, dieser Buchungsgruppe zugeordnet. Wenn Sie Aufgaben erstellen, können Sie jedoch die Voreinstellung überschreiben und eine Buchungsgruppe auswählen, die geeigneter ist.  

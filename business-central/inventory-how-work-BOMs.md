@@ -3,18 +3,18 @@ title: Mit Stücklisten arbeiten, um Komponenten zu verwalten
 description: Sie erstellen eine Montagestückliste oder eine Fertigungsstückliste, um die Komponenten und Ressourcen anzuzeigeb, die benötigt werden, um den Artikel zusammenzufügen, die die Stückliste darstellt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
-ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
+ms.openlocfilehash: 2ada3cea6a7c7e5fddc122b9405a6e608f35a804
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "4838457"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377598"
 ---
 # <a name="work-with-bills-of-material"></a>Mit Fertigungsstücklisten arbeiten
 Verwenden Sie Stücklisten (BOMs), um beispielsweise Oberartikel zu strukturieren, die nach Ressourcen oder Arbeitsplätze aus Komponenten montiert oder gefertigt werden müssen. Eine Montagestückliste kann auch verwendet werden, um den übergeordneten Artikel als Kit zu verkaufen, das aus den Komponenten bestehet.

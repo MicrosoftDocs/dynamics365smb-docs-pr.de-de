@@ -3,21 +3,21 @@ title: So bereiten Sie ein Konfigurationspaket vor | Microsoft Docs
 description: Erfahren Sie nun, wie Sie ein RapidStart-Konfigurationspaket konfigurieren, mit dem Sie Unternehmen basierend auf vorhandenen Daten einrichten können.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6b8e0a46375bce9ffd22b160766925bf803025f0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752725"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378198"
 ---
-# <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vor
+# <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
 
 Wenn Sie ein neues Unternehmen basierend auf einem Konfigurationspaket konfigurieren, werden Tabellenrelationen festgestellt und verarbeitet. Daten werden in der richtigen Reihenfolge importiert und übernommen. Dimensionstabellen werden auch importiert, wenn sie im Konfigurationspaket enthalten sind. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data).  
 
@@ -175,3 +175,6 @@ Nachdem Sie alle Ihre Setupinformationen untersucht und getestet haben, können 
 [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Analyse der Trace-Telemetrie für Konfigurationspakete](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

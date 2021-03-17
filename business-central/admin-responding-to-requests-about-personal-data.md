@@ -7,13 +7,13 @@ ms.author: bholtorf
 ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
-ms.topic: article
-ms.openlocfilehash: 52e453f8a2d63fbfd8c7e3fa292a8d0a98fcaa3c
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.topic: conceptual
+ms.openlocfilehash: cdab3e07d2f522be01a6bd1096ae724d824b52bf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817154"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385349"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Antworten auf Anforderungen zu Personendaten  
 Datensubjekte können mehrere Arten von Aktionen für die Personendaten abfragen. Beispielsweise unter dem Gesetz zum Schutz der allgemeinen Daten (DSGVO), haben EU-Bewohner das Recht, Export, das Löschen oder die Änderung Ihrer Personendaten anzufordern. Dieses wird *Anträge betroffener Personen* genannt. Wenn Sie die Vertraulichkeit Ihrer Daten klassifiziert haben und sicher sind, dass sie korrekt sind, kann ein Administrator mithilfe der Optionen unter der Registerkarte **Datenprivatsphäre** im **IT-Manager** Rollenzentrum antworten. Weitere Informationen zum Klassifizieren vol sensiblen Daten in [!INCLUDE[prod_long](includes/prod_long.md)] und [Klassifizieren von Daten](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) und [Klassieren von Datensensibilität](admin-classifying-data-sensitivity.md).  

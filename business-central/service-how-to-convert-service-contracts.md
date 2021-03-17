@@ -3,19 +3,19 @@ title: 'Vorgehensweise: Konvertieren von Serviceverträgen | Microsoft Docs'
 description: Da das Werkzeug zum Ändern des MwSt.-Satzes keine Serviceverträge konvertieren, müssen diese Verträge manuell konvertiert werden. In diesem Thema werden mehrere alternative Methoden beschrieben, die Sie für die Servicevertragkonvertierung verwenden können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62a284d536c9ffe51302062d264647fd818f9a6b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a82f2e17a25c10eee9fa4633f12d75d265a057f9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925747"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390374"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertieren von Serviceverträgen, die MwSt.-Beträge enthalten
 Da das Werkzeug zum Ändern des MwSt.-Satzes keine Serviceverträge konvertieren, müssen diese Verträge manuell konvertiert werden. In diesem Thema werden mehrere alternative Methoden beschrieben, die Sie für die Servicevertragkonvertierung verwenden können.  
@@ -32,9 +32,9 @@ Da das Werkzeug zum Ändern des MwSt.-Satzes keine Serviceverträge konvertieren
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Vertragsverwaltung** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie unter **Listen** die Option **Serviceverträge** aus.  
 3. Erstellen Sie eines neuen vorausbezahlten Servicevertrags. Geben Sie als Startdatum **01.01.2017** und als Fakturierungsjahr für Debitor **20000** ein.  
-4. Um den Vertrag zu unterzeichnen, wählen Sie die Aktion **Vertrag unterschreiben** .  
+4. Um den Vertrag zu unterzeichnen, wählen Sie die Aktion **Vertrag unterschreiben**.  
 5. Erstellen Sie eine Servicerechnung.
-6. Die Rechnung wird als nicht gebuchte Servicerechnung aufgelistet. Um die Servicerechnung anzuzeigen, wählen Sie die Aktion **Service** , wählen Sie die Aktion **Vertragsmanagement** und dann die Aktion **Serverechnungen** .  
+6. Die Rechnung wird als nicht gebuchte Servicerechnung aufgelistet. Um die Servicerechnung anzuzeigen, wählen Sie die Aktion **Service**, wählen Sie die Aktion **Vertragsmanagement** und dann die Aktion **Serverechnungen**.  
 7. Buchen Sie die Servicerechnung.  
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ Nachfolgend wird beschrieben, wie eine neue Gutschrift mithilfe des Batchauftrag
 1. Führen Sie das Werkzeug zum Ändern des MwSt.-Satzes am 1. Juli 2017 aus. Die allgemeine Produktbuchungsgruppe oder die MwSt-Produktbuchungsgruppe werden geändert. Weitere Informationen Sie unter [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md).  
 2. Nachdem Sie das Werkzeug zum Ändern des MwSt.-Satzes ausgeführt haben, können Sie ein Vertragsablaufdatum für den Servicevertrag eingeben. Sie können die Servicevertragszeile jetzt löschen und eine neue Zeile erstellen, die mit der alten identisch ist.  
 3. Erstellen Sie eine neue Rechnung für die Periode von Januar 2017 bis Dezember 2012 unter Verwendung des neuen Mehrwertsteuersatzes.  
-4. Um eine weitere Gutschrift zu erstellen, wählen Sie auf der Seite **Servicegutschriften** die Aktion **Neu** , um eine neue Servicegutschrift zu erstellen.  
+4. Um eine weitere Gutschrift zu erstellen, wählen Sie auf der Seite **Servicegutschriften** die Aktion **Neu**, um eine neue Servicegutschrift zu erstellen.  
 5. Wählen Sie die **Vorausbez. Vertragsposten holen** Aktion aus.  
 6. Nachdem die Konvertierung abgeschlossen ist, sind MwSt.- und Serviceposten korrekt.  
 

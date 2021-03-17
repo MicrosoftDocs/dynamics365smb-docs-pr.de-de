@@ -3,19 +3,19 @@ title: Speichern und personalisieren Sie Listenansichten | Microsoft Docs
 description: Erfahren Sie, wie Sie Ihre eigenen Ansichten von gefilterten Listen erstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37fa84f9d0bb97f7e2b6fe94cc6180ef3eb83689
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 04a7040f23304408fb30d65590663de43d447cd4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024487"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392424"
 ---
 # <a name="save-and-personalize-list-views"></a>Speichern und personalisieren Sie Listenansichten
 Wenn Sie einen Filter für eine Liste festgelegt haben und den Filter für später behalten möchten, können Sie ihn als Ansicht speichern. Weitere Informationen zum Filtern von Listen finden Sie unter [Festlegen von Filtern in Listen](ui-enter-criteria-filters.md#setting-filters-on-lists).

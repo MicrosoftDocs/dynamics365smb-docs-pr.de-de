@@ -4,19 +4,19 @@ description: Mehr über das Hinzufügen von Funktionalitäten und Anpassungen in
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ec80608757a8865cdea62af54ceda855e673942a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 38022164846c9463a91179a6d71b9ebb8e4bd2a2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747643"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385924"
 ---
 # <a name="customize-business-central"></a>Anpassen von Business Central
 Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kollegen Zugriff auf die Funktionen, die Funktionalität und die Daten zu geben, die Sie am häufigsten brauchen, uns so, dass es am besten in Ihre tägliche Arbeit passt. Diejenigen, die Änderungen sehen, verlassen sich auf das, was Sie tun in der Tabelle.

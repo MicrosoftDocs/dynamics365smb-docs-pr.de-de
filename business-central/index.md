@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 965171f23fb774ecfd865c1004cb9a224015ea21
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 836c3957f43d4b2d6ccb5e10bf8ef5efa3ba1177
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817206"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493202"
 ---
 # <a name="welcome-to-prod_long"></a>Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -32,7 +32,7 @@ Wenn Sie bereits über [!INCLUDE[prod_short](includes/prod_short.md)] verfügen,
 Sie können auch [die Videobibliothek ansehen](across-videos.md) oder mit [den ersten Schritten mit Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) im Lernpfad auf [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) beginnen.  
 
 > [!NOTE]
-> Sofern nicht anders angegeben, spiegelt der Inhalt der Docs.microsoft.com-Website die neueste Version von [!INCLUDE[prod_short](includes/prod_short.md)] Online wider. Wenn Ihre Organisation eine andere Version von [!INCLUDE[prod_short](includes/prod_short.md)] Online verwendet, sind einige Funktionen möglicherweise noch nicht verfügbar. Wenn Ihre Organisation [!INCLUDE[prod_short](includes/prod_short.md)] lokal nutzt, verwenden Sie möglicherweise eine frühere Version. Weitere Informationen finden Sie unter [Häufig gestellte Fragen](across-faq.md).
+> Sofern nicht anders angegeben, spiegelt der Inhalt der [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central/)-Website die neueste Version von [!INCLUDE[prod_short](includes/prod_short.md)] Online wider. Wenn Ihre Organisation eine andere Version von [!INCLUDE[prod_short](includes/prod_short.md)] Online verwendet, sind einige Funktionen möglicherweise noch nicht verfügbar. Wenn Ihre Organisation [!INCLUDE[prod_short](includes/prod_short.md)] lokal nutzt, verwenden Sie möglicherweise eine frühere Version. Weitere Informationen finden Sie unter [Häufig gestellte Fragen](across-faq.md).
 
 In den folgenden Abschnitten finden Sie wichtige Artikel, mit denen Sie sich vertraut machen können [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -69,6 +69,10 @@ In den folgenden Abschnitten finden Sie wichtige Artikel, mit denen Sie sich ver
 - [Entwicklung in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regeln und Richtlinien für AL-Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
+
+## <a name="learn"></a>Informationen
+
+Finden Sie kostenlose E-Learning-Inhalte auf [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 ## <a name="community-resources"></a>Community-Ressourcen
 

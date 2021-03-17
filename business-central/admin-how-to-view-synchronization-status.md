@@ -3,19 +3,19 @@ title: Anzeigen des Status von Synchronisierungsprojekten | Microsoft Docs
 description: Erfahren Sie, wie Sie den Status nach dem Synchronisieren gekoppelter Datensätze anzeigen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 614106792985487beeaa9dc6e995e97970996e48
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a54ce7805deafa5d67c3e25b89606a1a40634ad6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752611"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378148"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Den Status von Synchronisierungsprojekten anzeigen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

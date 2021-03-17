@@ -3,7 +3,7 @@ title: Hinzufügen von Informationen zu Datensätzen | Microsoft Docs
 description: Hinzufügen einer Notiz zu einem beliebigen Datensatz in der Anwendung. Falls Sie beispielsweise zusätzliche Informationen zu einem Verkaufsauftrag besitzen, die nicht vollständig in einem der Felder im Verkaufsauftrag eingegeben werden können, können Sie eine Notiz verfassen.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 3fa0ed8b91d4bdae845fe4a7f20a500665856a7d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5a8e71aacee92b77e5da3ebdfab720723c9f6326
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756567"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392374"
 ---
 # <a name="add-and-view-notes-on-records"></a>Notizen zu Datensätzen hinzufügen und anzeigen
  Sie <!--OnPrem and your colleagues -->können Notizen den Datensätzen in der Anwendung hinzufügen. Viele Seiten, insbesondere diejenigen, die eine Liste der Datensätze, wie die Seite **Verkaufsaufträge** anzeigen, enthalten die **Notizen** Aktion oder die Infobox **Notizen**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->

@@ -6,21 +6,23 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
-ms.openlocfilehash: 65911039894d1f0eb81aeb1160a6b2aafc2fae0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2b6d27ed04eb7f09bc884930105867c25b2b4a5f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752875"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492959"
 ---
 # <a name="handling-missing-option-values"></a>Behandlung fehlender Optionswerte
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] enthält nur drei Optionssatzfelder, die Optionswerte enthalten, die Sie den [!INCLUDE[prod_short](includes/prod_short.md)]-Feldern des Optionstyps zuordnen können<!-- Option type, not enum? @Onat can you vertify this? --> für die automatische Synchronisation. Während der Synchronisation werden nicht abgebildete Optionen ignoriert und die fehlenden Optionen werden an die zugehörige [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle angehängt und der **CDS-Optionszuordnung**-Systemtabelle hinzugefügt, um später manuell behandelt zu werden. Zum Beispiel, indem er die fehlenden Optionen in einem der beiden Produkte hinzufügt und dann die Zuordnung aktualisiert. Dieser Abschnitt beschreibt, wie das funktioniert.
+Dieses Thema richtet sich an ein technisches Publikum. Die darin beschriebenen Prozesse erfordern die Hilfe eines Entwicklers.
 
-Die Seite **Integration Tabellenzuordnung** enthält drei Zuordnungen für Felder, die einen oder mehrere zugeordnete Optionswerte enthalten. Nach einer vollständigen Synchronisierung enthält die Seite **CDS-Optionszuordnung** jeweils die nicht zugeordneten Optionen in den drei Feldern.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] enthält drei Optionssatzfelder, die Werte enthalten, die Sie [!INCLUDE[prod_short](includes/prod_short.md)] Feldern vom Typ „Option“ zur automatischen Synchronisation zuordnen können. Während der Synchronisation werden nicht abgebildete Optionen ignoriert und die fehlenden Optionen werden an die zugehörige [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle angehängt und der **Dataverse-Optionszuordnung**-Systemtabelle hinzugefügt, um später manuell behandelt zu werden. Zum Beispiel, indem er die fehlenden Optionen in einem der beiden Produkte hinzufügt und dann die Zuordnung aktualisiert.
+
+Die Seite **Integration Tabellenzuordnung** enthält drei Felder, die einen oder mehrere zugeordnete Optionswerte enthalten. Nach einer vollständigen Synchronisierung enthält die Seite **Dataverse-Optionszuordnung** jeweils die nicht zugeordneten Optionen in den drei Feldern.
 
 |         Datensatz             | Optionswert | Optionswert Beschriftung |
 |----------------------------|--------------|----------------------|
@@ -38,7 +40,7 @@ Die Seite **Integration Tabellenzuordnung** enthält drei Zuordnungen für Felde
 | Spediteur: FULLLOAD   | 6            | Volle Belastung            |
 | Spediteur: WILLCALL   | 7            | Will Call            |
 
-Der Inhalt der Seite **CDS-Optionszuordnung** basiert auf Aufzählungswerten in der Tabelle **CDS-Konto**. In [!INCLUDE[prod_short](includes/cds_long_md.md)] werden die folgenden Felder auf der Kontotabelle den Feldern der Debitoren- und Kreditorendatensätze zugeordnet:
+Der Inhalt der Seite **Dataverse-Optionszuordnung** basiert auf Aufzählungswerten in der Tabelle **CRM -Konto**. In [!INCLUDE[prod_short](includes/cds_long_md.md)] werden die folgenden Felder auf der Kontotabelle den Feldern der Debitoren- und Kreditorendatensätze zugeordnet:
 
 - **Adresse 1: Frachtbedingungen** vom Datentyp Enum, wobei die Werte wie folgt definiert sind:
 
@@ -55,7 +57,6 @@ enum 5335 "CDS Shipment Method Code"
 - **Adresse 1: Lieferbedingung** vom Datentyp Enum, wobei die Werte wie folgt definiert sind:
 
 ```
-enum 5336 "CDS Shipping Agent Code"
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -111,7 +112,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-prod_short-option-mapping"></a>Update [!INCLUDE[prod_short](includes/cds_long_md.md)] Optionszuordnung
 Jetzt können Sie die Zuordnung zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)]-Optionen und [!INCLUDE[prod_short](includes/prod_short.md)]-Einträgen neu erstellen.
 
-Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die Karte **Zahlungsbedingungen** und wählen Sie dann die Aktion **Modifizierte Datensätze synchronisieren**. Die Seite **CDS Optionszuordnung** wird mit den zusätzlichen Datensätzen unten aktualisiert.
+Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die Karte **Zahlungsbedingungen** und wählen Sie dann die Aktion **Modifizierte Datensätze synchronisieren**. Die Seite **Dataverse Optionszuordnung** wird mit den zusätzlichen Datensätzen unten aktualisiert.
 
 |         Datensatz                 | Optionswert   | Optionswert Beschriftung |
 |--------------------------------|----------------|----------------------|
@@ -122,7 +123,7 @@ Wählen Sie auf der Seite **Integration Tabellenzuordnung** die Zeile für die K
 | **Zahlungsbedingungen: BARZAHLUNG**  | **779800001**  | **Barzahlung**     |
 | **Zahlungsbedingungen: ÜBERWEISUNG**    | **779800002**  | **Umlagerung**         |
 
-Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[prod_short](includes/prod_short.md)] enthält dann neue Datensätze für die Optionen [!INCLUDE[prod_short](includes/cds_long_md.md)]. In der folgenden Tabelle sind neue Optionen fettgedruckt. Kursiv gedruckte Zeilen stellen alle Optionen dar, die jetzt synchronisiert werden können. Die verbleibenden Zeilen stellen Optionen dar, die nicht verwendet werden und während der Synchronisierung ignoriert werden. Sie können sie entfernen oder CDS-Optionen mit den gleichen Namen erweitern).
+Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[prod_short](includes/prod_short.md)] enthält dann neue Datensätze für die Optionen [!INCLUDE[prod_short](includes/cds_long_md.md)]. In der folgenden Tabelle sind neue Optionen fettgedruckt. Kursiv gedruckte Zeilen stellen alle Optionen dar, die jetzt synchronisiert werden können. Die verbleibenden Zeilen stellen Optionen dar, die nicht verwendet werden und während der Synchronisierung ignoriert werden. Sie können sie entfernen oder Dataverse-Optionen mit den gleichen Namen erweitern).
 
 | Code       | Berechnung Fälligkeitsdatum | Berechnung des Diskontierungsdatums | Ermäßigung in % | Rechnungsrab. Zahl. Verk. im Zinsrechnung | Beschreibung       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -136,10 +137,10 @@ Die Tabelle **Zahlungsbedingungen** in [!INCLUDE[prod_short](includes/prod_short
 | 30 TAGE    | 30T                  |                           | 0.         | FALSCH                         | Netto 30 Tage       |
 | 60 TAGE    | 60T                  |                           | 0.         | FALSCH                         | Netto 60 Tage       |
 | 7 TAGE     | 7T                   |                           | 0.         | FALSCH                         | Netto 7 Tage        |
-| ***BARZAHLUNG** _ |                      |                           | 0.         | FALSCH                         |                   |
+| ***BARZAHLUNG*** |                      |                           | 0.         | FALSCH                         |                   |
 | LM         | LM                   |                           | 0.         | FALSCH                         | Aktueller Monat     |
 | COD        | 0T                   |                           | 0.         | FALSCH                         | Nachnahme  |
-| _NET30*      |                      |                           | 0.         | FALSCH                         |                   |
+| *NET30*      |                      |                           | 0.         | FALSCH                         |                   |
 | *NET45*      |                      |                           | 0.         | FALSCH                         |                   |
 | *NET60*      |                      |                           | 0.         | FALSCH                         |                   |
 | ***ÜBERTRAGUNG*** |                      |                           | 0.         | FALSCH                         |                   |

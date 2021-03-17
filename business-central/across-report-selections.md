@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.date: 01/18/2021
 ms.author: edupont
-ms.openlocfilehash: d30baa44894658c03c3deffdf24a7923293b88fd
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 9d282ea35f7b4bdf317e818504f061d4145404bd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024637"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378998"
 ---
 # <a name="report-selection-in-business-central"></a>Berichtsauswahl in Business Central
 

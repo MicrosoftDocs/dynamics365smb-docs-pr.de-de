@@ -3,19 +3,19 @@ title: Anwenden von Debitorenposten, um Debitoren-Zahlungen manuell abzustimmen 
 description: Beschreibt, wie Debitorenzahlungseingänge oder -Erstattungen mit einem oder mehreren offenen Debitorenposten angewendet und Debitorenzahlungen ausgeglichen werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c5f0ba926208d831cac4d5e3b54c5a8e83a9d92c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: bf43e2ac755678f46549e220a49c87de61fc1901
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748593"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392724"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten
 Wenn Sie einen Zahlungseingang von einem Debitor erhalten oder eine Barerstattung durchführen, müssen Sie entscheiden, ob die Zahlung oder die Rückerstattung mit einem oder mehreren offenen Soll- oder Habenposten ausgeglichen werden soll. Sie können den Betrag angeben, den Sie anwenden möchten. Beispielsweise können Sie Teilzahlungen für die Debitorenposten übernehmen. Schließende Debitorenposten stellen sicher, dass Informationen wie Debitorenstatistiken, Kontoauszüge und Zinsrechnungen korrekt sind.

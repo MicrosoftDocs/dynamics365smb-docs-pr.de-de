@@ -3,19 +3,19 @@ title: Kreditoren Lieferanmahnungscodes zuweisen [DE]
 description: Um Lieferanmahnungen für überfällige Einkäufe zu aktivieren, müssen Sie Kreditoren Lieferanmahnungsbedingungen in der deutschen Version zuweisen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7de26a55f52eb6ba1e4d012ef23a2e62a326b613
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 125268348660ed61e19f8b46c95ce364e8240073
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931262"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381858"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors-in-the-german-version"></a>Kreditoren Lieferanmahnungscodes in der deutschen Version zuweisen
 

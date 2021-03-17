@@ -3,19 +3,19 @@ title: 'Designdetails: Bedarf und Vorrat | Microsoft Docs'
 description: Dieses Thema erläutert das Konzept der Nachfrage, welches der allgemeine Begriff ist für jede Art Brutto-Bedarf, wie beispielsweise für Verkaufsauftrags und Komponentenbedarf aus einem Fertigungsauftrag.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4661104e32e648cc134b3ba0c3d44b5a8c6daca6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cbafba8d012244b10c142912b357188a1f7eece4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911205"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386949"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Designdetails: Bedarf an leerem Lagerort
 Wenn ein Benutzer ein Bedarfsereignis erstellt, wie eine Verkaufsauftragszeile, erlaubt es das Programm dem Benutzer, manchmal einen Lagerortcode anzugeben und andere Male nicht, das heißt, es muss ein leerer Lagerort verwendet werden.

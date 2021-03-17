@@ -3,19 +3,19 @@ title: Mehrsprachigkeit und Lokalisierung
 description: Erfahren Sie, wie die Sprache und Region die Benutzeroberfläche in Business Central beeinflussen. Um der Benutzeroberfläche die Sprache zu ändern, wechseln Sie zur Seite Meine Einstellungen.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 65eae978e274c06856b0f1bc6eb8d1d1b10dae7b
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: b7dad6212361eaebc4e08cc2c638a84c41850e9d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068460"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385074"
 ---
 # <a name="changing-language-and-region"></a>Ändern der Sprache und der Region
 

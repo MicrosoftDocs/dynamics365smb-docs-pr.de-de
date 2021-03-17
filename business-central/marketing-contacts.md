@@ -3,25 +3,25 @@ title: Erstellen und Verwalten von Unternehmenskontakten | Microsoft Docs
 description: Sie richten alle externen Entitäten ein, mit denen Sie Geschäftsbeziehungen haben (wie Debitoren, Interessenten, Kreditoren und Berater).
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ea0bf893088694115e5cb54f2b9500bb4eacf6ac
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e1e232dec1d6c0bdb5fa97b8351a4b81abb8395d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922768"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388924"
 ---
 # <a name="managing-contacts"></a>Kontakte verwalten
 
 Mitarbeiter in Ihrem Unternehmen treffen regelmäßig mit möglichen Geschäftsbeziehungen zusammen. Aus diesen Zusammentreffen können sich formale Beziehungen ergeben. All diese externen Kontakte und ihre detaillierten Informationen sollten im System aufgezeichnet werden, damit die Kommunikation erfolgreicher ist und sie problemlos in formale Debitor-, Kreditor- oder Bankbeziehungen umgewandelt werden können.
 
-Verwenden Sie die Liste **Kontakte** , um Ihre Kontakte zu verwalten. Von dort aus können Sie Verkaufschancen erstellen und andere Interaktionen mit einzelnen Kontakten verwalten. Sie können auch Statistiken zu einem Kontakt anzeigen und auf eine Reihe von Berichten zugreifen. Informationen dazu, wie Sie den richtigen Kontakt in der Liste finden, finden Sie unter [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md).  
+Verwenden Sie die Liste **Kontakte**, um Ihre Kontakte zu verwalten. Von dort aus können Sie Verkaufschancen erstellen und andere Interaktionen mit einzelnen Kontakten verwalten. Sie können auch Statistiken zu einem Kontakt anzeigen und auf eine Reihe von Berichten zugreifen. Informationen dazu, wie Sie den richtigen Kontakt in der Liste finden, finden Sie unter [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md).  
 
 Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben.
 

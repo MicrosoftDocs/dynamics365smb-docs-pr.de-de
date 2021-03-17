@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ca86db44d578fab16af1d9a07e3d62db8dfe581c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 58cab20ad27285e733cbfe56ba82b546617bf5c3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750230"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381417"
 ---
 # <a name="register-employees"></a>Erfassen eines Mitarbeiters
 Um die Personalwesenfunktionalität zu verwenden, müssen Sie jeden Mitarbeiter zuerst erfassen, indem Sie eine Karte mit allen wesentlichen und zugehörigen Informationen erstellen.

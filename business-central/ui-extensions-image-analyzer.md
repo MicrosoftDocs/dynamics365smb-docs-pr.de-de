@@ -3,19 +3,19 @@ title: Bild-Analyzer-Erweiterung verwenden | Microsoft Docs
 description: Mit dieser Erweiterung können Bilder von Kontaktpersonen und Artikel analysieren und Attribute finden, damit Sie diese in Business Central rasch zuweisen können.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 3957936f7a95ce493443ed86c791ebceee6b56b9
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e7fb77ab485489158798cdd03660325c678390e1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757242"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377273"
 ---
 # <a name="the-image-analyzer-extension"></a>Die Bildanalyse-Erweiterung
 

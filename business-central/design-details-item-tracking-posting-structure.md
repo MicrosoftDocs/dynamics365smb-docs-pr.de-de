@@ -3,19 +3,19 @@ title: Design Details - Artikelverfolgungs-Buchungsstruktur | Microsoft Docs
 description: Erfahren Sie, wie der Artikelposten als primäre Transportmitteln von Artikelverfolgungsnummern verwendet wird.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 697b83fd7e6e2b220b2851d5a1770ed9f74a9bdd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 95e6c596e9a9782aa6f457164310b9d0942332d7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917376"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390899"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Designdetails: Artikelverfolgungs-Buchungsstruktur
 Um der Bestandskalkulationsfunktionen zu entsprechen und eine einfachere und robustere Lösung zu erhalten, werden Artikelposten als der primäre Träger von Artikelverfolgungsnummern verwendet.  
@@ -25,12 +25,12 @@ Artikelverfolgungsnummern auf Auftragsnetzwerkeinheiten und nicht auftragsbezoge
 Die Seite **Artikelverfolgungszeilen** ruft die Informationen aus T337 und den Artikelposten ab und zeigt sie in der temporären Tabelle, **Verfolgungsspezifikation** (T336) an. T336 enthält auch die temporären Dateien im **Fenster Artikelverfolgungsseiten** für Artikelverfolgungsmengen, die noch fakturiert werden müssen.  
   
 ## <a name="one-to-many-relation"></a>1:n-Beziehung  
-Die Tabelle **Artikelpostenverbindung** , die verwendet wird, um eine gebuchte Belegzeile mit den entsprechenden Artikelposten zu verknüpfen, besteht aus zwei Hauptteilen:  
+Die Tabelle **Artikelpostenverbindung**, die verwendet wird, um eine gebuchte Belegzeile mit den entsprechenden Artikelposten zu verknüpfen, besteht aus zwei Hauptteilen:  
   
-* Ein Verweis zu der gebuchten Belegzeile, das Feld **Auftragszeilennr.** . Feld  
-* Eine Postennummer, die auf einem Artikelposten verweist, das Feld **Artikelposten Lfd. Nr.** .  
+* Ein Verweis zu der gebuchten Belegzeile, das Feld **Auftragszeilennr.**. Feld  
+* Eine Postennummer, die auf einem Artikelposten verweist, das Feld **Artikelposten Lfd. Nr.**.  
   
-Die Funktionen des vorhandenen **Lfd. Nr.** - Feldes, das einen Artikelposten mit einer gebuchten Belegzeile verknüpft, bearbeitet die typische Eins-zu-eins-Verknüpfung, wenn keine Artikelverfolgungsnummern auf der gebuchten Belegzeile vorhanden sind. Wenn Artikelverfolgungsnummern vorhanden sind, bleibt das Feld **Lfd. Nr.** leer, und die Eins-zu-viele-Relation wird durch die Tabelle **Artikelpostenverbindung** verarbeitet. Wenn die gebuchte Belegzeile Artikelverfolgungsnummern enthält, sich jedoch nur auf einem einzelnen Artikelposten bezieht, verarbeitet das Feld **Lfd. Nr.** die Verknüpfung, und es wird kein Datensatz in der Tabelle **Artikelpostenverbindung** erstellt.  
+Die Funktionen des vorhandenen **Lfd. Nr.**- Feldes, das einen Artikelposten mit einer gebuchten Belegzeile verknüpft, bearbeitet die typische Eins-zu-eins-Verknüpfung, wenn keine Artikelverfolgungsnummern auf der gebuchten Belegzeile vorhanden sind. Wenn Artikelverfolgungsnummern vorhanden sind, bleibt das Feld **Lfd. Nr.** leer, und die Eins-zu-viele-Relation wird durch die Tabelle **Artikelpostenverbindung** verarbeitet. Wenn die gebuchte Belegzeile Artikelverfolgungsnummern enthält, sich jedoch nur auf einem einzelnen Artikelposten bezieht, verarbeitet das Feld **Lfd. Nr.** die Verknüpfung, und es wird kein Datensatz in der Tabelle **Artikelpostenverbindung** erstellt.  
   
 ## <a name="codeunits-80-and-90"></a>Codeunit 80 und 90  
 Um die Artikelposten für die Buchung zu teilen, ist der Code in Codeunit 80 und in Codeunit 90 durch Schleifen eingekreist, die durch globale temporäre Datensatzvariablen laufen. Dieser Code ruft Codeeinnheit 22 mit einer Artikel Buch.-Blattzeile auf. Diese Variablen werden initialisiert, wenn Artikelverfolgungsnummern für die Belegzeile vorhanden sind. Um den Code einfach zu halten, wird diese Schleifenstruktur immer verwendet. Wenn keine Artikelverfolgungsnummern für die Belegzeile vorhanden, wird ein einzelner Datensatz eingefügt, und die Schleife wird einmal ausgeführt.  
@@ -43,7 +43,7 @@ Codeunit 80 und 90 durchlaufen den Aufruf von Codeunit 22 während der Rechnungs
   
 Während der Mengenbuchung von Artikelverfolgungsnummern ruft Codeunit 22 Artikelverfolgungsnummern aus den Posten in T337 ab, die sich auf die Buchung beziehen. Diese Posten werden direkt in die Artikel Buch.-Blattzeile gesetzt.  
   
-Codeunit 22 durchläuft die Artikelverfolgungsnummern und teilt die Posten in die entsprechenden Artikelposten ein, die die Artikelverfolgungsnummern enthalten. Informationen darüber, welche Artikelposten erstellt werden, werden auf T337 zurückgegeben, indem ein temporärer Datensatz T336 verwendet wird, der durch ein Verfahren in Codeunit 22 aufgerufen wird. Dieses Verfahren wird gestartet, wenn Codeunit 22 seine Ausführung beendet, da für diesen Artikel, das Objekt der Codeunit 22 die Informationen enthält. Wenn der temporäre Datensatz T336 abgerufen wird, erstellen Codeunit 80 und 90 Datensätze in der Tabelle **Artikelpostenverbindung** , um die erstellten Artikelposten mit der erstellten Lieferung oder der Lieferzeile zu verknüpfen. Codeunit 80 oder Codeunit 90 konvertiert dann die temporären T336-Datensätze zu realen T336-Datensätzen, die zu der jeweiligen Zeile gehören. Jedoch tritt diese Konvertierung nur auf, wenn die gebuchte Belegzeile nicht gelöscht wird, da sie nur teilweise gebucht wird.  
+Codeunit 22 durchläuft die Artikelverfolgungsnummern und teilt die Posten in die entsprechenden Artikelposten ein, die die Artikelverfolgungsnummern enthalten. Informationen darüber, welche Artikelposten erstellt werden, werden auf T337 zurückgegeben, indem ein temporärer Datensatz T336 verwendet wird, der durch ein Verfahren in Codeunit 22 aufgerufen wird. Dieses Verfahren wird gestartet, wenn Codeunit 22 seine Ausführung beendet, da für diesen Artikel, das Objekt der Codeunit 22 die Informationen enthält. Wenn der temporäre Datensatz T336 abgerufen wird, erstellen Codeunit 80 und 90 Datensätze in der Tabelle **Artikelpostenverbindung**, um die erstellten Artikelposten mit der erstellten Lieferung oder der Lieferzeile zu verknüpfen. Codeunit 80 oder Codeunit 90 konvertiert dann die temporären T336-Datensätze zu realen T336-Datensätzen, die zu der jeweiligen Zeile gehören. Jedoch tritt diese Konvertierung nur auf, wenn die gebuchte Belegzeile nicht gelöscht wird, da sie nur teilweise gebucht wird.  
   
 ## <a name="see-also"></a>Siehe auch  
 [Designdetails: Artikelnachverfolgung](design-details-item-tracking.md)   

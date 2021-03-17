@@ -6,14 +6,14 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
-ms.openlocfilehash: 1d740cf645739e89dddc9173583eb5fa639f6be6
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 1cc9f712994c1b612b7e390a0281b823889a8bf9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817104"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378648"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integrieren in Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

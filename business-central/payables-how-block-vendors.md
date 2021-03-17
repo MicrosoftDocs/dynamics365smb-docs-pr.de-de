@@ -3,19 +3,19 @@ title: So blockieren Sie Einkäufe von an Lieferanten
 description: Sie können blockieren, dass Kreditoren in beliebige Transaktionen einbezogen werden, oder Sie können einfach nur neue Zahlungen an Kreditoren blockieren.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9cb31546dcefaba5f15cb630467d759812d48c81
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b1dcda8bed565ef37b712daa15554765a3c45846
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916751"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380481"
 ---
 # <a name="block-vendors"></a>Kreditoren sperren
 Sie können Kreditoren, zum Beispiel aufgrund von Zahlungsunfähigkeit sperren, so dass der Kreditor nicht zu Einkaufsbelegen hinzugefügt werden kann, oder dass keine Zahlungen für den Kreditor gebucht werden können.

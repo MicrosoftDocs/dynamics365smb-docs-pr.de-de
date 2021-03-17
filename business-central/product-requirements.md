@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 01/08/2021
 ms.author: edupont
-ms.openlocfilehash: 0573380b327aff5f0cc6f1c531e45d25378a2ef3
-ms.sourcegitcommit: 1aac2c5f6773151c011dc1e4069c84d79fe5bda8
+ms.openlocfilehash: ea421a1e4c1961bd5df2fac9a8112c9969f206ac
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4839876"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393674"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Mindestanforderungen für die Nutzung von Business Central
 

@@ -3,19 +3,19 @@ title: Migrieren von Debitorendaten
 description: Sie können vorhandene Kundendaten mithilfe von von einem vorhandenen System nach Business Central migrieren, indem Sie RapidStart Services verweden oder diese einfach direkt in das Unternehmen eingeben.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3da4b0f6be7c8b4a8844ee479f1cc3e35006e9c1
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: fe667f86bbd70bbe3cf3e7560cc8de2bd6315f0d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068286"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377998"
 ---
 # <a name="migrate-customer-data"></a>Migrieren von Debitorendaten
 

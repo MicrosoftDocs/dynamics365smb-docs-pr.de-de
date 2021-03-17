@@ -3,19 +3,19 @@ title: 'Designdetails: Artikelverfolgung und Reservierungen | Microsoft Docs'
 description: Dieses Thema befasst sich mit Artikelverfolgung und mit Reservierungen und beschreiben die Konzepte der zwei.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2883ed1176f20cca289cb68d4f3839f8099c874f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922092"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380252"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetails: Artikelverfolgung und Reservierungen
 
@@ -47,7 +47,7 @@ Wenn Sie reservieren, werden Lagerbestandsmengen aus einem ausgehenden Beleg fü
 ## <a name="specific-reservation"></a>Spezifische Reservierung  
 Wenn Sie **Reservieren** aus der Zeile Ausgehender Beleg aktivieren, erscheint ein Dialogfeld, in dem Sie gefragt werden, ob Sie bestimmte Serien- oder Chargennummern reservieren möchten. Wenn Sie **Ja** auswählen, wird eine Liste mit allen Serien- oder Chargennummern angezeigt, die der Belegzeile zugeordnet sind. Die Seite **Reservierung** wird geöffnet, nachdem Sie eine der Serien- oder Chargennummern auswählen, und Sie können dann unter den ausgewählten Serien- oder Chargennummern in typischer Weise eine Reservierung vornehmen.  
   
-Wenn einige der speziellen Artikelverfolgungsnummern, die Sie zu reservieren versuchen, in den unspezifischen Reservierungen geführt werden, informiert Sie eine Meldung unten auf der **Reservierungs** -Seite darüber, wie viel der reservierten Gesamtmenge in nichtspezifischen Reservierungen geführt wird, und ob diese Mengen noch verfügbar sind.  
+Wenn einige der speziellen Artikelverfolgungsnummern, die Sie zu reservieren versuchen, in den unspezifischen Reservierungen geführt werden, informiert Sie eine Meldung unten auf der **Reservierungs**-Seite darüber, wie viel der reservierten Gesamtmenge in nichtspezifischen Reservierungen geführt wird, und ob diese Mengen noch verfügbar sind.  
   
 ## <a name="nonspecific-reservation"></a>Unspezifische Reservierungen  
 Wenn Sie **Nein** im Dialogfeld auswählen, wird die Seite **Reservierung** geöffnet und ermöglicht Ihnen, unter allen Serien- oder Chargennummern im Bestand zu reservieren.  

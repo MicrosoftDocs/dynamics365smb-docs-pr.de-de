@@ -3,19 +3,19 @@ title: Zuweisen von Serien- und Chargennummern zu Artikeln für die Nachverfolgu
 description: Sie können Serien-/Chargennummern zu beliebigen ausgehenden oder eingehenden Belegen hinzufügen, und die gebuchte Artikelverfolgung wird in den entsprechenden Buchungsposten angezeigt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1ffb80f4571e96dcaa8acfbcb106f7fb582b4783
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746091"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377573"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbeiten mit Chargennummern und Seriennummern
 Sie können Serien-/Chargennummern zu beliebigen ausgehenden oder eingehenden Belegen zuweisen, und die gebuchte Artikelverfolgung wird in den entsprechenden Buchungsposten angezeigt. Sie führen die Arbeit auf der Seite **Artikelverfolgungszeilen** aus, die Sie über einen eingehenden und ausgehenden Beleg öffnen können.
@@ -226,9 +226,9 @@ Falls Sie spezielle Informationen mit einer bestimmten Artikelverfolgungsnummer 
 5. Wählen Sie  **Bemerkung**, um einen separaten Bemerkungsdatensatz zu erstellen.  
 6. Aktivieren Sie das Kontrollkästchen **Gesperrt**, um die Serien- oder Chargennummer von sämtlichen Transaktionen auszuschließen.  
 
-Wenn Sie Seriennummern in großen Mengen erstellen, indem Sie die **Erstellen Sie eine benutzerdefinierte SN** oder **Seriennummer zuweisen** Aktionen verwenden, können Sie **Erstellen Sie SN-Informationen** aktivieren. Es wird eine Informationskarte für jede Nachverfolgungskarte erstellt.
+<!--If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
 
-Alternativ können Sie eine Informationskarte erstellen, wenn Sie Zeitschriften oder Dokumente buchen. Auf der Seite **Artikelverfolgungscode** aktivieren Sie die Umschaltung **SN-Info erstellen beim Buchen** oder **SN-Info beim Buchen**. 
+Alternatively, you can create an information card when you post journals or documents. On the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. -->
 
 Sie können Serien- oder Losinformationskarten später ändern.
 

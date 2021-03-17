@@ -3,19 +3,19 @@ title: Abschließen der Buchhaltungsperioden für ein Geschäftsjahr | Microsoft
 description: Gliedert die Aufgaben, um ein Geschäftsjahr abzuschließen oder Buchhaltungsperiode, beispielsweise der Belege und die Buch.-Blätter sind vergewissernd gebucht überprüfend und Bankguthaben.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 7f7fbfd75665b6d1cac845d1658ceab471f97525
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: af455ede10bed862499b0cdfa8bff8461b4e47b7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755617"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389549"
 ---
 # <a name="closing-years-and-periods"></a>Beenden von Jahresabschluss und Perioden
 

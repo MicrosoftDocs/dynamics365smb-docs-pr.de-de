@@ -4,19 +4,19 @@ description: Kennenlernen der die Abfolge von Aufgaben, die Sie ausführen müss
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7a5230f26b3e0db8896125d1a8dbf2d8ff322777
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 3044d878260dbab4e9d2423398b7654386671638
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751155"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380077"
 ---
 # <a name="setting-up-fixed-assets"></a>Anlagen einrichten
 Um mit Anlagen arbeiten können, müssen Sie einige Elemente festlegen:  

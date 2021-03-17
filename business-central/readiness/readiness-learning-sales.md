@@ -3,14 +3,14 @@ title: Lernkatalog für Partnerverkauf und Marketing
 description: Finden Sie alle verfügbaren Lernressourcen zu Partnervertrieb und Marketingrollen in Business Central.
 author: loreleishannonmsft
 ms.date: 10/01/2020
-ms.topic: article
+ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: c4a12f7a79840790a98c2a3a19a845fdd1bb91c2
-ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
+ms.openlocfilehash: edb42bb6dce30aee77b45a383f77b3bd0d104009
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367959"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389274"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Lernkatalog für Partnerverkauf und Marketing
 

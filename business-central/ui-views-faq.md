@@ -3,19 +3,19 @@ title: Häufig gestellte Fragen zu Listenansichten
 description: Detaillierte Informationen zum Speichern von Filtern als Listenansichten.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: f39e20a9b4dae7e84c491d6d28308133f4691c05
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 17d7c909865bc077097ba4299e07ed2dd9cedb22
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024514"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392474"
 ---
 # <a name="list-views-faq"></a>FAQ zu Listenansichten
 In diesem Artikel werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zum Arbeiten mit Listenansichten und zum Speichern von Filtern stellen.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 10/15/2020
 ms.author: edupont
-ms.openlocfilehash: 4ed1d9d7eb4c9628bad6ff80f296cff24833fa93
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cd6b60a284b060fd44339d6f9e10ac7acbb5d159
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746441"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387224"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Abrufen von Business Central auf meinem mobilen Gerät
 

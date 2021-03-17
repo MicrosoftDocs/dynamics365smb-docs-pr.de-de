@@ -4,19 +4,19 @@ description: Sie können mit anderen Unternehmen zusammenarbeiten, um eine Mehrw
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ebe3c8748da04a2552f8f3d10967303459ba23c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757042"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498587"
 ---
 # <a name="the-vat-group-management-extension"></a>Die Mehrwertsteuergruppenverwaltungserweiterung
 
@@ -111,6 +111,9 @@ Wenn die Mehrwertsteuererklärung des Vertreters der Mehrwertsteuergruppe den Be
 
 > [!NOTE]
 > Mitglieder der Mehrwertsteuergruppe können übermittelte Mehrwertsteuererklärungen korrigieren, solange der Gruppenvertreter die Mehrwertsteuererklärung für die Gruppe noch nicht herausgegeben hat. Um eine Korrektur vorzunehmen, muss das Mitglied der Mehrwertsteuergruppe eine neue Mehrwertsteuererklärung für den Zeitraum der Mehrwertsteuererklärung erstellen und diese dem Vertreter der Mehrwertsteuergruppe übermitteln. Auf der Seite des Vertreters der Mehrwertsteuergruppe wird die aktuellste Mehrwertsteuererklärung auf der Seite **Mehrwertsteuererklärungen** eingefügt. 
+
+> [!IMPORTANT]
+> Die Mehrwertsteuergruppenfunktionalität wird nur in den Märkten unterstützt, in denen [!INCLUDE[prod_short](includes/prod_short.md)] einen Mehrwertsteuerrahmen verwendet, der aus Mehrwertsteuererklärungen und Umsatzsteuererklärungsperioden besteht. Sie können Mehrwertsteuergruppen nicht in anderen Märkten verwenden, in denen die lokale Mehrwertsteuerberichterstattung anders implementiert ist, z. B. in Österreich, Deutschland, Italien, Spanien und der Schweiz. 
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  

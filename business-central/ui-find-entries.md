@@ -3,19 +3,19 @@ title: Posten finden | Microsoft Docs
 description: Dieser Artikel beschreibt, wie Dokumente und Posten verknüpft sind
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 870cd32dc2408236ed8997e1f939c00d1bf519e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 437e0c076b664ad35d5819783e98d9e91abee982
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927671"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393974"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Suchen verwandter Posten für gebuchte Belege 
 
@@ -56,7 +56,7 @@ Die Seite **Posten suchen** enthält alle verknüpften Belege und Posten basiere
 
 ## <a name="search-for-entries"></a>Suche nach Posten
 
-Sie können nach Posten suchen, basierend auf Informationen entweder über den Beleg, den Geschäftskontakt oder die Artikelreferenz. Um die Suche zu ändern, wählen Sie **Aktionen** , **Suchen nach** und dann eine der folgenden Aktionen aus:
+Sie können nach Posten suchen, basierend auf Informationen entweder über den Beleg, den Geschäftskontakt oder die Artikelreferenz. Um die Suche zu ändern, wählen Sie **Aktionen**, **Suchen nach** und dann eine der folgenden Aktionen aus:
 
 |Aktion|Beschreibung|
 |------|-----------|
@@ -64,7 +64,7 @@ Sie können nach Posten suchen, basierend auf Informationen entweder über den B
 |Geschäftskontakt |Zeigen Sie Posten basierend auf einer bestimmten Kontaktart, Kontaktnummer und/oder externer Belegnummer an. Sie können Beleginformationen eingeben, die von einem Kreditor oder einem Debitor zugewiesen wurden. Verwenden Sie die verfügbaren Felder, um nach Kreditorenbelegen zu suchen, indem Sie die Nummern verwenden, die der Kreditor den Belegen zugewiesen hat.|
 |Artikelreferenz|Zeigen Sie Posten basierend auf einer Seriennummer oder Chargennummer an. Sie können die Chargennummer oder Seriennummer eingeben oder nach der Chargennummer oder Seriennummer filtern, nach der Sie suchen möchten. Mithilfe dieser Aktion kann festgestellt werden, ob eine bestimmte Artikelverfolgungsnummer verwendet wurde, von welchem Kreditor sie stammt oder an welchen Debitor der Artikel verkauft wurde.|
 
-Nachdem Sie eine Auswahl getroffen haben, geben Sie die relevanten Suchinformationen in die Felder oben ein. Verwenden Sie die QuickInfos in den Feldern zur Hilfe. Wenn Sie fertig sind, wählen Sie **Suchen** , um die Suche zu starten. Wenn Sie eine der Filter ändern, müssen Sie **Suchen** erneut wählen.
+Nachdem Sie eine Auswahl getroffen haben, geben Sie die relevanten Suchinformationen in die Felder oben ein. Verwenden Sie die QuickInfos in den Feldern zur Hilfe. Wenn Sie fertig sind, wählen Sie **Suchen**, um die Suche zu starten. Wenn Sie eine der Filter ändern, müssen Sie **Suchen** erneut wählen.
 
 > [!TIP]
 > Ein paar Beispiele zur Verwendung von **Posten suchen** sehen Sie hier: [Artikel mit Artikelverfolgung nachverfolgen](inventory-how-to-trace-item-tracked-items.md) und [Exemplarische Vorgehensweise: Nachverfolgen von Serienchargennummern](walkthrough-tracing-serial-lot-numbers.md).

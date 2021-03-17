@@ -3,19 +3,19 @@ title: 'Gewusst wie: Einrichten des Senden und Empfangen von elektronischen Bele
 description: Als Alternative zu E-Mail-Dateianhängen können Sie Geschäftsbelegen elektronisch versenden und empfangen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d22b3d45b922f52014d2c387e22050d53965bb26
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b43f3d83e6e3b816630222808f91ae76e448d127
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754667"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384299"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Einrichten des Senden und Empfangen von elektronischen Belegen
 

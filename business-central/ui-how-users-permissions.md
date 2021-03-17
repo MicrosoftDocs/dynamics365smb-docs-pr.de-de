@@ -3,19 +3,19 @@ title: Benutzer nach Lizenzen erstellen | Microsoft Docs
 description: Beschreibt, wie Benutzer basierend auf Lizenzen online oder vor Ort zu Business Central hinzugefügt werden.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 217b658e6a4c54996d3f0e9cfa7470f02908b380
-ms.sourcegitcommit: 5d5451ee618f122c926e3189290f3765052f7077
+ms.openlocfilehash: cc6a32653d443d45a8cb037be275ff84e449ca02
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "4846340"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573351"
 ---
 # <a name="create-users-according-to-licenses"></a>Benutzer nach Lizenzen anlegen
 
@@ -106,7 +106,7 @@ Benutzer mit der Gerätelizenz können die folgenden Aufgaben in [!INCLUDE[prod_
 
 1. Wechseln Sie im Microsoft 365 Admin Center zur **Gruppen**-Seite.
 2. Wählen Sie die Aktion **Gruppe hinzufügen**.
-3. Wählen Sie auf der Seite **Gruppentyp auswählen** die Aktion **Sicherheit** und dann die Aktion **Hinzufügen**.
+3. Wählen Sie auf der Seite **Gruppentyp auswählen** die Option **Sicherheit** und dann die Aktion **Hinzufügen**.
 4. Geben Sie auf der Seite **Grundlagen** als Name der Gruppe **Dynamics 365 Business Central Gerätebenutzer** ein.
   
    >[!NOTE]

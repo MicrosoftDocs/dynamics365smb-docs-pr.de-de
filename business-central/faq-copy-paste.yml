@@ -2,18 +2,12 @@
 metadata:
   title: FAQ zum Kopieren und Einfügen von Daten
   description: Erhalten Sie Antworten auf häufig gestellte Fragen zum Kopieren und Einfügen von Daten aus Feldern und Zeilen von Business Central-Seiten.
-  author: SorenGP
-  ms.topic: article
-  ms.service: dynamics365-business-central
-  ms.search.keywords: accessibility, shortcuts, keyboarding
-  ms.date: 01/08/2021
-  ms.author: edupont
-  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
-  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.openlocfilehash: 7d3d0e29bb6751913297974f611aa9695677ed66
+  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 01/15/2021
-  ms.locfileid: "5013921"
+  ms.lasthandoff: 02/15/2021
+  ms.locfileid: "5181829"
 title: Kopieren und einfügen FAQ
 summary: "Sie können eine oder mehrere Zeilen (Datensätze) aus einer Liste oder einem einzelnen Feld auf einer Seite kopieren und die kopierten Daten dann auf der gleichen Seite, einer andere Seite oder einem externen Dokument (wie Microsoft Excel und Outlook-E-Mail) einfügen.  \n\nKurz gesagt, zum Kopieren drücken Sie STRG+C (cmd+C in Mac Os) auf Ihrer Tastatur. Zum Einfügen drücken Sie STRG+V (cmd+V in Mac Os). Es gibt mehrere andere Tastenkombinationen zum Kopieren und Einfügen, mit denen Sie Zeit sparen, wenn Sie Daten eingeben. Weitere Informationen dazu finden Sie unter [Tastenkombinationen](keyboard-shortcuts.md#CopyRows). In diesem Artikel finden Sie Antworten auf allgemeine Fragen, die Sie möglicherweise über das Kopieren und Einfügen haben.  \n"
 sections:

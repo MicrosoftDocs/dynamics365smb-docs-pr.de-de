@@ -3,19 +3,19 @@ title: Einrichten des Benutzerkontos für die Integration in Microsoft Dataverse
 description: Erfahren Sie, wie die Benutzerkonten eingerichtet werden, die die Apps zum Austausch von Daten verwenden, und die Mitarbeiter nutzen, um auf Daten in den Apps zuzugreifen und diese Daten zu synchronisieren.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b341b476c33e39dfda7fbb69bf643264f6c50672
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1699d10a0d01d2143f26fe59313d6ba073272eef
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755142"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385249"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Einrichten des Benutzerkontos für die Integration in Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

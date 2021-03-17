@@ -3,19 +3,19 @@ title: Einrichten von Preisen und Kosten für Services | Microsoft Docs
 description: 'Vorgehensweise: Einrichten von Preisen und zusätzlichen Kosten für Services.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fac8f33b973135cc9aceff649a9046153bd45253
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 12e116740d16b0638c086790d15fe4dd86fd05ef
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748104"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380844"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Einrichten von Preisen und zusätzlichen Kosten für Services
 Mithilfe der [!INCLUDE[prod_short](includes/prod_short.md)]-Preisfunktionen kann die Anwendung so eingerichtet und konfiguriert werden, dass Preise für Serviceartikel, Reparaturen und Aufträge übernommen und angepasst werden. Diese Preisentscheidungen werden anschließend problemlos an den Abrechnungsprozess übertragen.  

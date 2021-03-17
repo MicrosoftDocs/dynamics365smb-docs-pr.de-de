@@ -3,19 +3,19 @@ title: 'Gewusst wie: Einrichten eine Belegaustauschdienstes | Microsoft Docs'
 description: Sie verwenden einen externen Anbieter zum Austausch elektronischer Belege mit Ihren Handelspartnern.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 92a1b6118f0617dfd219ab38be5ff8d029a68275
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0217f077c9c38603b9e3ff945fd47394c5b943bb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754717"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384374"
 ---
 # <a name="set-up-a-document-exchange-service"></a>So richten Sie einen Belegaustauschdienst ein
 Sie verwenden einen externen Anbieter zum Austausch elektronischer Belege mit Ihren Handelspartnern. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  

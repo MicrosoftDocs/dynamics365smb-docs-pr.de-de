@@ -3,19 +3,19 @@ title: Buchhalterumgebungen in Business Central
 description: Erhalten Sie Informationen über das Buchhalter-Rollencenter und den Unternehmens-Hub, der interne und externe Buchhalter im Client-Unternehmen unterstützt.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/05/2020
 ms.author: edupont
-ms.openlocfilehash: 96ca3f5896ea56a211e8efd6d1844c8ed4d61368
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 5fbe696c8f85327ad775ad3bcf071b3e7ec16dd6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817029"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391249"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Buchhalter-Erfahrung in [!INCLUDE[prod_long](includes/prod_long.md)]
 

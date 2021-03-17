@@ -3,19 +3,19 @@ title: 'Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung | Microsoft D
 description: In der folgenden exemplarischen Vorgehensweise wird die Planung von Beschaffungsaufträgen zum Erfüllen eines neuen Bedarfs beschrieben. Je nach Bedarfsart können Sie die Beschaffungsplanung in festen Intervallen, z. B. jeden Morgen oder jeden Montag, oder bei einer entsprechenden Benachrichtigung durch den Verkauf oder die Produktion initiieren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 604a783f292b04c2609b8415d6b2ec6287f5cfcb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035631"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379802"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung
 
