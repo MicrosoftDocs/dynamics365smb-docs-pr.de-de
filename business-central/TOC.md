@@ -110,6 +110,7 @@
 #### [Einrichten von Mahnmethoden, Bestimmungen und Mahntext](finance-setup-reminders.md)
 #### [Zinskonditionen einrichten](finance-setup-finance-charges.md)
 #### [Mehrwertsteuer (MwSt.) einrichten](finance-setup-vat.md)
+#### [Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md)
 #### [Einrichten von nicht realisierter Vorsteuer für bargeldbasierte Verrechnung](finance-setup-unrealized-vat.md)
 #### [Umsatzsteuer-Identifikationsnummer überprüfen](finance-how-validate-vat-registration-number.md)
 #### [Herkunftscodes und Ursachencodes für Audit Trails einrichten](finance-setup-trail-codes.md)
@@ -437,6 +438,7 @@
 ##### [Feldzuordnung für die AMC Banking 365 Fundamentals-Erweiterung](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Finanzen
 ### [Finanzen – Übersicht](finance.md)
+### [Finanzberichte](finance-reports.md)
 ### Debitoren verwalten
 #### [Forderungen – Übersicht](receivables-manage-receivables.md)
 #### Zahlungen automatisch vornehmen und Bankkonten abstimmen
@@ -560,8 +562,9 @@
 ### [Bank-Geldmittel überweisen](bank-how-transfer-bank-funds.md)
 ### [Buchhaltungs-Erfahrung in Business Central](finance-accounting.md)
 
-## Business Intelligence
-### [BI-Übersicht](bi.md)
+## Business Intelligence und Financial Reporting
+### [Business Intelligence und Financial Reporting – Übersicht](bi.md)
+### [Finanzberichte](finance-reports.md)
 ### [Tatsächlichen Beträge mit den budgetierten Beträgen analysieren](bi-how-analyze-actual-versus-budget.md)
 ### [Bereiten Sie Finanzberichte mit Kontenschemata und Kontengruppen vor](bi-how-work-account-schedule.md)
 ### [Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Kontenschemata](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1533,7 +1536,7 @@
 
 # Sicherheit, Datenschutz, Konformität
 ## Sicherheit und Schutz
-### [Sicherheit und Schutz – Übersicht](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Sicherheits- und Schutzübersicht (nur in englischer Sprache)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Datenschutz
 ### [Datenschutz (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
 ## Kompatibilität
@@ -1541,6 +1544,7 @@
 ### [Anwendungs-Kompatibilität](compliance/compliance-application-compliance.md)
 ### [Dienst-Kompatibilität](compliance/compliance-service-compliance.md)
 ### [Bescheinigungen](compliance/compliance-certifications.md)
+## [Serviceübersicht (nur in Englisch)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Entwicklung und Verwaltung
 ## [Erste Schritte mit der Entwicklungs- und Verwaltungsdokumentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)

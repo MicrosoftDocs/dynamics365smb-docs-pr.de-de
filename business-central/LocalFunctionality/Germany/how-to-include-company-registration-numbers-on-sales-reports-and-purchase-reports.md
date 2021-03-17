@@ -3,35 +3,38 @@ title: Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsbe
 description: Beim Generieren von bestimmten Verkaufs- und Einkaufsberichten können Steuernummern in den Berichten gedruckt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9491763445f09a971ae3c9b525bf865bd64fbf37
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: e31d8cb168af447f520cb1af2a6f1bcf9f5d2465
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013864"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381842"
 ---
-# <a name="include-company-registration-numbers-on-sales-reports-and-purchase-reports"></a><span data-ttu-id="8da03-103">Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte</span><span class="sxs-lookup"><span data-stu-id="8da03-103">Include Company Registration Numbers on Sales Reports and Purchase Reports</span></span>
-<span data-ttu-id="8da03-104">Beim Generieren von bestimmten Verkaufs- und Einkaufsberichten können Steuernummern in den Berichten gedruckt werden.</span><span class="sxs-lookup"><span data-stu-id="8da03-104">When generating certain sales reports and purchase reports, you can print registration numbers on the reports.</span></span>  
+# <a name="include-company-registration-numbers-on-sales-reports-and-purchase-reports"></a><span data-ttu-id="51309-103">Einbeziehen von Steuernummern von Unternehmen in Verkaufs- und Einkaufsberichte</span><span class="sxs-lookup"><span data-stu-id="51309-103">Include Company Registration Numbers on Sales Reports and Purchase Reports</span></span>
+<span data-ttu-id="51309-104">Beim Generieren von bestimmten Verkaufs- und Einkaufsberichten können Steuernummern in den Berichten gedruckt werden.</span><span class="sxs-lookup"><span data-stu-id="51309-104">When generating certain sales reports and purchase reports, you can print registration numbers on the reports.</span></span>  
 
-## <a name="to-print-company-registration-numbers-on-sales-reports"></a><span data-ttu-id="8da03-105">So drucken Sie Steuernummern für Unternehmen in Verkaufsberichten</span><span class="sxs-lookup"><span data-stu-id="8da03-105">To print company registration numbers on sales reports</span></span>  
+## <a name="to-print-company-registration-numbers-on-sales-reports"></a><span data-ttu-id="51309-105">So drucken Sie Steuernummern für Unternehmen in Verkaufsberichten</span><span class="sxs-lookup"><span data-stu-id="51309-105">To print company registration numbers on sales reports</span></span>  
 
-1.  <span data-ttu-id="8da03-106">Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Unternehmensinformationen** ein, und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="8da03-106">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="8da03-107">Geben Sie im Inforegister **Steuerbehörde** im Feld **Steuernummer** die Steuernummer des Unternehmens ein.</span><span class="sxs-lookup"><span data-stu-id="8da03-107">On the **Tax Office** FastTab, in the **Registration No.** field, enter the registration number of the company.</span></span>  
-3.  <span data-ttu-id="8da03-108">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="8da03-108">Choose the **OK** button.</span></span>  
+1.  <span data-ttu-id="51309-106">Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Unternehmensinformationen** ein, und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="51309-106">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="51309-107">Geben Sie im Inforegister **Steuerbehörde** im Feld **Steuernummer** die Steuernummer des Unternehmens ein.</span><span class="sxs-lookup"><span data-stu-id="51309-107">On the **Tax Office** FastTab, in the **Registration No.** field, enter the registration number of the company.</span></span>  
+3.  <span data-ttu-id="51309-108">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="51309-108">Choose the **OK** button.</span></span>  
 
-## <a name="to-print-company-registration-numbers-on-purchase-reports"></a><span data-ttu-id="8da03-109">So drucken Sie Steuernummern für Unternehmen in Einkaufsberichten</span><span class="sxs-lookup"><span data-stu-id="8da03-109">To print company registration numbers on purchase reports</span></span>  
+## <a name="to-print-company-registration-numbers-on-purchase-reports"></a><span data-ttu-id="51309-109">So drucken Sie Steuernummern für Unternehmen in Einkaufsberichten</span><span class="sxs-lookup"><span data-stu-id="51309-109">To print company registration numbers on purchase reports</span></span>  
 
-1.  <span data-ttu-id="8da03-110">Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="8da03-110">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="8da03-111">Wählen Sie den Inventurauftrag aus, für den Sie eine Inventurerfassung erstellen möchten und klicken Sie auf **Bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="8da03-111">Select the vendor that you want to add a registration number for, and then choose the **Edit** action.</span></span>  
-3.  <span data-ttu-id="8da03-112">Geben Sie im Inforegister **Fakturierung** im Feld **Steuernummer** die Steuernummer des Kreditors ein.</span><span class="sxs-lookup"><span data-stu-id="8da03-112">On the **Invoicing** FastTab, in the **Registration No.** field, enter the registration number of the vendor.</span></span>  
-4.  <span data-ttu-id="8da03-113">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="8da03-113">Choose the **OK** button.</span></span>  
+1.  <span data-ttu-id="51309-110">Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="51309-110">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="51309-111">Wählen Sie den Inventurauftrag aus, für den Sie eine Inventurerfassung erstellen möchten und klicken Sie auf **Bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="51309-111">Select the vendor that you want to add a registration number for, and then choose the **Edit** action.</span></span>  
+3.  <span data-ttu-id="51309-112">Geben Sie im Inforegister **Fakturierung** im Feld **Steuernummer** die Steuernummer des Kreditors ein.</span><span class="sxs-lookup"><span data-stu-id="51309-112">On the **Invoicing** FastTab, in the **Registration No.** field, enter the registration number of the vendor.</span></span>  
+4.  <span data-ttu-id="51309-113">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="51309-113">Choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="8da03-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="8da03-114">See Also</span></span>  
-[<span data-ttu-id="8da03-115">Registriert einen neuen Kreditor</span><span class="sxs-lookup"><span data-stu-id="8da03-115">Register New Vendors</span></span>](../../purchasing-how-register-new-vendors.md)
+## <a name="see-also"></a><span data-ttu-id="51309-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="51309-114">See Also</span></span>  
+[<span data-ttu-id="51309-115">Registriert einen neuen Kreditor</span><span class="sxs-lookup"><span data-stu-id="51309-115">Register New Vendors</span></span>](../../purchasing-how-register-new-vendors.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
