@@ -98,15 +98,15 @@ Die Tabellen-ID, der Tabellenname und die vorhandenen Datenvorlage werden in die
 
 ## <a name="to-export-to-a-template-in-excel"></a>Exportieren einer Vorlage in Excel
 
-Sie können schnell eine Excel-Arbeitsmappe erstellen, die als Vorlage dient und auf der Struktur einer vorhandenen Datenbanktabelle basiert. Sie können die Vorlage dann verwenden, um Debitorendaten in einem konsistenten Format für den späteren Import in [!INCLUDE[prod_short](includes/prod_short.md)] zu erfassen.
+Sie können schnell ein Excel-Arbeitsblatt erstellen, die als Vorlage dient und auf der Struktur einer vorhandenen Datenbanktabelle basiert. Sie können die Vorlage dann verwenden, um Debitorendaten in einem konsistenten Format für den späteren Import in [!INCLUDE[prod_short](includes/prod_short.md)] zu erfassen.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.
 2. Fügen Sie der Liste eine Tabelle hinzu, oder wählen Sie eine vorhandene Tabelle aus. Weitere Informationen finden Sie unter [Verwalten von Mandanten-Konfiguration in einem Arbeitsblatt](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Wählen Sie die Aktion **Felder anzeigen**, um die Felder aus der Tabelle zu definieren, die Sie in die Vorlage aufnehmen möchten.
 4. Wählen Sie die Aktion **Vorlageninhalt exportieren** aus.
-5. Benennen und speichern Sie die .xlsx-Datei. Die Excel-Arbeitsmappe wird automatisch geöffnet.
+5. Benennen und speichern Sie die .xlsx-Datei. Das Excel-Arbeitsblatt wird automatisch geöffnet.
 
-Sie können jetzt in die Excel-Arbeitsmappe Debitorendaten eingeben. Wenn Sie mehrere Tabellen exportiert haben, befindet sich jede Tabelle in einem eigenen Arbeitsblatt. Speichern Sie die Arbeitsmappe, bevor Sie mit der folgenden Vorgehensweise fortfahren.
+Sie können jetzt in das Excel-Arbeitsblatt Debitorendaten eingeben. Wenn Sie mehrere Tabellen exportiert haben, befindet sich jede Tabelle in einem eigenen Arbeitsblatt. Speichern Sie das Arbeitsblatt, bevor Sie mit der folgenden Vorgehensweise fortfahren.
 
 > [!NOTE]  
 > Wenn Sie eine englischsprachige Version von Excel nutzen, Ihre regionalen Einstellungen aber für eine andere Sprache konfiguriert haben, kann der folgende Fehler auftreten: "Old format or invalid type library." Um diesen Fehler zu beheben, prüfen Sie, ob das Language Pack für die andere Sprache installiert ist.
@@ -114,7 +114,7 @@ Sie können jetzt in die Excel-Arbeitsmappe Debitorendaten eingeben. Wenn Sie me
 ## <a name="to-import-from-a-template-in-excel"></a>So importieren Sie aus einer Vorlage in Excel
 
 1. Auf der Seite **Config. Arbeitsblatt** wählen Sie die **Aus Vorlage importieren** Aktion aus.
-2. Navigieren Sie zum Vorlagenvorschlag, den Sie erstellt haben, und wählen Sie die Aktion **Öffnen**.
+2. Navigieren Sie zum Vorlagenarbeitsblatt, den Sie erstellt haben, und wählen Sie die Aktion **Öffnen**.
 3. Um der gesammelten Debitorendaten der Datenbank hinzuzufügen, wählen Sie die **Daten übernehmen** Aktion.
 
 Wenn Sie Daten aus einer Vorlage in Excel auf eine Tabelle anwenden, der auch im Konfigurationspaket eine Konfigurationstabelle zugeordnet ist, werden auch die Standardfeldwerte aus der Konfigurationstabelle angewendet.

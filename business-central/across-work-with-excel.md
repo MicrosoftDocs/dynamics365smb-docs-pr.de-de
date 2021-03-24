@@ -23,7 +23,7 @@ Mit Seiten, die eine Liste der Datensätze in den Zeilen und Spalten anzeigen, w
 
 ## <a name="open-in-excel"></a>In Excel öffnen
 
-- Mit dieser Aktion respektiert Excel alle Filter auf der Seite, die die angezeigten Datensätze einschränken. Das Excel-Arbeitsmappe enthält die gleichen Zeilen und Spalten, die auf der Seite in [!INCLUDE[prod_short](includes/prod_short.md)] erscheinen.
+- Mit dieser Aktion respektiert Excel alle Filter auf der Seite, die die angezeigten Datensätze einschränken. Das Excel-Arbeitsblatt enthält die gleichen Zeilen und Spalten, die auf der Seite in [!INCLUDE[prod_short](includes/prod_short.md)] erscheinen.
 
 - Sie können Änderungen mit Datensätzen in Excel vornehmen, aber Sie können die Änderungen nicht auf  [!INCLUDE[prod_short](includes/prod_short.md)] veröffentlichen. Sie können die Änderungen in die Excel-Datei nur auf dem Computer speichern.
 
@@ -34,7 +34,7 @@ Mit Seiten, die eine Liste der Datensätze in den Zeilen und Spalten anzeigen, w
 
 ## <a name="edit-in-excel"></a>In Excel bearbeiten
 
-- Mit dieser Aktion berücksichtigt Excel die meisten Filter auf der Seite, die die angezeigten Datensätze einschränken, sodass die Excel-Arbeitsmappe fast dieselben Datensätze und Spalten enthält.
+- Mit dieser Aktion berücksichtigt Excel die meisten Filter auf der Seite, die die angezeigten Datensätze einschränken, sodass das Excel-Arbeitsblatt fast dieselben Datensätze und Spalten enthält.
 
 - Der Vorteil der **Bearbeiten Sie in Excel** Aktion ist, dass es Sie Änderungen mit Datensätzen in Excel vornimmt und die Änderungen zurück in [!INCLUDE[prod_short](includes/prod_short.md)] veröffentlichen können,
 

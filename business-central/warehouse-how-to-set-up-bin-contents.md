@@ -19,7 +19,7 @@ ms.locfileid: "5383625"
 ---
 # <a name="create-bin-contents"></a>Lagerplatzinhalt erstellen
 
-Nachdem Sie Ihre Lagerplätze eingerichtet haben, können Sie die Lagerplatzinhalte einrichten. Mit anderen Worten: Sie können die Artikel einrichten, die Sie in jedem beliebigen Lagerplatz lagern möchten, und Sie können die Regeln festlegen, die befolgt werden sollen, wenn sie den Lagerplatz mit einem bestimmten Artikel füllt. Sie können dies auf der Seite **Lagerplatzinhalt** oder automatisch mit der Seite **Erstellen Sie Lagerplatzinhalt-Vorschlag erstellen** manuell tun.
+Nachdem Sie Ihre Lagerplätze eingerichtet haben, können Sie die Lagerplatzinhalte einrichten. Mit anderen Worten: Sie können die Artikel einrichten, die Sie in jedem beliebigen Lagerplatz lagern möchten, und Sie können die Regeln festlegen, die befolgt werden sollen, wenn sie den Lagerplatz mit einem bestimmten Artikel füllt. Sie können dies auf der Seite **Lagerplatzinhalt** oder automatisch mit der Seite **Erstellen Sie Lagerplatzinhalt-Arbeitsblatt erstellen** manuell tun.
 
 ## <a name="to-create-bin-content-manually"></a>So erstellen Sie Lagerplatzinhalt manuell
 
@@ -36,14 +36,14 @@ Wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden und die richt
 Wenn Sie das Feld **Fest** wählen, legen Sie diesen Lagerplatz für diesen Artikel fest. Das bedeutet, dass [!INCLUDE[prod_short](includes/prod_short.md)] versuchen wird, diesen Artikel in den Lagerplatz einzulagern, wenn dort Platz ist. Sie wird an dieser Festlegung sogar dann festhalten, wenn die Menge im Lagerplatz 0 ist. Andere Artikel können in den Lagerplatz eingelagert werden, obwohl ein bestimmter Artikel als Standard für den Lagerplatz festgelegt wurde. Andere Artikel können in den Lagerplatz eingelagert werden, obwohl ein bestimmter Artikel dem Lagerplatz fest zugewiesen wurde.  
 
 > [!NOTE]  
-> Auf der Seite **Lagerplatzinh. Erst.-Vorschlag** können Sie mehrere Lagerplatzinhalte gleichzeitig einrichten.  
+> Auf der Seite **Lagerplatzinh. Erst.-Arbeitsblatt** können Sie mehrere Lagerplatzinhalte gleichzeitig einrichten.  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>So erstellen Sie Lagerplatzinhalt in einem Vorschlag
+## <a name="to-create-bin-content-with-a-worksheet"></a>So erstellen Sie Lagerplatzinhalt in einem Arbeitsblatt
 
-Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie den Lagerplatzinhalt, den Sie in jedem Lagerplatz haben möchten, im Lagerplatzinhalt Erstellungsvorschlag generieren.
+Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie den Lagerplatzinhalt, den Sie in jedem Lagerplatz haben möchten, im Lagerplatzinhalt Erstellungsarbeitsblatt generieren.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerplatzinh. Erst.-Vorschlag** ein und wählen Sie dann den zugehörigen Link.  
-2. Klicken Sie im Kopf des Vorschlags in das Feld **Name** und wählen Sie den Vorschlag des Lagerortes, für den Sie Lagerplatzinhalte erstellen möchten.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerplatzinh. Erst.-Arbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+2. Klicken Sie im Kopf des Arbeitsblatts in das Feld **Name** und wählen Sie das Arbeitsblatt des Lagerortes, für den Sie Lagerplatzinhalte erstellen möchten.  
 3. Wählen Sie im Feld **Lagerplatzcode** den Code des Lagerplatzes, für den Sie den Lagerplatzinhalt definieren möchten.  
 
     Wenn Sie in diesem Lagerort die gesteuerte Einlagerung und Kommissionierung verwenden, werden automatisch die Felder ausgefüllt, die mit diesem speziellen Lagerplatz verknüpft sind, wie z. B. **Lagerplatzartencode**, **Lagerklassencode** und **Lagerplatzpriorität**. Dies sind Informationen, die Sie berücksichtigen müssen, wenn Sie den Lagerplatzinhalt definieren.  
@@ -51,10 +51,10 @@ Wenn Sie Ihre Lagerplätze erzeugt haben, können Sie den Lagerplatzinhalt, den 
 
     Wenn Sie diesen Lagerplatz für den Artikel als bevorzugten Lagerplatz einrichten möchten, auch wenn die Menge am Lagerplatz **0** ist und alle anderen Einlagerungskriterien gleich sind, aktivieren Sie das Feld **Fix**.  
 5. Wiederholen Sie die Schritte 3 bis 4 für jeden Artikel, den Sie einem Lagerplatz zuordnen möchten.  
-6. Wählen Sie auf Aktion **Drucken** aus, um sich eine Seitenansicht der Lagerplatzinhalte anzusehen, die Sie im Vorschlag eingegeben haben, oder um diese zu drucken. Überprüfen Sie den Lagerplatzinhalt so lange, bis Sie mit dem Ergebnis zufrieden sind.  
+6. Wählen Sie auf Aktion **Drucken** aus, um sich eine Seitenansicht der Lagerplatzinhalte anzusehen, die Sie im Arbeitsblatt eingegeben haben, oder um diese zu drucken. Überprüfen Sie den Lagerplatzinhalt so lange, bis Sie mit dem Ergebnis zufrieden sind.  
 7. Wenn Sie bereit sind, wählen Sie die **Lagerplatzinhalt erstellen** Aktion aus.  
 
-In diesem Vorschlag können Sie mit einer Anzahl Lagerplatzinhaltszeilen für mehrere Lagerplätze arbeiten und dadurch einen guten Überblick darüber erhalten, was Sie in die verschiedenen Lagerplätze in einer vorgegebenen Zone, einem Gang oder Regal einlagern.  
+In diesem Arbeitsblatt können Sie mit einer Anzahl Lagerplatzinhaltszeilen für mehrere Lagerplätze arbeiten und dadurch einen guten Überblick darüber erhalten, was Sie in die verschiedenen Lagerplätze in einer vorgegebenen Zone, einem Gang oder Regal einlagern.  
 
 ## <a name="see-also"></a>Siehe auch
 

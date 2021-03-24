@@ -193,7 +193,7 @@ Der Minimalbestand drückt den voraussichtlichen Bedarf während der Beschaffung
 
  In der folgenden Abbildung zeigt Vorrat D eine Notfallbestellung an, um negativen Bestand auszugleichen.  
 
- ![Notfallplanungsvorschlag zur Vermeidung von negativem Lagerbestand](media/nav_app_supply_planning_2_negative_inventory.png "Notfallplanungsvorschlag zur Vermeidung von negativem Lagerbestand")  
+ ![NotfallPlanungsarbeitsblatt zur Vermeidung von negativem Lagerbestand](media/nav_app_supply_planning_2_negative_inventory.png "NotfallPlanungsarbeitsblatt zur Vermeidung von negativem Lagerbestand")  
 
 1.  Vorrat **A** anfänglicher voraussichtlicher Lagerbestand, liegt unter Minimalbestand.  
 2.  Ein neuer voraus geplanter Vorrat wurde erstellt (**C**).  

@@ -59,7 +59,7 @@ In der folgenden Tabelle werden verschiedene Möglichkeiten zum Verschieben von 
 
 |**Prozess**|**Siehe**|  
 |------------|-------------|  
-|Artikel mit dem Lagerplatzumlagerungsvorschlag umlagern.|[Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet)|  
+|Artikel mit dem Lagerplatzumlagerungsarbeitsblatt umlagern.|[Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet)|  
 |Erstellen einer internen interne Einlag.-Anforderung zur Lagerung produzierter oder montierter Artikel in einer grundlegenden oder erweiterten Lagerkonfiguration.|[Erstellen einer interne Einlag.-Anforderung](warehouse-how-to-create-put-aways-from-internal-put-aways.md#to-create-an-internal-put-away)|
 
 > [!NOTE]  

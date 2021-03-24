@@ -101,7 +101,7 @@ Enthält das Feld die Option **Unbeschränkt**, wird die Zeile beim Berechnen vo
 
 ### <a name="warning"></a>Warnung
 
-Das Feld **Warnung** auf der **Planungsvorschlag** Seite informiert Sie über jede mögliche Planungszeile, die für eine ungewöhnliche Situation mit einen Text erstellt wird, den der Benutzer klicken kann, um weitere Informationen anzuzeigen. Folgende Arten von Warnungen sind verfügbar:
+Das Feld **Warnung** auf der **Planungsarbeitsblatt** Seite informiert Sie über jede mögliche Planungszeile, die für eine ungewöhnliche Situation mit einen Text erstellt wird, den der Benutzer klicken kann, um weitere Informationen anzuzeigen. Folgende Arten von Warnungen sind verfügbar:
 
 - Notfall
 - Ausnahme
@@ -138,7 +138,7 @@ Die Achtungswarnung wird in zwei Situationen angezeigt:
 > [!NOTE]
 > In Planzeilen mit Warnungen ist das Kontrollkästchen **Ereignismeldung akzeptieren** nicht aktiviert, da diese Zeilen vom Planer genauer untersucht werden sollen, bevor der Plan umgesetzt wird.
 
-## <a name="planning-worksheets-and-requisition-worksheets"></a>Planungsarbeitsblätter und Anforderungsarbeitsblätter
+## <a name="planning-worksheets-and-requisition-worksheets"></a>Planungs‑ und Anforderungsarbeitsblätter
 
 Wie in [Planung](production-planning.md) beschrieben können Sie für die meisten Planungsaktivitäten zwischen zwei Arbeitsblättern wählen, dem Planungsarbeitsblatt und dem Anforderungsarbeitsblatt. Die meisten Prozesse werden anhand des Planungsarbeitsblatts beschrieben. Es gibt jedoch einige Szenarien, in denen das Anforderungsarbeitsblatt bevorzugt wird.
 
@@ -156,7 +156,7 @@ Auf der Seite **Anforderungsarbeitsblatt** sind die Artikel aufgelistet, die Sie
 
 - Sie können die Aktion **Spezialauftrag** verwenden, um die Anforderungsarbeitsblattszeilen zu füllen. Diese Aktion verwendet die Stapelverarbeitung **Aufträge holen**, um die Verkaufsauftragszeilen zu ermitteln, die für einen Spezialauftrag vorgesehen sind.
 
-Anforderungsarbeitsblattzeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellvorschlag anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten.
+Anforderungsarbeitsblattzeilen enthalten detaillierte Informationen über die Artikel, die wiederbestellt werden müssen. Sie können die Zeilen bearbeiten und löschen, um Ihren Bestellarbeitsblatt anzupassen, und Sie können die Zeilen auch mit der Stapelverarbeitung **Ereignismeldung durchführen** weiterverarbeiten.
 
 Einzelheiten zur Planung mit Standorten und Transfers finden Sie unter [Planen mit oder ohne Standorte](production-planning-with-without-locations.md).
 

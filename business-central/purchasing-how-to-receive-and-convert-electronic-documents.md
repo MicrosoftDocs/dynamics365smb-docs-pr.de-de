@@ -49,7 +49,7 @@ Die generische Version von [!INCLUDE[prod_short](includes/prod_short.md)] unters
 
 3.  Wählen Sie im Feld **Datenaustauschart** die Option **PEPPOL - Rechnung** oder **OCR - Rechnung** aus, je nachdem, woher der elektronische Beleg stammt.  
 
-4.  Um Text in der Kreditorenrechnung einem bestimmten Sollkonto zuzuordnen, wählen Sie auf der Registerkarte **Aktion** in der Gruppe **Allgemein** die Option **Text zu Konto zuordnen**, und füllen Sie dann die Seite **Kontozurodnungs** aus.  
+4.  Um Text in der Kreditorenrechnung einem bestimmten Sollkonto zuzuordnen, wählen Sie auf der Registerkarte **Aktion** in der Gruppe **Allgemein** die Option **Text zu Konto zuordnen**, und füllen Sie dann die Seite **Kontozurodnungsarbeitsblatt** aus.  
 
 5.  Wählen Sie die Aktion **Dokument erstellen**.  
 

@@ -111,11 +111,11 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 
  Wenn der ausgehende Herkunftsbeleg freigegeben wird, wird eine Kommissionieranforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden. Abhängig von den Einstellungen erstellt der Verbrauch von einem Fertigungs- oder Montageauftrag auch eine eine Kommissionieranforderung, um die erforderlichen Komponenten aus dem Bestand zu kommissionieren.  
 
-### <a name="7-generate-pick-worksheet-lines"></a>7: Kommissioniervorschlagszeilen generieren
+### <a name="7-generate-pick-worksheet-lines"></a>7: Kommissionierarbeitsblattszeilen generieren
 
- Der Benutzer, der für das Koordinieren von Kommissionierungen zuständig ist, ruft Kommissionierzeilen im **Kommissioniervorschlag** basierend auf Entnahmeanforderungen von Warenausgängen oder internen Arbeitsgänge mit Komponentenverbrauch ab. Der Benutzer wählt die zu kommissionierenden Zeilen und bereitet die Kommissionierungen vor, indem er angibt, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Die Lagerplätze können durch Einrichtung des Lagerorts oder der Arbeitsgangsressource vordefiniert werden.  
+ Der Benutzer, der für das Koordinieren von Kommissionierungen zuständig ist, ruft Kommissionierzeilen im **Kommissionierarbeitsblatt** basierend auf Entnahmeanforderungen von Warenausgängen oder internen Arbeitsgänge mit Komponentenverbrauch ab. Der Benutzer wählt die zu kommissionierenden Zeilen und bereitet die Kommissionierungen vor, indem er angibt, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Die Lagerplätze können durch Einrichtung des Lagerorts oder der Arbeitsgangsressource vordefiniert werden.  
 
- Der Benutzer gibt Entnahmemethoden für optimierte Lagerdurchlaufzeit an und verwendet dann eine Funktion, um die entsprechenden Kommissionierungsbelege zu erstellen, die verschiedenen Lagermitarbeitern zugeordnet werden, die Kommissionierungen ausführen. Wenn die Kommissionierungen vollständig zugeordnet sind, werden die Zeilen im **Kommissioniervorschlag** gelöscht.  
+ Der Benutzer gibt Entnahmemethoden für optimierte Lagerdurchlaufzeit an und verwendet dann eine Funktion, um die entsprechenden Kommissionierungsbelege zu erstellen, die verschiedenen Lagermitarbeitern zugeordnet werden, die Kommissionierungen ausführen. Wenn die Kommissionierungen vollständig zugeordnet sind, werden die Zeilen im **Kommissionierarbeitsblatt** gelöscht.  
 
 ### <a name="8-create-warehouse-pick-documents"></a>8: Kommissionierungsbelege erstellen
 
@@ -123,7 +123,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 
 ### <a name="9-register-warehouse-pick"></a>9: Kommissionierung registrieren
 
- In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** auf der Seite **Kommissioniervorschlag** aus und erfasst dann die Lagerbestandsumlagerung.  
+ In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** auf der Seite **Kommissionierarbeitsblatt** aus und erfasst dann die Lagerbestandsumlagerung.  
 
  Lagerplatzposten werden erstellt, und die Kommissionierzeilen werden gelöscht, wenn sie vollständig bearbeitet sind. Der Kommissionierbeleg bleibt offen, bis die gesamte Menge des zugehörigen Warenausgangs erfasst ist. Das Feld **Abgerufene Menge** auf den Warenausgangszeilen wird entsprechend aktualisiert.  
 

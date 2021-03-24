@@ -55,7 +55,7 @@ Ein Serviceartikel kann aus mehreren Komponenten bestehen, die mit Ersatzteilen 
     Ist der mit dem Serviceartikel verbundene Artikel eine Stückliste, werden für alle Artikel in der Stückliste automatisch Komponenten erstellt.  
 
 ## <a name="to-set-up-a-service-shelf"></a>So richten Sie ein Servicelagerfach ein
-Sie können Servicelagerfächer einrichten, die identifizieren, wo Sie Serviceartikel speichern. Servicelagerfächer werden im Fenster **Serviceauftrag** und im Fenster **Servicearbeitsschein** mit Serviceartikeln verbunden.  
+Sie können Servicelagerfächer einrichten, die identifizieren, wo Sie Serviceartikel speichern. Servicelagerfächer werden im Fenster **Serviceauftrag** und im Fenster **Servicearbeitsblatt** mit Serviceartikeln verbunden.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Servicelagerfächer** ein und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder je nach Bedarf aus.

@@ -29,11 +29,11 @@ Bevor Sie diese Funktion verwenden können, müssen Sie die Karten für den Debi
 2. Wählen Sie die Aktion **Neu**. Erstellen Sie einen  Verkaufsauftrag für den Artikel, und füllen Sie diesen aus. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)
 3.  Geben Sie auf dem Inforegister **Zeilen** die Verkaufszeile ein. Wählen Sie im Feld **Einkaufscode** einen Einkaufscode mit einem Häkchen im Feld **Spezialauftrag** aus .
 
-    Sie müssen nun aus einem Bestellvorschlag eine Bestellung erstellen.  
+    Sie müssen nun aus einem Bestellarbeitsblatt eine Bestellung erstellen.  
 4. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Arbeitsblatt zur Genehmigung** ein, und wählen Sie dann den entsprechenden Link.  
 5. Wählen Sie die Aktion **Spezialauftrag** aus, und dann die Aktion **Auftrag holen**.  
-6.  Auf der Seite **Aufträge holen** werden Ergebnisse angezeigt, wobei **Belegnr.** die Verkaufsauftragsnummer ist. Wählen Sie die Schaltfläche **OK** aus. Es wird eine Bestellvorschlagszeile für den Artikel erstellt.  
-7.  Wählen Sie in der Bestellvorschlagszeile im Feld **Ereignismeldung** die Option **Neu** aus.  
+6.  Auf der Seite **Aufträge holen** werden Ergebnisse angezeigt, wobei **Belegnr.** die Verkaufsauftragsnummer ist. Wählen Sie die Schaltfläche **OK** aus. Es wird eine Bestellarbeitsblattszeile für den Artikel erstellt.  
+7.  Wählen Sie in der Bestellarbeitsblattszeile im Feld **Ereignismeldung** die Option **Neu** aus.  
 8.  Auf der Seite **Bestellauftrags-Arbeitsblatt** wählen Sie **Aktionsnachricht ausführen**. Auf der Seite **Ereignismeld. durchf. - Best.** wird geöffnet. Wählen Sie die Schaltfläche **OK** aus.  
 
     Es erscheint eine Meldung, dass die Einkaufsbestellungen erstellt wurden. Wählen Sie die Schaltfläche **OK**.  

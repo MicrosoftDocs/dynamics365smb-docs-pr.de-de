@@ -34,7 +34,7 @@ Die Verwendung von Standardkatalogen vereinfacht das Erstellen und Pflegen von A
 2. Öffnen Sie das relevante Fenster "Arbeitsplan".
 3. Wählen Sie einen entsprechenden Arbeitsgang aus, wählen Sie die **Arbeitsgänge** Aktion aus, und wählen Sie dann **Werkzeuge**, **Personal**, **Beschreibung** oder **Werkzeuge** Aktion aus.
 
-Wenn Sie den Lagerplatzumlagerungsvorschlag drucken, können Sie die Elemente aus dem Standardkatalog einschließen, die Sie dem Arbeitsgang hinzugefügt haben.
+Wenn Sie den Lagerplatzumlagerungsarbeitsblatt drucken, können Sie die Elemente aus dem Standardkatalog einschließen, die Sie dem Arbeitsgang hinzugefügt haben.
 
 ## <a name="see-also"></a>Siehe auch
 

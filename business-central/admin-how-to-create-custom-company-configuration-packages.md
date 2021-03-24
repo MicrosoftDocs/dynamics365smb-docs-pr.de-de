@@ -48,7 +48,7 @@ Um eine vollständige Liste von Einrichtungstabellen zu sehen, wählen Sie das S
 1.  Erstellen eines neuen Mandanten. Weitere Informationen finden Sie unter [Neue Mandanten erstellen in Business Central](about-new-company.md).  
 3.  Richten Sie den neuen Mandanten so ein, wie Sie ihn benötigen. Füllen Sie alle erforderlichen Einrichtungstabellen aus.  
 4.  Öffnen des neuen Mandanten
-5. Öffnen Sie das Fenster **Konfigurationsvorschlag**.  
+5. Öffnen Sie das Fenster **Konfigurationsarbeitsblatt**.  
 6.  Fügen Sie die Tabellen hinzu, die Sie zu einem anderen Mandanten auf dem Arbeitsblatt übertragen möchten. Weisen Sie die Arbeitsblattzeilen dem Paket zu.  
 7.  Erstellen Sie einen Fragebogen für die am häufigsten verwendeten Einrichtungstabellen.  
 8.  Erstellen Sie Konfigurationsvorlagen, um es zu erleichtern, Stammdaten, beispielsweise Debitoren oder Artikel, zu erstellen.  

@@ -31,15 +31,15 @@ Im Menüband wählen Sie den entsprechenden Excel-Bericht aus und lassen ihn öf
 - Kreditor-Saldenrückblick  
 - Debitor-Saldenrückblick  
 
-Nehmen wir mal an, Sie möchten den Cashflow vertiefter ansehen. Vom Geschäftsleiter- oder dem Buchhalter-Rollencenter aus können Sie den Bericht **Cashflowauszug** in Excel öffnen, tatsächlich exportieren wir aber die relevanten Daten für Sie und erstellen eine Excel-Arbeitsmappe auf Grundlage einer vordefinierte Vorlage. Abhängig von Ihrem Browser werden Sie aufgefordert, möglicherweise die Arbeitsmappe zu öffnen oder zu speichern.  
+Nehmen wir mal an, Sie möchten den Cashflow vertiefter ansehen. Vom Geschäftsleiter- oder dem Buchhalter-Rollencenter aus können Sie den Bericht **Cashflowauszug** in Excel öffnen, tatsächlich exportieren wir aber die relevanten Daten für Sie und erstellen ein Excel-Arbeitsblatt auf Grundlage einer vordefinierte Vorlage. Abhängig von Ihrem Browser werden Sie aufgefordert, möglicherweise das Arbeitsblatt zu öffnen oder zu speichern.  
 
-Dort finden Sie eine Registerkarte, in der die Daten für Sie im ersten Fenster ausgebreitet werden. Alle Daten, die exportiert wurden, sind ebenfalls in anderen Arbeitsblättern vorhanden, wenn Sie sie benötigen. Sie können den Bericht sofort drucken, oder Sie können das Feld ändern, solange Sie die Übersicht und die Details haben, die Sie anzeigen möchten. Verwenden Sie das [!INCLUDE [prod_short](includes/prod_short.md)] Excel-Add-In, um Daten zu filtern und zu analysieren.  
+Dort finden Sie eine Registerkarte, in der die Daten für Sie im ersten Arbeitsblatt ausgebreitet werden. Alle Daten, die exportiert wurden, sind ebenfalls in anderen Arbeitsblättern vorhanden, wenn Sie sie benötigen. Sie können den Bericht sofort drucken, oder Sie können das Feld ändern, solange Sie die Übersicht und die Details haben, die Sie anzeigen möchten. Verwenden Sie das [!INCLUDE [prod_short](includes/prod_short.md)] Excel-Add-In, um Daten zu filtern und zu analysieren.  
 
 ### <a name="understanding-the-excel-templates"></a>Grundlegendes zu den Excel-Vorlagen
 
 Die vordefinierten Excel-Berichte basieren auf den Daten im aktuellen Unternehmen. Zum Beispiel hat das Demounternehmen den Kontenplan eingerichtet, um drei Barkonten unter *Umlaufvermögen* aufzulisten: 10100 **Girokonto**, 10200 **Sparkonto** und 10300 **Portokasse**. Bei den Konten ist das Feld **Konto-Unterkategorie** auf *Bargeld* festgelegt und ihr kombinierter Betrag, der als *Bargeld* im Excel-Bericht **Bilanz** angezeigt wird.  
 
-Zusätzliche Blätter in der Excel-Arbeitsmappe zeigen die Daten hinter dem Bericht an. Um jedoch herauszufinden, was sich hinter den Gruppierungen in den Excel-Berichten verbirgt, müssen Sie möglicherweise zu [!INCLUDE [prod_short](includes/prod_short.md)] zurückkehren und beispielsweise auf die Listen Filter anwenden.  
+Zusätzliche Blätter im Excel-Arbeitsblatt zeigen die Daten hinter dem Bericht an. Um jedoch herauszufinden, was sich hinter den Gruppierungen in den Excel-Berichten verbirgt, müssen Sie möglicherweise zu [!INCLUDE [prod_short](includes/prod_short.md)] zurückkehren und beispielsweise auf die Listen Filter anwenden.  
 
 ## <a name="the-prod_short-excel-add-in"></a>Das [!INCLUDE [prod_short](includes/prod_short.md)]-Excel-Add-in
 

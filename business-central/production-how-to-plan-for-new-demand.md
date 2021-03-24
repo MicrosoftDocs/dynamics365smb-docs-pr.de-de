@@ -94,12 +94,12 @@ Auf der Seite Fenster werden Planungszeilen entsprechend dem Ansichtsfilter **Fe
     |**den aktiven Auftrag**|Erstellen Sie Beschaffungsaufträge für alle Zeilen in der Bestellung, in die der Cursor platziert wurde.|  
     |**Alle Zeilen**|Erstellen Sie Beschaffungsaufträge für alle Zeilen auf der Seite **Auftragsplanung**.|  
 
-5.  Definieren Sie auf dem Inforegister **Optionen**, welche Beschaffungsaufträge bzw. Bestellvorschlagszeilen erstellt werden sollen.  
+5.  Definieren Sie auf dem Inforegister **Optionen**, welche Beschaffungsaufträge bzw. Bestellarbeitsblattszeilen erstellt werden sollen.  
 
     > [!NOTE]  
     >  Die zuletzt vorgenommenen Einstellungen auf der Seite **Beschaffungsaufträge erstellen** werden unter Ihrer Benutzer-ID gespeichert und für die nächste Verwendung der Seite beibehalten.  
 
-6.  Wählen Sie die Schaltfläche **OK**, um die vorgeschlagenen Beschaffungsaufträge bzw. Bestellvorschlagszeilen zu erstellen.  
+6.  Wählen Sie die Schaltfläche **OK**, um die vorgeschlagenen Beschaffungsaufträge bzw. Bestellarbeitsblattszeilen zu erstellen.  
 
 Sie haben nun die Planung für den nicht erfüllten Bedarf durchgeführt, indem Sie die entsprechenden Beschaffungsaufträge erstellt haben. Ausführliche Informationen über spezielle Abläufe bei der Verwendung der Seite **Auftragsplanung** sind je nach den entsprechenden internen Richtlinien des Unternehmens vorhanden.  
 

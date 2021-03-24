@@ -150,7 +150,7 @@ Feld 480 ist in den folgenden Tabellen editierbar.
 |207|**Res. Buch.-Blattzeile**|  
 |210|**Projekt Buch.-Blattzeile**|  
 |221|**Fibu Buch.-Blatt Verteilungen**|  
-|246|**Bestellvorschlagszeile**|  
+|246|**Bestellarbeitsblattszeile**|  
 |295|**Mahnungskopf**|  
 |302|**Zinsrechnungskopf**|  
 |5405|**Fertigungsauftrag**|  

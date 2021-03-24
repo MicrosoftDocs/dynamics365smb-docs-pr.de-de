@@ -36,7 +36,7 @@ In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:
 Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]  
-- Die Cashflowvorschlagszeilen werden erfasst  
+- Die Cashflowarbeitsblattszeilen werden erfasst  
 
 ## <a name="roles"></a>Rollen
 

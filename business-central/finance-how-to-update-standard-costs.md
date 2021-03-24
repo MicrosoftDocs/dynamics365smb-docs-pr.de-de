@@ -31,7 +31,7 @@ Weitere Informationen finden Sie unter [Über das Berechnen von festen Einstands
 ## <a name="to-update-standard-costs"></a>Einstandspreise aktualisieren  
 1.  Führen Sie die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** aus.  
 2.  Aufruf der Stapelverarbeitung **Lagerregulierung buchen**.  
-3.  Öffnen Sie den **Einst.-Preis (fest) Vorschlag** und verwenden Sie eine oder mehrere der folgenden Funktionen:  
+3.  Öffnen Sie das **Einst.-Preis (fest) Arbeitsblatt** und verwenden Sie eine oder mehrere der folgenden Funktionen:  
 
     1.  Führen Sie die Stapelverarbeitung **Art. Einst.-Pr. (fest) vorschlagen** aus.  
     2.  Sehen Sie sich die Ergebnisse an, und nehmen Sie ggf. Änderungen vor.  

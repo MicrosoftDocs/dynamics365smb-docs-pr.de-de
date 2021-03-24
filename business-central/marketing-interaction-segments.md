@@ -20,7 +20,7 @@ ms.lasthandoff: 02/15/2021
 ms.locfileid: "5381391"
 ---
 # <a name="manage-interactions-for-segments"></a>Aktivitäten für Segmente verwalten
-Die Seite **Segment** ist ein Arbeitsschein, in dem Sie folgende Aufgaben ausführen können:
+Die Seite **Segment** ist ein Arbeitsblatt, in dem Sie folgende Aufgaben ausführen können:
 
 * Segmente erstellen
 * Speichern Sie die Segmentierungskriterien, die Sie bei der Auswahl von Kontakten verwendet haben.

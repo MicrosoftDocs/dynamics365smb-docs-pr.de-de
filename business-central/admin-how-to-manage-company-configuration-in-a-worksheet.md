@@ -62,7 +62,7 @@ Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration
     |**Nur lizenzierte Tabellen einschließen**|Aktivieren Sie das Kontrollkästchen, um nur die Tabellen einzuschließen, für die die Lizenz, unter der Sie das Arbeitsblatt erstellen, Ihnen den Zugriff erlaubt.|
 
 3. Geben Sie im Inforegister **Objekt** nach Bedarf Filter ein, um die Arten von Tabellen festzulegen, die Sie ein- oder ausschließen möchten.  
-4. Wählen Sie die Schaltfläche **OK** aus. [!INCLUDE[prod_short](includes/prod_short.md)] Tabellen werden dem Fenster hinzugefügt. Jeder Eintrag in der Liste hat die Zeilenart **Tabelle**.  
+4. Wählen Sie die Schaltfläche **OK** aus. [!INCLUDE[prod_short](includes/prod_short.md)] Tabellen werden dem Arbeitsblatt hinzugefügt. Jeder Eintrag in der Liste hat die Zeilenart **Tabelle**.  
 5. Um doppelte Tabelleninformationen zu entfernen, die aus der **Zugehörige Tabellen abrufen**-Aktion resultieren können, wählen Sie auf der Registerkarte Aktionen in der Gruppe Funktion **Doppelte Zeilen löschen** aus. Hierdurch werden doppelte Tabellen, die denselben Paketcode haben, entfernt.  
 6. Sie können diesem Arbeitsblatt Tabellen hinzufügen, die zu einer Tabelle gehören, die Sie ausgewählt haben. Überprüfen Sie die Informationen in der Infobox **Zugehörige Tabellen**, um festzustellen, ob es fehlende Tabellen gibt. Um zugehörige Tabellen für eine bestimmte Tabelle hinzuzufügen, wählen Sie die Tabelle in der Übersicht aus, und wählen Sie auf der Registerkarte Aktionen in der Gruppe Funktionen die Option **Zugehörige Tabellen abrufen** aus.  
 
@@ -104,7 +104,7 @@ Nachdem Sie einem Konfigurationspaket alle erforderlichen Tabellen hinzugefügt 
 1.  Wählen Sie die Tabellen aus, und löschen Sie sie, indem Sie die **Löschen** Aktion auswählen.  
 
     > [!NOTE]  
-    >  Die Tabellen bleiben im Paket, obwohl sie aus dem Vorschlag gelöscht werden.  
+    >  Die Tabellen bleiben im Paket, obwohl sie aus dem Arbeitsblatt gelöscht werden.  
 
 ## <a name="to-review-and-customize-existing-database-data"></a>So können Sie vorhandene Datenbank-Daten prüfen und anpassen.
 Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die verfügbaren Datenbankdaten anzeigen und anpassen, um Ihren Debitoranforderungen entsprechen. Die Datenbanktabelle muss eine zugeordnete Seite haben.  

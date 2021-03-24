@@ -92,7 +92,7 @@ Damit die neuen Artikel vollständig verwendet werden können, müssen Sie einig
 |Montage     |Montagestücklisten         |Überprüfen Sie, ob Montagestücklisten den ursprünglichen Artikel enthalten, und ersetzen Sie ihn manuell durch den neuen Artikel.         |
 
 > [!IMPORTANT]
-> Wenn die neue Lagerabgangsmethode „Standard“ lautet, sollten Sie einen Wert in das Feld eingeben **Einstandspreis (fest)** auf der Seite **Artikelkarte** eingeben. Auf der Seite **Einst.-Preis (fest) Vorschlag** können Sie die Kostenanteile entsprechend festlegen. Weitere Informationen zum Erstellen von Erfassungen finden Sie unter [Standard-Buch.-Blätter aktualisieren](finance-how-to-update-standard-costs.md).
+> Wenn die neue Lagerabgangsmethode „Standard“ lautet, sollten Sie einen Wert in das Feld eingeben **Einstandspreis (fest)** auf der Seite **Artikelkarte** eingeben. Auf der Seite **Einst.-Preis (fest) Arbeitsblatt** können Sie die Kostenanteile entsprechend festlegen. Weitere Informationen zum Erstellen von Erfassungen finden Sie unter [Standard-Buch.-Blätter aktualisieren](finance-how-to-update-standard-costs.md).
 
 ### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Bestandsmenge bestimmen, die vom ursprünglichen Artikel in den neuen Artikel konvertiert werden soll
 
@@ -154,10 +154,10 @@ In der folgenden Tabelle sind Funktionsbereiche aufgeführt, in denen möglicher
 |Ursprungs- / Bestimmungsregion  |Nach ausstehenden Mengen suchen  |
 |---------|---------|
 |Verkauf     |Verkaufsbelege, einschließlich Bestellungen, Rücksendungen, Rechnungen, Angebote, Rahmenaufträge und Gutschriften         |
-|Lagerbestand     |Artikel-Buch.-Blätter, Reservierungen, Artikelverfolgung und Einst.-Preis (fest) Vorschlag         |
+|Lagerbestand     |Artikel-Buch.-Blätter, Reservierungen, Artikelverfolgung und Einst.-Preis (fest) Arbeitsblatt         |
 |Einkauf     |Einkaufsbelege, einschließlich Bestellungen, Rücksendungen, Rechnungen, Angebote, Rahmenaufträge und Gutschriften         |
-|Planung     |Bestellvorschlag, Planungsarbeitsblatt und Auftragsplanung         |
-|Logistik     |Umlagerungsaufträge, Warenausgänge, Logistik Buch.-Blätter und Lagerkommissionierungen, Lagereinlagerungen und Umlagerungen, interne Kommissionierungen und Einlagerungen sowie Lagerplatz Erst.-Vorschläge         |
+|Planung     |Bestellarbeitsblatt, Planungsarbeitsblatt und Auftragsplanung         |
+|Logistik     |Umlagerungsaufträge, Warenausgänge, Logistik Buch.-Blätter und Lagerkommissionierungen, Lagereinlagerungen und Umlagerungen, interne Kommissionierungen und Einlagerungen sowie Lagerplatz Erst.-Arbeitsblätter         |
 |Montage     |Montagedokumente, einschließlich Bestellungen, Rücksendungen und Rahmenbestellungen         |
 |Projekte     |Projektplanungszeilen und Projekt-Buch.-Blattzeilen         |
 |Service     |Servicebelege und Serviceverträge         |

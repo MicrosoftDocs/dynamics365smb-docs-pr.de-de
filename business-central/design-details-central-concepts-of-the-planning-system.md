@@ -18,7 +18,7 @@ ms.lasthandoff: 02/15/2021
 ms.locfileid: "5390674"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
-Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsvorschlag oder Bestellvorschlag.  
+Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsarbeitsblatt oder Bestellarbeitsblatt.  
 
 ![Inhalt der Seite Planungsarbeitsblatt](media/NAV_APP_supply_planning_1_planning_worksheet.png "Inhalt der Seite Planungsarbeitsblatt")  
 
@@ -49,9 +49,9 @@ Mit anderen Worten: Es nimmt an, dass der Plan für die Vergangenheit gemäß de
 Weitere Informationen finden Sie unter [Umgang mit Aufträgen vor dem Planungs-Startdatum](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamische Auftragsnachverfolgung (Pegging)  
-Die dynamische Auftragsnachverfolgung, die eine simultane Erstellung von Ereignismeldungen im Planungsvorschlag ermöglicht, ist kein Teil des Beschaffungsplanungssystems in [!INCLUDE[prod_short](includes/prod_short.md)]. Dieses Funktion verknüpft in der Echtzeit den Bedarf und die Mengen, die ihn abdecken können, sobald ein neuer Bedarf oder eine Bedarfssicherung erstellt oder geändert wird.  
+Die dynamische Auftragsnachverfolgung, die eine simultane Erstellung von Ereignismeldungen im Planungsarbeitsblatt ermöglicht, ist kein Teil des Beschaffungsplanungssystems in [!INCLUDE[prod_short](includes/prod_short.md)]. Dieses Funktion verknüpft in der Echtzeit den Bedarf und die Mengen, die ihn abdecken können, sobald ein neuer Bedarf oder eine Bedarfssicherung erstellt oder geändert wird.  
 
-Wenn beispielsweise der Benutzer einen Verkaufsauftrag eingibt oder ändert, sucht das dynamische Auftragsnachverfolgungssystem sofort nach einem geeigneten Vorrat, um den Bedarf zu decken. Dies kann aus dem Lagerbestand oder aus einem erwarteten Beschaffungsauftrag sein (wie einer Einkaufsbestellung oder einem Fertigungsauftrag). Wenn eine Versorgungsquelle gefunden wird, erstellt das System eine Verknüpfung zwischen dem Bedarf und dem Vorrat, und zeigt sie in schreibgeschützten Seiten an, auf die von den einbezogenen Belegzeilen zugegriffen wird. Wenn ein entsprechender Vorrat nicht gefunden wird, erstellt das dynamische Bedarfsverursachersystem Ereignismeldungen im Planungsvorschlag mit Beschaffungsplanvorschlägen, die den dynamischen Ausgleich widerspiegeln. Entsprechend bietet das dynamische Auftragsnachverfolgungssystem ein sehr grundlegendes Planungssystem, das für den Planer und andere Rollen in der internen Lieferkette hilfreich sein kann.  
+Wenn beispielsweise der Benutzer einen Verkaufsauftrag eingibt oder ändert, sucht das dynamische Auftragsnachverfolgungssystem sofort nach einem geeigneten Vorrat, um den Bedarf zu decken. Dies kann aus dem Lagerbestand oder aus einem erwarteten Beschaffungsauftrag sein (wie einer Einkaufsbestellung oder einem Fertigungsauftrag). Wenn eine Versorgungsquelle gefunden wird, erstellt das System eine Verknüpfung zwischen dem Bedarf und dem Vorrat, und zeigt sie in schreibgeschützten Seiten an, auf die von den einbezogenen Belegzeilen zugegriffen wird. Wenn ein entsprechender Vorrat nicht gefunden wird, erstellt das dynamische Bedarfsverursachersystem Ereignismeldungen im Planungsarbeitsblatt mit Beschaffungsplanvorschlägen, die den dynamischen Ausgleich widerspiegeln. Entsprechend bietet das dynamische Auftragsnachverfolgungssystem ein sehr grundlegendes Planungssystem, das für den Planer und andere Rollen in der internen Lieferkette hilfreich sein kann.  
 
 Entsprechend kann die dynamische Auftragsnachverfolgung als Tool betrachtet werden, das dem Benutzer hilft, festzulegen, ob Beschaffungsauftragsvorschläge akzeptiert werden sollen. Aus Vorratssicht kann ein Benutzer sehen, welcher Bedarf den Vorrat erstellt hat, und aus Bedarfssicht, welcher Vorrat den Bedarf abdecken soll.  
 
@@ -62,7 +62,7 @@ Weiter Informationen finden Sie unter [Designdetails: Reservierung, Auftragsnach
 In Unternehmen mit geringem Warenfluss und weniger fortschrittlichen Produktstrukturen kann es angemessen sein, die dynamische Auftragsnachverfolgung als Haupthilfsmittel der Vorratsplanung zu verwenden. In ausgelasteteren Umgebungen sollte jedoch das Planungssystem verwendet werden, um jederzeit einen korrekt saldierten Beschaffungsplan sicherzustellen.  
 
 ### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Dynamische Auftragsnachverfolgung vs. Planungssystem  
-Auf den ersten Blick kann es schwierig sein, zwischen dem Planungssystem und der dynamischen Auftragsnachverfolgung zu unterscheiden. Beide Funktionen zeigen die Ausgabe im Planungsvorschlag an, wobei sie Aktionen vorschlagen, die der Planer ausführen soll. Diese Ausgabe wird jedoch auf andere Weise erstellt.  
+Auf den ersten Blick kann es schwierig sein, zwischen dem Planungssystem und der dynamischen Auftragsnachverfolgung zu unterscheiden. Beide Funktionen zeigen die Ausgabe im Planungsarbeitsblatt an, wobei sie Aktionen vorschlagen, die der Planer ausführen soll. Diese Ausgabe wird jedoch auf andere Weise erstellt.  
 
 Das Planungssystem behandelt das gesamte Vorrats- und Bedarfsmuster eines bestimmten Artikels auf allen Ebenen der Stücklistenhierarchie entlang der Zeitachse, während die dynamische Auftragsnachverfolgung nur die Situation des Auftrags behandelt, der sie aktiviert hat. Beim Ausgleichen von Bedarf und Angebot erstellt das Planungssystem Verknüpfungen in einem vom Benutzer aktivierten Batchmodus erstellt, während die dynamische Auftragsnachverfolgung die Verknüpfungen automatisch während der Verarbeitung erstellt, wenn der Benutzer einen Bedarf oder eine Bedarfssicherung, wie einen Verkaufsauftrag oder eine Einkaufsbestellung, in die Anwendung eingibt.  
 
@@ -74,7 +74,7 @@ Demgegenüber befasst sich das Planungssystem mit allen Bedarfen und Vorräten f
 
 ![Beispiel der Auftragsnachverfolgung in der Beschaffungsplanung 2](media/NAV_APP_supply_planning_1_planning_graph.png "Beispiel der Auftragsnachverfolgung in der Beschaffungsplanung 2")  
 
-Nach der Planung bleiben keine Ereignismeldungen in der Ereignismeldungstabelle, da sie durch die vorgeschlagenen Aktionen im Planungsvorschlag ersetzt wurden  
+Nach der Planung bleiben keine Ereignismeldungen in der Ereignismeldungstabelle, da sie durch die vorgeschlagenen Aktionen im Planungsarbeitsblatt ersetzt wurden  
 
 Weitere Informationen finden Sie unter [Auftragsnachverfolgungslinks in der Planung](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
@@ -213,9 +213,9 @@ Die folgende Abbildung zeigt, wie Reservierungen den optimalen Plan behindern k�
 Weiter Informationen finden Sie unter [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
 
 ## <a name="warnings"></a>Warnungen  
-Die erste Spalte im Planungsvorschlag ist für die Warnungsfelder. In jeder für eine ungewöhnliche Situation erstellten Planungszeile wird in diesem Feld ein Warnsymbol angezeigt, auf die der Benutzer klicken kann, um weitere Informationen anzuzeigen.  
+Die erste Spalte im Planungsarbeitsblatt ist für die Warnungsfelder. In jeder für eine ungewöhnliche Situation erstellten Planungszeile wird in diesem Feld ein Warnsymbol angezeigt, auf die der Benutzer klicken kann, um weitere Informationen anzuzeigen.  
 
-Der Vorrat in Planungszeilen mit Warnungen wird normalerweise nicht gemäß den Planungsparametern geändert. Stattdessen wird vom Planungssystem nur eine Beschaffung vorgeschlagen, um die genaue Bedarfsmenge zu decken. Sie können jedoch das System so einrichten, dass bestimmte Planungsparameter für Planungszeilen mit bestimmten Warnungen berücksichtigt werden können. Weitere Informationen finden Sie in der Beschreibung dieser Optionen für **Berechnungsplan - Plan Lagerreg.** Stapelauftrag und **Planung berechnen - Bestellvorschlag** Stapelverarbeitung fest.  
+Der Vorrat in Planungszeilen mit Warnungen wird normalerweise nicht gemäß den Planungsparametern geändert. Stattdessen wird vom Planungssystem nur eine Beschaffung vorgeschlagen, um die genaue Bedarfsmenge zu decken. Sie können jedoch das System so einrichten, dass bestimmte Planungsparameter für Planungszeilen mit bestimmten Warnungen berücksichtigt werden können. Weitere Informationen finden Sie in der Beschreibung dieser Optionen für **Berechnungsplan - Plan Lagerreg.** Stapelauftrag und **Planung berechnen - Bestellarbeitsblatt** Stapelverarbeitung fest.  
 
 Die Warnungsinformationen werden auf der Seite **Planungselemente ohne Bedarfsverursacher** angezeigt, das auch verwendet wird, um Bedarfsverursacherverknüpfungen mit nicht auftragsbezogenen Netzwerkeinheiten anzuzeigen. Folgende Arten von Warnungen sind verfügbar:  
 
@@ -240,7 +240,7 @@ Die Ausnahmewarnung wird angezeigt, wenn der voraussichtlich verfügbare Lagerbe
 
 Das Unterschreiten des Sicherheitsbestands gilt als Ausnahme, da dieser Zustand nicht eintreten sollte, wenn der Minimalbestand korrekt festgelegt wurde. Weitere Informationen finden Sie unter [Die Rolle des Wiederbestellpunkts](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
-Im Allgemeinen gewährleisten außergewöhnliche Bestellvorschläge, dass der voraussichtlich verfügbare Lagerbestand nicht geringer als die Sicherheitsbestandsebene ist. Das bedeutet, dass die vorgeschlagene Menge gerade ausreicht, den Sicherheitsbestand zu umfassen, ohne Planungsparameter zu berücksichtigen. Jedoch in einigen Szenarien werden Auftragsmodifikationen berücksichtigt.  
+Im Allgemeinen gewährleisten außergewöhnliche Bestellarbeitsblätter, dass der voraussichtlich verfügbare Lagerbestand nicht geringer als die Sicherheitsbestandsebene ist. Das bedeutet, dass die vorgeschlagene Menge gerade ausreicht, den Sicherheitsbestand zu umfassen, ohne Planungsparameter zu berücksichtigen. Jedoch in einigen Szenarien werden Auftragsmodifikationen berücksichtigt.  
 
 > [!NOTE]  
 >  Das Planungssystem hat möglicherweise den Sicherheitsbestand absichtlich verbraucht und füllt ihn dann sofort auf. Weitere Informationen finden Sie unter [Sicherheitsbestand kann verbraucht werden](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
@@ -256,7 +256,7 @@ Die Achtungswarnung wird in drei Situationen angezeigt:
 >  In Planzeilen mit Warnungen ist das Kontrollkästchen **Ereignismeldung akzeptieren** nicht aktiviert, da diese Zeilen vom Planer genauer untersucht werden sollen, bevor der Plan umgesetzt wird.  
 
 ## <a name="error-logs"></a>Fehlerprotokolle  
-Auf der Anforderungsseite „Plan berechnen“ kann der Benutzer das Feld **Abbrechen und ersten Fehler anzeigen** auswählen, um die Planung anzuhalten, wenn der erste Fehler aufgetreten ist. Gleichzeitig wird eine Meldung angezeigt, die Informationen zu dem Fehler enthält. Gibt es einen Fehler, werden im Planungsvorschlag nur die Planungszeilen angezeigt, die vor dem Fehler erfolgreich erstellt wurden.  
+Auf der Anforderungsseite „Plan berechnen“ kann der Benutzer das Feld **Abbrechen und ersten Fehler anzeigen** auswählen, um die Planung anzuhalten, wenn der erste Fehler aufgetreten ist. Gleichzeitig wird eine Meldung angezeigt, die Informationen zu dem Fehler enthält. Gibt es einen Fehler, werden im Planungsarbeitsblatt nur die Planungszeilen angezeigt, die vor dem Fehler erfolgreich erstellt wurden.  
 
 Wenn das Feld nicht aktiviert ist, wird die Stapelverarbeitung „Planung berechnen“ fortgesetzt, bis sie abgeschlossen ist. Fehler unterbrechen die Stapelverarbeitung nicht. Sind Fehler vorhanden, zeigt die Anwendung nach Beendigung der Stapelverarbeitung eine Meldung an, die mitteilt, wie viele Artikel betroffen sind. Danach wird die Seite **Planungsfehlerprotokoll** geöffnet, in dem weitere Informationen zu den Fehlern sowie den Verknüpfungen für die betroffenen Dokumente oder Setupkarten bereitgestellt werden.  
 
@@ -273,7 +273,7 @@ Weitere Informationen darüber, wie dieses Feld verwendet wird, finden Sie unter
 Das grundlegende Tool für die Beschaffungsplanung, das durch die Seite **Auftragsplanung** angegeben wird, ist für die manuelle Entscheidungsfindung gedacht. Berücksichtigt keine Planungsparameter und wird daher nicht weiter in diesem Dokument erläutert. Weitere Informationen finden Sie unter [Plan für neuen Nachfrageauftrag nach Auftrag](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
->  Es wird nicht empfohlen, Auftragsplanung zu verwenden, wenn das Unternehmen bereits Planungs- oder Bestellvorschläge verwendet. Die über die Seite erstellten Beschaffungsaufträge **Auftragsplanung** können während der automatisierten Planungsläufe geändert oder gelöscht werden. Dies liegt daran, dass der automatisierte Planungslauf Planungsparameter verwendet und diese möglicherweise vom Benutzer nicht berücksichtigt werden, der den manuellen Plan auf der Seite "Auftragsplanung" erzeugt hat.  
+>  Es wird nicht empfohlen, Auftragsplanung zu verwenden, wenn das Unternehmen bereits Planungs- oder Bestellarbeitsblätter verwendet. Die über die Seite erstellten Beschaffungsaufträge **Auftragsplanung** können während der automatisierten Planungsläufe geändert oder gelöscht werden. Dies liegt daran, dass der automatisierte Planungslauf Planungsparameter verwendet und diese möglicherweise vom Benutzer nicht berücksichtigt werden, der den manuellen Plan auf der Seite "Auftragsplanung" erzeugt hat.  
 
 ##  <a name="finite-loading"></a>Begrenzte Auslastung  
 [!INCLUDE[prod_short](includes/prod_short.md)] ist ein Standard-ERP-System, kein Dispatching- oder Fertigungssteuerungssystem. Planung einer durchführbaren Nutzung von Ressourcen durch Bereitstellung eines Rohschnittzeitplans, jedoch keine automatische Erstellung und Verwaltung von detaillierten Plänen, die auf Prioritäten oder Optimierungsregeln basieren.  

@@ -52,16 +52,16 @@ Lagerfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] können in unt
 ## <a name="advanced-ui-documents"></a>Erweiterte UI-Dokumente  
 
 -   **Wareneingang**  
--   **Einlagerungsvorschlag**  
+-   **Einlagerungsarbeitsblatt**  
 -   **Einlagerung**  
--   **Kommissioniervorschlag**  
+-   **Kommissionierarbeitsblatt**  
 -   **Kommissionierung**  
--   **Lagerplatzumlagerungsvorschlag**  
+-   **Lagerplatzumlagerungsarbeitsblatt**  
 -   **Lagerplatzumlagerung**  
 -   **Interne Kommissionierung**  
 -   **Interne Einlag.-Anforderung**  
--   **Lagerplatz Erst.-Vorschlag**  
--   **Lagerplatzinh. Erst.-Vorschlag**  
+-   **Lagerplatz Erst.-Arbeitsblatt**  
+-   **Lagerplatzinh. Erst.-Arbeitsblatt**  
 -   **Logistik Artikel Buch.-Blatt**  
 -   **Umlagerung Logistik Artikel Buch.-Blatt**  
 -   (Verschiedene Berichte)  

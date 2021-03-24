@@ -38,15 +38,15 @@ Im Feld Rollencenter Buchhalte unter **Finanzleistung** geben die Diagramme **Ba
 
 Obwohl dies separat ist, ist das Fenster **Cashflowplanung** gleich. Um Details anzuzeigen Filtern Sie die Ergebnisse und ändern, was gleich angezeigt wird. Wenn Sie eine Einstellung ändern, kann die Planung mithilfe von **Cashflowplanung** und **Planung neu berechnen** aktualisiert werden.
 
-Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, können Sie den Cashflowvorschlag auch berücksichtigen. Beispielsweise wird angezeigt, wie die Planungs:
+Wenn Sie die Planung, zusätzlich zu den Absatzplanungsposten prüfen möchten, können Sie den Cashflowarbeitsblatt auch berücksichtigen. Beispielsweise wird angezeigt, wie die Planungs:
 
 * Verarbeitet bestätigte Verkäufe und Einkäufe.  
 * Subtrahiert Verbindlichkeiten und fügt Forderungen hinzu.  
 * Überspringt duplizierte Verkaufsaufträge und Bestellungen.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Cashflowvorschlagszeile anzeigen
+## <a name="to-view-a-cash-flow-worksheet"></a>Cashflowarbeitsblattszeile anzeigen
 1. Suchen Sie nach **Cashflow-Planungen** und wählen Sie dann den zugehörigen Link aus.  
-2. Wählen Sie eine Cashflowplanung, und wählen die **Cashflowvorschlag** Aktion aus.  
+2. Wählen Sie eine Cashflowplanung, und wählen die **Cashflowarbeitsblatt** Aktion aus.  
 3. Auf der Seite **Cashflow Arbeitsblatt** wählen Sie die Aktion **Vorgeschlagene Arbeitsblattpositionen** aus.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)

@@ -38,7 +38,7 @@ Fertigungsaufträge sind die Ausgangspunkte für:
 -   Verfolgen der abgeschlossenen Fertigung  
 
 ## <a name="production-order-creation"></a>Fertigungsauftrag erstellen  
-Fertigungsaufträge können auftragsweise manuell aus den Seiten **Fertigungsauftrag**, **Verkaufsauftragsplanung** und/oder **Auftragsplanung** erstellt werden. Mehrere Aufträge werden aus der Seite **Planungsvorschlag** erstellt.  
+Fertigungsaufträge können auftragsweise manuell aus den Seiten **Fertigungsauftrag**, **Verkaufsauftragsplanung** und/oder **Auftragsplanung** erstellt werden. Mehrere Aufträge werden aus der Seite **Planungsarbeitsblatt** erstellt.  
 
 Für die Erstellung eines Fertigungsauftrags werden Informationen aus folgenden Quellen verwendet:  
 
@@ -51,7 +51,7 @@ Für die Erstellung eines Fertigungsauftrags werden Informationen aus folgenden 
 ## <a name="limitations-on-production-order-creation"></a>Einschränkungen für das Erstellen von Fertigungsaufträgen  
 Ein Fertigungsauftrag wird automatisch reserviert und zu seinem Ursprung verfolgt, wenn:  
 
--   Er aus dem **Planungsvorschlag** erstellt wurde  
+-   Er aus dem **Planungsarbeitsblatt** erstellt wurde  
 -   Wurde mit der Auftragsfunktion auf der Seite **Verkaufsauftragsplanung** erstellt  
 -   Wurde aus der Seite **Auftragsplanung** erstellt  
 -   Die Funktion **Neu planen** für Fertigungsaufträge verwendet wird  

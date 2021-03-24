@@ -92,19 +92,19 @@ Der Benutzer, der für die Einlagerung aus internen Vorgängen zuständig ist, e
 ### <a name="6-create-put-away-request"></a>6: Einlagerungsanforderung  
 Wenn der eingehende Herkunftsbeleg gebucht wird, wird eine Einlagerungsanforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden. Abhängig von den Einstellungen erstellt die Ausgabe eines Fertigungsauftrags auch eine Einlagerungsanforderung, um die fertigen Artikel im Lagerbestand einzulagern.  
 
-### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Einlagerungsvorschlagszeilen generieren (optional)  
-Der Benutzer, der für das Koordinieren von Einlagerungen zuständig ist, ruft **Einlagerungszeilen** in Einlagerungsvorschlag basierend auf gebuchten Wareneinängen oder internen Arbeitsgängen mit Ausgabe ab. Der Benutzer wählt die einzulagernden Zeilen und bereitet die Einlagerungen vor, indem er angibt, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Die Lagerplätze können durch Einrichtung des Lagerorts oder der Arbeitsgangsressource vordefiniert werden.  
+### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Einlagerungsarbeitsblattzeilen generieren (optional)  
+Der Benutzer, der für das Koordinieren von Einlagerungen zuständig ist, ruft **Einlagerungszeilen** in Einlagerungsarbeitsblatt basierend auf gebuchten Wareneinängen oder internen Arbeitsgängen mit Ausgabe ab. Der Benutzer wählt die einzulagernden Zeilen und bereitet die Einlagerungen vor, indem er angibt, aus welchen Lagerplätzen entnommen und in welche Lagerplätze eingelagert wird, und wie viele Einheiten bewegt werden. Die Lagerplätze können durch Einrichtung des Lagerorts oder der Arbeitsgangsressource vordefiniert werden.  
 
-Wenn alle Einlagerungen geplant und den Lagermitarbeitern zugeteilt sind, erstellt der Benutzer die Einlagerungsbelege. Vollständig zugeordnete Einlagerungszeilen werden aus dem **Einlagerungsvorschlag** gelöscht.  
+Wenn alle Einlagerungen geplant und den Lagermitarbeitern zugeteilt sind, erstellt der Benutzer die Einlagerungsbelege. Vollständig zugeordnete Einlagerungszeilen werden aus dem **Einlagerungsarbeitsblatt** gelöscht.  
 
 > [!NOTE]  
->  Wenn das Feld **Einlagerungsvorschlag** auf der Artikelkarte nicht ausgewählt ist, werden Einlagerungsbelege direkt basierend auf den gebuchten Wareneingängen erstellt. In diesem Fall wird Schritt 7 weggelassen.  
+>  Wenn das Feld **Einlagerungsarbeitsblatt** auf der Artikelkarte nicht ausgewählt ist, werden Einlagerungsbelege direkt basierend auf den gebuchten Wareneingängen erstellt. In diesem Fall wird Schritt 7 weggelassen.  
 
 ### <a name="8-create-warehouse-put-away-document"></a>8: Einlagerungsbeleg erstellen  
 Der Lagermitarbeiter, der Einlagerungen ausführt, erstellt im Pull-Verfahren einen Einlagerungsbeleg auf Grundlages des gebuchten Wareneingangs. Oder der Einlagerungsbeleg wird erstellt und dem Lagermitarbeiter im Push-Verfahren zugeteilt.  
 
 ### <a name="9-register-warehouse-put-away"></a>9: Wareneingangsverzeichnis  
-In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** auf der Seite **Kommissioniervorschlag** aus und erfasst dann die Lagerbestandsumlagerung.  
+In jeder Zeile für Artikel, die kommissioniert oder umgelagert wurden, sei es teilweise oder vollständig, füllt der Lagermitarbeiter das Feld **Menge** auf der Seite **Kommissionierarbeitsblatt** aus und erfasst dann die Lagerbestandsumlagerung.  
 
 Lagerplatzposten werden erstellt, und die Einlagerungszeilen werden gelöscht, wenn sie vollständig bearbeitet sind. Der Einlagerungsbeleg bleibt offen, bis die gesamte Menge des zugehörigen gebuchten Warenzugangs erfasst ist. Das Feld **Menge eingelagert** auf den Wareneingangsauftragszeilen wird aktualisiert.  
 

@@ -29,7 +29,7 @@ Verwenden Sie zum Verfolgen von Änderungen und zum Darstellen einer grafischen 
 2. Wenn Sie eine Übersicht der Serviceaufgaben erhalten möchten, die einer bestimmen Ressource oder Ressourcengruppe zugeordnet sind, füllen Sie die Felder **Ressourcenfilter** oder **Ressourcengruppenfilter** aus, und drücken Sie die Eingabetaste.  
 3. Wenn Sie eine Übersicht der Serviceaufgaben erhalten möchten, die ein bestimmtes "Reagieren bis (Datum)" haben oder deren "Reagieren bis (Datum)" in eine bestimmte Periode fällt, dann füllen Sie das Feld **Reagieren bis (Datum)** aus, und drücken Sie die Eingabetaste.  
 4. Wenn Sie eine Übersicht der Serviceaufgaben erhalten möchten, die einen bestimmen Zuordnungsstatus oder Reparaturstatus haben, füllen Sie die Felder **Zuordnungsfilter** oder **Reparaturstatusfilter** aus, und drücken Sie die Eingabetaste.  
-5. Wählen Sie die Serviceaufgabe aus, die Sie bearbeiten möchten. Wählen Sie die Aktion **Artikel-Arbeitsblatt** aus. Die Seite **Servicearbeitsschein** wird geöffnet.  
+5. Wählen Sie die Serviceaufgabe aus, die Sie bearbeiten möchten. Wählen Sie die Aktion **Artikel-Arbeitsblatt** aus. Die Seite **Servicearbeitsblatt** wird geöffnet.  
 6. Tragen Sie Standardtext, Ersatzteile, Arbeitsstunden und Kosten wie gewünscht ein, indem Sie die entsprechende Option im Feld **Art** verwenden: <Blank>, **Artikel**, **Ressource** und **Kosten**.  
 7. Wählen Sie im Feld **Reparaturstatus** den geeigneten Status aus.  
 
@@ -37,21 +37,21 @@ Verwenden Sie zum Verfolgen von Änderungen und zum Darstellen einer grafischen 
    >  Füllen Sie das Feld **Reparaturstatus** mit dem Status **Beendet** oder **Unvollständig bearbeitet**, wenn die Serviceartikel entweder vollständig bearbeitet wurden oder eine andere Ressource die Arbeiten fortführen wird. Der Status **Erledigt** oder **Neuzuordnung notwendig** wird automatisch für den Zuordnungsposten dieses Serviceartikels angegeben.  
 
 ## <a name="to-register-service-operations"></a>So erfassen Sie Servicearbeiten  
-Wenn Sie eine Servicearbeit für einen Serviceauftrag ausführen, können Sie die Details erfassen, indem Sie die verwendeten Artikel, die angefallenen Kosten und den Zeitaufwand angeben. Die von Ihnen eingegebenen Daten werden auf der Seite **Servicearbeitsschein** gespeichert. Sie können die Daten bei Bedarf aktualisieren.
+Wenn Sie eine Servicearbeit für einen Serviceauftrag ausführen, können Sie die Details erfassen, indem Sie die verwendeten Artikel, die angefallenen Kosten und den Zeitaufwand angeben. Die von Ihnen eingegebenen Daten werden auf der Seite **Servicearbeitsblatt** gespeichert. Sie können die Daten bei Bedarf aktualisieren.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceaufträge** ein und wählen Sie dann den entsprechenden Link.  
 2. Öffnen Sie den Serviceauftrag, für den der Service erfasst werden soll, und wählen Sie eine Artikelzeile aus.  
-3. Wählen Sie die Aktion **Servicearbeitsschein**.  
+3. Wählen Sie die Aktion **Servicearbeitsblatt**.  
 4. Geben Sie in den Zeilen die verwendeten Artikel, die angefallenen Kosten und den Zeitaufwand für die Servicearbeit ein.  
 
    > [!NOTE]  
    >  Sie können die Servicearbeit auch direkt in den Servicezeilen erfassen, die mit dem Serviceauftrag verknüpft sind.  
 
 ## <a name="to-register-spare-parts"></a>So erfassen Sie Ersatzteile  
-Wenn Sie in Serviceaufträgen mit Serviceartikeln arbeiten, können Sie im Service Ersatzteile verwenden. Der folgende Ablauf zeigt, wie Ersatzteile auf der Seite **Servicearbeitsschein** erfasst werden.  
+Wenn Sie in Serviceaufträgen mit Serviceartikeln arbeiten, können Sie im Service Ersatzteile verwenden. Der folgende Ablauf zeigt, wie Ersatzteile auf der Seite **Servicearbeitsblatt** erfasst werden.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceaufgaben** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die Zeile aus, die den relevanten Serviceartikel enthält, und wählen die **Servicearbeitsschein** Aktion aus.  
+2. Wählen Sie die Zeile aus, die den relevanten Serviceartikel enthält, und wählen die **Servicearbeitsblatt** Aktion aus.  
 3. Geben Sie eine neue Servicezeile ein.  
 4. Wählen Sie im Feld **Art** die Option **Artikel** aus.  
 5. Geben Sie im Feld **Nr.** die relevanten Ersatzteile ein.  
@@ -69,7 +69,7 @@ Wenn Sie in Serviceaufträgen mit Serviceartikeln arbeiten, können Sie im Servi
 Wenn Sie einen Serviceartikel warten, der sich aus Komponenten zusammensetzt, können Sie fehlerhafte Teile durch neue ersetzen. Jedes Mal, wenn Sie ein Ersatzteil für einen Serviceartikel mit Komponenten eingeben, können Sie auswählen, ob Sie eine Komponente ersetzen oder eine neue Komponente erstellen möchten. Der neue Artikel wird nicht als Komponente des Serviceartikels erfasst, bis Sie die Servicezeile oder den Serviceauftrag buchen.
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceaufgaben** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die Zeile aus, die den Serviceartikel enthält, und wählen die **Servicearbeitsschein** Aktion aus.  
+2. Wählen Sie die Zeile aus, die den Serviceartikel enthält, und wählen die **Servicearbeitsblatt** Aktion aus.  
 3. Geben Sie eine neue Servicezeile ein.  
 4. Wählen Sie im Feld **Art** die Option **Artikel** aus.  
 5. Geben Sie im Feld **Nr.** die zu ersetzende Komponente ein.  
@@ -92,14 +92,14 @@ Wenn Sie eine Serviceartikelzeile in einem Serviceauftrag oder -angebot registri
 3. Geben Sie auf der Serviceartikelzeile, für die Sie die Reaktionszeit ändern möchten, entweder im Feld **Reaktionszeit (Std.)** oder in die Felder **Reagieren bis (Datum)** und **Reagieren bis (Uhrzeit)** die neuen Daten ein.  
 
 ## <a name="to-register-faultresolution-codes"></a>So erfassen Sie Problem-/Lösungscodes  
-Nachdem ein Serviceartikel repariert wurde, können Sie sowohl den Problemcode als auch den Lösungscode für den Artikel erfassen, indem Sie eine Kombination der bestehenden Problem-/Lösungszuordnung auswählen. Die ausgewählten Problem- und Lösungscodes erscheinen nun in den entsprechenden Feldern auf der Seite **Servicearbeitsschein**. Sie können die Codes auch direkt auf dieser Seite erfassen.  
+Nachdem ein Serviceartikel repariert wurde, können Sie sowohl den Problemcode als auch den Lösungscode für den Artikel erfassen, indem Sie eine Kombination der bestehenden Problem-/Lösungszuordnung auswählen. Die ausgewählten Problem- und Lösungscodes erscheinen nun in den entsprechenden Feldern auf der Seite **Servicearbeitsblatt**. Sie können die Codes auch direkt auf dieser Seite erfassen.  
 
 1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceaufgaben** ein und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie die Zeile aus, die den relevanten Serviceartikel enthält, und wählen die **Servicearbeitsschein** Aktion aus.  
-3. Auf der Seite **Servicearbeitsschein** wählen Sie **Problem/Resol. Code-Verhältnisse** aus. Die Seite **Problem-/Lösungszuordnungen** wird geöffnet.  
+2. Wählen Sie die Zeile aus, die den relevanten Serviceartikel enthält, und wählen die **Servicearbeitsblatt** Aktion aus.  
+3. Auf der Seite **Servicearbeitsblatt** wählen Sie **Problem/Resol. Code-Verhältnisse** aus. Die Seite **Problem-/Lösungszuordnungen** wird geöffnet.  
 
   >  [!NOTE]
-  >  Filter werden auf die angezeigten Zuordnungen gesetzt, indem die Serviceartikelgruppe und die Problemcodes aus der Seite **Servicearbeitsschein** kopiert werden.  
+  >  Filter werden auf die angezeigten Zuordnungen gesetzt, indem die Serviceartikelgruppe und die Problemcodes aus der Seite **Servicearbeitsblatt** kopiert werden.  
 
 4. Füllen Sie die Zeile aus. Wählen Sie die richtige Kombination von Problem- und Lösungscodes, und wählen Sie dann die Schaltfläche **OK**, um diese auf den Serviceartikel zu kopieren. Wenn keine geeignete Kombination gefunden wird, können Sie eine neue Kombination auf der Seite erstellen.  
 
