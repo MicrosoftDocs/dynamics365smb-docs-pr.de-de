@@ -7,7 +7,7 @@
       "locale": "de-de",
       "monikers": [],
       "moniker_ranges": [],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -21,12 +21,14 @@
     "edupont@microsoft.com",
     "solsen@microsoft.com"
   ],
-  "sync_notification_subscribers": [],
+  "sync_notification_subscribers": [
+    "buckley.guderian@microsoft.com"
+  ],
   "branches_to_filter": [
     "live-sxs"
   ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics365smb-docs",
-  "git_repository_branch_open_to_public_contributors": "live",
+  "git_repository_branch_open_to_public_contributors": "main",
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
@@ -38,12 +40,6 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "_themes.pdf",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
-      "branch_mapping": {}
-    },
-    {
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/MicrosoftDocs/dynamics365smb-docs-pr",
       "branch": "live",
@@ -51,6 +47,12 @@
         "live": "live",
         "master": "master"
       }
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {
@@ -65,5 +67,6 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "need_generate_intellisense": false
+  "need_generate_intellisense": false,
+  "contribution_branch_mappings": {}
 }
