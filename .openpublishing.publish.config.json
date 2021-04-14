@@ -68,5 +68,8 @@
     }
   },
   "need_generate_intellisense": false,
-  "contribution_branch_mappings": {}
+  "contribution_branch_mappings": {},
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  }
 }
