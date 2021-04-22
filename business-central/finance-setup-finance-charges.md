@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge
-ms.date: 12/03/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dad02adfb6cc0a0ebb6d950b67f2e092b3313c59
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 08a2443f94efbc9920145109b4b7499a3a4e05b3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377087"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783622"
 ---
 # <a name="set-up-finance-charge-terms"></a>Zinskonditionen einrichten
 

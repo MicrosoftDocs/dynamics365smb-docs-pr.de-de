@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1049bef967620571be20d9dc97864c66ee8e4074
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ed9a7b84798ac7b0bf103329c9e06ea0468aa03b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381756"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788077"
 ---
 # <a name="set-up-contacts"></a>Kontakte einrichten
 Beim Erstellen von Kontakten können Sie spezifische Informationen wie die Branche, der der Kontakt angehört, oder die Geschäftsbeziehung, die mit den Kontakten besteht, eingeben.

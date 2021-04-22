@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a54ce7805deafa5d67c3e25b89606a1a40634ad6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b87bd1061adbcaae3a5497fa1af020cfaa412593
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378148"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781261"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Den Status von Synchronisierungsprojekten anzeigen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

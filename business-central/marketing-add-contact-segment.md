@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 13059ffb8701428e8a4c72b49e57fb3c87257cac
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7cf4c0f1241155f464fde5196125b0a1bed2aeee
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392924"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784542"
 ---
 # <a name="add-contacts-to-segments"></a>Kontakte zu Segementen hinzuzufügen
 Nachdem Sie ein Segment erstellt haben und Basisinformationen darüber eingegeben haben, können Sie dem Segment Kontakte hinzufügen. Sie können dies manuell in den Zeilen auf der Seite **Segment** tun, aber es ist schneller und einfacher, die Aktion **Kontakte hinzufügen** zu verwenden.

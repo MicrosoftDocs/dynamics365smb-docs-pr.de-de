@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
-ms.date: 10/29/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 252b2bc892a22349a9d5c84b704c922f7586fddf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6b4ed57dbc6202e44487ca13363b0b34d915d01b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389174"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786537"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Fügen Sie Unternehmen zu Ihrem Unternehmens-Hub hinzu
 

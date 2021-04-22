@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 03/04/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2847d3240ed12acf356f6c68f4c0fcb67c362f61
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: f6a5d435243b6912ddac449fd55aa4c2bce3f291
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573451"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783390"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung
 

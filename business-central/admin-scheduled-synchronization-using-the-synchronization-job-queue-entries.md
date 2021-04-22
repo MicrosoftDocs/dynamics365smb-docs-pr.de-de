@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2d1d04b5273329186c362866493303f5f4ad7450
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4948dac105a62501ee3006cce0683be819db7ce8
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385324"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889205"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planen einer Synchronisierung zwischen Business Central und Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -72,7 +72,7 @@ Einige Projektwarteschlangeneinträge, z. B. diejenigen, die die Synchronisierun
 
 Wenn der Wert in diesem Feld nicht Null ist und die Aufgabenwarteschlange während der letzten Ausführung keine Änderungen gefunden hat, sperrt [!INCLUDE[prod_short](includes/prod_short.md)] den Aufgabenwarteschlangeneintrag. Wenn das passiert, wird das **Status der Aufgabenwarteschlange**-Feld **Gesperrt wegen Inaktivität**, und [!INCLUDE[prod_short](includes/prod_short.md)] wartet auf den Zeitraum, der im Feld **Inaktivitätszeitlimit** angegeben ist, bevor der Aufgabenwarteschlangeneintrag erneut ausgeführt wird.  
 
-Beispiel: Standardmäßig sucht die Aufgabenwarteschlange WÄHRUNG, die Währungen in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] mit Wechselkursen in [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert, alle 30 Minuten nach Änderungen bei Wechselkursen. Wenn keine Änderungen gefunden werden, sperrt [!INCLUDE[prod_short](includes/prod_short.md)] die Aufgabenwarteschlange WÄHRUNG für 720 Minuten (sechs Stunden). Wenn ein Wechselkurs in [!INCLUDE[prod_short](includes/prod_short.md)] geändert wird, während der Aufgabenwarteschlangeneintrag gesperrt ist, aktiviert [!INCLUDE[prod_short](includes/prod_short.md)] automatisch den Aufgabenwarteschlangeneintrag neu und startet die Aufgabenwarteschlange neu. 
+Beispiel: Standardmäßig sucht die Aufgabenwarteschlange WÄHRUNG, die Währungen in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] mit Wechselkursen in [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert, alle 30 Minuten nach Änderungen bei Wechselkursen. Wenn keine Änderungen gefunden werden, sperrt [!INCLUDE[prod_short](includes/prod_short.md)] die Aufgabenwarteschlange WÄHRUNG für 720 Minuten (zwölf Stunden). Wenn ein Wechselkurs in [!INCLUDE[prod_short](includes/prod_short.md)] geändert wird, während der Aufgabenwarteschlangeneintrag gesperrt ist, aktiviert [!INCLUDE[prod_short](includes/prod_short.md)] automatisch den Aufgabenwarteschlangeneintrag neu und startet die Aufgabenwarteschlange neu. 
 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] aktiviert automatisch Aufgabenwarteschlangeneinträge, die nur dann gesperrt werden, wenn Änderungen in [!INCLUDE[prod_short](includes/prod_short.md)] erfolgen. Änderungen in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] aktivieren keine Aufgabenwarteschlangeneinträge.

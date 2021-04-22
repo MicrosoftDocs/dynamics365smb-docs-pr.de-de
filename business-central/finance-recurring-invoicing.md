@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 657c473301b52011c1f1cbe2767f3c0ceaeb4725
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e61f4406e754a2cf02aafcda21eec86b55eff053
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380002"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780782"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Arbeiten mit wiederkehrenden Umsätzen in [!INCLUDE[prod_short](includes/prod_short.md)]
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376687"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787477"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter
 Mit dem Lesezeichensymbol können Sie über das Navigationsmenü Ihres Rollencenters eine Aktion hinzufügen, die eine Seite oder einen Bericht öffnet. Auf diese Weise können Sie schnell Ihre bevorzugten Inhalte oder Geschäftsaufgaben aufrufen. Sie fügen das Lesezeichen von der Zielseite oder dem Zielbericht aus hinzu, d. h. von dem Bildschirm, der durch den Link im Rollenzentrum geöffnet werden soll.
@@ -60,7 +60,7 @@ Die Möglichkeit, ein Lesezeichen für eine Seite oder einen Bericht zu erstelle
 - **Warum kann ich bestimmte Seiten oder Berichte nicht mit einem Lesezeichen versehen?**  
 Nicht alle Seiten und Berichte können mit einem Lesezeichen versehen werden. Wenn eine Seite oder ein Bericht in einem speziellen Kontext ausgeführt wird, der von der Geschäftsanwendung gesteuert wird, wird das Lesezeichensymbol nicht angezeigt. Beispielsweise zeigen Seiten, die nicht im Fenster **Wie möchten Sie weiter verfahren** gefunden werden können, jedoch von einer anderen Stelle aus gestartet werden, kein Lesezeichensymbol an. Ebenso wird auf Berichtsanforderungsseiten, die nur zum Sammeln von Filtern verwendet werden, ohne den Bericht auszuführen, kein Lesezeichensymbol angezeigt.
 
-Weitere Informationen finden Sie in den technischen Details zu [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) und [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+Weitere Informationen finden Sie in den technischen Details zu [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) und [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Werden beim Löschen meiner Personalisierung auch meine Lesezeichen gelöscht?**  
 Ja. Lesezeichen befinden sich im Navigationsmenü. Wenn Sie Änderungen am Navigationsmenü auf einer beliebigen Seite oder alle Personalisierungen im Rollencenter löschen, werden alle Ihre neuen Aktionen dauerhaft entfernt.

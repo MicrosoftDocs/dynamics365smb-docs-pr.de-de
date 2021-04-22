@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393299"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784815"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
@@ -242,34 +242,9 @@ In der folgenden Tabelle finden Sie eine Übersicht über die Möglichkeiten zum
 
  Wird kein Trennzeichen verwendet, müssen für jede Zeiteinheit zwei Zeichen eingegeben werden.  
 
-## <a name="entering-datetimes"></a>Eingeben von Datums-/Uhrzeitangaben
+## <a name="entering-combined-datetimes"></a>Eingeben kombinierter Datums‑ und Zeitangaben
 
-Beim Eingeben einer Datums-/Uhrzeitangabe muss zwischen dem Datum und der Zeiteingabe ein Leerzeichen eingefügt werden.  
-
-In der folgenden Tabelle finden Sie eine Übersicht über die Möglichkeiten zum Eingeben von Datums-/Uhrzeitangaben sowie die Interpretation der jeweiligen Angabe.  
-
-|Eingabe|Interpretation|  
-|---------------|------------------------|  
-|`131202` 132455|13.12.2002 13:24:55|  
-|1-12-02 10|01.12.2002 10:00:00|  
-|1.12.02 5|01.12.2002 05:00:00|  
-|1.12.02|01.12.2002 00:00:00|  
-|11 12|11.aktueller Monat.aktuelles Jahr 12:00:00|  
-|1112 12|11.12.aktuelles Jahr 12:00:00|  
-|"h" für heute|heutiges Datum 00:00:00|  
-|Z… Zeit|heutiges Datum aktuelle Zeit|  
-|h 10:30|heutiges Datum 10:30:00|  
-|h 3:3:3|heutiges Datum 03:03:03|  
-|"a" oder "Arbeitsdatum"|das Arbeitsdatum 00:00:00|  
-|"mo" oder "Montag"|Montag der aktuellen Woche 00:00:00|  
-|"di" oder "Dienstag"|Dienstag der aktuellen Woche 00:00:00|  
-|"mi" oder "Mittwoch"|Mittwoch der aktuellen Woche 00:00:00|  
-|"do" oder "Donnerstag"|Donnerstag der aktuellen Woche 00:00:00|  
-|"fr" oder "Freitag"|Freitag der aktuellen Woche 00:00:00|  
-|"s" oder "Sonnabend"|Samstag der aktuellen Woche 00:00:00|  
-|"so" oder "Sonntag"|Sonntag der aktuellen Woche 00:00:00|  
-|di 10:30|Dienstag der aktuellen Woche 10:30:00|  
-|di 3:3:3|Dienstag der aktuellen Woche 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Eingeben von Terminen
 

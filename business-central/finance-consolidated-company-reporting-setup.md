@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f51e65930303cf3600edf54c2056b2bd938e718
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381038"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786248"
 ---
 # <a name="set-up-company-consolidation"></a>Unternehmenskonsolidierung einrichten
 
@@ -30,6 +30,7 @@ Je nach Komplexität Ihrer Unternehmen, gibt es zwei Arten, die Konsolidierung e
 
 ## <a name="simple-consolidation-setup"></a>Einfache Konsolidierungseinrichtung
 
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Wenn die Konsolidierung einfach ist, weil Sie beispielsweise die Geschäftseinheit als Ganzes besitzen, führt Sie der unterstützte Setup **Mandanten-Konsolidierung** durch die folgenden Schritte:
 
 * Wählen Sie aus, ob einen neuen Konsolidierungsmandanten erstellen oder ob die Daten in einem Mandanten konsolidiert werden, den Sie bereits für die Konsolidierung erstellt haben. Der Mandant sollte keine Transaktionen beinhalten.

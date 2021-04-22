@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 612f010e754bdbecef12cc25b338315d0723124a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e80b7f3c072556453f441d7b9980c7308ed3cb61
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383375"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787752"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Führen Sie eine vollständige Planung, Prod.-Programmplanung oder Nettobedarf aus
 Die Begriffe "Planungsarbeitsblatt ausführen" und "Nettobedarf ausführen" beziehen sich auf die Berechnung des Produktionsplans und der Materialbedarfe auf Basis des tatsächlichen und des geplanten Bedarfs. Das Planungssystem kann entweder die Prod.-Programmplanung (Master Planning Schedule, MPS) oder den Nettobedarf (Materialbedarfsplanung, Material Requirements Planning, MRP) auf Anforderung oder beides gleichzeitig berechnen.  

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/14/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d11a391a7fd91f6a094dfae9f8908ba4314b357a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d72c3ba220c98d0c77806466f467ab233b3db65c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378948"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787046"
 ---
 # <a name="workflow-notifications"></a>Workflow-Benachrichtigungen
 

@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 60d3cf3c9e141c8df36eaca2c1975b696fdb105b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d7962031aa7dda7dafa96ade8e11339c06ebb305
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387249"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784592"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Einkaufsrechnungen sofort ausgleichen
 

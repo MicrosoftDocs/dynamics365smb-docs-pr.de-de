@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7fe5d0870cfc18ab103dc57044fd0ba84b151662
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 81df1625531b3b4c5bf1a55a9e09d37af8b6f7fe
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392442"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782984"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeiten mit Berichten, Stapelverarbeitungen und XMLports
 
@@ -42,14 +42,7 @@ Das Feld **Standardwerte verwenden von** bietet eine schnelle und zuverlässige 
 
 >[!NOTE]
 > Die vordefinierten Einstellungen werden normalerweise von einem Administrator eingerichtet und verwaltet. Wenn Sie weitere Informationen erhalten möchten, finden Sie diese unter [Gespeicherten Einstellungen für Berichte und Stapelverarbeitungsaufträge verwalten](reports-saving-reusing-settings.md).
-<!--
-Depending on the report, the request page might include the **Use default values from** field. This field lets you select a predefined set of can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
 
-Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
-
->[!NOTE]
->If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
--->
 ## <a name="specifying-the-data-to-include-in-reports"></a>Angeben der Daten, die in Berichte eingeschlossen werden sollen
 
 Verwenden Sie die Felder unter **Optionen** und **Filter** zum Ändern der Begrenzung der Informationen, die Sie im Bericht haben möchten. Sie legen Filter in einem Bericht ungefähr so fest wie Filter in Listen. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#filtering).
@@ -63,12 +56,12 @@ Verwenden Sie die Felder unter **Optionen** und **Filter** zum Ändern der Begre
 
 ## <a name="previewing-a-report"></a>Einen Bericht anzeigen
 
-In der Vorschau eines Berichts können Sie sehen, wie der Bericht aussehen wird, bevor Sie ihn drucken. In der Vorschau wird das Layout des Bericht basierend auf dem [Drucker](#Printer) ausgerichtet, der im Feld **Drucker** auf der Anforderungsseite angezeigt wird. Nach der Vorschau können Sie zur Anforderungsseite zurückkehren und bei Bedarf Änderungen an Optionen und Filtern vornehmen.
+In der Vorschau eines Berichts können Sie sehen, wie der Bericht aussehen wird, bevor Sie ihn drucken. Die Vorschau basiert nicht auf dem ausgewählten Feld **Drucker** auf der Anforderungsseite. Sie wird vom Browser gesteuert. Nach der Vorschau können Sie zur Anforderungsseite zurückkehren und bei Bedarf Änderungen an Optionen und Filtern vornehmen.
 
 Um eine Vorschau eines Berichts anzuzeigen, wählen Sie die Schaltfläche **Vorschau** oder **Vorschau und Schließen** auf der Berichtsanforderungsseite aus. Die angezeigte Schaltfläche hängt vom Bericht ab, daher haben einige Berichte die Schaltfläche **Vorschau**, während andere die Schaltfläche **Vorschau und Schließen** haben. Beide Schaltflächen öffnen eine Vorschau des Berichts. Der Unterschied ist, das **Vorschau** die Anforderungsseite geöffnet lässt, sodass Sie dorthin zurückkehren können, um Änderungen vornehmen, sie erneut in der Vorschau anzuzeigen oder zu drucken. Mit **Vorschau und Schließen** wird die Anforderungsseite geschlossen, sodass Sie den Bericht erneut öffnen müssen, um Änderungen vorzunehmen oder zu drucken.
 
 > [!NOTE]
-> Wenn Sie Business Central 2020 Veröffentlichungzyklus 1 oder früher verwenden, gibt es nur eine Schaltfläche **Vorschau**, die die Anforderungsseite in der Vorschau schließt, wie für **Vorschau und Schließen** beschrieben.
+> Wenn Sie Business Central 2020 Veröffentlichungszyklus 1 oder früher verwenden, gibt es nur eine Schaltfläche **Vorschau**, die die Anforderungsseite in der Vorschau schließt, wie für **Vorschau und Schließen** beschrieben.
 
 ### <a name="working-with-the-preview"></a>Arbeiten mit der Vorschau
 
@@ -103,37 +96,16 @@ Sie können auswählen, den Bericht in einer Datei zu speichern, beispielsweise 
 
 Um den Bericht zu drucken, wählen Sie die Schaltfläche **Drucken** auf der Anforderungsseite oder in der Menüleiste der Seite **Vorschau** aus.
 
-<!--
-### Printer selection
-
-The report prints to the printer shown in the **Selected printer** field on the report request page. You can't change the printer from this page.
-
-The selected printer is either set on the **Printer Selections** page or it's the default printer set up on the **Printer Management** page. If you want to use another printer, see  [Set Up Printers](ui-specify-printer-selection-reports.md).
-
-If no printer is specified on the **Printer Selections** page or set as default on the **Printer Management** page, the browser printing feature is used. In this case, **Browser** appears in the **Selected printer** field on the report request page.
--->
 ### <a name="printer"></a><a name="Printer"></a>Drucker
 
-Das Feld **Drucker** auf der Anforderungsseite zeigt den Name des Druckers an, zu dem der Bericht gesendet wird. **(Vom Browser gehandhabt)** zeigt an, dass es für den Bericht keinen vorgesehenen Drucker gibt. In diesem Fall handhabt der Browser den Ausdruck und zeigt eine Standardumgebung an, in dem Sie einen lokalen Drucker auswählen können, der mit Ihrem Gerät verbunden ist.
-
-Sie können den Drucker nicht mithilfe des Felds **Drucker** ändern. Um den Drucker zu ändern, müssen Sie zu den Seiten **Druckerauswahlen** oder **Druckerverwaltung** wechseln. Das Festlegen des Druckers ist normalerweise eine Administratoraufgabe. Weitere Informationen finden Sie unter [Drucker einrichten](ui-specify-printer-selection-reports.md).
-
-<!--
-### Browser printing
-
-Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
-
-If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
+Das Feld **Drucker** auf der Anforderungsseite zeigt den Name des Druckers an, zu dem der Bericht gesendet wird. Um einen Drucker zu wechseln, wählen Sie einfach den Drucker aus der Liste aus.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prod_short](includes/prod_short.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prod_short](includes/prod_short.md)] aren't carried over to the browser print options.
+> **(Vom Browser gehandhabt)** zeigt an, dass es für den Bericht keinen vorgesehenen Drucker gibt. In diesem Fall handhabt der Browser den Ausdruck und zeigt eine Standardumgebung an, in dem Sie einen lokalen Drucker auswählen können, der mit Ihrem Gerät verbunden ist. **(Vom Browser gehandhabt)** ist nicht verfügbar in der mobilen App von [!INCLUDE[prod_short](includes/prod_short.md)] oder der App für Microsoft Teams.
 
-<!-- 
-On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+> [!TIP]
+> Der Drucker, der standardmäßig für Sie ausgewählt wurde, ist auf der Seite **Druckerauswahl** eingerichtet. Informationen zum Ändern des Standarddruckers finden Sie unter [So wählen Sie aus, welche Drucker welche Berichte drucken](ui-specify-printer-selection-reports.md#default).
 
-> [!NOTE]
-> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
--->
 ### <a name="printing-reports-in-thai"></a>Drucken von Berichten in Thailändisch
 
 Speziell für die thailändische Version von [!INCLUDE[prod_short](includes/prod_short.md)] kann die Schaltfläche **Drucken** keine Berichte korrekt drucken, weil der Dienst, der die druckbare PDF-Datei generiert, eingeschränkt ist. Stattdessen können Sie den Bericht in Word öffnen und den Bericht als druckbare PDF-Dateien speichern.  

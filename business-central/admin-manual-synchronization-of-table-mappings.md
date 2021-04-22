@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cac0b3f254f2282b4cd1db386db16de2e6324fdd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 45a120bd56ea53bf0ba885f04f9bdcedbeba4c5d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378023"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781169"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synchronisieren Sie Tabellenzuordnungen manuell
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

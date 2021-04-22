@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 129f60744df5cd471992642318dd42ae26ee8261
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9a912596a71e77a09a7491fe20032056d1a9b808
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385224"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5870023"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronisieren von Daten in Business Central mit Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

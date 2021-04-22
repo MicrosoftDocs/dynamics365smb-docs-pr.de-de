@@ -9,13 +9,13 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
-ms.date: 10/01/2020
-ms.openlocfilehash: d7731c9fa7c6ac8bdcc87c918da8ffb93544f7f5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.date: 04/01/2021
+ms.openlocfilehash: 09dba629e977707921129261ea2540cc223c15dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379198"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784940"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Überprüfen von Seiten in Business Central
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a34e79b1cc77844ce712a6a6df294b2f3218f363
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6330aeb05bf2f0ba84585c0cd8391b7cf3338de4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378748"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786857"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Abonnement kündigen oder [!INCLUDE[prod_short](includes/prod_short.md)] entfernen
 
@@ -41,7 +41,7 @@ Benutzerkonten und Lizenzen werden im [Microsoft 365 Admin Center](https://admin
 Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] auf Ihrem App-Startfeld ausblenden möchten, können Sie es einfach trennen. Dies entfernt keine Daten, und Ihr Abonnement wird nicht beendet.  
 
 ## <a name="see-also"></a>Siehe auch
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Neue Unternehmen anlegen](about-new-company.md)  
 [Exportieren Ihrer Geschäftsdaten nach Excel](about-export-data.md)  
 [Microsoft 365 Admin Center](https://admin.microsoft.com/)  

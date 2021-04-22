@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 12/15/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ca8cfec87e0e315562dceca0a48e29b2f1fa577c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c323aee8139912e103b09066f2f6a7a25e2832c3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389024"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786198"
 ---
 # <a name="set-up-intercompany"></a>Intercompany einrichten
 

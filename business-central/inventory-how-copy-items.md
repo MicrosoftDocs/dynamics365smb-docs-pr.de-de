@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c60531dc27008f42decdc540f392f1a9fdb90d5c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a1f3016900fab6e6c277dfa01e2d3a455bef8863
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393149"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785998"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Kopieren von vorhandenen Artikeln um neue Artikel zu erstellen
 

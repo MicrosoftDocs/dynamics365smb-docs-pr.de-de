@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 01/21/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dfed018a58897b5e51f90fcce725c9060c32f3ea
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 82c60333f038f647fa4c9c2bbd68019b9c1f8026
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383400"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783797"
 ---
 # <a name="set-up-payment-terms"></a>Zahlungsbedingungen einrichten
 

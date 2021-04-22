@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c46aa4f920924c4b1d11f3d6ef636ce96feb22f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385549"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781456"
 ---
-# <a name="setting-up-prod_short"></a>Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-prod_short"></a>Überblick der Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] enthält Standardkonfigurationen für die meisten Geschäftsprozesse, aber Sie können die Konfiguration ändern, um sie an die Bedürfnisse Ihrer Organisation anzupassen.
+[!INCLUDE[prod_short](includes/prod_short.md)] enthält Standardkonfigurationen für die meisten Geschäftsprozesse, aber Sie können die Konfiguration ändern, um sie an die Bedürfnisse Ihrer Organisation anzupassen.  
 
 Wir haben einige Firmendaten für Sie erstellt, beispielsweise Ihren Kontenplan mit Kontensummen vorausgefüllt, die zur Verwendung bereit sind. Sie können den Kontenplan selbstverständlich ändern und Ihren persönlichen Anforderungen anzupassen. Weitere Informationen finden Sie unter [Finanzen](finance.md).
 
-Vom ![Zahnrad-Symbol zum Öffnen des Einstellungsmenüs](media/ui-experience/settings_icon_small.png)-Menü aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsseiten zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).
+Vom ![Zahnrad-Symbol zum Öffnen des Einstellungsmenüs](media/ui-experience/settings_icon_small.png)-Menü aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsseiten zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).  
+
+> [!NOTE]
+> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
 Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvorgänge können zusätzlich zum Leitfaden der unterstützten Einrichtung auch manuell eingerichtet werden. Nachfolgend finden Sie eine Liste von Funktionalität, die Sie manuell einrichten können.
 
@@ -73,7 +76,7 @@ Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnement [!INCLUDE
 [Logistik](warehouse-manage-warehouse.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Neue Unternehmen anlegen in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

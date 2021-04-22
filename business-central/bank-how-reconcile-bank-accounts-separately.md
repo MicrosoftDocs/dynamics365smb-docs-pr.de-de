@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08b7f6c092267b965af491cd80144950db138c3d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388699"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786807"
 ---
 # <a name="reconcile-bank-accounts"></a>Bankkonten abstimmen
 
@@ -40,11 +40,11 @@ Wenn der Wert im Feld **Gesamtsaldo** im Bereich **Bankauszugspositionen** dem W
 
 Alle nicht übereinstimmenden Zeilen, die durch einen Wert im Feld **Unterschied** angegeben werden, bleiben auf nach der Buchung der Seite **Bankkontoabstimmung**. Sie stellen eine Art von Diskrepanz dar, die Sie beheben müssen, bevor Sie die Bankkontenabstimmung abschließen können. Typische Geschäftssituationen, die zu Unterschieden führen können:
 
-|Abweichung|Grund|Auflösung|
-|-|-|
-|Eine Transaktion auf dem internen Bankkonto befindet sich nicht auf dem Kontoauszug.|Die Banktransaktion ist nicht erfolgt, obwohl eine Buchung in [!INCLUDE[prod_short](includes/prod_short.md)]vorgenommen wurde .|Führen Sie die fehlende Geldtransaktion durch (oder fordern Sie einen Debitor dazu auf), und importieren Sie die Kontoauszugsdatei erneut, oder geben Sie die Transaktion manuell ein.|
-|Eine Transaktion auf dem Kontoauszug existiert nicht als Beleg- oder Buchungszeile in [!INCLUDE[prod_short](includes/prod_short.md)].|Es wurde eine Banküberweisung ohne entsprechende Buchung in [!INCLUDE[prod_short](includes/prod_short.md)]getätigt, zum Beispiel eine Buch.-Blattzeilenbuchung für eine Ausgabe.|Erstellen und buchen Sie den fehlenden Eintrag. Informationen zur schnellen Initiierung finden Sie unter [So erzeugen Sie fehlende Posten, mit denen Sie die Banktransaktionen abgleichen können](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
-|Eine Transaktion auf dem internen Bankkonto entspricht einer Banktransaktion, doch sind einige Informationen zu unterschiedlich, um eine Übereinstimmung zu erzielen.|Informationen wie der Betrag oder der Kundenname wurden im Zusammenhang mit dem Bankvorgang oder der internen Buchung unterschiedlich eingegeben.|Überprüfen Sie die Informationen und passen Sie sie dann manuell an. Korrigieren Sie optional den Informationsfehler.||
+| Abweichung | Grund | Auflösung |
+|------------|--------|------------|
+| Eine Transaktion auf dem internen Bankkonto befindet sich nicht auf dem Kontoauszug. | Die Banktransaktion ist nicht erfolgt, obwohl eine Buchung in [!INCLUDE[prod_short](includes/prod_short.md)]vorgenommen wurde . | Führen Sie die fehlende Geldtransaktion durch (oder fordern Sie einen Debitor dazu auf), und importieren Sie die Kontoauszugsdatei erneut, oder geben Sie die Transaktion manuell ein. |
+| Eine Transaktion auf dem Kontoauszug existiert nicht als Beleg- oder Buchungszeile in [!INCLUDE[prod_short](includes/prod_short.md)]. | Es wurde eine Banküberweisung ohne entsprechende Buchung in [!INCLUDE[prod_short](includes/prod_short.md)]getätigt, zum Beispiel eine Buch.-Blattzeilenbuchung für eine Ausgabe. | Erstellen und buchen Sie den fehlenden Eintrag. Informationen zur schnellen Initiierung finden Sie unter [So erzeugen Sie fehlende Posten, mit denen Sie die Banktransaktionen abgleichen können](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with). |
+| Eine Transaktion auf dem internen Bankkonto entspricht einer Banktransaktion, doch sind einige Informationen zu unterschiedlich, um eine Übereinstimmung zu erzielen. | Informationen wie der Betrag oder der Kundenname wurden im Zusammenhang mit dem Bankvorgang oder der internen Buchung unterschiedlich eingegeben. | Überprüfen Sie die Informationen und passen Sie sie dann manuell an. Korrigieren Sie optional den Informationsfehler. |
 
 Sie müssen die Unterschiede beheben, indem Sie beispielsweise fehlende Einträge erstellen und nicht übereinstimmende Informationen korrigieren oder fehlende Geldtransaktionen durchführen, bis der Bankkontenabgleich abgeschlossen und gebucht ist.
 
@@ -57,7 +57,10 @@ Sie können den Bereich **Bankauszugspositionen** auf der Seite **Bankkontoabsti
 
 Der Bereich **Kontoauszugszeilen** wird entsprechend einer importierten Datei oder eines von der Bank bereitgestellten Streams mit Banktransaktionen gefüllt.
 
-Um den Import von Bankkontoauszügen als Bankfeed zu aktivieren, müssen Sie den Envestnet Yodlee Bank Feeds Service einrichten und aktivieren und dann Ihr Bankkonto mit den entsprechenden Onlinebankkonten verbinden. Weitere Informationen finden Sie unter [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md).
+Um den Import von Bankkontoauszügen als Bankfeed zu aktivieren, müssen Sie den Envestnet Yodlee Bank Feed Service einrichten und aktivieren und dann Ihr Bankkonto mit den entsprechenden Onlinebankkonten verbinden. Weitere Informationen finden Sie unter [Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md).  
+
+> [!TIP]
+> Sie können Kontoauszugsdateien auch im durch Kommas oder Semikolons getrennten Format (.CSV) importieren. Verwenden Sie die unterstützte Einrichtung **Richten Sie ein Bankauszugs-Dateiimportformat ein** zum Definieren von Importformaten für Kontoauszüge und Anhängen des Formats an ein Bankkonto. Sie können diese Formate dann verwenden, wenn Sie Kontoauszüge in die Seite **Bankkontenabgleich** importieren.
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Bankkontoabstimmung** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu** aus.

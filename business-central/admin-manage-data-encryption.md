@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4452d59814cdd558bd4fdff9e8589f92d0fc4d8e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2be2d73c21ec0c2701bf9e9d63b1213ae9370975
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378098"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786832"
 ---
 # <a name="managing-data-encryption"></a>Datenverschlüsselung verwalten
 Sie können Daten auf dem [!INCLUDE[prod_short](includes/prod_short.md)]-Server verschlüsseln, indem Sie neue Verschlüsselungsschlüssel erstellen oder vorhandene importieren, die Sie auf der [!INCLUDE[prod_short](includes/prod_short.md)]-Serverinstanz aktivieren, die mit der Datenbank verknüpft ist.

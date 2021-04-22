@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380356"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784840"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Warnungen zu landes-/regionsspezifischen gesetzliche Funktionen übermitteln
 
@@ -52,7 +52,7 @@ Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um 
         |Description  | Geben Sie eine kurze Übersicht des Gesetzes ein. Die Beschreibung sollte sich auf Probleme konzentrieren, die für die Unternehmensressourcenplanung (ERP) relevant sind, damit Benutzer die Anforderungen auf hoher Ebene erkennen können, ohne erst die Gesetzestexte lesen zu müssen.|
         |Land  | Geben Sie das Land bzw. die Region des Gesetzes an.|
         |Branche| Geben Sie der Branche an, wenn die Anforderung nur für bestimmte Branchen gilt. Wählen Sie beispielsweise **Öffentlicher Sektor**, **Einzelhandel** oder **Produktion** aus.|
-        |Funktionsreferenz  | Dies ist nicht für Dynamics 365 Business Central relevant, aber Sie können eine Funktionsreferenz eingeben, wenn Sie sie kennen. Die Liste der Funktionen für das bestimmte Land finden Sie im [Lokalisierungsportal](https://docs.microsoft.com/dynamics/s-e/) auf der CustomerSource Seite. |
+        |Funktionsreferenz  | Dies ist nicht für Dynamics 365 Business Central relevant, aber Sie können eine Funktionsreferenz eingeben, wenn Sie sie kennen. Die Liste der Funktionen für das bestimmte Land finden Sie im [Lokalisierungsportal](/dynamics/s-e/) auf der CustomerSource Seite. |
         |Strafverfolgungsdatum  | Geben Sie das Datum an, wenn betroffene Debitoren starten müssen, das Gesetz einzuhalten.|
         |Regierungsankündigungsdatum  | Geben Sie das Datum an, an dem die Behörde die Änderung angekündigt hat.|
         |Letztes Archivierungsdatum  | Wählen Sie den Stichtag für die erste Übermittlung des neuen oder geänderten Berichts aus.|
@@ -76,7 +76,7 @@ Wir laden Sie ein, Microsoft Dynamics Lifecycle Services (LCS) zu verwenden, um 
 
 [Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Sprache und Gebiet ändern](about-locale-language.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Willkommen zu Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

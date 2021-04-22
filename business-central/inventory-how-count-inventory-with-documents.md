@@ -1,31 +1,32 @@
 ---
-title: Inventurerfassung mit belegbasierten Funktionen
-description: Beschreibt, wie eine Inventurerfassung mithilfe der Seiten für die Inventurauftrags- und Inventurerfassung durchgeführt wird.
+title: Lagerbestand erfassen und regulieren
+description: Beschreibt, wie die Inventurzählung auf den Seiten Inventuraufträge und Inventuraufzeichnung durchgeführt und negative oder positive Anpassungen an Inventardokumenten vorgenommen werden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/20/2020
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: be22209240f3bff70619a31f60cb0acac7e51228
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393173"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785948"
 ---
-# <a name="count-inventory-using-documents"></a>Erfassung des Lagerbestand mithilfe von Belegen
+# <a name="count-and-adjust-inventory-using-documents"></a>Erfassung und Regulierung des Lagerbestand mithilfe von Belegen
 
 Sie können mithilfe der Inventurauftrags- und Inventurerfassungsbelege eine Inventur der Artikel durchführen. Die Seite **Inventurauftrag** wird verwendet, um das vollständige Inventurerfassungsprojekt zu organisieren, zum Beispiel eines pro Standort. Die Seite **Inventurerfassung** wird verwendet, um die tatsächliche Zählung von Artikeln mitzuteilen und zu erfassen. Sie können mehrere Aufzeichnungen für einen Auftrag erstellen, z. B. das Verteilen von Artikelgruppen an verschiedene Mitarbeiter.
 
 Der Bericht **Inventurerfassung** kann aus jeder Erfassung gedruckt werden und enthält leere Mengenfelder zur Eingabe des gezählten Lagerbestands. Wenn ein Benutzer fertig ist mit der Erfassung und die Mengen auf der Seite **Inventurerfassung** eingegeben wurden, wählen Sie die Aktion **Fertigstellen** aus. Dadurch werden die Mengen an die entsprechenden Zeilen der Seite **Inventurauftrag** übertragen. Durch diese Funktion ist sichergestellt, dass keine Artikelanzahl zweimal erfasst werden kann.  
 
 > [!NOTE]
-> Dieser Artikel beschreibt, wie Sie eine Inventur mithilfe von Belegen durchführen, ein Verfahren, das eine größere Kontrolle bietet und die Verteilung der Erfassung auf mehrere Mitarbeiter unterstützt. Sie können die Aufgabe auch mithilfe von Buch.-Blättern durchführen, wie den Seiten **Inventur Buch.-Blätter** und **Logistik-Inventur-Buch.-Blatt**. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)<br /><br />
-> Hinweis: Wenn Sie die Funktionen für Lagerplätze oder Zonen verwenden, können Sie Inventuraufträge nicht verwenden. Verwenden Sie stattdessen die Seite **Logistik-Inventur-Buch.-Blatt**, um Ihre Lagerposten zu zählen, bevor Sie sie mit den Artikelposten synchronisieren.
+> Verwenden Sie Belege für eine Inventur, ein Verfahren, das eine größere Kontrolle bietet und die Verteilung der Erfassung auf mehrere Mitarbeiter unterstützt. Sie können die Aufgabe auch mithilfe von Buch.-Blättern durchführen, wie den Seiten **Inventur Buch.-Blätter** und **Logistik-Inventur-Buch.-Blatt**. Weitere Informationen finden Sie unter [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md) Dieser Artikel beschreibt, wie eine Inventur mithilfe von Dokumenten durchgeführt wird.
+>
+> Wenn Sie Zonen verwenden, können Sie keine Inventuraufträge verwenden. Verwenden Sie stattdessen die Seite **Logistik-Inventur-Buch.-Blatt**, um Ihre Lagerposten zu zählen, bevor Sie sie mit den Artikelposten synchronisieren.
 
 Das Erfassen des Lagerbestands mithilfe von Belegen besteht aus den folgenden Gesamtschritten:
 
@@ -77,7 +78,6 @@ Im Falle der manuellen Zählung können Sie eine Liste ausdrucken, den Bericht *
 9. Wählen Sie die Aktion **Drucken** aus, um den Beleg vorzubereiten, den Mitarbeiter verwenden, um die gezählten Mengen aufzuschreiben.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>So schließen Sie eine Inventurerfassung ab
-
 Wenn die Mitarbeiter die Lagerbestandsmengen gezählt haben, müssen Sie die Erfassung im System vorbereiten.
 
 1. Wählen Sie auf der Seite **Inventurerfassungsübersicht** die Inventurerfassung aus, die Sie abschließen möchten, und wählen Sie dann die Aktion **Bearbeiten** aus.
@@ -185,8 +185,52 @@ Ein Artikel mit Chargennummern wird im Bestand mit der Lager mit der CHARGEN-Num
 
 Auf der Seite **Inventurauftrag** enthält das Feld **Negative Menge (Basis)** die Zahl *8*. Für die betreffende Auftragszeile enthält die Seite **Inventurverfolgungsübersicht** die positiven oder negativen Mengen für die einzelnen Chargennummern.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="inventory-documents"></a>Inventurbelege
+Die folgenden Arten von Dokumenten sind nützlich für die Verwaltung Ihres Lagers:
 
+- Benutzen Sie **Inventarbelege**, um positive Anpassungen von Artikeln basierend auf Qualität, Quantität und Kosten zu registrieren.
+- Benutzen Sie **Inventursendungen**, um fehlende oder beschädigte Waren abzuschreiben.
+
+Sie können diese Dokumente jederzeit drucken, freigeben und erneut öffnen sowie in der Kopfzeile allgemeine Werte, einschließlich Abmessungen, zuweisen. Wenn Sie die Dokumente nach dem Posten erneut drucken möchten, können Sie dies auf den Websites **Gebuchte Lagereingänge** und **Gebuchte Lagerausgänge** tun.
+
+> [!NOTE]
+> Bevor Sie diese Dokumente verwenden können, müssen Sie eine Nummernreihe angeben, um ihre Bezeichner zu erstellen. Weitere Informationen finden Sie im nächsten Abschnitt.
+
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Nummerierung von Inventurbelegen einrichten
+Der folgende Ablauf zeigt, wie die Nummerierung von Inventurbelegen eingerichtet wird.
+
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagereinrichtung** ein, und wählen Sie dann den entsprechenden Link aus.
+2. Im Inforegister **Nummerierung** geben Sie in den folgenden Feldern die Zahlenreihe für Dokumente an:
+   - **Lagereingangsnr.**  
+   - **Gebuchter Lagereingang Nr.**  
+   - **Warenausgangsnr.**  
+   - **Geb. Warenausgang Nr.**  
+
+### <a name="to-create-and-post-an-inventory-document"></a>Erstellen und Buchen eines Inventurbelegs
+Das folgende Verfahren zeigt, wie Sie einen Inventarbeleg erstellen, drucken und buchen. Die Schritte sind ähnlich wie für eine Inventursendungen.
+
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Lagereingänge** ein und wählen Sie dann den entsprechenden Link.  
+2. In der Kopfzeile der Seite **Lagereingang** wählen Sie den Ort im Feld **Standortcode** aus, und füllen Sie dann die verbleibenden Felder nach Bedarf aus.
+3. Wählen Sie im Inforegister **Zeilen** im Feld **Artikel** den Lagerartikel aus. Geben Sie in dem Feld **Menge** die Anzahl des Artikels an, der hinzugefügt werden soll. 
+4. Um einen Bericht **Lagereingang** von der Seite **Lagereingang** zu drucken, wählen Sie die Aktion **Drucken** aus.
+
+Die folgenden Funktionen stehen auf der Seite **Lagereingang** zur Verfügung:
+
+- Wählen Sie die Aktionen **Veröffentlichen** oder **Wieder öffnen** zum Festlegen des Status für die nächste Verarbeitungsstufe aus  
+- Wählen Sie die Aktion **Buchen** aus, um den Lagereingang zu buchen, oder wählen Sie **Veröffentlichen und drucken** aus, um den Beleg zu buchen und den Testbericht auszudrucken  
+
+## <a name="printing-inventory-documents"></a>Drucken von Inventurbelegen
+Sie können die Berichte angeben, die in verschiedenen Phasen gedruckt werden müssen, indem Sie eine der folgenden Optionen im Feld **Verbrauch** für die Seite **Berichtsauswahl – Lagerbestand** auswählen:
+
+- Lagereingang
+- Warenausgang
+- Geb. Lagereingang
+- Geb. Warenausgang
+
+> [!NOTE]
+> Die verfügbaren Berichte können je nach Lokalisierung Ihres Landes variieren. Die Basisanwendung enthält keine Layouts.
+
+## <a name="see-also"></a>Siehe auch
 [Erfassen, Regulieren und Umbuchen von Lagerbestand mithilfe von Buch.-Blättern](inventory-how-count-adjust-reclassify.md)  
 [Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)  
 [Lagerbestand](inventory-manage-inventory.md)  

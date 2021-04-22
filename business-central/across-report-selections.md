@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9d282ea35f7b4bdf317e818504f061d4145404bd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ba15a65317ebf52579c285c93dd59eba1b65ae1b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378998"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787107"
 ---
 # <a name="report-selection-in-business-central"></a>Berichtsauswahl in Business Central
 

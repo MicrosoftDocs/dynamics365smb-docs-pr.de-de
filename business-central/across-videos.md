@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6dfd44dfe6c73a0e60d377388a9f1721f6b7b06d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f2e9c0da0ebc32862f80e881b4540350fcb2fdfe
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378848"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786957"
 ---
 # <a name="visit-our-video-library"></a>Besuchen Sie unsere Videobibliothek
 
@@ -30,7 +30,7 @@ Sie können auch unsere Anleitungsvideos und viele andere Inhalte in der YouTube
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Dynamics 365-Kanal auf YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
 
 

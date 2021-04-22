@@ -1,30 +1,30 @@
 ---
-title: E-Mail in Business Central einrichten | Microsoft Docs
-description: Beschreibt die neuesten Nachrichten und Aktualisierungen von Business Central.
+title: Neu und in der Standardversion geplant
+description: Erfahren Sie, wo Sie die neuesten Nachrichten und Updates für die Standardversion von Business Central finden.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 51fc33167fdd4cc86859048041896fc27ebeff8d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 563c7bba28fec8d8bf7c212410227c1fb32c8b59
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388429"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788052"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Neues und Geplantes für Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
-Sie können sich jederzeit auf den Release-Plan beziehen, um einen Überblick über neue und kommende Funktionen zu erhalten. Hier in der Dokumentation finden Sie dann Themen, mit denen Sie sich über neue und vorhandene Funktionen in [!INCLUDE[prod_long](includes/prod_long.md)] informieren können. 
+Sie können sich jederzeit auf den Release-Plan beziehen, um einen Überblick über neue und kommende Funktionen zu erhalten. Hier in der Dokumentation finden Sie dann Themen, mit denen Sie sich über neue und vorhandene Funktionen in der Standardversion von [!INCLUDE[prod_long](includes/prod_long.md)] informieren können.  
 
 Die folgende Liste enthält Informationen zu den neuesten Versionen von [!INCLUDE [prod_short](includes/prod_short.md)].  
 
+* [2021 Veröffentlichungszyklus 1](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
 * [2020 Veröffentlichungzyklus 2](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
 * [2020 Veröffentlichungzyklus 1](/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features)  
-* [2019 Veröffentlichungzyklus 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/planned-features)  
 
 Sie können auch die Website [Dynamics 365 Business Central-Funktionen](https://dynamics.microsoft.com/business-central/capabilities/) erkunden und die Website [Dynamics 365 Business Central-Roadmap](https://dynamics.microsoft.com/roadmap/business-central/).  
 
@@ -40,6 +40,5 @@ Sie können auch die Website [Dynamics 365 Business Central-Funktionen](https://
 [Dynamics 365 Business Central-Community](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

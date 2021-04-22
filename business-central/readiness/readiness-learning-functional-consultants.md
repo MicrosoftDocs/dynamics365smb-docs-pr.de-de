@@ -2,15 +2,15 @@
 title: Funktionaler Lernkatalog für Berater
 description: Hier finden Sie alle verfügbaren Informationen für Business Central.
 author: loreleishannonmsft
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 351f0e9db03507c974ce93f75af39388fcd22c30
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c7e235f878287a061dfaff25d7a9f2e2e8f40c16
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389299"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781888"
 ---
 # <a name="functional-consultant-learning-catalog"></a>Funktionsberater Lernkatalog
 

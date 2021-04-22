@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5578feec2b5f4697827e71247766f6bc84849ef7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: aa939aad44217acd6f4ecffa089f6aeea1e78d4b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381828"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786401"
 ---
 # <a name="set-up-data-exports-for-a-digital-audit-gobdgdpdu"></a>Daten für eine digitale Prüfung (GoBD/GDPdU) einrichten
 
@@ -65,7 +65,7 @@ Danach müssen Sie die Quelle für die zu exportierenden Daten definieren.
     |**Tabellenfilter**|Geben Sie ein Feld an, für das Sie einen Filter festlegen möchten.<br /><br /> Auf der Seite **Tabellenfilter** geben Sie Filtereinstellungen in der Spalte **Feldfilter** ein.<br /><br /> Beispielsweise können Sie ein Feld angeben, das Informationen über den Betrag überträgt. Sie können ein Datumsfeld festlegen und dafür einen Filter setzen, wenn Sie in einem Zeitraum unterschiedliche Startdaten setzen möchten. Enddatum. Sie können ein Datumsfeld nicht angeben und dafür einen Filter festlegen, wenn dasselbe Feld bereits im Feld Perioden-Gebiet " verwendet wird.|  
     |**Feldnr. Datumsfilter**|Definieren Sie ein Filterfeld, wenn die Tabelle eines hat.<br /><br /> Wenn die Tabelle mehr als einen Datumsfilter hat, definieren Sie keinen in diesem Feld.|  
     |**Behandlung von Datumsfiltern**|Geben Sie an, wie z. B. Datumsfilter bearbeitet werden sollen:<br /><br /> - <blank>: Kein Filter festgelegt.<br /><br /> - Periode: Verwenden Sie das angegebene Startdatum und das Enddatum.<br /><br /> - Nur Enddatum: Verwenden Sie das Enddatum der Stapelverarbeitung.<br /><br /> - Nur Startdatum: Verwenden Sie das Startdatum - 1 der Stapelverarbeitung.|  
-    |**Exportdateiname**|Geben Sie den Namen des Arbeitsblattes an, in das die Daten exportiert werden sollen.<br /><br /> Wenn die Tabelle beispielsweise **Sachkonto** ist, kann der Wert des **Tabellennamen exportieren** **Sachkonto** sein, und der Wert des Felds **Exportdateiname** kann **Sachkonto.txt** sein.|  
+    |**Exportdateiname**|Geben Sie den Namen des Arbeitsblattes an, in die die Daten exportiert werden sollen.<br /><br /> Wenn die Tabelle beispielsweise **Sachkonto** ist, kann der Wert des **Tabellennamen exportieren** **Sachkonto** sein, und der Wert des Felds **Exportdateiname** kann **Sachkonto.txt** sein.|  
     |**Schlüsselnr.**|Optional. Definieren Sie das Schlüsselfeld.|
 
     Weitere Informationen finden Sie unter [GDPdU-Filterbeispiele](gdpdu-filter-examples.md).  

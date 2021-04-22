@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/05/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5861d4bc576a0afe52292661138de0898297a33f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 122a907e7b61c9fe19853226de8549a073f0cddd
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379902"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781988"
 ---
 # <a name="create-production-boms"></a>Fertigungsauftrag erstellen
 

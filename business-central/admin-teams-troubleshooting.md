@@ -8,20 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385199"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882170"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problembehandlung bei der Microsoft Teams Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Dieser Artikel enthält Informationen zum Erkennen und Beheben von Problemen, die bei der Verwendung von Microsoft Teams mit [!INCLUDE [prod_short](includes/prod_short.md)] als typischer Benutzer oder Administrator auftreten können.
+
+## <a name="the-sign-in-link-doesnt-work"></a>Der Anmeldelink funktioniert nicht
+
+Wenn Sie versuchen, sich bei der App [!INCLUDE [prod_short.md](includes/prod_short.md)] für Teams unmittelbar nach der Installation der App anzumelden, und der Anmeldelink reagiert nicht, kann dies daran liegen, dass die Installation der App noch nicht vollständig abgeschlossen ist. Um das Problem zu beheben, melden Sie sich von Ihrem Teams-Client ab und melden Sie sich erneut an.
+
+## <a name="the-settings-page-is-empty"></a>Die Einstellungsseite ist leer
+
+Sie müssen sich zuerst anmelden, um Ihre Einstellungen zu erreichen. Um sich bei der App anzumelden, fügen Sie entweder einen Link zu einem [!INCLUDE [prod_short.md](includes/prod_short.md)]-Datensatz hinzu, oder suchen Sie nach Kontakten. Beide Aktionen führen Sie durch eine Anmeldeerfahrung, nach der Sie die Seite **Einstellungen** verwenden können.
+
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Ich habe das Unternehmen gewechselt, aber es schien nicht zu funktionieren
+
+Nachdem Sie das Unternehmen auf der Seite **Einstellungen** geändert haben, stellen Sie möglicherweise fest, dass das Dropdownmenü des Befehlsfelds anzeigt, dass Sie immer noch nach dem vorherigen Unternehmen suchen. Dieses Problem tritt auf, wenn Sie die Seite **Einstellungen** direkt aus dem Befehlsfeld öffnen. In diesem Fall wurde das Unternehmen erfolgreich geändert, und Sie suchen tatsächlich das Unternehmen, zu dem Sie gewechselt sind. Das Problem ist, dass das Dropdownmenü für das Befehlsfeld noch nicht aktualisiert wurde. Damit das Dropdownmenü genau das Unternehmen widerspiegelt, in dem Sie [!INCLUDE [prod_short.md](includes/prod_short.md)] im Befehlsfeld suchen, schließen oder entfernen, öffnen Sie die App erneut.
+
+
+<!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
+
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>„Ein Fehler ist aufgetreten“ bei der Suche nach Kontakten
+
+Dieser Fehler kann auftreten, wenn Sie in einem Unternehmen suchen, das nicht initialisiert wurde oder nicht mehr reagiert. Sie können beispielsweise nicht in einem neuen Unternehmen suchen, das die Nutzungsbedingungen noch nicht akzeptiert hat. Versuchen Sie, sich beim Webclient [!INCLUDE [prod_short.md](includes/prod_short.md)] anzumelden, um dieses Problem zu beheben, und bearbeiten oder schließen Sie alle angezeigten ersten Dialoge.
+
+## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Fehler „Die Kontakt-API wurde nicht gefunden“ bei der Suche nach Kontakten
+
+Dieses Problem kann auf Anpassungen oder Branchenlösungen zurückzuführen sein, die eine Kontakt-API in [!INCLUDE [prod_short.md](includes/prod_short.md)] beeinflussen, ändern oder nicht bereitstellen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren Administrator oder Support-Partner.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Keiner meiner Links wird zu einer Karte erweitert 
 
@@ -36,7 +59,7 @@ Wenn dieses Problem auftritt, sollten Sie Folgendes ausprobieren:
 
 2. Überprüfen Sie als Nächstes, ob Sie mit der richtigen Identität angemeldet sind.
 
-    Gehen Sie in Teams zu einem beliebigen Chat und wählen Sie im Feld zum Verfassen von Nachrichten das Symbol [!INCLUDE [prod_short](includes/prod_short.md)] aus. Wenn das Fenster angezeigt wird, überprüfen Sie, ob der Benutzer, der angibt, dass Sie verbunden sind, mit dem übereinstimmt, mit dem Sie eine Verbindung herstellen mit [!INCLUDE [prod_short](includes/prod_short.md)].
+    Gehen Sie in Teams zu einem beliebigen Chat, und klicken Sie im Feld zum Verfassen von Nachrichten mit rechts auf das Symbol [!INCLUDE [prod_short](includes/prod_short.md)], und wählen Sie dann **Einstellungen** aus. Wenn das Fenster angezeigt wird, überprüfen Sie, ob der Benutzer, der angibt, dass Sie verbunden sind, mit dem übereinstimmt, mit dem Sie eine Verbindung herstellen mit [!INCLUDE [prod_short](includes/prod_short.md)].
 
 3. Stellen Sie sicher, dass Codeunit 2718 **Seitenzusammenfassungsanbieter** als Webdienst veröffentlicht wird.
 
@@ -48,9 +71,8 @@ Wenn dieses Problem auftritt, sollten Sie Folgendes ausprobieren:
 
 Ein Link wird in den folgenden Situationen nicht zu einer Karte erweitert:
 
-- Der Link zielt auf eine Seite eines Typs ab, der keinen Datensatz darstellt. Zum Beispiel könnte es ein Link sein zum [!INCLUDE [prod_short](includes/prod_short.md)] Rollencenter. Sie können den Seitentyp über den Seitenprüfbereich im Webclient in [!INCLUDE [prod_short](includes/prod_short.md)] überprüfen. Weitere Informationen zur Seiteninspektion finden Sie unter [Seiten überprüfen](across-inspect-page.md).
-- Der Link zielt auf eine Seite ab, die (auf technischer Ebene) nicht mit einer Quelltabelle in [!INCLUDE [prod_short](includes/prod_short.md)] verbunden ist. Sie können prüfen, ob die Seite eine Quelltabelle hat, indem Sie den Seitenprüfbereich im Webclient in [!INCLUDE [prod_short](includes/prod_short.md)] überprüfen verwenden. Weitere Informationen zur Seiteninspektion finden Sie unter [Seiten überprüfen](across-inspect-page.md). 
-- Teams unterstützen in einigen Funktionen keine Linkvorschau. Wenn Sie beispielsweise einen Chat beenden, befinden Sie sich in einer Besprechung oder Sie sind Gast einer anderen Organisation.
+- Der Link zielt auf eine Seite ab, die (auf technischer Ebene) nicht mit einer Quelltabelle in [!INCLUDE [prod_short](includes/prod_short.md)] verbunden ist. Sie können prüfen, ob die Seite eine Quelltabelle hat, indem Sie den Seitenprüfbereich im Webclient in [!INCLUDE [prod_short](includes/prod_short.md)] überprüfen verwenden. Weitere Informationen zur Seiteninspektion finden Sie unter [Seiten überprüfen](across-inspect-page.md).
+- Teams unterstützen in einigen Funktionen keine Linkvorschau. Wenn Sie beispielsweise einen Chat beenden, sind Sie Gast einer anderen Organisation.
 - Teams geben den Versuch, die Karte anzuzeigen, stillschweigend nach 15 Sekunden auf, beispielsweise aufgrund von Netzwerkproblemen.
 - Teams können den Link möglicherweise nicht erweitern, wenn Sie bereits einen Link in dasselbe Feld zum Erstellen von Nachrichten eingefügt und die Karte gelöscht haben.
 
@@ -66,10 +88,6 @@ Beispiel:
 `https://businesscentral.dynamics.com/?environmentname=Production&company=CRONUS%20USA%2C%20Inc.&page=21&dc=0&bookmark=21%3bEgAAAAJ7BTEAMAAwADAAMA%3d%3d`
 
 Für technische Details zur [!INCLUDE [prod_short](includes/prod_short.md)] URL gehen Sie zur [Web Client URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) in der [!INCLUDE [prod_short](includes/prod_short.md)] Entwickler- und IT Pro-Hilfe.
-
-## <a name="the-card-is-displayed-in-the-message-compose-box-but-selecting-the-details-button-does-nothing"></a>Die Karte wird im Feld zum Erstellen von Nachrichten angezeigt, die Auswahl der Schaltfläche Details bewirkt jedoch nichts 
-
-Nachdem ein Link zu einer Karte im Feld zum Erstellen von Nachrichten erweitert wurde, müssen Sie die Nachricht an den Chat senden, bevor Sie die Schaltfläche **Einzelheiten** verwenden können.
 
 ## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Das Detailfenster wird geöffnet, es wird jedoch ein Fehler angezeigt, bevor Details angezeigt werden
 
@@ -89,7 +107,7 @@ Dieses Problem kann durch ein paar Dinge verursacht werden: fehlende Berechtigun
 
     Weitere Informationen zu den Mindestanforderungen an den Browser finden Sie unter [Mindestanforderungen für die Verwendung [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Ich habe Probleme mit der Kamera oder dem Standort in Teams 
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Ich habe Probleme mit der Kamera oder dem Standort in Teams
 
 Beim Benutzen von [!INCLUDE [prod_short](includes/prod_short.md)] Funktionen im Detailfenster, die Zugriff auf Ihren Standort oder Ihre Gerätekamera erfordern, müssen Sie zunächst Ihre Zustimmung erteilen, damit Teams auf diese Gerätefunktionen zugreifen können.  
 

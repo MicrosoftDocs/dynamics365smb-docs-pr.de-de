@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 01/28/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b2eb04ed2589bd0af972ca49587f84c416204a28
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392149"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783772"
 ---
 # <a name="financial-reports-in-business-central"></a>Finanzberichte in Business Central
 

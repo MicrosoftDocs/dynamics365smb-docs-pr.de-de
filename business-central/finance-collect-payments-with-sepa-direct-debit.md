@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 31614ffce745213f8af7b3440e886d96a02d39a6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f18bc08a6bb0a2581c8e0983ffa029c07a34cb64
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380531"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786348"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Erfassen von Zahlungen per Lastschriftverfahren SEPA
 Mit dem Einverständnis Ihres Debitors können Sie Zahlungen nach dem SEPA-Format direkt vom Bankkonto des Debitors einziehen.  
@@ -81,7 +81,7 @@ Bevor Sie Debitorenzahlungen elektronisch durch den Export von Lastschriften im 
     |**Debitor Bankkontocode**|Gibt das Bankkonto an, aus dem Lastschrifteinzüge\-direkt abgebucht werden. Dieses Feld wird automatisch ausgefüllt.|  
     |**Gültig ab**|Geben Sie das Datum an, an dem das Lastschrift\-Mandat beginnt.|  
     |**Gültig bis**|Geben Sie das Datum an, an dem das Lastschrift\-Mandat endet.|  
-    |**Datum der Unterschrift**|Geben Sie das Datum an, an dem der Kunde das Lastschrift-Mandat unterzeichnet hat.|  
+    |**Datum der Unterschrift**|Geben Sie das Datum an, an dem der Kunde das Lastschrift\-Mandat unterzeichnet hat.|  
     |**Zahlungstyp**|Geben Sie an, ob die Übereinkunft mehrere (**Wiederkehrende**) oder einen einzelnen (**Einmalig**) Lastschrifteinzug abdeckt.|  
     |**Erwartete Anzahl Sollbeträge**|Geben Sie an, wie viele Lastschrifteinzüge Sie zu tätigen erwarten. Dieses Feld ist nur relevant, wenn Sie **Wiederkehrend** im Feld **Sequenzart** ausgewählt haben.|  
     |**Sollzähler**|Gibt an, wie viele Lastschrift-Einzüge mit diesem Lastschrift\-Mandat durchgeführt wurden. Dieses Feld wird automatisch aktualisiert.|  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/20/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79ce3aba4acf5d5d889bce5ff37bf6d91d83e47c
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 0267d4af029410da2107fbb4bbbde2e27c364e31
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493254"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5869973"
 ---
 # <a name="available-fonts"></a>Verfügbare Schriftarten
 
@@ -58,11 +58,13 @@ Die folgenden Barcode-Symbologien werden unterstützt:
 * MSI
 * Interleaved 2 von 5
 
+Weitere Informationen finden Sie unter [Schriftarten für Barcodes mit Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md).
+
 ## <a name="see-also"></a>Siehe auch
 
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Ein Prüflayout auswählen](finance-how-define-check-layouts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Barcode-Schriftarten mit Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

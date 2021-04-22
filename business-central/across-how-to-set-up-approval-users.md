@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/14/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6069eb321a5924023234ef1e07839bb71b4847ef
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5eaa2daf8321adf65275bf4e0cd21ee1f4cb29fa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384349"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787257"
 ---
 # <a name="set-up-approval-users"></a>Genehmigungsbenutzer einrichten
 

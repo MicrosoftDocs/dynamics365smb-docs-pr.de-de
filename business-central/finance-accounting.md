@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/05/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5fbe696c8f85327ad775ad3bcf071b3e7ec16dd6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391249"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780935"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Buchhalter-Erfahrung in [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -92,7 +92,7 @@ Der Buchhalter erhält eine E-Mail, in der er darüber informiert wird, dass er 
 
 1. Öffnen Sie das [!INCLUDE[prod_short](includes/prod_short.md)]-Unternehmen, auf die Sie dem Buchhalter Zugriff gewähren möchten unter [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Benutzer** ein und wählen Sie dann den entsprechenden Link.  
-3. Wählen Sie die Aktion **Neue Benutzer von Office 365 abrufen** aus.
+3. Wählen Sie die Aktion **Neue Benutzer von Microsoft 365 abrufen** aus.
 
 Dadurch wird das Benutzerkonto, das Sie im Azure-Portal erstellt haben, in das Unternehmen importiert. Weitere Informationen finden Sie unter [Hinzufügen eines Benutzers in Business Central](ui-how-users-permissions.md#adduser).  
 

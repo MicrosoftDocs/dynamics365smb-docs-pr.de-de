@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fc5957695145ad3bbc4225c7c7e18dd7ca0c728
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386299"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882205"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Verwalten der Microsoft Teams-Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,6 +35,7 @@ In diesem Abschnitt werden die Mindestanforderungen für die Verwendung der [!IN
 
     |Funktion|Teams-Lizenz|[!INCLUDE [prod_short](includes/prod_short.md)] Lizenz|
     |----|---|---|
+    |Suchen Sie nach [!INCLUDE [prod_short](includes/prod_short.md)]-Kontakten.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
     |Einen Link zu einem [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatz in eine Unterhaltung einfügen und ihn als Karte versenden.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
     |Eine Karte eines [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatzes in einer Unterhaltung anzeigen.|![Häkchen](media/check.png "Aktivieren")||
     |Weitere Details für eine Karte eines [!INCLUDE [prod_short](includes/prod_short.md)]-Datensatzes in einer Unterhaltung anzeigen.|![Häkchen](media/check.png "Aktivieren")|![Häkchen](media/check.png "Aktivieren")|
@@ -49,8 +50,8 @@ Als Teams-Administrator können Sie alle Apps für Ihre Organisation verwalten, 
 
 Weitere Informationen finden Sie in den folgenden Artikeln in der Microsoft Teams-Dokumentation:
 
-- [Ihre Apps im Microsoft Teams Admin Center verwalten](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
-- [App-Einrichtungsrichtlinien in Microsoft Teams verwalten](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
+- [Ihre Apps im Microsoft Teams Admin Center verwalten](/MicrosoftTeams/manage-apps)
+- [App-Einrichtungsrichtlinien in Microsoft Teams verwalten](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="in-prod_short"></a>In [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -58,7 +59,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln in der Microsoft Team
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-Version:
 
-    [!INCLUDE [prod_short](includes/prod_short.md)] 2020 Veröffentlichungzyklus 2, Aktualisierung 17.3 oder höher. Die Teams-Integration wird nur für [!INCLUDE [prod_short](includes/prod_short.md)] Online unterstützt, nicht für On-Premises.
+    [!INCLUDE [prod_short](includes/prod_short.md)] 2021 Veröffentlichungszyklus 1 oder höher. Die Teams-Integration wird nur für [!INCLUDE [prod_short](includes/prod_short.md)] Online unterstützt, nicht für On-Premises.
 
 - Codeunit **2718 Seitenzusammenfassungsanbieter** wird als Webdienst veröffentlicht:
 
@@ -66,8 +67,9 @@ Weitere Informationen finden Sie in den folgenden Artikeln in der Microsoft Team
 
 - <a name="permissions"></a>Benutzerberechtigungen:
 
-    Die Seiten und Daten, die Benutzer in einer Teams-Unterhaltung anzeigen und bearbeiten können, werden größtenteils durch deren Berechtigungen in [!INCLUDE [prod_short](includes/prod_short.md)] gesteuert.
+    Die Kontaktsuche, Seiten und Daten, die Benutzer in einer Teams-Unterhaltung anzeigen und bearbeiten können, werden größtenteils durch deren Berechtigungen in [!INCLUDE [prod_short](includes/prod_short.md)] gesteuert.
     
+    - Um nach Kontakten zu suchen, müssen Benutzer mindestens über Leseberechtigung zur Tabelle **Kontakte** verfügen. 
     - Um einen [!INCLUDE [prod_short](includes/prod_short.md)]-Link in eine Teams-Unterhaltung einzufügen und diesen zu einer Karte zu erweitern, müssen Benutzer mindestens über die Leseberechtigung für die Seite und ihre Daten verfügen.
     - Sobald eine Karte in eine Unterhaltung übermittelt wurde, kann jeder Benutzer in dieser Unterhaltung diese Karte ohne Berechtigungen für [!INCLUDE [prod_short](includes/prod_short.md)] anzeigen.
     - Um weitere Details für eine Karte anzuzeigen oder den Datensatz in [!INCLUDE [prod_short](includes/prod_short.md)] zu öffnen, müssen Benutzer über Leseberechtigung für die Seite und ihre Daten verfügen.
@@ -92,13 +94,13 @@ Sie verhindern, dass bestimmte Benutzer oder Gruppen Karten an Chats oder Kanäl
 
 Sie können auch Informationssperren verwenden, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. Weitere Informationen finden Sie unter [Informationssperren in Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Funktionen zur Verhinderung von Datenverlust im Microsoft 365 Security & Compliance Center können nicht speziell auf Karten angewendet werden. Sie können jedoch auf die Chat-Nachrichten angewendet werden, die die Karten enthalten. Informationen zu zukünftigen erweiterten Funktionen, einschließlich der Aktivierung von DLP für Karten, finden Sie unter [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).
+Funktionen zur Verhinderung von Datenverlust im Microsoft 365 Security & Compliance Center können nicht speziell auf Karten angewendet werden. Sie können jedoch auf die Chat-Nachrichten angewendet werden, die die Karten enthalten. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Antworten auf Datenenanforderungen
 
 Sie ermöglichen Teammitgliedern und Teambesitzern, Nachrichten mit vertraulichen Karten zu löschen, indem Sie Nachrichtenrichtlinien einrichten, wie **Besitzer können gesendete Nachrichten löschen** und **Benutzer können gesendete Nachrichten löschen**. Weitere Informationen zu dieser Einstellung finden Sie unter [Nachrichtenrichtlinien in Teams verwalten](/microsoftteams/messaging-policies-in-teams).
 
-Inhaltssuche und eDiscovery Compliance-Funktinen im Microsoft 365 Security & Compliance Center können nicht speziell auf Karten angewendet werden. Sie können jedoch auf die Chat-Nachrichten angewendet werden, die Karten enthalten. Informationen zum Nachverfolgen der bevorstehenden Konformitätsfunktionen für Karten finden Sie unter [https://www.microsoft.com/microsoft-365/roadmap?featureid=68875](https://www.microsoft.com/microsoft-365/roadmap?featureid=68875).
+Inhaltssuche und eDiscovery Compliance-Funktinen im Microsoft 365 Security & Compliance Center können nicht auch auf Karten angewendet werden.
 
 Weil Kartendaten in Teams eine Kopie der Daten in [!INCLUDE [prod_short](includes/prod_short.md)] sind, können Sie auch [!INCLUDE [prod_short](includes/prod_short.md)] Funktionen zum Exportieren der Kundendaten sofern erforderlich verwenden. Weitere Informationen zum Datenschutz in [!INCLUDE [prod_short](includes/prod_short.md)] finden Sie unter [FAQ zu Datenschutz für Business Central Debitoren](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

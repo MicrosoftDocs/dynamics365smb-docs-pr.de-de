@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: beb6af1132a8d61fcd6ca3e04b739e4ea2bce9ae
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: aad1467ba930cdc0aeb448c9c6739807e8307ae8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381836"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781421"
 ---
 # <a name="print-general-ledger-setup-information-in-the-german-version"></a>Finanzbuchhaltungseinrichtungs-Informationen in der deutschen Version drucken
 

@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8e44303df31030be4dca341a38455710467eedd8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e6f519df1cdc04aab1b6b1fa75154aa5b3667d7a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383700"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783159"
 ---
 # <a name="manage-notifications"></a>Verwalten von Benachrichtigungen
 

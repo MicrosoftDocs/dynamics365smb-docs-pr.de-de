@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/15/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cd6b60a284b060fd44339d6f9e10ac7acbb5d159
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a751254ae127e3bcde2a5313ca6d5bcfe3ec1117
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387224"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786223"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Abrufen von Business Central auf meinem mobilen Gerät
 
-Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[prod_short](includes/prod_short.md)] zu. Sie können durch Ihre Unternehmensdaten navigieren, Funktionen verwenden, sowie an Excel oder Office 365 versenden, aktuelle Diagramme und KPIs anzeigen, Verkaufsangebote und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
+Greifen Sie von Ihrem mobilen Gerät auf [!INCLUDE[prod_short](includes/prod_short.md)] zu. Sie können durch Ihre Geschäftsdaten navigieren, Funktionen verwenden, wie z. B. an Excel oder Microsoft 365 zu senden, aktuelle Diagramme und KPIs anzeigen, Verkaufsangebote und Rechnungen per E-Mail versenden und mit Ihrer Kamera Bilder erstellen und anfügen. Führen Sie die Schritte unten aus, um die App herunterzuladen und zu beginnen.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
@@ -64,7 +64,7 @@ Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, können
 ## <a name="see-also"></a>Siehe auch
 
 [Mobile Apps FAQ](ui-mobile-faq.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

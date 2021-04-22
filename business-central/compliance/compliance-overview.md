@@ -10,14 +10,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 878cb3578a6f4ce3022100137ce802b65e217adc
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 527a63fb9aff0484be2561673ab815090d039fbd
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389099"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788408"
 ---
 # <a name="compliance"></a>Kompatibilität
 

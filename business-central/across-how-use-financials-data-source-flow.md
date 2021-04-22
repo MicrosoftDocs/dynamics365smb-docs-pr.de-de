@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1608330b5d2b2955a144498e5c44d40072b22a8b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d179275dd5bd225ace1555bb312b81a9553db0c3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384199"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781336"
 ---
 # <a name="using-prod_short-in-an-automated-workflow"></a>[!INCLUDE[prod_short](includes/prod_short.md)] in einem automatisierten Workflow nutzen
 
@@ -80,9 +80,9 @@ Weitere Informationen finden Sie in der [Power Automate-Dokumentation](/power-au
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Workflow](across-workflow.md)  
-[Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
+[Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Workflows verwalten](across-use-workflows.md)  
 [Genehmigungsbenutzereinrichtung](across-how-to-set-up-approval-users.md)  

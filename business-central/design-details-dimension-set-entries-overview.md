@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c0df3fc05935f5a3142564b132e89931fb2647f1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e03275c55290cccb2d8e91d7a934379184744a36
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377188"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788333"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensionssatz-Eintrags-Übersicht
 In diesem Thema wird beschrieben, wie Dimensionssatzposten in [!INCLUDE[prod_short](includes/prod_short.md)] gespeichert und gebucht werden.  
@@ -46,7 +46,7 @@ Codeunit 408 Dimension Management ist eine Funktionsbibliothek, die häufige Auf
 ## <a name="performance-improvement"></a>Leistungsverbesserung  
 Durch das einmalige Speichern von Dimensionssätzen in der Datenbank wird Datenbankplatz beibehalten und die Gesamtleistung verbessert.  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
 [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   
 [Designdetails: Tabellenstruktur](design-details-table-structure.md)   
 [Designdetails: Dimensionssatzeinträge](design-details-dimension-set-entries.md)   
