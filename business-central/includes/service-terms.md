@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 11/12/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5b5849337d601fd30e57730dc0140b08e79dc45e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: dc1c27bd31420eeac603a189b053e26010f4ef83
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751905"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772829"
 ---
 [!INCLUDE[prod_short](prod_short.md)] online unterliegt der [Modernen Lebenszykluspolitik](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Die Bedingungen der Service Level Agreements sind in dem Dokument beschrieben, das Sie von Abschnitt **Service Level Agreements für Microsoft Online Services** auf der Seite [Lizenzbestimmungen](https://www.microsoft.com/licensing/product-licensing/products) herunterladen können.  
 

@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4bfa41cc0d181af9f4cdb0f24ee7f5c452ed5b78
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: c67bbf26fb2ebcbfa33e73a0b2e024ded72f0ee3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959624"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774424"
 ---
 Um Lieferbenachrichtungen für überfällige Einkäufe zu aktivieren, müssen Sie Kreditoren Lieferbenachrichtigungsbedingungen zuweisen.  
 

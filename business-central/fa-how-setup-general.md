@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 62eeab6d03f0fde0b1f55f414d48c2d3cd3f573c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 877891affde9b1719c30bc265cd0c08bf14824b0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380202"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770516"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Allgemeine Anlagen-Informationen einrichten
 Bevor Sie Anlagen verwalten können, müssen Sie Standardsachkonten, Verteilungsschlüssel, Buch.-Blattvorlagen und -namen für Anlagenbuchungen und -umbuchungen einrichten, und Sie können Anlagen in Klassen, wie beispielsweise materiell und immateriell, klassifizieren.
@@ -121,7 +121,7 @@ Falls die Anlagen nicht in die Fibu integriert sind, können Sie die Schritte 6 
 [Anlagen einrichten](fa-setup.md)  
 [Anlagen](fa-manage.md)  
 [Finanzen](finance.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

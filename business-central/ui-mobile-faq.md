@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/15/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3b00eb417f2e51d87a58885a50e1262150837d93
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f92fdec0329286750fd844fc18ed79c7f7c642d5
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385449"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771060"
 ---
 # <a name="mobile-apps-faq"></a>Mobile Apps FAQ
 

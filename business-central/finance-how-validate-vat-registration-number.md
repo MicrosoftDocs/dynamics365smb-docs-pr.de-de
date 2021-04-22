@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 02/25/2021
+ms.date: 04/01/2021
 ms.author: andregu
-ms.openlocfilehash: 867ae5e726de5f2f78e4862a2d8c55dbc3d43ca0
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e7c60e884ad65e209a2513d63c9434a90d9b449
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5492917"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770291"
 ---
 # <a name="validate-vat-registration-numbers"></a>Umsatzsteuer-Identifikationsnummer überprüfen
 

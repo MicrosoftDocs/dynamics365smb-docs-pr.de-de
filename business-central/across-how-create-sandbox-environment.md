@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 1e559f5805504ead36ca3c96b4f2d54d4ce0eb39
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3419272afd092d2ddb1374940e556d42709c1534
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384699"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776022"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Erstellen einer Sandkastenumgebung in [!INCLUDE[prod_short](includes/prod_short.md)]
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e493aa1a965d4d3cb5a546e8671915ed19fce918
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d26b98bac791bca2dc910f010c135fe187d6abff
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387074"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773630"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Mehrere Dokumente gleichzeitig buchen
 

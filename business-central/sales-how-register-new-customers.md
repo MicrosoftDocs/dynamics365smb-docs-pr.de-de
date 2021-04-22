@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 03/09/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573426"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778597"
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
 
@@ -27,7 +27,7 @@ Bevor Sie neue Debitoren erfassen können, müssen Sie verschiedene Verkaufscode
 
 ## <a name="adding-new-customers"></a>Hinzufügen neuer Kunden
 
-Sie müssen eine Debitorenkarte ausfüllen, um einen neuen Debitoren zu registrieren. Sie können Vorlagen für verschiedene Debitorenprofile erstellen oder Debitoren ohne Vorlagen hinzufügen.  
+Sie müssen eine Debitorenkarte ausfüllen, um einen neuen Debitoren zu registrieren. Sie können Vorlagen für verschiedene Debitorenprofile erstellen oder Debitoren ohne Vorlagen hinzufügen. Sie können einen Debitor auch aus einem Kontakt erstellen. Weitere Informationen finden Sie unter [So erstellen Sie einen Kontakt als Debitor, Kreditor , Mitarbeiter oder Bankkonto von einem Kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 > [!NOTE]  
 > Wenn es Debitorenvorlagen für verschiedene Debitorenarten gibt, dann erscheint eine Seite automatisch, wenn Sie eine neue Debitorenkarte erstellen, von der aus Sie eine entsprechende Debitorenvorlage auswählen können. Wenn nur eine Debitorenvorlage vorhanden ist, verwenden neue Debitorenkarten immer diese Vorlage.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/12/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3dc598158edcc6d81b5989536bb3a4e6fd4181bc
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 08b2a24eeb4e50cb6f7a1c9e02c861ec51668438
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390439"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779328"
 ---
 # <a name="create-a-demand-forecast"></a>Bedarfsplanung erstellen
 Verkaufs- und Absatzplanungen können auf der Seite **Nachfrageplanung** vorgenommen werden.  

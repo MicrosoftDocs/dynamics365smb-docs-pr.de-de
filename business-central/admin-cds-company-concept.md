@@ -8,24 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378723"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773336"
 ---
 # <a name="data-ownership-models"></a>Modelle für Datenbesitz
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] erfordert, dass Sie einen Eigentümer für die von Ihnen gespeicherten Daten angeben. Weitere Informationen finden Sie unter [Entitätseigentum](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) in der Power Apps-Dokumentation. Wenn Sie die Integration zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, müssen Sie eines von zwei Eigentumsmodellen für Datensätze wählen, die synchronisiert werden:
-
-* Team 
-* Person (Benutzer)
-
-Aktionen, die mit diesen Datensätzen ausgeführt werden können, können auf Benutzerebene gesteuert werden. Weitere Informationen finden Sie unter [Benutzer- und Teamtabellen](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). Wir empfehlen das Team-Eigentümermodell, da es die Verwaltung der Eigentümerschaft für mehrere Personen erleichtert.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] erfordert, dass Sie einen Eigentümer für die von Ihnen gespeicherten Daten angeben. Weitere Informationen finden Sie unter [Arten von Tabellen](/powerapps/maker/data-platform/types-of-entities) in der Power Apps-Dokumentation. Wenn Sie die Integration zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, müssen Sie **Benutzer oder Team**-Besitz für synchronisierte Datensätze auswählen. Aktionen, die mit diesen Datensätzen ausgeführt werden können, können auf Benutzerebene gesteuert werden. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
 ## <a name="team-ownership"></a>Team-Eigentum
 In [!INCLUDE[prod_short](includes/prod_short.md)] ist ein Unternehmen eine juristische und geschäftliche Tabelle, die Möglichkeiten zur Sicherung und Visualisierung von Geschäftsdaten bietet. Benutzer arbeiten immer im Kontext eines Unternehmens. Diesem Konzept kommt [!INCLUDE[prod_short](includes/cds_long_md.md)] am nächsten, da die Geschäftseinheitstabelle keine rechtlichen oder geschäftlichen Auswirkungen hat.

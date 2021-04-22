@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e3bc85af3aacf1865ea4d426178795de5b6eb8b2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4597b59c846ef7016bff26b1c14901ac17a2fb5d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377973"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777466"
 ---
 # <a name="using-business-central-without-outlook"></a>Nutzung von Business Central ohne Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] ist in Microsoft 365 integriert, und Sie können [!INCLUDE[prod_short](includes/prod_short.md)] als Ihren Geschäftsposteingang in Outlook verwenden. Wenn, wenn Sie kein Outlook haben, können Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] im Browser oder auf dem mobilen Gerät arbeiten.  
@@ -25,7 +25,7 @@ Sie können Dokumente wie Rechnungen als E-Mail über Ihre geschäftliche E-Mail
 
 
 ## <a name="see-also"></a>Siehe auch
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)

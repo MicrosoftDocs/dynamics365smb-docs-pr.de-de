@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 362f5ca0ac71d226c29bff3f03aaa4d9f30fb171
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fcc05bd73f3912a04e01ced0982c334203bb58cf
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376562"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776941"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Die Envestnet Yodlee Bank Feeds Services einrichten
 
@@ -45,7 +45,7 @@ Wenn Sie den Bankfeeddienst aktiviert haben, müssen Sie das beteiligte Bankkont
 Wenn der Bankfeeddienst aktiviert ist, können Sie ein Bankkonto so einrichten, dass automatisch alle zwei Stunden neue Bankauszüge in die Seite **Zahlungsabstimmungsbuch.-Blatt** importiert werden. Transaktionen für Zahlungen, die bereits als ausgeführt und/oder abgestimmt auf der Seite **Zahlungsabstimmungsbuch.-Blatt** gebucht wurden, werden nicht importiert. Weitere Informationen finden Sie im Abschnitt “So aktivieren Sie das automatische Importieren von Bankauszügen”.
 
 > [!NOTE]  
-> Wenn Sie den Leitfaden für das unterstützt Setup über "Unternehmen einrichten" verwenden, werden einige der folgenden Schritte automatisch beim Einrichten von Unternehmensbankkonten ausgeführt. Weitere Informationen finden Sie unter [Erste Schritte](product-get-started.md).
+> Wenn Sie den Leitfaden für das unterstützt Setup über "Unternehmen einrichten" verwenden, werden einige der folgenden Schritte automatisch beim Einrichten von Unternehmensbankkonten ausgeführt. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>So aktivieren Sie den Bankfeeddienst
 1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.

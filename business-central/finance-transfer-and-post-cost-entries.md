@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a3845999fa1452b96890bf9579bf848bc2a44f3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 44e4cd72043d2079a969292cfd71f16c393da582
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392874"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770938"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Übertragung und Buchung von Kostenzuteilungen
 Bevor Sie Kostenzuteilungen definieren, müssen Sie verstehen, wie Kostenposten aus den folgenden Quellen stammen:  

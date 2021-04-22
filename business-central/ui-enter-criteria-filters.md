@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 11/16/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d682f9e66075348785329cd13a12c3e02d0993c4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a3d42fccebafdfa80346f04b43a0e3dd29f467d8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385849"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770638"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortieren, Durchsuchen und Filtern
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10527690d19d019f8a5d94d8c4817f6a3bcd8479
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0ebb62a4ef9ea84ec5bfddc099dfb6120a4e6405
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380177"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774041"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Um Anlagenversicherung einzurichten:
 Um die Abdeckung der Anlagenversicherung zu verwalten, müssen Sie pro Versicherung einige allgemeine Versicherungsinformationen und eine Versicherungskarte einrichten.
@@ -61,7 +61,7 @@ Sie können zusätzliche Namen in einer Versicherungs Buch.-Blattvorlage einrich
 [Anlagen einrichten](fa-setup.md)  
 [Anlagen](fa-manage.md)  
 [Finanzen](finance.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

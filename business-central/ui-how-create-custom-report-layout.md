@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c20e8dc0df5eaf851ad90eac15b1af0af76700d6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3d4522a08fe1c313ecf3f7c2f3fb59af62f48d2c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385824"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778022"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Erstellen und Ändern benutzerdefinierter Berichtslayouts
 

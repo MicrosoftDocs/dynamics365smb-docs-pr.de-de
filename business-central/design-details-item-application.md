@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0b73731584ee844706180d2127c65369fe74e82
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2d15d37e2c56aa0a4de6189bc01c011f6f4d30cd
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380631"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774964"
 ---
 # <a name="design-details-item-application"></a>Designdetails: Artikelausgleich
 

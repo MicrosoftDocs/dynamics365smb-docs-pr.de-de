@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10a1e22092e8e18e5b1a71f7d2aa90f0ad2879a9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6e7e02cba2648f0791925acc6f0e2c0b9662e345
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390799"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779582"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
 Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden können.  

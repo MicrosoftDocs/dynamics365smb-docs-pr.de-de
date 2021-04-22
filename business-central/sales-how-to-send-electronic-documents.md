@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d547f031d9d33c0d7cd5f8b20398fd7b6dbe0393
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8056aa66531740634fb155e0b3b4419a7f014ffc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383000"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778372"
 ---
 # <a name="send-electronic-documents"></a>Elektronische Belege senden
 

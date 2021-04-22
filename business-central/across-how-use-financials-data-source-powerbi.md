@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7226a8b8c1acd624890cd668cd9a8437e7bd08b7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384174"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780082"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI-Berichte erstellen zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten
 
@@ -50,7 +50,7 @@ Dieser Artikel beschreibt die ersten Schritte zur Verwendung von Power BI Deskto
 
     Weitere Informationen finden Sie unter [[!INCLUDE [prod_short](includes/prod_short.md)]-Berichtsthema verwenden](#theme) in diesem Artikel.
 
-## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a>[!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle in Power BI Desktop hinzufügen
+## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle in Power BI Desktop hinzufügen
 
 Die erste Aufgabe beim Erstellen von Berichten ist das Hinzufügen von [!INCLUDE[prod_short](includes/prod_short.md)] als Datenquelle in Power BI Desktop. Sobald die Verbindung hergestellt ist, können Sie mit der Erstellung des Berichts beginnen.
 
@@ -133,8 +133,8 @@ Es gibt verschiedene Möglichkeiten, um Berichte an Ihre Mitarbeiter und andere 
 
 [Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)  
 [Business Intelligence](bi.md)  
-[Erste Schritte](product-get-started.md)  
-[Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzen](finance.md)  
 [Schnellstart: Stellen Sie eine Verbindung zu Daten her in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  

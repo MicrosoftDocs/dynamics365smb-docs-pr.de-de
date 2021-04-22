@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0423314fa123c931e98db37bcc6939b6fbbddf25
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e118b27d1bafc4de1ffc8d2db4597317942b6f65
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381517"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777698"
 ---
 # <a name="design-details-table-structure"></a>Designdetails: Tabellenstruktur
 Um zu erkennen, wie die Dimensionsposten gespeichert und gebucht werden, ist es wichtig, die Tabellenstruktur zu kennen.  
@@ -181,11 +181,7 @@ Feld 480 ist in den folgenden Puffertabellen vorhanden.
 |5637|**Anlagen Fibu-Buchungspuffer**|  
 |7136|**Artikelbudgetpuffer**|  
 
-## <a name="see-also"></a>Siehe auch  
- [Designdetails: Dimensionssatzposten](design-details-dimension-set-entries.md)   
- [Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)   
- [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>Siehe auch
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)  
+[Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)   

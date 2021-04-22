@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 502add82d2f70f6ffd13ae04f7eb6d214105fb63
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5fe04fc290f10324105d4d9ca01e13166bf2ad8f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378598"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773079"
 ---
 # <a name="managing-database-access-intent"></a>Verwaltung der Datenbank-Zugriffsabsicht 
 
@@ -56,7 +56,7 @@ In Bezug auf die Datenbank wird diese Funktion allgemein als *Lesen Scale-out* b
 [Geschäftsfunktionen](across-business-functionality.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Erste Schritte](product-get-started.md)    
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

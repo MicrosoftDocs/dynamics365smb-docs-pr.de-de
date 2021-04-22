@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f8d8b2744fb5179183e223c8741669f7af9754b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379098"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777491"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Testversionen und Abonnements
 
@@ -27,7 +27,7 @@ Sie können sich für eine kostenlose Testversion [hier](https://go.microsoft.co
 
 Abhängig von Ihrem Land oder Ihrer Region umfasst die Testversion die Sprachen und Funktionen, die Ihr Land oder Ihre Region benötigt. Weitere Informationen finden Sie unter [Ändern von Sprache und Gebietsschema](about-locale-language.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] werden Ihnen einige Elemente vertraut sein und andere nicht. Wenn Sie sich zum ersten Mal bei der Demonstrationsfirma anmelden, erhalten Sie Zugriff auf eine Seite Erste Schritte mit Links zu Videos, die Ihnen den Einstieg erleichtern können. Weitere Informationen finden Sie unter [Erste Schritte mit [!INCLUDE[prod_long](includes/prod_long.md)]](product-get-started.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)] werden Ihnen einige Elemente vertraut sein und andere nicht. Wenn Sie sich zum ersten Mal bei der Demonstrationsfirma anmelden, erhalten Sie Zugriff auf eine Seite Erste Schritte mit Links zu Anleitungen zur unterstützten Einrichtung, die Ihnen den Einstieg erleichtern können. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
 
 Wenn Sie auf Schwierigkeiten stoßen, kann die Seite [Häufig gestellte Fragen](across-faq.md) Ihnen bei der Beantwortung einiger Ihrer Fragen hilfreich sein. Wenn Sie sich nicht für die Testversion anmelden können, kann die Seite [Anmeldung zur Fehlerbehebung in der Selbstbedienung](ui-troubleshoot-self-signup.md) helfen. Sie können auch einen [Partner](across-faq.md#findpartner) kontaktieren und ihn bitten, eine kostenlose Testversion oder eine andere Art der Vorschau von [!INCLUDE[prod_short](includes/prod_short.md)] für Sie zu erstellen.  
 
@@ -89,7 +89,7 @@ Der Administrator Ihres [!INCLUDE[prod_short](includes/prod_short.md)] und Ihr W
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Verlängern Ihrer Testversion](admin-extend-trial.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Häufig gestellte Fragen](across-faq.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f1c036b33d80d3f8a4f7b45e38b823631b93fc53
-ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
+ms.openlocfilehash: 36fcb415c6d6dbe125570be932f223d4300d518a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476745"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772704"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Besondere Verkaufspreise und Rabatte aufzeichnen
 > [!NOTE]

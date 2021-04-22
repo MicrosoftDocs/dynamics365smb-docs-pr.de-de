@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0836482d1949c66fd1efb1c97d11df61d97000c3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 40dcb4a758f2ac98903e61df27863b9fee854922
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380127"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770316"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Übertragen, Teilen oder Kombinieren von Anlagen.
 
@@ -77,7 +77,7 @@ Sie können mehrere Anlage in einer Anlagen zusammenfassen, wenn Sie zum Beispie
 [Anlagen](fa-manage.md)  
 [Anlagen einrichten](fa-setup.md)  
 [Finanzen](finance.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

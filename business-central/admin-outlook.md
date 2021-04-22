@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2e396b21f2d5de2bb341e864df031070df1ca4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377948"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777441"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook
 
@@ -74,9 +74,9 @@ Die Add-Ins sind für die Verwendung in Microsoft 365 konzipiert. Wenn Sie [!INC
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  
-[Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
+[Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
 [Finanzen](finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

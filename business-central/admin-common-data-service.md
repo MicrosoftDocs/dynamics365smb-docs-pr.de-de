@@ -7,18 +7,18 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
-ms.openlocfilehash: 1cc9f712994c1b612b7e390a0281b823889a8bf9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.date: 04/01/2021
+ms.openlocfilehash: 8ddf4413b6ecb35bcca9873ef4bb99db75642563
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378648"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773129"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integrieren in Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-Geschäftsanwendungen verwenden häufig Daten aus mehr als einer Quelle. [!INCLUDE[prod_short](includes/cds_long_md.md)] kombiniert Daten in einem einzigen Satz von Logik, der es einfacher macht, andere Dynamics 365-Anwendungen, wie [!INCLUDE[crm_md](includes/crm_md.md)] oder Ihre eigene Anwendung, die auf [!INCLUDE[prod_short](includes/cds_long_md.md)] aufbaut, mit [!INCLUDE[prod_short_md](includes/prod_short.md)] zu verbinden. Für weitere Informationen über [!INCLUDE[prod_short](includes/cds_long_md.md)] siehe [Was ist Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+Geschäftsanwendungen verwenden häufig Daten aus mehr als einer Quelle. [!INCLUDE[prod_short](includes/cds_long_md.md)] kombiniert Daten in einem einzigen Satz von Logik, der es einfacher macht, andere Dynamics 365-Anwendungen, wie [!INCLUDE[crm_md](includes/crm_md.md)] oder Ihre eigene Anwendung, die auf [!INCLUDE[prod_short](includes/cds_long_md.md)] aufbaut, mit [!INCLUDE[prod_short_md](includes/prod_short.md)] zu verbinden. Für weitere Informationen über [!INCLUDE[prod_short](includes/cds_long_md.md)] finden Sie unter [Was ist Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
 Die folgenden Schritte bieten einen Überblick über die Schritte für die Integration von [!INCLUDE[prod_short](includes/cds_long_md.md)] mit [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -32,7 +32,7 @@ Die folgenden Schritte bieten einen Überblick über die Schritte für die Integ
 3. Synchronisieren Sie die Daten zwischen den Apps. Weitere Informationen finden Sie unter [Synchronisieren von Business Central und Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
 ## <a name="getting-started-with-prod_short"></a>Erste Schritte mit [!INCLUDE[prod_short](includes/cds_long_md.md)]
-Um mit [!INCLUDE[prod_short](includes/cds_long_md.md)] zu beginnen, benötigen Sie ein Microsoft Power Apps-Konto. Wenn Sie noch nicht über ein Power Apps-Konto verfügen, können Sie ein kostenloses Konto erhalten, indem Sie [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) besuchen und den Link **Kostenlos einsteigen** wählen. Weitere Informationen zu den ersten Schritten mit [!INCLUDE[prod_short](includes/cds_long_md.md)] finden Sie im Modul [Erste Schritte mit Dataverse](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) Modul von Microsoft Learn.
+Um mit [!INCLUDE[prod_short](includes/cds_long_md.md)] zu beginnen, benötigen Sie ein Microsoft Power Apps-Konto. Wenn Sie noch nicht über ein Power Apps-Konto verfügen, können Sie ein kostenloses Konto erhalten, indem Sie [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) besuchen und den Link **Kostenlos einsteigen** wählen. Weitere Informationen zu den ersten Schritten mit [!INCLUDE[prod_short](includes/cds_long_md.md)] finden Sie im Modul [Erste Schritte mit Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) von Microsoft Learn.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Bidirektionale oder unidirektionale Datensynchronisation
 Je nach Ihren Geschäftsanforderungen können Sie die Integration so einrichten, dass Daten entweder mit einer Dynamics 365-Geschäftsanwendung oder von einer Dynamics 365-Geschäftsanwendung zu einer anderen synchronisiert werden oder in beiden Richtungen in nahezu Echtzeit durch [!INCLUDE[prod_short](includes/cds_long_md.md)]. Wenn Sie z.B. [!INCLUDE[prod_short](includes/prod_short.md)] mit [!INCLUDE[crm_md](includes/crm_md.md)] bis [!INCLUDE[prod_short](includes/cds_long_md.md)] integrieren, kann ein Kreditor einen Debitorenauftrag in [!INCLUDE[crm_md](includes/crm_md.md)] erstellen, und der Auftrag wird mit [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert. Umgekehrt kann der Verkäufer von [!INCLUDE[crm_md](includes/crm_md.md)] aus Informationen von [!INCLUDE[prod_short](includes/prod_short.md)] über die Verfügbarkeit des Artikels auf der Bestellung einsehen. 

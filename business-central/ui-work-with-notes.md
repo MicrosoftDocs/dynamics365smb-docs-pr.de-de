@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5a8e71aacee92b77e5da3ebdfab720723c9f6326
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4199cfc818aed1baacd5d1c70b74d27883000829
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392374"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772154"
 ---
 # <a name="add-and-view-notes-on-records"></a>Notizen zu Datensätzen hinzufügen und anzeigen
  Sie <!--OnPrem and your colleagues -->können Notizen den Datensätzen in der Anwendung hinzufügen. Viele Seiten, insbesondere diejenigen, die eine Liste der Datensätze, wie die Seite **Verkaufsaufträge** anzeigen, enthalten die **Notizen** Aktion oder die Infobox **Notizen**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->

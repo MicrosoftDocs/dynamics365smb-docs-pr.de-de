@@ -2,15 +2,15 @@
 title: Lernkatalog für Geschäftsanwender
 description: Hier finden Sie alle verfügbaren Informationen für Business Central.
 author: loreleishannonmsft
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: b6763aa1c1c55484c5048213094ba70c9f661f58
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383801"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772429"
 ---
 # <a name="business-users-learning-catalog"></a>Lernkatalog für Geschäftsanwender
 

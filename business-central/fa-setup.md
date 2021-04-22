@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3044d878260dbab4e9d2423398b7654386671638
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a35bd9a83ec05a25bc087722fb2009ca27bbfa2f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380077"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770416"
 ---
 # <a name="setting-up-fixed-assets"></a>Anlagen einrichten
 Um mit Anlagen arbeiten können, müssen Sie einige Elemente festlegen:  
@@ -44,7 +44,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 ## <a name="see-also"></a>Siehe auch
 [Anlagen](fa-manage.md)  
 [Finanzen](finance.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

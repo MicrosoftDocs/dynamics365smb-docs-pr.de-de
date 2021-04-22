@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9768fca2bea274a8124c34e151d399baa23f9f03
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 32e9eaadfa55a8c10e331c9f6a35f18d48b73110
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493117"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777307"
 ---
 # <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] und Power BI
 
@@ -66,8 +66,8 @@ Es gibt einige Aufgaben, die vor der Verwendung von Power BI mit [!INCLUDE[prod_
 [Schnellstart: Stellen Sie eine Verbindung zu Daten her in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI Dokumentation](/power-bi/)  
 [Business Intelligence](bi.md)  
-[Erste Schritte](product-get-started.md)  
-[Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Importieren von Geschäftsdaten aus anderen Finanzsystemen](across-import-data-configuration-packages.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power BI-Datenquelle](across-how-use-financials-data-source-powerbi.md)  
 [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power Apps-Datenquelle](across-how-use-financials-data-source-powerapps.md)  

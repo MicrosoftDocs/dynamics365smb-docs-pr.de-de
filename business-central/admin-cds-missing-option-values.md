@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
-ms.openlocfilehash: 2b6d27ed04eb7f09bc884930105867c25b2b4a5f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.date: 04/01/2021
+ms.openlocfilehash: cd2ed879c6ef6022431e273fa9953110ce482567
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5492959"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773204"
 ---
 # <a name="handling-missing-option-values"></a>Behandlung fehlender Optionswerte
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

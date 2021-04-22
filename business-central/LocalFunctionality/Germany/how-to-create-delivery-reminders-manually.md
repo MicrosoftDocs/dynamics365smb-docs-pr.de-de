@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 466b43d3ae0d431c743e498d580f0a7abc70556e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3797b97d5146bc6ddb05f898eb970f80c8bb2aa2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381854"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777626"
 ---
 # <a name="create-delivery-reminders-manually-in-the-german-version"></a>Manuelle Lieferanmahnungen in der deutschen Version erstellen
 

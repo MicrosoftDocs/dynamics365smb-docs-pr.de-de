@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 559c4f2617241fb30f90639387f9df9e80739a22
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 709253147c8de5ebf16e0e515983d2f6217cf7f4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380788"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775350"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Einrichten von Arbeits- und Servicezeiten
 Normalerweise verfolgt ein Servicemanagementsystem Ressourcenstunden und den Serviceauftragsstatus, um die Arbeitsauslastung und Serviceanforderungen zu prognostizieren. [!INCLUDE[prod_short](includes/prod_short.md)] verfügt über integrierte Tools, die so angepasst werden können, dass diese Arten von Informationen erfasst werden.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 68c271cc452d60cef8b457f5dc1273279d9cb351
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 221578a174c6bd0dd87377340e97cd54a98d177b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382950"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778397"
 ---
 # <a name="set-up-shipping-agents"></a>Zusteller einrichten
 Sie können einen Code für jeden Zusteller anlegen und Informationen dazu eingeben.  

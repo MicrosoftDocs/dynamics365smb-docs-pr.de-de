@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: e0bb0f88fd9b8dd4c4bcf853447009e0b898fd7a
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 98bb45f10b228077114d7387e9bc30a30cf7e3c6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493303"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774253"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installieren und Deinstallieren von Erweiterungen in Business Central
 
@@ -90,7 +90,7 @@ Einige Erweiterungen sind erforderlich. Sie können diese nicht von der **Extens
 [Geschäftsdaten aus anderen Finanzsystemen migrieren](across-import-data-configuration-packages.md)  
 [Einrichten der britischen Postleitzahlerweiterung GetAddress.io](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Erweiterungen für andere Anbieter](ui-extensions-other.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

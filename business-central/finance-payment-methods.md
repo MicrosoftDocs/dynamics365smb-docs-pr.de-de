@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 01/21/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7132f96327e468c200ebd1f41c0a1e5b767dea6b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1e836b43392cd915a77c5ee85d5a322753dcd5df
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376837"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773955"
 ---
 # <a name="set-up-payment-methods"></a>Einrichten von Zahlungsformen
 

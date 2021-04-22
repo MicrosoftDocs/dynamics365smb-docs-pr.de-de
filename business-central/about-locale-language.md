@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7dad6212361eaebc4e08cc2c638a84c41850e9d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385074"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776447"
 ---
 # <a name="changing-language-and-region"></a>Ändern der Sprache und der Region
 
@@ -36,10 +36,10 @@ Die Änderung der Texte in den Daten der Anwendung ist kein Bestandteil der Mult
 ## <a name="changing-the-region"></a>Ändern der Region
 Die Region unterscheidet sich von der Sprache und von gesetzlichen Vorschriften in den lokalen Märkten. Die Region bestimmt, wie Ihre Daten in Bezug auf das Kommatrennzeichen, die Ausrichtung nach links oder rechts und auf bestimmte andere Einstellungen dargestellt werden. Die Region bestimmt auch einige der Systemelemente im Browser, z. B. die Aktion zum Erstellen eines neuen Artikels in einer Liste.  
 
-Sie können die Region in der Browserregisterkarte ändern, mit der Sie in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten. die Änderung bezieht sich nur auf Sie und die nicht die anderer Benutzer in Ihrem Unternehmen.  Beachten Sie, dass die Auswahl der Region auf Ihre Einstellung in Ihrem Office-Profil zurückgesetzt wird, wenn Ihr Administrator Benutzer von Microsoft 365 mit [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert.
+Sie können die Region in der Browserregisterkarte ändern, mit der Sie in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten. Die Änderung bezieht sich nur auf Sie und die nicht die anderer Benutzer in Ihrem Unternehmen.  Die Auswahl der Region auf Ihre Einstellung in Ihrem Office-Profil zurückgesetzt wird, wenn Ihr Administrator Benutzer von Microsoft 365 mit [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert.
 
 > [!IMPORTANT]  
->  Wenn Sie die Region ändern, wird eine eine lange Liste von Sprachen und Regionen angezeigt. Die Sprache wird jedoch nicht von der Auswahl der Region beeinflusst.  
+> Wenn Sie die Region ändern, wird eine eine lange Liste von Sprachen und Regionen angezeigt. Die Sprache wird jedoch nicht von der Auswahl der Region beeinflusst.  
 
 Wechseln Sie zur Seite **Meine Einstellungen**, um die Region zu ändern. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).  
 
@@ -48,19 +48,21 @@ Wechseln Sie zur Seite **Meine Einstellungen**, um die Region zu ändern. Weiter
 Auf der Seite **Hilfe und Support** sehen Sie die Version von [!INCLUDE[prod_short](includes/prod_short.md)], auf der Ihr Unternehmen basiert. Wenn Sie ein Unternehmen auf einer anderen Version aufbauen möchten, kann Ihr Administrator eine neue Produktionsumgebung anlegen. Weitere Informationen finden Sie unter [Erstellen einer neuen Produktionsumgebung](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) im Entwickler- und IT Pro-Inhalt.  
 
 ## <a name="languages-of-the-prod_short-help"></a>Sprachen der [!INCLUDE[prod_short](includes/prod_short.md)]-Hilfe
+
 Der Hilfeinhalt für die Kernfunktionalität in [!INCLUDE[prod_short](includes/prod_short.md)] wird auf der Microsoft Dokumentenseite veröffentlicht und ist in unterschiedlichen Sprachen verfügbar. Wenn Sie die Dokumente in [!INCLUDE[prod_short](includes/prod_short.md)] öffnen, wird der Inhalt in Ihrer Sprache angezeigt. Wenn eine bestimmte Seite noch nicht in der Sprache verfügbar ist, wird sie in Englisch angezeigt.
 
-### <a name="how-do-i-change-the-language"></a>Wie ändere ich die Sprache?
+### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Wie ändere ich die Sprache der Microsoft Dokumentenseite?
+
 Ganz einfach - einen Bildlauf zum unteren Rand der Browserseite ausführen und das Kugelsymbol in der unteren linken Ecke auswählen.
 
 > [!NOTE]  
-> Die Liste zeigt alle Sprachen an, die von der Microsoft Dokumentenseite unterstützt werden. [!INCLUDE[prod_short](includes/prod_short.md)] ist in einer beschränkten Anzahl Länder/Regionen verfügbar, aber der Hilfeinhalts kann in mehr Sprachen bereitgestellt werden. Der Hilfeinhalt ist allerdings nicht in allen Sprachen verfügbar, die die Microsoft Dokumentenseite unterstützt.
+> Die Liste zeigt alle Sprachen an, die von der Microsoft Dokumentenseite unterstützt werden. [!INCLUDE[prod_short](includes/prod_short.md)] ist in einer begrenzten Anzahl von Ländern/Regionen verfügbar, und die [!INCLUDE [prod_short](includes/prod_short.md)]-Hilfeinhalte sind nicht in allen Sprachen verfügbar, die von der Microsoft Dokumentenseite unterstützt werden.
 
 ## <a name="see-also"></a>Siehe auch
 
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

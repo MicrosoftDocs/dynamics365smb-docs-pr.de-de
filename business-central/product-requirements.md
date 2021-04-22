@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 01/08/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea421a1e4c1961bd5df2fac9a8112c9969f206ac
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5273539fa1dfa3916443bc3e0bf21efb19a4571b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393674"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779457"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Mindestanforderungen für die Nutzung von Business Central
 
@@ -23,32 +23,34 @@ Bevor Sie auf [!INCLUDE[prod_short](includes/prod_short.md)] online zugreifen, e
 
 ## <a name="browsers"></a>Browser
 
-### <a name="recommended-browsers"></a>Empfohlene Browser
-
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] funktioniert mit der aktuellen Version des neuen Microsoft Edge.  
-**Chrome für Windows und Firefox für Windows**: [!INCLUDE[prod_short](includes/prod_short.md)] funktioniert mit der aktuellen Version dieses Desktopbrowser.  
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] funktioniert mit der aktuellen Version des neuen Microsoft Edge.
+  
+**Chrome für Windows und Firefox für Windows**: [!INCLUDE[prod_short](includes/prod_short.md)] funktioniert mit der aktuellen Version dieses Desktopbrowser. 
+ 
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] funktioniert mit der aktuellen Version von Safari unter macOS.  
-
-### <a name="other-supported-browsers"></a>Andere unterstützte Browser
-
-**Microsoft Edge-Vorversion:** [!INCLUDE[prod_short](includes/prod_short.md)] wurde so entwickelt, dass es mit der Vorversion von Microsoft Edge funktioniert, aber wir empfehlen, dass Sie zum neuen Microsoft Edge wechseln.  
-**Internet Explorer:** [!INCLUDE[prod_short](includes/prod_short.md)] ist dafür ausgelegt, um mit Internet Explorer 11 (Build 11.0.9600.17239) für Windows 10 (32-Bit- und 64-Bit-Versionen) zu arbeiten. Es ist empfehlenswert, dass Sie auf die neuesten Version von Internet Explorer für Ihre Version von Windows aktualisieren. Sie können auch die neue Edge-Version ausführen und weiterhin auf andere Websites zugreifen, die Internet Explorer erfordern. Weitere Informationen finden Sie unter [Microsoft Edge-Dokumentation](/deployedge/edge-ie-mode).
-
-> [!IMPORTANT]
-> Ab April 2021 werden Internet Explorer 11 und Edge Legacy nicht mehr unterstützt. Wir empfehlen Ihnen, so bald wie möglich zu einem der empfohlenen modernen Browser zu wechseln.
 
 ## <a name="mobile-devices"></a>Mobile Geräte
 
-**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows kann auf Geräten mit mindestens 1 GB RAM und Windows 10 S, Home, Pro Enterprise oder Education (32-Bit- und 64-Bit-Editionen) installiert werden.  
-**IOS:** [!INCLUDE[prod_short](includes/prod_short.md)] für iPad und iPhone benötigt iOS 10.0 oder höher.  
-**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] für Android Tablet und Android Smartphone kann auf Geräten mit mindestens 1 GB RAM und Android 6.0 oder höher eingerichtet werden.  
-**Gerätegröße:** [!INCLUDE[prod_short](includes/prod_short.md)] wird auf Smartphones mit einer minimalen Bildschirmgröße von 4“ und Tablets mit einer minimalen Bildschirmgröße von 7“ unterstützt.  
+**Windows:** Windows 10 S, Home, Pro, Enterprise oder Education (32-Bit‑ und 64-Bit-Editionen).
 
+**Android (Tablet und Telefon)**: Eine der neuesten drei Hauptversionen und deren Updates.
+
+**iOS (iPad und iPhone)**: Eine der neuesten drei Hauptversionen und deren Updates.
+
+<!--
+
+**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
+**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] for iPad and iPhone requires iOS 10.0 or later.  
+**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] for Android tablet and Android phone can be installed on devices with at least 1 GB of RAM and Android 6.0 or higher.  
+**Device size:** [!INCLUDE[prod_short](includes/prod_short.md)] is supported on smart phones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
+-->
 ## <a name="outlook"></a>Outlook
 
-**Outlook-Anwendungen:** Um [!INCLUDE[prod_short](includes/prod_short.md)] online als Ihren Unternehmensposteingang in Outlook zu verwenden, benötigen Sie Outlook 2019 oder höher, Outlook im Web, Outlook für das iPhone, Outlook für iPad oder Outlook für Android. Ihre Organisation muss auch Microsoft 365 verwenden. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] online nicht als Ihr Geschäftseingang in Outlook verwenden, wenn Ihre Organisation Exchange Server lokal verwendet.  
-**Browser:** Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] als Ihren geschäftlichen Posteingang in Outlook in einem Browser verwenden, erfordert das Add-In, dass auf Ihrem Computer einer der aufgeführten unterstützten Browser ausgeführt wird, die zuvor in diesem Artikel aufgeführt wurden.  
-**Plattformen:** Wenn Sie das [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-Add-In in Outlook für iPhone, Outlook für iPad oder Outlook für Android verwenden, setzt das Add-In voraus, dass auf Ihrem mobilen Gerät eines der aufgeführten unterstützten mobilen Geräte für [!INCLUDE[prod_short](includes/prod_short.md)] läuft.  
+**Outlook-Anwendungen:** Um [!INCLUDE[prod_short](includes/prod_short.md)] online als Ihren Unternehmensposteingang in Outlook zu verwenden, benötigen Sie Outlook 2019 oder höher, Outlook im Web, Outlook für iOs oder Outlook Android. Ihre Organisation muss auch Microsoft 365 verwenden. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] online nicht als Ihr Geschäftseingang in Outlook verwenden, wenn Ihre Organisation Exchange Server lokal verwendet. 
+ 
+**Browser:** Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] als Ihren geschäftlichen Posteingang in Outlook in einem Browser verwenden, erfordert das Add-In, dass auf Ihrem Computer einer der aufgeführten unterstützten Browser ausgeführt wird, die zuvor in diesem Artikel aufgeführt wurden. 
+ 
+**Plattformen:** Wenn Sie das [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-Add-In in Outlook für iOs oder Outlook für Android verwenden, setzt das Add-In voraus, dass auf Ihrem mobilen Gerät eines der aufgeführten unterstützten mobilen Geräte für [!INCLUDE[prod_short](includes/prod_short.md)] läuft.  
 
 ## <a name="teams"></a>Teams
 
@@ -73,12 +75,11 @@ Das Admin Center funktioniert mit der aktuellen Version der folgenden Browser:
 
 ## <a name="using-business-central-on-premises"></a>Lokales Business Central lokal nutzen
 
-Wenn Sie Business Central lokal bereitstellen möchten, sollten Sie die Systemanforderungen überprüfen. Weitere Informationen finden Sie unter [Systemvoraussetzungen für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)und [Bereitstellungsübersicht ](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Wenn Sie Business Central lokal bereitstellen möchten, sollten Sie die Systemanforderungen überprüfen. Weitere Informationen finden Sie unter [Systemvoraussetzungen für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)und [Bereitstellungsübersicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erste Schritte](product-get-started.md)  
-[Systemanforderungen für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
-
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Systemanforderungen für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f261ae825a7a7ef32488f74a1cbd99c69455053
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8765bf3af62444712e8de8c40408a30c95f2374e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379827"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779278"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Fertigungsaufträge aus Verkaufsaufträgen zu erstellen:
 In diesem Fenster können Sie direkt zum aktuellen Verkaufsauftrag einen Fertigungsauftrag erstellen.  

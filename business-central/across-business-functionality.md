@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3d073a17f900b3f1691c6b108af021aec6b93fd3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384949"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776272"
 ---
 # <a name="business-functionality"></a>Geschäftsfunktionen
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik.
@@ -47,7 +47,7 @@ ms.locfileid: "5384949"
 [Erforschen Sie die Dynamics 365 Business Central-Fähigkeiten](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Verwaltung](admin-setup-and-administration.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c5a72fd3026f0dd78a547809e0ad6afe9de2d420
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6e5f20d2f450f3f544cc2f7023160e4e9babdf33
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390874"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772804"
 ---
 # <a name="design-details-item-tracking"></a>Designdetails: Artikelnachverfolgung
 Da der Warenfluss in heutigen Lieferketten immer komplexer wird, wird die Möglichkeit, Artikel nachzuverfolgen für die involvierten Unternehmen immer wichtiger. Den Transaktionsfluss eines Artikels zu überwachen ist eine gesetzlich vorgeschriebenes Erfordernis in Bezug auf medizinische und chemische Vorräte, andere Sektoren haben Produkte mit Garantien oder Ablaufdatumsangaben für Kundenservicegründe zu überwachen.  
@@ -32,5 +32,8 @@ Ein Artikelverfolgungssystem sollte für eine einfache Handhabung der Serien- un
 [Designdetails: Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Designdetails: Artikelverfolgung im Lager](design-details-item-tracking-in-the-warehouse.md)
 
+## <a name="see-also"></a>Siehe auch
+
+[Arbeiten mit Serien‑, Chargen‑ und Paketnummern](inventory-how-work-item-tracking.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

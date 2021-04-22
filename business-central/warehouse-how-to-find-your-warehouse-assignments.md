@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eadfc0d2e2dc89f1445a4def8f1ceb33cf7fae55
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 20035f02f2a103123a1f0f8ced0c8f1cc8b587fd
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391599"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771779"
 ---
 # <a name="find-your-warehouse-assignments"></a>Suchen der Lagerzuweisungen
 Um Lagerzuweisungen zu suchen, öffnen Sie die Kartenseite für einen ausgewählten Artikel. Wenn Logistikanweisungen erzeugt wurden, sehen Sie Zeilen der Arten "Entnahme" und "Einlagerung", und Sie können mit einer Ihnen zugewiesenen Aufgabe beginnen. In einigen Lagern haben die Lagermanager eventuell jedem Mitarbeiter bestimmte Anweisungen zugeordnet. Weitere Informationen finden Sie unter [Lagermitarbeiter einrichten](warehouse-how-to-set-up-warehouse-employees.md)

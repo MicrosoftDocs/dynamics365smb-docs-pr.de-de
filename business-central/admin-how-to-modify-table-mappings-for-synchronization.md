@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cdaaa805ec25529c0675a00a647830019926f216
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378223"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779807"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Zu synchronisierende Tabellen und Felder zuordnen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

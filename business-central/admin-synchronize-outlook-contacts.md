@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c9d267df2fb58da3b4a7aa1505030c9510bdf4f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1ccada415d506193e52ac37981252a47e6088971
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386099"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777166"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchronisieren Sie Kontakte in Business Central mit Kontakten in Microsoft Outlook
 Sie können die gleichen Kontakte sehen in [!INCLUDE[prod_short](includes/prod_short.md)] wie in Outlook, wenn Sie die Kontaktsynchronisierung einrichten. Wenn Sie beispielsweise ein Verkäufer sind, können Sie einige Arbeit in Outlook und einige Arbeit in [!INCLUDE[prod_short](includes/prod_short.md)] erledigen. Wenn die Kontakte an beiden Stellen identisch sind, wird die Arbeit einfacher.  
@@ -32,15 +32,15 @@ Sobald diese Synchronisierung eingerichtet wurde, werden Änderungen. die Sie an
 Jeder Ihrer Mitarbeiter kann die eigene Exchange-Synchronisierung einrichten und die eigenen Filder für die Synchronisierung von Kontakten einrichten.  
 
 ## <a name="synchronize-contacts"></a>Kontakte synchronisieren
-Wenn Sie es gewohnt sind, in [!INCLUDE[prod_short](includes/prod_short.md)] mit Kontakten zu arbeiten, dann werden Sie es einfach finden, die Synchronisierung manuell aus der Liste **Kontakte** zu starten, wenn es für Sie passt. Wählen Sie einfach **Synchronisierung mit Office 365** aus, und entscheiden Sie sich dann, wenn Sie den Filter ändern möchten, den Sie eingerichtet haben. Wenn Sie die Schaltfläche OK auswählen, wird die Synchronisierung sofort gestartet und die letzten Änderungen werden Ihren Kontakten in Outlook hinzugefügt.  
+Wenn Sie es gewohnt sind, in [!INCLUDE[prod_short](includes/prod_short.md)] mit Kontakten zu arbeiten, dann werden Sie es einfach finden, die Synchronisierung manuell aus der Liste **Kontakte** zu starten, wenn es für Sie passt. Wählen Sie einfach **Synchronisierung mit Microsoft 365** aus, und entscheiden Sie sich dann, wenn Sie den Filter ändern möchten, den Sie eingerichtet haben. Wenn Sie die Schaltfläche OK auswählen, wird die Synchronisierung sofort gestartet und die letzten Änderungen werden Ihren Kontakten in Outlook hinzugefügt.  
 
 In der Liste **Kontakte** können Sie Kontakte auf zwei Wege synchronisieren:
 
-* **Mit Office 365** synchronisieren
+* **Mit Microsoft 365 synchronisieren**
 
   Diese Aktion synchronisiert alle Änderungen in [!INCLUDE[prod_short](includes/prod_short.md)] zu Microsoft 365 seit der letzten Synchronisierung, basierend auf dem letzten Änderungsdatum. Alle neuen Kontakte von Microsoft 365 werden auch wieder in [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert. Dies ist typischerweise schneller als eine vollständige Synchronisierung.  
 
-* **Vollständig synchronisieren mit Office 365**
+* **Mit Microsoft 365 vollständig synchronisieren**
 
   Diese Aktion synchronisiert alle Kontakte in beide Richtungen unabhängig vom letzten Synchronisierungsdatum und der letzten Änderung.  
 
@@ -49,7 +49,7 @@ In beiden Fällen werden nur Kontakte von Outlook synchronisiert, wenn die erfor
 In Outlook werden die Kontakte [!INCLUDE[prod_short](includes/prod_short.md)] in einem Ordner unter **Andere Kontakte** in der Ansicht **Personen** angezeigt. Wenn Sie nicht mit den Personen-Ansicht in Outlook vertraut sind, können Sie diese von den Navigationsoptionen in der unteren linken Ecke von Outlook erhalten.  
 
 ## <a name="see-also"></a>Siehe auch
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Finanzen](finance.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

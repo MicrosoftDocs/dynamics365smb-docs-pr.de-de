@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393574"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772129"
 ---
 # <a name="working-with-prod_short"></a>Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.
@@ -61,18 +61,18 @@ Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[prod_short](i
 
 ## <a name="choosing-a-desktop-browser"></a>Auswahl eines Desktop-Browsers
 
-[!INCLUDE[prod_short](includes/prod_short.md)] unterstützt mehrere Browser, die jeweils eine Vielzahl von Funktionen und Möglichkeiten bieten. Der Browser spielt eine wichtige Rolle bei der Reaktionsfähigkeit und Flüssigkeit der Benutzeroberfläche. Siehe die Liste der unterstützten, empfohlenen Browser für [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) und Browser für [Business Central On-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
+[!INCLUDE[prod_short](includes/prod_short.md)] unterstützt mehrere Browser, die jeweils eine Vielzahl von Funktionen und Möglichkeiten bieten. Der Browser spielt eine wichtige Rolle bei der Reaktionsfähigkeit und Flüssigkeit der Benutzeroberfläche. Siehe die Liste der unterstützten, empfohlenen Browser für [Business Central Online](./product-requirements.md) und Browser für [Business Central On-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
 - Vermeiden Sie nach Möglichkeit ältere Browser wie z.B. Internet Explorer und wechseln Sie zu einem unserer empfohlenen modernen Browser, wie z.B. die Aktion [neue Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer wird immer noch unterstützt, aber da der neue Edge-Browser jetzt für Windows Server verfügbar ist, sehen wir eine sinkende Nutzungsrate für Internet Explorer. Sie können auch [Pilot von Edge im IE-Modus](https://www.microsoft.com/edge/business) erhalten. Weitere Informationen finden Sie unter [Microsoft Edge-Dokumentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer wird nicht mehr unterstützt. Weitere Informationen finden Sie unter [Microsoft Edge-Dokumentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Halten Sie Ihren Browser immer auf dem neuesten Stand.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Einrichten von Business Central](setup.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Performance-Tipps für Geschäftsanwender](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)

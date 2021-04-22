@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 354d090b567ebdd63280ecc71248a616bc22342d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393924"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771210"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 
@@ -23,7 +23,14 @@ Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[prod_short]
 
 Damit Sie sich leichter auf Ihre Geschäftstätigkeiten vorbereiten können, können Sie die Seite **Unterstützte Einrichtung** besuchen. Dort können Sie Anleitungen zur unterstützten Einrichtung, Videos oder Hilfethemen für ausgewählte Einrichtungsaufgaben starten. Um auf die Seite zuzugreifen, wählen Sie einfach das Symbol ![Zahnrad, um das Einstellungsmenü zu öffnen](media/ui-experience/settings_icon_small.png)-Symbol und dann die Aktion **Unterstützte Einrichtung**.
 
-Um die Liste der Anleitungen für die unterstützten Einrichtung für jede beliebige Rolle zu öffnen, wählen Sie alternativ das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben **Unterstütze Einrichtung** ein und wählen Sie dann den entsprechenden Link.
+Um die Liste der Anleitungen für die unterstützten Einrichtung für jede beliebige Rolle zu öffnen, wählen Sie alternativ das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben **Unterstütze Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
+
+> [!TIP]
+> [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
+
+## <a name="get-started"></a>Erste Schritte
+
+Ab 2021 Veröffentlichungszyklus 1, wenn Sie sich zum ersten Mal anmelden oder eine neue Firma gründen, führt Sie die Checkliste **Erste Schritte** durch die Schritte, um Sie für das Geschäft vorzubereiten. Die Schritte variieren je nach Land und branchenspezifischen Funktionen, die Sie Ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzugefügt haben.  
 
 Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie jedoch in Betracht ziehen, ob andere Anleitungen zur unterstützten Einrichtung auf der Liste Ihnen helfen können.
 
@@ -34,18 +41,26 @@ Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt ist, wähl
 >
 > Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung **Standard**. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 
-Wenn Sie einen Leitfaden für das unterstützte Setup ausgeführt haben, wird er als **Abgeschlossen** markiert. Um die unterstützte Einrichtung auszuführen, wählen Sie die drei Punkte, die auch als Kontextmenü bezeichnet werden, und wählen Sie **Einrichtung starten** aus.
+Wenn Sie einen Leitfaden für das unterstützte Setup ausgeführt haben, wird er als **Abgeschlossen** markiert. <!--VERIFY-->  
 
-## <a name="role-center"></a>Rollencenter
+## <a name="teaching-tips-and-tours"></a>Unterrichtstipps und Touren
 
-Im Rollencenter erhalten Sie einen Überblick über das Unternehmen. Oben sehen Sie eine Navigationsleiste, die Ihnen einen einfachen Zugriff auf Debitoren, Kreditoren, Artikel usw. ermöglicht. Im Mittelpunkt finden Sie die Kacheln **Aktivitäten**. **Aktivitäten** zeigen Sie aktuelle Daten an und können für einen einfachen Zugriff auf ausgewählten Beleg angeklickt oder getippt werden.
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 
-Die **Zentralen Leistungs-Indikatoren** können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Sie können eine Liste von **Lieblingsdebitoren** im Rollencenter auch für Konten einrichten, mit denen Sie häufig Geschäfte tätigen oder besondere Aufmerksamkeit geben müssen.
+[!INCLUDE [prod_short](includes/prod_short.md)] enthält In-Product-Touren und Unterrichtstipps, die Ihnen den Einstieg erleichtern können. In der aktuellen Version gibt es Touren für die Schritte in der Liste **Erste Schritte** und einige der am häufigsten verwendeten Seiten in der Demonstrationsfirma, wie die Kartenseite **Verkaufsrechnung**.  
 
-Verwenden Sie die Pfeile, um einen Teil der Seite zu verkleinern und mehr Platz hinzuzufügen, um bestimmte Daten anzuzeigen. Bei der Hierarchie des Rollencenter finden Sie alle Aktionen, die dem aktuellen Inhalt hinzugefügt werden können. Diese kann auch reduziert werden und Sie müssen nur innerhalb des reduzierten Bereichs klicken oder tippen, um den Inhalt wieder anzuzeigen.
+Unterrichtstipps sind Kurznachrichten, die Sie über wichtige und neue Funktionen informieren, daran erinnern oder unterrichten, die beim Öffnen einer Seite automatisch gestartet werden. Zum Beispiel, um den Unterrichtstipp für die Karte **Verkaufsrechnung** zu sehen, wählen Sie den Link in der oberen linken Ecke der Seite, wo es heißt *Verkaufsrechnung*. Dies startet ein Callout mit einer kurzen Beschreibung der Seite und was Sie dort tun können. Wenn für die Seite eine Tour vorhanden ist, werden Sie über einen Link zur Teilnahme an der Tour eingeladen. Der Link *Mehr erfahren* führt Sie zur Produkthilfe für die Seite.
+
+## <a name="role-specific-home-pages"></a>Rollenspezifische Homepages
+
+Abhängig von Ihrer Rolle bietet die Homepage einen Überblick über Ihr Unternehmen. Oben sehen Sie eine Navigationsleiste, die Ihnen einen einfachen Zugriff auf Debitoren, Kreditoren, Artikel usw. ermöglicht. Im Mittelpunkt finden Sie die Kacheln **Aktivitäten**. **Aktivitäten** zeigen Sie aktuelle Daten an und können für einen einfachen Zugriff auf ausgewählten Beleg angeklickt oder getippt werden.
+
+Die **Zentralen Leistungs-Indikatoren** können eingerichtet werden, um ein ausgewähltes Diagramm für eine visuelle Darstellung anzuzeigen, zum Beispiel, Cashflow oder Einnahmen und Ausgaben. Sie können eine Liste von **Lieblingsdebitoren** auf der Homepage auch für Konten einrichten, mit denen Sie häufig Geschäfte tätigen oder besondere Aufmerksamkeit geben müssen.
+
+Verwenden Sie die Pfeile, um einen Teil der Seite zu verkleinern und mehr Platz hinzuzufügen, um bestimmte Daten anzuzeigen. Bei der Hierarchie der Homepage finden Sie alle Aktionen, die dem aktuellen Inhalt hinzugefügt werden können. Diese kann auch reduziert werden und Sie müssen nur innerhalb des reduzierten Bereichs klicken oder tippen, um den Inhalt wieder anzuzeigen.
 
 > [!TIP]  
-> Sie können zurück zum Rollencenter gelangen, indem Sie den Unternehmensnamen in der linken Teil des Fensters auswählen.
+> Sie können zurück zur Homepage gelangen, indem Sie den Unternehmensnamen in der linken Teil des Fensters auswählen.
 
 ## <a name="company-information"></a>Unternehmensdaten
 
@@ -57,23 +72,22 @@ Wenn Sie mehrere Benutzer hinzufügen müssen, wird dieses vom Microsoft 365 Adm
 
 Wenn Benutzer in Microsoft 365 erstellt werden, können sie in die Seite **Benutzer** importiert werden, indem Sie die Aktion **Aktualisierungen von Office 365** abrufen verwenden. Sie können dann fortfahren, Berechtigungen Benutzern und Benutzergruppen zuzuordnen. Weitere Informationen finden Sie unter [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md).  
 
-## <a name="getting-help"></a>Abrufen von Hilfe
+## <a name="product-help"></a>Produkthilfe
 
-Im [!INCLUDE[prod_short](includes/prod_short.md)] finden Sie die Hilfethemen, die Sie durch die einzelnen Geschäftsvorgänge führen. Für jede Quickinfo wählen Sie den Link **Weitere Informationen** aus, um die Hilfe der jeweiligen Seite zu öffnen. Verwenden Sie auf allen Seiten STRG+F1 auf Ihrer Tastatur, um die Hilfe für die betreffende Seite zu öffnen. Das Fragezeichen in der oberen rechten Ecke öffnet die Seite **Hilfe und Support**, und Sie können von dort auch zur Produkthilfe gelangen.
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Aktionen** im Rollencenter, um rasch ein neues Verkaufsangebot, eine Verkaufsrechnung, einen Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen.
+Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Aktionen** auf der Homepage, um rasch ein neues Verkaufsangebot, eine Verkaufsrechnung, einen Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erste Schritte](product-get-started.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)]-Testversionen und Abonnements](across-preview.md)  
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
+[Microsoft Learn-Website](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

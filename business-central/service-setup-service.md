@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fdb540fa5fbbf91da2b59f71b3523fd5c702c3bd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8bd4d28dd5d77c998cf2404594da115e9c95077f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391374"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778098"
 ---
 # <a name="setting-up-service-management"></a>Einrichten der Serviceverwaltung
 Bevor Sie mit den Servicemanagement-Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] beginnen können, müssen einige Dinge eingerichtet werden. Beispielsweise können Sie Codierung für Standardservices, Symptome und Fehlercodes festlegen und die Serviceartikel und Serviceartikeltypen einrichten, die vom Kundendienst des Unternehmens benötigt werden.  
@@ -43,7 +43,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 
 ## <a name="see-also"></a>Siehe auch
 [Service](service-service.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

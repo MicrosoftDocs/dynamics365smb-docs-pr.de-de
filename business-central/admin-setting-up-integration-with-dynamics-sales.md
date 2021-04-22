@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1699d10a0d01d2143f26fe59313d6ba073272eef
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2717196a170aede43bfb56d796b1da9307ff8d3f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385249"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777191"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Einrichten des Benutzerkontos für die Integration in Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

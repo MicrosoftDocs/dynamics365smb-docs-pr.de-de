@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dc0425dddc02a20f074aee26a96bf4161ed212ca
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2dbe4a82f6cc2e9f28fbd06a3f235d9630a75cca
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388318"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780332"
 ---
 # <a name="project-management"></a>Projektmanagement
 In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie allgemeine Projektmanagement-Verwaltungsaufgaben ausführen, wie Konfigurieren eines Projekts und Planen einer Ressource sowie Bereitstellung der Informationen, die benötigt werden, um Budgets zu verwalten und den Status zu überwachen. Sie können Computer- und Mitarbeiterstunden für das Projekt verfolgen, indem Sie Arbeitszeittabellen verwenden. Als Projektmanager haben Sie einen guten Überblick, nicht nur über einzelnen Projekte, sondern auch über die Verteilung der Mitarbeiter, der Maschinen und anderer Ressourcen, die in allen Projekten verwendet werden.

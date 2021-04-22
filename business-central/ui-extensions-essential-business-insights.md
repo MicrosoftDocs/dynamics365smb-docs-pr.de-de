@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5fe9f0907611843951b682a9bf07c0c153486700
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5358f85e3b467fc930d99a652c91bd266d7fd9be
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377323"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772328"
 ---
 # <a name="the-essential-business-insights-extension"></a>Die wesentliche Business Insights-Erweiterung
 Die Essential Business Insights Erweiterung findet interessante Geschäftsfakten in Ihren Unternehmensdaten und zeigt sie als zeitungsähnliche Titel in Rollencenters an. Abhängig davon, was die Erweiterung findet, sind die Einblicke der letzten Woche, des letzten Monats oder der letzten drei Monate ab dem aktuellen Datum. Die Einblicke aktualisieren alle 10 Minuten.  

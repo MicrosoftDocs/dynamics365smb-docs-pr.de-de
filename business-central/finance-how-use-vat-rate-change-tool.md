@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: andregu
-ms.openlocfilehash: 6b50f5dc70764cd601648af5182626b143d54874
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2f9bef0d4a2aace08d5f8fb09eae6186213a9563
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380938"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770441"
 ---
 # <a name="managing-vat-rate-changes"></a>Verwalten von Änderungen des Mehrwertsteuersatzes
 

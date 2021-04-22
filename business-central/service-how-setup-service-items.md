@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 973edb068ee23cb4584aa9f1d76a85fd3cd95809
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ed02fb95e2f700f1cc5083472b668f49fab7d916
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376712"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775375"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Richten Sie Serviceartikel und Serviceartikelkomponenten ein.
 Um mit Serviceartikeln arbeiten können, müssen Sie Folgendes einrichten

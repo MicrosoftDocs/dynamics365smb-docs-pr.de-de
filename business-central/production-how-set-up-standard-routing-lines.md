@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3485ecea4e5fa48bf0c6d2a3a0c176d5c470956c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1aba83ed50e0b60710ae3d007b395dc9ebad34d3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379953"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779357"
 ---
 # <a name="set-up-standard-routing-lines"></a>Einrichten von Aufgabenzeilen
 

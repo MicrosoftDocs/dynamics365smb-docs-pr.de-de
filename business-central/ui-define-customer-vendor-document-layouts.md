@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 493a801b381ef21a2f8265e3a59615fa21618fc1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 086491f30ef0a223e5bf8a559af26b848e54d344
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385899"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773555"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Beleglayouts für Debitoren und Kreditoren definieren
 Wenn benutzerdefinierte Berichtslayouts definiert sind, können Sie diese aus Debitoren- und Kreditorenkarten auswählen, um anzugeben, welche Layouts für verschiedene Arten von Belegen verwendet werden, die Sie für den betreffenden Debitoren oder Kreditoren erstellen. Der Wert im Feld **Verwendung** definiert, für welchen Prozess das Beleglayout verwendet wird, z. B. **Erinnerung**, **Lieferung** und **Bestätigung**.

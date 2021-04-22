@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3a48863231c06742e5cc1b2f13d554e65cb8ae91
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381215"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773530"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
 
@@ -76,7 +76,7 @@ Geben Sie das Wort für heute in der Sprache ein, die von der **Sprach**-Einstel
 
 ### <a name="period"></a>Periode
 
-Wenn Sie eine bestimmte Buchhaltungsperiode filtern möchten, geben Sie in einem Datumsfeld den Buchstaben P oder das Wort Periode ein, gefolgt von einer Nummer, die die Buchhaltungsperiode identifiziert, z. B. P2 oder Periode 4. Die Buchhaltungsperiode ist relativ zum Geschäftsjahr des aktuellen Arbeitsdatums, das von Ihrem Rollencenter festgelegt wurde. Wenn beispielsweise das Arbeitsdatum **21.03.2020** lautet, dann filtert P1 oder einfach P in der ersten Buchhaltungsperiode des Geschäftsjahres 2020 (wie 01.01.2020..31.01.2020). P15 filtert den Fünfzehnten der Buchhaltungsperiode ab dem Anfang des Geschäftsjahres 2020 (wie 01.03.2021..31.03.2021 ).
+Wenn Sie eine bestimmte Buchhaltungsperiode filtern möchten, geben Sie in einem Datumsfeld den Buchstaben P oder das Wort Periode ein, gefolgt von einer Nummer, die die Buchhaltungsperiode identifiziert, z. B. P2 oder Periode 4. Die Buchhaltungsperiode ist relativ zum Geschäftsjahr des aktuellen Arbeitsdatums, das von Ihrem Rollencenter festgelegt wurde. Wenn beispielsweise das Arbeitsdatum **21.03.2020** lautet, dann filtert P1 oder einfach P in der ersten Buchhaltungsperiode des Geschäftsjahres 2020 (wie 01.01.2020..31.01.2020). P15 filtert den Fünfzehnten der Buchhaltungsperiode ab dem Anfang des Geschäftsjahres 2020 (wie 01.03.2021..31.03.2021).
 
 Die Buchhaltungsperioden werden auf der Seite **Buchhaltungsperiode** definiert. Um die Buchhaltungsperioden anzuzeigen oder zu ändern, öffnen Sie [hier](https://businesscentral.dynamics.com/?page=100) die Seite.
 
@@ -102,12 +102,12 @@ Die folgende Tabelle enthält Beispiele von Datumsangaben, die alle diese Format
 
 |**Eingabe**      |**Interpretation**      |
 |---------------|------------------------|
-|2018.12.31.|31.12.2018|
-|181231|31.12.2018|
-|18.12.31.|31.12.2018|
-|18.12.31.|31.12.2018|
-|20181231|31.12.2018|
-|18/12,31|31.12.2018|
+|2022.12.31.|2022.12.31.|
+|221231|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|20221231|2022.12.31.|
+|22/12,31|2022.12.31.|
 |11|11.Arbeitsdatum Monat.Arbeitsdatum Jahr|
 |1112|12.11.Arbeitsdatum Jahr.|
 |"h" für heute|heutiges Datum|
@@ -194,7 +194,7 @@ Das folgende Beispiel zeigt, wie Sie ein Minuszeichen verwenden können, um anzu
 |-1J|Heute vor einem Jahr|
 
 > [!IMPORTANT]
->  Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit**, entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht 1W sieben Arbeitstagen.
+> Wenn für den Lagerort einen Grundkalender verwendet, wird das Datumsformular, das Sie eingeben, zum Beispiel das Feld **Transportzeit**, entsprechend der Kalenderarbeitstage interpretiert. Zum Beispiel entspricht 1W sieben Arbeitstagen.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -314,36 +314,9 @@ Sie können 24.00 nicht verwenden, um Mitternacht anzugeben oder einen Wert anzu
 
 Das für Wort für "Zeit" in der Sprache, die von [!INCLUDE[prod_short](includes/prod_long.md)] verwendet wird, wird in die aktuelle Uhrzeit auf Ihrem Computer oder mobilen Gerät umgerechnet. Sie können vom Anfang einem Teil des Begriffs eingeben, z. B. h oder TIM.
 
-## <a name="entering-combined-dates-and-times"></a>Eingeben kombinierter Datums- und Zeitangaben
-Wenn Sie Datums-/Uhrzeitangaben eingeben, die aus einem kombinierten Datum und einer Uhrzeit in einem Feld bestehen, müssen Sie ein Leerzeichen zwischen dem Datum und der Uhrzeit eingeben. Der Datumsteil kann nur Stellen in Form von den offiziellen Datumstrennzeichen Ihrer Regionseinstellung enthalten. Die Uhrzeit kann Stellen um die AM/AM-Angabe enthalten.
+## <a name="entering-combined-dates-and-times"></a>Eingeben kombinierter Datums‑ und Zeitangaben
 
-Sie können auch nur ein Datum in einem Datums-/Uhrzeitangabefeld eingeben, aber Sie können nicht bloß eine Uhrzeit angeben.
-
-Die folgende Tabelle führt einige Beispiele von Datum-/Uhrzeitkombinationen auf. Die Regionseinstellungen in den Beispielen zeigen Datumsangaben im Tag\-Monat\-Jahr-Format mit den AM/PM-Angaben, der englischen Sprache und Sonntag als Start der Woche an.
-
-|**Eingabe**      |**Interpretation**      |
-|---------------|------------------------|
-|08-01-2016 05:48:12 PM|08\-01\-2016 05:48:12 PM|
-|131202 132455|13\-12\-2002 13:24:55|
-|1-12-02 10|01.12.2002 10:00:00|
-|1.12.02 5|01.12.2002 05:00:00|
-|1.12.02|01.12.2002 00:00:00|
-|11 12|11\-Arbeitsdatum Monat\-Arbeitsdatum Jahr 12:00:00|
-|1112 12|11\-12\-Arbeitsdatum Jahr 12:00:00|
-|h für heute|heutiges Datum 00:00:00|
-|h 10:30:00|heutiges Datum 10:30:00|
-|h 03:03:03|heutiges Datum 03:03:03|
-|"a" oder "Arbeitsdatum"|das Arbeitsdatum 00:00:00|
-|"Mo" oder "Montag"|Montag der Woche des Arbeitsdatums 00:00:00|
-|"di" oder "Dienstag"|Dienstag der Woche des Arbeitsdatums 00:00:00|
-|sa oder Samstag|Samstag der Woche des Arbeitsdatums 00:00:00|
-|So oder Sonntag|Sonntag der Woche des Arbeitsdatums 00:00:00|
-|di 10:30|Dienstag der Woche des Arbeitsdatums 10:30:00|
-|di 3:3:3|Dienstag der Woche des Arbeitsdatums 03:03:03|
-|d23 h|Dienstag der Woche 23 des Jahres des Arbeitsdatums, aktuelle Uhrzeit|
-|d23|Dienstag von Woche 23 des Arbeitsjahres|
-|d 23|Heute 23:00:00|
-|d-1|Dienstag von Woche 1 des Arbeitsjahres|
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Eingeben von Terminen
 Einige Felder in der Anwendung stellen eine Dauer oder Betrag der verstrichenen Uhrzeit, anstatt einer bestimmten Datums- oder Uhrzeitangabe dar. Zeiträume können als Zahl gefolgt von der entsprechenden Einheit eingegeben werden.

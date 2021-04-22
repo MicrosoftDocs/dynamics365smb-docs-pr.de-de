@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d1d017d74eff9a4bd017cb9417913c0bd37ec500
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 494a3dd93906a8a9d663455f7410d27c9fc34eb9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388824"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778222"
 ---
 # <a name="set-up-standard-service-codes"></a>Standardservicecodes einrichten
 

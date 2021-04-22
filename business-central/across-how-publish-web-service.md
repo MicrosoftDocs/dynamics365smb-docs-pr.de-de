@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/08/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 94a4752abc133e59169209b94a145d2195ce783d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 59b6febc147687e88f11423b4ad317ab6ee5a408
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384624"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775947"
 ---
 # <a name="publish-a-web-service"></a>Webdienst veröffentlichen
 

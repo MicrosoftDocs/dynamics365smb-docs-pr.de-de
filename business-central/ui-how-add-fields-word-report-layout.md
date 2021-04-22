@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 8dc64aeb028fdbc964bb7124f578014d3e6f0cde
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393876"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771110"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Hinzufügen von Feldern zu einem Word-Berichtlayout
 Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bilder anzeigen. In diesem Thema wird das Verfahren zum Hinzufügen von Feldern aus einem Berichtsdatasets in ein bestehendes Word-Berichtslayout für einen Bericht beschrieben. Fügen Sie Felder hinzu, indem Sie benutzerdefinierte XML-Abschnitt in Words für den Bericht verwenden und Inhaltssteuerelemente hinzufügen, die den Feldern des Berichtsdatasets zugeordnet sind. Beim Hinzufügen von Feldern ist es erforderlich, dass Sie einiges Wissen über das Dataset des Berichts haben, damit Sie die Felder identifizieren können, die Sie dem Layout hinzufügen möchten.  
@@ -31,7 +31,7 @@ Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bild
   
 2.  Zeigen Sie die Registerkarte **Entwickler** im Menüband von Microsoft Word an.  
   
-     Standardmäßig wird die Registerkarte **Entwickler** nicht im Menüband angezeigt. Weitere Informationen finden Sie unter [Anzeigen der Entwickler-Registerkarte auf dem Menüband](https://go.microsoft.com/fwlink/?LinkID=389631).  
+     Standardmäßig wird die Registerkarte **Entwickler** nicht im Menüband angezeigt. Weitere Informationen finden Sie unter [Anzeigen der Entwickler-Registerkarte auf dem Menüband](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
 3.  Wählen Sie auf der Registerkarte **Entwickler** die Option **XML-Zuordnungs-Bereich** aus.  
   
@@ -105,7 +105,7 @@ Die folgende Tabelle enthält eine vereinfachte Übersicht der XML eines benutze
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Abschließendes Element.|  
   
 ### <a name="custom-xml-part-in-word"></a>Benutzerdefinierter XML-Abschnitt in Word  
- In Word öffnen Sie den benutzerdefinierten XML-Abschnitt im **XML-Zuordnung**-Bereich und verwenden anschließend diesen Bereich, um Elemente zu den Inhaltssteuerelementen im Word-Dokument zuzuordnen. Der Bereich **XML-Zuordnung** ist zugänglich von der Registerkarte **Entwickler** (weitere Informationen unter [Anzeigen der Entwickler-Registerkarte auf dem Menüband](https://go.microsoft.com/fwlink/?LinkID=389631)).  
+ In Word öffnen Sie den benutzerdefinierten XML-Abschnitt im **XML-Zuordnung**-Bereich und verwenden anschließend diesen Bereich, um Elemente zu den Inhaltssteuerelementen im Word-Dokument zuzuordnen. Der Bereich **XML-Zuordnung** ist zugänglich von der Registerkarte **Entwickler** (weitere Informationen unter [Anzeigen der Entwickler-Registerkarte auf dem Menüband](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
  Die Elemente im **XML-Zuordnung**-Bereich erscheinen in einer Struktur ähnlich dem XML-Quellcode. Beschriftungsfelder werden unter einem allgemeinen element **Beschriftungen** gruppiert, und Dateneintrag und Spalten sind in einer hierarchischen Struktur angeordnet, die der XML-Quelle entspricht, wobei die Spalten in alphabetischer Reihenfolge aufgeführt werden. Elemente werden durch ihren Namen, wie er durch die Eigenschaft "Name" im Berichts-DataSet-Designer in HINZUGEFÜGTE EINSCHLIESSEN definiert wird, identifiziert<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   

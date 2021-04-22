@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
-ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
+ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5498562"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776147"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Häufig gestellte Fragen zur Verwendung von Business Central
 
@@ -44,8 +44,9 @@ Dies gilt für [!INCLUDE [prod_short](includes/prod_short.md)] für online und o
 
 Also wenn die Funktion in AppSource als Erweiterung veröffentlicht wird, gibt es eine Verzögerung zwischen der angekündigten Erweiterung und ihrer Verfügbarkeit in AppSource. Dies gilt nur für [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
-## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Gibt es Unterschiede zwischen einer lokalen Bereitstellung und der Cloud-Version von Business Central?
-Ja. Einige Cloud-basierte Funktionen können in bestimmten Fällen lokal ausgeführt werden, andere werden überhaupt nicht unterstützt. Weitere Informationen finden Sie unter [Funktionen, die in lokalen Bereitstellungen von Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) nicht implementiert sind.
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-business-central-online"></a>Gibt es Unterschiede zwischen einer lokalen Bereitstellung und Business Central Online?
+
+Ja. [!INCLUDE [prod_short](includes/prod_short.md)] ist für die Online-Bereitstellung optimiert und einige Funktionen werden möglicherweise nur unter bestimmten Umständen vor Ort ausgeführt, während andere überhaupt nicht unterstützt werden. Weitere Informationen finden Sie unter [Funktionen, die in lokalen Bereitstellungen von Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) nicht implementiert sind (nur in englischer Sprache verfügbar).
 
 ## <a name="can-i-get-training-in-prod_short"></a>Kann ich unter [!INCLUDE[prod_short](includes/prod_short.md)] das Training aufrufen?
 Ja, das können Sie! Kostenlose eLearning-Inhalte finden Sie auf der [Microsoft Learn Seite](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Sie können auch Ihren Vertriebspartner um zusätzliche Schulungen bitten. Wenn Sie nicht wissen, wer das ist, lesen Sie den Abschnitt [Wie finde ich einen Reselling-Partner?](#findpartner).  
@@ -60,12 +61,23 @@ Zusätzliche Inhalte werden von der [!INCLUDE[prod_short](includes/prod_short.md
 
 Weitere Informationen finden Sie unter [Hilfe und Support](product-help-and-support.md) und unter [Wie finde ich einen Reselling-Partner?](#findpartner).  
 
-## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Warum beschreibt Hilfe Funktionalität, auf die ich nicht zugreifen kann?
-Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf **Wesentlich** festgelegt ist, dann sind Benutzeroberflächenelemente für die Fertigung und Dienstleistungs-Verwaltungsfunktionen für Sie nicht sichtbar, da sie die Benutzeroberfläche **Premium** erfordern. Ein Text-Hinweis wird in den obersten Hilfethemenebenen für diese Funktionsbereiche eingefügt. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
-
 ## <a name="where-is-the-save-button"></a>Wo ist die Speichern-Schaltfläche?
 
-Es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[prod_short](includes/prod_short.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.
+Es gibt keine *Speichern*-Schaltfläche auf Seiten wie in anderen Programmen, mit denen Sie möglicherweise vertraut sind. In [!INCLUDE[prod_short](includes/prod_short.md)] werden Änderungen, die Sie in einem Feld vornehmen, automatisch gespeichert, sobald Sie zum nächsten Feld wechseln oder die Seite schließen, sofern keine Fehler vorliegen. Wenn Sie Änderungen an einem Feld vornehmen und zu einem anderen Feld wechseln, wird der Text **Wird gespeichert** in der oberen rechten Ecke der Seite angezeigt. Er wechselt schnell zu **Gespeichert**, wenn keine Fehler auftreten. Wenn ein Fehler auftritt, wird der Text in **Nicht gespeichert** geändert.  
+
+## <a name="where-do-i-find-that-line-number"></a>Wo finde ich diese Zeilennummer?
+
+Dokumente wie Kundenaufträge oder Eingangsrechnungen bestehen aus Kopfzeilen und Zeilen. Jede Zeile hat eine Nummer, die [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, um diese bestimmte Zeile zu identifizieren. Infolgedessen wird möglicherweise eine Warnung oder eine Fehlermeldung angezeigt, dass beispielsweise in Zeile 1000 etwas nicht stimmt. In der Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] sind Zeilennummern ausgeblendet. Wenn Sie die Zeilennummern sehen möchten, müssen Sie die aktuelle Seite personalisieren und die **Zeilennr.** hinzufügen. Feld eingetragen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+
+
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Warum beschreibt Hilfe Funktionalität, auf die ich nicht zugreifen kann?
+Wenn Ihre Benutzeroberfläche, die auf der Seite **Firmendaten** festgelegt, auf **Wesentlich** festgelegt ist, dann sind Benutzeroberflächenelemente für die Fertigung und Dienstleistungs-Verwaltungsfunktionen für Sie nicht sichtbar, da sie die Benutzeroberfläche **Premium** erfordern. Ein Text-Hinweis wird in den obersten Hilfethemenebenen für diese Funktionsbereiche eingefügt. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Warum sind neue Informationen in meiner Sprache nicht verfügbar?
+
+Auf der docs.microsoft.com-Website werden Inhalte zu Geschäftsfunktionen in mehreren Sprachen veröffentlicht. Der Inhalt ist in englischer Sprache verfasst und wird unter URLs mit *en-us* als Sprachcode veröffentlicht. Wenn neue Informationen auf Englisch veröffentlicht werden, werden sie zur Übersetzung in die unterstützten Sprachen gesendet. Dies bedeutet, dass Sie diesen neuen Inhalt bis zu 4 Wochen lang nicht in Ihrer eigenen Sprache lesen können.  
+
+Wir verstehen die Probleme, die dies verursachen kann, und empfehlen Benutzern, gesuchte Inhalte in Englisch zu suchen, wenn sie diese nicht in ihrer eigenen Sprache finden können.  
 
 ## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Welche E-Mail-Adresse kann ich mit [!INCLUDE[prod_short](includes/prod_short.md)] online verwenden?
 
@@ -80,7 +92,7 @@ Anzahl Wenn Sie allerdings möchten, dass [!INCLUDE[prod_short](includes/prod_sh
 
 Wenn das Konto, bei dem Sie sich anmelden, kein Microsoft 365-Arbeitskonto ist (wie z. B. joe@mysolution.com) und Sie ein Microsoft 365 Abonnement haben, können Sie Ihre Domäne (*mysolution.com*) dem Microsoft 365-Abonnement zuordnen. Weitere Informationen finden Sie unter [Was ist eine Domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) im Microsoft 365-Inhalt.  
 
-Wenn Sie kein Microsoft 365 Abonnement haben und Sie keines kaufen möchten, dann stellen wir bei der Registrierung einen neuen Azure Active Directory-Tenant für Sie bereit, sodass Sie Zugriff das Azure-Portal haben, wo Sie auf die erweiterten Verwaltungstools zugreifen können.  
+Wenn Sie kein Microsoft 365 Abonnement haben und Sie keines kaufen möchten, dann stellen wir bei der Registrierung einen neuen Azure Active Directory-Mandanten für Sie bereit, sodass Sie Zugriff auf die erweiterten Verwaltungstools im Azure-Portal haben.  
 
 ## <a name="what-is-the-integration-with-microsoft-365-about"></a>Worum geht es bei der Integration in Microsoft 365?
 [!INCLUDE[prod_short](includes/prod_short.md)] online ist vollständig in Microsoft 365 integriert, sodass Sie mit dem App-Startfeld frei zwischen Microsoft 365-Apps und [!INCLUDE[prod_short](includes/prod_short.md)] navigieren können. Im [!INCLUDE[prod_short](includes/prod_short.md)] können Sie beispielsweise Daten in Excel öffnen, Berichte unter Verwendung Word drucken und mit Ihren [!INCLUDE[prod_short](includes/prod_short.md)] Daten in Outlook arbeiten. Weitere Informationen finden Sie unter [Nutzen Sie [!INCLUDE[prod_short](includes/prod_short.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md).  
@@ -104,7 +116,7 @@ Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator
 Ja, aber abhängig davon, wie Sie sich für [!INCLUDE[prod_short](includes/prod_short.md)] registriert haben, können Ihre Daten gelöscht oder beibehalten werden. Weitere Informationen finden Sie unter [Stornierung [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Kann ich eine mehrstufige Authentifizierung verwenden?
-Natürlich. In diesem Fall benötigen Sie möglicherweise ein App-Kennwort, um E-Mail-Nachrichten zu senden. App-Kennwörter ermöglichen einer App oder einem Gerät den Zugriff auf Ihr E-Mail-Konto. Die Schritte zum Erhalten eines App-Kennworts variieren, abhängig von Ihren E-Mail-Anbieter. Weitere Informationen finden Sie in der Hilfe von Ihrem Anbieter. Wenn Sie beispielsweise Outlook verwenden, finden Sie Informationen unter [Multifaktor-Authentifizierung für Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Natürlich. In diesem Fall benötigen Sie möglicherweise ein App-Kennwort, um E-Mail-Nachrichten zu senden. App-Kennwörter ermöglichen einer App oder einem Gerät den Zugriff auf Ihr E-Mail-Konto. Die Schritte zum Erhalten eines App-Kennworts variieren, abhängig von Ihren E-Mail-Anbieter. Weitere Informationen finden Sie in der Hilfe von Ihrem Anbieter. Wenn Sie beispielsweise Outlook verwenden, finden Sie Informationen unter [Multifaktor-Authentifizierung für Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Wie finde ich einen Reselling-Partner?
 
@@ -116,23 +128,13 @@ Wenn Sie Unterstützung von Microsoft wünschen, wenden Sie sich an das [Microso
 
 Ihr Reselling-Partner übernimmt auch den technischen Support für Sie. Weitere Informationen finden Sie unter [Ressourcen für Hilfe und Support](product-help-and-support.md).  
 
-## <a name="where-do-i-find-that-line-number"></a>Wo finde ich diese Zeilennummer?
-
-Dokumente wie Kundenaufträge oder Eingangsrechnungen bestehen aus Kopfzeilen und Zeilen. Jede Zeile hat eine Nummer, die [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, um diese bestimmte Zeile zu identifizieren. Infolgedessen wird möglicherweise eine Warnung oder eine Fehlermeldung angezeigt, dass beispielsweise in Zeile 1000 etwas nicht stimmt. In der Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] sind Zeilennummern ausgeblendet. Wenn Sie die Zeilennummern sehen möchten, müssen Sie die aktuelle Seite personalisieren und die **Zeilennr.** hinzufügen. Feld eingetragen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
-
-## <a name="why-is-new-information-not-available-in-my-language"></a>Warum sind neue Informationen in meiner Sprache nicht verfügbar?
-
-Auf der docs.microsoft.com-Website werden Inhalte zu Geschäftsfunktionen in mehreren Sprachen veröffentlicht. Der Inhalt ist in englischer Sprache verfasst und wird unter URLs mit *en-us* als Sprachcode veröffentlicht. Wenn neue Informationen auf Englisch veröffentlicht werden, werden sie zur Übersetzung in die unterstützten Sprachen gesendet. Dies bedeutet, dass Sie diesen neuen Inhalt bis zu 4 Wochen lang nicht in Ihrer eigenen Sprache lesen können.  
-
-Wir verstehen die Probleme, die dies verursachen kann, und empfehlen Benutzern, gesuchte Inhalte in Englisch zu suchen, wenn sie diese nicht in ihrer eigenen Sprache finden können.  
-
 ## <a name="is-the-windows-client-supported"></a>Wird der Windows-Client unterstützt?
 
 Die ersten Releases von [!INCLUDE[prod_short](includes/prod_short.md)] lokal umfassten einen installierten Client, der von Microsoft Dynamics NAV abgeleitet war. Ab der Veröffentlichungswelle 2 von 2019 ist diese als „Windows-Client“ bezeichnete veraltete Komponente für [!INCLUDE[prod_short](includes/prod_short.md)] nicht mehr verfügbar. Weitere Informationen finden Sie unter [FAQ zu Windows-Client und Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erste Schritte](product-get-started.md)  
+[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)  
 [Suchen und Filtern FAQ](ui-search-filter-faq.md)  
 [FAQ zu Listenansichten](ui-views-faq.md)  

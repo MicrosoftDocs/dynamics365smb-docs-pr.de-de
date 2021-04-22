@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
-ms.date: 10/06/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
-ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
+ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5498587"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771287"
 ---
 # <a name="the-vat-group-management-extension"></a>Die Mehrwertsteuergruppenverwaltungserweiterung
 

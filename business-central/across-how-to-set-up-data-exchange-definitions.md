@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c89f605849d60f25a1ee46f9382d4275ff9ab088
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384324"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774686"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Richten Sie Datenaustauschdefinitionen ein.
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] so einrichten, dass Daten in bestimmten Tabelle mit Daten in externen Dateien ausgetauscht werden, zum Beispiel zum Senden und Empfangen elektronischer Belege oder zum Importieren und Exportieren von Bankdaten und anderen Daten, wie Lohnabrechnung, Währungswechselkursen und Artikelkatalogen. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
@@ -95,8 +95,8 @@ Dies wird in den folgenden Verfahren beschrieben.
     |**Spaltennr.**|Geben Sie die Nummer an, die die Spaltenposition auf der Zeile in der Datei wiedergibt.<br /><br /> Für XML-Dateien geben Sie die Nummer an, die den Elementtyp in der Datei widergespiegelt, die die Daten enthält.|  
     |**Name**|Geben Sie den Namen der Spalte an.<br /><br /> Für XML-Dateien geben Sie die Markierung an, die die auszutauschenden Daten markiert.|  
     |**Datentyp**|Geben Sie an, ob die auszutauschenden Daten den Typ **Text**, **Datum** oder **Dezimal** haben.|  
-    |**Datenformat**|Geben Sie das Format der Daten an, sofern vorhanden. Beispielsweise **MM-tt-jjjj**, wenn der Datentyp **Datum** ist. **Hinweis**: Für den Export geben Sie das Datenformat entsprechend [!INCLUDE[prod_short](includes/prod_short.md)] an. Für den Import geben Sie das Datenformat entsprechend .Net Framework an. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](https://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Datenformatierungskultur**|Geben Sie die Kultur des Datenformats an, sofern vorhanden. Beispielsweise **en-US**, wenn der Datentyp **Dezimal** ist, um sicherzustellen, dass ein Komma als Dezimaltrennzeichen verwendet wird, entsprechend dem US-Format. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](https://go.microsoft.com/fwlink/?LinkID=323466). **Hinweis**: Dieses Feld ist nur für den Import relevant.|  
+    |**Datenformat**|Geben Sie das Format der Daten an, sofern vorhanden. Beispielsweise **MM-tt-jjjj**, wenn der Datentyp **Datum** ist. **Hinweis**: Für den Export geben Sie das Datenformat entsprechend [!INCLUDE[prod_short](includes/prod_short.md)] an. Für den Import geben Sie das Datenformat entsprechend .Net Framework an. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
+    |**Datenformatierungskultur**|Geben Sie die Kultur des Datenformats an, sofern vorhanden. Beispielsweise **en-US**, wenn der Datentyp **Dezimal** ist, um sicherzustellen, dass ein Komma als Dezimaltrennzeichen verwendet wird, entsprechend dem US-Format. Weitere Informationen finden Sie unter [Standardformatzeichenfolgen für Datum und Uhrzeiten](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Hinweis**: Dieses Feld ist nur für den Import relevant.|  
     |**Länge**|Geben Sie die Länge der Zeile mit fester Breite an, die diese Spalte enthält, wenn die Datendatei den Typ **Fester Text** hat.|  
     |**Beschreibung**|Geben Sie eine Beschreibung der Spalte zur Information ein.|  
     |**Pfad**|Geben Sie die Position des Elements im zugehörigen XML-Schema an.|  

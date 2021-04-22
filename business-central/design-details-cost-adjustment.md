@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b00ab8cd91b921a35c3228972e50e8933ed4ee5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 545a3d1ae7e95623edc373404d5d39c92516e6a8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386999"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777898"
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetails: Kostenregulierung
 

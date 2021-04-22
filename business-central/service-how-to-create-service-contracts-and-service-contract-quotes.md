@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dffa11eeb39cd2246ac97284ec4bcfcbb2977539
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9cfb99319510b76843e7c94adedb66835023c55d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390399"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775300"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeiten mit Serviceverträgen und Servicevertragsangeboten
 Sie können einen Servicevertrag manuell erstellen oder aus einem Servicevertragsangebot. Sie können ein Servicevertragsangebot als Vorläufer eines Servicevertrags verwenden, in dem Ihr Unternehmen dem Debitoren ein Angebot unterbreitet und die Genehmigung des Debitoren erhält, bevor das Angebot in einen Servicevertrag umgewandelt wird. Die Vorgehensweisen zur Erstellung eines Servicevertrags oder eines Servicevertragsangebots sind ähnlich.  

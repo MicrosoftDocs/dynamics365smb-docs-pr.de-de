@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5ca2eb6fd5972f2494864b61c23bcf6c3ee26a7f
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 5cfc99bcbdf9a5037e8c87686cd65badf4ce544c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959623"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771495"
 ---
 Um Lieferbenachrichtigung zu erstellen, müssen Sie Folgendes einrichten:  
 

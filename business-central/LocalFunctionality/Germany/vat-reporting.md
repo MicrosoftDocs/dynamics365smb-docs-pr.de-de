@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 34b62a3b514f3c4f9639f657303707a6f5dd556e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9c76e53a5f4619984c3583a3b679ae80e63d0f2d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381814"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780213"
 ---
 # <a name="vat-reporting-in-the-german-version"></a>MwSt.-Berichterstattung in der deutschen Version
 

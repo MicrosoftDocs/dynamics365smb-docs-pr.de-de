@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/29/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d85358c9fa1e4f6fb6d581daed45c4333511b990
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: acc1bf44ddf3886d57729fb28ba81c6e7580ce40
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387474"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775181"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten
 

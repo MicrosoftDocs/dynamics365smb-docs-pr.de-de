@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db43728efb4c57a60f23a62c03246f1059373a54
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6d568ac9bebb99818f9a47119a177d9d704d3e74
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379373"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774511"
 ---
 # <a name="use-approval-workflows"></a>Artikelgenehmigungsworkflow verwenden
 Wenn ein Datensatz, wie ein Einkaufsbeleg oder eine Debitorenkarte, von einer Person in Ihrer Organisation genehmigt werden muss, senden Sie eine Genehmigungsanforderung als Teil eines Workflows. Je nachdem, wie der Workflow eingerichtet ist, wird der entsprechende Genehmiger dann benachrichtigt, dass der Datensatz genehmigt werden muss.
@@ -25,7 +25,7 @@ Sie richten Genehmigungsworkflows auf der Seite **Workflow** ein. Weitere Inform
 
 Neben der Genehmigung von Workflows, wie in diesem Thema beschrieben, können Sie auch verschiedene andere Aufgaben für Workflows ausführen. Weitere Informationen erhalten Sie unter [Workflows verwenden](across-use-workflows.md).
 
-Wesentliche Genehmigungsworkflows für Einkaufsbelege, Verkaufsbelege, Zahlungsausgangs Buch.-Blätter, Debitorenkarten und Artikelkarten können als Leitfaden gestartet werden. Weitere Informationen finden Sie unter [Erste Schritte](product-get-started.md).
+Wesentliche Genehmigungsworkflows für Einkaufsbelege, Verkaufsbelege, Zahlungsausgangs Buch.-Blätter, Debitorenkarten und Artikelkarten können als Leitfaden gestartet werden. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).
 
 ## <a name="to-request-approval-of-a-record"></a>So fordern Sie die Genehmigung eines Datensatzes an
 Die nächste Aufgabe wird durch einen genehmigenden Benutzer ausgeführt.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a65087c484e9e26cead2c6fb879e31184ed1a8cf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4a6bfb8d20c13019807b2308737380c4fd31dcc6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385149"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776497"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportieren Ihrer Geschäftsdaten nach Excel
 Wenn Sie mit Ihren Daten von [!INCLUDE[prod_short](includes/prod_short.md)] in Excel arbeiten, können Sie alle Listen in Excel öffnen und dort damit arbeiten. Möchten Sie das Abonnement für [!INCLUDE[prod_short](includes/prod_short.md)] stornieren, können Sie die Daten in Excel exportieren, sodass Sie diese nicht verlieren.

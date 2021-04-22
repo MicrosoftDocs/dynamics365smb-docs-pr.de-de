@@ -11,14 +11,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f7016bb826b553299c4fbfcb205b35894a87896
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6f1745dfec453f5864b748d0c876e5ef040fc2df
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380963"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775474"
 ---
 # <a name="specify-posting-periods"></a>Festlegen von Buchhaltungsperioden:
 Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Finanzbuchhaltung buchen können.  

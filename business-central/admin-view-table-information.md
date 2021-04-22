@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a4695594573056ec492bc15c29d1b6fca3100e97
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7a01143dd7928d5996c1620676a758ea634bdf5d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388674"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776891"
 ---
 # <a name="viewing-table-information"></a>Tabelleninformationen anzeigen
 

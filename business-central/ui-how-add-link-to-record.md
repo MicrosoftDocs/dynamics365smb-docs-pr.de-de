@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6aa7018a43db8c663c209894e118518c3de2f7cf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393883"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771135"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten
 
@@ -26,7 +26,9 @@ Um einen dieser angehängten Informationstypen anzuzeigen oder zu ändern, müss
 Anhänge, Links und Notizen bleiben angehängt, wenn die Karte oder das Dokument in einen anderen Status verarbeitet wird, z. B. von einem laufenden Kundenauftrag zu einer gebuchten Kundenrechnung. Allerdings wird keiner der Anhangstypen vom System ausgegeben, z. B. beim Drucken oder beim Speichern in einer Datei.
 
 > [!NOTE]
-> Wenn Sie einen Verkaufsauftrag oder eine Einkaufsbestellung teilweise versenden und in Rechnung stellen, wird der Anhang nur der endgültigen Rechnung dieser Bestellung beigefügt. Wenn Sie mit der Funktion „Abgrenzungen“ abrechnen, wird der Anhang entsprechend nur an die Sachkontenbucheinträge für den Beleg angehängt, nicht jedoch an die Abgrenzungseinträge.
+> Wenn Sie einen Verkaufsauftrag oder eine Einkaufsbestellung teilweise versenden und in Rechnung stellen, wird der Anhang nur der endgültigen Rechnung dieser Bestellung beigefügt. Wenn Sie mit der Funktion „Abgrenzungen“ abrechnen, wird der Anhang entsprechend an die Sachkontenbucheinträge für den Beleg angehängt, nicht jedoch an die Abgrenzungseinträge.
+>
+> Wenn Sie eine Bestellung löschen, bevor sie in Rechnung gestellt wird, wird auch der Anhang entfernt. Wenn Sie Bestellungen mit der Aktion „Belegzeilen abrufen“ von einer Kaufrechnung abrechnen, wird der Anhang zu den Bestellungen nicht zur Kaufrechnung hinzugefügt.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>So hängen Sie eine Datei an eine Eikaufsrechnung an
 Sie können jede Art von Datei, die Text, Bilder oder Videos enthält, an eine Karte oder ein Dokument anhängen. Dies ist beispielsweise nützlich, wenn Sie eine Lieferantenrechnung als PDF-Datei auf der zugehörigen Einkaufsrechnung in [!INCLUDE[prod_short](includes/prod_short.md)] speichern möchten.
