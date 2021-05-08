@@ -131,7 +131,7 @@
 #### [Ein Prüflayout auswählen](finance-how-define-check-layouts.md)
 ### Einrichten von Verkäufen
 #### [Einrichten von Verkäufen](sales-setup-sales.md)
-#### [Registriert einen neuen Debitor.](sales-how-register-new-customers.md)
+#### [Registriert einen neuen Debitor](sales-how-register-new-customers.md)
 #### [Aktivieren von Debitoren-Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
 #### [Spezielle Verkaufspreise und Rabatte aufzeichnen](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Verkäufer einrichten](sales-how-setup-salespeople.md)
@@ -157,7 +157,7 @@
 #### [Lagerhaltungsdaten einrichten](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Artikel kategorisieren](inventory-how-categorize-items.md)
 #### [Mehrere Artikelbilder importieren](inventory-how-import-item-pictures.md)
-### Richten Sie Ihr Projektmanagement ein.
+### Projektmanagement einrichten
 #### [Projekte einrichten](projects-setup-projects.md)
 #### [Ressourcen einrichten](projects-how-setup-resources.md)
 #### [Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md)
@@ -165,7 +165,7 @@
 ### Anlagen einrichten
 #### [Anlagen einrichten](fa-setup.md)
 #### [Allgemeine Anlagen-Informationen einrichten](fa-how-setup-general.md)
-#### [Richten Sie eine neue Anlagenkarte ein.](fa-how-setup-depreciation.md)
+#### [Richten Sie eine neue Anlagenkarte ein](fa-how-setup-depreciation.md)
 #### [Definiert eine Abschreibungsmethode](fa-depreciation-methods.md)
 #### [Um Anlagenversicherung einzurichten:](fa-how-setup-insurance.md)
 #### [Um Anlagenwartung einzurichten:](fa-how-setup-maintenance.md)
@@ -208,7 +208,7 @@
 #### [Lösungsanleitung Einrichtung](service-how-setup-troubleshooting.md)
 #### [Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)
 #### [Einrichten von Preisen und zusätzlichen Kosten für Services](service-how-setup-service-costs-pricing.md)
-#### [Richten Sie Serviceartikel und Serviceartikelkomponenten ein.](service-how-setup-service-items.md)
+#### [Richten Sie Serviceartikel und Serviceartikelkomponenten ein](service-how-setup-service-items.md)
 #### [Einrichten von Arbeits- und Servicezeiten](service-how-setup-work-service-hours.md)
 #### [Einrichten von Status für Serviceaufträge und Reparaturen](service-order-repair-status.md)
 #### [Einrichten eines Leihgeräteprogramms](service-how-setup-loaner-program.md)
@@ -229,10 +229,10 @@
 ##### [So bereiten Sie ein Konfigurationspaket vofr](admin-how-to-prepare-a-configuration-package.md)
 #### Anwenden von Konfigurationen auf neue Mandanten
 ##### [Konfigurationen für neue Unternehmen übernehmen](admin-apply-configuration-to-new-companies.md)
-##### [Erstellen eines neuen Mandanten.](admin-how-to-create-a-new-company.md)
-##### [So konfigurieren Sie einen neuen Mandanten.](admin-how-to-configure-new-companies.md)
+##### [Erstellen eines neuen Mandanten](admin-how-to-create-a-new-company.md)
+##### [So konfigurieren Sie einen neuen Mandanten](admin-how-to-configure-new-companies.md)
 ##### [So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [So kopieren Sie Daten in neue Mandanten.](admin-how-to-copy-data-to-new-companies.md)
+##### [So kopieren Sie Daten in neue Mandanten](admin-how-to-copy-data-to-new-companies.md)
 ##### [So erstellen Sie Buch.-Blatt-Eröffnungssalden](admin-how-to-create-journal-opening-balances.md)
 #### [Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)
 #### [Migration von Debitorendaten mit Vorlagen vorbereiten](admin-use-templates-to-prepare-customer-data-for-migration.md)
@@ -429,7 +429,7 @@
 ##### [Einrichten des Bankauszugservice](bank-how-setup-bank-statement-service.md)
 ##### [Bankkonten einrichten](bank-how-setup-bank-accounts.md)
 ##### [Verwenden von XML-Schemas, um Datenaustauschdefinitionen vorzubereiten](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Richten Sie Datenaustauschdefinitionen ein.](across-how-to-set-up-data-exchange-definitions.md)
+##### [Richten Sie Datenaustauschdefinitionen ein](across-how-to-set-up-data-exchange-definitions.md)
 #### Austausch von Daten
 ##### [Daten austauschen](across-exchange-data.md)
 ##### [Elektronische Belege senden](sales-how-to-send-electronic-documents.md)
@@ -450,7 +450,7 @@
 #### Zahlungen automatisch vornehmen und Bankkonten abstimmen
 ##### [Zahlungsausgleich – Übersicht](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md)
-##### [Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung.](receivables-how-review-apply-payments-auto-application.md)
+##### [Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung](receivables-how-review-apply-payments-auto-application.md)
 ##### [Zahlungen abstimmen, die nicht automatisch ausgeglichen werden können](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Zuordnen von Text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 ##### [Einrichten von Regeln für die automatische Anwendung von Zahlungen](receivables-how-set-up-payment-application-rules.md)
@@ -476,7 +476,7 @@
 #### Zahlungen automatisch vornehmen und Bankkonten abstimmen
 ##### [Ausgleich von Zahlungen – Übersicht](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Zahlungen mit automatischem Ausgleich abstimmen](receivables-how-reconcile-payments-auto-application.md)
-##### [Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung.](receivables-how-review-apply-payments-auto-application.md)
+##### [Zahlungen manuell zuordnen oder überprüfen nach der automatischen Zuordnung](receivables-how-review-apply-payments-auto-application.md)
 ##### [Zahlungen abstimmen, die nicht automatisch ausgeglichen werden können](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Zuordnen von Text auf sich wiederholenden Zahlungen an Konten für automatische Abstimmung](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Abstimmen von Kreditorenzahlungen mit dem Zahlungsjournal oder aus Kreditorenposten](payables-how-apply-purchase-transactions-manually.md)
@@ -583,7 +583,7 @@
 ### [Vertrieb – Übersicht](sales-manage-sales.md)
 ### [Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne](walkthrough-conducting-a-sales-campaign.md)
 ### [Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
-### [Registriert einen neuen Debitor.](sales-how-register-new-customers.md)
+### [Registriert einen neuen Debitor](sales-how-register-new-customers.md)
 ### [Verkaufsangebote machen](sales-how-make-offers.md)
 ### [Fakturieren eines Verkaufs](sales-how-invoice-sales.md)
 ### [Produkte verkaufen](sales-how-sell-products.md)
@@ -652,11 +652,11 @@
 ### [Erworbene Anlagen](fa-how-acquire.md)
 ### [Anlagen verwalten](fa-how-maintain.md)
 ### [Versichern von Anlagen](fa-how-insure.md)
-### [Übertragen, Teilen oder Kombinieren von Anlagen.](fa-how-trans-split-combine.md)
+### [Übertragen, Teilen oder Kombinieren von Anlagen](fa-how-trans-split-combine.md)
 ### [Anlagen neu bewerten](fa-how-revalue.md)
 ### [Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md)
 ### [Anlagen entsorgen oder außer Dienst stellen](fa-how-dispose-retire.md)
-### [Budgets für Anlagen verwalten.](fa-how-manage-budgets.md)
+### [Budgets für Anlagen verwalten](fa-how-manage-budgets.md)
 
 ## Marketing & Vertrieb
 ### [Marketing und Vertrieb – Übersicht](marketing-relationship-management.md)
@@ -691,7 +691,7 @@
 ## Personalwesen
 ### [PW-Übersicht](hr-manage-human-resources.md)
 ### [Erfassen eines Mitarbeiters](hr-how-register-employees.md)
-### [Analysiert die Fehlzeiten der Mitarbeiter.](hr-how-manage-absence.md)
+### [Analysiert die Fehlzeiten der Mitarbeiter](hr-how-manage-absence.md)
 
 ## Planung
 ### [Fertigungsplanung](production-planning.md)
@@ -704,7 +704,7 @@
 ### [Planung der Bestellung eines neuen Bedarfs von Auftrag](production-how-to-plan-for-new-demand.md)
 ### [Führen Sie eine vollständige Planung, Prod.-Programmplanung oder Nettobedarf aus](production-how-to-run-mps-and-mrp.md)
 ### [Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen](production-how-to-replan-refresh-production-orders.md)
-### [Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat.](production-how-track-demand-supply.md)
+### [Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat](production-how-track-demand-supply.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Montageverwaltung
@@ -725,8 +725,8 @@
 ### [Info zu Fertigungsaufträgen](production-about-production-orders.md)
 ### [Fertigungsauftrag erstellen](production-how-to-create-production-orders.md)
 ### [Fertigung durch Fremdarbeitsvertrag](production-how-to-subcontract-manufacturing.md)
-### [Verbrauch und Ausgabe für den freigegebenen Fertigungsauftrag buchen.](production-how-to-register-consumption-and-output.md)
-### [Buchen Sie den Verbrauch über Stapelverarbeitung.](production-how-to-post-consumption.md)
+### [Verbrauch und Ausgabe für den freigegebenen Fertigungsauftrag buchen](production-how-to-register-consumption-and-output.md)
+### [Buchen Sie den Verbrauch über Stapelverarbeitung](production-how-to-post-consumption.md)
 ### [Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen](production-how-to-post-output-quantity.md)
 ### [Gebuchte fertig gestellte Menge stornieren](production-how-to-reverse-output-posting.md)
 ### [Buchen Sie Ausschuss](production-how-to-post-scrap.md)
@@ -790,7 +790,7 @@
 #### [Service bereitstellen](service-deliver-service.md)
 #### [So erstellen Sie Serviceangebote](service-how-to-create-service-quotes.md)
 #### [Erstellen von Serviceaufträgen](service-how-to-create-service-orders.md)
-#### [Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.](service-how-create-invoices.md)
+#### [Erstellen Sie eine Servicerechnung oder eine Servicegutschrift](service-how-create-invoices.md)
 #### [Ressourcen zuordnen](service-how-to-allocate-resources.md)
 #### [Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)
 #### [Servicebuchung](service-service-posting.md)
@@ -1021,10 +1021,10 @@
 ### Deutschland
 #### [Lokale Funktionen in der deutschen Version](LocalFunctionality/Germany/germany-local-functionality.md)
 #### MwSt.
-##### [Richten Sie Berichte für MwSt ein.](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
-##### [Richten Sie die MwSt.-Berichte ein.](LocalFunctionality/Germany/how-to-set-up-vat-reports.md)
+##### [Richten Sie Berichte für MwSt ein](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
+##### [Richten Sie die MwSt.-Berichte ein](LocalFunctionality/Germany/how-to-set-up-vat-reports.md)
 ##### [MwSt.-Abrechnung](LocalFunctionality/Germany/vat-reporting.md)
-##### [Erstellen von MwsT-Berichten.](LocalFunctionality/Germany/how-to-create-vat-reports.md)
+##### [Erstellen von MwSt.-Berichten](LocalFunctionality/Germany/how-to-create-vat-reports.md)
 ##### [Zu korrigierender MwSt.-Bericht](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
 ##### [Umsatzsteuervoranmeldungen](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
 ##### [MwSt-VIES-Steuer angeben](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
@@ -1594,7 +1594,7 @@
 ### [Überprüfen von Seiten](across-inspect-page.md)
 ### [Anzeigen von Datenbank-Sperren](admin-view-database-locks.md)
 ### [Tabelleninformationen anzeigen](admin-view-table-information.md)
-### [Erstellen Sie eine Sandkastenumgebung.](across-how-create-sandbox-environment.md)
+### [Erstellen Sie eine Sandkastenumgebung](across-how-create-sandbox-environment.md)
 ### [Neue Funktionen im Voraus aktivieren](admin-feature-management.md)
 ## Business Central anpassen
 ### [Anpassung – Übersicht](ui-customizing-overview.md)
