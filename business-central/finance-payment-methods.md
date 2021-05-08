@@ -45,7 +45,7 @@ Fügen Sie Ihren Zahlungsbedingungen optional Ihre Zahlungsform hinzu. Weitere I
 
 ## <a name="see-also"></a>Siehe auch
 
-[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)  
+[Registriert einen neuen Debitor](sales-how-register-new-customers.md)  
 [Zahlungsbedingungen einrichten](finance-payment-terms.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

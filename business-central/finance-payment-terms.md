@@ -43,7 +43,7 @@ Weisen Sie die Zahlungsbedingungen den Debitoren und Kreditoren zu, nachdem Sie 
 [Einrichten von Zahlungsformen](finance-payment-methods.md)  
 [Vorauszahlungen einrichten](finance-set-up-prepayments.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
-[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)  
+[Registriert einen neuen Debitor](sales-how-register-new-customers.md)  
 [Registriert einen neuen Kreditor](purchasing-how-register-new-vendors.md)  
 [Verkauf](sales-manage-sales.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

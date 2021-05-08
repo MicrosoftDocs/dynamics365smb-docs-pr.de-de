@@ -21,7 +21,7 @@ ms.locfileid: "5777898"
 
 Der vorrangige Zweck der Kostenregulierung besteht darin, Kostenänderungen von Kostenquellen zu Kostenempfängern weiterzuleiten, abhängig von der Kostenbewertungsmethode eines Artikels, um eine korrekte Lagerbewertung zu gewährleisten.  
 
-Ein Artikel kann für den Verkauf fakturiert werden, bevor er für den Einkauf fakturiert wurde, so dass der aufgezeichnete Bestandswert des Verkaufs nicht den tatsächlichen Einkaufskosten entspricht. Die Kostenregulierung aktualisiert die Kosten der verkauften Waren (COGS) für historische Verkaufsposten, um sicherzustellen, dass diese den Kosten der eingehenden Transaktionen entsprechen, auf die sie angewendet werden. [Weitere Informationen finden Sie unter "Designdetails: Artikelverfolgung".](design-details-item-application.md)  
+Ein Artikel kann für den Verkauf fakturiert werden, bevor er für den Einkauf fakturiert wurde, so dass der aufgezeichnete Bestandswert des Verkaufs nicht den tatsächlichen Einkaufskosten entspricht. Die Kostenregulierung aktualisiert die Kosten der verkauften Waren (COGS) für historische Verkaufsposten, um sicherzustellen, dass diese den Kosten der eingehenden Transaktionen entsprechen, auf die sie angewendet werden. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgung](design-details-item-application.md).  
 
 Die folgenden sind sekundäre Zwecke oder Funktionen der Kostenregulierung.  
 

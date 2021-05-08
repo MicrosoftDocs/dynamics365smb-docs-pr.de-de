@@ -37,7 +37,7 @@ Die drei Optionen zum Sperren von Debitoren werden in den folgenden Tabelle besc
 3. Wählen Sie im Feld **Gesperrt** aus, was gesperrt werden soll, wie in der obigen Tabelle beschrieben.
 
 ## <a name="see-also"></a>Siehe auch  
-[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)  
+[Registriert einen neuen Debitor](sales-how-register-new-customers.md)  
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 

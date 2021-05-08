@@ -36,7 +36,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Aufgabe | Siehe |
 | --- | --- |
 | Richten Sie Standardsachkonten, Verteilungsschlüssel, Buch.-Blattvorlagen und - namen für Anlagebuchungen ein und erstellen feste Anlageklassen und Unterklassen, wie beispielsweise materielle und immaterielle. |[Allgemeine Anlagen-Informationen einrichten](fa-how-setup-general.md) |
-| Erstellen Sie AfA-Bücher, definieren verschiedene AfA-Methoden, integrieren in die Finanzbuchhaltung und aktiveren das Kopieren der Posten in mehrere AfA-Bücher. |[Richten Sie eine neue Anlagenkarte ein.](fa-how-setup-depreciation.md) |
+| Erstellen Sie AfA-Bücher, definieren verschiedene AfA-Methoden, integrieren in die Finanzbuchhaltung und aktiveren das Kopieren der Posten in mehrere AfA-Bücher. |[Richten Sie eine neue Anlagenkarte ein](fa-how-setup-depreciation.md) |
 | Aktivieren Sie Versicherungen von Anlagen, richten allgemeine Versicherungsinformationen und eine Versicherungskarte pro Versicherung ein und bereiten Buch.-Blätter vor, um Versicherungskosten zu buchen. |[Um Anlagenversicherung einzurichten:](fa-how-setup-insurance.md) |
 | Aktivieren Sie die Wartung von Anlagen, richten allgemeine Wartungsinformationen und Wartungs-Buchungskonten ein, und definieren Sie Arten von Wartungsarbeiten. |[Um Anlagenwartung einzurichten:](fa-how-setup-maintenance.md) |
 | Informieren Sie sich über verschiedene Anlagen-AfA-Methoden. |[Abschreibungsmethoden](fa-depreciation-methods.md) |

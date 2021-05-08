@@ -43,7 +43,7 @@ Wenn Sie Lagerartikel einrichten, müssen Sie eine Kalkulationsmethode zuweisen.
 * Standard
 * Ausgewählt
 
-Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden".](design-details-costing-methods.md)
+Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden](design-details-costing-methods.md).
 
 ## <a name="using-assembly-orders-to-change-costing-method-assignments"></a>Verwenden von Montageaufträgen zum Ändern der Zuordnung von Lagerabgangsmethoden
 

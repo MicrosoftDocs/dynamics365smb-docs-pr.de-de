@@ -38,7 +38,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 [Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)  
 [Bereitstellen von Service](service-deliver-service.md)  
 [Einrichten von Preisen und zusätzlichen Kosten für Services](service-how-setup-service-costs-pricing.md)  
-[Richten Sie Serviceartikel und Serviceartikelkomponenten ein.](service-how-setup-service-items.md)  
+[Richten Sie Serviceartikel und Serviceartikelkomponenten ein](service-how-setup-service-items.md)  
 [Einrichten von Status für Serviceaufträge und Reparaturen](service-order-repair-status.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 

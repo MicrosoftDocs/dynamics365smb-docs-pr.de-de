@@ -58,7 +58,7 @@ Wenn Sie Arbeitszeittabellen eingerichtet haben, können Sie Arbeitszeittabellen
 >   Sie können die ID des Arbeitszeittabellengenehmigers nicht ändern, wenn Arbeitszeittabellen vorhanden sind, die noch nicht verarbeitet wurden und die den Status **Übermittelt** oder **Offen** haben.
 
 ## <a name="see-also"></a>Siehe auch
-[Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)  
+[Projektmanagement einrichten](projects-setup-projects.md)  
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)         

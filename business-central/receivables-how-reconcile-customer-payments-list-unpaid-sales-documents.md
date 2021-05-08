@@ -177,7 +177,7 @@ Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[prod_short](i
 2. Wählen Sie die Aktion **Fibu Buch.-Blatt** aus.  
 
     Die Seite **Fibu Buch.-Blatt** wird mit einer Zeile geöffnet, die das Saldokonto des Buch.-Blatts enthält, das auf der Seite **Zahlungserfassungs-Einrichtung** festgelegt ist.  
-3. Füllen Sie die restlichen Felder in der Fibu Buch.-Blattzeile aus, wie den Betrag und die Debitorennummer oder andere Informationen des Kontoauszuges. Weitere Informationen finden Sie unter [Transaktionen direkt in der Finanzbuchhaltung buchen.](finance-how-post-transactions-directly.md).  
+3. Füllen Sie die restlichen Felder in der Fibu Buch.-Blattzeile aus, wie den Betrag und die Debitorennummer oder andere Informationen des Kontoauszuges. Weitere Informationen finden Sie unter [Transaktionen direkt in der Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md).  
 
 Sie können entweder die Buch.-Blattzeile buchen, um die Summe in dem Gegenkonto zu aktualisieren. Alternativ können Sie die Buch.-Blattzeile ungebucht lassen und fügen ggf. mit einer Notiz an, dass die Zahlung mehr Analyse benötigt.  
 

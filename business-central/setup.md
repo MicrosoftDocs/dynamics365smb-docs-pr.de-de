@@ -38,7 +38,7 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 | Konfigurieren der Regeln und Werte, durch die die Einkaufsrichtlinien des Unternehmens definiert werden, erfassen von neuen Kreditoren und Priorisieren von Kreditoren für Zahlungsverarbeitungen. |[Einkaufeinrichten](purchasing-setup-purchasing.md) |
 | Konfigurieren der Regeln und Werte, die die Unternehmensrichtlinien für Lager definieren, Standorte einrichten, wenn Sie Ihren Lagerbestand in mehreren Lager führen und Ihre Artikel kategorisieren, um die Suche und das Sortieren zu verbessern. |[Bestand einrichten](inventory-setup-inventory.md) |
 |Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen.|[Berichtsauswahl in Business Central](across-report-selections.md)|
-| Ressourcen, Arbeitszeittabellen und Aufgaben einrichten, um Projekte zu verwalten. |[Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md) |
+| Ressourcen, Arbeitszeittabellen und Aufgaben einrichten, um Projekte zu verwalten. |[Projektmanagement einrichten](projects-setup-projects.md) |
 | Konfiguriert, wie Anlagen versichert, verwaltet und abgeschrieben werden und wie Sie die Kosten aus Anlagen in Ihren Mandantenbüchern erfassen. |[Anlagen einrichten](fa-setup.md) |
 |Definieren Sie die allgemeinen Regeln und Werte für Lagerprozesse und die spezifische Bearbeitung an jedem Lagerort.|[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)|
 |Bereiten Sie Fertigungsstücklisten und Arbeitspläne vor, um zu definieren, wie Endartikel produkziert werden und bereiten Sie Arbeitsplätze oder Arbeitsplatzgruppen vor, um die notwendigen Arbeitsgänge auszuführen.|[Produktion einrichten](production-configure-production-processes.md)|

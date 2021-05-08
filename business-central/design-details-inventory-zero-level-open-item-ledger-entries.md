@@ -37,7 +37,7 @@ Der Artikel beginnt, indem die typischen Symptomen des Problems aufgeführt werd
      |334|01 28 2018|Verkauf|Verkaufslieferung|102043|TEST|BLAU|1|10|1|1|Ja|  
 
 ## <a name="basics-of-item-application"></a>Vorgaben des Artikelausgleichs  
- Es wird ein Artikelausgleichsposten für jede Lagertransaktion erstellt, um den Empfänger mit Kosten auf seine Herkunftsbelege mit Kosten zu verknüpfen, sodass die Kosten gemäß der Lagerabgangsmethode weitergeleitet werden können. [Weitere Informationen finden Sie unter "Designdetails: Artikelverfolgung".](design-details-item-application.md)  
+ Es wird ein Artikelausgleichsposten für jede Lagertransaktion erstellt, um den Empfänger mit Kosten auf seine Herkunftsbelege mit Kosten zu verknüpfen, sodass die Kosten gemäß der Lagerabgangsmethode weitergeleitet werden können. Weitere Informationen finden Sie unter [Designdetails: Artikelverfolgung](design-details-item-application.md).  
 
 -   Für einen eingehenden Artikelposten wird der Artikelausgleichsposten erstellt, wenn der Artikelposten erstellt wurde.  
 

@@ -25,7 +25,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |**Aufgabe**|**Siehe**|  
 |------------|-------------|  
 |Dient zum Eingeben von Informationen zu Serviceartikeln, die von der Serviceorganisation nachverfolgt werden.|[Serviceartikel erstellen](service-how-to-create-service-items.md)|  
-|Dient zum Einrichten eines Serviceworkflows, wenn die Serviceartikel aus mehreren Komponenten bestehen. Die Komponentenliste ist immer mit einem Serviceartikel verbunden, doch diese Komponenten können auch auf Stücklisten basieren.|[Richten Sie Serviceartikel und Serviceartikelkomponenten ein.](service-how-setup-service-items.md)|  
+|Dient zum Einrichten eines Serviceworkflows, wenn die Serviceartikel aus mehreren Komponenten bestehen. Die Komponentenliste ist immer mit einem Serviceartikel verbunden, doch diese Komponenten können auch auf Stücklisten basieren.|[Richten Sie Serviceartikel und Serviceartikelkomponenten ein](service-how-setup-service-items.md)|  
   
 ## <a name="see-also"></a>Siehe auch  
 [Einrichten der Serviceverwaltung](service-setup-service.md)   

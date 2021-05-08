@@ -39,7 +39,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Planen der Servicebereitstellung mithilfe der **Einsatzplanung**. Zur Unterstützung der Planung können auch Projektmanagementtools in der Projektabteilung verwendet werden.|[Ressourcen zuordnen](service-how-to-allocate-resources.md)|  
 |Dient zum Bereitstellen von Serviceaufgaben für Debitoren|[Mit Serviceaufgaben arbeiten](service-how-to-work-on-service-tasks.md)|  
 |Buchen von Serviceaufträgen vor der Servicebereitstellung, damit die Buchhaltung auf dem neuesten Stand ist.|[Buchen von Serviceaufträgen und Gutschriften](service-how-to-post-service-orders.md)|  
-|Erstellen und buchen Sie Rechnungen für Services, die Sie geliefert haben.|[Erstellen Sie eine Servicerechnung oder eine Servicegutschrift.](service-how-create-invoices.md)|  
+|Erstellen und buchen Sie Rechnungen für Services, die Sie geliefert haben.|[Erstellen Sie eine Servicerechnung oder eine Servicegutschrift](service-how-create-invoices.md)|  
 |Debitoren zufriedenstellen, indem Sie ihnen ein Artikel verleihen, während Sie an ihren arbeiten.| [Leihen und Zurücknehmen von Leihgeräten](service-how-to-lend-receive-loaners.md)|
   
 ## <a name="see-also"></a>Siehe auch  

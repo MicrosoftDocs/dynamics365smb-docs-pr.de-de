@@ -75,7 +75,7 @@ Zusätzlich zu den Kosten, die in der Ressourcenkarte angegeben werden, können 
 4. Wiederholen Sie Schritt 3 für jeden alternativen Ressourcenpreis, den Sie einrichten möchten.
 
 ## <a name="see-also"></a>Siehe auch
-[Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)  
+[Projektmanagement einrichten](projects-setup-projects.md)  
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)         

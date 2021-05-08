@@ -450,7 +450,7 @@ In den folgenden Verfahren wird gezeigt, wie Sie ein neues Projekt erstellen, di
 ## <a name="see-also"></a>Siehe auch
 
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)   
- [Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)   
+ [Projektmanagement einrichten](projects-setup-projects.md)   
  [Ressourceneinsatz](projects-how-use-resources.md)   
  [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)   
  [Fakturieren von Projekten](projects-how-invoice-jobs.md)  

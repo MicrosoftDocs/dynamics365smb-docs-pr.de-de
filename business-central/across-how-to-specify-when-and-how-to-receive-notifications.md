@@ -23,7 +23,7 @@ Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie auf den Seite
 > [!NOTE]
 > Benachrichtigungen werden gemäß den Benachrichtigungseinstellungen des Empfängers und nicht des Absenders zugestellt. Dies ist eine wichtige Unterscheidung, da sie bedeutet, dass wenn jemand eine Genehmigung als Teil eines Workflows anfordert, ihre Genehmigung nicht notwendigerweise sofort gesendet wird. Stattdessen wird es gemäß den Benachrichtigungseinstellungen der genehmigenden Person geliefert. 
 
- Bevor Sie Benachrichtigungseinstellungen für einen Genehmigungsbenutzer einrichten können, müssen Sie den Benutzer als Genehmigungsbenutzer einrichten. Weitere Informationen finden Sie unter [Einrichten von Genehmigungsbenutzern.](across-how-to-set-up-approval-users.md)  
+ Bevor Sie Benachrichtigungseinstellungen für einen Genehmigungsbenutzer einrichten können, müssen Sie den Benutzer als Genehmigungsbenutzer einrichten. Weitere Informationen finden Sie unter [Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md).  
 
  «»Sie können das Layout von E-Mail-Benachrichtigungen festlegen, indem Sie Bericht 1320, Benachrichtigungs-E-Mail anpassen. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md).  
 

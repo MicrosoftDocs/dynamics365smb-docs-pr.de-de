@@ -36,7 +36,7 @@ Wenn aus dem Lager Artikel an Debitoren geliefert werden, enthalten die Lagerpl�
     > -   Das Kontrollkästchen **Kommissionierung erforderlich** muss auf der Lagerortkarte aktiviert sein.  
     > -   Die Felder **Von Zone** und **Von Lagerplatz** sind leer.  
 
-    Weitere Informationen finden Sie unter [Korrigieren der FEFO..](warehouse-picking-by-fefo.md)  
+    Weitere Informationen finden Sie unter [Korrigieren der FEFO](warehouse-picking-by-fefo.md).  
 
 3.  Sehen Sie sich die Zeilen an und ändern Sie sie – falls notwendig – oder löschen Sie einige von ihnen, wenn Sie nicht genug Zeit haben, alle auszuführen.  
 4.  Wählen Sie die Aktion **Lagerplatzumlagerung erstellen** aus, um eine Anweisung zu erstellen, die die Lagermitarbeiter ausführen sollen.  

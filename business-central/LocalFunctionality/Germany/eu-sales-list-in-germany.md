@@ -24,9 +24,9 @@ Um die Sicherheit zu erhöhen, müssen alle Arten von Steuern und Steuererkläru
 
 ## <a name="see-also"></a>Siehe auch  
 [BZSt-Onlineportal](https://www.bzst.de)   
-[Erstellen von MwsT-Berichten.](how-to-create-vat-reports.md)  
+[Erstellen von MwsT-Berichten](how-to-create-vat-reports.md)  
 [Richten Sie die MwSt.-Berichte ein](how-to-set-up-vat-reports.md)  
-[Erstellen von MwSt-Berichten.](how-to-create-vat-reports.md)  
+[Erstellen von MwSt-Berichten](how-to-create-vat-reports.md)  
 [Zu korrigierender MwSt.-Bericht](how-to-correct-vat-reports.md)  
 [MwSt-VIES-Steuer angeben](how-to-declare-vat-vies-tax.md)  
 

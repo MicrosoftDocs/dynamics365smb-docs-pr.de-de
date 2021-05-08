@@ -31,7 +31,7 @@ Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben vo
 |------------|-------------|  
 |Richten Sie einen Workflow ein, der gestartet wird, wenn das erste Einstiegspunktereignis auftritt.|[Aktivieren von Workflows](across-how-to-enable-workflows.md)|  
 |Anforderung der Genehmigung einer Aufgabe, Akzeptieren oder Delegieren von Genehmigungen oder Ablehnen von Genehmigungen, und Senden oder Anzeigen von Genehmigungsbenachrichtigungen.|[Artikelgenehmigungsworkflow verwenden](across-how-use-approval-workflows.md)|  
-|Erstellen Sie Workflowschritte, die einen bestimmten Datensatztyp für die Verwendung vor einem bestimmten Ereignis einschränken (beispielsweise, bevor der Datensatz genehmigt wird).|[ Zulassen und Einschränken des Verbrauchs eines Datensatzes.](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
+|Erstellen Sie Workflowschritte, die einen bestimmten Datensatztyp für die Verwendung vor einem bestimmten Ereignis einschränken (beispielsweise, bevor der Datensatz genehmigt wird).|[Zulassen und Einschränken des Verbrauchs eines Datensatzes](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
 |Zeigen Sie Workflowschrittinstanzen mit dem Status „Abgeschlossen“ an.|[Anzeigen von archivierten Workflowschritt-Instanzen](across-how-to-view-archived-workflow-step-instances.md)|  
 |Löschen Sie einen Workflow, den Sie mit Gewissheit nicht mehr verwenden werden.|[Löschen eines Workflows](across-how-to-delete-workflows.md)|  
 

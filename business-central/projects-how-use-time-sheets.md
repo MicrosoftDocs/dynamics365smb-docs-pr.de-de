@@ -170,7 +170,7 @@ Nachdem Sie Arbeitszeittabellen gebucht haben, können Sie diese für spätere B
 
 ## <a name="see-also"></a>Siehe auch
 [Projektmanagement](projects-manage-projects.md)  
-[Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)    
+[Projektmanagement einrichten](projects-setup-projects.md)    
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)         
 [Verkauf](sales-manage-sales.md)     

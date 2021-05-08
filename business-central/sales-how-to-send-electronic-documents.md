@@ -58,7 +58,7 @@ Die allgemeine Version von [!INCLUDE[prod_short](includes/prod_short.md)] unters
 [Belegsendeprofile einrichten](sales-how-setup-document-send-profiles.md)  
 [Einrichten des Senden und Empfangen von elektronischen Belegen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [So richten Sie einen Belegaustauschdienst ein](across-how-to-set-up-a-document-exchange-service.md)  
-[Richten Sie Datenaustauschdefinitionen ein.](across-how-to-set-up-data-exchange-definitions.md)  
+[Richten Sie Datenaustauschdefinitionen ein](across-how-to-set-up-data-exchange-definitions.md)  
 [Daten elektronisch austauschen](across-data-exchange.md)  
 [Elektronische Rechnungsstellung FAQ](faq-electronic-invoicing.yml)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  

@@ -40,7 +40,7 @@ Projektmanagement ist allein ist schon kompliziert genug, und zu Lernen, wie Pro
 
 ## <a name="see-also"></a>Siehe auch
 
-[Richten Sie Ihr Projektmanagement ein.](projects-setup-projects.md)  
+[Projektmanagement einrichten](projects-setup-projects.md)  
 [Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Funktionen, die angezeigt werden ändern](ui-experiences.md)  
 [Einkauf](purchasing-manage-purchasing.md)  

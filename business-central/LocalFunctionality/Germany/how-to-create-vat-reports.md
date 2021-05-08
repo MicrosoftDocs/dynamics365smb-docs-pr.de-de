@@ -71,7 +71,7 @@ Nachdem Sie die MwSt.-Erklärung erstellt haben, müssen Sie sie an die Steuerbe
 
 ## <a name="see-also"></a>Siehe auch  
  [Zu korrigierender MwSt.-Bericht](how-to-correct-vat-reports.md)   
- [Richten Sie die MwSt.-Berichte ein.](how-to-set-up-vat-reports.md)
+ [Richten Sie die MwSt.-Berichte ein](how-to-set-up-vat-reports.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

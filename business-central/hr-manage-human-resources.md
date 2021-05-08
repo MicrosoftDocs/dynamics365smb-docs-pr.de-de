@@ -31,7 +31,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 | Aktion | Siehe |
 | --- | --- |
 | Erfassen Sie neue Mitarbeiter oder bearbeiten Sie Datensätze für vorhandene Mitarbeiter, und fügen Sie zugehörige Informationen hinzu, wie Verträge und Artikel. |[Erfassen eines Mitarbeiters](hr-how-register-employees.md) |
-| Erfassen Sie die Abwesenheit von Mitarbeitern und zeigen Sie die Abwesenheitsstatistik anhand verschiedener Filter an. |[Analysiert die Fehlzeiten der Mitarbeiter.](hr-how-manage-absence.md) |
+| Erfassen Sie die Abwesenheit von Mitarbeitern und zeigen Sie die Abwesenheitsstatistik anhand verschiedener Filter an. |[Analysiert die Fehlzeiten der Mitarbeiter](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Finanzen](finance.md)  

@@ -37,7 +37,7 @@ Sie können die folgenden Komponenten verwenden, um die Einrichtung eines neuen 
 
 |**Prozess**|**Siehe**|  
 |------------|-------------|  
-|Erstellen Sie einen neuen Mandanten, und importieren Sie grundlegende Einrichtungsdaten und Vorlagen.|[Richten Sie eine Unternehmenskonfiguration ein.](admin-set-up-company-configuration.md)|  
+|Erstellen Sie einen neuen Mandanten, und importieren Sie grundlegende Einrichtungsdaten und Vorlagen.|[Richten Sie eine Unternehmenskonfiguration ein](admin-set-up-company-configuration.md)|  
 |Stellen Sie das konfigurierte Paket für Ihren Kunden für Implementierung bereit.|[Übernehmen von Konfiguration in neue Mandanten](admin-apply-configuration-to-new-companies.md)|
 |Definieren und prüfen Sie die Einrichtung Ihres Kunden für alle Kernbereiche, z. B. Firmendaten, Finanzbuchhaltung, Lagerbestand, Verkauf oder Fertigung.|[Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)|  
 |Konfigurieren Sie Kern-Stammdatendatensätze, die auf Vorlagen basieren, um die Migrierung vorhandener Debitorendaten vorzubereiten.|[Vorgehensweise: Migrieren von Debitorendaten](admin-use-templates-to-prepare-customer-data-for-migration.md)|  

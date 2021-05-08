@@ -23,7 +23,7 @@ Die **Lagerabgangsmethode** auf der Artikelkarte definiert, ob der Kostenfluss e
 
  Die richtige Lagerabgangsmethode entsprechend Art und betrieblichem Umfeld festzulegen, ist wichtig, um wirtschaftliche Bestände sicherzustellen.  
 
- Die folgende Tabelle enthält bewährte Methoden zum Einrichten des **Kostenmethode**-Felds. Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden".](design-details-costing-methods.md)  
+ Die folgende Tabelle enthält bewährte Methoden zum Einrichten des **Kostenmethode**-Felds. Weitere Informationen finden Sie unter [Designdetails: Lagerabgangsmethoden](design-details-costing-methods.md).  
 
 |Einrichtungsoptionen|Bewährte Vorgehensweisen|Bemerkung|  
 |------------------|-------------------|-------------|  
