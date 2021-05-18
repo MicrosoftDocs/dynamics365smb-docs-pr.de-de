@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e3b79d6245a0f1b8277c94faa58c24edc66662e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 772052fc88e0b8be7ec5276600b0c237e2d2f8b2
+ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777016"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025808"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Aktualisieren einer Integration mit Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] lässt sich mit der [!INCLUDE[prod_short](includes/cds_long_md.md)] integrieren, was die Verbindung und Synchronisierung von Daten mit anderen Dynamics 365-Anwendungen wie [!INCLUDE[crm_md](includes/crm_md.md)] oder sogar selbst erstellten Anwendungen erleichtert. Wenn Sie zum ersten Mal integrieren, empfehlen wir Ihnen, dies über [!INCLUDE[prod_short](includes/cds_long_md.md)] zu tun. Weitere Informationen finden Sie unter [Integration mit Dataverse](admin-common-data-service.md).
@@ -39,9 +39,12 @@ Wenn Sie bereits [!INCLUDE[crm_md](includes/crm_md.md)] mit [!INCLUDE[prod_short
 5. Wählen Sie **Integrationslösung neu bereitstellen**, um die aktualisierte Business Central Integration Solution neu zu installieren und zu konfigurieren.
 6. Wählen Sie auf der Seite **Sales-Verbindungseinrichtung** die Aktion **Standardsynchronisationseinrichtung verwenden**, um die Integrationstabellenzuordnungen für [!INCLUDE[crm_md](includes/crm_md.md)] zu initialisieren.
 
+   > [!IMPORTANT]
+   > Wenn Sie die Aktion **Standard-Synchronisation einrichten** verwenden, werden die Standard-Zuordnungen der Integrationstabellen übernommen. Alle angepassten Zuordnungen werden überschrieben. Wenn Sie angepasste Zuordnungen haben, die Sie behalten möchten, empfehlen wir Ihnen, diese nach Excel zu exportieren oder mit Ihrem Microsoft-Partner über andere Möglichkeiten zu sprechen, Ihre angepassten Zuordnungen zu behalten.    
+
 ## <a name="see-also"></a>Siehe auch
 [Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-[Integration in Microsoft Dataverse](admin-common-data-service.md)
+[Integrieren in Microsoft Dataverse](admin-common-data-service.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 418da0f0e30fb36345508f36e943b68c930e1ca7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ea949363506e9bc0d9bb3a1a4d53937501e8a5bb
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770913"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947388"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysieren von Daten nach Dimensionen
 Bei den Dimensionen der Finanzanalyse handelt es sich um Daten, die Sie einem Posten als eine Art Markierung hinzufügen können. Diese Daten dienen zum Gruppieren von Posten mit ähnlichen Merkmalen – beispielsweise Debitoren, Regionen, Produkte oder Verkäufer – sowie zum einfachen Abrufen dieser Gruppen zur Analyse. Dimensionen können für Posten in Buch.-Blättern, Belegen und Budgets verwendet werden. Der Begriff "Dimension" beschreibt, wie eine Analyse ausgeführt wird. Ein Beispiel für eine zweidimensionale Analyse sind Verkäufe pro Bereich. Durch die Verwendung zusätzlicher Dimensionen bei der Postenerstellung lassen sich komplexere Analysen ausführen, beispielsweise Verkäufe pro Verkaufskampagne pro Debitorengruppe pro Bereich. Weitere Informationen finden Sie unter [Arbeiten mit Dimensionen](finance-dimensions.md)
@@ -26,6 +26,9 @@ Die dimensionsgestützte Analyse von Daten ermöglicht einen tieferen Einblick i
 
 > [!TIP]
 > Als schnelle Möglichkeit, Transaktionsdaten nach Dimensionen zu analysieren, können Sie Summen im Kostenplan und Posten in allen **Posten**-Seiten nach Dimensionen filtern. Suchen Sie nach der Aktion **Dimensionsfilter festlegen**.
+
+> [!NOTE]
+> Wenn Sie feststellen, dass bei gebuchten Hauptbucheinträgen eine falsche Dimension verwendet wurde, können Sie die Dimensionswerte korrigieren und Ihre Analyseansichten aktualisieren. Weitere Informationen finden Sie unter [Fehlerbehebung und Korrektur von Dimensionen](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting)
 
 ## <a name="to-set-up-an-analysis-view"></a>So richten Sie eine Analyseansicht ein  
 Eine Analyse nach Dimensionen zeigt eine ausgewählte Kombination von Dimensionen an. Sie können jede Analyseansicht, die Sie eingerichtet haben, speichern und wieder aufrufen. Die Informationen zum Einrichten einer Analyse werden auf einer **Analyseansichtskarte** gespeichert, um künftige Analysen zu vereinfachen.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bde08ec0b6f970dc65023cfcc7ab3e4021d4d29f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784442"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017249"
 ---
 # <a name="process-sales-opportunities"></a>Verarbeiten von Verkaufschancen
 Nachdem Sie eine Verkaufschance erstellen haben, gibt es einige Funktionen für die Verwaltung der Verkaufschance und deren Abschluss.
@@ -44,7 +44,8 @@ Sie können Verkaufschancen abschließen, wenn die Verhandlungen abgeschlossen s
    Geben Sie im **Verkaufschancenabschlusscode**-Feld einen der vorhandenen Verkaufschancenabschlusscodes aus oder fügen Sie einen neuen Code hinzu. Um einen neuen Code hinzuzufügen, wählen Sie in der Dropdownliste **Aus vollständiger Liste auswählen** aus in wählen Sie dann **Neu**. Füllen Sie in der neuen leeren Zeile die Felder **Code**, **Art** und **Beschreibung** aus, und wählen Sie dann die **OK**-Schaltfläche.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Um Angebote für Verkaufschancen zu erstellen
-Sie können Verkaufsangebote für Kontakte erstellen, die nicht als Debitoren erfasst werden.
+> [!NOTE]
+> Sie können nur Verkaufsangebote aus Verkaufschancen erstellen, bei denen der Kontakttyp Firma ist.
 
 1. Auf der Seite **Verkaufschancenübersicht** wählen Sie die Verkaufschance und dann die **Verkaufsangebot zuweisen**-Aktion aus. Die Seite **Verkaufsangebot** wird geöffnet.
 2. Füllen Sie die entsprechenden Felder aus.

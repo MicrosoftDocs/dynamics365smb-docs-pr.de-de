@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 855f071f624c2a99bd9b637111b67d3a59e61350
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4b7da11bb8ec1198be9f1a86fccc29a62125d281
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781311"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935311"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)]-Apps in Power BI verwenden
 
@@ -171,7 +171,7 @@ Die Power BI App zeigt nur Daten vom [!INCLUDE[prod_short](includes/prod_short.m
 [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power Apps-Datenquelle](across-how-use-financials-data-source-powerapps.md)  
 [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

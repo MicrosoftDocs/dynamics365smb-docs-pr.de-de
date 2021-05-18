@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783772"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935286"
 ---
 # <a name="financial-reports-in-business-central"></a>Finanzberichte in Business Central
 
@@ -24,7 +24,6 @@ In der folgenden Tabelle werden einige der wichtigsten Berichte in der Finanzber
 
 |Bericht |Beschreibung  |
 |---------|---------|
-|**Lagerreg. fakt. Einst. Preise** | Reguliert Lagerwerte in Wertposten, sodass Sie für das Aktualisieren der Finanzbuchhaltung die richtigen regulierten Lagerwerte verwenden können und die Verkaufs- und Gewinnstatistiken auf dem neuesten Stand sind. Die Kostenregulierung leitet jede Kostenänderung aus eingehenden Posten (z. B. solche für Einkäufe oder für Fertigprodukte aus der Produktion) an die entsprechenden ausgehenden Posten (z. B. Verkäufe oder Umlagerungen) weiter.  |
 |**Rohbilanz**| Zeigt den Kontenplan mit Salden und Bewegungen. Sie können die Ansicht einer Rohbilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. |
 |**Rohbilanz nach Periode**  | Zeigt die Eröffnungsbilanz nach Sachkonto, die Bewegungen in der ausgewählten Monats-, Quartals- oder Jahresperiode und die resultierende Abschlussbilanz.         |
 |**Rohbilanz/Budget** | Zeigt eine Rohbilanz im Vergleich zu einem Budget. Sie können die Ansicht einer Rohbilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden.        |

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780057"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935336"
 ---
 # <a name="define-retention-policies"></a>Aufbewahrungsrichtlinien definieren
 Administratoren können Aufbewahrungsrichtlinien definieren, um festzulegen, wie häufig [!INCLUDE[prod_short](includes/prod_short.md)] veraltete Daten in Tabellen löschen soll, die Protokolleinträge und archivierte Datensätze enthalten. Das Bereinigen von Protokolleinträgen kann beispielsweise das Arbeiten mit tatsächlich relevanten Daten erleichtern. Richtlinien können alle Daten in den Tabellen beinhalten, die nach dem Ablaufdatum liegen, oder Sie können Filterkriterien hinzufügen, die nur bestimmte abgelaufene Daten in die Richtlinie aufnehmen. 
@@ -67,7 +67,7 @@ Wenn ein Entwickler eine Tabelle hinzufügt, kann er obligatorische Filter und S
 
 Im Folgenden finden Sie Beispiele zum Hinzufügen einer Tabelle zur Liste der zulässigen Tabellen mit und ohne obligatorische Filter oder Standardfilter. Ein komplexeres Beispiel finden Sie in der Codeunit 3999 „Aufb. -Richtl.  install. – Basis-App“. 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Im Folgenden finden Sie Beispiele zum Hinzufügen einer Tabelle zur Liste der zu
 
 Das folgende Beispiel enthält einen obligatorischen Filter.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,9 +98,12 @@ Das folgende Beispiel enthält einen obligatorischen Filter.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 Nachdem ein Entwickler der Liste Tabellen hinzugefügt hat, kann ein Administrator diese in eine Aufbewahrungsrichtlinie aufnehmen. 
 
 ## <a name="see-also"></a>Siehe auch
+
+[Analysieren der Trace-Telemetrie von Aufbewahrungsrichtlinien](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Protokollieren von Änderungen in Business Central](across-log-changes.md)  
 [Filterung](ui-enter-criteria-filters.md#filtering)  
 [Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung](admin-job-queues-schedule-tasks.md)  

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af13192ed4b5ca94d4a01ec913d3c94fd85e5fbc
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776147"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017149"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Häufig gestellte Fragen zur Verwendung von Business Central
 
@@ -136,8 +136,8 @@ Die ersten Releases von [!INCLUDE[prod_short](includes/prod_short.md)] lokal umf
 
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“](ui-search-faq.md)  
-[Suchen und Filtern FAQ](ui-search-filter-faq.md)  
-[FAQ zu Listenansichten](ui-views-faq.md)  
+[Suchen und Filtern FAQ](ui-search-filter-faq.yml)  
+[Listenansichten FAQ](ui-views-faq.yml)  
 [Sprache und Gebiet ändern](about-locale-language.md)  
 [Nutzen von [!INCLUDE[prod_short](includes/prod_short.md)] als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] ohne Outlook](admin-no-outlook.md)  

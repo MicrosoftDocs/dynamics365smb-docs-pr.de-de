@@ -1,0 +1,72 @@
+### YamlMime:FAQ
+metadata:
+  title: Informationen zum Suchen und Filtern in Business Central
+  description: Antworten auf häufig gestellte Fragen zu Suche und Filter.
+  author: mikebcMSFT
+  ms.service: dynamics365-business-central
+  ms.topic: conceptual
+  ms.reviewer: edupont04
+  ms.search.keywords: keyboarding, productivity, how do i, filter pane
+  ms.date: 04/01/2021
+  ms.author: mikebc
+  ms.openlocfilehash: 782afb4a5cc811f950226d5812558055772edcad
+  ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 05/11/2021
+  ms.locfileid: "6017307"
+title: Suchen und Filtern – FAQs
+summary: In diesem Artikel finden Sie Antworten auf allgemeine Fragen, die Sie möglicherweise über das Suchen und Filtern haben.
+sections:
+- name: Ignoriert
+  questions:
+  - question: >
+      Gibt es einen Unterschied zwischen Suchen und Filtern?
+    answer: >
+      Ja.
+
+      - Die Suche ist einfach und breit gefächert: sie enthält Datensätze, die den Suchtext im sichtbaren Bereich der Seite enthalten. Dabei wird die Groß-/Kleinschreibung beachtet.
+
+      - Filterung ist sehr flexibel und kann auf bestimmte Bereiche angewendet werden, einschließlich derjenigen, die nicht auf der Seite sichtbar sind: sie zeigt Datensätze mit genauen Treffern an, bei denen die Groß-/Kleinschreibung beachtet wird. Sie kann mit leistungsfähigen Suchsymbolen, -token und -formeln angepasst werden. Weitere Informationen zur Nutzung dieser Funktionen finden Sie unter [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md).
+  - question: >
+      Welche Felder stimmen bei der Suche genau überein?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] wendet die Suchkriterien auf alle Felder an, die auf der Seite sichtbar sind. Wenn ein Feld ausgeblendet wurde, z. B. durch Personalisierung, wird dieses Feld bei der Suche nicht berücksichtigt. Suchkriterien werden nur dann auf Felder angewendet, wenn ihr Datentyp mit dem der Suchkriterien übereinstimmt. Zum Beispiel nach dem Begriff *heute* suchen durchsucht alle Text- und Codefelder nach dem Literalwert heute sowie alle Datumsfelder, in denen *heute* als Ausdruck für das aktuelle Datum ausgewertet wird, sucht jedoch nicht in numerischen Feldern. Weitere Informationen zu Filterkriterien finden Sie unter [Sortieren, Suchen und Filtern von Listen](ui-enter-criteria-filters.md#-filter-criteria-and-operators).
+  - question: >
+      Gibt es Tastaturfunktionen für Suche und Filter?
+    answer: >
+      Suche und Filter wurden für Benutzer optimiert, die eine mausfreie Interaktion bevorzugen, um effizient mit ihren Daten zu arbeiten. Es gibt eine Reihe von Tastenkombinationen, die nacheinander verwendet werden können, um schnell zu arbeiten. Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
+  - question: >
+      Ist der Filterbereich in allen Listen verfügbar?
+    answer: >
+      Der Filterbereich ist in Bildschirmen verfügbar, in denen die Liste der primäre Inhalt der Seite ist, wie Arbeitsblätter und Listenseiten, einschließlich Listen, die von der Navigationsleiste erreichbar sind. Der Filterbereich ist noch nicht für Listen verfügbar, die als Teile angezeigt werden, z. B. FactBoxen oder Rollencenterteilen oder für Listen, die als Dialogfelder angezeigt werden, z. B. in Suchvorgängen. Wenn eine Liste auf einer Seite, wie Verkaufszeilen in einem Verkaufsauftrag eingebettet ist, ist der Filterbereich verfügbar, wenn man sich auf diese Liste mithilfe der Schaltfläche Fokusmodus fokussiert. Weitere Informationen finden Sie unter [Fokussieren auf Positionsartikel](ui-enter-data.md#Focus).
+  - question: >
+      Wie kann ich meine Filter speichern?
+    answer: >
+      Ihre Filter und Änderungen an vordefinierten Filtern werden während der Sitzung beibehalten (solange Sie angemeldet bleiben), selbst wenn Sie die Seite verlassen. Sie können Filter als benannte Ansicht der Liste dauerhaft speichern, indem Sie das Symbol ![Ansicht speichern](media/save_view_icon.png "Ansicht speichern") im Filterbereich wählen. Weitere Informationen finden Sie unter [Listenansichten FAQ](ui-views-faq.yml). Beachten Sie, dass der Suchtext im Gegensatz zu Filtern nicht gespeichert wird, wenn Sie von einer Seite weg navigieren, und nicht gespeichert wird, wenn Sie eine Ansicht speichern.
+
+
+      Auf Berichtsanforderungsseiten können Sie auch Filter speichern oder vordefinierte Filter verwenden. Weitere Informationen finden Sie unter [Gespeicherte Einstellungen verwenden](ui-work-report.md#SavedSettings).
+  - question: >
+      Gleicht diese Funktion der erweiterten Filter und "Summenberechnung einschränken" in Microsoft Dynamics NAV?
+    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] baut auf diesen gängigen Funktionen auf und bietet eine moderne und als nutzbare Oberfläche für die Suche und das Analysieren Ihrer Daten. Dank weiterer Tastenkombinationen und der Einführung der Suche [!INCLUDE[prod_short](includes/prod_short.md)] übertrifft die Funktionalität, die in Dynamics NAV bereitgestellt wird.  \n"
+  - question: >
+      Kann ich mithilfe der Begleiter-Apps und Add-Ins für Microsoft 365 suchen und filtern?
+    answer: >
+      In verschiedenen Formularfaktoren, wie Mobilegeräten oder Outlook, können Sie in Listen suchen, aber in den meisten Fällen nicht in einzelnen Feldern filtern. In der [!INCLUDE[prod_short](includes/prod_short.md)] App für Microsoft Teams sind sowohl die Suche als auch der Filter in Listen verfügbar.
+  - question: >
+      Wie kann ich anzeigen, wie meine Suchbegriffe auf Felder in der Liste angewendet wurden?
+    answer: >
+      Nachdem Sie Suchbegriffe in das Suchfeld eingegeben haben, können Sie die genauen Suchkriterien und die Felder anzeigen, auf die sie angewendet wurden, indem Sie den Seitenprüfbereich öffnen (**Strg + ALT+F1**) und dann die Registerkarte **Seitenfilter** wählen.
+  - question: >
+      Kann ich etwas gegen die Meldung "Die Suche nach Zeilen nimmt zu viel Zeit in Anspruch." unternehmen?
+    answer: >
+      Es gibt eine Zeitbegrenzung für die Dauer eines Suchvorgangs. Versuchen Sie zunächst, die Suchkriterien zu ändern, und versuchen Sie es erneut. Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, wenden sich an den Systemadministrator, da ein Administrator die Zeitbegrenzung für Suchen erhöhen kann.
+
+
+      Als lokaler Administrator können Sie die Zeitbegrenzung für Suchen erhöhen, indem Sie die Einstellung **Zeitbegrenzung für Suche** des [!INCLUDE[prod_short](includes/prod_short.md)]-Servers ändern. Weitere Informationen finden Sie unter [Konfigurieren des Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in der Hilfe für Business Central-Entwickler und IT-Experten.
+  - question: >
+      Wird Microsoft den Filterbereich ausbauen?
+    answer: >
+      Bei Microsoft achten wir stets auf das Feedback aus unserer breitgefächerten Benutzer-Community und reagieren auf die häufigsten Vorschläge. Wenn Sie möchten, dass der Filterbereich auf weitere Formfaktoren, mehr Listenarten und Berichtstypen erweitert wird, oder wenn Sie eine großartige Idee zur Verbesserung haben, fügen unter [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas) eine Idee hinzu, oder stimmen Sie sich für eine vorhandene Idee ab.
+additionalContent: "\n## <a name=\"see-also\"></a>Siehe auch\n   [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)  \n   [Suche nach Seiten und Informationen mit „Sie wünschen...“](ui-search.md)  \n   [Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)  \n   [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  \n        \n        \n   [!INCLUDE[footer-include](includes/footer-banner.md)]"

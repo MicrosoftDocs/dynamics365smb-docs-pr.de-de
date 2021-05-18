@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a3d42fccebafdfa80346f04b43a0e3dd29f467d8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770638"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017174"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortieren, Durchsuchen und Filtern
 
@@ -259,7 +259,7 @@ Es kann Fälle geben, in denen Feldwerte eines der folgenden Symbole enthalten:
 - =
 - &#124;
 
-Wenn Sie nach einem dieser Symbole filtern möchten, setzen Sie den Filterausdruck in Anführungszeichen (''). Wenn Sie beispielsweise Datensätzen filtern möchten, die mit dem Text *J & V* beginnen, ist der Filterausdruck `'J & V*'`.
+Wenn Sie auf eines dieser Symbole filtern wollen, setzen Sie den Filterausdruck in einfache Anführungszeichen (`'<expression with symbol>'`). Wenn Sie beispielsweise Datensätzen filtern möchten, die mit dem Text *J & V* beginnen, ist der Filterausdruck `'J & V*'`.
 
 Diese Anforderung ist für andere Symbole nicht erforderlich.
 
@@ -304,7 +304,7 @@ Verwenden Sie `%myvendors` im Feld Kreditoren-**Nr**, um alle Datensätze für K
 
 ## <a name="see-also"></a>Siehe auch
 
-[Suchen und Filtern FAQ](ui-search-filter-faq.md)  
+[Suchen und Filtern FAQ](ui-search-filter-faq.yml)  
 [Speichern und personalisieren Sie Listenansichten](ui-views.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

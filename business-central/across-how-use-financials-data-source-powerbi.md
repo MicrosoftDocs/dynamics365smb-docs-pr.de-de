@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a80b6515b8397a275285ae15086a11bad9c35921
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780082"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961502"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI-Berichte erstellen zur Anzeige von [!INCLUDE [prod_long](includes/prod_long.md)]-Daten
 
@@ -77,12 +77,16 @@ Die erste Aufgabe beim Erstellen von Berichten ist das Hinzufügen von [!INCLUDE
 
     Der Power BI-Assistent zeigt eine Liste von Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebungen, Unternehmen und Datenquellen an. Diese Datenquellen repräsentieren alle Webdienste, die Sie über [!INCLUDE [prod_short](includes/prod_short.md)] veröffentlicht haben.
 6. Geben Sie die Daten an, die Sie Ihrem Datenmodell hinzufügen möchten, und wählen Sie dann die Schaltfläche **Laden** aus.
-7. Wiederholen Sie die vorherigen Schritte, um zusätzliche [!INCLUDE [prod_short](includes/prod_short.md)] oder andere Daten Ihrem Power BI Datenmodell hinzuzufügen.
+7. Wiederholen Sie die vorherigen Schritte, um weitere [!INCLUDE [prod_short](includes/prod_short.md)]-Daten oder andere Daten zu Ihrem Power BI-Datenmodell hinzuzufügen.
 
 Sobald die Daten geladen sind, können Sie sie in der rechten Navigation auf der Seite sehen. Zu diesem Zeitpunkt haben Sie sich erfolgreich mit Ihren [!INCLUDE[prod_short](includes/prod_short.md)]-Daten verbunden und können mit dem Erstellen Ihres Power BI-Berichts beginnen.  
 
 > [!TIP]
 > Weitere Informationen zur Verwendung von Power BI Desktop finden Sie unter [Erste Schritte mit Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
+
+## <a name="creating-accessible-reports"></a>Erstellen von zugänglichen Berichten
+
+Es ist wichtig, dass Ihre Berichte für so viele Personen wie möglich nutzbar sind. Versuchen Sie, die Berichte so zu gestalten, dass sie keine besonderen Anpassungen an die Bedürfnisse verschiedener Benutzer erfordern. Stellen Sie sicher, dass das Design es den Anwendern ermöglicht, Standard-Hilfstechnologien, wie z.B. Bildschirmleser, zu nutzen. Power BI enthält verschiedene Funktionen, Tools und Richtlinien zur Barrierefreiheit, die Ihnen helfen, dieses Ziel zu erreichen. Weitere Informationen finden Sie unter [Gestalten Sie Power BI-Berichte für Barrierefreiheit](/power-bi/create-reports/desktop-accessibility-creating-reports) in der Power BI-Dokumentation.
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Berichte erstellen, um mit einer Liste verknüpfte Daten anzuzeigen
 

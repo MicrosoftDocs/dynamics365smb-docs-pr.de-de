@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b66b9f0e158e7947ebaa3f8835d5ca0ca4531113
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772172"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017074"
 ---
 # <a name="save-and-personalize-list-views"></a>Speichern und personalisieren Sie Listenansichten
 Wenn Sie einen Filter für eine Liste festgelegt haben und den Filter für später behalten möchten, können Sie ihn als Ansicht speichern. Weitere Informationen zum Filtern von Listen finden Sie unter [Festlegen von Filtern in Listen](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -35,7 +35,7 @@ Wenn Ansichten vorhanden sind, wird die Gruppe **Ansichten** wie oben im Filterb
 Wenn Sie ihm keinen Namen geben, wird er **Alle (Kopie)** benannt.
 
 > [!TIP]
-> Sie sehen das Symbol ![Ansicht speichern](media/save_view_icon.png "Ansicht speichern") nicht? Weitere Informationen finden Sie unter [Warum habe ich kein Speichersymbol?](ui-views-faq.md#save).
+> Sie sehen das Symbol ![Ansicht speichern](media/save_view_icon.png "Ansicht speichern") nicht? Weitere Informationen finden Sie unter [Warum habe ich kein Symbol zum Speichern](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>So benennen Sie eine Ansicht um oder entfernen sie
 1. Für die Ansicht, in der die Liste derzeit angezeigt wird, wählen Sie das Symbol ![Weitere Optionen anzeigen](media/show-more-options-icon.png "Weitere Optionen anzeigen"), um zu sehen, welche Optionen verfügbar sind.
@@ -45,7 +45,7 @@ Wenn Sie ihm keinen Namen geben, wird er **Alle (Kopie)** benannt.
 Wenn die Anzahl der Ansichten auf einer Seite zunimmt, müssen Sie möglicherweise zusätzlich steuern, wie Ansichten im Filterbereich angezeigt werden. Mit dem Banner **Personalisierung** können Sie unerwünschte Ansichten verbergen oder Ihre Ansichten neu anordnen, um die perfekte Sequenz zu erhalten. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Siehe auch
-[FAQ zu Listenansichten](ui-views-faq.md)  
+[Listenansichten FAQ](ui-views-faq.yml)  
 [Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)    
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  

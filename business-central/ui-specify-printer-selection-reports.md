@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 67e6c0fe9a9653d243b7fd221ed004a1f1495ddf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783134"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985412"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
@@ -36,11 +36,13 @@ Um Ihre Druckanforderungen zu erfüllen, bietet [!INCLUDE[prod_short](includes/p
 
 Universal Print ist ein auf Abonnements basierender Microsoft 365-Dienst, der vollständig auf Microsoft Azure ausgeführt wird. Sie erhalten eine zentralisierte Druckerverwaltung über das Universal Print-Portal. [!INCLUDE[prod_short](includes/prod_short.md)] stellt in Universal Print eingerichtete Drucker Clientbenutzern über die Erweiterung **Universal Print-Integration** zur Verfügung.
 
+![Universelles Drucken einrichten](media/Universal-Print-arch.png)
+
 Für die vollständige Einrichtung müssen Sie in Microsoft Azure mit Verwendung vom [Azure-Portal](https://posrtal.azure.com) und in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten.
 
 ### <a name="supported-printers"></a>Unterstützte Drucker
 
-[!INCLUDE[prod_short](includes/prod_short.md)] unterstützt dieselben Drucker wie Universal Print, die entweder Universal Print-kompatible oder nicht kompatible Drucker sein können. Nicht kompatible Drucker können nicht direkt mit Universal Print kommunizieren. Daher benötigen sie eine zusätzliche Anschlusssoftware, die von Universal Print bereitgestellt wird. Einige ältere Drucker werden möglicherweise nicht unterstützt.
+[!INCLUDE[prod_short](includes/prod_short.md)] unterstützt dieselben Drucker wie Universal Print, die entweder Universal Print-kompatible oder nicht kompatible Drucker sein können. Nicht kompatible Drucker können nicht direkt mit Universal Print kommunizieren. Daher benötigen sie eine zusätzliche Anschlusssoftware, die von Universal Print bereitgestellt wird. Einige ältere Drucker werden möglicherweise nicht unterstützt. 
 
 <!-- TODO If not installed, go to AppSource -->
 

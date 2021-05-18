@@ -1,5 +1,5 @@
 ---
-title: Preise und Projektbuchungsgruppen einrichten| Microsoft Docs
+title: Jobs, Preise und Buchungsgruppen festlegen
 description: Beschreibt, wie allgemeine Projektinformationen und Preise für Projektartikel, Ressourcen und Sachkonten und Projektbuchungsgruppen eingerichtet werden.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,53 +8,54 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 597d0ceb94e72305675b446af0031d97e0bc6478
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780457"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938071"
 ---
-# <a name="set-up-jobs"></a>Einrichten von Projekten
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Jobs, Preise und Buchungsgruppen festlegen
 
 Als Projekt-Manager können Sie Projekte einrichten, die jedes der Projekte definieren, das Sie in [!INCLUDE[prod_short](includes/prod_short.md)] verwalten. Auf der Seite **Projekteinrichtung** müssen Sie festlegen, wie Sie bestimmte Projektfunktionen verwenden möchten.
 
 Für jedes Projekt geben Sie dann die einzelnen Projektkarten mit Informationen zu Preisen für Projektressourcen Projektartikel, Projekt und Sachkonten an, und Sie müssen Projektbuchungsgruppen einrichten.
 
 ## <a name="to-set-general-information-for-jobs"></a>Um allgemeine Informationen für Projekte einzurichten:
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Projekteinrichtung** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"), geben Sie **Projekteinrichtung** ein, und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Dies Auswirkungen des Felds **Verbrauchslink standardmäßig anwenden** sind sehr umfangreich und werden deshalb im folgenden Abschnitt erläutert.
+> Das Feld **Verwendung standardmäßig verknüpfen** zeigt an, ob Job-Sachkonto-Einträge standardmäßig mit Job-Planungszeilen verknüpft werden. Wählen Sie das Feld, wenn Sie diese Einstellung auf alle neu erstellten Jobs anwenden wollen. Sie können die Nachverfolgung der Job-Nutzung für einen bestimmten Job aktivieren oder deaktivieren, indem Sie den Wert des Feldes **Nutzungsverknüpfung anwenden** auf der individuellen Jobkarte ändern. Die Konsequenzen werden im folgenden Abschnitt erläutert.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Projektverbrauch-Nachverfolgung einrichten
 
-Wenn Sie ein Projekt erstellen, werden Sie wissen wollen, ob Ihr Verbrauch mit dem Plan übereinstimmt. Um diesen Vorgang zu vereinfachen, können Sie einen Link zwischen Ihren Projektplanungszeilen und dem tatsächlichen Verbrauch erstellen. So können Sie Ihre Kosten verfolgen und schnell sehen, wie viel Arbeit noch zu tun ist. Standardmäßig ist de Projektplanungszeilentyp **Plan**, aber die Verwendung der Zeilenart **Plan und fakturierbar** hat ähnliche Effekte.
+Wenn Sie an einem Job arbeiten, möchten Sie vielleicht wissen, wie sich Ihre Nutzung im Vergleich zu Ihrem Plan verhält. Um diesen Vorgang zu vereinfachen, können Sie einen Link zwischen Ihren Projektplanungszeilen und dem tatsächlichen Verbrauch erstellen. So können Sie Ihre Kosten verfolgen und schnell sehen, wie viel Arbeit noch zu tun ist. Standardmäßig ist der Zeilentyp der Auftragsplanung *Budget*, aber die Verwendung des Zeilentyps **Budget und abrechenbar** hat ähnliche Auswirkungen.
 
-Wenn Sie das Feld **Verbraucherlink standardmäßig anwenden** ausgewählt haben, können Sie die Projektplanungszeile überprüfen. Sie können die Menge der Ressource, des Artikels oder des Sachkontos einrichten und dann festlegen, welche Menge Sie in das Projektbuchungsblatt übertragen möchten. Das Feld **Restmenge** auf der Projektplanungszeile zeigt Ihnen an, was noch übertragen und im Buchungsblatt gebucht werden muss.
+Nachdem Sie die Verbrauchsverfolgung festgelegt haben, indem Sie das Feld **Verbrauchsverknüpfung anwenden** gewählt haben, können Sie die Informationen der Jobplanungszeile überprüfen. Sie können die Menge der Ressource, des Elements oder des Sachkontos festlegen und dann angeben, welche Menge Sie in die Auftragserfassung übertragen wollen. Das Feld **Restmenge** auf der Projektplanungszeile zeigt Ihnen an, was noch übertragen und im Buchungsblatt gebucht werden muss.
 
-> [!TIP]  
-> Sie können Projektverbrauch-Nachverfolgung für ein bestimmtes Projekt aktivieren oder deaktivieren. Der Wert des Felds **Verbrauchslink anwenden** auf der neuen Projektkarte setzt die Einstellung auf der Seite **Projekteinrichtung** außer Kraft.  
-
-Wenn das Kontrollkästchen **Verbrauchslink standardmäßig anwenden** aktiviert ist und die Projektplanungszeile auf **Fakturierbar** eingestellt ist, wird eine Projektplanungszeile vom Typ **Plan** erstellt, nachdem Sie eine Projektbuchungsblattzeile gebucht haben.
+>[!NOTE]
+> Wenn die **Verbrauchsverknüpfung anwenden** auf dem einzelnen Job gewählt wird und das Feld **Zeilentyp** auf der Job-Journal-Zeile oder Kauf-Zeile *Fakturierbar* ist, dann werden neue Job-Planungszeilen des Zeilentyps *Budget* erstellt, wenn Sie das Job-Journal oder den Kauf-Beleg buchen.  
+> Weitere Informationen finden Sie unter [Datensätze für Aufträge](projects-how-record-job-usage.md) und [Auftragsvorräte verwalten](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> Wenn Projektverbrauch-Nachverfolgung aktiviert ist, entweder auf der Seite **Projekteinrichtung** oder im einzelnen Projekt, und das Feld **Projekttyp** in der Projektjournalzeile leer ist, dann werden die neuen Projektplanungszeilen der Zeilenart **Plan** erstellt, wenn Sie Projektjournalzeilen buchen.  
->  
-> Wenn Projektverbrauch-Nachverfolgung *nicht* aktiviert ist, entweder auf der Seite **Projekteinrichtung** oder im einzelnen Projekt, und das Feld **Projekttyp** in der Projektjournalzeile leer ist, dann werden keine Projektplanungszeilen erstellt, wenn Sie Projektjournalzeilen buchen. Weitere Informationen finden Sie unter [Nutzung von Projekten](projects-how-record-job-usage.md).
+> Wenn das Feld **Zeilentyp** auf der Zeile für die Auftragserfassung oder den Kauf leer ist, werden keine Auftragsplanungszeilen erstellt, wenn Sie das Auftragsjournal oder den Kaufbeleg buchen.
 
-1. Wählen Sie das Symbol ![Seite suchen oder Bericht](media/ui-search/search_small.png "Suchen Sie nach dem Symbol Seite oder Bericht"), geben Sie **Jobs einrichten** ein und wählen Sie dann den entsprechenden Link.
-2. Aktivieren sie das Kontrollkästen **Verbrauchslink standardmäßig anwenden**.
+<!--
+>[!Important]
+If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
+If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
+-->
+
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Erstellen projektspezifischer Preise für Ressourcen, Artikel und Sachkonten für Projekte
 > [!NOTE]
-> In Veröffentlichungszyklus 2 von 2020 haben wir neue Prozesse zum Einrichten und Verwalten von Preisen und Rabatten veröffentlicht. Wenn Sie ein neuer Kunde sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> In der 2020er Release-Welle 2 haben wir neue Prozesse zum Einrichten und Verwalten von Preisen und Rabatten freigegeben. Wenn Sie ein neuer Kunde sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Sie können Preise für die Artikel, Ressourcen und Sachkonten für Projekte einrichten. 
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience)
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"), geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Ressource**, **Artikel** oder **Sachkonto** aus.
 3. Füllen Sie auf den Seiten **Res.-VK-Preise Projekt**, **Projektartikelpreise**, oder **Projekt-Sachkontopreise** die Felder nach Bedarf aus.
 
@@ -68,7 +69,7 @@ Die folgende Tabelle zeigt, wie die Informationen in den optionalen Feldern in J
 
 ---
 #### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience)
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
 2. Markieren Sie den entsprechenden Job und wählen Sie dann die Aktion **Verkaufspreislisten**.
 
 ---
@@ -79,7 +80,7 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 > [!NOTE]  
 >   Die erforderlichen Konten der Kontenliste müssen eingegeben, bevor Sie Buchungsgruppen einrichten können. Weitere Informationen finden Sie unter [Einrichten oder ändern des Kontenplans](finance-setup-chart-accounts.md).  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Projekt-Buchungsgruppen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion Tell Me](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie **Job-Buchungsgruppen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** und füllen Sie dann die Kontenfelder wie in der folgenden Tabelle beschrieben aus.  
 
 | Das Feld "Konto" | Beschreibung |

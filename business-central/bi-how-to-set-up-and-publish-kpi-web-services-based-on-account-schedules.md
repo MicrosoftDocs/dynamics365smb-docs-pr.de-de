@@ -10,15 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d2ccc59cad099883e764241cc37add26675435b6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 72687930e20f00c8a6d244cac0e8f682de2d34a4
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786612"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961527"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Kontenschemata
 Auf der Seite **Kontopaln KPI Web-Service einrichten** richten Sie ein, wie die Kontenschema-KPI-Daten angezeigt werden, und auf welchen spezifischen Kontenschemata die KPIs basieren. Wenn Sie die Schaltfläche **Webdienst veröffentlichen** wählen, werden die angegebenen Kontenschema-KPI-Daten der Liste der veröffentlichten Webdienste auf der Seite **Web-Dienste** hinzugefügt.  
+
+> [!NOTE]
+> Wenn Sie diesen Webdienst verwenden, werden Abschlussdaten nicht in Ihren Datensatz aufgenommen. So können Sie Filter in Power BI verwenden, um verschiedene Zeiträume zu analysieren.
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>So richten Sie einen KPI-Webdienst ein und veröffentlichen ihn, der auf Kontenschemata basiert  
 1.  Wählen Sie die Symbol ![Glühbirne , das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kontenschema-KPI-Webdienst** ein und wählen Sie dann den entsprechenden Link.  

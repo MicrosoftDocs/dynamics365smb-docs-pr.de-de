@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9bbc7b27426befcea6d5e9c0f8b797c4652e03f6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780657"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985362"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Verwenden von Dynamics 365 Sales von Business Central
 Wenn Sie Dynamics 365 Sales for Customer Engagement verwenden, können Sie nahtlose Integration in den Interessent-zu-Geld-Prozess nutzen, indem Sie [!INCLUDE[prod_short](includes/prod_short.md)] für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.
@@ -95,7 +95,46 @@ Wenn Sie **Verarbeiten** in [!INCLUDE[prod_short](includes/prod_short.md)] für 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Behandlung der gebuchten Verkaufsrechnungen, Debitoren-Zahlungen und Statistiken
 Nach der Erfüllung eines Verkaufsauftrags, werden dafür Rechnungen erstellt. Wenn Sie Aufträge fakturieren, können Sie gebuchte Verkaufsrechnung übertragen an [!INCLUDE[crm_md](includes/crm_md.md)], wenn Sie das Kontrollkästchen **Rechnung erstellen in [!INCLUDE[crm_md](includes/crm_md.md)]** auf der Seite **Gebuchte Verkaufsrechnungen** auswählen. Gebuchte Rechnungen werden an [!INCLUDE[crm_md](includes/crm_md.md)] mit dem Status **Fakturiert** übertragen.
 
-Sobald Sie die Zahlung des Debitors für die Verkaufsrechnung in [!INCLUDE[prod_short](includes/prod_short.md)] erhalten, wird der Verkaufsrechnungsstatus auf **Bezahlt** mit dem **Statusgrund** auf **Teilweise** festgelegt, wenn teilweise bezahlt oder auf **Komplett** festgelegt, wenn vollständig bezahlt, wenn Sie die Aktion **Kontostatistik aktualisieren** auf der Debitorenseite in [!INCLUDE[prod_short](includes/prod_short.md)] auswählen. Die Funktion **Kontostatistik aktualisieren** aktualisiert auch Werte wie **Saldo** und **Gesamtverkäufe** in der **Infobox [!INCLUDE[prod_short](includes/prod_short.md)] Kontostatistik** in [!INCLUDE[crm_md](includes/crm_md.md)]. Alternativ können Sie geplante Aufträge (Debitoren-Statistik und POSTEDSALESINV-INV) automatisch für beide Vorgänge im Hintergrund ausführen.
+Sobald Sie die Zahlung des Debitors für die Verkaufsrechnung in [!INCLUDE[prod_short](includes/prod_short.md)] erhalten, wird der Verkaufsrechnungsstatus auf **Bezahlt** mit dem **Statusgrund** auf **Teilweise** festgelegt, wenn teilweise bezahlt oder auf **Komplett** festgelegt, wenn vollständig bezahlt, wenn Sie die Aktion **Kontostatistik aktualisieren** auf der Debitorenseite in [!INCLUDE[prod_short](includes/prod_short.md)] auswählen. Die Funktion **Kontostatistik aktualisieren** aktualisiert auch Werte wie **Saldo** und **Gesamtverkäufe** in der **Infobox [!INCLUDE[prod_short](includes/prod_short.md)] Kontostatistik** in [!INCLUDE[crm_md](includes/crm_md.md)]. Alternativ können Sie geplante Aufträge (Debitoren-Statistik und POSTEDSALESINV-INV) automatisch für beide Vorgänge im Hintergrund ausführen. 
+
+## <a name="handling-sales-prices"></a>Handhabung von Verkaufspreisen
+> [!NOTE]
+> In Veröffentlichungszyklus 2 von 2020 haben wir optimierte Prozesse zum Einrichten und Verwalten von Preisen und Rabatten veröffentlicht. Wenn Sie ein neuer Kunde mit dieser Version sind, nutzen Sie die neue Erfahrung. Wenn Sie bereits Kunde sind, hängt es davon ab, ob Sie die neue Erfahrung verwenden, ob Ihr Administrator die Funktionsaktualisierung **Neues Verkaufspreiserlebnis** in **Funktionsverwaltung** akualisiert hat. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+Die Schritte zum Abschluss dieses Prozesses unterscheiden sich, je nachdem, ob Ihr Administrator die neue Preiserfahrung aktiviert hat. 
+
+> [!NOTE]
+> Wenn die Standard-Preissynchronisation bei Ihnen nicht funktioniert, empfehlen wir die angepassten Funktionalitäten der Integration zu verwenden. Weitere Informationen finden Sie unter [Anpassen einer Integration mit Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
+
+#### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience/)
+In der aktuellen Preiserfahrung synchronisiert [!INCLUDE[prod_short](includes/prod_short.md)] Verkaufspreise, die: 
+
+* Für alle Debitoren gelten. Standard-Verkaufspreislisten werden auf der Basis des Preises im Feld **Einheitspreis** auf der Seite **Elementkarte** für die Artikel erstellt.
+* Anwenden auf eine bestimmte Debitor-Preisgruppe. Zum Beispiel Verkaufspreise für Ihre Einzel- oder Großhandelskunden. Um Preise auf Basis einer Kundenpreisgruppe zu synchronisieren, gehen Sie wie folgt vor:
+
+    1. Koppeln Sie die Elemente, für die Preise durch die Kundenpreisgruppe festgelegt sind.
+    2. Auf der Seite **Kundenpreisgruppen** koppeln Sie die Kundenpreisgruppe, indem Sie **Bezogen**, dann **Dynamics 365 Sales**, **Kopplung** und dann **Kopplung einrichten** wählen. Die Kopplung erstellt eine aktive Preisliste in [!INCLUDE[prod_short](includes/prod_short.md)] mit dem gleichen Namen wie die Debitor-Preisgruppe in [!INCLUDE[crm_md](includes/crm_md.md)] und synchronisiert automatisch alle Artikel, für die die Debitor-Preisgruppe den Preis definiert.
+
+:::image type="content" source="media/customer-price-group.png" alt-text="Kundenpreisgruppen-Seite":::
+
+#### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience/)  
+
+Die neue Preiserfahrung synchronisiert Preislisten, die die folgenden Kriterien erfüllen:
+
+* **Aktualisierung von Standardwerten zulassen** ist ausgeschaltet.
+* Der Preistyp ist Verkauf.
+* Der Betragstyp ist Preis.
+* Der Produkttyp in den Zeilen muss Element oder Ressource sein. 
+* Eine Mindestmenge ist nicht angegeben.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert Verkaufspreise, die für alle Debitoren gelten. Standard-Verkaufspreislisten werden auf der Basis des Preises im Feld **Einheitspreis** auf der Seite **Elementkarte** für die Artikel erstellt.
+
+Um Preislisten zu synchronisieren, wählen Sie auf der Seite **Verkaufspreisliste** **Bezogen**, **Dynamics 365 Sales**, **Kopplung** und dann **Kopplung einrichten**. 
+
+:::image type="content" source="media/sales-price-list.png" alt-text="Verkaufspreislistenseite":::
+
+---
+
 
 ## <a name="see-also"></a>Siehe auch
 [Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

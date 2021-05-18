@@ -1,8 +1,6 @@
 ---
-title: Einkaufs-Artikel oder Services für ein Projekt und Vorräte verwalten| Microsoft Docs
+title: Verwalten von Projektlieferungen
 description: Beschreibt, wie die Bereitstellung und den Einkauf des Materials und Servicearten in Projekten verwaltet wird.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,17 +10,17 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12068b06bfa725c44232c1dd91a157ef8559f6e0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7e1f6f52a8ef5f7d4620a70c4611ba259dc00c20
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785373"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938171"
 ---
 # <a name="manage-job-supplies"></a>Verwalten von Projektlieferungen
 Die Verwaltung der Projektmittel für Artikel, Services und Aufwendungen ist ein integraler und wichtiger Bestandteil der Ausführung von Projekten. Sie können entweder verfügbaren Lagerbestand verwenden oder projektspezifische Einkäufe mithilfe von Bestellungen und/oder Einkaufsrechnungen durchführen. Beispiel: Bei einem Serviceprojekt für einen Computer wird eine neue Festplatte benötigt. Sie erstellen eine Einkaufsrechnung für den Kauf einer neuen Festplatte und erfassen das Projekt, für das die Festplatte verwendet wird.
 
-Falls für den Verkaufsprozess keine separate Erfassung von physischen Transaktionen erforderlich ist, kann ein Verkauf möglicherweise nur in einer Einkaufsrechnung oder auf der Seite **Fibu Buch.-Blatt** verarbeitet werden. Weitere Informationen finden Sie unter [Nutzung von Projekten](projects-how-record-job-usage.md).
+Falls für den Verkaufsprozess keine separate Erfassung von physischen Transaktionen erforderlich ist, kann ein Verkauf möglicherweise nur in einer Einkaufsrechnung oder auf der Seite **Fibu Buch.-Blatt** verarbeitet werden. Weitere Informationen finden Sie unter [So buchen Sie eine auftragsbezogene Ausgabe](projects-how-manage-project-supplies.md#to-post-a-job-related-expense).
 
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Um Artikel oder Services für ein Projekt kaufen
 Der folgende Ablauf zeigt, wie eine Einkaufsrechnung zum Kauf von Produkten für ein Projekt verwendet wird. Die gleichen Schritte gelten auch, wenn sie eine Bestellung verwenden.  

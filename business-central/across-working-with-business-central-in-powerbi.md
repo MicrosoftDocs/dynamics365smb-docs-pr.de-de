@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed744d6aba6394f567c9b297943c0061cb0c0751
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f17546a46ec8d502e6fa1b73a49eb1ea0ed762b5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786907"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935261"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Arbeiten mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Power BI
 
@@ -96,7 +96,7 @@ Um einen Bericht zu teilen, wählen Sie in einer Liste mit Berichten oder in ein
 [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] als Power Apps-Datenquelle](across-how-use-financials-data-source-powerapps.md)  
 [Verwenden von [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
