@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: db971af61719bfa84566c78cc91b4c805c14ab9b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 544cb3a1844aaf85ab937031a23d6d00506ffa74
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783847"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215753"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designdetails: Suche nach Dimensionskombinationen
 Wenn Sie eine Seite schließen, nachdem Sie einen Satz von Dimensionen bearbeitet haben, prüft [!INCLUDE[prod_short](includes/prod_short.md)], ob die bearbeitete Zusammenstellung von Dimensionen vorhanden ist. Wenn der Satz nicht vorhanden, wird ein neuer Satz erstellt und die Dimensionskombination-ID wird zurückgegeben.  
@@ -73,8 +73,7 @@ EXIT(DimSet.ID);
 ```  
 
 ## <a name="see-also"></a>Siehe auch
-
- [Funktion ABRUFEN (Datensatz)](/dynamics-nav/GET-Function--Record-)    
+    
  [Designdetails: Dimensionssatzposten](design-details-dimension-set-entries.md)   
  [Dimensionssatz-Eintrags-Übersicht](design-details-dimension-set-entries-overview.md)   
  [Designdetails: Tabellenstruktur](design-details-table-structure.md)   

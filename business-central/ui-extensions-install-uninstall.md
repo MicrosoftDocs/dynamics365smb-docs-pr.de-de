@@ -9,23 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 04/01/2021
+ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 98bb45f10b228077114d7387e9bc30a30cf7e3c6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 564b9574188acd63acaa660f4a440be791846ef7
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774253"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216205"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installieren und Deinstallieren von Erweiterungen in Business Central
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] ändern, indem Sie Erweiterungen installieren. Diese Erweiterungen können beispielsweise Funktionen hinzufügen, das Verhalten ändern oder Ihnen den Zugriff auf die neuen Onlinedienste ermöglichen. Weitere Informationen finden Sie unter [Anpassen von Business Central über Erweiterungen](ui-extensions.md).
 
 > [!NOTE]
-> Um Erweiterungen von AppSource zu installieren oder Erweiterungen pro Mandanten hinzuzufügen, müssen Sie über die richtigen Berechtigungen verfügen. Sie müssen entweder Mitglied der Benutzergruppe D365 EXTENSION MGT sein oder über den Berechtigungssatz D365 EXTENSION MGT verfügen. Als Administrator können Sie anderen Benutzern in Ihrem Unternehmen Benutzergruppen und Berechtigungen zuweisen.
+> Um Erweiterungen von AppSource zu installieren oder Erweiterungen pro Mandanten hinzuzufügen, müssen Sie über die richtigen Berechtigungen verfügen. Sie müssen entweder Mitglied der Benutzergruppe „EXTEND. MGT. - ADMIN“ sein oder über den Berechtigungssatz „EXTEND. MGT. - ADMIN“ verfügen. Als Administrator können Sie anderen Benutzern in Ihrem Unternehmen Benutzergruppen und Berechtigungen zuweisen.
 >
 > Um die Funktionen einer Erweiterung nutzen zu können, z. B. Seiten öffnen, Berichte ausführen, Aktionen auswählen usw., müssen Sie den Berechtigungssätzen zugewiesen sein, die als Teil der Erweiterung installiert werden.
+
+> [!NOTE]  
+> Der Berechtigungssatz **EXTEND. MGT. - ADMIN** wurde in Business Central 2021, Veröffentlichungszyklus 1, als Ersatz für den Berechtigungssatz **D365 EXTENSION MGT** in früheren Versionen eingeführt.
 
 ## <a name="installing-an-extension"></a>Eine Erweiterung wird installiert
 

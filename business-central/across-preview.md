@@ -6,34 +6,38 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2021
+ms.date: 06/07/2021
 ms.author: edupont
-ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3d12e316e78516d355c7d1313cd37bbeedb7a29
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777491"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216053"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Testversionen und Abonnements
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ist in einer zunehmenden Anzahl von Ländern weltweit verfügbar. Wenn Sie über [!INCLUDE[prod_short](includes/prod_short.md)] erfahren möchten, können Sie sich für eine kostenlose Testversion anmelden. Wenn Sie dann bereit sind, können Sie mit einem Wiederverkaufspartner über den Abschluss eines Abonnements sprechen.  
 
-Wenn Sie nicht bereits mit einem Partner zusammenarbeiten, siehe [Wie finde ich einen Wiederverkaufspartner?](across-faq.md#findpartner).  
+Wenn Sie nicht bereits mit einem Partner zusammenarbeiten, finden Sie weitere Informationen unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner).  
 
 ## <a name="getting-started-with-a-trial"></a>Erste Schritte mit einer Testversion
 
-Sie können sich für eine kostenlose Testversion [hier](https://go.microsoft.com/fwlink/?linkid=847861) registrieren. Wir empfehlen Ihnen, mit [einem Wiederverkaufspartner](across-faq.md#findpartner) zu arbeiten, um Ihrem Unternehmen den Einstieg mit [!INCLUDE[prod_short](includes/prod_short.md)] zu erleichtern.  
+Sie können sich für eine kostenlose Testversion [hier](https://go.microsoft.com/fwlink/?linkid=847861) registrieren. Wir empfehlen Ihnen, mit [einem Vertriebspartner](/dynamics365/business-central/across-faq#findpartner) zusammenzuarbeiten, um Ihrem Unternehmen den Einstieg mit [!INCLUDE[prod_short](includes/prod_short.md)] zu erleichtern.  
 
 Abhängig von Ihrem Land oder Ihrer Region umfasst die Testversion die Sprachen und Funktionen, die Ihr Land oder Ihre Region benötigt. Weitere Informationen finden Sie unter [Ändern von Sprache und Gebietsschema](about-locale-language.md).  
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] werden Ihnen einige Elemente vertraut sein und andere nicht. Wenn Sie sich zum ersten Mal bei der Demonstrationsfirma anmelden, erhalten Sie Zugriff auf eine Seite Erste Schritte mit Links zu Anleitungen zur unterstützten Einrichtung, die Ihnen den Einstieg erleichtern können. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
 
-Wenn Sie auf Schwierigkeiten stoßen, kann die Seite [Häufig gestellte Fragen](across-faq.md) Ihnen bei der Beantwortung einiger Ihrer Fragen hilfreich sein. Wenn Sie sich nicht für die Testversion anmelden können, kann die Seite [Anmeldung zur Fehlerbehebung in der Selbstbedienung](ui-troubleshoot-self-signup.md) helfen. Sie können auch einen [Partner](across-faq.md#findpartner) kontaktieren und ihn bitten, eine kostenlose Testversion oder eine andere Art der Vorschau von [!INCLUDE[prod_short](includes/prod_short.md)] für Sie zu erstellen.  
+Wenn Sie auf Schwierigkeiten stoßen, kann die Seite [Häufig gestellte Fragen](across-faq.yml) Ihnen bei der Beantwortung einiger Ihrer Fragen hilfreich sein. Wenn Sie sich nicht für die Testversion anmelden können, kann die Seite [Anmeldung zur Fehlerbehebung in der Selbstbedienung](ui-troubleshoot-self-signup.md) helfen. Sie können auch einen [Partner](/dynamics365/business-central/across-faq#findpartner) kontaktieren und ihn bitten, eine kostenlose Testversion oder eine andere Art der Vorschau von [!INCLUDE[prod_short](includes/prod_short.md)] für Sie zu erstellen.  
+
+Wenn Sie [!INCLUDE [prod_short](includes/prod_short.md)] nicht verwenden möchten, können Sie die Testversion ablaufen lassen.  
+
+[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
 ### <a name="try-out-your-own-company"></a>Testen Sie Ihr eigenes Unternehmen
 
-Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-Tage-Testversion mit einem leeren Unternehmen wechseln. Mithilfe der Anleitung für die unterstützte Einrichtung **Mein Unternehmen einrichten** können Sie grundlegende Informationen zu Ihrem Unternehmen angeben. Optional können Sie Daten aus Ihrer vorhandenen Geschäftsverwaltungslösung importieren, damit Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten auswerten können. Wir empfehlen Ihnen jedoch, keine kostenlose Testversion zu verwenden, um Ihr Unternehmen zu unterstützen. Kontaktieren Sie [einen Wiederverkaufspartner](across-faq.md#findpartner), um mehr darüber zu erfahren, wie Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] anfangen können.  
+Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten ausprobieren möchten, können Sie zu einer kostenlosen 30-Tage-Testversion mit einem leeren Unternehmen wechseln. Mithilfe der Anleitung für die unterstützte Einrichtung **Mein Unternehmen einrichten** können Sie grundlegende Informationen zu Ihrem Unternehmen angeben. Optional können Sie Daten aus Ihrer vorhandenen Geschäftsverwaltungslösung importieren, damit Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit Ihren eigenen Daten auswerten können. Wir empfehlen Ihnen jedoch, keine kostenlose Testversion zu verwenden, um Ihr Unternehmen zu unterstützen. Kontaktieren Sie [einen Vertriebspartner](/dynamics365/business-central/across-faq#findpartner), um mehr Informationen zu den ersten Schritten [!INCLUDE[prod_short](includes/prod_short.md)] zu erhalten.  
 
 Wenn 30 Tage nicht ausreichen, um eine Entscheidung zu treffen, können Sie Ihre Testversion verlängern. Weitere Informationen finden Sie unter [Benötigen Sie mehr Zeit, um zu entscheiden, ob Sie abonnieren möchten?](admin-extend-trial.md).  
 
@@ -68,7 +72,7 @@ Wenn Sie Ihrer [!INCLUDE[prod_short](includes/prod_short.md)]-Testversion Daten 
 
 ## <a name="getting-started-with-a-subscription"></a>Erste Schritte mit einem Abonnement
 
-Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Reselling-Partner?](across-faq.md#findpartner). Der Wiederverkaufspartner kann Ihnen helfen, [!INCLUDE[prod_short](includes/prod_short.md)] so einzurichten, dass es zu Ihrem Unternehmen passt, einschließlich des Imports Ihrer Daten aus Ihrem früheren System. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] auch anpassen, indem Sie Anwendungen aus [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646) hinzufügen.  
+Jedes Mal, wenn Sie sich während der Probezeit anmelden, erscheint eine Benachrichtigung in einer blauen Leiste und zeigt die verfügbare Zeit an. Wenn Sie sich entscheiden, zu abonnieren, suchen Sie einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner. Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner). Der Wiederverkaufspartner kann Ihnen helfen, [!INCLUDE[prod_short](includes/prod_short.md)] so einzurichten, dass es zu Ihrem Unternehmen passt, einschließlich des Imports Ihrer Daten aus Ihrem früheren System. Sie können [!INCLUDE[prod_short](includes/prod_short.md)] auch anpassen, indem Sie Anwendungen aus [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646) hinzufügen.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] Online verwendet Microsoft 365. Wenn Ihr Unternehmen eine andere Art der E-Mail-Einrichtung verwendet, kann der Weiterverkaufspartner Ihnen bei der Entscheidung helfen, wie Sie migrieren möchten oder ob Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden sollten.  
 
@@ -83,17 +87,19 @@ Wenn Sie ein Entwickler sind, können Sie mit einer Sandbox sicher Erweiterungen
 Derzeit können alle Kunden eine Sandbox verwenden, auch Organisationen, die sich für eine Testversion angemeldet haben. Weitere Informationen über die ersten Schritte mit einem Sandkasten finden Sie unter [Erstellen einer Sandkastenumgebung](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
-> Sandboxes, die auf diese Weise erstellt werden, enthalten Demodaten für das fiktive CRONUS-Unternehmen. Keine Daten werden kopiert oder anderswie von der Fertigungsumgebungen während der Sandkastenerstellung transferiert.  
+> Sandboxes, die auf diese Weise erstellt werden, enthalten Demodaten für das fiktive CRONUS-Unternehmen. Keine Daten werden kopiert oder anderswie von der Fertigungsumgebungen während der Sandkastenerstellung transferiert.   
 
 Der Administrator Ihres [!INCLUDE[prod_short](includes/prod_short.md)] und Ihr Weiterverkaufspartner kann zusätzliche Umgebungen im Admin Center erstellen. Weitere Informationen finden Sie unter [Das Business Central Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+
+
 
 ## <a name="see-also"></a>Siehe auch
 
 [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
 [Verlängern Ihrer Testversion](admin-extend-trial.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Häufig gestellte Fragen](across-faq.md)  
-[Wie finde ich einen Weiterverkaufspartner?](across-faq.md#findpartner)  
+[Häufig gestellte Fragen](across-faq.yml)  
+[Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner)  
 [Auswählen Ihrer Dynamics 365 Business Central-Entwicklungssandkasten-Umgebung](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Tests verlängern (als Administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 917aab6c4062233ff5cedb32f8aa75b84687849b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87bbd5d77bc677220b82789e343af1bda2300cbd
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779657"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215478"
 ---
 # <a name="design-details-average-cost"></a>Designdetails: Durchschnittskosten
 Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten Durchschnitt berechnet, basierend auf der Durchschnittskostenperiode, die in [!INCLUDE[prod_short](includes/prod_short.md)] eingerichtet wurde.  

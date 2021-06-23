@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab3929a410a280494d806e7aeea5c54ce966769e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787977"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216230"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planung der Bestellung eines neuen Bedarfs von Auftrag
 Diese Planungsaufgabe kann auf der Seite **Auftragsplanung** ausgeführt werden, in dem der gesamte neue Bedarf sowie Informationen über die Verfügbarkeit und Beschaffungsvorschläge angezeigt werden. Das Fenster bietet eine Übersicht und die erforderlichen Tools für eine effektive Bedarfsplanung anhand der Verkaufs- und Komponentenzeilen, auf deren Grundlage dann verschiedene Arten von Beschaffungsaufträgen direkt erstellt werden können.  
@@ -24,14 +24,14 @@ Sie können die Seite **Auftragsplanung** in zwei Arten eingeben, je nach Herang
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>So planen Sie neue Fertigungsaufträge  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Geplante Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link. (Sie können diese Schritte für einen geplanten, fest geplanten oder freigegebenen Fertigungsauftrag ausführen).
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Geplante Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link. (Sie können diese Schritte für einen geplanten, fest geplanten oder freigegebenen Fertigungsauftrag ausführen).
 2.  Öffnen Sie den Fertigungsauftrag, für den Sie planen möchten, und wählen Sie die **Planung** Aktion aus.  
 3.  Klicken Sie auf der Seite **Auftragsplanung** auf Funktionen und dann auf **Planung berechnen**.  
 
 Auf der Seite Fenster werden Planungszeilen entsprechend dem Ansichtsfilter **Fertigungsbedarf** angezeigt, d. h. die unausgeführten Komponentenzeilen aller vorhandenen Fertigungsaufträge. Bedarf nur für den einen Fertigungsauftrag wird nicht angezeigt, da es notwendig ist, für einen Fertigungsauftrag mit einer Übersicht des Bedarfs für möglicherweise ältere Komponentenzeilen zu planen. Planungszeilen für den Fertigungsauftrag im Kontext werden erweitert.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Für beliebigen neuen Bedarf planen  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Auftragsplanung** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Auftragsplanung** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Klicken Sie auf der Seite **Auftragsplanung** auf Funktionen und dann auf **Planung berechnen**.
 3.  Wählen Sie die Schaltfläche **Ausklappen (+)** vor dem Datum im Feld **Bedarfsdatum**, um die zugrunde liegenden Planungszeilen anzuzeigen, die Bedarfszeilen mit unzureichender Verfügbarkeit darstellen.  
 4.  Für die einzelnen aufgeklappten Planungszeilen, bzw. Bedarfszeilen werden unten auf der Seite Werte in Informationsfeldern angezeigt.  
@@ -83,7 +83,7 @@ Auf der Seite Fenster werden Planungszeilen entsprechend dem Ansichtsfilter **Fe
 >  Wenn Sie ein Datum eingeben, das nach dem Bedarfsdatum liegt, erhalten Sie eine Warnmeldung.  
 
 ## <a name="to-make-supply-orders"></a>Beschaffungsaufträge erstellen  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Geplante Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link. Sie können diese Schritte für einen geplanten, fest geplanten oder freigegebenen Fertigungsauftrag ausführen.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Geplante Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link. Sie können diese Schritte für einen geplanten, fest geplanten oder freigegebenen Fertigungsauftrag ausführen.  
 2.  Öffnen Sie den Fertigungsauftrag, für den Sie planen möchten, und wählen Sie die **Planung** Aktion aus.  
 3.  Platzieren Sie den Cursor in einer Planungszeile, und klicken Sie auf **Bestellungen erstellen**.  
 4.  Wählen Sie auf der Seite **Beschaffungsaufträge erstellen** im Inforegister **Auftragsplanung** im Feld **Aufträge erstellen für** eine der folgenden Optionen aus.  
@@ -109,7 +109,7 @@ Nachdem Sie die Planung auf der Seite **Auftragsplanung** abgeschlossen haben, a
 >  Aus den erstellten Beschaffungsaufträgen kann sich neuer, von diesen Beschaffungsaufträgen abhängiger Bedarf ergeben, und für diesen Fall wählen Sie noch einmal **Planung berechnen**, um diese zu ermitteln und zu bearbeiten, bevor Sie in der Liste fortfahren.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung](walkthrough-planning-supplies-manually.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    

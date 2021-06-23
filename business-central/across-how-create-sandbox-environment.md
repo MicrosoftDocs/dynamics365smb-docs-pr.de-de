@@ -1,6 +1,6 @@
 ---
-title: Erstellen Sie eine Sandkastenumgebung| Microsoft Docs
-description: Erstellen Sie somit eine Umgebung für das Untersuchen, Lernen, Entwickeln und Testen.
+title: Sandkastenumgebung erstellen
+description: Erstellen Sie eine Umgebung zum Erkunden, Lernen, Erstellen von Demos, Entwickeln und Testen über Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,29 +8,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: solsen
-ms.openlocfilehash: 3419272afd092d2ddb1374940e556d42709c1534
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a76ae33815b8e9368f45b72fd8703bfc47cbd079
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776022"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215628"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Erstellen einer Sandkastenumgebung in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Mit [!INCLUDE[prod_short](includes/prod_short.md)] können Sie auf einfache Weise eine sichere Umgebung schaffen, in der Sie testen, trainieren oder Fehler beheben können, ohne die Arbeitsprozesse oder Geschäftsdaten Ihres Unternehmens zu beeinträchtigen. Eine solche Nichtproduktionsumgebung heißt *Sandbox*. Isoliert von der Produktion ist eine Sandboxumgebung der Ort, um den Dienst sicher zu untersuchen, erfahren, testen und entwickeln, ohne das Risiko des Beeinflussens der Daten und Einstellungen Ihrer Fertigungsumgebungen zur riskieren.  
 
-Ihr Administrator kann Sandboxumgebungen im [Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json) erstellen, aber wenn Sie schnell etwas testen möchten, können Sie eine Sandboxumgebung aus [!INCLUDE[prod_short](includes/prod_short.md)] heraus erstellen.  
+Ihr Administrator verwaltet Sandboxumgebungen im [Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), wenn Sie jedoch schnell einen Test durchführen möchten, können Sie eine Sandboxumgebung über [!INCLUDE[prod_short](includes/prod_short.md)] erstellen. Sobald Sie fertig sind, können Sie die Sandbox über das Admin Center entfernen.  
 
 > [!NOTE]
-> Technisch gesehen unterscheiden sich Sandboxumgebungen stark von Produktionsumgebungen, selbst wenn Ihr Administrator eine Sandbox erstellt, die Produktionsdaten enthält. Sie können keine Sandbox für das Benchmarking verwenden und beispielsweise keinen Datenbankexport anfordern. Wenn Sie eine Sandbox für das Benchmarking erstellen möchten, kann Ihr Administrator im Admin Center eine dedizierte Produktionsumgebung erstellen. Weitere Informationen finden Sie unter [Umgebungstypen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
+> Technisch gesehen unterscheiden sich Sandboxumgebungen stark von Produktionsumgebungen, selbst wenn Ihr Administrator eine Sandbox erstellt, die Produktionsdaten enthält. Sie können keine Sandbox für das Benchmarking verwenden und beispielsweise keinen Datenbankexport anfordern. Wenn Sie eine Sandbox für das Benchmarking erstellen möchten, kann Ihr Administrator im Admin Center eine dedizierte Umgebung erstellen. Weitere Informationen finden Sie unter [Produktions- und Sandbox-Umgebungen](/dynamics365/business-central/dev-itpro/administration/environment-types).
 
 ## <a name="to-create-a-sandbox-environment-in-your-prod_short"></a>So erstellen Sie eine Umgebung in Ihrer [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Melden Sie sich bei Ihrer Produktionsinstanz von [!INCLUDE[prod_short](includes/prod_short.md)] an.
 
-2. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Sandboxumgebung** ein und wählen Sie dann den verknüpften Link.
+2. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Sandboxumgebung** ein und wählen Sie dann den verknüpften Link.
     <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
 3. Klicken Sie auf die Schaltfläche **Erstellen**.  
 
@@ -48,8 +48,9 @@ Oben im Rollencenters wird eine Benachrichtigung angezeigt, die bestätigt, dass
     <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
 > [!NOTE]
-> Eine auf diese Weise erstellte Sandbox-Umgebung enthält nur die Standarddemonstrationsdaten für das CRONUS Unternehmen. Keine Daten werden kopiert oder anderswie von der Fertigungsumgebungen während der Sandkastenerstellung transferiert.<br /><br />
-> Sie können auch eine Sandbox-Umgebung erstellen, die die Produktionsdaten enthält. Sie müssen dies über die Verwaltungszentrale tun. Weitere Informationen finden Sie unter [Umgebung verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in der Entwickler- und IT-Profi-Hilfe.  
+> Eine auf diese Weise erstellte Sandbox-Umgebung enthält nur die Standarddemonstrationsdaten für das CRONUS Unternehmen. Keine Daten werden kopiert oder anderswie von der Fertigungsumgebungen während der Sandkastenerstellung transferiert.
+>
+> Erstellen Sie alternativ eine Sandbox-Umgebung basierend auf Produktionsdaten. Sie müssen dies über die Verwaltungszentrale tun. Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unter [Umgebungen verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments).  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
     ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
@@ -60,21 +61,26 @@ Ein Administrator kann den Zugriff für einige Benutzer zur Sandboxumgebung begr
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Erweiterte Funktionen der Sandkastenumgebung
 
-Die Sandboxumgebung ist nicht zuletzt deshalb nützlich, weil sie einige nützliche Funktionen enthält.
+Die Sandboxumgebung ist nicht zuletzt deshalb nützlich, weil sie einige nützliche Funktionen enthält:
 
-### <a name="to-enable-the-advanced-user-experience"></a>Aktivieren Sie die erweiterte Benutzererfahrung
+* [Erweiterte Benutzeroberfläche](#advanced-user-experience)  
+* [Vollständige Beispieldaten](#complete-sample-data)  
+* [Designer](#designer)  
+
+### <a name="advanced-user-experience"></a>Erweiterte Benutzeroberfläche
 
 Es ist möglich, die vollständige Funktion der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] in einem Sandbox-Mandant zu aktivieren, indem Sie das Feld **Erfahrung** auf der Seite **Unternehmensinformationen** auf *Premium* festlegen. Suchen Sie die Seite **Unternehmensinformationen** im Menü :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Einstellungssymbol":::.  
 
-Nachdem Sie die *Premium*-Benutzererfahrung aktiviert haben, erhalten Sie Zugriff auf alle Standardprofile (Rollen) und Rollencenter in der Standardversion. Sie können einen Auswertungsmandanten erstellen, der vollständig eingerichtet wird, einschließlich Demodaten und Zugriff in den erweiterten Bereichen des Produkts. Wenden Sie sich zur Demonstration der Möglichkeiten alternativ an einen Wiederverkaufspartner. Weitere Informationen finden Sie unter [Wie finde ich einen Weiterverkaufspartner?](across-faq.md#findpartner).  
+Nachdem Sie die *Premium*-Benutzererfahrung aktiviert haben, erhalten Sie Zugriff auf alle Standardprofile (Rollen) und Rollencenter in der Standardversion. Sie können einen Auswertungsmandanten erstellen, der vollständig eingerichtet wird, einschließlich Demodaten und Zugriff in den erweiterten Bereichen des Produkts. Wenden Sie sich zur Demonstration der Möglichkeiten alternativ an einen Wiederverkaufspartner. Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq.yml#findpartner).  
 
-### <a name="to-enable-complete-sample-data"></a>So aktivieren Sie vollständige Beispieldaten
+### <a name="complete-sample-data"></a>Vollständige Beispieldaten
 
-In der Sandbox-Umgebung können Sie mit der Option **Erweiterte Auswertung - vollständiger Beispieldaten** auch ein neues Unternehmen erstellen, sodass Sie Schulungen durchführen oder exemplarische Vorgehensweisen durchlaufen können, für die zusätzliche Beispieldaten erforderlich sind, z. B. [Exemplarische Vorgehensweise: Empfang und Einlagerung in Basis-Lagerkonfigurationen](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
+In Situationen, in denen Sie zusätzliche Beispieldaten benötigen, wenden Sie sich bitte an Ihren Vertriebspartner.
+<!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>So erstellen Sie ein Unternehmen mit vollständigen Beispieldaten in einer Sandbox
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Unternehmen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Unternehmen** ein, und wählen Sie dann den entsprechenden Link aus.  
 2. Wählen Sie die Aktion **Neu** und dann **Neues Unternehmen erstellen** aus.  
 3. Wählen Sie auf der Seite **Unterstützte Einrichtung zum Erstellen eines Unternehmens** die Option **Weiter** aus.  
 4. Geben Sie einen Namen für das neue Unternehmen an, und wählen Sie dann im Feld **Daten und Einrichtung für die ersten Schritte auswählen** die Option **Erweiterte Auswertung - vollständiger Beispieldaten** aus.  
@@ -84,7 +90,9 @@ Wenn der unterstützte Einrichtungsleitfaden abgeschlossen ist, können Sie das 
 
 ### <a name="designer"></a>Designerin
 
-In einer Sandboxumgebung finden Sie den **Designer** aktiviert. Sie können Designer aktivieren, indem Sie das Entwurfssymbol ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) auf einer Seite auswählen oder durch Auswahl des Menüelements **Entwurf** im Einstellungsmenü ![Einstellungen](media/ui-experience/settings_icon_small.png).
+In einer Sandboxumgebung finden Sie den **Designer** aktiviert. Sie können Designer aktivieren, indem Sie das Entwurfssymbol ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) auf einer Seite auswählen oder durch Auswahl des Menüelements **Entwurf** im Einstellungsmenü ![Einstellungen](media/ui-experience/settings_icon_small.png).  
+
+Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unter [Verwenden von Designer](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) (nur auf Englisch).  
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 

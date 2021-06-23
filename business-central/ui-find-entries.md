@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a29cea15cba15da1bc68816e07f76de59f43958b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771161"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216128"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Suchen verwandter Posten für gebuchte Belege 
 
@@ -67,7 +67,7 @@ Sie können nach Posten suchen, basierend auf Informationen entweder über den B
 Nachdem Sie eine Auswahl getroffen haben, geben Sie die relevanten Suchinformationen in die Felder oben ein. Verwenden Sie die QuickInfos in den Feldern zur Hilfe. Wenn Sie fertig sind, wählen Sie **Suchen**, um die Suche zu starten. Wenn Sie eine der Filter ändern, müssen Sie **Suchen** erneut wählen.
 
 > [!TIP]
-> Ein paar Beispiele zur Verwendung von **Posten suchen** sehen Sie hier: [Artikel mit Artikelverfolgung nachverfolgen](inventory-how-to-trace-item-tracked-items.md) und [Exemplarische Vorgehensweise: Nachverfolgen von Serienchargennummern](walkthrough-tracing-serial-lot-numbers.md).
+> Unter [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md) finden Sie einige Beispiele zur Verwendung von **Posten suchen**. <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

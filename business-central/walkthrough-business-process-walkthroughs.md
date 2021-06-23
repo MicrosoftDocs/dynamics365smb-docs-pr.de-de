@@ -10,37 +10,38 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ce4823a243a6f1f25d4cea9d417e12211877d9a9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f0fae0ff46cbfedfd78749e591e34e5a284063fd
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782959"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216103"
 ---
 # <a name="business-process-walkthroughs"></a>Exemplarische Vorgehensweisen für Geschäftsprozesse
 
-Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Geschäftsprozesse, die Sie mit dem Demounternehmen CRONUS AG durchführen können. Die exemplarischen Vorgehensweisen bestehen aus mehreren Verfahren, von denen einige normalerweise von mehr als einem Benutzer ausgeführt werden würden, während andere verschiedene Benutzerrollen enthalten. Um den Arbeitsbereich zu simulieren, enthalten einige der exemplarischen Vorgehensweisen Einrichtungsschritte, die erforderlich sind, um die Übungen wie beschrieben abzuschließen. Diese Schritte können Einblick in die Art der Informationen zu geben, die Benutzer den IT-Mitarbeitern ihres Unternehmens zur Verfügung stellen müssen.  
+Diese Auswahl exemplarischer Vorgehensweisen bieten schrittweise End-to-End-Geschäftsprozesse, die Sie mit dem Demounternehmen CRONUS durchführen können. Die exemplarischen Vorgehensweisen bestehen aus mehreren Verfahren, von denen einige normalerweise von mehr als einem Benutzer ausgeführt werden würden, während andere verschiedene Benutzerrollen enthalten. Um den Arbeitsbereich zu simulieren, enthalten einige der exemplarischen Vorgehensweisen Einrichtungsschritte, die erforderlich sind, um die Übungen wie beschrieben abzuschließen. Diese Schritte können Einblick in die Art der Informationen zu geben, die Benutzer den IT-Mitarbeitern ihres Unternehmens zur Verfügung stellen müssen.  
 
  Die exemplarischen Vorgehensweisen sind vollständige Szenarios und sollten möglichst vom Anfang bis zum Ende ausgeführt werden. Viele Szenarios basieren auf [!INCLUDE[prod_short](includes/prod_short.md)]-Demonstrationen und ermöglichen es Ihnen, diese Verfahren an Ihrem Arbeitsplatz selbst auszuprobieren.  
 
 > [!NOTE]
-> Einige der exemplarischen Vorgehensweisen erfordern Beispieldaten, die nicht im Standard-Demounternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar sind. Weitere Informationen finden Sie unter [So erstellen Sie ein Unternehmen mit vollständigen Beispieldaten in einer Sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
+> Einige der exemplarischen Vorgehensweisen erfordern Beispieldaten, die nicht im Standard-Demounternehmen in [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar sind. <!--For more information, see [To create a company with complete sample data in a sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox). -->
 
 |Aktion|Siehe|  
 |--------|---------|  
 |Eine Marketingkampagne einrichten.|[Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne](walkthrough-conducting-a-sales-campaign.md)|  
-|Verwenden Sie Vorauszahlungen, um Teilszahlungen für Verkäufe und Einkäufe zu verwalten. **Erfordert vollständige Beispieldaten** |[Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
+|Verwenden Sie Vorauszahlungen, um Teilszahlungen für Verkäufe und Einkäufe zu verwalten. <!-- **Requires complete sample data** --> |[Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Richten Sie Genehmigungsbenutzer ein, legen Sie fest, ob und wie die Benutzer Benachrichtigung über Genehmigungsworkflows erhalten, und ändern und aktivieren Sie dann die entsprechenden Genehmigungsworkflows.|[Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Einlagern produzierter Artikel in Basis-Lagerkonfigurationen. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
-|Lagern Sie erhaltene Artikel in erweiterten Lagerkonfigurationen ein. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
-|Planen von Beschaffungsaufträgen, um den Bedarf manuell zu erfüllen. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Manuelle Beschaffungsplanung](walkthrough-planning-supplies-manually.md)|  
-|Planen von Beschaffungsaufträgen, um den Bedarf automatisch zu erfüllen. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Automatische Beschaffungsplanung](walkthrough-planning-supplies-automatically.md)|  
-|Zusammenstellen und Senden auf dem Verkaufsauftrag konsolidierter Artikel. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Verkauf, Montage und Liefern von Kits](walkthrough-selling-assembling-and-shipping-kits.md)|  
-|Planen eines Projekts in seiner Gesamtheit. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Verwalten von Projekten](walkthrough-managing-projects-with-jobs.md)|  
-|Bericht zu Kosten eines Projekts. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt](walkthrough-calculating-work-in-process-for-a-job.md)|  
-|Kommissionieren Sie Artikel für den Warenausgang in den Basislagerkonfigurationen. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Defektverwaltung ausführen. **Erfordert vollständige Beispieldaten**|[Exemplarische Vorgehensweise: Verfolgung von Serien-/Chargennummern](walkthrough-tracing-serial-lot-numbers.md)|
+|Planen eines Projekts in seiner Gesamtheit. <!-- **Requires complete sample data** --> |[Exemplarische Vorgehensweise: Verwalten von Projekten](walkthrough-managing-projects-with-jobs.md)|  
+|Bericht zu Kosten eines Projekts. <!-- **Requires complete sample data** --> |[Exemplarische Vorgehensweise: Berechnen der WIP für ein Projekt](walkthrough-calculating-work-in-process-for-a-job.md)|  
+|Kommissionieren Sie Artikel für den Warenausgang in den Basislagerkonfigurationen. <!-- **Requires complete sample data** --> |[Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
 |Exportieren Sie Geschäftsdaten für Überwachungszwecke in Deutschland.|[Wie Sie Daten für eine Digital-Überwachung exportieren](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
+
+<!-- |Assemble and ship items that are customized on the sales order. **Requires complete sample data** |[Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)|   -->
+<!-- |Plan supply orders to fulfill demand automatically. **Requires complete sample data** |[Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)|   -->
+<!-- |Plan supply orders to fulfill demand manually. **Requires complete sample data** |[Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)|   -->
+<!-- |Put received items away in basic warehouse configurations. **Requires complete sample data** |[Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|   -->
+<!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
+<!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
 ## <a name="see-also"></a>Siehe auch
 
