@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 868915ebe6a41153d59550f74a955a3ce00b4b15
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 2ccecd22db33e3ce734dd5a5d280f45d22bb2751
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882130"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074562"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren
 
@@ -62,7 +62,7 @@ Diese Option ist der schnellste Weg zur Installation der App.
 
 ## <a name="next-step"></a>Nächster Schritt
 
-Sie können die App jetzt in Teams verwenden, um Business Central-Daten freizugeben. Weitere Informationen finden Sie unter [Arbeiten mit Business Central-Daten in Microsoft Teams](across-working-with-teams.md).
+Sie können die App jetzt in Teams verwenden, um nach Kontakten zu suchen oder Business Central-Datensätze zu teilen. Weitere Informationen finden Sie unter [Suchen nach Debitoren, Kreditoren oder anderen Kontakten über Microsoft Teams](across-search-contacts-teams.md) und unter [Datensätze in Microsoft Teams teilen](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Siehe auch
 

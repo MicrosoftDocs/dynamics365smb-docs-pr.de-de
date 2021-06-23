@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771210"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074662"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 
 Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[prod_short](includes/prod_short.md)]  eingerichtet.
 
-Damit Sie sich leichter auf Ihre Geschäftstätigkeiten vorbereiten können, können Sie die Seite **Unterstützte Einrichtung** besuchen. Dort können Sie Anleitungen zur unterstützten Einrichtung, Videos oder Hilfethemen für ausgewählte Einrichtungsaufgaben starten. Um auf die Seite zuzugreifen, wählen Sie einfach das Symbol ![Zahnrad, um das Einstellungsmenü zu öffnen](media/ui-experience/settings_icon_small.png)-Symbol und dann die Aktion **Unterstützte Einrichtung**.
+Damit Sie sich leichter auf Ihre Geschäftstätigkeiten vorbereiten können, können Sie die Seite **Unterstützte Einrichtung** besuchen. Dort können Sie Anleitungen zur unterstützten Einrichtung, Videos oder Hilfethemen für ausgewählte Einrichtungsaufgaben starten. Wählen Sie zum Aufrufen der Seite einfach [diesen Link](https://businesscentral.dynamics.com/?page=1801) aus.  
 
-Um die Liste der Anleitungen für die unterstützten Einrichtung für jede beliebige Rolle zu öffnen, wählen Sie alternativ das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben **Unterstütze Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
+Sie können auch das ![Zahnradsymbol zum Öffnen des Einstellungsmenüs](media/ui-experience/settings_icon_small.png) und dann die Aktion **Unterstützte Einrichtung** auswählen.
+
+Sie können auch die Liste der Anleitungen zur unterstützten Einrichtung auch suchen, wenn Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") auswählen, **Unterstützes Setup** eingeben und dann den entsprechenden Link auswählen.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]

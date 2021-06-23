@@ -1,5 +1,5 @@
 ---
-title: Lieferkettenplanung | Microsoft Docs
+title: Beschaffungsplanung
 description: Vorbereiten eines ausführlichen ausführbaren Plan und der Montageplan für Verkäufe und Produktionsbedarf.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81befcda5dc4ae9e46ff02e98701fcb9c7a074dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 63e20afbfeda9450c4b636a660549c822cc0e5da
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785398"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115490"
 ---
 # <a name="planning"></a>Planung
 
@@ -36,8 +36,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Erläutert, wie das Planungssystem arbeitet und wie die Algorithmen angepasst werden, um Planungsbedingungen in verschiedenen Umgebungen zu erfüllen.|[Designdetails: Vorratsplanung](design-details-supply-planning.md)|
 |Erhalten von Informationen zur Planungslogikabweichung zwischen dem Bedarf an Lagerplätzen gemäß den Einstellungen der Lagerhaltungsdaten und dem Bedarf ohne Lagerortcodes|[Planung mit/ohne Lagerortcodes](production-planning-with-without-locations.md)|
 |Prognostizieren den Fertigungsbedarf, der durch erwartete Verkaufs- und Fertigungskomponenten dargestellt wird.|[Bedarfsplanung erstellen](production-how-to-create-a-forecast.md)|  
-|Automatisches exaktes Erstellen von Fertigungsaufträgen auf der Grundlage von Aufträgen, um den exakten Bedarf der Auftragszeile abzudecken|[Fertigungsaufträge aus Verkaufsaufträgen zu erstellen:](production-how-to-create-production-orders-from-sales-orders.md)|
-|Direktes Erstellen eines Projektfertigungsauftrags auf der Grundlage eines mehrzeiligen Auftrags, bei dem es sich um Fertigungsprojekt handelt|[Projektaufträge planen](production-how-to-plan-project-orders.md)|
+|Erstellen von Eins-zu-eins- oder Projektfertigungsaufträgen aus einem Verkaufsauftrag, um den exakten Bedarf dieses Verkaufsvertrags abzudecken|[Fertigungsaufträge aus Verkaufsaufträgen zu erstellen:](production-how-to-create-production-orders-from-sales-orders.md)|
 |Manuelles Planen für Verkaufs- oder Fertigungsbedarf pro einzelner Stücklistenebene mithilfe der Seite **Auftragsplanung**|[Planung der Bestellung eines neuen Bedarfs von Auftrag](production-how-to-plan-for-new-demand.md)|
 |Verwenden Sie die Seite **Planungsarbeitsblatt**, um die Felder Prod.-Programmplanung und Nettobedarfsoptionen auszuführen, einen oder ausführlichen Beschaffungsplans auf hoher Ebene in allen Artikelebenen automatisch zu erstellen.|[Führen Sie eine vollständige Planung, Prod.-Programmplanung oder Nettobedarf aus](production-how-to-run-mps-and-mrp.md)|
 |Nutzen Sie die Seite **Anforderungsarbeitsblatt** zum automatischen Erstellen eines ausführlichen Beschaffungsplans, um den Bedarf für Artikel zu decken, die ausschließlich per Einkauf oder Umlagerung beschafft werden.|[Anforderungsarbeitsblatt](production-about-planning-functionality.md#requisition-worksheet)|  

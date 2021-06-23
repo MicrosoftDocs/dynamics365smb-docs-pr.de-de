@@ -1,5 +1,5 @@
 ---
-title: Arbeiten mit Business Central-Daten in Microsoft Teams | Microsoft Docs
+title: Business Central-Datensätze in Microsoft Teams teilen
 description: Erfahren Sie, wie Sie die Business Central-App für Microsoft Teams verwenden.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,21 +7,21 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/01/2021
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
+ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: e20208d50eb65f1a92e6661396bf53007ab88eb8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786882"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074587"
 ---
-# <a name="working-with-business-central-data-in-microsoft-teams"></a>Arbeiten mit Business Central-Daten in Microsoft Teams
+# <a name="sharing-business-central-records-in-microsoft-teams"></a>Business Central-Datensätze in Microsoft Teams teilen
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[!INCLUDE [prod_short](includes/prod_short.md)] bietet eine App, die Microsoft Teams mit Ihren Geschäftsdaten in [!INCLUDE [prod_short](includes/prod_short.md)] verbindet. So können Sie schnell Daten zwischen Teammitgliedern austauschen und Anfragen schneller beantworten. In diesem Artikel erfahren Sie, wie Sie die App zum Teilen von [!INCLUDE [prod_short](includes/prod_short.md)]-Daten mit Mitarbeitern in einer Unterhaltung in Teams verwenden.
+[!INCLUDE [prod_short](includes/prod_short.md)] bietet eine App, die Microsoft Teams mit Ihren Geschäftsdaten in [!INCLUDE [prod_short](includes/prod_short.md)] verbindet. So können Sie schnell Daten zwischen Teammitgliedern austauschen und Anfragen schneller beantworten. In diesem Artikel erfahren Sie, wie Sie die App zum Freigeben von [!INCLUDE [prod_short](includes/prod_short.md)]-Datensätzen, z. B. ein Debitorenauftrag, Verkaufsauftrag oder eine Rechnung, in einer Teams-Unterhaltung mit Kollegen teilen.
 
 ## <a name="overview"></a>Matrix
 

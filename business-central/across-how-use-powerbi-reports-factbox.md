@@ -1,5 +1,5 @@
 ---
-title: Anzeigen benutzerdefinierter Power BI-Berichte für Business Central-Daten | Microsoft Docs
+title: Benutzerdefinierter Power BI-Berichte für Business Central-Daten anzeigen
 description: Sie können Power BI-Berichte verwenden, um einen zusätzlichen Einblick in Daten in Listen zu gewinnen.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941613"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087694"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Erstellen von Power BI-Berichten zum Anzeigen von Listendaten in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -62,7 +62,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 6. Speichern und benennen Sie den Bericht.
 
-    Geben Sie dem Bericht einen Namen, der den Namen der mit dem Bericht verknüpften Listenseite enthält, wie er im Client steht. Bei dem Namen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Angenommen, der Bericht ist für die Listenseite **Verkaufsrechnungen**. In diesem Fall fügen Sie die Wörter **Verkaufsrechnungen** irgendwo im Namen ein, z. B. **Meine Verkaufsrechnungen.pbix** oder **Meine_Verkaufsrechnungen_liste.pbix**.
+    Geben Sie dem Bericht einen Namen, der den Namen der mit dem Bericht verknüpften Listenseite enthält, wie er im Client steht. Bei dem Namen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Angenommen, der Bericht ist für die Listenseite **Verkaufsrechnungen**. In diesem Fall fügen Sie die Wörter **Verkaufsrechnungen** irgendwo im Namen ein, z. B. **Meine Verkaufsrechnungen.pbix** oder **Meine_Verkaufsrechnungen_liste.pbix**.
 
     Diese Namenskonvention ist nicht zwingend erforderlich. Sie beschleunigt jedoch das Auswählen von Berichten in [!INCLUDE[prod_short](includes/prod_short.md)]. Wenn die Berichtauswahlseite von einer Listenseite aus geöffnet wird, wird automatisch ein Filter auf der Basis des Seitennamens angewendet. Der Filter hat die Syntax: `@*<caption>*`, wie `@*Sales Invoices*`. Diese Filterung wird durchgeführt, um die Anzahl der angezeigten Berichte zu beschränken. Benutzer können den Filter entfernen, um eine vollständige Liste der in Power BI verfügbaren Berichte zu erhalten.
 

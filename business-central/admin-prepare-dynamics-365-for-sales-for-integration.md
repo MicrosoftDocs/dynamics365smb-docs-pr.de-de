@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777323"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184499"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration mit Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -44,7 +44,6 @@ Wenn Sie die Integrationslösung installieren, werden die Berechtigungen für da
 * Dynamics 365 Business Central Benutzer der Produktverfügbarkeit
 
 ### <a name="connection-settings-in-the-setup-guide"></a>Verbindungseinstellungen im Einrichtungshandbuch
-
 Sie können eine unterstützte Setup-Anleitung verwenden, um die Verbindung schnell einzurichten und erweiterte Funktionen wie die Kopplung zwischen Datensätzen festzulegen.
 
 1. Wählen Sie **Einrichtung und Erweiterungen** und dann **Unterstütztes Setup** aus.
@@ -56,12 +55,11 @@ Sie können eine unterstützte Setup-Anleitung verwenden, um die Verbindung schn
 |--|--|
 | **Import Dynamics 365 Sales Lösung** | Aktivieren Sie dies, um die in Integrationslösung in [!INCLUDE[crm_md](includes/crm_md.md)] einzurichten und zu konfigurieren. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
 | **Artikelverfügbarkeits-Webdienst veröffentlichen** | Ermöglichen Sie es Personen, die [!INCLUDE[crm_md](includes/crm_md.md)] verwenden, die Verfügbarkeit von Artikeln (Produkten) im Lager in [!INCLUDE[prod_short](includes/prod_short.md)] anzuzeigen. Dies erfordert ein Benutzerkonto [!INCLUDE[prod_short](includes/prod_short.md)] mit einem Webdienst-Zugriffsschlüssel. Das Zuordnen des Schlüssels ist ein Vorgang mit zwei Schritten. Im Benutzerkonto in [!INCLUDE[prod_short](includes/prod_short.md)] müssen Sie die Aktion **Webdienstschlüssel ändern** auswählen. Im Leitfaden für das unterstützte Setup zum Einrichten der Dynamics 365 Sales Verbindung müssen Sie die Dynamics 365 Business Central-OData-Webdienst-URL festlegen und Benutzeranmeldeinformationen für [!INCLUDE[prod_short](includes/prod_short.md)] zum Aufrufen des Diensts bereitstellen. Weitere Informationen finden Sie unter [Odata-Webservice](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
-| **Business Central-OData-Webdienst-URL** | Wenn Sie den Webdienst für die Anzeige der Verfügbarkeit von Artikeln aktivieren, wird Ihnen die URL für den OData Webdienst zur Verfügung gestellt. |
-| **Business Central-OData-Webdienst-Benutzername** | Der Name des Benutzerkontos [!INCLUDE[prod_short](includes/prod_short.md)], das [!INCLUDE[crm_md](includes/crm_md.md)] verwendet, um Informationen über die Verfügbarkeit von Artikeln in [!INCLUDE[prod_short](includes/prod_short.md)] über den OData-Webdienst abzurufen. |
+|**Business Central-OData-Webdienst-Benutzername** | Der Name des Benutzerkontos [!INCLUDE[prod_short](includes/prod_short.md)], das [!INCLUDE[crm_md](includes/crm_md.md)] verwendet, um Informationen über die Verfügbarkeit von Artikeln in [!INCLUDE[prod_short](includes/prod_short.md)] über den OData-Webdienst abzurufen. |
 | **Business Central-OData-Webdienst-Zugriffsschlüssel** | Der Zugriffsschlüssel für das Benutzerkonto, das [!INCLUDE[crm_md](includes/crm_md.md)] benutzt, um Informationen über die Verfügbarkeit von [!INCLUDE[prod_short](includes/prod_short.md)] über den OData-Webdienst zu erhalten. Der Schlüssel wird dem Benutzer zugewiesen, der im Feld **Business Central-OData-Webdienst-Benutzername** gewählt wurde. Um den Schlüssel zu erhalten, wählen Sie die Schaltfläche **Wert suchen** neben dem Benutzernamen, wählen Sie den Benutzer aus, wählen Sie **Verwalten** und dann **Bearbeiten** aus. In der Benutzerkarte wählen Sie **Aktionen**, **Authentifizierung** und dann **Webdienstschlüssel ändern**. |
 | **Verkaufsauftragsintegration aktivieren** | Wenn Personen Verkaufsaufträge in [!INCLUDE[crm_md](includes/crm_md.md)] erstellen und Aufträge in [!INCLUDE[prod_short](includes/prod_short.md)] erfüllen, wird dies in den Prozess in [!INCLUDE[crm_md](includes/crm_md.md)] integriert. Weitere Informationen finden Sie unter [Integration für Vertriebsauftragsverarbeitung aktivieren](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Dazu ist es erforderlich, dass Sie Anmeldeinformationen für ein Administratorbenutzerkonto in [!INCLUDE[crm_md](includes/crm_md.md)] zur Verfügung stellen. Weitere Informationen finden Sie im Abschnitt [Verarbeiten von Verkaufsauftragsdaten](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
-| **CDS-Verbindung aktivieren** | Aktivieren Sie die Verbindung mit [!INCLUDE[prod_short](includes/cds_long_md.md)]. |
-| **Dynamics 365-SDK-Version** | Dies ist nur relevant, wenn Sie eine lokale Version von [!INCLUDE[crm_md](includes/crm_md.md)] integrieren. Das ist das Dynamics 365 Software Development Kit (wird auch als Xrm bezeichnet), das Sie verwenden, um eine Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] herzustellen. Die Version muss mit der SDK-Version kompatibel sein, die von [!INCLUDE[crm_md](includes/crm_md.md)] verwendet wird, und der Version von [!INCLUDE[crm_md](includes/crm_md.md)] entsprechen oder neuer sein. |
+|**Dynamics 365 Sales-Verbindung aktivieren** | Aktivieren Sie die Verbindung mit [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| **Dynamics 365 SDK Version** | Dies ist nur relevant, wenn Sie eine lokale Version von [!INCLUDE[crm_md](includes/crm_md.md)] integrieren. Das ist das Dynamics 365 Software Development Kit (wird auch als Xrm bezeichnet), das Sie verwenden, um eine Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] herzustellen. Die Version muss mit der SDK-Version kompatibel sein, die von [!INCLUDE[crm_md](includes/crm_md.md)] verwendet wird, und der Version von [!INCLUDE[crm_md](includes/crm_md.md)] entsprechen oder neuer sein. |
 
 ### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Verbindungseinstellungen auf der Seite Microsoft Dynamics 365 Verbindungsaufbau
 

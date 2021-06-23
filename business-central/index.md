@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3811841784144d1c9dc786f8ae6435bedb5fb1d5
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 9042f49795f5ee6bb9e0bced2b8ba48ba1e093b4
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017099"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115261"
 ---
 # <a name="welcome-to-prod_long"></a>Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -36,7 +36,7 @@ Wenn Sie bereits über [!INCLUDE[prod_short](includes/prod_short.md)] verfügen,
 Sie können auch [die Videobibliothek ansehen](across-videos.md) oder mit [den ersten Schritten mit Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) im Lernpfad auf [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) beginnen.  
 
 > [!NOTE]
-> Sofern nicht anders angegeben, spiegelt der Inhalt der Docs.microsoft.com-Website die neueste Version von [!INCLUDE[prod_short](includes/prod_short.md)] Online wider. Wenn Ihre Organisation eine andere Version von [!INCLUDE[prod_short](includes/prod_short.md)] Online verwendet, sind einige Funktionen möglicherweise noch nicht verfügbar. Wenn Ihre Organisation [!INCLUDE[prod_short](includes/prod_short.md)] lokal nutzt, verwenden Sie möglicherweise eine frühere Version. Weitere Informationen finden Sie unter [Häufig gestellte Fragen](across-faq.md).
+> Sofern nicht anders angegeben, spiegelt der Inhalt der Docs.microsoft.com-Website die neueste Version von [!INCLUDE[prod_short](includes/prod_short.md)] Online wider. Wenn Ihre Organisation eine andere Version von [!INCLUDE[prod_short](includes/prod_short.md)] Online verwendet, sind einige Funktionen möglicherweise noch nicht verfügbar. Wenn Ihre Organisation [!INCLUDE[prod_short](includes/prod_short.md)] lokal nutzt, verwenden Sie möglicherweise eine frühere Version. Weitere Informationen finden Sie unter [Häufig gestellte Fragen](across-faq.yml).
 
 In den folgenden Abschnitten finden Sie wichtige Artikel, mit denen Sie sich vertraut machen können [!INCLUDE [prod_short](includes/prod_short.md)].  
 

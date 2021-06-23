@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 04/12/2021
+ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f3c9626fa73247b2109e5f179aef405e80b44b07
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935211"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074640"
 ---
 # <a name="teams-faq"></a>Teams FAQ
 
@@ -154,7 +154,9 @@ Bei der Suche nach Kontakten aus der [!INCLUDE [prod_short.md](includes/prod_sho
 
 ### <a name="which-fields-in-the-contacts-table-can-i-search"></a>Welche Felder in der Kontakttabelle kann ich durchsuchen?
 
-Während Sie Ihre Suchbegriffe in das Suchfeld eingeben, werden die Begriffe mit den meisten Feldern in der Tabelle **Kontakte** abgeglichen. Zu den Feldern gehören beispielsweise die Felder **Nr.**, **Name**, **Adresse**, **Telefonnr.** oder **Handynummer** und **E-Mail**.  
+Während Sie Ihre Suchbegriffe in das Suchfeld eingeben, werden die Begriffe mit den meisten Feldern in der Tabelle **Kontakte** abgeglichen. Zu den Feldern gehören beispielsweise die Felder **Nr.**, **Name**, **Adresse**, **Telefonnr.** oder **Handynummer** und **E-Mail**. 
+
+Suchbegriffe werden nicht mit benutzerdefinierten Feldern abgeglichen, die der Tabelle **Kontakte** durch Apps und Erweiterungen hinzugefügt werden.
 
 ### <a name="do-search-results-include-companies-and-persons"></a>Enthalten die Suchergebnisse Unternehmen und Personen?
 

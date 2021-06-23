@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 73fcf9a9cb79259f617ef95ec967d01b9adfb621
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 78b5700646d95d9cdc38a7a67663473fafddaa2c
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785294"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214828"
 ---
 # <a name="design-details-supply-planning"></a>Designdetails: Vorratsplanung
 Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien bereit, die in den Beschaffungsplanungsfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden.  

@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6866e852899df3de3de2c4560c26ad981e46fda5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777848"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215253"
 ---
 # <a name="general-journal-post-line-overview"></a>Fibu-Buchungszeile - Überblick
+
 Codeunit 12, **Jnl.-Beitrags-Zeile**, ist das größte Anwendungsobjekt für Sachpostenbuchung und ist der einzige Bereich, um die Finanzbuchhaltung, MwSt. und Debitoren- und Kreditorenposten einzufügen. Diese Codeunit wird auch für Ausgleich-, Ausgleich aufheben- und Zurücksetzen-Arbeitsgänge verwendet.  
   
-Während die Codeunit in jeder Version in den letzten zehn Jahre verbessert wurde, blieb die Architektur im Wesentlichen unverändert. Die Codeunit wurde mit ungefähr 7.600 Codezeilen sehr umfangreich. Mit dieser Version von [!INCLUDE[prod_short](includes/prod_short.md)] wird die Architektur geändert und die Codeunit wurde einfacher und leichter zu verwalten. Diese Dokumentation stellt die Änderungen vor und enthält Informationen, die Sie für das Upgrade benötigen.  
+In Microsoft Dynamics NAV 2013 R2 wurde die Codeunit überarbeitet, da sie mit ca. 7.600 Codezeilen sehr groß geworden war. Die Architektur wurde geändert und die Codeunit vereinfacht uns somit leichter zu verwalten. In dieser Dokumentation werden die Änderungen beschrieben und Informationen bereitgestellt, die Sie für das Upgrade benötigen.  
   
 ## <a name="old-architecture"></a>Alte Architektur  
 Die alte Architektur hatte die folgenden Funktionen:  
@@ -43,9 +44,11 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] hat Codeunit 12 die folgenden 
 * Viele Hilfsfunktionen wurden zu den entsprechenden Debitoren- und Kreditorenpostentabellen übertragen.  
 * Die Verwendung von globalen Variablen ist minimiert worden, sodass jedes Verfahren Parameter verwendet und eine eigene Anwendungslogik enthält.  
   
-## <a name="see-also"></a>Siehe auch  
-[Designdetails: Buchungs-Schnittstellenstruktur](design-details-posting-interface-structure.md)   
-[Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Siehe auch
+
+[Designdetails: Buchungs-Schnittstellenstruktur](design-details-posting-interface-structure.md)  
+[Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)  
+[Designdetails: Fibu Buch.-Blatt-Beitrags-Zeile (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

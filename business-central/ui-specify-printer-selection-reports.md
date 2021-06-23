@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 04/01/2021
+ms.date: 05/17/2021
 ms.author: jswymer
-ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985412"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063452"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
-Das Drucken von Dokumenten und Berichten aus [!INCLUDE[prod_short](includes/prod_short.md)] ist eine wichtige Aufgabe für Geschäftsanwender. Benutzer möchten normalerweise Druckaufträge direkt an einen der Drucker Ihres Unternehmens senden, &mdash; egal welchen [!INCLUDE[prod_short](includes/prod_short.md)] Client oder welche App sie verwenden. Da [!INCLUDE[prod_short](includes/prod_short.md)] Online ein Cloud-Dienst ist, kann er der lokale Drucker, die mit den Geräten der Benutzer verbunden sind, nicht direkt erreichen, aber eine Verbindung zu Cloud-fähigen Druckern herstellen.
+Das Drucken von Dokumenten und Berichten aus [!INCLUDE[prod_short](includes/prod_short.md)] ist eine wichtige Aufgabe für Geschäftsanwender. Benutzer möchten normalerweise Druckaufträge direkt an einen der Drucker Ihres Unternehmens senden, egal welchen [!INCLUDE[prod_short](includes/prod_short.md)] Client oder welche App sie verwenden. Da [!INCLUDE[prod_short](includes/prod_short.md)] Online ein Cloud-Dienst ist, kann er der lokale Drucker, die mit den Geräten der Benutzer verbunden sind, nicht direkt erreichen, aber eine Verbindung zu Cloud-fähigen Druckern herstellen.
 
 Um Ihre Druckanforderungen zu erfüllen, bietet [!INCLUDE[prod_short](includes/prod_short.md)] folgende Funktionen:
 
@@ -38,7 +38,7 @@ Universal Print ist ein auf Abonnements basierender Microsoft 365-Dienst, der vo
 
 ![Universelles Drucken einrichten](media/Universal-Print-arch.png)
 
-Für die vollständige Einrichtung müssen Sie in Microsoft Azure mit Verwendung vom [Azure-Portal](https://posrtal.azure.com) und in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten.
+Für die vollständige Einrichtung müssen Sie in Microsoft Azure über das [Azure-Portal](https://portal.azure.com) und in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten.
 
 ### <a name="supported-printers"></a>Unterstützte Drucker
 
@@ -78,7 +78,7 @@ Für die vollständige Einrichtung müssen Sie in Microsoft Azure mit Verwendung
 
 Bevor Sie mit der Verwaltung von Universal Print-Druckern in Business Central beginnen können, müssen Sie einige Aufgaben ausführen, um Universal Print in Azure mit den gewünschten Druckern zum Laufen zu bringen.
 
-Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Universal Print einrichten](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started) in der Universal Print-Dokumentation. Hier ist eine Übersicht über die Schritte, die Sie ausführen müssen. Die meisten dieser Schritte werden im Azure-Portal ausgeführt.
+Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Universal Print einrichten](/universal-print/fundamentals/universal-print-getting-started) in der Universal Print-Dokumentation. Hier ist eine Übersicht über die Schritte, die Sie ausführen müssen. Die meisten dieser Schritte werden im Azure-Portal ausgeführt.
 
 1. Weisen Sie sich und anderen Benutzern Universal Print-Lizenzen zu.
 
@@ -104,29 +104,34 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
 
     - Registrieren Sie bei anderen Druckern die Drucker über den Universal Print-Konnektor. 
 
-      Weitere Informationen finden Sie unter [Druckerregistrierung](/universal-print-connector-printer-registration).
+      Weitere Informationen finden Sie unter [Druckerregistrierung](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Druckereigenschaften ändern (optional)
 
     Nachdem ein Drucker registriert wurde, können Sie Druckereigenschaften wie Standardeinstellungen anzeigen und ändern.
 
-    Weitere Informationen finden Sie unter [Einstellungen für Druckermetadaten verwalten](/universal-print/fundamentals/universal-print-printer-property-settings).
+    Weitere Informationen finden Sie unter [Verwalten der Druckereinstellungen über das Universal Print-Portal](/universal-print/portal/configure-printer-settings).
 
-5. Geben Sie den Benutzern die Berechtigung für die Drucker.
-
-    Weitere Informationen finden Sie unter [Druckerberechtigungen](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
-
-6. Teilen Sie die Drucker.
+5. Teilen Sie die Drucker.
 
     Jeder Drucker, in dem Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwenden möchten, muss in Universal Print geteilt werden.
 
-    Weitere Informationen finden Sie unter [Einen Drucker teilen](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer).
+    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+
+    Weitere Informationen finden Sie unter [Drucker freigeben](/universal-print/portal/share-printers).
+
+6. Geben Sie den Benutzern die Berechtigung für freigegebene Drucker.
+
+    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+
+    Weitere Informationen finden Sie unter [Druckerberechtigungen](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+
 
 7. Aktivieren Sie die Dokumentkonvertierung.
 
     Universal Print rendert Inhalte für den Druck im XPS-Format. Einige ältere marktübliche Drucker unterstützen das Rendern von XPS-Inhalten in vielen Fällen nicht &mdash;, sondern nur das PDF-Format. Das Drucken auf diesen Druckern schlägt fehl, es sei denn, Universal Print ist so eingerichtet, dass Dokumente in das vom Drucker unterstützte Format konvertiert werden.
 
-    Weitere Informationen finden Sie unter [Dokumentkonvertierung – Übersicht](/universal-print/fundamentals/universal-print-document-conversion).
+    Weitere Informationen finden Sie unter [Dokumentkonvertierung – Übersicht](/universal-print/portal/document-conversion).
 
     > [!TIP]
     > Wenn keiner Ihrer Drucker das Renderformat für PDF-Inhalte benötigt, empfehlen wir, die Dokumentkonvertierung nicht zu aktivieren, da dies die Druckausgabequalität beeinträchtigen kann.
@@ -141,7 +146,7 @@ Wenn Sie Drucker einzeln hinzufügen, können Sie denselben Universal Print-Druc
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
 2. Klicken Sie auf **Universal Print**, und wählen Sie dann eine der folgenden Optionen aus:
 
     - **Alle Universal Print-Drucker hinzufügen**, um alle Drucker hinzuzufügen, die noch nicht hinzugefügt wurden. Sie können diese Option auch dann verwenden, wenn bereits Drucker hinzugefügt wurden. 
@@ -201,7 +206,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 Die Seite **Druckerverwaltung** zeigt Drucker an, die eingerichtet sind. Die Seite gibt Ihnen auch Zugriff auf die Seite **Einstellungen** für jeden Drucker, um eine vorhandene Einrichtung zu bearbeiten oder einen neuen Drucker einzurichten.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Druckerverwaltung** ein, und klicken Sie dann auf den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Druckerverwaltung** ein, und klicken Sie dann auf den entsprechenden Link.
 2. Wählen Sie **E-Mail-Druck** und dann **Einen E-Mail-Drucker hinzufügen** aus.
 3. Füllen Sie auf der Seite **E-Mail-Drucker-Einstellungen** die Felder wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -225,7 +230,7 @@ Es gibt verschiedene Möglichkeiten, Drucker einzurichten, die standardmäßig f
 
 Auf der Seite **Druckerverwaltung** können Sie einen Drucker als Standarddrucker für alle Druckaufträge einrichten. Sie können den Drucker nur für Sie oder für alle Benutzer als Standard festlegen.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Druckerverwaltung** ein, und klicken Sie dann auf den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Druckerverwaltung** ein, und klicken Sie dann auf den entsprechenden Link.
 
     > [!TIP]
     > Sie können auch die Seite **Druckerverwaltung** von der Seite **Druckerauswahl** durch Auswahl von **Druckerverwaltung** öffnen.  
@@ -241,7 +246,7 @@ Auf der Seite **Druckerauswahl** können Sie den Drucker angeben, den ein Berich
 > [!IMPORTANT]
 > Für [!INCLUDE[prod_short](includes/prod_short.md)] vor Ort, kann die Seite **Druckerauswahl** nur für Cloud-Drucker verwendet werden, die durch Druckererweiterungen definiert sind, z. B. E-Mail-Druck und Universal Print-Drucker. Sie kann nicht für lokale Drucker verwendet werden.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Druckerverwaltung** ein und wählen Sie dann den entsprechenden Link. Alternativ können Sie auf der Seite **Druckerverwaltung** einen Drucker auswählen und dann die Aktion **Druckerauswahl** wählen.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link aus. Alternativ können Sie auf der Seite **Druckerverwaltung** einen Drucker auswählen und dann die Aktion **Druckerauswahl** wählen.
 2. Wählen Sie die Aktion **Neu**, um eine Druckerauswahl für einen bestimmten Bericht hinzuzufügen.
 3. Füllen Sie die Felder nach Bedarf aus.
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: bc4e39727abcb0bfabb9580ad79e47e9c0b4495b
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882155"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074687"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integration von Business Central und Microsoft Teams
 
@@ -49,7 +49,7 @@ Sie können einen Link zu einem beliebigen Business Central-Datensatz kopieren u
 
 Wenn Sie sich in der Unterhaltung befinden, können Sie und Ihre Mitarbeiter weitere Details zum Datensatz anzeigen, Daten bearbeiten und Maßnahmen ergreifen, ohne Teams zu verlassen.
 
-Weitere Informationen finden Sie unter [Arbeiten mit Business Central-Daten in Microsoft Teams](across-working-with-teams.md).
+Weitere Informationen finden Sie unter [Datensätze in Microsoft Teams](across-working-with-teams.md) teilen.
 
 ## <a name="get-started"></a>Erste Schritte
 
@@ -62,7 +62,7 @@ Weitere Informationen finden Sie unter [Arbeiten mit Business Central-Daten in M
 
 2. Administratorinformationen zur Einrichtung von Benutzern für die Arbeit mit [!INCLUDE [prod_short](includes/prod_short.md)] und Teams finden Sie unter [Verwalten der Microsoft Teams Integration in Business Central](admin-teams-integration.md).
 3. Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams. Siehe [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md).
-4. Sobald die App installiert ist, können Sie loslegen. Siehe [Arbeiten mit Business Central-Daten in Teams](across-working-with-teams.md). 
+4. Sobald die App installiert ist, können Sie loslegen. Weitere Informationen finden Sie unter [Debitoren, Kreditoren oder andere Kontakte über Microsoft Teams suchen](across-search-contacts-teams.md) und unter [Datensätze in Microsoft Teams teilen](across-working-with-teams.md). 
 
 ## <a name="see-also"></a>Siehe auch
 

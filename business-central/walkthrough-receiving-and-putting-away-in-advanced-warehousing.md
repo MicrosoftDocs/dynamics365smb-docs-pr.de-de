@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e4ca4287c0fda629e8c6e5b923a01ba8691563c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f7badb1b8e43e98b8d2088ab8d963f46a5fc3f48
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782834"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214628"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung bei erweiterten Lagerkonfigurationen
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] können die eingehenden Prozesse für das Empfangen und Einlagern auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
 
@@ -60,7 +60,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 -   CRONUS AG installieren.  
 -   So machen Sie sich anhand der nachfolgenden Schritte selbst zu einem Lagermitarbeiter am Standort WHITE:  
 
-1.  Wählen Sie die ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Lagerort-Mitarbeiter** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Lagerort-Mitarbeiter** ein, und wählen Sie dann den entsprechenden Link aus.  
 2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
 3.  Geben Sie im Feld **Lagerortcode** WHITE ein.  
 4.  Wählen Sie das Feld **Standard** aus.  
@@ -73,7 +73,7 @@ Das Einrichten der Seite **Lagerortkarte** definiert die Warenflüsse des Untern
 
 ### <a name="to-review-the-location-setup"></a>So prüfen Sie die Lagerorteinrichtung  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Standorte** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Standorte** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die WHITE Lagerortkarte.  
 3.  Beachten Sie im Inforegister **Lager**, dass das Kontrollkästchen **Gesteuerte Einlag. u. Kommiss.** ausgewählt ist.  
 
@@ -88,7 +88,7 @@ Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.
 
 ### <a name="to-create-the-purchase-orders"></a>So erstellt man Bestellungen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einkaufsaufträge** ein, und wählen Sie dann den entsprechenden Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Erstellen Sie eine Bestellung für den Kreditor 10000 auf das Arbeitsdatum (23. Januar) mit den folgenden Einkaufszeilen.  
 
@@ -119,7 +119,7 @@ Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.
 Auf der Seite **Wareneingang** können Sie mehrere eingehende Aufträge für Herkunftsbelege, wie eine Bestellung, verwalten.  
 
 ### <a name="to-receive-the-items"></a>So erhalten Sie die Artikel  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Geben Sie im Feld **Lagerortcode** WHITE ein.  
 4.  Wählen Sie die **Filter zum Holen von Herk.-Belegen verwenden** Aktion aus.  
@@ -137,7 +137,7 @@ Auf der Seite **Wareneingang** können Sie mehrere eingehende Aufträge für Her
 Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifischen Wareneingangsbeleg, der sich auf mehrere Herkunftsbelege bezieht, verwalten. Wie alle Lageraktivitätsbelege wird jeder Artikel in der Einlagerung durch eine Entnahme- und eine Einlagerungszeile dargestellt. Im folgenden Verfahren ist der Lagerplatzcode in den Entnahmezeilen der Standardplatz für Wareneingänge am WEISSEN Lagerort, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>So lagern Sie die Artikel ein  
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einlagerungen** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einlagerungen** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie den einzigen Lager-Einlagerungsbeleg in der Liste aus und wählen Sie dann die Aktion **Bearbeiten**.  
 
     Der Einlagerungsbeleg wird geöffnet mit insgesamt acht Take- oder Place-Zeilen für die vier Einkaufsauftragszeilen.
@@ -159,7 +159,7 @@ Auf der Seite **Lagereinlagerung** können Sie Einlagerungen für einen spezifis
  [Einlagern von Artikeln mit Lagereinlagerungen](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Umlagerung von Artikeln in erweiterten Lagerkonfigurationen](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Designdetails: Eingehender Lagerfluss](design-details-inbound-warehouse-flow.md)   
- [Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
+ <!-- [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)    -->
  [Exemplarische Vorgehensweisen für Geschäftsprozesse](walkthrough-business-process-walkthroughs.md)
 
 

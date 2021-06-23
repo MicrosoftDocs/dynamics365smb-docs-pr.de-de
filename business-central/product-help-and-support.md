@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 04/09/2021
-ms.openlocfilehash: 0487bd06f6a28313e90d6353aecf123a7fc3a708
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882255"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115411"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
@@ -78,7 +78,7 @@ Als interner Administrator haben Sie Zugriff auf das Admin Center, in dem Sie di
 Ihr [!INCLUDE[prod_short](includes/prod_short.md)] Einzelhandelspartner soll Ihnen mit technischem Support helfen. Dieser Abschnitt erleichtert Ihnen den Kontakt zu Ihrem wiederverkaufenden Partner, wenn diese Ihre Support-Kontaktdaten hinterlegt haben. Wenn Ihr [!INCLUDE[prod_short](includes/prod_short.md)] Partner das jeweilige Problem nicht lösen kann, wir er ein Support-Ticket bei Microsoft eröffnen. Weitere Informationen finden Sie unter [Unterstützungsprobleme zu Microsoft eskalieren](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) im Verwaltungsinhalt.  
 
 > [!NOTE]
-> Dieser Abschnitt ist nur verfügbar, wenn Sie für ein [!INCLUDE[prod_short](includes/prod_short.md)]-Abonnement bezahlt haben. Wenn Sie sich für eine Testversion angemeldet haben und [!INCLUDE[prod_short](includes/prod_short.md)] noch nicht gekauft haben, , haben Sie keinen Wiederverkaufspartner und Sie können das Microsoft-Support- Team nicht direkt kontaktieren. Sie finden einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner auf der Seite [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Weitere Informationen finden Sie unter [Wie finde ich einen Reselling-Partner?](across-faq.md#findpartner).  
+> Dieser Abschnitt ist nur verfügbar, wenn Sie für ein [!INCLUDE[prod_short](includes/prod_short.md)]-Abonnement bezahlt haben. Wenn Sie sich für eine Testversion angemeldet haben und [!INCLUDE[prod_short](includes/prod_short.md)] noch nicht gekauft haben, , haben Sie keinen Wiederverkaufspartner und Sie können das Microsoft-Support- Team nicht direkt kontaktieren. Sie finden einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner auf der Seite [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner).  
 
 ### <a name="support-contacts"></a>Support-Kontakte
 
@@ -163,7 +163,7 @@ Gleiches gilt bei Verwendung von [!INCLUDE [prod_short](includes/prod_short.md)]
 ## <a name="see-also"></a>Siehe auch
 
 [Business Central Lernkatalog](readiness/readiness-learning-catalog.md)  
-[Wie finde ich einen Weiterverkaufspartner?](across-faq.md#findpartner)  
+[Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner)  
 [Hilfesystem (nur in englischer Sprache verfügbar)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blogbeitrag: Die richtige Ressource finden und Feedback geben](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Central-Entwickler- und -Verwaltungsdokumente](/dynamics365/business-central/dev-itpro/)  

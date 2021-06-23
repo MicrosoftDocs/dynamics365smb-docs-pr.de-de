@@ -1,25 +1,25 @@
 ---
-title: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen | Microsoft Docs
+title: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
 description: In Business Central können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.
-author: SorenGP
+author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 68b35b6c007dd22c964bd616b1d59df2841db411
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772079"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214653"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)] -->
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.  
 
@@ -34,23 +34,17 @@ Weitere Informationen finden Sie unter [Designdetails: Ausgehender Lagerfluss](d
 
 In der folgenden Vorgehensweise wird Methode B in der vorhergegangenen Tabelle beschrieben.  
 
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
-
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise
 
 Bei Basis-Lagerkonfigurationen gilt Folgendes: Wenn ein Lagerort so eingerichtet wurde, dass Kommissionierung erforderlich ist, jedoch Warenausgang nicht erforderlich ist, verwenden Sie die Seite **Lagerkommissionierung**, um Kommissionier- und Warenausgangsinformationen für Ihre Herkunftsbelege zu erfassen und zu buchen. Der ausgehende Herkunftsbeleg kann ein Verkaufsauftrag, eine Einkaufsreklamation, ein ausgehender Umlagerungsauftrag, ein Fertigungsauftrag oder ein Komponentenbedarf sein.  
 
 In dieser exemplarischen Vorgehensweise werden folgende Aufgaben erläutert:  
 
-- Einrichtung des SILBERNEN Lagerorts für Lagerkommissionierung.  
-- Erstellen eines Verkaufsauftrags für den Debitor 10000 für 30 Lautsprecher.  
+- Einrichten des SÜD-Lagerorts für die Lagerkommissionierung.  
+- Erstellen eines Verkaufsauftrags für den Debitor 10000 für 30 AMSTERDAM Lampen.  
 - Freigeben des Verkaufsauftrags für Lagerdurchlaufzeit.  
 - Erstellen einer Lagerkommissionierung basierend auf einem freigegebenen Herkunftsbeleg.  
 - Erfassen der Lagerplatzumlagerung aus dem Lager und gleichzeitig Buchen der Verkaufslieferung für den ursprünglichen Verkaufsauftrag.  
-
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Rollen
 
@@ -60,43 +54,54 @@ Die Aufgaben in dieser Demonstration werden von den folgenden Benutzerrollen aus
 - Auftragsverarbeitung  
 - Lagermitarbeiter  
 
-## <a name="prerequisites"></a>Voraussetzungen
+<!-- ## Prerequisites
 
-Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
+To complete this walkthrough, you will need:  
 
-- Für [!INCLUDE[prod_short](includes/prod_short.md)] Online ein Unternehmen basierend auf der Option **Erweiterte Bewertung – Vollständige Beispieldaten** in einer Sandbox-Umgebung Für [!INCLUDE[prod_short](includes/prod_short.md)] (lokal) CRONUS International Ltd. installiert  
-- Machen Sie sich selbst zum Lagerarbeiter am Standort SILVER, indem Sie die folgenden Schritte ausführen:  
+- For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
+ -->
 
-  1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den entsprechenden Link.  
-  2. Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
-  3. Geben Sie im Feld **Lagerortcode** SILVER ein.  
-  4. Wählen Sie das Feld **Standard** aus.  
+## <a name="story"></a>Hintergrund
 
-- Stellen Sie Artikel LS-81 am SILBERNEN Lagerort bereit, indem Sie die folgenden Schritte ausführen:  
+Ellen, die Lagermanagerin bei CRONUS, richtet das SÜD-Lager für grundlegende Komissionierungshandlung ein, in dem Lagermitarbeiter ausgehende Aufträge einzeln verarbeiten. Martha, die Verkaufsauftragsbearbeiterin, erstellt einen Verkaufsauftrag für 30 Einheiten des Artikels 1928-S, die dem Debitor 10000 aus dem SÜD-Lager geliefert werden. John, der Lagermitarbeiter muss sicherstellen, dass die Lieferung an den Debitor vorbereitet und geliefert wird. John verwaltet alle beteiligten Aufgaben auf der Seite **Lagerkommissionierung**, das automatisch auf die Lagerplätze verweist, in denen 1928-S gespeichert wird.
 
-  1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikel Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
+[!INCLUDE[set_up_location.md](includes/set_up_location.md)]
+
+### <a name="setting-up-the-bin-codes"></a>Einrichten der Lagerplatzcodes
+Nachdem Sie den Standort eingerichtet haben, müssen Sie zwei Lagerplätze hinzufügen.
+
+#### <a name="to-setup-the-bin-codes"></a>So richten Sie die Lagerplatzcodes ein
+
+1. Wählen Sie die Aktion **Lagerplätze** aus.
+2. Erstellen Sie zwei Lagerplätze mit den Codes *S-01-0001* und *S-01-0002*.
+
+### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Machen Sie sich selbst zum Lagermitarbeiter am Standort SÜD
+
+Um diese Funktion nutzen zu können, müssen Sie sich selbst dem Lagerort als Lagermitarbeiter hinzufügen. 
+
+#### <a name="to-make-yourself-a-warehouse-employee"></a>So machen Sie sich selbst zum Lagermitarbeiter
+
+  1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ zum ersten Mal öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den entsprechenden Link aus.  
+  2. Wählen Sie das Feld **Benutzer-ID** und dann Ihr eigenes Benutzerkonto auf der Seite **Lagermitarbeiter** aus.
+  3. Wählen Sie im Feld **Lagerortcode** „SÜD“ aus.  
+  4. Wählen Sie das Feld **Standard** und dann die Schaltfläche **Ja** aus.  
+
+### <a name="making-item-1928-s-available"></a>Artikel 1928-S verfügbar machen
+
+Führen Sie die folgenden Schritte aus, um den Artikel LS-1928 SÜD-Standort verfügbar zu machen:  
+
+  1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ zum zweiten Mal öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikel Buch.-Blätter** ein, und wählen Sie dann den entsprechenden Link aus.  
   2. Öffnen Sie das Standardjournal, und erstellen Sie dann zwei Artikel Buch.-Blattzeilen mit den folgenden Informationen über das Arbeitsdatum (23. Januar).  
 
         |Postentyp|Artikelnummer|Lagerortcode|Lagerplatzcode|Menge|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Zugang|LS-81|SILBER|S-01-0001|20|  
-        |Zugang|LS-81|SILBER|S-01-0002|20|  
+        |Zugang|1928-S|SÜD|S-01-0001|20|  
+        |Zugang|1928-S|SÜD|S-01-0002|20|  
 
-  3. Wählen Sie die Aktion **Beleg buchen** aus und wählen Sie dann die Schaltfläche **Ja** aus.  
+        Das Feld **Lagerplatzcode** in den Verkaufszeilen ist standardmäßig ausgeblendet, daher müssen Sie es anzeigen. Dazu müssen Sie die Seite personalisieren. Weitere Informationen finden Sie unter [So starten Sie die Personalisierung einer Seite über das Banner Personalisierung](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-## <a name="story"></a>Hintergrund
-
-Ellen, die Lagermanagerin bei CRONUS, richtet das SILBER-Lager für grundlegende Komissionierungshandlung ein, in dem Lagermitarbeiter ausgehende Aufträge einzeln verarbeiten. Martha, die Verkaufsauftragsbearbeiterin, erstellt einen Verkaufsauftrag für 30 Einheiten des Artikels LS-81, die dem Debitor 10000 aus dem SILBERNEN Lager geliefert werden. John, der Lagermitarbeiter muss sicherstellen, dass die Lieferung an den Debitor vorbereitet und geliefert wird. John verwaltet alle beteiligten Aufgaben auf der Seite **Lagerkommissionierung**, das automatisch auf die Lagerplätze verweist, in denen LS-81 gespeichert wird.  
-
-## <a name="setting-up-the-location"></a>Einrichten des Lagerorts
-
-Das Einrichten der Seite **Lagerortkarte** definiert die Warenflüsse des Unternehmens.  
-
-### <a name="to-set-up-the-location"></a>So richten Sie den Standort ein
-
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerorte** ein und wählen Sie dann den entsprechenden Link.  
-2. Öffnen Sie die Karte für den Standort SILVER.  
-3. Aktivieren Sie im Inforegister **Lager** das Kontrollkästchen **Kommissionierung erforderlich**.  
+  3. Wählen Sie **Aktionen**, dann **Buchung** und anschließend die Option **Buchen** aus.  
+  4. Wählen Sie die Schaltfläche **Ja** aus.  
 
 ## <a name="creating-the-sales-order"></a>Erstellen des Verkaufsauftrags
 
@@ -104,13 +109,13 @@ Verkaufsaufträge sind die häufigste Art des ausgehenden Herkunftsbelegs.
 
 ### <a name="to-create-the-sales-order"></a>Den Verkaufsauftrag erstellen
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ zum dritten Mal öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den entsprechenden Link aus.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Erstellen Sie einen Verkaufsauftrag für den Debitor 10000 auf das Arbeitsdatum (23. Januar) mit den folgenden Verkaufszeilen.  
 
     |Artikel|Lagerortcode|Menge|  
     |----|-------------|--------|  
-    |LS_81|SILBER|30|  
+    |1928-S|SÜD|30|  
 
      Fahren Sie fort, das Lager zu informieren, dass die Verkaufsbestellung in Lagerdurchlaufzeit bereit ist, wenn die Lieferung eingeht.  
 
@@ -124,7 +129,7 @@ Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivi
 
 ### <a name="to-pick-and-ship-items"></a>So kommissionieren Sie Artikel und liefern diese aus
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerkommissionierungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ zum vierten Mal öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerkommissionierungen** ein, und wählen Sie dann den entsprechenden Link aus.  
 2. Wählen Sie die Aktion **Neu**.  
 
     Stellen Sie sicher, dass das Feld **Nr.** auf dem Inforegister **Allgemein** ausgefüllt ist.
@@ -137,7 +142,7 @@ Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivi
     Alternativ im Feld **Menge zu verarbeiten** geben Sie 10 und 20 jeweils auf den zwei Lagerkommissionierzeilen ein.  
 6. Wählen Sie die Aktion **Buchen** und **Versand** und klicken Sie anschließend auf die Schaltfläche **OK**.  
 
-    Die 30 Lautsprecher werden nun erfasst, wie von den Lagerplätzen S-01-0001 und S-01-0002 kommissioniert, und ein negativer Artikelposten wird, die gebuchte Verkaufslieferung reflektierend, erstellt.  
+    Die 30 Lautsprecher werden nun erfasst, wie von den Lagerplätzen S-01-0001 und S-01-0002 kommissioniert, und es wird ein negativer Artikelposten erstellt, der gebuchte Verkaufslieferung anzeigt.  
 
 ## <a name="see-also"></a>Siehe auch
 
