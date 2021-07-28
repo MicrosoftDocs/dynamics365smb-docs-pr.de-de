@@ -1,6 +1,6 @@
 ---
-title: Erstellen Sie Artikelkarten für Services oder Waren | Microsoft Docs
-description: Sie stellen Artikelkarten für Serviceleistungen an, die Sie für physische als Stunden und Produkte, wie Montageartikel, Fertigprodukte aus der Produktion, Komponenten oder Menge verkaufen, die Sie von Ihrem Lagerbestand verkaufen.
+title: Erstellen von Artikelkarten für Waren oder Dienstleistungen
+description: Sie erstellen Artikelkarten für Dienstleistungen, die Sie als Stunden verkaufen, und für physische Produkte, wie Montage-Artikel, fertige Waren, die Sie aus Ihrem Bestand verkaufen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8948024ea1dc0bbbdbd6f2a2262e2616b35671e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785873"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435643"
 ---
 # <a name="register-new-items"></a>Neue Artikel registrieren
 
@@ -40,7 +40,7 @@ Im folgenden Verfahren wird erläutert, wie Sie eine Objektkarte von Grund auf n
 
 ## <a name="to-create-a-new-item-card"></a>So erstellen Sie eine neue Artikelkarte
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Artikel** die Aktion **Neu** aus.
 
     Wenn nur eine Artikelvorlage vorhanden ist, öffnet sich eine neue Artikelkarte bei der einige Felder mit Informationen aus der Vorlage ausgefüllt sind.
@@ -77,7 +77,7 @@ Wenn Sie Artikel registrieren möchten, die dann in Fertigungsaufträgen verwend
 
 Wenn Sie den gleichen Artikel von mehr als einem Kreditoren einkaufen, müssen Sie die benötigten Informationen für jeden Kreditor eingeben. Dies umfasst z. B. Preise, Lieferzeit, Rabatte usw.  
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Bearbeiten** aus.  
 3. Wählen Sie die Aktion **Kreditoren** aus.  
 4. Wählen Sie das Feld **Kreditorennr.**, und wählen Sie den Kreditor aus, den Sie für den Artikel einrichten möchten.  
@@ -100,7 +100,13 @@ Wenn Sie einen neuen Artikel erfassen, werden Felder angezeigt, die sich auf die
 
 Wenn Ihre Organisation später die Lagerverwaltung einrichtet, müssen Sie in den meisten Fällen zu jedem vorhandenen Artikel zurückkehren, um sicherzustellen, dass zu diesem die richtigen Informationen in den verschiedenen Feldern vorhanden sind, damit die Lagerprozesse wie erwartet ausgeführt werden können. Diese Informationen können Felder wie **Lagerklassencode** oder **Einlagerungsvorlagencode** umfassen. Weitere Informationen finden Sie unter [Designdetails: Lagerhaus einrichten](design-details-warehouse-setup.md).  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="planning"></a>Planung
+
+Wenn Ihre Firma die Prozesse der Lieferplanung in [!INCLUDE [prod_short](includes/prod_short.md)] verwendet, müssen Sie die entsprechenden Felder auf dem Inforegister **Planung** ausfüllen. Eine Einführung in den Planungsbereich finden Sie unter [Details zur Planung: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md).  
+
+Beispiele für die Verwendung der Felder auf der Inforegisterkarte **Planung** finden Sie unter [Bewährte Verfahren für die Einrichtung: Planungsparameter](setup-best-practices-planning-parameters.md).  
+
+## <a name="see-also"></a>Weitere Informationen
 
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einheiten einrichten](inventory-how-setup-units-of-measure.md)  
@@ -110,6 +116,12 @@ Wenn Ihre Organisation später die Lagerverwaltung einrichtet, müssen Sie in de
 [Buchungsgruppen einrichten](finance-posting-groups.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)  
+[Info zu Planungsfunktionen](production-about-planning-functionality.md)  
+[Bewährte Einrichtungsmethoden: Planungsparameter](setup-best-practices-planning-parameters.md)  
+[Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
+[Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)  
+[Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
+[Designdetails: Planungsparameter](design-details-planning-parameters.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

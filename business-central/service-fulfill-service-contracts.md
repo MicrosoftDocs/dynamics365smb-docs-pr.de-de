@@ -1,6 +1,6 @@
 ---
-title: Überblick zu Aufgaben, Serviceverträge zu erfüllen | Microsoft Docs
-description: Gliederungsaufgaben, Serviceverträge mit Kunden verwalten.
+title: Übersicht der Aufgaben zum Erfüllen von Serviceverträgen
+description: Umreißt die Aufgaben, die mit der Erfüllung von Serviceverträgen mit Ihren Debitoren verbunden sind, wie das Festlegen von Standard-Vertragsvereinbarungen mit anpassbaren Vorlagen und mehr.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 271e9ef14937ebd1b2bb7a8932f2f561d7a6f2ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 343308cb004ada356eaad14e620f29fb9cf043ee
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778297"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326813"
 ---
 # <a name="fulfilling-service-contracts"></a>Erfüllen von Serviceverträgen 
 Eine Möglichkeit zum Einrichten eines Servicemanagementgeschäfts besteht darin, dass standardmäßige vertragliche Vereinbarungen zwischen Ihnen und den Debitoren bestehen, in denen die Qualität des Services und die Erwartungen daran beschrieben werden. Ein derartiges System kann implementiert werden, indem eine Möglichkeit zum einfachen Erstellen von Vertragsvorlagen geboten wird, die erforderliche Informationen, wie Startdatum des Vertrags und Rechnungsperiode, beinhalten.  

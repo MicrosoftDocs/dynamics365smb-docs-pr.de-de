@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c7f30b26c05be77fd8c601635c58399198e2f595
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785748"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435547"
 ---
 # <a name="set-up-units-of-measure"></a>Einheiten einrichten
 
@@ -30,7 +30,7 @@ Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einhe
 
 ## <a name="to-set-up-units-of-measure"></a>So richten Sie Einheiten ein
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Maßeinheiten** ein, und wählen Sie dann die entsprechende Verknüpfung.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Maßeinheiten** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**. Eine neue leere Zeile wird eingefügt.  
 3. Füllen Sie die Felder aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Wenn Sie wissen, dass Ihre Organisation Artikel mit dieser Einheit an Kunden in anderen Ländern verkauft, können Sie Übersetzungen hinzufügen.  
@@ -43,7 +43,7 @@ Wenn Sie einen neuen Artikel registrieren, können Sie die Einheit aus der Liste
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>So richten Sie mehrere Einheiten für Artikel ein
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte des Artikels, für die Sie alternative Einheiten einrichten möchten.
 3. Wählen Sie die **Einheiten** Aktion aus. Die Seite **Artikeleinheiten** wird geöffnet.
 4. Wenn das Feld **Basismaßeinheit** auf der Artikelkarte ausgefüllt wird, ist diese Maßeinheit bereits eingerichtet.
@@ -63,7 +63,7 @@ Sie können jetzt die alternativen Einheiten für Einkaufs-, Produktions- und Ve
 
 Wenn Sie Artikel an ausländische Debitoren verkaufen, können Sie die Einheit in der Sprache des Debitors angeben. Dies können Sie tun, nachdem Sie die erforderlichen Einheitenübersetzungen eingerichtet haben.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Maßeinheiten** ein, und wählen Sie dann die entsprechende Verknüpfung.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Maßeinheiten** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen**.
 3. Wählen Sie im Feld **Sprachcode** auf den Dropdown-Pfeil, um eine Übersicht über die verfügbaren Sprachcodes anzuzeigen. Wählen Sie den Sprachcode, für den Sie eine Übersetzung eingeben möchten, und wählen Sie dann die Schaltfläche OK, um den Code in das Feld zu kopieren.
 4. Geben Sie in dem Feld **Beschreibung** den entsprechenden Text ein.
@@ -73,7 +73,7 @@ Wenn Sie Artikel an ausländische Debitoren verkaufen, können Sie die Einheit i
 
 Wenn Sie normalerweise in Einheiten kaufen und verkaufen, die von der Basiseinheit abweichen, können Sie für Einkäufe und Verkäufe eigene Einheiten festlegen. Dazu müssen die  Einheiten auf der Seite **Artikeleinheiten** eingerichtet worden sein.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikel** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die entsprechende Artikelkarte, für die Sie einen Vorgabe-Einheitencode für Einkaufs- oder Verkaufsvorgänge festlegen möchten.
 3. Öffnen Sie im Inforegister **Fakturierung** im Feld **Verkaufseinheitencode** die Seite **Artikeleinheiten**.
 4. Öffnen Sie im Inforegister **Beschaffung** im Feld **Einkaufseinheitencode** die Seite **Artikeleinheiten**.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 018e0ebdb96e155959fc0042e4c2a9b778ecffb0
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947489"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373238"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Fehlersuche und Korrektur von Dimensionen
 Finanzberichte und Analyseansichten stützen sich oft auf Daten aus Dimensionen. Trotz der vorhandenen Sicherheitsvorkehrungen passiert manchmal ein Fehler, der zu Ungenauigkeiten führen kann. In diesem Thema werden einige der typischen Fehler beschrieben und es wird erklärt, wie Sie Dimensionszuordnungen auf gebuchten Transaktionen korrigieren können, damit die Finanzberichte korrekt sind.
@@ -108,4 +108,18 @@ Wenn eine Korrektur nicht abgeschlossen ist, wird auf der Korrekturkarte eine Wa
 > Das Zurücksetzen einer unvollständigen Korrektur wirkt sich nicht auf Aktualisierungen der Analyseansichten aus, da diese am Ende des Korrekturprozesses erfolgen.
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Verwenden von Kostenrechnung mit korrigierten Sachkonteneinträgen
-Nachdem Sie die Dimensionen korrigiert haben, sind Ihre Daten für die Kostenrechnung nicht mehr synchron. Die Kostenrechnung verwendet Dimensionen, um Beträge für Kostenstellen und Kostenobjekte zu aggregieren und Kostenzuordnungen durchzuführen. Das Ändern der Abmessungen für Sachkontenbuchungen bedeutet wahrscheinlich, dass Sie Ihre Kostenrechnungsmodelle erneut ausführen. Ob Sie nur einige Kostenregister löschen und Zuordnungen erneut ausführen müssen oder alles löschen und alle Ihre Modelle erneut ausführen müssen, hängt von den aktualisierten Daten und der Einrichtung Ihrer Kostenrechnungsfunktionen ab. Es ist ein manueller Prozess, festzustellen, wo sich Dimensionskorrekturen auf die Kostenrechnung auswirken und wo Aktualisierungen erforderlich sind. [!INCLUDE[prod_short](includes/prod_short.md)] bietet derzeit keine automatisierte Möglichkeit, dies zu tun.
+Nachdem Sie die Dimensionen korrigiert haben, sind Ihre Daten für die Kostenrechnung nicht mehr synchron. Die Kostenrechnung verwendet Dimensionen, um Beträge für Kostenstellen und Kostenobjekte zu aggregieren und Kostenzuordnungen durchzuführen. Das Ändern der Abmessungen für Sachkontenbuchungen bedeutet wahrscheinlich, dass Sie Ihre Kostenrechnungsmodelle erneut ausführen. Ob Sie nur einige Kostenregister löschen und Zuordnungen erneut ausführen müssen oder alles löschen und alle Ihre Modelle erneut ausführen müssen, hängt von den aktualisierten Daten und der Einrichtung Ihrer Kostenrechnungsfunktionen ab. Die Identifizierung, wo sich Dimensionskorrekturen auf die Kalkulation auswirken und wo Aktualisierungen erforderlich sind, ist ein manueller Prozess. [!INCLUDE[prod_short](includes/prod_short.md)] bietet derzeit keine automatisierte Möglichkeit, dies zu tun.
+
+## <a name="correcting-number-assignments-for-global-dimensions"></a>Korrektur von Zahlenzuweisungen für globale Dimensionen
+In der Tabelle Dimensionssatzeintrag werden globale Dimensionen im Feld Shortcut-Dimensionsnummer mit **0** festgelegt. zugewiesen, und Verknüpfungsdimensionen erhalten die Nummer ihrer Verknüpfungsdimension, die 1 bis 8 sein kann. Einige Berichte verwenden diese Nummernzuweisungen, um die in Berechnungen zu verwendenden Werte zu bestimmen.
+
+Wenn Dimensionswerte mit Hilfe von Konfigurationspaketen importiert werden, die erstellt wurden, ohne dass Validierungsauslöser ausgeführt wurden, oder wenn angepasster Code verwendet wird, um die Methoden „Einfügen“ oder „Ändern“ aufzurufen, ohne dass die Validierungsauslöser „OnInsert“ oder „OnModify“ ausgeführt werden, wird den Verknüpfungsdimensionen manchmal eine Nummer zugewiesen, die nicht 0 ist. Wenn dies geschieht, sind die Berechnungen für Dimensionen in wiederkehrenden Allgemeinen Erfassungen, die die Methoden BD-Saldo nach Konto oder BD-Saldo nach Dimensionen verwenden, nicht korrekt. 
+
+Wenn eine falsche Nummer zugewiesen wird, wird beim Versuch, Erfassungen auf der Seite **Wiederkehrende Allgemein-Journale** zu buchen oder eine Vorschau anzuzeigen, die Seite **Fehlermeldungen** angezeigt. Auf der Seite „Fehlermeldungen“ können Sie den Link im Feld **Quelle** wählen, um einen Bericht auszuführen, der die Zuordnungen von Abkürzungsnummern für Dimensionen in der Tabelle „Dimensionssatz-Eingabe“ korrigiert. Alternativ können Sie auch nach **Verknüpfte Shortcut-Dimensionsnr. für Dimensionssatzeinträge aktualisieren** suchen, um den Bericht auszuführen.
+
+Nachdem Sie den Bericht ausgeführt haben, können Sie auf der Seite **Protokolleinträge ändern** die Änderungen an der Nummer in der globalen Dimensionsnr. überprüfen. Feld eingetragen. [!INCLUDE[prod_short](includes/prod_short.md)] zeichnet immer den vorherigen und den neuen Wert auf. 
+
+## <a name="see-also"></a>Weitere Informationen
+[Dimension Set Einträge Übersicht](design-details-dimension-set-entries-overview.md)
+[Arbeiten mit Dimensionen](finance-dimensions.md)
+[Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)

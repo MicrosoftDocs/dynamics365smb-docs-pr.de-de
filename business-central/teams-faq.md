@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: f3c9626fa73247b2109e5f179aef405e80b44b07
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 325783df3cacd37250c1efa75320386ef9c4cb19
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074640"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341508"
 ---
 # <a name="teams-faq"></a>Teams FAQ
 
@@ -321,12 +321,15 @@ Gäste haben keinen Zugriff auf den App-Marktplatz, um Apps selbst zu installier
 
 ---
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] und Microsoft Teams Integration Übersicht](across-teams-overview.md)  
-[Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md)  
+[Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  
+[Suchen Sie nach Debitoren, Kreditoren und anderen Kontakten aus Microsoft Teams](across-search-contacts-teams.md)  
+[Datensätze in Microsoft Teams freigeben](across-working-with-teams.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
-[Entwicklung für die Teams-Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Ändern von Firmen- und anderen Einstellungen in Teams](across-teams-settings.md)  
+[Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 

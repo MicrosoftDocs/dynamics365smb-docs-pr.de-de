@@ -1,6 +1,6 @@
 ---
-title: Designdetails - Lagerhaus Einrichten | Microsoft Docs
-description: Lagerfunktionen in Business Central enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist.
+title: Entwurfsdetails – Einrichtung des Lagers
+description: Die Funktionalität des Lagers enthält verschiedene Komplexitätsstufen, die größtenteils durch die Einrichtung der Lagerplätze auf den Lagerortkarten definiert werden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 4346b3a2570710f09d5deaded2788274155f1a5a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: c0559ef10dd8051b64d919b8a27d3af11cce2819
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214778"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325160"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetails: Lagereinrichtung
 

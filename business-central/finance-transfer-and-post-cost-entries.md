@@ -1,6 +1,6 @@
 ---
-title: Übertragung und Buchung von Kostenzuteilungen | Microsoft Docs
-description: 'Bevor Sie Kostenzuweisungen definieren, müssen Sie verstehen, woher Kostenzuteilungen stammen:'
+title: Übertragung und Buchung von Kostenzuteilungen
+description: Bevor Sie Kalkulationen definieren, müssen Sie die verschiedenen Quellen verstehen, aus denen Kosteneinträge stammen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 44e4cd72043d2079a969292cfd71f16c393da582
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770938"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435822"
 ---
-# <a name="transferring-and-posting-cost-entries"></a>Übertragung und Buchung von Kostenzuteilungen
+# <a name="transferring-and-posting-cost-entries"></a>Übertragen und Buchen von Kalkulationen
 Bevor Sie Kostenzuteilungen definieren, müssen Sie verstehen, wie Kostenposten aus den folgenden Quellen stammen:  
 
 -   Automatischer Transfer von Sachposten.  
@@ -52,16 +52,16 @@ Bevor Sie den Vorgang für das Übertragen von Sachposten in Kostenposten durchf
 
 ### <a name="to-prepare-the-transfer"></a>So bereiten Sie die Übertragung vor  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kostenrechnungseinrichtung** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kostenrechnungseinrichtung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Stellen Sie auf der Seite **Kostenrechnungseinrichtung** sicher, dass im Feld **Startdatum für Sachkontenübertragung** der richtige Wert eingetragen ist.  
-3.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Diagramm der Kostenarten** ein und wählen Sie dann den entsprechenden Link.  
+3.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kostenartenplan** ein und wählen Sie dann den zugehörigen Link.  
 4.  Auf der Seite **Kostenartkarte** prüfen Sie, dass das **Sachkontobereich** Feld für jede Kostenart korrekt verknüpft ist, um Posten aus dem Sachkonto zu übernehmen.  
-5.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kontenplan** ein und wählen Sie dann den entsprechenden Link.  
+5.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 6.  Überprüfen Sie für jedes Sachkonto auf der Seite **Sachkontokarte**, ob die **Kostenartnr.** Feld wird korrekt zu einer Kostenart verknüpft. Weitere Informationen finden Sie unter [Einrichten von Kostenrechnung](finance-set-up-cost-accounting.md).  
 7.  Vergewissern Sie sich, dass alle entsprechenden Sachposten Dimensionswerte haben, die einer Kostenstelle und zu einem Kostenträger entsprechen.  
 
 ### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>So übertragen Sie Sachposten in Kostenposten  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Sachkonteneinträge zur Kostenrechnung übertragen** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Sachposten in Kostenrechnung übertragen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie auf Schaltfläche **OK**, um die Umlagerung zu starten. Der Prozess überträgt alle Sachposten, die nicht bereits übertragen wurden.  
 
     Während der Übertragung erstellt der Vorgang Verknüpfungen in den Posten **Posteneintrag** und **Kostentabelle**. Dies ermöglicht es Ihnen, die Herkunft von Kostenposten nachzuverfolgen.

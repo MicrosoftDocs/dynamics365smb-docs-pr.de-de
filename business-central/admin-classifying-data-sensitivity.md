@@ -7,15 +7,15 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: 9c015d60d0f34b35b12e0a39ca8d2b99c6e09848
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: b5df66798db4a77504176d03bd46156d5d99fc56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773179"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326538"
 ---
-# <a name="classifying-data-sensitivity"></a>Datensensitivität klassieren
+# <a name="classifying-data-sensitivity-fields"></a>Klassifizieren von Datensensitivitätsfeldern
 Um die Felder zu klassifizieren, die vertrauliche oder Personendaten enthalten, kann ein Microsoft Partner die Eigenschaft ```DataClassification``` auf Felder setzen. Dazu müssen Zugriff auf die Datenbanktabellen haben, entweder über die Entwicklungsumgebung oder indem ein Windows PowerShell-Skript ausgeführt wird. Weitere Informationen finden Sie unter [Daten klassieren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Als Debitor können Sie eine zweite Ebene der Klassierung hinzufügen, indem Sie die Empfindlichkeitsebenen für die Daten festlegen, die Sie in den Feldern Standard und Benutzerdefiniert speichern. Datenempfindlichkeit klassifizieren hilft sicherzustellen, dass Sie wissen, wo Sie Personendaten im System erfasst haben und macht es einfacher, auf Anforderungen von Datensubjekten zu reagieren. Wenn ein Kontakt oder Debitor Sie auffordert, die Personendaten zu exportieren. Weitere Informationen finden Sie unter [Antworten auf Anforderungen zu Personendaten](admin-responding-to-requests-about-personal-data.md).

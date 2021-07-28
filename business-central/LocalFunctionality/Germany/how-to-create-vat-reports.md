@@ -1,6 +1,6 @@
 ---
-title: 'Gewusst wie: MwSt.-Berichte erstellen'
-description: Verschiedene Arten von MwSt.-Erklärungen können basierend auf Anforderungen konfiguriert werden. Wenn Sie dann eine MwSt buchen müssen, können Sie sie auf der Seite MwSt Bericht erstellen und dann im elektronischen Format exportieren, das an die Anforderungen des ELMA5 Formats sich anpaßt.
+title: Wie Sie MwSt.-Berichte erstellen [DE]
+description: Sie können verschiedene Arten von MwSt.-Berichten im elektronischen Format konfigurieren, die den ELMA5-Formatanforderungen entsprechen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: ac287a977d8af978a038d5d401db71cc46b72de9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f58b7096e9c73fbc83e595ead8b0b28f3c71f153
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786405"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435883"
 ---
-# <a name="create-vat-reports"></a>Erstellen von MwsT-Berichten.
+# <a name="create-vat-reports-in-the-german-version"></a>Erstellen von MwSt.-Berichten in der deutschen Version
 Verschiedene Arten von MwSt.-Erklärungen können basierend auf Anforderungen konfiguriert werden. Wenn Sie dann eine MwSt buchen müssen, können Sie sie auf der Seite **MwSt Bericht** erstellen und dann im elektronischen Format exportieren, das an die Anforderungen des ELMA5 Formats sich anpaßt.  
 
 ## <a name="to-create-a-vat-report"></a>Einen MwSt.-Bericht erstellen:  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") öffnet, geben Sie **MwSt.-Bericht** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **MwSt.-Bericht** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  

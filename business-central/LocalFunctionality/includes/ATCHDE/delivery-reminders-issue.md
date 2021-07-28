@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7cab5533c038dda6082a0455bf480779f143854e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 70d4e0ac0729f8d259f87c65915dfafd8749abbd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777573"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435185"
 ---
 Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren verschicken können. Vor dem Ausstellen von Lieferanmahnnungen können Sie einen Testbericht drucken.  
 
@@ -17,7 +17,7 @@ Beim Registrieren der Lieferantenbenachrichtigungen erzeugt die Anwendung Liefer
 
 ## <a name="to-issue-delivery-reminders"></a>So registrieren Sie Lieferbenachrichtigungen  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“](../../../media/ui-search/search_small.png "Tell me-Funktion") öffnet, geben Sie **Lieferbenachrichtigung** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Lieferbenachrichtigungen** wählen Sie die Lieferbenachrichtigungen aus, die Sie registrieren möchten, und wählen die **Bearbeiten** Aktion aus.  
 3. Wählen Sie die Aktion **Ausgeben** aus.  
 4. Füllen Sie die Felder auf der Seite **Lieferanmahnung registrieren** gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -39,7 +39,7 @@ Sie können das Fenster registrierte Mahnungen anzeigen auf der Seite **Registri
 
 ## <a name="to-view-delivery-reminder-ledger-entries"></a>Um sich detaillierte Lieferbenachrichtigungen anzeigen zu lassen:  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](../../../media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Einkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Bestellung, für die Sie den Mahnungsstatus anzeigen möchten, und wählen die Aktion **Bearbeiten**.  
 3. Wählen Sie die Aktion **Lieferbenachrichtigungs-Einträge** aus.  
 

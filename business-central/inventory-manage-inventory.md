@@ -1,6 +1,6 @@
 ---
-title: Verwaltung von Bestand | Microsoft Docs
-description: Beschreibt, wie physischen Produkte verwaltet werden, die Sie im Lagerbestand in Ihrem Lager verwalten.
+title: Lagerbestand verwalten
+description: In diesem Thema wird beschrieben, wie Sie die physischen Produkte, die Sie in Zahlung nehmen, verwalten, indem Sie eine Karte für Lagerartikel erstellen.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f72ef570151babaa9bf32150c214e82374ddd0ec
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 24337d2cd96e4511f1917980c94af407381e96d2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780757"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325318"
 ---
-# <a name="inventory"></a>Lagerbestand
+# <a name="how-to-manage-inventory"></a>So verwalten Sie den Bestand
 Für jedes physische Produkt, mit dem Sie handeln, müssen Sie eine Artikelkarte vom Typ **Lagerbestand** erstellen. Artikel, die Sie Debitoren anbieten, aber nicht im Lager führen, können als Katalogartikel erfassen werden und Sie können Sie bei Bedarf in Lagerartikel konvertieren. Sie können die Menge eines Artikels im Lager erhöhen oder vermindern, indem Sie direkt in den Artikelposten buchen, beispielsweise nach einer physischen Zählung oder falls keine erworbenen Mengen erfasst wurden.
 
 Lagerzugänge und Abgänge werden natürlich auch erfasst, wenn Sie Einkaufs- und Verkaufsbelege buchen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md), [Produkte verkaufen](sales-how-sell-products.md) und [Fakturieren eines Verkaufs](sales-how-invoice-sales.md). Umlagerungen zwischen Lagerorten ändert Lagerbestandsmengen in den Lagern Ihres Mandanten.   

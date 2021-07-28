@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Artikel montieren | Microsoft Docs'
-description: Wenn das Feld **Beschaffungsmethode** auf der Artikelkarte **Montage** enthält, besteht die Standardmethode zur Bereitstellung des Artikels darin, es aus definierten Komponenten und eventuell mit einer definierten Ressource zu montieren.
+title: So montieren Sie Artikel
+description: Wenn das Feld Wiederbeschaffungssystem auf der Artikelkarte Montage enthält, besteht die Standardmethode zur Vorratsbeschaffung darin, den Artikel aus definierten Komponenten zusammenzubauen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d84241bf78b1e6f8ae6cfc053a80e030cb960814
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6fd6e5e90c8307c76868570642a216387d86641d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773004"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435494"
 ---
 # <a name="assemble-items"></a>Artikel montieren
 Wenn das Feld **Beschaffungsmethode** auf der Artikelkarte **Montage** enthält, besteht die Standardmethode zur Bereitstellung des Artikels darin, es aus definierten Komponenten und eventuell mit einer definierten Ressource zu montieren.  
@@ -41,7 +41,7 @@ Diese Einrichtungsoptionen sind Standardeinstellungen, die verwalten, wie Verkau
 In diesem Verfahren erstellen und verarbeiten Sie einen Montageauftrag für Artikel, die für das Lager montiert werden, d. h. ohne einen verknüpften Verkaufsauftrag. Die Schritte enthalten das Initiieren des Montageauftrags, die Behandlung potenzieller Komponentenverfügbarkeitsprobleme und die Teilbuchung des Montageartikelausstoßes.
 
 ## <a name="to-assemble-an-item"></a>Um einen Artikel zu montieren  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Montageaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Montageaufträge** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus. Die Seite **Neuer Montageauftrag** wird geöffnet.  
 3.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Wählen Sie im Feld **Artikelnr.** den Montageartikel aus, den Sie verarbeiten möchten. Das Feld wird gefiltert, um nur Artikel angezeigt, die für die Montage eingerichtet sind, d.h., denen Montagestücklisten zugeordnet sind.  

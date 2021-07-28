@@ -1,5 +1,5 @@
 ---
-title: QuickBooks Online-Migrationserweiterung | Microsoft Docs
+title: QuickBooks Online Datenmigration-Erweiterung
 description: Beschreibt, wie die Erweiterung verwendet wird, um Debitoren, Kreditoren, Artikel und Konten aus QuickBooks Online zu Business Central zu migrieren.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6481eeb46116d02240c6f6a0201cb633f572822a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da9317d338c095f20ab18fb157bec0270d4a9c8f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785010"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434892"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Die QuickBooks Online-Datenmigrations-Erweiterung
 
@@ -54,7 +54,7 @@ Wenn Transaktionen in QuickBooks Online Steuerbeträge haben, müssen Sie ein St
 
 Erste Schritte sind einfach. Sie müssen nur das unterstütze Einrichtungshandbuch **Datenmigration** ausführen. So geht es:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann **Geschäftsdaten migrieren**.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann **Geschäftsdaten migrieren**.
 2. Befolgen Sie die Anweisungen für jeden Schritt im unterstützten Anleitungshandbuch.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Was tue ich, nachdem ich Daten migriert habe?

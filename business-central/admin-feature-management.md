@@ -5,16 +5,16 @@ author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: 01bfa8829b1699d4f1c2a8da4e9e57d016fe12ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e42dd99f10bb1ddb9b3345b96929a62220bf157e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774180"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325064"
 ---
-# <a name="enabling-upcoming-features-ahead-of-time"></a>Bevorstehende Funktionen im Voraus aktivieren
+# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Neue und künftige Funktionen im Voraus aktivieren
 
 Einige neue Funktionen können im Voraus aktiviert werden, sodass Sie sie so früh wie möglich nutzen können. Durch das frühzeitige Aktivieren von Funktionen haben Sie Zeit, Ihre Organisation zu testen und auf Änderungen vorzubereiten.
 

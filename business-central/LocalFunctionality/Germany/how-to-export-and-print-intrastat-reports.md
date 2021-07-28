@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 24c0d133b2ba42211dec88b2eeec7580afd08479
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ea1cf93bf33ecf36dbefe1de1fceabe16e743ed3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786675"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435879"
 ---
 # <a name="export-and-print-intrastat-reports"></a>Exportieren und Drucken von Intrastat-Berichten
 Intrastat-Berichterstattung ist in der gesamten Europäischen Union (EU) erforderlich und muss landesbezogenen Anforderungen entsprechen (beispielsweise bestimmten Formaten und Dateien). Alle Unternehmen innerhalb der EU sind verpflichtet, Auskunft über ihre Handelsaktivitäten mit anderen EU-Ländern zu geben. Warenbewegungen müssen jeden Monat dem Statistischen Amt Ihres Landes/Ihrer Region mitgeteilt und die Berichte müssen an die Steuerbehörden übermittelt werden.  
@@ -24,7 +24,7 @@ Intrastat-Berichterstattung ist in der gesamten Europäischen Union (EU) erforde
 
 ## <a name="to-print-the-german-intrastat-checklist"></a>So drucken Sie die Intrastat-Checkliste für Deutschland  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Intrastat Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Intrastat Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie im Feld **Buch.-Blattname** den erforderlichen Buch.-Blattnamen aus.
 3.  Wählen Sie die **Bericht-Checkliste** Aktion aus.  
 4.  Aktivieren Sie auf der Seite **Intrastat - Checklist DE** im Inforegister **Optionen** das Kontrollkästchen **Intrastat-Buch.-Blattzeilen anzeigen**.  
@@ -38,7 +38,7 @@ Intrastat-Berichterstattung ist in der gesamten Europäischen Union (EU) erforde
 
 ## <a name="to-print-the-german-intrastat-form"></a>So drucken Sie das Intrastat-Formular für Deutschland  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Intrastat Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Intrastat Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie im Feld **Buch.-Blattname** den erforderlichen Buch.-Blattnamen aus.  
 3.  Wählen Sie die Aktion **Formular** aus.  
 4.  Optional wählen Sie im Inforegister **Intrastat Buch.-Blattname** die entsprechenden Filter aus.  
@@ -47,7 +47,7 @@ Intrastat-Berichterstattung ist in der gesamten Europäischen Union (EU) erforde
 
 ## <a name="to-export-intrastat-information-to-a-disk"></a>So exportieren Sie Intrastat-Informationen auf einen Datenträger  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Intrastat Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Intrastat Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie im Feld **Buch.-Blattname** den erforderlichen Buch.-Blattnamen aus.  
 3.  Wählen Sie die **Diskette erstellen** Aktion aus.  
 4.  Geben Sie im Inforegister **Optionen** im Feld **Pfad** den vollständigen Pfad und Namen der Datei ein, in die Sie die Informationen schreiben möchten.  

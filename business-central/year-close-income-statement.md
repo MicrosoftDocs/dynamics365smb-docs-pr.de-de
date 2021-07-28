@@ -1,5 +1,5 @@
 ---
-title: Schließen Sie GuV-Berichte | Microsoft Docs
+title: Schließen Sie GuV-Konten
 description: Am Jahresende beispielsweise müssen Sie die Stapelverarbeitung "GuV-Konten Nullstellung" laufen lassen, um die Buchhaltungsperioden zu schließen, aus der sich das Geschäftsjahr zusammensetzt.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 843d5b766d9b840e27f4423854caaae66efb0805
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 44e2d34ee4af32bcb901a66ae7e45b45ac274bd5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775015"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435747"
 ---
-# <a name="close-income-statement-accounts"></a>Schließen Sie GuV-Konten
-Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, geschlossen werden. Verwenden Sie dazu den Stapelverarbeitungsjob **GuV-Konten Nullstellung**. Dieser Job überträgt die Ergebnisse des Jahrs auf ein Bilanzkonto und führt die GuV-Kontennullstellung durch. Hierfür erstellen Sie Zeilen in einem Buch.-Blatt, die Sie dann buchen können.
+# <a name="closing-income-statement-accounts"></a>GuV-Konten Nullstellung
+Wenn ein Geschäftsjahr zu Ende ist, müssen Sie die Perioden, aus denen es besteht, abschließen. Verwenden Sie dazu den Stapelverarbeitungsjob **GuV-Konten Nullstellung**. Dieser Job überträgt die Ergebnisse des Jahrs auf ein Bilanzkonto und führt die GuV-Kontennullstellung durch. Hierfür erstellen Sie Zeilen in einem Buch.-Blatt, die Sie dann buchen können.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Verwenden Sie dazu den Stapelverarbeitungsjob GuV-Konten Nullstellung.
 1. Schließen Sie das Geschäftsjahr ab. Das Geschäftsjahr muss geschlossen werden, bevor die Stapelverarbeitung aufgerufen werden kann. Weitere Informationen finden Sie unter [Abschließen von Buchhaltungsperioden](year-close-account-periods.md).
-2. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **GuV-Konten Nullstellung** ein und wählen Sie dann den entsprechenden Link.
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gewinn- und Verlustrechnung Nullstellung abschließen** ein, und wählen Sie dann den zugehörigen Link.
 3. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Mehr Informationen zum Stapelverarbeitungsjob GuV-Konten Nullstellung.

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 05b65f5b001259fff25d0f59dfc6267d9ee00c7f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 42cb5f19dde06211136b0b3b276fed2ba267ec62
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782253"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435269"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Führen Sie Stapeljobs und XMLports aus
 Bei einer Stapelverarbeitung handelt es sich um einen Vorgang, bei dem Daten stapelweise verarbeitet werden, beispielsweise bei der Stapelverarbeitung **Wechselkurs regulieren**. Es stehen Stapelverarbeitungen für periodische Buchhaltungsaktivitäten zur Verfügung, beispielsweise zum Abschließen der GuV am Ende eines Geschäftsjahrs. Viele Stapelverarbeitungen dienen zum Ausführen von Berechnungsaufgaben – beispielsweise zum Berechnen von Zuschlägen, Wechselkursregulierungen oder VK-Preisen.
@@ -27,7 +27,7 @@ Eine Stapelverarbeitung gleicht einem Bericht, die Ergebnisse der Stapelverarbei
 Sie können planen, wann ein Stapeljob ausgeführt wird. Weitere Informationen finden Sie unter [Vorgehensweise: Projektwarteschlangen nutzen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md)
 
 ## <a name="to-run-a-batch-job"></a>So führen Sie eine Stapelverarbeitung aus:
-1. Um die Anforderungsseite für den entsprechenden Batch-Job zu öffnen, wählen Sie die Seite ![Glühbirne, die das Symbol Tell Me feature](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie den Namen des Batch-Jobs ein und wählen Sie dann den entsprechenden Link.
+1. Um die Anforderungsseite für den entsprechenden Batch-Auftrag zu öffnen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie den Namen des Batchauftrags ein und wählen Sie dann den zugehörigen Link.
 2. Ist für die Stapelverarbeitung ein Inforegister vom Typ **Optionen** verfügbar, füllen Sie die Felder aus, um die Stapelverarbeitung zu konfigurieren.
 3. Die Seite kann mehrere Inforegister mit Filtern enthalten, mit denen sich die in die Stapelverarbeitung einzubeziehenden Daten einschränken lassen. Sie können Kriterien in die vorgeschlagenen Filter eingeben oder weitere Filter hinzufügen.
 4. Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.

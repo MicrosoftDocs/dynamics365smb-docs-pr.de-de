@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 817699281ce0f3b7d057bb2e9ce4d85f97d67b48
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cd85a880bada8cc9e3ee2ce924919f06f0c5109c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772954"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435444"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Angebot eines Auftragsmontageverkaufs
 Sie können Montageverwaltung verwenden, um einen Montageartikel auf Anforderung eines Debitors während des Vertriebsprozesses anzupassen. Weitere Informationen finden Sie unter [Verkaufen von Auftragsmontageartikeln](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ Wie beim Verkauf beliebiger Artikel können Sie auch eine Verkaufsangebot für e
 >  Wie alle Arten von Angeboten, werden die Mengen in Montageangeboten nicht für die Verfügbarkeit, in der Planung oder für Reservierungen verwendet.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>So erstellen Sie ein Verkaufsangebot für einen Auftragsmontageartikel:  
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkaufsangebot** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsangebote** ein und wählen Sie dann den zugehörigen Link.  
 2.  Erstellen Sie eine Verkaufsangebotzeile mit einer Zeile für einen Montageartikel. Weitere Informationen finden Sie unter [Verkaufsangebote machen](sales-how-make-offers.md).  
 3.  Geben Sie im Feld **Menge für Auftragsmontage** die vollständige Menge ein.
 

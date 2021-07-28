@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9042f49795f5ee6bb9e0bced2b8ba48ba1e093b4
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: e84f9df3d688ccd6e6355f90e3bf76069b371d83
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115261"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341358"
 ---
 # <a name="welcome-to-prod_long"></a>Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -88,9 +88,18 @@ Sie können auch Videos mit neuen und häufig verwendeten Funktionen in unserer 
 - [Microsoft Dynamics 365 Business Central Fahrplan](https://dynamics.microsoft.com/roadmap/business-central/)
 - [Microsoft-Partners-Netzwerk \(Microsoft-Partners-Netzwerkmitgliedschaftskonto erforderlich\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Über Änderungen durch einen RSS-Feed benachrichtigt werden
+
+Um einen RSS-Feed (Really Simple Syndication) über alle Aktualisierungen der Inhalte auf docs.microsoft.com zu abonnieren, die die Business-Funktionalität für [!INCLUDE [prod_short](includes/prod_short.md)] betreffen, verwenden Sie den folgenden Link:
+
+[RSS-Feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
+
+> [!NOTE]
+> Der RSS-Feed gibt eine Liste mit den 100 Artikeln zurück, die zuletzt aktualisiert wurden. Die Liste ist nicht nach Datum sortiert.  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Dynamics 365 Business Central am Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Erste Schritte mit Business Central](ui-get-ready-business.md)  
@@ -109,7 +118,5 @@ Sie können auch Videos mit neuen und häufig verwendeten Funktionen in unserer 
 [Einführung von docs.microsoft.com (ursprünglicher Blog-Beitrag)](/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
-<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

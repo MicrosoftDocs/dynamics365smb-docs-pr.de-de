@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: bbeffd4175751e08043d79f596027a79c88503bc
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c2726efed6050dd4a2ada5e3056d446e16fb4e5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074612"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434994"
 ---
 # <a name="the-image-analyzer-extension"></a>Die Bildanalyse-Erweiterung
 
@@ -49,16 +49,16 @@ Die Bild-Analyser-Erweiterugn ist in [!INCLUDE[prod_short](includes/prod_short.m
 Führen Sie einen der folgenden Schritte aus, um die Bild-Analyser-Erweiterung auszuführen:
 
 * Öffnen Sie eine Kontaktkarte. In der Benachrichtigungsleiste wählen Sie **Bilder analysieren** und führen Sie dann die Schritte im unterstützen Einrichtungshandbuch durch.  
-* Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Serviceverbindungen** ein, und wählen Sie dann **Bildanalyseeinrichtung**. In der Benachrichtigungsleiste wählen Sie **Bilder analysieren aktivieren** und führen Sie dann die Schritte im unterstützen Einrichtungshandbuch durch.  
+* Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Dienstverbindungen** ein, und wählen Sie dann **Bildanalyse Einrichtung**. In der Benachrichtigungsleiste wählen Sie **Bilder analysieren aktivieren** und führen Sie dann die Schritte im unterstützen Einrichtungshandbuch durch.  
 
     > [!TIP]  
     > Auf der Seite **Bildanalyse-Einrichtung** können Sie auch den Grad des Vertrauens für Attributvorschläge ändern. Wenn Sie beispielsweise einen höheren Prozentsatz an Vertrauen möchten, können Sie einen höheren Prozentsatz eingeben.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Um ein Bild eines Artikels zu analysieren
 
-Die folgenden Schritte beschreiben, wie ein Bild analysiert wird, das importiert wurde, bevor Sie die Bild-Analyse-Erweiterung aktivierten.  
+Die folgenden Schritte beschreiben, wie ein Bild analysiert wird, das importiert wurde, bevor Sie die Bildanalyse-Erweiterung aktiviert haben.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikel** ein, und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Bild analysieren** aus.  
 3. Die Seite **Bild-Analyse-Attribute** zeigt die erkannten Attribute, den Vertrauensbereich und andere Details zum Attribut an. Verwenden Sie die Option **Auszuführende Aktion** aus, um die für das Attribut auszuführenden Aktionen festzulegen, oder wählen Sie **Zur Artikelbeschreibung hinzufügen** aus, um der Artikelbeschreibung den Namen des Attributs hinzuzufügen. Beispielsweise kann dies nützlich sein, um schnell Details hinzufügen. 
 
@@ -73,18 +73,18 @@ Die Aktion **Auszuführende Aktion** stellt die folgende Optionen zur Verfügung
   * *Als Kategorie verwenden*
 
     Der ausgewählte Wert wird als Kategorie hinzugefügt. Weitere Informationen finden Sie unter [Artikel kategorisieren](inventory-how-categorize-items.md).
-  * *Zur Ausschlussliste hinzufügen*
+  * *Zur Blockliste hinzufügen*
 
-    Wenn die Analyse ein Attribut vorschlägt, das Sie nicht sehen möchten, können Sie das Attribut blockieren. Vorsicht walten lassen. Blockierte Attribute werden auch nicht für andere Artikel vorgeschlagen. Wenn Sie ein Attribut versehentlich blockiert haben, wählen Sie **Attribute auf der Ausschlussliste anzeigen** aus, und löschen dann das Attribut aus der Liste.
+    Wenn die Analyse ein Attribut vorschlägt, das Sie nicht sehen möchten, können Sie das Attribut blockieren. Vorsicht walten lassen. Blockierte Attribute werden auch nicht für andere Artikel vorgeschlagen. Wenn Sie es bedauern, ein Attribut zu blockieren, wählen Sie **Gesperrte Attribute anzeigen** und löschen dann das Attribut aus der Liste.
   
     > [!NOTE]  
     > **Artikelattribute** zeigen standardmäßig Attribute an, deren **Genauigkeitsbewertung** über dem **Schwellenwert Genauigkeitsbewertung in %** liegt, der im **Bildanalysator-Setup** definiert ist. Um alle erkannten Attribute anzuzeigen, wählen Sie die Aktion **Alle Attribute anzeigen** aus.
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Um ein Bild einer Kontaktperson zu analysieren
 
-Die folgenden Schritte beschreiben, wie ein Bild analysiert wird, das importiert wurde, bevor Sie die Bildanalyse-Erweiterung aktiviert haben.  
+Die folgenden Schritte beschreiben, wie Sie ein Bild analysieren, das importiert wurde, bevor Sie die Erweiterung Bildanalyse aktiviert haben.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Kontakte** ein, und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontakte** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die entsprechende Kontaktperson und wählen Sie dann die Aktion **Bild analysieren** aus.  
 3. Wählen Sie im Feld Inforegister **Profilbefragung** überprüfen Sie die Vorschläge und machen Sie Korrekturen nach Bedarf. Weitere Informationen finden Sie unter [Geschäftskontakte mit Profilfragebögen klassifizieren](marketing-create-contact-profile-questionnaire.md).  
 
@@ -104,7 +104,7 @@ Die folgenden Schritte beschreiben, wie ein Bild analysiert wird, das importiert
 
 Sie können auch Ihr eigenes Konto für die Computer Vision API verwenden, beispielsweise wenn Sie mehr Bilder analysieren möchten als wir zulassen..  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Bildanalysator-Setup** ein, und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bildanalyse-Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie die **API URI** und die **API Key** ein, die Sie für die Computer Vision API erhalten.  
 
     > [!NOTE]  
@@ -114,12 +114,12 @@ Sie können auch Ihr eigenes Konto für die Computer Vision API verwenden, beisp
 
 Sie können die Anzahl Analysen anzeigen, die Sie durchgeführt haben, und wie viele Sie noch tun können, in der laufenden Periode.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Bildanalysator-Setup** ein, und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bildanalyse-Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
 2. **Grenzentyp**, **Grenzwert** und **Analye ausgeführt** liefer die Verbrauchsdaten.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Bild-Analyzer-Erweiterung beenden
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Service-Verbindungen** ein und wählen Sie dann **Bildanalysator-Setup**.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Dienstverbindungen** ein, und wählen Sie dann **Bildanalyse-Einrichtung**.  
 2. Deaktivieren Sie das Kontrollkästchen **Bild-Analyse aktivieren**.  
 
 Sie können die Erweiterung auch vollständig deinstallieren. Sie können es jederzeit wieder von AppSource abrufen. Weitere Informationen finden Sie unter [Installieren und Deinstallieren von Erweiterungen in Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension).  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f58ee0ab43e8d43ae2d08e67cec52a9dd63ac202
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dadfa25189aa44c032dd03aee053be39d87bc4d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776641"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435909"
 ---
 # <a name="preparing-closing-statements"></a>Abschlussberichrte vorbereiten
 Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.
@@ -32,7 +32,7 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 | Drucken eines Kontenschemas zum Analysieren der Werte auf Sachkonten oder zum Vergleichen tatsächlicher Sachposten mit Finanzbudgetposten |**Kontenschema** |
 | Überprüfen, ob Debitoren- und Kreditorenposten mit den entsprechenden Sachposten ausgeglichen sind |**Deb.- & Kred.-Konten abstimmen** |
 
-Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Leuchtbirne, das das Symbol Tell Me feature](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie den Namen so ein, wie er in der Tabelle erscheint, und wählen Sie dann den entsprechenden Link.
+Um einen Bericht zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie den Namen ein, wie er in der Tabelle erscheint, und wählen Sie dann den zugehörigen Link.
 
 ## <a name="see-also"></a>Siehe auch
 [Jahre und Perioden abschließen](year-close-years-periods.md)  

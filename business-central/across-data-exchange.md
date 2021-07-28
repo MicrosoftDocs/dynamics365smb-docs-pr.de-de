@@ -1,21 +1,21 @@
 ---
-title: Elektronische Dokumente in Business Central einrichten | Microsoft Docs
-description: Einführung zum Senden und Empfang von elektronischen Dokumenten in Business Central.
+title: Elektronische Belege in Business Central
+description: Hier erhalten Sie einen Überblick über die Verwendung des Dataaustausch-Frameworks, um den Austausch von Daten in geschäftlichen Belegen wie Bankdateien und Wechselkursen zu verwalten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: d3eaa3ba03b661675a659fb78a3f6ec9dec08e52
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 41d7ca5a8ce110d2335dd6a350636d77f2bce2c3
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776247"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325813"
 ---
 # <a name="exchanging-data-electronically"></a>Daten elektronisch austauschen
 Sie können das Datenaustauschframework verwenden, um den Austausch von Geschäftsbelegen, Bankdateien, Währungswechselkursen und sämtlichen anderen Datendateien mit Ihren Geschäftspartnern zu verwalten.

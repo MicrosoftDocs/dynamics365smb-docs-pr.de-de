@@ -1,6 +1,6 @@
 ---
-title: Relationship Management | Microsoft Docs
-description: Die Relationship Management-Funktion in Business Central unterstützt Ihr Verkaufsanstrengungen und Sie können damit auf Informationen Ihrer Kontakte und auf Vermögensfunktionen effizient zugreifen.
+title: Marketing & Vertrieb
+description: Die Funktionen zur Verwaltung von Geschäftsbeziehungen unterstützen Ihre Vertriebsbemühungen und ermöglichen Ihnen den Zugriff auf Informationen über Kontakte und Interessenten, um Kunden effizient zu bedienen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3f3a6e729adcb5057b52aebd996778e74c83e01d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f37fa1be83c422062af1aafa7c19a36ee0455a2e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780607"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325686"
 ---
 # <a name="managing-relationships"></a>Verwalten von Beziehungen
 Die Marketing & Vertriebsverwaltungsfeatures von [!INCLUDE[prod_short](includes/prod_short.md)] unterstützen Sie beim Verwalten und Ausführen von Verkaufsmaßnahmen. Mit diesen Features haben Sie Zugriff auf umfassende und exakte Informationen, dank derer Sie Ihre Aktivitäten auf bevorzugte Debitoren-Kontaktsegmente konzentrieren können.

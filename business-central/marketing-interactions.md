@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f51679cfb1481632ea1f425e4a614764410c679
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d72025a95f6d12ab64ba6ec29de754bb9c318ab0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784467"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435797"
 ---
 # <a name="record-interactions-with-contacts"></a>Aktivitäten mit Kontakten aufzeichnen
 Die Einrichtung der Anwendung zur Aufzeichnung von Aktivitäten besteht aus diesen Aufgaben:
@@ -50,7 +50,7 @@ Auf dieser Seite können Sie folgende Aktivitäten durchführen:
 * Anzeigen des Status von Aktivitäten.
 * Aktivitäten als storniert markieren.
 
-Sie können Aktivitätenprotokollposten löschen, die storniert wurden. Um Interaktionsprotokolleinträge zu löschen, wählen Sie die Aktion ![Glühbirne, die das Symbol Tell Me feature](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie **Gelöschte Interaktionsprotokolleinträge löschen** ein, wählen Sie dann den entsprechenden Link und geben Sie die Informationen ein.
+Sie können Aktivitätenprotokollposten löschen, die storniert wurden. Um Interaktionsprotokolleinträge zu löschen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Stornierte Aktivitätenprotokollposten löschen** ein und wählen Sie dann den zugehörigen Link und füllen Sie die Informationen aus.
 
 ## <a name="see-also"></a>Siehe auch
 [Kontakte verwalten](marketing-contacts.md)  

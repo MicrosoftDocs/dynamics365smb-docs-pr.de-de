@@ -1,6 +1,6 @@
 ---
 title: Zertifizierungen des Dienstes
-description: Dieser Inhalt enthält Informationen über Zertifizierungen in Bezug auf Business Central.
+description: Dieser Inhalt enthält Informationen über Zertifizierungen in Bezug auf Business Central, wie z.B. regionsspezifische Zertifikate und Akkreditierungen.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 69a8012631c38e949d2aa0ccd6ba3f3d51f69b50
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c34c3843751fda22365479060fc979b2f14ea8f1
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788433"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373187"
 ---
 # <a name="certifications"></a>Bescheinigungen
 
@@ -28,7 +28,7 @@ In einigen Ländern oder Regionen muss Buchhaltungssoftware zertifiziert werden,
 > [!NOTE]
 > Nur einige Länder haben diese Anforderung.
 
-- Frankreich (Steuerprüfungs-Zertifizierung) [(Link zur Zertifizierung in Französisch)](https://certificates.infocert.org/#)<!--(https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf)-->  
+- Frankreich (Steuerprüfungszertifikat) [(Suche nach dem Produktnamen bei https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
 - Deutschland (enthält auch Österreich und die Schweiz) [(Zertifizierungs-Link in Deutsch)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
 
 > [!NOTE]  

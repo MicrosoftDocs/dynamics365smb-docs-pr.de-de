@@ -1,6 +1,6 @@
 ---
-title: Einrichten von Prozessen in Financials | Microsoft Docs
-description: Informationen zu Aufgaben, Finanzen in Ihrem Unternehmen einzurichten, um Ihrer Buchhaltung, oder Buchhaltungsanforderungen Prüfungen zu entsprechen.
+title: Finanzielle Prozesse festlegen
+description: Informieren Sie sich über die Aufgaben, die erforderlich sind, um die Finanzen in Ihrem Unternehmen so festzulegen, dass sie allen Anforderungen der Buchhaltung, der Rechnungsprüfung oder der Buchführung entsprechen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f93eaa38b07a5135aafa22b21253d1e99a8d0406
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d2763e42ae6c31a4f631457ea16b6a5bdcad40db
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788102"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327013"
 ---
 # <a name="setting-up-finance"></a>Finanzen einrichten
 Bevor Sie mit der Geschäftstätigkeit beginnen können, müssen Sie Regeln und Standardeinstellungen für die Verwaltung der Finanzprozesse für dieses Unternehmen festlegen. Richten Sie zunächst den Kern der Buchhaltungsdatensätze des Mandanten ein, den Kontenplan. Anschließend werden Buchungsgruppen eingerichtet, um das Zuordnen von standardmäßigen Sachkontobuchungskonten zu Debitoren, Kreditoren und Artikeln effizienter zu gestalten.

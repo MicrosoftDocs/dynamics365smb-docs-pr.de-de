@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Verkaufen von Auftragsmontageartikeln | Microsoft Docs'
-description: Wenn der Montageartikels für die Auftragsmontage eingerichtet ist, dann nimmt der Standard-Verkaufsauftragsprozess an, dass der Artikel nicht auf Lager ist und für den jeweiligen Verkaufsauftrag speziell montiert werden muss. Wenn Sie den Artikel auf einer Verkaufsauftragszeile eingeben, wird ein Montageauftrag automatisch erstellt und mit dem Verkaufsauftrag verknüpft.
+title: So verkaufen Sie Artikel in Programmfertigung montiert
+description: Wenn der Montageartikels für die Auftragsmontage eingerichtet ist, dann nimmt der Standard-Verkaufsauftragsprozess an, dass der Artikel nicht auf Lager ist und für den jeweiligen Verkaufsauftrag speziell montiert werden muss.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 92a1faa77132e4f26c1999411f6d8304c24dd8f7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34e869166ed3b556a91ba6c0793c60455cebfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772904"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435370"
 ---
 # <a name="sell-items-assembled-to-order"></a>Verkaufen von Auftragsmontageartikeln
 Wenn das Feld **Montagerichtlinie** auf der Artikelkarte eines Montageartikels **Auftragsmontage** anzeigt, wird nicht erwartet, dass der Artikel im Lagerbestand vorhanden ist, und er muss speziell für einen Verkaufsauftrag montiert werden. Wenn Sie den Artikel auf einer Verkaufsauftragszeile eingeben, wird ein Montageauftrag automatisch erstellt und mit dem Verkaufsauftrag verknüpft.  
@@ -29,7 +29,7 @@ Bei diesem Verfahren verarbeiten Sie den verkauf eines Artikels, der gemäß den
 >  Die folgende Vorgehensweise enthält nicht die Standard-Verkaufsauftragsschritte vor dem Schritt, in dem Sie den Auftragsmontageartikel in eine Verkaufsauftragszeile eingeben.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>So verkaufen Sie einen Auftragsmontageartikel:  
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Erstellen Sie einen Auftrag. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)  
 3.  Geben Sie im Feld **Nr.** Geben Sie im Feld Nr. einen Artikel ein, der als Auftragsmontageartikel eingerichtet ist.  
 4.  Geben Sie im Feld **Lagerortcode** den Lagerort an, von dem aus der Artikel verkauft werden wird. Der Montageprozess wird an diesem Lagerort durchgeführt.  

@@ -1,6 +1,6 @@
 ---
-title: Info über Lagerkostenberechnung | Microsoft Docs
-description: Die Verwaltung der Lagerkostenberechnung dient zum Erfassen und Melden der Betriebskosten eines Unternehmens. Sie umfasst das Melden von Fertigungskosten und Lagerkosten (also den Wert von Artikeln).
+title: Info über Lagerkostenberechnung
+description: Bei der Verwaltung von Lagerbeständen geht es um die Erfassung und das Reporting der betrieblichen Vorgänge, einschließlich des Reportings von Herstellkosten und Bestandskosten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 33a6a66cb2ccdcee1cd5925548e7c224d244459e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 36420747117425e1f66e30ed6090f300e27776f4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770366"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325761"
 ---
 # <a name="about-inventory-costing"></a>Info über Lagerkostenberechnung
 Die Verwaltung der Lagerkostenberechnung dient zum Erfassen und Melden der Betriebskosten eines Unternehmens. Sie umfasst das Melden von Fertigungskosten und Lagerkosten (also den Wert von Artikeln).  

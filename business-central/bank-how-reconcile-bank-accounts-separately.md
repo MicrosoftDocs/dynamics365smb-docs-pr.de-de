@@ -1,6 +1,6 @@
 ---
-title: Bankkontenabstimmung | Microsoft Docs
-description: Beschreibt wie der Lagerwert mit der Finanzbuchhaltung abgestimmt wird.
+title: Bankkonten abstimmen
+description: Hier wird beschrieben, wie Sie die Bankabstimmung mit der **Bankkontoabstimmung** durchführt; wie Ihr Bestand mit dem Hauptbuch abgestimmt wird.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786807"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435402"
 ---
 # <a name="reconcile-bank-accounts"></a>Bankkonten abstimmen
 
@@ -62,7 +62,7 @@ Um den Import von Bankkontoauszügen als Bankfeed zu aktivieren, müssen Sie den
 > [!TIP]
 > Sie können Kontoauszugsdateien auch im durch Kommas oder Semikolons getrennten Format (.CSV) importieren. Verwenden Sie die unterstützte Einrichtung **Richten Sie ein Bankauszugs-Dateiimportformat ein** zum Definieren von Importformaten für Kontoauszüge und Anhängen des Formats an ein Bankkonto. Sie können diese Formate dann verwenden, wenn Sie Kontoauszüge in die Seite **Bankkontenabgleich** importieren.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Bankkontoabstimmung** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkontoabstimmung** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Wählen Sie im Feld **Bankkontonummer** den entsprechenden Bankkontocode aus. Die Bankposten, die im Bankkonto vorhanden sind, werden im Bereich **Bankposten** angezeigt.
 4. Geben Sie im Feld **Auszugsdatum** das Datum des Kontoauszuges der Bank ein.

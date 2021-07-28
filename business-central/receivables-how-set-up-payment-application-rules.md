@@ -1,6 +1,6 @@
 ---
-title: Einrichten von Regeln für die automatische Anwendung von Zahlungen
-description: Auf der Seite „Zahlungsausgleichsvorschriften“ richten Sie die Regeln ein, um zu steuern, wie Zahlungen/Banktransaktionen automatisch mit ihren entsprechenden offenen Sachposten ausgeglichen werden, wenn Sie die Funktion Automatisch anwenden auf der Seite Zahlungsabstimmungsbuch.-Blatt verwenden.
+title: Regeln für die automatische Anwendung von Zahlungen
+description: Lesen Sie auf der Seite Regeln für Zahlungsausgleichsvorschriften, wie Sie Regeln für die automatische Anwendung von Zahlungen festlegen können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 57f9fa038c8631db87d03d9054dcf8a17a874345
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778972"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435059"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Einrichten von Regeln für die automatische Anwendung von Zahlungen
 
@@ -40,7 +40,7 @@ Neben den Zuordnungskriterien gilt Folgendes hinsichtlich des Vorzeichens des Za
 - Für positive Beträge wird ein Abgleich gegen offene Posten, die Kreditorenrechnungen repräsentieren, und dann gegen Debitorgutschriften vorgenommen.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>So richten Sie eine Zahlungsausgleichsregel ein
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Zahlungsausgleichsvorschriften** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsausgleichsvorschriften** ein, und wählen Sie dann den zugehörigen Link.
 2. Definieren Sie eine neue oder bearbeitete Zahlungsausgleichsregel, indem Sie die Felder in einer Zeile ausfüllen, wie in der folgenden Tabelle beschrieben.
 
 |Feld|Beschreibung|

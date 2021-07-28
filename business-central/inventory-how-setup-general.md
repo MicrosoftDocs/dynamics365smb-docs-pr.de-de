@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1430123f433cfc101e0ae94ce0598d9c0cdd58b2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785823"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435622"
 ---
 # <a name="set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
 
@@ -23,7 +23,7 @@ Sie geben Ihre allgemeine Lagerbestandseinrichtung auf der Seite **Lager Einrich
 
 ## <a name="to-set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Bestandseinrichtung** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerbestandseinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie auf der Seite **Lager Einrichtung** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Detaillierte Informationen zu den Kalkulationsfeldern **Automatische Kostenbuchung**, **Erwartete Kostenbuchung in Sachkonten** und **Standardmäßige Lagerabgangsmethode** finden Sie unter [Lagerkosten mit dem Hauptbuch abstimmen](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Entwurfsdetails: Lagernachkalkulation](design-details-inventory-costing.md) und [Entwurfsdetails: Buchung erwarteter Kosten](design-details-expected-cost-posting.md). Weitere Informationen zur Kalkulation im Allgemeinen finden Sie unter [Lagerkosten verwalten](finance-manage-inventory-costs.md).  

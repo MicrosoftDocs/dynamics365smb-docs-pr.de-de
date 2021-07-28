@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 564b9574188acd63acaa660f4a440be791846ef7
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 09d1998bcd8cdf522b1533fe4768a0bbf0aca776
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216205"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434986"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installieren und Deinstallieren von Erweiterungen in Business Central
 
@@ -32,7 +32,7 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] ändern, indem Sie Er
 
 ## <a name="installing-an-extension"></a>Eine Erweiterung wird installiert
 
-Sie verwalten die Erweiterungen auf der Seite **Erweiterungsverwaltung**. Sie können vom Startbildschirm auf diese Seite zugreifen. Wählen Sie alternativ das Symbol **Nach Seite oder Bericht suchen** aus ![Glühlampe, mit der die Funktion „Sie wünschen“ geöffnet wird](media/ui-search/search_small.png "Was möchten Sie tun?") in der oberen rechter Ecke, geben Sie **Erweiterung** ein, und wählen Sie dann den zugehörigen Link aus.  
+Sie verwalten die Erweiterungen auf der Seite **Erweiterungsverwaltung**. Sie können vom Startbildschirm auf diese Seite zugreifen. Alternativ wählen Sie das Symbol **Seite oder Bericht suchen** ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") in der oberen rechten Ecke, geben Sie **Erweiterung** ein und wählen Sie dann den entsprechenden Link.  
 
 Sie können neue Erweiterungen vom Marketplace auf [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) abrufen. Hier können Sie alle verfügbaren Erweiterungen für [!INCLUDE[prod_short](includes/prod_short.md)] anzeigen und Apps, Erweiterungen und Inhaltspakete für andere Microsoft-Produkte abrufen. Legen Sie die gewünschten Filter fest, werfen Sie einen Blick auf die Informationen für jede Erweiterung, und rufen Sie eine Erweiterung für Ihr [!INCLUDE[prod_short](includes/prod_short.md)] ab.  
 

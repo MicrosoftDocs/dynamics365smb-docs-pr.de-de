@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Titel-Beziehungen zwischen Bedarf und Vorrat | Microsoft Docs'
-description: Verfolgen des Auftragsbedarfs (Menge mit Bedarfsverursacher), der Absatzplanung, des Rahmenauftrags oder der Planungsparameter (Menge ohne Bedarfsverursacher), auf den bzw. auf die die betreffende Planungszeile zurückzuführen ist
+title: Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat
+description: Dieses Thema erklärt die verschiedenen Möglichkeiten, Beziehungen zwischen Bedarf und Vorrat zu verfolgen, wie z.B. das Verfolgen von verknüpften Artikeln und den Umgang mit nicht verfolgten Planungselementen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8ff7653ec28e70c13842f9b66bff91b7d8b48f98
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ccf2b753e11d0f6a23235125e99f58a011606788
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787627"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435294"
 ---
-# <a name="track-relations-between-demand-and-supply"></a>Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat
+# <a name="track-relations-between-demand-and-supply"></a>Verfolgen von Beziehungen zwischen Bedarf und Vorrat
 Verfolgen des Auftragsbedarfs (Menge mit Bedarfsverursacher), der Absatzplanung, des Rahmenauftrags oder der Planungsparameter (Menge ohne Bedarfsverursacher), auf den bzw. auf die die betreffende Planungszeile zurückzuführen ist
 
 Die Planungsarbeitsblätter beinhalten zusätzliche Planungsinformationen wie Nachverfolgung zu nicht auftragsbezogenen Entitäten und Warnungen, um den Planer bei der Erstellung eines optimalen Beschaffungsplans zu unterstützen. Weitere Informationen finden Sie unter [Planungselement ohne Bedarfsverursacher](production-how-track-demand-supply.md#untracked-planning-elements).
@@ -27,7 +27,7 @@ Die Verfolgung zeigt, wie Verkaufsaufträge, Fertigungsaufträge und Bestellunge
 
 Nachfolgend wird erläutert, wie Artikel für einen fest geplanten Fertigungsauftrag verfolgt werden. Die Schritte sind für alle anderen Auftragsarten und der Planungsarbeitsblattszeilen ähnlich.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Fester geplanter Fertigungsauftrag** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den relevanten fest geplanten Fertigungsauftrag in der Liste.
 3. Wählen Sie im Inforegister **Zeilen** in Aktionen **Funktion** aus, und wählen Sie dann **Auftrag-Verfolgung**.
 

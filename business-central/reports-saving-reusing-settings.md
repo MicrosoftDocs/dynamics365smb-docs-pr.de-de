@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4437d723834a8189a7155d59812c8e2e1f16b933
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d83597057975757354da06668a7e71e94e5273f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778922"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435763"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gespeicherte Einstellungen für Berichte und Stapelaufträge verwalten
 Abhängig vom ausgeführten Bericht, erhalten Benutzer in der Regel eine Seite, für die Sie bestimmte Optionen wählen und Filter festlegen können, um Daten zu ändern, die im erstellten Bericht enthalten sind. Dies ist die Berichtanfordearungsseite. Ein Bericht kann eine oder mehrere *Gespeicherte Einstellungen* enthalten, die Benutzer auf den Bericht von der Anforderungsseite anwenden können. *Gespeicherte Einstellungen* sind grundsätzlich vordefinierte Optionen und Filter. Die Verwendung von gespeicherten Einstellungen ist eine schnelle und zuverlässige Art, Berichte zu erstellen, die die richtigen Daten enthalten. Weitere Informationen finden Sie unter [Gespeicherte Einstellungen verwenden](ui-work-report.md#SavedSettings).
@@ -38,7 +38,7 @@ Wenn Sie die richtigen Berechtigungen haben, können Sie die gespeicherten Einst
 
 ## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Um gespeicherter Einstellungen für alle Benutzer zu erstellen oder zu ändern
 Sie können gespeicherte Einstellungen auf der Seite **Berichteinstellungen** verwalten. Es gibt zwei Möglichkeiten, dies Seite zu öffnen:
--   Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Berichtseinstellungen** ein, und wählen Sie dann den zugehörigen Link.
+-   Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Berichtseinstellungen** ein, und wählen Sie dann den entsprechenden Link.
 -   Öffnen Sie einen Bericht, wählen die Suche neben dem Feld **Verwendete Standardwerte verwenden aus** aus und wählen Sie **Aus vollständiger Liste auswählen** aus.
 
 Die Seitendarstellungen zeigt alle gespeicherten Einstellungseingaben für alle Anwender an. Wenn es einen Benutzernamen im Feld **Zugewiesen zu** hat, kann nur der Benutzer die gespeicherten Einstellungen für den entsprechenden Bericht verwenden. Wenn sich ein Häkchen im Feld **Mit allen Benutzern teilen** befindet, können alle Benutzer die gespeicherten Einstellungen für den Bericht verwenden.

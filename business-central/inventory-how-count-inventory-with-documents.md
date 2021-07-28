@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fccbb5d15c73a2ab74d6b14e54be1fa098dc3a12
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785948"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435672"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Erfassung und Regulierung des Lagerbestand mithilfe von Belegen
 
@@ -40,7 +40,7 @@ Auf Anwendungsebene ist ein Inventurauftrag ein vollständiger Beleg, der aus ei
 
 Um die Inventurauftragszeilen zu erstellen, verwenden Sie üblicherweise die Funktion **Zeilen berechnen**, um den aktuellen Lagerbestand als Zeilen auf dem Auftrag darzustellen. Alternativ können Sie die Funktion **Aus Beleg kopieren** verwenden, um die Zeilen mit dem Inhalt eines anderen offenen oder gebuchten Inventurauftrags zu füllen. Nachfolgend wird nur beschrieben, wie Sie die Funktion **Zeilen berechnen** verwenden.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Physische Inventuraufträge** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Physikalische Inventuraufträge** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die erforderlichen Felder auf dem Inforegister **Allgemein** aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die Aktion **Zeilen berechnen** aus.
@@ -100,7 +100,7 @@ Sie können auch die **Phys. Inventory Order Diff.** Aktion auswählen, um Unter
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>So finden Sie doppelte Inventurauftragszeilen
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Physische Inventuraufträge** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Physikalische Inventuraufträge** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den Inventurauftrag, für den Sie doppelte Zeilen anzeigen möchten.
 3. Wählen Sie die **Doppelte Zeilen anzeigen** Aktion aus.
 
@@ -113,7 +113,7 @@ Nach Fertigstellen eines Inventurauftrags und Ändern des Status in **Beendet** 
 - Jede Inventurauftragszeile wurde in mindestens einer Inventurerfassungszeile erfasst.
 - Die Kontrollkästchen **In Erfassungszeilen enthalten** und **Berechnete erw. Menge** wurden für alle Inventurauftragszeilen aktiviert.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Physische Inventuraufträge** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Physikalische Inventuraufträge** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Inventurauftrag aus, den Sie fertig stellen möchten, klicken Sie auf **Bearbeiten**.
 
     Auf der Seite **Inventurauftrag** kann die Menge angezeigt werden, die im Feld **Erfasste Menge (Basis)** erfasst wurde.
@@ -127,7 +127,7 @@ Die betreffenden Artikelposten werden zusammen mit allen verknüpften Artikelver
 ### <a name="to-view-posted-physical-inventory-orders"></a>So zeigen Sie gebuchte Inventuraufträge an
 Nach der Buchung wird der Inventurauftrag gelöscht und Sie können den Beleg als gebuchten Inventarauftrag einschließlich der Inventurerfassungen und möglicher Bemerkungen einsehen und auswerten.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Gebuchte Physische Inventuraufträge** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Phys. Orders** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Geb. Inventuraufträge** den gebuchten Inventurauftrag aus, den Sie anzeigen möchten, klicken Sie auf Aktionen und anschließend auf **Ansicht**.
 3. Um einer Liste zugehörige Inventurerfassungen anzuzeigen, wählen Sie die Aktion **Erfassungen** aus.
 
@@ -199,7 +199,7 @@ Sie können diese Dokumente jederzeit drucken, freigeben und erneut öffnen sowi
 ### <a name="to-set-up-numbering-for-inventory-documents"></a>Nummerierung von Inventurbelegen einrichten
 Der folgende Ablauf zeigt, wie die Nummerierung von Inventurbelegen eingerichtet wird.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagereinrichtung** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerbestandseinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Im Inforegister **Nummerierung** geben Sie in den folgenden Feldern die Zahlenreihe für Dokumente an:
    - **Lagereingangsnr.**  
    - **Gebuchter Lagereingang Nr.**  
@@ -209,7 +209,7 @@ Der folgende Ablauf zeigt, wie die Nummerierung von Inventurbelegen eingerichtet
 ### <a name="to-create-and-post-an-inventory-document"></a>Erstellen und Buchen eines Inventurbelegs
 Das folgende Verfahren zeigt, wie Sie einen Inventarbeleg erstellen, drucken und buchen. Die Schritte sind ähnlich wie für eine Inventursendungen.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Lagereingänge** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerzugänge** ein und wählen Sie dann den zugehörigen Link.  
 2. In der Kopfzeile der Seite **Lagereingang** wählen Sie den Ort im Feld **Standortcode** aus, und füllen Sie dann die verbleibenden Felder nach Bedarf aus.
 3. Wählen Sie im Inforegister **Zeilen** im Feld **Artikel** den Lagerartikel aus. Geben Sie in dem Feld **Menge** die Anzahl des Artikels an, der hinzugefügt werden soll. 
 4. Um einen Bericht **Lagereingang** von der Seite **Lagereingang** zu drucken, wählen Sie die Aktion **Drucken** aus.

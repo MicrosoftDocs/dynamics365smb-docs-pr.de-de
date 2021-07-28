@@ -1,5 +1,5 @@
 ---
-title: Zahlungen und Abstimmungs-Erweiterung verwalten | Microsoft Docs
+title: Erweiterung Zahlungen und Abstimmungen (DK)
 description: Diese Erweiterung macht es einfach, dass Exportdateien, die vorformatiert sind, den Bankbedingungen für elektronische Posten erfüllen.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: fdd8fced06d8efd5ab6959267bfc0171c4decdd2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ef87f41ec58dbc37caff647ad577f1cfcc205dfc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785060"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434885"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Die Zahlungs- und Abstimmungs-Erweiterung
 
@@ -55,7 +55,7 @@ Darüber hinaus müssen Sie Kreditoren einer inländischen **Gen. Bus. Buchungsg
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>[!INCLUDE[prod_short](includes/prod_short.md)] erlauben, Zahlungsdaten zu exportieren
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsausgangs Buch.-Blatt** ein, und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Projekt Buch.-Blatt bearbeiten** das Feld **Bank** Stapel aus.  
 3. Wählen Sie das Kontrollkästchen **Zahlungsexport erlauben**.  
 
@@ -69,19 +69,19 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 |Nachricht an Empfänger zulassen? | Ja |Nein |Nein | Ja |
 |Enthält Zahlungs-Referenznummer? | Nein | Ja, 16 Ziffern. | Ja, 15 Ziffern. | Nein|
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die Karte, erweitern Sie die Registerkarte **Zahlungen**, im Feld **Zahlungsform** und wählen Sie die Zahlungsform.  
 3. Abhängig von Ihrer Wahl müssen Sie weitere Felder ausfüllen. Siehe die Tabelle oben für eine Beschreibung der Kombinationen.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Das Adressformat definieren, um ein Bankkonto zu verwenden
 
-1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die Karte für das Bankkonto.  
 3. Im Feld **Format Zahlungsexport** wählen Sie das Format für Ihre Exportdatei aus.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Auswählen des FIK oder der Autogirozahlungsinformationen für Kreditorenrechnungen
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Einkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie das Feld Debitor. Beachten Sie, dass dies ein dänischer Kreditor mit eine Adresse in Dänemark sein muss.
 3. Eine Rechnung erstellen. Die Felder **Zahlungsform** und **Kreditorennummer** werden entsprechend den Einstellungen auf der Kreditorenkarte ausgefüllt. Sie können diese bei Bedarf ändern.
 4. Geben Sie im Feld **Zahlungsreferenz** die Nummer mit 15 Ziffern von den Rechnungsbeträgen des Kreditors ein.  
@@ -93,7 +93,7 @@ Die folgende Tabelle zeigt die FIK- und Kombinationen von GIRO-Zahlungsformen an
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Nutzung der Erweiterung, um Zahlungsdaten zu exportieren
 
-1. Wählen Sie die ![Glühbirne , die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Zahlungsjournale** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungsausgangs Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die **Zahlungsvorschlag-Buch.-Blätter** Aktion aus.  
 
     > [!Tip]

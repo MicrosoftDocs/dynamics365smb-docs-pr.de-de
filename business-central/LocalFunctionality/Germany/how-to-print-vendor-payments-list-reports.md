@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1464d19171fa46e9adfd65727375705f747fa78a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 007f0db59923dc9d529822a7d7cd85b257d237d8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779184"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435181"
 ---
 # <a name="print-vendor-payments-list-reports-in-the-german-version"></a>Listenberichte für Kreditorenzahlungen in deutscher Version drucken
 
@@ -26,7 +26,7 @@ Die Liste **Kreditorenzahlungen** zeigt eine Liste von Zahlungen für jeden Kred
 
 ## <a name="to-print-the-vendor-payments-list-report"></a>Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Kreditorenzahlungsliste** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Kreditorenzahlungen – Liste** ein, und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  

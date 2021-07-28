@@ -1,6 +1,6 @@
 ---
 title: Lagerplatzkarte einrichten und Umlagerungsroute definieren
-description: Sie stellen eine Lagerortkarte für jedes Bundesland, den von Lagerartikel speichern, beispielsweise, ein Lager oder eine Vertriebsstelle und Einrichtungsrouten, um Artikel zwischen Lagerorten umlagern erstellen.
+description: Wenn Sie Artikel an mehreren Orten oder Lagern einkaufen, lagern oder verkaufen, müssen Sie für jeden Lagerort eine Standortkarte einrichten und Umlagerungsroute definieren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 06/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0319f0c64dd46610aa82705257091bd9478ac14f
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: d22bbea911bed7e1ea3c756e0861111a26b5df0a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184324"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435572"
 ---
 # <a name="set-up-locations"></a>Einrichten von Lagerorten
 
-Wenn Sie Artikel an mehreren Orten oder Lagern einkaufen, lagern oder verkaufen, müssen Sie für jeden Lagerort eine Standortkarte einrichten und Umlagerungsroute definieren. [!INCLUDE [prod_short](includes/prod_short.md)] verwendet Lagerorte, um den Bestand sowohl in einfacheren Fällen als auch in komplexeren Lagerprozessen zu verfolgen.
+Wenn Sie Artikel an mehreren Orten oder Lagern kaufen, lagern oder verkaufen, müssen Sie für jeden Lagerort eine Standortkarte festlegen und Umlagerungsrouten definieren. [!INCLUDE [prod_short](includes/prod_short.md)] verwendet Lagerorte, um den Bestand sowohl in einfacheren Fällen als auch in komplexeren Lagerprozessen zu verfolgen.
 
 Sie können dann Belegzeilen für einen bestimmten Lagerplatz erstellen, Verfügbarkeit nach Lagerplatz anzeigen und Lagerbestand zwischen Lagerplätzen umlagern. Weitere Informationen finden Sie unter [Lagerbestand verwalten](inventory-manage-inventory.md).
 <br><br>  
@@ -38,7 +38,7 @@ Wählen Sie die Aktion **Zonen** oder **Lagerplätze** aus, um Informationen üb
 
 ### <a name="to-create-a-location-card"></a>So erstellen Sie eine Lagerortkarte
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu**.
 3. Füllen Sie auf der Seite **Lagerortkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wiederholen Sie die Schritte 2 und 3 für jeden Lagerplatz, an dem Sie Lagerbestand aufbewahren möchten.
@@ -52,7 +52,7 @@ Wenn Sie über mehrere Lagerorte verfügen, können Sie als Nächstes Umlagerung
 
 ### <a name="to-create-a-transfer-route"></a>So erstellen Sie eine Umlagerungsroute
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Umlagerungsrouten** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Umlagerungsrouten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie von jedem beliebigen Fenster **Standortkarten** die Aktion **Umlagerungsrouten** aus.
 3. Wählen Sie die Aktion **Neu** aus.
 4. Füllen Sie auf der Seite **Lagerortkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

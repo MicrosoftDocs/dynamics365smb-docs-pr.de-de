@@ -1,5 +1,5 @@
 ---
-title: Wie Sie Daten für eine Digital-Überwachung einrichten
+title: Festlegen von Datenexporten für eine digitale Prüfung [DE]
 description: Sie müssen die Exportdatensatzquellen einrichten, um die Daten für eine digitale Prüfungen basierend auf GDPdU zu exportieren.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: aa939aad44217acd6f4ecffa089f6aeea1e78d4b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a41e7815b06c9b984465057ca20ac7ea79194c4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786401"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435173"
 ---
-# <a name="set-up-data-exports-for-a-digital-audit-gobdgdpdu"></a>Daten für eine digitale Prüfung (GoBD/GDPdU) einrichten
+# <a name="set-up-data-exports-for-a-digital-audit-gobdgdpdu-in-the-german-version"></a>Datenexporte für eine digitale Betriebsprüfung (GoBD/GDPdU) in der deutschen Version festlegen
 
 Sie müssen die Exportdatensatzquellen einrichten, um Daten für eine digitale Prüfung entsprechend den Grundsätzen zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen (GDPdU) zu exportieren. Für jeden Datenexporttyp müssen Sie eine oder mehrere Datensatzquellen definieren, wobei jede Quelle eine Tabelle darstellt, aus der Daten exportiert werden sollen.  
 
 ## <a name="to-set-up-a-data-export"></a>So richten Sie einen GDPdU-Datenexport ein  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen"), geben Sie **Daten exportieren** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Datenexporte** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie auf der Seite **Datenexporte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 

@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Montagebuchung stornieren | Microsoft Docs'
-description: In einigen Fällen müssen Sie einem gebuchten Montageauftrag rückgängig machen, wenn der Auftrag zum Beispiel mit Fehlern gebucht wurde, die korrigiert werden müssen, oder weil er nicht im ersten Schritt gebucht werden sollte und zurückgenommen werden muss.
+title: Montagebuchung rückgängig machen
+description: Es kann vorkommen, dass Sie einen gebuchten Montageauftrag rückgängig machen müssen, z.B. wenn der Auftrag mit Fehlern gebucht wurde, die korrigiert werden müssen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 4526ad4284cd3970e1573a1a8ea914cbd6253c83
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 48c454084e850b5dedf58c499263258c0ae8294c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772879"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435344"
 ---
 # <a name="undo-assembly-posting"></a>Montagesbuchungen rückgängig machen
 In einigen Fällen müssen Sie einem gebuchten Montageauftrag rückgängig machen, wenn der Auftrag zum Beispiel mit Fehlern gebucht wurde, die korrigiert werden müssen, oder weil er nicht im ersten Schritt gebucht werden sollte und zurückgenommen werden muss.
@@ -40,7 +40,7 @@ Darüber hinaus können vorhandene Montageaufträge nur wiederhergestellt werden
 Nachfolgend wird beschrieben, wie gebuchte Montageaufträge rückgängig gemacht, in denen Artikel für das Lager montiert werden. Wenn Sie gebuchte Montageaufträge rückgängig machen möchten, in denen die Artikel für einen Auftrag montiert wurden, müssen Sie in der gebuchten Lieferung, die zu dem gebuchten Montageauftrag gehört, die Funktion **Warenausgang stornieren** verwenden. Weitere Informationen finden Sie unter [Buchungen stornieren und Belege/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md). Das Stornieren des gebuchten Montageauftrags erfolgt dann automatisch und auf die gleiche Art, wie in diesem Thema beschrieben.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Um die Buchung eines Montageauftrags rückgängig zu machen  
-1.  Um einen teilweise oder vollständig gebuchten Montageauftrag rückgängig zu machen, wählen Sie das Symbol ![Glühlampe, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, und geben Sie **Gebuchte Montageaufträge** ein und wählen den zugehörigen Link aus.  
+1.  Um einen ganz oder teilweise gebuchten Montage-Auftrag rückgängig zu machen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Montageaufträge** ein und wählen Sie den zugehörigen Link.  
 
     Die Seite **Gebuchte Montageaufträge** wird geöffnet und zeigt einen oder mehrere gebuchte Montageaufträge an, die über den entsprechenden Montageauftrag gebucht wurden. Für jede Teilbuchung wird ein separater gebuchten Montageauftrag erstellt.  
 2.  Öffnen Sie den gebuchten Montageauftrag, den Sie stornieren möchten, und wählen Sie dann die Aktion **Montage rückgängig machen** aus.  

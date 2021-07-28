@@ -1,25 +1,25 @@
 ---
-title: 'Gewusst wie: Buchen eines negativen Postens'
-description: Im Feld Storno kann ein negativer Soll- anstelle eines Habenbetrags oder ein negativer Haben- anstelle eines Sollbetrags in einem Konto gebucht werden. Zur Einhaltung gesetzlicher Vorschriften in Deutschland wird das Feld standardmäßig in allen Buch.-Blättern angezeigt. Die Felder Sollbetrag und Habenbetrag enthalten jeweils den ursprünglichen und den stornierten Posten.
+title: So buchen Sie einen Negativeintrag [DE]
+description: Verwenden Sie das Feld Korrektur, um ein negatives Soll anstelle eines Guthabens zu buchen, oder um ein negatives Haben anstelle eines Solls auf einem Konto zu buchen, um gesetzliche Anforderungen zu erfüllen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: e3e1bd22bf8f78ec78cee3971a97d3f1cb8d0cfd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 20588e3824eb8fea9088700eaa3c97a7677c9297
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773267"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435183"
 ---
-# <a name="post-a-negative-entry"></a>So buchen Sie einen negativen Posten
+# <a name="post-a-negative-entry-in-the-german-version"></a>Eine Negativbuchung in der deutschen Version buchen
 Im Feld **Storno** kann ein negativer Soll- anstelle eines Habenbetrags oder ein negativer Haben- anstelle eines Sollbetrags in einem Konto gebucht werden. Zur Einhaltung gesetzlicher Vorschriften wird das Feld standardmäßig in allen Buch.-Blättern angezeigt. Die Felder **Sollbetrag** und **Habenbetrag** enthalten jeweils den ursprünglichen und den stornierten Posten. Diese Felder haben keinen Einfluss auf den Kontensaldo.  
 
 ## <a name="to-post-a-negative-entry"></a>So buchen Sie einen negativen Posten  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Fibu Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fibu Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link  
 2.  Wählen Sie im Feld **Buch.-Blattname** den erforderlichen Buch.-Blattnamen aus.  
 3.  Geben Sie die Informationen in die entsprechenden Felder ein.  
 4.  Aktivieren Sie in der Buch.-Blattzeile, die Sie für negative Posten aktivieren möchten, das Kontrollkästchen **Storno**.  

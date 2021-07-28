@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f55bad5c26e1f1fbb336090ff862e0e931ff9c39
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 86ff1e678882e4bfb7e95c253f55558c5b57defd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784740"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434834"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Die Verkaufs- und Bestandprognosen-Erweiterung
 Lagerverwaltung ist ein Austausch zwischen Serviceabteilung und Verwaltung der Kosten. Auf der einen Seite benötigt ein niedriger Bestand weniger Betriebskapital, andererseits führen fehlende Lagerbestände evtl. zu entgangenen Verkäufen. Die Erweiterung "Geplanter voraussichtlicher Verkauf und Lagerbestand" sagt potenzielle Verkäufe anhand der historischen Daten voraus und gibt eine klare Übersicht über erwartete fehlende Lagerbestände. Auf Grundlage der Planung helfen die Erweiterungen dabei, Beschaffungsanfragen an Ihre Kreditoren zu stellen und Zeit zu spraren.  
@@ -56,7 +56,7 @@ Sie können Ihren eigenen vorhersagenden Webdienst auf einem öffentliches Model
 3. Verwenden Sie das Microsoft-Konto, um sich für einen Arbeitsbereich anzumelden und kopieren Sie dann das Muster.  
 4. Führen Sie die Vorlage aus und veröffentlichen Sie dieses als Webdienst.  
 5. Notieren Sie den API URL und den API Schlüssel. Sie verwenden diese Anmeldeinformationen für die Cashfloweinrichtung.  
-6. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufs- und Bestandsprognoseeinrichtung** ein, und wählen Sie dann den entsprechenden Link.  
+6. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung von Umsatz- und Lagerbestandsplanung** ein, und wählen Sie dann den entsprechenden Link.  
 7. Erweitern Sie die Registerkarte **Allgemein** und füllen Sie dann die Felder API-URL und API-Schlüssel aus.  
 
 

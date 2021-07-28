@@ -1,6 +1,6 @@
 ---
-title: Abschließen der Buchhaltungsperioden für ein Geschäftsjahr | Microsoft Docs
-description: Beschreibt, wie Sie die Buchhaltungsperioden schließen, die das Geschäftsjahr ausmachen.
+title: Buchhaltungsperioden für ein Geschäftsjahr schließen
+description: Dieser Artikel beschreibt, wie Sie die Buchhaltungsperioden, aus denen das Geschäftsjahr besteht, für den Jahresabschluss schließen.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: a26baaf947fdac133e3bfcd50489d680231d9971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786682"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435998"
 ---
 # <a name="close-accounting-periods"></a>Schließen von Buchhaltungsperioden
 Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, geschlossen werden.
 
 ## <a name="to-close-accounting-periods"></a>Buchhaltungsperioden schließen:
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Buchhaltungsperioden** ein und wählen Sie dann die entsprechende Verknüpfung.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Buchhaltungsperioden** die Aktion **Jahr auswählen** aus.
 
     Sind mehrere Geschäftsjahre offen, wird angenommen, dass das früheste automatisch abgeschlossen werden soll. Ein Mitteilungsfenster wird angezeigt, in dem das zu schließende Jahr angegeben wird und die Konsequenzen erklärt werden.

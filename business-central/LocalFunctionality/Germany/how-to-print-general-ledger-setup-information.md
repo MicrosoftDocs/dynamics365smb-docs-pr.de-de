@@ -1,6 +1,6 @@
 ---
 title: Finanzbuchhaltungseinrichtungs-Informationen drucken [DE]
-description: Bevor Sie die deutsche Version von Business Central im täglichen Geschäft verwenden, können Sie die Finanzbuchhaltungseinrichtungs-Information ausführen, um sich die Masterdaten anzeigen zu lassen, die Sie eingerichtet haben.
+description: Bevor Sie die deutsche Version von Business Central verwenden, können Sie den Bericht Fibu Einr.-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie festgelegt haben.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: aad1467ba930cdc0aeb448c9c6739807e8307ae8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1ed2f13e4a1140a9117f037b7020774a078e0696
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781421"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435179"
 ---
 # <a name="print-general-ledger-setup-information-in-the-german-version"></a>Finanzbuchhaltungseinrichtungs-Informationen in der deutschen Version drucken
 
@@ -23,7 +23,7 @@ Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] im täglichen Ges
 
 ## <a name="to-print-general-ledger-setup-information"></a>Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **G/L-Einrichtungsinformationen** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Fibu Einr.-Informationen** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie im Stapelverarbeitungsauftrag **Optionen** im Inforegister **Einrichtdungsinformationen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Option|Description|  

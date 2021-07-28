@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Elektronische Belege empfangen und konvertieren | Microsoft Docs'
-description: -Sie können elektronische Belege direkt aus den Handelspartnern oder einem OCR-Dienst erhalten.
+title: 'Vorgehensweise: Elektronische Belege empfangen und konvertieren'
+description: Dieses Thema beschreibt, wie Sie elektronische Belege direkt von Handelspartnern oder von einem OCR-Dienst empfangen können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 17a03f58ad9cca702423efe6e8810cffe25a7e81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba45239906820f4c56b948d80a46c8ca427a342
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772554"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435084"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Vorgehensweise: Elektronische Belege empfangen und konvertieren
 Die generische Version von [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt das Empfangen von elektronischen Rechnungen und Gutschriften im PEPPOL-Format, das von den wichtigsten Anbietern von Belegaustauschdiensten unterstützt wird. Um beispielsweise eine Rechnung von einem Kreditor in Form eines elektronischen PEPPOL-Belegs zu erhalten, verarbeiten Sie den Beleg auf der Seite Eingehende Belege, um diesen in eine Einkaufsrechnung oder Fibu Buch.-Blattzeile in [!INCLUDE[prod_short](includes/prod_short.md)] zu konvertieren.
@@ -41,7 +41,7 @@ Die generische Version von [!INCLUDE[prod_short](includes/prod_short.md)] unters
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>So empfangen Sie eine elektronische Rechnung und konvertieren sie in eine Einkaufsrechnung:  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Eingehende Belege** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Eingehende Belege** ein und wählen Sie dann den zugehörigen Link.  
 
 2.  Markieren Sie die Zeile für den Eingangsdatensatz, der eine neue elektronische Eingangsrechnung darstellt, und wählen Sie dann die Aktion **Bearbeiten**.  
 

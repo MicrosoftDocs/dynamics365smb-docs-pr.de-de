@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: a26414ae33b0139257c542966ba9ccd934241a66
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: ed1d44f7aa1fe7adc899c429a6595cef23251075
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017124"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341303"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problembehandlung bei der Microsoft Teams Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -150,11 +150,14 @@ Als Administrator, der Azure Active Directory-Administratorrechte hat, können S
 > Es wird eine Weile dauern, bis diese Änderung wirksam wird.
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] und Microsoft Teams Integration Übersicht](across-teams-overview.md)  
 [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md)  
+[Suchen Sie nach Debitoren, Kreditoren und anderen Kontakten aus Microsoft Teams](across-search-contacts-teams.md)  
+[Datensätze in Microsoft Teams freigeben](across-working-with-teams.md)  
 [Teams FAQ](teams-faq.md)  
+[Ändern von Firmen- und anderen Einstellungen in Teams](across-teams-settings.md)  
 [Entwicklung für die Teams-Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

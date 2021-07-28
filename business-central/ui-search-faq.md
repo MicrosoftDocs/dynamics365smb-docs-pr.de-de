@@ -1,6 +1,6 @@
 ---
-title: Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“ | Microsoft Docs
-description: Dieser Artikel bietet Antworten zu den häufig von unseren Partner und Debitoren über „Wie möchten Sie weiter verfahren“ gestellten Fragen.
+title: Häufig gestellte Fragen zu Tell Me
+description: In diesem Artikel finden Sie Antworten auf Fragen, die unsere Partner und Kunden häufig zur „Wie möchten Sie weiter verfahren“-Funktion stellen.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 85b1f4f0b677baa5ca8a522acb1b383689f72e9e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 20493ffc3dd20da07d5f27602f4c766a0ebfbd87
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783209"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325863"
 ---
 # <a name="tell-me-faq"></a>Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“
 In diesem Thema werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zu der Funktion "Wie möchten Sie weiter verfahren" stellen.

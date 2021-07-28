@@ -1,6 +1,6 @@
 ---
-title: Mandantenkonfiguration mit RapidStart Services einrichten | Microsoft Docs
-description: Sie können in Business Central mit RapidStart Services einen neuen Mandanten einrichten, einem Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen.
+title: Eine Firma mit RapidStart Services festlegen
+description: Sie können eine neue Firma in Business Central mit RapidStart-Diensten festlegen, um die Produktivität durch Automatisierung und Vereinfachung wiederkehrender Aufgaben zu erhöhen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1f471bcebf634eeac92e10a816e65460f03a1de5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777266"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325419"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Mandanten mit RapidStart Services einrichten
 Sie können in [!INCLUDE[prod_short](includes/prod_short.md)] mit RapidStart Services einen neuen Mandanten einrichten. Dies ist ein Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen.  
