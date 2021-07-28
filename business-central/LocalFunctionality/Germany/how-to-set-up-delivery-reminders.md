@@ -1,5 +1,5 @@
 ---
-title: Lieferanmahnungen in der deutschen Version einrichten
+title: Lieferanmahnungen festlegen [DE]
 description: In der deutschen Version von Business Central können Sie Lieferanmahnungen nutzen, um Verkäufer über verspätete Lieferungen zu mahnen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0ce608ebc44fdde357b48f220270bf2cd7688344
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3dbc963049c01ed84cee9d7314d3379b972df7f7
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784045"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322623"
 ---
 # <a name="set-up-delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version einrichten
 

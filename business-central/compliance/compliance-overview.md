@@ -1,6 +1,6 @@
 ---
-title: Kompatibilität | Microsoft Docs
-description: Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf Business Central.
+title: Compliance-Übersicht
+description: Überblick darüber, wie die Funktionalität von Business Central auf einer Plattform aufgebaut ist, die es den Debitoren leicht macht, Compliance und gesetzliche Vorschriften einzuhalten.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
@@ -10,16 +10,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 527a63fb9aff0484be2561673ab815090d039fbd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10585896eadc9cbd9eec6f451d734b98b37b0133
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788408"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318912"
 ---
-# <a name="compliance"></a>Kompatibilität
+# <a name="compliance-overview"></a>Compliance-Übersicht
 
 Dieser Inhalt enthält Informationen über Dienstkompatibilität in Bezug auf [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

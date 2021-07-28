@@ -1,6 +1,6 @@
 ---
-title: So erstellen Sie Buch.-Blatt-Eröffnungssalden | Microsoft Docs
-description: Business Central enthält mehrere Stapelverarbeitungsaufträge, die bereitgestellt werden, um die Übertragung von vorhandenen Kontosalden auf einen neu konfigurierten Mandanten zu unterstützen. Sie können diese Daten mithilfe von Buch.-Blatt-Buchungen einfach übertragen.
+title: So erstellen Sie Buch.-Blatt Anfangssalden
+description: Batch-Aufträge werden bereitgestellt, um veraltete Kontosalden in eine neu konfigurierte Firma zu übertragen. Sie können diese Daten mithilfe von Buch.-Blatt-Buchungen einfach übertragen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5e1bb8e34e70d1d906850c157107b9b9701c6c50
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779857"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319538"
 ---
 # <a name="create-journal-opening-balances"></a>So erstellen Sie Buch.-Blatt-Eröffnungssalden
 

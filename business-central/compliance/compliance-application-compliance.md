@@ -1,6 +1,6 @@
 ---
-title: Anwendungs-Kompatibilität | Microsoft Docs
-description: Dieser Inhalt enthält Informationen über Anwendungskompatibilität in Bezug auf Business Central.
+title: Anwendungs-Kompatibilität
+description: Dieses Thema erklärt die Anwendungs-Compliance in Bezug auf Business Central wie die International Financial Reporting Standards, lokale Funktionen und die DSGVO.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: c9511a0737e5324f311bb5489cce0d194c7e68ee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788458"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323718"
 ---
 # <a name="application-compliance"></a>Anwendungs-Kompatibilität
 

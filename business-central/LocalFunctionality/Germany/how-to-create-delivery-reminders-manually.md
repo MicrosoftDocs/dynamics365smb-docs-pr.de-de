@@ -1,6 +1,6 @@
 ---
 title: So erstellen Sie manuelle Lieferanmahnungen [DE]
-description: Erinnern Sie Kunden an die verspätete Lieferung in der deutschen Version.
+description: Im folgenden Thema finden Sie Beispiele, wie Sie in der deutschen Version Lieferanmahnungen manuell erstellen können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 3797b97d5146bc6ddb05f898eb970f80c8bb2aa2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b34b5194366c43b7908b264c46731ca9300fa6ee
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777626"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320226"
 ---
 # <a name="create-delivery-reminders-manually-in-the-german-version"></a>Manuelle Lieferanmahnungen in der deutschen Version erstellen
 

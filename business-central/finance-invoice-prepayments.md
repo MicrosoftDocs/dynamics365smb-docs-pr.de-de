@@ -1,6 +1,6 @@
 ---
-title: Fakturieren von Vorauszahlungen | Microsoft Docs
-description: Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und auf einen Vorauszahlungsauftrag (Einkauf oder Verkauf) gebucht werden. Möglicherweise bestehen Sie auf einer Anzahlung, bevor Sie Artikel nach Maß fertigen, oder Sie bestehen auf einer Anzahlung, bevor die Artikel an den Debitor geliefert werden. Mithilfe der Vorauszahlungsfunktion können Sie Anzahlungen von Debitoren fakturieren und einfordern oder Anzahlungen an Kreditoren leisten. Somit kann sichergestellt werden, dass alle Zahlungen mit einer Rechnung ausgeglichen werden.
+title: Rechnungen Vorauszahlungen
+description: Erfahren Sie, wie Sie in Business Central Vorauszahlungen verwenden können, um Rechnungen zu stellen, Debitoren einzuziehen und Kreditorenzahlungen zu überweisen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 511b506d75ad735d5b3b713cd24c802c7cb6d274
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 57326180b6adca053896b3e4da3362f2f6b3e310
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770341"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322529"
 ---
 # <a name="invoicing-prepayments"></a>Fakturieren von Vorauszahlungen
 
-Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und auf einen Vorauszahlungsauftrag (Einkauf oder Verkauf) gebucht werden. Möglicherweise bestehen Sie auf einer Anzahlung, bevor Sie Artikel nach Maß fertigen, oder Sie bestehen auf einer Anzahlung, bevor die Artikel an den Debitor geliefert werden. Mithilfe der Vorauszahlungsfunktion können Sie Anzahlungen von Debitoren fakturieren und einfordern oder Anzahlungen an Kreditoren leisten. Somit kann sichergestellt werden, dass alle Zahlungen mit einer Rechnung ausgeglichen werden.  
+Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und auf einen Vorauszahlungsauftrag (Einkauf oder Verkauf) gebucht werden. Möglicherweise bestehen Sie auf einer Anzahlung, bevor Sie Artikel nach Maß fertigen, oder Sie bestehen auf einer Anzahlung, bevor die Artikel an den Debitor geliefert werden. Mit der Funktion für Vorauszahlungen können Sie von Kunden geforderte Kautionen in Rechnung stellen und einziehen sowie Kautionen an Kreditoren überweisen. Somit kann sichergestellt werden, dass alle Zahlungen mit einer Rechnung ausgeglichen werden.  
 
  Die Vorauszahlungsanforderungen können für einen Debitor, einen Kreditor, für alle Artikel oder für ausgewählte Artikel definiert werden. Nach dem Festlegen der erforderlichen Einstellungen können Vorauszahlungsrechnungen für den berechneten Vorauszahlungsbetrag auf der Grundlage von Aufträgen und Bestellungen generiert werden. Die Standardbeträge auf der Rechnung können je nach Anforderung geändert werden. So können Sie beispielsweise einen Gesamtbetrag für den gesamten Auftrag angeben. Sie haben auch die Möglichkeit zum Senden weiterer Vorauszahlungsrechnungen – beispielsweise für den Fall, dass dem Auftrag weitere Artikel hinzugefügt wurden. Sie können die Mengen erhöhen oder einem Auftrag neue Zeilen hinzufügen, nachdem eine Vorauszahlung geleistet wurde, und anschließend eine weitere Vorauszahlungsrechnung buchen. Soll eine Zeile gelöscht werden, für die bereits eine Vorauszahlung fakturiert wurde, muss eine Vorauszahlungsgutschrift erstellt werden, damit die Zeile gelöscht werden kann.  
 

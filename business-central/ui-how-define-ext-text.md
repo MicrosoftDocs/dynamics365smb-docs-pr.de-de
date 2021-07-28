@@ -1,5 +1,5 @@
 ---
-title: Zusätzliche Zeilen hinzufügen, um Zusatztext für Beschreibungen zu definieren
+title: Textbaustein hinzufügen
 description: Sie können zusätzliche Zeilen hinzufügen, um den Standardtext zu erweitern, der einen Artikel, ein Sachkonto oder andere Daten beschreibt.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: b54c8c82a17cb5e1a25beca1115571733fddc2f4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e46b2f531830fabbb501257295761fc6d13b63b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784690"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318334"
 ---
 # <a name="add-extended-text"></a>Textbaustein hinzufügen
 

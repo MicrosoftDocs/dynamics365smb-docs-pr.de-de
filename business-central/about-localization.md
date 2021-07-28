@@ -1,6 +1,6 @@
 ---
-title: Lokale Funktion in Business Central
-description: Informieren Sie sich über die lokale Verfügbarkeit und Einhaltung gesetzlicher Bestimmungen von Business Central in den Ländern, in denen Microsoft die lokalen Funktionen bereitstellt.
+title: Lokale Funktionalität und Lokalisierungsstrategie
+description: Erfahren Sie mehr über die lokale Verfügbarkeit und die Einhaltung von Vorschriften in Business Central für die Länder, in denen Microsoft die lokale Funktionalität bereitstellt.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8a6d4bfbf4d61df0a42f9f866243c44f8809894b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6967e54999c1bb2a0a9e7fe095e8c3cca9543ec8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776422"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321695"
 ---
 # <a name="local-functionality-in-prod_long"></a>Lokale Funktion in [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -51,6 +51,7 @@ Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für j
 |        | Vereinigte Staaten|[Lokale Funktion (USA)](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asien Pazifik |       |  |
 |        | Australien | [Lokale Funktion (Australien)](localfunctionality/australia/australia-local-functionality.md) |
+|        | Indien | [Indien Lokale Funktionalität](LocalFunctionality/India/india-local-functionality.md) |
 |        | Neuseeland | [Lokale Funktion (Neuseeland)](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Andere Länder

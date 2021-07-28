@@ -1,6 +1,6 @@
 ---
 title: Abrufen von Business Central auf meinem mobilen Gerät
-description: Sie können Business Central auf Ihrem Telefon oder Tablet einsehen und bearbeiten.
+description: Dieses Thema beschreibt die verschiedenen Möglichkeiten, wie Sie Ihre Business Central-Daten auf Ihrem Telefon oder Tablet anzeigen und bearbeiten, an Excel senden und vieles mehr.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5179444b80db50fdd1c4afca6b313ec74e16a292
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 7f2d86ab1ba8f3ee0ae77aad16b64feb0fa1fe4f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115368"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324000"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Abrufen von Business Central auf meinem mobilen Gerät
 

@@ -1,6 +1,6 @@
 ---
-title: Service | Microsoft Docs
-description: Informationen zur Verwendung der Funktion für die Unterstützung der Arbeitsgänge Werkstatt und Service.
+title: Service
+description: Lernen Sie die Funktionen in Business Central kennen, die für die Verwaltung und Nachverfolgung von Dienstleistungen zur Unterstützung von Werkstatt- und Außendienstvorgängen entwickelt wurden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 44167244c872ae5235d0f8443df826a45aafd253
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4e3f85ae3bc5f8672f148ad04388e5810cefb45f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776692"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320081"
 ---
 # <a name="service-management"></a>Service
 > [!NOTE]

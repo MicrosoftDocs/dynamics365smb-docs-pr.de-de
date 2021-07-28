@@ -1,19 +1,19 @@
 ---
-title: Regulatorische Warnungen übermitteln | Microsoft Docs
-description: Wenn Sie über neue Gesetze informiert sind, die Funktionsunterstützung in Business Central benötigen, können Sie diesem Handbuch folgen, um eine gesetzliche Warnung an das Produktteam zu übermitteln.
+title: Regulatorische Warnungen senden
+description: Wenn Sie von neuen Gesetzen wissen, die die Unterstützung von Funktionen in Business Central erfordern, können Sie diese Anleitung befolgen, um eine regulatorische Warnung an das Produktteam zu senden.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784840"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319981"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Warnungen zu landes-/regionsspezifischen gesetzliche Funktionen übermitteln
 

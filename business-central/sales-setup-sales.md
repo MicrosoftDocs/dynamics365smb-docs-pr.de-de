@@ -1,6 +1,6 @@
 ---
-title: Überblick der Aufgaben zum konfigurieren von Verkaufsprozessen | Microsoft Docs
-description: Gliedert die Aufgaben, um Regeln und Werte einzurichten, um Ihre Vertriebsrichtlinien und Arbeitsgänge zu definieren.
+title: Übersicht der Aufgaben zum Konfigurieren von Verkaufsprozessen
+description: Übersicht der Aufgaben, die erforderlich sind, um Regeln und Werte festzulegen, die Ihre Richtlinien und Prozesse für den Vertrieb definieren, einschließlich der allgemeinen Einrichtung und der finanzbezogenen Einrichtung des Vertriebs.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f344fb03f1447681676d5e1e13294bc7cefccb96
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775400"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318584"
 ---
 # <a name="setting-up-sales"></a>Einrichten von Verkäufen
 Bevor Sie Verkaufsprozesse verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Vertriebsrichtlinien des Mandanten definieren.

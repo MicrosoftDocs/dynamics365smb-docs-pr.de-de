@@ -1,6 +1,6 @@
 ---
-title: Verwalten Sie Segmente und wählen Sie Kontakte aus, um diese zu berücksichtigen| Microsoft Docs
-description: Gliedert die Aufgaben, ein Segment zu erstellen, um anhand bestimmter Kriterien eine Gruppe von Kontakten auszuwählen, zum Beispiel Kontakte in einer Branche, die Sie anvisieren möchten.
+title: Verwalten von Segmenten und Auswählen von Kontakten
+description: Dieses Thema beschreibt, wie Sie ein Segment erstellen, indem Sie eine Gruppe von Kontakten nach bestimmten Kriterien auswählen, um dieses Segment später mit einer Kampagne anzusprechen.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 04034f51379874f9d8755b229ef4b251af0be37e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a058433fdd95e4fc78502dd54fbc948fa11a183
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784417"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323593"
 ---
 # <a name="managing-segments"></a>Verwalten von Segmenten
 Sie können Segmente erstellen, um anhand bestimmter Kriterien eine Gruppe von Kontakten auszuwählen. Beispiele für ein Segment sind die Branche, der die Kontakte angehören, oder die Geschäftsbeziehung, die mit den Kontakten besteht. Ein Segment kann erstellt werden, um die gewünschten Kontakte für die Zielgruppe einer Kampagne auszuwählen.

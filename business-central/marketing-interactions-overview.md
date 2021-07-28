@@ -1,6 +1,6 @@
 ---
-title: Aktivitäten mit Kontakten erstellen und verwalten | Microsoft Docs
-description: In Business Central versteht man unter Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten. Kommunikationen können zum Beispiel per Brief, E-Mail, Telefon, Besprechungen usw. erfolgen.
+title: Erstellen und Verwalten von Interaktionen mit Kontakten
+description: In Business Central versteht man unter Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten. Lesen Sie, wie Sie Ihre Kontakte erstellen und verwalten können.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a7e8a009b4d1702689ac61b2874d8970c9c629d2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1876b5f94aa99d032f12c25f81d371af5f44a7c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780632"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321862"
 ---
-# <a name="managing-interactions"></a>Interaktionen verwalten
+# <a name="managing-interactions-with-your-contacts"></a>Verwalten von Interaktionen mit Ihren Kontakten
 In [!INCLUDE[prod_short](includes/prod_short.md)] versteht man unter Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten. Kommunikationen können zum Beispiel per Brief, E-Mail, Telefon, Besprechungen usw. erfolgen.
 
 Sie können alle Aktivitäten, die Sie mit Ihren Kontakten durchführen, speichern, um die Verkaufs- und Marketingmaßnahmen überblicken zu können, die Sie gegenüber Ihren Kontakten unternommen haben, um zukünftige Geschäftsaktivitäten mit ihnen zu verbessern.
