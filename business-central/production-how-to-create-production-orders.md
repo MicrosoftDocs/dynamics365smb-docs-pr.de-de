@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 90d04a6f951c3312f88f536bfab680bcd071de63
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b13be85c47cc2a280b2cf2e7cf3bf4866633343
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781938"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438602"
 ---
 # <a name="create-production-order-headers"></a>Fertigungsauftragsköpfe erstellen
 Sie können Fertigungsaufträge manuell erstellen, und der erste Schritt in diesem Ablauf ist das Erstellen des Fertigungsauftragskopfs.
@@ -25,7 +25,7 @@ Fertigungsaufträge werden üblicherweise bei einem dieser Planungsfunktion erst
 Im weiteren Prozess wird ein fest geplanter Fertigungsauftrag erstellt. Sie können auch Fertigungsaufträge mit einem anderen Status erstellen.  
 
 ## <a name="to-create-a-production-order-header"></a>Fertigungsauftragsköpfe erstellen  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Feste geplante Fertigungsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Geplante Prod. Aufträge** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Geben Sie im Feld **Nr.** die nächste Nummer aus der Serie ein.  
 4.  Wählen Sie im Feld **Herkunftsart.** die Herkunft des Fertigungsauftrags.

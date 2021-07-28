@@ -1,6 +1,6 @@
 ---
-title: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
-description: In Business Central können die ausgehenden Prozesse für die Komissionierung und Lieferung auf vier Arten, mit den verschiedenen Funktionen, abhängig von der Lagerkomplexitätsebene, ausgeführt werden.
+title: Kommissionieren und Versand in Basic Warehouse Config
+description: In Business Central können die ausgehenden Prozesse zum Kommissionieren und Versenden je nach Komplexitätsgrad des Lagers auf die folgenden vier Arten durchgeführt werden.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/27/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214653"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439068"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Kommissionierung und Lieferung in Basis-Lagerkonfigurationen
 
@@ -81,7 +81,7 @@ Um diese Funktion nutzen zu können, müssen Sie sich selbst dem Lagerort als La
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>So machen Sie sich selbst zum Lagermitarbeiter
 
-  1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ zum ersten Mal öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den entsprechenden Link aus.  
+  1. Wählen Sie die ![Glühbirne, die zuerst die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
   2. Wählen Sie das Feld **Benutzer-ID** und dann Ihr eigenes Benutzerkonto auf der Seite **Lagermitarbeiter** aus.
   3. Wählen Sie im Feld **Lagerortcode** „SÜD“ aus.  
   4. Wählen Sie das Feld **Standard** und dann die Schaltfläche **Ja** aus.  
@@ -90,7 +90,7 @@ Um diese Funktion nutzen zu können, müssen Sie sich selbst dem Lagerort als La
 
 Führen Sie die folgenden Schritte aus, um den Artikel LS-1928 SÜD-Standort verfügbar zu machen:  
 
-  1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ zum zweiten Mal öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikel Buch.-Blätter** ein, und wählen Sie dann den entsprechenden Link aus.  
+  1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion als zweite öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Element Buch.-Blätter** ein und wählen Sie dann den zugehörigen Link.  
   2. Öffnen Sie das Standardjournal, und erstellen Sie dann zwei Artikel Buch.-Blattzeilen mit den folgenden Informationen über das Arbeitsdatum (23. Januar).  
 
         |Postentyp|Artikelnummer|Lagerortcode|Lagerplatzcode|Menge|  
@@ -109,7 +109,7 @@ Verkaufsaufträge sind die häufigste Art des ausgehenden Herkunftsbelegs.
 
 ### <a name="to-create-the-sales-order"></a>Den Verkaufsauftrag erstellen
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ zum dritten Mal öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion als dritte öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Erstellen Sie einen Verkaufsauftrag für den Debitor 10000 auf das Arbeitsdatum (23. Januar) mit den folgenden Verkaufszeilen.  
 
@@ -129,7 +129,7 @@ Auf der Seite **Lagerkommissionierung** können Sie alle ausgehenden Lageraktivi
 
 ### <a name="to-pick-and-ship-items"></a>So kommissionieren Sie Artikel und liefern diese aus
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ zum vierten Mal öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerkommissionierungen** ein, und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet viertens.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerkommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
 
     Stellen Sie sicher, dass das Feld **Nr.** auf dem Inforegister **Allgemein** ausgefüllt ist.

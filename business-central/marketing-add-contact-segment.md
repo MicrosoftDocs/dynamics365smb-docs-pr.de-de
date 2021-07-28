@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7cf4c0f1241155f464fde5196125b0a1bed2aeee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4095cfd39ad37037f7fad2a5bded7c5c71241f6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784542"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438877"
 ---
 # <a name="add-contacts-to-segments"></a>Kontakte zu Segementen hinzuzufügen
 Nachdem Sie ein Segment erstellt haben und Basisinformationen darüber eingegeben haben, können Sie dem Segment Kontakte hinzufügen. Sie können dies manuell in den Zeilen auf der Seite **Segment** tun, aber es ist schneller und einfacher, die Aktion **Kontakte hinzufügen** zu verwenden.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Um einem Segment einen Kontakt hinzuzufügen:
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Segmente** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Segmente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie das Segment, und wählen Sie die Aktion **Kontakte hinzufügen** aus. Die Batchauftragsseite **Kontakte hinzufügen** wird geöffnet.
 3. Geben Sie im Abschnitt **Kontakt** durch Setzen von Filtern die Informationen an, nach denen Kontakte ausgewählt werden sollen.
 

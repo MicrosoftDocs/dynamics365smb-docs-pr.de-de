@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Einrichten von Workflowbenutzern | Microsoft Docs'
-description: Bevor Sie Workflows erstellen können, müssen Sie die Benutzer einrichten, die an Workflows teilnehmen. Dies ist notwendig, um beispielsweise festzulegen, wer eine Benachrichtigung empfangen soll, um auf einen Workflowschritt zu reagieren.
+title: So legen Sie Workflow-Benutzer fest
+description: Bevor Sie Workflows erstellen können, müssen Sie die Benutzer, die daran teilnehmen, auf der Seite Workflow-Benutzergruppen festlegen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9c0b7d79f59d2d59d2d382e3dc602769f41ac1f0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2a6ee1b7fd7a65dba36bae95c8981657b6307bfb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774636"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439920"
 ---
 # <a name="set-up-workflow-users"></a>Einrichten von Workflowbenutzern
 
@@ -32,7 +32,7 @@ Workflowbenutzer, die als Genehmigungsbenutzer agieren (sowohl Genehmigungsanfor
 
 ## <a name="to-set-up-a-workflow-user"></a>So richten Sie Workflowbenutzer ein
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Workflow-Benutzergruppen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Workflow-Benutzergruppen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus. Die Seite **Workflow-Genehmigungsgruppe** öffnet sich.  
 3. Geben Sie im Feld **Code** maximal 20 Zeichen ein, um den Workflow zu identifizieren.  
 4. Beschreiben Sie den Workflow im Feld **Beschreibung**.  

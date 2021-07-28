@@ -1,18 +1,18 @@
 ---
-title: Pakete nachverfolgen | Microsoft Docs
-description: Verwenden Sie den Zustellerüberwachungsdienst, um den Status einer Lieferung anzuzeigen.
+title: So können Sie Pakete verfolgen
+description: Verwenden Sie die Sendungsverfolgung für Zusteller im Internet, um Pakete zu verfolgen und den Fortschritt einer Lieferung zu verfolgen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fea12afc4c9c1273fe8ba6da563240781fb1bc9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778347"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440203"
 ---
 # <a name="track-packages"></a>Pakete verfolgen
 
@@ -22,7 +22,7 @@ Das folgende Verfahren zeigt, wie Sie ein Paket aus einer gebuchten Verkaufslief
 
 ## <a name="to-track-a-package"></a>So verfolgen Sie ein Paket:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufslieferung gebucht** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Verkaufslieferungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die relevante Verkaufslieferung.
 3. Wählen Sie die Aktion **Dokument aktualisieren** aus.
 4. In der **Paketverfolgungsnr.** Feld geben Sie die Paketnummer ein, die Sie vom Zusteller erhalten haben. Aktualisieren Sie bei Bedarf **Zusteller**, und schließen Sie die Seite.

@@ -1,6 +1,6 @@
 ---
-title: Walkthrough - Vorräte automatisch planen | Microsoft Docs
-description: Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf die Berechnung der Produktions-Programmplanung und des Materialbedarfsplans anhand des tatsächlichen und geplanten Bedarfs.
+title: Exemplarische Vorgehensweise – Automatisch Vorräte planen
+description: Diese exemplarische Vorgehensweise demonstriert die Verwendung des Lieferplanungssystems zur automatischen Planung von Kauf- und Fertigungsaufträgen auf verschiedenen Verkaufsaufträgen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214703"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439360"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Exemplarische Vorgehensweise: Automatische Beschaffungsplanung
 
@@ -48,7 +48,7 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 ## <a name="prerequisites"></a>Voraussetzungen  
  Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:  
 
--   Das Demounternehmen CRONUS AG.  
+-   Die Demonstrationsfirma CRONUS International Ltd.  
 -   Ändern Sie, wie im Abschnitt Vorbereiten der Beispieldaten dieser exemplarischen Vorgehensweise beschrieben, verschiedene Artikelkonfigurationswerte.  
 
 ## <a name="story"></a>Hintergrund  
@@ -74,7 +74,7 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 
 ### <a name="to-change-selected-planning-parameters"></a>Ausgewählte Planungsparameter ändern  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagermengeneinheiten** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerhaltungseinheiten** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die OST Lagerhaltungsdatenkarte für Artikel 1100, Vorderrad.  
 3.  Füllen Sie im Inforegister **Planung** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -89,9 +89,9 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 ## <a name="creating-a-regenerative-supply-plan"></a>Erstellen einer Beschaffungsneuplanung  
  Als Antworten auf einen neuen Verkaufsauftrag für fünf Rennräder, beginnt Andreas mit dem Planungsprozess, indem er Optionen und Filter setzt und das Planungsintervall festlegt, um jeden anderen Bedarf auszuschließen, mit Ausnahme des Bedarfs der ersten Woche vom Februar am Standort OST. Er berechnet als Erstes eine Produktions-Programmplanung (MPS) und berechnet dann einen vollständigen Beschaffungsplan für den gesamten Bedarf auf untergeordneter Ebene (Materialbedarfsplan).  
 
-### <a name="to-create-the-sales-order"></a>Den Verkaufsauftrag erstellen  
+### <a name="to-create-the-sales-order"></a>So erstellen Sie den Verkaufsauftrag  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den entsprechenden Link aus.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie auf der Seite **Verkaufsauftrag** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -103,7 +103,7 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>So erstellen Sie eine Neuplanung, um den Bedarf am Standort OST zu erfüllen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Planungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Planungsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus.  
 3.  Auf der Seite **Arbeitsplan - Plan berechnen** füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -126,7 +126,7 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Nettobedarf berechnen, um den Bedarf zugrunde liegender Komponenten einzuschließen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Planungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Planungsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus.  
 3.  Auf der Seite **Arbeitsplan - Plan berechnen** füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -220,7 +220,7 @@ Die Begriffe Planung ausführen oder Nettobedarf ausführen beziehen sich auf di
 
 3.  Akzeptieren Sie die Verfügbarkeitswarnung und klicken Sie auf **Ja**, um die Bedarfsmenge zu erfassen.  
 4.  Als Nächstes führen Sie die Neuplanung durch, um den aktuellen Beschaffungsplan anzupassen.  
-5.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Planungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
+5.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Planungsarbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
 6.  Wählen Sie die **Nettoveränderung berechnen** Aktion aus.  
 7.  Auf der Seite **Arbeitsplan - Plan berechnen** füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 

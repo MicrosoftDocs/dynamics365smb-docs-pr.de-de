@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Erstellen von Lagerplätzen | Microsoft Docs'
-description: Die effektivste Art, die Lagerplätze Ihres Lagers zu erzeugen, ist, Gruppen von ähnlichen Lagerplätzen im Lagerplatz Erstellungsarbeitsblatt zu erstellen, Sie können Ihre Lagerplätze jedoch auch individuell erzeugen.
+title: So erstellen Sie Lagerplätze
+description: Erzeugen Sie Gruppen ähnlicher Lagerplätze im Lagerplatz-Erstellungs-Arbeitsblatt, erstellen Sie Lagerplätze einzeln auf der Standortkarte oder automatisch im Lagerplatz-Erstellungs-Arbeitsblatt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0c426fa5a617a8457a562333d96cc7924ddc6669
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 89b1c6b6252cc91fb10c2698b0a8b4869dc39853
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782709"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440078"
 ---
 # <a name="create-bins"></a>Lagerplätze erstellen
 Die effektivste Art, die Lagerplätze Ihres Lagers zu erzeugen, ist, Gruppen von ähnlichen Lagerplätzen im Lagerplatz Erstellungsarbeitsblatt zu erstellen, Sie können Ihre Lagerplätze jedoch auch individuell aus der erzeugen Lagerortkarte erzeugen. Sie können eine Funktion auf der Seite **Lagerplatz Erst.-Arbeitsblatt** verwenden, um die Lagerplätze automatisch zu erstellen.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>So erstellen einen Lagerplatz von der Lagerortkarte aus:  
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Lagerorte** ein und wählen Sie den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie den zugehörigen Link.  
 2.  Wählen Sie den Lagerort aus, aus dem Sie einen Lagerplatz erstellen möchten, und wählen Sie die Aktion **Lagerplätze** aus.  
 3. Wählen Sie die Aktion **Neu** aus.
 4. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +37,7 @@ Das Einrichten eines Fert.-Bereitst.-Lagerplatzes/Fert.-Ausgangslagerplatzes ste
 > Artikel in den Fert.-Bereitst.-Lagerplätzen/Fert.-Ausgangslagerplätzen werden nicht geschützt, wenn sie als Produktionskomponenten mit der **Lagerkommissionierungsseite** kommissioniert und verbraucht werden. Weitere Informationen unter [Kommissionierung für Montage oder Produktion in der Grund-Lagerkonfiguration](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>So erstellen Sie Lagerplätze individuell im Lagerplatz-Erstellungsarbeitsblatt:  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerplatz Erst.-Arbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitsblatt Lagerplatz Erst.-Arbeitsblatt** ein und wählen Sie den zugehörigen Link.  
 2.  Füllen Sie in jeder Zeile die Felder aus, die erforderlich sind, um die Lagerplätze, die Sie erzeugen, zu benennen und zu charakterisieren.  
 3.  Wählen Sie die Aktion **Lagerplätze erstellen** aus.  
 
@@ -49,7 +49,7 @@ Bevor Sie beginnen, Lagerplätze automatisch zu erstellen, sollten Sie die Art d
 
 Um mit der **Lagerplatz Erst.-Arbeitsblatt**-Seite zu arbeiten, müssen Sie als Lagermitarbeiter am Lagerort eingerichtet sein, in dem die Lagerplätze vorhanden sind. Weitere Informationen finden Sie unter [Lagermitarbeiter einrichten](warehouse-how-to-set-up-warehouse-employees.md)    
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerplatz Erst.-Arbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerplatz Erst.-Arbeitsblatt** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Lagerplätze berechnen** aus.
 3. Wählen Sie auf der Seite **Lagerplätze berechnen** im Feld **Lagerplatzvorlagencode** aus, und wählen Sie die Lagerplatzvorlage, die Sie als Muster für die Lagerplätze verwenden möchten, die Sie gerade erstellen.
 4.  Geben Sie eine Beschreibung für die Lagerplätze ein, die Sie gerade erstellen.  

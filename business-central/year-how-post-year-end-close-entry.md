@@ -5,16 +5,16 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5c822685ae5723bc6b13f9fedad45dbddefdb956
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6dfba7323eeaad538cf45525d11212a6e5d7438e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776592"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438527"
 ---
-# <a name="post-the-year-end-closing-entry"></a>So buchen Sie den Jahresabschlussposten
+# <a name="posting-the-year-end-closing-entry"></a>Buchen der Jahresendabschlussbuchung
 
 Nachdem Sie die Stapelverarbeitung **GuV-Konten Nullstellung** ausgeführt haben, um den bzw. die Ultimoposten für den Jahresabschluss zu generieren, müssen Sie das in der Stapelverarbeitung angegebene Buchungsblatt öffnen und die Posten überprüfen und buchen.  
 
@@ -23,7 +23,7 @@ Nachdem Sie die Stapelverarbeitung **GuV-Konten Nullstellung** ausgeführt haben
 
 ## <a name="to-post-the-year-end-closing-entry"></a>So buchen Sie den Jahresabschlussposten
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Fibu Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Fibu Buch.Blatt** im Feld **Buch.-Blattname** das Buch.-Blatt mit den Abschlussposten aus.
 3. Überprüfen Sie die Posten.
 4. Wählen Sie auf der Registerkarte **Start** die Option Buchen aus, um das Buch.-Blatt zu buchen.

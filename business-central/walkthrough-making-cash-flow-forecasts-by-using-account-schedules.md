@@ -1,6 +1,6 @@
 ---
-title: Exemplarische Vorgehensweise – Erstellen von Cashflowplanungen mithilfe von Kontenschemata
-description: Erfahren Sie, wie Sie mit Kontenschemata arbeiten können, um Cashflowplanungen zu erstellen.
+title: Cashflow-Prognosen mit Hilfe von Kontenschemata
+description: Diese exemplarische Vorgehensweise beschreibt, wie Sie Kontenschemata verwenden können, um Cashflow-Prognosen in Business Central zu erstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 48a176c4c363c4a33ae336d754be71c9f7dd0aeb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0da9a5cab5c36bd5403bca3731ce46bb67316c3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772104"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438502"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Exemplarische Vorgehensweise: Erstellen von Cashflowplanungen mithilfe von Kontenschemata
 
@@ -54,7 +54,7 @@ Ein Kontenschema besteht aus einem Cashflow-Kontenschemanamen mit einer Reihe vo
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Einen neuen Kontenschemanamen einrichten:  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kontenschemata** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenschemata** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Kontoschemaname** auf der Registerkarte **Neu** die Option Neu aus, um einen neuen Cashflow zu erstellen.  
 3. Geben Sie im Feld **Namen** **Planung** ein.  
 4. Geben Sie im Feld **Beschreibung** eine Beschreibung für die **Cashflowplanung** ein.  

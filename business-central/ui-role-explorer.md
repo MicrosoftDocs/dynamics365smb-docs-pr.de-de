@@ -1,6 +1,6 @@
 ---
-title: Durchsuchen und Navigieren von Seiten pro Rolle | Microsoft Docs
-description: ''
+title: Erkunden und Navigieren von Seiten pro Rolle
+description: Mit dem Rollen-Explorer können Sie sich einen Überblick über alle Funktionen verschaffen, die für Ihre Rolle und für andere Rollen verfügbar sind.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9b0c85b181f68e0fd6078b85d43b7b0d08bccd80
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c6acdd0370144c4a49f068a26c5f5f6c6f6a9a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783234"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440027"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Suchen von Seiten mit dem Rollen-Explorer
 Sie können sich einen Überblick über alle Geschäftsfunktionen verschaffen, die für Ihre Rolle und für andere Rollen verfügbar sind, wenn Sie einen Schritt weiter gehen. In der folgenden Dokumentation wird diese Funktionsübersicht als *Rollen-Explorer* bezeichnet.
@@ -24,7 +24,7 @@ Jedes Element im Rollen-Explorer ist eine Aktion, die eine Seite öffnet. Dement
 
 Sie können den Rollen-Explorer aus dem Rollencenter und allen Listenseiten sowie aus dem Fenster **Tell Me** öffnen.
 
-- Wählen Sie auf Ihrem Rollencenter oder einer beliebigen Listenseite die Schaltfläche ![Menü](media/ui_menu_button.png "Menütaste") rechts neben der Navigationsleiste, oder drücken Sie Umschalt+F12.
+- Wählen Sie in Ihrem Rollencenter oder auf einer beliebigen Listenseite die ![Menü-Schaltfläche.](media/ui_menu_button.png "Menütaste") Schaltfläche rechts neben der Navigationsleiste oder drücken Sie Umschalt+F12.
 - In dem **Wie möchten Sie weiter verfahren** Fenster wählen Sie die **erforschen** Aktion am unteren Rand.
 
 Wählen Sie die Aktion **Finden** oben im Rollen-Explorer, um schnell Feature-Namen zu finden, die einen bestimmten Begriff enthalten.

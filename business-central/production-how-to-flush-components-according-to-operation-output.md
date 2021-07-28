@@ -1,6 +1,6 @@
 ---
 title: Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren
-description: Für Artikel, die mit der Rückwärtsbuchungsmethode erstellt wurden, ist das Standardverhalten, Komponentenverbrauch zu berechnen und zu buchen, wenn Sie den Status eines freigegebenen Fertigungsauftrags in Erledigt ändern.
+description: In diesem Thema wird beschrieben, wie Sie Komponenten nach dem Ausgang des Vorgangs bündeln und welche anderen Bündelungsmethoden es gibt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 82d5148bd99870b623a0b37693e105bcf8b862b2
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115865"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439093"
 ---
-# <a name="flush-components-according-to-operation-output"></a>Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren
+# <a name="flush-components-according-to-operation-output"></a>Komponenten nach Vorgangsausgabe bündeln
 Sie können verschiedene Buchungsmethoden definieren, um die Registrierung des Verbrauchs von Komponenten zu automatisieren. 
 
 Diese Funktionalität ist aus folgenden Ursachen nützlich:  
@@ -91,18 +91,18 @@ Wenn beispielsweise ein Fertigungsauftrag, 800 Meter zu produzieren, 8 Kilogramm
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikel** ein, und wählen Sie dann den entsprechenden Link aus.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Bearbeiten** aus.  
 3.  Wählen Sie im Inforegister **Beschaffung** im Feld **Buchungsmethode** die Option **Rückwärts** aus.  
 
     > [!NOTE]  
     >  Wählen Sie **Kommiss. + Rückwärts** aus, wenn die Komponente in einem Lagerplatz verwendet wird, der für die gesteuerte Einlagerung und Kommissionierung eingerichtet ist.  
 
-4.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Routings** ein, und wählen Sie dann den zugehörigen Link.  
+4.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
 5.  Definieren Sie Verbindungscodes für jeden Arbeitsgang, der die Komponente verbraucht. Weitere Informationen finden Sie unter [Arbeitspläne erstellen ](production-how-to-create-routings.md).  
     > [!IMPORTANT]  
     > Verwenden Sie nicht dieselbe Routing-Routing-Verbindung für verschiedene Vorgänge im Routing, da dies zur Registrierung des Verbrauchs von Komponenten für jeden verknüpften Vorgang führt.  
-6.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Fertigungsstückliste** ein, und wählen Sie dann den entsprechenden Link aus.  
+6.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
 7.  Definieren Sie Verbindungscodes von jeder Instanz der Komponente zu dem Arbeitsgang, in dem sie verbraucht wird.
 
 Der Verbrauch wird automatisch gebucht, wenn Sie die Ausgabe registrieren. Weitere Informationen finden Sie unter [Ausgabe über Stapelverarbeitung buchen und Bearbeitungszeiten prüfen](production-how-to-post-output-quantity.md)

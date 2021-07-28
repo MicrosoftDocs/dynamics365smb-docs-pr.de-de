@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0726cdc74474669aaf4cadc94e88dc79e790411d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34f4582eabfcace038c54cb0b6a60d0e7217496b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775772"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438357"
 ---
 # <a name="enable-workflows"></a>Aktivieren von Workflows
 Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu starten, müssen Sie den Workflow aktivieren.  
@@ -23,7 +23,7 @@ Wenn Sie einen Workflow erstellt haben und sicher sind, dass er bereit ist zu st
  Auf der Seite **Workflow** können Sie einen Workflow erstellen, indem Sie die entsprechenden Schritte in den Zeilen auflisten. Jeder Schritt besteht aus einem durch Ereignisbedingungen moderiertem Workflowereignis und einer durch Antwortoptionen moderierten Workflowantwort. Sie definieren Workflowschritte, indem Sie die Felder in Workflowzeilen mit Ereignis- und Antwortwerten aus festen Listen ausfüllen, die die Workflowszenarien darstellen, die durch den Anwendungscode unterstützt werden. Weitere Informationen finden Sie unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>So aktivieren Sie einen Workflow  
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Workflows** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Workflows** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie den Workflow, den Sie aktivieren möchten.  
 3.  Deaktivieren Sie auf der Seite **Workflow** das Kontrollkästchen **Aktiviert**.  
 

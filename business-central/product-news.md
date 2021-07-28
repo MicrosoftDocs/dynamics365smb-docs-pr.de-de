@@ -1,18 +1,18 @@
 ---
 title: Neu und in der Standardversion geplant
-description: Erfahren Sie, wo Sie die neuesten Nachrichten und Updates für die Standardversion von Business Central finden.
+description: Erfahren Sie, wo Sie die neuesten Nachrichten und Updates für neue und bestehende Funktionen in der Standardversion von Business Central finden.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 4bfa57850f86c243ddb3c7394f59296aceb90437
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: 7d487bdb24284583b2ea11f5f18ae3b9d8b7ab04
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941638"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438727"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Neues und Geplantes für Dynamics 365 Business Central
 
@@ -28,7 +28,7 @@ Die folgende Liste enthält Informationen zu den neuesten Versionen von [!INCLUD
 
 Sie können auch die Website [Dynamics 365 Business Central-Funktionen](https://dynamics.microsoft.com/business-central/capabilities/) erkunden und die Website [Dynamics 365 Business Central-Roadmap](https://dynamics.microsoft.com/roadmap/business-central/).  
 
-<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
+<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription."](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 ## <a name="see-also"></a>Siehe auch
 

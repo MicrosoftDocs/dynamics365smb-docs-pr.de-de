@@ -10,31 +10,31 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: da7b9e3623f953fca19609702216e8b895d438fb
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d2c51e5851fec0c451c058fcb7330ce456d4525c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214803"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439585"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetails: Umlagerungen in der Planung
 Umlagerungsaufträge sind ebenfalls eine Versorgungsquelle beim Arbeiten auf der Lagerhaltungsdatenebene. Wenn Sie "Mehrere Lagerorte (Lager)" verwenden, kann die Beschaffungsmethode auf Transfer festgelegt werden, damit der Lagerort aufgefüllt wird, indem Waren an einem anderen Lagerort übertragen werden. Sind mehrere Lager vorhanden, verfügen Unternehmen möglicherweise über eine Kette von Umlagerungen, in denen der Vorrat von GRÜN auf GELB und von GELB auf ROT usw. übergeht. Am Beginn der Kette steht ein Beschaffungssystem von Fertigungsauftrag oder Einkauf.  
 
-![Beispiel für den Umlagerungsfluss](media/nav_app_supply_planning_7_transfers1.png "Beispiel für den Umlagerungsfluss")  
+![Beispiel für den Transfer Flow.](media/nav_app_supply_planning_7_transfers1.png "Beispiel für den Umlagerungsfluss")  
 
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Beim Vergleich mit der Situation, in der ein Beschaffungsauftrag direkt einem Bedarfsauftrag in einer Situation gegenübersteht, in der der Verkaufsauftrag durch eine Kette von Lagerhaltungsdaten-Übertragungen angegeben ist, ist es offensichtlich, dass die Planungsaufgabe in der letzteren Situation sehr komplex werden kann. Wenn sich der Bedarf ändert, kann dies zu einem Kaskadeneffekt durch die Kette führen, da alle Umlagerungsaufträge plus Kauf-/Fertigungsaufträge am anderen Ende der Kette geändert werden müssen, um die Balance zwischen Bedarf und Vorrat erneut herzustellen.  
 
-![Beispiel für den Saldo zwischen Angebot und Nachfrage bei Umlagerungen](media/nav_app_supply_planning_7_transfers2.png "Beispiel für den Saldo zwischen Angebot und Nachfrage bei Umlagerungen")  
+![Beispiel für Vorrat/Nachfrage-Gleichgewicht bei Transfers.](media/nav_app_supply_planning_7_transfers2.png "Beispiel für den Saldo zwischen Angebot und Nachfrage bei Umlagerungen")  
 
 ## <a name="why-is-transfer-a-special-case"></a>Warum ist Transfer ein spezieller Fall?  
 Ein Umlagerungsauftrag sieht im Programm fast wie jeder andere Auftrag in der Anwendung aus. Hinter den Kulissen ist es jedoch vollkommen anders.  
 
 Ein grundlegender Aspekt, wodurch sich Umlagerungen beim Planen von Einkaufs- und Produktionsaufträgen unterscheiden, ist der Umstand, dass eine Umlagerungszeile Bedarf und Vorrat gleichzeitig darstellt. Der ausgehende Teil, der vom alten Lagerort geliefert wird, ist Bedarf. Der eingehende Teil, der am neuen Lagerort erhalten werden soll, ist Vorrat an diesem Lagerort.  
 
-![Inhalt der Seite Umlagerungsauftrag](media/nav_app_supply_planning_7_transfers3.png "Inhalt der Seite Umlagerungsauftrag")  
+![Inhalt der Seite Umlagerungsauftrag.](media/nav_app_supply_planning_7_transfers3.png "Inhalt der Seite Umlagerungsauftrag")  
 
 Das bedeutet, dass, wenn das System die Zugangsseite der Übertragung ändert, es eine ähnliche Änderung der Bedarfsseite vornehmen muss.  
 
@@ -50,13 +50,13 @@ Im Planungsverfahren sollte der Übergangsbedarf nur berücksichtigt werden, nac
 ## <a name="planning-sequence"></a>Planungssequenz  
 Die folgende Abbildung zeigt, wie eine Folge von Umlagerungen aussieht.  
 
-![Beispiel für einfachen Umlagerungsfluss](media/nav_app_supply_planning_7_transfers4.png "Beispiel für einfachen Umlagerungsfluss")  
+![Beispiel für einen einfachen Transfer Flow.](media/nav_app_supply_planning_7_transfers4.png "Beispiel für einfachen Umlagerungsfluss")  
 
 In diesem Beispiel bestellt ein Debitor den Artikel an Lagerort GRÜN. Lagerort GRÜN wird durch Umlagerung vom Zentrallager ROT angegeben. Das zentrale Lager ROT wird durch Umlagerung von der Produktion zu Lagerort BLAU beliefert.  
 
 In diesem Beispiel beginnt das Planungssystem mit dem Debitorenbedarf und arbeitet sich rückwärts durch die Kette. Die Bedarfe und Vorräte werden an einem Lagerort gleichzeitig verarbeitet.  
 
-![Beschaffungsplanung mit Umlagerungen](media/nav_app_supply_planning_7_transfers5.png "Beschaffungsplanung mit Umlagerungen")  
+![Nachschubplanung mit Transfers.](media/nav_app_supply_planning_7_transfers5.png "Beschaffungsplanung mit Umlagerungen")  
 
 ## <a name="transfer-level-code"></a>Umlagerungsebenencode  
 Die Reihenfolge, in der die Lagerorte im Planungssystem verarbeitet werden, wird durch der Übergangsebenencode der SKU bestimmt.  
@@ -65,7 +65,7 @@ Der Umlagerungsebenencode ist ein internes Feld, das automatisch in den Lagerhal
 
 Der Umlagerungsebenencode ist 0 für Lagerhaltungsdaten mit der Beschaffungsmethode"Einkauf" oder "Fertigungsauftrag" und -1 für die erste Umlagerungsebene, -2 für die zweite Umlagerungsebene usw. In der Übergangskette, die oben beschrieben wurde, würden die Ebenen daher -1 für ROT und -2 für GRÜN ein, wie in der folgenden Abbildung angezeigt.  
 
-![Inhalt der Lagerhaltungskarten-Seite](media/nav_app_supply_planning_7_transfers6.gif "Inhalt der Lagerhaltungskarten-Seite")  
+![Inhalt der Seite SKU Karte.](media/nav_app_supply_planning_7_transfers6.gif "Inhalt der Lagerhaltungskarten-Seite")  
 
 Bei der Aktualisierung der Lagerhaltungsdaten erkennt das Planungssystem, ob Lagerhaltungsdaten mit der Beschaffungsmethode Transfer mit Zirkelverweisen eingerichtet werden.  
 
@@ -75,7 +75,7 @@ Selbst wenn die SKU-Funktion nicht verwendet wird, ist es möglich, Lagerorte zu
 
 Um manuelle Übertragungen zu unterstützen, analysiert die Planung vorhandene Umlagerungsaufträge und plant dann die Reihenfolge, in der die Lagerorte bearbeitet werden sollen. Intern arbeitet das Planungssystem mit den temporären SKUs, die Übergangsebenencodes tragen.  
 
-![Umlagerungsebenencode](media/nav_app_supply_planning_7_transfers7.png "Umlagerungsebenencode")  
+![Code der Transferebene.](media/nav_app_supply_planning_7_transfers7.png "Umlagerungsebenencode")  
 
 Wenn mehr Umlagerungen zu einem bestimmten Lagerort vorhanden sind, definiert der erste Umlagerungsauftrag die Planungsrichtung. Umlagerungen, die in die entgegengesetzte Richtung ausgeführt werden, werden storniert.  
 
@@ -86,24 +86,24 @@ Wenn Sie die Menge auf einer bestehenden Umlagerungszeile ändern, beachten Sie,
 
 Wenn beispielsweise eine Umlagerungsauftragszeile von 117 Stück gegen eine Verkaufszeile von 46 und eine Einkaufszeile von 24 reserviert wird, ist es nicht möglich, die Umlagerungszeile unter 46 Stück zu verringern, auch wenn dies möglicherweise überschüssigen Vorrat für die jeweilige eingehende Seite bedeuten würde.  
 
-![Reservierungen in der Umlagerungsplanung](media/nav_app_supply_planning_7_transfers8.png "Reservierungen in der Umlagerungsplanung")  
+![Reservierungen in der Transferplanung.](media/nav_app_supply_planning_7_transfers8.png "Reservierungen in der Umlagerungsplanung")  
 
 ## <a name="changing-quantity-in-a-transfer-chain"></a>Ändern der Menge in einer Umlagerungskette  
 Im folgenden Beispiel ist der Ausgangspunkt eine ausgeglichene Situation mit einer Übergangskette, die einen Verkaufsauftrag von 27 an Lagerort ROT mit einer entsprechenden Bestellung am Lagerort BLAU bereitstellt, umgelagert über Lagerort ROSA. Daher gibt es, abgesehen von Verkauf und Einkauf, es zwei Umlagerungsaufträge: BLAU-ROSA und ROSA-ROT.  
 
-![Ändern der Menge in der Umlagerungsplanung 1](media/nav_app_supply_planning_7_transfers9.png "Ändern der Menge in der Umlagerungsplanung 1")  
+![Änderung der Menge in der Transferplanung 1.](media/nav_app_supply_planning_7_transfers9.png "Ändern der Menge in der Umlagerungsplanung 1")  
 
 Jetzt beschließt der Planer am Lagerort PINK, gegen den Einkauf zu reservieren.  
 
-![Ändern der Menge in der Umlagerungsplanung 2](media/nav_app_supply_planning_7_transfers10.png "Ändern der Menge in der Umlagerungsplanung 2")  
+![Ändern der Menge in der Transferplanung 2.](media/nav_app_supply_planning_7_transfers10.png "Ändern der Menge in der Umlagerungsplanung 2")  
 
 Dies bedeutet normalerweise, dass das Planungssystem die Einkaufsbestellung und den Übergangsbedarf ignoriert. Solange es Saldo gibt, gibt es kein Problem. Was geschieht aber, wenn der Debitor am Standort ROT teilweise den Auftrag bedauert und ihn in 22 ändert?  
 
-![Ändern der Menge in der Umlagerungsplanung 3](media/nav_app_supply_planning_7_transfers11.png "Ändern der Menge in der Umlagerungsplanung 3")  
+![Ändern der Menge in der Transferplanung 3.](media/nav_app_supply_planning_7_transfers11.png "Ändern der Menge in der Umlagerungsplanung 3")  
 
 Wenn das Planungssystem erneut ausgeführt wird, sollte es überschüssigen Vorrat loswerden. Jedoch sperrt die Reservierung den Einkauf und die Übertragung zu einer Menge von 27.  
 
-![Ändern der Menge in der Umlagerungsplanung 4](media/nav_app_supply_planning_7_transfers12.png "Ändern der Menge in der Umlagerungsplanung 4")  
+![Änderung der Menge in der Transferplanung 4.](media/nav_app_supply_planning_7_transfers12.png "Ändern der Menge in der Umlagerungsplanung 4")  
 
 Die ROSA-ROTE Umlagerung wird auf 22 reduziert. Der eingehende Teil der BLAU-ROSA Umlagerung wird nicht reserviert, weil der ausgehende Teil reserviert wird, ist es nicht möglich, die Menge unter 27 zu verringern.  
 
@@ -127,7 +127,7 @@ Das Start- und Enddatum werden verwendet, um die tatsächliche Transportperiode 
 
 Die folgende Abbildung zeigt die Interpretation von Startdatum/-zeit und Enddatum/-zeit auf Planungszeilen im Zusammenhang mit Umlagerungsaufträgen.  
 
-![Zentrale Datumsangaben und Uhrzeiten in der Umlagerungsplanung](media/nav_app_supply_planning_7_transfers13.png "Zentrale Datumsangaben und Uhrzeiten in der Umlagerungsplanung")  
+![Zentrale Datumszeitpunkte in der Transferplanung.](media/nav_app_supply_planning_7_transfers13.png "Zentrale Datumsangaben und Uhrzeiten in der Umlagerungsplanung")  
 
 In diesem Beispiel bedeutet dies, dass:  
 
@@ -138,7 +138,7 @@ In diesem Beispiel bedeutet dies, dass:
 ## <a name="safety-lead-time"></a>Sicherh.-Zuschl. Beschaff.-Zt.  
 Das Feld „Vorg. Sich.-Zuschl. Besch.-Zt.“ auf der Seite „Fertigungseinrichtung“ und das zugehörige Feld „Sicherh.-Zuschl. Beschaff.-Zt.“ auf der Artikelkarte werden nicht in der Berechnung eines Umlagerungsauftrags berücksichtigt. Die Sicherheitsbeschaffungszeit beeinflusst jedoch den Gesamtplan wie den Beschaffungsauftrag (Einkauf oder Produktion) am Anfang der Übertragungskette, wenn die Artikel an den Lagerort verbracht werden, von dem aus sie umgelagert werden sollen.  
 
-![Elemente des Umlagerungsfälligkeitsdatums](media/nav_app_supply_planning_7_transfers14.png "Elemente des Umlagerungsfälligkeitsdatums")  
+![Elemente des Transferfälligkeitstermins.](media/nav_app_supply_planning_7_transfers14.png "Elemente des Umlagerungsfälligkeitsdatums")  
 
 In der FA-Zeile gilt: Enddatum + Sicherheitszuschlag Beschaffungszeit + Eingehende Lagerdurchlaufzeit = Fälligkeitsdatum.  
 
@@ -147,7 +147,7 @@ In der Bestellzeile gilt: Geplantes Wareneingangsdatum + Sicherheitszuschlag Bes
 ## <a name="reschedule"></a>Neu berechnen  
 Wenn eine vorhandene Umlagerungszeile neu geplant wird, muss das Planungssystem den ausgehenden Teil suchen und desssen Datum/Zeit ändern. Es ist wichtig zu wissen, dass nach der Definition der Beschaffungszeit eine Lücke zwischen Lieferung und Eingang besteht. Wie erwähnt, kann die Beschaffungszeit aus mehr Elementen, wie Transportzeit und Lagerdurchlauf, bestehen. In einer Zeitachse geht das Planungssystem in der Zeit zurück, während es die Elemente ausgleicht.  
 
-![Ändern des Fälligkeitsdatums in der Umlagerungsplanung](media/nav_app_supply_planning_7_transfers15.png "Ändern des Fälligkeitsdatums in der Umlagerungsplanung")  
+![Änderung des Fälligkeitsdatums in der Transferplanung.](media/nav_app_supply_planning_7_transfers15.png "Ändern des Fälligkeitsdatums in der Umlagerungsplanung")  
 
 Daher muss, wenn des Fälligkeitsdatum auf einer Umlagerungszeile geändert wird, die Beschaffungszeit berechnet werden, um die ausgehende Seite der Übertragung zu aktualisieren.  
 
@@ -157,7 +157,7 @@ Wenn der Bedarf Serien-/Chargennummern trägt und das Planungsmodul ausgeführt 
 ## <a name="order-to-order-links"></a>Auftrag-zu-Auftrag-Verknüpfungen  
 In diesem Beispiel wird die BLAUE SKU mit dem Auftragswiederbeschaffungsverfahren eingerichtet, während ROSA und ROT Los-für-Los verwenden. Wenn ein Verkaufsauftrag von 27 in Lagerort ROT erstellt wird, führt er zu einer Kette von Umlagerungen, wobei das letzte Gelenk am Standort BLAU mit Bindung reserviert wird. In diesem Beispiel sind die Reservierungen nicht harte Reservierungen, die vom Planer am ROSA Lagerort erstellt wurden, sondern Bindungen, die vom Planungssystem erstellt wurden. Die wichtige Unterschied besteht darin, dass das Planungssystem die letzteren ändern kann.  
 
-![Auftrag-zu-Auftrag-Links in der Umlagerungsplanung](media/nav_app_supply_planning_7_transfers16.png "Auftrag-zu-Auftrag-Links in der Umlagerungsplanung")  
+![Auftrags-zu-Auftragsverknüpfungen in der Transferplanung.](media/nav_app_supply_planning_7_transfers16.png "Auftrag-zu-Auftrag-Links in der Umlagerungsplanung")  
 
 Wenn Bedarf von 27 zu 22 geändert wird, senkt das System die Menge durch die Kette hindurch ab, wobei auch die Bindungsreservierung reduziert wird.  
 

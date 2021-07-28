@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Ändern von Planungsvorschlägen in einer grafischen Ansich| Microsoft Docst'
-description: Eine typische Planungsaktivität besteht darin, Planungsarbeitsblattszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion Ereignismeldung durchführen ausführen. Eine Alternative zur Durchführung im Planungsarbeitsblatt ist die Verwendung einer grafischen Ansicht.
+title: Ändern von Planungsvorschlägen in der grafischen Ansicht
+description: Typische Planungsaktivität – ändern oder fügen Sie Zeilen im Planungsarbeitsblatt hinzu, um die vorgeschlagenen Vorräte zu modifizieren, bevor Sie die Funktion „Aktion ausführen“ Nachricht ausführen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: daaa18af0c0255a6e57c5e035e630b0fd34e5d0c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ab69ea915a4d7b1029b5fc833320f89e84fb6d98
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788002"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438577"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändern von Planungsvorschlägen in einer grafischen Ansicht
 
@@ -37,7 +37,7 @@ The following procedure shows how to modify supply suggestions by drag and drop.
 
 ## To modify suggested supply orders in the graphical view
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 
 2. Choose the line that you want to see item availability for, choose **Item Availability by**, and then choose **Timeline**.
 

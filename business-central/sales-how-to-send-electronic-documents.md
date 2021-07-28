@@ -1,6 +1,6 @@
 ---
 title: Elektronische Belege senden
-description: Erfahren Sie, wie man Rechnungen elektronisch sendet.
+description: Erfahren Sie, wie Sie mit Business Central elektrische Rechnungen und Gutschriften im PEPPOL-Format versenden können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8056aa66531740634fb155e0b3b4419a7f014ffc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: abfc8b77ed4b6cc748898e8d4af8f68e036b468e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778372"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440278"
 ---
 # <a name="send-electronic-documents"></a>Elektronische Belege senden
 
@@ -27,7 +27,7 @@ Die allgemeine Version von [!INCLUDE[prod_short](includes/prod_short.md)] unters
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>So senden Sie eine elektronische Verkaufsrechnung
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun") aus, geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 
 2. Erstellen Sie eine neue Verkaufsrechnung.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783184"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440002"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren  
 In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahren“ schnell zu Aktionen, Seiten oder Berichten navigieren, Informationen zum Abschluss einer bestimmten Aufgabe finden und zusätzliche Apps und Beratungsdienste für [!INCLUDE[prod_short](includes/prod_short.md)] zu ermitteln.  
@@ -23,7 +23,7 @@ In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahr
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Wenn Sie Hilfe bei der Suche nach etwas benötigen, verwenden Sie das ![Tell me](media/ui-search/search.png "Suche nach Seite oder Bericht") **Tell me** Symbol, um danach zu suchen. Sie können „Wie möchten Sie weiter verfahren“ auch über ALT+Q starten.
+Wenn Sie Hilfe bei der Suche nach etwas benötigen, verwenden Sie die ![Sagen Sie mir, was Sie tun möchten.](media/ui-search/search.png "Suche nach Seite oder Bericht") **Sagen Sie mir, was Sie tun möchten** Symbol, um danach zu suchen. Sie können „Wie möchten Sie weiter verfahren“ auch über ALT+Q starten.
 
 Sobald Sie Zeichen eingeben, zeigt [!INCLUDE[prod_short](includes/prod_short.md)] sofort Treffer an. Ergebnisse in der Liste ändern sich, wenn Sie weitere Zeichen eingeben. Wenn Sie bemerken, dass bei der Eingabe des Wortes "Produkt" auch Ergebnisse wie **Artikel** angezeigt werden, liegt das daran, dass "Wie möchten Sie weiter verfahren" Synonyme und alternative Suchbegriffe verwendet, um die Suche nach Aktionen, Seiten und Berichten zu vereinfachen.
 

@@ -1,6 +1,6 @@
 ---
 title: So erstellen Sie eine Bedarfsplanung
-description: Verkaufs- und Absatzplanungen können auf der Seite **Nachfrageplanung** vorgenommen werden.
+description: Informieren Sie sich über die Funktion „Planung“ in Business Central und wie Sie Umsatz- und Produktionsprognosen erstellen können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b2a24eeb4e50cb6f7a1c9e02c861ec51668438
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779328"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438687"
 ---
 # <a name="create-a-demand-forecast"></a>Bedarfsplanung erstellen
 Verkaufs- und Absatzplanungen können auf der Seite **Nachfrageplanung** vorgenommen werden.  
@@ -62,7 +62,7 @@ Betrachten Sie dieses Beispiel: Ihr Unternehmen kauft und verkauft Artikel an zw
 Anschließend legen Sie vor Ort WEST einen Kundenauftrag mit einer Menge von 12 an. Das Planungssystem schlägt vor, dass Sie Folgendes tun:
 
 - Füllen Sie 10 Teile für den Standort OST auf, basierend auf Daten aus der Prognose.  
-- Füllen Sie 12 Teile für den Standort WEST auf, basierend auf dem Kundenauftrag. Die 4 Teile, die in der Prognose angegeben wurden, werden vollständig von der tatsächlichen Nachfrage des Kundenauftrags verbraucht. Weitere Informationen finden Sie im Abschnitt [Planungsbedarf wird durch Verkaufsaufträge reduziert](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+- Füllen Sie 12 Teile für den Standort WEST auf, basierend auf dem Verkaufsauftrag. Die vier Stücke, die in der Planung angegeben wurden, werden durch den tatsächlichen Bedarf des Verkaufsauftrags vollständig verbraucht. Weitere Informationen finden Sie im Abschnitt [Planungsbedarf wird durch Verkaufsaufträge reduziert](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
 
 > [!NOTE]  
 >  Beachten Sie aber , dass die Gesamtabsatzplanung möglicherweise nicht repräsentativ ist, wenn auf dem Lagerort basierende Absatzplanungen isoliert angezeigt werden.
@@ -85,7 +85,7 @@ Anschließend legen Sie vor Ort WEST einen Kundenauftrag mit einer Menge von 12 
 
 ## <a name="to-create-a-demand-forecast"></a>So erstellen Sie eine Absatzplanung
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Bedarfsplanung** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bedarfsplanung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie im Inforegister **Allgemein** im Feld **Nachfragelanungsname** eine Planung aus. Es können mehrere Absatzplanungen vorhanden sein, die nach Name und Absatzplanungsart unterschieden werden.  
 3. Im Feld **Lagerortfilter** müssen Sie den Lagerort auswählen, für den die Planung gelten soll.
 4. Im Feld **Anzeigen nach**, um den Zeitraum zu ändern, der in jeder Spalte angezeigt wird. Folgende Intervalle stehen zur Auswahl: **Tag**, **Woche**, **Monat**, **Quartal**, **Jahr** oder **Buchhaltungsperiode**, gemäß Einrichtung in Ihrem Finanzbereich.    

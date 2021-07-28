@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 389832ad5997dd4b02cbeb7dfb90dd5b1ade40c1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063427"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439710"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
 Menschen in Unternehmen senden täglich Informationen und Dokumente wie Verkaufsdokumente und Bestellungen sowie Rechnungen per E-Mail. Administratoren können dies vereinfachen, indem sie ein oder mehrere E-Mail-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden. So können Sie Dokumente senden, ohne eine E-Mail-App öffnen zu müssen. Sie können jede Nachricht einzeln mit grundlegenden Formatierungswerkzeugen wie Schriftarten, Stilen, Farben usw. zusammenstellen und Anhänge mit bis zu 100 MB hinzufügen. Administratoren können auch Berichtslayouts einrichten, die nur die wichtigsten Informationen aus Dokumenten enthalten. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md).
@@ -23,6 +23,8 @@ Menschen in Unternehmen senden täglich Informationen und Dokumente wie Verkaufs
 Die E-Mail-Funktionen in [!INCLUDE[prod_short](includes/prod_short.md)] sind nur für ausgehende Nachrichten. Sie können keine Antworten erhalten, d.h es ist keine Posteingangsseite vorhanden in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
+> Sie können die E-Mail-Funktionalitäten von [!INCLUDE[prod_short](includes/prod_short.md)] online nur mit Exchange Online verwenden. Wir unterstützen keine hybriden Szenarien, wie z.B. die Verbindung von [!INCLUDE[prod_short](includes/prod_short.md)] online mit einer lokalen Version von Exchange.
+> 
 > Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal verwenden, bevor Sie eine E-Mail einrichten können, müssen Sie vor Ort eine App-Registrierung für [!INCLUDE[prod_short](includes/prod_short.md)] im Azure-Portal erstellen. Die App-Registrierung wird [!INCLUDE[prod_short](includes/prod_short.md)] aktiviert, um mit Ihrem E-Mail-Anbieter zu authentifizieren und zu autorisieren. Weitere Informationen finden Sie unter [E-Mail für Business Central lokal einrichten](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). In [!INCLUDE[prod_short](includes/prod_short.md)] online erledigen wir das für Sie.
 
 ## <a name="required-permissions"></a>Erforderliche Berechtigungen
@@ -37,7 +39,7 @@ In der folgenden Tabelle werden die standardmäßig verfügbaren E-Mail-Erweiter
 
 |Erweiterung  |Beschreibung  |Beispiele für die Verwendung  |
 |---------|---------|---------|
-|**Microsoft 365**|Jeder sendet E-Mails von einem freigegebenen Postfach in Exchange Online.|Wenn beispielsweise alle Nachrichten aus derselben Abteilung stammen, sendet Ihre Verkaufsorganisation Nachrichten von einem sales@cronus.com-Konto. Dies erfordert, dass Sie ein freigegebenes Postfach im Microsoft 365 Admin Center einrichten. Weitere Informationen finden Sie unter [Freigegebene Postfächer](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Jeder sendet E-Mails von einem freigegebenen Postfach in Exchange Online.|Wenn beispielsweise alle Nachrichten aus derselben Abteilung stammen, sendet Ihre Verkaufsorganisation Nachrichten von einem sales@cronus.com-Konto. Dies erfordert, dass Sie ein freigegebenes Postfach im Microsoft 365 Admin Center einrichten. Weitere Informationen finden Sie unter [Freigegebene Postfächer](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Aktueller Benutzer**|Jeder sendet E-Mails von dem Konto, bei dem er sich angemeldet hat in [!INCLUDE[prod_short](includes/prod_short.md)].|Ermöglichen Sie die Kommunikation von einzelnen Konten.|
 |**Andere (SMTP)**|Verwenden Sie SMTP-Protokoll zum Senden von E-Mails.|Ermöglichen Sie die Kommunikation über Ihren SMTP-Mailserver. |
 
@@ -61,7 +63,7 @@ Die unterstützte Einrichtungsanleitung für das **Einrichten von E-Mails** kann
 > [!NOTE]
 > Sie müssen über ein Standard-E-Mail-Konto verfügen, auch wenn Sie nur ein Konto hinzufügen. Das Standardkonto wird für alle E-Mail-Szenarien verwendet, die keinem Konto zugewiesen sind. Weitere Informationen finden Sie unter [Weisen Sie E-Mail-Konten E-Mail-Szenarien zu](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Servicevertragskontengruppen** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **E-Mail-Konten einrichten** ein, und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
@@ -75,7 +77,7 @@ E-Mail-Szenarien sind Prozesse, bei denen ein Dokument wie ein Verkaufsdokument 
  
 <!--
 ## To set up email
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
@@ -89,7 +91,7 @@ E-Mail-Szenarien sind Prozesse, bei denen ein Dokument wie ein Verkaufsdokument 
 ## <a name="set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents"></a>Richten Sie wiederverwendbare E-Mail-Texte und Layouts für Verkaufs- und Einkaufsbelege ein
 Sie können Berichte verwenden, um wichtige Informationen aus Verkaufs- und Kaufdokumenten in Texte für E-Mails aufzunehmen. In diesem Verfahren wird beschrieben, wie Sie den Bericht **Verkaufsrechnung** für gebuchte Verkaufsrechnungen einrichten, aber der Prozess ist für andere Berichte ähnlich.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Berichtsauswahl Verkäufe** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Berichtsauswahl Verkauf** ein, und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Berichts-Auswahl - Verkauf** unter **Verwendung** wählen Sie **Rechnung**.
 3. In einer neuen Zeile im Feld **Berichts-ID** wählen Sie beispielsweise Standardbericht 1306.
 4. Wählen Sie das Kontrollkästchen **Für E-Mail-Text verwenden**.
@@ -115,17 +117,17 @@ Im Folgenden finden Sie Beispiele für die Verwendung von Senden als und Senden 
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Um eine Ersatz-Senderadresse einzurichgen für alle ausgehenden E-Mail-Nachrichten
 1. In dem **Exchange Admin Center** für Ihr Microsoft 365-Konto suchen Sie das Postfach, das als Ersatzadresse verwendet werden soll, und kopieren Sie die Adresse oder notieren Sie sie. Wenn Sie eine neue Adresse benötigen, rufen Sie Ihr Microsoft 365 Admin Center auf, um einen neuen Benutzer zu erstellen und dessen Postfach einzurichten.
-2. In [!INCLUDE[prod_short](includes/prod_short.md)] wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **SMTP-E-Mail-Einrichtung** ein, und wählen Sie dann den entsprechenden Link aus.
+2. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **SMTP-E-Mail-Einrichtung** ein, und wählen Sie dann den zugehörigen Link.
 3. In dem Feld **Senden als** geben Sie in das Feld die Ersatzadresse ein.
 4. Kopieren oder notieren Sie die Adresse im Feld **Benutzeridentifikation**.
-5. In dem **Exchange Admin Center** suchen Sie die Mailbox, die als Ersatzadresse verwendet werden soll, und geben Sie die Adresse in das Feld **Benutzeridentifikation** im Feld **Senden Als** ein. Weitere Informationen finden Sie unter [Verwenden Sie die Exchange-Verwaltungskonsole, um einzelnen Postfächern Berechtigungen zuzuweisen ](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. In dem **Exchange Admin Center** suchen Sie die Mailbox, die als Ersatzadresse verwendet werden soll, und geben Sie die Adresse in das Feld **Benutzeridentifikation** im Feld **Senden Als** ein. Weitere Informationen finden Sie unter [Benutzen Sie die EAC, um Berechtigungen für einzelne Postfächer zu vergeben](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Verwendung der Ersatzadresse in Genehmigungsworkflows
-1. In [!INCLUDE[prod_short](includes/prod_short.md)] wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **SMTP-E-Mail-Einrichtung** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **SMTP-E-Mail-Einrichtung** ein, und wählen Sie dann den zugehörigen Link.
 2. Kopieren oder notieren Sie die Adresse im Feld **Benutzeridentifikation**.
-3. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Genehmigungsbenutzereinrichtung** ein, und wählen Sie dann den entsprechenden Link aus.
-4. In dem **Exchange Admin Center**, finden Sie die Postfächer für jeden Benutzer auf der Seite **Genehmigungsbenutzer einrichten** und im Feld **Senden Als** geben Sie die Adresse aus dem Bereich **Benutzeridentifikation** der Seite **SMTP-E-Mail einrichten** in [!INCLUDE[prod_short](includes/prod_short.md)] ein. Weitere Informationen finden Sie unter [Verwalten von Berechtigungen für Empfänger](/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
-5. In [!INCLUDE[prod_short](includes/prod_short.md)] wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **SMTP-E-Mail-Einrichtung** ein, und wählen Sie dann den entsprechenden Link aus.
+3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Genehmigungsbenutzereinrichtung** ein, und wählen Sie dann den zugehörigen Link.
+4. In dem **Exchange Admin Center**, finden Sie die Postfächer für jeden Benutzer auf der Seite **Genehmigungsbenutzer einrichten** und im Feld **Senden Als** geben Sie die Adresse aus dem Bereich **Benutzeridentifikation** der Seite **SMTP-E-Mail einrichten** in [!INCLUDE[prod_short](includes/prod_short.md)] ein. Weitere Informationen finden Sie unter [Rechte für Empfänger verwalten](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true).
+5. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **SMTP-E-Mail-Einrichtung** ein, und wählen Sie dann den zugehörigen Link.
 6. Um die Ersetzung zu aktivieren, aktivieren Sie das Kontrollkästchen **Erlaube Absenderersetzung**.
 
 > [!Note]
@@ -178,7 +180,7 @@ Wenn Sie Probleme haben, das ältere SMTP-Setup zum Senden von E-Mails zu verwen
 ### <a name="connect-prod_short-to-your-app-registration"></a>[!INCLUDE[prod_short](includes/prod_short.md)] mit Ihrer App-Anmeldung verbinden
 Nachdem Sie Ihre Anwendung im Azure-Portal registriert haben, klicken Sie auf [!INCLUDE[prod_short](includes/prod_short.md)], benutzen Sie die **E-Mail-Anwendung AAD-Registrierung** unterstützte Einrichtung, um die Verbindung [!INCLUDE[prod_short](includes/prod_short.md)] herzustellen.
 
-1. In [!INCLUDE[prod_short](includes/prod_short.md)] wählen Sie das Symbol ![Glühbirne, das die Funktion „wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **AAD-E-Mail-Einrichtung** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **AAD-Registrierung der E-Mail-Anwendung** ein, und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
@@ -207,7 +209,10 @@ Nachdem Sie Ihre Anwendung im Azure-Portal registriert haben, klicken Sie auf [!
 
 -->
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe Verwandte Schulung unter [Microsoft Learn](/learn/modules/set-up-email/)
+
+## <a name="see-also"></a>Weitere Informationen
+
 [Freigegebene Postfächer in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

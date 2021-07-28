@@ -1,6 +1,6 @@
 ---
 title: Importieren vieler Artikelbilder über eine ZIP-Datei | Microsoft Docs
-description: Sie können mehrere Artikelbilder in einem Durchgang importieren. Benennen Sie einfach Ihre Bilddateien mit Namen entsprechend zu Ihren Artikelnummern, komprimieren Sie sie in einer ZIP-Datei und verwenden Sie dann die Seite „Artikelbilder importieren”, um zu verwalten, welche Artikel importiert werden sollen.
+description: Um mehrere Artikelbilder zu importieren, geben Sie den Bilddateien Namen, die den Artikelnummern entsprechen, komprimieren Sie sie in eine ZIP-Datei und verwenden Sie die Seite Artikelbilder importieren.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4d4221ca3af412cc2548634cc6920f58171233ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ac8d68d067c03039433d78be475d74efb3fec1fd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785923"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440524"
 ---
 # <a name="import-multiple-item-pictures"></a>Mehrere Artikelbilder importieren
-Sie können mehrere Artikelbilder in einem Durchgang importieren. Benennen Sie einfach Ihre Bilddateien mit Namen entsprechend zu Ihren Artikelnummern, komprimieren Sie sie in einer ZIP-Datei und verwenden Sie dann die Seite **Artikelbilder importieren**, um zu verwalten, welche Artikel importiert werden sollen.
+ Sie können mehrere Artikelbilder in einem Durchgang importieren. Benennen Sie einfach Ihre Bilddateien mit Namen entsprechend zu Ihren Artikelnummern, komprimieren Sie sie in einer ZIP-Datei und verwenden Sie dann die Seite „Artikelbilder importieren”, um zu verwalten, welche Artikel importiert werden sollen.
 
 Alle gängigen Dateiformate werden unterstützt.
 
@@ -35,7 +35,7 @@ Alle gängigen Dateiformate werden unterstützt.
 2. Sammeln Sie alle Dateien in einer ZIP-Datei. Wählen Sie zum Beispiel in Windows Explorer die Dateien und dann **Senden an**, **Komprimierter (gezippter) Ordner** aus.     
 
 ## <a name="to-import-item-pictures"></a>So importieren Sie Artikelbilder
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Bestandseinrichtung** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerbestandseinrichtung** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Artikelbilder importieren** aus.
 3. Wählen Sie im Feld **ZIP-Datei auswählen** den relevanten ZIP-Ordner und dann die Schaltfläche **Öffnen** aus.
 

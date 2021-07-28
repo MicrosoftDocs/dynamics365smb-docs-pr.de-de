@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 861893c2784bc5eed837c26d070fb98c2826772b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786248"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439460"
 ---
 # <a name="set-up-company-consolidation"></a>Unternehmenskonsolidierung einrichten
 
@@ -74,7 +74,7 @@ Die folgende Liste veranschaulicht wichtige Aspekte des konsolidierten Unternehm
 [!INCLUDE[prod_short](includes/prod_short.md)] ermöglicht es Ihnen, eine Liste zu konsolidierender Konzernmandanten einzurichten, die Buchhaltungsdaten zu überprüfen, bevor Sie diese konsolidieren, Dateien zu importieren und Konsolidierungsberichte zu generieren.  
 
 1. Melden Sie sich im Konsolidierungsmandanten an.
-2. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Geschäftseinheiten** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konzernmandanten** ein und wählen Sie dann den zugehörigen Link.  
 3. Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -89,7 +89,7 @@ Der Kontenplan eines Unternehmens, das konsolidiert wird, muss Konten für die K
 
 Wenn der Kontenplan des Konzernmandanten aus dem Konsolidierungsmandanten abweicht, müssen Sie die Sachkonten vorbereiten für die Konsolidierung. Sie können Konten definieren, um Soll- und Habenposten zu buchen und die Methode festlegen, die verwendet wird, um Währungen im Konsolidierungsmandanten zu übersetzen. Dies ist beispielsweise dann nützlich, wenn Sie häufig den Bericht ausführen.
 
-1. Im [!INCLUDE [prod_short](includes/prod_short.md)] jedes Konzernmandanten wählen Sie das Symbol ![Glühbirne, die die „Sie wünschen...“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link aus.  
+1. Wählen Sie in der [!INCLUDE [prod_short](includes/prod_short.md)] jeder Einheit die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie die Karte für das Konto, und füllen Sie dann die Felder im Inforegister **Konsolidierung** aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Wechselkurse für Konsolidierungen angeben
@@ -109,7 +109,7 @@ Die folgende Tabelle beschreibt die Wechselkursmethoden, die Sie für Konten ver
 
 Um Wechselkurse für Konzernmandanten anzugeben, gehen Sie folgendermaßen vor:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Geschäftseinheiten** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konzernmandanten** ein und wählen Sie dann den zugehörigen Link.  
 2. Auf der Seite **Konzernmandantenübersicht** wählen Sie die Konzernmandanten aus, und wählen Sie die **Durchschnittskurs (manuell)** Aktion aus.  
 3. Der Inhalt des Felds **Bezug auf Wechselkursbetrag** (im Fenster **Wechselkurs ändern**) wurde aus der Tabelle **Währungswechselkurs** kopiert, kann jedoch geändert werden. Schließen Sie die Seite.  
 4. Wählen Sie die **Ultimokurs**-Aktion aus.  

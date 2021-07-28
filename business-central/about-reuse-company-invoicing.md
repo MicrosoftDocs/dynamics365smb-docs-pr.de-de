@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 763b4ae19bc83a1fd4a3abc9d6dfd5ee0c386eb1
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115690"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439147"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Verwenden des gleichen Microsoft 365-Kontos in [!INCLUDE[prod_short](includes/prod_long.md)] und Microsoft Invoicing
 Wenn Sie sich für eine Testversion anmelden [!INCLUDE[prod_short](includes/prod_short.md)], können das Programm 30-Tage lang testen, Sie können ein Abonnement abschließen oder Sie können die Verwendung von [!INCLUDE[prod_short](includes/prod_short.md)] beenden. In allen Fällen wurde möglicherweise irgendwann **Microsoft Invoicing** angezeigt und Sie haben darauf geklickt. Dies war eine App, die Teil des heutigen Microsoft 365 Business Standard war und früher als Microsoft 365 Business Premium-Abonnement bezeichnet wurde, sodass diese Kachel nicht in jeder Microsoft 365-Umgebung angezeigt wurde.  
@@ -31,9 +31,9 @@ Daher müssen Sie sich bei [!INCLUDE[prod_short](includes/prod_short.md)] anmeld
 
 ### <a name="to-rename-your-company"></a>Ihr Unternehmen umbenennen
 1. Melden Sie sich an bei [!INCLUDE[prod_short](includes/prod_short.md)].
-2. Wählen Sie in der oberen rechten Ecke das Symbol **Einstellungen** ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und dann **Meine Einstellungen**.
+2. Wählen Sie in der oberen rechten Ecke das Symbol **Einstellungen** ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und dann **Meine Einstellungen**.
 3. Wählen Sie im Feld **Unternehmen** ein anderes Unternehmen aus.
-4. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Unternehmen** ein, und wählen Sie dann den entsprechenden Link aus.  
+4. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Unternehmen** ein, und wählen Sie dann den entsprechenden Link.  
 5. Auf der Seite **Unternehmen** wählen Sie **Liste bearbeiten** aus.  
 6. Ändern den Namen des Postens *Mein Unternehmen* in etwas anderes.  
 

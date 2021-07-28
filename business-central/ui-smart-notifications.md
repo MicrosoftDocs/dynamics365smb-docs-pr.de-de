@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6f519df1cdc04aab1b6b1fa75154aa5b3667d7a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3fbf2905f20f1f19fc3bd6fb315e63f9944528b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783159"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439977"
 ---
 # <a name="manage-notifications"></a>Verwalten von Benachrichtigungen
 
@@ -32,7 +32,7 @@ Darüber hinaus lassen gewisse Benachrichtigungen Sie die Bedingungen angeben, m
 
 Aktivieren oder deaktivieren Sie bestimmte Benachrichtigungen, die auf Sie interessieren.  
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und wählen dann die Aktion **Meine Einstellungen**.  
+1. Wählen Sie in der oberen rechten Ecke das Symbol **Einstellungen** ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und dann die Aktion **Meine Einstellungen**.  
 2. Auf der Seite **Meine Einstellungen**, im Feld **Benachrichtigungen** wählen Sie den *Ändern, wenn ich Benachrichtigungen erhalte.* Link.  
 3. Auf der Seite, die angezeigt wird, aktivieren oder deaktivieren Sie eine Benachrichtigung, indem Sie das Kontrollkästchen **Aktiviert** aktivieren oder deaktivieren.  
 4. Um Bedingungen anzugeben, die eine Benachrichtigung auslösen, wählen Sie den Link **Filterdetails ansehen** und füllen Sie die Felder aus.  

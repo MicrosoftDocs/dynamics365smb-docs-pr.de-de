@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Einrichten von Betriebskalendern | Microsoft Docs'
-description: In einem Arbeitsplatzgruppenkalender werden die Arbeitstage und -stunden, Schichten, Feiertage und Fehlzeiten angegeben, die die verfügbare Bruttokapazität der Arbeitsplatzgruppe zeitlich gemessen entsprechend ihren definierten Effektivitäts- und Kapazitätswerten bestimmen. Um einen Arbeitsplatzgruppenkalender zu erstellen und zu aktivieren, sind verschiedene vorbereitende Aufgaben auszuführen.
+title: So legen Sie Betriebskalender fest
+description: Das Erstellen und Aktivieren eines Arbeitsplatzkalenders umfasst mehrere Aufgaben, einschließlich des Einrichtens von Betriebskalendern und des Erstellens von Arbeitsschichten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e542d67f3cd0516cf435b0a7110e50431aab1a1f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d473d6c1e657828ce2d47e33608b691ee45fd38
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781949"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440403"
 ---
 # <a name="set-up-shop-calendars"></a>Betriebskalender einrichten
 In einem Arbeitsplatzgruppenkalender werden die Arbeitstage/-stunden, Schichten, Feiertage und Fehlzeiten angegeben, die die verfügbare Bruttokapazität der Arbeitsplatzgruppe (zeitlich gemessen) entsprechend ihren definierten Effektivitäts- und Kapazitätswerten bestimmen.
@@ -25,7 +25,7 @@ Ein grundlegender Schritt beim Berechnen eines spezifischen Arbeitsplatzgruppenk
 Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerichtet wird. Die Schritte sind ähnlich, wenn Sie Arbeitsplatzkalender einrichten.  
 
 ## <a name="to-create-work-shifts"></a>Arbeitsschichten erstellen  
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Arbeitsschichten** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitsschichten** ein und wählen Sie dann die entsprechende Verknüpfung.  
 2.  Geben Sie in einer leeren Zeile eine Zahl im Feld **Code** ein, um die Schicht zu bestimmen, z. B. **1**.  
 3.  Geben Sie im Feld **Beschreibung** eine Beschreibung der Schicht ein, z. B. **1. Schicht**.  
 4.  Optional füllen Sie Zeilen für eine zweite oder dritte Schicht aus.  
@@ -33,7 +33,7 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 Selbst wenn Ihre Arbeitsplatzgruppen nicht in verschiedenen Schichten arbeiten, geben Sie mindestens einen Schichtcode ein.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Einen Betriebskalender einrichten  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Betriebskalender** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Betriebskalender** ein und wählen Sie dann den zugehörigen Link.  
 2.  Geben Sie in einer leeren Zeile eine Zahl im Feld **Code** ein, um den Betriebskalender zu bestimmen.  
 3.  Geben Sie im Feld **Beschreibung** eine Beschreibung für den Betriebskalender ein.  
 4.  Wählen Sie die **Arbeitstage** Aktion aus.
@@ -68,7 +68,7 @@ Der Betriebskalender kann nun einer Arbeitsplatzgruppe zugewiesen werden, um ein
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Einen Arbeitsplatzgruppenkalender berechnen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Arbeitsplatzgruppen** ein und wählen Sie dann den zugehörigen Link.
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitsplatzgruppen** ein, und wählen Sie dann den zugehörigen Link.
 2. öffnen Sie den Arbeitsplatz, den Sie aktualisieren möchten.  
 3. Wählen Sie im Inforegister Planung im Feld **Betriebskalendercode** den Kalender aus, der in dieser Arbeitsplatzgruppe als Grundlage für einen Arbeitsplatzgruppenkalender verwendet werden soll.  
 4. Wählen Sie die Aktion **Kalender** aus.  

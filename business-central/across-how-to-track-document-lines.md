@@ -1,6 +1,6 @@
 ---
-title: So verfolgen Sie Auftragszeilen in zugehörigen Dokumenten | Microsoft Docs
-description: Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsauftrags- und Bestellzeilen für Aufträge und archivierte Aufträge beziehen. Zugehörige Belege, die Sie nachverfolgen können, enthalten Angebote, Lieferungen, Wareneingänge und Rahmenaufträge. Dadurch werden Belege zur Verarbeitung von Aufträgen identifiziert.
+title: Auftragszeilen zu verwandten Belegen verfolgen
+description: Zeigen Sie Belege an, die sich auf Verkaufs- und Kaufsbestellungen beziehen, wie z.B. Angebote, Lieferungen, Quittungen und Rahmenaufträge, um Dokumente zu identifizieren, die zur Verarbeitung von Aufträgen verwendet werden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8f795c5c6d33e6b2609ff91bdf196ad82ba71f9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4c469d3f521e526f3c121da5bf8265fc92f01289
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774586"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439895"
 ---
 # <a name="track-document-lines"></a>Nachverfolgen von Belegzeilen
 Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsauftrags- und Bestellzeilen für Aufträge und archivierte Aufträge beziehen. Zugehörige Belege, die Sie nachverfolgen können, enthalten Angebote, Lieferungen, Wareneingänge und Rahmenaufträge. Dadurch werden Belege zur Verarbeitung von Aufträgen identifiziert.  
@@ -23,7 +23,7 @@ Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsau
 ## <a name="to-track-documents-related-to-a-sales-order-line"></a>Zusammenhängenden Beleg mit einer Verkaufsauftragszeile verfolgen
 Nachfolgend wird beschrieben, wie Sie einen Verkaufsauftragszeile nachverfolgen. Die Schritte sind gleich für Einkaufs- und Bestandsanalyseansichten.
 
-1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie einen Verkaufsauftrag, den Sie nachverfolgen möchten.  
 3.  Wählen Sie eine Zeile und wäglen Sie dann die Aktion **Belegzeile nachverfolgen** aus.
 4. Auf der Seite **Belegzeilenverfolgung** wählen Sie den Beleg, den Sie anzeigen möchten, und dann, auf der Registerkarte Start, in der Gruppe Verarbeiten wählen Sie **Anzeigen** aus, um die zugehörige Zeile anzuzeigen.

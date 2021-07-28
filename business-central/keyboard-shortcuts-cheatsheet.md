@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 34494802f001e78c56cb2eeab997f60cda320472
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da764b00f8fb3218d3b53b843a27943b4e0bf5e1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784517"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438902"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 
@@ -89,7 +89,7 @@ ms.locfileid: "5784517"
 > [!TIP]
 > Für eine grafische, druckfreundliche Version wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.
 >
-> [![Symbol zum Öffnen einer PDF](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+> [![Symbol, das ein PDF öffnet.](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

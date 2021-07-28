@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 815a4a6d66fad42a5d1467b87eaef7d6a1688ee1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca03ba59e02dd1efe1b76c679e12e77044ca95e3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780007"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439660"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten
 Sie können einen neuen Mandanten, den Sie erstellt haben, schnell konfigurieren, indem Sie den RapidStart Services-Konfigurations-Assistenten verwenden.
@@ -39,7 +39,7 @@ Im folgenden Verfahren haben Sie dem Debitor das Konfigurationspaket bereitgeste
     >  Ändern Sie das Rollencenter erst, nachdem Sie die Konfiguration des Mandanten abgeschlossen haben. Wenn Sie weitere Einrichtungsdetails zu berücksichtigen haben, verwenden Sie erst das Konfigurationsarbeitsblatt, um mit Ihrer Arbeit fortzufahren. Kehren Sie dann zu dem Assistenten zurück, um Ihr Rollencenterprofil zu aktualisieren, oder wählen Sie auf der Registerkarte Start die Option **Vollständiges Setup** aus.
 
 7. Wählen Sie die Schaltfläche **OK** aus.  
-8. Um sicherzustellen, dass die Konfigurationsinformationen für das neue Unternehmen übernommen wurden, wählen Sie das Symbol ![Glühlampe, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Unternehmensinformation** ein und wählen Sie dann den zugehörigen Link aus.
+8. Um zu überprüfen, ob die Konfigurationsinformationen auf die neue Firma angewendet wurden, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Unternehmensdaten** ein, und wählen Sie dann den zugehörigen Link.
 
 Das Fenster **Firmendaten** enthält Informationen, die Sie festgelegt haben.   
 

@@ -1,6 +1,6 @@
 ---
 title: 'So geht es: Ein neues Unternehmen erstellen | Microsoft Docs'
-description: Um RapidStart Services zu verwenden, werden Tabellen und Seiten erstellt, aber sie enthalten keine Daten.
+description: Verwenden Sie RapidStart Services-Tabellen und -Seiten, um eine neue Firma zu erstellen, für die Sie eine Implementierung beim Debitor durchführen möchten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c21d86c67c6020d1a32da4816246bc7aaf96c2ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779882"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439635"
 ---
 # <a name="create-a-new-company"></a>Erstellen eines neuen Mandanten.
 Um RapidStart Services für [!INCLUDE[prod_short](includes/prod_short.md)] zu verwenden, müssen Sie zunächst einen neuen Mandanten erstellen, für den Sie eine Debitoren-Implementierung durchführen wollen. Bei der Erstellung eines neuen Mandanten werden die [!INCLUDE[prod_short](includes/prod_short.md)]-Standardtabellen und -seiten erstellt, aber sie enthalten keine Daten.
@@ -26,7 +26,7 @@ Beispielkonfigurationspakete, einschließlich landes-/regionspezifischer Dateien
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Beispielskonfigurationspaket BASICCONFIG verwenden  
 1. Öffnen Sie das Unternehmen „CRONUS International Ltd.“. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).
-2. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationspakete** ein, und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie das BASICCONFIG-Paket von der Liste aus, und wählen **Exportpaket**.  
 
 Verwenden Sie das folgende Vorgehen, um einen neuen Mandanten zu erstellen, und verwenden Sie das BASICCONFIG-Paket als Teil des Prozesses.  

@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Versandagenten | Microsoft Docs'
-description: Sie können einen Code für jeden Zusteller anlegen und Informationen dazu eingeben.
+title: Wie Sie Zusteller festlegen
+description: Erfahren Sie, wie Sie einen Code für jeden Ihrer Zusteller festlegen und beschreibende Informationen über jeden von ihnen und die von ihnen angebotenen Dienste eingeben.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 221578a174c6bd0dd87377340e97cd54a98d177b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1e74be125909db7f7d1c4301a33da1b12648e70a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778397"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440228"
 ---
 # <a name="set-up-shipping-agents"></a>Zusteller einrichten
 Sie können einen Code für jeden Zusteller anlegen und Informationen dazu eingeben.  
@@ -28,7 +28,7 @@ Für jeden Zusteller können Sie eine unbegrenzte Anzahl von Transportarten anle
 Wenn Sie einer Verkaufsauftragszeile eine Zusteller Transportart zugeordnet haben, wird die Transportzeit für diese Zeile in den Lieferterminzusagen berücksichtigt. Weitere Informationen finden Sie unter [Berechnen von Lieferterminzusagen](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>So richten Sie einen Zusteller ein  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Zusteller** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Versand-Zusteller** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Wählen Sie die Aktion **Zustellertransportarten**.
 4. In **Zustellertransportarten** füllen Sie die Felder wie notwendig aus.

@@ -1,6 +1,6 @@
 ---
 title: 'Fertigungsaufträge aus Verkaufsaufträgen zu erstellen:'
-description: Sie können Fertigungsaufträge aus Verkaufsaufträgen erstellen.
+description: Lernen Sie die verschiedenen Möglichkeiten kennen, Produktionsaufträge für produzierte Artikel direkt aus Verkaufsaufträgen zu erstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/28/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 438f4d4e1833ba607ceedb9f5d9450c0a4dbb680
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a432b8f00a24771578716a1b51678904d2e29ec5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115236"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438627"
 ---
-# <a name="create-production-orders-from-sales-orders"></a>Fertigungsaufträge aus Verkaufsaufträgen zu erstellen:
+# <a name="create-production-orders-from-sales-orders"></a>Erzeugen von Produktionsaufträgen aus Verkaufsaufträgen
 In diesem Fenster können Sie direkt zum aktuellen Verkaufsauftrag einen Fertigungsauftrag erstellen.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Fertigungsaufträge aus Verkaufsaufträgen erstellen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den entsprechenden Link aus.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie den Verkaufsauftrag, für den Sie einen Fertigungsauftrag erstellen möchten.  
 3.  Wählen Sie die Aktion **Planung** aus. Auf der Seite **Verkaufsauftragsplanung** können Sie die Verfügbarkeit des Verkaufsauftragsartikels anzeigen.  
 4.  Wählen Sie die Aktion **Produktionsauftrag erstellen** aus.  

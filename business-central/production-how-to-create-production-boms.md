@@ -1,6 +1,6 @@
 ---
 title: Vorgehensweise beim Erstellen von Fertigungsstücklisten
-description: In einer Fertigungsstückliste sind Stammdaten enthalten, mit denen die Komponenten und Unterbaugruppen beschrieben werden, die bei der Fertigung eines übergeordneten Artikels verwendet werden. Sobald ein Fertigungsauftrag für diesen übergeordneten Artikel erstellt wurde, wird über die entsprechende Fertigungsstückliste die Berechnung des Materialbedarfs gesteuert, die auf der Seite **Prod. Bestellkomponenten** dargestellt wird.
+description: Erfahren Sie, wie Sie eine Fertigungsstückliste erstellen, wie Sie neue Versionen einer Fertigungsstückliste erstellen und wie Sie die Mengenberechnungsformel verwenden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 122a907e7b61c9fe19853226de8549a073f0cddd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ffd57ed4f69870e04e8081d0ef6189788dc01ce6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781988"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438678"
 ---
 # <a name="create-production-boms"></a>Fertigungsauftrag erstellen
 
@@ -29,7 +29,7 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 - Die Ressourcen sind eingerichtet. Weitere Informationen finden Sie unter [Einrichten von Arbeitsplatzgruppen und Arbeitsplätzen](production-how-to-set-up-work-and-machine-centers.md)
 
 ## <a name="to-create-a-production-bom"></a>Erstellen Sie eine neue Fertigungsstückliste.  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Fertigungsstückliste** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wenn Sie die Fertigungsstückliste bearbeiten möchten, setzen Sie das Feld **Status** auf **Neu** oder **In Entwicklung**. Um den Arbeitsplan zu aktivieren, setzen Sie das Feld **Status** auf **Zertifiziert**.  
@@ -56,7 +56,7 @@ Neue Versionen von Fertigungsstücklisten werden verwendet, wenn zum Beispiel ei
 
 Das Startdatum bestimmt den Start der Periode, in welcher die Version gültig ist. In allen anderen Fällen ist das Startdatum ein Filterkriterium für Berechnungen und Prüfungen. Die Fertigungsstücklistenversion ist gültig, bis die nächste Version aufgrund ihres Startdatums gültig wird.  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Fertigungsstückliste** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Produktionsstückliste** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die zu kopierende Fertigungsstückliste, und wählen Sie die **Versionen** Aktion aus.  
 3.  Wählen Sie die Aktion **Neu** aus.  
 4. Füllen Sie die Felder je nach Bedarf aus.

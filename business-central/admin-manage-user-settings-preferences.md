@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 36850a2d0d8f85a0436b5d268c3cd2653b2f785f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779757"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438952"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Benutzereinstellungen und Präferenzen verwalten
 
@@ -74,7 +74,7 @@ Als Administrator erhalten Sie einen Überblick über einzelne Änderungen von [
 
 ## <a name="to-review-or-delete-user-personalizations"></a>Zum Überprüfen oder Löschen von Benutzerpersonalisierungen
 
-1. Wählen Sie das Symbol ![Seite oder Bericht suchen](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen") aus, geben Sie **Personalisierte Seiten** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen") Symbol. Geben Sie **Personalisierte Seiten** ein und wählen Sie dann den entsprechenden Link.
 2. Dadurch werden die Liste der Benutzer und ihrer personalisierten Seiten angezeigt. Um die Personalisierung eines Benutzers zu löschen, klicken Sie auf die entsprechende Zeile oder wählen Sie **Verwalten** und dann **Löschen** aus.
 
 Dadurch wird die Personalisierung gelöscht und die Benutzererfahrung mit der relevanten Seite kehrt zum Standardstatus zurück.

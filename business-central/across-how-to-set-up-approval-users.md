@@ -1,6 +1,6 @@
 ---
 title: Genehmigungsbenutzer einrichten
-description: Bevor Sie Workflows erstellen können, die Genehmigungsschritte betreffen, müssen Sie die Workflowbenutzer einrichten, die von den Genehmigungsprozessen betroffen sind. Auf der Genehmigungsbenutzereinrichtungseite müssen Sie zusätzlich Grenzbeträge für bestimmte Arten von Anforderungen festlegen und Ersatzgenehmiger definieren, an die Genehmigungsanforderungen delegiert werden, wenn der ursprüngliche Genehmiger abwesend ist.
+description: Bevor Sie Workflows erstellen können, die Genehmigungsschritte beinhalten, müssen Sie die an den Genehmigungsprozessen beteiligten Workflow-Benutzer mit Genehmigungsbenutzereinrichtung festlegen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5eaa2daf8321adf65275bf4e0cd21ee1f4cb29fa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fcf106941c59cd4cb510a9443eac1d50612e15b7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787257"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439201"
 ---
 # <a name="set-up-approval-users"></a>Genehmigungsbenutzer einrichten
 
@@ -31,7 +31,7 @@ Bevor Sie Workflows erstellen können, die Genehmigungsschritte betreffen, müss
 
 ## <a name="to-set-up-an-approval-user"></a>So richten Sie einen Genehmigungsbenutzer ein
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Genehmigungsbenutzereinrichtung** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Genehmigungsbenutzereinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie auf der Seite **Genehmigungsbenutzereinrichtung** eine neue Zeile, und füllen Sie dann die Felder wie in der folgenden Tabelle beschrieben aus.  
 
     |Feld|Description|  

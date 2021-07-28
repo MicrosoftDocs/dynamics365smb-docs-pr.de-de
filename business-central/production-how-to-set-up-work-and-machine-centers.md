@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3bffbe40d4deb17f335d8894692ce5852e781957
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b247cdc220ad522fe42085528df8a25200d6dd48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787727"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440303"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Arbeitsplätze und Arbeitsplatzgruppen einrichten
 
@@ -36,7 +36,7 @@ Die Verfügbarkeit wird in Kalenderposten gespeichert.
 
 Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerichtet wird. Die Schritte, um ein Arbeitsplatzkalenders einzurichten außer für das **Arbeitsplatz-Einrichtung** Inforegister.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Arbeitsplatzgruppen** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitsplatzgruppen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie im Feld **Abteilung** die übergeordnete Ebene, unter der sich die Arbeitsplatzgruppe befindet, sofern relevant. Wählen Sie aus der Dropdown-Liste die Aktion **Neu** aus.  
@@ -97,7 +97,7 @@ Auf der Seite **Ressourcen mit eingeschränkter Kapazität** können Sie ein Set
 
 Beim Planen mit eingeschränkter Kapazität stellt sicher das System sicher, dass keine Ressourcen oberhalb der definierten Kapazität (Grenzbelastung) geladen werden. Dies geschieht, indem jeder Arbeitsgang dem nächsten verfügbaren Zeitfenster zugewiesen wird. Wenn das Zeitfenster nicht ausreicht, um den gesamten Arbeitsgang abzuschließen, wird der Arbeitsgang in zwei Teile aufgeteilt, die in die nächsten verfügbaren Zeitfenster gesetzt werden.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Kapazitätsengpässe bei den Ressourcen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Begrenzte Kapazitäten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu**.
 3. Füllen Sie die Felder je nach Bedarf aus.
 

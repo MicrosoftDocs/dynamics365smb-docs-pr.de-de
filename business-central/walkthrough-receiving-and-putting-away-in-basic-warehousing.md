@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1adcfbd38d95c8a79bc247fea0f2c292e8d02d9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: c5d3ce9b7bb02c12da8d62413c6c5722c59ee1d8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214578"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439310"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Exemplarische Vorgehensweise: Eingang und Einlagerung in Basis-Lagerkonfigurationen
 
@@ -68,7 +68,7 @@ Für diese exemplarische Vorgehensweise gelten folgende Voraussetzungen:
 -   CRONUS AG installieren.  
 -   So machen Sie sich zu einem Lagerarbeiter am SILVER-Standort, indem Sie diese Schritte befolgen:  
 
-    1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den entsprechenden Link.  
+    1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagermitarbeiter** ein, und wählen Sie dann den zugehörigen Link.  
     2.  Wählen Sie das Feld **Benutzer-ID** aus, und wählen Sie Ihr eigenes Benutzerkonto auf der Seite **Benutzer** aus.  
     3.  Geben Sie im Feld **Lagerortcode** SILVER ein.  
     4.  Wählen Sie das Feld **Standard** aus.  
@@ -81,8 +81,8 @@ Ellen, die Einkäuferin bei der CRONUS AG ist, erstellt eine Bestellung für 10 
 
 ### <a name="to-set-up-the-location"></a>So richten Sie den Standort ein  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Standorte** ein, und wählen Sie dann den entsprechenden Link.  
-2.  Öffnen Sie die SILBERNE-Lagerortkarte.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.  
+2.  Öffnen Sie die Karte für den Standort SILVER.  
 3.  Aktivieren Sie das Kontrollkästchen **Einlagerung erforderlich**  
 
     Fahren Sie fort, um einen Vorgabelagerplatz für die beiden Artikelnummern einzurichten, um zu steuern, wo sie eingelagert werden.  
@@ -101,7 +101,7 @@ Bestellungen sind die häufigste Art des eingehenden Herkunftsbelegs.
 
 ### <a name="to-create-the-purchase-order"></a>Bestellung erstellen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Bestellungen** ein, und wählen Sie dann den entsprechenden Link aus.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Erstellen Sie eine Bestellung für den Kreditor 10000 auf das Arbeitsdatum (23. Januar) mit den folgenden Einkaufszeilen.  
 
@@ -124,7 +124,7 @@ Auf der Seite **Lagerkommissionierung** können Sie alle eingehenden Lageraktivi
 
 ### <a name="to-receive-and-put-the-items-away"></a>Artikel erhalten und einlagern  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einlagerungslager** ein, und wählen Sie dann den entsprechenden Link aus.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagereinlagerungen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Wählen Sie das Feld **Herkunftsdokument** , und wählen Sie **Einkaufsauftrag** aus.  
 4.  Wählen Sie das Feld **Herkunftsnr.** aus, wählen Sie die Zeile für den Einkauf von Kreditor 10000 aus, und wählen Sie dann die Schaltfläche **OK**.  

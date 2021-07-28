@@ -1,6 +1,6 @@
 ---
-title: Wie Sie Daten für eine Digital-Überwachung exportieren
-description: Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.
+title: Datenexport für eine digitale Prüfung [DE]
+description: Sie können Unternehmensdaten exportieren entsprechend dem Prozess für Datenzugriff und Testbarkeit von digitalen Dokumenten (GDPdU), der auf deutschen Steuergesetzen basiert.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 42dffe4a7c3ae171e295e89b902c3413c939af9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6bd64ee39b7f7900ff0b2b981d773b64b69e2ec9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782215"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439169"
 ---
-# <a name="walkthrough-exporting-data-for-a-digital-audit"></a>Wie Sie Daten für eine Digital-Überwachung exportieren
+# <a name="walkthrough-exporting-data-for-a-digital-audit-in-the-german-version"></a>Exemplarische Vorgehensweise: Datenexport für eine digitale Betriebsprüfung in der deutschen Version
 
 Sie können Geschäftsdaten für Überwachungszwecke exportieren. Die Einrichtung des Datenexportes unterscheidet sich von anderen Unternehmen und Sie sollten Ihren Steuerberater und den Steuerprüfer um Rat fragen. In der folgenden exemplarischen Vorgehensweise wird der durchgängige Prozess beschrieben, dies ist jedoch nur ein Beispiel.  
 
@@ -50,7 +50,7 @@ Cassis richtet die anforderungen für den Datenexport ein. Die Prüfer haben sie
 
 ### <a name="to-set-up-the-requirements-for-a-data-export"></a>Einrichten von Anforderungen für den Datenexport  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Datenexport** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Datenexport** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu**.  
 3. Füllen Sie auf der Seite **Datenexporte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -256,7 +256,7 @@ Cassie möchte Daten exportieren, die sie anschließend den Steuerprüfern sende
 
 ### <a name="to-export-data"></a>Daten exportieren  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Geschäftsdaten exportieren** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Geschäftsdaten exportieren** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie auf der Seite **Geschäftsdaten exportieren** im Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  

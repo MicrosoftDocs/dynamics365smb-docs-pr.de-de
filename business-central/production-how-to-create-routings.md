@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Routings erstellen | Microsoft Docs'
-description: Im Arbeitsplan sind Stammdaten enthalten, die die Verarbeitungsanforderungen für bestimmte Fertigungsartikel erfassen. Sobald ein Fertigungsauftrag für diesen Artikel erstellt wurde, steuert dessen Arbeitsplan die Planung der Arbeitsgänge, die auf der Seite FA-Arbeitsplan unter dem Fertigungsauftrag dargestellt werden.
+title: Wie Sie Arbeitspläne erstellen
+description: Dieses Thema gibt einen Überblick über die verschiedenen Möglichkeiten, Arbeitspläne zu erstellen, einschließlich der erforderlichen Voraussetzungen und wie Sie Arbeitsplan-Verknüpfungen erstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 40c3a8b938e2d4fa07ae0f5794443d659b06e2e2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0ebd8d0c264dde17522eae3c8a6f718b485ec7f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779303"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439845"
 ---
 # <a name="create-routings"></a>Routings erstellen
 
@@ -32,7 +32,7 @@ Bevor Sie einen Arbeitsplan erstellen können, muss Folgendes verfügbar sein:
 
 ## <a name="to-create-a-routing"></a>So erstellen Sie ein Routing
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Routings** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie im Feld **Art** die Option **Serien**, um die Fertigungsarbeitsgänge abhängig vom Eintrag im Feld **Arbeitsgangnr.** zu berechnen. Feld  
@@ -64,7 +64,7 @@ Sie können Arbeitsplanverbindungen von Komponenten mit speziellen Vorgängen er
 
 Ein weiterer wichtiger Vorteil besteht darin, dass verknüpfte Komponenten und Arbeitsgänge in einer logischen Vorgangsstruktur angezeigt werden, wenn Sie die Seite **Produktionsprotokoll** für Istmeldungen und Verbrauchsbuchungen verwenden.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Routings** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den Arbeitsplan mit den Arbeitsgängen, die Sie verbinden möchten.  
 
     Stellen Sie sicher, dass der Arbeitsplanstatus **In Entwicklung** ist.  
@@ -96,8 +96,8 @@ Die ausgewählten Komponenten werden nun mit den ausgewählten Arbeitsgängen ve
 
 Wenn Sie Personal mit besonderen Fähigkeiten, speziellem Wissen oder speziellen Qualifikationen für diesen Arbeitsgang benötigen, können Sie dieses Personal hier zuordnen. Darüber hinaus können Sie Werkzeugen Qualitätsanforderungen dem Arbeitsgang zuweisen. Hier wird beschrieben, wie Personal zugewiesen wird. Die Schritte sind für andere Arten Arbeitsgangsinformationen ähnlich.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Routings** ein, und wählen Sie dann den zugehörigen Link.  
-2. Öffnen Sie das relevante Routing.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
+2. Öffnen Sie den entsprechenden Arbeitsplan.  
 3. Im Inforegister **Zeilen** wählen Sie die Zeile aus, die Sie bearbeiten möchten, und wählen Sie dann die Aktion **Vorgänge** und **Personal** aus.  
 4. Füllen Sie die Felder auf der Seite **Arbeitsgang Personal** aus.  
 5. Wählen Sie die Schaltfläche **OK**, um die Seite zu verlassen. Die eingegebenen Werte werden kopiert und dem Arbeitsgang zugeordnet.  
@@ -106,7 +106,7 @@ Wenn Sie Personal mit besonderen Fähigkeiten, speziellem Wissen oder speziellen
 
 Das Versionsprinzip ermöglicht Ihnen, mehrere Versionen eines Arbeitsplans zu verwalten. Die Struktur der Arbeitsplanversion entspricht der Struktur der Arbeitspläne, bestehend aus dem Arbeitsplanversionskopf und den Arbeitsgängen. Der Hauptunterschied wird durch das Startdatum definiert.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Routings** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitspläne** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die zu kopierende Arbeitsgang, und wählen Sie die **Versionen** Aktion aus.  
 3. Wählen Sie auf der Seite **Arbeitsgangversion** die Aktion **Neu** aus.
 4. Füllen Sie die Felder je nach Bedarf aus.

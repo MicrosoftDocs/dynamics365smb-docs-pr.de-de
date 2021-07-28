@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e0e225df3d3d212165a8a94eaab964b079ca868
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115640"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438927"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -25,7 +25,7 @@ Einen Überblick über die gängigsten Tastenkombinationen finden Sie unter [Tas
 
 > [!TIP]
 > Für eine grafische Darstellung der am häufigsten verwendeten Tastenkombinationen wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.  
-> [ ![Symbol für die PDF-Datei](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Symbol zum Öffnen einer PDF")
+> [ ![Symbol für die PDF-Datei.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Symbol zum Öffnen einer PDF")
 
 ## <a name="overview"></a>Matrix
 
@@ -55,7 +55,7 @@ Die folgende Tabelle beschreibt Tastenkombinationen, um in verschiedenen Element
 |ALT+N |Öffnen Sie eine Seite, um einen neuen Datensatz zu erstellen. (Ähnlich wie bei der Auswahl der **Neu** und **+** Aktionen.)|
 |ALT+UMSCHALT+N |Schließen Sie eine neu erstellte Seite und öffnen Sie eine neue, um einen neuen Datensatz zu erstellen. Ebenso bucht Alt+F9 ein Dokument und erstellt ein neues.|
 |ALT+T|Öffnen der Seite **Meine Einstellungen**.|
-|Alt+Nach-rechts-Taste|Suchen Sie zusätzliche Informationen oder zugrundeliegende Werte für ein Feld, das die Schaltfläche ![AssistEdit](media/assist-edit-icon.png "AssistEdit-Schaltfläche") enthält. Dies wird verwendet, wenn die übliche Dropdown-Schaltfläche (Alt + Abwärtspfeil) im selben Feld für einen anderen Zweck verwendet wird.|
+|Alt+Nach-rechts-Taste|Nachschlagen zusätzlicher Informationen oder zugrunde liegender Werte für ein Feld, das die ![Bearbeitungshilfe.](media/assist-edit-icon.png "AssistEdit-Schaltfläche") Schaltfläche enthält. Dies wird verwendet, wenn die übliche Dropdown-Schaltfläche (Alt + Abwärtspfeil) im selben Feld für einen anderen Zweck verwendet wird.|
 |Ctrl+Alt+Shift+C|Informationen in der Unternehmenskennzeichnung anzeigen.|
 |STRG+ALT+F1|Öffnen und schließen Sie den Seitenüberprüfungsbereich. Der Seitenüberprüfungsbereich zeigt Informationen zur Seite, wie deren Herkunftstabelle, Felder, Filter, Erweiterungen und mehr.<br /><br />Weitere Informationen finden Sie unter [Überprüfen von Seiten](across-inspect-page.md).|
 |Strg+C |Den Wert des Felds kopieren. Wenn das Feld im Fokus liegt und Sie keinen Text in diesem Feld ausgewählt haben, wird hierdurch der gesamten Wert kopiert. Wenn Sie Text in diesem Feld ausgewählt haben, wird nur der markierte Text kopiert.|

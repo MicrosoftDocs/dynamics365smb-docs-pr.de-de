@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 857f2f913ab2a2026df5997ac16bd59593a3d925
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 96fe7c7c1f955d3c489429bf3ee64f9f3f925de7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784985"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439234"
 ---
 # <a name="using-pre-closing-reports"></a>Vorabschlussberichte verwenden
 Ihnen stehen eine Vielzahl von Standardberichten zur Verfügung, um die Fehlerfreiheit der Konten zu prüfen, bevor die Bücher am Jahres- oder Periodenende abgeschlossen werden. So können Sie sich beispielsweise mithilfe des Berichts **Debitor - Saldenliste** vergewissern, dass an einem bestimmten Datum der Saldo einer Debitorenbuchungsgruppe dem Saldo des zugehörigen Sachkontos entspricht.
@@ -35,7 +35,7 @@ Die nachfolgende Tabelle beschreibt eine Reihe von Berichten, die in diesem Proz
 | Drucken eines Rohbilanzberichts mit Salden und Bewegungen für Sachkonten |Rohbilanz |
 | Drucken einer Rohbilanz für einen konsolidierten Mandanten |Konsolidierung Rohbilanz |
 
-Um einen Bericht anzuzeigen, wählen Sie das Symbol ![Leuchtbirne, das das Symbol Tell Me feature](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie den Namen so ein, wie er in der Tabelle erscheint, und wählen Sie dann den entsprechenden Link.
+Um einen Bericht zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie den Namen ein, wie er in der Tabelle erscheint, und wählen Sie dann den zugehörigen Link.
 
 ## <a name="see-also"></a>Siehe auch
 [Abschlussjahre und -perioden](year-close-years-periods.md)  
