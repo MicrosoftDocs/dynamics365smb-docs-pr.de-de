@@ -1,6 +1,6 @@
 ---
-title: Konsolidieren Sie Daten aus mehreren Unternehmen | Microsoft Docs
-description: Rufen Sie eine Zusammenfassungsansicht der Finanzstärke über Ihre Konzernmandanten hinweg ab.
+title: Daten von mehreren Firmen konsolidieren
+description: In diesem Thema wird erklärt, wie Sie die Hauptbuchhaltungsposten von zwei oder mehr separaten Firmen (Tochtergesellschaften) zu einer konsolidierten Firma konsolidieren können.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2be133009314b714d7b86e6257f642f13720b5e8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 24b9dd8d332091508a21620c3ac1d32fd7be8d55
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774329"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436248"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidieren von Finanzdaten aus mehreren Unternehmen
 
@@ -55,7 +55,7 @@ Der Prozess der Übertragung der Zahlen aus den Konzernmandanten in das konsolid
 Sie können Ihre Daten testen, bevor Sie sie an den Konsolidierungsmandanten übertragen. [!INCLUDE[prod_short](includes/prod_short.md)] So überprüfen Sie Unterschiede zwischen den Informationen in den Konzernmandanten und dem Konsolidierungsmandanten Beispielsweise ob Kontonummern oder Dimensionscodes abweichen. Sie müssen Fehler korrigieren, bevor Sie den Bericht ausführen können. Sie können prüfen, die Datenbank oder, wenn Sie Daten einer XML-Datei importiert, können Sie testen die Datei.  
 
 1. Öffnen Sie den Konsolidierungsmandanten.  
-2. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Geschäftseinheiten** ein und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konzernmandanten** ein und wählen Sie dann den zugehörigen Link.  
 3. Führen Sie einen der folgenden Schritte aus:  
 
     * Um eine Datei zu testen, wählen Sie die **Datei prüfen** Aktion, geben Sie den Namen der Datei an zum Testen ein, und wählen Sie dann **Drucken** aus.  

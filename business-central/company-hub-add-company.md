@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b4ed57dbc6202e44487ca13363b0b34d915d01b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4954287f93ed012709a51f6fbb19d00494c63d54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786537"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436976"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Fügen Sie Unternehmen zu Ihrem Unternehmens-Hub hinzu
 
@@ -29,7 +29,7 @@ Ein Umgebungslink ist eine Karte, auf der Sie die die [!INCLUDE [prod_short](inc
 
 Der Link wird verwendet, wenn Sie das Unternehmen im Unternehmens-Hub auswählen.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Aktionen für ein Unternehmen, das im Unternehmens-Hub aufgeführt ist":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Aktionen für eine Firma, die im Hub der Firma aufgeführt ist":::
 
 > [!TIP]
 > Wenn Sie in der kostenlosen Testversion von [!INCLUDE [prod_short](includes/prod_short.md)] arbeiten, ist es einfach, die Unternehmen in Ihrem Mandanten hinzuzufügen. Sie finden den Umgebungslink, indem Sie die Azure Active Directory-ID aus dem Abschnitt **Problembehandlung** der Seite „Hilfe und Support“ kopieren. Der Umgebungsname ist wahrscheinlich der Standardwert PRODUKTION. Fügen Sie diese Informationen dem Feld **Umgebungslink** hinzu, wie z. B. ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, und wählen Sie dann **Die Verbindung testen**. Das Bewertungsunternehmen wird der Liste hinzugefügt.

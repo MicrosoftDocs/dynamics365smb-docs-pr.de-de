@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087669"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437366"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central für Unternehmen mit mehreren Standorten und internationale Organisationen
 Organisationen mit mehreren Standorten verwenden häufig ein Hub-and-Spoke-Geschäftsmodell, bei dem eine übergeordnete Firma oder die Zentrale die gesamten Vorgänge des Unternehmens verwaltet, während jeder Standort als einzelne, unabhängige Entität fungiert. Die Standorte sind oft geografisch verteilt und haben unterschiedliche Anforderungen an den Informationsaustausch mit der Firma in der Zentrale. Außerdem benötigen die Standorte in der Regel nicht den gleichen Grad an Komplexität und haben oft nicht die Ressourcen, um ein großes System zu pflegen.
@@ -30,7 +30,7 @@ In diesem Artikel werden einige der Möglichkeiten vorgestellt, wie [!INCLUDE[pr
 
 Das folgende Diagramm ist ein Beispiel für die Integration verschiedener Standorte mit einer Firma in der Zentrale.
 
-![Diagramm Beschreibung automatisch generiert](media/multisite-headquarter-sites.png)
+![Diagramm Beschreibung automatisch generiert.](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Erfüllen Sie die Bedürfnisse von inländischen und internationalen Standorten
 
@@ -101,7 +101,7 @@ Standorte benötigen oft Zugriff auf die Lieferkette und die Möglichkeit, besti
 
 Die Firma in der Zentrale muss in der Lage sein, schnell auf geschäftliche Veränderungen an jedem Standort zu reagieren. In Kombination mit Power Automate kann [!INCLUDE[prod_short](includes/prod_short.md)] als Frühwarnmechanismus dienen.
 
-![Ein Screenshot eines Social Media Posts Beschreibung automatisch generiert](media/multisite-apps.png)
+![Ein Screenshot eines POSTs in sozialen Medien Beschreibung automatisch generiert.](media/multisite-apps.png)
 
 | **Business-Anforderung** | **Wie Business Central sie unterstützt** | **Mehr erfahren** |
 |-------------------------|-------------------------|-------------------------|

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778597"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436751"
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
 
@@ -34,7 +34,7 @@ Sie müssen eine Debitorenkarte ausfüllen, um einen neuen Debitoren zu registri
 
 ### <a name="to-create-a-new-customer-card"></a>Erstellen Sie eine neue Debitorenkarte
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Debitoren** die Aktion **Neu** aus.
 
     Wenn nur eine Debitorenvorlage vorhanden ist, dann öffnet sich eine neue Debitorenkarte mit den Feldern, die mit Daten aus der Vorlage ausgefüllt werden.
@@ -76,7 +76,7 @@ Sie können festlegen, dass keine Warnungen angezeigt werden, die darauf hinweis
 
 ### <a name="to-specify-credit-limit-warnings"></a>So legen Sie Kreditlimitwarnungen fest
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einrichten von Verkauf und Forderungen** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
 
 2. Wählen Sie im Inforegister **Allgemein** im Feld **Kreditlimitwarnung** die entsprechende Option aus, wie in der folgenden Tabelle beschrieben:
 

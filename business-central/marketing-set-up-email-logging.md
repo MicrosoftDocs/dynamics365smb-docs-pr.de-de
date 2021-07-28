@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c46fc5107413c4b00b7283e29a75d835de5434e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777673"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437577"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Verfolgen Sie den Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten
 
@@ -105,7 +105,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie Azure Active Direct
 Wenn Sie Azure Active Directory nicht verwenden, um Identitäten und den Zugriff zu verwalten, benötigen Sie die Hilfe eines Entwicklers. Wenn Sie die App-ID und den geheimen Schlüssel lieber an einem anderen Ort speichern möchten, können Sie die Felder „Client-ID“ und „Geheimer Clientschlüssel“ leer lassen und eine Erweiterung schreiben, um die ID und den geheimen Schlüssel von diesem Speicherort abzurufen. Sie können den geheimen Clientschlüssel zur Laufzeit bereitstellen, indem Sie die Ereignisse OnGetEmailLoggingClientId und OnGetEmailLoggingClientSecret in Codeunit 1641 E-Mail-Protokollierung einrichten abonnieren.
 
 ### <a name="to-stop-logging-email"></a>E-Mail-Protokollierung beenden
-1. Wählen Sie die ![Glühbirne, die das Symbol Wie möchten Sie weiter verfahren](media/ui-search/search_small.png "Was möchten Sie tun") öffnet, geben Sie **Benutzereinrichtung** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Marketing Einrichtung** ein, und wählen Sie dann den zugehörigen Link.
 2. Umschaltung **Aktiviert** ausschalten.
 
 ## <a name="see-also"></a>Siehe auch

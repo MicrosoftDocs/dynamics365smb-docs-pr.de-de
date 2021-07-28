@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a1d0d0403798f8cd2af6b29249f01f529fb789be
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: b1328b618761a33d3dc0856c7623bd986008d283
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935236"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437441"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -42,19 +42,19 @@ Die verfügbaren Funktionen werden in der folgenden Tabelle beschrieben.
 |Eingebettete Erfahrung zum Anzeigen eines bestimmten Berichts in einer Infobox in [!INCLUDE[prod_short](includes/prod_short.md)]|Beide. Erfordert eine Konfiguration zum Anzeigen von Berichten für lokale Version.|
 |Power BI-Berichtsverwaltung über [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Power BI-Standardberichte in Rollencentern bereitgestellt für Power BI|Online|
-|Power BI-Apps auf Microsoft AppSource|Online.|
+|Power BI-Apps auf Microsoft AppSource|Online|
 
 ## <a name="architecture"></a>Architektur
 
-[!INCLUDE[prod_short](includes/prod_short.md)] wird über einen Connector mithilfe von OData mit Power BI integriert. Die Datenquelle für Power BI-Berichte wird in der Form von OData-Webdiensten zur Verfügung gestellt.
+[!INCLUDE[prod_short](includes/prod_short.md)] wird über einen Connector mithilfe von OData mit Power BI integriert. Die Datenquelle für Power BI-Berichte wird als API-Seiten und OData-Webdienste dargestellt.
 
-![Power BI-Architektur für die Integration mit Business Central](./media/power-bi-architecture.png)
+![Power BI-Architektur für die Integration mit Business Central.](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Allgemeiner Ablauf
 
 Das folgende Diagramm zeigt den grundlegenden Workflow für Benutzer beim Herstellen einer Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und Power BI.
 
-![Power BI-Workflow für die Integration mit Business Central](./media/power-bi-flow.png)
+![Power BI Workflow für die Integration mit Business Central.](./media/power-bi-flow.png)
 
 1. Der Benutzer registriert sich für ein Power BI-Konto.
 2. Der Benutzer stellt eine Verbindung zwischen Power BI und [!INCLUDE[prod_short](includes/prod_short.md)] her.

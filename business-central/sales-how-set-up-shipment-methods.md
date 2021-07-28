@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8390c95083eb02c208e97f0309a725e8ec4d7730
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ee6cdceb716331e2d8338e178def4b8b1e5cfe8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778572"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436701"
 ---
 # <a name="set-up-shipment-methods"></a>Lieferbedingungen einrichten
 
@@ -25,7 +25,7 @@ In der Tabelle **Lieferbedingungen** richten Sie die Beschreibung und den Code f
 
 ## <a name="to-set-up-a-shipment-method"></a>So richten Sie eine Lieferbedingung ein
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lieferbedingungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lieferbedingungen** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Lieferbedingungen** die Aktion **Neu** aus.
 3. Geben Sie in der neuen Zeile einen Code und eine Beschreibung für die Lieferbedingung an.
 

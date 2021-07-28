@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69e0b2bf449e707bc881f2d6b36a391e6a7acef3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781164"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437466"
 ---
 # <a name="migrate-customer-data"></a>Migrieren von Debitorendaten
 
@@ -42,7 +42,7 @@ Bevor Sie beginnen, müssen Sie sicherstellen, dass Sie über die Berechtigung z
 > Tabellen mit unterschiedlichen Primärschlüsseln und Felder mit unterschiedlichen Datentypen werden ebenfalls nicht erfolgreich importiert. Wenn das Konfigurationspaket beispielsweise die Tabelle **Debitor 50000** mit dem Primärschlüssel **Code20** enthält und die Datenbank, in die Sie das Paket importieren die Tabelle **Debitor Bankkonto 50000** mit dem Primärschlüssel **Code20 + Code 20** enthält, werden diese Daten nicht importiert.  
 
 1. Öffnen Sie das neue Unternehmen.  
-2. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationspakete** ein, und wählen Sie dann den entsprechenden Link.  
 3. Wählen Sie die **Paket importieren**-Aktion aus. Navigieren Sie zur .rapidstart-Paketdatei, die Sie importieren möchten, und wählen Sie die **Öffnen** Aktion aus. Während des Imports werden die Paketinhalte dekomprimiert und der Paketdatensatz wird erstellt.  
 
     Nach Abschluss des Imports können Sie die Anzahl der Konfigurationstabellen, die importiert wurden, im Feld **Anzahl Tabellen** sehen.  
@@ -63,7 +63,7 @@ Sie können neue Datenmigrationsdateien erstellen und diese anpassen, sodass sie
 > [!TIP]
 > Eine Datei kann nur verwendet werden, um ein Feld zu migrieren, das den **FieldClass**-Eigenschaftensatz **Normal** hat.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspaket** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationspaket** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie und öffnen Sie ein Paket, das Sie verwenden möchten, um Daten zu migrieren, und wählen Sie die **Tabellen abrufen** Aktion aus. Die Seite **Pakettabelle abrufen** wird geöffnet.  
 3. Geben Sie im Feld **Tabellen-ID** eine Tabellennummer ein oder wählen Sie eine Tabelle aus der Liste, zum Beispiel Tabelle 18, **Debitor**. Das Feld **Tabellennamen** wird automatisch ausgefüllt.  
 4. Wählen Sie die neue Migrationstabelle aus, und dann, auf der Registerkarte **Tabellen** aus, wählen Sie die **Felder** Aktion aus. Die Seite **Migrationsfeld** wird geöffnet.  
@@ -79,7 +79,7 @@ Eine neue Migrationstabelle wird erstellt.
 ## <a name="to-export-data-migration-files"></a>So exportieren Sie Datenmigrationsdateien
 Nachdem Sie die Tabellen festgelegt haben, für die Sie Debitorendaten übertragen möchten, exportieren Sie die Dateien.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationspakete** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie das Paket aus, das Sie für den Export verwenden möchten, und öffnen Sie es.
 3. Wählen Sie die Tabelle oder die Tabellen, die Sie exportieren möchten, und wählen die **In Excel exportieren** Aktion aus.
 4. Speichern Sie die exportierte Excel-Datei.  
@@ -100,7 +100,7 @@ Wenn Sie Daten anwenden, die Sie aus Excel oder von einem RapidStart-Paket impor
 
 In den Verfahren, die folgen, sollten Sie im Voraus überprüfen, welche Werte Sie während des Migrationsvorgangs beibehalten möchten. Um die folgenden Verfahren auszuführen, benötigen Sie die Datenmigrationsdateien (.xls), die Sie aus [!INCLUDE[prod_short](includes/prod_short.md)] exportiert haben. Weitere Informationen finden Sie unter [So werden Datenmigrationsdateien exportiert](admin-migrate-customer-data.md#to-export-data-migration-files)
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationspakete** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie das betreffende Konfigurationspaket.  
 3. Wählen Sie die Tabelle, für die Sie Werte zuordnen möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Felder** aus.  
 4. Für jedes Feld, das Sie zuordnen möchten, wählen Sie die **Zuordnung** Aktion aus.  
@@ -118,7 +118,7 @@ Im folgenden Beispiel wird veranschaulicht, wie [!INCLUDE[prod_short](includes/p
 3. Wenn Sie Daten ausgleichen, wird die Zuordnung, die Sie für das Feld **Code** in der Tabelle **Verkäufer/Käufer** bereitgestellt haben, auch während der Verarbeitung der Felder **Verkäufercode** und **Einkäufercode** berücksichtigt.
 
 ## <a name="to-add-additional-values-to-prod_short"></a>Um [!INCLUDE[prod_short](includes/prod_short.md)] weitere Werte hinzufügen  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Konfigurationspakete** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationspakete** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Tabelle, für die Sie zusätzliche Werte zuordnen möchten, und wählen Sie dann im Inforegister Tabellen die Option **Tabelle** und dann **Felder** aus.  
 3. Für die Felder, für die Sie [!INCLUDE[prod_short](includes/prod_short.md)] während der Migration zusätzliche Werte ermöglichen möchten, wählen Sie das **Fehlende Codes erstellen**-Kontrollkästchen.  
 4. Importieren Sie die Debitorendaten. Weitere Informationen finden Sie unter [So werden Kundendaten importiert](admin-migrate-customer-data.md#to-import-customer-data).

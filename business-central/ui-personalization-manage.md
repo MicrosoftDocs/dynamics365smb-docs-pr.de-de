@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e3926db3bcc1b34e2f75e6b338a86f2ddc2c20b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4849f1a1b6c802a597ff9a70abfb8133f85baed0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783359"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438005"
 ---
 # <a name="customize-pages-for-profiles"></a>Seiten für Profile anpassen
 Benutzer können Seiten für ihren Arbeitsbereich personalisieren, um ihren Bedürfnissen zu entsprechen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
@@ -25,7 +25,7 @@ Administratoren können Seiten für ein Profil anpassen, z. B. entsprechend der 
 Die Seitenanpassung beginnt mit **Profile (Rollen)** Seite, Ausgangspunkt des Administrators für die Verwaltung der Benutzerprofile auf einzelnen Profilkarten. Zusätzlich zum Anpassen des Seitenlayouts steuern Sie verschiedene andere Einstellungen für Profile in der **Profil (Rolle)** Seite für jedes Profil. Weitere Informationen finden Sie unter [Profile verwalten](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Um Seiten für ein Profil anzupassen
-1. Wählen Sie die ![Glühbirne , die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Profile (Rollen)** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Profile (Rollen)** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie dir Zeile für die Personalisierungsseite, die Sie löschen möchten, und wählen die Aktion **Bearbeiten** aus.
 3. Wählen Sie die Aktion **Seiten anpassen**.
 

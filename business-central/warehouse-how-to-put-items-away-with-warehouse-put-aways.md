@@ -1,6 +1,6 @@
 ---
 title: 'Vorgehensweise: Einlagern von Artikeln mit Lagereinlagerungen | Microsoft Docs'
-description: Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist, verwenden Sie die Funktion Einlagerungsbelege, um die Einlagerung der Artikel zu steuern.
+description: Lernen Sie die verschiedenen Möglichkeiten zum Einlagern von Artikeln in Business Central mit den folgenden Aufgaben zum Einlagern kennen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ed7374fb2d718417639a2f1f74c69bff61847d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0f4dbac3c3131cf31690710cba9457e7508acad5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782509"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438082"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Einlagern von Artikeln mit Lagereinlagerungen
 Wenn Ihr Lagerort so eingerichtet wurde, dass die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist, verwenden Sie die Funktion Einlagerungsbelege, um die Einlagerung der Artikel zu steuern.  
@@ -27,7 +27,7 @@ Abhängig von der Logistik-Einrichtung werden die Zeilen entweder im Einlagerung
 Zusätzlich zu den Standardoptionen für das Erstellen von Lagereinlagerungen, die in diesem Thema beschrieben werden, können Sie die Einlagerung im zugehörigen gebuchten Wareneingang erstellen. Dies ist nützlich, wenn Sie die Einlagerungszeilen gelöscht haben, oder wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden und sich entschieden haben, das Einlagerungsarbeitsblatt nicht zu verwenden, da Sie Einlagerungsanweisungen aus gebuchte Wareneingangszeilen folgendermaßen erstellen oder wiedererstellen können.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>So lagern Sie Artikel ein, ohne die gesteuerte Einlagerung und Kommissionierung zu verwenden:  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Einlagerungen** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einlagerungen** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie die Einlagerung, die für die Bearbeitung bereit ist.  
 
     Sie können den Einlagerungszeilen nach verschiedenen Kriterien sortieren, beispielsweise nach Artikel, Regalnummer, Lagerplatz oder Fälligkeitsdatum, wodurch Sie den Einlagerungsprozess optimieren können.  
@@ -35,7 +35,7 @@ Zusätzlich zu den Standardoptionen für das Erstellen von Lagereinlagerungen, d
 4.  Nachdem Sie das Einlagern der Artikel abgeschlossen haben, wählen Sie die Aktion **Einlagerung registrieren** aus, um den Abschluss der Aktivität zu speichern und die Artikel zur Kommissionierung verfügbar zu machen.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>So lagern Sie Artikel mit der gesteuerten Einlagerung und Kommissionierung ein:  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Einlagerungen** ein und wählen Sie dann den entsprechenden Link.
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einlagerungen** ein, und wählen Sie dann den entsprechenden Link.
     Wenn Einlagerungsanweisungen erstellt wurden, wird eine Einlagerung angezeigt.  
 2.  Öffnen Sie die Lagereinlagerung, mit der Sie arbeiten möchten.  
 3.  Wenn dies in Ihrem Lager erforderlich ist, geben Sie Ihre Benutzer-ID im Inforegister **Allgemein** ein, wenn Sie anfangen, an einer bestimmten Einlagerung zu arbeiten.  
@@ -63,7 +63,7 @@ Die Lagerplatzpriorität wird berücksichtigt, wenn mehr als ein Lagerplatz den 
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Um eine Einlagerung aus dem gebuchten Wareneingang zu erstellen  
  Wenn für Ihren Lagerort die Bearbeitung der Einlagerung und des Wareneingangs erforderlich ist und Sie die Einlagerungszeilen gelöscht haben, oder wenn Sie die gesteuerte Einlagerung und Kommissionierung verwenden und sich entschieden haben, das Einlagerungsarbeitsblatt nicht zu verwenden, können Sie Einlagerungsanweisungen für gebuchte Wareneingangszeilen folgendermaßen erstellen oder wiedererstellen.
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Gebuchte Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Eingelagerte Whse. Eingänge** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie einen gebuchten Wareneingang aus, der eingelagert werden muss.  
 3.  Wählen Sie die Aktion **Karte** aus.  
 

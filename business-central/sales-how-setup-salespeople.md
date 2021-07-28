@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a16c48821aef828aeba61e8bc859007b5678a473
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 07fa5963f79f091dffd49af7d20669616923797f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778522"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436651"
 ---
 # <a name="set-up-salespeople"></a>Verkäufer einrichten
 Viele Unternehmen möchten die Leistungen der einzelnen Angestellten bei der Berechnung von Verkaufsprovisionen oder Prämien berücksichtigen. Sehen Sie beispielsweise den **Verkäufer-Kommissionsbericht**. Ein Unternehmen möchte möglicherweise auch jeder Kontaktperson einen Verkäufer zuordnen.
@@ -25,7 +25,7 @@ Wenn Sie auf der Seite **Verkäufer** einen Verkäufer eingerichtet haben, könn
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>So richten Sie einen Verkäufercode ein
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkäufer** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkäufer** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Verkäufercode** die Aktion **Neu** aus.
 
 Sie können Verkäufer in verschiedenen Beziehungsverwaltung und Marketings-Arbeit verwenden. So können Sie z. B. Aufgaben Verkäufern zuweisen, sodass die Aufgaben in Verkaufschancen integriert sind, die Verkäufern zugeordnet werden. Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).

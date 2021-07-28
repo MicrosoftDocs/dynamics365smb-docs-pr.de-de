@@ -1,6 +1,6 @@
 ---
-title: Servicepreismanagement | Microsoft Docs
-description: In diesem Thema wird beschrieben, wie Sie den Serviceaufträgen die besten Preise zuzuordnen, individuelle Preisvereinbarungen mit Kunden einzurichten, die Effizienz der Servicemitarbeiter zu verbessern und den Rechnungsstellungsprozess zu beschleunigen.
+title: Servicepreismanagement
+description: Mit der Servicepreisverwaltung können Sie Servicepreisgruppen, Servicepreise, Servicepreisanpassung und mehr festlegen.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: af69e0aeb80b3406e26200a7a2f8f04aceb10914
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1857efe5dd3accf7f8ec53a57ce9a614efbeacad
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776766"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438282"
 ---
 # <a name="service-price-management"></a>Servicepreismanagement
 Die Funktionalität "Servicepreismanagement" erlaubt Ihnen, den Serviceaufträgen die besten Preise zuzuordnen, individuelle Preisvereinbarungen mit Kunden einzurichten, die Effizienz der Servicemitarbeiter zu verbessern und den Rechnungsstellungsprozess zu beschleunigen.  
@@ -52,7 +52,7 @@ Sie richten die eigentlichen Servicepreisarten (Preiskorrekturart und Preis) fü
 Sie können z. B. Arten von Servicepreisen für eine Radioservicepreisgruppe einrichten. Für Debitoren, die keiner Preisgruppe zugewiesen wurden, können Sie festlegen, dass für Serviceleistungen ein maximaler Preis berechnet werden soll (= Preiskorrekturgruppe für Serviceleistungen). Für Debitoren, die einer bestimmten Preisgruppe zugewiesen wurden, können Sie festlegen, dass für Serviceleistungen ein fixer Preis berechnet werden soll, dieselbe Preisausorrekturgruppe für Serviceleistungen.  
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience)
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceartikel** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceartikel** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Serviceartikel aus, erweitern Sie das Inforegister **Preise und Verkäufe**, wählen Sie die Aktion **Ressource**, **Artikel**, oder **G/L-Konto**.
 3. Füllen Sie auf den Seiten **Res.-VK-Preise Projekt**, **Projektartikelpreise**, oder **Projekt-Sachkontopreise** die Felder nach Bedarf aus.
 

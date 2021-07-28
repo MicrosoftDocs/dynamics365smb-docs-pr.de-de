@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b2e2e64cd3845f20e9c3e0fea5c114ebcd08491d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc930c319a1d1c6ae7ff0615bb6bf20cf125cf64
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780232"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436098"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Ändern oder Löschen einer unbezahlten Einkaufsrechnung
 
@@ -28,7 +28,7 @@ Auf der Seite **Geb. Einkaufsrechnung** können Sie die Schaltfläche **Korrigie
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Gebuchte Einkaufsrechnung korrigieren
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Gebuchte Einkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Einkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die gebuchte Einkaufsrechnung, die Sie korrigieren möchten.  
 
     > [!NOTE]  
@@ -41,7 +41,7 @@ Auf der Seite **Geb. Einkaufsrechnung** können Sie die Schaltfläche **Korrigie
 4. Wählen Sie die Registerkarte **Korrekturgutschrift anzeigen** aus, um die gebuchte Einkaufsgutschrift anzuzeigen, die die gebuchte Einkaufsrechnung storniert.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>Gebuchte Einkaufsrechnung stornieren
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Gebuchte Einkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Einkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die gebuchte Einkaufsrechnung, die Sie stornieren möchten.
 
     > [!NOTE]  

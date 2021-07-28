@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: cff8ae1b376079aa1b9162cade59e88da985e263
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938071"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436148"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Jobs, Preise und Buchungsgruppen festlegen
 
@@ -22,7 +22,7 @@ Als Projekt-Manager können Sie Projekte einrichten, die jedes der Projekte defi
 Für jedes Projekt geben Sie dann die einzelnen Projektkarten mit Informationen zu Preisen für Projektressourcen Projektartikel, Projekt und Sachkonten an, und Sie müssen Projektbuchungsgruppen einrichten.
 
 ## <a name="to-set-general-information-for-jobs"></a>Um allgemeine Informationen für Projekte einzurichten:
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"), geben Sie **Projekteinrichtung** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Projekt Einrichtung** ein und wählen Sie den zugehörigen Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -55,7 +55,7 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 Sie können Preise für die Artikel, Ressourcen und Sachkonten für Projekte einrichten. 
 
 #### <a name="current-experience"></a>[Aktuelle Erfahrung](#tab/current-experience)
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten"), geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die entsprechende Projekte und wählen Sie dann die Aktion **Ressource**, **Artikel** oder **Sachkonto** aus.
 3. Füllen Sie auf den Seiten **Res.-VK-Preise Projekt**, **Projektartikelpreise**, oder **Projekt-Sachkontopreise** die Felder nach Bedarf aus.
 
@@ -69,7 +69,7 @@ Die folgende Tabelle zeigt, wie die Informationen in den optionalen Feldern in J
 
 ---
 #### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience)
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Projekte** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Aufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Markieren Sie den entsprechenden Job und wählen Sie dann die Aktion **Verkaufspreislisten**.
 
 ---
@@ -80,7 +80,7 @@ Ein Aspekt der Projektenplanung besteht darin, zu entscheiden, welche Buchungsko
 > [!NOTE]  
 >   Die erforderlichen Konten der Kontenliste müssen eingegeben, bevor Sie Buchungsgruppen einrichten können. Weitere Informationen finden Sie unter [Einrichten oder ändern des Kontenplans](finance-setup-chart-accounts.md).  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion Tell Me](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie **Job-Buchungsgruppen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Projektbuchungsgruppen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** und füllen Sie dann die Kontenfelder wie in der folgenden Tabelle beschrieben aus.  
 
 | Das Feld "Konto" | Beschreibung |

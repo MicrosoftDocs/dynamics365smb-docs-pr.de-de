@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 82c60333f038f647fa4c9c2bbd68019b9c1f8026
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10ae5c1932e21b452efd41a1212f1840101a277b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783797"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437316"
 ---
 # <a name="set-up-payment-terms"></a>Zahlungsbedingungen einrichten
 
@@ -28,7 +28,7 @@ Wenn Sie Ihren Kunden Erinnerungen an überfällige Zahlungen senden möchten, m
 
 ## <a name="to-set-up-payment-terms"></a>So richten Sie Zahlungsbedingungen ein
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion Wie möchten Sie weiter verfahren öffnet](media/ui-search/search_small.png "Was möchten Sie tun"), geben Sie **Zahlungsbedingungen** ein, und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Zahlungsbedingungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Weisen Sie die Zahlungsbedingungen den Debitoren und Kreditoren zu, nachdem Sie sie eingerichtet haben. Fügen Sie Ihren Zahlungsbedingungen optional Ihre Zahlungsformen hinzu.  

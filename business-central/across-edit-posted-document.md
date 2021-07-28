@@ -1,6 +1,6 @@
 ---
-title: Gebuchte Einkaufs- und Verkaufsbelege bearbeiten | Microsoft Docs
-description: Erfahren Sie mehr über die verschiedenen Buchungsfunktionen zum Buchen von Einkaufsbelegen und wie Sie gebuchte Belege aktualisieren können.
+title: Gebuchte Einkaufs- und Verkaufsbelege bearbeiten
+description: Dieses Thema erklärt, wie Sie Informationen auf einem gebuchten Beleg wie einer Verkaufslieferung oder einer Einkaufsrechnung aktualisieren können, wenn sich relevante Informationen geändert haben.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ef23d98aaeeb63c17e836fd25b547703787264da
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a2be703bfc58fbac85dd4776e5256b614eb46cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776197"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437802"
 ---
 # <a name="edit-posted-documents"></a>Gebuchte Belege bearbeiten
 
@@ -41,7 +42,7 @@ Die folgenden zusätzlichen Dokumente können in den angegebenen Ländern oder R
 
 Im Folgenden wird erläutert, wie Sie eine gebuchte Verkaufslieferung bearbeiten. Die Schritte sind für die anderen unterstützten Dokumente ähnlich.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Gebuchte Verkaufslieferungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Verkaufslieferungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie das zu bearbeitende Dokument aus, und wählen Sie anschließend die Aktion **Beleg aktualisieren** aus. Alternativ können Sie das Dokument öffnen und dann die Aktion auswählen.
 3. Auf der Seite **Gebuchte Verkaufslieferungen - Update** bearbeiten Sie das Feld **Paketverfolgungsnr.** zum Beispiel.
 4. Wählen Sie die Schaltfläche **OK** aus.

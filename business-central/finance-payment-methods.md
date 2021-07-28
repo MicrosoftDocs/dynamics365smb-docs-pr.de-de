@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Zahlungsformen
-description: Sie können Zahlungsformen nutzen, z.B. Banküberweisung, Kasse oder Paypal, um festzulegen, wie eine Rechnung bezahlt wird.
+description: Sie können Zahlungsformen nutzen, z.B. Banküberweisung, Kasse oder PayPal, um festzulegen, wie eine Rechnung bezahlt wird.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1e836b43392cd915a77c5ee85d5a322753dcd5df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: de37cfd8719615dbc736ff6e7b03ee75d97c87ce
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773955"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437341"
 ---
 # <a name="set-up-payment-methods"></a>Einrichten von Zahlungsformen
 
@@ -33,14 +33,14 @@ Gutschriften für Reklamationen sind jedoch Ausnahmen, da Geld entgegengesetzt f
 
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält mehrere Zahlungsformen, die Geschäfte häufig verwenden. Sie können so viele Zeilen hinzufügen, wie Sie benötigen.
 
-1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Was möchten Sie tun"), geben Sie **Zahlungsformen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Zahlungsformen** ein, und wählen Sie dann den entsprechenden Link.
 2. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Fügen Sie Ihren Zahlungsbedingungen optional Ihre Zahlungsform hinzu. Weitere Informationen finden Sie unter [Einrichten von Zahlungbedingungen](finance-payment-terms.md).  
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>So weisen Sie einem Kreditor eine Zahlungsform zu
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun") Symbol öffnet, geben Sie **Kunde** oder **Lieferant** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Kunde** oder **Kreditor** ein und wählen Sie dann den zugehörigen Link.
 2. Im **Zahlungsformcode** Feld wählen Sie die Methode, die Sie für den Debitor oder Kreditor standardmäßig verwenden möchten.
 
 ## <a name="see-also"></a>Siehe auch

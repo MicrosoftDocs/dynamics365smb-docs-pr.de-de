@@ -1,6 +1,6 @@
 ---
 title: Einlagern der fertig gestellten Produktion
-description: Wie Sie Ihre Fertigprodukte aus der Produktion einlagern, hängt davon ab, wie Ihr Lagerort eingerichtet wurde.
+description: Wie Sie Ihre Fertigprodukte aus der Produktion einlagern, hängt davon ab, wie Ihr Lagerort eingerichtet wurde. Lagereinlagerungen können auf die folgenden Arten durchgeführt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2b04e07a6660ebeb32cc93594c77b8ff8e782766
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784217"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438132"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Einlagerung der fertiggestellten Produktion oder Montage
 
-Wie Sie Ihre Fertigprodukte aus der Produktion einlagern, hängt davon ab, wie Ihr Lagerort eingerichtet wurde. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
+Wie Sie Ihren Output aus der Produktion einlagern, hängt davon ab, wie Ihr Lagerort festgelegt ist. Weitere Informationen finden Sie unter [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md).  
 
 Bei Basis-Lagerkonfigurationen, bei denen für den Lagerort die Bearbeitung der Einlagerung erforderlich ist, verwenden Sie den Beleg **Lagereinlagerung**, um die fertig gestellte Menge zu buchen oder um die Einlagerung der Fertigprodukte zu organisieren und zu erfassen.  
 
@@ -33,14 +33,14 @@ Wenn für Ihren Lagerort in den Basis-Lagerkonfigurationen die Bearbeitung der E
 Der erste Schritt zum Erstellen der Einlagerung ist das Erstellen der Lagereinlagerungsanforderung. Diese Anforderung informiert das Lager, dass die Fertigprodukte aus der Produktion oder der Montage des Fertigungsauftrags zur Einlagerung bereit sind.
 
 ### <a name="to-create-the-inbound-warehouse-request"></a>So erstellen Sie die Lagereinlagerungsanforderung:  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Freigegebener FA** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Freigegebener Fertigungsauftrag** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie im Fertigungsauftrag, der für die Einlagerungen bereitsteht, die Aktion **Eingehende Lageranf. erstellen** aus.  
 
 > [!NOTE]  
 > Sie können die Einlagerungsanforderung auch erstellen, indem Sie das Feld **Lagereinlag.-Anford. erstellen** aktivieren, wenn Sie den Fertigungsauftrag aktualisieren. Weitere Informationen finden Sie unter [Aktualisieren oder Ersetzen von Fertigungsaufträgen](production-how-to-replan-refresh-production-orders.md).  
 
 ### <a name="to-put-output-away-with-an-inventory-put-away"></a>So lagern Sie Ausstoß mit einer Lagereinlagerung ein:  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagereinlagerung** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagereinlagerungen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Erstellen Sie eine neue Lagereinlagerung. Weitere Informationen finden Sie unter [Artikel mit Lagereinlagerungen einlagern](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Um zu den Fertigungsaufträgen zu gelangen, wählen Sie die Aktion **Herkunftsbeleg holen** aus, und wählen Sie den freigegebenen Fertigungsauftrag aus.  
 4.  Füllen Sie die Einlagerungszeilen entsprechend aus.

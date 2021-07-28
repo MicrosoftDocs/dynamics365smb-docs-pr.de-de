@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 120db7bf4336444f6cf726d0f784a86841dc3e11
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d97b0fe65a610c4b0a9dab694678afdf4631a514
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215953"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436926"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetails: Bestandsbuchung
 
@@ -32,7 +32,7 @@ Jede Bestandstransaktion, wie etwa eine Einkaufslieferung oder eine Verkaufslief
 
  In regelmäßigen dynamischen Abständen werden Wertposten, die im Bestandsposten erstellt werden, ins Hauptbuch gebucht, um die beiden Bücher aus Finanzkontrollgründen abzugleichen. Weitere Informationen finden Sie unter [Designdetails: Abstimmung mit der Finanzbuchhaltung](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Eintragsfluss beim Abgleich des Lagerbestands mit dem Sachkonto](media/design_details_inventory_costing_1_entry_flow.png "Eintragsfluss beim Abgleich des Lagerbestands mit dem Sachkonto")  
+ ![Eintrags-Flow beim Abstimmen des Bestands mit dem Hauptbuch.](media/design_details_inventory_costing_1_entry_flow.png "Eintragsfluss beim Abgleich des Lagerbestands mit dem Sachkonto")  
 
 ## <a name="example"></a>Beispiel
 

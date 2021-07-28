@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5972e7489b9aa8c537d8aaa6677c79ffd4a6414
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778747"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436851"
 ---
 # <a name="merge-duplicate-records"></a>Doppelt Datensätze zusammenführen
 Wenn unterschiedliche Benutzer im Laufe der Zeit neue Debitoren-, Kreditoren- oder Kontaktkarten erstellen, oder die neuen Datensätze automatisch während der Migration erstellt werden, wird ein Debitor, ein Kreditor oder ein Kontakt im System mit mehr als einem Datensatz dargestellt. In diesem Fall können Sie die Seite **Doppelte Datensätze zusammenführen** aus der Karte des Datensatzes verwenden, den Sie erfassen möchten. Die Seite zeigt Ihnen eine Übersicht der duplizierten Feldwerte und bietet Funktionen, um auszuwählen, welche Werte behalten oder verworfen werden, wenn zwei Datensätze zusammengeführt werden.
@@ -28,7 +28,7 @@ Wenn unterschiedliche Benutzer im Laufe der Zeit neue Debitoren-, Kreditoren- od
 
 Das folgende Verfahren basiert auf einer Debitorenkarte. Die Schritte sind für Debitor- und Kontaktkarten ähnlich.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Debitor, von dem Sie wissen oder vermuten, dass ein doppelter Datensatz für ihn existiert, und wählen Sie die dann die Aktion **Bearbeiten** aus.
 3. Wählen Sie auf der Seite **Debitorenkarte** die Aktion **Zusammenführen mit** aus.
 4. Wählen Sie auf der Seite **Doppelte Datensätze zusammenführen** im Feld **Zusammenführen mit** den Kunden aus, von dem Sie der Meinung sind, dass dies ein Duplikat des von Ihnen geöffneten Datensatzes ist, der im Feld **Aktuell** angezeigt wird.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: abb6a3a910f8ac628587a58637b96d69bca4266f
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 2841473825ebc0fee7c9357e14e7520b94fd3793
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115963"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437777"
 ---
 # <a name="enter-external-document-numbers"></a>Externe Belegnummern eingeben
 
@@ -28,7 +28,7 @@ Im folgenden Verfahren wird erläutert, wie Sie eine externe Belegnummer in eine
 
 ## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>So geben Sie externe Belegnummern in einen Verkaufsauftrag ein  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den relevanten Verkaufsauftrag und dann auf die Aktion **Bearbeiten** aus.  
 3. Geben Sie im Inforegister **Allgemein** im Feld **Externe Belegnr.** die Rechnungsnummer ein.  
 

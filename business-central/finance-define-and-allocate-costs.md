@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f892333d08036efe751cbcabf49945377990807
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1543627340cb4947eafafffc362acddacb52ceb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770863"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436198"
 ---
 # <a name="defining-and-allocating-costs"></a>Definieren und Zuweisen von Kosten
 Kostenzuteilungen verschieben Kosten und Einnahmen zwischen Kostenarten, Kostenstellen und Kostenträgern. Sie können so viele Zuteilungen wie notwendig definieren. Jede Zuteilung besteht aus:  
@@ -38,7 +38,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 Jede Zuordnung besteht aus einer Zuordnungsquelle und einer oder mehreren Zuordnungszielen. Die Zuordnungsquelle definiert, welche Kosten zugeordnet werden. Die Zuordnungsziele bestimmen, wie die Kosten zugeordnet werden.  
 
 ### <a name="to-set-up-cost-allocations"></a>So richten Sie Kostenzuordnungen ein  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kostenzuteilung** ein, und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kostenzuteilung** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie auf der Seite **Kostenzuteilung** die Aktion **Bearbeiten** aus.  
 3.  Geben Sie eine ID für die Zuordnungsquelle in das Feld **ID** ein.  
 4.  Definieren Sie eine **Ebene** als Zahl zwischen 1 und 99 im Feld . Die Verteilungsbuchung richtet sich nach der Reihenfolge der Stufen.  
@@ -82,7 +82,7 @@ In diesem Thema wird beschrieben, wie drei neue Verteilungsziel-Kostenträger f�
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>So definieren die die Kostenstelle der Verteilungsquelle PROD auf dem Inforegister "Allgemein"  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kostenzuteilung** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kostenzuteilung** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie auf der Seite **Kostenzuteilung** die Aktion **Neu** aus.  
 3.  Drücken Sie im Feld **ID** die EINGABETASTE, oder geben Sie eine ID ein.  
 4.  Geben Sie in dem Feld **Menge** **1** ein.  
@@ -119,7 +119,7 @@ Dieses Thema zeigt ein Beispiel für das Definieren von Zuordnungen mithilfe der
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>So definieren Sie dynamische Zuteilungen auf der Basis der im Vorjahr verkauften Artikel  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kostenzuteilungen** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kostenzuteilungen** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie auf der Seite **Kostenzuteilung** die Aktion **Neu** aus.  
 3.  Drücken Sie im Feld **ID** die EINGABETASTE, oder geben Sie eine ID ein.  
 4.  Geben Sie in dem Feld **Menge** **1** ein.  

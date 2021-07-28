@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 434f730b7b7f541ed7387b278672cdd032afb093
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e779bb1d2916c031dea66a52ed7b3b9ccc006aee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782536"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438157"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planen von Umlagerungen in Arbeitsblättern
 Planen Sie Lagerplatzumlagerungen im Arbeitsblatt, indem Sie eine Wiederauffüllfunktion nutzen oder manuell die Zeilen planen, die Sie als Umlagerungsanweisungen erstellen möchten.  
@@ -23,7 +23,7 @@ Planen Sie Lagerplatzumlagerungen im Arbeitsblatt, indem Sie eine Wiederauffüll
 ## <a name="to-calculate-a-replenishment-movement"></a>So berechnen Sie Lagerplatzauffüllungen:  
 Wenn aus dem Lager Artikel an Debitoren geliefert werden, enthalten die Lagerplätze mit den höchsten Prioritäten (höchstwahrscheinlich die, die am dichtesten am Warenausgangsbereich liegen) kontinuierlich weniger Artikel. Um diese Lagerplätze mit den höchsten Prioritäten mit Artikeln aus anderen Lagerplätzen wiederaufzufüllen, können Sie die Funktion **Lagerplatz-Auffüllung berechnen** auf der Seite **Lagerplatzumlagerungsarbeitsblatt** verwenden.
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerplatzumlagerungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitsblatt für Lagerplatzumlagerungen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Lagerplatzauffüllung berechnen**.  
 
     [!INCLUDE[prod_short](includes/prod_short.md)] erstellt Zeilen, die genau angeben, wie Artikel von den Lagerplätzen mit niedriger Priorität in die mit höherer Priorität umgelagert werden sollen.  
@@ -44,7 +44,7 @@ Wenn aus dem Lager Artikel an Debitoren geliefert werden, enthalten die Lagerpl�
 ## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Den gesamten Inhalt eines oder mehrerer Lagerplätze umlagern, indem Sie die Funktion "Lagerplatzinhalt holen" verwenden  
 Sie können den Lagerplatzumlagerungsarbeitsblatt auch nutzen, um andere Umlagerungen von Artikeln innerhalb des Lagers zu planen. Wenn Sie z. B. Artikel für die Qualitätskontrolle in einen Lagerplatz einlagern möchten, können Sie den Lagerplatzumlagerungsarbeitsblatt verwenden, um diese Aktion zu planen, und dann eine Lagerplatzumlagerung erstellen, die eine Anweisung für einen Mitarbeiter darstellt.  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerplatzumlagerungsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitsblatt für Lagerplatzumlagerungen** ein und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Lagerplatzinhalt holen** Aktion aus. Sie verwenden die Anforderungsseite, um Filter auf die Lagerplätze und Artikel zu setzen, die in den Lagerplatzumlagerungsarbeitsblattzeilen erscheinen sollen.  
 3.  Füllen Sie die entsprechenden Felder in der Anforderungsseite der Stapelverarbeitung aus. Wenn Sie z. B. den Lagerplatzinhalt aller Lagerplätze in einer bestimmten Zone des Lagerorts sehen möchten, füllen Sie das Feld **Zonencode** aus. Wenn Sie Zeilen für alle Lagerplätze holen möchten, die einen bestimmten Artikel enthalten, füllen Sie das Feld **Artikelnr.** aus.  
 

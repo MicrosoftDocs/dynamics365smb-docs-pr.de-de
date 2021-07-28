@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 718131ab06bd81a2394d82b9645a9e70be3f95a0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775325"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436451"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändern des jährlichen Betrags für Serviceverträgen oder Vertragsangebote
 Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder Vertragsangebots ändern, um den jährlich fakturierten Betrag zu korrigieren.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>So ändern Sie den Betrag "Zu fakturieren (Jahr)" eines Servicevertrags oder Vertragsangebots  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Serviceverträge** oder **Servicevertragsangebote** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Serviceverträge** oder **Servicevertragsangebote** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Vertrag oder das Vertragsangebot aus.  
 3. Wählen Sie die Aktionen **Vertrag öffnen** aus, um den Vertrag oder das Vertragsangebot zwecks Bearbeitung zu öffnen.  
 4. Wählen Sie das Kontrollkästchen **Nicht ausgegl. Betr. zulassen** aus, wenn Sie den jährlichen Betrag ändern und die Differenz manuell in den Vertragszeilen ausgleichen möchten. Falls Sie das nicht möchten, deaktivieren Sie das Kontrollkästchen, um die Differenz in den Vertragszeilen automatisch ausgleichen zu lassen, wenn Sie den jährlichen Betrag ändern.  

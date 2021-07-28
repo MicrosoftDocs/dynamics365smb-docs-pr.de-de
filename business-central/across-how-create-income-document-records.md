@@ -1,6 +1,6 @@
 ---
-title: Eingehende Belege aufzeichnen| Microsoft Docs
-description: Sie können Datensätze aus eingehenden Belegen wie E-Rechnungen erstellenn und OCR-Aufgaben, eCommerce und Belegaustausch verwalten.
+title: Erstellen von eingehenden Belegen
+description: Verwenden Sie verschiedene Funktionen auf der Seite Eingehende Belege, um Spesenbelege zu prüfen, OCR-Aufgaben zu verwalten, eingehende Beleg-Dateien zu konvertieren und externe Dateien anzuhängen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7e045948aae1140f999a2a1d0db98de162e8e1e8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 130a41d23a6e28979fad1e4999a1f620eaf7affe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776047"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437702"
 ---
-# <a name="create-incoming-document-records"></a>Erstellen von eingehenden Belegen
+# <a name="create-incoming-document-records"></a>Erstellen Sie Datensätze für eingehende Belege
 Auf der Seite **Eingehende Belege** können Sie verschiedene Funktionen zum Überprüfen von Ausgabenbelegen, Verwalten von OCR-Aufgaben und Konvertieren eingehender Belege, manuell oder automatisch, in den entsprechenden Belegen oder Buch.-Blattzeilen verwenden. Die externen Dateien können jeder Prozessphase zugeordnet werden, auch gebuchten Belegen und den resultierenden Kreditoren-, Debitoren- und Sachposten.
 
 Um einen externen Beleg in [!INCLUDE[prod_short](includes/prod_short.md)] aufzuzeichnen, müssen Sie zuerst einen Datensatz des eingehenden Beleges anlegen oder ausfüllen. Dies kann manuell erfolgen, oder Sie können ein Foto des externen Belegs machen und einen eingehenden Belegsdatensatz mit der angehängten Bilddatei erstellen.
@@ -29,7 +29,7 @@ Bevor Sie die Funktion für eingehende Belege verwenden können, müssen Sie sie
 ## <a name="to-approve-or-reject-an-incoming-document"></a>So können Sie einen eingehenden Beleg genehmigen oder ablehnen
 Wenn Sie wünschen, dass Benutzer Rechnungen oder Hauptjournalzeilen aus eingehenden Belegen nur dann erstellen dürfen, wenn diese genehmigt sind, können Sie Genehmiger einrichten, die alle Belege genehmigen müssen, bevor sie verarbeitet werden können.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Eingehende Belege** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Eingehende Belege** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Zeile mit dem Beleg, den Sie genehmigen oder ablehnen möchten, und wählen Sie dann die Aktion **Genehmigen** oder **Ablehnen** aus.
 
 Das Kontrollkästchen **Freigegeben** in der Zeile für den eingehenden Beleg ist aktiviert, wenn dieser genehmigt wurde. Der jeweilige Benutzer, beispielsweise der für das Erstellen von Einkaufsrechnungen zuständige, kann dann fortfahren, den Datensatz zu verarbeiten.
@@ -57,7 +57,7 @@ Das Kontrollkästchen **Freigegeben** in der Zeile für den eingehenden Beleg is
     Das Bild wurde dem Datensatz des eingehenden Beleges angehängt.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>eingehende Belege manuell erstellen
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Eingehende Belege** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Eingehende Belege** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Aus Datei erstellen** aus.  
 3. Wählen Sie auf der Seite **Datei einfügen** eine Datei aus und wählen Sie dann **Offen** aus. Die Datei wird automatisch angehängt.
 4. Wählen Sie alternativ die Aktion **Neu** aus.

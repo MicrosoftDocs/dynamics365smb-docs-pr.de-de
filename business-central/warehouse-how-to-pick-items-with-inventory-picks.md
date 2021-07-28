@@ -1,6 +1,6 @@
 ---
-title: "So wird's gemacht: Artikel mit der Lagerkommissionierung kommissionieren | Microsoft Docs"
-description: Wenn ein Lagerort so eingerichtet wurde, dass Kommissionierung erforderlich ist, jedoch Warenausgang nicht erforderlich ist, verwenden Sie Lagerkommissionierbelege, um Kommissionier- und Warenausgangsinformationen für Ihre Herkunftsbelege zu erfassen und zu buchen.
+title: So kommissionieren Sie Artikel mit Lagerkommissionierungen
+description: Wenn ein eingerichteter Lagerort die Verarbeitung von Kommissionierungen, aber nicht den Versand erfordert, verwenden Sie Lagerkommissionierungs-Belege, um die Kommissionierungs- und Versandinformationen für Quellbelege festzulegen und zu buchen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7e8798f9581d3f0ae416a52bfdd53c7bb4893eab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 05bd840f0e4db2f383544b99d3edc26a443f423b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771704"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438207"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Artikel mit der Lagerkommissionierung kommissionieren
 
@@ -36,7 +36,7 @@ Sie können eine Lagerkommissionierung auf drei Arten erstellen:
 
 Bei Verkaufsaufträgen, Einkaufsreklamationen und ausgehenden Umlagerungsaufträgen erstellen Sie die erwartete Lagerbewegung, indem Sie den Auftrag freigeben. Nachfolgend wird erläutert, wie dies mit einem Verkaufsauftrag erreicht wird.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Verkaufsauftrag, den Sie freigeben möchten, und wählen Sie die **Freigeben** Aktion aus.
 
 Bei Fertigungsaufträgen erzeugen Sie die erwartete Lagerbewegung für das Kommissionieren der Komponenten automatisch (dies wird *Vorwärtsbuchen* genannt), wenn der Status des Fertigungsauftrags in **Freigegeben** geändert wird oder wenn der freigegebene Fertigungsauftrag erstellt wird. Weitere Informationen finden Sie unter [Kommissionierung für die Produktion oder Montage](warehouse-how-to-pick-for-production.md).
@@ -47,7 +47,7 @@ Nachdem die erwartete Lagerbewegung erzeugt wurde, kann ein Lagermitarbeiter, de
 
 Nachdem die Anforderung erstellt wurde, kann der Lagermitarbeiter eine neue Lagerkommissionierung auf Grundlage des freigegebenen Herkunftsbelegs erstellen.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerkommissionierungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerkommissionierungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.  
     Stellen Sie sicher, dass das Feld **Nr.** auf dem Inforegister **Allgemein** ausgefüllt ist.
 3. Wählen Sie im Feld **Herkunftsbeleg** die Art des Herkunftsbelegs aus, auf dem die Kommissionierung basiert.  
@@ -63,7 +63,7 @@ Nachdem die Anforderung erstellt wurde, kann der Lagermitarbeiter eine neue Lage
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Mehrere Lagerkommissionierungen mit einem Batchauftrag erstellen
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagereinlagerung / Kommissionierung erstellen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Erstelle Invt. Einlagern/Kommissionieren** ein, und wählen Sie dann den zugehörigen Link.  
 2. Verwenden Sie im Inforegister **Erwartete Lagerbewegung** die Felder **Herkunftsbeleg** und **Herkunftsnr.**, um Filter auf bestimmte Arten von Belegen oder Bereiche von Belegnummern zu setzen. Beispielsweise können Sie Kommissionierungen nur für Verkaufsaufträge erstellen.  
 3. Aktivieren Sie im Inforegister **Optionen** das Kontrollkästchen **Lagerkomm. erst.** aus.
 4. Wählen Sie die Schaltfläche **OK** aus. Die angegebenen Lagerkommissionierungen werden erstellt.
@@ -75,7 +75,7 @@ Nachdem die Anforderung erstellt wurde, kann der Lagermitarbeiter eine neue Lage
 
 ## <a name="to-record-the-inventory-picks"></a>So erfassen Sie die Lagerkommissionierungen
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Lagerkommissionierung** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerkommissionierungen** ein und wählen Sie dann den entsprechenden Link.  
 2. Geben Sie im Feld **Lagerplatzcode** auf den Kommissionierungszeilen wird der Lagerplatz der Kommissionierung entsprechend des Standardlagerplatzes des Artikels vorgeschlagen. Sie können – falls erforderlich – auf dieser Seite den Lagerplatz ändern.  
 3. Führen Sie die Kommissionierung durch und geben Sie die Informationen über die tatsächlich eingelagerte Menge in das Feld **Bewegungsmenge** ein.
 

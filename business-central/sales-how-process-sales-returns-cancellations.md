@@ -1,6 +1,6 @@
 ---
-title: Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen | Microsoft Docs
-description: Beschreibt, wie eine Verkaufsgutschrift erstellt, eine Reklamation, Stornierung oder eine Vergütung für Artikel oder Dienstleistungen verarbeitet wird, für Sie eine Zahlung erhalten haben.
+title: Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
+description: Beschreibt, wie Sie eine Verkaufsgutschrift erstellen, um eine Rückgabe, Stornierung oder Rückerstattung für Artikel oder Dienstleistungen zu verarbeiten, für die Sie eine Zahlung erhalten haben.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5f6daba9251dad73b8924312e35a5cb1474bdb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b668e37e7cbe9348aab84b2892543a73bc658b43
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778697"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436801"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
 Wenn Ihr Debitor Artikel zurückschicken oder Dienstleistungen löschen will, die Sie verkauft haben, können Sie eine Einkaufsgutschrift erstellen und buchen, die die angeforderte Änderung im Hinblick auf die ursprünglichen Einkaufsrechnung angibt. Um korrekte Verkaufsrechnungsinformationen einzuschließen, können Sie die Verkaufsgutschrift direkt aus der gebuchten Verkaufsrechnung erstellen oder neue Verkaufsgutschrift mit der Rechnungsinformationen erstellen.
@@ -51,7 +51,7 @@ Um exakte Einstandspreisstornierung manuell zuzuordnen, müssen Sie das Feld **A
 Weitere Informationen finden Sie unter [Designdetails: Lagerkosten](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen.
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie den entsprechenden Link.  
 2. Wählen Sie das Feld **Gebuchte Verkaufsrechnung**, um die Seite **Korrekturgutschrift erstellen** zu öffnen, und wählen Sie die gebuchte Verkaufsrechnung aus, die Sie stornieren möchten.
 
     Der Verkaufsgutschriftskopf enthält einige Informationen aus der gebuchten Verkaufsrechnung. Sie können alle Felder bearbeiten, zum Beispiel mit neuen Daten, die die Rückholvereinbarung wiedergeben.  
@@ -73,7 +73,7 @@ Das Dialogfeld **Buchungs- und Sendebestätigung** wird geöffnet und zeigt die 
 Die gebuchten Verkaufsdokumente für die entsprechende Gutschrift werden nun storniert und eine Erstattung der Zahlung kann für den Debitor erstellt werden. Die Verkaufsgutschrift wird entfernt und durch einen neuen Beleg in der Liste der gebuchten Verkaufsgutschriften ersetzt.
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen.
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu**, um eine neue leere Verkaufsgutschrift zu öffnen.
 3. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
 4. Wählen Sie die Aktion **Aus Dokument kopieren**.
@@ -84,7 +84,7 @@ Die gebuchten Verkaufsdokumente für die entsprechende Gutschrift werden nun sto
 9. Schließen Sie die Verkaufsgutschrift ab, so wie dies unter [Erstellt eine neue Verkaufsgutschrift, um eine gebuchte Verkaufsrechnung zurückzusetzen](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice) erklärt ist.
 
 ## <a name="to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Weitere Informationen finden Sie unter „Verkaufsreklamation auf einem oder mehreren gebuchten Verkaufsbelegen erstellen“.
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsreklamationen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsreklamationen** ein und wählen Sie den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie im Inforegister **Allgemein** die notwendigen Felder aus.
 4. Im Inforegister **Zeilen** können Sie die Zeilen manuell ausfüllen, oder kopieren Sie Informationen aus anderen Belegen, um die Zeilen automatisch auszufüllen:
@@ -164,7 +164,7 @@ Wenn Sie die Verkaufsreklamation buchen, wird die Wiedereinlagerungsgebühr zu d
 Sie können einem Debitoren eine Gutschrift mit einem Preisnachlass ausstellen, wenn der Debitor leicht beschädigte Artikel erhalten hat oder die Artikel zu spät geliefert wurden.  
 Sie können diesen herabgesetzten Preis als Zu-/Abschlag (Artikel) in einer Gutschrift oder einer Reklamation buchen und ihn der gebuchten Lieferung zuordnen. Nachfolgend wird es für eine Verkaufsreklamation erläutert, aber dieselben Schritte gelten für eine Verkaufsgutschrift.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsgutschriften** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Neu**, um eine neue leere Verkaufsgutschrift zu öffnen.
 3. Füllen Sie den Kopf der Gutschrift mit den entsprechenden Informationen über den Debitor aus, dem Sie den Verkaufsrabatt gewähren möchten.  
 4. Wählen Sie auf dem Inforegister **Zeilen** im Feld **Art** die Option **Zu-/Abschlag (Artikel)**.  
@@ -187,7 +187,7 @@ Um Rücksendungen zusammenzufassen, muss das Kontrollkästchen **Sammelversand**
 
 ### <a name="to-manually-combine-return-receipts"></a>So werden Rücksendungen manuell zusammengefasst:  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsgutschrift** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkauf – Gutschrift** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie im Inforegister **Allgemein** die notwendigen Felder aus.  
 4. Wählen Sie die **Rücklieferzeilen abrufen** Aktion aus.  
@@ -203,7 +203,7 @@ Um Rücksendungen zusammenzufassen, muss das Kontrollkästchen **Sammelversand**
 ### <a name="to-automatically-combine-return-receipts"></a>So werden Rücksendungen automatisch zusammengefasst  
 Sie können Rücksendungen automatisch zusammenfassen und haben zudem die Möglichkeit, Gutschriften automatisch zu buchen, indem Sie die Stapelverarbeitung **Sammelgutschrift für Rekl.** verwenden.  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Sammelgutschrift für Rekl.** ein, und wählen Sie dann den zugehörigen Link.
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Sammelgutschrift für Rekl.** ein und wählen Sie den zugehörigen Link.
 2. Auf der Seite **Sammelgutschrift für Rekl.** füllen Sie die Felder aus, um die relevanten Rücksendungen auszuwählen.
 3. Wählen Sie das Feld **Gutschriften buchen** aus. Wenn nicht, müssen Sie die ausgefüllten Einkaufsgutschriften manuell buchen.
 4.  Wählen Sie die Schaltfläche **OK** aus.  
@@ -212,7 +212,7 @@ Sie können Rücksendungen automatisch zusammenfassen und haben zudem die Mögli
 Wenn Rücksendungen auf diese Weise fakturiert werden, bleiben die Rücksendungsaufträge, von denen ausgehend die Rücksendungen gebucht werden, weiterhin bestehen, auch wenn sie vollständig geliefert und fakturiert wurden.  
 
 Wenn Rücksendungen in einer Gutschrift zusammengefasst und gebucht werden, wird für die gutgeschriebenen Zeilen eine gebuchte Verkaufsgutschrift erstellt. Das Feld **Menge fakturiert** auf der entstehenden Verkaufsreklamation wird ausgehend von der fakturierten Menge aktualisiert.   
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Erledigte Verkaufsreklamationen löschen** ein und wählen Sie dann den entsprechenden Link aus.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Erledigte Verkaufsaufträge löschen** ein und wählen Sie dann den Link.  
 2.  Wählen Sie im Feld **Kontonummer** Filterfeld an, welche Verkaufsaufträge zu löschen sind.  
 3.  Wählen Sie die Schaltfläche **OK** aus.  
 

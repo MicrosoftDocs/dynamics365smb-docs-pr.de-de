@@ -1,6 +1,6 @@
 ---
-title: 'Gewusst wie: Einrichten eine Belegaustauschdienstes | Microsoft Docs'
-description: Sie verwenden einen externen Anbieter zum Austausch elektronischer Belege mit Ihren Handelspartnern.
+title: So legen Sie einen Document Exchange Service fest
+description: Sie verwenden einen externen Dienstleister, um elektronische Belege mit Ihren Handelspartnern auszutauschen, indem Sie „Doc Exch. Service Einrichtung“.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a89cf3988e7576070a58a798e0f88693e598ef92
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 357c48c6b7ed8e2d44316805bba04ff9236f0e9b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787282"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436298"
 ---
 # <a name="set-up-a-document-exchange-service"></a>So richten Sie einen Belegaustauschdienst ein
 Sie verwenden einen externen Anbieter zum Austausch elektronischer Belege mit Ihren Handelspartnern. Weitere Informationen finden Sie unter [Daten elektronisch austauschen](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>So richten Sie einen Belegaustauschdienst ein  
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), und geben Sie **Doc. Exch. Service-Einrichtung**, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Doc. Exch. Service Einrichtung** ein, und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  

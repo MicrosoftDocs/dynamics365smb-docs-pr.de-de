@@ -1,6 +1,6 @@
 ---
-title: Verarbeiten von Verkaufschancen in Verkaufszyklen | Microsoft Docs
-description: Sie können Verkaufschancen anzeigen, schließen oder löschen, und Sie können auch Angebote und Aufträge für Verkaufschancen einrichten und eine Verkaufschance über die einzelnen Phasen des Verkaufsprozesses verschieben.
+title: Verarbeiten von Verkaufschancen in Verkaufsprozessen
+description: Dieses Thema beschreibt die verschiedenen Möglichkeiten, wie Sie Verkaufschancen in Verkaufszyklen verarbeiten und eine Verkaufschance durch die Phasen eines Verkaufszyklus bewegen können.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: d67e1d1eda6cf3ae80ebad185a0db3fadd3eec1b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017249"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437602"
 ---
 # <a name="process-sales-opportunities"></a>Verarbeiten von Verkaufschancen
 Nachdem Sie eine Verkaufschance erstellen haben, gibt es einige Funktionen für die Verwaltung der Verkaufschance und deren Abschluss.
@@ -27,9 +27,9 @@ Vorhandene Verkaufsverkaufschancen sind auf der Seite **Verkaufschancenübersich
 
 | Verkaufschancen anzeigen für | Dann |
 | --- | --- |
-| Alle Verkäufer und Kontakte |Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufschancenübersicht** ein, und wählen Sie dann den entsprechenden Link aus. |
-| Ein bestimmter Verkäufer |Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkäufer** ein und wählen Sie dann den entsprechenden Link. Wählen Sie den Verkäufer, wählen sie die Aktion **Verkaufschancen** und dann die Aktion **Übersicht**. |
-| Ein bestimmter Kontakt |Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link. Wählen Sie den Kontakt aus der Liste, und wählen sie die Aktion **Verkaufschancen**. |
+| Alle Verkäufer und Kontakte |Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufschancenübersicht** ein und wählen Sie dann den zugehörigen Link. |
+| Ein bestimmter Verkäufer |Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkäufer** ein und wählen Sie dann den zugehörigen Link. Wählen Sie den Verkäufer, wählen sie die Aktion **Verkaufschancen** und dann die Aktion **Übersicht**. |
+| Ein bestimmter Kontakt |Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kontakte** ein, und wählen Sie dann den zugehörigen Link. Wählen Sie den Kontakt aus der Liste, und wählen sie die Aktion **Verkaufschancen**. |
 
 Jede dieser Aufgaben öffnet die Seite **Verkaufschancenübersicht**.
 
@@ -66,7 +66,7 @@ Um abgeschlossene Verkaufschancen aus der Seite **Verkaufschancenübersicht** zu
 
 Um abgeschlossene Verkaufschancen über die Stapelverarbeitung **Geschlossene Verkaufschancen löschen...** zu löschen verwenden, gehen Sie folgendermaßen vor:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufschancen löschen** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufschancen löschen** ein und wählen Sie dann den zugehörigen Link.
 2. Im **Verkaufschance**-Abschnitt richten Sie die Filter ein, die die zu löschenden abgeschlossenen Verkaufschancen definieren.
 3. Wählen Sie die Schaltfläche **OK** aus.
 

@@ -1,6 +1,6 @@
 ---
-title: 'Designdetails: Planungsparameter | Microsoft Docs'
-description: Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in Business Central verwenden können.
+title: Designdetails – Planungsparameter
+description: In diesem Thema werden die verschiedenen Planungsparameter beschrieben, die Sie verwenden können, und wie sie sich auf das Planungssystem auswirken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a572b9cee77a6fb89c0d44a48150dbba4742cc6e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215853"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437887"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
 Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden können.  
@@ -82,25 +82,25 @@ Um einen rationalen Beschaffungsplan zu erhalten, kann ein Planer Planungsparame
 
 Die Terminierung für die Neuplanungsperiode, die Toleranzperiode und die Loskumulierungsperiode basiert auf einem Lieferdatum. Das Zeitrahmen basiert auf dem Planungsstartdatum, wie in der folgenden Abbildung gezeigt.  
 
-![Zeitrahmenelemente](media/supply_planning_5_time_bucket_elements.png "Zeitbereich-Elemente")  
+![Zeitrahmen-Elemente.](media/supply_planning_5_time_bucket_elements.png "Zeitbereich-Elemente")  
 
 In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (aufwärts) und Bedarf dar (abwärts). Rote, grüne und orange Pfeile sind Planungsvorschläge.  
 
 **Beispiel 1**: Das geänderte Datum liegt außerhalb der Neuplanungsperiode, wodurch der bestehende Vorrat storniert wird. Ein neuer Vorrat wird vorgeschlagen, um den Bedarf in der Loskumulierungsperiode zu decken.  
 
-![Neuplanungsperiode und Losakkumulationsperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Neuplanungsperiode und Losakkumulationsperiode")  
+![Neuplanungsperiode und Loskumulierungsperiode.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Neuplanungsperiode und Losakkumulationsperiode")  
 
 **Beispiel 2**: Das geänderte Datum liegt innerhalb der Neuplanungsperiode, wodurch der bestehende Vorrat neu geplant wird. Ein neuer Vorrat wird vorgeschlagen, um den Bedarf außerhalb der Loskumulierungsperiode zu decken.  
 
-![Neuplanungsperiode, Losakkumulationsperiode und Neuplanung](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Neuplanungsperiode, Losakkumulationsperiode und Umplanung")  
+![Neuplanungsperiode, Loskumulierungsperiode und Neuplanung.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Neuplanungsperiode, Losakkumulationsperiode und Umplanung")  
 
 **Beispiel 3**: Es gibt einen Bedarf in der Toleranzperiode, und die Vorratsmenge in der Loskumulierungsperiode entspricht der Vorratsmenge. Der nächste Bedarf wird aufgedeckt, und ein neuer Vorrat wird vorgeschlagen.  
 
-![Toleranzperiode und Lotakkumulationsperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Toleranzperiode und Losakkumulationsperiode")  
+![Dämpfungsperiode und Loskumulierungsperiode.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Toleranzperiode und Losakkumulationsperiode")  
 
 **Beispiel 4**: Es gibt einen Bedarf in der Toleranzperiode, und der Vorrat bleibt auf dem selben Datum. Die derzeitige Vorratsmenge reicht jedoch nicht aus, um den Bedarf in der Loskumulierungsperiode zu decken; daher wird eine Mengenänderungsaktion für den vorhandenen Beschaffungsauftrag empfohlen.  
 
-![Toleranzperiode, Losakkumulationsperiode und Änderungsmenge](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Toleranzperiode , Losakkumulationsperiode und Änderungsmenge")  
+![Dämpfungsperiode, Loskumulierungsperiode und Änderungsmenge.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Toleranzperiode , Losakkumulationsperiode und Änderungsmenge")  
 
 **Vorgabewerte**: Der Vorgabewert des **Zeitrahmen**-Feldes und der drei Nachbestellungsperiodenfelder ist leer. Für alle Felder mit Ausnahme des Felds **Toleranzperiode** bedeutet dies 0D (Null Tage). Wenn das Feld **Toleranzperiode** leer ist, wird der Wert im Feld **Standardtoleranzperiode** auf der Seite **Produktion Einrichtung** verwendet.  
 

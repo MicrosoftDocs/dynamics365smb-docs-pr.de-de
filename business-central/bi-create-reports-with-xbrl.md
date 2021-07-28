@@ -1,6 +1,6 @@
 ---
-title: 'So geht es: Aufträge mit XBRL erstellen | Microsoft Docs'
-description: XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben.
+title: So erstellen Sie Berichte mit XBRL
+description: XBRL ist eine XML-basierte Sprache zur Kennzeichnung von Finanzdaten, die es Unternehmen ermöglicht, ihre Daten effizient und genau zu verarbeiten und weiterzugeben.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9c806874d1bfea91224f0c458efea8a1da2d87f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f204c769a7a1fc8ddf3c6fd97fe485be8940dc43
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776841"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437126"
 ---
 # <a name="create-reports-with-xbrl"></a>Berichte mit XBRL erstellen
 XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben. Die XBRL-Initiative ermöglicht die Erstellung globaler Finanzberichte durch verschiedene ERP-Softwareunternehmen und internationale Buchhaltungsorganisationen. Das Ziel der Initiative ist es, einen Standard für die einheitlichen Berichterstellung der Finanzdaten für Banken, Investoren und Regierungsbehörden bereitzustellen. Solche Geschäftsberichte können Folgendes umfassen:  
@@ -71,7 +71,7 @@ Nach dem Importieren oder der Aktualisierung der Taxonomie müssen die Zeilen de
 
 Sie richten die XBRL-Zeilen ein, indem Sie die Daten in der Taxonomie Ihren Daten in der Finanzbuchhaltung zuordnen.  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie Wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **XBRL-Taxonomien** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **XBRL-Taxonomies** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Auf der Seite **XBRL-Taxonomies** wählen Sie eine Taxonomie in der Liste aus.  
 3.  Wählen Sie die Aktion **Zeilen** aus.  
 4.  Wählen Sie eine Zeile und füllen Sie die Felder aus.   
@@ -91,7 +91,7 @@ Sie richten die XBRL-Zeilen ein, indem Sie die Daten in der Taxonomie Ihren Date
  ## <a name="to-import-an-xbrl-taxonomy"></a>Importieren von XBRL-Taxonomien  
 Der erste Schritt, um mit der XBRL-Funktionalität arbeiten zu können, ist, die Taxonomie in Ihre Datenbank zu importieren. Eine Taxonomie besteht aus einem oder mehreren Schema/ta und einigen Linkbases. Wenn Sie den Import des/der Schemas/Schemata und Linkbases durchgeführt haben und die Linkbases dem Schema zugewiesen haben, können Sie die Zeilen einrichten und die Sachkonten des Kontenplans den entsprechenden Taxonomiezeilen zuordnen.  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **XBRL-Taxonomien** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **XBRL-Taxonomies** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Erstellen Sie auf der Seite **XBRL Taxonomie** eine neue Zeile, und geben Sie Name und Beschreibung der Taxonomie ein.  
 3.  Klicken Sie auf **Schemas** und fügen Sie die Beschreibung für das Schema ein.  
 4.  Um das Schema zu importieren, wählen Sie auf der Seite **XBRL-Schemata** auf der Registerkarte **Importieren** und wählen Sie dann einen Ordner und eine XSD-Datei aus. Wählen Sie die Schaltfläche **Öffnen** aus.  
@@ -105,7 +105,7 @@ Der erste Schritt, um mit der XBRL-Funktionalität arbeiten zu können, ist, die
 ## <a name="to-update-an-xbrl-taxonomy"></a>Um eine XBRL-Taxonomie zu aktualisieren  
 Wenn sich eine Taxonomie ändert, müssen Sie die aktuelle Taxonomie dementsprechend ändern. Der Grund für die Aktualisierung kann ein verändertes Schema, eine veränderte Linkbase oder eine neue Linkbase sein. Nach Aktualisierung der Taxonomie müssen Sie nur die Zeilen an die geänderten oder neuen Zeilen anpassen.  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **XBRL-Taxonomien** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **XBRL-Taxonomies** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie auf der Seite **XBRL-Taxonomien** die Aktion **Schemas** aus.  
 3.  Wählen Sie zum Aktualisieren des Schemas das zu aktualisierende Schema aus, und klicken Sie auf **Importieren**.  
 4.  Um eine neue Linkbase zu aktualisieren oder hinzuzufügen, wählen Sie **Linkbases** aus.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8ed7c53d4352dcebc1475f4cafdd6a13db5385bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e64624006c8760037acaab48ab351dad9636bfdb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783434"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437552"
 ---
 # <a name="setting-up-relationship-management"></a>Marketing & Vertrieb einrichten
 
@@ -23,7 +23,7 @@ Bevor mit Ihren Kontakten und Marketinginteressen arbeiten, gibt es einige Entsc
 
 Die Verwaltung von Kontakten und die Verfolgung einer Strategie zum Identifizieren, Gewinnen und Binden von Debitoren tragen zu einer Optimierung des Unternehmens sowie zu einer Steigerung der Debitorenzufriedenheit bei. Ein gutes Kontaktverwaltungssystem ermöglicht zudem das Knüpfen und Pflegen von Kundenbeziehungen. Die Kommunikation ist bei einer solchen Beziehung besonders wichtig. So ist denn auch die Möglichkeit, die Kommunikation exakt auf die jeweiligen Anforderungen von Interessenten, bestehenden Debitoren, Kreditoren und Geschäftspartnern zuschneiden zu können, für den Erfolg eines Unternehmens unverzichtbar. Einer der ersten Schritte besteht darin, eine Strategie auszuarbeiten und zu definieren, wie Kontaktinformationen im Unternehmen verwendet werden sollen. Da diese Informationen innerhalb des Unternehmens einer Vielzahl von Gruppen zur Verfügung stehen, empfiehlt sich die Verwendung eines durchdachten Systems, um eine höhere Produktivität der einzelnen Beteiligten zu erzielen.
 
-Sie richten die Marketing- und Kontaktverwaltung über die Seite **Marketingeinrichtung** ein. Um die Seite **Marketing-Einrichtung** zu öffnen, wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Marketingeinrichtung** ein, und wählen Sie dann den zugehörigen Link aus.
+Sie richten die Marketing- und Kontaktverwaltung über die Seite **Marketingeinrichtung** ein. Um die Seite **Marketing Einrichtung** zu öffnen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Marketing Einrichtung** ein, und wählen Sie dann den zugehörigen Link.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatisches Kopieren bestimmter Informationen aus den Kontaktunternehmen zu den Kontaktpersonen
 Einige Informationen über die Kontaktunternehmen stimmen mit denen über die Kontaktpersonen bei diesen Unternehmen überein, wie z. B. die Adresse. Im **Übernahme**-Abschnitt der Seite **Marketingeinrichtung** können Sie die Anwendung so einrichten, das bestimmte Felder automatisch von der Kontaktunternehmenskarte in die Kontaktpersonenkarte kopieren werden, wenn Sie eine Kontaktperson für ein Kontaktunternehmen erstellen. Beispielsweise können Sie auswählen, dass Verkäufercode, Adressendaten (Adresse, Adresse 2, Ort, PLZ und Bundesgebiet), Kommunikationsdetails (Faxnummer, Telex und Telefonnummer) kopiert werden.

@@ -1,6 +1,6 @@
 ---
 title: 'Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne'
-description: Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in Business Central mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten.
+description: Diese exemplarische Vorgehensweise gibt einen detaillierten Überblick über alle Aufgaben, die bei der Durchführung einer Verkaufskampagne in Business Central anfallen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 653638cd056313c6f4bdb830f0b0ec32fa5e8cbf
-ms.sourcegitcommit: cce6bacca46d489423a9538d410d2d9371de0ddf
+ms.openlocfilehash: 63e2c298c7830fb993c99587a0b7475d1ece7223
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102433"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437837"
 ---
-# <a name="walkthrough-conducting-a-sales-campaign"></a>Exemplarische Vorgehensweise: Durchführen einer Verkaufskampagne
+# <a name="walkthrough-conducting-a-sales-campaign"></a>Exemplarische Vorgehensweise Durchführen einer Verkaufskampagne
 
 Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger Schritt beim Einrichten einer Kampagne ist die Auswahl der Zielgruppe. Zu diesem Zweck erstellen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] mithilfe von Filtern ein Segment bzw. eine Gruppe von Kontakten.  
 
@@ -69,7 +69,7 @@ Eine Kampagne ist eine Aktivität, die mehrere Kontakte umfasst. Ein wichtiger S
 
 ### <a name="to-set-up-a-campaign"></a>So richten Sie eine Kampagne ein  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Kampagnen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kampagnen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die **Neu** Aktion aus, um eine neue Kampagne zu erstellen. Klicken Sie auf die Kampagnenkarte, drücken Sie die **Eingabetaste**, um eine Kampagnennummer automatisch einfügen zu lassen.  
 3. Geben Sie im Feld **Beschreibung** eine Beschreibung für die Kampagne ein, z. B. **Office Futurus-Messe**.  
 4. Wählen Sie das Feld **Statuscode** und den Statuscode „1-PLAN“ aus. 
@@ -161,11 +161,11 @@ Der Marketingmanager entscheidet, dass die reduzierte Liste als endgültige Kont
 
 Die Dateianhänge werden gesendet. Wenn der Vorgang abgeschlossen ist, wählen Sie die Schaltfläche **OK** für die Meldung aus, die angibt, dass das Segment protokolliert wurde.  
 
- Die Briefe werden automatisch gedruckt, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in die Liste der protokollierten Segmente verschoben. Um diese Liste anzuzeigen, wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Protokollierte Segmente** ein, und wählen Sie dann den entsprechenden Link aus.  
+ Die Briefe werden automatisch gedruckt, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in die Liste der protokollierten Segmente verschoben. Um diese Liste zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Protokollierte Segmente** ein und wählen Sie dann den zugehörigen Link.  
 
 Nachdem das Segment protokolliert ist, wird jeder Brief, der versendet wurde, als Aktivität gespeichert, die Sie im Protokoll einsehen können.  
 
-Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Interaktionsprotokolleinträge** ein, und wählen Sie dann den entsprechenden Link aus. Es gibt jeweils einen Posten für jeden gesendeten Brief.  
+Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Interaktionsprotokollposten** ein und wählen Sie dann den zugehörigen Link. Es gibt jeweils einen Posten für jeden gesendeten Brief.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>So senden Sie eine E-Mail-Nachricht an einen Kontakt  
 
@@ -178,7 +178,7 @@ Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter
 7. Wählen Sie das Kontrollkästchen **Anschluss-Segment erstellen**.  
 8. Wählen Sie die Schaltfläche **OK** aus.  
 
- Die Briefe werden automatisch per E-Mail gesendet, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in der Liste der protokollierten Segmente gespeichert. Um diese Liste anzuzeigen, wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Protokollierte Segmente** ein, und wählen Sie dann den entsprechenden Link aus.  
+ Die Briefe werden automatisch per E-Mail gesendet, und das Segment wird protokolliert. Da das Segment protokolliert wurde, ist es nicht mehr in der Liste der Segmente vorhanden, sondern wurde in der Liste der protokollierten Segmente gespeichert. Um diese Liste zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Protokollierte Segmente** ein und wählen Sie dann den zugehörigen Link.  
 
 ## <a name="registering-campaign-responses"></a>Erfassen von Kampagnenreaktionen
 

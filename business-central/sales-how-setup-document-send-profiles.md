@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b54decd14cfa1003747ef2a56244ed3865d1ccd2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0b91a1c0566b6fb4736093ca9617a5a1566bf2bf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778547"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436676"
 ---
 # <a name="set-up-document-sending-profiles"></a>Belegsendeprofile einrichten
 Sie können jeden Debitor mit einer bevorzugten Methode der Übermittlung von Verkaufsbelegen einrichten, sodass Sie nicht jedes Mal eine Sendeoptionen auswählen müssen, wenn Sie die Schaltfläche **Buchen und senden** auswählen.
@@ -30,12 +30,12 @@ Wenn Sie die Schaltfläche **Buchen und senden** für einen Verkaufsbeleg auswä
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Einrichten von Belegsendeprofilen
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Belegsendeprofil** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Belegsendeprofile** ein und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Dokumentsendeprofile** wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Sendeprofil für eine Debitorenkarte festlegen
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie die Karte des Debitors, für den ein Sendeprofil eingerichtet werden soll.
 3. Wählen Sie im Inforegister **Belegsendeprofil** ein Profil aus, das sie eingerichtet haben wie im vorigen Verfahren beschrieben.
 

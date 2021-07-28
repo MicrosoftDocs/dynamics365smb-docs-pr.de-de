@@ -1,6 +1,6 @@
 ---
-title: Analysieren Sie Daten nach Dimensionen| Microsoft Docs
-description: Beschreibt, wie verschiedene Geschäftsdaten nach Dimensionen analysiert werden.
+title: Analysieren von Daten nach Dimensionen
+description: Dieses Thema beschreibt, wie Sie verschiedene Geschäftsdaten nach Dimensionen analysieren können. Dimensionen geben Ihnen einen besseren Einblick in Ihr Unternehmen, sodass Sie Informationen auswerten können.
 services: project-madeira
 documentationcenter: ''
 author: edupont
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: ea949363506e9bc0d9bb3a1a4d53937501e8a5bb
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 9637aabd44f0714983a5d0ce129bf5bc9f1eaee4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947388"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437076"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysieren von Daten nach Dimensionen
 Bei den Dimensionen der Finanzanalyse handelt es sich um Daten, die Sie einem Posten als eine Art Markierung hinzufügen können. Diese Daten dienen zum Gruppieren von Posten mit ähnlichen Merkmalen – beispielsweise Debitoren, Regionen, Produkte oder Verkäufer – sowie zum einfachen Abrufen dieser Gruppen zur Analyse. Dimensionen können für Posten in Buch.-Blättern, Belegen und Budgets verwendet werden. Der Begriff "Dimension" beschreibt, wie eine Analyse ausgeführt wird. Ein Beispiel für eine zweidimensionale Analyse sind Verkäufe pro Bereich. Durch die Verwendung zusätzlicher Dimensionen bei der Postenerstellung lassen sich komplexere Analysen ausführen, beispielsweise Verkäufe pro Verkaufskampagne pro Debitorengruppe pro Bereich. Weitere Informationen finden Sie unter [Arbeiten mit Dimensionen](finance-dimensions.md)
@@ -33,7 +33,7 @@ Die dimensionsgestützte Analyse von Daten ermöglicht einen tieferen Einblick i
 ## <a name="to-set-up-an-analysis-view"></a>So richten Sie eine Analyseansicht ein  
 Eine Analyse nach Dimensionen zeigt eine ausgewählte Kombination von Dimensionen an. Sie können jede Analyseansicht, die Sie eingerichtet haben, speichern und wieder aufrufen. Die Informationen zum Einrichten einer Analyse werden auf einer **Analyseansichtskarte** gespeichert, um künftige Analysen zu vereinfachen.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Analyseübersichten** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Analyseansichten** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie auf der Seite **Analyseansichtsliste** die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Um den vier Dimensionscodes im Inforegister **Dimensionen** weitere Dimensionscodes hinzuzufügen. Füllen Sie die **Filter** aus, und klicken Sie anschließend auf **OK**  
@@ -42,7 +42,7 @@ Eine Analyse nach Dimensionen zeigt eine ausgewählte Kombination von Dimensione
 ## <a name="to-analyze-by-dimensions"></a>Analysieren von Daten nach Dimensionen
 In der Matrix **Verkaufsanalyse nach Dim.** können Sie die Beträge in der Finanzbuchhaltung unter Verwendung der bereits eingerichteten Analyseansichten anzeigen. Füllen Sie die Seite **Analysen nach Dimensionen** aus, um festzulegen, was in der Matrix angezeigt wird. Wählen Sie dann **Matrix anzeigen** zum Anzeigen der Matrix.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Analyseübersichten** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Analyseansichten** ein und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die entsprechende Analyseansicht aus, und klicken Sie auf **Analyse nach Dimension bearbeiten**.
 3. auf der Seite  **Verkaufsanalyse nach Dimension** füllen Sie die Felder aus, um zu definieren, welche Daten wie angezeigt werden.
 4. Wählen Sie die **Matrix anzeigen** Aktion aus, um die für die jeweilige Matrixseite definierte Analyseansicht zu öffnen.
@@ -65,7 +65,7 @@ Die Beträge, die auf der Seite **Analyse nach Dimensionen** angezeigt werden, g
 
 Der folgende Ablauf bezieht sich auf die Aktualisierung einer Analyseansicht  auf der Seite **Analyse nach Dimensionen** . Die Schritte sind **Analyseansichtskartenansicht** und **Artikelanalyseansichtenübersicht** ähnlich.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Analyseübersichten** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Analyseansichten** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die entsprechende Analyseansicht aus, und klicken Sie auf **Analyse nach Dimension bearbeiten**.
 2. Auf der Seite **Analyse nach Dimensionen** wählen Sie das Feld **Analyseansichtscode**, um die Optionen anzuzeigen aus.  
 3. Wählen Sie die Zeile mit der relevanten Analyseansicht aus.  

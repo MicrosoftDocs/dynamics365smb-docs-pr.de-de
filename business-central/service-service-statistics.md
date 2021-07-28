@@ -1,6 +1,6 @@
 ---
-title: Servicestatistik | Microsoft Docs
-description: Mit der Funktion "Servicestatistik" können Sie sich schnell einen Überblick über den Inhalt eines gesamten Servicebelegs (Angebot, Rechnung oder Gutschrift) verschaffen, d. h. Sie können die Details zu den spezifischen Servicezeilen und Artikeln im Beleg anzeigen.
+title: Service-Statistik
+description: Verschaffen Sie sich einen schnellen Überblick über die Inhalte und Statistiken von Service-Belegen wie Bestellungen, Angebote, Rechnungen, Gutschriften, Service-Zeilen und mehr.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9b3c9199e018b9bb4607cbb5919195aa526aa56
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776741"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438257"
 ---
 # <a name="viewing-service-statistics"></a>So zeigen Sie die Servicestatistik an
 Sie können Statistiken nutzen, um Belege zu analysieren und zu bestimmen, wie Sie Ihre Dienstvorgänge verwalten sollen. Sie können Serviceverträge, Artikel, Bestellungen, Rechnungen, Gutschriften und Anfragen analysieren, indem Sie die **Statistik** Aktion auswählen. Für Serviceartikel und Verträge können Sie **Serviceartikel-Trendscape** oder **Servicevertrag-Trendscape** verwenden, um eine Zusammenfassung der Serviceposten für einen bestimmten Serviceartikel angezeigt.   
@@ -84,7 +84,7 @@ Die Anwendung erstellt automatisch einen Gewinn- oder Verlustposten, wenn Vertra
 |**Vertrag Gew./Verl. (Ursachen)**|Um den Vertragsgewinn/-verlust nach Ursachencode anzuzeigen.|  
 |**Vertrag Gew./Verl. (Zust.Ein.)**|Um den Vertragsgewinn/-verlust nach Zuständigkeitseinheit anzuzeigen.|  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie den Namen der Seite ein, die angezeigt werden soll, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie den Namen der Seite ein, die angezeigt werden soll, und wählen Sie dann den entsprechenden Link.  
 2. Füllen Sie die Filterkriterien aus, die Sie anwenden möchten. Wählen Sie beispielsweise auf der Seite **Vertrag Gew./Verl. (Ursachen)** einen Wert für **Ursachencodefilter** aus.  
 3. Wählen Sie die Aktion **Matrix anzeigen** aus.
 

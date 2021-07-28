@@ -1,5 +1,5 @@
 ---
-title: 'Vorgehensweise: Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Kontenschemata | Microsoft Docs'
+title: KPI-Webdienste für Kontenschemata festlegen und veröffentlichen
 description: Dieses Thema beschreibt, wie die KPI-Daten Kontenschema basierend auf bestimmte Kontenschemata angezeigt werden.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 72687930e20f00c8a6d244cac0e8f682de2d34a4
-ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
+ms.openlocfilehash: b224ea5e9bb2d0f53ce41c2dac66a1686dd5a90b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961527"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437001"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Kontenschemata
 Auf der Seite **Kontopaln KPI Web-Service einrichten** richten Sie ein, wie die Kontenschema-KPI-Daten angezeigt werden, und auf welchen spezifischen Kontenschemata die KPIs basieren. Wenn Sie die Schaltfläche **Webdienst veröffentlichen** wählen, werden die angegebenen Kontenschema-KPI-Daten der Liste der veröffentlichten Webdienste auf der Seite **Web-Dienste** hinzugefügt.  
@@ -24,7 +24,7 @@ Auf der Seite **Kontopaln KPI Web-Service einrichten** richten Sie ein, wie die 
 > Wenn Sie diesen Webdienst verwenden, werden Abschlussdaten nicht in Ihren Datensatz aufgenommen. So können Sie Filter in Power BI verwenden, um verschiedene Zeiträume zu analysieren.
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>So richten Sie einen KPI-Webdienst ein und veröffentlichen ihn, der auf Kontenschemata basiert  
-1.  Wählen Sie die Symbol ![Glühbirne , das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kontenschema-KPI-Webdienst** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Setup von Kontenschema-KPI-Webdiensten** ein und wählen Sie dann den zugehörigen Link.  
 2.  Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Beschreibung|  

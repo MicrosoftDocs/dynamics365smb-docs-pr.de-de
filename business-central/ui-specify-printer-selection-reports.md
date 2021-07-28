@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Druckern
-description: Erfahren Sie, wie Sie Drucker einrichten, die Sie für Berichte und Dokumente verwenden können.
+description: Informieren Sie sich über die Einrichtung von Druckern, die Sie für Berichte und Belege verwenden können, und über die verschiedenen Druckfunktionen, die Ihnen in Business Central zur Verfügung stehen.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 05/17/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063452"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437216"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
@@ -25,8 +25,8 @@ Um Ihre Druckanforderungen zu erfüllen, bietet [!INCLUDE[prod_short](includes/p
 
 |Funktion|Beschreibung|Webclient| Mobile App|App für Teams|
 |-------|-----------|----------|-----------|--------------|
-|Universal Print|Universal Print ist eine Druckerverwaltungslösung, die als Cloud-Service von Microsoft erhältlich ist. Mit dieser Funktion können Sie Ihre Drucker in Universal Print einrichten und dann für die Verwendung in [!INCLUDE[prod_short](includes/prod_short.md)] registrieren. Diese Funktion erfordert ein Universal Print-Abonnement und die Erweiterung **Universal Print-Integration**|![Funktioniert online](media/check.png)|![Funktioniert online](media/check.png)|![Funktioniert online](media/check.png)|
-|E-Mail-Druck|Mit dieser Funktion können Sie E-Mail-fähige Drucker einrichten. [!INCLUDE[prod_short](includes/prod_short.md)] sendet anschließend Druckaufträge unter Verwendung der E-Mail-Adresse des Druckers an einen Drucker. Für diese Funktion sind E-Mail-fähige Drucker und die Erweiterung **E-Mail an Drucker senden** erforderlich.|![Funktioniert online](media/check.png)|![Funktioniert online](media/check.png)|![Funktioniert online](media/check.png)|
+|Universal Print|Universal Print ist eine Druckerverwaltungslösung, die als Cloud-Service von Microsoft erhältlich ist. Mit dieser Funktion können Sie Ihre Drucker in Universal Print einrichten und dann für die Verwendung in [!INCLUDE[prod_short](includes/prod_short.md)] registrieren. Diese Funktion erfordert ein Universal Print-Abonnement und die Erweiterung **Universal Print-Integration**|![Funktioniert online.](media/check.png)|![Funktioniert online.](media/check.png)|![Funktioniert online](media/check.png)|
+|E-Mail-Druck|Mit dieser Funktion können Sie E-Mail-fähige Drucker einrichten. [!INCLUDE[prod_short](includes/prod_short.md)] sendet anschließend Druckaufträge unter Verwendung der E-Mail-Adresse des Druckers an einen Drucker. Für diese Funktion sind E-Mail-fähige Drucker und die Erweiterung **E-Mail an Drucker senden** erforderlich.|![Funktioniert online.](media/check.png)|![Funktioniert online](media/check.png)|![Funktioniert online](media/check.png)|
 |Browserdruck|Druckaufträge werden von der Druckfunktion des Browsers des Benutzers verarbeitet. Wenn ein Cloud-Drucker nicht installiert und eingerichtet ist oder wenn ein installierter Drucker ausfällt, werden beim Drucken standardmäßig die Druckoptionen des Browsers verwendet. Das Feld **Drucker** auf der Berichtsanforderungsseite zeigt *(Vom Browser gehandhabt)* an.|![Funktioniert online](media/check.png)|||
 
 > [!NOTE]
@@ -36,7 +36,7 @@ Um Ihre Druckanforderungen zu erfüllen, bietet [!INCLUDE[prod_short](includes/p
 
 Universal Print ist ein auf Abonnements basierender Microsoft 365-Dienst, der vollständig auf Microsoft Azure ausgeführt wird. Sie erhalten eine zentralisierte Druckerverwaltung über das Universal Print-Portal. [!INCLUDE[prod_short](includes/prod_short.md)] stellt in Universal Print eingerichtete Drucker Clientbenutzern über die Erweiterung **Universal Print-Integration** zur Verfügung.
 
-![Universelles Drucken einrichten](media/Universal-Print-arch.png)
+![Universal Print Einrichtung.](media/Universal-Print-arch.png)
 
 Für die vollständige Einrichtung müssen Sie in Microsoft Azure über das [Azure-Portal](https://portal.azure.com) und in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten.
 
@@ -146,7 +146,7 @@ Wenn Sie Drucker einzeln hinzufügen, können Sie denselben Universal Print-Druc
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
 2. Klicken Sie auf **Universal Print**, und wählen Sie dann eine der folgenden Optionen aus:
 
     - **Alle Universal Print-Drucker hinzufügen**, um alle Drucker hinzuzufügen, die noch nicht hinzugefügt wurden. Sie können diese Option auch dann verwenden, wenn bereits Drucker hinzugefügt wurden. 
@@ -206,7 +206,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 Die Seite **Druckerverwaltung** zeigt Drucker an, die eingerichtet sind. Die Seite gibt Ihnen auch Zugriff auf die Seite **Einstellungen** für jeden Drucker, um eine vorhandene Einrichtung zu bearbeiten oder einen neuen Drucker einzurichten.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Druckerverwaltung** ein, und klicken Sie dann auf den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie **E-Mail-Druck** und dann **Einen E-Mail-Drucker hinzufügen** aus.
 3. Füllen Sie auf der Seite **E-Mail-Drucker-Einstellungen** die Felder wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -230,7 +230,7 @@ Es gibt verschiedene Möglichkeiten, Drucker einzurichten, die standardmäßig f
 
 Auf der Seite **Druckerverwaltung** können Sie einen Drucker als Standarddrucker für alle Druckaufträge einrichten. Sie können den Drucker nur für Sie oder für alle Benutzer als Standard festlegen.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Druckerverwaltung** ein, und klicken Sie dann auf den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link.
 
     > [!TIP]
     > Sie können auch die Seite **Druckerverwaltung** von der Seite **Druckerauswahl** durch Auswahl von **Druckerverwaltung** öffnen.  
@@ -246,7 +246,7 @@ Auf der Seite **Druckerauswahl** können Sie den Drucker angeben, den ein Berich
 > [!IMPORTANT]
 > Für [!INCLUDE[prod_short](includes/prod_short.md)] vor Ort, kann die Seite **Druckerauswahl** nur für Cloud-Drucker verwendet werden, die durch Druckererweiterungen definiert sind, z. B. E-Mail-Druck und Universal Print-Drucker. Sie kann nicht für lokale Drucker verwendet werden.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Druckerverwaltung** ein, und wählen Sie dann den entsprechenden Link aus. Alternativ können Sie auf der Seite **Druckerverwaltung** einen Drucker auswählen und dann die Aktion **Druckerauswahl** wählen.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Druckerauswahlen** ein und wählen Sie dann den zugehörigen Link. Alternativ können Sie auf der Seite **Druckerverwaltung** einen Drucker auswählen und dann die Aktion **Druckerauswahl** wählen.
 2. Wählen Sie die Aktion **Neu**, um eine Druckerauswahl für einen bestimmten Bericht hinzuzufügen.
 3. Füllen Sie die Felder nach Bedarf aus.
 

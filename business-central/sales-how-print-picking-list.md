@@ -1,5 +1,5 @@
 ---
-title: Eine Lager-Kommissionierliste aus einem Verkaufsauftrag drucken
+title: Drucken einer Liste zur Lagerkommissionierung aus einem Verkaufsauftrag
 description: Sie können eine Lager-Kommissionierliste direkt aus einem Verkaufsauftrag, Verkaufsbeleg, Rechnungsbeleg und anderen ausgehenden Verkaufsauftragsbelegen drucken.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4cddce48df3be0a3fadaa74ed751b274ccce7f31
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 50c0a9836a45bac0dfd4a190040c908d28d5617f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115461"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436826"
 ---
 # <a name="print-the-picking-list"></a>Kommissionierliste drucken
 
@@ -27,7 +27,7 @@ Dieser Bericht wird normalerweise in Unternehmen ohne dedizierte Funktionen für
 
 Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind für alle anderen Belege ähnlich, mit denen der Versand von Artikeln eingeleitet werden kann, z. B. ein Umlagerungsauftrag.
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen") aus, geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den entsprechenden Link aus.  
+1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den Verkaufsauftrag, für den Sie Artikel auswählen möchten.  
 3. Wählen Sie die Aktion **Bericht** und dann die Aktion **Kommissionierliste nach Bestellung** aus.  
 4. Wählen Sie die Schaltfläche **Drucken** aus, um die Kommissionierliste zu drucken, oder die Schaltfläche **Vorschau**, um sie auf dem Bildschirm anzuzeigen.

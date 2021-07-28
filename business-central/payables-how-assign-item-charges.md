@@ -1,6 +1,6 @@
 ---
-title: Zuordnen von Artikelzu-/-abschlägen zu Einkäufen oder Verkäufen| Microsoft Docs
-description: Wenn Sie Ihren Lagerartikel Kosten wie Fracht, Versicherung, Umlagerung und Transport hinzufügen möchten, die beim Kauf oder Verkauf entstehen, können Sie die Artikelgebührenfunktion verwenden.
+title: Zuweisen von Artikelzu-/abschlägen zu Verkäufen und Käufen
+description: Weisen Sie Artikelzu-/abschläge zu, wenn Sie für Artikel im Bestand zusätzliche Kosten benötigen, z.B. für Fracht und physische Handhabung, die beim Kauf oder Verkauf von Artikeln anfallen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: dbf96c4f09c82bf409c0e082b6df116f3563402f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ef440a79cec7c59fe6aa7c6cfe34c441817bad5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773780"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436901"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Verwenden von Artikelzuschlägen für zusätzliche Kosten
 Um eine korrekte Bewertung sicherzustellen, müssen Ihre Lagerartikel Kosten wie Fracht, Versicherung, Umlagerung und Transport enthalten, die beim Kauf oder Verkauf entstehen. Die Kosten eines eingekauften Artikels bestehen aus dem Einkaufspreis des Kreditors und allen zusätzlichen Artikelzuschlägen, die einzelnen Wareneingängen oder Rücklieferungen zugewiesen werden können. Die Frachtkosten der verkauften Artikel zu kennen, kann für Ihr Unternehmen genauso wichtig sein wie die Einkaufspreise der eingekauften Artikel zu kennen.
@@ -26,7 +26,7 @@ Zusätzlich zum Aufzeichnen der hinzugefügten Kosten zum Lagerwert, können Sie
 
 - Die Identifizierung der Gesamtkosten eines Artikels, um bessere Entscheidungen bezüglich der Optimierung des Vertriebsnetzes zu treffen.
 - Die Analyse der Zusammensetzung eines Verkaufspreises/Einstandspreises eines Artikels.
-- Die Einberechnung von Einkaufsrabatten in den Einstandspreis und von Verkaufsrabatten in den Verkaufspreis.
+- Lassen Sie Kaufzuschläge in die Kalkulation der Einheit und Verkaufszuschläge in den Einheitspreis einfließen.
 
 Bevor Sie Artikeln Gebühren zuweisen können, müssen Sie Artikelchargennummern für unterschiedliche Artikelarten zuweisen, inklusive Sachkontokosten, die mit Verkäufen, Einkäufen und Lagerregulierungen verknüpft sind. Eine Artikelzuschlagsnummer enthält eine Kombination von Produktbuchungsgruppe, Steuergruppencode, MwSt.-Produktbuchungsgruppe und Artikelzuschlag. Wenn Sie die Nummer des Artikel Zu-/Abschlags in einen Einkaufs- oder Verkaufsbeleg eingeben, ermittelt die Anwendung ein Sachkonto auf der Basis der Einrichtung des Artikel Zu-/Abschlags und der Informationen im jeweiligen Beleg.
 
@@ -45,14 +45,14 @@ In diesem Video wird gezeigt, wie Sie im Rahmen der Lagerkostenberechnung mit zu
 ## <a name="to-set-up-item-charge-numbers"></a>Vorgehensweise: Eine Artikelzu-/-abschlagsnummer einrichten
 Sie können die Artikel Zu-/Abschlagsnummern verwenden, um die verschiedenen Arten von Artikel Zu-/Abschlägen, die in Ihrem Unternehmen verwendet werden, zu verwalten.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikel Zu-/Abschläge** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Artikel Zu-/Abschläge** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie auf der Seite **Artikel-Gebühren** die Aktion **Neu** aus, um eine neue Zeile für eine zu erstellen.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Um einen Artikel Zu-/Abschlag in die Einkaufsrechnung für den Artikel zuordnen
 Wenn Sie den Artikel-Zu-/Abschlag kennen, und den Zeitpunkt Sie eine Einkaufsrechnung für den Artikel betreffen, gehen Sie folgendermaßen vor.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kaufrechnungen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Eine neue Einkaufsrechnung erstellen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 3. Stellen Sie sicher, dass die Einkaufsrechnung eine oder mehrere Zeilen vom Artikeltyp hat.
 4. Geben Sie eine neue Zeile ein, und wählen Sie **Zu-/Abschlag (Artikel)** im Feld **Art**.

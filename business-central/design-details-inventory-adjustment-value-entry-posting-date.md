@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31cfe9390e3f31253d60ba55a95f5507cdcac622
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215103"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436951"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designdetails: Buchungsdatum auf Ausgleichs-Wertposten
 Dieser Artikel setzt Anleitung für Benutzer der Lager-Kostenberechnungsfunktionalität fest in [!INCLUDE[prod_short](includes/prod_short.md)]. Der spezifische Artikel informiert, wie die Stapelverarbeitung **Lagerreg. fakt. Einst.-Preise** kennzeichnet und ein Buchungsdatum auf Wertposten zuweist, die die Stapelverarbeitung erstellt.  
@@ -33,7 +33,7 @@ Die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** weist ein Buchungsdatum
 
  Lassen Sie uns dieses Verfahren in der Praxis überprüfen. Angenommen, wir haben einen Artikelposten zum Verkauf. Der Artikel wurde am 5. September 2013 geliefert und er wurde am darauffolgenden Tag fakturiert.  
 
-![Zustand der Buch.-Blatt-Posten im Szenario](media/helene/TechArticleAdjustcost1.png "Zustand der Posten-Sachkonto-Einträge im Szenario")  
+![Status der Elemente-Sachkonto-Einträge im Szenario.](media/helene/TechArticleAdjustcost1.png "Zustand der Posten-Sachkonto-Einträge im Szenario")  
 
 Unten zeigt der erste Wertposten (379) die Lieferung an und enthält dasselbe Buchungsdatum wie der Posten des übergeordneten Artikels.  
 
@@ -41,7 +41,7 @@ Der zweite Wertposten (381) zeigt die Rechnung an.
 
  Der dritte Wertposten (391) ist eine Anpassung des Wertpostens Rechnungsstellung (381)  
 
- ![Zustand der Werteinträge im Szenario](media/helene/TechArticleAdjustcost2.png "Status der Werteinträge im Szenario")  
+ ![Status der Wertposten im Szenario.](media/helene/TechArticleAdjustcost2.png "Status der Wertposten im Szenario")  
 
  Schritt 1: Der zu erstellende Wertposten wird dem selben Buchungsdatum zugeordnet, wie der angepasste Eintrag, wie in oben durch Wertposten 391 angezeigt.  
 
@@ -53,13 +53,13 @@ Die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** bestimmt, ob das urspr�
 
  Lagerbuchungsperioden:  
 
-![Bestandsperioden im Szenario](media/helene/TechArticleAdjustcost3.png "Inventarisierungszeiträume im Szenario")
+![Inventarisierungsperioden im Szenario.](media/helene/TechArticleAdjustcost3.png "Inventarisierungszeiträume im Szenario")
 
  Erster zugelassener Buchungszeitraum ist der erste Tag der ersten offenen Periode. 1. September 2013.  
 
  Finanzbuchhaltungs-Einrichtung:  
 
-![Finanzbuchhaltung einrichten im Szenario](media/helene/TechArticleAdjustcost4.png "Sachkonteneinrichtung im Szenario")
+![G/L Einrichtung im Szenario.](media/helene/TechArticleAdjustcost4.png "Sachkonteneinrichtung im Szenario")
 
  Erster zugelassener Buchungszeitraum ist das Datum, das im Feld angezeigt wird, ab 10. September 2013.  
 
@@ -69,9 +69,9 @@ Die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** bestimmt, ob das urspr�
 
  Das zugewiesene Buchungsdatum war 6. September, wie in Schritt 1 veranschaulicht. Im zweiten Schritt erkennt die Stapelverarbeitung „Lagerreg. fakt. Einst.-Preise“ jedoch, dass das früheste zulässige Buchungsdatum der 10. September ist, und ordnet somit den 10. September dem unten stehenden Ausgleichs-Wertposten zu.  
 
- ![Zustand der Werteinträge im Szenario 2](media/helene/TechArticleAdjustcost5.png "Zustand der Werteinträge im Szenario 2")
+ ![Status der Wertposten im Szenario 2.](media/helene/TechArticleAdjustcost5.png "Zustand der Wertposten im Szenario 2")
 
- Es haben jetzt das Vorgehen für das Zuweisen von Buchungsdaten für Werteinträge wiederholt, durch die Stapelverarbeitung Lagerreg. fakt. Einst. Preise.  
+ Es haben jetzt das Vorgehen für das Zuweisen von Buchungsdaten für Wertposten wiederholt, durch die Stapelverarbeitung Lagerreg. fakt. Einst. Preise.  
 
  Lassen Sie uns fortfahren, um verschiedene Szenarien zu überprüfen, auf die wir im Support-Team gelegentlich stoßen, und zwar in Bezug auf ein Buchungsdatum in der Stapelverarbeitung Lagerreg und dem Zuordnen der zugehörigen Einrichtung.  
 
@@ -82,15 +82,15 @@ Die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** bestimmt, ob das urspr�
 
  Im vorherigen Abschnitt wird das Vorgehen für das Zuweisen des Buchungdatums beschrieben, die Absicht der Stapelverarbeitung Lagerreg. fakt. Einst. Preise ist es, einen Wertposten mit Buchungsdatum am 10. September zu erstellen.  
 
-![Fehlermeldung zum Buchungsdatum](media/helene/TechArticleAdjustcost6.png "Fehlermeldung zum Buchungsdatum")
+![Fehlermeldung zum Buchungsdatum.](media/helene/TechArticleAdjustcost6.png "Fehlermeldung zum Buchungsdatum")
 
  Wir nehmen die Benutzer Einrichtung nochmals auf:  
 
-![Einstellung der zulässigen Buchungsdaten des Benutzers](media/helene/TechArticleAdjustcost7.png "Einrichtung der erlaubten Buchungsdaten der Benutzer")
+![Erlaubte Buchungsdaten des Benutzers einrichten.](media/helene/TechArticleAdjustcost7.png "Einrichtung der erlaubten Buchungsdaten der Benutzer")
 
  Der Anwender hat in diesem Fall einen Bereich des zugelassenen Buchungszeitraums vom 11. September bis zum 30. September und es wird dadurch nicht erlaubt, den Ausgleichs-Wertposten mit dem Buchungsdatum am 10. September zu buchen.  
 
-![Überblick über die Einrichtung des beteiligten Buchungsdatums](media/helene/TechArticleAdjustcost8.png "Übersicht über die Einstellung des beteiligten Buchungsdatums")
+![Übersicht der beteiligten Einrichtung des Buchungsdatums.](media/helene/TechArticleAdjustcost8.png "Übersicht über die Einstellung des beteiligten Buchungsdatums")
 
  Knowledge Base-Artikel [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) erläutert weitere Szenarien, die mit erwähnter Fehlermeldung verknüpft sind.  
 
@@ -173,9 +173,9 @@ Die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** bestimmt, ob das urspr�
 
  Die folgenden Artikel- und Wertposten wurden gebucht:  
 
-![Überblick über resultierende Artikelposten und Werteinträge 1](media/helene/TechArticleAdjustcost9.png "Übersicht der resultierenden Artikelposten- und Wertbuchungen 1")
+![Übersicht der resultierenden Elemente Sachkonto und Wertposten 1.](media/helene/TechArticleAdjustcost9.png "Übersicht der resultierenden Artikelposten- und Wertposten 1")
 
- ![Überblick über resultierende Artikelposten und Werteinträge 2](media/helene/TechArticleAdjustcost10.png "Übersicht der resultierenden Artikelposten- und Wertbuchungen 2")
+ ![Übersicht über das resultierende Element Sachkonto und die Wertposten 2.](media/helene/TechArticleAdjustcost10.png "Übersicht der resultierenden Artikelposten- und Wertposten 2")
 
  Die Stapelverarbeitung Lagerreg hat eine Änderung der Kosten realisiert und die negative Anpassung vorgenommen.  
 
@@ -290,7 +290,7 @@ Die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** bestimmt, ob das urspr�
 
      Empfang und Rechnung buchen.  
 
-     ![Überblick über resultierende Artikelposten und Werteinträge 3](media/helene/TechArticleAdjustcost11.png "Übersicht der resultierenden Artikelposten- und Wertbuchungen 3")
+     ![Übersicht über das resultierende Element Sachkonto und die Wertposten 3.](media/helene/TechArticleAdjustcost11.png "Übersicht der resultierenden Artikelposten- und Wertposten 3")
 
 6.  Am Arbeitsdatum vom 3. Januar geht eine Einkaufsrechnung ein, die eine zusätzliche Belastung für den in Schritt 2 getätigten Einkauf enthält. Diese Rechnung hat ein Belegdatum vom 30. Dezember und wird daher mit Buchungsdatum am 30. Dezember 2013 gebucht.  
 
@@ -314,11 +314,11 @@ Die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** bestimmt, ob das urspr�
 
      Empfang und Rechnung buchen.  
 
-   ![Überblick über resultierende Artikelposten und Werteinträge 4](media/helene/TechArticleAdjustcost12.png "Übersicht der resultierenden Artikelposten- und Wertbuchungen 4")
+   ![Übersicht über das resultierende Element Sachkonto und die Wertposten 4.](media/helene/TechArticleAdjustcost12.png "Übersicht der resultierenden Artikelposten- und Wertposten 4")
 
  Lager-Bewertungsbericht wird mit 31. Dezember 2013 gedruckt  
 
-![Inhalt des Inventarbewertungsberichts](media/helene/TechArticleAdjustcost13.png "Inhalt des Berichts zur Inventarbewertung")
+![Inhalt des Berichts „Bestandsbewertung“.](media/helene/TechArticleAdjustcost13.png "Inhalt des Berichts zur Inventarbewertung")
 
  **Zusammenfassung des Szenarios:**  
 
@@ -341,7 +341,7 @@ Die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** bestimmt, ob das urspr�
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Verlauf der Lagerkostenbuchung auf den Stapelverarbeitungseintrag  
  Die Stapelverarbeitung "Lagerregulierung buchen" ist mit der Stapelverarbeitung Lagerreg eng verwandt, warum die Historie dieser Stapelverarbeitung auch hier zusammengefasst und freigegeben wird.  
  
-![Ist-Kosten versus erwartete Kosten](media/helene/TechArticleAdjustcost14.png "Tatsächliche Kosten versus erwartete Kosten")
+![Ist-Kosten gegenüber erwarteten Kosten.](media/helene/TechArticleAdjustcost14.png "Tatsächliche Kosten versus erwartete Kosten")
 
 ### <a name="about-the-posting-date"></a>Informationen zum Buchungsdatum
  Es gibt kein Buchungsdatum mehr, das im Anforderungsformular der Stapelverarbeitung Lagerreg angegeben werden muss. Die Sachposten werden mit dem gleichen Buchungsdatum wie der verwandter Wertposten erstellt. Um die Stapelverarbeitung auszuführen, muss der mittlere des zugelassenen Buchungszeitraums das Buchungsdatum des erstellten Sachpostens erlauben. Wenn nicht, muss sich der Standort des zugelassenen Buchungszeitraums durch das Ändern oder Entfernen des festgelegten Datumsfilters Buchungen zugel und aus den Feldern der Finanzbuchhaltungseinrichtung vorübergehend erneut geöffnet werden. Um Abstimmungsprobleme zu vermeiden ist es notwendig, dass das Buchungsdatum des Sachpostens zum Buchungsdatum des Wertpostens entspricht.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11b90a7aa48927d68d4e32845343dddc56ba77c1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786637"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437051"
 ---
 #  <a name="create-analysis-reports"></a>Analyseberichte erstellen
 Verkaufsleiter müssen regelmäßig Umsatz, Bruttogewinn sowie andere Verkaufsleistungsschlüsselindikatoren analysieren. Einkäufer sind eher an der Entwicklung des Einkaufsvolumens, der Leistung des Verkäufers und den Einkaufspreisen interessiert. Demgegenüber benötigen Logistik- und Lagerbestandsmanager Informationen zu Lagerumsatz, eine Analyse der Lagerbestandsumlagerung und Statistiken zum Lagerwert.  
@@ -61,7 +61,7 @@ In einem Analysebericht werden die Analyseparameter als Spalten angezeigt. Sie k
 
 Eine Vorlage enthält eine Gruppe von Zeilen, wobei jede Zeile eine Analysespalte darstellt, die Sie im Analysebericht sehen. Um eine Spalte zu definieren, müssen Sie einer Zeile einen Analysetypcode zuweisen. Dieser Analysetypcode bestimmt den Quelldatentyp in den Artikelposten, auf denen die Analyse basiert. Quelldaten enthalten Kosten, Verkaufsbetrag oder Menge sowie die dazugehörigen Wertposten. Sie können beliebig viele Spaltenvorlagen einrichten und zur Erstellung neuer Analyseberichte verwenden.    
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufsspaltenvorlagen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Vertriebsspaltenvorlagen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die erste leere Linie und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie die Aktion **Spalten** aus.  
 4. Füllen Sie die Felder auf der Seite **Analysespalten** aus, um die Spalten zu bestimmen, die der Analysebericht enthalten soll.  
@@ -78,7 +78,7 @@ In einem Analysebericht werden die Analyseobjekte in den Zeilen angezeigt. Sie k
 
 Eine Vorlage enthält eine Gruppe von Zeilen, die die im Bericht angezeigten Analysezeilen darstellen. Eine Zeile kann für einen oder mehrere Artikel, Debitoren, Kreditoren oder Gruppen stehen. Sie können in einer Zeile auch eine Formel erzeugen, mit der die anderen Zeilen zusammengezählt werden. Sie können beliebig viele Zeilenvorlagen erstellen und diese dann zur Generierung neuer Analyseberichte verwenden.    
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufslinienvorlagen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Vertriebszeilen-Vorlagen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die erste leere Linie und füllen Sie die notwendigen Felder aus.
 3. Wählen Sie die Aktion **Zeilen** aus.  
 4. Erstellen Sie auf der Seite **Analysezeilen** Zeilen für die Artikel, Debitoren, Kreditioren oder Verkäufer, für die Sie Zahlen im Analysebericht anzeigen möchten. Sie müssen das Feld **Art**, das Feld **Bereich** und das Feld **Beschreibung** ausfüllen.  
@@ -91,7 +91,7 @@ Das folgende Verfahren basiert auf Analyseberichten für Aufträge. Die Schritte
 
 Verwenden Sie Analyseberichte, um die Entwicklung der Verkäufe anhand der ausgewählten Schlüsselindikatoren für die Verkaufsperformance zu analysieren, beispielsweise den Verkaufsumsatz in Beträgen und Mengen, die Beitragsspanne oder den Status der aktuellen Verkäufe gegenüber dem Budget. Sie können den Bericht auch verwenden, um durchschnittliche VK-Preise zu analysieren und die Verkaufsperformance der Verkaufsabteilung zu bewerten.  
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Verkaufsanalyseberichte** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsanalyseberichte** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Analyseberichtsverkauf** die Aktion **Neu** aus.
 3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Wählen Sie die **Analysebericht bearbeiten** Aktion aus.

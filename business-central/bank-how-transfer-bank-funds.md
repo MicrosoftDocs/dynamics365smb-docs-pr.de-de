@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: da9c8711751040cecb267a3b2209bad2534b618b
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: e9a285db48593828fbb01b281459df6c1e3111d0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985387"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437151"
 ---
 # <a name="transfer-bank-funds"></a>Bank-Geldmittel überweisen
 
@@ -23,7 +23,7 @@ Manchmal ist es erforderlich, einen Betrag von einem Bankkonto in [!INCLUDE[prod
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>So buchen Sie Überweisungen zwischen Bankkonten mit demselben Währungscode:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Fibu Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie in einer Buch.-Blattzeile die Felder **Buchungsdatum** und **Belegnr.** aus.
 3. Wählen Sie im Feld **Kontoart** die Option **Bankkonto** aus.
 4. Im Feld **Kontonr.** wählen Sie das Bankkonto aus, von dem Sie die Beträge überweisen möchten.
@@ -38,7 +38,7 @@ Manchmal ist es erforderlich, einen Betrag von einem Bankkonto in [!INCLUDE[prod
 
 Um Beträge zwischen Bankkonten zu transferieren, die unterschiedliche Währungen verwenden, müssen Sie zwei Fibu Buch.-Blattzeilen buchen.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Fibu Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fibu Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.
 2. Erstellen Sie zwei Buch.-Bl.-Zeilen und füllen Sie die Felder **Buchungsdatum** und **Belegnr.** aus.
 3. Wählen Sie in der ersten Buch.-Blattzeile des Feldes **Art** **Bankkonto** aus.
 4. Im Feld **Kontonr.** wählen Sie das Bankkonto aus, von dem Sie die Beträge überweisen möchten.
