@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d53d813871b154a705676483559f7464bf8469fd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214903"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442310"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen
 Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden und parallelen Funktionen der Auftragsnachverfolgung und des Aktionsmessagings.  
@@ -138,7 +138,7 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  Die folgenden Auftragsnachverfolgungsposten sind in der Tabelle **Reservierungsposten** enthalten, basierend auf den Daten in der Tabelle.  
 
- ![Erstes Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Erstes Beispiel für Auftragsverfolgungseinträge in der Tabelle Reservierungseintrag.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Eintragsnummern 8 und 9  
  Für den Komponentenbedarf für LOTA und LOTB werden Auftragsnachverfolgungslinks aus dem Bedarf in Tabelle 5407, **Fert. Auftrags-Komponente**, für den Vorrat in Tabelle 32, **Artikelposten**, erstellt. Das Feld **Reservierungsstatus** enthält **Nachverfolgung**, um anzugeben, dass diese Posten dynamische Auftragsnachverfolgungslinks zwischen Vorrat und Bedarf sind.  
@@ -156,7 +156,7 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  Jetzt sind die folgenden Auftragsverfolgungseinträge in der Tabelle **Reservierungseintrag** vorhanden.  
 
- ![Zweites Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Zweites Beispiel für Auftragsverfolgungseinträge in der Tabelle „Reservierungseingang“.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Eintragsnummern 8 und 9  
  Bedarfsverursacherposten für die zwei Chargen der den Bedarf widerspiegelnden Komponente in Tabelle 5407 werden von einem Reservierungsstatus von **Bedarfsverursacher** zu **Überschuss** geändert. Der Grund besteht darin, dass Vorräte, mit denen vorher eine Verknüpfung hergestellt wurde (in Tabelle 32), von der Lieferung des Umlagerungsauftrags verwendet wurden.  
@@ -170,7 +170,7 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  Jetzt sind die folgenden Auftragsverfolgungseinträge in der Tabelle **Reservierungseintrag** vorhanden.  
 
- ![Drittes Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Drittes Beispiel für Einträge zur Auftragsverfolgung in der Tabelle Reservation Entry.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
  Die Auftragsnachverfolgungsposten sind jetzt ähnlich dem ersten Punkt im Szenario, bevor der Umlagerungsauftrag als nur geliefert gebucht wurde, ausgenommen, dass die Posten für die Komponenten jetzt den Reservierungsstatus **Überschuss** haben. Dies liegt daran, dass der Komponentenbedarf noch am Lagerort WEST ist und gibt wieder, dass das Feld **Lagerortcode** in der FA-Komponentenzeile **WEST** enthält, wie im **Komponenten von Lagerort**-Einrichtungsfeld festgelegt. Das Lieferung, die diesem zuvor Bedarf zugeordnet wurde, wurde zum Lagerort OST übertragen und kann jetzt nicht vollständig zurückverfolgt werden, es sei denn, der Komponentenbedarf auf der Fertigungsauftragszeile wurd zum Lagerort OST geändert.  
 
@@ -178,7 +178,7 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  Jetzt sind die folgenden Auftragsverfolgungseinträge in der Tabelle **Reservierungseintrag** vorhanden.  
 
- ![Viertes Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Viertes Beispiel für Einträge zur Auftragsverfolgung in der Tabelle „Reservierungseingang“.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Postennummern 21 und 22  
  Da der Komponentenbedarf zum Lagerort OST geändert wurde und der Vorrat als Artikelposten am Lagerort OST verfügbar ist, werden alle Auftragsnachverfolgungsposten für die beiden Chargennummern jetzt vollständig verfolgt, angezeigt durch den Reservierungsstatus von **Nachverfolgung**.  

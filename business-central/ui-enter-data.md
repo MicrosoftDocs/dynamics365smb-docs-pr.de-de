@@ -1,6 +1,6 @@
 ---
-title: Eingeben von Daten in Business Central | Microsoft Docs
-description: Informationen zu allgemeinen Funktionen, die Ihnen dabei helfen, Daten in die Felder einzugeben.
+title: So geben Sie Daten in Business Central ein
+description: Es gibt eine Vielzahl allgemeiner Funktionen, mit denen Sie Daten einfacher, schneller und genauer eingeben können. Hier werden die grundlegenden Prinzipien und erweiterten Funktionen beschrieben.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784815"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443668"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
-Es gibt eine Vielzahl allgemeiner Funktionen, mit denen Sie Daten einfacher, schneller und genauer eingeben können. Die Grundprinzipien und erweiterten Funktionen für die Eingabe von Daten werden in diesem Artikel beschrieben.  
+Es gibt viele allgemeine Funktionen, die Ihnen helfen, Daten einfacher, schneller und präziser einzugeben. Die Grundprinzipien und erweiterten Funktionen für die Eingabe von Daten werden in diesem Artikel beschrieben.  
 
 Die Beispiele in diesen Artikel verwendet die Demodaten.
 
@@ -93,7 +93,7 @@ Nachfolgend sind einige nützliche Informationen zur Anwendung der Schnelleingab
 
 Verwenden Sie die Personalisierung, um die Schnelleingabe für Felder einzurichten.
 
-1. Beginnen Sie mit der Personalisierung, indem Sie das Symbol ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") und dann die Aktion **Personalisieren** auswählen.
+1. Starten Sie die Personalisierung, indem Sie das Symbol ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollencenter") Symbol und dann die Aktion **Personalisieren**.
 2. Wählen Sie ein Feld aus, das Sie ändern möchten. Wählen Sie in Listen die entsprechende Spaltenüberschrift aus. Wählen Sie dann **In Schnelleingabe einschließen** oder **Von der Schnelleingabe ausschließen** aus.
 
 Weitere Informationen zur Personalisierung finden Sie unter [Personalisieren Ihres Arbeitsbereichs](ui-personalization-user.md).
@@ -136,9 +136,9 @@ Dies ist besonders hilfreich, wenn Sie mit großen Positionsartikellisten arbeit
 
 ### <a name="switching-the-focus-on-and-off"></a>Den Fokus zwischen An- und Ausschalten wechseln
 
-Um sich auf Zeilenartikel zu konzentrieren, wählen irgendeine Stelle im Bereich des Zeilenartikelteils aus und wählen Sie dann das ![Fokusmodussymbol](media/focus-mode.png "Fokusmodus-Symbol") in der oberen rechten Ecke aus, oder drücken Sie STRG+UMSCHALT+F12.
+Um den Fokus auf die Elemente der Zeile zu setzen, wählen Sie eine beliebige Stelle im Teil der Zeile aus und wählen dann das Symbol ![Fokusmodus.](media/focus-mode.png "Fokusmodus-Symbol") in der oberen rechten Ecke, oder drücken Sie Strg+Umschalt+F12.
 
-Um zur Normalansicht zurückzukehren, wählen Sie das ![Fokusmodussymbol](media/focus-mode.png "Fokusmodus-Symbol") aus, oder drücken Sie STRG+UMSCHALT+F12 erneut.
+Um wieder in die normale Ansicht zu wechseln, wählen Sie ![Fokusmodus Symbol.](media/focus-mode.png "Fokusmodus-Symbol") oder drücken Sie erneut Strg+Umschalt+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking über mehrere Seiten
 
@@ -148,15 +148,15 @@ Sie können eine Karten- oder Dokumentseite in einem neuen Fenster öffnen. Wenn
 - Unterbrechungen der aktuellen Aufgabe verwalten, z. B. einen eingehenden Anruf annehmen
 - ein Fenster für eine laufende Aufgabe geöffnet lassen, während Sie eine andere Aufgabe in Fenstern starten oder abschließen
 
-Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen, wählen Sie ![Neues Fenster öffnen](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") öffnen in der oberen rechten Ecke, oder drücken Sie Alt + UMSCHALT+W.
+Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen, wählen Sie ![Neues Fenster öffnen.](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") in der oberen rechten Ecke, oder drücken Sie Alt+Umschalt+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen, wählen Sie ![Neues Fenster öffnen](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") öffnen in der oberen rechten Ecke, oder drücken Sie Alt + UMSCHALT+W.
+Um die aktuelle Karte oder den aktuellen Beleg in einem neuen Fenster zu öffnen, wählen Sie ![Neues Fenster öffnen.](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") in der oberen rechten Ecke, oder drücken Sie Alt+Umschalt+W.
 
 > [!NOTE]
-> Wenn Sie andere Seiten über eine Karte oder einen Beleg öffnen, die bzw. der in einem neuen Fenster geöffnet wird, werden diese Seiten auch dann in einem neuen Fenster geöffnet, wenn Sie ![Neues Fenster öffnen](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") nicht auswählen.
+> Wenn Sie andere Seiten von einer Karte oder einem Beleg öffnen, der in einem neuen Fenster geöffnet ist, werden diese Seiten in einem neuen Fenster geöffnet, auch wenn Sie nicht ![Neues Fenster öffnen.](media/open-new-window-icon.png "Symbol „Neues Fenster öffnen“") wählen.
 
 > [!NOTE]
 > Wenn Sie im Safari-Browser arbeiten, kann ein Popupblocker dazu führen, dass das neue Fenster nicht geöffnet wird. In diesem Fall geben Sie die Produkt-URL als zulässige Website an. Weitere Informationen finden Sie unter [Ändern Sie die Einstellungen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />

@@ -1,6 +1,6 @@
 ---
 title: Die Grundeinstellungen für den aktuellen Benutzer ändern
-description: Erfahren Sie, wie Sie mehrere grundlegenden Einstellungen einrichten, zum Beispiel Ihr Rollencenter, im Unternehmen oder im Arbeitsdatum.
+description: Hier erfahren Sie, wie Sie einige grundlegende Einstellungen in Business Central festlegen können, z. B. Ihre Rolle und Ihr Rollenzentrum, Ihre Firma, Ihr Arbeitsdatum und Ihre Zeitzonen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787452"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443768"
 ---
 # <a name="change-basic-settings"></a>Ändern von grundlegenden Einstellungen
 
@@ -33,7 +33,7 @@ Die Rolle bestimmt die Homepage, eine Startseite, die für die Anforderungen der
 
 Das Standardrollencenter ist der **Geschäftsführer**, aber Sie können eine andere Rolle auswählen, um das Rollencenter zu nutzen, dass besser mit Ihren Anforderungen übereinstimmt.  
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") und wählen dann die Aktion **Meine Einstellungen**.
+1. Wählen Sie in der oberen rechten Ecke das Symbol **Einstellungen** ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") und dann die Aktion **Meine Einstellungen**.
 2. Wählen Sie auf der Seite **Meine Einstellungen** im Feld **Rollencenter** das Rollencenter aus, das Sie als den Standard festlegen möchten. Wählen Sie beispielsweise **Buchhalter/in** aus.
 3. Wählen Sie die Schaltfläche **OK** aus.
 
@@ -47,7 +47,7 @@ Der Standardmandant wird CRONUS bezeichnet und enthält nur Demodaten enthält. 
 
 Der Firmenname wird immer in der oberen linken Ecke angezeigt und fungiert als Aktion, die Sie auswählen können, um zum Rollencenter zurückzukehren. Diesen Namen können Sie auf der Seite **Firmeninformation** ändern.
 
-1. Wählen Sie das Symbol ![Zahnrad, um das Einstellungsmenü zu öffnen](media/ui-experience/settings_icon_small.png), und wählen Sie dann die Aktion **Firmeninformationen**.
+1. Wählen Sie das Symbol ![, um das Menü „Einstellungen“ zu öffnen.](media/ui-experience/settings_icon_small.png) Symbol, und wählen Sie dann die Aktion **Unternehmensdaten**.
 2. Geben Sie im Feld **Namen** den neuen Namen des Unternehmens ein.
 3. Verlassen Sie die Seite. Das System startet neu und zeigt die neue Firma in der oberen linken Ecke an.
 
@@ -55,7 +55,7 @@ Der Firmenname wird immer in der oberen linken Ecke angezeigt und fungiert als A
 
 In der oberen rechten Ecke können Sie ein benutzerdefiniertes Abzeichen hinzufügen, mit dem Sie schnell Informationen zu Firmennamen und Mandanten in einem Popup-Fenster anzeigen können. Das Firmenabzeichen ist auch nützlich, wenn [!INCLUDE[prod_short](includes/prod_short.md)] in eine andere Anwendung eingebettet ist, wie Microsoft Teams oder in einer anderen Webanwendung. In diesen Fällen dient, weil die [!INCLUDE[web_client](includes/web_client.md)] weniger umgebende Kontextinformationen anzeigt, das Firmenabzeichen als einzige Möglichkeit, um festzustellen, zu welchem Unternehmen oder welcher Umgebung ein Datensatz gehört.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") aus, geben Sie **Unternehmensinformationen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Unternehmensdaten** ein, und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie im Inforegister **Unternehmenskennkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]

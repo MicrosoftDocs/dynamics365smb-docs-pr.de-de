@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b4daacd73987e4e747f97d288ecfb51b564de7e6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e348ce883493ec621b6dbe4bc5855e0c8318178b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781036"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442825"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Mit Buchhaltungsperioden und Geschäftsjahren arbeiten
 
@@ -35,7 +35,7 @@ Sie können Buchhaltungsperioden in einer Massenoperation erstellen, indem Sie d
 
 Verwenden Sie die Stapelverarbeitung **Geschäftsjahr eröffnen**, um ein Geschäftsjahr in Perioden derselben Länge zu unterteilen.  
 
-1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") aus, geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") Symbol. Geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Jahr erstellen** aus.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. Geben Sie im Feld **Startdatum** das Datum ein, an dem das Geschäftsjahr beginnt.  
 4. Im Feld **Anzahl Perioden** geben Sie die Anzahl der Buchhaltungsperioden ein, in die sich das Geschäftsjahr gliedert. Es kann bis zu 365 Perioden in einem Jahr geben.  
@@ -46,7 +46,7 @@ Verwenden Sie die Stapelverarbeitung **Geschäftsjahr eröffnen**, um ein Gesch�
 
 Wenn die Buchhaltungsperioden in dem Geschäftsjahr verschiedene Dauern aufweisen, wie der Kalender 4-4-5, der im Einzelhandel verwendet wird, können Sie ihn manuell einrichten.  
   
-1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Suche nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") Symbol. Geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den zugehörigen Link.  
 2. Geben Sie im Feld **Startdatum** das Datum ein, an dem das Geschäftsjahr beginnt. Geben Sie in dem Feld **Name** den Namen des Monats ein.  
 3. Wählen Sie das Kontrollkästchen **Neues Geschäftsjahr**, um anzugeben, dass dies die erste Periode im Jahr ist. [!INCLUDE[prod_short](includes/prod_short.md)] verwendet diese Periode, um zu ermitteln, welche Periode am Ende des Geschäftsjahres zu schließen ist.
 4. Wiederholen Sie Schritt 2 und 3 für jede verbleibende Periode.  
@@ -58,7 +58,7 @@ Das Geschäftsjahr abzuschließen ist eine der Aufgaben für das Schließen der 
 > [!NOTE]  
 > Sie müssen immer mindestens ein offenen Geschäftsjahres haben. Wenn Sie ein Jahr abschließen, überprüfen Sie, dass ein neues Jahr erstellt wurde. Beachten Sie, dass Sie nach dem Abschluss eines Geschäftsjahres das Startdatum des folgenden Geschäftsjahres nicht mehr ändern können.
 
-1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") aus, geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Symbol „Suche nach Seite oder Bericht“") Symbol. Geben Sie **Buchhaltungsperioden** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Jahr beenden** aus.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Posten in einem abgeschlossenen Geschäftsjahr buchen

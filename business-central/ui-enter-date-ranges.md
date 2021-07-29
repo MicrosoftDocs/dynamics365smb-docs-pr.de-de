@@ -1,6 +1,6 @@
 ---
-title: Eingeben von Datumsangaben und Uhrzeiten in Business Central | Microsoft Docs
-description: Erfahren Sie, wie Sie Datumsangaben und Uhrzeiten einschließlich verschiedener Produktivitätstipps wie Stenografie, Ausdrücke und Bereiche eingegeben. Filtern Sie Listen oder Berichte bis zu einem bestimmten Datum oder zu Zeiträumen.
+title: Eingeben von Daten und Zeiten in Business Central
+description: Erfahren Sie, wie Sie Datumsangaben und Uhrzeiten einschließlich verschiedener Produktivitätstipps wie Stenografie, Ausdrücke und Bereiche eingegeben.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8254afc467474906dd80ae76ba134a0bce88c3a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773530"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443643"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
 
@@ -48,7 +48,7 @@ Um produktiver mit Datumswerten und Uhrzeiten zu arbeiten, können Sie alle Meth
 
 Alle Felder, die ein Kalendersymbol anzeigen, können mithilfe der Kalendertagauswahl festgelegt werden. Um die Kalendertagauswahl anzuzeigen, aktivieren Sie das Kalendersymbol oder drücken Sie die Tastenkombination STRG+POS1 im Feld.
 
-![Datumsfelder](media/ui-date-field.png "Beispiel für ein Datumsfeld")
+![Datumsfelder.](media/ui-date-field.png "Beispiel für ein Datumsfeld")
 
 Weitere Informationen unter [Tastenkombinationen in der Kalenderdatumsauswahl](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -72,7 +72,7 @@ In einem Datumsfeld können zwei-, vier-, sechs- oder achtstellige Werte eingege
 
 ### <a name="today"></a>Heute
 
-Geben Sie das Wort für heute in der Sprache ein, die von der **Sprach**-Einstellung festgelegt wird. Dadurch wird das Datum auf das aktuelle Datum festgelegt. Anstatt den gesamten Begriff einzugeben, können Sie einen Teil des Begriffs eingeben. Beginnen Sie mit h oder heu , sofern dies nicht auch der Beginn eines anderen Begriffs ist.
+Geben Sie das Wort für _Heute_ in der Sprache ein, die auf der Seite **Meine Einstellungen** angegeben ist, um das Datum eines Datensatzes auf das heutige Datum festzulegen. Anstatt das ganze Wort einzugeben, können Sie auch einen Teil des Wortes eingeben, beginnend mit dem Anfang. Im Englischen können Sie z.B. _t_ oder _tod_ eingeben, solange es nicht gleichzeitig der Anfang eines anderen Wortes ist.
 
 ### <a name="period"></a>Periode
 
@@ -80,15 +80,13 @@ Wenn Sie eine bestimmte Buchhaltungsperiode filtern möchten, geben Sie in einem
 
 Die Buchhaltungsperioden werden auf der Seite **Buchhaltungsperiode** definiert. Um die Buchhaltungsperioden anzuzeigen oder zu ändern, öffnen Sie [hier](https://businesscentral.dynamics.com/?page=100) die Seite.
 
-### <a name="current-work-date"></a>Aktuelles Arbeitsdatum
+### <a name="work-date"></a>Arbeitsdatum
 
-Die Arbeitsdatumsfunktion ermöglicht es Ihnen Übergänge mithilfe eines Datums aufzuzeichnen, das sich vom aktuellen Datum unterscheidet.
+Verwenden Sie ein Arbeitsdatum, um ein Datum anzugeben, das in Datensätzen nicht das heutige Datum ist. Ein Arbeitsdatum ist zum Beispiel nützlich, wenn Sie ein bestimmtes Datum für mehrere Datensätze festlegen müssen. Sie legen das Arbeitsdatum auf der Seite **Meine Einstellungen** fest. 
 
-Das für Wort "Arbeitsdatum" in der Sprache, die in der Einstellung **Sprache** festgelegt ist, legt das Datum auf das aktuell festgelegte Arbeitsdatum fest, das auf der Seite **Meine Einstellungen** definiert ist. Anstatt das gesamte Wort einzugeben, können Sie vom Anfang an einen Teil des Begriffs eingeben, z. B. 'A' oder 'Arbeit'.
+Eine schnelle Möglichkeit, das Arbeitsdatum auf Datensätzen einzugeben, ist die Eingabe eines Teils oder des gesamten Wortes _Arbeit_, beginnend mit dem Wortanfang, in der Sprache, in der Sie [!INCLUDE[prod_short](includes/prod_long.md)] verwenden. In Englisch können Sie zum Beispiel _w_ oder _work_ eingeben. Die Sprache wird auch auf der Seite **Meine Einstellungen** festgelegt.
 
-Wenn Sie kein Arbeitsdatum definiert haben, wird das aktuelle Datum als Arbeitsdatum verwendet. Die Verwendung des Arbeitsdatums ist hilfreich, wenn eine Vielzahl von Transaktionen zu einem Datum ausgeführt werden müssen, das vom Systemdatum abweicht.
-
-Weitere Informationen finden Sie unter [Ändern von grundlegenden Einstellungen, wie Arbeitsdatum](ui-change-basic-settings.md#work-date).
+Wenn Sie kein Arbeitsdatum angegeben haben, wird das heutige Datum verwendet. Weitere Informationen finden Sie unter [Grundlegende Einstellungen, wie das Arbeitsdatum festlegen](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Ultimodatum
 
@@ -199,7 +197,7 @@ Das folgende Beispiel zeigt, wie Sie ein Minuszeichen verwenden können, um anzu
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
 
 Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
 Here are a couple of other examples:

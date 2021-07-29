@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, migrate, insights
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: b64b1ad037743364b7bd0f4544dbcdb351e2daba
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: d98f876648f642484fe44e91da14120265e9a451
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889255"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442610"
 ---
 # <a name="intelligent-insights-in-prod_short-online"></a>Intelligente Einblicke in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
@@ -36,7 +36,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] Online zeigt die Seite **Intel
 Neben KPI-Diagrammen erhalten Sie zudem Einblicke in mögliche Problembereiche, wie z. B. überfällige Zahlungen. Wählen Sie die einzelnen Einblicke aus, um die Daten genauer zu untersuchen.  
 
 > [!div class="mx-imgBorder"]
-> ![Einblicke aus der intelligenten Cloud](media/across-intelligent-cloud/intelligentcloudApril19.png "Zeigt die Seite „Einblicke aus der intelligenten Cloud“ in Business Central Online an")
+> ![Intelligente Cloud Insights.](media/across-intelligent-cloud/intelligentcloudApril19.png "Zeigt die Seite „Einblicke aus der intelligenten Cloud“ in Business Central Online an")
 
 Die Seite stellt auch eine Verbindung mit Power BI her, sodass Sie noch mehr Einblicke erhalten. Stellen Sie optional eine Verbindung zu Azure AI her, um noch intelligentere Einblicke zu erhalten. Weitere Informationen finden Sie unter [Die Verkaufs‑ und Bestandprognosen-Erweiterung](ui-extensions-sales-forecast.md).  
 

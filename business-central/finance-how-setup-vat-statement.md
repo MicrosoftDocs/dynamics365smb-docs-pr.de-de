@@ -1,6 +1,6 @@
 ---
-title: Eine MwSt.-Abrechnung einrichten | Microsoft-Dokumentation
-description: Eine MwSt.-Abrechnung einrichten
+title: Eine MwSt.-Abrechnung einrichten
+description: In diesem Thema erfahren Sie, wie Sie eine MwSt.-Abrechnungsvorlage und die Namen der MwSt.-Abrechnungen festlegen, um den sich ändernden Anforderungen der Steuerbehörden gerecht zu werden.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8a7373a22cff16a32fe92bf2f2d9064d2f12e950
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 322a501a4b1d404ef39523e93b45409eb60d7c4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775450"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444387"
 ---
-# <a name="set-up-a-vat-statement"></a>Eine MwSt.-Abrechnung einrichten
+# <a name="set-up-a-vat-statement"></a>Festlegen einer MwSt.-Abrechnung
 
 ## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Einrichten von Vorlagen für Umsatzsteuerabrechnungen und Namen von Umsatzsteuerabrechnungen
 Steuerbehörden kann Anforderungen für die Buchung der MwSt ändern und ändert diese auch. Vorlagen für Umsatzsteuerbescheinigungen und Namen von Umsatzsteuerbescheinigungen können Ihnen helfen, sich auf bevorstehende Änderungen vorzubereiten und einen reibungslosen Übergang zu den neuen Anforderungen zu schaffen. Sie können MwSt.-Abrechnungsvorlagen verwenden, um verschiedene Berichte einzurichten, wenn Sie die Abrechnung drucken möchten. Jede MwSt.-Abrechnungsvorlage kann mehrere MwSt.-Abrechnungsnamen haben, die wiederum die Berechnungen definieren, und Sie können einen neuen MwSt.-Abrechnungsnamen erstellen, wenn sich die Anforderungen ändern. Beispielsweise kann ein Name die MwSt für dieses Jahr basierend auf dem aktuellen Bedarf berechnen, und ein anderer Name kann die MwSt basierend auf Anforderungen für das nächste Jahr berechnen. Namen sind auch eine Art, Aufzeichnungen von MwSt.-Abrechnungsformaten zu behalten, beispielsweise damit Sie prüfen können, wie Sie die MwSt in vorherigen Jahren berechnet haben.
@@ -25,7 +25,7 @@ Steuerbehörden kann Anforderungen für die Buchung der MwSt ändern und ändert
 ## <a name="to-define-a-vat-statements"></a>So definieren Sie eine Umsatzsteuerabrechnung
 MwSt.-Abrechnungen lassen Sie den MwSt.-Abrechnungsbetrag für eine bestimmte Periode berechnen (zum Beispiel ein Quartal).
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **MwSt-Auszüge** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **MWSt.-Abrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie das Feld **Name**, und wählen Sie dann **Neu** auf der Seite **MwSt.-Abrechnungsnamen** aus.
 3. Füllen Sie die entsprechenden Felder aus. Normalerweise möchten Sie eine Einstellung für jede Kombination aus MwSt.-Geschäftsbuchungsgruppe / MwSt.-Produktbuchungsgruppe haben. Für Zeilennummern ist es sinnvoll, gleichwertige Nummern oder Codes wie in Ihrer offiziellen MwSt.-Abrechnung zu verwenden [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 

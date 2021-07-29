@@ -1,6 +1,6 @@
 ---
-title: 'Designdetails: Ausgehender Lagerfluss | Microsoft Docs'
-description: Der ausgehende Fluss in das Lager beginnt mit einer Anforderung der freigegebenen Herkunftsbelege, die Artikel aus dem Lagerort B zu bringen, entweder, um an eine externe Partei oder an einen anderen Unternehmensstandort geliefert zu werden. Vom Lagerbereich werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel zu den Lieferdocks zu bringen.
+title: Design-Details – Outbound Warehouse Flow
+description: In diesem Thema geht es um die Sequenz des ausgehenden Warehouse Flows von freigegebenen Belegen zu versandfertigen Artikeln.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7e748719454bfbdcbacd9cf53a535ed1e38147bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777773"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442385"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetails: Ausgehender Lagerfluss
 
@@ -54,7 +54,7 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 
  Das folgende Diagramm zeigt die ausgehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
- ![Ausgehender Fluss bei einfachen Lagerkonfigurationen](media/design_details_warehouse_management_outbound_basic_flow.png "Ausgehender Fluss bei einfachen Lagerkonfigurationen")  
+ ![Outbound Flow in grundlegenden Lagerkonfigurationen.](media/design_details_warehouse_management_outbound_basic_flow.png "Ausgehender Fluss bei einfachen Lagerkonfigurationen")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Freigeben des Herkunftsbelegs:/Kommissionierung oder Umlagerung erstellen
 
@@ -81,9 +81,9 @@ Darüber hinaus behandeln die folgenden internen Herkunftsbelege diese Funktion 
 
  Das folgende Diagramm zeigt die ausgehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
- ![Ausgehender Fluss bei erweiterten Lagerkonfigurationen](media/design_details_warehouse_management_outbound_advanced_flow.png "Ausgehender Fluss bei erweiterten Lagerkonfigurationen")  
+ ![Outbound Flow in erweiterten Lagerkonfigurationen.](media/design_details_warehouse_management_outbound_advanced_flow.png "Ausgehender Fluss bei erweiterten Lagerkonfigurationen")  
 
-### <a name="1-release-source-document"></a>1: Freigeben des Herkunftsbelegs
+### <a name="1-release-source-document"></a>1: Quellbeleg freigeben
 
  Wenn ein Benutzer, der für Herkunftsbelege verantwortlich ist, etwa ein Verkaufsauftragsbearbeiter oder ein Produktionsplaner, für eine ausgehende Lageraktivität bereit ist, gibt er den Herkunftsbeleg frei, um den Lagermitarbeitern zu signalisieren, das verkaufte Artikel oder Komponenten kommissiooniert und in die angegebenen Lagerplätze eingelagert werden können.  
 

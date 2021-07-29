@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: ad155e604780af087c93e4e245002f3511d3d5a9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: eafc3f6ac86584cbf2bab6e5a5a82639ea718fc5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215802"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442335"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetails: Abgleich mit der Finanzbuchhaltung
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgängen, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Artikelposten bzw. in den Wertposten festgehalten. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgänge, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Artikelposten bzw. in den Wertposten festgehalten.  
@@ -82,16 +82,16 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
     1. Die Interimskonten werden gelöscht. (Verkauf)  
     2. Kosten der verkauften Waren (COGS) werden gebucht. (Verkauf)  
 
-        ![Ergebnisse der Verkaufsbuchung zu Sachkonten](media/design_details_inventory_costing_3_gl_posting_sales.png "Ergebnisse der Verkaufsbuchung zu Sachkonten")  
+        ![Ergebnisse der Umsatzbuchung auf GL-Konten.](media/design_details_inventory_costing_3_gl_posting_sales.png "Ergebnisse der Verkaufsbuchung zu Sachkonten")  
 5. Der Benutzer bucht einen Verbrauch von 150 Gliedern, der die Anzahl der Links ist, die verwendet werden, um eine Kette herzustellen. (Materialverbrauch)  
 
-    ![Ergebnisse der Materialbuchung zu Sachkonten](media/design_details_inventory_costing_3_gl_posting_material.png "Ergebnisse der Materialbuchung zu Sachkonten")  
+    ![Ergebnisse der Materialbuchung auf GL-Konten.](media/design_details_inventory_costing_3_gl_posting_material.png "Ergebnisse der Materialbuchung zu Sachkonten")  
 6. Diese Arbeitsplatzgruppe brauchte 60 Minuten, um die Kette herzustellen. Der Benutzer bucht die Verarbeitungskosten. (Verbrauch, Kapazität)  
 
     1. Die direkten Kosten werden gebucht. (Verbrauch, Kapazität)  
     2. Die indirekten Kosten werden berechnet und gebucht. (Verbrauch, Kapazität)  
 
-        ![Ergebnisse der Kapazitätsbuchung zu Sachkonten](media/design_details_inventory_costing_3_gl_posting_capacity.png "Ergebnisse der Kapazitätsbuchung zu Sachkonten")  
+        ![Ergebnisse der Kapazitätsbuchung auf GL-Konten.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Ergebnisse der Kapazitätsbuchung zu Sachkonten")  
 7. Der Benutzer bucht die Soll-Kosten einer Kette. (Istmeldung)  
 8. Der Benutzer beendet den Fertigungsauftrag und führt die Stapelverarbeitung **Kostenanpassung Artikeleinträge** aus. (Istmeldung)  
 
@@ -100,7 +100,7 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
     3. Die indirekten Kosten (Gemeinkosten) werden vom Konto für indirekte Kosten zum Bestandskonto übertragen. (Istmeldung)  
     4. Dadurch ergibt sich ein Abweichungsbetrag von MW 157,00. Abweichungen werden nur für Standardkosntenartikel berechnet. (Istmeldung)  
 
-        ![Ergebnisse der Ausgabebuchung zu Sachkonten](media/design_details_inventory_costing_3_gl_posting_output.png "Ergebnisse der Ausgabebuchung zu Sachkonten")  
+        ![Ergebnisse der Ausgangsbuchung auf GL-Konten.](media/design_details_inventory_costing_3_gl_posting_output.png "Ergebnisse der Ausgabebuchung zu Sachkonten")  
 
         > [!NOTE]  
         >  Der Einfachheit halber wird nur ein Abweichungskonto angezeigt. Real existieren fünf verschiedene Konten:  
@@ -113,7 +113,7 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
 
 9. Der Benutzer bewertet die Kette um von MW 150,00 auf MW 140,00. (Regulierung/Neubewertung/Rundung/Umlagerung)  
 
-    ![Ergebnisse der Ausgleichsbuchung zu Sachkonten](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Ergebnisse der Ausgleichsbuchung zu Sachkonten")  
+    ![Ergebnisse der Korrekturbuchung auf GL-Konten.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Ergebnisse der Ausgleichsbuchung zu Sachkonten")  
 
 Weitere Informationen über das Verhältnis zwischen den Kontotypen und den verschiedenen Arten von Wertposten finden Sie unter [Designdetails. Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)  
 

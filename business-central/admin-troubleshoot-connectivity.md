@@ -1,0 +1,108 @@
+---
+title: Problembehandlung der Konnektivität
+description: Beschreibt, wie Sie die Seite Problembehandlung der Konnektivität verwenden, um Probleme bei der Online-Verbindung zu Business Central zu identifizieren und zu beheben.
+author: jswymer
+ms.service: dynamics365-business-central
+ms.topic: get-started-article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: connectivity, troubleshooting, connection problems
+ms.date: 06/17/2021
+ms.author: jswymer
+ROBOTS: NOINDEX
+ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443181"
+---
+# <a name="troubleshoot-connectivity-for-business-central"></a>Problembehandlung der Konnektivität für Business Central
+
+> **Geltet für:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
+>
+> Diese Funktion befindet sich derzeit in der Vorschau. Die Funktionalität und die Belege können sich in späteren Versionen ändern. Wenn Sie auf der Grundlage Ihrer eigenen Erkenntnisse zur Dokumentation beitragen möchten, wählen Sie bitte ![Artikel in GitHub bearbeiten.](media/github-edit-pencil.png) **Bearbeiten**, und schlagen Sie Änderungen vor. Dann werden wir uns das ansehen!
+
+[!INCLUDE[prod_short](includes/prod_short.md)] Online enthält die Seite **Problembehandlung Konnektivität**, die Sie verwenden können, um Probleme mit Ihrer Verbindung zum Online-Dienst zu identifizieren. Es gibt mehrere Dinge, die die Konnektivität zu Business Central beeinflussen, wie die Firewall-Einstellungen Ihres Netzwerks oder die Konfiguration des Domänen-Namensdienstes. Auf der Seite können Sie eine Liste von Prüfungen ausführen, die allgemeine Probleme mit der Konnektivität von Business Central diagnostizieren. Sie können die Informationen verwenden, um zu versuchen, die Probleme selbst zu beheben, oder sie an Ihren Support-Mitarbeiter weitergeben.
+
+> [!NOTE]
+> Die Seite **Problembehandlung der Konnektivität** testet nicht die Leistung oder Zuverlässigkeit des Netzwerks, wie z. B. die Geschwindigkeit Ihrer Verbindung. Sie prüft nur die Konnektivität zu verschiedenen Ressourcen.
+
+## <a name="start-the-connectivity-check"></a>Starten Sie die Konnektivitätsprüfung 
+
+1. Wählen Sie [diesen Link](https://businesscentral.dynamics.com/connectivity) oder öffnen Sie Ihren Internet-Browser und geben Sie die folgende URL in die Adresse ein:
+
+    ```http
+    https://businesscentral.dynamics.com/connectivity
+    ```
+
+2. Auf der Seite **Problembehandlung Konnektivität** wählen Sie **Prüfung starten**.
+
+    Eine Reihe von Prüfungen wird ausgeführt, und das Ergebnis jeder Prüfung wird angezeigt:
+
+    - ![Konnektivitätsprüfung erfolgreich.](media/connectivity-check.png) zeigt an, dass die Prüfung erfolgreich war.
+    - ![Konnektivitätsprüfung fehlgeschlagen.](media/connectivity-failed.png) zeigt an, dass der Check fehlgeschlagen ist. Lesen Sie die Nachricht unterhalb des Checks für weitere Details.
+    - ![Konnektivitätsprüfung wurde nicht ausgeführt.](media/connectivity-blocked.png) zeigt an, dass die Prüfung nicht ausgeführt wurde, typischerweise wegen eines Fehlers bei einer früheren Prüfung. Lesen Sie die Nachricht unterhalb des Checks für weitere Details.
+
+3. Um die Prüfung erneut auszuführen, wählen Sie **Prüfung neu starten**.
+
+In den folgenden Abschnitten werden die ausgeführten Prüfungen erläutert und es werden einige Tipps zur Behebung von Problemen gegeben.
+
+## <a name="basic-internet-connectivity"></a>Grundlegende Internet-Konnektivität
+
+Überprüft, ob Sie eine Verbindung zum Internet haben, indem es prüft, ob Sie auf eine bekannte öffentliche Domäne zugreifen können, wie www.bing.com.
+
+|Problem|Was Sie versuchen sollten|
+|-------|-------------|
+|Ihr Browser unterstützt diese Prüfung nicht|Öffnen Sie die Seite in einem unterstützten Browser, und versuchen Sie es erneut. Eine Liste der unterstützten Browser finden Sie unter [Mindestanforderungen für die Verwendung von Business Central – Browser](product-requirements.md#browsers)|
+|Der Server mit der folgenden URL konnte nicht angefunkt werden: {url}|Überprüfen Sie die Firewall-Einstellungen.|
+
+## <a name="cdn-content-delivery-network-resources-loading"></a>CDN (Content Delivery Network)-Ressourcen werden geladen
+
+[!INCLUDE[prod_short](includes/prod_short.md)] verwendet Azure Content Delivery Network (CDN), um Ressourcen bereitzustellen, die zum Ausführen des Business Central Web-Clients erforderlich sind. Dieser Check prüft, ob die erforderlichen Ressourcen verfügbar und zugänglich sind, indem er die Business Central-Instanz im CDN anpingt.
+
+|Problem|Was Sie versuchen sollten|
+|-------|-------------|
+|Ihr Browser unterstützt diese Prüfung nicht|Siehe **Prüfung der grundlegenden Internet-Konnektivität**.|
+|Der Server mit der folgenden URL konnte nicht angefunkt werden: {url}|Überprüfen Sie die Firewall-Einstellungen.|
+
+## <a name="user-authentication"></a>Benutzer-Authentifizierung
+
+Überprüft, ob sich der aktuelle Benutzer mit einem gültigen Business Central-Konto angemeldet hat.
+
+|Problem|Was Sie versuchen sollten|
+|-------|-------------|
+|Kein Benutzer ist derzeit authentifiziert|Melden Sie sich bei Business Central mit einem gültigen Benutzernamen und Kennwort an.|
+
+## <a name="business-central-environments-discovery"></a>Erkennung von Business Central-Umgebungen
+
+Prüft, ob Business Central-Umgebungen für einen authentifizierten Benutzer verfügbar sind, und überprüft dann, ob der Benutzer in der Umgebung authentifiziert werden kann.
+<!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
+
+|Problem|Was Sie versuchen sollten|
+|-------|-------------|
+|Kein authentifizierter Benutzer, für den diese Prüfung durchgeführt werden soll|Siehe die Prüfung **Benutzerauthentifizierung**.|
+|Es konnten keine verfügbaren Umgebungen für Ihr Konto abgerufen werden.|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
+|Ihr Benutzername oder Kennwort ist falsch, oder Sie haben kein gültiges Konto.| Überprüfen Sie, ob Sie sich mit dem richtigen Benutzernamen und Kennwort angemeldet haben.|
+
+## <a name="application-service-connectivity"></a>Konnektivität der Anwendungsdienste
+
+Überprüft, ob der authentifizierte Benutzer eine Verbindung zu einer ermittelten Umgebung herstellen kann, normalerweise beginnend mit der Produktionsumgebung.
+
+|Problem|Was Sie versuchen sollten|
+|-------|-------------|
+|Kein authentifizierter Benutzer, für den diese Prüfung durchgeführt werden soll|Siehe **Benutzerauthentifizierung prüfen**.|
+|Es konnten keine verfügbaren Umgebungen für Ihr Konto abgerufen werden.|Siehe **Ermittlung von Business Central Umgebungen**.|
+|Keine Cluster-Adresse, für die diese Prüfung durchgeführt werden soll|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
+|Versionsendpunkt existiert nicht|Überprüfen Sie die Liste der verfügbaren Umgebungen im Business Central Admin Center.|
+
+## <a name="see-also"></a>Weitere Informationen
+
+[Ressourcen für Hilfe und Support](product-help-and-support.md)  
+[Übersicht der Aufgaben zum Festlegen von Business Central](setup.md)  
+[Häufig gestellte Fragen zur Verwendung von Business Central](across-faq.yml)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Das Business Central Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

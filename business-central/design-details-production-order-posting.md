@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 966760ae57f9908ec7245f8e97f6d35591142332
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214878"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442360"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetails: Fertigungsauftragsbuchung
 Ähnlich wie bei der Montageauftragsbuchung werden die verbrauchten Komponenten und die verwendete Maschinenzeit konvertiert und als gefertigter Artikel ausgegeben, wenn der Fertigungsauftrag abgeschlossen wird. Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md). Der Kostenfluss für Montageaufträge ist jedoch weniger Komplex, insbesondere da die Buchung der Montagekosten nur einmal geschieht und daher keinen WIP-Bestand generiert.
@@ -58,11 +58,11 @@ Das Buchen von Fertigungsaufträgen auf das Produktionslager beinhaltet Istmeldu
 
 Das folgende Diagramm zeigt die betroffenen Buchungsroutinen in Codeunit 22.  
 
-![Fertigungsauftrags-Buchungsroutinen](media/design_details_inventory_costing_14_production_posting_1.png "Fertigungsauftrags-Buchungsroutinen")  
+![Produktionsauftrags-Buchungsroutinen.](media/design_details_inventory_costing_14_production_posting_1.png "Fertigungsauftrags-Buchungsroutinen")  
 
 Das folgende Diagramm zeigt die Zuordnungen zwischen den resultierenden Posten und den Kostenträgern.  
 
-![Produktionseintragsfluss](media/design_details_inventory_costing_14_production_posting_2.png "Produktionseintragsfluss")  
+![Flow der Produktionserfassung.](media/design_details_inventory_costing_14_production_posting_2.png "Produktionseintragsfluss")  
 
 Der Kapazitätsposten beschreibt den Kapazitätsverbrauch in Bezug auf Zeiteinheiten, während der zugehörige Wertposten den Wert des speziellen Kapazitätsverbrauchs beschreibt.  
 

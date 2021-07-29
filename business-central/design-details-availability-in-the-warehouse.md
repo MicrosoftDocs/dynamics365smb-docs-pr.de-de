@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 184591134706432ed1ea04afa86e1274b748cfe0
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215503"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442535"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetails: Verfügbarkeit im Lager
 Die Anwendung muss eine konstante Kontrolle der Artikelverfügbarkeit im Lager aufrechterhalten, sodass ausgehende Aufträge effizient verlaufen und optimale Lieferungen zur Verfügung stellen können.  
@@ -47,7 +47,7 @@ Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene F
 
  Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung an.  
 
- ![Verfügbar zur Entnahme mit Reservierungsüberschneidung](media/design_details_warehouse_management_availability_2.png "Verfügbar zur Entnahme mit Reservierungsüberschneidung")  
+ ![Verfügbar zum Kommissionieren mit Reservierungsüberschneidung.](media/design_details_warehouse_management_availability_2.png "Verfügbar zur Entnahme mit Reservierungsüberschneidung")  
 
 ## <a name="quantity-available-to-reserve"></a>&Menge Verfügbar für Reservierung  
  Da die Konzepte des Lagerplatzinhaltes und der Reservierung gleichzeitig existieren, muss die Menge der Artikel, die zur Reservierung verfügbar sind, an die Zuordnung zu ausgehenden Lagerbelegen angepasst sein.  
@@ -70,12 +70,12 @@ Wenn eine oder mehrere Bedingungen nicht erfüllt werden, können verschiedene F
 
  Zur Reservierung verfügbare Menge = Gesamtmenge im Lagerbestand - Menge in Kommissionierungen und Lagerplatzumlagerungen für Herkunftsbelege - Reservierte menge - Menge in Ausgangslagerplätzen  
 
- Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung an.  
+ Das folgende Diagramm zeigt die verschiedenen Elemente der Berechnung.  
 
- ![Verfügbar, um pro Lagerzuordnung zu reservieren](media/design_details_warehouse_management_availability_3.png "Verfügbar, um pro Lagerzuordnung zu reservieren")  
+ ![Verfügbar zum Reservieren pro Lager-Zuordnung.](media/design_details_warehouse_management_availability_3.png "Verfügbar, um pro Lagerzuordnung zu reservieren")  
 
-## <a name="see-also"></a>Siehe auch  
- [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)  
+## <a name="see-also"></a>Weitere Informationen  
+ [Designdetails: Logistik](design-details-warehouse-management.md)  
  [Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)
 
 

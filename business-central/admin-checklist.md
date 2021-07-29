@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: setup, wizard, checklist
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c4c636f6030f9ee8d9c2fde849c9b86fc04670ad
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 48a293f0cfedc257f8efcae6b4e8ea958e975ca6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788546"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443968"
 ---
 # <a name="onboard-users-with-checklists"></a>Onboarding von Benutzern mit Checklisten
 
@@ -22,7 +22,7 @@ Das erste Mal, wenn sich ein Benutzer bei einem neuen [!INCLUDE [prod_short](inc
 
 1. Melden Sie sich unter [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/) bei [!INCLUDE[prod_short](includes/prod_short.md)] an.
 
-2. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Checklistenverwaltung** ein, und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Checklistenverwaltung** ein, und wählen Sie den entsprechenden Link.  
 
 3. Wählen Sie die Aktion **Neu** und dann **Checklistenelement erstellen** aus.  
 

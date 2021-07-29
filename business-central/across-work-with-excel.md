@@ -10,37 +10,41 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7e3abf36444c4701229ffaac7ceade11bb1879cc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6bf12f55f6bce843c4ed12f2a40db542367fffde
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786932"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443476"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Anzeigen und Arbeit in Excel aus Business Central
 
-Mit Seiten, die eine Liste der Datensätze in den Zeilen und Spalten anzeigen, wie eine Liste von Debitoren von Verkaufsaufträgen oder Rechnungen können Sie die Daten mithilfe von Microsoft Excel anzeigen. Dazu haben Sie zwei Optionen. Sie können entweder die **In Excel öffnen** Aktion oder die **Bearbeiten Sie in Excel** Aktion dieser Seite auswählen. Der Unterschied zwischen den beiden Methoden ist wie folgt:  
+Mit Seiten, die eine Liste der Datensätze in den Zeilen und Spalten anzeigen, wie eine Liste von Debitoren von Verkaufsaufträgen oder Rechnungen können Sie die Daten mithilfe von Microsoft Excel anzeigen. Je nach Seite haben Sie zwei Optionen für die Anzeige in Excel. Sie können entweder die **In Excel öffnen** Aktion oder die **Bearbeiten Sie in Excel** Aktion dieser Seite auswählen. Dieser Artikel erklärt die Unterschiede zwischen den beiden Aktionen.
 
 ## <a name="open-in-excel"></a>In Excel öffnen
 
+Mit der Aktion **Öffnen in Excel** können Sie Änderungen an den Datensätzen in Excel vornehmen, aber Sie können die Änderungen nicht zurück auf [!INCLUDE[prod_short](includes/prod_short.md)] veröffentlichen. Sie können die Änderungen in die Excel-Datei nur auf dem Computer speichern.
+
 - Mit dieser Aktion respektiert Excel alle Filter auf der Seite, die die angezeigten Datensätze einschränken. Das Excel-Arbeitsblatt enthält die gleichen Zeilen und Spalten, die auf der Seite in [!INCLUDE[prod_short](includes/prod_short.md)] erscheinen.
 
-- Sie können Änderungen mit Datensätzen in Excel vornehmen, aber Sie können die Änderungen nicht auf  [!INCLUDE[prod_short](includes/prod_short.md)] veröffentlichen. Sie können die Änderungen in die Excel-Datei nur auf dem Computer speichern.
-
 - Diese Aktion geht auf Windows und Mac Os.
+
+- Ab Update 18.3 können Sie auch Listen anzeigen, die in Seitenteilen dargestellt werden, wie die Zeilen in einem Verkaufsauftrag. Im Moment ist diese Funktion eine optionale Funktionalität, die erfordert, dass Sie **Beliebigen Listenteil nach Excel exportieren** in **Funktionsverwaltung** aktivieren. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management). 
 
 > [!NOTE]
 > Für [!INCLUDE[prod_short](includes/prod_short.md)] lokal ist die Aktion **In Excel öffnen** standardmäßig verfügbar. Wenn Sie jedoch [!INCLUDE[prod_short](includes/prod_short.md)] lokal für die Bearbeitung von Daten in Excel einrichten, wird die Aktion **In Excel öffnen** durch die Aktion **In Excel bearbeiten** ersetzt.
 
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]  
+
 ## <a name="edit-in-excel"></a>In Excel bearbeiten
+
+Mit der Aktion **Bearbeiten in Excel** nehmen Sie Änderungen an Datensätzen in Excel vor und veröffentlichen die Änderungen dann wieder in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Mit dieser Aktion berücksichtigt Excel die meisten Filter auf der Seite, die die angezeigten Datensätze einschränken, sodass das Excel-Arbeitsblatt fast dieselben Datensätze und Spalten enthält.
 
-- Der Vorteil der **Bearbeiten Sie in Excel** Aktion ist, dass es Sie Änderungen mit Datensätzen in Excel vornimmt und die Änderungen zurück in [!INCLUDE[prod_short](includes/prod_short.md)] veröffentlichen können,
-
 - Das geht nur auf Windows; nicht Mac Os.
 
-- Sie können das Unternehmen, mit dem Sie zusammenarbeiten, wechseln. Um das Unternehmen zu wechseln, wählen Sie dazu im Excel-Add-In-Fensterbereich das Symbol **Optionen** ![Excel-Add-In-Optionen](media/cogwheel.png "Excel-Add-In-Optionen") und wählen Sie dann das Unternehmen aus dem Feld **Unternehmen**.  
+- Sie können das Unternehmen, mit dem Sie zusammenarbeiten, wechseln. Um die Firma zu wechseln, wählen Sie das Symbol **Optionen** ![Excel-Add-In-Optionen](media/cogwheel.png "Excel-Add-In-Optionen") im Excel-Add-in-Fenster und wählen Sie dann die Firma aus dem Feld **Firma**.  
 
     > [!IMPORTANT]
     > Wenn Sie das Unternehmen ändern, stellen Sie sicher, dass das Feld **Umgebung** nicht leer ist. Wenn dies der Fall ist, dann stellen Sie sie auf eine der verfügbaren Optionen ein; andernfalls wird das Add-In nicht korrekt funktionieren.  

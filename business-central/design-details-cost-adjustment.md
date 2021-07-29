@@ -1,6 +1,6 @@
 ---
-title: 'Designdetails: Kostenanpassung | Microsoft Docs'
-description: Der vorrangige Zweck der Kostenregulierung besteht darin, Kostenänderungen von Kostenquellen zu Kostenempfängern weiterzuleiten, abhängig von der Kostenbewertungsmethode eines Artikels, um eine korrekte Lagerbewertung zu gewährleisten.
+title: Planungsdetails – Kostenanpassung
+description: Die Kostenanpassung leitet Kostenänderungen von Kostenverursachern an Kostenempfänger gemäß der Kalkulation eines Elements weiter, um eine korrekte Bestandsbewertung zu ermöglichen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0c0d46c75ca160ba5baa58bd637ead2e0339d368
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4fdf131d9f32940ed3b909c4bc98a1516f44bf64
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215403"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442460"
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetails: Kostenregulierung
 
@@ -67,7 +67,7 @@ Diese Entdeckungsfunktion wird in Konvertierungsszenarien, Produktion und Montag
 
 Die Auftragsebenenfunktion wird verwendet, um Regulierungen bei der Montagebuchung zu erkennen. Die folgende Grafik zeigt die Regulierungspostenstruktur:  
 
-![Fluss der Einträge in der Kostenanpassung](media/design_details_assembly_posting_3.png "Fluss der Einträge in der Kostenanpassung")  
+![Flow der Einträge in der Kostenanpassung.](media/design_details_assembly_posting_3.png "Fluss der Einträge in der Kostenanpassung")  
 
 Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md).  
 

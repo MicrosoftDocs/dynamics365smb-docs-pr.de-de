@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017174"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443693"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortieren, Durchsuchen und Filtern
 
@@ -24,7 +24,7 @@ Es gibt mehrere Möglichkeiten, wie Sie das tun können und die dabei helfen, Da
 Für Berichte und XML-Ports können Sie, wie bei Listen, Filter setzen, um abzugrenzen, welche Daten in den Bericht oder den XMLport aufgenommen werden sollen, aber Sie können nicht sortieren und suchen.
 
 > [!TIP]
-> Wenn Sie Ihre Daten als Kacheln anzeigen, können Sie grundlegender Filterung verwenden und entsprechend suchen. Um den gesamten Satz der leistungsstarken Funktionen zum Sortieren, Suchen und Filtern zu verwenden, wählen Sie das Symbol ![Als Liste anzeigen](media/ui_show_as_list_icon.png "Als Listenpfeil links anzeigen"), um die Datensätze als Liste anzuzeigen.
+> Wenn Sie Ihre Daten als Kacheln anzeigen, können Sie grundlegender Filterung verwenden und entsprechend suchen. Um alle festgelegten Funktionen zum Sortieren, Suchen und Filtern zu nutzen, wählen Sie das Symbol ![Als Liste anzeigen](media/ui_show_as_list_icon.png "Als Listenpfeil links anzeigen"). Symbol, um die Datensätze als Liste anzuzeigen.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -45,7 +45,7 @@ Um eine Liste zu sortieren, können Sie entweder:
 ## <a name="searching"></a>Suchen
 
 <!--## Searching by using the Quick Filter -->
-Am Anfang jeder Liste befindet sich eine Aktion ![Suchliste](media/ui-search/search-list.png "Symbol für die Suchliste") **Suchen**, die eine schnelle und einfache Möglichkeit bietet, die Datensätze in einer Liste zu verringern und nur die Datensätze mit den Daten anzuzeigen, die Sie anzeigen möchten.
+Oben auf jeder Listenseite befindet sich ein ![Suchliste.](media/ui-search/search-list.png "Symbol für die Suchliste") **Suche**, die eine schnelle und einfache Möglichkeit bietet, die Datensätze in einer Liste zu reduzieren und nur die Datensätze anzuzeigen, die die Daten enthalten, an denen Sie interessiert sind.
 
 Zur Suche wählen Sie einfach die Aktion **Suchen** aus und geben dann im Feld den Text ein, nach dem Sie suchen. Sie können Buchstaben, Ziffern und andere Symbole eingeben.
 
@@ -144,7 +144,7 @@ Sowohl im Filterbereich als auch auf einer Anforderungsseite geben Sie Ihre Filt
 
 Die Art des Filter-Feldes, das Sie filtern, bestimmt, welche Kriterien Sie eingeben können. Beispielsweise können Sie in einem Feld mit festen Werte nur in diesen Werten filtern. Weitere Informationen über spezielle Filtersymbole finden Sie unter [Filterkriterien](#FilterCriteria) und [Filtertoken](#FilterTokens)
 
-Spalten, die bereits Filter haben, werden durch das Symbol ![Filtersymbol](media/ui-search/filter-icon.png "Filtersymbol") in die Spaltenüberschrift angegeben. Wählen Sie den Dropdownpfeil im Seitentitel und dann **Filter löschen**, um einen Filter zu entfernen.
+Spalten, die bereits über Filter verfügen, werden durch das Symbol ![Filter.](media/ui-search/filter-icon.png "Filtersymbol") Symbol in der Spaltenüberschrift. Wählen Sie den Dropdownpfeil im Seitentitel und dann **Filter löschen**, um einen Filter zu entfernen.
 
 > [!TIP]
 > Beschleunigen Sie die Suche und das Analysieren Ihrer Daten, indem Sie Kombinationen von Tastenkombinationen verwenden. Wählen Sie zum Beispiel ein Feld aus, verwenden Sie **UMSCHALT+ALT+F3**, um diesen Filter dem Filterbereich hinzuzufügen und verwenden Sie **STRG+EINGABETASTE**, um die Zeilen zurückzugeben, wählen Sie ein anderes Feld aus und verwenden Sie **ALT+F3**, um zu diesem Wert zu filtern. Weitere Informationen finden Sie unter [Einrichten von Tastenkombinationen](keyboard-shortcuts.md#KeyboardFilter).
