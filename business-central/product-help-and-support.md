@@ -1,18 +1,18 @@
 ---
-title: Hilfe und Support
+title: Ressourcen für Hilfe und Support
 description: Suchen Sie Ressourcen für Produkthilfe, Anleitungen, Problemlösungstipps und Hilfe und erfahren Sie, wie Sie technischen Support für Business Central erhalten.
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/09/2021
-ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.date: 07/09/2021
+ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115411"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543070"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
@@ -71,11 +71,20 @@ Stellen Sie sicher, dass Sie die Liste nach eingereichten Vorschlägen durchsuch
 
 Der Abschnitt **Problembehebung** zeigt technischen Informationen, die Ihr Administrator oder [!INCLUDE[prod_short](includes/prod_short.md)]-Partner verwenden können, um Benutzern zu helfen. Dies beinhaltet Informationen über die letzte Fehlermeldung, die aktuelle Version von Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] und einen Link zur Seite **Seitenüberprüfung**. Weitere Informationen finden Sie unter [Seiten in Business Central überprüfen](across-inspect-page.md).  
 
-Als interner Administrator haben Sie Zugriff auf das Admin Center, in dem Sie die Fehlerbehebung fortsetzen können. Sie können Telemetrie anzeigen, Umgebungen verwalten und Benutzersitzungen verwalten. Weitere Informationen finden Sie unter [Technische Informationen finden](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) und [Umgebungen verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) im Verwaltungsinhalt.  
+Um Ihnen oder Ihrem Support-Partner bei der Fehlersuche zu helfen, können Sie im Bereich **Problem melden** eine zusätzliche Protokollierung einschalten. Die zusätzliche Telemetrie können Sie dann z.B. im Administrationscenter oder Application Insights auswerten.  
+
+Als interner Administrator haben Sie Zugriff auf das Admin Center, in dem Sie die Fehlerbehebung fortsetzen können. Sie können Telemetrie anzeigen, Umgebungen verwalten und Benutzersitzungen verwalten. In den folgenden Artikeln im Administrationsinhalt finden Sie weitere Informationen:
+
+- [Finden von technischen Informationen](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
+- [Umgebungen verwalten](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+- [Überwachen und Analysieren der Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
+- [Senden von Telemetrie an Application Insights aktivieren](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
 ## <a name="report-a-problem"></a>Problem melden
 
-Ihr [!INCLUDE[prod_short](includes/prod_short.md)] Einzelhandelspartner soll Ihnen mit technischem Support helfen. Dieser Abschnitt erleichtert Ihnen den Kontakt zu Ihrem wiederverkaufenden Partner, wenn diese Ihre Support-Kontaktdaten hinterlegt haben. Wenn Ihr [!INCLUDE[prod_short](includes/prod_short.md)] Partner das jeweilige Problem nicht lösen kann, wir er ein Support-Ticket bei Microsoft eröffnen. Weitere Informationen finden Sie unter [Unterstützungsprobleme zu Microsoft eskalieren](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) im Verwaltungsinhalt.  
+Ihr [!INCLUDE[prod_short](includes/prod_short.md)] Einzelhandelspartner soll Ihnen mit technischem Support helfen. Dieser Abschnitt erleichtert Ihnen den Kontakt zu Ihrem wiederverkaufenden Partner, wenn diese Ihre Support-Kontaktdaten hinterlegt haben. Wenn Ihr [!INCLUDE[prod_short](includes/prod_short.md)] Partner das jeweilige Problem nicht lösen kann, wir er ein Support-Ticket bei Microsoft eröffnen.  
+
+Weitere Informationen finden Sie unter [Unterstützungsprobleme zu Microsoft eskalieren](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) im Verwaltungsinhalt.  
 
 > [!NOTE]
 > Dieser Abschnitt ist nur verfügbar, wenn Sie für ein [!INCLUDE[prod_short](includes/prod_short.md)]-Abonnement bezahlt haben. Wenn Sie sich für eine Testversion angemeldet haben und [!INCLUDE[prod_short](includes/prod_short.md)] noch nicht gekauft haben, , haben Sie keinen Wiederverkaufspartner und Sie können das Microsoft-Support- Team nicht direkt kontaktieren. Sie finden einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner auf der Seite [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner).  

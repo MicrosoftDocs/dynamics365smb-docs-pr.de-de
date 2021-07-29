@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a6a8b12623f12cdc590114dd36ff10c399e38a99
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ddddcfa3439fe917a930a0a6cbd3605a273c540f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780682"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445601"
 ---
 # <a name="create-segments"></a>Segmente erstellen
 Sie können Segmente zur Auswahl einer Gruppe von Kontakten erstellen, z. B. wenn Sie eine Aktivität mit mehreren Kontakten erstellen möchten (z. B. Direktmail).
 
 ## <a name="to-create-a-segment"></a>So erstellen Sie ein Segment
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Segmente** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Segmente** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie die Aktion **Neu**.
 3. Geben Sie im Abschnitt **Allgemein** im Feld **Nr.** eine Nummer für das Segment ein.
 

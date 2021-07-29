@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 5fc64db4120b80203f99742ed3ed834b23370c47
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3f818e556b2ebe3f50189b0057f1302a5598d904
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216364"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543170"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Einkaufsberichte und Analysen in Business Central
 
@@ -24,8 +24,7 @@ In der folgenden Tabelle werden einige der wichtigsten Berichte in der Einkaufsb
 
 |Bericht |Objekt-ID|Beschreibung  |
 |---------|---------|---------|
-|**Einkaufsstatistik**|312|Zeigt Einkaufsstatistiken für jeden Kreditor an. Dies umfasst Informationen für fünf Zeiträume, beginnend mit dem von Ihnen angegebenen Datum.<br>
-Der Bericht enthält die gesamten Einkäufe, Zahlungen, Zinsrechnungen und Rabattinformationen, einschließlich der eingenommenen und verlorenen Rabatte an. Statistiken werden für Einkäufe vor dem eingegebenen Datum, in drei Monatsintervallen ab dem eingegebenen Datum und für einen Zeitraum berechnet, der alle Einkäufe umfasst, die nach dem dritten einmonatigen Intervall getätigt wurden.|
+|**Einkaufsstatistik**|312|[!INCLUDE [reports-purchase-statistics](includes/reports-purchase-statistics.md)]|
 |**Kreditor – Top-10-Liste**|311|Zeigt Daten zu den Einkäufen und Salden von Kreditoren für einen ausgewählten Zeitraum an. Sie können die Anzahl der Kreditoren festlegen, die in den Bericht aufgenommen werden sollen.<br>Die Kreditoren werden nach Beträgen sortiert, und Sie können wählen, ob die Sortierung nach Einkaufsbeträgen oder nach Saldo erfolgen soll. Der Bericht verschafft Ihnen einen schnellen Überblick der Kreditoren, von denen Sie am meisten kaufen oder welchen Sie am meisten schulden.|
 |**Kreditoren/Artikel Katalog** oder **Artikel/Lieferanten Katalog**|320 oder 720|Zeigt eine Liste der Kreditoren für die ausgewählten Artikel oder Artikel für ausgewählte Kreditoren an. Für jede Kombination von Artikel und Kreditor zeigt er den EK-Preis, die Durchlaufzeit und die Artikelnummer des Kreditors an.<br>In den USA, Kanada und Mexiko ist dieser Bericht nicht verfügbar. Verwenden Sie stattdessen die **Artikel-/Lieferantenkatalog** (10164) Bericht.|
 |**Kreditor/Artikel Einkäufe**|313|Zeigt eine Übersicht der Artikelposten jedes Kreditors in der ausgewählten Periode an. Der Bericht enthält Angaben zur fakturierten Menge, zum Rechnungsbetrag und zu möglichen Rabatten. Der Bericht kann z. B. zur Analyse der Artikeleinkäufe verwendet werden, so dass Sie erfahren, ob es eine Beziehung zwischen Rabatten und Artikeleinkäufen gibt.|

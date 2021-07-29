@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71e9c93eede8b39561dc78ff61732273003ce8de
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6c1e9a1e296abab8a77e47564eb70e97bfa7d57e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786982"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446415"
 ---
 # <a name="define-user-tasks"></a>Benutzeraufgaben definieren
 
@@ -27,7 +27,7 @@ Die Seite **Benutzeraufgaben** zeigt alle Aufgaben an, und Sie können einfach n
 
 Beispielsweise können Sie eine Aufgabe für sich selbst oder einen Mitarbeiter erstellen, sodass alle gebuchten Verkaufsrechnungen angezeigt werden. In diesem Fall können Sie die Aufgabe mit Seite 143, **„Gebuchte Verkaufsrechnungen“**, verknüpfen. Im folgenden Screenshot erstellt jemand eine Aufgabe für MeganB, um die gebuchten Verkaufsrechnungen zu überprüfen.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Beispiel für eine Benutzeraufgabe":::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Beispiel für eine Benutzeraufgabe.":::
 
 > [!TIP]  
 > Verwenden Sie die Suche im Feld **Seite**, und verwenden Sie dann das Feld **Suche**, um die Seite zu finden, die Sie anzeigen möchten.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 84b6a9fa74cea99f8b939edcf0cd883e39eb6937
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110954"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445972"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Verwenden von Word-Vorlagen für die Kommunikation
 Microsoft Word-Vorlagen können die Massenkommunikation mit Entitäten wie Debitoren und Kreditoren vereinfachen. Sie können beispielsweise Broschüren erstellen, um Debitoren über eine Verkaufskampagne zu informieren, Briefe, um Kreditoren über eine neue Einkaufsrichtlinie zu informieren, oder Einladungen, um Kontakte zu einer bevorstehenden Veranstaltung zu gewinnen.
@@ -38,7 +38,7 @@ Wenn Sie die Vorlage in Word einrichten, können Sie auf der Registerkarte **Mai
 Wenn Ihre Word-Vorlage fertig ist, können Sie auf der Seite **Word-Vorlagen** **Anwenden** auswählen, um die Dokumente zu generieren. Sie können entweder ein Dokument erstellen, das Abschnitte für jede Entität enthält, oder den Vorgang aufteilen, um ein neues Dokument für jede Entität zu erstellen.
 
 ## <a name="to-create-a-word-template"></a>Eine Word-Vorlage erstellen
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Word-Vorlagen** ein, und wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Word-Vorlagen** ein und wählen Sie dann den zugehörigen Link.
 2. Folgen Sie diesen Schritten im unterstützten Setup. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Siehe auch

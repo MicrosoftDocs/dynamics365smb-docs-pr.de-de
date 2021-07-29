@@ -1,6 +1,6 @@
 ---
 title: Verwenden von Workflows
-description: Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Erfahren Sie mehr über die verschiedenen Schritte, die Sie ausführen müssen, um Workflows zu verwenden.
+description: Sie können Workflows festlegen und verwenden, die Geschäftsprozessaufgaben wie das automatische Buchen oder das Anfordern und Genehmigen neuer Datensätze miteinander verbinden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,22 +8,57 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 92b32957bb7b20dda304be8a99bb17c5c5947498
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 51079e65deda165869d946b5efc11da85fb720e4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787007"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446519"
 ---
 # <a name="using-workflows"></a>Verwenden von Workflows
-Sie können Workflows einrichten und verwenden, die Geschäftsprozessaufgaben von verschiedenen Benutzern verbinden. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
+
+Ein Workflow ist eine Sequenz von Aufgaben, die durch eine Aktion, eine Bedingung oder eine Regel ausgelöst wird. Workflows werden in der Regel implementiert, um Geschäftslogik in eine Organisation zu integrieren, wie z. B. die Trennung von Aufgaben, die Vereinheitlichung von Prozessen oder die Erhöhung von Vertrauen und Verantwortung.  
+
+Die Workflows sind so konzipiert, dass sie Anfragen zur Genehmigung eines neuen Wertes erstellen, während der alte Wert beibehalten wird, falls die Anfrage nicht genehmigt wird. Der neue Wert wird erst dann implementiert, wenn die letzte Anforderung genehmigt ist.  
+
+Die Geschäftslogik könnte die Genehmigung von sein:
+
+- Neue Stammdaten wie Sachkonten, Debitoren, Kreditor oder Artikel
+- Änderungen an Feldern in bestehenden Datensätzen, die sensible Informationen enthalten, wie z.B. **Kreditor Bankkontonr.** oder **Kunde Kreditlimit**
+- Änderungen an Feldern in bestehenden Datensätzen, die geschäftskritische Informationen enthalten, z.B. **Artikel VK-Preise**
+- Neue Benutzer oder Änderungen an Benutzerberechtigungen
+- Kauf Belege
+- Verkaufsbelege
+- Eingehende Belege
+- Finance Erfassungen vor der Buchung
+
+Die folgende Abbildung zeigt ein Beispiel für einen Workflow mit sequentieller Genehmigung, ausgelöst durch einen Benutzer. Durch das Auslösen des Workflows wird ein Genehmigungsantrag für den ersten Genehmiger erstellt.  
+
+![Illustration eines Workflows mit sequentieller Genehmigung.](media/Workflows/approval-flow.png)
+
+In diesem Beispiel muss die Anfrage vom ersten Genehmiger genehmigt werden, bevor die Anfrage an den nächsten Genehmiger weitergeleitet wird. Wenn die Anfrage nicht vom ersten Genehmiger genehmigt wird, wird die Anfrage nie an den nächsten Genehmiger weitergeleitet.  
+
+Der Arbeitsplan ab dem ersten Auslösen des Workflows kann je nach Art der Genehmigung variieren.  
+
+Die folgende Abbildung zeigt eine parallele Genehmigung, die durch den Benutzer ausgelöst wird. Durch das Auslösen des Workflows wird ein Genehmigungsantrag an alle Genehmiger gleichzeitig gesendet.  
+
+![Illustration eines Workflows mit paralleler Genehmigung.](media/Workflows/approval-flow-2.png)
+
+Der Workflow ist jedoch erst dann genehmigt, wenn alle Anträge von den Genehmigenden genehmigt wurden, wie in der folgenden Abbildung dargestellt:  
+
+![Illustration eines abgelehnten Workflows mit paralleler Genehmigung.](media/Workflows/approval-flow-3.png)
+
+> [!NOTE]  
+> Es ist nicht möglich, einen Workflow mit mehreren Genehmigern zu erstellen und zu erwarten, dass der gesamte Workflow genehmigt wird, nachdem die erste Anfrage genehmigt wurde. Alle Anträge müssen genehmigt werden, damit der Workflow genehmigt werden kann.
+
+Sie können Workflows festlegen und verwenden, die von verschiedenen Benutzern ausgeführte Geschäftsprozessaufgaben miteinander verbinden. Es ist auch möglich, denselben Workflow mehr als einmal zu erstellen. Jeder Workflow wird durch ein Ereignis mit unterschiedlichen Filtern ausgelöst. Dies ist nützlich, wenn eine Genehmigungsanfrage in einer Abteilung von einem Genehmiger genehmigt werden muss, während Genehmigungsanfragen in anderen Abteilungen von einem anderen Genehmiger genehmigt werden müssen. Systemaufgaben, wie automatische Buchung, können als Schritte in Workflows berücksichtigt werden, vor oder nach Benutzeraufgaben. Die Anforderung oder Bewilligung von Genehmigungen zum Erstellen neuer Datensätze sind typische Workflowschritte.  
 
  Bevor Sie beginnen können, Workflows zu verwenden, müssen Sie Workflowbenutzer einrichten, die Workflows erstellen, möglicherweise Codeanpassung berücksichtigen und angeben, wie Benutzer Benachrichtigungen empfangen sollen. Weitere Informationen erhalten Sie unter [Workflows einrichten](across-set-up-workflows.md).  
 
 > [!NOTE]  
->  Typische Workflowschritte drehen sich um Benutzer, die Genehmigungen für Aufgaben anfordern, und Genehmiger, die Genehmigungsanforderungen annehmen oder ablehen. Daher beschäftigen sich viele Themen in Bezug auf die Verwendung von Workflows mit Genehmigungen.  
+> Typische Workflowschritte drehen sich um Benutzer, die Genehmigungen für Aufgaben anfordern, und Genehmiger, die Genehmigungsanforderungen annehmen oder ablehen. Daher beschäftigen sich viele Themen in Bezug auf die Verwendung von Workflows mit Genehmigungen.  
 
  Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben..  
 

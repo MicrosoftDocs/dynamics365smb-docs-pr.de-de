@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 98a8f91aa3c6b8c9b2c9348441ca369f34f73b88
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 195d94af6e34206c6107690b0fef499ccc8b2490
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882490"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446440"
 ---
 # <a name="changing-company-and-other-settings-in-teams"></a>Ändern der Firma und anderer Einstellungen in Teams
 
@@ -27,19 +27,21 @@ Es gibt zwei Möglichkeiten, die Seite **Einstellungen** zu öffnen: 1) Vom Feld
 
 1. Klicken Sie unter dem Feld zum Erstellen von Nachrichten mit der rechten Maustaste auf [!INCLUDE [prod_short](includes/prod_short.md)]-App-Symbol, dann wählen Sie **Einstellungen** aus.
 
-    ![Einstellungen für Business Central über das Befehlsfeld](media/teams-settings-message-box.png)
+    ![Einstellungen für Business Central aus dem Befehlsfeld.](media/teams-settings-message-box.png)
 
 2. Suchen Sie im Befehlsfeld oben nach **@ Business Central**, wählen Sie **... (Mehr Optionen)** und dann **Einstellungen** aus.
 
-   ![Einstellungen für Business Central über das Nachrichtenfeld](media/teams-settings-command-box.png)
+   ![Einstellungen für Business Central aus dem Nachrichtenfeld festlegen.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
-[Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md)  
+[Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  
+[Suchen Sie nach Debitoren, Kreditoren und anderen Kontakten aus Microsoft Teams](across-search-contacts-teams.md)  
+[Datensätze in Microsoft Teams freigeben](across-working-with-teams.md)  
 [Teams FAQ](teams-faq.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
-[Entwicklung für die Teams-Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

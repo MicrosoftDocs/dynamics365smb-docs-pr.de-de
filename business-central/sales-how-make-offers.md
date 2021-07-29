@@ -1,6 +1,6 @@
 ---
-title: Verkaufsangebote für einen Kunden erstellen
-description: Beschreibt, wie Verkaufsangebote oder eine Anforderung erstellt wird, um Ihr Angebot zu erfassen, um unter bestimmten Bedingungen einem Debitoren zu verkaufen.
+title: Verkaufsangebote machen
+description: Lesen Sie, wie Sie ein Verkaufsangebot oder einen Beleg für eine Angebotsanfrage (RFQ) erstellen, um Ihr Angebot an einen Debitor oder Interessenten zum Verkauf von Produkten zu bestimmten Bedingungen zu erstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,36 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 05/27/2021
+ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a538b7099521b10227bf5aeaefad0a9c60971068
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a3a35738bc15e401edbd0fd3bf02ef50ff015520
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115540"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543120"
 ---
 # <a name="make-sales-quotes"></a>Verkaufsangebote machen
 
-Sie erstellen eine Angebotsrechnung, um Ihr Angebot für den Debitor zu erfassen, um bestimmte Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu verkaufen. Sie können das Verkaufsangebot an den Debitor senden, um das Angebot mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung des Angebots vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md).
+Sie erstellen ein Verkaufsangebot, um Ihren Datensatz an einen Debitor oder Interessenten zu erstellen, um bestimmte Produkte zu bestimmten Liefer- und Zahlungsbedingungen zu verkaufen. Sie können das Verkaufsangebot an den Debitor senden, um das Angebot mitzuteilen. Sie können den Beleg als PDF-Dateianhang senden. Sie können den E-Mail-Text auch, der mit einer Zusammenfassung des Angebots vorab ausgefüllt wurde. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md).
 
-Während Sie mit dem Debitor verhandeln, können Sie das Verkaufsangebot ändern wie benötigt und erneut versenden. Wenn der Debitor das Angebot annimmt, wandeln Sie das Verkaufsangebot in eine Verkaufsrechnung, in der Sie den Verkauf verarbeiten. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).
+Während Sie mit dem Kunden oder Interessenten verhandeln, können Sie das Verkaufsangebot so oft wie nötig ändern und erneut versenden. Wenn der Debitor das Angebot annimmt, wandeln Sie das Verkaufsangebot in eine Verkaufsrechnung, in der Sie den Verkauf verarbeiten. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).
 
-Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen, abhängig davon, ob der Debitor bereits registriert ist oder nicht. Siehe Schritt 2 und 3 im folgenden Verfahren.
+In den meisten Fällen senden Sie Verkaufsangebote an potenzielle Kunden. Sie haben oft einen Ansprechpartner, mit dem Sie verhandeln. Wenn dieser dann Ihr Angebot annimmt, wandeln Sie das Verkaufsangebot in einen Auftrag um und registrieren den Interessenten als Kunden in [!INCLUDE [prod_short](includes/prod_short.md)]. Im folgenden Verfahren konzentrieren wir uns auf Kontakte, aber Sie können auch Angebote an bestehende Kunden senden.  
 
 ## <a name="to-create-a-sales-quote"></a>So erstellen Sie Verkaufsangebote:
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Angebote** ein, und wählen Sie dann den entsprechenden Link aus.
-2. Geben Sie im Feld **Debitor** den Namen eines vorhandenen Debitors ein.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsangebote** ein, und wählen Sie dann den entsprechenden Link.
+2. Geben Sie den Kontakt oder Debitor an, an den Sie das Verkaufsangebot senden möchten.
 
-   Andere Felder auf der Seite **Verkaufsangebot** werden nun mit den Standardinformationen vom ausgewählten Debitor ausgefüllt.  
+    - Wenn es sich um ein Verkaufsangebot für einen bestehenden Kontakt handelt, geben Sie den Namen im Feld **Kontaktnr.** an. Feld eingetragen.  
 
-    [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]
+        Wenn das Verkaufsangebot für einen bestehenden Kunden bestimmt ist, geben Sie den Debitor im Feld **Kunde** an.
+    - Wenn der Kontakt nicht registriert ist, gehen Sie wie folgt vor:
 
-    Felder im Verkaufsangebot werden mit den Informationen, die Sie festgelegt haben, in der neuen Debitorenkarte ausgefüllt.  
+        1. Wählen Sie im Feld **Kontaktnr.** Feld, wählen Sie die Schaltfläche :::image type="icon" source="media/assist-edit-icon.png" border="false"::: bearbeiten.
+        2. Wählen Sie im Dialogfenster zur Auswahl des Kontakts die Aktion **Neu** und füllen Sie dann die entsprechenden Felder aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Für weitere Informationen siehe [Kontakte erstellen](marketing-create-contact-companies.md).  
+        3. Wenn Sie die Kontaktkarte ausgefüllt haben, wählen Sie den neu erstellten Kontakt in der Liste der Kontakte aus und wählen dann die Schaltfläche OK, um zum Verkaufsangebot zurückzukehren.
+
+        Mehrere Felder des Verkaufsangebots sind nun mit den Informationen gefüllt, die Sie auf der neuen Kontaktkarte angegeben haben.
+
+        > [!NOTE]
+        > Um Steuern und Preise für ein Angebot korrekt zu berechnen, müssen Sie die entsprechende Kundenvorlage im Feld **Kundenvorlagencode** auswählen. Die Vorlage wird verwendet, um den Kontakt in einen Debitor umzuwandeln, sobald das Angebot in einen Verkaufsauftrag oder eine Rechnung umgewandelt wird.
+    -  Wenn es sich um ein Angebot für einen neuen Kunden handelt, müssen Sie den Kunden hinzufügen. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).  
+
 3. Füllen Sie auf der Seite **Verkaufsangebot** die Felder wie benötigt aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Sie können nun die Verkaufsauftragszeilen für Produkte füllen, die Sie an den Debitoren oder für jede mögliche Transaktion mit dem Debitoren verkaufen, den Sie im Sachkonto buchen möchten.  
+    Jetzt können Sie die Verkaufszeilen für die Produkte, die Sie verkaufen, oder für jede Transaktion mit dem Kunden oder Interessenten, die Sie in einem Sachkonto aufzeichnen wollen, ausfüllen.  
 
     Wenn Sie wiederkehrende Verkaufszeilen für den Debitor wie einen Monatsersatzauftrag, eingerichtet haben, können Sie diese Zeilen auf der Rechnung durch Auswählen der Schaltfläche **Wiederkehrende Verkaufszeilen holen** einfügen.  
 
@@ -59,7 +69,7 @@ Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen
 7. Wenn Sie Skonto gewähren möchten, geben Sie einen Prozentsatz im Feld **Zeilenrabatt %** ein. Der Wert im Feld **Zeilenbetrag** wird entsprechend aktualisiert.  
 
     Wenn Sie bestimmte Artikelpreise für den Debitor auf dem Inforegister **Verkaufspreise und Verkaufspreis-Zeilenrabatte** eingerichtet haben, werden der Preis und der Betrag auf der Rechnungszeile automatisch aktualisiert, wenn die vereinbarten Preiskriterien erfüllt sind. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Rabatt und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)  
-8. Wiederholen Sie die Schritte 4 bis 7 für jedes Produkt, das Sie an den Debitoren verkaufen möchten.
+8. Wiederholen Sie die Schritte 4 bis 7 für jedes Produkt, das Sie dem Kontakt anbieten wollen.
 
     Die Summen unter den Zeilen werden berechnet, während Sie Zeilen erstellen oder ändern.  
 9. Geben Sie im Feld **Rabattbetrag in Rechnung stellen** einen Betrag ein, der vom Wert abgezogen werden soll, der im Feld **Total inklusive Mehrwertsteuer** im unteren Bereich der Rechnung angezeigt wird.
@@ -70,20 +80,30 @@ Sie können die oberen Infoboxen des Verkaufsangebotes auf zwei Arten ausfüllen
     > Um **Angebot gültig bis Datum** haben, die automatisch mit einigen Tage nach Angebotserstellung ausgefüllt ist, können Sie das **Angebots-Gültigkeits-Berechnung** auf der Seite **Debitoren & Verkauf** ausfüllen.
 
 10. Wenn die Verkaufsangebotszeilen ausgeführt werden, wählen Sie die Aktion **Per E-Mail senden** aus.
-11. Auf der Seite **E-Mail senden** füllen Sie die restlichen Felder aus und überprüfen Sie das eingebettete Verkaufsangebot. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md).
-12. Wenn der Debitor das Angebot annimmt, wählen Sie **Rechnung erstellen** oder **Auftrag vornehmen** aus.
+11. Auf der Seite **E-Mail senden** füllen Sie die restlichen Felder aus und überprüfen Sie das eingebettete Verkaufsangebot. Weitere Informationen finden Sie unter [Dokumente per E-Mail versenden](ui-how-send-documents-email.md).
+12. Wenn der Kontakt das Angebot annimmt, wählen Sie die Aktion **Bestellung vornehmen**.  
 
-Das Verkaufsangebot wird aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen im Verkaufsangebot erstellt, in dem Sie den Verkauf verarbeiten können. In der erstellten Verkaufsrechnung gibt das Feld **Angebotsnr.** die Nummer des Verkaufsauftrags oder der Rechnung  n, aus dem sie erstellt wurde. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).  
+    Alternativ, wenn Ihr Unternehmen diesen Prozess bevorzugt, wählen Sie die Aktion **Rechnung erstellen**.  
+    > [!NOTE]
+    > Wenn Sie in Schritt 2 einen Debitor hinzugefügt haben, werden Sie aufgefordert, die Umwandlung des Angebots in eine Bestellung zu bestätigen.  
+    >
+    > Wenn Sie in Schritt 2 einen Kontakt von einem Interessenten hinzugefügt haben, werden Sie aufgefordert, die folgenden Schritte auszuführen:
+    >
+    >  - Konvertieren Sie den Kontakt oder Interessenten in einen Debitor, indem Sie eine der Kontaktkonvertierungsvorlagen auswählen. Weitere Informationen finden Sie unter [So erstellen Sie einen Kontakt als Debitor, Kreditor , Mitarbeiter oder Bankkonto von einem Kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+    > - Bestätigen Sie die Umwandlung des Angebots in einen Auftrag.
+
+Durch die Umwandlung wird das Verkaufsangebot aus der Datenbank entfernt. Eine Verkaufsrechnung oder ein Verkaufsauftrag wird auf der Basis der Informationen im Verkaufsangebot erstellt, damit Sie den Verkauf verarbeiten können. In der erstellten Verkaufsrechnung gibt das Feld **Angebotsnr.** die Nummer des Verkaufsauftrags oder der Rechnung  n, aus dem sie erstellt wurde. Weitere Informationen finden Sie unter [Fakturieren eines Verkaufs](sales-how-invoice-sales.md) und [Neue Produkte verkaufen](sales-how-sell-products.md).  
 
 ## <a name="external-document-number"></a>Externe Belegnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Verkauf](sales-manage-sales.md)  
 [Einrichten von Verkäufen](sales-setup-sales.md)  
 [Dokumente per E-Mail versenden](ui-how-send-documents-email.md)  
+[Beleg archivieren](across-how-to-archive-documents.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

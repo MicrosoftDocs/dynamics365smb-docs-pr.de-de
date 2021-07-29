@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08a2443f94efbc9920145109b4b7499a3a4e05b3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 36d841a7231794e1cfb61a928efbbf3f83bbdc27
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783622"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446265"
 ---
 # <a name="set-up-finance-charge-terms"></a>Zinskonditionen einrichten
 
@@ -41,7 +41,7 @@ Zusätzlich ist jede Bestimmung in der Tabelle Zinskondition mit einer Untertabe
 
 ### <a name="to-set-up-finance-charge-terms"></a>Um Bedingungen für Gebühren festzulegen
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Zinskonditionen** ein, und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zinskonditionen** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Um mehr als eine Kombination von Mahnmethoden zu verwenden, richten Sie einen Code für jede ein.
 

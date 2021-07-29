@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6a5d435243b6912ddac449fd55aa4c2bce3f291
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783390"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445922"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung
 
@@ -23,7 +23,7 @@ ms.locfileid: "5783390"
 
 ## <a name="switch-to-another-environment"></a>Wechselt zu einer anderen Umgebung
 
-Wenn Sie bei [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, sind die Umgebungen, auf die Sie zugreifen können, auf der Dynamics 365-Startseite verfügbar. Sie können die Seite öffnen, indem Sie das Symbol **App-Startfeld** ![App-Startfeld](media/app-launcher-icon.png "Das App-Startfeld bietet Zugriff auf weitere Funktionen.") und dann **Dynamics 365** auswählen. Wählen Sie die Kachel aus, um zu Ihrem Standardunternehmen in dieser Umgebung zu navigieren. Für jeden Umgebungstyp ist eine Kachel verfügbar. Wenn Sie über mehrere Umgebungen eines bestimmten Typs verfügen, können Sie bei Auswahl der Kachel die Umgebung auswählen, auf Sie zugreifen möchten.
+Wenn Sie bei [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, sind die Umgebungen, auf die Sie zugreifen können, auf der Dynamics 365-Startseite verfügbar. Sie können die Seite öffnen, indem Sie das Symbol **App Launcher** ![App Launcher.](media/app-launcher-icon.png "Das App-Startfeld bietet Zugriff auf weitere Funktionen.") wählen und wählen Sie **Dynamics 365**. Wählen Sie die Kachel aus, um zu Ihrem Standardunternehmen in dieser Umgebung zu navigieren. Für jeden Umgebungstyp ist eine Kachel verfügbar. Wenn Sie über mehrere Umgebungen eines bestimmten Typs verfügen, können Sie bei Auswahl der Kachel die Umgebung auswählen, auf Sie zugreifen möchten.
 
 Das folgende Bild zeigt Kacheln für den Zugriff auf Produktions- und Sandbox-Umgebungen auf der Dynamics 365-Startseite.
 
@@ -33,7 +33,7 @@ Das folgende Bild zeigt Kacheln für den Zugriff auf Produktions- und Sandbox-Um
 
 Wenn Sie bei [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, können Sie schnell zu einem anderen Unternehmen wechseln. Nachdem Sie den Wechsel vorgenommen haben, wird das von Ihnen ausgewählte Unternehmen zu Ihrem Standardunternehmen und bei Ihrer nächsten Anmeldung angezeigt.
 
-1. In der oberen rechter Ecke wählen Sie das Symbol **Einstellungen** aus ![Einstellungen](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") und wählen dann die Aktion **Meine Einstellungen**.
+1. Wählen Sie in der oberen rechten Ecke das Symbol **Einstellungen** ![Einstellungen.](media/ui-experience/settings_icon_small.png "Einstellungssymbol für Rollenzentrum") und dann die Aktion **Meine Einstellungen**.
 
     > [!TIP]
     > Sie können auch die Tastenkombination ALT+T verwenden, um die Seite „Meine Einstellungen“ schnell zu öffnen.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074687"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446465"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integration von Business Central und Microsoft Teams
 
@@ -33,11 +33,11 @@ Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Teams bietet die fo
 
 Unabhängig davon, wo Sie sich in Teams befinden, können Sie Details zu Debitoren, Kreditoren und anderen [!INCLUDE [prod_short](includes/prod_short.md)]-Kontakten nachschlagen. Mit dieser Funktion können Sie nicht nur allgemeine Informationen zu Kontakten anzeigen, sondern auch auf den Interaktionsverlauf, verwandte Dokumente und mehr zugreifen.
 
- [![Nach Business Central-Kontakten über das Befehlsfeld in Teams suchen](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Business Central-Kontakte aus Teams-Befehlsfeld nachschlagen.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 Sie können auch Kontaktdaten in einem Gespräch teilen. Von dort haben die Teilnehmer auch Zugriff auf noch mehr Details zum Kontakt.
 
- [![Nach Business Central-Kontakten über das Erstellungsfeld in Teams suchen](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Business Central-Kontakte aus der Teams-Befehlsbox nachschlagen.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 Weitere Informationen finden Sie unter [Suchen nach Kontakten von Microsoft Teams](across-search-contacts-teams.md).
 
@@ -45,7 +45,7 @@ Weitere Informationen finden Sie unter [Suchen nach Kontakten von Microsoft Team
 
 Sie können einen Link zu einem beliebigen Business Central-Datensatz kopieren und ihn in eine Teams-Unterhaltung einfügen, um ihn dann mit Ihren Mitarbeitern zu teilen. Die App dann wird zu einem kompakten, interaktiven Link erweitert, auf dem Informationen zum Datensatz angezeigt werden.
 
-[![Teams-Integration in Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-Integration mit Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Wenn Sie sich in der Unterhaltung befinden, können Sie und Ihre Mitarbeiter weitere Details zum Datensatz anzeigen, Daten bearbeiten und Maßnahmen ergreifen, ohne Teams zu verlassen.
 
@@ -64,11 +64,12 @@ Weitere Informationen finden Sie unter [Datensätze in Microsoft Teams](across-w
 3. Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams. Siehe [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md).
 4. Sobald die App installiert ist, können Sie loslegen. Weitere Informationen finden Sie unter [Debitoren, Kreditoren oder andere Kontakte über Microsoft Teams suchen](across-search-contacts-teams.md) und unter [Datensätze in Microsoft Teams teilen](across-working-with-teams.md). 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Teams FAQ](teams-faq.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
-[Entwicklung für die Teams-Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
+[Ändern von Firmen- und anderen Einstellungen in Teams](across-teams-settings.md)  
+[Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

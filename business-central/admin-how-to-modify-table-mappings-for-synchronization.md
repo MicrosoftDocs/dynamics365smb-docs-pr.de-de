@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779807"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446390"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Zu synchronisierende Tabellen und Felder zuordnen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -68,7 +68,7 @@ Kopplungen können automatisch eingerichtet werden, indem die Synchronisierungsa
 Falls Sie nicht alle Zeilen für eine bestimmte Tabelle in [!INCLUDE[prod_short](includes/cds_long_md.md)] oder Tabelle in [!INCLUDE[prod_short](includes/prod_short.md)] synchronisieren möchten, können Sie Filter einrichten, um die Datensätze zu begrenzen, die synchronisiert werden. Sie können Filter auf der Seite **Integrationstabellenzuordnungen** einrichten.  
 
 #### <a name="to-filter-records-or-rows-for-synchronization"></a>So filtern Sie Datensätze oder Zeilen für die Synchronisierung  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Integrationstabellenzuordnungen** ein und wählen Sie dann den zugehörigen Link.
 
 2.  Um die [!INCLUDE[prod_short](includes/prod_short.md)]-Datensätze zu filtern, legen Sie das Feld **Tabellenfilter** fest.  
 
@@ -80,7 +80,7 @@ Standardmäßig werden nur Datensätze in [!INCLUDE[prod_short](includes/prod_sh
 Beispielsweise verwendet der SALESPEOPLE - Dynamics 365 Sales Synchronisierungsauftrag die Tabellenzuordnung VERKÄUFER. Das Synchronisierungsprojekt kopiert Daten von Benutzern in [!INCLUDE[prod_short](includes/cds_long_md.md)] in Verkäuferdatensätze in [!INCLUDE[prod_short](includes/prod_short.md)]. Wenn Sie die Tabellenzuordnung einrichten, um neue Datensätze zu erstellen, wird für jeden Benutzer in [!INCLUDE[prod_short](includes/cds_long_md.md)], der nicht bereits an einen Verkäufer in [!INCLUDE[prod_short](includes/prod_short.md)] gekoppelt ist, eine neue Verkäuferzeile in [!INCLUDE[prod_short](includes/prod_short.md)] erstellt.  
 
 #### <a name="to-create-new-records-during-synchronization"></a>So erstellen Sie neue Datensätze während der Synchronisierung:  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Integrationstabellenzuordnungen** ein und wählen Sie dann den zugehörigen Link.
 
 2.  Deaktivieren Sie im Tabellenzuordnungseintrag in der Liste das Feld **Nur gekoppelte Datensätze synchronisieren**.  
 
@@ -96,7 +96,7 @@ Wenn Sie das Standard-Synchronisationssetup installieren, werden in den meisten 
 -   **CDSACCOUNT** erstellt und synchronisiert neue Konten in [!INCLUDE[prod_short](includes/cds_long_md.md)] basierend auf einem Konto in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>So bestimmen Sie Konfigurationsvorlagen für eine Tabellenzuordnung:  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Integrationstabellenzuordnungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Integrationstabellenzuordnungen** ein und wählen Sie dann den zugehörigen Link.
 
 2.  Wählen Sie im Tabellenzuordnungseintrag in der Liste im Feld **Vorlagencode Tabellenkonfiguration** die Konfigurationsvorlage aus, die für neue Datensätze in [!INCLUDE[prod_short](includes/prod_short.md)] verwendet werden soll.  
 

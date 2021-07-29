@@ -1,6 +1,6 @@
 ---
 title: Aktualisieren einer Integration mit Dynamics 365 Sales
-description: Erfahren Sie, wie Sie Ihre Dynamics 365 Business Central-Integration mit Dynamics 365 Sales auf die neueste Version aktualisieren.
+description: In diesem Thema erfahren Sie, wie Sie Ihre Dynamics 365 Business Central-Integration mit Dynamics 365 Sales auf die neueste Version verschieben können.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 772052fc88e0b8be7ec5276600b0c237e2d2f8b2
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: c6405326890b8f33b399f880e54d0fcf14db1650
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025808"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543020"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Aktualisieren einer Integration mit Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] lässt sich mit der [!INCLUDE[prod_short](includes/cds_long_md.md)] integrieren, was die Verbindung und Synchronisierung von Daten mit anderen Dynamics 365-Anwendungen wie [!INCLUDE[crm_md](includes/crm_md.md)] oder sogar selbst erstellten Anwendungen erleichtert. Wenn Sie zum ersten Mal integrieren, empfehlen wir Ihnen, dies über [!INCLUDE[prod_short](includes/cds_long_md.md)] zu tun. Weitere Informationen finden Sie unter [Integration mit Dataverse](admin-common-data-service.md).
@@ -26,17 +26,16 @@ Wenn Sie bereits [!INCLUDE[crm_md](includes/crm_md.md)] mit [!INCLUDE[prod_short
 > Eine erneute Verbindung über [!INCLUDE[prod_short](includes/cds_long_md.md)] wendet die Standard-Synchronisationseinstellungen an und überschreibt alle Ihre Konfigurationen. Es werden zum Beispiel die Standard-Tabellenzuordnungen angewendet.
 
 ## <a name="to-upgrade-your-connection-to-use-dataverse"></a>So rüsten Sie Ihre Verbindung auf die Verwendung von Dataverse auf
-1. Öffnen Sie die Seite **Microsoft Dynamics 365 Verbindungseinrichtung**, und wählen Sie den Schalter **Aktivieren**, um die Verbindung von [!INCLUDE[crm_md](includes/crm_md.md)] einzuschalten.
-2. Öffnen Sie die Seite **Dataverse Verbindungseinrichtung**, und wählen Sie den Schalter **Aktivieren**, um die Verbindung mit [!INCLUDE[prod_short](includes/cds_long_md.md)] zu aktivieren.
+1. Öffnen Sie die Seite **Microsoft Dynamics 365 Verbindungseinrichtung** und deaktivieren Sie dann den Schalter **Aktiviert**. Schließen Sie dann die Seite, um die Verbindung zu [!INCLUDE[crm_md](includes/crm_md.md)] zu trennen.
+2. Öffnen Sie die Seite **Dataverse Verbindungseinrichtung** und wählen Sie im Feld **Eigentümermodell** **Person**. Wählen Sie dann den Umschalter **Aktiviert**, um die Verbindung zu [!INCLUDE[prod_short](includes/cds_long_md.md)] einzuschalten.
   
    > [!NOTE]
    > Nachdem Sie die Verbindung aktiviert haben, wird die Business Central CDS Base Integration Solution auf Dataverse bereitgestellt.
-3. Wählen Sie **Integrationslösung neu bereitstellen**, um die aktualisierte Business Central Integration Solution neu zu installieren und zu konfigurieren.
-4. Aktivieren Sie auf der Seite **Microsoft Dynamics 365 Verbindungseinrichtung** das Kontrollkästchen **Aktiviert**, um eine Verbindung zu [!INCLUDE[crm_md](includes/crm_md.md)] erneut herzustellen.
+4. Wählen Sie auf der Seite **Microsoft Dynamics 365 Verbindungseinrichtung** die Option **Integrationslösung neu einrichten**, um die Business Central Integrationslösung neu zu installieren.
+5. Schalten Sie den Schalter **Aktiviert** ein, um die Verbindung zu [!INCLUDE[crm_md](includes/crm_md.md)] wiederherzustellen.
   
    > [!NOTE]
    > Nachdem Sie die Verbindung aktiviert haben, wird die Business Central CDS Base Integration Solution auf [!INCLUDE[prod_short](includes/prod_short.md)] bereitgestellt. Dies ermöglicht die Integration mit Tabellen, die spezifisch für [!INCLUDE[crm_md](includes/crm_md.md)] sind, wie z.B. Debitorenaufträge, Angebote und Rechnungen.
-5. Wählen Sie **Integrationslösung neu bereitstellen**, um die aktualisierte Business Central Integration Solution neu zu installieren und zu konfigurieren.
 6. Wählen Sie auf der Seite **Sales-Verbindungseinrichtung** die Aktion **Standardsynchronisationseinrichtung verwenden**, um die Integrationstabellenzuordnungen für [!INCLUDE[crm_md](includes/crm_md.md)] zu initialisieren.
 
    > [!IMPORTANT]

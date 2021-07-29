@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: a8ada1c8488e8c5dec581db98dccf02d89da21c3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216360"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543247"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Verkaufsberichte und Analysen in Business Central
 
@@ -31,7 +31,7 @@ In der folgenden Tabelle werden einige der wichtigsten Berichte in der Verkaufsb
 |**Debitor – Verkaufsübersicht**|119|Zeigt den Debitorenverkauf einer Periode. Sie verwenden diesen Bericht zur Berichterstattung an die Zoll- und Steuerbehörden. Sie können nur Debitoren auswählen, deren Gesamtverkauf einen Minimalbetrag übersteigt. Sie können auch festlegen, ob in dem Bericht die Adressdetails der einzelnen Debitoren angezeigt werden sollen.<br>Der Bericht basiert auf den erfassten Verkäufen (MW) der Debitorenposten. Im unteren Bereich des Berichts wird der "Total berichteter Verkaufsbetrag (MW)" angezeigt. Dem Gesamtbetrag werden jene Debitoren zugrunde gelegt, die auf dem Inforegister "Debitor" für den Bericht festgelegt wurden und deren Gesamtbeträge höher sind als der Betrag, welcher auf dem Inforegister **Optionen** im Feld **Beträge (MW) höher als** definiert wurde.|
 |**Debitorenposten per**|121|Zeigt eine detaillierte Saldenaufstellung für ausgewählte Debitoren an. Verwenden Sie beispielsweise den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden.|
 |**Debitor – Rohbilanz**|129|Zeigt eine detaillierte Saldenaufstellung für ausgewählte Debitoren an. Sie verwenden diesen Bericht, um zu überprüfen, ob der Saldo der Debitorenbuchungsgruppe mit dem Saldo des entsprechenden Sachkontos zu einem bestimmten Datum übereinstimmt. Verwenden Sie beispielsweise den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. Wenn Sie eine ausführlichere Version dieses Berichtstyps benötigen, verwenden Sie den Bericht **Debitor – Kontoblatt** (104).|
-|**Verkaufsstatistik**|112|Zeigt für jeden Debitor Beträge für den Verkauf, Deckungsbeitrag, Rechnungsrabatt und Skonto in MW sowie den Deckungsbeitrag in Prozent. Beträge und Deckungsbeiträge werden sowohl als Urspr.-Einstandsbeträge (MW) als auch Lagerwerte reguliert (MW) angegeben. Die Urspr.-Einstandsbeträge wurden zum Zeitpunkt der Buchung berechnet, während die Lagerwerte reguliert die Abweichungen der Urspr.-Einstandsbeträge der Artikel im Verkauf widerspiegeln. Der im Bericht enthaltene regulierte Einstandspreis ist die Differenz zwischen dem Urspr.-Einstandsbetrag und dem Lagerwert reguliert.<br>Die Zahlen sind in drei Perioden unterteilt. Sie können die Länge der Periode beginnend mit einem bestimmten Datum auswählen. Es gibt auch Spalten für Beträge vor und nach den drei Perioden. Verwenden Sie den Bericht, um beispielsweise die Umsätze mit einem bestimmten Debitor und Umsatztrends zu analysieren. |
+|**Verkaufsstatistik**|112|[!INCLUDE [reports-sales-statistics](includes/reports-sales-statistics.md)] |
 |**Verk.-Reserv.-Verfügbarkeit**|209|Zeigt die Verfügbarkeit von Artikeln zur Lieferung in Verkaufsbelegen an. Sie legen fest, ob der Bericht den Status jedes Belegs oder jeder Verkaufszeile anzeigen soll. Wenn Sie den Bericht drucken, können Sie auch die Menge, die zur Lieferung zur Verfügung steht, im Feld **Zu liefern** in den Verkaufszeilen aktualisieren. Dann können Sie den Bericht dazu verwenden, zu entscheiden, welche Belege Sie buchen.<br>Es gibt auch eine Funktion, mit der Sie die Menge der zu versendenden Waren festlegen können. **Hinweis**: Dieser Bericht ist für erweiterte Lagerfunktionen nicht verfügbar.|
 |**Warenausgangsstatus Lager**|7313|Dieser Bericht kann für alle Standorte verwendet werden, an denen das Feld **Warenausgang erforderlich** ausgewählt ist. Der Bericht **Warenausgangsstatus** zeigt Ihnen alle noch nicht gebuchten Lagerversandbelege an, einschließlich der Lagerplätze, Lagerplatzcodes, Belegstatus, Mengen usw. Dieser Bericht ist perfekt, um sich einen Überblick zu verschaffen.|
 |**Lager - Kommissionierliste**|813|Zeigt eine Liste der Verkaufsaufträge an, in denen ein Artikel enthalten ist. Die folgenden Informationen werden für jeden Artikel angezeigt: Verkaufsauftragszeile mit Namen des Debitors, Variantencode, Lagerortcode, Lagerplatzcode, Warenausgangsdatum, Menge zu liefern und Einheit. Die zu liefernde Menge wird für jeden Artikel aufsummiert. Der Bericht kann verwendet werden, wenn Artikel aus dem Lager entnommen werden sollen.<br>**Hinweis**: Dieser Bericht ist für erweiterte Lagerfunktionen nicht verfügbar.|
