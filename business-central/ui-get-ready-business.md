@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074662"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444820"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 
@@ -23,9 +23,9 @@ Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[prod_short]
 
 Damit Sie sich leichter auf Ihre Geschäftstätigkeiten vorbereiten können, können Sie die Seite **Unterstützte Einrichtung** besuchen. Dort können Sie Anleitungen zur unterstützten Einrichtung, Videos oder Hilfethemen für ausgewählte Einrichtungsaufgaben starten. Wählen Sie zum Aufrufen der Seite einfach [diesen Link](https://businesscentral.dynamics.com/?page=1801) aus.  
 
-Sie können auch das ![Zahnradsymbol zum Öffnen des Einstellungsmenüs](media/ui-experience/settings_icon_small.png) und dann die Aktion **Unterstützte Einrichtung** auswählen.
+Alternativ können Sie das ![Rad-Symbol wählen, um das Menü „Einstellungen“ zu öffnen.](media/ui-experience/settings_icon_small.png) Symbol, und dann die Aktion **Unterstützte Einrichtung**.
 
-Sie können auch die Liste der Anleitungen zur unterstützten Einrichtung auch suchen, wenn Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") auswählen, **Unterstützes Setup** eingeben und dann den entsprechenden Link auswählen.  
+Sie finden die Liste der Anleitungen für die Unterstützte Einrichtung auch, wenn Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") wählen. Symbol. Geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann den zugehörigen Link.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -36,7 +36,7 @@ Ab 2021 Veröffentlichungszyklus 1, wenn Sie sich zum ersten Mal anmelden oder e
 
 Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie jedoch in Betracht ziehen, ob andere Anleitungen zur unterstützten Einrichtung auf der Liste Ihnen helfen können.
 
-Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt ist, wählen Sie das Symbol ![Zahnrad, um das Einstellungsmenü zu öffnen](media/ui-experience/settings_icon_small.png) und dann die Aktion **Erweiterte Einstellungen**. Unter **Erweiterte Einstellungen** bietet der Abschnitt **Manuelle Einrichtung** Zugang zu Einrichtungsseiten, auf denen Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
+Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt ist, wählen Sie das Symbol ![Rad, um das Menü Einstellungen zu öffnen.](media/ui-experience/settings_icon_small.png) Symbol, und dann die Aktion **Erweiterte Einstellungen**. Unter **Erweiterte Einstellungen** bietet der Abschnitt **Manuelle Einrichtung** Zugang zu Einrichtungsseiten, auf denen Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
 
 > [!NOTE]  
 > Die Liste der Leitfäden für das unterstützte Setup, Erweiterungen und Diensten, die verfügbar sind, unterscheidet sich abhängig von der Benutzerumgebung, die Sie für Ihr Unternehmen auswählen. Die **Standard** Umgebung gibt Zugang zu weniger, als die Umgebung **Premium**.

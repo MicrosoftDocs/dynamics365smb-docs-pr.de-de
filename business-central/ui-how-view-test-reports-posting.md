@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 9c2d32fd87112b839e6f60362fbd929870d47138
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 96e4ef52bc896cd02f0e6b38a470d16a00284c66
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774461"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445422"
 ---
 # <a name="view-test-reports-before-posting"></a>Anzeigen von Testberichten vor dem Buchen
 Wenn Sie bereit sind, ein Dokument zu buchen (beispielsweise eine Bestellung, eine Einkaufsrechnung oder eine Einkaufsgutschrift), können Sie das Dokument testen, um sicherzustellen, dass keine Probleme vorhanden sind, die das Buchen verhindern.
@@ -25,7 +25,7 @@ Wenn Sie bereit sind, ein Dokument zu buchen (beispielsweise eine Bestellung, ei
 >   Die nachfolgende Prozedur beschreibt, wie Sie einen Einkaufsbeleg vor dem Verbuchen testen. Diese Funktionalität gilt auf gleiche Weise für Verkaufsbelege.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>So drucken Sie einen Testbericht vor der Buchung einer Einkaufsrechnung
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Einkaufsrechnung, die Sie testen möchten.
 3. Wählen Sie die **Bericht testen** Aktion aus.  
 

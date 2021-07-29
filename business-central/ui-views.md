@@ -1,6 +1,6 @@
 ---
-title: Speichern und personalisieren Sie Listenansichten | Microsoft Docs
-description: Erfahren Sie, wie Sie Ihre eigenen Ansichten von gefilterten Listen erstellen.
+title: Speichern und personalisieren Sie Listenansichten
+description: Erfahren Sie, wie Sie eigene Ansichten für gefilterte Listen erstellen und wie Sie diese Ansichten speichern, umbenennen und verwalten können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 6ac3489151d9e4e0ebf0867b94b59678bba0f35e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017074"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445351"
 ---
-# <a name="save-and-personalize-list-views"></a>Speichern und personalisieren Sie Listenansichten
+# <a name="save-and-personalize-list-views"></a>Listenansichten speichern und personalisieren
 Wenn Sie einen Filter für eine Liste festgelegt haben und den Filter für später behalten möchten, können Sie ihn als Ansicht speichern. Weitere Informationen zum Filtern von Listen finden Sie unter [Festlegen von Filtern in Listen](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
 Wenn Ansichten vorhanden sind, wird die Gruppe **Ansichten** wie oben im Filterbereich angezeigt. Ansichten sind Variationen der Liste, die mit Filtern vorkonfiguriert wurden. Sie können pro Liste beliebig viele Ansichten definieren und speichern. Die Ansichten sind beim nächsten Öffnen der Liste auf jedem Gerät oder Browser verfügbar.
 
 ## <a name="to-save-a-view"></a>Um eine Ansicht zu speichern
 1. Öffnen Sie eine Listenseite.
-2. Wählen Sie das Symbol ![Filterbereich](media/open-filter-pane-icon.png "Filterbereichssymbol") oben in der Liste oder drücken Sie Umschalt+F3, um den Filterbereich zu öffnen.
+2. Wählen Sie das Symbol ![Filterbereich](media/open-filter-pane-icon.png "Filterbereichssymbol") am oberen Rand der Liste oder drücken Sie Umschalt+F3, um den Filterbereich zu öffnen.
 3. Setzen Sie einen oder mehrere neue Filter. Weitere Informationen finden Sie unter [Festlegen von Filtern in Listen](ui-enter-criteria-filters.md#setting-filters-on-lists).
-4. Wenn Sie die Filter eingestellt haben, wählen Sie das Symbol ![Ansicht speichern](media/save_view_icon.png "Ansicht speichern").
+4. Wenn Sie die Filter festgelegt haben, wählen Sie das ![Ansicht speichern.](media/save_view_icon.png "Ansicht speichern") Symbol.
 
     Wenn Sie einen Filter für eine Listenansicht festlegen, die bereits als Ansicht gespeichert ist, wird die vorhandene Ansicht beim Speichern aktualisiert.
 5. Wenn Sie eine neue Ansicht speichern, geben Sie einen Namen für die Ansicht im Kästchen **Alle (Kopie)** ein, z. B. Artikel, die ich besitze.
@@ -38,7 +38,7 @@ Wenn Sie ihm keinen Namen geben, wird er **Alle (Kopie)** benannt.
 > Sie sehen das Symbol ![Ansicht speichern](media/save_view_icon.png "Ansicht speichern") nicht? Weitere Informationen finden Sie unter [Warum habe ich kein Symbol zum Speichern](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>So benennen Sie eine Ansicht um oder entfernen sie
-1. Für die Ansicht, in der die Liste derzeit angezeigt wird, wählen Sie das Symbol ![Weitere Optionen anzeigen](media/show-more-options-icon.png "Weitere Optionen anzeigen"), um zu sehen, welche Optionen verfügbar sind.
+1. Wählen Sie für die Ansicht, die gerade die Liste anzeigt, das Symbol ![Weitere Optionen anzeigen.](media/show-more-options-icon.png "Weitere Optionen anzeigen") Symbol, um zu sehen, welche Optionen verfügbar sind.
 2. Wählen Sie entweder die Aktion **Umbenennen** oder **Entfernen** aus.
 
 ## <a name="managing-many-views"></a>Viele Ansichten verwalten

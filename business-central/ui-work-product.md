@@ -7,16 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9781e2d064d48b7ce72b3c7f279c33cbfd42be7a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772129"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445251"
 ---
 # <a name="working-with-prod_short"></a>Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Beim Ausführen von Geschäftsaufgaben entsteht auf verschiedene Art und Weise eine Interaktion mit Daten, beispielsweise durch das Erstellen von Datensätzen und die Eingabe von Daten, durch Sortieren und Filtern von Daten, durch Schreiben von Notizen und durch die Ausgabe von Daten in andere Anwendungen.
 
 Sie können beispielsweise die Größe und die Position von Seiten anpassen, die Breite von Spalten und die Höhe der Spaltenköpfe erweitern und die Sortierung der Daten in Spalten ändern. Wenn Sie auf Seiten arbeiten und zum Anzeigen aller Spalten die horizontale Bildlaufleiste verwenden müssen, kann mit einer vertikalen Fixierung der Bildlauf von einigen Spalten beschränkt werden.
@@ -26,7 +27,7 @@ Sie können beispielsweise die Größe und die Position von Seiten anpassen, die
 > [!TIP]
 > Für einen druckfreundlichen Überblick über die am häufigsten verwendeten Funktionen wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.
 >
-> [ ![Symbol für die PDF-Datei](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Symbol zum Öffnen einer PDF")
+> [ ![Symbol für die PDF-Datei.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Symbol zum Öffnen einer PDF")
 
 ## <a name="links-to-learn-more"></a>Links zu weiteren Informationen
 
@@ -68,11 +69,26 @@ Hier finden Sie ein kurzes Video über die Navigation in [!INCLUDE[prod_short](i
     Internet Explorer wird nicht mehr unterstützt. Weitere Informationen finden Sie unter [Microsoft Edge-Dokumentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Halten Sie Ihren Browser immer auf dem neuesten Stand.
 
+## <a name="action-bars"></a>Aktionsleisten
+
+Innerhalb von [!INCLUDE [prod_short](includes/prod_short.md)] erledigen Sie die meiste Arbeit in einer Liste, einem Beleg oder einer Karte. Alle drei Arten von Seiten haben eine Leiste mit Aktionen, die für die jeweilige Seite relevant sind, und die Aktionen sind für die einzelne Karte oder den einzelnen Beleg und für die Liste der Entitäten fast gleich. So können Sie einen einzelnen Verkaufsauftrag auf der Seite **Verkaufsauftrag** und in der Liste **Verkaufsaufträge** verwalten, einschließlich der Buchung und Rechnungsstellung.  
+
+Die Aktionen können aber auch anders aussehen oder gar nicht vorhanden sein, je nachdem, wie Sie die Seite öffnen. Speziell für Listenseiten gilt, dass die Listenseite, die Sie von der Startseite aus öffnen, und die Seite, die gerendert wird, wenn Sie sie über das ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnen, sind nicht identisch.  
+
+Wenn Sie eine Listenseite suchen und öffnen, z. B. die Liste **Verkaufsaufträge**, befindet sie sich im Ansichtsmodus. Die Aktionen zum Bearbeiten, Anzeigen oder Löschen einer einzelnen Entität, z. B. eines Verkaufsauftrags, werden angezeigt, wenn Sie die Aktion **Verwalten** wählen.  
+
+> [!TIP]
+> Wenn Sie wissen, dass Sie die Aktionen auf dieser zweiten Ebene der Aktionsleiste häufig verwenden werden, wählen Sie das Symbol :::image type="icon" source="media/pin.png" border="false":::, um die Aktionsleiste anzuheften und die Aktionen unter den verschiedenen Menüs sofort auffindbar zu machen.
+>
+> Um die zweite Ebene der Aktionsleiste wieder verschwinden zu lassen, wählen Sie das Symbol :::image type="icon" source="media/unpin.png" border="false":::.
+
+Wenn Sie aber dieselbe Listenseite von Ihrer Startseite aus öffnen, ist die Aktion **Verwalten** nicht vorhanden. Um einen einzelnen Verkaufsauftrag zu öffnen, wählen Sie stattdessen einfach das Feld **Nummer**. In dieser Ansicht können Sie die Aktionsleiste nicht anheften.  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Einrichten des Geschäftsbetriebs](ui-get-ready-business.md)  
 [Einrichten von Business Central](setup.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
 [Performance-Tipps für Geschäftsanwender](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)

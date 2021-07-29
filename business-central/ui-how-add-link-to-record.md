@@ -1,6 +1,6 @@
 ---
-title: Anhänge, Links und Notizen zu Datensätzen hinzufügen| Microsoft Docs
-description: Fügen Sie einem Dokument oder einer Website einen Link zu einem bestimmten Datensatz hinzu, beispielsweise zu einer Debitorenkarte oder einem Dokument.
+title: Anhänge, Links und Notizen zu Datensätzen hinzufügen
+description: Fügen Sie einen Hyperlink zu einem Dokument oder eine Website zu einem bestimmten Datensatz hinzu, z. B. zu einem Debitor oder einem Dokument.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771135"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444743"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Verwalten von Anhängen, Links und Notizen zu Karten und Dokumenten
 
@@ -38,7 +38,7 @@ Sie können jede Art von Datei, die Text, Bilder oder Videos enthält, an eine K
 
 Das folgende Verfahren basiert auf einer Einkaufsrechnung. Die Schritte sind für alle anderen unterstützten Dokumente und Karten ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Kaufrechnungen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie den Verkaufsauftrag, den Sie einer Datei zuordnen möchten.
 3. Öffnen Sie in der Infobox die Registerkarte **Anhänge**.
 4. Wählen Sie den Wert hinter dem Feld **Belege** z. B. "0".
@@ -58,7 +58,7 @@ Wann immer Sie ein Dokument als Datei speichern müssen, können Sie die Aktion 
 
 Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind für alle unterstützten Dokumente ähnlich.
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Markieren Sie einen Debitorenauftrag, und wählen Sie dann die Aktion **Anhängen als PDF**.
 
 Eine PDF-Datei mit dem aktuellen Inhalt des Kundenauftrags wird der Registerkarte **Anlagen** im Infoboxbereich hinzugefügt.
@@ -68,7 +68,7 @@ Sie können jeder URL oder jedem Pfad einen Link von einer Karte oder einem Doku
 
 Das folgende Verfahren basiert auf einer Elementkarte. Die Schritte sind für alle anderen unterstützten Belege und Karten gleich.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie das Element aus, zu dem Sie einen Link hinzufügen möchten, und wählen Sie dann die Registerkarte **Anhänge** in der Infobox.
 3. In dem **Link**, wählen Sie das **+** Symbol.
 4. Geben Sie im Feld **Link Adresse** den Link ein.
@@ -86,9 +86,9 @@ Sie können eine Notiz auf ein Dokument oder eine Karte schreiben, um beispielsw
 > [!NOTE]
 > Hinweise auf der Registerkarte **Anhänge** haben nichts mit der internen Notizfunktion zu tun, die hauptsächlich für die Kommunikation zwischen Workflowbenutzern verwendet wird. Weitere Informationen finden Sie unter [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md).
 
-Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind für alle anderen unterstützten Dokumente und Karten ähnlich.
+Das folgende Verfahren basiert auf einer Auftragsabwicklung. Die Schritte sind für alle anderen unterstützten Belege und Karten ähnlich.
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie den Verkaufsauftrag aus, zu dem Sie einen Link hinzufügen möchten, und wählen Sie dann die Registerkarte **Anhänge** in der Infobox.
 3. In dem Abschnitt **Notizen** wählen Sie das **+** Symbol.
 4. In dem Feld **Hinweis** geben Sie in das Feld einen beliebigen Text ein, z. B. "Dies ist eine dringende Bestellung.".

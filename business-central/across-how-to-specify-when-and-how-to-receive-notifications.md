@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen | Microsoft Docs'
-description: Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie auf den Seiten Benachrichtigung einrichten und Benachrichtigungs-Plan angeben, wie und wann jeder Benutzer Benachrichtigungen über Workflowschritte zur Genehmigung erhält. Einzelne Benutzer können ihre Benachrichtigungseinrichtung über die in jeder Benachrichtigung enthaltene Schaltfläche Benachrichtigungseinstellungen ändern auch ändern.
+title: Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen
+description: Wenn Sie Benutzer in Genehmigungs-Workflows einrichten, legen Sie auf den Seiten Einrichtung von Benachrichtigungen und Zeitplan für Benachrichtigungen fest, wie und wann jeder Benutzer Benachrichtigungen erhält.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d96d094547b71fc722c06facb80a131786df0e58
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 098d7a5f677310916484bcff652ff9557c96478f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774611"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445045"
 ---
-# <a name="specify-when-and-how-to-receive-notifications"></a>Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen
+# <a name="specify-when-and-how-to-receive-notifications"></a>Festlegen, wann und wie Benachrichtigungen empfangen werden sollen
 Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie auf den Seiten **Benachrichtigung einrichten** und **Benachrichtigungs-Plan** angeben, wie und wann jeder Benutzer Benachrichtigungen über Workflowschritte zur Genehmigung erhält. Einzelne Benutzer können ihre Benachrichtigungseinrichtung über die in jeder Benachrichtigung enthaltene Schaltfläche **Benachrichtigungseinstellungen ändern** auch ändern.  
 
 > [!NOTE]
@@ -31,7 +31,7 @@ Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie auf den Seite
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Genehmigungsbenutzereinrichtung** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Genehmigungsbenutzereinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Zeile für den Benutzer aus, für den Sie Benachrichtigungseinstellungen festlegen möchten, und wählen Sie dann die Aktion **Benachrichtigungseinrichtung** aus.  
 3.  Füllen Sie auf der Seite **Benachrichtigung einrichten** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 

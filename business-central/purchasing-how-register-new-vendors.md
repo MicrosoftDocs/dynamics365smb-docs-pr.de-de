@@ -1,6 +1,6 @@
 ---
-title: Eine Kreditorenkarte erstellen, um einen neuen Kreditor zu erfassen | Microsoft Docs
-description: Erfahren Sie, wie Sie eine Kreditorenkarte erstellt, um einen neuen Kreditor oder einem Lieferanten zu erfassen.
+title: Erstellen einer Kreditorenkarte zur Registrierung eines neuen Kreditors
+description: In diesem Thema erfahren Sie, wie Sie eine Kreditorenkarte erstellen, um einen neuen Kreditor oder Lieferanten zu registrieren und Kreditorenkarten als Vorlage zu speichern.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f1028b91101f8faa38d4d4d5d2695ee498ff6d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772654"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445376"
 ---
 # <a name="register-new-vendors"></a>Registriert einen neuen Kreditor
 
@@ -40,7 +40,7 @@ Sie müssen eine Kreditorenkarte ausfüllen, um einen neuen Kreditor zu registri
 
 ### <a name="to-create-a-new-vendor-card"></a>Erstellen einer neue Kreditorenkarte
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kreditoren** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Kreditoren** **Neu** aus.
 
     Wenn mehr als eine Kreditorenvorlage vorhanden ist, dann öffnet sich eine Seite mit verfügbaren Kreditorenvorlagen automatisch. In diesem Fall, folgen Sie den nächsten zwei Schritten.

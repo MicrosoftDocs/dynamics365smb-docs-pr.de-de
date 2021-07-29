@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 5bb97f1c26ca9264718a96a9f2f7803e248927b3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214978"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445020"
 ---
 # <a name="design-details-item-tracking-design"></a>Designdetails: Artikelverfolgungsdesign
 
@@ -27,7 +27,7 @@ Mit der Hinzufügung der Serien-, Chargen‑ und Paketnummern verarbeitet das Re
 
 Das folgende Diagramm illustriert das Design von Artikelverfolgungsfunktionen in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-![Beispiel für den Fluss der Artikelverfolgung](media/design_details_item_tracking_design.png "Beispiel für den Fluss der Artikelverfolgung")  
+![Beispiel für einen Item Tracking Flow.](media/design_details_item_tracking_design.png "Beispiel für den Fluss der Artikelverfolgung")  
 
 Das zentrale Buchungsobjekt wird überarbeitet, um die besondere Subklassifikation einer Belegzeile in Form von Serien- oder Chargennummern zu bearbeiten, und bestimmte Beziehungstabellen werden hinzugefügt, um die 1-zu-viele-Relationen zwischen gebuchten Belegen und deren geteilten Artikelposten bzw. Wertposten zu erstellen.  
 

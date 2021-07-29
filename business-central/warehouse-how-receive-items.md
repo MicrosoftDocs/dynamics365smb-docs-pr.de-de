@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Wareneingang von Artikeln | Microsoft Docs'
-description: Wenn Artikel bei einem Lager ankommen, das für die Bearbeitung des Wareneingangs eingerichtet wurde, müssen Sie die Zeilen des freigegebenen Herkunftsbelegs abrufen, der ihren Wareneingang ausgelöst hat.
+title: Wie man Artikel empfängt
+description: Dieses Thema gibt einen Überblick über die verschiedenen Möglichkeiten, Artikel in einem Lager zu empfangen, zum Beispiel Artikel mit einer Einkaufsbestellung oder Artikel mit einem Lager-Eingang.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5bf683be6e6d0976464240d08e0546639a46362a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771904"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445126"
 ---
 # <a name="receive-items"></a>Empfangen von Artikeln
 
@@ -27,7 +27,7 @@ Wenn Artikel bei einem Lager ankommen, das für die Bearbeitung des Wareneingang
 
 Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. Die Schritte für Verkaufsreklamationen und Umlagerungsaufträgen sind ähnlich.  
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Bestellungen** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie eine bestehende Bestellung, oder erstellen Sie eine neue. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md).
 3. Geben Sie in dem Feld **Menge akt. Lieferung** die empfangene Menge an.
 
@@ -43,7 +43,7 @@ Nachfolgend wird erläutert, wie Artikel mit einer Bestellung empfangen werden. 
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>So empfangen Sie Artikel mit einem Wareneingang
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Wareneingänge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Wareneingänge** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 
     Füllen Sie die Felder auf dem Inforegister **Allgemein** aus. Beim Abrufen der Herkunftsbelegzeilen werden einige der Informationen in jede Zeile kopiert.  
@@ -96,7 +96,7 @@ Sie müssen einen Prozentsatz festlegen, um den Sie beim Empfang eine Überschre
 
 Im Folgenden wird beschrieben, wie Sie einen Übereingangscode einrichten und einem Artikel zuordnen. Die Schritte sind für einen Kreditor ähnlich.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Artikel** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die Karte für einen Artikel, von dem Sie vermuten, dass er manchmal mit einer höheren als der bestellten Menge geliefert wird.
 3. Wählen Sie die Nachschlagschaltfläche im Feld **Eingangsüberschuss-Code**.
 4. Wählen Sie die Aktion **Neu**.

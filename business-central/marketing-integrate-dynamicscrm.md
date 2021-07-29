@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985362"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444870"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Verwenden von Dynamics 365 Sales von Business Central
 Wenn Sie Dynamics 365 Sales for Customer Engagement verwenden, können Sie nahtlose Integration in den Interessent-zu-Geld-Prozess nutzen, indem Sie [!INCLUDE[prod_short](includes/prod_short.md)] für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.
@@ -115,7 +115,7 @@ In der aktuellen Preiserfahrung synchronisiert [!INCLUDE[prod_short](includes/pr
     1. Koppeln Sie die Elemente, für die Preise durch die Kundenpreisgruppe festgelegt sind.
     2. Auf der Seite **Kundenpreisgruppen** koppeln Sie die Kundenpreisgruppe, indem Sie **Bezogen**, dann **Dynamics 365 Sales**, **Kopplung** und dann **Kopplung einrichten** wählen. Die Kopplung erstellt eine aktive Preisliste in [!INCLUDE[prod_short](includes/prod_short.md)] mit dem gleichen Namen wie die Debitor-Preisgruppe in [!INCLUDE[crm_md](includes/crm_md.md)] und synchronisiert automatisch alle Artikel, für die die Debitor-Preisgruppe den Preis definiert.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Kundenpreisgruppen-Seite":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Kundenpreisgruppen-Seite.":::
 
 #### <a name="new-experience"></a>[Neue Erfahrung](#tab/new-experience/)  
 
@@ -131,12 +131,12 @@ Die neue Preiserfahrung synchronisiert Preislisten, die die folgenden Kriterien 
 
 Um Preislisten zu synchronisieren, wählen Sie auf der Seite **Verkaufspreisliste** **Bezogen**, **Dynamics 365 Sales**, **Kopplung** und dann **Kopplung einrichten**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Verkaufspreislistenseite":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Seite Verkaufspreislisten.":::
 
 ---
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 [Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Marketing & Vertrieb](marketing-relationship-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

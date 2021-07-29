@@ -1,6 +1,6 @@
 ---
-title: Artikelposten öffnen
-description: Erfahren, warum der Lagerbestand Null ist, obwohl offene Artikelposten vorhanden sind.
+title: Bestand Null offene Elemente Sachkonto-Einträge
+description: Dieser Artikel befasst sich mit einem Problem, bei dem der Bestand Null ist, obwohl Offene-Posten-Ledger-Einträge existieren.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: febd7b4ff379d064f392eb55b7868697a59aacf5
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 75cf8f2ccbf7738c753a25c98ea9c79e13b9d53d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215928"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444995"
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetails: Bekannte Artikelanwendungsprobleme
 Dieser Artikel adressiert ein Problem, bei dem der Lagerebene Null ist, obwohl offene Artikelposten in existieren [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -54,7 +54,7 @@ Der Artikel beginnt, indem die typischen Symptomen des Problems aufgeführt werd
 
  Das folgende Diagramm zeigt, wie Mengenanträge gemacht werden.  
 
-![Fluss der Kostenanpassung vom Kauf zum Verkauf](media/helene/TechArticleInventoryZero2.png "Fluss der Kostenanpassung vom Kauf zum Verkauf")
+![Flow der Kostenanpassung von Kauf bis zum Verkauf.](media/helene/TechArticleInventoryZero2.png "Fluss der Kostenanpassung vom Kauf zum Verkauf")
 
  Beachten Sie weiter, dass Artikelposten 1 (Einkauf) sowohl Lieferant des Artikels und die Kostenquelle für den ausgeglichenen Artikelposten, Artikelposten 2 (Verkauf) ist.  
 
@@ -78,7 +78,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 
  Das folgende Diagramm zeigt den Kostenfluss.  
 
-![Fluss der Kostenanpassung vom Verkauf bis zur Umsatzrendite](media/helene/TechArticleInventoryZero4.png "Fluss der Kostenanpassung vom Verkauf bis zur Rückgabe")
+![Flow der Kostenanpassung vom Verkauf zur Retoure.](media/helene/TechArticleInventoryZero4.png "Fluss der Kostenanpassung vom Verkauf bis zur Rückgabe")
 
  Beachten Sie darüber hinaus, dass die Kosten an Artikelposten 2 (Verkauf), dann an Artikelposten 3 (Rücklieferung) und zum Schluss an Artikelposten 4 weitergeleitet werden (Verkauf 2).  
 
@@ -91,7 +91,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
 
  Das folgende Diagramm zeigt, wie Artikelausgleiche in beiden Szenarien gemacht werden.  
 
-![Fluss der Kostenanpassung geht in beide Richtungen](media/helene/TechArticleInventoryZero6.png "Der Fluss der Kostenanpassung geht in beide Richtungen")  
+![Flow der Kostenanpassung geht in beide Richtungen.](media/helene/TechArticleInventoryZero6.png "Der Fluss der Kostenanpassung geht in beide Richtungen")  
 
  Beachten Sie darüber hinaus, dass ein Ausgleich mit Kosten (angezeigt durch die blauen Pfeile) sicherstellt, dass Artikelposten 2 (Rücklieferung) die gleichen Einstandspreis wie der Artikelposten hat, den er storniert, d.h. Artikelposten 1 zugeordnet ist (Verkauf 1). Es wird jedoch kein Mengenantrag (angezeigt durch die roten Pfeile) vorgenommen.  
 
@@ -133,7 +133,7 @@ Das folgende Diagramm zeigt, wie Kostenanträge gemacht werden.
      |Postennr.|Artikelposten Lfd. Nr.|Eingeh. Artikelposten Lfd. Nr.|Ausgeh. Artikelposten Lfd. Nr.|Menge|Buchungsdatum|Ausgleich Lagerwert reguliert|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|01 28 2018|Ja|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Beachten Sie darüber hinaus, dass der eingehende Artikelposten 334 auf den ausgehenden Artikelposten 333 angewendet wird.  
 
