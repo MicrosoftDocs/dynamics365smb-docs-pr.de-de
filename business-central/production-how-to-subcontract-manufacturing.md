@@ -1,6 +1,6 @@
 ---
-title: Produktion untervergeben | Microsoft Docs
-description: Nachdem die Bestellung aus dem Fremdarbeitenarbeitsblatt erstellt wurde, kann sie gebucht werden.
+title: Wie Sie die Fertigung untervergeben
+description: Dieses Thema gibt einen erweiterten Überblick über die erweiterte Funktionalität der Lohnbearbeitung in Business Central, einschließlich Arbeitsplatzfelder und Arbeitspläne.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b717e5674130661e12b48e6c0f37473098b892
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787702"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441522"
 ---
 # <a name="subcontract-manufacturing"></a>Fertigung durch Fremdarbeitsvertrag
 Ausgewählte Arbeitsgänge an Kreditoren weiter zu vergeben, ist in vielen Fertigungsunternehmen üblich. Fremdarbeit kann ein seltener Vorgang oder integraler Bestandteil aller Fertigungsschritte sein.
@@ -52,7 +52,7 @@ Die Seiten **Fremdarbeitenarbeitsblatt** funktioniert wie die **Planungsarbeitsb
 >  Ein Fertigungsauftrag muss den Status **Freigegeben** haben, damit aus einem Fremdarbeitenarbeitsblatt auf ihn zugegriffen und er dort verwendet werden kann.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Fremdarbeitenarbeitsblatt berechnen  
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Vertragsnehmer-Arbeitsblatt** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fremdarbeitenvorschlag** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Damit das Arbeitsblatt berechnet wird, klicken Sie auf Aktionen **Fremdarbeit berechnen**.  
 3.  Definieren Sie auf der Seite **Fremdarbeit berechnen** den Filter für an Subunternehmer vergebene Arbeitsgänge oder die Arbeitsplatzgruppen, in der sie ausgeführt werden, um nur die relevanten Fertigungsaufträge zu berechnen.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
@@ -60,7 +60,7 @@ Die Seiten **Fremdarbeitenarbeitsblatt** funktioniert wie die **Planungsarbeitsb
     Sehen Sie sich die Zeilen auf der Seite **Fremdarbeitenarbeitsblatt** an. Die Informationen in diesem Arbeitsblatt stammen aus dem Fertigungsauftrag und den FA-Arbeitsgängen und werden in die Einkaufsbestellung übernommen, wenn dieser Beleg erstellt wird. Wie bei den anderen Arbeitsblättern auch können Sie eine Zeile aus dem Arbeitsblatt löschen, ohne dass sich dies auf die ursprünglichen Informationen auswirkt. Die Informationen werden wieder angezeigt, wenn Sie die Funktion **Fremdarbeit berechnen** das nächste Mal ausführen.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Einkaufsbestellung für Fremdarbeit generieren  
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Vertragsnehmer-Arbeitsblatt** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Fremdarbeitenvorschlag** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die **Ereignismeldung durchführen** Aktion aus.  
 3.  Wählen Sie das Feld **Bestellungen/Aufträge drucken**, um die Einkaufsbestellung zu drucken, wenn diese erstellt wird.  
 4.  Wählen Sie die Schaltfläche **OK** aus.  
@@ -73,7 +73,7 @@ Die Arbeitsblattzeile, die in eine Einkaufsbestellung umgewandelt wurde, wird au
 Sobald die Einkaufsbestellungen für Subunternehmer erstellt wurden, können sie gebucht werden. Nach Empfang der Bestellung wird ein Kapazitätsposten im Fertigungsauftrag gebucht, und bei der Fakturierung der Bestellung wird der EK-Preis der Einkaufsbestellung im Fertigungsauftrag gebucht.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>So buchen Sie eine Fremdarbeitsbestellung  
-1.  Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Einkaufsbestellungen** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einkaufsbestellungen** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie eine Einkaufsbestellung, die über den Fremdarbeitenarbeitsblatt erstellt wurde.  
 
     In den Einkaufsbestellungszeilen werden dieselben Informationen angezeigt, die im Arbeitsblatt enthalten waren. Die **Fertigungsauftrag Auftragsnr.**, **Fertigungsauftrag Auftragszeilennr.**, **Arbeitsgangnr.** und **Arbeitsplatzgruppennr.** Felder werden mit den Informationen aus dem ursprünglichen Fertigungsauftrag ausgefüllt.  

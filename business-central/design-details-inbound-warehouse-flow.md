@@ -1,6 +1,6 @@
 ---
-title: Designdetailsg Einehender Lagerfluss | Microsoft Docs
-description: Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.
+title: Design-Details – Inbound Warehouse Flow
+description: Der eingehende Warehouse Flow beginnt, wenn die Artikel am Lagerort der Firma ankommen. Artikel werden registriert und schließlich mit eingehenden Belegen abgeglichen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: c2a78d585f949922e9f05e42a6ab61dcd7adc521
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215178"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441772"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetails: Eingehender Lagerfluss
 Der eingehende Fluss in ein Lager beginnt, wenn Artikel im Lager des Unternehmensstandorts ankommen, entweder aus externen Quellen oder von einem anderen Standort des Unternehmens. Ein Mitarbeiter registriert die Artikel, normalerweise, indem er einen Barcode scannt. Vom empfangenden Dock werden Lageraktivitäten auf verschiedene Komplexitätsebenen ausgeführt, um die Artikel in den Lagerbereich zu bringen.  
@@ -51,7 +51,7 @@ In den Methoden werden A, B und C werden die Aktionen des Eingangs und der Einla
 ## <a name="basic-warehouse-configurations"></a>Grundlegende Lagerhauskonfigurationen  
 Das folgende Diagramm zeigt die eingehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
-![Eingehender Fluss bei einfachen Lagerkonfigurationen](media/design_details_warehouse_management_inbound_basic_flow.png "Eingehender Fluss bei einfachen Lagerkonfigurationen")  
+![Inbound Flow in grundlegenden Lagerkonfigurationen.](media/design_details_warehouse_management_inbound_basic_flow.png "Eingehender Fluss bei einfachen Lagerkonfigurationen")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1. Freigeben des Herkunftsbelegs/Einlagerung erstellen  
 Wenn Artikel im Lager erhalten werden, gibt der Benutzer, der für die Lieferung verantwortlich ist, den Herkunftsbeleg frei, etwa eine Bestellung oder einen eingehender Umlagerungsauftrag, um dem Lagerpersonal zu signalisieren, dass die eingegangenen Artikel im Lager eingelagert werden können. Oder der Benutzer erstellt Einlagerungsbelege für einzelne Auftragszeilen, im Push-Verfahren, basierend auf angegebenen Lagerplätzen und Mengen, die verarbeitet werden sollen.  
@@ -70,10 +70,10 @@ Positive Bestandskommissionierungen sowie Lagerposten werden erstellt, und die E
 ## <a name="advanced-warehouse-configurations"></a>Erweiterte Lagerhauskonfigurationen  
 Das folgende Diagramm zeigt die eingehenden Lagerflüsse nach Belegtyp im Rahmen der einfachen Logistik an. Die Nummern im Diagramm entsprechen den Schritten in den Abschnitten, die dem Diagramm folgen.  
 
-![Eingehender Fluss bei erweiterten Lagerkonfigurationen](media/design_details_warehouse_management_inbound_advanced_flow.png "Eingehender Fluss bei erweiterten Lagerkonfigurationen")  
+![Inbound Flow in erweiterten Lagerkonfigurationen.](media/design_details_warehouse_management_inbound_advanced_flow.png "Eingehender Fluss bei erweiterten Lagerkonfigurationen")  
 
 ### <a name="1-release-source-document"></a>1: Freigeben des Herkunftsbelegs  
-Wenn Artikel im Lager erhalten werden, gibt der Benutzer, der für die Lieferung verantwortlich ist, den Herkunftsbeleg frei, etwa eine Bestellung oder einen eingehender Umlagerungsauftrag, um dem Lagerpersonal zu signalisieren, dass die eingegangenen Artikel im Lager eingelagert werden können.  
+Wenn Elemente im Lager eingehen, gibt der Benutzer, der für den Eingang verantwortlich ist, den Quellbeleg frei, z. B. eine Einkaufsbestellung oder einen Umlagerungsauftrag, um den Arbeitskräften im Lager zu signalisieren, dass die eingegangenen Artikel im Bestand eingelagert werden können.  
 
 ### <a name="2-create-inbound-request"></a>2: Eingehende erwartete Lagerbewegung erstellen  
 Wenn der eingehende Herkunftsbeleg freigegeben wird, wird eine Einlagerungsanforderung automatisch erstellt. Enthält Referenzen zur Herkunftsbelegart und -Nummer und kann nicht dem Benutzer angezeigt werden.  

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184449"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441622"
 ---
 # <a name="update-currency-exchange-rates"></a>Währungswechselkurse aktualisieren
 
@@ -23,7 +23,10 @@ Als Nächstes müssen Sie Währungscodes für jede Währung einrichten, die Sie 
 > [!Important]
 > Erstellen Sie den Mandantenwährungscode nicht im **Hauptbucheinrichtung** und auf der Seite **Währungen**. Dies führt zu Verwechslungen zwischen der leeren Währung und dem MW-Code in der Währungstabelle. Außerdem können versehentlich Bankkonten, Debitoren oder Kreditoren erstellt werden, einige mit der leeren Währung und andere mit dem LCY-Code.
 
-Ihre Finanzbuchhaltung wird in der Mandantenwährung (MW) eingerichtet. Sie können sie jedoch auch für die Verwendung einer anderen Währung einrichten, der Sie einen Währungswechselkurs zuweisen. Wird eine zweite Währung als [!INCLUDE[prod_short](includes/prod_short.md)] Berichtswährung festgelegt, werden Beträge automatisch für jeden Sachposten und weitere Posten, wie zum Beispiel MwSt.-Posten, in der Mandantenwährung und der Berichtswährung erfasst. Weitere Informationen finden Sie unter [Zusätzliche Berichtswährung einrichten](finance-how-setup-additional-currencies.md). Die Berichtswährung wird am häufigsten verwendet, um die Finanzberichterstellung für Eigentümer zu erleichtern, die in Ländern/Regionen ansässig sind, die andere Währungen als die Mandantenwährung (MW) verwenden.
+Ihre Finanzbuchhaltung wird in der Mandantenwährung (MW) eingerichtet. Sie können sie jedoch auch für die Verwendung einer anderen Währung einrichten, der Sie einen Währungswechselkurs zuweisen. Wird eine zweite Währung als [!INCLUDE[prod_short](includes/prod_short.md)] Berichtswährung festgelegt, werden Beträge automatisch für jeden Sachposten und weitere Posten, wie zum Beispiel MwSt.-Posten, in der Mandantenwährung und der Berichtswährung erfasst. Weitere Informationen finden Sie unter [Zusätzliche Berichtswährung einrichten](finance-how-setup-additional-currencies.md). Die Berichtswährung wird am häufigsten verwendet, um die Finanzberichterstellung für Eigentümer zu erleichtern, die in Ländern/Regionen ansässig sind, die andere Währungen als die Mandantenwährung (MW) verwenden.  
+
+> [!IMPORTANT]
+> Wenn Sie eine zusätzliche Berichtswährung für die Finanzberichterstattung verwenden wollen, vergewissern Sie sich, dass Sie die Einschränkungen verstehen. Weitere Informationen finden Sie unter [Zusätzliche Berichtswährung einrichten](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Währungen
 
@@ -66,7 +69,9 @@ Sie geben die Währungscodes unter **Währungen** an, darunter zusätzliche Info
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Beispiel für eine ausstehende Währungstransaktion
 
-Im folgenden Beispiel geht am 1. Januar eine Rechnung mit dem Währungsbetrag 1000 ein. Zu diesem Zeitpunkt beträgt der Wechselkurs 1,123.
+Wenn Sie eine Rechnung von einer Firma in einer Fremdwährung erhalten, ist es relativ einfach, den Wert der Rechnung in lokaler Währung (LCY) auf der Grundlage des heutigen Wechselkurses zu berechnen. Allerdings ist die Rechnung oft mit Zahlungsbedingungen versehen, sodass Sie die Zahlung auf ein späteres Datum verschieben können, was einen potenziell anderen Währungssatz impliziert. Dieses Problem in Kombination mit der Tatsache, dass die Bankwährungskurse immer von den offiziellen Währungskursen abweichen, macht es unmöglich, den genauen Betrag in lokaler Währung (LCY) vorherzusagen, der zur Deckung der Rechnung erforderlich ist. Wenn sich das Fälligkeitsdatum der Rechnung in den nächsten Monat erstreckt, müssen Sie möglicherweise auch den Betrag in Hauswährung (LCY) am Ende des Monats neu bewerten. Die Währungsanpassung ist notwendig, weil der neue LCY-Wert, der zur Deckung des Rechnungsbetrags erforderlich ist, anders sein könnte und sich die Schulden der Firma gegenüber dem Kreditor möglicherweise geändert haben. Der neue LCY-Betrag kann höher oder niedriger sein als der vorherige Betrag und stellt daher einen Gewinn oder einen Verlust dar. Da die Rechnung jedoch noch nicht bezahlt wurde, wird der Gewinn oder Verlust als *unrealisiert* betrachtet. Später wird die Rechnung bezahlt, und die Bank hat sich mit dem tatsächlichen Satz für die Zahlung zurückgemeldet. Erst jetzt wird der *realisierte* Gewinn oder Verlust berechnet. Dieser nicht realisierte Gewinn oder Verlust wird dann storniert und stattdessen wird der realisierte Gewinn oder Verlust gebucht.
+
+Im folgenden Beispiel geht am 1. Januar eine Rechnung mit dem Währungsbetrag von 1000 ein. Zu diesem Zeitpunkt beträgt der Währungssatz 1,123.
 
 |Datum|Aktion|Währungsbetrag|Belegkurs|MW-Betrag auf Beleg|Regulierungsrate|Unrealisierter Kursgewinn|Zahlungskurs|Realisierter Kursverlust|  
 |-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
@@ -75,7 +80,7 @@ Im folgenden Beispiel geht am 1. Januar eine Rechnung mit dem Währungsbetrag 10
 |2/15|**Anpassungsrücksetzung bei Zahlung**|1000||||-2|||
 |2/15|**Zahlung**|1000||1120|||1,120|-3|
 
-Am Ende des Monats wird eine Währungsregulierung durchgeführt, bei der der Regulierungswährungskurs auf 1,125 festgelegt wurde, was einen nicht realisierten Gewinn von 2 auslöst.
+Am Ende des Monats wird eine Währungsanpassung durchgeführt, bei der der Anpassungswährungskurs auf 1,125 festgelegt wurde, was einen nicht realisierten Gewinn von 2 auslöst.
 
 Zum Zeitpunkt der Zahlung weist der tatsächlich bei der Banktransaktion registrierte Währungskurs einen Währungskurs von 1,120 auf.
 
@@ -85,7 +90,7 @@ Abschließend wird die Zahlung registriert und der tatsächliche Verlust auf das
 
 ## <a name="available-currency-functions"></a>Verfügbare Währungsfunktionen
 
-In der folgenden Tabelle sind die wichtigsten Aktionen auf der Seite ***Währungen** aufgeführt. Einige der Aktionen werden in den nächsten Abschnitten erläutert.  
+In der folgenden Tabelle sind die wichtigsten Aktionen auf der Seite **Währungen** aufgeführt. Einige der Aktionen werden in den nächsten Abschnitten erklärt.  
 
 |Menü|Aktion|Beschreibung|
 |-------------|--------------|------------------------------|
@@ -117,21 +122,21 @@ Im Allgemeinen werden die Werte der Felder **Wechselkursbetrag** und **Relationa
 
 > [!Note]
 > Der tatsächliche Wechselkurs wird mit dieser Formel berechnet:
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
-Der Betrag der Wechselkursregulierung oder der Bezug auf die Regulierung des Wechselkursbetrags wird verwendet, um alle offenen Bank-, Forderungs- oder Verbindlichkeitstransaktionen zu aktualisieren.  
+Der Betrag des Anpassungs-Wechselkurses oder der Betrag des relationalen Anpassungs-Wechselkurses wird verwendet, um alle offenen Bank-, Debitoren- oder Kreditoren-Transaktionen zu aktualisieren.  
 
 > [!Note]
 > Der tatsächliche Wechselkurs wird mit dieser Formel berechnet:
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Regulieren von Wechselkursen
 
 Da sich Wechselkurse ständig ändern, müssen weitere Währungsentsprechungen im System in regelmäßigen Abständen reguliert werden. Werden diese Regulierungen nicht durchgeführt, sind Beträge, die aus fremden (oder zusätzlichen) Währungen umgerechnet und in der Mandantenwährung in der Finanzbuchhaltung gebucht wurden, möglicherweise irreführend. Darüber hinaus müssen Tagesposten, die vor der Eingabe eines Tageswechelkurses in der Anwendung gebucht werden, aktualisiert werden, nachdem der Tageswechselkurs eingegeben wurde.
 
-Die Stapelverarbeitung **Wechselkurse regulieren** dient zur manuellen Regulierung der Wechselkurse gebuchter Kreditoren-, Debitoren- und Bankkontoposten. Berichtswährungsbeträge in Sachposten können hiermit ebenfalls aktualisiert werden.  
+Der Batchauftrag **Wechselkurse anpassen** wird verwendet, um die Wechselkurse von gebuchten Debitor-, Kreditor- und Bankkonten-Buchungen manuell anzupassen. Berichtswährungsbeträge in Sachposten können hiermit ebenfalls aktualisiert werden.  
 
 > [!TIP]
 > Sie können einen Dienst verwenden, um Wechselkurse im System automatisch zu regulieren. Weitere Informationen finden Sie unter [So richten Sie einen Währungswechselkurs-Service ein](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Die Wechselkurse für bereits gebuchte Transaktionen werden hierdurch jedoch nicht reguliert. Um Wechselkurse für gebuchte Einträge zu regulieren, verwenden Sie die Stapelverarbeitung **Wechselkurse regulieren**.
@@ -140,15 +145,18 @@ Die Stapelverarbeitung **Wechselkurse regulieren** dient zur manuellen Regulieru
 
 Für Debitoren- und Kreditorenkonten reguliert der Batchauftrag die Währung unter Verwendung des Wechselkurses, der zum Zeitpunkt des im Batchauftrag angegebenen Buchungsdatums gültig ist. Die Stapelverarbeitung berechnet die Differenzen für die einzelnen Währungssalden und bucht die Beträge auf das Sachkonto, das im Feld **Kursgewinn unrealisiert Kto.** oder im Feld **Kursverlust unrealisiert Kto.** auf der Seite **Währungen** angegeben ist. Gegenposten werden automatisch auf die Debitoren- und Kreditorensammelkonten in der Finanzbuchhaltung gebucht.
 
-Die Stapelverarbeitung bearbeitet alle offenen Debitoren- und Kreditorenposten. Wenn es eine Wechselkursdifferenz für einen Posten gibt, erzeugt die Stapelverarbeitung einen neuen detaillierten Debitoren- oder Kreditorenposten, der den Regulierungsbetrag des Debitoren- oder Kreditorenpostens wiedergibt.
+Die Stapelverarbeitung bearbeitet alle offenen Debitoren- und Kreditorenposten. Wenn es eine Wechselkursdifferenz für eine Buchung gibt, erstellt der Batchauftrag einen neuen detaillierten Debitoren- oder Kreditoren-Sachkonto-Eintrag, der den angepassten Betrag auf dem Debitoren- oder Kreditoren-Sachkonto-Eintrag wiedergibt.
 
 #### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensionen in Debitoren- und Kreditorenposten
+
 Den Differenzposten werden die Dimensionen von den Debitoren-/Kreditorenposten zugewiesen. Die Differenzen werden pro Kombination von Dimensionswerten gebucht.
 
 ### <a name="effect-on-bank-accounts"></a>Auswirkungen auf Bankkonten
+
 Für Bankkonten reguliert der Batchauftrag die Währung unter Verwendung des Wechselkurses, der zum Zeitpunkt des im Batchauftrag angegebenen Buchungsdatums gültig ist. Die Stapelverarbeitung berechnet die Differenzen für jedes Bankkonto mit einem Währungscode und bucht die Beträge auf das Sachkonto, das im Feld **Kursgewinn realisiert Kto.** oder im Feld **Kursverlust realisiert Kto.** der Tabelle **Währungen** angegeben ist. Gegenposten werden automatisch auf die Banksachkonten gebucht, die in den Bankkontenbuchungsgruppen angegeben sind. Die Stapelverarbeitung erzeugt einen Posten pro Währung pro Buchungsgruppe.
 
 #### <a name="dimensions-on-bank-account-entries"></a>Dimensionen in Bankposten
+
 Den Differenzposten für das Sachkonto des Bankkontos und für das Gewinn- und Verlustkonto werden die Vorgabedimensionen des Bankkontos zugewiesen.
 
 ### <a name="effect-on-gl-accounts"></a>Auswirkungen auf Sachkonten
@@ -165,20 +173,20 @@ Den Differenzposten werden die Vorgabedimensionen der Konten zugewiesen, auf die
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>So richten Sie einen Währungswechselkurs-Service ein
 Sie können einen externen Service verwenden, um Ihre Währungswechselkurse wie FloatRates auf dem neuesten Stand zu halten.
 
-1. Wählen Sie das Symbl ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Währungswechselkurs-Dienste** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Währungswechselkurs-Dienste** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie auf der Seite **Währungswechselkurs-Service** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Aktivieren Sie das Kontrollkästchen **Aktiviert**, um den Dienst zu aktivieren.
 
 > [!NOTE]
-> Das folgende Video zeigt ein Beispiel für die Verbindung zu einem Wechselkursdienst am Beispiel der Europäischen Zentralbank. In dem Abschnitt, der das Einrichten von Feldzuordnungen beschreibt, gibt die Einstellung in der Spalte **Quelle** für die Option **Übergeordneter Knoten für Währungscode** nur die erste gefundene Währung zurück. Die Einstellung sollte **/gesmes:Umschlag/Code/Code/Code** lauten.
+> Das folgende Video zeigt ein Beispiel für die Verbindung zu einem Wechselkursdienst am Beispiel der Europäischen Zentralbank. In dem Abschnitt, der das Einrichten von Feldzuordnungen beschreibt, gibt die Einstellung in der Spalte **Quelle** für die Option **Übergeordneter Knoten für Währungscode** nur die erste gefundene Währung zurück. Die Einstellung sollte auf `/gesmes:Envelope/Code/Code/Code` festgelegt sein.
 
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Um Währungswechselkurse über einen Service zu aktualisieren
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Währungen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die **Aktualisieren von Wechselkursen** Aktion aus.
 
 Der Wert im Feld **Wechselkurs** wird auf der Seite **Währung** mit dem aktuellen Währungswechselkurs aktualisiert.

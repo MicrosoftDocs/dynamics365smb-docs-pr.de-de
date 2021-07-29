@@ -10,16 +10,18 @@ ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 09dba629e977707921129261ea2540cc223c15dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 99dd133c3f3ab05806976c5fe840f81dcd8e1403
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784940"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440899"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Überprüfen von Seiten in Business Central
 
 Die Überprüfungsfunktion der Seite ermöglicht es Ihnen, Details zu einer Seite abzurufen und bietet Einblick in den Seitenentwurf, die verschiedenen Elemente, aus denen die Seite besteht und die Quelle hinter den angezeigten Daten. Seitenüberprüfung ist besonders für Administratoren und Superuser, Support-Mitarbeiter und Entwickler gedacht. Es eignet sich ideal, um mehr über das Datenmodells hinter einer Seite zu erfahren, und für die Fehlerbehebung. Wenn Sie beispielsweise ein Problem mit einer Seite haben, können Sie mit der Seitenüberprüfung Informationen erhalten, die Sie an den Systemadministrator oder den Supportmitarbeiter weitergeben.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Arbeiten mit der Seitenüberprüfung
 
@@ -27,7 +29,7 @@ Starten Sie die Seitenüberprüfung über die Seite **Hilfe und Support**. Wähl
 
 Der Bereich **Seitenüberprüfung** wird auf der Seite geöffnet. Die folgende Abbildung zeigt den Bereich **Seitenüberprüfung** auf der Seite **Verkaufsauftrag**.
 
-![Seitenüberprüfung](media/page-inspection-example.png)
+![Seite inspizieren.](media/page-inspection-example.png)
 
 Wenn der Bereich **Seitenüberprüfung** erstmaligen geöffnet wird, werden Informationen zum Hauptseitenobjekt angezeigt.
 

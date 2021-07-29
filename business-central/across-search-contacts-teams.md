@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 6d094e365ad0c7da73467e5a3160d926902c45d9
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 18a0eaf953c99050edb3b047cb5b4a31c83feeeb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935161"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440749"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Suche nach Debitoren, Kreditoren und anderen Kontakten von Microsoft Teams
 
@@ -42,13 +42,13 @@ Das Befehlsfeld befindet sich in Teams oben auf jedem Bildschirm. Sie können da
 
 1. Geben Sie in das Befehlsfeld **@Business Central** ein, und wählen Sie dann die Business Central-App aus den Ergebnissen aus.
 
-    ![Die Business Central-App öffnen, um über das Befehlsfeld nach Kontakten zu suchen](media/teams-contacts-command-1.png)
+    ![Öffnen Sie die Business Central-App, um nach Kontakten aus der Befehlsbox zu suchen.](media/teams-contacts-command-1.png)
 
 2. Geben Sie im Feld **Business Central** einen Suchtext wie einen Namen, eine Adresse oder eine Telefonnummer ein.
 
     Während der Eingabe werden übereinstimmende Ergebnisse angezeigt.
 
-    ![Nach Business Central-Kontakten über das Befehlsfeld in Teams suchen](media/teams-contacts-command-2.png)
+    ![Suchen Sie Business Central Kontakte aus der Befehlsbox in Teams.](media/teams-contacts-command-2.png)
 3. Wählen Sie einen Kontakt aus den Ergebnissen aus.
 
     Die Kontaktkarte wird unter dem Befehlsfeld angezeigt.
@@ -65,13 +65,13 @@ Der Vorteil der Verwendung des Felds zum Erstellen von Nachrichten besteht darin
 
     Wenn Sie das Symbol **Business Central** nicht sehen, wählen Sie **... (Messaging-Erweiterungen)** aus.
 
-    ![Die Business Central-App öffnen, um über das Feld Nachrichten nach Kontakten zu suchen](media/teams-contacts-message-box.png)
+    ![Öffnen Sie die Business Central-App, um nach Kontakten aus dem Nachrichtenfeld zu suchen.](media/teams-contacts-message-box.png)
 
-2. Geben Sie im Feld **Business Central** einen Suchtext wie einen Namen, eine Adresse oder eine Telefonnummer ein.
+2. Beginnen Sie im Feld **Business Central** mit der Eingabe von Suchtext, z. B. einem Namen, einer Adresse oder einer Telefonnummer.
 
     Während der Eingabe werden übereinstimmende Ergebnisse angezeigt.
 
-    ![Über das Feld Nachrichten nach Business Central-Kontakten suchen](media/teams-contacts-5.png)
+    ![Suchen Sie nach Business Central Kontakten aus dem Nachrichtenfeld.](media/teams-contacts-5.png)
 3. Wählen Sie einen Kontakt aus den Ergebnissen aus.
 
     Die Kontaktkarte wird im Feld zum Erstellen von Nachrichten angezeigt.
@@ -99,10 +99,12 @@ Die Kontaktkarte funktioniert genau wie Karten für Aufzeichnungen, z. B. Artik
 ## <a name="see-also"></a>Siehe auch
 
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
-[Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md)  
+[Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  
 [Teams FAQ](teams-faq.md)  
+[Ändern von Firmen- und anderen Einstellungen in Teams](across-teams-settings.md)  
+[Datensätze in Microsoft Teams freigeben](across-working-with-teams.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
-[Entwicklung für die Teams-Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

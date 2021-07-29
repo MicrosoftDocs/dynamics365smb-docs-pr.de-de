@@ -1,6 +1,6 @@
 ---
 title: Überblick der Aufgaben zum Einrichten von Business Central
-description: Definiert Aufgaben zum, initialisieren und konfigurieren in Business Central, um Ihren Anforderungen zu entsprechen.
+description: Lesen Sie einen Überblick über die Aufgaben zum Festlegen, Initialisieren und Konfigurieren von Business Central nach Ihren Bedürfnissen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781456"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441422"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Überblick der Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -23,7 +23,7 @@ ms.locfileid: "5781456"
 
 Wir haben einige Firmendaten für Sie erstellt, beispielsweise Ihren Kontenplan mit Kontensummen vorausgefüllt, die zur Verwendung bereit sind. Sie können den Kontenplan selbstverständlich ändern und Ihren persönlichen Anforderungen anzupassen. Weitere Informationen finden Sie unter [Finanzen](finance.md).
 
-Vom ![Zahnrad-Symbol zum Öffnen des Einstellungsmenüs](media/ui-experience/settings_icon_small.png)-Menü aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsseiten zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).  
+Über das Symbol ![ zum Öffnen des Menüs „Einstellungen“.](media/ui-experience/settings_icon_small.png) Menü können Sie auf Anleitungen zur unterstützten Einrichtung zugreifen, die Ihnen bei der Konfiguration bestimmter Szenarien und beim Hinzufügen von Funktionen helfen [!INCLUDE[prod_short](includes/prod_short.md)]. Weitere Informationen darüber, wie Sie auf alle unterstützte und manuelle Einrichtungsseiten zugreifen, finden Sie unter [Vorbereiten auf die Geschäftstätigkeiten](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]

@@ -1,6 +1,6 @@
 ---
-title: Gemeinsames Erfassen und Buchen von Verbrauch und Ausgang für eine einzelne freigegebene Fertigungsauftragszeile | Microsoft Docs
-description: Diese Ausführungsaufgabe wird auf der Seite **Produktions Buch.-Blatt** ausgeführt. In diesem Buchungsblatt werden die Funktionen des separaten FA-Verbrauchs Buch.-Blatts und des FA-Istmeldungs Buch.-Blatts in einem Buchungsblatt kombiniert. Auf das kombinierte Buchungsblatt wird direkt von einem freigegebenen Fertigungsauftrag aus zugegriffen. Es dient hauptsächlich dazu, den Verbrauch von Komponenten, die Menge der gefertigten Endartikel und die für die Arbeitsgänge aufgewendete Zeit manuell zu buchen.
+title: Verbrauchsausgabe für Produktauftrag registrieren
+description: Dieses Thema erklärt, wie Sie den Verbrauch und die Ausgabe für eine freigegebene Fertigungsauftrags-Zeile registrieren, die auf der Seite Fertigungsjournal angezeigt wird.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3b73c2cde88292a38c43e9fcc3bd63b031cd6591
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f2ecf59472adb8b153b2b6feeea62591e0565085
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787827"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441547"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile
 Diese Ausführungsaufgabe wird auf der Seite **Produktions Buch.-Blatt** ausgeführt. In diesem Buchungsblatt werden die Funktionen des separaten FA-Verbrauchs Buch.-Blatts und des FA-Istmeldungs Buch.-Blatts in einem Buchungsblatt kombiniert. Auf das kombinierte Buchungsblatt wird direkt von einem freigegebenen Fertigungsauftrag aus zugegriffen. Es dient hauptsächlich dazu, den Verbrauch von Komponenten, die Menge der gefertigten Endartikel und die für die Arbeitsgänge aufgewendete Zeit manuell zu buchen. Die Werte werden als Posten unter dem freigegebenen Fertigungsauftrag gebucht. Verbrauchsmengen werden als negative Artikelposten gebucht, fertig gestellte Mengen werden als positive Posten gebucht, und die aufgewendeten Zeiten werden als Kapazitätsposten gebucht. Solche gebuchten Posten können auch unten im Buchungsblatt als Ist-Mengen angezeigt werden.  
@@ -27,7 +27,7 @@ Diese Ausführungsaufgabe wird auf der Seite **Produktions Buch.-Blatt** ausgef�
 >  Komponenten ohne Verbindungscodes werden im Buchungsblatt zuerst aufgeführt.  
 
 ## <a name="to-register-consumption-and-output"></a>Verbrauch und Istmeldungen registrieren  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Freigegebene FA** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Geben Sie im Symbol **Freigegebene Prod. Orders** ein und wählen Sie dann den entsprechenden Link.  
 2.  Öffnen Sie eine freigegebene FA-Zeile, die zur Registrierung bereitsteht. Klicken Sie auf dem Inforegister **Zeilen** auf die Aktion **Zeilen** und klicken Sie dann auf **Produktions Buch.-Blatt**.  
 
     Die Seite **Produktions-Buch.-Blatt** wird geöffnet, mit Buchungsblattzeilen für den Fertigungsauftrag entsprechend den Seiten **FA-Komponente** und **FA-Arbeitsplan**. Diese Zeilen stammen aus der Fertigungsstückliste und dem Arbeitsplan, die dem Artikel zugewiesen wurden, der gefertigt wird. Weitere Informationen finden Sie unter [Erstellen von Montagestücklisten](production-how-to-create-routings.md).  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0abd3da4abd0b91b7541fb545606c569f98b987
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d13bfaf069a10cb1ff92806dbceb46811a770fac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787852"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441572"
 ---
 # <a name="post-scrap-manually"></a>Ausschuss manuell buchen
 Wenn während der Produktion Ausschuss angefallen ist, dann kann dieser im FA-Istmeldungsprotokoll eingegeben werden. 
@@ -24,7 +24,7 @@ Wenn während der Produktion Ausschuss angefallen ist, dann kann dieser im FA-Is
 > Beachten Sie, dass die Ausschussmenge die fertig gestellte Menge nicht erhöht.  
 
 ## <a name="to-post-scrap-manually"></a>Ausschuss manuell buchen  
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **FA-Istmeldungs Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Erfassung Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Geben Sie im Feld **Ausschussmenge** die Ausschussmenge ein.  
 4. Geben Sie im Feld **Ausschusscode** den Ausschusscode ein.  

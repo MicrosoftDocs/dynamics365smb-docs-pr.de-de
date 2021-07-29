@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba15a65317ebf52579c285c93dd59eba1b65ae1b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 848b2ddc00f5006f31a0b2cff0a07d51ec305921
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787107"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440799"
 ---
 # <a name="report-selection-in-business-central"></a>Berichtsauswahl in Business Central
 
@@ -32,7 +32,7 @@ Die Seiten **Berichtsauswahl** geben an, welcher Bericht in verschiedenen Situat
 |Berichte für die Mehrwertsteuerberichterstattung definieren (Deutschland)|[Richten Sie Berichte für MwSt ein](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> Ihr [!INCLUDE [prod_short](includes/prod_short.md)] kann zusätzliche Seiten **Berichtsauswahl** enthalten, abhängig von Ihrem Standort und Ihrer Branche. Sie können Ihre Einrichtung jederzeit überprüfen, indem Sie das Symbol ![Glühbirne, die die Funktion Wie möchten Sie weiter verfahren öffnet](media/ui-search/search_small.png "Was möchten Sie tun") auswählen und dann **Berichtsauswahl** eingeben und den entsprechenden Link auswählen.
+> Ihr [!INCLUDE [prod_short](includes/prod_short.md)] kann zusätzliche Seiten **Berichtsauswahl** enthalten, abhängig von Ihrem Standort und Ihrer Branche. Sie können Ihre Einrichtung jederzeit überprüfen, indem Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol wählen, **Berichtsauswahlen** eingeben und dann den entsprechenden Link wählen.
 
 Die Standardversion von [!INCLUDE [prod_short](includes/prod_short.md)] beinhaltet die folgende Seite **Berichtsabschnitt**:
 

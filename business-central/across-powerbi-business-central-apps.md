@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b7da11bb8ec1198be9f1a86fccc29a62125d281
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f83186ec6f8c278bf0d0f8c83f74af70f78baaa6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935311"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440874"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)]-Apps in Power BI verwenden
 
@@ -63,7 +63,7 @@ Registrieren Sie sich für den Power BI-Dienst. Wenn Sie sich noch nicht registr
 1. Öffnen Sie Ihren Browser, navigieren Sie zu [https://powerbi.microsoft.com](https://powerbi.microsoft.com) und melden Sie sich bei Ihrem Konto an.
 2. Wählen Sie **Daten abrufen** am unteren Rand des linken Navigationsbereich aus.  
 
-    ![Navigieren, um die Daten zu erhalten](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Navigieren Sie zu Daten holen.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     Sie können möglicherweise auch von [!INCLUDE [prod_short](includes/prod_short.md)] aus starten. Navigieren Sie auf Ihrer Homepage zu **Berichtsauswahl** im Power BI Abschnitt. Wählen Sie entweder **Service** oder **Mein Unternehmen** im Menüband aus. Die Organisationsgalerie in Power BI oder in Microsoft AppSource wird geöffnet. Sie wird gefiltert, sodass nur Apps angezeigt werden, die sich auf [!INCLUDE[prod_short](includes/prod_short.md)] beziehen.
 
@@ -89,7 +89,7 @@ Registrieren Sie sich für den Power BI-Dienst. Wenn Sie sich noch nicht registr
 5. Wenn Sie dazu aufgefordert werden, geben Sie den Benutzernamen und das Kennwort für die Anmeldung bei [!INCLUDE[prod_short](includes/prod_short.md)] ein.
 6. Sobald die Verbindung hergestellt ist, werden ein Dashboard und Berichte zu Ihrem Power BI Arbeitsplatz hinzugefügt. Wenn abgeschlossen, werden die Kacheln die Daten aus Ihrem [!INCLUDE[prod_short](includes/prod_short.md)]-Unternehmen anzeigen.
 
-    ![Wählen Sie Dynamics 365 Business Central aus, und wählen Sie dann „Jetzt abrufen“ aus](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Wählen Sie Dynamics 365 Business Central und wählen Sie Jetzt abrufen.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Probleme beheben
 

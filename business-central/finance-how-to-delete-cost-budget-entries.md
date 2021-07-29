@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e2f05388149e9e6587f916db79b652e64ad5d02e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d506a6f1a5aa40a7dcc77bab66d5a13085d364c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774839"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442160"
 ---
 # <a name="delete-cost-budget-entries"></a>Kostenbudgetposten löschen
 Sie verwenden den Batchauftrag **Kostenbudgeteinträge löschen** , um Kostenbudgetposten in der Kostenbudgeterfassung zu stornieren.  
@@ -24,7 +24,7 @@ Um keine Lücken in den Kostenbudgetposten und den Kostenjournalposten entstehen
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Kostenbudgetposten löschen:  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kostenbudgeteinträge löschen** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kostenbudgetposten löschen** ein, und wählen Sie dann den entsprechenden Link.  
 
     Die **Zu-Register-Nr.** Das Feld enthält die letzte Journalpostennummer und kann nicht geändert werden.  
 

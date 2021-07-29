@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 2ccecd22db33e3ce734dd5a5d280f45d22bb2751
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: ef2c12ea5e956b9bfdaeb2c464ac74684b630c48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074562"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440850"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Die App [!INCLUDE [prod_short](includes/prod_short.md)] für Microsoft Teams installieren
 
@@ -45,7 +45,7 @@ Diese Option ist der schnellste Weg zur Installation der App.
 
 2. Warten Sie, bis die Business Central-App angezeigt wird.
 
-    ![Die Business Central-App in Teams installieren](media/teams-install-app.png)
+    ![Installieren der Business Central-App in Teams.](media/teams-install-app.png)
 
 3. Wählen Sie **Hinzufügen**.
 
@@ -69,7 +69,9 @@ Sie können die App jetzt in Teams verwenden, um nach Kontakten zu suchen oder B
 [Übersicht über die Integration von Business Central und Microsoft Teams](across-teams-overview.md)  
 [Teams FAQ](teams-faq.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
-[Entwicklung für die Teams-Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Ändern von Firmen- und anderen Einstellungen in Teams](across-teams-settings.md)  
+[Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

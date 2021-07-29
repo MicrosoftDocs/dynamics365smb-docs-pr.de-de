@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1f3016900fab6e6c277dfa01e2d3a455bef8863
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f32ed673905e155e3876b71e4607bf33448e5327
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785998"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441118"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Kopieren von vorhandenen Artikeln um neue Artikel zu erstellen
 
@@ -23,7 +23,7 @@ Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der 
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>So kopieren Sie vorhandene Elemente in neue Elemente
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Artikel** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie den Artikel, den Sie kopieren möchten, und wählen Sie dann die Aktion **Artikel kopieren** aus.  
 
     Wenn Sie die Aktion **Element kopieren** nicht finden können, wählen Sie die Anzeige weiterer Optionen aus, und suchen Sie diese unter **Aktionen**, **Funktionen**.  

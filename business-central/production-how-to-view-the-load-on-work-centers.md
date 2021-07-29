@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 72fbc9b893a87107937aa27018e4f8640f6e6ecf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3bbea3277e6c0d9730c9e1925becc3cc9f27aa42
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787652"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442035"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Anzeigen der Auslastung der Arbeit und Arbeitsplätze
 Auf den Seiten **Arbeitsplatzgruppenkarte** und **Arbeitsplatzkarte** können Sie gebuchte Kapazität aufgrund der Informationen zu geplanten und freigegebenen Fertigungsaufträgen anzeigen.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Um sich die Auslastung von Arbeitsplatzgruppen anzeigen zu lassen:  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Arbeitsplatzgruppen** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Arbeitsplatzgruppen** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Öffnen Sie die relevante Karte **Arbeitsplatzgruppe** aus der Liste, und wählen Sie die **Laden** Aktion aus.  
 
 Verwenden Sie die Felder **Anzeigen nach** und **Anzeigen als** auf dem Inforegister **Optionen**, um den gewünschten Zeitraum auszuwählen.  

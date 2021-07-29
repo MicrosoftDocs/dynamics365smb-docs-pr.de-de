@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Einrichten von BarDebitoren | Microsoft Docs'
-description: Dieses Thema beschreibt die Schritte, um Debitoren einzurichten, der in bar bezahlt.
+title: So legen Sie Debitoren fest
+description: Dieses Thema beschreibt die Schritte, die erforderlich sind, um die Rechnung mit einer Kundennummer für Debitoren, die in bar bezahlen, festzulegen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f047876678d26e7e53bf304433f38a410ba7d7fa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9462b7bb887b5c4d2dcc0f602d5cd0fe57ccc1fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770391"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442085"
 ---
 # <a name="set-up-cash-customers"></a>BarDebitoren einrichten
 Sie können keine Rechnung ohne Debitorennummer erstellen. Dies trifft auch zu, wenn Sie einen Barverkauf tätigen und kein Debitorenkonto aktualisieren müssen.  
 
 ## <a name="to-set-up-a-cash-customer"></a>So richten Sie Bargelddebitoren ein:  
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Debitor** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kunde** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Erstellen Sie eine neue Karte **Debitor**. Weitere Informationen finden Sie unter [Neue Debitoren registrieren](sales-how-register-new-customers.md).
 3.  Geben Sie im Feld **Nr.** Geben Sie beispielsweise **Bar** ein.  
 4.  Geben Sie in dem Feld **Name** z. B. **BARVERKAUF** ein.  

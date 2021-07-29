@@ -1,6 +1,6 @@
 ---
 title: Mit Microsoft Dataverse verbinden
-description: Sie können über Microsoft Dataverse andere Apps in Business Central integrieren. Dieser Artikel enthält Tipps und Tricks zum Einrichten der Verbindungen.
+description: Legen Sie eine Verbindung zwischen Business Central und Dataverse fest. Unternehmen erstellen die Verbindung normalerweise, um Daten mit einer anderen Dynamics 365 Business App zu integrieren.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/26/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: a29fb1e0a8e10e91a811914a9188548149d5125a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063477"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441343"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Mit Microsoft Dataverse verbinden
 
@@ -64,7 +64,7 @@ Die Anleitung zur unterstützten Einrichtung für die Verbindung von Dataverse k
 > [!IMPORTANT]
 > In der Regel verwenden Sie die vollständige Synchronisierung nur, wenn Sie die Anwendungen zum ersten Mal integrieren, und nur eine Anwendung enthält Daten. Eine vollständige Synchronisierung kann in einer Demonstrationsumgebung hilfreich sein, da in jeder Anwendung automatisch Datensätze erstellt und gekoppelt werden, wodurch die Arbeit mit synchronisierten Daten beschleunigt wird. Sie sollten die vollständige Synchronisierung jedoch nur ausführen, wenn Sie eine Zeile in [!INCLUDE[prod_short](includes/prod_short.md)] für jede Zeile in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] für die Tabellenzuordnungen möchten. Andernfalls kann das Ergebnis doppelte Datensätze sein.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie **Eine Verbindung zu Microsoft Dataverse** einrichten, um das Leitfaden für das unterstützte Setup zu starten.
 3. Füllen Sie die Felder nach Bedarf aus.
 
@@ -75,7 +75,7 @@ Die Anleitung zur unterstützten Einrichtung für die Verbindung von Dataverse k
 
 Die folgende Prozedur beschreibt, wie die Verbindung auf der Seite **Dataverse Verbindungs-Einrichtung** manuell eingerichtet wird. Dies ist auch die Seite, auf der Sie Einstellungen für die Integration verwalten.
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Dataverse Verbindungseinrichtung** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Dataverse Einrichtung der Verbindung** ein und wählen Sie dann den zugehörigen Link.
 2. Geben Sie die folgenden Informationen über die Verbindung von [!INCLUDE[prod_short](includes/prod_short.md)] mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] ein.
 
     |Feld|Beschreibung|
@@ -106,6 +106,28 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
 
 -->
+
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Aktualisieren von Verbindungen von Business Central Online zur Verwendung der zertifikatsbasierten Authentifizierung
+> [!NOTE]
+> Dieser Abschnitt ist nur für Business Central Online-Mandanten relevant, die von Microsoft gehostet werden. Online-Mandanten, die von ISVs gehostet werden, und lokale Installationen sind davon nicht betroffen.
+
+Im April 2022 veraltet [!INCLUDE[cds_long_md](includes/cds_long_md.md)] den Office365-Authentifizierungstyp (Benutzername/Kennwort). Weitere Informationen finden Sie unter [Abkündigung des Office365-Authentifizierungstyps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Zusätzlich veraltet [!INCLUDE[prod_short](includes/prod_short.md)] im März 2022 die Verwendung der Client-Geheimnis-basierten Service-to-Service-Authentifizierung für Online-Mandanten und erfordert die Verwendung der zertifikatsbasierten Service-to-Service-Authentifizierung für Verbindungen zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Online-Mandanten, die von ISVs gehostet werden, und lokale Installationen können weiterhin die Office365-Authentifizierung verwenden, die von ihrem Microsoft-Partner festgelegt wurde.
+
+Um eine Unterbrechung der Integrationen zu vermeiden, _müssen Sie die Verbindung auf die Verwendung der zertifikatsbasierten Authentifizierung umstellen_. Obwohl die Umstellung für März 2022 geplant ist, empfehlen wir Ihnen dringend, das Upgrade so bald wie möglich durchzuführen. Die folgenden Schritte beschreiben, wie Sie ein Upgrade auf zertifikatsbasierte Authentifizierung durchführen. 
+
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>So aktualisieren Sie Ihre Business Central Online-Verbindung, um die zertifikatsbasierte Authentifizierung zu verwenden
+> [!NOTE]
+> Die zertifikatsbasierte Authentifizierung ist in Business Central 2021 Release Wave 1 und später verfügbar. Wenn Sie eine frühere Version verwenden, müssen Sie ein Update auf Business Central 2021 Release Wave 1 vor März 2022 einplanen. Weitere Informationen finden Sie unter [Planen von Updates](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Wenn Probleme auftreten, wenden Sie sich an Ihren Partner oder den Support.
+
+1. Stellen Sie im [Business Central-Administrationscenter]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) sicher, dass Sie Business Central 2021 Versionswelle 1 oder höher (Version 18 oder höher) verwenden.
+2. Je nachdem, ob Sie mit Dynamics 365 Sales integriert sind, führen Sie einen der folgenden Schritte aus:
+   * Wenn ja, öffnen Sie die Seite **Microsoft Dynamics 365 Verbindungseinrichtung**.
+   * Wenn nicht, öffnen Sie die Seite **Dataverse Einrichtung der Verbindung**.
+3. Wählen Sie **Verbindung** und dann **Zertifikatsauthentifizierung verwenden**, um die Verbindung auf die Verwendung einer zertifikatsbasierten Authentifizierung umzustellen.
+4. Melden Sie sich mit den Anmeldeinformationen des Administrators für Dataverse an. Die Anmeldung sollte weniger als eine Minute dauern.
+
+> [!NOTE]
+> Sie müssen diese Schritte in jeder [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung wiederholen, einschließlich der Produktions- und Sandbox-Umgebungen, und in jeder Firma, in der Sie eine Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] haben.
 
 ## <a name="connecting-on-premises-versions"></a>Verbinden von Vor-Ort-Versionen
 
@@ -149,7 +171,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie Azure AD verwenden,
 
 ### <a name="to-disconnect-from-cds_long_md"></a>So trennen Sie [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"), geben Sie **Dataverse Verbindungseinrichtung** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Dataverse Einrichtung der Verbindung** ein und wählen Sie dann den zugehörigen Link.
 2. Schalten Sie auf der Seite **Dataverse Verbindungseinrichtung** die Umschaltung auf **Aktiviert**.  
 
 ## <a name="see-also"></a>Siehe auch

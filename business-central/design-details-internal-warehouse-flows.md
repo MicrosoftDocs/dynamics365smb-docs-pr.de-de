@@ -1,6 +1,6 @@
 ---
-title: Designdetails - Interner Lagerfluss | Microsoft Docs
-description: An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerplätzen auf die Kommissionierung von Komponenten und die Einlagerung von Endartikeln für Produktions oder Montageaufträge und Ad-hoc-Verschiebungen, wie etwa Lagerplatzauffüllungen, ohne Bezug auf Herkunftsbelege.
+title: Design-Details – Interne Flows im Lager
+description: Der Flow zwischen Lagerplätzen konzentriert sich auf das Kommissionieren von Komponenten und das Einlagern von Endartikeln für Montage- oder Produktionsaufträge und Ad-hoc-Bewegungen, ohne Quellbelege.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7be0a3907b59a17e6f77e4ae8eb3a36fc62d8f7a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215128"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441747"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetails: Interner Lagerfluss
 An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerplätzen auf die Kommissionierung von Komponenten und die Einlagerung von Endartikeln für Produktions oder Montageaufträge und Ad-hoc-Verschiebungen, wie etwa Lagerplatzauffüllungen, ohne Bezug auf Herkunftsbelege. Der Umfang und die Art der einbezogenen Tätigkeiten variiert zwischen der grundlegenden und der erweiterten Logistik.  
@@ -114,10 +114,10 @@ An einem Unternehmensstandort konzentriert sich der Warenfluss zwischen Lagerpl�
 
  Die folgende Abbildung zeigt, wann das Feld **Lagerplatzcode** auf der Komponentenliste entsprechend Ihrer Lagerort- oder Arbeitsplatzeinrichtung gefüllt wird.  
 
- ![Übersicht darüber, wann/wie das Feld Lagerortcode ausgefüllt wird](media/binflow.png "Übersicht darüber, wann/wie das Feld Lagerortcode ausgefüllt wird")  
+ ![Übersicht, wann/wie das Feld Lagerplatz ausgefüllt wird.](media/binflow.png "Übersicht darüber, wann/wie das Feld Lagerortcode ausgefüllt wird")  
 
-## <a name="see-also"></a>Siehe auch  
- [Designdetails: Lagerverwaltung](design-details-warehouse-management.md)
+## <a name="see-also"></a>Weitere Informationen  
+ [Designdetails: Logistik](design-details-warehouse-management.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
