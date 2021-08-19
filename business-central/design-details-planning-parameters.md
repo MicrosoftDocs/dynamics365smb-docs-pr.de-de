@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/15/2021
+ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437887"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649812"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
 Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] verwenden können.  
@@ -114,10 +114,30 @@ Die Option **Produktionsart** definiert, welche zusätzlichen Aufträge die Nett
 
 Wenn die Option **Lagerfertigung** verwendet wird, betreffen die Aufträge nur den jeweiligen Artikel.  
 
-Wenn die Option **Auftragsfertigung** verwendet wird, analysiert das Planungssystem die Fertigungsstückliste des Artikels und erstellt zusätzliche verknüpfte Vorschlagszeilen für diejenigen Artikel auf untergeordneter Ebene, die auch als Auftragsfertigung definiert werden. Dieses wird fortgesetzt, solange Auftragsfertigungsartikel in den absteigenden Stücklistenstrukturen vorhanden sind.  
+Wenn die Option **Auftragsfertigung** verwendet wird, analysiert das Planungssystem die Fertigungsstückliste des Artikels und erstellt zusätzliche verknüpfte Vorschlagszeilen für diejenigen Artikel auf untergeordneter Ebene, die auch als Auftragsfertigung definiert werden. Dieses wird fortgesetzt, solange Auftragsfertigungsartikel in den absteigenden Stücklistenstrukturen vorhanden sind.
 
-## <a name="see-also"></a>Siehe auch  
-[Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)   
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Verwenden von eine Stücklistenebenen, um den abgeleiteten Bedarf zu verwalten
+
+Verwenden Sie eine Stücklistenebenen, um den abgeleiteten Bedarf an Komponenten bis zu den unteren Ebenen der Stückliste durchzuleisten. Eine ausführlichere Erklärung dazu finden Sie unter [Artikelpriorität Stücklistenebene](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+Jedem Teil in der Erzeugnisstruktur oder der eingerückten Stückliste wird eine Stücklistenebene zugeordnet. Das oberste Fertigprodukt wird mit der Ebene 0 gekennzeichnet. Je größer die Stücklistenebenennummer, desto tiefer ist der Artikel in der Hierarchie. Fertigprodukte haben z. B. die Ebene 0, Baugruppen, die als Teile in die Montage des Produkts eingehen, haben die Ebenen 1, 2, 3 und so weiter. Das Ergebnis ist die mit den Bedarfen koordinierte Planung von Baugruppen aller Artikel mit einer höheren Ebenennummer. Wenn Sie einen Plan berechnen, wird die Stückliste im Planungsvorschlag entfaltet, und der Bruttobedarf für die Ebene 0 geht ein in die Bruttobedarfe für die nächste Planungsebene.
+
+Wählen Sie das Feld **Dyn. Stückl.-Ebene berechnen** aus, um anzugeben, ob sofort Stücklistenebenen für jede Komponente in der Produktstruktur zugewiesen und berechnet werden sollen. Wenn Sie große Mengen an Daten haben, kann sich diese Funktion negativ auf die Leistung der Anwendung auswirken (zum Beispiel bei der automatischen Kostenanpassung). Beachten Sie, dass diese Funktion nicht rückwirkend arbeitet. Deshalb ist es empfehlenswert, diese Funktion bereits im Vorfeld zu verwenden.
+
+Als Alternative zur automatischen Berechnung, die bei aktiviertem Kontrollkästchen dynamisch erfolgt, können Sie im Menü **Produktion** den Batchauftrag **Stücklistenebene berechnen** ausführen, indem Sie auf **Produktentwicklung** und anschließend auf **Stücklistenebene berechnen** klicken.
+
+> [!IMPORTANT]
+> Wenn Sie nicht das Feld **Dyn. Stückl.-Ebene berechnen** auswählen, dann müssen Sie den Batchauftrag **Stücklistenebene berechnen** ausführen, bevor Sie den Beschaffungsplan berechnen (den Batchauftrag **Planung berechnen**).  
+
+> [!NOTE]
+> Auch bei aktiviertem Kontrollkästchen **Dyn. Stückl.-Ebene berechnen** werden die Stücklistenebenen nicht dynamisch geändert, wenn eine übergeordnete Stückliste gelöscht wird oder als nicht zertifiziert festgelegt wird. Dadurch ergeben sich möglicherweise Probleme beim Hinzufügen neuer Artikel zum Ende der Produktstruktur, da unter Umständen die maximale Anzahl von Stücklistenebenen überschritten wird. Daher empfiehlt es sich bei umfangreichen Produktstrukturen, bei denen das Limit für die Stücklistenebenen erreicht wird, häufig die Stapelverarbeitung **Stücklistenebene berechnen** auszuführen, um die Struktur beizubehalten.  
+
+### <a name="optimize-low-level-code-calculation"></a>Stücklistenebenencode-Berechnung optimieren
+
+Wählen Sie das Feld **Stücklistenebenencode-Berechnung optimieren** aus, um anzugeben, dass Sie die neue, schnellere Methode der Stücklistenebenencode-Berechnung verwenden möchten. Beachten Sie, dass die neue Berechnung anders ausgeführt wird und dass bei ihrer Verwendung möglicherweise Erweiterungen beschädigt werden, die auf der vorhandenen Methode basieren. Die neue Berechnungsmethode wird die bisherige Methode in einem zukünftigen Release ersetzen.
+
+## <a name="see-also"></a>Weitere Informationen  
+[Entwurfsdetails: Handhabung von Richtlinien zur Wiederbestellung](design-details-handling-reordering-policies.md)   
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)   
 [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)
 

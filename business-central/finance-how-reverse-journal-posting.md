@@ -1,5 +1,5 @@
 ---
-title: Rückgängigmachen einer Buchung durch Buchung einer Rückbuchung | Microsoft Docs
+title: Rückgängigmachen einer Buchung durch Buchung einer Umkehrbuchung
 description: Wenn Sie fehlerhafte Buchungen im Fibu Buch.-Blatt vorgenommen haben, können Sie die Funktion verwenden, um die korrekte Buchung mit einem Protokoll zu stornieren.
 services: project-madeira
 documentationcenter: ''
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2021
+ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: fc759d1fdb08b847028bf4a24157c17c4d2f74e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444462"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660156"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Buchungen stornieren und Belege/Lieferungen rückgängig machen
-Zum Stornieren (Rückgängig machen) fehlerhafter Buch.-Blattbuchungen wählen Sie einen Posten und erstellen einen Korrekturposten (ein Posten, die mit dem ursprünglichen Posten identisch ist, jedoch im Betragsfeld ein umgekehrtes Vorzeichen aufweist) mit derselben Belegnummer und demselben Belegdatum wie der ursprüngliche Posten. Nachdem Sie einen Posten storniert haben, müssen Sie den Korrekturposten erstellen.
+Das Stornieren von Buchungen dient nicht nur der Fehlerkorrektur, sondern kann beispielsweise auch dazu verwendet werden, einen alten Rückstellungsposten auszugleichen, bevor ein neuer erfasst wird. Sie wählen einen Posten aus und erstellen einen Korrekturposten (Posten, der mit dem ursprünglichen Posten identisch ist, jedoch im Betragsfeld ein umgekehrtes Vorzeichen aufweist) mit derselben Belegnummer und demselben Belegdatum wie der ursprüngliche Posten. Nachdem Sie einen Posten storniert haben, müssen Sie den Korrekturposten erstellen.
 
 Storniert werden können nur Posten, die in eine Zeile eines Fibu Buch.-Blattes gebucht wurden. Ein Posten kann nur einmal storniert werden.
 

@@ -7,21 +7,25 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies
-ms.date: 04/01/2021
+ms.search.keywords: multiple currencies, foreign exchange rates
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 23e9f521e43373ff3ee0fd5f8218b2d467b54d72
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e1a6c902bdf4ce8270def3c830138511adf6eba3
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444437"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660206"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Einrichten einer zusätzlichen Berichtswährung
 
 Da die Anzahl der Länder, in denen Unternehmen Geschäftsbeziehungen unterhalten, ständig wächst, wird es immer wichtiger, dass Finanzdaten in mehreren Währungen erfasst und angezeigt werden können.
 
-Ihre Finanzbuchhaltung wird in der lokalen Wählrung (LW) eingerichtet. Sie können eine weitere Währung einrichten, der Sie einen aktuellen Wechselkurs zuweisen. Wird eine zweite Währung als [!INCLUDE[prod_short](includes/prod_short.md)] Berichtswährung festgelegt, werden Beträge automatisch für jeden Sachposten und weitere Posten, wie zum Beispiel MwSt.-Posten, in der Mandantenwährung und der Berichtswährung erfasst.
+> [!NOTE]  
+> Wenn Sie in [!INCLUDE[prod_short](includes/prod_short.md)] nach Echtzeitinformationen zu Wechselkursen (FX) oder älteren Kursen suchen, werden diese als Währung bezeichnet. Siehe neben diesem Artikel auch [Währungswechselkurse aktualisieren](finance-how-update-currencies.md).
+
+
+In der Anwendung wird die Finanzbuchhaltung in der Mandantenwährung (MW) eingerichtet. Eine weitere Währung, der ein aktueller Wechselkurs zugewiesen ist, wird als zusätzliche Währung eingerichtet. Wird eine zweite Währung als [!INCLUDE[prod_short](includes/prod_short.md)] Berichtswährung festgelegt, werden Beträge automatisch für jeden Sachposten und weitere Posten, wie zum Beispiel MwSt.-Posten, in der Mandantenwährung und der Berichtswährung erfasst.
 
 > [!Warning]
 > Die Funktion Zusätzliche Berichtswährung sollte nicht als Grundlage für die Umrechnung von Abschlüssen verwendet werden, wenn Sie die Einschränkungen nicht verstehen. Es handelt sich dabei nicht um ein Tool, mit dem Finanzauswertungen von Niederlassungen im Rahmen einer Unternehmenskonsolidierung durchgeführt werden können. Die zusätzliche Berichtswährung kann nur verwendet werden, um Berichte in einer anderen Währung zu erstellen, so als ob diese Währung die Hauswährung der Firma wäre.

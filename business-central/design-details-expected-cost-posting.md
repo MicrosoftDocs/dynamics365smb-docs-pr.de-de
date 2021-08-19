@@ -1,5 +1,5 @@
 ---
-title: 'Designdetails: Erwartete Kostenbuchung | Microsoft Docs'
+title: Designdetails – Erwartete Kostenbuchung
 description: Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten eines Einkaufsartikels, die Sie registrieren, bevor Sie die Rechnung für den Artikel erhalten.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: 181b0168dc73aba7bb4d09b7cda7a2ce7028e142
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215278"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649837"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetails: Soll-Kosten-Buchen
 Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten eines Einkaufsartikels, die Sie registrieren, bevor Sie die Rechnung für den Artikel erhalten.  
@@ -29,10 +29,22 @@ Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten ein
 
  Um Abstimmung und Verfolgbarkeit zu unterstützen, zeigt der fakturierte Wertposten den Soll-Kostenbetrag, der zum Ausgleichen der Interimskonten gebucht wurde.  
 
-## <a name="example"></a>Beispiel  
- Das folgende Beispiel zeigt erwartete Kosten an, wenn das Kontrollkästchen **Automatische Lagerbuchung** und das Kontrollkästchen **Erwartete Kostenbuchung** auf der Seite **Lager Einrichtung** ausgewählt werden.  
+## <a name="prerequisites-for-posting-expected-costs"></a>Voraussetzungen für die Buchung der erwarteten Kosten
 
- Sie buchen eine Einkaufsbestellung als erhalten. Die erwarteten Kosten sind MW 95,00.  
+Um die erwarteten Kosten buchen zu können, müssen Sie Folgendes tun:
+1. Aktivieren Sie auf der Seite **Lager-Einrichtung** das Kontrollkästchen **Automatische Kostenbuchung** und das Kontrollkästchen **Soll-Kosten buchen**.
+2. Legen Sie fest, welche Interimskonten während des erwarteten Kostenbuchungsprozesses verwendet werden sollen.  
+
+  Überprüfen Sie auf der Seite **Lagerbuchungseinrichtung** die Felder **Lagerkonto** und **Lagerkonto (Interim)** auf den **Lagerortcode und Lagerbuchungsgruppencode** des Artikels, den Sie kaufen möchten. Weitere Informationen zu diesen Konten finden Sie unter [Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md).
+3. Überprüfen Sie auf der Seite **Buchungsmatrix Einrichtung** das Feld **Lagerzugangskonto (Interim)** auf die **Geschäftsbuchungsgruppe** und die **Produktbuchungsgruppe**, die Sie verwenden.
+4. Wenn Sie eine Bestellung erstellen, ist die Standardeinstellung, dass das Feld **Kred.-Rechnungsnr.** erforderlich ist. Sie müsse dies auf der Seite **Kreditoren & Einkauf Einr.** deaktivieren, indem Sie das Feld **Ext. Belegnr. erforderlich** deaktivieren.
+
+## <a name="example"></a>Beispiel  
+
+> [!NOTE]  
+> Die in diesem Beispiel verwendeten Kontonummern dienen nur als Referenz und unterscheiden sich in Ihrem System. Richten Sie sie wie in den Voraussetzungen oben beschrieben ein.
+
+Sie buchen eine Einkaufsbestellung als erhalten. Die erwarteten Kosten sind MW 95,00.  
 
  **Wertposten**  
 
@@ -73,7 +85,7 @@ Soll-Kosten repräsentieren die Schätzung der Kosten, z. B. für die Kosten ein
 
  **Sachposten**  
 
-|Buchungsdatum|Sachkonto|Kontonr. (En-US-Demo)|Betrag|Lfd. Nr.|  
+|Buchungsdatum|Sachkonto|Kontonummer (nur Beispiele!)|Betrag|Eingabenr.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Lagerzugangskonto (Interim)|5530|95.00|4|  
 |01-15-20|Lagerkonto (Interim)|2131|-95.00|3|  

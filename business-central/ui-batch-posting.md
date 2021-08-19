@@ -1,6 +1,6 @@
 ---
-title: Mehrere Dokumente gleichzeitig buchen
-description: Anstatt einzelne Belege nacheinander zu buchen, können Sie mehrere nicht gebuchte Belege in einer Liste für eine sofortige oder geplante Batch-Buchung auswählen.
+title: Mehrere Belege gleichzeitig buchen
+description: Erfahren Sie, wie Sie mehrere nicht gebuchte Belege in einer Liste für die sofortige oder geplante Stapelbuchung in Business Central auswählen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446047"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649687"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Mehrere Belege gleichzeitig buchen
 
@@ -78,7 +78,7 @@ Wenn die Projektwarteschlange den Verkaufsauftrag nicht buchen kann, wird der St
 1. Vom Beleg, den Sie versucht haben, mit einer Hintergrundbuchung zu buchen, wählen Sie das Feld **Projektwarteschlangenstatus** aus, das **Fehler** enthält.
 2. Überprüfen Sie die Fehlermeldung und korrigieren Sie das Problem.
 
-Alternativ können Sie auf der Seite **Projektwarteschlangen-Protokolleinträge** prüfen, ob der Verkaufsauftrag erfolgreich gebucht wurde. Weitere Informationen finden Sie unter [So wird der Status oder Fehler in der Projektwarteschlange angezeigt](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+Alternativ können Sie auf der Seite **Projektwarteschlangen-Protokolleinträge** prüfen, ob der Verkaufsauftrag erfolgreich gebucht wurde. Weitere Informationen finden Sie im Abschnitt [Überwachen der Projektwarteschlange](#monitor-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>So wird ein Projektwarteschlangeneintrag für die Stapelbuchung von Verkaufsaufträgen erstellt
 
@@ -117,8 +117,13 @@ Der folgende Ablauf zeigt, wie Sie den Bericht **Stapelbuchung von Verkaufsauftr
 
 Verkaufsaufträge, die unter definierte Filter fallen, werden jetzt an jedem Wochentag um 16:00 Uhr gebucht.
 
+## <a name="monitor-the-job-queue"></a>Überwachen der Projektwarteschlange
 
-## <a name="see-also"></a>Siehe auch
+Wenn Sie die Hintergrundbuchung mit Projektwarteschlangen einrichten, sollten Sie die Projektwarteschlange regelmäßig überwachen, um Probleme zu erkennen. Sie können den Status auf der Seite **Projektwarteschlangeneinträge** nachverfolgen. Weitere Informationen finden Sie unter [Vorgehensweise: Projektwarteschlangen nutzen, um Aufgaben zu planen](admin-job-queues-schedule-tasks.md)  
+
+Als Administrator können Sie [Application Insights](/azure/azure-monitor/app/app-insights-overview) zum Sammeln und Analysieren von Telemetriedaten verwenden, mit denen Sie Probleme identifizieren können. Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unter [Überwachung und Analyse der Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview).  
+
+## <a name="see-also"></a>Weitere Informationen
 
 [Dokumente und Buch.-Blatt verbuchen](ui-post-documents-journals.md)  
 [Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung](admin-job-queues-schedule-tasks.md)  

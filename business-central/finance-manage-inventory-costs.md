@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a0b466979f749e2d42afac06899a9c079f23ff56
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 561401c985fc0e2f25c4f6e719252d19e76e7fe8
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321887"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688331"
 ---
 # <a name="managing-inventory-costs"></a>Verwalten der Lagerregulierung
 Die Kostenverwaltung, die auch als "Lagerabgang" bezeichnet wird, dient zum Erfassen und Melden der Betriebskosten eines Unternehmens. Sie umfasst das Melden von Fertigungskosten und Lagerkosten (also den Wert von Artikeln).   
@@ -36,10 +36,11 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen,
 |Regulieren Sie Artikelkosten, entweder automatisch oder manuell, um Kostenänderungen aus eingehenden Posten an die entsprechenden ausgehenden Posten weiterzuleiten.|[Artikelpreise justieren](inventory-how-adjust-item-costs.md)|
 |Verwendung spezieller Kostenberechnungsfunktionen für tägliche Artikeltransaktionen in den Artikeloperationen.|[Verarbeiten von Lager- und Fertigungskosten](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Regelmäßige Aktualisierung der festen Einstandspreise von Komponenten in Montage- oder Produktionsstücklisten und Übertragung der neuen Einstandspreise auf den übergeordneten Artikel.|[Standardkosten aktualisieren](finance-how-to-update-standard-costs.md)|
-|Sie können bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.|[Entfernen und erneutes Ausgleichen von Artikelposten](finance-how-to-remove-and-reapply-item-entries.md)|
-|Ausführen von Kontroll- und Berichterstellungsaufgaben am Periodenende – beispielsweise Berechnen des Werts von Lagerbestand und Buchen von Kosten in die Finanzbuchhaltung|[Abstimmen der Lagerkosten mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|
+|Sie können bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.|[Artikelposten entfernen und erneut ausgleichen](finance-how-to-remove-and-reapply-item-entries.md)|
+|Ausführen von Kontroll- und Berichterstellungsaufgaben am Periodenende – beispielsweise Berechnen des Werts von Lagerbestand und Buchen von Kosten in die Finanzbuchhaltung|[Melden von Kosten und Abstimmen mit der Finanzbuchhaltung](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Erfahren Sie, wie Sie die Aufgabenwarteschlange verwenden können, um die Aufgaben zum Anpassen der Lagerkosten oder zum Abstimmen der Kosten mit dem Hauptbuch in den Hintergrund zu verlagern.|[Anpassen von Lagerkosten und Abstimmen der Kosten mit dem Hauptbuch mithilfe der Aufgabenwarteschlange](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Weitere Informationen  
  [Finanzen](finance.md)  
  [Lagerbest](inventory-manage-inventory.md)   
  [Verkauf](sales-manage-sales.md)   

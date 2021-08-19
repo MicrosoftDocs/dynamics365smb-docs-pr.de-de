@@ -4,15 +4,15 @@ description: Verfolgen Sie Beträge in verschiedenen Währungen mithilfe der Wä
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/03/2021
+ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441622"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660181"
 ---
 # <a name="update-currency-exchange-rates"></a>Währungswechselkurse aktualisieren
 
@@ -29,6 +29,9 @@ Ihre Finanzbuchhaltung wird in der Mandantenwährung (MW) eingerichtet. Sie kön
 > Wenn Sie eine zusätzliche Berichtswährung für die Finanzberichterstattung verwenden wollen, vergewissern Sie sich, dass Sie die Einschränkungen verstehen. Weitere Informationen finden Sie unter [Zusätzliche Berichtswährung einrichten](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Währungen
+
+> [!NOTE]  
+> Wenn Sie in [!INCLUDE[prod_short](includes/prod_short.md)] nach Echtzeitinformationen zu Wechselkursen (FX) oder älteren Kursen suchen, werden diese als Währung bezeichnet. Siehe neben diesem Artikel auch [Einrichten einer zusätzlichen Berichtswährung](finance-how-setup-additional-currencies.md).
 
 Sie geben die Währungscodes unter **Währungen** an, darunter zusätzliche Informationen und Einstellungen, die für jeden Währungscode erforderlich sind.
 

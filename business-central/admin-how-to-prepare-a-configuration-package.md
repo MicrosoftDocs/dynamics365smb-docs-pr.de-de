@@ -1,5 +1,5 @@
 ---
-title: Wie Sie ein Konfigurationspaket vorbereiten
+title: So bereiten Sie ein Konfigurationspaket vofr
 description: Lernen Sie jetzt, wie Sie ein Konfigurationspaket RapidStart vorbereiten, mit dem Sie neue Firmen auf der Basis vorhandener Daten festlegen können.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440724"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660231"
 ---
 # <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vofr
 
@@ -74,8 +74,20 @@ Geben Sie an, welche Felder im Paket enthalten sind. Standardmäßig sind alle F
     - Um nur die Felder auszuwählen die Sie hinzufügen möchten, wählen Sie die Aktion **Eingeschlossene löschen**. Um alle Felder hinzuzufügen, wählen Sie **Eingeschlossene festlegen**.  
     - Um festzulegen, dass die Felddaten nicht bestätigt werden sollen, löschen Sie das Kontrollkästchen **Feld überprüfen** für das Feld.  
 
-10. Bestimmen, ob Sie mögliche Fehler gemacht haben, indem Sie die Aktion **Paket überprüfen** auswählen. Dies kann eintreten, wenn Sie Tabellen nicht einschließen, auf denen die Konfiguration beruht.  
-11. Wählen Sie die Schaltfläche **OK**.  
+10. Um optional Verarbeitungsfilter auf Tabellendaten anzuwenden oder eine Codeunit mit einem beliebigen Code hinzuzufügen, den Sie in das Paket aufnehmen möchten, wählen Sie die Zeile für die entsprechende Tabelle und dann die Aktion **Verarbeitungsregeln** aus.
+
+    1. Auf der Seite **Verarbeitungsregeln in Konfigurationstabelle** füllen Sie die Felder aus. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+        - Um Filter auf Daten anzuwenden, geben Sie die entsprechende Aktion im Feld **Aktion** an, wählen Sie die Aktion **Verarbeitungsfilter** aus, und füllen Sie dann die Felder aus.  
+
+            Beispielsweise setzen die Konfigurationspakete von Microsoft für die Evaluierungsunternehmen Verarbeitungsfilter für die Tabellen **Verkaufskopf** und **Einkaufskopf**.
+        - Um eine Verarbeitungscodeunit hinzuzufügen, geben Sie sie im Feld **Benutzerdefinierte Verarbeitungs-Codeunit-ID** an.
+
+          > [!NOTE]
+          > Diese Codeunit muss Tabelle 8614 *Paketdatensatz konfigurieren* als Parameter für die `OnRun`-Methode verwenden.
+    2. Schließen Sie die Seite.
+11. Bestimmen, ob Sie mögliche Fehler gemacht haben, indem Sie die Aktion **Paket überprüfen** auswählen. Dies kann eintreten, wenn Sie Tabellen nicht einschließen, auf denen die Konfiguration beruht.  
+12. Wählen Sie die Schaltfläche **OK**.  
 
 Nachdem Sie die Liste der Felder, die von einer Tabelle enthalten sein sollen, neu definiert haben, können Sie die Ergebnisse in Excel prüfen.  
 

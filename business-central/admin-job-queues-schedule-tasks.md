@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b1d9893364d7472759a478877ebec49ace5e9647
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441293"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649862"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung
 
@@ -37,9 +37,10 @@ Nachdem Projektwarteschlangen eingerichtet sind und ausgeführt werden, kann sic
 
 Nachdem ein Projekt erfolgreich abgeschlossen wurde, wird dieses aus der Liste der Projektwarteschlangeneinträge entfernt, es sei denn, es handelt sich um ein wiederkehrendes Projekt. Wenn es sich um ein wiederkehrendes Projekt handelt, wird das Feld **Früheste Startzeit** angepasst, um anzuzeigen, wann das Projekt erwartungsgemäß das nächste Mal ausgeführt wird.  
 
-## <a name="to-view-status-or-errors-in-the-job-queue"></a>So werden Status oder Fehler in der Projektwarteschlange angezeigt
+## <a name="monitor-status-or-errors-in-the-job-queue"></a>Überwachen von Status oder Fehlern in der Projektwarteschlange
 
 Daten, die erstellt werden, wenn eine Projektwarteschlange ausgeführt wird, werden in der Datenbank gespeichert, sodass Sie Projektwarteschlangenfehler beheben können.  
+
 Für jeden Projektwarteschlangeneintrag können Sie den Status anzeigen und ändern. Wenn Sie eine Projektwarteschlangenposten erstellen, wird der zugehörige Status auf **Warten** festgelegt. Sie können den Status beispielsweise auf **Bereit** und wieder auf **Warten** setzen. Andernfalls werden die Statusinformationen in diesem Feld automatisch aktualisiert.
 
 Die folgende Tabelle beschreibt die Werte im Feld **Status**.
@@ -53,11 +54,12 @@ Die folgende Tabelle beschreibt die Werte im Feld **Status**.
 | "Erledigt" | Gibt an, dass der Projektwarteschlangenposten abgeschlossen ist. |
 
 ### <a name="to-view-status-for-any-job"></a>So wird der Status für jedes beliebige Projekt angezeigt
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun") Symbol. Geben Sie **Auftragswarteschlangenposten** ein und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Projektwarteschlangeneinträge** wählen Sie einen Projektwarteschlangeneintrag aus, und wählen die dann die Aktion **Protokolleinträge** aus.  
 
 > [!TIP]
-> Mit [!INCLUDE [prod_short](includes/prod_short.md)] Online können Sie auch den Status von Projektwarteschlangeneinträgen mithilfe von anzeigen Application Insights in Microsoft Azure. Weitere Informationen finden Sie unter [Analysieren der Projektwarteschlange Lebenszyklus-Nachverfolgungs-Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in der [!INCLUDE [prod_short](includes/prod_short.md)] Entwickler und Verwaltungsinhalte.
+> Sie können den Status von Projektwarteschlangeneinträgen auch anzeigen, indem Sie Application Insights in Microsoft Azure für tiefergehende Analysen basierend auf Telemetrie verwenden. Weitere Informationen finden Sie unter [Überwachung und Analyse der Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) und [Analysieren der Projektwarteschlangen-Lebenszyklus-Nachverfolgungs-Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in den Entwickler- und Verwaltungsinhalten von [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="the-my-job-queue-part"></a>Der „Mein Projektwarteschlangenteil“
 Der Teil **Meine Projektwarteschlange** in Ihrem Rollencenter zeigt die Projektwarteschlangeneinträge an, die Sie gestartet haben, die jedoch noch nicht abgeschlossen sind. Standardmäßig ist dieser Teil nicht sichtbar, Sie müssen ihn also Ihrem Rollencenter hinzufügen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).  
@@ -65,9 +67,9 @@ Der Teil **Meine Projektwarteschlange** in Ihrem Rollencenter zeigt die Projektw
 Der Teil zeigt, welche Dokumente mit Ihrer ID im Feld **Zugewiesene Benutzer-ID** verarbeitet oder in die Warteschlange gestellt werden, einschließlich solcher, die zur Hintergrundbuchung gehören. Dieser Teil informiert Sie auf einen Blick darüber, ob bei der Buchung eines Belegs ein Fehler aufgetreten ist, oder ob ein Projektwarteschlangenposten einen Fehler enthält. Mit diesem Teil können Sie auch eine Buchung stornieren, wenn diese nicht ausgeführt wird.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>So zeigen Sie einen Fehler aus dem Bereich Meine Projektwarteschlange an.
+
 1. Bei einem Eintrag mit dem Status **Fehler** wählen Sie die Aktion **Fehler anzeigen** aus.
 2. Überprüfen Sie die Fehlermeldung und korrigieren Sie das Problem.
-
 
 ## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Beispiele dafür, was mithilfe der Projektwarteschlange geplant werden kann
 
@@ -87,7 +89,11 @@ Projektwarteschlangen sind ein effektives Werkzeug, um die Ausführung von Gesch
 
 Weitere Informationen finden Sie unter [Hintergrund-Buchung mit Aufgabenwarteschlangen](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="monitor-the-job-queue-with-telemetry"></a>Überwachen der Projektwarteschlange mit Telemetrie
+
+Als Administrator können Sie [Application Insights](/azure/azure-monitor/app/app-insights-overview) zum Sammeln und Analysieren von Telemetriedaten verwenden, mit denen Sie Probleme identifizieren können. Weitere Informationen finden Sie in den Entwickler- und Verwaltungsinhalten unter [Überwachung und Analyse der Telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-overview).  
+
+## <a name="see-also"></a>Weitere Informationen
 
 [Verwaltung](admin-setup-and-administration.md)  
 [Einrichten von Business Central](setup.md)  

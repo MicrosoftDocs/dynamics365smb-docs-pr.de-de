@@ -1,6 +1,6 @@
 ---
-title: Info zu Planungsfunktionen | Microsoft Docs
-description: Das Planungssystem berücksichtigt sämtliche Bedarfs- und Vorratsdaten, saldiert die Ergebnisse und erstellt Vorschläge zum Ausgleichen des Vorrats, damit der Bedarf erfüllt werden kann.
+title: Info zu Planungsfunktionen
+description: Das Planungssystem in Dynamics 365 Business Central berücksichtigt sämtliche Bedarfs- und Vorratsdaten, saldiert die Ergebnisse und erstellt Vorschläge zum Ausgleichen des Vorrats, damit der Bedarf erfüllt werden kann.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: dc3ef67f2f7578d81878b24662b97e47bc87a327
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782038"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6636016"
 ---
 # <a name="about-planning-functionality"></a>Info zu Planungsfunktionen
 
@@ -37,9 +37,12 @@ Außerdem hat das Planungssystem die Aufgabe sicherzustellen, dass der Lagerbest
 
 ## <a name="planning-calculation"></a>Planungsberechnung
 
-Das Planungssystem wird durch den erwarteten und den tatsächlichen Debitorenbedarf sowie die Wiederbeschaffungsparameter gesteuert. Ein Ausführen der Planungsberechnung bewirkt, dass die Anwendung bestimmte Aktionen (Ereignismeldungen) vorschlägt, die sich auf mögliche Beschaffungen von Kreditoren, Umlagerungen zwischen Lagern oder die Fertigung beziehen. Wenn es bereits Ersatzaufträge gibt, könnten die vorgeschlagenen Aktionen so aussehen, dass die Aufträge vergrößert oder schneller erteilt werden sollen, damit den Bedarfsänderungen Rechnung getragen wird.  
+Das Planungssystem wird durch den erwarteten und den tatsächlichen Debitorenbedarf sowie die Wiederbeschaffungsparameter gesteuert. Ein Ausführen der Planungsberechnung bewirkt, dass die Anwendung bestimmte Aktionen ([Ereignismeldungen](production-how-to-run-mps-and-mrp.md#action-messages)) vorschlägt, die sich auf mögliche Beschaffungen von Kreditoren, Umlagerungen zwischen Lagern oder die Fertigung beziehen. Wenn es bereits Ersatzaufträge gibt, könnten die vorgeschlagenen Aktionen so aussehen, dass die Aufträge vergrößert oder schneller erteilt werden sollen, damit den Bedarfsänderungen Rechnung getragen wird.  
 
 Die Basis der Planungsroutine findet sich in der Brutto-Netto-Berechnung. Die Nettobedarfe steuern die voraussichtlichen Freigabemengen, die anhand der Arbeitspläne (Produktionsartikel) oder der Vorlaufzeiten der Artikelkarten (Einkaufsartikel) geplant werden. Voraussichtliche Freigabemengen basieren auf der Planungsberechnung und werden durch die Parameter beeinflusst, die auf den einzelnen Artikelkarten festgelegt sind.  
+
+> [!TIP]
+> Das Planungssystem hängt davon ab, wie Ihre Organisation Standorte verwendet. Weitere Informationen finden Sie unter [Planung mit/ohne Lagerortcodes](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Planung mit manuellen Umlagerungsaufträgen
 

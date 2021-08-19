@@ -236,13 +236,12 @@
 #### [Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)
 #### [Migration von Debitorendaten mit Vorlagen vorbereiten](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Migrieren von Debitorendaten](admin-migrate-customer-data.md)
-#### [Vorgehensweise: Erstellen benutzerdefinierter Unternehmenskonfigurationspakete](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Tipps und Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Einrichten von E-Mail
 #### [E-Mail einrichten](admin-how-setup-email.md)
 #### Ihr Unternehmenspostfach in Microsoft Outlook einrichten 
 ##### [Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)
-##### [Mit Kontakten in Microsoft Outlook synchronisieren](admin-synchronize-outlook-contacts.md)
+##### [Mit Kontakten in Outlook synchronisieren](admin-synchronize-outlook-contacts.md)
 ##### [Outlook optimieren](admin-outlook-optimize.md)
 ##### [Nutzung von Business Central ohne Outlook](admin-no-outlook.md)
 ### Einrichten von Berichten
@@ -534,7 +533,11 @@
 #### [Standardkosten aktualisieren](finance-how-to-update-standard-costs.md)
 #### [Artikelposten entfernen und erneut ausgleichen](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Schließen von offenen Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### [Abstimmen der Lagerkosten mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### Melden von Kosten und Abstimmen mit der Finanzbuchhaltung
+##### [Berichterstellung zu Kosten](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Abstimmen der Lagerkosten mit der Finanzbuchhaltung](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)
+#### [Anpassen von Lagerkosten und Abstimmen der Kosten mit dem Hauptbuch mithilfe der Aufgabenwarteschlange](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Verwalten des Cashflows
 #### [Cashflowübersicht](finance-cash-flow-overview.md)
@@ -722,6 +725,8 @@
 ### [Führen Sie eine vollständige Planung, Prod.-Programmplanung oder Nettobedarf aus](production-how-to-run-mps-and-mrp.md)
 ### [Neugestaltungs- oder direkt Aktualisierung von Fertigungsaufträgen](production-how-to-replan-refresh-production-orders.md)
 ### [Nachverfolgen von Beziehungen zwischen Bedarf und Vorrat](production-how-track-demand-supply.md)
+### [Anforderungsarbeitsblatt](production-about-planning-functionality.md#requisition-worksheet)
+### [Ereignismeldungen](production-how-to-run-mps-and-mrp.md#action-messages)
 <!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
@@ -1604,9 +1609,9 @@
 ### [Überprüfen von Seiten](across-inspect-page.md)
 ### [Anzeigen von Datenbank-Sperren](admin-view-database-locks.md)
 ### [Tabelleninformationen anzeigen](admin-view-table-information.md)
-### [Erstellen Sie eine Sandkastenumgebung](across-how-create-sandbox-environment.md)
 ### [Neue Funktionen im Voraus aktivieren](admin-feature-management.md)
 ### [Benutzer mit Checklisten integrieren](admin-checklist.md)
+### [Sandbox-Umgebungen](across-how-create-sandbox-environment.md)
 ## Business Central anpassen
 ### [Anpassung – Übersicht](ui-customizing-overview.md)
 ### [Seiten für Profile anpassen](ui-personalization-manage.md)

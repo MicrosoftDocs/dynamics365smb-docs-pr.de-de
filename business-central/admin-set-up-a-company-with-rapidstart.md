@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 813ac2b7c8fe074e9c1f2572f947b92156a56d1a
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325419"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649787"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Mandanten mit RapidStart Services einrichten
 Sie können in [!INCLUDE[prod_short](includes/prod_short.md)] mit RapidStart Services einen neuen Mandanten einrichten. Dies ist ein Werkzeug, das dazu dient, Bereitstellungszeiten zu verkürzen, die Qualität der Implementierung zu erhöhen, einen wiederholbaren Ansatz für Implementierungen einzuführen, und durch die Automatisierung und Vereinfachung wiederkehrender Prozesse die Produktivität zu erhöhen.  
@@ -38,11 +38,11 @@ Sie können die folgenden Komponenten verwenden, um die Einrichtung eines neuen 
 |**Prozess**|**Siehe**|  
 |------------|-------------|  
 |Erstellen Sie einen neuen Mandanten, und importieren Sie grundlegende Einrichtungsdaten und Vorlagen.|[Richten Sie eine Unternehmenskonfiguration ein](admin-set-up-company-configuration.md)|  
-|Stellen Sie das konfigurierte Paket für Ihren Kunden für Implementierung bereit.|[Übernehmen von Konfiguration in neue Mandanten](admin-apply-configuration-to-new-companies.md)|
+|Stellen Sie das konfigurierte Paket für Ihren Kunden für Implementierung bereit.|[Konfigurationen für neue Unternehmen übernehmen](admin-apply-configuration-to-new-companies.md)|
 |Definieren und prüfen Sie die Einrichtung Ihres Kunden für alle Kernbereiche, z. B. Firmendaten, Finanzbuchhaltung, Lagerbestand, Verkauf oder Fertigung.|[Sammeln von Einrichtungswerten für Debitoren](admin-gather-customer-setup-values.md)|  
 |Konfigurieren Sie Kern-Stammdatendatensätze, die auf Vorlagen basieren, um die Migrierung vorhandener Debitorendaten vorzubereiten.|[Vorgehensweise: Migrieren von Debitorendaten](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Definieren Sie Tabellen und Felder, prüfen Sie vorhandene Debitorendaten, und migrieren Sie die Daten in die [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbank.|[Migrieren von Debitorendaten](admin-migrate-customer-data.md)|
-|Mandantenkonfigurationen vorbereiten, um sie in anderen Mandanten wiederzuverwenden.|[Vorgehensweise: Erstellen benutzerdefinierter Unternehmenskonfigurationspakete](admin-how-to-create-custom-company-configuration-packages.md)|
+|Bereiten Sie die Wiederverwendung von Unternehmenskonfigurationen in anderen Unternehmen vor (in den Entwickler- und Verwaltungsinhalten).|[Vorgehensweise: Erstellen benutzerdefinierter Unternehmenskonfigurationspakete](/dynamics-365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)|
 |Finden Sie im RapidStart Services-Toolkit Lösungen für bekannte Probleme.|[Tipps und Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Siehe auch  

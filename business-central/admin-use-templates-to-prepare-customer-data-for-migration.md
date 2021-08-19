@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443154"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649887"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Migration von Debitorendaten mit Vorlagen vorbereiten
 
@@ -100,7 +100,7 @@ Die Tabellen-ID, der Tabellenname und die vorhandenen Datenvorlage werden in die
 
 Sie können schnell ein Excel-Arbeitsblatt erstellen, die als Vorlage dient und auf der Struktur einer vorhandenen Datenbanktabelle basiert. Sie können die Vorlage dann verwenden, um Debitorendaten in einem konsistenten Format für den späteren Import in [!INCLUDE[prod_short](includes/prod_short.md)] zu erfassen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den entsprechenden Link.
 2. Fügen Sie der Liste eine Tabelle hinzu, oder wählen Sie eine vorhandene Tabelle aus. Weitere Informationen finden Sie unter [Verwalten von Mandanten-Konfiguration in einem Arbeitsblatt](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Wählen Sie die Aktion **Felder anzeigen**, um die Felder aus der Tabelle zu definieren, die Sie in die Vorlage aufnehmen möchten.
 4. Wählen Sie die Aktion **Vorlageninhalt exportieren** aus.
@@ -124,6 +124,7 @@ Jeder Datensatz, dessen Daten auf diese Weise angewendet werden, ist vollständi
 > [!NOTE]
 > Wenn die Daten in den Tabellen im Konfigurationspaket Datumsangaben enthalten, z. B. Buchungsdatumsangaben auf Rechnungen, werden die Datumsangaben in der Zeitzone berücksichtigt, die in [!INCLUDE[prod_short](includes/prod_short.md)] angegeben ist. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>So erstellen Sie einen Datensatz aus einer Konfigurationsvorlage
 
 Sie können die Struktur der Daten verwenden, die in den Datenvorlagen enthalten ist, um Ihre Informationen nacheinander in Datensätze in der Datenbank umzuwandeln. Verwenden Sie zu diesem Zweck die Funktion **Instanz erstellen**. Dies ist eine abgespeckte Version des Datenmigrationsprozesses und kann für das Erstellen von Prototypen oder für kleinere Aufgaben der Datenerstellung hilfreich sein.  
@@ -137,6 +138,15 @@ Die folgenden Schritte veranschaulichen, wie eine Artikelkarte aus einer Artikel
 5. Um die neue Artikelkarte zu überprüfen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.  
 6. Öffnen Sie eine neue Artikelkarte.  
 7. Erweitern Sie verschiedene Inforegister und vergewissern Sie sich, dass die Informationen korrekt in ihnen erstellt wurden.  
+
+## <a name="to-use-conversion-templates"></a>Verwenden von Konvertierungsvorlagen
+
+Sie können Kontakte in Debitoren, Kreditoren und Mitarbeiter umwandeln. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>So konvertieren Sie einen Kontakt in einen Debitor, Kreditor oder Mitarbeiter
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Kontakte** ein, und wählen Sie dann den richtigen Kontakt aus. 
+2. Wählen Sie auf der Kontaktkarte **Aktionen**, dann **Funktionen** und dann **Erstellen als Debitor, Kreditor, Bank oder Mitarbeiter** aus.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>So verwenden Sie eine Konfigurationsdatenvorlage bei einem Datensatz
 
@@ -153,11 +163,14 @@ Das folgende Verfahren basiert auf einer Debitorenkarte.
 
 Die Standardwerte aus der ausgewählten Debitorenvorlage werden in die Debitorenkarte eingefügt.
 
-## <a name="see-also"></a>Siehe auch
+> [!NOTE]
+> Sie können die Option „Vorlage anwenden“ nicht verwenden, um Felder für Debitoren, Lieferanten usw. auszublenden. Stattdessen müssen Sie die Funktion **In Excel bearbeiten** verwenden. Weitere Informationen finden Sie unter [In Excel bearbeiten](across-work-with-excel.md#edit-in-excel).
+
+## <a name="see-also"></a>Weitere Informationen
 
 [Einrichten eines Unternehmens mit RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)  
-[Registriert einen neuen Debitor](sales-how-register-new-customers.md)  
+[Neue Debitoren registrieren](sales-how-register-new-customers.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
