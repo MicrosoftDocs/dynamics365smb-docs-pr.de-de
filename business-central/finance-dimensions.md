@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ddcb3b3074a33fa279aa9a7cc0b04e5b5904fbac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 982f61396f1d49eeaa688d580801c14ac9c33ccb
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444687"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482222"
 ---
 # <a name="working-with-dimensions"></a>Arbeiten mit Dimensionen
 Dimensionen sind Attribute und Werte, die Posten kategorisieren, sodass Sie sie auf Dokumenten wie Verkaufsaufträgen verfolgen und analysieren können. Dimensionen können beispielsweise angegeben, aus welchem Projekt oder aus welcher Abteilung ein Posten stammt.  
@@ -53,6 +53,9 @@ Wenn Dimensionen und Werten eingerichtet wurden, können Sie globale und Shortcu
 
 * **Globale Dimensionen** werden als Filter beispielsweise in Berichten und XMLports und Stapelverarbeitungen verwendet. Sie können nur zwei globale Dimensionen verwenden, also wählen Sie Dimensionen, die Sie häufig verwenden.
 * **Shortcutdimensionen** sind verfügbar als Felder in Buch.-Blättern, Belegzeilen und Belegeinträgen. Sie können bis zu acht davon erstellen.  
+
+> [!NOTE]
+> Nachdem Sie eine neue Dimension in einem Eintrag verwendet haben, z. B. in einer Zeile oder einem neuen Datensatz, können Sie die Dimension nicht löschen, selbst wenn Sie den Eintrag nicht buchen. Dies ist darauf zurückzuführen, dass [!INCLUDE[prod_short](includes/prod_short.md)] sofort einen Dimensionssatz für die Zeile oder den Datensatz erstellt. Weitere Informationen finden Sie unter [Dimensionssätze](finance-dimensions.md#dimension-sets).
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>So richten Sie Standarddimensionen für Debitoren, Kreditoren und andere Konten ein
 Sie können eine Standarddimension für ein bestimmtes Konto einrichten. Die Dimension wird in das Buch.-Blatt oder den Beleg kopiert, wenn Sie die Kontonummer auf der Zeile eingeben, aber Sie können den Code in der Zeile ändern oder löschen, falls erforderlich. Sie können eine Dimension auch erstellen, die für das Buchen eines Postens mit einem speziellen Konto benötigt wird.  

@@ -10,24 +10,27 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 098d7a5f677310916484bcff652ff9557c96478f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 52fbabb8e8d2fbb9217bbcd1f9971f8f11037893
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445045"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482478"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Festlegen, wann und wie Benachrichtigungen empfangen werden sollen
 Wenn Sie Benutzer in Genehmigungsworkflows einrichten, müssen Sie auf den Seiten **Benachrichtigung einrichten** und **Benachrichtigungs-Plan** angeben, wie und wann jeder Benutzer Benachrichtigungen über Workflowschritte zur Genehmigung erhält. Einzelne Benutzer können ihre Benachrichtigungseinrichtung über die in jeder Benachrichtigung enthaltene Schaltfläche **Benachrichtigungseinstellungen ändern** auch ändern.  
 
 > [!NOTE]
-> Benachrichtigungen werden gemäß den Benachrichtigungseinstellungen des Empfängers und nicht des Absenders zugestellt. Dies ist eine wichtige Unterscheidung, da sie bedeutet, dass wenn jemand eine Genehmigung als Teil eines Workflows anfordert, ihre Genehmigung nicht notwendigerweise sofort gesendet wird. Stattdessen wird es gemäß den Benachrichtigungseinstellungen der genehmigenden Person geliefert. 
+> Benachrichtigungen werden gemäß den Benachrichtigungseinstellungen des Empfängers und nicht des Absenders zugestellt. Dies ist eine wichtige Unterscheidung, da sie bedeutet, dass wenn jemand eine Genehmigung als Teil eines Workflows anfordert, ihre Genehmigung nicht notwendigerweise sofort gesendet wird. Stattdessen wird sie gemäß dem Benachrichtigungszeitplan bereitgestellt, der in den Benachrichtigungseinstellungen des Genehmigers angegeben ist. 
 
  Bevor Sie Benachrichtigungseinstellungen für einen Genehmigungsbenutzer einrichten können, müssen Sie den Benutzer als Genehmigungsbenutzer einrichten. Weitere Informationen finden Sie unter [Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md).  
 
  «»Sie können das Layout von E-Mail-Benachrichtigungen festlegen, indem Sie Bericht 1320, Benachrichtigungs-E-Mail anpassen. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md).  
 
- Mit vielen Workflowschritten zur Genehmigung werden Benutzer darüber benachrichtigt, dass ein Ereignis stattgefunden hat, auf das sie reagieren müssen. Bei einem Workflowschritt kann es sich beispielsweise um das Ereignis handeln, dass Benutzer 1 die Genehmigung eines neuen Datensatzes anfordert. Die entsprechende Reaktion ist, dass eine Benachrichtigung an Benutzer 2 (Genehmiger) gesendet wird. Der nächste Workflowschritt kann das Ereignis enthalten, dass Benutzer 2 den Datensatz genehmigt. Die entsprechende Reatkion ist, dass eine Benachrichtigung an Benutzer 3 gesendet wird, damit ein Prozess mit dem genehmigten Datensatz gestartet wird. Für Workflowschritte in Bezug auf Genehmigungen ist jede Benachrichtigung an einen Genehmigungsposten gebunden. Weitere Informationen finden Sie unter [Workflow](across-workflow.md)  
+ Mit vielen Workflowschritten zur Genehmigung werden Benutzer darüber benachrichtigt, dass ein Ereignis stattgefunden hat, auf das sie reagieren müssen. Bei einem Workflowschritt kann es sich beispielsweise um das Ereignis handeln, dass Benutzer 1 die Genehmigung eines neuen Datensatzes anfordert. Die entsprechende Reaktion ist, dass eine Benachrichtigung an Benutzer 2 (Genehmiger) gesendet wird. Der nächste Workflowschritt kann das Ereignis enthalten, dass Benutzer 2 den Datensatz genehmigt. Die entsprechende Reatkion ist, dass eine Benachrichtigung an Benutzer 3 gesendet wird, damit ein Prozess mit dem genehmigten Datensatz gestartet wird. Für Workflowschritte in Bezug auf Genehmigungen ist jede Benachrichtigung an einen Genehmigungsposten gebunden. Weitere Informationen finden Sie unter [Workflow](across-workflow.md).  
+
+> [!NOTE]
+> Wenn Sie E-Mail als Benachrichtigungsmethode verwenden möchten, müssen Sie E-Mail sowohl für den Absender als auch für den Empfänger in [!INCLUDE [prod_short](includes/prod_short.md)] einrichten. Weitere Informationen finden Sie unter [E-Mail einrichten](admin-how-setup-email.md).
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Angeben des Zeitpunkts und der Art des Empfangs von Benachrichtigungen  
 

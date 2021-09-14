@@ -2,74 +2,83 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 09/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2867dbccab19226c16f761bb974528bbdcf0a21f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5bb0e2d4ec0dfe20ecb6668a6d01ba4e8a174b8e
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777648"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482297"
 ---
-Bevor Sie die E-Mail-Protokollierung einrichten können, müssen Sie Exchange Online mit [öffentlichen Ordnern](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ) vorbereiten. Dies kann im [Exchange Admin Center](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) oder über die [Exchange-Verwaltungsshell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ) erfolgen.  
+> [!NOTE]
+> In den folgenden Abschnitten wird davon ausgegangen, dass Sie über Administratorzugriff für Exchange Online verfügen.
+
+Bevor Sie die E-Mail-Protokollierung einrichten können, müssen Sie Office 365 mit [öffentlichen Ordnern](/exchange/collaboration-exo/public-folders/public-folders?preserve-view=true) vorbereiten. Dies kann im [Exchange Admin Center](/exchange/exchange-admin-center?preserve-view=true) oder über [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true) erfolgen.
 
 > [!TIP]
-> Wenn Sie die [Exchange-Verwaltungsshell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ) verwenden, finden Sie in einem Beispielskript, das wir im [BCTech-Repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging) veröffentlicht haben, Anregungen zum Einrichten Ihres Skripts.
+> Wenn Sie [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true) verwenden, finden Sie in einem Beispielskript, das wir im [BCTech-Repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging) veröffentlicht haben, Anregungen zum Einrichten Ihres Skripts.
 
-In der folgenden Liste werden die Hauptschritte mit Links zu weiteren Informationen beschrieben.  
+Führen Sie die folgenden Schritte zum Einrichten von Exchange Online mit Links zu weiteren Informationen aus.
 
-- Erstellen Sie eine Administratorrolle für öffentliche Ordner basierend auf den Informationen in der folgenden Tabelle:
+### <a name="create-an-admin-role-group"></a>Eine Administratorrollengruppe erstellen
 
-  |Eigenschaft        |Wert                     |
-  |----------------|--------------------------|
-  |Name            |Verwaltung öffentlicher Ordner |
-  |Ausgewählte Rollen  |Öffentliche Ordner            |
-  |Ausgewählte Mitglieder|Die E-Mail-Adresse des Benutzerkontos, mit dem Business Central das E-Mail-Protokollierungsprojekt ausführt|
+Erstellen Sie eine Administratorrollengruppe für öffentliche Ordner basierend auf den Informationen in der folgenden Tabelle:
 
-  Weitere Informationen finden Sie unter [Rollengruppen verwalten](/exchange/permissions/role-groups?view=exchserver-2019&preserve-view=true).
+|Eigenschaft        |Wert                     |
+|----------------|--------------------------|
+|Name            |Verwaltung öffentlicher Ordner |
+|Ausgewählte Rollen  |Öffentliche Ordner            |
+|Ausgewählte Benutzer  |Die E-Mail-Adresse des Benutzerkontos, mit dem Business Central das E-Mail-Protokollierungsprojekt ausführt|
 
-- Erstellen Sie ein neues Postfach für öffentliche Ordner basierend auf den Informationen in der folgenden Tabelle:
+Weitere Informationen finden Sie unter [Rollengruppen in Exchange Online verwalten](/exchange/permissions-exo/role-groups?preserve-view=true).
 
-  |Eigenschaft        |Wert                     |
-  |----------------|--------------------------|
-  |Name            |Öffentliches Postfach            |
+### <a name="create-a-new-public-folder-mailbox"></a>Ein neues Postfach für öffentliche Ordner erstellen
 
-  Weitere Informationen finden Sie unter [Postfach für öffentliche Ordner in Exchange Server erstellen](/exchange/collaboration/public-folders/create-public-folder-mailboxes)  
+Erstellen Sie ein neues Postfach für öffentliche Ordner basierend auf den Informationen in der folgenden Tabelle:
 
-- Neue öffentliche Ordner erstellen
+|Eigenschaft        |Wert                     |
+|----------------|--------------------------|
+|Name            |Öffentliches Postfach            |
 
-  - Erstellen Sie einen neuen öffentlichen Ordner mit dem Namen *E-Mail-Protokollierung* im Stammverzeichnis, sodass der vollständige Pfad zum Ordner ```\Email Logging\``` wird.
-  - Erstellen Sie zwei Unterordner, sodass das Ergebnis die folgenden vollständigen Pfade zu den Ordnern sind:
-    - ```\Email Logging\Queue\```
-    - ```\Email Logging\Storage\```
+Weitere Informationen finden Sie unter [Ein Postfach für öffentliche Ordner erstellen](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox?preserve-view=true).
 
-  Weitere Informationen finden Sie unter [Öffentlichen Ordner erstellen](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019&preserve-view=true).
+### <a name="create-new-public-folders"></a>Neue öffentliche Ordner erstellen
 
-- Den öffentlichen Ordner *Warteschlange* für E-Mail aktivieren
+1. Erstellen Sie einen neuen öffentlichen Ordner mit dem Namen **E-Mail-Protokollierung** im Stammverzeichnis, sodass der vollständige Pfad zum Ordner `\Email Logging\` wird.
+2. Erstellen Sie zwei Unterordner, sodass das Ergebnis die folgenden vollständigen Pfade zu den Ordnern sind:
 
-  Weitere Informationen finden Sie unter [Öffentlichen Ordner für E-Mail aktivieren oder deaktivieren](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019&preserve-view=true)
+    - `\Email Logging\Queue\`
+    - `\Email Logging\Storage\`
 
-- Das Senden von E-Mails an den öffentlichen Ordner *Warteschlange* mit Outlook oder der Exchange-Verwaltungsshell für E-Mail aktivieren
+Weitere Informationen finden Sie unter [Öffentlichen Ordner erstellen](/exchange/collaboration-exo/public-folders/create-public-folder?preserve-view=true).
 
-  Weitere Informationen finden Sie unter [Anonymen Benutzern erlauben, E-Mails an einen E-Mail-fähigen öffentlichen Ordner zu senden](/exchange/collaboration/public-folders/mail-enable-or-disable#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?view=exchserver-2019&preserve-view=true)
+### <a name="set-public-folder-ownership"></a>Besitz für öffentliche Ordner festlegen
 
-- Legen Sie den Benutzer für die E-Mail-Protokollierung als Eigentümer der beiden öffentlichen Ordner *Warteschlange* und *Lager* fest, indem Sie Outlook oder die Exchange-Verwaltungsshell basierend auf den Informationen in der folgenden Tabelle verwenden:
+Legen Sie den E-Mail-Protokollierungsbenutzer als Besitzer der beiden öffentlichen Ordner *Warteschlange* und *Speicher* fest.
 
-  |Eigenschaft        |Wert                     |
-  |----------------|--------------------------|
-  |Benutzer            |Die E-Mail-Adresse des Benutzerkontos, mit dem Business Central das E-Mail-Protokollierungsprojekt ausführt|
-  |Berechtigungsstufe|Besitzer                     |
+Weitere Informationen finden Sie unter [Dem öffentlichen Ordner Berechtigungen zuweisen](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-  Weitere Informationen finden Sie unter [Dem öffentlichen Ordner Berechtigungen zuweisen](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
+### <a name="mail-enable-the-queue-public-folder"></a>Den öffentlichen Ordner *Warteschlange* für E-Mail aktivieren
 
-- Erstellen Sie zwei neue E-Mail-Fluss-Regeln für öffentliche Ordner basierend auf den Informationen in der folgenden Tabelle.
+  Weitere Informationen finden Sie unter [Öffentlichen Ordner für E-Mail aktivieren oder deaktivieren](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?preserve-view=true).
 
-  |Zweck  |Name |Bedingungen                        |Aktion                                       |
-  |---------|-----|----------------------------------|---------------------------------------------|
-  |Regel für eingehende E-Mails |An diese Organisation gesendete E-Mails protokollieren|*Der Absender* befindet sich *außerhalb der Organisation* und der *Empfänger* befindet sich *innerhalb der Organisation*|Das für den öffentlichen Ordner *Warteschlange* festgelegte E-Mail-Konto mit Bcc senden|
-  |Regel für ausgehende E-Mails | Von dieser Organisation gesendete E-Mails protokollieren |*Der Absender* befindet sich *innerhalb der Organisation* und der *Empfänger* befindet sich *außerhalb der Organisation*|Das für den öffentlichen Ordner *Warteschlange* festgelegte E-Mail-Konto mit Bcc senden|
-  
-  Weitere Informationen finden Sie unter [E-Mail-Fluss-Regeln in Exchange Online verwalten](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) und [Aktionen für E-Mail-Fluss-Regeln in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
+### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Das Senden von E-Mails an den öffentlichen Ordner *Warteschlange* aktivieren
+
+Aktivieren Sie das Senden von E-Mails an den öffentlichen Ordner *Warteschlange* mit Outlook oder der Exchange-Verwaltungsshell für E-Mail.
+
+Weitere Informationen finden Sie unter [Anonymen Benutzern erlauben, E-Mails an einen E-Mail-fähigen öffentlichen Ordner zu senden](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
+
+### <a name="create-mail-flow-rules"></a>E-Mail-Fluss-Regeln erstellen
+
+Erstellen Sie zwei neue E-Mail-Fluss-Regeln für öffentliche Ordner basierend auf den Informationen in der folgenden Tabelle:
+
+|Zweck  |Name |Diese Regel anwenden, wenn...             |Führen Sie die folgenden Schritte aus...                          |
+|---------|-----|----------------------------------|---------------------------------------------|
+|Regel für eingehende E-Mails |An diese Organisation gesendete E-Mails protokollieren|*Der Absender* befindet sich *außerhalb der Organisation* und der *Empfänger* befindet sich *innerhalb der Organisation*|Das für den öffentlichen Ordner *Warteschlange* festgelegte E-Mail-Konto mit Bcc senden|
+|Regel für ausgehende E-Mails | Von dieser Organisation gesendete E-Mails protokollieren |*Der Absender* befindet sich *innerhalb der Organisation* und der *Empfänger* befindet sich *außerhalb der Organisation*|Das für den öffentlichen Ordner *Warteschlange* festgelegte E-Mail-Konto mit Bcc senden|
+
+Weitere Informationen finden Sie unter [E-Mail-Fluss-Regeln in Exchange Online verwalten](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) und [Aktionen für E-Mail-Fluss-Regeln in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).
 
 > [!NOTE]
 > Wenn Sie Änderungen in der Exchange-Verwaltungsshell vornehmen, werden die Änderungen nach einer Verzögerung im Exchange-Verwaltungscenter angezeigt. Die in Exchange vorgenommenen Änderungen sind nach einer Verzögerung auch in [!INCLUDE[prod_short](prod_short.md)] verfügbar. Die Verzögerung kann mehrere Stunden betragen.

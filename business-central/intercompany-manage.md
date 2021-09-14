@@ -8,18 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/02/2021
+ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 0a69507b32f8782fe876458adb590529bfd64b20
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 19fa804213d4f0a66a92a9febb157f2b5da23ec2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184424"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440563"
 ---
 # <a name="managing-intercompany-transactions"></a>Intercompanytransaktionen verwalten
 
-Möglicherweise besteht Ihre Organisation aus mehreren Unternehmen, verfügt jedoch nicht über die entsprechende Anzahl von Buchungs- und Verwaltungsteams. Die Intercompany-Funktionalität macht es möglich, Geschäfte mit Tochtergesellschaften und internen Partnerorganisationen genau so einfach zu tätigen wie mit externen Lieferanten und Kunden. Die Informationen zu Intercompanytransaktionen geben Sie nur ein einziges Mal in die entsprechenden Belege ein. Sie können die Funktionalität verwenden, mit der Sie bereits vertraut sind, zum Beispiel Debitoren- und Kreditorenverwaltung. Mithilfe der Zuordnungsfunktionen für den Kontenplan und für Dimensionen kann sichergestellt werden, dass die Informationen an der richtigen Stelle angezeigt werden.  
+Die Funktionen für Intercompanytransaktionen sind für Benutzer vorgesehen, die mehr als eine juristische Geschäftseinheit steuern und mehrere Unternehmen eingerichtet haben, um die Buchungsfunktionen dieser Unternehmen voneinander zu trennen. Diese weitgefasste Beschreibung trifft auf viele Benutzer zu, insbesondere diejenigen, die Geschäfte in internationalen Märkten oder Regionen mit sehr unterschiedlichen Unternehmenskulturen und gesetzlichen Bestimmungen tätigen.
+
+Möglicherweise besteht Ihre Organisation aus mehreren Unternehmen, verfügt jedoch nicht über die entsprechende Anzahl von Buchungs- und Verwaltungsteams. Mithilfe von Intercompanytransaktionen können Sie die Geschäftsvorgänge und -transaktionen zwischen diesen Unternehmen vereinfachen und rationalisieren.
+
+Sobald Sie Intercompanytransaktionen verwenden, können Sie mit Tochtergesellschaften und internen Partnerorganisationen genau so einfach Geschäfte tätigen wie mit externen Lieferanten und Kunden. Die Informationen zu Intercompanytransaktionen geben Sie nur ein einziges Mal in die entsprechenden Belege ein. Sie können die Funktionalität verwenden, mit der Sie bereits vertraut sind, zum Beispiel Debitoren- und Kreditorenverwaltung. Mithilfe der Zuordnungsfunktionen für den Kontenplan und für Dimensionen kann sichergestellt werden, dass die Informationen an der richtigen Stelle angezeigt werden.  
 
 Intercompanybuchungen bieten die folgenden vier wichtigsten Vorteile:  
 
@@ -28,9 +32,28 @@ Intercompanybuchungen bieten die folgenden vier wichtigsten Vorteile:
 - Vollständiger Überwachungspfad und volle Einsehbarkeit von Geschäftsaktivitäten und des Transaktionsverlaufs  
 - Effiziente und kosteneffektive Transaktionen mit Konzernunternehmen und Tochtergesellschaften  
 
+## <a name="streamlining-the-flow-of-business-activities"></a>Flow von Geschäftsaktivitäten optimieren  
+
+Mithilfe von Intercompanytransaktionen können Sie innerhalb der Anwendung Verkaufs- und Einkaufsbelege sowie Fibu-Buch.-Blattposten auf alle Außenstellen, Verkaufsbüros oder Tochtergesellschaften verteilen. Zeitersparnis und Effektivitätssteigerung sind überall in der Organisation zu verzeichnen, da die redundante Dateneingabe überflüssig wird und der Versand, Erhalt und Ausdruck sowie die Archivierung von Verkaufs- und Einkaufsbelegen auf Papier nicht mehr erforderlich sind.  
+
 Sie haben Vollzugriff auf alle Transaktionsbelege. So können Sie beispielsweise an Sie geschickte Belege ablehnen und auf diese Weise falsche Buchungen Belege/Lieferungen rückgängig machen. Wenn Sie zum Beispiel einen Einkauf von einem Partnerunternehmen oder einer Tochtergesellschaft aus durchführen, können Sie die Einkaufsbestellung so lange aktualisieren, bis das verkaufende Unternehmen die Waren versandt hat.  
 
-Wenn Sie eine Transaktion eingeben, müssen Sie nicht die Konten für einen einzelnen Satz von Büchern angeben, sondern einfach die ID des Partnerunternehmens. Mithilfe von Intercompanybuchungen werden Fibu Buch.-Blattzeilen erstellt, die - sobald sie gebucht wurden - im Kontenabschluss beider Mandanten, die an einer Transaktion beteiligt sind, resultieren. In den Forderungen und Verbindlichkeiten weisen Sie jedem Debitor oder Kreditor einen Intercompanypartnercode zu. Von diesem Moment an erstellen alle Aufträge und Rechnungen, die nach Transaktionen mit diesen Unternehmen generiert werden, entsprechende Belege im Partnerunternehmen, mit dem Ergebnis des richtigen Regulierens der Konten.  
+Wenn Sie eine Transaktion eingeben, müssen Sie nicht die Konten für einen einzelnen Satz von Büchern angeben, sondern einfach die ID des Partnerunternehmens. Mithilfe von Intercompanyfunktionen werden Fibu Buch.-Blattzeilen erstellt, die - sobald sie gebucht wurden - im Kontenabschluss beider Mandanten, die an einer Transaktion beteiligt sind, resultieren. In den Forderungen und Verbindlichkeiten weisen Sie jedem Debitor oder Kreditor einen Intercompanypartnercode zu. Von diesem Moment an erstellen alle Aufträge und Rechnungen, die nach Transaktionen mit diesen Unternehmen generiert werden, entsprechende Belege im Partnerunternehmen, mit dem Ergebnis des richtigen Regulierens der Konten.  
+
+Die Funktionen für Intercompanytransaktionen konzentrieren sich in erster Linie auf die Unterstützung von Intercompanytransaktionen mithilfe von Einkaufs- und Verkaufsbelegen und Fibu-Buch.-Blattzeilen. Innerhalb dieses Bereichs werden durch Intercompanytransaktionen Intercompanytransaktionen zwischen mehreren Datenbanken von [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht, beispielsweise in unterschiedlichen Ländern/Regionen sowie bei verschiedenen Währungen, Kontenplänen, Dimensionen und abweichender Artikelnummerierung.  
+
+Bei Intercompanytransaktionen werden die folgenden Posten und Belege in Intercompanytransaktionen verwendet:  
+
+- Fibu-Buch.-Blattposten
+- Einkaufsbestellungen und Verkaufsaufträge
+- Einkaufs- und Verkaufsrechnungen
+- Gutschriften
+- Reklamationen
+
+Bei der Einrichtung von Intercompanytransaktionen erstellen Sie eine Liste der Intercompanypartner (auch als IC-Partner bezeichnet) und einen Intercompanykontenplan. Anschließend können Sie Intercompanytransaktionen in Fibu-Buch.-Blättern durchführen. Ggf. erforderliche Dimensionen richten Sie separat ein.  
+
+> [!NOTE]
+> Das Fibu-Buch.-Blatt selbst keine Währungsfunktionalität beinhaltet, jedoch alle Beträge zu dem gültigen Kurs in die lokale Währung umgerechnet werden.
 
 Nachdem Sie Ihre Geschäftspartner im System als Debitoren und Kreditoren eingerichtet haben und ihnen IC-Partnercodes zugewiesen haben, können IC-Einkaufs- und Verkaufsbelege ausgetauscht werden, die Artikel und Zu- bzw. Abschläge für Artikel enthalten. [!INCLUDE [prod_short](includes/prod_short.md)] unterstützt Intercompanybuchungen zwischen mehreren Datenbanken, beispielsweise in unterschiedlichen Ländern/Regionen sowie bei verschiedenen Währungen, Kontenplänen, Dimensionen und abweichender Artikelnummerierung.  
 
@@ -46,7 +69,7 @@ Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Artikel
 |Erstellen Sie Ihre Intercompanykreditoren und -debitoren als so genannte Intercompanypartner, und richten Sie einen Intercompanykontenplan ein.|[Intercompany einrichten](intercompany-how-setup.md)|
 |Intercompanybelege werden zum Buchen der Transaktionen zwischen Intercompanypartnern verwenden.|[Arbeiten mit Intercompany-Belegen und Buch.-Blättern](intercompany-how-work-documents-journals.md)|
 |Organisieren Sie und verarbeiten Sie die eingehenden und ausgehenden Transaktionen, die Sie zwischen Intercompanypartnern austauschen.|[Intercompany-Ein- und -Ausgangstransaktionen verwalten](intercompany-how-manage-intercompany-inbox.md)|
-|Verwenden Sie konzerninterne Buchungen, um die Kosten zwischen Partnerunternehmen zu verteilen.|[Kosten den Intercompanypartnern zuordnen](intercompany-allocate-costs.md)|
+|Verwenden Sie konzerninterne Transaktionen, um die Kosten zwischen Partnerunternehmen zu verteilen.|[Kosten den Intercompanypartnern zuordnen](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>Siehe auch
 

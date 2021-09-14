@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24337d2cd96e4511f1917980c94af407381e96d2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 022d48ad3069729736794976301db7fe2c6a6b47
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325318"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482272"
 ---
 # <a name="how-to-manage-inventory"></a>So verwalten Sie den Bestand
 Für jedes physische Produkt, mit dem Sie handeln, müssen Sie eine Artikelkarte vom Typ **Lagerbestand** erstellen. Artikel, die Sie Debitoren anbieten, aber nicht im Lager führen, können als Katalogartikel erfassen werden und Sie können Sie bei Bedarf in Lagerartikel konvertieren. Sie können die Menge eines Artikels im Lager erhöhen oder vermindern, indem Sie direkt in den Artikelposten buchen, beispielsweise nach einer physischen Zählung oder falls keine erworbenen Mengen erfasst wurden.
@@ -51,9 +51,10 @@ In der folgenden Tabelle sind verwandte Aufgaben aufgeführt.
 |Zeigt die Verfügbarkeit der Artikel pro Lagerort, nach Periode, nach Verkaufs- oder Einkaufsereignis oder anhand ihrer Verwendung auf Produktionsstücklisten an.|[Artikelverfügbarkeit anzeigen](inventory-how-availability-overview.md)|
 |Lagern Sie Artikel zwischen Lagerorten mit Umlagerungsaufträgen oder Artikel Umlag. Buch.-Blatt, um Lageraktivitäten zu verwalten.|[Lagerbestand zwischen Lagerplätzen umlagern](inventory-how-transfer-between-locations.md)|
 |Reservieren Sie Lager oder eingehenden Artikel für Verkaufsaufträge, Bestellungen, Serviceaufträge, Montageaufträge oder Fertigungsaufträge.|[Artikel reservieren](inventory-how-to-reserve-items.md)|
-|Serien- oder Chargennummern zu den einzelnen ausgehenden oder eingehende Belege oder Buch.-Blattzeile, beispielsweise um Artikel im Fall von Rückrufen nachzuverfolgen.|[Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)|
-|Richten Sie eine eigene Beschreibung des Kreditors oder Debitors für einen Artikel ein, sodass Sie die Artikelbeschreibung in Geschäftsbelegen schnell einfügen können.|[Artikelreferenzen verwenden](inventory-how-use-item-cross-refs.md)|
+|Richten Sie die Artikelverfolgung ein, damit Sie die Seriennummern von Artikeln verfolgen können, um beispielsweise Artikel im Falle von Rückrufen zu verfolgen.|[Artikelverfolgung mit Serien-, Chargen- und Paketnummern einrichten](inventory-how-setup-item-tracking.md)|
+|Weisen Sie jedem ausgehenden oder eingehenden Dokument oder jeder Buchungsblattzeile Seriennummern oder Chargennummern zu.|[Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)|
 |Suchen Sie, wo eine Serien- oder Chargennummer in der gesamten Lieferkette verwendet wurde, z. B. in Rückrufsituationen.|[Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)|
+|Richten Sie eine eigene Beschreibung des Kreditors oder Debitors für einen Artikel ein, sodass Sie die Artikelbeschreibung in Geschäftsbelegen schnell einfügen können.|[Artikelreferenzen verwenden](inventory-how-use-item-cross-refs.md)|
 |Artikel sperren, damit Sie nicht auf Verkaufs- oder Einkaufszeilen eingetragen oder in einer Transaktion gebucht werden können.|[Artikel sperren](inventory-how-block-items.md)|
 |Verwalten von Geschäften in den Verkaufsbüros, in den Einkaufsabteilungen oder in den Fabrikplanungsbüros von mehreren Standorten.|[Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)|
 |Verwenden Sie Ressourcen mit spezifischen Fähigkeiten für verschiedene Services und Serviceelemente.|[Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)|

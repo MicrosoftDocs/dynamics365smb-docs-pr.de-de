@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437577"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482345"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Verfolgen Sie den Austausch von E-Mail-Nachrichten zwischen Verkäufern und Kontakten
 
@@ -31,31 +31,36 @@ Als nächstes verbinden Sie [!INCLUDE[prod_short](includes/prod_short.md)] mit E
 
 Beginnen Sie mit der E-Mail-Protokollierung in zwei einfachen Schritten:
 
-1. Stellen Sie eine Verbindung von [!INCLUDE[prod_short](includes/prod_short.md)] mit Exchange Online her für Ihr Microsoft 365-Abonnement. Exchange Online verarbeitet Ihre E-Mail-Nachrichten. Wir haben diesen Schritt vereinfacht, indem wir eine Anleitung für Unterstützte Einrichtung bereitgestellt haben. Sie benötigen lediglich Ihre Administratoranmeldeinformationen für Ihr Administratorkonto in Microsoft 365. Um die Anleitung zu starten, gehen Sie zu **Unterstützte Einrichtung**, und wählen Sie dann **E-Mail-Protokollierung einrichten** aus.  
+1. Stellen Sie eine Verbindung von [!INCLUDE[prod_short](includes/prod_short.md)] mit Exchange Online her für Ihr Microsoft 365-Abonnement. Exchange Online verarbeitet Ihre E-Mail-Nachrichten. Wir haben diesen Schritt vereinfacht, indem wir eine Anleitung für Unterstützte Einrichtung bereitgestellt haben. Sie benötigen lediglich Ihre Administratoranmeldeinformationen für Ihr Administratorkonto in Microsoft 365. Um die Anleitung zu starten, wechseln Sie zu **Unterstützte Einrichtung**, und wählen Sie dann die Anleitung **E-Mail-Protokollierung einrichten** aus.  
 
 2. Stellen Sie sicher, dass in [!INCLUDE[prod_short](includes/prod_short.md)] gültige E-Mail-Adressen für Ihre Verkäufer und Kontakte eingegeben wurden, je nachdem, ob es sich um potenzielle oder bestehende Kunden handelt. Öffnen Sie dazu für jeden Kunden oder Verkäufer die Karte **Kontakt** oder **Verkäufer/Käufer**, und überprüfen Sie das Feld **E-Mail**.
 
 > [!Tip]
-> Nachdem Sie die Schritte in der Anleitung ausgeführt haben, können Sie überprüfen, ob die Verbindung erfolgreich war. Suchen Sie nach **Marketingeinrichtung**, wählen Sie **Verarbeiten** aus, dann **Funktionen**, und dann **E-Mail-Protokollierungseinr. überprüfen** aus.
+> Nachdem Sie die Schritte in der Anleitung ausgeführt haben, können Sie überprüfen, ob die Verbindung erfolgreich war. Suchen Sie nach **Marketingeinrichtung**, wählen Sie **Zugriff**, dann **Funktionen** und dann die Option **E-Mail-Protokollierungseinr. überprüfen** aus.
 
 ## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Anzeigen des E-Mail-Nachrichtenaustauschs im Aktivitätenprotokoll
-[!INCLUDE[prod_short](includes/prod_short.md)] erstellt einen Eintrag auf der Seite **Aktivitätenprotokoll**, jedes Mal, wenn ein Verkäufer und ein Kontakt eine E-Mail-Nachricht austauschen. Um das Interaktionsprotokoll anzuzeigen, öffnen Sie die Karte **Kontakt** oder **Verkäufer/Einkäufer** für die Person, und wählen Sie dann **Verkauf** und dann **Interaktionsprotokollposten** aus. Es gibt einige Dinge, die wir mit jedem Eintrag im Protokoll tun können, zum Beispiel:
 
-- Zeigen Sie den Inhalt der E-Mail-Nachricht an, die ausgetauscht wurde, indem Sie auf die Aktion **Dateianhänge anzeigen** klicken.
-- Verwandeln Sie einen E-Mail-Austausch in eine Verkaufschance: Wenn ein Eintrag vielversprechend aussieht, können Sie ihn in eine Verkaufschance verwandeln und dann den Fortschritt in Richtung Verkauf steuern. Wählen Sie hierzu den Eintrag aus, und wählen Sie dann die Aktion **Verkaufschance erstellen** aus. Weitere Informationen finden Sie unter [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] erstellt einen Eintrag auf der Seite **Aktivitätenprotokoll**, jedes Mal, wenn ein Verkäufer und ein Kontakt eine E-Mail-Nachricht austauschen. Um das Interaktionsprotokoll anzuzeigen, öffnen Sie die Karte **Kontakt** für die Person, und wählen Sie **Zugehörig**, dann **Verlauf** und anschließend **Interaktionsprotokollposten** aus. Es gibt einige Dinge, die Sie mit jedem Eintrag im Protokoll tun können, zum Beispiel:
+
+- Zeigen Sie den Inhalt der E-Mail-Nachricht an, die ausgetauscht wurde, indem Sie **Verarbeiten** und dann **Dateianhänge anzeigen** auswählen.
+- Verwandeln Sie einen E-Mail-Austausch in eine Verkaufschance: Wenn ein Eintrag vielversprechend aussieht, können Sie ihn in eine Verkaufschance verwandeln und dann den Fortschritt in Richtung Verkauf steuern. Wählen Sie dazu den Eintrag, dann **Verarbeiten** und anschließend **Verkaufschance erstellen** aus. Weitere Informationen finden Sie unter [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md).
 
 ## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Verbinden von lokalen Versionen mit Microsoft Exchange
-Sie können eine Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] lokal zum Austausch lokal oder für die Exchange Online Protokollierung verbinden. Für beide Exchange-Versionen sind die Einstellungen für die Verbindung auf der Seite **Marketing-Einrichtung** verfügbar. Für Exchange Online können Sie auch eine unterstützte Einrichtungsanleitung verwenden. 
+
+Sie können eine Verbindung mit [!INCLUDE[prod_short](includes/prod_short.md)] lokal zum Austausch lokal oder für die Exchange Online Protokollierung verbinden. Für beide Exchange-Versionen sind die Einstellungen für die Verbindung auf der Seite **Marketing-Einrichtung** verfügbar. Für Exchange Online können Sie auch eine unterstützte Einrichtungsanleitung verwenden.
 
 ### <a name="connecting-to-exchange-on-premises"></a>Mit Exchange lokal verbinden
-Verbinden Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal mit Exchange lokal auf der Seite **Marketing-Einrichtung**. Sie können **Basis** als die **Authentifizierungsart** verwenden. Geben Sie anschließend die Anmeldeinformationen für das Benutzerkonto für Exchange lokal ein. Dann schalten Sie die **aktiviert** Umschaltung ein, um die Protokollierung von E-Mails zu starten. 
+
+Verbinden Sie [!INCLUDE[prod_short](includes/prod_short.md)] lokal mit Exchange lokal auf der Seite **Marketing-Einrichtung**. Sie können **Basis** als die **Authentifizierungsart** verwenden. Geben Sie anschließend die Anmeldeinformationen für das Benutzerkonto für Exchange lokal ein. Dann schalten Sie die **aktiviert** Umschaltung ein, um die Protokollierung von E-Mails zu starten.
 
 ### <a name="connecting-to-exchange-online"></a>Verbinden mit Exchange Online
-Zum Verbinden mit Exchange Online müssen Sie **OAuth2** als **Authentifizierungsart** verwenden. Wenn Sie eine Verbindung mit einer Anwendung in Azure Active Directory herstellen möchten, müssen Sie eine Anwendungs-ID mit dem geheimen Schlüssel eingeben und die zu verwendende Umleitungs-URL angeben. Die Umleitungs-URL ist bereits ausgefüllt und sollte für die meisten Installationen funktionieren. Weitere Informationen finden Sie unter [So registrieren Sie eine Anwendung in Azure AD für die Verbindung von Business Central mit Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
+
+Zum Verbinden mit Exchange Online müssen Sie **OAuth2** als **Authentifizierungsart** verwenden. Wenn Sie eine Verbindung mit einer Anwendung in Azure Active Directory herstellen möchten, müssen Sie eine Anwendungs-ID mit dem geheimen Schlüssel eingeben und die zu verwendende Umleitungs-URL angeben. Die Umleitungs-URL ist bereits ausgefüllt und sollte für die meisten Installationen funktionieren. Weitere Informationen finden Sie weiter unten unter „So registrieren Sie eine Anwendung in Azure AD für die Verbindung von Business Central mit Exchange Online“.
 
 Sie müssen Ihre Installation für die Verwendung von HTTPS einrichten. Weitere Informationen finden Sie unter [Konfigurieren von SSL zum Sichern der Business Central Web Client-Verbindung ](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Wenn Sie Ihren Server für eine andere Homepage einrichten, können Sie die URL jederzeit ändern. Der geheime Clientschlüssel wird als verschlüsselte Zeichenfolge in Ihrer Datenbank gespeichert.
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>So registrieren Sie eine Anwendung in Azure AD, um eine Verbindung mit Exchange Online über Business Central herzustellen
+
 Bei den folgenden Schritten wird davon ausgegangen, dass Sie Azure Active Directory verwenden, um Identitäten und den Zugriff zu verwalten. Weitere Informationen finden Sie unter [Schnellstart: Registrieren einer Anwendung mit der Microsoft-Identitätsplattform](/azure/active-directory/develop/quickstart-register-app). Wenn Sie Azure Active Directory nicht verwenden, finden Sie weitere Informationen unter [Verwenden eines anderen Identitäts- und Zugriffsverwaltungsdienstes](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
 
 1. Wählen Sie im Navigationsbereich von Azure-Portal unter **Verwalten** die Option **Authentifizierung** aus.

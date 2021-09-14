@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436751"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440366"
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
 
@@ -44,7 +44,7 @@ Sie müssen eine Debitorenkarte ausfüllen, um einen neuen Debitoren zu registri
 4. Wählen Sie die Schaltfläche **OK** aus. Eine neue Debitorenkarte wird geöffnet mit den Feldern, die mit Daten aus der Vorlage ausgefüllt werden.  
 5. Fahren Sie fort, um Felder auf der Debitorenkarte bei Bedarf auszufüllen und zu ändern. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Definieren Sie im Inforegister **Verkaufspreise** spezielle Preise oder Rabatte, die Sie dem Debitor gewähren, wenn bestimmte Kriterien, wie z.B. Artikel, Mindestbestellmenge oder Enddatum erfüllt sind. Jede Zeile stellt einen Sonderpreis oder einen Zeilenrabatt dar. Jede Spalte stellt ein Kriterium an, das gelten muss, um den Sonderpreis, den Sie im **VK-Preis**-Feld eingeben, oder den Zeilenrabatt, den Sie im **Zeilenrabatt**-Feld eingeben, zu rechtfertigen. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Rabatt und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
+Die Aktion **Preise und Rabatte** bietet Optionen zur Verwaltung von Sonderpreisen oder Rabatten für den Debitor, wenn eine Bestellung bestimmte Kriterien erfüllt. Kriterien sind beispielsweise, wann sie einen bestimmten Artikel kaufen, eine Mindestmenge bestellen oder vor einem bestimmten Datum kaufen, etwa wenn eine Kampagne endet. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Rabatt und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
 
 Der Debitor ist nun erfasst und die Debitorenkarte ist bereit, in Geschäftsbelegen verwendet zu werden, in denen Sie mit dem Debitor handeln.
 

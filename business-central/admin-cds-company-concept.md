@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, , integration, sync
+ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773336"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482195"
 ---
 # <a name="data-ownership-models"></a>Modelle für Datenbesitz
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,11 +39,11 @@ Die folgende Abbildung zeigt ein Beispiel für diese Dateneinrichtung in [!INCLU
 
 ![Der Stamm-Geschäftsbereich steht oben, die Teams in der Mitte, und dann die Unternehmen ganz unten.](media/cds_bu_team_company.png)
 
-In dieser Konfiguration werden Datensätze, die sich auf die Firma Cronus US beziehen, einem Team gehören, das mit dem Cronus US-Geschäftsbereich <ID> in [!INCLUDE[prod_short](includes/cds_long_md.md)] verbunden ist. Benutzer, die auf diese Geschäftseinheit über eine Sicherheitsrolle zugreifen können, die in [!INCLUDE[prod_short](includes/cds_long_md.md)] auf Sichtbarkeit auf Geschäftseinheitsebene eingestellt ist, können nun diese Datensätze sehen. Das folgende Beispiel zeigt, wie Teams eingesetzt werden können, um den Zugriff auf diese Datensätze zu ermöglichen.
+In dieser Konfiguration befinden sich Datensätze, die sich auf die Firma Cronus US beziehen, im Besitz eines Teams, das mit dem Cronus US-Geschäftsbereich in [!INCLUDE[prod_short](includes/cds_long_md.md)] verbunden ist. Benutzer, die auf diese Geschäftseinheit über eine Sicherheitsrolle zugreifen können, die in [!INCLUDE[prod_short](includes/cds_long_md.md)] auf Sichtbarkeit auf Geschäftseinheitsebene eingestellt ist, können nun diese Datensätze sehen. Das folgende Beispiel zeigt, wie Teams eingesetzt werden können, um den Zugriff auf diese Datensätze zu ermöglichen.
 
 * Die Rolle des Vertriebsleiters wird den Mitgliedern des US-Vertriebsteams von Cronus zugewiesen.
 * Benutzer, die die Rolle Vertriebsleiter haben, können auf Kontoaufzeichnungen für Mitglieder derselben Geschäftseinheit zugreifen.
-* Das US-Verkaufsteam von Cronus ist mit der bereits erwähnten Geschäftseinheit von Cronus US verbunden. Mitglieder des Cronus US-Verkaufsteams können jedes Konto sehen, das dem Cronus US-Benutzer <ID> gehört, das von der Cronus US-Firmentabelle in [!INCLUDE[prod_short](includes/prod_short.md)] gekommen wäre.
+* Das US-Verkaufsteam von Cronus ist mit der bereits erwähnten Geschäftseinheit von Cronus US verbunden. Mitglieder des Cronus US-Verkaufsteams können jedes Konto sehen, das dem Cronus US-Benutzer gehört, das von der Cronus US-Firmentabelle in [!INCLUDE[prod_short](includes/prod_short.md)] gekommen wäre.
 
 Die 1:1-Abbildung zwischen Geschäftseinheit, Unternehmen und Team ist jedoch nur ein Ausgangspunkt, wie in der folgenden Abbildung gezeigt.
 
@@ -51,7 +51,7 @@ Die 1:1-Abbildung zwischen Geschäftseinheit, Unternehmen und Team ist jedoch nu
 
 In diesem Beispiel wird eine neue EUR (Europa) Stamm-Geschäftseinheit in [!INCLUDE[prod_short](includes/cds_long_md.md)] als Muttergesellschaft sowohl für Cronus DE (Gernamy) als auch für Cronus ES (Spanien) angelegt. Der EUR-Geschäftsbereich ist nicht mit der Synchronisation verbunden. Es kann jedoch Mitgliedern des EUR-Verkaufsteams Zugriff auf Kontodaten sowohl in Cronus DE als auch in Cronus ES geben, indem die Datensichtbarkeit auf **Übergeordnete/untergeordnete GE** auf die zugehörige Sicherheitsrolle in [!INCLUDE[prod_short](includes/cds_long_md.md)] gesetzt wird.
 
-Die Synchronisation bestimmt, welches Team Datensätze besitzen soll. Dies wird durch das Feld **Standardeigentümerteam** auf dem BCI - <ID> Zeile gesteuert. Wenn ein BCI - <ID>-Datensatz für die Synchronisierung aktiviert wird, erstellen wir automatisch die zugehörige Geschäftseinheit und das Eigentümerteam (falls noch nicht vorhanden) und setzen das Feld **Standard Eigentümerteam**. Wenn die Synchronisierung für eine Tabelle aktiviert ist, können Administratoren das besitzende Team ändern, aber es muss immer ein Team zugewiesen werden.
+Die Synchronisation bestimmt, welches Team Datensätze besitzen soll. Dies wird durch das Feld **Standardeigentümerteam** in der BCI-Zeile gesteuert. Wenn ein BCI-Datensatz für die Synchronisierung aktiviert wird, erstellen wir automatisch die zugehörige Geschäftseinheit und das Eigentümerteam (falls noch nicht vorhanden) und legen das Feld **Standardeigentümerteam** fest. Wenn die Synchronisierung für eine Tabelle aktiviert ist, können Administratoren das besitzende Team ändern, aber es muss immer ein Team zugewiesen werden.
 
 > [!NOTE]
 > Die Aufzeichnungen werden schreibgeschützt, nachdem eine Firma hinzugefügt und gespeichert wurde, also achten Sie darauf, die richtige Firma zu wählen.

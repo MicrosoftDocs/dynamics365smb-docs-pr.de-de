@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: b738eeef9771185c6907d963f368c462ae02f2d2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543247"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440391"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Verkaufsberichte und Analysen in Business Central
 
@@ -36,6 +36,7 @@ In der folgenden Tabelle werden einige der wichtigsten Berichte in der Verkaufsb
 |**Warenausgangsstatus Lager**|7313|Dieser Bericht kann für alle Standorte verwendet werden, an denen das Feld **Warenausgang erforderlich** ausgewählt ist. Der Bericht **Warenausgangsstatus** zeigt Ihnen alle noch nicht gebuchten Lagerversandbelege an, einschließlich der Lagerplätze, Lagerplatzcodes, Belegstatus, Mengen usw. Dieser Bericht ist perfekt, um sich einen Überblick zu verschaffen.|
 |**Lager - Kommissionierliste**|813|Zeigt eine Liste der Verkaufsaufträge an, in denen ein Artikel enthalten ist. Die folgenden Informationen werden für jeden Artikel angezeigt: Verkaufsauftragszeile mit Namen des Debitors, Variantencode, Lagerortcode, Lagerplatzcode, Warenausgangsdatum, Menge zu liefern und Einheit. Die zu liefernde Menge wird für jeden Artikel aufsummiert. Der Bericht kann verwendet werden, wenn Artikel aus dem Lager entnommen werden sollen.<br>**Hinweis**: Dieser Bericht ist für erweiterte Lagerfunktionen nicht verfügbar.|
 |**Lager - Verkaufsrückstände**|718|Zeigt eine Liste mit den Auftragszeilen, deren Warenausgangsdatum bereits abgelaufen ist. Folgende Informationen werden für die jeweiligen Aufträge für jeden Artikel angezeigt: Nummer, Name des Debitors, Telefonnummer des Debitors, Warenausgangsdatum, Auftragsmenge und Restauftragsmenge. Der Bericht zeigt darüber hinaus an, ob auch andere Artikel für den Debitor im Rückstand sind.|
+|**Lager - Auftragsbestand**|708|Zeigt eine Liste der Aufträge an, deren Wareneingang noch nicht gebucht wurde, sowie die Artikel in den Aufträgen. Er zeigt die Auftragsnummer, den Namen des Debitors, das Warenausgangsdatum, die Menge, die Menge in Rückstand, die Restauftragsmenge und den Verkaufspreis sowie mögliche Rabattprozentsätze und -beträge an. Die Menge in Rückstand und die Restauftragsmenge sowie der Betrag werden für jeden Artikel summiert. Verwenden Sie den Bericht, um herauszufinden, ob es zurzeit Lieferprobleme gibt oder ob Lieferprobleme zu erwarten sind.|
 
 
 

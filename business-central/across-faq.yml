@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 04/01/2021
+  ms.date: 08/24/2021
   ms.author: edupont
-  ms.openlocfilehash: 4d4864b0baa6b8455e51931701d72eea8923545f
-  ms.sourcegitcommit: 0c8428e1468d4f5c18fbe35c79d6bbe509b79620
+  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
+  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 06/01/2021
-  ms.locfileid: "6124003"
+  ms.lasthandoff: 08/27/2021
+  ms.locfileid: "7440691"
 title: Häufig gestellte Fragen zur Verwendung von Business Central
 summary: "Dieser Abschnitt enthält Antworten auf häufig gestellte Fragen zur Registrierung für eine Testversion, zum Kauf eines Abonnements und zur Verwendung von [!INCLUDE[prod_short](includes/prod_short.md)]. Sie können auch erfahren, wie Sie technischen Support erhalten.  \n"
 sections:
@@ -67,6 +67,10 @@ sections:
       Was sind die Service Level Agreements für die Cloud?
     answer: >
       [!INCLUDE [service-terms](includes/service-terms.md)]
+  - question: >
+      Wie oft wird Business Central Online aktualisiert?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] Online ist ein Dienst, der aus einer von Microsoft verwalteten Plattform und aus Geschäftsfunktionen besteht. Viele Microsoft-Partner stellen zusätzliche Geschäftsfunktionen bereit, z. B. um spezifische Branchen- oder Lokalisierungsanforderungen zu erfüllen. Sowohl die Geschäftsfunktionen als auch die Servicekomponenten werden kontinuierlich überwacht und gegebenenfalls aktualisiert. Sie können sich jederzeit den [Versionsplan](/dynamics365/release-plans/) ansehen, um einen Überblick über neue und kommende Funktionen zu erhalten. Weitere Informationen finden Sie unter [Serviceübersicht für Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (nur in Englisch) und unter [Neu und geplant](product-news.md).
   - question: >
       Der Administrator hat mich auf einen anderen Plan gelegt und mir eine andere Rolle zugewiesen, es wird jedoch weiterhin die gleiche Startseite in Business Central angezeigt.
     answer: "Dies ist ein wenig komplizierter, aber es sieht so aus, als ob Ihr Administrator im Rollencenter Ihre zugewiesene Rolle nicht geändert hat und Benutzergruppen zugeordnet hat, die mit der neuen Lizenz übereinstimmen. Im Wesentlichen wird Ihr Zugang zu [!INCLUDE[prod_short](includes/prod_short.md)] vom Plantyp (Lizenz) bestimmt, den Sie haben - dieser legt Ihre Zugriffsrechte, Ihre zugewiesene Rolle und die Standard-Startseite fest. Sie können Ihr aktuelle Rolle in \"Meine Einstellungen\" manuell ändern, wenn Sie aber auf einen Plan anderen wechseln, und vom Unternehmensplan auf einen Team-Members-Plan wechseln, könnten Sie die alte Startseite sehen, weil Ihre Berechtigungen nicht geändert wurden.  \n"

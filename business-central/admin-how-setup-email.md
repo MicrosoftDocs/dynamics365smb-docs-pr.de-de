@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 389832ad5997dd4b02cbeb7dfb90dd5b1ade40c1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 791033d9b4077ad6e3bf37ab04956113183b5f2b
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439710"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440498"
 ---
 # <a name="set-up-email"></a>E-Mail einrichten
 Menschen in Unternehmen senden täglich Informationen und Dokumente wie Verkaufsdokumente und Bestellungen sowie Rechnungen per E-Mail. Administratoren können dies vereinfachen, indem sie ein oder mehrere E-Mail-Konten mit [!INCLUDE[prod_short](includes/prod_short.md)] verbinden. So können Sie Dokumente senden, ohne eine E-Mail-App öffnen zu müssen. Sie können jede Nachricht einzeln mit grundlegenden Formatierungswerkzeugen wie Schriftarten, Stilen, Farben usw. zusammenstellen und Anhänge mit bis zu 100 MB hinzufügen. Administratoren können auch Berichtslayouts einrichten, die nur die wichtigsten Informationen aus Dokumenten enthalten. Weitere Informationen finden Sie unter [Senden von Dkumenten über E-Mail](ui-how-send-documents-email.md).
@@ -45,6 +45,8 @@ In der folgenden Tabelle werden die standardmäßig verfügbaren E-Mail-Erweiter
 
 > [!NOTE]
 > Die Erweiterungen **Microsoft 365** und **Aktueller Benutzer** verwenden die Konten, die Sie für Benutzer im Microsoft 365 Admin Center für Ihr Microsoft 365-Abonnement eingerichtet haben. Um E-Mails mit den Erweiterungen senden zu können, müssen Benutzer über eine gültige Lizenz für Exchange Online verfügen. 
+>
+> Darüber hinaus können externe Benutzer wie delegierte Administratoren und externe Buchhalter diese Erweiterungen nicht zum Senden von E-Mail-Nachrichten über [!INCLUDE[prod_short](includes/prod_short.md)] verwenden.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
@@ -99,7 +101,7 @@ Sie können Berichte verwenden, um wichtige Informationen aus Verkaufs- und Kauf
 
     Berichtslayouts definieren das Format und den Inhalt des E-Mail-Texts, einschließlich den Standardtext, wie Anrede oder Anweisungen, die den Dokumentinformationen vorangehen. Wenn Ihre Organisation verschiedene Layouts hat, können Sie alle verfügbaren Berichtslayouts sehen, wenn Sie die Schaltfläche **Aus vollständiger Liste auswählen** auswählen.
 6. Um das Layout anzusehen oder zu bearbeiten, auf dem der E-Mail-Text basiert, gehen Sie zur Seite **Benutzerdefinierte Berichtslayouts** und wählen die Aktion **Layout aktualisieren** aus.
-7. Um Ihren Debitoren anzubieten, für Verkäufe unter Verwendung eines Zahlungsservice wie Paypal elektronisch zu bezahlen, können Sie die Paypal-Informationen und Links auch in den E-Mail-Text einfügen. Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch Paypal](sales-how-enable-payment-service-extensions.md)
+7. Um Ihren Debitoren anzubieten, für Verkäufe unter Verwendung eines Zahlungsservice wie PayPal elektronisch zu bezahlen, können Sie die Paypal-Informationen und Links auch in den E-Mail-Text einfügen. Weitere Informationen finden Sie unter [Aktivieren Sie Debitoren-Zahlung durch PayPal](sales-how-enable-payment-service-extensions.md)
 8. Wählen Sie die Schaltfläche **OK** aus.
 
 Wenn Sie jetzt beispielsweise die Aktion **Senden** auf der Seite **Gebuchte Verkaufsrechnung** auswählen, enthält der E-Mail-Text die Beleginformationen 1306 des Berichts, der vom formatierten Standardtext entsprechend dem Berichtslayout stammt, das Sie in Schritt 5 ausgewählt haben.

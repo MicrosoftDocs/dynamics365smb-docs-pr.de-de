@@ -6,19 +6,19 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e29e3c0c4ce7b6cfc5ce3f38cd67781c377991ad
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543045"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482170"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Verwalten von Speicher durch das Löschen von Dokumenten oder Datenkomprimierung
 
 Ein Benutzer mit einer zentralen Rolle, z. B. der Anwendungsadministrator, muss sich regelmäßig um die angesammelten historischen Belege kümmern, indem er diese löscht oder komprimiert.  
 
 > [!TIP]
-> Informationen zu anderen Möglichkeiten zum Reduzieren der in einer Datenbank gespeicherten Datenmenge finden Sie unter [Reduzieren von in Business Central-Datenbanken gespeicherten Daten](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) in der Entwickler- und IT-Pro-Hilfe.
+> Informationen zu anderen Möglichkeiten zum Reduzieren der in einer Datenbank gespeicherten Datenmenge finden Sie unter [Reduzieren von in Business Central-Datenbanken gespeicherten Daten](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) in unserer Entwickler- und IT-Pro-Dokumentation.
 
 ## <a name="delete-documents"></a>Belege löschen
 
@@ -34,7 +34,13 @@ Serviceaufträge werden aber nicht automatisch gelöscht, wenn die Gesamtmenge d
 
 ## <a name="compress-data-with-date-compression"></a>Daten komprimieren mit der Datumskomprimierung
 
-Sie können Daten in [!INCLUDE [prod_short](includes/prod_short.md)] komprimieren, um Platz in der Datenbank zu sparen. In [!INCLUDE [prod_short](includes/prod_short.md)] Online können Sie damit sogar Geld sparen. Die Komprimierung basiert auf Daten und fasst mehrere alte Posten in einem neuen Posten zusammen. Sie können nur Einträge aus abgeschlossenen Geschäftsjahren komprimieren, und zwar nur solche, bei denen das Feld **Öffnen** auf **Nein** festgelegt ist.  
+Sie können Daten in [!INCLUDE [prod_short](includes/prod_short.md)] komprimieren, um Platz in der Datenbank zu sparen. In [!INCLUDE [prod_short](includes/prod_short.md)] Online können Sie damit sogar Geld sparen. Die Komprimierung basiert auf Daten und fasst mehrere alte Posten in einem neuen Posten zusammen. 
+
+Sie können Einträge unter folgenden Bedingungen komprimieren:
+
+* Sie stammen aus abgeschlossenen Geschäftsjahren
+* Das Feld **Offen** ist auf **Nein** festgelegt. 
+* Sie sind mindestens fünf Jahre alt. Wenn Sie Daten komprimieren möchten, die weniger als fünf Jahre alt sind, wenden Sie sich an Ihren Microsoft-Partner.
 
 Beispielsweise können die Kreditorenposten von zurückliegenden Geschäftsjahren so komprimiert werden, dass nur noch ein Soll- und ein Habenposten pro Konto und Monat vorhanden ist. Der Betrag des neuen Postens ist die Summe aller komprimierten Posten. Das Datum, das zugewiesen wird, ist das Startdatum der Periode, die komprimiert wird, wie z. B. der erste Tag des Monats (wenn die Posten pro Monat komprimiert werden). Nach der Komprimierung können Sie immer noch die Bewegung auf jedem Konto im vergangenen Geschäftsjahr sehen.
 
@@ -55,16 +61,17 @@ Wenn Sie Kriterien für die Komprimierung definieren, können Sie die Optionen u
 
 Nach der Komprimierung werden die Inhalte der folgenden Felder in jedem Fall beibehalten: **Buchungsdatum**, **Kreditorennr.**, **Belegart**, **Währungscode**, **Buchungsgruppe**, **Betrag**, **Restbetrag**, **Ursprungsbetrag (MW)**, **Restbetrag (MW)**, **Betrag (MW)**, **Einkauf (MW)**, **Rechnungsrabatt (MW)**, **Skonto gewährt (MW)** und **Skonto möglich**.
 
-> [!NOTE]
-> Komprimierte Einträge werden etwas anders gebucht als Standardbuchungen. Dies dient dazu, die Anzahl der durch die Datumskomprimierung erstellten neuen Sachposten zu verringern. Dies ist besonders wichtig, wenn Sie Informationen wie Abmessungen und Belegnummern aufbewahren. Durch die Datumskomprimierung werden neue Einträge wie folgt erstellt:
->* Auf der Seite **Sachposten** werden neue Einträge mit neuen Eintragsnummern für die komprimierten Einträge erstellt. Das Feld **Beschreibung** enthält **Datum komprimiert**, damit die komprimierten Einträge leicht zu identifizieren sind. 
->* Auf Hauptbuchseiten wie der Seite **Debitorenposten** werden ein oder mehrere Einträge mit neuen Eintragsnummern erstellt. 
-> Der Buchungsprozess erzeugt Lücken in der Nummernreihe für Einträge auf der Seite **Sachposten**. Diese Nummern werden nur den Einträgen auf den Hauptbuchseiten zugewiesen. Der den Einträgen zugewiesene Nummernkreis ist auf der **Sachkontenregisterseite** in den Feldern **Von Lfd. Nr.** und **Bis Lfd. Nr.** Felder. 
+## <a name="posting-compressed-entries"></a>Veröffentlichen komprimierter Einträge
+Komprimierte Einträge werden etwas anders gebucht als Standardbuchungen. Dies dient dazu, die Anzahl der durch die Datumskomprimierung erstellten neuen Sachposten zu verringern. Dies ist besonders wichtig, wenn Sie Informationen wie Abmessungen und Belegnummern aufbewahren. Durch die Datumskomprimierung werden neue Einträge wie folgt erstellt:
+* Auf der Seite **Sachposten** werden neue Einträge mit neuen Eintragsnummern für die komprimierten Einträge erstellt. Das Feld **Beschreibung** enthält **Datum komprimiert**, damit die komprimierten Einträge leicht zu identifizieren sind. 
+* Auf Hauptbuchseiten wie der Seite **Debitorenposten** werden ein oder mehrere Einträge mit neuen Eintragsnummern erstellt. 
+
+Der Buchungsprozess erzeugt Lücken in der Nummernreihe für Einträge auf der Seite **Sachposten**. Diese Nummern werden nur den Einträgen auf den Hauptbuchseiten zugewiesen. Der den Einträgen zugewiesene Nummernkreis ist auf der **Sachkontenregisterseite** in den Feldern **Von Lfd. Nr.** und **Bis Lfd. Nr.** Felder. 
 
 > [!NOTE]
 > Nachdem Sie die Datumskomprimierung ausgeführt haben, werden alle Konten im Hauptbuch gesperrt. Beispielsweise können Sie während des Zeitraums, für den Daten komprimiert werden, keine Lieferanten- oder Bankbucheinträge für Konten aufheben.
 
-Die Anzahl der Posten, die von der Stapelverarbeitung zur Datumskomprimierung erstellt werden, hängt von der Anzahl der festgelegten Filter, den kombinierten Feldern und der ausgewählten Periodenlänge ab. Es gibt immer mindestens einen Posten. 
+Die Anzahl der Posten, die im Zuge der Datumskomprimierung erstellt werden, hängt von der Anzahl der festgelegten Filter, den kombinierten Feldern und der ausgewählten Periodenlänge ab. Es gibt immer mindestens einen Posten. 
 
 > [!WARNING]
 > Die Datumskomprimierung löscht Posten. Daher sollten Sie immer eine Datensicherung der Datenbank durchführen, bevor Sie die Stapelverarbeitung ausführen.
@@ -72,8 +79,11 @@ Die Anzahl der Posten, die von der Stapelverarbeitung zur Datumskomprimierung er
 ### <a name="to-run-a-date-compression"></a>So führen Sie eine Datumskomprimierung aus
 1. Wählen Sie das Symbol ![Suche nach Seite oder Bericht](media/ui-search/search_small.png "Nach dem Symbol für „Seite“ oder „Bericht“ suchen"). Geben Sie **Datenverwaltung** ein, und wählen Sie dann den entsprechenden Link.
 2. Führen Sie einen der folgenden Schritte aus:
-    1. Um eine Anleitung zur unterstützten Einrichtung zu verwenden, um die Datumskomprimierung für einen oder mehrere Datentypen festzulegen, wählen Sie **Datenverwaltung Anleitung**.
-    1. Um die Komprimierung für einen einzelnen Datentyp festzulegen, wählen Sie **Datenkomprimierung**, **Einträge komprimieren** und wählen dann die zu komprimierenden Daten.
+    * Um eine Anleitung zur unterstützten Einrichtung zu verwenden, um die Datumskomprimierung für einen oder mehrere Datentypen festzulegen, wählen Sie **Datenverwaltung Anleitung**.
+    * Um die Komprimierung für einen einzelnen Datentyp festzulegen, wählen Sie **Datenkomprimierung**, **Einträge komprimieren** und wählen dann die zu komprimierenden Daten.
+
+   > [!NOTE]
+   > Sie können nur Daten komprimieren, die älter als fünf Jahre sind. Wenn Sie Daten komprimieren möchten, die weniger als fünf Jahre alt sind, wenden Sie sich an Ihren Microsoft-Partner.
 
 ## <a name="see-also"></a>Weitere Informationen
 
