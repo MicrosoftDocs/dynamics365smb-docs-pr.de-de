@@ -197,8 +197,8 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 |Ereignismeldung|Description|  
 |--------------------|---------------------------------------|  
 |**"Menge ändern"**|Ändert die Menge eines vorhandenen Beschaffungsauftrags, um einen geänderten oder neuen Bedarf zu decken.|  
-|**Neu berechnen**|Neuplanung des Fälligkeitsdatums eines bestehenden Fertigungsauftrags oder einer Bestellung.|  
-|**Neu berechnen & Menge ändern**|Neuplanung des Fälligkeitsdatums und Mengenänderung eines bestehenden Fertigungsauftrags oder einer Bestellung.|  
+|**Neu planen**|Plant Fälligkeitsdatum eines bestehenden Fertigungsauftrags oder einer Bestellung neu.|  
+|**Neu berechnen & Menge ändern**|Plant Fälligkeitsdatum neu und ändert Menge eines bestehenden Fertigungsauftrags oder einer Bestellung.|  
 |**Neu**|Erstellt einen neuen Auftrag, wenn der Bedarf nicht durch eine der vorherigen Aktionsmeldungen gedeckt werden kann.|  
 |**Stornieren**|Stornieren eines bestehenden Auftrags.|  
 

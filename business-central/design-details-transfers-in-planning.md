@@ -144,7 +144,7 @@ In der FA-Zeile gilt: Enddatum + Sicherheitszuschlag Beschaffungszeit + Eingehen
 
 In der Bestellzeile gilt: Geplantes Wareneingangsdatum + Sicherheitszuschlag Beschaffungszeit + Eingehende Lagerdurchlaufzeit = Erwartetes Wareneingangsdatum.  
 
-## <a name="reschedule"></a>Neu berechnen  
+## <a name="reschedule"></a>Neu planen  
 Wenn eine vorhandene Umlagerungszeile neu geplant wird, muss das Planungssystem den ausgehenden Teil suchen und desssen Datum/Zeit ändern. Es ist wichtig zu wissen, dass nach der Definition der Beschaffungszeit eine Lücke zwischen Lieferung und Eingang besteht. Wie erwähnt, kann die Beschaffungszeit aus mehr Elementen, wie Transportzeit und Lagerdurchlauf, bestehen. In einer Zeitachse geht das Planungssystem in der Zeit zurück, während es die Elemente ausgleicht.  
 
 ![Änderung des Fälligkeitsdatums in der Transferplanung.](media/nav_app_supply_planning_7_transfers15.png "Ändern des Fälligkeitsdatums in der Umlagerungsplanung")  

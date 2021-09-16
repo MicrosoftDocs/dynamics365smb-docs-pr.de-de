@@ -95,7 +95,7 @@ Bedarfs- und Vorratsattribute werden nach Auftragspriorität sowie nach ihrer Sp
 > [!NOTE]  
 >  Es gibt keine speziellen Priorisierungsregeln für einen Bedarf und Vorrat mit Serien-/Chargennummern, außer der Spezifikationsstufe, die durch die Kombinationen von Serien- und Chargennummern und das Einrichten der Artikelverfolgung für die betroffenen Artikel definiert ist.  
 
-Während des Abgleichs betrachtet das Planungssystem Vorräte mit Serien-/Chargennummern als nicht flexibel. Es wird nicht versuchen, entsprechende Vorräte zu vergrößern oder umzuplanen (es sei denn, sie werden in einer Eins-zu-Eins-Beziehung verwendet). Weitere Informationen unter „Eins-zu-Eins-Beziehungen werden nie aufgelöst“. Dieses Vorgehen schützt den Vorrat davor, mehrere, möglicherweise widersprüchliche Aktionsnachrichten zu erhalten, wenn ein Vorrat unterschiedliche Attribute aufweist – wie z. B. eine Sammlung verschiedener Seriennummern.  
+Während des Abgleichs betrachtet das Planungssystem Vorräte mit Serien-/Chargennummern als nicht flexibel. Es wird nicht versuchen, entsprechende Vorräte zu vergrößern oder neu zu planen (es sei denn, sie werden in einer Eins-zu-Eins-Beziehung verwendet). Weitere Informationen unter „Eins-zu-Eins-Beziehungen werden nie aufgelöst“. Dieses Vorgehen schützt den Vorrat davor, mehrere, möglicherweise widersprüchliche Aktionsnachrichten zu erhalten, wenn ein Vorrat unterschiedliche Attribute aufweist – wie z. B. eine Sammlung verschiedener Seriennummern.  
 
 Ein weiterer Grund dafür, dass Vorräte mit Serien-/Chargennummern nicht flexibel sind, ist, dass Serien-/Chargennummern im Allgemeinen so spät im Prozess zugewiesen werden, dass es verwirrend wäre, wenn Änderungen vorgeschlagen werden.  
 
@@ -106,7 +106,7 @@ Bei der Planung eines Eins-zu-Eins-Artikels darf der verknüpfte Vorrat nicht f�
 
 Bei Eins-zu-Eins müssen sich Bedarf und Vorrat exakt decken. Das Planungssystem stellt den Vorrat unter allen Umständen sicher. Dies geschieht ohne Berücksichtigung von Auftragsgrößenparametern, Modifikatoren und Mengen im Bestand (mit Ausnahme der Mengen, die sich auf die verknüpften Aufträge beziehen). Aus demselben Grund schlägt das System die Verringerung überschüssiger Vorräte vor, wenn der verknüpfte Bedarf sinkt.  
 
-Dieser Abgleich wirkt sich auch auf das Timing aus. Der durch den Zeitbereich bedingte begrenzte Horizont wird nicht berücksichtigt. Der Vorrat wird neu eingeplant, wenn sich das Timing des Bedarfs geändert hat. Die Verzögerungszeit wird jedoch beachtet. Sie verhindert, dass Eins-zu-Eins-Vorräte eingeplant werden – außer bei internen Vorräten eines mehrstufigen Produktionsauftrags (Projektauftrag).  
+Dieser Abgleich wirkt sich auch auf das Timing aus. Der durch den Zeitbereich bedingte begrenzte Horizont wird nicht berücksichtigt. Der Vorrat wird neu geplant, wenn sich das Timing des Bedarfs geändert hat. Die Verzögerungszeit wird jedoch beachtet. Sie verhindert, dass Eins-zu-Eins-Vorräte eingeplant werden – außer bei internen Vorräten eines mehrstufigen Produktionsauftrags (Projektauftrag).  
 
 > [!NOTE]  
 >  Serien-/Chargennummern können auch für Eins-zu-Eins-Bedarf angegeben werden. In diesem Fall wird der Vorrat nicht standardmäßig als nicht flexibel betrachtet (wie normalerweise bei Serien-/Chargennummern). In diesem Fall führt das System eine Erhöhung/Verringerung durch, wenn sich der Bedarf ändert. Wenn ein Bedarf unterschiedliche Serien-/Chargennummern trägt, z. B. mehr als eine Chargennummer, wird außerdem ein Vorrat pro Charge vorgeschlagen.  
@@ -184,9 +184,9 @@ Stellen Sie sich vor, dass jedes Bestandsprofil eine Folge von Bedarfsereignisse
 3. Vorrat existiert, aber es gibt keinen Bedarf => Vorrat sollte abgebrochen werden.  
 4. Sowohl Bedarf als auch Vorrat sind vorhanden => Bevor das System sicherstellen kann, dass der Bedarf gedeckt wird und der Vorrat ausreicht, müssen bestimmte Fragen geklärt werden.  
 
-    Wenn das Timing des Vorrats nicht passt, kann der Vorrat vielleicht wie folgt umdisponiert werden:  
+    Wenn das Timing des Vorrats nicht passt, kann der Vorrat vielleicht wie folgt neu geplant werden:  
 
-    1.  Wenn der Vorrat früher als der Bedarf platziert wird, kann der Vorrat vielleicht so umgeplant werden, dass der Bestand so gering wie möglich ist.  
+    1.  Wenn der Vorrat früher als der Bedarf platziert wird, kann der Vorrat vielleicht so neu ausgeplant werden, dass der Bestand so gering wie möglich ist.  
     2.  Wenn der Vorrat später als der Bedarf platziert wird, kann der Vorrat vielleicht neu eingeplant werden. Andernfalls schlägt das System einen neuen Vorrat vor.  
     3.  Wenn der Vorrat den Bedarf am Termin deckt, kann das Planungssystem weiter prüfen, ob die Menge des Vorrats den Bedarf decken kann.  
 
@@ -209,20 +209,20 @@ Wenn der Benutzer einen bestehenden Vorrat von den Planungsvorschlägen ausschli
 
 Allgemein haben alle Vorräte eine Planungsflexibilität, die durch die Bedingungen der einzelnen vorgeschlagenen Aktionen begrenzt ist.  
 
--   **Umplanung aus**: Das Datum eines bestehenden Vorrats kann auf das Fälligkeitsdatum des Bedarfs umgeplant werden. Es sei denn:  
+-   **Neu ausplanen**: Das Datum eines bestehenden Vorrats kann auf das Fälligkeitsdatum des Bedarfs ausgeplant werden. Es sei denn:  
 
     -   es stellt einen Bestand dar (immer am Tag Null).  
     -   es gibt eine Eins-zu-Eins-Verknüpfung mit einem anderen Bedarf.  
-    -   es liegt außerhalb der durch den Zeitraum definierten Umplanungsseite.  
+    -   es liegt außerhalb der durch den Zeitraum definierten Neuplanungsseite.  
     -   es gibt einen näherliegenden Vorrat, der verwendet werden könnte.  
-    -   Der Benutzer kann sich jedoch auch aus den folgenden Gründen gegen eine Umplanung entscheiden:  
+    -   Der Benutzer kann sich jedoch auch aus den folgenden Gründen gegen eine Neuplanung entscheiden:  
     -   Der Vorrat wurde bereits an einen anderen Bedarf zu einem früheren Zeitpunkt gebunden.  
     -   Die erforderliche Neuplanung ist so minimal, dass der Benutzer sie für vernachlässigbar hält.  
 
--   **Neuplanung ein**: Das Datum eines bestehenden Vorrats kann auf das Fälligkeitsdatum des Bedarfs umgeplant werden. Es sei denn:  
+-   **Neu einplanen**: Das Datum eines bestehenden Vorrats kann auf das Fälligkeitsdatum des Bedarfs eingeplant werden. Es sei denn:  
 
     -   es ist direkt mit einem anderen Bedarf verknüpft.  
-    -   es liegt außerhalb der durch den Zeitraum definierten Umplanungsseite.  
+    -   es liegt außerhalb der durch den Zeitraum definierten Neuplanungsseite.  
 
 > [!NOTE]  
 >  Wenn Sie ein Element mit einem Meldebestand planen, kann der Vorrat, falls erforderlich, immer eingeplant werden. Dies geschieht generell bei vorausgeplanten Lieferaufträgen, die durch einen Meldebestand ausgelöst werden.  
@@ -277,7 +277,7 @@ Wenn der Vorrat abgeglichen wurde, gibt es drei mögliche Endsituationen:
 Zuletzt erstellt das Planungssystem eine Auftragsverfolgungsverknüpfung zwischen dem Vorrat und dem Bedarf.  
 
 ### <a name="creating-the-planning-line-suggested-action"></a>Erstellen der Planungszeile (vorgeschlagene Aktion)  
-Wenn eine Aktion – „Neu“, „Menge ändern“, „Umplanen“, „Umplanen und Menge ändern“ oder „Stornieren“ – zur Veränderung des Vorrats vorgeschlagen wird, erstellt das Planungssystem eine Planungszeile im Planungsarbeitsblatt. Aufgrund der Auftragsverfolgung wird die Planungszeile nicht nur dann erstellt, wenn das Vorratsereignis abgeschlossen ist, sondern auch, wenn das Bedarfsereignis abgeschlossen ist, obwohl das Vorratsereignis noch offen ist und bei der Verarbeitung des nächsten Bedarfsereignisses möglicherweise weitere Änderungen erfährt. Das bedeutet, dass die Planungszeile nach der ersten Erstellung geändert werden kann.  
+Wenn eine Aktion – „Neu“, „Menge ändern“, „Neu planen“, „Neu planen und Menge ändern“ oder „Stornieren“ – zur Veränderung des Vorrats vorgeschlagen wird, erstellt das Planungssystem eine Planungszeile im Planungsarbeitsblatt. Aufgrund der Auftragsverfolgung wird die Planungszeile nicht nur dann erstellt, wenn das Vorratsereignis abgeschlossen ist, sondern auch, wenn das Bedarfsereignis abgeschlossen ist, obwohl das Vorratsereignis noch offen ist und bei der Verarbeitung des nächsten Bedarfsereignisses möglicherweise weitere Änderungen erfährt. Das bedeutet, dass die Planungszeile nach der ersten Erstellung geändert werden kann.  
 
 Um bei der Bearbeitung von Produktionsaufträgen den Zugriff auf die Datenbank zu minimieren, kann die Planungszeile in drei Stufen gepflegt werden, wobei die am wenigsten aufwendige Wartungsstufe angestrebt wird:  
 
