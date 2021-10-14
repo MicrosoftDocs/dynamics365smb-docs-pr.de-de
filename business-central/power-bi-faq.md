@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438752"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587999"
 ---
 # <a name="power-bi--faq"></a>Power BI FAQ
 
@@ -129,12 +129,6 @@ Hier sind weitere Seiten, die den größeren, nicht gefilterten **Power BI Beric
 Um größere Datasets zu filtern, ist es am einfachsten, einen Filter auf Ihren Power BI-Bericht festzulegen, indem Sie direkt die Power Query-Formel bearbeiten. Die meisten der Filter, die Sie auf diese Weise festlegen, werden durch das Falten der Abfrage an Business Central weitergegeben. Siehe [Inkrementelle Aktualisierung für Datasets](/power-bi/admin/service-premium-incremental-refresh).
 
 Es gibt derzeit keine Möglichkeit, einen Filter für die Webservice-Daten von Business Central aus festzulegen. Wenn Ihre Anwendung einen Filter aus Business Central heraus festlegen muss, müssen Sie zu diesem Zweck eine angepasste Business Central App erstellen.
-
-<!-- 8 and 9 -->
-
-### <a name="for-embedding-reports-in-business-central-pages-right-now-its-only-possible-to-get-reports-from-my-workspace-in-power-bi-are-there-plans-to-make-it-possible-to-get-them-from-custom-workspaces"></a>Für die Einbettung von Berichten in Business Central Seiten ist es im Moment nur möglich, Berichte aus *Mein Arbeitsbereich* in Power BI zu erhalten. Gibt es Pläne, es möglich zu machen, sie aus angepassten Arbeitsbereichen zu erhalten?
-
-Ja. Wir haben es in unseren Plänen, Unterstützung für gemeinsame Arbeitsbereiche hinzuzufügen, aber wir haben noch keinen Zeitplan, den wir Ihnen geben können.  
 
 <!-- 10 -->
 ### <a name="from-power-bi-besides-using-a-query-is-there-another-way-to-get-data-from-business-central-tables-that-dont-have-an-associated-page-for-example-like-the-item-attributes-value-mapping-table"></a>Gibt es neben der Verwendung einer Abfrage in Power BI eine andere Möglichkeit, Daten aus Business Central-Tabellen abzurufen, die keine zugehörige Seite haben? Zum Beispiel, wie die *Element-Attribute-Wert-Zuordnung* Tabelle.

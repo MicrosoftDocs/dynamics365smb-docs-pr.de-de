@@ -1,21 +1,21 @@
 ---
 title: So geben Sie Daten in Business Central ein
 description: Es gibt eine Vielzahl allgemeiner Funktionen, mit denen Sie Daten einfacher, schneller und genauer eingeben können. Hier werden die grundlegenden Prinzipien und erweiterten Funktionen beschrieben.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443668"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588957"
 ---
 # <a name="entering-data"></a>Eingeben von Daten
 
@@ -35,7 +35,6 @@ Einige bearbeitbare Felder bieten eine Auswahl, anhand derer Sie einen Wert fest
 |Dropdownliste          |Dropdownlisten bieten eine Auswahl an festen Werten oder Referenzdatensätzen aus einer anderen Tabelle.|
 |Schalter oder Kontrollkästchen|Einige Felder bieten eine einfache Auswahl von *Ja*- oder *Nein*-Werten. Dieser Wert wird mit dem Schalter festgelegt und in Listen immer als Kontrollkästchen angezeigt.|
 |AssistEdit       |Einige Felder bieten benutzerdefinierte Auswahlfelder zum Suchen und Auswählen des besten Werts für dieses Feld, z. B. ein Popup-Fenster.|
-
 
 ### <a name="modifying-a-field-value"></a>Ändern eines Feldwerts
 
@@ -58,7 +57,6 @@ Wenn der Cursor am Ende des Feldwerts angezeigt wird:
 
 > [!NOTE]
 > Nachdem Sie einen Wert angegeben haben, überprüft Business Central dessen Gültigkeit erst, wenn Sie außerhalb des Felds klicken oder den Fokus auf ein anderes Element wie das nächste Feld legen.  
-
 
 ## <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -267,9 +265,16 @@ Hier folgen einige Beispiele.
 
  Die Zahl 5 wird in 5 Std. konvertiert, wenn Stunden als Einheit angegeben wurden.  
 
-## <a name="see-also"></a>Siehe auch  
- [Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md)  
- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Festlegen des Dezimaltrennzeichens, das von numerischen Tastaturen verwendet wird
+
+Wenn Sie bei der Eingabe von Daten die Dezimaltrennzeichen-Taste der numerischen Tastatur verwenden, wird das tatsächliche Dezimaltrennzeichen, das in das Feld eingegeben wird, durch die Regionseinstellung Ihres Business Central bestimmt. Sie legen die Region in Business Central auf der Seite **Meine Einstellungen** fest.
+
+Nehmen wir zum Beispiel an, Sie verwenden eine numerische Tastatur, die einen Punkt (.) als Dezimaltrennzeichen verwendet. Sie geben aber Daten für eine regionale Sprache ein, die ein Komma (**,**) als Dezimaltrennzeichen verwendet, wie z.B. Dänisch (Dänemark) oder Französisch (Frankreich). Sie möchten also, dass Dezimalzahlen wie „1.23“ als „1,23“ eingegeben werden. In diesem Fall können Sie auf die Seite **Meine Einstellungen** gehen und die **Region** auf die regionale Zielsprache festlegen, wie **Dänisch (Dänemark)** oder **Französisch (Frankreich)**. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Weitere Informationen
+
+[Sortieren, Durchsuchen und Filtern von Listen](ui-enter-criteria-filters.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 04/01/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3d014015946f9202d59127d6e871aa5dd0ec90bd
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440366"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588982"
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
 
@@ -26,23 +26,16 @@ Bevor Sie neue Debitoren erfassen können, müssen Sie verschiedene Verkaufscode
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Hinzufügen neuer Kunden
+Sie können neue Debitoren manuell hinzufügen, indem Sie die Felder auf der Seite **Kundenkarte** ausfüllen, oder Sie können Vorlagen verwenden, die vordefinierte Informationen enthalten. Sie können zum Beispiel Vorlagen für verschiedene Arten von Kundenprofilen erstellen. Die Verwendung von Vorlagen spart Zeit beim Hinzufügen neuer Kunden und hilft sicherzustellen, dass die Informationen jedes Mal korrekt sind. Wenn Sie Vorlagen für mehr als eine Art von Kunden erstellen, können Sie die Vorlage auswählen, die Sie beim Hinzufügen eines Kunden verwenden möchten. Wenn Sie nur eine Vorlage erstellen, wird diese für alle neuen Kunden verwendet. Nachdem Sie eine Vorlage erstellt haben, können Sie die Aktion **Vorlage anwenden** verwenden, um sie auf einen oder mehrere ausgewählte Kunden anzuwenden. Um eine Vorlage zu erstellen, geben Sie auf der Seite Kundenkarte die Informationen ein, die Sie wiederverwenden möchten, und speichern sie dann als Vorlage. Weitere Informationen finden Sie unter [Speichern der Kundenkarte als Vorlage](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-Sie müssen eine Debitorenkarte ausfüllen, um einen neuen Debitoren zu registrieren. Sie können Vorlagen für verschiedene Debitorenprofile erstellen oder Debitoren ohne Vorlagen hinzufügen. Sie können einen Debitor auch aus einem Kontakt erstellen. Weitere Informationen finden Sie unter [So erstellen Sie einen Kontakt als Debitor, Kreditor , Mitarbeiter oder Bankkonto von einem Kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Es kann hilfreich sein, die Seite **Kundenvorlage** zu personalisieren, wenn Sie eine Vorlage erstellen. Zum Beispiel können Sie das Feld **Kreditlimit** zu einer Vorlage hinzufügen. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Wenn es Debitorenvorlagen für verschiedene Debitorenarten gibt, dann erscheint eine Seite automatisch, wenn Sie eine neue Debitorenkarte erstellen, von der aus Sie eine entsprechende Debitorenvorlage auswählen können. Wenn nur eine Debitorenvorlage vorhanden ist, verwenden neue Debitorenkarten immer diese Vorlage.  
+Sie können einen Debitor auch aus einem Kontakt erstellen. Weitere Informationen finden Sie unter [So erstellen Sie einen Kontakt als Debitor, Kreditor , Mitarbeiter oder Bankkonto von einem Kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>Erstellen Sie eine neue Debitorenkarte
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.  
-2. Wählen Sie auf der Seite **Debitoren** die Aktion **Neu** aus.
-
-    Wenn nur eine Debitorenvorlage vorhanden ist, dann öffnet sich eine neue Debitorenkarte mit den Feldern, die mit Daten aus der Vorlage ausgefüllt werden.
-
-    Wenn mehr als eine Debitorenvorlage vorhanden ist, dann öffnet sich eine Seite mit verfügbaren Debitorenvorlagen automatisch. In diesem Fall, folgen Sie den nächsten zwei Schritten.
-3. Auf der Seite **Eine Vorlage für einen neuen Debitor auswählen** wählen Sie die Vorlage, die Sie für die neue Debitorenkarte verwenden möchten.
-4. Wählen Sie die Schaltfläche **OK** aus. Eine neue Debitorenkarte wird geöffnet mit den Feldern, die mit Daten aus der Vorlage ausgefüllt werden.  
-5. Fahren Sie fort, um Felder auf der Debitorenkarte bei Bedarf auszufüllen und zu ändern. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Die Aktion **Preise und Rabatte** bietet Optionen zur Verwaltung von Sonderpreisen oder Rabatten für den Debitor, wenn eine Bestellung bestimmte Kriterien erfüllt. Kriterien sind beispielsweise, wann sie einen bestimmten Artikel kaufen, eine Mindestmenge bestellen oder vor einem bestimmten Datum kaufen, etwa wenn eine Kampagne endet. Weitere Informationen finden Sie unter [Erfassen von Verkaufspreisen, Rabatt und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md)
 

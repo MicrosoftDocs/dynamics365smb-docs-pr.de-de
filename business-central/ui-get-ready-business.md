@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444820"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589132"
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 
@@ -25,14 +25,14 @@ Damit Sie sich leichter auf Ihre Geschäftstätigkeiten vorbereiten können, kö
 
 Alternativ können Sie das ![Rad-Symbol wählen, um das Menü „Einstellungen“ zu öffnen.](media/ui-experience/settings_icon_small.png) Symbol, und dann die Aktion **Unterstützte Einrichtung**.
 
-Sie finden die Liste der Anleitungen für die Unterstützte Einrichtung auch, wenn Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") wählen. Symbol. Geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann den zugehörigen Link.  
+Sie finden die Liste der Anleitungen für die Unterstützte Einrichtung auch, wenn Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") wählen. Symbol, geben Sie **Unterstützte Einrichtung** ein und wählen Sie dann den entsprechenden Link.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
 ## <a name="get-started"></a>Erste Schritte
 
-Ab 2021 Veröffentlichungszyklus 1, wenn Sie sich zum ersten Mal anmelden oder eine neue Firma gründen, führt Sie die Checkliste **Erste Schritte** durch die Schritte, um Sie für das Geschäft vorzubereiten. Die Schritte variieren je nach Land und branchenspezifischen Funktionen, die Sie Ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzugefügt haben.  
+Wenn Sie sich zum ersten Mal anmelden oder eine neue Firma gründen, führt Sie die Checkliste **Erste Schritte** durch die Schritte, die Sie zur Geschäftsfähigkeit führen. Die Schritte variieren je nach Land und branchenspezifischen Funktionen, die Sie Ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzugefügt haben. Ab 2021 Veröffentlichungszyklus 2, wenn Sie sich zum ersten Mal bei der CRONUS Demonstrationsfirma anmelden, ist Ihre Startseite für Ihre ersten Erfahrungen optimiert. Wenn Sie lieber mehr Links zu mehr Seiten sehen möchten, wechseln Sie einfach in die Rolle des Business Managers. Weitere Informationen finden Sie unter [Grundeinstellungen ändern](ui-change-basic-settings.md).  
 
 Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie jedoch in Betracht ziehen, ob andere Anleitungen zur unterstützten Einrichtung auf der Liste Ihnen helfen können.
 
@@ -43,7 +43,7 @@ Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt ist, wähl
 >
 > Wenn Sie sich zum ersten Mal anmelden, nutzen Sie die Umgebung **Standard**. Weitere Informationen finden Sie unter [Ändern Sie, welche Funktionen angezeigt werden](ui-experiences.md).
 
-Wenn Sie einen Leitfaden für das unterstützte Setup ausgeführt haben, wird er als **Abgeschlossen** markiert. <!--VERIFY-->  
+Wenn Sie einen Leitfaden für das unterstützte Setup ausgeführt haben, wird er als **Abgeschlossen** markiert.  
 
 ## <a name="teaching-tips-and-tours"></a>Unterrichtstipps und Touren
 
@@ -80,13 +80,18 @@ Wenn Benutzer in Microsoft 365 erstellt werden, können sie in die Seite **Benut
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Aktionen** auf der Homepage, um rasch ein neues Verkaufsangebot, eine Verkaufsrechnung, einen Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen.
+Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Aktionen** auf der Homepage, um rasch ein neues Verkaufsangebot, eine Verkaufsrechnung, einen Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen. Schauen Sie sich die [Schnellstart](quick-start-business-central.md) Artikel an, die Ihnen bei den ersten Schritten helfen.  
 
 ## <a name="see-also"></a>Siehe auch
 
+[Business Central Schnellstarts](quick-start-business-central.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
+[Eingabehilfe und Tastenkombinationen](ui-accessibility.md)  
+[Testversionen und Abonnements](across-preview.md)  
+[Geschäftsfunktionen](across-business-functionality.md)  
 [Berechtigungen an Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)]-Testversionen und Abonnements](across-preview.md)  
+[Suchen Sie im Hilfebereich](product-help-and-support.md#search-in-the-help-pane)  
 [Ressourcen für Hilfe und Support](product-help-and-support.md)  
 [Microsoft Learn-Website](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7711fc0dc0ad7256f6ed58962634e39bbad86cfe
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440541"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587759"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Mit Microsoft Dataverse verbinden
 
@@ -107,9 +107,70 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
+## <a name="customize-the-match-based-coupling"></a>Anpassen der abgleichsbasierten Kopplung
+
+Ab dem Veröffentlichungszyklus 2 im Jahr 2021 können Sie Datensätze in [!INCLUDE [prod_short](includes/prod_short.md)] und [!INCLUDE [cds_long_md](includes/cds_long_md.md)] auf der Grundlage von Abgleichskriterien koppeln, die vom Administrator definiert werden.  
+
+Der Algorithmus für den Abgleich von Datensätzen kann an den folgenden Stellen in [!INCLUDE [prod_short](includes/prod_short.md)] gestartet werden:
+
+* Listenseiten, die Datensätze anzeigen, die mit [!INCLUDE [cds_long_md](includes/cds_long_md.md)] synchronisiert sind, wie z.B. die Seiten Kunden und Artikel.  
+
+    Markieren Sie mehrere Datensätze und wählen Sie dann die Aktion **Bezogen**, wählen Sie **Dataverse**, wählen Sie **Koppeln** und dann **Abgleichsbasiertes Koppeln**.
+
+    Wenn der abgleichsbasierte Kopplungsprozess von einer Stammdatenliste aus gestartet wird, wird ein Kopplungsauftrag direkt nach der Auswahl der Kopplungskriterien eingeplant.  
+* Die **Dataverse Full Synch. Überprüfung** Seite.  
+
+    Wenn der Vollsynchronisationsprozess feststellt, dass Sie sowohl in [!INCLUDE [prod_short](includes/prod_short.md)] als auch in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] Datensätze abgekoppelt haben, erscheint ein **Kopplungskriterien auswählen** Link für die entsprechende Integrationstabelle.  
+
+    Sie können den Prozess **Vollständige Synchronisierung ausführen** von den Seiten **Dataverse Verbindungseinrichtung** und **Dynamics 365 Verbindungseinrichtung** aus starten und er kann als Schritt in der Anleitung zur unterstützten Einrichtung **Einrichten einer Verbindung zu Dataverse** eingeleitet werden, wenn Sie sich dafür entscheiden, die Einrichtung abzuschließen und am Ende die vollständige Synchronisierung auszuführen.  
+
+    Wenn der abgleichsbasierte Kopplungsprozess von der **Dataverse Vollsynch. Review** Seite gestartet wird, wird direkt nach Abschluss der Einrichtung ein Kopplungsauftrag geplant.  
+* Die Liste **Integrationstabellenzuordnungen**.  
+
+    Markieren Sie eine Zuordnung, wählen Sie die Aktion **Koppeln** und dann **Abgleichsbasierte Kopplung**.
+
+    Wenn der abgleichsbasierte Kopplungsprozess von einer Integrationstabellen-Zuordnung aus gestartet wird, wird ein Kopplungsauftrag für alle nicht gekoppelten Datensätze in dieser Zuordnung ausgeführt. Wurde er für einen Satz ausgewählter Datensätze aus der Liste ausgeführt, wird er nur für die ausgewählten nicht gekoppelten Datensätze ausgeführt.
+
+In allen drei Fällen öffnet sich die Seite **Kopplungskriterien auswählen**, auf der Sie die entsprechenden Kopplungskriterien festlegen können. Auf dieser Seite können Sie die Kopplung mit den folgenden Aufgaben anpassen:
+
+* Legen Sie fest, nach welchen Feldern die Datensätze und Entitäten von [!INCLUDE [prod_short](includes/prod_short.md)] und [!INCLUDE [cds_long_md](includes/cds_long_md.md)] abgeglichen werden sollen, und wählen Sie außerdem, ob beim Abgleich dieses Feldes die Groß- und Kleinschreibung beachtet werden soll oder nicht.  
+
+* Legen Sie fest, ob nach dem Koppeln von Datensätzen eine Synchronisierung ausgeführt werden soll. Wenn der Datensatz eine bidirektionale Zuordnung verwendet, wählen Sie außerdem, was geschehen soll, wenn auf der Seite **Aktualisierungskonflikte auflösen** Konflikte aufgelistet werden.  
+
+* Legen Sie die Reihenfolge fest, in der die Datensätze durchsucht werden, indem Sie eine *Übereinstimmungspriorität* für die entsprechenden Zuordnungsfelder angeben. Die Übereinstimmungsprioritäten bewirken, dass der Algorithmus in einer Anzahl von Iterationen nach einer Übereinstimmung sucht, die durch die **Übereinstimmungspriorität** Feldwerte in aufsteigender Reihenfolge definiert ist. Ein leerer Wert im Feld **Übereinstimmungspriorität** wird als Priorität 0 interpretiert, sodass Felder mit diesem Wert zuerst berücksichtigt werden.  
+
+* Legen Sie fest, ob eine neue Entitätsinstanz in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] erstellt werden soll, falls anhand der Abgleichskriterien keine eindeutige, ungekoppelte Übereinstimmung gefunden werden kann. Um diese Funktionalität zu aktivieren, wählen Sie die Aktion **Neu erstellen, wenn keine Übereinstimmung gefunden werden kann**.  
+
+### <a name="view-the-results-of-the-coupling-job"></a>Anzeigen der Ergebnisse des Kopplungsauftrags
+
+Um die Ergebnisse des Kopplungsauftrags anzuzeigen, öffnen Sie die Seite **Integrationstabellenzuordnungen**, wählen Sie die entsprechende Zuordnung aus, wählen Sie die Aktion **Kopplung** und dann die Aktion **Protokoll des Kopplungsauftrags**.  
+
+Wenn es Datensätze gibt, die nicht gekoppelt werden konnten, können Sie den Wert in der Spalte Fehlgeschlagen anzeigen. Daraufhin öffnet sich eine Fehlerliste, die angibt, warum die Datensätze nicht gekoppelt werden konnten.  
+
+Eine fehlgeschlagene Kopplung tritt häufig in den folgenden Fällen auf:
+
+* Es wurden keine passenden Kriterien definiert
+
+    Führen Sie in diesem Fall die abgleichsbasierte Kopplung erneut aus, aber denken Sie daran, Kopplungskriterien zu definieren.
+
+* Für eine Reihe von Datensätzen wurde auf der Grundlage der gewählten übereinstimmenden Felder keine Übereinstimmung gefunden
+
+    Wiederholen Sie in diesem Fall die Kopplung mit einigen anderen übereinstimmenden Feldern.
+
+* Für eine Reihe von Datensätzen wurden mehrere Übereinstimmungen gefunden, basierend auf den ausgewählten übereinstimmenden Feldern  
+
+    Wiederholen Sie in diesem Fall die Kopplung mit einigen anderen übereinstimmenden Feldern.
+
+* Es wurde eine einzelne Übereinstimmung gefunden, aber der passende Datensatz ist bereits mit einem anderen Datensatz in [!INCLUDE [prod_short](includes/prod_short.md)] gekoppelt.  
+
+    Wiederholen Sie in diesem Fall die Kopplung mit einigen anderen übereinstimmenden Feldern oder untersuchen Sie, warum die Entität [!INCLUDE [cds_long_md](includes/cds_long_md.md)] mit diesem anderen Datensatz in [!INCLUDE [prod_short](includes/prod_short.md)] gekoppelt ist.
+
+> [!TIP]
+> Damit Sie sich einen Überblick über den Fortschritt der Kopplung verschaffen können, zeigt das Feld **Gekoppelt mit Dataverse** an, ob ein bestimmter Datensatz mit einer [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-Entität gekoppelt ist oder nicht. Sie können die Liste der Datensätze, die mit [!INCLUDE [cds_long_md](includes/cds_long_md.md)] synchronisiert werden, nach diesem Feld filtern.
+
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Aktualisieren von Verbindungen von Business Central Online zur Verwendung der zertifikatsbasierten Authentifizierung
 > [!NOTE]
-> Dieser Abschnitt ist nur für Business Central Online-Mandanten relevant, die von Microsoft gehostet werden. Online-Mandanten, die von ISVs gehostet werden, und lokale Installationen sind davon nicht betroffen.
+> Dieser Abschnitt ist nur für [!INCLUDE[prod_short](includes/prod_short.md)] Online-Mandanten relevant, die von Microsoft gehostet werden. Online-Mandanten, die von ISVs gehostet werden, und lokale Installationen sind davon nicht betroffen.
 
 Im April 2022 veraltet [!INCLUDE[cds_long_md](includes/cds_long_md.md)] den Office365-Authentifizierungstyp (Benutzername/Kennwort). Weitere Informationen finden Sie unter [Abkündigung des Office365-Authentifizierungstyps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Zusätzlich veraltet [!INCLUDE[prod_short](includes/prod_short.md)] im März 2022 die Verwendung der Client-Geheimnis-basierten Service-to-Service-Authentifizierung für Online-Mandanten und erfordert die Verwendung der zertifikatsbasierten Service-to-Service-Authentifizierung für Verbindungen zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] Online-Mandanten, die von ISVs gehostet werden, und lokale Installationen können weiterhin die Authentifizierung über den geheimen Clientschlüssel verwenden, um eine Verbindung zu [!INCLUDE[cds_long_md](includes/cds_long_md.md)] herzustellen.
 

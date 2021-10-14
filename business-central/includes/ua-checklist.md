@@ -4,11 +4,11 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cc34b3d65deb9ede0e8c209b0bf6e180ef4148f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8a1f49849d6f1b5ef592b2b74125c5e93174c1e6
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788550"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588426"
 ---
-Ab 2021 Veröffentlichungszyklus 1 wird die Checkliste **Erste Schritte** Ihnen beim Einrichten der wichtigsten Informationen helfen.  
+Die **Checkliste Erste Schritte** kann Ihnen helfen, die wichtigsten Informationen festzulegen.  

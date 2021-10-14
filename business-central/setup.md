@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cbd8a674945fa5c33d502cffb865677c66bce39
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441422"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588476"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Überblick der Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] enthält Standardkonfigurationen für die meisten Geschäftsprozesse, aber Sie können die Konfiguration ändern, um sie an die Bedürfnisse Ihrer Organisation anzupassen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] enthält Standardkonfigurationen für die meisten Geschäftsprozesse, aber Sie können die Konfiguration ändern, um sie an die Bedürfnisse Ihrer Organisation anzupassen. Die [Business Central Schnellstart](quick-start-business-central.md) Artikel können Ihnen helfen, die ersten Schritte zu unternehmen, um [!INCLUDE [prod_short](includes/prod_short.md)] zu Ihrem eigenen zu machen. Dieser Artikel bietet einen Überblick darüber, wie Sie [!INCLUDE [prod_short](includes/prod_short.md)] für Ihr Unternehmen konfigurieren können.  
 
 Wir haben einige Firmendaten für Sie erstellt, beispielsweise Ihren Kontenplan mit Kontensummen vorausgefüllt, die zur Verwendung bereit sind. Sie können den Kontenplan selbstverständlich ändern und Ihren persönlichen Anforderungen anzupassen. Weitere Informationen finden Sie unter [Finanzen](finance.md).
 
@@ -76,7 +76,8 @@ Einige Bereiche erfordern, dass Sie ein Administrator Ihres Abonnement [!INCLUDE
 [Logistik](warehouse-manage-warehouse.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Neue Unternehmen anlegen in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md)  
+[Vorbereiten auf die Geschäftsabwicklung](ui-get-ready-business.md)  
+[Business Central Schnellstarts](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

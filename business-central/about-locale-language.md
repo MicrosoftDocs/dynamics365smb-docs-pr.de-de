@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776447"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588401"
 ---
 # <a name="changing-language-and-region"></a>Ändern der Sprache und der Region
 
@@ -33,7 +33,7 @@ Die Änderung der Texte in den Daten der Anwendung ist kein Bestandteil der Mult
 > [!NOTE]  
 > Da  [!INCLUDE[prod_short](includes/prod_short.md)] nur einen Zeichensatz für Daten unterstützt. Daher werden einige Zeichen in Ihrer Umgebung möglicherweise nicht unterstützt und beim Abrufen von Daten, die mit einem anderen Zeichensatz eingegeben wurden, können möglicherweise Probleme auftreten. Ihre Umgebung unterstützt möglicherweise nur englische und russische Zeichen, und wenn Sie Daten in einer anderen Sprache eingeben, werden diese möglicherweise nicht ordnungsgemäß gespeichert. Wenden Sie sich an den zuständigen Systemadministrator, und erkundigen Sie sich nach den Sprachen, die von Ihrer Installation für Ihr [!INCLUDE[prod_short](includes/prod_short.md)] unterstützt werden.  
 
-## <a name="changing-the-region"></a>Ändern der Region
+## <a name="changing-your-region-setting"></a>Ändern der Einstellungen für Ihre Region
 Die Region unterscheidet sich von der Sprache und von gesetzlichen Vorschriften in den lokalen Märkten. Die Region bestimmt, wie Ihre Daten in Bezug auf das Kommatrennzeichen, die Ausrichtung nach links oder rechts und auf bestimmte andere Einstellungen dargestellt werden. Die Region bestimmt auch einige der Systemelemente im Browser, z. B. die Aktion zum Erstellen eines neuen Artikels in einer Liste.  
 
 Sie können die Region in der Browserregisterkarte ändern, mit der Sie in [!INCLUDE[prod_short](includes/prod_short.md)] arbeiten. Die Änderung bezieht sich nur auf Sie und die nicht die anderer Benutzer in Ihrem Unternehmen.  Die Auswahl der Region auf Ihre Einstellung in Ihrem Office-Profil zurückgesetzt wird, wenn Ihr Administrator Benutzer von Microsoft 365 mit [!INCLUDE[prod_short](includes/prod_short.md)] synchronisiert.
@@ -42,6 +42,11 @@ Sie können die Region in der Browserregisterkarte ändern, mit der Sie in [!INC
 > Wenn Sie die Region ändern, wird eine eine lange Liste von Sprachen und Regionen angezeigt. Die Sprache wird jedoch nicht von der Auswahl der Region beeinflusst.  
 
 Wechseln Sie zur Seite **Meine Einstellungen**, um die Region zu ändern. Weitere Informationen finden Sie unter [Ändern der Grundeinstellungen](ui-change-basic-settings.md).  
+
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Festlegen der Region für Kunden, Kontakte und Kreditor
+Einige Unternehmen verwenden einen externen Dienst, der die Adressdaten in ihrem Land oder ihrer Region validiert. Wenn Sie jedoch Adressdaten aktualisieren müssen, ist der strukturierte Ansatz, den diese Dienste verwenden, für manche Szenarien nicht immer das Richtige. Business Central bietet eine flexiblere Möglichkeit zur Eingabe von Adressdaten.
+
+Wenn Sie auf der Seite **Hauptbuchhaltungs-Einrichtung** den Schalter **Länder-/Regionscode in Adresse erforderlich** aktivieren, werden bei Änderungen im Feld **Länder-/Regionscode** bei Adressen für Kunden, Kontakte oder Kreditor die Werte in anderen Adressfeldern zurückgesetzt.
 
 ## <a name="application-version"></a>Anwendungsversionen
 

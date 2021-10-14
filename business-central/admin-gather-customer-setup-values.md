@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f0f60976283aeba5a81c9e77e329e1ba91c82ea9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443893"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589257"
 ---
 # <a name="gather-customer-setup-values"></a>Sammeln von Werten für die Einrichtung von Debitoren
 Verwenden Sie den Einrichtungsfragebogen, um Ihre Implementierungsarbeitslast zu verringern, indem Sie die Aufgabe des Einrichtens neuer Mandanten rationalisieren. Sie können den Einrichtungsfragebogen in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen und Ihrem Debitor als Excel (.xls) oder XML-Datei zur Verfügung stellen.  
@@ -32,7 +32,7 @@ Sie können einen Fragebogen verwenden, um den Umfang und die Anforderungen der 
 
 <!-- A configuration questionnaire has the following structure
 * The name of the questionnaire itself
-* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company information. Typically, configuration questionnaires have many question groups
 * Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  Sie können Fragebögen nur für Setup-Typ-Tabellen erstellen. Beispielsweise können Sie das Werkzeug verwenden, um Informationen auf den folgenden Seiten bereitzustellen:  
@@ -50,9 +50,9 @@ Sie können einen Fragebogen verwenden, um den Umfang und die Anforderungen der 
 -   Logistik Einrichtung  
 
 > [!NOTE]  
->  Um eine vollständige Liste der Einrichtungstabellen zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung** ein und wählen Sie dann den entsprechenden Link. Um den Umfang der Migration von Daten zu ermitteln, verwenden Sie Migrationsfunktionen. Weitere Informationen finden Sie unter [Gewusst wie: Debitorendaten zusammenführen](admin-migrate-customer-data.md).  
+>  Um eine vollständige Liste der Einrichtungstabellen zu sehen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet](media/ui-search/search_small.png "Was möchten Sie tun?"). Symbol. Geben Sie **Einrichtung** ein und wählen Sie dann den entsprechenden Link. Um den Umfang der Migration von Daten zu ermitteln, verwenden Sie Migrationsfunktionen. Weitere Informationen finden Sie unter [Gewusst wie: Debitorendaten zusammenführen](admin-migrate-customer-data.md).  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsfragebogen** ein, und wählen Sie den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 2.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsfragebogen** ein, und wählen Sie den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu**.   
 3. Geben Sie auf der Seite **Konfigurationsfragebogen** im Feld **Code** Folgendes ein... 
 <!--4. In the **Name** field, enter...
@@ -82,7 +82,7 @@ Sie können einen Fragebogen verwenden, um den Umfang und die Anforderungen der 
 5. Wählen Sie im Feld **Tabellen-ID** die ID der Tabelle aus, für die Sie Daten erfassen möchten. Das Feld **Tabellennamen** wird automatisch ausgefüllt.  
 6. Wählen Sie die **Fragen aktualisieren** Aktion aus. Jedes Feld in der Tabelle wird der Befragung mit einem Fragezeichen hinter seiner Beschriftung hinzugefügt.
 
-Sie können die Beschriftung neu formulieren, um zu verdeutlichen, wie die Frage beantwortet werden soll. Beispielsweise können Sie ein Feld mit der Bezeichnung "Name" so bearbeiten, dass seine Beschriftung "Wie ist der Name von zu erfassende Daten" <data being collected>  lautet. Sie können aucn eine Anleitung im Feld **Referenz** angeben, einschließlich einer URL auf einer Seite angeben, die zusätzliche Informationen angibt.  
+Sie können die Beschriftung neu formulieren, um zu verdeutlichen, wie die Frage beantwortet werden soll. Wenn ein Feld zum Beispiel „Name“ heißt, könnten Sie es so bearbeiten, dass es „Wie lautet der Name von \<data being collected\>.“ Sie können aucn eine Anleitung im Feld **Referenz** angeben, einschließlich einer URL auf einer Seite angeben, die zusätzliche Informationen angibt.  
 
 Bei Bedarf können Sie Fragen auch löschen, die nicht im Fragebogen berücksichtigt werden sollen.  
 
@@ -98,7 +98,7 @@ Verwenden Sie den Einrichtungsfragebogen, um eine detaillierte Erörterung der s
 >  Sie können auch einen eigenen Einrichtungsfragebogen erstellen, der ihre speziellen Bedürfnisse erfüllt.  
 
 1. Wählen Sie im Feld Mandanten den gewünschten Mandanten aus, für dten.en Sie den Fragebogen beenden möchten.
-2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsfragebogen** ein und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 3.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsfragebogen** ein und wählen Sie dann den zugehörigen Link.  
 3. Wählen Sie die Befragung für Unternehmen, und wählen die **In Excel exportieren** Aktion, optional die **In XML exportieren** Aktion aus.
 4. Lassen Sie den Mandanten den Konfigurationsfragebogen ausfüllen, indem Sie die Antworten in das Excel-Arbeitsblatt eingeben. Es gibt Arbeitsblätter für jeden der Fragenbereiche, die für die Befragung erstellt wurden.   
 5. Speichern Sie das Excel-Arbeitsblatt als *XML-Daten*. Wählen Sie die **Aus XML importieren** Aktion aus, und wählen Sie die XLSX-Datei mit der Antworten des Debitors aus.
@@ -131,15 +131,16 @@ Nachdem Sie Ihre Prüfung abgeschlossen haben, sind die Daten bereit, um zur Dat
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Anwenden von Antworten aus dem Konfigurationsfragebogen
 Nachdem Sie und Informationen aus einem Konfigurationsfragebogen importiert und validiert haben, können Sie die Einrichtungsdaten übertragen, oder Sie auf die entsprechenden Tabellen in der [!INCLUDE[prod_short](includes/prod_short.md)]-Datenbank anwenden.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Konfigurationsfragebogen** ein und wählen Sie dann den zugehörigen Link. Die Seite **Profilbefragung konfigurieren** wird geöffnet.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 4.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol, geben Sie **Konfigurationsfragebogen** ein und wählen Sie dann den entsprechenden Link. Die Seite **Profilbefragung konfigurieren** wird geöffnet.  
 2. Wählen Sie einen Konfigurationsfragebogen aus der Liste und wählen Sie **Liste bearbeiten** aus.  
 3. Sie können Antworten auf eine von zwei Arten anwenden.  
 
 - Um den gesamten Fragebogen anzuwenden, wählen Sie auf der Registerkarte Vorgang die Option **Antworten übernehmen**.  
 - Um Antworten aus einem bestimmten **Fragenbereich** anzuwenden, aktivieren Sie **Fragebereiche**, wählen Sie einen **Fragenbereich** aus der Liste, und wählen Sie anschließend auf der Registerkarte Start die Option **Antworten anwenden** aus.  
 
-### <a name="to-verify-that-answers-have-been-applied-successfully"></a>So überprüfen Sie, ob Antworten erfolgreich angewendet wurden  
-1. Prüfen Sie die Einrichtungsseiten für die verschiedenen Funktionsbereiche aus [!INCLUDE[prod_short](includes/prod_short.md)]. Zum Lokalisieren der Seite wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie den Namen der Einrichtungsseite ein, und wählen Sie dann den zugehörigen Link.  
+### <a name="to-verify-that-answers-have-been-applied-successfully"></a>So überprüfen Sie, ob Antworten erfolgreich angewendet wurden
+
+1. Prüfen Sie die Einrichtungsseiten für die verschiedenen Funktionsbereiche aus [!INCLUDE[prod_short](includes/prod_short.md)]. Um die Seite zu finden, wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion 5](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie den Namen der Einrichtungsseite ein und wählen Sie dann den zugehörigen Link.  
 2. Vergewissern Sie sich, dass die Felder mit den richtigen Daten aus den verschiedenen Fragebereichen im Kofigurationsfragebogen gefüllt wurden.  
 
 Sie haben nun die Einrichtung mit den Geschäftsinformationen und den Regeln des Debitors konfiguriert.

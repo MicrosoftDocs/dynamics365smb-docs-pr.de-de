@@ -7,20 +7,20 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: e84f9df3d688ccd6e6355f90e3bf76069b371d83
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 14dd0aa40524ca1e261b0e57aa62bfcccd80afd4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341358"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588201"
 ---
 # <a name="welcome-to-prod_long"></a>Willkommen bei [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ist eine Unternehmensverwaltungslösung für kleine und mittelständische Organisationen und dient zum Automatisieren und Optimieren von Geschäftsprozessen. Dank der hohen Flexibilität sowie der umfangreichen Features ermöglicht [!INCLUDE[prod_short](includes/prod_short.md)] Unternehmen die Verwaltung ihrer Geschäftsbereiche – einschließlich Finanzen, Produktion, Vertrieb, Versand, Projektverwaltung und Services. Die Anwendung kann problemlos um weitere Funktionen erweitert werden, die für den jeweiligen Geschäftsbereich benötigt werden und die selbst für hoch spezialisierte Branchen angepasst werden können.  
 
-Wenn Sie bereits über [!INCLUDE[prod_short](includes/prod_short.md)] verfügen, melden Sie sich bei [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com) an. Sonst [verschaffen Sie sich einen Überblick](https://dynamics.microsoft.com/business-central/overview/),  [Nehmen Sie an der Führung teil](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), und [starten Sie eine kostenlose Testversion](https://go.microsoft.com/fwlink/?linkid=847861). Weitere Informationen zum Onboarding zu [!INCLUDE[prod_short](includes/prod_short.md)] finden Sie unter [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md).  
+Wenn Sie bereits über [!INCLUDE[prod_short](includes/prod_short.md)] verfügen, melden Sie sich bei [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com) an. Sonst [verschaffen Sie sich einen Überblick](https://dynamics.microsoft.com/business-central/overview/),  [Nehmen Sie an der Führung teil](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), und [starten Sie eine kostenlose Testversion](https://go.microsoft.com/fwlink/?linkid=847861). Schauen Sie sich die [Schnellstart-Artikel](quick-start-business-central.md) an, die Ihnen helfen, [!INCLUDE [prod_short](includes/prod_short.md)] kennen zu lernen. Weitere Informationen zum Onboarding zu [!INCLUDE[prod_short](includes/prod_short.md)] finden Sie unter [Vorbereitung für die Geschäftstätigkeit](ui-get-ready-business.md).  
 
 > [!TIP]
 > Sind Sie vom Programm hierher gelangt [!INCLUDE [prod_short](includes/prod_short.md)]? Wenn Sie nicht sicher sind, wo Sie das finden, wonach Sie suchen, können Sie im Navigationsbereich links **Nach Titeln filtern** oder das Feld **Suchen** oben im Browserfenster verwenden.  
@@ -102,6 +102,7 @@ Um einen RSS-Feed (Really Simple Syndication) über alle Aktualisierungen der In
 ## <a name="see-also"></a>Weitere Informationen
 
 [Dynamics 365 Business Central am Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Business Central Schnellstarts](quick-start-business-central.md)  
 [Erste Schritte mit Business Central](ui-get-ready-business.md)  
 [Besuchen Sie unsere Videobibliothek](across-videos.md)  
 [Anpassen [!INCLUDE[prod_short](includes/prod_short.md)] über Erweiterungen](ui-extensions.md)  

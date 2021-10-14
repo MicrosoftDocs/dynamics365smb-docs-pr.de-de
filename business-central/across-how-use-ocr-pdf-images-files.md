@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb71c71ec67514e4ed2df02a83afe2a56e36868e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5defde47d21492c104c767f21165573221a1e51
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440949"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587530"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Verwenden von OCR, um PDF und Bilddateien in elektronische Belege umzuwandeln
 Mithilfe eines externen OCR-Dienstes (optische Zeichenerkennung) können Sie aus PDF- oder Bilddateien, die Sie von Ihren Handelspartnern erhalten, elektronische Belege erstellen, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] in Belegdatensätze konvertieren können. Wenn Sie beispielsweise eine Rechnung in PDF-Format von Ihrem Kreditor erhalten, können Sie diese über die Seiter **Eingehende Belege** zum OCR-Dienst senden. Dies wird im ersten Verfahren beschrieben.
@@ -69,11 +69,11 @@ Jetzt können Sie fortfahren, manuelle oder automatisch Belegdatensätze für di
 Nachfolgend wird beschrieben, wie ein Einkaufsrechnungsdatensatz von Rechnungsrabatten des Kreditors erstellt, die als elektronischer Beleg vom OCR-Dienst erhalten. Dieser Vorgang ist derselbe, wenn Sie beispielsweise eine Fibu Buch.-Blattzeile von einem Ausgabenenwareneingang oder eine Verkaufsreklamation von einem Debitoren erstellen.
 
 > [!NOTE]  
->   Die Felder **Beschreibung** und **Nummer** Felder in den erstellten Belegzeilen werden nur ausgefüllt, wenn Sie zuerst den Text aus dem OCR-Beleg zu den zwei Felder in [!INCLUDE[prod_short](includes/prod_short.md)] zugeordnet haben. Sie können diese Zuordnung als Artikel-Referenzen für Belegzeilen vom Typ "Artikel" durchführen. Weitere Informationen finden Sie unter [Verwenden von Artikelquerverweisen](inventory-how-use-item-cross-refs.md). Sie können auch die Text-zu-Kontozuordnungsfunktion verwenden. Weitere Informationen finden Sie im Abschnitt [So ordnen Sie Text zu einem eingehenden Beleg einem bestimmten Kreditor, Sachkonto oder Bankkonto zu](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   Die Felder **Beschreibung** und **Nummer** Felder in den erstellten Belegzeilen werden nur ausgefüllt, wenn Sie zuerst den Text aus dem OCR-Beleg zu den zwei Felder in [!INCLUDE[prod_short](includes/prod_short.md)] zugeordnet haben. Sie können diese Zuordnung als Artikelreferenzen für Belegzeilen vom Typ Artikel vornehmen. Weitere Informationen finden Sie unter [Verwendung von Element-Referenzen](inventory-how-use-item-cross-refs.md). Sie können auch die Text-zu-Kontozuordnungsfunktion verwenden. Weitere Informationen finden Sie im Abschnitt [So ordnen Sie Text zu einem eingehenden Beleg einem bestimmten Kreditor, Sachkonto oder Bankkonto zu](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Wählen Sie die Zeile für den eingehenden Beleg aus, und wählen Sie die **Beleg erstellen**-Aktion aus.
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] wird auf der Basis der Informationen im elektronischen Kreditorenbeleg, den Sie vom OCR-Dienst erhalten haben, die Einkaufsrechnung erstellt. Informationen werden in die neue Einkaufsrechnung auf Grundlage der Zuordnung eingefügt, die Sie als Referenz oder als Text-zu-Kontozuordnung definiert haben.
+In [!INCLUDE[prod_short](includes/prod_short.md)] wird auf der Basis der Informationen im elektronischen Kreditorenbeleg, den Sie vom OCR-Dienst erhalten haben, die Einkaufsrechnung erstellt. Die Informationen werden in der neuen Einkaufsrechnung auf der Grundlage der Zuordnung eingefügt, die Sie als Referenz oder als Text-zu-Konto-Zuordnung definiert haben.
 
 Überprüfungsfehler, die üblicherweise mit falschen oder fehlenden Stammdaten in [!INCLUDE[prod_short](includes/prod_short.md)] zusammenhängen, werden im Inforegister **Fehler und Warnungen** angezeigt. Weitere Informationen finden Sie unter [So behandeln Sie Fehler beim Erhalt elektronischer Belege](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 

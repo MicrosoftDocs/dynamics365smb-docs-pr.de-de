@@ -1,7 +1,6 @@
 ---
 title: Lagerbestand verwalten
 description: In diesem Thema wird beschrieben, wie Sie die physischen Produkte, die Sie in Zahlung nehmen, verwalten, indem Sie eine Karte für Lagerartikel erstellen.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -11,14 +10,15 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 022d48ad3069729736794976301db7fe2c6a6b47
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 9290d61245eec3331be315adf00e3e71a7fb5e97
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482272"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587890"
 ---
-# <a name="how-to-manage-inventory"></a>So verwalten Sie den Bestand
+# <a name="manage-inventory"></a>Lagerbestand verwalten
+
 Für jedes physische Produkt, mit dem Sie handeln, müssen Sie eine Artikelkarte vom Typ **Lagerbestand** erstellen. Artikel, die Sie Debitoren anbieten, aber nicht im Lager führen, können als Katalogartikel erfassen werden und Sie können Sie bei Bedarf in Lagerartikel konvertieren. Sie können die Menge eines Artikels im Lager erhöhen oder vermindern, indem Sie direkt in den Artikelposten buchen, beispielsweise nach einer physischen Zählung oder falls keine erworbenen Mengen erfasst wurden.
 
 Lagerzugänge und Abgänge werden natürlich auch erfasst, wenn Sie Einkaufs- und Verkaufsbelege buchen. Weitere Informationen finden Sie unter [Erfassen eines Einkaufs](purchasing-how-record-purchases.md), [Produkte verkaufen](sales-how-sell-products.md) und [Fakturieren eines Verkaufs](sales-how-invoice-sales.md). Umlagerungen zwischen Lagerorten ändert Lagerbestandsmengen in den Lagern Ihres Mandanten.   
@@ -54,7 +54,7 @@ In der folgenden Tabelle sind verwandte Aufgaben aufgeführt.
 |Richten Sie die Artikelverfolgung ein, damit Sie die Seriennummern von Artikeln verfolgen können, um beispielsweise Artikel im Falle von Rückrufen zu verfolgen.|[Artikelverfolgung mit Serien-, Chargen- und Paketnummern einrichten](inventory-how-setup-item-tracking.md)|
 |Weisen Sie jedem ausgehenden oder eingehenden Dokument oder jeder Buchungsblattzeile Seriennummern oder Chargennummern zu.|[Arbeiten mit Chargennummern und Seriennummern](inventory-how-work-item-tracking.md)|
 |Suchen Sie, wo eine Serien- oder Chargennummer in der gesamten Lieferkette verwendet wurde, z. B. in Rückrufsituationen.|[Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)|
-|Richten Sie eine eigene Beschreibung des Kreditors oder Debitors für einen Artikel ein, sodass Sie die Artikelbeschreibung in Geschäftsbelegen schnell einfügen können.|[Artikelreferenzen verwenden](inventory-how-use-item-cross-refs.md)|
+|Richten Sie eine eigene Beschreibung des Kreditors oder Debitors für einen Artikel ein, sodass Sie die Artikelbeschreibung in Geschäftsbelegen schnell einfügen können.|[Verwendung von Element-Referenzen](inventory-how-use-item-cross-refs.md)|
 |Artikel sperren, damit Sie nicht auf Verkaufs- oder Einkaufszeilen eingetragen oder in einer Transaktion gebucht werden können.|[Artikel sperren](inventory-how-block-items.md)|
 |Verwalten von Geschäften in den Verkaufsbüros, in den Einkaufsabteilungen oder in den Fabrikplanungsbüros von mehreren Standorten.|[Arbeiten mit Zuständigkeitseinheiten](inventory-responsibility-centers.md)|
 |Verwenden Sie Ressourcen mit spezifischen Fähigkeiten für verschiedene Services und Serviceelemente.|[Ressourcenzuweisung einrichten](service-how-setup-resource-allocation.md)|

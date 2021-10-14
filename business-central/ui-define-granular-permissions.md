@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443717"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547023"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Zuweisen von Berechtigungen zu Benutzern und Gruppen
 
@@ -158,6 +158,9 @@ In jedem der fünf Zugriffstypfelder **Leseberechtigung**, **Einfügeberechtigun
 |**Ja**|Der Benutzer kann die Aktion an dem fraglichen Objekt ausführen.|Am höchsten|
 |**Indirekt**|Der Benutzer kann die Aktion an dem fraglichen Objekt nur über ein anderes zugehöriges Objekt ausführen, auf das der Benutzer vollständig zugreifen kann. Weitere Informationen zu indirekten Berechtigungen finden Sie unter [Berechtigungseigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) in der Entwickler- und IT-Pro-Hilfe|Zweithöchste|
 |**"Leer"**|Der Benutzer kann die Aktion an dem fraglichen Objekt nicht ausführen.|Am niedrigsten|
+
+> [!IMPORTANT]
+> Seien Sie vorsichtig, wenn Sie **Berechtigung einfügen** oder **Berechtigung ändern** auf die Tabelle **9001Benutzergruppenmitglied** oder **9003Benutzergruppenberechtigungssatz** festlegen. Alle Benutzer, die dem Berechtigungssatz zugeordnet sind, könnten sich möglicherweise selbst anderen Benutzergruppen zuordnen, wodurch sie wiederum unbeabsichtigte Berechtigungen erhalten könnten.
 
 ### <a name="example---indirect-permission"></a>Beispiel - Indirekte Berechtigungen
 

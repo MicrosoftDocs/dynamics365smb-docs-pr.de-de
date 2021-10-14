@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 3a41e7815b06c9b984465057ca20ac7ea79194c4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 97a83a4065ceede0bf7040c33f41101c53224874
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435173"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587652"
 ---
 # <a name="set-up-data-exports-for-a-digital-audit-gobdgdpdu-in-the-german-version"></a>Datenexporte für eine digitale Betriebsprüfung (GoBD/GDPdU) in der deutschen Version festlegen
 
@@ -23,7 +23,7 @@ Sie müssen die Exportdatensatzquellen einrichten, um Daten für eine digitale P
 
 ## <a name="to-set-up-a-data-export"></a>So richten Sie einen GDPdU-Datenexport ein  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Datenexporte** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet 1.](../../media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Datenexporte** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Füllen Sie auf der Seite **Datenexporte** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -64,7 +64,7 @@ Danach müssen Sie die Quelle für die zu exportierenden Daten definieren.
     |**Periodenfeldnr.**|Geben Sie einen Filter an, für den das Feld zum Erstellen des XML-Dokuments verwendet wird und legen Sie das Startdatum und das Enddatum des Berichts fest.<br /><br /> Wenn Sie zum Beispiel die Tabelle **Sachposten** als Quelldatei für den Datenexport auswählen, können Sie eines der Datumsfelder auswählen, die in dieser Tabelle stehen.|  
     |**Tabellenfilter**|Geben Sie ein Feld an, für das Sie einen Filter festlegen möchten.<br /><br /> Auf der Seite **Tabellenfilter** geben Sie Filtereinstellungen in der Spalte **Feldfilter** ein.<br /><br /> Beispielsweise können Sie ein Feld angeben, das Informationen über den Betrag überträgt. Sie können ein Datumsfeld festlegen und dafür einen Filter setzen, wenn Sie in einem Zeitraum unterschiedliche Startdaten setzen möchten. Enddatum. Sie können ein Datumsfeld nicht angeben und dafür einen Filter festlegen, wenn dasselbe Feld bereits im Feld Perioden-Gebiet " verwendet wird.|  
     |**Feldnr. Datumsfilter**|Definieren Sie ein Filterfeld, wenn die Tabelle eines hat.<br /><br /> Wenn die Tabelle mehr als einen Datumsfilter hat, definieren Sie keinen in diesem Feld.|  
-    |**Behandlung von Datumsfiltern**|Geben Sie an, wie z. B. Datumsfilter bearbeitet werden sollen:<br /><br /> - <blank>: Kein Filter festgelegt.<br /><br /> - Periode: Verwenden Sie das angegebene Startdatum und das Enddatum.<br /><br /> - Nur Enddatum: Verwenden Sie das Enddatum der Stapelverarbeitung.<br /><br /> - Nur Startdatum: Verwenden Sie das Startdatum - 1 der Stapelverarbeitung.|  
+    |**Behandlung von Datumsfiltern**|Geben Sie an, wie z. B. Datumsfilter bearbeitet werden sollen:<br /><br /> - \<blank\>: Es ist kein Filter festgelegt.<br /><br /> - Periode: Verwenden Sie das angegebene Startdatum und das Enddatum.<br /><br /> - Nur Enddatum: Verwenden Sie das Enddatum der Stapelverarbeitung.<br /><br /> - Nur Startdatum: Verwenden Sie das Startdatum - 1 der Stapelverarbeitung.|  
     |**Exportdateiname**|Geben Sie den Namen des Arbeitsblattes an, in die die Daten exportiert werden sollen.<br /><br /> Wenn die Tabelle beispielsweise **Sachkonto** ist, kann der Wert des **Tabellennamen exportieren** **Sachkonto** sein, und der Wert des Felds **Exportdateiname** kann **Sachkonto.txt** sein.|  
     |**Schlüsselnr.**|Optional. Definieren Sie das Schlüsselfeld.|
 

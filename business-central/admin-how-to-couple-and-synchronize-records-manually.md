@@ -1,8 +1,6 @@
 ---
-title: Koppeln und Synchronisieren | Microsoft Docs
+title: Koppeln und Synchronisieren
 description: Die Synchronisierung einer Integrationstabellenzuordnung ermöglicht die Datensynchronisierung in allen Datensätzen in einer Tabelle in Business Central und der Dynamics 365 Sales-Tabellen, die gekoppelt sind.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 53b12b6ab7e53a20bb1b8fcc659b2f1454e85321
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e2b36b4b90e1cc348ef381a6d0f6145a87ed043
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779932"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588726"
 ---
-# <a name="coupling-and-synchronizing"></a>Koppeln und Synchronisieren
+# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Datensätze zwischen Dataverse und Business Central koppeln und synchronisieren
+
 Dieses Thema beschreibt, wie man einen oder mehrere Datensätze in [!INCLUDE[prod_short](includes/prod_short.md)] mit Datensätzen in Dataverse oder [!INCLUDE[crm_md](includes/crm_md.md)] koppelt. Durch das Koppeln der Datensätze können Sie Dataverse-Informationen aus [!INCLUDE[prod_short](includes/prod_short.md)] anzeigen und umgekehrt. Die Kopplung ermöglicht Ihnen außerdem, Daten zwischen den Datensätzen zu synchronisieren. Sie können vorhandene Datensätze koppeln, oder Sie erstellen und koppeln neue Datensätze.
 
 > [!Note]
@@ -48,6 +47,14 @@ Dieses Thema beschreibt, wie man einen oder mehrere Datensätze in [!INCLUDE[pro
 
 > [!Note]
 > Sie können einen einzelnen Datensatz von [!INCLUDE[crm_md](includes/crm_md.md)] nur dann automatisch synchronisieren, wenn **Synchronisieren nur gekoppelte Datensätze** deaktiviert ist und die Synchronisierungsrichtung auf der Seite **Integrationstabellenzuordnung** für den Datensatz auf Bidirektional oder Von Integrationstabelle eingestellt ist. Weitere Informationen finden Sie unter [Zuordnen der zu synchronisierenden Tabellen und Felder](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+
+## <a name="to-couple-multiple-records-using-match-based-coupling"></a>So koppeln Sie mehrere Datensätze mithilfe der abgleichsbasierten Kopplung
+
+Sie können die zu synchronisierenden Daten für eine Entität, z.B. einen Debitor oder einen Kontakt, angeben, indem Sie Datensätze auf der Grundlage von Übereinstimmungen koppeln. Sie können die Übereinstimmungen verfeinern, indem Sie bei der Suche zwischen Groß- und Kleinschreibung unterscheiden und jeder Übereinstimmung eine Priorität zuweisen. Wenn keine Übereinstimmung gefunden wird, können Sie auch angeben, dass Sie die Entität in Dataverse erstellen möchten. Weitere Informationen finden Sie unter [Anpassen der abgleichsbasierten Kopplung](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+
+1. Öffnen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die Listenseite für den Datensatz, beispielsweise die Listenseiten "Debitoren" oder "Kontakte".
+2. Wählen Sie die Aktion **Abgleichsbasierte Kopplung**.
+3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-synchronize-multiple-records"></a>So synchronisieren Sie mehrere Datensätze  
 1.  Öffnen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die Listenseite für den Datensatz, beispielsweise die Listenseiten "Debitoren" oder "Kontakte".  

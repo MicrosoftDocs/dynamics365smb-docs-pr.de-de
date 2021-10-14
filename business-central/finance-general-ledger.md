@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2e939ef134fbe008268d190d601c70694d81297c
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321114"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588626"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Verständis der Fibu und des Kontoplans
 
@@ -70,6 +70,9 @@ Zum Beispiel hat der Standard-Bilanzauszug eine Unterkategorie für *Kasse* unte
 3. Fassen Sie diese in der Unterkategorie **Bar** zusammen.  
 
 Wenn Sie das nächste Mal Kontenschemata erstellen, zeigt Ihr Kontoauszug einen Gesamtsaldo für Bargeld und zwei Zeilen mit Salden für die Portokasse und das Girokonto.  
+
+## <a name="getting-a-quick-overview"></a>Einen schnellen Überblick erhalten
+Auf der Seite Kontenplan werden die Konten in einer hierarchischen Liste angezeigt, die einen schnellen Zugriff auf die wichtigsten Informationen zu jedem Konto bietet. Allerdings ist die Liste statisch, und wenn Sie viele Konten haben, müssen Sie möglicherweise ein wenig blättern, um die Informationen zu den einzelnen Konten anzuzeigen. Wenn Sie nur einen schnellen Überblick über die Grundlagen wie Nettoveränderungen und Salden haben möchten, ist die Seite **Kontenplan Übersicht** eine nützliche Alternative. Das Spaltenlayout auf der Seite ist jetzt dasselbe wie auf der Seite Kontenplan (es gibt nur weniger davon), sodass Sie sich nicht neu orientieren müssen, und Sie können die Hierarchieebenen erweitern oder reduzieren, um die Ansicht zu verdichten. Um den Wechsel zwischen den Seiten zu erleichtern, ist die Seite **Kontenplan Übersicht** von der Seite Kontenplan aus zugänglich.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Zugriff auf das Erstellen und Bearbeiten von Konten und Kontokategorien
 

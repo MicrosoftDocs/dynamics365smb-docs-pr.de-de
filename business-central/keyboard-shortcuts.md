@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438927"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588251"
 ---
 # <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -89,22 +89,22 @@ Die folgende Tabelle beschreibt Tastenkombinationen, die Sie auf einer Listensei
 
 Raster mit Zeilen und Spalten existieren auf vielen Seitentypen in [!INCLUDE[prod_short](includes/prod_short.md)], wie z.B. Listenseiten und **Zeilen** Teilen auf Dokumenten. Die Bewegung von einer Zelle zur anderen über ein Raster ist vollständig über die Tastatur möglich.
 
-|Drücken Sie diese Tasten<br />(in Mac Os)|Um dies in einer Listenansicht zu tun |Um dies in einer Kachelansicht zu tun |
-|--------------------------------|--------------------------|--------------------------|
-|Strg+Pos1<br />(STRG+NACH-LINKS-TASTE)|Wählen Sie die erste Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte.|Navigieren zur ersten Kachel in der ersten Zeile. |
-|Strg+Ende<br />(STRG+NACH-RECHTS-TASTE)|Wählen Sie die letzte Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte.|Navigieren zur letzten Kachel in der letzten Zeile.|
-|Zuhause<br />(NACH-LINKS-TASTE)|Navigieren zum ersten Feld in einer Zeile.|Navigieren zur ersten Kachel in einer Zeile.|
-|Ende<br />(NACH-RECHTS-TASTE)|Navigieren zum letzten Feld in einer Zeile.|Navigieren zur letzten Kachel in einer Zeile.|
-|Eingabe|Öffnet den Datensatz, der diesem Feld zugeordnet ist.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|Öffnet den Datensatz.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird.|
-|Ctrl+Enter|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.|Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben.|
-|Seite nach oben<br />(NACH-OBEN-TASTE)|Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. |Scrollen, um den Kachelsatz über den aktuellen Kacheln in der Darstellung anzuzeigen. |
-|Seite nach unten<br />(NACH-UNTEN-TASTE)|Scrollen, um den Zeilensatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|Scrollen, um den Kachelsatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen.|
-|NACH-UNTEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darunter. |Navigieren zur darüberliegenden Kachel in der Zeile darunter. |
-|NACH-OBEN-TASTE|Navigieren zum darüberliegenden Feld in der Zeile darüber.| Navigieren zur darüberliegenden Kachel in der Zeile darüber.  |
-|NACH-RECHTS-TASTE|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.<br /><br />Navigieren Sie in einer bearbeitbaren Liste innerhalb des aktuellen Felds nach rechts.| Navigieren zur gleichen Zeile in der nächsten Kachel rechts. |
-|NACH-LINKS-TASTE|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. <br /><br />In einer bearbeitbaren Liste bewegen Sie die Linke im aktuellen Feld.| Navigieren zur gleichen Zeile in der vorherigen Kachel links. |
-|Tab|Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.|Nicht anwendbar.||
-|UMSCHALT+TAB|Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
+| Drücken Sie diese Tasten<br />(in Mac Os) | Um dies in einer Listenansicht zu tun | Um dies in einer Kachelansicht zu tun |
+|--|--|--|
+| Strg+Pos1<br />(STRG+NACH-LINKS-TASTE) | Wählen Sie die erste Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte. | Navigieren zur ersten Kachel in der ersten Zeile. |
+| Strg+Ende<br />(STRG+NACH-RECHTS-TASTE) | Wählen Sie die letzte Zeile in der Liste aus; der Fokus bleibt in der gleichen Spalte. | Navigieren zur letzten Kachel in der letzten Zeile. |
+| Zuhause<br />(NACH-LINKS-TASTE) | Navigieren zum ersten Feld in einer Zeile. | Navigieren zur ersten Kachel in einer Zeile. |
+| Ende<br />(NACH-RECHTS-TASTE) | Navigieren zum letzten Feld in einer Zeile. | Navigieren zur letzten Kachel in einer Zeile. |
+| Eingabe | Öffnet den Datensatz, der diesem Feld zugeordnet ist.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird. | Öffnet den Datensatz.<br /><br />Nur relevant, wenn eine Kartenseite dem Datensatz zugeordnet wird. |
+| Ctrl+Enter | Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben. | Um den Fokus zum nächsten Element außerhalb der Liste zu verschieben. |
+| Seite nach oben<br />(NACH-OBEN-TASTE) | Scrollen, um den Zeilensatz über der aktuellen Zeile in der Darstellungsform anzuzeigen. | Scrollen, um den Kachelsatz über den aktuellen Kacheln in der Darstellung anzuzeigen. |
+| Seite nach unten<br />(NACH-UNTEN-TASTE) | Scrollen, um den Zeilensatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen. | Scrollen, um den Kachelsatz unter der aktuellen Zeile in der Darstellungsform anzuzeigen. |
+| NACH-UNTEN-TASTE | Navigieren zum darüberliegenden Feld in der Zeile darunter. | Navigieren zur darüberliegenden Kachel in der Zeile darunter. |
+| NACH-OBEN-TASTE | Navigieren zum darüberliegenden Feld in der Zeile darüber. | Navigieren zur darüberliegenden Kachel in der Zeile darüber. |
+| NACH-RECHTS-TASTE | Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts.<br /><br />Navigieren Sie in einer bearbeitbaren Liste innerhalb des aktuellen Felds nach rechts. | Navigieren zur gleichen Zeile in der nächsten Kachel rechts. |
+| NACH-LINKS-TASTE | Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. <br /><br />In einer bearbeitbaren Liste bewegen Sie die Linke im aktuellen Feld. | Navigieren zur gleichen Zeile in der vorherigen Kachel links. |
+| Tab | Navigieren Sie in einer schreibgeschützten Liste in derselben Zeile zum nächsten Feld rechts. | Nicht anwendbar. |  |
+| UMSCHALT+TAB | Navigieren zur gleichen Zeile im vorherigen bearbeitbaren Feld links. | Nicht anwendbar. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Auswählen, Kopieren und Einfügen
 

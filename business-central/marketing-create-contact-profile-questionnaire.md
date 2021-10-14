@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 06/22/2021
-ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445526"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588526"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren
 Sie können Profilbefragungen einrichten, die Sie beim Eingeben der Informationen über die Profile Ihrer Kontakte verwenden möchten. In jedem Fragebogen können Sie die unterschiedlichen Fragen einrichten, die Sie Ihren Kontakten stellen möchten.  
@@ -49,114 +49,35 @@ Sie können Ihre Kontakte nach Debitoren, Kreditoren und Kontaktinformationen kl
 Nachdem Sie automatische beantwortete Profilbefragungen eingerichtet haben, werden dem Kontakt [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die richtigen Antworten zugeordnet, wenn Sie die Profilbefragung mit diesen Fragen einem Kontakt zuordnen.  
 
 ## <a name="example"></a>Beispiel
+
 Sie können Ihre Kontakte danach klassifizieren, wie viel sie bei Ihnen gekauft haben:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Antwort</strong></th>
-<th><strong>Gilt für</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p>Kontakte, die für 500.000 MW oder mehr gekauft haben</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p>Kontakte, die von 100.000 bis 499.999 MW gekauft haben</p></td>
-</tr>
-<tr class="odd">
-<td><p>U</p></td>
-<td><p>Kontakte, die für 99.999 MW oder weniger gekauft haben</p></td>
-</tr>
-</tbody>
-</table>
+|Antwort|Gilt für|
+|--- |--- |
+|A|Kontakte, die für 500.000 MW oder mehr gekauft haben|
+|B|Kontakte, die von 100.000 bis 499.999 MW gekauft haben|
+|U|Kontakte, die für 99.999 MW oder weniger gekauft haben|
 
 Füllen Sie hierzu die Seite **Profilbefragung einrichten** folgendermaßen aus:
 
-
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Typ</strong></th>
-<th><strong>Beschreibung</strong></th>
-<th><strong>Automatische Klassifizierung</strong></th>
-<th><strong>Von Wert</strong></th>
-<th><strong>Bis Wert</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Frage</p></td>
-<td><p>ABC Klassifizierung</p></td>
-<td><p>Klicken Sie in das Feld, um ein Häkchen einzufügen.</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>Antwort</p></td>
-<td><p>A</p></td>
-<td><p> </p></td>
-<td><p>500.000</p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p>Antwort</p></td>
-<td><p>F</p></td>
-<td><p> </p></td>
-<td><p>100,000</p></td>
-<td><p>499,999</p></td>
-</tr>
-<tr class="even">
-<td><p>Antwort</p></td>
-<td><p>U</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99,999</p></td>
-</tr>
-</tbody>
-</table>
+| Typ     | Beschreibung        | Automatische Klassifizierung     | Von Wert | Nach Wert |
+|----------|--------------------|------------------------------|------------|----------|
+| Frage | ABC Klassifizierung | Klicken Sie in das Feld, um ein Häkchen einzufügen. |            |          |
+| Antwort   | A                  |                              | 500.000    |          |
+| Antwort   | F                  |                              | 100,000    | 499,999  |
+| Antwort   | U                  |                              |            | 99,999   |
 
 Füllen Sie dann das Fenster **Profilfragendetails** folgendermaßen aus:
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Feld</strong></th>
-<th><strong>Wert</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Debitorenklassifizierungsfeld</strong></td>
-<td><emphasis>Verkauf (MW)</emphasis></td>
-</tr>
-<tr>
-<td><strong>Klassifizierungsmethode</strong></td>
-<td><emphasis>Definierter Wert</emphasis></td>
-</tr>
-</tbody>
-</table>
+
+| Feld                         | Wert         |
+|-------------------------------|---------------|
+| Feld für die Klassifizierung des Debitors | Umsatz (LCY)   |
+| Klassifizierungsmethode         | Definierter Wert |
 
 Wenn Sie einem Kontakt die Profilbefragung mit dieser Frage zuordnen, wird die Anwendung in die Profilzeilen der Kontaktkarte automatisch die entsprechende Antwort für diesen Kontakt eingetragen.
 
 ## <a name="see-also"></a>Siehe auch
+
 [Kontakte erstellen](marketing-create-contact-companies.md)  
 
 

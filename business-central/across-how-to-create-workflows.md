@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: b4f6894c0d9c5a23445f70b2a50fcd677b17be66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438407"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588226"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Workflows erstellen, um Geschäftsprozess-Aufgaben zu verbinden
 
@@ -133,7 +133,7 @@ Im folgenden Beispiel wird ein neuer Workflow erstellt, um Änderungen am Namen 
     2. Wählen Sie im Feld **Bei Bedingung** das Wort **Immer**, und wählen Sie dann auf der Seite **Ereignisbedingungen** den Link **Bedingung hinzufügen, wenn sich ein Feldwert ändert**, und wählen Sie dann das Feld *Name*.  
 
       Das Ergebnis dieses Schritts ist, dass die Bedingung als *Name ist geändert* lautet.  
-    3. Wählen Sie im Feld **Dann Antwort** den Link **Antwort auswählen** und dann auf der Seite **Workflow-Antworten** im Feld **Antwort auswählen** die Antwort *Wert des Feldes <Field> im Datensatz zurücksetzen und die Änderung speichern* und dann im Abschnitt **Optionen für die ausgewählte Antwort** das Feld *Name*.  
+    3. Wählen Sie im Feld **Antwort** den Link **Antwort auswählen** und dann auf der Seite **Workflow-Antworten** im Feld **Antwort auswählen** die Antwort *Den Wert des Feldes \<Field\> im Datensatz zurücksetzen und die Änderung speichern* und geben Sie dann im Abschnitt **Optionen für die ausgewählte Antwort** das Feld *Name* an.  
     4. Wählen Sie den Link **Weitere Antworten hinzufügen** und fügen Sie dann einen Eintrag für die *Erstellen Sie eine Genehmigungsanfrage für den Datensatz unter Verwendung der Genehmiger-Typen <%1> und <%2>.* Antwort hinzu.  
     5. Ändern Sie im Abschnitt **Optionen für die ausgewählte Antwort** für die neue Antwort das Feld **Genehmigungstyp** in *Workflow-Benutzergruppe* und geben Sie dann im Feld **Workflow-Benutzergruppe** die entsprechende Benutzergruppe an.  
 

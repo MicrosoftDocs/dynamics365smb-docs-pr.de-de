@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446465"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587505"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integration von Business Central und Microsoft Teams
 
@@ -51,9 +51,17 @@ Wenn Sie sich in der Unterhaltung befinden, können Sie und Ihre Mitarbeiter wei
 
 Weitere Informationen finden Sie unter [Datensätze in Microsoft Teams](across-working-with-teams.md) teilen.
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Links von Seiten in Business Central für Teams freigeben
+
+Direkt von den meisten Sammlungs- und Detailseiten in Business Central können Sie die Aktion **Für Teams freigeben** über das Symbol ![!Das Teilen-Menü auf Seiten.](media/share-icon.png "Das Menü Teilen, das auf einer Karte angezeigt wird.") Symbol eine Nachricht eingeben, Empfänger auswählen, z.B. Teammitglieder, Gruppen oder Kanäle, und die Nachricht mit einem Link zu der Business Central Seite versenden.
+
+![!Das Menü Teilen, das auf einer Karte angezeigt wird.](media/teams-share-link.png "Das Menü Teilen, das auf einer Karte angezeigt wird.")
+
+Weitere Informationen finden Sie unter [Datensätze und Seitenlinks teilen in Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Erste Schritte
 
-1. Ein [!INCLUDE [prod_short](includes/prod_short.md)]-Online-Benutzerkonto ist erforderlich für [!INCLUDE [prod_short](includes/prod_short.md)]-App für Teams.
+1. Für die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Teams ist ein [!INCLUDE [prod_short](includes/prod_short.md)]-Online-Benutzerkonto erforderlich.
 
     Wenden Sie sich an den Administrator Ihres Unternehmens, wenn Sie nicht sicher sind, ob Sie ein Konto besitzen oder Ihre Anmeldeinformationen für die Anmeldung nicht kennen.
 
@@ -62,13 +70,13 @@ Weitere Informationen finden Sie unter [Datensätze in Microsoft Teams](across-w
 
 2. Administratorinformationen zur Einrichtung von Benutzern für die Arbeit mit [!INCLUDE [prod_short](includes/prod_short.md)] und Teams finden Sie unter [Verwalten der Microsoft Teams Integration in Business Central](admin-teams-integration.md).
 3. Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)]-App in Teams. Siehe [Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md).
-4. Sobald die App installiert ist, können Sie loslegen. Weitere Informationen finden Sie unter [Debitoren, Kreditoren oder andere Kontakte über Microsoft Teams suchen](across-search-contacts-teams.md) und unter [Datensätze in Microsoft Teams teilen](across-working-with-teams.md). 
+4. Sobald die App installiert ist, können Sie loslegen. Weitere Informationen finden Sie unter [Debitoren, Kreditoren oder andere Kontakte über Microsoft Teams suchen](across-search-contacts-teams.md) und unter [Datensätze in Microsoft Teams teilen](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Weitere Informationen
 
 [Teams FAQ](teams-faq.md)  
 [Teams Problembehebung](admin-teams-troubleshooting.md)  
-[Ändern von Firmen- und anderen Einstellungen in Teams](across-teams-settings.md)  
+[Ändern der Firma und anderer Einstellungen in Teams](across-teams-settings.md)  
 [Entwickeln für Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

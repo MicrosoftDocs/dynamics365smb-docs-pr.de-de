@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4de43cc0430522b6d4e3566e43eaba945cd2dff2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 1d822b61c9ed64d970d2d17939a359d898513e2d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440465"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587580"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Buchung von Intercompany-Transaktionen festlegen
 
@@ -23,7 +23,7 @@ Wenn Sie eine Transaktion (beispielsweise eine Verkaufs Buch.-Blattzeile) von ei
 
 Sie müssen einen Intercompanypartnercode für jedes Partnerunternehmen einrichten, der zwischen allen Unternehmen vereinbart wurde, und diese dann Kreditorenkarten bzw. Debitorkarten zuweisen, indem Sie das Feld **Intercompanypartnercode** ausfüllen.  
 
-Wenn Sie Intercompanyzeilen mit Artikeln erstellen oder erhalten, können Sie entweder eigene Artikelnummern verwenden oder für die betreffenden Artikel jeweils die Artikelnummern des Partners einrichten, indem Sie das **Feld Kred.-Artikelnr.** oder das Feld **Gemeinsame Artikelnr.** auf der Artikelkarte verwenden. Sie können auch die Funktion **Artikelreferenz** verwenden, um die Artikelnummern den Artikelbeschreibungen des Intercompanypartners zuzuordnen. Öffnen Sie die Karte eines jeden Artikels und wählen Sie dann die Aktion **Referenzen** aus, um Referenzen zwischen Ihren Artikelbeschreibungen und denen des Intercompanypartners einzurichten. Weitere Informationen finden Sie unter [Verwenden von Artikelquerverweisen](inventory-how-use-item-cross-refs.md). 
+Wenn Sie Intercompanyzeilen mit Artikeln erstellen oder erhalten, können Sie entweder eigene Artikelnummern verwenden oder für die betreffenden Artikel jeweils die Artikelnummern des Partners einrichten, indem Sie das **Feld Kred.-Artikelnr.** oder das Feld **Gemeinsame Artikelnr.** auf der Artikelkarte verwenden. Sie können auch die Funktion **Artikelreferenz** verwenden, um die Nummern Ihrer Artikel den Artikelbeschreibungen Ihrer Intercompany-Partner zuzuordnen. Öffnen Sie die Karteikarte jedes Artikels und wählen Sie dann die Aktion **Artikelreferenzen**, um Referenzen zwischen Ihren Artikelbeschreibungen und denen des Intercompany-Partners festzulegen. Weitere Informationen finden Sie unter [Verwendung von Element-Referenzen](inventory-how-use-item-cross-refs.md). 
 
 Wenn Sie Intercompany-Verkaufstransaktionen vornehmen, die Ressourcen beinhalten, müssen Sie auf der Ressourcenkarte der entsprechenden Ressourcen das Feld **IC-Partner Eink.-Sachkontonr.** ausfüllen. Das Feld enthält die Nummer des Intercompanysachkontos im Unternehmen Ihres Partners, auf das die Ressource gebucht wird. Weitere Informationen finden Sie unter [Ressourcen einrichten](projects-how-setup-resources.md).
 

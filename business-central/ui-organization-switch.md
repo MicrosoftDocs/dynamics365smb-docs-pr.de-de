@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 04/01/2021
+ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ed814213bea50ceb8d69c107edff450b76d8f7b
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445922"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606385"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Wechseln zu einem anderen Unternehmen oder einer anderen Umgebung
 
@@ -23,12 +23,17 @@ ms.locfileid: "6445922"
 
 ## <a name="switch-to-another-environment"></a>Wechselt zu einer anderen Umgebung
 
-Wenn Sie bei [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, sind die Umgebungen, auf die Sie zugreifen können, auf der Dynamics 365-Startseite verfügbar. Sie können die Seite öffnen, indem Sie das Symbol **App Launcher** ![App Launcher.](media/app-launcher-icon.png "Das App-Startfeld bietet Zugriff auf weitere Funktionen.") wählen und wählen Sie **Dynamics 365**. Wählen Sie die Kachel aus, um zu Ihrem Standardunternehmen in dieser Umgebung zu navigieren. Für jeden Umgebungstyp ist eine Kachel verfügbar. Wenn Sie über mehrere Umgebungen eines bestimmten Typs verfügen, können Sie bei Auswahl der Kachel die Umgebung auswählen, auf Sie zugreifen möchten.
+Wenn Sie mit [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, stehen Ihnen die Umgebungen, auf die Sie zugreifen können, auf Office.com zur Verfügung. 
 
-Das folgende Bild zeigt Kacheln für den Zugriff auf Produktions- und Sandbox-Umgebungen auf der Dynamics 365-Startseite.
+1. Wählen Sie das Symbol **App Launcher** ![App Launcher.](media/app-launcher-icon.png "Das App-Startfeld bietet Zugriff auf weitere Funktionen.").
+2. Wenn Sie in dem sich öffnenden Fenster keine App für [!INCLUDE[prod_short](includes/prod_short.md)] sehen, wählen Sie **Office 365**. Geben Sie dann **Business Central** in das Feld **Suchen** ein oder wählen Sie **Alle Apps** > **Business Apps**.   
+3. Für jede Art von Umgebung, wie z.B. Produktion und Sandbox, wird eine [!INCLUDE[prod_short](includes/prod_short.md)] App aufgelistet. Um zu einer anderen Umgebung zu wechseln, wählen Sie die [!INCLUDE[prod_short](includes/prod_short.md)]-App für die entsprechende Art von Umgebung. Wenn es mehr als eine Umgebung eines bestimmten Typs gibt, werden Sie aufgefordert, die Umgebung auszuwählen, auf die Sie zugreifen möchten.
 
-:::image type="content" source="media/app-picker-environments.png" alt-text="Die Dynamics 365-Startseite zeigt Produktions- und Sandbox-Umgebungen.":::
+<!--
+The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
+:::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
+-->
 ## <a name="switch-to-another-company"></a>Wechselt zu einem anderen Unternehmen
 
 Wenn Sie bei [!INCLUDE[prod_short](includes/prod_short.md)] angemeldet sind, können Sie schnell zu einem anderen Unternehmen wechseln. Nachdem Sie den Wechsel vorgenommen haben, wird das von Ihnen ausgewählte Unternehmen zu Ihrem Standardunternehmen und bei Ihrer nächsten Anmeldung angezeigt.

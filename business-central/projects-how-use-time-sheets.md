@@ -1,5 +1,5 @@
 ---
-title: Mit Arbeitszeittabellen für Projekte arbeiten
+title: Arbeitszeittabellen für Projekte verwenden
 description: Beschreibt, wie Sie eine Arbeitszeittabelle für ein Projekt erstellen, Planungszeilen kopieren, Arbeitstypen definieren, Arbeitszeittabellen ausfüllen und sie zur Genehmigung senden.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440641"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588832"
 ---
-# <a name="use-time-sheets-for-jobs"></a>Verwenden von Arbeitszeittabellen für Projekte
+# <a name="use-time-sheets-for-projects"></a>Arbeitszeittabellen für Projekte verwenden
 
 Verwenden Sie die Stapelverarbeitung **Arbeitszeittabellen erstellen**, um Arbeitszeittabellen für eine bestimmte Anzahl von Perioden oder Wochen einzurichten. Sie müssen Berechtigungen haben, Arbeitszeittabellen zu erstellen.
 
@@ -25,9 +25,12 @@ Sie können Ihre Projektplanzeilen in die Arbeitszeittabelle kopieren und verwen
 
 Nachdem Sie Arbeitszeittabellenposten für ein Projekt genehmigt haben, können Sie sie in das entsprechende Projektjournal oder Ressourcen-Journal buchen.
 
-Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie Informationen einrichten und einen Administrator und mindestens einen Genehmiger für Arbeitszeittabellen festlegen. Weitere Informationen finden Sie unter [Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md).
+Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie Informationen einrichten und einen Administrator und mindestens einen Genehmiger für Arbeitszeittabellen festlegen. Weitere Informationen finden Sie unter [Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md).  
 
-## <a name="to-create-a-time-sheet"></a>Arbeitszeittabellen erstellen
+> [!TIP]
+> Ab dem Veröffentlichungszyklus 2 von 2021 können Sie zugewiesene Arbeitszeittabellen auf einem mobilen Gerät verwalten. Ihr Administrator muss jedoch möglicherweise die Funktion **Funktionsupdate: Neue Erfahrung mit Arbeitszeittabellen** auf der Seite [Funktionsverwaltung](https://businesscentral.dynamics.com/?page=2610) aktivieren, um diese Funktionalität nutzen zu können. Weitere Informationen finden Sie unter [Zeittabellen festlegen](projects-how-setup-time-sheets.md).
+
+## <a name="to-create-time-sheets"></a>So erstellen Sie Arbeitszeittabellen
 
 Sie können die Stapelverarbeitung **Arbeitszeittabellen erstellen** verwenden, um Arbeitszeittabellen für eine bestimmte Anzahl von Perioden oder Wochen einzurichten. Nachdem eine Arbeitszeittabelle erstellt wurde, kann der Arbeitszeittabellenbesitzer sie öffnen und die Zeit aufzeichnen, die für eine Aufgabe benötigte wurde.
 

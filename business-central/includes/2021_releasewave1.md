@@ -1,1 +1,1 @@
-<Token> **GILT FÜR:** Business Central Online 2021 Veröffentlichungszyklus 1 und höher</Token>
+> **Gilt für:** Business Central 2021 Veröffentlichungszyklus 1 und später

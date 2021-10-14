@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437216"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547048"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
@@ -132,9 +132,6 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
     Universal Print rendert Inhalte für den Druck im XPS-Format. Einige ältere marktübliche Drucker unterstützen das Rendern von XPS-Inhalten in vielen Fällen nicht &mdash;, sondern nur das PDF-Format. Das Drucken auf diesen Druckern schlägt fehl, es sei denn, Universal Print ist so eingerichtet, dass Dokumente in das vom Drucker unterstützte Format konvertiert werden.
 
     Weitere Informationen finden Sie unter [Dokumentkonvertierung – Übersicht](/universal-print/portal/document-conversion).
-
-    > [!TIP]
-    > Wenn keiner Ihrer Drucker das Renderformat für PDF-Inhalte benötigt, empfehlen wir, die Dokumentkonvertierung nicht zu aktivieren, da dies die Druckausgabequalität beeinträchtigen kann.
 
 Jetzt können Sie die Drucker [!INCLUDE[prod_short](includes/prod_short.md)] hinzufügen, Standarddrucker für Berichte einrichten und drucken.  
 

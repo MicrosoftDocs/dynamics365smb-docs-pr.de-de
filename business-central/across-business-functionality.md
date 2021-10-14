@@ -10,19 +10,20 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776272"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588351"
 ---
 # <a name="business-functionality"></a>Geschäftsfunktionen
+
 [!INCLUDE[prod_short](includes/prod_short.md)] enthält Funktionalität für allgemeine Geschäftsvorgänge in kleinen und mittelständischen Unternehmen, vor allem im Bereich Großhandel und die Dienstleistungen. Sie unterstützen auch komplexere Prozesse wie Montage, Produktion, Service, und referenzierte Logistik.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Weitere Informationen finden Sie unter [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
+[!INCLUDE[prod_short](includes/prod_short.md)] umfasst Standardkonfigurationen für die meisten Geschäftsvorgänge, aber Sie können die Konfiguration ändern, um Sie für die Anforderungen Ihrer Unternehmen anzupassen. Von Ihrem Rollencenter aus können Sie auf unterstützte Einrichtungsleitfäden zugreifen, die Ihnen dabei helfen, bestimmte Szenarien zu konfigurieren und Funktionen zu [!INCLUDE[prod_short](includes/prod_short.md)] hinzuzufügen. Einige Bereiche für Geschäftsfunktionalitäten müssen manuell eingegeben werden. Die [Business Central Schnellstart](quick-start-business-central.md) Artikel können Ihnen helfen, die ersten Schritte zu unternehmen, um [!INCLUDE [prod_short](includes/prod_short.md)] zu Ihrem eigenen zu machen. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
-| An | Siehe |
+| Aktion | Siehe |
 | --- | --- |
 |Erstellen und Einziehen von Zahlungen, Cashflow verwalten, Einnahmen zurückstellen, Vorbereiten des Jahresabschlusses, Verwalten von Anlagen.|[Finanzen](finance.md)|
 |Erhalten Sie Einblick an die Leistung Ihrer Geschäftsaktivitäten, Kontenschemata und Budgets von Analyseansichten.|[Business Intelligence](bi.md)|

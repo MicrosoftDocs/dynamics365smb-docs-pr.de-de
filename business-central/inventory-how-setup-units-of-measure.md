@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 499ed3db4b82a92d147f4fcdffef4df516a80bf1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435547"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588576"
 ---
 # <a name="set-up-units-of-measure"></a>Einheiten einrichten
 
@@ -27,6 +27,8 @@ Sie können mehrere Einheiten für einen Artikel einrichten, sodass Sie für fol
 - Ordnen Sie alternative Einheiten dem Einkauf, der Produktion oder Verkaufsbelegen zu, um anzugeben, wie viele Einheiten der Basiseinheit Sie gleichzeitig in diesen Prozessen verarbeiten. Beispielsweise kaufen Sie möglicherweise den Artikel auf Paletten und benutzen nur einzelne Stücke in Ihrer Produktion.
 
 Wenn ein Artikel in einer Einheit am Lager geführt, aber in einer anderen Einheit gefertigt wird, wird ein Fertigungsauftrag erstellt, für den eine Fertigungsloseinheit verwendet wird, um in der Stapelverarbeitung **Herstellungsantrag erneuern** die richtige Menge der Komponenten zu berechnen. Ein Beispiel für eine Berechnung über eine Fertigungsloseinheit ergibt sich, wenn ein Produktionsartikel am Lager in Einheiten geführt, aber in Tonnen gefertigt wird. Weitere Informationen finden Sie unter [Arbeiten mit Fertigungs-Batch-Einheiten](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
+
+Ein weiteres Tool, das Ihnen die Arbeit mit mehreren Maßeinheiten für Artikel erleichtert, ist die Möglichkeit, eine Rundungsgenauigkeit für Basismaßeinheiten anzugeben. Die Angabe einer Rundungsgenauigkeit bietet eine Orientierungshilfe, was jemand für einen bestimmten Geschäftsprozess eingeben sollte, und hilft, Rundungsprobleme zu vermeiden. Wenn Sie alternative Maßeinheiten verwenden, hilft der Wert im Feld **Menge pro Maßeinheit** bei der Berechnung der Menge in der Basismaßeinheit, was zu Rundungsproblemen führen kann. Stellen Sie sich zum Beispiel vor, Sie erhalten einen Karton, der sechs Elemente enthält. Als der Karton in Ihrem Lager eintrifft, stellen Sie fest, dass eines der sechs Elemente fehlt. Sie beschließen, den Eingang des einen Kartons nicht zu buchen, sondern die Eingangsmenge auf fünf von sechs Teilen zu ändern. Das würde zu einem Eingang von 4,99998 Stück führen, anstatt von fünf. Auf der Seite **Element Maßeinheiten** können Sie im Feld **Mengenrundungspräzision** einen Wert angeben, der die Menge in eine besser verständliche Zahl umrechnet. Wenn wir mit dem Beispiel fortfahren, würden wir **1** in das Feld eingeben, um auf glatte fünf Stück aufzurunden.
 
 ## <a name="to-set-up-units-of-measure"></a>So richten Sie Einheiten ein
 
@@ -57,11 +59,11 @@ Wenn Sie einen neuen Artikel registrieren, können Sie die Einheit aus der Liste
 
     Im Feld **Basiseinheit** am unteren Rand des Fensters, können Sie die Basiseinheit des Artikels anzeigen oder ändern. Sie können auch die Basiseinheit im Feld **Basiseinheit** auf der Artikelkarte ändern. Auf der Seite **Artikeleinheiten** muss die Basiseinheit den Wert **1** im Feld **Menge pro Einheit** aufweisen.
 
-Sie können jetzt die alternativen Einheiten für Einkaufs-, Produktions- und Verkaufsbelege verwenden, wie im Abschnitt [So geben Sie einen Standardeinheitencode für Verkaufs- und Einkaufstransaktionen ein](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions) beschrieben.  
+Sie können die alternativen Einheiten von Einkauf, Produktion und Verkaufsbelegen jetzt verwenden. Weitere Informationen finden Sie unter [Ein Standardcode für Maßeinheiten bei Transaktionen im Verkauf und Kauf eingeben](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Einheiten der Maßübersetzungen einrichten
 
-Wenn Sie Artikel an ausländische Debitoren verkaufen, können Sie die Einheit in der Sprache des Debitors angeben. Dies können Sie tun, nachdem Sie die erforderlichen Einheitenübersetzungen eingerichtet haben.
+Wenn Sie Artikel an ausländische Kunden verkaufen, möchten Sie vielleicht die Maßeinheit in der Sprache des Kunden angeben. Das können Sie tun, indem Sie Übersetzungen für Maßeinheiten angeben.
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Maßeinheiten** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie den Code aus, für den Sie Übersetzungen einrichten möchten und klicken Sie auf **Übersetzungen**.

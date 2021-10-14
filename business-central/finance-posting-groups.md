@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 384bbdbc3630928298367956da133b0b488559b8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783509"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588807"
 ---
 # <a name="setting-up-posting-groups"></a>Buchungsgruppen einrichten
-Buchungsgruppenzuordnungseinheiten nach Debitoren, Kreditoren, Artikel, Ressourcen und Einkaufs- und Verkaufsbelegen mit Sachkonten. Sie sparen Zeit und helfen, Fehler zu vermeiden, wenn Sie Transaktionen buchen. Die Umsatzwerte wechseln zu den Konten, die in der Buchungsgruppe für diese bestimmte Einheit angegeben werden. Die einzige Anforderung ist, dass Sie einen Kontenplan haben. Weitere Informationen finden Sie unter [Einrichten des Kontenplans](finance-setup-chart-accounts.md).  
+Buchungsgruppen ordnen Entitäten wie Kunden, Lieferanten, Artikel, Ressourcen sowie Verkaufs- und Kaufbelege den Hauptbuch-Konten zu. Sie sparen Zeit und helfen, Fehler zu vermeiden, wenn Sie Transaktionen buchen. Die Umsatzwerte wechseln zu den Konten, die in der Buchungsgruppe für diese bestimmte Einheit angegeben werden. Die einzige Anforderung ist, dass Sie einen Kontenplan haben. Weitere Informationen finden Sie unter [Einrichten des Kontenplans](finance-setup-chart-accounts.md).  
 
 Buchungsgruppen werden unter drei Schlüsseln abgedeckt:  
 
@@ -74,6 +74,14 @@ Ihre Einrichtung legt fest, wann die Buchung erfolgt. Beispielsweise wird die ze
 
 ## <a name="copying-posting-setup-lines"></a>Kopieren von Buchungsmatrix-Einrichtungszeilen
 Je mehr Produkt- und Geschäftsbuchungsgruppen vorhanden sind, um so mehr Zeilen werden auf der Seite Buchungsmatrix Einrichtung angezeigt. Für die Einrichtung der Buchungsmatrix des Unternehmens kann daher unter Umständen eine umfangreiche Dateneingabe erforderlich sein. Während unter Umständen viele verschiedene Kombinationen von Geschäfts- und Produktbuchungsgruppen vorhanden sind, buchen möglicherweise unterschiedliche Kombinationen weiterhin auf dieselben Sachkonten. Um den Umfang der erforderlichen manuellen Dateneingabe einzuschränken, kopieren Sie die Sachkonten aus einer vorhandenen Zeile auf der Seite **Buchungsmatrix Einrichtung.**
+
+## <a name="troubleshooting-posting-group-errors"></a>Problembehandlung von Fehlern bei Buchungsgruppen
+Buchungsgruppen sind eines der fortgeschritteneren Konzepte, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] festlegen können. Wenn sie nicht korrekt eingerichtet sind, können beim Buchen von Belegen oder Buchungsblattzeilen Fehler auftreten. Diese Fehler werden in der Regel durch einen Fehler bei der Zuordnung von Hauptbuch-Konten oder bei der Kombination von Buchungsgruppen verursacht.
+
+Wenn etwas nicht stimmt, zeigt [!INCLUDE[prod_short](includes/prod_short.md)] die Seite **Fehlermeldungen** an. Die Seite **Fehlermeldungen** kann es Ihnen erleichtern, das Problem zu identifizieren und zu beheben. Die Seite bietet eine Beschreibung des Fehlers, die auf die Einrichtung der Buchungsgruppe hinweist, die beachtet werden muss. Die Nachricht könnte zum Beispiel lauten: „Für das Konto Umsatzvorauszahlung fehlt eine Allgemeine Buchungsmatrixeinrichtung.“ Es gibt auch einen Link, über den Sie die Seite öffnen können, von der das Problem ausgeht, sodass Sie es schnell beheben können.  
+
+> [!NOTE]
+> Die oben beschriebene Fehlerbehandlung ist nicht verfügbar für Artikel-, Ressourcen-, Mitarbeiter- und Anlage-Fibu Buch.-Blätter oder für Sachkonten, die in lokalen Versionen von Buchungsgruppen hinzugefügt wurden.
 
 ## <a name="see-also"></a>Siehe auch
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  

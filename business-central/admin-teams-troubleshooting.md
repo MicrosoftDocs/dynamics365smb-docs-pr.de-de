@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 04/12/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed1d44f7aa1fe7adc899c429a6595cef23251075
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 376d1bebd79c225a54ca8544b757a719a55bfebd
+ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341303"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7596672"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problembehandlung bei der Microsoft Teams Integration mit [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -149,12 +149,19 @@ Als Administrator, der Azure Active Directory-Administratorrechte hat, können S
 > [!NOTE]
 > Es wird eine Weile dauern, bis diese Änderung wirksam wird.
 
+## <a name="duplicate-text-in-the-share-to-teams-window"></a>Text im Fenster An Teams weitergeben duplizieren
+
+Wenn Sie Text in das Nachrichtenfeld im Fenster **Freigeben für Teams** einfügen, wird der Text dupliziert. Dieses Problem ist Microsoft bekannt und wird in einem späteren Update behoben. 
+
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Keine Anmeldung im Fenster Für Teams freigeben möglich 
+
+Dieses Problem kann verschiedene Ursachen haben. Zum Beispiel muss die Identität, mit der Sie sich anmelden, Zugriff auf Microsoft Teams haben, z.B. über ein Microsoft 365 Abonnement.
 
 ## <a name="see-also"></a>Weitere Informationen
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] und Microsoft Teams Integration Übersicht](across-teams-overview.md)  
-[Die [!INCLUDE [prod_short](includes/prod_short.md)]-App für Microsoft Teams installieren](across-install-app-for-teams.md)  
-[Suchen Sie nach Debitoren, Kreditoren und anderen Kontakten aus Microsoft Teams](across-search-contacts-teams.md)  
+[Installieren Sie die [!INCLUDE [prod_short](includes/prod_short.md)] App für Microsoft Teams](across-install-app-for-teams.md)  
+[Suchen Sie nach Kunden, Kreditor und anderen Kontakten aus Microsoft Teams](across-search-contacts-teams.md)  
 [Datensätze in Microsoft Teams freigeben](across-working-with-teams.md)  
 [Teams FAQ](teams-faq.md)  
 [Ändern von Firmen- und anderen Einstellungen in Teams](across-teams-settings.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 06/23/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 662239446426cf64ac20d766e21aee55b92f9809
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445376"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587684"
 ---
 # <a name="register-new-vendors"></a>Registriert einen neuen Kreditor
 
@@ -32,32 +32,31 @@ Kreditorenkarten verwahren die Informationen, die benötigt werden, um Produkte 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Hinzufügen neuer Kreditoren
+Sie können neue Kreditoren manuell hinzufügen, indem Sie die Felder auf der Seite **Kreditorkarte** ausfüllen, oder Sie können Vorlagen verwenden, die vordefinierte Informationen enthalten. Sie können zum Beispiel Vorlagen für verschiedene Arten von Lieferantenprofilen erstellen. Die Verwendung von Vorlagen spart Zeit beim Hinzufügen neuer Kreditor und hilft sicherzustellen, dass die Informationen jedes Mal korrekt sind. Wenn Sie Vorlagen für mehr als einen Kreditorentyp erstellen, können Sie die Vorlage auswählen, die Sie beim Hinzufügen eines Kreditors verwenden möchten. Wenn Sie nur eine Vorlage erstellen, wird diese für alle neuen Lieferanten verwendet. Nachdem Sie eine Vorlage erstellt haben, können Sie die Aktion **Vorlage anwenden** verwenden, um sie auf einen oder mehrere ausgewählte Kreditoren anzuwenden. Um eine Vorlage zu erstellen, geben Sie die Informationen, die Sie wiederverwenden möchten, auf der Seite Lieferantenkarte ein und speichern sie dann als Vorlage. Weitere Informationen finden Sie unter [Speichern der Kreditor Card Seite als Vorlage](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
-Sie müssen eine Kreditorenkarte ausfüllen, um einen neuen Kreditor zu registrieren. Sie können Vorlagen für verschiedene Kreditorenprofile erstellen oder Kreditoren ohne Vorlagen hinzufügen. Sie können einen Kreditor auch aus einem Kontakt erstellen. Weitere Informationen finden Sie unter [So erstellen Sie einen Kontakt als Debitor, Kreditor , Mitarbeiter oder Bankkonto von einem Kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Es kann hilfreich sein, die Seite **Lieferantenvorlage** zu personalisieren, wenn Sie eine Vorlage erstellen. So können Sie beispielsweise ein Feld hinzufügen, das auf der Seite noch nicht angezeigt wird. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Wenn es Kreditorenvorlagen für verschiedene Kreditorenarten gibt, dann erscheint eine Seite automatisch, wenn Sie eine neue Kreditorenkarte erstellen, von der aus Sie eine entsprechende Kreditorenvorlage auswählen können. Wenn nur eine Kreditorenvorlage vorhanden ist, verwenden neue Kreditorenkarten immer diese Vorlage.  
+Sie können einen Kreditor auch aus einem Kontakt erstellen. Weitere Informationen finden Sie unter [Um einen Kunden, Kreditor, Mitarbeiter oder ein Bankkonto aus einem Kontakt zu erstellen](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact). 
 
-### <a name="to-create-a-new-vendor-card"></a>Erstellen einer neue Kreditorenkarte
+### <a name="to-create-a-new-vendor"></a>So erstellen Sie einen neuen Kreditor
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.  
-2. Wählen Sie auf der Seite **Kreditoren** **Neu** aus.
+[!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
-    Wenn mehr als eine Kreditorenvorlage vorhanden ist, dann öffnet sich eine Seite mit verfügbaren Kreditorenvorlagen automatisch. In diesem Fall, folgen Sie den nächsten zwei Schritten.
-    1. Wählen Sie auf der Seite **Vorlage für neuen Kreditor auswählen** die Vorlage, die Sie für die neue Kreditorenkarte verwenden möchten.
-    2. Wählen Sie die Schaltfläche **OK** aus. Eine neue Kreditorenkarte wird geöffnet mit einigen Feldern, die mit Daten aus der Vorlage ausgefüllt werden.
-3. Wenn nötig, fahren Sie mit dem Ausfüllen oder Ändern der Felder auf der Kreditorenkarte fort. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!TIP]  
-    > Falls Sie nicht im Voraus wissen, ob eine bestimmte Rechnungsadresse für jede Rechnung eines Kreditoren verwendet wird, füllen Sie das Feld **Kreditorennr.** auf der Kreditorenkarte nicht aus. Geben Sie stattdessen die Zahlung-an Kred.-Nr. später ein, wenn Sie eine Einkaufsanfrage, -bestellung oder -rechnung erstellen.
+> [!TIP]  
+> Falls Sie nicht im Voraus wissen, ob eine bestimmte Rechnungsadresse für jede Rechnung eines Kreditoren verwendet wird, füllen Sie das Feld **Kreditorennr.** auf der Kreditorenkarte nicht aus. Geben Sie stattdessen die Zahlung-an Kred.-Nr. später ein, wenn Sie eine Einkaufsanfrage, -bestellung oder -rechnung erstellen.
 
 Der Kreditor ist nun erfasst und die Kreditorenkarte ist bereit, in Einkaufsbeleg verwendet zu werden, in denen Sie mit dem Kreditor handeln.
 
 Wenn Sie diese Kreditorenkarte als Vorlage verwenden möchten, wenn Sie neue Kreditorenkarten erstellen, dann fahren sie fort, um sie als Kreditorenvorlage zu speichern. Weitere Informationen finden Sie im Abschnitt [So speichern Sie die Kreditorenkarte als Vorlage](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-vendor-cards"></a>Löschen von Kreditorkarten
+### <a name="deleting-and-editing-vendor-information"></a>Löschen und Bearbeiten von Kreditor-Informationen
 
-Wenn Sie eine Transaktion für einen Kreditor gebucht haben, können Sie die Karte nicht löschen, da die Posten möglicherweise für die Prüfung erforderlich sind. Zum Löschen von Kreditorkarten wenden Sie sich an Ihren Microsoft-Partner, um dies über einen Code durchzuführen.
+Sie können die Informationen auf Kreditorenkarten jederzeit bearbeiten. Wenn Sie jedoch eine Transaktion für einen Kreditor gebucht haben, können Sie die Karte nicht löschen, da die Posten für die Buchprüfung benötigt werden könnten. Zum Löschen von Kreditorkarten wenden Sie sich an Ihren Microsoft-Partner, um dies über einen Code durchzuführen.
+
+> [!TIP]
+> Sie können die IBAN eines Kreditor-Bankkontos ändern, ohne dass sich die Änderung auf Ihre historischen Überweisungsregistereinträge auswirkt. Überweisungsregistereinträge speichern die Empfänger-IBAN und die Empfänger-Bankkontonummer, die beim Erstellen der Einträge in den Feldern Kreditor Bankkonto und Empfängername auf der Seite Kreditor-Karte angegeben wurden.
+
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>So speichern Sie die Kreditorenkarte als Vorlage
 

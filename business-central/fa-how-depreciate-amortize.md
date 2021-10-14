@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442260"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588301"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Anlagen abschreiben oder amortisieren
 Abschreibung wird verwendet, um die Anschaffungskosten von Anlagen wie Maschinen und Ausrüstung über die Nutzungsdauer zu verteilen. Sie müssen für jede Anlage definieren, wie diese abgeschrieben wird.  
@@ -48,7 +48,10 @@ Einmal monatlich oder in beliebigen anderen Intervallen können Sie die Stapelve
 5. Wählen Sie die Aktion **Buchen**.  
 
 > [!NOTE]
-> Wenn Sie das Feld **Anzahl der Tage erzwingen** auswählen und das Feld **Anzahl der Tage erzwingen** auf einen Wert festgelegt ist, der dazu führt, dass das Buchungsdatum minus dem Wert des Feldes **Anzahl der Tage** ein Datum im vorherigen Kalenderjahr ist, können Sie die Abschreibung nicht buchen. Die Abhilfe besteht darin, den Wert des Feldes **Anzahl der Tage** auf nicht mehr als die berechneten Tage bis zum Buchungsdatum mit 30 Tagen/Monat zu reduzieren ODER das Feld **Geschäftsjahr 365 Tage** im Abschreibungsbuch zu wählen. Wir empfehlen die erste Option, da Sie die Verwendung von 30 Tagen/Monaten für die Abschreibung möglicherweise nicht ändern möchten. Weitere Informationen finden Sie unter [Feld 365 Tage Geschäftsjahr Abschreibung](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> Bekannte Einschränkung: Wenn Sie das Feld **Anzahl der Tage erzwingen** auf Ja festlegen und das Feld **Anzahl der Tage erzwingen** auf einen Wert festgelegt ist, bei dem **Buchungsdatum** minus **Anzahl der Tage** ein Datum im vorherigen Kalenderjahr ergibt, lässt das System Sie die Abschreibung nicht buchen.
+> Sie können dies vermeiden, indem Sie das Feld **Anzahl der Tage** auf höchstens die berechneten Tage bis zum Buchungsdatum mit 30 Tagen/Monat reduzieren ODER das Flag **Geschäftsjahr 365 Tage** im AfA-Buch festlegen.
+> Wir empfehlen die erste Option, da Sie die Verwendung von 30 Tagen/Monaten für die Abschreibung möglicherweise nicht ändern möchten. Weitere Informationen finden Sie unter [Feld 365 Tage Geschäftsjahr Abschreibung](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>So buchen Sie eine AfA aus dem Anlagen Fibu Buch.-Blatt
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagen-Fibu Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  

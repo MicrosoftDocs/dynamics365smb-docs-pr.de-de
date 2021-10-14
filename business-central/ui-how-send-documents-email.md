@@ -1,6 +1,6 @@
 ---
 title: Senden von Belegen und E-Mails
-description: Sie können Inhalt definieren, um in den Text eine E-Mail beispielsweise ein Paypal-Link einzufügen. Bestellanforderungen können auch Dokumente an eine E-Mail-Nachricht angehängt werden.
+description: Sie können Inhalt definieren, um in den Text eine E-Mail beispielsweise ein PayPal-Link einzufügen. Bestellanforderungen können auch Dokumente an eine E-Mail-Nachricht angehängt werden.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435244"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588451"
 ---
 # <a name="send-documents-and-emails"></a>Senden von Belegen und E-Mails
 
-Sie können Informationen und Dokumente wie Verkaufs- und Einkaufsrechnungen sowie Rechnungen ganz einfach per E-Mail direkt von [!INCLUDE[prod_short](includes/prod_short.md)]] austauschen, ohne eine E-Mail-App öffnen zu müssen.  
+Sie können Informationen und Belege, wie z.B. Bestellungen, Verkaufsaufträge und Rechnungen, ganz einfach per E-Mail direkt von [!INCLUDE[prod_short](includes/prod_short.md)] aus weitergeben, ohne eine E-Mail App öffnen zu müssen.  
 
 Sie können fast alle Arten von Dokumenten als PDF-Anhänge senden. Alternativ können Sie ein Berichtslayout einrichten, das Informationen aus dem Dokument im E-Mail-Text sowie Text enthält, der die E-Mail benutzerfreundlicher macht, z. B. eine Standardbegrüßung. Weitere Informationen finden Sie unter [Berichte- und Dokumentenlayouts verwalten](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
-Wenn Sie Rechnungen senden, können Sie Kunden das Bezahlen über einen Zahlungsdienst wie Paypal erleichtern, indem Sie automatisch Informationen und einen Link zum Dienst in die E-Mail einfügen. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
+Wenn Sie Rechnungen senden, können Sie Kunden das Bezahlen über einen Zahlungsdienst wie PayPal erleichtern, indem Sie automatisch Informationen und einen Link zum Dienst in die E-Mail einfügen. Weitere Informationen finden Sie unter [Aktivieren Sie Zahlungen durch Zahlungsverkehr](sales-how-enable-payment-service-extensions.md)
 
 Um E-Mails aus [!INCLUDE[prod_short](includes/prod_short.md)] zu aktivieren starten Sie den Leitfaden zur unterstützten Einrichtung **E-Mail einrichten** im Rollencenter. Weitere Informationen finden Sie unter [E-Mail einrichten](admin-how-setup-email.md).
 
@@ -32,8 +32,8 @@ Um E-Mails aus [!INCLUDE[prod_short](includes/prod_short.md)] zu aktivieren star
 
 In diesem Verfahren wird beschrieben, wie Sie eine gebuchte Verkaufsrechnung als PDF-Datei und mit dokumentenspezifischem E-Mail-Text an eine E-Mail anhängen. <!--update this-->
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie die relevante gebuchte Verkaufsrechnung aus und wählen Sie die Aktion **Drucken/Senden**.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol, geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den entsprechenden Link.
+2. Markieren Sie die Rechnung, wählen Sie die Aktion **Drucken/Senden**, und wählen Sie dann **Senden**.
 3. Wählen Sie dann im Feld **E-Mail** **Ja (Aufforderung für Einstellung)** aus. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).
     
     Wenn das Feld **E-Mail** auf der Seite **Dokument senden an** auf **Ja festgelegt wurde (Aufforderung für Einstellungen)**, dann wird die Seite **Senden per E-Mail** geöffnet und mit der Kontaktperson im Feld **Zu** ergänzt und das Dokument als PDF-Datei angehängt. Geben Sie im Feld **Text** entweder den Text manuell ein oder Sie können definieren, dass das Feld mit einem dokumentspezifischen E-Mail-Text ausgefüllt wird, den Sie eingerichtet haben.
@@ -48,12 +48,13 @@ In diesem Verfahren wird beschrieben, wie Sie eine gebuchte Verkaufsrechnung als
 9. Wählen Sie die Schaltfläche **OK**, um die E-Mail zu senden.
 
 > [!NOTE]  
-> Wenn Sie die E-Mail-Einstellungen nicht jedes Mal ändern wollen, wenn Sie ein Dokument per E-Mail senden, können Sie die Option **Ja** (Standardeinstellungen verwenden) im Feld **E-Mail** auf der Seite **Dokument senden** an auswählen. In diesem Fall wird die Seite **E-Mail senden** nicht geöffnet. Siehe dazu auch Schritt 4. Weitere Informationen finden Sie unter [Einrichten von Sendeprofilen](sales-how-setup-document-send-profiles.md).  
+> Wenn Sie die E-Mail-Einstellungen nicht jedes Mal ändern wollen, wenn Sie ein Dokument per E-Mail senden, können Sie die Option **Ja** (Standardeinstellungen verwenden) im Feld **E-Mail** auf der Seite **Dokument senden** an auswählen. In diesem Fall wird die Seite **E-Mail senden** nicht geöffnet. Siehe dazu auch Schritt 4. Weitere Informationen finden Sie unter [Einrichten von Belegsendeprofilen](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Zum Verfassen und Senden einer E-Mail
+Sie können E-Mails für Kontakte, Kunden, Lieferanten, Verkäufer/Einkäufer und Bankkonten direkt von den Seiten für diese Entitäten aus verfassen. Wählen Sie einfach **Verarbeiten** und dann **E-Mail senden**, um den E-Mail-Editor zu öffnen. Für Bankkonten finden Sie die Aktion **E-Mail senden** unter **Aktionen**.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **E-Mail-Konten** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie das Konto aus, von dem aus die E-Mail gesendet werden soll, und wählen Sie dann die Aktion **E-Mail verfassen** aus.
+> [!TIP]
+> Wenn Sie häufig Nachrichten versenden, die sich ähneln, oder wenn Sie eine Massenkommunikation versenden möchten, z.B. um eine Verkaufskampagne zu bewerben, kann die Verwendung von Word-Vorlagen mit E-Mail den Prozess beschleunigen. Sie können eine Vorlage für Entitäten wie Kunden, Kreditor und Kontakte erstellen, die den Inhalt einer E-Mail-Nachricht für Sie generiert und sogar den Inhalt für den Empfänger anhand der Daten in [!INCLUDE[prod_short](includes/prod_short.md)] personalisiert. Weitere Informationen finden Sie unter [Verwendung von Word-Vorlagen für Massenkommunikation](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Belege, die beim Senden als gedruckt markiert sind
 

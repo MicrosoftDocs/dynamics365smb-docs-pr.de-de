@@ -10,20 +10,21 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 656def609801a85716a4afe57d603fe93eb7569c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770963"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606439"
 ---
 # <a name="auditing-changes-in-business-central"></a>Protokollieren von Änderungen in Business Central
 Eine häufige Herausforderung in vielen Anwendungen zur Unternehmensverwaltung ist die Vermeidung unerwünschter Datenänderungen. Es könnte alles sein – von einer falschen Debitorentelefonnummer bis hin zu einer falschen Buchung in der Finanzbuchhaltung. In diesem Thema werden die Funktionen beschrieben, mit denen Sie herausfinden können, was geändert wurde, wer es geändert hat und wann die Änderung vorgenommen wurde.
 
 ## <a name="about-the-change-log"></a>Informationen zum Änderungsprotokoll 
-Die Änderungsprotokollfunktion ermöglicht die Verfolgung aller direkten Änderungen, die von einem Benutzer an den Daten in der Datenbank vorgenommen werden. Sie müssen jede Tabelle und jedes Feld festlegen, die/das die Anwendung protokollieren soll, und dann das Änderungsprotokoll aktivieren.  
+Die Änderungsprotokollfunktion ermöglicht die Verfolgung aller direkten Änderungen, die von einem Benutzer an den Daten in der Datenbank vorgenommen werden. Sie geben jede Tabelle und jedes Feld an, die das System protokollieren soll, und aktivieren dann das Änderungsprotokoll.  
 
-Das Nachverfolgen von Änderungen kann sich auf die Leistung auswirken, was Sie Zeit kosten kann. Möglicherweise wird auch die Datenbankgröße erhöht, was Sie Geld kosten kann. Um diese Kosten zu senken, sollten Sie Folgendes berücksichtigen:
+Das Nachverfolgen von Änderungen kann sich auf die Leistung auswirken, was Sie Zeit kosten kann. Möglicherweise wird auch die Datenbankgröße erhöht, was Sie Geld kosten kann. Um diese Kalkulationen zu reduzieren, sollten Sie Folgendes beachten:
+
 - Gehen Sie bei der Auswahl der Tabellen und Arbeitsgänge vorsichtig vor.
 - Fügen Sie keine Posten und gebuchten Dokumente hinzu. Priorisieren Sie stattdessen Systemfelder wie „Erstellt von“ und „Erstellungsdatum“.
 - Verwenden Sie nicht den Tracking-Typ „Alle Felder“. Wählen Sie stattdessen „Einige Felder“ und verfolgen Sie nur die wichtigsten Felder.
@@ -32,15 +33,15 @@ Das Änderungsprotokoll basiert auf Änderungen, die an den Daten in den von Ihn
 
 > [!Important]
 > Änderungen werden in **Änderungsprotokollposten** erst angezeigt, nachdem die Sitzung des Benutzers neu gestartet wurde, was folgendermaßen geschieht:
-<br />
+>
 > * Die Sitzung war abgelaufen und wurde aktualisiert.
 > * Der Benutzer hat ein anderes Unternehmen oder Rollencenter ausgewählt.
-> * Der Benutzer hat sich an- und wieder angemeldet.
+> * Der Benutzer hat sich abgemeldet und erneut angemeldet.
 
 ### <a name="working-with-the-change-log"></a>Arbeiten mit dem Änderungsprotokoll
 Sie verwenden die Seite **Änderungsprotokoll einrichten** zum Aktivieren bzw. Deaktivieren des Änderungsprotokolls. Wenn Sie das Änderungsprotokoll aktivieren bzw. deaktivieren, wird diese Aktivität protokolliert, sodass Sie immer sehen, welcher Anwender die Protokollierung an- bzw. abgeschaltet hat.
 
-Wenn Sie auf der Seite **Änderungsprotokoll Einrichtung** die Aktion **Tabellen** wählen, können Sie angeben, welche Tabellen auf Änderungen verfolgt werden sollen, und welche Änderungen verfolgt werden sollen. [!INCLUDE[prod_short](includes/prod_short.md)] verfolgt auch mehrere Systemtabellen.
+Wenn Sie auf der Seite **Einrichtung des Änderungsprotokolls** die Aktion **Tabellen** wählen, können Sie angeben, für welche Tabellen Sie Änderungen verfolgen wollen und welche Änderungen verfolgt werden sollen. Mit [!INCLUDE[prod_short](includes/prod_short.md)] werden auch mehrere Systemtabellen verfolgt.
 
 > [!NOTE]
 > Sie können bestimmte Felder auf Änderungen überwachen, z. B. Felder, die sensible Daten enthalten, indem Sie die Feldüberwachung einrichten. Wenn Sie dies tun, ist die Tabelle, die das Feld enthält, zur Vermeidung von Redundanz nicht für die Einrichtung des Änderungsprotokolls verfügbar. Weitere Informationen finden Sie unter [Überwachen sensibler Felder](across-log-changes.md#monitoring-sensitive-fields).
@@ -60,9 +61,12 @@ Der Schutz sensibler Daten ist für die meisten Unternehmen ein zentrales Anlieg
 > Um den Versand von Benachrichtigungen per E-Mail zu ermöglichen, müssen Sie die E-Mail-Funktion in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten. Weitere Informationen finden Sie unter [E-Mail einrichten](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Einrichten der Feldüberwachung
-Sie können die Anleitung zum unterstützten Setup **Einrichtung der Überwachung von Feldänderungen** verwenden, um die Felder anzugeben, die Sie anhand von Filterkriterien überwachen möchten, z. B. die Klassifizierung der Datensensibilität für die Felder. Weitere Informationen finden Sie unter [Datensensitivität klassieren](admin-classifying-data-sensitivity.md). Mit dieser Anleitung können Sie auch die Person angeben, die bei einer Änderung eine E-Mail-Benachrichtigung erhalten soll, sowie das E-Mail-Konto, das die Benachrichtigungs-E-Mail sendet. Sie müssen sowohl die Benutzerbenachrichtigung als auch das Konto angeben, von dem aus die Benachrichtigung gesendet werden soll. Wenn Sie die Anleitung abgeschlossen haben, können Sie die Einstellungen für die Feldüberwachung auf der Seite **Feldüberwachungseinrichtung** verwalten. 
+Sie können die Anleitung zum unterstützten Setup **Einrichtung der Überwachung von Feldänderungen** verwenden, um die Felder anzugeben, die Sie anhand von Filterkriterien überwachen möchten, z. B. die Klassifizierung der Datensensibilität für die Felder. Weitere Informationen finden Sie unter [Datensensitivität klassieren](admin-classifying-data-sensitivity.md). Mit dieser Anleitung können Sie auch die Person angeben, die bei einer Änderung eine E-Mail-Benachrichtigung erhalten soll, sowie das E-Mail-Konto, das die Benachrichtigungs-E-Mail sendet. Geben Sie sowohl den zu benachrichtigenden Benutzer als auch das Konto an, von dem aus die Benachrichtigung gesendet werden soll. Wenn Sie die Anleitung abgeschlossen haben, können Sie die Einstellungen für die Feldüberwachung auf der Seite **Feldüberwachungseinrichtung** verwalten. 
 
-Im Laufe der Zeit nimmt die Liste der Einträge auf der Seite **Protokolleinträge für überwachte Felder** zu. Um die Anzahl der Einträge zu verringern, können Sie eine Aufbewahrungsrichtlinie erstellen, mit der Einträge nach einem bestimmten Zeitraum gelöscht werden. Weitere Informationen finden Sie unter [Aufbewahrungsrichtlinien definieren](admin-data-retention-policies.md).
+> [!NOTE]
+> Wenn Sie das E-Mail-Konto angeben, von dem die Benachrichtigungen gesendet werden sollen, müssen Sie entweder die Kontotypen **Microsoft 365** oder **SMTP** hinzufügen. Benachrichtigungen sollten von einem Konto aus gesendet werden, das nicht mit einem tatsächlichen Benutzer verbunden ist. Daher können Sie nicht den Kontotyp **Aktueller Benutzer** wählen. Wenn Sie dies tun, werden keine Benachrichtigungen gesendet. 
+
+Im Laufe der Zeit nimmt die Liste der Einträge auf der Seite **Protokolleinträge für überwachte Felder** zu. Um die Anzahl der Einträge zu reduzieren, können Sie eine Aufbewahrungsrichtlinie erstellen, die Einträge nach einer bestimmten Zeitspanne löscht. Weitere Informationen finden Sie unter [Aufbewahrungsrichtlinien definieren](admin-data-retention-policies.md).
 
 Wenn Sie die Feldüberwachung einrichten oder etwas im Setup ändern, werden Einträge für Ihre Änderungen erstellt. Sie können festlegen, ob Einträge im Zusammenhang mit der Überwachungseinrichtung angezeigt werden sollen, indem Sie sie ein- oder ausblenden. 
 
@@ -73,7 +77,13 @@ Sie können Einstellungen für die Feldüberwachung (z. B. ob eine E-Mail-Benac
 
 ### <a name="working-with-field-monitoring"></a>Arbeiten mit der Feldüberwachung
 
-Einträge für alle geänderten Werte für überwachte Felder sind auf der Seite **Protokolleinträge für überwachte Felder** verfügbar. Einträge enthalten beispielsweise Informationen wie das Feld, für das der Wert geändert wurde, die ursprünglichen und neuen Werte sowie die Person, die die Änderung vorgenommen hat und der Zeitpunkt der Änderung. Um eine Änderung genauer zu untersuchen, wählen Sie einen Wert aus, um die Seite zu öffnen, auf der die Änderung vorgenommen wurde. Um eine Liste aller Einträge anzuzeigen, wählen Sie **Feldänderungseinträge** aus.
+Einträge für alle geänderten Werte für überwachte Felder sind auf der Seite **Protokolleinträge für überwachte Felder** verfügbar. Die Einträge enthalten zum Beispiel die folgenden Informationen:
+
+* Das Feld, für das der Wert geändert wurde.
+* Die ursprünglichen und neuen Werte.
+* Wer die Änderung vorgenommen hat und wann er sie vorgenommen hat. 
+
+Um eine Änderung genauer zu untersuchen, wählen Sie einen Wert aus, um die Seite zu öffnen, auf der die Änderung vorgenommen wurde. Um eine Liste aller Einträge anzuzeigen, wählen Sie **Feldänderungseinträge** aus.
 
 ### <a name="viewing-field-monitoring-telemetry"></a>Anzeigen der Feldüberwachungstelemetrie 
 

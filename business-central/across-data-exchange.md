@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 41d7ca5a8ce110d2335dd6a350636d77f2bce2c3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325813"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588376"
 ---
 # <a name="exchanging-data-electronically"></a>Daten elektronisch austauschen
 Sie können das Datenaustauschframework verwenden, um den Austausch von Geschäftsbelegen, Bankdateien, Währungswechselkursen und sämtlichen anderen Datendateien mit Ihren Geschäftspartnern zu verwalten.
 
-In der Standardversion von [!INCLUDE[prod_short](includes/prod_short.md)] wird das Datenaustausch-Framework in Funktionen verwendet, wie z. B. elektronische Dokumente, Import/Export von Bankdateien und Währungswechselkursaktualisierung. Weitere Informationen finden Sie unter [Informationen zum Datenaustauschframework](across-about-the-data-exchange-framework.md).
+In der Standardversion [!INCLUDE[prod_short](includes/prod_short.md)] wird das Data Exchange Framework für Prozesse wie den Austausch elektronischer Belege, den Import und Export von Bankdateien und die Aktualisierung von Sätzen für Währungen verwendet. Weitere Informationen finden Sie unter [Informationen zum Datenaustauschframework](across-about-the-data-exchange-framework.md).
 
-Als Administrator oder Microsoft-Partner können Sie das Framework in neuen Integrationsfunktionen verwenden, indem Sie festlegen, welche Daten ausgetauscht werden sollen und wie. Für weitere Informationen, siehe [Einrichten der Datenaustauschdefinition](across-how-to-set-up-data-exchange-definitions.md).
+Als Administrator oder Microsoft-Partner können Sie das Framework in neuen Funktionen der Integration verwenden, indem Sie die auszutauschenden Daten und die Art des Austauschs festlegen. Für weitere Informationen, siehe [Einrichten der Datenaustauschdefinition](across-how-to-set-up-data-exchange-definitions.md).
 
 Die folgende Tabelle beschreibt eine Reihe von Aufgaben mit Links zu den Themen, die sie beschreiben.  
 
