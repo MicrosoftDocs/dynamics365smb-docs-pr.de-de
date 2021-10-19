@@ -38,7 +38,7 @@ Anhand der Kundenkarte können Sie einen Auszug mit den Transaktionen dieses Kun
 
 ## <a name="reminders"></a>Mahnungen
 
-Bevor Sie Mahnungen erstellen können, müssen zunächst Mahnmethoden eingerichtet und den Debitoren zugeordnet werden. Weitere Informationen finden Sie unter [Einrichten von Betimmungen und Ebenen](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] Die Inhalte der Seite **Zinskonditionen** legen fest, ob auf der Mahnung Zinsen berechnet werden.  
+Bevor Sie Mahnungen erstellen können, müssen zunächst Mahnmethoden eingerichtet und den Debitoren zugeordnet werden. Weitere Informationen finden Sie unter [Einrichten von Bestimmungen und Ebenen](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] Die Inhalte der Seite **Zinskonditionen** legen fest, ob auf der Mahnung Zinsen berechnet werden.  
 
 Der Batchauftrag **Mahnungen erstellen** kann in regelmäßigen Abständen ausgeführt werden, um Mahnungen für alle Debitoren mit überfälligem Saldo zu erstellen. Alternativ können Sie eine Mahnung für einen bestimmten Debitor manuell erstellen und die Zeilen automatisch berechnen und ausfüllen lassen.  
 
