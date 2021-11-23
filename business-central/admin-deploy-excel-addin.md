@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589412"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724612"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Holen Sie sich das Business Central-Add-in für Excel
 
@@ -118,7 +118,7 @@ Das Add-In ist nun mit [!INCLUDE [prod_short](includes/prod_short.md)]\, verbund
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Geräte und Netzwerk für das Excel Add-In vorbereiten
 
-Netzwerkdienste wie Proxies oder Firewalls müssen Arbeitspläne zwischen jedem Client-Gerät, auf dem das Add-In installiert ist, und vielen Service-Endpunkten zulassen. Eine Liste der Endpunkte finden Sie unter [Vorbereiten Ihres Netzwerks für das Excel-Add-In](/dev-itpro/administration/configuring-network-for-addins).
+Netzwerkdienste wie Proxies oder Firewalls müssen Arbeitspläne zwischen jedem Client-Gerät, auf dem das Add-In installiert ist, und vielen Service-Endpunkten zulassen. Eine Liste der Endpunkte finden Sie unter [Vorbereiten Ihres Netzwerks für das Excel-Add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## <a name="troubleshooting"></a>Problembehebung
 

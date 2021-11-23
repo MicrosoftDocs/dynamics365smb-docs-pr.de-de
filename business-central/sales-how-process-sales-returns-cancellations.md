@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
+ms.search.form: 44, 134, 143, 9302
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: 726ca169625852cbae6d53510cd538df5af7ddc3
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 1f346acbfc39eeece4ef5d1eb66c3e81432e3335
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587625"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752443"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen
 

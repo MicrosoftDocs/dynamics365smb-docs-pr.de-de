@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482322"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651487"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration mit Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -97,6 +97,9 @@ Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Tabellen in [
 | Einheit | Einheiten-Gruppe | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Artikel | Produkt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Vertriebskontaktfilter: **Produkt-Typ** ist **Verkaufs-Lager** |
 | Ressource | Produkt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Vertriebskontaktfilter: **Produkt-Typ** ist **Service** |
+| Artikeleinheit | CRM-Einheit |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+| Ressourceneinheit | CRM-Einheit |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
+| Einheiten-Gruppe | CRM Uomschedule | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Debitorenpreisgruppe | VK-Preisliste | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Verkaufspreis | Produkt-Preisliste | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Kontaktfilter: **Verkaufscode** ist nicht leer, **Verkaufsart** ist **Debitorenpreisgruppe** |
 | Verkaufschance | Verkaufschance | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
@@ -104,6 +107,50 @@ Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Tabellen in [
 | Verkaufsrechnungszeile | Rechnungsprodukt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Verkaufsauftrags-Kopf | Verkaufsauftrag | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Verkaufskopffilter: **Dokumentart** ist Auftrag. **Status** ist freigegeben |
 | Hinweise zu Verkaufsaufträgen | Hinweise zu Verkaufsaufträgen | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+
+> [!NOTE]
+> Die Zuordnungen für die Tabellen Artikeleinheit, Ressourceneinheit und Einheitengruppe sind nur verfügbar, wenn Ihr Administrator die Option **Funktionsupdate: Synchronisierung mehrerer Einheiten mit Dynamics 365 Sales** auf der Seite **Funktionsverwaltung** aktiviert hat. Weitere Informationen finden Sie unter [Synchronisieren von Artikeln und Ressourcen mit Produkten in verschiedenen Einheiten](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Weitere Informationen finden Sie unter Synchronisieren von Artikeln und Ressourcen mit Produkten in verschiedenen Einheiten.
+Unternehmen produzieren oder kaufen die Artikel oft in einer Einheit und verkaufen sie dann in einer anderen. Um Artikel zu synchronisieren, die mehrere Maßeinheiten verwenden, müssen Sie den Funktionsschalter **Funktionsupdate: Synchronisierung mehrerer Einheiten mit Dynamics 365 Sales** auf der Seite **Funktionsverwaltung** aktivieren. 
+
+Wenn Sie dies tun, wird eine neue Einheitengruppentabelle erstellt und jedem Artikel und jeder Ressource in [!INCLUDE[prod_short](includes/prod_short.md)] zugewiesen. Auf diese Weise können Sie die Tabellen Einheitengruppe, Artikeleinheit und Ressourceneinheit in [!INCLUDE[prod_short](includes/prod_short.md)] der Dynamics 365 Sales-Einheitengruppe <!--Need to verify this name--> in [!INCLUDE[crm_md](includes/crm_md.md)] zuordnen, wie im folgenden Bild gezeigt.
+
+:::image type="content" source="media/unit group 1.png" alt-text="Tabellenzuordnungen für Einheitengruppen":::
+
+Sie können für jede Einheitengruppe mehrere Einheiten erstellen und die Gruppen den Produkten in [!INCLUDE[crm_md](includes/crm_md.md)] zuweisen. Danach können Sie die Produkte mit Artikeln und Ressourcen in [!INCLUDE[prod_short](includes/prod_short.md)] synchronisieren. Sie können Artikeleinheiten oder Ressourceneinheiten manuell mit einer Einheitengruppe koppeln. Wenn Sie dies tun, wenn die Einheitengruppe für den Artikel oder die Ressource nicht mit einer Einheitengruppe in [!INCLUDE[crm_md](includes/crm_md.md)] gekoppelt, weil die Einheitengruppe nicht existierte, [!INCLUDE[prod_short](includes/prod_short.md)] erstellt automatisch die Einheitengruppe in [!INCLUDE[crm_md](includes/crm_md.md)].
+
+### <a name="mapping-items-and-resources-to-products"></a>Zuordnen von Artikeln und Ressourcen zu Produkten
+Wenn Sie das **Funktionsupdate: Synchronisierung mehrerer Einheiten mit Dynamics 365 Sales** aktivieren, passiert Folgendes:
+
+* Für Elemente und Ressourcen werden neue Zuordnungen erstellt.
+* Vorhandene Zuordnungen werden gelöscht. <!--which mappings?-->
+* Bei einer Datenaktualisierung werden Einheitengruppen für Artikel und Ressourcen erstellt.
+
+Um die neuen Zuordnungen zu verwenden, müssen Sie Einheitengruppen, Artikeleinheiten und Ressourceneinheiten synchronisieren. Sie müssen auch Elemente und Ressourcen neu synchronisieren. 
+
+> [!NOTE]
+> [!INCLUDE[crm_md](includes/crm_md.md)] erlaubt Ihnen nicht, eine Einheitengruppe für ein Produkt zu ändern. Daher müssen Sie Ihre Produkte stilllegen und die Artikel und Ressourcen entkoppeln und dann synchronisieren, indem Sie neue Produkte in [!INCLUDE[crm_md](includes/crm_md.md)] erstellen. 
+
+Die folgenden Schritte beschreiben die Schritte zum Starten der Zuordnung von Einheitengruppen:
+
+1. Stellen Sie sicher, dass Produkte in [!INCLUDE[crm_md](includes/crm_md.md)] nicht mit Gegenständen oder Ressourcen in [!INCLUDE[prod_short](includes/prod_short.md)] gekoppelt sind. Wenn ja, gehen Sie zu **Produkte** und/oder **Ressourcen**, verwenden Sie die Filteroptionen, um die gekoppelten Datensätze auszuwählen, und wählen Sie dann die Option **Dynamics 365 Sales** und dann **Abkoppeln**. Dadurch wird ein Hintergrundjob eingeplant, um die Datensätze zu entkoppeln. Während der Vorgang ausgeführt wird, können Sie seinen Status überprüfen, indem Sie die Aktion **Synchronisationsprotokoll** verwenden. Weitere Informationen finden Sie unter [Koppeln und Synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md). 
+2. Da neue Produkte in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt werden, führen Sie bei neuen Einheitengruppen einen der folgenden Schritte aus, um doppelte Namen zu vermeiden:
+    
+    * Benennen Sie Ihre Produkte um und entfernen Sie sie dann in [!INCLUDE[crm_md](includes/crm_md.md)]. Weitere Informationen finden Sie unter [Produkte zurückziehen (Vertriebshub)](/dynamics365/sales-enterprise/retire-product). Um Ihre Produkte in Microsoft Excel zu bearbeiten, melden Sie sich in Power Apps an, wählen Sie Ihre Umgebung aus, gehen Sie zur Tabelle **Produkt** und wählen Sie die Registerkarte **Daten**. Löschen Sie alle angewendeten Filter. In der Gruppe **Daten** wähle Sie **Daten in Excel bearbeiten** aus. Fügen Sie den gekoppelten Produkten ein Präfix oder Suffix hinzu, und entfernen Sie sie dann.
+    * Stellen Sie Ihre Produkte ein und löschen Sie sie. 
+
+3. Befolgen Sie diese Schritte zum Synchronisieren von **Einheitengruppen**, **Einheit**, **Produkte** und **Ressourcen**:
+    1. Öffnen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die Seite **Dynamics 365 Sales-Verbindungseinrichtung**.
+    2. Verwenden Sie **Vollständige Synchronisierung ausführen** zum Öffnen der Seite **Dataverse Vollständige Synchronisierungsprüfung**.
+    3. Für die Zuordnungen **ARTIKEL ME**, **RESSOURCE ME** und **EINHEITENGRUPPE** wählen Sie die Aktion **Vollständige Synchronisierung empfehlen** aus.
+    4. Wählen Sie die Aktion **Alle synchronisieren** aus.
+
+    > [!NOTE]
+    > Zuordnungen, die noch nicht vollständig synchronisiert wurden, werden durch diese Aktion vollständig synchronisiert. Um zu verhindern, dass diese Zuordnungen synchronisiert werden, löschen Sie die Zuordnungen von der Seite. Dadurch werden sie nur aus der aktuellen vollständigen Synchronisierung entfernt und die Zuordnungen nicht gelöscht.
+    
+5. Wählen Sie die Zuordnung **ARTIKEL-PRODUKT** und dann **Neustarten**. Dadurch werden neue Produkte aus den Artikeln in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt, eine neue Einheitengruppe wird zugewiesen, die für den Artikel spezifisch ist.
+6. Wählen Sie die Zuordnung **RESSOURCE-PRODUKT** und dann **Neustarten**. Dadurch werden neue Produkte aus den Ressourcen in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt, eine neue Einheitengruppe wird zugewiesen, die für die Ressource spezifisch ist.
 
 ### <a name="synchronization-rules"></a>Synchronisierungsregeln
 
@@ -140,7 +187,7 @@ Die folgende Tabelle beschreibt die Standardsynchronisierungsjobs für Sales.
 
 |Aufgabenwarteschlangenposten|Beschreibung|Richtung|Integrationstabellenzuordnung|Standard-Synchronisationsfrequenz (Minuten)|Standard-Inaktivitätsruhezustand (Minuten)|  
 |---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
-|UNITOFMEASURE - Dynamics 365 Sales Synchronisierungsauftrag|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Einheitsgruppen mit [!INCLUDE[prod_short](includes/prod_short.md)]-Maßeinheiten.|Von [!INCLUDE[prod_short](includes/prod_short.md)] nach [!INCLUDE[crm_md](includes/crm_md.md)]|MASSEINHEIT|30|720<br> (12 Std.)|
+|UNITOFMEASURE - Dynamics 365 Sales Synchronisierungsauftrag|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Einheitsgruppen mit [!INCLUDE[prod_short](includes/prod_short.md)]-Maßeinheiten.|Von [!INCLUDE[prod_short](includes/prod_short.md)] nach [!INCLUDE[crm_md](includes/crm_md.md)]|EINHEIT|30|720<br> (12 Std.)|
 |RESSOURCE-PRODUCT - Dynamics 365 Sales Vertriebssynchronisierungsauftrag|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Produkte mit [!INCLUDE[prod_short](includes/prod_short.md)]-Ressourcen.|Von [!INCLUDE[prod_short](includes/prod_short.md)] nach [!INCLUDE[crm_md](includes/crm_md.md)]|RESSOURCE – PRODUKT|30|720<br> (12 Std.)|
 |ARTIKEL - PRODUKT - Dynamics 365 Sales Synchronisierungsauftrag|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Produkte mit [!INCLUDE[prod_short](includes/prod_short.md)]-Artikeln.|Von [!INCLUDE[prod_short](includes/prod_short.md)] nach [!INCLUDE[crm_md](includes/crm_md.md)]|ARTIKEL/PRODUKT|30|1440<br> (24 Std.)|
 |CUSTPRCGRP-PREIS - Dynamics 365 Sales Synchronisierungsauftrag|Synchronisiert [!INCLUDE[crm_md](includes/crm_md.md)]-Verkaufspreislisten mit [!INCLUDE[prod_short](includes/prod_short.md)]-Debitorenpreisgruppen.| |DEBITORENPREISGRUPPEN – VERKAUFSPREISLISTEN|30|1440<br> (24 Std.)|

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a01bbbcb158e975c2b6f21ce2dd2468f8b3fa431
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c27b2c158d817a6e58a72d49d65d75bb8470f65
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443523"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651462"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Die Envestnet Yodlee Bank Feeds Services einrichten
 
@@ -33,7 +33,7 @@ Sie können elektronische Bankauszüge von Ihrer Bank importieren, um die Seite 
 > [!IMPORTANT]
 > Wenden Sie sich an den Microsoft Support, um technische Unterstützung für die Envestnet Yodlee-Funktionalität zu erhalten. Wenden Sie sich nicht an Envestnet Yodlee. Weitere Informationen finden Sie unter [Konfigurieren des technischen Supports für Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
 
-Der Envestnet Yodlee Bank Feeds Service wird als eine Erweiterung zum [!INCLUDE[prod_short](includes/prod_short.md)] online eingerichtet und steht zur Aktivierung in den unterstützten Ländern bereit. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)]](ui-extensions.md) mithilfe der Erweiterungen .
+Der Envestnet Yodlee Bank Feeds Service wird als eine Erweiterung zum [!INCLUDE[prod_short](includes/prod_short.md)] online eingerichtet und steht zur Aktivierung in den unterstützten Ländern bereit. Weitere Informationen finden Sie unter [Anpassen von [!INCLUDE[prod_short](includes/prod_short.md)]](ui-extensions.md) mithilfe der Erweiterungen.
 
 Wenn Sie den Bankfeeddienst aktiviert haben, müssen Sie das beteiligte Bankkonto mit dem Onlinebankkonto verknüpfen, von dem der Feed stammt. In den folgenden unterschiedlichen Szenarios verknüpfen Sie Bankkonten mit Onlinebankkonten:
 
@@ -65,13 +65,13 @@ Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen
     > Diese Seite zeigt die tatsächliche Webseite des Envestnet Yodlee Bank Feeds Service an. Die Terminologie und die Funktionen auf der Seite weichen möglicherweise von den Anweisungen ab, die in diesem Thema bereitgestellt werden.  
 3. Verwenden Sie die Suchfunktion auf der Seite **Onlinebankkonto-Verknüpfung** im Bereich **Konto verknüpfen**, um die Bank zu suchen, bei der Sie ein oder mehrere Onlinebankkonten haben.
 4. Wählen Sie den Banknamen aus. Der Bereich **Anmeldung** wird geöffnet.
-5. Geben Sie den Benutzernamen und das Kennwort, das Sie für die Ameldung bei der Onlinebank verwenden, an, und wählen Sie dann die Schaltfläche **Weiter** .  
+5. Geben Sie den Benutzernamen und das Kennwort, das Sie für die Ameldung bei der Onlinebank verwenden, an, und wählen Sie dann die Schaltfläche **Weiter**.  
 6. Der Bankfeeddienst bereitet die Verknüpfung des ersten Onlinebankkontos der angegebenen Bank mit einem neuen Bankkonto in [!INCLUDE[prod_short](includes/prod_short.md)] vor.
 
     > [!NOTE]  
     > Wenn Sie mehr als ein Onlinebankkonto bei der Bank haben, müssen Sie für alle zusätzlichen Onlinebankkonten weitere Bankkonten in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen. Siehe Schritte 8 bis 10.  
 
-    Nachdem der Vorgang abgeschlossen ist, erscheint die Bankadresse im Bereich **Meine Konten** auf der Registerkarte **Verknüpft** . Die Nummer in Klammern gibt an, wie viele der Online Bankkonten verknüpft wurden.  
+    Nachdem der Vorgang abgeschlossen ist, erscheint die Bankadresse im Bereich **Meine Konten** auf der Registerkarte **Verknüpft**. Die Nummer in Klammern gibt an, wie viele der Online Bankkonten verknüpft wurden.  
 7. Wählen Sie die Schaltfläche **OK** aus.
 
     Wenn Sie nur ein Onlinebankkonto verknüpfen, wird die Seite **Bankkontokarte** geöffnet und zeigt den Namen des Onlinebankkontos an. In diesem Fall ist die Bankkontoverknüpfung abgeschlossen. Jetzt müssen Sie nur noch das Bankkonto einrichten. Weitere Informationen finden Sie unter [So geht's: Einrichten von Bankkonten](bank-how-setup-bank-accounts.md).
@@ -87,16 +87,21 @@ Der Bankfeeddienst wird aktiviert, wenn Sie ein Bankkonto mit den dazugehörigen
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>So verknüpfen Sie ein Bankkonto mit einem Onlinebankkonto
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
-2. Wählen Sie die Zeile des Bankkontos aus, das nicht mit einem Onlinebankkonto verknüpft ist, und wählen Sie dann die Aktion **Verknüpfen mit Onlinebankkonto** . Die Seite **Onlinebankkonto-Verknüpfung** wird für ein neues Bankkonto geöffnet und der Name des Onlinebankkontos ist bereits im Bereich **Konto verknüpfen** eingefügt.
+2. Wählen Sie die Zeile des Bankkontos aus, das nicht mit einem Onlinebankkonto verknüpft ist, und wählen Sie dann die Aktion **Verknüpfen mit Onlinebankkonto**. Die Seite **Onlinebankkonto-Verknüpfung** wird für ein neues Bankkonto geöffnet und der Name des Onlinebankkontos ist bereits im Bereich **Konto verknüpfen** eingefügt.
 3. Wählen Sie den Banknamen aus. Der Bereich **Anmeldung** wird geöffnet.
-4. Geben Sie den Benutzernamen und das Kennwort, das Sie für die Ameldung bei der Onlinebank verwenden, an, und wählen Sie dann die Schaltfläche **Weiter** .  
+4. Geben Sie den Benutzernamen und das Kennwort, das Sie für die Ameldung bei der Onlinebank verwenden, an, und wählen Sie dann die Schaltfläche **Weiter**.  
 
     Der Bankfeeddienst bereitet die Verknüpfung Ihres Bankkontos in [!INCLUDE[prod_short](includes/prod_short.md)] mit dem entsprechenden Onlinebankkonto vor.  
 
-    Wenn der Prozess erfolgreich abgeschlossen ist, erscheint die Bankadresse im Bereich **Meine Konten** auf der Registerkarte **Verknüpft** . Wenn die Bank mehr als ein Bankkonto hat, wird lediglich das Bankkonto, das Sie in Schritt 2 auswählten, verknüpft.  
+    Wenn der Prozess erfolgreich abgeschlossen ist, erscheint die Bankadresse im Bereich **Meine Konten** auf der Registerkarte **Verknüpft**. Wenn die Bank mehr als ein Bankkonto hat, wird lediglich das Bankkonto, das Sie in Schritt 2 auswählten, verknüpft.  
 5. Wählen Sie die Schaltfläche **OK** aus.
 
 Auf der Seite **Bankkontenübersicht** ist das Kontrollkästchen **Verknüpft** aktiviert.
+
+## <a name="to-edit-the-credentials-for-an-online-bank-account"></a>So bearbeiten Sie die Zugangsdaten für ein Online-Bankkonto
+1. Wählen Sie die ![Glühbirne, die das Symbol Tell Me](media/ui-search/search_small.png "Was möchten Sie tun?") öffnet, geben Sie **Bankkonten** ein, und wählen Sie dann den entsprechenden Link.  
+2. Wählen Sie die Zeile des Bankkontos aus, das nicht mit einem Onlinebankkonto verknüpft ist, und wählen Sie dann die Aktion **Online-Bankkontoinformationen bearbeiten**.
+3. Aktualisieren Sie die Anmeldeinformationen.
 
 ## <a name="to-unlink-a-bank-account"></a>So heben Sie die Verknüpfung mit dem Bankkonto auf
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.  

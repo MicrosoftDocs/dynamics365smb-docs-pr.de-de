@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
+ms.search.form: 130, 142, 1350
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e59c48c31e897d235c7920f4231313a2332fdf06
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0f3078a866d6d0a8197b4f44081d566a0bca08ad
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783259"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752555"
 ---
 # <a name="posting-sales"></a>Verkäufe buchen
 

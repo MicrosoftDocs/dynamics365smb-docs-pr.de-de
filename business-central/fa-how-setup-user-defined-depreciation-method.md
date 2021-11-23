@@ -7,13 +7,13 @@ ms.reviewer: edupont
 ms.topic: conceptual
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
-ms.author: a-jillk
-ms.openlocfilehash: 63cfcddf397fce1895fa5ac3a37a66478d7aecac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.author: edupont
+ms.openlocfilehash: 4c55d19f5019e8a9526396d4d253a1f9a9f40844
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440599"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724637"
 ---
 # <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Festlegen von Anlagen mit benutzerdefinierten Abschreibungsmethoden
 

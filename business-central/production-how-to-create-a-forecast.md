@@ -1,6 +1,6 @@
 ---
 title: So erstellen Sie eine Bedarfsplanung
-description: Informieren Sie sich über die Funktion „Planung“ in Business Central und wie Sie Umsatz- und Produktionsprognosen erstellen können.
+description: Informieren Sie sich über die Funktion „Bedarfsplanung“ und wie Sie Umsatz- und Produktionsprognosen erstellen können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c3097e102de7b0f4be6da114245ac1bbb4f4fe0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438687"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643967"
 ---
 # <a name="create-a-demand-forecast"></a>Bedarfsplanung erstellen
 Verkaufs- und Absatzplanungen können auf der Seite **Nachfrageplanung** vorgenommen werden.  
@@ -41,18 +41,17 @@ Sie müssen eine Absatzplanung als *Verkaufsartikel*, *Komponente* oder *Beides*
 ## <a name="component-forecast"></a>Komponentenabsatzplanung  
 Die Komponentenabsatzplanung kann als eine Optionsplanung in Bezug auf einen übergeordneten Artikel angesehen werden. Dies kann beispielsweise hilfreich sein, wenn der Planer den Bedarf für die Komponente schätzen kann.  
 
-Da die Komponentenabsatzplanung dazu verwendet wird, Optionen für einen übergeordneten Artikel zu definieren, muss die Menge für die Komponentenabsatzplanung kleiner gleich der Planungsmenge des Verkaufsartikels sein. Ist die Menge für die Komponentenabsatzplanung größer als die Planungsmenge des Verkaufsartikels, wird die Differenz zwischen diesen beiden Planungsarten als unabhängiger Bedarf angesehen.  
+Da die Komponentenabsatzplanung dazu verwendet wird, Optionen für einen übergeordneten Artikel zu definieren, muss die Menge für die Komponentenabsatzplanung kleiner oder gleich der Planungsmenge des Verkaufsartikels sein. Ist die Menge für die Komponentenabsatzplanung größer als die Planungsmenge des Verkaufsartikels, wird die Differenz zwischen diesen beiden Prognosen als unabhängiger Bedarf angesehen.  
 
 ## <a name="forecasting-periods"></a>Planungsperioden  
- Die Planungsperiode erstreckt sich von ihrem Startdatum bis zu dem Datum, an dem die nächste Absatzplanung beginnt. Auf der Seite für Zeitintervalle haben Sie mehrere Auswahlmöglichkeiten, um den Bedarf für ein bestimmtes Datum einer Periode einzufügen. Es empfiehlt sich daher, den Bereich einer Planungsperiode nicht zu ändern, es sei denn, sie möchten alle Planungsposten auf das Startdatum dieser Periode verschieben.  
+Die Planungsperiode erstreckt sich von ihrem Startdatum bis zu dem Datum, an dem die nächste Absatzplanung beginnt. Auf der Seite für Zeitintervalle haben Sie mehrere Auswahlmöglichkeiten, um den Bedarf für ein bestimmtes Datum einer Periode einzufügen. Es empfiehlt sich daher, den Bereich einer Planungsperiode nicht zu ändern, es sei denn, sie möchten alle Planungsposten auf das Startdatum dieser Periode verschieben.  
 
 ## <a name="forecast-by-locations"></a>Absatzplanung nach Lagerorten  
-
-Es kann auf der Seite **Produktionseinrichtung** festgelegt werden, wie Sie mit Standorten umgehen möchten, die in Prognosen definiert sind, wenn Sie einen Plan berechnen. 
+Es kann auf der Seite **Produktionseinrichtung** festgelegt werden, wie Sie mit Standorten umgehen möchten, die in Prognosen definiert sind, wenn Sie Pläne berechnen. 
 
 ### <a name="use-forecast-by-locations"></a>Planung pro Lagerort verwenden
 
-Wenn Sie das Feld **Verwenden Sie die Prognose nach Standort** verwenden, dann [!INCLUDE[prod_short](includes/prod_short.md)] berücksichtigt alle Standortcodes, die für jeden Bedarfsprognoseeintrag angegeben sind, und berechnet die verbleibende Prognose für jeden Standort.  
+Wenn Sie das Feld **Verwenden Sie die Prognose nach Standort** aktivieren, dann [!INCLUDE[prod_short](includes/prod_short.md)] berücksichtigt alle Standortcodes, die für jeden Bedarfsplanungseintrag angegeben sind, und berechnet die verbleibende Prognose für jeden Standort.  
 
 Betrachten Sie dieses Beispiel: Ihr Unternehmen kauft und verkauft Artikel an zwei Standorten: OST und WEST. Für beide Standorte haben Sie eine Richtlinie für die Neuordnung von Los zu Los konfiguriert. Sie erstellen eine Prognose für die beiden Standorte:
 
@@ -68,7 +67,7 @@ Anschließend legen Sie vor Ort WEST einen Kundenauftrag mit einer Menge von 12 
 >  Beachten Sie aber , dass die Gesamtabsatzplanung möglicherweise nicht repräsentativ ist, wenn auf dem Lagerort basierende Absatzplanungen isoliert angezeigt werden.
 
 ### <a name="do-not-use-forecast-by-locations"></a>Planung pro Lagerort nicht verwenden
-Wenn Sie das Feld **Verwenden Sie die Prognose nach Standort** deaktivieren, dann [!INCLUDE[prod_short](includes/prod_short.md)] berücksichtigt alle Standortcodes, die für jeden Bedarfsprognoseeintrag angegeben sind, und berechnet die verbleibende Prognose für leere Standorte.  
+Wenn Sie das Feld **Verwenden Sie die Prognose nach Standort** deaktivieren, dann [!INCLUDE[prod_short](includes/prod_short.md)] berücksichtigt alle Standortcodes, die für jeden Bedarfsplanungseintrag angegeben sind, und berechnet die verbleibende Prognose für leere Standorte.  
 
 Betrachten Sie dieses Beispiel: Ihr Unternehmen kauft und verkauft Artikel an zwei Standorten: OST und WEST. Für beide Standorte haben Sie eine Richtlinie für die Neuordnung von Los zu Los konfiguriert. Sie erstellen eine Prognose für die beiden Standorte:
 

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return, order
+ms.search.form: 44, 134, 144, 9302
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7e2dbaa1bce2c698191e866e20cca2102d53d26c
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 5461790c834a8809dc2f51dbd4f745da223b5c0c
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589419"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752266"
 ---
 # <a name="process-sales-return-orders"></a>Verkaufsaufträge Rücklieferung verarbeiten  
 

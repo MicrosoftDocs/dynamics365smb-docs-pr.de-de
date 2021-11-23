@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 5263d4ba06cc7b2dc497efb6842a927704c31f35
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482170"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724707"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Verwalten von Speicher durch das Löschen von Dokumenten oder Datenkomprimierung
 
@@ -57,7 +57,7 @@ Sie können die folgenden Arten von Daten mit Batchaufträgen komprimieren. Für
 Wenn Sie Kriterien für die Komprimierung definieren, können Sie die Optionen unter **Feldinhalte beibehalten** verwenden, um den Inhalt bestimmter Felder beizubehalten. Welche Felder zur Verfügung stehen, hängt von den Daten ab, die Sie komprimieren.
 
 > [!NOTE]
-> Bevor Sie die Datenkomprimierung ausführen können, müssen Ihre Analyseansichten auf dem neuesten Stand sein. Weitere Informationen finden Sie unter [So aktualisieren Sie eine Analyseansicht](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+> Bevor Sie die Datenkomprimierung ausführen können, müssen Ihre Analyseansichten auf dem neuesten Stand sein. Weitere Informationen finden Sie unter [So aktualisieren Sie eine Analyseansicht](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
 
 Nach der Komprimierung werden die Inhalte der folgenden Felder in jedem Fall beibehalten: **Buchungsdatum**, **Kreditorennr.**, **Belegart**, **Währungscode**, **Buchungsgruppe**, **Betrag**, **Restbetrag**, **Ursprungsbetrag (MW)**, **Restbetrag (MW)**, **Betrag (MW)**, **Einkauf (MW)**, **Rechnungsrabatt (MW)**, **Skonto gewährt (MW)** und **Skonto möglich**.
 

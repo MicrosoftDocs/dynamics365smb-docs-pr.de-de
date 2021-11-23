@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
-ms.author: a-jillk
-ms.openlocfilehash: dbc160e3a3ad30f408ae602a01bb400f2d7f0fcb
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.author: edupont
+ms.openlocfilehash: 1310596bf328d6f9bc62f1021632137f56cbe8b4
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589424"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724466"
 ---
 # <a name="sales-quick-start"></a>Schnellstart Verkauf
 

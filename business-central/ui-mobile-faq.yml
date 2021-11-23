@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: phone, tablet
-  ms.date: 04/01/2021
+  ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 81887822a3163a7fee0d027ac1969545990f749a
-  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+  ms.openlocfilehash: f0d31833373014ac5f1f089537bf03091540e223
+  ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 05/28/2021
-  ms.locfileid: "6115960"
+  ms.lasthandoff: 11/04/2021
+  ms.locfileid: "7752530"
 title: Mobile Apps FAQ
 summary: "In diesem Artikel werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zu mobilen Apps für [!INCLUDE [prod_short](includes/prod_short.md)] stellen.  \n"
 sections:
@@ -85,4 +85,7 @@ sections:
   - question: >
       Kann ich die App mit unserer lokalen Lösung verbinden?
     answer: "Ja, das können Sie! Es ist eine etwas andere Art, sich anzumelden, das ist alles. Weitere Informationen finden Sie unter [Business Central lokal nutzen?](install-mobile-app.md#using-business-central-on-premises).  \n"
+  - question: >
+      Kann ein Gastbenutzer die App verwenden, um auf unsere Business Central-Lösung zuzugreifen?
+    answer: "Anzahl Gastbenutzer sind eingeladene Benutzer von einem anderen Azure Active Directory (AD) Mandanten als Ihrer. In diesem Fall authentifiziert sich die App beim primären Benutzer des Gastbenutzers Azure AD Mandanten und versucht, den Business Central-Endpunkt auf diesem Mandanten statt auf Ihrem zu öffnen.  \n"
 additionalContent: "\n## <a name=\"see-also\"></a>Siehe auch\n\n[Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  \n[Business Central-App installieren für Microsoft Teams](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]"

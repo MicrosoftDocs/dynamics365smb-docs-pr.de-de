@@ -1078,7 +1078,7 @@
 ##### [Wie Sie Daten für eine Digital-Überwachung einrichten](LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits.md)
 ##### [Wie Sie Daten für eine Digital-Überwachung exportieren](LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit.md)
 ##### [GDPDU-Filterbeispiele](LocalFunctionality/Germany/gdpdu-filter-examples.md)
-##### [Aktualisieren Sie eine .DTD-Definitions-Datei](LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md)
+##### [Aktualisieren Sie eine.DTD-Definitions-Datei](LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md)
 ##### [Wie Sie Daten für eine Digital-Überwachung exportieren](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)
 #### Einkauf
 ##### [Einrichten von Lieferbenachrichtigungen](LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md)
@@ -1229,6 +1229,8 @@
 ##### [Auf MwSt-Transaktionsberichte vorbereiten](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [GuV-Bücher und MwSt-Register drucken und erneut drucken](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Intrastat-Berichte für Italien drucken](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
+#### Quellensteuer
+##### [Quellensteuer in der italienischen Version einrichten](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Quellensteuerberichte drucken](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Banking und Zahlungen
 ##### [Zahlungsbedingungen einrichten](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
@@ -1258,11 +1260,7 @@
 #### [Lokale Funktionen in der mexikanischen Version](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Steuer
 ##### [Einrichten und Generieren von DIOT-Berichten](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Mehrwertsteuer in Mexiko](LocalFunctionality/Mexico/mexico-sales-tax.md)  
-##### [Erwerbsteuer und Umsatzsteuer einrichten](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Unrealisierte MwSt und Verkaufszahlungsrabatte einrichten](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
-##### [MwSt in Mexiko melden](LocalFunctionality/Mexico/mexico-sales-tax.md)
-##### [Einlagen erstellen](LocalFunctionality/Mexico/how-to-create-deposits.md)  
+##### [Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md)  
 ##### [Steuerkennungstypen für Mexiko](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [MwSt-Neuberechnung](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronische Rechnungsstellung
@@ -1274,12 +1272,13 @@
 #### Allgemein
 ##### [PAC-Webdienste einrichten](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Problembehandlungsberichte drucken](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
+##### [Einlagen erstellen](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Niederlande
 #### [Lokale Funktionen in der niederländischen Version](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 #### MwSt.
 ##### [Eine Protokolldatei für die Steuerbehörde erstellen](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [MwSt-Kategorien einrichten](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
+##### [MwSt-Kategorien einrichten](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Elektronische MwSt und ICP-Meldungen](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Elektronische MwSt und ICP-Meldungen einrichten](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Elektronische MwSt und ICP-Meldungen übermitteln](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1290,7 +1289,7 @@
 ##### [Zahlungsszenario 1 - Inlandszahlungen (MW in MW)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Zahlungsszenario 2 - Zahlung in Fremdwährung (FW in FW)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
 ##### [Zahlungsszenario 3 - Zahlung in Fremdwährung (MW in FW)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
-##### [Vorschläge erstellen](LocalFunctionality\Netherlands\how-to-create-proposals.md)
+##### [Vorschläge erstellen](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [Lieferschein-Berichte](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Eingeben und Buchen von Kasse- und Bank- oder Giro-Buch.-Blättern](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Drucken von Testberichten für Kasse und Bank oder Giro-Buch.-Blättern](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
@@ -1298,7 +1297,7 @@
 ##### [SEPA-Zahlungen aktivieren](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Kreditorenzahlungen elektronisch im SEPA ISO 20022-Zahlungsformat übermitteln](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Zahlungsverlauf erstellen und exportieren](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
-##### [Importieren und Abstimmen von Bankabrechnungen](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
+##### [Importieren und Abstimmen von Bankabrechnungen](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
 #### Kernfinanzierung
 ##### [Ausgleichen und Ausgleich Aufheben von Sachposten](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Notwendige Beschreibungen in den Sachkosten](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)

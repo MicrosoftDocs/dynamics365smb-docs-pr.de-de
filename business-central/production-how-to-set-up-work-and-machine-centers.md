@@ -1,5 +1,5 @@
 ---
-title: 'Vorgehensweise: Einrichten von Arbeits- und Servicezeiten | Microsoft Docs'
+title: Arbeitsplätze und Arbeitsplatzgruppen einrichten
 description: Auf einer **Arbeitsplatzgruppenkarte** sind die konstanten Werte und Anforderungen der jeweiligen Fertigungsressource organisiert, und dadurch werden die Istmengen der Fertigung in dieser Arbeitsplatzgruppe gesteuert.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b247cdc220ad522fe42085528df8a25200d6dd48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3cc89545cced46acbe5d148853ac46c4135d251e
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440303"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "7714522"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Arbeitsplätze und Arbeitsplatzgruppen einrichten
 
@@ -55,12 +55,12 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 
     |Option|Beschreibung|
     |------|-----------|
-    |**Manuell**|Der Verbrauch wird manuell im Ausgabe- oder Produktionsjournal gebucht.|
-    |**Vorwärts**|Verbrauch wird automatisch berechenet und gebucht, wenn der Fertigungsftrag freigegeben ist.|
-    |**Rückwärts**|Verbrauch wird automatisch berechenet und gebucht, wenn der Fertigungsftrag beendet ist.|
+    |**Manuell**| Verwendete Zeit, Ausgabe und Ausschuss werden manuell im Ausgabe- oder Produktionsjournal gebucht.|
+    |**"Vorwärts"**|Istmeldung wird automatisch berechnet und gebucht, wenn der Fertigungsauftrag freigegeben ist.|
+    |**Rückwärts**|Istmeldung wird automatisch berechnet und gebucht, wenn der Fertigungsauftrag abgeschlossen ist.|
 
     > [!NOTE]
-    > Gegebenenfalls kann die hier und auf der **Artikelkarte** ausgewählte Buchungsmethode für einzelne Arbeitsgänge überschrieben werden, indem die Einstellungen für Arbeitsgänge geändert wird.
+    > Gegebenenfalls kann die hier ausgewählte Buchungsmethode für einzelne Arbeitsgänge überschrieben werden, indem die Einstellungen für Arbeitsgänge geändert wird.
 
 12. Geben Sie im Feld **Einheitencode** die Zeiteinheit ein, die bei der Kostenberechnung und der Kapazitätsplanung der Arbeitsplatzgruppe zugrunde gelegt werden soll.
     Um regelmäßig den Verbrauch erfassen zu können, müssen Sie zunächst die Buchungsmethode einrichten. Die Einheiten, die Sie eingeben, sind Basiseinheiten. Die Bearbeitungszeit wird z. B. in Stunden und Minuten gemessen.
@@ -77,7 +77,81 @@ Nachfolgend ist beschrieben, wie ein alternativer Arbeitsplatzkalender eingerich
 > [!NOTE]
 > Verwenden Sie Warteschlangenzeiten, um einen Puffer zwischen dem Eintreffen einer Komponente auf einer Maschine oder einem Arbeitsplatz und dem tatsächlichen Start des Vorgangs bereitzustellen. Beispielsweise wird ein Teil um 10:00 Uhr an ein Maschinenzentrum geliefert, die Montage an der Maschine dauert jedoch eine Stunde, sodass der Vorgang erst um 11.00 Uhr beginnt. Um diese Stunde zu berücksichtigen, würde die Wartezeit eine Stunde betragen. Der Wert des Feldes **Warteschlangenzeit** der speziellen Arbeitsplatzkarte oder Arbeitsplatzgruppenkarte plus die Summe der Werte in den Feldern **Einrichtungszeit**, **Ausführungszeit**, **Wartezeit** und **Transportzeit** der Arbeitsgänge des Artikels ergeben zusammen die Produktionsdurchlaufzeit des Artikels. Dies trägt zu genauen Gesamtproduktionszeiten bei.  
 
-## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Beispiel - unterschiedliche Arbeitsplätze, die einer Arbeitsplatzgruppe zugewiesen sind
+## <a name="considerations-about-capacity"></a>Überlegungen zur Kapazität
+
+Die für ein Arbeits- und Maschinenzentrum vorgegebene Kapazität und Effizienz wirken sich nicht nur auf die verfügbare Kapazität aus. Sie wirken sich auch auf die Gesamtproduktionszeit aus, die sich aus der Rüstzeit und der Laufzeit zusammensetzt, die beide auf der Routinglinie definiert werden.  
+
+Wenn eine bestimmte Arbeitsplanlinie einem Arbeitsplatz oder einem Maschinenzentrum zugewiesen wird, berechnet das System, wie viel Kapazität benötigt wird und wie lange es dauert, bis der Vorgang abgeschlossen ist.  
+
+### <a name="run-time"></a>Bearbeitungszeit
+
+Zur Berechnung der Laufzeit vergibt das System genau die Zeit, die im Feld **Laufzeit** der Routinglinie angegeben ist. Weder Effizienz noch Kapazität wirken sich auf die zugewiesene Zeit aus. Wenn die Laufzeit beispielsweise auf 2 Stunden festgelegt ist, beträgt die zugewiesene Zeit 2 Stunden, unabhängig von den Werten in den Feldern Effizienz und Kapazität im Arbeitsplatz.  
+
+> [!NOTE]
+> Die in den Berechnungen verwendete Kapazität ist der minimale Wert zwischen der Kapazität, die im Arbeitsplatz oder Maschinenzentrum definiert ist, und der gleichzeitigen Kapazität, die für die Arbeitsplanlinie definiert ist. Wenn ein Arbeitsplatz eine Kapazität von 100 hat, die gleichzeitige Kapazität für die Arbeitsplanzeile jedoch 2 beträgt, dann wird *2* in den Berechnungen verwendet.
+
+Die *Dauer* einer Operation hingegen berücksichtigt sowohl die Effizienz als auch die Kapazität. Dauer wird berechnet als *Laufzeit / Effizienz / Kapazität*. Die folgende Liste zeigt einige Beispiele für die Berechnung der Dauer für die gleiche Laufzeit, die für die Routinglinie mit 2 Stunden definiert ist:
+
+- Effizienz 80 % bedeutet, dass Sie 2,5 Stunden statt zwei Stunden benötigen  
+- Effizienz 200 % bedeutet, dass Sie die Arbeit in einer Stunde erledigen können – Sie können das Loch zweimal schneller graben, wenn Sie einen Bagger haben, der doppelt so groß ist wie der kleinere.  
+
+    Das gleiche Ergebnis erzielen Sie, wenn Sie statt eines großen zwei kleinere Bagger verwenden – verwenden Sie *2* als die Kapazität und *100 %* als die Effizienz  
+
+Die fraktionale Kapazität ist knifflig, und wir werden sie später besprechen. 
+
+### <a name="setup-time"></a>Rüstzeit
+
+Die Zeitzuteilung für die Rüstzeit ist abhängig von der Kapazität und wird berechnet als *Einrichtungszeit * Kapazität*. Wenn die Kapazität beispielsweise auf *2* eingestellt ist, verdoppelt sich Ihre zugewiesene Rüstzeit, da Sie für den Betrieb zwei Maschinen einrichten müssen.  
+
+*Dauer* der Rüstzeit ist effizienzabhängig und berechnet sich als *Einrichtungszeit / Effizienz*. 
+
+- Effizienz 80 % bedeutet, dass Sie 2,5 Stunden statt zwei Stunden für die Einrichtung benötigen  
+- Effizienz 200 % bedeutet, dass Sie die Einrichtung in 1 Stunde abschließen können statt in 2 Stunden, die in der Routinglinie definiert sind  
+
+Die fraktale Kapazität ist nicht leicht zu erfassen und wird in sehr speziellen Fällen verwendet.
+
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Arbeitsplatz, der mehrere Aufträge gleichzeitig bearbeitet
+
+Nehmen wir als Beispiel eine Lackierkabine. Sie hat die gleiche Einrichtung und Laufzeit für jedes verarbeitete Los. Jedes Los kann jedoch mehrere Einzelaufträge enthalten, die gleichzeitig bemalt werden.  
+
+In diesem Fall werden die Zeit und die Kosten, die den Aufträgen zugeordnet werden, durch die Rüstzeit und die gleichzeitige Kapazität verwaltet. Wir empfehlen, in den Routinglinien keine Laufzeit zu verwenden.  
+
+Die zugewiesene Rüstzeit für jeden einzelnen Auftrag erfolgt in umgekehrter Reihenfolge der Anzahl gleichzeitig ausgeführter Aufträge (Mengen). Hier sind einige weitere Beispiele für die Berechnung der Rüstzeit, wenn diese als zwei Stunden für die Routinglinie definiert ist:
+
+- Bei zwei Aufträgen sollte die gleichzeitige Kapazität in der Routinglinie auf 0,5 gesetzt werden.
+
+    Daher beträgt die zugewiesene Kapazität jeweils eine Stunde, die Dauer für jeden Auftrag jedoch zwei Stunden.
+- Bei zwei Aufträgen mit einer Menge von eins bzw. vier beträgt die gleichzeitige Kapazität für die Leitlinie des ersten Auftrags 0,2 und 0,8 für den zweiten.  
+
+    Dadurch beträgt die zugeteilte Kapazität für den ersten Auftrag 24 min und für den zweiten 96 min. Die Dauer für beide Bestellungen bleibt zwei Stunden.  
+
+In beiden Fällen beträgt die zugewiesene Gesamtzeit für alle Bestellungen zwei Stunden.
+
+
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Effiziente Ressourcen können nur einen Teil ihrer Arbeitszeit der produktiven Arbeit widmen
+
+> [!NOTE]
+> Dies ist kein empfohlenes Szenario. Wir empfehlen, stattdessen Effizienz zu verwenden. 
+
+Einer Ihrer Arbeitsplätze repräsentiert einen erfahrenen Arbeiter, der mit 100 % Effizienz an Aufgaben arbeitet. Aber sie können nur 50 % ihrer Arbeitszeit mit Aufgaben verbringen, weil sie die restliche Zeit administrative Aufgaben lösen. Während dieser Arbeiter in der Lage ist, eine zweistündige Aufgabe in genau zwei Stunden zu erledigen, müssen Sie im Durchschnitt weitere zwei Stunden warten, während die Person andere Aufgaben erledigt.  
+
+Die zugewiesene Laufzeit beträgt zwei Stunden und die Dauer beträgt vier Stunden.  
+
+Verwenden Sie für solche Szenarien keine Rüstzeit, da das System nur 50 % der Zeit zuweist. Wenn die Einrichtungszeit auf *2* eingestellt ist, dann beträgt die zugewiesene Einrichtungszeit eine Stunde und die Dauer beträgt zwei Stunden.
+
+### <a name="consolidated-calendar"></a>Konsolidierter Kalender
+
+Wenn das Feld **Konsolidierter Kalender** ausgewählt ist, hat der Arbeitsplatz keine eigene Kapazität. Stattdessen entspricht seine Kapazität der Summe der Kapazitäten aller Bearbeitungszentren, die dem Arbeitsplatz zugeordnet sind.  
+
+> [!NOTE]
+>  Die Effizienz des Bearbeitungszentrums wird auf die Kapazität des Arbeitsplatzes umgerechnet.
+
+Wenn Sie beispielsweise zwei Bearbeitungszentren mit einer Effizienz von 80 bzw. 70 haben, hat der konsolidierte Kalendereintrag eine Effizienz von 100, eine Kapazität von 1,5 und eine Gesamtkapazität von 12 Stunden (eoithgt Stundenschicht * 1,5 Kapazität). 
+
+> [!NOTE]
+>  Verwenden Sie das Feld **Konsolidierter Kalender**, wenn Sie Ihre Arbeitspläne so strukturieren, dass Produktionsvorgänge auf Maschinenzentrumsebene und nicht auf Arbeitsplatzebene geplant werden. Wenn Sie den Kalender konsolidieren, werden die Seite **Arbeitsplatzbelastung** und Berichte zu einer Übersicht über die Gesamtbelastung in allen Bearbeitungszentren, die dem Arbeitsplatz zugeordnet sind.
+
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Beispiel - unterschiedliche Arbeitsplätze, die einer Arbeitsplatzgruppe zugewiesen sind
 
 Es ist wichtig zu planen, welche Kapazitätsarten die Gesamtkapazität ergeben, wenn Sie Arbeitsplatzgruppen und Arbeitsplätze einrichten.
 

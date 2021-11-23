@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
+ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3d014015946f9202d59127d6e871aa5dd0ec90bd
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 19430c43a0564dc1334d4bc9b314ef6a93e0b65c
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588982"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752292"
 ---
 # <a name="register-new-customers"></a>Neue Debitoren registrieren
 

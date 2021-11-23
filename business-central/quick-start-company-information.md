@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
-ms.author: a-jillk
-ms.openlocfilehash: 1b9a3c48af6ed56cd32b3fa153d259219172c64b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.author: edupont
+ms.openlocfilehash: 6d7bb056b0085ccbac153ea959c12e7f53651a0e
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589415"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724762"
 ---
 # <a name="company-information-quick-start"></a>Unternehmensdaten Schnellstart
 

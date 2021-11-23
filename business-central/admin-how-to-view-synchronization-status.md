@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dce8b5b3d762d3e4d98668530685fdeb9cb58de4
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441318"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7751742"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Status von Synchronisationsaufträgen anzeigen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -28,11 +28,11 @@ Verwenden Sie die Seite **Gekoppelte Datensynchronisationsfehler**, um den Statu
 > [!Note]
 > Die **Fehler bei der gekoppelten Datensynchronisation** Seite zeigt Informationen zu Projekten an, die sich auf gekoppelte Datensätze beziehen. Wenn Sie alle Fehler beheben, aber die Datensätze immer noch nicht synchronisieren, hat dies möglicherweise mit einer Einstellung für die Integration zu tun. In der Regel muss Ihr Administrator diese Fehlertypen beheben.   
 
-<!--
+## <a name="example"></a>Beispiel
+Dieses Video zeigt ein Beispiel für die Behebung von Fehlern, die bei der Synchronisierung mit [!INCLUDE[prod_short](includes/cds_long_md.md)] aufgetreten sind. Der Prozess ist für alle Integrationen derselbe. 
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
--->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Anzeigen und Beheben von Synchronisationsfehlern für gekoppelte Datensätze
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun wollen") Symbol. Geben Sie **Gekoppelte Datensynchronisierungsfehler** ein und wählen Sie dann den entsprechenden Link.
@@ -52,8 +52,13 @@ Verwenden Sie die Seite **Gekoppelte Datensynchronisationsfehler**, um den Statu
 1. Öffnen Sie z.B. einen Debitor, einen Artikel oder jeden anderen Datensatz, der Daten zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und Dataverse oder [!INCLUDE[crm_md](includes/crm_md.md)] synchronisiert.
 2. Wählen Sie die Aktion **Synchronisierungs-Protokoll** aus, um das Synchronisierungsprotokoll für einen ausgewählten Datensatz anzuzeigen. Beispielsweise ein bestimmter Debitor, den Sie manuell synchronisierten.
 
-## <a name="see-also"></a>Siehe auch  
-[Einrichten des Benutzerkontos für die Integration in Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
+## <a name="remove-couplings-between-records"></a>Kopplungen zwischen Datensätzen entfernen
+Wenn bei Ihrer Integration ein Fehler auftritt und Sie Datensätze entkoppeln müssen, um die Synchronisierung zu beenden, können Sie dies für einen oder mehrere Datensätze gleichzeitig tun. Sie können einen oder mehrere Datensätze von Listenseiten oder der Seite **Fehler bei der Synchronisierung gekoppelter Daten** durch Auswahl einer oder mehrerer Zeilen und Auswahl von **Kopplung löschen** entkoppeln. Sie können auch alle Kupplungen für eine oder mehrere Tabellenzuordnungen auf der Seite **Zuordnungen der Integrationstabelle** entfernen. 
+
+Wenn eine Entität mit einer unidirektionalen Kopplung in [!INCLUDE[prod_short](includes/prod_short.md)] gelöscht wird, müssen Sie die unterbrochene Kopplung manuell löschen. Wählen Sie dazu auf der Seite **Gekoppelte Daten-Synchronisationsfehler** die Aktion **Für Gelöschte suchen** und löschen Sie dann die Kopplungen.
+
+## <a name="see-also"></a>Weitere Informationen  
+[Einrichten von Benutzerkonten für die Integration mit Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Verwenden von Dynamics 365 Sales von Business Central](marketing-integrate-dynamicscrm.md)
 
 

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
+ms.search.form: 11, 130
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ee6cdceb716331e2d8338e178def4b8b1e5cfe8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 032faa6e9266f966f0c6393eb1837e1ca9bc9f55
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436701"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752494"
 ---
 # <a name="set-up-shipment-methods"></a>Lieferbedingungen einrichten
 

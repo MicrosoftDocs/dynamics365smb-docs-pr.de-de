@@ -11,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443181"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748961"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Problembehandlung der Konnektivität für Business Central
 
@@ -31,13 +31,22 @@ ms.locfileid: "6443181"
 
 ## <a name="start-the-connectivity-check"></a>Starten Sie die Konnektivitätsprüfung 
 
-1. Wählen Sie [diesen Link](https://businesscentral.dynamics.com/connectivity) oder öffnen Sie Ihren Internet-Browser und geben Sie die folgende URL in die Adresse ein:
+1. Öffnen Sie einen Internetbrowser.
+2. Geben Sie in der Adresse die URL ein, die Sie verwenden, um Business Central zu öffnen und fügen Sie am Ende `/connectivity` hinzu. 
+
+    Wenn Sie zum Beispiel `https://businesscentral.dynamics.com` verwenden, dann geben Sie ein:
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. Auf der Seite **Problembehandlung Konnektivität** wählen Sie **Prüfung starten**.
+    Oder, wenn die URL die Mandanten-ID enthält, z. B. `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, dann Folgendes:
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. Auf der Seite **Problembehandlung Konnektivität** wählen Sie **Prüfung starten**.
 
     Eine Reihe von Prüfungen wird ausgeführt, und das Ergebnis jeder Prüfung wird angezeigt:
 
@@ -45,7 +54,7 @@ ms.locfileid: "6443181"
     - ![Konnektivitätsprüfung fehlgeschlagen.](media/connectivity-failed.png) zeigt an, dass der Check fehlgeschlagen ist. Lesen Sie die Nachricht unterhalb des Checks für weitere Details.
     - ![Konnektivitätsprüfung wurde nicht ausgeführt.](media/connectivity-blocked.png) zeigt an, dass die Prüfung nicht ausgeführt wurde, typischerweise wegen eines Fehlers bei einer früheren Prüfung. Lesen Sie die Nachricht unterhalb des Checks für weitere Details.
 
-3. Um die Prüfung erneut auszuführen, wählen Sie **Prüfung neu starten**.
+4. Um die Prüfung erneut auszuführen, wählen Sie **Prüfung neu starten**.
 
 In den folgenden Abschnitten werden die ausgeführten Prüfungen erläutert und es werden einige Tipps zur Behebung von Problemen gegeben.
 

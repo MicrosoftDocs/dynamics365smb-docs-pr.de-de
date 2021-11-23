@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442700"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752580"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeiten mit Verkauf Rahmenaufträgen oder Einkauf Rahmenbestellungen
 
@@ -67,7 +67,7 @@ Sie können sich den Status einer Rahmenbestellung auf der Seite **Auftragssstat
 - Auf dem Inforegister **Fakturierung** finden Sie zusammengefasste Informationen über die Gesamtmenge in den verschiedenen Feldern **Zu fakturieren** in den Rahmenverkaufsbestellungszeilen.  
 - Auf dem Inforegister **Lieferung** werden zusammengefasste Informationen über die Gesamtmenge in den verschiedenen Feldern **Zu liefern** in den Rahmenverkaufsbestellungszeilen angezeigt.  
 - Auf dem Inforegister **Vorauszahlung** werden zusammenfassende Informationen zu den vorab bezahlten Beträgen angezeigt.  
-- Auf dem Inforegister **Kreditor** werden bestimmte grundlegende Informationen über den Kreditor angezeigt.    
+- Auf dem Inforegister **Kreditor** werden bestimmte grundlegende Informationen über den Kreditor angezeigt.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Um gebuchte und nicht gebuchte Rahmenbestellungszeilen anzuzeigen   
 Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsauftrag und jeder andere Verkaufsbeleg wird beibehalten, nachdem sie als Liste gebuchter und ungebuchter Verkaufsauftrags- und Rechnungszeilen gebucht wurden.  
@@ -76,21 +76,21 @@ Die Verknüpfung zwischen dem Rahmenauftrag und dem daraus stammenden Verkaufsau
 2. Öffnen Sie die Rahmenbestellung, die Sie anzeigen möchten.
 3. Sie können nicht gebuchte Posten anzeigen, indem Sie die entsprechende Zeile markieren und dann auf dem Inforegister  Zeilen auf  Aktionen,  **Zeile**,  **Nicht gebuchte Zeilen** klicken. Wählen Sie eine der folgenden Optionen aus.  
 
-    |Option|Description|
-    |--|--|
-    |**Aufträge**|Gibt mit der ausgewählten Zeile verknüpfte offene Aufträge an.|
-    |**Rechnungen**|Gibt mit der ausgewählten Zeile verknüpfte offene Rechnungen an. Offene Rechnungen werden durch Eingabe der Nummer des Rahmenauftrags in der Verkaufsrechnungszeile manuell mit einem Rahmenauftrag verknüpft.|
-    |**Reklamationen**|Gibt mit der ausgewählten Zeile verknüpfte offene Reklamationen an.|
-    |**Gutschriften**|Gibt mit der ausgewählten Zeile verknüpfte offene Gutschriften an.|
+|Option|Description|
+|--|--|
+|**Aufträge**|Gibt mit der ausgewählten Zeile verknüpfte offene Aufträge an.|
+|**Rechnungen**|Gibt mit der ausgewählten Zeile verknüpfte offene Rechnungen an. Offene Rechnungen werden durch Eingabe der Nummer des Rahmenauftrags in der Verkaufsrechnungszeile manuell mit einem Rahmenauftrag verknüpft.|
+|**Reklamationen**|Gibt mit der ausgewählten Zeile verknüpfte offene Reklamationen an.|
+|**Gutschriften**|Gibt mit der ausgewählten Zeile verknüpfte offene Gutschriften an.|
 
 4. Sie können nicht gebuchte Posten anzeigen, indem Sie die entsprechende Zeile markieren und dann auf dem Inforegister  Zeilen auf  Aktionen,  **Zeile**,  **Nicht gebuchte Zeilen** klicken. Wählen Sie eine der folgenden Optionen aus.  
 
-    |Option|Description|
-    |---|----|
-    |**Lieferungen**|Mit der ausgewählten Zeile verknüpfte gebuchte Lieferungen.|
-    |**Rechnungen**|Mit der ausgewählten Zeile verknüpfte gebuchte Rechnungen.|
-    |**Rücksendungen**|Mit der ausgewählten Zeile verknüpfte gebuchte Rücksendungen.|
-    |**Gutschriften**|Mit der ausgewählten Zeile verknüpfte gebuchte Gutschriften.|
+|Option|Description|
+|---|----|
+|**Lieferungen**|Mit der ausgewählten Zeile verknüpfte gebuchte Lieferungen.|
+|**Rechnungen**|Mit der ausgewählten Zeile verknüpfte gebuchte Rechnungen.|
+|**Rücksendungen**|Mit der ausgewählten Zeile verknüpfte gebuchte Rücksendungen.|
+|**Gutschriften**|Mit der ausgewählten Zeile verknüpfte gebuchte Gutschriften.|
 
 5.  Klicken Sie auf der Seite **Verkaufszeile** auf Zeile **Beleg anzeigen**, um den Posten anzuzeigen.
 

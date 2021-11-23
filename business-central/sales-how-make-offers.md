@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
+ms.search.form: 41, 9300
 ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a3a35738bc15e401edbd0fd3bf02ef50ff015520
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: c4abee09dfe5b0f2d2e26680f2822552747b4b86
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543120"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752391"
 ---
 # <a name="make-sales-quotes"></a>Verkaufsangebote machen
 

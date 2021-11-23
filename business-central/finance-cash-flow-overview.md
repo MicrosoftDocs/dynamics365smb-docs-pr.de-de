@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
 ms.date: 06/08/2021
-ms.author: a-jillk
+ms.author: edupont
 ms.reviewer: edupont
-ms.openlocfilehash: ae259cdccb2dc29882f3aee1a9062cfe0a2f5e73
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444712"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724812"
 ---
 # <a name="cash-flow-overview"></a>Cashflowübersicht
 
