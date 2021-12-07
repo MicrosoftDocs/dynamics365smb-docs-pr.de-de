@@ -1,6 +1,6 @@
 ---
 title: Verfügbare Schriftarten
-description: Die Onlineversion von Business Central enthält vorinstallierte Schriftarten auf den Servern, die beim Generieren von Berichten verwendet werden können.
+description: Erfahren Sie mehr über die vorinstallierten Schriftarten, die Sie für Ihr externe Berichte verwenden können.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: 0cfcf4bcda748ec2f46f24013d887252310596c0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
+ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588024"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7868301"
 ---
 # <a name="available-fonts"></a>Verfügbare Schriftarten
 
@@ -48,15 +48,22 @@ Zusätzlich zu MICR-Schriftarten stehen spezielle Sicherheitsschriftarten zur Ve
 Weitere Informationen finden Sie unter [Scheck-Layout auswählen](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Schriftarten für Barcodes
-Schriftarten zum Generieren eindimensionaler Barcodes sind installiert und können sowohl in Word- als auch in RDLC-Berichtslayouts verwendet werden.
+Schriftarten zum Generieren von Barcodes sind installiert und können sowohl in Word- als auch in RDLC-Berichtslayouts verwendet werden.
 
-Die folgenden Barcode-Symbologien werden unterstützt:
+Die folgenden eindimensionalen Barcode-Symbologien werden unterstützt:
 * Code 3 von 9 (Code 39)
 * Code 128
 * Code 93
 * Codabar
 * MSI
 * Interleaved 2 von 5
+
+Die folgenden zweidimensionalen Barcode-Symbologien werden unterstützt:
+* Aztekisch
+* Datenmatrix
+* Maxicode
+* PDF417
+* QR
 
 Weitere Informationen finden Sie unter [Barcode-Schriftarten mit Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 

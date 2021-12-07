@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8e2b36b4b90e1cc348ef381a6d0f6145a87ed043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: c21d06eaaa9200bb11839d1b2db1666c816638b3
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588726"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865390"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Datensätze zwischen Dataverse und Business Central koppeln und synchronisieren
 
@@ -25,6 +25,7 @@ Dieses Thema beschreibt, wie man einen oder mehrere Datensätze in [!INCLUDE[pro
 > Die Kopplung und Synchronisierung von Daten ist nur verfügbar, wenn Ihr Systemadministrator eine Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und Dataverse oder [!INCLUDE[crm_md](includes/crm_md.md)] hergestellt hat. Eine schnelle Art dies sicherzustellen ist, die Karte **Debitor** zu öffnen und nach der **Kopplung einrichten**-Aktion zu suchen. Wenn die Aktion verfügbar ist, sind die Apps verbunden.   
 
 ## <a name="video-example"></a>Video-Beispiel
+Dieses Video zeigt die Kopplung und Synchronisierung von Daten im Rahmen einer Integration in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 

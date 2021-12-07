@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
-ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
+ms.openlocfilehash: 5aa6849ebb591622828eed1cd40f5bd7be58262d
+ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651487"
+ms.lasthandoff: 11/27/2021
+ms.locfileid: "7865721"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration mit Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -26,7 +26,7 @@ Die Rolle des Verkäufers wird häufig als eine der am meisten nach außen geric
 > Dieses Thema beschreibt den Prozess der Integration der Online-Versionen von [!INCLUDE[crm_md](includes/crm_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] bis [!INCLUDE[prod_short](includes/cds_long_md.md)]. Informationen zur lokalen Konfiguration finden Sie unter [Dynamics 365 Sales für die lokale Integration vorbereiten](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-dataverse"></a>Integrieren über Dataverse
-[!INCLUDE[prod_short](includes/prod_short.md)] lässt sich auch mit der [!INCLUDE[prod_short](includes/cds_long_md.md)] integrieren, was die Verbindung und Synchronisierung von Daten mit anderen Dynamics 365-Anwendungen wie [!INCLUDE[crm_md](includes/crm_md.md)] oder sogar selbst erstellten Anwendungen erleichtert. Wenn Sie zum ersten Mal integrieren, empfehlen wir Ihnen, dies über [!INCLUDE[prod_short](includes/cds_long_md.md)] zu tun. Weitere Informationen finden Sie unter [Integration mit Dataverse](admin-common-data-service.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] lässt sich auch mit der [!INCLUDE[prod_short](includes/cds_long_md.md)] integrieren, was die Verbindung und Synchronisierung von Daten mit anderen Dynamics 365-Anwendungen wie [!INCLUDE[crm_md](includes/crm_md.md)] oder sogar selbst erstellten Anwendungen erleichtert. Wenn Sie zum ersten Mal integrieren, muss dies über [!INCLUDE[prod_short](includes/cds_long_md.md)] erfolgen. Weitere Informationen finden Sie unter [Integration mit Dataverse](admin-common-data-service.md).
 
 Wenn Sie bereits [!INCLUDE[crm_md](includes/crm_md.md)] mit [!INCLUDE[prod_short](includes/prod_short.md)] integriert haben, können Sie die Datensynchronisation mit Ihrem Setup fortsetzen. Wenn Sie jedoch Ihre [!INCLUDE[crm_md](includes/crm_md.md)]-Integration aktualisieren oder ausschalten, müssen Sie, um sie wieder einzuschalten, eine Verbindung über [!INCLUDE[prod_short](includes/cds_long_md.md)] herstellen. Weitere Informationen finden Sie unter [Aktualisierung einer Integration mit Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
 
@@ -134,10 +134,10 @@ Um die neuen Zuordnungen zu verwenden, müssen Sie Einheitengruppen, Artikeleinh
 
 Die folgenden Schritte beschreiben die Schritte zum Starten der Zuordnung von Einheitengruppen:
 
-1. Stellen Sie sicher, dass Produkte in [!INCLUDE[crm_md](includes/crm_md.md)] nicht mit Gegenständen oder Ressourcen in [!INCLUDE[prod_short](includes/prod_short.md)] gekoppelt sind. Wenn ja, gehen Sie zu **Produkte** und/oder **Ressourcen**, verwenden Sie die Filteroptionen, um die gekoppelten Datensätze auszuwählen, und wählen Sie dann die Option **Dynamics 365 Sales** und dann **Abkoppeln**. Dadurch wird ein Hintergrundjob eingeplant, um die Datensätze zu entkoppeln. Während der Vorgang ausgeführt wird, können Sie seinen Status überprüfen, indem Sie die Aktion **Synchronisationsprotokoll** verwenden. Weitere Informationen finden Sie unter [Koppeln und Synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md). 
+1. Stellen Sie sicher, dass Produkte in [!INCLUDE[crm_md](includes/crm_md.md)] nicht mit Gegenständen oder Ressourcen in [!INCLUDE[prod_short](includes/prod_short.md)] gekoppelt sind. Wenn ja, wechseln Sie zu den Seiten **Artikel** und/oder **Ressourcen**, und verwenden Sie die Filteroptionen, um die gekoppelten Datensätze auszuwählen. Verwenden Sie dann die Aktion **Dynamics 365 Sales**, und wählen Sie **Entkoppeln** aus. Dadurch wird ein Hintergrundjob eingeplant, um die Datensätze zu entkoppeln. Während der Vorgang ausgeführt wird, können Sie seinen Status überprüfen, indem Sie die Aktion **Synchronisationsprotokoll** verwenden. Weitere Informationen finden Sie unter [Koppeln und Synchronisieren](admin-how-to-couple-and-synchronize-records-manually.md). 
 2. Da neue Produkte in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt werden, führen Sie bei neuen Einheitengruppen einen der folgenden Schritte aus, um doppelte Namen zu vermeiden:
     
-    * Benennen Sie Ihre Produkte um und entfernen Sie sie dann in [!INCLUDE[crm_md](includes/crm_md.md)]. Weitere Informationen finden Sie unter [Produkte zurückziehen (Vertriebshub)](/dynamics365/sales-enterprise/retire-product). Um Ihre Produkte in Microsoft Excel zu bearbeiten, melden Sie sich in Power Apps an, wählen Sie Ihre Umgebung aus, gehen Sie zur Tabelle **Produkt** und wählen Sie die Registerkarte **Daten**. Löschen Sie alle angewendeten Filter. In der Gruppe **Daten** wähle Sie **Daten in Excel bearbeiten** aus. Fügen Sie den gekoppelten Produkten ein Präfix oder Suffix hinzu, und entfernen Sie sie dann.
+    * Benennen Sie Ihre Produkte um und entfernen Sie sie dann in [!INCLUDE[crm_md](includes/crm_md.md)]. Weitere Informationen finden Sie unter [Produkte zurückziehen (Vertriebshub)](/dynamics365/sales-enterprise/retire-product). Melden Sie sich zur Massenbearbeitung Ihrer Produkte in Microsoft Excel bei Power Apps an, wählen Sie Ihre Umgebung aus, wechseln Sie zur Tabelle **Produkt**, und wählen Sie dann die Registerkarte **Daten** aus. Löschen Sie alle angewendeten Filter. In der Gruppe **Daten** wähle Sie **Daten in Excel bearbeiten** aus. Fügen Sie den gekoppelten Produkten ein Präfix oder Suffix hinzu, und entfernen Sie sie dann.
     * Stellen Sie Ihre Produkte ein und löschen Sie sie. 
 
 3. Befolgen Sie diese Schritte zum Synchronisieren von **Einheitengruppen**, **Einheit**, **Produkte** und **Ressourcen**:

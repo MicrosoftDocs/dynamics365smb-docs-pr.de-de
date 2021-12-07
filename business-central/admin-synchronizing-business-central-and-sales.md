@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 247f1e7b2568cbe323af083ff03349d1afe3de72
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 09990c620dbd6bd3e1cd00af594426851a4c1546
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325210"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865363"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronisieren von Daten in Business Central mit Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,6 +39,10 @@ Wenn die Synchronisierung eingerichtet ist, können Sie die [!INCLUDE[prod_short
 ||Vollständige Synchronisierung aller Daten für alle Tabellenzuordnungen.<br /><br /> Sie können alle Daten in den [!INCLUDE[prod_short](includes/prod_short.md)]-Tabellen und die [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabellen, die zugeordnet werden, synchronisieren, und neue Datensätze oder Tabellen in der Ziellösung für ungekoppelte Datensätze in der Quelllösung erstellen.<br /><br /> Bei der vollständigen Synchronisierung werden alle Daten synchronisiert und die Kopplung ignoriert. Normalerweise führen Sie eine vollständige Synchronisierung durch, wenn Sie die Integration einrichten und nur eine der Lösungen enthält Daten. Eine vollständige Synchronisierung kann auch in einer Demonstrationsumgebung hilfreich sein.|[Ausführen einer vollständigen Synchronisierung](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
 |Geplante Synchronisierung|Synchronisieren Sie alle Änderungen an Daten für alle Tabellenzuordnungen.<br /><br /> Sie können [!INCLUDE[prod_short](includes/prod_short.md)] mit [!INCLUDE[prod_short](includes/cds_long_md.md)] in geplanten Intervallen synchronisieren, indem Sie Projekte in der Projektwarteschlange einrichten.|[Planen einer Synchronisierung](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
+> [!NOTE]
+> Die Synchronisierung zwischen [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] basiert auf der geplanten Ausführung von Jobwarteschlangeneinträgen und garantiert keine Echtzeitdatenkonsistenz zwischen zwei Diensten. Um weitere Informationen zur Datenkonsistenz in Echtzeit zu erhalten, sollten Sie [Virtuelle Business Central-Tabellen](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) oder Business Central-APIs erkunden.   
+
+
 ## <a name="standard-table-mapping-for-synchronization"></a>Standard-Tabellenzuordnung für die Synchronisierung
 Tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)] wie beispielsweise Konten, werden mit äquivalenten Arten von Tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] wie beispielsweise Debitoren integriert. Um mit [!INCLUDE[prod_short](includes/cds_long_md.md)]-Daten zu arbeiten, richten Sie Verknüpfungen, auch Kopplungen genannt, zwischen Tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/prod_short.md)] ein.
 
@@ -52,7 +56,7 @@ Die folgende Tabelle zeigt die standardmäßige Zuordnung zwischen Tabellen in [
 | Verkäufer/Einkäufer | Benutzer | [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] Kontaktfilter: **Status** ist **Nein**, **Benutzer lizenziert** ist **Ja**, Integrationsbenutzermodus ist **Nein** |
 | Debitor | Konto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] Kontofilter: **Beziehungstyp** ist **Debitor** und **Status** ist **Aktiv**. [!INCLUDE[prod_short](includes/prod_short.md)] Filter: **Blockiert** ist leer (Debitor ist nicht blockiert). |
 | Kreditor | Konto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] Kontofilter: **Beziehungstyp** ist **Kreditor** und **Status** ist **Aktiv**. [!INCLUDE[prod_short](includes/prod_short.md)] Filter: **Blockiert** ist leer (Kreditor ist nicht blockiert). |
-| Kontakt | Kontakt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Kontaktfilter: **Type** ist **Person** und der Kontakt wird einem Unternehmen zugewiesen. [!INCLUDE[prod_short](includes/cds_long_md.md)] Kontaktfilter: Der Kontakt wird einem Unternehmen zugeordnet und der übergeordnete Debitorentyp ist **Konto**. |
+| Kontakt | Kontakt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Kontaktfilter: **Type** ist **Person** und der Kontakt wird einem Unternehmen zugewiesen. [!INCLUDE[prod_short](includes/cds_long_md.md)] Kontaktfilter: Der Kontakt wird einem Unternehmen zugeordnet und der übergeordnete Debitorentyp ist **Debitor**. |
 | Währung | Transaktionswährung | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
 > [!NOTE]

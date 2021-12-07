@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444795"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865338"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Hinzufügen von Feldern zu einem Word-Berichtlayout
 Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bilder anzeigen. In diesem Thema wird das Verfahren zum Hinzufügen von Feldern aus einem Berichtsdatasets in ein bestehendes Word-Berichtslayout für einen Bericht beschrieben. Fügen Sie Felder hinzu, indem Sie benutzerdefinierte XML-Abschnitt in Words für den Bericht verwenden und Inhaltssteuerelemente hinzufügen, die den Feldern des Berichtsdatasets zugeordnet sind. Beim Hinzufügen von Feldern ist es erforderlich, dass Sie einiges Wissen über das Dataset des Berichts haben, damit Sie die Felder identifizieren können, die Sie dem Layout hinzufügen möchten.  
@@ -35,7 +35,7 @@ Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bild
   
 3.  Wählen Sie auf der Registerkarte **Entwickler** die Option **XML-Zuordnungs-Bereich** aus.  
   
-4.  Wählen Sie im Bereich **XML-Zuordnung** in der Dropdownliste **Benutzerdefinierter XML-Teil** den benutzerdefinierten XML-Teil für den HINZUGEFÜGTE EINSCHLIESSEN-<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> Bericht aus; in der Regel der letzte in der Liste. Der Name des benutzerdefinierten XML-Abschnitts hat folgendes Format:  
+4.  Im Bereich **XML-Zuordnung** in der Dropdownliste **Benutzerdefinierter XML-Abschnitt** wählen Sie den benutzerdefinierten XML-Abschnitt für den Bericht [!INCLUDE[prod_short](includes/prod_short.md)] aus, der normalerweise der letzte in der Liste ist. Der Name des benutzerdefinierten XML-Abschnitts hat folgendes Format:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -78,7 +78,7 @@ Ein Berichtsdataset kann aus Feldern bestehen, die Bezeichnungen, Daten und Bild
  Bilder werden im linken oberen Teil des Inhaltssteuerelements ausgerichtet und ändern automatisch Ihre Größe proportional entsprechend den Grenze des Inhaltssteuerelements.  
   
 > [!IMPORTANT]  
->  Außerdem können Sie Bilder nur hinzufügen, die in einem Format vorliegen, das von Word unterstützt wird, wie .bmp, .jpeg und PNG-Datei-Typen. Wenn Sie ein Bild hinzufügen, das ein Format hat, das nicht von Word unterstützt wird, erhalten Sie einen Fehler, wenn Sie den Bericht aus dem HINZUGEFÜGTE EINSCHLIESSEN-<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> Client ausführen.  
+>  Außerdem können Sie Bilder nur hinzufügen, die in einem Format vorliegen, das von Word unterstützt wird, wie .bmp, .jpeg und PNG-Datei-Typen. Wenn Sie ein Bild hinzufügen, das ein Format hat, das nicht von Word unterstützt wird, erhalten Sie einen Fehler, wenn Sie den Bericht im Client [!INCLUDE[prod_short](includes/prod_short.md)] ausführen.  
   
 #### <a name="to-add-an-image"></a>Um ein Bild hinzuzufügen  
   
@@ -107,7 +107,7 @@ Die folgende Tabelle enthält eine vereinfachte Übersicht der XML eines benutze
 ### <a name="custom-xml-part-in-word"></a>Benutzerdefinierter XML-Abschnitt in Word  
  In Word öffnen Sie den benutzerdefinierten XML-Abschnitt im **XML-Zuordnung**-Bereich und verwenden anschließend diesen Bereich, um Elemente zu den Inhaltssteuerelementen im Word-Dokument zuzuordnen. Der Bereich **XML-Zuordnung** ist zugänglich von der Registerkarte **Entwickler** (weitere Informationen unter [Anzeigen der Entwickler-Registerkarte auf dem Menüband](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
- Die Elemente im **XML-Zuordnung**-Bereich erscheinen in einer Struktur ähnlich dem XML-Quellcode. Beschriftungsfelder werden unter einem allgemeinen element **Beschriftungen** gruppiert, und Dateneintrag und Spalten sind in einer hierarchischen Struktur angeordnet, die der XML-Quelle entspricht, wobei die Spalten in alphabetischer Reihenfolge aufgeführt werden. Elemente werden durch ihren Namen, wie er durch die Eigenschaft "Name" im Berichts-DataSet-Designer in HINZUGEFÜGTE EINSCHLIESSEN definiert wird, identifiziert<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
+ Die Elemente im **XML-Zuordnung**-Bereich erscheinen in einer Struktur ähnlich dem XML-Quellcode. Beschriftungsfelder werden unter einem allgemeinen element **Beschriftungen** gruppiert, und Dateneintrag und Spalten sind in einer hierarchischen Struktur angeordnet, die der XML-Quelle entspricht, wobei die Spalten in alphabetischer Reihenfolge aufgeführt werden. Elemente werden durch ihren Spaltennamen identifiziert, wie im DataSet des Berichts im AL-Code definiert. Weitere Informationen finden Sie unter [Definieren eines Berichts-Datasets](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
   
  In der folgenden Abbildung wird der einfache benutzerdefinierte XML-Abschnitt aus dem vorherigen Abschnitt im **XML-Zuordnung**-Bereich eines Word-Dokuments dargestellt.  
   
