@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 04/01/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643930"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920955"
 ---
 # <a name="acquire-fixed-assets"></a>Erworbene Anlagen
 Sie müssen für jede Anlage eine Karte mit entsprechenden Informationen zur Anlage einrichten. Sie können Gebäude oder Produktionseinrichtungen als Hauptanlage mit einer Komponentenliste einrichten und sie unterschiedlich gruppieren, z. B. nach Klasse, Abteilung oder Standort. Vor der Anschaffung muß für jede Anlage ein AfA-Buch eingerichtet und zugewiesen werden.
@@ -78,14 +78,14 @@ Wenn Ihnen beim Buchen von Anschaffungskosten ein Fehler unterläuft, können Si
 Wenn Sie also beispielsweise eine Anschaffung mit dem falschen Datum gebucht haben, müssen Sie sie so schnell wie möglich korrigieren, da das Anlagenbuchungsdatum für viele Berechnungen verwendet wird.
 
 > [!IMPORTANT]  
->   Sie können die Funktion **Transaktion stornieren** nicht für Anlagenposten verwenden.
+> Sie können die Funktion **Transaktion stornieren** nicht für Anlagenposten verwenden.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Anlagenposten stornieren** ein und wählen Sie dann den zugehörigen Link.
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten.
-4. Wenn der falsche Posten oder die falschen Posten storniert wurden, können Sie mit dem Buchen der korrekten Anschaffungskosten fortfahren.
-
-Um Posten für mehrere Anlagen gleichzeitig abzubrechen, verwenden Sie die Stapelverarbeitung **Anlagenposten stornieren**.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Anlagenposten** ein, und wählen Sie dann den zugehörigen Link aus.  
+2. Wählen Sie auf der Seite **Anlagenposten** den/die zu stornierenden Einträge aus.  
+3. Wählen Sie das Menü **Aktionen** und dann die Aktion **Posten stornieren** aus.
+4. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Wählen Sie die Schaltfläche **OK**, um den Batchauftrag zu starten.
+6. Wenn der falsche Posten oder die falschen Posten storniert wurden, können Sie mit dem Buchen der korrekten Anschaffungskosten fortfahren.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>So buchen Sie den Restbetrag zusammen mit den Anschaffungskosten
 Sie können den Restwert zusammen mit den Anschaffungskosten aus einem Anlagen Buch.-Blatt buchen.

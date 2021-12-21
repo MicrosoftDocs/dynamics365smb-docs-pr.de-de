@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: d0cea6be92becb3d44507687954f59fcdc6d5de3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e62a4709b493d44487d189dfd9ec5b76bc6987b8
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446165"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921020"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer
 
@@ -31,7 +31,10 @@ Sie können die Berechnungen der MwSt manuell einrichten, aber das kann heikel u
 > [!NOTE]  
 > Hinweis: Sie können den Leitfaden nur nutzen, wenn Sie eine "Meine Unternehmen" erstellt haben, und keine Transaktionen gebucht haben, die Mehrwertsteuer beinhalten. Sonst wäre es sehr einfach, versehentlich unterschiedliche Mehrwertsteuersätze zu verwenden und mit Mehrwertsteuer verknüpfte Berichte würden ungenau.  
 
-Wenn Sie MwSt-Berechnungen einrichten möchten oder einfach mehr über jeden Schritt erfahren möchten, enthält dieses Thema Beschreibungen jedes Schrittes.
+Wenn Sie MwSt-Berechnungen einrichten möchten oder einfach mehr über jeden Schritt erfahren möchten, enthält dieses Thema Beschreibungen jedes Schrittes.  
+
+> [!TIP]
+> [!INCLUDE [prod_short](includes/prod_short.md)] ist in Ländern erhältlich, die keine Mehrwertsteuer verwenden. Informationen zum Einrichten und Melden von Steuern in Ihrem jeweiligen Land finden Sie in den Artikeln des Abschnitts [Lokale Funktionen in Business Central](about-localization.md).  
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Es wird empfohlen, dass Sie die unterstützte Einrichtung verwenden, um die MwSt einzurichten.
 

@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/09/2021
-ms.openlocfilehash: 3dc07c19093ff2068a2d749fdf2b260ea82c4672
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 10/26/2021
+ms.openlocfilehash: bc04ebdbd8092fc480fdaa00043b4e4c49fa823e
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588051"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920928"
 ---
 # <a name="resources-for-help-and-support"></a>Ressourcen für Hilfe und Support
 
@@ -22,7 +22,7 @@ In [!INCLUDE[prod_long](includes/prod_long.md)] haben Sie über das Element Hilf
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-Der Veröffentlichungszyklus 2 von 2021 enthält ein neues Hilfefenster mit einer Registerkarte für die Suche. Verwenden Sie das Suchfeld, um nach Anleitungen zur Verwendung des Produkts, integrierten Funktionalitäten und verfügbaren Schulungsmodulen zu suchen. Abhängig von Ihren Suchbegriffen werden im Fenster 5 oder mehr Links mit einer kurzen Beschreibung angezeigt. Wählen Sie einen Link aus, oder verfeinern Sie Ihre Suchbegriffe. Wenn Sie einen Link auswählen, wird der Zielartikel in einer neuen Browser-Registerkarte geöffnet. Sie können dann die Browser-Registerkarte abdocken, um die relevanten Informationen Seite an Seite mit [!INCLUDE [prod_short](includes/prod_short.md)] zu sehen. Das Fenster bleibt geöffnet, während Sie durch [!INCLUDE [prod_short](includes/prod_short.md)] navigieren, sodass der von Ihnen gesuchte Inhalt sichtbar bleibt.  
+Der Veröffentlichungszyklus 2 von 2021 enthält ein neues Hilfefenster mit einer Registerkarte für die Suche. Verwenden Sie das Suchfeld, um nach Anleitungen zur Verwendung des Produkts, integrierten Funktionalitäten und verfügbaren Schulungsmodulen zu suchen. Abhängig von Ihren Suchbegriffen werden im Fenster mindestens fünf Links mit einer kurzen Beschreibung angezeigt. Wählen Sie einen Link aus, oder verfeinern Sie Ihre Suchbegriffe. Wenn Sie einen Link auswählen, wird der Zielartikel in einer neuen Browser-Registerkarte geöffnet. Sie können dann die Browser-Registerkarte abdocken, um die relevanten Informationen Seite an Seite mit [!INCLUDE [prod_short](includes/prod_short.md)] zu sehen. Das Fenster bleibt geöffnet, während Sie durch [!INCLUDE [prod_short](includes/prod_short.md)] navigieren, sodass der von Ihnen gesuchte Inhalt sichtbar bleibt.  
 
 > [!NOTE]
 > In der aktuellen Version von [!INCLUDE [prod_short](includes/prod_short.md)] gilt das Suchfeld im Hilfebereich nur für Inhalte, die auf der Website docs.microsoft.com veröffentlicht sind.
@@ -85,7 +85,7 @@ Für den langfristigeren Überblick zeigt die [!INCLUDE[prod_short](includes/pro
 Dieser Abschnitt bietet Shortcuts zu, Microsoft AppSource, wo Sie Lösungen und Services von [!INCLUDE[prod_short](includes/prod_short.md)]-Partnern finden können. Verwenden Sie diese Links, um alle Funktionen von [!INCLUDE[prod_short](includes/prod_short.md)] zu erkunden, bevor Sie entscheiden, ob Sie ein Abonnement kaufen möchten. Sie finden auch einen Link zum Vertriebsteam.
 
 > [!NOTE]
-> Dieser Abschnitt ist nur in der Testversion verfügbar. Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] bereits gekauft haben, ist dieser Abschnitt nicht mehr sichtbar.
+> Dieser Abschnitt ist nur in der Online-Testversion von [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar. Wenn Sie [!INCLUDE[prod_short](includes/prod_short.md)] bereits erworben haben, wird dieser Abschnitt nicht mehr angezeigt.
 
 ### <a name="give-feedback"></a>Feedback abgeben
 
@@ -95,9 +95,9 @@ Stellen Sie sicher, dass Sie die Liste nach eingereichten Vorschlägen durchsuch
 
 ### <a name="troubleshooting"></a>Problembehebung
 
-Der Abschnitt **Problembehebung** zeigt technischen Informationen, die Ihr Administrator oder [!INCLUDE[prod_short](includes/prod_short.md)]-Partner verwenden können, um Benutzern zu helfen. Dies beinhaltet Informationen über die letzte Fehlermeldung, die aktuelle Version von Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] und einen Link zur Seite **Seitenüberprüfung**. Weitere Informationen finden Sie unter [Seiten in Business Central überprüfen](across-inspect-page.md).  
+Der Abschnitt **Problembehebung** zeigt technischen Informationen, die Ihr Administrator oder [!INCLUDE[prod_short](includes/prod_short.md)]-Partner verwenden können, um Benutzern zu helfen. Der Abschnitt beinhaltet Informationen über die letzte Fehlermeldung, die aktuelle Version von Ihrem [!INCLUDE[prod_short](includes/prod_short.md)] und einen Link zur Seite **Seitenüberprüfung**. Weitere Informationen finden Sie unter [Seiten in Business Central überprüfen](across-inspect-page.md).  
 
-Um Ihnen oder Ihrem Support-Partner bei der Fehlersuche zu helfen, können Sie im Bereich **Problem melden** eine zusätzliche Protokollierung einschalten. Die zusätzliche Telemetrie können Sie dann z.B. im Administrationscenter oder Application Insights auswerten.  
+Um Ihnen oder Ihrem Support-Partner bei der Fehlersuche zu helfen, können Sie im Bereich **Problem melden** eine zusätzliche Protokollierung einschalten. Die zusätzliche Telemetrie können Sie dann z. B. im Admin Cente oder in Application Insights auswerten.  
 
 Als interner Administrator haben Sie Zugriff auf das Admin Center, in dem Sie die Fehlerbehebung fortsetzen können. Sie können Telemetrie anzeigen, Umgebungen verwalten und Benutzersitzungen verwalten. In den folgenden Artikeln im Administrationsinhalt finden Sie weitere Informationen:
 
@@ -108,18 +108,23 @@ Als interner Administrator haben Sie Zugriff auf das Admin Center, in dem Sie di
 
 ### <a name="report-a-problem"></a>Problem melden
 
-Ihr [!INCLUDE[prod_short](includes/prod_short.md)] Einzelhandelspartner soll Ihnen mit technischem Support helfen. Dieser Abschnitt erleichtert Ihnen den Kontakt zu Ihrem wiederverkaufenden Partner, wenn diese Ihre Support-Kontaktdaten hinterlegt haben. Wenn Ihr [!INCLUDE[prod_short](includes/prod_short.md)] Partner das jeweilige Problem nicht lösen kann, wir er ein Support-Ticket bei Microsoft eröffnen.  
+Ihr [!INCLUDE[prod_short](includes/prod_short.md)] Einzelhandelspartner soll Ihnen mit technischem Support helfen. Dieser Abschnitt erleichtert Ihnen den Kontakt zu Ihrem wiederverkaufenden Partner, wenn diese Ihre Support-Kontaktdaten hinterlegt haben. Wenn Ihr [!INCLUDE[prod_short](includes/prod_short.md)]-Partner das jeweilige Problem nicht lösen kann, wird er ein Support-Ticket bei Microsoft eröffnen.  
 
 Weitere Informationen finden Sie unter [Unterstützungsprobleme zu Microsoft eskalieren](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) im Verwaltungsinhalt.  
 
 > [!NOTE]
-> Dieser Abschnitt ist nur verfügbar, wenn Sie für ein [!INCLUDE[prod_short](includes/prod_short.md)]-Abonnement bezahlt haben. Wenn Sie sich für eine Testversion angemeldet haben und [!INCLUDE[prod_short](includes/prod_short.md)] noch nicht gekauft haben, , haben Sie keinen Wiederverkaufspartner und Sie können das Microsoft-Support- Team nicht direkt kontaktieren. Sie finden einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner auf der Seite [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner).  
+> Bei der Onlineversion von [!INCLUDE[prod_short](includes/prod_short.md)] ist der Abschnitt **Problem melden** nur dann verfügbar, wenn Sie für ein [!INCLUDE[prod_short](includes/prod_short.md)]-Abonnement bezahlt haben. Wenn Sie sich für eine Testversion angemeldet haben und [!INCLUDE[prod_short](includes/prod_short.md)] noch nicht gekauft haben, , haben Sie keinen Wiederverkaufspartner und Sie können das Microsoft-Support- Team nicht direkt kontaktieren. Sie finden einen [!INCLUDE[prod_short](includes/prod_short.md)]-Partner auf der Seite [Ich suche nach einem Lösungsanbieter](https://go.microsoft.com/fwlink/?linkid=2038145). Weitere Informationen finden Sie unter [Wie finde ich einen Vertriebspartner?](/dynamics365/business-central/across-faq#findpartner).  
+>
+> Bei der lokalen Version von [!INCLUDE[prod_short](includes/prod_short.md)] ist dieser Abschnitt nur im 2. Veröffentlichungszyklus 2020 (Version 18) und höher verfügbar.
 
 ### <a name="support-contacts"></a>Support-Kontakte
 
 Der Abschnitt **Ein Problem melden** zeigt eine E-Mail-Adresse oder einen Hyperlink an, damit Sie Kontakt mit dem Kundendienst oder Team aufnehmen können. Wenn Sie der [!INCLUDE[prod_short](includes/prod_short.md)]-Einzelhandelspartner für einen Tenant sind, können Sie Ihre bevorzugten Support-Kontaktdaten im Admin Center einrichten. Weitere Informationen finden Sie unter [Konfigurieren der Support-Erfahrung](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) im Verwaltungsinhalt.  
 
 Um Ihren Partner auf ein Problem aufmerksam zu machen, wählen Sie den Link, um entweder eine E-Mail zu senden oder seine Support-Site in einem neuen Browser-Tab zu öffnen. Sie können dann die technischen Informationen zu Ihrem Azure Active Directory Tenant aus dem **Fehlerbehebung** Abschnitt und alle anderen Informationen, die Sie relevant finden, hinzufügen.  
+
+> [!NOTE]
+> Die Support-Kontaktinformationen sind nicht verfügbar bei der lokalen Version von [!INCLUDE[prod_short](includes/prod_short.md)] nicht verfügbar.
 
 ## <a name="use-the-docsmicrosoftcom-site-to-learn-more"></a>Die docs.microsoft.com-Website verwenden, um weitere Informationen zu erhalten
 
@@ -181,7 +186,7 @@ Im März 2021 erschien unter den meisten Artikeln auf der Website docs.microsoft
 
 ### <a name="tell-us-what-you-think"></a>Sagen Sie uns was Sie denken
 
-Auf docs.microsoft.com sind für jeden Artikel zwei Schaltflächen am Ende des Artikels verfügbar. Über die Schaltfläche *Dieses Produkt* gelangen Sie zur Website „Ideen“ und über die Schaltfläche *Diese Seite* können Sie Feedback zum Inhalt über GitHub senden. In beiden Fällen müssen Sie ein Konto erstellen, falls Sie noch keines haben. Für *Produktfeedback* müssen Sie sich mit Ihrem Arbeits- oder Organisations-E-Mail-Konto anmelden. Für *Zugriff auf GitHub* können Sie beim Erstellen eines Kontos eine beliebige E-Mail-Adresse verwenden.  
+Auf docs.microsoft.com sind für jeden Artikel zwei Schaltflächen am Ende des Artikels verfügbar. Über die Schaltfläche *Dieses Produkt* gelangen Sie zur Website „Ideen“ und über die Schaltfläche **Diese Seite** können Sie Feedback zum Inhalt über GitHub senden. In beiden Fällen müssen Sie ein Konto erstellen, falls Sie noch keines haben. Für *Produktfeedback* müssen Sie sich mit Ihrem Arbeits- oder Organisations-E-Mail-Konto anmelden. Für *Zugriff auf GitHub* können Sie beim Erstellen eines Kontos eine beliebige E-Mail-Adresse verwenden.  
 
 Wir freuen uns über Ihre Beiträge, sowohl als Pull-Anforderung mit Vorschlägen oder als Korrekturen am Inhalt als auch als GitHub-Probleme mit Fehlern oder Fragen. Aber bitte beachten Sie, dass beim Feedback und den Beiträgen zum *dynamic365smb-docs*-Repo um den Inhalt und nicht um das Produkt geht.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: f1000be46bebe766e8f3dd060f44b98a775c1356
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701565"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889836"
 ---
 # <a name="create-prepayment-invoices"></a>Vorauszahlungsrechnungen erstellen
 
@@ -29,7 +29,7 @@ Im Folgenden wird beschrieben, wie eine Vorauszahlung für einen Verkaufsauftrag
 
 ## <a name="to-create-a-prepayment-invoice"></a>So erstellen Sie eine Vorauszahlungsrechnung
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie einen neuen Verkaufsauftrag für den relevanten Debitor. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)  
 
     Auf dem Inforegister **Vorauszahlung** gibt das Feld **Vorauszahlung %** den Prozentsatz an, der zur Berechnung des Vorauszahlungsbetrags verwendet werden soll. Wenn auf der Debitorenkarte ein standardmäßiger Vorauszahlungsprozentsatz angegeben ist, wird das Feld automatisch ausgefüllt. Sie können den Prozentsatz ändern. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
@@ -46,6 +46,9 @@ Im Folgenden wird beschrieben, wie eine Vorauszahlung für einen Verkaufsauftrag
 3. Füllen Sie die Verkaufszeilen aus.  
 
     Wenn Sie einen standardmäßigen Vorauszahlungsprozentsatz für den Debitor oder auf dem Inforegister **Vorauszahlung** in diesem Dokument festgelegt haben, wird dieser Wert in jede Zeile kopiert. Sie können den Inhalt des Felds in der Zeile **Vorauszahlung %** ändern.  
+
+    > [!TIP]
+    > Wenn das Feld **Vorauszahlung %** nicht angezeigt wird, können Sie es durch Personalisierung hinzufügen.  Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
 4. Um den gesamten Vorauszahlungsbetrag anzuzeigen, wählen Sie die Aktion **Statistik**.
 
@@ -72,7 +75,8 @@ Es können weitere Vorauszahlungsrechnungen für den Auftrag ausgegeben werden. 
 [Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)  
 [Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

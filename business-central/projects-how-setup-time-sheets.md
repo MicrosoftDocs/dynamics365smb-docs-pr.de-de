@@ -1,6 +1,6 @@
 ---
 title: Festlegen von Arbeitszeittabellen und deren Genehmigung
-description: Die Arbeitszeittabellen, um die Zeit zu verfolgen, die für Projekte verwendet wurde und Ressourcen verwendet wurde und halfen Ihnen mit Projektmanagement, der Stellenbesetzung und der Kapazität
+description: Sie richten Arbeitszeittabellen ein, um die für Aufgaben und Projekte aufgewendete Zeit zu verfolgen und Ihnen das Projektmanagement, die Stellenbesetzung und die Kapazitätsplanung zu erleichtern.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.date: 10/01/2021
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 72618aaeddae0a72a0c699f19a04a388ced0b9c1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589207"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920980"
 ---
 # <a name="set-up-time-sheets"></a>Einrichten von Arbeitszeittabellen
 
-Arbeitszeittabellen in [!INCLUDE[prod_short](includes/prod_short.md)] erfassen die Zeit in wöchentlichen Schritten von sieben Tagen. Sie verwenden sie, um die Zeit zu verfolgen, die für Projekte verwendet wird, und Sie können sie verwenden, um Ressourcenzeiterfassung um zu erfassen. Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie festlegen, wie sie eingerichtet und konfiguriert werden sollen.
+Arbeitszeittabellen in [!INCLUDE[prod_short](includes/prod_short.md)] erfassen die Zeit in wöchentlichen Schritten von sieben Tagen. Sie können sie verwenden, um die für Projekte aufgewendete Zeit zu verfolgen und um die Ressourcenzeiterfassung aufzuzeichnen. Bevor Sie Arbeitszeittabellen verwenden können, müssen Sie angeben, welche Benutzer Arbeitszeittabellen übermitteln und wie Sie Arbeitszeittabellen konfigurieren möchten.  
 
-Nachdem Sie eingerichtet haben, wie Ihre Organisation Arbeitszeittabellen verwendet, können Sie angeben, wann und wie Arbeitszeittabellen genehmigt werden. Abhängig von den Anforderungen Ihrer Organisation, können Sie festlegen:
+> [!TIP]
+> In [!INCLUDE [prod_short](includes/prod_short.md)] sind die Benutzer von Arbeitszeittabellen *Ressourcen*. Auf diese Weise können Sie beispielsweise Arbeitszeittabellen verwenden, um die Arbeit von Nichtmitarbeitern zu verfolgen. Um die Arbeit Ihrer eigenen Mitarbeiter zu verfolgen oder Arbeitszeittabellen zum Verfolgen von Mitarbeiterabwesenheiten zu verwenden, müssen Sie *Mitarbeiter* *Ressourcen* im Einrichtungsleitfaden zuordnen.  
+
+Geben Sie optional an, ob und wie Arbeitszeittabellen genehmigt werden. Abhängig von den Anforderungen Ihrer Organisation, können Sie festlegen:
 
 * Einen oder mehrere Benutzer als Arbeitszeittabellenadministrator und Genehmiger für alle Arbeitszeittabellen.
 * Ein Arbeitszeittabellengenehmiger für jede Ressource.
 
-Wenn Sie Arbeitszeittabellen eingerichtet haben, können Sie Arbeitszeittabellen für Ressourcen erstellen, sie Projektplanungszeilen zuweisen und Arbeitszeittabellenzeilen buchen. Weitere Informationen finden Sie unter [Verwenden von Arbeitszeittabellen](projects-how-use-time-sheets.md).  
+Wenn Sie Arbeitszeittabellen eingerichtet haben, können Sie Arbeitszeittabellen für Ressourcen erstellen und die Ressourcen können Arbeitszeittabellenzeilen buchen. Weisen Sie Arbeitszeittabellen optional Projektplanungzeilen zu. Weitere Informationen finden Sie unter [Verwenden von Arbeitszeittabellen](projects-how-use-time-sheets.md).  
 
 ## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Arbeitszeittabellen mit der Anleitung zur unterstützten Einrichtung festlegen
 
@@ -42,6 +45,8 @@ Ab dem Veröffentlichungszyklus 2021 2 können Sie eine Anleitung zur unterstüt
 Die Anleitung zur unterstützten Einrichtung führt Sie durch die folgenden Schritte:
 
 1. Legen Sie die Teilnehmer an den Arbeitszeittabellenprozessen fest
+
+    Die erste Seite in der Anleitung zeigt die Anzahl der Benutzer in [!INCLUDE [prod_short](includes/prod_short.md)] an. Dort werden außerdem andere erforderliche und optionale Informationen angezeigt.  
 2. Legen Sie den ersten Tag einer Arbeitswoche in dieser Organisation fest
 
     Der erste Tag einer Arbeitswoche ist standardmäßig der erste Tag für alle Arbeitszeittabellen.
@@ -50,10 +55,7 @@ Die Anleitung zur unterstützten Einrichtung führt Sie durch die folgenden Schr
     Diese Person kann alle Arbeitszeittabellen bearbeiten und löschen. Optional können Sie auf der Seite **Benutzereinrichtung** anderen Personen die gleiche Rolle zuweisen.
 4. Legen Sie die Ressourcen fest, die Arbeitszeittabellen verwenden werden, und die Personen, die Arbeitszeittabellen genehmigen werden
 
-    > [!NOTE]
-    > Bei Projekten und Aufträgen sind die Benutzer von Arbeitszeittabellen *Ressourcen*, nicht Mitarbeiter. Um also die Arbeit Ihrer Mitarbeiter verfolgen zu können, müssen Sie in der Anleitung zur Einrichtung Ressourcen mit Mitarbeitern verknüpfen.
-
-Am Ende der Anleitung zur Einrichtung können Sie festlegen, dass [!INCLUDE [prod_short](includes/prod_short.md)] die Arbeitszeittabellen auf der Grundlage Ihrer Konfiguration erstellt. Alternativ können Sie die Anleitung zur unterstützten Einrichtung erneut ausführen oder die Einrichtung manuell vornehmen.  
+Am Ende der Anleitung zur Einrichtung können Sie festlegen, dass [!INCLUDE [prod_short](includes/prod_short.md)] die Arbeitszeittabellen auf der Grundlage Ihrer Konfiguration erstellt. Zeigen Sie die neuen Arbeitszeittabellen auf der Seite **Arbeitszeittabellen** an, die Sie [hier](https://businesscentral.dynamics.com/?page=951) öffnen können. Alternativ können Sie die Anleitung zur unterstützten Einrichtung erneut ausführen oder die Einrichtung manuell vornehmen.  
 
 ## <a name="set-up-time-sheets-manually"></a>Arbeitszeittabellen manuell festlegen
 
@@ -61,7 +63,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie Arbeitszeittabellen festl
 
 ### <a name="to-set-up-general-information-for-time-sheets-manually"></a>So legen Sie die allgemeinen Informationen für Arbeitszeittabellen manuell fest
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Ressourcen Einr.** ein und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") aus, geben Sie **Ressourcen Einr.** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Für das Feld **Arbeitszeittabelle nach Projekt-Genehmigung** wählen Sie eine der folgenden Optionen aus.
 
@@ -92,9 +94,9 @@ In den folgenden Abschnitten wird beschrieben, wie Sie Arbeitszeittabellen festl
 
 ## <a name="see-also"></a>Weitere Informationen
 
-[Verwenden von Arbeitszeittabellen für Projekte](projects-how-use-time-sheets.md)  
+[Arbeitszeittabellen für Projekte verwenden](projects-how-use-time-sheets.md)  
 [Zeittabellen erstellen](projects-how-use-time-sheets.md#to-create-time-sheets)  
-[Verbrauch oder Nutzung für Aufträge erfassen](projects-how-record-job-usage.md)  
+[Verbrauch oder Nutzung für Projekt erfassen](projects-how-record-job-usage.md)  
 [Projektmanagement einrichten](projects-setup-projects.md)  
 [Projektmanagement](projects-manage-projects.md)  
 [Finanzen](finance.md)  

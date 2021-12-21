@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 44dd13f986098283d29e58d3e8c4ce0218b4a083
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660181"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921058"
 ---
 # <a name="update-currency-exchange-rates"></a>Währungswechselkurse aktualisieren
 
@@ -174,7 +174,10 @@ Den Differenzposten werden die Vorgabedimensionen der Konten zugewiesen, auf die
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>So richten Sie einen Währungswechselkurs-Service ein
-Sie können einen externen Service verwenden, um Ihre Währungswechselkurse wie FloatRates auf dem neuesten Stand zu halten.
+Sie können einen externen Service verwenden, um Ihre Währungswechselkurse wie FloatRates auf dem neuesten Stand zu halten. 
+
+> [!NOTE]
+> Die meisten Wechselkursdienste stellen Daten bereit, die mit dem Importprozess in [!INCLUDE[prod_short](includes/prod_short.md)] kompatibel sind. Manchmal sind die Daten jedoch anders formatiert, und Sie müssen Ihren Importvorgang anpassen. Sie können dazu das Datenaustauschframework verwenden, indem Sie Ihre eigene Codeunit hinzufügen. Dazu benötigen Sie wahrscheinlich die Hilfe eines Entwicklers. Für weitere Informationen, siehe [Einrichten der Datenaustauschdefinition](across-how-to-set-up-data-exchange-definitions.md).
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Währungswechselkurs-Dienste** ein und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Aktion **Neu** aus.

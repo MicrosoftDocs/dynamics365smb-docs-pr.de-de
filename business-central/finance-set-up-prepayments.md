@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: a09f0cd35c62b65bf690fd785c0fc9a4b4b178d7
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701515"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889820"
 ---
 # <a name="set-up-prepayments"></a>Vorauszahlungen einrichten
+
 Wenn Sie von Ihren Debitoren erwarten, dass diese vor der Lieferung eines Auftrags eine Vorauszahlung leisten oder wenn der Kreditor von Ihnen eine Vorauszahlung vor Lieferung erwartet, können Sie die Funktion "Vorauszahlung" verwenden. Die Vorauszahlungsfunktionalität ermöglicht es Ihnen, von Debitoren geforderte Kautionen in Rechnung zu stellen und einzuziehen oder Kautionen an Kreditoren zu überweisen, um sicherzustellen, dass alle Teilzahlungen gegen eine Rechnung gebucht werden. Weitere Informationen finden Sie unter [Vorauszahlungsrechnungen erstellen](finance-how-to-create-prepayment-invoices.md).
 
 Damit Vorauszahlungsrechnungen gebucht werden können, müssen in der Finanzbuchhaltung zunächst die Buchungskosten sowie die Nummernserien für Vorauszahlungsbelege eingerichtet werden. Sie müssen ein Konto für Vorauszahlungen im Zusammenhang mit Verkäufen und ein Konto für Vorauszahlungen im Zusammenhang mit dem Einkauf angeben. Sie können dieselben Buchungskonten angeben, die für alle Vorauszahlungen für alle allgemeinen Geschäftsbuchungsgruppen oder allgemeinen Produktbuchungsgruppen verwendet werden sollen, oder Sie können bestimmte Konten für bestimmte Buchungsgruppen für den Verkauf bzw. Einkauf angeben. Dies hängt von den Anforderungen Ihres Unternehmens zur Nachverfolgung von Vorauszahlungen ab.  
@@ -23,6 +24,7 @@ Sie können den Prozentsatz des zur Zahlung fakturierten Zeilenbetrags für eine
 
 > [!NOTE]
 > Wir empfehlen, in den folgenden Fällen keinen Vorauszahlungsprozentsatz von 100 % zu verwenden:
+>
 > * Wenn Sie sich in Nordamerika befinden. Aufgrund der Berechnung der Steuern kann ein Vorauszahlungsprozentsatz von 100 % zu Problemen mit Vorauszahlungsrechnungen führen.
 > * In allen Regionen, wenn Sie manuell ein Skonto von der Rechnung abziehen. Bei einem Vorauszahlungsprozentsatz von 100 % verbleibt nicht automatisch ein Betrag, von dem das Skonto abgezogen werden kann. 
 
@@ -33,10 +35,10 @@ Da der vorausgezahlte Betrag Eigentum des Käufers ist, bis dieser die Ware oder
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>So fügen Sie Vorauszahlungskonten zu "Buchungsmatrix Einrichtung" hinzu:  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Allgemeine Buchungsmatrixeinrichtung** ein, und wählen Sie dann den zugehörigen Link.
-2. Auf der Seite **Buchungsmatrix Einrichtung** müssen die folgenden Felder ausgefüllt werden:  
+2. Auf der Seite **Buchungsmatrix Einrichtung** müssen die folgenden Felder für die entsprechenden Zeilen ausgefüllt werden:  
 
-    - **Verkaufsvorauszahlungs-Konto**  
-    - **Einkaufsvorauszahlungs-Konto**  
+    * **Verkaufsvorauszahlungs-Konto**  
+    * **Einkaufsvorauszahlungs-Konto**  
 
 > [!TIP]
 > Wenn Sie die Felder auf der Seite **Buchungsmatrix einrichten** nicht sehen können, verwenden Sie die horizontale Bildlaufleiste am unteren Rand der Seite, um nach rechts zu scrollen.  
@@ -46,16 +48,16 @@ Wenn Sie das Sachkonto für Vorauszahlungen nicht bereits eingerichtet haben, k�
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>So richten Sie Nummernserien für Vorauszahlungsbelege ein:  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.
-2. Füllen Sie auf der Seite **Debitoren & Verkauf Einr.** die folgenden Felder aus:  
+2. Füllen Sie auf der Seite **Debitoren & Verkauf Einr.** im Inforegister **Nummernserie** die folgenden Felder aus.  
 
-   - **Geb. Vorauszahlungs-Rechnungsnr.**
-   - **Geb. Vorauszahlungs-Gutschriftennr.**
+   * **Geb. Vorauszahlungs-Rechnungsnr.**
+   * **Geb. Vorauszahlungs-Gutschriftennr.**
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kredite und Einkauf Einr. ein** und wählen Sie dann den entsprechenden Link.
-2. Füllen Sie auf der Seite **Kreditoren & Einkauf Einr.** die folgenden Felder aus:
+3. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Kredite und Einkauf Einr. ein** und wählen Sie dann den entsprechenden Link.
+4. Füllen Sie auf der Seite **Kreditoren & Einkauf Einr.** im Inforegister **Nummernserie** die folgenden Felder aus:
 
-    - **Geb. Vorauszahlungs-Rechnungsnr.**
-    - **Geb. Vorauszahlungs-Gutschriftennr.**
+    * **Geb. Vorauszahlungs-Rechnungsnr.**
+    * **Geb. Vorauszahlungs-Gutschriftennr.**
 
 > [!NOTE]  
 > Für Vorauszahlungsrechnungen und reguläre Rechnungen können dieselben oder unterschiedliche Nummernserien verwendet werden. Unterschiedliche Nummernserien dürfen sich nicht überschneiden, d. h. es darf keine Nummer in beiden Serien gleichzeitig vorhanden sein.  
@@ -74,6 +76,9 @@ Für einen Debitor oder Kreditor können Sie einen standardmäßigen Vorauszahlu
 2. Öffnen Sie eine Karte für einen Debitor.
 3. Füllen Sie das Feld **Vorauszalung %** aus.
 4. Wiederholen Sie die Schritte für die anderen Debitoren oder Kreditoren.  
+
+> [!TIP]
+> Sie können auch die Seite **Verkaufsvorauszahlungs-Prozentsätze** über die Debitoren- oder Kreditorenkarte aufrufen.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>So stellen Sie fest, welcher Vorauszahlungsprozentsatz die höchste Priorität hat:  
 

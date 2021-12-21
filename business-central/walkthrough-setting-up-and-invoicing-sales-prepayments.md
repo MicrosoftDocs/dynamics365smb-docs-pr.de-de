@@ -8,41 +8,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 6671db4d40b8c57d5144ca23f01bb8c5c176ac42
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dbdab93af8aafdc9b0558ed8979f04751131cb26
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445176"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889873"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
+Diese exemplarische Vorgehensweise führt Sie durch den Prozess der Einrichtung und die Verwendung von Vorauszahlungen in [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
-Vorauszahlungen sind Zahlungen, die vor der finalen Fakturierung fakturiert und auf einen Vorauszahlungsauftrag (Einkauf oder Verkauf) gebucht werden. Sie können z. B. eine Anzahlung vor der Auftragsfertigung von Artikeln oder eine Zahlung vor der Lieferung an einen Debitoren verlangen. Mithilfe der Vorauszahlungsfunktion von [!INCLUDE[prod_short](includes/prod_short.md)] können Sie Anzahlungen von Debitoren fakturieren und einfordern oder Anzahlungen an Kreditoren leisten. Somit können Sie sicherstellen, dass alle Zahlungen mit einer Rechnung ausgeglichen werden.  
+[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
-Die Vorauszahlungsanforderungen können für einen Debitor, einen Kreditor, für alle Artikel oder für ausgewählte Artikel definiert werden. Nach dem Festlegen der erforderlichen Einstellungen können Vorauszahlungsrechnungen für den berechneten Vorauszahlungsbetrag auf der Grundlage von Aufträgen und Bestellungen generiert werden. Die Standardbeträge auf der Rechnung können Sie je nach Anforderung ändern. Sie haben zum Beispiel auch die Möglichkeit zum Senden weiterer Vorauszahlungsrechnungen, für den Fall, dass dem Auftrag weitere Artikel hinzugefügt wurden.  
+Sie haben zum Beispiel auch die Möglichkeit zum Senden weiterer Vorauszahlungsrechnungen, für den Fall, dass dem Auftrag weitere Artikel hinzugefügt wurden.  
 
 ## <a name="about-this-walkthrough"></a>Informationen zu dieser exemplarischen Vorgehensweise  
 
 In dieser exemplarischen Vorgehensweise werden folgende Szenarios behandelt:  
 
--  Einrichten von Vorauszahlungen  
--  Erstellen eines Auftrags, der eine Vorauszahlung erfordert  
--  Erstellen einer Vorauszahlungsrechnung  
--  Korrigieren der Vorauszahlungsanforderungen für einen Auftrag  
--  Ausgleichen von Vorauszahlungen für einen Auftrag  
--  Fakturieren des Endbetrags für einen Auftrag mit Vorauszahlung  
+- Einrichten von Vorauszahlungen  
+- Erstellen eines Auftrags, der eine Vorauszahlung erfordert  
+- Erstellen einer Vorauszahlungsrechnung  
+- Korrigieren der Vorauszahlungsanforderungen für einen Auftrag  
+- Ausgleichen von Vorauszahlungen für einen Auftrag  
+- Fakturieren des Endbetrags für einen Auftrag mit Vorauszahlung  
 
 ### <a name="roles"></a>Rollen
 
 Diese exemplarische Vorgehensweise umfasst Aufgaben für folgende Rollen:  
 
--  Debitorenbetreuerin (Heike)  
--  Auftragsbearbeiterin (Martha)  
--  Debitorenadministrator (Peter)  
+- Debitorenbetreuerin (Heike)  
+- Auftragsbearbeiterin (Martha)  
+- Debitorenadministrator (Peter)  
 
 ## <a name="story"></a>Hintergrund
 
@@ -64,21 +64,21 @@ Diese exemplarische Vorgehensweise umfasst Aufgaben für folgende Rollen:
 
 Die Debitorenbetreuerin Heike richtet das System zur Verarbeitung von Vorauszahlungen für Debitoren ein.  
 
--  Heike entscheidet sich, für Vorauszahlungen die gleichen Nummernserien zu verwenden wie für die Fakturierung von Verkaufsaufträgen.  
--  Heike richtet die Anwendung so ein, dass die Notwendigkeit von Vorauszahlungen vor der endgültigen Fakturierung eines Auftrags überprüft wird.  
--  Heike legt Standardwerte für den erforderlichen Vorauszahlungsprozentsatz für bestimmte Artikel und Debitoren fest.  
+- Heike entscheidet sich, für Vorauszahlungen die gleichen Nummernserien zu verwenden wie für die Fakturierung von Verkaufsaufträgen.  
+- Heike richtet die Anwendung so ein, dass die Notwendigkeit von Vorauszahlungen vor der endgültigen Fakturierung eines Auftrags überprüft wird.  
+- Heike legt Standardwerte für den erforderlichen Vorauszahlungsprozentsatz für bestimmte Artikel und Debitoren fest.  
 
 In den folgenden Verfahren wird beschrieben, wie Sie Heikes Aufgaben ausführen:  
 
-#### <a name="to-set-up-number-series-for-prepayments"></a>So richten Sie Nummernserien für Vorauszahlungen ein
+### <a name="to-set-up-number-series-for-prepayments"></a>So richten Sie Nummernserien für Vorauszahlungen ein
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.  
-2.  Erweitern Sie auf der Seite **Debitoren Verkauf Einr.** das Inforegister **Nummernserie**.  
-3.  Vergewissern Sie sich, dass die Nummernserien für gebuchte Vorauszahlungsrechnungen im Feld **Geb. Vorauszahlungs-Rechnungsnr.** und gebuchte Verkaufsrechnungen (**Gebuchte Rechnungsnummern**) sowie die Nummernserien für gebuchte Vorauszahlungsgutschriften (**Geb. Vorauszahlungs-Gutschriftennr.**) und gebuchte Gutschriften (**Gebuchte Gutschriftennr.**) übereinstimmen.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Einrichtung Debitoren & Verkauf** ein und wählen Sie dann den entsprechenden Link.  
+2. Erweitern Sie auf der Seite **Debitoren Verkauf Einr.** das Inforegister **Nummernserie**.  
+3. Vergewissern Sie sich, dass die Nummernserien für gebuchte Vorauszahlungsrechnungen im Feld **Geb. Vorauszahlungs-Rechnungsnr.** und gebuchte Verkaufsrechnungen (**Gebuchte Rechnungsnummern**) sowie die Nummernserien für gebuchte Vorauszahlungsgutschriften (**Geb. Vorauszahlungs-Gutschriftennr.**) und gebuchte Gutschriften (**Gebuchte Gutschriftennr.**) übereinstimmen.  
 
-#### <a name="to-block-shipments-for-unpaid-prepayment"></a>Lieferungen für nicht geleistete Vorauszahlung sperren
+### <a name="to-block-shipments-for-unpaid-prepayment"></a>Lieferungen für nicht geleistete Vorauszahlung sperren
 
-1.  Aktivieren Sie auf der Seite **Debitoren & Verkauf Einr.** auf dem Inforegister **Allgemein** die Option **Vorauszahlung beim Buchen prüfen**.
+1. Aktivieren Sie auf der Seite **Debitoren & Verkauf Einr.** auf dem Inforegister **Allgemein** die Option **Vorauszahlung beim Buchen prüfen**.
 
 Jetzt können Sie einen Auftrag mit nicht bezahltem Vorauszahlungsbetrag nicht liefern oder in Rechnung stellen.  
 
@@ -86,29 +86,32 @@ Heike legt standardmäßig fest, dass für den Debitoren 20000 eine Anzahlung in
 
 Heike legt fest, dass für alle Debitoren eine Anzahlung in Höhe von 20 % für den Artikel 1896-S fakturiert werden muss. Debitor 20000 verfügt über eine schlechte Zahlungsvergangenheit Daher verlangt sie vom Debitoren 20000 eine Vorauszahlung von 40 % für die Artikel 1896-S. Im folgenden Beispiel wird gezeigt, wie Sie standardmäßige Vorauszahlungsprozentsätze einrichten.  
 
-#### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>So weisen Sie Debitoren und Artikeln Standardvorauszahlungsprozentsätze zu
+### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>So weisen Sie Debitoren und Artikeln Standardvorauszahlungsprozentsätze zu
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitor** ein und wählen Sie dann den entsprechenden Link.  
-2.  Öffnen Sie das Kartenfenster für Debitor 20000 (Trey Research).
-3.  Geben Sie im Feld **Vorauszahlung %** den Wert **30** ein.  
-4.  Wählen Sie **Zugehörig**, **Verkauf** und dann **Vorauszahlungsprozentsätze** aus.
-5.  Füllen Sie auf der Seite **Verkaufsvorauszahlungs-Prozentsätze** zwei Zeilen wie folgt aus:  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Debitoren** ein und wählen Sie dann den entsprechenden Link.  
+2. Öffnen Sie das Kartenfenster für Debitor 20000 (Trey Research).
+3. Geben Sie im Inforegister **Zahlungen** im Feld **Vorauszahlung %** **30** ein.  
+4. Wählen Sie die Aktion **Zugehörig** den Menüpunkt **Verkauf** und dann den Menüpunkt **Vorauszahlungsprozentsätze** aus.  
+5. Füllen Sie auf der Seite **Verkaufsvorauszahlungs-Prozentsätze** zwei Zeilen wie folgt aus:  
 
     |**Verkaufsart**|**Verkaufscode**|**Artikelnr.**|**Vorauszahlung %**|  
     |--------------------|--------------------|------------------|----------------------|  
     |**Debitor**|**20000**|**1896-S**|**40**|  
     |**Alle Debitoren**| |**1896-S**|**20**|  
 
-    > [!IMPORTANT]  
-    >  Je nach Land/Region müssen Sie im Inforegister **Fakturierung** für Artikel 1896-S auch einen Steuergruppencode angeben.  
+    > [!TIP]
+    > Je nach Land/Region müssen Sie im Inforegister **Einstandspreise und Buchung** für den Artikel 1896-S auch einen Steuergruppencode angeben. Wenn Sie das Demounternehmen verwenden, ist dieses Feld bereits festgelegt.
 
-6.  Schließen Sie alle Seiten.  
+6. Schließen Sie alle Seiten.  
 
-#### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Ein Konto für Verkaufsvorauszahlung in der allgemeinen Buchungsmatrix angeben
+### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Ein Konto für Verkaufsvorauszahlung in der allgemeinen Buchungsmatrix angeben
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Allgemeine Buchungsmatrixeinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
-2.  Wählen Sie die Zeile aus, in der das Feld **Geschäftsbuchungsgruppe** auf **INLAND** und das Feld **Produktbuchungsgruppe** auf **EINZELHANDEL** festgelegt wurde.  
-3.  Geben Sie das entsprechende Konto im Feld **Verkaufsvorauszahlungs-Konto** an. Ihre Auswahl wird automatisch gespeichert.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Allgemeine Buchungsmatrixeinrichtung** ein, und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die Zeile aus, in der das Feld **Geschäftsbuchungsgruppe** auf **INLAND** und das Feld **Produktbuchungsgruppe** auf **EINZELHANDEL** festgelegt wurde.  
+3. Geben Sie das entsprechende Konto im Feld **Verkaufsvorauszahlungs-Konto** an. Ihre Auswahl wird automatisch gespeichert.  
+
+> [!TIP]
+> Wenn das Feld auf der Seite **Buchungsmatrix einrichten** nicht angezeigt wird, verwenden Sie die horizontale Bildlaufleiste am unteren Rand der Seite, um nach rechts zu scrollen.  
 
 ## <a name="creating-an-order-that-requires-a-prepayment"></a>Erstellen eines Auftrags, der eine Vorauszahlung erfordert
 
@@ -118,13 +121,13 @@ Der Debitor fragt an, 35 % bezahlen zu dürfen; dem kann Martha zustimmen. Dahe
 
 Martha erstellt die Vorauszahlungsrechnung und sendet sie an den Debitoren.  
 
-#### <a name="to-create-a-sales-order-with-a-prepayment"></a>So erstellen Sie einen Verkaufsauftrag mit einer Vorauszahlung
+### <a name="to-create-a-sales-order-with-a-prepayment"></a>So erstellen Sie einen Verkaufsauftrag mit einer Vorauszahlung
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
-2.  Wählen Sie die Aktion **Neu**.  
-3.  Wählen Sie für das Feld **Debitorennr.** den Wert **20000** aus.  
-4.  Schließen Sie die angezeigte Warnung zum fälligen Saldo.  
-5.  Füllen Sie zwei Verkaufszeilen mit den folgenden Informationen aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
+2. Wählen Sie die Aktion **Neu**.  
+3. Wählen Sie im Feld **Debitorenname** **Trey Research** aus.  
+4. Schließen Sie die angezeigte Warnung zum fälligen Saldo.  
+5. Füllen Sie zwei Verkaufszeilen mit den folgenden Informationen aus.  
 
     |**Typ**|**Nr.**|**Menge**|  
     |--------------|-------------|------------------|  
@@ -133,92 +136,94 @@ Martha erstellt die Vorauszahlungsrechnung und sendet sie an den Debitoren.
 
     Die Vorauszahlungsfelder in der Verkaufszeile sind standardmäßig ausgeblendet und müssen daher angezeigt werden. Dazu müssen Sie die Seite personalisieren. Weitere Informationen finden Sie unter [So starten Sie die Personalisierung einer Seite über das Banner Personalisierung](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-6.  Vergewissern Sie sich, dass das Feld **Vorauszahlung %** in der Zeile mit dem Artikel **1900-S** den Wert **30** enthält. Der Standardwert wurde aus dem Verkaufskopf von der Debitorenkarte übernommen.  
+6. Vergewissern Sie sich, dass das Feld **Vorauszahlung %** in der Zeile mit dem Artikel **1900-S** den Wert **30** enthält. Der Standardwert wurde aus dem Verkaufskopf von der Debitorenkarte übernommen.  
 
     Das Feld **Vorauszahlung %** in der Zeile mit dem Artikel **1896-S** enthält **40**. Dies ist der Prozentsatz, den Sie auf der Seite **Verkaufsvorauszahlungs-Prozentsätze** für den Artikel **1896-S** und den Kunden **20000** eingegeben haben.  
 
     Weitere Informationen finden Sie unter [Einrichten von Vorauszahlungen](finance-set-up-prepayments.md).  
-7.  Wählen Sie in der Aktion **Bestellung** die Option **Statistik** aus.  
-8.  Im Inforegister **Vorauszahlung** enthält das Feld **Vorauszahlungszeilenbetrag ohne MwSt.** den Wert **458.16**. Wenn Sie jetzt eine Vorauszahlungsrechnung für den Auftrag erstellen, wird dieser Betrag in der Rechnung angezeigt.  
+7. Wählen Sie in der Aktion **Bestellung** die Option **Statistik** aus.  
+8. Im Inforegister **Vorauszahlung** enthält das Feld **Vorauszahlungszeilenbetrag ohne MwSt.** den Wert **458,16**. Wenn Sie jetzt eine Vorauszahlungsrechnung für den Auftrag erstellen, wird dieser Betrag in der Rechnung angezeigt.  
 
     In diesem Szenario wurde Martha angewiesen, eine Gesamtvorauszahlung in Höhe von **800** für den Auftrag vorzuschlagen.  
 
     > [!IMPORTANT]  
     >  Abhängig von Ihrem Land/Ihrer Region trifft der nächste Schritt möglicherweise nicht zu.  
-9.  Ändern Sie den Betrag im Feld **Vorauszahlungszeilenbetrag ohne MwSt.** in **800**, und schließen Sie dann die Seite.  
-10.  Überprüfen Sie das Feld **Vorauszahlung %** in den Verkaufszeilen. Der Wert wurde neu berechnet und lautet nun **67.02438** und **67.02282**.  
+9. Ändern Sie den Betrag im Feld **Vorauszahlungsbetrag ohne MwSt.** in **800**, und schließen Sie dann die Seite.  
+10. Überprüfen Sie das Feld **Vorauszahlung %** in den Verkaufszeilen. Der Wert wurde neu berechnet und lautet nun **67.02438** und **67.02282**.  
 
      Die erneute Berechnung beinhaltet alle Zeilen mit einem Vorauszahlungsprozentsatz größer 0.  
 
      Jetzt fragt der Debitor, ob der Vorauszahlungsprozentsatz auf 35 % festgelegt werden kann. Da Marthas Vorgesetzter genehmigt die Änderung.
-11.  Erweitern Sie auf der Seite **Verkaufsauftrag** im Inforegister **Vorauszahlung** das Feld **Vorauszahlung %**, und geben Sie **35** ein.  
-12.  In der Warnung, die erscheint, wählen Sie die Schaltfläche **Ja**. Eine Rate von 35 % wird als Vorauszahlungsprozentsatz für den gesamten Auftrag angewendet.  
-13.  Überprüfen Sie dann, ob die Zeilen entsprechend aktualisiert wurden.  
+11. Erweitern Sie auf der Seite **Verkaufsauftrag** im Inforegister **Vorauszahlung** das Feld **Vorauszahlung %**, und geben Sie **35** ein.  
+12. In der Warnung, die erscheint, wählen Sie die Schaltfläche **Ja**. Eine Rate von 35 % wird als Vorauszahlungsprozentsatz für den gesamten Auftrag angewendet.  
+13. Überprüfen Sie dann, ob die Zeilen entsprechend aktualisiert wurden.  
 
-## <a name="creating-a-prepayment-invoice"></a>Erstellen einer Vorauszahlungsrechnung  
+## <a name="creating-a-prepayment-invoice"></a>Erstellen einer Vorauszahlungsrechnung
+
 Nachdem sie die korrekten Vorauszahlungswerte im Auftrag eingegeben hat, erstellt Martha die Vorauszahlungsrechnung und sendet sie an den Kunden.  
 
-#### <a name="to-create-a-prepayment-invoice"></a>So erstellen Sie eine Vorauszahlungsrechnung
+### <a name="to-create-a-prepayment-invoice"></a>So erstellen Sie eine Vorauszahlungsrechnung
 
-1.  Wählen Sie auf der Seite **Verkaufsauftrag** nacheinander die Optionen **Aktionen**, **Buchung**, **Vorauszahlung** und dann **Vorauszahlungsrechnung buchen und drucken** aus.
-2.  Klicken Sie auf die Schaltfläche **Ja**, um die Rechnung zu buchen.  
+1. Wählen Sie auf der Seite **Verkaufsauftrag** nacheinander die Optionen **Aktionen**, **Buchung**, **Vorauszahlung** und dann **Vorauszahlungsrechnung buchen und drucken** aus.
+2. Klicken Sie auf die Schaltfläche **Ja**, um die Rechnung zu buchen.  
 
 > [!NOTE]  
->  Martha wählt **Vorauszahlungsrechnung buchen und drucken** aus und sendet die Rechnung an den Kunden.  
+> Susan würde nun die Rechnung an den Kunden senden.  
 
 ## <a name="creating-an-additional-prepayment-invoice"></a>Erstellen einer weiteren Vorauszahlungsrechnung
 
-Am folgenden Tag, ruft der Debitor Martha an, und nimmt Änderungen am Auftrag vor. Der Debitor möchte zwei Exemplare des Artikels 1100. Martha öffnet und aktualisiert die Bestellung, und dann erstellt sie eine zweite Vorauszahlungsrechnung auf dem Auftrag und sendet sie an den Debitoren.  
+Am folgenden Tag, ruft der Debitor Martha an, und nimmt Änderungen am Auftrag vor. Der Debitor möchte zwei Exemplare des Artikels 1896-S. Martha öffnet und aktualisiert die Bestellung, und dann erstellt sie eine zweite Vorauszahlungsrechnung auf dem Auftrag und sendet sie an den Debitoren.  
 
-#### <a name="to-create-an-additional-prepayment-invoice"></a>So erstellen Sie eine weitere Vorauszahlungsrechnung
+### <a name="to-create-an-additional-prepayment-invoice"></a>So erstellen Sie eine weitere Vorauszahlungsrechnung
 
-1.  Wählen Sie auf der Seite **Verkaufsauftrag** die Aktion **Freigeben** und dann **Erneut öffnen** aus.  
-2.  Geben Sie in der Zeile für den Artikel **1896-S** im Feld **Menge** den Wert **2** ein.  
+1. Wählen Sie auf der Seite **Verkaufsauftrag** die Aktion **Freigeben** und dann **Erneut öffnen** aus.  
+2. Geben Sie in der Zeile für den Artikel **1896-S** im Feld **Menge** den Wert **2** ein.  
 
-    Wählen Sie in der Aktion **Bestellung** die Option **Statistik** aus. Das Feld **Vorauszahlungszeilenbetrag ohne. MwSt.** enthält jetzt **768.04**, und das Feld **Fakt. Vorauszahlungsbetrag ohne MwSt.** enthält **417.76**. Dieses bedeutet, dass ein zusätzlicher Vorauszahlungsbetrag vorhanden ist, der noch nicht fakturiert wurde.  
-3.  Wählen Sie nacheinander die Optionen **Aktionen**, **Buchen**, **Vorauszahlung** und dann **Vorauszahlungsrechnung buchen und drucken** aus, um eine Rechnung für den zusätzlichen Vorauszahlungsbetrag zu buchen.
-4.  Klicken Sie auf die Schaltfläche **Ja**, um die Rechnung zu buchen.  
+    Wählen Sie in der Aktion **Bestellung** die Option **Statistik** aus. Das Feld **Vorauszahlungsbetrag ohne. MwSt.** enthält jetzt **768,04**, und das Feld **Fakt. Vorauszahlungsbetrag ohne MwSt.** enthält **417,76**. Dieses bedeutet, dass ein zusätzlicher Vorauszahlungsbetrag vorhanden ist, der noch nicht fakturiert wurde.  
+3. Wählen Sie nacheinander die Optionen **Aktionen**, **Buchen**, **Vorauszahlung** und dann **Vorauszahlungsrechnung buchen und drucken** aus, um eine Rechnung für den zusätzlichen Vorauszahlungsbetrag zu buchen.
+4. Klicken Sie auf die Schaltfläche **Ja**, um die Rechnung zu buchen.  
 
-## <a name="applying-the-prepayments"></a>Ausgleichen der Vorauszahlungen  
+## <a name="applying-the-prepayments"></a>Ausgleichen der Vorauszahlungen
+
 Der Debitor bezahlt den Vorauszahlungsbetrag und Peter, der in der Debitorenabteilung arbeitet, registriert die Zahlung und gleicht sie mit den Vorauszahlungsrechnungen aus.  
 
-#### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>So gleichen Sie eine Zahlung mit den Vorauszahlungsrechnungen aus
+### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>So gleichen Sie eine Zahlung mit den Vorauszahlungsrechnungen aus
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungseingangs Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
-2.  Füllen Sie ein Buchhaltungsprotokoll mit den folgenden Informationen aus.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zahlungseingangs Buch.-Blätter** ein und wählen Sie dann den entsprechenden Link.  
+2. Füllen Sie ein Buchhaltungsprotokoll mit den folgenden Informationen aus.  
 
     |Name des Felds|Eingabe|  
     |----------------|-----------|  
     |**Belegart**|**Zahlung**|  
     |**Kontoart**|**Debitor**|  
     |**Kontonr.**|**20000**|  
-3.  Wählen Sie die Aktion **Prozess** und dann **Posten ausgleichen** aus.  
-4.  Wählen Sie auf der Seite **Debitorenpostenausgleich** die erste Vorauszahlungsrechnung, dann die Aktion **Prozess** und anschließend Option **Ausgleichs-ID setzen** aus.  
-5.  Wiederholen Sie den vorherigen Schritt für die zweite Vorauszahlung.  
-6.  Wählen Sie die Schaltfläche **OK**.  
+3. Wählen Sie die Aktion **Prozess** und dann **Posten ausgleichen** aus.  
+4. Wählen Sie auf der Seite **Debitorenpostenausgleich** die erste Vorauszahlungsrechnung, dann die Aktion **Prozess** und anschließend Aktion **Ausgleichs-ID setzen** aus.  
+5. Wiederholen Sie den vorherigen Schritt für die zweite Vorauszahlung.  
+6. Wählen Sie die Schaltfläche **OK**.  
 
-    Das Betragsfeld enthält jetzt die Summe der beiden Vorauszahlungsrechnungen.  
+    Die Felder **Betrag** enthalten jetzt die Summe der beiden Vorauszahlungsrechnungen.  
 
-7.  Wählen Sie zum Veröffentlichen des Journals die Aktion **Buchen/Drucken** und dann **Buchen** aus.
-8.  Wählen Sie die Schaltfläche **Ja** aus.
+7. Wählen Sie zum Veröffentlichen des Journals die Aktion **Buchen/Drucken** und dann **Buchen** aus.
+8. Wählen Sie die Schaltfläche **Ja** aus.
 
 ## <a name="invoicing-the-remaining-amount"></a>Fakturieren des Restbetrags
 
 Peter wurde darüber informiert, dass die Artikel im Auftrag geliefert wurden und der Auftrag fakturiert werden kann. Peter erstellt die Rechnung für den Auftrag.  
 
-#### <a name="to-invoice-the-remaining-amount"></a>So fakturieren Sie den Restbetrag
+### <a name="to-invoice-the-remaining-amount"></a>So fakturieren Sie den Restbetrag
 
-1.  Öffnen Sie den Verkaufsauftrag.
-2.  Wählen Sie die Aktion **Buchung** und dann **Buchen** aus.
-3.  Wählen Sie **Lieferung und Rechnung** und dann die Schaltfläche **OK** aus.
-4.  Wenn Sie eine Vorschau der Rechnung anzeigen möchten, wählen Sie die Schaltfläche **Ja** aus.
+1. Öffnen Sie den Verkaufsauftrag.
+2. Wählen Sie die Aktion **Buchung** und dann **Buchen** aus.
+3. Wählen Sie **Lieferung und Rechnung** und dann die Schaltfläche **OK** aus.
+4. Wenn Sie eine Vorschau der Rechnung anzeigen möchten, wählen Sie die Schaltfläche **Ja** aus.
 
-> [!NOTE]  
->  Normalerweise wurde die Lieferung bereits von der Versandabteilung gebucht.  
+    > [!NOTE]  
+    > Normalerweise wurde die Lieferung bereits von der Versandabteilung gebucht.  
 
-Peter kann die Historie anzeigen, um sicherzustellen, dass die Verkaufsrechnung wie beabsichtigt erstellt wurde.
+    Peter kann die Historie anzeigen, um sicherzustellen, dass die Verkaufsrechnung wie beabsichtigt erstellt wurde.
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
+5. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Verkaufsrechnungen** ein und wählen Sie dann den zugehörigen Link.  
 
 ## <a name="next-steps"></a>Nächste Schritte
 
@@ -228,7 +233,8 @@ Zudem wurden das Buchen einer Vorauszahlungsrechnung, Erstellen einer zweiten Vo
 
 Die Vorauszahlungsfunktion in [!INCLUDE[prod_short](includes/prod_short.md)] erleichtert das Einrichten und Anwenden von Vorauszahlungsregeln für Debitoren und Artikel und ermöglicht es Ihnen, jede Zahlung für eine Rechnung zu buchen.  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
+
 [Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)  
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
