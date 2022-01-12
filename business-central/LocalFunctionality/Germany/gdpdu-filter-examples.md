@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 7476913299fbcd27e2f2193dbd1ee41830ebe5a2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 83616b6819df662a313dd7af0a0434b6058825cb
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325234"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947224"
 ---
 # <a name="gdpdu-filter-examples-in-the-german-version"></a>GDPdU-Filter-Beispiele in der deutschen Version
 

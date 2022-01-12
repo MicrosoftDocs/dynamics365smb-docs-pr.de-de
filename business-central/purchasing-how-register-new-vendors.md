@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Kreditorenkarte zur Registrierung eines neuen Kreditors
+title: Eine Lieferantenkarte erstellen, um einen neuen Lieferanten zu registrieren (enthält ein Video)
 description: In diesem Thema erfahren Sie, wie Sie eine Kreditorenkarte erstellen, um einen neuen Kreditor oder Lieferanten zu registrieren und Kreditorenkarten als Vorlage zu speichern.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 662239446426cf64ac20d766e21aee55b92f9809
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 85842f5883b17d7386f65367efec4aa6dfea2b11
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587684"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939901"
 ---
 # <a name="register-new-vendors"></a>Registriert einen neuen Kreditor
 

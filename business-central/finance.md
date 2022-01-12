@@ -1,5 +1,5 @@
 ---
-title: Finanzmanagement
+title: Finanzmanagement (enthält Video)
 description: Erfahren Sie, wie Business Central Ihre Anforderungen an das Finanzmanagement, die Buchhaltung, die Rechnungsprüfung und die Buchführung unterstützt.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 842c2723fb62775e35673614c609257fe9439115
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: fd83ef3f2930900aae70fafa9489bb8f7c01f713
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326888"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939851"
 ---
 # <a name="financial-management"></a>Finanzmanagement
 

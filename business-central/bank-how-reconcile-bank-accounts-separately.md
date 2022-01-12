@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54e989182a8d6612e6bb2c95eda327fd21cae0d8
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587809"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949021"
 ---
 # <a name="reconcile-bank-accounts"></a>Bankkonten abstimmen
 
@@ -36,7 +36,7 @@ Die Aktivität zum Abstimmen von Bankgeschäften mit internen Bankeinträgen wir
 > [!NOTE]  
 > Wenn sich Bankkontoauszugszeilen auf Scheckposten beziehen, können Sie die entsprechenden Funktionen nicht verwenden. Stattdessen müssen Sie die Aktion **Posten ausgleichen** auswählen und im Inforegister Bankauszugspositionen auswählen und dann die entsprechenden Scheckposten auswählen, mit denen Sie die Bankkontoauszugszeile ausgleichen möchten.
 
-Wenn der Wert im Feld **Gesamtsaldo** im Bereich **Bankauszugspositionen** dem Wert im Feld **Abzustimmender Saldo** im Bereich **Bankposten** entspricht, können Sie die Aktion **Buchen** auswählen. Alle nicht übereinstimmenden Bankkontenbucheinträge verbleiben auf der Seite, was auf eine Diskrepanz hinweist, die Sie bei der Abstimmung des Bankkontos beheben sollten.
+Wenn der Wert im Feld **Gesamtsaldo** im Bereich **Bankauszugszeilen** dem Gesamtwert des Feldes **Saldo abzustimmen** plus dem Feld **Saldo letzter Kontoauszug** im Bereich **Sachkonto-Sachkonto-Einträge** entspricht, können Sie die Aktion **Buchen** wählen. Nicht übereinstimmende Sachkonto-Einträge bleiben auf der Seite und weisen auf Diskrepanzen hin, die Sie zum Abstimmen des Bankkontos beheben sollten.
 
 Alle nicht übereinstimmenden Zeilen, die durch einen Wert im Feld **Unterschied** angegeben werden, bleiben auf nach der Buchung der Seite **Bankkontoabstimmung**. Sie stellen eine Art von Diskrepanz dar, die Sie beheben müssen, bevor Sie die Bankkontenabstimmung abschließen können. Typische Geschäftssituationen, die zu Unterschieden führen können:
 

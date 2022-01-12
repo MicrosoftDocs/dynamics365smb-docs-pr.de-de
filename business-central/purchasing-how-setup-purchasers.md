@@ -1,5 +1,5 @@
 ---
-title: Käufer einrichten und Käufer an Verkäufer zuweisen| Microsoft Docs
+title: Einkäufer festlegen und Einkäufer zu Lieferanten zuordnen (enthält Video) | Microsoft Dokumente
 description: Wenn in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese für statistische Analyse organisieren.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 452a5fab73d60bea127d19a42c1730fcbd24b06c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cdfb1198234a0bfcbbc74e7816568f2f06b21b10
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435135"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940176"
 ---
 # <a name="set-up-purchasers"></a>Einkäufer einrichten
 Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese auf einer Seite einrichten und jedem einen Code zuweisen. Diese Codes können Sie dann für statistische Auswertungen und als Filter in Berichten verwenden<br><br>  

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 5005270, 5005271, 5005271
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3dbc963049c01ed84cee9d7314d3379b972df7f7
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 1210246bcee6e5ea5d1c57b134e13c2e6bee3d77
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322623"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947171"
 ---
 # <a name="set-up-delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version einrichten
 

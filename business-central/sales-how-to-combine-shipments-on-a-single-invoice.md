@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1465ce4baadec43d28731dab50870af3c10bd77e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e111c08dc9251898ccecff4e65f768984b123c15
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442725"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7929580"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Zusammenfassen von Lieferungen in einer einzelnen Rechnung
 Wenn Sie mehr als eine Lieferung gleichzeitig fakturieren möchten, können Sie die Funktion zum Erstellen von Sammelrechnungen verwenden.  
@@ -34,6 +34,9 @@ Bevor Sie eine Sammelrechnung erstellen können, müssen Sie mehr als eine Verka
 
     Wenn Sie eine falsche Lieferzeile ausgewählt haben oder von vorn beginnen möchten, können Sie einfach die Zeilen in der Rechnung löschen und die Funktion **Lieferzeilen holen** erneut ausführen.  
 7. Um die Rechnung zu buchen, wählen Sie die Aktion **Buchen** aus.  
+
+> [!TIP]  
+> Wenn Sie Aufträge versandt haben, bei denen die **Kunden-Nr.** von der **Rechnungsadresse** abweicht, werden diese Zeilen im Bericht **Sendungszeilen abrufen** nicht angezeigt. Verwenden Sie die Personalisierung, um das Feld **Verkauf an Kunde** auf der Seite hinzuzufügen und den Filter zu entfernen. Jetzt können Sie der Rechnung unabhängig vom Wert im Feld **Verkauf an Kunden-Nr.** Lieferzeilen hinzufügen, solange das Feld **Rechnung an Kunden-Nr.** Feld in den Versandzeilen mit dem Wert auf der Verkaufsrechnung übereinstimmt.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>So kombinieren Sie Lieferungen automatisch in einer einzigen Rechnung:  
 [!INCLUDE[prod_short](includes/prod_short.md)] wählt nur Verkaufsaufträge aus, bei denen **Sendungen kombinieren** gewählt ist. 

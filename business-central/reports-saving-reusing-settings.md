@@ -1,6 +1,6 @@
 ---
-title: Ausgleichen und ändern Sie Einstellungen in gespeicherten Berichten | Microsoft Docs
-description: Beschreibt vordefinierte Optionen und filtert, um einen Bericht anzupassen und die richtigen Daten zu generieren.
+title: Gespeicherte Einstellungen für Berichte und Stapelaufträge verwalten
+description: Beschreibt, wie der Admin vordefinierte Optionen und Filter für einen Bericht festlegen und diese Einstellungen für einen oder alle Benutzer freigeben kann.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,54 +8,56 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 04/01/2021
+ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: 6d83597057975757354da06668a7e71e94e5273f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 289603bcfb11b50711a854c355a99781a8e77264
+ms.sourcegitcommit: 8837ed2aeb454806e153145c675cf049a020ea38
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435763"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944073"
 ---
-# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gespeicherte Einstellungen für Berichte und Stapelaufträge verwalten
-Abhängig vom ausgeführten Bericht, erhalten Benutzer in der Regel eine Seite, für die Sie bestimmte Optionen wählen und Filter festlegen können, um Daten zu ändern, die im erstellten Bericht enthalten sind. Dies ist die Berichtanfordearungsseite. Ein Bericht kann eine oder mehrere *Gespeicherte Einstellungen* enthalten, die Benutzer auf den Bericht von der Anforderungsseite anwenden können. *Gespeicherte Einstellungen* sind grundsätzlich vordefinierte Optionen und Filter. Die Verwendung von gespeicherten Einstellungen ist eine schnelle und zuverlässige Art, Berichte zu erstellen, die die richtigen Daten enthalten. Weitere Informationen finden Sie unter [Gespeicherte Einstellungen verwenden](ui-work-report.md#SavedSettings).
+# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gespeicherte Einstellungen für Berichte und Batch-Aufträge verwalten
+
+Abhängig vom ausgeführten Bericht, erhalten Benutzer in der Regel eine Seite, für die Sie bestimmte Optionen wählen und Filter festlegen können, um Daten zu ändern, die im erstellten Bericht enthalten sind. Diese Seite wird als *Anforderungsseite* bezeichnet. Ein Bericht kann eine oder mehrere *Gespeicherte Einstellungen* enthalten, die Benutzer auf den Bericht von der Anforderungsseite anwenden können. *Gespeicherte Einstellungen* sind grundsätzlich vordefinierte Optionen und Filter. Die Verwendung von gespeicherten Einstellungen ist eine schnelle und zuverlässige Art, Berichte zu erstellen, die die richtigen Daten enthalten. Weitere Informationen finden Sie unter [Verwendung von Standardwerten - vordefinierte Einstellungen](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
-> Dieses Thema bezieht sich hauptsächlich auf "Bericht", aber die gleichen Informationen gelten für Stapelverarbeitungen.
+> Dieses Thema bezieht sich auf *Berichte*, aber ähnliche Informationen gelten auch für *Batch-Aufträge*.
 
 Wenn Sie die richtigen Berechtigungen haben, können Sie die gespeicherten Einstellungen für alle Berichte für alle Benutzer in einem Unternehmen anzeigen, erstellen und bearbeiten. Sie können gespeicherte Einstellungen für einen Bericht entweder den einzelnen Benutzern oder allen Benutzern im Unternehmen zuweisen.
 
-<!--
-## Apply saved settings to a report
-1. Open the report.
+## <a name="manage-saved-settings"></a>Gespeicherte Einstellungen verwalten
 
-   The request page appears.    
-2. In the **Saved Settings** section of the page, set the **Name** field  to the saved settings that you want to use.
-
-   The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
-
--->
-
-## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Um gespeicherter Einstellungen für alle Benutzer zu erstellen oder zu ändern
 Sie können gespeicherte Einstellungen auf der Seite **Berichteinstellungen** verwalten. Es gibt zwei Möglichkeiten, dies Seite zu öffnen:
--   Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Berichtseinstellungen** ein, und wählen Sie dann den entsprechenden Link.
--   Öffnen Sie einen Bericht, wählen die Suche neben dem Feld **Verwendete Standardwerte verwenden aus** aus und wählen Sie **Aus vollständiger Liste auswählen** aus.
 
-Die Seitendarstellungen zeigt alle gespeicherten Einstellungseingaben für alle Anwender an. Wenn es einen Benutzernamen im Feld **Zugewiesen zu** hat, kann nur der Benutzer die gespeicherten Einstellungen für den entsprechenden Bericht verwenden. Wenn sich ein Häkchen im Feld **Mit allen Benutzern teilen** befindet, können alle Benutzer die gespeicherten Einstellungen für den Bericht verwenden.
+- Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Sagen Sie mir, was Sie tun möchten") Symbol. Geben Sie **Berichtseinstellungen** ein, und wählen Sie dann den entsprechenden Link.
+- Wählen Sie auf der Anforderungsseite eines Berichts das Suchfeld im Feld **Standardwerte verwenden von** und wählen Sie dann die Aktion **Aus der vollständigen Liste auswählen**.
+
+    Dieses Feld ist nur sichtbar, wenn Sie den Bericht zuvor mindestens einmal ausgeführt haben. In der Liste werden nur Einstellungen angezeigt, die Ihnen zur Verfügung stehen, entweder weil es sich um Ihre eigenen Einstellungen handelt oder weil die Einstellungen für Sie freigegeben sind.
+
+Die Seite **Berichtseinstellungen** zeigt alle vorhandenen gespeicherten Einstellungseinträge für alle Benutzer an. Wenn es einen Benutzernamen im Feld **Zugewiesen zu** hat, kann nur der Benutzer die gespeicherten Einstellungen für den entsprechenden Bericht verwenden. Wenn sich ein Häkchen im Feld **Mit allen Benutzern teilen** befindet, können alle Benutzer die gespeicherten Einstellungen für den Bericht verwenden.  
+
+> [!TIP]
+> Wenn ein Benutzer einen Bericht ausgeführt hat, der gemeinsame Einstellungen unterstützt, werden seine Einstellungen gespeichert und zu dieser Liste hinzugefügt. In den meisten Fällen kann der Admin diese Einstellungen dann bearbeiten und festlegen, dass die Einstellungen für alle Benutzer freigegeben werden sollen.
+>
+> In einigen Fällen können die Einstellungen jedoch nicht gemeinsam genutzt werden, und der Admin kann sie auch nicht ändern. Die meisten Batchaufträge unterstützen keine gemeinsamen Einstellungen.  
+
+## <a name="create-or-modify-saved-settings-for-all-users"></a>Gespeicherte Einstellungen für alle Benutzer erstellen oder ändern
 
 Von der Seite **Berichts-Einstellungen** können Sie:
--   Die Aktion **Neu** auswählen, um neue gespeicherte Einstellungen von Grund auf neu zu erstellen.
--   Wählen Sie einen Einstellungsposten aus der Liste aus, und wählen Sie die Aktion **Kopieren**, um eine Kopie zu erstellen.
--   Wählen Sie einen Einstellungsposten aus der Liste aus, und wählen Sie die Aktion **Bearbeiten**, um einen gespeicherten Einstellungsposten zu ändern.
+
+- Die Aktion **Neu** auswählen, um neue gespeicherte Einstellungen von Grund auf neu zu erstellen.
+- Wählen Sie einen Einstellungsposten aus der Liste aus, und wählen Sie die Aktion **Kopieren**, um eine Kopie zu erstellen.
+- Wählen Sie einen Einstellungsposten aus der Liste aus, und wählen Sie die Aktion **Bearbeiten**, um einen gespeicherten Einstellungsposten zu ändern.
 
 > [!Important]
 > Berücksichtigt den Namen, den Sie einem gespeicherten Einstellungsposten geben. Wenn Sie einen gespeicherten Einstellungsartikel für alle Benutzer erstellen und er denselben Namen wie bestehende gespeicherte Einstellungen für einen bestimmten Benutzer hat, ist dieser Benutzer nicht dazu in der Lage, die gespeicherten Einstellungen zu verwenden, die jedem zugeordnet sind.  Im Abschnitt **Gespeicherte Einstellungen** auf der Berichtsanforderungsseite werden dem Benutzer auch zwei Optionen gespeicherter Einstellungen mit demselben Namen angezeigt. Jedoch gleichgültig welche Option sie auswählen, werden die benutzerspezifischen gespeicherten Einstellungen verwendet.
 
 > [!NOTE]
-> Die gespeicherte Einstellungsfunktion in Berichten ist nur relevant, wenn die [SaveValues-Eigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) der Anforderungsseite mit **Ja** festgelegt ist. Die **SaveValues**-Eigenschaft wird in der Entwicklungsumgebung festgelegt.  
+> Die Möglichkeit, Einstellungen zu speichern, ist nur bei Berichten verfügbar, bei denen die Eigenschaft [SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) auf der Anforderungsseite des Berichts auf **Ja** festgelegt ist. Die Eigenschaft **SaveValues** wird vom Entwickler festgelegt.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
+
 [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

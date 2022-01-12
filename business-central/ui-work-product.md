@@ -1,5 +1,5 @@
 ---
-title: Arbeiten mit dem allgemeinen Funktionalität in Business Central | Microsoft Docs
+title: Arbeiten mit den allgemeinen Funktionen in Business Central (enthält ein Video) | Microsoft Dokumente
 description: Beschreibt die allgemeine Funktionen, die Sie verwenden, um die Daten in Business Central für Aktivitäten, wie Eingabe von Werten, Sortieren von Daten und Ändern von Ansichten auszuführen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 9781e2d064d48b7ce72b3c7f279c33cbfd42be7a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7ef07e8f7f4a51b63ca2d001a541499bf2fed892
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445251"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940676"
 ---
 # <a name="working-with-prod_short"></a>Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]
 

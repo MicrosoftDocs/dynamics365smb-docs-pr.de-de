@@ -12,27 +12,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2541f509d02a584620c83903c3b92983aba1c2a8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0fc31469d13c0c84a7357ae99929d6efb30bbb47
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322794"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949043"
 ---
 # <a name="about-item-types"></a>Info zu Elementtypen
-Im Feld **Art** auf der Seite **Artikelkarte** können Sie auswählen, welche Artikel in Ihrer Unternehmung verwendet werden und deshalb im System verwaltet werden. Drei Optionen sind verfügbar:
+Im Feld **Typ** auf der Seite **Artikelkarte** können Sie auswählen, wofür das Element in Ihrem Unternehmen verwendet wird, was sich auf den Grad auswirkt, in dem Sie das Element im Bestand verwalten können. In der folgenden Tabelle sind die drei verfügbaren Arten von Elementen aufgeführt und beschrieben.
 
 |Option|Typischer Zweck|
 |------|-----------|
-|Bestand|Eine physikalische Einheit, wie z. B. Rennrad für volle Geschäftsunterstützung.|
-|Kein Bestand|Eine physikalische Einheit, wie ein Bolzen, für begrenzte Geschäftsunterstützung beispielsweise da der Artikel nur intern verwendet wird und Basis Einstandspreis hat.|
+|Bestand|Physische Dinge, wie Fahrräder, Telefone und Schreibtische, für die Sie alle Bestandsprozesse nutzen können möchten. Dazu können auch nicht-physische Elemente wie Softwarelizenzen und Abonnements gehören, wenn die Elemente über Identifikationsnummern, wie z.B. Seriennummern, verfügen. Sie können die Werte und die Verfügbarkeit von Elementen im Bestand vollständig verfolgen.|
+|Kein Bestand|In der Regel handelt es sich bei nicht inventarisierten Elementen um physische Gegenstände wie Schrauben oder Stifte, die ein Unternehmen verbraucht, aber nicht vollständig im Bestand verfolgen möchte. Zum Beispiel, weil es sich um preisgünstige Elemente handelt, die nur intern verwendet werden.|
 |Service|Eine Arbeitszeiteinheit, wie eine Beratungsstunde, für begrenzte Geschäftsunterstützung.|
 
-Die Art **Bestand** umfasst die vollständige Verfolgung der Lagermenge und des Wertes. Daher werden alle Artikeltransaktionstypen unterstützt, und Artikel der Art „Bestand“ können mit allen Artikelbehandlungsfunktionen verwendet werden.
+> [!NOTE]
+> Die Typen **Dienstleistung** und **Nicht-Bestand** unterstützen die Verfolgung von Bestandsmengen und -werten nicht. Es werden nur ausgewählte Transaktionstypen und Funktionen für Artikel unterstützt.
 
-Die Arten **Service** und **Kein Bestand** umfassen keine Nachverfolgung von Lagermengen und Werten. Daher werden nur die ausgewählten Geschäftsarten und Funktionen unterstützt.
-
-Die drei Elementtypen unterstützen die folgenden Funktionen entsprechend.
+In der folgenden Tabelle sind die Funktionen aufgeführt, die die drei Artikelarten unterstützen.
 
 |Artikelart|Verkauf|Einkauf|Job-Verbrauch|Serviceverbrauch|Verbrauch für Montage|Produktions-Verbrauch|Montageausstoß|Fertig produzierte Artikel (Istmeldungen)|Lagerortumlagerung|Physische Zählung|Bestandsneubewertung|Bestandskosten|Artikelverfolgung|Reservierung|Lagerhaus|Planung|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|

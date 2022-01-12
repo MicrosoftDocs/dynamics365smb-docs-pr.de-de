@@ -1,5 +1,5 @@
 ---
-title: Ändern oder Löschen einer unbezahlten Einkaufsrechnung| Microsoft Docs
+title: Unbezahlte Einkaufsrechnungen ändern oder stornieren (enthält Video) | Microsoft Dokumente
 description: Erklärt, wie automatisch eine Einkaufsgutschrift korrigiert, abgebrochen oder rückgängig gemacht wird und eine gebuchte Einkaufsrechnung erstellt wird.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc930c319a1d1c6ae7ff0615bb6bf20cf125cf64
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5d82bb88d47d6fd6d85b62e7692a07350b43518a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436098"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940526"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Ändern oder Löschen einer unbezahlten Einkaufsrechnung
 

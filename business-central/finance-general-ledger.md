@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 183aa0cee83c826d51f582faead9d3a53b02ce71
-ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
+ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7889794"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928809"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Grundlegendes zum Sachkonto und zum Kontenplan
 
@@ -45,7 +45,7 @@ Der Kontenplan zeigt alle Sachkonten an. Vom Kontenplan aus können Sie Dinge tu
 
 * Berichte ansehen, die die Sachkonteneinträge und -Salden zeigen.  
 * GuV-Kontennullstellung.  
-* Öffnen der Sachkontokarte, um Einstellungen hinzuzufügen oder zu ändern.  
+* Öffnen Sie die Karteikarte des Hauptbuchs (Sachkonto), um Einstellungen hinzuzufügen oder zu ändern.  
 * Sie können außerdem eine Liste von Buchungsgruppen anzeigen, die auf dieses Konto buchen.
 * Ansicht der Soll- und Habensalden von einzelnen Sachkonten  
 
@@ -55,7 +55,7 @@ Sie können Sachkonten hinzufügen, ändern oder löschen. Um jedoch Differenzen
 
 Sie können die Struktur der Finanzberichte personalisieren, indem Sie Sachkonten den Kontenkategorien hinzufügen.  
 
-Die Seite **Sachkontokategorien** zeigt Ihre vorhandenen Haupt- und Unterkategorien und die Sachkonten an, die Sie jeder Kategorie zugeordnet haben. Sie können neue Unterkategorien erstellen und diese bestehenden Konten zuweisen.  
+Die Seite **Sachkontokategorien** zeigt Ihre Kategorien und Unterkategorien sowie die ihnen zugeordneten Sachkonten. Sie können neue Unterkategorien erstellen und diese bestehenden Konten zuweisen.  
 
 Sie erstellen eine Kategoriengruppe, indem Sie weitere Unterkategorien unter einer Zeile auf der Seite **Sachkontokategorien** einrücken. Dieses erleichtert Ihnen den Überblick, da jede Gruppierung einen Gesamtsaldo anzeigt. Beispielsweise können Sie Unterkategorien für unterschiedliche Arten von Anlagen erstellen und dann Kategoriengruppen für Anlagen gegenüber Umlaufvermögen erstellen.  
 

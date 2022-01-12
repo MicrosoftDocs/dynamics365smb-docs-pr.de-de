@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 5005270, 5005272
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 49e76e15d3f7e60b08902feb0fe4eaea9c654a4d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9fc8c899001f41db43c42a1717e9675ee2fa9447
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777628"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947153"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors-in-the-german-version"></a>Kreditoren Lieferanmahnungscodes in der deutschen Version zuweisen
 

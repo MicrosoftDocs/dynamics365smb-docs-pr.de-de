@@ -1,5 +1,5 @@
 ---
-title: Bankkonten einrichten
+title: Bankkonten festlegen (enthält Video)
 description: Erfahren Sie, wie Bankkonten in Business Central verwendet werden und wie Sie Beträge mit Ihrer Bank abstimmen können.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 00e83bbf8c98a10e5a86f0341794bc125e8609c9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442875"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940601"
 ---
 # <a name="set-up-bank-accounts"></a>Bankkonten festlegen
 
@@ -84,9 +84,9 @@ Je besser Sie die Zuordnung von Informationen im Zahlungsabstimmungs Buch.-Blatt
 > [!WARNING]
 > Einige Felder können sensible Daten enthalten, wie z.B. die Felder **BLZ**, **Bankkontonr.**, **SWIFT Code**, und **IBAN Code**. Weitere Informationen finden Sie unter [Überwachen sensibler Felder](across-log-changes.md#monitoring-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts&quot;></a>Bankkonten einrichten:
+## <a name="to-set-up-bank-accounts"></a>Bankkonten einrichten:
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png &quot;Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Bankkonten** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Bankkonten** die Aktion **Neu** aus.
 3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

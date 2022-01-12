@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3c459ab6c4056b40c5e83db70a0cafab48359a1
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442485"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949094"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
 
@@ -87,7 +87,7 @@ Weitere Informationen finden Sie unter [Auftragsnachverfolgungslinks in der Plan
 
 Wenn ein Plan eingerichtet wird, ist die Reihenfolge der Berechnungen wichtig, um die Arbeit innerhalb eines angemessenen Zeitrahmens zu erledigen. Zusätzlich spielt die Priorisierung von Anforderungen und Ressourcen eine wichtige Rolle bei der Erlangung bester Ergebnisse.  
 
-Das Planungssystem in [!INCLUDE[prod_short](includes/prod_short.md)] ist bedarfsgesteuert. Artikel auf hoher Ebene sollten vor Artikeln auf niedriger Ebene geplant werden, der Plan für Artikel auf hoher Ebene weiteren Bedarf für Artikel auf niedriger Ebene generieren könnte. das bedeutet zu, Beispiel, dass die Einzelhandelsstandorte geplant werden sollten, bevor Vertriebsstellen geplant werden, da der Plan für einen Einzelhandelsstandort zusätzlichen Bedarf aus der Vertriebsstelle umfassen kann. Auf einem detaillierten Ausgleich bedeutet dies auch, dass ein Verkaufsauftrag keinen neuen Beschaffungsauftrag auslösen soll, wenn ein bereits freigegebener Beschaffungsauftrag den Verkaufsauftrag abdecken kann. Ebenso sollte ein Lagerartikel mit einer bestimmten Chargennummer nicht zugewiesen werden, um einen generischen Bedarf zu decken, wenn ein anderer Bedarf diese bestimmte Charge benötigt.  
+Das Planungssystem in [!INCLUDE[prod_short](includes/prod_short.md)] ist bedarfsgesteuert. Artikel auf hoher Ebene sollten vor Artikeln auf niedriger Ebene geplant werden, der Plan für Artikel auf hoher Ebene weiteren Bedarf für Artikel auf niedriger Ebene generieren könnte. das bedeutet zu, Beispiel, dass die Einzelhandelsstandorte geplant werden sollten, bevor Vertriebsstellen geplant werden, da der Plan für einen Einzelhandelsstandort zusätzlichen Bedarf aus der Vertriebsstelle umfassen kann. Auf einer detaillierten Abschlussebene bedeutet dies auch, dass ein Verkaufsauftrag keinen neuen Vorrat auslösen sollte, wenn ein bereits freigegebener Vorrat den Verkaufsauftrag abdecken kann. Ebenso sollte ein Lagerartikel mit einer bestimmten Chargennummer nicht zugewiesen werden, um einen generischen Bedarf zu decken, wenn ein anderer Bedarf diese bestimmte Charge benötigt.  
 
 ### <a name="item-priority--low-level-code"></a>Artikelpriorität Stücklistenebene
 
@@ -122,7 +122,7 @@ Weitere Informationen finden Sie unter [Designdetails: Übertragung in der Planu
 
 ### <a name="order-priority"></a>Auftragspriorität
 
-In bestimmten Lagerhaltungsdaten zeigt das angeforderte oder verfügbare Datum die höchste Priorität an; mit dem Bedarf des heutigen Tages soll vor dem Bedarf der nächsten Tage verfahren werden. Aber abgesehen von dieser Art Priorität, werden die verschiedene Bedarfs- und Vorratstypen entsprechend der geschäftlichen Wichtigkeit sortiert, sodass Sie entscheiden können, welcher Bedarf vor einem anderen Bedarf erfüllt werden soll. Auf der Zugangsseite teilt die Auftragspriorität mit, welche Versorgungsquelle ausgeglichen werden soll, bevor andere Versorgungsquellen verwendet werden.  
+In bestimmten Lagerhaltungsdaten zeigt das angeforderte oder verfügbare Datum die höchste Priorität an; mit dem Bedarf des heutigen Tages soll vor dem Bedarf der nächsten Tage verfahren werden. Aber abgesehen von dieser Art von Priorität werden die verschiedenen Bedarfs- und Lieferarten nach ihrer geschäftlichen Bedeutung sortiert, um zu entscheiden, welcher Bedarf vor der Befriedigung eines anderen Bedarfs befriedigt werden sollte. Auf der Zugangsseite teilt die Auftragspriorität mit, welche Versorgungsquelle ausgeglichen werden soll, bevor andere Versorgungsquellen verwendet werden.  
 
 Weitere Informationen finden Sie unter [Priorisieren von Aufträgen](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 

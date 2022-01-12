@@ -1,8 +1,6 @@
 ---
 title: Buchungsgruppen-Einrichtung| Microsoft Docs
 description: Übersicht der Buchungsgruppen, die Sie verwenden können, um die Zeit zu sparen und Fehler zu vermeiden, wenn Sie Transaktionen buchen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588807"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940751"
 ---
 # <a name="setting-up-posting-groups"></a>Buchungsgruppen einrichten
 Buchungsgruppen ordnen Entitäten wie Kunden, Lieferanten, Artikel, Ressourcen sowie Verkaufs- und Kaufbelege den Hauptbuch-Konten zu. Sie sparen Zeit und helfen, Fehler zu vermeiden, wenn Sie Transaktionen buchen. Die Umsatzwerte wechseln zu den Konten, die in der Buchungsgruppe für diese bestimmte Einheit angegeben werden. Die einzige Anforderung ist, dass Sie einen Kontenplan haben. Weitere Informationen finden Sie unter [Einrichten des Kontenplans](finance-setup-chart-accounts.md).  
@@ -74,6 +72,17 @@ Ihre Einrichtung legt fest, wann die Buchung erfolgt. Beispielsweise wird die ze
 
 ## <a name="copying-posting-setup-lines"></a>Kopieren von Buchungsmatrix-Einrichtungszeilen
 Je mehr Produkt- und Geschäftsbuchungsgruppen vorhanden sind, um so mehr Zeilen werden auf der Seite Buchungsmatrix Einrichtung angezeigt. Für die Einrichtung der Buchungsmatrix des Unternehmens kann daher unter Umständen eine umfangreiche Dateneingabe erforderlich sein. Während unter Umständen viele verschiedene Kombinationen von Geschäfts- und Produktbuchungsgruppen vorhanden sind, buchen möglicherweise unterschiedliche Kombinationen weiterhin auf dieselben Sachkonten. Um den Umfang der erforderlichen manuellen Dateneingabe einzuschränken, kopieren Sie die Sachkonten aus einer vorhandenen Zeile auf der Seite **Buchungsmatrix Einrichtung.**
+
+## <a name="set-up-posting-groups-on-the-go"></a>Buchungsgruppen von unterwegs aus festlegen
+
+Um den Benutzern einen schnelleren Einstieg zu ermöglichen, bietet [!INCLUDE[prod_short](includes/prod_short.md)] Unterstützung durch Benachrichtigungen über fehlende Sachkonten in verschiedenen Buchungsgruppen-Einrichtungen in Belegen. Um diese Benachrichtigungen zu erhalten, stellen Sie sicher, dass die Benachrichtigung **Sachkonto fehlt in Buchungsgruppe oder Einrichtung** auf der Seite **Meine Benachrichtigungen** ausgewählt ist, auf die Sie über das Feld **Ändern, wenn ich Benachrichtigungen erhalte** auf der Seite **Meine Einstellungen** zugreifen können.  
+
+Auf diese Weise erhalten Sie eine Benachrichtigung, wenn Sie an einem Beleg arbeiten, der eine Buchungsgruppe oder eine Einrichtung verwendet, in der ein erforderliches Hauptbuchkonto fehlt. Wählen Sie den Link in der Benachrichtigung, um eine Seite zu öffnen, auf der Sie die entsprechenden Änderungen vornehmen können, sofern Sie die Berechtigung dazu haben.  
+
+> [!NOTE]
+> Um Sie direkt zu der Buchungsgruppe oder Einrichtung zu führen, in der ein Hauptbuchkonto fehlt, erstellt [!INCLUDE[prod_short](includes/prod_short.md)] eine Platzhalter-Buchungsgruppe oder Einrichtung. Buchungsgruppen und -einstellungen sind eine Möglichkeit für den Buchhalter zu steuern, wie Buchungen in das Allgemeine Hauptbuch gebucht werden, so dass eine solche Just-in-Time-Erstellung von Buchungsgruppen und -einstellungen in Ihrem Unternehmen möglicherweise nicht zugelassen ist.  
+> 
+> Deaktivieren Sie in diesem Fall die Meldung **Sachkonto fehlt in Buchungsgruppe oder Einrichtung** und nehmen Sie dann gemeinsam mit Ihrem Buchhalter die entsprechenden Änderungen an der Buchungsgruppe, der Einrichtung oder Ihrem Beleg vor. Dies ist ein wichtiger Schritt, denn sobald Belege gebucht sind, können falsch verwendete Buchungsgruppen oder Einrichtungen nicht mehr gelöscht werden, da für sie Hauptbucheinträge erstellt wurden. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Problembehandlung von Fehlern bei Buchungsgruppen
 Buchungsgruppen sind eines der fortgeschritteneren Konzepte, die Sie in [!INCLUDE[prod_short](includes/prod_short.md)] festlegen können. Wenn sie nicht korrekt eingerichtet sind, können beim Buchen von Belegen oder Buchungsblattzeilen Fehler auftreten. Diese Fehler werden in der Regel durch einen Fehler bei der Zuordnung von Hauptbuch-Konten oder bei der Kombination von Buchungsgruppen verursacht.

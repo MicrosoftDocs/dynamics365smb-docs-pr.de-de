@@ -5,14 +5,15 @@ author: SorenGP
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.search.keywords: ''
+ms.search.form: 5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7af9bf05ab177089eda118792386300ac31ff4fc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 565472d870844d0a9b362cf79962c535190b3b6b
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784047"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947108"
 ---
 # <a name="delivery-reminders-in-the-german-version"></a>Lieferanmahnungen in der deutschen Version
 

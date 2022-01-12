@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 5005279, 5005280, 5005281, 5005282, 5005283
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1b4556f1126eeda42d81c54888f21727c6b43d96
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e850a8d6a4ebb8f9883bd839e01608475c8e9dbd
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771501"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947180"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-german-version"></a>Lieferanmahnungsbestimmungen, -stufen und -text in der deutschen Version einrichten
 
