@@ -1,5 +1,5 @@
 ---
-title: Änderungen prüfen | Microsoft Docs
+title: Änderungen protokollieren
 description: Sie können ein Benutzerprotokoll aktivieren, sodass Sie Aufzeichnungen über sämtliche Änderungen haben, die an den Daten in verfolgten Tabellen vorgenommen werden. Sie können Aktivitäten auch mit bestimmten Arten von Aktivitätsprotokollen verfolgen.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,20 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
+ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.openlocfilehash: 2101a37c62b232e72cf5e773aeb0b2e6d6709927
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606439"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011070"
 ---
 # <a name="auditing-changes-in-business-central"></a>Protokollieren von Änderungen in Business Central
+
 Eine häufige Herausforderung in vielen Anwendungen zur Unternehmensverwaltung ist die Vermeidung unerwünschter Datenänderungen. Es könnte alles sein – von einer falschen Debitorentelefonnummer bis hin zu einer falschen Buchung in der Finanzbuchhaltung. In diesem Thema werden die Funktionen beschrieben, mit denen Sie herausfinden können, was geändert wurde, wer es geändert hat und wann die Änderung vorgenommen wurde.
 
-## <a name="about-the-change-log"></a>Informationen zum Änderungsprotokoll 
-Die Änderungsprotokollfunktion ermöglicht die Verfolgung aller direkten Änderungen, die von einem Benutzer an den Daten in der Datenbank vorgenommen werden. Sie geben jede Tabelle und jedes Feld an, die das System protokollieren soll, und aktivieren dann das Änderungsprotokoll.  
+## <a name="about-the-change-log"></a>Informationen zum Änderungsprotokoll
+
+Die Änderungsprotokollfunktion ermöglicht die Verfolgung aller direkten Änderungen, die von einem Benutzer an den Daten in der Datenbank vorgenommen werden. Sie geben jede Tabelle und jedes Feld an, die das System protokollieren soll, und aktivieren dann das Änderungsprotokoll. Das Änderungsprotokoll basiert auf Änderungen, die an den Daten in den von Ihnen verfolgten Tabellen vorgenommen werden. Auf der Seite **Änderungsprotokollposten** werden Posten chronologisch aufgeführt und alle Änderungen angezeigt, die an den Werten in den Feldern der von Ihnen angegebenen Tabellen vorgenommen wurden. 
 
 Das Nachverfolgen von Änderungen kann sich auf die Leistung auswirken, was Sie Zeit kosten kann. Möglicherweise wird auch die Datenbankgröße erhöht, was Sie Geld kosten kann. Um diese Kalkulationen zu reduzieren, sollten Sie Folgendes beachten:
 
@@ -29,7 +32,7 @@ Das Nachverfolgen von Änderungen kann sich auf die Leistung auswirken, was Sie 
 - Fügen Sie keine Posten und gebuchten Dokumente hinzu. Priorisieren Sie stattdessen Systemfelder wie „Erstellt von“ und „Erstellungsdatum“.
 - Verwenden Sie nicht den Tracking-Typ „Alle Felder“. Wählen Sie stattdessen „Einige Felder“ und verfolgen Sie nur die wichtigsten Felder.
 
-Das Änderungsprotokoll basiert auf Änderungen, die an den Daten in den von Ihnen verfolgten Tabellen vorgenommen werden. Auf der Seite **Änderungsprotokollposten** werden Posten chronologisch aufgeführt und alle Änderungen angezeigt, die an den Werten in den Feldern der von Ihnen angegebenen Tabellen vorgenommen wurden.
+Das Änderungsprotokoll wird auch aus Performance-Gründen während des Upgrades von [!INCLUDE [prod_short](includes/prod_short.md)] auf die nächste Version deaktiviert. Dies beschleunigt nicht nur den Upgrade-Prozess, sondern trägt auch dazu bei, Datenmüll im Zufallsprotokoll zu verringern. Sobald das Upgrade abgeschlossen ist, beginnt das Protokoll wieder mit der Verfolgung von Änderungen.
 
 > [!Important]
 > Änderungen werden in **Änderungsprotokollposten** erst angezeigt, nachdem die Sitzung des Benutzers neu gestartet wurde, was folgendermaßen geschieht:
@@ -39,6 +42,7 @@ Das Änderungsprotokoll basiert auf Änderungen, die an den Daten in den von Ihn
 > * Der Benutzer hat sich abgemeldet und erneut angemeldet.
 
 ### <a name="working-with-the-change-log"></a>Arbeiten mit dem Änderungsprotokoll
+
 Sie verwenden die Seite **Änderungsprotokoll einrichten** zum Aktivieren bzw. Deaktivieren des Änderungsprotokolls. Wenn Sie das Änderungsprotokoll aktivieren bzw. deaktivieren, wird diese Aktivität protokolliert, sodass Sie immer sehen, welcher Anwender die Protokollierung an- bzw. abgeschaltet hat.
 
 Wenn Sie auf der Seite **Einrichtung des Änderungsprotokolls** die Aktion **Tabellen** wählen, können Sie angeben, für welche Tabellen Sie Änderungen verfolgen wollen und welche Änderungen verfolgt werden sollen. Mit [!INCLUDE[prod_short](includes/prod_short.md)] werden auch mehrere Systemtabellen verfolgt.
@@ -49,18 +53,22 @@ Wenn Sie auf der Seite **Einrichtung des Änderungsprotokolls** die Aktion **Tab
 Wenn Sie das Änderungsprotokoll eingerichtet und aktiviert haben und jemand Daten verändert hat, protokolliert die Anwendung die Änderung in einem **Änderungsprotokollposten**. Wenn Sie Posten löschen möchten, können Sie dies auf der Seite **Änderungsprotokollposten löschen** tun, an dem Sie Filter auf Basis Datum und Zeit festlegen können.  
 
 ## <a name="about-activity-logs"></a>Informationen zu Aktivitätsprotokollen
+
 Von einigen Seiten in [!INCLUDE [prod_short](includes/prod_short.md)] können Sie ein Aktivitätsprotokoll anzeigen, in dem der Status und alle Fehler von Dateien angezeigt werden, aus denen Sie exportieren oder in die Sie importieren [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ### <a name="working-with-activity-logs"></a>Arbeiten mit Aktivitätsprotokollen
+
 Die Informationen werden auf der Seite **Aktivitätsprotokoll** angezeigt, entsprechend dem Kontext, aus dem sie geöffnet wurden. Sie können die Seite beispielsweise über die Seiten **Belegaustauschdienst – Einrichtung**, **Eingehender Beleg**, **Gebuchte Verkaufsrechnung** und **Geb. Verkaufsgutschrift** öffnen. Sie können die Liste der Protokolleinträge leeren oder die Liste der Einträge löschen, die älter als sieben Tage sind.  
 
 ## <a name="monitoring-sensitive-fields"></a>Überwachen sensibler Felder
+
 Der Schutz sensibler Daten ist für die meisten Unternehmen ein zentrales Anliegen. Um eine Sicherheitsebene hinzuzufügen, können Sie wichtige Felder überwachen und sich per E-Mail benachrichtigen lassen, wenn jemand einen Wert ändert. Sie können sich beispielsweise benachrichtigen lassen, wenn jemand die IBAN Ihres Unternehmens ändert.
 
 > [!NOTE]
 > Um den Versand von Benachrichtigungen per E-Mail zu ermöglichen, müssen Sie die E-Mail-Funktion in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten. Weitere Informationen finden Sie unter [E-Mail einrichten](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Einrichten der Feldüberwachung
+
 Sie können die Anleitung zum unterstützten Setup **Einrichtung der Überwachung von Feldänderungen** verwenden, um die Felder anzugeben, die Sie anhand von Filterkriterien überwachen möchten, z. B. die Klassifizierung der Datensensibilität für die Felder. Weitere Informationen finden Sie unter [Datensensitivität klassieren](admin-classifying-data-sensitivity.md). Mit dieser Anleitung können Sie auch die Person angeben, die bei einer Änderung eine E-Mail-Benachrichtigung erhalten soll, sowie das E-Mail-Konto, das die Benachrichtigungs-E-Mail sendet. Geben Sie sowohl den zu benachrichtigenden Benutzer als auch das Konto an, von dem aus die Benachrichtigung gesendet werden soll. Wenn Sie die Anleitung abgeschlossen haben, können Sie die Einstellungen für die Feldüberwachung auf der Seite **Feldüberwachungseinrichtung** verwalten. 
 
 > [!NOTE]
@@ -97,6 +105,7 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, um eine F
 Sie können Aufbewahrungsrichtlinien erstellen, um nicht benötigte Daten in Protokollen nach einem von Ihnen angegebenen Zeitraum zu löschen. Beispielsweise kann die Anzahl der Einträge in einem Protokoll im Laufe der Zeit stark zunehmen. Durch das Bereinigen alter Einträge können Sie sich leichter auf neuere und wahrscheinlich relevantere Einträge konzentrieren. Weitere Informationen finden Sie unter [Aufbewahrungsrichtlinien definieren](admin-data-retention-policies.md).
 
 ## <a name="see-also"></a>Siehe auch
+
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
 [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)  
 [Suche nach Seiten und Informationen mit Tell Me](ui-search.md)  

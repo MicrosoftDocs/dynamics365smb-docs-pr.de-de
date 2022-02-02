@@ -1,5 +1,5 @@
 ---
-title: Einrichtung spezieller und alternativer Preise und Rabatte für Kreditoren | Microsoft Docs
+title: Besondere Verkaufspreise und Rabatte aufzeichnen
 description: Die unterschiedlichen oder alternativen Preise und Rabattvereinbarungen festlegen und sie zu Einkaufsbelegen zuweisen.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
+ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 580a2b248b43ccac272b95656207439a8e02cc85
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 46e86445f60e0326a430acd5d2b4bbb555ba5635
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438552"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953434"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Besondere Verkaufspreise und Rabatte aufzeichnen
 > [!NOTE]

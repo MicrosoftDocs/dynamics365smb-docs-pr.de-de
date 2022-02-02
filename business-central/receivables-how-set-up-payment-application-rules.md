@@ -10,20 +10,16 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6eb37cbe2c4891c35b24a3ae7517add73669a2ac
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435059"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971275"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Einrichten von Regeln für die automatische Anwendung von Zahlungen
 
-Auf der Seite **Zahlungsausgleichsvorschriften** Regeln Sie regeln ein, um zu steuern, wie der Zahlungstext (bei einer Banktransaktion) in den folgenden beiden Prozessen automatisch mit dem Text auf offenen Einträgen abgeglichen wird:
-
-- Gleichen Sie Zahlungen automatisch mit ihren entsprechenden offenen (unbezahlten) Rechnungen, Gutschriften und anderen Einträgen ab, wenn Sie die Funktion **Automatisch anwenden** auf der Seite **Zahlungsabstimmungsbuch.-Blatt** verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
-
-- Ordnen Sie Banktransaktionen automatisch den zugehörigen internen Bankkontenposten zu, wenn Sie die Aktion **Automatisch abgleichen** auf der Seite **Bankkontoabstimmung** auswählen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md).
+Auf der Seite **Zahlungsausgleichsvorschriften** richten Sie die Regeln ein, um zu steuern, wie Zahlungstext (bei einer Banktransaktion) automatisch mit dem Text auf zugehörigen offenen (unbezahlten) Rechnungen, Gutschriften oder anderen Einträgen abeglichen wird, wenn Sie die Funktion **Automatisch anwenden** auf der Seite **Zahlungsabstimmungsbuch.-Blatt** verwenden. Weitere Informationen finden Sie unter [Abstimmen von Zahlungen mithilfe der automatischen Anwendung](receivables-how-reconcile-payments-auto-application.md).
 
 Sie richten neue Regeln zur Zahlungsanwendung ein, indem Sie auswählen, welche Arten von Daten in einer Zahlungsabstimmungsbuch.-Blattzeile mit Daten einem oder mehreren offenen Posten übereinstimmen müssen, bevor die zugehörige Zahlung automatisch auf die offenen Posten angewendet wird. Die Qualität jedes automatischen Ausgleichs wird als Wert zwischen **Niedrig** und **Hoch** im Feld **Übereinstimmungsgenauigkeit** auf der Seite **Zahlungsabstimmungsbuch.-Blatt** entsprechend der Zahlungsausgleichsregel angezeigt, die verwendet wurde.
 

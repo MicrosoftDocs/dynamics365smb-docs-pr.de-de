@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
+ms.search.form: 1826, 1827
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 861893c2784bc5eed837c26d070fb98c2826772b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a0a4b5ad87d381f836ac61f234d633e5d30003eb
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439460"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972070"
 ---
 # <a name="set-up-company-consolidation"></a>Unternehmenskonsolidierung einrichten
 

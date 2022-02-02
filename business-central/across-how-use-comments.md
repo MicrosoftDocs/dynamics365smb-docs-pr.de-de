@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen von Bemerkungen zu Karten und Belegen| Microsoft Docs
+title: Hinzufügen von Bemerkungen zu Karten und Belegen
 description: Fügen Sie zusätzlichen Informationen zu Konten, Debitorenkarten oder Verkaufsaufträgen, Verträge, wie eine Sonderpreis- oder Zustellungsmethode, mit anderen Benutzern mitzuteilen hinzu.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
+ms.search.form: 124, 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2be53efdd942128d27ff42358fa60bfe501c8ede
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 345faa9f872d924e91572303ce71d87ff3b77160
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440974"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011915"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Hinzufügen von Bemerkungen zu Karten und Belegen
+
 Fügen Sie zusätzlichen Informationen zu Konten, Debitorenkarten oder Verkaufsaufträgen, Verträge, wie eine Sonderpreis- oder Zustellungsmethode, mit anderen Benutzern mitzuteilen hinzu.
 Nahezu alle Karten und Beleg haben eine **Bemerkungen** Aktion, die die Seite **Bemerkungen** öffnen, in der Sie Bemerkungen verfassen oder lesen können. In Belege können Sie Bemerkungen einzelnen Zeilen hinzufügen.
 
@@ -31,12 +33,14 @@ Außerdem können Sie definieren, welche Bemerkungen von einer Art Beleg auf ein
 Nachfolgend wird erläutert, wie einer Bemerkung einer Artikelkarte hinzugefügt wird. Die Schritte sind für alle anderen Karten ähnlich und Dokumente, außer in Belegzeilen, die **Bemerkungen** Aktion wird auf ein Zeilenaktionsmenü platziert.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Um Bemerkungen einer Artikelkarte hinzuzufügen
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Elemente** ein, und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die entsprechende Artikelkarte.
 3. Wählen Sie die Aktion **Kommentare** aus.
 4. Auf der Seite **Bemerkungen** können Sie beliebigen Text in das Feld eingeben und dann **ok** klicken.
 
 ## <a name="see-also"></a>Siehe auch
+
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 

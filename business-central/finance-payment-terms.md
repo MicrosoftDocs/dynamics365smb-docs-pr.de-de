@@ -4,15 +4,15 @@ description: Verwenden Sie in der Basisversion von Business Central Zahlungsbedi
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10ae5c1932e21b452efd41a1212f1840101a277b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a81713fb0b3a742beeaaceca45b69c57b9a5f0c8
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437316"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971966"
 ---
 # <a name="set-up-payment-terms"></a>Zahlungsbedingungen einrichten
 

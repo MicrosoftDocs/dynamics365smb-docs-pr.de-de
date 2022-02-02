@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5, 16, 118, 459, 460, 495
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8220e0927dd6f22139164ff66dc6876a594b87be
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ca3ff9c7d9d5f1ac3dd665836e6ef97a5e6ac6cf
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446340"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971353"
 ---
 # <a name="set-up-invoice-rounding"></a>Rundung von Rechnungen festlegen
 Wenn Sie beim Erstellen von Rechnungen Rechnungsbeträge runden müssen, können Sie die automatische Rundungsfunktion verwenden. Nach dem Runden einer Rechnung wird eine zusätzliche Zeile mit dem Rundungsbetrag eingefügt, die zusammen mit den anderen Rechnungszeilen gebucht wird.

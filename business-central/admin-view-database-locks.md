@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 9511
 ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: fb42b07832d33c995299d5033b8c548a37a86f56
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6fe59a57514225a0a03d45770df2329c63fda4af
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443104"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011731"
 ---
 # <a name="viewing-database-locks"></a>Anzeigen von Datenbank-Sperren
 

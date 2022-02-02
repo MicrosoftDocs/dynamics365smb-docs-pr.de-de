@@ -3,19 +3,19 @@ title: Überblick der Aufgaben zum Einrichten von Business Central
 description: Lesen Sie einen Überblick über die Aufgaben zum Festlegen, Initialisieren und Konfigurieren von Business Central nach Ihren Bedürfnissen.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5cbd8a674945fa5c33d502cffb865677c66bce39
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4140ff83d14be5af9a7c79101d50f99fa82f29fd
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588476"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011572"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Überblick der Aufgaben zum Einrichten von [!INCLUDE[prod_short](includes/prod_short.md)]
 

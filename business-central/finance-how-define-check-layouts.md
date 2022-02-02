@@ -8,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
+ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6d083e3eea85fde087a431d21bb9eae8bb4b8c5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4278cb474440e8746bcc423c3dd10dbc209fdb9a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444637"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971665"
 ---
 # <a name="select-a-check-layout"></a>Ein Prüflayout auswählen
+
 Sie können Ihre Schecks entwerfen, um sie den Vorgaben anzupassen, die von den lokalen Behörden festgelegt werden. Scheckbilder können in Englisch, Französisch oder Spanisch gedruckt werden.
 
 Schecks können sowohl im USA- als auch im Kanada-Schecklayout, entweder im Scheck/Formular/Scheck-Format oder im Formular/Formular/Scheck-Format gedruckt werden.
 
 ## <a name="to-select-a-check-layout"></a>Ein Prüflayout auswählen
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Berichtsauswahl – Bankkonto** ein, und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **Berichts-Auswahl - Bankkonto** unter **Verwendung** wählen Sie **Scheck**.
 3. Wählen Sie eine der folgenden Berichts-IDs:
@@ -39,6 +42,7 @@ Wenn Sie Schecklayouts eingerichtet haben, können Sie Schecks auf de Seite **Za
 Verwenden Sie dazu entweder die Word- oder die RDLC-Integration, um eines dieser Standardprüflayouts zu ändern. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>Verwenden von MICR- und Sicherheitsschriftarten
+
 Die Onlineversion von [!INCLUDE[prod_short](includes/prod_short.md)] enthält vorinstallierte Schriftarten auf den Servern, die beim Definieren von Prüflayouts verwendet werden können. Im Folgenden wird erläutert, welche Schriftarten verfügbar sind, und es werden Links zu detaillierten Informationen der Drittanbieter der Schriftarten angezeigt.
 
 > [!Important]
@@ -50,33 +54,38 @@ In Update 15.3 und höher sind MICR-Schriftarten (Magnetic Ink Character Recogni
 > Aus Sicherheits- und rechtlichen Gründen können Sie keine benutzerdefinierten Schriftarten in die [!INCLUDE[prod_short](includes/prod_short.md)]-Umgebung hochladen.
 
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B-Spezifikationen
+
 Im Folgenden werden die Spezifikationen für die MICR E-13B-Schriftarten zusammengefasst, die beim Kalibrieren von Schriftarten für Schecklayouts mit bestimmten MICR-Druckern hilfreich sein können.
 
 ![MICR E-13B Spezifikationen.](media/font_MICR_E-13B_Specifications.png "MICR E-13B-Spezifikationen")
 
 ### <a name="delimiter-characters"></a>Trennzeichen
+
 ![Begrenzungszeichen.](media/font-micr-letters.png "Trennzeichen")
 
 Die vollständige Spezifikation der MICR E-13B-Schriftarten finden Sie in der Dokumentation des Lieferanten auf dieser Website: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7-Spezifikationen
+
 Die folgenden CMC-7-Schriftarten sind in [!INCLUDE[prod_short](includes/prod_short.md)] online verfügbar:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
 - IDAutomationCMC7n25
--   IDAutomationCMC7n40
+- IDAutomationCMC7n40
 
 Im Folgenden werden die Spezifikationen für die MICR CMC-7-Schriftarten zusammengefasst, die beim Kalibrieren von Schriftarten für Schecklayouts mit bestimmten MICR-Druckern hilfreich sein können.
 
 ![MICR CMC-7 Spezifikationen.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-Spezifikationen")
 
 ### <a name="delimiter-characters"></a>Trennzeichen
+
 ![Begrenzungszeichen für CMC-7.](media/font-cmc7-letters.png "Begrenzungszeichen für CMC-7.")
 
 Die vollständige Spezifikation der MICR CMC-7-Schriftarten finden Sie in der Dokumentation des Lieferanten auf dieser Website: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### <a name="secure-font-specifications"></a>Spezifikationen für sichere Schriftarten
+
 Im Folgenden werden die Spezifikationen für die Schecksicherheits-Schriftarten zusammengefasst, die beim Kalibrieren von Schriftarten für Schecklayouts mit bestimmten MICR-Druckern hilfreich sein können.
 
 ![Sicherheitsschrift-Spezifikationen.](media/font_check-security-font_Specifications.png "Spezifikationen für Schecksicherheits-Schriftarten")
@@ -86,6 +95,7 @@ Die vollständige Spezifikation der Schecksicherheits-Schriftarten finden Sie in
 Schriftarten für andere Zwecke sind auch in [!INCLUDE[prod_short](includes/prod_short.md)] verfügbar. Weitere Informationen finden Sie unter [Verfügbare Schriftarten](ui-fonts.md)
 
 ## <a name="see-also"></a>Siehe auch
+
 [Erstellen und Ändern benutzerdefinierter Berichtslayouts](ui-how-create-custom-report-layout.md)  
 [Schriftarten in Business Central](ui-fonts.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  

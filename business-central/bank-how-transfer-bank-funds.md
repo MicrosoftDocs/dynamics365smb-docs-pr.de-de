@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
+ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: e9a285db48593828fbb01b281459df6c1e3111d0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1bc84acfd13011a343c2c745d154c83912eade08
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437151"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971405"
 ---
 # <a name="transfer-bank-funds"></a>Bank-Geldmittel überweisen
 

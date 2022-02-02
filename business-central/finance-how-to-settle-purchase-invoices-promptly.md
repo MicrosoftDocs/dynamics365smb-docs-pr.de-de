@@ -4,15 +4,15 @@ description: Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.form: 51, 9308
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 76dff6fb1977ea4333e326f8a3456aeb5530cfd8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: af1dea2cf7ac387f2e0dfa9c2965156768facc3a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439485"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973414"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Einkaufsrechnungen sofort ausgleichen
 

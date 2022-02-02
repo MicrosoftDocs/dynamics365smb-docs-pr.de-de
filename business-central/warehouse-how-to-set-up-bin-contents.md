@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 575b2fdd00b7761fa615b9265fa5f21d402e096d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f0ce279f17022ad62f3eb00c1713c794d3b5e1d1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443004"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970856"
 ---
 # <a name="create-bin-contents"></a>Lagerplatzinhalt erstellen
 

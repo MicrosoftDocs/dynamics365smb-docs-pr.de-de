@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
+ms.search.form: 50 ,51, 53, 56, 146
 ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 132486fc1e628678cd9ed5d68599a830f2b23b8d
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 3d634e1ffb34cfdc0e4e7f6fc5e6ad4805cdabb5
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940701"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953034"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Käufe mit Einkaufsrechnungen erfassen
 

@@ -5,14 +5,15 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, wizard, checklist
+ms.search.form: 1992, 1993, 1994, 1995, 1990, 1997, 1801
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 48a293f0cfedc257f8efcae6b4e8ea958e975ca6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d11c1fa8541669ba496f4d6c2ec42dd6ff0c155b
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443968"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011282"
 ---
 # <a name="onboard-users-with-checklists"></a>Onboarding von Benutzern mit Checklisten
 

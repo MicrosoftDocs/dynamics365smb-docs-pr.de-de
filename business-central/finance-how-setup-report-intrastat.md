@@ -1,8 +1,6 @@
 ---
-title: 'Gewusst wie: Einrichten von Intrastat-Berichten| Microsoft Docs'
+title: Einrichten und Berichten von Intrastat
 description: Erfahren Sie, wie Intrastat-Berichtsfunktinen eingerichtet werden, und wie der Handel mit Unternehmen in anderen EU-Ländern gemeldet wird.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
+ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 219c7a779bc29eda81243362f79e1e7d2cec6b8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444412"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971093"
 ---
 # <a name="set-up-and-report-intrastat"></a>Einrichten und Berichten von Intrastat
+
 Alle Unternehmen innerhalb der EU sind verpflichtet, Auskunft über ihre Handelsaktivitäten mit anderen EU-Ländern/-Regionen zu geben. Warenbewegungen müssen jeden Monat dem Statistischen Amt Ihres Landes/Ihrer Region mitgeteilt und die Berichte müssen an die Steuerbehörden übermittelt werden. Dies wird als Intrastat-Berichterstattung bezeichnet. Auf der Seite **Intrastat Buch.-Blatt** können Sie regelmäßige Intrastat-Berichte ausfüllen.  
 
 ## <a name="required-and-optional-setups"></a>Erforderliche und optionale Einrichtung
@@ -30,10 +30,15 @@ Bevor Sie das Intrastat Buch.-Blatt verwenden können, um Intrastat-Informatione
 * **Warencodes**: Zoll- und Steuerbehörde haben numerische Codes eingerichtet, die Artikel und Dienstleistungen klassifizieren. Sie geben diese Codes der Artikel an.
 * **Transaktionstypencodes**: Länder und Regionen haben unterschiedliche Codes für Intrastat-Transaktionstypen, wie beispielsweise gewöhnlichen Einkauf und Verkauf, den Austausch zurückgegebener Waren und den Austausch nicht zurückgegebener Waren. Einrichtung aller Codes, die sich auf Ihr Land/Ihre Region beziehen. Sie verwenden diese Codes in Einkaufs- und Verkaufsbelegen und wenn Sie Rückgaben verarbeiten.  
 * **Transportmethoden**: Es gibt sieben einstellige Codes für Intrastat-Transportmethoden. **1** für See, **2** für Schiene, **3** für Straße, **4** für Luft, **5** für Post, **7** für feste Installationen und **9** für eigenen Antrieb (z. B. Tranportieren eines Autos, indem dieses gefahren wird). [!INCLUDE[prod_short](includes/prod_short.md)] erfordert diese Codes nicht, wir empfehlen jedoch, dass die Beschreibungen eine ähnliche Bedeutung bereitstellen.  
+* **Transaktionsspezifikationen**: Dienen der Ergänzung der Beschreibungen aus den Buchungsarten.  
+* **Ursprungsland**: Verwenden Sie die aus zwei Buchstaben bestehenden ISO-Alphacodes für das Land, in dem die Ware erworben oder hergestellt wurde. Wenn die Ware in mehr als einem Land hergestellt wurde, ist das Ursprungsland das letzte Land, in dem sie in nennenswertem Umfang verarbeitet wurde. 
+* **Umsatzsteuer-Identifikationsnummer des Handelspartners im Einfuhrmitgliedstaat**: Dies ist die Umsatzsteuer-Identifikationsnummer des Handelspartners im Einfuhrmitgliedstaat. Die Umsatzsteuer-ID wird auch beim Austausch von Intra-EU-Ausfuhrdaten zwischen den Mitgliedstaaten verwendet und ermöglicht es den Mitgliedstaaten, die erhaltenen Daten dem einführenden Unternehmen in ihrem eigenen Land zuzuordnen. Meldestellen müssen die Umsatzsteuer-ID des Unternehmens melden, das den innergemeinschaftlichen Erwerb von Gegenständen im Einfuhrmitgliedstaat angemeldet hat. 
+
+> [!NOTE]
+> Die zu verwendende Umsatzsteuer-Identifikationsnummer des Handelspartners kann je nach Geschäftssituation unterschiedlich sein. Die zu verwendende Kennung unterscheidet sich zum Beispiel für Szenarien wie Vertriebsketten, bei denen ein Lieferant ein Produkt in ein anderes Land verkauft und dieses Unternehmen den Artikel dann an ein anderes Unternehmen im selben Land weiterverkauft, Dreiecksgeschäft usw. Wenn Sie sich nicht sicher sind, welche Umsatzsteuer-ID Sie verwenden sollen, empfehlen wir Ihnen, einen Experten in Ihrem Land oder Ihrer Region zu fragen. 
 
 Optional können Sie auch Folgendes angeben:
 
-* **Transaktionsspezifikationen**: Dienen der Ergänzung der Beschreibungen aus den Buchungsarten.  
 * **Bereiche**: Dienen dazu, Informationen über Länder und Regionen zu ergänzen.  
 * **Häfen**: Dienen dazu, die Positionen anzugeben, wo Sie Artikel in andere Länder versenden oder aus anderen Ländern empfangen. Heathrow Airport ist ein Beispiel für einen Hafen. Sie geben Häfen auf Verkaufs- und Einkaufsbelegen des Inforegisters **Außenhandel** ein. Diese Daten werden auch aus den Artikelposten kopiert, wenn Sie das Intrastat-Buch.-Blatt erstellen.  
 
@@ -53,35 +58,49 @@ Sie können die Positionen in eine Datei exportieren, die Sie an Ihre Intrastat-
 > [!Note]
 > Geben Sie im Feld **Statistikperiode** die Statistikperiode als vierstellige Zahl ein, wobei die ersten beiden Ziffern das Jahr und die nächsten beiden Ziffern den Monat darstellen. Für Juni 2017 beispielsweise geben Sie 1706 ein.
 
-### <a name="to-set-up-commodity-codes"></a>Um Warencodes einzurichten:
+### <a name="to-set-up-transport-methods"></a>Einrichten von Transportmethoden
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkehrszweige** ein und wählen Sie dann den zugehörigen Link.  
+2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Um einzurichten die Intrastat-Berichte erforderlich sein sollte Sie unter
+
+In einigen Ländern wie Spanien und dem Vereinigten Königreich, verlangen die Behörden, dass Intrastat-Berichte, beispielsweise, die Lieferbedingung für Einkäufe oder einige andere Werte enthalten, wenn die Verkäufe über einem bestimmten Schwellenwert sind. Auf der Seite **Intrastat einrichten** können Sie auswählen, um **Einrichtung Checkist Intrastat** Pflichtfelder auf der Seite **Intrastat Buch.-Blatt** festlegen soll.
+
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intrastat-Einrichtung** ein und wählen Sie dann den zugehörigen Link.
+2. Wählen Sie die Aktion **Intrastat-Prüflisten-Einrichtung** aus.
+3. Auf der Seite **Intrastat-Prüflisten-Einrichtung** in **Feldname**, um den Intrastat-Berichtsfelds auszuwählen, das Sie zwar erforderlich machen möchten.
+
+### <a name="czechia"></a>Tschechien
+
+Speziell für tschechische Unternehmen müssen Sie auch Warencodes und Transaktionscodes einrichten.  
+
+#### <a name="to-set-up-commodity-codes"></a>Um Warencodes einzurichten:
+
 Alle Artikel, die Sie kaufen oder verkaufen, benötigen einen Warencode.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Warencodes** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Um einem Artikel einem Warencode zuzuordnen, erweitern Sie auf der Seite **Artikelkarte** das Inforegister **Kosten und Buchen** und geben dann den Code in das Feld **Warencode** ein.   
 
-### <a name="to-set-up-transaction-nature-codes"></a>Einrichten von Transaktionsartencodes
+### <a name="italy"></a>Italien
+
+Speziell für italienische Unternehmen müssen Sie auch Warencodes und Transaktionscodes einrichten.  
+
+#### <a name="to-set-up-transaction-nature-codes"></a>Einrichten von Transaktionsartencodes
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Transaktionsnatur-Codes** ein und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
 > Wenn Sie häufiger einen bestimmten Transaktionsartencode verwenden, können Sie sich den Standard erstellen. Dazu gehen Sie zur Seite **Intrastat einrichten**, und wählen den Code aus.
 
-### <a name="to-set-up-transport-methods"></a>Einrichten von Transportmethoden
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Verkehrszweige** ein und wählen Sie dann den zugehörigen Link.  
-2. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Um einzurichten die Intrastat-Berichte erforderlich sein sollte Sie unter
-In einigen Ländern wie Spanien und dem Vereinigten Königreich, verlangen die Behörden, dass Intrastat-Berichte, beispielsweise, die Lieferbedingung für Einkäufe oder einige andere Werte enthalten, wenn die Verkäufe über einem bestimmten Schwellenwert sind. Auf der Seite **Intrastat einrichten** können Sie auswählen, um **Einrichtung Checkist Intrastat** Pflichtfelder auf der Seite **Intrastat Buch.-Blatt** festlegen soll.
-
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intrastat-Einrichtung** ein und wählen Sie dann den zugehörigen Link.
-2. Wählt die **Intrastat-Prüflisten-Einrichtung** Aktion aus.
-3. Auf der Seite **Intrastat-Prüflisten-Einrichtung** in **Feldname**, um den Intrastat-Berichtsfelds auszuwählen, das Sie zwar erforderlich machen möchten.
-
 ## <a name="to-report-intrastat"></a>Erstellen Sie Intrastat-Berichte
+
 Nachdem Sie das Intrastat-Buch.-Blatt ausgefüllt haben, können Sie den Bericht **Checklistenbericht** ausführen, um zu überprüfen, ob alle Daten in dem Buch.-Blatt korrekt sind. Pflichtfelder, die Sie auf der Seite **Intrastat-Prüflisten-Einrichtung**, die Werte fehlende sind, werden angezeigt in Problemen und in warnendem Infobox im Fenster **Intrastat Buch.-Blatt** festgelegt haben. Anschließend können Sie einen Intrastat-Bericht als Formular drucken, oder Sie erstellen eine Datei, um diese an die Steuerbehörden in Ihrem Land/Region zu senden.  
 
-### <a name="to-fill-in-intrastat-journals"></a>Intrastat-Buch.-Blätter ausfüllen:  
+### <a name="to-fill-in-intrastat-journals"></a>Intrastat-Buch.-Blätter ausfüllen:
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intrastat Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie auf der Seite **Intrastat-Buch.-Blatt** den betreffenden Buch.-Blattnamen im Feld **Buch.-Blattname** aus und dann **OK**.  
 3. Wählen Sie die Aktion **Mahnungszeile vorschlagen**. Die Felder **Startdatum** und **Enddatum** enthalten bereits die Daten, die Sie im Buch.-Blattnamen für die Statistikperiode angegeben haben.  
@@ -91,9 +110,10 @@ Nachdem Sie das Intrastat-Buch.-Blatt ausgefüllt haben, können Sie den Bericht
 Der Batchauftrag holt alle Posten innerhalb der Statistikperiode und fügt Sie als Zeilen im Intrastat Buch.-Blatt ein. Sie können diese Positionen bei Bedarf bearbeiten.  
 
 > [!IMPORTANT]  
->  Durch die Stapelverarbeitung werden nur die Posten abgerufen, die einen Länder-/Regionscode enthalten, für den auf der Seite **Länder/Regionen** ein Intrastatcode angegeben wurde. Daher ist es wichtig, dass Sie Intrastatcodes für die Länder-/Regionscodes eingeben, für die Sie die Stapelverarbeitung ausführen möchten.  
+> Durch die Stapelverarbeitung werden nur die Posten abgerufen, die einen Länder-/Regionscode enthalten, für den auf der Seite **Länder/Regionen** ein Intrastatcode angegeben wurde. Daher ist es wichtig, dass Sie Intrastatcodes für die Länder-/Regionscodes eingeben, für die Sie die Stapelverarbeitung ausführen möchten.  
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Melden von Intrastat auf einem Formular oder einer Datei
+
 Um von den Statistikbehörden die für das Intrastat-Formular benötigten Daten zu erhalten, müssen Sie den Bericht **Intrastat – Formular** ausdrucken. Zuvor müssen Sie das Intrastat-Buch.-Blatt vorbereiten und ausfüllen. Wenn Sie sowohl Einkaufs- als auch Verkaufstransaktionen haben, müssen Sie für jede Art ein eigenes Formular ausfüllen und daher den Bericht zweimal drucken.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intrastat Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  
@@ -104,6 +124,7 @@ Um von den Statistikbehörden die für das Intrastat-Formular benötigten Daten 
 6. Wählen Sie **Senden an**, um den Bericht zu drucken.  
 
 ### <a name="report-intrastat-in-a-file"></a>Intrastat Berichte in einer Datei
+
 Sie können den Intrastat-auch auf einer Datei einreichen. Bevor Sie die Datei erstellen, können Sie einen Testbericht drucken, der dieselben Daten enthält wie die Datei.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intrastat-Buch.-Blatt** ein und wählen Sie dann den entsprechenden Link.  
@@ -115,6 +136,7 @@ Sie können den Intrastat-auch auf einer Datei einreichen. Bevor Sie die Datei e
 7. Navigieren Sie zum gewünschten Speicherort für die Datei, und geben Sie den Dateinamen ein. Klicken Sie auf **Speichern**.
 
 ## <a name="reorganize-intrastat-journals"></a>Reorganisieren von Intrastat Buch.-Blättern
+
 Sie müssen für jeden Monat einen Intrastat-Bericht einreichen und für jeden Bericht einen neuen Buch.-Blattnamen erstellen. Deshalb werden Sie irgendwann über eine Vielzahl von Buch.-Blattnamen verfügen. Die Buch.-Blattzeilen werden nicht automatisch gelöscht. Sie werden vielleicht Ihre Buch.-Blattnamen periodisch reorganisieren wollen. Sie tun dies, indem Sie die Buch.-Blattnamen löschen, die Sie nicht länger benötigen. Die Buch.-Blattzeilen in diesen Buch.-Blattnamen werden ebenfalls gelöscht.  
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Intrastat Buch.-Blatt** ein und wählen Sie dann den zugehörigen Link.  

@@ -1,5 +1,5 @@
 ---
-title: Dient zum Einrichten mehrerer Zinssätze.
+title: Mehrere Zinssätze für gestundete Zahlungen einrichten
 description: In diesem Thema erfahren Sie, wie Sie Finance-Belastungen mit mehreren Sätzen für einen bestimmten Zeitraum berechnen können.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,33 +7,38 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 6, 431, 432, 572
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1a4a47ef587a4d49c92e63f746a3b973f3f40ad9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6d90f8e042899495bfc8e171d7e69f7e5b4fdb36
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435959"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971603"
 ---
-# <a name="set-up-multiple-interest-rates"></a>Dient zum Einrichten mehrerer Zinssätze.
-Mehrere Zinssätze werden für verschiedene Perioden für gestundete Zahlungen in den Geschäftstransaktionen verwendet. Beispielsweise zeigt eine Regierung den maximalen Zinsen, der für einen Verbraucher erhoben wird. Dieser Zinssatz kann zweimal jährlich geändert werden am 1. Januar und 1. Juli. Der Zinssatz zwischen Unternehmen (B2B) wird von beiden Parteien vereinbart und dort ist keine Begrenzung zu dieser Debitorengruppe. Der angekündigte Kurs ist normalerweise vier Prozent mehr als die normalen Bankzinsen.
+# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Mehrere Zinssätze für gestundete Zahlungen einrichten
 
-Wenn Sie Zinskonditionen und Mahnmethoden für verspätete Zahlungen einrichten, können Sie mehrere Zinssätzen angeben, damit die Strafgebühr aus verschiedenen Zinssätzen in verschiedenen Perioden berechnet wird. Weitere Informationen finden Sie unter [Offene Salden eintreiben](receivables-collect-outstanding-balances.md)
+Sie können verschiedene Zinssätze für verschiedene Perioden für gestundete Zahlungen in den Geschäftstransaktionen verwenden. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
-## <a name="to-set-up-multiple-interest-rates"></a>Einrichten mehrerer Zinssätze.  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zinskonditionen** ein und wählen Sie dann den zugehörigen Link.  
-2.  Auf der Seite **Zinskonditionen** wählen Sie den gewünschten Finanzausdruck, und wählen die Aktion **Zinssätze**.  
-3.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Wählen Sie die Schaltfläche **OK**.  
-5.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Mahnmethoden** ein und wählen Sie dann den zugehörigen Link.  
-6.  Auf der Seite **Mahnbestimmungen** wählen Sie die gewünschte Mahnbestimmung und wählen die Aktion **Stufen** aus.  
-7.  Auf der Seite **Mahnstufen** wählen Sie das Feld **Zins berechnen** aus.  
+Beispielsweise zeigt eine Regierung den maximalen Zinsen, der für einen Verbraucher erhoben wird. Dieser Zinssatz kann zweimal jährlich geändert werden am 1. Januar und 1. Juli. Der Zinssatz zwischen Unternehmen (B2B) wird von beiden Parteien vereinbart und dort ist keine Begrenzung zu dieser Debitorengruppe. Der angekündigte Kurs ist normalerweise vier Prozent mehr als die normalen Bankzinsen.
+
+Wenn Sie Zinskonditionen und Mahnmethoden für verspätete Zahlungen einrichten, können Sie mehrere Zinssätzen angeben, damit die Strafgebühr aus verschiedenen Zinssätzen in verschiedenen Perioden berechnet wird.  
+
+## <a name="to-set-up-multiple-interest-rates"></a>Einrichten mehrerer Zinssätze.
+
+1. Wählen Sie das Symbol ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Zinskonditionen** ein und wählen Sie dann den zugehörigen Link.  
+2. Auf der Seite **Zinskonditionen** wählen Sie den gewünschten Finanzausdruck, und wählen die Aktion **Zinssätze**.  
+3. Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Wählen Sie die Schaltfläche **OK**.  
+5. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Mahnmethoden** ein und wählen Sie dann den zugehörigen Link.  
+6. Auf der Seite **Mahnbestimmungen** wählen Sie die gewünschte Mahnbestimmung und wählen die Aktion **Stufen** aus.  
+7. Wählen Sie auf der Seite **Mahnstufen** das Feld **Zinsen berechnen** für die entsprechenden Mahnstufen aus.  
 
 Wenn Sie eine Zinsrechnung registrieren, wird deren Registrierung die Zinsrechnungen mit mehreren Zinssätzen während eines bestimmten Zeitraums anzeigen. Die Mahnung enthält außerdem die Kontaktdetails des Debitors, des Unternehmens, das die Mahnung ausgibt, den Zusatzbetrag und den Gesamtbetrag. Der Eröffnungsposten der Zinsrechnung wird fett angezeigt. Die Zinsrechnungen werden mit verschiedenen Zinssätzen für eine bestimmte Periode berechnet und werden nach dem Eröffnungsposten der Mahnung gedruckt.  
 
-## <a name="see-also"></a>Siehe auch  
+## <a name="see-also"></a>Siehe auch
+
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
 [Finanzen einrichten](finance-setup-finance.md)
 

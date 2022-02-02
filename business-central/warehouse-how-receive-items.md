@@ -1,5 +1,5 @@
 ---
-title: Wie man Artikel empfängt
+title: Empfangen von Artikeln
 description: Dieses Thema gibt einen Überblick über die verschiedenen Möglichkeiten, Artikel in einem Lager zu empfangen, zum Beispiel Artikel mit einer Einkaufsbestellung oder Artikel mit einem Lager-Eingang.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 577bbd63a24ba50844c6e76a3b64845f4fefc62a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445126"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973258"
 ---
 # <a name="receive-items"></a>Empfangen von Artikeln
 

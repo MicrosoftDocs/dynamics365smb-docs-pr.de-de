@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
+ms.search.form: 26, 27, 50, 56
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 7d0b33b668bede3ac1a1a7b8bd981693c54cd4b7
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 58476145830438b85e70c03958b2bf997640e2c7
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940001"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953109"
 ---
 # <a name="procurement-quick-start"></a>Schnellstart Beschaffung
 

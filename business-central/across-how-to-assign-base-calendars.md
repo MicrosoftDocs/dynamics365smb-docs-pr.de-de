@@ -1,5 +1,5 @@
 ---
-title: So legen Sie Basiskalender fest
+title: Basiskalender einrichten
 description: Sie können Ihrer Firma und ihren Geschäftspartnern einen Basiskalender zuweisen, um Liefer- und Empfangsdaten gemäß den angegebenen Arbeitstagen zu berechnen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,20 +7,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5c82ce068f22e9cf458fdedf84504c880838c648
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446490"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011836"
 ---
 # <a name="set-up-base-calendars"></a>Basiskalender einrichten
+
 Sie können Ihrer Firma sowie Ihren Geschäftspartnern, wie z. B. Debitoren, Kreditoren und Lagerorten oder Standorte zuordnen. Die Liefer- und Wareneingangsdaten auf zukünftigen Verkaufsaufträgen, Einkaufsbestellungen, Umlagerungsaufträgen und in Fertigungsauftragszeilen werden, entsprechend den Arbeitstagen, die im Kalender festgelegt sind, errechnet. Die Hauptaufgabe beim Einrichten eines neuen Basiskalenders ist, die freien Tage festzulegen.  
 
-## <a name="to-set-up-a-base-calendar"></a>einen Basiskalender einrichten  
+## <a name="to-set-up-a-base-calendar"></a>einen Basiskalender einrichten
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Basiskalender** ein, und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie das Feld **Code** aus.  
@@ -42,6 +44,7 @@ Wenn Sie einen Eintrag vornehmen, wird das Feld **Frei** ausgewählt. Sie könne
 Gibt eine Datumsformel für die Beschaffungszeit des Artikels an. Es wird verwendet, um das Feld **Geplantes Empfangsdatum** vorwärts zu berechnen und um das Feld **Aufrtragsdatum** rückwärts zu berechnen. Sehen Sie [Beschaffungszeit](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Beschaffungszeit
+
 Alle Basiskalender, die für den Kreditor oder Lagerort definiert wurden, wirken sich darauf aus, wie die Daten in Arbeitstage berechnet und gerundet werden. Die beiden Schlüsseldatumsfelder in Einkaufszeilen werden daher wie folgt mit unterschiedlichen Bedingungen berechnet.
 
 |Berechnungsrichtung|Kreditorenkalender definiert|Kreditorenkalender nicht definiert|

@@ -3,19 +3,19 @@ title: Fibu-Buchungszeile - Überblick
 description: In diesem Thema werden die Änderungen in Codeunit 12, Gen. B.-Bl.-Zeile, und ist der einzige Ort, an dem Hauptbuch-, MwSt.- und Debitoren- und Kreditorenbuch-Einträge eingefügt werden können.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9642c33d9d5994c6982029e4ae96897a7648b8c8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 849bf54380aa7ee3abe09986a168aa946a1b3426
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322472"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011033"
 ---
 # <a name="general-journal-post-line-overview"></a>Fibu-Buchungszeile - Überblick
 

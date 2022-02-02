@@ -1,7 +1,6 @@
 ---
-title: Importieren vieler Artikelbilder über eine ZIP-Datei | Microsoft Docs
+title: Importieren vieler Artikelbilder über eine ZIP-Datei
 description: Um mehrere Artikelbilder zu importieren, geben Sie den Bilddateien Namen, die den Artikelnummern entsprechen, komprimieren Sie sie in eine ZIP-Datei und verwenden Sie die Seite Artikelbilder importieren.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
+ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ac8d68d067c03039433d78be475d74efb3fec1fd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 81e628a80fe170789bb174cd393842bdf2db9af5
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440524"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7975018"
 ---
 # <a name="import-multiple-item-pictures"></a>Mehrere Artikelbilder importieren
  Sie können mehrere Artikelbilder in einem Durchgang importieren. Benennen Sie einfach Ihre Bilddateien mit Namen entsprechend zu Ihren Artikelnummern, komprimieren Sie sie in einer ZIP-Datei und verwenden Sie dann die Seite „Artikelbilder importieren”, um zu verwalten, welche Artikel importiert werden sollen.

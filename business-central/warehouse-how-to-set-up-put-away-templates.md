@@ -1,5 +1,5 @@
 ---
-title: So legen Sie Einlagerungsvorlagen fest
+title: Einlagerungsmethoden einzurichten
 description: Verwenden Sie Einlagerungsvorlagen, um sich jederzeit die am besten geeigneten Lagerplätze für Ihre Artikel vorschlagen zu lassen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 715c2f0c862d720d7123bc585d9b67c642d22005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 59cb78989d4926f3155d5ca3eb195a185b0031bd
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445076"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971223"
 ---
 # <a name="set-up-put-away-templates"></a>Einlagerungsmethoden einzurichten
 

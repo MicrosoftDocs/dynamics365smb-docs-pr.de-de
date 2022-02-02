@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/22/2021
+ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 816b46e859fb4125c93346243f57f88b5f941a70
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940601"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029274"
 ---
 # <a name="set-up-bank-accounts"></a>Bankkonten festlegen
 
@@ -90,6 +91,8 @@ Je besser Sie die Zuordnung von Informationen im Zahlungsabstimmungs Buch.-Blatt
 2. Wählen Sie auf der Seite **Bankkonten** die Aktion **Neu** aus.
 3. Füllen Sie die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    Das Feld **Bankkto.-Buchungsgruppe** verbindet das Bankkonto mit dem zugrunde liegenden Sachkonto in der Bilanz. Weitere Informationen finden Sie unter [Buchungsgruppen einrichten](finance-posting-groups.md).
+
 > [!TIP]
 > Einige Felder sind ausgeblendet, bis Sie die Aktion **Mehr anzeigen** wählen, typischerweise weil sie selten verwendet werden. Andere müssen durch Personalisierung hinzugefügt werden. Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
 
@@ -152,7 +155,12 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> Um das Feld **Saldo** mit einem Eröffnungsbilanz auszufüllen, müssen Sie den Bankposten mit dem entsprechenden Betrag buchen. Sie können dies tun, indem Sie eine Bankkontoabstimmung durchführen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md). Alternativ können Sie die Eröffnungsbilanz als Teil der allgemeinen Datenerstellung in neuen Unternehmen implementieren, indem Sie den Leitfaden für das unterstützte Setup **Geschäftsdaten migrieren** verwenden. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md). Wie Sie Buch.-Blatt Anfangssalden in [!INCLUDE[prod_short](includes/prod_short.md)] erstellen, erfahren Sie unter [Erfassen von Buch.-Blatt Anfangssalden](admin-how-to-create-journal-opening-balances.md).
+> Um das Feld **Saldo** mit einem Eröffnungsbilanz auszufüllen, müssen Sie den Bankposten mit dem entsprechenden Betrag buchen. Sie können dies tun, indem Sie eine Bankkontoabstimmung durchführen. Weitere Informationen finden Sie unter [Abstimmen von Bankkonten](bank-how-reconcile-bank-accounts-separately.md).  
+>
+> Alternativ können Sie die Eröffnungsbilanz als Teil der allgemeinen Datenerstellung in neuen Unternehmen implementieren, indem Sie den Leitfaden für das unterstützte Setup **Geschäftsdaten migrieren** verwenden. Weitere Informationen finden Sie unter [Vorbereitungen für das Ausführen von Geschäften](ui-get-ready-business.md).  
+
+> [!IMPORTANT]
+> Es ist wichtig, dass Sie den Anfangssaldo nicht direkt in der Finanzbuchhaltung buchen. Buchungen im Sachkonto, die direkt in der Finanzbuchhaltung gebucht werden, führen in der Regel dazu, dass Sie das Bankkonto nicht abgleichen können, oder im Falle von Bankkonten in Fremdwährung, dazu, dass sich Differenzen ansammeln, wenn Sie mehr Bankabstimmungen buchen. Häufig wird der Anfangsbestand der Bank direkt auf das Bankkonto gebucht, und der Betrag landet dann auf dem Sachkonto. Alternativ können Sie eine Stornierung für ein bestimmtes Sachkonto durchführen, das Sie zum Ausgleich des Anfangssaldos des Sachpostens verwendet haben. In beiden Fällen müssen Sie alle Direktbuchungen auf das Sachkonto ausgleichen, bevor Sie mit der ersten Bankabstimmung beginnen, vor allem, wenn das Bankkonto auf eine Fremdwährung lautet.  
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Um Ihre Bankkonten zum Importieren und Exportieren von Bankdateien einzurichten
 

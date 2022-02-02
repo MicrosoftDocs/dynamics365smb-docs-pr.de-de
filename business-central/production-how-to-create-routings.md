@@ -1,5 +1,5 @@
 ---
-title: Wie Sie Arbeitspläne erstellen
+title: Routings erstellen
 description: Dieses Thema gibt einen Überblick über die verschiedenen Möglichkeiten, Arbeitspläne zu erstellen, einschließlich der erforderlichen Voraussetzungen und wie Sie Arbeitsplan-Verknüpfungen erstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e0ebd8d0c264dde17522eae3c8a6f718b485ec7f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7145901e0a0b5f713f89be4223e694950e98e15e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439845"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972801"
 ---
 # <a name="create-routings"></a>Routings erstellen
 

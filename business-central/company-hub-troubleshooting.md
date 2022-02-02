@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
+ms.search.form: 1151
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc015058079e30b2db6989b246dc38498cd7a1f4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 988e59cd953339c305b704caf42d3b1c31372e50
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786512"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8028876"
 ---
 # <a name="troubleshooting-your-company-hub"></a>Fehlerbehandlung in Ihrem Unternehmens-Hub
 

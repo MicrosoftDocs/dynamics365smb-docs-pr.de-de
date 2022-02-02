@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
+ms.search.form: 431, 432, 478
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba76f1f48249de12af6dc99057a92ef6aaeef13a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d22b970f2bd400e8bd5886266cf21ee32a6c9dee
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446240"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970364"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Einrichten von Mahnmethoden, Bestimmungen und Mahntext
 

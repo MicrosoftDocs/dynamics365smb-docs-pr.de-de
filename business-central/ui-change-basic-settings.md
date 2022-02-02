@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
+ms.search.form: 9022, 9019, 9027
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6197adc163d781f2d7588e7109b37649e1611551
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 38301359b6f13b809b2f980fdf5dc3b4a678451d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589182"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029036"
 ---
 # <a name="change-basic-settings"></a>Ändern von grundlegenden Einstellungen
 

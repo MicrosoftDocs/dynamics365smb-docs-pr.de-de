@@ -1,5 +1,5 @@
 ---
-title: "So geht's: Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen | Microsoft Docs"
+title: Rücklieferung oder Stornierungen verarbeiten
 description: Erklärt, wie Sie eine Einkaufsgutschrift erstellen und buchemn, wenn Sie Artikel an einen Kreditor zurückgeben möchten oder eingekaufte Services stornieren.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
+ms.search.form: 6640, 6643
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e43f5c5dd2a785a0268b9cf61794de1f8fa73a9a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f888ada5a196f763fa265997a05a994b095fbab6
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445551"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953459"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Verarbeiten einer Einkaufsrücklieferung oder von Stornierungen
 

@@ -1,5 +1,5 @@
 ---
-title: Die Mehrwertsteuergruppenverwaltungserweiterung | Microsoft Docs
+title: Die Mehrwertsteuergruppenverwaltungserweiterung
 description: Sie können mit anderen Unternehmen zusammenarbeiten, um eine Mehrwertsteuergruppe zu bilden, und bei der Meldung der Mehrwertsteuer entweder als Mitglied oder als Vertreter der Gruppe fungieren.
 author: bholtorf
 manager: annbe
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7148fa8e59a509af3206e7da898a371ffb5332a5
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771287"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029140"
 ---
 # <a name="the-vat-group-management-extension"></a>Die Mehrwertsteuergruppenverwaltungserweiterung
 
@@ -115,9 +115,13 @@ Wenn die Mehrwertsteuererklärung des Vertreters der Mehrwertsteuergruppe den Be
 > [!IMPORTANT]
 > Die Mehrwertsteuergruppenfunktionalität wird nur in den Märkten unterstützt, in denen [!INCLUDE[prod_short](includes/prod_short.md)] einen Mehrwertsteuerrahmen verwendet, der aus Mehrwertsteuererklärungen und Umsatzsteuererklärungsperioden besteht. Sie können Mehrwertsteuergruppen nicht in anderen Märkten verwenden, in denen die lokale Mehrwertsteuerberichterstattung anders implementiert ist, z. B. in Österreich, Deutschland, Italien, Spanien und der Schweiz. 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
+
 [Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
-[Mehrwertsteuer einrichten](finance-setup-vat.md)
+[Mehrwertsteuer einrichten](finance-setup-vat.md)  
+[Arbeiten mit MwSt im Verkauf und Einkauf](finance-work-with-vat.md)  
+[Making Tax Digital im Vereinigten Königreich](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Norwegische MwSt.-Abrechnung in der norwegischen Version](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

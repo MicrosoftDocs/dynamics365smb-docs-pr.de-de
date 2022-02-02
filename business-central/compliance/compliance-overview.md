@@ -4,7 +4,7 @@ description: Überblick darüber, wie die Funktionalität von Business Central a
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 10585896eadc9cbd9eec6f451d734b98b37b0133
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3995d8c22dbcadbff5aa19e3d1574d75802f9db4
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318912"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011019"
 ---
 # <a name="compliance-overview"></a>Compliance-Übersicht
 

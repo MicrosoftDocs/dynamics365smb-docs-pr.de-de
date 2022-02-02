@@ -3,25 +3,25 @@ title: Übersicht über die Integration von Business Central und Microsoft Teams
 description: Geben Sie Business Central-Datensätze direkt in einer Unterhaltung in Teams frei.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 943fd46025a736ae7f32f8fbb02fcacbefb32e8e
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587505"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011845"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integration von Business Central und Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) ist ein Microsoft 365-Produkt, mit dem Sie Mitarbeiter verbinden und mit ihnen chatten und zusammenarbeiten können. [!INCLUDE [prod_short](includes/prod_short.md)] bietet eine App, die Microsoft Teams mit Ihren Geschäftsdaten in [!INCLUDE [prod_short](includes/prod_short.md)] verbindet. So können Sie schnell Daten zwischen Teammitgliedern austauschen, Kontakte finden und Anfragen schneller beantworten.
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) ist ein Microsoft 365-Produkt, mit dem Sie Mitarbeiter verbinden und mit ihnen chatten und zusammenarbeiten können. [!INCLUDE [prod_short](includes/prod_short.md)] bietet eine App, die Microsoft Teams mit Ihren Geschäftsdaten in [!INCLUDE [prod_short](includes/prod_short.md)] verbindet. So können Sie schnell Daten zwischen Teammitgliedern austauschen, Kontakte finden und Anfragen schneller beantworten.
 
 Die App ist im Teams-Marketplace verfügbar und kann mit der Teams-Web-, Desktop- oder mobilen App verwendet werden.
 
@@ -53,7 +53,7 @@ Weitere Informationen finden Sie unter [Datensätze in Microsoft Teams](across-w
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Links von Seiten in Business Central für Teams freigeben
 
-Direkt von den meisten Sammlungs- und Detailseiten in Business Central können Sie die Aktion **Für Teams freigeben** über das Symbol ![!Das Teilen-Menü auf Seiten.](media/share-icon.png "Das Menü Teilen, das auf einer Karte angezeigt wird.") Symbol eine Nachricht eingeben, Empfänger auswählen, z.B. Teammitglieder, Gruppen oder Kanäle, und die Nachricht mit einem Link zu der Business Central Seite versenden.
+Sie können die Aktion **Für Teams freigeben** über das Symbol ![!Das Teilen-Menü auf Seiten](media/share-icon.png "Das Menü Teilen, das auf einer Karte angezeigt wird.") direkt auf den meisten Sammlungs- und Detailseiten in Business Central verwenden. Symbol eine Nachricht eingeben, Empfänger auswählen, z.B. Teammitglieder, Gruppen oder Kanäle, und die Nachricht mit einem Link zu der Business Central Seite versenden.
 
 ![!Das Menü Teilen, das auf einer Karte angezeigt wird.](media/teams-share-link.png "Das Menü Teilen, das auf einer Karte angezeigt wird.")
 

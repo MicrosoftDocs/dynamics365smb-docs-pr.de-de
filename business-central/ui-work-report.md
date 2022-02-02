@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439950"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972200"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeiten mit Berichten, Stapelverarbeitungen und XMLports
 
@@ -56,7 +56,7 @@ Verwenden Sie die Felder unter **Optionen** und **Filter** zum Ändern der Begre
 
 ## <a name="previewing-a-report"></a>Einen Bericht anzeigen
 
-In der Vorschau eines Berichts können Sie sehen, wie der Bericht aussehen wird, bevor Sie ihn drucken. Die Vorschau basiert nicht auf dem ausgewählten Feld **Drucker** auf der Anforderungsseite. Das wird vom Browser gesteuert. Nach der Vorschau können Sie zur Anforderungsseite zurückkehren und bei Bedarf Änderungen an Optionen und Filtern vornehmen.
+In der Vorschau eines Berichts können Sie sehen, wie der Bericht aussehen wird, bevor Sie ihn drucken. Die Vorschau basiert nicht auf dem Drucker, der im Feld **Drucker** auf der Anforderungsseite ausgewählt wurde. Das wird vom Browser gesteuert. Nach der Vorschau können Sie zur Anforderungsseite zurückkehren und bei Bedarf Änderungen an Optionen und Filtern vornehmen.
 
 Um eine Vorschau eines Berichts anzuzeigen, wählen Sie die Schaltfläche **Vorschau** oder **Vorschau und Schließen** auf der Berichtsanforderungsseite aus. Die angezeigte Schaltfläche hängt vom Bericht ab, daher haben einige Berichte die Schaltfläche **Vorschau**, während andere die Schaltfläche **Vorschau und Schließen** haben. Beide Schaltflächen öffnen eine Vorschau des Berichts. Der Unterschied ist, das **Vorschau** die Anforderungsseite geöffnet lässt, sodass Sie dorthin zurückkehren können, um Änderungen vornehmen, sie erneut in der Vorschau anzuzeigen oder zu drucken. Mit **Vorschau und Schließen** wird die Anforderungsseite geschlossen, sodass Sie den Bericht erneut öffnen müssen, um Änderungen vorzunehmen oder zu drucken.
 
@@ -139,6 +139,12 @@ Weitere Informationen zur Berichtsgestaltung finden Sie unter [Berichtsübersich
 
 > [!NOTE]
 > Einige Berichte exportieren Zahlen als Text, was Sie daran hindert, Berechnungen durchzuführen oder Power Pivot auf den Zellen im Excel-Arbeitsblatt zu verwenden. Nach dem Export ist es eine gute Idee, die Zahlen im Arbeitsblatt zu überprüfen. Wenn Sie mit den Zahlen Analysen und Diagramme erstellen wollen, ändern Sie das Format der betreffenden Zellen von **Text** auf **Zahl**. Weitere Informationen zum Formatieren von Zahlen in Zellen finden Sie in diesem Video [Zahlen in Zellen in Microsoft Excel formatieren](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+
+### <a name="microsoft-word-document"></a>Microsoft Word-Dokument
+Verwenden Sie die Option **Microsoft Word-Dokument**, um einen Bericht als Word-Dokument zu erstellen.  
+
+> [!NOTE]
+> Sie können das Layout angeben, das für jeden Bericht auf der Seite **Berichtsauswahl** im Feld **Ausgewähltes Layout** verwendet werden soll. Die Standardeinstellung für Berichte ist **RDLC (integriert)**, die Berichte im gleichen oder ähnlichen Layout wie dem **Microsoft Word-Dokument**-Layout erstellt. Der Hauptunterschied besteht jedoch darin, ob Sie ein einzelnes oder mehrere Berichtsdokumente generieren möchten. Für einzelne Dokumente können Sie die Option „RDLC (integriert)“ verwenden. Legen Sie für mehrere Dokumente **Microsoft Word-Dokument** als Standardlayout für den Bericht fest. Weitere Informationen finden Sie unter [Berichte- und Dokumentenlayouts verwalten](ui-manage-report-layouts.md).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planen der Ausführung eines Berichts
 

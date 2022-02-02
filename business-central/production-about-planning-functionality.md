@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.openlocfilehash: 89934218c50dde53452b678422c003ea9aa48f9f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6636016"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972434"
 ---
 # <a name="about-planning-functionality"></a>Info zu Planungsfunktionen
 

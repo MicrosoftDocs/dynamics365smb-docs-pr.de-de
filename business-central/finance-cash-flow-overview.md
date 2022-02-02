@@ -3,20 +3,20 @@ title: Cashflowübersicht
 description: Eine Übersicht über eingehenden und ausgehenden Cashflows, um den Erhalt und die Auszahlung von Geld vorherzusagen.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
+ms.search.form: 841, 849, 1818
 ms.date: 12/20/2021
 ms.author: edupont
-ms.reviewer: edupont
-ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: e5ce39c435c236719e6ee564217a0b1f7e338cf2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940201"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011096"
 ---
 # <a name="cash-flow-overview"></a>Cashflowübersicht
 
@@ -49,9 +49,9 @@ Die folgende Abbildung zeigt eine Übersicht für die Arbeit mit dem Cashflow.
 
 Auf Grundlage der erfassten Vorschlagszeilen können Sie eine Cashflowplanung in regelmäßigen Abständen erstellen. Das folgende Layout ist ein häufig für eine Cashflowplanung verwendetes Layout. Das Layout hat drei Abschnitte:
 
-  - Zahlungseingänge  
-  - Barausgaben  
-  - Netto-Cashflow oder Barbestand  
+- Zahlungseingänge  
+- Barausgaben  
+- Netto-Cashflow oder Barbestand  
 
 Zahlungseingänge liefern Details der Erträge, die das Geschäft erhält.
 

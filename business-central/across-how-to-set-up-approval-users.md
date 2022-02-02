@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: fcf106941c59cd4cb510a9443eac1d50612e15b7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44b3eea21fdf26433fec70588859f710235e7dc5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439201"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012601"
 ---
 # <a name="set-up-approval-users"></a>Genehmigungsbenutzer einrichten
 

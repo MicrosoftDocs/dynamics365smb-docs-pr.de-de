@@ -1,8 +1,6 @@
 ---
-title: Passen Sie den Betrag des Details an, die in Listen angezeigt werden | Microsoft Docs
+title: Anzahl der in Listen angezeigten Details anpassen
 description: Sie können Listen als detaillierten Zeilen anzeigen, die mehr Informationen geben, oder als Kacheln anzeigen, die einfach zu betrachten sind und Miniaturansichten enthalten können.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
+ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ca0f7213bbe6edcbebab4959bc16483af2260f86
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fcd046027cb8646da72182aba1320b165c00c020
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776218"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012130"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Anzeigen von Listen in verschiedenen Ansichten
 In der rechten Ecke einer Liste in [!INCLUDE[prod_short](includes/prod_short.md)] finden Sie Symbole, mit denen Sie wählen können, wie die Liste der Datensätze angezeigt wird. Eine Liste kann als detaillierte Zeilen angezeigt werden. Dies ist ideal, wenn Sie mit vielen Feldern arbeiten oder Felder in der Liste bearbeiten müssen. Sie können aber auch wechseln, um Datensätze als Kacheln anzuzeigen. Dies ist kompakter und zeigt weniger Felder im jeweiligen Datensatz. Diese Ansicht ist sehr nützlich, um eine Übersicht mehrerer Posten zu erhalten und ist insbesondere auf kleineren Geräten hilfreich, da es das Tippen auf jeden Posten erleichtert und kompakt ist.

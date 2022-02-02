@@ -3,16 +3,17 @@ title: Arbeiten mit Finanzübersichten in Excel
 description: Mehr erfahren, wie Sie die Finanzauswertungen in Microsoft Excel von Business Central für eine bessere Analyse öffnen können.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69aaeb21bec95d41aab338caa3013a0947de9ef9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ec34d0e1898340a3c948d422a24781df44cc1206
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780882"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012051"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysieren von Finanzauswertungen in Microsoft Excel
 

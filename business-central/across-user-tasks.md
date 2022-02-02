@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
+ms.search.form: 1164, 1170, 1171, 1172, 1175, 1176, 1177
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c1e9a1e296abab8a77e47564eb70e97bfa7d57e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8d32cb2f3e9c4e819550958df8b9e132530bb3f5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446415"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012263"
 ---
 # <a name="define-user-tasks"></a>Benutzeraufgaben definieren
 

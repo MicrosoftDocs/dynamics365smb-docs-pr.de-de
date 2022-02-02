@@ -1,23 +1,22 @@
 ---
 title: Versichern von Anlagen
 description: Sie können eine oder mehrere Anlagen einer Richtlinie zuordnen, indem Sie von der Seite **Versicherungsjournal** aus in das Sachkonto der Versicherung buchen.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
+ms.search.form: 5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 89db12527ae6e2656f29277d9bb63c3dd258fb1f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d1a9a299101cece91162f9f913b318cd9a3596ae
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441697"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029614"
 ---
 # <a name="insure-fixed-assets"></a>Versichern von Anlagen
 Eine Versicherungspolice für eine Anlage wird durch eine Versicherungskarte angezeigt. Sie können eine Anlage einer Versicherungspolice oder mehreren Anlagen einer Versicherungspolice zuzuordnen.

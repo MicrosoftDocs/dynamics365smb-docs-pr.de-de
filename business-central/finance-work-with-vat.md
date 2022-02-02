@@ -7,15 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, sales, purchases,
+ms.search.keywords: VAT, sales, purchases
+ms.search.form: 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c4efb0be09769770fdaf8ec0e503018119ce081
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: effeb489bbffbc3647f30b371bc0c0a8f7f2e3c4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439435"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970963"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeiten mit MwSt im Verkauf und Einkauf
 Wenn Ihr Land oder Ihre Region es erfordert, die Mehrwertsteuer (MwSt) in Einkaufs- und Verkaufstransaktionen zu berechnen, sodass Sie die Beträge einer Steuerbehörden melden können, können Sie festlegen, dass [!INCLUDE[prod_short](includes/prod_short.md)] MwSt in Einkaufs- und Verkaufsbelegen automatisch berechnet wird. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md).
@@ -87,8 +88,8 @@ Sie müssen die folgenden Schritte ausführen, bevor Sie die Mehrwertsteuer manu
 2. Wiederholen Sie Schritt 1 für die Seite **Einkäufe und Verkäufe einrichten**.
 3. Nachdem Sie die oben beschriebene Einrichtung durchgeführt haben, können Sie den Betrag im Feld **MwSt.-Betrag** in der Fibu-Buch.-Blattzeile oder das Feld **Gegenkonto MwSt.-Betrag** in der Verkaufs- oder Einkaufs-Buch.-Blattzeile an den MwSt.-Betrag der Rechnung anpassen. [!INCLUDE[prod_short](includes/prod_short.md)] Die Anwendung prüft, ob die Differenz die festgelegte maximale Differenz übersteigt.  
 
-    > [!NOTE]  
-    > Wenn die Differenz größer ist, wird in einer Warnmeldung über die maximal zulässige Differenz informiert. Um fortfahren, müssen Sie den Betrag korrigieren. Klicken Sie auf **OK** , und geben Sie einen anderen MwSt.-Betrag ein, der innerhalb des zulässigen Bereichs liegt. Wenn die MwSt.-Differenz der maximal zulässigen Differenz entspricht oder höher ist, wird [!INCLUDE[prod_short](includes/prod_short.md)] die Abweichung im Feld **MwSt.-Differenz** angezeigt.  
+> [!NOTE]  
+> Wenn die Differenz größer ist, wird in einer Warnmeldung über die maximal zulässige Differenz informiert. Um fortfahren, müssen Sie den Betrag korrigieren. Klicken Sie auf **OK** , und geben Sie einen anderen MwSt.-Betrag ein, der innerhalb des zulässigen Bereichs liegt. Wenn die MwSt.-Differenz der maximal zulässigen Differenz entspricht oder höher ist, wird [!INCLUDE[prod_short](includes/prod_short.md)] die Abweichung im Feld **MwSt.-Differenz** angezeigt.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Einfuhrsteuer mit Einkaufsrechnungen buchen
 Für die Buchung einer Rechnung mit Einfuhrumsatzsteuer kann anstelle eines Fibu-Buch.-Blatts auch eine Einkaufsrechnung verwendet werden.  
@@ -120,34 +121,34 @@ Wenn Sie Waren an einen Debitor in einem anderen EU-Land/einer anderen EU-Region
 3. Wählen Sie **Details der Gelangensbestätigung**.  
 4. Standardmäßig ist bei der Einrichtung des MwSt.-Buchungsgruppen-Setup für den Debitor das Kontrollkästchen **Gelangensbestätigung erforderlich** ausgewählt, dann ist das Feld **Status** standardmäßig auf **Erforderlich** festgelegt. Sie können das Feld automatisch aktualisieren, um anzugeben, dass Sie das Zertifikat von dem Debitor erhalten haben.  
 
-    > [!Note]  
-    >  Wenn bei der MwSt.-Buchungsgruppen-Einrichtung nicht das Kontrollkästchen **Gelangensbestätigung erforderlich** ausgewählt ist, wird ein Datensatz erstellt und das Feld **Status** auf **Nicht anwendbar** festgelegt. Sie können das Feld automatisch aktualisieren, um die richtigen Statusinformationen widerzuspiegeln. Sie können den Status bei Bedarf manuell von **Nicht anwendbar** in **Erforderlich** und von **Erforderlich** in **Nicht anwendbar** ändern.  
+> [!Note]  
+>  Wenn bei der MwSt.-Buchungsgruppen-Einrichtung nicht das Kontrollkästchen **Gelangensbestätigung erforderlich** ausgewählt ist, wird ein Datensatz erstellt und das Feld **Status** auf **Nicht anwendbar** festgelegt. Sie können das Feld automatisch aktualisieren, um die richtigen Statusinformationen widerzuspiegeln. Sie können den Status bei Bedarf manuell von **Nicht anwendbar** in **Erforderlich** und von **Erforderlich** in **Nicht anwendbar** ändern.  
 
    Wenn Sie das Feld **Status** von **Erforderlich** in **Empfangen** oder in **Nicht erhalten** aktualisieren, wird ein Zertifikat erstellt.  
 
-    > [!TIP]  
-    >  Sie können auf der Seite **Gelangensbestätigung** verwenden, um eine Ansicht des Status aller gebuchten Lieferungen zu erhalten, für die eine Gelangensbestätigung erstellt wurde.  
+> [!TIP]  
+>  Sie können auf der Seite **Gelangensbestätigung** verwenden, um eine Ansicht des Status aller gebuchten Lieferungen zu erhalten, für die eine Gelangensbestätigung erstellt wurde.  
 
 5. Wählen Sie **Gelangensbestätigung drucken**.  
 
-    > [!Note]  
-    >  Sie können das Dokument in der Vorschau anzeigen oder drucken. Wenn Sie **Gelangensbestätigung drucken** auswählen und den Beleg drucken, wird das Kontrollkästchen **Gedruckt** automatisch ausgewählt. Darüber hinaus wird der Status des Zertifikats, wenn dies nicht bereits angegeben ist, zu **Erforderlich** aktualisiert. Sofern erorderlich, legen Sie das gedruckte Zertifikat der Lieferung bei.  
+> [!Note]  
+>  Sie können das Dokument in der Vorschau anzeigen oder drucken. Wenn Sie **Gelangensbestätigung drucken** auswählen und den Beleg drucken, wird das Kontrollkästchen **Gedruckt** automatisch ausgewählt. Darüber hinaus wird der Status des Zertifikats, wenn dies nicht bereits angegeben ist, zu **Erforderlich** aktualisiert. Sofern erorderlich, legen Sie das gedruckte Zertifikat der Lieferung bei.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>So drucken Sie eine Gelangensbestätigung  
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Gebuchte Verkaufslieferungen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die relevante Verkaufslieferung an einen Debitor in einem anderen EU-Land/einer anderen EU-Region aus.  
 3. Wählen Sie **Gelangensbestätigung drucken**.  
 
-    > [!NOTE]  
-    >  Alternativ können Sie ein Zertifikats im Fenster **Gelangensbestätigung** drucken.  
+> [!NOTE]  
+>  Alternativ können Sie ein Zertifikats im Fenster **Gelangensbestätigung** drucken.  
 
 4. Wählen Sie das Kontrollkästchen **Positionsdetails drucken**, um Informationen aus den Zeilen im Warenausgangsbeleg auf der Gelangensbestätigung zu berücksichtigen.  
 5. Wählen Sie das Kontrollkästchen **Gelangensbestätigungen erstellen, falls nicht bereits erstellt**, um von [!INCLUDE[prod_short](includes/prod_short.md)] Zertifikate auf gebuchte Lieferungen erstellen zu lassen, die zum Zeitpunkt der Ausführung keine haben. Wenn Sie das Kontrollkästchen aktivieren, werden neue Zertifikate für alle gebuchten Lieferungen erstellt, die über keine Zertifikate innerhalb des ausgewählten Bereichs verfügen.  
 6. Standardmäßig betreffen die Filtereinstellungen den Warenausgangsbeleg, den Sie ausgewählt haben. Füllen Sie die Filterinformationen aus, um eine spezifische Gelangensbestätigung auszuwählen, die Sie drucken möchten.  
 7. Wählen Sie im Fenster **Gelangenbestätigung** die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
-    > [!Note]  
-    > Das **Gelangenbestätigung**-Feld und das Feld **Gedruckt** werden für die Lieferung auf der Seite **Gelangensbestätigungen** aktualisiert.  
+> [!Note]  
+> Das **Gelangenbestätigung**-Feld und das Feld **Gedruckt** werden für die Lieferung auf der Seite **Gelangensbestätigungen** aktualisiert.  
 
 8. Sie müssen die gedruckte Gelangensbestätigung zur Unterschrift an den Debitor senden.  
 
@@ -174,11 +175,11 @@ Um eine Gruppe von Zertifikaten anzuzeigen, beginnen Sie auf der Seite **Gelange
 
    Sie können das Datum ändern, sodass das Datum angezeigt wird, an dem Sie die unterschriebene Gelangensbestätigung erhalten haben. Sie können mit der Standard-[!INCLUDE[prod_short](includes/prod_short.md)]-Verknüpfung einen Link zu dem unterschriebenen Zertifikat hinzufügen.  
 
-    > [!NOTE]  
-    >  Sie können keine neue Gelangensbestätigung auf der Seite **Gelangensbestätigung** erstellen, indem Sie sie mithilfe dieses Verfahrens öffnen. Um ein Zertifikat für eine Lieferung zu erstellen, die nicht so eingerichtet wurde, dass eines erforderlich ist, öffnen Sie die gebuchte Verkaufslieferung und eine der beiden oben beschriebenen Prozeduren:  
-    >
-    > * So erstellen Sie eine Gelangensbestätigung manuell  
-    > * So drucken Sie eine Gelangensbestätigung.
+> [!NOTE]
+> Sie können keine neue Gelangensbestätigung auf der Seite **Gelangensbestätigung** erstellen, indem Sie sie mithilfe dieses Verfahrens öffnen. Um ein Zertifikat für eine Lieferung zu erstellen, die nicht so eingerichtet wurde, dass eines erforderlich ist, öffnen Sie die gebuchte Verkaufslieferung und eine der beiden oben beschriebenen Prozeduren:  
+>
+> * So erstellen Sie eine Gelangensbestätigung manuell  
+> * So drucken Sie eine Gelangensbestätigung.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

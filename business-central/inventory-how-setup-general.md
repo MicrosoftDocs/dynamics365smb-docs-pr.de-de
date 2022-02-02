@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
+ms.search.form: 30, 461
 ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: cc52935e743b0e8af4f934c040898e64665843fc
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 2632b0ca09d59f6ead20cb81fae3a36dc0a69f4d
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688251"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974929"
 ---
 # <a name="set-up-general-inventory-information"></a>So richten Sie allgemeine Lagerbestandsinformationen ein
 

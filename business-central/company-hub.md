@@ -5,14 +5,15 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1757f1c02bb6623f59996d372f544f224b94237e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1f7620f2f78971649cb8af5ef9dd0e7389c0c06a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445726"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8028984"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten
 
@@ -86,7 +87,7 @@ Sie können jedoch nur dann ein Unternehmen hinzufügen, wenn Ihnen Zugriff auf 
 
 Wenn Sie beispielsweise Buchhalter sind, können Ihre Kunden Sie in ihr [!INCLUDE [prod_short](includes/prod_short.md)] einladen. Weitere Informationen finden Sie unter [Ihren externen Buchhalter in Ihr Business Central einladen](finance-accounting.md#inviteaccountant).  
 
-Administratoren können dieselbe Anleitung zur unterstützten Einrichtung verwenden, um Sie zu ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzuzufügen. Sie können Sie auch zum entsprechenden Azure AD-Konto im Microsoft 365 Admin Center hinzufügen. Weitere Informationen finden Sie unter [Benutzer und Gruppen verwalten](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Administratoren können dieselbe Anleitung für unterstützte Einrichtung verwenden, um Sie ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzuzufügen. Sie können Sie auch zum entsprechenden Azure AD-Konto im Microsoft 365 Admin Center hinzufügen. Weitere Informationen finden Sie unter [Benutzer und Gruppen verwalten](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## <a name="see-also"></a>Siehe auch
 

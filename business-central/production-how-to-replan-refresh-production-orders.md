@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 901427baf8845505c264a6e06ec6aebacbfe1ee0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 3cb90e09c5e4d23259dcaba23907bdaac7308c08
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589232"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971327"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Produktionsaufträge direkt umplanen oder auffrischen
+
 Die Funkion **Neu Planen** wird in der Regel nach dem Hinzufügen bzw. Ändern von Komponenten ausgeführt, aus denen sich zugrunde liegende Fertigungsaufträge zusammensetzen. Mit dieser Planungsfunktion werden Änderungen berechnet, die an Komponenten und Arbeitsgängen vorgenommen werden. Dabei werden Artikel auf niedrigeren Ebenen der Fertigungsstückliste berücksichtigt, für die ggf. neue Fertigungsaufträge erstellt werden.  
 
 Auf der Grundlage der vorgenommenen Änderungen an den Komponenten und Arbeitsgängen wird von der Funktion Neu planen der neue Bedarf für den Fertigungsauftrag berechnet und geplant.  

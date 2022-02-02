@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
+ms.search.form: 63, 234, 625, 5224, 5237, 5238, 5239, 5240
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 649f179f52a9c18572f1e702e62000bfdb1b30ff
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 02299f484f510b8d78ecdfda4447046a650af21c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444512"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972957"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Datensatz und Erstattung von Ausgaben der Mitarbeiter
 

@@ -5,14 +5,15 @@ author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
+ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: e42dd99f10bb1ddb9b3345b96929a62220bf157e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 553a681c4becba6a369ff0546e819185ce85229c
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325064"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011887"
 ---
 # <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Neue und künftige Funktionen im Voraus aktivieren
 

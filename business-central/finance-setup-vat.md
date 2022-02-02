@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
+ms.search.form: 10, 1877, 470, 471, 472
 ms.date: 12/28/2021
 ms.author: bholtorf
-ms.openlocfilehash: b4d9c6985000497f5a63f21ea06a9246d6a8ca19
-ms.sourcegitcommit: 3a2d61f7d655e9753c1477d21149c83ea6b7fe7a
+ms.openlocfilehash: af73c229ec8c9ebb9e530012360ce6baa7495fd8
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947012"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972827"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer
 

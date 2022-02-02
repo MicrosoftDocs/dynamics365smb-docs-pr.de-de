@@ -1,7 +1,6 @@
 ---
-title: So buchen Sie Bestandskalkulationen im Hauptbuch
+title: Abstimmen der Lagerkosten mit der Finanzbuchhaltung
 description: Am Ende der Buchhaltungsperioden muss eine Sequenz von Steuerelementen und Prüfungsaufgaben durchgeführt werden, um einen korrekten und ausgeglichenen Bestandswert auszuweisen.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
+ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 74a2e257df3306a76d777559a5a157aa2b9ddec9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e59328df68eb4d936ea472c55a160be5fe13ecd6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442135"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971618"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Abstimmen der Lagerkosten mit der Finanzbuchhaltung
+
 Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen oder Lagerregulierungen, werden die veränderten Artikelkosten in den Artikelwerteinträgen aufgezeichnet. Um diese Änderung des Lagerwerts in Ihren Finanzbüchern wiederzugeben, werden die Lagerkosten automatisch zu den entsprechenden Lagerkonten in der Finanzbuchhaltung gebucht. Für jede Lagertransaktion, die Sie buchen, werden die entsprechenden Werte in der Hauptbuchhaltung im Lagerkonto, im Korrekturkonto und im Lagerverbrauchskonto gebucht.
 
 Die automatische Lagerbuchung wird durch das Feld **Automatische Lagerbuchung** auf der Seite **Lagereinrichtung** definiert.
@@ -26,6 +27,7 @@ Die automatische Lagerbuchung wird durch das Feld **Automatische Lagerbuchung** 
 Selbst wenn Lagerkosten automatisch in die Finanzbuchhaltung gebucht werden, ist es immer noch notwendig sicherzustellen, dass die Kosten für Waren zur zugehörigen ausgehenden Transaktion weitergeleitet werden, insbesondere in Situationen, in denen Sie Waren verkaufen, bevor Sie den Kauf dieser Waren in Rechnung stellen. Dies wird als Kostenanpassung bezeichnet. Artikelkosten werden automatisch angepasst, wenn Sie Artikeltransaktionen buchen, Sie können jedoch auch Artikelpreise manuell anpassen. Weitere Informationen finden Sie unter [Artikelkosten anpassen](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Lagerkosten manuell buchen
+
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerkosten ins Hauptbuch buchen** ein, und wählen Sie dann den zugehörigen Link.
 2. Sie buchen eine Lagerkosten manuell in der Hauptbuchhaltung, indem Sie den Batchauftrag ausführen. Wenn Sie diesen Batchauftrag ausführen, werden auf Basis der Wertposten Hauptbuchungsposten erstellt. Sie können die Posten so buchen, dass sie pro Buchungsgruppe zusammengefasst werden.
 

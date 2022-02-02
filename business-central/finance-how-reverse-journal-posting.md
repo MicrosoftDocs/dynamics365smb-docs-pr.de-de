@@ -1,8 +1,6 @@
 ---
 title: Rückgängigmachen einer Buchung durch Buchung einer Umkehrbuchung
 description: Wenn Sie fehlerhafte Buchungen im Fibu Buch.-Blatt vorgenommen haben, können Sie die Funktion verwenden, um die korrekte Buchung mit einem Protokoll zu stornieren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
+ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 10a1532ea7772aa8f2c35df118388e57dc4dc52d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660156"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972538"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Buchungen stornieren und Belege/Lieferungen rückgängig machen
+
 Das Stornieren von Buchungen dient nicht nur der Fehlerkorrektur, sondern kann beispielsweise auch dazu verwendet werden, einen alten Rückstellungsposten auszugleichen, bevor ein neuer erfasst wird. Sie wählen einen Posten aus und erstellen einen Korrekturposten (Posten, der mit dem ursprünglichen Posten identisch ist, jedoch im Betragsfeld ein umgekehrtes Vorzeichen aufweist) mit derselben Belegnummer und demselben Belegdatum wie der ursprüngliche Posten. Nachdem Sie einen Posten storniert haben, müssen Sie den Korrekturposten erstellen.
 
 Storniert werden können nur Posten, die in eine Zeile eines Fibu Buch.-Blattes gebucht wurden. Ein Posten kann nur einmal storniert werden.
@@ -80,6 +80,7 @@ Im Folgenden wird beschrieben, wie Sie eine gebuchte Rücksendung von Artikeln u
 8.  Korrigieren Sie den Eintrag im Feld **Menge** und buchen Sie die Rücklieferung erneut.  
 
 ## <a name="see-also"></a>Siehe auch
+
 [Montagesbuchungen rückgängig machen](assembly-how-to-undo-assembly-posting.md)  
 [Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)  
 [Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)  

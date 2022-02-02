@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
+ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 43a9291fb346596b46d3871a1da7eb84fae3a758
-ms.sourcegitcommit: cde0d97840c8b83cae45afc4a6c65725ffdad56a
+ms.openlocfilehash: 04db99fe79ad29357c399b64e6e12fb89654fabb
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6248889"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971431"
 ---
 # <a name="setting-up-banking"></a>Einrichten von Banken
 

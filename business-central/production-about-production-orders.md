@@ -7,35 +7,36 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 689fbf78a5337076e7f10a8825d01cd77018c670
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6a72c3ae54138d2d67f4fdd2025d385c35b92af2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321391"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972408"
 ---
 # <a name="about-production-orders"></a>Info zu Fertigungsaufträgen
+
 Fertigungsaufträge werden dazu verwendet, die Umwandlung von Einkaufsmaterialien in Produktionsartikel zu verwalten. Fertigungsaufträge (Arbeits- oder Werkaufträge) leiten Arbeit durch verschiedene Einrichtungen (Arbeitsplätze oder Arbeitsplatzgruppen) im Fertigungsbereich.  
 
 Bevor sie mit der Produktion fortfahren, führen die meisten Unternehmen eine Beschaffungsplanung aus, in der Regel einmal wöchentlich, um zu berechnen wie viele Fertigungsaufträge und Einkaufsbestellungen auszuführen sind, um den Verkaufsbedarf diese Woche zu erfüllen. Einkaufsbestellungen liefern die Komponenten, die nach der Fertigungsstückliste erforderlich sind, um die Endartikel zu fertigen.
 
 Fertigungsaufträge sind die zentralen Komponenten der Fertigungsfunktionen der Anwendung und enthält die folgenden Informationen:  
 
--   Produkte, die für die Fertigung geplant sind  
--   Materialien, die für die geplanten Fertigungsaufträge erforderlich sind  
--   Produkte, die soeben gefertigt wurden  
--   Materialien, die bereits ausgewählt wurden  
--   Produkte, die früher gefertigt wurden  
--   Materialien, die in früheren Fertigungsvorgängen verwendet wurden  
+- Produkte, die für die Fertigung geplant sind  
+- Materialien, die für die geplanten Fertigungsaufträge erforderlich sind  
+- Produkte, die soeben gefertigt wurden  
+- Materialien, die bereits ausgewählt wurden  
+- Produkte, die früher gefertigt wurden  
+- Materialien, die in früheren Fertigungsvorgängen verwendet wurden  
 
 Fertigungsaufträge sind die Ausgangspunkte für:  
 
--   Planen der zukünftigen Fertigung  
--   Überwachen der aktuellen Fertigung  
--   Verfolgen der abgeschlossenen Fertigung  
+- Planen der zukünftigen Fertigung  
+- Überwachen der aktuellen Fertigung  
+- Verfolgen der abgeschlossenen Fertigung  
 
 ## <a name="production-order-creation"></a>Fertigungsauftrag erstellen  
 Fertigungsaufträge können auftragsweise manuell aus den Seiten **Fertigungsauftrag**, **Verkaufsauftragsplanung** und/oder **Auftragsplanung** erstellt werden. Mehrere Aufträge werden aus der Seite **Planungsarbeitsblatt** erstellt.  
@@ -51,10 +52,10 @@ Für die Erstellung eines Fertigungsauftrags werden Informationen aus folgenden 
 ## <a name="limitations-on-production-order-creation"></a>Einschränkungen für das Erstellen von Fertigungsaufträgen  
 Ein Fertigungsauftrag wird in folgenden Fällen automatisch reserviert und zu seinem Ursprung verfolgt:  
 
--   Erstellung aus dem **[Planungsarbeitsblatt](production-how-to-run-mps-and-mrp.md)**  
--   Erstellung auf der Seite **[Verkaufsuftragsplanung](production-how-to-create-production-orders-from-sales-orders.md)**  
--   Erstellung auf der Seite **[Auftragsplanung](production-how-to-plan-for-new-demand.md)**  
--   Erstellung mit der Funktion **[Neu planen](production-how-to-replan-refresh-production-orders.md)** für Fertigungsaufträge  
+- Erstellung aus dem **[Planungsarbeitsblatt](production-how-to-run-mps-and-mrp.md)**  
+- Erstellung auf der Seite **[Verkaufsuftragsplanung](production-how-to-create-production-orders-from-sales-orders.md)**  
+- Erstellung auf der Seite **[Auftragsplanung](production-how-to-plan-for-new-demand.md)**  
+- Erstellung mit der Funktion **[Neu planen](production-how-to-replan-refresh-production-orders.md)** für Fertigungsaufträge  
 
 Weitere Informationen finden Sie unter [Titel-Beziehungen zwischen Bedarf und Vorrat nachverfolgen](production-how-track-demand-supply.md).
 
@@ -117,9 +118,9 @@ Die Anwendung bietet verschiedene Optionen, wie ein Produktionsbetrieb den Mater
 
 Der Verbrauch von Materialien kann über das [FA-Verbrauchs Buch.-Blatt](production-how-to-post-consumption.md) verarbeitet werden, kann aber auch automatisch durch die Anwendung erfasst werden, was als automatische Berichterstellung (Buchung) bezeichnet wird. Es gibt folgende Berichterstellungsmethoden:  
 
--   Manuell  
--   Vorwärts  
--   Rückwärts  
+- Manuell  
+- Vorwärts  
+- Rückwärts  
 
 Die manuelle Verbrauchsberichterstellung verwendet "FA-Verbrauchs Buch.-Blatt", um die Materialkommissionierung anzugeben.  
 
@@ -181,9 +182,9 @@ In den folgende Punkten unterscheidet sich das Produktions Buch.-Blatt aber vom 
 Im Produktions Buch.-Blatt werden Verbrauchsmengen als negative Artikelposten, fertig gestellte Mengen als positive Posten und benötigte Zeiten als Kapazitätsposten gebucht.  
 
 ## <a name="see-also"></a>Siehe auch
-[Produktion](production-manage-manufacturing.md)    
+[Produktion](production-manage-manufacturing.md)
 [Produktion einrichten](production-configure-production-processes.md)  
-[Planung](production-planning.md)      
+[Planung](production-planning.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

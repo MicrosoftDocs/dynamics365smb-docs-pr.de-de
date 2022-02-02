@@ -1,5 +1,5 @@
 ---
-title: Wie Sie die Fertigung untervergeben
+title: Fertigung durch Fremdarbeitsvertrag
 description: Dieses Thema gibt einen erweiterten Überblick über die erweiterte Funktionalität der Lohnbearbeitung in Business Central, einschließlich Arbeitsplatzfelder und Arbeitspläne.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2b3ecc4ac84c5b3958d2ada97c104e92dced9ed2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441522"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972723"
 ---
 # <a name="subcontract-manufacturing"></a>Fertigung durch Fremdarbeitsvertrag
+
 Ausgewählte Arbeitsgänge an Kreditoren weiter zu vergeben, ist in vielen Fertigungsunternehmen üblich. Fremdarbeit kann ein seltener Vorgang oder integraler Bestandteil aller Fertigungsschritte sein.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gibt mehrere Werkzeuge für das Verwalten von Fremdarbeit:  

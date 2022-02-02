@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: bbc68f5ed274328a9ea1fe7229a79bfba5a8bdf5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587940"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012367"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Holen Sie sich das Business Central-Add-in für Outlook
 
@@ -23,7 +24,7 @@ Mit [!INCLUDE[prod_short](includes/prod_short.md)] können Sie geschäftliche In
 
 Es gibt zwei Möglichkeiten, das Business Central-Add-in für Outlook zu installieren, je nach Ihrer Rolle im Unternehmen:
 
-- Als Microsoft 365-Administrator verwenden Sie die *Zentrale Bereitstellung*, um das Add-in automatisch für das gesamte Unternehmen, Gruppen oder bestimmte Benutzer bereitzustellen.
+- Als Microsoft 365-Administrator verwenden Sie die Option *Zentrale Bereitstellung*, um das Add-in automatisch für das gesamte Unternehmen, für Gruppen oder für bestimmte Benutzer bereitzustellen.
 
 - Als beliebiger Benutzer installieren Sie das Add-in für sich selbst, wenn Ihr Admin es nicht bereits für Sie bereitgestellt hat.
 
@@ -45,14 +46,14 @@ Jedes Add-In wird in Form einer XML-Datei bereitgestellt, die als *Manifest* bez
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Bereitstellen des Add-Ins über die zentrale Bereitstellung als Admin
 
-Die zentrale Bereitstellung ist eine Funktion im Microsoft 365-Admincenter, mit der Sie Add-Ins automatisch in den Office Apps der Benutzer, wie z.B. Outlook, bereitstellen können. Es ist die empfohlene Methode für Admins, Office Add-ins für Benutzer und Gruppen innerhalb Ihres Unternehmens bereitzustellen.
+Die zentrale Bereitstellung ist eine Funktion im Microsoft 365 Admin Center, mit der Sie Add-Ins automatisch in den Office-Apps der Benutzer, z. B. Outlook, bereitstellen können. Es ist die empfohlene Methode für Admins, Office Add-ins für Benutzer und Gruppen innerhalb Ihres Unternehmens bereitzustellen.
 
 > [!NOTE]
 > Für Business Central on-premises, siehe [Einrichten des Add-Ins für Outlook Integration mit Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) im Administrationsinhalt (nur auf Englisch).
 
 ### <a name="prerequisites"></a>Voraussetzungen
 
-- Ein Microsoft 365 Abonnement  
+- Ein Microsoft 365-Abonnement  
 - Benutzern wird eine Microsoft 365-Lizenz zugewiesen  
 - Ihr Microsoft 365-Konto hat die Rolle *Global Administrator* oder *Exchange Administrator*.
 
@@ -68,12 +69,12 @@ Die zentrale Bereitstellung ist eine Funktion im Microsoft 365-Admincenter, mit 
 5. An diesem Punkt sind Sie mit der Arbeit in Business Central fertig, sodass Sie **Erledigt** wählen können.
 
    >[!TIP]
-   > Bevor Sie **Weiter** wählen, wählen Sie den Link **Zu Microsoft 365 (öffnet in einem neuen Fenster)**, um das Microsoft 365-Admincenter in einem neuen Browserfenster zu öffnen und sich dort anzumelden. Sie müssen das Microsoft 365-Admincenter ohnehin in einem späteren Schritt aufrufen.
+   > Bevor Sie **Weiter** auswählen, wählen Sie den Link **Zu Microsoft 365 (öffnet in einem neuen Fenster)** aus, um das Microsoft 365 Admin Center in einem neuen Browserfenster zu öffnen und sich dort anzumelden. Sie müssen das Microsoft 365 Admin Center ohnehin in einem späteren Schritt aufrufen.
 
 6. Wechseln Sie in den Ordner, in dem die OutlookAddins.zip heruntergeladen wurde, und extrahieren Sie die Dateien **Contact Insights.xml** und **Document View.xml** aus der .zip-Datei in einen Ordner Ihrer Wahl.
 
     Weitere Informationen finden Sie unter [Zippen und Entpacken von Dateien und Ordnern](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Melden Sie sich beim Microsoft 365-Admincenter an und gehen Sie dann zu [Integrierte Apps](https://go.microsoft.com/fwlink/?linkid=2163967).
+7. Melden Sie sich beim Microsoft 365 Admin Center an, und wechseln Sie dann zu [Integrierte Apps](https://go.microsoft.com/fwlink/?linkid=2163967).
 
 8. Wählen Sie **Angepasste Apps hochladen**.
 9. Auf der Seite **Apps zum Bereitstellen hochladen** wählen Sie **Manifestdatei (.xml) vom Gerät hochladen** > **Datei auswählen**.
@@ -84,7 +85,7 @@ Die zentrale Bereitstellung ist eine Funktion im Microsoft 365-Admincenter, mit 
 > [!IMPORTANT]
 > Ein grünes Häkchen erscheint, wenn das Add-In im Admin Center bereitgestellt ist. Es kann jedoch bis zu 24 Stunden dauern, bis die Benutzer das Add-In in der Outlook App sehen. Möglicherweise müssen die Benutzer auch Outlook neu starten.
 
-Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365-Admincenter jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen über das Bereitstellen von Add-Ins im Admin Center finden Sie unter [Einsatz von Add-Ins im Admin Center](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Wenn Sie fertig sind, können Sie die Bereitstellung im Microsoft 365 Admin Center jederzeit ändern, z. B. weitere Benutzer zuweisen. Weitere Informationen über das Bereitstellen von Add-Ins im Admin Center finden Sie unter [Einsatz von Add-Ins im Admin Center](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installieren Sie das Add-In für Ihren eigenen Gebrauch
 
