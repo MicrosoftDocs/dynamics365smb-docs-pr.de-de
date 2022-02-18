@@ -1,5 +1,5 @@
 ---
-title: Ein Berichtslayout auf dem neuesten Stand halten
+title: Benutzerdefinierte Berichtslayouts aktualisieren
 description: Erfahren Sie, wie Sie ein angepasstes Berichtslayout, das in einem Bericht verwendet wird, aktualisieren können, wenn es z.B. Designänderungen am Dataset des Berichts gibt.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99b0f191bf9890683bb6cbb68f7baef0342f9737
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3d3aabe01a9969e8665f24479d8b11b26b54d5b
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445276"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101477"
 ---
 # <a name="update-custom-report-layouts"></a>Benutzerdefinierte Berichtslayouts aktualisieren
+
 Gelegentlich müssen Sie möglicherweise ein benutzerdefiniertes Berichtslayout aktualisieren, das in einem Bericht verwendet wird. Dies ist obligatorisch, wenn es eine Entwurfsänderung an dem Datensatz des Berichts gegeben hat, wenn zum Beispiel ein Feld, das im Layout verwendet wird, aus dem Berichtsdatensatz entfernt wurde. Wenn ein Berichtlayout eine Aktualisierung benötigt, erhalten Sie eine Fehlermeldung, wenn Sie versuchen, die Berichtvorschau anzeigen, zu drucken oder zu speichern.  
 
 Um Berichtlayout aus der Fehlermeldung automatisch zu aktualisieren, die angezeigt wird, wenn Sie diesen Bericht ausführen, wählen Sie die Schaltfläche **Ja** auf der Fehlermeldung. Oder im Voraus, wenn Sie Berichte ausführen, können Sie bestimmte Berichtslayouts oder alle benutzerdefinierten Berichtslayouts aktualisieren, auf die sich Datasetänderungen auswirken können.  

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
+ms.search.form: 6250
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 88f83f8e4cc1c99f5696daf0486a30652c890c97
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: c7d62f1122aee1930dd98ed008b7820e88fe9b14
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940351"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115420"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Datensätze zwischen Dataverse und Business Central koppeln und synchronisieren
 

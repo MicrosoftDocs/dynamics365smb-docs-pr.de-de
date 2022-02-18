@@ -7,34 +7,21 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 26dbb93fe003caf140caaad07d31b85be508085b
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 5488ba8331494ba662960e84d4907de76a68e72b
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543145"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102343"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Finanzielle Berichte und Analysen in Business Central
 
 Finanzberichterstattung in [!INCLUDE [prod_short](includes/prod_short.md)] ermöglicht Finanz- und Geschäftsfachleuten das Erstellen, Verwalten, Bereitstellen und Anzeigen von Abschlüssen. Es geht über die herkömmlichen Berichtsbeschränkungen hinaus und hilft Ihnen, verschiedene Arten von Berichten effizient zu gestalten. [!INCLUDE [prod_short](includes/prod_short.md)] enthält mehrere Berichte, Nachverfolgungsfunktionen und Tools, die Wirtschaftsprüfern oder Controllern helfen, die für die Berichterstattung an die Finanzabteilung verantwortlich sind. Die Finanzberichterstattung umfasst die Unterstützung von Dimensionen, sodass Kontosegmente oder Dimensionen sofort verfügbar sind. Es sind keine weiteren Tools oder Konfigurationsschritte erforderlich.  
 
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
 ## <a name="reports"></a>Berichte
-
-In der folgenden Tabelle werden einige der wichtigsten Berichte in der Finanzberichterstattung beschrieben.
-
-| Bericht | Objekt-ID | Beschreibung |
-|--|--|--|
-| **Rohbilanz** | 6 | Zeigt den Kontenplan mit Salden und Bewegungen. Sie können die Ansicht einer Rohbilanz für ausgewählte Dimensionen wählen. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. |
-| **Rohbilanz nach Periode** | 38 | Zeigt die Eröffnungsbilanz nach Sachkonto, die Bewegungen in der ausgewählten Monats-, Quartals- oder Jahresperiode und die resultierende Abschlussbilanz. |
-| **Rohbilanz/Budget** | 9 | Zeigt eine Rohbilanz im Vergleich zu einem Budget. Sie können sich eine Testbilanz für ausgewählte Dimensionen anzeigen lassen. Sie können den Bericht am Ende einer Buchhaltungsperiode oder eines Geschäftsjahres verwenden. |
-| **Ausführlicher Rohbilanzbericht** | 4 | Zeigt ein ausführliches Kontoblatt für ausgewählte Sachkonten an. Sie können den Bericht beim Abschluss einer Buchhaltungsperiode oder eines Geschäftsjahrs verwenden. Die im Bericht enthaltenen Konten können Sie durch Setzen von Filtern festlegen. |
-| **Rohbilanz/Vorjahresvergleich** | 7 | Zeigt eine Rohbilanz im Vergleich zu den Werten des Vorjahres. Sie können die Ansicht einer Rohbilanz für ausgewählte Dimensionen wählen. Sie können den Bericht am Ende einer Buchhaltungsperiode oder eines Geschäftsjahres verwenden. *Vorjahr* bedeutet die gleiche Periode ein Kalenderjahr früher. |
-| **Kontenschema** | 25 | Kontenschemata können verwendet werden, um Sachkonten anders als im Kontenplan anzuzeigen. Kontenpläne können beispielsweise verwendet werden, um Berichte zu Kennzahlen zu erzeugen. |
-<!-- | **Bilanz** (Acc.Schedule oder Excel) oder **Rohbilanz** |  |  |
-| **Cashflow-Auszug** (Kontenschema) |  |  |
-| **Rohbilanz – Übersicht/Detail** |  |  |
-| **GuV** (Kontenschema oder Excel) |  |  |
-| **Budget** |  |  | -->
+[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Aufgaben
 

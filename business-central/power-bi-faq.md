@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 3727faf800bf6ecf326009588eb3e1588a1bcfc3
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587999"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049432"
 ---
 # <a name="power-bi--faq"></a>Power BI FAQ
 
@@ -126,7 +126,7 @@ Hier sind weitere Seiten, die den größeren, nicht gefilterten **Power BI Beric
 <!-- 5 -->
 ### <a name="is-there-any-way-to-filter-a-dataset-from-business-central-before-i-pull-it-into-power-bi-instead-of-applying-filters-afterwards"></a>Gibt es eine Möglichkeit, ein Dataset aus Business Central zu filtern, *bevor* ich es in Power BI ziehe, anstatt danach Filter anzuwenden?
 
-Um größere Datasets zu filtern, ist es am einfachsten, einen Filter auf Ihren Power BI-Bericht festzulegen, indem Sie direkt die Power Query-Formel bearbeiten. Die meisten der Filter, die Sie auf diese Weise festlegen, werden durch das Falten der Abfrage an Business Central weitergegeben. Siehe [Inkrementelle Aktualisierung für Datasets](/power-bi/admin/service-premium-incremental-refresh).
+Um größere Datasets zu filtern, ist es am einfachsten, einen Filter auf Ihrem Power BI-Bericht festzulegen, indem Sie direkt die Power Query-Formel bearbeiten. Die meisten der Filter, die Sie auf diese Weise festlegen, werden durch das Falten der Abfrage an Business Central weitergegeben. Siehe [Inkrementelle Aktualisierung für Datasets](/power-bi/admin/service-premium-incremental-refresh).
 
 Es gibt derzeit keine Möglichkeit, einen Filter für die Webservice-Daten von Business Central aus festzulegen. Wenn Ihre Anwendung einen Filter aus Business Central heraus festlegen muss, müssen Sie zu diesem Zweck eine angepasste Business Central App erstellen.
 
@@ -140,18 +140,55 @@ Anzahl Im Moment nicht.
 
 Wenn es um Webdienste geht, sind veröffentlichte Abfragen in der Regel schneller als entsprechende veröffentlichte Seiten. Der Grund dafür ist, dass Abfragen für das Lesen von Daten optimiert sind und keine teuren Auslöser wie OnAfterGetRecord enthalten.
 
-Wenn der neue Konnektor im Juni 2021 verfügbar ist, sollten Sie lieber API-Seiten verwenden als Abfragen, die als Webservices veröffentlicht werden.
+Webdienste basieren auf Seiten oder Abfragen, die für den Zugriff über das Web erstellt wurden und in der Regel nicht für den Zugriff von externen Diensten optimiert sind. Auch wenn der Business Central Konnektor den Abruf von Daten aus Webdiensten unterstützt, empfehlen wir Ihnen, wann immer möglich API-Seiten anstelle von Webdiensten zu verwenden.
 
 <!-- 13 --> 
 ### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Gibt es eine Möglichkeit für einen Endbenutzer, einen Webservice mit einer Spalte zu erstellen, die sich in einer Business Central-Tabelle befindet, aber nicht in einer Seite? Oder muss der Entwickler eine angepasste Abfrage erstellen? 
 
-Ja. Mit der Veröffentlichung des neuen Konnektors im Juni 2021 kann ein Entwickler eine neue API-Seite erstellen, um diese Anforderung zu erfüllen. 
+Es gibt derzeit keine Möglichkeit, ein neues Feld zu einem Webdienst hinzuzufügen. API-Seiten bieten volle Flexibilität bei der Seitenstruktur, so dass ein Entwickler eine neue API-Seite erstellen kann, um diese Anforderung zu erfüllen. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Kann ich eine Power BI-Verbindung zu einem schreibgeschützten Datenbankserver von Business Central online herstellen? 
 
-Anzahl Aber wir haben diese Funktion auf unserer langfristigen Roadmap. 
+Diese Funktionalität wird in Kürze verfügbar sein. Ab Februar 2022 werden neue Berichte, die Sie auf der Grundlage von Business Central Online-Daten erstellen, automatisch versuchen, sich mit einer schreibgeschützten Datenbankreplik zu verbinden. Dadurch werden Ihre Berichte schneller aktualisiert und haben weniger Auswirkungen auf die Leistung, wenn Sie Business Central verwenden, während ein Bericht aktualisiert wird. Wir empfehlen nach wie vor, wann immer möglich, die Aktualisierung Ihrer Berichte außerhalb der normalen Arbeitszeiten zu planen.
 
+Wenn Sie alte Berichte haben, die auf Business Central-Daten basieren, können diese nicht mit der schreibgeschützten Datenbankreplik verbunden werden.
+
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it"></a><a name="databasemods"></a>Ich habe die Vorschau des neuen Konnektors für das Update vom Februar 2022 ausprobiert. Wenn ich eine Verbindung zu meiner angepassten Business Central API-Seite herstelle, erhalte ich die Fehlermeldung „Es kann kein Datensatz eingefügt werden. Die aktuelle Verbindung ist schreibgeschützt.“. Wie kann ich das Problem beheben?
+
+Mit dem neuen Konnektor werden neue Berichte, die Business Central-Daten verwenden, standardmäßig mit einer schreibgeschützten Replik der Business Central-Datenbank verbunden. Diese Änderung bringt eine Leistungsverbesserung mit sich. In seltenen Fällen kann dies jedoch den Fehler verursachen. Dieser Fehler tritt in der Regel auf, weil Ihre angepasste API Änderungen an den Datensätzen von Business Central vornimmt, während Power BI versucht, die Daten abzurufen. Insbesondere geschieht dies im Rahmen der AL-Auslöser: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord und OnAfterGetCurrRecord.
+
+Um dieses Problem zu beheben, indem Sie den Konnektor von Business Central zwingen, dieses Verhalten zuzulassen, lesen Sie [Erstellen von Power BI-Berichten zur Anzeige von Business Central-Daten - Probleme beheben](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+
+<!--
+In general, we recommend avoiding any database modifications in API pages when they're opening or loading records, because they cause performance issues and might cause your report refresh to fail. In some cases, you might still need to make a database modification when your custom API page opens or loads records. You can force the Business Central connector to allow this behavior. Do the following steps when getting data from Business Central for the report in Power BI Desktop:
+
+1. Start Power BI Desktop.
+2. In the ribbon, select **Get Data** > **Online Services**.
+3. In the **Online Services** pane, select **Dynamics 365 Business Central**, then **Connect**.
+4. In the **Navigator** window, select the API endpoint that you want to load data from.
+5. In the preview pane on the right, you'll see the following error:
+
+   *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Cannot insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
+
+6.  Select **Transform Data** instead of **Load** as you might normally do.
+7. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
+8.  Replace the following line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null),
+   ```
+
+   with the line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false]),
+   ```
+
+9.  Select **Done**.
+10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
+
+-->
 ### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>Wie ändere oder lösche ich das Benutzerkonto, das ich derzeit für die Verbindung zu Business Central verwende, aus Power BI Desktop?
 
 Führen Sie in Power BI Desktop die folgenden Schritte aus:
@@ -207,9 +244,9 @@ Ja. Dieses erweiterte Szenario wird Business Central helfen, performant zu bleib
 
 Wir schauen uns diese Funktion an. Power BI bietet reichhaltige APIs, um das Bereitstellen von Berichten zu steuern. Weitere Informationen finden Sie unter [Einführung in Bereitstellungs-Pipelines](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="ive-tried-the-preview-of-the-new-connector-which-will-be-live-in-june-2021-i-see-some-values-like-_x0020_-when-connecting-to-api-v20-what-are-these-values"></a>Ich habe die Vorschau des neuen Konnektors ausprobiert, der im Juni 2021 live sein wird. Ich sehe einige Werte wie „_x0020_“ beim Verbinden mit API v2.0. Was sind diese Werte?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values"></a>Wenn ich Daten von Business Central abrufe, um sie in meinen Power BI-Berichten zu verwenden, sehe ich einige Werte wie „_x0020_“. Was sind diese Werte?
 
-Mit der kommenden Version des Konnektors Power BI können Sie sich mit den Business Central API-Seiten verbinden, einschließlich API v2.0. Diese Seiten enthalten ein paar Felder, die auf [AL Enum-Objekten](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums) basieren. Felder, die auf AL Enum-Objekten basieren, müssen konsistente und immer gleiche Namen haben, damit die Filter im Bericht immer funktionieren &mdash; unabhängig von der Sprache oder dem Betriebssystem, das Sie verwenden. Aus diesem Grund werden die Felder, die auf AL Enums basieren, nicht übersetzt und so kodiert, dass alle Sonderzeichen, einschließlich des Leerzeichens, vermieden werden. Insbesondere wird jedes Mal, wenn es eine leere Option im AL Enum-Objekt gibt, diese in „_x0020_“ kodiert. Sie können immer eine Transformation auf Power BI anwenden, wenn Sie einen anderen Wert für diese Felder anzeigen möchten, z. B. „Leer“.
+Einige API-Seiten, einschließlich der meisten API v2.0-Seiten, haben Felder, die auf [AL Enum-Objekten](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums) basieren. Felder, die auf AL enum-Objekten basieren, müssen konsistente und immer gleiche Namen haben, damit Filter im Bericht immer funktionieren &mdash;unabhängig von der Sprache oder dem Betriebssystem, das Sie verwenden. Aus diesem Grund werden die Felder, die auf AL-Enums basieren, nicht übersetzt und so kodiert, dass alle Sonderzeichen, einschließlich des Leerzeichens, vermieden werden. Insbesondere wird jedes Mal, wenn es eine leere Option im AL Enum-Objekt gibt, diese in „_x0020_“ kodiert. Sie können immer eine Transformation auf Power BI anwenden, wenn Sie einen anderen Wert für diese Felder anzeigen möchten, z. B. „Leer“.
 
 
 ---

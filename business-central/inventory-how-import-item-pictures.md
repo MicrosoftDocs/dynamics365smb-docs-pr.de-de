@@ -11,15 +11,15 @@ ms.search.keywords: product, image
 ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 81e628a80fe170789bb174cd393842bdf2db9af5
-ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
+ms.openlocfilehash: 5a43d696eab27a72c9f9b3c224d08feb9e99ccf4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7975018"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059674"
 ---
 # <a name="import-multiple-item-pictures"></a>Mehrere Artikelbilder importieren
- Sie können mehrere Artikelbilder in einem Durchgang importieren. Benennen Sie einfach Ihre Bilddateien mit Namen entsprechend zu Ihren Artikelnummern, komprimieren Sie sie in einer ZIP-Datei und verwenden Sie dann die Seite „Artikelbilder importieren”, um zu verwalten, welche Artikel importiert werden sollen.
+Sie können mehrere Artikelbilder in einem Durchgang importieren. Benennen Sie einfach Ihre Bilddateien mit Namen entsprechend zu Ihren Artikelnummern, komprimieren Sie sie in einer ZIP-Datei und verwenden Sie dann die Seite „Artikelbilder importieren”, um zu verwalten, welche Artikel importiert werden sollen.
 
 Alle gängigen Dateiformate werden unterstützt.
 

@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.search.form: 256, 1190, 1191, 1227, 1228, 1229
+ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a5f1ca203547f70e8bf55890d8538368e598a4f
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 2abf1886541e51e23b5ebc9bbb5dec1d4a83bd06
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011651"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101425"
 ---
 # <a name="making-payments"></a>Zahlungen vornehmen
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 06/21/2021
+ms.date: 02/09/2022
 ms.author: jswymer
-ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 142a9f826e200f06172b741e72e54d49ff9caf47
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972200"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102603"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeiten mit Berichten, Stapelverarbeitungen und XMLports
 
@@ -32,7 +32,7 @@ Sie finden Berichte in der Registerkarte **Berichte** auf ausgewählten Seiten, 
 
 Wenn Sie einen Bericht, einen Stapelverarbeitungsauftrag oder XMLport öffnen, wird in der Regel eine Seite dargestellt, mit der Sie bestimmte Informationen definieren können, die Sie im Bericht integrieren möchten. In den folgenden Abschnitten wird erläutert, wie Sie auf der Anforderungsseite einen Bericht erstellen, in der Vorschau anzeigen und drucken.
 
-## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Standardwerte verwenden – vordefinierte Einstellungen 
+## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Standardwerte verwenden – vordefinierte Einstellungen
 
 Die meisten Anforderungsseiten enthalten das Feld **Standardwerte verwenden von**. In diesem Feld können Sie vordefinierte Einstellungen für den Bericht auswählen, mit denen automatisch Optionen und Filter für den Bericht festgelegt werden. Wählen Sie einen Posten aus der Dropdownliste aus, und die Optionen und Filter auf der Anforderungsseite ändern sich entsprechend.
 
@@ -84,67 +84,18 @@ Verwenden Sie in der Vorschau die Menüleiste in der Berichtsvorschau, um:
 
 Sie können einen Bericht in einem PDF-Dokument, einem Beleg Microsoft Word oder einem Arbeitsblatt Microsoft Excel speichern, indem Sie die Schaltfläche **Senden an** wählen und dann Ihre Auswahl treffen.
 
-### <a name="send-to-excel"></a>An Excel senden
+### <a name="about-sending-to-excel"></a>Über das Senden an Excel
 
-<!-- The following table describes the options for saving the report results as a worksheet in an Excel workbook.
+Sie können mit [!INCLUDE [prod_short](includes/prod_short.md)]-Daten in Excel arbeiten, um sie weiter zu analysieren. Weitere Informationen finden Sie unter [Analysieren von Berichtsdaten mit Excel](report-analyze-excel.md).  
+<!--
+### About sending to Word
 
-|Option  |Description  |
-|---------|---------|
-|Microsoft Excel Document (data and layout)|Export the report results with the RDLC layout applied. Use this option if you want to export the data one time, and only want to make minor changes to its appearance, such as font and color scheme. <br><br>**Note**: Some reports might export numbers as text, so it's a good idea to verify the numbers. |
-|Microsoft Excel Document (data only)|Export the report results and the criteria that was used to generate them, such as the parameters you specified on the request page, metadata, and the fields that control the layout of the printed report. Use this option when you want to do ad hoc analysis of the data or diagnose data issues in reports. For example, you can filter the data and use Power Pivot to display it.<br><br>This option exports all columns, including columns that hold formatting instructions for other values and filters. In columns that hold binary data like images, instead of actually values, fields will include the text **Binary data ({0} bytes)**, where **{0}** indicates the number of bytes.<br><br>**NOTE** With Business Central on-premises, the Business Central Server includes a configurations setting, called **Max Data Rows Allowed to Send to Excel**. This setting limits the number of rows that can be exported to Excel. If you don't see the expected number of rows, it might be because of this setting. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.|-->
-
-Es gibt zwei Optionen zum Speichern der Reportergebnisse als Arbeitsblatt in einer Excel-Arbeitsmappe: **Microsoft Excel Dokument (Daten und Layout)** und **Microsoft Excel Dokument (nur Daten)**
-
-#### <a name="microsoft-excel-document-data-and-layout"></a>[Microsoft Excel Dokument (Daten und Layout)](#tab/data-and-layout)
-
-Diese Option ist nur für Berichte verfügbar, die ein RDLC-Layout verwenden. Sie exportiert die Berichtsergebnisse mit dem angewendeten RDLC-Layout. Verwenden Sie diese Option, wenn Sie die Daten einmalig exportieren und nur geringfügige Änderungen am Erscheinungsbild vornehmen wollen, z. B. an der Schriftart und dem Farbschema.
-
-#### <a name="microsoft-excel-document-data-only"></a><a name="exportdataonly"></a>[Microsoft Excel Beleg (nur Daten)](#tab/data-only)
-
-Die Option **Microsoft Excel Dokument (nur Daten)** exportiert die Berichtsergebnisse und die Kriterien, die zu ihrer Erzeugung verwendet wurden&mdash;, aber sie enthält nicht das Berichtslayout. Die Excel-Datei enthält das komplette Dataset, als Rohdaten, angeordnet in Zeilen und Spalten. Alle Datenspalten des Datasets des Berichts sind enthalten, unabhängig davon, ob sie im Berichtslayout verwendet werden.  Verwenden Sie diese Option, wenn Sie:
-
-- Ad-hoc-Analysen der Daten durchführen wollen. Sie können z. B. die Daten filtern und Power Pivot verwenden, um sie anzuzeigen.
-
-  Jedes Mal, wenn Sie Ergebnisse exportieren, wird ein neues Arbeitsblatt erstellt. Mit der Option **Microsoft Excel Beleg (nur Daten)** können Sie denselben Bericht ausführen und Formatierungsänderungen wiederverwenden. Zum Beispiel können Sie für Power Pivot den Bericht für einen anderen Zeitraum erneut ausführen, die Ergebnisse in das Arbeitsblatt kopieren und dann das Arbeitsblatt aktualisieren. Eine App für Berichte finden Sie auch auf [AppSource](https://appsource.microsoft.com/).
-- Überprüfen Sie das Dataset des Berichts, wenn Sie angepasste Berichtslayouts erstellen oder ändern.
-
-  Informationen zum Erstellen von angepassten Berichtslayouts finden Sie unter [Erstellen oder Ändern von angepassten Berichtslayouts](ui-how-create-custom-report-layout.md)
-- Diagnose von Datenproblemen in Berichten.
-
-##### <a name="for-administrators"></a>Für Administratoren
-
-- **Microsoft Excel Beleg (nur Daten)** wurde als optionale Funktion in der 2021er Release-Welle 1, Update 18.3 eingeführt. Um Benutzern Zugriff auf diese Funktion zu geben, aktivieren Sie die Funktion **Berichts-Dataset in Microsoft Excel Dokument speichern** in **Funktionsverwaltung**. Weitere Informationen finden Sie unter [Bevorstehende Funktionen im Voraus aktivieren](/dynamics365/business-central/dev-itpro/administration/feature-management). In der Release-Welle 2 im Jahr 2021 wird diese Funktion dauerhaft, sodass Sie sie nicht mehr aktivieren müssen.
-
-- Benutzerkonten benötigen die Berechtigung **<!--Export Report Dataset To Excel-->Aktion „Berichtsdataset in Excel exportieren“ zulassen**, die Sie über die auf **Tools zur Problembehandlung** oder **Berichtsdataset in Excel exportieren** festgelegte Berechtigung anwenden können.  
-
-- Sie können keinen Bericht exportieren, der mehr als 1.048.576 Zeilen oder 16.384 Spalten hat.
-
-    > [!NOTE]
-    > Bei Business Central lokal kann die maximale Anzahl der exportierten Zeilen sogar noch geringer sein. Business Central Server enthält eine Konfigurationseinstellung mit der Bezeichnung **Maximal zulässige Anzahl der an Excel zu sendenden Datenzeilen**, mit der Sie die Grenze vom Maximalwert herabsetzen können. Weitere Informationen finden Sie unter [Konfiguration von Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) oder wenden Sie sich an Ihren Administrator.
-
-##### <a name="for-developers-and-advanced-users"></a>Für Entwickler und fortgeschrittene Benutzer
-
-Die Option **Microsoft Excel Dokument (nur Daten)** exportiert alle Spalten, einschließlich Spalten, die Filter und Formatierungsanweisungen für andere Werte enthalten. Hier sind einige Punkte von Interesse:
-
-- Binäre Daten in einem Feld, wie ein Bild, werden nicht exportiert.
-
-  In Spalten, die binäre Daten enthalten, enthalten Felder den Text **Binäre Daten ({0} Bytes)**, wobei **{0}** die Anzahl der Bytes angibt.
-- Ab Business Central 2021 Release Wave 2 enthält die Excel-Datei auch das Arbeitsblatt **Berichts-Metadaten**.
-
-  Dieses Arbeitsblatt zeigt die auf den Bericht angewendeten Filter und allgemeine Berichtseigenschaften, wie Name, ID und Erweiterungsdetails. Die Filter werden in der Spalte **Filter (DataItem ::Table ::FilterGroupNo ::FieldName)** angezeigt. Die Filter in dieser Spalte enthalten Filter, die auf der Anforderungsseite des Berichts festgelegt wurden. Sie enthält auch Filter, die im AL-Code definiert sind, zum Beispiel durch die [DataItemLink-Eigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-reports-property) und [DataItemTableView-Eigenschaft](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemtableview-property).
-
-Weitere Informationen zur Berichtsgestaltung finden Sie unter [Berichtsübersicht](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
-
----
+Use the **Microsoft Word Document** option to generate a report as a Word document.  
 
 > [!NOTE]
-> Einige Berichte exportieren Zahlen als Text, was Sie daran hindert, Berechnungen durchzuführen oder Power Pivot auf den Zellen im Excel-Arbeitsblatt zu verwenden. Nach dem Export ist es eine gute Idee, die Zahlen im Arbeitsblatt zu überprüfen. Wenn Sie mit den Zahlen Analysen und Diagramme erstellen wollen, ändern Sie das Format der betreffenden Zellen von **Text** auf **Zahl**. Weitere Informationen zum Formatieren von Zahlen in Zellen finden Sie in diesem Video [Zahlen in Zellen in Microsoft Excel formatieren](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
-### <a name="microsoft-word-document"></a>Microsoft Word-Dokument
-Verwenden Sie die Option **Microsoft Word-Dokument**, um einen Bericht als Word-Dokument zu erstellen.  
-
-> [!NOTE]
-> Sie können das Layout angeben, das für jeden Bericht auf der Seite **Berichtsauswahl** im Feld **Ausgewähltes Layout** verwendet werden soll. Die Standardeinstellung für Berichte ist **RDLC (integriert)**, die Berichte im gleichen oder ähnlichen Layout wie dem **Microsoft Word-Dokument**-Layout erstellt. Der Hauptunterschied besteht jedoch darin, ob Sie ein einzelnes oder mehrere Berichtsdokumente generieren möchten. Für einzelne Dokumente können Sie die Option „RDLC (integriert)“ verwenden. Legen Sie für mehrere Dokumente **Microsoft Word-Dokument** als Standardlayout für den Bericht fest. Weitere Informationen finden Sie unter [Berichte- und Dokumentenlayouts verwalten](ui-manage-report-layouts.md).
+-->
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planen der Ausführung eines Berichts
 

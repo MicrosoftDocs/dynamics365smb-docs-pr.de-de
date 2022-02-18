@@ -1,5 +1,5 @@
 ---
-title: Einrichten aus vorgeschlagenen Feldwerten| Microsoft Docs
+title: Lassen Sie sich von Business Central Werte vorschlagen
 description: Um manuell Berechnungen und vollständige Aufgaben schnell und genau zu erledigen, können Sie automatische Dateneingabe einrichten, sodass Business Central gerade ausgewählte Felder ausfüllt
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 39, 251, 981
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9af79eccbfd180ce7d587a3cb2e420fde0f85a3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c7aaa366a237e2196aaa8a6e376220e5d5794d87
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445327"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100821"
 ---
 # <a name="letting-prod_short-suggest-values"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Werte vorschlagen lassen
 [!INCLUDE[prod_short](includes/prod_short.md)] kann Ihnen dabei helfen, Aufgaben schneller und korrekter zu erledigen, indem es Felder oder Zeilen mit Daten ergänzt, die Sie sonst berechnen und manuell eingeben müssten. Obwohl solche automatische Dateneingaben immer korrekt sind, können Sie diese später ändern, wenn Sie dies wünschen.

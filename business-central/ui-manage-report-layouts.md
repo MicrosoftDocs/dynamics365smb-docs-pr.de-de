@@ -1,8 +1,6 @@
 ---
-title: Arbeiten mit benutzerdefinierten und integrierten Layouts für Berichte und Belege | Microsoft Docs
+title: Angepasste und integrierte Layouts für Berichte und Belege
 description: Verwenden Sie Berichtslayouts, um Belege anzupassen beispielsweise um die gewünschten Schriftart, das Logo oder die Seiteneinstellungen von PDF-Dateien zu personalisieren, die Sie den Debitoren senden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2b3dcc5c40346f6bd63d431b3024d64bc5a0d434
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 11467596a489c3d3ec550caa35353c72e548e675
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445947"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100847"
 ---
 # <a name="managing-report-and-document-layouts"></a>Verwaltung von Berichts- und Beleg-Layouts
 Ein Berichtlayout steuert Inhalt und Format des Berichts, auch, welche Datenfelder eines Berichtsdatasets im Bericht erscheinen und wie sie angeordnet werden, Text-Format, Bilder und mehr. Von [!INCLUDE[prod_short](includes/prod_short.md)] aus können Sie ändern, welches Layout in einem Bericht verwendet wird, ein neues Layout erstellen oder vorhandene Layouts ändern.
@@ -37,7 +36,7 @@ Ein Bericht kann mit mehreren Berichtlayouts eingerichtet werden, die bei Bedarf
 Es gibt zwei Arten Berichtlayouts, die Sie in Berichten verwenden können, Word und RDLC.
 
 ## <a name="word-report-layout-overview"></a>Word-Berichtlayout - Übersicht
-Ein Word-Berichtlayout basiert auf einem Word-Dokument (DOCX-Datei-Typ). Word-Berichtslayouts ermöglichen es Ihnen, Berichtslayouts zu gestalten, indem Sie Microsoft Word 2013 oder höher verwenden. Ein Word-Berichtslayout bestimmt den Inhalt des Berichts und steuert, wie diese Inhaltselemente angeordnet werden und wie diese aussehen. Ein Word-Berichtlayoutbeleg verwendet normalerweise Tabellen, um Inhalt zu organisieren, wobei die Zellen Datenfelder, Text oder Bilder enthalten können.
+Ein Word-Berichtlayout basiert auf einem Word-Dokument (DOCX-Datei-Typ). Mit Word Berichtslayouts können Sie Berichtslayouts entwerfen, indem Sie Microsoft Word verwenden. Ein Word-Berichtslayout bestimmt den Inhalt des Berichts und steuert, wie diese Inhaltselemente angeordnet werden und wie diese aussehen. Ein Word-Berichtlayoutbeleg verwendet normalerweise Tabellen, um Inhalt zu organisieren, wobei die Zellen Datenfelder, Text oder Bilder enthalten können.
 
  ![Beispiel für einen Word-Berichtslayout-Beleg für NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 

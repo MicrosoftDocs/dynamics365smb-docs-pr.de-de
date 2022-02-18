@@ -1,21 +1,21 @@
 ---
-title: Ein Berichts- und Beleg-Layout importieren und exportieren| Microsoft Docs
-description: Sie können ein vorhandenes benutzerdefiniertes Berichtlayout als Datei an einem Speicherort auf dem Computer oder im Netzwerk speichern und exportieren sowie von dort aus wieder importieren.
+title: Importieren und Exportieren eines Berichts- und Beleg-Layouts
+description: Sie können ein vorhandenes benutzerdefiniertes Berichtslayout als Datei zu und von einem Speicherort auf Ihrem Computer oder Netzwerk importieren und exportieren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441068"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101347"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importieren und Exportieren von benutzerdefinierten Berichtslayouts
 Sie können ein vorhandenes benutzerdefiniertes Berichtslayout als Datei zu und von einem Speicherort auf Ihrem Computer oder Netzwerk importieren und exportieren. Beispielsweise können Sie ein Berichtlayout exportieren und dann die Datei an eine andere Person senden, die diese dann ändern kann. Diese Person kann die Änderungen am Layout vornehmen und Ihnen die Datei zurücksenden, damit Sie sie zurückimportieren können.  
@@ -51,10 +51,11 @@ Sie können ein vorhandenes benutzerdefiniertes Berichtslayout als Datei zu und 
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Siehe auch  
- [Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
- [Verwalten von Berichts- und Beleglayouts](ui-manage-report-layouts.md)  
- [Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)    
+## <a name="see-also"></a>Siehe auch
+
+[Erstellen und bearbeiten Sie einen benutzerdefinierten Bericht](ui-how-create-custom-report-layout.md)   
+[Verwalten von Berichts- und Beleglayouts](ui-manage-report-layouts.md)  
+[Arbeiten mit Berichten, Batchaufträgen und XMLports](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

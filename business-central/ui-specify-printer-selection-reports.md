@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547048"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102447"
 ---
 # <a name="set-up-printers"></a>Einrichten von Druckern
 
@@ -34,7 +34,7 @@ Um Ihre Druckanforderungen zu erfüllen, bietet [!INCLUDE[prod_short](includes/p
 
 ## <a name="set-up-universal-print"></a>Universal Print einrichten
 
-Universal Print ist ein auf Abonnements basierender Microsoft 365-Dienst, der vollständig auf Microsoft Azure ausgeführt wird. Sie erhalten eine zentralisierte Druckerverwaltung über das Universal Print-Portal. [!INCLUDE[prod_short](includes/prod_short.md)] stellt in Universal Print eingerichtete Drucker Clientbenutzern über die Erweiterung **Universal Print-Integration** zur Verfügung.
+Universal Print ist ein auf Microsoft 365 basierender Abonnement-Service, der vollständig über Microsoft Azure ausgeführt wird. Sie erhalten eine zentralisierte Druckerverwaltung über das Universal Print-Portal. [!INCLUDE[prod_short](includes/prod_short.md)] stellt in Universal Print eingerichtete Drucker Clientbenutzern über die Erweiterung **Universal Print-Integration** zur Verfügung.
 
 ![Universal Print Einrichtung.](media/Universal-Print-arch.png)
 
@@ -84,7 +84,7 @@ Ausführliche Anweisungen zum Einrichten finden Sie unter [Erste Schritte: Unive
 
     Wie Sie die Lizenz zuweisen, hängt davon ab, ob Sie sich online oder lokal in Business Central integrieren.
 
-    - Mit [!INCLUDE[prod_short](includes/prod_short.md)] Online weisen Sie Lizenzen über das Microsoft 365 Admin Center zu.
+    - Mit [!INCLUDE[prod_short](includes/prod_short.md)] online weisen Sie Lizenzen über das Microsoft 365 Admin-Center zu.
 
       Weitere Informationen finden Sie unter [Microsoft Admin Center-Hilfe – Benutzern Lizenzen zuweisen](/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -267,6 +267,9 @@ Sie oder der Administrator können auch die Seite **Druckerauswahl** verwenden, 
 
 > [!NOTE]
 > Spezifischere Druckerauswahlen haben Vorrang vor einer allgemeineren Druckerauswahl. Zum Beispiel hat eine Druckerauswahl, die Werte in den Feldern **Benutzer-ID**, **Berichts-ID** und **Druckername** hat, Vorrang vor einer Druckerauswahl, die leere Einträge in den Feldern **Benutzer-ID** oder **Berichts-ID** hat.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>Auswählen des Druckers beim Ausführen eines Berichts
+Anstatt den Standarddrucker zu verwenden, wenn Sie einen Bericht ausführen, können Sie diese Einstellung auf der Anforderungsseite außer Kraft setzen. Wählen Sie einfach im Dropdown-Menü **Drucker** den Drucker aus, den Sie für diesen Berichtsaufruf verwenden möchten.
 
 ### <a name="sizing-print-jobs"></a>Größe von Druckaufträgen anpassen
 

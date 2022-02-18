@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 119, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9173
+ms.search.form: 119, 6300, 6301, 6302, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9173
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2c81046828e6be26683853d2c9cb7836ed939fb1
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 5e11c7b88a17998086f0f11e809415248ad8f389
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029166"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115340"
 ---
 # <a name="create-users-according-to-licenses"></a>Benutzer nach Lizenzen anlegen
 

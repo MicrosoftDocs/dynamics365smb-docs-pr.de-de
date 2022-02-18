@@ -4,22 +4,21 @@ description: Legen Sie eine Verbindung zwischen Business Central und Dataverse f
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3ee8bb3bee08c131447233de7b691d2bb2e46bd
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: bbe27c46562fa7550619283cb85cd1d7dcc76a3c
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940476"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059544"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Mit Microsoft Dataverse verbinden
 
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 In diesem Thema wird beschrieben, wie Sie eine Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)]und [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten. Typischerweise stellen Unternehmen die Verbindung her, um Daten mit einer anderen Dynamics 365-Geschäftsanwendung, z. B. [!INCLUDE[crm_md](includes/crm_md.md)], zu integrieren und zu synchronisieren.  
 
@@ -41,7 +40,7 @@ Sie müssen einige Informationen bereithalten, bevor Sie die Verbindung herstell
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Eine Verbindung mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einrichten
 
-Für alle anderen Authentifizierungstypen als die Microsoft 365-Authentifizierung richten Sie Ihre Verbindung mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] auf der Seite **Dataverse Verbindungseinrichtung** ein. Für die Microsoft 365-Authentifizierung empfehlen wir die Anleitung zur unterstützten Einrichtung für die **Dataverse Verbindung**. Der Leitfaden erleichtert die Einrichtung der Verbindung und die Festlegung erweiterter Funktionen, wie z. B. Personenbesitz und Erstsynchronisierung.  
+Für alle anderen Authentifizierungsarten als die Microsoft 365-Authentifizierung legen Sie Ihre Verbindung auf der Seite **Dataverse Verbindungseinrichtung** auf [!INCLUDE[cds_long_md](includes/cds_long_md.md)] fest. Für die Microsoft 365-Authentifizierung empfehlen wir Ihnen, die Anleitung **Dataverse Verbindungseinrichtung** zur unterstützten Einrichtung zu verwenden. Der Leitfaden erleichtert die Einrichtung der Verbindung und die Festlegung erweiterter Funktionen, wie z. B. Personenbesitz und Erstsynchronisierung.  
 
 > [!IMPORTANT]
 > Während der Einrichtung der Verbindung mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] wird der Administrator aufgefordert, der registrierten Azure-Anwendung mit dem Namen [!INCLUDE[prod_short](includes/prod_short.md)] Integration für [!INCLUDE[cds_long_md](includes/cds_long_md.md)] zu erteilen:

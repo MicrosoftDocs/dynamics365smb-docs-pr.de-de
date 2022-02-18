@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d058b15ad55713a22ee70862f666301d36d53e0a
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444920"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060038"
 ---
 # <a name="work-with-bills-of-material"></a>Mit Fertigungsstücklisten arbeiten
 Verwenden Sie Stücklisten (BOMs), um beispielsweise Oberartikel zu strukturieren, die nach Ressourcen oder Arbeitsplätze aus Komponenten montiert oder gefertigt werden müssen. Eine Montagestückliste kann auch verwendet werden, um den übergeordneten Artikel als Kit zu verkaufen, das aus den Komponenten bestehet.
@@ -71,7 +72,7 @@ Auf der Seite **Montagestückliste** können Sie ein separates Fenster öffnen, 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Um den Montageartikel von den Komponenten in Belegzeilen ersetzen
 von beliebigen Verkaufs- und Einkaufsbeleg aus, die einen Montageartikel enthalten, können Sie eine spezielle Funktion verwenden, um die Zeile für den Montageartikel durch neue Zeilen für Komponenten zu ersetzen. Diese Funktion kann beispielsweise dann nützlich sein, wenn Sie die Komponenten als Kit verkaufen möchten, das den Montageartikel darstellt.
 
-Die Funktion „Stückliste entfalten“ ist auch auf der Seite **Montagestückliste** als Methode zum Anzeigen untergeordneter Artikel in Unterbaugruppen auf einer Montagestückliste verfügbar.
+Die Aktion **Stückliste auflösen** ist auch auf der Seite **Montagestückliste** verfügbar, um die Artikel der Unterbaugruppe in einer Montagestückliste anzuzeigen.
 
 > [!CAUTION]  
 >  Wenn Sie die Funktion **Stückliste entfalten** verwendet haben, können Sie sie nicht einfach rückgängig machen. Um die Aktion rückgängig zu machen, müssen Sie die Verkaufsauftragszeilen, die die Komponenten darstellen, löschen und dann erneut eine Verkaufsauftragszeile für den Montageartikel eingeben.

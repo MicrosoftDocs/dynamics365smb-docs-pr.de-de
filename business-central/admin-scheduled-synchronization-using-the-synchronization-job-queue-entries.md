@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 07eaab3182d51bd7b76d1ffbbfb7ad18338faeb7
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 28a6a26e8065f16d201b8f1650685dd645805863
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325431"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049822"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planen einer Synchronisierung zwischen Business Central und Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] mit [!INCLUDE[cds_long_md](includes/cds_long_md.md)] in geplanten Intervallen synchronisieren, indem Sie Projekte in der Projektwarteschlange einrichten. Die Synchronisierungsprojekte synchronisieren Daten in [!INCLUDE[prod_short](includes/prod_short.md)]-Datensätzen und [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-Datensätzen, die zuvor gekoppelt wurden. Für Datensätze, die nicht bereits gekoppelt sind, können die Synchronisierungsprojekte entsprechend der Synchronisierungsrichtung und -regeln neue Datensätze im Zielsystem erstellen und koppeln. 
 

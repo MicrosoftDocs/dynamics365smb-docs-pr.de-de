@@ -1,5 +1,5 @@
 ---
-title: Erstellen und Verwalten von Unternehmenskontakten | Microsoft Docs
+title: Erstellen und Verwalten von Firmenkontakten
 description: Sie richten alle externen Entitäten ein, mit denen Sie Geschäftsbeziehungen haben (wie Debitoren, Interessenten, Kreditoren und Berater).
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
+ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 87c30031b9c7bf653c7e43fea63ffb623107c25e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 581e89630782f4cfca364838002fa4eca4ddbb6d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785523"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060170"
 ---
 # <a name="managing-contacts"></a>Kontakte verwalten
 

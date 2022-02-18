@@ -12,14 +12,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f204c769a7a1fc8ddf3c6fd97fe485be8940dc43
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437126"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101321"
 ---
 # <a name="create-reports-with-xbrl"></a>Berichte mit XBRL erstellen
+
+> [!NOTE]
+> Wir sind dabei, die Funktionen für XBRL-Berichte aus [!INCLUDE[prod_short](includes/prod_short.md)] zu entfernen. Weitere Informationen finden Sie unter [Änderungen in 2022 Release Welle 1](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
+
 XBRL (eXtensible Geschäfts-Berichterstellungs-Sprache) ist eine XML-basierte Sprache zum Kennzeichnen von Finanzdaten, dies es Unternehmen ermöglicht, Daten effizient und genau zu verarbeiten und freizugeben. Die XBRL-Initiative ermöglicht die Erstellung globaler Finanzberichte durch verschiedene ERP-Softwareunternehmen und internationale Buchhaltungsorganisationen. Das Ziel der Initiative ist es, einen Standard für die einheitlichen Berichterstellung der Finanzdaten für Banken, Investoren und Regierungsbehörden bereitzustellen. Solche Geschäftsberichte können Folgendes umfassen:  
 
  • Finanzauswertungen  

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a511cc2496d32f2feee7c684d073395db2ef8c5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cd9ca9b1b3aac2f1c531090342d5c43bfa64943e
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445626"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059882"
 ---
 # <a name="trace-item-tracked-items"></a>Verfolgen von Artikeln mit Artikelverfolgung
 Sie können sehen, wo ein Artikel mit Artikelverfolgung verwendet wurde. Dazu gehören die Informationen, wie und wann der Artikel entgegengenommen oder produziert, umgelagert, verkauft, verbraucht oder zurückgegeben wurde. Sie können außerdem alle aktuellen Instanzen einer bestimmten Serien- oder Chargennummern in der Datenbank suchen. Dazu können Sie die Funktionen „Artikelablaufverfolgung“ und [Posten suchen](ui-find-entries.md) verwenden.  
@@ -32,25 +33,25 @@ Diese Funktionen können insbesondere in der Qualitätssicherung hilfreich sein,
 
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Artikelablaufverfolgung** ein und wählen Sie dann den entsprechenden Link.  
 2.  Geben Sie in die Filterfelder oben auf der Seite die Artikelnummern oder einen Filter für die Artikelnummern ein, die Sie verfolgen möchten.  
-3.  Wählen Sie im Feld **Komponenten anzeigen** aus, ob auch angezeigt werden soll, woher die Komponenten für die Artikel stammten. In diesem Feld haben Sie die folgenden Optionen.  
+3.  Wählen Sie im Feld **Komponenten anzeigen**, ob Sie auch sehen möchten, woher die Komponenten für die Artikel stammen. Die Optionen werden in der folgenden Tabelle beschrieben.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |----------------------------------|---------------------------------------|  
-    |**Nein**|Wählen Sie diese Option aus, wenn keine Komponenten angezeigt werden sollen.|  
-    |**Nur Artikelverfolgung**|Wählen Sie diese Option aus, wenn nur Komponenten angezeigt werden sollen, die eine Chargen- oder Seriennummer haben.|  
-    |**Alle**|Wählen Sie diese Option aus, wenn alle Komponenten angezeigt werden sollen.|  
+    |**Nein**|Komponenten nicht anzeigen.|  
+    |**Nur Artikelverfolgung**|Zeigen Sie nur Komponenten an, die eine Los- oder Seriennummer haben.|  
+    |**Alle**|Alle Komponenten anzeigen.|  
 
-4.  Wählen Sie im Feld **Ablaufverfolgungsmethode** die Methode aus, die für die Ablaufverfolgung des Artikels verwendet werden soll. Es gibt folgende Optionen  
+4.  Wählen Sie im Feld **Verfolgungsmethode** die Methode aus, mit der der Artikel verfolgt werden soll. Die Optionen werden in der folgenden Tabelle beschrieben.  
 
-    |Feld|Description|  
+    |Feld|Beschreibung|  
     |----------------------------------|---------------------------------------|  
-    |**Verbrauch -> Ursprung**|Bei dieser Methode wird der Artikel ab dem Punkt, an dem er verwendet wurde, bis zu dem Punkt, von dem er kam, zurückverfolgt. Wenn beispielsweise ein Produktionsartikel an einen Debitor verkauft wurde, wird für den Artikel auf der Seite **Artikelablaufverfolgung** zuerst die Verkaufslieferzeile angezeigt, die Sie erweitern können, um zu sehen, zu welchem Fertigungsauftrag der Artikel gehörte.|  
-    |**Ursprung -> Verbrauch**|Bei dieser Methode wird der Artikel ab dem Punkt, an dem er in den Lagerbestand übernommen wurde, bis zu dem Punkt verfolgt, an dem er verwendet wurde. Wenn beispielsweise ein Produktionsartikel an einen Debitor verkauft wurde, wird für den Artikel auf der Seite **Artikelablaufverfolgung** zuerst der beendete Fertigungsauftrag angezeigt, den Sie erweitern können, um die Verkaufslieferungszeilen zu sehen, in denen der Artikel verwendet wurde.|  
+    |**Verbrauch -> Ursprung**|Verfolgen Sie den Artikel von seinem Verwendungsort bis zu seinem Herkunftsort. Wenn beispielsweise ein Produktionsartikel an einen Debitor verkauft wurde, wird für den Artikel auf der Seite **Artikelablaufverfolgung** zuerst die Verkaufslieferzeile angezeigt, die Sie erweitern können, um zu sehen, zu welchem Fertigungsauftrag der Artikel gehörte.|  
+    |**Ursprung -> Verbrauch**|Verfolgen Sie den Artikel von seinem Eingang in den Bestand bis zu seinem Verwendungsort. Wenn zum Beispiel ein hergestellter Artikel an einen Debitor verkauft wurde, wird auf der Seite **Artikelablaufverfolgung** zuerst der fertige Produktionsauftrag angezeigt, den Sie dann erweitern können, um die Zeilen der Verkaufslieferscheine zu sehen, in denen der Artikel verwendet wurde.|  
 
 5.  Klicken Sie auf Aktionen **Ablaufverfolgung**, damit die Ablaufverfolgung ausgeführt wird.  
 
 > [!NOTE]  
->  Wenn Sie eine Charge über mehrere Transaktionen erhalten haben, zeigt die Seite **Artikelverfolgung** möglicherweise nicht alle Transaktionen an. Nur ausgeglichene Transaktionen werden angezeigt.  
+>  Nur ausgeglichene Transaktionen werden angezeigt. Wenn Sie dasselbe Los in mehreren Transaktionen erhalten haben, zeigt die Seite **Artikelablaufverfolgung** möglicherweise nicht alle Transaktionen an.   
 
 > [!NOTE]  
 >  Wenn ein zusätzlicher Buchungsverlauf unter einer Artikelablaufverfolgungszeile bereits durch eine weitere Zeile darüber aufgezeichnet wurde, ist das Kontrollkästchen **Bereits nachverfolgt** aktiviert. Um eine einfachere Ansicht zu bieten, werden solche zugrunde liegenden Zeilen nicht angezeigt.  

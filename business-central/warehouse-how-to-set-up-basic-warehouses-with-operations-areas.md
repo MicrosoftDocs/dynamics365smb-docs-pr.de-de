@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 35482dca465da05be01c4eed86e93d30a75e6dcf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6dbf91bcf720a3b57f7e6e9446b0a46d1e053987
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441397"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115198"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Basislager mit Vorgängen festlegen
 Wenn in den Basislagerkonfigurationen interne Vorgangsbereiche wie Produktion oder Montage vorhanden sind, in denen Lagerplätze das Einrichtungsfeld **Lagerplatz notwendig** und möglicherweise die Einrichtungsfelder **Kommissionierung erforderlich** und **Einlagerung erforderlich** verwenden, können Sie die folgenden Basislagerbelege verwenden, um Ihre Lageraktivitäten für interne Vorgangsbereiche zu erfassen:  
@@ -46,14 +47,15 @@ Die folgenden Verfahren basieren auf dem Einrichten von grundlegenden Lageraktiv
 3.  Aktivieren Sie im Inforegister **Lager** das Kontrollkästchen **Einlagerung erforderlich**, um anzugeben, dass ein Lagereinlagerungs- oder ein Lagerbestandsumlagerungsbeleg erstellt werden kann, wenn ein eingehender oder ein interner Herkunftsbeleg mit einem Lagerplatzcode freigegeben wird.  
 4.  Aktivieren Sie das Kontrollkästchen **Kommissionierung erforderlich**, um anzugeben, dass ein Lagerkommissionierbeleg oder ein Lagerbestandsumlagerungsbeleg erstellt werden muss, wenn ein ausgehender oder ein interner Herkunftsbeleg mit einem Lagerplatzcode erstellt wird.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Um eine Standardlagerplatzstruktur im Fertigungsbereich zu definieren  
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Um eine Standardlagerplatzstruktur im Fertigungsbereich zu definieren
+
 1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Lagerorte** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie den Lagerort, den Sie einrichten möchten.  
 3.  Geben Sie im Inforegister **Lagerplätze** im Feld **Off. Fert.-Ber.-Lagerpl.-Code** den Code des Lagerorts im Fertigungsbereich mit einer Menge von Komponenten ein, die der Maschinist verbrauchen kann, ohne eine Lageraktivität anfordern zu müssen, um sie zum Lagerplatz zu bringen. Artikel, die an diesem Lagerplatz eingelagert werden, werden in der Regel eingerichtet zur automatischen Buchung. Das bedeutet, dass das Feld **Buchungsmethode** die Option **Vorwärts** oder **Rückwärts** enthält.  
 4. Geben Sie im Feld **Fert.-Bereitst.-Lagerplatzcode** den Code des Lagerplatzes im Fertigungsbereich an, wo Komponenten, die für die Fertigung an diesem Lagerplatz kommissioniert werden, standardmäßig platziert werden, bevor sie verbraucht werden können. Artikel, die an diesem Lagerplatz eingelagert werden, werden in der Regel eingerichtet zur manuellen Verbrauchsbuchung. Das bedeutet, dass das Feld **Buchungsmethode** **Manuell** oder **Kommiss. + Vorwärts** oder **Kommiss. + Rückwärts** für Kommissionierungen und Lagerbestandsumlagerungen enthält.  
 
     > [!NOTE]  
-    >  Wenn Sie Lagerkommissionierungen verwenden, definiert das Feld **Lagerplatzcode** in der Komponentenzeile eines Fertigungsauftrags den *Entnahme*-Lagerplatz, in dem die Anzahl der Komponenten bei Buchung des Verbrauchs verringert wird. Wenn Sie Lagerbestandsumlagerungen verwenden, definiert das Feld **Lagerplatzcode** in FA-Komponentenzeilen den *Einlagerungs*-Lagerplatz im Vorgangsbereich, in dem der Lagermitarbeiter die Komponenten platzieren muss.  
+    > Wenn Sie Lagerkommissionierungen verwenden, definiert das Feld **Lagerplatzcode** in der Komponentenzeile eines Fertigungsauftrags den *Entnahme*-Lagerplatz, in dem die Anzahl der Komponenten bei Buchung des Verbrauchs verringert wird. Wenn Sie Lagerbestandsumlagerungen verwenden, definiert das Feld **Lagerplatzcode** in FA-Komponentenzeilen den *Einlagerungs*-Lagerplatz im Vorgangsbereich, in dem der Lagermitarbeiter die Komponenten platzieren muss.  
 
 5. Geben Sie im Inforegister **Lagerplätze** im Feld **Fert.-Ausgangslagerplatzcode** den Code des Lagerorts im Fertigungsbereich ein, von dem fertige Endartikel standardmäßig entnommen werden, sofern der Vorgang eine Lageraktivität beinhaltet. In den Basis-Lagerkonfigurationen wird die Aktivität als Lagereinlagerung oder Lagerbestandsumlagerung erfasst.  
 
@@ -61,7 +63,7 @@ Komponentenzeilen in Fertigungsaufträgen mit dem Vorgabe-Lagerplatzcode erforde
 
 Dieses Flussdiagramm zeigt, wie das Feld **Lagerplatzcode** in FA-Komponentenzeilen entsprechend Ihrer Einrichtung ausgefüllt wird.  
 
-![Flowdiagramm Lagerplatz.](media/binflow.png "BinFlow")    
+![Flowdiagramm Lagerplatz.](media/binflow.png "BinFlow")
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Um eine Standardlagerplatzstruktur im Montagebereich zu definieren
 Komponenten für Montageaufträge können nicht mit Lagerkommissionierungen kommissioniert oder gebucht werden. Verwenden Sie stattdessen die Seite **Lagerbestandsumlagerung**. Weitere Informationen finden Sie in [Umlagern von Komponenten in einen Arbeitsgangbereich in den grundlegenden Lagerfunktionen](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
@@ -136,8 +138,8 @@ Das Einrichten eines Fert.-Bereitst.-Lagerplatzes/Fert.-Ausgangslagerplatzes ste
 ## <a name="see-also"></a>Siehe auch  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
-[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
-[Montageverwaltung](assembly-assemble-items.md)    
+[Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)  
+[Montageverwaltung](assembly-assemble-items.md)  
 [Designdetails: Logistik](design-details-warehouse-management.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

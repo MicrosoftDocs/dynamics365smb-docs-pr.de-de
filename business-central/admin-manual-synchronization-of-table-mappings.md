@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e9cd03df1e26eca92f5a69d02d73caac902d2b6b
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435522"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049562"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synchronisieren Sie Tabellenzuordnungen manuell
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Eine Integrationstabellenzuordnung ordnet eine [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle (Datensatztyp), beispielsweise Debitor, einer [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabelle wie einem Konto zu. Die Synchronisierung einer Integrationstabellenzuordnung ermöglicht es Ihnen, Daten in allen Datensätzen der [!INCLUDE[prod_short](includes/prod_short.md)]-Tabelle und der [!INCLUDE[prod_short](includes/cds_long_md.md)]-Tabelle, die gekoppelt sind, zu synchronisieren. Je nach Konfiguration der Tabellenzuordnung kann die Synchronisierung zudem neue Datensätze in der Ziellösung für ungekoppelte Datensätze in der Quelle erstellen und koppeln.  
 

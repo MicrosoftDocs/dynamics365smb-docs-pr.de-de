@@ -483,6 +483,7 @@
 #### [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md)
 #### [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)
 #### [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Mahnungen für ausstehende Salden versenden](receivables-send-reminders.md)
 #### [Debitoren sperren](receivables-how-block-customers.md)
 #### [Arbeiten mit Zahlungstoleranzen und Zahlungsrabatt-Toleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
@@ -1605,6 +1606,120 @@
 ##### [Problembehebungsberichte drucken](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Regulatorische Warnungen übermitteln](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Business Intelligence und Berichte 
+
+## [Übersicht](reports-bi-reporting.md)
+
+## Berichte in der täglichen Arbeit verwenden
+### [Übersicht](reports-use-reports.md)
+### [Ausführen von Berichten](ui-work-report.md)
+### [Bookmarking eines Berichts](ui-bookmarks.md)
+### [Analysieren von Berichtsdaten mit Excel](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Drucken von Berichten](ui-specify-printer-selection-reports.md#default)
+### [Planen von Berichten](ui-work-report.md#ScheduleReport)
+### [Verwaltung gespeicherter Berichtseinstellungen](reports-saving-reusing-settings.md)
+### [Das Standard-Layout für Berichte ändern](ui-how-change-layout-currently-used-report.md)
+
+## Integrierte Berichte
+### [Bericht Übersicht](reports-available-reports.md)
+### Finanzen
+#### [Finanzielle Analysen](bi.md)
+#### [Analysieren von Finanzauszügen mit Excel](finance-analyze-excel.md)
+#### [Schlüssel-Finanzberichte](finance-reports.md)
+#### [Debitoren Berichte](receivables-reports.md)
+#### [Kreditorenberichte](payables-reports.md)
+#### [Cashflow Analyse](finance-setup-cash-flow-analyses.md)
+#### [Finanzdaten von mehreren Firmen konsolidieren](finance-consolidated-company-reporting.md)
+
+### Verkauf
+#### [Verkaufsberichte](sales-reports.md)
+#### [Rahmenauftragsstatus](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Paketverfolgung](sales-how-track-packages.md)
+#### [Betrachten Sie ungebuchte und gebuchte Zeilen des Verkaufsrahmenauftrags](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Einkauf
+#### [Einkaufsberichte](purchase-reports.md)
+#### [Sachkonto-Einträge für den Kauf anzeigen](ui-post-purchases.md#viewing-ledger-entries)
+
+### Bestand und Lager
+#### [Bestands- und Lagerberichte](inventory-wms-reports.md)
+#### [Verfügbarkeit von Artikeln](inventory-how-availability-overview.md)
+#### [Verfolgen Sie Artikel mit Serien‑, Chargen‑ und Paketnummern](inventory-how-work-item-tracking.md)
+#### [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)
+#### [Die Abstimmung zwischen dem Bestands-Sachkonto und dem Allgemeinen Hauptbuch prüfen](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [Cross-Docked Artikel in einem Versand- oder Kommissionierarbeitsblatt anzeigen](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Kostenträger
+#### [Projektberichte](project-reports.md)
+#### [Schätzungen der Auftragsnutzung anzeigen](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)
+
+### Anlagen
+#### [Anlagen Berichte](fa-reports.md)
+#### [Überwachung von Wartungskosten](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Überwachen des Versicherungsschutzes](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [Geänderte Abschreibungsbuchwerte anzeigen](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [Entsorgungsbucheinträge anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [Geplante Entsorgungswerte anzeigen](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Montageverwaltung
+#### [Berichte der Montageleitung](assembly-reports.md)
+#### [Ansicht der Stücklisten-Struktur](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Produktion
+#### [Produktionsberichte](production-reports.md)
+#### [Betrachten Sie die Ladung von Arbeits- und Maschinenplätzen](production-how-to-view-the-load-on-work-centers.md)
+#### [Ansicht von Sachkontoeinträgen für Arbeitsplätze](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### Service
+#### [So zeigen Sie die Servicestatistik an](service-service-statistics.md)
+#### [Serviceaufträge Übersicht](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Serviceangebote Übersicht](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Übersicht über gebuchte Belege](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Ad-hoc-Datenanalyse
+### [Übersicht](reports-adhoc-analysis.md)
+### [Sortieren, Suchen und Filtern](ui-enter-criteria-filters.md)
+### [Suchen und Filtern FAQ](ui-search-filter-faq.yml)
+### [Analysieren von Seitendaten in Excel](across-work-with-excel.md)
+### [Analysieren von Berichtsdaten mit Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Finanzielle Analysen](bi.md)
+
+## Integrierte Analysen 
+### [Übersicht](reports-built-in-analytics.md)
+### [Intelligente Einblicke](about-intelligent-cloud.md)
+### [Arbeiten mit Power BI Berichten](across-working-with-powerbi.md)
+### [Finanzielle Analysen](bi.md)
+### [Analysieren von Finanzauszügen mit Excel](finance-analyze-excel.md)
+### [Finanzdaten von mehreren Firmen konsolidieren](finance-consolidated-company-reporting.md)
+### [Telemetrie der Berichtsnutzung](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Analysieren von Daten in Business Intelligence Tools
+### [Übersicht](reports-external-analysis.md)
+### [Verwendung von Power BI mit Business Central](admin-powerbi.md)
+### [Analysieren von Finanzauszügen mit Excel](finance-analyze-excel.md)
+### [Daten in Data-Warehouses oder Data-Lakes extrahieren](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Lesen von Daten mit der Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Entwickeln von Berichten
+### [Übersicht](reports-develop-reports.md)
+### Entwickeln von Berichtslayouts
+#### [Layout-Typen (Word und RDLC)](ui-manage-report-layouts.md)
+#### [Ein neues Layout erstellen](ui-how-create-custom-report-layout.md)
+#### [Schriftarten in Layouts verwenden](ui-fonts.md)  
+#### [Arbeiten mit Word-Layouts](ui-how-add-fields-word-report-layout.md)
+#### [Importieren/Exportieren eines Layouts](ui-how-import-and-export-report-layout.md)
+#### [Layout aktualisieren](ui-update-report-layouts.md)
+#### [Das Standard-Layout ändern](ui-how-change-layout-currently-used-report.md)
+### Entwickeln von Berichts-Datasets
+#### [Anleitung zur Entwicklung von Berichten](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Anleitung zur Leistungsoptimierung von Berichten](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Sicherheit, Datenschutz, Konformität
 ## Sicherheit und Schutz
 ### [Sicherheits- und Schutzübersicht (nur in englischer Sprache)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

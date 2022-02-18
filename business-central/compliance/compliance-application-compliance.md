@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2631307db3975eeb406662caac2edf2f9d83238c
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323718"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101452"
 ---
 # <a name="application-compliance"></a>Anwendungs-Kompatibilität
 
@@ -77,7 +77,6 @@ Stellen Sie integrierte Informationen, abgestimmte Prozesse und benutzerfreundli
 - Sparen Sie Zeit, wenn Sie Standardberichte erstellen, die allgemeine Geschäftsparameter und die Kriterien verwenden, um Berichtsanforderungen zu erfüllen, angefangen bei Auftragszusammenfassungen bis zu Debitorenkonten.
 - Führen Sie komplexe Überprüfungen mit erweiterter oder grundlegender Geschäftsanalytikfunktionalität aus.
 - Erstellen Sie benutzerdefinierte Berichte und Produktanzeigen und nutzen Sie die Integration von Microsoft POWERBI.
-- Beschleunigen Sie die Übertragung der Finanzdaten zu Debitoren, Aktionären, Aufsichtsbehörden und der Öffentlichkeit MIT XML-basierten XBRL-Belegen, die den Austausch der Finanzdaten über Software und Technologien unterstützen, einschließlich dem Internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Stellen Sie klare Protokolle sicher
 

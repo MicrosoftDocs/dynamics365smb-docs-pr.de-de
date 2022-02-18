@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 30, 42, 43
+ms.search.form: 30, 31, 8645
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 78c69d4849dc7e7687f6bb0cdeb0229baeec1b0c
-ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
+ms.openlocfilehash: 8c05c009cddcb957cc55b6ee5c384747033b9971
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7974992"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115158"
 ---
 # <a name="design-details-costing-methods"></a>Designdetails: Kostenberechnungsmethoden
 

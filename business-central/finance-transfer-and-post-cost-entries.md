@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1100, 1103, 1104, 1113
+ms.search.form: 1100, 1103, 1104, 1108, 1113, 1135
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 92a7b0f4878f7cd23f4fc672e9723050ca7bde7e
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: a8470005ae732c1691983fd36c19c5f90724ba18
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970805"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100921"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Übertragen und Buchen von Kalkulationen
 

@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 431, 432, 478
-ms.date: 04/01/2021
+ms.search.form: 431, 432, 436, 478
+ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: d22b970f2bd400e8bd5886266cf21ee32a6c9dee
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: caa31498ac63d376d4fb13f83c66664a1cf78bcd
+ms.sourcegitcommit: 8a968e9176a913635e47e5170c66962e485e6689
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970364"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "8105750"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Einrichten von Mahnmethoden, Bestimmungen und Mahntext
 
@@ -102,7 +102,8 @@ Geben Sie nach der Einrichtung der Mahnmethoden (mit zusätzlichen Stufen und Te
 ## <a name="see-also"></a>Siehe auch
 
 [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)  
-[Zinskonditionen einrichten](finance-setup-finance-charges.md)  
+[Mahnungen für ausstehende Salden versenden](receivables-send-reminders.md)  
+[Konditionen für Finance-Belastungen festlegen](finance-setup-finance-charges.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 
 

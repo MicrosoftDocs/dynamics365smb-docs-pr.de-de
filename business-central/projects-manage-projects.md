@@ -6,15 +6,15 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 89, 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
+ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 8f08b42af793772c98c0671cdf44934638fb8db7
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 2c53179960fc6b9ebd7a77193b13d271f22fe1b1
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972148"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101269"
 ---
 # <a name="project-management"></a>Projektmanagement
 

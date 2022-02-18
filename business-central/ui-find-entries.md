@@ -1,5 +1,5 @@
 ---
-title: Posten finden | Microsoft Docs
+title: Einträge suchen
 description: Dieser Artikel beschreibt, wie Dokumente und Posten verknüpft sind
 author: jswymer
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
+ms.search.form: 344
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: c2c5dbf6dc94980e579de8b2a9bbecaca7cfeb16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5c51ac2739ae3dabc94c519fd43ec2f591743da8
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435019"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101529"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Suchen verwandter Posten für gebuchte Belege 
 

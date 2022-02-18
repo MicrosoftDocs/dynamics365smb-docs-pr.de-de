@@ -1,5 +1,5 @@
 ---
-title: 'Vorgehensweise: Artikel reservieren | Microsoft Docs'
+title: Wie Sie Artikel reservieren
 description: Sie können Artikel für Verkaufsaufträge, Einkaufsbestellungen und Fertigungsaufträgen reservieren. Sie können Artikel in Lager oder eingehenden in Zeilen der offenen Belegzeile reservieren.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17f2c35d1a28bae7c12e706ff2220bf8d7b48719
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d53de74aa14001598177fcbf7d83d519fad9e0fd
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445676"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060064"
 ---
 # <a name="reserve-items"></a>Artikel reservieren
 Reservieren Sie Lager oder eingehenden Artikel für Verkaufsaufträge, Bestellungen, Serviceaufträge, Montageaufträge oder Fertigungsaufträge. Sie können Artikel in Lager oder eingehenden in Zeilen der offenen Belegzeile reservieren. Sie führen die Arbeit auf der Seite **Reservierungen** aus.
@@ -41,7 +42,7 @@ Nachfolgend wird erläutert, wie Entscheidungsträger als Artikel aus einem Verk
 ## <a name="to-reserve-an-item-for-a-production-order-line"></a>Artikel für FA-Zeilen reservieren  
 Sie können Artikel für Erstellungsaufträge reservieren. Sie müssen zwischen Produktionsauftragszeilen, d.h. übergeordnete Artikel und Produktionsauftragskomponenten unterscheiden.
 
-Im weiteren Prozess wird ein fest geplanter Fertigungsauftrag verwendet.   
+Im folgenden Verfahren wird ein fest geplanter Fertigungsauftrag verwendet.   
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Was möchten Sie tun?") Symbol. Geben Sie **Firm Planned Prod. Auftrag** ein und wählen Sie dann den zugehörigen Link.  
 2. Öffnen Sie den fest geplanten Produktionsauftrag, den Sie für übergeordnete Artikel reservieren möchten.  
 3. Wählen Sie die entsprechende FA-Zeilennummer aus.  

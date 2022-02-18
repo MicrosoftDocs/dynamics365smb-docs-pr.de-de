@@ -8,15 +8,15 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 894414ca22ec960c228f9519cb54d9044790a87b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: df6bf07fad3b9029b1a033d6ec17a869004995ab
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324075"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049469"
 ---
 # <a name="handling-missing-option-values"></a>Behandlung fehlender Optionswerte
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Dieses Thema richtet sich an ein technisches Publikum. Die darin beschriebenen Prozesse erfordern die Hilfe eines Entwicklers.
 

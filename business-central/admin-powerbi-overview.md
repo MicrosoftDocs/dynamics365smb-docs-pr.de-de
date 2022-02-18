@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9ce0b5232a0629bb6248eaaaade69b7c7ebceb02
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 6260edff16c0d9123d389f59f0d035b2e87766b4
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012341"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049511"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Übersicht über die Power BI-Integrationskomponente und -Architektur für [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -48,7 +48,9 @@ Die verfügbaren Funktionen werden in der folgenden Tabelle beschrieben.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] wird über einen Connector mithilfe von OData mit Power BI integriert. Die Datenquelle für Power BI-Berichte wird als API-Seiten und OData-Webdienste dargestellt.
 
-![Power BI-Architektur für die Integration mit Business Central.](./media/power-bi-architecture.png)
+:::image type="content" source="./media/power-bi-architecture.png" alt-text="Bild-Alt-Text" lightbox="./media/power-bi-architecture.png":::
+
+Ab Februar 2022 werden Power BI-Berichte für [!INCLUDE[prod_short](includes/prod_short.md)] online von einer sekundären, schreibgeschützten Datenbankreplik bezogen. Die Datenbankreplik ist Teil der [Lesen von Scale-out](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) Funktionalität in [!INCLUDE[prod_short](includes/prod_short.md)] online. Diese Konfiguration gibt die Hauptdatenbank für Transaktionen frei, was die Leistung des Systems verbessert. Die Verbindung mit der schreibgeschützten Datenbankreplik ist ein integraler Bestandteil des Business Central Online Konnektors und erfordert keine zusätzliche Einrichtung Ihrerseits. Alle neuen Berichte werden standardmäßig mit der schreibgeschützten Datenbankreplik verbunden. Alte Berichte verwenden weiterhin die Hauptdatenbank. Weitere Informationen finden Sie unter [Business Central 2021 Veröffentlichungszyklus 2 Plan](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
 ## <a name="general-flow"></a>Allgemeiner Ablauf
 

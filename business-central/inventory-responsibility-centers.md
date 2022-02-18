@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 5714, 5715
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 62cfc68f8c5cfca3a152aa1de7054f872c47f911
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e966e5050cf16ce60e07983f129be318706fbbf3
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439385"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059334"
 ---
 # <a name="work-with-responsibility-centers"></a>Arbeiten mit Zuständigkeitseinheiten
 

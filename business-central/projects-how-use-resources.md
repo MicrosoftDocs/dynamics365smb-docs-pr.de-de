@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.search.form: 201, 493
+ms.search.form: 201,206, 207, 271, 493
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: df210235cc90a77e063b7b92068f95dfc9da9e6a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 67229e5ee977c37edac3e9b805212b89f5a17dfb
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972174"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101373"
 ---
 # <a name="use-resources-for-jobs"></a>Verwenden von Ressourcen für Projekte
 

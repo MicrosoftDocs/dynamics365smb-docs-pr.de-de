@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 391, 30
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8e46b2f531830fabbb501257295761fc6d13b63b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0a9a56e44ecf9e832da99f60a6256aa93240e524
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318334"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101191"
 ---
 # <a name="add-extended-text"></a>Textbaustein hinzufügen
 

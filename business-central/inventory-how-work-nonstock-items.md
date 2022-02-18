@@ -1,7 +1,6 @@
 ---
-title: Erstellen und Verwalten von Katalogaritkel | Microsoft Docs
+title: Erstellen und Verwalten von Katalogartikeln
 description: Beschreibt, wie man den Artikel behandelt, der in der Übersicht der Artikel aber nicht in Ihrer persönlichen Artikelliste ist.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
+ms.search.forms: 5725, 5726, 5732
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 8e90de738a03887518ba8e4c33e0185da3134a6b
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588551"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060006"
 ---
 # <a name="work-with-catalog-items"></a>Arbeiten mit Katalogartikeln
 Sie können Ihren Debitoren bestimmte Artikel als Dienstleistung anbieten, die Sie nicht im Lager verwalten möchten, bis Sie den Verkauf sie starten. Wenn Sie damit beginnen wollen, solche Artikel im Lager zu verwalten, können Sie sie auf zwei Arten in normale Artikelkarten umwandeln.

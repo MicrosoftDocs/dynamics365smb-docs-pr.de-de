@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: d9197f158423fa969dd6270c20dd43c26ae75b99
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 77f8634de4d35c2b8a1d3df240dfc850c25546ec
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482247"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060222"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Verfolgen Sie Artikel mit Serien-, Chargen‑ und Paketnummern
 
